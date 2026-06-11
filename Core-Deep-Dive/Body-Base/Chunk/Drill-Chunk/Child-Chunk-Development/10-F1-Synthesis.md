@@ -1,13 +1,14 @@
 ---
-title: 10 — F1-Synthesis (7 Nút Thắt final verdicts + H1 + H11 + PFC-Inference Ladder + R-F1-* framework updates)
+title: 10 — F1-Synthesis (7 Convergence Point final verdicts + H1 + H11 + PFC-Inference Ladder + R-F1-* framework updates)
 parent: Child-Chunk-Development
 session: N+4c2
 status: DRILLED
 last_updated: 2026-04-16
+language: English
 drill_phase: F1-P15
-addresses_nut_that: ["ALL 7 — aggregation file with final verdicts + 99-Master-Synthesis integration commitments"]
+addresses_nut_that: ["ALL 7 Convergence Points — aggregation file with final verdicts + 99-Master-Synthesis integration commitments"]
 hypotheses: ["H1 substrate final verdict", "H11 final formalization aggregation", "PFC-Inference Ladder framework contribution formal statement"]
-framework_contributions: ["R-F1-1 through R-F1-10 framework update recommendations", "PFC-Inference Ladder formal contribution", "H11 + Nút Thắt 6 hybrid handle architecture"]
+framework_contributions: ["R-F1-1 through R-F1-10 framework update recommendations", "PFC-Inference Ladder formal contribution", "H11 + Convergence Point 6 hybrid handle architecture"]
 scope: Commitment file — delivers verdicts, does not drill new analyses
 ---
 
@@ -16,12 +17,12 @@ scope: Commitment file — delivers verdicts, does not drill new analyses
 ```
 Drill Label → Framework Name Mapping (added 2026-05-30)
 
-  Labels trong file này = drill provenance markers.
-  Framework active files dùng TÊN CỐ ĐỊNH bên dưới.
-  Bảng đầy đủ: xem 99-Master-Synthesis.md §2.6.
+  Labels in this file = drill provenance markers.
+  Framework active files use FIXED NAMES below.
+  Full table: see 99-Master-Synthesis.md §2.6.
 
   ┌────────┬────────────────────────────────────┐
-  │ Drill  │ Framework Name (cố định)           │
+  │ Drill  │ Framework Name (fixed)             │
   ├────────┼────────────────────────────────────┤
   │ H1     │ Chunk-Substrate                    │
   │ H11    │ Receptive-Productive-Asymmetry     │
@@ -38,9 +39,9 @@ Drill Label → Framework Name Mapping (added 2026-05-30)
 
 ## §0 — Abstract
 
-File này là **commitment file** cho F1 Child-Chunk-Development. Không drill phân tích mới. Tổng hợp và formalize:
+This file is the **commitment file** for F1 Child-Chunk-Development. No new analysis is drilled here. It synthesizes and formalizes:
 
-1. **7 Nút Thắt final verdicts** — tất cả đều đã committed trong các arc files trước N+4c2; §1 aggregates và delivers formal statements cho 99-Master-Synthesis integration
+1. **7 Convergence Point final verdicts** — all committed across arc files before N+4c2; §1 aggregates and delivers formal statements for 99-Master-Synthesis integration
 2. **H1 (chunk substrate) verdict** — cross-cutting hypothesis supported by F1 drill + prior N+1/N+2/N+3 drilled sub-folders
 3. **H11 final formalization** — refers to [08 §6](08-Verbal-Production-Arc.md#§6) primary home; §3 aggregates for Master-Synthesis
 4. **PFC-Inference Ladder framework contribution** — 5-level ladder with empirical grip (10-marker catalog), falsifiable predictions, formal proposal for framework inclusion
@@ -50,13 +51,13 @@ File này là **commitment file** cho F1 Child-Chunk-Development. Không drill p
 8. **N+5 F3 start directions**
 
 **F1 drill status at start of 10**: 11/12 files drilled (10264 lines cumulative before 10). Verdicts committed:
-- ⭐ Nút Thắt 1 (gradient view) — [04 §6.4](04-Auditory-System-Arc.md#§6.4)
-- ⭐ Nút Thắt 2 (Precondition-2 compile mechanism) — [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) + [06b §6.2](06b-Interoceptive-Other-States.md#§6.2) 5-for-5 validation
-- ⭐ Nút Thắt 3 (multi-mechanism binding) — [07 §6](07-Social-Recognition-Arc.md#§6)
-- ⭐ Nút Thắt 4 (PFC hardware × chunks) — [01](01-PFC-Hardware-Reframe.md) + reinforced by 10-marker catalog
-- ⭐ Nút Thắt 5 (H11 Receptive-Productive) — [08 §6](08-Verbal-Production-Arc.md#§6)
-- ⭐ Nút Thắt 6 (verbal-as-handle hybrid) — [08 §5](08-Verbal-Production-Arc.md#§5)
-- ⭐ Nút Thắt 7 (cortisol tagging critical period) — [06a §7](06a-Interoceptive-Bladder-Keystone.md#§7) + [06b §6.3](06b-Interoceptive-Other-States.md#§6.3)
+- ⭐ Convergence Point 1 (gradient view) — [04 §6.4](04-Auditory-System-Arc.md#§6.4)
+- ⭐ Convergence Point 2 (Precondition-2 compile mechanism) — [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) + [06b §6.2](06b-Interoceptive-Other-States.md#§6.2) 5-for-5 validation
+- ⭐ Convergence Point 3 (multi-mechanism binding) — [07 §6](07-Social-Recognition-Arc.md#§6)
+- ⭐ Convergence Point 4 (PFC hardware × chunks) — [01](01-PFC-Hardware-Reframe.md) + reinforced by 10-marker catalog
+- ⭐ Convergence Point 5 (H11 Receptive-Productive) — [08 §6](08-Verbal-Production-Arc.md#§6)
+- ⭐ Convergence Point 6 (verbal-as-handle hybrid) — [08 §5](08-Verbal-Production-Arc.md#§5)
+- ⭐ Convergence Point 7 (cortisol tagging critical period) — [06a §7](06a-Interoceptive-Bladder-Keystone.md#§7) + [06b §6.3](06b-Interoceptive-Other-States.md#§6.3)
 
 **Scope**: Commitment, not new analysis. Any new mechanism claim should be drilled in its arc file, not in 10. 10 references and aggregates.
 
@@ -64,9 +65,9 @@ File này là **commitment file** cho F1 Child-Chunk-Development. Không drill p
 
 ---
 
-## §1 — 7 Nút Thắt final verdicts
+## §1 — 7 Convergence Point final verdicts
 
-### §1.1 — Nút Thắt 1: Proto-chunk discrete vs gradient
+### §1.1 — Convergence Point 1: Proto-chunk discrete vs gradient
 
 **Question** (plan §0.6): When does a "chunk" come into existence? Discrete threshold or gradient strengthening?
 
@@ -88,12 +89,12 @@ File này là **commitment file** cho F1 Child-Chunk-Development. Không drill p
 **Implications for framework**:
 - **H1 substrate primitives are strength-weighted associative networks**, not binary symbolic chunks (consistent with biological substrate)
 - **Proto-chunks** are useful theoretical term for "chunks forming but not yet behaviorally detectable"
-- **Chunk compile rate varies** by input saliency + repetition frequency + emotional tagging + multi-modal reinforcement (basis for Nút Thắt 2 verdict)
+- **Chunk compile rate varies** by input saliency + repetition frequency + emotional tagging + multi-modal reinforcement (basis for Convergence Point 2 verdict)
 - **PFC-Inference Ladder levels are graded within level** — L2 can be weak or strong, etc.
 
 **Framework update**: R-F1-10 proposes adding gradient architecture note to [Body-Base/Schema/Chunk.md](../../Body-Base/Schema/Chunk.md) §2.
 
-### §1.2 — Nút Thắt 2: Precondition-2 Chunk-Substrate compile mechanism
+### §1.2 — Convergence Point 2: Precondition-2 Chunk-Substrate compile mechanism
 
 **Question** (plan §0.6): How do chunks reach "adequate" base for Body-Feedback-Precondition Precondition-2? What is the compile mechanism?
 
@@ -135,7 +136,7 @@ Formula correctly predicts ordinal ranking of every body state's L4 onset timing
 
 **Framework update**: R-F1-4 updates [Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5.5 Precondition-2 section with mechanism content.
 
-### §1.3 — Nút Thắt 3: Multi-modal binding at newborn
+### §1.3 — Convergence Point 3: Multi-modal binding at newborn
 
 **Question** (plan §0.6): How does newborn bind visual + auditory + somatic + emotional inputs into unified chunks without verbal labels and with PFC coordination still compiling?
 
@@ -163,13 +164,13 @@ Formula correctly predicts ordinal ranking of every body state's L4 onset timing
 
 **Implications**:
 - **H1 supported**: chunks are multi-modal **from substrate level**, not single-modality first then bound
-- **Nút Thắt 2 compile formula refined**: multi-modal richness added as 5th parameter
+- **Convergence Point 2 compile formula refined**: multi-modal richness added as 5th parameter
 - **F3 Language word-referent compile mechanism available**: multi-modal binding applies to word learning (hearing "dog" while seeing dog)
 - **Old "PFC offline" view further falsified**: multi-modal binding requires distributed cortical substrate + PFC observation; E12 emergence at 6-8wk is direct evidence
 
 **Framework update**: R-F1-3 commits multi-mechanism architecture to [Body-Base/Schema/Chunk.md](../../Body-Base/Schema/Chunk.md) §2.
 
-### §1.4 — Nút Thắt 4: PFC hardware × chunks missing reconciliation
+### §1.4 — Convergence Point 4: PFC hardware × chunks missing reconciliation
 
 **Question** (plan §0.6): PFC imaging shows hardware online from prenatal, but developmental psychology shows "PFC offline" behaviors until 12+ months. How to reconcile?
 
@@ -187,7 +188,7 @@ Formula correctly predicts ordinal ranking of every body state's L4 onset timing
 **Reconciliation**: The reframe says **PFC hardware is adult-capable substrate**. What develops is **content** (chunks compiled through experience) and **network integration** (recruitment patterns maturing). The baby's "limited PFC behavior" is limited chunks, not limited hardware.
 
 **Empirical support: 10-marker L2 catalog** (from [09 §3.3](09-Event-Chunks-Inference-Matrix.md#§3.3)):
-1. ⭐ Bladder đơ mặt 12-18mo (cleanest marker)
+1. ⭐ Bladder face-freeze 12-18mo (cleanest marker)
 2. Vaccination pre-cry 9-12mo (peak-negative)
 3. Anticipatory feeding response 3-4mo (peak-positive)
 4. Farroni direct gaze 2-5d (neutral)
@@ -212,7 +213,7 @@ Formula correctly predicts ordinal ranking of every body state's L4 onset timing
 
 **Framework update**: R-F1-1 updates [Imagination/PFC-Analysis.md](../../Imagination/PFC-Analysis.md) §4 timeline with reframe (partially completed in N+4 prep).
 
-### §1.5 — Nút Thắt 5: Receptive-Productive Asymmetry (H11)
+### §1.5 — Convergence Point 5: Receptive-Productive Asymmetry (H11)
 
 **Question** (plan §0.6): Why does language production lag comprehension by 6-12 months? Is this a PFC maturation timeline or something else?
 
@@ -263,7 +264,7 @@ Formula correctly predicts ordinal ranking of every body state's L4 onset timing
 
 **Framework update**: R-F1-6 proposes H11 as framework contribution for 99-Master-Synthesis.
 
-### §1.6 — Nút Thắt 6: Alternative labeling handles
+### §1.6 — Convergence Point 6: Alternative labeling handles
 
 **Question** (plan §0.6): Do chunks always need verbal labels to function? Can alternative labeling systems (gestures, actions, images) serve the same role? What does adding a verbal label actually do?
 
@@ -278,12 +279,12 @@ Formula correctly predicts ordinal ranking of every body state's L4 onset timing
 - **Labels are NOT 5th modality** — verbal is symbolic/arbitrary, not a sensory input channel; conflating auditory content (word-form) with symbolic function (refers-to) is the error
 - **Labels are NOT constitutive** — chunks do not require language to exist (pre-verbal chunk evidence overwhelming)
 
-**5 uses of labels** (from E21 "đói" verbatim):
-1. **Anticipation** — nhớ lại chunk khi không đang trải nghiệm
-2. **Communication** — truyền đạt với người khác về chunk
-3. **Planning** — plan dựa trên chunk
-4. **Composition** — combine với chunks khác ("đói + mệt")
-5. **Reflection** — reflect on chunk ("hôm nay tôi đói lắm")
+**5 uses of labels** (from E21 "hungry" / đói verbatim):
+1. **Anticipation** — recall the chunk when not currently experiencing it
+2. **Communication** — communicate to others about the chunk
+3. **Planning** — plan based on the chunk
+4. **Composition** — combine with other chunks ("hungry + tired" (đói + mệt))
+5. **Reflection** — reflect on the chunk ("I was so hungry today" *[Vietnamese: "hôm nay tôi đói lắm"]*)
 
 **5 handle systems identified** (from [08 §5.7](08-Verbal-Production-Arc.md#§5.7)):
 1. **Gestural handles** (baby sign, deaf sign, E25 gesture)
@@ -303,7 +304,7 @@ Formula correctly predicts ordinal ranking of every body state's L4 onset timing
 
 **Framework update**: R-F1-6 (scoped for NT6) updates [Body-Base/Schema/Chunk.md](../../Body-Base/Schema/Chunk.md) §2 with substrate-vs-enhancement architecture commitment. R-F1-9 updates [Modality-Analysis.md](../../Modality-Analysis.md) with "verbal is NOT 5th modality" commitment.
 
-### §1.7 — Nút Thắt 7: Body state at compile + chunk association (formerly "cortisol tagging")
+### §1.7 — Convergence Point 7: Body state at compile + chunk association (formerly "cortisol tagging")
 
 > **Scope correction (N+4c2-REV1)**: Earlier verdict used the misleading "cortisol tagging critical period" framing. That framing confounds cortisol *level* with body-state *direction* and misses the neural wear dimension. Verdict rewritten using the framework commitments established in [06a §7.0](06a-Interoceptive-Bladder-Keystone.md#§7.0) (upstream source: [Cortisol-Baseline.md](../../Cortisol-Baseline.md) + [Drive/Threat.md](../../Drive/Threat.md) + [Drive/Threat-Drive-Analysis.md](../../Drive/Threat-Drive-Analysis.md)).
 
@@ -317,13 +318,13 @@ Formula correctly predicts ordinal ranking of every body state's L4 onset timing
 
 > **Chunks compile with a body-state fingerprint that shapes their lifelong association. The fingerprint depends on five dimensions, not cortisol level alone:**
 >
-> **(1) Novelty vs Threat direction** of the co-active drive (⭐ most critical distinction) — the same cortisol level produces opposite chunk-association outcomes depending on whether the drive is novelty-dominant (chunks gắn opioid, "thích dùng") or threat-dominant (chunks gắn cortisol, "tránh dùng"). Cortisol is a sustainer of the body state, not the tagging agent itself.
+> **(1) Novelty vs Threat direction** of the co-active drive (⭐ most critical distinction) — the same cortisol level produces opposite chunk-association outcomes depending on whether the drive is novelty-dominant (chunks associate with opioid response, "want to use") or threat-dominant (chunks associate with cortisol response, "avoid using"). Cortisol is a sustainer of the body state, not the tagging agent itself.
 >
-> **(2) 4-threshold gradient** — nhẹ / vừa / nặng / cực đoan — governing the intensity of association. Level 1 (novelty-dominant, threat ~60:40) produces usable-preferred chunks. Level 3 (threat-dominant, ~95:5) produces structural chunk-association damage. Level 4 (traumatic, all mechanisms fire) produces trauma-bound chunks internally conflicted.
+> **(2) 4-threshold gradient** — Light / Moderate / Heavy / Extreme — governing the intensity of association. Level 1 (novelty-dominant, threat ~60:40) produces usable-preferred chunks. Level 3 (threat-dominant, ~95:5) produces structural chunk-association damage. Level 4 (traumatic, all mechanisms fire) produces trauma-bound chunks internally conflicted.
 >
 > **(3) Mechanism sources activated** — Physical (nociceptor, endorphin-buffered) / Social (no endorphin, oxytocin drops, persists longer) / Anticipation (PFC drip cortisol, potentially unbounded). Multi-mechanism threats compound damage disproportionately.
 >
-> **(4) Origin sources** — Domain (from reality, KEEP as natural learning substrate) / Peer social (mostly acceptable) / Imposed adult (uniquely damaging because parent = connection source + threat source simultaneously with no exit path).
+> **(4) Origin sources** — Domain (from reality, keep as natural learning substrate) / Peer social (mostly acceptable) / Imposed adult (uniquely damaging because parent = connection source + threat source simultaneously with no exit path).
 >
 > **(5) Critical period timing** — state-specific windows bounded by when the relevant chunks are actively compiling (Stage B threshold crossing). Not a single 0-3yr window but a state-specific map.
 >
@@ -364,7 +365,7 @@ Formula correctly predicts ordinal ranking of every body state's L4 onset timing
 - 🟢 **Emotional attachment evidence base** (Level 4 disorganized attachment as structurally different): strongest single-state evidence in F1
 - 🟢 **Pain (Anand & Craig) + Thermal (Mitchell SIDS edge case)**: strong anchors
 - 🟡 **Bladder (Brazelton/Bakker) + Hunger (Birch/Bird-Cook)**: correlation evidence, mechanism plausible but less direct
-- 🟡 **4-threshold gradient applied to parenting**: framework-level claim with Vietnamese intuitive anchors, needs empirical validation for specific thresholds
+- 🟡 **4-threshold gradient applied to parenting**: framework-level claim with intuitive anchors, needs empirical validation for specific thresholds
 - 🟡 **Imposed-parent amplification gradient** (Observation 1) and **cross-state damage amplification** (Observation 2) are novel framework syntheses, not upstream-anchored, plausible but need validation
 
 **Aggregate confidence**: 🟡🟢 — strong central mechanism + strong attachment evidence + plausible multi-state generalization.
@@ -381,7 +382,7 @@ Formula correctly predicts ordinal ranking of every body state's L4 onset timing
 
 ### §1.8 — Summary table of 7 verdicts
 
-| # | Nút Thắt | Verdict | Confidence | Primary home |
+| # | Convergence Point | Verdict | Confidence | Primary home |
 |---|---|---|---|---|
 | 1 | Proto-chunk gradient | Gradient (strength-weighted associative networks) | 🟢 | [04 §6.4](04-Auditory-System-Arc.md#§6.4) |
 | 2 | Precondition-2 Chunk-Substrate | 4-channel compile × 5-parameter rate formula | 🟡🟢 | [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) + [06b §6.2](06b-Interoceptive-Other-States.md#§6.2) |
@@ -391,7 +392,7 @@ Formula correctly predicts ordinal ranking of every body state's L4 onset timing
 | 6 | Verbal-as-handle | Hybrid: retrieval path + symbolic compression (not 5th modality, not constitutive) | 🟡 (🟢 negative claims) | [08 §5](08-Verbal-Production-Arc.md#§5) |
 | 7 | Body state at compile (formerly "cortisol tagging") | **Novelty vs Threat direction** + 4-threshold gradient + 3 mechanism × 3 origin taxonomy + state-specific critical periods + **neural wear dimension** (PFC synapse vulnerability, vicious cycle). Refined from earlier "cortisol tagging" framing — cortisol is sustainer, not tagging agent. | 🟡🟢 | [06a §7](06a-Interoceptive-Bladder-Keystone.md#§7) + [06b §6.3](06b-Interoceptive-Other-States.md#§6.3) |
 
-**Observation**: All 7 have primary verdicts committed. 4 of 7 have 🟡🟢 or 🟢 confidence. 3 of 7 are at 🟡 (framework-level claims with strong evidence but mechanism-level indirectness). **NT7 was refined in N+4c2-REV1** after audit against upstream framework files (Cortisol-Baseline.md + Drive/Threat.md + Drive/Threat-Drive-Analysis.md) — the refinement is architectural, not just scope expansion.
+**Observation**: All 7 have primary verdicts committed. 4 of 7 have 🟡🟢 or 🟢 confidence. 3 of 7 are at 🟡 (framework-level claims with strong evidence but mechanism-level indirectness). **CP7 was refined in N+4c2-REV1** after audit against upstream framework files (Cortisol-Baseline.md + Drive/Threat.md + Drive/Threat-Drive-Analysis.md) — the refinement is architectural, not just scope expansion.
 
 ---
 
@@ -405,15 +406,15 @@ Formula correctly predicts ordinal ranking of every body state's L4 onset timing
 
 1. **Pre-verbal chunk evidence** (§1.6 + [08 §5.2](08-Verbal-Production-Arc.md#§5.2)) — 9 chunk types demonstrated to function pre-verbally across 03-07. Chunks are not language-dependent.
 
-2. **Multi-modal substrate from birth** (§1.3 Nút Thắt 3) — chunks are multi-modal at substrate level via 4 concurrent mechanisms. No "single-modality first then bound" sequence.
+2. **Multi-modal substrate from birth** (§1.3 Convergence Point 3) — chunks are multi-modal at substrate level via 4 concurrent mechanisms. No "single-modality first then bound" sequence.
 
-3. **Gradient strength architecture** (§1.1 Nút Thắt 1) — chunks are strength-weighted associative networks, consistent with biological substrate (LTP, Hebbian learning, neural networks).
+3. **Gradient strength architecture** (§1.1 Convergence Point 1) — chunks are strength-weighted associative networks, consistent with biological substrate (LTP, Hebbian learning, neural networks).
 
-4. **Compile mechanism specified** (§1.2 Nút Thắt 2) — 4-channel compile × 5-parameter rate formula. Chunks compile via specific observable mechanisms, not via unspecified "development".
+4. **Compile mechanism specified** (§1.2 Convergence Point 2) — 4-channel compile × 5-parameter rate formula. Chunks compile via specific observable mechanisms, not via unspecified "development".
 
 5. **Non-uniform progression** ([09 §6](09-Event-Chunks-Inference-Matrix.md#§6)) — different body-input arcs compile at different rates driven by arc-specific modulator profiles. Consistent with chunks as content-level entities, not hardware milestones.
 
-6. **Asymmetric receptive/productive architecture** (§1.5 Nút Thắt 5 H11) — chunks have internal structure (receptive bundle vs productive bundle) with asymmetric compile rates. More specific substrate claim than initial H1.
+6. **Asymmetric receptive/productive architecture** (§1.5 Convergence Point 5 H11) — chunks have internal structure (receptive bundle vs productive bundle) with asymmetric compile rates. More specific substrate claim than initial H1.
 
 ### §2.2 — Cross-folder evidence compilation
 
@@ -510,7 +511,7 @@ See [08 §6.1](08-Verbal-Production-Arc.md#§6.1) for full line-by-line analysis
 
 **For 99-Master-Synthesis**:
 - H11 is a candidate framework contribution alongside PFC-Inference Ladder
-- H11 + Nút Thắt 6 hybrid verdict together provide the verbal architecture for the chunk substrate framework
+- H11 + Convergence Point 6 hybrid verdict together provide the verbal architecture for the chunk substrate framework
 
 ---
 
@@ -546,7 +547,7 @@ The L2 level is particularly critical because it marks the transition from refle
 
 (See §1.4 10-marker catalog or [09 §3.3](09-Event-Chunks-Inference-Matrix.md#§3.3) full table.)
 
-**⭐ Primary marker**: Bladder đơ mặt (passive freeze at neutral valence, cleanest signature). Full operational definition + 4 falsifiable predictions in [06a §5](06a-Interoceptive-Bladder-Keystone.md#§5).
+**⭐ Primary marker**: Bladder face-freeze (passive freeze at neutral valence, cleanest signature). Full operational definition + 4 falsifiable predictions in [06a §5](06a-Interoceptive-Bladder-Keystone.md#§5).
 
 ### §4.4 — Ladder falsifiable predictions
 
@@ -564,7 +565,7 @@ The L2 level is particularly critical because it marks the transition from refle
 
 The PFC-Inference Ladder is proposed as a framework tool for:
 1. **Developmental assessment** — multi-arc ladder classification provides richer picture than single-number "developmental age"
-2. **Parent education** — concrete markers (like đơ mặt) teach parents to observe meaningful behaviors
+2. **Parent education** — concrete markers (like face-freeze) teach parents to observe meaningful behaviors
 3. **Research methodology** — ladder classification for event-inference studies
 4. **Theory-empirical bridge** — connecting mechanism-level claims (compile, chunks, strength) to observable behavior
 
@@ -584,14 +585,14 @@ The PFC-Inference Ladder is proposed as a framework tool for:
 
 **Evidence base**: [01 §4](01-PFC-Hardware-Reframe.md#§4) 5 pillars + 10-marker L2 catalog from [09 §3.3](09-Event-Chunks-Inference-Matrix.md#§3.3).
 
-### §5.2 — R-F1-2: Đơ mặt as developmental marker
+### §5.2 — R-F1-2: Face-freeze as developmental marker
 
 **Target**: 99-Master-Synthesis + [Body-Base/Body-Parenting-Optimization.md](../../Body-Base/Body-Parenting-Optimization.md)
 
-**Action**: Propose "đơ mặt" as named developmental marker with operational definition + 4 falsifiable predictions + English translation ("pattern-match pause marker") for international literature.
+**Action**: Propose face-freeze ("đơ mặt") as named developmental marker with operational definition + 4 falsifiable predictions + English translation ("pattern-match pause marker") for international literature.
 
 **Scope**:
-- Naming: Vietnamese primary + English technical
+- Naming: English technical term + Vietnamese original ("face-freeze" / "đơ mặt")
 - Operational definition: 6 required + 5 disqualifying criteria from [06a §5](06a-Interoceptive-Bladder-Keystone.md#§5)
 - Anchor: [06a §5](06a-Interoceptive-Bladder-Keystone.md#§5) as primary drill + plan §0.5 Q8+Q9 verbatim origination
 - Research program: longitudinal video study per [06a §5.7](06a-Interoceptive-Bladder-Keystone.md#§5.7)
@@ -610,8 +611,8 @@ The PFC-Inference Ladder is proposed as a framework tool for:
 - Mechanism statement per [07 §6.2](07-Social-Recognition-Arc.md#§6.2)
 - E12 social smile as keystone exemplar
 - 4 converging mechanism lines each with independent support
-- Link to Nút Thắt 1 gradient verdict + Nút Thắt 2 Precondition-2 mechanism (compile rate modulators)
-- Link to Nút Thắt 6 hybrid verdict (labels are not 5th modality but distinct layer)
+- Link to Convergence Point 1 gradient verdict + Convergence Point 2 Precondition-2 mechanism (compile rate modulators)
+- Link to Convergence Point 6 hybrid verdict (labels are not 5th modality but distinct layer)
 
 **Status**: Fully formalized in [07 §6](07-Social-Recognition-Arc.md#§6). Ready for Chunk.md update.
 
@@ -648,7 +649,7 @@ The PFC-Inference Ladder is proposed as a framework tool for:
 
 **Target**: 99-Master-Synthesis
 
-**Action**: Propose H11 + PFC-Inference Ladder + Nút Thắt 6 verbal-as-handle hybrid as three F1 framework contributions:
+**Action**: Propose H11 + PFC-Inference Ladder + Convergence Point 6 verbal-as-handle hybrid as three F1 framework contributions:
 
 1. **PFC-Inference Ladder** (5 levels + 5 properties + 10-marker L2 catalog + 5 predictions)
 2. **H11 Receptive-Productive Asymmetry** (formal statement + 7 lines + 7 predictions + 4 rejections)
@@ -667,10 +668,10 @@ The PFC-Inference Ladder is proposed as a framework tool for:
 1. **⭐ "Cortisol is not the enemy" framing** — The dominant cultural narrative treats cortisol as uniformly harmful and "relaxation/reducing cortisol" as uniformly beneficial. Framework correction: **novelty cortisol is beneficial** (drives curious exploration and chunks compile); **threat cortisol is damaging** (drives avoidance and compiles chunks bound to aversion). Parents who try to remove all challenge from child experience remove both the threat cortisol (correct goal) AND the novelty cortisol growth substrate (collateral harm). The goal is to **shift the direction of body state** from threat-path toward novelty-path, not to lower cortisol level per se.
 
 2. **4-threshold framework** (replacing binary supportive/punitive):
-   - **Level 1 (NHẸ)** ✅ optimal — child-led, responsive, domain-origin consequences only, warmth during stress. Examples: Brazelton child-led toilet training; responsive feeding; secure-base attachment; caregiver-mediated pain comfort.
-   - **Level 2 (VỪA)** ✅ acceptable — mild adult guidance, some schedule, mild disapproval short of shame. Practical fallback when Level 1 is impractical.
-   - **Level 3 (NẶNG)** ⚠️ produces persistent association damage — strict schedule, shame-based, emotional withdrawal during distress, dismissal of expression. Parents at Level 3 should be advised to shift toward Level 1-2, not try to "do Level 3 better".
-   - **Level 4 (CỰC ĐOAN)** ❌ traumatic — physical punishment, shaming at abuse level, all 3 threat mechanisms fire, emergency intervention needed.
+   - **Level 1 (Light)** ✅ optimal — child-led, responsive, domain-origin consequences only, warmth during stress. Examples: Brazelton child-led toilet training; responsive feeding; secure-base attachment; caregiver-mediated pain comfort.
+   - **Level 2 (Moderate)** ✅ acceptable — mild adult guidance, some schedule, mild disapproval short of shame. Practical fallback when Level 1 is impractical.
+   - **Level 3 (Heavy)** ⚠️ produces persistent association damage — strict schedule, shame-based, emotional withdrawal during distress, dismissal of expression. Parents at Level 3 should be advised to shift toward Level 1-2, not try to "do Level 3 better".
+   - **Level 4 (Extreme)** ❌ traumatic — physical punishment, shaming at abuse level, all 3 threat mechanisms fire, emergency intervention needed.
 
 3. **State-specific critical period windows** — the parent must understand that different body-input systems have different compile windows:
    - **Emotional / attachment: 0-12mo** (most critical, substrate itself is compiling)
@@ -689,16 +690,16 @@ The PFC-Inference Ladder is proposed as a framework tool for:
 
 7. **3 update paths for already-damaged chunks** — Parents who realize they were at Level 3 should not be paralyzed by guilt. Framework provides three update paths for recovery:
    - **Re-associate via new experiences** — use the chunks in positive contexts repeatedly; opioid association gradually overrides cortisol association. Slow (months-years), limited (never full reversal), but available.
-   - **Novelty hijack** — a Novelty-drive context pulls the chunks into a new purpose (e.g., "ghét toán" re-associates via game development interest). Faster than re-association when it happens naturally but requires the right conditions.
-   - **Therapy-assisted** (EMDR, somatic experiencing, trauma-informed CBT) — professional intervention, necessary for Level 4 damage, helpful for deep Level 3 cases. "Chunks gắn threat" is recoverable, not fixed-for-life.
+   - **Novelty hijack** — a Novelty-drive context pulls the chunks into a new purpose (e.g., "I hate math" re-associates via game development interest). Faster than re-association when it happens naturally but requires the right conditions.
+   - **Therapy-assisted** (EMDR, somatic experiencing, trauma-informed CBT) — professional intervention, necessary for Level 4 damage, helpful for deep Level 3 cases. Threat-bound chunks are recoverable, not fixed-for-life.
 
-8. **Autonomy / E31 "không" healthy handling** — preserve Erikson's "autonomy vs shame and doubt" framework. When the child says "không" at 18-24mo, this is self-agency chunks compiling and must be respected. Suppressing autonomy via Level 3/4 parenting does not eliminate the self-agency chunks but compiles them with threat context, producing adult difficulty with agency and self-assertion. Healthy handling: offer acceptable choices, preserve child agency within safe boundaries, avoid power struggles.
+8. **Autonomy / E31 "no" (không) healthy handling** — preserve Erikson's "autonomy vs shame and doubt" framework. When the child says "no" at 18-24mo, this is self-agency chunks compiling and must be respected. Suppressing autonomy via Level 3/4 parenting does not eliminate the self-agency chunks but compiles them with threat context, producing adult difficulty with agency and self-assertion. Healthy handling: offer acceptable choices, preserve child agency within safe boundaries, avoid power struggles.
 
 **Integration target**: Body-Parenting-Optimization.md toilet training section + attachment section + feeding section + pain handling section + autonomy section. Plus a new "framework foundations" note cross-referencing Cortisol-Baseline.md + Threat-Drive-Analysis.md + Threat.md for mechanism depth.
 
 **Cross-link (reverse)**: The upstream files should be updated with reverse references to F1 as the developmental-evidence grounding for the novelty-vs-threat cortisol model applied to specific clinical contexts.
 
-**Status**: Ready for integration. This R-F1-7 is substantially expanded from the earlier draft — it is now one of the most content-rich R-F1-* recommendations because NT7 refinement has the largest parenting-applicability scope.
+**Status**: Ready for integration. This R-F1-7 is substantially expanded from the earlier draft — it is now one of the most content-rich R-F1-* recommendations because CP7 refinement has the largest parenting-applicability scope.
 
 ### §5.8 — R-F1-8: Agent sub-folder cross-references
 
@@ -706,7 +707,7 @@ The PFC-Inference Ladder is proposed as a framework tool for:
 
 **Action**: Add F1 developmental evidence cross-references:
 - Resonance: E9 cry contagion (day 1) + E10 + E12 social smile (6-8wk) + E13 smile contagion (4mo) + E26 egocentric empathy (18mo) as developmental timeline
-- Self-Pattern-Modeling: E15 mother recognition + E16 stranger anxiety + E31 "không" autonomy + mirror self-recognition as self-chunks developmental arc
+- Self-Pattern-Modeling: E15 mother recognition + E16 stranger anxiety + E31 autonomy + mirror self-recognition as self-chunks developmental arc
 - OA-Overview: event-inference methodology cross-ref
 
 **Status**: Ready for integration.
@@ -715,7 +716,7 @@ The PFC-Inference Ladder is proposed as a framework tool for:
 
 **Target**: [Modality-Analysis.md](../../Modality-Analysis.md)
 
-**Action**: Commit "verbal is NOT 5th modality but distinct architectural layer" per [08 §5.4](08-Verbal-Production-Arc.md#§5.4) Nút Thắt 6 verdict. Add section distinguishing sensory modalities (visual/auditory/somatic/interoceptive/social) from symbolic layer (verbal/symbolic).
+**Action**: Commit "verbal is NOT 5th modality but distinct architectural layer" per [08 §5.4](08-Verbal-Production-Arc.md#§5.4) Convergence Point 6 verdict. Add section distinguishing sensory modalities (visual/auditory/somatic/interoceptive/social) from symbolic layer (verbal/symbolic).
 
 **Rationale**: Modalities are sensory input channels; verbal is symbolic output with auditory receptive input. Conflating these is a category error.
 
@@ -726,7 +727,7 @@ The PFC-Inference Ladder is proposed as a framework tool for:
 **Target**: [Body-Base/Schema/Chunk.md](../../Body-Base/Schema/Chunk.md) §2
 
 **Action**: Add two sub-sections:
-1. **Gradient architecture** (per Nút Thắt 1 verdict): Chunks are strength-weighted, proto-chunks are weak chunks, compile is gradient not discrete
+1. **Gradient architecture** (per Convergence Point 1 verdict): Chunks are strength-weighted, proto-chunks are weak chunks, compile is gradient not discrete
 2. **Non-uniform progression** (per [09 §3.6](09-Event-Chunks-Inference-Matrix.md#§3.6) + §6): Different body-input arcs compile at different rates driven by arc-specific modulator profiles; developmental sequence is content-level compile trajectory not hardware timeline
 
 **Status**: Ready for integration.
@@ -736,7 +737,7 @@ The PFC-Inference Ladder is proposed as a framework tool for:
 **10 framework update recommendations** ready for 99-Master-Synthesis integration. Breakdown:
 
 - **3 recommendations for Schema/Chunk.md** (R-F1-3 binding, R-F1-10 gradient + non-uniform)
-- **2 recommendations for Body-Parenting-Optimization.md** (R-F1-2 đơ mặt, R-F1-7 critical periods)
+- **2 recommendations for Body-Parenting-Optimization.md** (R-F1-2 face-freeze, R-F1-7 critical periods)
 - **1 recommendation each for**: PFC-Analysis (R-F1-1), Body-Feedback-Draft (R-F1-4), Feel-Example (R-F1-5), 99-Master-Synthesis direct (R-F1-6), Agent sub-folder (R-F1-8), Modality-Analysis (R-F1-9)
 
 All 10 recommendations are traceable to specific F1 drill sections with 🟢🟡 confidence levels.
@@ -747,9 +748,9 @@ All 10 recommendations are traceable to specific F1 drill sections with 🟢🟡
 
 ### §6.1 — F3 Chunk-External-Development receives
 
-1. **Pre-verbal substrate characterization** — chunks exist and function without language labels (§1.6 Nút Thắt 6 + §2 H1)
-2. **Multi-modal binding mechanism** — 4 concurrent mechanisms apply to word-referent compile (§1.3 Nút Thắt 3)
-3. **Verbal-as-handle mechanism** — labels are retrieval paths + symbolic compression, not 5th modality, not constitutive (§1.6 Nút Thắt 6)
+1. **Pre-verbal substrate characterization** — chunks exist and function without language labels (§1.6 Convergence Point 6 + §2 H1)
+2. **Multi-modal binding mechanism** — 4 concurrent mechanisms apply to word-referent compile (§1.3 Convergence Point 3)
+3. **Verbal-as-handle mechanism** — labels are retrieval paths + symbolic compression, not 5th modality, not constitutive (§1.6 Convergence Point 6)
 4. **H11 Receptive-Productive Asymmetry mechanism** — asymmetric chunks accumulation for language acquisition developmental sequence (§1.5)
 5. **PFC-Inference Ladder** — 5-level analytical tool for language acquisition event classification (§4)
 6. **Moderate Whorfian handle granularity** — cultural/linguistic variation affects handles, not substrate (§1.6 + [08 §5.6](08-Verbal-Production-Arc.md#§5.6))
@@ -758,13 +759,13 @@ All 10 recommendations are traceable to specific F1 drill sections with 🟢🟡
 - Vocabulary taxonomy (compile rate variance across word types)
 - Grammar architecture (compositional chunks on top of word chunks)
 - Anchor validation (linking F3 language to F1 substrate)
-- Cross-linguistic relativity testing H11 + Nút Thắt 6
+- Cross-linguistic relativity testing H11 + Convergence Point 6
 - Language synthesis integrating F3 with F1 + Feeling
 
 ### §6.2 — F4 Chunk-Internal-Processing receives
 
-1. **Chunk compile mechanism** — 4 mechanisms with developmental evidence (§1.2 Nút Thắt 2)
-2. **Proto-chunk gradient verdict** — strength-weighted architecture (§1.1 Nút Thắt 1)
+1. **Chunk compile mechanism** — 4 mechanisms with developmental evidence (§1.2 Convergence Point 2)
+2. **Proto-chunk gradient verdict** — strength-weighted architecture (§1.1 Convergence Point 1)
 3. **Hippocampal replay developmental evidence** — sleep consolidation mechanism with infant sleep patterns (cited in [05](05-Motor-Output-Arc.md))
 4. **Non-uniform ladder progression** — different arcs compile at different rates ([09 §6](09-Event-Chunks-Inference-Matrix.md#§6))
 
@@ -780,15 +781,15 @@ All 10 recommendations are traceable to specific F1 drill sections with 🟢🟡
 1. **H1 substrate verdict evidence compilation** (§2)
 2. **H11 final formalization** (§3)
 3. **PFC-Inference Ladder framework contribution** (§4)
-4. **7 Nút Thắt verdicts** (§1)
+4. **7 Convergence Point verdicts** (§1)
 5. **R-F1-1 through R-F1-10 recommendations** (§5)
-6. **đơ mặt R-F1-2 developmental marker** with operational definition + predictions (§5.2)
-7. **Multi-mechanism binding architecture** (§1.3 Nút Thắt 3)
-8. **Cortisol tagging critical period** multi-state framework (§1.7 Nút Thắt 7)
+6. **Face-freeze R-F1-2 developmental marker** with operational definition + predictions (§5.2)
+7. **Multi-mechanism binding architecture** (§1.3 Convergence Point 3)
+8. **Body state at compile critical period** multi-state framework (§1.7 Convergence Point 7)
 
 **Master-Synthesis integration targets**:
 - Architectural commitment table (substrate / content / process / product)
-- Framework contributions list (PFC-Inference Ladder, H11, đơ mặt marker, multi-mechanism binding)
+- Framework contributions list (PFC-Inference Ladder, H11, face-freeze marker, multi-mechanism binding)
 - Cross-folder output contracts (F1 → F3, F1 → F4, F1 → Feeling L3, F1 → Agent, F1 → Body-Feedback, F1 → Imagination)
 - Open questions carryover
 
@@ -798,7 +799,7 @@ All 10 recommendations are traceable to specific F1 drill sections with 🟢🟡
 
 2. **⭐ Body state at compile determines feeling accessibility** (refined from earlier "cortisol tagging critical period" framing per N+4c2-REV1). The adult's capacity to feel, identify, and express feelings from each body-input domain is shaped by the body state (novelty vs threat direction + threshold level + mechanism mix + origin + window) during the developmental compile. This model explains:
    - **Alexithymia** as a compile-context artifact (Level 2-3 emotional compile = weak mirror-labeling substrate → adult cannot identify own feelings clearly)
-   - **Feeling vocabulary asymmetry** as a handle-architecture artifact (H11 + NT6 apply: productive feeling vocabulary lags receptive feeling recognition, and labels attach as retrieval paths to pre-verbal chunks)
+   - **Feeling vocabulary asymmetry** as a handle-architecture artifact (H11 + Convergence Point 6 apply: productive feeling vocabulary lags receptive feeling recognition, and labels attach as retrieval paths to pre-verbal chunks)
    - **Cross-cultural variation in feeling expression** as a compile-context + handle-granularity artifact
    - **Clinical variance in emotional regulation** (secure attachment Type B produces strongest regulation substrate per 06b §5.8.1)
 
@@ -806,17 +807,17 @@ All 10 recommendations are traceable to specific F1 drill sections with 🟢🟡
 
 4. **PFC observation layer developmental emergence** — PFC reframe applies to feeling observation capability from birth (content missing, not hardware missing). Feeling capability is not "maturing" — it is the chunks that observe-body-state compiling, and the PFC substrate is online from prenatal (per 01).
 
-5. **Handle theory for feeling expression** — labels enable feeling articulation. H11 (~6-12mo gap between receptive and productive for linguistic content) applies to feeling vocabulary: infant receptively understands parent's emotional labels months before producing own. Nút Thắt 6 (labels as retrieval paths + symbolic compression, not 5th modality) applies: feeling labels attach on top of pre-verbal body-state chunks, not constitutive of them.
+5. **Handle theory for feeling expression** — labels enable feeling articulation. H11 (~6-12mo gap between receptive and productive for linguistic content) applies to feeling vocabulary: infant receptively understands parent's emotional labels months before producing own. Convergence Point 6 (labels as retrieval paths + symbolic compression, not 5th modality) applies: feeling labels attach on top of pre-verbal body-state chunks, not constitutive of them.
 
 6. **Body-state arc development provides ground truth** for interoceptive feeling foundation. The 5-state arc analysis in 06a + 06b is the raw developmental substrate on which feeling-at-body-state capacity builds. Feeling L3 should treat the 5-state analyses as primary evidence for the developmental timeline.
 
-7. **Multi-mechanism binding enables feeling's multi-channel integration** (visual + auditory + somatic + interoceptive + social). Per [07 §6](07-Social-Recognition-Arc.md#§6) Nút Thắt 3 verdict, feeling emerges from 4 concurrent mechanisms operating on temporally-correlated afferent streams. Feeling L3 should use this as architectural commitment rather than treating feeling as single-mechanism.
+7. **Multi-mechanism binding enables feeling's multi-channel integration** (visual + auditory + somatic + interoceptive + social). Per [07 §6](07-Social-Recognition-Arc.md#§6) Convergence Point 3 verdict, feeling emerges from 4 concurrent mechanisms operating on temporally-correlated afferent streams. Feeling L3 should use this as architectural commitment rather than treating feeling as single-mechanism.
 
-8. **3 update paths from NT7** apply to feeling work too — when adult feeling chunks are compiled with threat-path body state, the same 3 paths (re-associate / novelty hijack / therapy-assisted) are the recovery routes. Feeling L3 can operationalize these as clinical intervention framework.
+8. **3 update paths from CP7** apply to feeling work too — when adult feeling chunks are compiled with threat-path body state, the same 3 paths (re-associate / novelty hijack / therapy-assisted) are the recovery routes. Feeling L3 can operationalize these as clinical intervention framework.
 
 **Future Feeling L3 sub-folder targets** (deferred per user's 3-layer architecture):
 - 7-layer feeling model formalization grounded in chunks substrate
-- Feeling vocabulary developmental arc (H11 + NT6 + handle granularity)
+- Feeling vocabulary developmental arc (H11 + Convergence Point 6 + handle granularity)
 - Cross-cultural feeling expression variation (moderate Whorfian claim + cultural compile context)
 - Clinical implications (alexithymia, trauma, somatic disorders, PTSD, borderline patterns) — grounded in 06b §5.8 attachment compile + neural wear
 - Educational implications (feeling literacy as skill, mirroring-labeling as teachable parent skill)
@@ -877,7 +878,7 @@ Cross-linking updates (R-F1-8):
 - Handle-system cross-species comparative program
 
 ### §7.5 — Empirical research programs proposed
-- Longitudinal video study for đơ mặt marker (R-F1-2 Prediction 1-4)
+- Longitudinal video study for face-freeze marker (R-F1-2 Prediction 1-4)
 - Deaf-of-deaf sign language H11 replication
 - Cross-linguistic H11 testing
 - Cortisol tagging critical period intervention studies
@@ -891,8 +892,8 @@ Cross-linking updates (R-F1-8):
 
 **Before starting F3 drill**, read:
 1. This file ([10-F1-Synthesis.md](10-F1-Synthesis.md)) — full synthesis
-2. [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) — H11 + Nút Thắt 6 primary home
-3. [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6 — Nút Thắt 3 multi-mechanism binding (prerequisite for word-referent compile)
+2. [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) — H11 + Convergence Point 6 primary home
+3. [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6 — Convergence Point 3 multi-mechanism binding (prerequisite for word-referent compile)
 4. [Chunk-External-Development/plan.md](../Chunk-External-Development/plan.md) — F3 stub + Language sub-folder plan
 5. [Chunk-External-Development/Language/plan.md](../Chunk-External-Development/Language/plan.md) — migrated from old Grammar-Scaffolding folder
 6. [Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5.5 Precondition-2 + Precondition-5 (cross-link with R-F1-4)
@@ -903,7 +904,7 @@ Cross-linking updates (R-F1-8):
 F3 drill must treat F1 output contracts (§6.1) as **input assumptions**:
 - Pre-verbal substrate exists (do not re-argue)
 - Multi-modal binding mechanism available (do not re-derive)
-- Verbal-as-handle hybrid verdict (do not re-open Nút Thắt 6)
+- Verbal-as-handle hybrid verdict (do not re-open Convergence Point 6)
 - H11 mechanism (use as given for developmental sequencing)
 - PFC-Inference Ladder (apply as analytical tool)
 
@@ -929,14 +930,14 @@ F3 Chunk-External-Development targets:
 - Body-state verbal label chunks (Ve8-Ve10 = E21/E22/E23)
 - Gestural handle chunks (M11 E25)
 - Social communication chunks (S14-S19 proto-declarative pointing, etc.)
-- Autonomy/self-agency chunks (S19/Ve13 E31 "không")
+- Autonomy/self-agency chunks (S19/Ve13 E31 "no" (không))
 
 F3 Language drill will build on these as starting substrate.
 
 ### §8.5 — F1 to F3 bridge artifacts
 
 - **H11** (§3) is the developmental mechanism F3 uses
-- **Nút Thắt 6** (§1.6) commits the handle architecture F3 extends
+- **Convergence Point 6** (§1.6) commits the handle architecture F3 extends
 - **Multi-modal binding** (§1.3) is the mechanism for word-referent compile
 - **PFC-Inference Ladder** (§4) is the analytical tool F3 applies
 - **Moderate Whorfian** (§1.6 + [08 §5.6](08-Verbal-Production-Arc.md#§5.6)) is the cross-linguistic commitment F3 tests
@@ -948,7 +949,7 @@ F3 Language drill will build on these as starting substrate.
 ### §9.1 — Within F1 Child-Chunk-Development
 
 - [00-Chunk-System-Sketch.md](00-Chunk-System-Sketch.md) — F1 orientation
-- [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) — Nút Thắt 4 primary home + methodology rule
+- [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) — Convergence Point 4 primary home + methodology rule
 - [02-Womb-to-Birth-Baseline.md](02-Womb-to-Birth-Baseline.md) — baseline state at t=0
 - [03-Visual-System-Arc.md](03-Visual-System-Arc.md) through [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) — 6 body-input arc files
 - [09-Event-Chunks-Inference-Matrix.md](09-Event-Chunks-Inference-Matrix.md) — master event matrix aggregation
@@ -986,7 +987,7 @@ F3 Language drill will build on these as starting substrate.
 ✅ **DRILLED N+4c2 (2026-04-16)** — **File 10/12 F1 Child-Chunk-Development. F1 drill COMPLETE.**
 
 **Deliverables**:
-- ⭐ **7 Nút Thắt final verdicts committed** (§1) with evidence traces to primary home arc files
+- ⭐ **7 Convergence Point final verdicts committed** (§1) with evidence traces to primary home arc files
 - ⭐ **H1 (chunk substrate) final formalization** (§2) for 99-Master-Synthesis
 - ⭐ **H11 aggregation** (§3) referring to [08 §6](08-Verbal-Production-Arc.md#§6) primary home
 - ⭐ **PFC-Inference Ladder framework contribution formal statement** (§4) with 5 levels + 5 properties + 10-marker catalog + 5 predictions
@@ -1000,14 +1001,14 @@ F3 Language drill will build on these as starting substrate.
 **F1 cumulative drill total**: **12/12 files drilled ≈ 11,100 lines** (N+4a 2467L + N+4b 2527L + N+4c1 2901L + N+4c2 ~3200L including this file). F1 Child-Chunk-Development **COMPLETE**.
 
 **Confidence distribution across 7 verdicts**: 
-- 🟢: NT1 gradient, NT4 PFC reframe (2 at strong)
-- 🟡🟢: NT2 Precondition-2 compile, NT7 cortisol (2 at strong-moderate)
-- 🟡: NT3 multi-mechanism, NT5 H11, NT6 verbal-handle (3 at moderate)
+- 🟢: CP1 gradient, CP4 PFC reframe (2 at strong)
+- 🟡🟢: CP2 Precondition-2 compile, CP7 body-state direction (2 at strong-moderate)
+- 🟡: CP3 multi-mechanism, CP5 H11, CP6 verbal-handle (3 at moderate)
 
-No 🔴 verdicts — all Nút Thắt reached committable confidence in F1 drill.
+No 🔴 verdicts — all Convergence Points reached committable confidence in F1 drill.
 
-**Next**: Session F1-P16 closeout (update plans + memory + NEXT-DIRECTIONS for N+5 F3 start). MANDATORY REVIEW STOP before closeout — user to review 10.
+**Next**: Session F1-P16 closeout (update plans + memory + NEXT-DIRECTIONS for N+5 F3 start). F1 Child-Chunk-Development drill COMPLETE — 10 is the final synthesis file.
 
 ---
 
-**End of 10-F1-Synthesis.md (N+4c2 drill). F1 Child-Chunk-Development drill COMPLETE.**
+**End of 10-F1-Synthesis.md (English translation — N+4c2 drill). F1 Child-Chunk-Development drill COMPLETE.**

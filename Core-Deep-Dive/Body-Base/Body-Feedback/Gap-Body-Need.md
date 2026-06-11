@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gap Body-Need — Per-Gap Feed Dynamics, Architecture, Entity Matching
 version: 2.0
 created: 2026-05-22
@@ -9,7 +9,7 @@ rewritten: |
       Novelty = MECHANISM cross-source, moved from source table to §4.2
       Gap-Fillability Prediction (⑥) added as 2nd mechanism
     ② §4 NEW: Agent-relevant vs Agent-irrelevant filter + L0-L1 substrate note
-    ③ §4 NEW: L0 compound effect (agent-irrelevant → agent-relevant qua compound)
+    ③ §4 NEW: L0 compound effect (agent-irrelevant → agent-relevant via compound)
     ④ §1 ENRICH: Gap = infinite formalization
     ⑤ §11 ENRICH: 3-layer agent-gap-feed architecture (PUSH + PULL + EVALUATE)
     ⑥ §15 ENRICH: 9 observable signals (O1-O9)
@@ -37,19 +37,19 @@ purpose: |
   Gap-Direction.md: PER-GAP mechanism (HOW 1 gap has direction).
   Gap-Distribution-Profile.md: AGGREGATE view (WHERE all gaps cluster).
   Body-Feedback-Mechanism.md: HOW signals arise from chunk dynamics.
-  FILE NÀY: PER-GAP DYNAMICS (HOW gaps consume, compete, lifecycle).
-  = Zoom IN bổ sung Gap-Distribution-Profile zoom OUT.
+  THIS FILE: PER-GAP DYNAMICS (HOW gaps consume, compete, lifecycle).
+  = Zooms IN to complement Gap-Distribution-Profile's zoom OUT.
   = Bridge: gap mechanism ↔ entity matching ↔ architecture ↔ technology.
   Source: Drill-Individual-Gap-Body-Need v2.0 (1,498L, 36 insights, 33 citations).
 position: |
-  Core-Deep-Dive/Body-Base/Body-Feedback/ — cạnh Gap-Direction.md, Gap-Distribution-Profile.md.
-  Gap-Direction.md = per-gap DEFINITION (what gap is, how direction forms).
-  Gap-Distribution-Profile.md = per-person LANDSCAPE (4 trục, 4 tầng).
-  Gap-Body-Need.md (FILE NÀY) = per-gap DYNAMICS (feed, compete, lifecycle).
-  BỔ SUNG nhau — KHÔNG THAY THẾ.
+  Core-Deep-Dive/Body-Base/Body-Feedback/ — alongside Gap-Direction.md, Gap-Distribution-Profile.md.
+  Gap-Direction.md = per-gap DEFINITION (what is a gap, how direction forms).
+  Gap-Distribution-Profile.md = per-person LANDSCAPE (4 axes, 4 tiers).
+  Gap-Body-Need.md (THIS FILE) = per-gap DYNAMICS (feed, compete, lifecycle).
+  COMPLEMENTARY — NOT REPLACING each other.
 dependencies:
-  - Gap-Direction.md v2.0 — gap definition, direction = f(surrounding chunks), "chưa biết = không có gap"
-  - Gap-Distribution-Profile.md v1.0 — aggregate landscape, 4 trục, 4 tầng, 2 con đường
+  - Gap-Direction.md v2.0 — gap definition, direction = f(surrounding chunks), "don't know = no gap"
+  - Gap-Distribution-Profile.md v1.0 — aggregate landscape, 4 axes, 4 tiers, 2 pathways
   - Body-Feedback-Mechanism.md v2.1 — Body-Need aggregate, 3 chunk dynamics, 2 sources
   - Reward-Signal-Architecture.md v2.1 — Evaluative/Direct-State, E₀→E₃, 5 Profiles
   - Reward-Calibration.md v1.1 — Goldilocks per-gap, 6 over-reward mechanisms
@@ -110,47 +110,47 @@ research:
   - Glocker 2009 — Baby schema, NAcc reward 140ms
   - Gordon 2013 — SI cortex per-entity touch modulation
   - Van Tilburg 2019 — Video-call homesick (partial-fill amplify)
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # Gap Body-Need — Per-Gap Feed Dynamics, Architecture, Entity Matching
 
-> **Mỗi người = 1 LANDSCAPE riêng của gaps.**
-> **Gap = hole in chunk network nơi structure PREDICT pattern C nên tồn tại nhưng C chưa compiled.**
-> **"Chưa biết = không có gap." — Gap CẦN surrounding chunks tạo border.**
-> **Gap body-need = VÔ TẬN (gap = f(chunks), chunks = vô tận).**
-> **Hardware source categories = FINITE. TRONG MỖI category = vô tận compiled.**
+> **Each person = 1 UNIQUE gap landscape.**
+> **Gap = hole in chunk network where structure PREDICTS pattern C should exist but C is not yet compiled.**
+> **"Don't know it exists = no gap." — Gap NEEDS surrounding chunks to form its border.**
+> **Gap body-need = INFINITE (gap = f(chunks), chunks = infinite).**
+> **Hardware source CATEGORIES = FINITE. WITHIN each = infinite compiled.**
 >
 > **3 Satiation Profiles:**
 > **Cyclic: fill → off → return (hunger, safety).**
-> **Tonic: fill ongoing → habituate chậm (touch, comfort).**
+> **Tonic: fill ongoing → habituate slowly (touch, comfort).**
 > **Generative: fill → CREATE new gaps → perpetual (curiosity, mastery).**
 >
 > **Hardware gaps: SOURCES (bounded) vs MECHANISMS (unbounded, cross-source).**
 > **6 Sources: Hunger, Temperature, Safety, Touch/Comfort, Sexual/aesthetic, Parental drive.**
-> **2 Mechanisms: Novelty/Prediction-delta (tức thời) + Gap-Fillability Prediction (tương lai).**
-> **"Social connection" = COMPOUND (Touch + Safety + Novelty), không phải source riêng.**
+> **2 Mechanisms: Novelty/Prediction-delta (immediate) + Gap-Fillability Prediction (future).**
+> **"Social connection" = COMPOUND (Touch + Safety + Novelty), NOT a separate source.**
 >
-> **Mỗi gap quan sát bằng 5 PARAMETERS:**
-> **① Hardware Source — sensor/hormone/coherence nào?**
+> **Each gap observed via 5 PARAMETERS:**
+> **① Hardware Source — which sensor/hormone/coherence?**
 > **② Satiation Profile — Cyclic/Tonic/Generative?**
 > **③ Reward Composition — Evaluative : Direct-State ratio?**
-> **④ Chain to Body-Base — fill trực tiếp hay qua bao nhiêu bước?**
-> **⑤ Collective Dependency — cần bao nhiêu infrastructure?**
+> **④ Chain to Body-Base — direct fill or how many steps?**
+> **⑤ Collective Dependency — how much infrastructure is needed?**
 >
 > **Entity-gap matching: 3-LAYER architecture.**
-> **Layer 0 PUSH: Body-State Entrainment (vô thức, bidirectional).**
+> **Layer 0 PUSH: Body-State Entrainment (unconscious, bidirectional).**
 > **Layer 1 PULL: 4 agent-relevant sources.**
 > **Layer 2 EVALUATE: 2 mechanisms cross-source.**
 >
-> **ENGINE (Hardware) = source of ALL drives. Luôn running.**
-> **ROAD (Collective-Arc) = infrastructure to fill. NOT opposing force.**
-> **VEHICLE (Compilation) = individual's compiled chains. 15-20 năm build.**
+> **ENGINE (Hardware) = source of ALL drives. Always running.**
+> **ROAD (Collective-Arc) = infrastructure to fill. NOT an opposing force.**
+> **VEHICLE (Compilation) = individual's compiled chains. 15-20 years to build.**
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §0 — POSITION + THESIS + CLAIMS
 - §1 — GAP DEFINITION RECAP
@@ -181,39 +181,39 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐⭐ GAP BODY-NEED v1.0:
 
-  ① Mỗi người = 1 landscape RIÊNG của gaps (unique chunk network topology)
-  ② Gap types có FEED DYNAMICS khác căn bản (3 Satiation Profiles)
-  ③ Mỗi gap quan sát bằng 5 PARAMETERS (integrated model)
+  ① Each person = 1 UNIQUE gap landscape (unique chunk network topology)
+  ② Gap types have FUNDAMENTALLY DIFFERENT FEED DYNAMICS (3 Satiation Profiles)
+  ③ Each gap observed via 5 PARAMETERS (integrated model)
   ④ Hardware = ENGINE — source of ALL drives (sensors + hormone + coherence)
-  ⑤ Collective-Arc = ROAD — infrastructure to fill (NOT opposing force)
-  ⑥ Compilation = VEHICLE — individual's compiled chains (15-20 năm)
-  ⑦ Technology đã fill phần lớn sensory baseline → modern gap frontier shifted
-  ⑧ Self-Pattern-Modeling MODE (Agent vs Tool) = filter đầu tiên cho entity-gap matching
-  ⑨ Collective-arc BIAS toàn bộ gap landscape (install, suppress, re-tag)
-  ⑩ Gap có LIFECYCLE: creation → active → dormant → compound/death
+  ⑤ Collective-Arc = ROAD — infrastructure to fill (NOT an opposing force)
+  ⑥ Compilation = VEHICLE — individual's compiled chains (15-20 years)
+  ⑦ Technology has filled most sensory baselines → modern gap frontier shifted
+  ⑧ Self-Pattern-Modeling MODE (Agent vs Tool) = first filter for entity-gap matching
+  ⑨ Collective-Arc BIASES the entire gap landscape (install, suppress, re-tag)
+  ⑩ Gaps have a LIFECYCLE: creation → active → dormant → compound/death
   
   🟢 Gap = f(surrounding chunk network): Gap-Direction v2.0 §1.1
   🟢 3 chunk dynamics (Shift, Miss, Gap): Body-Feedback-Mechanism v2.1 §3
   🟢 Evaluative/Direct-State reward distinction: Reward-Signal-Architecture v2.1 §1
-  🟢 2 con đường serve body-base: Gap-Distribution-Profile v1.0 §2.2
+  🟢 2 pathways to serve body-base: Gap-Distribution-Profile v1.0 §2.2
   🟡 5-parameter per-gap model = framework synthesis
   🟡 ENGINE/ROAD/VEHICLE architecture = framework synthesis
   🟡 Technology fill dimension = framework synthesis
 ```
 
-### §0.2 — Position trong framework
+### §0.2 — Position within the framework
 
 ```
-  FILE NÀY TRONG KIẾN TRÚC:
+  THIS FILE IN THE ARCHITECTURE:
 
   FOUNDATION LAYER:
     Gap-Direction.md v2.0        = Gap DEFINITION (what is a gap, how direction forms)
-    Gap-Distribution-Profile     = Gap LANDSCAPE per person (4 trục, 4 tầng)
+    Gap-Distribution-Profile     = Gap LANDSCAPE per person (4 axes, 4 tiers)
     Body-Feedback-Mechanism v2.1 = Gap SIGNAL mechanism (3 chunk dynamics)
     Reward-Calibration v1.1      = Gap REWARD mechanism (Goldilocks, over-reward)
-    Reward-Signal-Architecture   = Reward TYPES (Evaluative evaluative / Direct-State direct-state)
+    Reward-Signal-Architecture   = Reward TYPES (Evaluative / Direct-State)
     
-  ★ FILE NÀY (v1.0):
+  ★ THIS FILE (v1.0):
     = Gap FEED DYNAMICS (how different gaps consume differently)
     = Gap ARCHITECTURE (hardware = engine, collective = road, compilation = vehicle)
     = Gap 5-PARAMETER MODEL (integrated observation)
@@ -221,7 +221,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = Gap LIFECYCLE (creation, dormancy, compound, death)
     = Technology FILL (modern gap frontier)
     
-  DOWNSTREAM (cần file này):
+  DOWNSTREAM (require this file):
     Entity-Compiled.md v1.2       = entity-specific dynamics
     Entity-Access.md v1.3         = entity-access gradient
     Entity-Access-Excess.md v1.0  = addiction + excess mechanism
@@ -232,18 +232,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §0.3 — Claims
 
 ```
-  10 CLAIMS CỐT LÕI:
+  10 CORE CLAIMS:
 
   C1. 3 satiation profiles (Cyclic/Tonic/Generative) = orthogonal to reward type
-      → SAME gap can have different reward ratio tùy how fill
+      → SAME gap can have different reward ratio depending on how it is filled
       
-  C2. Axis-4 (chain to body-base) và Axis-5 (collective dependency) = INDEPENDENT
-      → Einstein: Axis-4=0 (direct coherence reward) + Axis-5=MAX (centuries physics)
+  C2. Axis-4 (chain to body-base) and Axis-5 (collective dependency) = INDEPENDENT
+      → Einstein: Axis-4=0 (direct coherence reward) + Axis-5=MAX (centuries of physics)
       
   C3. Hardware × Domain: competition via CONTEXT-DEPENDENT priority
       → NOT Maslow hierarchy — Max-Neef: simultaneous + context-dependent
       
-  C4. ENGINE/ROAD/VEHICLE: Collective-Arc = infrastructure, NOT opposing force
+  C4. ENGINE/ROAD/VEHICLE: Collective-Arc = infrastructure, NOT an opposing force
       → Road exists BECAUSE hardware drives accumulated by-products
       
   C5. Technology fill >> sensory baselines → modern frontier = social + abstract
@@ -255,15 +255,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   C7. Gap lifecycle: creation → dormant → compound → weakening
       → Hardware gaps NEVER die, schema gaps CAN die when schema removed
 
-  C8. Hardware gaps: SOURCES (bounded, fire cho 1 loại input) vs MECHANISMS (unbounded, cross-source)
-      → Novelty = MECHANISM chạy across tất cả sources, KHÔNG PHẢI source cùng level
-      → Gap-Fillability Prediction = MECHANISM dự đoán tương lai, cross-source
+  C8. Hardware gaps: SOURCES (bounded, fire for 1 type of input) vs
+      MECHANISMS (unbounded, cross-source)
+      → Novelty = MECHANISM running across all sources, NOT a source at the same level
+      → Gap-Fillability Prediction = MECHANISM predicting the future, cross-source
       
   C9. "Social connection" = COMPOUND (Touch + Safety + Novelty across shared domain)
-      → KHÔNG PHẢI independent hardware source — compound of existing sources + mechanism
+      → NOT an independent hardware source — compound of existing sources + mechanism
       
-  C10. Gap body-need = INFINITE (gap = f(chunks), chunks = vô tận)
-       → Hardware source CATEGORIES = finite (biology). WITHIN each = vô tận compiled specific gaps.
+  C10. Gap body-need = INFINITE (gap = f(chunks), chunks = infinite)
+       → Hardware source CATEGORIES = finite (biology determines). WITHIN each =
+         infinite compiled specific gaps.
 ```
 
 ---
@@ -271,40 +273,42 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §1 — GAP DEFINITION RECAP
 
 ```
-⭐ TỪ GAP-DIRECTION v2.0 §1.1 (logical necessity):
+⭐ FROM GAP-DIRECTION v2.0 §1.1 (logical necessity):
 
-  GAP = hole in chunk network nơi STRUCTURE predicts pattern C
-        nên tồn tại nhưng C CHƯA COMPILED.
+  GAP = hole in chunk network where STRUCTURE predicts pattern C
+        should exist but C IS NOT YET COMPILED.
         
   Gap = f(surrounding_chunk_network_structure)
   
-  ĐẶC ĐIỂM:
-    → Surrounding chunks define "borders" of hole
+  PROPERTIES:
+    → Surrounding chunks define the "borders" of the hole
     → Without borders → no hole → NO GAP
-    → "Chưa biết = không có gap" — fundamental principle
+    → "Don't know it exists = no gap" — fundamental principle
     → Gap direction = f(topology of surrounding chunks)
     → Reward ONLY fires when fill matches SPECIFIC DIRECTION
     
-  VÍ DỤ:
-    E=mc² cho Einstein = direction match (years of physics chunks predict)
-    E=mc² cho học sinh lớp 3 = no direction match (insufficient borders)
-    → CÙNG information, KHÁC gap landscape → KHÁC reward
+  EXAMPLES:
+    E=mc² for Einstein = direction match (years of physics chunks predict)
+    E=mc² for a 3rd-grader = no direction match (insufficient borders)
+    → SAME information, DIFFERENT gap landscape → DIFFERENT reward
     
   3 CHUNK DYNAMICS (Body-Feedback-Mechanism v2.1 §3):
     Chunk-Shift: valence CHANGE of existing chunk → re-anchor reward
     Chunk-Miss: compiled baseline VIOLATED → compensate or adjust
     Chunk-Gap: structural HOLE detected → exploration reward → effort-proportional
     
-  ⭐ GAP BODY-NEED = VÔ TẬN:
+  ⭐ GAP BODY-NEED = INFINITE:
 
-    Gap = f(surrounding_chunk_network). Chunks = vô tận. → Gaps = vô tận.
-    Hardware source categories = FINITE (biology xác định — §4).
-    TRONG MỖI category = vô tận specific compiled gaps.
+    Gap = f(surrounding_chunk_network). Chunks = infinite. → Gaps = infinite.
+    Hardware source categories = FINITE (biology determines — §4).
+    WITHIN each category = infinite specific compiled gaps.
 
-    "Mùi người yêu" = 1 olfactory spoke CỤ THỂ trong Hub-and-Spoke (Entity-Compiled v1.2 §2).
-    "Vị mặn món mẹ nấu" = 1 gustatory spoke CỤ THỂ.
-    "Bố cõng trên cổ" = 1 somatosensory + safety + novelty compound CỤ THỂ.
-    → KHÔNG THỂ liệt kê hết. CÓ THỂ nhóm theo hardware source (§4).
+    "A loved one's scent" = 1 SPECIFIC olfactory spoke in Hub-and-Spoke
+      (Entity-Compiled v1.2 §2).
+    "The taste of mom's cooking" = 1 SPECIFIC gustatory spoke.
+    "Dad carrying you on his shoulders" = 1 SPECIFIC somatosensory + safety + novelty
+      compound.
+    → CANNOT enumerate all of them. CAN group by hardware source (§4).
 
   🟢 Gap = f(chunk network): Gap-Direction v2.0 §1.1
   🟢 3 dynamics: Body-Feedback-Mechanism v2.1 §3
@@ -315,13 +319,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §2 — 3 SATIATION PROFILES: Cyclic, Tonic, Generative
 
-### §2.1 — Tại sao RENAME (từ drill v2.0)
+### §2.1 — Why RENAME (from drill v2.0)
 
 ```
   v1.0 satiation → v2.0 RENAME → "Cyclic/Tonic/Generative":
   
-  LÝ DO: Tránh nhầm lẫn với reward types (Evaluative/Direct-State).
-    Reward types VÀ satiation types = KHÁC concept hoàn toàn.
+  REASON: Avoid confusion with reward types (Evaluative/Direct-State).
+    Reward types AND satiation types = completely DIFFERENT concepts.
     Evaluative Reward = opioid, cortical evaluation
     Direct-State Reward = non-opioid, hardware
     
@@ -330,8 +334,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     TONIC       = slow habituation, ongoing
     GENERATIVE  = self-generating, perpetual
     
-  → "Evaluative/Direct-State" = LUÔN chỉ reward types
-  → "Cyclic/Tonic/Generative" = LUÔN chỉ satiation dynamics
+  → "Evaluative/Direct-State" = ALWAYS refers to reward types
+  → "Cyclic/Tonic/Generative" = ALWAYS refers to satiation dynamics
 ```
 
 ### §2.2 — CYCLIC (Sharp Satiation)
@@ -339,18 +343,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ CYCLIC = Fill → satiation CLEAR → gap DORMANT → return after interval:
 
-  Đặc điểm:
-    → Hardware mechanism tắt reward khi fill đủ
-    → "Full = stop" rõ ràng (hormonal signal: leptin/ghrelin, thermoregulation)
-    → Gap return theo hardware clock (predictable interval)
-    → Entity fill cyclic gap = needed in BURSTS, not continuously
+  Properties:
+    → Hardware mechanism shuts off reward when sufficiently filled
+    → "Full = stop" is clear (hormonal signal: leptin/ghrelin, thermoregulation)
+    → Gap returns on a hardware clock (predictable interval)
+    → Entity filling a cyclic gap = needed in BURSTS, not continuously
   
-  VÍ DỤ:
-    Hunger: fill 15-30 phút → leptin/ghrelin signal → stop
-            → Return 3-6h → gap re-activate → CYCLE
+  EXAMPLES:
+    Hunger: fill over 15-30 min → leptin/ghrelin signal → stop
+            → Return after 3-6h → gap re-activates → CYCLE
     Temperature: hot→cool = SHARP relief → baseline met → INVISIBLE
     Safety: threat removed → safe = baseline → DORMANT
-    Sexual: fill minutes → refractory period → return hours/days
+    Sexual: fill in minutes → refractory period → return hours/days
     
   REWARD COMPOSITION (Reward-Signal-Architecture v2.1 integration):
     Hunger = Evaluative dominant (~80/20): taste EVALUATION + physical satiation
@@ -367,27 +371,27 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ TONIC = Fill → habituate SLOWLY (Weber-Fechner) → NO sharp cutoff:
 
-  Đặc điểm:
+  Properties:
     → Opioid system: sustained low-level reward
-    → "Mãi không chán" WHILE entity present
-    → Weber-Fechner CHẬM (hours not minutes for social/touch)
+    → "Never gets old" WHILE entity is present
+    → Weber-Fechner is SLOW (hours not minutes for social/touch)
     → No satiation hormone equivalent (unlike hunger)
-    → Entity fill tonic gap = needed ONGOING, not in bursts
-    → Reset qua ABSENCE + return (de-habituate → re-fill = "ấm hơn")
+    → Entity filling a tonic gap = needed ONGOING, not in bursts
+    → Resets via ABSENCE + return (de-habituate → re-fill = "warmer than before")
   
-  VÍ DỤ:
-    Touch/comfort (ôm): ongoing opioid → hours → gradual decline
-      → "Ôm mẹ mãi không chán" = no sharp cutoff
-      → INTERRUPT bởi cyclic gap (đói) hoặc generative gap (curiosity)
-    Social connection: ongoing while with agent → gradual decline
+  EXAMPLES:
+    Touch/comfort (hugging): ongoing opioid → hours → gradual decline
+      → "Hugging mom never gets old" = no sharp cutoff
+      → INTERRUPTED by cyclic gap (hunger) or generative gap (curiosity)
+    Social connection: ongoing while with the person → gradual decline
       → Person-dependent: hardware need varies (extrovert > introvert)
     Maintained temperature: initially cyclic (relief) → transitions to tonic
-      → "Mặc áo mát mẻ": first = sharp relief, then = baseline = invisible
+      → "Wearing cool clothing": first = sharp relief, then = baseline = invisible
   
   REWARD COMPOSITION (Reward-Signal-Architecture v2.1 integration):
     Touch/comfort = Direct-State dominant (~20/80): CT afferents direct
     Social presence = Evaluative+Direct-State compound (~50/50): evaluation + proximity hardware
-    → Tonic gaps TEND toward Direct-State nhưng KHÔNG tuyệt đối
+    → Tonic gaps TEND toward Direct-State but NOT absolutely
     
   🟢 Weber-Fechner law: established psychophysics
   🟢 Opioid system + touch: CT afferent fibers (R2: Löken 2009)
@@ -399,32 +403,34 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ GENERATIVE = Fill → CREATE new gaps → never "done" → perpetual cycle:
 
-  Đặc điểm:
+  Properties:
     → Fill gap → discover new gaps → chase → fill → discover more
     → Reward = VARIABLE (depends on prediction-delta per discovery)
     → High discovery = HIGH reward (dopamine burst)
     → Repeated known = LOW reward (prediction confirmed, no delta)
-    → Entity fill generative gap = needed for NOVELTY, not for presence
+    → Entity filling a generative gap = needed for NOVELTY, not for presence
   
-  VÍ DỤ:
-    Curiosity/novelty: learn X → see Y unknown → gap for Y → chase
-      → "Học toán → thấy bài khó mới → muốn giải" = self-generating
+  EXAMPLES:
+    Curiosity/novelty: learn X → see unknown Y → gap for Y → chase
+      → "Study math → find a new hard problem → want to solve it" = self-generating
     Domain mastery: solve problem → see bigger problem → gap expands
-      → PhD: chapter → experiment → thesis = mini-arc decomposition (Body-Feedback-Mechanism §3.3d)
-    Status (comparative): achieve → baseline shift → need MORE
-      → "Lương $1M → adapt → $10M → vẫn thiếu" = escalating baseline
+      → PhD: chapter → experiment → thesis = mini-arc decomposition
+        (Body-Feedback-Mechanism §3.3d)
+    Status (comparative): achieve → baseline shifts → need MORE
+      → "Salary $1M → adapt → $10M → still feels insufficient" = escalating baseline
       
   GENERATIVE + ENTITY:
-    Entity RELEVANT khi entity CONTRIBUTE to novelty:
-      → Bạn thân chơi cùng: nếu tạo NEW discoveries → generative reward
-      → Bạn thân same routine: no new discovery → generative ↓ → "chán"
-      → Partner support drive riêng: new by-products → generative reward
-      → Partner suppress drive riêng: no new by-products → "chán"
+    Entity RELEVANT when entity CONTRIBUTES to novelty:
+      → Close friend spending time together: if creating NEW discoveries → generative reward
+      → Close friend in the same routine: no new discovery → generative ↓ → "getting boring"
+      → Partner supports own drives: new by-products → generative reward
+      → Partner suppresses own drives: no new by-products → "getting boring"
   
   REWARD COMPOSITION (Reward-Signal-Architecture v2.1 integration):
     Curiosity/insight = Evaluative dominant (~95/5): pattern EVALUATION
     Status comparison = Evaluative dominant (~90/10): social EVALUATION
-    Physical mastery (sport) = Evaluative+Direct-State compound (~60/40): skill eval + body state
+    Physical mastery (sport) = Evaluative+Direct-State compound (~60/40):
+      skill evaluation + body state
     → Generative gaps TEND toward Evaluative — requires cortical evaluation
     
   🟢 VTA habituation + prediction-delta: R1: Schultz 1997
@@ -439,64 +445,64 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §3.1 — Transitions
 
 ```
-⭐ SATIATION PROFILES KHÔNG TĨNH — CÓ THỂ TRANSITION:
+⭐ SATIATION PROFILES ARE NOT STATIC — CAN TRANSITION:
 
-  CYCLIC → TONIC (phổ biến):
+  CYCLIC → TONIC (common):
     Temperature: relief (cyclic) → maintained (tonic → invisible)
     Safety: resolved (cyclic) → maintained (tonic → invisible)
     = "Relief → Baseline → Invisible" trajectory
     
-  TONIC → GENERATIVE (ít phổ biến):
+  TONIC → GENERATIVE (less common):
     Social connection: ongoing (tonic) + shared novel experiences → generative
-    Touch: ongoing (tonic) nhưng KHÔNG tự generate new gaps
-    = Transition CẦN external novelty input — tonic KHÔNG tự generate
+    Touch: ongoing (tonic) but DOES NOT generate new gaps on its own
+    = Transition REQUIRES external novelty input — tonic does NOT self-generate
     
-  GENERATIVE → TONIC (hiếm):
-    Curiosity domain: active pursuit → mastery → domain "hết gap"
+  GENERATIVE → TONIC (rare):
+    Curiosity domain: active pursuit → mastery → domain "gap exhausted"
     → Shifts to maintenance mode (tonic) — "still enjoy but no new frontiers"
-    → RARE vì generative BY DEFINITION create new gaps
+    → RARE because generative BY DEFINITION creates new gaps
     → CAN happen: domain FINITE (all chess openings memorized)
 ```
 
 ### §3.2 — Compounds
 
 ```
-⭐ 2+ PROFILES ĐỒNG THỜI CHO CÙNG 1 DOMAIN:
+⭐ 2+ PROFILES SIMULTANEOUSLY FOR THE SAME DOMAIN:
 
-  CYCLIC + GENERATIVE (phổ biến):
-    Hunger cho cuisine cụ thể = cyclic (physical hunger) + generative (novelty seeking)
-    → "Đói" = cyclic. "Muốn ăn món mới" = generative ON TOP OF cyclic.
+  CYCLIC + GENERATIVE (common):
+    Hunger for specific cuisine = cyclic (physical hunger) + generative (novelty seeking)
+    → "Hungry" = cyclic. "Want to try a new dish" = generative ON TOP OF cyclic.
     
-  TONIC + GENERATIVE (phổ biến nhất trong relationships):
+  TONIC + GENERATIVE (most common in relationships):
     Social connection = tonic (ongoing presence) + generative (novelty in conversation)
-    → "Gặp bạn = thoải mái" (tonic). "Nói chuyện hay = vui" (generative).
-    → Mất generative → chỉ còn tonic → "gặp thì ổn nhưng không exciting"
+    → "Seeing a friend = comfortable" (tonic). "Good conversation = exciting" (generative).
+    → Lose generative → only tonic remains → "comfortable when meeting but not exciting"
     
-  CYCLIC + TONIC (ít phổ biến):
+  CYCLIC + TONIC (less common):
     Sexual + emotional bonding = cyclic (physical) + tonic (emotional ongoing)
     
-  ⭐ COMPOUND MODEL GIẢI THÍCH "CHÁN NHAU":
-    Romantic ban đầu: tonic (comfort) + generative (novelty)
-    Sau nhiều năm: generative HABITUATED → chỉ còn tonic
-    → "Vẫn thoải mái nhưng không exciting" = tonic intact, generative dead
-    → Boredom Source ⑥: by-product match dừng → no new generative
-    → FIX: rebuild generative (new shared experiences, maintain drive riêng)
+  ⭐ COMPOUND MODEL EXPLAINS "GROWING APART":
+    Romantic relationship early on: tonic (comfort) + generative (novelty) compound
+    After many years: generative HABITUATED → only tonic remains
+    → "Still comfortable but no longer exciting" = tonic intact, generative dead
+    → Boredom Source ⑥: by-product match stops → no new generative
+    → FIX: rebuild generative (new shared experiences, maintain individual drives)
     
   🟡 Profile transitions + compounds = framework synthesis
-  🟢 Consistent with: R5: Aron 2000 (novel activities restore satisfaction)
+  🟢 Consistent with: R5: Aron 2000 (novel activities restore relationship satisfaction)
 ```
 
 ---
 
 ## §4 — HARDWARE GAPS: SOURCES × MECHANISMS × REWARD TYPE
 
-### §4.1 — 6 Hardware SOURCES (bounded, fire cho 1 LOẠI input)
+### §4.1 — 6 Hardware SOURCES (bounded, fire for 1 TYPE of input)
 
 ```
 ⭐⭐ HARDWARE SOURCES = PRE-INSTALLED BY GENES, PRESENT FROM BIRTH:
 
-  Mỗi source = 1 CIRCUIT CỤ THỂ, fire cho 1 LOẠI input.
-  = "ỐNG NƯỚC" — mỗi ống mang 1 loại nước.
+  Each source = 1 SPECIFIC CIRCUIT, fires for 1 TYPE of input.
+  = "PIPE" — each pipe carries 1 type of fluid.
 
   ┌──────────────┬──────────┬────────────────┬──────────┬───────────────────┬──────────┬──────────┐
   │ Source       │ Satiation│ Feed           │ Return   │ Reward            │ Reward   │ Entity   │
@@ -522,37 +528,39 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Parental     │ Tonic    │ ONGOING        │ NEVER    │ HARDWARE-         │ ~40/60   │ AGENT-   │
   │ drive        │ (unique  │ (child         │ (while   │ BOOSTED           │          │ RELEVANT │
   │ (oxytocin)   │ — §12)   │ exists)        │ child    │ (oxytocin)        │          │ EXCLUSIVE│
-  │              │          │                │ alive)   │                   │          │          │
+  │              │          │                │ is alive)│                   │          │          │
   └──────────────┴──────────┴────────────────┴──────────┴───────────────────┴──────────┴──────────┘
 
   AGENT-RELEVANT vs AGENT-IRRELEVANT:
-    AGENT-RELEVANT (4 sources — entity CỤ THỂ specifically feeds):
-      Safety:          Social Baseline Theory — có người = an toàn hơn (Coan & Sbarra 2015)
-      Touch/Comfort:   CT afferents — per-entity modulation ở SI cortex (Gordon 2013)
-      Sexual/aesthetic: fire cho entity visual cụ thể. Baby schema: 140ms (Glocker 2009)
-      Parental drive:  EXCLUSIVE mẹ→con. Hardware anti-habituation (Feldman 2012)
+    AGENT-RELEVANT (4 sources — a SPECIFIC entity feeds them):
+      Safety:          Social Baseline Theory — someone present = safer (Coan & Sbarra 2015)
+      Touch/Comfort:   CT afferents — per-entity modulation in SI cortex (Gordon 2013)
+      Sexual/aesthetic: fires for a specific entity's visual attributes. Baby schema: 140ms
+                       (Glocker 2009)
+      Parental drive:  EXCLUSIVE mother→child. Hardware anti-habituation (Feldman 2012)
 
-    AGENT-IRRELEVANT IN ISOLATION (2 sources — bất kỳ nguồn nào fill):
-      Hunger:      đồ ăn bất kỳ → fill. Entity KHÔNG specifically feed.
-      Temperature: quần áo, máy lạnh → fill. Entity KHÔNG specifically feed.
-      → NHƯNG: khi ENTITY fill → xảy ra COMPOUND (§4.5)
+    AGENT-IRRELEVANT IN ISOLATION (2 sources — any source fills them):
+      Hunger:      any food → fills. Entity does NOT specifically feed.
+      Temperature: clothing, air conditioner → fills. Entity does NOT specifically feed.
+      → BUT: when an ENTITY fills them → COMPOUND occurs (§4.5)
 
   ⭐ Reward-Signal-Architecture REWARD RATIO = ORTHOGONAL DIMENSION:
-    Reward ratio KHÔNG define gap type. Reward ratio define REWARD TYPE khi gap fill.
-    Cùng 1 gap (hunger): fill bằng "ăn đại cái gì" = E₀ (binary taste eval).
-    Cùng 1 gap (hunger): fill bằng "ăn phở Hà Nội ngon" = E₂ (rich evaluation).
-    → reward ratio VARIES within same gap tùy HOW fill.
-    → Bảng trên = TYPICAL ratio, NOT fixed.
+    Reward ratio does NOT define gap type. Reward ratio defines REWARD TYPE when gap fills.
+    Same gap (hunger): fill with "eat whatever is available" = E₀ (binary taste eval).
+    Same gap (hunger): fill with "authentic Hanoi pho" = E₂ (rich evaluation).
+    → Reward ratio VARIES within the same gap depending on HOW it is filled.
+    → The table above = TYPICAL ratio, NOT fixed.
 
   REWARD = f(gap_depth × fill_quality × satiation_state):
-    Gap depth DEEP (nhịn 12h): fill reward = CAO
-    Gap depth SHALLOW (ăn 2h trước): fill reward = THẤP
-    Fill quality CAO (món ngon): reward AMPLIFIED (E₂ + Direct-State)
-    NHƯNG: satiation OVERRIDE → "no rồi thì không muốn ăn dù món ngon"
+    Gap depth DEEP (12h of fasting): fill reward = HIGH
+    Gap depth SHALLOW (ate 2h ago): fill reward = LOW
+    Fill quality HIGH (delicious dish): reward AMPLIFIED (E₂ + Direct-State)
+    BUT: satiation OVERRIDES → "once full, no desire to eat even delicious food"
     → Reward CAPPED by satiation state (cyclic = clear cap)
 
   🟢 Hardware sources pre-installed: Gap-Distribution-Profile v1.0 §2.4
-  🟢 Evaluative/Direct-State distinction: Reward-Signal-Architecture v2.1 §1 (R15: Berridge 2003, R16: Loseth 2019)
+  🟢 Evaluative/Direct-State distinction: Reward-Signal-Architecture v2.1 §1
+     (R15: Berridge 2003, R16: Loseth 2019)
   🟢 Individual variation: supertasters ~25% (R28: Bartoshuk 2000)
   🟢 CT afferents per-entity: Gordon 2013 (PNAS)
   🟢 Baby schema: Glocker 2009 (PNAS)
@@ -562,60 +570,63 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §4.2 — 2 Processing MECHANISMS (unbounded, cross-source)
 
 ```
-⭐⭐ MECHANISMS ≠ SOURCES — KHÁC CĂN BẢN:
+⭐⭐ MECHANISMS ≠ SOURCES — FUNDAMENTALLY DIFFERENT:
 
-  Sources (§4.1): fire cho 1 LOẠI input (BOUNDED).
-    Hunger fire khi thiếu calories. Touch fire khi có CT contact. 
-    Mỗi source = 1 ống nước riêng.
+  Sources (§4.1): fire for 1 TYPE of input (BOUNDED).
+    Hunger fires when calories are missing. Touch fires when CT contact is present.
+    Each source = its own separate pipe.
 
-  Mechanisms: chạy ACROSS tất cả sources (UNBOUNDED).
-    Fire cho BẤT KỲ gap nào thỏa condition.
-    = "Áp suất" + "Đồng hồ" chạy trên TẤT CẢ ống nước.
+  Mechanisms: run ACROSS all sources (UNBOUNDED).
+    Fire for ANY gap meeting the condition.
+    = "Pressure" + "Clock" running on ALL pipes.
 
-  v1.0 §4 xếp "Curiosity/Novelty" + "Social connection" cùng level với hunger/touch.
-  → SAI LEVEL: Novelty = MECHANISM chạy cross-source, KHÔNG phải source cùng loại.
-  → "Social connection" = COMPOUND (§4.4), KHÔNG phải source riêng.
+  v1.0 §4 placed "Curiosity/Novelty" + "Social connection" at the same level as hunger/touch.
+  → WRONG LEVEL: Novelty = MECHANISM running cross-source, NOT a source of the same kind.
+  → "Social connection" = COMPOUND (§4.4), NOT a separate source.
 
   ┌───────────────────────┬──────────────────────────────────────────────────┐
-  │ Novelty/Prediction-   │ THỜI GIAN: TỨC THỜI (ms-seconds)                 │
+  │ Novelty/Prediction-   │ TIMING: IMMEDIATE (ms-seconds)                   │
   │ delta (VTA)           │                                                  │
-  │                       │ Body-base ĐANG trải nghiệm thứ gì đó →           │
-  │ = Generative driver   │ actual > predicted → VTA fire → reward NGAY.     │
+  │                       │ Body IS experiencing something →                 │
+  │ = Generative driver   │ actual > predicted → VTA fires → reward NOW.     │
   │                       │                                                  │
-  │                       │ Fire cho BẤT KỲ source nào có delta > 0.         │
-  │                       │ Tạo GENERATIVE dynamics: fill → new gap → loop.  │
+  │                       │ Fires for ANY source with delta > 0.             │
+  │                       │ Creates GENERATIVE dynamics: fill → new gap → loop.│
   │                       │ = §2.4 Generative satiation profile driver.      │
   │                       │                                                  │
-  │                       │ Hardware end: bé thấy đồ chơi mới → VTA fire.    │
+  │                       │ Hardware end: child sees a new toy → VTA fires.  │
   │                       │ Compilable end:                                  │
-  │                       │   Einstein giải phương trình → VTA fire.         │
-  │                       │ Agent application: entity tạo prediction-delta   │
-  │                       │   trên CÁC sources → by-product match reward.    │
+  │                       │   Einstein solves an equation → VTA fires.       │
+  │                       │ Agent application: entity creates prediction-delta│
+  │                       │   across sources → by-product match reward.      │
   │                       │                                                  │
   │                       │ 🟢 Schultz 1997. 🟢 Aron 1996.                  │
   ├───────────────────────┼──────────────────────────────────────────────────┤
-  │ Gap-Fillability       │ THỜI GIAN: TƯƠNG LAI (hours-years)               │
+  │ Gap-Fillability       │ TIMING: FUTURE (hours-years)                     │
   │ Prediction            │                                                  │
-  │                       │ Brain dự đoán tiềm năng fill gap TƯƠNG LAI       │
-  │ = Anticipatory signal │ của entity trên TOÀN PHỔ                         │
+  │                       │ Brain predicts the entity's future gap-fill      │
+  │ = Anticipatory signal │ potential across the FULL SPECTRUM               │
   │                       │ Hardware ←→ Collective-Arc.                      │
   │                       │                                                  │
-  │                       │ Entity ổn → gaps SẼ tiếp tục filled → yên tâm.   │
-  │                       │ Entity threatened → gaps SẼ bị threatened → lo.  │
+  │                       │ Entity stable → gaps WILL continue to be filled  │
+  │                       │   → reassurance.                                 │
+  │                       │ Entity threatened → gaps WILL be threatened      │
+  │                       │   → anxiety.                                     │
   │                       │                                                  │
   │                       │ 2-step meta-process:                             │
   │                       │   Embodied simulation: simulate entity state     │
   │                       │     (PRESENT mirroring, Entity-Compiled §2.3)    │
   │                       │   Gap-fillability prediction: predict gap-fill   │
   │                       │     change (FUTURE)                              │
-  │                       │ Chi tiết: Entity-Valence-Dynamics v1.3 §2.4      │
+  │                       │ Details: Entity-Valence-Dynamics v1.3 §2.4      │
   │                       │                                                  │
   │                       │ 🟢 Singer 2004. 🟢 Eisenberger 2003.            │
   └───────────────────────┴──────────────────────────────────────────────────┘
 
-  Novelty vs Gap-Fillability: CẢ HAI dùng "prediction" nhưng KHÁC CĂN BẢN:
-    Novelty: actual vs expected NGAY BÂY GIỜ → "hay ghê!" (reward tức thời)
-    Gap-Fillability: entity state → gap-fill THẾ NÀO TRONG TƯƠNG LAI → "yên tâm/lo" (anticipatory)
+  Novelty vs Gap-Fillability: BOTH use "prediction" but are FUNDAMENTALLY DIFFERENT:
+    Novelty: actual vs expected RIGHT NOW → "how surprising!" (immediate reward)
+    Gap-Fillability: entity state → gap-fill HOW IN THE FUTURE → "reassured/anxious"
+      (anticipatory)
 
   🟡 Sources vs Mechanisms distinction = drill synthesis (Drill-Agent-Feed-Channel v2.2)
   🟡 Novelty = cross-source mechanism (not same-level as sources) = drill discovery
@@ -624,20 +635,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §4.3 — 4 Agent-Relevant Sources × L0-L1 Substrate
 
 ```
-⭐ 4 AGENT-RELEVANT SOURCES = CIRCUITS HOẠT ĐỘNG TRÊN L0+L1 SUBSTRATE (Body-Base.md v4.0 §5):
+⭐ 4 AGENT-RELEVANT SOURCES = CIRCUITS OPERATING ON L0+L1 SUBSTRATE
+   (Body-Base.md v4.0 §5):
 
-  KHÔNG phải layer mới bên cạnh L0-L1:
+  NOT a new layer alongside L0-L1:
     Safety:          predicts MY L0 future threat via L1 Visceral + amygdala
     Touch/Comfort:   operates on L1 Tactile (CT afferents specifically)
     Sexual/aesthetic: operates on L1 Vision + Hormonal
-    Parental drive:  monitors ENTITY's L0 (con alive?) → reward khi entity L0 = alive
+    Parental drive:  monitors the ENTITY's L0 (child alive?) → reward when entity
+                     L0 = alive
 
-  WITHIN EACH SOURCE = VÔ TẬN specific compiled gaps (§1 gap = infinite):
-    Touch/Comfort chứa: "ôm mẹ", "mùi người yêu", "tay bố cầm",
-      "chó nằm cạnh", "vai bạn thân khoác"...
-    Mỗi compiled chunk + entity = 1 specific gap
-    Khi entity mất → Hub-and-Spoke spokes fire → Chunk-Miss → pain
-    Số spokes = f(Entity-Compiled depth × interaction history) = VÔ TẬN
+  WITHIN EACH SOURCE = INFINITE specific compiled gaps (§1 gap = infinite):
+    Touch/Comfort contains: "hugging mom", "a loved one's scent",
+      "dad holding your hand", "dog lying next to you",
+      "a close friend's arm over your shoulder"...
+    Each compiled chunk + entity = 1 specific gap
+    When entity is lost → Hub-and-Spoke spokes fire → Chunk-Miss → pain
+    Number of spokes = f(Entity-Compiled depth × interaction history) = INFINITE
 
   🟡 L0-L1 substrate mapping = framework synthesis (Drill-Agent-Feed-Channel v2.2)
 ```
@@ -645,21 +659,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §4.4 — "Social Connection" = COMPOUND
 
 ```
-⭐ v1.0 §4 LIỆT KÊ "SOCIAL CONNECTION" NHƯ HARDWARE SOURCE → v2.0 REFRAME:
+⭐ v1.0 §4 LISTED "SOCIAL CONNECTION" AS A HARDWARE SOURCE → v2.0 REFRAME:
 
-  "Social connection" = COMPOUND, KHÔNG PHẢI source riêng:
+  "Social connection" = COMPOUND, NOT a separate source:
     Social = Touch/Comfort + Safety + Novelty across shared domain
 
-  PHÂN TÍCH:
-    Touch/Comfort (Tonic):   ôm, ngồi cạnh, CT afferents → ongoing warmth
-    Safety (Cyclic→Tonic):    có người = an toàn → baseline maintenance
-    Novelty mechanism:        shared experience tạo prediction-delta → excitement
-    → COMPOUND 3 sources/mechanism → "social connection" experience
+  ANALYSIS:
+    Touch/Comfort (Tonic):   hugging, sitting together, CT afferents → ongoing warmth
+    Safety (Cyclic→Tonic):    someone present = safer → baseline maintenance
+    Novelty mechanism:        shared experience creates prediction-delta → excitement
+    → COMPOUND of 3 sources/mechanism → "social connection" experience
 
-  VÀ consistent với per-entity profiles:
-    Bạn thân = Tonic (Touch/Comfort nhẹ + Safety nhẹ) + Generative (Novelty dominant)
-    → Resonance-Per-Entity v1.0 §5 đã mô tả đúng pattern này
-    → "Cứ vui thì chơi" = Novelty mechanism on shared compiled chunks
+  AND consistent with per-entity profiles:
+    Close friend = Tonic (light Touch/Comfort + light Safety) + Generative
+      (Novelty dominant)
+    → Resonance-Per-Entity v1.0 §5 already described this pattern correctly
+    → "Just being together is fun" = Novelty mechanism on shared compiled chunks
 
   🟡 "Social connection" = compound decomposition = drill synthesis
 ```
@@ -667,26 +682,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §4.5 — L0 Survival Fill: Agent-Irrelevant → Compound
 
 ```
-⭐ L0 SURVIVAL FILL VÀ AGENT-RELEVANCE:
+⭐ L0 SURVIVAL FILL AND AGENT-RELEVANCE:
 
   L0 survival fill (food, health, rescue) = AGENT-IRRELEVANT in isolation:
-    Bất kỳ food source → fill hunger. Bất kỳ bác sĩ → save life.
-    Agent KHÔNG specifically feed hunger/temperature gap.
+    Any food source → fills hunger. Any doctor → saves a life.
+    The agent does NOT specifically feed the hunger/temperature gap.
 
-  NHƯNG: khi ENTITY fill L0 → xảy ra COMPOUND:
-    "Mẹ cho ăn" = L0 resolved (any source có thể) + Touch/Comfort + Safety compound
-    "Cơm mẹ nấu ≠ cơm hộp" DÙ calories GIỐNG — vì compound:
-      Mẹ nấu = L0 fill + Touch (bàn tay mẹ, mùi quen) + Safety (mẹ ở đây)
-                + Entrainment (body sync với mẹ)
-      Cơm hộp = L0 fill only
+  BUT: when an ENTITY fills L0 → COMPOUND occurs:
+    "Mom feeding you" = L0 resolved (any source could) + Touch/Comfort + Safety compound
+    "Mom's home cooking ≠ packaged food" EVEN THOUGH calories ARE THE SAME — because compound:
+      Mom's cooking = L0 fill + Touch (mom's hands, familiar scent)
+                      + Safety (mom is here) + Entrainment (body sync with mom)
+      Packaged food = L0 fill only
 
-    → L0 fill KHÔNG cần cụm riêng trong source table.
-    → Agent-relevance đến từ COMPOUND với Touch/Comfort + Safety sources.
+    → L0 fill does NOT need its own group in the source table.
+    → Agent-relevance comes from the COMPOUND with Touch/Comfort + Safety sources.
 
-  "Con chăm mẹ khi về già" = reverse direction:
-    Con fill MẸ's L0 (health) + Touch/Comfort + Safety
-    Nhưng: L0 fill = agent-irrelevant (bác sĩ cũng fill)
-    Agent-relevant = compound: con's presence + Touch + Safety + Entrainment
+  "Adult child caring for aging mom" = reverse direction:
+    Child fills MOM's L0 (health) + Touch/Comfort + Safety
+    But: L0 fill = agent-irrelevant (a doctor could also fill it)
+    Agent-relevant = compound: child's presence + Touch + Safety + Entrainment
 
   🟡 L0 compound effect = drill synthesis (Drill-Agent-Feed-Channel v2.2)
 ```
@@ -718,41 +733,42 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├──────────────┼──────────────┼───────────┼──────────┼──────────────┼──────────┼──────────┤
   │ Schema-      │ Varies       │ Varies    │ Schema   │ RELIEF tag   │ ~70/30   │ Schema   │
   │ installed    │              │           │ maintain │ (not opioid) │          │ dependent│
-  │ ("phải X")   │              │           │          │              │          │          │
+  │ ("must X")   │              │           │          │              │          │          │
   └──────────────┴──────────────┴───────────┴──────────┴──────────────┴──────────┴──────────┘
 
   ⭐ DOMAIN GAPS = PREDOMINANTLY EVALUATIVE:
     Domain activity = cortical pattern matching → evaluation → opioid
     → Nearly ALL domain gaps have HIGH Evaluative ratio
-    → Direct-State component: MINIMAL (nhưng có: body relaxation khi solve, flow state)
-    → = WHY domain rewards CẦN compilation (Reward-Signal-Architecture v2.1 §2: E₁→E₃ develops with chunks)
-    → = WHY trẻ nhỏ KHÔNG có domain reward deep (chưa compile đủ)
+    → Direct-State component: MINIMAL (but exists: body relaxation when solving, flow state)
+    → = WHY domain rewards REQUIRE compilation
+      (Reward-Signal-Architecture v2.1 §2: E₁→E₃ develops with chunks)
+    → = WHY young children DON'T have deep domain reward (not yet compiled enough)
 
   MINI-ARC DECOMPOSITION (Body-Feedback-Mechanism v2.1 §3.3d):
-    Big gap (career) → brain DECOMPOSE thành mini-gaps
+    Big gap (career) → brain DECOMPOSES into mini-gaps
     Each mini-gap fill = mini opioid reward
     PhD thesis → chapters → experiments → each fill = mini reward
     → SUSTAINS drive over years
     → Without decomposition: one big gap → overwhelm → give up
 
-  CROSS-DOMAIN NEURAL EVIDENCE cho mini-arc decomposition:
+  CROSS-DOMAIN NEURAL EVIDENCE for mini-arc decomposition:
     🟢 Nakai, Daikoku & Oseki 2026 (Neuroscience Research):
       IFG (inferior frontal gyrus, BA44) shared across music × math × language.
       "Brain integrates hierarchical structures with statistical learning" across domains.
       BA44 = "supramodal hierarchical parser" (Fadiga et al. 2009).
-    → Mini-arc decomposition dùng CÙNG neural substrate across domains.
+    → Mini-arc decomposition uses the SAME neural substrate across domains.
     → Music = "pure form" of hierarchical prediction:
       5 simultaneous levels (beat → phrase → section → song → album).
       Fractal structure confirmed: 🟢 Voss & Clarke 1975, Hsü & Hsü 1991.
     → Drill-Sound-Brain/07-Music-Entrainment-Reward-Dynamics v1.2 §4b.
     
-  ⭐ SCHEMA-INSTALLED GAP ĐẶC BIỆT:
-    Fill = RELIEF tag (cortisol drop), KHÔNG PHẢI opioid
-    → "Phải có nhà trước 30" → mua nhà → "phù, xong rồi" (relief) ≠ "thích" (opioid)
+  ⭐ SCHEMA-INSTALLED GAP IS SPECIAL:
+    Fill = RELIEF tag (cortisol drop), NOT opioid
+    → "Must own a house before 30" → buy house → "phew, done" (relief) ≠ "love it" (opioid)
     → PFC-Operations v1.2: schema-compiled ≠ genuine-compiled
-    → Schema gap fill = Reward-Signal-Architecture Evaluative (evaluation) nhưng WEAK quality
+    → Schema gap fill = Reward-Signal-Architecture Evaluative (evaluation) but WEAK quality
     → Genuine gap fill = Reward-Signal-Architecture Evaluative (evaluation) + STRONG opioid confirm
-    → Phân biệt: relief ≠ opioid DÙ cả 2 = "hết khó chịu"
+    → Distinction: relief ≠ opioid EVEN THOUGH both = "discomfort gone"
     
   🟢 Baseline shift: R4: Brickman & Campbell 1971
   🟢 Mini-arc: Body-Feedback-Mechanism v2.1 §3.3d
@@ -766,50 +782,51 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §6.1 — Model overview
 
 ```
-⭐⭐⭐ MỖI GAP CÓ THỂ QUAN SÁT BẰNG 5 PARAMETERS:
+⭐⭐⭐ EVERY GAP CAN BE OBSERVED VIA 5 PARAMETERS:
 
   ┌──────────────────────────────────────────────────────────────┐
-  │  Axis-1 — HARDWARE SOURCE: sensor/hormone/coherence nào?         │
-  │  Axis-2 — SATIATION PROFILE: Cyclic / Tonic / Generative?       │
-  │  Axis-3 — REWARD COMPOSITION: Reward-Signal-Architecture Evaluative : Direct-State ratio?         │
-  │  Axis-4 — CHAIN TO BODY-BASE: fill trực tiếp hay qua bao nhiêu? │
-  │  Axis-5 — COLLECTIVE DEPENDENCY: infrastructure cần bao nhiêu?   │
+  │  Axis-1 — HARDWARE SOURCE: which sensor/hormone/coherence?   │
+  │  Axis-2 — SATIATION PROFILE: Cyclic / Tonic / Generative?   │
+  │  Axis-3 — REWARD COMPOSITION: Evaluative : Direct-State ratio│
+  │  Axis-4 — CHAIN TO BODY-BASE: direct fill or how many steps? │
+  │  Axis-5 — COLLECTIVE DEPENDENCY: how much infrastructure?    │
   └──────────────────────────────────────────────────────────────┘
   
   Axis-1 — HARDWARE SOURCE:
     Sensory: 17 receptor categories (Body-Feedback-Mechanism v2.1 §2.2)
-    Homeostatic: đường huyết, oxy, pH, áp suất — internal monitor
+    Homeostatic: blood sugar, oxygen, pH, pressure — internal monitors
     Hormone: oxytocin (parental), dopamine/NE/serotonin↓ (limerence)
     Coherence: ACC/insula detect pattern inconsistency
     → Axis-1 = UNCHANGEABLE (hardware-determined)
-    → NHƯNG: compilation MỞ RỘNG what counts as "input" (Reward-Signal-Architecture v2.1: E₀→E₃)
+    → BUT: compilation EXPANDS what counts as "input"
+      (Reward-Signal-Architecture v2.1: E₀→E₃)
     
   Axis-2 — SATIATION PROFILE:
     Cyclic / Tonic / Generative / Compound
-    → Axis-2 = primarily HARDWARE (cyclic/tonic) hoặc EMERGE từ compilation (generative)
+    → Axis-2 = primarily HARDWARE (cyclic/tonic) OR EMERGES from compilation (generative)
     
   Axis-3 — REWARD COMPOSITION:
     Evaluative Reward (opioid) : Direct-State Reward (non-opioid)
-    reward ratio = PER-GAP, PER-FILL (same gap, different fill = different ratio)
+    Reward ratio = PER-GAP, PER-FILL (same gap, different fill = different ratio)
     → Axis-3 = depends on BOTH hardware source AND compilation depth
     → Beginner: wine tasting = mostly Direct-State (taste) + little Evaluative (shallow eval)
     → Expert: wine tasting = mostly Evaluative (rich evaluation) + some Direct-State (taste)
     
   Axis-4 — CHAIN TO BODY-BASE:
-    Chain = 0: fill TRỰC TIẾP (ăn → no, giải toán → pleasant)
-    Chain = 1-3: fill QUA BƯỚC (kiếm tiền → mua đồ → fill gap)
-    Chain = dài: fill qua DOMAIN (học ngành → việc → tiền → fill nhiều gaps)
-    → Chi tiết tại §8
+    Chain = 0: fill DIRECTLY (eat → full, solve math → pleasant)
+    Chain = 1-3: fill VIA STEPS (earn money → buy things → fill gap)
+    Chain = long: fill through DOMAIN (study a field → job → money → fill many gaps)
+    → Details at §8
     
   Axis-5 — COLLECTIVE DEPENDENCY:
-    Low: sensory (genes pre-install, baby đói ngay)
-    Medium: near-body (vài năm experience + social comparison)
-    High: abstract (decades accumulated knowledge)
-    Maximum: collective-level (cần deep personal + collective perspective)
-    → Chi tiết tại §9
+    Low: sensory (genes pre-install, a newborn is hungry immediately)
+    Medium: near-body (a few years of experience + social comparison)
+    High: abstract (decades of accumulated knowledge)
+    Maximum: collective-level (requires deep personal + collective perspective)
+    → Details at §9
 ```
 
-### §6.2 — Ví dụ áp dụng
+### §6.2 — Examples applied
 
 ```
   ┌──────────────┬──────────────────┬──────────────┬──────────────┬──────────────┬────────────────┐
@@ -820,30 +837,30 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ (basic)      │ homeostatic      │              │              │ or 2+ (work  │ (gene)         │
   │              │                  │              │              │ →$→food)     │                │
   ├──────────────┼──────────────────┼──────────────┼──────────────┼──────────────┼────────────────┤
-  │ Ôm mẹ        │ CT afferents +   │ Tonic        │ ~20/80       │ 0 (direct)   │ Low            │
+  │ Hugging mom  │ CT afferents +   │ Tonic        │ ~20/80       │ 0 (direct)   │ Low            │
   │ (comfort)    │ social hardware  │              │              │              │ (hardware)     │
   ├──────────────┼──────────────────┼──────────────┼──────────────┼──────────────┼────────────────┤
-  │ Giải toán    │ ACC coherence    │ Generative   │ ~95/5        │ 0 (Pathway 1 │ HIGH           │
+  │ Solving math │ ACC coherence    │ Generative   │ ~95/5        │ 0 (Pathway 1 │ HIGH           │
   │ (Einstein)   │ detection        │              │              │ = direct)    │ (centuries     │
-  │              │                  │              │              │              │ physics)       │
+  │              │                  │              │              │              │ of physics)    │
   ├──────────────┼──────────────────┼──────────────┼──────────────┼──────────────┼────────────────┤
-  │ Mua điều hòa │ Thermoregulation │ Cyclic→Tonic │ ~20/80       │ 3+ (work→$   │ HIGH           │
-  │ (fill nóng)  │                  │              │              │ →buy→cool)   │ (economy)      │
+  │ Buying an AC │ Thermoregulation │ Cyclic→Tonic │ ~20/80       │ 3+ (work→$   │ HIGH           │
+  │ (fill heat)  │                  │              │              │ →buy→cool)   │ (economy)      │
   ├──────────────┼──────────────────┼──────────────┼──────────────┼──────────────┼────────────────┤
-  │ Status mạng  │ Social hardware  │ Generative   │ ~85/15       │ 1-2 (post→   │ HIGH           │
-  │ xã hội       │ + comparison     │ (comparative)│              │ likes→reward)│ (platform      │
+  │ Social media │ Social hardware  │ Generative   │ ~85/15       │ 1-2 (post→   │ HIGH           │
+  │ status       │ + comparison     │ (comparative)│              │ likes→reward)│ (platform      │
   │ (likes)      │                  │              │              │              │ infrastructure)│
   └──────────────┴──────────────────┴──────────────┴──────────────┴──────────────┴────────────────┘
 
-  ⭐ INSIGHT TỪ 5-PARAMETER:
-    Axis-4 và Axis-5 CORRELATE ở 2 cực nhưng DECOUPLE ở giữa:
-      Sensory gap: Axis-4 = 0 (direct) + Axis-5 = low → CẢ HAI đơn giản
-      Abstract gap: Axis-4 CÓ THỂ = 0 (Pathway 1!) + Axis-5 = HIGH → DECOUPLE
-      → Einstein: chain = 0 (pleasant trực tiếp khi giải) nhưng dependency = MAX
-      → Vì: Collective provide CHUNKS (Axis-5), reward = INTERNAL (Axis-4 chain=0)
-      → = 2 parameters ĐỘC LẬP:
-        Axis-4 = chain từ fill event → body-base reward
-        Axis-5 = infrastructure cần cho gap TỒN TẠI
+  ⭐ INSIGHT FROM 5-PARAMETER:
+    Axis-4 and Axis-5 CORRELATE at the 2 extremes but DECOUPLE in the middle:
+      Sensory gap: Axis-4 = 0 (direct) + Axis-5 = low → BOTH simple
+      Abstract gap: Axis-4 CAN BE = 0 (Pathway 1!) + Axis-5 = HIGH → DECOUPLE
+      → Einstein: chain = 0 (pleasant directly when solving) but dependency = MAX
+      → Because: Collective provides CHUNKS (Axis-5), reward = INTERNAL (Axis-4 chain=0)
+      → = 2 INDEPENDENT parameters:
+        Axis-4 = chain from fill event → body-base reward
+        Axis-5 = infrastructure needed for the gap TO EXIST
 
   🟡 5-parameter per-gap model = framework synthesis
   🟢 Individual parameters: established in respective source files
@@ -856,39 +873,39 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §7.1 — Gap competition: shared attention budget
 
 ```
-⭐⭐ HARDWARE VÀ DOMAIN GAPS CẠNH TRANH CÙNG BUDGET:
+⭐⭐ HARDWARE AND DOMAIN GAPS COMPETE FOR THE SAME BUDGET:
 
-  HARDWARE INTERRUPT DOMAIN:
-    Đang làm việc (domain gap active) → đói (hardware gap activate)
-    → Hardware gap URGENT → PFC shift attention → eat → return to work
-    → "Không thể code khi đói" = hardware > domain in urgency
+  HARDWARE INTERRUPTS DOMAIN:
+    Working (domain gap active) → hungry (hardware gap activates)
+    → Hardware gap URGENT → PFC shifts attention → eat → return to work
+    → "Can't code when hungry" = hardware > domain in urgency
     
-  DOMAIN SUPPRESS HARDWARE:
-    Deadline (domain gap URGENT) → muốn chơi (hardware gap)
+  DOMAIN SUPPRESSES HARDWARE:
+    Deadline (domain gap URGENT) → want to play (hardware gap)
     → Domain gap + schema pressure → SUPPRESS hardware gap
-    → "Muốn chơi nhưng phải làm xong" = domain override hardware
-    → = Compiled suppress nếu kéo dài (PFC-Operations v1.2 §4.2 Outcome B)
+    → "Want to play but need to finish first" = domain overrides hardware
+    → = Compiled suppress if prolonged (PFC-Operations v1.2 §4.2 Outcome B)
     
   WITHIN-TYPE COMPETITION:
   
-    2 HARDWARE GAPS ĐỒNG THỜI:
-      Đói + lạnh: brain PRIORITIZE theo URGENCY (threat level):
-        → Lạnh nguy hiểm (hypothermia) → prioritize temperature > hunger
-        → Lạnh nhẹ (mùa đông) → hunger có thể > temperature
-        → = Threat-based priority (amygdala assess survival relevance)
+    2 HARDWARE GAPS SIMULTANEOUSLY:
+      Hungry + cold: brain PRIORITIZES by URGENCY (threat level):
+        → Cold dangerous (hypothermia) → prioritize temperature > hunger
+        → Mild cold (wintertime) → hunger can be > temperature
+        → = Threat-based priority (amygdala assesses survival relevance)
       
-    2 DOMAIN GAPS ĐỒNG THỜI:
-      Deadline work + social event: brain MUST CHOOSE (PFC decision)
-        → Schema priority: "deadline quan trọng hơn" → suppress social
-        → Hardware conflict: social gap STILL fire → "muốn đi lắm"
-        → = PFC = Lawyer: rationalizes choice, KHÔNG resolve conflict
+    2 DOMAIN GAPS SIMULTANEOUSLY:
+      Work deadline + social event: brain MUST CHOOSE (PFC decision)
+        → Schema priority: "deadline is more important" → suppress social
+        → Hardware conflict: social gap STILL fires → "really want to go"
+        → = PFC = Lawyer: rationalizes the choice, does NOT resolve the conflict
         
   PRIORITY RESOLUTION MECHANISM:
     ① Amygdala: threat assessment → survival gaps FIRST
     ② Cortisol level: high cortisol → narrow attention → urgent gap only
-    ③ Schema priority: compiled "nên làm gì" → PFC guide attention
+    ③ Schema priority: compiled "what should I do" → PFC guides attention
     ④ Hardware strength: deeper gap → stronger signal → harder to suppress
-    → KHÔNG có single hierarchy — CONTEXT-DEPENDENT resolution
+    → No single hierarchy — CONTEXT-DEPENDENT resolution
     → = Framework position: consistent with Max-Neef (not Maslow hierarchy)
     
   🟢 Context-dependent priority: R23: Max-Neef 1991
@@ -898,33 +915,33 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §7.2 — Lifecycle shift
 
 ```
-⭐ GAP LANDSCAPE THAY ĐỔI THEO TUỔI:
+⭐ GAP LANDSCAPE SHIFTS WITH AGE:
 
   COLLECTIVE-ARC PRIORITY SYSTEM:
-    Society INSTALL priority order:
-    → "Lớn phải đi làm" = domain > play (hardware)
-    → "Phải học giỏi" = domain > curiosity (hardware redirected)
-    → = Schema OVERRIDE hardware priority
+    Society INSTALLS priority order:
+    → "Grown-ups must work" = domain > play (hardware)
+    → "Must study hard" = domain > curiosity (hardware redirected)
+    → = Schema OVERRIDES hardware priority
     → = Problem: CHRONIC override → compiled suppress → flat affect
 
   LIFECYCLE (Gap-Distribution-Profile v1.0 §4):
-    Trẻ nhỏ (0-12): hardware gaps DOMINATE (play, curiosity, touch)
-      → Mẹ = primary gap-fill source → Entity-Access MAX
-    Teen (13-18): domain gaps EMERGE (study, social, identity)
+    Young children (0-12): hardware gaps DOMINATE (play, curiosity, touch)
+      → Mom = primary gap-fill source → Entity-Access MAXIMUM
+    Teens (13-18): domain gaps EMERGE (study, social, identity)
       → Peers fill NEW gaps → new Entity-Compiled forming
-    Adult (20-40): domain gaps DOMINATE (career, money, status)
-      → Hardware gaps SUPPRESSED (ít thời gian chơi)
-    Mature (40+): domain gaps GIẢM if achieved
+    Adults (20-40): domain gaps DOMINATE (career, money, status)
+      → Hardware gaps SUPPRESSED (little time for play)
+    Mature (40+): domain gaps DECREASE if achieved
       → Hardware gaps RESURFACE → "mid-life crisis"
       → = Hardware gaps were BURIED (compiled suppress), not deleted
     
-  ⭐ ENTITY-ACCESS GIẢM THEO TUỔI ≠ "BỚT THƯƠNG":
-    = Proportion of gaps mẹ fill GIẢM so với total gaps
-    = Mẹ vẫn fill SAME gaps (comfort, safety, emotional)
-    = NHƯNG total gap landscape EXPANDED (domain, social, status)
-    = → Mẹ's share = SMALLER fraction
-    = → "Lớn rồi không cần mẹ nữa" = SAI
-    = → "Lớn rồi, mẹ fill FEWER of my TOTAL gaps" = ĐÚNG
+  ⭐ ENTITY-ACCESS DECREASING WITH AGE ≠ "LOVING LESS":
+    = Proportion of gaps mom fills DECREASES relative to total gaps
+    = Mom STILL fills THE SAME gaps (comfort, safety, emotional)
+    = BUT total gap landscape EXPANDED (domain, social, status)
+    = → Mom's share = SMALLER fraction
+    = → "Grown up, don't need mom anymore" = WRONG
+    = → "Grown up, mom fills FEWER of my TOTAL gaps" = CORRECT
     
   🟢 Lifecycle shift: consistent with developmental psychology
   🟡 Within-type competition mechanism = framework synthesis
@@ -935,78 +952,79 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §8 — 2 PATHWAYS × CHAIN LENGTH
 
 ```
-⭐⭐ MỌI GAP SERVE BODY-BASE QUA 2 CON ĐƯỜNG (Gap-Distribution-Profile v1.0 §2.2):
+⭐⭐ ALL GAPS SERVE BODY-BASE VIA 2 PATHWAYS (Gap-Distribution-Profile v1.0 §2.2):
 
-  PATHWAY 1 — TRỰC TIẾP (internal coherence):
-    → Activity resolve inconsistency → cortisol drop → opioid
-    → Body-base state THẬT SỰ improve
-    → Chain = 0: reward NGAY khi fill
+  PATHWAY 1 — DIRECT (internal coherence):
+    → Activity resolves inconsistency → cortisol drop → opioid
+    → Body-base state TRULY improves
+    → Chain = 0: reward fires IMMEDIATELY when filled
     → Applies to ALL points on Gap-Distribution-Profile spectrum:
-      Sensory: ăn đúng ý → coherence → pleasant (chain=0)
-      Abstract: giải bài xong → coherence → pleasant (chain=0)
-      → = CÙNG mechanism (Compilable Architecture general-purpose reward)
+      Sensory: eat as intended → coherence → pleasant (chain=0)
+      Abstract: finish solving a problem → coherence → pleasant (chain=0)
+      → = SAME mechanism (Compilable Architecture general-purpose reward)
     
-  PATHWAY 2 — GIÁN TIẾP (external outcome → resources → body-base):
+  PATHWAY 2 — INDIRECT (external outcome → resources → body-base):
     → Activity → outcome → resources → fill OTHER gaps
     → Chain LENGTH varies:
     
-    ┌──────────────────┬────────────────────┬──────────────────┐
-    │ Domain Position  │ Chain Length       │ Example          │
-    ├──────────────────┼────────────────────┼──────────────────┤
-    │ Sensory          │ 0 (direct)         │ Ăn → no          │
-    ├──────────────────┼────────────────────┼──────────────────┤
-    │ Near-body        │ 1-2                │ Nấu ăn ngon →    │
-    │                  │                    │ ăn → no + enjoy  │
-    ├──────────────────┼────────────────────┼──────────────────┤
-    │ Social (career)  │ 2-4                │ Làm việc → tiền  │
-    │                  │                    │ → mua đồ → fill  │
-    ├──────────────────┼────────────────────┼──────────────────┤
-    │ Abstract         │ 3+ OR Pathway 1    │ Học → bằng → job │
-    │                  │ = 0                │ → tiền → fill    │
-    │                  │                    │ OR: giải→pleasant│
-    ├──────────────────┼────────────────────┼──────────────────┤
-    │ Collective       │ Very long          │ Policy → impact  │
-    │                  │ + mostly Pathway 1 │ → indirect + vui │
-    └──────────────────┴────────────────────┴──────────────────┘
+    ┌──────────────────┬────────────────────┬──────────────────────┐
+    │ Domain Position  │ Chain Length       │ Example              │
+    ├──────────────────┼────────────────────┼──────────────────────┤
+    │ Sensory          │ 0 (direct)         │ Eat → full           │
+    ├──────────────────┼────────────────────┼──────────────────────┤
+    │ Near-body        │ 1-2                │ Cook well →          │
+    │                  │                    │ eat → full + enjoy   │
+    ├──────────────────┼────────────────────┼──────────────────────┤
+    │ Social (career)  │ 2-4                │ Work → money →       │
+    │                  │                    │ buy things → fill    │
+    ├──────────────────┼────────────────────┼──────────────────────┤
+    │ Abstract         │ 3+ OR Pathway 1    │ Study → degree →     │
+    │                  │ = 0                │ job → money → fill   │
+    │                  │                    │ OR: solve → pleasant │
+    ├──────────────────┼────────────────────┼──────────────────────┤
+    │ Collective       │ Very long          │ Policy → impact →    │
+    │                  │ + mostly Pathway 1 │ indirect + pleasant  │
+    └──────────────────┴────────────────────┴──────────────────────┘
     
-  ⭐ CHAIN COMPILED → PFC KHÔNG CẦN TRACE:
+  ⭐ CHAIN COMPILED → PFC DOESN'T NEED TO TRACE IT:
   
-    Trẻ nhỏ: hardware gap (đói) → fill trực tiếp (khóc → mẹ cho ăn)
-    → Chain = 0. Không cần compilation.
+    Young child: hardware gap (hunger) → fill directly (cry → mom feeds)
+    → Chain = 0. No compilation needed.
     
-    Lớn dần: hardware gap (nóng) → cần compile chain:
-      ① "Điều hòa → mát" (chunk compiled)
-      ② "Tiền → mua điều hòa" (chunk compiled)
-      ③ "Làm việc → tiền" (chunk compiled)
-      ④ "Học nghề → làm việc" (chunk compiled)
+    As one grows: hardware gap (heat) → need to compile chain:
+      ① "Air conditioner → cool" (chunk compiled)
+      ② "Money → buy air conditioner" (chunk compiled)
+      ③ "Work → money" (chunk compiled)
+      ④ "Learn a trade → work" (chunk compiled)
       = Chain of compiled chunks linking hardware gap to fill
     
-    Sau khi compiled: PFC KHÔNG cần trace chain mỗi lần
-      → "Có việc = ổn" (compiled prediction → Compiled fire automatically)
-      → PFC chỉ engage khi chain BREAK: mất việc → dissonance → PFC tính toán
+    Once compiled: PFC DOESN'T need to trace the chain each time
+      → "Have a job = fine" (compiled prediction → Compiled fires automatically)
+      → PFC only engages when chain BREAKS: lose job → dissonance → PFC calculates
       
-  ⭐ 15-20 NĂM "LỚN LÊN" = COMPILING CHAINS:
-    Baby: chain = 0 for everything (mẹ fill directly)
-    Child: learn chain links (study → knowledge, money → things)
-    Teen: compile domain chains (subject → career → livelihood)
+  ⭐ 15-20 YEARS OF "GROWING UP" = COMPILING CHAINS:
+    Baby: chain = 0 for everything (mom fills directly)
+    Child: learns chain links (study → knowledge, money → things)
+    Teen: compiles domain chains (subject → career → livelihood)
     Adult: chains mostly compiled → "auto-pilot" on basic survival
-    → Compilable Architecture (Inter-Body-Mechanism v1.0 §1): cần 15-20 năm compile
+    → Compilable Architecture (Inter-Body-Mechanism v1.0 §1):
+      requires 15-20 years to compile
     → = WHY modern life requires years of education
     → = WHY childhood dependency = architecture REQUIREMENT, not weakness
     
   ⭐ EINSTEIN PARADOX RESOLVED:
-    Axis-4 (chain to body-base) = 0 (Pathway 1: coherence → opioid trực tiếp)
-    Axis-5 (collective dependency) = MAX (centuries physics knowledge)
-    → Axis-4 VÀ Axis-5 = 2 PARAMETERS ĐỘC LẬP:
-      Axis-4 = chain từ fill event → body-base reward
-      Axis-5 = infrastructure cần cho gap TỒN TẠI
-      → Einstein: reward trực tiếp (Axis-4=0) nhưng gap cần collective (Axis-5=max)
-      → By-product (giáo sư, tiền, fame) = Pathway 2, arrives LATER
-      → "Einstein pleasant KHI giải, TRƯỚC KHI ai biết" = Pathway 1
+    Axis-4 (chain to body-base) = 0 (Pathway 1: coherence → opioid directly)
+    Axis-5 (collective dependency) = MAX (centuries of collective physics knowledge)
+    → Axis-4 AND Axis-5 = 2 INDEPENDENT PARAMETERS:
+      Axis-4 = chain from fill event → body-base reward
+      Axis-5 = infrastructure needed for the gap TO EXIST
+      → Einstein: reward is direct (Axis-4=0) but gap needs collective (Axis-5=max)
+      → By-products (professorship, money, fame) = Pathway 2, arrives LATER
+      → "Einstein is pleasant WHEN solving, BEFORE anyone knows" = Pathway 1
     
-  🟢 2 con đường: Gap-Distribution-Profile v1.0 §2.2
+  🟢 2 pathways: Gap-Distribution-Profile v1.0 §2.2
   🟢 ACC coherence reward: R8: Bush, Luu, Posner 2000
-  🟢 Compilable Architecture 15-20 năm: Inter-Body-Mechanism v1.0 §1
+  🟢 Compilable Architecture 15-20 years: Inter-Body-Mechanism v1.0 §1
   🟡 Chain compilation + PFC auto-pilot = framework synthesis
 ```
 
@@ -1015,64 +1033,65 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §9 — ENGINE/ROAD/VEHICLE ARCHITECTURE
 
 ```
-⭐⭐⭐ COLLECTIVE-ARC KHÔNG PHẢI LỰC ĐỐI KHÁNG — LÀ INFRASTRUCTURE:
+⭐⭐⭐ COLLECTIVE-ARC IS NOT AN OPPOSING FORCE — IT'S INFRASTRUCTURE:
 
-  HIỂU SAI:
-    Hardware ←——VS——→ Collective-Arc (2 lực đối kháng, tranh giành)
+  COMMON MISCONCEPTION:
+    Hardware ←——VS——→ Collective-Arc (2 opposing forces, competing)
     
-  HIỂU ĐÚNG:
-    Hardware = ENGINE (source of ALL drives — luôn running)
+  CORRECT UNDERSTANDING:
+    Hardware = ENGINE (source of ALL drives — always running)
     Collective-Arc = ROAD SYSTEM (infrastructure to fill drives)
     Compilation = VEHICLE (individual's compiled chains on the roads)
     
-  ENGINE KHÔNG CÓ ROAD:
-    → Drive VẪN CÓ (đói, nóng, tò mò)
-    → Nhưng chỉ fill PRIMITIVELY (tìm bóng mát, ăn trái cây hoang)
-    → = Động vật có drive, fill limited
+  ENGINE WITHOUT ROAD:
+    → Drive STILL EXISTS (hunger, heat, curiosity)
+    → But fills only PRIMITIVELY (finding shade, eating wild fruit)
+    → = Animals have drives, fills are limited
     
-  ROAD KHÔNG CÓ ENGINE:
-    → Infrastructure VÔ NGHĨA (có trường học nhưng không ai muốn học)
-    → Không thể xảy ra: Collective-Arc EXIST BỞI VÌ hardware drives
+  ROAD WITHOUT ENGINE:
+    → Infrastructure is MEANINGLESS (schools exist but no one wants to learn)
+    → Cannot happen: Collective-Arc EXISTS BECAUSE of hardware drives
     → = Collective-Arc = emergent FROM millions of hardware-driven bodies
 
-  ⭐ COLLECTIVE-ARC TẠO ĐIỀU KIỆN CHO GAPS HÌNH THÀNH:
+  ⭐ COLLECTIVE-ARC CREATES CONDITIONS FOR GAPS TO FORM:
   
-    "Chưa biết = không có gap" — áp dụng ở POPULATION level:
+    "Don't know it exists = no gap" — applied at POPULATION level:
     
-    Nếu collective CHƯA phát triển physics:
-      → Không có sách vật lý → không có physics chunks available
-      → Einstein không compile physics → không có surrounding chunks
-      → Không có border → KHÔNG CÓ GAP "vật lý mâu thuẫn"
-      → Einstein... vẫn làm ruộng
+    If the collective had NOT yet developed physics:
+      → No physics books → no physics chunks available
+      → Einstein doesn't compile physics → no surrounding chunks
+      → No borders → NO GAP "conflicting physics"
+      → Einstein... still farming
       
-    Nếu collective ĐÃ phát triển physics:
-      → Sách, bài giảng = chunks AVAILABLE
-      → Einstein compile → surrounding chunks FORM → gap XUẤT HIỆN
-      → Fill gap → E=mc² → by-product joins Collective-Arc
-      → = CYCLE: Collective provide chunks → individual compile
-               → new by-products → by-products join Collective → enrich →...
+    If the collective HAS developed physics:
+      → Books, lectures = chunks AVAILABLE
+      → Einstein compiles → surrounding chunks FORM → gap APPEARS
+      → Fills gap → E=mc² → by-product joins the Collective-Arc
+      → = CYCLE: Collective provides chunks → individual compiles
+               → new by-products → by-products join Collective → enrich → ...
 
   ⭐ SPECIALIZATION TRADE-OFF:
   
     Pre-modern (generalist):
-      → Compile NHIỀU survival chains → individually RESILIENT, collectively WEAK
-      → 1 người làm = 1 người hưởng (scale limited)
+      → Compile MANY survival chains → individually RESILIENT, collectively WEAK
+      → 1 person works = 1 person benefits (limited scale)
       
     Modern (specialist):
-      → Compile CỰC SÂU 1 domain → individually FRAGILE, collectively POWERFUL
-      → 1 người làm → by-product serve MILLIONS (scale enormous)
-      → NHƯNG: dependency on collective = CRITICAL
+      → Compile EXTREMELY DEEP in 1 domain → individually FRAGILE,
+        collectively POWERFUL
+      → 1 person works → by-product serves MILLIONS (enormous scale)
+      → BUT: dependency on collective = CRITICAL
       
-    Bác sĩ bị thả vào rừng:
-      → Compiled chains (triệu chứng→chẩn đoán→điều trị) ONLY work INSIDE collective
-      → Trong rừng: chains VÔ DỤNG. Cần: tìm nước, nhóm lửa, săn bắt
+    Doctor dropped into the forest:
+      → Compiled chains (symptom→diagnosis→treatment) ONLY work INSIDE the collective
+      → In the forest: chains USELESS. Needs: finding water, making fire, hunting.
       → Compilation = DOMAIN-SPECIFIC, NOT transferable
-      → = WHY "học 1 nghề duy nhất" = FRAGILE strategy
+      → = WHY "learning only 1 skill" = FRAGILE strategy
     
-    = Modern human = tế bào trong "cơ thể" collective
+    = Modern humans = cells in the "body" of the collective
     
   🟡 ENGINE/ROAD/VEHICLE architecture = framework synthesis
-  🟡 "Chưa biết = không có gap" at population level = framework synthesis
+  🟡 "Don't know it exists = no gap" at population level = framework synthesis
   🟢 Collective as accumulated by-products: Collective-Body v2.0 §1
   🟢 Division of labor → interdependence: R32: Durkheim 1893
   🟢 Specialization → productivity + dependency: R33: Adam Smith 1776
@@ -1083,51 +1102,53 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §10 — TECHNOLOGY FILL: MODERN GAP FRONTIER
 
 ```
-⭐⭐ TECHNOLOGY = COLLECTIVE-ARC BY-PRODUCT ĐÃ FILL PHẦN LỚN SENSORY BASELINES:
+⭐⭐ TECHNOLOGY = COLLECTIVE-ARC BY-PRODUCT THAT HAS FILLED MOST SENSORY BASELINES:
 
   PER-DOMAIN TECHNOLOGY FILL LEVEL:
   
-  ┌──────────────┬────────────┬──────────────────────────────────────────┐
-  │ Domain       │ Fill Level │ Evidence + Explanation                   │
-  ├──────────────┼────────────┼──────────────────────────────────────────┤
-  │ SENSORY      │ >> baseline│ Quần áo, điều hòa, thực phẩm, đệm foam   │
-  │ (Tier 1)     │ ("thừa")  │ → Tỉ phú mặc áo phông = sensory gap       │
-  │              │            │   không còn drive                        │
-  ├──────────────┼────────────┼──────────────────────────────────────────┤
-  │ NEAR-BODY    │ ~80-100%   │ Xe cộ, nhà ở, đồ gia dụng                │
-  │ (Tier 2)     │            │ NHƯNG: social comparison → baseline ↑    │
-  │              │            │ → Fill BASE nhưng comparison shift UP    │
-  ├──────────────┼────────────┼──────────────────────────────────────────┤
-  │ SOCIAL       │ ~30-50%    │ Mạng xã hội fill 1 phần connection       │
-  │ (Tier 3)     │ + CREATE  │ NHƯNG: TẠO gaps mới (FOMO, validation)    │
-  │              │ new gaps   │ → Net: social gaps TĂNG, not giảm        │
-  ├──────────────┼────────────┼──────────────────────────────────────────┤
-  │ ABSTRACT     │ ~5%        │ AI cho đáp án nhưng KHÔNG fill gap thật  │
-  │ (Tier 4)     │ (surface)  │ "Biết đáp án" ≠ "hiểu mechanism"         │
-  │              │            │ → Gap = understanding, not answer        │
-  ├──────────────┼────────────┼──────────────────────────────────────────┤
-  │ COLLECTIVE   │ ~0%        │ Cần deep personal + collective chunks    │
-  │ (Tier 4+)    │            │ Technology KHÔNG thể provide perspective │
-  └──────────────┴────────────┴──────────────────────────────────────────┘
+  ┌──────────────┬────────────┬──────────────────────────────────────────────┐
+  │ Domain       │ Fill Level │ Evidence + Explanation                       │
+  ├──────────────┼────────────┼──────────────────────────────────────────────┤
+  │ SENSORY      │ >> baseline│ Clothing, AC, food supply, foam mattresses    │
+  │ (Tier 1)     │ ("excess") │ → Billionaire in a t-shirt = sensory gap     │
+  │              │            │   no longer drives behavior                  │
+  ├──────────────┼────────────┼──────────────────────────────────────────────┤
+  │ NEAR-BODY    │ ~80-100%   │ Transportation, housing, household appliances │
+  │ (Tier 2)     │            │ BUT: social comparison → baseline shifts up  │
+  │              │            │ → Fills BASE but comparison shifts UP         │
+  ├──────────────┼────────────┼──────────────────────────────────────────────┤
+  │ SOCIAL       │ ~30-50%    │ Social media fills part of connection        │
+  │ (Tier 3)     │ + CREATES  │ BUT: CREATES new gaps (FOMO, validation)     │
+  │              │ new gaps   │ → Net: social gaps INCREASE, not decrease    │
+  ├──────────────┼────────────┼──────────────────────────────────────────────┤
+  │ ABSTRACT     │ ~5%        │ AI gives answers but DOESN'T fill the real  │
+  │ (Tier 4)     │ (surface)  │ gap. "Knowing the answer" ≠ "understanding  │
+  │              │            │ the mechanism" → Gap = understanding,        │
+  │              │            │ not the answer                               │
+  ├──────────────┼────────────┼──────────────────────────────────────────────┤
+  │ COLLECTIVE   │ ~0%        │ Requires deep personal + collective chunks   │
+  │ (Tier 4+)    │            │ Technology CANNOT provide perspective        │
+  └──────────────┴────────────┴──────────────────────────────────────────────┘
 
   ⭐ MODERN GAP FRONTIER:
-    Pre-modern:     frontier at SENSORY (survival daily struggle)
+    Pre-modern:     frontier at SENSORY (daily survival struggle)
     Industrial:     frontier shifted to NEAR-BODY (material comfort)
     Post-industrial: frontier at SOCIAL + ABSTRACT
     Digital era:    frontier at ABSTRACT + COLLECTIVE + MEANING
     → = Expansion-Saturation-Crisis v1.1 §1: survival filled → higher gaps emerge
-    → = Pre-modern ít "chán" (survival fill gaps daily)
-    → = Modern nhiều "chán" (sensory baselines met → higher gaps harder to fill)
+    → = Pre-modern had little "boredom" (survival filled gaps daily)
+    → = Modern era has more "boredom" (sensory baselines met → higher gaps harder to fill)
     
   ⭐ Reward-Signal-Architecture × TECHNOLOGY:
-    Technology fill PRIMARILY Direct-State territory (direct-state hardware):
+    Technology fill PRIMARILY covers Direct-State territory (direct-state hardware):
       → Clothing: touch comfort (Direct-State) ✅ filled
       → Air conditioning: temperature (Direct-State) ✅ filled
       → Food supply: basic nutrition (Direct-State component) ✅ filled
     Technology CANNOT fill Evaluative evaluation:
-      → "Ngon" = Evaluative evaluation of food → cần personal compilation
-      → "Đúng" = Evaluative evaluation of insight → cần personal compilation
-      → = Evaluative reward CẦN compiled chunks → technology không compile HỘ
+      → "Delicious" = Evaluative evaluation of food → requires personal compilation
+      → "Correct" = Evaluative evaluation of insight → requires personal compilation
+      → = Evaluative reward REQUIRES compiled chunks →
+        technology cannot compile ON YOUR BEHALF
     → Modern remaining gaps = predominantly Evaluative (evaluation-driven)
     
   ⭐ KAHNEMAN-DEATON CONNECTION:
@@ -1138,13 +1159,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Income → life satisfaction continues ABOVE $75K (for top earners)
       = Evaluation (Evaluative) CONTINUES → "life satisfaction" = PFC evaluation
       = Emotional well-being (closer to Direct-State) PLATEAUS
-    → = Reward-Signal-Architecture distinction: A (evaluative, continues) vs B (direct, plateaus)
+    → = Reward-Signal-Architecture distinction: Evaluative (continues) vs
+      Direct-State (plateaus)
 
   DIRECT-STATE = "HEDONIC FLOOR" (Reward-Signal-Architecture v2.1 §5):
     → Direct-State rewards RESISTANT to hedonic treadmill
-    → "Rich or poor, a hug still feels the same" — B is democratic
-    → "Về già muốn gần con cháu" = Direct-State resurface when Evaluative exhausted
-    → R27: Van der Kolk 2014: body-oriented therapy = deliberately activate B
+    → "Rich or poor, a hug still feels the same" — Direct-State is democratic
+    → "In old age wanting to be near grandchildren" = Direct-State resurfaces
+      when Evaluative is exhausted
+    → R27: Van der Kolk 2014: body-oriented therapy = deliberately activate Direct-State
     
   🟡 Technology fill dimension = framework synthesis
   🟢 Income-wellbeing: R21: Kahneman & Deaton 2010, R22: Killingsworth 2021
@@ -1158,38 +1181,38 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §11.1 — 5-step entity-gap matching process
 
 ```
-⭐⭐ NÃO DỰ ĐOÁN ENTITY NÀO FILL GAP NÀO:
+⭐⭐ THE BRAIN PREDICTS WHICH ENTITY FILLS WHICH GAP:
 
   STEP 1 — GAP DETECT (ACC/insula):
-    Body-Feedback-Mechanism v2.1 §3.3a: ACC detect inconsistency
-    "Thiếu gì đó" → body signal
-    PFC optionally articulate → "tôi đói" / "tôi buồn" / vague "bứt rứt"
+    Body-Feedback-Mechanism v2.1 §3.3a: ACC detects inconsistency
+    "Something is missing" → body signal
+    PFC optionally articulates → "I'm hungry" / "I'm sad" / vague "restless unease"
     → Felt sense PRECEDES verbal label (R7: Gendlin 1978)
     
   STEP 2 — ENTITY SCAN (Self-Pattern-Modeling on compiled entities):
-    Brain scan Entity-Compiled library: "ai fill được gap này?"
-    Self-Pattern-Modeling v3.2 evaluate EACH compiled entity:
-      → "Entity X từng fill gap loại này?" (historical)
-      → "Entity X có available?" (access prediction)
-      → "Entity X fill quality thế nào?" (valence history)
+    Brain scans Entity-Compiled library: "who can fill this gap?"
+    Self-Pattern-Modeling v3.2 evaluates EACH compiled entity:
+      → "Has Entity X filled this type of gap before?" (historical)
+      → "Is Entity X available?" (access prediction)
+      → "What is Entity X's fill quality?" (valence history)
     = Imagine-Final v3.0 applied to entity-gap matching
     
   STEP 3 — MODE FILTER (Agent vs Tool):
-    Self-Pattern-Modeling v3.2 classify entity:
+    Self-Pattern-Modeling v3.2 classifies the entity:
       TOOL-MODE: predict FUNCTION only
-        → "Bưu tá giao hàng" = single function, no state modeling
+        → "Delivery worker" = single function, no state modeling
         → = No Entity-Access potential beyond function
       AGENT-MODE: predict STATE + EMOTION + BEHAVIOR
-        → "Mẹ đang vui → ôm sẽ ấm" = state modeling
+        → "Mom is happy → hug will be warm" = state modeling
         → = Entity-Access potential IF multi-gap + genuine + stable
     
   STEP 4 — PREDICT 3 DIMENSIONS:
-    a) REWARD APPROACH/AVOIDANCE: "Gặp entity X → reward hay threat?"
-    b) FILL QUALITY: "Entity X fill gap NÀY chính xác không?"
-       → Entity-Compiled nông → predict mờ → uncertain reward
-       → Entity-Compiled sâu → predict rõ → confident reward
-    c) ACCESS STABILITY: "Entity X có available khi tôi cần?"
-       → Mẹ ở nhà = stable. Bạn xa = unstable.
+    a) REWARD APPROACH/AVOIDANCE: "Meeting Entity X → reward or threat?"
+    b) FILL QUALITY: "Does Entity X fill THIS gap accurately?"
+       → Entity-Compiled shallow → prediction vague → uncertain reward
+       → Entity-Compiled deep → prediction clear → confident reward
+    c) ACCESS STABILITY: "Is Entity X available when I need them?"
+       → Mom at home = stable. Friend far away = unstable.
        
   STEP 5 — DRIVE GENERATION:
     Reward HIGH + quality HIGH + access STABLE → APPROACH drive
@@ -1201,26 +1224,27 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §11.2 — Cross-entity competition + lock-in
 
 ```
-  ⭐ KHI NHIỀU ENTITIES FILL CÙNG GAP:
-    → Brain RANK by predicted fill quality × access stability
+  ⭐ WHEN MULTIPLE ENTITIES FILL THE SAME GAP:
+    → Brain RANKS by predicted fill quality × access stability
     → Entity A: fill quality 90% + access stable → PREFERRED
     → Entity B: fill quality 70% + access stable → BACKUP
     → Entity C: fill quality 95% + access unstable → UNCERTAIN
-    → "Muốn gặp bạn thân hơn đồng nghiệp khi buồn" = rank by quality
+    → "Want to see a close friend rather than colleagues when sad" = ranked by quality
     
   ENTITY LOCK-IN:
-    → Primary filler established → baseline include entity
+    → Primary filler established → baseline includes the entity
     → Switch to backup = Chunk-Miss on primary + uncertainty on backup
-    → = WHY Entity-Access hard to redirect (cost of switching > staying)
+    → = WHY Entity-Access is hard to redirect (cost of switching > staying)
     → = Bond-Architecture v2.0 §3.2: gap redirect mechanism
     
-  "VÔ THỨC VALENCE KHÁ CHÍNH XÁC":
-    Self-Pattern-Modeling Compiled predict ACCURATELY → body APPROACH
-    PFC KHÔNG BIẾT tại sao (compiled = PFC invisible)
-    Body ĐÚNG: gặp → vui → CONFIRM prediction
+  "UNCONSCIOUS VALENCE IS QUITE ACCURATE":
+    Self-Pattern-Modeling Compiled predicts ACCURATELY → body APPROACHES
+    PFC DOESN'T KNOW why (compiled = PFC invisible)
+    Body CORRECT: meet → pleasant → CONFIRMS prediction
     = Compiled prediction = accurate for WHAT'S COMPILED
-    NHƯNG CÓ THỂ SAI: Background-Pattern triple bias → predict based on OWN Background-Pattern, not reality
-    → Calibration qua feedback: mismatch → update → more accurate over time
+    BUT CAN BE WRONG: Background-Pattern triple bias → predicts based on
+      OWN Background-Pattern, not reality
+    → Calibration via feedback: mismatch → update → more accurate over time
     
   🟡 5-step entity-gap matching process = framework synthesis
   🟡 Cross-entity competition + lock-in = framework synthesis
@@ -1231,56 +1255,62 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ### §11.3 — Agent-Gap-Feed: 3-Layer Architecture
 
-> §11.1 mô tả HOW brain matches entity to gap (PULL direction).
-> Drill-Agent-Feed-Channel v2.2 phát hiện: entity feed gap qua 3 LAYER, 3 CHIỀU KHÁC NHAU.
+> §11.1 describes HOW the brain matches entity to gap (PULL direction).
+> Drill-Agent-Feed-Channel v2.2 discovered: entities feed gaps via 3 LAYERS,
+> in 3 DIFFERENT DIMENSIONS.
 
 ```
-⭐⭐ ENTITY FEED GAP QUA 3 LAYER:
+⭐⭐ ENTITY FEEDS GAP VIA 3 LAYERS:
 
   ┌────────────────────────────────────────────────────────────────────┐
   │ LAYER 0 — BODY-STATE ENTRAINMENT (PUSH)                            │
-  │   Entity present → body TỰ ĐỒNG BỘ state. Vô thức. Bidirectional.  │
-  │   = 2 oscillating systems gần nhau → tự sync (physics-level)       │
-  │   = SUBSTRATE cho Layer 1 + 2 hoạt động.                           │
-  │   KHÔNG cần Entity-Compiled. KHÔNG cần gap.                        │
+  │   Entity present → body AUTOMATICALLY SYNCS state. Unconscious.    │
+  │   Bidirectional.                                                    │
+  │   = 2 oscillating systems near each other → self-sync (physics-    │
+  │     level)                                                          │
+  │   = SUBSTRATE for Layer 1 + 2 to operate on.                       │
+  │   Does NOT require Entity-Compiled. Does NOT require a gap.         │
   ├────────────────────────────────────────────────────────────────────┤
   │ LAYER 1 — 4 AGENT-RELEVANT SOURCES (PULL)                          │
-  │   Body CÓ gap → entity FILL gap → reward.                          │
+  │   Body HAS gap → entity FILLS gap → reward.                        │
   │   = §4.1 agent-relevant sources. = §11.1 Step 2 operates here.     │
   ├────────────────────────────────────────────────────────────────────┤
   │ LAYER 2 — 2 PROCESSING MECHANISMS (EVALUATE/PREDICT)               │
-  │   = §4.2 mechanisms chạy across sources.                           │
-  │   Novelty (tức thời) + Gap-Fillability (tương lai)                 │
+  │   = §4.2 mechanisms running across sources.                         │
+  │   Novelty (immediate) + Gap-Fillability (future)                   │
   │   = §11.1 Step 4 operates here.                                    │
   └────────────────────────────────────────────────────────────────────┘
 
-  3 CHIỀU KHÁC NHAU:
-    PUSH (Layer 0): entity → tôi (entity ĐẨY state vào tôi, tôi không seek)
-    PULL (Layer 1): tôi → entity (tôi CÓ gap, KÉO entity fill)
-    EVALUATE (Layer 2): brain → process (ĐÁNH GIÁ tức thời + DỰ ĐOÁN tương lai)
+  3 DIFFERENT DIMENSIONS:
+    PUSH (Layer 0): entity → me (entity PUSHES state into me, I don't seek it)
+    PULL (Layer 1): me → entity (I HAVE a gap, DRAW entity to fill it)
+    EVALUATE (Layer 2): brain → process (EVALUATES immediately + PREDICTS future)
 
   LAYER 0 — BODY-STATE ENTRAINMENT PROPERTIES:
-    PUSH direction: entity → tôi (tôi KHÔNG seek, KHÔNG chọn)
-    Vô thức: KHÔNG cần PFC, KHÔNG cần Self-Pattern-Modeling
-    Bidirectional: CẢ HAI shift (không 1 chiều)
-    Proximity-dependent: cần gần nhau (primary physical, partial qua video/voice)
-    KHÔNG cần gap: tôi KHÔNG "thiếu" gì → vẫn shift state
-    KHÔNG cần Entity-Compiled: xảy ra với stranger (nhưng AMPLIFY khi compiled deep)
+    PUSH direction: entity → me (I DON'T seek it, DON'T choose it)
+    Unconscious: does NOT need PFC, does NOT need Self-Pattern-Modeling
+    Bidirectional: BOTH shift (not one-directional)
+    Proximity-dependent: requires closeness (primary physical, partial via video/voice)
+    Does NOT need a gap: I'm not "missing" anything → state still shifts
+    Does NOT need Entity-Compiled: happens with strangers (but AMPLIFIES when deeply compiled)
 
-    3 MODIFIERS tăng/giảm intensity:
-      Entity-Compiled depth: close > stranger (Coan & Beckes 2012)
-      Hardware-subsidy: mẹ→con > bạn > stranger (oxytocin amplify sync)
-      "Hợp tính" (body-feedback match): calm kiểu MATCH → amplify. MISMATCH → block.
+    3 MODIFIERS that increase/decrease intensity:
+      Entity-Compiled depth: close person > stranger (Coan & Beckes 2012)
+      Hardware-subsidy: mother→child > friend > stranger (oxytocin amplifies sync)
+      "Natural match" (body-feedback match): calm style MATCH → amplify.
+        MISMATCH → blocks.
 
-    KHÁC embodied simulation (Entity-Compiled §2.3, Entity-Valence-Dynamics v1.3 §2.4):
-      Embodied simulation = SIMULATION: brain TẠO MODEL → RUN trên own circuits (cognitive)
-      Entrainment = physics-level: body TỰ SYNC oscillators (physiological)
-      Embodied simulation CẦN Entity-Compiled. Entrainment KHÔNG cần (xảy ra với stranger).
+    DIFFERS FROM embodied simulation (Entity-Compiled §2.3, Entity-Valence-Dynamics v1.3 §2.4):
+      Embodied simulation = SIMULATION: brain CREATES MODEL → RUNS it on own circuits
+        (cognitive)
+      Entrainment = physics-level: body AUTOMATICALLY SYNCS oscillators (physiological)
+      Embodied simulation REQUIRES Entity-Compiled. Entrainment does NOT (happens with
+        strangers).
 
-    VÍ DỤ:
-      Người bình tĩnh ấm áp + close → entrainment MẠNH → calm sâu
-      Người cáu gắt + close → entrainment MẠNH → co-dysregulation
-      Stranger bình tĩnh → entrainment NHẸ → calm nhẹ, hết khi rời
+    EXAMPLES:
+      Calm, warm person + close proximity → STRONG entrainment → deep calm
+      Irritable person + close proximity → STRONG entrainment → co-dysregulation
+      Calm stranger → LIGHT entrainment → mild calm, gone when they leave
 
     FRAMEWORK CONNECTION:
       Body-Coupling.md v3.1 §1.6: entrainment as standalone Layer 0 substrate ✅ PROPAGATED
@@ -1289,17 +1319,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         + Distinction: Entrainment vs Embodied-Mirror vs Gap-Predict
       Source: Drill-Agent-Feed-Channel v2.2 §2
 
-  TẠI SAO 3-LAYER QUAN TRỌNG CHO ENTITY-GAP MATCHING:
-    §11.1 5-step = PULL direction only (body có gap → tìm entity fill)
-    3-layer bổ sung:
-      Layer 0 PUSH = entity affect body TRƯỚC KHI có gap (entrainment)
-      Layer 2 EVALUATE = brain predict TƯƠNG LAI gap-fill (Gap-Fillability)
-    → Entity-gap matching = KHÔNG chỉ "ai fill gap này" (PULL)
-    → MÀ CÒN: "entity nào đang ĐẨYSTATE vào tôi" (PUSH)
-    → VÀ: "entity nào SẼ fill gaps tương lai" (EVALUATE)
+  WHY 3-LAYER MATTERS FOR ENTITY-GAP MATCHING:
+    §11.1 5-step = PULL direction only (body has gap → finds entity to fill it)
+    3-layer adds:
+      Layer 0 PUSH = entity affects body BEFORE any gap exists (entrainment)
+      Layer 2 EVALUATE = brain predicts FUTURE gap-fill (Gap-Fillability)
+    → Entity-gap matching = NOT just "who fills this gap" (PULL)
+    → BUT ALSO: "which entity is PUSHING STATE into me" (PUSH)
+    → AND: "which entity WILL fill future gaps" (EVALUATE)
 
   🟢 Saxbe & Repetti 2010: cortisol synchrony couples
-  🟢 Feldman 2012: biobehavioral synchrony mẹ-bé (4-system)
+  🟢 Feldman 2012: biobehavioral synchrony mother-child (4-system)
   🟢 Nguyen 2020: fNIRS interbrain PFC sync
   🟢 Hatfield 1993: emotional contagion (automatic mimicry)
   🟢 Butler & Randall 2013: co-regulation → co-dysregulation
@@ -1311,43 +1341,43 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §11.4 — Per-Entity Agent-Relevant Profile
 
 ```
-⭐ MỖI ENTITY TYPE = PROFILE RIÊNG TRÊN 3 LAYER:
+⭐ EACH ENTITY TYPE = UNIQUE PROFILE ACROSS 3 LAYERS:
 
-  Entity type khác → primary source khác + mechanism weight KHÁC:
+  Different entity types → different primary sources + DIFFERENT mechanism weights:
 
-  MẸ→CON:
-    Layer 0 Entrainment: MAXIMUM (oxytocin boost sync, Feldman 2012 4-system)
+  MOTHER→CHILD:
+    Layer 0 Entrainment: MAXIMUM (oxytocin boosts sync, Feldman 2012 4-system)
     Primary sources: Parental drive (Tonic, unique) + Touch/Comfort (Tonic)
     Secondary source: Safety (Tonic)
-    Novelty mechanism: AUTO — con grow mỗi ngày → prediction-delta trên sources
-    Gap-Fillability: CỰC CAO (Entity-Compiled deep → predict con's state)
-    Reward type: Direct-State dominant (~40/60) → "thương, ấm"
+    Novelty mechanism: AUTO — child grows every day → prediction-delta across sources
+    Gap-Fillability: EXTREMELY HIGH (Entity-Compiled deep → predicts child's state)
+    Reward type: Direct-State dominant (~40/60) → "love, warmth"
 
-  BẠN THÂN:
-    Layer 0 Entrainment: VỪA (no hardware boost, Entity-Compiled modulate)
-    Primary source: NONE dominant — Touch/Comfort + Safety đều thấp
+  CLOSE FRIEND:
+    Layer 0 Entrainment: MODERATE (no hardware boost, Entity-Compiled modulates)
+    Primary source: NONE dominant — Touch/Comfort + Safety both low
     Primary MECHANISM: Novelty = DOMINANT DRIVER
     → Friendship driven by MECHANISM (prediction-delta on shared domain)
-       chứ KHÔNG driven by any specific hardware SOURCE
-    → "Cứ vui thì chơi" = Novelty mechanism on shared compiled chunks
-    → "Bạn bè có cần xinh?" = KHÔNG. Sexual/aesthetic ≈ 0 cho friendship.
-    Reward type: Evaluative dominant (~70/30) → "thích, thú vị"
+       NOT driven by any specific hardware SOURCE
+    → "Just being together is fun" = Novelty mechanism on shared compiled chunks
+    → "Do friends need to be attractive?" = NO. Sexual/aesthetic ≈ 0 for friendship.
+    Reward type: Evaluative dominant (~70/30) → "like them, find them interesting"
 
   ROMANTIC (limerence):
-    Layer 0 Entrainment: INFLATED (hormone amplify sync — Fisher 2004)
-    Primary source: Sexual/aesthetic (Cyclic, dopamine) → MASK actual profile
-    All sources INFLATED by hormone
-    Novelty mechanism: INFLATED — hormone tạo artificial prediction-delta
-    → Post-limerence: actual profile REVEALED → trajectory (§3.2 "bạn đời")
+    Layer 0 Entrainment: INFLATED (hormones amplify sync — Fisher 2004)
+    Primary source: Sexual/aesthetic (Cyclic, dopamine) → MASKS the actual profile
+    All sources INFLATED by hormones
+    Novelty mechanism: INFLATED — hormones create artificial prediction-delta
+    → Post-limerence: actual profile REVEALED → trajectory (§3.2 "life partner")
 
-  NGƯỜI LẠ:
-    Layer 0 Entrainment: NHẸ (hardware baseline only)
-    Primary source: Sexual/aesthetic (nếu attractive, brief) hoặc ≈ 0
-    Novelty mechanism: one-shot nếu interesting
-    Gap-Fillability: ≈ 0 (chưa compiled)
+  STRANGER:
+    Layer 0 Entrainment: LIGHT (hardware baseline only)
+    Primary source: Sexual/aesthetic (if attractive, brief) or ≈ 0
+    Novelty mechanism: one-shot if interesting
+    Gap-Fillability: ≈ 0 (not yet compiled)
 
-  → Chi tiết per-entity: Resonance-Per-Entity v1.0 §4-§8
-  → Chi tiết architecture: Drill-Agent-Feed-Channel v2.2 §3
+  → Details per-entity: Resonance-Per-Entity v1.0 §4-§8
+  → Details on architecture: Drill-Agent-Feed-Channel v2.2 §3
   🟡 Per-entity profile mapping = framework synthesis
 ```
 
@@ -1358,35 +1388,35 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐ PARENTAL DRIVE = UNIQUE GAP TYPE:
 
-  BÌNH THƯỜNG: gap = "thiếu gì đó" → fill = "có rồi" → satiate
-  PARENTAL: gap = "con tồn tại" → fill = "con sống" → NO satiate
+  NORMALLY: gap = "missing something" → fill = "got it" → satiate
+  PARENTAL: gap = "child exists" → fill = "child is alive" → NO satiate
   
-  KHÁC MỌI GAP KHÁC:
-    Hunger: fill = action (ăn) → cyclic → dormant
-    Comfort: fill = contact (ôm) → tonic → habituate slowly
-    Curiosity: fill = discovery → generative → create new gap
-    PARENTAL: fill = EXISTENCE of child → ONGOING → NEVER dormant
-    → = Tonic profile nhưng with HARDWARE ANTI-HABITUATION (oxytocin)
+  DIFFERS FROM ALL OTHER GAPS:
+    Hunger: fill = action (eat) → cyclic → dormant
+    Comfort: fill = contact (hug) → tonic → habituate slowly
+    Curiosity: fill = discovery → generative → creates new gap
+    PARENTAL: fill = EXISTENCE of the child → ONGOING → NEVER dormant
+    → = Tonic profile but with HARDWARE ANTI-HABITUATION (oxytocin)
     → = UNIQUE: tonic + anti-habituation = "forever warm"
     
-  "THẤY CON LÀ MẸ VUI" — 4-COMPOUND MECHANISM:
+  "SEEING THE CHILD MAKES MOM HAPPY" — 4-COMPOUND MECHANISM:
     ① Hardware parental drive = GAP always active (child alive = fill)
-    ② Oxytocin system = SUSTAIN reward (anti-habituation, Direct-State dominant)
-    ③ Child CHANGE daily = prediction-delta > 0 (novelty source → generative)
+    ② Oxytocin system = SUSTAINS reward (anti-habituation, Direct-State dominant)
+    ③ Child CHANGES daily = prediction-delta > 0 (novelty source → generative)
     ④ Visual confirmation = MULTIPLE spokes fire (face, voice, movement)
     → = ①+②+③+④ = COMPOUND reward from simple visual contact
-    → = WHY mẹ→con Entity-Access = MAXIMUM
+    → = WHY mother→child Entity-Access = MAXIMUM
     → = Satiation profile: Tonic (②) + Generative (③) compound, hardware-boosted
     
-  KHI CON MẤT:
+  WHEN THE CHILD IS LOST:
     Gap PERMANENTLY unfilled → fill source = 0
-    → = "Phantom gap": gap VẪN FIRE nhưng KHÔNG CÓ GÌ fill
-    → = Giống phantom limb: brain predict → no response → pain
+    → = "Phantom gap": gap STILL FIRES but NOTHING fills it
+    → = Like phantom limb: brain predicts → no response → pain
     → Grief = f(A + B + C) Entity-Compiled v1.2 §8.2:
-      A = gap-feed loss = INFINITY (existence-based → NEVER fill again)
-    → = WHY mất con = grief DEVASTATING hơn mất partner
-    → Partner: fill MULTIPLE gaps, nhưng gaps CÓ alternative sources
-    → Con: fill EXISTENCE-BASED gap → NO alternative source
+      A = gap-feed loss = INFINITY (existence-based → NEVER fills again)
+    → = WHY losing a child = grief MORE DEVASTATING than losing a partner
+    → Partner: fills MULTIPLE gaps, but those gaps HAVE alternative sources
+    → Child: fills EXISTENCE-BASED gap → NO alternative source
     
   🟢 Parental drive: R10: Trivers 1972
   🟢 Oxytocin anti-habituation: R11: Feldman 2012
@@ -1400,38 +1430,38 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §13 — COLLECTIVE-ARC BIAS
 
 ```
-⭐⭐ COLLECTIVE BIAS TOÀN BỘ GAP LANDSCAPE QUA 3 CƠ CHẾ:
+⭐⭐ COLLECTIVE BIASES THE ENTIRE GAP LANDSCAPE VIA 3 MECHANISMS:
 
-  CƠ CHẾ 1 — INSTALL: tạo gap MỚI
-    "Phải học giỏi" → install domain gap (academic achievement)
-    "Phải có nhà trước 30" → install resource gap (property)
-    "Trend nhảy nhót" → install social-mimicry gap (temporary)
-    → Gap THẬT SỰ được tạo (brain form new borders → new holes)
-    → NHƯNG: schema-installed → relief tag (not opioid)
-    → Fill schema gap → "phù, xong rồi" (relief) ≠ "thích" (opioid)
+  MECHANISM 1 — INSTALL: creates NEW gaps
+    "Must excel academically" → install domain gap (academic achievement)
+    "Must own a house before 30" → install resource gap (property)
+    "Dance trend" → install social-mimicry gap (temporary)
+    → Gap is GENUINELY created (brain forms new borders → new holes)
+    → BUT: schema-installed → relief tag (not opioid)
+    → Fill schema gap → "phew, done" (relief) ≠ "love it" (opioid)
     
-  CƠ CHẾ 2 — SUPPRESS: ép gap DORMANT
-    "Lớn không được chơi" → suppress play gap (hardware)
-    "Con trai không được khóc" → suppress emotional expression gap
-    → Gap KHÔNG BỊ DELETE → bị BURIED (compiled suppress)
-    → Long-term: "tôi không thích chơi nữa" = PFC label cho suppress thành công
-    → Body: play gap VẪN CÒN → "mid-life crisis" khi gap resurface
+  MECHANISM 2 — SUPPRESS: forces gap DORMANT
+    "Adults don't play" → suppress play gap (hardware)
+    "Boys don't cry" → suppress emotional expression gap
+    → Gap is NOT DELETED → it's BURIED (compiled suppress)
+    → Long-term: "I don't like playing anymore" = PFC label for a successful suppress
+    → Body: play gap STILL EXISTS → "mid-life crisis" when gap resurfaces
     
-  CƠ CHẾ 3 — RE-TAG: thay đổi valence tag of existing gap
-    "Ăn đường có hại" → re-tag sweet gap (approach → avoidance)
-    "Tập thể dục tốt" → re-tag exercise gap (avoidance → approach)
-    → Gap VẪN TỒN TẠI → valence interpretation CHANGES
-    → NHƯNG: hardware gap = STRONG → schema re-tag có thể KHÔNG override
-    → "Biết đường có hại nhưng vẫn thích ăn" = schema ≠ hardware at body level
-    → Effective re-tag cần GENUINE body experience, not just PFC knowledge
+  MECHANISM 3 — RE-TAG: changes the valence tag of an existing gap
+    "Sugar is harmful" → re-tag sweet gap (approach → avoidance)
+    "Exercise is good" → re-tag exercise gap (avoidance → approach)
+    → Gap STILL EXISTS → valence interpretation CHANGES
+    → BUT: hardware gap = STRONG → schema re-tag may NOT override
+    → "Know sugar is harmful but still want it" = schema ≠ hardware at body level
+    → Effective re-tag requires GENUINE body experience, not just PFC knowledge
     
-  3 CƠ CHẾ × ENTITY MATCHING:
-    Install: "mẹ phải yêu thương con" → AMPLIFY parental Entity-Access via schema
-    Suppress: "lớn phải đi làm, không chơi với bạn" → REDUCE friend Entity-Access
-    Re-tag: "vợ là tất cả" → MONOPOLIZE Entity-Access to 1 entity
+  3 MECHANISMS × ENTITY MATCHING:
+    Install: "mom must love her child" → AMPLIFY parental Entity-Access via schema
+    Suppress: "adults must work, not play with friends" → REDUCE friend Entity-Access
+    Re-tag: "spouse is everything" → MONOPOLIZE Entity-Access to 1 entity
       (all gaps redirected → FRAGILE: entity lost = ALL gaps unfilled)
       
-  🟢 Schema installation: Gap-Distribution-Profile v1.0 §4 Tầng 3
+  🟢 Schema installation: Gap-Distribution-Profile v1.0 §4 Tier 3
   🟢 Compiled suppress: PFC-Operations v1.2 §4.2
   🟢 Social proof: R26: Cialdini 1984
   🟡 3 bias mechanisms = framework synthesis
@@ -1442,55 +1472,56 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §14 — GAP LIFECYCLE
 
 ```
-⭐ GAPS CÓ LIFECYCLE — KHÔNG TĨNH:
+⭐ GAPS HAVE A LIFECYCLE — NOT STATIC:
 
-  CREATION — GAP HÌNH THÀNH:
+  CREATION — GAP FORMS:
   
     Hardware pre-install (Tier 1):
-      → Genes wire → gap EXIST from birth
+      → Genes wire → gap EXISTS from birth
       → Hunger, temperature, pain, social need
-      → "Chưa biết = không có gap" KHÔNG apply (genes = pre-installed chunks)
+      → "Don't know it exists = no gap" DOES NOT APPLY
+        (genes = pre-installed chunks)
       
     Experience compile (Tier 2-4):
       → New chunks compile → new borders form → new gaps APPEAR
-      → "Lần đầu nghe jazz → vài chunks → gap 'muốn nghe thêm' XUẤT HIỆN"
-      → = Self-discovery: body experience → compile → gap emerge → reward loop
+      → "First time hearing jazz → a few chunks → gap 'want to hear more' APPEARS"
+      → = Self-discovery: body experience → compile → gap emerges → reward loop
       
     Collective install (Tier 3-4):
-      → Schema install → borders form → gap CREATED
-      → "Mọi người có iPhone → gap 'tôi cũng cần'" XUẤT HIỆN
+      → Schema installs → borders form → gap CREATED
+      → "Everyone has an iPhone → gap 'I need one too' APPEARS"
       → = Installed gap, relief tag, may mismatch hardware
       
   ACTIVE → DORMANT → RE-ACTIVATE:
   
     Cyclic: dormant = BUILT-IN feature (hunger → dormant 3-6h → re-activate)
-    Tonic: dormant through ABSENCE (entity leaves → gap re-activate)
+    Tonic: dormant through ABSENCE (entity leaves → gap re-activates)
     Generative: dormant = RARE (by definition self-sustaining)
       
   COMPOUND — 2+ GAPS INTERACT:
   
     AMPLIFY: 2 gaps fire on SAME target → compound signal
-      → Hungry + food smells good = "muốn ăn CỰC KỲ"
+      → Hungry + food smells good = "desperately want to eat"
     CONFLICT: 2 gaps fire OPPOSITE direction → PFC overload
-      → Want to eat + "đang giảm cân" → internal conflict
+      → Want to eat + "on a diet" → internal conflict
     CHAIN COMPOUND: gap A fill → enables gap B fill → cascade
       → Learn math → see physics connection → "rabbit hole" learning
       
   GAP WEAKENING (not death):
   
     Chunks DECAY (disuse) → borders WEAKEN → gap SHRINKS
-      → "Ngày xưa thích vẽ, giờ không còn" = chunks below threshold
-      → Re-exposure CAN re-activate: "nhìn tranh → lại muốn vẽ"
+      → "Used to love drawing, not anymore" = chunks below threshold
+      → Re-exposure CAN re-activate: "seeing paintings → want to draw again"
     Schema REMOVED → installed gap COLLAPSES
-      → "Phải có nhà trước 30" → ra nước ngoài → schema removed → gap gone
-      → KHÁC genuine gap: genuine = hardware-based, persists without schema
+      → "Must own a house before 30" → moves abroad → schema removed → gap gone
+      → DIFFERS from genuine gap: genuine = hardware-based, persists without schema
       
   ⭐ GAP "DEATH" = EXTREMELY RARE:
     → Hardware gaps: NEVER die (genes wire permanently)
     → Genuine compiled gaps: persist unless ALL chunks decay (years of disuse)
     → Schema gaps: CAN die when schema removed
     → Existence-based gaps: die only when entity ceases to exist
-    → In practice: very rare because chunks CROSS-REFERENCE → mutual sustain
+    → In practice: very rare because chunks CROSS-REFERENCE → mutually sustain
     
   🟡 Gap lifecycle model = framework synthesis
   🟢 Hebbian decay: established neuroscience (disuse → weakening)
@@ -1501,92 +1532,92 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §15 — OBSERVATION CASES
 
-### Case 1: "Chán nhau" sau nhiều năm (Tonic intact, Generative dead)
+### Case 1: Growing Apart After Many Years (Tonic intact, Generative dead)
 
 ```
-  TÌNH HUỐNG:
-    Cặp đôi 10 năm. Ban đầu nói chuyện hàng giờ không chán.
-    Giờ gặp thì thoải mái nhưng không có gì để nói.
-    "Vẫn thương, nhưng không exciting nữa."
+  SITUATION:
+    A couple of 10 years. Originally talked for hours without getting bored.
+    Now when they meet, it's comfortable but there's nothing to say.
+    "Still love each other, but no longer exciting."
     
-  PHÂN TÍCH 5-PARAMETER + SATIATION:
-    Ban đầu: Tonic (comfort) + Generative (novel conversations) compound
-    → Generative reward HIGH (prediction-delta > 0 mỗi lần gặp)
-    → 10 năm: generative HABITUATED → prediction-delta ≈ 0
-    → Chỉ còn Tonic → "gặp thì ấm nhưng không exciting"
+  ANALYSIS: 5-PARAMETER + SATIATION:
+    Initially: Tonic (comfort) + Generative (novel conversations) compound
+    → Generative reward HIGH (prediction-delta > 0 each time they meet)
+    → After 10 years: generative HABITUATED → prediction-delta ≈ 0
+    → Only Tonic remains → "comfortable when meeting but not exciting"
     
   FRAMEWORK PREDICTION:
-    → FIX: rebuild generative (new shared experiences, maintain drive riêng)
+    → FIX: rebuild generative (new shared experiences, maintain individual drives)
     → R5: Aron 2000 — novel activities restore relationship satisfaction
-    → "Chán nhau" ≠ hết yêu. = Generative component dead, Tonic intact.
-    → Partner suppress drive riêng → no new by-products → generative impossible
+    → "Growing apart" ≠ no longer in love. = Generative component dead, Tonic intact.
+    → Partner suppresses own drives → no new by-products → generative impossible
 ```
 
-### Case 2: Einstein — Axis-4 vs Axis-5 decouple
+### Case 2: Einstein — Axis-4 vs Axis-5 decoupled
 
 ```
-  TÌNH HUỐNG:
-    Einstein dành hàng năm giải special relativity.
-    Intensely pleasant khi tìm ra E=mc² — TRƯỚC KHI ai biết.
-    Tiền, giáo sư, Nobel đến SAU.
+  SITUATION:
+    Einstein spent years solving special relativity.
+    Intensely pleasant when discovering E=mc² — BEFORE anyone knew.
+    Money, professorship, Nobel came LATER.
     
-  PHÂN TÍCH 5-PARAMETER:
+  ANALYSIS: 5-PARAMETER:
     Axis-1 = ACC coherence detection (pattern inconsistency in physics)
-    Axis-2 = Generative (mỗi insight → new gaps → perpetual)
+    Axis-2 = Generative (each insight → new gaps → perpetual)
     Axis-3 = ~95/5 (cortical evaluation dominant)
-    Axis-4 = 0 (Pathway 1: coherence → opioid trực tiếp — chain = 0!)
-    Axis-5 = MAX (centuries of collective physics knowledge cần tồn tại)
-    → Axis-4 VÀ Axis-5 DECOUPLE: reward trực tiếp, nhưng gap cần collective
+    Axis-4 = 0 (Pathway 1: coherence → opioid directly — chain = 0!)
+    Axis-5 = MAX (centuries of collective physics knowledge needed to exist)
+    → Axis-4 AND Axis-5 DECOUPLE: reward is direct, but gap needs collective
     
   FRAMEWORK PREDICTION:
-    → By-product (fame, money) = Pathway 2, arrives LATER
-    → Einstein KHÔNG CẦN Pathway 2 để pleasant (Pathway 1 đủ)
-    → NHƯNG gap KHÔNG TỒN TẠI nếu collective chưa có physics
-    → "Chưa biết = không có gap" at population level
+    → By-products (fame, money) = Pathway 2, arrives LATER
+    → Einstein DOESN'T NEED Pathway 2 to feel pleasant (Pathway 1 is sufficient)
+    → BUT gap DOES NOT EXIST if the collective had no physics
+    → "Don't know it exists = no gap" at population level
 ```
 
-### Case 3: "Biết đường có hại nhưng vẫn thích ăn" (Schema vs Hardware)
+### Case 3: "Knowing sugar is harmful but still craving it" (Schema vs Hardware)
 
 ```
-  TÌNH HUỐNG:
-    Biết đường có hại (schema installed: "đường = xấu").
-    Vẫn thèm ăn ngọt khi thấy bánh.
-    "Biết vậy mà vẫn không cưỡng được."
+  SITUATION:
+    Knows sugar is harmful (schema installed: "sugar = bad").
+    Still craves sweets when seeing pastries.
+    "Knowing this but still can't resist."
     
-  PHÂN TÍCH:
+  ANALYSIS:
     Hardware gap (sweet taste): Axis-1 = taste receptor, Axis-2 = Cyclic
-    Schema re-tag: approach → avoidance (CƠ CHẾ 3 collective bias)
-    → NHƯNG: hardware gap = STRONG (evolutionary: sugar = scarce = survive)
-    → Schema re-tag at PFC level, KHÔNG override body-level signal
-    → "Biết" = PFC knowledge. "Thèm" = hardware gap signal.
-    → 2 systems CONFLICT → PFC = Lawyer rationalize, body VẪN muốn
+    Schema re-tag: approach → avoidance (MECHANISM 3 collective bias)
+    → BUT: hardware gap = STRONG (evolutionary: sugar = scarce = survive)
+    → Schema re-tag at PFC level, does NOT override body-level signal
+    → "Knowing" = PFC knowledge. "Craving" = hardware gap signal.
+    → 2 systems CONFLICT → PFC = Lawyer rationalizes, body STILL wants
     
   FRAMEWORK PREDICTION:
-    → Effective re-tag CẦN genuine body experience, not PFC knowledge
-    → "Ăn xong bị đau bụng" = body experience → re-tag EFFECTIVE
-    → "Đọc bài báo nói đường hại" = PFC only → re-tag WEAK
+    → Effective re-tag REQUIRES genuine body experience, not PFC knowledge
+    → "Eating and getting stomach pain" = body experience → re-tag EFFECTIVE
+    → "Reading an article that sugar is harmful" = PFC only → re-tag WEAK
 ```
 
 ### Case 4: Mid-life crisis (Hardware gaps resurface)
 
 ```
-  TÌNH HUỐNG:
-    Người 45 tuổi, sự nghiệp ổn định, tài chính tốt.
-    Bỗng muốn bỏ việc đi du lịch, học nhạc, chơi thể thao.
-    "Tôi đã bỏ lỡ gì đó suốt 20 năm."
+  SITUATION:
+    A 45-year-old, stable career, good finances.
+    Suddenly wants to quit work, travel, learn music, play sports.
+    "I've been missing something for 20 years."
     
-  PHÂN TÍCH:
-    Teen→Adult: collective INSTALL domain priority → SUPPRESS hardware gaps
-    → Play gap, curiosity gap, physical joy gap → compiled suppress 20+ năm
-    → "Lớn phải đi làm, không chơi nữa" = schema override hardware
-    → Gaps NOT deleted — BURIED → body VẪN lưu (PFC-Operations §4.2)
+  ANALYSIS:
+    Teen→Adult: collective INSTALLS domain priority → SUPPRESSES hardware gaps
+    → Play gap, curiosity gap, physical joy gap → compiled suppress 20+ years
+    → "Adults must work, no more playing" = schema overrides hardware
+    → Gaps NOT deleted — BURIED → body STILL holds them (PFC-Operations §4.2)
     
-    Mature: domain gaps GIẢM (achieved career goals)
+    Mature: domain gaps DECREASE (career goals achieved)
     → Suppress weakens → hardware gaps RESURFACE
     → "Mid-life crisis" = hardware gaps resurfacing after decades of suppress
     
   FRAMEWORK PREDICTION:
-    → NOT "khủng hoảng" — = hardware gaps finally getting attention
+    → NOT a "crisis" — = hardware gaps finally getting attention
     → HEALTHY if: re-engage suppressed gaps (play, curiosity, physical)
     → UNHEALTHY if: panic → overcompensate (burn everything down)
     → Prevention: maintain some hardware gap engagement throughout adult life
@@ -1594,54 +1625,56 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ### §15.5 — 9 Observable Signals
 
-> Case 1-4 quan sát qua pain + reward. Drill-Agent-Feed-Channel v2.2 §6-§7
-> phơi bày 7 observable NỮA qua 8 ví dụ cực đoan.
+> Cases 1-4 observed via pain + reward. Drill-Agent-Feed-Channel v2.2 §6-§7
+> reveals 7 MORE observables via 8 extreme examples.
 
 ```
-⭐ NGOÀI PAIN VÀ REWARD, CÒN 7 OBSERVABLE SIGNALS KHÁC:
+⭐ BEYOND PAIN AND REWARD, 7 MORE OBSERVABLE SIGNALS EXIST:
 
-  ┌────┬──────────────────────┬────────────────────────────────┬──────────────┐
-  │ #  │ Signal               │ Cái gì phơi bày                │ Case ví dụ   │
-  ├────┼──────────────────────┼────────────────────────────────┼──────────────┤
-  │ O1 │ Pain signal          │ Gap nào bị CẮT                 │ Tất cả       │
-  │ O2 │ Reward signal        │ Gap nào đang FEED              │ Tất cả       │
-  ├────┼──────────────────────┼────────────────────────────────┼──────────────┤
-  │ O3 │ Seeking behavior     │ Gap nào ACTIVE                 │ Biệt giam    │
-  │    │                      │ Intensity ∝ depth × duration   │              │
-  │ O4 │ Substitutability     │ Gap generic vs entity-specific │ Pet grief    │
-  │    │                      │ Generic: tìm bạn mới ok        │              │
-  │    │                      │ Entity-specific: KHÔNG thay    │              │
-  │ O5 │ Habituation pattern  │ Tonic vs Cyclic vs Generative  │ Long-distance│
-  │ O6 │ Inversion pain       │ Đảo dấu > tắt                  │ Phản bội     │
-  │    │                      │ Phản bội = NEGATIVE > mất = 0  │              │
-  │ O7 │ Manufacture behavior │ Brain tự tạo fill              │ Biệt giam    │
-  │    │                      │ Social gap = HARDWARE-LEVEL    │              │
-  │ O8 │ Partial-fill amplify │ Partial fire → missing LOUD    │ Video call   │
-  │    │                      │ Partial > absent ở một số case │              │
-  │ O9 │ Technology ceiling   │ Gap nào tech KHÔNG fill        │ Hikikomori   │
-  │    │                      │ Touch = unfillable by tech     │              │
-  └────┴──────────────────────┴────────────────────────────────┴──────────────┘
+  ┌────┬──────────────────────┬────────────────────────────────┬──────────────────────┐
+  │ #  │ Signal               │ What it reveals                │ Case example         │
+  ├────┼──────────────────────┼────────────────────────────────┼──────────────────────┤
+  │ O1 │ Pain signal          │ Which gap is CUT OFF           │ All cases            │
+  │ O2 │ Reward signal        │ Which gap is being FED         │ All cases            │
+  ├────┼──────────────────────┼────────────────────────────────┼──────────────────────┤
+  │ O3 │ Seeking behavior     │ Which gap is ACTIVE            │ Solitary             │
+  │    │                      │ Intensity ∝ depth × duration   │ confinement          │
+  │ O4 │ Substitutability     │ Gap generic vs entity-specific │ Pet grief            │
+  │    │                      │ Generic: finding a new friend  │                      │
+  │    │                      │   is ok                        │                      │
+  │    │                      │ Entity-specific: CANNOT replace│                      │
+  │ O5 │ Habituation pattern  │ Tonic vs Cyclic vs Generative  │ Long-distance        │
+  │ O6 │ Inversion pain       │ Sign reversal > shutoff        │ Betrayal             │
+  │    │                      │ Betrayal = NEGATIVE > absence  │                      │
+  │    │                      │   = 0                          │                      │
+  │ O7 │ Manufacture behavior │ Brain self-manufactures fill   │ Solitary             │
+  │    │                      │ Social gap = HARDWARE-LEVEL    │ confinement          │
+  │ O8 │ Partial-fill amplify │ Partial fire → missing LOUD    │ Video call           │
+  │    │                      │ Partial > absent in some cases │                      │
+  │ O9 │ Technology ceiling   │ Which gaps tech CANNOT fill    │ Hikikomori           │
+  │    │                      │ Touch = unfillable by tech     │                      │
+  └────┴──────────────────────┴────────────────────────────────┴──────────────────────┘
 
-  O3 Seeking: body CHỦ ĐỘNG tìm entity khi gap active.
-    Biệt giam → hallucination + nói chuyện nhện = brain manufacture entity
+  O3 Seeking: body ACTIVELY seeks entity when gap is active.
+    Solitary confinement → hallucinations + talking to spiders = brain manufactures entity
     → Social gap = HARDWARE-LEVEL (Grassian 2006, Baumeister & Leary 1995)
 
-  O4 Substitutability: replace test phân biệt gap type.
-    Bạn chuyển xa → tìm bạn mới (Novelty mechanism = replaceable source)
-    Mẹ mất → comfort KHÔNG thay thế (entity-specific compiled)
+  O4 Substitutability: replacement test distinguishes gap type.
+    Friend moves away → find a new friend (Novelty mechanism = replaceable source)
+    Mom passes away → comfort CANNOT be replaced (entity-specific compiled)
 
-  O6 Inversion: loss = tắt (0) → pain. Phản bội = ĐẢO DẤU (negative) → pain > loss.
-    Mọi source bị ảnh hưởng: Comfort→threat, Novelty→"giả", Safety→danger
+  O6 Inversion: loss = shutoff (0) → pain. Betrayal = SIGN REVERSAL (negative) → pain > loss.
+    All sources affected: Comfort→threat, Novelty→"fake", Safety→danger
 
-  O8 Partial-fill: video call → homesick HƠN (Van Tilburg 2019).
-    Partial Entity-Compiled fire → brain NOTICE missing spokes → pain TĂNG
+  O8 Partial-fill: video call → MORE homesick (Van Tilburg 2019).
+    Partial Entity-Compiled fires → brain NOTICES missing spokes → pain INCREASES
 
-  O9 Technology ceiling: internet fill Visual + Novelty + Safety partially.
-    Touch/Comfort = hardware gap KHÔNG technology nào fill hiện tại.
+  O9 Technology ceiling: internet fills Visual + Novelty + Safety partially.
+    Touch/Comfort = hardware gap NO technology can currently fill.
 
-  Chi tiết 8 ví dụ cực đoan: Drill-Agent-Feed-Channel v2.2 §6
+  Details on 8 extreme examples: Drill-Agent-Feed-Channel v2.2 §6
 
-  🟡 O3-O9 = framework synthesis từ ví dụ cực đoan
+  🟡 O3-O9 = framework synthesis from extreme examples
   🟢 O1+O2: standard pain/reward observation
   🟢 O3: Grassian 2006 (solitary confinement), Baumeister & Leary 1995
   🟢 O6: Cacioppo & Berntson 1994 (mixed valence)
@@ -1673,10 +1706,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Expert intuition = compiled: Klein 1998
   Felt sense before verbal: Gendlin 1978
   ACC conflict/error: Bush et al. 2000
-  Gap-Distribution-Profile 4 trục: Gap-Distribution-Profile v1.0 §3
+  Gap-Distribution-Profile 4 axes: Gap-Distribution-Profile v1.0 §3
   Needs not hierarchical: Max-Neef 1991
-  2 con đường serve body-base: Gap-Distribution-Profile v1.0 §2.2
-  Compilable Architecture 15-20 năm: Inter-Body-Mechanism v1.0 §1
+  2 pathways to serve body-base: Gap-Distribution-Profile v1.0 §2.2
+  Compilable Architecture 15-20 years: Inter-Body-Mechanism v1.0 §1
   Self-expansion: Aron & Aron 1996, 2000
   SDT intrinsic/extrinsic: Deci & Ryan 2000
   Division of labor: Durkheim 1893
@@ -1687,7 +1720,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Baby schema → NAcc: Glocker 2009 (PNAS)
   Social Baseline Theory: Coan & Sbarra 2015
   Cortisol synchrony couples: Saxbe & Repetti 2010
-  Biobehavioral synchrony mẹ-bé: Feldman 2012 (4-system)
+  Biobehavioral synchrony mother-child: Feldman 2012 (4-system)
   Interbrain PFC sync: Nguyen 2020 (fNIRS)
   Emotional contagion: Hatfield 1993
   Co-regulation/co-dysregulation: Butler & Randall 2013
@@ -1702,15 +1735,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 FRAMEWORK SYNTHESIS (novel integration)
 ═══════════════════════════════════════
 
-  3 satiation profiles RENAME (Cyclic/Tonic/Generative)
+  3 satiation profiles RENAMED (Cyclic/Tonic/Generative)
   Profile transitions + compounds
-  Reward-Signal-Architecture Evaluative:B integration into gap tables
-  5-parameter per-gap model (Axis-1-Axis-5)
+  Reward-Signal-Architecture Evaluative:Direct-State integration into gap tables
+  5-parameter per-gap model (Axis-1–Axis-5)
   Axis-4 × Axis-5 independence (chain vs dependency)
   ENGINE/ROAD/VEHICLE architecture
   Chain compilation + PFC auto-pilot
   Collective-Arc = infrastructure (not opposing force)
-  "Chưa biết = không có gap" at population level
+  "Don't know it exists = no gap" at population level
   Technology fill dimension + modern gap frontier
   Within-type gap competition mechanism
   5-step entity-gap matching process
@@ -1725,7 +1758,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Novelty = cross-source mechanism (not same-level as sources)
   Agent-relevant vs agent-irrelevant source filter
   L0-L1 substrate note (sources operate ON substrate, not new layer)
-  L0 compound effect (agent-irrelevant → agent-relevant)
+  L0 compound effect (agent-irrelevant → agent-relevant via compound)
   3-layer agent-gap-feed architecture (PUSH + PULL + EVALUATE)
   Layer 0 Body-State Entrainment as standalone substrate
   Entrainment ≠ embodied simulation (physics-level vs cognitive)
@@ -1743,7 +1776,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Chain compilation timeline (how fast are chains compiled?)
   Agent-mode vs Tool-mode switch threshold (what triggers mode switch?)
   Existence-based gap as distinct neural mechanism (vs very deep Tonic?)
-  Gap "death" conditions (exact threshold for chunk decay → gap disappear?)
+  Gap "death" conditions (exact threshold for chunk decay → gap disappears?)
   Axis-4×Axis-5 decouple boundary (where exactly do chain and dependency diverge?)
 ```
 
@@ -1754,7 +1787,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | File | Sections | Relationship |
 |------|----------|-------------|
 | Gap-Direction v2.0 | §1 definition, §7 formation | FOUNDATION — gap concept |
-| Gap-Distribution-Profile v1.0 | §2 spectrum, §3 (4 trục), §4 (4 tầng) | FOUNDATION — individual variation + 2 con đường |
+| Gap-Distribution-Profile v1.0 | §2 spectrum, §3 (4 axes), §4 (4 tiers) | FOUNDATION — individual variation + 2 pathways |
 | Body-Feedback-Mechanism v2.1 | §1 Body-Need, §3 (3 dynamics) | FOUNDATION — gap signal mechanism |
 | Reward-Signal-Architecture v2.1 | §1 (Evaluative/Direct-State), §2 (E₀→E₃), §4 (5 profiles) | FOUNDATION — reward types |
 | Reward-Calibration v1.1 | §1-§4 (Goldilocks, satiation) | FOUNDATION — reward dynamics |
@@ -1763,7 +1796,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Entity-Access v1.3 | §2 (gradient), §3 (3-layer) | DOWNSTREAM — entity-access mechanism |
 | Self-Pattern-Modeling v3.2 | §1 (Compiled/Fresh), §3 (per-agent valence) | MECHANISM — entity evaluation |
 | Imagine-Final v3.0 | §1 (constructive simulation), §3 (body pre-feel) | MECHANISM — entity-gap matching |
-| Connection v5.0 | §3 (3 Generative Primitives) | CONNECTOR — connection emerge |
+| Connection v5.0 | §3 (3 Generative Primitives) | CONNECTOR — connection emerges |
 | PFC-Operations v1.2 | §4 (3 outcomes), §6 (Compiled Quality) | MECHANISM — suppress + compiled quality |
 | By-Product-Gap-Resonance v1.4 | §1 (by-product match), §4 (4 conditions) | COMPANION — resonance mechanism |
 | By-Product-Scale v1.0 | §2-§4 (3 levels), §5 (hardware-subsidy) | COMPANION — cross-scale |

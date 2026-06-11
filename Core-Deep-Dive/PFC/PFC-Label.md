@@ -5,22 +5,22 @@ created: 2026-05-22
 updated: 2026-05-25 (v1.1 — §4 +PFC Operations × dissonance type table, Dissonance-Signal-Architecture v1.0 integration)
 status: REFERENCE v1.1
 scope: |
-  VOCABULARY REFERENCE: Quy ước label cho toàn bộ PFC-related concepts.
-  Formalize 3-tier label system: General → Direction → Specific.
-  13 domain: Roles, Processing, Operations, Cost, Quality, Regions, Hardware,
+  VOCABULARY REFERENCE: Label conventions for all PFC-related concepts.
+  Formalizes the 3-tier label system: General → Direction → Specific.
+  13 domains: Roles, Processing, Operations, Cost, Quality, Regions, Hardware,
   Simulation-Engine, Cognitive Ops, Failure Modes, Observer/Mechanism, Deprecated.
-  KHÔNG giải thích mechanism (source files làm việc đó).
-  CHỈ formalize: LABEL NÀO, NGHĨA GÌ, KHI NÀO DÙNG.
+  Does NOT explain mechanisms (source files do that).
+  ONLY formalizes: WHICH LABEL, WHAT IT MEANS, WHEN TO USE IT.
 purpose: |
-  PFC vocabulary xuất hiện trong 78+ files nhưng CHƯA BAO GIỜ được formalize.
-  Cùng 1 concept → 3-5 tên khác nhau → confusion.
-  File này: VOCABULARY REFERENCE cho toàn bộ PFC-related labels.
-  Companion của Body-Feedback-Label v2.0 (body-feedback vocabulary).
-  Body-Feedback-Label = body SIGNAL vocabulary. File này = PFC OPERATION vocabulary.
-  Overlap ở Body-Feedback-Label §8/§9C = bridge zone (cross-ref, không lặp).
+  PFC vocabulary appears in 78+ files but was NEVER formalized.
+  Same concept → 3-5 different names → confusion.
+  This file: VOCABULARY REFERENCE for all PFC-related labels.
+  Companion to Body-Feedback-Label v2.0 (body-feedback vocabulary).
+  Body-Feedback-Label = body SIGNAL vocabulary. This file = PFC OPERATION vocabulary.
+  Overlap at Body-Feedback-Label §8/§9C = bridge zone (cross-ref, no duplication).
 position: |
-  Core-Deep-Dive/PFC/ — ngang hàng PFC-Operations.md, Simulation-Engine.md.
-  ĐỌC NGAY SAU PFC-Function.md (entry point) và PFC-Operations.md (mechanism).
+  Core-Deep-Dive/PFC/ — peer to PFC-Operations.md, Simulation-Engine.md.
+  READ IMMEDIATELY AFTER PFC-Function.md (entry point) and PFC-Operations.md (mechanism).
 dependencies:
   - PFC-Operations.md v1.0 — §2-§4 Hold/Suppress, §5 Quality, §9 Budget, §10 3-Cost
   - Simulation-Engine.md v1.0 — §1-§3 Engine/Components/Axes, §6 mPFC gradient
@@ -35,32 +35,32 @@ dependencies:
   - Cortisol-Baseline.md v2.1 — cortisol × PFC damage, NE α1
 sources:
   - Drill-PFC-Label v1.0 (1,153L, 16 sections, 24 citations)
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # PFC-Label Convention — Vocabulary Reference
 
-> **PFC-related vocabulary xuất hiện trong 78+ files.**
-> **Nhưng cùng 1 concept → 3-5 tên khác nhau → confusion.**
+> **PFC-related vocabulary appears in 78+ files.**
+> **Yet the same concept → 3-5 different names → confusion.**
 >
-> **"Fresh" / "PFC-Fresh" / "draft" / "operation" = cùng 1 vùng concept, KHÁC level.**
-> **"PFC" = Observer? Lawyer? Director? Universal Resource? = tùy context.**
+> **"Fresh" / "PFC-Fresh" / "draft" / "operation" = same conceptual zone, DIFFERENT levels.**
+> **"PFC" = Observer? Lawyer? Director? Universal Resource? = depends on context.**
 >
-> **File này: VOCABULARY REFERENCE cho toàn bộ PFC-related labels.**
-> **KHÔNG giải thích mechanism (source files làm việc đó).**
-> **CHỈ formalize: LABEL NÀO, NGHĨA GÌ, KHI NÀO DÙNG.**
+> **This file: VOCABULARY REFERENCE for all PFC-related labels.**
+> **Does NOT explain mechanisms (source files do that).**
+> **ONLY formalizes: WHICH LABEL, WHAT IT MEANS, WHEN TO USE IT.**
 >
 > **Companion: Body-Feedback-Label v2.0 (body SIGNAL vocabulary).**
-> **File này = PFC OPERATION vocabulary. Overlap ở Body-Feedback-Label §8/§9C = bridge zone.**
+> **This file = PFC OPERATION vocabulary. Overlap at Body-Feedback-Label §8/§9C = bridge zone.**
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — TẠI SAO CẦN FILE NÀY
+- §0 — WHY THIS FILE EXISTS
 - §1 — 3-TIER LABEL SYSTEM + 4 VOCABULARY LEVELS
-- §2 — PFC ROLE LABELS (5 vai trò tùy context)
+- §2 — PFC ROLE LABELS (5 roles depending on context)
 - §3 — PROCESSING SPECTRUM: COMPILED ←→ FRESH (brief)
 - §4 — PFC OPERATIONS: HOLD + SUPPRESS (labels)
 - §5 — PFC COST LABELS (3-cost + budget)
@@ -79,49 +79,49 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §0 — TẠI SAO CẦN FILE NÀY
+## §0 — WHY THIS FILE EXISTS
 
 ```
-⭐ PFC VOCABULARY = PHÂN TÁN + KHÔNG NHẤT QUÁN:
+⭐ PFC VOCABULARY = SCATTERED + INCONSISTENT:
 
-  VẤN ĐỀ 1 — CÙNG CONCEPT, NHIỀU TÊN:
+  PROBLEM 1 — SAME CONCEPT, MULTIPLE NAMES:
     "Fresh" / "PFC-Fresh" / "draft" / "Fresh processing" = 4 labels
-    cho concept PROCESSING CHƯA COMPILED.
-    → File nào dùng tên nào? Không ai biết.
+    for the SAME concept: PROCESSING THAT IS NOT YET COMPILED.
+    → Which file uses which name? Nobody knows.
 
-  VẤN ĐỀ 2 — CÙNG TỪ, KHÁC LEVEL:
-    "Fresh" = TRẠNG THÁI trên spectrum (position)
-    "PFC operations" = HÀNH ĐỘNG (HOLD + SUPPRESS)
-    "draft" = hành động CỤ THỂ (1 loại HOLD)
-    → 3 level khác nhau dùng lẫn lộn → confuse.
+  PROBLEM 2 — SAME WORD, DIFFERENT LEVELS:
+    "Fresh" = STATE on the spectrum (position)
+    "PFC operations" = ACTION (HOLD + SUPPRESS)
+    "draft" = a SPECIFIC action (1 type of HOLD)
+    → 3 different levels mixed up → confusing.
 
-  VẤN ĐỀ 3 — PFC CÓ NHIỀU VAI TRÒ:
+  PROBLEM 3 — PFC HAS MULTIPLE ROLES:
     Observer (Feeling.md), Lawyer (PFC-Operations.md §10),
     Director (Neural-Processing-Flow),
     Universal Resource (PFC-Operations.md §9),
     Quality Controller (Ask-AI v3.1 §6.1)
-    → Vai trò nào áp dụng khi nào?
+    → Which role applies when?
 
-  VẤN ĐỀ 4 — PFC FILES PHÂN TÁN:
+  PROBLEM 4 — PFC FILES ARE SCATTERED:
     PFC-Function.md, PFC-Hardware.md, PFC-Development.md,
     PFC-Hold-Dimensions.md, PFC-Configuration.md,
     PFC-Operations.md, Simulation-Engine.md,
     Logic-Feeling.md, Logic-Feeling-Balance.md
-    → 9+ files riêng về PFC → vocabulary nào ở file nào?
+    → 9+ separate files about PFC → which vocabulary lives where?
 
-  VẤN ĐỀ 5 — OVERLAP VỚI BODY-FEEDBACK-LABEL:
-    Body-Feedback-Label §8 đã cover Compiled/Fresh processing labels.
-    Body-Feedback-Label §9C đã cover 3-cost sources.
-    → File này BỔ SUNG (PFC operations, roles, regions, hardware),
-    KHÔNG lặp.
+  PROBLEM 5 — OVERLAP WITH BODY-FEEDBACK-LABEL:
+    Body-Feedback-Label §8 already covers Compiled/Fresh processing labels.
+    Body-Feedback-Label §9C already covers 3-cost sources.
+    → This file SUPPLEMENTS (PFC operations, roles, regions, hardware),
+    does NOT duplicate.
 
 
-  ⭐ FILE NÀY GIẢI QUYẾT:
-    → Formalize vocabulary cho TOÀN BỘ PFC-related concepts
-    → Standardize: 1 label duy nhất cho 1 concept
-    → Deprecate: "draft" standalone, "PFC-Fresh" redundant (§13)
-    → 3-tier system: consistent với Body-Feedback-Label
-    → Phân biệt rõ LEVEL: state / action / sub-action / role
+  ⭐ THIS FILE RESOLVES:
+    → Formalizes vocabulary for ALL PFC-related concepts
+    → Standardizes: 1 label only for 1 concept
+    → Deprecates: "draft" standalone, "PFC-Fresh" redundant (§13)
+    → 3-tier system: consistent with Body-Feedback-Label
+    → Clearly distinguishes LEVELS: state / action / sub-action / role
 ```
 
 ---
@@ -129,58 +129,58 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §1 — 3-TIER LABEL SYSTEM + 4 VOCABULARY LEVELS
 
 ```
-⭐ QUY TẮC CHỌN TIER (tương tự Body-Feedback-Label §1):
+⭐ TIER SELECTION RULES (same as Body-Feedback-Label §1):
 
-  Tier 3 (CỤ THỂ NHẤT) > Tier 2 (DIRECTION) > Tier 1 (CHUNG NHẤT)
+  Tier 3 (MOST SPECIFIC) > Tier 2 (DIRECTION) > Tier 1 (MOST GENERAL)
 
-  → Khi biết CỤ THỂ PFC đang làm gì → dùng Tier 3:
+  → When knowing SPECIFICALLY what PFC is doing → use Tier 3:
     "dlPFC HOLD new pattern → ① PFC draft cost"
 
-  → Khi biết DIRECTION nhưng không specific → dùng Tier 2:
+  → When knowing DIRECTION but not specific → use Tier 2:
     "Fresh processing" / "HOLD" / "SUPPRESS"
 
-  → Khi CHỈ BIẾT PFC involved → dùng Tier 1:
+  → When ONLY knowing PFC is involved → use Tier 1:
     "PFC processing" / "PFC cost"
 
 
   AUDIENCE-APPROPRIATE:
 
-    Chuyên gia / deep analysis:
-      → Tier 3 chủ đạo. Region + operation + cost traced.
+    Expert / deep analysis:
+      → Tier 3 primary. Region + operation + cost traced.
 
-    Người muốn hiểu / Research files:
-      → Tier 2 chủ đạo: "Fresh processing", "HOLD", "suppress cost"
-      → Đủ chính xác, đủ hiểu mechanism cơ bản.
+    Learning / Research files:
+      → Tier 2 primary: "Fresh processing", "HOLD", "suppress cost"
+      → Precise enough, sufficient for understanding basic mechanism.
 
     General / overview:
-      → Tier 1 khi cần: "PFC đang xử lý" / "PFC tốn"
-      → Có thể drill sâu hơn nếu cần.
+      → Tier 1 when needed: "PFC is processing" / "PFC cost"
+      → Can drill deeper if needed.
 
 
-  4 LEVEL CỦA PFC VOCABULARY:
+  4 LEVELS OF PFC VOCABULARY:
 
     ┌────────────────────────────────────────────────────┐
-    │ LEVEL 1 — ROLES (PFC "là" gì trong context đó):   │
-    │   Observer, Lawyer, Director, Universal Resource,  │
-    │   Quality Controller                               │
+    │ LEVEL 1 — ROLES (what PFC "is" in that context):   │
+    │   Observer, Lawyer, Director, Universal Resource,   │
+    │   Quality Controller                                │
     │                                                    │
-    │ LEVEL 2 — STATES (vị trí trên spectrum):           │
-    │   Compiled ←→ Fresh                                │
+    │ LEVEL 2 — STATES (position on the spectrum):        │
+    │   Compiled ←→ Fresh                                 │
     │                                                    │
-    │ LEVEL 3 — OPERATIONS (PFC làm gì):                 │
-    │   HOLD = amplify new                               │
-    │   SUPPRESS = block existing                        │
+    │ LEVEL 3 — OPERATIONS (what PFC does):               │
+    │   HOLD = amplify new                                │
+    │   SUPPRESS = block existing                         │
     │                                                    │
-    │ LEVEL 4 — SUB-OPERATIONS (cụ thể):                 │
-    │   "draft novel path" = specific HOLD action         │
-    │   "inhibit compiled response" = specific SUPPRESS   │
+    │ LEVEL 4 — SUB-OPERATIONS (specific):                │
+    │   "draft novel path" = specific HOLD action          │
+    │   "inhibit compiled response" = specific SUPPRESS    │
     └────────────────────────────────────────────────────┘
 
-  ⚠️ KHÔNG trộn level:
-    ✗ "PFC-Fresh operation" (trộn state với operation)
-    ✓ "Fresh processing requires HOLD operation" (phân biệt)
-    ✗ "draft" standalone (mơ hồ — state? action? output?)
-    ✓ "PFC HOLD draft novel path" (operation + sub-action rõ ràng)
+  ⚠️ Do NOT mix levels:
+    ✗ "PFC-Fresh operation" (mixes state with operation)
+    ✓ "Fresh processing requires HOLD operation" (distinguished)
+    ✗ "draft" standalone (ambiguous — state? action? output?)
+    ✓ "PFC HOLD draft novel path" (operation + sub-action clearly stated)
 ```
 
 ---
@@ -188,63 +188,69 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §2 — PFC ROLE LABELS
 
 ```
-⭐ PFC CÓ 5 VAI TRÒ TÙY CONTEXT — DÙNG ĐÚNG VAI TRÒ:
+⭐ PFC HAS 5 ROLES DEPENDING ON CONTEXT — USE THE RIGHT ROLE:
 
   ┌─────────────────────────┬──────────────────────────────────────────┐
-  │ Role Label              │ Nghĩa + khi nào dùng                    │
+  │ Role Label              │ Meaning + when to use                    │
   ├─────────────────────────┼──────────────────────────────────────────┤
   │                         │                                          │
-  │ ① PFC = Observer        │ PFC QUAN SÁT body-feedback output.       │
-  │                         │ Reactive, KHÔNG generative.              │
-  │                         │ ~5% decisions, 95% body tự xử lý.       │
+  │ ① PFC = Observer        │ PFC OBSERVES body-feedback output.       │
+  │                         │ Reactive, NOT generative.                │
+  │                         │ ~5% decisions, 95% body self-processes.  │
   │                         │ ⚠️ % = calibration anchor.               │
-  │                         │ "Đọc output, không tạo output."          │
-  │                         │ Dùng: khi nhấn mạnh PFC KHÔNG điều      │
-  │                         │ khiển mà chỉ quan sát.                   │
+  │                         │ "Reads output, does not create output."  │
+  │                         │ Use: when emphasizing PFC does NOT        │
+  │                         │ control but only observes.               │
   │                         │ (Feeling.md, PFC-Function.md §1)         │
   │                         │                                          │
-  │ ② PFC = Lawyer          │ PFC tạo narrative CHO body-base.         │
+  │ ② PFC = Lawyer          │ PFC constructs narrative FOR body-base.  │
   │                         │ Post-hoc justification. Confabulation.   │
-  │                         │ KHÔNG neutral judge — biện hộ cho body.  │
-  │                         │ Body-need fire TRƯỚC → PFC justify SAU.  │
-  │                         │ Dùng: khi phân tích PFC narrative ≠      │
+  │                         │ NOT neutral judge — advocates for body.  │
+  │                         │ Body-need fires FIRST → PFC justifies    │
+  │                         │ AFTER.                                   │
+  │                         │ Use: when analyzing PFC narrative ≠      │
   │                         │ actual body-need.                        │
   │                         │ (PFC-Operations.md §10, Gazzaniga)       │
   │                         │                                          │
-  │ ③ PFC = Director        │ PFC điều hướng, KHÔNG compute trực tiếp. │
-  │   (Orchestrator)        │ Bias spreading activation. Chọn hướng.   │
-  │                         │ "Đạo diễn chỉ hướng, diễn viên tự diễn."│
-  │                         │ Dùng: khi nhấn mạnh PFC chỉ BIAS,       │
-  │                         │ không thực hiện computation.             │
+  │ ③ PFC = Director        │ PFC steers, does NOT compute directly.   │
+  │   (Orchestrator)        │ Biases spreading activation. Chooses     │
+  │                         │ direction.                               │
+  │                         │ "Director sets direction, actors perform."│
+  │                         │ Use: when emphasizing PFC only BIASES,   │
+  │                         │ does not carry out computation.          │
   │                         │ (Neural-Processing-Flow)                 │
   │                         │                                          │
-  │ ④ PFC = Universal       │ PFC budget = FINITE, SHARED cho TẤT CẢ. │
-  │   Resource              │ Learning, Self-Pattern-Modeling, decisions, suppress,      │
-  │                         │ social, self-monitor, Imagine-Final.     │
-  │                         │ Mệt ở work → Self-Pattern-Modeling cho con YẾU.           │
-  │                         │ Dùng: khi phân tích PFC budget trade-off │
-  │                         │ giữa các hoạt động.                     │
+  │ ④ PFC = Universal       │ PFC budget = FINITE, SHARED for ALL.     │
+  │   Resource              │ Learning, Self-Pattern-Modeling,         │
+  │                         │ decisions, suppress, social, self-       │
+  │                         │ monitor, Imagine-Final.                  │
+  │                         │ Fatigue from work → weaker Self-Pattern- │
+  │                         │ Modeling with one's child.               │
+  │                         │ Use: when analyzing PFC budget trade-off │
+  │                         │ across activities.                       │
   │                         │ (PFC-Operations.md §9)                   │
   │                         │                                          │
   │ ⑤ PFC = Quality         │ Dual Check: body = quality controller,   │
   │   Controller            │ domain = final arbiter.                  │
-  │                         │ PFC check body output VỚI domain reality.│
-  │                         │ DUY NHẤT system có thể check domain.     │
-  │                         │ Dùng: khi nhấn mạnh PFC verify function. │
+  │                         │ PFC checks body output AGAINST domain    │
+  │                         │ reality. THE ONLY system that can check  │
+  │                         │ against domain.                          │
+  │                         │ Use: when emphasizing PFC verify         │
+  │                         │ function.                                │
   │                         │ (Ask-AI v3.1 §6.1)                      │
   │                         │                                          │
   └─────────────────────────┴──────────────────────────────────────────┘
 
-  ⚠️ 5 roles KHÔNG MÂU THUẪN — cùng 1 PFC, KHÁC GÓC NHÌN:
-     Observer = perspective (PFC đọc gì)
-     Lawyer = output quality (PFC justify cho ai)
-     Director = mechanism (PFC tác động thế nào)
-     Universal Resource = resource constraint (PFC bị giới hạn sao)
-     Quality Controller = verification function (PFC check gì)
+  ⚠️ 5 roles do NOT CONFLICT — same PFC, DIFFERENT PERSPECTIVES:
+     Observer = perspective (what PFC reads)
+     Lawyer = output quality (whom PFC justifies for)
+     Director = mechanism (how PFC influences)
+     Universal Resource = resource constraint (how PFC is limited)
+     Quality Controller = verification function (what PFC checks)
 
-  ⚠️ ĐỪNG dùng "PFC = controller" hay "PFC = boss":
-     PFC KHÔNG điều khiển body. Body xử lý 95% tự động.
-     PFC chỉ BIAS direction + OBSERVE output.
+  ⚠️ Do NOT use "PFC = controller" or "PFC = boss":
+     PFC does NOT control the body. Body processes 95% automatically.
+     PFC only BIASES direction + OBSERVES output.
 ```
 
 ---
@@ -252,44 +258,45 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §3 — PROCESSING SPECTRUM: COMPILED ←→ FRESH
 
 > PFC-Operations.md v1.0 §1 = full treatment.
-> Body-Feedback-Label v2.0 §8 = cùng labels phía body.
-> Section này = BRIEF label reference.
+> Body-Feedback-Label v2.0 §8 = same labels from the body side.
+> This section = BRIEF label reference.
 
 ```
-⭐ TRỤC THẬT CỦA PROCESSING = COMPILATION LEVEL:
+⭐ THE REAL PROCESSING AXIS = COMPILATION LEVEL:
 
   COMPILED ─────────────────────────────────────── FRESH
   (automatic)                                    (PFC-mediated)
   body-direct                                    deliberate
   cost ≈ 0                                      cost > 0
-  "cảm thấy biết"                               "phải nghĩ ra"
-  Hebbian reinforced                            mỗi lần = effort mới
+  "feels known"                                 "have to think"
+  Hebbian reinforced                            each instance = new effort
 
 
   ┌─────────┬─────────────────────────┬──────────────────────────────────┐
-  │ Tier    │ Label                   │ Nghĩa                           │
+  │ Tier    │ Label                   │ Meaning                         │
   ├─────────┼─────────────────────────┼──────────────────────────────────┤
-  │ TIER 1  │ processing              │ Chung nhất. PFC involved.        │
+  │ TIER 1  │ processing              │ Most general. PFC involved.      │
   ├─────────┼─────────────────────────┼──────────────────────────────────┤
   │ TIER 2  │ Compiled processing     │ Automatic. Body-direct. Cost ≈ 0.│
   │         │ Fresh processing        │ PFC-mediated. Deliberate.        │
-  │         │ Semi-compiled           │ Mixed: phần compiled, phần fresh.│
+  │         │ Semi-compiled           │ Mixed: part compiled, part fresh.│
   ├─────────┼─────────────────────────┼──────────────────────────────────┤
-  │ TIER 2  │ Fresh → Compiled        │ LEARNING: lặp lại + verify OK.  │
+  │ TIER 2  │ Fresh → Compiled        │ LEARNING: repeat + verify OK.   │
   │ (trans.)│ (learning)              │ = "Logic → feeling" (observer).  │
-  │         │ Compiled → Fresh        │ DISRUPTION: context mới, error.  │
+  │         │ Compiled → Fresh        │ DISRUPTION: new context, error.  │
   │         │ (disruption)            │ = "Feeling → logic" (observer).  │
   └─────────┴─────────────────────────┴──────────────────────────────────┘
 
-  ⚠️ "Compiled/Fresh" = TRỤC MECHANISM. "Logic/Feeling" = OBSERVER LABELS.
-     Khi phân tích mechanism: BẮT BUỘC dùng Compiled/Fresh.
-     Khi mô tả cho người ngoài: "Logic/Feeling" OK (nhưng biết là approximate).
+  ⚠️ "Compiled/Fresh" = MECHANISM AXIS. "Logic/Feeling" = OBSERVER LABELS.
+     When analyzing mechanism: MUST use Compiled/Fresh.
+     When describing to general audience: "Logic/Feeling" is OK
+     (but recognize it is approximate).
 
-  ⚠️ Spectrum, KHÔNG binary:
-     Mỗi chunk nằm SOMEWHERE trên spectrum.
-     "Expert partially stuck" = compiled phần quen, fresh phần mới.
+  ⚠️ Spectrum, NOT binary:
+     Each chunk sits SOMEWHERE on the spectrum.
+     "Expert partially stuck" = compiled on the familiar part, fresh on the new part.
 
-  (Body-Feedback-Label §8 = CÙNG labels. PFC-Operations.md §1 = SOURCE.)
+  (Body-Feedback-Label §8 = SAME labels. PFC-Operations.md §1 = SOURCE.)
 ```
 
 ---
@@ -297,28 +304,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §4 — PFC OPERATIONS: HOLD + SUPPRESS
 
 > PFC-Operations.md v1.0 §2-§4 = full mechanism.
-> Section này = LABEL reference only.
+> This section = LABEL reference only.
 
 ```
-⭐ PFC CÓ 2 OPERATIONS TRÊN SPECTRUM:
+⭐ PFC HAS 2 OPERATIONS ON THE SPECTRUM:
 
   ┌─────────┬─────────────────────────┬──────────────────────────────────┐
-  │ Tier    │ Label                   │ Nghĩa                           │
+  │ Tier    │ Label                   │ Meaning                         │
   ├─────────┼─────────────────────────┼──────────────────────────────────┤
-  │ TIER 1  │ PFC operation           │ Chung nhất. PFC đang hành động. │
+  │ TIER 1  │ PFC operation           │ Most general. PFC is acting.     │
   ├─────────┼─────────────────────────┼──────────────────────────────────┤
-  │ TIER 2  │ HOLD (= PFC Amplify)    │ Amplify pattern mới/yếu.        │
+  │ TIER 2  │ HOLD (= PFC Amplify)    │ Amplify new/weak pattern.        │
   │         │                         │ CAN compile → sustainable.       │
   │         │                         │ Cost: ① PFC draft.               │
   │         │                         │ Region: dlPFC, FEF.              │
   │         ├─────────────────────────┼──────────────────────────────────┤
-  │         │ SUPPRESS (= PFC Inhibit)│ Block pattern đã compiled.       │
+  │         │ SUPPRESS (= PFC Inhibit)│ Block already-compiled pattern.  │
   │         │                         │ CANNOT compile "not" → unsust.   │
   │         │                         │ Cost: ② Suppress (efference).    │
   │         │                         │ Region: rIFG, vlPFC.             │
   └─────────┴─────────────────────────┴──────────────────────────────────┘
 
-  ⚠️ HOLD ≠ SUPPRESS — KHÁC CĂN BẢN:
+  ⚠️ HOLD ≠ SUPPRESS — FUNDAMENTALLY DIFFERENT:
 
     ┌──────────────┬────────────────────┬────────────────────┐
     │              │ HOLD               │ SUPPRESS            │
@@ -331,32 +338,32 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     └──────────────┴────────────────────┴────────────────────┘
 
 
-  4 TỔ HỢP:
+  4 COMBINATIONS:
 
-    ① Hold only       — Học mới, không xung đột. Cost: ①. DỄ NHẤT.
-    ② Hold + Suppress — Học mới ĐỒNG THỜI block cũ. Cost: ① + ②. DOUBLE.
+    ① Hold only       — Learn new, no conflict. Cost: ①. EASIEST.
+    ② Hold + Suppress — Learn new WHILE blocking old. Cost: ① + ②. DOUBLE.
                          3 outcomes: A (genuine shift), B (compiled suppress),
                          C (failure/burst). (PFC-Operations.md §4)
-    ③ Suppress only   — Block mà không thay thế. Cost: ②. TỆ NHẤT.
+    ③ Suppress only   — Block without replacing. Cost: ②. WORST.
                          Wegner ironic process: rebound.
-    ④ Neither         — Compiled chạy tự động. Cost: ≈ 0. Không PFC.
+    ④ Neither         — Compiled runs automatically. Cost: ≈ 0. No PFC.
 
   PFC OPERATIONS × DISSONANCE TYPE (Dissonance-Signal-Architecture.md v1.0 §7.2):
 
     ┌──────────────────┬──────────────────────┬─────────────────────────┐
     │                  │ Evaluative Dissonance│ Direct-State Dissonance │
     ├──────────────────┼──────────────────────┼─────────────────────────┤
-    │ HOLD (reframe)   │ CAN compile mới     │ MINIMAL effect          │
+    │ HOLD (reframe)   │ CAN compile new     │ MINIMAL effect          │
     │                  │ → resolve source      │ (pain stays pain)       │
     │ SUPPRESS (block) │ Partial, temporary   │ NEAR ZERO               │
     │                  │ → rebound risk        │ (hardware overrides)    │
     │ Placebo effect   │ N/A                  │ Evaluative modulates    │
     │                  │                      │ Direct-State (proof)    │
     └──────────────────┴──────────────────────┴─────────────────────────┘
-    → PFC MẠNH hơn với Evaluative Dissonance, YẾU với Direct-State.
+    → PFC STRONGER with Evaluative Dissonance, WEAKER with Direct-State.
     → Parallel: PFC Hold/Suppress × Reward (Dissonance-Signal-Architecture §7.2 = full table).
 
-  (PFC-Operations.md §2-§4 = SOURCE mechanism chi tiết.)
+  (PFC-Operations.md §2-§4 = SOURCE mechanism detail.)
 ```
 
 ---
@@ -364,58 +371,61 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §5 — PFC COST LABELS
 
 > PFC-Operations.md v1.0 §9-§10 = full mechanism.
-> Body-Feedback-Label v2.0 §9C = cùng labels phía body.
-> Section này = LABEL reference only.
+> Body-Feedback-Label v2.0 §9C = same labels from the body side.
+> This section = LABEL reference only.
 
 ```
 ⭐ 3 INDEPENDENT COST SOURCES + BUDGET:
 
   ┌─────────┬─────────────────────────┬──────────────────────────────────┐
-  │ Tier    │ Label                   │ Nghĩa                           │
+  │ Tier    │ Label                   │ Meaning                         │
   ├─────────┼─────────────────────────┼──────────────────────────────────┤
-  │ TIER 1  │ PFC cost                │ Chung nhất. PFC đang tốn.       │
+  │ TIER 1  │ PFC cost                │ Most general. PFC is spending.   │
   ├─────────┼─────────────────────────┼──────────────────────────────────┤
-  │ TIER 2  │ ① PFC draft cost        │ Processing load từ HOLD.         │
-  │         │                         │ f(chain_length × novelty).       │
-  │         │                         │ GIẢM DẦN khi compile (→ ≈ 0).   │
+  │ TIER 2  │ ① PFC draft cost        │ Processing load from HOLD.        │
+  │         │                         │ f(chain_length × novelty).        │
+  │         │                         │ DECREASES as chunk compiles       │
+  │         │                         │ (→ ≈ 0 when compiled).           │
   │         │                         │ Region: dlPFC, FEF.              │
   │         ├─────────────────────────┼──────────────────────────────────┤
-  │         │ ② Suppress cost         │ Efference mismatch từ SUPPRESS.  │
-  │         │                         │ f(intensity × duration).         │
-  │         │                         │ KHÔNG GIẢM (pattern vẫn fire).   │
-  │         │                         │ = "Not being me" feeling.        │
+  │         │ ② Suppress cost         │ Efference mismatch from SUPPRESS. │
+  │         │                         │ f(intensity × duration).          │
+  │         │                         │ DOES NOT DECREASE (pattern still  │
+  │         │                         │ fires). = "Not being me" feeling. │
   │         │                         │ Region: rIFG, vlPFC.             │
   │         ├─────────────────────────┼──────────────────────────────────┤
-  │         │ ③ Uncertainty cost      │ Multiple options, none compiled. │
-  │         │                         │ Hold open → cortisol.            │
-  │         │                         │ f(options × time × stakes).      │
-  │         │                         │ GIẢM khi commit (chọn 1 → hold).│
-  │         │                         │ Region: ACC (conflict).          │
+  │         │ ③ Uncertainty cost      │ Multiple options, none compiled.  │
+  │         │                         │ Holds open → cortisol.            │
+  │         │                         │ f(options × time × stakes).       │
+  │         │                         │ DECREASES when committed           │
+  │         │                         │ (choose 1 → hold).               │
+  │         │                         │ Region: ACC (conflict).           │
   ├─────────┼─────────────────────────┼──────────────────────────────────┤
-  │ TIER 1  │ PFC budget              │ TỔNG resource PFC có thể dùng.  │
-  │ (system)│ (= Universal Resource)  │ FINITE. SHARED cho MỌI hoạt     │
-  │         │                         │ động: learning, Self-Pattern-Modeling, decisions,  │
-  │         │                         │ suppress, social, self-monitor,  │
-  │         │                         │ Imagine-Final.                   │
+  │ TIER 1  │ PFC budget              │ TOTAL resource PFC can use.      │
+  │ (system)│ (= Universal Resource)  │ FINITE. SHARED for ALL activities:│
+  │         │                         │ learning, Self-Pattern-Modeling,  │
+  │         │                         │ decisions, suppress, social,      │
+  │         │                         │ self-monitor, Imagine-Final.      │
   │         ├─────────────────────────┼──────────────────────────────────┤
-  │         │ Total cost              │ = ① + ② + ③ cộng lại.           │
+  │         │ Total cost              │ = ① + ② + ③ combined.            │
   └─────────┴─────────────────────────┴──────────────────────────────────┘
 
-  ⚠️ 3 cost sources INDEPENDENT (xuất hiện riêng lẻ hoặc cùng lúc):
-     Chỉ ① = learn something new (effort nhưng ổn)
-     Chỉ ② = suppress something old (mệt và unsustainable)
-     ① + ② = thay đổi thói quen (double cost — WHY change is hard)
-     ① + ② + ③ = đổi career lúc chưa biết đi đâu (TRIPLE — max load)
+  ⚠️ 3 cost sources INDEPENDENT (can appear separately or simultaneously):
+     Only ① = learning something new (effort but manageable)
+     Only ② = suppressing something old (draining and unsustainable)
+     ① + ② = changing a habit (double cost — WHY change is hard)
+     ① + ② + ③ = changing careers without knowing where to go (TRIPLE — max load)
 
-  ⚠️ PFC budget GIẢM bởi:
+  ⚠️ PFC budget REDUCED by:
      Fatigue (end of day), Cortisol (stress), Sleep deprivation,
      Illness, Chronic suppress (accumulated ② cost)
-     → "Mệt ở work → Self-Pattern-Modeling cho con YẾU" = budget ĐÃ HẾT, không phải lazy.
+     → "Fatigue from work → weaker Self-Pattern-Modeling with one's child"
+     = budget DEPLETED, not laziness.
 
-  ⚠️ ① CAN GIẢM (compile → automatic). ② CANNOT GIẢM (pattern stays).
+  ⚠️ ① CAN DECREASE (compile → automatic). ② CANNOT DECREASE (pattern stays).
      → Long-term: HOLD-heavy strategies >> SUPPRESS-heavy strategies.
 
-  (PFC-Operations.md §9-§10 = SOURCE. Body-Feedback-Label §9C = CÙNG labels.)
+  (PFC-Operations.md §9-§10 = SOURCE. Body-Feedback-Label §9C = SAME labels.)
 ```
 
 ---
@@ -423,54 +433,61 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §6 — COMPILED QUALITY LABELS
 
 > PFC-Operations.md v1.0 §5 = full mechanism.
-> Section này = LABEL reference only.
+> This section = LABEL reference only.
 
 ```
-⭐ COMPILED CHUNKS CÓ QUALITY DIMENSION — PHÂN BIỆT 3 LOẠI:
+⭐ COMPILED CHUNKS HAVE A QUALITY DIMENSION — DISTINGUISH 3 TYPES:
 
   ┌─────────────────────────┬──────────────────────────────────────────┐
-  │ Label                   │ Nghĩa + khi nào dùng                    │
+  │ Label                   │ Meaning + when to use                    │
   ├─────────────────────────┼──────────────────────────────────────────┤
   │                         │                                          │
-  │ Genuine-compiled        │ Body reward THẬT confirmed → compile.    │
+  │ Genuine-compiled        │ REAL body reward confirmed → compile.    │
   │                         │ → approach tag.                          │
-  │                         │ → Self-Pattern-Modeling EXPANSIVE (rich body data).        │
-  │                         │ VD: Mẹ thích nấu ăn → genuine compiled  │
-  │                         │ hiểu "ngon = gì" → creative Self-Pattern-Modeling cho con.│
-  │                         │ Dùng: khi compiled qua trải nghiệm thật │
-  │                         │ + body confirm.                          │
+  │                         │ → Self-Pattern-Modeling EXPANSIVE        │
+  │                         │   (rich body data).                      │
+  │                         │ Example: A parent who genuinely enjoys   │
+  │                         │ cooking → genuine-compiled understanding  │
+  │                         │ of "what tastes good" → creative         │
+  │                         │ Self-Pattern-Modeling with their child.  │
+  │                         │ Use: when compiled through real          │
+  │                         │ experience + body confirmation.          │
   │                         │                                          │
   │ Schema-compiled         │ PFC / obligation / social compliance.    │
   │                         │ → neutral tag.                           │
-  │                         │ → Self-Pattern-Modeling LIMITED (narrow, rule-based).      │
-  │                         │ VD: "Ai cũng học" → compile HOW TO do   │
-  │                         │ nhưng KHÔNG compile WHY body likes.      │
-  │                         │ Dùng: khi compiled qua rule/schema,      │
-  │                         │ không phải body engagement.              │
+  │                         │ → Self-Pattern-Modeling LIMITED          │
+  │                         │   (narrow, rule-based).                  │
+  │                         │ Example: "Everyone studies" → compiles   │
+  │                         │ HOW TO do it but does NOT compile WHY    │
+  │                         │ body likes it.                           │
+  │                         │ Use: when compiled through rule/schema,  │
+  │                         │ not through body engagement.             │
   │                         │                                          │
-  │ Threat-compiled         │ Forced / threat / bị ép → compile.       │
+  │ Threat-compiled         │ Forced / threatened / coerced → compile. │
   │                         │ → avoidance tag.                         │
-  │                         │ → Self-Pattern-Modeling BIASED (fear-based patterns).      │
-  │                         │ VD: Bị đánh → compile "đừng nói ý kiến" │
-  │                         │ → Self-Pattern-Modeling: predict người khác sẽ phạt.       │
-  │                         │ Dùng: khi compiled dưới áp lực/đe dọa.  │
+  │                         │ → Self-Pattern-Modeling BIASED           │
+  │                         │   (fear-based patterns).                 │
+  │                         │ Example: Being punished → compiles       │
+  │                         │ "don't speak up" → Self-Pattern-Modeling:│
+  │                         │ predicts others will punish.             │
+  │                         │ Use: when compiled under pressure/threat.│
   │                         │                                          │
   └─────────────────────────┴──────────────────────────────────────────┘
 
   ⭐ QUALITY = COMPILE-TIME LOCK:
-    Tag (approach/neutral/avoidance) được gắn LÚC COMPILE.
-    Sau compile → tag KHÔNG ĐỔI.
-    Cùng kiến thức, cùng level compiled — KHÁC quality → KHÁC suốt đời.
+    Tag (approach/neutral/avoidance) is assigned AT COMPILE TIME.
+    After compiling → tag DOES NOT CHANGE.
+    Same knowledge, same compile level — DIFFERENT quality → DIFFERENT for life.
 
-  ⚠️ CÙNG OUTPUT, KHÁC QUALITY:
-    Genuine-compiled "biết nấu soup" ≠ Schema-compiled "biết nấu soup"
-    Genuine: body data rich → CAN generalize → creative
-    Schema: rule data only → CANNOT generalize → repeat same
+  ⚠️ SAME OUTPUT, DIFFERENT QUALITY:
+    Genuine-compiled "knows how to cook" ≠ Schema-compiled "knows how to cook"
+    Genuine: rich body data → CAN generalize → creative
+    Schema: rule data only → CANNOT generalize → repeats the same patterns
 
-  ⚠️ 3 quality types KHÔNG đổi được → phải BUILD NEW (genuine) bên cạnh.
-    "Fix" threat-compiled ≠ xóa → compile THÊM genuine pattern mới.
+  ⚠️ 3 quality types are NOT changeable → must BUILD NEW (genuine) alongside.
+    "Fixing" threat-compiled ≠ erasing → compile ADDITIONAL genuine patterns.
 
-  (PFC-Operations.md §5 = SOURCE chi tiết.)
+  (PFC-Operations.md §5 = SOURCE detail.)
 ```
 
 ---
@@ -478,27 +495,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §7 — PFC REGION LABELS
 
 ```
-⭐ CÁC VÙNG PFC VÀ MAPPING TRONG FRAMEWORK:
+⭐ PFC REGIONS AND THEIR FRAMEWORK MAPPING:
 
   ┌─────────────────────────┬──────────────────────────────────────────┐
-  │ Region Label            │ Framework mapping + khi nào dùng         │
+  │ Region Label            │ Framework mapping + when to use          │
   ├─────────────────────────┼──────────────────────────────────────────┤
   │                         │                                          │
   │ dlPFC                   │ Working memory. Planning. Cognitive      │
   │ (dorsolateral PFC)      │ control. ~4±1 dimensions.                │
   │                         │ = HOLD operation hub.                    │
-  │                         │ Dùng: khi trace HOLD to specific region. │
+  │                         │ Use: when tracing HOLD to specific       │
+  │                         │ region.                                  │
   │                         │                                          │
   │ vlPFC                   │ Response inhibition. Rule maintenance.   │
   │ (ventrolateral PFC)     │ = SUPPRESS operation hub.                │
-  │                         │ Dùng: khi trace SUPPRESS to region.      │
+  │                         │ Use: when tracing SUPPRESS to region.    │
   │                         │                                          │
   │ vmPFC                   │ Emotion regulation. Somatic bridge.      │
   │ (ventromedial PFC)      │ Amygdala connection (uncinate fasciculus)│
-  │                         │ Controllability: vmPFC suppress DRN.     │
-  │                         │ Cortisol damage → vmPFC weaken →         │
-  │                         │ DRN regain → learned helplessness.       │
-  │                         │ Dùng: khi trace emotion regulation,      │
+  │                         │ Controllability: vmPFC suppresses DRN.   │
+  │                         │ Cortisol damage → vmPFC weakens →        │
+  │                         │ DRN regains → learned helplessness.      │
+  │                         │ Use: when tracing emotion regulation,    │
   │                         │ autonomy, controllability.               │
   │                         │ (Autonomy-Hardware.md v1.1)              │
   │                         │                                          │
@@ -509,42 +527,43 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                         │ = GRADIENT (not binary).                 │
   │                         │ Entity-Compiled = migration from         │
   │                         │ dorsal → ventral.                        │
-  │                         │ Dùng: khi trace Self-Pattern-Modeling, self-model,         │
-  │                         │ social prediction.                       │
+  │                         │ Use: when tracing Self-Pattern-Modeling, │
+  │                         │ self-model, social prediction.           │
   │                         │ (Simulation-Engine.md v1.0 §6)           │
   │                         │                                          │
   │ rIFG                    │ Inhibitory control hub.                  │
   │ (right inferior         │ Specific region WITHIN vlPFC area.       │
   │  frontal gyrus)         │ = SUPPRESS execution point.              │
-  │                         │ Dùng: khi need precise anatomy label.    │
+  │                         │ Use: when precise anatomical label is    │
+  │                         │ needed.                                  │
   │                         │ (Aron 2007)                              │
   │                         │                                          │
   │ ACC                     │ Conflict monitoring. Error detection.    │
   │ (anterior cingulate     │ PFC/limbic OVERLAP (not pure PFC).       │
   │  cortex)                │ = ③ Uncertainty cost detector.           │
-  │                         │ Fires khi multiple options conflict.     │
-  │                         │ Dùng: khi trace conflict/uncertainty.    │
+  │                         │ Fires when multiple options conflict.    │
+  │                         │ Use: when tracing conflict/uncertainty.  │
   │                         │                                          │
   │ OFC                     │ Value computation. Reward expectation.   │
   │ (orbitofrontal cortex)  │ Integrates reward history.               │
-  │                         │ Dùng: khi trace value judgment.          │
+  │                         │ Use: when tracing value judgment.        │
   │                         │                                          │
   │ FEF                     │ Attention direction. Eye movement.       │
   │ (frontal eye fields)    │ = HOLD attention component.              │
-  │                         │ Dùng: khi trace attention allocation.    │
+  │                         │ Use: when tracing attention allocation.  │
   │                         │                                          │
   └─────────────────────────┴──────────────────────────────────────────┘
 
-  ⚠️ KHOẢNG CÁCH TỪ REGION → FRAMEWORK CONCEPT:
+  ⚠️ GAP FROM REGION → FRAMEWORK CONCEPT:
     Region = physical structure. Framework concept = functional label.
-    MAPPING có thể KHÔNG 1:1 (1 region → nhiều functions, 1 function → nhiều regions).
-    Dùng region labels khi CẦN precision. Framework labels khi ANALYZE.
+    MAPPING may NOT be 1:1 (1 region → many functions, 1 function → many regions).
+    Use region labels when PRECISION is needed. Framework labels when ANALYZING.
 
-  ⚠️ Dùng TIER 2 (HOLD/SUPPRESS) thay vì Tier 3 (dlPFC/rIFG) trong HẦU HẾT cases.
-    Region labels chỉ cần khi:
-    → Research citation (cần specify anatomy)
+  ⚠️ Use TIER 2 (HOLD/SUPPRESS) instead of Tier 3 (dlPFC/rIFG) in MOST cases.
+    Region labels needed only when:
+    → Research citation (anatomy specification required)
     → Neural damage analysis (lesion → which function lost)
-    → Cross-reference neuroscience literature
+    → Cross-referencing neuroscience literature
 ```
 
 ---
@@ -552,68 +571,73 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §8 — PFC HARDWARE LABELS
 
 ```
-⭐ INDIVIDUAL DIFFERENCES — TẠI SAO CÙNG 24 FUNCTIONS MÀ OUTPUT KHÁC:
+⭐ INDIVIDUAL DIFFERENCES — WHY SAME 24 FUNCTIONS PRODUCE DIFFERENT OUTPUTS:
 
   ┌─────────────────────────┬──────────────────────────────────────────┐
-  │ Label                   │ Nghĩa + khi nào dùng                    │
+  │ Label                   │ Meaning + when to use                    │
   ├─────────────────────────┼──────────────────────────────────────────┤
   │                         │                                          │
   │ PFC hardware            │ Innate specs: wiring, receptors,         │
-  │                         │ connection density. = CÁI KHÔNG ĐỔI     │
-  │                         │ (hoặc đổi cực chậm).                    │
-  │                         │ Dùng: general term cho individual diff.  │
+  │                         │ connection density. = WHAT DOES NOT      │
+  │                         │ CHANGE (or changes extremely slowly).    │
+  │                         │ Use: general term for individual         │
+  │                         │ differences.                             │
   │                         │ (PFC-Hardware.md v1.1)                   │
   │                         │                                          │
-  │ PFC quality             │ Chất lượng workspace PER-SLOT:           │
-  │ (= PFC-Quality)         │ ① Resolution (rõ hay mờ)                │
-  │                         │ ② Noise filter (giữ sạch dù nhiễu)     │
-  │                         │ ③ Retrieval (lấy chunk nhanh/đúng)      │
-  │                         │ ④ Compression (compile chặt hơn)        │
-  │                         │ Dùng: khi phân tích chất lượng xử lý.   │
+  │ PFC quality             │ Workspace quality PER-SLOT:              │
+  │ (= PFC-Quality)         │ ① Resolution (sharp or blurred)         │
+  │                         │ ② Noise filter (stays clean despite      │
+  │                         │   interference)                          │
+  │                         │ ③ Retrieval (fast/accurate chunk access) │
+  │                         │ ④ Compression (compiles more tightly)   │
+  │                         │ Use: when analyzing processing quality.  │
   │                         │                                          │
-  │ PFC clear speed         │ COMT-dependent. Tốc độ xóa draft cũ.   │
-  │ (= COMT clear)          │ Val/Val: FAST = "Improviser"             │
-  │                         │   (flexible, switch nhanh, unstable).    │
+  │ PFC clear speed         │ COMT-dependent. Speed of clearing old    │
+  │ (= COMT clear)          │ drafts.                                  │
+  │                         │ Val/Val: FAST = "Improviser"             │
+  │                         │   (flexible, fast switching, unstable).  │
   │                         │ Met/Met: SLOW = "Specialist"             │
   │                         │   (focused, deep, incremental).          │
   │                         │ Val/Met: intermediate.                   │
-  │                         │ Dùng: khi phân tích tốc độ xử lý.       │
+  │                         │ Use: when analyzing processing speed.    │
   │                         │ (PFC-Hardware.md §3)                     │
   │                         │                                          │
   │ PFC slots               │ ~4±1 dimensions (NOT separate boxes).    │
   │ (= working memory       │ Interference limit (physics constraint). │
-  │  dimensions)            │ SỐ slots GIỐNG MỌI NGƯỜI (hardware).    │
-  │                         │ CHẤT LƯỢNG per-slot khác (PFC quality).  │
-  │                         │ Compiled chunks: pyramidal stacking →    │
-  │                         │ expert fit MORE trong cùng slots.        │
-  │                         │ Dùng: khi phân tích working memory.      │
+  │  dimensions)            │ NUMBER of slots SAME for EVERYONE        │
+  │                         │ (hardware). QUALITY per-slot differs     │
+  │                         │ (PFC quality). Compiled chunks: pyramidal│
+  │                         │ stacking → experts fit MORE in same      │
+  │                         │ slots.                                   │
+  │                         │ Use: when analyzing working memory.      │
   │                         │ (PFC-Hold-Dimensions.md)                 │
   │                         │                                          │
-  │ DRD4 filter             │ Receptor threshold cho prediction-delta. │
+  │ DRD4 filter             │ Receptor threshold for prediction-delta. │
   │ (= chunk threshold)     │ 4R: sensitive (small delta detected).    │
   │                         │ 7R: coarse (only large delta).           │
-  │                         │ Dùng: khi phân tích sensitivity.         │
+  │                         │ Use: when analyzing sensitivity.         │
   │                         │ (PFC-Hardware.md §4)                     │
   │                         │                                          │
   │ NE α2/α1                │ PFC circuit breaker under stress.        │
   │ (= stress threshold)    │ Normal: α2 (low NE) → PFC functions.    │
   │                         │ Stress: α1 (high NE) → PFC DISCONNECT.  │
   │                         │ Individual threshold varies.             │
-  │                         │ Dùng: khi phân tích PFC under stress.    │
+  │                         │ Use: when analyzing PFC under stress.    │
   │                         │ (PFC-Hardware.md §6, Arnsten 2009)       │
   │                         │                                          │
-  │ MAO-A                   │ Mood stability (TOÀN NÃO, not PFC-only).│
-  │ (= mood stability)      │ Serotonin + dopamine + NE metabolism.    │
-  │                         │ Dùng: khi phân tích emotional stability. │
+  │ MAO-A                   │ Mood stability (WHOLE BRAIN, not         │
+  │ (= mood stability)      │ PFC-only). Serotonin + dopamine + NE     │
+  │                         │ metabolism.                              │
+  │                         │ Use: when analyzing emotional stability. │
   │                         │ (PFC-Hardware.md §5)                     │
   │                         │                                          │
   └─────────────────────────┴──────────────────────────────────────────┘
 
-  ⚠️ "Improviser" vs "Specialist" = KHÔNG TỐT/XẤU — chỉ KHÁC profile.
-  ⚠️ PFC capacity GIẢM bởi: age, cortisol, fatigue, sleep deprivation.
+  ⚠️ "Improviser" vs "Specialist" = NOT BETTER/WORSE — just DIFFERENT profiles.
+  ⚠️ PFC capacity DECREASES with: age, cortisol, fatigue, sleep deprivation.
      Observed capacity = hardware ceiling × current state.
-  ⚠️ "IQ" KHÔNG DÙNG trong framework — quá crude.
-     Dùng: PFC quality + clear speed + DRD4 + compiled chunks = richer model.
+  ⚠️ "IQ" NOT USED in framework — too crude.
+     Use: PFC quality + clear speed + DRD4 + compiled chunks = richer model.
 ```
 
 ---
@@ -621,78 +645,79 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §9 — SIMULATION-ENGINE LABELS
 
 > Simulation-Engine.md v1.0 = full architecture.
-> Section này = LABEL reference only.
+> This section = LABEL reference only.
 
 ```
 ⭐ 1 ENGINE, 3 COMPONENTS, N APPLICATIONS:
 
   ┌─────────────────────────┬──────────────────────────────────────────┐
-  │ Label                   │ Nghĩa + khi nào dùng                    │
+  │ Label                   │ Meaning + when to use                    │
   ├─────────────────────────┼──────────────────────────────────────────┤
   │                         │                                          │
   │ Simulation-Engine       │ General-purpose brain substrate.         │
   │                         │ DMN + mPFC + anterior insula +           │
   │                         │ hippocampus. Retrieve → recombine →      │
   │                         │ simulate → readout.                      │
-  │                         │ Dùng: khi nói về shared substrate cho    │
-  │                         │ Self-Pattern-Modeling, Self-Observation, Imagine-Final, etc.       │
+  │                         │ Use: when referring to the shared        │
+  │                         │ substrate for Self-Pattern-Modeling,     │
+  │                         │ Self-Observation, Imagine-Final, etc.    │
   │                         │                                          │
-  │ Component 1:            │ Anterior insula. Đọc body signals.       │
-  │ Interoception           │ "MÀN HÌNH" — readout device.             │
-  │                         │ Unique cho self-target.                  │
-  │                         │ Dùng: khi trace body-signal readout.     │
+  │ Component 1:            │ Anterior insula. Reads body signals.     │
+  │ Interoception           │ "THE SCREEN" — readout device.           │
+  │                         │ Unique to self-target.                   │
+  │                         │ Use: when tracing body-signal readout.   │
   │                         │                                          │
-  │ Component 2:            │ DMN + hippocampus. Recombine chunks.     │
+  │ Component 2:            │ DMN + hippocampus. Recombines chunks.    │
   │ Constructive Simulation │ "CPU + RAM" — processing engine.         │
-  │                         │ Dùng: khi trace simulation generation.   │
+  │                         │ Use: when tracing simulation generation. │
   │                         │                                          │
   │ Component 3:            │ mPFC gradient. Ventral=self+close,       │
-  │ Self/Other Model        │ Dorsal=distant. "BẢNG ĐIỀU KHIỂN" —     │
-  │                         │ chọn simulation target.                  │
-  │                         │ Dùng: khi trace target selection.        │
+  │ Self/Other Model        │ Dorsal=distant. "CONTROL PANEL" —        │
+  │                         │ selects simulation target.               │
+  │                         │ Use: when tracing target selection.      │
   │                         │                                          │
   └─────────────────────────┴──────────────────────────────────────────┘
 
   3 AXES (coordinates):
 
-    Trục A — Target:    Self ←→ Close Other ←→ Far Other.
+    Axis A — Target:    Self ←→ Close Other ←→ Far Other.
                          Gradient ventral → dorsal mPFC.
 
-    Trục B — Time:      Past ← Present → Future (+ Counterfact.)
+    Axis B — Time:      Past ← Present → Future (+ Counterfactual)
 
-    Trục C — Operation: Observe ← Simulate → Evaluate/Construct.
+    Axis C — Operation: Observe ← Simulate → Evaluate/Construct.
 
 
-  NAMED APPLICATIONS = TỌA ĐỘ cụ thể trong 3D space:
+  NAMED APPLICATIONS = SPECIFIC COORDINATES in 3D space:
 
-    Self-Pattern-Modeling                  = (Other, Present, Simulate).
-    Self-Observation     = (Self, Present, Observe).
-    Imagine-Final        = (Self, Future, Simulate).
-    Memory recall        = (Self, Past, Observe).
-    Counterfactual       = (Self, Alt-Past, Simulate).
-    Empathy simulation   = (Other, Present, Observe+Simulate).
+    Self-Pattern-Modeling  = (Other, Present, Simulate).
+    Self-Observation       = (Self, Present, Observe).
+    Imagine-Final          = (Self, Future, Simulate).
+    Memory recall          = (Self, Past, Observe).
+    Counterfactual         = (Self, Alt-Past, Simulate).
+    Empathy simulation     = (Other, Present, Observe+Simulate).
 
-  ⚠️ Luyện 1 component = improve ALL applications (shared substrate).
-  ⚠️ Hỏng 1 component = degrade ALL applications (alexithymia = proof).
-  ⚠️ Named applications = POINTS — unnamed apps = equally real.
+  ⚠️ Training 1 component = improves ALL applications (shared substrate).
+  ⚠️ Damaging 1 component = degrades ALL applications (alexithymia = proof).
+  ⚠️ Named applications = POINTS — unnamed apps are equally real.
 
-  (Simulation-Engine.md v1.0 = SOURCE chi tiết.)
+  (Simulation-Engine.md v1.0 = SOURCE detail.)
 
 
   SELF-OBSERVATION GRADIENT (Self-Observation.md v1.0 §4):
 
-    Mức 0: Body-React           [NO PFC]          Hardware reflex
-    Mức 1: Body-Detect          [MINIMAL PFC]     "Có gì đó"
-    ─── RANH GIỚI: GAP giữa signal và response ───
-    Mức 2: Body-Recognize       [LOW-MID PFC]     "Tôi biết tôi đang X"
-    Mức 3: Body-Predict         [MIDDLE PFC]      "Chút nữa tôi sẽ Y"
-    Mức 4: Pattern-Observe      [MID-HIGH PFC]    "Tôi hay X khi Y"
-    Mức 5: Meta-Observe         [HIGH PFC]        "Tôi đang observe observation"
-    Mức 6: Calibrated-Observe   [HIGH+COMPILED]   "Observation này tin được không"
+    Level 0: Body-React           [NO PFC]          Hardware reflex
+    Level 1: Body-Detect          [MINIMAL PFC]     "Something is there"
+    ─── BOUNDARY: GAP between signal and response ───
+    Level 2: Body-Recognize       [LOW-MID PFC]     "I know I am X"
+    Level 3: Body-Predict         [MIDDLE PFC]      "Soon I will Y"
+    Level 4: Pattern-Observe      [MID-HIGH PFC]    "I often X when Y"
+    Level 5: Meta-Observe         [HIGH PFC]        "I am observing my observation"
+    Level 6: Calibrated-Observe   [HIGH+COMPILED]   "Can I trust this observation?"
 
-    Ranh giới Mức 1→2 = Self-Observation bắt đầu khi có KHOẢNG CÁCH
-    giữa signal và response (PFC encode state TÁCH BIỆT khỏi response).
-    Mức 2 = Self-Observation cơ bản nhất đúng nghĩa = Body-Knowing Inward.
+    Boundary Level 1→2 = Self-Observation begins when there is a GAP
+    between signal and response (PFC encodes state SEPARATELY from response).
+    Level 2 = most basic true Self-Observation = Body-Knowing Inward.
 ```
 
 ---
@@ -700,67 +725,72 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §10 — PFC COGNITIVE LABELS
 
 ```
-⭐ VOCABULARY CHO SPECIFIC PFC COGNITIVE OPERATIONS:
+⭐ VOCABULARY FOR SPECIFIC PFC COGNITIVE OPERATIONS:
 
   ┌─────────────────────────┬──────────────────────────────────────────┐
-  │ Label                   │ Nghĩa + khi nào dùng                    │
+  │ Label                   │ Meaning + when to use                    │
   ├─────────────────────────┼──────────────────────────────────────────┤
   │                         │                                          │
   │ PFC spotlight           │ Attention allocation. = VOLUME INCREASE  │
-  │ (= attention allocation)│ in target region, NOT command.           │
+  │ (= attention allocation)│ in target region, NOT a command.         │
   │                         │ Bottom-up (dopamine) or top-down (PFC).  │
-  │                         │ "Tăng volume, không ra lệnh tính toán." │
-  │                         │ Dùng: khi mô tả PFC chọn chú ý cái gì. │
+  │                         │ "Increases volume, does not command      │
+  │                         │  computation."                           │
+  │                         │ Use: when describing PFC selecting what  │
+  │                         │ to attend to.                            │
   │                         │ (PFC-Hardware.md, Neural-Processing-Flow)│
   │                         │                                          │
   │ PFC narrative           │ Post-hoc verbal explanation.             │
   │                         │ MAY confabulate (PFC = Lawyer).          │
-  │                         │ Body-need fire TRƯỚC → PFC justify SAU.  │
-  │                         │ = Feel-Explanation (Explained — lossy).   │
-  │                         │ Dùng: khi phân tích explanation ≠ cause. │
+  │                         │ Body-need fires FIRST → PFC justifies    │
+  │                         │ AFTER. = Feel-Explanation (Explained —   │
+  │                         │ lossy).                                  │
+  │                         │ Use: when analyzing explanation ≠ cause. │
   │                         │ (Logic-Feeling-Balance.md)               │
   │                         │                                          │
-  │ Labeling                │ PFC gán verbal chunk (word) cho body     │
-  │ (= verbal coding)       │ pattern. Fidelity GIẢM 40-80%.          │
-  │                         │ "Pleasant" = label CHO body-base reward — │
-  │                         │ lossy representation.                    │
-  │                         │ Dùng: khi phân tích PFC label ≠ body    │
+  │ Labeling                │ PFC assigns verbal chunk (word) to body  │
+  │ (= verbal coding)       │ pattern. Fidelity DECREASES 40-80%.      │
+  │                         │ "Pleasant" = label FOR body-base reward  │
+  │                         │ — lossy representation.                  │
+  │                         │ Use: when analyzing PFC label ≠ body     │
   │                         │ experience.                              │
   │                         │ (Feeling.md, Blackbox-Map.md)            │
   │                         │                                          │
-  │ PFC check               │ PFC verify output with domain reality.   │
+  │ PFC check               │ PFC verifies output with domain reality. │
   │ (= domain verification) │ = Quality Controller function (§2 ⑤).   │
-  │                         │ DUY NHẤT system kiểm tra domain.         │
+  │                         │ THE ONLY system that checks against      │
+  │                         │ domain.                                  │
   │                         │ Dual Check: body + domain = 2 layers.    │
-  │                         │ Dùng: khi mô tả verification process.   │
+  │                         │ Use: when describing verification        │
+  │                         │ process.                                 │
   │                         │ (Ask-AI v3.1)                            │
   │                         │                                          │
-  │ Working memory           │ PFC maintain chunks active.             │
+  │ Working memory          │ PFC maintains chunks active.             │
   │ compression             │ BEFORE compile: 5 separate slots needed. │
   │                         │ AFTER compile: 1 meta-chunk slot.        │
   │                         │ Expert: pyramidal stacking → more chunks │
-  │                         │ trong cùng ~4±1 slots.                   │
-  │                         │ Dùng: khi phân tích expertise ≠ IQ.      │
+  │                         │ in same ~4±1 slots.                      │
+  │                         │ Use: when analyzing expertise ≠ IQ.      │
   │                         │ (Neural-Processing-Flow.md)              │
   │                         │                                          │
   │ Somatic-Articulation    │ Recursive loop: body pattern → external  │
-  │ Loop (Somatic-Articulation-Loop)              │ articulation → body verify → refine.     │
+  │ Loop                    │ articulation → body verify → refine.     │
   │                         │ PFC seeks words to match body-known.     │
-  │                         │ AI catalyst CAN accelerate loop.         │
-  │                         │ Dùng: khi mô tả "biết mà chưa nói      │
-  │                         │ được" → articulation process.            │
+  │                         │ AI catalyst CAN accelerate the loop.     │
+  │                         │ Use: when describing "knows but cannot   │
+  │                         │ yet express" → articulation process.     │
   │                         │ (Somatic-Articulation-Loop.md)           │
   │                         │                                          │
   └─────────────────────────┴──────────────────────────────────────────┘
 
-  ⚠️ PFC spotlight ≠ attention (chung):
+  ⚠️ PFC spotlight ≠ attention (general):
      PFC spotlight = PFC's specific mechanism of amplification.
-     Attention (chung) = umbrella term bao gồm cả bottom-up + top-down.
+     Attention (general) = umbrella term covering both bottom-up + top-down.
 
   ⚠️ PFC narrative ≠ PFC check:
      Narrative = EXPLAIN (may confabulate — Lawyer function).
      Check = VERIFY (against domain — Quality Controller function).
-     Giải thích ≠ Kiểm tra. "Tại sao" ≠ "Đúng không."
+     Explaining ≠ Checking. "Why?" ≠ "Is it correct?"
 ```
 
 ---
@@ -768,56 +798,57 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §11 — PFC FAILURE MODES
 
 ```
-⭐ 5 FAILURE PATTERNS — LABEL ĐỂ NHẬN DIỆN:
+⭐ 5 FAILURE PATTERNS — LABELS FOR RECOGNITION:
 
   ┌─────────────────────────┬──────────────────────────────────────────┐
-  │ Failure Label           │ Nghĩa + khi nào dùng                    │
+  │ Failure Label           │ Meaning + when to use                    │
   ├─────────────────────────┼──────────────────────────────────────────┤
   │                         │                                          │
   │ ① Lawyer failure        │ PFC narrative ≠ body truth.              │
-  │   (confabulation)       │ PFC justify body-need bằng logic SAI.    │
-  │                         │ "Tôi buồn vì XYZ" → thật ra body mệt + │
-  │                         │ hungry + stressed → bất kỳ trigger nào   │
-  │                         │ cũng → PFC gắn nhãn sai.                │
-  │                         │ Dùng: khi explanation ≠ actual cause.    │
+  │   (confabulation)       │ PFC justifies body-need with WRONG logic.│
+  │                         │ "I'm sad because of XYZ" → actually body │
+  │                         │ is tired + hungry + stressed → any        │
+  │                         │ trigger → PFC mislabels.                 │
+  │                         │ Use: when explanation ≠ actual cause.    │
   │                         │                                          │
-  │ ② Philosopher trap      │ PFC imagine extensively nhưng NEVER      │
-  │                         │ check domain → confident but WRONG.      │
-  │                         │ "Nghĩ nhiều quá" mà không verify.        │
-  │                         │ Dùng: khi phân tích excessive reasoning  │
+  │ ② Philosopher trap      │ PFC imagines extensively but NEVER       │
+  │                         │ checks domain → confident but WRONG.     │
+  │                         │ "Overthinking" without verifying.        │
+  │                         │ Use: when analyzing excessive reasoning  │
   │                         │ without domain feedback.                 │
   │                         │ (Discovery-vs-Expansion.md)              │
   │                         │                                          │
   │ ③ Budget overload       │ PFC budget exceeded → quality DROPS      │
   │   (depletion)           │ ACROSS ALL activities.                   │
-  │                         │ "Mệt ở work → Self-Pattern-Modeling cho con yếu."         │
-  │                         │ KHÔNG phải "lazy" — PFC budget = finite. │
-  │                         │ Dùng: khi phân tích performance drop     │
+  │                         │ "Fatigue from work → weaker Self-Pattern-│
+  │                         │ Modeling with one's child."              │
+  │                         │ NOT "laziness" — PFC budget = finite.    │
+  │                         │ Use: when analyzing performance drop     │
   │                         │ after sustained PFC use.                 │
   │                         │                                          │
-  │ ④ Suppress escalation   │ Too many domains suppressed →            │
-  │   (→ learned            │ reward pathways THU HẸP → cortisol ↑ →  │
-  │    helplessness)        │ vmPFC structural damage → DRN regain →   │
+  │ ④ Suppress escalation   │ Too many domains suppressed → reward     │
+  │   (→ learned            │ pathways NARROW → cortisol ↑ →          │
+  │    helplessness)        │ vmPFC structural damage → DRN regains →  │
   │                         │ passive for EVERYTHING.                  │
-  │                         │ Compiled suppress = DOOR closed.          │
-  │                         │ Enough doors → room DARK.                │
-  │                         │ Dùng: khi trace từ local suppress →      │
+  │                         │ Compiled suppress = DOOR closed.         │
+  │                         │ Enough doors closed → room goes DARK.   │
+  │                         │ Use: when tracing from local suppress →  │
   │                         │ global helplessness.                     │
   │                         │ (PFC-Operations.md §8)                   │
   │                         │                                          │
-  │ ⑤ Cortisol disconnect   │ Chronic cortisol → NE α1 activate →     │
-  │   (PFC offline)         │ PFC DISCONNECT from body signals.         │
+  │ ⑤ Cortisol disconnect   │ Chronic cortisol → NE α1 activates →    │
+  │   (PFC offline)         │ PFC DISCONNECTS from body signals.       │
   │                         │ "Rage mode" / "freeze" / "numb."         │
   │                         │ PFC literally OFFLINE — not "weak will." │
-  │                         │ Dùng: khi PFC KHÔNG FUNCTION             │
+  │                         │ Use: when PFC IS NOT FUNCTIONING         │
   │                         │ (stress/trauma response).                │
   │                         │ (PFC-Hardware.md §6, Arnsten 2009)       │
   │                         │                                          │
   └─────────────────────────┴──────────────────────────────────────────┘
 
-  ⚠️ Failure modes = NHẬN DIỆN, không phải ĐỔ LỖI:
+  ⚠️ Failure modes = FOR RECOGNITION, not BLAME:
      "PFC failed" = structural/resource explanation, NOT moral judgment.
-     Understanding failure mode → target intervention correctly.
+     Understanding the failure mode → target intervention correctly.
 ```
 
 ---
@@ -825,62 +856,64 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §12 — OBSERVER vs MECHANISM LABELS
 
 > Logic-Feeling.md v2.1 = full treatment.
-> Body-Feedback-Label v2.0 §10 = cùng distinction phía body.
-> Section này = BRIEF reference.
+> Body-Feedback-Label v2.0 §10 = same distinction from the body side.
+> This section = BRIEF reference.
 
 ```
-⭐ "LOGIC/FEELING" vs "COMPILED/FRESH" — 2 TẦNG KHÁC NHAU:
+⭐ "LOGIC/FEELING" vs "COMPILED/FRESH" — 2 DISTINCT LAYERS:
 
   ┌──────────────────┬───────────────────────────────────────────────┐
-  │ Tầng             │ Labels + khi nào dùng                         │
+  │ Layer            │ Labels + when to use                          │
   ├──────────────────┼───────────────────────────────────────────────┤
   │ MECHANISM        │ Compiled / Fresh.                              │
-  │ (trục thật)      │ = Processing level BÊN TRONG body.            │
-  │                  │ Content (emotion/reasoning) KHÔNG quyết định. │
-  │                  │ COMPILATION LEVEL quyết định.                  │
-  │                  │ Dùng: MỌI deep analysis, research, mechanism  │
-  │                  │ files. BẮT BUỘC.                               │
+  │ (the real axis)  │ = Processing level INSIDE the body.           │
+  │                  │ Content (emotion/reasoning) does NOT           │
+  │                  │ determine it. COMPILATION LEVEL determines it. │
+  │                  │ Use: ALL deep analysis, research, mechanism   │
+  │                  │ files. REQUIRED.                               │
   ├──────────────────┼───────────────────────────────────────────────┤
   │ OBSERVATION      │ Logic / Feeling.                               │
-  │ (observer labels)│ = OBSERVER perspective — người ngoài nhìn vào.│
-  │                  │ "Logic" = compiled chunks SHAREABLE            │
-  │                  │   (deterministic: toán, vật lý).               │
+  │ (observer labels)│ = OBSERVER perspective — looking from outside.│
+  │                  │ "Logic" = compiled chunks that are SHAREABLE  │
+  │                  │   (deterministic: math, physics).              │
   │                  │ "Intuition"/"Feeling" = compiled chunks        │
   │                  │   NOT EASILY SHAREABLE                         │
-  │                  │   (probabilistic: tâm lý, inter-personal).    │
-  │                  │ BÊN TRONG: cơ chế GIỐNG HỆT. Khác:           │
-  │                  │ SHAREABILITY, không phải quality.              │
-  │                  │ Dùng: mô tả cho người ngoài. Overview files.  │
+  │                  │   (probabilistic: psychology, interpersonal).  │
+  │                  │ INTERNALLY: mechanism is IDENTICAL. Difference:│
+  │                  │ SHAREABILITY, not quality.                     │
+  │                  │ Use: describing to general audience.           │
+  │                  │ Overview files.                                │
   └──────────────────┴───────────────────────────────────────────────┘
 
 
-  QUY TẮC SỬ DỤNG:
+  USAGE RULES:
 
   ┌────────────────────────────┬───────────────────────────────────────┐
-  │ Context                    │ Label phù hợp                         │
+  │ Context                    │ Appropriate label                     │
   ├────────────────────────────┼───────────────────────────────────────┤
-  │ Phân tích mechanism:       │ Compiled / Fresh (ĐÚNG)               │
-  │ Research / deep analysis:  │ Compiled / Fresh (BẮT BUỘC)           │
-  │ Mô tả cho người thường:   │ Logic / Feeling (OK, approximate)     │
-  │ Observation parameter file:│ Logic-Feeling (tên file, convention)  │
-  │ Nói chung "con người":    │ PFC = Lawyer + Learning Trajectory    │
-  │                            │ = PFC serve body-base, learning →     │
-  │                            │   Body-Knowing (compiled body-direct)  │
+  │ Mechanism analysis:        │ Compiled / Fresh (CORRECT)            │
+  │ Research / deep analysis:  │ Compiled / Fresh (REQUIRED)           │
+  │ Describing to general      │ Logic / Feeling (OK, approximate)     │
+  │ audience:                  │                                       │
+  │ Observation parameter file:│ Logic-Feeling (filename, convention)  │
+  │ Talking about humans in    │ PFC = Lawyer + Learning Trajectory    │
+  │ general:                   │ = PFC serves body-base, learning →    │
+  │                            │   Body-Knowing (compiled body-direct) │
   └────────────────────────────┴───────────────────────────────────────┘
 
-  ⚠️ KHÔNG NÓI "feeling phản đối logic":
-    → NÓI "compiled pattern conflict với fresh processing"
-    → Vì BÊN TRONG không có "feeling" vs "logic" — chỉ có compilation levels.
+  ⚠️ Do NOT say "feeling opposes logic":
+    → Say "compiled pattern conflicts with fresh processing"
+    → Because INTERNALLY there is no "feeling" vs "logic" — only compilation levels.
 
-  ⚠️ "Trực giác" = compiled processing (CẢ toán CẢ cảm xúc):
-    Chef biết thiếu muối = trực giác = COMPILED (not "feeling only")
-    Einstein "thấy" lời giải = trực giác = COMPILED (not "logic only")
+  ⚠️ "Intuition" = compiled processing (BOTH math AND emotion):
+    A chef knowing salt is missing = intuition = COMPILED (not "feeling only")
+    An expert mathematician "seeing" the solution = intuition = COMPILED (not "logic only")
 
-  ⚠️ RETIRED: "Con người 100% feeling ở tầng nền" — terminology collision
+  ⚠️ RETIRED: "Humans are 100% feeling at the foundational layer" — terminology collision
     (Logic-Feeling.md v4.0 §4.3: RETIRED. PFC = Lawyer + Learning Trajectory = same insight,
-     mechanism-level, không dùng từ collision-prone "feeling")
+     mechanism-level, without the collision-prone word "feeling")
 
-  (Logic-Feeling.md v4.0 = SOURCE. Body-Feedback-Label §10 = CÙNG distinction.)
+  (Logic-Feeling.md v4.0 = SOURCE. Body-Feedback-Label §10 = SAME distinction.)
 ```
 
 ---
@@ -891,48 +924,52 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ TERMS TO DEPRECATE + REPLACEMENTS:
 
   ┌─────────────────────┬─────────────────────┬──────────────────────────┐
-  │ DEPRECATED          │ THAY THẾ            │ LÝ DO                    │
+  │ DEPRECATED          │ REPLACEMENT         │ REASON                   │
   ├─────────────────────┼─────────────────────┼──────────────────────────┤
   │                     │                     │                          │
-  │ "PFC-Fresh"         │ "Fresh processing"  │ Redundant. Fresh ĐÃ      │
-  │                     │ hoặc "Fresh"        │ implies PFC involvement. │
-  │                     │                     │ "PFC-Fresh" = nói 2 lần. │
+  │ "PFC-Fresh"         │ "Fresh processing"  │ Redundant. Fresh ALREADY │
+  │                     │ or "Fresh"          │ implies PFC involvement. │
+  │                     │                     │ "PFC-Fresh" = saying it  │
+  │                     │                     │ twice.                   │
   │                     │                     │                          │
-  │ "draft" (standalone │ STATE: "Fresh       │ "draft" mơ hồ — state?  │
-  │  noun)              │  processing"        │ action? output?          │
-  │                     │ ACTION: "HOLD" hoặc │ Trộn 3 levels.           │
-  │                     │  "PFC HOLD"         │ Dùng "draft" CHỈ KHI     │
-  │                     │ SPECIFIC: "PFC draft│ là VERB + object:        │
+  │ "draft" (standalone │ STATE: "Fresh       │ "draft" is ambiguous —  │
+  │  noun)              │  processing"        │ state? action? output?   │
+  │                     │ ACTION: "HOLD" or   │ Mixes 3 levels.          │
+  │                     │  "PFC HOLD"         │ Use "draft" ONLY when    │
+  │                     │ SPECIFIC: "PFC draft│ it is a VERB + object:   │
   │                     │  novel path"        │ "PFC draft novel path."  │
   │                     │                     │                          │
-  │ "thinking" (as      │ "Fresh processing"  │ "Thinking" mơ hồ —      │
-  │  mechanism label)   │                     │ cả compiled intuition    │
-  │                     │                     │ cũng "thinking" theo     │
-  │                     │                     │ nghĩa rộng.             │
+  │ "thinking" (as      │ "Fresh processing"  │ "Thinking" is ambiguous  │
+  │  mechanism label)   │                     │ — compiled intuition is  │
+  │                     │                     │ also "thinking" in the   │
+  │                     │                     │ broad sense.             │
   │                     │                     │                          │
-  │ "willpower"         │ "PFC budget" hoặc   │ "Willpower" implies      │
+  │ "willpower"         │ "PFC budget" or     │ "Willpower" implies      │
   │                     │ "SUPPRESS capacity" │ moral quality.           │
   │                     │                     │ PFC budget = structural  │
   │                     │                     │ resource, not virtue.    │
   │                     │                     │                          │
-  │ "self-control"      │ "Active SUPPRESS"   │ Specify: active vs       │
-  │ (without specifying │ hoặc "Compiled      │ compiled suppress.       │
-  │  which type)        │  SUPPRESS"          │ Khác mechanism, khác     │
-  │                     │                     │ cost, khác sustainability.│
+  │ "self-control"      │ "Active SUPPRESS"   │ Specify: active versus   │
+  │ (without specifying │ or "Compiled        │ compiled suppress.       │
+  │  which type)        │  SUPPRESS"          │ Different mechanism,     │
+  │                     │                     │ different cost, different│
+  │                     │                     │ sustainability.          │
   │                     │                     │                          │
-  │ "PFC controls       │ "PFC biases/directs"│ PFC KHÔNG control body.  │
-  │  body"              │                     │ PFC bias direction.      │
-  │                     │                     │ ~95% tự động.            │
+  │ "PFC controls       │ "PFC biases/directs"│ PFC does NOT control     │
+  │  body"              │                     │ the body. PFC biases     │
+  │                     │                     │ direction.               │
+  │                     │                     │ ~95% is automatic.       │
   │                     │                     │                          │
-  │ "conscious          │ "Deliberate" hoặc   │ "Conscious" misleading — │
-  │  processing"        │ "Fresh processing"  │ compiled CAN also be     │
-  │                     │                     │ "conscious" (aware of    │
-  │                     │                     │ compiled output).        │
+  │ "conscious          │ "Deliberate" or     │ "Conscious" is           │
+  │  processing"        │ "Fresh processing"  │ misleading — compiled    │
+  │                     │                     │ CAN also be "conscious"  │
+  │                     │                     │ (aware of compiled       │
+  │                     │                     │ output).                 │
   │                     │                     │                          │
   └─────────────────────┴─────────────────────┴──────────────────────────┘
 
 
-  ⭐ STANDARDIZED TERMS (DÙNG NHẤT QUÁN):
+  ⭐ STANDARDIZED TERMS (USE CONSISTENTLY):
 
   ┌────────────────────────────┬─────────────────────────────────────────┐
   │ Concept                    │ STANDARD LABEL                          │
@@ -954,7 +991,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Shared substrate:          │ "Simulation-Engine"                      │
   │ Compile quality:           │ "Genuine/Schema/Threat-compiled"         │
   │ Observer-level labels:     │ "Logic/Feeling" (with disclaimer)        │
-  │ Mechanism-level labels:    │ "Compiled/Fresh" (BẮT BUỘC for analysis)│
+  │ Mechanism-level labels:    │ "Compiled/Fresh" (REQUIRED for analysis) │
   └────────────────────────────┴─────────────────────────────────────────┘
 ```
 
@@ -963,60 +1000,61 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §14 — USAGE RULES
 
 ```
-⭐ QUY TẮC TỔNG HỢP:
+⭐ SUMMARY RULES:
 
-  ① DÙNG ĐÚNG LEVEL:
-     State → "Fresh" / "Compiled" (vị trí trên spectrum)
-     Operation → "HOLD" / "SUPPRESS" (hành động PFC thực hiện)
-     Sub-operation → "PFC draft novel path" (verb + object cụ thể)
-     Role → "Observer" / "Lawyer" / "Director" / etc. (tùy context)
-     ✗ KHÔNG trộn: "PFC-Fresh operation" (trộn state + operation)
+  ① USE THE CORRECT LEVEL:
+     State → "Fresh" / "Compiled" (position on spectrum)
+     Operation → "HOLD" / "SUPPRESS" (action PFC performs)
+     Sub-operation → "PFC draft novel path" (specific verb + object)
+     Role → "Observer" / "Lawyer" / "Director" / etc. (depending on context)
+     ✗ Do NOT mix: "PFC-Fresh operation" (mixes state + operation)
 
-  ② COMPILED/FRESH CHO MECHANISM, LOGIC/FEELING CHO OBSERVATION:
-     Deep analysis: "compiled conflict fresh" (ĐÚNG)
-     ✗ "feeling phản đối logic" (SAI ở mechanism level)
-     Overview/mô tả: "Logic vs Feeling" (OK, approximate)
+  ② COMPILED/FRESH FOR MECHANISM, LOGIC/FEELING FOR OBSERVATION:
+     Deep analysis: "compiled conflicts with fresh" (CORRECT)
+     ✗ "feeling opposes logic" (WRONG at mechanism level)
+     Overview/description: "Logic vs Feeling" (OK, approximate)
 
-  ③ CỤ THỂ COST SOURCE:
-     ✗ "PFC mệt" (quá chung — mệt vì gì?)
-     ✓ "① PFC draft cost cao vì learning mới"
-     ✓ "② Suppress cost vì phải kìm nén"
-     ✓ "① + ② double cost vì thay đổi thói quen"
+  ③ SPECIFIC COST SOURCE:
+     ✗ "PFC is drained" (too general — drained from what?)
+     ✓ "① PFC draft cost is high due to novel learning"
+     ✓ "② Suppress cost because suppressing a response"
+     ✓ "① + ② double cost because changing a habit"
 
   ④ SPECIFY SUPPRESS TYPE:
-     ✗ "đang suppress" (active hay compiled?)
-     ✓ "Active suppress — PFC đang actively block"
-     ✓ "Compiled suppress — đã compile thành meta-pattern"
+     ✗ "suppressing" (active or compiled?)
+     ✓ "Active suppress — PFC is actively blocking"
+     ✓ "Compiled suppress — compiled into meta-pattern"
 
   ⑤ PFC BUDGET TRADE-OFF:
-     Khi phân tích "tại sao performance giảm":
-     → Check: PFC budget đã dùng cho gì trước đó?
-     → "Mệt ở work → Self-Pattern-Modeling cho con yếu" = ④ Universal Resource
+     When analyzing "why did performance drop":
+     → Check: what was PFC budget already spent on before?
+     → "Fatigue from work → weaker Self-Pattern-Modeling with child"
+     = ④ Universal Resource
 
-  ⑥ ĐỪNG ĐỔ LỖI — GIẢI THÍCH MECHANISM:
-     ✗ "Không có ý chí" (moral judgment)
-     ✓ "PFC budget depleted" hoặc "② suppress cost unsustainable"
+  ⑥ DO NOT BLAME — EXPLAIN THE MECHANISM:
+     ✗ "No willpower" (moral judgment)
+     ✓ "PFC budget depleted" or "② suppress cost unsustainable"
      ✗ "Lazy"
-     ✓ "Compiled suppress → reward pathways thu hẹp → flat affect"
+     ✓ "Compiled suppress → reward pathways narrowed → flat affect"
 
-  ⑦ REGION LABELS CHỈ KHI CẦN:
-     Hầu hết cases → dùng Tier 2 (HOLD/SUPPRESS/PFC budget)
-     Region (dlPFC/rIFG) → chỉ khi citation/anatomy/damage analysis
+  ⑦ REGION LABELS ONLY WHEN NEEDED:
+     Most cases → use Tier 2 (HOLD/SUPPRESS/PFC budget)
+     Region (dlPFC/rIFG) → only for citation/anatomy/damage analysis
 
-  ⑧ ROLE LABEL TÙY CONTEXT:
-     Mô tả observation → PFC = Observer
-     Phân tích narrative bias → PFC = Lawyer
-     Giải thích mechanism → PFC = Director
+  ⑧ ROLE LABEL BY CONTEXT:
+     Describing observation → PFC = Observer
+     Analyzing narrative bias → PFC = Lawyer
+     Explaining mechanism → PFC = Director
      Budget trade-off → PFC = Universal Resource
      Verification → PFC = Quality Controller
-     ĐỪNG dùng cùng lúc nhiều roles (confusing) — chọn 1 phù hợp nhất.
+     Do NOT use multiple roles simultaneously (confusing) — choose the best fit.
 
-  ⑨ RELATIONSHIP VỚI BODY-FEEDBACK-LABEL:
-     Body-Feedback-Label §8 đã cover Compiled/Fresh processing labels.
-     Body-Feedback-Label §9C đã cover 3-cost labels.
-     → File này BỔ SUNG: operations, roles, regions, hardware, failure modes.
-     → KHÔNG lặp content — cross-reference.
-     → 2 files cùng dùng → nhất quán vocabulary.
+  ⑨ RELATIONSHIP WITH BODY-FEEDBACK-LABEL:
+     Body-Feedback-Label §8 already covers Compiled/Fresh processing labels.
+     Body-Feedback-Label §9C already covers 3-cost labels.
+     → This file SUPPLEMENTS: operations, roles, regions, hardware, failure modes.
+     → Do NOT duplicate content — cross-reference.
+     → Both files together → consistent vocabulary.
 ```
 
 ---
@@ -1026,33 +1064,34 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 WHAT THIS FILE DOES WELL:
 
-  ✓ Formalize 78+ files' PFC vocabulary thành 1 reference
-  ✓ 3-tier system consistent với Body-Feedback-Label v2.0
-  ✓ 4 vocabulary levels (Role/State/Operation/Sub-operation) phân biệt rõ
-  ✓ 5 PFC roles với context rules
-  ✓ Deprecated terms với replacements cụ thể
-  ✓ Cross-ref strategy: BỔ SUNG, không lặp PFC-Operations / Simulation-Engine / Body-Feedback-Label
+  ✓ Formalizes PFC vocabulary from 78+ files into 1 reference
+  ✓ 3-tier system consistent with Body-Feedback-Label v2.0
+  ✓ 4 vocabulary levels (Role/State/Operation/Sub-operation) clearly distinguished
+  ✓ 5 PFC roles with context rules
+  ✓ Deprecated terms with specific replacements
+  ✓ Cross-ref strategy: SUPPLEMENTS, does not duplicate PFC-Operations /
+    Simulation-Engine / Body-Feedback-Label
 
 
 WHAT REMAINS UNCERTAIN:
 
-  ? Region-to-function mapping có thể KHÔNG 1:1 — framework simplifies.
-    Neuroscience vẫn đang refine các mapping này.
+  ? Region-to-function mapping may NOT be 1:1 — framework simplifies.
+    Neuroscience continues refining these mappings.
 
-  ? "~4±1 slots" — số chính xác đang được debate.
-    Framework dùng như approximate guide, không phải absolute.
+  ? "~4±1 slots" — exact number still debated.
+    Framework uses as approximate guide, not absolute.
 
   ❌ Ego depletion glucose model — FALSIFIED (Hagger 2016: d=0.04, Dang 2021).
-    Framework dùng "processing load" (serial bottleneck + catecholamine + allocation).
-    Chi tiết: PFC-Operations.md v1.3 §8.3.
+    Framework uses "processing load" (serial bottleneck + catecholamine + allocation).
+    Details: PFC-Operations.md v1.3 §8.3.
 
   ? PFC narrative confabulation — extent varies by individual.
-    Framework dùng "PFC = Lawyer" như tendency, không phải 100% confab.
+    Framework uses "PFC = Lawyer" as a tendency, not 100% confabulation.
 
 
 WHAT THIS FILE DOES NOT COVER:
 
-  ✗ Mechanism chi tiết (→ PFC-Operations.md v1.0)
+  ✗ Mechanism detail (→ PFC-Operations.md v1.0)
   ✗ Simulation-Engine architecture (→ Simulation-Engine.md v1.0)
   ✗ Compiled/Fresh full spectrum (→ Logic-Feeling.md v2.1)
   ✗ Body-feedback vocabulary (→ Body-Feedback-Label v2.0)
@@ -1070,10 +1109,11 @@ WHAT THIS FILE DOES NOT COVER:
   │ File                             │ Connection                           │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Body-Feedback-Label v2.1         │ COMPANION. §8 Compiled/Fresh labels. │
-  │                                  │ §9C 3-cost labels. File này BỔ SUNG. │
+  │                                  │ §9C 3-cost labels. This file         │
+  │                                  │ SUPPLEMENTS.                         │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Dissonance-Signal-Arch. v1.0     │ §7.2 PFC Operations × 2 dissonance  │
-  │                                  │ types. SOURCE cho §4 table mới.      │
+  │                                  │ types. SOURCE for §4 new table.      │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ PFC-Operations.md v1.0           │ SOURCE: §2-§4 Hold/Suppress, §5     │
   │                                  │ Quality, §8 Compiled Suppress, §9   │
@@ -1087,42 +1127,47 @@ WHAT THIS FILE DOES NOT COVER:
   │                                  │ treatment. Observer labels. SOURCE.  │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ PFC-Function.md v1.2             │ 24 functions, 5 categories.         │
-  │                                  │ SOURCE cho "WHAT PFC does."         │
+  │                                  │ SOURCE for "WHAT PFC does."         │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ PFC-Hardware.md v1.1             │ COMT, DRD4, NE, capacity/quality.   │
-  │                                  │ SOURCE cho §8 hardware labels.      │
+  │                                  │ SOURCE for §8 hardware labels.      │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ PFC-Hold-Dimensions.md           │ ~4±1 slots. Interference limit.     │
-  │                                  │ SOURCE cho "PFC slots" label.       │
+  │                                  │ SOURCE for "PFC slots" label.       │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ PFC-Development.md               │ PFC lifetime trajectory. Training.  │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Ask-AI.md v3.1                   │ Dual Check: body = quality controller, domain =    │
-  │                                  │ final arbiter. SOURCE cho §2 ⑤.    │
+  │ Ask-AI.md v3.1                   │ Dual Check: body = quality           │
+  │                                  │ controller, domain = final arbiter. │
+  │                                  │ SOURCE for §2 ⑤.                   │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Feeling.md v3.0                  │ PFC observation of body-feedback.   │
-  │                                  │ 7-layer gradient. Feel-Explanation = lossy.  │
+  │                                  │ 7-layer gradient.                   │
+  │                                  │ Feel-Explanation = lossy.           │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Neural-Processing-Flow.md        │ PFC = Director/Orchestrator.        │
   │                                  │ Working memory compression.         │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Somatic-Articulation-Loop.md     │ Somatic-Articulation-Loop: body → articulate → verify.   │
+  │ Somatic-Articulation-Loop.md     │ Somatic-Articulation-Loop:          │
+  │                                  │ body → articulate → verify.         │
   │                                  │ PFC seeks words for body-known.     │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Autonomy-Hardware.md v1.1        │ vmPFC / DRN. Controllability.       │
   │                                  │ Compiled suppress → helplessness.   │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Cortisol-Baseline.md v2.1        │ Cortisol × PFC damage. NE α1.      │
-  │                                  │ SOURCE cho §11 failure ⑤.          │
+  │                                  │ SOURCE for §11 failure ⑤.          │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Logic-Feeling-Balance.md         │ PFC = Lawyer. Domain = final arbiter│
-  │                                  │ Meta-principle: neither 100%.       │
+  │ Logic-Feeling-Balance.md         │ PFC = Lawyer. Domain = final        │
+  │                                  │ arbiter. Meta-principle: neither    │
+  │                                  │ 100%.                               │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Discovery-vs-Expansion.md        │ Philosopher trap. PFC imagine       │
+  │ Discovery-vs-Expansion.md        │ Philosopher trap. PFC imagines      │
   │                                  │ without domain check.               │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Self-Pattern-Modeling.md v3.1    │ APPLICATION-1 on Simulation-Engine. │
-  │                                  │ Self-Pattern-Modeling = (Other, Present, Simulate).   │
+  │                                  │ Self-Pattern-Modeling =             │
+  │                                  │ (Other, Present, Simulate).         │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Imagine-Final.md v3.0            │ APPLICATION-2 on Simulation-Engine. │
   │                                  │ Imagine-Final = (Self, Future,      │
@@ -1146,7 +1191,7 @@ WHAT THIS FILE DOES NOT COVER:
   │ R6 │ Evans & Stanovich 2013 — Dual Process Theory  │ §3      │ 🟢      │
   │ R7 │ Klein 1998 — Naturalistic Decision Making     │ §3      │ 🟢      │
   │ R8 │ Gailliot & Baumeister 2007 — Glucose Depletion│ §10 (hist.)│ ❌ FALSIFIED │
-  │ R9 │ Hagger et al. 2016 — Ego Depletion FAILED   │ §10     │ 🟢      │
+  │ R9 │ Hagger et al. 2016 — Ego Depletion FAILED    │ §10     │ 🟢      │
   │ R10│ Maier & Seligman 2016 — Controllability       │ §7, §11 │ 🟢      │
   │ R11│ McEwen 2007 — Cortisol vmPFC Damage           │ §7, §11 │ 🟢      │
   │ R12│ Arnsten 2009 — PFC NE α1 Disconnect           │ §8, §11 │ 🟢      │
@@ -1173,8 +1218,8 @@ WHAT THIS FILE DOES NOT COVER:
 > *Companion to Body-Feedback-Label v2.0.*
 >
 > *§2 Roles: Observer / Lawyer / Director / Universal Resource / Quality Controller.*
-> *§3 Spectrum: Compiled ←→ Fresh (TRỤC THẬT, not Logic/Feeling).*
-> *§4 Operations: HOLD (amplify) / SUPPRESS (block) — 4 tổ hợp, 3 outcomes.*
+> *§3 Spectrum: Compiled ←→ Fresh (the real axis, not Logic/Feeling).*
+> *§4 Operations: HOLD (amplify) / SUPPRESS (block) — 4 combinations, 3 outcomes.*
 > *§5 Cost: ① PFC draft + ② Suppress + ③ Uncertainty. Budget = finite, shared.*
 > *§6 Quality: Genuine / Schema / Threat — compile-time lock.*
 > *§7-§8 Regions + Hardware: dlPFC, vlPFC, vmPFC, mPFC, COMT, DRD4.*
@@ -1182,4 +1227,4 @@ WHAT THIS FILE DOES NOT COVER:
 > *§10-§11 Cognitive ops + Failure modes.*
 > *§12 Observer vs Mechanism: Logic/Feeling ≠ Compiled/Fresh.*
 > *§13 Deprecated: "PFC-Fresh", "draft" standalone, "willpower", "self-control" unspecified.*
-> *§14 Rules: đúng level, đúng context, đừng đổ lỗi — giải thích mechanism.*
+> *§14 Rules: correct level, correct context, don't blame — explain the mechanism.*

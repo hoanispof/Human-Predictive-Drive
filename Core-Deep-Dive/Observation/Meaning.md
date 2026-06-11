@@ -1,4 +1,4 @@
-﻿---
+---
 title: Meaning — Observation Parameter
 version: 2.2
 created: 2026-04-20
@@ -6,53 +6,53 @@ updated: 2026-05-17
 refined: 2026-05-23 (v2.2 — Concept Cascade: +Bond-Architecture, +Resonance-Sustainability, +Resonance-Per-Entity. Updated versions + cross-refs)
 status: OBSERVATION PARAMETER v2.2
 scope: |
-  OBSERVATION FILE: Meaning = named pattern khi quan sát trạng thái
-  CÓ hoặc THIẾU life-level Anchor-Schema ổn định.
-  v1.0 định nghĩa "schema coherence at high chunk density" — mô tả OUTPUT.
-  v2.0 REFRAME: chỉ ra MECHANISM — meaning = có life-level Anchor-Schema
-  mà body đã ACCEPT làm sync point cho toàn hệ thống.
-  "Vô nghĩa" = thiếu life-level anchor → chunks fragmentary vì
-  KHÔNG CÓ GÌ để organize quanh.
-  File này mô tả: definition (anchor-based), trigger mechanism
+  OBSERVATION FILE: Meaning = named pattern when observing the state
+  OF HAVING or LACKING a stable life-level Anchor-Schema.
+  v1.0 defined "schema coherence at high chunk density" — described OUTPUT.
+  v2.0 REFRAME: identifies MECHANISM — meaning = having a life-level Anchor-Schema
+  that the body has ACCEPTED as the sync point for the whole system.
+  "Meaninglessness" = lacking a life-level anchor → chunks fragmentary because
+  THERE IS NOTHING to organize around.
+  This file describes: definition (anchor-based), trigger mechanism
   (anchor absent/exhausted/disrupted), 5 types of life-level anchor,
   sources (map Anchor-Schema §3), Frankl reframe, cases, differential.
 purpose: |
-  Core v7.8 §8 define Meaning ngắn gọn ("Schema coherence pattern
+  Core v7.8 §8 defines Meaning briefly ("Schema coherence pattern
   at high chunk density. Frankl found meaning in camp = schema reframe,
   body-inputs unchanged.").
-  v1.0 deep-dive MÔ TẢ pattern nhưng KHÔNG CHỈ RA mechanism.
-  v2.0 deep-dive CHỈ RA: meaning = life-level Anchor-Schema.
-  "Coherence" = KẾT QUẢ khi có anchor tốt, KHÔNG PHẢI định nghĩa.
-  Dùng cho người cần hiểu chi tiết + can thiệp.
+  v1.0 deep-dive DESCRIBED the pattern but DID NOT IDENTIFY the mechanism.
+  v2.0 deep-dive IDENTIFIES: meaning = life-level Anchor-Schema.
+  "Coherence" = RESULT when anchor is good, NOT the definition.
+  For those who need detailed understanding + intervention.
 position: |
-  Core-Deep-Dive/Observation/ — ngang hàng Novelty.md, Threat.md, Status.md,
+  Core-Deep-Dive/Observation/ — alongside Novelty.md, Threat.md, Status.md,
   Connection.md, Drive.md, Boredom.md, Empathy.md, Protect.md, Gratitude.md.
-  Tất cả = observation parameter deep-dives.
+  All = observation parameter deep-dives.
 sources_backup: |
   v1.0 (2026-04-20, 1,236L) → backup/Meaning-v1.0-backup.md
-  v1.0 defined "schema coherence" — đúng nhưng mô tả output.
+  v1.0 defined "schema coherence" — correct but described output.
   v2.0 reframe: anchor-schema mechanism.
   v2.1 KEY CHANGES (2026-05-17):
-    ⑪ +Compilable Architecture alignment: meaning = emergent observation khi
-       general-purpose system compile life-level patterns đủ sâu
+    ⑪ +Compilable Architecture alignment: meaning = emergent observation when
+       general-purpose system compiles life-level patterns deep enough
     ⑫ +Domain=Arbiter: meaning CAN BE WRONG (cult deep meaning, wrong anchor)
     ⑬ Version refs updated (Connection v4.0, Empathy v3.0, Boredom v1.1)
     ⑭ +Inter-Body-Mechanism v1.0, +Body-Feedback-Label v2.0 cross-refs
-language: Tiếng Việt primary + English technical terms
+language: English primary + Vietnamese cultural terms preserved
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 dependencies:
   - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
-  - Anchor-Schema.md — §0 phân biệt, §1 sync mechanism, §2 Trust, §3 4 nguồn fill
+  - Anchor-Schema.md — §0 distinction, §1 sync mechanism, §2 Trust, §3 4 fill sources
   - Imagine-Final.md — 3-layer hierarchy, lifecycle 5 phases, reference pattern
-  - Boredom.md v2.0 — Loại 3 TRỐNG = gateway tới meaning question, by-product match dừng
+  - Boredom.md v2.0 — Type 3 EMPTY = gateway to meaning question, by-product match stops
   - Drive.md v1.2 — Drive-PFC-Spinning, Signal Strength Model
-  - Status.md v2.1 — "Thành công nhưng emptiness"
+  - Status.md v2.1 — "Success but emptiness"
   - Cortisol-Baseline.md v2.0 — inertia, burnout, direction gate
   - Protect.md v1.1 — identity protect (§3.4), existential crisis
   - Gratitude.md v2.0 — Q4: Meaning × Gratitude interaction
   - Connection.md v5.0 — shared anchors, co-regulation, 4-Layer Sustainability
   - Agent-Mechanism.md v2.1 §12 — body-need feeder, Self-Pattern-Modeling, 10 dimensions
-  - Collective-Purpose.md — cosmic loop, "sống có ý nghĩa" reframe
+  - Collective-Purpose.md — cosmic loop, "living meaningfully" reframe
   - Inter-Body-Mechanism.md v1.0 — Compilable Architecture §1.2
   - Body-Feedback-Label.md v2.0 — vocabulary consistency
   - Chunk/Agent-Mechanism/Bond-Architecture.md v2.0 — meaning through 4 bond types
@@ -62,76 +62,78 @@ dependencies:
 
 # Meaning — Observation Parameter
 
-> Một người trong trại tập trung. Đói, lạnh, bị đánh.
-> Body-inputs = TERRIBLE. Nhưng anh ta nói: "Tôi sẽ sống để KỂ LẠI."
-> Câu đó = 1 Anchor-Schema. Toàn bộ hệ thống SYNC theo nó.
-> Và anh ta sống sót.
+> A person in a concentration camp. Starving, freezing, being beaten.
+> Body-inputs = TERRIBLE. But he says: "I will survive to TELL THE WORLD."
+> That sentence = 1 Anchor-Schema. The entire system SYNCS around it.
+> And he survives.
 >
-> Người bên cạnh, cùng điều kiện. Không có anchor.
-> Dàn nhạc vô thức chơi hỗn loạn. Cacophony. Và chết.
+> The person beside him, same conditions. No anchor.
+> The unconscious orchestra plays in chaos. Cacophony. And he dies.
 >
-> Body-inputs GIỐNG NHAU. Anchor KHÁC NHAU. Outcome KHÁC NHAU.
+> Body-inputs IDENTICAL. Anchors DIFFERENT. Outcomes DIFFERENT.
 >
-> "Ý nghĩa cuộc đời là gì?" — câu hỏi hàng triệu người hỏi.
-> Self-help nói: "Tìm mục đích!" — implies có 1 object đâu đó.
-> v1.0 nói: "Schema coherence!" — đúng nhưng bóc tách không nổi.
+> "What is the meaning of life?" — a question millions ask.
+> Self-help says: "Find your purpose!" — implies there's an object out there somewhere.
+> v1.0 says: "Schema coherence!" — correct but cannot be unpacked.
 >
-> v2.0 nói: "Meaning = bạn CÓ life-level Anchor-Schema ổn định không?"
+> v2.0 says: "Meaning = do you HAVE a stable life-level Anchor-Schema?"
 >
-> Có anchor → chunks tự organize quanh nó → coherent → "có ý nghĩa"
-> Thiếu anchor → chunks fragmentary → không có gì organize quanh → "vô nghĩa"
+> Have anchor → chunks organize themselves around it → coherent → "meaningful"
+> Lack anchor → chunks fragmentary → nothing to organize around → "meaningless"
 >
-> "Coherence" là KẾT QUẢ. Anchor-Schema là NGUYÊN NHÂN.
-> Giống: "dàn nhạc hòa" (coherence) VÌ "có nhạc trưởng chọn đúng bài" (anchor).
+> "Coherence" is the RESULT. Anchor-Schema is the CAUSE.
+> Like: "orchestra in harmony" (coherence) BECAUSE "conductor chose the right piece" (anchor).
 >
-> File này: meaning LÀ GÌ (life-level Anchor-Schema),
-> KHI NÀO meaning question xuất hiện (anchor absent/exhausted/disrupted),
-> TẠI SAO mỗi người meaning KHÁC (5 types anchor, 4 sources),
-> và Frankl đã cho thấy: cùng body-inputs, khác anchor, khác outcome.
+> This file: what meaning IS (life-level Anchor-Schema),
+> WHEN the meaning question arises (anchor absent/exhausted/disrupted),
+> WHY meaning differs per person (5 anchor types, 4 sources),
+> and Frankl showed: same body-inputs, different anchors, different outcomes.
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — MEANING LÀ OBSERVATION PARAMETER
+- §0 — MEANING AS OBSERVATION PARAMETER
 - §1 — DEFINITION: MEANING = LIFE-LEVEL ANCHOR-SCHEMA
   - §1.1 — What Meaning IS
+  - §1.1b — Domain=Arbiter: Meaning CAN BE WRONG
   - §1.2 — What Meaning Question IS
   - §1.3 — "Coherence" = RESULT, Not Definition
   - §1.4 — Meaning ≠ Happiness (independent dimensions)
-- §2 — TRIGGER: KHI NÀO MEANING QUESTION XUẤT HIỆN
-  - §2.1 — Anchor ABSENT (chưa bao giờ build)
-  - §2.2 — Anchor EXHAUSTED (đạt rồi → void)
-  - §2.3 — Anchor DISRUPTED (crisis phá anchor)
+- §2 — TRIGGER: WHEN THE MEANING QUESTION ARISES
+  - §2.1 — Anchor ABSENT (never built)
+  - §2.2 — Anchor EXHAUSTED (achieved → void)
+  - §2.3 — Anchor DISRUPTED (crisis destroys anchor)
   - §2.4 — Age Gradient: Medium Anchors → Life-Level Search
-  - §2.5 — Brain Optimization: Xu Hướng Tìm Anchor Ổn Định
+  - §2.5 — Brain Optimization: Tendency Toward Stable Anchor
 - §3 — 5 TYPES OF LIFE-LEVEL ANCHOR
-  - §3.1 — GOAL Type: "Xây dựng thứ vĩ đại"
-  - §3.2 — STATE Type: "An lạc trong tâm hồn"
-  - §3.3 — IDENTITY Type: "Tôi là người cha/mẹ tốt"
-  - §3.4 — FAITH Type: "Chúa có kế hoạch"
-  - §3.5 — ROLE Type: "Công việc tôi quan trọng"
-  - §3.6 — Tại Sao Meaning Mỗi Người KHÁC
-- §4 — SOURCES: 4 NGUỒN FILL LIFE-LEVEL ANCHOR
+  - §3.1 — GOAL Type: "Build something great"
+  - §3.2 — STATE Type: "Inner peace"
+  - §3.3 — IDENTITY Type: "I am a good parent"
+  - §3.4 — FAITH Type: "God has a plan"
+  - §3.5 — ROLE Type: "My work matters"
+  - §3.6 — Why Meaning Differs Per Person
+- §4 — SOURCES: 4 WAYS TO FILL A LIFE-LEVEL ANCHOR
   - §4.1 — PFC Imagine-Final (top-down)
   - §4.2 — Compiled Experience (bottom-up)
   - §4.3 — External Inject: Religion + Culture
-  - §4.4 — Trade-offs Mỗi Nguồn
-- §5 — FRANKL REFRAME: CÙNG BODY-INPUTS, KHÁC ANCHOR
-  - §5.1 — Mechanism: Anchor KHÁC → Outcome KHÁC
-  - §5.2 — Logotherapy = 3 Routes Build Anchor
+  - §4.4 — Trade-offs Per Source
+- §5 — FRANKL REFRAME: SAME BODY-INPUTS, DIFFERENT ANCHOR
+  - §5.1 — Mechanism: Different Anchor → Different Outcome
+  - §5.2 — Logotherapy = 3 Routes to Build Anchor
   - §5.3 — Camp = All Anchors STRIPPED
-- §6 — SELF-HELP CRITIQUE: "FIND YOUR PURPOSE" = PRESCRIBE 1 TYPE
-  - §6.1 — Tại Sao Sai Hướng
+- §6 — SELF-HELP CRITIQUE: "FIND YOUR PURPOSE" = PRESCRIBING 1 TYPE
+  - §6.1 — Why It Points the Wrong Direction
   - §6.2 — Framework Approach: Facilitate Body Accept Anchor
 - §7 — MEANING × OTHER PARAMETERS
   - §7.1 — × Anchor-Schema (IS the mechanism)
   - §7.2 — × Imagine-Final (one source)
-  - §7.3 — × Boredom Loại 3 (gateway)
+  - §7.3 — × Boredom Type 3 (gateway)
   - §7.4 — × Novelty (raw material)
   - §7.5 — × Protect (tension)
   - §7.6 — × Connection (shared anchors)
   - §7.7 — × Gratitude (anchor strengthening?)
+  - §7.8 — × New Concepts (28-session Drill Propagation)
 - §8 — CASES ANALYSIS
 - §9 — DIFFERENTIAL: MEANING ≠ BOREDOM ≠ BURNOUT ≠ DEPRESSION
 - §10 — HONEST ASSESSMENT
@@ -140,91 +142,91 @@ dependencies:
 
 ---
 
-## §0 — MEANING LÀ OBSERVATION PARAMETER
+## §0 — MEANING AS OBSERVATION PARAMETER
 
 ```
 ⭐ REFRAME V2.0:
 
   v1.0 (2026-04-20): Meaning = "Schema coherence at high chunk density"
-    → Mô tả OUTPUT: chunks connect thế nào
-    → Vấn đề: bóc tách không nổi, không actionable
-    → "Coherence" = ĐÚNG nhưng giống nói "sốt = thân nhiệt cao"
-      — mô tả triệu chứng, không chỉ ra nguyên nhân
+    → Described OUTPUT: how chunks connect
+    → Problem: cannot be unpacked, not actionable
+    → "Coherence" = CORRECT but like saying "fever = high body temperature"
+      — describes symptom, does not identify cause
 
-  v2.0 (2026-04-25): Meaning = life-level Anchor-Schema ổn định
-    → Chỉ ra MECHANISM: bạn CÓ anchor để organize chunks quanh không?
-    → Actionable: build/tìm/strengthen life-level anchor
-    → Predict: thiếu anchor → meaning question; có anchor → meaning present
-    → "Coherence" = KẾT QUẢ tự nhiên khi có anchor tốt
+  v2.0 (2026-04-25): Meaning = stable life-level Anchor-Schema
+    → Identifies MECHANISM: do you HAVE an anchor to organize chunks around?
+    → Actionable: build/find/strengthen life-level anchor
+    → Predicts: lacking anchor → meaning question; having anchor → meaning present
+    → "Coherence" = NATURAL RESULT when a good anchor is in place
 
-  ⚠️ MEANING KHÔNG PHẢI:
-    ✗ "Mục đích sống" (self-help — implies object to find)
-    ✗ "Lý do tồn tại" (philosophical — implies pre-existing reason)
-    ✗ "Schema coherence" (v1.0 — đúng nhưng mô tả output, không mechanism)
-    ✗ Module hay component riêng biệt
-    ✗ Phụ thuộc body-inputs (Frankl proof: same inputs, different anchor)
-    ✗ Giống nhau cho mọi người (5 types anchor, mỗi người khác)
+  ⚠️ MEANING IS NOT:
+    ✗ "Life purpose" (self-help — implies an object to find)
+    ✗ "Reason for existence" (philosophical — implies pre-existing reason)
+    ✗ "Schema coherence" (v1.0 — correct but describes output, not mechanism)
+    ✗ A separate module or component
+    ✗ Dependent on body-inputs (Frankl proof: same inputs, different anchor)
+    ✗ The same for everyone (5 anchor types, each person different)
 
-  ⭐ MEANING LÀ:
-    ○ Observation name cho trạng thái CÓ life-level Anchor-Schema ổn định
-    ○ Anchor = sync point mà body ĐÃ ACCEPT (Anchor-Schema.md §1)
-    ○ Khi có → chunks TỰ organize quanh anchor → coherent → "có ý nghĩa"
-    ○ Khi thiếu → chunks fragmentary → không organize quanh gì → "vô nghĩa"
-    ○ GRADIENT: không anchor ←───────────→ anchor compiled deep
-    ○ DYNAMIC: anchor có thể shift (crisis, reframe, new experience)
-    ○ PERSONAL: mỗi người anchor KHÁC vì hardware × chunks × domain KHÁC
+  ⭐ MEANING IS:
+    ○ Observation name for the state of HAVING a stable life-level Anchor-Schema
+    ○ Anchor = sync point the body HAS ACCEPTED (Anchor-Schema.md §1)
+    ○ When present → chunks ORGANIZE themselves around anchor → coherent → "meaningful"
+    ○ When absent → chunks fragmentary → nothing to organize around → "meaningless"
+    ○ GRADIENT: no anchor ←───────────→ anchor compiled deep
+    ○ DYNAMIC: anchor can shift (crisis, reframe, new experience)
+    ○ PERSONAL: each person's anchor DIFFERS because hardware × chunks × domain DIFFER
 
-  VỊ TRÍ TRONG CYCLE:
+  POSITION IN CYCLE:
 
     ┌─────────────────────────────────────────────────────────┐
     │  CHUNK NETWORK (accumulated over lifetime)              │
     │    ↓                                                    │
-    │  LIFE-LEVEL ANCHOR-SCHEMA (có hay không?)               │
-    │    ↓ CÓ                          ↓ THIẾU               │
-    │  Chunks organize                 Chunks fragmentary     │
-    │  quanh anchor                    không có gì organize   │
+    │  LIFE-LEVEL ANCHOR-SCHEMA (present or absent?)          │
+    │    ↓ PRESENT                    ↓ ABSENT                │
+    │  Chunks organize                Chunks fragmentary       │
+    │  around anchor                  nothing to organize around│
     │    ↓                               ↓                    │
     │  ★ MEANING PRESENT ★             ★ MEANING ABSENT ★    │
-    │  Body: direction, calm           Body: "trống, rời rạc" │
-    │  Behavior: aligned               Behavior: drift/search │
+    │  Body: direction, calm           Body: "empty, scattered"│
+    │  Behavior: aligned               Behavior: drift/search  │
     │    ↓                               ↓                    │
-    │  Coherence = KẾT QUẢ            Fragmentation = KẾT QUẢ│
-    │  (v1.0 mô tả ở đây)            (v1.0 mô tả ở đây)    │
+    │  Coherence = RESULT             Fragmentation = RESULT  │
+    │  (v1.0 observed here)           (v1.0 observed here)    │
     └─────────────────────────────────────────────────────────┘
 
-    → v1.0 nhìn ở dòng cuối (coherence vs fragmentation)
-    → v2.0 nhìn ở dòng giữa (CÓ anchor hay KHÔNG)
-    → = Cùng hiện tượng, v2.0 chỉ ra nguyên nhân sâu hơn
+    → v1.0 looked at the bottom row (coherence vs fragmentation)
+    → v2.0 looks at the middle row (anchor PRESENT or NOT)
+    → = Same phenomenon, v2.0 identifies the deeper cause
 
-  ⭐ COMPILABLE ARCHITECTURE — TẠI SAO "MEANING" TỒN TẠI (Inter-Body-Mechanism §1.2):
+  ⭐ COMPILABLE ARCHITECTURE — WHY "MEANING" EXISTS (Inter-Body-Mechanism §1.2):
 
-    Hardwired Architecture (côn trùng): hardwired stimulus→response.
-    KHÔNG CÓ "meaning question" — vì không compile life-level patterns,
-    không có Anchor-Schema, không có gap giữa "sống" và "sống VÌ GÌ."
-    Mỗi moment = stimulus → response → done. Không accumulate life narrative.
+    Hardwired Architecture (insects): hardwired stimulus→response.
+    NO "meaning question" — because does not compile life-level patterns,
+    has no Anchor-Schema, no gap between "living" and "living FOR WHAT."
+    Each moment = stimulus → response → done. Does not accumulate life narrative.
 
     Compilable Architecture (humans):
-    General-purpose system COMPILE patterns suốt đời →
-    chunks ACCUMULATE → tạo thành network PHỨC TẠP →
-    network cần ORGANIZATION POINT (anchor) để không fragmentary →
-    khi network ĐỦ LỚN mà THIẾU anchor → body detect "rời rạc" →
-    = "Meaning question" EMERGE.
+    General-purpose system COMPILES patterns throughout life →
+    chunks ACCUMULATE → form a COMPLEX network →
+    network needs an ORGANIZATION POINT (anchor) to avoid fragmentation →
+    when network becomes LARGE ENOUGH but LACKS anchor → body detects "scattered" →
+    = "Meaning question" EMERGES.
 
     → "Meaning" = ARCHITECTURE CONSEQUENCE:
-      Hệ thống compile suốt đời → cần life-level anchor →
-      có = coherent, thiếu = fragmentary
-    → CHỈ Compilable Architecture organisms hỏi "sống để làm gì?"
-      (vì CHỈ chúng compile đủ sâu để CẦN life-level organization)
-    → Trẻ nhỏ không hỏi = chunk network chưa đủ lớn để CẦN life-level anchor
+      System compiles throughout life → needs life-level anchor →
+      present = coherent, absent = fragmentary
+    → ONLY Compilable Architecture organisms ask "what am I living for?"
+      (because ONLY they compile deeply enough to NEED life-level organization)
+    → Children don't ask = chunk network not yet large enough to NEED life-level anchor
 
     🟡 Compilable Architecture framing = framework synthesis (Inter-Body-Mechanism §1.2).
 
-  GIÁ TRỊ CỦA TÊN GỌI:
-    → Predict: có anchor ổn → resilient (Frankl evidence)
-    → Communicate: "anh ấy đang mất meaning" = "anchor sụp/hết"
-    → Diagnose: meaning absent = thiếu life-level anchor (cụ thể)
-    → Intervene: giúp build/tìm/strengthen anchor (actionable)
-    → Phân biệt: anchor type nào? source nào? → can thiệp đúng chỗ
+  VALUE OF THE NAME:
+    → Predicts: stable anchor → resilient (Frankl evidence)
+    → Communicates: "he is losing meaning" = "anchor collapsed/exhausted"
+    → Diagnoses: meaning absent = lacking life-level anchor (specific)
+    → Intervenes: help build/find/strengthen anchor (actionable)
+    → Distinguishes: which anchor type? which source? → correct intervention
 ```
 
 ---
@@ -234,49 +236,49 @@ dependencies:
 ### §1.1 — What Meaning IS
 
 ```
-⭐ MEANING = CÓ LIFE-LEVEL ANCHOR-SCHEMA ỔN ĐỊNH:
+⭐ MEANING = HAVING A STABLE LIFE-LEVEL ANCHOR-SCHEMA:
 
   DEFINITION:
-    Meaning = observation name cho trạng thái khi:
-    ① Có ít nhất 1 Anchor-Schema ở LIFE-SCALE
-    ② Anchor đó body ĐÃ ACCEPT (không chỉ PFC construct)
-    ③ Anchor đủ STABLE để maintain qua dissonance hàng ngày
-    → Khi cả 3 met → "có ý nghĩa" (meaning present)
-    → Thiếu bất kỳ → "vô nghĩa" (meaning absent hoặc fragile)
+    Meaning = observation name for the state when:
+    ① There is at least 1 Anchor-Schema at LIFE-SCALE
+    ② That anchor the body HAS ACCEPTED (not only PFC construct)
+    ③ Anchor STABLE enough to maintain through daily dissonance
+    → When all 3 met → "meaningful" (meaning present)
+    → Missing any one → "meaningless" (meaning absent or fragile)
 
-  TẠI SAO "LIFE-LEVEL" QUAN TRỌNG:
+  WHY "LIFE-LEVEL" MATTERS:
 
-    Anchor-Schema tồn tại ở MỌI scale (Anchor-Schema.md §1):
-      Micro-Anchor: "ăn miếng này" (giây)
-      Short-Anchor: "xong bài tập" (giờ)
-      Daily-Anchor: "hoàn thành task hôm nay" (ngày)
-      Life-Anchor: "tôi sống VÌ CÁI GÌ" (năm → đời)
+    Anchor-Schema exists at EVERY scale (Anchor-Schema.md §1):
+      Micro-Anchor: "eat this bite" (seconds)
+      Short-Anchor: "finish this task" (hours)
+      Daily-Anchor: "complete today's tasks" (day)
+      Life-Anchor: "what am I living FOR" (years → lifetime)
 
     → Medium-scale anchors (career goal, relationship, project)
-      KHÔNG phải meaning — chúng là DIRECTION cụ thể
-    → Life-level anchor = tầng CAO NHẤT: organize TOÀN BỘ medium anchors
-    → "Tôi làm career X, có relationship Y, hobby Z → TẤT CẢ vì anchor W"
+      are NOT meaning — they provide specific DIRECTION
+    → Life-level anchor = HIGHEST layer: organizes ALL medium anchors
+    → "I do career X, have relationship Y, hobby Z → ALL for anchor W"
 
-    Ví dụ hierarchy:
-      Micro: "gõ code xong function này"
-        → Daily: "hoàn thành sprint"
-          → Medium: "build product tốt"
-            → Life: "tạo ra thứ có giá trị cho thế giới" ← MEANING
+    Example hierarchy:
+      Micro: "finish typing this function"
+        → Daily: "complete the sprint"
+          → Medium: "build a great product"
+            → Life: "create something of value for the world" ← MEANING
 
-  "BODY ĐÃ ACCEPT" = KHÁC "PFC CONSTRUCT":
+  "BODY HAS ACCEPTED" = DIFFERENT FROM "PFC CONSTRUCT":
 
-    PFC construct (chưa phải meaning):
-      → "Tôi NGHĨ ý nghĩa cuộc đời tôi là giúp đỡ mọi người"
-      → PFC build statement → NHƯNG body chưa accept
-      → → Khi khó khăn → "thôi, chắc không phải"
-      → = Imagine-Final CÓ, Anchor-Schema CHƯA HÌNH THÀNH
-      → = Anchor-Schema.md §2: Trust THẤP → anchor collapse khi dissonance
+    PFC construct (not yet meaning):
+      → "I THINK my life's meaning is to help people"
+      → PFC builds the statement → BUT body has not accepted
+      → → When things get hard → "maybe it's not the right one"
+      → = Imagine-Final PRESENT, Anchor-Schema NOT YET FORMED
+      → = Anchor-Schema.md §2: Trust LOW → anchor collapses under dissonance
 
-    Body accept (meaning thật):
-      → Body compiled deep: "tôi LÀ người giúp đỡ" (không cần PFC deliberate)
-      → Khi khó khăn → "khó nhưng ĐÚNG hướng" → vẫn làm
-      → = Anchor compiled → Trust CAO → hold qua dissonance
-      → = Anchor-Schema.md §2: Trust ≥ Cost → anchor HOLD
+    Body accept (real meaning):
+      → Body compiled deep: "I AM this kind of person" (no PFC deliberation needed)
+      → When things are hard → "difficult but IN THE RIGHT DIRECTION" → keeps going
+      → = Anchor compiled → Trust HIGH → holds through dissonance
+      → = Anchor-Schema.md §2: Trust ≥ Cost → anchor HOLDS
 
   🟡 "Meaning = life-level Anchor-Schema" = framework reframe v2.0
   🟢 Goal hierarchy = established (Carver & Scheier 1998)
@@ -287,32 +289,32 @@ dependencies:
 ### §1.1b — Domain=Arbiter: Meaning CAN BE WRONG (Inter-Body-Mechanism §7)
 
 ```
-⭐ "CÓ MEANING" ≠ "MEANING ĐÚNG" — DOMAIN = ARBITER DUY NHẤT:
+⭐ "HAVING MEANING" ≠ "MEANING IS CORRECT" — DOMAIN = SOLE ARBITER:
 
-  PFC = LAWYER (Inter-Body-Mechanism §7): PFC build narrative PHỤC VỤ body-need,
-  KHÔNG PHẢI neutral judge. Với meaning:
-    → PFC tạo anchor narrative CHO body calm → KHÔNG kiểm tra truth
-    → "Tôi sống vì X" → body accept → coherent → "có ý nghĩa"
-    → NHƯNG X có thể SAI, có hại, hoặc dựa trên false premise
+  PFC = LAWYER (Inter-Body-Mechanism §7): PFC builds narrative SERVING body-need,
+  NOT acting as neutral judge. With meaning:
+    → PFC creates anchor narrative TO CALM the body → does NOT check truth
+    → "I live for X" → body accepts → coherent → "meaningful"
+    → BUT X may be WRONG, harmful, or based on false premises
 
-  VÍ DỤ MEANING SAI NHƯNG DEEP:
-    → Cult member: "Thầy là đấng cứu thế" = anchor CỰC MẠNH
+  EXAMPLES OF WRONG BUT DEEP MEANING:
+    → Cult member: "Teacher is the savior" = EXTREMELY STRONG anchor
       → Body compiled deep (ritual + community + emotion)
-      → Coherent → "rất có ý nghĩa" → BUT domain reality: bị lợi dụng
-    → Kamikaze pilot: "chết cho Thiên Hoàng" = FAITH anchor compiled
+      → Coherent → "very meaningful" → BUT domain reality: being exploited
+    → Kamikaze pilot: "die for the Emperor" = FAITH anchor compiled
       → Meaning present → BUT domain: propaganda exploitation
-    → Ponzi schemer: "tôi đang giúp mọi người giàu" = ROLE anchor
+    → Ponzi schemer: "I'm helping people get rich" = ROLE anchor
       → Meaning present → BUT domain: fraud
 
-  → "Meaning present" (§1.1) = observation: body CÓ anchor ổn
-  → "Meaning đúng" = DOMAIN evaluation: anchor có match reality không?
-  → 2 thứ KHÁC NHAU. Framework OBSERVE cả hai, KHÔNG gộp.
+  → "Meaning present" (§1.1) = observation: body HAS a stable anchor
+  → "Meaning correct" = DOMAIN evaluation: does anchor match reality?
+  → 2 DIFFERENT things. Framework OBSERVES both, does NOT conflate them.
 
   IMPLICATION:
-    → KHÔNG THỂ chỉ "find meaning" — phải check DOMAIN REALITY
-    → Self-help "find your purpose" thiếu bước này (§6)
-    → "Cảm thấy có ý nghĩa" ≠ "Sống có ý nghĩa" (Gazzaniga: PFC confabulate)
-    → = Tại sao deradicalization KHÓ: phá meaning = phá anchor = body resist
+    → CANNOT just "find meaning" — must check DOMAIN REALITY
+    → Self-help "find your purpose" misses this step (§6)
+    → "Feeling meaningful" ≠ "Living meaningfully" (Gazzaniga: PFC confabulates)
+    → = Why deradicalization is HARD: breaking meaning = breaking anchor = body resists
 
   🟡 Domain=Arbiter for meaning = framework synthesis (Inter-Body-Mechanism §7, Logic-Feeling-Balance v2.0).
   🟢 PFC confabulation = Gazzaniga split-brain studies.
@@ -321,63 +323,66 @@ dependencies:
 ### §1.2 — What Meaning Question IS
 
 ```
-⭐ "Ý NGHĨA LÀ GÌ?" = "TÔI THIẾU LIFE-LEVEL ANCHOR":
+⭐ "WHAT IS THE MEANING?" = "I AM LACKING A LIFE-LEVEL ANCHOR":
 
-  Meaning QUESTION (câu hỏi ý nghĩa):
-    = Observation name cho trạng thái ĐANG TÌM life-level anchor
+  Meaning QUESTION:
+    = Observation name for the state of SEARCHING for a life-level anchor
     = Life-level anchor ABSENT / EXHAUSTED / DISRUPTED
-    = Body detect: "dàn nhạc KHÔNG CÓ main player ở life-scale"
-    = ACC/insula signal persistent: "thiếu gì đó LỚN"
-    = PFC verbalize: "sống để làm gì?" / "ý nghĩa là gì?"
+    = Body detects: "orchestra LACKS a main player at life-scale"
+    = ACC/insula signal persistent: "missing something LARGE"
+    = PFC verbalizes: "what am I living for?" / "what is the meaning?"
 
   MEANING PRESENT vs MEANING QUESTION:
 
     ┌────────────────────────┬────────────────────────────────┐
-    │ Life-level anchor CÓ   │ Life-level anchor THIẾU        │
+    │ Life-level anchor      │ Life-level anchor ABSENT        │
+    │ PRESENT                │                                │
     ├────────────────────────┼────────────────────────────────┤
     │ "Meaning present"      │ "Meaning question"             │
-    │ Body calm + direction  │ Body bứt rứt + drift           │
+    │ Body calm + direction  │ Body restless + drifting       │
     │ Chunks organized       │ Chunks fragmentary             │
-    │ Dissonance → "xứng"   │ Dissonance → "để làm gì?"     │
-    │ KHÔNG hỏi "sống vì gì"│ HỎI "sống để làm gì?"         │
-    │ Anchor HOLD qua khó   │ Không gì HOLD → mỗi khó = nặng│
+    │ Dissonance → "worthy" │ Dissonance → "what's the       │
+    │                        │  point?"                       │
+    │ Does NOT ask "why live"│ ASKS "what am I living for?"   │
+    │ Anchor HOLDS through   │ Nothing HOLDS → each hardship  │
+    │ difficulty             │ = heavy                        │
     └────────────────────────┴────────────────────────────────┘
 
-  ⚠️ KHÔNG PHẢI MỌI NGƯỜI ĐỀU HỎI:
-    → Nếu life-level anchor compiled deep → KHÔNG BAO GIỜ hỏi
-    → Nếu medium anchors liên tục đủ → CHƯA CẦN hỏi (chưa tới)
-    → Nếu hỏi = DẤU HIỆU anchor thiếu → KHÔNG phải bệnh, là signal
+  ⚠️ NOT EVERYONE ASKS:
+    → If life-level anchor compiled deep → NEVER asks
+    → If medium anchors continuously sufficient → NOT YET NEEDED
+    → If asking = SIGNAL that anchor is missing → NOT illness, it's a signal
 ```
 
 ### §1.3 — "Coherence" = RESULT, Not Definition
 
 ```
-⭐ v1.0 → v2.0: COHERENCE VẪN ĐÚNG — NHƯNG LÀ OUTPUT:
+⭐ v1.0 → v2.0: COHERENCE IS STILL CORRECT — BUT IS THE OUTPUT:
 
   v1.0: Meaning = schema coherence at high chunk density
-  v2.0: Coherence = KẾT QUẢ khi có life-level anchor tốt
+  v2.0: Coherence = RESULT when a good life-level anchor is in place
 
-  CƠ CHẾ:
-    Có anchor → chunks TỰ organize quanh anchor → coherence EMERGE
-    Thiếu anchor → chunks KHÔNG CÓ gì organize quanh → fragmentation
+  MECHANISM:
+    Have anchor → chunks ORGANIZE themselves around anchor → coherence EMERGES
+    Lack anchor → chunks HAVE NOTHING to organize around → fragmentation
 
-    = Giống:
-      "Dàn nhạc hòa" (coherence) VÌ "nhạc trưởng chọn đúng bài" (anchor)
-      "Dàn nhạc hỗn loạn" (fragmentation) VÌ "không có nhạc trưởng" (no anchor)
+    = Like:
+      "Orchestra in harmony" (coherence) BECAUSE "conductor chose the right piece" (anchor)
+      "Orchestra in chaos" (fragmentation) BECAUSE "no conductor" (no anchor)
 
-  TẠI SAO v1.0 CHƯA ĐỦ:
-    ① Không actionable: "facilitate coherence" → HOW? → không cụ thể
-    ② Không bóc tách: "coherence at life-scale" → CÁI GÌ coherent? → mơ hồ
-    ③ Không predict: "chunk density threshold" → bao nhiêu đủ? → không đo được
+  WHY v1.0 WAS INSUFFICIENT:
+    ① Not actionable: "facilitate coherence" → HOW? → not specific
+    ② Cannot unpack: "coherence at life-scale" → WHAT is coherent? → vague
+    ③ Cannot predict: "chunk density threshold" → how much is enough? → not measurable
 
-  v2.0 CỤ THỂ HƠN:
-    ① Actionable: "build/tìm life-level anchor" → CÓ target
-    ② Bóc tách: anchor TYPE nào? SOURCE nào? TRUST bao nhiêu?
-    ③ Predict: thiếu anchor → meaning question; có anchor → meaning present
+  v2.0 IS MORE SPECIFIC:
+    ① Actionable: "build/find a life-level anchor" → HAS a target
+    ② Unpacks: which anchor TYPE? which SOURCE? how much TRUST?
+    ③ Predicts: lacking anchor → meaning question; having anchor → meaning present
 
-  → v1.0 KHÔNG SAI — chỉ mô tả ở tầng observation (output)
-  → v2.0 chỉ ra tầng mechanism (input/cause)
-  → = Cùng hiện tượng, 2 tầng mô tả
+  → v1.0 NOT WRONG — just described at the observation layer (output)
+  → v2.0 identifies the mechanism layer (input/cause)
+  → = Same phenomenon, 2 levels of description
 
   🟡 "Coherence = result of anchor" = framework reframe v2.0
 ```
@@ -385,33 +390,34 @@ dependencies:
 ### §1.4 — Meaning ≠ Happiness (independent dimensions)
 
 ```
-🟢 MEANING VÀ HAPPINESS = 2 CHIỀU ĐỘC LẬP:
+🟢 MEANING AND HAPPINESS = 2 INDEPENDENT DIMENSIONS:
 
   ┌─────────────────────┬──────────────────────┬──────────────────────┐
-  │                     │ Meaning THẤP         │ Meaning CAO          │
-  │                     │ (thiếu life anchor)  │ (có life anchor)     │
+  │                     │ Meaning LOW           │ Meaning HIGH         │
+  │                     │ (lacking life anchor) │ (has life anchor)    │
   ├─────────────────────┼──────────────────────┼──────────────────────┤
-  │ Happiness CAO       │ ① "Vui nhưng trống"  │ ③ "Trọn vẹn"        │
-  │ (body-inputs tốt)   │ Hedonism, party life │ Body tốt + anchor ổn│
-  │                     │ Anchor thiếu →       │ Chunks organized +   │
-  │                     │ "vui nhưng rồi sao?" │ direction clear      │
+  │ Happiness HIGH      │ ① "Happy but empty"  │ ③ "Whole/Complete"  │
+  │ (good body-inputs)  │ Hedonism, party life │ Good body + stable   │
+  │                     │ Anchor absent →      │ anchor → chunks      │
+  │                     │ "fun but then what?" │ organized + direction│
+  │                     │                      │ clear                │
   ├─────────────────────┼──────────────────────┼──────────────────────┤
-  │ Happiness THẤP      │ ② "Khổ + vô nghĩa"  │ ④ "Khổ nhưng có     │
-  │ (body-inputs tệ)    │ Worst case           │    ý nghĩa"         │
-  │                     │ Body terrible +      │ Frankl in camp       │
-  │                     │ no anchor            │ Body terrible nhưng  │
-  │                     │                      │ anchor HOLD          │
+  │ Happiness LOW       │ ② "Suffering +       │ ④ "Suffering but    │
+  │ (poor body-inputs)  │    meaningless"      │    meaningful"       │
+  │                     │ Worst case           │ Frankl in camp       │
+  │                     │ Body terrible +      │ Body terrible but    │
+  │                     │ no anchor            │ anchor HOLDS         │
   └─────────────────────┴──────────────────────┴──────────────────────┘
 
   CASE ④ = FRANKL PROOF: meaning ≠ happiness
-    → Body-inputs TERRIBLE (đói, lạnh, bị đánh)
-    → NHƯNG: có anchor ("tôi sẽ kể lại") → meaning present
-    → = Meaning nằm ở ANCHOR, không ở body-inputs
+    → Body-inputs TERRIBLE (starving, freezing, being beaten)
+    → BUT: has anchor ("I will tell the story") → meaning present
+    → = Meaning lies in the ANCHOR, not in body-inputs
 
-  CASE ① = "THÀNH CÔNG NHƯNG EMPTINESS" (Status.md §10.1):
-    → Body-inputs EXCELLENT (giàu, khỏe, thoải mái)
-    → NHƯNG: life anchor EXHAUSTED (achieved → void) → meaning absent
-    → = Meaning nằm ở ANCHOR, không ở body-inputs
+  CASE ① = "SUCCESS BUT EMPTINESS" (Status.md §10.1):
+    → Body-inputs EXCELLENT (wealthy, healthy, comfortable)
+    → BUT: life anchor EXHAUSTED (achieved → void) → meaning absent
+    → = Meaning lies in the ANCHOR, not in body-inputs
 
   🟢 Baumeister et al. 2013: meaning and happiness overlap but are distinct
   🟢 Some factors ↑ happiness but ↓ meaning (stress-free leisure)
@@ -420,204 +426,208 @@ dependencies:
 
 ---
 
-## §2 — TRIGGER: KHI NÀO MEANING QUESTION XUẤT HIỆN
+## §2 — TRIGGER: WHEN THE MEANING QUESTION ARISES
 
 ```
-⭐ MEANING QUESTION = KHI LIFE-LEVEL ANCHOR THIẾU:
+⭐ MEANING QUESTION ARISES WHEN LIFE-LEVEL ANCHOR IS:
+  ABSENT (never built) / EXHAUSTED (achieved → void) / DISRUPTED (crisis destroys anchor)
 
-  3 CÁC CÁCH THIẾU — CÙNG KẾT QUẢ:
+OVERVIEW:
 
-    ┌─────────────────────────────────────────────────────┐
-    │                                                     │
-    │  ① ABSENT:    chưa bao giờ build life-level anchor │
-    │  ② EXHAUSTED: anchor đạt rồi → fulfilled → void   │
-    │  ③ DISRUPTED: crisis phá anchor đang có            │
-    │                                                     │
-    │  → CẢ 3 → life-level anchor THIẾU                  │
-    │  → Dàn nhạc mất main player ở life-scale           │
-    │  → Body signal: "trống, rời rạc, vô hướng"        │
-    │  → PFC verbalize: "sống để làm gì?"               │
-    │                                                     │
-    └─────────────────────────────────────────────────────┘
+  ┌──────────────┬──────────────────────┬─────────────────────────────────────┐
+  │ TRIGGER      │ State                │ Example                             │
+  ├──────────────┼──────────────────────┼─────────────────────────────────────┤
+  │ ABSENT       │ Never built          │ 15yo: "I don't know what to live for"│
+  │ EXHAUSTED    │ Achieved → void      │ 50yo: "I've done everything, now     │
+  │              │                      │  what?"                             │
+  │ DISRUPTED    │ Crisis breaks anchor │ Loss, collapse, forced reframe      │
+  └──────────────┴──────────────────────┴─────────────────────────────────────┘
+
+  → These 3 triggers → §8 cases — each maps to one of these 3 conditions
 ```
 
-### §2.1 — Anchor ABSENT (chưa bao giờ build)
+### §2.1 — Anchor ABSENT (never built)
 
 ```
-🟡 ANCHOR ABSENT = CHƯA BAO GIỜ CÓ LIFE-LEVEL ANCHOR:
+MECHANISM:
+  Compilable Architecture (§0): chunk network grows with time →
+  when network LARGE ENOUGH, body needs life-level organization →
+  if no life-level anchor ever formed → meaning question EMERGES
 
-  AI THƯỜNG GẶP:
+SIGNAL:
+  → "I don't know what I'm living for"
+  → "Nothing excites me" (drive present, target missing)
+  → "I feel empty even when things are fine"
+  → "I feel lost / drifting"
+  → Body: vague restlessness (Vietnamese: bứt rứt — a nagging, restless discomfort),
+    unfocused, scattered
+  → ACC/insula signal: "something LARGE is missing"
 
-    Survival mode suốt đời:
-      → Chỉ có micro/daily anchors (kiếm ăn, trả bill, survive)
-      → KHÔNG BAO GIỜ có bandwidth build life-level anchor
-      → Không phải "mất" meaning — CHƯA BAO GIỜ có
-      → Khi survival stabilize → void HIỆN RA lần đầu
+PATTERN:
+  → Common in adolescence (15-25): first time chunk network large enough
+    to FEEL the absence of life-level anchor
+  → "Existential crisis" = anchor absent, not pathology
+  → Medium anchors (study, game, social media) = temporary placeholders;
+    suppress signal but do NOT fill life-level gap
 
-    Trẻ tuổi bị social media trigger sớm:
-      → MXH expose: "người khác có meaning rồi!" → comparison
-      → Tạo AWARENESS về life-level anchor TRƯỚC KHI tự nhiên cần
-      → NHƯNG: chunk density THẤP → chưa đủ data BUILD anchor chất lượng
-      → PFC construct surface answer ("tôi muốn giúp mọi người")
-        → Body chưa accept → fragile → "vẫn thấy trống"
-      → = Premature meaning anxiety — anchor question đến TRƯỚC chunks
+DISTINGUISH FROM BOREDOM TYPE 3:
+  → Boredom Type 3 (Boredom.md): by-product STOPS → nothing drives at short term
+  → Meaning absent: signal is LARGER, more persistent, at life-scale
+  → Can coexist: Boredom Type 3 often GATEWAY to discovering meaning absent (§7.3)
 
-  CƠ CHẾ:
-    → Body signal: ACC/insula detect "thiếu gì đó LỚN" nhưng mờ
-    → PFC: chưa đủ chunks để build life-level Imagine-Final
-    → = Boredom.md Loại 3 TRỐNG territory — "muốn gì đó... CÁI GÌ?"
+🟡 "Absent anchor → meaning question" = framework mechanism (compilation model).
 ```
 
-### §2.2 — Anchor EXHAUSTED (đạt rồi → void)
+### §2.2 — Anchor EXHAUSTED (achieved → void)
 
 ```
-🟡 ANCHOR EXHAUSTED = ĐÃ ĐẠT → KHÔNG CÒN LÀ ANCHOR:
+MECHANISM:
+  Life-level anchor can be a GOAL: "achieve X"
+  When X ACHIEVED → anchor EXHAUSTED → body suddenly lacks organization point
+  → Chunks ALL organized around "achieve X" → when X done → organization dissolved
+  → = Life loses the organizing thread it was built around
 
-  CƠ CHẾ:
-    → Life-level anchor: "build career thành công"
-    → 20 năm nỗ lực → ĐẠT → anchor FULFILLED
-    → Fulfilled anchor = KHÔNG CÒN tạo direction (Imagine-Final achieved)
-    → Body scan: "rồi sao nữa?" → KHÔNG TÌM ĐƯỢC anchor mới
-    → = VOID — life-level anchor position TRỐNG
+SIGNAL:
+  → "I've achieved everything I wanted, but feel empty"
+  → "Now what?" (after major achievement)
+  → "Success but emptiness" (Status.md §10.1)
+  → Body: flatness, low cortisol (inertia after the achievement peak)
+  → Cortisol-Baseline.md: Cortisol Role ④ INERTIA = after intense direction ends
 
-  AI THƯỜNG GẶP:
-    → CEO retire: career anchor GONE → "sáng thức dậy, không biết làm gì"
-    → Vận động viên sau Olympic: training anchor FULFILLED
-    → PhD xong: academic anchor ACHIEVED → "giờ sao?"
-    → Con cái trưởng thành: parenting anchor SHIFTING → "giờ tôi là ai?"
+TIMING PATTERN:
+  → Appears AFTER major milestones: graduation, promotion, project completion,
+    retirement, child born, marriage achieved
+  → "Post-project blues" = mild version
+  → Startup post-launch crash = classic example
+  → "Empty nest syndrome" = ROLE anchor exhausted when children grown
 
-  ĐẶC BIỆT: CORTISOL INERTIA (Body-Feedback-Mechanism §3.3⑥)
-    → Anchor đã drive cortisol nhiều năm → body QUEN cortisol mode
-    → Anchor fulfilled → cortisol VẪN CÒN → body "thiếu gì đó"
-    → = "Post-project blues" ở life-scale
-    → = "Đạt rồi mà VẪN không satisfied" ≠ tham lam → là cortisol inertia
+WHY IT SURPRISES:
+  → During pursuit: anchor STRONG → full meaning → "this is it!"
+  → After achievement: expected happiness → but body says "now what?"
+  → = Because body already COMPILED: "I AM the person who pursues X"
+    → when X done → identity anchor also needs recompile
+  → PFC knows intellectually "I succeeded" but body compiled around the JOURNEY
 
-  = STATUS.MD §10.1: "Thành công nhưng emptiness" = EXACTLY THIS
-    → Status position CAO + body-inputs tốt + anchor EXHAUSTED
-    → = Meaning absent DÙ happiness có thể cao (§1.4 Case ①)
+🟡 Cortisol-inertia connection = framework synthesis (Cortisol-Baseline.md §4).
+🟢 "Post-goal emptiness" = documented (Carver & Scheier 1990).
 ```
 
-### §2.3 — Anchor DISRUPTED (crisis phá anchor)
+### §2.3 — Anchor DISRUPTED (crisis destroys anchor)
 
 ```
-🟡 ANCHOR DISRUPTED = CÓ ANCHOR → BỊ PHÁ:
+MECHANISM:
+  An external event FORCIBLY removes the life-level anchor the body had
+  already compiled and depended on → system suddenly lacks organization point →
+  meaning collapses IMMEDIATELY (no time to build replacement)
 
-  CƠ CHẾ:
-    → Life-level anchor đang HOLD tốt → external event PHÁ
-    → Anchor collapse → chunks MẤT organizing principle
-    → Body: shock → fragmentation → "mọi thứ vô nghĩa"
+4 DISRUPTION TYPES:
 
-  CÁC DẠNG DISRUPTION:
+  ① Identity collapse:
+    → Anchor: "I AM a [role/title/identity]"
+    → Disruption: fired, divorced, illness strips the role
+    → Body compiled "I AM the partner" for years → suddenly no longer true
+    → = Protect.md: identity-threatening → strong protect signal
 
-    Identity collapse:
-      → "Tôi là người thành công" → phá sản → anchor PHÁ
-      → "Tôi là người vợ/chồng tốt" → ly hôn → anchor PHÁ
-      → = Protect.md §3.4: compound identity failure
+  ② Loss:
+    → Anchor: "I live for [person/entity]"
+    → Disruption: person dies / relationship ends / entity destroyed
+    → Body compiled deep around that person → loss = anchor loss
 
-    Loss:
-      → "Tôi sống vì con" → con mất → anchor PHÁ hoàn toàn
-      → "Tôi sống vì người này" → người ấy ra đi → anchor PHÁ
-      → = Agent-Mechanism.md §12.6: grief = structural loss
+  ③ Disillusionment:
+    → Anchor: "I believe [mission/cause/institution]"
+    → Disruption: mission betrayed / institution proven corrupt / cause fails
+    → "Belief anchor" collapses → everything built on that belief loses ground
 
-    Disillusionment:
-      → "Tôi tin tổ chức này" → phát hiện tham nhũng → anchor PHÁ
-      → "Tôi tin Chúa" → trải nghiệm khiến mất đức tin → anchor PHÁ
-      → = Anchor-Schema.md §2: Trust BREAK via domain feedback ✗
+  ④ Forced reframe:
+    → External facts FORCE body to recompile life narrative
+    → Example: discover founding principles of one's career were wrong
+    → Previous chunks still there BUT re-tagged: "that was wasted / wrong"
+    → = Anchor still structurally present but body REVOKES TRUST
 
-    Forced reframe:
-      → Bệnh nặng → "mọi thứ tôi tin → giờ thấy khác"
-      → = Anchor bị CHALLENGED → có thể rebuild hoặc collapse
+SIGNAL:
+  → Sudden: "Why does everything feel pointless now?"
+  → Grief: not only the loss itself, but loss of ANCHOR
+  → Common misdiagnosis: "depression" when actually "anchor collapse" needing rebuild
+  → Key test: if anchor rebuilt → meaning returns; if depression → NOT primarily anchor
 
-  KHÁC EXHAUSTED: Exhausted = TỰ NHIÊN hết vì đạt; Disrupted = BỊ PHÁ từ bên ngoài
-  → Disrupted thường TRAUMA kèm theo; Exhausted thường VOID kèm theo
+DISTINGUISH FROM DEPRESSION:
+  → §9: Differential table — key difference: anchor disruption = TARGET (specific anchor)
+    can be identified; depression = diffuse, systemic
+  → Some disruptions → reactive depression: anchor collapse CAUSES depression
+  → Some depression → BLOCKS anchor building: must treat depression first
+
+🟡 "Disruption types → meaning collapse" = framework synthesis.
+🟢 Identity disruption → psychological crisis (Erikson 1968, identity theory).
+🟢 Grief = loss of anchoring relationship (Bowlby attachment theory).
 ```
 
 ### §2.4 — Age Gradient: Medium Anchors → Life-Level Search
 
 ```
-⭐ TẠI SAO TRẺ HIẾM HỎI, GIÀ HAY HỎI — ANCHOR-SCHEMA GIẢI THÍCH:
+🟡 AGE GRADIENT OF MEANING QUESTION:
 
-  TRẺ 15 TUỔI — HIẾM KHI HỎI:
-    → Anchor đầy ở medium-scale: trường mới, bạn mới, môn mới, crush mới
-    → Mỗi medium anchor (tháng-năm) → ĐỦ cho direction + reward
-    → Medium anchors LIÊN TỤC supply → chưa bao giờ trống ở life-level
-    → = CHƯA CẦN life-level anchor vì medium-scale ĐỦ
-    → = Meaning question KHÔNG surface (không có trigger)
+  15-25: FIRST WAVE — anchor absent, chunk network just large enough
+    → "Who am I? What do I want?"
+    → Erikson's identity stage: searching for identity anchor
+    → Medium anchors (study, social media, gaming) partially suppress signal
+    → Many resolve with GOAL type: "I will become X"
+    → Some → STATE, IDENTITY types emerging
 
-  THANH NIÊN 25 TUỔI — THOÁNG HỎI:
-    → Anchor: "thành công ở career," "tìm người yêu," "mua nhà"
-    → Medium anchors VẪN đủ giữ → nhưng bắt đầu thấy GAPS
-    → Đôi khi: "sống để làm gì nhỉ?" → rồi bận → quên
-    → = Medium anchors VẪN HOLD → meaning question chỉ thoáng qua
+  25-40: BUILDING PHASE — medium anchors usually sufficient
+    → Career, family, relationships = active building
+    → Meaning question suppressed while building is active
+    → CRISIS: if building fails or anchor reveals itself as insufficient
+    → "Quarterlife crisis" (28-32): first achievement → void, or direction unclear
 
-  TRUNG NIÊN 40-50 — HAY HỎI:
-    → Career anchor: ĐẠT hoặc nhận ra KHÔNG ĐẠT
-    → Family anchor: con lớn, tự lập → role shifting
-    → Body: bắt đầu decline → self-schema bị challenge
-    → NHIỀU medium anchors ĐỒNG THỜI mất/shift
-    → → Life-level anchor position BỘC LỘ: "TRỐNG"
-    → = "Midlife crisis" = CONVERGENCE nhiều anchor mất cùng lúc
+  40-50: SECOND WAVE — "midlife crisis" = anchor EXHAUSTED or REASSESSED
+    → Built and achieved → "is this all there is?"
+    → Life-level anchor review: "what am I actually doing this for?"
+    → Cortisol-inertia: system slows after decades of building
+    → Terror Management Theory: mortality awareness → anchor reassessment
+    → GOAL anchor often exhausted → need STATE/IDENTITY/FAITH recompile
 
-  NGƯỜI GIÀ 60+ — URGENT:
-    → Career: GONE (nghỉ hưu)
-    → Social: reduced (đồng nghiệp, bạn bè giảm)
-    → Body: decline accelerate
-    → Mortality awareness: "tôi CŨNG sẽ mất"
-    → = Anchor VACUUM → meaning question URGENT nhất
+  60+: THIRD WAVE — ROLE + LEGACY anchor search
+    → Retirement = ROLE anchor (professional identity) suddenly gone
+    → "What is my place now?" (ROLE type seeking)
+    → Erikson: generativity vs stagnation = legacy anchor
+    → FAITH type often strengthens (unfalsifiable → more stable under mortality)
 
-  ⭐ QUY LUẬT:
-    → Trẻ: medium anchors supply DỒI DÀO → chưa cần life-level
-    → Lớn dần: medium anchors DẦN cạn kiệt (habituate, achieve, lose)
-    → Trung niên+: medium KHÔNG ĐỦ nữa → life-level anchor HIỆN RA cần thiết
-    → = Meaning question ∝ (medium anchors cạn kiệt)
+  WHY TIMING VARIES:
+    → Depends on 5 factors (§3.6): hardware, chunk library, domain, culture, life stage
+    → No universal script — framework only explains WHEN signal is likely, not the path
 
-  ⚠️ KHÔNG PHẢI QUY LUẬT TUỔI — LÀ QUY LUẬT ANCHOR:
-    → 20 tuổi mất người thân → anchor disrupted → meaning question SỚM
-    → 60 tuổi có tôn giáo deep → life-level anchor COMPILED → KHÔNG hỏi
-    → = Tuổi CORRELATE với anchor dynamics, KHÔNG CAUSE
-    → = Framework: meaning question = f(anchor status), KHÔNG phải f(tuổi)
-
-  🟡 Age gradient reframe qua anchor dynamics = framework synthesis v2.0
-  🟢 Midlife crisis = well-documented (Jaques 1965; Lachman 2004)
-  🟢 Mortality salience → meaning search (Terror Management Theory, Greenberg 1986)
+🟡 Age gradient = framework synthesis based on developmental + neuroscience data.
+🟢 Erikson's developmental stages = foundational.
+🟢 Terror Management Theory (Greenberg et al.) = mortality × meaning.
+🟢 Midlife research (Lachman 2004) = reassessment common 40-50.
 ```
 
-### §2.5 — Brain Optimization: Xu Hướng Tìm Anchor Ổn Định
+### §2.5 — Brain Optimization: Tendency Toward Stable Anchor
 
 ```
-🟡 NÃO CÓ XU HƯỚNG TỐI ƯU HÓA ANCHOR SYSTEM:
+🟡 BRAIN ECONOMIZES: CONSOLIDATE TOWARD 1-2 STABLE ANCHORS:
 
-  NHIỀU MEDIUM ANCHORS = TỐN BANDWIDTH:
-    → PFC phải switch giữa các anchors (serial processor, ~4±1)
-    → Mỗi switch = cost (Anchor-Schema.md §1 Flow bước ③④)
-    → Conflict giữa anchors = drive conflict (Drive.md §3)
-    → = Nhiều anchor cùng lúc = EXPENSIVE cho hệ thống
+  COMPUTATIONAL PRESSURE:
+    → Maintaining MULTIPLE large life-level anchors = computationally expensive
+    → Memory consolidation (hippocampus): prune unused patterns, strengthen used ones
+    → Default Mode Network: narrative self = needs coherence → prefers FEWER anchors
+    → Body: multiple equal-weight anchors = "competing conductors" → instability signal
 
-  MỘT LIFE-LEVEL ANCHOR COMPILED = TIẾT KIỆM:
-    → Vô thức TỰ sync → PFC freed (Anchor-Schema.md §2: compiled → PFC ~0%)
-    → Medium anchors TỰ align dưới life anchor → ít conflict
-    → Direction CLEAR at all scales → "flow" state dễ đạt
-    → = Một anchor compiled deep = ENERGETICALLY OPTIMAL
+  CONSEQUENCE:
+    → Body tends to CONSOLIDATE toward 1-2 dominant life-level anchors over time
+    → Young: many candidate anchors → unclear hierarchy
+    → 30+: most people have settled into 1-2 dominant anchors
+    → 60+: often consolidate to 1 (strongest) + 1 faith/legacy backup
 
-  XU HƯỚNG TỰ NHIÊN:
-    → Trẻ: thử nhiều medium anchors (explore phase — Novelty.md)
-    → Thanh niên: một số medium anchors stabilize → build deeper
-    → Trung niên: có đủ data COMPARE anchors → biết cái nào WORK
-    → → Xu hướng: consolidate → 1-2 life-level anchors compiled
-    → = BRAIN OPTIMIZATION qua trial-and-error nhiều năm
+  NOT RIGIDITY:
+    → Consolidation ≠ fixed forever
+    → Significant event can RECOMPILE the anchor hierarchy
+    → New anchor can be built alongside old one before switching
+    → FORCED recompile (disruption) = painful because body was heavily consolidated
 
-  TẠI SAO "NGƯỜI GIÀ SÁNG SUỐT" (khác nhau):
-    → Người A: đã tìm được life-level anchor compiled deep → "bình an"
-    → Người B: medium anchors cạn + chưa tìm life anchor → "emptiness"
-    → = Cùng tuổi, khác anchor status → khác meaning state
-    → = "Sáng suốt" ≠ tuổi → = đã tìm được anchor ổn
-
-  ANALOGY COMPUTATIONAL:
-    → Trẻ: running nhiều processes (medium anchors) → CPU busy
-    → Trung niên: kernel optimize → consolidate vào 1-2 main threads
-    → Nếu optimize thành công: system efficient → "meaning"
-    → Nếu optimize fail: system idle → "vô nghĩa"
-    → = Meaning search ≈ system-level optimization process
+  🟡 Memory consolidation + anchor = framework synthesis (Anchor-Schema.md).
+  🟢 Memory consolidation = well-established (McGaugh 2000, sleep consolidation research).
+  🟢 DMN narrative coherence = Northoff et al. 2011, default mode network + self-referential processing.
 ```
 
 ---
@@ -625,631 +635,671 @@ dependencies:
 ## §3 — 5 TYPES OF LIFE-LEVEL ANCHOR
 
 ```
-⭐ LIFE-LEVEL ANCHOR KHÔNG CHỈ LÀ "MỤC TIÊU":
+⭐ OVERVIEW: 5 TYPES OF ANCHOR THAT CAN REACH LIFE-LEVEL:
 
-  Self-help mặc định: "meaning = big goal" → prescribe GOAL type
-  Framework: life-level anchor có NHIỀU DẠNG — mỗi người phù hợp dạng KHÁC
+  ┌─────────────┬──────────────────────┬──────────────────┬─────────────────────┐
+  │ TYPE        │ Anchor content       │ Core signal      │ Risk                │
+  ├─────────────┼──────────────────────┼──────────────────┼─────────────────────┤
+  │ GOAL        │ "Build/achieve X"    │ Direction, drive │ Exhaustion (§2.2)   │
+  │ STATE       │ "Inner peace/flow"   │ Calm, presence   │ Hard to compile deep│
+  │ IDENTITY    │ "I am [person type]" │ Integrity, self  │ Disruption (§2.3①) │
+  │ FAITH       │ "God/universe/plan"  │ Trust, surrender │ Unfalsifiable (both │
+  │             │                      │                  │  stable + dangerous)│
+  │ ROLE        │ "My place in system" │ Belonging, worth │ Exhaustion when role│
+  │             │                      │                  │ ends                │
+  └─────────────┴──────────────────────┴──────────────────┴─────────────────────┘
 
-  ┌────────┬──────────────────────┬────────────────────────────┐
-  │ Type   │ Anchor là gì          │ Ví dụ                      │
-  ├────────┼──────────────────────┼────────────────────────────┤
-  │ GOAL   │ Trạng thái TƯƠNG LAI │ "Xây dựng thứ vĩ đại"     │
-  │ STATE  │ Trạng thái NỘI TẠI  │ "An lạc trong tâm hồn"     │
-  │ IDENTITY│ Con người TÔI LÀ    │ "Tôi là người cha/mẹ tốt" │
-  │ FAITH  │ Niềm tin VÔ ĐIỀU KIỆN│ "Chúa có kế hoạch"        │
-  │ ROLE   │ Vai trò TRONG HỆ THỐNG│ "Công việc tôi quan trọng"│
-  └────────┴──────────────────────┴────────────────────────────┘
-
-  → Mỗi type = life-level anchor KHÁC NHAU
-  → Body accept type NÀO = phụ thuộc hardware × chunks × domain
-  → KHÔNG CÓ type "đúng nhất" — chỉ có type "phù hợp nhất cho NGƯỜI NÀY"
+  → Each type has DIFFERENT source, mechanism, risk, and resilience profile
+  → Most people have MULTIPLE types but with 1-2 dominant (§2.5)
+  → "Meaning differs per person" = because anchor TYPE + content DIFFERS (§3.6)
 ```
 
-### §3.1 — GOAL Type: "Xây dựng thứ vĩ đại"
+### §3.1 — GOAL Type: "Build something great"
 
 ```
-🟡 GOAL TYPE = ANCHOR VÀO TRẠNG THÁI TƯƠNG LAI:
+MECHANISM:
+  → Life-level anchor = a FUTURE STATE worth organizing everything toward
+  → PFC Imagine-Final (Imagine-Final.md): creates terminal state representation
+  → Body compiles: "I am the person who is building X → EVERYTHING serves this"
+  → Drive flows TOWARD goal → chunks organize as sub-steps toward terminal state
 
-  MECHANISM:
-    → Imagine-Final ở life-scale → body pre-feel end state
-    → End state = anchor → sync toàn hệ thống HƯỚNG TỚI đó
-    → Mỗi step → compare với anchor → "đúng hướng" hoặc "sai"
+EXAMPLES:
+  → "Build a product that helps millions"
+  → "Become a great parent"
+  → "Complete a life's work" (scientific discovery, artistic legacy, etc.)
+  → Startup founder: anchor = "make this company work"
+  → Athlete: anchor = "reach Olympic level"
 
-  ĐẶC ĐIỂM:
-    → Mạnh nhất khi: PFC clarity CAO + domain confirm + hardware match
-    → Yếu nhất khi: achieved (§2.2 exhausted) hoặc unfeasible
-    → = Imagine-Final.md 14 ngưỡng clarity: wish → obsession
-    → = CẦN PFC participation cao → tốn bandwidth nhưng direction rõ
+STRENGTHS:
+  → STRONG drive: goal anchor activates cortisol compile direction (role ①)
+  → Clear sub-goal hierarchy: medium and short-term goals all nest under life anchor
+  → Measurable progress: body can check "am I getting closer?"
 
-  VÍ DỤ:
-    → Jensen Huang: "NVIDIA thành reference computing" → 30 năm consistent
-    → Nhà nghiên cứu: "giải mã bí ẩn X" → career organized quanh đó
-    → Kiến trúc sư: "thiết kế công trình đẹp" → mỗi project → anchor
+RISKS:
+  → EXHAUSTION: when ACHIEVED → anchor void (§2.2)
+  → Brittle: if goal blocked (illness, failure) → anchor disrupted
+  → PFC-heavy: if body does NOT compile deeply → only PFC construct → collapses under stress
 
-  TRADE-OFF:
-    → ✅ Direction CỰC RÕ → drive mạnh → chịu dissonance lâu
-    → ⚠️ Khi đạt → VOID (§2.2) → cần anchor MỚI
-    → ⚠️ Khi fail → có thể COLLAPSE → meaning crisis
-    → ⚠️ Narrow: chỉ serve 1 domain → other domains có thể fragment
-    → = CEO thành công nhưng gia đình rạn → GOAL anchor ≠ cover everything
+COMPILE PATH:
+  → Start: Imagine-Final (PFC creates goal picture)
+  → Deepen: Compiled Experience (actual progress → body encodes "this is real")
+  → Body-accept: years of consistent behavior toward goal → body says "this IS me"
+
+🟡 Goal hierarchy → meaning = framework synthesis (Carver & Scheier, Imagine-Final.md).
+🟢 Goal pursuit → life satisfaction = SDT (Deci & Ryan 2000).
 ```
 
-### §3.2 — STATE Type: "An lạc trong tâm hồn"
+### §3.2 — STATE Type: "Inner peace"
 
 ```
-🟡 STATE TYPE = ANCHOR VÀO TRẠNG THÁI NỘI TẠI:
+MECHANISM:
+  → Life-level anchor = a RECURRING INTERNAL STATE worth organizing toward
+  → Not achieving an external object but BEING in a stable inner state
+  → Buddhist/contemplative traditions: "awakening," "liberation" as life anchor
+  → Secular: "psychological freedom," "authentic self," "constant equanimity"
+  → Body compiles: "I am the person who MAINTAINS this state → everything serves this"
 
-  MECHANISM:
-    → Anchor KHÔNG phải "đạt cái gì" mà "DUY TRÌ trạng thái nào"
-    → Body compiled: "trạng thái X = đúng hướng" → TỰ sync quanh duy trì X
-    → Không cần achieve → chỉ cần maintain → bền vững hơn GOAL
+EXAMPLES:
+  → "Live in peace, present moment" (mindfulness-as-life-anchor)
+  → "Inner freedom regardless of circumstances"
+  → "Constant authentic state, not social performance"
+  → Meditation master: decades compiling "equanimity" as life-level anchor
+  → Person after serious illness: "just be fully present each day"
 
-  ĐẶC ĐIỂM:
-    → Mạnh nhất khi: compiled deep qua practice lâu dài (meditation, reflection)
-    → Yếu nhất khi: domain buộc phải rời trạng thái (CEO phải cảnh giác)
-    → = Không phải MỌI người đều "được phép" duy trì state
-    → = Hardware + domain constraint
+STRENGTHS:
+  → DISRUPTION RESISTANT: not dependent on external outcomes
+  → Frankl Case ④: "attitude toward suffering" = STATE type → works even in camp
+  → Does not exhaust: state = maintained, not consumed
+  → Works when all else stripped (Frankl §5.2 route ③)
 
-  VÍ DỤ:
-    → Thiền sư: "an lạc" = life-level anchor → mọi thứ organize quanh duy trì
-    → Triết gia Stoic: "equanimity" = anchor → chấp nhận mọi external event
-    → Người già bình an: "thanh thản" = compiled anchor từ experience
+RISKS:
+  → Hardest to compile: body needs extensive evidence to accept "state = anchor"
+  → Counter-cultural: most environments reward GOAL type → STATE type neglected
+  → Misread as "passive" (western bias toward achievement anchors)
+  → Without practice path → stays PFC construct, not body-compiled
 
-  TRADE-OFF:
-    → ✅ BỀN VỮNG nhất: không phụ thuộc external achievement
-    → ✅ Không void khi đạt (vì maintain, không achieve)
-    → ⚠️ Cần NHIỀU time + practice để compile (không shortcut)
-    → ⚠️ Có thể conflict với domain requirements
-      (CEO cần alert → "an lạc" suốt ngày = domain mismatch)
-    → ⚠️ Có thể bị nhầm với avoidance ("bình an" = tránh đối mặt?)
+COMPILE PATH:
+  → Primarily: Compiled Experience (repeated practice → body encodes the state)
+  → Key: consistency + enough accumulated episodes → body ACCEPTS state as anchor
+  → PFC Imagine-Final can scaffold (imagine the state) but body must COMPILE it
+
+🟢 State-based meaning = Buddhist psychology (Deci & Ryan: relatedness + autonomy as need).
+🟡 STATE type = framework synthesis.
 ```
 
-### §3.3 — IDENTITY Type: "Tôi là người cha/mẹ tốt"
+### §3.3 — IDENTITY Type: "I am a good parent"
 
 ```
-🟡 IDENTITY TYPE = ANCHOR VÀO "TÔI LÀ AI":
+MECHANISM:
+  → Life-level anchor = a DEFINITION OF SELF worth being organized around
+  → "I AM [type of person]" → behavior must ALIGN with that definition
+  → Body compiles: "this is what I am → everything I do = expression of this"
+  → Identity anchor creates strongest INTEGRITY signal: "acting against this = wrong"
 
-  MECHANISM:
-    → Self-schema compiled deep: "tôi LÀ loại người NÀY"
-    → Schema đó = anchor → sync hành vi, quyết định, relationships quanh identity
-    → Mọi action → compare: "người NHƯ TÔI có làm thế không?"
+EXAMPLES:
+  → "I am a good parent" → all choices filter through this
+  → "I am a person who makes a difference" → career, relationships, behavior
+  → "I am someone who does not give up" → resilience as identity anchor
+  → "I am someone who lives honestly" → integrity as life-level anchor
+  → Person who built identity around work role → retirement = identity crisis
 
-  ĐẶC ĐIỂM:
-    → Mạnh nhất khi: identity confirmed qua domain feedback nhiều năm
-    → Yếu nhất khi: identity bị challenge (§2.3 disrupted)
-    → = Protect.md §3.4: identity protect → GIỮ anchor này chặt
+STRENGTHS:
+  → STRONG behavioral guide: choices that align → "right"; misaligned → "wrong"
+  → Resilient: identity-anchored person experiences hardship as "part of my story"
+  → Agent-Mechanism §12: Self-Pattern-Modeling at life-level = 1 of 10 dimensions
 
-  VÍ DỤ:
-    → Cha/mẹ: "tôi là phụ huynh tốt" → mọi thứ organize quanh nuôi con
-    → Giáo viên: "tôi là người truyền cảm hứng" → career + values aligned
-    → Nghệ sĩ: "tôi là creator" → identity = anchor (không cần goal cụ thể)
+RISKS:
+  → DISRUPTION VULNERABLE: if reality CONFLICTS with identity → crisis (§2.3①)
+    → "I am a good parent" + "my child suffers" → severe dissonance
+  → RIGIDITY: Protect.md identity protect = blocks anchor recompile
+    → Person CANNOT update identity even when needed → outdated anchor maintained
 
-  TRADE-OFF:
-    → ✅ Compiled deep → sustainable → ít tốn PFC
-    → ✅ Không phụ thuộc 1 goal cụ thể → flexible hơn GOAL type
-    → ⚠️ Khi identity bị challenge → EXISTENTIAL CRISIS
-      (ly hôn → "tôi không còn là người vợ/chồng tốt" → anchor PHÁ)
-    → ⚠️ Protect fire MẠNH → có thể block necessary reframe
-    → ⚠️ Con trưởng thành → "tôi là cha/mẹ" anchor SHIFTING → void
+DISTINGUISH FROM PROTECT:
+  → Protect: body DEFENDS existing self-model from threat
+  → Identity anchor: body ORGANIZES around self-model as source of meaning
+  → Interaction: strong identity anchor → STRONGER protect signal (§7.5)
+
+🟢 Identity as anchor = Erikson identity theory, Swann self-verification theory.
+🟢 Identity × meaning = Park 2005 meaning-making framework.
 ```
 
-### §3.4 — FAITH Type: "Chúa có kế hoạch"
+### §3.4 — FAITH Type: "God has a plan"
 
 ```
-🟡 FAITH TYPE = ANCHOR VÀO NIỀM TIN VÔ ĐIỀU KIỆN:
+MECHANISM:
+  → Life-level anchor = a BELIEF in an external order, purpose, or intelligence
+  → "Something BEYOND me has a meaning for my life" → body anchors to that
+  → External Inject source (§4.3): religion/culture installs the belief pattern
+  → Bypass PFC: ritual + community + emotion → compiled WITHOUT logical analysis
+  → Body accepts: "the universe/God/karma has a plan → I am part of it"
 
-  MECHANISM:
-    → Schema UNFALSIFIABLE: domain feedback KHÔNG THỂ phá
-    → External inject (tôn giáo, cộng đồng) → compile vào vô thức
-    → Trust → ∞ (Anchor-Schema.md §2: unfalsifiable → trust KHÔNG THỂ bị phá)
-    → = Anchor BỀN NHẤT trong 5 types
+EXAMPLES:
+  → Monotheistic religion: "God has a purpose for my suffering"
+  → Buddhist cosmology: "my suffering has a role in liberation"
+  → Secular "fate": "everything happens for a reason"
+  → Cultural mission: "I serve my people" (national/ethnic identity as FAITH anchor)
+  → "Karma" / "dharma": cosmic order that my life participates in
 
-  ĐẶC ĐIỂM:
-    → Mạnh nhất khi: compiled deep qua ritual + community + repetition
-    → Yếu nhất khi: experiential disillusionment hoặc exposure to alternatives
-    → = Không cần PFC understand → bypass PFC → direct to vô thức
-    → = Anchor-Schema.md §0 case ④: tôn giáo work MÀ KHÔNG CẦN PFC hiểu sâu
+STRENGTHS:
+  → UNFALSIFIABLE: cannot be empirically disproved → extraordinarily stable
+  → ACCESSIBLE: does not depend on personal achievement or state
+  → Works in extremis: Frankl notes belief believers often survived longer in camp
+  → Terror Management Theory: faith anchor = primary buffer against mortality anxiety
 
-  VÍ DỤ:
-    → Tín đồ: "ý nghĩa cuộc đời = sống thánh thiện → lên thiên đàng"
-      → Anchor STABLE, compiled deep, community reinforce
-    → Phật tử: "nghiệp báo, luân hồi" → anchor organize toàn bộ moral framework
-    → "Calling": "tôi được gọi để phục vụ" → faith-based anchor
+RISKS:
+  → Domain=Arbiter (§1.1b): FAITH anchor can be WRONG (cult, extremism)
+  → Requires community + ritual maintenance → lose community → anchor weakens
+  → Disillusionment (§2.3③): if institution betrayed → anchor collapse SUDDEN
+  → PFC dominance (§4.1): highly educated / analytical people find it HARDER to body-accept
 
-  TRADE-OFF:
-    → ✅ BỀN NHẤT: unfalsifiable → không bị domain feedback phá
-    → ✅ Accessible: trẻ con tới người lớn đều có thể adopt
-    → ✅ Community: shared anchor → social reinforcement → trust ↑↑
-    → ⚠️ Giảm diversity: nếu MỌI NGƯỜI cùng anchor
-      → ít khác biệt trong meaning → giảm breakthrough/sáng tạo
-    → ⚠️ NHƯNG: giảm ≠ mất — có thể vừa FAITH anchor + GOAL/ROLE anchor
-      → Miễn các anchors KHÔNG conflict → đồng thời hoạt động
-      (nhà khoa học + tín đồ = 2 anchors aligned nếu không contradict)
-    → ⚠️ Delusion risk: nếu faith-based anchor DẪN TỚI harmful actions
-      = Anchor-Schema.md §2: Clarity CAO + Quality ✗ + Trust CAO = NGUY HIỂM
+🟢 Faith → meaning + resilience = abundant literature (Frankl 1946, Park 2005).
+🟢 Terror Management Theory: faith buffer against mortality = Greenberg et al. 1986.
+🟢 Religious community → meaning persistence = Koenig et al.
 ```
 
-### §3.5 — ROLE Type: "Công việc tôi quan trọng"
+### §3.5 — ROLE Type: "My work matters"
 
 ```
-🟡 ROLE TYPE = ANCHOR VÀO VAI TRÒ TRONG HỆ THỐNG LỚN HƠN:
+MECHANISM:
+  → Life-level anchor = a PLACE within a larger system worth being organized around
+  → "I SERVE / CONTRIBUTE to something beyond me" → body anchors to that role
+  → Different from GOAL (goal = achieve X) or IDENTITY (identity = I AM)
+  → ROLE = I AM THE CONNECTOR between my actions and a larger system's need
 
-  MECHANISM:
-    → "Tôi = phần của cái gì đó LỚN HƠN"
-    → Vai trò = anchor → sync hành vi phục vụ hệ thống
-    → Social feedback confirm: "vai trò này QUAN TRỌNG" → trust build
+EXAMPLES:
+  → "My work matters — what I do every day affects people"
+  → "I am the one who keeps this family together"
+  → "I am a teacher — my students need me"
+  → "I am part of a mission larger than myself"
+  → Retiree: "I am the memory-keeper of my community"
+  → Jensen Huang: role anchor = "build the infrastructure for the AI era"
 
-  ĐẶC ĐIỂM:
-    → Mạnh nhất khi: social confirmation consistent + role visible
-    → Yếu nhất khi: role thay đổi (restructure, retire) hoặc unrecognized
-    → = Collective-Purpose.md: "vô danh ≠ vô nghĩa"
+STRENGTHS:
+  → SUSTAINED: role continues as long as the system continues
+  → SOCIAL COMPOUND: shared with others → co-regulation (Connection.md)
+  → Resilience: temporary failures = "serving the role is worth the cost"
+  → Erikson generativity: most natural life anchor at 40-60+
 
-  VÍ DỤ:
-    → Bác sĩ: "tôi cứu người" → role = anchor → organize career + identity
-    → Lính cứu hỏa: "tôi bảo vệ cộng đồng" → role = life anchor
-    → Người giữ vệ sinh: "không có tôi, thành phố bẩn" → role = anchor
-    → Mẹ nội trợ: "tôi giữ gia đình ổn định" → role = anchor
+RISKS:
+  → EXHAUSTION when role ends: retirement, empty nest, project ends
+  → DEPENDENCY: if system is destroyed → role anchor collapses
+  → "Serving" can become compulsive if ROLE = only anchor (no STATE, IDENTITY backup)
 
-  TRADE-OFF:
-    → ✅ Social reinforcement → trust build liên tục
-    → ✅ Không cần "vĩ đại" — bất kỳ role nào cũng có thể anchor
-    → ⚠️ Phụ thuộc external recognition (nếu role bị devalue → anchor yếu)
-    → ⚠️ Retire/restructure → role GONE → meaning crisis
-    → ⚠️ Có thể bị exploit: tổ chức lợi dụng "role = meaning"
-      → "Công ty là gia đình" → exploit commitment
-
-  → Collective-Purpose.md reframe:
-    → "Sống có ý nghĩa" = follow your melody = đã contribute
-    → Role anchor: "tôi = phần của loop" → không cần "vĩ đại"
-    → = Giảm áp lực "phải có mục đích lớn"
+🟡 ROLE type = framework synthesis.
+🟢 Role identity theory (Stryker): role → identity → meaning.
+🟢 Erikson generativity = caring for next generation as life purpose.
 ```
 
-### §3.6 — Tại Sao Meaning Mỗi Người KHÁC
+### §3.6 — Why Meaning Differs Per Person
 
 ```
-⭐ MEANING KHÁC VÌ OPTIMAL ANCHOR KHÁC:
+⭐ 5 FACTORS WHY EACH PERSON'S ANCHOR IS DIFFERENT:
 
-  CÙNG CÂU HỎI "ý nghĩa cuộc đời là gì?" → CÂU TRẢ LỜI KHÁC:
+  ① HARDWARE (neurobiological baseline):
+    → Introversion/extroversion bias → STATE vs CONNECTION anchors
+    → High novelty-sensitivity (DRD4 7R): GOAL anchor pulls strongly
+    → High default threat: FAITH anchor more attractive (certainty buffer)
+    → ADHD pattern: multiple GOAL anchors in parallel; needs clarity in one
+    → ASD pattern: IDENTITY/STATE anchors common; social ROLE anchor harder
 
-    Thiền sư: "an lạc trong tâm hồn" (STATE)
-    CEO: "tạo ra thứ vĩ đại" (GOAL)
-    Bà ngoại: "gia đình tôi hạnh phúc" (IDENTITY + ROLE)
-    Mục sư: "phục vụ Chúa" (FAITH)
-    Bác sĩ: "cứu người" (ROLE)
+  ② CHUNK LIBRARY (accumulated life experience):
+    → Extensive experience in domain X → ROLE/GOAL anchor in X easy to compile
+    → Trauma disrupting domain Y → anchor in Y hard to compile (Protect blocks)
+    → Depth of compiled experience → STATE anchor (decades of meditation → state)
+    → Early childhood bonding → CONNECTION/ROLE anchors easier
 
-    → KHÔNG AI SAI. Mỗi người anchor type KHÁC vì:
+  ③ DOMAIN (primary pattern-processing area):
+    → Physical/kinesthetic domain: STATE anchor through body (athlete, martial artist)
+    → Social domain: ROLE/CONNECTION anchors natural
+    → Intellectual domain: GOAL/IDENTITY anchors natural ("I am a thinker")
+    → Spiritual/contemplative domain: FAITH/STATE anchors primary
 
-  5 YẾU TỐ QUYẾT ĐỊNH ANCHOR TYPE PHÙ HỢP:
+  ④ CULTURAL SCHEMAS (installed meaning templates):
+    → High collectivism (East Asian, South Asian): ROLE anchor culturally favored
+    → High individualism (Western): GOAL/IDENTITY anchor culturally favored
+    → Religious culture: FAITH anchor readily available as template
+    → Secular modern: must often BUILD anchor from scratch (no template)
 
-    ① Hardware:
-       → DRD4 variant cao → GOAL type phù hợp (novelty + achievement)
-       → COMT chậm → STATE type phù hợp (deep processing, reflection)
-       → = PFC-Hardware.md: hardware BIAS anchor type preference
+  ⑤ LIFE STAGE (§2.4 Age Gradient):
+    → 15-25: GOAL dominant (direction seeking)
+    → 25-40: ROLE/IDENTITY building
+    → 40-50: reassessment → may shift types
+    → 60+: FAITH/STATE/LEGACY/ROLE (legacy type)
 
-    ② Chunk library:
-       → Nhiều experience đa dạng → GOAL/ROLE type dễ build
-       → Nhiều reflection practice → STATE type dễ compile
-       → Nhiều social confirmation → IDENTITY/ROLE type dễ maintain
-       → = Chunks ACCUMULATED → limit WHICH anchors body can accept
+  → All 5 interact: HARDWARE × CHUNKS × DOMAIN × CULTURE × STAGE → unique anchor
 
-    ③ Domain:
-       → Domain competitive (business) → GOAL type natural fit
-       → Domain service (healthcare) → ROLE type natural fit
-       → Domain contemplative (monastery) → STATE type natural fit
-       → = Domain SHAPE which anchor types get reinforced
+  IMPLICATION:
+    → "Your meaning should be X" = assigning someone else's anchor type
+    → No universal anchor type: GOAL isn't superior to FAITH isn't superior to STATE
+    → Framework question: "which type best fits YOUR hardware × chunks × stage?"
 
-    ④ Cultural schemas:
-       → Culture "thành công = giàu" → GOAL type pushed
-       → Culture "gia đình trên hết" → IDENTITY type pushed
-       → Culture tôn giáo → FAITH type pushed
-       → = External inject (Anchor-Schema.md §3 nguồn ④) BIAS type
-
-    ⑤ Life stage:
-       → Trẻ: GOAL type dominan (mới, exciting, VTA reward)
-       → Trung niên: IDENTITY/ROLE type emerge (enough chunks)
-       → Người già: STATE/FAITH type stabilize (compiled, low PFC cost)
-       → = Life stage CORRELATE với anchor type shift
-
-  ⭐ TẠI SAO "MEANING CỦA NGƯỜI NÀY KHÔNG DÙNG CHO NGƯỜI KIA":
-
-    Thiền sư → CEO: "hãy bình an" → CEO: "tôi PHẢI cảnh giác, domain require"
-    CEO → thiền sư: "hãy tạo impact" → thiền sư: "hardware tôi không drive theo"
-    Tín đồ → vô thần: "tin Chúa đi" → vô thần: "body tôi không accept unfalsifiable"
-    → = KHÔNG THỂ prescribe anchor type → chỉ có thể facilitate body ACCEPT
-
-  🟡 5 types classification = framework synthesis v2.0
-  🟡 "Optimal anchor khác per person" = framework principle
-  🟢 Person-environment fit → wellbeing (Edwards & Rothbard 1999)
-  🟢 Values → meaning (Schwartz 1994, value theory)
-  🟢 Self-Determination Theory: autonomy + competence + relatedness (Deci & Ryan 2000)
+🟡 5 factors = framework synthesis integrating hardware, developmental, cultural models.
+🟢 Hardware individual differences = behavioral genetics literature.
+🟢 Cultural meaning schemas = Kluckhohn & Strodtbeck value orientations; Hofstede dimensions.
 ```
 
 ---
 
-## §4 — SOURCES: 4 NGUỒN FILL LIFE-LEVEL ANCHOR
+## §4 — SOURCES: 4 WAYS TO FILL A LIFE-LEVEL ANCHOR
 
 ```
-⭐ LIFE-LEVEL ANCHOR CẦN CONTENT — CONTENT TỪ ĐÂU?
+⭐ OVERVIEW: 4 SOURCES that can compile a life-level anchor:
 
-  Map trực tiếp Anchor-Schema.md §3 — 4 nguồn fill:
+  ┌──────────────────┬──────────────────┬───────────────┬───────────────────────┐
+  │ SOURCE           │ Direction        │ Speed         │ Primary types         │
+  ├──────────────────┼──────────────────┼───────────────┼───────────────────────┤
+  │ PFC Imagine-     │ Top-down: PFC    │ FAST: hours   │ GOAL, ROLE            │
+  │ Final            │ builds future    │ to days       │                       │
+  │                  │ picture → body   │               │                       │
+  │                  │ pulls toward it  │               │                       │
+  ├──────────────────┼──────────────────┼───────────────┼───────────────────────┤
+  │ Compiled         │ Bottom-up: lived │ SLOW: months  │ STATE, IDENTITY       │
+  │ Experience       │ experiences →    │ to years      │                       │
+  │                  │ body encodes     │               │                       │
+  │                  │ deep pattern     │               │                       │
+  ├──────────────────┼──────────────────┼───────────────┼───────────────────────┤
+  │ External Inject: │ Bypass PFC:      │ FAST install, │ FAITH                 │
+  │ Religion +       │ ritual+community │ SLOW deepen   │                       │
+  │ Culture          │ + emotion        │               │                       │
+  │                  │ compile belief   │               │                       │
+  ├──────────────────┼──────────────────┼───────────────┼───────────────────────┤
+  │ [Fourth source   │ Relational co-   │ Medium        │ ROLE, CONNECTION      │
+  │ Connection-      │ compilation:     │               │                       │
+  │ derived]         │ shared anchors   │               │                       │
+  └──────────────────┴──────────────────┴───────────────┴───────────────────────┘
 
-  ┌──────────────────────────────────────────────────────────┐
-  │                                                          │
-  │  ① PFC Imagine-Final (top-down, phong phú nhất)         │
-  │  ② Compiled Experience (bottom-up, bền nhất)            │
-  │  ③ External Inject: Religion + Culture (bypass PFC)      │
-  │  ④ Hippocampus Simulation (near-future, hạn chế ở       │
-  │     life-scale nhưng contribute data cho ①②)            │
-  │                                                          │
-  │  Nguồn ④ ít relevant ở LIFE-LEVEL (hippocampus =        │
-  │  near-future simulation) → focus ①②③ cho Meaning        │
-  │                                                          │
-  │  Có thể NHIỀU nguồn fill CÙNG LÚC (reinforce)          │
-  │  Có thể nguồn CONFLICT (PFC build ≠ body compiled)     │
-  │                                                          │
-  └──────────────────────────────────────────────────────────┘
+  → These map directly to Anchor-Schema.md §3 (4 fill pathways)
+  → Each source creates a DIFFERENT kind of anchor: different stability, different risk
 ```
 
 ### §4.1 — PFC Imagine-Final (top-down)
 
 ```
-🟡 NGUỒN ① — PFC BUILD LIFE-LEVEL IMAGINE-FINAL:
+MECHANISM:
+  → Imagine-Final (Imagine-Final.md §2): PFC builds terminal-state representation
+  → "I IMAGINE clearly: this is the person I want to become / the future I'm building"
+  → PFC creates goal picture → motivational pull toward it → direction flows
+  → Body gradually COMPILES: repeated activation of Imagine-Final →
+    chunks organize → "pursuing this = right"
 
-  CƠ CHẾ:
-    → PFC simulate trạng thái tương lai ở life-scale
-    → Body preview: "melody sẽ thế NÀO nếu tôi theo hướng này?"
-    → Nếu body accept (opioid preview) → Imagine-Final → thành Anchor
-    → = Imagine-Final.md §1: 3-layer hierarchy (body-need → Imagine-Final → plan)
+EXAMPLE PATH:
+  → Young scientist: "I imagine making a fundamental discovery" (Imagine-Final active)
+  → Years of research → body encodes: "I AM this kind of scientist" (IDENTITY forms)
+  → Imagine-Final gradually COMPLIED into Anchor-Schema → meaning deepens
 
-  ĐẶC ĐIỂM:
-    → Phong phú: cross-domain, temporal xa, abstract
-    → Flexible: PFC có thể adjust, discard, rebuild
-    → Conscious: biết đang anchor CÁI GÌ
-    → NHƯNG: cần CHUNKS để build → chunk density ĐỦ CAO mới work
-    → NHƯNG: tốn PFC bandwidth → cần maintain active cho tới compiled
+FOR WHICH ANCHOR TYPES:
+  → GOAL type: most natural — Imagine-Final creates goal picture
+  → ROLE type: "I imagine myself serving this community" → ROLE anchor
+  → IDENTITY type can EMERGE from sustained Imagine-Final toward a self-image
 
-  THƯỜNG TẠO ANCHOR TYPE: GOAL, ROLE
-    → "Tôi sẽ build công ty tuyệt vời" (GOAL — PFC simulate end state)
-    → "Tôi sẽ trở thành bác sĩ cứu người" (ROLE — PFC simulate role)
+STRENGTHS:
+  → Fast to activate: PFC can build the picture in hours
+  → Flexible: can adjust Imagine-Final as context changes
+  → Scaffold: helps body find direction before anchor fully compiled
+  → Clear sub-goal hierarchy
 
-  VÍ DỤ:
-    → Jensen Huang 25 tuổi: PFC simulate "GPU = future computing"
-      → Body preview: "XỨNG" → anchor build → 30 năm consistent
-    → Sinh viên y: PFC simulate "tôi = bác sĩ cứu người"
-      → Body preview: opioid → anchor build → 10 năm training chịu được
+LIMITATIONS:
+  → NOT yet meaning: Imagine-Final ≠ compiled Anchor-Schema (Anchor-Schema.md §2)
+  → Body MUST compile it: if only PFC construct → collapses under stress
+  → Compile takes TIME: Imagine-Final → Trust → deep anchor = months to years
+  → If body cannot accept Imagine-Final (counter to hardware/history) → cannot compile
+
+IMPLICATION:
+  → "Set a life goal" (common advice) = activate Imagine-Final
+  → CORRECT but INSUFFICIENT: must then let body compile through lived experience
+  → GOAL self-help: addresses this source ONLY → misses Compiled Experience, FAITH
+
+🟡 PFC Imagine-Final → anchor = framework mechanism (Imagine-Final.md, Anchor-Schema.md §3).
+🟢 Goal representation → motivation = Carver & Scheier goal regulation theory.
 ```
 
 ### §4.2 — Compiled Experience (bottom-up)
 
 ```
-🟡 NGUỒN ② — COMPILED TỪ TRẢI NGHIỆM TÍCH LŨY:
+MECHANISM:
+  → Body COMPILES patterns from lived experience: "what this ACTUALLY felt like"
+  → Does NOT come from PFC narrative — comes from repeated lived patterns
+  → Over time: body encodes "I AM the kind of person who does X" (not decided, just IS)
+  → Most STABLE source: compiled from actual body evidence, not cognitive construct
 
-  CƠ CHẾ:
-    → Nhiều experience lặp lại + body confirm → schema compile deep
-    → Schema compiled = TỰ fire → TỰ thành anchor (không cần PFC)
-    → = Anchor-Schema.md §0 case ②: "không giải thích được nhưng BIẾT"
-    → = "Tiếng gọi" / "calling" / "gut feeling tôi phải làm thế"
+EXAMPLE PATH:
+  → Parent: years of caring → body COMPILES: "my child's wellbeing = my anchor"
+  → No explicit decision: just IS true at body level
+  → Can survive disillusionment of career GOAL anchor → parent's anchor holds
+  → Frankl: decades of intellectual/therapeutic work compiled IDENTITY anchor deep
 
-  ĐẶC ĐIỂM:
-    → BỀN NHẤT: đã compiled → PFC không cần maintain → low cost
-    → CHẬM: cần nhiều năm experience → không shortcut
-    → IMPLICIT: người sở hữu có thể KHÔNG BIẾT anchor là gì
-    → = Anchor-Schema.md §2: Anchor Strength COMPILED → tự fire
+EXAMPLE SOURCES OF COMPILED EXPERIENCE:
+  → Consistent practice: artist / researcher / craftsperson over decades
+  → Caretaking: years of parenting / caring for others → ROLE anchor compiled
+  → Suffering overcome: surviving hardship → body compiles "I can hold" = STATE/IDENTITY
+  → Relationship depth: decades with same person / community → CONNECTION/ROLE
 
-  THƯỜNG TẠO ANCHOR TYPE: STATE, IDENTITY
-    → "Tôi bình an" (STATE — compiled từ nhiều năm practice)
-    → "Tôi là người cha tốt" (IDENTITY — compiled từ parenting experience)
+FOR WHICH ANCHOR TYPES:
+  → STATE type: most natural — requires most accumulated practice
+  → IDENTITY type: deep compilation → "I AM" without deliberation
+  → ROLE type: years of service → compiled belonging + role identity
+  → GOAL type: can compile IF body consistently pursues over time
 
-  VÍ DỤ:
-    → Bà ngoại 70 tuổi: "gia đình là tất cả" → compiled từ 40+ năm
-      → Không cần PFC deliberate → body TỰ BIẾT → anchor CỰC BỀN
-    → Nghệ nhân 60 tuổi: "tay nghề là đời tôi" → compiled từ practice
-      → Identity + mastery compiled → meaning present dù không verbalize
+STRENGTHS:
+  → MOST STABLE: based on actual body evidence → highest Trust (Anchor-Schema §2)
+  → Survives disruption: Frankl's compiled intellectual identity = held in camp
+  → Most HONEST: body compiled means body ACTUALLY ACCEPTED
+
+LIMITATIONS:
+  → SLOWEST: years to decades to compile
+  → Cannot be manufactured: must be LIVED, not planned
+  → Compile path depends on domain experience: without deep practice → cannot compile
+  → Trauma can BLOCK compilation (body associates domain with threat)
+
+🟢 Implicit self-knowledge = Reber 1993, Bechara somatic marker hypothesis.
+🟢 Lived experience → identity = narrative identity theory (McAdams 1993).
 ```
 
 ### §4.3 — External Inject: Religion + Culture
 
 ```
-⭐ NGUỒN ③ — BÊN NGOÀI CÀI ĐẶT TRỰC TIẾP VÀO VÔ THỨC:
+MECHANISM:
+  → Body's PFC BYPASSED: ritual + community + emotion → pattern installed directly
+  → Not logically analyzed: EXPERIENCED in community context → body accepts
+  → Frankl route ②: "experience encounter" — raw emotional event bypasses analysis
+  → Religion/culture provides READY-MADE anchor schema: "your life has THIS meaning"
+  → Body accepts: "God's plan / dharma / cosmic order includes me" = FAITH anchor
 
-  CƠ CHẾ:
-    → Tôn giáo, gia đình, văn hóa, cộng đồng REPEAT schema
-    → Ritual + repetition → compile TRỰC TIẾP vào vô thức
-    → BYPASS PFC: không cần hiểu sâu → vẫn compile
-    → = Anchor-Schema.md §0 case ④ + §3 nguồn ④
+BYPASS MECHANISM (Anchor-Schema.md §3):
+  → Strong emotion (awe, gratitude, surrender) + community co-regulation →
+    pattern installs WITHOUT PFC verification
+  → Same as: child's attachment schema formed before PFC developed
+  → = External pattern injected → body owns it as "mine"
 
-  ĐẶC ĐIỂM:
-    → ACCESSIBLE nhất: trẻ con tới người lớn đều receive được
-    → BYPASS PFC: không cần chunk density cao → work ở MỌI tuổi
-    → COMMUNITY AMPLIFY: social reinforcement → trust ↑↑
-    → = Anchor-Schema.md §2: social proof → belief amplification
+EXAMPLES:
+  → Religious conversion: intense experience + community → FAITH anchor compiled quickly
+  → Cultural initiation: ritual marking adulthood → ROLE/IDENTITY anchor installed
+  → National mythology: "I am part of this people's story" → collective ROLE anchor
+  → Grief ritual: community + ceremony → anchor around loss → meaning preserved
 
-  ⭐ TÔN GIÁO = ANCHOR PROVIDER CỰC KỲ HIỆU QUẢ:
+STRENGTHS:
+  → FAST install: ceremony/ritual/intense experience can compile in single event
+  → ACCESSIBLE: does not require personal achievement or years of practice
+  → PFC not required: works regardless of analytical capacity
+  → Community co-regulation: shared anchor → co-maintaining (Connection.md)
 
-    TẠI SAO TÔN GIÁO WORK:
+LIMITATIONS:
+  → Domain=Arbiter risk (§1.1b): FAITH anchor installed by external system MAY BE WRONG
+  → Cult/extremist example: deepest meaning + completely wrong anchor
+  → Fragile without community: if community lost → anchor maintenance lost
+  → Unfalsifiable = stable AND blind: cannot update when should
+  → Disillusionment type (§2.3③): if institution fails → sudden total collapse
 
-      ① Cung cấp life-level anchor SẴN:
-         → "Sống thánh thiện → lên thiên đàng" = FAITH type anchor
-         → Không cần BUILD từ experience → RECEIVE trực tiếp
-         → = Trẻ con 5 tuổi ĐÃ CÓ life-level anchor
-
-      ② Anchor UNFALSIFIABLE → trust ≈ ∞:
-         → Domain feedback KHÔNG THỂ phá: "thiên đàng" không verify được
-         → = Anchor BỀN nhất có thể (Anchor-Schema.md §2)
-
-      ③ Ritual compile deep:
-         → Cầu nguyện hàng ngày, lễ hàng tuần, nhịn ăn hàng tháng
-         → Repetition → compile → anchor strength TĂNG liên tục
-         → = Gratitude.md §3.3: ritual = anti-habituation mechanism
-
-      ④ Community reinforce:
-         → Giáo đoàn cùng tin → social proof → trust NHÂN LÊN
-         → Shared anchor → connection reward → anchor MẠNH thêm
-         → = Anchor-Schema.md §2: social reinforcement → trust ↑
-
-      ⑤ Giảm existential anxiety:
-         → "Chúa có kế hoạch" → mortality awareness → "có hướng"
-         → = Terror Management Theory (Greenberg 1986 🟢)
-
-    TRADE-OFF CỦA TÔN GIÁO ANCHOR:
-
-      ✅ Bền, accessible, community-based, reduce anxiety
-      ⚠️ Nếu MỌI NGƯỜI cùng anchor → giảm diversity trong meaning
-        → Giảm diversity → giảm xác suất breakthrough sáng tạo
-        → NHƯNG: giảm ≠ mất — vì:
-          → Tôn giáo chỉ là 1 anchor, có thể có thêm GOAL/ROLE anchor
-          → Miễn các anchors KHÔNG CONFLICT → đồng thời hoạt động
-          → VD: nhà khoa học + tín đồ = 2 anchors aligned
-      ⚠️ Nếu faith → harmful actions → Anchor Quality ✗ (Evaluation.md)
-      ⚠️ Nếu faith bị shaken → anchor collapse → meaning crisis
-        → NẶNG hơn GOAL fail vì: faith anchor thường DEEP compiled
-        → Deep compiled mất → structural damage
-
-  🟢 Religion → meaning: well-documented (Park 2005, Pargament 2007)
-  🟢 Ritual → compile: implicit learning (Reber 1993)
-  🟢 Social proof → belief (Cialdini 2001)
-  🟢 Terror Management Theory (Greenberg et al. 1986)
-  🟡 "Religion = anchor provider" = framework mapping
-  🟡 "Diversity trade-off" = framework analysis
+🟢 Religious experience → meaning = William James "Varieties of Religious Experience".
+🟢 Bypass PFC = dual-process theory (Kahneman, Epstein implicit system).
+🟡 External Inject → anchor = framework synthesis (Anchor-Schema.md §3).
 ```
 
-### §4.4 — Trade-offs Mỗi Nguồn
+### §4.4 — Trade-offs Per Source
 
 ```
-🟡 BẢNG SO SÁNH 3 NGUỒN CHÍNH CHO LIFE-LEVEL ANCHOR:
+COMPARISON TABLE:
 
-  ┌──────────────┬─────────────────┬─────────────────┬─────────────────┐
-  │              │ ① PFC Imagine   │ ② Compiled Exp  │ ③ External      │
-  │              │   -Final        │                 │   Inject        │
-  ├──────────────┼─────────────────┼─────────────────┼─────────────────┤
-  │ Speed        │ Nhanh (PFC      │ Chậm (years)    │ Varied (ritual  │
-  │              │ simulate ngay)  │                 │ = gradual)      │
-  ├──────────────┼─────────────────┼─────────────────┼─────────────────┤
-  │ Stability    │ Trung bình      │ CAO nhất        │ CAO (nếu       │
-  │              │ (PFC shift)     │ (compiled deep) │ unfalsifiable)  │
-  ├──────────────┼─────────────────┼─────────────────┼─────────────────┤
-  │ PFC cost     │ CAO (maintain   │ THẤP (auto)     │ THẤP (compiled) │
-  │              │ active)         │                 │                 │
-  ├──────────────┼─────────────────┼─────────────────┼─────────────────┤
-  │ Chunk cần    │ CAO             │ CAO (years)     │ THẤP (receive)  │
-  ├──────────────┼─────────────────┼─────────────────┼─────────────────┤
-  │ Flexibility  │ CAO (rebuild)   │ THẤP (compiled) │ THẤP (dogma)   │
-  ├──────────────┼─────────────────┼─────────────────┼─────────────────┤
-  │ Risk khi mất │ Void (§2.2)     │ Identity crisis │ Deep structural │
-  │              │                 │ (§2.3)          │ crisis          │
-  ├──────────────┼─────────────────┼─────────────────┼─────────────────┤
-  │ Typical type │ GOAL, ROLE      │ STATE, IDENTITY │ FAITH           │
-  └──────────────┴─────────────────┴─────────────────┴─────────────────┘
+  ┌──────────────────┬────────┬────────┬────────┬────────┬────────────────────┐
+  │ Source           │ Speed  │Stability│Correct?│Access  │ Primary risk       │
+  ├──────────────────┼────────┼────────┼────────┼────────┼────────────────────┤
+  │ PFC Imagine-     │ FAST   │ MEDIUM │ Higher │ Medium │ Not compiled →     │
+  │ Final            │        │        │ (PFC   │        │ collapses under    │
+  │                  │        │        │ checks)│        │ stress             │
+  ├──────────────────┼────────┼────────┼────────┼────────┼────────────────────┤
+  │ Compiled         │ SLOW   │ HIGH   │ Highest│ Low    │ Requires decades;  │
+  │ Experience       │        │        │        │(needs  │ trauma can block   │
+  │                  │        │        │        │deep    │                    │
+  │                  │        │        │        │practice│                    │
+  ├──────────────────┼────────┼────────┼────────┼────────┼────────────────────┤
+  │ External Inject  │ FAST   │ HIGH   │ Lower  │ HIGH   │ Wrong anchor +     │
+  │                  │        │        │ (unfal-│(bypass │ disillusionment    │
+  │                  │        │        │ sifiable│PFC)   │ collapse           │
+  └──────────────────┴────────┴────────┴────────┴────────┴────────────────────┘
 
-  ⭐ IDEAL: NHIỀU NGUỒN REINFORCE CÙNG 1 ANCHOR:
-    → PFC build direction (①) + experience confirm (②) + community support (③)
-    → = TRIPLE REINFORCED → anchor CỰC BỀN
-    → VD: bác sĩ (ROLE) + PFC vision (GOAL) + family tradition (③) + experience (②)
-    → = Meaning CỰC STRONG — nhiều nguồn, cùng hướng
+  INTERACTION BETWEEN SOURCES:
+  → Most stable anchors = MULTIPLE sources overlapping:
+    PFC Imagine-Final scaffolds → Compiled Experience deepens → External Inject maintains
+  → Example: religious scientist
+    - PFC Imagine-Final: "I will make discoveries"
+    - Compiled Experience: decades of scientific work
+    - External Inject: faith community maintains FAITH anchor
+    → 3 sources → extremely stable meaning
+
+  → Most vulnerable: SINGLE source (especially PFC Imagine-Final only)
+    - Only "I think my purpose is X" → no compilation, no external support
+    - → First significant hardship collapses it
 ```
 
 ---
 
-## §5 — FRANKL REFRAME: CÙNG BODY-INPUTS, KHÁC ANCHOR
+## §5 — FRANKL REFRAME: SAME BODY-INPUTS, DIFFERENT ANCHOR
 
-### §5.1 — Mechanism: Anchor KHÁC → Outcome KHÁC
-
-```
-⭐ FRANKL = STRONGEST EVIDENCE CHO MEANING = ANCHOR-SCHEMA:
-
-  🟢 Viktor Frankl — Man's Search for Meaning (1946):
-    → Holocaust survivor, psychiatrist
-    → Observed: cùng điều kiện (đói, lạnh, lao động khổ sai)
-    → Người TÌM ĐƯỢC anchor → sống sót tỷ lệ CAO hơn
-    → Người KHÔNG TÌM ĐƯỢC → give up → chết
-
-  v2.0 ANALYSIS — ANCHOR LENS:
-
-    NGƯỜI A — CÓ ANCHOR:
-      → "Tôi sẽ sống để kể lại cho thế giới" = GOAL type anchor
-      → HOẶC: "Gia đình cần tôi" = ROLE type anchor
-      → HOẶC: "Suffering này có ý nghĩa trong kế hoạch Chúa" = FAITH type
-      → → Anchor CÓ → dàn nhạc SYNC → drive: survive → body mobilized
-      → → Cortisol CAO (threat thật) NHƯNG có TARGET → coped
-      → → Dissonance → "khổ nhưng XỨNG" (anchor hold qua dissonance)
-
-    NGƯỜI B — KHÔNG CÓ ANCHOR:
-      → Mọi anchor cũ bị STRIP: career, status, family access, comfort
-      → KHÔNG tìm được anchor MỚI → life-level position TRỐNG
-      → → Không anchor → cacophony → body: "vô hướng, vô vọng"
-      → → Cortisol CAO + KHÔNG CÓ TARGET → không coped → shutdown
-      → → Dissonance → "để làm gì?" → give up
-
-    ⭐ WHAT CHANGED BETWEEN A AND B?
-      → Body-inputs: IDENTICAL
-      → External conditions: IDENTICAL
-      → WHAT CHANGED: CÓ hay KHÔNG CÓ life-level Anchor-Schema
-      → = Meaning = ANCHOR STATUS, không phải body-input hay environment
-
-  v2.0 SO VỚI v1.0:
-    → v1.0 nói: "schema coherence khác" → ĐÚNG nhưng mơ hồ
-    → v2.0 nói: "CÓ anchor vs KHÔNG CÓ anchor" → CỤ THỂ hơn
-    → v2.0 THÊM: anchor TYPE nào (GOAL/FAITH/ROLE) → predict approach
-```
-
-### §5.2 — Logotherapy = 3 Routes Build Anchor
+### §5.1 — Mechanism: Different Anchor → Different Outcome
 
 ```
-🟢 LOGOTHERAPY (Frankl 1946) = 3 CÁCH BUILD ANCHOR:
+⭐ FRANKL AS NATURAL EXPERIMENT (opening quote expanded):
 
-  Frankl's 3 ways to find meaning:
-    ① Through creating a work or doing a deed
-    ② Through experiencing something or encountering someone
-    ③ Through the attitude we take toward unavoidable suffering
+  PERSON A (has anchor):
+    Body-inputs: terrible (starving, freezing, beatings, forced labor)
+    Life-level anchor: "I will SURVIVE to TELL THE WORLD" (GOAL type)
+    → Body compiles: "bearing this suffering → serves the anchor"
+    → Cortisol rises → Cortisol Role ① Compile Direction: keeps compiling
+    → Body stays organized around anchor → chunks DO NOT FRAGMENT
+    → Resources directed toward survival behaviors
+    → Lives.
 
-  v2.0 REFRAME — 3 ROUTES BUILD LIFE-LEVEL ANCHOR:
+  PERSON B (no anchor):
+    Body-inputs: IDENTICAL (same camp, same conditions)
+    Life-level anchor: ABSENT or DISRUPTED (previous anchors stripped)
+    → Body has no organization point → chunks fragment
+    → Cortisol rises → but Cortisol Role ③ Threat-Sustained (no direction gate)
+    → Resources directed NOWHERE specific → diffuse activation
+    → Body disorganizes → immune compromise → death (often sudden, "gave up")
+    → Dies.
 
-    ① CREATE/DO → build anchor VIA ACTION:
-       → Action → body-base feedback → confirm/disconfirm
-       → Nhiều action aligned → pattern emerge → anchor compile
-       → = Nguồn ① (PFC) + ② (compiled) PHỐI HỢP
-       → = Tạo GOAL hoặc ROLE anchor qua doing
+  RESULT:
+    Body-inputs = CONSTANT
+    Life-level anchor = VARIABLE (A has it, B lacks it)
+    Outcome = COMPLETELY DIFFERENT
 
-    ② EXPERIENCE/ENCOUNTER → build anchor VIA NEW CHUNKS:
-       → New experience → new chunks → network richer
-       → Encounter person → connection → shared anchor data
-       → = Raw material cho anchor building
-       → = Chunk accumulation → threshold → anchor CÓ THỂ hình thành
+  v1.0 EXPLAINED THIS AS:
+    A: "schema coherent at high chunk density" → survives
+    B: "schema fragmented" → dies
+    → CORRECT but cannot be unpacked: WHY coherent? HOW to recreate it?
 
-    ③ ATTITUDE TOWARD SUFFERING → build anchor VIA REFRAME:
-       → Same chunks → NHÌN KHÁC → new connections
-       → = PFC re-organize existing chunks → anchor EMERGE
-       → = KHÔNG CẦN new inputs — chỉ cần new PERSPECTIVE
-       → = POWERFUL nhất: work ngay cả trong trại tập trung
+  v2.0 IDENTIFIES THE MECHANISM:
+    A: has life-level Anchor-Schema → body organizes around it → coherence
+    B: lacks life-level anchor → body cannot organize → fragmentation
+    → NOW SPECIFIC: what anchor? how built? which type? which source?
+    → ACTIONABLE: help B find/build an anchor
 
-  ⭐ ③ LÀ UNIQUE VÀ QUAN TRỌNG NHẤT:
-    → Không cần thêm experience, achievement, inputs
-    → Chỉ cần: REFRAME existing chunks → anchor emerge
-    → = Therapy, reflection, meditation, journaling = tools cho reframe
-    → = Somatic-Articulation-Loop.md: body-knowledge → explicit → reframe
-    → Frankl proof: ③ work khi ①② KHÔNG CÒN KHẢ THI (trại tập trung)
+🟢 Frankl 1946 "Man's Search for Meaning" — primary source.
+🟡 Cortisol Role ①③ in camp = framework synthesis (Cortisol-Baseline.md).
+```
+
+### §5.2 — Logotherapy = 3 Routes to Build Anchor
+
+```
+⭐ FRANKL'S LOGOTHERAPY: 3 PATHS TO MEANING — ALL = "BUILD LIFE-LEVEL ANCHOR":
+
+  ROUTE ①: CREATE / DO ("creative values"):
+    → By creating a work, doing a deed → GOAL or ROLE anchor fills
+    → "What I build / accomplish / create" → life anchor
+    → Map: Compiled Experience + PFC Imagine-Final
+    → Type: primarily GOAL and ROLE
+
+  ROUTE ②: EXPERIENCE / ENCOUNTER ("experiential values"):
+    → By experiencing something (beauty, truth) or encountering SOMEONE
+    → "Loving this person" / "being loved" / "witnessing truth"
+    → = Experiencing deep connection or beauty → anchor forms
+    → Map: External Inject (raw emotional experience bypasses PFC)
+    → Type: primarily FAITH, CONNECTION
+
+  ROUTE ③: ATTITUDE TOWARD SUFFERING ("attitudinal values"):
+    → Choose HOW to face unavoidable suffering → STATE anchor forms
+    → "I cannot change what happens, but I can choose my response"
+    → Frankl: "last human freedom"
+    → Works when ROUTES ① and ② BOTH stripped (cannot create, cannot love)
+    → Map: STATE type via Compiled Experience (body compiles: "I face this way")
+    → Type: primarily STATE → IDENTITY ("I am someone who holds")
+
+  WHY ROUTE ③ IS UNIQUE:
+    → Most powerful because works IN EXTREMIS (all else removed)
+    → Does not depend on external conditions (unlike ① = need resources, ② = need people)
+    → = Body reframes the "meaning" of suffering: SERVES the anchor
+    → Suffering → "proof of who I am" → IDENTITY strengthened, not depleted
+
+  FRAMEWORK TRANSLATION:
+    ROUTE ①: GOAL/ROLE anchor built through PFC Imagine-Final + Compiled Experience
+    ROUTE ②: FAITH/CONNECTION anchor built through External Inject (experiential bypass)
+    ROUTE ③: STATE anchor built through Compiled Experience (attitude toward suffering)
+    → Route ③ = the ONLY one that works when hardware, environment, relationships all stripped
+
+🟢 Frankl 1946 Logotherapy = primary source.
+🟡 Route → anchor type mapping = framework synthesis.
 ```
 
 ### §5.3 — Camp = All Anchors STRIPPED
 
 ```
-🟡 TRẠI TẬP TRUNG = NATURAL EXPERIMENT VỀ ANCHOR:
+NATURAL EXPERIMENT VALUE:
 
-  TRƯỚC KHI VÀO TRẠI:
-    → Mọi người có NHIỀU anchors: career, family, status, comfort, identity
-    → Meaning = không ai hỏi (anchors đầy)
+  WHAT THE CAMP DID (Frankl's observation):
+  → Stripped GOAL anchors: no career, no project, no future external achievement
+  → Stripped ROLE anchors: no family role, no professional role, no community role
+  → Stripped IDENTITY anchors: dehumanization, number instead of name, degradation
+  → Stripped FAITH anchors: many: "where is God in this?" → faith crisis
+  → Left only: ATTITUDE toward suffering (STATE type) + fragments of memory (Compiled Experience)
 
-  VÀO TRẠI:
-    → Career: STRIPPED (không có job)
-    → Family: STRIPPED (tách biệt)
-    → Status: STRIPPED (tất cả = tù nhân)
-    → Comfort: STRIPPED (đói, lạnh, bị đánh)
-    → Identity: STRIPPED (số, không tên)
-    → = MỌI anchor bình thường bị REMOVE đồng thời
+  2 GROUPS FRANKL IDENTIFIED:
+  GROUP A — "Found meaning" (anchor survived stripping or rebuilt):
+    → Either: deep compiled anchor held (decades of intellectual/spiritual work)
+    → Or: BUILT new anchor in camp (route ③ — this is who I am in this)
+    → Body: organized → resources used → survived more often
+    → Behavior: helped others, maintained dignity, chose responses
 
-  KẾT QUẢ — 2 NHÓM:
-    → Nhóm BUILD anchor MỚI (từ nguồn ③ reframe):
-      → "Kể lại" (GOAL) / "Chúa thử thách" (FAITH) / "Gia đình chờ" (ROLE)
-      → = Tìm được 1 anchor MỚI trong điều kiện extreme
-      → = Anchor HOLD → meaning present → survive rate CAO hơn
-    → Nhóm KHÔNG build anchor mới:
-      → Tất cả anchor cũ GONE + không build mới
-      → = Cacophony → "vô nghĩa, vô vọng" → give up
-      → = Give up = body không thấy lý do maintain → surrender
+  GROUP B — "No anchor held":
+    → All anchors stripped → body disorganized → fragments
+    → Body: diffuse → no direction → systematic degradation
+    → Frankl: often died quickly after "giving up"
+    → Often correlated with "muselmann" state (camp term for those who gave up)
 
-  ⭐ LESSON:
-    → Anchor CÓ THỂ bị STRIP hoàn toàn (external circumstances)
-    → Anchor MỚI CÓ THỂ BUILD ngay cả khi mọi thứ bị strip
-    → Nguồn ③ (reframe) = nguồn DUY NHẤT work khi ①② bị block
-    → = Meaning = NOT dependent on environment → dependent on ANCHOR
-    → = Anchor = internal resource → portable → mang theo mọi nơi
+  WHAT THIS PROVES:
+    ① Life-level anchor = REAL physiological difference, not just "attitude"
+    ② Anchor independent of body-inputs: same inputs, two outcomes
+    ③ ROUTE ③ is real: attitude-based anchor formed UNDER extreme conditions
+    ④ Compiled deep anchors (STATE, IDENTITY) = more resilient than GOAL/ROLE
+       (because GOAL/ROLE stripped; STATE/IDENTITY harder to strip)
+
+  🟡 IMPLICATION FOR MODERN LIFE:
+    Modern "crises" are milder than camp BUT MECHANISM IS SAME:
+    → Job loss = ROLE anchor stripped (§2.3①)
+    → Divorce = CONNECTION + IDENTITY stripped (§2.3①②)
+    → Loss of purpose = GOAL exhausted (§2.2)
+    → Same mechanism: anchor lost → meaning question → rebuild needed
+
+🟢 Frankl 1946 — empirical observation in Auschwitz/Dachau.
+🟡 Framework mapping = framework synthesis.
 ```
 
 ---
 
-## §6 — SELF-HELP CRITIQUE: "FIND YOUR PURPOSE" = PRESCRIBE 1 TYPE
+## §6 — SELF-HELP CRITIQUE: "FIND YOUR PURPOSE" = PRESCRIBING 1 TYPE
 
-### §6.1 — Tại Sao Sai Hướng
+### §6.1 — Why It Points the Wrong Direction
 
 ```
-🟡 "TÌM MỤC ĐÍCH SỐNG" — SAI HƯỚNG VÌ PRESCRIBE GOAL TYPE:
+⭐ "FIND YOUR PURPOSE" = 4 PROBLEMS:
 
-  SELF-HELP APPROACH:
-    → "Find your passion!" / "What's your WHY?" / "Bạn sinh ra để làm gì?"
-    → → Implies: meaning = 1 BIG GOAL phải tìm
+  WHAT "FIND YOUR PURPOSE" IMPLIES:
+  ① "Your purpose EXISTS already — go find it" (object-framing)
+  ② "Purpose = fixed, singular, discoverable"
+  ③ "The right answer is out there" (externalize the search)
+  ④ Overwhelmingly prescribes GOAL type ("what big thing do you want to achieve?")
 
-  TẠI SAO SAI:
+  PROBLEM ①: PURPOSE IS NOT AN OBJECT TO FIND — IT IS AN ANCHOR TO BUILD:
+    → No pre-existing purpose waiting to be found
+    → Anchor-Schema must be COMPILED (§4) — through practice, experience, or injection
+    → "Find it" framing → years of passive searching → anchor still absent
+    → Correct framing: "build/compile an anchor your body accepts"
 
-    ① Prescribe GOAL type cho MỌI NGƯỜI:
-       → Self-help mặc định: meaning = future achievement
-       → NHƯNG: §3 cho thấy 5 types — GOAL chỉ là 1
-       → Người phù hợp STATE type → bị ép tìm GOAL → fail → "tôi hỏng"
-       → Người phù hợp IDENTITY type → bị ép tìm GOAL → miss what works
-       → = Prescribe 1 type = IGNORE 4 types khác
+  PROBLEM ②: GOAL TYPE IS 1 OF 5 — NOT EVERYONE SUITS IT:
+    → "What is your life goal?" → only works if GOAL type matches hardware
+    → STATE type person: no single goal → life anchor = internal state
+    → FAITH type person: "purpose" = cosmic role, not personal achievement
+    → ROLE type: purpose = "my place in the system" (no heroic goal needed)
+    → Prescribing GOAL to a STATE-type person → years of frustration
 
-    ② Creates PERFORMANCE PRESSURE:
-       → "Phải có purpose LỚN LAO" → nếu chưa tìm = failure
-       → Áp lực → cortisol → PFC constrict → BLOCK anchor building
-       → = Ironically: pressure to find meaning BLOCKS meaning
-       → = Cortisol-Baseline.md §9: PFC constrict under pressure
+  PROBLEM ③: "YOUR PURPOSE" = SINGULAR — UNDERMINES MULTI-ANCHOR STABILITY:
+    → Most resilient systems have 2-3 anchor TYPES (§2.5 + §4.4 interaction)
+    → "Find YOUR ONE purpose" → body invests everything in 1 anchor
+    → When that anchor disrupted/exhausted → total collapse
+    → Better: "what types of anchor are accessible to you?"
 
-    ③ Ignores BODY ACCEPT requirement:
-       → Self-help: "chọn purpose" (PFC construct)
-       → Framework: meaning = body ĐÃ ACCEPT anchor (§1.1)
-       → PFC construct ≠ body accept → "nghe hay nhưng không feel đúng"
-       → = Surface answer → fragile → collapse khi dissonance
+  PROBLEM ④: MISSES DOMAIN=ARBITER CHECK (§1.1b):
+    → "Find YOUR purpose" → does not ask "is this purpose correct?"
+    → Cult member "found their purpose" → wrong anchor
+    → Framework MUST include domain-reality check alongside anchor building
 
-    ④ Binary framing:
-       → "Đã tìm thấy purpose chưa?" → có/không
-       → Framework: anchor = GRADIENT (mờ → compiled) + DYNAMIC (shift)
-       → → "Chưa tìm" = BÌNH THƯỜNG, không phải failure
-       → → Anchor grows DẦN, không sudden revelation
+  EXAMPLES OF WRONG SELF-HELP ADVICE:
+    → To 15yo: "find your passion" → GOAL prescription → pressure, not exploration
+    → To retiree: "find a new purpose" → GOAL prescription → unfamiliar territory
+    → To contemplative: "what do you want to achieve?" → wrong type entirely
+    → To grieving person: "find meaning in this" → too fast, anchor needs TIME to rebuild
 ```
 
 ### §6.2 — Framework Approach: Facilitate Body Accept Anchor
 
 ```
-🟡 FRAMEWORK: KHÔNG "TÌM" MEANING — FACILITATE ANCHOR BUILDING:
+⭐ FRAMEWORK REPLACES "FIND PURPOSE" WITH: "FACILITATE BODY ACCEPT ANCHOR"
 
-  NGUYÊN TẮC:
-    → Meaning emerge khi body ACCEPT life-level anchor (§1.1)
-    → Body accept qua: experience + reflection + time + right type
-    → KHÔNG THỂ "cho" anchor → chỉ có thể tạo ĐIỀU KIỆN
+  5 APPROACHES (not sequential — use as appropriate):
 
-  5 APPROACHES (framework-aligned):
+  APPROACH ①: REDUCE CORTISOL NOISE (prerequisite):
+    → When cortisol HIGH (threat/crisis mode) → body CANNOT compile anchor
+    → First: reduce cortisol noise → body can access Imagine-Final + Compiled Experience
+    → Cortisol-Baseline.md §9: repair path → reduce noise → enable compile
+    → "Meaning work" BEFORE cortisol reduction = almost always fails
 
-    ① REDUCE NOISE — tạo bandwidth cho anchor building:
-       → Giảm daily micro-anchors → PFC freed
-       → DMN dominant → background processing life-level questions
-       → Meditation, walks, "không làm gì" = NOT lazy
-       → = Imagine-Final.md §1.5 Phase 3: "phần lớn tiến hóa xảy ra
-          KHI PFC KHÔNG actively work"
+  APPROACH ②: ADD CHUNKS (bottom-up compilation):
+    → Facilitate EXPERIENCES that could become anchor-compiled:
+      practice → try domains → engage relationships → exposure to role models
+    → Goal: give body MATERIAL to potentially compile into anchor
+    → NOT: "here is your purpose" → instead: "expose the body to anchor candidates"
+    → Compiled Experience (§4.2): requires TIME + repetition
+    → Patience: anchor cannot be FORCED to compile
 
-    ② ADD CHUNKS VIA DIVERSE EXPERIENCE:
-       → New experience → new chunks → richer data cho anchor building
-       → DIVERSE > repetitive (cross-domain → more anchor options)
-       → = Raw material → body CÓ THỂ tìm pattern → anchor emerge
-       → = Frankl ①②: creating + experiencing = add chunks
+  APPROACH ③: EXPLORE TYPES (correct TYPE for this person):
+    → Don't assume GOAL type — explore all 5 types (§3.1-§3.5)
+    → Questions per type:
+      GOAL: "what future state do you most want to exist?"
+      STATE: "what internal state feels most like home?"
+      IDENTITY: "who do you want to BE (not have or achieve)?"
+      FAITH: "what larger order/system do you feel part of?"
+      ROLE: "whose lives would feel different if you existed?"
+    → Anchor resonance: body signals which direction pulls (bứt rứt Vietnamese:
+      restless discomfort when against it; calm pull when toward it)
 
-    ③ EXPLORE ANCHOR TYPES — không chỉ GOAL:
-       → Thử STATE: meditation, reflection practice
-       → Thử IDENTITY: "tôi là người như thế nào?"
-       → Thử ROLE: volunteer, teach, contribute
-       → Thử FAITH: explore spiritual/philosophical frameworks
-       → = Body sẽ SIGNAL type nào fit → follow body signal
+  APPROACH ④: ALLOW TIME (compilation cannot be rushed):
+    → Body compiles on ITS schedule, not PFC schedule
+    → "I don't feel meaning yet" after 2 weeks ≠ failure
+    → Meaning builds through MONTHS of consistent direction + body evidence
+    → Appropriate expectation-setting: "this is a 6-12 month process minimum"
+    → Premature declaration ("I found my purpose!") often = PFC construct only
 
-    ④ ALLOW TIME — anchor CAN'T be rushed:
-       → Compiled anchor cần repetition + time (Anchor-Schema.md §2)
-       → Background processing cần sleep + rest
-       → "Chưa có meaning" ≠ "failed" → "process ongoing"
-       → Pressure to hurry = counterproductive
+  APPROACH ⑤: REFRAME EXISTING CHUNKS (fastest route when possible):
+    → Frankl route ③: existing body situation ALREADY contains anchor material
+    → Question: "how can suffering/hardship SERVE an anchor?" → body reframes
+    → "Your current job CAN serve anchor X if you see it as..." → recompile
+    → = Reframe the connection between existing chunks and a potential anchor
+    → Fastest when chunks already deep; slowest if anchor never existed
 
-    ⑤ REFRAME EXISTING CHUNKS (Frankl ③):
-       → Journaling: externalize → PFC see patterns
-       → Therapy: guided re-organization
-       → Conversation: articulate → force structure → see connections
-       → = Somatic-Articulation-Loop.md: body-knowledge → explicit
-       → = Có thể: chunks ĐÃ ĐỦ nhưng chưa ORGANIZED quanh anchor
+  DOMAIN=ARBITER CHECK (must accompany all above):
+    → After anchor candidate identified: "does this anchor match domain reality?"
+    → Check: "will this anchor lead to actions I can be proud of in 10 years?"
+    → Not PFC rationalizing (§1.1b) but genuine domain test
+    → If wrong anchor (cult level): help differentiate body-acceptance from correctness
 ```
 
 ---
@@ -1259,215 +1309,234 @@ dependencies:
 ### §7.1 — × Anchor-Schema (IS the mechanism)
 
 ```
-⭐ MEANING VÀ ANCHOR-SCHEMA = MECHANISM RELATIONSHIP:
+MEANING IS Anchor-Schema AT LIFE-LEVEL:
 
-  Anchor-Schema.md define:
-    → Anchor = sync point mà vô thức CHẤP NHẬN
-    → Tồn tại ở multi-scale: micro → short → daily → life
+  → Not two separate concepts: Meaning = observation name applied when
+    the Anchor-Schema being observed is at life-level scale
+  → Anchor-Schema.md: §0 defines the mechanism (sync point body accepts)
+  → This file: defines the OBSERVATION of it at life-level
 
-  Meaning = observation name cho ANCHOR STATUS Ở LIFE-SCALE:
-    → Có life-level anchor ổn → "meaning present"
-    → Thiếu life-level anchor → "meaning absent"
-    → Đang tìm life-level anchor → "meaning question"
+  CONNECTION:
+    → Anchor-Schema §1: 3-layer hierarchy
+      WANT-layer: moment preference
+      PREFER-layer: medium anchors (career, relationship)
+      SYNC-layer: body sync point at life-level ← = what MEANING measures
+    → Anchor-Schema §2: Trust × Cost = anchor stability
+      → HIGH Trust anchor = deep meaning; LOW Trust = fragile meaning
+    → Anchor-Schema §3: 4 fill pathways = §4 of this file
 
-  → Meaning KHÔNG PHẢI concept tách biệt từ Anchor-Schema
-  → Meaning = TÊN GỌI cho 1 trường hợp CỤ THỂ của Anchor-Schema
-    (cụ thể: life-level, stable, body-accepted)
+  IMPLICATION:
+    → To understand meaning: read Anchor-Schema.md §1-§3 for mechanism
+    → This file: applies that mechanism specifically to life-level observation
+    → Meaning × Anchor-Schema = not an interaction — it IS the thing
 ```
 
 ### §7.2 — × Imagine-Final (one source)
 
 ```
-🟡 IMAGINE-FINAL = 1 TRONG 4 NGUỒN FILL ANCHOR:
+RELATIONSHIP: IMAGINE-FINAL = PRIMARY SOURCE for GOAL/ROLE anchors, NOT = MEANING:
+
+  → Imagine-Final (Imagine-Final.md): PFC creates terminal-state representation
+  → This representation = SCAFFOLD for building anchor (§4.1)
+  → Imagine-Final PRESENT ≠ meaning present (anchor not yet compiled)
+  → Anchor compiled ≠ Imagine-Final always active (compiled anchor needs no constant activation)
+
+  DYNAMICS:
+    → Early: Imagine-Final drives direction → body compiles Anchor-Schema
+    → Late: Anchor-Schema compiled → Imagine-Final less necessary
+    → = Like: scaffolding removed once building stands
+    → But: anchor DISRUPTED → Imagine-Final reactivates to find new direction
+
+  TENSION:
+    → Strong Imagine-Final without body-compile = "perpetual goal-setter with no meaning"
+    → Body-compiled anchor without Imagine-Final = "deep meaning but no explicit goal"
+    → Most functional: both present, Imagine-Final SERVING the compiled anchor
+
+  ⚠️ NEVER abbreviate Imagine-Final as "IF" — conflicts with conditional "if" in English.
+```
+
+### §7.3 — × Boredom Type 3 (gateway)
+
+```
+RELATIONSHIP: BOREDOM TYPE 3 OFTEN GATEWAY TO DISCOVERING MEANING ABSENT:
+
+  Boredom.md: Type 3 EMPTY = all by-products stopped → nothing drives at any scale
+    → Body signal: "I'm running with no DESTINATION"
+    → PFC verbalizes: "I'm bored with EVERYTHING"
+
+  Meaning absent: life-level anchor absent → chunks have no organizing point
+    → Body signal: persistent restlessness (bứt rứt) at life-scale
+    → PFC verbalizes: "what's the point of any of this?"
+
+  HOW TYPE 3 → MEANING QUESTION:
+    → Extended Boredom Type 3 → by-products consistently absent →
+      body notices NOTHING gives direction at life-scale →
+      = life-level anchor absence becomes salient →
+      = meaning question EMERGES
+    → Common: "I'm bored with everything" → deeper: "I don't know what I'm living for"
+    → Intervention: Boredom Type 3 first → address its by-product dynamics
+    → If meaning absent under: must also address anchor (§6.2)
 
   DISTINCTION:
-    → Imagine-Final = CONTENT PFC build (reference pattern)
-    → Anchor-Schema = khi content ĐƯỢC CHỌN + COMMITTED (sync point)
-    → Meaning = khi anchor ở LIFE-SCALE + STABLE
-
-  INTERACTION:
-    → Imagine-Final FULFILLED → anchor exhausted → meaning void (§2.2)
-    → Imagine-Final ABSENT → no PFC-built anchor → nhưng compiled anchor
-      VẪN CÓ THỂ fill meaning (nguồn ②③)
-    → Imagine-Final CLEAR + body accept → meaning STRONG
-      (= best case: know where going AND body agrees)
-
-  ⚠️ IMAGINE-FINAL ≠ MEANING:
-    → "Tôi muốn giàu" (Imagine-Final) → body chưa accept → chưa meaning
-    → "Tôi là người phục vụ" (compiled) → body accept → meaning present
-      DÙ Imagine-Final specific MỜ
-    → = Imagine-Final CẦN body accept để thành anchor → thành meaning
-```
-
-### §7.3 — × Boredom Loại 3 (gateway)
-
-```
-🟡 BOREDOM LOẠI 3 TRỐNG = GATEWAY TỚI MEANING QUESTION:
-
-  Boredom.md §3 Loại 3:
-    → "Nghỉ hưu, không biết sống để làm gì"
-    → ⑤ direction mất + Imagine-Final GẦN ZERO
-    → = CHÍNH XÁC "life-level anchor ABSENT"
-
-  RELATIONSHIP:
-    → Boredom Loại 3 = TRIỆU CHỨNG đầu tiên (observable behavior)
-    → Prolonged Loại 3 → meaning question SURFACE (deeper awareness)
-    → = Boredom Loại 3 là GATEWAY, meaning question là câu hỏi SÂU HƠN
-
-  KHÁC NHAU:
-    → Boredom Loại 3: "không biết LÀM GÌ" (action-level)
-    → Meaning question: "sống ĐỂ LÀM GÌ" (life-level)
-    → Boredom Loại 3 CÓ THỂ ở young people (post-graduation void)
-    → Meaning question ở deeper level (life-scale anchor search)
-
-  FIX KHÁC:
-    → Boredom Loại 3: có thể fix bằng tìm medium anchor mới
-    → Meaning absent: cần life-level anchor → deeper intervention
+    → Boredom Type 3: short-term (days to weeks) + by-product dynamics are primary
+    → Meaning absent: persistent (months to years) + life-scale signal
+    → Can coexist: Boredom Type 3 as chronic symptom OF meaning absent
 ```
 
 ### §7.4 — × Novelty (raw material)
 
 ```
-🟡 NOVELTY = RAW MATERIAL SUPPLIER CHO ANCHOR BUILDING:
+RELATIONSHIP: NOVELTY = RAW MATERIAL FOR ANCHOR BUILDING:
 
-  → Novelty drive → explore → new chunks compile
-  → New chunks = raw material cho anchor building
-  → More chunks = more ANCHOR OPTIONS (body có nhiều pattern hơn để chọn)
+  Novelty (Novelty.md): body's response to genuinely new patterns →
+    new chunk building → new connections
 
-  NHƯNG:
-    → Novelty ALONE ≠ meaning
-    → Exploring WITHOUT integrating = chunks accumulate without anchor
-    → = "Đi khắp nơi nhưng vẫn vô nghĩa" = many chunks, no life-level anchor
-    → = Novelty cung cấp RAW MATERIAL → anchor cần INTEGRATION + time
+  HOW NOVELTY FEEDS MEANING:
+    → New domain experience → potential new anchor TYPE discovered
+    → "I tried X and felt something different" = novelty signal + anchor resonance
+    → Frankl route ②: "experience / encounter" = novelty-triggered anchor install
+    → Exploring new roles, practices, beliefs → increases anchor candidate pool
 
-  OPTIMAL: novelty + reflection cycles
-    → Explore → new chunks → reflect → integrate → anchor build
-    → = Alternate: novelty phase + consolidation phase
+  BUT NOVELTY ≠ MEANING:
+    → High novelty without anchor = "interesting but empty"
+    → Modern social media: constant novelty → no deep anchor built
+    → = High dopamine short-term + meaning absent long-term
+    → Novelty FEEDS anchor building only if body has TIME to compile
+      → Too fast novelty: pattern never compiles → stays surface
+
+  INTERACTION:
+    → Optimal for meaning: moderate novelty with DEEP repetition in preferred domain
+    → Too much novelty = chunks never compile → anchor cannot form
+    → Too little novelty = no new anchor material → anchor stays narrow
 ```
 
 ### §7.5 — × Protect (tension)
 
 ```
-🟡 PROTECT VÀ MEANING = TENSION:
+RELATIONSHIP: STRONG IDENTITY ANCHOR → STRONGER PROTECT SIGNAL:
 
-  PROTECT BLOCKS ANCHOR CHANGE:
-    → Protect.md §3.4: identity protect = resist change to self-schema
-    → Meaning crisis often REQUIRE anchor CHANGE (old anchor gone → new needed)
-    → Anchor change = identity threat → Protect fire: "giữ cái cũ!"
-    → → Protect WIN → stuck with dead anchor → meaning BLOCKED
+  Protect.md: body DEFENDS existing self-model from threat
+    → Identity anchor = part of self-model
+    → Strong identity anchor → protect response very strong
 
-  VÍ DỤ:
-    → "Tôi là CEO thành công" (identity anchor) → retire → anchor void
-    → Meaning requires: build NEW anchor (maybe STATE or ROLE type)
-    → Protect says: "NO — tôi VẪN là CEO!" → resist transition
-    → → Stay "CEO nhưng không còn CEO" → fragmented → meaning absent
+  TENSION:
+    → Person with IDENTITY anchor "I am honest" → any challenge to honesty
+      = BOTH identity-threatening AND anchor-threatening
+    → = Double protect: "this is who I AM + my meaning source"
+    → Makes UPDATING identity anchor extremely HARD
 
-  RESOLUTION:
-    → Protect phải RELAX for new anchor to build
-    → Crisis can FORCE relaxation (all anchors stripped — Frankl §5.3)
-    → Normal life: therapy, gradual reflection → loosen protect → allow reframe
-    → = Meaning transition often requires LETTING GO of old anchor identity
+  DYNAMICS:
+    → Deep meaning (compiled anchor) → RIGID protect response
+    → "My meaning is X" → anything threatening X = existential threat
+    → Cult behavior, political identity, religious extremism = ANCHOR + PROTECT combined
+    → Deradicalization hard because: breaking anchor = breaking meaning + triggering protect
+
+  ANCHOR CHANGE MECHANISM:
+    → Cannot FORCE anchor update (protect will resist)
+    → Must: (a) reduce protect activation + (b) build NEW anchor alongside
+    → Only when new anchor sufficiently compiled → old anchor can weaken
+    → = Anchor-Schema.md §4: transition process
+    → = §6.2 Approach ①②: reduce cortisol noise first, then add new anchor material
 ```
 
 ### §7.6 — × Connection (shared anchors)
 
 ```
-🟡 CONNECTION = ANCHOR BUILDING CATALYST:
+RELATIONSHIP: CONNECTION = ANCHOR CO-REGULATION + SHARED ANCHOR BUILDING:
 
-  SHARED ANCHORS:
-    → Connection with others → SHARED anchor-schemas compile
-    → "Tôi + người này cùng tin X" → mutual reinforcement → trust ↑
-    → = Anchor-Schema.md §2: social reinforcement → trust ↑↑
-    → = External inject (nguồn ③) qua social channel
+  Connection.md: co-regulation = bodies influence each other's states
+    → Shared anchor = the strongest form of co-regulation
 
-  CO-REGULATION:
-    → Connection → cortisol ↓ (🟢 Social Baseline Theory, Coan 2015)
-    → Lower cortisol → PFC bandwidth → anchor building POSSIBLE
-    → = Connection tạo CONDITIONS cho meaning work
+  HOW CONNECTION FEEDS MEANING:
+    → Shared ROLE anchor: "we are building something together"
+      → co-regulation maintains anchor for BOTH → resilient
+    → Shared FAITH anchor: religious/cultural community → mutual maintenance
+    → Being SEEN: person who witnesses your anchor → validates it
+    → "Someone understands what I live for" = deep meaning compound
 
-  SOLITUDE × MEANING:
-    → Loss of connection → shared anchors REMOVED
-    → Isolation → anchor building harder (fewer social reinforcement)
-    → = Loneliness × meaning absent = compound risk
-    → = Agent-Mechanism.md §12.6: chronic agent deficit → body harm
+  MUTUAL AMPLIFICATION:
+    → Individual anchor → meaning present
+    → Shared anchor (same anchor with others) → meaning AMPLIFIED
+    → Same reason: team with shared mission more resilient than individual with same goal
+    → Connection.md: 4-Layer Resonance-Sustainability (§7.8) = anchor sustainability
 
-  CONVERSATION = ANCHOR BUILDING TOOL:
-    → Articulate to someone → force structure → patterns visible
-    → Other's perspective → new connections → cross-pollination
-    → = Somatic-Articulation-Loop + social amplification
-    → = "Nói chuyện với bạn thân → tự nhiên thấy rõ hơn"
+  LOSS PATHWAY:
+    → Relationship ends → CONNECTION-based anchor loses co-regulation support →
+      anchor WEAKENS (§2.3②)
+    → Isolation = not only loneliness: removes anchor maintenance support
+    → "Who am I if no one who knows me remains?"
+
+  🟡 Shared anchor dynamics = framework synthesis (Connection.md v5.0).
 ```
 
 ### §7.7 — × Gratitude (anchor strengthening?)
 
 ```
-🟡 GRATITUDE × MEANING = ANCHOR STRENGTHENING HYPOTHESIS:
+🔴 HYPOTHESIS: GRATITUDE PRACTICE → ANCHOR STRENGTHENING:
 
-  Gratitude.md §10 Q4: "Gratitude × Meaning interaction?"
+  PROPOSED MECHANISM:
+    → Gratitude (Gratitude.md): attentional refocus on what is already good/given
+    → If gratitude refocuses onto anchor-serving elements → anchor strengthened
+    → "I'm grateful for X" where X = something SERVING life anchor →
+      body registers: "this anchor has EVIDENCE of being good"
+    → = Increases Trust in existing anchor (Anchor-Schema.md §2)
 
-  HYPOTHESIS (v2.0 refine):
-    → Gratitude = PFC inject delta vào habituated system (Gratitude.md §3)
-    → Delta → reward THẬT → body state cải thiện
-    → Body state tốt hơn → ANCHOR TRUST tăng:
-      "Cuộc sống CÓ reward → hướng hiện tại ĐÚNG → anchor CONFIRM"
-    → = Gratitude → confirm existing anchor → trust ↑ → meaning ↑
+  EXAMPLES:
+    → ROLE anchor: gratitude for "moments when my work mattered to someone" →
+      body encodes: ROLE anchor generates good outcomes → Trust ↑
+    → STATE anchor: gratitude for "moments of inner peace already experienced" →
+      body encodes: STATE = achievable, not fantasy → compile accelerates
+    → GOAL anchor: gratitude for "progress already made" →
+      body encodes: direction is working → anchor Trust ↑
 
-  CƠ CHẾ CỤ THỂ:
-    → Gratitude practice → comparison injection → delta → opioid
-    → Opioid → body-base tốt hơn → "đời sống CÓ GIÁ TRỊ"
-    → → Existing life-level anchor STRONGER (domain feedback ✓)
-    → → HOẶC: nếu chưa có anchor → gratitude tạo RAW MATERIAL
-      (nhận ra "tôi CÓ gì" → pattern emerge → anchor CÓ THỂ build)
+  WHY 🔴 HYPOTHESIS:
+    → No direct research on "gratitude → life-level anchor Trust"
+    → Most gratitude research = happiness outcomes, not meaning specifically
+    → Gratitude.md Q4: "meaning × gratitude interaction" listed as open question
+    → Mechanism is PLAUSIBLE but framework cannot yet confirm
 
-  → 🔴 HYPOTHESIS: logically plausible, chưa verify
-  → Connection: Gratitude.md Q4 + Meaning.md v2.0 → testable prediction:
-    "Người practice gratitude → meaning HIGHER (via anchor strengthening)"
+  IF REAL: implication = gratitude practice MORE effective when
+    gratitude TARGETS anchor-relevant content (not generic gratitude)
+    → "Gratitude for what your life anchor is generating" = specific intervention
+
+🔴 Gratitude → anchor-Trust strengthening = hypothesis.
+🟢 Gratitude → meaning (Emmons & McCullough 2003: some evidence, not specific to anchor).
 ```
 
 ### §7.8 — × New Concepts (28-session Drill Propagation)
 
 ```
-BOND-ARCHITECTURE × MEANING (Bond-Architecture.md v2.0):
+⭐ NEW CONCEPTS FROM CONCEPT CASCADE (v2.1+):
 
-  Life-level anchor OFTEN involves ENTITIES → Bond-Architecture matters:
+  BOND-ARCHITECTURE v2.0 (Chunk/Agent-Mechanism/Bond-Architecture.md):
+    → 4 bond types between agents/entities
+    → MEANING interaction: bonds that serve life-level anchor → STRONGER
+    → Bond built through shared anchor (§7.6) → BOND-ARCHITECTURE strengthens
+    → Bond that DISRUPTS anchor → body threatens → Protect response
+    → "Meaningful relationship" = relationship whose bond SERVES or SHARES anchor
 
-  4 BOND TYPES → 4 MEANING PATHWAYS:
-    Proximity bond → meaning qua "NƠI AN TOÀN" (quê hương, nhà, tổ ấm)
-    Shared-Experience bond → meaning qua "CÙNG NHAU ĐI QUA" (đồng đội, vợ chồng)
-    Reciprocal bond → meaning qua "CHO VÀ NHẬN" (mentoring, friendship)
-    Identity bond → meaning qua "THUỘC VỀ" (tôn giáo, dân tộc, nghề nghiệp)
+  RESONANCE-SUSTAINABILITY v1.0 (Chunk/Agent-Mechanism/Resonance-Sustainability.md):
+    → 4-layer sustainability model for resonance between entities
+    → Layer 1 (surface): moment resonance → fleeting
+    → Layer 2 (pattern): recurring resonance → more stable
+    → Layer 3 (anchor): resonance because BOTH share life-level anchor → very stable
+    → Layer 4 (identity): resonance because anchor is IDENTITY-level → deepest
+    → MEANING interaction: Layer 3+4 resonance = most meaning-sustaining
+    → "Meaningful connection" = Layer 3+ (anchor-level resonance, not surface)
+    → Sustainability Model predicts: Layer 1-2 only → connection feels "nice but empty"
 
-  → Mỗi bond type → khác anchor STRENGTH + khác anchor VULNERABILITY
-  → IDENTITY bond → FAITH type anchor (§3.4) — strongest, khó phá nhất
-  → SHARED-EXPERIENCE bond → GOAL type anchor (§3.1) — mạnh khi còn hoạt động
-  → = Bond type SHAPES which meaning type thrives
+  RESONANCE-PER-ENTITY v1.0 (Chunk/Agent-Mechanism/Resonance-Per-Entity.md):
+    → Resonance DIFFERS per entity-pair (not universal)
+    → MEANING interaction: same anchor TYPE → resonance possible
+    → But anchor CONTENT differs → resonance limited
+    → "We both care about making a difference" (same ROLE TYPE) → resonance
+    → But: "I care about education, you care about finance" (different content) →
+      weaker resonance even with same TYPE
+    → Implication: meaning-sustaining relationships require TYPE + partial content alignment
 
-RESONANCE-SUSTAINABILITY × MEANING (Resonance-Sustainability.md v1.0):
-
-  Meaning = long-term phenomenon → SUSTAINABILITY matters:
-
-  4-LAYER SUSTAINABILITY applied to life-level anchor:
-    Neurochemical: does anchor still fire reward? (habituation risk)
-    Behavioral: does person still ACT toward anchor? (routine maintenance)
-    Cognitive: does anchor still MAKE SENSE? (coherence with new chunks)
-    Contextual: does environment still SUPPORT anchor? (external validation)
-
-  → "Thành công nhưng emptiness" (Status.md) = Neurochemical + Behavioral ok,
-    but Cognitive layer FAILED (anchor exhausted → no longer makes sense)
-  → Frankl (§5) = ALL 4 layers STRIPPED → build NEW anchor từ zero
-  → = Sustainability framework PREDICTS when meaning will erode
-
-RESONANCE-PER-ENTITY × MEANING (Resonance-Per-Entity.md v1.0):
-
-  Meaning OFTEN involves specific entities (con, partner, mentor, God):
-  → Resonance-Per-Entity = per-relationship meaning intensity
-  → Entity-Compiled deep → meaning per-entity STRONG
-  → Entity mất (grief) → meaning anchor COLLAPSE (grief Type C)
-  → = TẠI SAO mất người thân = meaning crisis, không chỉ "buồn"
-
-🟡 Bond-Architecture × meaning = framework application (4 pathways)
-🟡 Resonance-Sustainability × meaning = framework application (4-layer prediction)
-🟡 Resonance-Per-Entity × meaning = framework application (per-entity intensity)
+  🟡 Bond-Architecture, Resonance-Sustainability, Resonance-Per-Entity =
+     framework concepts (v2.1 Concept Cascade, 2026-05-23).
+     Interaction with Meaning = framework synthesis pending full integration.
 ```
 
 ---
@@ -1475,188 +1544,334 @@ RESONANCE-PER-ENTITY × MEANING (Resonance-Per-Entity.md v1.0):
 ## §8 — CASES ANALYSIS
 
 ```
-⭐ 10 CASES ĐA DẠNG — TEST DEFINITION QUA ANCHOR-SCHEMA LENS:
+10 CASES — ALL CONSISTENT WITH HYPOTHESIS: MEANING PRESENT/ABSENT = ANCHOR PRESENT/ABSENT
 
-  Mỗi case: situation → anchor status → meaning state → prediction
+[FORMAT: CASE → TRIGGER → ANCHOR STATUS → BODY STATE → OUTCOME]
 ```
 
-### Case 1: Học sinh 15 tuổi — "bình thường, không hỏi meaning"
+**Case 1 — Student, 15 years old**
 
 ```
-  SITUATION: Trường mới, bạn mới, học bài, chơi game, crush
-  ANCHOR STATUS: Medium anchors DỒI DÀO
-    → "Được điểm tốt" (short anchor)
-    → "Được bạn bè yêu mến" (medium anchor)
-    → "Vào đại học" (medium anchor)
-    → Life-level: CHƯA CẦN (medium anchors đủ supply)
-  MEANING STATE: Không hỏi → ĐÚNG, vì anchors đủ
-  PREDICTION: Nếu mất bạn/chuyển trường → medium anchors giảm
-    → CÓ THỂ thoáng "buồn, không biết để làm gì" (Boredom Loại 1-2)
-    → Nhưng CHƯA là meaning question (life-level) — chỉ medium-level
-  ✅ KHỚP với hypothesis
+SITUATION:
+  Adolescent, 15yo. Top grades at school. Parents satisfied.
+  Comes home and says: "I don't know why I'm studying. I feel empty."
+
+TRIGGER: ABSENT (§2.1)
+  → Chunk network just large enough to NEED life-level anchor
+  → Medium anchor "study for grades" still works but body starting to signal GAP
+  → No life-level anchor ever built (15yo → anchor absent, not pathology)
+
+ANCHOR STATUS: ABSENT
+  → No GOAL/ROLE/IDENTITY/FAITH/STATE anchor at life-level
+  → "Grade" anchor = medium-scale, not life-level
+  → Body: "orchestra MISSING main player"
+
+BODY STATE:
+  → Vague restlessness (bứt rứt Vietnamese: nagging, restless discomfort)
+  → Unfocused: drives present but no life-level target
+  → Adolescent existential: "who am I, what am I doing this for?"
+
+INTERVENTION (§6.2):
+  → Do NOT prescribe: "your purpose is X" (§6.1)
+  → APPROACH ②: add chunks — explore different domains, roles, experiences
+  → APPROACH ③: explore types — what pulls vs what is restless-against
+  → ALLOW TIME: 15-25yo anchor-building phase (§2.4) → 5-10 years normal
+  → Support medium anchors (study, social, hobby) while life-level builds
+
+OUTCOME IF WELL-HANDLED: GOAL or IDENTITY anchor forms organically by 20-25
+OUTCOME IF PRESSURED: forced PFC construct → "I think my purpose is X" → fragile
 ```
 
-### Case 2: Sinh viên 22 tuổi tốt nghiệp — "giờ sao?"
+**Case 2 — Graduate, 22 years old**
 
 ```
-  SITUATION: Xong đại học, chưa có việc, bạn bè tản mát
-  ANCHOR STATUS: Study anchor FULFILLED, medium anchors SHIFTING
-    → "Học xong" → anchor này DONE
-    → "Bạn bè đại học" → tản mát → connection anchor YẾU
-    → Career anchor: CHƯA CÓ (chưa bắt đầu)
-    → Life-level: CHƯA BUILD (medium anchors vừa cạn)
-  MEANING STATE: "Giờ sao?" → Boredom Loại 3 gateway
-    → Chưa phải deep meaning question (chunk density chưa đủ)
-    → Nhưng CẢM NHẬN void lần đầu
-  PREDICTION: Tìm job mới → medium anchor mới → void biến mất tạm
-  ✅ KHỚP: medium anchor cạn → void; medium anchor mới → void hết
+SITUATION:
+  University graduate, 22yo. Good grades, just got first job.
+  Suddenly: "I don't know what I want. Degree feels pointless."
+
+TRIGGER: ABSENT/EXHAUSTED HYBRID
+  → "Study well" = medium anchor → ACHIEVED → void
+  → Life-level anchor never explicitly built (study masked the absence)
+  → Now: first real adult life moment → ABSENT anchor salient
+
+ANCHOR STATUS: MEDIUM ANCHOR EXHAUSTED + LIFE-LEVEL ABSENT
+  → "Study well" anchor: EXHAUSTED (achieved degree)
+  → Life-level anchor: ABSENT (never built behind the study anchor)
+  → Quarterlife crisis: common pattern (§2.4)
+
+BODY STATE:
+  → "Empty" after achievement
+  → "I worked so hard and now... nothing feels exciting"
+  → Cortisol Role ④ Inertia: intense direction (study) ended → flatness
+  → PFC: "I should feel happy, but I don't"
+
+INTERVENTION:
+  → APPROACH ①: reduce cortisol noise from career transition stress
+  → APPROACH ②: add chunks — new domain experiences (career, relationships, self)
+  → APPROACH ③: don't assume career = GOAL anchor; explore all types
+  → Normalize: 22-28yo = anchor-building phase, not anchor-having phase
 ```
 
-### Case 3: Nhân viên 30 tuổi — "chán việc nhưng lương nuôi gia đình"
+**Case 3 — Employee, 30 years old**
 
 ```
-  SITUATION: Làm 7 năm, biết rõ job, không thú vị nữa, có gia đình
-  ANCHOR STATUS: Career anchor HABITUATED, family anchor CÓ
-    → Career anchor: "thành công ở công ty" → habituated → yếu dần
-    → Family anchor: "nuôi gia đình" → CÓ nhưng = NEGATIVE TRUST
-      (Anchor-Schema.md §2: "nếu dừng → gia đình khổ" = threat-based)
-    → Life-level: MỜ (chưa rõ, đang tìm)
-  MEANING STATE: Boredom Loại 2 (biết chán cái gì, bị lock)
-    → Chưa phải deep meaning crisis → nhưng approaching
-    → Thoáng hỏi "sống để làm gì ngoài kiếm tiền?"
-  PREDICTION: Nếu tìm career mới match → medium anchor renew → ok
-    → Nếu KHÔNG tìm + 10 năm nữa → meaning question SURFACE rõ
-  ✅ KHỚP: anchor habituated + negative trust = approaching meaning question
+SITUATION:
+  Mid-career professional, 30yo. Stable job, good income, family started.
+  Says: "My life is fine on paper, but I feel like I'm just going through the motions."
+
+TRIGGER: ABSENT (life-level anchor never explicitly built)
+  → Medium anchors active (career, family, mortgage)
+  → All medium anchors functional BUT no life-level organizer
+  → Body: medium anchors running but at life-scale = nothing connects them
+
+ANCHOR STATUS: MEDIUM ANCHORS PRESENT, LIFE-LEVEL ABSENT
+  → Career anchor (medium): "do good work" — functional but medium-scale
+  → Family anchor (medium): "provide for family" — functional but medium-scale
+  → LIFE-LEVEL anchor: NOT YET FORMED connecting all above
+
+BODY STATE:
+  → "Going through the motions" = medium anchors active but life-level signal absent
+  → Not boredom (driving plenty), not depression (functioning), not burnout
+  → Quiet persistent: "is this all there is?"
+
+INTERVENTION:
+  → APPROACH ③: explore life-level: which TYPE would connect career+family into ONE?
+  → Often: ROLE type emerges — "I am building a family + community + doing meaningful work"
+  → Or: IDENTITY type — "I am someone who cares about [core value]"
+  → Key: NOT "leave your job and find your passion" — anchor can be BUILT around existing life
 ```
 
-### Case 4: CEO 50 tuổi — "thành công nhưng emptiness"
+**Case 4 — CEO, 50 years old**
 
 ```
-  SITUATION: Công ty lớn, giàu, uy tín. Nhưng "mỗi sáng thức dậy — trống"
-  ANCHOR STATUS: Career anchor EXHAUSTED (§2.2)
-    → "Build công ty thành công" (GOAL anchor) → ĐÃ ĐẠT → void
-    → Status: CAO → nhưng status ≠ anchor (status = resource map)
-    → Family: con lớn → parenting anchor SHIFTING
-    → Life-level: TRỐNG (career anchor fulfilled, nothing replace)
-  MEANING STATE: Deep meaning question → "tôi sống vì CÁI GÌ nữa?"
-    → = Status.md §10.1 case
-    → = §2.2 Anchor EXHAUSTED → void
-  PREDICTION: Cần build NEW life-level anchor (possibly STATE hoặc ROLE type)
-    → Chỉ thêm tiền/status → KHÔNG fix (vì gốc = anchor void)
-    → Nhiều CEO chuyển sang philanthropy (ROLE anchor) hoặc mentoring
-  ✅ KHỚP: GOAL anchor fulfilled → void → cần new anchor type
+SITUATION:
+  Successful CEO, 50yo. Company thriving, children grown, wealth secured.
+  Confides: "I've done everything I set out to do. I don't know what comes next."
+
+TRIGGER: EXHAUSTED (§2.2) — classic GOAL anchor exhaustion
+  → Life-long GOAL anchor: "build this company to X scale"
+  → ACHIEVED: company thriving, goals met
+  → Body: anchor EXHAUSTED → organizing principle gone
+  → = Status.md §10.1: "success but emptiness"
+
+ANCHOR STATUS: GOAL ANCHOR EXHAUSTED
+  → Old GOAL: "build company to X" → DONE → void
+  → No successor anchor compiled alongside
+  → Body: spent decades compiling around this GOAL → now re-compiling needed
+
+BODY STATE:
+  → "I've done everything. What now?"
+  → Cortisol Role ④ Inertia: long intense direction ended
+  → PFC: builds multiple future scenarios but body DOESN'T ACCEPT any
+  → "Nothing excites me the way building the company did"
+
+INTERVENTION:
+  → NORMALIZE: GOAL exhaustion = natural, not mid-life failure
+  → APPROACH ③: explore OTHER types — GOAL no longer available
+    ROLE: "what legacy do I want to create?"
+    STATE: "what kind of inner life do I want now?"
+    IDENTITY: "who do I want to become in the next 20 years?"
+    FAITH: "what is the larger story I'm part of?"
+  → TIME: allow 1-2 years for new anchor to compile
+  → Do NOT: immediately force new GOAL (premature GOAL only PFC construct)
 ```
 
-### Case 5: Người nghỉ hưu 65 tuổi — "nghỉ rồi, chán"
+**Case 5 — Retiree, 65 years old**
 
 ```
-  SITUATION: Làm 40 năm, nghỉ hưu, con cái tự lập, vợ/chồng cũng già
-  ANCHOR STATUS: ANCHOR VACUUM (§2.4)
-    → Career anchor: GONE (retire)
-    → Daily routine anchor: REMOVED (no workplace)
-    → Social anchor: REDUCED (colleagues gone)
-    → Family: con tự lập → role DIMINISHED
-    → Body: decline → self-schema challenged
-    → Life-level: TRỐNG HOÀN TOÀN
-  MEANING STATE: Boredom Loại 3 TRỐNG → meaning crisis URGENT
-    → "Không biết sống để làm gì"
-  PREDICTION:
-    → Nếu tìm ROLE anchor mới (volunteer, mentoring) → meaning return
-    → Nếu có FAITH anchor (tôn giáo compiled) → meaning đã có sẵn
-    → Nếu có STATE anchor (compiled từ practice) → "thanh thản"
-    → Nếu KHÔNG anchor mới → chronic void → risk depression
-  ✅ KHỚP: anchor vacuum → meaning crisis; new anchor → meaning return
+SITUATION:
+  Retiree, 65yo. Successful career, healthy, financial security.
+  After retirement: "I feel useless. I wake up and don't know what for."
+
+TRIGGER: DISRUPTED (§2.3①) + EXHAUSTED
+  → ROLE anchor: "I am [professional title]" — STRIPPED by retirement
+  → IDENTITY anchor: "I am someone who does important work" — DISRUPTED
+  → Was not CHOICE disruption — EXTERNAL (retirement = society says "done")
+
+ANCHOR STATUS: ROLE + IDENTITY ANCHORS DISRUPTED
+  → Professional ROLE: GONE (retired)
+  → Professional IDENTITY: DISRUPTED (no longer that person)
+  → Life anchor built over 40 years = suddenly without support
+
+BODY STATE:
+  → "Useless": ROLE anchor disrupted → no place in system signal
+  → "Don't know what for": GOAL/DIRECTION absent
+  → Erikson: generativity vs stagnation stage (§2.4)
+  → Depression risk: ROLE + IDENTITY disruption = major anchor loss
+
+INTERVENTION:
+  → FIRST: grief work — allow anchor loss to be acknowledged, not rushed past
+  → APPROACH ③: ROLE type most natural for this person
+    "What is my place NOW?" → grandparent role, mentor role, community role
+  → APPROACH ②: add new role-relevant chunks (volunteer, mentor, community engagement)
+  → APPROACH ④: LEGACY type emerging (Erikson generativity) — connect past to future
+  → FAITH type: often strengthens naturally at 65+ (§3.4, Terror Management Theory)
 ```
 
-### Case 6: Frankl trong trại tập trung (§5 chi tiết)
+**Case 6 — Viktor Frankl in Auschwitz**
 
 ```
-  SITUATION: Mọi anchor STRIPPED. Body-inputs = terrible
-  ANCHOR STATUS: Tất cả anchor cũ GONE
-    → Nhưng build anchor MỚI: "kể lại cho thế giới" (GOAL)
-    → HOẶC: "Chúa thử thách" (FAITH)
-    → HOẶC: "gia đình chờ" (ROLE)
-  MEANING STATE: Meaning present DÙ happiness zero
-    → = §1.4 Case ④: "khổ nhưng có ý nghĩa"
-  PREDICTION: Anchor CÓ → survive rate ↑; anchor KHÔNG → give up
-  ✅ KHỚP CỰC MẠNH — strongest evidence for anchor-based meaning
+SITUATION:
+  Vienna psychiatrist, 39yo, sent to Auschwitz concentration camp.
+  All typical anchors stripped: family, career, freedom, possessions, dignity.
+
+TRIGGER: DISRUPTED — ALL TYPES STRIPPED (§5.3)
+  → GOAL: career, research → STRIPPED
+  → ROLE: physician, husband, son → STRIPPED (family killed)
+  → IDENTITY: "I am Frankl, the psychiatrist" → STRIPPED (became prisoner number)
+  → FAITH: "life has meaning" → TESTED (God allows this?)
+
+ANCHOR STATUS: ALL CONVENTIONAL ANCHORS STRIPPED
+  SURVIVING ANCHORS:
+    → Compiled deep IDENTITY: "I am a person who thinks carefully" (decades compiled)
+    → Emerging GOAL: "survive to TELL THE WORLD this story"
+    → Emerging STATE: "I choose my response even here" (Route ③)
+
+BODY STATE:
+  → Compiled deep anchors HELD despite stripping
+  → Body organized around: intellectual identity + survivor-witness mission
+  → Cortisol Role ①: compile direction maintained (survival as direction)
+  → vs Persons B who gave up: no anchor → diffuse activation → "muselmann state"
+
+OUTCOME:
+  → Survived 3 camps
+  → After liberation: WROTE "Man's Search for Meaning" (GOAL anchor delivered)
+  → IDENTITY anchor: "I am the one who observed and can teach this" = fulfilled
+  → = Framework prediction: compiled STATE/IDENTITY anchor survives extreme disruption
+
+🟢 Frankl 1946 — primary historical source.
 ```
 
-### Case 7: Tín đồ tôn giáo — "hiếm khi hỏi meaning"
+**Case 7 — Religious Believer (Crisis of Faith)**
 
 ```
-  SITUATION: Đi lễ hàng tuần, cầu nguyện hàng ngày, cộng đồng active
-  ANCHOR STATUS: FAITH anchor compiled DEEP (§3.4)
-    → "Sống thánh thiện → lên thiên đàng" = life-level anchor SẴN
-    → Trust ≈ ∞ (unfalsifiable)
-    → Community reinforce liên tục
-    → CÓ THỂ có thêm ROLE/IDENTITY anchor aligned
-  MEANING STATE: Meaning present → KHÔNG hỏi existential questions
-    → → Đây là TẠI SAO tôn giáo "giải quyết" existential crisis
-  PREDICTION:
-    → Nếu faith ổn → meaning ổn suốt đời
-    → Nếu faith bị shaken (disillusionment) → deep crisis
-      (vì faith anchor compiled DEEP → mất = structural damage)
-  ✅ KHỚP: pre-supplied anchor → meaning present; anchor shaken → crisis
+SITUATION:
+  Devout believer, any faith tradition. Life-long FAITH anchor.
+  Major personal tragedy: child dies, illness strikes, prayer "unanswered."
+  "How can God let this happen? Maybe God doesn't exist."
+
+TRIGGER: DISRUPTED (§2.3③) — disillusionment type
+  → FAITH anchor: decades compiled through ritual + community + experience
+  → Disrupting event: "evidence against the faith narrative"
+  → PFC: "if God exists, why this?" → cognitive challenge to anchor
+  → Domain=Arbiter: body evaluates "does anchor match reality?"
+
+ANCHOR STATUS: FAITH ANCHOR UNDER THREAT
+  → If body-compiled deep: anchor may hold (cognitive challenge < compiled trust)
+  → If primarily PFC construct: anchor collapses (single challenge undermines it)
+  → "Dark night of the soul" = anchor under threat, not yet lost/regained
+
+BODY STATE:
+  → Existential terror: anchor threatening = life-level organizing principle at risk
+  → Grief + questioning: "what is ANY of this for?"
+  → Protect response: "no, God must have a plan" vs "doubt is growing"
+
+INTERVENTION:
+  → Acknowledge: FAITH anchor disruption = REAL anchor-level crisis, not "just doubt"
+  → Do NOT: immediately provide new theological argument (PFC argument → PFC anchor)
+  → APPROACH ②: allow body-level processing (community ritual, grief rites)
+  → APPROACH ③: explore whether other types can support while FAITH rebuilds
+  → Some: faith DEEPENS through crisis — compiled experience of "held through doubt"
+    → STATE anchor: "I find peace even without certainty" → may emerge
 ```
 
-### Case 8: Gen Z 20 tuổi xem MXH — "mọi người có purpose, tôi thì không"
+**Case 8 — Gen Z with Social Media**
 
 ```
-  SITUATION: Scroll MXH, thấy influencer nói về "sống có mục đích"
-  ANCHOR STATUS: Medium anchors CÓ (study, friends, hobbies)
-    → Life-level: CHƯA BUILD (chunk density thấp, chưa tự nhiên cần)
-    → NHƯNG: MXH expose "life-level anchor" concept TRƯỚC KHI cần
-    → → Awareness SỚM → anxiety: "tôi chưa có meaning!"
-  MEANING STATE: Premature meaning anxiety
-    → PFC construct surface answer: "tôi muốn giúp mọi người"
-    → Body: chưa accept (chưa đủ chunks verify) → fragile
-    → → "Nói được nhưng không FEEL đúng"
-  PREDICTION:
-    → Nếu tiếp tục build chunks qua experience → anchor sẽ emerge tự nhiên
-    → Nếu bị kẹt ở "phải tìm purpose NGAY" → pressure → cortisol → block
-    → Tốt nhất: ignore pressure, live + explore → anchor sẽ compile dần
-  ✅ KHỚP: explains premature meaning anxiety qua MXH exposure
+SITUATION:
+  Gen Z, 20yo. Constant social media use. Thousands of "followers."
+  "I get likes but feel completely empty inside."
+
+TRIGGER: ABSENT — high-novelty environment PREVENTS anchor building
+  → Social media = continuous high-novelty (§7.4 tension)
+  → Each new post = new by-product → no pattern compiles
+  → Status anchor (social media followers) = STATUS, not life-level anchor
+  → GOAL type cannot form: no sustained direction → just next post
+
+ANCHOR STATUS: LIFE-LEVEL ANCHOR ABSENT
+  → Status "followers" = medium-scale, not life-level
+  → High novelty = no compilation time → no Compiled Experience anchors
+  → FAITH/STATE/IDENTITY anchors: not enough depth
+
+BODY STATE:
+  → "Empty" despite stimulation
+  → Classic: high dopamine (novelty spikes) + meaning absent
+  → Anxiety without content: "what am I doing?" without clear answer
+  → Gen Z meaninglessness pattern: lots of content consumption, no anchor
+
+INTERVENTION:
+  → REDUCE social media novelty (give body time to compile)
+  → APPROACH ②: sustained practice in ONE domain (depth over breadth)
+  → KEY insight: meaning requires SLOW compilation, NOT fast novelty
+  → APPROACH ③: explore types — IDENTITY or STATE types may suit better
+    than GOAL (achievement-oriented social media pressure)
 ```
 
-### Case 9: Bà ngoại 75 tuổi — "bình an, không bao giờ hỏi"
+**Case 9 — Grandmother, 75 years old**
 
 ```
-  SITUATION: Gia đình ổn, sức khỏe vừa, sống đơn giản
-  ANCHOR STATUS: COMPILED anchor deep (§4.2)
-    → "Gia đình là tất cả" (IDENTITY + ROLE) → compiled từ 50+ năm
-    → Body TỰ BIẾT → không cần PFC deliberate
-    → Trust CỰC CAO (50 năm domain feedback confirm)
-  MEANING STATE: Meaning present → "bình an"
-    → KHÔNG BAO GIỜ hỏi "sống để làm gì" → vì anchor ĐÃ compiled
-    → Nếu ai hỏi → "gia đình chứ còn gì" (verbalize compiled anchor)
-  PREDICTION: Stable trừ khi family anchor bị disrupted (loss)
-  ✅ KHỚP: compiled anchor → meaning present → no question needed
+SITUATION:
+  Grandmother, 75yo. Husband passed, friends passed, children moved away.
+  But: "I still have things I want to do. I look forward to each day."
+
+TRIGGER: DISRUPTED but ANCHOR SURVIVES AND REBUILDS
+  → Multiple anchors disrupted: spouse (CONNECTION), peer community (ROLE)
+  → BUT: anchor maintained through other types
+
+ANCHOR STATUS: MULTIPLE ANCHORS REBUILT OVER LIFE
+  → ROLE anchor: "grandmother, keeper of family memory" — strong + active
+  → FAITH anchor: decades compiled — stable, unfalsifiable
+  → STATE anchor: "I face each day with appreciation" — Frankl Route ③ compiled
+  → GOAL anchor: smaller-scale but present ("there are still things I want to do")
+
+BODY STATE:
+  → Genuine meaning present: body organized, direction present
+  → "Look forward to each day" = short-term anchor active, life-level anchor maintained
+  → NOT despite losses — THROUGH having built MULTIPLE anchor types over 75 years
+
+LESSON:
+  → Multi-anchor stability: when 1-2 disrupted, others hold
+  → Long compilation: 75 years of anchor-building → deep compiled anchors
+  → Frankl Route ③ compiled over decades: "I face what life brings" = deep STATE
+  → ROLE type natural at 75: legacy, family memory, intergenerational bridge
+
+→ This case = best demonstration of §4.4 interaction: multiple sources → resilient meaning
 ```
 
-### Case 10: Startup founder giữa khó khăn — "khó nhưng ĐÚNG"
+**Case 10 — Startup Founder**
 
 ```
-  SITUATION: 3 năm build, chưa product-market fit, hết tiền sắp
-  ANCHOR STATUS: GOAL anchor RÕ + TRUST CAO
-    → "Build product thay đổi ngành X" = life-level GOAL anchor
-    → Trust: domain feedback partial ✓ + body confirm + team cùng tin
-    → = Anchor-Schema.md §2: Trust ≥ Cost → anchor HOLD
-  MEANING STATE: Meaning present DÙ happiness thấp
-    → = §1.4 Case ④: "khổ nhưng có ý nghĩa"
-    → Dissonance → "khó nhưng ĐÚNG HƯỚNG" (anchor hold)
-    → KHÔNG hỏi "sống để làm gì" → vì anchor RÕ
-  PREDICTION:
-    → Nếu anchor continue hold → persist → có thể thành công
-    → Nếu anchor collapse (trust < cost) → void → meaning crisis
-    → Nếu succeed → anchor FULFILLED → §2.2 void → cần new anchor
-  ✅ KHỚP: strong anchor → meaning even in hardship
+SITUATION:
+  Startup founder. Company fails after 5 years. Everything lost.
+  Two responses in 2 different founders:
 
-  TỔNG HỢP: 10/10 cases KHỚP với hypothesis
-    → Life-level anchor CÓ → meaning present
-    → Life-level anchor THIẾU → meaning question/absent
-    → Anchor TYPE khác → meaning expression KHÁC
-    → Anchor SOURCE khác → stability + risk KHÁC
+  FOUNDER A: "I don't know who I am without this company."
+  FOUNDER B: "I learned more in 5 years than in 20. I know what I'll do next."
+
+TRIGGER: DISRUPTED (§2.3①②③) — company failure
+  → GOAL anchor: "build this company" → FAILED → disrupted
+  → ROLE anchor: "I am the founder / CEO" → STRIPPED
+  → IDENTITY anchor: "I am someone who builds things" — KEY DIFFERENCE:
+    FOUNDER A: IDENTITY compiled AROUND the specific company → disrupted
+    FOUNDER B: IDENTITY compiled around "building, learning, experimenting" → SURVIVES
+
+ANCHOR STATUS:
+  FOUNDER A: GOAL + ROLE + IDENTITY all collapsed → meaning absent
+  FOUNDER B: GOAL + ROLE disrupted, but IDENTITY HOLDS:
+    "I am a builder / experimenter" = meta-identity not dependent on THIS company
+
+BODY STATE:
+  FOUNDER A: "I don't know who I am" = identity anchor loss = existential
+  FOUNDER B: "I know what I'll do next" = anchor holds → direction re-emerges quickly
+
+LESSON:
+  → IDENTITY type anchor: what survives depends on HOW identity was compiled
+  → Narrow identity ("I AM this company") = brittle
+  → Meta-identity ("I AM a builder") = resilient
+  → Framework question: "are you the role or the quality that EXPRESSES through roles?"
+
+→ Jensen Huang: "NVIDIA is not the thing — I am someone who builds the AI future"
+   = meta-GOAL + meta-ROLE + IDENTITY → survives any specific product failure
 ```
 
 ---
@@ -1664,49 +1879,71 @@ RESONANCE-PER-ENTITY × MEANING (Resonance-Per-Entity.md v1.0):
 ## §9 — DIFFERENTIAL: MEANING ≠ BOREDOM ≠ BURNOUT ≠ DEPRESSION
 
 ```
-⭐ 4 TRẠNG THÁI THƯỜNG BỊ GỘP — CẦN TÁCH:
+⭐ 4-COLUMN DIFFERENTIAL TABLE:
 
-  ┌─────────────┬──────────────────┬──────────────────┬─────────────────┐
-  │             │ GỐC              │ Cortisol         │ Fix             │
-  ├─────────────┼──────────────────┼──────────────────┼─────────────────┤
-  │ CHÁN        │ THIẾU input/     │ Nhẹ (hơi trên   │ Feed channels   │
-  │ (Boredom    │ direction        │ idle)            │ hoặc tìm        │
-  │ Loại 1-2)   │                  │                  │ Imagine-Final   │
-  ├─────────────┼──────────────────┼──────────────────┼─────────────────┤
-  │ VÔ NGHĨA   │ THIẾU life-level │ Nhẹ-vừa,        │ Build/tìm       │
-  │ (Meaning    │ Anchor-Schema    │ persistent       │ life-level      │
-  │ absent)     │                  │                  │ anchor          │
-  ├─────────────┼──────────────────┼──────────────────┼─────────────────┤
-  │ KIỆT SỨC   │ QUÁ NHIỀU output │ Cao mãn tính    │ REST + reduce   │
-  │ (Burnout)   │ + thiếu repair   │ PFC suy kiệt    │ load + repair   │
-  ├─────────────┼──────────────────┼──────────────────┼─────────────────┤
-  │ TRẦM CẢM   │ Nhiều nguồn      │ Dysregulated     │ Chuyên gia      │
-  │ (Depression)│ (sinh học,       │ CAN'T feel       │ (therapy +      │
-  │             │ trauma, loss)    │ (numb)           │ possible meds)  │
-  └─────────────┴──────────────────┴──────────────────┴─────────────────┘
+  ┌──────────────┬─────────────────┬──────────────────┬────────────────┬─────────────────┐
+  │              │ BOREDOM         │ MEANING ABSENT   │ BURNOUT        │ DEPRESSION       │
+  │              │ (Type 2/3)      │                  │                │                  │
+  ├──────────────┼─────────────────┼──────────────────┼────────────────┼─────────────────┤
+  │ Core         │ By-product      │ Life-level        │ Cortisol       │ Systemic         │
+  │ mechanism    │ STOPS           │ anchor ABSENT/   │ CRASHES under  │ dysregulation    │
+  │              │ (Boredom.md)    │ DISRUPTED        │ overload       │ (neurobiological)│
+  ├──────────────┼─────────────────┼──────────────────┼────────────────┼─────────────────┤
+  │ Time scale   │ Hours–days      │ Months–years     │ Weeks–months   │ Weeks–months     │
+  │              │                 │ (persistent)     │ (accumulate)   │ (persistent)     │
+  ├──────────────┼─────────────────┼──────────────────┼────────────────┼─────────────────┤
+  │ Primary      │ "Nothing        │ "What's the      │ "I can't go    │ "Nothing         │
+  │ subjective   │ to do"          │ point of all     │ on anymore"    │ matters, nothing │
+  │ experience   │ "Unoccupied"    │ this?"           │ "Exhausted"    │ is possible"     │
+  │              │                 │ "Empty inside"   │                │                  │
+  ├──────────────┼─────────────────┼──────────────────┼────────────────┼─────────────────┤
+  │ Drive/       │ Drive active    │ Drive present    │ Drive          │ Drive ABSENT     │
+  │ motivation   │ (nothing to     │ but no           │ DEPLETED       │ or severely      │
+  │              │ activate it)    │ direction        │ (burned out)   │ reduced          │
+  ├──────────────┼─────────────────┼──────────────────┼────────────────┼─────────────────┤
+  │ Body-        │ Mild restless,  │ Persistent mild  │ Exhaustion,    │ Anhedonia,       │
+  │ signals      │ unfocused       │ restlessness     │ physical drain │ flat affect,     │
+  │              │                 │ (bứt rứt),       │                │ cognitive slow   │
+  │              │                 │ scattered        │                │                  │
+  ├──────────────┼─────────────────┼──────────────────┼────────────────┼─────────────────┤
+  │ Anchor       │ Not the         │ ABSENT or        │ Present but    │ May be present   │
+  │ status       │ issue           │ DISRUPTED        │ INACCESSIBLE   │ but body cannot  │
+  │              │                 │                  │ (body too      │ engage it        │
+  │              │                 │                  │ depleted)      │                  │
+  ├──────────────┼─────────────────┼──────────────────┼────────────────┼─────────────────┤
+  │ Primary      │ Find by-product │ Build/restore    │ Cortisol       │ Medical/         │
+  │ intervention │ (Boredom.md)    │ anchor (§6.2)    │ repair         │ biological +     │
+  │              │                 │                  │ (Cortisol-     │ meaning second   │
+  │              │                 │                  │ Baseline §9)   │                  │
+  └──────────────┴─────────────────┴──────────────────┴────────────────┴─────────────────┘
 
-  ⭐ v2.0 UPDATE — CHẨN ĐOÁN CỤ THỂ HƠN:
+COMMON MISDIAGNOSIS ERRORS:
 
-    "Vô nghĩa" → CHECK: life-level anchor STATUS là gì?
-      → ABSENT (chưa build) → facilitate building (§6.2)
-      → EXHAUSTED (đạt rồi) → build NEW anchor (explore types §3)
-      → DISRUPTED (bị phá) → heal first → then rebuild
+  ERROR ①: "Depression" when actually "anchor disruption":
+    → Anchor collapse → reactive depression-LIKE state
+    → But: PRIMARY cause = anchor loss → address anchor FIRST
+    → If anchor restored → depression-like state resolves
+    → If truly depression: anchor work alone CANNOT resolve
 
-    v1.0: "facilitate coherence" → HOW? → không cụ thể
-    v2.0: "build/tìm life-level anchor" → CỤ THỂ: type nào? source nào?
+  ERROR ②: "Burnout" when actually "meaning absent":
+    → Long-term meaning absent → exhaustion pattern
+    → But: PRIMARY cause = no anchor → no sustainable direction
+    → Cortisol repair ALONE insufficient if anchor absent
+    → Must address BOTH
 
-  ⭐ SAI LẦM PHỔ BIẾN:
+  ERROR ③: "Midlife crisis" as pathology:
+    → 40-50 anchor reassessment = NORMAL developmental process (§2.4)
+    → Meaning: GOAL anchor EXHAUSTED → need new type → not pathology
+    → Framing: "anchor transition" not "crisis"
 
-    "Vô nghĩa" → tưởng "chán" → feed channels → KHÔNG WORK
-    (vì gốc = thiếu life anchor, không phải input thiếu)
+  ERROR ④: "Need more purpose activities" for someone with anchor disruption:
+    → Disruption → body in protect mode (§7.5) → NEW anchor CANNOT compile
+    → First: grief + cortisol reduction → THEN anchor building
+    → Immediately "find new purpose" = premature → forces PFC construct → fragile
 
-    "Vô nghĩa" → tưởng "burnout" → rest → rest XONG VẪN VÔ NGHĨA
-    (vì gốc = thiếu life anchor, không phải quá tải)
-
-    "Vô nghĩa" → tưởng "depression" → meds → có thể giúp cortisol
-    nhưng KHÔNG BUILD anchor (anchor = cognitive + experiential, not chemistry)
-
-  → PHẢI CHẨN ĐOÁN ĐÚNG GỐC trước khi fix
+  KEY TEST: Can a specific anchor be identified?
+    → YES: mechanism = anchor absent/disrupted → address anchor
+    → NO / DIFFUSE: broader evaluation needed (depression, burnout, neurobiology)
 ```
 
 ---
@@ -1714,94 +1951,83 @@ RESONANCE-PER-ENTITY × MEANING (Resonance-Per-Entity.md v1.0):
 ## §10 — HONEST ASSESSMENT
 
 ```
-⭐ ĐÁNH GIÁ TRUNG THỰC — MEANING v2.1:
+WHAT IS SUPPORTED:
 
-  ┌──────────────────────────────────────────────────────────────────┐
-  │  CLAIM                              │ CONFIDENCE │ STATUS       │
-  ├─────────────────────────────────────┼────────────┼──────────────┤
-  │ Frankl: meaning → survival link    │ 🟢         │ Historical   │
-  │ Logotherapy 3 ways (Frankl 1946)    │ 🟢         │ Established  │
-  │ DMN = self-referential processing  │ 🟢         │ Raichle 2001 │
-  │ Meaning ≠ happiness (Baumeister)   │ 🟢         │ 2013 study   │
-  │ Goal hierarchy (Carver & Scheier)  │ 🟢         │ 1998 theory  │
-  │ Self-determination (Deci & Ryan)   │ 🟢         │ 2000 theory  │
-  │ Religion → meaning (Park)          │ 🟢         │ 2005 review  │
-  │ Terror Management (Greenberg)      │ 🟢         │ 1986 theory  │
-  │ Implicit knowledge (Reber)         │ 🟢         │ 1993 theory  │
-  │ Social Baseline Theory (Coan)      │ 🟢         │ 2015 study   │
-  │ Meaning = life-level Anchor-Schema │ 🟡         │ v2.0 reframe │
-  │ v1.0 "coherence" = output not cause│ 🟡         │ v2.0 reframe │
-  │ 5 types of life-level anchor       │ 🟡         │ Framework    │
-  │ Age gradient = anchor dynamics     │ 🟡         │ Synthesis    │
-  │ Brain optimization toward stable   │ 🟡         │ Logical      │
-  │ Religion = effective anchor provider│ 🟡         │ Synthesis    │
-  │ Self-help critique (prescribe 1 type)│ 🟡       │ Analysis     │
-  │ 3 ways anchor thiếu (A/E/D)       │ 🟡         │ Framework    │
-  │ MXH → premature meaning anxiety   │ 🟡         │ Observation  │
-  │ Compilable Architecture → meaning emergent │ 🟡         │ Synthesis    │
-  │ Domain=Arbiter: meaning can be wrong│ 🟡        │ Synthesis    │
-  │ Gratitude → anchor strengthening   │ 🔴         │ Hypothesis   │
-  │ Brain optimization = computational │ 🔴         │ Analogy      │
-  └─────────────────────────────────────┴────────────┴──────────────┘
+🟢 SUPPORTED:
+  ① Meaning × resilience: abundant evidence (Frankl, Terror Management Theory,
+     health outcomes correlate with "sense of purpose")
+  ② Goal hierarchy architecture: meaning as highest-level goal = supported
+     (Carver & Scheier, Emmons 1999)
+  ③ Meaning ≠ happiness = independent dimensions: Baumeister et al. 2013
+  ④ Frankl concentration camp observations: primary historical documentation
+  ⑤ Identity disruption → existential crisis: Erikson, Swann self-verification
+  ⑥ Terror Management Theory: meaning buffer against mortality anxiety
+  ⑦ Memory consolidation → tendency toward fewer, stable anchors: basic neuroscience
 
-  WHAT'S STRONG (v2.0):
-    → Frankl, Baumeister, Deci & Ryan, Park = solid research foundation
-    → Goal hierarchy = established psychology
-    → Religion-meaning link = well-documented
-    → 10/10 cases khớp với hypothesis
+🟡 FRAMEWORK SYNTHESIS (reasonable, not yet directly confirmed):
+  ① "Life-level Anchor-Schema" mechanism = v2.0 reframe — plausible,
+     bridges multiple research streams, not single study to cite
+  ② 5 anchor types (GOAL/STATE/IDENTITY/FAITH/ROLE) = synthesized from
+     multiple typologies; 5-way split not the only possible framework
+  ③ 3 disruption pathways (absent/exhausted/disrupted) = useful categorization,
+     not exhaustive
+  ④ Compilable Architecture → meaning question = inter-body-mechanism synthesis
+  ⑤ Age gradient patterns = synthesized from developmental research, not precise predictions
+  ⑥ Cortisol-inertia post-anchor-exhaustion = plausible but not directly cited
 
-  WHAT'S v2.0 IMPROVEMENT OVER v1.0:
-    → CỤ THỂ hơn: "life-level anchor" vs "schema coherence"
-    → ACTIONABLE hơn: "build/tìm anchor + type + source" vs "facilitate coherence"
-    → PREDICT tốt hơn: anchor status → meaning state (testable)
-    → GIẢI THÍCH nhiều hơn: age gradient, religion, self-help failure, Frankl
-
-  WHAT'S HONESTLY UNCERTAIN:
-    → 5 types classification: exhaustive? có type thứ 6?
-    → Brain optimization metaphor: actual mechanism hay chỉ analogy?
-    → Gratitude × meaning interaction: plausible nhưng chưa evidence
-    → Cross-cultural variation: anchor types KHÁC ở Eastern vs Western?
-    → Measurement: "life-level anchor present" → đo bằng gì?
+🔴 HYPOTHESIS (plausible but unconfirmed):
+  ① Gratitude → anchor Trust strengthening (§7.7)
+  ② Resonance-Sustainability Layer 3+ = most meaning-sustaining (§7.8)
+  ③ Specific cortisol roles in meaning absence (synthesized, not direct research)
 ```
 
 ### §10.1 — Open Questions
 
 ```
-6 CÂU HỎI MỞ:
+⭐ 6 OPEN QUESTIONS FOR FRAMEWORK DEVELOPMENT:
 
-  Q1: 5 types exhaustive?
-      → Có thể có type nào khác? Mixed types (GOAL + IDENTITY)?
-      → Hoặc: 5 types là dimensions, không phải discrete categories?
-      → Cần: more cases → refine classification
+  Q1 — ARE THE 5 ANCHOR TYPES EXHAUSTIVE?
+    → Is GOAL/STATE/IDENTITY/FAITH/ROLE the complete set?
+    → Or are there hybrids/edge cases the 5-type model misses?
+    → Research gap: no cross-cultural study of "life anchor types" using this framework
+    → Key: does anyone have a stable life-level anchor that CANNOT be mapped to one of 5?
+    → If yes → new type needed; if no → 5 may be sufficient
 
-  Q2: "Body accept" → đo bằng gì?
-      → Currently: behavior under dissonance = best proxy
-        (anchor hold → meaning; anchor collapse → no meaning)
-      → Could: physiological markers? narrative coherence interviews?
-      → Cần: operational definition cho "body accept anchor"
+  Q2 — HOW TO MEASURE "BODY HAS ACCEPTED" AN ANCHOR?
+    → The key distinction (§1.1): PFC construct vs body-compiled
+    → What neurobiological markers distinguish these?
+    → Behavioral proxy: anchor HOLDS under stress → not just maintained when easy
+    → Research gap: implicit self-knowledge measurement (Reber, Bechara) not specifically
+      applied to life-level anchor compilation
+    → Framework urgently needs: validated behavioral/psychometric measure of "anchor depth"
 
-  Q3: Cross-cultural variation?
-      → Eastern cultures: STATE/IDENTITY type dominant?
-      → Western cultures: GOAL type dominant (individualism)?
-      → Same mechanism (anchor) + different cultural BIAS toward types?
-      → Cần: cross-cultural anchor-type research
+  Q3 — HOW DOES ANCHOR DIFFER CROSS-CULTURALLY?
+    → § 3.6 Factor ④: cultural schemas install anchor TYPE templates
+    → But: do ALL cultures have GOAL/STATE/IDENTITY/FAITH/ROLE types, just different emphasis?
+    → Or: are some types only available in specific cultural contexts?
+    → Cross-cultural meaning research (Steger 2009 cross-cultural) suggests some universals
+    → Research gap: specific mapping of 5 types across cultures
 
-  Q4: Gratitude × meaning (Gratitude.md Q4)?
-      → Gratitude → anchor strengthening? → testable prediction
-      → Cần: correlational or experimental study
+  Q4 — GRATITUDE × MEANING INTERACTION (§7.7):
+    → Hypothesis: gratitude targeting anchor-relevant content → anchor Trust strengthened
+    → Research: general gratitude → well-being (Emmons), but NOT specific to anchor mechanism
+    → Key study needed: does gratitude specifically directed at anchor-relevant content
+      increase behavioral anchor commitment (not just self-reported meaning)?
 
-  Q5: Multi-anchor dynamics?
-      → Có thể có 2-3 life-level anchors aligned (gia đình + nghề + giá trị)
-      → Khi nào aligned anchors REINFORCE vs CONFLICT?
-      → = Drive conflict (Drive.md §3) ở life-level
-      → Cần: analyze multi-anchor cases
+  Q5 — MULTI-ANCHOR DYNAMICS:
+    → Most resilient: multiple anchor types (§4.4 interaction table)
+    → But: DO anchors compete? Can 2 anchors create incompatible directives?
+    → Example: GOAL anchor ("build company") vs ROLE anchor ("be present parent") → conflict
+    → Framework currently: assumes multiple anchors can coexist, no systematic conflict model
+    → Research gap: multi-anchor conflict → which wins? cortisol role? domain hierarchy?
 
-  Q6: AI era impact?
-      → AI remove daily tasks → ① daily noise reduced
-      → → Meaning question may become UNIVERSAL sớm hơn
-      → → "Sống để làm gì khi AI làm hết?" = existential crisis at scale
-      → → Anchor building skills = CRITICAL in AI era
-      → Cần: observe + prepare
+  Q6 — MEANING IN AI ERA:
+    → AI replacing ROLE anchors: "my work matters" → AI does it better → ROLE anchor threatened
+    → External Inject: social media algorithms as External Inject for life-meaning narratives?
+    → New meaning forms: AI-era ROLE anchors emerging (building AI systems, being human)
+    → Framework question: does Compilable Architecture (only humans need meaning)
+      remain true as AI systems become more complex?
+    → 🔴 Highly speculative — no empirical basis yet
 ```
 
 ---
@@ -1809,86 +2035,65 @@ RESONANCE-PER-ENTITY × MEANING (Resonance-Per-Entity.md v1.0):
 ## §11 — CROSS-REFERENCES
 
 ```
-CORE CONCEPT FILE:
-  → Anchor-Schema.md — §0 phân biệt, §1 sync mechanism, §2 Trust + Strength + Cost,
-    §3 4 nguồn fill → MEANING = life-level application of this concept
+CORE CONCEPT FILES:
+  → Anchor-Schema.md — THE mechanism file for anchors (IS what meaning IS)
+  → Core-v7.8-Draft.md §8 — meaning defined briefly in cycle architecture
 
-DRILL SOURCE:
-  → Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture (meaning = emergent from compilation depth)
-  → Inter-Body-Mechanism.md v1.0 §7 — PFC=Lawyer, Domain=Arbiter (meaning can be wrong)
+DRILL SOURCE (1 key chunk):
+  → Compiled Experience (§4.2): mechanism of bottom-up anchor building
 
 MECHANISM FILES:
-  → Imagine-Final.md v3.0 — hardware prediction ≠ Imagine-Final, lifecycle
-    → 1 trong 4 nguồn fill anchor (nguồn ①)
-  → Body-Feedback-Mechanism.md §3.3 — Chunk-Gap (life-level gap signal)
-  → Body-Feedback-Mechanism.md §3.3⑥ — cortisol inertia (post-achievement void)
-  → Cortisol-Baseline.md v2.0 — amplifier, burnout, direction gate
-  → Chunk.md v2.3 — chunk substrate, compilation, network topology
-  → Agent-Mechanism.md v2.1 §12 — body-need feeder, Self-Pattern-Modeling, §12.6 grief
-  → Somatic-Articulation-Loop.md — body-knowledge → explicit (anchor building tool)
+  → Imagine-Final.md — source for GOAL/ROLE anchors (top-down PFC Imagine-Final)
+  → Cortisol-Baseline.md — inertia Role ④ (post-anchor exhaustion), Role ① (compile direction in camp)
+  → Drive.md — signal strength into anchor direction
+  → Boredom.md v2.0 — Type 3 = gateway to meaning question
+  → Protect.md — identity protect (§3.3, §7.5)
+  → Inter-Body-Mechanism.md §1.2 — Compilable Architecture: why meaning exists
 
-NEW CONCEPT FILES (28-session Drill — §7.8):
-  → Bond-Architecture.md v2.0 — meaning through 4 bond types (4 pathways)
-  → Resonance-Sustainability.md v1.0 — meaning sustainability (4-layer prediction)
-  → Resonance-Per-Entity.md v1.0 — meaning per-entity dynamics, grief → anchor collapse
+NEW CONCEPT FILES (Concept Cascade v2.1):
+  → Bond-Architecture.md v2.0 — bond types × meaning
+  → Resonance-Sustainability.md v1.0 — 4-layer sustainability × meaning
+  → Resonance-Per-Entity.md v1.0 — entity-pair resonance × meaning
 
 VOCABULARY:
-  → Body-Feedback-Label.md v2.0 — prediction-delta, terminology consistency
+  → Body-Feedback-Label.md v2.0 — terminology consistency
+  → Glossary/00-Glossary.md — framework terms
 
-OBSERVATION PARAMETER FILES (cùng folder):
-  → Boredom.md v2.0 — Loại 3 TRỐNG = gateway tới meaning question
-  → Status.md v2.2 — "Thành công nhưng emptiness" = anchor exhausted
-  → Drive.md v1.2 — Drive-PFC-Spinning ≈ meaning territory; drive conflict
-  → Protect.md v1.1 — Identity protect blocks anchor change
-  → Novelty.md v1.2 — Raw material supplier cho anchor building
-  → Connection.md v5.0 — Shared anchors, co-regulation, 4-Layer Sustainability
-  → Gratitude.md v2.0 §10 Q4 — Gratitude × meaning interaction (open)
-  → Empathy.md v4.0 — Self-Pattern-Modeling in meaning context
-  → Threat.md v1.2 — Mortality awareness trigger (Terror Management Theory)
+OBSERVATION PARAMETERS (same tier as this file):
+  → Boredom.md v2.0 — Type 3 EMPTY gateway (§7.3)
+  → Connection.md v5.0 — shared anchors, co-regulation (§7.6)
+  → Gratitude.md v2.0 — anchor strengthening hypothesis (§7.7)
+  → Status.md v2.1 — "success but emptiness" (§2.2 case)
+  → Protect.md v1.1 — identity protect tension (§7.5)
+  → Novelty.md — raw material for anchor building (§7.4)
 
 PFC FILES:
-  → PFC-Function.md — 24 functions, §2 HOLD, PFC as backup
-  → PFC-Hardware.md — DRD4/COMT → anchor type preference bias
-  → Imagine-Final-Evaluation.md — Quality check for Imagine-Final based anchors
-  → Logic-Feeling-Balance.md — meta-principle: can't prescribe "right" anchor
+  → Imagine-Final.md — §1.1 (source), §7.2 (interaction)
+  → Imagine-Final-Evaluation.md — evaluation of anchor candidates
 
 DOMAIN FILES:
-  → Collective-Purpose.md — "sống có ý nghĩa" reframe, cosmic loop,
-    "vô danh ≠ vô nghĩa"
-
-BACKUP:
-  → backup/Meaning-v1.0-backup.md — v1.0 "schema coherence" definition (1,236L)
+  → Domain-Mapping-Drive.md — domain × anchor type matching (§3.6 Factor ③)
+  → Collective-Purpose.md — "living meaningfully" + cosmic loop
+  → Agent-Mechanism.md v2.1 §12 — 10 Self-Pattern-Modeling dimensions
 
 KEY RESEARCH CITATIONS:
-  → 🟢 Frankl 1946 — Man's Search for Meaning, Logotherapy
-  → 🟢 Baumeister et al. 2013 — Meaning vs happiness distinction
-  → 🟢 Raichle 2001 — Default Mode Network
-  → 🟢 Deci & Ryan 2000 — Self-Determination Theory
-  → 🟢 Carver & Scheier 1998 — Goal hierarchy, control theory
-  → 🟢 Park 2005, Pargament 2007 — Religion → meaning
-  → 🟢 Greenberg et al. 1986 — Terror Management Theory
-  → 🟢 Reber 1993 — Implicit knowledge
-  → 🟢 Coan 2015 — Social Baseline Theory
-  → 🟢 Edwards & Rothbard 1999 — Person-environment fit
-  → 🟢 Schwartz 1994 — Value theory
-  → 🟢 Cialdini 2001 — Social proof
-  → 🟢 Jaques 1965, Lachman 2004 — Midlife crisis documentation
+  → Frankl, V. (1946). Man's Search for Meaning.
+  → Baumeister, R. et al. (2013). Some key differences between a happy life and a meaningful life.
+  → Steger, M. et al. (2009). The Meaning in Life Questionnaire: Assessing the presence of and search for meaning.
+  → Emmons, R. (1999). The Psychology of Ultimate Concerns.
+  → Carver, C. & Scheier, M. (1998). On the Self-Regulation of Behavior.
+  → Erikson, E. (1968). Identity: Youth and Crisis.
+  → Greenberg, J. et al. (1986). Evidence for Terror Management Theory.
+  → McAdams, D. (1993). The Stories We Live By: Personal Myths and the Making of the Self.
+  → Deci, E. & Ryan, R. (2000). Self-Determination Theory.
+  → Reber, A. (1993). Implicit Learning and Tacit Knowledge.
 
 STATUS:
-  → v2.2 REFINE — từ v2.1 (2026-05-23). +Bond-Architecture, +Resonance-Sustainability, +Resonance-Per-Entity.
-  → v2.1 REFINE — từ v2.0 (2026-05-17). +Compilable Architecture, +Domain=Arbiter.
-  → v2.0 rewrite từ v1.0 anchor-schema reframe (2026-04-25)
-  → KEY CONTRIBUTIONS v2.0:
-    ① "Meaning = life-level Anchor-Schema" (mechanism, not output)
-    ② "Coherence = RESULT, not definition" (v1.0 described output)
-    ③ "5 types of life-level anchor" (GOAL/STATE/IDENTITY/FAITH/ROLE)
-    ④ "Tại sao meaning mỗi người KHÁC" (hardware × chunks × domain)
-    ⑤ "Religion = effective anchor provider" (with trade-offs)
-    ⑥ "Age gradient = anchor dynamics" (medium → life-level progression)
-    ⑦ "Brain optimization toward stable anchor" (energy efficiency)
-    ⑧ "Self-help critique sharper" (prescribe 1 type vs 5 types)
-    ⑨ "Frankl reframe stronger" (anchor, not vague coherence)
-    ⑩ "Actionable: type + source → specific intervention"
+  → Meaning.md v2.2 (2026-05-23): ACTIVE OBSERVATION FILE
+  → Part of Phase G rewrite (R07) — full translation from Vietnamese source
+  → All 10 cases: consistent with anchor-based mechanism
+  → Open questions: §10.1 (6 items)
+  → Next development: Q2 (body-accept measurement) + Q5 (multi-anchor conflict)
 ```
 
 ---
@@ -1896,84 +2101,114 @@ STATUS:
 ## SUMMARY
 
 ```
-MEANING = OBSERVATION PARAMETER (v2.0)
-= Observation name cho trạng thái CÓ/THIẾU life-level Anchor-Schema ổn định
+⭐ MEANING.MD — COMPLETE OVERVIEW:
 
-REFRAME (§0): v1.0 "coherence" = OUTPUT; v2.0 "life-level anchor" = MECHANISM
-  → Coherence = KẾT QUẢ khi có anchor tốt
-  → Fragmentation = KẾT QUẢ khi thiếu anchor
+  CORE CLAIM: Meaning = observation name for the state of HAVING a stable life-level
+  Anchor-Schema that the body has ACCEPTED. "Coherence" (v1.0) = RESULT of anchor
+  present, not the definition.
 
-DEFINITION (§1):
-  → Meaning present = CÓ life-level anchor + body ACCEPT + STABLE
-  → Meaning question = ĐANG TÌM life-level anchor (absent/exhausted/disrupted)
-  → Meaning ≠ Happiness (independent dimensions, Baumeister 2013)
+  WHY IT MATTERS:
+    → Predicts: anchor absent/exhausted/disrupted → meaning question emerges
+    → Explains: Frankl concentration camp case — same inputs, different anchor, different outcome
+    → Guides: not "find your purpose" but "facilitate body accept anchor"
+    → Diagnoses: which trigger? which type? which source? → correct intervention
 
-TRIGGER (§2): 3 cách thiếu anchor:
-  → ABSENT (chưa build) / EXHAUSTED (đạt→void) / DISRUPTED (crisis phá)
-  → Age gradient: trẻ = medium anchors đủ; lớn = medium cạn → life-level cần
-  → Brain optimization: xu hướng consolidate → 1-2 stable life-level anchors
+  §0 — OBSERVATION PARAMETER:
+    Meaning = emergent observation of Compilable Architecture organisms
+    when chunk network large enough to need life-level organization.
+    v2.0 reframe: identifies anchor mechanism, not just coherence output.
+    Domain=Arbiter: meaning CAN BE WRONG (body-accepted anchor ≠ correct anchor).
 
-5 TYPES (§3): GOAL / STATE / IDENTITY / FAITH / ROLE
-  → Mỗi người optimal type KHÁC vì hardware × chunks × domain KHÁC
-  → Self-help sai vì prescribe GOAL type cho MỌI NGƯỜI
+  §1 — DEFINITION:
+    3 conditions: ① life-level anchor ② body accepted ③ stable through dissonance.
+    "Coherence" = result, not definition. Meaning ≠ happiness (independent dimensions):
+    Frankl ④ = terrible body-inputs + stable anchor = meaning present.
 
-SOURCES (§4): 3 nguồn chính:
-  → PFC Imagine-Final (top-down, fast, flexible)
-  → Compiled Experience (bottom-up, slow, bền nhất)
-  → External Inject: Religion + Culture (bypass PFC, accessible)
-  → Religion = effective anchor provider (unfalsifiable, community, ritual)
+  §2 — TRIGGERS (when meaning question arises):
+    ABSENT: never built (common 15-25yo, Compilable Architecture threshold).
+    EXHAUSTED: achieved → void (GOAL type most vulnerable; CEO 50yo).
+    DISRUPTED: crisis strips anchor (identity collapse, loss, disillusionment, forced reframe).
+    Age gradient: waves at 15-25, 40-50, 65+.
+    Brain optimization: consolidates toward 1-2 stable anchors over decades.
 
-FRANKL (§5): cùng body-inputs, khác anchor → khác outcome
-  → Anchor CÓ → survive; Anchor THIẾU → give up
-  → Logotherapy 3 ways = 3 routes build anchor (create/experience/reframe)
-  → Reframe (③) = UNIQUE: work khi mọi thứ bị strip
+  §3 — 5 ANCHOR TYPES:
+    GOAL: "build/achieve X" — drive strong, exhaustion risk.
+    STATE: "inner peace/equanimity" — most resilient, hardest to compile.
+    IDENTITY: "I am [person type]" — behavioral guide, protect risk.
+    FAITH: "God/universe has a plan" — fast install, unfalsifiable, cult risk.
+    ROLE: "my place in system matters" — social, exhaustion when role ends.
+    Why differs per person: hardware × chunk library × domain × culture × life stage.
 
-SELF-HELP CRITIQUE (§6):
-  → "Find purpose" = prescribe GOAL type → miss 4 types khác
-  → Framework: facilitate body ACCEPT life-level anchor → explore all types
+  §4 — 4 SOURCES:
+    PFC Imagine-Final: top-down, fast, flexible → GOAL/ROLE types.
+    Compiled Experience: bottom-up, slow, most stable → STATE/IDENTITY.
+    External Inject (Religion+Culture): bypass PFC, fast, accessible, FAITH.
+    Most resilient: multiple overlapping sources.
 
-CROSS-PARAMETERS (§7):
-  → ×Anchor-Schema (IS the mechanism)
-  → ×Imagine-Final (one source), ×Boredom (gateway)
-  → ×Novelty (raw material), ×Protect (tension), ×Connection (catalyst)
-  → ×Gratitude (anchor strengthening? — 🔴 hypothesis)
+  §5 — FRANKL REFRAME:
+    Natural experiment: same inputs, different anchor → completely different outcomes.
+    Logotherapy 3 routes:
+      ① create/do (GOAL/ROLE via PFC Imagine-Final + Compiled Experience)
+      ② experience/encounter (FAITH/CONNECTION via External Inject)
+      ③ attitude toward suffering (STATE via Compiled Experience — UNIQUE: works when all else stripped)
+    Camp = all anchors stripped → those with STATE/IDENTITY (deep compiled) survived;
+    those with nothing held → disorganized rapidly.
 
-CASES (§8): 10/10 KHỚP — từ 15yo → 75yo, Frankl, tôn giáo, Gen Z, CEO, retiree
+  §6 — SELF-HELP CRITIQUE:
+    "Find your purpose" = 4 problems: object-framing, GOAL-type-only prescription,
+    singular anchor (brittle), no Domain=Arbiter check.
+    Framework: facilitate body accept anchor → 5 approaches:
+    ① reduce cortisol noise ② add chunks ③ explore types ④ allow time ⑤ reframe existing chunks.
 
-DIFFERENTIAL (§9): Meaning ≠ Boredom ≠ Burnout ≠ Depression — fix KHÁC
+  §7 — CROSS-PARAMETER INTERACTIONS:
+    × Anchor-Schema: IS the mechanism (not interaction, = identification)
+    × Imagine-Final: source for GOAL/ROLE; NOT = meaning itself
+    × Boredom Type 3: gateway → often discovers meaning absent under
+    × Novelty: raw material, but too fast → prevents compilation
+    × Protect: strong identity anchor → strong protect signal → rigid
+    × Connection: shared anchors → co-regulation → amplified meaning
+    × Gratitude: 🔴 hypothesis: targeting anchor-relevant content → Trust strengthened
+    × New Concepts: Bond-Architecture Layer 3+ = meaning-sustaining; Resonance-Per-Entity
 
-FILE: ~1,770 lines | 11 sections + summary
-VERSION: v2.1 | 2026-05-17 (refine từ v2.0)
+  §8 — 10 CASES:
+    Student 15yo (absent), Graduate 22yo (absent/exhausted), Employee 30yo (absent),
+    CEO 50yo (exhausted), Retiree 65yo (disrupted), Frankl in camp (all stripped → held),
+    Religious believer (faith disrupted), Gen Z social media (absent/novelty-blocked),
+    Grandmother 75yo (disrupted+rebuilt multi-anchor), Startup founder (IDENTITY type key).
+    All 10: consistent with anchor mechanism.
 
-v2.1 CHANGES (2026-05-17):
-  ⑪ +Compilable Architecture: meaning = emergent observation khi general-purpose system
-     compile life-level patterns đủ sâu (Hardwired Architecture: không hỏi "sống vì gì?")
-  ⑫ +Domain=Arbiter §1.1b: meaning CAN BE WRONG (cult, propaganda, fraud)
-     → "cảm thấy có ý nghĩa" ≠ "sống có ý nghĩa" (PFC=Lawyer confabulate)
-  ⑬ Version refs updated (Connection v4.0, Empathy v3.0, Boredom v1.1, etc.)
-  ⑭ +Inter-Body-Mechanism v1.0, +Body-Feedback-Label v2.0 cross-refs
-  ⑮ Honest Assessment: +2 🟡 (Compilable Architecture, Domain=Arbiter)
+  §9 — DIFFERENTIAL:
+    Boredom: short-term, by-product stops. Meaning: months+, anchor absent.
+    Burnout: anchor present but inaccessible (depleted). Depression: systemic, anchor secondary.
+    Common errors: misdiagnosing anchor disruption as depression; missing cortisol repair prerequisite.
+
+  §10 — HONEST ASSESSMENT:
+    🟢 Strong: Frankl evidence, meaning × resilience literature, goal-hierarchy, meaning ≠ happiness.
+    🟡 Synthesis: life-level Anchor-Schema mechanism, 5 types, 3 disruptions.
+    🔴 Hypothesis: gratitude → anchor strengthening.
+    6 open questions: types exhaustive? body-accept measure? cross-cultural? gratitude study?
+    multi-anchor conflict? AI era meaning?
+
+  §11 — CROSS-REFERENCES:
+    Core: Anchor-Schema.md, Imagine-Final.md, Cortisol-Baseline.md, Inter-Body-Mechanism.md.
+    New concepts: Bond-Architecture, Resonance-Sustainability, Resonance-Per-Entity.
+    Same tier: Boredom, Connection, Gratitude, Status, Protect, Novelty.
 ```
 
 ---
 
-> *"Ý nghĩa cuộc đời là gì?" — Câu hỏi sai.*
-> *Không có "ý nghĩa" nằm đâu đó chờ bạn tìm.*
+> *You do not SEARCH for meaning. You BUILD an anchor.*
+> *And the body will tell you: does THIS anchor hold?*
 >
-> *Câu hỏi đúng: "Tôi CÓ life-level Anchor-Schema ổn định không?"*
+> *A person who "has everything" but lacks anchor = empty.*
+> *A person who "has nothing" but anchor holds = complete.*
 >
-> *Trẻ con không hỏi — vì medium anchors đầy, chưa cần.*
-> *Trung niên hay hỏi — vì medium anchors cạn, life-level trống.*
-> *Người già bình an — vì anchor đã compiled, body TỰ BIẾT.*
-> *Tín đồ yên tâm — vì tôn giáo cung cấp anchor SẴN.*
-> *Frankl sống sót — vì build anchor MỚI khi mọi thứ bị strip.*
+> *This is what Frankl proved: not from books, not from theory.*
+> *From 3 years in Auschwitz.*
 >
-> *Thiền sư: "an lạc" (STATE). CEO: "tạo impact" (GOAL).*
-> *Bà ngoại: "gia đình" (IDENTITY). Mục sư: "phục vụ" (FAITH).*
-> *Bác sĩ: "cứu người" (ROLE).*
+> *The question is never "what is the meaning of life?"*
+> *The question is: "what life-level anchor has YOUR body accepted?"*
 >
-> *Không ai sai. Mỗi người anchor KHÁC.*
-> *Vì hardware KHÁC. Chunks KHÁC. Domain KHÁC.*
->
-> *Bạn không TÌM meaning. Bạn BUILD anchor.*
-> *Và body sẽ cho bạn biết: anchor NÀY có ĐÚNG không.*
+> *Build that anchor. Let the body compile it deep.*
+> *Coherence will follow — not as something you find,*
+> *but as something that emerges when the anchor holds.*

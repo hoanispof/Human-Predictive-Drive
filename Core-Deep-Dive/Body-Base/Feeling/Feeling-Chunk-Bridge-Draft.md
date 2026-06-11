@@ -1,26 +1,25 @@
 ---
-title: Feeling-Chunk-Bridge — How Chunk System PRODUCES Feeling System
-created: 2026-04-17 (N+12 session, Feeling Deep Dive)
+title: "Feeling-Chunk-Bridge — How Chunk System PRODUCES Feeling System"
+version: 1.0
+created: "2026-04-17"
 status: DRAFT v1.0
-scope: Explicit bidirectional mapping — chunk operations ↔ feeling layers
-purpose: |
+scope: "Explicit bidirectional mapping — chunk operations ↔ feeling layers"
+language: English primary
+purpose: >
   Without this bridge: chunk system and feeling system look like 2 separate models.
   With this bridge: 1 unified system where feeling EMERGES from chunk operations
   and feeling FEEDS BACK into chunk processing.
-  = The integration file that makes framework coherent.
-parent: FEELING-DEEP-PLAN.md §2.3
-position: Core-Deep-Dive/Body-Base/Feeling/ (bridge file, connects Chunk-Analysis ↔ Feeling/)
+  = The integration file that makes the framework coherent.
+position: "Core-Deep-Dive/Body-Base/Feeling/ (bridge file, connects Chunk-Analysis ↔ Feeling/)"
 dependencies: |
   Feeling.md (7-layer model)
-  Feeling-Mechanism-Deep.md (8-step flow, convergence zone, reward, gradient)
-  Feeling-Literacy-Training.md (5-stage training, failure modes)
+  Feeling-Mechanism-Deep-Draft.md (8-step flow, convergence zone, reward, gradient)
   01b-Chunk-Activation-Dynamics.md (activation probability, re-linking, trigger surface)
   01c-Chunk-Discovery-Lifecycle.md (7-step discovery cycle, convergence zone)
   01-Chunk-Connection-Logical.md (4 connection types)
   02-Feeling-Intuition-Gradient.md (Multi-Weak-Signal-Convergence, 6-point gradient)
   99-Master-Synthesis.md (unified architecture)
-language: Tiếng Việt primary + English technical
-confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 ---
 
 # Feeling-Chunk-Bridge — How Chunk System PRODUCES Feeling System
@@ -28,19 +27,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Chunk-Analysis (44 files, ~48,600L)** described HOW chunks work.
 > **Feeling/ folder (4 core + 3 deep files)** described HOW feeling works.
 >
-> File này = BRIDGE giữa 2 hệ thống.
+> This file = THE BRIDGE between the two systems.
 > Chunk operations → feeling layers (production direction)
 > Feeling states → chunk operations (feedback direction)
 > = Bidirectional. Neither system is "primary" — they are ONE system
-> observed from 2 angles.
+> observed from two angles.
 >
-> **Core claim:** Feeling IS what happens when PFC observes chunk system running.
-> Chunk system IS what produces the body states that PFC reads as feeling.
-> = Same elephant, 2 observers.
+> **Core claim:** Feeling IS what happens when PFC observes the chunk system running.
+> The chunk system IS what produces the body states that PFC reads as feeling.
+> = Same elephant, two observers.
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §1 — Chunk → Feeling: Production Mapping
 - §2 — Feeling → Chunk: Feedback Mapping
@@ -78,9 +77,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                            │ recognition          │ recognition frame    │
   │                            │ "I know this feeling"│                       │
   ├────────────────────────────┼─────────────────────┼───────────────────────┤
-  │ Label search               │ Feel-Location–       │ Verbal-as-handle     │
-  │ (step ⑥, Label-As-Handle)   │ Feel-Labeling:       │ Label-As-Handle →    │
-  │                            │ Named feeling        │ path → logic access  │
+  │ Label search               │ Feel-Location–       │ Label-As-Handle →    │
+  │ (step ⑥, Label-As-Handle)  │ Feel-Labeling:       │ path → logic access  │
+  │                            │ Named feeling        │                       │
   │                            │ "This is sadness"    │                       │
   ├────────────────────────────┼─────────────────────┼───────────────────────┤
   │ Body vote + PFC explain    │ Feel-Explanation:    │ PFC narrative →      │
@@ -95,7 +94,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Fidelity DECREASES upward (Feeling.md §2.9):
     Feel-RawSignals: ~100% (body truth = body truth)
     Feel-Consciousification: ~90% (detection accurate, only threshold variation)
-    Feel-Location: ~70% (label approximate, some info lost)
+    Feel-Location: ~70% (label approximate, some information lost)
     Feel-Explanation: ~50-60% (explanation often rationalization)
 ```
 
@@ -121,7 +120,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ACTIVATION COMPETITION → FEELING AMBIVALENCE:
     → Two chunks compete for probability share (01b §3)
     → PFC receives BOTH signals → ambivalent feeling
-    → "Vừa vui vừa buồn" = 2 chunk patterns competing
+    → "Happy and sad at once" = 2 chunk patterns competing
     → Resolution: one wins probability share → feeling clarifies
     → = Mixed feelings = chunk competition, not "confused emotions"
 
@@ -172,7 +171,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §2 — Feeling → Chunk: Feedback Mapping
 
 > **Direction B: Feelings MODIFY chunk operations.**
-> Feeling is not just output — feeling FEEDS BACK into chunk system.
+> Feeling is not just output — feeling FEEDS BACK into the chunk system.
 
 ### §2.1 — How feeling modifies chunk activation
 
@@ -287,10 +286,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   → PFC does BOTH — not 2 separate functions
   → Same PFC that holds chunks ALSO observes feelings
-  → = Logic-Feeling.md: Compiled/Fresh = trục thật, 1 PFC
+  → = Logic-Feeling.md: Compiled/Fresh = the real axis, 1 PFC
   → = When PFC observes chunk activation → that IS feeling
   → = When PFC manipulates chunks logically → that IS thinking
-  → = Feeling and thinking = 2 aspects of PFC observing chunk system
+  → = Feeling and thinking = 2 aspects of PFC observing the chunk system
 ```
 
 ### §3.2 — Body vote = the MEETING POINT
@@ -353,7 +352,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   IN BRIDGE CONTEXT:
 
   CONVERGENCE ZONE = where feeling system detects something
-    that chunk system hasn't yet COMPILED into dedicated chunk:
+    that chunk system hasn't yet COMPILED into a dedicated chunk:
 
     → Many chunks fire weakly → activation OVERLAPS
     → Body integrates signals → "something here" (feeling)
@@ -365,14 +364,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Convergence zone resolves (01c step ④ CLARIFY + step ⑤ LABEL)
     → New chunk COMPILED from convergence zone pattern
     → = Feeling was FIRST → chunk comes AFTER
-    → = Feeling = PREVIEW of chunk that doesn't exist yet
+    → = Feeling = PREVIEW of a chunk that doesn't exist yet
     → = This is WHY "trust your vague feeling" (in expert domain):
-      body is detecting a REAL pattern that chunk system
+      body is detecting a REAL pattern that the chunk system
       hasn't formalized yet
 
   AFTER RESOLUTION:
     → New chunk exists → label available → feeling CLEARER
-    → = Something that was "vague" is now "rõ ràng"
+    → = Something that was "vague" is now "distinct"
     → = Convergence zone → chunk = feeling → named-feeling
     → = Bridge moment: feeling system FEEDS chunk system with
       raw material → chunk system FORMALIZES it →
@@ -403,7 +402,8 @@ WITHOUT EXPLICIT BRIDGE:
 
   Problem 3: Training advice seems arbitrary
     → "Meditate to improve feelings" — WHY does it work?
-    → Answer: meditation changes chunk system (threshold, library, links)
+    → Answer: meditation changes the chunk system
+      (threshold, library, links)
 
   Problem 4: Applications require BOTH systems
     → Education: need chunk understanding (how learning works)
@@ -424,19 +424,23 @@ WITHOUT EXPLICIT BRIDGE:
 
   ② PRACTICAL APPLICATIONS:
      → Education: "student doesn't feel motivated"
-       → Chunk answer: Precondition-1 Directed-Gap (schema pending) not met, or Precondition-5 Compile-Gate (cortisol tag)
-       → Feeling answer: step ④ threshold too high, or step ⑦ body resists
+       → Chunk answer: Precondition-1 Directed-Gap not met (schema
+         pending), or Precondition-5 Compile-Gate (cortisol tag)
+       → Feeling answer: step ④ threshold too high, or step ⑦
+         body resists
        → BOTH = same problem, different language
        → Intervention: address chunk compile context → feeling improves
 
      → Daily life: "I feel off but don't know why"
        → Chunk answer: convergence zone forming, many weak activations
-       → Feeling answer: Multi-Weak-Signal-Convergence, gradient position ④-⑥
+       → Feeling answer: Multi-Weak-Signal-Convergence, gradient
+         position ④-⑥
        → Bridge: convergence zone = what "vague" IS at chunk level
        → Action: attend to convergence zone (Focusing) → resolve
 
      → Work: "expert gut feeling says X is wrong"
-       → Chunk answer: 10,000+ chunks fire weakly, convergence = "wrong"
+       → Chunk answer: 10,000+ chunks fire weakly,
+         convergence = "wrong"
        → Feeling answer: body vote = resist, high trust (expert domain)
        → Bridge: large chunk library → fast convergence → reliable feeling
        → Action: trust body vote, investigate what chunks detect
@@ -502,28 +506,27 @@ WITHOUT EXPLICIT BRIDGE:
 ```
 📚 WITHIN FEELING/ FOLDER:
 
-  Feeling.md                → 7-layer model (§1 mapping target)
-  Feeling-Mechanism-Deep.md → 8-step flow (bridge maps onto this)
-  Feeling-Literacy-Training.md → Training (bridge explains WHY it works)
-  Feeling-Accuracy.md       → Error modes (bridge explains mechanism)
-  Feeling-Sources.md        → Source channels (Feel-RawSignals input)
-  Feeling-Research.md       → Research streams
+  Feeling.md                         → 7-layer model (§1 mapping target)
+  Feeling-Mechanism-Deep-Draft.md    → 8-step flow (bridge maps onto this)
+  Feeling-Accuracy-Draft.md          → Error modes (bridge explains mechanism)
+  Feeling-Sources-Draft.md           → Source channels (Feel-RawSignals input)
+  Feeling-Research.md                → Research streams
 
 
 📚 CHUNK-ANALYSIS DEPENDENCIES:
 
-  01b-Chunk-Activation-Dynamics  → §1.2 (activation → feeling properties)
-  01c-Chunk-Discovery-Lifecycle  → §3.3 (convergence zone as transition)
-  01-Chunk-Connection-Logical    → Type 4 linking (deliberate search)
-  02-Feeling-Intuition-Gradient  → §1.2 (gradient = activation distribution)
-  99-Master-Synthesis            → Unified architecture reference
+  01b-Chunk-Activation-Dynamics.md  → §1.2 (activation → feeling properties)
+  01c-Chunk-Discovery-Lifecycle.md  → §3.3 (convergence zone as transition)
+  01-Chunk-Connection-Logical.md    → Type 4 linking (deliberate search)
+  02-Feeling-Intuition-Gradient.md  → §1.2 (gradient = activation distribution)
+  99-Master-Synthesis.md            → Unified architecture reference
 
 
 📚 OTHER FRAMEWORK FILES:
 
-  Logic-Feeling.md          → §3.1 (PFC dual role), §3.2 (dissonance)
-  Neural-Processing-Flow.md → Hardware for production pathway (§1)
-  Body-Dissonance.md        → §3.2 (dissonance = chunk-feeling misalignment)
+  Logic-Feeling.md             → §3.1 (PFC dual role), §3.2 (dissonance)
+  Neural-Processing-Flow.md    → Hardware for production pathway (§1)
+  Body-Dissonance.md           → §3.2 (dissonance = chunk-feeling misalignment)
   Somatic-Articulation-Loop.md → §3.3 (convergence zone → explicit)
 
 
@@ -541,16 +544,18 @@ WITHOUT EXPLICIT BRIDGE:
 
 ---
 
-> **END OF Feeling-Chunk-Bridge.md v1.0**
+> **END OF Feeling-Chunk-Bridge-Draft.md v1.0**
 >
 > **Summary:** Explicit bridge — chunk system ↔ feeling system:
 >   §1: Chunk → Feeling: operations produce layers, activation → properties, compile → quality
 >   §2: Feeling → Chunk: 5 feedback mechanisms (body vote, mood bias, curiosity, reward, trauma)
->   §3: Integration points: PFC as interface, body vote as meeting point, convergence zone as transition
+>   §3: Integration points: PFC as interface, body vote as meeting point,
+>       convergence zone as transition
 >   §4: Why bridge matters: coherence, applications, AI collaboration, future development
->   §5: 7 🟢 + 5 🟡 + 2 🔴.
+>   §5: 7 🟢 + 5 🟡 + 2 🔴
 >
 > **Core insight:** Chunk system and feeling system = ONE system, 2 observation angles.
-> Body vote = where they meet. Convergence zone = where feeling detects what chunks haven't named yet.
+> Body vote = where they meet. Convergence zone = where feeling detects
+> what chunks haven't named yet.
 >
-> **Phiên bản:** v1.0, 2026-04-17.
+> **Version:** v1.0, 2026-04-17. English translation: 2026-06-09.

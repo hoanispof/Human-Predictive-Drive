@@ -1,16 +1,16 @@
 ---
-title: Personal Melody Examples — Ví Dụ Giai Điệu Đời Người
+title: Personal Melody Examples — Life Trajectories Across Three Profiles
 version: 2.0
 created: 2026-03-26 (v1.0 DRAFT)
 updated: 2026-04-20 (v2.0 REWRITE — v7.8 aligned, observation parameters, chunk dynamics)
 status: v2.0 COMPLETE
 scope: |
-  3 profiles PHỔ BIẾN NHẤT — ai đọc cũng có thể overlap, hình dung melody CỦA MÌNH.
-  Dùng v7.8 observation parameters mô tả mỗi giai đoạn.
-  METAPHOR communication tool — ví dụ minh họa cho Personal-Melody.md.
+  The 3 MOST COMMON profiles — anyone reading will likely see overlaps with their own
+  melody. Uses v7.8 observation parameters to describe each phase.
+  METAPHOR communication tool — illustrative examples for Personal-Melody.md.
 position: |
-  Melody-Lens sibling file. Đọc SAU Personal-Melody.md (lý thuyết).
-  File này = ÁP DỤNG lý thuyết vào 3 trajectories phổ biến.
+  Melody-Lens sibling file. Read AFTER Personal-Melody.md (the theory).
+  This file = APPLYING the theory to 3 common trajectories.
 previous_version: Melody Lens/backup/Personal-Melody-Example.md (325L, v1.0 DRAFT)
 dependencies:
   - Personal-Melody.md v2.0 — foundation (§4 tension, §5 criteria, §7 arc, §8 profiles)
@@ -20,300 +20,327 @@ dependencies:
   - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap
   - Cortisol-Baseline.md v2.0 — amplifier, social buffering
   - Autonomy-Hardware.md — self-chosen vs imposed (tag difference)
-language: Tiếng Việt primary + English technical terms
+language: English (translated from Vietnamese primary + English technical terms)
 confidence: 🟡 Framework synthesis (examples = illustrative, not proof)
 ---
 
-# Personal Melody Examples — Ví Dụ Giai Điệu Đời Người
+# Personal Melody Examples — Life Trajectories Across Three Profiles
 
-> **3 profiles PHỔ BIẾN NHẤT** — ai đọc cũng có thể overlap.
-> Đây là TỔNG QUÁT — mỗi người CÓ variation riêng trong từng profile.
+> **The 3 MOST COMMON profiles** — anyone reading will likely see overlaps.
+> These are GENERALIZATIONS — every person has their own VARIATION within each profile.
 >
-> **Ký hiệu:** ♩ = smooth (prediction match) | ♫ = novelty (positive delta) |
+> **Notation:** ♩ = smooth (prediction match) | ♫ = novelty (positive delta) |
 > ♯ = dissonance (Chunk-Miss/Shift) | ! = peak compile (aha moment)
 >
-> **Đọc song song:** Personal-Melody.md v2.0 (lý thuyết)
-> **⚠️ 3 profiles = 3 GIAI ĐOẠN có thể xảy ra bất kỳ lúc nào, KHÔNG phải 3 loại người.**
+> **Read alongside:** Personal-Melody.md v2.0 (the theory)
+> **⚠️ 3 profiles = 3 PHASES that can happen at ANY TIME — NOT 3 types of people.**
 
 ---
 
-## §1 — Người Center Thuận Lợi ("Melody Ổn Định")
+## §1 — The Stable Center Profile ("Smooth Melody")
 
 ```
-PROFILE: phần lớn nhân loại — cuộc sống bình thường, ổn định
-= Gần CENTER global melody → FIT xã hội DỄ → ít biến động lớn
-= Personal-Melody.md §8 Profile ② (ĐỦ + DỪNG)
+PROFILE: the majority of humanity — ordinary, stable life
+= Near the CENTER of the global melody → FITS society EASILY → few major disruptions
+= Personal-Melody.md §8 Profile ② (ENOUGH + STOP)
 
 
-  0-6: Gia đình ổn, connection secure
+  Ages 0-6: Stable family, secure connection
   ┌────────────────────────────────────────────────────┐
-  │  Melody: ♩♩♩♩ smooth, ấm                            │
-  │  Connection: ✅ (attachment secure → oxytocin stable) │
-  │  Cortisol baseline: THẤP (safe → body-listening TỐT) │
-  │  Chunks compile: approach tag dominant (safe context) │
-  │  = "Tuổi thơ bình yên" — nền tảng approach tags     │
+  │  Melody: ♩♩♩♩ smooth, warm                          │
+  │  Connection: ✅ (secure attachment → stable oxytocin)│
+  │  Cortisol baseline: LOW (safe → body-listening GOOD) │
+  │  Chunks compile: approach tag dominant (safe context)│
+  │  = "Peaceful childhood" — foundation of approach tags│
   └────────────────────────────────────────────────────┘
 
-  6-18: Đi học, nghe lời, điểm khá-giỏi
+  Ages 6-18: School, staying on track, solid grades
   ┌────────────────────────────────────────────────────┐
-  │  Melody: ♩♩♩♫♩♩♩♫ thêm mini-arcs từ school          │
-  │  Novelty: NHỎ (chunks SGK → positive delta nhẹ)     │
-  │  Threat: nhẹ (điểm, thi → cortisol amplify VỪA ĐỦ)  │
-  │  Connection: ổn (melody center → FIT nhóm bạn)      │
-  │  Arcs: nhiều mini-arcs nhỏ → compile đều             │
-  │  Tag: phần lớn approach (school ok, không bị ép quá) │
-  │  = "Học được, không quá thích, nhưng ok"             │
+  │  Melody: ♩♩♩♫♩♩♩♫ mini-arcs added from school       │
+  │  Novelty: SMALL (textbook chunks → mild positive delta)│
+  │  Threat: mild (grades, exams → cortisol amplifies    │
+  │    JUST ENOUGH)                                      │
+  │  Connection: stable (center melody → FITS peer group)│
+  │  Arcs: many small mini-arcs → compile steadily       │
+  │  Tag: mostly approach (school is OK, not too forced)  │
+  │  = "Got through school — didn't love it, but fine"   │
   └────────────────────────────────────────────────────┘
 
-  18-25: ĐH/đi làm, gặp partner
+  Ages 18-25: College/work, finding a partner
   ┌────────────────────────────────────────────────────┐
-  │  Melody: ♩♫♩♫♩♩ thêm chunks social + career         │
-  │  Career: FIT chunks đã compile → prediction match    │
-  │  Partner: Resonance → melody ẤM thêm        │
-  │  Novelty: career mới → positive delta → dần compile  │
-  │  = "Bắt đầu cuộc sống riêng — đâu vào đấy"         │
+  │  Melody: ♩♫♩♫♩♩ social + career chunks added        │
+  │  Career: FITS compiled chunks → prediction match     │
+  │  Partner: Resonance → melody feels WARMER            │
+  │  Novelty: new career → positive delta → gradually    │
+  │    compiles                                          │
+  │  = "Building a life of my own — things fall into     │
+  │     place"                                           │
   └────────────────────────────────────────────────────┘
 
-  25-60: Ổn định, routine compiled
+  Ages 25-60: Stable, routine compiled
   ┌────────────────────────────────────────────────────┐
-  │  Melody: ♩♩♩♩♩♩ SMOOTH (hầu hết compiled auto)      │
-  │  Routine: predictions match liên tục → opioid nhẹ   │
-  │  Novelty: THẤP (VTA underfed → Boredom signal nhẹ)  │
-  │  Possible: "khủng hoảng tuổi trung niên"            │
-  │    = melody QUÁ smooth → Boredom (Boredom.md)        │
-  │    = Chunk-Gap detected: "có gì đó THIẾU"           │
-  │    → Hobby, du lịch = inject novelty nhẹ → resolve   │
-  │  = "Ổn nhưng đôi khi thấy thiếu gì đó"             │
+  │  Melody: ♩♩♩♩♩♩ SMOOTH (most of it runs on auto)    │
+  │  Routine: predictions match continuously → mild opioid│
+  │  Novelty: LOW (VTA underfed → mild Boredom signal)   │
+  │  Possible: "midlife questioning"                     │
+  │    = melody TOO smooth → Boredom (Boredom.md)        │
+  │    = Chunk-Gap detected: "something is MISSING"      │
+  │    → Hobbies, travel = inject mild novelty → resolves│
+  │  = "Stable, but sometimes feels like something's     │
+  │     not quite there"                                 │
   └────────────────────────────────────────────────────┘
 
-  MELODY TỔNG: ♩♩♩♫♩♩♩♩♩♫♩♩♩♩♩♩...
-    = SMOOTH, ít biến động, SAFE
-    = Personal-Melody §5: smooth ✓ + domain map ĐỦ ✓ + sustainable ✓
-    = Có thể thiếu tiêu chí ③ (map RỘNG) → nhưng KHÔNG CẦN rộng để happy
-    = Điểm MẠNH: ổn định, body-base được chăm, approach tags dominant
-    = Điểm cần chú ý: inject novelty nhẹ khi Boredom signal → tránh stagnation
+  OVERALL MELODY: ♩♩♩♫♩♩♩♩♩♫♩♩♩♩♩♩...
+    = SMOOTH, few disruptions, SAFE
+    = Personal-Melody §5: smooth ✓ + domain map SUFFICIENT ✓ + sustainable ✓
+    = May fall short on criterion ③ (map BROADLY) → but doesn't NEED breadth to be happy
+    = STRENGTH: stability, body-base well-maintained, approach tags dominant
+    = Watch out for: inject mild novelty when Boredom signals → avoid stagnation
 ```
 
 ---
 
-## §2 — Người Center Có Sprint Phase ("Melody Có Arc Lớn")
+## §2 — The Center Profile with Sprint Phases ("Melody with Big Arcs")
 
 ```
-PROFILE: gần center → NHƯNG có 1-2 giai đoạn NỖ LỰC lớn (arc)
-= Khởi nghiệp, đổi career, du học, build project,...
-= Personal-Melody.md §8 Profile ③ (ĐỦ + TIẾP TỤC) hoặc ⑤ (HORIZON)
+PROFILE: near-center → BUT has 1-2 periods of MAJOR EFFORT (arc)
+= Starting a business, career change, studying abroad, building a project,...
+= Personal-Melody.md §8 Profile ③ (ENOUGH + KEEP GOING) or ⑤ (INFINITE HORIZON)
 
 
-  "Sprint phase" = 1 ARC LỚN (Melody-Arc.md):
-    → Self-chosen → efference copy → approach tag compile
-    → High novelty + high dissonance + có imagine-final RÕ
-    → Khác §1 ở: DÁM step out of center → enter larger arc
+  "Sprint phase" = 1 LARGE ARC (Melody-Arc.md):
+    → Self-chosen → efference copy → approach tag compiles
+    → High novelty + high dissonance + clear Imagine-Final
+    → Differs from §1 in: DARING to step out of center → enter a larger arc
 
-  0-18: Bình thường (giống §1 — nền tảng approach tags)
+  Ages 0-18: Normal (same as §1 — foundation of approach tags)
   ┌────────────────────────────────────────────────────┐
-  │  Melody: ♩♩♩♫♩♩ đều, school ok                      │
-  │  = Nền tảng chunks + body-listening + connection     │
+  │  Melody: ♩♩♩♫♩♩ steady, school is fine              │
+  │  = Foundation of chunks + body-listening + connection│
   └────────────────────────────────────────────────────┘
 
-  18-28: Arc LỚN — tự chọn
+  Ages 18-28: LARGE ARC — self-chosen
   ┌────────────────────────────────────────────────────┐
-  │  Melody: ♩♫♫♫♯♫♫♫ biến động MẠNH                    │
-  │  Imagine-final: RÕ (body simulate → bridge mạnh)    │
-  │  Novelty: CAO (chunks mới → positive delta liên tục) │
-  │  Chunk-Miss: CAO (prediction fail → learning)       │
-  │  Cortisol: amplify MẠNH (dissonance kéo dài)        │
-  │  Autonomy: CAO (self-chosen → approach tag compile)  │
-  │  Connection: CÓ THỂ giảm tạm ("bận quá")           │
-  │  Body-base: CẦN maintain (sleep, nutrition)          │
-  │  = "Sprint phase — dissonance CAO nhưng APPROACH"    │
-  │  = Melody-Arc §2: cách dạy > nội dung → self-chosen = approach│
+  │  Melody: ♩♫♫♫♯♫♫♫ strong fluctuations               │
+  │  Imagine-Final: CLEAR (body simulates → strong bridge)│
+  │  Novelty: HIGH (new chunks → continuous positive delta)│
+  │  Chunk-Miss: HIGH (prediction fails → learning)      │
+  │  Cortisol: amplifies STRONGLY (sustained dissonance) │
+  │  Autonomy: HIGH (self-chosen → approach tag compiles)│
+  │  Connection: MAY dip temporarily ("too busy")        │
+  │  Body-base: NEEDS maintenance (sleep, nutrition)     │
+  │  = "Sprint phase — dissonance HIGH but APPROACH-based"│
+  │  = Melody-Arc §2: HOW it's taught > WHAT → self-     │
+  │    chosen = approach tag                             │
   └────────────────────────────────────────────────────┘
 
-  Kết quả — 2 đường:
+  Outcome — 2 paths:
   ┌────────────────────────────────────────────────────┐
-  │  ARC COMPILE THÀNH CÔNG:                             │
-  │  Melody: ♫♫♫!!♫♩♩♫♩ → PEAK COMPILE! → smooth MỚI    │
-  │  Chunk-Shift positive: "tôi LÀM ĐƯỢC" valence flip  │
-  │  Status: TĂNG (compiled evidence → serotonin stable) │
-  │  Cortisol: GIẢM (dissonance resolved → amplifier down)│
-  │  = "Compile xong → settle ở level CAO HƠN"          │
-  │  = Chunks từ arc = PERMANENT asset                   │
+  │  ARC COMPILES SUCCESSFULLY:                          │
+  │  Melody: ♫♫♫!!♫♩♩♫♩ → PEAK COMPILE! → NEW smooth    │
+  │  Chunk-Shift positive: "I CAN DO THIS" valence flip  │
+  │  Status: RISES (compiled evidence → stable serotonin)│
+  │  Cortisol: DROPS (dissonance resolved → amplifier    │
+  │    decreases)                                        │
+  │  = "Compiled → settles at a HIGHER level"            │
+  │  = Chunks from the arc = PERMANENT asset             │
   │                                                      │
-  │  ARC KHÔNG COMPILE (sai hướng hoặc bỏ giữa):        │
-  │  Melody: ♫♯♯♩♩♩♩ → thử → không compile → dần smooth │
-  │  Status: giảm TẠM ("thất bại?") → dần recover       │
-  │  NHƯNG: chunks đã build VẪN CÒN (Melody-Arc §7⑥)    │
-  │  = "Thất bại nhưng chunks KHÔNG MẤT"                │
-  │  = Transfer sang arc KHÁC — nhiều người thành công   │
-  │    ở LẦN 2-3, dùng chunks lần 1                     │
+  │  ARC DOESN'T COMPILE (wrong direction or quit early):│
+  │  Melody: ♫♯♯♩♩♩♩ → tried → didn't compile →         │
+  │    gradually smooths                                 │
+  │  Status: temporarily dips ("failure?") → gradually   │
+  │    recovers                                          │
+  │  BUT: chunks already built REMAIN (Melody-Arc §7⑥)  │
+  │  = "Failed but the chunks ARE NOT LOST"              │
+  │  = Transfer to a DIFFERENT arc — many people succeed │
+  │    on the 2nd-3rd attempt using chunks from the 1st  │
   └────────────────────────────────────────────────────┘
 
-  30-60: Settle (ở mức mới hoặc quay center)
+  Ages 30-60: Settle (at new level or return to center)
   ┌────────────────────────────────────────────────────┐
-  │  Melody: ♫♩♫♩ (nếu compile) hoặc ♩♩♩♩ (nếu center) │
-  │  = CÓ ARC hơn §1 → melody PHONG PHÚ hơn            │
+  │  Melody: ♫♩♫♩ (if compiled) or ♩♩♩♩ (if center)    │
+  │  = HAS ARC unlike §1 → melody more RICH             │
   └────────────────────────────────────────────────────┘
 
-  MELODY TỔNG: ♩♩♫♫♫!!♫♩♩♩♩♩...
-    = SMOOTH → ARC → SMOOTH (ở level cao hơn)
-    = Khác §1: DÁM step out → dù thành hay bại → melody CÓ arc
-    = Personal-Melody §5: 4 criteria possible (nếu arc đúng hướng)
-    = Điểm MẠNH: peak compile + chunks tích lũy + approach tags
-    = Điểm cần chú ý: body-base maintenance TRONG arc (sleep, connection)
-      → Bỏ body-base = cortisol stack → crash (Melody-Arc §7⑤)
+  OVERALL MELODY: ♩♩♫♫♫!!♫♩♩♩♩♩...
+    = SMOOTH → ARC → SMOOTH (at a higher level)
+    = Differs from §1: DARES to step out → whether success or failure →
+        melody HAS an arc
+    = Personal-Melody §5: all 4 criteria possible (if arc pointed right direction)
+    = STRENGTH: peak compile + accumulated chunks + approach tags
+    = Watch out for: body-base maintenance DURING arc (sleep, connection)
+      → Neglecting body-base = cortisol stacking → crash (Melody-Arc §7⑤)
 ```
 
 ---
 
-## §3 — Người Center Gặp Biến Cố ("Melody Bị Gián Đoạn")
+## §3 — The Center Profile Meets Disruption ("Melody Interrupted")
 
 ```
-PROFILE: start center, thuận lợi → gặp biến cố KHÔNG TỰ CHỌN
-= Gia đình tan vỡ, mất việc, bệnh, tai nạn, kinh tế suy,...
-= KHÁC §2: §2 TỰ CHỌN arc → §3 BỊ BUỘC vào dissonance
-= Autonomy-Hardware.md: imposed → no efference copy → no opioid → avoidance tag
+PROFILE: starts at center, favorable → encounters UNASKED-FOR disruption
+= Family breakdown, job loss, illness, accident, economic downturn,...
+= DIFFERS from §2: §2 SELF-CHOOSES the arc → §3 is FORCED into dissonance
+= Autonomy-Hardware.md: imposed → no efference copy → no opioid → avoidance tag risk
 
 
-  Ví dụ A — Gia đình tan vỡ khi thiếu niên:
+  Example A — Family breakdown during adolescence:
 
-  0-10: Ổn (giống §1)
+  Ages 0-10: Stable (same as §1)
   ┌────────────────────────────────────────────────────┐
   │  Melody: ♩♩♩♩ smooth, safe                          │
   │  Connection: secure attachment → approach tags       │
   └────────────────────────────────────────────────────┘
 
-  10-15: Bố mẹ ly hôn → Chunk-Shift MẠNH
+  Ages 10-15: Parents divorce → STRONG Chunk-Shift
   ┌────────────────────────────────────────────────────┐
-  │  Melody: ♩♩♯♯♯♩♯♯ → dissonance XEN VÀO              │
-  │  Chunk-Shift: "gia đình = an toàn" → valence FLIP   │
-  │    (content SAME — memories vẫn đó. Valence CHANGED) │
-  │  Chunk-Miss: "bố/mẹ ở nhà" pattern ABSENT           │
-  │  Connection: safe base ĐỔ → oxytocin DROP            │
-  │  Cortisol: amplify MẠNH (Chunk-Shift lớn)           │
-  │  Possible trauma compile: "yêu = có thể MẤT"        │
-  │    → avoidance tag cho connection domain             │
-  │  = "Melody đang smooth → bị GIÁN ĐOẠN không tự chọn"│
+  │  Melody: ♩♩♯♯♯♩♯♯ → dissonance breaks in           │
+  │  Chunk-Shift: "family = safety" → valence FLIPS     │
+  │    (content SAME — memories are still there.        │
+  │     Valence CHANGED)                                │
+  │  Chunk-Miss: "a parent at home" pattern ABSENT      │
+  │  Connection: safe base COLLAPSES → oxytocin DROPS   │
+  │  Cortisol: amplifies STRONGLY (large Chunk-Shift)   │
+  │  Possible trauma compile: "love = can be LOST"      │
+  │    → avoidance tag for the connection domain        │
+  │  = "Melody that was smooth → DISRUPTED without      │
+  │     being chosen"                                   │
   └────────────────────────────────────────────────────┘
 
-  15-25: Recover — 2 đường:
+  Ages 15-25: Recovery — 2 paths:
   ┌────────────────────────────────────────────────────┐
-  │  RECOVER TỐT (có connection support):               │
-  │  → 1-2 người ĐỦ (bạn thân, thầy cô) → oxytocin bù │
-  │  → Cortisol baseline DẦN giảm (social buffering)    │
-  │  → Schema mới compile: "mất NHƯNG tôi VẪN OK"       │
-  │  → Chunk-Shift dần: avoidance → neutral → approach   │
-  │  → = Post-traumatic growth — melody CÓ THỂ sâu hơn  │
-  │                                                      │
-  │  RECOVER KHÓ (không support):                        │
-  │  → Cortisol baseline VẪN CAO (no social buffer)      │
-  │  → Avoidance tags COMPILED SÂU: "tin ai = risk"      │
-  │  → Connection avoidance → isolation → cortisol loop  │
-  │  → Melody: ♯♯♯ kéo dài → ảnh hưởng career + relationships│
-  └────────────────────────────────────────────────────┘
-
-
-  Ví dụ B — Ra trường gặp kinh tế khó:
-
-  22-30: Xin việc khó → threat survival
-  ┌────────────────────────────────────────────────────┐
-  │  Melody: ♩♯♯♯♩♯♯ → threat signal liên tục           │
-  │  Chunk-Miss: "có bằng = có việc" prediction FAIL     │
-  │  Status: GIẢM → avoidance social ("xấu hổ")         │
-  │  Cortisol: amplify (survival uncertainty)            │
-  │  NHƯNG: chunks từ ĐH VẪN CÒN (compiled = permanent) │
-  │  NẾU tiếp tìm: dần match → dần compile → smooth     │
-  │  NẾU chuyển hướng: chunks cũ transfer sang domain mới│
-  │  = "Environment thay đổi → prediction fail → nhưng   │
-  │     chunks KHÔNG mất"                                │
+  │  GOOD RECOVERY (with connection support):           │
+  │  → 1-2 people ENOUGH (close friend, teacher) →     │
+  │      oxytocin compensates                           │
+  │  → Cortisol baseline GRADUALLY decreases (social    │
+  │      buffering)                                     │
+  │  → New schema compiles: "lost something BUT I'm     │
+  │      STILL OK"                                      │
+  │  → Chunk-Shift gradually: avoidance → neutral →     │
+  │      approach                                       │
+  │  → = Post-traumatic growth — melody CAN become      │
+  │      deeper                                         │
+  │                                                     │
+  │  DIFFICULT RECOVERY (no support):                   │
+  │  → Cortisol baseline REMAINS HIGH (no social buffer)│
+  │  → Avoidance tags COMPILED DEEP: "trusting anyone   │
+  │      = risk"                                        │
+  │  → Connection avoidance → isolation → cortisol loop │
+  │  → Melody: ♯♯♯ prolonged → affects career +        │
+  │      relationships                                  │
   └────────────────────────────────────────────────────┘
 
 
-  Ví dụ C — Bệnh/tai nạn giữa đời:
+  Example B — Entering the workforce during economic downturn:
 
-  35+: Body-base BỊ ĐE DỌA trực tiếp
+  Ages 22-30: Job search is hard → survival threat
   ┌────────────────────────────────────────────────────┐
-  │  Melody: ♩♫♯♯♯♯♯ → hardware BỊ ẢNH HƯỞNG           │
-  │  Body-base: threat L0 (alive) → cortisol CỰC MẠNH   │
-  │  Career: Chunk-Miss (role quen ABSENT)               │
-  │  Connection: CÓ THỂ TĂNG (chăm sóc → oxytocin)     │
-  │    HOẶC GIẢM (isolation → no social buffer)          │
-  │  Recover: connection MẠNH + y tế → dần smooth        │
-  │    → Possible: "trân trọng hơn" = Chunk-Shift positive│
-  │  = "Test connection + body-base THẬT SỰ"             │
+  │  Melody: ♩♯♯♯♩♯♯ → continuous threat signal        │
+  │  Chunk-Miss: "have degree = have job" prediction    │
+  │    FAILS                                            │
+  │  Status: DROPS → social avoidance ("too ashamed")  │
+  │  Cortisol: amplifies (survival uncertainty)         │
+  │  BUT: chunks from university REMAIN (compiled =     │
+  │    permanent)                                       │
+  │  IF continues searching: gradually matches →        │
+  │    gradually compiles → smooths                     │
+  │  IF pivots: old chunks transfer to new domain       │
+  │  = "Environment changed → prediction fails → but    │
+  │     chunks are NOT LOST"                            │
   └────────────────────────────────────────────────────┘
 
-  MELODY TỔNG: ♩♩♩♯♯♯♩♩♫♩ hoặc ♩♩♯♯♯♯♯...
-    = SMOOTH → GIÁN ĐOẠN → recover HOẶC kéo dài
-    = KHÁC §1: có GIAI ĐOẠN disruption (không tự chọn)
-    = KHÁC §2: §2 self-chosen (approach) → §3 imposed (avoidance risk)
-    = Yếu tố QUYẾT ĐỊNH recover: CONNECTION (social buffer) + THỜI GIAN
-    = Điểm MẠNH: nếu recover → post-traumatic growth → melody SÂU hơn
-    = Điểm cần chú ý: connection = #1 priority khi disruption
+
+  Example C — Illness/accident in mid-life:
+
+  Ages 35+: Body-base DIRECTLY THREATENED
+  ┌────────────────────────────────────────────────────┐
+  │  Melody: ♩♫♯♯♯♯♯ → hardware AFFECTED               │
+  │  Body-base: L0 threat (survival) → cortisol EXTREME │
+  │  Career: Chunk-Miss (familiar role ABSENT)          │
+  │  Connection: COULD INCREASE (caregiving → oxytocin) │
+  │    OR DECREASE (isolation → no social buffer)       │
+  │  Recovery: strong connection + medical care →       │
+  │    gradually smooths                                │
+  │    → Possible: "deeper appreciation" = positive     │
+  │        Chunk-Shift                                  │
+  │  = "Tests what connection + body-base TRULY are"    │
+  └────────────────────────────────────────────────────┘
+
+  OVERALL MELODY: ♩♩♩♯♯♯♩♩♫♩ OR ♩♩♯♯♯♯♯...
+    = SMOOTH → INTERRUPTED → recovers OR prolonged
+    = DIFFERS from §1: has a DISRUPTION phase (not self-chosen)
+    = DIFFERS from §2: §2 self-chosen (approach) → §3 imposed (avoidance risk)
+    = DECIDING factor for recovery: CONNECTION (social buffer) + TIME
+    = STRENGTH: if recovery happens → post-traumatic growth → melody DEEPER
+    = Watch out for: connection = #1 priority when disruption hits
 ```
 
 ---
 
-## §4 — So Sánh + Bài Học
+## §4 — Comparison + Lessons
 
 ```
   ┌──────────────┬──────────────┬──────────────┬──────────────┐
-  │              │ ① Thuận lợi  │ ② Có arc lớn │ ③ Gặp biến cố│
+  │              │ ① Favorable  │ ② With big   │ ③ Disruption │
+  │              │    stable    │    arc       │   imposed    │
   ├──────────────┼──────────────┼──────────────┼──────────────┤
-  │ Melody tổng  │ ♩♩♩♩♩♩      │ ♩♫♫!!♩♩      │ ♩♯♯♯♩♩ hoặc │
-  │              │ SMOOTH       │ SMOOTH+ARC   │ ♩♯♯♯♯...    │
+  │ Overall      │ ♩♩♩♩♩♩       │ ♩♫♫!!♩♩      │ ♩♯♯♯♩♩ or   │
+  │ melody       │ SMOOTH       │ SMOOTH+ARC   │ ♩♯♯♯♯...     │
   ├──────────────┼──────────────┼──────────────┼──────────────┤
-  │ Cortisol     │ THẤP-VỪA    │ CAO tạm      │ CAO bất ngờ  │
-  │ (amplifier)  │ (ổn định)    │ (tự chọn)    │ (bị buộc)    │
+  │ Cortisol     │ LOW-MODERATE │ HIGH         │ HIGH         │
+  │ (amplifier)  │ (stable)     │ temporarily  │ suddenly     │
+  │              │              │ (self-chosen)│ (forced)     │
   ├──────────────┼──────────────┼──────────────┼──────────────┤
-  │ Autonomy     │ VỪA (routine)│ CAO (self-   │ THẤP (imposed│
-  │              │              │ chosen arc)  │ disruption)  │
+  │ Autonomy     │ MODERATE     │ HIGH         │ LOW          │
+  │              │ (routine)    │ (self-chosen │ (imposed     │
+  │              │              │  arc)        │  disruption) │
   ├──────────────┼──────────────┼──────────────┼──────────────┤
-  │ Tag dominant │ Approach     │ Approach     │ Avoidance    │
+  │ Dominant tag │ Approach     │ Approach     │ Avoidance    │
   │              │ (safe)       │ (self-chosen)│ risk (forced)│
   ├──────────────┼──────────────┼──────────────┼──────────────┤
-  │ Novelty      │ NHỎ đều      │ CAO trong arc│ NHỎ (bận     │
-  │              │              │              │ survive)     │
+  │ Novelty      │ SMALL,       │ HIGH during  │ SMALL (busy  │
+  │              │ steady       │ arc          │ surviving)   │
   ├──────────────┼──────────────┼──────────────┼──────────────┤
-  │ Connection   │ ỔN suốt     │ GIẢM tạm     │ CRITICAL     │
-  │              │              │ (bận)        │ (determines  │
-  │              │              │              │ recovery)    │
+  │ Connection   │ STABLE       │ DIPS         │ CRITICAL     │
+  │              │ throughout   │ temporarily  │ (determines  │
+  │              │              │ (too busy)   │ recovery)    │
   ├──────────────┼──────────────┼──────────────┼──────────────┤
   │ Key insight  │ Boredom risk │ Body-base    │ Connection = │
   │              │ → inject ♫   │ maintenance  │ #1 priority  │
   └──────────────┴──────────────┴──────────────┴──────────────┘
 
 
-  ⭐ 3 PROFILES = 3 GIAI ĐOẠN, KHÔNG PHẢI 3 LOẠI NGƯỜI:
+  ⭐ 3 PROFILES = 3 PHASES, NOT 3 TYPES OF PEOPLE:
 
-    → 1 người CÓ THỂ trải qua CẢ 3:
-      thuận lợi → arc lớn → gặp biến cố → recover → arc mới
-    → HOẶC: gặp khó sớm → nỗ lực → thuận lợi sau
-    → = Life = SEQUENCE of phases, mỗi phase cần KHÁC response
+    → One person CAN go through ALL 3:
+      favorable → big arc → disruption → recovery → new arc
+    → OR: hit difficulties early → strive → find stability later
+    → = Life = a SEQUENCE of phases; each phase needs a DIFFERENT response
 
 
-  ⭐ BÀI HỌC CHUNG (v7.8 framework):
+  ⭐ UNIVERSAL LESSONS (v7.8 framework):
 
-    MỌI PHASE:
-      → Connection: social buffer cho cortisol amplification
+    EVERY PHASE:
+      → Connection: social buffer for cortisol amplification
         (Cortisol-Baseline.md §6: co-regulation)
-      → Sleep: PFC recovery + chunk consolidation (compile cần sleep)
-      → Body-listening: biết đang ở phase nào → adjust response
-      → = "Melody hay = CHƠI ĐƯỢC LÂU" (tiêu chí ④ sustainable)
+      → Sleep: PFC recovery + chunk consolidation (compiling requires sleep)
+      → Body-listening: know which phase you're in → adjust response
+      → = "A good melody = one that CAN PLAY LONG" (criterion ④ sustainable)
 
     PHASE-SPECIFIC:
-      ① Thuận lợi: inject novelty (VTA cần positive delta → tránh Boredom)
-      ② Có arc: maintain body-base TRONG arc + ensure APPROACH context
-         (self-chosen = approach tag. Nếu arc biến thành imposed → shift sang avoidance)
-      ③ Gặp biến cố: CONNECTION first → social buffer → cortisol baseline giảm
-         → THEN recovery arc possible (Melody-Arc.md: cần body-base stable để start arc)
+      ① Favorable: inject novelty (VTA needs positive delta → avoid Boredom)
+      ② With arc: maintain body-base DURING the arc + ensure APPROACH context
+         (self-chosen = approach tag. If arc becomes imposed → shifts toward avoidance)
+      ③ Disruption: CONNECTION FIRST → social buffer → cortisol baseline drops
+         → THEN recovery arc becomes possible (Melody-Arc.md: body-base must be
+            stable before starting an arc)
 
-    TẠI SAO §2 vs §3 KHÁC NHAU DÙ CÙNG DISSONANCE CAO:
-      → §2: SELF-CHOSEN → efference copy → opioid micro-reward PER step
-        → Approach tag compile → sustainable → "khó nhưng thích"
+    WHY §2 vs §3 DIFFER DESPITE EQUALLY HIGH DISSONANCE:
+      → §2: SELF-CHOSEN → efference copy → micro-opioid reward PER step
+        → Approach tag compiles → sustainable → "hard but enjoy it"
       → §3: IMPOSED → no choice → no efference copy → no opioid
-        → Avoidance tag risk → unsustainable → "khó VÀ ghét"
-      → = AUTONOMY quyết định tag (Autonomy-Hardware.md)
-      → = Cùng cortisol level → KHÁC experience vì KHÁC tag
+        → Avoidance tag risk → unsustainable → "hard AND hate it"
+      → = AUTONOMY determines the tag (Autonomy-Hardware.md)
+      → = Same cortisol level → DIFFERENT experience because DIFFERENT tag
 ```
 
 ---
@@ -322,11 +349,11 @@ PROFILE: start center, thuận lợi → gặp biến cố KHÔNG TỰ CHỌN
 
 ```
 PERSONAL-MELODY (foundation):
-  → Personal-Melody.md v2.0 — lý thuyết (đọc song song)
-  → Personal-Melody.md §4 — Two-Axis Tension (tại sao dissonance)
-  → Personal-Melody.md §5 — 4 tiêu chí "melody hay"
+  → Personal-Melody.md v2.0 — the theory (read alongside)
+  → Personal-Melody.md §4 — Two-Axis Tension (why dissonance)
+  → Personal-Melody.md §5 — 4 criteria for "a good melody"
   → Personal-Melody.md §7 — Arc dynamics (wave pattern)
-  → Personal-Melody.md §8 — 5 Profiles equilibrium
+  → Personal-Melody.md §8 — 5 Equilibrium profiles
   → Personal-Melody.md §10 — Difficulty vs Mismatch
 
 MELODY-LENS (sibling files):
@@ -344,14 +371,14 @@ OBSERVATION PARAMETERS:
   → Observation/Boredom.md — VTA underfed (§1 midlife)
   → Observation/Connection.md — social buffer (§3 recovery)
   → Observation/Status.md — compiled evidence + serotonin
-  → Observation/Threat.md — survival signal (§3 biến cố)
+  → Observation/Threat.md — survival signal (§3 disruption)
 ```
 
 ---
 
 > *Personal Melody Examples v2.0 —
-> "3 phases phổ biến nhất: ① Smooth (cần chút novelty).
-> ② Arc lớn tự chọn (cần body-base maintenance — approach tag vì self-chosen).
-> ③ Biến cố imposed (cần connection first — avoidance tag risk vì no choice).
-> §2 vs §3: cùng dissonance, KHÁC tag, vì AUTONOMY quyết định.
-> Connection = yếu tố quyết định melody bền hay không — ở MỌI phase."*
+> "3 most common phases: ① Smooth (needs a bit of novelty).
+> ② Large self-chosen arc (needs body-base maintenance — approach tag because self-chosen).
+> ③ Imposed disruption (needs connection first — avoidance tag risk because no choice).
+> §2 vs §3: same dissonance, DIFFERENT tag, because AUTONOMY determines it.
+> Connection = the deciding factor for whether a melody holds long-term — in EVERY phase."*

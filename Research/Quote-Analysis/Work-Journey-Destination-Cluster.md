@@ -4,30 +4,30 @@ version: 1.0
 created: 2026-05-23
 status: v1.0 COMPLETE
 scope: |
-  CLUSTER ANALYSIS: 6 phiên bản cùng mechanism về happiness, journey, destination.
+  CLUSTER ANALYSIS: 6 versions of the same mechanism — happiness, journey, destination.
   "Happiness is a journey, not a destination" (floating) + "way of life" (floating)
   + "No way to happiness, happiness is the way" (attributed Thích Nhất Hạnh)
-  + "Hạnh phúc là một hành trình" (Vietnamese) + "The journey is the reward" (attributed Jobs)
+  + "Happiness is a journey, not a destination" (Vietnamese) + "The journey is the reward" (attributed Jobs)
   + "Good to have an end... but journey matters" (Le Guin, 1969, VERIFIED).
-  Framework giải mã: convergent concept "Imagine-Final Navigation Paradox" —
-  bạn CẦN đích đến (Imagine-Final) để tạo direction, nhưng reward fires DURING
-  the journey (Pathway 1), KHÔNG TẠI đích đến (Pathway 2 outcome).
-  Đích đến = LA BÀN, không phải phần thưởng.
-  Core mechanism: Satiation Profile Mismatch — treating Generative process as Cyclic.
+  Framework decodes: convergent concept "Imagine-Final Navigation Paradox" —
+  you NEED a destination (Imagine-Final) to create direction, but reward fires DURING
+  the journey (Pathway 1), NOT AT the destination (Pathway 2 outcome).
+  Destination = COMPASS, not the reward.
+  Core mechanism: Satiation Profile Mismatch — treating a Generative process as Cyclic.
   1/6 verified (Le Guin). 5/6 floating. Most nuanced = only verified.
   Series convergence: Direction Tag (C1) → Quality Gate (C2)
   → Chunk-Dependent Visibility (C3) → Imagine-Final Navigation Paradox (C4).
 purpose: |
-  6 completed files trước: Goal+Why, Hungry+Foolish, Move Fast,
+  6 prior files: Goal+Why, Hungry+Foolish, Move Fast,
   Adversity/Fear cluster (direction tag), Think+Act+Become cluster (quality gate),
   Knowledge/Visibility cluster (chunk-dependent visibility).
-  File NÀY: CLUSTER analysis — 6 phiên bản tạo thành PROGRESSION
-  từ binary observation → paradox → synthesis.
-  Reveals: convergent concept KHÔNG THỂ tìm từ single quote analysis.
-  = Stress test: framework giải thích TẠI SAO quotes từ nhiều truyền thống
-  (English, Vietnamese, Buddhist, American, Sci-Fi) point tới CÙNG mechanism.
+  THIS file: CLUSTER analysis — 6 versions that form a PROGRESSION
+  from binary observation → paradox → synthesis.
+  Reveals: convergent concept IMPOSSIBLE TO FIND from single-quote analysis.
+  = Stress test: framework explains WHY quotes from many traditions
+  (English, Vietnamese, Buddhist, American, Sci-Fi) point to the SAME mechanism.
 position: |
-  Research/Quote-Analysis/ — ngang hàng Work-Adversity-Fear-Cluster.md,
+  Research/Quote-Analysis/ — parallel to Work-Adversity-Fear-Cluster.md,
   Work-Think-Act-Become-Cluster.md, Work-Chunk-Dependent-Visibility-Cluster.md.
 dependencies:
   Gap-Satiation:
@@ -37,7 +37,7 @@ dependencies:
   Imagine-Final:
     - Imagine-Final.md v3.0 — §1 Hardware vs Constructive, §3 PFC=Extension, §4.2 Compiled/Fresh spectrum, §5 Lifecycle 5 Phases, §6 Gradient 5 Levels, §6.3 Bootstrap
   Boredom:
-    - Boredom.md v2.0 — §0 3 trạng thái (Novelty/Threat/Boredom), §1 Unified Formula, §7 3 Conditions, §9 Abundance Hypothesis
+    - Boredom.md v2.0 — §0 3 states (Novelty/Threat/Boredom), §1 Unified Formula, §7 3 Conditions, §9 Abundance Hypothesis
   Reward:
     - Reward-Calibration.md v1.1 — §1 Goldilocks per-gap, §3 Under/Match/Over, §1.2 Goldilocks shifts per-time
   Anti-Habituation:
@@ -51,48 +51,48 @@ dependencies:
   Background:
     - Background-Pattern.md v2.0 — §6 Triple Bias
   Gap:
-    - Gap-Direction.md v2.0 — §3 "Chưa biết = không có gap", §7.5 Gap Oscillation
+    - Gap-Direction.md v2.0 — §3 "No knowledge = no gap", §7.5 Gap Oscillation
     - Gap-Distribution-Profile.md v1.1 — §2.5 Satiation Types per-domain, §7.4 Modern Gap Frontier
   Connection:
     - Inter-Body-Mechanism.md v1.0 — §1.2 Compilable Architecture
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # Quote Analysis — Journey/Destination Cluster: 6 Quotes, 1 Paradox
 
-> **6 phiên bản. 5 truyền thống. 1 paradox. 1 cơ chế nền tảng.**
+> **6 versions. 5 traditions. 1 paradox. 1 foundational mechanism.**
 >
 > Floating: "Happiness is a journey, not a destination"
 > Floating: "Happiness is not a destination, it is a way of life"
 > Attributed Thích Nhất Hạnh: "There is no way to happiness, happiness is the way"
-> Vietnamese: "Hạnh phúc là một hành trình, không phải đích đến"
+> Vietnamese: "Happiness is a journey, not a destination" (direct translation of Q1)
 > Attributed Steve Jobs: "The journey is the reward"
 > **Le Guin (1969): "It is good to have an end to journey toward;**
 > **but it is the journey that matters, in the end"**
 >
-> Mainstream treats chúng như motivational wisdom — "hãy tận hưởng quá trình."
-> Thực tế: chúng mô tả 1 STRUCTURAL CONSTRAINT của hệ thống dự đoán.
+> Mainstream treats these as motivational wisdom — "enjoy the process."
+> In reality: they describe a STRUCTURAL CONSTRAINT of the predictive system.
 >
-> Framework v7.8 giải mã:
+> Framework v7.8 decodes:
 >
 > "Destination" = treating happiness as **Cyclic** satiation
-> (fill → done → baseline adapt → hết).
+> (fill → done → baseline adapts → gone).
 >
-> "Journey" = happiness actually operates trên **Generative** satiation
-> (fill → create new gaps → perpetual reward).
+> "Journey" = happiness actually operates on **Generative** satiation
+> (fill → creates new gaps → perpetual reward).
 >
-> NHƯNG — bạn vẫn CẦN destination (Imagine-Final) để journey CÓ DIRECTION.
-> Không có direction = Boredom (Drive-PFC-Spinning).
+> BUT — you still NEED the destination (Imagine-Final) for the journey to HAVE DIRECTION.
+> No direction = Boredom (Drive-PFC-Spinning).
 >
-> Đích đến = **LA BÀN**. Không phải phần thưởng.
-> Phần thưởng nằm TRONG chuyến đi (Pathway 1).
+> Destination = **COMPASS**. Not the reward.
+> The reward is INSIDE the journey (Pathway 1).
 >
 > = **Imagine-Final Navigation Paradox.**
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §0 — 6 QUOTES: SOURCE + VERIFICATION + OVERSIMPLIFICATION
 - §1 — LOGICAL RELATIONSHIP: PROGRESSION FROM BINARY TO SYNTHESIS
@@ -132,8 +132,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 │   │                                        │             │ "no way to   │
 │   │                                        │             │  peace" 1940s│
 ├───┼────────────────────────────────────────┼─────────────┼──────────────┤
-│ 4 │ "Hạnh phúc là một hành trình,         │ Vietnamese  │ ❌ Translation│
-│   │  không phải đích đến"                  │ translation │ of Q1        │
+│ 4 │ "Happiness is a journey,               │ Vietnamese  │ ❌ Translation│
+│   │  not a destination"                    │ translation │ of Q1        │
 ├───┼────────────────────────────────────────┼─────────────┼──────────────┤
 │ 5 │ "The journey is the reward"            │ Steve Jobs  │ ❌ UNVERIFIED │
 │   │                                        │ (Chinese    │ No confirmed │
@@ -145,18 +145,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 └───┴────────────────────────────────────────┴─────────────┴──────────────┘
 
   SCORE: 1/6 verified. 1/6 uncertain. 4/6 floating.
-  
-  Pattern consistent with clusters trước:
+
+  Pattern consistent with prior clusters:
     C1 (Adversity): 3/5 misattributed
     C2 (Think-Act): 0/2 verified
-    C3 (Knowledge): 1-2/3 verified
+    C3 (Knowledge): 1–2/3 verified
     C4 (Journey): 1/6 verified
-  
+
   ⭐ MOST NUANCED = ONLY VERIFIED:
     Le Guin (verified) includes BOTH destination AND journey.
     5 floating versions = simpler binaries.
     Triple Bias (Background-Pattern §6): simple + authority = spreadable.
-    Le Guin's nuance SURVIVES vì nó GẮN VỚI tác phẩm cụ thể.
+    Le Guin's nuance SURVIVES because it's ANCHORED to a specific work (a novel).
 
   🟢 Le Guin: The Left Hand of Darkness (1969), Chapter 4
   🟡 Sweetland "I Will" (1956) as possible Q1 origin: uncertain
@@ -166,24 +166,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §0.2 — Oversimplification pattern
 
 ```
-⭐ 6 QUOTES ĐỀU OVERSIMPLIFY THEO CÙNG CÁCH:
+⭐ ALL 6 QUOTES OVERSIMPLIFY IN THE SAME WAY:
 
   OVERSIMPLIFICATION 1 — Binary framing (5/6 quotes):
     "Journey, NOT destination" → implies EITHER/OR
-    Framework: BOTH needed — destination (Imagine-Final) tạo direction,
-    journey (Pathway 1) tạo reward. Only Le Guin captures BOTH.
+    Framework: BOTH needed — destination (Imagine-Final) creates direction,
+    journey (Pathway 1) creates reward. Only Le Guin captures BOTH.
 
-  OVERSIMPLIFICATION 2 — "Happiness" as single concept:
+  OVERSIMPLIFICATION 2 — "Happiness" as a single concept:
     Conflates multiple body states:
       Relief (cortisol drop after gap-fill) = Cyclic
       Opioid reward (Pathway 1, during process) = Generative
       Baseline comfort (Tonic, ongoing) = habituates
       Prediction-delta (novelty) = Generative
-    Quote nói "happiness" nhưng KHÔNG nói happiness NÀO.
-    
+    The quote says "happiness" but DOESN'T SPECIFY which happiness.
+
   OVERSIMPLIFICATION 3 — Attitude framing:
     Implies "choose to enjoy the journey" = enough.
-    Framework: body-base reward fires ONLY khi Pathway 1 conditions met.
+    Framework: body-base reward fires ONLY when Pathway 1 conditions are met.
     PFC instruction ("enjoy!") ≠ body-base change.
     Hardware mechanism, not mindset.
 ```
@@ -193,39 +193,39 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §1 — LOGICAL RELATIONSHIP: PROGRESSION FROM BINARY TO SYNTHESIS
 
 ```
-⭐⭐ 6 QUOTES TẠO THÀNH PROGRESSION:
+⭐⭐ 6 QUOTES FORM A PROGRESSION:
 
-  Q1 "Journey, not destination" ──────── BINARY (X, not Y)
+  Q1 "Journey, not destination" ─────── BINARY (X, not Y)
     ↓
-  Q2 "Not destination, way of life" ──── POSITIVE DEFINITION (not Y → Z)
+  Q2 "Not destination, way of life" ─── POSITIVE DEFINITION (not Y → Z)
     ↓
-  Q4 "Hành trình, không đích đến" ────── CULTURAL TRANSLATION (same binary)
+  Q4 "Journey, not destination" ──────── CULTURAL TRANSLATION (same binary)
     ↓
-  Q5 "Journey IS reward" ────────────── IDENTITY (X = reward itself)
+  Q5 "Journey IS reward" ─────────────── IDENTITY (X = reward itself)
     ↓
-  Q3 "No way TO happiness,             PARADOX (no path to X because X IS path)
-      happiness IS the way" ──────────── = Destroys META-TRAP
+  Q3 "No way TO happiness,              PARADOX (no path to X because X IS path)
+      happiness IS the way" ─────────── = Destroys META-TRAP
     ↓
-  Q6 "Good to have an end...           SYNTHESIS (both needed, X > Y)
+  Q6 "Good to have an end...            SYNTHESIS (both needed, X > Y)
       but journey matters" ────────────── = ONLY verified. MOST nuanced.
 
 
   FRAMEWORK MAPS EACH LEVEL:
 
   BINARY (Q1/Q2/Q4):
-    = Nhận ra Cyclic ≠ Generative satiation. Observation đúng, giải thích thiếu.
-    
+    = Recognizes Cyclic ≠ Generative satiation. Observation correct, explanation incomplete.
+
   IDENTITY (Q5):
-    = Nhận ra Pathway 1 identity: journey = nơi reward fires. Condensed.
-    
+    = Recognizes Pathway 1 identity: journey = where reward fires. Condensed.
+
   PARADOX (Q3):
-    = Phá meta-trap: dùng journey LÀM TOOL đạt happiness = VẪN destination.
+    = Breaks the meta-trap: using journey AS A TOOL to reach happiness = STILL destination.
     = "No way TO" = cannot USE process to REACH outcome.
     = Pathway 1 reward fires IN process, NOT AS RESULT OF process.
 
   SYNTHESIS (Q6):
-    = Imagine-Final cần thiết (create direction) + Journey matters (Pathway 1).
-    = Framework position: destination = la bàn, journey = phần thưởng.
+    = Imagine-Final necessary (creates direction) + Journey matters (Pathway 1).
+    = Framework position: destination = compass, journey = the reward.
     = ONLY level captures BOTH sides of Navigation Paradox.
 
 
@@ -237,48 +237,48 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §2 — DECODE: BASIC OBSERVATION (Q1+Q2+Q4) — SATIATION PROFILE MISMATCH
 
 ```
-⭐⭐ "DESTINATION" = TREATING GENERATIVE PROCESS AS CYCLIC:
+⭐⭐ "DESTINATION" = TREATING A GENERATIVE PROCESS AS CYCLIC:
 
-  CƠ CHẾ GỐC (Gap-Body-Need §2):
-  
+  ROOT MECHANISM (Gap-Body-Need §2):
+
   CYCLIC satiation (§2.2):
-    Fill → satiation CLEAR → gap DORMANT → return after interval
-    Hunger model: ăn → leptin signal → "xong" → 3-6h → return
+    Fill → satiation CLEAR → gap DORMANT → returns after interval
+    Hunger model: eat → leptin signal → "done" → 3–6h → returns
     = "DESTINATION" APPLIED TO HAPPINESS:
-    Đạt mục tiêu → "xong" → baseline adapt → hết happy → cần mục tiêu mới
+    Achieve goal → "done" → baseline adapts → happiness gone → need new goal
 
   GENERATIVE satiation (§2.4):
-    Fill → CREATE new gaps → never "done" → perpetual reward
-    Curiosity model: learn X → see Y unknown → gap for Y → chase
+    Fill → CREATES new gaps → never "done" → perpetual reward
+    Curiosity model: learn X → see Y (unknown) → gap for Y → chase
     = "JOURNEY" AS HAPPINESS ACTUALLY OPERATES:
     Each step reveals new gaps → reward from process, not completion
     Prediction-delta fires DURING fill, not only AFTER
 
-  ⭐ MISMATCH:
-    Người ta treating quá trình GENERATIVE (fill → new gaps → perpetual)
-    như thể nó là CYCLIC (fill → done → dormant).
-    = Giống treating curiosity như hunger: "giải xong = hết muốn biết = xong."
-    NHƯNG curiosity fill → discover MORE → NEVER "xong."
+  ⭐ THE MISMATCH:
+    People treating a GENERATIVE process (fill → new gaps → perpetual)
+    as if it were CYCLIC (fill → done → dormant).
+    = Like treating curiosity as hunger: "solve it = satisfied = done."
+    BUT curiosity fill → discover MORE → NEVER "done."
 
 
   HEDONIC TREADMILL CONFIRMS (Gratitude §3.1, Brickman & Campbell 1971):
-    Gift lần đầu → VTA fire → opioid → "pleasant"
-    Gift lần 50 → VTA habituate → gift = baseline = INVISIBLE
-    Mất gift → actual < baseline → SNC → "giận" thay vì biết ơn
-    = Destination HỌC THÊM 1 BÀI: baseline SHIFT LÊN SAU MỖI đạt
-    = Treadmill: đạt → adapt → cần MỚI → đạt → adapt → ...
+    First gift → VTA fires → opioid → "pleasant"
+    50th gift → VTA habituates → gift = baseline = INVISIBLE
+    Lose gift → actual < baseline → SNC → "resentment" instead of gratitude
+    = Destination teaches an additional lesson: baseline SHIFTS UP after each achievement
+    = Treadmill: achieve → adapt → need MORE → achieve → adapt → ...
 
-  Q2 THÊM — "WAY OF LIFE" = STATE TYPE ANCHOR:
+  Q2 ADDS — "WAY OF LIFE" = STATE TYPE ANCHOR:
     "Way of life" = STATE type Anchor-Schema (Meaning §3.2)
-    KHÁC GOAL type (§3.1): GOAL achievable → exhaustible
-    STATE ongoing → KHÔNG exhaustible theo cùng cách
-    = Q2 shift đúng hướng: từ exhaustible anchor → ongoing anchor
+    DIFFERENT from GOAL type (§3.1): GOAL achievable → exhaustible
+    STATE ongoing → NOT exhaustible in the same way
+    = Q2 shifts in the right direction: from exhaustible anchor → ongoing anchor
 
-  Q4 THÊM — CULTURAL DIMENSION:
-    Vietnamese Collective-Arc install NHIỀU schema-installed destinations:
-    "Phải có nhà trước 30" → schema gap → fill = relief tag, NOT opioid
-    (Gap-Body-Need §13 Cơ Chế 1: Collective INSTALL gap)
-    Quote counter-cultural trong culture destination-heavy
+  Q4 ADDS — CULTURAL DIMENSION:
+    Vietnamese collective culture installs MANY schema-delivered destinations:
+    "Must own a home before 30" → schema gap → fill = relief tag, NOT opioid
+    (Gap-Body-Need §13 Mechanism 1: Collective INSTALLS gap)
+    Quote is counter-cultural in a destination-heavy culture
 
   🟢 Hedonic adaptation: Brickman & Campbell 1971
   🟢 VTA habituation: Schultz 1997
@@ -294,42 +294,42 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ "JOURNEY = REWARD" = PATHWAY 1 IDENTITY STATEMENT:
 
   2 PATHWAYS (Gap-Body-Need §8):
-  
-  PATHWAY 1 — TRỰC TIẾP (internal coherence):
-    Activity resolve inconsistency → cortisol drop → opioid
-    Body-base state THẬT SỰ improve. Chain = 0: reward NGAY khi fill.
-    Einstein pleasant KHI giải, TRƯỚC KHI ai biết = Pathway 1.
-    
-  PATHWAY 2 — GIÁN TIẾP (external outcome → resources):
+
+  PATHWAY 1 — DIRECT (internal coherence):
+    Activity resolves inconsistency → cortisol drop → opioid
+    Body-base state GENUINELY improves. Chain = 0: reward fires IMMEDIATELY on fill.
+    Einstein pleasant WHILE solving, BEFORE anyone else knew = Pathway 1.
+
+  PATHWAY 2 — INDIRECT (external outcome → resources):
     Activity → outcome → resources → fill OTHER gaps
-    Chain dài: học → bằng → việc → tiền → mua → fill
-    
-  Q5 NÓI: "journey = reward" = Pathway 1 pure identity.
-  Process ITSELF = nơi opioid fires. Không cần đợi outcome.
+    Long chain: study → degree → job → salary → purchase → fill
+
+  Q5 SAYS: "journey = reward" = Pathway 1 pure identity statement.
+  Process ITSELF = where opioid fires. No waiting for outcome.
 
   IMAGINE-FINAL LIFECYCLE = THE "JOURNEY" LITERALLY (§5.2):
-    Phase 1 BUILD: PFC draft + body preview → excitement
+    Phase 1 BUILD: PFC drafts + body previews → excitement
     Phase 2 SAVE: Imagine-Final dormant in storage
-    Phase 3 BACKGROUND: vô thức tích hợp (REM, DMN, spreading activation)
-    Phase 4 RELOAD: PFC pull back → "aha moment" → clarity
-    Phase 5 REFINE → loop về Phase 1
-    = LOOP NÀY IS THE JOURNEY. Not metaphorical — literal.
-    = Reward fires ở Phase 1 (build excitement),
+    Phase 3 BACKGROUND: unconscious integration (REM, DMN, spreading activation)
+    Phase 4 RELOAD: PFC pulls back → "aha moment" → clarity
+    Phase 5 REFINE → loop back to Phase 1
+    = THIS LOOP IS THE JOURNEY. Not metaphorical — literal.
+    = Reward fires in Phase 1 (build excitement),
       Phase 3 (eureka during background),
       Phase 4 (reload clarity)
-    = DURING cycle, không phải AFTER cycle ends.
+    = DURING the cycle, not AFTER the cycle ends.
 
-  "JOURNEY IS REWARD" NHƯNG KHÔNG MỌI JOURNEY:
-    Journey CẦN gap-direction (Imagine-Final) để Pathway 1 fire.
-    Journey KHÔNG CÓ direction = no inconsistency to resolve
+  "JOURNEY IS REWARD" BUT NOT EVERY JOURNEY:
+    Journey NEEDS gap-direction (Imagine-Final) for Pathway 1 to fire.
+    Journey WITHOUT direction = no inconsistency to resolve
     = no cortisol drop = no opioid = NO REWARD.
-    = Boredom (Drive-PFC-Spinning), không phải happiness.
+    = Boredom (Drive-PFC-Spinning), not happiness.
 
   IF GENUINELY JOBS' QUOTE — INTERNAL CONSISTENCY:
     "Stay Hungry" (C2): Generative satiation = never full
     "Connect the dots" (C3): Phase 3 background → connections visible LATER
     "Journey is reward" (C4): Pathway 1 fires DURING process
-    = 3 quotes describe 3 ASPECTS of same Generative gap-fill lifecycle.
+    = 3 quotes describe 3 ASPECTS of the same Generative gap-fill lifecycle.
 
   🟢 ACC coherence reward: Bush, Luu, Posner 2000
   🟢 DMN background processing: Raichle 2001, Buckner 2008
@@ -341,46 +341,46 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §4 — DECODE: PARADOX (Q3 "No way to happiness") — META-TRAP DESTRUCTION
 
 ```
-⭐⭐⭐ ĐÂY LÀ PHIÊN BẢN SÂU NHẤT — PHÁ META-TRAP:
+⭐⭐⭐ THIS IS THE DEEPEST VERSION — BREAKS THE META-TRAP:
 
   "There is no way TO happiness, happiness IS the way"
 
-  TẦNG 1 — SURFACE:
+  LAYER 1 — SURFACE:
     = Journey, not destination (same as Q1)
-    
-  TẦNG 2 — DEEPER (meta-trap destruction):
-    "No way TO" = KHÔNG CÓ con đường DẪN TỚI happiness
-    Vì happiness KHÔNG nằm ở cuối đường
-    NẾU bạn nói: "tôi SẼ journey để ĐẠT happiness"
-    → bạn vẫn treating happiness như DESTINATION
-    → chỉ rename "destination" thành "journey attitude"
+
+  LAYER 2 — DEEPER (meta-trap destruction):
+    "No way TO" = THERE IS NO PATH THAT LEADS TO happiness
+    Because happiness does NOT sit at the end of the road.
+    IF you say: "I WILL journey in order TO REACH happiness"
+    → you are still treating happiness as a DESTINATION
+    → just renaming "destination" as "journey attitude"
     → = META-DESTINATION TRAP
 
-  TẦNG 3 — FRAMEWORK MECHANISM:
+  LAYER 3 — FRAMEWORK MECHANISM:
     Pathway 1 reward fires IN the process.
-    KHÔNG THỂ dùng process AS TOOL to reach outcome.
-    Nếu "journey" = tool → outcome = happiness → vẫn = Pathway 2 thinking.
+    You CANNOT use process AS A TOOL to reach an outcome.
+    If "journey" = tool → outcome = happiness → still = Pathway 2 thinking.
     "IS the way" = Pathway 1 IDENTITY: the doing IS the rewarding.
-    
-  PHÂN BIỆT 2 CÂU:
-    "Enjoy the journey" = vẫn = destination thinking (enjoy AS TOOL → happiness)
-    "Happiness IS the way" = journey KHÔNG PHẢI tool → IS the thing itself
+
+  DISTINGUISHING 2 STATEMENTS:
+    "Enjoy the journey" = still = destination thinking (enjoy AS TOOL → happiness)
+    "Happiness IS the way" = journey is NOT a tool → IS the thing itself
 
   ATTRIBUTION CONTEXT:
     Likely derived from A.J. Muste "There is no way to peace, peace is the way"
-    (~1940s, pacifist movement). Muste: peace KHÔNG PHẢI outcome of violence.
-    Bạn KHÔNG THỂ dùng non-peace methods ĐỂ đạt peace.
-    = Cùng paradox structure: X không nằm ở cuối process, X IS the process.
+    (~1940s, pacifist movement). Muste: peace is NOT an outcome of violence.
+    You CANNOT use non-peaceful methods TO reach peace.
+    = Same paradox structure: X is not at the end of the process, X IS the process.
 
-  FAILURE MODE CỦA QUOTE NÀY:
-    "Happiness IS the way" → "hãy happy NGAY BÂY GIỜ" → toxic positivity
-    Suppress body signals khi đau thật = mất information
+  FAILURE MODE OF THIS QUOTE:
+    "Happiness IS the way" → "be happy RIGHT NOW" → toxic positivity
+    Suppressing real body signals when genuinely in pain = losing information
     (PFC-Operations §4.2: compiled suppress)
-    Body signals = INFORMATION (Cortisol-Baseline §4: 3 nguồn đau THẬT)
-    "Way" phải bao gồm CẢ đau: đau thuộc journey, không cần suppress.
+    Body signals = INFORMATION (Cortisol-Baseline §4: 3 sources of genuine pain)
+    "The way" must include PAIN: pain belongs to the journey, no need to suppress.
 
   🟡 Meta-trap as Pathway 2 thinking in disguise = framework synthesis
-  🟡 Muste → TNH derivation = historical plausible, not confirmed
+  🟡 Muste → Thích Nhất Hạnh derivation = historically plausible, not confirmed
 ```
 
 ---
@@ -394,43 +394,43 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
    but it is the journey that matters, in the end"
   — The Left Hand of Darkness (1969)
 
-  TẦNG 1 — "GOOD TO HAVE AN END":
+  LAYER 1 — "GOOD TO HAVE AN END":
     = Imagine-Final IS NEEDED.
-    = Imagine-Final §3.3: PFC bật khi dissonance → build target → body preview
-    = Imagine-Final tạo GAP-DIRECTION (Gap-Direction §1.1)
-    = Không có Imagine-Final = không có direction = Boredom Drive-PFC-Spinning
-    = Le Guin KHÔNG reject destination — ACKNOWLEDGE its value.
+    = Imagine-Final §3.3: PFC activates when dissonance detected → builds target → body previews
+    = Imagine-Final creates GAP-DIRECTION (Gap-Direction §1.1)
+    = No Imagine-Final = no direction = Boredom Drive-PFC-Spinning
+    = Le Guin does NOT reject destination — ACKNOWLEDGES its value.
 
-  TẦNG 2 — "BUT THE JOURNEY THAT MATTERS":
-    = Pathway 1 reward fires DURING gap-fill process
+  LAYER 2 — "BUT THE JOURNEY THAT MATTERS":
+    = Pathway 1 reward fires DURING the gap-fill process
     = Imagine-Final lifecycle LOOP (§5.2) = the journey
-    = Reward ở Phase 1 (build), Phase 3 (eureka), Phase 4 (reload)
-    = DURING loop, not AFTER loop ends
+    = Reward in Phase 1 (build), Phase 3 (eureka), Phase 4 (reload)
+    = DURING the loop, not AFTER the loop ends
 
-  TẦNG 3 — COMBINED: THE ANCHOR PARADOX:
-    ① Bạn CẦN destination (Imagine-Final) để journey CÓ direction
-    ② NHƯNG achieving destination = Anchor EXHAUSTED (Meaning §2.2) = void
-    ③ Destination = NAVIGATION INSTRUMENT, không phải phần thưởng
-    ④ La bàn CẦN điểm đến để CHỈ HƯỚNG
-    ⑤ Nhưng giá trị nằm ở CHUYẾN ĐI, không nằm ở lúc TỚI
+  LAYER 3 — COMBINED: THE ANCHOR PARADOX:
+    ① You NEED destination (Imagine-Final) for the journey to HAVE direction
+    ② BUT achieving destination = Anchor EXHAUSTED (Meaning §2.2) = void
+    ③ Destination = NAVIGATION INSTRUMENT, not the reward
+    ④ A compass NEEDS a destination to POINT A DIRECTION
+    ⑤ But the value lies IN THE JOURNEY, not at the moment of ARRIVAL
 
-    = PARADOX: destination vừa ESSENTIAL vừa NOT THE POINT.
-    = Giống la bàn: la bàn chỉ bắc → bạn đi → giá trị ở hành trình
-    La bàn HỮU ÍCH nhưng "đến bắc cực" KHÔNG phải mục đích
+    = PARADOX: destination is both ESSENTIAL and NOT THE POINT.
+    = Like a compass: compass points north → you travel → value is in the journey
+    Compass USEFUL but "reaching the North Pole" is NOT the purpose
 
-  TẠI SAO LE GUIN NUANCED HƠN 5 QUOTES KHÁC:
+  WHY LE GUIN IS MORE NUANCED THAN THE OTHER 5 QUOTES:
     Q1/Q2/Q4: Binary — "not destination" → reject destination entirely
     Q5: Identity — "journey = reward" → no qualification
-    Q3: Paradox — "no way to" → destroys meta-trap nhưng vẫn reject destination
+    Q3: Paradox — "no way to" → destroys meta-trap but still rejects destination
     Q6: SYNTHESIS — "good to have end" + "journey matters" = BOTH, weighted
 
-  ĐÂY LÀ FRAMEWORK POSITION:
-    Framework KHÔNG nói "bỏ destination."
-    Framework nói: Imagine-Final (destination) = NAVIGATION TOOL.
-    Gap-direction CUNG CẤP bởi Imagine-Final.
+  THIS IS THE FRAMEWORK POSITION:
+    Framework does NOT say "abandon destination."
+    Framework says: Imagine-Final (destination) = NAVIGATION TOOL.
+    Gap-direction is PROVIDED by Imagine-Final.
     Reward fires DURING gap-fill (Pathway 1).
-    = Destination CREATE conditions cho journey WORK.
-    = Destination KHÔNG PHẢI reward ITSELF.
+    = Destination CREATES conditions for journey to WORK.
+    = Destination is NOT the reward ITSELF.
     = Le Guin captures EXACTLY this.
 
   🟢 Le Guin: The Left Hand of Darkness, 1969
@@ -446,11 +446,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   "IMAGINE-FINAL NAVIGATION PARADOX"
 
-  Bạn CẦN đích đến (Imagine-Final) để tạo gap-direction cho hành trình,
-  nhưng phần thưởng nằm TRONG hành trình (Pathway 1 reward fires during
-  gap-fill), KHÔNG nằm TẠI đích đến (Pathway 2 outcome).
-  Đạt đích = Anchor Exhausted = satiation → baseline adapt → void.
-  Đích đến = LA BÀN, không phải phần thưởng.
+  You NEED a destination (Imagine-Final) to create gap-direction for the journey,
+  but the reward lies INSIDE the journey (Pathway 1 reward fires during
+  gap-fill), NOT AT the destination (Pathway 2 outcome).
+  Reaching the destination = Anchor Exhausted = satiation → baseline adapts → void.
+  Destination = COMPASS, not the reward.
 
 
   3 STRUCTURAL COMPONENTS:
@@ -458,15 +458,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ① SATIATION PROFILE MISMATCH:
     "Happiness" treated as Cyclic (fill → done → dormant)
     Actually operates Generative (fill → new gaps → perpetual)
-    = Mismatch = tại sao destination KHÔNG sustained
+    = Mismatch = why destination is NOT sustained
 
   ② PATHWAY 1 vs PATHWAY 2:
     Pathway 1: reward fires IN process (chain = 0, internal coherence)
-    Pathway 2: reward fires AFTER outcome (chain dài, external)
+    Pathway 2: reward fires AFTER outcome (long chain, external)
     Journey = Pathway 1 territory. Destination = Pathway 2 territory.
 
   ③ ANCHOR PARADOX:
-    Imagine-Final needed for direction (la bàn)
+    Imagine-Final needed for direction (compass)
     Achieving Imagine-Final = Anchor Exhausted (void)
     = Destination essential AS TOOL, not AS GOAL
 
@@ -477,10 +477,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Cluster │ Convergent Concept         │ Structural Constraint        │
   ├─────────┼────────────────────────────┼──────────────────────────────┤
   │ C1      │ Direction Tag              │ WHICH direction at compile   │
-  │ Adversity│ (Adversity Direction)     │ time → khác outcome suốt đời │
+  │ Adversity│ (Adversity Direction)     │ time → different outcome     │
+  │         │                            │ for life                     │
   ├─────────┼────────────────────────────┼──────────────────────────────┤
   │ C2      │ Compile Quality Gate       │ WHICH quality through gate   │
-  │ Think-Act│ (genuine/schema/threat)   │ → khác kết quả suốt đời     │
+  │ Think-Act│ (genuine/schema/threat)   │ → different results for life │
   ├─────────┼────────────────────────────┼──────────────────────────────┤
   │ C3      │ Chunk-Dependent Visibility │ WHAT you see = f(compiled)   │
   │ Knowledge│ (3 dimensions + meta)     │ → visibility constraint      │
@@ -511,45 +512,45 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §7 — THE MISSING MIDDLE
 
 ```
-⭐ 6 ELEMENTS MÀ TẤT CẢ 6 QUOTES ĐỀU THIẾU:
+⭐ 6 ELEMENTS THAT ALL 6 QUOTES MISS:
 
   ① BODY'S ROLE (core missing):
     "Happiness" = BODY STATE observation, not attitude.
-    Journey "works" vì body-base reward fires DURING process
+    Journey "works" because body-base reward fires DURING the process
     (Pathway 1, opioid system). HARDWARE mechanism.
-    "Choose to enjoy the journey" = PFC instruction → body KHÔNG thay đổi
-    trừ khi Pathway 1 conditions met (gap exists + direction match + fill).
+    "Choose to enjoy the journey" = PFC instruction → body DOESN'T CHANGE
+    unless Pathway 1 conditions are met (gap exists + direction match + fill).
 
   ② SATIATION PROFILE SPECIFICITY:
-    WHY destination fails = Cyclic (fill → done → baseline adapt).
+    WHY destination fails = Cyclic (fill → done → baseline adapts).
     WHY journey works = Generative (fill → new gaps → perpetual).
     Quotes observe PATTERN, framework explains MECHANISM.
-    Biết mechanism → biết WHEN journey CŨNG fail (Tonic habituation).
+    Know the mechanism → know WHEN journey ALSO fails (Tonic habituation).
 
   ③ DIRECTION IS ESSENTIAL:
     5/6 quotes = binary (journey vs destination). Only Le Guin: both needed.
-    Imagine-Final NEEDED cho gap-direction.
-    Journey KHÔNG CÓ direction = Boredom Drive-PFC-Spinning.
-    Destination = la bàn → cần có, không phải phần thưởng.
+    Imagine-Final NEEDED for gap-direction.
+    Journey WITHOUT direction = Boredom Drive-PFC-Spinning.
+    Destination = compass → must exist, just not the reward.
 
   ④ DOMAIN FEEDBACK = ARBITER:
-    Journey PHẢI được calibrate bởi domain feedback.
+    Journey MUST be calibrated by domain feedback.
     Journey + no domain feedback = potentially wrong direction compiled deep.
-    "Enjoying the journey" trên sai direction = enjoyable but WRONG
-    (Meaning §1.1b: "có meaning" ≠ "meaning đúng").
+    "Enjoying the journey" in the wrong direction = enjoyable but WRONG
+    (Meaning §1.1b: "having meaning" ≠ "meaning is correct").
 
   ⑤ CORTISOL DIRECTION TAG:
     Journey under approach cortisol (curiosity-pulled)
     ≠ journey under avoidance cortisol (fear-pushed).
-    Cùng behavior (travel, change jobs, new partners).
-    KHÁC direction tag at compile time → KHÁC outcome suốt đời.
-    "Running toward" vs "running from" = khác compile tag.
+    Same behavior (travel, changing jobs, new relationships).
+    DIFFERENT direction tag at compile time → DIFFERENT outcome for life.
+    "Running toward" vs "running from" = different compile tag.
 
   ⑥ PER-PERSON VARIATION:
-    "Journey" không phải one-size-fits-all.
+    "Journey" is not one-size-fits-all.
     Generative gaps vary per person (COMT Val/Val vs Met/Met, DRD4).
     Gap-Distribution-Profile: gap landscape = unique per person.
-    What constitutes rewarding journey = f(gap distribution profile).
+    What constitutes a rewarding journey = f(gap distribution profile).
 
   🟡 Missing middle analysis = framework synthesis
 ```
@@ -561,67 +562,67 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §8.1 — Destination thinking (5 failure modes)
 
 ```
-  FM-D1: ANCHOR EXHAUSTION — "rồi sao nữa?"
-    CEO 20 năm → đạt → GOAL anchor fulfilled → void (Meaning §2.2).
-    Cortisol inertia: body QUEN drive mode → đạt rồi vẫn "thiếu gì đó."
+  FM-D1: ANCHOR EXHAUSTION — "And then what?"
+    CEO after 20 years → achieves it → GOAL anchor fulfilled → void (Meaning §2.2).
+    Cortisol inertia: body ACCUSTOMED to drive mode → achieved, still "something missing."
 
-  FM-D2: HEDONIC TREADMILL — nuốt mọi destination
-    VTA habituate (Gratitude §3.1): lần 1 pleasant, lần 50 invisible.
-    Baseline shift LÊN → cần destination MỚI, LỚN HƠN liên tục.
-    Brickman & Campbell 1971: lottery winners → baseline adapt → same happiness.
+  FM-D2: HEDONIC TREADMILL — swallows every destination
+    VTA habituates (Gratitude §3.1): first time pleasant, 50th time invisible.
+    Baseline shifts UP → need NEWER, BIGGER destinations continuously.
+    Brickman & Campbell 1971: lottery winners → baseline adapts → same happiness.
 
-  FM-D3: SCHEMA-INSTALLED DESTINATION — "phải X trước Y"
-    Collective INSTALL: "phải có nhà trước 30" → schema gap.
+  FM-D3: SCHEMA-INSTALLED DESTINATION — "must X before Y"
+    Collective install: "must own a home before 30" → schema gap.
     Fill = relief tag (cortisol drop), NOT opioid (Gap-Body-Need §13).
-    "Phù, xong rồi" ≠ "thích" → "thành công mà emptiness."
+    "Phew, done" ≠ "I love this" → "success but emptiness."
 
-  FM-D4: PATHWAY 2 DEPENDENCY — chain dài, dễ gãy
-    All reward expected AFTER achievement (Pathway 2, chain dài).
-    Học → bằng → việc → tiền → mua → fill. Mỗi link có thể gãy.
-    Pathway 1 reward DURING process bị bỏ qua suốt 15-20 năm.
+  FM-D4: PATHWAY 2 DEPENDENCY — long chain, easily broken
+    All reward expected AFTER achievement (Pathway 2, long chain).
+    Study → degree → job → salary → purchase → fill. Each link can break.
+    Pathway 1 reward DURING process is bypassed for 15–20 years.
 
   FM-D5: MEANING ≠ HAPPINESS CONFUSION
-    Destination CÓ THỂ cho happiness mà KHÔNG CÓ meaning (Case ①).
-    Hoặc meaning mà KHÔNG CÓ happiness (Case ④ Frankl).
-    2 chiều ĐỘC LẬP (Baumeister 2013) — gộp chung = sai kỳ vọng.
+    Destination CAN provide happiness WITHOUT meaning (Case ①).
+    Or meaning WITHOUT happiness (Case ④ Frankl).
+    2 INDEPENDENT dimensions (Baumeister 2013) — conflating them = wrong expectations.
 ```
 
 ### §8.2 — Journey thinking (7 failure modes)
 
 ```
-  FM-J1: JOURNEY KHÔNG CÓ DIRECTION — Boredom
-    Boredom formula (§1.1): Dissonance + Imagine-Final CHƯA RÕ = "chán."
-    Journey không Imagine-Final = không gap-direction = Drive-PFC-Spinning.
+  FM-J1: JOURNEY WITHOUT DIRECTION — Boredom
+    Boredom formula (§1.1): Dissonance + Imagine-Final UNCLEAR = "bored."
+    Journey without Imagine-Final = no gap-direction = Drive-PFC-Spinning.
 
-  FM-J2: TONIC HABITUATION — "chán dù đang trên journey"
-    Journey ở Tonic profile: habituate slowly (Weber-Fechner).
-    Cặp đôi "vẫn yêu nhưng không exciting" = Tonic intact, Generative dead.
-    Journey CẦN Generative component (gaps MỚI) để sustained.
+  FM-J2: TONIC HABITUATION — "bored even while on the journey"
+    Journey at Tonic profile: habituates slowly (Weber-Fechner).
+    Couple "still loves each other but it's not exciting" = Tonic intact, Generative dead.
+    Journey NEEDS Generative component (NEW gaps) to be sustained.
 
-  FM-J3: META-DESTINATION TRAP — "tôi SẼ journey để ĐẠT happiness"
-    Dùng journey LÀM TOOL = vẫn destination thinking.
-    Q3 phá trap: "no way TO happiness" = cannot USE process to REACH outcome.
-    "Practice mindfulness ĐỂ hạnh phúc" = meta-destination.
+  FM-J3: META-DESTINATION TRAP — "I WILL journey in order TO REACH happiness"
+    Using journey AS A TOOL = still destination thinking.
+    Q3 breaks the trap: "no way TO happiness" = cannot USE process to REACH outcome.
+    "Practice mindfulness IN ORDER TO be happy" = meta-destination.
 
   FM-J4: TOXIC POSITIVITY — suppress pain
-    "Happiness IS the way" → "hãy happy ngay" → suppress body signals.
-    PFC-Operations §4.2: compiled suppress → mất information.
+    "Happiness IS the way" → "be happy now" → suppress body signals.
+    PFC-Operations §4.2: compiled suppress → loss of information.
     Body signals = INFORMATION (Cortisol-Baseline §4).
 
-  FM-J5: ANTI-DESTINATION OVERCORRECTION — mất la bàn
-    Reject ALL destinations → mất Imagine-Final → mất direction → Boredom.
-    Destination = NAVIGATION INSTRUMENT, cần có.
-    Overcorrection = vứt la bàn vì sợ phụ thuộc đích đến.
+  FM-J5: ANTI-DESTINATION OVERCORRECTION — losing the compass
+    Reject ALL destinations → lose Imagine-Final → lose direction → Boredom.
+    Destination = NAVIGATION INSTRUMENT, must exist.
+    Overcorrection = throwing away the compass out of fear of destination dependency.
 
-  FM-J6: SCHEMA-COMPILED JOURNEY — "phải sống trọn vẹn mỗi ngày"
-    Collective install "journey" schema: PFC-only, body không genuine.
-    Schema journey = relief khi "sống đúng," not opioid.
-    Domain feedback = arbiter — body BIẾT genuine vs schema.
+  FM-J6: SCHEMA-COMPILED JOURNEY — "must live fully every day"
+    Collective installs "journey" schema: PFC-only, body not genuine.
+    Schema journey = relief when "living correctly," not opioid.
+    Domain feedback = arbiter — body KNOWS genuine vs schema.
 
-  FM-J7: AVOIDANCE JOURNEY — "chạy trốn vô định"
-    Journey with avoidance tag (Cortisol §7.7): running FROM thay vì TOWARD.
-    Cùng behavior (travel, change). KHÁC direction tag. KHÁC outcome.
-    Background-Pattern "anywhere but here" → never settle.
+  FM-J7: AVOIDANCE JOURNEY — "drifting to escape"
+    Journey with avoidance tag (Cortisol §7.7): running FROM instead of TOWARD.
+    Same behavior (travel, changing jobs). DIFFERENT direction tag. DIFFERENT outcome.
+    Background-Pattern "anywhere but here" → never settles.
 ```
 
 ---
@@ -631,26 +632,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ 5 AI-ERA DIMENSIONS:
 
-  ① AI = DESTINATION ACCELERATOR → TREADMILL TĂNG TỐC:
-    AI đạt destinations NHANH → baseline shift NHANH → hedonic treadmill NHANH.
-    "AI giúp đạt mục tiêu nhanh hơn" = habituate faster = need more faster.
+  ① AI = DESTINATION ACCELERATOR → TREADMILL SPEEDS UP:
+    AI achieves destinations FASTER → baseline shifts FASTER → hedonic treadmill ACCELERATES.
+    "AI helps you reach goals faster" = habituate faster = need more, faster.
 
   ② AI FILLS PATHWAY 2, NOT PATHWAY 1:
-    AI provide outcomes/resources (Pathway 2).
-    KHÔNG provide internal coherence reward (Pathway 1).
-    Pathway 1 = DOING it yourself → pattern resolve → opioid.
-    "AI viết code cho tôi" → output CÓ, coherence reward KHÔNG.
+    AI provides outcomes/resources (Pathway 2).
+    Does NOT provide internal coherence reward (Pathway 1).
+    Pathway 1 = DOING it yourself → pattern resolves → opioid.
+    "AI writes code for me" → output EXISTS, coherence reward DOESN'T.
 
   ③ "GIVEN" ANSWER = JOURNEY BYPASS:
-    "Given" answer = bypass gap-fill process = no Pathway 1 reward.
+    "Given" answer = bypassing the gap-fill process = no Pathway 1 reward.
     AI gives answers → skips journey → skips reward.
-    "Hỏi AI thay vì tự tìm" = destination efficiency + journey elimination.
+    "Ask AI instead of finding it yourself" = destination efficiency + journey elimination.
     PARADOX: MORE efficient → LESS Pathway 1 reward.
 
   ④ AI ERA AMPLIFIES JOURNEY NEED:
-    Technology fill sensory/near-body baselines (Gap-Body-Need §10).
+    Technology fills sensory/near-body baselines (Gap-Body-Need §10).
     Modern gap frontier = social + abstract + meaning = ALL Generative.
-    AI era = era where journey thinking MOST essential — vì mọi
+    AI era = era where journey thinking is MOST essential — because every
     destination-achievable thing = AI-achievable.
     What remains HUMAN = the journey itself (Pathway 1 engagement).
 
@@ -669,39 +670,39 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ 6 PRINCIPLES:
 
-  ① DESTINATION = LA BÀN, KHÔNG PHẢI PHẦN THƯỞNG:
+  ① DESTINATION = COMPASS, NOT THE REWARD:
     Maintain Imagine-Final (direction, navigation).
-    NHƯNG locate reward IN process, not AT endpoint.
-    "Tôi đang đi HƯỚNG NÀY" (la bàn) ≠ "tôi sẽ vui KHI ĐẾN" (phần thưởng).
+    BUT locate reward IN the process, not AT the endpoint.
+    "I am heading IN THIS DIRECTION" (compass) ≠ "I will be happy WHEN I ARRIVE" (reward).
 
   ② CHECK SATIATION PROFILE:
-    "Tôi đang treating pursuit này là Cyclic hay Generative?"
-    Cyclic: fill → done → void → cần mới = TREADMILL.
+    "Am I treating this pursuit as Cyclic or Generative?"
+    Cyclic: fill → done → void → need new = TREADMILL.
     Generative: fill → new gaps → more to explore = SUSTAINED.
-    Nếu Cyclic → check: pursuit này THẬT SỰ Cyclic, hay tôi FRAMING sai?
+    If Cyclic → check: is this pursuit ACTUALLY Cyclic, or am I FRAMING it wrong?
 
   ③ MONITOR PATHWAY 1 vs PATHWAY 2:
-    "Reward đến TRONG quá trình hay chỉ KHI ĐẠT?"
-    Pathway 1 during → journey đang work.
+    "Does reward come DURING the process or only WHEN I ACHIEVE?"
+    Pathway 1 during → journey is working.
     Pathway 2 only → destination thinking in disguise.
-    Test: "nếu KHÔNG BAO GIỜ đạt, tôi CÓ vẫn muốn làm không?"
+    Test: "If I NEVER achieved it, would I STILL want to do it?"
 
   ④ DISTINGUISH APPROACH vs AVOIDANCE JOURNEY:
-    "Tôi đang chạy TOWARD hay FROM?"
-    Approach: curiosity-pulled, tò mò, muốn biết thêm.
-    Avoidance: fear-pushed, trốn, "anywhere but here."
-    Cùng behavior. KHÁC direction tag. KHÁC outcome suốt đời.
+    "Am I running TOWARD or FROM?"
+    Approach: curiosity-pulled, wondering, wanting to know more.
+    Avoidance: fear-pushed, escaping, "anywhere but here."
+    Same behavior. DIFFERENT direction tag. DIFFERENT outcome for life.
 
   ⑤ ALLOW PAIN ON THE JOURNEY:
-    Journey bao gồm CẢ đau. "Happiness is the way" ≠ "joy is the way."
-    Body signals khi đau = INFORMATION, không cần suppress.
-    Đau THUỘC journey — suppress = mất information = mất calibration.
+    Journey includes PAIN. "Happiness is the way" ≠ "joy is the way."
+    Body signals when in pain = INFORMATION, no need to suppress.
+    Pain BELONGS to the journey — suppress = lose information = lose calibration.
 
   ⑥ DOMAIN FEEDBACK = ARBITER:
-    "Journey" cảm thấy tốt ≠ journey ĐÚNG.
-    Domain reality check: kết quả thật CÓ confirm direction không?
-    Enjoyable journey + domain says NO = need pivot, not more enjoyment.
-    PFC = Lawyer: rationalize any journey.
+    "Journey feels good" ≠ journey is CORRECT.
+    Domain reality check: do real results CONFIRM the direction?
+    Enjoyable journey + domain says NO = need to pivot, not more enjoyment.
+    PFC = Lawyer: rationalizes any journey.
     Domain = Judge: only arbiter.
 
   🟡 Calibration principles = framework synthesis
@@ -719,19 +720,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     5 floating versions = simpler binaries.
     Pattern: oversimplified versions get misattributed BECAUSE
     simplicity + authority = spreadable (Triple Bias).
-    Le Guin's nuance SURVIVES vì GẮN VỚI tác phẩm cụ thể (novel).
+    Le Guin's nuance SURVIVES because it's ANCHORED to a specific work (novel).
 
   M2: CROSS-CULTURAL UNIVERSALITY
     English, Vietnamese, Buddhist, Chinese proverb, American tech, sci-fi.
-    5+ truyền thống. Recurrence = evidence for HARDWARE mechanism.
+    5+ traditions. Recurrence = evidence for HARDWARE mechanism.
     Compilable Architecture (Inter-Body-Mechanism §1.2):
-    general-purpose system CẦN ongoing input → "journey" = architecture requirement.
-    Hardware constraint → mọi culture discover independently.
+    general-purpose system NEEDS ongoing input → "journey" = architecture requirement.
+    Hardware constraint → every culture discovers it independently.
 
   M3: IMAGINE-FINAL LIFECYCLE = THE "JOURNEY" LITERALLY
     5-phase lifecycle (Build → Save → Background → Reload → Refine → Loop)
-    IS what quotes call "journey." Not metaphorical — literal brain process.
-    Phase 3 Background = "the journey continues even when you're not thinking."
+    IS what the quotes call "journey." Not metaphorical — literal brain process.
+    Phase 3 Background = "the journey continues even when you're not actively thinking."
     3 long-term outcomes: Compile / Achieve+Forget / Abandon.
     "Destination" thinking expects Outcome 2 (achieve → done → happiness).
     "Journey" thinking recognizes Outcome 1 (compile → ongoing → sustained).
@@ -790,7 +791,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   12 failure modes (5 destination + 7 journey)
   AI era amplifies journey need
   Missing middle analysis (body's role, per-person variation)
-  Cultural dimension (Vietnamese schema-installed destinations)
+  Cultural dimension (schema-installed destinations)
   Compiled/Fresh journey quality distinction
 
 ═══════════════════════════════════════
@@ -818,7 +819,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Reward-Calibration.md v1.1 — §1 Goldilocks, §3 Under/Match/Over
   Cortisol-Baseline.md v2.1 — §3.3 Direction Tag, §4 3 Pain Sources, §7 Source>Level
   PFC-Operations.md v1.0 — §4.2 Compiled Suppress, §5 Compiled Quality
-  Gap-Direction.md v2.0 — §3 "Chưa biết", §7.5 Oscillation
+  Gap-Direction.md v2.0 — §3 "No knowledge = no gap", §7.5 Oscillation
   Gap-Distribution-Profile.md v1.1 — §2.5 Satiation per-domain, §7.4 Modern Frontier
   Background-Pattern.md v2.0 — §6 Triple Bias
   Body-Feedback-Mechanism.md v2.0 — §3 Chunk Dynamics, §5 Baseline Shift
@@ -828,7 +829,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §13.2 — Series cross-references
 
 ```
-  Work-Adversity-Fear-Cluster.md (C1) — Direction Tag, 5 quotes logical chain
+  Work-Adversity-Fear-Cluster.md (C1) — Direction Tag, 5-quote logical chain
   Work-Think-Act-Become-Cluster.md (C2) — Compile Quality Gate, PFC=Director Body=Compiler
   Work-Chunk-Dependent-Visibility-Cluster.md (C3) — Chunk-Dependent Visibility, 3 dimensions
 ```

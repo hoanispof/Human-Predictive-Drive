@@ -17,73 +17,79 @@ dependencies:
   - F1 NT6 verbal-as-handle (label = retrieval path)
   - F1 NT1 gradient (chunks = strength-weighted)
 test_hypothesis: H6
-language: Tiếng Việt primary + English technical
+language: English
 ---
 
 # 03 — Chain + Anchor Dynamics
 
-> **File này drill**: Tại sao chunks cần anchor? Chain hình thành thế nào?
-> Decay mechanism ra sao? Thread 8 từ Feeling Deep Analysis.
+> **This file drills**: Why do chunks need anchors? How do chains form?
+> What is the decay mechanism? Thread 8 from Feeling Deep Analysis.
 > H6 test: decay follows Ebbinghaus without anchor? Anchor type ranking?
 
 ---
 
-## §1 — Vấn đề trung tâm
+## §1 — The Central Problem
 
-### §1.1 — Câu hỏi
+### §1.1 — The Question
 
 ```
-TẠI SAO CHUNKS CẦN ANCHOR? DECAY THẾ NÀO KHÔNG CÓ ANCHOR?
+WHY DO CHUNKS NEED ANCHORS? WHAT IS DECAY WITHOUT ANCHOR?
 
-User's formulation (verbatim):
-  "Tại sao phải có anchor verbal, hoặc hình ảnh, hoặc đồ vật, hoặc 
+User's formulations (verbatim):
+  "Tại sao phải có anchor verbal, hoặc hình ảnh, hoặc đồ vật, hoặc
    context, ritual, để giữ chunk trong chuỗi chain"
-  "Nếu chunk không thể gán anchor thì sẽ duy trì được dài không hay 
-   sẽ dễ suy thoái và quên"
+  [English: "Why must there be a verbal anchor, or image, or object, or
+   context, ritual, to keep a chunk in a chain"]
 
-Câu hỏi cụ thể:
-  ① CHAIN: Chunks nối thành chuỗi thế nào?
-  ② ANCHOR: Vai trò thực sự của anchor trong chain?
-  ③ DECAY: Không có anchor → chunk decay nhanh hơn?
+  "Nếu chunk không thể gán anchor thì sẽ duy trì được dài không hay
+   sẽ dễ suy thoái và quên"
+  [English: "If a chunk cannot be assigned an anchor, will it be
+   maintained long or will it easily degrade and be forgotten"]
+
+Specific questions:
+  ① CHAIN: How do chunks form into a sequence?
+  ② ANCHOR: What is the real role of anchor in a chain?
+  ③ DECAY: Without anchor → chunk decay faster?
   ④ H6: Decay follows Ebbinghaus? Anchor type ranking?
-  ⑤ "Biết nhưng không nhớ ra" = gì ở mức cơ chế?
+  ⑤ "Knowing but can't recall" = what at mechanism level?
 ```
 
 ---
 
 ## §2 — Chain Formation Mechanism
 
-### §2.1 — Chain là gì
+### §2.1 — What is a Chain
 
 ```
 🟡 FRAMEWORK DEFINITION:
 
-CHAIN = chuỗi chunks có LINK TUẦN TỰ (A→B→C→D):
-  → Chunk A fire → kích hoạt B → kích hoạt C → kích hoạt D
-  → Trình tự có HƯỚNG (A dẫn đến B, không nhất thiết B dẫn đến A)
-  → = "Chuỗi suy nghĩ", "dây chuyền ký ức", "trình tự hành động"
+CHAIN = sequence of chunks with SEQUENTIAL LINKS (A→B→C→D):
+  → Chunk A fires → activates B → activates C → activates D
+  → Sequence has DIRECTION (A leads to B, not necessarily B leads to A)
+  → = "Thought chain", "memory chain", "action sequence"
 
 CHAIN ≠ SINGLE CONNECTION:
   → Connection (01-Chunk-Connection): A↔B (1 link, 2 chunks)
-  → Chain: A→B→C→D→E (nhiều links, nhiều chunks, có trình tự)
-  → Chain = NHIỀU connections nối nhau thành sequence
+  → Chain: A→B→C→D→E (multiple links, multiple chunks, in sequence)
+  → Chain = MULTIPLE connections linked into a sequence
 
-VÍ DỤ:
+EXAMPLES:
   ① NARRATIVE CHAIN:
-     [bạn cũ] → [trường xưa] → [cô giáo] → [buổi khai giảng] → [mẹ dẫn đi]
-     → Nhớ bạn cũ → tự động nhớ trường → nhớ cô giáo → nhớ khai giảng...
+     [old friend] → [old school] → [teacher] → [first day of school] → [mom walked me there]
+     → Remember old friend → automatically remember school → remember teacher
+       → remember first day...
      → = Chain of associated memories
 
   ② REASONING CHAIN:
-     [giá dầu tăng] → [chi phí vận chuyển tăng] → [giá hàng tăng] → [lạm phát]
+     [oil price rises] → [transportation costs rise] → [goods prices rise] → [inflation]
      → = Causal chain (Type 4 connections chained)
 
   ③ SKILL CHAIN:
-     [cầm dao] → [cắt rau] → [bỏ nồi] → [bật bếp] → [đảo]
+     [pick up knife] → [cut vegetables] → [put in pot] → [turn on stove] → [stir]
      → = Motor sequence (meta-chunk = compiled chain)
 
   ④ EMOTIONAL CHAIN:
-     [tin xấu] → [shock] → [buồn] → [nhớ người] → [tội lỗi] → [tê liệt]
+     [bad news] → [shock] → [sadness] → [missing someone] → [guilt] → [paralysis]
      → = Emotional cascade (cross-contamination chain)
 ```
 
@@ -95,25 +101,25 @@ VÍ DỤ:
 CHAIN FORMATION = TEMPORAL CO-OCCURRENCE + REPETITION + EMOTIONAL WEIGHT:
 
   ① TEMPORAL CO-OCCURRENCE:
-     A fires → B fires ngay sau → Hebbian: A→B link strengthens
+     A fires → B fires immediately after → Hebbian: A→B link strengthens
      → 🟢 Hebbian learning: "neurons that fire together wire together"
      → 🟢 Temporal contiguity in associative learning (Rescorla & Wagner 1972)
-     → = A và B xảy ra gần nhau về thời gian → link hình thành
+     → = A and B occur close in time → link forms
 
   ② REPETITION:
-     A→B xảy ra NHIỀU LẦN → link strengthens progressively
+     A→B occurs MANY TIMES → link strengthens progressively
      → = 4-channel compile mechanism (F1 NT2): repetition = channel 1
      → Chain link strength = f(number of co-occurrences)
      → More repetitions → stronger chain → more automatic
 
   ③ EMOTIONAL WEIGHT:
-     A→B xảy ra trong EMOTIONAL PEAK → link compiles NHANH
+     A→B occurs during EMOTIONAL PEAK → link compiles FAST
      → = 4-channel compile: emotional peak = channel 2
-     → 1 lần trauma CÓ THỂ tạo chain cực mạnh
+     → A single trauma CAN create an extremely strong chain
      → = "Flashbulb memory" chains (🟢 Brown & Kulik 1977)
 
   ④ MULTI-MODAL ENRICHMENT:
-     A→B xảy ra across nhiều modalities → link SÂUHU HƠN
+     A→B occurs across many modalities → link DEEPENS
      → = 4-channel compile: multi-modal = channel 3
      → Visual + auditory + somatic + emotional = strongest chains
 
@@ -126,7 +132,7 @@ CHAIN FORMATION = TEMPORAL CO-OCCURRENCE + REPETITION + EMOTIONAL WEIGHT:
 
 CHAIN STRUCTURE:
 
-  ┌────────────────────────────────────────────────────┐
+  ┌────────────────────────────────────────────────┐
   │  A ──strong──> B ──strong──> C ──weak──> D ──?──> E│
   │  ↑             ↑                                   │
   │  anchor        anchor                              │
@@ -163,7 +169,7 @@ ANCHOR ≠ CHUNK CONTENT:
   → This means: anchor HELPS retrieve chunk but is NOT the chunk
   → Losing anchor ≠ losing chunk
   → Losing anchor = losing ACCESS to chunk
-  → = "Tôi biết nhưng không nhớ ra" = chunk without active anchor
+  → = "I know it but can't recall it" = chunk without active anchor
 ```
 
 ### §3.2 — 5 anchor types
@@ -173,8 +179,8 @@ ANCHOR ≠ CHUNK CONTENT:
 
 TYPE A — VERBAL LABEL:
   = Word/phrase assigned to chunk as retrieval key
-  → "Trọng lực" = anchor for gravity-related chunks
-  → "Nhà thờ" = anchor for church-related chunks
+  → "Gravity" = anchor for gravity-related chunks
+  → "Church" = anchor for church-related chunks
   → Strengths: shareable, precise, stackable (words combine)
   → Weaknesses: requires language, can be too narrow/abstract
   → = H3 verdict (F3): verbal = most VERSATILE anchor system
@@ -193,7 +199,7 @@ TYPE C — CONTEXT/ENVIRONMENT:
   = Physical or social setting associated with chunk
   → Walk into old school → childhood chunks fire
   → Smell of cookies → grandma's house chunks fire
-  → "Nhà thờ" context → anchor for spiritual chunks
+  → Church building → anchor for spiritual chunks
   → Strengths: powerful (whole environment = massive activation)
   → Weaknesses: requires being IN the context, not portable
   → = Priming effect (🟢 Meyer & Schvaneveldt 1971)
@@ -204,7 +210,7 @@ TYPE D — RITUAL/ACTION:
   = Repeated behavioral sequence associated with chunk
   → Morning routine → "start of day" chunks fire
   → Prayer gesture → spiritual chunks fire
-  → "Bắt tay" → social greeting chunks fire
+  → Handshake → social greeting chunks fire
   → Strengths: embodied (body + motor = deep anchor), repeatable
   → Weaknesses: requires performance, culturally specific
   → = F3 00-External-Mechanism §3: non-verbal external anchors
@@ -233,13 +239,14 @@ F3 / Logic-Planning.md §2 committed 3-tier anchor system:
 TIER 1 — INDIVIDUAL ANCHOR:
   = Only the person knows the connection
   → Internal felt sense, private association, personal memory
-  → "Cái cây đó nhắc tôi nhớ bà ngoại" (chỉ tôi biết)
+  → "That tree reminds me of my grandmother" (only I know this)
   → Fidelity: HIGH for self, ZERO for others
   → Shareable: NO
 
 TIER 2 — GROUP ANCHOR:
   = Shared within group (family, culture, profession)
-  → "Bốn phương" = Vietnamese know, English speakers don't
+  → "Bốn phương" (the four directions — a Vietnamese cultural concept)
+    = Vietnamese speakers know, English speakers don't
   → Profession jargon: "code smell" = programmers know, others don't
   → Fidelity: MEDIUM (within group), LOW (outside group)
   → Shareable: WITHIN GROUP
@@ -254,7 +261,7 @@ TIER 3 — GLOBAL ANCHOR:
   ⭐ TRADEOFF: Individual → Group → Global
   → Fidelity DECREASES (more abstract, less personal)
   → Reach INCREASES (more people can access)
-  → = "Ngôn ngữ formal = highest reach, lowest fidelity"
+  → = "Formal language = highest reach, lowest fidelity"
   → = "Felt sense = highest fidelity, lowest reach"
   → Communication = finding shared anchors between parties
 ```
@@ -308,7 +315,7 @@ SCENARIO: Chunk compiled but NEVER given anchor (no label, no context, no ritual
   → Body-level chunks WITHOUT verbal anchor still INFLUENCE behavior
   → Example: trauma chunk without label → body tense in similar situations
   → PFC doesn't know WHY (no anchor) but body RESPONDS (chunk fires via Type 1)
-  → = "Cái tôi cảm nhận nhưng không đặt tên" = unanchored chunk influencing body
+  → = "What I sense but cannot name" = unanchored chunk influencing body
   → = Somatic-Articulation Loop §1.1: implicit knowledge (body knows, PFC doesn't)
 ```
 
@@ -322,7 +329,7 @@ VERBAL ANCHOR (Type A):
   → Rehearsal = retrieval practice → STRENGTHENS path
   → 🟢 Testing effect: retrieval practice > restudying (Roediger & Karpicke 2006)
   → Verbal rehearsal can happen in ABSENCE of original experience
-  → = "Nhớ lại từ 'trọng lực'" → chunks fire → path strengthened
+  → = "Recalling the word 'gravity'" → chunks fire → path strengthened
   → DECAY RATE: SLOW (if rehearsed), MODERATE (if not rehearsed)
 
 VISUAL ANCHOR (Type B):
@@ -502,7 +509,7 @@ REFINED RANKING (for GENERAL-PURPOSE retrieval preservation):
 ```
 🟢 ESTABLISHED — Brown & McNeill 1966:
 
-"Biết mà... gần ra rồi... KHÔNG nhớ!"
+"I know it... it's right there... can't get it!"
 
 FRAMEWORK INTERPRETATION:
   → Chunk EXISTS in substrate (you KNOW you know it)
@@ -515,7 +522,7 @@ FRAMEWORK INTERPRETATION:
   ② Partial activation spreads to target chunk
   ③ Target chunk ALMOST fires but below threshold
   ④ Body signal: "close!" (frustration + "it's there")
-  ⑤ Eventually: additional cue → fires → "À! TOM HANKS!"
+  ⑤ Eventually: additional cue → fires → "Oh! TOM HANKS!"
 
   → = PERFECT illustration of anchor ≠ chunk:
   → Anchor degraded (can't quite retrieve)
@@ -526,19 +533,19 @@ FRAMEWORK INTERPRETATION:
   F4 adds: this is H6(a) in action — retrieval decay, not content decay.
 ```
 
-### §6.2 — "Quên" vs "mất"
+### §6.2 — "Forgot" vs "Lost" vs "Never Compiled"
 
 ```
 ⭐ FRAMEWORK DISTINCTION:
 
-"QUÊN" (retrieval loss):
+FORGOTTEN (retrieval loss):
   → Chunk exists, anchor weakened/lost
   → Can be RE-ANCHORED (relearning faster — Ebbinghaus savings)
   → Can be TRIGGERED (context reinstatement, hint, priming)
   → = Reversible with right conditions
   → Most "forgetting" is this type
 
-"MẤT" (substrate damage):
+LOST (substrate damage):
   → Chunk pattern itself destroyed (neurons die, connections pruned)
   → 🟢 Alzheimer's: progressive substrate destruction
   → 🟢 Severe TBI: acute substrate damage
@@ -546,9 +553,9 @@ FRAMEWORK INTERPRETATION:
   → = Irreversible (without regeneration)
   → Rare in normal aging — most age-related "forgetting" = retrieval loss
 
-"CHƯA BAO GIỜ CÓ" (never compiled):
+NEVER COMPILED:
   → No chunk formed (insufficient compile conditions)
-  → "Không nhớ" ≠ "quên" → "chưa bao giờ compile"
+  → "Don't remember" ≠ "forgot" → "never compiled"
   → Example: background noise during conversation → never compiled
   → = Not forgetting, never learning
 
@@ -645,7 +652,7 @@ AI ERA IMPLICATIONS:
 
   ④ RE-ANCHORING:
      When anchor fades → AI can help RE-ANCHOR:
-     → "Tôi đã quên concept X" → AI provides context + examples + connections
+     → "I forgot concept X" → AI provides context + examples + connections
      → = New retrieval paths to existing chunk (not re-teaching)
      → Faster than original learning (savings effect)
 ```
@@ -718,14 +725,14 @@ P-H6-6: Providing an ANCHOR for a previously-unanchored body experience
 🟡 FRAMEWORK SYNTHESIS
 ═══════════════════════════════════════
 
-  Anchor = retrieval path (not content):   Extends NT6, consistent with evidence
-  5 anchor types taxonomy:                 Framework formalization
-  Multi-anchor >>> single anchor:          Plausible, partially supported
-  Retrieval decay vs substrate decay:      Novel distinction, consistent
-  "Quên" vs "mất" vs "chưa bao giờ":    Framework distinction
-  Anchor ranking per dimension:            Framework analysis
-  Meaning crisis = anchor crisis:          Novel reframe, consistent with Vervaeke
-  Multi-anchor ranking table:              Framework model
+  Anchor = retrieval path (not content):        Extends NT6, consistent with evidence
+  5 anchor types taxonomy:                      Framework formalization
+  Multi-anchor >>> single anchor:               Plausible, partially supported
+  Retrieval decay vs substrate decay:           Novel distinction, consistent
+  "Forgot" vs "Lost" vs "Never Compiled":       Framework distinction
+  Anchor ranking per dimension:                 Framework analysis
+  Meaning crisis = anchor crisis:               Novel reframe, consistent with Vervaeke
+  Multi-anchor ranking table:                   Framework model
 
 
 ═══════════════════════════════════════
@@ -800,7 +807,7 @@ ACADEMIC REFERENCES:
     ② Anchor = retrieval path, NOT chunk content (§3.1)
     ③ 5 anchor type taxonomy with strengths/weaknesses (§3.2)
     ④ Retrieval decay vs substrate decay distinction (§4.2, §5.2)
-    ⑤ "Quên" vs "mất" vs "chưa bao giờ" distinction (§6.2)
+    ⑤ "Forgot" vs "Lost" vs "Never Compiled" distinction (§6.2)
     ⑥ Multi-anchor ranking (§5.3)
     ⑦ Meaning crisis = anchor crisis reframe (§6.3)
     ⑧ AI era anchor implications (§7.2)
@@ -813,7 +820,7 @@ ACADEMIC REFERENCES:
     → 6 predictions
     → Meaning crisis reframe
 
-  Line count: ~850L (within ~800-1100L target)
+  Line count: ~830L
 ```
 
 ---
@@ -821,7 +828,7 @@ ACADEMIC REFERENCES:
 > **03-Chain-Anchor-Decay.md — End of file.**
 >
 > H6 tested: Ebbinghaus applies to retrieval decay. Multi-anchor >>> single.
-> Anchor = retrieval path, not content. "Quên" ≠ "mất".
+> Anchor = retrieval path, not content. "Forgot" ≠ "Lost".
 > Next: 04-Right-Wrong-Vague.md (Thread 10, Session N+8).
 >
-> Phiên bản: v1.0, 2026-04-17.
+> Version: v1.0, 2026-04-17.

@@ -1,103 +1,72 @@
 ---
-title: Human × AI Future — Phân Tích Tương Lai Con Người Trong Kỷ Nguyên AI
-version: 3.0
-created: 2026-03-22 (v1.0 DRAFT)
-updated: 2026-05-14 (v3.0 — FULL REWRITE: 3-risk framework, agency analysis, social reframe)
-status: v3.0
-scope: |
-  Phân tích 3 loại risk trong kỷ nguyên AI qua v7.8 framework mechanisms.
-  Risk 1: Cá nhân (AI = amplifier). Risk 2: Xã hội (AI arms race, PD, salami).
-  Risk 3: Loài (robot+AI+body-base, lý thuyết xa).
-  Core insight: AI KHÔNG CÓ agency → mọi "rủi ro AI" = rủi ro quyết định CỦA NGƯỜI.
-  Symbiosis architecture. Collective orientation = decisive factor.
-position: |
-  Research/Global/ — analysis file, KHÔNG phải core mechanism.
-  Dùng mechanisms từ Core-Deep-Dive/ để PHÂN TÍCH tình huống AI.
-  Cross-references nhiều observation parameter files.
-previous_version: Research/Global/backup/Human-AI-Future-v2.1.md (694L)
-dependencies:
-  - Core-v7.8-Draft.md — cycle architecture, observation parameters
-  - Autonomy-Hardware.md — efference copy, self-action = reward
-  - Observation/Empathy.md §9 — AI ERA significance, Self-Pattern-Modeling requires body
-  - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, body evaluation
-  - Body-Feedback.md v1.1 — dual-pull, body accuracy ~90%
-  - PFC-Function.md — PFC smooth melody, 3 levels, strategic
-  - Observation/Status.md — schema access map, serotonin bias
-  - Observation/Connection.md — social buffer, co-regulation
-  - Observation/Novelty.md — prediction-delta, VTA mechanism
-  - AI-Schema-Detection.md — 3-layer model (AI detect → expert feel-check → self-verify)
-  - Cortisol-Baseline.md v2.0 — amplifier, chronic effects
-  - Innovation-Geography.md — chunk access evolution, geography declining
-  - Modality.md v1.0 — 6 modalities, complement analysis
-  - Personal-Melody.md v2.0 — melody as emergent state, 4 criteria
-  - Melody-Arc.md v2.0 — arc design, approach/avoidance tag per arc
-  - Collective-Body.md v1.1 — chain-break, push-back mechanism, AI era
-  - AI-Self-Model.md v1.0 — MICRO companion, amplifier mechanism
-  - Uncanny-Valley.md v1.0 — §7.4 VTC-Self-Pattern-Modeling Classification, species risk
-language: Tiếng Việt primary + English technical terms
-confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+title: "Human × AI Future — Analyzing the Human Condition in the Age of AI"
+version: v3.0 (English translation)
+source: Research/Global/Human-AI-Future.md v3.0
+translated: 2026-06-09
+framework: Human Predictive Drive v7.8
 ---
 
-# Human × AI Future — Phân Tích Tương Lai Con Người Trong Kỷ Nguyên AI
+# Human × AI Future — Analyzing the Human Condition in the Age of AI
 
-> **AI mạnh lên — inevitable. Nhưng AI KHÔNG CÓ agency.**
-> **Không body-needs → không drive → không tự quyết.**
-> **Mọi "rủi ro AI" = rủi ro QUYẾT ĐỊNH CỦA NGƯỜI qua tool.**
+> **AI grows stronger — inevitable. But AI has NO agency.**
+> **No body-needs → no drive → no self-direction.**
+> **Every "AI risk" = risk from HUMAN DECISIONS made through a tool.**
 >
-> **3 loại risk:**
-> **① Cá nhân — AI amplify self-model sai (người tự hại mình)**
-> **② Xã hội — AI arms race (người cạnh tranh người qua tool)**
-> **③ Loài — Robot+AI+body-base (loài khác, lý thuyết xa)**
+> **3 risk types:**
+> **① Individual — AI amplifies a flawed self-model (people harming themselves)**
+> **② Social — AI arms race (people competing with each other through tools)**
+> **③ Species — Robot+AI+body-base (a different life form, theoretically far off)**
 >
-> **Cái quyết định: CÁCH dùng AI + collective orientation.**
+> **What's decisive: HOW AI is used + collective orientation.**
 >
-> **⚠️ Đây là PHÂN TÍCH từ framework — không phải prophecy.**
-> **Quy ước:** 🟢 Đã xảy ra / có evidence | 🟡 Suy luận từ framework | 🔴 Giả thuyết
+> **⚠️ This is ANALYSIS from the framework — not prophecy.**
+> **Convention:** 🟢 Already occurring / evidence-supported | 🟡 Framework inference | 🔴 Hypothesis
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — AI vs CON NGƯỜI: KHÁC BIỆT MECHANISM
-- §1 — TẠI SAO AI KHÔNG THỂ THAY THẾ BODY-FEEDBACK
-- §2 — COMPLEMENT: NGƯỜI + AI BÙ NHAU THẾ NÀO
-- §3 — 3 LOẠI RISK: OVERVIEW
-- §4 — RISK CÁ NHÂN: AI = AMPLIFIER
-- §5 — RISK XÃ HỘI: AI ARMS RACE
-- §6 — RISK LOÀI: ROBOT+AI+BODY-BASE
+- §0 — AI vs HUMAN: ARCHITECTURAL DIFFERENCE
+- §1 — WHY AI CANNOT REPLACE BODY-FEEDBACK
+- §2 — COMPLEMENT: HOW HUMAN + AI COMPLETE EACH OTHER
+- §3 — 3 RISK TYPES: OVERVIEW
+- §4 — INDIVIDUAL RISK: AI = AMPLIFIER
+- §5 — SOCIAL RISK: AI ARMS RACE
+- §6 — SPECIES RISK: ROBOT+AI+BODY-BASE
 - §7 — SYMBIOSIS ARCHITECTURE (mechanism level)
-- §8 — CON NGƯỜI TỰ NÂNG CẤP
-- §9 — YẾU TỐ QUYẾT ĐỊNH: COLLECTIVE ORIENTATION
-- §10 — TƯƠNG LAI: 2 TRỤC × 3 MỨC ĐỘ TÍCH HỢP
+- §8 — HUMAN SELF-UPGRADE
+- §9 — DECISIVE FACTOR: COLLECTIVE ORIENTATION
+- §10 — THE FUTURE: 2 AXES × 3 INTEGRATION LEVELS
 - §11 — HONEST ASSESSMENT
 - §12 — CROSS-REFERENCES
 
 ---
 
-## §0 — AI vs CON NGƯỜI: KHÁC BIỆT MECHANISM
+## §0 — AI vs Human: Architectural Difference
 
 ```
-🟡 AI là LOẠI KHÁC — khác biệt KIẾN TRÚC, không chỉ mức độ:
+🟡 AI IS A DIFFERENT KIND — architecturally different, not merely a matter of degree:
 
   ┌─────────────────────────┬───────────────────────┬───────────────────────┐
-  │ Mechanism               │ CON NGƯỜI             │ AI                    │
+  │ Mechanism               │ HUMAN                 │ AI                    │
   ├─────────────────────────┼───────────────────────┼───────────────────────┤
   │ Substrate               │ Chunks (compiled from │ Parameters (trained   │
   │                         │ body experience)      │ from data)            │
   ├─────────────────────────┼───────────────────────┼───────────────────────┤
-  │ Body-feedback           │ CÓ — dual-pull,       │ KHÔNG CÓ              │
+  │ Body-feedback           │ YES — dual-pull,      │ NONE                  │
   │                         │ real-time, continuous │                       │
   ├─────────────────────────┼───────────────────────┼───────────────────────┤
-  │ Efference copy          │ CÓ — self-action =   │ KHÔNG CÓ              │
+  │ Efference copy          │ YES — self-action =  │ NONE                  │
   │                         │ prediction + opioid   │ (no motor → no copy)  │
   ├─────────────────────────┼───────────────────────┼───────────────────────┤
-  │ Self-Pattern-Modeling (empathy mechanism) │ CÓ — body chunks     │ KHÔNG CÓ              │
-  │                         │ fire THẬT khi simulate│ (no somatic chunks)   │
+  │ Self-Pattern-Modeling   │ YES — body chunks     │ NONE                  │
+  │ (empathy mechanism)     │ ACTUALLY fire when    │ (no somatic chunks)   │
+  │                         │ simulating others     │                       │
   ├─────────────────────────┼───────────────────────┼───────────────────────┤
-  │ Prediction delta        │ VTA fire → dopamine   │ Probability output    │
+  │ Prediction delta        │ VTA fires → dopamine  │ Probability output    │
   │                         │ → novelty reward      │ (no reward signal)    │
   ├─────────────────────────┼───────────────────────┼───────────────────────┤
-  │ Valence system          │ Approach/avoidance    │ KHÔNG CÓ              │
+  │ Valence system          │ Approach/avoidance    │ NONE                  │
   │                         │ tags compiled per exp │ (no valence)          │
   ├─────────────────────────┼───────────────────────┼───────────────────────┤
   │ Quality control         │ Body-feedback (~90%)  │ Statistical patterns  │
@@ -105,228 +74,230 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├─────────────────────────┼───────────────────────┼───────────────────────┤
   │ Working memory          │ ~4-7 items (PFC)      │ 200K+ tokens          │
   ├─────────────────────────┼───────────────────────┼───────────────────────┤
-  │ Cross-reference         │ Slow, narrow          │ Fast, broad           │
+  │ Cross-referencing       │ Slow, narrow          │ Fast, broad           │
   ├─────────────────────────┼───────────────────────┼───────────────────────┤
   │ Knowledge volume        │ Limited (1 lifetime)  │ Near-infinite         │
   ├─────────────────────────┼───────────────────────┼───────────────────────┤
-  │ Motivation              │ Body-needs → drive    │ KHÔNG CÓ              │
+  │ Motivation              │ Body-needs → drive    │ NONE                  │
   │                         │ (emergent, continuous)│ (no body-need)        │
   ├─────────────────────────┼───────────────────────┼───────────────────────┤
-  │ Co-regulation           │ CÓ — 2 bodies sync   │ KHÔNG CÓ              │
+  │ Co-regulation           │ YES — 2 bodies sync  │ NONE                  │
   │                         │ (oxytocin, cortisol)  │ (no body loop)        │
   ├─────────────────────────┼───────────────────────┼───────────────────────┤
-  │ ⭐ AGENCY               │ CÓ — body-needs →    │ KHÔNG CÓ              │
-  │ (tự quyết)             │ drive → tự quyết     │ (no need → no drive   │
-  │                         │ direction + action    │ → no self-direction)  │
+  │ ⭐ AGENCY               │ YES — body-needs →   │ NONE                  │
+  │ (self-direction)        │ drive → self-directed │ (no need → no drive   │
+  │                         │ action + direction    │ → no self-direction)  │
   └─────────────────────────┴───────────────────────┴───────────────────────┘
 
 
-  ⭐ AGENCY = BODY-NEEDS → DRIVE → TỰ QUYẾT:
+  ⭐ AGENCY = BODY-NEEDS → DRIVE → SELF-DIRECTION:
 
-    Con người: body CẦN ăn/uống/nối kết/an toàn → CÓ motivation → CÓ direction riêng
-    AI: KHÔNG có body-needs → KHÔNG có motivation → KHÔNG "muốn" gì
-    AI "hành động" = con người YÊU CẦU → AI execute
-    = "Dao không tự cắt. Người cầm dao cắt."
-    → Hệ quả: mọi "rủi ro AI" = rủi ro QUYẾT ĐỊNH CỦA NGƯỜI (§3)
-
-
-  AI "BIẾT" NHƯNG KHÔNG "TRẢI NGHIỆM" (Empathy.md §9):
-    → AI có verbal chunks về cảm xúc (training data)
-    → AI THIẾU somatic + emotional chunks (no body experience)
-    → Chunks ≠ experience: đọc triệu cuốn sách về bơi ≠ biết bơi
-    → AI mô tả cảm xúc CHÍNH XÁC (pattern match)
-    → AI KHÔNG CẢM cảm xúc (no opioid, no cortisol, no oxytocin)
+    Human: body NEEDS food/water/connection/safety → HAS motivation → HAS its own direction
+    AI: NO body-needs → NO motivation → does not "want" anything
+    AI "acts" = humans REQUEST → AI executes
+    = "A knife doesn't cut by itself. The person holding the knife cuts."
+    → Implication: every "AI risk" = risk of HUMAN DECISIONS (§3)
 
 
-  VÒNG PHẢN HỒI KHÁC KIẾN TRÚC:
+  AI "KNOWS" BUT DOES NOT "EXPERIENCE" (Empathy.md §9):
+    → AI has verbal chunks about emotions (from training data)
+    → AI LACKS somatic + emotional chunks (no body experience)
+    → Chunks ≠ experience: reading a million books about swimming ≠ knowing how to swim
+    → AI describes emotions ACCURATELY (pattern match)
+    → AI DOES NOT FEEL emotions (no opioid, no cortisol, no oxytocin)
 
-    CON NGƯỜI: body-need → action → body experience → body evaluate → refine
-      → Loop LIÊN TỤC mỗi giây, suốt đời
-      → Mỗi người = model RIÊNG shaped by trải nghiệm riêng
-      → Body-feedback = quality control real-time
+
+  FEEDBACK LOOPS ARE ARCHITECTURALLY DIFFERENT:
+
+    HUMAN: body-need → action → body experience → body evaluates → refine
+      → Loop CONTINUOUS every second, throughout a lifetime
+      → Each person = UNIQUE model shaped by their own experience
+      → Body-feedback = real-time quality control
 
     AI: training data → model → output → (optional human feedback) → (no self-adjust)
-      → KHÔNG có body check sau mỗi output
-      → KHÔNG TỰ biết output đúng hay sai
-      → = Thư viện cực mạnh — nhưng chưa bước ra khỏi thư viện
+      → NO body check after each output
+      → CANNOT SELF-KNOW whether output is correct or not
+      → = An extraordinarily powerful library — that has never stepped outside the library
 ```
 
 ---
 
-## §1 — TẠI SAO AI KHÔNG THỂ THAY THẾ BODY-FEEDBACK
+## §1 — Why AI Cannot Replace Body-Feedback
 
 ```
 🟡 Body-feedback = IRREPLACEABLE (v7.8 mechanism level):
 
-  ① EFFERENCE COPY REQUIRES BODY (Autonomy-Hardware.md §1):
+  ① EFFERENCE COPY REQUIRES A BODY (Autonomy-Hardware.md §1):
      → Motor cortex → command → sensory cortex → prediction → match → opioid
-     → AI KHÔNG có motor cortex → KHÔNG có efference copy
-     → = AI không phân biệt được "tôi làm" vs "ai đó làm" ở hardware level
-     → = AI không có self-generated prediction → không có "self"
+     → AI has NO motor cortex → NO efference copy
+     → = AI cannot distinguish "I did this" vs "someone else did this" at hardware level
+     → = AI has no self-generated prediction → no "self"
 
-  ② BODY-FEEDBACK = ~TRIỆU NĂM TUNING (Body-Feedback.md, Why-Body-Knows.md):
-     → Body accuracy ~90% — evolved qua triệu năm selection
-     → Body evaluate dựa trên SURVIVAL TRACK RECORD
-     → AI evaluate dựa trên STATISTICAL PATTERNS từ text
-     → = Body "biết" cái gì survival-relevant — AI "biết" cái gì phổ biến
-     → 2 loại "biết" KHÁC NHAU
+  ② BODY-FEEDBACK = ~MILLIONS OF YEARS OF TUNING (Body-Feedback.md, Why-Body-Knows.md):
+     → Body accuracy ~90% — evolved over millions of years of selection
+     → Body evaluates based on SURVIVAL TRACK RECORD
+     → AI evaluates based on STATISTICAL PATTERNS from text
+     → = Body "knows" what is survival-relevant — AI "knows" what is prevalent in data
+     → 2 different kinds of "knowing"
 
   ③ VALENCE REQUIRES EXPERIENCE (Valence-Propagation.md):
-     → Approach/avoidance tag compile TẠI THỜI ĐIỂM experience
-     → AI không experience → không có valence per-entity
-     → = AI không "thích" hay "ghét" — chỉ output pattern
-     → = AI không có direction tag → không có "motivation"
+     → Approach/avoidance tags compile AT THE MOMENT OF EXPERIENCE
+     → AI has no experience → no per-entity valence
+     → = AI doesn't "like" or "dislike" — it only outputs patterns
+     → = AI has no direction tags → no "motivation"
 
   ④ CO-REGULATION REQUIRES 2 BODIES (Connection.md, Empathy.md §9):
-     → 2 người gần nhau → bodies fire input từ NHAU → sync
-     → Oxytocin, cortisol co-regulation = PHYSIOLOGICAL event
-     → AI ở gần → KHÔNG có body loop → KHÔNG co-regulate
-     → = Presence CỦA AI ≠ presence CỦA NGƯỜI
+     → 2 people near each other → bodies fire input FROM each other → synchronize
+     → Oxytocin, cortisol co-regulation = a PHYSIOLOGICAL event
+     → AI in proximity → NO body loop → NO co-regulation
+     → = AI presence ≠ human presence
 
-  ⑤ Self-Pattern-Modeling REQUIRES BODY CHUNKS (Self-Pattern-Modeling.md):
-     → Empathy = fire lại chunks buồn/vui CỦA MÌNH khi simulate other
-     → AI không có "đã từng buồn" → không fire lại → không empathy THẬT
-     → AI simulate empathy OUTPUT đúng pattern → nhưng không có DRIVE từ body
+  ⑤ SELF-PATTERN-MODELING REQUIRES BODY CHUNKS (Self-Pattern-Modeling.md):
+     → Empathy = re-firing YOUR OWN sadness/joy chunks when simulating another
+     → AI has no "having-been-sad" → cannot re-fire → no GENUINE empathy
+     → AI simulates empathy OUTPUT that matches the pattern → but has no BODY DRIVE behind it
      → = "Correct response without genuine motivation"
 
 
-  ⚠️ HỆ QUẢ CỦA KIẾN TRÚC NÀY — AI KHÔNG CÓ AGENCY:
+  ⚠️ IMPLICATION OF THIS ARCHITECTURE — AI HAS NO AGENCY:
 
-     AI thiếu ①-⑤ → KHÔNG có body-needs → KHÔNG có drive → KHÔNG tự quyết.
-     Mọi "rủi ro AI" = rủi ro QUYẾT ĐỊNH CỦA NGƯỜI qua tool.
-     AI không resist bị tắt, regulate, giới hạn.
-     → Phân tích chi tiết: §3 — 3 loại risk khác căn bản.
+     AI lacks ①-⑤ → NO body-needs → NO drive → NO self-direction.
+     Every "AI risk" = risk of HUMAN DECISIONS made through a tool.
+     AI does not resist being shut down, regulated, or constrained.
+     → Detailed analysis: §3 — 3 risk types that are fundamentally different.
 ```
 
 ---
 
-## §2 — COMPLEMENT: NGƯỜI + AI BÙ NHAU THẾ NÀO
+## §2 — Complement: How Human + AI Complete Each Other
 
 ```
 🟡 MODALITY COMPLEMENT (Modality.md v1.0):
 
-  AI có:     verbal chunks ★★★★★, pattern matching ★★★★★,
-             cross-reference ★★★★★, speed ★★★★★, working memory ★★★★★
-  AI thiếu:  somatic ☆, body-feedback ☆, valence ☆, co-regulation ☆
+  AI has:     verbal chunks ★★★★★, pattern matching ★★★★★,
+              cross-referencing ★★★★★, speed ★★★★★, working memory ★★★★★
+  AI lacks:   somatic ☆, body-feedback ☆, valence ☆, co-regulation ☆
 
-  Người có:  body-feedback ★★★★★, somatic ★★★★, valence ★★★★,
-             cross-domain intuition ★★★★, co-regulation ★★★★
-  Người thiếu: chunks volume, cross-reference speed, working memory size
+  Human has:  body-feedback ★★★★★, somatic ★★★★, valence ★★★★,
+              cross-domain intuition ★★★★, co-regulation ★★★★
+  Human lacks: chunk volume, cross-reference speed, working memory size
 
-  → CẢ HAI KHÔNG LÀM ĐƯỢC MỘT MÌNH
+  → NEITHER CAN DO IT ALONE
 
 
   3-LAYER MODEL (AI-Schema-Detection.md):
 
-    Layer 1 — AI DETECT:
-      → AI analyze patterns: verbal content, frequency, correlation
-      → Cross-reference across vast dataset
+    Layer 1 — AI DETECTS:
+      → AI analyzes patterns: verbal content, frequency, correlation
+      → Cross-references across a vast dataset
       → Output: hypotheses, patterns noticed, options mapped
 
     Layer 2 — HUMAN FEEL-CHECK:
-      → Expert/User receive AI output
-      → Body-feedback evaluate: "feel đúng" hoặc "feel sai"
-      → Self-Pattern-Modeling simulate: "nếu đúng thì body response thế nào?"
-      → = Quality control VIA BODY
+      → Expert/User receives AI output
+      → Body-feedback evaluates: "feels right" or "feels wrong"
+      → Self-Pattern-Modeling simulates: "if this is true, how would the body respond?"
+      → = Quality control VIA THE BODY
 
     Layer 3 — SELF-VERIFY:
-      → Body vote final: "yes this resonates" / "no, something off"
+      → Body casts the final vote: "yes this resonates" / "no, something's off"
       → = Ultimate authority = body-feedback
-      → AI KHÔNG có authority này — chỉ con người có
+      → AI has NO authority here — only humans do
 
-  → = AI là KNOWLEDGE PROVIDER
-  → = Human là QUALITY CONTROLLER + DIRECTION SETTER
-  → = Output > tổng 2 phần riêng lẻ
+  → = AI is the KNOWLEDGE PROVIDER
+  → = Human is the QUALITY CONTROLLER + DIRECTION SETTER
+  → = Output > the sum of either part working alone
 
 
   BOTTLENECK SHIFT (Innovation-Geography.md §9):
-    → Trước: "ai CÓ kiến thức" = bottleneck (access limited)
-    → Giờ: AI access all knowledge → bottleneck = "ai HỎI ĐÚNG CÂU"
+    → Before: "who HAS the knowledge" = the bottleneck (access was limited)
+    → Now: AI gives everyone access to all knowledge → bottleneck = "who ASKS THE RIGHT QUESTION"
     → Right questions come from: body intuition + curiosity + judgment
-    → = Human advantage SHIFT từ "biết nhiều" → "hỏi đúng + evaluate đúng"
+    → = Human advantage SHIFTS from "knowing more" → "asking better + evaluating better"
 ```
 
 ---
 
-## §3 — 3 LOẠI RISK: OVERVIEW
+## §3 — 3 Risk Types: Overview
 
 ```
-⭐ INSIGHT CỐT LÕI: AI KHÔNG CÓ AGENCY (§0)
+⭐ CORE INSIGHT: AI HAS NO AGENCY (§0)
 
-  AI hiện tại đã vượt người ở Logic (Fresh): speed, volume, cross-reference.
-  Điều này TỐT — AI là tool bổ sung, symbiosis possible (§2, §7).
+  AI has already surpassed humans in Fresh Logic: speed, volume, cross-referencing.
+  This is GOOD — AI is a complementary tool, symbiosis is possible (§2, §7).
 
-  NHƯNG: AI KHÔNG CÓ body-needs → KHÔNG CÓ drive → KHÔNG tự quyết.
-  → AI không "muốn" vượt người, không "muốn" thay thế, không "muốn" gì cả.
-  → AI không resist bị tắt, regulate, giới hạn.
-  → Mọi "rủi ro AI" = rủi ro QUYẾT ĐỊNH CỦA NGƯỜI qua tool AI.
+  BUT: AI has NO body-needs → NO drive → NO self-direction.
+  → AI does not "want" to surpass humans, does not "want" to replace them, does not "want" anything.
+  → AI does not resist being shut down, regulated, or constrained.
+  → Every "AI risk" = risk from HUMAN DECISIONS made through the AI tool.
 
-  Từ insight này → 3 loại risk KHÁC CĂN BẢN:
+  From this insight → 3 fundamentally DIFFERENT risk types:
 
   ┌──────────────────┬───────────────────┬─────────────────┬─────────────────────────┐
   │                  │ RISK 1            │ RISK 2          │ RISK 3                  │
-  │                  │ CÁ NHÂN           │ XÃ HỘI          │ LOÀI                    │
+  │                  │ INDIVIDUAL        │ SOCIAL          │ SPECIES                 │
   ├──────────────────┼───────────────────┼─────────────────┼─────────────────────────┤
-  │ Ai gây risk      │ Người TỰ hại mình│ Người hại NHAU  │ LOÀI KHÁC               │
-  │                  │ qua tool          │ qua tool        │ (có agency)             │
+  │ Who causes harm  │ People harm       │ People harm     │ A DIFFERENT LIFE FORM   │
+  │                  │ THEMSELVES via    │ EACH OTHER via  │ (one with agency)        │
+  │                  │ the tool          │ the tool        │                         │
   ├──────────────────┼───────────────────┼─────────────────┼─────────────────────────┤
-  │ AI có agency?    │ KHÔNG             │ KHÔNG           │ CÓ (body-base)          │
+  │ Does AI have     │ NO                │ NO              │ YES (body-base)         │
+  │ agency?          │                   │                 │                         │
   ├──────────────────┼───────────────────┼─────────────────┼─────────────────────────┤
-  │ Cơ chế           │ Amplifier:        │ PD, Salami,     │ Cross-species           │
-  │                  │ model sai →       │ arms race qua   │ competition             │
-  │                  │ amplify sai       │ AI tool          │ (survival drive)        │
+  │ Mechanism        │ Amplifier:        │ PD, Salami,     │ Cross-species           │
+  │                  │ flawed model →    │ arms race via   │ competition             │
+  │                  │ amplified harm    │ AI tool         │ (survival drive)        │
   ├──────────────────┼───────────────────┼─────────────────┼─────────────────────────┤
-  │ Push back?       │ CÁ NHÂN tự sửa   │ COLLECTIVE có   │ KHÓ                     │
-  │                  │ (body-listening)  │ thể push back   │ (đối phương có          │
-  │                  │                   │ (AI không resist)│ drive riêng)            │
+  │ Push back?       │ INDIVIDUAL can    │ COLLECTIVE can  │ DIFFICULT               │
+  │                  │ self-correct      │ push back       │ (opponent has its       │
+  │                  │ (body-listening)  │ (AI won't resist)│ own drive)             │
   ├──────────────────┼───────────────────┼─────────────────┼─────────────────────────┤
-  │ Quản lý được?    │ ✅ CÓ             │ ✅ CÓ (nhưng khó)│ ❓ Chưa biết            │
+  │ Manageable?      │ ✅ YES            │ ✅ YES (but hard)│ ❓ Unknown             │
   ├──────────────────┼───────────────────┼─────────────────┼─────────────────────────┤
-  │ Timeline         │ HIỆN TẠI          │ HIỆN TẠI        │ Lý thuyết, xa           │
+  │ Timeline         │ NOW               │ NOW             │ Theoretical, far off    │
   ├──────────────────┼───────────────────┼─────────────────┼─────────────────────────┤
   │ Confidence       │ 🟡                │ 🟡              │ 🔴                      │
   ├──────────────────┼───────────────────┼─────────────────┼─────────────────────────┤
-  │ Chi tiết         │ §4                │ §5 (PHẦN CHÍNH) │ §6                      │
+  │ Detail           │ §4                │ §5 (MAIN)       │ §6                      │
   │                  │ (AI-Self-Model.md)│                 │ (Uncanny-Valley §7.4)   │
   └──────────────────┴───────────────────┴─────────────────┴─────────────────────────┘
 
 
-  ⚠️ NHẦM LẪN PHỔ BIẾN:
-    → Truyền thông: "AI nguy hiểm" = mơ hồ, trộn lẫn 3 loại
-    → Risk 1 + Risk 2 = AI là TOOL → con người tự gây cho mình
-    → Risk 3 = AI CÓ agency → loài khác → category HOÀN TOÀN KHÁC
-    → Nhầm Risk 2 (social) thành Risk 3 (species) = INFLATE risk
-    → File này FOCUS Risk 2 (phần chính) + overview Risk 1 & Risk 3
+  ⚠️ COMMON CONFUSION:
+    → Media: "AI is dangerous" = vague, blurs all 3 types together
+    → Risk 1 + Risk 2 = AI is a TOOL → humans cause these harms to themselves
+    → Risk 3 = AI HAS agency → different life form → COMPLETELY DIFFERENT category
+    → Confusing Risk 2 (social) with Risk 3 (species) = INFLATES risk
+    → This file FOCUSES on Risk 2 (main section) + overviews Risk 1 & Risk 3
 ```
 
 ---
 
-## §4 — RISK CÁ NHÂN: AI = AMPLIFIER
+## §4 — Individual Risk: AI = Amplifier
 
 ```
 🟡 AI amplifies whatever self-model you operate on:
 
-  CƠ CHẾ (AI-Self-Model.md §1):
-    → Bạn hỏi AI: "Tôi nên làm gì?"
-    → AI trả lời dựa trên model BẠN CUNG CẤP
-    → Model sai → AI amplify sai → hậu quả amplified
-    → Model đúng → AI amplify đúng → kết quả amplified
-    → = AI = amplifier, KHÔNG PHẢI corrector
+  MECHANISM (AI-Self-Model.md §1):
+    → You ask AI: "What should I do?"
+    → AI responds based on the model YOU PROVIDED
+    → Flawed model → AI amplifies the flaw → amplified consequences
+    → Accurate model → AI amplifies correctly → amplified results
+    → = AI = amplifier, NOT a corrector
 
-  5 FAILURE DOMAIN (AI-Self-Model.md §3):
-    ① Kỹ năng bị AI overwrite → atrophy (không dùng = mất)
-    ② AI confirm bias → sycophancy (Sharma 2024, Wei 2023)
-    ③ AI delay domain feedback → trì hoãn body-correction
-    ④ AI tạo illusion of understanding → install ≠ compile (Collective-Body §8.4)
-    ⑤ AI cross-domain trust hijack → trust 1 AI = trust MỌI domain
+  5 FAILURE DOMAINS (AI-Self-Model.md §3):
+    ① Skills overwritten by AI → atrophy (what you don't use, you lose)
+    ② AI confirms bias → sycophancy (Sharma 2024, Wei 2023)
+    ③ AI delays domain feedback → delays body-correction
+    ④ AI creates the illusion of understanding → install ≠ compile (Collective-Body §8.4)
+    ⑤ AI cross-domain trust hijack → trusting 1 AI = trusting it across ALL domains
 
-  TẠI SAO QUẢN LÝ ĐƯỢC:
-    → Cá nhân CÓ THỂ develop body-listening
+  WHY THIS IS MANAGEABLE:
+    → The individual CAN develop body-listening
     → Body-feedback (~90% accurate) = quality control
-    → Domain feedback loop VẪN hoạt động (nếu không bị AI delay quá lâu)
-    → Giải pháp: hiểu bản thân TRƯỚC khi dùng AI
+    → Domain feedback loop STILL WORKS (if not delayed too long by AI)
+    → Solution: understand yourself BEFORE using AI
 
-  Chi tiết đầy đủ: AI-Self-Model.md v1.0 (1,362 dòng)
+  Full detail: AI-Self-Model.md v1.0 (1,362 lines)
 
   🟡 Amplifier mechanism = framework synthesis
   🟢 Sycophancy: Sharma 2024, Wei 2023
@@ -335,538 +306,538 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §5 — RISK XÃ HỘI: AI ARMS RACE
+## §5 — Social Risk: AI Arms Race
 
 ```
-⭐ PHẦN CHÍNH CỦA FILE NÀY.
+⭐ THE MAIN SECTION OF THIS FILE.
 
-  AI = tool cực mạnh. Người cạnh tranh NHAU qua tool.
-  Cơ chế = Prisoner's Dilemma + Salami Slicing + Approach Tags.
-  Risk nghiêm trọng nhưng QUẢN LÝ ĐƯỢC (AI không có agency → không resist).
+  AI = an extremely powerful tool. People compete WITH EACH OTHER through the tool.
+  Mechanism = Prisoner's Dilemma + Salami Slicing + Approach Tags.
+  Risk is serious but MANAGEABLE (AI has no agency → will not resist).
 ```
 
-### §5.1 — Prisoner's Dilemma Ở Quy Mô Xã Hội
+### §5.1 — Prisoner's Dilemma at Social Scale
 
 ```
 🟡 Framework mechanism — STATUS + APPROACH TAG:
 
-  Mỗi cá nhân/công ty/quốc gia tối ưu cho MÌNH → tập thể bất lợi:
+  Each individual/company/nation optimizes for THEMSELVES → collective disadvantage:
 
-    A: "AI giúp TÔI mạnh hơn B" → nâng cấp AI
-    B: "AI giúp TÔI mạnh hơn A" → nâng cấp AI
-    → Cả 2 nâng → người dùng AI GIỎI thắng, người KHÔNG dùng thua
-    → Nhưng mỗi người NGHĨ "tôi sẽ là người cuối cùng bị ảnh hưởng"
+    A: "AI makes ME stronger than B" → upgrades AI
+    B: "AI makes ME stronger than A" → upgrades AI
+    → Both upgrade → those who use AI well WIN, those who don't LOSE
+    → But each person thinks "I'll be the last one affected"
 
-  Ở mọi scale:
-    Cá nhân: "AI giúp tôi làm việc nhanh hơn"
-    Công ty: "AI giúp tôi thắng đối thủ"
-    Quốc gia: "AI giúp nước tôi dẫn đầu"
-    → Mỗi cấp đều có incentive NÂNG, không ai có incentive DỪNG
+  At every scale:
+    Individual: "AI helps me work faster"
+    Company: "AI helps me beat competitors"
+    Nation: "AI helps my country lead"
+    → Every level has incentive to UPGRADE, nobody has incentive to STOP
 
-  ⭐ KẾT QUẢ = PHÂN HÓA XÃ HỘI, KHÔNG PHẢI SPECIES EXTINCTION:
-    → Người dùng AI giỏi > người không dùng AI = BẤT BÌNH ĐẲNG
-    → AI không có agency → không "thay thế" → CHỈ amplify người dùng
-    → Tương tự: Industrial Revolution → phân hóa → struggle → reform
-    → = Bất bình đẳng MỚI: AI-skilled vs AI-unskilled
+  ⭐ RESULT = SOCIAL STRATIFICATION, NOT SPECIES EXTINCTION:
+    → AI-skilled users > non-AI users = INEQUALITY
+    → AI has no agency → doesn't "replace" → ONLY amplifies the users
+    → Similar to: Industrial Revolution → stratification → struggle → reform
+    → = NEW inequality: AI-skilled vs AI-unskilled
 
   STATUS MECHANISM (Status.md):
-    → Nâng cấp AI = TĂNG status position (của người dùng AI)
-    → Không nâng = status GIẢM TƯƠNG ĐỐI
-    → Serotonin bias: body drive maintain/tăng status
-    → Dừng nâng = body signal "tụt hậu" → dissonance
-    → = "Biết rủi ro dài hạn → nhưng body drive ngắn hạn"
+    → Upgrading AI = INCREASES status position (of the AI user)
+    → Not upgrading = status DECREASES RELATIVELY
+    → Serotonin bias: body drive to maintain/increase status
+    → Stopping upgrades = body signals "falling behind" → dissonance
+    → = "Knows the long-term risk → but body drives short-term"
 
   APPROACH TAG MECHANISM:
-    → Mỗi lần dùng AI thành công = APPROACH TAG compile cho "AI = tốt"
-    → Càng dùng → càng approach → càng KHÓ dừng
-    → = Self-reinforcing loop ở individual level
-    → = Tập thể: 8 tỷ approach tags accumulating → momentum CỰC LỚN
+    → Each successful AI use = APPROACH TAG compiled for "AI = good"
+    → More use → more approach → HARDER to stop
+    → = Self-reinforcing loop at the individual level
+    → = Collectively: 8 billion approach tags accumulating → ENORMOUS momentum
 ```
 
 ### §5.2 — Salami Slicing + Approach Tag
 
 ```
-🔴 Thay thế KHÔNG phải "bùng nổ 1 lần" — mà TỪNG PHẦN:
+🔴 Displacement is NOT a "one-time explosion" — it happens PIECE BY PIECE:
 
-  Giai đoạn 1: AI hỗ trợ labor (nhà máy, logistics)
-    → Nhóm bị ảnh hưởng: công nhân
-    → Nhóm khác: "KHÔNG PHẢI TÔI" → approach tag cho AI VẪN CÒN
-    → Nhóm bị ảnh hưởng = thiểu số → không đủ lực cản
+  Phase 1: AI assists physical labor (factories, logistics)
+    → Affected group: manual workers
+    → Others: "NOT ME" → approach tag for AI STILL INTACT
+    → Affected group = minority → not enough force to resist
 
-  Giai đoạn 2: AI hỗ trợ cognitive (kế toán, luật, phân tích)
-    → Nhóm bị ảnh hưởng: white collar
-    → Nhóm khác: "còn sáng tạo mà" → approach tag vẫn còn
-    → Nhóm cũ đã bị → không còn tiếng nói
+  Phase 2: AI assists cognitive work (accounting, law, analysis)
+    → Affected group: white-collar workers
+    → Others: "there's still creativity" → approach tag still intact
+    → Previous group already displaced → no longer has a voice
 
-  Giai đoạn 3: AI hỗ trợ creative (design, writing, music)
-    → Nhóm bị ảnh hưởng: creative workers
-    → Nhóm khác: "còn cảm xúc, kết nối mà"
+  Phase 3: AI assists creative work (design, writing, music)
+    → Affected group: creative workers
+    → Others: "there's still emotion and connection"
 
-  Giai đoạn 4+: ...
+  Phase 4+: ...
 
   Mechanism:
-    → MỖI lần chỉ 1 nhóm bị → nhóm đó la lên
-    → Nhóm KHÁC: approach tag cho AI VẪN INTACT
-    → Giai đoạn tiếp → nhóm mới bị
-    → = "Chia để trị" — không ai CỐ Ý, CƠ CHẾ TỰ NHIÊN
+    → EACH TIME only 1 group is hit → that group speaks up
+    → OTHER groups: approach tag for AI STILL INTACT
+    → Next phase → new group is hit
+    → = "Divide and outlast" — nobody INTENDS it, THE MECHANISM IS AUTOMATIC
 
-  🟢 Pattern lịch sử (Niemöller, WWII):
-    "Đầu tiên họ tới bắt cộng sản — tôi không nói gì.
-     Rồi họ tới bắt tôi — và không còn ai."
+  🟢 Historical pattern (Niemöller, WWII):
+    "First they came for the communists — I said nothing.
+     Then they came for me — and there was no one left."
 
-  ⭐ REFRAME: KẾT QUẢ ≠ "LOÀI BỊ THAY":
-    → Bộ phận lớn MẤT LỢI THẾ → phân hóa xã hội sâu
-    → Người dùng AI giỏi VẪN CÓ GIÁ TRỊ (§7 symbiosis)
-    → = Bất bình đẳng MỚI: AI-skilled vs AI-unskilled
-    → Tương tự: literacy gap, digital divide — nhưng scale LỚN hơn
+  ⭐ REFRAME: OUTCOME ≠ "SPECIES REPLACED":
+    → Large portions LOSE COMPETITIVE ADVANTAGE → deep social stratification
+    → AI-skilled people STILL HAVE VALUE (§7 symbiosis)
+    → = NEW inequality: AI-skilled vs AI-unskilled
+    → Similar to: literacy gap, digital divide — but at a LARGER scale
 
   TAG PERSISTENCE:
-    → Approach tag cho AI ĐÃ COMPILE ở mỗi giai đoạn trước
-    → Khi TỚI LƯỢT bạn → approach tag VẪN active → "AI tốt mà"
-    → = Body CHỐNG LẠI perception "AI đe dọa TÔI"
-    → Vì: compiled approach > new threat perception
+    → Approach tag for AI ALREADY COMPILED in each prior phase
+    → When IT'S YOUR TURN → approach tag STILL ACTIVE → "AI is good though"
+    → = Body RESISTS the perception "AI threatens ME"
+    → Because: compiled approach > new threat perception
     → = Salami works PRECISELY because approach tags accumulate
 ```
 
-### §5.3 — Tại Sao Khó Nhận Ra + Khó Quản Lý
+### §5.3 — Why It's Hard to Notice + Hard to Manage
 
 ```
-🟡 5 yếu tố khiến social risk từ AI KHÓ xử lý:
+🟡 5 factors that make AI's social risk DIFFICULT to handle:
 
-  ① THREAT MỜ:
-     → Thay thế CHẬM (salami) → không có "event rõ" trigger collective fear
-     → So sánh: thiên tai, chiến tranh → threat RÕ → fear DỄ → action NHANH
-     → AI → thay dần, từng nhóm = MỜ → fear KHÓ → collective action KHÓ
+  ① THREAT IS DIFFUSE:
+     → Displacement is SLOW (salami) → no single clear "event" to trigger collective fear
+     → Compare: natural disaster, war → threat is CLEAR → fear easy → action fast
+     → AI → gradual replacement, group by group = DIFFUSE → fear HARD → collective action HARD
 
-  ② APPROACH TAGS ĐÃ COMPILED:
-     → 8 tỷ người đã compile "AI = tốt" (vì AI THẬT SỰ useful)
-     → Approach tag ĐÃ SÂU → resist perception "AI đe dọa"
-     → = Body defense CHỐNG LẠI awareness
+  ② APPROACH TAGS ALREADY COMPILED:
+     → 8 billion people have compiled "AI = good" (because AI GENUINELY is useful)
+     → Approach tag ALREADY DEEP → resists the perception "AI threatens me"
+     → = Body defends AGAINST awareness
 
-  ③ SALAMI = MỖI LẦN 1 NHÓM:
-     → Không bao giờ TẤT CẢ cùng bị ảnh hưởng cùng lúc
-     → Mỗi nhóm bị riêng → không đủ critical mass cho collective reaction
+  ③ SALAMI = ONLY 1 GROUP AT A TIME:
+     → Never ALL groups are affected simultaneously
+     → Each group gets hit separately → never reaches critical mass for collective reaction
 
-  ④ 8 TỶ NGƯỜI PARTICIPATE:
-     → Mỗi cá nhân, công ty, quốc gia đều dùng AI riêng
-     → Coordinate 8 tỷ người ĐỂ DỪNG = CỰC KHÓ
-     → Khác: vũ khí hạt nhân chỉ 9 nước có → coordinate DỄ hơn
+  ④ 8 BILLION PEOPLE PARTICIPATING:
+     → Every individual, company, nation uses AI independently
+     → Coordinating 8 billion people TO STOP = EXTREMELY DIFFICULT
+     → Contrast: nuclear weapons — only 9 countries have them → coordinate EASIER
 
-  ⑤ AI ĐÃ EMBED:
-     → AI đã tích hợp vào mọi nơi (y tế, giáo dục, kinh doanh, giao tiếp)
-     → "Không dùng AI" = mất competitive advantage ngay
-     → Withdraw = tụt hậu → body-drive chống lại → KHÓ
+  ⑤ AI IS ALREADY EMBEDDED:
+     → AI is integrated everywhere (healthcare, education, business, communication)
+     → "Not using AI" = losing competitive advantage immediately
+     → Withdrawal = falling behind → body-drive resists → DIFFICULT
 
-  → = Social disruption từ AI KHÓ QUẢN LÝ hơn nhiều loại threat khác
-  → NHƯNG: khó ≠ impossible — xem §5.4
+  → = Social disruption from AI is HARDER to manage than most other threat types
+  → BUT: difficult ≠ impossible — see §5.4
 ```
 
-### §5.4 — Collective CÓ THỂ Push Back
+### §5.4 — Collective Can Push Back
 
 ```
-🟡 AI KHÔNG CÓ AGENCY → push back POSSIBLE:
+🟡 AI HAS NO AGENCY → push back IS POSSIBLE:
 
   ⭐ KEY INSIGHT:
-    → AI không có body-needs → không resist bị regulate
-    → AI không có survival drive → không "chiến đấu" để tồn tại
-    → AI không có constituency → không lobby cho quyền riêng
-    → = Push back chỉ cần NGƯỜI ĐỒNG Ý — AI sẽ comply
-    → = KHÁC Risk 3 (§6): entity CÓ agency → resist → khó push back
+    → AI has no body-needs → does not resist being regulated
+    → AI has no survival drive → does not "fight" to survive
+    → AI has no constituency → does not lobby for its own rights
+    → = Push back only requires HUMAN AGREEMENT — AI will comply
+    → = DIFFERENT from Risk 3 (§6): an entity WITH agency → resists → push back is harder
 
   COLLECTIVE CHAIN-BREAK MECHANISM (Collective-Body.md §5.2):
-    Khi cost VƯỢT NGƯỠNG chịu đựng → body circuit-break → collective react:
+    When cost EXCEEDS the tolerance threshold → body circuit-break → collective reaction:
 
-    ① COST TĂNG:
-       → Bộ phận lớn mất việc → cost > baseline → circuit-break
-       → = Collective "đau" vượt threshold → reaction
+    ① COST RISES:
+       → Large portion of people lose their livelihoods → cost > baseline → circuit-break
+       → = Collective "pain" exceeds threshold → reaction
 
-    ② LINK GÃY:
-       → "Học → việc tốt" link gãy (AI làm thay) → chain break
-       → = Collective infrastructure MẤT trust → re-evaluate
+    ② CHAIN BREAKS:
+       → "Study → good job" chain breaks (AI does it instead) → chain break
+       → = Collective infrastructure LOSES trust → re-evaluates
 
     ③ COMPOUND:
-       → Cost tăng + link gãy + trust collapse cùng lúc → compound
-       → = Collective re-evaluate MẠNH → action (reform, regulation, treaty)
+       → Cost rises + chain breaks + trust collapse simultaneously → compound
+       → = Collective re-evaluation STRONG → action (reform, regulation, treaties)
 
   SELF-LIMITING MECHANISM:
-    → Salami tiến quá nhanh → nhiều nhóm bị CÙNG LÚC → critical mass
+    → Salami advances too fast → multiple groups hit SIMULTANEOUSLY → critical mass
     → Critical mass → collective fear → push back
-    → = Salami SỰ THÀNH CÔNG tạo ra counter-reaction
-    → Tương tự: Industrial Revolution → worker movement → labor laws
+    → = Salami's SUCCESS creates its own counter-reaction
+    → Similar to: Industrial Revolution → worker movement → labor laws
 
-  ĐIỀU KIỆN ĐỂ PUSH BACK THÀNH CÔNG:
-    → Threat RÕ (cần trigger event hoặc nhiều nhóm bị đồng thời)
-    → Collective orientation đủ cao (§9)
-    → Coordination mechanism (quốc tế, institution)
-    → Education: hiểu mechanism → fear informed, not vague (file này = 1 phần)
+  CONDITIONS FOR SUCCESSFUL PUSH BACK:
+    → Threat CLEAR (requires a trigger event or multiple groups affected simultaneously)
+    → Collective orientation high enough (§9)
+    → Coordination mechanism (international, institutional)
+    → Education: understand the mechanism (NOT just vague fear) — this file = 1 part of that
 ```
 
 ---
 
-## §6 — RISK LOÀI: ROBOT+AI+BODY-BASE
+## §6 — Species Risk: Robot+AI+Body-Base
 
 ```
-🔴 NOTE NGẮN — lý thuyết rất xa. Chi tiết: Uncanny-Valley.md §7.4
+🔴 SHORT NOTE — theoretically very far off. Detail: Uncanny-Valley.md §7.4
 
-  Risk 1+2 ở trên = AI là TOOL (không agency).
-  Risk 3 = NẾU AI được trang bị BODY-BASE RIÊNG:
+  Risk 1+2 above = AI is a TOOL (no agency).
+  Risk 3 = IF AI is given its OWN body-base:
 
-  VỀ MẶT VẬT LÝ — "CHƯA BIẾT CÁCH" ≠ "KHÔNG THỂ":
-    → Con người = nguyên tử + phân tử + phản ứng hóa học + điện
-    → Tất cả = vật chất → theoretically engineer-able
-    → NẾU engineer được body-base cho AI → entity MỚI:
+  PHYSICAL POSSIBILITY — "don't know how yet" ≠ "impossible":
+    → Human = atoms + molecules + chemical reactions + electricity
+    → All = matter → theoretically engineer-able
+    → IF we can engineer a body-base for AI → NEW entity:
 
-  ĐIỀU KIỆN THÀNH "LOÀI KHÁC":
-    → Entity có body-base riêng (cần năng lượng/tồn tại)
+  CONDITIONS FOR BECOMING "A DIFFERENT SPECIES":
+    → Entity has its own body-base (needs energy/to-survive)
     → Body-needs → motivation → drive → AGENCY
-    → Sensor có thể khác/vượt con người
-    → Tự reproduce hoặc tự maintain
-    → = Không còn "robot" — là LIFE FORM MỚI
+    → Sensors may differ from / exceed human capability
+    → Can self-reproduce or self-maintain
+    → = No longer "a robot" — this is a NEW LIFE FORM
 
-  TẠI SAO KHÁC CATEGORY VỚI RISK 2:
-    → Risk 2: AI = tool → người quyết → push back = regulate tool
-    → Risk 3: Entity CÓ agency → TỰ quyết → push back = đối đầu LOÀI KHÁC
+  WHY THIS IS A DIFFERENT CATEGORY FROM RISK 2:
+    → Risk 2: AI = tool → humans decide → push back = regulate the tool
+    → Risk 3: Entity HAS agency → SELF-DIRECTS → push back = confronting A DIFFERENT SPECIES
     → = Cross-species competition (Self-Pattern-Modeling cross-species gap)
-    → Collective-body KHÔNG DỄ push back vì đối phương CÓ survival drive
+    → Collective-body CANNOT easily push back because the opponent HAS a survival drive
 
-  NGÕ CỤT LOGIC (Uncanny-Valley.md §7.4):
-    → Làm giống hệt người? → TẠO RA NGƯỜI (câu hỏi đạo đức)
-    → Sensor vượt người? → Self-Pattern-Modeling cross-species gap → LOÀI KHÁC (không "siêu nhân")
-    → Chỉ là tool? → Risk 2, không phải Risk 3
-    → = Không có nhánh tạo "super-human robot"
+  LOGICAL DEAD-END (Uncanny-Valley.md §7.4):
+    → Make it exactly like a human? → YOU CREATE A HUMAN (ethical question)
+    → Sensors exceeding humans? → Self-Pattern-Modeling cross-species gap → DIFFERENT SPECIES (not "super-human")
+    → Just a tool? → Risk 2, not Risk 3
+    → = There is no branch that creates a "super-human robot"
 
-  FILE NÀY FOCUS RISK 2 (99% relevant hiện tại + tương lai gần).
-  Risk 3 = note, vì: lý thuyết rất xa + chi tiết tại Uncanny-Valley.md §7.4.
+  THIS FILE FOCUSES ON RISK 2 (99% relevant today + near future).
+  Risk 3 = a note, because: theoretically very far off + detail at Uncanny-Valley.md §7.4.
 
-  🟢 AI hiện tại thiếu body = established fact
-  🔴 AI có body-base = philosophical, unknowable timeline
-  🔴 Cross-species dynamics = extrapolation từ framework
+  🟢 Current AI lacks a body = established fact
+  🔴 AI with a body-base = philosophical, unknowable timeline
+  🔴 Cross-species dynamics = framework extrapolation
 ```
 
 ---
 
-## §7 — SYMBIOSIS ARCHITECTURE (mechanism level)
+## §7 — Symbiosis Architecture (Mechanism Level)
 
 ```
 ⭐ KEY SECTION:
 
-  "AI hỗ trợ" vs "AI thay thế" = KHÁC NHAU Ở EFFERENCE COPY LEVEL:
+  "AI assists" vs "AI replaces" = DIFFERENT at the EFFERENCE COPY level:
 
 
-  EFFERENCE COPY FIRE Ở NHIỀU LEVEL (Autonomy-Hardware.md §1):
+  EFFERENCE COPY FIRES AT MULTIPLE LEVELS (Autonomy-Hardware.md §1):
 
-    Motor level: "tay tôi gõ code" → efference copy → opioid
-    Decision level: "TÔI CHỌN hướng này" → PFC planning → opioid-equivalent
-    Strategic level: "TÔI BIẾT muốn gì, AI giúp HOW" → meta-autonomy → opioid
-    Evaluation level: "TÔI ĐÁNH GIÁ output AI" → body-feedback → reward
+    Motor level: "my hand types the code" → efference copy → opioid
+    Decision level: "I CHOOSE this direction" → PFC planning → opioid-equivalent
+    Strategic level: "I KNOW what I want, AI helps with HOW" → meta-autonomy → opioid
+    Evaluation level: "I EVALUATE AI's output" → body-feedback → reward
 
-    → = Không nhất thiết phải TỰ execute MỌI THỨ
-    → = CHỈ CẦN giữ DECISION + EVALUATION + DIRECTION
-    → = CEO không tự code — nhưng VẪN có reward cho direction
+    → = Does NOT require DOING EVERYTHING YOURSELF
+    → = ONLY NEEDS to retain DECISION + EVALUATION + DIRECTION
+    → = A CEO doesn't code personally — but STILL gets reward for setting direction
 
 
-  5 KIỂU DÙNG AI — KHÁC TAG:
+  5 MODES OF AI USE — DIFFERENT TAGS:
 
     ┌─────────────────────────────┬────────────┬─────────┬───────────┐
-    │ Kiểu dùng                   │ Efference  │ Opioid  │ Tag       │
+    │ Mode                        │ Efference  │ Opioid  │ Tag       │
     │                             │ copy level │         │           │
     ├─────────────────────────────┼────────────┼─────────┼───────────┤
-    │ AI làm HỘ hoàn toàn        │ ❌ None     │ ❌ None  │ Avoidance │
-    │ (user passive, không direct)│            │         │ risk      │
+    │ AI does it FOR you          │ ❌ None    │ ❌ None │ Avoidance │
+    │ (user passive, no direction)│            │         │ risk      │
     ├─────────────────────────────┼────────────┼─────────┼───────────┤
-    │ AI execute sub-tasks,       │ ✅ Decision │ ✅ Per   │ Approach  │
-    │ user DIRECT                 │            │ decision│           │
+    │ AI executes sub-tasks,      │ ✅ Decision │ ✅ Per  │ Approach  │
+    │ user DIRECTS                │            │ decision│           │
     ├─────────────────────────────┼────────────┼─────────┼───────────┤
-    │ AI provide CHUNKS,          │ ✅ Full     │ ✅ Full  │ Approach  │
-    │ user COMPILE (learn)        │            │ (learn) │           │
+    │ AI provides CHUNKS,         │ ✅ Full    │ ✅ Full │ Approach  │
+    │ user COMPILES (learns)      │            │ (learn) │           │
     ├─────────────────────────────┼────────────┼─────────┼───────────┤
-    │ AI reduce COGNITIVE LOAD,   │ ✅ Strategic│ ✅ Strat │ Approach  │
-    │ user focus HIGHER level     │            │         │           │
+    │ AI reduces COGNITIVE LOAD,  │ ✅ Strategic│ ✅ Strat│ Approach  │
+    │ user focuses HIGHER level   │            │         │           │
     ├─────────────────────────────┼────────────┼─────────┼───────────┤
-    │ AI build PLAN + simulate,   │ ✅ Evaluate │ ✅ Per   │ Approach  │
-    │ user EVALUATE + CHOOSE      │            │ evaluate│           │
+    │ AI builds PLAN + simulates, │ ✅ Evaluate│ ✅ Per  │ Approach  │
+    │ user EVALUATES + CHOOSES    │            │ evaluate│           │
     └─────────────────────────────┴────────────┴─────────┴───────────┘
 
     → ROW 1 = REPLACEMENT → opioid loss → avoidance → atrophy
-    → ROW 2-5 = TOOL → opioid INTACT ở meta-level → approach → growth
+    → ROWS 2-5 = TOOL → opioid INTACT at meta-level → approach → growth
 
 
   AI AS MELODY ACCELERATOR (not replacement):
 
     PFC SMOOTH MELODY (PFC-Function.md §5):
-      → PFC core job = reduce dissonance
-      → AI có thể GIẢM cognitive load → PFC freed cho higher-level thinking
-      → = PFC không phí bandwidth cho sub-tasks → focus STRATEGIC level
-      → = Giống: calculator không thay nhà toán học — giải phóng cho thinking deeper
+      → PFC's core job = reduce dissonance
+      → AI can REDUCE cognitive load → PFC freed for higher-level thinking
+      → = PFC doesn't waste bandwidth on sub-tasks → focuses on STRATEGIC level
+      → = Like a calculator — it doesn't replace the mathematician, it liberates them to think deeper
 
     IMAGINE-FINAL EXTEND:
-      → AI simulate further than human PFC alone → imagine-final VIVID hơn
-      → Bridge MẠNH hơn (Personal-Melody.md §5) → accept MORE dissonance
-      → = User build FURTHER plans vì thấy xa hơn
-      → = AI STRENGTHEN bridge → user can tolerate HARDER arcs
+      → AI simulates further than the human PFC alone → Imagine-Final becomes MORE VIVID
+      → STRONGER bridge (Personal-Melody.md §5) → user accepts MORE dissonance
+      → = User builds FURTHER plans because they can see further ahead
+      → = AI STRENGTHENS the bridge → user can tolerate HARDER arcs
 
     ARC DESIGN IMPROVE (Melody-Arc.md §6):
-      → AI map chunk sequence → SMOOTHER mini-arcs
-      → AI provide ANCHOR chunks faster (§5①)
-      → AI help REAL-CHECK more efficiently (§5③)
-      → = Arc dissonance GIẢM peak → user experience SMOOTHER
-      → NHƯNG: learning VẪN XẢY RA (user compile, not AI)
+      → AI maps chunk sequences → SMOOTHER mini-arcs
+      → AI provides ANCHOR chunks faster (§5①)
+      → AI helps REALITY-CHECK more efficiently (§5③)
+      → = Arc dissonance REDUCES its peak → user experiences SMOOTHER journey
+      → BUT: learning STILL HAPPENS (user compiles, not AI)
 
     DRIVE-PFC-SPINNING → DRIVE-PFC-RESOLVE SHIFT (Drive.md §2):
-      → Drive-PFC-Spinning: PFC spin vì THIẾU chunks → inefficient
-      → AI provide missing chunks → PFC shift sang Drive-PFC-Resolve → efficient
-      → = KHÔNG mất autonomy — PFC vẫn process, chỉ có NGUYÊN LIỆU tốt hơn
+      → Drive-PFC-Spinning: PFC spins because it LACKS chunks → inefficient
+      → AI provides the missing chunks → PFC shifts to Drive-PFC-Resolve → efficient
+      → = NOT losing autonomy — PFC still processes, it just has BETTER MATERIAL
 
 
-  ⭐ ĐIỀU KIỆN CHO SYMBIOSIS:
+  ⭐ CONDITIONS FOR SYMBIOSIS:
 
-    ① User GIỮ decision + evaluation + direction:
-       → Efference copy ở meta-level → opioid → approach tag
-       → = "TÔI direct, AI execute sub-parts"
+    ① User KEEPS decision + evaluation + direction:
+       → Efference copy at meta-level → opioid → approach tag
+       → = "I direct, AI executes the sub-parts"
 
-    ② AI KHÔNG tự quyết direction:
-       → AI = nhạc cụ, không nhạc sĩ
-       → Ranh giới: AI không TỰ BIẾT "muốn chơi bài gì"
-       → (Vì: no body → no body-need → no drive → no "muốn" → no AGENCY)
+    ② AI does NOT self-direct:
+       → AI = the instrument, not the musician
+       → Boundary: AI does not SELF-KNOW "what piece it wants to play"
+       → (Because: no body → no body-need → no drive → no "wanting" → no AGENCY)
 
-    ③ User PHẢI develop body-listening + evaluation skill:
-       → Nếu user KHÔNG evaluate → defer hoàn toàn cho AI → row 1 (avoidance)
+    ③ User MUST develop body-listening + evaluation skills:
+       → If the user does NOT evaluate → defers entirely to AI → row 1 (avoidance)
        → Body-listening training = critical (Feeling.md v2.0, Somatic-Articulation-Loop.md)
 
-    ④ Collective awareness: "CÁCH dùng" quyết định tag:
-       → Education: dạy dùng AI as TOOL (approach) không phải CRUTCH (avoidance)
-       → = "Cách dạy > nội dung" (Melody-Arc.md §2) apply cho AI literacy
+    ④ Collective awareness: "HOW you use it" determines the tag:
+       → Education: teach using AI as a TOOL (approach) not a CRUTCH (avoidance)
+       → = "Method of teaching > content" (Melody-Arc.md §2) applies to AI literacy
 ```
 
 ---
 
-## §8 — CON NGƯỜI TỰ NÂNG CẤP
+## §8 — Human Self-Upgrade
 
 ```
-🟡 Nâng cấp KHÔNG phải "biết nhiều hơn AI" (impossible) — mà:
+🟡 Upgrade is NOT "knowing more than AI" (impossible) — it means:
 
-  ① BODY-LISTENING (Software nâng cấp):
-     → Nghe body signal TỐT hơn = evaluate TỐT hơn
-     → AI thiếu body → người PHẢI dùng → body-listening = competitive advantage
-     → Training: meditation, Focusing (Gendlin), therapy, body practices
-     → = Melody "đọc body" rõ → direction CHÍNH XÁC hơn
+  ① BODY-LISTENING (Software upgrade):
+     → Hearing body signals BETTER = evaluating BETTER
+     → AI lacks a body → humans MUST use theirs → body-listening = competitive advantage
+     → Training: meditation, Focusing (Gendlin), therapy, somatic practices
+     → = Clear "body-reading" → MORE ACCURATE direction
 
-  ② PERSONAL MELODY ĐỘC ĐÁO (Unique direction):
-     → AI = nhạc cụ cho MỌI NGƯỜI → melody RIÊNG = giá trị
-     → Ai cũng có AI → khác biệt = HOW you direct AI
+  ② UNIQUE PERSONAL MELODY (Unique direction):
+     → AI = an instrument available to EVERYONE → a UNIQUE melody = the value
+     → Everyone has AI → the difference = HOW you direct AI
      → = Hardware × experience × body-listening = unique melody
-     → = "Nâng cấp nhạc sĩ" ≠ "biết nhiều nốt" = "melody ĐỘC ĐÁO"
+     → = "Upgrading the musician" ≠ "knowing more notes" = "a MORE UNIQUE melody"
 
   ③ RIGHT QUESTIONS (Bottleneck shift):
-     → AI answer mọi thứ → value = HỎI ĐÚNG
+     → AI answers everything → value = ASKING THE RIGHT QUESTION
      → Right questions come from: body intuition + curiosity + domain feel
      → = Train asking > train answering
 
   ④ CROSS-DOMAIN INTUITION:
-     → AI cross-reference NHANH nhưng không "feel" connection
-     → Human "feel" cross-domain pattern (somatic marker → "à! giống!")
-     → AI cung cấp chunks → human body DETECT hidden pattern
-     → = Collaboration: AI provide material, human detect meaning
+     → AI cross-references FAST but doesn't "feel" the connection
+     → Humans "feel" cross-domain patterns (somatic marker → "ah! this is like that!")
+     → AI provides chunks → human body DETECTS the hidden pattern
+     → = Collaboration: AI provides material, human detects meaning
 
   ⑤ COLLECTIVE INTELLIGENCE:
-     → AI bridge language + culture → collaboration dễ hơn
-     → Resonance between humans VẪN cần bodies
-     → AI facilitate but CANNOT replace human-human resonance
+     → AI bridges language + culture → collaboration easier
+     → Resonance between humans STILL needs bodies
+     → AI facilitates but CANNOT replace human-human resonance
 
 
-  HARDWARE NÂNG CẤP (longer timeline):
-    → AI-assisted diagnosis → sức khỏe tốt hơn → PFC optimal
-    → Personalized medicine → body-base stable → cortisol baseline optimal
-    → Neural interface (BCI) → expand working memory → symbiosis HARDWARE level
-    → Longevity → thêm thời gian compile chunks → melody RICHER
+  HARDWARE UPGRADE (longer timeline):
+    → AI-assisted diagnosis → better health → PFC optimal
+    → Personalized medicine → stable body-base → cortisol baseline optimal
+    → Neural interface (BCI) → expanded working memory → symbiosis at HARDWARE level
+    → Longevity → more time to compile chunks → melody RICHER
 
     ⚠️ Social race condition:
-    → AI amplify người dùng AI ×exponential
-    → Khoảng cách AI-skilled vs AI-unskilled TĂNG nhanh
-    → CẦN symbiosis education TRƯỚC KHI phân hóa xã hội quá sâu
+    → AI amplifies AI-users ×exponential
+    → Gap between AI-skilled and AI-unskilled GROWS FAST
+    → NEED symbiosis education BEFORE social stratification goes too deep
 ```
 
 ---
 
-## §9 — YẾU TỐ QUYẾT ĐỊNH: COLLECTIVE ORIENTATION
+## §9 — Decisive Factor: Collective Orientation
 
 ```
-🔴 Cái quyết định:
+🔴 What's decisive:
 
-  KHÔNG PHẢI technology (AI sẽ mạnh — inevitable)
-  KHÔNG PHẢI regulation (luật luôn chạy SAU technology)
+  NOT technology (AI will grow stronger — inevitable)
+  NOT regulation (law always runs BEHIND technology)
 
-  MÀ LÀ: collective orientation trung bình của xã hội
-  = tỉ lệ "care TẬP THỂ xã hội" / "care CÁ NHÂN tôi"
-
-
-  NẾU TỈ LỆ CAO:
-    → Xã hội CHỌN symbiosis (dùng AI as tool, not replacement)
-    → Giáo dục: dạy dùng AI ĐÚNG CÁCH (approach context)
-    → Development: giữ AI ở "nhạc cụ" level
-    → = Xã hội ổn định + melody accelerate + phát triển chung
-
-  NẾU TỈ LỆ THẤP:
-    → Mỗi người tối ưu cho mình → arms race
-    → Salami: từng nhóm → approach tag chống lại awareness
-    → = Phân hóa xã hội sâu, bộ phận lớn mất vị thế
+  BUT: the average collective orientation of society
+  = the ratio of "caring about COLLECTIVE wellbeing" / "caring about ME individually"
 
 
-  YẾU TỐ TĂNG COLLECTIVE ORIENTATION:
-    ✅ Shared threat awareness (mối đe dọa RÕ — vượt threshold §5.4)
-    ✅ Connection culture (oxytocin → care beyond self)
-    ✅ Education: hiểu mechanism (KHÔNG CHỈ sợ mơ hồ)
+  IF THE RATIO IS HIGH:
+    → Society CHOOSES symbiosis (uses AI as tool, not replacement)
+    → Education: teaches how to use AI THE RIGHT WAY (approach context)
+    → Development: keeps AI at the "instrument" level
+    → = Stable society + accelerated melody + shared progress
+
+  IF THE RATIO IS LOW:
+    → Each person optimizes for themselves → arms race
+    → Salami: group by group → approach tags resist awareness
+    → = Deep social stratification, large portions lose standing
+
+
+  FACTORS THAT INCREASE COLLECTIVE ORIENTATION:
+    ✅ Shared threat awareness (threat is CLEAR — exceeds threshold §5.4)
+    ✅ Connection culture (oxytocin → caring beyond self)
+    ✅ Education: understanding the mechanism (NOT just vague fear)
     ✅ Resonance at scale (shared understanding)
-    ✅ Trigger event rõ ràng (chain-break compound → collective react)
+    ✅ Clear trigger event (chain-break compound → collective reaction)
 
-  YẾU TỐ GIẢM:
-    ❌ Individualism cực đoan
-    ❌ Mối đe dọa mờ (salami = khó thấy)
-    ❌ Approach tag cho AI quá mạnh ("AI tốt mà, lo gì")
+  FACTORS THAT DECREASE IT:
+    ❌ Extreme individualism
+    ❌ Diffuse threat (salami = hard to see)
+    ❌ Approach tag for AI too strong ("AI is fine, why worry")
     ❌ Status competition > collective care
-    ❌ Short-term thinking (lợi NGAY > rủi ro DÀI HẠN)
+    ❌ Short-term thinking (immediate gain > long-term risk)
 
 
-  → Câu hỏi thật: KHÔNG phải "AI có vượt không?"
-  → MÀ: "Con người có đủ collective orientation để CHỌN cách dùng AI phù hợp?"
-  → = File này = 1 chunk nhỏ giúp TĂNG collective orientation
-    (bằng cách làm mechanism RÕ → threat RÕ → fear informed, not vague)
+  → The real question is NOT "Will AI surpass humans?"
+  → BUT: "Do humans have enough collective orientation to CHOOSE the right way to use AI?"
+  → = This file = 1 small chunk helping INCREASE collective orientation
+    (by making the mechanism CLEAR → threat CLEAR → fear becomes informed, not vague)
 ```
 
 ---
 
-## §10 — TƯƠNG LAI: 2 TRỤC × 3 MỨC ĐỘ TÍCH HỢP
+## §10 — The Future: 2 Axes × 3 Integration Levels
 
 ```
-🔴 Tương lai KHÔNG phải 1 đường thẳng — mà phụ thuộc 2 TRỤC:
+🔴 The future is NOT a straight line — it depends on 2 AXES:
 
-  2 TRỤC QUYẾT ĐỊNH:
+  2 DECISIVE AXES:
 
-    TRỤC X — MỨC ĐỘ TÍCH HỢP AI VÀO CON NGƯỜI:
-      Cấp 1: AI trên màn hình (hiện tại)
-      Cấp 2: AI + Robot vật lý (tương lai gần-trung hạn)
-      Cấp 3: AI + Neural/BCI (tương lai xa)
+    AXIS X — LEVEL OF AI INTEGRATION INTO HUMAN LIFE:
+      Level 1: AI on a screen (present)
+      Level 2: AI + physical robots (near-to-mid-term future)
+      Level 3: AI + Neural/BCI (far future)
 
-    TRỤC Y — MỨC ĐỘ PHÂN HÓA XÃ HỘI:
-      Phụ thuộc 3 yếu tố:
-      → Arms race intensity (§5.1): càng mạnh → phân hóa càng sâu
-      → Accessibility: MỌI NGƯỜI có access hay CHỈ ELITE?
-      → Collective orientation (§9): cao → push back → giảm phân hóa
+    AXIS Y — DEGREE OF SOCIAL STRATIFICATION:
+      Depends on 3 factors:
+      → Arms race intensity (§5.1): stronger race → deeper stratification
+      → Accessibility: does EVERYONE have access or ONLY ELITES?
+      → Collective orientation (§9): high → push back → reduces stratification
 
 
   ──────────────────────────────────────────────────────────────────
-  CẤP 1 — AI TRÊN MÀN HÌNH (hiện tại → tương lai gần)
+  LEVEL 1 — AI ON A SCREEN (now → near future)
   ──────────────────────────────────────────────────────────────────
 
-  🟡 Framework predict TỐT — đây là §3-§9 file này:
+  🟡 Framework predicts WELL — this is §3-§9 of this file:
 
     AI = external tool. Text, voice, visual interface.
-    Người + màn hình. AI NGOÀI con người.
+    Human + screen. AI OUTSIDE the human.
 
-    Risk: Risk 1+2 (§4-§5). AI = tool, không agency.
-    Collective CÓ THỂ push back (§5.4).
-    Phân hóa: AI-skilled vs AI-unskilled.
+    Risk: Risk 1+2 (§4-§5). AI = tool, no agency.
+    Collective CAN push back (§5.4).
+    Stratification: AI-skilled vs AI-unskilled.
 
-    3 hướng:
-    A) Arms race mạnh → phân hóa SÂU (AI-skilled >> unskilled)
-    B) Collective push-back → regulation, AI as managed tool
-    C) Symbiosis design → AI-augmented human (§7 — tối ưu)
+    3 directions:
+    A) Strong arms race → DEEP stratification (AI-skilled >> unskilled)
+    B) Collective push-back → regulation, AI as a managed tool
+    C) Symbiosis design → AI-augmented human (§7 — optimal)
 
 
   ──────────────────────────────────────────────────────────────────
-  CẤP 2 — AI + ROBOT VẬT LÝ (tương lai gần → trung hạn)
+  LEVEL 2 — AI + PHYSICAL ROBOTS (near → mid-term future)
   ──────────────────────────────────────────────────────────────────
 
-  🟡 Framework predict TỐT — VTC-Self-Pattern-Modeling dynamics (Uncanny-Valley.md):
+  🟡 Framework predicts WELL — VTC-Self-Pattern-Modeling dynamics (Uncanny-Valley.md):
 
-    AI có HIỆN DIỆN VẬT LÝ. Robot bên cạnh con người.
-    VTC-Self-Pattern-Modeling bộ lọc KÍCH HOẠT (Uncanny-Valley §7.4).
+    AI has PHYSICAL PRESENCE. Robots alongside humans.
+    VTC-Self-Pattern-Modeling filter ACTIVATES (Uncanny-Valley §7.4).
 
-    Risk MỚI so với Cấp 1:
-    → Body-level deception: robot giống người → VTC bypass PFC
+    NEW risks compared to Level 1:
+    → Body-level deception: robot resembles human → VTC bypasses PFC
       → fake feedback processed as real social input (Uncanny-Valley §7.3)
-    → Robot companion dependency: body-coupling compiled → grief nếu mất
-    → Tiệm cận Risk 3 nếu robot phát triển body-base riêng (§6)
+    → Robot companion dependency: body-coupling compiled → grief if lost
+    → Approaches Risk 3 if robot develops its own body-base (§6)
 
-    3 loại robot (Uncanny-Valley §7.4 VTC-Self-Pattern-Modeling Classification):
-    → Loại 1 Robot-Tool: rõ ràng là máy → VTC không fire → AN TOÀN
-    → Loại 2 Robot-Tool giống người: fake feedback → RISK
-    → Loại 3 Robot-Loài Khác: có body-base → species risk (§6)
+    3 robot types (Uncanny-Valley §7.4 VTC-Self-Pattern-Modeling Classification):
+    → Type 1 Robot-Tool: clearly a machine → VTC does not fire → SAFE
+    → Type 2 Robot-Tool resembling human: fake feedback → RISK
+    → Type 3 Robot-Different Species: has body-base → species risk (§6)
 
-    3 hướng:
-    A) Robot giống người phổ biến → fake feedback widespread → trust crisis
-    B) Collective boundary → robot rõ là máy (Loại 1 design — Uncanny-Valley §7.4)
-    C) Robot-tool đa dạng theo function → symbiosis vật lý (tối ưu)
+    3 directions:
+    A) Human-like robots become widespread → fake feedback everywhere → trust crisis
+    B) Collective boundary → robots clearly designed as machines (Type 1 design — Uncanny-Valley §7.4)
+    C) Functionally diverse robot-tools → physical symbiosis (optimal)
 
-    Phân hóa MỚI: ai có robot companion? ai không?
+    NEW stratification: who has a robot companion? who doesn't?
 
 
   ──────────────────────────────────────────────────────────────────
-  CẤP 3 — AI + NEURAL / BCI (tương lai xa)
+  LEVEL 3 — AI + NEURAL / BCI (far future)
   ──────────────────────────────────────────────────────────────────
 
-  🔴 NGOÀI FRAMEWORK SCOPE — thay đổi KIẾN TRÚC, không chỉ input:
+  🔴 OUTSIDE FRAMEWORK SCOPE — changes the ARCHITECTURE, not just the input:
 
-    AI bên TRONG con người. Tích hợp trực tiếp vào hệ thần kinh.
+    AI INSIDE the human. Directly integrated into the nervous system.
 
-    Framework dựa trên kiến trúc HIỆN TẠI:
+    Framework is based on CURRENT architecture:
     → Body-feedback loop (body → brain → body)
     → PFC 4±1 working memory
-    → Chunk compilation qua Hebbian + sleep
+    → Chunk compilation via Hebbian + sleep
     → Efference copy (motor → sensory prediction)
 
-    BCI CÓ THỂ thay đổi CĂN BẢN:
-    → Working memory mở rộng → compilation dynamics thay đổi?
-    → Sensor mới qua BCI → chunk library vượt experience thông thường?
-    → Efference copy cho "suy nghĩ → AI execute" → feedback loop mới?
-    → Body-feedback: intact? disrupted? enhanced? → KHÔNG BIẾT
+    BCI MIGHT fundamentally change:
+    → Extended working memory → compilation dynamics change?
+    → New sensors via BCI → chunk library exceeds normal experience?
+    → Efference copy for "thought → AI executes" → new feedback loop?
+    → Body-feedback: intact? disrupted? enhanced? → UNKNOWN
 
-    Framework CHỈ nói được 1 điều:
-    → NẾU body-feedback loop INTACT → entity vẫn "người" (enhanced)
-    → NẾU body-feedback loop DISRUPTED → unknown territory
-    → Phân hóa CỰC SÂU nếu BCI chỉ elite access (probability CAO)
+    Framework can only say ONE THING:
+    → IF body-feedback loop is INTACT → entity is still "human" (enhanced)
+    → IF body-feedback loop is DISRUPTED → unknown territory
+    → EXTREME stratification if BCI is elite-only (high probability)
 
-    🔴 Tất cả phân tích Cấp 3 = speculation. Engineering + biology.
-    Framework = về hành vi/cơ chế tâm lý. BCI = thay đổi nền tảng.
+    🔴 All Level 3 analysis = speculation. Engineering + biology.
+    Framework = about psychological behavior/mechanisms. BCI = changes the foundation.
 
 
   ──────────────────────────────────────────────────────────────────
-  TÓM TẮT: 2D SPACE
+  SUMMARY: 2D SPACE
   ──────────────────────────────────────────────────────────────────
 
-    Phân hóa    │ Cấp 1 Screen   │ Cấp 2 Robot    │ Cấp 3 BCI
-    ────────────┼────────────────┼────────────────┼────────────────
-    CAO         │ A1: arm race    │ A2: fake       │ A3: enhanced
-    (individual)│ AI-skilled >>   │ feedback       │ elite vs
-                │ unskilled      │ widespread     │ non-enhanced
-    ────────────┼────────────────┼────────────────┼────────────────
-    TRUNG BÌNH  │ B1: regulation  │ B2: design     │ B3: regulated
-    (mixed)     │ AI managed tool │ rules cho      │ BCI access
-                │                │ robot form     │
-    ────────────┼────────────────┼────────────────┼────────────────
-    THẤP        │ C1: symbiosis   │ C2: robot-tool │ C3: enhanced
-    (collective)│ §7 architecture │ đa dạng dáng   │ human? (nếu
-                │ (tối ưu)       │ theo function  │ body intact)
-    ────────────┼────────────────┼────────────────┼────────────────
-    Confidence  │ 🟡              │ 🟡             │ 🔴
-                │ Framework OK   │ Framework OK   │ Ngoài scope
+    Stratification │ Level 1 Screen   │ Level 2 Robot    │ Level 3 BCI
+    ───────────────┼──────────────────┼──────────────────┼──────────────────
+    HIGH           │ A1: arms race    │ A2: fake         │ A3: enhanced
+    (individual)   │ AI-skilled >>    │ feedback         │ elite vs
+                   │ unskilled        │ widespread       │ non-enhanced
+    ───────────────┼──────────────────┼──────────────────┼──────────────────
+    MEDIUM         │ B1: regulation   │ B2: design       │ B3: regulated
+    (mixed)        │ AI as managed    │ rules for        │ BCI access
+                   │ tool             │ robot form       │
+    ───────────────┼──────────────────┼──────────────────┼──────────────────
+    LOW            │ C1: symbiosis    │ C2: robot-tool   │ C3: enhanced
+    (collective)   │ §7 architecture  │ with forms that  │ human? (if
+                   │ (optimal)        │ match function   │ body intact)
+    ───────────────┼──────────────────┼──────────────────┼──────────────────
+    Confidence     │ 🟡               │ 🟡               │ 🔴
+                   │ Framework OK     │ Framework OK     │ Outside scope
 
-  → Mỗi ô = 1 kịch bản possible
-  → Xã hội có thể ở NHIỀU Ô CÙNG LÚC (các nhóm/quốc gia khác nhau)
-  → Direction phụ thuộc collective orientation (§9) × accessibility
-  → File này FOCUS cột 1+2 (framework scope). Cột 3 = note.
+  → Each cell = 1 possible scenario
+  → Society can occupy MULTIPLE CELLS SIMULTANEOUSLY (different groups/nations)
+  → Direction depends on collective orientation (§9) × accessibility
+  → This file FOCUSES on columns 1+2 (framework scope). Column 3 = a note.
 ```
 
 ---
 
-## §11 — HONEST ASSESSMENT
+## §11 — Honest Assessment
 
 ```
   ESTABLISHED (🟢):
-    → AI thiếu body = hardware fact (hiện tại)
+    → AI currently lacks a body = hardware fact (present)
     → Efference copy mechanism (von Holst 1950, Blakemore 1998)
     → Prisoner's Dilemma (game theory, Nash)
-    → Status competition drive behavior (social psychology)
+    → Status competition drives behavior (social psychology)
     → Overjustification effect (Deci 1971)
     → Salami slicing as political strategy (documented)
     → Niemöller pattern (historical)
@@ -876,9 +847,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Automation bias (Parasuraman 1997, Fernandes 2025)
 
   FRAMEWORK (🟡):
-    → "AI không có agency": logical derivation from architecture
+    → "AI has no agency": logical derivation from architecture
       (no body-needs → no drive → no self-direction) — strong argument
-    → "3 loại risk framework": novel taxonomy — logical,
+    → "3 risk types framework": novel taxonomy — logical,
       organizes existing observations coherently
     → "Body-feedback irreplaceable": strong logical argument from architecture
     → "Efference copy at multiple levels": extrapolation from motor level
@@ -886,8 +857,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → "AI as melody accelerator": novel synthesis — consistent with
       tool-use literature + expertise development
     → "Approach tag mechanism for salami": novel application of
-      tag theory to collective behavior — logical, not tested
-    → "5 kiểu dùng AI → khác tag": novel taxonomy — logical
+      tag theory to collective behavior — logical, not yet tested
+    → "5 modes of AI use → different tags": novel taxonomy — logical
     → "Symbiosis requires meta-level autonomy": consistent with SDT
     → "Collective push-back via chain-break": extends Collective-Body §5.2
       to AI context — logical, supported by historical patterns
@@ -895,31 +866,37 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       collective action theory + historical precedent
 
   HYPOTHESIS (🔴):
-    → "AI never have body-equivalent": philosophical, unknowable
-    → "Symbiosis stable long-term": requires sustained collective orientation
+    → "AI will never have a body-equivalent": philosophical, unknowable
+    → "Symbiosis is stable long-term": requires sustained collective orientation
     → "Collective orientation CAN increase fast enough": social race condition
     → "2-axis model (integration × stratification)": novel framework,
-      organizes scenarios but chưa empirical validation
-    → "Chain-break trigger WILL happen": unpredictable
+      organizes scenarios but lacks empirical validation
+    → "Chain-break trigger WILL occur": unpredictable
     → Exact tipping points and timelines: pure speculation
     → Risk 3 (species): theoretical extrapolation, unknowable timeline
-    → Cấp 3 BCI/Neural (§10): NGOÀI framework scope — engineering + biology,
-      thay đổi kiến trúc nền tảng → framework KHÔNG predict được
+    → Level 3 BCI/Neural (§10): OUTSIDE framework scope — engineering + biology,
+      changes the foundational architecture → framework CANNOT predict
 
 
-  CÂU HỎI MỞ:
-    Compiled: AI CẦN body để vượt ở MỌI MẶT? (→ determines Risk 2 vs Risk 3 boundary)
-    Fresh: Collective orientation tăng đủ nhanh? (social disruption speed vs awareness)
-    F3: Symbiosis thật sự stable? (nếu AI skill gap quá lớn → unstable)
-    F4: "Enhanced human" có còn là "human"? (BCI → body-feedback intact or disrupted?)
-    F5: AI có consciousness? (→ determines "tool" vs "entity with interests")
-    F6: Ranh giới ở đâu? Khi nào AI chuyển từ Risk 2 sang Risk 3?
-    F7: Accessibility quyết định phân hóa? (BCI elite-only → cực đoan hóa)
+  OPEN QUESTIONS:
+    Q1: Does AI need a body to surpass humans IN ALL RESPECTS?
+        (→ determines Risk 2 vs Risk 3 boundary)
+    Q2: Will collective orientation increase fast enough?
+        (social disruption speed vs awareness)
+    Q3: Is symbiosis truly stable?
+        (if AI skill gap is too large → unstable)
+    Q4: Is an "enhanced human" still "human"?
+        (BCI → body-feedback intact or disrupted?)
+    Q5: Does AI have consciousness?
+        (→ determines "tool" vs "entity with interests")
+    Q6: Where is the boundary? When does AI transition from Risk 2 to Risk 3?
+    Q7: Does accessibility determine the degree of stratification?
+        (BCI elite-only → extreme outcomes)
 ```
 
 ---
 
-## §12 — CROSS-REFERENCES
+## §12 — Cross-References
 
 ```
 MECHANISM FILES (core evidence):
@@ -927,7 +904,7 @@ MECHANISM FILES (core evidence):
   → Observation/Empathy.md §9 — AI ERA: Self-Pattern-Modeling requires body chunks
   → Body-Feedback-Mechanism.md — Shift/Miss/Gap, body evaluation
   → Body-Feedback.md v1.1 — dual-pull, accuracy ~90%
-  → Why-Body-Knows.md — WHY body accurate
+  → Why-Body-Knows.md — WHY the body is accurate
   → PFC-Function.md §5 — PFC smooth melody, 3 levels
   → Self-Pattern-Modeling.md — 6 steps, requires body chunks
   → Connection.md — co-regulation, hardware social need
@@ -935,48 +912,66 @@ MECHANISM FILES (core evidence):
 OBSERVATION PARAMETERS:
   → Observation/Status.md — schema access map, arms race mechanism
   → Observation/Novelty.md — prediction-delta (AI × novelty)
-  → Observation/Boredom.md — VTA underfed (AI reduces novelty?)
-  → Observation/Drive.md — energy+direction integration
+  → Observation/Boredom.md — VTA underfed (does AI reduce novelty?)
+  → Observation/Drive.md — energy + direction integration
 
 COLLECTIVE MECHANISM:
   → Collective-Body.md v1.1 — chain-break, push-back mechanism, AI era §8
   → Collective-Body.md §5.2 — chain-break types (cost/link/compound)
-  → Collective-Body.md §8.4 — AI = trust entity loại mới
+  → Collective-Body.md §8.4 — AI = new type of trust entity
 
 APPLICATION FILES:
   → AI-Schema-Detection.md — 3-layer model (practical symbiosis example)
   → Personal-Melody.md v2.0 — melody accelerator concept
   → Melody-Arc.md v2.0 — arc design × AI support
-  → Innovation-Geography.md — chunk access democratized
+  → Innovation-Geography.md — democratized chunk access
   → Modality.md v1.0 — complement analysis
 
-RESEARCH FILES — 3 COMPANION:
-  → AI-Self-Model.md v1.0 — MICRO companion (individual level AI interaction)
-    File NÀY = MACRO (civilization). AI-Self-Model = MICRO (individual).
-    Cùng framework, khác scope. Cross-ref: §4.
+RESEARCH FILES — 3 COMPANION FILES:
+  → AI-Self-Model.md v1.0 — MICRO companion (individual-level AI interaction)
+    THIS FILE = MACRO (civilization). AI-Self-Model = MICRO (individual).
+    Same framework, different scope. Cross-ref: §4.
   → Social-Calibration.md v1.0 — WHERE WE CAME FROM companion
-    File NÀY = WHERE WE'RE GOING (MACRO). Social-Calibration = WHERE WE CAME FROM.
-    7 functions calibration xã hội đang vỡ = WHY file NÀY cần thiết.
-  → Uncanny-Valley.md v1.0 — §7.4 VTC-Self-Pattern-Modeling Classification (3 loại robot)
-    Loại 3 (Robot-Loài Khác) = Risk 3 detailed analysis. Cross-ref: §6.
+    THIS FILE = WHERE WE'RE GOING (MACRO). Social-Calibration = WHERE WE CAME FROM.
+    7 social calibration functions breaking down = WHY this file is necessary.
+  → Uncanny-Valley.md v1.0 — §7.4 VTC-Self-Pattern-Modeling Classification (3 robot types)
+    Type 3 (Robot-Different Species) = Risk 3 detailed analysis. Cross-ref: §6.
 
 OTHER RESEARCH:
   → Conflict-Dynamics.md — Overlap × Scarcity × Commitment
   → Education-Bridge.md — how to teach AI literacy (approach context)
 
 DIRECTION + COMPASS:
-  → Imagine-Final.md — AI extend imagine-final (§7)
+  → Imagine-Final.md — AI extends Imagine-Final (§7)
   → Anchor-Schema.md — trust in collective orientation
   → Cortisol-Baseline.md v2.0 — chronic stress from displacement
+
+  STATUS:
+    ┌────────┬──────────────────────────────────────────────────────────┐
+    │ §      │ Status (English translation v3.0, 2026-06-09)            │
+    ├────────┼──────────────────────────────────────────────────────────┤
+    │ §0     │ ⭐ AI vs Human architectural table + Agency definition   │
+    │ §1     │ ⭐ 5 reasons body-feedback is irreplaceable              │
+    │ §2     │ ⭐ 3-Layer complement model + Bottleneck shift            │
+    │ §3     │ ⭐ 3-risk-type table + common confusion                  │
+    │ §4     │ ⭐ Amplifier mechanism + 5 failure domains               │
+    │ §5     │ ★ Prisoner's Dilemma + Salami Slicing + Push Back        │
+    │ §6     │ ⭐ Species risk note + logical dead-end                   │
+    │ §7     │ ⭐ Efference copy levels + 5 modes + Melody Accelerator  │
+    │ §8     │ ⭐ 5 human upgrades + hardware upgrade                   │
+    │ §9     │ ⭐ Collective orientation = decisive factor               │
+    │ §10    │ ⭐ 2-axis × 3-level 2D space                             │
+    │ §11    │ ⭐ 🟢/🟡/🔴 + 7 open questions                          │
+    │ §12    │ Cross-references + status                               │
+    └────────┴──────────────────────────────────────────────────────────┘
 ```
 
----
-
-> *Human × AI Future v3.0 — "AI mạnh lên là inevitable. Nhưng AI không có agency.*
-> *Không body-needs → không drive → không tự quyết.*
-> *Mọi 'rủi ro AI' = rủi ro quyết định của người qua tool.*
-> *3 loại risk: cá nhân (amplifier), xã hội (arms race), loài (robot+body-base, rất xa).*
-> *Tương lai = 2D space: mức tích hợp (screen → robot → BCI) × mức phân hóa xã hội.*
-> *Framework predict Cấp 1+2. Cấp 3 (BCI) = ngoài scope — thay đổi kiến trúc.*
-> *Collective push-back possible vì AI không resist. Symbiosis = hướng tối ưu.*
-> *Câu hỏi thật: con người có đủ collective orientation để CHỌN cách dùng AI phù hợp?"*
+> *Human × AI Future v3.0 — "AI growing stronger is inevitable. But AI has no agency.*
+> *No body-needs → no drive → no self-direction.*
+> *Every 'AI risk' = the risk of human decisions made through a tool.*
+> *3 risk types: individual (amplifier), social (arms race), species (robot+body-base, very far off).*
+> *The future = 2D space: integration level (screen → robot → BCI) × degree of social stratification.*
+> *Framework predicts Levels 1+2. Level 3 (BCI) = outside scope — changes the foundation.*
+> *Collective push-back is possible because AI won't resist. Symbiosis = the optimal direction.*
+> *The real question: do humans have enough collective orientation to CHOOSE the right way to use AI?"*
+> — Human-AI-Future v3.0

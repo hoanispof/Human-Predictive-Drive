@@ -1,56 +1,50 @@
-# Feeling Research — Research Foundation và Applications
+---
+title: "Feeling Research — Research Foundation and Applications"
+version: 1.0
+status: DRAFT v1.0
+language: English primary
+purpose: >
+  Research foundation for the Feeling concept + distinctions with related concepts
+  + 7 applications (decisions, expertise, creativity, social, mental health, AI, learning).
+  Honest about limits of current neuroscience.
+  Positions framework within existing literature.
+position: Core-Deep-Dive/Body-Base/Feeling/ (final file in original Feeling folder)
+prerequisites:
+  - Feeling.md §1 (definition), §2 (7-layer), §5 (evolutionary)
+  - Feeling-Sources.md (channels foundation)
+  - Feeling-Accuracy.md (error modes, literacy)
+primary_sources:
+  - "🟢 Damasio 1994, 1996, 1999, 2010 (somatic marker + feeling of self)"
+  - "🟢 Gendlin 1978 + clinical tradition (felt sense)"
+  - "🟢 Craig 2002, 2009, 2013 (interoception, insula)"
+  - "🟢 Panksepp 1998, 2012 (affective neuroscience)"
+  - "🟢 Gallese 2007 (embodied simulation)"
+  - "🟢 Kahneman 2011 (dual process, System 1)"
+  - "🟡 Porges 1995+ (polyvagal — controversial)"
+  - "🟢 Barrett 2017 (emotional granularity)"
+  - "🟢 Eisenberger 2003 (social pain)"
+  - "🟢 Klein 1998 (naturalistic decision)"
+  - "🟢 Kounios 2014 (insight neuroscience)"
+confidence: "🟢 Research well-established | 🟡 Framework synthesis is integration | 🔴 Some applications speculative"
+---
 
-> **Damasio: "Not I think, therefore I am — but I feel, therefore I am."**
-> **Gendlin: "Body knows what mind cannot yet say."**
-> **Craig: "How do you feel? The question itself shows the answer
->   is interoceptive."**
-> **Panksepp: "Animals have affect systems too."**
-> **Kahneman: "System 1 runs on feelings."**
+> *Damasio: "Not I think, therefore I am — but I feel, therefore I am."*
+> *Gendlin: "Body knows what mind cannot yet say."*
+> *Craig: "How do you feel? The question itself shows the answer is interoceptive."*
+> *Panksepp: "Animals have affect systems too."*
+> *Kahneman: "System 1 runs on feelings."*
 >
-> Framework "Feeling" concept KHÔNG phải invented từ đầu.
-> Nó là SYNTHESIS từ 7+ research streams đã có từ 50-100 năm.
-> Framework's contribution: UNIFIED picture + 7-layer structure
+> The "Feeling" concept in this framework is NOT invented from scratch.
+> It is a SYNTHESIS of 7+ research streams that have existed for 50-100 years.
+> Framework contribution: UNIFIED picture + 7-layer structure
 > + evolutionary framing + AI era positioning.
 >
-> File này: research foundation detail + distinctions with related
-> concepts + 7 applications (decisions, expertise, creativity,
-> social, mental health, AI, learning).
+> This file: research foundation detail + distinctions with related concepts
+> + 7 applications (decisions, expertise, creativity, social, mental health, AI, learning).
 
 ---
 
-> **Trạng thái:** DRAFT v1.0 — file 4/4 của Feeling/ folder (FINAL)
-> **Ngày:** 2026-04-13
-> **Mục đích:** Research foundation cho Feeling concept + distinctions
-> với related concepts + applications cụ thể. Honest về limits của
-> current neuroscience. Positioning framework trong existing literature.
-> **Vị trí:** Core-Deep-Dive/Feeling/ (file cuối)
-> **Flow đọc:**
->   Feeling.md (foundation)
->   Feeling-Sources.md (WHERE)
->   Feeling-Accuracy.md (HOW PFC reads)
->   **Feeling-Research.md** (file NÀY — research + applications)
-> **Tiền đề:**
->   Feeling.md (§1 definition, §2 7-layer, §5 evolutionary)
->   Feeling-Sources.md (channels foundation)
->   Feeling-Accuracy.md (error modes, literacy)
-> **Primary research sources:**
->   🟢 Damasio 1994, 1996, 1999, 2010 (somatic marker + feeling of self)
->   🟢 Gendlin 1978 + clinical tradition (felt sense)
->   🟢 Craig 2002, 2009, 2013 (interoception, insula)
->   🟢 Panksepp 1998, 2012 (affective neuroscience)
->   🟢 Gallese 2007 (embodied simulation)
->   🟢 Kahneman 2011 (dual process, System 1)
->   🟡 Porges 1995+ (polyvagal — controversial)
->   🟢 Barrett 2017 (emotional granularity)
->   🟢 Eisenberger 2003 (social pain)
->   🟢 Klein 1998 (naturalistic decision)
->   🟢 Kounios 2014 (insight neuroscience)
-> **⚠️ 🟢 Research well-established, 🟡 Framework synthesis is integration, 🔴 some applications speculative**
-> **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
-
----
-
-## Mục lục
+## Table of Contents
 
 - §0 — OVERVIEW
 - §1 — DISTINCTIONS (Feeling vs Related Concepts)
@@ -173,11 +167,12 @@
     → Categories are cultural
 
   → Framework: compatible with Feel-Labeling insight
-    Raw body state (Feel-Consciousification) is universal, labels (Feel-Labeling) are cultural
+    Raw body state (Feel-Consciousification) is universal,
+    labels (Feel-Labeling) are cultural
 
 
   WHY THE DISTINCTION MATTERS:
-    → "Feeling" in everyday = often synonymous with "emotion"
+    → "Feeling" in everyday speech often synonymous with "emotion"
     → Reader assumes narrow meaning
     → Framework must explicitly broaden
     → Entire Feeling.md §1.2 dedicated to this disclaimer
@@ -207,17 +202,17 @@
     → Precision variable
 
   EXAMPLES:
-    Sensation: "Mùi cà phê" (olfactory alone)
-    Feeling: "Cảm thấy ấm cúng khi ngửi cà phê sáng"
-             (olfaction + memory schema + valence + body state)
+    Sensation: "The smell of coffee" (olfactory alone)
+    Feeling:   "Warmth and comfort when you smell coffee in the morning"
+               (olfaction + memory schema + valence + body state)
 
     Sensation: "Touch on arm"
-    Feeling: "Comfort from this person's touch"
-             (touch + trust schema + oxytocin + regulation)
+    Feeling:   "Comfort from this person's touch"
+               (touch + trust schema + oxytocin + regulation)
 
     Sensation: "Cold temperature"
-    Feeling: "Bone-chilled lonely winter feeling"
-             (temperature + memory + mood + schema)
+    Feeling:   "Bone-chilled, lonely winter feeling"
+               (temperature + memory + mood + schema)
 
 
   OVERLAP ZONES:
@@ -399,7 +394,7 @@
 
 
   TERMINOLOGY:
-    → "Gut feeling" is everyday word
+    → "Gut feeling" is everyday language
     → Framework can use it for visceral-heavy feelings
     → Don't overload into technical definition
 ```
@@ -426,14 +421,14 @@
 
 
   EXAMPLES:
-    Acute feeling: "Vui khi nhận tin tốt"
-    Mood: "Hôm nay tâm trạng vui"
+    Acute feeling: "Happy when receiving good news"
+    Mood:          "In a good mood today"
 
-    Acute feeling: "Giận khi bị cắt đường"
-    Mood: "Dạo này hay cáu kỉnh"
+    Acute feeling: "Angry when a driver cuts me off"
+    Mood:          "Been irritable lately"
 
-    Acute feeling: "Buồn khi nghe tin xấu"
-    Mood: "Mấy tuần nay buồn không rõ lý do"
+    Acute feeling: "Sad upon hearing bad news"
+    Mood:          "Sad for weeks without a clear reason"
 
 
   CLINICAL DISTINCTION:
@@ -982,7 +977,8 @@
     → Effortful + limited capacity
     → Can override System 1 (sometimes)
     → Required for novel problems
-    → → In framework terms: PFC Feel-Location/Feel-Labeling/Feel-Explanation analytical processing
+    → → In framework terms: PFC Feel-Location/Feel-Labeling/Feel-Explanation
+          analytical processing
 
   CORE INSIGHT:
     System 1 is dominant; System 2 is slow and often rationalizes
@@ -1032,15 +1028,15 @@
     → Integration needed for wise decisions
     → Biases explained as compiled misfires
 
-    ⭐ UPDATE 2026-04-17 — Source-based distinction (Logic-Feeling.md §1):
-    → Framework REFINES Kahneman: phân biệt bằng SOURCE, không bằng SPEED.
+  ⭐ FRAMEWORK REFINEMENT (Logic-Feeling.md §1):
+    → Framework REFINES Kahneman: the distinction is by SOURCE, not by SPEED.
       Logic = rules-sourced processing (compiled rules/patterns)
       Feeling = body-sourced processing (integrated body feedback)
-    → Cả 2 có thể NHANH nếu compiled đủ sâu:
-      Logic compiled: "2+3=5" = instant (nhưng vẫn rules-sourced)
-      Feeling compiled: "mẹ buồn" = instant (nhưng vẫn body-sourced)
-    → Speed KHÔNG phải marker phân biệt — SOURCE mới là.
-    → Kahneman "fast vs slow" = useful heuristic, nhưng framework precise hơn.
+    → Both CAN be fast if sufficiently compiled:
+      Logic compiled: "2+3=5" = instant (but still rules-sourced)
+      Feeling compiled: "Mom is sad" = instant (but still body-sourced)
+    → Speed is NOT the distinguishing marker — SOURCE is.
+    → Kahneman's "fast vs slow" = useful heuristic, but framework is more precise.
 
 
   POSITION:
@@ -1279,11 +1275,11 @@
      → Most daily decisions run on feelings correctly
 
   ② MEDIUM DECISIONS
-     → Job offer accept or decline?
+     → Job offer: accept or decline?
      → Preview feelings for each path
      → Check body when imagining each option
      → Integrate with logic analysis
-     → "Both options, which feels more right?"
+     → "Between both options, which feels more right?"
 
   ③ LARGE DECISIONS
      → Marriage, career, major moves
@@ -1381,7 +1377,7 @@
     → "Feel" bug likely here
     → Code smell recognition
     → Pattern matching against history
-    → Novice: prints everywhere, slow
+    → Novice: add print statements everywhere, slow
 
   ── PILOTS ──
     → Klein's research on firefighter decisions
@@ -1565,7 +1561,7 @@
 
 
   LOVE AS MULTI-CHANNEL (Feeling-Sources.md §12):
-    → "Yêu em" = 9+ channels convergence
+    → "I love you" = 9+ channels converging simultaneously
     → Long-term compiled state
     → Ineffable = compression phenomenon
     → Not mystical, but dense
@@ -1582,7 +1578,7 @@
 
   ① READING OWN FEELINGS BEFORE EXPRESSING
      → "I feel X" requires accurate reading
-     → Bad literacy → confused communication
+     → Poor literacy → confused communication
      → Good literacy → clear expression
 
   ② DISTINGUISHING MIRRORED VS OWN
@@ -1738,7 +1734,8 @@
 
   CORE CLAIM:
     AI can simulate Feel-Labeling/Feel-Explanation (language) very well.
-    AI CANNOT have Feel-RawSignals through Feel-Consciousification (no body, no interoception).
+    AI CANNOT have Feel-RawSignals through Feel-Consciousification
+    (no body, no interoception).
     → AI cannot have "real feeling" in framework sense.
     → Human feeling literacy = irreplaceable advantage.
 
@@ -1763,7 +1760,8 @@
     ✗ Have compiled body-level wisdom
     ✗ Affective empathy (body mirror)
 
-  These require Feel-RawSignals through Feel-Consciousification, which AI lacks.
+  These require Feel-RawSignals through Feel-Consciousification,
+  which AI lacks.
 
 
   CAVEATS AND PHILOSOPHICAL LIMITS:
@@ -1812,7 +1810,6 @@
   ③ TEACHING YOUNG CHILDREN
      → Emotional scaffolding for development
      → Body-level modeling
-     → Mother-Opt file principles
 
   ④ ARTISTIC CREATION
      → Body-felt aesthetic judgment
@@ -1839,7 +1836,7 @@
 
   RISK OF OVER-RELIANCE ON AI:
     → Outsourcing cognition may atrophy unused capacity
-    → If people don't develop feeling literacy, becomes lost skill
+    → If people don't develop feeling literacy, it becomes a lost skill
     → Framework concern: literacy needs cultivation
     → Don't let AI substitute where body-based is needed
 
@@ -1850,20 +1847,23 @@
     → Complementary, not competing
     → Human flourishing in AI era = cultivate embodied capacities
 
-    ⭐ UPDATE 2026-04-17 — AI = LOGIC AMPLIFIER (Logic-Planning.md §6):
-    → AI cực mạnh ở LOGIC territory: tìm label, lên plan, check logic,
-      cross-reference, format translate. AI chain rules TỐT HƠN con người.
-    → AI KHÔNG mạnh ở FEELING territory: không có body-input, không feel,
-      không detect novel patterns ngoài training, không coherence-check bằng body.
-    → = AI = Logic AMPLIFIER, không phải Feeling REPLACER.
-    → Implication: AI era shift Logic-Feeling balance:
-      Logic side: AI hỗ trợ → con người KHÔNG CẦN strong logic alone
-      Feeling side: AI KHÔNG thay thế → con người CẦN strong feeling hơn bao giờ hết
-    → = FEELING LITERACY = kỹ năng QUAN TRỌNG NHẤT trong AI era:
-      1. Feel cho đúng → biết mình MUỐN GÌ (Imagine-Final từ feeling)
-      2. Articulate cho đúng → biến feeling thành label (để AI hỗ trợ tiếp)
-      3. Check bằng feeling → plan AI đề xuất có "sao sao" không
-    → = "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng."
+  ⭐ AI = LOGIC AMPLIFIER (Logic-Planning.md §6):
+    → AI is strongest in the LOGIC territory: finding labels, building plans,
+      checking logic, cross-referencing, translating formats. AI chains
+      rules BETTER than humans.
+    → AI is NOT strong in the FEELING territory: no body-input, cannot feel,
+      cannot detect novel patterns outside training, cannot do coherence-checks
+      via body.
+    → = AI = Logic AMPLIFIER, not Feeling REPLACER.
+    → Implication: AI era shifts the Logic-Feeling balance:
+        Logic side: AI supports → humans DON'T NEED strong logic alone
+        Feeling side: AI CANNOT substitute → humans need strong feeling
+                      more than ever
+    → = FEELING LITERACY = the MOST IMPORTANT skill in the AI era:
+        1. Feel accurately → know what you WANT (Imagine-Final from feeling)
+        2. Articulate clearly → translate feeling into label (so AI can help)
+        3. Verify with feeling → check whether AI's plan "feels off"
+    → = "Humans need to FEEL right → AI will help PLAN right."
 
 
   CONFIDENCE:
@@ -1900,8 +1900,8 @@
 
 
   COMPREHENSION FEELINGS:
-    → "Hiểu rồi" (aha)
-    → "Click" moment
+    → "I get it now" (aha)
+    → The "click" moment
     → Body sense of integration
     → Distinct from "I can recite this"
 
@@ -1924,8 +1924,8 @@
      → Students without literacy often miss this
      → → Move on without real learning
 
-  ② NOTICING "DOES UNDERSTAND" FEELING
-     → Click sensation
+  ② NOTICING "DO UNDERSTAND" FEELING
+     → The click sensation
      → Body confirms integration
      → Feel-Consciousification/Feel-Observation signal
      → Not same as "can recite"
@@ -2065,7 +2065,7 @@
 
 
   HONEST META-NOTE:
-    Framework is developed based on user's own experience +
+    Framework is developed based on the author's own experience +
     reading + conversation-based synthesis. It is NOT:
     → A peer-reviewed theory
     → Empirically validated as a unit
@@ -2073,7 +2073,7 @@
     It IS:
     → Internally consistent
     → Grounded in multiple research streams
-    → Practically useful (for user + similar minds)
+    → Practically useful
     → Honest about its own status
 ```
 
@@ -2088,7 +2088,7 @@
   Feeling.md §2          — 7-layer structure
   Feeling.md §5          — Evolutionary framing
   Feeling-Sources.md     — Channels producing feelings
-  Feeling-Sources.md §12 — "Yêu em" case study
+  Feeling-Sources.md §12 — "I love you" multi-channel case study
   Feeling-Accuracy.md §1-3 — PFC reading + error modes
   Feeling-Accuracy.md §4 — Pain special case
   Feeling-Accuracy.md §5-8 — Literacy training
@@ -2096,16 +2096,16 @@
 
 📚 FRAMEWORK DEPENDENCIES:
 
-  Core-v7.5-Draft.md                — L0+L1 body-base substrate
-  Somatic-Articulation-Loop.md      — Body → words process
-  Domain/Valence.md                 — Compiled feelings
-  Domain/Domain-Mechanisms.md §1    — Mirror mechanism
-  Domain/Domain-Mechanisms.md §5    — Empathy redefine
-  Imagine-Final.md                  — Preview feelings
-  Logic-Modeling.md                 — Logic + Feeling parallel
-  PFC-Analysis.md                   — PFC capacity
-  Body-Dissonance.md                — Specific signals
-  Drive.md                          — Feeling → action
+  Core-Software.md                   — L0+L1 body-base substrate
+  Somatic-Articulation-Loop.md       — Body → words process
+  Domain/Valence.md                  — Compiled feelings
+  Domain/Domain-Mechanisms.md §1     — Mirror mechanism
+  Domain/Domain-Mechanisms.md §5     — Empathy redefine
+  Imagine-Final.md                   — Preview feelings
+  Logic-Feeling.md                   — Logic + Feeling parallel
+  PFC-Analysis.md                    — PFC capacity
+  Body-Dissonance.md                 — Specific signals
+  Drive.md                           — Feeling → action
 
 
 📚 CHILD DEVELOPMENT FILES:
@@ -2198,18 +2198,12 @@
 
 > **END OF Feeling-Research.md**
 >
-> **END OF Feeling/ FOLDER (4/4 files complete)**
->
 > **Framework position:** Research grounding + applications file.
-> Closes the Feeling concept arc. Next steps per plan.md §12:
->   1. Update framework cross-references
->   2. Return to Agent-2Axis integration
->   3. Logic-Modeling rename decision
->   4. Living pattern input analysis
->   5. Core-v7.5-Draft.md update
+> Closes the research arc for the Feeling concept.
+> Core claims grounded in multiple independent research streams.
+> Framework contribution: unified synthesis + 7-layer structure
+> + evolutionary framing + AI era positioning.
 >
 > **Quality note:** 🟢 Research streams well-supported.
 > 🟡 Framework integration + applications are synthesis.
 > 🔴 Philosophical claims (consciousness, AI limits) honest about uncertainty.
->
-> **Total Feeling/ folder:** ~6,600 lines across 4 files + plan.md

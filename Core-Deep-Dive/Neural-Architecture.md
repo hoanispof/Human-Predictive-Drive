@@ -1,58 +1,58 @@
+# Neural-Architecture — Physical Neural Map for the Framework
+
 ---
-title: Neural-Architecture — Bản Đồ Sinh Lý Neural cho Framework
+title: Neural-Architecture — Physical Neural Map for the Framework
 version: 1.2
 created: 2026-04-19
 refined: 2026-06-04 (v1.2 — +§7 Bilateral Architecture: horizontal Left↔Right connectivity, corpus callosum, lateralization, "unity = emergent from harmony" principle. Sections renumbered: old §7-§10 → §8-§11)
 previous: 2026-05-23 (v1.1 — Concept Cascade: +Simulation-Engine, +Entity-Access, +modality mapping refinement)
 status: v1.2 REFERENCE FILE
 scope: |
-  Physical map của neural systems: PFC, Cortical Modality Areas,
+  Physical map of neural systems: PFC, Cortical Modality Areas,
   Subcortical Structures, Peripheral Neural Systems.
   WHAT connects WHERE. WHO does WHAT. PFC reach LIMITS.
   v1.2: +Bilateral Architecture (Left↔Right), corpus callosum integration layer.
-  Functional map cho framework — không phải neuroscience textbook.
+  Functional map for the framework — not a neuroscience textbook.
 purpose: |
-  Nền tảng sinh lý cho Core-v7.8-Draft.md.
-  Thay thế "Unconscious" box mờ bằng liệt kê CỤ THỂ.
-  Mỗi claim = verifiable, specific brain area, citable research.
-  Mainstream researcher có thể trực tiếp: công nhận / phản đối / tinh chỉnh.
+  Physical foundation for Core-v7.8-Draft.md.
+  Replaces the vague "Unconscious" box with SPECIFIC enumeration.
+  Each claim = verifiable, specific brain area, citable research.
+  Mainstream researchers can directly: confirm / challenge / refine.
 principle: |
-  Chỉ liệt kê những gì research ĐÃ CÔNG BỐ.
-  Không bịa vùng não không tồn tại.
-  Thẳng thắn về những gì CHƯA RÕ.
-  Map domain real về neural — kết quả thực tế chỉ có một.
+  Only list what research HAS PUBLISHED.
+  Do not fabricate non-existent brain regions.
+  Honest about what is NOT YET CLEAR.
+  Mapping the real neural domain — real-world results have only one answer.
 related: |
-  Neural-Processing-Flow.md — signal pathways chi tiết (sensor → cortex)
+  Neural-Processing-Flow.md — signal pathway detail (sensor → cortex)
   Modality-Analysis.md — modality encoding analysis
-  Chunk.md v2.0 — chunk mechanism chạy trên neural substrate
-  Core-v7.8-Draft.md — kiến trúc tổng thể dùng file này làm physical map
-language: Tiếng Việt primary + English technical terms
+  Chunk.md v2.0 — chunk mechanism running on neural substrate
+  Core-v7.8-Draft.md — overall architecture uses this file as physical map
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Neural-Architecture — Bản Đồ Sinh Lý Neural cho Framework
-
-> **Framework nói "chunks compile", "PFC observe", "body-feedback fire".**
-> Nhưng xảy ra Ở ĐÂU trong cơ thể? Vùng não NÀO? Con đường NÀO?
+> **The framework says "chunks compile", "PFC observes", "body-feedback fires."**
+> But WHERE in the body does this happen? WHICH brain region? Which pathway?
 >
-> File này: bản đồ SINH LÝ — map framework concepts lên physical neural systems.
+> This file: the PHYSICAL map — mapping framework concepts onto physical neural systems.
 >
-> **Không dùng "Unconscious" như 1 box mờ.**
-> Thay vào đó: liệt kê CỤ THỂ từng vùng, từng function, từng connection.
-> Mainstream researcher có thể nhìn vào từng dòng và verify/challenge.
+> **Does not use "Unconscious" as a vague box.**
+> Instead: specifically enumerating each region, each function, each connection.
+> Mainstream researchers can look at each line and verify/challenge.
 >
-> **4 phân vùng** (theo PFC accessibility — gradient, không binary):
+> **4 zones** (by PFC accessibility — gradient, not binary):
 >   A. PFC — observe, hold, imagine, orchestrate
->   B. Cortical Modality Areas — processing chuyên biệt, PFC có thể bias
->   C. Subcortical Structures — deep brain, PFC reach hạn chế
->   D. Peripheral Neural Systems — outside brain, PFC gần không reach
+>   B. Cortical Modality Areas — specialized processing, PFC can bias
+>   C. Subcortical Structures — deep brain, PFC reach limited
+>   D. Peripheral Neural Systems — outside brain, PFC has near-zero reach
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — TẠI SAO FILE NÀY
-- §1 — TỔNG QUAN: 4 PHÂN VÙNG
+- §0 — WHY THIS FILE
+- §1 — OVERVIEW: 4 ZONES
 - §2 — A: PFC (Prefrontal Cortex)
 - §3 — B: CORTICAL MODALITY AREAS
 - §4 — C: SUBCORTICAL STRUCTURES
@@ -60,45 +60,45 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §6 — CONNECTIVITY MAP
 - §7 — BILATERAL ARCHITECTURE: Left ↔ Right (v1.2)
 - §8 — CHUNK COMPILATION ACROSS A/B/C/D
-- §9 — IMPLICATIONS CHO FRAMEWORK
+- §9 — IMPLICATIONS FOR THE FRAMEWORK
 - §10 — HONEST ASSESSMENT
 - §11 — CROSS-REFERENCES
 
 ---
 
-## §0 — TẠI SAO FILE NÀY
+## §0 — WHY THIS FILE
 
 ```
-VẤN ĐỀ VỚI "UNCONSCIOUS":
+THE PROBLEM WITH "UNCONSCIOUS":
 
-  Framework trước dùng "Unconscious" = tất cả non-PFC processing.
-  = Gộp visual cortex + amygdala + ruột + tim + brainstem vào 1 từ.
-  = Che giấu: mỗi phần hoạt động KHÁC NHAU, function RIÊNG.
+  Earlier framework versions used "Unconscious" = all non-PFC processing.
+  = Lumping visual cortex + amygdala + gut + heart + brainstem into 1 word.
+  = Hiding the fact: each part operates DIFFERENTLY, with its own function.
 
-  Mainstream CŨNG mơ hồ:
+  Mainstream is ALSO vague:
     "Unconscious processing" = catch-all
-    "Subconscious" = mơ hồ hơn nữa
-    Không ai define rõ boundary
+    "Subconscious" = even more vague
+    No one defines the boundary clearly
 
-  NHƯNG neuroscience ĐÃ MAP khá rõ từng vùng:
-    → Vùng nào ở đâu (anatomy — 🟢 established)
-    → Vùng nào connect vùng nào (tractography — 🟢 Human Connectome Project)
-    → Vùng nào làm gì (fMRI, lesion studies — 🟢 extensive literature)
-    → = KHÔNG CẦN che giấu bằng 1 từ chung
+  BUT neuroscience HAS mapped each region fairly clearly:
+    → Where each region is (anatomy — 🟢 established)
+    → Which regions connect to which (tractography — 🟢 Human Connectome Project)
+    → What each region does (fMRI, lesion studies — 🟢 extensive literature)
+    → = NO NEED to hide behind 1 catch-all word
 
-  FILE NÀY:
-    → Liệt kê CỤ THỂ từng phần neural system
-    → Map framework concepts (chunks, PFC observe, body-feedback) lên physical areas
-    → Thẳng thắn về PFC reach limits
-    → Cho phép mainstream verify từng claim
+  THIS FILE:
+    → Specifically enumerates each part of the neural system
+    → Maps framework concepts (chunks, PFC observe, body-feedback) onto physical areas
+    → Honest about PFC reach limits
+    → Allows mainstream researchers to verify each claim
 ```
 
 ---
 
-## §1 — TỔNG QUAN: 4 PHÂN VÙNG
+## §1 — OVERVIEW: 4 ZONES
 
 ```
-🟡 4 PHÂN VÙNG THEO PFC ACCESSIBILITY (gradient, không binary):
+🟡 4 ZONES BY PFC ACCESSIBILITY (gradient, not binary):
 
   ┌─────────────────────────────────────────────────────────────┐
   │ A. PFC (Prefrontal Cortex)                                   │
@@ -107,31 +107,31 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
   │    Sub-regions: dlPFC, vlPFC, OFC, vmPFC, mPFC, ACC*         │
   ├─────────────────────────────────────────────────────────────┤
   │ B. CORTICAL MODALITY AREAS                                   │
-  │    = Processing chuyên biệt theo modality                    │
-  │    = PFC CÓ THỂ bias, gate attention, training               │
+  │    = Specialized processing by modality                      │
+  │    = PFC CAN bias, gate attention, training                  │
   │    Areas: Visual, Auditory, Language, Somatosensory,         │
   │           Motor, Insula, Parietal, Temporal, Cerebellum*     │
   ├─────────────────────────────────────────────────────────────┤
   │ C. SUBCORTICAL STRUCTURES                                    │
   │    = Deep brain structures                                   │
-  │    = PFC reach HẠN CHẾ (some direct, some indirect)          │
+  │    = PFC reach LIMITED (some direct, some indirect)          │
   │    Areas: Amygdala, Hippocampus, Thalamus, Hypothalamus,     │
   │           Basal Ganglia, Brainstem nuclei (VTA, LC, Raphe,   │
   │           PAG, NTS)                                          │
   ├─────────────────────────────────────────────────────────────┤
   │ D. PERIPHERAL NEURAL SYSTEMS                                 │
-  │    = Outside brain, trong cơ thể                             │
-  │    = PFC GẦN KHÔNG reach trực tiếp                           │
+  │    = Outside brain, within the body                          │
+  │    = PFC has NEAR-ZERO direct reach                          │
   │    Systems: ENS (gut), Spinal cord, ANS (sympathetic +       │
   │             parasympathetic), Cardiac plexus                 │
   └─────────────────────────────────────────────────────────────┘
 
-  ⚠️ 4 PHÂN VÙNG = GRADIENT, KHÔNG BINARY:
-    → PFC reach GIẢM DẦN từ A → B → C → D
-    → Không có boundary sạch sẽ giữa các vùng
-    → ACC: overlap A/C (PFC hay limbic? — debated)
+  ⚠️ 4 ZONES = GRADIENT, NOT BINARY:
+    → PFC reach DECREASES progressively from A → B → C → D
+    → No clean boundary between zones
+    → ACC: overlap A/C (PFC or limbic? — debated)
     → Cerebellum: overlap B/C (cortical-like processing, subcortical location)
-    → Insula: overlap B/C (cortical nhưng deep function)
+    → Insula: overlap B/C (cortical but deep function)
 ```
 
 ---
@@ -139,7 +139,7 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
 ## §2 — A: PFC (Prefrontal Cortex)
 
 ```
-🟢 PFC = VÙNG VỎ NÃO PHÍA TRƯỚC (frontal lobe, anterior)
+🟢 PFC = FRONTAL CORTEX (frontal lobe, anterior)
 
   SUB-REGIONS + FUNCTIONS:
 
@@ -151,7 +151,7 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
   │          │ 🟢 Fuster 1973, Goldman-Rakic 1995                    │
   ├──────────┼──────────────────────────────────────────────────────┤
   │ vlPFC    │ Response inhibition, rule maintenance                 │
-  │          │ = Framework: "inhibit compiled response khi cần"     │
+  │          │ = Framework: "inhibit compiled response when needed"  │
   │          │ 🟢 Aron et al. 2004                                   │
   ├──────────┼──────────────────────────────────────────────────────┤
   │ OFC      │ Value computation, reward expectation, flexibility    │
@@ -170,45 +170,45 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
   ├──────────┼──────────────────────────────────────────────────────┤
   │ ACC*     │ Conflict monitoring, error detection, effort          │
   │          │ = Framework: "body vote" smooth vs resistance signal  │
-  │          │ * Debated: PFC hay limbic? Functional overlap cả hai │
+  │          │ * Debated: PFC or limbic? Functional overlap in both │
   │          │ 🟢 Botvinick et al. 2004                              │
   └──────────┴──────────────────────────────────────────────────────┘
 
   PFC HARDWARE PROPERTIES:
     → Online from BIRTH (🟢 Huttenlocher 1979, Doria 2010, Kouider 2013)
     → Newborn PFC = hardware present, CHUNKS MISSING (PFC-From-Prenatal reframe)
-    → Layer 2/3 DÀY nhất → broadest cortex-cortex connectivity
+    → Layer 2/3 THICKEST → broadest cortex-cortex connectivity
     → WM capacity: ~4±1 items (🟢 Cowan 2001)
     → COMT gene: Val/Val = fast clear, Met/Met = slow clear
-    → DRD4 gene: ảnh hưởng VTA-PFC attention sensitivity
+    → DRD4 gene: influences VTA-PFC attention sensitivity
     → ~30% inhibitory neurons → strong gate/brake function
 
-  PFC TRONG FRAMEWORK:
-    → OBSERVE: đọc integrated output từ B+C qua feeling bridge
-    → HOLD: giữ chunks active trong WM (~4±1)
+  PFC IN THE FRAMEWORK:
+    → OBSERVE: reads integrated output from B+C via the feeling bridge
+    → HOLD: holds chunks active in WM (~4±1)
     → TYPE 4 LINKING: deliberate chaining ("thinking") — Chunk.md §3
-    → IMAGINATION: combine chunks → simulate chưa xảy ra
-    → DOMAIN-CHECK: verify body-smooth vs reality (Domain-Checked vs Self-Referencing)
-    → ORCHESTRATE: hold goals → bias B areas via top-down
-    → GATE: control thalamus qua TRN → chọn sensory channels
-    → INHIBIT: suppress compiled responses ("đừng nói vậy")
+    → IMAGINATION: combines chunks → simulates what has not yet occurred
+    → DOMAIN-CHECK: verifies body-smooth vs reality (Domain-Checked vs Self-Referencing)
+    → ORCHESTRATE: holds goals → biases B areas via top-down
+    → GATE: controls thalamus via TRN → selects sensory channels
+    → INHIBIT: suppresses compiled responses ("don't say that")
 
   PFC LIMITATIONS:
-    → Phải NHẬN feeling từ body — không feel trực tiếp
-    → Không compile chunks tự động — B+C compile, PFC observe
-    → Không override body-base khi signal quá mạnh
-    → Processing CHẬM hơn subcortical pathways (~200ms vs ~12ms amygdala)
-    → OFFLINE khi: say rượu (GABA), ngủ sâu (NREM),
+    → Must RECEIVE feeling from body — cannot feel directly
+    → Does not compile chunks automatically — B+C compile, PFC observes
+    → Cannot override body-base when signal is too strong
+    → Processing SLOWER than subcortical pathways (~200ms vs ~12ms amygdala)
+    → OFFLINE when: heavily intoxicated (GABA), deep sleep (NREM),
       NE α1 flood (acute threat), severe cortisol overload
 
   PFC OFFLINE — EVIDENCE:
-    🟢 Say rượu: VẪN nói (Broca), VẪN đi (motor), VẪN đánh nhau (amygdala)
-       → KHÔNG nhớ hôm sau = hippocampal encoding failure
-       → = B+C+D CHẠY BÌNH THƯỜNG không cần PFC
-    🟢 Sleepwalking: PFC offline (NREM) → VẪN đi lại, mở cửa, nấu ăn
-    🟢 Split-brain: tay trái (right hemisphere) grab → left PFC confabulate lý do
+    🟢 Heavily intoxicated: STILL speaks (Broca), STILL walks (motor), STILL fights (amygdala)
+       → No memory the next day = hippocampal encoding failure
+       → = B+C+D RUN NORMALLY without PFC
+    🟢 Sleepwalking: PFC offline (NREM) → STILL walks, opens doors, cooks
+    🟢 Split-brain: left hand (right hemisphere) grabs → left PFC confabulates a reason
        → 🟢 Sperry, Gazzaniga 1960s
-    🟢 Blindsight: V1 hỏng → BÁO "không thấy" → VẪN dodge objects
+    🟢 Blindsight: V1 damaged → REPORTS "cannot see" → STILL dodges objects
        → 🟢 Weiskrantz 1986
 ```
 
@@ -217,61 +217,61 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
 ## §3 — B: CORTICAL MODALITY AREAS
 
 ```
-🟢 CORTICAL AREAS CHUYÊN XỬ LÝ TỪNG LOẠI THÔNG TIN:
+🟢 CORTICAL AREAS SPECIALIZED FOR EACH TYPE OF INFORMATION:
 
-  Cùng 6-layer architecture (🟢 Mountcastle 1957),
-  khác ở wiring + layer thickness + receptor density.
-  PFC CÓ THỂ interact qua Layer 2/3 connections + TRN gating.
-  TÁCH BIỆT khỏi PFC (🟢 Fedorenko et al. 2024 — dissociable networks).
+  Same 6-layer architecture (🟢 Mountcastle 1957),
+  differ in wiring + layer thickness + receptor density.
+  PFC CAN interact via Layer 2/3 connections + TRN gating.
+  DISSOCIABLE from PFC (🟢 Fedorenko et al. 2024 — dissociable networks).
 
 
   ┌─────────────────────────────────────────────────────────────────┐
   │ VISUAL CORTEX (V1-V5, IT, FFA)                                  │
   │   Location: Occipital lobe                                      │
-  │   Function: hình ảnh, pattern, faces, spatial, motion            │
+  │   Function: images, patterns, faces, spatial, motion            │
   │   Hierarchy: V1(edges) → V2(contours) → V4(shapes) → IT(objects)│
-  │   PFC reads IT (compiled patterns), KHÔNG đọc V1 (raw pixels)  │
-  │   Framework: chunks visual compile ở đây                        │
-  │   PFC bias: "tìm mặt người" → FFA amplify                      │
+  │   PFC reads IT (compiled patterns), does NOT read V1 (raw pixels)│
+  │   Framework: visual chunks compile here                         │
+  │   PFC bias: "find human faces" → FFA amplifies                  │
   │   🟢 Hubel & Wiesel 1959 (Nobel), Kanwisher 1997 (FFA)          │
   ├─────────────────────────────────────────────────────────────────┤
   │ AUDITORY CORTEX (A1, Heschl's gyrus)                             │
   │   Location: Temporal lobe (superior temporal gyrus)              │
-  │   Function: âm thanh, giọng nói, rhythm, pitch, music           │
-  │   Tonotopic mapping: tần số → vị trí trên cortex                │
-  │   Framework: chunks auditory compile ở đây                      │
+  │   Function: sound, speech, rhythm, pitch, music                 │
+  │   Tonotopic mapping: frequency → position on cortex             │
+  │   Framework: auditory chunks compile here                       │
   │   🟢 Hickok & Poeppel 2007 (dual stream model)                   │
   ├─────────────────────────────────────────────────────────────────┤
   │ LANGUAGE AREAS (Broca + Wernicke + Arcuate fasciculus)           │
-  │   Broca (frontal): sản xuất ngôn ngữ + sequential processing    │
-  │   Wernicke (temporal): hiểu ngôn ngữ                             │
-  │   Arcuate fasciculus: white matter tract nối Broca ↔ Wernicke    │
-  │   ⭐ TÁCH BIỆT khỏi PFC reasoning (🟢 Fedorenko et al. 2024):   │
-  │     Language network = "natural kind" — dissociable từ           │
+  │   Broca (frontal): language production + sequential processing  │
+  │   Wernicke (temporal): language comprehension                    │
+  │   Arcuate fasciculus: white matter tract connecting Broca ↔ Wernicke│
+  │   ⭐ DISSOCIABLE from PFC reasoning (🟢 Fedorenko et al. 2024): │
+  │     Language network = "natural kind" — dissociable from        │
   │     Multiple Demand network (PFC reasoning)                      │
-  │     → Hỏng language: không nói, VẪN reasoning ✓                 │
-  │     → Hỏng MD: không reasoning, VẪN nói ✓                       │
-  │   Say rượu VẪN nói = language areas chạy không cần PFC           │
-  │   Framework: communication modality, label system, sequential    │
+  │     → Language damaged: cannot speak, STILL reasons ✓           │
+  │     → MD damaged: cannot reason, STILL speaks ✓                 │
+  │   Intoxicated STILL speaks = language areas run without PFC     │
+  │   Framework: communication modality, label system, sequential   │
   │   🟢 Fedorenko, Ivanova & Regev 2024 (Nature Reviews Neuroscience)│
   ├─────────────────────────────────────────────────────────────────┤
   │ SOMATOSENSORY CORTEX (S1, S2)                                    │
   │   Location: Parietal lobe (postcentral gyrus)                    │
   │   Function: touch, pressure, proprioception, body position       │
   │   Somatotopic mapping (homunculus): body → cortex position       │
-  │   Framework: body-knowledge chunks compile ở đây                 │
+  │   Framework: body-knowledge chunks compile here                 │
   │   🟢 Penfield & Boldrey 1937                                      │
   ├─────────────────────────────────────────────────────────────────┤
   │ MOTOR CORTEX (M1) + PREMOTOR + SUPPLEMENTARY MOTOR              │
   │   Location: Frontal lobe (precentral gyrus)                      │
   │   Function: voluntary movement execution                        │
-  │   PFC hold intention → premotor plan → M1 execute → spinal cord │
-  │   Framework: motor chunks auto-execute (PFC hold "viết con chó")│
+  │   PFC holds intention → premotor plans → M1 executes → spinal cord│
+  │   Framework: motor chunks auto-execute (PFC holds "write dog")  │
   │   🟢 Penfield 1950, Rizzolatti & Luppino 2001                    │
   ├─────────────────────────────────────────────────────────────────┤
   │ CEREBELLUM ⭐                                                     │
-  │   Location: posterior fossa (dưới occipital)                     │
-  │   Function: KHÔNG CHỈ motor — CŨNG cognitive + emotional         │
+  │   Location: posterior fossa (below occipital)                    │
+  │   Function: NOT ONLY motor — ALSO cognitive + emotional          │
   │     Motor: timing, coordination, skill refinement                │
   │     Cognitive: Crus I, II — social mentalizing, language          │
   │     Emotional: lobule IX — affective processing                  │
@@ -281,13 +281,13 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
   │   🟢 2024 meta-analysis: 1,000+ fMRI, 44,500 participants        │
   ├─────────────────────────────────────────────────────────────────┤
   │ INSULA (anterior + posterior) ⭐                                  │
-  │   Location: deep trong lateral sulcus                            │
+  │   Location: deep within lateral sulcus                           │
   │   Posterior: raw interoceptive signals arrive                     │
   │   Mid: re-representation                                         │
   │   Anterior: INTEGRATION HUB — all subjective feelings            │
   │   Von Economo neurons: rapid interhemispheric communication      │
   │   Framework: self-signal interoception KEYSTONE (§4.2.3.9)       │
-  │   Craig propose: anterior insula = neural correlate of awareness │
+  │   Craig proposes: anterior insula = neural correlate of awareness│
   │   🟢 Craig 2002, 2009 (Nature Reviews Neuroscience)               │
   ├─────────────────────────────────────────────────────────────────┤
   │ PARIETAL CORTEX (posterior parietal, angular gyrus)               │
@@ -306,12 +306,12 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
   │   🟢 Martin 2007                                                   │
   └─────────────────────────────────────────────────────────────────┘
 
-  MODALITY BALANCE = development level của các areas này:
-    → Người visual dominant = V1-IT developed mạnh
-    → Người somatic dominant = insula developed mạnh
+  MODALITY BALANCE = development level of these areas:
+    → Visually dominant individuals = V1-IT more developed
+    → Somatically dominant individuals = insula more developed
     → = Brain-wide HARDWARE property
-    → Ảnh hưởng: hướng chunk compile, chất lượng chunk
-    → PFC KHÔNG quyết định modality balance — PFC dùng OUTPUT
+    → Affects: direction of chunk compilation, quality of chunks
+    → PFC does NOT determine modality balance — PFC uses the OUTPUT
 ```
 
 ---
@@ -319,26 +319,26 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
 ## §4 — C: SUBCORTICAL STRUCTURES
 
 ```
-🟢 DEEP BRAIN STRUCTURES — PFC reach HẠN CHẾ (gradient):
+🟢 DEEP BRAIN STRUCTURES — PFC reach LIMITED (gradient):
 
   ┌─────────────────────────────────────────────────────────────────┐
   │ AMYGDALA                                                         │
   │   Location: medial temporal lobe (bilateral)                     │
   │   Function: threat/reward tagging, fear conditioning, emotional  │
   │     salience evaluation                                         │
-  │   Timeline: fire 12ms (subcortical visual pathway) — TRƯỚC PFC   │
+  │   Timeline: fires at 12ms (subcortical visual pathway) — BEFORE PFC│
   │   PFC reach: vmPFC → amygdala DIRECT (uncinate fasciculus)       │
-  │     → PFC CÓ THỂ modulate amygdala SAU khi nó đã fire           │
-  │     → PFC KHÔNG THỂ ngăn amygdala fire lần đầu                  │
-  │     → Extinction learning: vmPFC gradually recalibrate amygdala  │
-  │   Framework: threat detection, emotional peak compile, Precondition-5 tag │
+  │     → PFC CAN modulate amygdala AFTER it has already fired      │
+  │     → PFC CANNOT prevent amygdala's first firing                │
+  │     → Extinction learning: vmPFC gradually recalibrates amygdala │
+  │   Framework: threat detection, emotional peak compile, Precondition-5 tag│
   │   🟢 LeDoux 1996, Phelps et al. 2004, Ghashghaei et al. 2007    │
   ├─────────────────────────────────────────────────────────────────┤
   │ HIPPOCAMPUS                                                      │
   │   Location: medial temporal lobe                                 │
   │   Function: memory encoding, spatial navigation, consolidation   │
   │   Role: temporary storage → replay during sleep → cortical chunks│
-  │   Alcohol → block hippocampal LTP → blackout (encoding failure)  │
+  │   Alcohol → blocks hippocampal LTP → blackout (encoding failure) │
   │     = Short-term memory INTACT, long-term transfer BLOCKED       │
   │   Framework: chunk compile gateway, sleep consolidation mechanism│
   │   🟢 Scoville & Milner 1957 (patient HM), White 2003 (blackout)  │
@@ -348,7 +348,7 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
   │   Location: central brain (diencephalon)                         │
   │   Function: GATEWAY — relay + filter sensory → cortex             │
   │   TRN (Thalamic Reticular Nucleus): PFC CAN gate via TRN         │
-  │   Each sense has own nucleus (LGN visual, MGN auditory,...)       │
+  │   Each sense has its own nucleus (LGN visual, MGN auditory, ...) │
   │   Exception: olfaction BYPASSES thalamus entirely                 │
   │   Framework: attention gating mechanism                          │
   │   🟢 Sherman & Guillery 2006, McAlonan et al. 2008               │
@@ -368,7 +368,7 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
   │     → Associative loop: PFC ↔ caudate (flexible, goal-directed)  │
   │     → Sensorimotor loop: premotor ↔ putamen (habitual, automatic)│
   │     → Limbic loop: OFC/ACC ↔ NAc (reward/motivation)             │
-  │   Habit = shift từ associative → sensorimotor loop               │
+  │   Habit = shift from associative → sensorimotor loop             │
   │   Framework: chunk compilation pathway, habit = compiled chunks   │
   │   🟢 Yin & Knowlton 2006, 2025 Trends in Neurosciences           │
   ├─────────────────────────────────────────────────────────────────┤
@@ -376,19 +376,20 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
   │                                                                   │
   │   VTA (Ventral Tegmental Area):                                  │
   │     → Dopamine source → prediction-delta signals                  │
-  │     → Fires on: positive prediction-delta (input > expected)                    │
-  │     → Framework: delta rule, Body-Feedback-Precondition Precondition-3 Delta-Gate VTA threshold │
+  │     → Fires on: positive prediction-delta (input > expected)      │
+  │     → Framework: delta rule, Body-Feedback-Precondition          │
+  │       Precondition-3 Delta-Gate VTA threshold                    │
   │     → 🟢 Schultz 1997 (prediction error)                          │
   │                                                                   │
   │   LC (Locus Coeruleus):                                          │
   │     → Norepinephrine source → arousal, attention, alertness       │
   │     → HIGH NE → α1 receptors → PFC DISCONNECT (circuit breaker)  │
-  │     → Framework: NE acute freeze (§9.1 Cortisol-Baseline)        │
+  │     → Framework: NE acute freeze (Cortisol-Baseline §9.1)        │
   │     → 🟢 Arnsten 2009, 2015                                       │
   │                                                                   │
   │   Raphe Nuclei:                                                   │
   │     → Serotonin source → mood baseline, gut function              │
-  │     → 95% serotonin produced IN GUT                               │
+  │     → 95% of serotonin produced IN GUT                            │
   │     → Framework: mood stability, status baseline                  │
   │                                                                   │
   │   PAG (Periaqueductal Gray):                                     │
@@ -421,7 +422,7 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
 ## §5 — D: PERIPHERAL NEURAL SYSTEMS
 
 ```
-🟢 NEURAL SYSTEMS NGOÀI NÃO — PFC GẦN KHÔNG REACH TRỰC TIẾP:
+🟢 NEURAL SYSTEMS OUTSIDE THE BRAIN — PFC has NEAR-ZERO DIRECT REACH:
 
   ┌─────────────────────────────────────────────────────────────────┐
   │ ENTERIC NERVOUS SYSTEM (ENS — "Second Brain")                   │
@@ -430,13 +431,14 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
   │   Function: digestion, peristalsis, local immune, microbiome     │
   │     signaling, serotonin production (95% of body's serotonin)   │
   │   Gut-brain axis: vagus nerve (80% AFFERENT — gut → brain)       │
-  │   PFC reach: KHÔNG trực tiếp. PFC → hypothalamus/brainstem →    │
+  │   PFC reach: NOT direct. PFC → hypothalamus/brainstem →          │
   │     vagus → ENS (minimum 2 synaptic relays)                      │
-  │   Framework: ăn đồ mới → gut calibrate RIÊNG → PFC không biết   │
+  │   Framework: eating new food → gut calibrates INDEPENDENTLY →   │
+  │     PFC doesn't know                                             │
   │   🟢 Gershon 1998, Mayer 2016, Cryan & Dinan                     │
   ├─────────────────────────────────────────────────────────────────┤
   │ SPINAL CORD                                                      │
-  │   Function: motor reflexes (rút tay ~50ms, TRƯỚC PFC),           │
+  │   Function: motor reflexes (hand withdrawal ~50ms, BEFORE PFC), │
   │     pain pathways (A-delta fast + C-fiber slow),                  │
   │     motor neuron → muscle execution                              │
   │   PFC reach: indirect (PFC → premotor → M1 → spinal)             │
@@ -446,8 +448,8 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
   │   Sympathetic: fight-or-flight (accelerate)                      │
   │   Parasympathetic: rest-and-digest (brake)                       │
   │   Vagus nerve: primary parasympathetic (gut, heart, lungs)       │
-  │   PFC reach: KHÔNG direct control                                │
-  │     → PFC stress → sympathetic activate (indirect via HPA)       │
+  │   PFC reach: NOT direct control                                  │
+  │     → PFC stress → sympathetic activates (indirect via HPA)      │
   │     → PFC calm (via breathing — voluntary bridge) → parasympathetic│
   │     → Breathing = UNIQUE: voluntary + involuntary bridge          │
   │   Framework: body-feedback signals, homeostasis                  │
@@ -457,7 +459,7 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
   │   Location: intrinsic cardiac ganglia                            │
   │   Neurons: ~40,000 (small but functional network)                │
   │   Function: local heart rhythm regulation                        │
-  │   PFC reach: KHÔNG direct                                        │
+  │   PFC reach: NOT direct                                          │
   │   Framework: cardiovascular interoception (L1 body-input)         │
   └─────────────────────────────────────────────────────────────────┘
 ```
@@ -467,13 +469,13 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
 ## §6 — CONNECTIVITY MAP
 
 ```
-🟡 AI CONNECT TỚI AI — GRADIENT, KHÔNG BINARY:
+🟡 ALL CONNECT TO ALL — GRADIENT, NOT BINARY:
 
   PFC (A) → CORTICAL (B): STRONG, direct
     → Layer 2/3 connections (broadest connectivity)
-    → Top-down bias: PFC hold → modality areas amplify/suppress
-    → TRN gate: PFC → thalamus → control sensory input
-    → = Framework: PFC bias spreading activation trong B
+    → Top-down bias: PFC holds → modality areas amplify/suppress
+    → TRN gate: PFC → thalamus → controls sensory input
+    → = Framework: PFC biases spreading activation in B
 
   PFC (A) → SUBCORTICAL (C): VARIABLE
     → vmPFC → Amygdala: DIRECT (uncinate fasciculus) 🟢
@@ -481,13 +483,13 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
     → PFC → Thalamus: DIRECT (via TRN) 🟢
     → PFC → PAG, NTS: DIRECT reciprocal 🟢
     → PFC → Hypothalamus: MODERATE (cortical pathways)
-    → = Framework: PFC CÓ THỂ modulate C, nhưng C fire TRƯỚC PFC
+    → = Framework: PFC CAN modulate C, but C fires BEFORE PFC
 
   PFC (A) → PERIPHERAL (D): WEAK/INDIRECT
     → PFC → ENS: minimum 2 synaptic relays (PFC → brainstem → vagus → ENS)
     → PFC → Spinal: indirect (PFC → premotor → M1 → spinal)
     → PFC → ANS: indirect (via HPA, voluntary breathing = exception)
-    → = Framework: PFC gần không influence D trực tiếp
+    → = Framework: PFC has near-zero direct influence on D
 
   CORTICAL (B) → SUBCORTICAL (C): MODERATE
     → B → Thalamus: bidirectional (thalamocortical loop)
@@ -521,7 +523,7 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
     → PFC is ALWAYS the last to know
     → Body (D) + subcortical (C) + cortical (B) all process BEFORE PFC
     → PFC "decides" = often confirming what B+C already started
-    → = Framework: body compute FIRST → feeling emerge → PFC observe LAST
+    → = Framework: body computes FIRST → feeling emerges → PFC observes LAST
 ```
 
 ---
@@ -529,58 +531,58 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
 ## §7 — BILATERAL ARCHITECTURE: Left ↔ Right (v1.2)
 
 ```
-🟢 NÃO = BILATERAL: MỌI VÙNG A/B/C/D ĐỀU CÓ TRÁI + PHẢI
+🟢 BRAIN = BILATERAL: ALL ZONES A/B/C/D HAVE LEFT + RIGHT
 
-  §1-§6 mô tả connectivity VERTICAL (PFC reach depth: A→B→C→D).
-  Section này: connectivity HORIZONTAL (Left ↔ Right).
-  2 chiều ORTHOGONAL — cả 2 đều cần cho bản đồ đầy đủ.
+  Sections §1-§6 describe: VERTICAL connectivity (PFC reach depth: A→B→C→D).
+  This section: HORIZONTAL connectivity (Left ↔ Right).
+  2 ORTHOGONAL dimensions — both needed for a complete map.
 
 
-  MỌI ZONE ĐỀU CÓ 2:
+  ALL ZONES HAVE 2:
 
     Zone A (PFC):  Left dlPFC + Right dlPFC, Left vmPFC + Right vmPFC, ...
     Zone B:        Left V1 + Right V1, Left Broca + Right homologue, ...
     Zone C:        Left amygdala + Right amygdala, Left hippocampus + Right, ...
-    Zone D:        Peripheral = ĐỐI XỨNG (left/right body → left/right pathways)
+    Zone D:        Peripheral = SYMMETRIC (left/right body → left/right pathways)
 
-  Ngoại lệ quan trọng — MIDLINE structures:
-    → Brainstem nuclei (VTA, LC, Raphe, PAG) = MIDLINE → không chia trái phải rõ
-    → Hypothalamus = phần lớn MIDLINE
-    → Cerebellum = bilateral nhưng CROSS-CONNECTED (left cerebellum ↔ right cortex)
-    → = Subcortical midline structures = cơ sở cho SHARED arousal + motivation
-      (giải thích tại sao split-brain vẫn đồng bộ emotional tone)
+  Important exceptions — MIDLINE structures:
+    → Brainstem nuclei (VTA, LC, Raphe, PAG) = MIDLINE → no clear left/right division
+    → Hypothalamus = largely MIDLINE
+    → Cerebellum = bilateral but CROSS-CONNECTED (left cerebellum ↔ right cortex)
+    → = Subcortical midline structures = basis for SHARED arousal + motivation
+      (explains why split-brain patients still synchronize emotional tone)
 ```
 
 ```
 🟢 CORPUS CALLOSUM = INTEGRATION LAYER:
 
-  Cấu trúc: ~200 triệu axon nối vùng homologous trái ↔ phải
-  = White matter tract LỚN NHẤT trong brain
-  = Cho phép 2 bán cầu TÍCH HỢP processing output
+  Structure: ~200 million axons connecting homologous regions left ↔ right
+  = LARGEST white matter tract in the brain
+  = Allows both hemispheres to INTEGRATE processing output
 
   WHAT IT CONNECTS (anterior → posterior):
     Genu (anterior)     : PFC ↔ PFC (prefrontal connections)
     Body (central)      : Motor ↔ Motor, Somatosensory ↔ Somatosensory
     Splenium (posterior) : Visual ↔ Visual, Parietal ↔ Parietal
-    → = MỌI zone A + B đều có cross-hemisphere connection qua corpus callosum
+    → = ALL zones A + B have cross-hemisphere connections via the corpus callosum
 
   WHAT IT DOES:
-    → Tích hợp 2 processing styles thành 1 output giàu hơn
+    → Integrates 2 processing styles into 1 richer output
     → Left hemisphere: sequential, analytic, verbal encoding
     → Right hemisphere: simultaneous, holistic, spatial encoding
-    → = 2 LENS nhìn cùng 1 vấn đề, KHÔNG PHẢI 2 worker làm 2 việc khác
-    → Corpus callosum = layer cho phép 2 lens HỢP NHẤT
-    → VD: Nhận diện bạn cũ: Right detect gestalt khuôn mặt (spatial) +
-      Left gắn tên + context (verbal) → corpus callosum tích hợp →
-      "À Minh, học cùng cấp 3!" = output giàu hơn 1 bên riêng lẻ
+    → = 2 LENSES on the SAME problem, NOT 2 workers doing 2 different tasks
+    → Corpus callosum = layer allowing the 2 lenses to UNIFY
+    → Example: Recognizing an old friend: Right detects gestalt of the face (spatial) +
+      Left attaches name + context (verbal) → corpus callosum integrates →
+      "Oh, that's Alex from high school!" = output richer than either hemisphere alone
 
-  Các commissure khác (nhỏ hơn):
-    → Anterior commissure: nối temporal lobes (olfactory, some emotional)
-    → Hippocampal commissure: nối 2 hippocampi
-    → Posterior commissure: nối midbrain areas
-    → Trong callosotomy: đôi khi giữ lại, đôi khi cắt kèm — tùy ca
+  Other commissures (smaller):
+    → Anterior commissure: connects temporal lobes (olfactory, some emotional)
+    → Hippocampal commissure: connects both hippocampi
+    → Posterior commissure: connects midbrain areas
+    → In callosotomy: sometimes preserved, sometimes cut along with it — depends on the case
 
-  SPEED: transmission ~10-30ms → integration gần như đồng thời
+  SPEED: transmission ~10-30ms → near-simultaneous integration
 
   🟢 Witelson 1989 (corpus callosum anatomy)
   🟢 Human Connectome Project (tractography mapping)
@@ -588,37 +590,37 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
 ```
 
 ```
-🟢 LATERALIZATION = FUNCTION-SPECIFIC, KHÔNG PHẢI "LOẠI NGƯỜI":
+🟢 LATERALIZATION = FUNCTION-SPECIFIC, NOT A "PERSONALITY TYPE":
 
-  Một số CHỨC NĂNG lateralized (1 bên dominant):
+  Some FUNCTIONS are lateralized (1 side dominant):
 
-    Left dominant:                       Right dominant:
-    ┌──────────────────────────┐         ┌──────────────────────────┐
-    │ Language production       │         │ Spatial processing       │
-    │ (Broca — 95% right-hand) │         │ Face recognition (FFA)   │
-    │ Language comprehension    │         │ Prosody (ngữ điệu,      │
-    │ (Wernicke)               │         │   sắc thái giọng nói)   │
-    │ Sequential processing    │         │ Holistic/gestalt         │
-    │ Fine motor (dominant     │         │   perception             │
-    │   hand)                  │         │ Music perception         │
-    │ Arithmetic calculation   │         │   (non-trained)          │
-    │ Logical grammar parsing  │         │ Emotional expression     │
-    │                          │         │   (face, voice)          │
-    └──────────────────────────┘         └──────────────────────────┘
+    Left dominant:                        Right dominant:
+    ┌──────────────────────────┐          ┌──────────────────────────┐
+    │ Language production       │          │ Spatial processing       │
+    │ (Broca — 95% right-hand) │          │ Face recognition (FFA)   │
+    │ Language comprehension    │          │ Prosody (vocal tone,     │
+    │ (Wernicke)               │          │   emotional nuance)      │
+    │ Sequential processing    │          │ Holistic/gestalt         │
+    │ Fine motor (dominant     │          │   perception             │
+    │   hand)                  │          │ Music perception         │
+    │ Arithmetic calculation   │          │   (untrained)            │
+    │ Logical grammar parsing  │          │ Emotional expression     │
+    │                          │          │   (face, voice)          │
+    └──────────────────────────┘          └──────────────────────────┘
 
-  ⚠️ "LEFT-BRAIN PERSON" vs "RIGHT-BRAIN PERSON" = POP SCIENCE SAI:
+  ⚠️ "LEFT-BRAIN PERSON" vs "RIGHT-BRAIN PERSON" = POP SCIENCE — INCORRECT:
     → Nielsen et al. 2013 (n=1,011, fMRI resting state):
-      KHÔNG tìm thấy người nào "ưu tiên" 1 bán cầu tổng thể
-    → Lateralization = per-FUNCTION, KHÔNG phải per-PERSON
-    → Cả 2 bán cầu THAM GIA hầu hết tasks, chỉ khác contribution
-    → VD ngôn ngữ: Left parse grammar, Right detect irony + context + metaphor
-    → Đọc câu đùa: LEFT parse cú pháp, RIGHT detect irony → CẢ HAI cần
+      found NO person who "predominantly uses" 1 hemisphere overall
+    → Lateralization = per-FUNCTION, NOT per-PERSON
+    → Both hemispheres PARTICIPATE in most tasks, just differ in contribution
+    → Language example: Left parses grammar, Right detects irony + context + metaphor
+    → Reading a joke: LEFT parses syntax, RIGHT detects irony → BOTH are needed
 
   "DOMINANT" ≠ "EXCLUSIVE":
-    → Left dominant cho language ≠ right không tham gia
-    → Right dominant cho spatial ≠ left không tham gia
-    → Mỗi bên CONTRIBUTE khác nhau cho cùng task
-    → Corpus callosum tích hợp 2 contributions → output phong phú hơn
+    → Left dominant for language ≠ right does not participate
+    → Right dominant for spatial ≠ left does not participate
+    → Each side CONTRIBUTES differently to the same task
+    → Corpus callosum integrates both contributions → richer output
 
   🟢 Broca 1861 (language lateralization)
   🟢 Kimura 1961 (dichotic listening — auditory lateralization)
@@ -626,45 +628,46 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
 ```
 
 ```
-🟢 SPLIT-BRAIN: PHƠI BÀY BILATERAL ARCHITECTURE
+🟢 SPLIT-BRAIN: EXPOSING BILATERAL ARCHITECTURE
 
-  Callosotomy (cắt corpus callosum): phẫu thuật cho động kinh nặng
-  Số bệnh nhân được nghiên cứu kỹ: <12 trên toàn cầu
-  → CẮT integration layer → 2 bán cầu MẤT kết nối cortical
-  → Subcortical (C) + peripheral (D) VẪN NỐI (nằm dưới đường cắt)
+  Callosotomy (cutting corpus callosum): surgery for severe epilepsy
+  Number of patients studied in depth: <12 worldwide
+  → CUTTING the integration layer → both hemispheres LOSE cortical connection
+  → Subcortical (C) + peripheral (D) REMAIN CONNECTED (below the cut)
 
   KEY FINDINGS (Sperry 1981 Nobel, Gazzaniga 1978/2000/2005):
 
-    ① 2 bán cầu xử lý RIÊNG BIỆT
-       → Mỗi bên có data riêng, preferences riêng, response riêng
-       → VD: right hemisphere muốn "automobile racer",
-         left hemisphere muốn "draftsman" — cùng 1 bệnh nhân
+    ① Both hemispheres process INDEPENDENTLY
+       → Each side has its own data, preferences, responses
+       → Example: right hemisphere wanted "automobile racer",
+         left hemisphere wanted "draftsman" — same patient
 
-    ② Left PFC "Interpreter" CONFABULATE narrative
-       → Left hemisphere (có ngôn ngữ) luôn tạo causal story
-       → Dù KHÔNG CÓ access tới lý do thật (ở right hemisphere)
-       → KHÔNG BAO GIỜ nói "tôi không biết"
-       → VD kinh điển: chân gà + cảnh tuyết → "cần xẻng dọn chuồng gà"
+    ② Left PFC "Interpreter" CONFABULATES narrative
+       → Left hemisphere (with language) always creates a causal story
+       → Even WITHOUT access to the true reason (in the right hemisphere)
+       → NEVER says "I don't know"
+       → Classic example: chicken claw + snow scene →
+         "need a shovel to clean the chicken coop"
 
-    ③ Bệnh nhân hàng ngày GẦN NHƯ BÌNH THƯỜNG — vì:
+    ③ Patients in daily life appear NEARLY NORMAL — because:
        a) Subcortical midline unity (shared arousal, motivation, emotional tone)
-       b) Cross-cueing: đồng bộ GIÁN TIẾP qua body-input
-          (right hemisphere cử động tay trái → left hemisphere THẤY qua mắt
-          → đồng bộ bằng observation thay vì neural pathway)
-       c) Pre-surgery compiled chunks = shared (compile trước khi cắt → cả 2 bên có)
-       d) Interpreter maintain narrative "tôi là 1 người" liên tục
+       b) Cross-cueing: INDIRECT synchronization via body-input
+          (right hemisphere moves left hand → left hemisphere SEES it through the eyes
+          → synchronize via observation rather than neural pathway)
+       c) Pre-surgery compiled chunks = shared (compiled before the cut → both sides have them)
+       d) Interpreter continuously maintains narrative "I am 1 person"
 
-    ④ Alien Hand Syndrome (hiếm):
-       → 2 tay làm ngược nhau (1 tay cài nút, 1 tay cởi nút)
-       → = 2 processing systems LỘ RA khi integration bị cắt
-       → Bệnh nhân KHÔNG nói "có 2 tôi" — nói "tay trái nó nghịch"
-       → = Interpreter maintain unity narrative bằng mọi giá
+    ④ Alien Hand Syndrome (rare):
+       → Both hands work against each other (one buttoning, one unbuttoning)
+       → = 2 processing systems REVEALED when integration is severed
+       → Patient does NOT say "there are 2 of me" — says "my left hand is misbehaving"
+       → = Interpreter maintains the unity narrative at all costs
 
   FRAMEWORK VALIDATION:
     → PFC = Lawyer: STRENGTHENED (Interpreter = literal demonstration)
-    → Chunks no source tag: CONFIRMED (Left PFC không biết source từ right hemisphere)
-    → Body first, PFC after: CONFIRMED (action trước, narrative sau)
-    → Compiled ~95%: SUPPORTED (daily function preserved dù mất integration)
+    → Chunks no source tag: CONFIRMED (left PFC doesn't know source is from right hemisphere)
+    → Body first, PFC after: CONFIRMED (action first, narrative after)
+    → Compiled ~95%: SUPPORTED (daily function preserved despite loss of integration)
 
   🟢 Sperry 1981 (Nobel Prize — split-brain research)
   🟢 Gazzaniga 1978 (initial Interpreter observations)
@@ -672,45 +675,47 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
 ```
 
 ```
-🟡 FRAMEWORK PRINCIPLE: "THỐNG NHẤT" = EMERGENT, KHÔNG PHẢI STRUCTURAL
+🟡 FRAMEWORK PRINCIPLE: "UNITY" = EMERGENT, NOT STRUCTURAL
 
-  Brain = NHIỀU HỆ THỐNG ĐỘC LẬP chạy song song:
-    → Vùng khác nhau (visual, auditory, motor, amygdala, insula, ...)
-    → Bán cầu khác nhau (left processing ≠ right processing)
-    → Chunks cục bộ (local connections trong từng vùng)
-    → Schemas cross-modal (multi-region, có thể conflict ở level tổng thể)
+  Brain = MANY INDEPENDENT SYSTEMS running in parallel:
+    → Different regions (visual, auditory, motor, amygdala, insula, ...)
+    → Different hemispheres (left processing ≠ right processing)
+    → Local chunks (local connections within each region)
+    → Cross-modal schemas (multi-region, can conflict at overall level)
 
-  "TÔI LÀ 1 NGƯỜI THỐNG NHẤT":
-    → KHÔNG PHẢI structural fact (não KHÔNG phải 1 khối đồng nhất)
-    → MÀ LÀ emergent state khi systems HÀI HÒA
-    → Hài hòa: no dissonance signal → PFC idle → "tôi ổn"
-    → Conflict: dissonance signal → PFC pulled in → narrative → action
-    → = "Thống nhất" = TRẠNG THÁI, không phải CẤU TRÚC
+  "I AM 1 UNIFIED PERSON":
+    → NOT a structural fact (the brain is NOT a uniform block)
+    → BUT an emergent state when systems are IN HARMONY
+    → In harmony: no dissonance signal → PFC idle → "I'm fine"
+    → Conflict: dissonance signal → PFC drawn in → narrative → action
+    → = "Unity" = STATE, not STRUCTURE
 
   Split-brain CONFIRMS:
-    → Cắt integration layer → 2 bán cầu lộ ra là independent
-    → NHƯNG Interpreter VẪN maintain "tôi là 1" bằng confabulation
-    → = "Unity" = narrative construct của Interpreter, không phải report of structural fact
+    → Cutting integration layer → both hemispheres revealed as independent
+    → BUT Interpreter STILL maintains "I am 1" through confabulation
+    → = "Unity" = narrative construct of the Interpreter, not a report of structural fact
 
-  NORMAL BRAIN — CÙNG CƠ CHẾ, ÍT DRAMATIC HƠN:
-    → Internal conflicts VẪN xảy ra ở não bình thường:
+  NORMAL BRAIN — SAME MECHANISM, LESS DRAMATIC:
+    → Internal conflicts STILL occur in a normal brain:
       Compiled body-base vs fresh PFC intent
       Multiple drives competing (Novelty vs Threat vs Boredom)
-      Social schema vs body-need (muốn học giỏi vs không có gap)
-    → "Muốn dậy sớm mà sáng muốn ngủ" = 2 subsystems conflict,
-      Interpreter confabulate "tôi lười" (= "tay trái nó nghịch" version nhẹ)
-    → = Split-brain alien hand = phiên bản CỰC ĐOAN
-      của kiến trúc vốn đã parallel ở mọi người
+      Social schema vs body-need (wanting to excel academically vs no internal gap for it)
+    → "Wanting to wake up early but wanting to sleep in the morning" = 2 subsystems
+      in conflict, Interpreter confabulates "I'm lazy"
+      (= a milder version of "my left hand is misbehaving")
+    → = Split-brain alien hand = EXTREME VERSION
+      of an architecture already parallel in everyone
 
-  TẠI SAO FRAMEWORK HEMISPHERE-AGNOSTIC:
-    → Framework operate ở level MECHANISM (chunk, compile, PFC observe, body-feedback)
-    → Mechanisms ĐÚNG regardless of hemisphere:
-      Hebbian compile ở left = Hebbian compile ở right = cùng mechanism
-      PFC observe ở left = PFC observe ở right = cùng function
-      Body-feedback fire ở left amygdala = fire ở right = cùng mechanism
-    → Lateralization = TOPOLOGY detail, không thay đổi mechanism claims
-    → = Framework mô tả ENGINE, section này mô tả ENGINE chạy trên bilateral HARDWARE
-    → Khi cần topology detail → đọc section này + mainstream neuroscience literature
+  WHY THE FRAMEWORK IS HEMISPHERE-AGNOSTIC:
+    → Framework operates at the MECHANISM level (chunk, compile, PFC observe, body-feedback)
+    → Mechanisms HOLD regardless of hemisphere:
+      Hebbian compile in left = Hebbian compile in right = same mechanism
+      PFC observe in left = PFC observe in right = same function
+      Body-feedback fire in left amygdala = fire in right = same mechanism
+    → Lateralization = TOPOLOGY detail, does not change mechanism claims
+    → = Framework describes the ENGINE, this section describes the ENGINE
+      running on bilateral HARDWARE
+    → When topology detail is needed → read this section + mainstream neuroscience literature
 
   🟡 "Unity = emergent from harmony" = framework synthesis
      Consistent with: Tononi 2004 IIT, Baars 1988 GWT
@@ -724,73 +729,76 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
 ## §8 — CHUNK COMPILATION ACROSS A/B/C/D
 
 ```
-🟡 CHUNKS COMPILE Ở MỌI VÙNG — nhưng mechanism + PFC involvement KHÁC:
+🟡 CHUNKS COMPILE IN ALL ZONES — but mechanism + PFC involvement DIFFERS:
 
   CORTICAL CHUNKS (B areas) — PFC CAN TRAIN:
     → Visual chunks: V1→IT pattern recognition
     → Auditory chunks: A1 → speech patterns
     → Motor chunks: M1+cerebellum → skill compilation
     → Language chunks: Broca+Wernicke → grammar, vocabulary
-    → PFC CÓ THỂ: hold + repeat + bias → accelerate compilation
-    → VD: PFC hold "tập đàn" → motor cortex compile skill chunks
+    → PFC CAN: hold + repeat + bias → accelerate compilation
+    → Example: PFC holds "practice piano" → motor cortex compiles skill chunks
 
   SUBCORTICAL CHUNKS (C areas) — PFC INDIRECT:
     → Amygdala: fear conditioning (1 trial, emotional peak)
     → Hippocampus: episodic encoding → sleep replay → cortical
     → Basal ganglia: habit compilation (associative → sensorimotor)
-    → PFC INDIRECT: PFC không force fire ở đây
-      nhưng PFC thay đổi MÔI TRƯỜNG → body-input thay đổi → C recalibrate
-    → VD: PFC chuyển tới môi trường an toàn → qua thời gian →
-      amygdala recalibrate (vmPFC extinction pathway)
+    → PFC INDIRECT: PFC cannot force firing here
+      but PFC changes the ENVIRONMENT → body-input changes → C recalibrates
+    → Example: PFC moves to a safe environment → over time →
+      amygdala recalibrates (vmPFC extinction pathway)
 
   PERIPHERAL CHUNKS (D areas) — PFC NEAR-ZERO:
-    → ENS: gut calibrate khi ăn đồ mới → microbiome adjust
-    → Spinal: reflex patterns (withdraw, posture)
+    → ENS: gut calibrates when eating new food → microbiome adjusts
+    → Spinal: reflex patterns (withdrawal, posture)
     → ANS: autonomic calibration
-    → PFC influence: gần zero trực tiếp
-    → Body-input compile TRỰC TIẾP ở đây
-    → VD: ăn đồ ăn lạ liên tục → gut neurons calibrate → PFC không biết
+    → PFC influence: near-zero directly
+    → Body-input compiles DIRECTLY here
+    → Example: eating unfamiliar food repeatedly → gut neurons calibrate →
+      PFC doesn't know
 
   PROPAGATION ACROSS LEVELS:
-    → Cortical chunks (B) CÓ THỂ propagate → subcortical (C) qua thời gian
-    → Repeated positive cortical processing → vmPFC → amygdala recalibrate
-    → = Therapy mechanism: PFC create safe context (B) →
-      repeated exposure → amygdala (C) gradually shift
+    → Cortical chunks (B) CAN propagate → subcortical (C) over time
+    → Repeated positive cortical processing → vmPFC → amygdala recalibrates
+    → = Therapy mechanism: PFC creates safe context (B) →
+      repeated exposure → amygdala (C) gradually shifts
     → Timeline: weeks to months (NOT instant)
-    → = "PFC không chữa amygdala — PFC tạo CONTEXT cho amygdala tự recalibrate"
+    → = "PFC doesn't heal the amygdala — PFC creates CONTEXT
+       for the amygdala to recalibrate on its own"
 ```
 
 ---
 
-## §9 — IMPLICATIONS CHO FRAMEWORK
+## §9 — IMPLICATIONS FOR THE FRAMEWORK
 
 ```
-🟡 4 PHÂN VÙNG THAY THẾ "UNCONSCIOUS" BOX TRONG CORE:
+🟡 4 ZONES REPLACE THE "UNCONSCIOUS" BOX IN THE CORE:
 
-  CŨ (Core v7.5, v7.8 draft):
-    "PFC vs Unconscious" — 2 boxes, 1 box mờ
+  OLD (Core v7.5, v7.8 draft):
+    "PFC vs Unconscious" — 2 boxes, 1 vague box
 
-  MỚI:
+  NEW:
     A (PFC) / B (Cortical Modality) / C (Subcortical) / D (Peripheral)
-    — 4 vùng cụ thể, từng function rõ ràng
+    — 4 specific zones, each with clear functions
 
   FRAMEWORK MAPPING:
 
-    "Chunk compile" → xảy ra ở B + C + D (PFC observe, không compile)
-    "Body-feedback" → fire ở C (amygdala, brainstem) + B (insula, ACC)
-    "Feeling" → integrate ở B (anterior insula) → PFC observe
-    "PFC hold" → xảy ra ở A (dlPFC working memory)
+    "Chunk compile" → occurs in B + C + D (PFC observes, does NOT compile)
+    "Body-feedback" → fires in C (amygdala, brainstem) + B (insula, ACC)
+    "Feeling" → integrates in B (anterior insula) → PFC observes
+    "PFC hold" → occurs in A (dlPFC working memory)
     "PFC orchestrate" → A → B (top-down bias) + A → C (vmPFC-amygdala, TRN)
-    "Cortisol amplifier" → xuyên suốt A+B+C+D (HPA axis = C, effects = everywhere)
-    "Delta rule" → VTA (C) fire → signal tới B+A
-    "Motor execute" → A hold → B (motor cortex) → D (spinal) → muscle
-    "Self-signal interoception" → B (anterior insula) đọc D (body) qua C (brainstem/vagus)
+    "Cortisol amplifier" → throughout A+B+C+D (HPA axis = C, effects = everywhere)
+    "Delta rule" → VTA (C) fires → signal to B+A
+    "Motor execute" → A holds → B (motor cortex) → D (spinal) → muscle
+    "Self-signal interoception" → B (anterior insula) reads D (body) via C (brainstem/vagus)
 
   HARDWARE PROFILE:
-    → Modality Balance = B area development (brain-wide, không thuộc A hay C)
+    → Modality Balance = B area development (brain-wide, does not belong to A or C)
     → PFC params = A properties (WM capacity, COMT, DRD4)
     → Receptor variants = D properties (OXTR, TAS2R, CT-fiber density)
-    → Hardware set RANGE → chunks (compiled across B+C+D) chọn VỊ TRÍ trong range
+    → Hardware sets the RANGE → chunks (compiled across B+C+D)
+      determine POSITION within that range
 ```
 
 ---
@@ -821,7 +829,7 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
   → 4-zone classification (A/B/C/D) = novel organizing framework
   → "PFC accessibility gradient" = novel framing, components established
   → Chunk compilation across zones = novel integration, mechanisms established
-  → "PFC tạo context cho C recalibrate" = novel framing, consistent with
+  → "PFC creates context for C to recalibrate" = novel framing, consistent with
     extinction learning literature
   → Modality Balance as hardware property = novel positioning
   → DMN cross-cutting A+B = established areas, novel integration
@@ -858,7 +866,7 @@ WITHIN FRAMEWORK:
   Feeling.md v2.0 — feeling = PFC observation (maps to A reading B+C)
   Body-Feedback.md — body signals (maps to C+B generating, A observing)
   Cortisol-Baseline.md v2.0 — cortisol mechanism across A+B+C+D
-  Core-v7.8-Draft.md — kiến trúc tổng thể uses this as physical map
+  Core-v7.8-Draft.md — overall architecture uses this as physical map
   Agent-Mechanism.md v2.1 — agent function (maps to A+B social areas)
   Empathy.md v4.0 — Self-Pattern-Modeling function (maps to A+B, reading C signals)
 
@@ -908,7 +916,7 @@ KEY RESEARCH (by area):
 > **Neural-Architecture.md v1.2**
 >
 > Physical map: A (PFC) / B (Cortical Modality) / C (Subcortical) / D (Peripheral).
-> PFC accessibility = gradient, không binary.
+> PFC accessibility = gradient, not binary.
 > Chunks compile across ALL zones — PFC involvement varies.
 > PFC = last to know (timing hierarchy: D→C→B→A).
 > Simulation-Engine = Zone A (PFC + hippocampus + DMN).
@@ -917,6 +925,6 @@ KEY RESEARCH (by area):
 > **Corpus callosum = integration layer. "Unity" = emergent from harmony, NOT structural.**
 > "Unconscious" replaced by specific, verifiable, challengeable claims.
 >
-> Phiên bản: v1.2, 2026-06-04.
+> Version: v1.2, 2026-06-04.
 > v1.2: +§7 Bilateral Architecture (corpus callosum, lateralization, split-brain, unity=emergent).
 > v1.1: +Simulation-Engine mapping, +Entity-Access/Entity-Compiled mapping.

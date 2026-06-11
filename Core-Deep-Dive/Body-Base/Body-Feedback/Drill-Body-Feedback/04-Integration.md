@@ -2,24 +2,24 @@
 title: 04 — Integration + Unified Cycle
 phase: P4 (of P0→P5)
 parent: plan.md
-scope: Weave P1-P3 into unified body-feedback cycle — interface loop formal model + Imagine-Final role + Anchor-Schema role + Personal-Melody evolution + case walkthroughs (Einstein / Hedonic trap / Trauma loop)
-status: DRAFT P4 (§1-§8) complete. P5 (§9-§12 H10 formalization + framework updates) to be appended next.
+scope: Weave P1–P3 into unified body-feedback cycle — Interface Loop formal model + Imagine-Final role + Anchor-Schema role + Personal-Melody evolution + case walkthroughs (Einstein / Hedonic trap / Trauma loop)
+status: DRAFT P4 (§1–§8) complete. P5 (§9–§12 H10 formalization + framework updates) appended.
 reading_order: Read AFTER 01-Foundation.md + 02-Dissonance.md + 03-Reward.md
-prerequisite_concepts: All P1-P3 concepts
-language: Tiếng Việt primary + English technical terms
+prerequisite_concepts: All P1–P3 concepts
+language: English
 ---
 
 # 04 — Integration + Unified Cycle
 
-> **Foundation assumed**: Read 01-Foundation + 02-Dissonance + 03-Reward first. File này **unifies** the drill into coherent architecture by tracing how every concept interacts in real time.
+> **Foundation assumed**: Read 01-Foundation + 02-Dissonance + 03-Reward first. This file **unifies** the drill into a coherent architecture by tracing how every concept interacts in real time.
 >
-> **Drill priority** (per plan §2.4): "Weave everything into unified interface loop + Imagine-Final role + Anchor-Schema role + personal melody evolution + case walkthroughs."
+> **Drill priority** (per plan §2.4): "Weave everything into unified Interface Loop + Imagine-Final role + Anchor-Schema role + Personal-Melody evolution + case walkthroughs."
 >
-> **This phase is about seeing the whole**. Less new content, more connections. "Aha moments" should come from watching the architecture operate coherently.
+> **This phase is about seeing the whole.** Less new content, more connections. "Aha moments" should come from watching the architecture operate coherently.
 >
-> **Style**: Tiếng Việt primary + English technical terms. 🟢 Research / 🟡 Framework suy luận / 🔴 Hypothesis.
+> **Style**: 🟢 Research-supported / 🟡 Framework synthesis / 🔴 Hypothesis.
 >
-> ⚠️ **H10 formalized**: H10 đã được formalize thành [Body-Feedback-Precondition.md](../Body-Feedback-Precondition.md). File này giữ nguyên H10 là tên hypothesis gốc trong quá trình drill.
+> ⚠️ **H10 formalized**: H10 has been formalized in [Body-Feedback-Precondition.md](../Body-Feedback-Precondition.md). This file retains H10 as the original hypothesis name throughout the drill.
 
 ---
 
@@ -27,57 +27,57 @@ language: Tiếng Việt primary + English technical terms
 
 ### §1.1 — What this file does
 
-Sections P1-P3 drilled **components** of body-feedback architecture:
-- P1 Foundation: dual-pull + interface loop + body-feedback vs feeling layers
-- P2 Dissonance: decoded 9 dissonance mechanisms across full spectrum
+Sections P1–P3 drilled **components** of the body-feedback architecture:
+- P1 Foundation: Dual-Pull Principle + Interface Loop + body-feedback vs feeling layers
+- P2 Dissonance: decoded 9 dissonance mechanisms across the full spectrum
 - P3 Reward: 5 preconditions + 7 reward cases + calibration paradoxes
 
-P4 **integrates** these into unified running model. 3 integration tasks:
+P4 **integrates** these into a unified running model. 3 integration tasks:
 
-1. **Unified interface loop** (§2) — single formal model combining all elements
-2. **Role of key players** (§3-§5) — Imagine-Final, Anchor-Schema, Personal-Melody in the cycle
-3. **Case walkthroughs** (§6-§8) — 3 cases drilled end-to-end across all architecture
+1. **Unified Interface Loop** (§2) — single formal model combining all elements
+2. **Role of key players** (§3–§5) — Imagine-Final, Anchor-Schema, Personal-Melody in the cycle
+3. **Case walkthroughs** (§6–§8) — 3 cases drilled end-to-end across all architecture
 
 ### §1.2 — Why integration matters
 
-Each isolated concept is useful, but **architecture emerges from interaction**. User's B1.3 case (cây hoa → Imagine-Final → gap → mini dissonance) requires understanding:
+Each isolated concept is useful, but **architecture emerges from interaction**. The B1.3 flowering plant case (saw beautiful flower → Imagine-Final forms → gap → mini dissonance) requires understanding:
 
-- Interface loop (exposure → body → schema)
+- Interface Loop (exposure → body → schema)
 - Imagine-Final lifecycle (SAVE → BACKGROUND → RELOAD)
-- Body-feedback vs Feeling (Feel-Consciousification — Feel-Observation "có gì đó")
-- Spreading activation (hoa → sân chunks combining)
-- Reward preconditions (not met → dissonance not reward)
+- Body-feedback vs Feeling (Feel-Consciousification — Feel-Observation "something's there")
+- Spreading activation (flower → yard chunks combining)
+- Reward preconditions (not met → dissonance, not reward)
 
-Component analysis cannot answer "why did mini dissonance emerge here?" Only **integrated view** can.
+Component analysis alone cannot answer "why did mini dissonance emerge here?" Only the **integrated view** can.
 
 ### §1.3 — Unified model preview
 
 🟡 **Framework synthesis claim**:
 
-> Human body-feedback is **continuous cycle** where:
+> Human body-feedback is a **continuous cycle** where:
 > 1. Sensory input enters via exteroception / proprioception / interoception
 > 2. Unconscious processes check against compiled schemas + Imagine-Final expectations (parallel)
 > 3. Body-base fires signal (reward / dissonance / neutral) based on coherence
-> 4. PFC observes integrated signal (when threshold exceeded) — feeling emerges
-> 5. Schema updates (compile / modify / reconsolidate) qua sleep + active practice
+> 4. PFC observes the integrated signal (when threshold exceeded) — feeling emerges
+> 5. Schema updates (compile / modify / reconsolidate) via sleep + active practice
 > 6. Action generated (auto via compiled schemas OR deliberate via PFC + Anchor-Schema)
 > 7. Action affects domain → feedback → cycle continues
 >
 > Under this cycle operate **key players**:
-> - **Imagine-Final**: reference patterns at all scales providing "should be" expectations
+> - **Imagine-Final**: reference patterns at all scales providing "what should be" expectations
 > - **Anchor-Schema**: sync points keeping the whole system aligned
-> - **Personal-Melody**: emergent property of the whole — how "hay" the integrated state is
+> - **Personal-Melody**: emergent property of the whole — how "captivating" the integrated state is
 >
-> The cycle iterates across timescales (milliseconds to decades). Body-feedback is continuous, feeling layer develops over lifetime, chunks accumulate + drift, melody evolves.
+> The cycle iterates across timescales (milliseconds to decades). Body-feedback is continuous; the feeling layer develops over a lifetime; chunks accumulate and drift; melody evolves.
 
 ### §1.4 — What this file does NOT do
 
-- **NOT introduce new cases** (all cases in P2-P3 already)
+- **NOT introduce new cases** (all cases are in P2–P3 already)
 - **NOT formalize H10** (that's P5)
-- **NOT revisit every detail** (readers should have P1-P3 loaded in mind)
+- **NOT revisit every detail** (readers should have P1–P3 loaded in mind)
 - **NOT exhaustive** (focuses on integration points, not all details)
 
-**Priority**: Show the **coherent operation** of architecture. If reader can trace 3 cases (Einstein, hedonic trap, trauma) through all layers + see them as same architecture operating differently, P4 succeeded.
+**Priority**: Show the **coherent operation** of the architecture. If the reader can trace 3 cases (Einstein, hedonic trap, trauma) through all layers and see them as the same architecture operating differently, P4 has succeeded.
 
 ---
 
@@ -85,9 +85,10 @@ Component analysis cannot answer "why did mini dissonance emerge here?" Only **i
 
 ### §2.1 — User's verbatim articulation (re-quoted for anchor)
 
-> "Giao diện tương tác: domain => body => body feedback (PFC xử lý kỹ hơn hoặc vô thức) => schema update => Action to domain => domain tác động lên body => body feedback reward/dissonance => ..."
+(Translated):
+> "Interaction interface: domain ⇒ body ⇒ body feedback (processed more carefully by PFC or unconsciously) ⇒ schema update ⇒ Action to domain ⇒ domain acts on body ⇒ body feedback reward/dissonance ⇒ ..."
 
-This file formalizes this sequence into rigorous model with timing, substrate, and decision points.
+This file formalizes this sequence into a rigorous model with timing, substrate, and decision points.
 
 ### §2.2 — Formal loop diagram
 
@@ -99,49 +100,51 @@ This file formalizes this sequence into rigorous model with timing, substrate, a
 │  │   - Exteroception (5): vision, audition, olfaction, taste,  │   │
 │  │     tactile                                                  │   │
 │  │   - Proprioception (3): position, vestibular, kinesthetic   │   │
-│  │   - Interoception (9): temperature, nociception, cardiovascular │
-│  │     visceral, metabolic, hormonal, respiratory, circadian,   │   │
-│  │     self-signal (§4.9 keystone)                              │   │
-│  │   Timing: 0-500ms (sensory latency varies)                   │   │
+│  │   - Interoception (9): temperature, nociception,            │   │
+│  │     cardiovascular, visceral, metabolic, hormonal,          │   │
+│  │     respiratory, circadian, self-signal (§4.9 keystone)     │   │
+│  │   Timing: 0–500ms (sensory latency varies)                  │   │
 │  └──────────────────────────┬──────────────────────────────────┘   │
 │                             ↓                                      │
 │  ┌─────────────────────────────────────────────────────────────┐   │
 │  │ Step 2: UNCONSCIOUS PROCESSING (parallel 95%)               │   │
 │  │   - Chunks match against input                               │   │
 │  │   - Compiled schemas auto-fire                               │   │
-│  │   - Imagine-Final vô thức simulation checks "expected?"      │   │
+│  │   - Unconscious Imagine-Final simulation checks "expected?"  │   │
 │  │   - Body-base state update (homeostatic signals)             │   │
 │  │   - VTA detects delta (habituation-based)                    │   │
-│  │   - Valence chunks fire (Valence.md integration)             │   │
+│  │   - Valence.md integration                                   │   │
 │  │   - Spreading activation cascade                             │   │
-│  │   Timing: 100ms - seconds                                    │   │
+│  │   Timing: 100ms – seconds                                    │   │
 │  └──────────────────────────┬──────────────────────────────────┘   │
 │                             ↓                                      │
 │  ┌─────────────────────────────────────────────────────────────┐   │
-│  │ Step 3: UPSTREAM INTEGRATION (insula + ACC + VMPFC)         │   │
+│  │ Step 3: UPSTREAM INTEGRATION (insula + ACC + vmPFC)         │   │
 │  │   - Multi-channel signal integration                         │   │
 │  │   - Self-signal interoception reads integrated state        │   │
-│  │   - Produces "Feel-Consciousification noticeable signal" for PFC │   │
+│  │   - Produces noticeable signal for PFC                       │   │
+│  │     (Feel-Consciousification — Feel-Observation)             │   │
 │  │   Timing: seconds                                            │   │
 │  └──────────────────────────┬──────────────────────────────────┘   │
 │                             ↓                                      │
 │  ┌─────────────────────────────────────────────────────────────┐   │
-│  │ Step 4: BODY SIGNAL GENERATED (reward / dissonance / neutral)│   │
+│  │ Step 4: BODY SIGNAL GENERATED (reward / dissonance /neutral)│   │
 │  │   Reward: chunk matches body-need → OPIOID                   │   │
 │  │   Dissonance: schema ≠ reality mismatch → cortisol amplify   │   │
 │  │   Neutral: baseline, no salient delta                        │   │
-│  │   Intensity: micro → mild → strong → emergency (14 levels)   │   │
 │  │   Direction + magnitude (14 intensity levels)                │   │
 │  └──────────────────────────┬──────────────────────────────────┘   │
 │                             ↓                                      │
 │  ┌─────────────────────────────────────────────────────────────┐   │
 │  │ Step 5: PFC GATEWAY (5% attention when signal > threshold)  │   │
-│  │   - PFC observes integrated signal (Feel-Consciousification — Feel-Observation) │   │
-│  │   - Labels via chunks (Feel-Labeling — Feel-Explanation) — feeling emerges │   │
+│  │   - PFC observes integrated signal                           │   │
+│  │     (Feel-Consciousification — Feel-Observation)             │   │
+│  │   - Labels via chunks (Feel-Labeling — Feel-Explanation)     │   │
+│  │     → feeling emerges                                        │   │
 │  │   - Simulates options (Imagine-Final candidates)             │   │
 │  │   - Checks domain (only PFC does this)                       │   │
 │  │   - Chooses action or updates schema                         │   │
-│  │   Timing: seconds - minutes (PFC active engagement)          │   │
+│  │   Timing: seconds – minutes (PFC active engagement)          │   │
 │  └──────────────────────────┬──────────────────────────────────┘   │
 │                             ↓                                      │
 │  ┌─────────────────────────────────────────────────────────────┐   │
@@ -153,7 +156,7 @@ This file formalizes this sequence into rigorous model with timing, substrate, a
 │  │   - Sleep consolidation (offline integration, Learning-Cycle)│   │
 │  │   + Reconsolidation window during recall                     │   │
 │  │   + Chunk association tag (opioid vs cortisol)               │   │
-│  │   Timing: seconds - hours - days (compile) / weeks+ (integrate)│  │
+│  │   Timing: seconds–hours–days (compile) / weeks+ (integrate)  │   │
 │  └──────────────────────────┬──────────────────────────────────┘   │
 │                             ↓                                      │
 │  ┌─────────────────────────────────────────────────────────────┐   │
@@ -161,7 +164,7 @@ This file formalizes this sequence into rigorous model with timing, substrate, a
 │  │   - Compiled schemas auto-fire (80% of actions)              │   │
 │  │   - PFC-directed action (20% novel/deliberate)               │   │
 │  │   - Anchor-Schema provides sync direction                    │   │
-│  │   Timing: ms (reflex) - seconds (deliberate)                 │   │
+│  │   Timing: ms (reflex) – seconds (deliberate)                 │   │
 │  └──────────────────────────┬──────────────────────────────────┘   │
 │                             ↓                                      │
 │  ┌─────────────────────────────────────────────────────────────┐   │
@@ -180,31 +183,31 @@ This file formalizes this sequence into rigorous model with timing, substrate, a
 ### §2.3 — Differences from earlier models
 
 **Previous framework files** had partial versions:
-- `Why-Body-Knows.md` §6 — 5-step vòng tròn hoàn chỉnh (simpler)
+- `Why-Body-Knows.md` §6 — 5-step complete cycle (simpler)
 - `Anchor-Schema.md` §1 — 6-step flow (from anchor perspective)
-- `Learning-Cycle.md` §3 — 8-stage (for learning specifically)
+- `Learning-Cycle.md` §3 — 8-stage model (for learning specifically)
 
 **This unified loop** extends with:
-- Explicit **upstream integration step** (insula + ACC + VMPFC) from Theme A §2.4
+- Explicit **upstream integration step** (insula + ACC + vmPFC) from Theme A §2.4
 - Explicit **body-feedback vs feeling layer** distinction (P1 §5)
 - **Chunk tag** inclusion in schema update (Cortisol-Baseline §3.5)
-- **Imagine-Final vô thức simulation** in Step 2 (not just PFC Step 5)
+- **Unconscious Imagine-Final simulation** in Step 2 (not just PFC Step 5)
 - **Spreading activation** in Step 2 (cascade to neighbors)
 
-### §2.4 — Running example: "Wake up, see kitchen, feel hungry"
+### §2.4 — Running example: "Wake up, see the kitchen, feel hungry"
 
 Trace a simple event through the loop:
 
 **Step 1**: Open eyes → visual input (kitchen scene)
-- Timing: 10-100ms perception
+- Timing: 10–100ms perception
 
 **Step 2**: Unconscious processes
 - Chunks about kitchen fire: "breakfast location"
 - Compiled schema: "morning routine"
-- Imagine-Final vô thức: expected = "breakfast soon"
+- Unconscious Imagine-Final: expected = "breakfast soon"
 - Body-base check: blood glucose low (interoception)
-- Cascade: "hungry chunks" → food chunks → specific food preferences
-- Timing: 100-500ms
+- Cascade: "hunger chunks" → food chunks → specific food preferences
+- Timing: 100–500ms
 
 **Step 3**: Upstream integration
 - Insula integrates: hunger signal from gut + visual food-context + glucose level
@@ -217,7 +220,7 @@ Trace a simple event through the loop:
 
 **Step 5**: PFC gateway
 - Attention reaches signal: "I'm hungry"
-- Labels feeling: "hunger" (chunks compiled from lifetime)
+- Labels feeling: "hunger" (chunks compiled from a lifetime)
 - Simulates options: "make eggs" vs "cereal" vs "toast"
 - Body pre-feels each option → "eggs sounds good"
 - Chooses: make eggs
@@ -228,7 +231,7 @@ Trace a simple event through the loop:
 
 **Step 7**: Action
 - Compiled: walk to fridge, get eggs, start cooking
-- Mostly auto with PFC occasional check
+- Mostly auto with occasional PFC check
 
 **Step 8**: Action affects domain
 - Eggs cooked → food on plate
@@ -236,41 +239,41 @@ Trace a simple event through the loop:
 
 **LOOP**: Back to Step 1 with new sensory input (taste of eggs, fullness emerging)
 
-**→ Simple event traces cleanly through loop**. Complex events (learning, trauma, relationships) trace same architecture but with much richer activation and longer timeframes.
+**→ A simple event traces cleanly through the loop.** Complex events (learning, trauma, relationships) trace the same architecture but with much richer activation and longer timeframes.
 
-### §2.5 — Who handles each step (vô thức vs PFC split)
+### §2.5 — Who handles each step (Unconscious vs PFC split)
 
 | Step | Primary handler | PFC role |
 |---|---|---|
 | 1 Sensory input | Body sensors | None (unless directing attention) |
-| 2 Unconscious processing | Vô thức (parallel, 95%) | None directly |
+| 2 Unconscious processing | Unconscious (parallel, 95%) | None directly |
 | 3 Upstream integration | Subcortical (insula, ACC) | None |
 | 4 Signal generation | Body-base | None |
 | 5 PFC gateway | **PFC (5%)** | Observe, label, simulate, choose |
-| 6 Schema update | Vô thức (compile) + PFC (create) | Create new chunks deliberately |
+| 6 Schema update | Unconscious (compile) + PFC (create) | Create new chunks deliberately |
 | 7 Action | Compiled (80%) + PFC directed (20%) | Direct novel action |
 | 8 Domain effect | Body motor | Monitor |
 
-**Critical**: PFC engages only at Steps 5-6-7, and only when needed. Rest is unconscious.
+**Critical**: PFC engages only at Steps 5–6–7, and only when needed. The rest is unconscious.
 
 ### §2.6 — Parallel cycles running simultaneously
 
 🟡 **Framework claim**:
 
-> Body runs **many interface loops simultaneously**. Unconscious is massively parallel. PFC is serial.
+> The body runs **many Interface Loops simultaneously**. The Unconscious is massively parallel. PFC is serial.
 
 **Example at any given moment**:
-- Hunger loop (every few hours iteration)
-- Social relationship loop (every interaction iteration)
-- Temperature regulation loop (continuous micro iteration)
-- Learning project loop (days-weeks iteration)
-- Career arc loop (years iteration)
+- Hunger loop (iterates every few hours)
+- Social relationship loop (iterates every interaction)
+- Temperature regulation loop (continuous micro-iteration)
+- Learning project loop (iterates over days–weeks)
+- Career arc loop (iterates over years)
 - Health maintenance loop (continuous background)
 - ... hundreds more
 
 Each loop operates on its own timescale. PFC attention allocates between them based on signal salience.
 
-**Implication for drill**: Dissonance/reward cases typically involve **specific loop** at specific timescale. Mini dissonance (B1) = short-term loops. Trauma (B3) = long-term loop stuck. Hedonic trap (B4) = multiple long-term loops interacting.
+**Implication for drill**: Dissonance/reward cases typically involve a **specific loop** at a specific timescale. Mini dissonance (B1) = short-term loops. Trauma (B3) = long-term loop stuck. Hedonic trap (B4) = multiple long-term loops interacting.
 
 ---
 
@@ -280,11 +283,11 @@ Each loop operates on its own timescale. PFC attention allocates between them ba
 
 🟡 Framework (Imagine-Final.md §1 + §1.5):
 
-> Imagine-Final = **reference pattern** against which actual state is compared. Appears at all scales (micro to life-long) and both levels (vô thức 95% + PFC 5%).
+> Imagine-Final = **reference pattern** against which actual state is compared. Appears at all scales (micro to lifelong) and both levels (Unconscious 95% + PFC 5%).
 
 **Role in cycle**:
 - Provides "expected state" for Step 2 comparison
-- Provides "destination" for Step 5-7 action selection
+- Provides "destination" for Steps 5–7 action selection
 - Provides "meaning" for sustained effort through dissonance
 
 Without Imagine-Final:
@@ -296,7 +299,7 @@ Without Imagine-Final:
 
 🟡 Imagine-Final §1.5: **5 phases** — BUILD → SAVE → BACKGROUND → RELOAD → REFINE
 
-**Mapping to interface loop**:
+**Mapping to Interface Loop**:
 
 **Phase 1 BUILD**:
 - Trigger: dissonance signal at Step 4 reaches PFC at Step 5
@@ -307,7 +310,7 @@ Without Imagine-Final:
 **Phase 2 SAVE**:
 - PFC switches to other tasks (attention shifts)
 - Imagine-Final moves to storage (hippocampus)
-- Proto-schema state — not compiled deep yet
+- Proto-schema state — not yet compiled deep
 
 **Phase 3 BACKGROUND**:
 - **Cycle continues** for other loops
@@ -324,11 +327,11 @@ Without Imagine-Final:
 
 **Phase 5 REFINE**:
 - PFC updates Imagine-Final based on new context
-- Loops back to Phase 1 of next iteration
+- Loops back to Phase 1 of the next iteration
 
 ### §3.3 — Dissonance and Imagine-Final interaction
 
-🟡 Key framework insight (Imagine-Final §1 "dormant khi harmony, fire khi dissonance"):
+🟡 Key framework insight (Imagine-Final §1 — "dormant when harmony, fires when dissonance"):
 
 **When harmony**:
 - Body-base met → no dissonance signal
@@ -339,14 +342,14 @@ Without Imagine-Final:
 **When dissonance**:
 - Body-base signal fires
 - Imagine-Final activates as reference for "what should be"
-- PFC engages to compare and find path
+- PFC engages to compare and find a path
 - Motivation emerges
 
-**→ Imagine-Final is fire-on-demand**. Not continuously checking. Activates when body signals need.
+**→ Imagine-Final is fire-on-demand.** Not continuously checking. Activates when body signals need.
 
 ### §3.4 — Why Imagine-Final clarity matters
 
-From Imagine-Final.md §1 + 2 trong P3 §3:
+From Imagine-Final.md §1 + §2 in P3 §3:
 
 **Clear Imagine-Final**:
 - Body simulates vividly → strong opioid preview → strong motivation
@@ -360,11 +363,11 @@ From Imagine-Final.md §1 + 2 trong P3 §3:
 - Chunks compile without "why"
 - Dissonance feels meaningless → burnout risk
 
-**Framework prediction**: Activities with clearer Imagine-Final sustain longer + produce more reward than vague ones.
+**Framework prediction**: Activities with a clearer Imagine-Final sustain longer and produce more reward than vague ones.
 
 ### §3.5 — Positive feedback loop
 
-🟡 Critical insight (Imagine-Final §1 "tiến hóa" + positive feedback loop):
+🟡 Critical insight (Imagine-Final §1 "evolution" + positive feedback loop):
 
 ```
 Clear Imagine-Final
@@ -382,7 +385,7 @@ EVEN stronger motivation
 ... repeats, compounding ...
 ```
 
-**Einstein case study** (detailed in §6): Imagine-Final started with "vật lý Newton has contradictions." Over years, chunks accumulated. Imagine-Final grew: "there must be a unified framework." Growing clarity fed motivation. Successful work added chunks → even clearer. Compounding effect produced revolutionary insight.
+**Einstein case study** (detailed in §6): Imagine-Final started as "Newtonian physics has contradictions." Over years, chunks accumulated. Imagine-Final grew: "there must be a unified framework." Growing clarity fed motivation. Successful work added chunks → even clearer. Compounding effect produced revolutionary insight.
 
 **Hedonic trap case** (detailed in §7): Imagine-Final "wealth = happiness" is **fuzzy** about what happiness actually means. Progress toward wealth doesn't clarify happiness. Imagine-Final doesn't sharpen. Feedback loop broken.
 
@@ -394,23 +397,23 @@ EVEN stronger motivation
 
 🟡 Framework (Anchor-Schema.md §1 + §3):
 
-> Anchor-Schema = **sync point** keeping the entire unconscious system aligned. "Main player" in the orchestra — others follow.
+> Anchor-Schema = **sync point** keeping the entire unconscious system aligned. The "main player" in the orchestra — others follow.
 >
-> Without active anchor: system drifts, cacophony, no direction.
-> With active anchor: all schemas align toward it, coherent action emerges.
+> Without an active anchor: system drifts, cacophony, no direction.
+> With an active anchor: all schemas align toward it, coherent action emerges.
 
 ### §4.2 — User's main-chord lens (from §0.5.5 verbatim)
 
-User's articulation:
-> "Anchor-Schema là cực kỳ cần khi dissonance mạnh, buộc phải có một vài pattern fire rõ ràng trong não, để các schema khác cùng nhìn vào, và đồng bộ. Nếu nhìn theo lens melody, giống như main-chord phải có volume cao chút, thì các nhạc công khác sẽ dễ dàng biết phải theo ai, cả dàn nhạc đồng bộ dù rất nhiều nhạc công"
+User's articulation (translated):
+> "Anchor-Schema is absolutely needed when dissonance is strong — there must be some pattern firing clearly in the brain for other schemas to look toward and synchronize. In the melody lens, it's like the main chord needs to be a little louder so the other musicians know who to follow — the whole orchestra synchronizes even with many musicians."
 
-**Framework fully validates**. Anchor-Schema.md §1 uses exact same metaphor (dàn nhạc + main player).
+**Framework fully validates.** Anchor-Schema.md §1 uses the exact same metaphor (orchestra + main player).
 
 ### §4.3 — Role in cycle
 
 **In normal operation**:
 - Step 5 PFC draws from active Anchor-Schema to decide action
-- Step 7 Action direction provided by anchor
+- Step 7 action direction provided by anchor
 - Anchor persists across cycles (not reset each iteration)
 
 **When anchor absent**:
@@ -418,9 +421,9 @@ User's articulation:
 - No overall direction
 - "Lost" / "adrift" feeling (Boredom-Analysis §1 Anchor-Schema lens)
 
-### §4.4 — 4 Nguồn Fill — which dominates per context
+### §4.4 — 4 Sources of Fill — which dominates per context
 
-🟡 Anchor-Schema.md §3: 4 nguồn fill Anchor-Schema:
+🟡 Anchor-Schema.md §3: 4 sources that fill Anchor-Schema:
 
 1. **PFC Imagine-Final** (top-down, ~5% of decisions)
 2. **Hippocampus simulation** (mid-level, ~10%)
@@ -428,8 +431,8 @@ User's articulation:
 4. **External inject** (outside-in, variable)
 
 **Implications**:
-- Most life ~80% auto-anchored by compiled schemas — no PFC needed
-- Only novel/conflict situations require PFC Imagine-Final source
+- Most of life ~80% auto-anchored by compiled schemas — no PFC needed
+- Only novel/conflictual situations require PFC Imagine-Final source
 - Culture + family inject external anchors (religion, career expectations, values)
 
 ### §4.5 — Trust binding — why anchors hold or collapse
@@ -438,7 +441,7 @@ User's articulation:
 
 > **Trust ≥ Cost → anchor holds. Trust < Cost → anchor collapses.**
 
-**Cost** = time + energy + risk + opportunity cost + dissonance accumulated
+**Cost** = time + energy + risk + opportunity cost + accumulated dissonance
 **Trust** = confidence in reward + reliability of source + compiled deep evidence
 
 **Positive vs Negative trust** (P2 §5.5 drilled):
@@ -446,19 +449,19 @@ User's articulation:
 - Negative trust → relief reward diminishing
 
 **Example calculation**:
-- B2.3 bố hứa xe: Cost = 2 days hard math. Trust = positive (bố reliable + clear reward) → holds easily
-- B2.2 mẹ cầm roi: Cost = daily forever. Trust = negative (avoid punishment only) → unstable, collapses into chronic dissonance
+- Parent's Promise of a Toy Car (B2.3): Cost = 2 days hard math. Trust = positive (parent reliable + clear reward) → holds easily
+- Parent with the Switch (B2.2): Cost = daily, forever. Trust = negative (avoid punishment only) → unstable, collapses into chronic dissonance
 
-### §4.6 — PFC serial processing — "học lái xe + học toán cùng lúc?"
+### §4.6 — PFC serial processing — "learning to drive and learning math at the same time?"
 
-**User's question** (§0.5.5):
-> "Nếu đang học lái xe, đồng thời cũng học bài toán mới, PFC hold cả 2 mục tiêu cùng lúc, có làm được không?"
+**User's question** (translated from §0.5.5):
+> "If you're learning to drive and at the same time also learning a new math problem, can PFC hold both goals simultaneously?"
 
-🟡 **Framework answer**: **KHÔNG** (directly).
+🟡 **Framework answer**: **NO** (directly).
 
 **Reasons**:
 - PFC = serial processor (Cowan 2001 🟢 working memory 4±1)
-- 1 active focus at a time for "active" work (Imagine-Final §1.5 Nền tảng 1)
+- 1 active focus at a time for "active" work (Imagine-Final §1.5 Foundation 1)
 - Anchor-Schema needs **main player** volume high → can only amplify 1 at a time
 
 **BUT alternate mode possible**:
@@ -468,30 +471,30 @@ User's articulation:
 - Progress slower than single focus but achievable
 
 **Framework prediction**:
-- Both skills progress concurrently if alternated
+- Both skills can progress concurrently if alternated
 - Each progresses ~50% as fast as single focus
 - Switching cost reduces total throughput
-- Some "unconscious practice" happens during other's focus time (Phase 3 background for inactive Imagine-Final)
+- Some "unconscious practice" happens during the other's focus time (Phase 3 background for inactive Imagine-Final)
 
-**When alternate works well**:
+**When alternating works well**:
 - Both activities can compile chunks (not just PFC-only work)
 - Rest/sleep sufficient for both to consolidate
 - Neither activity actively conflicts with the other
 
-**When alternate fails**:
-- Activities compete for same resources (both need same chunks base)
+**When alternating fails**:
+- Activities compete for the same resources (both need same chunks base)
 - Exhaustion prevents both from progressing
 - One becomes threat (must finish) → takes over → other neglected
 
-### §4.7 — Anchor-Schema explains why PFC serial
+### §4.7 — Anchor-Schema explains why PFC is serial
 
 🟡 **Elegant framework insight** (from user's skeleton):
 
-> PFC serial processing constraint isn't just "limitation." It's **architectural feature** — forces system to have ONE main player so dàn nhạc can sync.
+> PFC serial processing constraint isn't just a "limitation." It's an **architectural feature** — it forces the system to have ONE main player so the orchestra can sync.
 
-**If PFC could parallel**:
+**If PFC could process in parallel**:
 - Multiple equally-weighted anchors active
-- Dàn nhạc confused which to follow
+- Orchestra confused about which to follow
 - Cacophony, no coherent action
 - Evolutionary disadvantage (organism can't commit to single response in emergency)
 
@@ -501,23 +504,23 @@ User's articulation:
 - Coherent behavior emerges
 - Switching possible but not simultaneous
 
-**→ Serial PFC is FEATURE not bug** for anchor sync requirement.
+**→ Serial PFC is a FEATURE, not a bug,** for the anchor sync requirement.
 
 ### §4.8 — Compiled anchors vs deliberate anchors
 
-🟡 Anchor-Schema §3 ③ (compiled nguồn 80%) vs ① (PFC Imagine-Final 5%):
+🟡 Anchor-Schema §3 ③ (compiled source, 80%) vs ① (PFC Imagine-Final, 5%):
 
 **Compiled anchors**:
-- Tiếng gọi (calling), expertise domain, deep values
+- Calling/vocation, expertise domain, deep values
 - Auto-fire, don't need PFC maintenance
 - Strong, stable, define "who you are"
-- Examples: "tôi là kỹ sư," "tôi yêu gia đình," "tôi tin vào science"
+- Examples: "I am an engineer," "I love my family," "I believe in science"
 
 **Deliberate PFC anchors**:
 - Novel decisions, conflicts, long-term planning
-- Require PFC active engagement
+- Require active PFC engagement
 - Weaker, more flexible
-- Examples: "mua nhà this year," "học skill X," "invest in opportunity Y"
+- Examples: "buy a house this year," "learn skill X," "invest in opportunity Y"
 
 **Framework implication**: Life mostly runs on compiled anchors. PFC anchors only for ~5% of decisions. Identity = compiled anchors network.
 
@@ -533,15 +536,15 @@ User's articulation:
 
 ### §5.1 — Personal-Melody as emergent property
 
-🟡 Framework (Personal-Melody.md §1-§5):
+🟡 Framework (Personal-Melody.md §1–§5):
 
-> Personal-Melody = **emergent property** of integrated body-feedback state. It's what the whole architecture **sounds like** when running.
+> Personal-Melody = **emergent property** of the integrated body-feedback state. It's what the whole architecture **sounds like** when running.
 >
-> Not a single schema. Not a single feeling. The coherent (or cacophonous) product of all schemas, chunks, signals, body states integrated.
+> Not a single schema. Not a single feeling. The coherent (or cacophonous) product of all schemas, chunks, signals, and body states integrated.
 
-**Metaphor**: Orchestra produces music. Melody ≠ any single instrument. Emerges from all playing together.
+**Metaphor**: An orchestra produces music. The melody ≠ any single instrument. It emerges from all playing together.
 
-**Applied**: Human's "how life feels" = melody. Smooth = all preconditions met across life domains. Rough = multiple dissonances active.
+**Applied**: A person's "how life feels" = melody. Smooth = all preconditions met across life domains. Rough = multiple dissonances active.
 
 ### §5.2 — Melody smoothness determinants
 
@@ -563,27 +566,27 @@ User's articulation:
 - Physical wear (Cortisol-Baseline imbalance)
 - Chronic dissonance accumulating
 
-### §5.3 — Arcs and Valleys (Melody-Arc §2-§3)
+### §5.3 — Arcs and Valleys (Melody-Arc §2–§3)
 
 🟡 Melody builds through arcs:
 
 **Arc structure**:
-- Start: dissonance (new chunks to nạp)
-- Middle: valley (biggest dissonance, "peak pain")
+- Start: dissonance (new chunks to absorb)
+- Middle: valley (greatest dissonance, "peak pain")
 - End: integration (chunks fit, melody raised)
 
-**Repeat across life**:
+**Repeats across a life**:
 - Multi-year arcs (career build, relationship build, skill mastery)
-- Each successful arc raises baseline (melody higher)
+- Each successful arc raises the baseline (melody higher)
 - Failed arcs: abandoned → chunks wasted, slight melody degradation
 
-**The Valley** (Melody-Arc §3.3) — user should know this by now:
+**The Valley** (Melody-Arc §3.3) — the reader should know this by now:
 - Middle of arc = most invested + least reward visible
 - "Dark night" feeling
 - Dropout point → failed arc
 - Pushing through → breakthrough possible
 
-**Framework prediction**: People's ability to handle valleys correlates with:
+**Framework prediction**: A person's ability to handle valleys correlates with:
 - Imagine-Final clarity (stronger → more tolerance)
 - Positive trust (more → more persistence)
 - Social support (external anchor reinforcement)
@@ -595,8 +598,8 @@ User's articulation:
 
 - Positive events → baseline shifts up
 - Negative events → baseline shifts down
-- Body adapts toward new baseline within 6-18 months typically
-- Rewards requiring constant baseline exceeding become unsustainable
+- Body adapts toward new baseline within 6–18 months typically
+- Rewards requiring constant baseline-exceeding become unsustainable
 
 **Framework integration**:
 - VTA habituation (§2.8 P3) = neural mechanism of hedonic adaptation
@@ -609,53 +612,53 @@ User's articulation:
 
 🟡 Framework claim (extending Personal-Melody.md):
 
-> When melody is smooth, **baseline reward state** emerges — not "euphoric" but **contented, engaged, meaningful**. This is sustained reward (§10 P3 P3b).
+> When melody is smooth, a **baseline reward state** emerges — not "euphoric" but **contented, engaged, meaningful**. This is sustained reward (§10 P3).
 
 **Sustained reward indicators**:
 - Work feels engaging most days
-- Relationships nourishing
+- Relationships feel nourishing
 - Body feels rested
 - Minor frustrations don't cascade
 - Sense of "life is good"
 
-**When melody rough**:
+**When melody is rough**:
 - Work feels draining
-- Relationships conflicted
+- Relationships feel conflicted
 - Body chronically tired
 - Minor frustrations cascade
 - Sense of "life is hard"
 
-**These are not personality traits or mood**. They're emergent melody quality from architecture state.
+**These are not personality traits or mood.** They're emergent melody quality from architecture state.
 
-### §5.6 — Melody evolution across lifetime
+### §5.6 — Melody evolution across a lifetime
 
 🟡 Framework trajectory:
 
-**Childhood** (age 0-12):
+**Childhood** (ages 0–12):
 - Chunks base building rapidly
 - Melody mostly determined by caregiver + environment
 - Feeling layer developing (self-signal interoception scaffolding)
 - High sensitivity to trauma (developmental window)
 
-**Adolescence** (age 12-25):
+**Adolescence** (ages 12–25):
 - Identity schema compile (who am I?)
 - Anchor-Schema formation (values, direction)
 - Social schemas mature
 - Melody starts reflecting individual rather than family
 
-**Early adulthood** (age 25-40):
+**Early adulthood** (ages 25–40):
 - Career + relationship arcs major
 - Schema portfolio expanding + specializing
 - Melody increasingly self-chosen
 - Trauma from this period affects long-term melody
 
-**Mid-life** (age 40-60):
+**Mid-life** (ages 40–60):
 - Schema stabilizing
 - Hedonic trap risks peak
 - Meaning questioning common
 - Melody either deepens or stagnates
 
-**Later life** (age 60+):
+**Later life** (ages 60+):
 - Accumulated wisdom chunks
 - Physical baseline shifts
 - Legacy/integration themes emerge
@@ -669,9 +672,9 @@ User's articulation:
 
 ### §6.1 — Why Einstein case
 
-Einstein case (C1.5) is **ideal** for full walkthrough because:
+The Einstein case (C1.5) is **ideal** for the full walkthrough because:
 - Involves ALL drill layers (dissonance → reward via all 5 preconditions)
-- Demonstrates interface loop at years-timescale
+- Demonstrates Interface Loop at years-timescale
 - Shows Imagine-Final evolution through 5 phases multiple times
 - Illustrates spreading activation + breakthrough mechanism
 - Reveals role of external catalyst + social confirmation
@@ -679,16 +682,16 @@ Einstein case (C1.5) is **ideal** for full walkthrough because:
 
 User's verbatim was rich (see §4.5 P3). This walkthrough traces the full architecture.
 
-### §6.2 — Phase 1 (Years 0-5): Initial Dissonance
+### §6.2 — Phase 1 (Years 0–5): Initial Dissonance
 
-**Interface loop iteration** (typical day in early exploration):
+**Interface Loop iteration** (typical day in early exploration):
 
-**Step 1**: Einstein reads physics paper (visual input)
+**Step 1**: Einstein reads a physics paper (visual input)
 **Step 2**: Unconscious processes
 - Chunks about Newtonian mechanics activate
 - Also: chunks about electromagnetism (Maxwell)
 - Also: chunks about thought experiments (light, motion)
-- **VTA detects delta**: "Newton predictions don't fit Maxwell's equations"
+- **VTA detects delta**: "Newton's predictions don't fit Maxwell's equations"
 - Spreading activation cascade: multiple physics schemas fire
 **Step 3**: Upstream integration produces "coherence gap signal"
 **Step 4**: Body-base signal: **mild dissonance** — "something doesn't fit"
@@ -701,9 +704,9 @@ User's verbatim was rich (see §4.5 P3). This walkthrough traces the full archit
 
 **Imagine-Final state**: Fuzzy — "there should be a unified framework" but no specific form yet.
 
-### §6.3 — Phase 2 (Years 5-10): Chunks Building
+### §6.3 — Phase 2 (Years 5–10): Chunks Building
 
-**Interface loop continues**:
+**Interface Loop continues**:
 - More reading, more math, more thought experiments
 - **Schema updates** (Step 6) strong — chunks compile daily
 - Chunks now cover: special relativity (published 1905), math, philosophy of space/time
@@ -712,11 +715,11 @@ User's verbatim was rich (see §4.5 P3). This walkthrough traces the full archit
 **Anchor-Schema state**:
 - Compiled schema "physics breakthrough possible" strengthens
 - Becomes deep anchor (not PFC deliberate, compiled at body level)
-- **Tiếng gọi** emerges — Einstein feels called to pursue this
+- **Calling** emerges — Einstein feels called to pursue this
 
 **Imagine-Final evolution**:
 - Started fuzzy
-- Now Level 3-4 (Dream-Goal) — clearer direction
+- Now Level 3–4 (Dream-Goal) — clearer direction
 - Not yet fully formed ("what IS the unified framework?")
 
 **Dissonance state**:
@@ -724,11 +727,11 @@ User's verbatim was rich (see §4.5 P3). This walkthrough traces the full archit
 - Sustained despite success of special relativity — there's more to find
 - Drives daily work
 
-### §6.4 — Phase 3 (Years 10-15): Deeper Struggle + External Catalyst
+### §6.4 — Phase 3 (Years 10–15): Deeper Struggle + External Catalyst
 
 **Key period for gravity integration**:
 
-**Interface loop** (around 1912-1915):
+**Interface Loop** (around 1912–1915):
 - **Dissonance intensity HIGHER** — sense that gap can be closed but tools insufficient
 - PFC working very hard
 - Imagine-Final clarity increasing: "geometric theory of gravity"
@@ -737,7 +740,7 @@ User's verbatim was rich (see §4.5 P3). This walkthrough traces the full archit
 
 - Grossman (mathematician) brings tensor calculus
 - **External catalyst** — provides missing chunks
-- Interface loop trace:
+- Interface Loop trace:
   - Step 1: Grossman explains tensor math
   - Step 2: Einstein's chunks + new math chunks cascade
   - Step 3: Upstream integration — "new chunks fit pending gap"
@@ -749,20 +752,20 @@ User's verbatim was rich (see §4.5 P3). This walkthrough traces the full archit
 **Imagine-Final BUILD phase intensely active**:
 - Multiple candidate equations tried
 - Body pre-feels each
-- Some feel "right" others "wrong"
+- Some feel "right," others "wrong"
 - Gradual convergence
 
 ### §6.5 — Phase 4 (November 1915): Breakthrough
 
-**Single critical interface loop iteration**:
+**Single critical Interface Loop iteration**:
 
-**Step 1-2**: Einstein works through equations with new math tools
+**Steps 1–2**: Einstein works through equations with new math tools
 **Step 3**: Integration produces: "field equations match observations"
 **Step 4**: Body signal: **MASSIVE reward signal**
 - All 5 H10 preconditions maximally met:
   - P1: Schema pending for years (unified theory)
   - P2: Chunks base sufficient after Grossman work
-  - P3: prediction-delta HUGE (new pattern after years searching)
+  - P3: Prediction-delta HUGE (new pattern after years of searching)
   - P4: Goldilocks match (familiar framework + novel synthesis)
   - P5: Tag opioid (chosen domain, curiosity-driven)
 - **Opioid flood** through body
@@ -770,7 +773,7 @@ User's verbatim was rich (see §4.5 P3). This walkthrough traces the full archit
 
 **Step 5**: PFC experiences "intensely pleasant" (Einstein's reported state)
 - Feeling layer Feel-Labeling — Feel-Explanation: "I've found it"
-- Cannot fully articulate in that moment
+- Cannot fully articulate it in that moment
 - Body-level conviction
 
 **Step 6**: Schema update MAJOR
@@ -778,13 +781,13 @@ User's verbatim was rich (see §4.5 P3). This walkthrough traces the full archit
 - Self-schema upgrades: "I am the person who solved this"
 - Multiple compile pathways activate simultaneously (repetition from recent work + emotional peak from breakthrough + multi-modal as he writes it out)
 
-**Step 7-8**: Action — begins writing paper, announcing findings
+**Steps 7–8**: Action — begins writing the paper, announcing findings
 
-### §6.6 — Phase 5 (1915-1919): Publication + Confirmation
+### §6.6 — Phase 5 (1915–1919): Publication + Confirmation
 
-**Interface loop at social scale**:
+**Interface Loop at social scale**:
 
-**Step 1-8** iterations:
+**Steps 1–8** iterations:
 - Publish paper → physics community reads
 - Initial reactions mixed (paradigm shift resistance, per Kuhn — P3 §8.5.3)
 - Discussions, critiques, verification attempts
@@ -792,52 +795,52 @@ User's verbatim was rich (see §4.5 P3). This walkthrough traces the full archit
 
 **1919 confirmation moment**:
 - External news arrives: "Einstein's predictions verified"
-- Interface loop:
+- Interface Loop:
   - Step 1: News auditory/visual
   - Step 2: Chunks activate — all past work, Imagine-Final anchor, self-schema
   - Step 4: **Peak reward** — "intensely pleasant"
-  - User's precise phrase: "hàng loạt chunk được liên kết và nó rõ ràng, an toàn, không phải sửa, không cần nghi ngờ"
+  - User's precise phrase (translated): "the chains of chunks linked clearly, safely, no need to revise, no need to doubt"
 
 **Why Phase 5 > Phase 4 reward**:
 - Phase 4: Personal conviction, body-level certainty
 - Phase 5: **Trust dimension** added (Anchor-Schema §2)
-  - External validation → schema compile deeper
+  - External validation → schema compiles deeper
   - Social confirmation → Anchor-Schema fortified
   - Certainty removes lingering doubt
-- **Trust maximizes** → removes cost of maintenance → sustained peak reward
+- **Trust maximized** → removes cost of maintenance → sustained peak reward
 
 ### §6.7 — Einstein walkthrough insights
 
 **Architecture reveals**:
 
-1. **Years-long loops** are same architecture as seconds-long loops, just longer iterations
-2. **External catalyst** (Grossman) was **architectural necessity** — internal work couldn't close gap without new chunks
+1. **Years-long loops** use the same architecture as seconds-long loops, just with longer iterations
+2. **External catalyst** (Grossman) was an **architectural necessity** — internal work couldn't close the gap without new chunks
 3. **Peak reward** required all 5 preconditions + years of pending + sudden resolution
-4. **Social confirmation** compounds individual reward via Trust dimension
+4. **Social confirmation** compounds individual reward via the Trust dimension
 5. **Self-schema evolved** throughout, not just "task completed"
-6. **Imagine-Final tiến hóa** — fuzzy → clear → confirmed, positive feedback loop active throughout
+6. **Imagine-Final evolved** — fuzzy → clear → confirmed, positive feedback loop active throughout
 
 **Framework vindicated**: Einstein's subjective experience ("intensely pleasant" → "peak pleasant") is **predictable** from architecture given the preconditions state.
 
-**→ User's verbatim decomposition of Einstein case was already architecturally accurate**. File này adds systematic tracing of each step.
+**→ User's verbatim decomposition of the Einstein case was already architecturally accurate.** This file adds systematic tracing of each step.
 
 ---
 
-## §7 — Case Walkthrough 2: Hedonic Trap (B4.1 Tiền)
+## §7 — Case Walkthrough 2: Hedonic Trap (B4.1 Wealth)
 
 ### §7.1 — Why this case
 
-Hedonic trap walkthrough shows **failure mode of same architecture**. Same mechanisms as Einstein, different outcome. This is critical for understanding: architecture doesn't guarantee reward — it just computes based on conditions.
+The hedonic trap walkthrough shows the **failure mode of the same architecture**. Same mechanisms as Einstein, different outcome. This is critical for understanding: architecture doesn't guarantee reward — it just computes based on conditions.
 
 ### §7.2 — Phase 1 (Year 0): Initial Commitment
 
-**Interface loop iterations**:
+**Interface Loop iterations**:
 
 **Day 1 moment**:
 - Person thinks: "I want to be wealthy"
 - Imagine-Final builds: "wealthy = happy + secure + free"
 - Body pre-feels: partial opioid preview (society-injected schemas fire)
-- PFC commits: anchor-schema "make money" selected
+- PFC commits: Anchor-Schema "make money" selected
 
 **BUT Imagine-Final is FUZZY**:
 - "Wealthy" is measurable (amount of money)
@@ -845,11 +848,11 @@ Hedonic trap walkthrough shows **failure mode of same architecture**. Same mecha
 - "Secure" is vague (against what threat?)
 - "Free" is vague (free to do what?)
 
-**Framework diagnosis** already: Imagine-Final unclear at body-base level. Positive feedback loop won't work because chunks accumulating (money-making skills) don't clarify the vague part (happiness).
+**Framework diagnosis already**: Imagine-Final unclear at body-base level. Positive feedback loop won't work because accumulating chunks (money-making skills) don't clarify the vague part (happiness).
 
-### §7.3 — Phase 2 (Years 1-5): Execution
+### §7.3 — Phase 2 (Years 1–5): Execution
 
-**Daily interface loop**:
+**Daily Interface Loop**:
 - Work hard → money accumulates → schema "I'm progressing" fires → mild reward
 - **BUT**: chunks compiled are **financial/work chunks**
 - **Other schemas neglected**: relationships (spending time), health (long hours), hobbies (dropped)
@@ -858,20 +861,20 @@ Hedonic trap walkthrough shows **failure mode of same architecture**. Same mecha
 - Work schemas: heavy maintenance, growing
 - Relationship schemas: light maintenance, stable (barely)
 - Friend schemas: neglected, slight decay
-- Health schemas: neglected, decay
+- Health schemas: neglected, decaying
 - Hobby schemas: abandoned, decaying fast
 - Simple pleasure schemas: atrophying ("no time to savor food")
 
 **Cortisol-Baseline state**:
 - Baseline high (work stress)
 - Sleep mediocre (work worry, late nights)
-- Repair deficit starts
+- Repair deficit starting
 - Chunks compiling increasingly under cortisol context
 - **Tag shifts toward cortisol**
 
-### §7.4 — Phase 3 (Years 5-8): Accumulating damage
+### §7.4 — Phase 3 (Years 5–8): Accumulating damage
 
-**Interface loop quality degrades**:
+**Interface Loop quality degrades**:
 - **Step 5 PFC gateway**: signal processing slower (fatigue)
 - **Step 6 schema update**: lower quality consolidation (sleep deficit)
 - **Step 4 signal generation**: more dissonance than reward (portfolio imbalance)
@@ -879,40 +882,40 @@ Hedonic trap walkthrough shows **failure mode of same architecture**. Same mecha
 **Hedonic adaptation kicks in**:
 - Early wealth brings more reward than later wealth
 - Baseline shifts upward
-- Need more to feel same
+- Need more to feel the same
 
 **Subjective experience**:
 - "Working hard but not satisfied"
-- "Should be happy at this level but not"
+- "Should be happy at this level but I'm not"
 - Friends noticing but person dismissing
 
-**Melody state**: noise background (user's phrase) — melody no longer smooth, fragments unresolved.
+**Melody state**: background noise — melody no longer smooth, fragments unresolved.
 
 ### §7.5 — Phase 4 (Year 10): Arrival at Goal
 
 **Critical moment**:
 - Imagine-Final goal reached ("I have $X million")
 - PFC expects full reward
-- **Interface loop**:
-  - Step 1-4 run through "I achieved goal"
+- **Interface Loop**:
+  - Steps 1–4 run through "I achieved the goal"
   - Step 4: Body-base check
 
 **BUT body-base check FAILS**:
 
-At Step 5 "body check chunk against body-need":
+At Step 5 "body checks chunk against body-need":
 - What body-needs were actually pending?
 - Original: "happiness, security, freedom"
 - Translation attempted: "money = happiness" → FAILS (no chunks to cash in)
 - "money = security" → partial fire (resource need partially met)
 - "money = freedom" → partial (but now entangled with money-protecting schemas)
 
-**Crucial failure**: "Happiness" body-need was NEVER actually "money." Was actually things like:
+**Crucial failure**: The "happiness" body-need was NEVER actually "money." It was actually things like:
 - **Connection** (relationships) → now decayed schemas
 - **Meaning** (alignment with values) → neglected during pursuit
 - **Embodiment** (health, rest, pleasure) → atrophied
-- **Flow** (engaged activity matching skill) → not work (work was grind)
+- **Flow** (engaged activity matching skill) → not work (work was a grind)
 
-**Result**: Body-base check can't fit money to these needs → NO full opioid → "trống rỗng" (user's phrase).
+**Result**: Body-base check can't fit money to these needs → NO full opioid → hollow feeling.
 
 ### §7.6 — Phase 5 (Year 10+): Discovery of emptiness
 
@@ -920,12 +923,12 @@ At Step 5 "body check chunk against body-need":
 - "I have everything I wanted but feel empty"
 - Can't enjoy luxuries (atrophied taste/savoring chunks)
 - Friends feel distant (decayed social chunks)
-- Work achievement feels hollow (body never felt aligned)
+- Work achievement feels hollow (body was never aligned)
 
-**Interface loop continues but quality low**:
+**Interface Loop continues but quality low**:
 - **Dissonance dominant** → searching for "what's wrong"
 - **PFC generates new Imagine-Finals** → "more money" / "bigger house" / "new goal"
-- **Some try to fix via more of same** (doesn't work — same architecture failure)
+- **Some try to fix via more of the same** (doesn't work — same architectural failure)
 - **Some try to reverse**: reconnect with friends, find hobbies, rebuild health
 
 ### §7.7 — Recovery path (if attempted)
@@ -934,12 +937,12 @@ At Step 5 "body check chunk against body-need":
 
 **Phase 6 recovery attempt**:
 - Identify decayed schemas
-- Invest time in reactivation (see friends, practice hobby, rest)
-- **Chunks take time to rebuild** (months-years for significant)
+- Invest time in reactivation (see friends, practice hobbies, rest)
+- **Chunks take time to rebuild** (months–years for significant change)
 - **Taste/enjoyment recalibration** slowly returns
 
 **Framework prediction**:
-- Full recovery possible but requires reverse of what got there
+- Full recovery possible but requires reversing what got there
 - Most don't reverse — too invested in wealth-identity schemas
 - Some find new meaning (philanthropy, teaching, family) — schema portfolio rebalance
 
@@ -950,11 +953,11 @@ At Step 5 "body check chunk against body-need":
 1. **Same architecture as Einstein** — difference is in Imagine-Final clarity + chunks alignment with actual body-needs
 2. **Fuzzy Imagine-Final** → can't close positive feedback loop → burnout rather than breakthrough
 3. **Schema portfolio maintenance cost** creates hidden degradation during pursuit
-4. **Cortisol-tagged chunks** build alongside content chunks → "giỏi nhưng ghét" pattern for work
-5. **Body-base check at arrival fails** because pursued target never matched actual needs
+4. **Cortisol-tagged chunks** build alongside content chunks → "skilled but resentful" pattern for work
+5. **Body-base check at arrival fails** because the pursued target never matched actual needs
 6. **Recovery possible** via re-association but slow and requires reversal
 
-**→ Hedonic trap is NOT personality flaw**. It's predictable architectural outcome when Imagine-Final isn't validated against actual body-base needs early.
+**→ Hedonic trap is NOT a personality flaw.** It's a predictable architectural outcome when Imagine-Final isn't validated against actual body-base needs early.
 
 ---
 
@@ -962,13 +965,13 @@ At Step 5 "body check chunk against body-need":
 
 ### §8.1 — Why this case
 
-Trauma loop walkthrough shows **catastrophic failure mode**. Architecture damaged to point of self-perpetuating degradation. Most important case for understanding why some suffering doesn't self-resolve.
+The trauma loop walkthrough shows the **catastrophic failure mode**. Architecture damaged to the point of self-perpetuating degradation. This is the most important case for understanding why some suffering doesn't self-resolve.
 
-User's verbatim is dense (see §8.1 in P2). This traces through unified architecture.
+User's verbatim is dense (see §8.1 in P2). This walkthrough traces through the unified architecture.
 
 ### §8.2 — Phase 1 (Initial Event): Trauma compiles
 
-**Single interface loop iteration at trauma moment**:
+**Single Interface Loop iteration at trauma moment**:
 
 **Step 1**: Sensory input — traumatic event (visual + auditory + body sensations)
 **Step 2**: Unconscious chunks fire massively
@@ -985,13 +988,13 @@ User's verbatim is dense (see §8.1 in P2). This traces through unified architec
 - Multi-modal: visual + auditory + body + emotional all wire together
 
 **Immediate aftermath**:
-- Acute phase passes (minutes-hours)
+- Acute phase passes (minutes–hours)
 - Body state begins returning toward baseline
 - Schema compiled deep, awaiting integration
 
-### §8.3 — Phase 2 (Days-Weeks): PFC active drafting
+### §8.3 — Phase 2 (Days–Weeks): PFC active drafting
 
-**Many interface loop iterations daily**:
+**Many Interface Loop iterations daily**:
 
 **Pattern each iteration**:
 - Step 1: Trigger (memory, similar situation, intrusive thought)
@@ -1003,18 +1006,18 @@ User's verbatim is dense (see §8.1 in P2). This traces through unified architec
   - None fully resolves
 - Step 6: Drafts don't compile stably (no resolution framework)
 - Step 7: Action often avoidance or rumination
-- Step 8: Returns similar state → loop
+- Step 8: Returns to similar state → loop
 
-**Framework key**: **PFC cannot find solution** because:
+**Framework key**: **PFC cannot find a solution** because:
 - No chunks available that provide safety (for anxiety-based trauma)
 - No chunks available that provide meaning (for existential trauma)
 - **Imagine-Final cannot form clearly** → no anchor → no direction
 
-### §8.4 — Phase 3 (Weeks-Months): Sleep degradation
+### §8.4 — Phase 3 (Weeks–Months): Sleep degradation
 
 **New failure mode emerges**:
 
-**Interface loop during "normal" daytime**:
+**Interface Loop during "normal" daytime**:
 - Runs with ongoing low-level dissonance background
 - Each iteration has anxiety contamination
 - **Step 6 schema updates compromised** by poor sleep
@@ -1023,29 +1026,29 @@ User's verbatim is dense (see §8.1 in P2). This traces through unified architec
 - Anticipation loop fires at bedtime
 - Cortisol doesn't drop → sleep onset difficult
 - Fragmented sleep → REM disrupted
-- **Learning-Cycle Stage 4-6 broken** (P2 §7)
+- **Learning-Cycle Stage 4–6 broken** (P2 §7)
 - Daily chunks don't consolidate properly
 
 **Cumulative effect**:
 - Next day starts with incomplete integration
 - More confusion, fatigue
 - PFC working capacity degrades
-- More anticipation loop night
+- More anticipation loop at night
 - Spiral continues
 
-### §8.5 — Phase 4 (Months-Years): Neural wear + schema drift
+### §8.5 — Phase 4 (Months–Years): Neural wear + schema drift
 
 **M2 damage accumulates** (PFC-Analysis §8.4):
-- Cortisol chronic → PFC dendrite retraction (Arnsten 2009 🟢)
+- Chronic cortisol → PFC dendrite retraction (Arnsten 2009 🟢)
 - PFC capacity decreases
 - Worse at drafting, worse at integrating
-- **Worse at solving the very problem that caused damage**
+- **Worse at solving the very problem that caused the damage**
 
-**Schema drift** (user's verbatim):
+**Schema drift** (user's verbatim, translated):
 - Original trauma schema partially buried under many failed-draft schemas
 - Dissonance proliferation — multiple schemas all firing discomfort
-- User's phrase: "lost mất schema trauma ban đầu, nhưng lại sinh rất nhiều pattern dissonance mới"
-- Framework validates: chunks don't delete, accumulate instead
+- "Lost the original trauma schema, but instead generated many new dissonance patterns"
+- Framework validates: chunks don't delete, they accumulate instead
 
 **Feeling layer collapse** (P1 §5.4 self-signal interoception):
 - Chronic trauma → dissociation protective
@@ -1053,9 +1056,9 @@ User's verbatim is dense (see §8.1 in P2). This traces through unified architec
 - Cannot identify own feelings ("not sure what I feel")
 - **Alexithymic presentation** emerges (Bird & Cook 2013)
 
-### §8.6 — Interface loop in advanced trauma
+### §8.6 — Interface Loop in advanced trauma
 
-**By year 3-5+**:
+**By year 3–5+**:
 - Loop runs but quality very low
 - Step 2 compiled schemas fire fear constantly
 - Step 4 dissonance background continuous
@@ -1075,7 +1078,7 @@ User's verbatim is dense (see §8.1 in P2). This traces through unified architec
 Understanding architecture guides intervention points:
 
 **Stage 1 intervention** (immediate post-trauma):
-- Prevent Phase 2-3 progression
+- Prevent Phase 2–3 progression
 - Social support + safety + processing
 - **Framework mechanism**: prevents dissonance from becoming chronic via early resolution
 
@@ -1093,21 +1096,21 @@ Understanding architecture guides intervention points:
 - Nutrition (PFC repair substrates)
 - Extended time
 - **Somatic therapy** (SE, sensorimotor) to rebuild self-signal interoception
-- **Framework mechanism**: rebuild Step 2-3 processing capacity
+- **Framework mechanism**: rebuild Step 2–3 processing capacity
 
-**Most trauma therapy works at Stage 2** (drafting). Stages 3-4 often undertreated.
+**Most trauma therapy works at Stage 2** (drafting). Stages 3–4 often undertreated.
 
 ### §8.8 — Re-association (Cortisol-Baseline §3.5 paths)
 
 **Long-term recovery** requires re-associating trauma chunks:
 
-**Path 1 (new experience)**: 
+**Path 1 (new experience)**:
 - Re-engage similar contexts safely
 - Somatic therapy approaches
 - Slow (years)
 
 **Path 2 (novelty hijack)**:
-- Find meaning or purpose using experience
+- Find meaning or purpose using the experience
 - Viktor Frankl tradition
 - Writing, teaching, advocacy
 
@@ -1116,20 +1119,20 @@ Understanding architecture guides intervention points:
 - 24/7 patient processing support
 - Careful approach required
 
-**All 3 paths slow**. Chunks don't delete (Chunk.md §2). Must overlay new positive associations.
+**All 3 paths are slow.** Chunks don't delete (Chunk.md §2). Must overlay new positive associations.
 
 ### §8.9 — Trauma loop insights
 
 **Architecture reveals**:
 
-1. **Trauma and Einstein use same architecture** — difference is resolution availability
+1. **Trauma and Einstein use the same architecture** — difference is resolution availability
 2. **Self-perpetuating spiral** emerges from Stage 4 damage feeding back into earlier stages
 3. **Sleep quality is THE critical lever** — most underappreciated intervention point
 4. **Self-signal interoception collapse** explains adult alexithymia from childhood trauma
 5. **Therapy works by creating new schemas** (override, not delete)
 6. **Architecture is not destiny** — re-association possible but slow
 
-**→ Understanding architecture gives hope** — clearly identifies intervention points rather than mysteriously "suffering won't lift." But also explains why recovery is slow — must match architectural timescales.
+**→ Understanding architecture gives hope** — clearly identifies intervention points rather than treating suffering as mysteriously intractable. But also explains why recovery is slow — must match architectural timescales.
 
 ---
 
@@ -1141,7 +1144,7 @@ Understanding architecture guides intervention points:
 
 🟡 **H10 — Body Signal Precondition Hypothesis** (final formalization):
 
-> **Body signal (reward, dissonance, or neutral) emitted at Step 4 of the interface loop is a deterministic function of 5 preconditions evaluated at the moment of schema-body coherence check.**
+> **Body signal (reward, dissonance, or neutral) emitted at Step 4 of the Interface Loop is a deterministic function of 5 preconditions evaluated at the moment of schema-body coherence check.**
 >
 > Let S = signal state emitted.
 > Let P1, P2, P3, P4, P5 = binary states of each precondition (met / not met).
@@ -1158,16 +1161,16 @@ Understanding architecture guides intervention points:
 #### §9.2.1 — Precondition 1: Schema Pending Status
 
 **Definition**:
-> Body must have **active unresolved body-need** OR **schema seeking upgrade/resolution** at the time of input evaluation.
+> Body must have an **active unresolved body-need** OR a **schema seeking upgrade/resolution** at the time of input evaluation.
 
 **Operationalization**:
-- Body-need = signal from L1 body-inputs (Body-Input-Enumeration §4) indicating homeostatic gap OR
+- Body-need = signal from layer 1 body-inputs (Body-Input-Enumeration §4) indicating homeostatic gap, OR
 - Schema-pending = chunks or Imagine-Final expecting completion not yet achieved
 - Both forms count
 
-**Failure mode**: "Không cần / không muốn" — satiety, indifference, completion
+**Failure mode**: "Don't need it / don't want it" — satiety, indifference, completion
 
-**Test**: Fed person offered food → no reward even if food objectively good (Cabanac 1971 alliesthesia 🟢)
+**Test**: Fed person offered food → no reward even if food is objectively good (Cabanac 1971 alliesthesia 🟢)
 
 #### §9.2.2 — Precondition 2: Chunks Base Adequacy
 
@@ -1179,21 +1182,21 @@ Understanding architecture guides intervention points:
 - Adequacy threshold: >20% match ratio (below = "too alien")
 - Richer chunks base → finer appreciation + more reward potential
 
-**Failure mode**: "Chả hiểu / chả biết" — confusion, alien perception
+**Failure mode**: "Can't make sense of it / don't understand it" — confusion, alien perception
 
 **Test**: Van Gogh painting to untrained viewer vs art expert (drill C3, P3 §6)
 
 #### §9.2.3 — Precondition 3: Prediction-Delta Threshold
 
 **Definition**:
-> Input pattern must produce **sufficient delta** (biến động) relative to recent habituated state để trigger VTA firing and PFC attention allocation.
+> Input pattern must produce **sufficient prediction-delta** relative to recent habituated state to trigger VTA firing and PFC attention allocation.
 
 **Operationalization**:
 - Habituation-based (prediction-delta, not "prediction error" — PFC-Analysis §8.3)
 - DRD4 receptor variant affects threshold (4R sensitive, 7R coarse)
 - Recent history determines what counts as "delta"
 
-**Failure mode**: "Bình thường / quen rồi" — habituation, routine, no salience
+**Failure mode**: "Normal / already used to it" — habituation, routine, no salience
 
 **Test**: Daily routine positive events often fail to register as rewarding despite objective goodness
 
@@ -1203,38 +1206,38 @@ Understanding architecture guides intervention points:
 > Match ratio between input pattern and existing chunks base must fall in the **Goldilocks zone** (dynamic per person/context — Why-Body-Knows §2).
 
 **Operationalization**:
-- <20%: too alien → cannot decode → cortisol mild
-- Goldilocks zone: recognized + novel → opioid + dopamine → **HAY**
+- <20%: too alien → cannot decode → mild cortisol
+- Goldilocks zone: recognized + novel → opioid + dopamine → **captivating**
 - >90%: too familiar → habituated → nothing
 
 **Failure modes**:
-- "Lạ quá / kỳ cục" (too alien)
-- "Chán / biết rồi" (too familiar)
+- "Too strange / bizarre" (too alien)
+- "Boring / already know this" (too familiar)
 
 **Test**: Zajonc 1968 mere exposure + Berlyne 1960 optimal novelty inverted-U curves 🟢
 
 #### §9.2.5 — Precondition 5: Chunk Association Tag
 
 **Definition**:
-> The chunks being activated must have **appropriate neurochemical association tag** (opioid for novelty-compiled, cortisol for threat-compiled) compatible with reward direction.
+> The chunks being activated must have an **appropriate neurochemical association tag** (opioid for novelty-compiled, cortisol for threat-compiled) compatible with the reward direction.
 
 **Operationalization**:
 - Chunks compile under specific neurochemical context (Cortisol-Baseline §3.5)
 - Tag persists through retrieval
 - Opioid-tagged chunks sustain reward
-- Cortisol-tagged chunks trigger discomfort even if content recognized
+- Cortisol-tagged chunks trigger discomfort even if content is recognized
 
-**Failure mode**: "Không thích dùng / avoidant" — content knowledge present but retrieval uncomfortable
+**Failure mode**: "Don't like using it / avoidance" — content knowledge present but retrieval uncomfortable
 
-**Test**: Adult who excelled at school under forced threat feeling aversion to academic material decades later ("giỏi nhưng ghét") 🟡
+**Test**: Adult who excelled in school under forced threat feeling aversion to academic material decades later ("skilled but resentful") 🟡
 
 ### §9.3 — Falsifiable Predictions
 
 🟡 **10 falsifiable predictions** from H10:
 
 **P1 (Schema Pending)**:
-- **Prediction 1**: Satiety reduces reward magnitude for relevant stimulus within same modality (Cabanac replication 🟢 supports)
-- **Prediction 2**: Anhedonia in depression correlates with schema pending collapse (multiple needs go "offline") — testable via clinical measurement
+- **Prediction 1**: Satiety reduces reward magnitude for relevant stimulus within the same modality (Cabanac replication 🟢 supports)
+- **Prediction 2**: Anhedonia in depression correlates with schema pending collapse (multiple needs going "offline") — testable via clinical measurement
 
 **P2 (Chunks Base)**:
 - **Prediction 3**: Expert-novice reward differential for domain-specific stimuli — measurable via physiological response (HRV, GSR, fMRI insula) 🟡
@@ -1248,27 +1251,27 @@ Understanding architecture guides intervention points:
 - **Prediction 7**: Inverted-U curve for novelty vs reward should apply universally across domains (art, music, food, social, cognitive) — large meta-analysis possible 🟡
 
 **P5 (Chunk Tag)**:
-- **Prediction 8**: Academic content learned under threat (early schooling ép học) should elicit measurable physiological discomfort during retrieval decades later 🟡
+- **Prediction 8**: Academic content learned under threat (early forced schooling) should elicit measurable physiological discomfort during retrieval decades later 🟡
 - **Prediction 9**: Re-association therapy (positive context re-exposure) should measurably shift physiological response to previously-threatening stimuli — EMDR/exposure therapy research 🟢 partial support
 
 **Combinations**:
-- **Prediction 10**: Flow state emerges specifically when all 5 preconditions continuously met at moderate intensity. Flow measurement should correlate with state-by-state precondition check — testable via experience sampling + physiology
+- **Prediction 10**: Flow state emerges specifically when all 5 preconditions are continuously met at moderate intensity. Flow measurement should correlate with state-by-state precondition check — testable via experience sampling + physiology
 
-**Comprehensive test**: Person's reward response to specific stimulus X should be predictable given state of their 5 preconditions for X. Multi-stimulus across individuals → large-scale validation possible.
+**Comprehensive test**: A person's reward response to specific stimulus X should be predictable given the state of their 5 preconditions for X. Multi-stimulus across individuals → large-scale validation possible.
 
-### §9.4 — Evidence from Drill (P2-P3)
+### §9.4 — Evidence from Drill (P2–P3)
 
 Each precondition validated by multiple drill cases:
 
 | Precondition | Cases validating | File sections |
 |---|---|---|
-| **P1** | C2.1-C2.5 (ô tô — P1 failure produces no reward), Hedonic trap (fuzzy P1 leads to failure at arrival) | P3 §5, P4 §7 |
+| **P1** | C2.1–C2.5 (Car paradox — P1 failure produces no reward), Hedonic trap (fuzzy P1 leads to failure at arrival) | P3 §5, P4 §7 |
 | **P2** | C3 Van Gogh (P2 failure = confusion not reward), Einstein (P2 building over years) | P3 §6, P4 §6 |
-| **P3** | C1.1 cô gọi tên (habituation vs novelty), daily routine reward loss | P3 §4.1 |
-| **P4** | Van Gogh training gradient, ô tô paradox with different observers | P3 §5-§6 |
-| **P5** | B2.2 vs B2.3 (same external, different tag → different outcome), Thiên tài paradox | P2 §5, P3 §9 |
+| **P3** | C1.1 Teacher calls name (habituation vs novelty), daily routine reward loss | P3 §4.1 |
+| **P4** | Van Gogh training gradient, Car paradox with different observers | P3 §5–§6 |
+| **P5** | Parent with the Switch vs Parent's Promise of a Toy Car (same external, different tag → different outcome), Genius paradox | P2 §5, P3 §9 |
 
-**All 5 preconditions show consistent pattern across drill cases**. No counterexamples found where reward fires without all 5 met (other than mild partial reward in edge cases).
+**All 5 preconditions show consistent pattern across drill cases.** No counterexamples found where reward fires without all 5 being met (other than mild partial reward in edge cases).
 
 ### §9.5 — Alternative Hypotheses Rejected
 
@@ -1276,62 +1279,62 @@ Each precondition validated by multiple drill cases:
 
 **Alternative A — Dopamine = Reward (common pop science)**:
 - Claim: Dopamine release IS the reward signal
-- H10 position: **Rejected**. Dopamine = alert/salience, opioid = actual reward
+- H10 position: **Rejected.** Dopamine = alert/salience, opioid = actual reward
 - Evidence: Berridge & Robinson 1998 wanting vs liking 🟢
 - H10 uses: Preconditions 3 (prediction-delta) + 5 (tag) together explain apparent dopamine-reward correlation
 
 **Alternative B — Schultz Prediction Error (neuroscience standard)**:
-- Claim: Dopamine fires on difference between predicted and actual reward
-- H10 position: **Partially compatible but simpler model adequate**. VTA habituation model (PFC-Analysis §8.3) produces same observable results with less computation
-- Evidence: Framework doesn't reject Schultz, offers alternative mechanism
-- H10 uses: Habituation-based delta (§9.2.3)
+- Claim: Dopamine fires on the difference between predicted and actual reward
+- H10 position: **Partially compatible but simpler model adequate.** VTA habituation model (PFC-Analysis §8.3) produces same observable results with less computation
+- Evidence: Framework doesn't reject Schultz, offers an alternative mechanism
+- H10 uses: Habituation-based prediction-delta (§9.2.3)
 
 **Alternative C — Behaviorism (stimulus-response)**:
-- Claim: Reward is strengthening of stimulus-response associations
-- H10 position: **Rejected as insufficient**. Behaviorism doesn't explain why same stimulus rewards different people, doesn't explain internal "wanting without getting," ignores chunks base prerequisite
-- Evidence: Ô tô paradox cannot be explained by behaviorism alone
+- Claim: Reward is the strengthening of stimulus-response associations
+- H10 position: **Rejected as insufficient.** Behaviorism doesn't explain why the same stimulus rewards different people, doesn't explain internal "wanting without getting," ignores chunks base prerequisite
+- Evidence: Car paradox cannot be explained by behaviorism alone
 - H10 uses: Per-person chunks base + schema pending state (P1, P2, P5)
 
 **Alternative D — "Reward is just feeling good" (folk theory)**:
 - Claim: Reward = subjective pleasantness, no mechanism needed
-- H10 position: **Rejected as explanatorily empty**. Doesn't predict when pleasantness arises
+- H10 position: **Rejected as explanatorily empty.** Doesn't predict when pleasantness arises
 - Evidence: H10 successfully predicts failure modes (Van Gogh case, hedonic trap) that folk theory cannot
 - H10 uses: Mechanistic 5-precondition structure
 
 **Alternative E — "Reward is evolutionarily hardwired" (strict evolutionary)**:
 - Claim: Reward responses are genetically specified, not learned
-- H10 position: **Partially accepted but incomplete**. Tầng 1 Darwinian provides base patterns, but Tầng 2 Hebbian compilation (Why-Body-Knows v1.1 §3) shows rewards are also learned
+- H10 position: **Partially accepted but incomplete.** Tier 1 Darwinian Selection provides base patterns, but Tier 2 Hebbian compilation (Why-Body-Knows v1.1 §3) shows rewards are also learned
 - Evidence: Training gradient for appreciation (Van Gogh case) shows learning component
-- H10 uses: 2-tầng calibration model (mostly Tầng 2: domain contact + trust-injected)
+- H10 uses: 2-Tier Calibration model (mostly Tier 2: domain contact + trust-injected)
 
 **Alternative F — "Reward is cognitive appraisal" (appraisal theory)**:
 - Claim: Reward = PFC cognitive evaluation of stimulus
-- H10 position: **Rejected as putting PFC ahead**. Framework firmly: vô thức first, PFC observer
+- H10 position: **Rejected as placing PFC first.** Framework firmly: Unconscious first, PFC observer
 - Evidence: Body reactions precede conscious labeling (Feel-RawSignals — Feel-Integration vs Feel-Consciousification — Feel-Explanation split in P1 §5)
 - H10 uses: Body-feedback vs feeling distinction (architecture prevents PFC-first view)
 
 ### §9.6 — Relationship with H8 (Learning Dissonance Cycle)
 
-🟡 **H8** (from `Learning-Cycle.md` §3): Learning occurs through 8-stage cycle with 3 concurrent signals (reward + fatigue + dissonance nhẹ) that resolve via sleep multi-mechanism refinement.
+🟡 **H8** (from `Learning-Cycle.md` §3): Learning occurs through an 8-stage cycle with 3 concurrent signals (reward + fatigue + mild dissonance) that resolve via sleep multi-mechanism refinement.
 
 **Relationship with H10**:
 - H8 = **dynamic model** (what happens over time during learning)
-- H10 = **static preconditions** (what must be true at any moment for signal)
+- H10 = **static preconditions** (what must be true at any moment for a signal)
 - **Compatible**: H10 preconditions must be met during H8 cycle for signals to fire correctly
-- H10 extends H8 by specifying **preconditions for reward firing at Stage 2-3** of learning cycle
+- H10 extends H8 by specifying **preconditions for reward firing at Stages 2–3** of the learning cycle
 
 **Joint operation**:
 - Learning cycle starts (new chunk attempt, Stage 1)
 - H10 preconditions evaluated at Stage 3 (signal generation):
   - P1: learning schema is pending ✅
-  - P2: chunks base sufficient for understanding ✅ (if well-designed learning)
+  - P2: chunks base sufficient for understanding ✅ (if learning is well-designed)
   - P3: delta from attempt ✅
   - P4: Goldilocks if difficulty appropriate
   - P5: tag opioid if learning context is curiosity-driven
 - If ALL met → Stage 3 produces concurrent signals properly → cycle continues
-- If any missing → cycle degrades (threat learning, confusion, etc.)
+- If any missing → cycle degrades (threat-based learning, confusion, etc.)
 
-**Framework**: H10 doesn't replace H8. Operates at different level of analysis.
+**Framework**: H10 doesn't replace H8. They operate at different levels of analysis.
 
 ### §9.7 — Relationship with H9 (Agent Processing)
 
@@ -1342,7 +1345,7 @@ Each precondition validated by multiple drill cases:
 - H10 = **general reward preconditions**
 - **H9 uses H10** — social rewards (empathy, connection, recognition) all operate via H10 preconditions applied to agent chunks
 
-**Joint operation** — Example: feeling empathy when friend shares good news:
+**Joint operation** — Example: feeling empathy when a friend shares good news:
 - P1: social connection need pending (always partially pending for social creatures)
 - P2: chunks base about friend + agent modeling sufficient
 - P3: delta registered (friend's excitement)
@@ -1350,15 +1353,15 @@ Each precondition validated by multiple drill cases:
 - P5: opioid-tagged (positive relationship compiled previously)
 - **Spreading activation** cascades friend's experience → self-simulation → mirror-like response → opioid → empathy felt
 
-**Framework**: H9 + H10 together describe social vs non-social reward mechanisms operating on same underlying architecture.
+**Framework**: H9 + H10 together describe social vs non-social reward mechanisms operating on the same underlying architecture.
 
 ### §9.8 — H10 as unified principle
 
 🟡 **Final claim**:
 
-> H10 provides **unified account** of:
-> - Why same person responds differently to different stimuli (different preconditions per stimulus)
-> - Why different people respond differently to same stimulus (different chunks base, pending, tags)
+> H10 provides a **unified account** of:
+> - Why the same person responds differently to different stimuli (different preconditions per stimulus)
+> - Why different people respond differently to the same stimulus (different chunks base, pending, tags)
 > - Why reward can fail despite objective "value" (precondition failure)
 > - Why reward can succeed despite apparent "low value" (all preconditions met)
 > - Why training changes appreciation (chunks base expansion)
@@ -1366,7 +1369,7 @@ Each precondition validated by multiple drill cases:
 > - Why hedonic trap is predictable (fuzzy P1 + portfolio neglect)
 > - Why flow state emerges from specific conditions (all 5 preconditions continuously met)
 >
-> **Framework unifies**: dissonance and reward are same system operating with different precondition states. "Reward mechanism" and "dissonance mechanism" are not separate — they're the SAME body-feedback system evaluating current state against preconditions.
+> **Framework unifies**: dissonance and reward are the same system operating with different precondition states. "Reward mechanism" and "dissonance mechanism" are not separate — they're the SAME body-feedback system evaluating current state against preconditions.
 
 ---
 
@@ -1374,7 +1377,7 @@ Each precondition validated by multiple drill cases:
 
 ### §10.1 — Framework confidence calibration
 
-Per drill convention: 🟢 research-backed / 🟡 framework consistent suy luận / 🔴 hypothesis-level speculation
+Per drill convention: 🟢 research-backed / 🟡 framework consistent synthesis / 🔴 hypothesis-level speculation
 
 ### §10.2 — 🟢 STRONG claims (research-backed)
 
@@ -1388,7 +1391,7 @@ Per drill convention: 🟢 research-backed / 🟡 framework consistent suy luậ
 - Working memory ~4 items (Cowan 2001)
 - Sleep consolidation (Walker 2017, extensive)
 - Spreading activation (Collins & Loftus 1975)
-- DMN / Default Mode Network (Raichle 2001)
+- Default Mode Network (Raichle 2001)
 
 **Reward + motivation research**:
 - Dopamine wanting vs opioid liking (Berridge & Robinson 1998, 2003)
@@ -1417,15 +1420,15 @@ Per drill convention: 🟢 research-backed / 🟡 framework consistent suy luậ
 **Architectural claims**:
 - Body-feedback vs feeling as 2-layer (raw vs PFC observation) — consistent with research, framework synthesis
 - 7-layer observation model (Raw → Explain) — framework construction from Feeling.md
-- PFC 5% vs vô thức 95% — estimate, consistent with unconscious processing research (Dijksterhuis 2006)
-- Vô thức chỉ đo body-base, PFC duy nhất check domain — framework position derived from somatic marker + dual process theory
+- PFC 5% vs Unconscious 95% — estimate, consistent with unconscious processing research (Dijksterhuis 2006)
+- Unconscious only measures body-base; PFC is the only one that checks domain — framework position derived from somatic marker + dual process theory
 
 **Dissonance mechanisms**:
 - 14 dissonance intensity levels — framework spectrum, not individually validated
-- 3 Genuine Discomfort Sources — framework taxonomy (supersedes old 6 nguồn)
+- 3 Genuine Discomfort Sources — framework taxonomy (supersedes old 6 sources)
 - 3 Genuine Discomfort Sources (nociception / mismatch / recalibration) — framework reframe of cortisol
 - Cortisol baseline = change-readiness function — framework reframe, logic consistent
-- Mini dissonance = byproduct of vô thức scan — framework synthesis
+- Mini dissonance = byproduct of unconscious scan — framework synthesis
 
 **Reward mechanisms**:
 - 5 H10 preconditions — framework synthesis from scattered sources
@@ -1449,11 +1452,11 @@ Per drill convention: 🟢 research-backed / 🟡 framework consistent suy luậ
 - Taste chunks atrophy without activation — consistent with savoring research (Bryant & Veroff)
 
 **Integration**:
-- Unified interface loop 8-step model — framework synthesis
+- Unified Interface Loop 8-step model — framework synthesis
 - Imagine-Final 5-phase lifecycle — framework model (Imagine-Final.md)
-- Anchor-Schema 4 nguồn fill — framework taxonomy
+- Anchor-Schema 4 sources of fill — framework taxonomy
 - Positive vs Negative Trust sustainability — framework claim
-- Personal-melody as emergent property — framework synthesis
+- Personal-Melody as emergent property — framework synthesis
 
 ### §10.4 — 🔴 SPECULATIVE claims (hypothesis-level)
 
@@ -1464,21 +1467,21 @@ Per drill convention: 🟢 research-backed / 🟡 framework consistent suy luậ
 - Self-signal interoception genetic components
 - Critical period for feeling layer development
 - AI as substitute for caregiver mirroring (ethical + effectiveness unknown)
-- Flow state trainability direct vs via prerequisites
+- Flow state trainability directly vs via prerequisites
 - Cross-cultural universality of H10 (framework assumes yes, not tested)
 
 **Framework-original claims requiring validation**:
 - Schema maintenance cost can be measured per-domain
 - Hedonic trap as "predictable architectural outcome" vs variable
-- Thiên tài paradox explanation (source of cortisol matters more than level)
-- "Same architecture operates Einstein AND trauma" — rhetorical effective, empirical?
+- Genius paradox explanation (source of cortisol matters more than level)
+- "Same architecture operates Einstein AND trauma" — rhetorically effective, empirically?
 - Peak vs sustained reward as distinct mechanisms (vs continuum)
 
 **Framework claims that are more conceptual than empirical**:
-- Dual-pull as fundamental architecture principle
-- Schema phục vụ body-base ("serves" — what does serve mean empirically?)
+- Dual-Pull Principle as fundamental architecture principle
+- Schema serves body-base ("serves" — what does "serves" mean empirically?)
 - Reward is coherence check not truth check (elegant but how to falsify?)
-- Anchor-Schema as necessary for behavior coherence
+- Anchor-Schema as necessary for behavioral coherence
 
 ### §10.5 — Drill-specific uncertainties
 
@@ -1487,12 +1490,12 @@ Per drill convention: 🟢 research-backed / 🟡 framework consistent suy luậ
 - 7-layer model implies discrete layers. Real processing likely continuous.
 
 **P2 Dissonance**:
-- 5 mini dissonance cases analyzed thoroughly. Generalization to all mini dissonances is framework claim.
+- 5 mini dissonance cases analyzed thoroughly. Generalization to all mini dissonances is a framework claim.
 - Trauma loop 4 stages — stages may not be discrete for all trauma types. Complex/developmental trauma may differ.
 
 **P3 Reward**:
-- 7 cases analyzed thoroughly. Ô tô paradox is hypothetical for specific reader. Real tests needed.
-- Van Gogh training gradient is plausible narrative. Exact curve not measured.
+- 7 cases analyzed thoroughly. Car paradox is hypothetical for this specific reader. Real tests needed.
+- Van Gogh training gradient is a plausible narrative. Exact curve not measured.
 - Chunk association tag = elegant framework concept. Molecular reality unclear.
 
 **P4 Integration**:
@@ -1500,35 +1503,35 @@ Per drill convention: 🟢 research-backed / 🟡 framework consistent suy luậ
 - Unified loop may oversimplify actual parallelism.
 
 **P5 H10**:
-- H10 as "unified principle" may over-reach. Could be useful model without being THE fundamental principle.
+- H10 as "unified principle" may over-reach. Could be a useful model without being THE fundamental principle.
 
 ### §10.6 — What would falsify the drill
 
 **Falsifying H10**:
-- Case where reward fires despite all 5 preconditions NOT being met → would require finding the missing precondition or rejecting model
+- Case where reward fires despite all 5 preconditions NOT being met → would require finding the missing precondition or rejecting the model
 - Consistent finding that dopamine alone = reward (contra Berridge) → would shift Precondition 5 interpretation
 - Training cannot shift Van Gogh-type appreciation → would weaken Precondition 2 claim
 
 **Falsifying foundational drill claims**:
 - Body-feedback vs feeling is actually one system → would collapse P1 §5 architecture
-- Interface loop doesn't run continuously → would reframe entire model
+- Interface Loop doesn't run continuously → would reframe the entire model
 - Schema maintenance cost doesn't exist → would weaken hedonic trap explanation
 
-**Framework stance**: These would update framework, not destroy it. Framework is evolving model, not fixed truth.
+**Framework stance**: These findings would update the framework, not destroy it. Framework is an evolving model, not fixed truth.
 
-### §10.7 — What drill does NOT claim
+### §10.7 — What the drill does NOT claim
 
 To avoid over-reach, explicit non-claims:
 
 - **Does NOT claim** H10 applies to all animals (framework is human-focused)
-- **Does NOT claim** framework solves all mental health — provides lens, not panacea
-- **Does NOT claim** every case drill analyzed is "bịa ra" free of bias
+- **Does NOT claim** framework solves all mental health — provides a lens, not a panacea
+- **Does NOT claim** every case drill analysis is free of bias
 - **Does NOT claim** framework is final — Phase 5.6 drill update expected
-- **Does NOT claim** replace existing empirical research — synthesizes + extends
+- **Does NOT claim** to replace existing empirical research — synthesizes + extends
 
 ---
 
-## §11 — Open Questions (Consolidated Q1-Q20)
+## §11 — Open Questions (Consolidated Q1–Q20)
 
 ### §11.1 — Consolidated from drill
 
@@ -1538,7 +1541,7 @@ To avoid over-reach, explicit non-claims:
 - Q3: AI as caregiver mirroring replacement
 - Q4: Body deception detection (when body rewards wrong domain)
 - Q5: Self-signal interoception genetic variation
-- Q6: Interface loop minimum iteration timing
+- Q6: Interface Loop minimum iteration timing
 - Q7: Why specifically 95/5 split
 
 **From P2 Dissonance**:
@@ -1607,159 +1610,159 @@ To avoid over-reach, explicit non-claims:
 
 ## §12 — Framework Update Recommendations
 
-### §12.1 — R1: Personal-Melody.md §5 add Goldilocks cross-ref
+### §12.1 — R1: Personal-Melody.md §5 add Goldilocks cross-reference
 
-**Current state**: Personal-Melody.md §5 establishes Two-Axis Tension beautifully, but doesn't explicitly reference Goldilocks zone mechanism.
+**Current state**: Personal-Melody.md §5 establishes the Two-Axis Tension beautifully, but doesn't explicitly reference the Goldilocks zone mechanism.
 
 **Proposed update**: Add §5.4 "Goldilocks zone in melody formation" — connecting Why-Body-Knows §2 Goldilocks match ratio to melody smoothness criteria.
 
-**Rationale**: Drill P3 §6 shows Goldilocks is central to appreciation (Van Gogh case). Personal-Melody would benefit from explicit connection.
+**Rationale**: The P3 §6 drill shows Goldilocks is central to appreciation (Van Gogh case). Personal-Melody would benefit from the explicit connection.
 
-**Specific edit**: Add section after §5.3 "Melody hay 4 criteria":
+**Specific edit**: Add section after §5.3 "Melody captivating — 4 criteria":
 
 > §5.4 — Goldilocks zone integration
-> 
-> "Hay" cũng có yếu tố Goldilocks match ratio. Pattern too familiar → habituated → không còn hay. Pattern too alien → can't decode → không hay. Goldilocks zone match → recognized + novel → HAY.
-> 
-> → Melody đánh giá "hay" per-moment depends on both:
+>
+> "Captivating" also has a Goldilocks match ratio element. Pattern too familiar → habituated → no longer captivating. Pattern too alien → can't decode → not captivating. Goldilocks zone match → recognized + novel → captivating.
+>
+> → Melody evaluates "captivating" per-moment based on both:
 > - 4 criteria (hardware + domain + breadth + sustainability)
 > - Goldilocks zone position vs existing chunks base
-> 
+>
 > → Cross-ref: Why-Body-Knows.md §2
 
-### §12.2 — R2: Chunk.md §5 strengthen with ô tô paradox
+### §12.2 — R2: Chunk.md §5 strengthen with Car paradox
 
-**Current state**: Chunk.md §5 "Body Evaluate — PFC Tìm, Body Duyệt" establishes "feel mượt ≠ đúng" but uses abstract examples.
+**Current state**: Chunk.md §5 "Body Evaluate — PFC Seeks, Body Approves" establishes "feels smooth ≠ correct" but uses abstract examples.
 
-**Proposed update**: Add ô tô paradox as concrete illustration of body evaluation being per-person.
+**Proposed update**: Add Car paradox as concrete illustration of body evaluation being per-person.
 
 **Specific edit**: After existing §5 warnings, add:
 
-> **Concrete example — ô tô paradox** (cross-ref Body-Feedback-Draft/03-Reward.md §5):
-> 
-> Cùng chiếc ô tô. Con (có schema "muốn ô tô" + chunks về car culture) → body reward strongly when given. Bố (thích xe cổ, chunks khác) → body reward for vintage không modern. Same object, opposite body responses.
-> 
-> → Body evaluate per-person, không per-object. "Feel đúng" is relative to CHUNKS BASE + SCHEMA PENDING.
+> **Concrete example — Car paradox** (cross-ref Body-Feedback/03-Reward.md §5):
+>
+> Same car. Son (has schema "want a car" + chunks about car culture) → body reward strongly when given. Father (prefers vintage cars, different chunks) → body reward for vintage, not modern. Same object, opposite body responses.
+>
+> → Body evaluates per-person, not per-object. "Feels right" is relative to CHUNKS BASE + SCHEMA PENDING.
 
-**Rationale**: Concretizes abstract claim, helps readers remember.
+**Rationale**: Concretizes the abstract claim; helps readers remember.
 
 ### §12.3 — R3: ~~Body-Dissonance.md add H10~~ → ✅ RESOLVED
 
-**Status**: Body-Dissonance.md đã superseded → moved to backup/Body-Dissonance-v1.md (2026-04-20).
+**Status**: Body-Dissonance.md superseded → moved to backup/Body-Dissonance-v1.md (2026-04-20).
 Content absorbed into: 02-Dissonance.md (case analyses) + Body-Feedback-Mechanism.md (chunk dynamics).
 H10 mechanism layer = Body-Feedback.md §6 + Body-Feedback-Mechanism.md §7.
 **No further action needed.**
 
-### §12.4 — R4: Learning-Cycle.md §2.3 cross-ref H10
+### §12.4 — R4: Learning-Cycle.md §2.3 cross-reference H10
 
-**Current state**: Learning-Cycle.md §2.3 establishes 3 concurrent signals (reward + fatigue + dissonance nhẹ). Doesn't connect to precondition framework.
+**Current state**: Learning-Cycle.md §2.3 establishes 3 concurrent signals (reward + fatigue + mild dissonance). Doesn't connect to the precondition framework.
 
 **Proposed update**: Add sentence in §2.3 cross-referencing H10.
 
 **Specific edit**: After existing §2.3 content:
 
 > **Why 3 signals fire concurrently — H10 preconditions**:
-> 
+>
 > Learning events typically involve:
 > - Reward signal: schema match component (P1 pending met) → opioid fires when chunk fits
 > - Fatigue signal: PFC processing load of sustained hold (P3 processing demand)
-> - Dissonance nhẹ signal: recalibration discomfort + Goldilocks-adjacent (P4 partial match)
-> 
-> → 3 signals emerge because learning activates 3 different aspects of H10 precondition check simultaneously. See `Body-Feedback-Draft/04-Integration.md §9` for H10 formalization.
+> - Mild dissonance signal: recalibration discomfort + Goldilocks-adjacent (P4 partial match)
+>
+> → 3 signals emerge because learning activates 3 different aspects of H10 precondition check simultaneously. See `Body-Feedback/04-Integration.md §9` for H10 formalization.
 
-**Rationale**: Makes learning cycle's 3-signal structure **mechanistically predictable** rather than empirical observation.
+**Rationale**: Makes the learning cycle's 3-signal structure **mechanistically predictable** rather than just an empirical observation.
 
-### §12.5 — R5: Anchor-Schema.md §2 add case B2.3 (positive trust)
+### §12.5 — R5: Anchor-Schema.md §2 add Parent's Promise of a Toy Car case (positive trust)
 
 **Current state**: Anchor-Schema §2 establishes Positive vs Negative Trust beautifully. Uses abstract examples.
 
-**Proposed update**: Add B2.3 bố hứa xe case as concrete illustration.
+**Proposed update**: Add the Parent's Promise of a Toy Car case as concrete illustration.
 
 **Specific edit**: Add after existing Positive Trust section:
 
-> **Concrete example — Bố hứa xe đồ chơi** (cross-ref Body-Feedback-Draft/02-Dissonance.md §5.3):
-> 
-> Bố hứa mua xe ô tô đồ chơi nếu con giải bài toán khó. Con chịu effort 2 ngày. Completion → pleasant + tự tin.
-> 
-> Framework: This is POSITIVE trust. Imagine-Final clear (specific toy). Bố reliable (compiled trust). Trust ≥ Cost (2 days math vs reward). Novelty cortisol + opioid tag on math chunks. Sustainable + growth outcome.
-> 
-> Contrast with "mẹ cầm roi" negative trust case same file §5.2 — same external form (phải học), completely different mechanism.
+> **Concrete example — Parent's Promise of a Toy Car** (cross-ref Body-Feedback/02-Dissonance.md §5.3):
+>
+> Father promises to buy a toy car if the child solves a difficult math problem. Child endures 2 days of effort. Completion → pleasant + confident.
+>
+> Framework: This is POSITIVE trust. Imagine-Final clear (specific toy). Father reliable (compiled trust). Trust ≥ Cost (2 days math vs reward). Novelty cortisol + opioid tag on math chunks. Sustainable + growth outcome.
+>
+> Contrast with "Parent with the Switch" negative trust case (same file §5.2) — same external form (must study), completely different mechanism.
 
-**Rationale**: Shows distinction concretely, helps readers apply to their own contexts.
+**Rationale**: Shows the distinction concretely; helps readers apply it to their own contexts.
 
-### §12.6 — R6: Parent plan.md add Body-Feedback-Draft as Phase 5.6
+### §12.6 — R6: Parent plan.md add Body-Feedback as Phase 5.6
 
-**Current state**: `Chunk-Analysis/plan.md` currently tracks 13 threads in master plan. Body-Feedback-Draft wasn't in original plan.
+**Current state**: `Chunk-Analysis/plan.md` currently tracks 13 threads in the master plan. Body-Feedback wasn't in the original plan.
 
-**Proposed update**: Add reference to Body-Feedback-Draft as **Phase 5.6** (parallel with Learning-Cycle Phase 5.5 and Agent Phase 5.7).
+**Proposed update**: Add reference to Body-Feedback as **Phase 5.6** (parallel with Learning-Cycle Phase 5.5 and Agent Phase 5.7).
 
 **Specific edit**: Add to master plan file table:
 
 > ### Phase 5.6 — Body-Feedback (Body Signal Foundation)
-> 
-> Sub-folder: `Body-Feedback-Draft/`
-> Status: COMPLETE (P0-P5)
+>
+> Sub-folder: `Body-Feedback/`
+> Status: COMPLETE (P0–P5)
 > Files:
-> - `plan.md` (~1100L)
-> - `01-Foundation.md` (1121L)
-> - `02-Dissonance.md` (1846L)
-> - `03-Reward.md` (2261L)
-> - `04-Integration.md` (~1700L)
-> Total: ~8000L
-> 
-> Key contribution: H10 (Body Signal Precondition Hypothesis v3) formalized. 5 preconditions explicit. Interface loop unified. Body-feedback vs feeling architecture established.
-> 
+> - `plan.md` (~1,100L)
+> - `01-Foundation.md` (1,121L)
+> - `02-Dissonance.md` (1,846L)
+> - `03-Reward.md` (2,261L)
+> - `04-Integration.md` (~1,800L)
+> Total: ~8,000L
+>
+> Key contribution: H10 (Body Signal Precondition Hypothesis v3) formalized. 5 preconditions explicit. Interface Loop unified. Body-feedback vs feeling architecture established.
+>
 > Also added to H hypothesis table: H10 alongside H8 (Learning-Cycle) and H9 (Agent).
 
 **Rationale**: Parent plan should reflect current drill state + all hypotheses drilled.
 
-### §12.7 — R7: Feeling/ folder add cross-ref body-feedback substrate
+### §12.7 — R7: Feeling/ folder add cross-reference body-feedback substrate
 
-**Current state**: `Body-Base/Feeling/` folder has 7-layer structure + evolutionary framing, complete per memory. Doesn't explicitly connect to body-feedback (raw Feel-RawSignals — Feel-Integration) side.
+**Current state**: `Body-Base/Feeling/` folder has 7-layer structure + evolutionary framing. Doesn't explicitly connect to the body-feedback (raw Feel-RawSignals — Feel-Integration) side.
 
-**Proposed update**: Add cross-ref to Body-Feedback-Draft/01-Foundation.md §5 "body-feedback vs feeling" distinction.
+**Proposed update**: Add cross-reference to Body-Feedback/01-Foundation.md §5 "body-feedback vs feeling" distinction.
 
 **Specific edit**: Add to Feeling/ README or equivalent:
 
-> **Cross-ref for body-feedback substrate**:
-> 
-> This folder focuses on Feeling layer (PFC observation + chunk-based labeling, Feel-Consciousification — Feel-Explanation in 7-layer model).
-> 
-> For body-feedback substrate (raw signal, Feel-RawSignals — Feel-Integration, pre-verbal), see `Chunk-Analysis/Body-Feedback-Draft/01-Foundation.md §5`.
-> 
-> Body-feedback and Feeling form integrated gradient: raw signal → upstream integration → PFC observation → verbal labeling → narrative explanation. Both needed for full affective architecture.
+> **Cross-reference for body-feedback substrate**:
+>
+> This folder focuses on the Feeling layer (PFC observation + chunk-based labeling, Feel-Consciousification — Feel-Explanation in the 7-layer model).
+>
+> For body-feedback substrate (raw signal, Feel-RawSignals — Feel-Integration, pre-verbal), see `Body-Feedback/01-Foundation.md §5`.
+>
+> Body-feedback and Feeling form an integrated gradient: raw signal → upstream integration → PFC observation → verbal labeling → narrative explanation. Both are needed for the full affective architecture.
 
-**Rationale**: Complete the architecture picture. Feeling folder is top half, Body-Feedback-Draft is bottom half.
+**Rationale**: Completes the architecture picture. Feeling folder is the top half; Body-Feedback is the bottom half.
 
 ### §12.8 — R8: Cortisol-Baseline.md §3.5 generalize chunk tag concept
 
-**Current state**: Cortisol-Baseline §3.5 introduces chunk tag concept specifically for cortisol (novelty vs threat).
+**Current state**: Cortisol-Baseline §3.5 introduces the chunk tag concept specifically for cortisol (novelty vs threat).
 
-**Proposed update**: Note that concept generalizes beyond cortisol to all reward-relevant tagging.
+**Proposed update**: Note that the concept generalizes beyond cortisol to all reward-relevant tagging.
 
 **Specific edit**: Add sub-section:
 
 > §3.5.1 — Generalization beyond cortisol
-> 
-> The tag concept generalizes: any chunks compiled under specific neurochemical context get that context as association tag. Applies to:
-> - Cortisol (threat context) — this section focus
-> - Opioid (novelty/pleasure context) — Body-Feedback-Draft P3 §9 drills
+>
+> The tag concept generalizes: any chunks compiled under a specific neurochemical context carry that context as an association tag. Applies to:
+> - Cortisol (threat context) — this section's focus
+> - Opioid (novelty/pleasure context) — Body-Feedback P3 §9 drills
 > - Oxytocin (bonding context) — hypothesized
 > - Adrenaline (excitement context) — hypothesized
-> 
+>
 > → Chunk retrieval fires both content AND associated tag. Tag determines whether retrieval feels aversive, pleasant, thrilling, or connecting.
-> 
-> See `Body-Feedback-Draft/03-Reward.md §9` for full drill of chunk association tag as H10 Precondition 5.
+>
+> See `Body-Feedback/03-Reward.md §9` for the full drill of chunk association tag as H10 Precondition 5.
 
-**Rationale**: Makes framework contribution visible + positions for future expansion.
+**Rationale**: Makes the framework contribution visible + positions for future expansion.
 
 ### §12.9 — R9: New file proposal — Reward-Dual-System.md (reconsider)
 
-**Current state**: `Research/backup/Reward-Dual-System.md` exists (glob earlier showed). Was backup file. Framework currently doesn't have active Reward-Dual-System file.
+**Current state**: `Research/backup/Reward-Dual-System.md` exists (backup file). Framework currently doesn't have an active Reward-Dual-System file.
 
 **Proposed update**: Create `Core-Deep-Dive/Reward-Dual-System.md` (or similar) as primary reference for VTA + opioid dual-system model.
 
-**Content** (based on drill P3 §2-§3):
+**Content** (based on drill P3 §2–§3):
 - 2-level reward architecture
 - VTA dopamine = alert system
 - Body-base opioid = value system
@@ -1779,13 +1782,13 @@ H10 mechanism layer = Body-Feedback.md §6 + Body-Feedback-Mechanism.md §7.
 
 **Specific edit**: Replace current entry with:
 
-> - [⭐ Chunk Deep Analysis Project](project_chunk_analysis.md) — 🟢 **3/13 DRILLED 2026-04-15**: Learning-Cycle (H8) + Agent/ (H9) + Body-Feedback-Draft (H10 v3 formalized). Body-Feedback-Draft complete P0-P5, ~8000L total, 5 files. H10 = 5 preconditions hypothesis for body signal generation. 20+ framework insights committed. 10 framework update recommendations (R1-R10). Threads 2+7 still postponed — next session potentially return to Chunk-Analysis Phase A completion.
+> - [⭐ Chunk Deep Analysis Project](project_chunk_analysis.md) — 🟢 **3/13 DRILLED 2026-04-15**: Learning-Cycle (H8) + Agent/ (H9) + Body-Feedback (H10 v3 formalized). Body-Feedback complete P0–P5, ~8,000L total, 5 files. H10 = 5 preconditions hypothesis for body signal generation. 20+ framework insights committed. 10 framework update recommendations (R1–R10). Threads 2+7 still postponed — next session potentially return to Chunk-Analysis Phase A completion.
 
 **Rationale**: Reflect current state accurately.
 
 ### §12.11 — R11: Framework glossary update (emerging)
 
-**Proposed update**: Add terms emerging from drill to framework glossary (if exists) or create one.
+**Proposed update**: Add terms emerging from the drill to the framework glossary (if exists) or create one.
 
 **Terms introduced/refined**:
 - **Body-feedback layer** (vs Feeling layer) — raw signal, pre-verbal, Feel-RawSignals — Feel-Integration
@@ -1798,8 +1801,8 @@ H10 mechanism layer = Body-Feedback.md §6 + Body-Feedback-Mechanism.md §7.
 - **Re-association** (chunk tag shifting via new context)
 - **Effort-proportional reward principle**
 - **Dissonance pattern proliferation** (trauma-specific)
-- **Unified interface loop** (8-step formal model)
-- **Thiên tài paradox** (source of cortisol vs level)
+- **Unified Interface Loop** (8-step formal model)
+- **Genius paradox** (source of cortisol vs level)
 
 **Rationale**: Consistent terminology makes framework more usable + teachable.
 
@@ -1807,33 +1810,33 @@ H10 mechanism layer = Body-Feedback.md §6 + Body-Feedback-Mechanism.md §7.
 
 | # | Recommendation | File | Priority |
 |---|---|---|---|
-| R1 | Goldilocks cross-ref | Personal-Melody.md §5 | Low |
-| R2 | Ô tô paradox example | Chunk.md §5 | Medium |
+| R1 | Goldilocks cross-reference | Personal-Melody.md §5 | Low |
+| R2 | Car paradox example | Chunk.md §5 | Medium |
 | R3 | ~~H10 mechanism layer~~ | ✅ RESOLVED (2026-04-20) | — |
-| R4 | H10 cross-ref for 3 signals | Learning-Cycle.md §2.3 | Medium |
-| R5 | B2.3 case example | Anchor-Schema.md §2 | Low |
+| R4 | H10 cross-reference for 3 signals | Learning-Cycle.md §2.3 | Medium |
+| R5 | Parent's Promise case example | Anchor-Schema.md §2 | Low |
 | R6 | Phase 5.6 in master plan | Chunk-Analysis/plan.md | High |
-| R7 | Body-feedback substrate cross-ref | Feeling/ folder | Medium |
+| R7 | Body-feedback substrate cross-reference | Feeling/ folder | Medium |
 | R8 | Generalize chunk tag | Cortisol-Baseline §3.5 | Medium |
 | R9 | Reward-Dual-System file | Core-Deep-Dive/ | Low |
 | R10 | Memory update | MEMORY.md | High |
 | R11 | Glossary update | Framework glossary | Low |
 
 **High priority**: R6 (parent plan), R10 (memory) — should do immediately after drill.
-**Medium priority**: R2, R3, R4, R7, R8 — improve framework coherence.
+**Medium priority**: R2, R4, R7, R8 — improve framework coherence.
 **Low priority**: R1, R5, R9, R11 — nice-to-have refinements.
 
 ---
 
-> **P5 DRILL COMPLETE**. Body-Feedback-Draft P0-P5 all done.
+> **P5 DRILL COMPLETE**. Body-Feedback P0–P5 all done.
 >
 > **Total drill output**:
-> - plan.md (~1100L)
-> - 01-Foundation.md (1121L)
-> - 02-Dissonance.md (1846L)
-> - 03-Reward.md (2261L)
-> - 04-Integration.md (~1800L including P5)
-> - **Grand total: ~8128L**
+> - plan.md (~1,100L)
+> - 01-Foundation.md (1,121L)
+> - 02-Dissonance.md (1,846L)
+> - 03-Reward.md (2,261L)
+> - 04-Integration.md (~1,800L including P5)
+> - **Grand total: ~8,128L**
 >
 > **Key hypothesis produced**: H10 Body Signal Precondition Hypothesis v3 formalized.
 >
@@ -1844,15 +1847,15 @@ H10 mechanism layer = Body-Feedback.md §6 + Body-Feedback-Mechanism.md §7.
 > 4. Chunk association tag (extended from Cortisol-Baseline §3.5)
 > 5. Effort-proportional reward principle
 > 6. Schema update latency (C5 mechanism)
-> 7. 4 threat ngưỡng (chunk quality gradient)
+> 7. 4 threat threshold levels (chunk quality gradient)
 > 8. Re-association 3-path model (trauma recovery)
 > 9. Flow state decomposition via preconditions
-> 10. Unified 8-step interface loop model
+> 10. Unified 8-step Interface Loop model
 >
 > **Next actions**:
 > - Review all 5 files
 > - Apply R6 (parent plan update) + R10 (memory update)
-> - Optionally apply R1-R5, R7-R9, R11 framework updates
+> - Optionally apply R1–R5, R7–R9, R11 framework updates
 > - Potentially return to Chunk-Analysis Phase A (Thread 2 + Thread 7) in future session
 >
 > **Stop point**: Drill complete. User decides next direction.

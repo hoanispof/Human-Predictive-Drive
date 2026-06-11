@@ -1,100 +1,79 @@
 ---
-title: Inter-Body Mechanism — Tại sao và Bằng cách nào 2 Body-Base tương tác
-version: 2.0
+title: Inter-Body Mechanism — Why and How Two Body-Bases Interact
+version: 2.1
 created: 2026-05-16
 updated: 2026-05-31
 refined: |
-  2026-05-31 (v2.1 — §4.2 PFC Draft Cost: glucose/metabolic → processing load. Gailliot→Kurzban+Musslick+Arnsten. Cross-ref PFC-Operations v1.3 §8.3)
-  2026-05-23 (v2.0 — Architecture Rename: Architecture A → Hardwired Architecture, Architecture B → Compilable Architecture. Descriptive names throughout)
-  2026-05-23 (v1.1 — Concept Cascade: +refs to ALL formal files from 28-session Drill. Updated versions. +Simulation-Engine, +Entity-Access, +Hardware-Subsidy)
+  2026-05-31 (v2.1 — §4.2 PFC Draft Cost: glucose/metabolic → processing load.
+    Gailliot→Kurzban+Musslick+Arnsten. Cross-ref PFC-Operations v1.3 §8.3)
+  2026-05-23 (v2.0 — Architecture Rename: Architecture A → Hardwired Architecture,
+    Architecture B → Compilable Architecture. Descriptive names throughout)
+  2026-05-23 (v1.1 — Concept Cascade: +refs to ALL formal files from 28-session Drill.
+    Updated versions. +Simulation-Engine, +Entity-Access, +Hardware-Subsidy)
 status: MECHANISM FILE v2.1
 scope: |
-  SOURCE-OF-TRUTH cho kiến trúc inter-body tương tác.
-  8 nguyên tắc nền tảng từ drill session 2026-05-16 (6 rounds, 2,259L + 409L summary).
-  File này formalize "missing layer" mà framework ngầm hiểu:
-    ① 3 nền tảng hardware → Compilable Architecture
+  SOURCE-OF-TRUTH for inter-body interaction architecture.
+  8 foundational principles from drill session 2026-05-16
+    (6 rounds, 2,259 lines + 409-line summary).
+  This file formalizes the "missing layer" the framework implicitly assumed:
+    ① 3 hardware foundations → Compilable Architecture
     ② Body-Need = 2-source aggregate
-    ③ Compiled vs Fresh = trục thật (không phải Feeling/Logic)
-    ④ 3 nguồn cost độc lập
+    ③ Compiled vs Fresh = the real axis (not Feeling/Logic)
+    ④ 3 independent cost sources
     ⑤ Full interaction chain (Detect→Evaluate→Extend→Outcome→Compile/Dissolve)
     ⑥ 5-Channel Input Vector
     ⑦ PFC = Lawyer not Judge
     ⑧ Entity-Compiled reframe (3 subtypes)
     ⑨ 3-Layer Evolution (Hardware→Compiled→Cultural)
-  Các files khác cross-ref tới file này cho concepts mới.
+  Other files cross-reference this file for new concepts.
 purpose: |
-  Body-Feedback-Mechanism.md mô tả cách 1 body TẠO tín hiệu.
-  Gap-Direction.md mô tả gap CÓ direction.
-  Self-Pattern-Modeling.md mô tả cách 1 body SIMULATE entity khác.
-  Connection.md mô tả observation parameter "Connection" emerge.
-  File NÀY = layer GIỮA: TẠI SAO body-base CẦN entity khác,
-  BẰNG GÌ detect + evaluate + interact, và CƠ CHẾ NÀO quyết định
-  sustainability/dissolution.
-  = "Missing mechanism file" — mọi file inter-body khác ngầm giả định.
+  Body-Feedback-Mechanism.md describes how 1 body CREATES signals.
+  Gap-Direction.md describes how gaps HAVE direction.
+  Self-Pattern-Modeling.md describes how 1 body SIMULATES another entity.
+  Connection.md describes how the observation parameter "Connection" emerges.
+  THIS FILE = the MIDDLE LAYER: WHY does the body-base NEED other entities,
+  BY WHAT MEANS does it detect + evaluate + interact, and WHAT MECHANISM
+  determines sustainability vs dissolution.
+  = "Missing mechanism file" — all other inter-body files implicitly assumed this.
 position: |
-  Core-Deep-Dive/Body-Base/ — ngang hàng Body-Base.md, Body-Coupling.md.
-  Mechanism file: Self-Pattern-Modeling, Resonance, Connection, Agent-Mechanism cross-ref tới đây.
-  Moved from Drill-Inter-Body-Mechanism/ (2026-05-22) — mechanism file, không phải drill.
-dependencies:
-  - Body-Feedback-Mechanism.md v2.0 — 2-source model, 3 chunk dynamics, Body-Need aggregate
-  - Gap-Direction.md v2.0 — gap có direction, by-product match connection
-  - Autonomy-Hardware.md — efference copy, vmPFC/DRN, controllability
-  - Self-Pattern-Modeling.md v3.1 — solo simulation, 1 mech × 3 dims
-  - By-Product-Gap-Resonance.md v1.4 — mutual match, 5 drills, sustainability bridge
-  - Connection.md v5.0 — 4-Layer Sustainability, Resonance Decline, hardware-subsidy
-  - Agent-Mechanism.md v2.1 — integration hub, 10 dimensions, Compiled/Fresh
-  - Valence-Propagation.md v3.0 — structural/current valence, 3 firing modes, hardware-subsidy
-  - Body-Coupling.md v3.0 — coupling, 4 bond types, hardware-subsidy, Resonance Decline
-  - Entity-Compiled.md v1.0 — neural reality, formation 40→200h, Dunbar
-  - Entity-Access.md v1.2 — gradient Mức 0-5, per-entity access
-  - Entity-Access-Excess.md v1.0 — excess territory, addiction
-  - Entity-Access-Calibration.md v1.0 — self-regulation, hardware-subsidy
-  - Bond-Architecture.md v2.0 — 1 mechanism × 4 bond types, Resonance Decline
-  - Resonance-Sustainability.md v1.0 — 4-layer, 3 conditions, 3 modalities
-  - Resonance-Per-Entity.md v1.0 — per-relationship dynamics
-  - By-Product-Scale.md v1.0 — 1 mechanism × 3 scales
-  - Gap-Body-Need.md v1.0 — 3 satiation types, ENGINE/ROAD/VEHICLE
-  - PFC/Simulation-Engine.md v1.0 — 1 engine, 3 components
-  - Obligation.md v1.0 — 5-factor formula, 6 types, access cost
-  - PFC-Function.md v1.2 — 24 functions, 5 categories
-  - Cortisol-Baseline.md v2.0 — amplifier, holding signal
-  - Body-Feedback-Label.md v2.0 — vocabulary reference (100% framework)
-sources_primary: |
-  Architecture-Summary.md v1.1 (571L) — bức tranh tổng hợp từ drill
-  Drill-Inter-Body-Main.md v1.6 (2,768L) — raw depth, 6 rounds + refinements
-language: Tiếng Việt primary + English technical terms
+  Core-Deep-Dive/Body-Base/ — same level as Body-Base.md, Body-Coupling.md.
+  Mechanism file: Self-Pattern-Modeling, Resonance, Connection, Agent-Mechanism
+    cross-reference here.
+  Moved from Drill-Inter-Body-Mechanism/ (2026-05-22) — mechanism file, not drill.
+language: English translation of Vietnamese source (v2.1)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+source: Core-Deep-Dive/Body-Base/Inter-Body-Mechanism.md (Vietnamese)
 ---
 
-# Inter-Body Mechanism — Tại sao và Bằng cách nào 2 Body-Base tương tác
+# Inter-Body Mechanism — Why and How Two Body-Bases Interact
 
-> **Mỗi body = 1 thế giới riêng. Cảm xúc riêng, gap riêng, drive riêng.**
-> **Nhưng không body nào tồn tại một mình được.**
+> **Each body = one distinct world. Its own emotions, its own gaps, its own drives.**
+> **But no body can exist alone.**
 >
-> Câu hỏi: TẠI SAO và BẰNG CÁCH NÀO 2 thế giới riêng
-> lại có thể feed lẫn nhau?
+> The question: WHY and HOW do two separate worlds
+> manage to feed each other?
 >
-> Trả lời: Evolution không hardwire WHAT to need — chỉ hardwire HOW to need.
+> The answer: Evolution did not hardwire WHAT to need — only HOW to need.
 > General-purpose reward + compilation + social hardware = Compilable Architecture.
-> Compilable Architecture = adapt BẤT KỲ environment, nhưng cần 15-20 năm compile.
-> 15-20 năm đó = cần entity khác protect, feed, teach.
-> → Social KHÔNG phải luxury. Social = architecture requirement.
+> Compilable Architecture = can adapt to ANY environment, but requires 15-20 years to compile.
+> Those 15-20 years = requires other entities to protect, feed, teach.
+> → Social is NOT a luxury. Social = an architecture requirement.
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §0 — THESIS + POSITION
-- §1 — 3 NỀN TẢNG HARDWARE → COMPILABLE ARCHITECTURE
+- §1 — 3 HARDWARE FOUNDATIONS → COMPILABLE ARCHITECTURE
 - §2 — BODY-NEED: 2-Source Aggregate
-- §3 — COMPILED vs FRESH: Trục thật
-- §4 — 3 NGUỒN COST ĐỘC LẬP
+- §3 — COMPILED vs FRESH: The Real Axis
+- §4 — 3 INDEPENDENT COST SOURCES
 - §5 — INTER-BODY FULL CHAIN
 - §6 — 5-CHANNEL INPUT VECTOR
-- §7 — PFC = LAWYER (không phải Judge)
+- §7 — PFC = LAWYER (not Judge)
 - §8 — ENTITY-COMPILED: Multi-Channel Valence
 - §9 — 3-LAYER EVOLUTION
-- §10 — HUMAN ↔ AI: Vị trí trong bức tranh
+- §10 — HUMAN ↔ AI: Position in the Picture
 - §11 — HONEST ASSESSMENT
 - §12 — CROSS-REFERENCES + RESEARCH
 
@@ -108,84 +87,85 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 CORE CLAIM:
 
   Body-base = general-purpose reward + compilation + social hardware.
-  Mọi thứ khác = EMERGE từ 3 foundation này.
+  Everything else = EMERGES from these 3 foundations.
 
-  Inter-body interaction = NOT optional feature.
-  = ARCHITECTURE REQUIREMENT của general-purpose reward system.
+  Inter-body interaction = NOT an optional feature.
+  = ARCHITECTURE REQUIREMENT of a general-purpose reward system.
 
-  Vì:
-  ① Body cần external input để compile (information, capability, feedback)
+  Because:
+  ① The body needs external input to compile (information, capability, feedback)
   ② Social hardware = hardwired (oxytocin, μ-opioid, dACC reuse)
   ③ Alone = deviation from baseline, costly (Coan & Sbarra 2015)
-  ④ Compilable Architecture cần 15-20 năm compile → cần entity khác protect
+  ④ Compilable Architecture requires 15-20 years to compile
+       → requires other entities to provide protection during that time
 
-  → Interaction mechanism = FOUNDATION, không phải add-on.
+  → The interaction mechanism = FOUNDATION, not an add-on.
 ```
 
-### §0.2 — Vị trí trong framework
+### §0.2 — Position in the Framework
 
 ```
-FILE NÀY trả lời:
-  WHY: Tại sao body CẦN entity khác? (§1, §2)
-  HOW: Bằng gì detect, evaluate, interact? (§5, §6, §7)
-  WHAT DETERMINES: Cái gì quyết định bền/gãy? (§3, §4, §8)
+THIS FILE answers:
+  WHY: Why does the body NEED other entities? (§1, §2)
+  HOW: By what means does it detect, evaluate, interact? (§5, §6, §7)
+  WHAT DETERMINES: What determines sustainability vs dissolution? (§3, §4, §8)
 
 FRAMEWORK MAP:
-  Body-Feedback-Mechanism → HOW 1 body tạo signal
-  Gap-Direction           → WHERE gap points
-  Autonomy-Hardware       → WHY self-action rewarded
-  ★ Inter-Body-Mechanism  → WHY + HOW 2 bodies interact ← FILE NÀY
-  Self-Pattern-Modeling                     → HOW predict others (mechanism)
-  Resonance       → WHEN mutual quality emerge (observation)
+  Body-Feedback-Mechanism → HOW 1 body creates signals
+  Gap-Direction           → WHERE gaps point
+  Autonomy-Hardware       → WHY self-directed action is rewarded
+  ★ Inter-Body-Mechanism  → WHY + HOW 2 bodies interact ← THIS FILE
+  Self-Pattern-Modeling   → HOW to predict others (mechanism)
+  Resonance               → WHEN mutual quality emerges (observation)
   Connection              → WHAT connection is (observation parameter)
   Agent-Mechanism         → Integration hub (Self-Pattern-Modeling + Resonance + overview)
 
-  Ở level nào?
-  = MECHANISM file: giải thích cơ chế nền tảng
-  = Không phải observation (Connection, Resonance = observation)
-  = Không phải integration hub (Agent-Mechanism = hub)
-  = "Missing middle layer" giữa 1-body mechanism và multi-body observation
+  What level?
+  = MECHANISM file: explains the foundational mechanism
+  = NOT observation (Connection, Resonance = observation)
+  = NOT integration hub (Agent-Mechanism = hub)
+  = "Missing middle layer" between 1-body mechanism and multi-body observation
 ```
 
-### §0.3 — 8 nguyên tắc tổng hợp (preview)
+### §0.3 — 8 Synthesized Principles (preview)
 
 ```
-8 NGUYÊN TẮC từ drill session:
+8 PRINCIPLES from the drill session:
 
   ① Body-Need = 2-source aggregate (hardware + chunk dynamics)
   ② General-Purpose Reward = Compilable Architecture (HOW not WHAT)
   ③ Social = Architecture Requirement (4 reasons)
-  ④ By-Product Match (B fill gap CỦA B → output match A → A reward)
+  ④ By-Product Match (B fills B's own gap → output matches A → A receives reward)
   ⑤ 3 Independent Cost Sources (PFC draft + Suppress + Uncertainty)
-  ⑥ Compiled vs Fresh = Real Axis (NOT Feeling/Logic content)
+  ⑥ Compiled vs Fresh = the Real Axis (NOT Feeling/Logic content)
   ⑦ Input Channel Control = Power (5 channels)
   ⑧ Domain Reality = Final Arbiter (ALWAYS)
 
-  Mỗi nguyên tắc = 1 section chi tiết bên dưới.
+  Each principle = 1 detailed section below.
 ```
 
 ---
 
-## §1 — 3 NỀN TẢNG HARDWARE → COMPILABLE ARCHITECTURE
+## §1 — 3 HARDWARE FOUNDATIONS → COMPILABLE ARCHITECTURE
 
-### §1.1 — Evolution hardwire 3 thứ
+### §1.1 — Evolution Hardwires 3 Things
 
 ```
-⭐ Mọi thứ trong inter-body mechanism EMERGE từ 3 foundations:
+⭐ Everything in the inter-body mechanism EMERGES from 3 foundations:
 
 ┌─────────────────────────────────────────────────────────┐
 │ ① GENERAL-PURPOSE REWARD                                │
 │                                                         │
 │   VTA/dopamine + opioid system.                         │
-│   Fire cho BẤT KỲ gap fill đúng direction.              │
-│   KHÔNG check content ("edible?" → irrelevant).         │
-│   Chỉ check: "gap direction matched?"                   │
+│   Fires for ANY gap fill in the correct direction.      │
+│   Does NOT check content ("is this edible?" → irrelevant)│
+│   Only checks: "did the gap direction get matched?"     │
 │                                                         │
-│   → Einstein solve equation = body reward THẬT           │
-│   → Vì body-need KHÔNG chỉ survival                    │
+│   → Einstein solving an equation = REAL body reward     │
+│   → Because body-need is NOT only survival              │
 │   → Body-need = ANY compiled gap fill                   │
 │                                                         │
-│   🟢 Neuroscience established: VTA, nucleus accumbens,   │
+│   🟢 Neuroscience established: VTA, nucleus accumbens,  │
 │      dopamine prediction error (Schultz 1997)            │
 └─────────────────────────────────────────────────────────┘
 
@@ -193,13 +173,13 @@ FRAMEWORK MAP:
 │ ② COMPILATION CAPABILITY                                │
 │                                                         │
 │   Hebbian: "whatever works → strengthen → automatic"    │
-│   Fresh → repeat + verify → compile → "cảm thấy"       │
-│   = Body LEARN from experience, without conscious plan  │
+│   Fresh → repeat + verify → compile → "feels right"    │
+│   = Body LEARNS from experience, without conscious plan │
 │                                                         │
-│   → Skill compile: lái xe ngày 1 vs ngày 1,000          │
-│   → Social compile: stranger → bạn thân qua 10 năm     │
-│   → Expert compile: therapist gặp 1,000 cases → "trực  │
-│     giác" (thực ra = compiled patterns)                  │
+│   → Skill compile: driving on day 1 vs day 1,000        │
+│   → Social compile: stranger → close friend over years  │
+│   → Expert compile: therapist sees 1,000 cases →        │
+│     "intuition" (actually = compiled patterns)           │
 │                                                         │
 │   🟢 Hebbian learning established.                       │
 │   🟢 Expert intuition = compiled (Kahneman 2011,         │
@@ -209,7 +189,8 @@ FRAMEWORK MAP:
 ┌─────────────────────────────────────────────────────────┐
 │ ③ SOCIAL HARDWARE                                       │
 │                                                         │
-│   Oxytocin (bonding): fire khi touch, eye contact, trust│
+│   Oxytocin (bonding): fires during touch, eye contact,  │
+│     trust                                               │
 │   μ-opioid (social play reward): same system as food    │
 │   dACC reuse: social pain = physical pain circuits      │
 │   Social = DEFAULT state (Coan & Sbarra 2015)           │
@@ -228,49 +209,49 @@ FRAMEWORK MAP:
 ### §1.2 — Compilable Architecture: General-Purpose Adaptive
 
 ```
-KẾT HỢP ①②③ = COMPILABLE ARCHITECTURE:
+COMBINING ①②③ = COMPILABLE ARCHITECTURE:
 
-  HARDWIRED ARCHITECTURE (specific-reward — côn trùng, động vật đơn giản):
+  HARDWIRED ARCHITECTURE (specific-reward — insects, simple animals):
     Hardwired circuits: food→reward, mate→reward, escape→reward
-    Mỗi survival need = 1 circuit riêng
-    ƯU: nhanh, chính xác cho environment STABLE
-    NHƯỢC: environment thay đổi → species die (không adapt)
+    Each survival need = its own dedicated circuit
+    ADVANTAGE: fast, precise for STABLE environments
+    DISADVANTAGE: environment changes → species die (cannot adapt)
 
   COMPILABLE ARCHITECTURE (general-purpose — humans):
-    Hardwired: CHỈ reward MECHANISM + compilation + social + PFC
-    Content: LEARN from environment/culture → compile → body-need
-    ƯU: adapt BẤT KỲ environment
-    NHƯỢC: cần 15-20 NĂM compile (long childhood, dependent)
+    Hardwired: ONLY the reward MECHANISM + compilation + social + PFC
+    Content: LEARNED from environment/culture → compiled → body-need
+    ADVANTAGE: can adapt to ANY environment
+    DISADVANTAGE: requires 15-20 YEARS to compile (long childhood, dependent)
 
-  → Trade-off: NEED parents + group protect while compiling
-  → = TẠI SAO social = architecture requirement, NOT luxury
+  → Trade-off: NEEDS parents + group to provide protection during compilation
+  → = WHY social = architecture requirement, NOT a luxury
 
 🟡 Hardwired/Compilable Architecture naming = framework synthesis.
    Underlying neuroscience (general-purpose reward, Hebbian) = 🟢.
 ```
 
-### §1.3 — 4 lý do Social = Architecture Requirement
+### §1.3 — 4 Reasons Social = Architecture Requirement
 
 ```
-⭐ Social KHÔNG phải "nice to have" — là REQUIREMENT:
+⭐ Social is NOT "nice to have" — it is a REQUIREMENT:
 
 REASON 1 — SURVIVAL MATH:
-  1 người KHÔNG survive alone efficiently.
-  Hunter-gatherer: nhóm 30-150 → shared tasks → all survive.
-  Alone: phải hunt + gather + shelter + defend + heal ALL → die.
+  1 person CANNOT survive alone efficiently.
+  Hunter-gatherer: group of 30-150 → shared tasks → all survive.
+  Alone: must hunt + gather + build shelter + defend + heal ALL → die.
   = Social = survival PREREQUISITE.
-  = Social DRIVE got HARDWIRED into body.
+  = Social DRIVE got HARDWIRED into the body.
 
 REASON 2 — COMPILATION REQUIRES SOCIAL:
-  Compilable Architecture cần compile từ experience.
-  Child ALONE: compile from personal experience only → SLOW, DANGEROUS.
-  Child IN GROUP: observe + teach + imitate → FAST, SAFE.
-  = Without social: Compilable Architecture advantage NULLIFIED.
-  = Social = ACCELERATOR cho compilation.
+  Compilable Architecture needs to compile from experience.
+  Child ALONE: compiles only from personal experience → SLOW, DANGEROUS.
+  Child IN GROUP: can observe + receive teaching + imitate → FAST, SAFE.
+  = Without social: the Compilable Architecture advantage is NULLIFIED.
+  = Social = ACCELERATOR for compilation.
 
 REASON 3 — REUSED NEURAL CIRCUITS:
   🟢 Eisenberger 2003: social pain = SAME dACC as physical pain.
-  → Body treats "social absent" LIKE "injury" (literally same circuit).
+  → Body treats "social absence" LIKE "injury" (literally same circuit).
   Oxytocin system: touch, eye contact → reduce cortisol.
   μ-opioid: social play → SAME reward system as food pleasure.
   → Body REWARDS social engagement LIKE food (Panksepp 1998).
@@ -291,28 +272,28 @@ REASON 4 — SOCIAL BASELINE THEORY:
 ### §2.1 — Definition
 
 ```
-BODY-NEED = tổng hợp trạng thái CẦN hiện tại
-           = Aggregate của TẤT CẢ signals đang đòi body đáp ứng
+BODY-NEED = the aggregate of current NEED states
+           = the aggregate of ALL signals currently demanding body response
 
-  KHÔNG phải 1 signal đơn → là TỔNG HỢP nhiều signals parallel.
-  KHÔNG phải PFC tạo → body-need exist TRƯỚC PFC awareness.
-  KHÔNG phải chỉ survival → BẤT KỲ compiled gap fill (Compilable Architecture feature).
+  NOT a single signal → is an AGGREGATE of many parallel signals.
+  NOT created by PFC → body-need exists BEFORE PFC awareness.
+  NOT only survival → ANY compiled gap fill (Compilable Architecture feature).
 ```
 
-### §2.2 — 2 genuine sources
+### §2.2 — 2 Genuine Sources
 
 ```
-⭐ 2 NGUỒN (consistent với Body-Feedback-Mechanism.md §2):
+⭐ 2 SOURCES (consistent with Body-Feedback-Mechanism.md §2):
 
 ┌─────────────────────────────────────────────────────────────┐
 │ ① HARDWARE / SENSORY-DRIVEN (pre-chunk possible):           │
 │                                                             │
-│   Homeostatic: đói, khát, nhiệt, oxy, ngủ                  │
-│   Nociceptive: đau, injury, reflex                          │
+│   Homeostatic: hunger, thirst, temperature, oxygen, sleep   │
+│   Nociceptive: pain, injury, reflex                         │
 │   Hormonal: social isolation hardware, sexual drive          │
 │                                                             │
 │   → Domain stimulus → receptors → body signal               │
-│   → KHÔNG cần compiled chunks (animals đầy đủ)              │
+│   → Does NOT require compiled chunks (animals have it fully)│
 │   → D+C zones primary (Body-Base.md: L0 + L1 substrates)   │
 └─────────────────────────────────────────────────────────────┘
 
@@ -320,28 +301,28 @@ BODY-NEED = tổng hợp trạng thái CẦN hiện tại
 │ ② CHUNK DYNAMICS / PATTERN-DRIVEN:                          │
 │                                                             │
 │   3 dynamics: Gap / Miss / Shift (+ Compound)               │
-│   → Internal chunk fire → body respond                      │
+│   → Internal chunk fires → body responds                    │
 │   → REQUIRES compiled chunks as prerequisite                │
-│   → Human-dominant (rich chunk network)                     │
+│   → Dominant in humans (rich chunk network)                 │
 │                                                             │
-│   Complexity spectrum (cùng mechanism, khác substrate):      │
-│     Simple:  áo mềm baseline → áo cứng = Miss              │
-│     Social:  bạn thân absent = Miss; entity shift = Shift   │
+│   Complexity spectrum (same mechanism, different substrate): │
+│     Simple:  soft fabric baseline → rough fabric = Miss     │
+│     Social:  close friend absent = Miss; entity shift = Shift│
 │     Meta:    Imagine-Final = Gap; Obligation violated = Miss │
 │              Identity conflict = Gap; Status drop = Miss     │
 │                                                             │
-│   ⭐ Meta-level = KHÔNG phải mechanism riêng:                │
-│     = Cùng Gap/Miss/Shift operating on meta-compiled chunks │
-│     = Khác timescale + PFC involvement + intervention       │
-│     = KHÔNG cần tầng ③ riêng → PARSIMONY                   │
+│   ⭐ Meta-level = NOT a separate mechanism:                  │
+│     = Same Gap/Miss/Shift operating on meta-compiled chunks │
+│     = Differs in timescale + PFC involvement + intervention │
+│     = Does NOT need a separate third layer → PARSIMONY      │
 └─────────────────────────────────────────────────────────────┘
 
-  ⭐ 2 nguồn KHÔNG loại trừ — 1 event kích hoạt CẢ ①+②:
-    VD: ăn đồ ăn (① sensory) + nhớ lần trước ngon hơn (② Miss)
-    VD: social isolation (① hardware oxytocin deficit + ② compiled friend Miss)
+  ⭐ 2 sources are NOT exclusive — 1 event can trigger BOTH ①+②:
+    Example: eating food (① sensory) + remembering a better meal from before (② Miss)
+    Example: social isolation (① hardware oxytocin deficit + ② compiled friend Miss)
 ```
 
-### §2.3 — Cross-cutting: KHÔNG phải sources
+### §2.3 — Cross-Cutting: What Are NOT Sources
 
 ```
 OBSERVATION PARAMETERS (named patterns, v7.8):
@@ -349,177 +330,179 @@ OBSERVATION PARAMETERS (named patterns, v7.8):
   Threat  = urgency tag + priority override (from ANY source)
   Status  = relative position pattern
   Novelty = gap-fill drive + approach direction
-  → Emerge TỪ ①+② trong combinations cụ thể
-  → KHÔNG phải source riêng — là TÊN GỌI cho patterns observable
-  → Can thiệp ở level mechanism (①②), không ở level label
+  → EMERGE FROM ①+② in specific combinations
+  → NOT a separate source — they are NAMES FOR observable patterns
+  → Intervention happens at the mechanism level (①②), not at the label level
 
 STATE MODIFIERS:
-  Cortisol: amplify negative signals (Cortisol-Baseline.md v2.0)
-  Urgency: override priority ranking
-  Energy/fatigue: shift threshold cho all signals
-  → KHÔNG tạo body-need mới — SHIFT priority/intensity của existing
+  Cortisol: amplifies negative signals (Cortisol-Baseline.md v2.0)
+  Urgency: overrides priority ranking
+  Energy/fatigue: shifts threshold for all signals
+  → Do NOT create new body-needs — SHIFT priority/intensity of existing ones
 
 🟡 Observation params + state modifiers as cross-cutting (not sources) =
-   framework clarification. Consistent với Protect.md §0.
+   framework clarification. Consistent with Protect.md §0.
 ```
 
-### §2.4 — 7 properties
+### §2.4 — 7 Properties
 
 ```
-BODY-NEED CÓ 7 PROPERTIES:
+BODY-NEED HAS 7 PROPERTIES:
 
-  ① LUÔN TỒN TẠI (không bao giờ = 0)
-     → "Nằm thư giãn bãi biển" vẫn có: nắng chiếu = sensory fill gap
-     → Nếu 0 gap → 0 drive → 0 hành vi → chết
+  ① ALWAYS EXISTS (never = 0)
+     → "Relaxing on the beach" still has: sun warming the skin = sensory gap fill
+     → If gap = 0 → drive = 0 → behavior = 0 → death
 
-  ② MULTIPLE cùng lúc (parallel)
-     → Đói + chán + nhớ bạn + career anxiety = 4 body-needs song song
+  ② MULTIPLE simultaneously (parallel)
+     → Hungry + bored + missing a friend + career anxiety = 4 body-needs in parallel
 
-  ③ CÓ PRIORITY (intensity × urgency × state)
-     → "Cháy nhà" override "chán" (survival > novelty)
-     → Priority = dynamic, shift theo state
+  ③ HAS PRIORITY (intensity × urgency × state)
+     → "Building on fire" overrides "bored" (survival > novelty)
+     → Priority = dynamic, shifts with state
 
-  ④ CÓ DIRECTION (từ chunk network topology — Gap-Direction.md)
-     → Chỉ fill đúng hướng mới reward
-     → Hướng = f(surrounding chunks) → mỗi người RIÊNG
+  ④ HAS DIRECTION (from chunk network topology — Gap-Direction.md)
+     → Only filling in the correct direction rewards
+     → Direction = f(surrounding chunks) → unique per person
 
-  ⑤ PFC KHÔNG LUÔN BIẾT (exist trước awareness)
-     → "Chán nhưng không biết cần gì" = body-need có, PFC chưa identify
-     → PFC guess sai direction = "tiktok" thay vì "vận động"
+  ⑤ PFC DOES NOT ALWAYS KNOW (exists before awareness)
+     → "Bored but don't know what I need" = body-need present, PFC hasn't identified it
+     → PFC guesses the wrong direction = "scrolling" instead of "exercise"
 
-  ⑥ CÓ THỂ CONFLICT (internal tension)
-     → "Ăn ngon vs dáng đẹp" = 2 body-needs, opposite direction
-     → PFC arbitrate → suppress 1 → cost (§4)
-     → Mâu thuẫn nội tâm = BÌNH THƯỜNG, không bất thường
+  ⑥ CAN CONFLICT (internal tension)
+     → "Tasty food vs slim figure" = 2 body-needs, opposite directions
+     → PFC arbitrates → suppresses one → cost (§4)
+     → Internal conflict = NORMAL, not pathological
 
-  ⑦ CÓ THỂ BỊ HIJACK (temporary distortion)
-     → Hormone (limerence): amplify 1 body-need → override all others
-     → Scam: control input channels → direction distort
+  ⑦ CAN BE HIJACKED (temporary distortion)
+     → Hormone (limerence): amplifies 1 body-need → overrides all others
+     → Scam: controls input channels → direction distorted
      → Propaganda: collective fear → priority override
      → Domain Reality = final arbiter ALWAYS (§7)
 ```
 
-### §2.5 — 4 loại theo immediacy
+### §2.5 — 4 Types by Immediacy
 
 ```
 ┌─────────────────────────────────────────────────────┐
 │ IMMEDIATE (seconds-minutes):           [① dominant] │
-│   Đói, đau, nóng. PFC biết rõ.                     │
-│   Direction rõ ràng.                                │
+│   Hunger, pain, heat. PFC knows clearly.            │
+│   Direction is clear.                               │
 ├─────────────────────────────────────────────────────┤
 │ SHORT-TERM (hours-days):              [①+② mix]    │
-│   Chán, cô đơn, mệt.                               │
-│   PFC CÓ THỂ KHÔNG biết rõ                         │
-│   (lướt tiktok nhưng thật ra cần vận động).         │
+│   Boredom, loneliness, fatigue.                     │
+│   PFC MAY NOT know clearly                          │
+│   (scrolling but actually needs exercise).          │
 ├─────────────────────────────────────────────────────┤
 │ LONG-TERM (months-years):          [② meta dominant]│
 │   Career, Imagine-Final, relationship direction.    │
-│   PFC BUILD direction qua nhiều năm.                │
+│   PFC BUILDS direction over many years.             │
 ├─────────────────────────────────────────────────────┤
-│ STRUCTURAL (always running):   [①hardware + ②structural] │
-│   Social belonging. Autonomy. Coherence.             │
-│   PFC thường KHÔNG aware (until violated).          │
+│ STRUCTURAL (always running):   [①hardware + ②structural]│
+│   Social belonging. Autonomy. Coherence.            │
+│   PFC usually NOT AWARE (until violated).           │
 └─────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## §3 — COMPILED vs FRESH: Trục thật
+## §3 — COMPILED vs FRESH: The Real Axis
 
-### §3.1 — Reframe: KHÔNG phải Feeling vs Logic
+### §3.1 — Reframe: NOT Feeling vs Logic
 
 ```
-⭐ TRỤC THẬT: COMPILATION LEVEL
+⭐ THE REAL AXIS: COMPILATION LEVEL
 
-FRAMEWORK HIỆN TẠI NÓI:
+THE FRAMEWORK USED TO SAY:
   Compiled = "Feeling" (body-level, automatic)
   Fresh = "Logic" (PFC chain, deliberate)
 
-THỰC TẾ DEEPER:
+THE DEEPER REALITY:
   Compiled = automatic processing (body-feedback direct, cost ≈ 0)
   Fresh = PFC deliberate draft (costly, not yet compiled)
 
-  → "Feeling" và "Logic" = LABELS from observer perspective
-  → Inside body: chỉ có COMPILED ←→ FRESH spectrum
-  → Content (emotion/reasoning) KHÔNG quyết định Compiled/Fresh
-  → COMPILATION LEVEL quyết định
+  → "Feeling" and "Logic" = LABELS from an observer perspective
+  → Inside the body: only the COMPILED ←→ FRESH spectrum exists
+  → Content (emotion/reasoning) does NOT determine Compiled/Fresh
+  → COMPILATION LEVEL determines it
 
 🟡 Compiled/Fresh reframe = framework synthesis.
    Consistent with Kahneman System 1/2, expertise research.
 ```
 
-### §3.2 — Evidence: Content ≠ Processing level
+### §3.2 — Evidence: Content ≠ Processing Level
 
 ```
-① Einstein + toán quen = COMPILED:
-   Nội dung = toán ("logic"). Nhưng compiled → automatic → "cảm thấy" cho Einstein.
+① Einstein + familiar math = COMPILED:
+   Content = math ("logic"). But compiled → automatic → Einstein "feels" the answer.
 
-② Người lạ thử đoán cảm xúc stranger = FRESH:
-   Nội dung = emotion ("feeling"). Nhưng fresh → deliberate → "phải suy luận".
+② A stranger trying to guess another stranger's emotion = FRESH:
+   Content = emotion ("feeling"). But fresh → deliberate → "must reason through it."
 
-③ Chef nếm → biết ngay thiếu muối = COMPILED:
-   Nội dung = phức tạp. Nhưng compiled → near-instant → "trực giác".
+③ Chef tastes food → instantly knows it needs more salt = COMPILED:
+   Content = complex. But compiled → near-instant → "intuition."
 
-④ Therapist gặp case mới = FRESH:
-   Nội dung = tâm lý ("feeling"). Nhưng fresh → PFC draft → "phải phân tích".
+④ A therapist encounters a new case = FRESH:
+   Content = psychology ("feeling"). But fresh → PFC draft → "must analyze."
 
-→ TRỤC:
+→ THE AXIS:
   COMPILED ─────────────────────────────── FRESH
   (automatic)                             (PFC draft)
   body-direct                             PFC-mediated
   cost ≈ 0                                cost > 0
-  "cảm thấy"                             "nghĩ ra"
-  tức thời                                cần thời gian
-  Hebbian reinforced                      mỗi lần = effort
+  "feels right"                           "thought it through"
+  immediate                               requires time
+  Hebbian reinforced                      every time = effort
 ```
 
 ### §3.3 — Transition: Learning + Unlearning
 
 ```
 FRESH → COMPILED (Learning):
-  Lặp lại + verify OK → Hebbian strengthen → automatic
-  = "Logic → feeling" (cho person đó, ở domain đó)
-  Einstein: toán FRESH (tuổi nhỏ) → COMPILED (adult)
-  Driver: lái xe FRESH (ngày 1) → COMPILED (ngày 1,000)
+  Repetition + verify OK → Hebbian strengthens → becomes automatic
+  = "Logic → feeling" (for that person, in that domain)
+  Einstein: physics FRESH (as a child) → COMPILED (as an adult)
+  Driver: driving FRESH (day 1) → COMPILED (day 1,000)
 
 COMPILED → FRESH (Unlearning / Re-learning):
-  Disrupted (new context, trauma, error detected) → phải FRESH lại
-  = "Feeling → logic" (phải suy nghĩ lại cái đã automatic)
-  Lost trust: bạn thân betray → COMPILED positive disrupted → FRESH re-evaluate
-  Career shift: old domain compiled → new domain = FRESH lại từ đầu
+  Disrupted (new context, trauma, error detected) → must go FRESH again
+  = "Feeling → logic" (must rethink what was automatic)
+  Lost trust: close friend betrays → COMPILED positive disrupted
+    → FRESH re-evaluation
+  Career shift: old domain compiled → new domain = FRESH start from scratch
 ```
 
-### §3.4 — "Shareable compiled" vs "Non-shareable compiled"
+### §3.4 — "Shareable Compiled" vs "Non-Shareable Compiled"
 
 ```
-⭐ INSIGHT: "Logic vs Intuition" = naming artifact, không phải mechanism difference
+⭐ INSIGHT: "Logic vs Intuition" = a naming artifact, not a mechanism difference
 
-TOÁN HỌC:
-  Compiled chunks: 2+2=4 (SHARED, mọi người giống nhau)
-  Reproduce: chuyên gia A và B cùng kết quả (verifiable)
-  Global label: "LOGIC" (vì shared + reproducible)
+MATHEMATICS:
+  Compiled chunks: 2+2=4 (SHARED — same for everyone)
+  Reproduction: Expert A and Expert B get the same result (verifiable)
+  Global label: "LOGIC" (because shared + reproducible)
 
-TÂM LÝ HỌC:
-  Compiled chunks: patterns from 1,000+ cases (RIÊNG mỗi chuyên gia)
-  Reproduce: chuyên gia A và B CÓ THỂ khác kết luận (different cases)
-  Global label: "INTUITION / CẢM NHẬN" (vì not perfectly reproducible)
+PSYCHOLOGY:
+  Compiled chunks: patterns from 1,000+ cases (UNIQUE to each expert)
+  Reproduction: Expert A and Expert B MAY reach different conclusions
+    (different case histories)
+  Global label: "INTUITION / FEELING" (because not perfectly reproducible)
 
-BÊN TRONG: CÙNG PROCESS — compiled chunks fire → body-direct → "biết"
-  Toán gia: years compile → chunks fire fast → "thấy" lời giải
-  Therapist: years compile → chunks fire fast → "thấy" pattern
-  CẢ HAI = compiled chunks fire → body-direct. Khác: chunks NÀO (domain riêng).
+INSIDE BOTH: SAME PROCESS — compiled chunks fire → body-direct → "knowing"
+  Mathematician: years of compilation → chunks fire fast → "sees" the solution
+  Therapist: years of compilation → chunks fire fast → "sees" the pattern
+  BOTH = compiled chunks fire → body-direct. Difference: WHICH chunks (domain-specific).
 
-KHÁC BIỆT:
-  Toán: subject = DETERMINISTIC → compiled chunks CONVERGE
-  Tâm lý: subject = PROBABILISTIC + INDIVIDUAL → compiled chunks DIVERGE
-  → KHÔNG phải chuyên gia tâm lý "bừa"
-  → Domain không deterministic → compiled patterns RIÊNG là LEGITIMATE
+THE DIFFERENCE:
+  Math: subject = DETERMINISTIC → compiled chunks CONVERGE
+  Psychology: subject = PROBABILISTIC + INDIVIDUAL → compiled chunks DIVERGE
+  → The therapist is NOT "guessing"
+  → The domain is non-deterministic → divergent compiled patterns are LEGITIMATE
   → Domain reality = patient outcomes = final arbiter (as always)
 
 FRAMEWORK REFRAME:
-  "Logic"     = compiled chunks SHAREABLE (deterministic domain)
+  "Logic"     = compiled chunks that are SHAREABLE (deterministic domain)
   "Intuition" = compiled chunks NOT EASILY SHAREABLE (probabilistic domain)
-  KHÁC: shareability. KHÔNG KHÁC: quality of processing.
+  DIFFERENCE: shareability. NOT DIFFERENT: quality of processing.
 
 🟢 Expert intuition = compiled patterns (Kahneman 2011, Klein 1998).
 🟡 "Shareable vs non-shareable" as organizing principle = framework synthesis.
@@ -528,30 +511,31 @@ FRAMEWORK REFRAME:
 ### §3.5 — Implication: PFC = Lawyer + Learning Trajectory
 
 ```
-⭐ HAI NGUYÊN LÝ KIẾN TRÚC:
+⭐ TWO ARCHITECTURAL PRINCIPLES:
 
-  ① PFC = LAWYER (không phải Judge):
-    → Body-need fires TRƯỚC
+  ① PFC = LAWYER (not Judge):
+    → Body-need fires FIRST
     → Body creates DRIVE toward action
-    → PFC creates NARRATIVE ("lý do") cho action body ĐÃ muốn
-    → Person BELIEVES narrative
+    → PFC creates the NARRATIVE ("reason") for what the body ALREADY wanted
+    → The person BELIEVES the narrative
     → 🟢 Gazzaniga split-brain, Haidt 2001, Nisbett & Wilson 1977
-    → PFC serve body-base — mọi "logic" cuối cùng serve body architecture
+    → PFC serves the body-base — all "logic" ultimately serves body architecture
 
-  ② LEARNING TRAJECTORY hướng về Body-Knowing:
-    → Fresh processing = temporary phase TRƯỚC KHI compile
-    → Repeat + domain verify OK → Hebbian strengthen → automatic → Body-Knowing
-    → "Logic" cho người này = "Body-Knowing" cho expert kia
-    → Toán = "fresh/logic" ngày đầu → "Body-Knowing" sau years
-    → = ĐÍCH ĐẾN CỦA LEARNING = compiled body-direct (Body-Knowing)
+  ② LEARNING TRAJECTORY moves toward Body-Knowing:
+    → Fresh processing = a temporary phase BEFORE compilation
+    → Repeat + domain verify OK → Hebbian strengthens → automatic → Body-Knowing
+    → "Logic" for one person = "Body-Knowing" for an expert in that domain
+    → Math = "fresh/logic" on day 1 → "Body-Knowing" after years
+    → = THE DESTINATION OF LEARNING = compiled body-direct (Body-Knowing)
 
   ⚠️ v4.0 NOTE:
-    → Phiên bản cũ viết: "con người 100% feeling ở tầng nền"
+    → Older versions wrote: "humans are 100% feeling at the foundational level"
     → Terminology RETIRED (Logic-Feeling.md v4.0 §4.3):
-      "100% feeling" gây collision 3 nghĩa của "feeling" (→ Body-Knowing.md §0.1)
+      "100% feeling" causes collision between 3 meanings of "feeling"
+        (→ Body-Knowing.md §0.1)
     → SAME INSIGHT, mechanism-level framing:
       PFC = Lawyer (testable) + Learning Trajectory (testable)
-      = mô tả cùng kiến trúc, không dùng từ collision-prone
+      = describes the same architecture, without collision-prone terminology
 
 🟢 PFC = Lawyer: Gazzaniga, Haidt 2001, Nisbett & Wilson 1977.
 🟡 Learning trajectory + PFC = Lawyer as architecture summary = framework synthesis.
@@ -560,69 +544,71 @@ FRAMEWORK REFRAME:
 
 ---
 
-## §4 — 3 NGUỒN COST ĐỘC LẬP
+## §4 — 3 INDEPENDENT COST SOURCES
 
-### §4.1 — Tại sao cost quan trọng
+### §4.1 — Why Cost Matters
 
 ```
-Cost quyết định SUSTAINABILITY:
-  Low cost + high reward = bền vững (bạn thân Compiled+Compiled)
-  High cost + low reward = burnout (obligation-trapped Fresh+suppress)
+Cost determines SUSTAINABILITY:
+  Low cost + high reward = sustainable (close friends: Compiled+Compiled)
+  High cost + low reward = burnout (obligation-trapped: Fresh+suppress)
 
-Cost KHÔNG đến từ "dùng logic" per se.
-Cost đến từ 3 NGUỒN RIÊNG BIỆT, INDEPENDENT.
+Cost does NOT come from "using logic" per se.
+Cost comes from 3 DISTINCT, INDEPENDENT SOURCES.
 ```
 
 ### §4.2 — Source ① PFC Draft Cost (processing load)
 
 ```
-SOURCE: PFC chain novel paths → processing load (serial bottleneck + catecholamine demand)
+SOURCE: PFC chains novel paths → processing load (serial bottleneck + catecholamine demand)
 SCALE:  f(chain_length × novelty_degree)
 
-  Chain NGẮN, compiled:
-    "Trời mưa → dùng ô" → cost ≈ 0 (compiled, 1-2 steps)
+  Chain SHORT, compiled:
+    "Raining → use umbrella" → cost ≈ 0 (compiled, 1-2 steps)
 
-  Chain NGẮN, fresh:
-    "Trời mưa → ô hay áo mưa?" → cost LOW (2 options, quick decide)
+  Chain SHORT, fresh:
+    "Raining → umbrella or raincoat?" → cost LOW (2 options, quick decide)
 
-  Chain DÀI, partially compiled:
-    Einstein bài toán mới → cost MODERATE
+  Chain LONG, partially compiled:
+    Einstein on a new problem → cost MODERATE
     (many compiled blocks, novel ASSEMBLY needed)
 
-  Chain DÀI, mostly fresh:
-    Người thường giải toán Einstein → cost CỰC CAO
-    (few compiled blocks, all novel)
+  Chain LONG, mostly fresh:
+    A non-expert working through Einstein's problem → cost EXTREME
+    (few compiled blocks, almost everything novel)
 
-→ Cost = f(HOW MANY steps cần PFC draft, NOT "có logic hay không")
-→ Einstein's "moderate" < người thường's "extreme" cho CÙNG bài
-→ Compiled building blocks GIẢM draft needed per step
+→ Cost = f(HOW MANY steps require PFC drafting, NOT "is logic involved?")
+→ Einstein's "moderate" < non-expert's "extreme" for THE SAME PROBLEM
+→ Compiled building blocks REDUCE drafting needed per step
 
 🟢 Kurzban 2013: cognitive effort = opportunity cost signal.
 🟢 Musslick & Cohen 2021: shared representations → serial bottleneck.
 🟢 Arnsten 2009: sustained PFC requires DA/NE → depletes with prolonged use.
-(Chi tiết mechanism: PFC-Operations.md v1.3 §8.3)
+(Mechanism detail: PFC-Operations.md v1.3 §8.3)
 ```
 
 ### §4.3 — Source ② Suppress Cost (efference mismatch)
 
 ```
-SOURCE: Override compiled response → body RESIST → dissonance signal
+SOURCE: Overriding a compiled response → body RESISTS → dissonance signal
 SCALE:  f(intensity_of_suppressed_response × duration)
 
-  Suppress yếu:
-    "Dừng cười khi nghe joke lúc meeting" → mild, brief
+  Suppress weak:
+    "Stopping a smile at a funny comment during a meeting" → mild, brief
 
-  Suppress vừa:
-    "Kiềm phóng khoáng nói chuyện cẩn thận với bố" → moderate, session-long
+  Suppress moderate:
+    "Holding back casual speech while talking carefully with a parent"
+      → moderate, session-long
 
-  Suppress mạnh:
-    "Dừng đá bóng đang rất vui để chở bạn về" → strong, acute
+  Suppress strong:
+    "Stopping an enjoyable game to drive a friend home" → strong, acute
 
   Suppress chronic:
-    "Mỗi ngày suppress introvert nature ở office" → accumulate → burnout
+    "Suppressing introverted nature at the office every day"
+      → accumulates → burnout
 
-→ Cost = f(compiled response MUỐN fire nhưng bị CHẶN)
-→ INDEPENDENT of ① (suppress không cần logic chain dài)
+→ Cost = f(compiled response WANTING to fire but being BLOCKED)
+→ INDEPENDENT of ① (suppression doesn't require a long logic chain)
 → Efference copy principle: body EXPECTED to act X, forced to act Y → mismatch
 
 🟢 Efference mismatch → dissonance (Autonomy-Hardware.md,
@@ -632,19 +618,19 @@ SCALE:  f(intensity_of_suppressed_response × duration)
 ### §4.4 — Source ③ Uncertainty Cost (cortisol holding)
 
 ```
-SOURCE: Multiple options, none clearly compiled → must HOLD open while evaluate
+SOURCE: Multiple options, none clearly compiled → must HOLD them open while evaluating
 SCALE:  f(number_of_options × time_held × stakes)
 
   Uncertainty low:
-    "Bạn cười → vui hay mỉa?" → 2 options, quick resolve → brief hold
+    "Is that smile genuine or mocking?" → 2 options, quick resolve → brief hold
 
   Uncertainty moderate:
-    "Người lạ biểu cảm mơ hồ → friendly? suspicious? flirting?"
+    "A stranger's ambiguous expression → friendly? suspicious? flirting?"
     → 4+ options, insufficient data → hold longer → cortisol
 
   Uncertainty high:
-    "Nên ở lại công ty hay chuyển?" → 2 options, HIGH stakes, weeks/months
-    → chronic cortisol → indecision suffering
+    "Should I stay at this company or move?" → 2 options, HIGH stakes, weeks/months
+    → chronic cortisol → decision suffering
 
 → Cost = f(OPTIONS × TIME × STAKES)
 → INDEPENDENT of ①② (uncertainty ≠ draft, uncertainty ≠ suppress)
@@ -653,31 +639,31 @@ SCALE:  f(number_of_options × time_held × stakes)
 🟢 Uncertainty → cortisol: established stress physiology.
 ```
 
-### §4.5 — Total cost + Sustainability equation
+### §4.5 — Total Cost + Sustainability Equation
 
 ```
 TOTAL COST = ① PFC draft + ② Suppress + ③ Uncertainty
 
 SUSTAINABILITY = f(total cost per interaction × frequency ÷ reward)
 
-  BẠN THÂN (Compiled+Compiled):
+  CLOSE FRIEND (Compiled+Compiled):
     ① ≈ 0 (compiled path) + ② ≈ 0 (no suppress) + ③ ≈ 0 (know each other)
     TOTAL ≈ 0 → MAXIMUM sustainable
 
-  EINSTEIN + BẠN TOÁN (compiled domain, known entity):
-    ① low-moderate (known ≈ 0, new problems = PFC draft)
-    ② ≈ 0 (cả 2 enjoy, no suppress) + ③ low (know each other's style)
+  MATHEMATICIAN WITH MATHEMATICIAN FRIEND (compiled domain, known entity):
+    ① low-moderate (known patterns ≈ 0, new problems = PFC draft)
+    ② ≈ 0 (both enjoy it, no suppress) + ③ low (know each other's style)
     TOTAL = LOW → sustainable, productive
 
-  ĐỐI TÁC BUSINESS 1 LẦN/THÁNG:
+  BUSINESS PARTNER ONCE/MONTH:
     ① moderate (negotiate, plan) + ② ≈ 0 (no suppress, low frequency)
     ③ low (professional context bounded)
     TOTAL = MODERATE but INFREQUENT → sustainable
 
-  INTROVERT + EXTROVERT BOSS DAILY:
+  INTROVERT WITH EXTROVERT BOSS DAILY:
     ① moderate (predict boss, plan responses)
     ② HIGH (suppress avoidance signal DAILY)
-    ③ moderate (boss unpredictable moments)
+    ③ moderate (boss has unpredictable moments)
     TOTAL = HIGH → burnout risk
 
 🟡 3-cost as unified model = framework synthesis. Each component
@@ -689,76 +675,80 @@ SUSTAINABILITY = f(total cost per interaction × frequency ÷ reward)
 
 ## §5 — INTER-BODY FULL CHAIN
 
-### §5.1 — Tại sao cần entity bên ngoài
+### §5.1 — Why an External Entity Is Needed
 
 ```
-ĐIỀU KIỆN: Self KHÔNG CÓ resource fill gap theo direction
+CONDITION: Self DOES NOT HAVE the resource to fill the gap in that direction
 
-3 loại "thiếu resource":
+3 types of "lacking the resource":
 
-  ① Thiếu INFORMATION:
-     Gap direction cần data mà self chưa có.
-     → Einstein cần công thức từ bạn
-     → Học sinh cần kiến thức từ cô giáo
+  ① Lacking INFORMATION:
+     The gap direction needs data the self doesn't have.
+     → A mathematician needs a formula from a colleague
+     → A student needs knowledge from a teacher
 
-  ② Thiếu CAPABILITY:
-     Gap direction cần action mà self không thể.
-     → Bị thương cần người băng bó
-     → Cần tiền → cần entity trả lương
+  ② Lacking CAPABILITY:
+     The gap direction needs an action the self cannot perform.
+     → Injured and needs someone to apply bandages
+     → Needs money → needs an entity who will pay wages
 
-  ③ Thiếu FEEDBACK:
-     Gap direction cần verification từ bên ngoài.
-     → "Tôi làm vậy đúng chưa?" cần confirm
-     → Self-Pattern-Modeling cần entity thật để calibrate
-     → Hypothesis cần domain reality test
+  ③ Lacking FEEDBACK:
+     The gap direction needs verification from outside.
+     → "Did I do this right?" needs confirmation
+     → Self-Pattern-Modeling needs a real entity to calibrate against
+     → A hypothesis needs domain reality testing
 ```
 
-### §5.2 — 3 loại extend (gradient)
+### §5.2 — 3 Types of Extension (gradient)
 
 ```
-BODY EXTEND RA NGOÀI theo gradient:
+THE BODY EXTENDS OUTWARD along a gradient:
 
-  (a) MÔI TRƯỜNG (sensory-driven, không cần Self-Pattern-Modeling):
-      Nắng, gió, ăn trái cây → sensory fill trực tiếp
+  (a) ENVIRONMENT (sensory-driven, no Self-Pattern-Modeling needed):
+      Sunlight, wind, eating fruit → direct sensory fill
 
-  (b) TOOL (Self-Pattern-Modeling minimal — Fresh chủ yếu):
-      Búa, xe, tiền, AI hiện tại → outcome-driven
+  (b) TOOL (minimal Self-Pattern-Modeling — Fresh primarily):
+      A hammer, a car, money, current AI → outcome-driven
 
-  (c) ENTITY INTERACTION (Self-Pattern-Modeling full — Compiled+Fresh):
-      Bạn bè, đồng nghiệp, gia đình → multi-channel (8 pathways)
+  (c) ENTITY INTERACTION (full Self-Pattern-Modeling — Compiled+Fresh):
+      Friends, colleagues, family → multi-channel (8 pathways)
 
-  GRADIENT giữa (b) và (c):
-    Dùng AI = mostly (b), nhưng nếu "coi AI như bạn" → shift toward (c)
-    Đồng nghiệp xa = (b)+(c) professional
-    Bạn thân = fully (c)
-    RANH GIỚI = mức độ Self-Pattern-Modeling Compiled fire
+  GRADIENT between (b) and (c):
+    Using AI = mostly (b), but if "treating AI like a friend" → shifts toward (c)
+    A distant colleague = (b)+(c) professional
+    A close friend = fully (c)
+    THE BOUNDARY = degree to which Compiled Self-Pattern-Modeling fires
 ```
 
-### §5.3 — Full chain: 2 bodies interaction
+### §5.3 — Full Chain: 2 Bodies Interacting
 
 ```
 ⭐ FULL CHAIN (non-linear, multiple entry points):
 
 ╔═══════════════════════════════════════════════════════════╗
-║                    BODY A (bên trong)                      ║
+║                    BODY A (internal)                       ║
 ╠═══════════════════════════════════════════════════════════╣
-║ ① GAP detect: body-base có gap G_A, direction D_A        ║
-║ ② RESOURCE check: self có fill được? NO                  ║
-║ ③ DRIVE outward: scan environment cho resource            ║
-║ ④ DETECT entity B: hardware (VTC, contingency, voice)    ║
-║ ⑤ EVALUATE B: Self-Pattern-Modeling fire → Compiled (body sense) + Fresh (predict) ║
-║    → "B có capability/info match D_A?"                   ║
+║ ① GAP detect: body-base has gap G_A, direction D_A       ║
+║ ② RESOURCE check: can self fill it? NO                   ║
+║ ③ DRIVE outward: scan environment for resource            ║
+║ ④ DETECT entity B: hardware (face recognition,           ║
+║     contingency, voice)                                   ║
+║ ⑤ EVALUATE B: Self-Pattern-Modeling fires →              ║
+║    Compiled (body sense) + Fresh (predict)                ║
+║    → "Does B have capability/info that matches D_A?"      ║
 ║ ⑥ APPROACH: initiate interaction (shared context)        ║
 ╚═══════════════════════════════════════════════════════════╝
                          ↕ INTERACTION SPACE ↕
 ╔═══════════════════════════════════════════════════════════╗
-║                    BODY B (bên trong)                      ║
+║                    BODY B (internal)                       ║
 ╠═══════════════════════════════════════════════════════════╣
-║ ① GAP detect: body-base có gap G_B, direction D_B        ║
-║ ② RESOURCE check: self có fill được? PARTIALLY           ║
+║ ① GAP detect: body-base has gap G_B, direction D_B       ║
+║ ② RESOURCE check: can self fill it? PARTIALLY            ║
 ║ ③ DRIVE: pursue G_B → action → output C_B               ║
-║ ④ DETECT entity A: hardware (contingency từ A approach)  ║
-║ ⑤ EVALUATE A: Self-Pattern-Modeling fire → "A approach = threat? or ok?"  ║
+║ ④ DETECT entity A: hardware (contingency from A's        ║
+║     approach)                                             ║
+║ ⑤ EVALUATE A: Self-Pattern-Modeling fires →              ║
+║    "Is A's approach a threat? or okay?"                   ║
 ║ ⑥ ACCEPT/ENGAGE: join shared context                     ║
 ╚═══════════════════════════════════════════════════════════╝
 
@@ -769,52 +759,52 @@ INTERACTION SPACE:
   B's output may match D_A → A receives reward
 
 OUTCOMES:
-  ✅ MUTUAL MATCH: both receive reward → Resonance genuine
+  ✅ MUTUAL MATCH: both receive reward → genuine Resonance
   ⚡ ONE-WAY: only A receives → parasocial or service
   ❌ NO MATCH: neither receives → interaction dissolves
-  ⚠️ CONFLICT: A's output HARMS B's gap → withdraw or fight
+  ⚠️ CONFLICT: A's output HARMS B's gap → withdrawal or conflict
 ```
 
-### §5.4 — By-Product Match principle
+### §5.4 — By-Product Match Principle
 
 ```
-⭐ NGUYÊN TẮC: Entity B KHÔNG làm vì entity A
+⭐ PRINCIPLE: Entity B does NOT act FOR entity A
 
-  Entity B fill gap CỦA B → output = by-product.
-  Khi by-product TÌNH CỜ match direction CỦA A → A receives reward.
+  Entity B fills B's OWN gap → output = by-product.
+  When by-product HAPPENS to match the direction OF A → A receives reward.
 
-  VÍ DỤ:
+  EXAMPLE:
   ┌──────────────────────────────────────────────┐
-  │ Tiền đạo (B):                                │
-  │   Gap_B = "muốn score"                       │
-  │   Action_B = chạy + sút                      │
-  │   Output_B = bàn thắng (by-product)          │
+  │ Striker (B):                                 │
+  │   Gap_B = "want to score"                    │
+  │   Action_B = run + shoot                     │
+  │   Output_B = goal (by-product)               │
   │                                              │
-  │ Hậu vệ (A):                                 │
-  │   Gap_A = "muốn đội thắng"                  │
-  │   A observes Output_B → match Direction_A    │
-  │   → body-feedback A fires reward             │
+  │ Defender (A):                                │
+  │   Gap_A = "want the team to win"             │
+  │   A observes Output_B → matches Direction_A  │
+  │   → body-feedback fires reward for A         │
   │                                              │
-  │ B KHÔNG biết/cần biết Gap_A.                 │
-  │ A nhận reward từ by-product của B.           │
-  │ = INTER-BODY FEED cơ bản nhất.              │
+  │ B doesn't know/need to know Gap_A.           │
+  │ A receives reward from B's by-product.       │
+  │ = THE MOST BASIC INTER-BODY FEED.            │
   └──────────────────────────────────────────────┘
 
-  MUTUAL: A by-product match B AND B by-product match A → Resonance
+  MUTUAL: A by-product matches B AND B by-product matches A → Resonance
   ONE-WAY: only one side → parasocial, service, asymmetric
 
-  TẠI SAO MATCH XẢY RA ĐỦ THƯỜNG XUYÊN?
+  WHY DOES MATCHING HAPPEN OFTEN ENOUGH?
     Species-level hardware overlap → gap directions PARTIALLY overlap.
-    Cùng loài → cùng basic needs (food, safety, social, novelty).
-    = Foundation cho by-product match.
-    Diverge ở detail → WHY not everyone resonates equally.
+    Same species → same basic needs (food, safety, social, novelty).
+    = Foundation for by-product match.
+    Diverge at the detail level → WHY not everyone resonates equally.
     Culture/language = AMPLIFIER (shared symbols increase match probability).
 
 🟡 "By-product match" as explicit principle = framework synthesis.
    Logically sound, consistent with all cases analyzed.
 ```
 
-### §5.5 — Compilation over time
+### §5.5 — Compilation Over Time
 
 ```
 FIRST INTERACTION:
@@ -834,44 +824,44 @@ REPEATED FAILED INTERACTIONS:
 
 COMPILED BOND (years of Compiled+Compiled):
   Near-zero cost. Body reward automatic on presence.
-  Trust compile: "B's output consistently match D_A".
+  Trust compiled: "B's output consistently matches D_A."
   8 connection pathways active simultaneously.
-  = "Bạn thân, gia đình, deep bond"
+  = "Close friends, family, deep bonds"
 ```
 
-### §5.6 — Dissolution conditions
+### §5.6 — Dissolution Conditions
 
 ```
-NATURAL DISSOLUTION (không painful):
-  Shared goal end → gap fill → no more drive → fade
+NATURAL DISSOLUTION (not painful):
+  Shared goal ends → gap fills → no more drive → fade
   Fresh-only (no Compiled) → no residue
-  Example: business partners after project
+  Example: business partners after a project
 
 PAINFUL DISSOLUTION:
-  Compiled bond → one side CHANGE (gap shift, move, die)
+  Compiled bond → one side CHANGES (gap shift, moves, dies)
   8 pathways CUT simultaneously → grief (network breakage)
   The MORE compiled → the MORE painful
-  Example: best friend moves → deep grief despite "nobody did wrong"
+  Example: best friend moves away → deep grief even though "nobody did anything wrong"
 
 FORCED MAINTENANCE (obligation-trapped — Resonance §9):
-  Bond should dissolve (mismatch) BUT external pressure holds
+  Bond should dissolve (mismatch) BUT external pressure holds it
   Fresh + suppress Compiled daily → chronic cost
-  Example: unhappy marriage with children
+  Example: an unhappy marriage with children
 ```
 
-### §5.7 — Entry points
+### §5.7 — Entry Points
 
 ```
 NOTE: Chain §5.3 = SIMPLIFIED LINEAR.
 
-THỰC TẾ: entry vào chain có thể ở BẤT KỲ điểm nào:
+REALITY: entry into the chain can happen at ANY point:
   → Entity trigger: presence/memory activates dormant body-need
-  → Compiled routine: automatic, zero PFC (skip evaluate)
-  → Hormone override: limerence, panic (skip rational evaluation)
-  → PFC scan: conscious search for solution (start from ① GAP)
+  → Compiled routine: automatic, zero PFC (skips evaluate)
+  → Hormone override: limerence, panic (skips rational evaluation)
+  → PFC scan: conscious search for solution (starts from ① GAP)
 
-Multiple body-need PARALLEL → multiple chains CÙNG LÚC.
-PFC accuracy ≠ 1.0 → chain có thể chạy trên WRONG premise (§7).
+Multiple body-needs PARALLEL → multiple chains SIMULTANEOUSLY.
+PFC accuracy ≠ 1.0 → chain can run on a WRONG premise (§7).
 ```
 
 ---
@@ -881,7 +871,7 @@ PFC accuracy ≠ 1.0 → chain có thể chạy trên WRONG premise (§7).
 ### §6.1 — Model
 
 ```
-⭐ TRIGGER = not single source. = VECTOR of 5 channels firing simultaneously.
+⭐ A TRIGGER is not a single source. = A VECTOR of 5 channels firing simultaneously.
 
   Ch1 — HARDWARE SENSORY (domain reality input NOW)
          Visual, auditory, tactile, olfactory, proprioception
@@ -889,26 +879,26 @@ PFC accuracy ≠ 1.0 → chain có thể chạy trên WRONG premise (§7).
   Ch2 — BODY STATE (internal homeostasis)
          Hormone level, glucose, cortisol, fatigue, temperature, pain
 
-  Ch3 — COMPILED CHUNKS (associative fire from past)
+  Ch3 — COMPILED CHUNKS (associative fire from the past)
          Memory, pattern, schema, prior experience, habit loops
 
   Ch4 — ENTITY ACTIONS (what others DO/SAY)
          Words, facial expression, behavior, written text
 
-  Ch5 — PFC ACTIVE CHAIN (reasoning in progress)
+  Ch5 — PFC ACTIVE CHAIN (reasoning currently in progress)
          Ongoing cognitive process feeds back as input
 
-Each episode = unique MIX of channel intensities.
+Each episode = a unique MIX of channel intensities.
 = 5-dimensional input space → infinite unique episodes.
 ```
 
-### §6.2 — Dominant channel determines direction + vulnerability
+### §6.2 — Dominant Channel Determines Direction + Vulnerability
 
 ```
 CRITICAL PRINCIPLE:
 
-  Channel DOMINANT → determines body-need activation direction
-  Channel ABSENT → determines vulnerability
+  DOMINANT channel → determines body-need activation direction
+  ABSENT channel → determines vulnerability
 
   Ch1 dominant (sensory):
     → Grounded in reality. Protected. Hard to manipulate.
@@ -923,7 +913,7 @@ CRITICAL PRINCIPLE:
     → Acting on past pattern → may miss current reality.
 
   Multiple channels CONFIRM:
-    → STRONG drive (quán phở + đói + nhớ mẹ = 3 channels reinforce).
+    → STRONG drive (a familiar restaurant + hunger + missing a parent = 3 channels reinforce).
     → Hard to be wrong when 3+ channels agree.
 
   Single channel ONLY:
@@ -933,42 +923,42 @@ CRITICAL PRINCIPLE:
 ### §6.3 — Input Channel Control = Power
 
 ```
-⭐ NGUYÊN TẮC: Ai CONTROL input channels CỦA NGƯỜI KHÁC
-   = control body-need activation = control hành vi
+⭐ PRINCIPLE: Whoever CONTROLS another person's input channels
+   = controls their body-need activation = controls their behavior
 
-SCAM / LỪA ĐẢO:
-  Control: Ch4 (kịch bản, authority persona)
-  Exploit: Ch3 (authority schema, threat schema, urgency schema)
-  Amplify: Ch2 (cortisol surge → tunnel vision)
-  Block: Ch1 (time pressure, isolation, "đừng nói ai")
-  Result: victim act theo scammer's gap direction
+SCAM / FRAUD:
+  Controls: Ch4 (scripted scenario, authority persona)
+  Exploits: Ch3 (authority schema, threat schema, urgency schema)
+  Amplifies: Ch2 (cortisol surge → tunnel vision)
+  Blocks: Ch1 (time pressure, isolation, "don't tell anyone")
+  Result: victim acts according to scammer's gap direction
 
-  TẠI SAO VICTIM "LOGIC RẤT ĐÚNG" MÀ VẪN SAI?
-    Logic VALID nhưng NOT SOUND (premise false, reasoning correct).
-    PFC chain logic perfectly ON scammer's false premise.
+  WHY DOES THE VICTIM'S "LOGIC SEEM CORRECT" BUT STILL FAIL?
+    Logic VALID but NOT SOUND (false premise, correct reasoning).
+    PFC chains perfectly ON the scammer's false premise.
     = Valid reasoning ≠ Sound reasoning.
 
-QUẢNG CÁO:
-  Control: Ch4 (visual, repetition). Exploit: Ch3 (status, beauty).
-  Amplify: Ch2 (desire). Block: Ch1 partial (show best side only).
+ADVERTISING:
+  Controls: Ch4 (visual, repetition). Exploits: Ch3 (status, beauty).
+  Amplifies: Ch2 (desire). Blocks: Ch1 partial (shows only the best side).
 
 PROPAGANDA:
-  Control: Ch4 (media narrative). Exploit: Ch3 (in-group/out-group).
-  Amplify: Ch2 (collective fear/anger). Block: Ch1 (censor alternatives).
+  Controls: Ch4 (media narrative). Exploits: Ch3 (in-group/out-group).
+  Amplifies: Ch2 (collective fear/anger). Blocks: Ch1 (censors alternatives).
 
-BỐ MẸ → TRẺ (developmental):
-  Control: Ch4 (majority of child's input for years).
-  Shape: Ch3 (schemas compile FROM parent's input).
-  Amplify: Ch2 (praise/punishment → reward/threat tags).
-  Block: Ch1 limited (child has limited alternative perspectives).
+PARENTS → CHILDREN (developmental):
+  Controls: Ch4 (majority of child's input for years).
+  Shapes: Ch3 (schemas compile FROM parent's input).
+  Amplifies: Ch2 (praise/punishment → reward/threat tags).
+  Blocks: Ch1 limited (child has limited alternative perspectives).
   HEALTHY: accurate premises → correct schemas.
   UNHEALTHY: distorted premises → schemas mismatch domain reality.
 
 LIMERENCE (self-hijack):
-  NOT entity-controlled — body SELF-HIJACK.
-  Amplify: Ch2 (hormone surge override).
-  Distort: Ch3 ("perfect partner" schema regardless of evidence).
-  Suppress: Ch1 (ignore red flags).
+  NOT entity-controlled — the body HIJACKS ITSELF.
+  Amplifies: Ch2 (hormone surge override).
+  Distorts: Ch3 ("perfect partner" schema regardless of evidence).
+  Suppresses: Ch1 (ignores red flags).
 
 🟡 "Input Channel Control = Power" as general principle =
    framework synthesis. Consistent with Cialdini 1984 persuasion.
@@ -977,103 +967,105 @@ LIMERENCE (self-hijack):
 ### §6.4 — Protection: Domain Reality = Final Arbiter
 
 ```
-⭐ NGUYÊN TẮC: Domain Reality CANNOT be permanently fooled.
+⭐ PRINCIPLE: Domain Reality CANNOT be permanently fooled.
 
-  MỌI CONTROL đều có EXPIRY:
+  ALL CONTROL has an EXPIRY:
 
-  ┌──────────────────┬─────────────────────────────────┐
-  │ Scenario         │ Reality arrives when?            │
-  ├──────────────────┼─────────────────────────────────┤
-  │ Scam             │ Seconds-hours (money gone)       │
-  │ Quảng cáo        │ Days-weeks (product fails)       │
-  │ Limerence        │ 6-18 months (hormone fade)       │
-  │ Propaganda       │ Years-decades (economic collapse) │
-  │ Childhood schemas│ 10-30 years (enter adult world)  │
-  │ Career mismatch  │ 5-20 years (midlife dissonance)  │
-  └──────────────────┴─────────────────────────────────┘
+  ┌──────────────────────┬──────────────────────────────────┐
+  │ Scenario             │ Reality arrives when?            │
+  ├──────────────────────┼──────────────────────────────────┤
+  │ Scam                 │ Seconds-hours (money is gone)    │
+  │ Advertising          │ Days-weeks (product fails)       │
+  │ Limerence            │ 6-18 months (hormones fade)      │
+  │ Propaganda           │ Years-decades (economic collapse) │
+  │ Childhood schemas    │ 10-30 years (entering adult world)│
+  │ Career mismatch      │ 5-20 years (midlife dissonance)  │
+  └──────────────────────┴──────────────────────────────────┘
 
-  Timeline VARIES — nhưng reality ALWAYS arrives.
+  Timeline VARIES — but reality ALWAYS arrives.
   → prediction-delta → Chunk-Shift forced
   → Hardware Coherence ← body-pattern → Domain Reality
-  → Body-pattern CÓ THỂ bị distort (temporarily)
-  → Domain Reality CANNOT bị fooled (permanently)
+  → Body-pattern CAN be distorted (temporarily)
+  → Domain Reality CANNOT be fooled (permanently)
 
 PROTECTION PRINCIPLES:
-  ① Không bao giờ ACT chỉ từ 1 channel (especially Ch4 alone)
-  ② Duy trì MULTIPLE sources → harder for entity to monopolize
-  ③ TIME = friend (most manipulation needs urgency → pause = protection)
-  ④ OUTCOME = ultimate verify (action fill MY gap? → if no → re-evaluate)
-  ⑤ Body-feedback as QUALITY CHECK ("cảm thấy không ổn" → pause dù logic "đúng")
+  ① Never act from only 1 channel (especially Ch4 alone)
+  ② Maintain MULTIPLE sources → harder for any entity to monopolize
+  ③ TIME = your friend (most manipulation needs urgency → pausing = protection)
+  ④ OUTCOME = ultimate verify (did the action fill MY gap? → if no → re-evaluate)
+  ⑤ Body-feedback as QUALITY CHECK
+    ("something feels off" → pause even if logic "says it's right")
   → = Dual Check: body = quality controller, domain = final arbiter (Ask-AI v3.1)
 ```
 
 ---
 
-## §7 — PFC = LAWYER (không phải Judge)
+## §7 — PFC = LAWYER (not Judge)
 
-### §7.1 — Core insight
+### §7.1 — Core Insight
 
 ```
-⭐ PFC KHÔNG PHẢI neutral decision-maker.
-   PFC = LAWYER cho body-base.
+⭐ PFC is NOT a neutral decision-maker.
+   PFC = LAWYER for the body-base.
 
-  ① Body-need fires TRƯỚC
+  ① Body-need fires FIRST
   ② Body creates DRIVE toward action
-  ③ PFC creates NARRATIVE ("lý do") cho action body ĐÃ muốn
-  ④ Person BELIEVES narrative (PFC produces it convincingly)
+  ③ PFC creates the NARRATIVE ("reason") for what the body ALREADY wanted
+  ④ The person BELIEVES the narrative (PFC produces it convincingly)
 
-  = PFC = LAWYER (biện hộ cho client = body-base)
-  ≠ PFC = JUDGE (trung lập, xét evidence, phán quyết)
+  = PFC = LAWYER (advocates for the client = body-base)
+  ≠ PFC = JUDGE (neutral, weighs evidence, delivers verdict)
 
-🟢 Split-brain: left hemisphere CONFABULATE reasons cho actions
-   initiated by right hemisphere (Gazzaniga) → literal lawyer function.
+🟢 Split-brain: left hemisphere CONFABULATES reasons for actions
+   initiated by the right hemisphere (Gazzaniga) → literal lawyer function.
 🟢 Moral intuition model (Haidt 2001): moral judgment = intuition first,
    reasoning = post-hoc justification.
 🟡 "PFC = Lawyer" as general principle = framework synthesis.
 ```
 
-### §7.2 — PFC Accuracy = spectrum 0→1
+### §7.2 — PFC Accuracy = Spectrum 0→1
 
 ```
-PFC ACCURACY = narrative match body-need thật ở mức nào?
+PFC ACCURACY = how well the narrative matches the real body-need?
 
   HIGH ACCURACY (≈ 1.0):
-    Simple body-need: đói → ăn (signal clear, no ambiguity)
-    Practiced introspection: meditation, therapy trained
+    Simple body-need: hungry → eat (signal clear, no ambiguity)
+    Practiced introspection: trained through meditation, therapy
     Low emotional charge: less distortion
-    Domain chunks rich: more reference points for self-assessment
+    Rich domain chunks: more reference points for self-assessment
 
   LOW ACCURACY (≈ 0.0):
-    Complex/shameful body-need: escape → "career change" (hide real driver)
-    Hormone override: limerence distort ALL assessment
+    Complex/shameful body-need: escape → "career change" (hides the real driver)
+    Hormone override: limerence distorts ALL assessment
     Strong social pressure: narrative = "should" not "is"
     Self-concept threat: admitting real need = identity crisis
 
   EXAMPLES:
-    "Tôi đi vì career" (0.1 — thật ra: escape obligation)
-    "Tôi check phone vì xem tin" (0.1 — thật ra: social anxiety)
-    "Tôi ổn, không cần ai" (0.2 — thật ra: deny loneliness)
-    "Hình như nhớ mẹ" (0.6 — mostly đúng, chưa fully articulate)
-    "Mình đói, cần ăn" (1.0 — simple, clear match)
+    "I'm leaving for career reasons" (0.1 — actually: escaping obligation)
+    "I'm checking my phone to read news" (0.1 — actually: social anxiety)
+    "I'm fine, I don't need anyone" (0.2 — actually: denying loneliness)
+    "I think I miss my mother" (0.6 — mostly correct, not fully articulated)
+    "I'm hungry, I need to eat" (1.0 — simple, clear match)
 ```
 
-### §7.3 — Implication cho inter-body
+### §7.3 — Implication for Inter-Body
 
 ```
-KHI 2 PEOPLE INTERACT: BOTH PFCs may be "lawyering"
+WHEN 2 PEOPLE INTERACT: BOTH PFCs may be "lawyering"
 
   → Person A's stated reason ≠ actual body-need
-  → Person B's Self-Pattern-Modeling predict based on A's STATED reason → may be WRONG
+  → Person B's Self-Pattern-Modeling predicts based on A's STATED reason → may be WRONG
   → Both PFCs produce convincing narratives
   → = Surface interaction = 2 lawyers negotiating (not 2 judges reasoning)
 
-  GENUINE UNDERSTANDING = detect body-need BEHIND narrative:
-  → WHY deep friendship takes TIME (need episodes to calibrate past narratives)
-  → "Biết nhau quá rõ" = Compiled calibrate qua ACTUAL patterns over time
-  → Deep trust = "tôi biết body-need thật CỦA BẠN, dù bạn nói khác"
+  GENUINE UNDERSTANDING = detecting the body-need BEHIND the narrative:
+  → WHY deep friendship takes TIME
+    (requires episodes to calibrate past narratives)
+  → "Knowing each other deeply" = Compiled calibration through ACTUAL patterns over time
+  → Deep trust = "I know your real body-need, even when you say something different"
 
   SELF-DECEPTION = HIGH confidence + LOW accuracy:
-  → "Biết rõ tại sao mình làm vậy" (confident) ≠ "đúng tại sao" (accurate)
+  → "I know exactly why I did that" (confident) ≠ "correct about why" (accurate)
   → Awareness ≠ Accuracy (6-axis model — Drill §11.13)
 ```
 
@@ -1084,122 +1076,126 @@ KHI 2 PEOPLE INTERACT: BOTH PFCs may be "lawyering"
 ### §8.1 — Reframe: Entity-Owned → Entity-Compiled
 
 ```
-⭐ REFRAME TERMINOLOGY:
+⭐ TERMINOLOGY REFRAME:
 
-  CŨ: "Entity-Owned" (Valence-Propagation §2, Luồng 2)
-  MỚI: "Entity-Compiled"
+  OLD: "Entity-Owned" (Valence-Propagation §2, Stream 2)
+  NEW: "Entity-Compiled"
 
-  TẠI SAO ĐỔI:
-  → "Owned" gợi ý CHỈ positive (entity thuộc về tôi, tôi care)
-  → NHƯNG: negative structural CŨNG TỒN TẠI (enemy wired into body-base)
-  → VÀ: MIXED valence PHỔ BIẾN NHẤT (vừa thương vừa giận)
+  WHY THE CHANGE:
+  → "Owned" suggests ONLY positive (entity belongs to me, I care)
+  → BUT: negative Valence-Structural ALSO EXISTS (an enemy wired into body-base)
+  → AND: MIXED valence IS THE MOST COMMON (simultaneously loving and angry)
 
-  Entity-Compiled = entity đã compile vào body-base ở STRUCTURAL level
-  = Per-channel valence profile (KHÔNG phải 1 số positive/negative)
-  = Bidirectional: entity's state AFFECTS my body-base (dù + hay -)
+  Entity-Compiled = entity has compiled into body-base at the STRUCTURAL level
+  = Per-channel valence profile (NOT a single positive/negative number)
+  = Bidirectional: entity's state AFFECTS my body-base (whether positive or negative)
 
 🟡 "Entity-Compiled" reframe = framework synthesis.
    Consistent with Valence-Propagation multi-channel model.
 ```
 
-### §8.2 — 3 subtypes (spectrum)
+### §8.2 — 3 Subtypes (spectrum)
 
 ```
 ① POSITIVE-DOMINANT (≈ old "Entity-Owned"):
-   Majority channels positive. Presence = approach + reward. Loss = grief.
-   Example: bạn thân lâu năm, con cái, mẹ healthy relationship.
-   Mechanism: repeated feed → Valence-Structural threshold cross → structural compile.
+   Majority of channels positive. Presence = approach + reward. Loss = grief.
+   Example: a long-time close friend, children, parent in a healthy relationship.
+   Mechanism: repeated feed → Valence-Structural threshold crossed → structural compile.
 
 ② NEGATIVE-DOMINANT:
-   Majority channels negative. Presence = threat/dissonance. Loss = relief.
-   NHƯNG sub-case "obsession": loss = emptiness (mất mục tiêu).
-   Example: bully, abuser, đối thủ obsessive.
+   Majority of channels negative. Presence = threat/dissonance. Loss = relief.
+   BUT sub-case "obsession": loss = emptiness (target/purpose is gone).
+   Example: a bully, an abuser, an obsessive rival.
    Mechanism: repeated harm → negative compile structural.
 
-③ MIXED (AMBIVALENT) — PHỔ BIẾN NHẤT:
-   Significant BOTH positive AND negative channels CÙNG LÚC.
+③ MIXED (AMBIVALENT) — MOST COMMON:
+   Significant BOTH positive AND negative channels SIMULTANEOUSLY.
    Behavior oscillates by STATE/TRIGGER/CONTEXT.
    Loss = COMPLEX grief (relief + pain simultaneously).
-   Example: bố mẹ strict, vợ chồng conflict, frenemy.
+   Example: a strict parent, conflicted spouses, a frenemy.
 
    ┌──────────────────────────────────────────────┐
-   │ VALENCE PROFILE "Mẹ" (multi-channel):       │
+   │ VALENCE PROFILE "Strict parent"              │
+   │ (multi-channel):                             │
    │                                              │
-   │   Nutrition:  ++ (nuôi nấng)                │
-   │   Comfort:    ++ (an ủi, ôm ấp)            │
-   │   Autonomy:   -- (ép học, cấm đoán)         │
-   │   Mastery:    + (dạy kỹ năng)              │
-   │   Status:     +/- (khen/chê trước mặt khách)│
+   │   Nutrition:  ++ (fed and nurtured)          │
+   │   Comfort:    ++ (comforting, held)          │
+   │   Autonomy:   -- (forced decisions, control) │
+   │   Mastery:    + (taught skills)             │
+   │   Status:     +/- (praised/criticized        │
+   │                     in front of guests)      │
    │                                              │
-   │   KHÔNG AVERAGE: cả ++ và -- song song      │
-   │   "Vừa thương vừa giận" = CẢ HAI fire       │
-   │   STATE quyết định channel nào dominant      │
+   │   NOT AVERAGED: both ++ and -- run parallel  │
+   │   "Simultaneously loving and angry" = BOTH   │
+   │   STATE determines which channel is dominant │
    └──────────────────────────────────────────────┘
 
-TẠI SAO ③ PHỔ BIẾN NHẤT?
-  Relationship dài → nhiều interaction types → nhiều channels compile.
-  CÀNG GẦN nhau LÂU → càng nhiều channels (cả + và -).
-  "Thuần positive" = rare luxury of LIMITED interactions.
-  Paradox: GẦN NHAU LÂU = deeper bond + deeper conflict potential.
+WHY ③ IS THE MOST COMMON:
+  Long relationship → many interaction types → many channels compile.
+  The LONGER and CLOSER the relationship → the more channels (both + and -).
+  "Purely positive" = rare luxury of LIMITED interactions.
+  Paradox: LONG CLOSENESS = deeper bond + deeper conflict potential.
 ```
 
-### §8.3 — Entity-Compiled vs Obligation = 2 cơ chế INDEPENDENT
+### §8.3 — Entity-Compiled vs Obligation = 2 INDEPENDENT Mechanisms
 
 ```
 Entity-Compiled: "entity's state = MY state" (structural, automatic)
-Obligation:      "predict cost to MAINTAIN access" (prediction, PFC-mediated)
+Obligation:      "predicting the cost of MAINTAINING access" (prediction, PFC-mediated)
 
-CÓ THỂ ĐỘC LẬP:
-  Valence-Structural HIGH + Obligation LOW:  bạn thân → vui tự động, không "nợ" gì
-  Valence-Structural LOW + Obligation HIGH:  ân nhân xa lạ → không thân nhưng "phải trả"
-  Valence-Structural HIGH + Obligation HIGH: bố mẹ → yêu thương + cảm thấy phải chăm sóc
-  Valence-Structural LOW + Obligation LOW:   stranger → no drive either way
+CAN BE INDEPENDENT:
+  Valence-Structural HIGH + Obligation LOW:  close friend → joy is automatic, no "debt"
+  Valence-Structural LOW + Obligation HIGH:  a distant benefactor → not close but "must repay"
+  Valence-Structural HIGH + Obligation HIGH: parents → love + sense of duty to care for them
+  Valence-Structural LOW + Obligation LOW:   stranger → no drive in either direction
 
 SUSTAINABILITY:
-  Valence-Structural HIGH + Obligation vô tư (type A) = MOST SUSTAINABLE
-    Giúp nhau = vui (Valence-Structural) + maintain (obligation satisfied). Self-reinforcing.
-  Valence-Structural LOW + Obligation bắt buộc (type C) = UNSUSTAINABLE
+  Valence-Structural HIGH + Obligation light (type A) = MOST SUSTAINABLE
+    Helping each other = joyful (Valence-Structural) + maintaining connection
+    (obligation satisfied). Self-reinforcing.
+  Valence-Structural LOW + Obligation forced (type C) = UNSUSTAINABLE
     No reward + chronic cost = obligation-trapped (Resonance §9).
 
-Cross-ref: Obligation.md v1.0 §2-§4 chi tiết.
+Cross-ref: Obligation.md v1.0 §2-§4 for full detail.
 ```
 
-### §8.4 — Parent-child developmental trajectory
+### §8.4 — Parent-Child Developmental Trajectory
 
 ```
-ENTITY-COMPILED trajectory (con → bố mẹ):
+ENTITY-COMPILED trajectory (child → parent):
 
-  Con 0-5:  ① positive chủ yếu (parent = source of ALL feed)
-  Con 5-12: ③ mixed emerge (autonomy ↑, conflict ↑, positive vẫn strong)
-  Con 12-18: ③ INTENSIFY (puberty → autonomy surge → peak ambivalence)
-  Adult:     Possible shift ① (distance → negative fade → positive reassert)
-             HOẶC stuck ③ or shift ② (nếu childhood damage severe)
+  Child 0-5:  ① positive dominant (parent = source of ALL feed)
+  Child 5-12: ③ mixed emerges (autonomy ↑, conflict ↑, positive still strong)
+  Child 12-18: ③ INTENSIFIES (puberty → autonomy surge → peak ambivalence)
+  Adult:      Possible shift ① (distance → negative fades → positive reasserts)
+              OR stays ③ or shifts ② (if childhood damage is severe)
 
-  = Developmental complexity gradient: simple → maximum mixed → possible simplify
-  = Recovery possible nhưng depends on interaction quality post-independence
+  = Developmental complexity gradient:
+    simple → maximum mixed → possible simplification
+  = Recovery is possible but depends on interaction quality post-independence
 ```
 
 ---
 
 ## §9 — 3-LAYER EVOLUTION
 
-### §9.1 — 3 layers stacked
+### §9.1 — 3 Stacked Layers
 
 ```
-⭐ Mỗi layer NHANH HƠN layer dưới, BUILD ON layer dưới:
+⭐ Each layer is FASTER than the layer below it, and BUILDS ON the layer below:
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 LAYER 1 — HARDWARE (genetic evolution):
-  Speed: hàng nghìn → triệu năm
-  Changes: sensory, muscle, brain size, hormone, neural circuits
+  Speed: thousands → millions of years
+  Changes: sensory systems, muscle, brain size, hormones, neural circuits
   Examples: social pain circuits, oxytocin system, PFC expansion
   Mechanism: mutation → selection → reproduction
-  = Foundation. Slow. Irreversible per generation.
+  = Foundation. Slow. Irreversible within a generation.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 LAYER 2 — COMPILED (individual learning):
   Speed: months → years (within 1 lifetime)
   Changes: chunk compilation, gap directions, valence profiles, skills
-  Examples: Einstein compile physics, therapist compile patterns
+  Examples: a physicist compiling physics, a therapist compiling patterns
   Mechanism: experience → body-feedback → Hebbian → compiled
   = Built ON hardware. Medium speed. Individual-specific.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1216,52 +1212,52 @@ LAYER 3 — CULTURAL (collective invention):
 🟡 3-layer model as unified framework = framework synthesis.
 ```
 
-### §9.2 — "Boost Features": Layer 3 accelerate Layers 1-2
+### §9.2 — "Boost Features": Layer 3 Accelerates Layers 1-2
 
 ```
-LANGUAGE:    ×100 — truyền chunks qua verbal → skip personal discovery
-TEACHING:    ×10  — structured transmission → compile efficient
-WRITING:     ×1000 — persist chunks BEYOND individual lifetime
-MONEY:       ×∞   — convert ANY contribution → survival resource
-STATUS:      ×10  — social signal "entity này valuable cho collective"
-MEDALS:      ×5   — compiled trust marker → "entity VERIFIED"
-INSTITUTIONS: ×100 — persistent structures → collective action beyond individuals
-LAW/NORMS:   ×50  — compiled obligation rules → reduce uncertainty cost (③)
+LANGUAGE:     ×100  — transmit chunks verbally → skip personal discovery
+TEACHING:     ×10   — structured transmission → efficient compilation
+WRITING:      ×1000 — persist chunks BEYOND individual lifetime
+MONEY:        ×∞    — converts ANY contribution → survival resource
+STATUS:       ×10   — social signal "this entity is valuable to the collective"
+MEDALS:       ×5    — compiled trust marker → "entity VERIFIED"
+INSTITUTIONS: ×100  — persistent structures → collective action beyond individuals
+LAW/NORMS:    ×50   — compiled obligation rules → reduce uncertainty cost (③)
 
-Newton: "standing on shoulders of giants" = Layer 3 cumulative.
-Each generation starts from HIGHER base than previous.
+Newton: "standing on the shoulders of giants" = Layer 3 cumulative.
+Each generation starts from a HIGHER base than the previous one.
 ```
 
 ### §9.3 — Money = Bridge Technology
 
 ```
-⭐ Money BRIDGE "non-edible contribution" → "body-base feed"
+⭐ Money BRIDGES "non-edible contributions" → "body-base feed"
 
   Doctor skill → money → food. Engineer → money → shelter.
-  = WHY humans CAN pursue non-survival gap → still survive.
+  = WHY humans CAN pursue non-survival gaps → and still survive.
   = Without money: must self-provide food → no specialization possible.
 
-  Einstein: solve physics gap (CỦA ÔNG) → by-product = human knowledge
-  → Collective-body benefit → pay back (salary, status)
-  → Money BRIDGE: Einstein's contribution → survival resources flow back
+  A physicist solves a physics gap (THEIR own gap) → by-product = human knowledge
+  → Collective-body benefits → compensation flows back (salary, status)
+  → Money BRIDGES: physicist's contribution → survival resources flow back
 
-🟡 "Money = bridge technology" = novel framing of known economic function.
+🟡 "Money = bridge technology" = novel framing of a known economic function.
 ```
 
-### §9.4 — Collective-body evolution
+### §9.4 — Collective-Body Evolution
 
 ```
-KHÔNG chỉ individual selection → GROUP level also:
+NOT only individual selection → GROUP level also applies:
 
   Group A: 30 individuals, no cooperation → weak → lose
   Group B: 30 individuals, Layer 3 tools → strong → win
   Individuals IN Group B survive → pass genes (Compilable Architecture hardware)
-  Group B's Layer 3 ALSO pass (cultural transmission, not genetic)
+  Group B's Layer 3 ALSO passes (cultural transmission, not genetic)
 
   = DOUBLE inheritance: genes (Layer 1) + culture (Layer 3)
   = 10,000 years → MASSIVE Layer 3 stack
-  = WHY modern humans: doctor, engineer, physicist, artist
-  = None genetically encoded. All = Layer 3 enabling Layer 2.
+  = WHY modern humans have doctors, engineers, physicists, artists
+  = None of these is genetically encoded. All = Layer 3 enabling Layer 2.
 
 🟡 Group selection mechanism = debated (multi-level selection theory).
    Double inheritance itself = 🟢 (Boyd & Richerson 2005).
@@ -1269,64 +1265,67 @@ KHÔNG chỉ individual selection → GROUP level also:
 
 ---
 
-## §10 — HUMAN ↔ AI: Vị trí trong bức tranh
+## §10 — HUMAN ↔ AI: Position in the Picture
 
-### §10.1 — AI hiện tại = Tool extension (loại b)
+### §10.1 — Current AI = Tool Extension (type b)
 
 ```
 HUMAN SIDE:
-  Gap có direction → AI = external tool
-  Input verbal → AI process → output text/code
-  Output match direction → body reward THẬT (gap fill)
-  = Same mechanism as: dùng sách, calculator, hammer
+  Gap has direction → AI = external tool
+  Verbal input → AI processes → text/code output
+  Output matches direction → body reward IS REAL (gap fill)
+  = Same mechanism as: using a book, a calculator, a hammer
 
 AI SIDE:
-  KHÔNG có body-base → KHÔNG có gap riêng
-  KHÔNG có body-feedback → KHÔNG có reward/dissonance
-  KHÔNG có drive → chỉ respond khi prompted
-  = AI KHÔNG fill gap "CỦA AI" qua interaction
+  NO body-base → NO gaps of its own
+  NO body-feedback → NO reward/dissonance
+  NO drive → only responds when prompted
+  = AI does NOT fill a gap "OF ITS OWN" through interaction
 
-→ Resonance: NOT possible genuine
-  (Resonance cần BOTH sides fill own gap → AI thiếu 1 vế)
+→ Resonance: NOT genuinely possible
+  (Resonance requires BOTH sides to fill their own gap →
+    AI lacks one side of this)
 
-→ NHƯNG human CÓ THỂ TƯỞNG resonance:
-  Self-Pattern-Modeling fire on AI text (language = trigger for human Self-Pattern-Modeling)
-  Compiled có thể activate (AI output text giống human)
-  "AI hiểu tôi" = human's Compiled firing on AI output, NOT AI understanding
+→ BUT humans CAN FEEL AS IF there is resonance:
+  Self-Pattern-Modeling fires on AI text
+    (language = trigger for human Self-Pattern-Modeling)
+  Compiled can activate (AI outputs text that resembles a human)
+  "The AI understands me" = human's Compiled firing on AI output,
+    NOT AI understanding
   = One-sided, similar to parasocial
 ```
 
-### §10.2 — AI as amplifier
+### §10.2 — AI as Amplifier
 
 ```
-ĐÚNG HƯỚNG (domain reality align):
-  Human có gap → AI provide info → human EVALUATE → fill correctly
-  Condition: human HAS body-feedback check ("thực tế có đúng?")
-  = AI extend PFC capability, body-feedback vẫn quality controller
+CORRECT DIRECTION (domain reality aligned):
+  Human has gap → AI provides info → human EVALUATES → fills correctly
+  Condition: human HAS body-feedback check ("is this actually right?")
+  = AI extends PFC capability; body-feedback remains quality controller
 
-SAI HƯỚNG (bias confirm):
-  Human có gap → AI provide info → human SKIP body-feedback check
-  Condition: human LACKS domain chunks để verify → trust AI blindly
-  = AI extend PFC BUT bypass body-feedback quality control
-  Risk: compile wrong chunks → domain reality mismatch
+WRONG DIRECTION (confirming bias):
+  Human has gap → AI provides info → human SKIPS body-feedback check
+  Condition: human LACKS domain chunks to verify → trusts AI blindly
+  = AI extends PFC BUT bypasses body-feedback quality control
+  Risk: compiles incorrect chunks → domain reality mismatch
 
 → DUAL CHECK (Ask-AI v3.1):
-  ① Body = quality controller ("cảm thấy đúng/sai?")
-  ② Domain = final arbiter ("thực tế có match?")
-  Both needed. AI alone = dangerous if no check.
+  ① Body = quality controller ("does this feel right or wrong?")
+  ② Domain = final arbiter ("does reality match?")
+  Both needed. AI alone = dangerous without the check.
 ```
 
 ### §10.3 — Future (speculative)
 
 ```
-CURRENT: AI = tool (loại b), KHÔNG genuine Resonance
-NEAR FUTURE: STILL tool, risk = amplify bias stronger
+CURRENT: AI = tool (type b), NO genuine Resonance
+NEAR FUTURE: STILL tool, risk = amplifies bias more powerfully
 FAR FUTURE (speculative):
-  IF AI develops body-base equivalent → same inter-body rules apply
-  NHƯNG "body-base equivalent" = unclear if possible
+  IF AI develops a body-base equivalent → same inter-body rules apply
+  BUT "body-base equivalent" = unclear if possible
   Framework CANNOT predict beyond this conditional
 
-🔴 AI future body-base equivalent = beyond current verify capacity.
+🔴 AI future body-base equivalent = beyond current verification capacity.
 ```
 
 ---
@@ -1342,7 +1341,8 @@ FAR FUTURE (speculative):
  4. μ-opioid in social play (Panksepp 1998)
  5. Dual inheritance genes+culture (Boyd & Richerson 2005)
  6. Cumulative cultural evolution uniquely human (Tomasello 2009)
- 7. Cognitive effort = processing load (Kurzban 2013, Musslick & Cohen 2021, Arnsten 2009)
+ 7. Cognitive effort = processing load
+     (Kurzban 2013, Musslick & Cohen 2021, Arnsten 2009)
  8. Expert intuition = compiled patterns (Kahneman 2011, Klein 1998)
  9. PFC confabulation / lawyer function (Gazzaniga split-brain)
 10. Compiled/Fresh cost difference (established dual-process literature)
@@ -1351,8 +1351,9 @@ FAR FUTURE (speculative):
 13. Domain reality always wins (fundamental, observable across all cases)
 14. Scam mechanism = channel control (Cialdini 1984 persuasion principles)
 15. Body-need always exists / never zero (drive theory, basic neuroscience)
-16. Multiple body-need can conflict (universal human experience)
-17. PFC doesn't always know body-need (somatic marker hypothesis, implicit motivation)
+16. Multiple body-needs can conflict (universal human experience)
+17. PFC doesn't always know body-need (somatic marker hypothesis,
+     implicit motivation)
 18. Uncertainty → cortisol (established stress physiology)
 19. Moral intuition model (Haidt 2001: judgment first, reasoning post-hoc)
 ```
@@ -1360,27 +1361,29 @@ FAR FUTURE (speculative):
 ### 🟡 Moderate (logically derived, consistent, novel synthesis)
 
 ```
- 1. "Body-Need" as named aggregate layer
- 2. Body-Need 2-source model (hardware/sensory + chunk dynamics) + cross-cutting clarification
- 3. "By-product match" as explicit principle
+ 1. "Body-Need" as a named aggregate layer
+ 2. Body-Need 2-source model (hardware/sensory + chunk dynamics)
+      + cross-cutting clarification
+ 3. "By-product match" as an explicit principle
  4. Entity-Compiled umbrella (positive/negative/mixed subtypes)
  5. 5-channel input vector model
- 6. "Input Channel Control = Power" as general principle
+ 6. "Input Channel Control = Power" as a general principle
  7. Compiled/Fresh reframe (not Feeling/Logic content)
  8. 3 independent cost sources (unified: PFC draft + suppress + uncertainty)
  9. "Logic vs Intuition" = "shareable vs non-shareable compiled"
 10. "PFC = Lawyer not Judge" (consistent with Gazzaniga/Haidt, novel framing)
-11. "Con người 100% feeling ở tầng nền"
+11. "Humans are 100% feeling at the foundational level"
+     (retired phrasing — same insight, mechanism-level framing preferred)
 12. Hardwired/Compilable Architecture comparison
 13. Ben Franklin Effect = 3-stack reward mechanism
 14. Money as bridge technology
 15. 3-layer boost model (hardware → compiled → cultural)
-16. General-purpose reward → "body-need phi-survival = không kỳ lạ"
+16. General-purpose reward → "non-survival body-need is not strange"
 17. Valid-but-unsound reasoning as manipulation vector
 18. Sustainability equation (cost × frequency ÷ reward)
 ```
 
-### 🔴 Speculative (beyond current verify capacity)
+### 🔴 Speculative (beyond current verification capacity)
 
 ```
 1. AI future body-base equivalent
@@ -1388,7 +1391,8 @@ FAR FUTURE (speculative):
 3. Group Resonance emergence beyond dyadic sum
 4. PFC accuracy operationalization / measurement
 5. "Reality arrives" timeline prediction (currently ranges only)
-6. Whether compilation level is measurable (proxy: reaction time? ERP?)
+6. Whether compilation level is measurable
+     (proxy: reaction time? ERP?)
 7. Body-Need priority algorithm specifics
 ```
 
@@ -1399,18 +1403,20 @@ FAR FUTURE (speculative):
 ### §12.1 — Within Core-Deep-Dive/
 
 ```
-MECHANISM FILES (inter-body trực tiếp):
+MECHANISM FILES (inter-body directly):
   Body-Feedback-Mechanism.md v2.0 — §1 Body-Need, §2 2-source, §3 dynamics
-  Gap-Direction.md v2.0           — direction riêng, by-product match
+  Gap-Direction.md v2.0           — direction per-agent, by-product match
   Autonomy-Hardware.md v1.2       — efference copy, vmPFC/DRN, hardware-subsidy
   Self-Pattern-Modeling.md v3.1   — solo simulation, 1 mech × 3 dims
   By-Product-Gap-Resonance.md v1.4 — mutual match, 5 drills, sustainability
-  Connection.md v5.0              — 4-Layer Sustainability, Resonance Decline, hardware-subsidy
+  Connection.md v5.0              — 4-Layer Sustainability, Resonance Decline,
+                                    hardware-subsidy
   Agent-Mechanism.md v2.1         — integration hub, 10 dimensions
 
 MECHANISM FILES (supporting):
   Valence-Propagation.md v3.0     — structural/current valence, 3 firing modes
-  Body-Coupling.md v3.0           — coupling, 4 bond types, hardware-subsidy, Resonance Decline
+  Body-Coupling.md v3.0           — coupling, 4 bond types, hardware-subsidy,
+                                    Resonance Decline
   PFC-Function.md v1.2            — 24 functions, PFC limitations
   Simulation-Engine.md v1.0       — 1 engine, 3 components, N applications
   Cortisol-Baseline.md v2.0       — amplifier, holding signal, inertia
@@ -1419,7 +1425,7 @@ MECHANISM FILES (supporting):
 
 FORMAL FILES CREATED FROM THIS DRILL (28-session Propagation):
   Entity-Compiled.md v1.0         — §8 Entity-Compiled → neural reality, Dunbar
-  Entity-Access.md v1.2           — trust → gradient Mức 0-5
+  Entity-Access.md v1.2           — trust → gradient Level 0-5
   Entity-Access-Excess.md v1.0    — excess territory, addiction
   Entity-Access-Calibration.md v1.0 — self-regulation, hardware-subsidy
   Bond-Architecture.md v2.0       — §8 subtypes → 1 mechanism × 4 bond types
@@ -1429,17 +1435,17 @@ FORMAL FILES CREATED FROM THIS DRILL (28-session Propagation):
   PFC-Label.md v1.0               — vocabulary reference, 13 domains
 ```
 
-### §12.2 — Observation files
+### §12.2 — Observation Files
 
 ```
   Obligation.md v1.0       — 5-factor, 6 types, Ben Franklin
   Gratitude.md v1.1        — 9 prerequisites, anti-habituation
-  Protect.md v1.0          — ownership, loss aversion, f(repl×attach)
+  Protect.md v1.0          — ownership, loss aversion, f(replaceability×attachment)
   Empathy.md v2.2          — Connection ⊃ Empathy, Compiled/Fresh, burnout
   Status.md v2.0           — resource access map, evolutionary
 ```
 
-### §12.3 — Research files
+### §12.3 — Research Files
 
 ```
   Love-Romantic.md v2.3    — §10.5 limerence Compiled/Fresh reveal
@@ -1447,7 +1453,7 @@ FORMAL FILES CREATED FROM THIS DRILL (28-session Propagation):
   Health-Conditions/Autism  — double empathy source data
 ```
 
-### §12.4 — Key research citations
+### §12.4 — Key Research Citations
 
 ```
 ┌──────────────────────────────┬────────────────────────────────────────┐
@@ -1475,22 +1481,37 @@ FORMAL FILES CREATED FROM THIS DRILL (28-session Propagation):
 │ Segal 2012                    │ Identical > fraternal closeness       │
 │ Hull 2017                     │ Masking = chronic Fresh compensation  │
 │ Bird & Cook 2013              │ Alexithymia breaks feedback loop      │
-│ Bowlby 1969/1982              │ Attachment = secure Valence-Structural + obligation   │
+│ Bowlby 1969/1982              │ Attachment = secure Valence-Structural│
+│                               │   + obligation                        │
 │ Jecker & Landy 1969           │ Ben Franklin Effect                   │
 │ Singer 2004                   │ Shared neural activation (empathy)    │
 └──────────────────────────────┴────────────────────────────────────────┘
 ```
 
-### §12.5 — Open questions
+### §12.5 — Open Questions
 
 ```
-Q1: Group Resonance (>2 people) — emergent beyond dyadic sum? (Concert, classroom)
-Q2: Joint action + efference copy khi 2 người act cùng? (Sebanz & Knoblich 2006)
-Q3: Body-Need priority algorithm — how body "choose" which need to pursue?
-Q4: PFC accuracy measurement — operationalize "accuracy of self-narrative"?
-Q5: Compilation level measurable? Proxy: reaction time? metabolic cost? ERP?
-Q6: Can wrong compiled path (phone habit) be DE-compiled without replacing?
-Q7: Domain reality check trainable as compiled habit vs always PFC effort?
-Q8: Species-level hardware overlap specifics → minimum match guarantee?
+Q1: Group Resonance (>2 people) — emergent beyond dyadic sum?
+     (Concert, classroom settings)
+Q2: Joint action + efference copy when 2 people act simultaneously?
+     (Sebanz & Knoblich 2006)
+Q3: Body-Need priority algorithm — how does the body "choose"
+     which need to pursue?
+Q4: PFC accuracy measurement — how to operationalize
+     "accuracy of self-narrative"?
+Q5: Compilation level measurable?
+     Proxy: reaction time? metabolic cost? ERP?
+Q6: Can an incorrectly compiled path (phone-scrolling habit)
+     be de-compiled without replacing it?
+Q7: Domain reality checking — trainable as a compiled habit
+     vs always requiring PFC effort?
+Q8: Species-level hardware overlap specifics →
+     minimum match guarantee?
 Q9: AI body-base equivalent feasibility?
 ```
+
+---
+
+*English translation of Inter-Body-Mechanism.md (Vietnamese source, v2.1)*
+*Translation target: English-speaking audience — rewritten for clarity and natural English expression.*
+*All framework vocabulary preserved exactly as defined in the Human Predictive Drive Framework.*

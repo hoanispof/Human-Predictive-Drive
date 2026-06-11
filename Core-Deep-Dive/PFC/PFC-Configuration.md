@@ -16,16 +16,17 @@ scope: |
   System Reconsolidation (Config ⑥ × Function ⑭).
 purpose: |
   PFC-Function.md answers: WHAT can PFC do? (24 functions, static listing)
-  File này answers: HOW do functions COMBINE in different states? (dynamic configurations)
+  This file answers: HOW do functions COMBINE in different states? (dynamic configurations)
   Complement, not replacement. Different questions → different files.
   Source: Distilled from Drill-Reward-Feeling-Main.md v1.2 §3.18 (R2), §5b (R11-R12),
     §3.16 (R15), §3.17 (R16).
 position: |
-  PFC/ folder — ngang hàng với PFC-Function, PFC-Hardware, PFC-Development, PFC-Hold-Dimensions.
-  Reading order: SAU PFC-Function.md (cần biết 24 functions) + PFC-Hardware.md (cần biết hardware).
+  PFC/ folder — peer-level with PFC-Function, PFC-Hardware, PFC-Development, PFC-Hold-Dimensions.
+  Reading order: AFTER PFC-Function.md (need to know 24 functions) + PFC-Hardware.md
+    (need to know hardware).
 dependencies:
-  - PFC-Function.md v1.1 — 24 functions, 5 categories, PFC offline cases
-  - PFC-Hardware.md v1.0 — COMT, DRD4, NE α2/α1, PFC-Quality
+  - PFC-Function.md v1.2 — 24 functions, 5 categories, PFC offline cases
+  - PFC-Hardware.md v1.1 — COMT, DRD4, NE α2/α1, PFC-Quality
   - Neural-Architecture.md §2 — 6 PFC sub-regions physical map
   - Drive.md v1.1 §2 — 6 PFC participation modes
   - Cortisol-Baseline.md v2.0 — cortisol triggers config ④
@@ -38,36 +39,36 @@ drill_source: |
     §5b (R11+R12) — PFC Control Spectrum, 2 taxonomy orthogonal
     §3.16 (R15) — System Reconsolidation
     §3.17 (R16) — Strategy A→B Transition
-language: Tiếng Việt primary + English technical terms
+language: English primary + technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # PFC Configuration — Dynamic Function Configurations
 
-> **PFC-Function.md: 24 functions PFC CÓ THỂ làm (static).**
-> **File này: CÁCH 24 functions KẾT HỢP khác nhau trong các trạng thái khác nhau (dynamic).**
+> **PFC-Function.md: 24 functions PFC CAN do (static).**
+> **This file: HOW 24 functions COMBINE differently in different states (dynamic).**
 >
-> PFC không phải switch ON/OFF đơn giản.
-> PFC = hệ phức tạp với 6 CONFIGURATION MODES —
-> mỗi mode cho phép/tắt/biến dạng CÁC HÀM KHÁC NHAU.
+> PFC is not a simple ON/OFF switch.
+> PFC = a complex system with 6 CONFIGURATION MODES —
+> each mode enables/disables/distorts DIFFERENT FUNCTIONS.
 >
-> Cùng 1 PFC, cùng 1 hardware, cùng 24 functions:
+> Same 1 PFC, same 1 hardware, same 24 functions:
 >   Flow (config ②): task-serving ON, self-monitoring OFF — effortless.
 >   Threat (config ④): ALL PFC functions OFF — subcortical takeover.
 >   Dissociation (config ⑤): 4 functions WEAPONIZED — emotional numbness.
 >   Psychedelic (config ⑥): nearly ALL OFF, ⑭ Modify ENHANCED — structural change.
 >
 > Configuration ≠ Participation (Drive.md §2). Orthogonal but constrained.
-> "PFC bận CỠ NÀO" (participation) ≠ "PFC wired THẾ NÀO" (configuration).
+> "HOW MUCH PFC is engaged" (participation) ≠ "HOW PFC is wired" (configuration).
 >
-> File này: HOW combines. PFC-Function.md: WHAT. Neural-Architecture.md §2: WHERE.
+> This file: HOW combines. PFC-Function.md: WHAT. Neural-Architecture.md §2: WHERE.
 
 ---
 
-## Mục lục
+## TABLE OF CONTENTS
 
 - §0 — Position + Scope
-- §1 — Tại Sao Không Chỉ ON/OFF
+- §1 — Why Not Just ON/OFF
 - §2 — 6 Configuration Modes
 - §3 — PFC Control Spectrum
 - §4 — 24 Functions × 6 Sub-Regions Mapping
@@ -83,67 +84,67 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §0 — Position + Scope
 
 ```
-⭐ FILE NÀY TRẢ LỜI CÂU HỎI KHÁC:
+⭐ THIS FILE ANSWERS A DIFFERENT QUESTION:
 
   PFC-Function.md — WHAT (24 functions, individual listing):
-    "PFC có thể observe, hold, process, orchestrate, strategic."
-    = Danh sách TĨNH — functions tồn tại BẤT KỂ brain state nào.
+    "PFC can observe, hold, process, orchestrate, strategic."
+    = STATIC list — functions exist REGARDLESS of brain state.
 
   PFC-Configuration.md — HOW COMBINE (6 modes, dynamic):
-    "Trong flow, functions nào ACTIVE? Trong threat, functions nào MẤT?"
-    = Danh sách ĐỘNG — configuration thay đổi THEO brain state.
+    "In flow, which functions are ACTIVE? In threat, which are LOST?"
+    = DYNAMIC list — configuration changes WITH brain state.
 
   PFC-Hardware.md — WHY DIFFERENT (COMT, DRD4, NE):
-    "Tại sao 2 người cùng config mà output khác nhau?"
-    = Hardware parameters ảnh hưởng CHẤT LƯỢNG per-function.
+    "Why do 2 people with the same config produce different output?"
+    = Hardware parameters affect QUALITY per-function.
 
   Neural-Architecture.md §2 — WHERE (6 sub-regions physical):
-    "dlPFC ở đâu? vmPFC kết nối gì?"
-    = Bản đồ VẬT LÝ — anatomy.
+    "Where is dlPFC? What does vmPFC connect to?"
+    = PHYSICAL MAP — anatomy.
 
 
-  TẠI SAO TẠO FILE MỚI (không nhồi vào PFC-Function):
+  WHY CREATE A NEW FILE (not stuffed into PFC-Function):
   ┌──────────────────────────────────────────────────────────┐
   │ PFC-Function.md = 446L, compact, well-structured.        │
   │ 6 modes + survival matrix + control spectrum = ~800L+.   │
-  │ Nhồi vào → 446L → ~1,200L+ → vỡ focus.                 │
+  │ Adding it in → 446L → ~1,200L+ → breaks focus.          │
   │                                                           │
-  │ Tầng abstraction KHÁC:                                    │
-  │   PFC-Function = "xe có thể rẽ, phanh, tăng tốc"        │
-  │   PFC-Configuration = "xe ở chế độ sport, eco, offroad"  │
-  │   → Mỗi chế độ cho phép/hạn chế CÁC KHẢ NĂNG khác nhau │
+  │ DIFFERENT abstraction level:                              │
+  │   PFC-Function = "a car can turn, brake, accelerate"     │
+  │   PFC-Configuration = "a car in sport, eco, offroad mode"│
+  │   → Each mode allows/restricts DIFFERENT capabilities    │
   └──────────────────────────────────────────────────────────┘
 
   Source: Drill-Reward-Feeling-Main.md v1.2 §3.18 (R2), §5b (R11-R12),
-          §3.16 (R15), §3.17 (R16). DISTILLED, không copy.
+          §3.16 (R15), §3.17 (R16). DISTILLED, not copied.
 ```
 
 ---
 
-## §1 — Tại Sao Không Chỉ ON/OFF
+## §1 — Why Not Just ON/OFF
 
 ```
-⭐ PFC-FUNCTION §7 HIỆN CHỈ CÓ "OFFLINE CASES":
+⭐ PFC-FUNCTION §7 CURRENTLY ONLY HAS "OFFLINE CASES":
 
-  PFC-Function.md §7 liệt kê 4 trường hợp PFC offline:
-    Say rượu → GABA suppress → PFC mất
-    Ngủ sâu → NREM → PFC tắt
+  PFC-Function.md §7 lists 4 PFC offline cases:
+    Alcohol intoxication → GABA suppression → PFC lost
+    Deep sleep → NREM → PFC off
     NE α1 flood → circuit breaker → PFC disconnect
     Cortisol extreme → PFC dendrite damage
 
-  = 1 MODE duy nhất: ON vs OFF.
-  = "Xe hoặc chạy hoặc tắt máy."
+  = ONLY 1 MODE: ON vs OFF.
+  = "The car either runs or stalls."
 
 
-  THỰC TẾ: 6 CONFIGURATIONS KHÁC NHAU:
+  REALITY: 6 DIFFERENT CONFIGURATIONS:
 
-  PFC không chỉ ON/OFF. Có ít nhất 6 distinct configurations,
-  mỗi configuration cho phép/tắt/biến dạng FUNCTIONS KHÁC NHAU.
+  PFC is not just ON/OFF. There are at least 6 distinct configurations,
+  each allowing/disabling/distorting DIFFERENT FUNCTIONS.
 
   ┌────────────────────────────────────────────────────────────┐
-  │ Config ④ = PFC-Function §7 hiện tại ("offline cases")      │
+  │ Config ④ = PFC-Function §7 current ("offline cases")       │
   │                                                             │
-  │ NHƯNG CÒN 5 CONFIGS KHÁC:                                  │
+  │ BUT THERE ARE 5 MORE CONFIGS:                               │
   │                                                             │
   │ ① Normal: ALL 24 functions available — baseline.            │
   │ ② Reallocation: task-ON, self-OFF — flow.                   │
@@ -151,24 +152,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ ⑤ Hyperactivated: 4 functions WEAPONIZED — dissociation.    │
   │ ⑥ Disintegrated: nearly all OFF, ⑭ ENHANCED — psychedelic. │
   │                                                             │
-  │ → Config ④ ≠ "PFC hỏng." Config ④ = 1/6 functional modes.  │
-  │ → Config ⑤ ≠ "PFC mạnh." Config ⑤ = pathological overuse.  │
-  │ → Config ⑥ ≠ "PFC random." Config ⑥ = unique access ⑭.     │
+  │ → Config ④ ≠ "PFC broken." Config ④ = 1/6 functional modes.│
+  │ → Config ⑤ ≠ "PFC strong." Config ⑤ = pathological overuse.│
+  │ → Config ⑥ ≠ "PFC random." Config ⑥ = unique access ⑭.    │
   └────────────────────────────────────────────────────────────┘
 
 
   🟡 EVOLUTIONARY LOGIC:
 
-  Mỗi configuration = DESIGN FEATURE, không phải lỗi:
-    ① Normal: mọi function sẵn sàng → xử lý linh hoạt
-    ② Reallocation: tập trung → deep performance
-    ③ Reconfigured: trạng thái meditation/hypnosis → learning mode
-    ④ Disconnected: PFC chậm (~200ms+) → subcortical nhanh (~12ms) → survival
-    ⑤ Hyperactivated: khi escape impossible → disconnect pain → survive
+  Each configuration = DESIGN FEATURE, not a bug:
+    ① Normal: all functions ready → flexible processing
+    ② Reallocation: focused → deep performance
+    ③ Reconfigured: meditation/hypnosis state → learning mode
+    ④ Disconnected: PFC slow (~200ms+) → subcortical fast (~12ms) → survival
+    ⑤ Hyperactivated: when escape impossible → disconnect pain → survive
     ⑥ Disintegrated: structural change possible → reconsolidation window
 
-  → Config ④ = §7 PFC-Function.md hiện tại (offline cases).
-  → Chi tiết 5 configs còn lại: §2 bên dưới.
+  → Config ④ = §7 PFC-Function.md current (offline cases).
+  → Details for the other 5 configs: §2 below.
   → Source: Drill §5b + §3.18
 ```
 
@@ -179,19 +180,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐ 6 PFC CONFIGURATION MODES — qualitative states:
 
-  Configuration = "PFC wired THẾ NÀO?" (qualitative)
-  ≠ Participation = "PFC bận CỠ NÀO?" (quantitative, Drive.md §2)
-  2 taxonomies ORTHOGONAL — chi tiết: §6.
+  Configuration = "HOW is PFC wired?" (qualitative)
+  ≠ Participation = "HOW MUCH is PFC engaged?" (quantitative, Drive.md §2)
+  2 taxonomies ORTHOGONAL — detail: §6.
 
 
   ═══════════════════════════════════════════════════
   CONFIG ① — NORMAL (baseline)
   ═══════════════════════════════════════════════════
 
-  Tất cả 24 functions AVAILABLE, moderate intensity.
-  PFC coordinate bình thường — observe, hold, process, orchestrate, strategic.
+  All 24 functions AVAILABLE, moderate intensity.
+  PFC coordinates normally — observe, hold, process, orchestrate, strategic.
 
-  Đặc điểm:
+  Characteristics:
     → dlPFC: full access (15/24 functions available)
     → ACC: conflict monitoring active
     → vmPFC: emotional bridge working
@@ -199,12 +200,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Self-monitoring: ON
     → Task-processing: ON
 
-  Khi nào: ~60-70% thời gian thức, safe context, không threat/flow/trauma.
-  (⚠️ % = calibration anchor, không đo lường chính xác)
-  = "Default operating system." Mọi function ĐỀU sẵn sàng nhưng
-    KHÔNG ĐỀU tối ưu (jack of all trades).
+  When: ~60-70% of waking time, safe context, no threat/flow/trauma.
+  (⚠️ % = calibration anchor, not a precise measurement)
+  = "Default operating system." All functions AVAILABLE but NONE at peak
+    optimization (jack of all trades).
 
-  Drive participation: có thể kết hợp với Drive-PFC-Absent through Override (Drive.md §2).
+  Drive participation: can combine with Drive-PFC-Absent through Override (Drive.md §2).
 
 
   ═══════════════════════════════════════════════════
@@ -213,27 +214,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟢 dlPFC SPLIT: task-serving ON, self-monitoring OFF.
 
-  Đặc điểm:
+  Characteristics:
     → dlPFC task functions: ✅ active (⑤ Hold, ⑥ Quick Search, ⑨ Linking)
-    → dlPFC self-monitoring: ❌ off (④ Meta-cognition, ⑰ Self-Pattern-Modeling suppressed)
+    → dlPFC self-monitoring: ❌ off (④ Meta-cognition, ⑰ Self-Pattern-Modeling
+        suppressed)
     → ACC: minimal — conflict monitoring reduced (everything smooth)
-    → Result: PFC bandwidth REALLOCATED 100% vào task
+    → Result: PFC bandwidth REALLOCATED 100% to task
     → Self-reference SILENT → "time flies", no self-consciousness
 
   🟢 Limb & Braun 2008:
-    → fMRI nhạc sĩ jazz improvising:
+    → fMRI jazz musicians improvising:
     → dlPFC deactivation = PARTIAL, not uniform
     → Task-serving active, self-monitoring inactive
     → = SELECTIVE within single sub-region
 
   Framework interpretation:
-    → Flow = PFC reallocation, KHÔNG phải PFC offline
+    → Flow = PFC reallocation, NOT PFC offline
     → Csikszentmihalyi "loss of self-consciousness" = self-monitoring OFF
     → "Effortless" feeling = ACC quiet (no conflict detected)
     → "Time flies" = temporal monitoring OFF (mPFC self-reference off)
 
-  Khi nào: flow state — expertise + challenge + no interruption.
-  Chi tiết flow prerequisites: Drill §6.1
+  When: flow state — expertise + challenge + no interruption.
+  Detail flow prerequisites: Drill §6.1
   Drive participation: typically Drive-PFC-Resolve — scan → match → act.
   🟢 Csikszentmihalyi 1990, Limb & Braun 2008, Dietrich 2004
 
@@ -244,7 +246,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟡 dlPFC reduced, DMN altered, suggestion-guided processing.
 
-  Đặc điểm:
+  Characteristics:
     → dlPFC: reduced — less executive control
     → mPFC/DMN: ALTERED (not default, not suppressed — reconfigured)
     → Suggestion/intention: guides which functions active
@@ -261,7 +263,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → 🟢 Raz et al. 2005: Stroop interference eliminated under hypnosis
     → = ACC not flagging conflicting signals
 
-  Khi nào: deliberate practice, trained states, guided contexts.
+  When: deliberate practice, trained states, guided contexts.
   Drive participation: typically Drive-PFC-Resolve/Strategic in training context.
   🟢 Lutz et al. 2008 (meditation neuroscience), Raz et al. 2005 (hypnosis)
   🟡 Meditation as "reconfigured" (not just "reduced") = framework
@@ -272,25 +274,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ═══════════════════════════════════════════════════
 
   🟢 PFC OFFLINE — ALL functions lost. Subcortical takeover.
-  = PFC-Function.md §7 hiện tại ("PFC Offline Cases").
+  = PFC-Function.md §7 current ("PFC Offline Cases").
 
-  Đặc điểm:
+  Characteristics:
     → ALL PFC sub-regions: disconnected (NE α1 floods)
     → Amygdala: DOMINANT (threat processing)
     → Basal ganglia: compiled responses READY
-    → = TOÀN BỘ 24 functions MẤT
+    → = ALL 24 functions LOST
 
   Mechanism (PFC-Hardware.md §6):
     → Threat detected → amygdala → LC → NE flood
-    → NE cao → α1 receptors kích hoạt → PFC networks disconnect
+    → High NE → α1 receptors activate → PFC networks disconnect
     → Subcortical faster (~12ms amygdala vs ~200ms+ PFC)
-    → = Design feature: survival KHÔNG CẦN deliberation
+    → = Design feature: survival does NOT need deliberation
 
-  Recovery: seconds sau khi threat qua (NE drops → PFC reconnects).
-  ≠ Damage (cortisol mãn tính = damage THẬT).
-  = Strategy A defense — "fight/flight" pathway. Chi tiết: §7.
+  Recovery: seconds after threat passes (NE drops → PFC reconnects).
+  ≠ Damage (chronic cortisol = REAL damage).
+  = Strategy A defense — "fight/flight" pathway. Detail: §7.
 
-  Khi nào: acute threat (real or perceived).
+  When: acute threat (real or perceived).
   Drive participation: Drive-PFC-Absent — PFC absent BECAUSE disconnected.
   🟢 Arnsten 2009, LeDoux 1996, Mobbs et al. 2007
 
@@ -300,36 +302,36 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ═══════════════════════════════════════════════════
 
   🟢 PFC HYPERACTIVATED — 4 functions WEAPONIZED.
-  NGƯỢC config ④: PFC OVERACTIVE, not offline.
+  OPPOSITE of config ④: PFC OVERACTIVE, not offline.
 
-  Đặc điểm:
-    → vlPFC: ⑱ Inhibit = ⭐MAXIMUM → suppress amygdala → emotional NUMBNESS
+  Characteristics:
+    → vlPFC: ⑱ Inhibit = ⭐MAXIMUM → suppresses amygdala → emotional NUMBNESS
     → mPFC: ④ Meta-cognition = ⚠️EXCESSIVE → "watching self from outside"
       = depersonalization (🟢 Sierra & Berrios 1998)
     → dlPFC: ⑧ Active Lock = ⚠️CHRONIC → hypervigilance (cannot release)
-    → vlPFC+dlPFC: ⑲ Override = ⚠️CHRONIC → "going through motions"
+    → vlPFC+dlPFC: ⑲ Override = ⚠️CHRONIC → "going through the motions"
 
   4 functions designed for SHORT-TERM use → CHRONIC = damage:
-    → ⑱ Inhibit: bình thường = "đừng nói vậy" (seconds)
-      Weaponized = emotional numbness MÃN TÍNH (months-years)
-    → ④ Meta-cognition: bình thường = "tôi đang nghĩ gì?" (useful)
-      Weaponized = "tôi xem tôi sống" → depersonalization
-    → ⑧ Active Lock: bình thường = Zeigarnik unfinished task (hours)
+    → ⑱ Inhibit: normal = "don't say that" (seconds)
+      Weaponized = emotional numbness CHRONIC (months-years)
+    → ④ Meta-cognition: normal = "what am I thinking?" (useful)
+      Weaponized = "watching myself live" → depersonalization
+    → ⑧ Active Lock: normal = Zeigarnik unfinished task (hours)
       Weaponized = hypervigilance 24/7
-    → ⑲ Override: bình thường = "chịu đói vì deadline" (temporary)
-      Weaponized = "sống mà không cảm" (chronic)
+    → ⑲ Override: normal = "enduring hunger for a deadline" (temporary)
+      Weaponized = "living without feeling" (chronic)
 
   Config ⑤ = Drive-PFC-Override AUTOMATIC + CHRONIC:
-    → Drive-PFC-Override bình thường: deliberate, temporary, costly but purposeful
-    → Config ⑤: body tự kích hoạt, chronic, cost CỰC CAO
-    → = Strategy B defense — "freeze/dissociate" pathway. Chi tiết: §7.
+    → Drive-PFC-Override normally: deliberate, temporary, costly but purposeful
+    → Config ⑤: body self-activates, chronic, EXTREMELY HIGH cost
+    → = Strategy B defense — "freeze/dissociate" pathway. Detail: §7.
 
   🟢 Lanius et al. 2010: dissociative PTSD subtype:
     → PFC hyperactive, amygdala suppressed
     → MORE COMMON in early childhood trauma
     → = Strategy A failed (inescapable) → Strategy B compiled as DEFAULT
 
-  Khi nào: inescapable threat, caregiver trauma, chronic unsafe context.
+  When: inescapable threat, caregiver trauma, chronic unsafe context.
   Drive participation: Drive-PFC-Override — stuck in override.
   🟢 Lanius 2010, Sierra & Berrios 1998
   🟡 "4 functions weaponized" taxonomy = framework
@@ -341,7 +343,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟢 DMN DISINTEGRATED. Hierarchy flat. ⑭ Modify Chunks ENHANCED.
 
-  Đặc điểm:
+  Characteristics:
     → DMN: DISINTEGRATED (not suppressed — collapsed)
       🟢 Carhart-Harris et al. 2012, Tagliazucchi et al. 2016
     → Top-down priors: RELAXED
@@ -350,28 +352,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → EXCEPT ⑭ Modify Existing Chunks: ⭐ENHANCED
 
   ⑭ ENHANCED = reconsolidation window:
-    → Bình thường: recall chunk → labile → modify → re-compile (per-chunk)
+    → Normal: recall chunk → labile → modify → re-compile (per-chunk)
     → Config ⑥: MANY chunks simultaneously labile → TOPOLOGY modifiable
     → = Not just modify 1 chunk — modify RELATIONSHIP STRUCTURE between chunks
-    → = System reconsolidation (chi tiết: §8)
+    → = System reconsolidation (detail: §8)
 
-  Khác meditation (config ③):
+  Differs from meditation (config ③):
     → Meditation: DMN SUPPRESSED → intact but quiet → peaceful
     → Psychedelic: DMN DISINTEGRATED → collapsed → ego dissolution
     → = Suppress vs disintegrate = qualitatively different
 
-  Khi nào: psychedelic session, deep meditation states (rare), near-death.
+  When: psychedelic session, deep meditation states (rare), near-death.
   Drive participation: N/A — modes break down (no coherent participation).
   🟢 Griffiths et al. 2006, Carhart-Harris 2012, 2019
   🟡 Config ⑥ as distinct mode (not just "intense config ③") = framework
 
 
   ═══════════════════════════════════════════════════
-  TÓM TẮT 6 MODES:
+  6 MODES SUMMARY:
   ═══════════════════════════════════════════════════
 
   ┌────────┬──────────────────┬────────────────────┬──────────────────────┐
-  │ Config │ Tên              │ PFC State          │ Key Feature          │
+  │ Config │ Name             │ PFC State          │ Key Feature          │
   ├────────┼──────────────────┼────────────────────┼──────────────────────┤
   │ ①      │ Normal           │ All available      │ Baseline operation   │
   │ ②      │ Reallocation     │ Task ON, self OFF  │ Flow, deep perform.  │
@@ -393,26 +395,27 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Flashback/hyperarousal = Config ④ (PFC offline, amygdala dominant)
     → Dissociative episodes = Config ⑤ (PFC hyperactive → numbness)
     → Patient OSCILLATES between 2 configs ← body-feedback drives switch:
-      Cue → amygdala fire → ④ (flooding) → overwhelm → body switch → ⑤ (numbing)
+      Cue → amygdala fires → ④ (flooding) → overwhelm → body switches → ⑤ (numbing)
     → Dissociative subtype (🟢 Lanius 2010): Config ⑤ compiled as DEFAULT
-      = Strategy B compiled vì Strategy A INESCAPABLE (caregiver trauma)
+      = Strategy B compiled because Strategy A INESCAPABLE (caregiver trauma)
     → = ④↔⑤ oscillation = clinical VALIDATION of 2 distinct defense modes
     → Cross-ref: §7 Strategy A→B Transition
 
   ADHD: DMN INTERFERENCE → Config ① UNSTABLE (ADHD-Observation.md §8):
     → Normal: Config ① = DMN suppressed, TPN active (clean switch)
-    → ADHD: DMN-TPN anticorrelation GIẢM (🟢 Sonuga-Barke & Castellanos 2007)
-    → = Config ① KHÔNG ỔN ĐỊNH → micro-lapses toward DMN
-    → PFC dopamine quá ngắn (DAT fast clear) → cannot MAINTAIN suppression
-    → = PFC naturally DRIFT khi hết fuel (NOT "lazy" — hardware fuel issue)
-    → Methylphenidate: block DAT → dopamine sustain → Mode ① stable
+    → ADHD: DMN-TPN anticorrelation REDUCED (🟢 Sonuga-Barke & Castellanos 2007)
+    → = Config ① UNSTABLE → micro-lapses toward DMN
+    → PFC dopamine too short (DAT fast clear) → cannot MAINTAIN suppression
+    → = PFC naturally DRIFTS when out of fuel (NOT "lazy" — hardware fuel issue)
+    → Methylphenidate: blocks DAT → dopamine sustained → Mode ① stable
     → 🟢 Liddle 2011: methylphenidate modulates DMN anticorrelation in ADHD
 
   PARKINSON: MASKED FACE = Config ① with execution BLOCKED (Parkinson-Analysis §5.4):
     → PFC = Config ① (all functions AVAILABLE, emotions FELT)
     → Basal ganglia gate LOCKED → facial/vocal expression BLOCKED
     → = Configuration INTACT but body-output GATE problem
-    → Others Self-Pattern-Modeling patient → "sao mặt lạnh?" → MISATTRIBUTE
+    → Others apply Self-Pattern-Modeling to patient → "why such a cold face?"
+        → MISATTRIBUTE
     → = Config vs Execution distinction: PFC state ≠ body-output
     → Framework: Config ④ = PFC offline. Parkinson ≠ Config ④ (PFC online!)
 
@@ -425,10 +428,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §3 — PFC Control Spectrum
 
 ```
-⭐⭐ 3 VÙNG TRÊN PFC CONTROL SPECTRUM:
+⭐⭐ 3 ZONES ON THE PFC CONTROL SPECTRUM:
 
-  Config ④⑤⑥ = 3 trạng thái BẤT THƯỜNG.
-  Sắp xếp trên 1 SPECTRUM CONTROL:
+  Config ④⑤⑥ = 3 ABNORMAL states.
+  Arranged on 1 CONTROL SPECTRUM:
 
 
   OVERCONTROL ←←←←←←←←← BALANCED →→→→→→→→→ UNDERCONTROL
@@ -454,25 +457,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Therapeutic:       │                  │ Therapeutic:       │
   │  re-connect body   │                  │  schema destabil.  │
   │  (somatic therapy) │                  │  + guided recomp.  │
-  │  Direct-State "backdoor" │                  │  set & setting     │
-  │  = body-level      │                  │  = compile direct. │
+  │  Direct-State      │                  │  set & setting     │
+  │  "backdoor" =      │                  │  = compile direct. │
+  │  body-level        │                  │                    │
   └────────────────────┴──────────────────┴────────────────────┘
 
 
   ⭐ 3 KEY INSIGHTS:
 
-  ① Dissociation (⑤) và Psychedelic (⑥) = 2 CỰC ĐỐI DIỆN:
-    → Dissociation: QUÁ NHIỀU PFC control → emotional emptiness
-    → Psychedelic: QUÁ ÍT PFC control → emotional flood
-    → KHÔNG phải 2 bệnh → 2 CỰC TRÊN CÙNG SPECTRUM
-    → → Therapeutic implications NGƯỢC NHAU:
-      Overcontrol → cần GIẢM control (somatic therapy, body reconnect)
-      Undercontrol → cần GUIDED control (therapist, integration)
+  ① Dissociation (⑤) and Psychedelic (⑥) = 2 OPPOSITE EXTREMES:
+    → Dissociation: TOO MUCH PFC control → emotional emptiness
+    → Psychedelic: TOO LITTLE PFC control → emotional flood
+    → NOT 2 different diseases → 2 EXTREMES ON THE SAME SPECTRUM
+    → Therapeutic implications are OPPOSITE:
+      Overcontrol → need to REDUCE control (somatic therapy, body reconnect)
+      Undercontrol → need GUIDED control (therapist, integration)
 
-  ② Config ④ (Disconnected) ĐỨNG NGOÀI spectrum này:
-    → ④ = PFC KHÔNG CÒN (offline hoàn toàn, NE α1)
-    → ⑤ = PFC QUÁ NHIỀU (hyperactivated)
-    → ⑥ = PFC TAN RÃ (disintegrated)
+  ② Config ④ (Disconnected) STANDS OUTSIDE this spectrum:
+    → ④ = PFC GONE (completely offline, NE α1)
+    → ⑤ = PFC EXCESSIVE (hyperactivated)
+    → ⑥ = PFC DISINTEGRATED
     → ④ = another dimension entirely (present/absent), not a degree of control
 
   ③ NOT linear scale — qualitatively different states:
@@ -485,12 +489,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   EVALUATIVE/DIRECT-STATE REWARD × CONTROL SPECTRUM:
 
-  Overcontrol (⑤): Evaluative SUPPRESSED (evaluation numb), Direct-State PARTIALLY intact
+  Overcontrol (⑤): Evaluative SUPPRESSED (evaluation numb),
+    Direct-State PARTIALLY intact
     → Touch, exercise = may penetrate numbness (CT afferents below PFC level)
-    → = "Backdoor" cho therapy (body-level, bypasses PFC overcontrol)
+    → = "Backdoor" for therapy (body-level, bypasses PFC overcontrol)
     → Source: Reward-Signal-Architecture.md §1
 
-  Balanced (①②③): Both Evaluative and Direct-State operational, Evaluative/Direct-State ratio varies.
+  Balanced (①②③): Both Evaluative and Direct-State operational;
+    Evaluative/Direct-State ratio varies.
 
   Undercontrol (⑥): Evaluative DISRUPTED (evaluation circuits disintegrated),
     Direct-State LESS AFFECTED (hardware-level, below disruption)
@@ -520,7 +526,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Each function = PRIMARY sub-region + SECONDARY support.
   Each sub-region serves MULTIPLE functions.
-  KHÔNG phải 1:1 — 1 sub-region có thể serve 15 functions.
+  NOT 1:1 — 1 sub-region can serve 15 functions.
 
 
   OBSERVE (4):
@@ -552,14 +558,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   └────────────────────────┴────────────┴──────────────┴───────────────────┘
 
   ORCHESTRATE (6):
-  ┌────────────────────────┬────────────┬──────────────┬───────────────────┐
-  │ ⑮ Gate Attention TRN   │ dlPFC→TRN  │ —            │ 🟢 McAlonan 2008  │
-  │ ⑯ Bias Spread. Activ.  │ dlPFC      │ cortical     │ 🟡                │
-  │ ⑰ Invoke Self-Pattern-Modeling           │ mPFC+vmPFC │ TPJ          │ 🟢 Saxe 2006      │
-  │ ⑱ Inhibit Compiled     │ vlPFC      │ —            │ 🟢 Aron 2004      │
-  │ ⑲ Override Satisf.     │ vlPFC+dlPFC│ ACC          │ 🟡                │
-  │ ⑳ Change Environment   │ dlPFC      │ vmPFC+OFC    │ 🟡                │
-  └────────────────────────┴────────────┴──────────────┴───────────────────┘
+  ┌────────────────────────────┬────────────┬──────────────┬───────────────────┐
+  │ ⑮ Gate Attention TRN       │ dlPFC→TRN  │ —            │ 🟢 McAlonan 2008  │
+  │ ⑯ Bias Spread. Activ.      │ dlPFC      │ cortical     │ 🟡                │
+  │ ⑰ Invoke Self-Pattern-Model│ mPFC+vmPFC │ TPJ          │ 🟢 Saxe 2006      │
+  │ ⑱ Inhibit Compiled         │ vlPFC      │ —            │ 🟢 Aron 2004      │
+  │ ⑲ Override Satiation       │ vlPFC+dlPFC│ ACC          │ 🟡                │
+  │ ⑳ Change Environment       │ dlPFC      │ vmPFC+OFC    │ 🟡                │
+  └────────────────────────────┴────────────┴──────────────┴───────────────────┘
 
   STRATEGIC (4):
   ┌──────────────────────────────┬────────────┬──────────────┬───────────────────┐
@@ -603,7 +609,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ① dlPFC 15/24 = WM ~4±1 EXPLAINED:
     → dlPFC = shared resource across TOO MANY functions
     → 15 functions competing for SAME workspace → capacity limit
-    → = PFC-Hold-Dimensions.md: tại sao ~4±1 (physics constraint)
+    → = PFC-Hold-Dimensions.md: why ~4±1 (physics constraint)
 
   ② Flow requires dlPFC REALLOCATION:
     → 15 competing functions → config ②: task-serving ONLY
@@ -671,9 +677,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌──────────────────┬────────┬────────┬────────┬────────┬────────┬────────┐
   │ ⑮ Gate Attention │ ✅     │ ✅task │ ⚠️redir│ ❌     │ ⚠️narr │ ❌     │
   │ ⑯ Bias Activ.    │ ✅     │ ✅strg │ ⚠️redir│ ❌     │ ⚠️rig  │ ❌     │
-  │ ⑰ Invoke Self-Pattern-Modeling     │ ✅     │ ❌     │ ❌     │ ❌     │ ❌     │ ❌     │
+  │ ⑰ Self-P-Model   │ ✅     │ ❌     │ ❌     │ ❌     │ ❌     │ ❌     │
   │ ⑱ Inhibit        │ ✅     │ ❌     │ ✅     │ ❌     │ ⭐MAX  │ ❌     │
-  │ ⑲ Override Satiation │ ✅     │ ❌     │ ❌     │ ❌     │ ⚠️chronic │ ❌     │
+  │ ⑲ Override Sat.  │ ✅     │ ❌     │ ❌     │ ❌     │ ⚠️chr  │ ❌     │
   │ ⑳ Change Environ │ ✅     │ ❌foc  │ ✅     │ ❌     │ ❌froz │ ❌     │
   └──────────────────┴────────┴────────┴────────┴────────┴────────┴────────┘
 
@@ -681,8 +687,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌────────────────────┬────────┬────────┬────────┬────────┬────────┬────────┐
   │ ㉑ Smooth Melody    │ ✅     │ ✅task │ ⚠️     │ ❌     │ ❌rig  │ ❌     │
   │ ㉒ Choose Goals     │ ✅     │ ❌one  │ ❌     │ ❌     │ ❌stck │ ❌     │
-  │ ㉓ Accept Dissonance│ ✅     │ ❌     │ ❌     │ ❌     │ ❌     │ ❌     │
-  │ ㉔ Hijack Body-Input│ ✅     │ ✅task │ ❌     │ ❌     │ ❌     │ ❌     │
+  │ ㉓ Accept Dissonanc│ ✅     │ ❌     │ ❌     │ ❌     │ ❌     │ ❌     │
+  │ ㉔ Hijack Body-Inp  │ ✅     │ ✅task │ ❌     │ ❌     │ ❌     │ ❌     │
   └────────────────────┴────────┴────────┴────────┴────────┴────────┴────────┘
 
 
@@ -744,15 +750,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ 2 TAXONOMIES — ORTHOGONAL BUT CONSTRAINED:
 
   Drive.md §2 — PFC PARTICIPATION (quantitative):
-    "PFC bận CỠ NÀO?" → 6 Drive-PFC modes: Absent → Monitor → Spinning →
-    Resolve → Strategic → Override. = HOW MUCH PFC engages.
+    "HOW MUCH is PFC engaged?" → 6 Drive-PFC modes: Absent → Monitor →
+    Spinning → Resolve → Strategic → Override. = HOW MUCH PFC engages.
 
   PFC-Configuration.md §2 — PFC CONFIGURATION (qualitative):
-    "PFC wired THẾ NÀO?" → Config ①-⑥: Normal → Reallocation →
+    "HOW is PFC wired?" → Config ①-⑥: Normal → Reallocation →
     Reconfigured → Disconnected → Hyperactivated → Disintegrated.
     = WHAT KIND of PFC state.
 
-  → 2 TRỤC KHÁC NHAU, BỔ SUNG:
+  → 2 DIFFERENT, COMPLEMENTARY AXES:
     Participation = activation level (0-95%)
     Configuration = wiring pattern (which functions on/off/altered)
 
@@ -852,18 +858,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Strategy B — Passive (Freeze/Dissociate):
     → Config ⑤ (Hyperactivated): PFC hyperactive, amygdala suppressed
     → 4 functions weaponized (⑱⑧⑲④) → disconnect pain
-    → Khi A fails (inescapable). NEWER mechanism.
+    → When A fails (inescapable). NEWER mechanism.
     → Recovery: SLOW (months-years, if at all)
 
-  → A và B = DIFFERENT CONFIGURATIONS, not different intensities.
+  → A and B = DIFFERENT CONFIGURATIONS, not different intensities.
   → SAME neurochemical cocktail (high NE, high cortisol)
   → DIFFERENT PFC configuration selected by escape assessment.
 
 
   ⭐ A→B TRANSITION ≠ INTENSITY THRESHOLD:
 
-  ❌ Interpretation sai: "threat càng mạnh → A escalate → B"
-    → Nếu chỉ intensity: higher threat → A MORE intense
+  ❌ Wrong interpretation: "the stronger the threat → A escalates → B"
+    → If it were only intensity: higher threat → A MORE intense
     → → amygdala stronger → Strategy A ESCALATES, not switches
 
   ✅ Correct: A→B = ESCAPE POSSIBILITY ASSESSMENT
@@ -879,7 +885,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├─────────────────────────┼───────────────────────────────────────┤
   │ ① ESCAPE POSSIBILITY    │ CORE variable.                        │
   │   (body-level assess.)  │ CAN escape → A. CANNOT → B.          │
-  │                         │ NOT conscious PFC decision.            │
+  │                         │ NOT a conscious PFC decision.         │
   │                         │ Subcortical: ~100-500ms.              │
   ├─────────────────────────┼───────────────────────────────────────┤
   │ ② COMPILED A HISTORY    │ Past A success → A fires DEFAULT.     │
@@ -915,7 +921,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Body's "impossible solution":
     → Dissociate pain → maintain approaching → survive
-    → = "Ôm người đang gây đau mà không cảm nhận đau"
+    → = "Holding the person causing pain while feeling nothing"
     → = Functional but COSTLY: emotional processing SHUT DOWN
 
   What COMPILES:
@@ -953,12 +959,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   └─────────────────────────┴────────────────────────────────────────┘
 
   → "Weakness" = CALIBRATION for ancestors' environment.
-  → Mismatch when offspring environment actually safe → B fires unnecessarily.
+  → Mismatch when offspring environment is actually safe → B fires unnecessarily.
 
 
   ⭐ B→A REVERSION: POSSIBLE BUT NEVER COMPLETE:
 
-  3 pathways cho B→A expansion:
+  3 pathways for B→A expansion:
 
   ① Safe environment (months-years):
     → Body learns "A is possible" → competitive re-linking
@@ -1009,7 +1015,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ WHY "SYSTEM" ≠ "MANY INDIVIDUAL":
 
-  Phase transition, not just "nhiều cái cùng lúc":
+  Phase transition, not just "many at once":
     → Individual: modify 1 chunk → hierarchy pulls back → revert
     → System: hierarchy ITSELF flat → new configuration CAN STABILIZE
     → = Water → steam ≠ "many hot molecules"
@@ -1094,8 +1100,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │   (set & setting)    │ = APPROACH → positive │ tag → re-traumatize  │
   ├──────────────────────┼───────────────────────┼──────────────────────┤
   │ ③ Guided recompil.   │ Therapist provides    │ No guide: chaotic    │
-  │                      │ external quality control (replaces │ reorganization →     │
-  │                      │ ⑪ Domain-Check, off   │ unstable config      │
+  │                      │ external quality      │ reorganization →     │
+  │                      │ control (replaces ⑪   │ unstable config      │
+  │                      │ Domain-Check, offline │                      │
   │                      │ in config ⑥)          │                      │
   ├──────────────────────┼───────────────────────┼──────────────────────┤
   │ ④ Post-session       │ Sleep + integration   │ No integration:      │
@@ -1250,13 +1257,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 PFC FOLDER (companion files):
-  PFC-Function.md v1.1 — 24 functions (WHAT PFC does)
-    → File này EXTENDS với dynamic configurations
-  PFC-Hardware.md v1.0 — Hardware parameters (COMT, DRD4, NE)
+  PFC-Function.md v1.2 — 24 functions (WHAT PFC does)
+    → This file EXTENDS with dynamic configurations
+  PFC-Hardware.md v1.1 — Hardware parameters (COMT, DRD4, NE)
     → Hardware affects which configs accessible + quality per-config
   PFC-Development.md — Life stages, training
     → Development affects config repertoire
-  PFC-Hold-Dimensions.md — Tại sao ~4±1
+  PFC-Hold-Dimensions.md — Why ~4±1
     → dlPFC hub + 15/24 functions → capacity explained
 
 PHYSICAL MAP:
@@ -1298,7 +1305,7 @@ COMPILATION:
     → Reconsolidation = chunk modification (⑭) mechanism
 
 CORE:
-  Core-v7.8-Draft.md — PFC position in cycle architecture
+  Core-Software.md — PFC position in cycle architecture
     → 6 configs = PFC's dynamic range within cycle
 
 DRILL SOURCE:
@@ -1325,4 +1332,4 @@ HEALTH CONDITIONS DRILL (v1.1):
 > Strategy A→B: escape possibility (not intensity), caregiver triple impossibility.
 > System Reconsolidation: config ⑥ × function ⑭, mirror of trauma, 4 conditions.
 >
-> Phiên bản: v1.0, 2026-05-10.
+> Version: v1.1, 2026-05-10.

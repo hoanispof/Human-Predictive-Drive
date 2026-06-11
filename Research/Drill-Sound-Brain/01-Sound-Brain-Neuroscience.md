@@ -1,41 +1,41 @@
-﻿---
+---
 title: Sound × Brain — Neuroscience Evidence Base
 version: 1.1
 created: 2026-05-29
 updated: 2026-05-29 (v1.1 — §10.3 Selfhout citation fixed (J Adolescence, NOT JPSP). §7 Alzheimer mechanism nuanced (Jacobsen=anatomical sparing).)
 status: REFERENCE v1.1
 scope: |
-  EVIDENCE BASE cho Drill-Sound-Brain folder.
+  EVIDENCE BASE for the Drill-Sound-Brain folder.
   10 research axes, 120+ citations, key findings per axis.
-  File này KHÔNG chứa framework analysis — chỉ EVIDENCE organized.
+  This file contains NO framework analysis — EVIDENCE only, organized by axis.
   Framework mapping → files 02-05.
 purpose: |
-  Compile neuroscience evidence về music × brain thành 1 reference file.
-  Mỗi axis: key findings + researchers + confidence level.
-  Files 02-05 REFERENCE file này thay vì repeat citations.
+  Compile neuroscience evidence on music × brain into a single reference file.
+  Each axis: key findings + researchers + confidence level.
+  Files 02-05 REFERENCE this file instead of repeating citations.
 position: |
   Research/Drill-Sound-Brain/ — evidence base file.
-  Đọc file này TRƯỚC files 02-05.
-  00-Overview.md = reading guide (viết sau cùng).
-language: Tiếng Việt primary + English technical terms
+  Read this file BEFORE files 02-05.
+  00-Overview.md = reading guide (written after all others).
+language: English
 confidence: 🟢 Established research | 🟡 Moderate/emerging | 🔴 Debated/preliminary
 ---
 
 # Sound × Brain — Neuroscience Evidence Base
 
-> **Lĩnh vực music neuroscience = MATURE + ACTIVE.**
-> **Hàng nghìn studies, nhiều landmark papers, 4+ thập kỷ nghiên cứu.**
-> **Researchers hàng đầu: Zatorre (McGill), Koelsch (Bergen),**
+> **Music neuroscience = MATURE + ACTIVE field.**
+> **Thousands of studies, many landmark papers, 4+ decades of research.**
+> **Leading researchers: Zatorre (McGill), Koelsch (Bergen),**
 > **Peretz (Montréal), Levitin (McGill), Huron (Ohio State).**
 >
-> File này compile evidence QUAN TRỌNG NHẤT cho framework analysis.
-> KHÔNG phải comprehensive review — là CURATED selection cho mapping.
+> This file compiles the MOST IMPORTANT evidence for framework analysis.
+> NOT a comprehensive review — a CURATED selection for mapping.
 >
-> **Quy ước:** 🟢 Established | 🟡 Moderate | 🔴 Debated
+> **Convention:** 🟢 Established | 🟡 Moderate | 🔴 Debated
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §1 — Neural Pathways of Music Processing
 - §2 — Dopamine × Opioid: 2 Systems, 2 Phases
@@ -57,19 +57,19 @@ confidence: 🟢 Established research | 🟡 Moderate/emerging | 🔴 Debated/pr
 ```
 🟢 MUSIC PROCESSING = DISTRIBUTED BILATERAL NETWORK:
 
-  Không có "music center" — nhiều vùng não phối hợp:
+  No "music center" — multiple brain regions cooperate:
 
     AUDITORY CORTEX (superior temporal gyrus, Heschl's gyrus):
       → Primary analysis: pitch, timbre, rhythm
       → Auditory "what" (ventral) + "where" (dorsal) streams
 
     PREFRONTAL CORTEX:
-      → Working memory cho musical patterns
+      → Working memory for musical patterns
       → Expectation generation + violation detection
 
     MOTOR REGIONS (SMA, premotor, cerebellum, basal ganglia):
       → Rhythm processing + beat tracking
-      → ⭐ Active KỂ CẢ KHI NGHE THỤ ĐỘNG (Grahn & Brett 2007)
+      → ⭐ Active EVEN DURING PASSIVE LISTENING (Grahn & Brett 2007)
       → Basal ganglia: beat-based timing
       → Cerebellum: complex rhythmic patterns
 
@@ -91,7 +91,7 @@ confidence: 🟢 Established research | 🟡 Moderate/emerging | 🔴 Debated/pr
   CONTEXT-DEPENDENT HUB REORGANIZATION (2024):
     → Focused listening: amygdala + frontal orbital cortex = high centrality
     → Background listening: reward regions = high centrality
-    → = Network RECONFIGURE depending on listening mode
+    → = Network RECONFIGURES depending on listening mode
 
   🟢 Blood & Zatorre 2001 (PNAS): music chills → ventral striatum + midbrain +
      amygdala + OFC + vmPFC. Same regions as food/sex/drugs.
@@ -110,11 +110,11 @@ confidence: 🟢 Established research | 🟡 Moderate/emerging | 🔴 Debated/pr
   🟢 Salimpoor et al. 2011 (Nature Neuroscience 14:257-262):
     ★ LANDMARK PAPER (~1,600+ citations, Semantic Scholar 2026)
     Method: PET [11C]raclopride during music listening
-    Finding: Dopamine release ở 2 vùng KHÁC NHAU, 2 thời điểm KHÁC NHAU:
-      CAUDATE: active during ANTICIPATION of musical peak (chờ đỉnh nhạc)
-      NUCLEUS ACCUMBENS: active during EXPERIENCE of peak (trải nghiệm đỉnh)
+    Finding: Dopamine release in 2 DIFFERENT regions, at 2 DIFFERENT time points:
+      CAUDATE: active during ANTICIPATION of musical peak (awaiting the climax)
+      NUCLEUS ACCUMBENS: active during EXPERIENCE of peak (experiencing the climax)
     → = Temporal dissociation: prediction ≠ experience ≠ reward
-    → = DIRECT evidence cho multi-step process
+    → = DIRECT evidence for multi-step process
 
   🟢 Salimpoor et al. 2013 (Science 340:216-219):
     Finding: Amount willing to pay for novel music → predicts NAcc activation
@@ -141,7 +141,7 @@ confidence: 🟢 Established research | 🟡 Moderate/emerging | 🔴 Debated/pr
     Naltrexone (opioid antagonist), double-blind crossover
     Finding: Opioid blockade REDUCED reported pleasure + physiological markers
     (skin conductance, facial EMG)
-    → Strongest modern evidence cho opioid involvement
+    → Strongest modern evidence for opioid involvement
 
   ⚠️ Mas-Herrero et al. 2023 (Annals of NY Academy of Sciences):
     Opioid agonists/antagonists affected PHYSIOLOGICAL responses
@@ -153,7 +153,7 @@ confidence: 🟢 Established research | 🟡 Moderate/emerging | 🔴 Debated/pr
     → New evidence FOR opioid involvement, preprint
 
 
-  ⭐ TỔNG HỢP:
+  ⭐ SYNTHESIS:
     → Dopamine involvement: WELL-ESTABLISHED 🟢
     → Opioid involvement: LIKELY but DEBATED ⚠️
       Opioid = body-level hedonic response (physiology YES)
@@ -190,20 +190,20 @@ confidence: 🟢 Established research | 🟡 Moderate/emerging | 🔴 Debated/pr
       → Brain generates statistical models of musical structure
       → Computes precision-weighted prediction errors
       → ⭐ KEY: SAME rhythmic deviation → DIFFERENT prediction error
-        cho musician vs non-musician (precision weighting differs)
+        for musician vs non-musician (precision weighting differs)
       → = Compiled chunks CHANGE how PE is evaluated
 
   🟢 Cheung et al. 2019 (Current Biology 29:4084-4092):
     ★ Analyzed 80,000 chords from Billboard hits
     Finding: Musical pleasure = MAX when:
-      UNCERTAINTY CAO + OUTCOME POSITIVE (surprising but coherent)
+      UNCERTAINTY HIGH + OUTCOME POSITIVE (surprising but coherent)
     → Information-theoretic measure validates "sweet spot"
     → ⭐ = PE + coherence model DIRECTLY supported
 
   🟢 Gold et al. 2019 (PNAS 116:11894-11899):
     Music pleasure = interaction acoustic features (sensory) ×
     schematic expectations (cognitive). Neither alone sufficient.
-    → Sensory features: timber, loudness
+    → Sensory features: timbre, loudness
     → Schematic expectations: harmonic context, melodic contour
     → INTERACTION predicts pleasure, not either alone
 
@@ -237,7 +237,7 @@ confidence: 🟢 Established research | 🟡 Moderate/emerging | 🔴 Debated/pr
   🟡 2025 scoping review (Creativity Research Journal):
     DMN → role in music-related creativity and flow states
 
-  TỔNG HỢP:
+  SYNTHESIS:
     → Music can BOTH activate and modulate DMN
     → Direction depends on: complexity × emotional valence × listening mode
     → Sad/familiar music → DMN activation (self-referential)
@@ -277,7 +277,7 @@ confidence: 🟢 Established research | 🟡 Moderate/emerging | 🔴 Debated/pr
     → Motor pathway ≠ reward pathway (partially independent)
     → Entrainment ≠ pleasure (different circuits)
 
-  TỔNG HỢP:
+  SYNTHESIS:
     → Musical anhedonia = CONNECTIVITY problem, not regional dysfunction
     → Auditory → reward pathway must be INTACT + FUNCTIONAL
     → Domain specificity CONFIRMED (music only, not global)
@@ -321,7 +321,7 @@ confidence: 🟢 Established research | 🟡 Moderate/emerging | 🔴 Debated/pr
   🟢 Trost et al. 2017 (Social Cognitive and Affective Neuroscience):
     Rhythmic entrainment activates INTEROCEPTIVE regions (insula)
     + autonomic nervous system regulation
-    → Rhythm → body state change → interoception detect → emotion
+    → Rhythm → body state change → interoception detects → emotion
 
   🟢 2024 review (Brain Sciences):
     Complete neural pathway mapped: sound → movement
@@ -329,7 +329,7 @@ confidence: 🟢 Established research | 🟡 Moderate/emerging | 🔴 Debated/pr
     Clinical: rhythmic auditory stimulation → gait improvement
     (Parkinson's, stroke, MS)
 
-  TỔNG HỢP:
+  SYNTHESIS:
     → Auditory-motor coupling = one of MOST ROBUST findings
     → Motor activation during passive listening = ESTABLISHED
     → Heart rate, breathing CAN sync with musical tempo
@@ -423,7 +423,7 @@ confidence: 🟢 Established research | 🟡 Moderate/emerging | 🔴 Debated/pr
     Tracks prevalence of chord types in native music
     → = Compiled association, NOT innate mapping
 
-  TỔNG HỢP:
+  SYNTHESIS:
     → Universality of MUSIC-MAKING: confirmed 🟢
     → Universality of SPECIFIC PREFERENCES: mostly learned 🟡
     → Some emotional recognition = cross-cultural (Fritz 2009) 🟢
@@ -473,7 +473,7 @@ confidence: 🟢 Established research | 🟡 Moderate/emerging | 🔴 Debated/pr
     unavailable through grooming/laughter.
     Target article + 60 commentaries from 109 authors.
 
-  TỔNG HỢP:
+  SYNTHESIS:
     → Social bonding effects: well-replicated behaviorally 🟢
     → Active > passive: confirmed 🟢
     → Neurochemistry (oxytocin vs endorphins): still clarifying 🟡
@@ -493,8 +493,8 @@ confidence: 🟢 Established research | 🟡 Moderate/emerging | 🔴 Debated/pr
   🟢 Rentfrow & Gosling 2003 (JPSP 84:1236-1256):
     ★ ~1,500 citations. STOMP study. N>3,500.
     4 music-preference dimensions × Big Five:
-      Reflective/Complex (jazz, classical) → Openness CAO
-      Intense/Rebellious (rock, metal) → Openness CAO + Agreeableness THẤP
+      Reflective/Complex (jazz, classical) → high Openness
+      Intense/Rebellious (rock, metal) → high Openness + low Agreeableness
       Upbeat/Conventional (pop, country) → Extraversion + Agreeableness
       Energetic/Rhythmic (rap, electronic) → Extraversion
 
@@ -613,8 +613,8 @@ confidence: 🟢 Established research | 🟡 Moderate/emerging | 🔴 Debated/pr
 │                                   │            │ subjective ? │
 │ Expectation/prediction theory     │ 🟢🟢       │ Active field │
 │ Cheung 2019 (PE+coherence)        │ 🟢🟢       │ 80k chords   │
-│ DMN interaction                   │ 🟡         │ Context-dep  │
-│ Musical anhedonia                 │ 🟢🟢       │ Domain-spec  │
+│ DMN interaction                   │ 🟡         │ Context-dep. │
+│ Musical anhedonia                 │ 🟢🟢       │ Domain-spec. │
 │ Body entrainment                  │ 🟢🟢       │ Most robust  │
 │ Music therapy (specific apps)     │ 🟢🟡       │ Some RCTs    │
 │ Alzheimer music preservation      │ 🟢         │ Consistent   │
@@ -625,20 +625,20 @@ confidence: 🟢 Established research | 🟡 Moderate/emerging | 🔴 Debated/pr
 │ Active > passive bonding          │ 🟢         │ Dunbar 2012  │
 │ Music → personality               │ 🟢         │ Moderate r   │
 │ Music → values → attraction       │ 🟢         │ Boer 2011    │
-│ Niche > mainstream signal         │ 🟢         │ Selfhout '09│
-│ Influence > selection             │ 🟡         │ Ter Bogt '17│
+│ Niche > mainstream signal         │ 🟢         │ Selfhout '09 │
+│ Influence > selection             │ 🟡         │ Ter Bogt '17 │
 │ Blind compatibility               │ ❓ untested│ Gap          │
 │ Neural sync (shared listening)    │ 🟡         │ Small N      │
 │ Evolutionary function             │ 🟡/🟢      │ MSB leading  │
 └───────────────────────────────────┴────────────┴──────────────┘
 
-LIMITATIONS CỦA EVIDENCE BASE:
+EVIDENCE BASE LIMITATIONS:
 
-  ① Phần lớn nghiên cứu trên WEIRD samples (Western, Educated,
+  ① Most research conducted on WEIRD samples (Western, Educated,
      Industrialized, Rich, Democratic)
   ② Music neuroscience bias toward WESTERN music (tonal, harmonic)
   ③ fMRI studies = small N, group-level inference
-  ④ Opioid debate chưa settle
+  ④ Opioid debate not yet settled
   ⑤ Hyperscanning (inter-brain sync) = emerging methodology
   ⑥ Streaming-era research (Spotify data) = very recent
   ⑦ VR/immersive music = almost no neuroscience data yet
@@ -734,7 +734,7 @@ FOUNDATIONAL (pre-2000):
 
 ---
 
-> *01-Sound-Brain-Neuroscience v1.0 — Evidence base cho Drill-Sound-Brain.
+> *01-Sound-Brain-Neuroscience v1.1 — Evidence base for the Drill-Sound-Brain folder.
 > 10 axes, 120+ citations, curated for framework mapping.
 > Landmark papers: Salimpoor 2011, Martínez-Molina 2016,
 > Cheung 2019, Boer 2011, Selfhout 2009.

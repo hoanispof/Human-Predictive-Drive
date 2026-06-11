@@ -5,10 +5,10 @@ status: DRAFT N+4b P8 — ready for user review
 scope: Motor output systems (hand fine motor + body locomotion + gestural communication) from birth to ~24mo, analyzed via Connect → Control phases with PFC-Inference Ladder. Read phase limited for pure motor.
 parent: plan.md §3.2 (file 05 outline)
 depends_on: [01-PFC-Hardware-Reframe.md, 02-Womb-to-Birth-Baseline.md, 03-Visual-System-Arc.md, 04-Auditory-System-Arc.md]
-language: Tiếng Việt primary + English technical terms
+language: English (translated from Vietnamese source)
 addresses:
-  - Nút Thắt 5 preview (H11 Receptive-Productive Asymmetry — gestural productive side, verbal side in 08)
-  - Nút Thắt 6 preview (labeling attachment — gesture as alternative handle to verbal)
+  - Convergence Point 5 preview (H11 Receptive-Productive Asymmetry — gestural productive side, verbal side in 08)
+  - Convergence Point 6 preview (labeling attachment — gesture as alternative handle to verbal)
 sub_folder: F1 Child-Chunk-Development
 ---
 
@@ -49,10 +49,10 @@ Events analyzed (master table preview — full in §4):
 | Delayed imitation | 14-18 months | Hand+body | L4 🟢 | Meltzoff 1988 |
 | Running | 18-24 months | Loco | L4 🟢 | Bayley Scales |
 
-**Two nút thắt preview**:
+**Two Convergence Points previewed**:
 
-1. **Nút Thắt 5 preview** — gestural productive side of H11 (§7). Full verdict in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md).
-2. **Nút Thắt 6 preview** — alternative handle (gesture as chunk-label without words) (§7.3). Full verdict in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md).
+1. **Convergence Point 5 preview** — gestural productive side of H11 (§7). Full verdict in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md).
+2. **Convergence Point 6 preview** — alternative handle (gesture as chunk-label without words) (§7.3). Full verdict in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md).
 
 ---
 
@@ -66,7 +66,7 @@ This has two methodological consequences:
 
 1. **Ladder classification skews higher**. Motor events are action-involved, so most reach at least L3 (crude coordinated action). L2 motor events are rare (pattern-match without action by definition means no motor output). L0 motor events are the birth reflexes. L1 motor events are post-hoc reactive movements.
 
-2. **Receptive-productive gap is visible within motor itself**. A baby can intend to reach for an object (cognitive/visual side) long before the reach succeeds (motor side). Visuomotor mapping chunks must compile before the intention translates to accurate action. This within-motor asymmetry is a smaller version of the broader Nút Thắt 5 H11 asymmetry.
+2. **Receptive-productive gap is visible within motor itself**. A baby can intend to reach for an object (cognitive/visual side) long before the reach succeeds (motor side). Visuomotor mapping chunks must compile before the intention translates to accurate action. This within-motor asymmetry is a smaller version of the broader Convergence Point 5 H11 asymmetry.
 
 ### §1.2 — Two arcs with interleaved milestones
 
@@ -80,11 +80,11 @@ Motor development is best understood as **two parallel arcs** on shared substrat
 
 ### §1.3 — Dependencies on prior files
 
-**From [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md)**:
+**From [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md)**:
 - §6 event-inference methodology rule — followed throughout §4 master table
-- §7.3 worked example "giao tiếp bình thường" — this file expands the gesture-verbal gap analysis
+- §7.3 worked example "communicate normally with adults" — this file expands the gesture-verbal gap analysis
 
-**From [02-Womb-to-Birth-Baseline.md](02-Womb-to-Birth-Baseline.md)**:
+**From [02-Womb-to-Birth-Baseline.md](../Foundation/02-Womb-to-Birth-Baseline.md)**:
 - §9.1 baseline state at t=0 — "motor chunks for gravity-loaded environment ❌" at birth is the starting point this file justifies the expansion from
 - §3.3 prenatal motor activity — fetus has motor patterns in utero (kicking, thumb sucking, fetal urination 10-14 weeks); the post-birth arc begins from these prenatal motor seeds
 
@@ -163,7 +163,7 @@ Motor development is best understood as **two parallel arcs** on shared substrat
 
 1. **First large-scale binding of visual + motor chunks**. Before visuomotor reaching, visual and motor were separate systems — visual chunks compiled independently (03 §3), motor chunks compiled independently (reflexes + early voluntary §2.3). At 4-5 months, the **binding** between them becomes functional and the baby can act on what they see.
 
-2. **Nút Thắt 3 visual-motor contribution**: this is the visual-motor side of the multi-modal binding mechanism. Mechanism candidates: Hebbian temporal co-occurrence (reaching during visual fixation creates co-firing), sleep consolidation of visuomotor mappings, error-driven learning from reach failures.
+2. **Convergence Point 3 visual-motor contribution**: this is the visual-motor side of the multi-modal binding mechanism. Mechanism candidates: Hebbian temporal co-occurrence (reaching during visual fixation creates co-firing), sleep consolidation of visuomotor mappings, error-driven learning from reach failures.
 
 3. **Substrate for tool use + manipulation**. Every hand-based chunk from here on (grasping, pincer, pointing, tool use, gesturing) rides on the visuomotor binding established at 4-5 months. Without this bind, no hand-object chunks can compile.
 
@@ -248,7 +248,7 @@ Motor development is best understood as **two parallel arcs** on shared substrat
 
 **PFC-Inference Ladder**: **L4** 🟢. Coordinated execution with differentiated need-to-output mapping.
 
-**⭐ H11 Receptive-Productive Asymmetry evidence**: E25 at 14 months is **motor productive** for specific needs. Verbal productive for the same needs emerges at ~18-22 months (E21 "đói", E22 "đau chân", E23 "buồn đái"). Gap = ~4-8 months.
+**⭐ H11 Receptive-Productive Asymmetry evidence**: E25 at 14 months is **motor productive** for specific needs. Verbal productive for the same needs emerges at ~18-22 months (E21 "hungry", E22 "leg hurts", E23 "need to pee"). Gap = ~4-8 months.
 
 **Critical framework observation**: E25 shows that the **receptive-productive gap is partially a motor-system gap**, not purely a cognitive one. The baby at 14 months:
 - Has the need-detection chunk (interoceptive, receptive side)
@@ -256,12 +256,12 @@ Motor development is best understood as **two parallel arcs** on shared substrat
 - Can reliably link them
 
 At 14 months, the baby **does not yet** have:
-- Articulation chunks for the corresponding verbal labels (mouth motor coordination for "đói", "bế", etc.)
+- Articulation chunks for the corresponding verbal labels (mouth motor coordination for "hungry", "carry me", etc.)
 - Or possibly: the verbal label chunk itself is compiling but articulation motor chunks are lagging
 
 The 4-8 month gap from E25 to E21/E22/E23 is evidence that **articulation motor chunks specifically lag behind hand motor chunks** for communicative output. This is one of the cleanest within-motor-system demonstrations of H11 — and it will be drilled further in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §5.
 
-**Implication from Feel-Example E25 Notes**: Feel-Example explicitly states "chunks có thể được 'labeled' bằng gesture trước khi labeled bằng words. Output channel cho chunks không nhất thiết phải verbal." This is the **Nút Thắt 6 contribution** — labeling attachment can use gestural handles as alternative to verbal handles. See §7.3 + §8.2 below.
+**Implication from Feel-Example E25 Notes**: Feel-Example explicitly states that "chunks can be 'labeled' by gesture before they are labeled by words. The output channel for chunks does not have to be verbal." This is the **Convergence Point 6 contribution** — labeling attachment can use gestural handles as alternative to verbal handles. See §7.3 + §8.2 below.
 
 ### §2.12 — Delayed imitation (14-18 months, Meltzoff 1988)
 
@@ -428,7 +428,7 @@ L3 — coordinated action, goal-directed, but accuracy improves over following m
 [Plausibility qualifier]
 Event 🟢 (extensively replicated)
 Chunks-required 🟢🟡 (chunks list well-supported, visuomotor bind is framework
-central claim for Nút Thắt 3 contribution)
+central claim for Convergence Point 3 contribution)
 Ladder L3 🟢
 ```
 
@@ -547,23 +547,23 @@ See [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) for social-side
 
 **Primary binds**: Articulation motor (mouth motor for speech), gesture-as-language-substitute (E25 intentional gesture), co-speech gestures later in toddler years.
 
-**Key asymmetry**: Hand motor chunks compile faster than articulation motor chunks (§2.11 E25 analysis). This asymmetry is the motor-side evidence for H11 (Nút Thắt 5). See §7 below + [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §5.
+**Key asymmetry**: Hand motor chunks compile faster than articulation motor chunks (§2.11 E25 analysis). This asymmetry is the motor-side evidence for H11 (Convergence Point 5). See §7 below + [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §5.
 
 ---
 
-## §7 — Pre-verbal Gestural Production as Proto-Communication (Nút Thắt 5+6 preview)
+## §7 — Pre-verbal Gestural Production as Proto-Communication (Convergence Points 5+6 preview)
 
-> This section is a focused analysis of gestural communication in the 9-18 month window — the cleanest within-F1 evidence for H11 and Nút Thắt 6.
+> This section is a focused analysis of gestural communication in the 9-18 month window — the cleanest within-F1 evidence for H11 and Convergence Point 6.
 
 ### §7.1 — The 4-month gap from gesture to verbal
 
-🟢 **Empirical fact**: Intentional gesture for needs (E25) emerges reliably ~14 months. First verbal labels for needs (E21 "đói", E22 "đau chân", E23 "buồn đái") emerge ~18-22 months. Gap = ~4-8 months.
+🟢 **Empirical fact**: Intentional gesture for needs (E25) emerges reliably ~14 months. First verbal labels for needs (E21 "hungry", E22 "leg hurts", E23 "need to pee") emerge ~18-22 months. Gap = ~4-8 months.
 
 🟡 **Framework claim**: The gap is NOT because the baby at 14 months lacks:
 - ❌ The need-detection chunk — baby clearly detects the need (demonstrated by appropriate gesture)
 - ❌ The communicative intention chunk — baby clearly intends to communicate (demonstrated by gesture directed at adult + waiting for response)
 - ❌ The binding chunk — baby clearly binds need state to communicative output (demonstrated by specific gesture per need)
-- ❌ Receptive vocabulary for the relevant words — by 14 months baby often comprehends "đói", "ăn", "bế" etc. (consistent with Bergelson & Swingley 2012 common noun comprehension 6-9mo)
+- ❌ Receptive vocabulary for the relevant words — by 14 months baby often comprehends "hungry", "eat", "carry me", etc. (consistent with Bergelson & Swingley 2012 common noun comprehension 6-9mo)
 
 🟡 **Framework claim**: The gap IS because the baby at 14 months lacks:
 - ✅ **Articulation motor chunks** — the specific mouth motor chunks for producing the verbal labels reliably
@@ -583,9 +583,9 @@ This isolates **motor-channel compile rate differences** from other developmenta
 
 **Full H11 formalization**: [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §5. This file's contribution is the motor-specific within-child evidence.
 
-### §7.3 — Nút Thắt 6 preview — gesture as alternative handle
+### §7.3 — Convergence Point 6 preview — gesture as alternative handle
 
-🟡 **Framework claim**: Nút Thắt 6 asks whether chunks always need verbal labels to function, or whether alternative labeling systems (gestures, actions, images) can serve the same chunk-handle role.
+🟡 **Framework claim**: Convergence Point 6 asks whether chunks always need verbal labels to function, or whether alternative labeling systems (gestures, actions, images) can serve the same chunk-handle role.
 
 **Evidence from E25 and gesture communication**:
 - Chunks for need states at 14 months function fully without verbal labels
@@ -600,37 +600,39 @@ This isolates **motor-channel compile rate differences** from other developmenta
 - Verbal labels (dominant in adult cultures)
 - Internal-only labels (felt sense without external output, Feel-Example notes)
 
-**⭐ Feel-Example contribution** (from [E25 Notes](../../Body-Base/Feeling/Feel-Example-Draft.md#e25) line 1720-1734): "chunks có thể được 'labeled' bằng gesture trước khi labeled bằng words. Output channel cho chunks không nhất thiết phải verbal. ... Tất cả đều là valid forms của 'feeling expressed'. Sự ưu tiên cho verbal output trong văn hóa dominant có thể bias chúng ta nghĩ 'feeling = verbal' — nhưng đó là confusion giữa output channel và chunk itself."
+**⭐ Feel-Example contribution** (from [E25 Notes](../../Body-Base/Feeling/Feel-Example-Draft.md#e25) line 1720-1734):
 
-This is the **framework commitment** this file inherits and operationalizes for Nút Thắt 6 preview. Full verdict in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md).
+> "Chunks can be 'labeled' by gesture before they are labeled by words. The output channel for chunks does not have to be verbal. … All of these are valid forms of 'feeling expressed'. The preference for verbal output in dominant cultures may bias us into thinking 'feeling = verbal' — but that is a confusion between output channel and the chunk itself."
+
+This is the **framework commitment** this file inherits and operationalizes for Convergence Point 6 preview. Full verdict in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md).
 
 ---
 
-## §8 — Nút Thắt Contributions
+## §8 — Convergence Points Contributions
 
-### §8.1 — Nút Thắt 5 (Receptive-Productive Asymmetry) — preview contribution
+### §8.1 — Convergence Point 5 (Receptive-Productive Asymmetry) — preview contribution
 
 **This file's contribution**: Within-child motor-channel evidence (§7.1-§7.2). Gesture at 14 months vs verbal at 18-22 months demonstrates articulation-motor-specific lag in a controlled within-subjects comparison.
 
 **Next stop**: [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §5 primary home for H11 full formalization.
 
-### §8.2 — Nút Thắt 6 (Alternative labeling handles) — preview contribution
+### §8.2 — Convergence Point 6 (Alternative labeling handles) — preview contribution
 
 **This file's contribution**: Gestural labeling demonstration via E25 + Feel-Example theoretical commitment. Chunks can be handled by non-verbal labels.
 
 **Next stop**: [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) for primary formalization.
 
-### §8.3 — Nút Thắt 3 (Multi-modal binding) — partial contribution via visuomotor
+### §8.3 — Convergence Point 3 (Multi-modal binding) — partial contribution via visuomotor
 
 **This file's contribution**: Visuomotor reaching (§2.4) as motor-side of visual-motor bind. The visuomotor coordinate transformation is one of the clearest multi-modal binding events in F1 first year.
 
-### §8.4 — Nút Thắt 1 (Proto-chunk gradient) — secondary evidence
+### §8.4 — Convergence Point 1 (Proto-chunk gradient) — secondary evidence
 
 **This file's contribution**: Motor learning shows **gradient skill emergence** across all milestones. Reaching goes from uncoordinated swipes → progressively accurate reaching over weeks. Walking goes from unstable 2-step attempts → stable walking over weeks. This is further support for the gradient view committed in [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) §6.4.
 
-### §8.5 — Nút Thắt 4 (PFC hardware × chunks missing)
+### §8.5 — Convergence Point 4 (PFC hardware × chunks missing)
 
-Already committed in [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md). This file applies the reframe throughout by treating motor chunks as **content missing** rather than "motor cortex maturing".
+Already committed in [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md). This file applies the reframe throughout by treating motor chunks as **content missing** rather than "motor cortex maturing".
 
 ---
 
@@ -661,17 +663,17 @@ Already committed in [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md). T
 
 ### §10.1 — Within F1 Child-Chunk-Development
 
-- [00-Chunk-System-Sketch.md](00-Chunk-System-Sketch.md) — F1 sub-folder orientation
-- [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) — §6 methodology rule used throughout
-- [02-Womb-to-Birth-Baseline.md](02-Womb-to-Birth-Baseline.md) — §9.1 baseline (motor chunks absent at birth except reflexes + prenatal seeds)
+- [00-Chunk-System-Sketch.md](../Foundation/00-Chunk-System-Sketch.md) — F1 sub-folder orientation
+- [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md) — §6 methodology rule used throughout
+- [02-Womb-to-Birth-Baseline.md](../Foundation/02-Womb-to-Birth-Baseline.md) — §9.1 baseline (motor chunks absent at birth except reflexes + prenatal seeds)
 - [03-Visual-System-Arc.md](03-Visual-System-Arc.md) — §4.3 visually guided reaching visual side, §4.4 gaze following, §4.6 joint attention
 - [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) — §9 receptive-productive preview, §4 auditory motor interface
-- [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) — interoceptive-motor binds, buồn đái motor-response lag
+- [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) — interoceptive-motor binds, "need to pee" motor-response lag
 - [06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md) — interoceptive-motor for other states (hunger, pain)
 - [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) — social-motor events (pointing, joint attention, imitation)
-- [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) — **primary home for Nút Thắt 5 + 6**, H11 formalization, articulation-motor deep drill
-- [09-Event-Chunks-Inference-Matrix.md](09-Event-Chunks-Inference-Matrix.md) — cross-cutting event table
-- [10-F1-Synthesis.md](10-F1-Synthesis.md) — 7 nút thắt final verdicts
+- [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) — **primary home for Convergence Points 5 + 6**, H11 formalization, articulation-motor deep drill
+- [09-Event-Chunks-Inference-Matrix.md](../09-Event-Chunks-Inference-Matrix.md) — cross-cutting event table
+- [10-F1-Synthesis.md](../10-F1-Synthesis.md) — 7 Convergence Points final verdicts
 
 ### §10.2 — Upstream framework
 
@@ -689,10 +691,10 @@ Already committed in [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md). T
 - [E6 Moro reflex](../../Body-Base/Feeling/Feel-Example-Draft.md#e6) — L0 reference
 - [E7 Palmar grasp](../../Body-Base/Feeling/Feel-Example-Draft.md#e7) — §2.1 L0 hand reflex
 - [E8 Rooting + sucking](../../Body-Base/Feeling/Feel-Example-Draft.md#e8) — §2.2 L0 mouth reflex
-- [E25 Intentional gesture for need](../../Body-Base/Feeling/Feel-Example-Draft.md#e25) — §2.11 ⭐ H11 within-child evidence + §7 Nút Thắt 5+6 preview
+- [E25 Intentional gesture for need](../../Body-Base/Feeling/Feel-Example-Draft.md#e25) — §2.11 ⭐ H11 within-child evidence + §7 Convergence Points 5+6 preview
 - [E26 Comfort object](../../Body-Base/Feeling/Feel-Example-Draft.md#e26) — motor + social cross-bind
 - [E29 Imitation of household tasks](../../Body-Base/Feeling/Feel-Example-Draft.md#e29) — delayed imitation cross-ref
-- [E31 "Không" autonomy](../../Body-Base/Feeling/Feel-Example-Draft.md#e31) — verbal + motor at ~18-24 months
+- [E31 "No" autonomy](../../Body-Base/Feeling/Feel-Example-Draft.md#e31) — verbal + motor at ~18-24 months
 
 ### §10.5 — Research citations database
 
@@ -734,8 +736,6 @@ Motor arc literature:
 
 **Sections complete**: §0 through §10 (12 sections).
 
-**Line count**: ~1150 (target 1100-1400L per plan §3.2).
-
 **Framework commitments made**:
 - ✅ Event-inference methodology rule followed throughout
 - ✅ No "PFC matures at X" claims
@@ -744,24 +744,22 @@ Motor arc literature:
 - ✅ Baseline state from 02 §9.1 cited
 - ✅ Two arcs (hand + locomotion) kept distinct with cross-rate analysis
 - ✅ ⭐ Within-child evidence for H11 via E25 vs E21/E22/E23 gap (§7)
-- ✅ Nút Thắt 6 preview via Feel-Example E25 theoretical commitment
+- ✅ Convergence Point 6 preview via Feel-Example E25 theoretical commitment
 - ✅ Cross-references bidirectional with 00-04 + drilled sub-folders
 - ✅ NO personal examples (framework rule)
-- ✅ Tiếng Việt primary + English technical terms
+- ✅ "Nút Thắt" → "Convergence Point" throughout
 
-**Nút Thắt contributions**:
-- Nút Thắt 5 preview — within-child gesture vs verbal 4-8 month gap (§7.1-§7.2)
-- Nút Thắt 6 preview — alternative handles via gesture (§7.3)
-- Nút Thắt 3 partial — visuomotor binding mechanism evidence (§2.4)
-- Nút Thắt 1 secondary — gradient evidence from motor skill emergence (§8.4)
-- Nút Thắt 4 applied — PFC reframe used throughout
+**Convergence Point contributions**:
+- Convergence Point 5 preview — within-child gesture vs verbal 4-8 month gap (§7.1-§7.2)
+- Convergence Point 6 preview — alternative handles via gesture (§7.3)
+- Convergence Point 3 partial — visuomotor binding mechanism evidence (§2.4)
+- Convergence Point 1 secondary — gradient evidence from motor skill emergence (§8.4)
+- Convergence Point 4 applied — PFC reframe used throughout
 
-**N+4b completion**: With 05 drilled, Session N+4b reaches its target of 3 arc files (03 + 04 + 05). Next phase F1-P9 = session closeout (memory + plan + NEXT-DIRECTIONS for N+4c).
-
-**Next action**: User review → if approved, proceed to Phase F1-P9 session closeout.
+**Next action**: User review → if approved, proceed to C22 (06a-Interoceptive-Bladder-Keystone.md).
 
 ---
 
 > **05-Motor-Output-Arc.md — End of file.**
 >
-> F1 body-input arc #3 of 6. Motor output traced through two arcs (hand + locomotion) from birth reflexes through walking + gestural communication at 18-24 months. Nút Thắt 5 + 6 previewed via within-child gesture-verbal gap evidence (E25 vs E21/E22/E23). Ready for closeout to N+4c (interoceptive + social + verbal + synthesis).
+> F1 body-input arc #3 of 6. Motor output traced through two arcs (hand + locomotion) from birth reflexes through walking + gestural communication at 18-24 months. Convergence Points 5 + 6 previewed via within-child gesture-verbal gap evidence (E25 vs E21/E22/E23). Ready for user review.

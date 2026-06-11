@@ -4,25 +4,34 @@ file: 00-Chunk-System-Sketch.md
 phase: F1 foundation (first of 3 foundation files, before 01 PFC reframe + 02 Womb-Birth baseline)
 parent: plan.md (F1 v3)
 session: N+4a
-scope: Light orientation file. Không deep analysis mới. Synthesize 3-layer architecture + 4-folder mechanism split + drilled sub-folders contribution (N+1 H8, N+2 H9, N+3 Body-Feedback-Precondition). Reader orientation trước khi vào 01 + 02 + body-input arcs.
+scope: |
+  Light orientation file. No new deep analysis. Synthesizes the 3-layer architecture +
+  4-folder mechanism split + contributions from drilled sub-folders
+  (N+1 H8, N+2 H9, N+3 Body-Feedback-Precondition).
+  Reader orientation before entering 01 + 02 + body-input arcs.
 status: DRAFT N+4a P1 — ready for user review
 reading_order: READ FIRST in F1 sub-folder sequence
-language: Tiếng Việt primary + English technical terms
+language: English (translated from Vietnamese source)
 ---
 
 # 00 — Chunk System Sketch
 
-> **File này là ORIENTATION**, không phải deep drill. Mục đích: đưa reader vào F1 với mental model đầy đủ về 3-layer architecture (Body-Feedback L1 / Chunk System L2 / Feeling L3) + 4-folder mechanism split + N+1/N+2/N+3 drilled contributions + F1 v3 mission. Deep content bắt đầu ở [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) và [02-Womb-to-Birth-Baseline.md](02-Womb-to-Birth-Baseline.md).
+> **This file is an ORIENTATION**, not a deep drill. Purpose: bring the reader into F1 with
+> a complete mental model of the 3-layer architecture (Body-Feedback L1 / Chunk System L2 /
+> Feeling L3) + 4-folder mechanism split + N+1/N+2/N+3 drilled contributions + F1 v3 mission.
+> Deep content begins at [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) and
+> [02-Womb-to-Birth-Baseline.md](02-Womb-to-Birth-Baseline.md).
 >
-> **Style**: Tiếng Việt primary + English technical terms. 🟢 Research-backed / 🟡 Framework inference / 🔴 Hypothesis. "Imagine-Final" không viết tắt. "bạn-tôi" addressing.
+> **Style**: English translation. 🟢 Research-backed / 🟡 Framework inference / 🔴 Hypothesis.
+> "Imagine-Final" never abbreviated.
 >
-> **Drill meta-principle**: "Chậm mà chắc, không tiết kiệm bước nào."
+> **Drill meta-principle**: "Slow and steady, skip no step."
 
 ---
 
 ## §0 — Abstract
 
-F1 Child-Chunk-Development drill mục tiêu formalize **substrate chunk formation mechanism** cho 0-24 tháng tuổi, through 6 body-input arcs (visual / auditory / motor / interoceptive / social / verbal) và event-inference methodology (observe events → infer chunks state, không overclaim PFC developmental timeline). File này là first foundation file trong 12-file structure — giới thiệu kiến trúc 3-layer (Body-Feedback ✅ đã drilled / Chunk System 🎯 current / Feeling ⏳ future), 4-folder mechanism split của Chunk-Analysis (Child F1 / External F3 / Internal F4 / Master 99), 3 drilled sub-folders đã cho evidence substrate (Learning-Cycle H8, Agent H9, Body-Feedback-Precondition), và F1 v3 mission với PFC hardware reframe + PFC-Inference Ladder framework contribution. Không có analysis mới ở file này — pure synthesis pointing reader đến deep content ở 01-08.
+The F1 Child-Chunk-Development drill aims to formalize the **substrate chunk formation mechanism** for 0-24 months of age, through 6 body-input arcs (visual / auditory / motor / interoceptive / social / verbal) and event-inference methodology (observe events → infer chunk state, without overclaiming the PFC developmental timeline). This file is the first foundation file in the 12-file structure — introducing the 3-layer architecture (Body-Feedback ✅ drilled / Chunk System 🎯 current / Feeling ⏳ future), the 4-folder mechanism split of Chunk-Analysis (Child F1 / External F3 / Internal F4 / Master 99), the 3 drilled sub-folders that provided substrate evidence (Learning-Cycle H8, Agent H9, Body-Feedback-Precondition), and the F1 v3 mission with PFC hardware reframe + PFC-Inference Ladder framework contribution. No new analysis in this file — pure synthesis pointing the reader to deep content in 01-08.
 
 ---
 
@@ -44,10 +53,10 @@ LAYER 3: FEELING SYSTEM                                         ⏳ Future
          ───────────────────────────────────────────
 LAYER 2: CHUNK SYSTEM                                           🎯 Current
          ───────────────────────────────────────────
-         Chunks = data. Vô thức (~95%) + PFC (~5%) as
+         Chunks = data. Unconscious (~95%) + PFC (~5%) as
          operators. 4 compile mechanisms: repetition (LTP)
          / emotional peak / multi-modal / sleep consolidation.
-         Schemas = mạng chunks có purpose.
+         Schemas = chunk networks with purpose.
 
          SPLIT into 4 folders by mechanism type:
          - F1 Child-Chunk-Development (substrate)  🎯 N+4
@@ -67,19 +76,19 @@ LAYER 1: BODY-FEEDBACK                                          ✅ Done N+3
 
 ### §1.2 — Why layer ordering matters
 
-Layer 1 (Body-Feedback) provides **substrate**. Without body sensors firing → no raw material cho chunks to form on. Body-Feedback-Draft N+3 drilled established: body-inputs adaptive baseline, L0-L2 layers pre-PFC, 5 preconditions cho signal → conscious feeling emergence.
+Layer 1 (Body-Feedback) provides **substrate**. Without body sensors firing → no raw material for chunks to form on. Body-Feedback-Draft N+3 drilled established: body-inputs adaptive baseline, L0-L2 layers pre-PFC, 5 preconditions for signal → conscious feeling emergence.
 
 Layer 2 (Chunk System) operates **on** Layer 1 substrate. Chunks compile from repeated body-feedback patterns. Without chunks → no retrieval, no association, no prediction. F1-F4 drill Chunk System across 4 mechanism categories.
 
-Layer 3 (Feeling System) operates **on** Layer 2 chunks. Chunks enable PFC labeling + observation interface at Feel-Consciousification–Feel-Explanation of 7-layer model. Without Layer 2 chunks → Feeling System stays at Feel-Consciousification–Feel-Observation fuzzy (alexithymia-spectrum). Feeling folder đã complete ở `Body-Base/Feeling/` — waiting cho chunk system drill để provide developmental mechanism.
+Layer 3 (Feeling System) operates **on** Layer 2 chunks. Chunks enable PFC labeling + observation interface at Feel-Consciousification–Feel-Explanation of the 7-layer model. Without Layer 2 chunks → Feeling System stays at Feel-Consciousification–Feel-Observation fuzzy (alexithymia-spectrum). The Feeling folder is already complete at `Body-Base/Feeling/` — waiting for the chunk system drill to provide the developmental mechanism.
 
 ### §1.3 — Why split into layers rather than treat as unified
 
-Framework refinement 2026-04: user's insight từ Pattern-Match session (`project_pattern_match_insights.md`) separated **Body-Feedback** (Feel-RawSignals–Feel-Integration raw, invariant) from **Feeling** (Feel-Consciousification–Feel-Explanation PFC observation interface, trainable). Before this split, dissonance/reward cases conflated "body signal" with "feeling" — couldn't explain alexithymia, Van Gogh case, hedonic adaptation, trauma persistence.
+Framework refinement 2026-04: user's insight from the Pattern-Match session (`project_pattern_match_insights.md`) separated **Body-Feedback** (Feel-RawSignals–Feel-Integration raw, invariant) from **Feeling** (Feel-Consciousification–Feel-Explanation PFC observation interface, trainable). Before this split, dissonance/reward cases conflated "body signal" with "feeling" — couldn't explain alexithymia, the Van Gogh case, hedonic adaptation, or trauma persistence.
 
 Chunk System sits **between** these two layers as the operative mechanism. Chunks enable Feeling (Feel-Consciousification–Feel-Explanation) emergence. Chunks accumulate from Body-Feedback repetition + emotional peak + multi-modal binding + sleep consolidation.
 
-**F1 drill mission**: formalize Layer 2 emergence from Layer 1 substrate, via developmental arc 0-24mo. This completes the substrate bridge Feeling folder needs.
+**F1 drill mission**: formalize Layer 2 emergence from Layer 1 substrate, via the developmental arc 0-24mo. This completes the substrate bridge the Feeling folder needs.
 
 **Cross-ref**: [Body-Feedback-Draft/01-Foundation.md §5](../Body-Feedback-Draft/01-Foundation.md) for body-feedback vs feeling architecture distinction + 7-layer clarity gradient.
 
@@ -89,75 +98,75 @@ Chunk System sits **between** these two layers as the operative mechanism. Chunk
 
 ### §2.1 — Core definition (Schema/Chunk.md §1)
 
-🟢 **Chunk = nhóm neurons đã wire together → fire thành 1 đơn vị** (Hebb 1949, Hebbian LTP).
+🟢 **Chunk = a group of neurons that have wired together → fire as 1 unit** (Hebb 1949, Hebbian LTP).
 
 ```
-CHƯA compiled: 3 groups riêng lẻ (visual + auditory + meaning)
-              → PFC phải hold cả 3 → tốn 3 dimensions
+NOT YET compiled: 3 separate groups (visual + auditory + meaning)
+              → PFC must hold all 3 → costs 3 dimensions
 
-ĐÃ compiled:   1 unit wired → fire 1 lần = biết hết
+COMPILED:      1 unit wired → fires once = everything known
               → = "Chunk" = compressed package
-              → Tốn 1 dimension
+              → Costs 1 dimension
 ```
 
 **Chunk vs Schema**:
-- **Chunk** = atom (1 đơn vị, không có purpose riêng)
-- **Schema** = molecule (mạng chunks linked → có purpose/function)
+- **Chunk** = atom (1 unit, no purpose of its own)
+- **Schema** = molecule (chunk network linked → with purpose/function)
 
-**Chunk multi-modal** — span nhiều cortex: VD chunk "mẹ" = mặt (visual) + giọng (auditory) + ôm (somatic) + ấm (emotional). Fire 1 phần (nghe giọng) → kéo cả chunk fire (nhớ mặt, nhớ ôm). 🟢 Distributed representations (Rumelhart & McClelland 1986).
+**Chunk multi-modal** — spans many cortices: e.g., chunk 'mother' = face (visual) + voice (auditory) + embrace (somatic) + warmth (emotional). Activating 1 part (hearing the voice) → pulls the whole chunk to fire (face recalled, embrace recalled). 🟢 Distributed representations (Rumelhart & McClelland 1986).
 
 ### §2.2 — 4 compile mechanisms (Chunk.md §2)
 
-🟡 **4 cách chunks được compile**:
+🟡 **4 ways chunks are compiled**:
 
 | # | Mechanism | Speed | Example | Research anchor |
 |---|---|---|---|---|
-| ① | **Repetition (LTP)** | Chậm nhưng bền | Fire pattern 50+ lần → connections strengthen | 🟢 Bliss & Lømo 1973 |
-| ② | **Emotional peak** | 1 lần đủ | Amygdala + NE → wire cực nhanh | 🟢 Brown & Kulik 1977 flashbulb |
-| ③ | **Multi-modal binding** | Strong per exposure | Visual + auditory + somatic + motor cùng fire | 🟡 Cross-cortex binding |
-| ④ | **Sleep consolidation** | Offline | Hippocampus replay → strengthen hoặc prune | 🟢 Walker 2017 |
+| ① | **Repetition (LTP)** | Slow but durable | Fire pattern 50+ times → connections strengthen | 🟢 Bliss & Lømo 1973 |
+| ② | **Emotional peak** | Once is enough | Amygdala + NE → wire extremely fast | 🟢 Brown & Kulik 1977 flashbulb |
+| ③ | **Multi-modal binding** | Strong per exposure | Visual + auditory + somatic + motor co-firing | 🟡 Cross-cortex binding |
+| ④ | **Sleep consolidation** | Offline | Hippocampus replay → strengthen or prune | 🟢 Walker 2017 |
 
-**F1 drill expected finding**: Infant chunks dùng cả 4 mechanisms song song, với distribution khác nhau qua developmental arc:
+**F1 drill expected finding**: Infant chunks use all 4 mechanisms in parallel, with different distributions across the developmental arc:
 - **0-3mo**: Sleep consolidation dominant (16+ hrs/day sleep)
 - **3-12mo**: Multi-modal binding dominant (social smile, joint attention)
 - **12-24mo**: Repetition + vocabulary spurt
 - **Throughout**: Emotional peak interspersed (flashbulb moments)
 
-Drill home: [09-Event-Chunks-Inference-Matrix.md](09-Event-Chunks-Inference-Matrix.md) cho cross-tabulation.
+Drill home: [09-Event-Chunks-Inference-Matrix.md](09-Event-Chunks-Inference-Matrix.md) for cross-tabulation.
 
-### §2.3 — Chunk lifecycle (birth → decay → reconsolidate, không xóa)
+### §2.3 — Chunk lifecycle (birth → decay → reconsolidate, no deletion)
 
 🟡 **Lifecycle stages**:
 
-1. **Genesis** — first compile từ 1 trong 4 mechanisms
+1. **Genesis** — first compile from 1 of the 4 mechanisms
 2. **Consolidation** — sleep replay + re-exposure strengthens
 3. **Connection** — chunks wire with other chunks → schemas emerge
 4. **Retrieval** — spreading activation fires chunk (Collins & Loftus 1975)
-5. **Reconsolidation** — khi chunk recalled, tạm thời unstable → window modify → re-compile (Nader 2000)
-6. **Decay** — không dùng → retrieval path yếu → "quên" (Ebbinghaus 1885, savings in relearning)
-7. **⚠️ Không xóa** — không có cơ chế unwire. Chunks chỉ strengthen/weaken/modify, không delete. "Bỏ thói cũ" = compile chunk mới đủ mạnh đè chunk cũ.
+5. **Reconsolidation** — when chunk is recalled, temporarily unstable → window to modify → re-compile (Nader 2000)
+6. **Decay** — unused → retrieval path weakens → "forgetting" (Ebbinghaus 1885, savings in relearning)
+7. **⚠️ No deletion** — no mechanism to unwire. Chunks only strengthen/weaken/modify, never delete. "Breaking an old habit" = compile a new chunk strong enough to override the old one.
 
-**F1 focus**: Stages 1-3 (genesis + consolidation + connection) during 0-24mo developmental arc. Stages 4-7 mostly cross-cutting hoặc post-F1 window.
+**F1 focus**: Stages 1-3 (genesis + consolidation + connection) during the 0-24mo developmental arc. Stages 4-7 are mostly cross-cutting or post-F1 window.
 
-**Cross-ref**: [Schema/Chunk.md](../../Schema/Chunk.md) §1-§2 cho full exposition.
+**Cross-ref**: [Schema/Chunk.md](../../Schema/Chunk.md) §1-§2 for full exposition.
 
-### §2.4 — Vô thức + PFC split (Chunk.md §3)
+### §2.4 — Unconscious + PFC split (Chunk.md §3)
 
 🟡 Critical architectural claim:
 
-> **Chunk = DATA. 2 operators làm việc với cùng database**:
-> - **Vô thức = OPERATOR CHÍNH (~95%)** — compile, run schemas tự động, evaluate qua body signals, process nền
-> - **PFC = OPERATOR PHỤ (~5%)** — search, hold, direct, create (draft), modify — nhưng quyết định HƯỚNG
+> **Chunk = DATA. 2 operators work with the same database**:
+> - **Unconscious = PRIMARY OPERATOR (~95%)** — compile, run schemas automatically, evaluate via body signals, background processing
+> - **PFC = SECONDARY OPERATOR (~5%)** — search, hold, direct, create (draft), modify — but determines DIRECTION
 
-**Vô thức có thể**: detect body state, compile patterns từ experience, run schemas, evaluate via reward/dissonance, tạo Imagine-Final ở mọi scale, check Imagine-Final body-base match.
+**Unconscious can**: detect body state, compile patterns from experience, run schemas, evaluate via reward/dissonance, generate Imagine-Final at any scale, check Imagine-Final body-base match.
 
-**Vô thức KHÔNG thể**: check domain accuracy, simulate future, compare với memory. Vô thức **chỉ đo body-base** → body pleasant → vô thức "OK" → dù domain có thể sai (nghiện, limerence, comfort zone).
+**Unconscious CANNOT**: check domain accuracy, simulate future, compare with memory. Unconscious **only measures body-base** → body pleasant → unconscious "OK" → even when the domain may be wrong (addiction, limerence, comfort zone).
 
-**PFC có thể (vô thức không)**: simulate future, compare memory, check domain, choose giữa competing Imagine-Finals, create chunks evaluative mới → nạp vào vô thức → update database.
+**PFC can (unconscious cannot)**: simulate future, compare memory, check domain, choose between competing Imagine-Finals, create new evaluative chunks → load into unconscious → update database.
 
-**PFC KHÔNG thể (vô thức có)**: feel trực tiếp (nhận từ body), process 95% nền, compile tự động.
+**PFC CANNOT (unconscious can)**: feel directly (receives from body), process 95% background, compile automatically.
 
-**Implication cho F1**: Infant có cả PFC hardware + vô thức operational from prenatal (per reframe §1 below). Cái thiếu = **compiled chunks (content)**. Chunks accumulate qua experience → vô thức database grows → PFC có material để search/hold/direct.
+**Implication for F1**: Infants have both PFC hardware + unconscious operational from the prenatal period (per reframe §1 below). What is missing = **compiled chunks (content)**. Chunks accumulate through experience → unconscious database grows → PFC has material to search/hold/direct.
 
 ---
 
@@ -173,7 +182,7 @@ Chunk-Analysis/
 │
 ├── F1 Child-Chunk-Development/         🎯 N+4 current (this folder)
 │   ├── 12 files body-input axis
-│   ├── Mechanism: substrate chunk compile từ body signals
+│   ├── Mechanism: substrate chunk compile from body signals
 │   ├── Test case: 0-24mo developmental arc (cleanest)
 │   └── Hypotheses: H1 support + H11 formalization + PFC-Inference Ladder contribution
 │
@@ -197,9 +206,9 @@ Chunk-Analysis/
 
 ### §3.2 — Why split by mechanism, not by age
 
-**Alternative rejected**: Age-based split (0-2yr / 3-6yr / 7-12yr / adult). Problem: mechanisms overlap across ages. Verbal label attachment mechanism operates same way in 2-year-old "đói" as in 40-year-old learning Spanish vocabulary. Age-based split would duplicate mechanism analysis.
+**Alternative rejected**: Age-based split (0-2yr / 3-6yr / 7-12yr / adult). Problem: mechanisms overlap across ages. The verbal label attachment mechanism operates the same way in a 2-year-old learning "hungry" as in a 40-year-old learning Spanish vocabulary. An age-based split would duplicate mechanism analysis.
 
-**Mechanism-based split** groups by **what the chunk compile process is doing**, regardless of when it happens. Child window 0-24mo is simply the **cleanest test case** for substrate mechanism (F1) because: no language confound, clear developmental gradient, abundant observable events.
+**Mechanism-based split** groups by **what the chunk compile process is doing**, regardless of when it happens. The child window 0-24mo is simply the **cleanest test case** for substrate mechanism (F1) because: no language confound, clear developmental gradient, abundant observable events.
 
 **Cross-ref**: Parent plan.md §3.1-§3.3 for full architectural rationale.
 
@@ -224,14 +233,14 @@ Chunk-Analysis/
 
 ### §3.4 — What "Child" means (folder name clarification)
 
-**Folder name "Child-Chunk-Development"** does NOT mean "chunks specific to children". It means "**developmental arc as cleanest test case for substrate chunk formation mechanism**". The substrate mechanism applies to all ages — F1 picks child window 0-24mo because:
+**Folder name "Child-Chunk-Development"** does NOT mean "chunks specific to children." It means "**developmental arc as cleanest test case for substrate chunk formation mechanism**." The substrate mechanism applies to all ages — F1 picks the child window 0-24mo because:
 
-1. **No language confound** — verbal chunks don't exist yet for most of 0-18mo window, so chunks can be studied independent of language scaffolding
+1. **No language confound** — verbal chunks don't exist yet for most of the 0-18mo window, so chunks can be studied independent of language scaffolding
 2. **Clear developmental gradient** — chunks visibly accumulating week-by-week, measurable via developmental milestones
 3. **Multiple observable events per body-input system** — 30+ cases in `Feel-Example-Draft.md` §1-§3 provide empirical grip
-4. **Body-Feedback-Precondition Precondition-2 bottleneck cleanest** — Body-Feedback-Draft N+3 identified "Chunks Base Adequacy" as keystone; 0-24mo window shows this bottleneck most directly
+4. **Body-Feedback-Precondition Precondition-2 bottleneck is clearest** — Body-Feedback-Draft N+3 identified "Chunk-Substrate" as keystone; the 0-24mo window shows this bottleneck most directly
 
-The mechanism F1 formalizes (substrate chunk compile from body signals) operates same way in adult learning — F1 just uses child window as cleanest test bed.
+The mechanism F1 formalizes (substrate chunk compile from body signals) operates the same way in adult learning — F1 just uses the child window as the cleanest test bed.
 
 ---
 
@@ -248,7 +257,7 @@ The mechanism F1 formalizes (substrate chunk compile from body signals) operates
 - Resolution via sleep-mediated multi-mechanism → one night reduces signals → multiple nights → baseline shifts → chunk integrated
 - **Cost scales with**: novelty × integration distance × existing schema complexity
 
-**Contribution to F1**: Provides offline mechanism for chunk consolidation. F1 infant 0-3mo sleeps 16+ hrs/day — Learning-Cycle says most chunk consolidation happens during sleep. Fetal REM sleep from ~30wk also relevant (F1 02-Womb-Birth §3.3 will reference).
+**Contribution to F1**: Provides the offline mechanism for chunk consolidation. The F1 infant 0-3mo sleeps 16+ hrs/day — Learning-Cycle says most chunk consolidation happens during sleep. Fetal REM sleep from ~30wk is also relevant (F1 02-Womb-Birth §3.3 will reference).
 
 **Drill home for F1**: Not re-drilled. Cross-referenced in each arc file's "compile mechanisms" section.
 
@@ -260,8 +269,8 @@ The mechanism F1 formalizes (substrate chunk compile from body signals) operates
 
 **Key claims**:
 - **Agent-reading = Self-Pattern-Modeling mechanism** (solo, forward): PFC retrieves self chunks matching target entity → applies as template → reads output as prediction about agent's state/behavior/desire
-- **Resonance = emergent mutual phenomenon** (retrospective): when 2+ agents' Self-Pattern-Modeling co-fire successfully via communication feedback
-- Agent is **function running on chunk substrate**, NOT separate category or hardware module → **supports H1** (chunk substrate cross-cutting)
+- **Resonance = emergent mutual phenomenon** (retrospective): when 2+ agents' Self-Pattern-Modeling co-fires successfully via communication feedback
+- Agent is **function running on chunk substrate**, NOT a separate category or hardware module → **supports H1** (chunk substrate cross-cutting)
 - Operates multi-modal (affective / somatic / visual-symbolic / verbal-cognitive / composite)
 - Quality gradients: Pattern-Type × Depth × Similarity × Feedback (4 axes)
 - Threshold failure → fallback mechanical prediction
@@ -272,7 +281,7 @@ The mechanism F1 formalizes (substrate chunk compile from body signals) operates
 **Contribution to F1**:
 - **Developmental bootstrap** (Self-Pattern-Modeling §5): infant Self-Pattern state builds through body-feedback + caregiver contingent response → provides mechanism for social chunks in [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md)
 - **Resonance stages** (0-3): cry contagion E9 (Stage 0) → smile contagion E13 (Stage 1) → egocentric empathy E26 (Stage 2) → full mutual (adult) — relevant for F1 social arc + emotional interoceptive
-- **Alexithymia warning**: poor self-reading → poor Self-Pattern-Modeling → poor social chunks. F1 must preserve interoception keystone (§5.4 Body-Feedback-Draft)
+- **Alexithymia warning**: poor self-reading → poor Self-Pattern-Modeling → poor social chunks. F1 must preserve the interoception keystone (§5.4 Body-Feedback-Draft)
 
 **Drill home for F1**: Not re-drilled. Cross-referenced in [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §7.
 
@@ -280,28 +289,28 @@ The mechanism F1 formalizes (substrate chunk compile from body signals) operates
 
 ### §4.3 — Body-Feedback-Draft (Body-Feedback-Precondition, N+3, 2026-04-15)
 
-**Scope**: Body-feedback architecture + 5 preconditions cho signal fire + body-feedback vs feeling 2-layer distinction + 2-tầng calibration (Darwinian + Hebbian) + vô thức vs PFC split.
+**Scope**: Body-feedback architecture + 5 preconditions for signal fire + body-feedback vs feeling 2-layer distinction + 2-tier calibration (Darwinian + Hebbian) + unconscious vs PFC split.
 
 **Key claims**:
-- **Body-Feedback-Precondition — Body Signal Precondition Hypothesis**: Body signal fires when ALL 5 preconditions met:
-  1. **Precondition-1 Directed-Gap** (Schema pending status) — schema đang chờ được fill/resolve/upgrade
-  2. **Precondition-2 Chunk-Substrate** ⭐ — đủ chunks substrate để decode pattern
-  3. **Precondition-3 Delta-Gate** (prediction-delta threshold) — biến động đủ lớn cho VTA detect (habituation-based)
+- **Body-Feedback-Precondition — Body Signal Precondition Hypothesis**: Body signal fires when ALL 5 preconditions are met:
+  1. **Precondition-1 Directed-Gap** (Schema pending status) — schema is waiting to be filled/resolved/upgraded
+  2. **Precondition-2 Chunk-Substrate** ⭐ — sufficient chunks substrate to decode pattern
+  3. **Precondition-3 Delta-Gate** (prediction-delta threshold) — change large enough for VTA to detect (habituation-based)
   4. **Precondition-4 Match-Range** (Goldilocks zone) — dynamic: novel enough + right direction (neither too familiar nor too alien)
-  5. **Precondition-5 Compile-Gate** ⭐ (Chunk association tag) — chunks fire có association pattern determined by the body state fingerprint during compile: novelty-path body state (novelty cortisol + dopamine/opioid) → chunks gắn opioid → "thích dùng"; threat-path body state (threat cortisol + NE/adrenaline) → chunks gắn cortisol-avoidance → "tránh dùng". See [06a §7.0.1](06a-Interoceptive-Bladder-Keystone.md#§7.0.1) for the refined mechanism (same molecule, different body state, opposite outcomes).
+  5. **Precondition-5 Compile-Gate** ⭐ (Chunk association tag) — chunks fire with association pattern determined by the body state fingerprint during compile: novelty-path body state (novelty cortisol + dopamine/opioid) → chunks tagged opioid → "preferred use"; threat-path body state (threat cortisol + NE/adrenaline) → chunks tagged cortisol-avoidance → "avoid". See [06a §7.0.1](06a-Interoceptive-Bladder-Keystone.md#§7.0.1) for the refined mechanism (same molecule, different body state, opposite outcomes).
 - **Body-feedback layer (Feel-RawSignals–Feel-Integration)** ≠ **Feeling layer (Feel-Consciousification–Feel-Explanation)**:
   - Body-feedback: raw body signal, pre-verbal, automatic, invariant across development
   - Feeling: PFC observation via chunks, trainable, developmental
 - **7-layer clarity gradient** (same mechanism, different signal strength): Raw → Integration → Noticeable → Observe → Locate → Label → Explain
-- **Self-signal interoception keystone** (Body-Input-Enumeration §4.9): body's capacity to read own internal state is architectural prerequisite for feeling layer development
-- **Developmental gradient** (user's examples mapped): đái / đau / discomfort / buồn all show Feel-RawSignals–Feel-Integration invariant but Feel-Consciousification–Feel-Explanation compile progressively via chunks accumulation + caregiver mirroring + language emergence
-- **5 training pathways** for feeling layer: caregiver mirroring (infancy) / chunks accumulation / meditation / somatic therapy / Gendlin Focusing / + AI era catalyst
+- **Self-signal interoception keystone** (Body-Input-Enumeration §4.9): body's capacity to read its own internal state is an architectural prerequisite for feeling layer development
+- **Developmental gradient** (user's examples mapped): urination / pain / discomfort / sadness all show Feel-RawSignals–Feel-Integration invariant but Feel-Consciousification–Feel-Explanation compile progressively via chunks accumulation + caregiver mirroring + language emergence
+- **5 training pathways** for the feeling layer: caregiver mirroring (infancy) / chunks accumulation / meditation / somatic therapy / Gendlin Focusing / + AI era catalyst
 
 **Contribution to F1** ⭐ **KEYSTONE**:
-- **Precondition-2 Chunk-Substrate = F1 central mechanism question**. N+3 identified Precondition-2 as keystone developmental bottleneck but didn't drill HOW chunks accumulate. F1 answers this via 12-file body-input axis drill.
-- **Bladder gradient** (§5.5.1 of 01-Foundation): trẻ sơ sinh Feel-RawSignals–Feel-Integration only → trẻ lớn chút post-hoc Feel-Consciousification → trẻ biết gọi Feel-Observation–Feel-Labeling → adult full Feel-Explanation. This IS the full developmental arc that F1 [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) will deep-drill as "đơ mặt" exposition.
-- **Self-signal interoception critical period**: developmental origin via caregiver mirroring + secure attachment (Fonagy mentalizing). F1 must preserve this — [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) covers mirroring scaffold, [06a + 06b] cover interoception emergence.
-- **Precondition-5 Compile-Gate — Body state at compile** (refined N+4c2-REV1, formerly "Cortisol tagging"): F1 provides critical period mechanism + novelty vs threat cortisol distinction + neural wear dimension + 4-threshold gradient + 3 mechanism × 3 origin taxonomy (Nút Thắt 7 in plan §0.6). Drill home [06a §7](06a-Interoceptive-Bladder-Keystone.md#§7) + upstream framework commitments [06a §7.0](06a-Interoceptive-Bladder-Keystone.md#§7.0).
+- **Precondition-2 Chunk-Substrate = F1 central mechanism question**. N+3 identified Precondition-2 as the keystone developmental bottleneck but did not drill HOW chunks accumulate. F1 answers this via the 12-file body-input axis drill.
+- **Bladder gradient** (§5.5.1 of 01-Foundation): newborn infant Feel-RawSignals–Feel-Integration only → slightly older child post-hoc Feel-Consciousification → child who can speak Feel-Observation–Feel-Labeling → adult full Feel-Explanation. This IS the full developmental arc that F1 [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) will deep-drill as the "face-freeze" exposition.
+- **Self-signal interoception critical period**: developmental origin via caregiver mirroring + secure attachment (Fonagy mentalizing). F1 must preserve this — [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) covers the mirroring scaffold, [06a + 06b] cover interoception emergence.
+- **Precondition-5 Compile-Gate — Body state at compile** (refined N+4c2-REV1, formerly "Cortisol tagging"): F1 provides critical period mechanism + novelty vs threat cortisol distinction + neural wear dimension + 4-threshold gradient + 3 mechanism × 3 origin taxonomy (Convergence Point 7 in plan §0.6). Drill home [06a §7](06a-Interoceptive-Bladder-Keystone.md#§7) + upstream framework commitments [06a §7.0](06a-Interoceptive-Bladder-Keystone.md#§7.0).
 
 **Files**: [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) + 02-Dissonance.md + 03-Reward.md + 04-Integration.md (9707 lines across 5 files).
 
@@ -328,7 +337,7 @@ The 3 drilled hypotheses triangulate on chunk substrate architecture:
                       foundation.
 ```
 
-**F1 position**: F1 sits **upstream** of all 3 drilled hypotheses. F1 asks "**how do chunks compile in the first place, at substrate level, before they can cycle (H8), before they can model agents (H9), before they can preconditions to feeling (Body-Feedback-Precondition)**". Developmental window 0-24mo is chosen because substrate compile is most visible there.
+**F1 position**: F1 sits **upstream** of all 3 drilled hypotheses. F1 asks "**how do chunks compile in the first place, at substrate level, before they can cycle (H8), before they can model agents (H9), before they can satisfy preconditions for feeling (Body-Feedback-Precondition)**". The developmental window 0-24mo is chosen because substrate compile is most visible there.
 
 ---
 
@@ -336,24 +345,24 @@ The 3 drilled hypotheses triangulate on chunk substrate architecture:
 
 ### §5.1 — Commitments (from plan.md v3)
 
-F1 drill v3 (rewritten 2026-04-15 N+4 prep) committed to 4 architectural principles replacing v1 academic top-down approach:
+F1 drill v3 (rewritten 2026-04-15 N+4 prep) committed to 4 architectural principles replacing the v1 academic top-down approach:
 
-1. **PFC Hardware Reframe** — PFC online from prenatal per Huttenlocher/Grossmann/Werchan/Kouider/Doria + Hodel 2018 anchor. What's missing = compiled chunks (content), not PFC hardware. See [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md).
+1. **PFC Hardware Reframe** — PFC online from prenatal per Huttenlocher/Grossmann/Werchan/Kouider/Doria + Hodel 2018 anchor. What is missing = compiled chunks (content), not PFC hardware. See [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md).
 
-2. **Body-Input Axis** — 6 systems (visual / auditory / motor output / interoceptive / social / verbal) each with Connect → Read → Control arc. Measurable via observable events per developmental stage. Replaces v1 abstract mechanism categories. User's insight (plan §0.5 Q7): "chỉ cần tập trung vào theo hướng body-input bé cần kết nối và đọc-hiểu, điều khiển, là có thể đo lường đc sự phát triển nhận thức khá chính xác".
+2. **Body-Input Axis** — 6 systems (visual / auditory / motor output / interoceptive / social / verbal) each with Connect → Read → Control arc. Measurable via observable events per developmental stage. Replaces v1 abstract mechanism categories. User's insight (plan §0.5 Q7): "just focus on the direction of body-input the infant needs to connect, read-understand, and control — and you can measure cognitive development quite accurately."
 
-3. **Event-Inference Methodology** — F1 claims observable events + chunks state inference, NOT PFC developmental timeline. Every PFC-involvement claim carries 🟡 plausibility qualifier. User's insight (plan §0.5 Q10): "câu hỏi không phải là ở giai đoạn nào có PFC. mà chúng ta chỉ cần liệt kê các event mà có khả năng có PFC. vì chúng ta không đo lường được PFC thực sự". Epistemologically weaker but scientifically stronger.
+3. **Event-Inference Methodology** — F1 claims observable events + chunk state inference, NOT PFC developmental timeline. Every PFC-involvement claim carries 🟡 plausibility qualifier. User's insight (plan §0.5 Q10): "the question is not which stage has PFC. We only need to list the events where PFC involvement is plausible, because we cannot directly measure PFC." Epistemologically weaker but scientifically stronger.
 
-4. **PFC-Inference Ladder** ⭐ **novel framework contribution** — 5-level event classifier formalizing user's "đơ mặt" hypothesis:
+4. **PFC-Inference Ladder** ⭐ **novel framework contribution** — 5-level event classifier formalizing the user's "face-freeze" hypothesis:
    - **L0** Reflex-only (no chunks required)
    - **L1** Post-hoc response (raw chunks compiling, response after event)
-   - **L2** ⭐ **Pattern-match activation** ("đơ mặt") — chunks fire on antecedent, no action intention
+   - **L2** ⭐ **Pattern-match activation** ("face-freeze") — chunks fire on antecedent, no action intention
    - **L3** Crude response (partial action chunks)
    - **L4** Coordinated execution (full chunks stack)
    
-   Critical reframe: L2 is NOT "PFC trying and failing". L2 IS "PFC pattern-matches familiar antecedent + chunk fires + body-level manifestation, NO action intention". See plan.md §0.7 for full exposition.
+   Critical reframe: L2 is NOT "PFC trying and failing." L2 IS "PFC pattern-matches familiar antecedent + chunk fires + body-level manifestation, NO action intention." See plan.md §0.7 for full exposition.
 
-### §5.2 — 7 Nút Thắt (convergence points)
+### §5.2 — 7 Convergence Points
 
 F1 drill has many files but converges on **7 architectural questions** that must be resolved (verdict or pending-research) by end of F1:
 
@@ -365,7 +374,7 @@ F1 drill has many files but converges on **7 architectural questions** that must
 6. **Verbal-as-handle mechanism** → drill home [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §5
 7. **Body state at compile** (refined N+4c2-REV1, formerly "Cortisol tagging critical period") → drill home [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) §7 (including §7.0 upstream framework commitments — novelty vs threat cortisol + neural wear + 3×3 taxonomy + 4 thresholds) + [06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md) 5-state cross-validation
 
-Each nút thắt verdict committed in [10-F1-Synthesis.md](10-F1-Synthesis.md).
+Each Convergence Point verdict is committed in [10-F1-Synthesis.md](10-F1-Synthesis.md).
 
 ### §5.3 — File structure (12 files)
 
@@ -373,20 +382,20 @@ Each nút thắt verdict committed in [10-F1-Synthesis.md](10-F1-Synthesis.md).
 Child-Chunk-Development/
 ├── plan.md (v3) + plan-v1-backup.md
 ├── 00-Chunk-System-Sketch.md              ← THIS FILE (orientation)
-├── 01-PFC-Hardware-Reframe.md             (foundation — Nút Thắt 4)
+├── 01-PFC-Hardware-Reframe.md             (foundation — Convergence Point 4)
 ├── 02-Womb-to-Birth-Baseline.md           (baseline)
 ├── 03-Visual-System-Arc.md                (Connect→Read→Control: eye)
-├── 04-Auditory-System-Arc.md              (⭐ Nút Thắt 1 primary — phoneme gradient)
+├── 04-Auditory-System-Arc.md              (⭐ Convergence Point 1 primary — phoneme gradient)
 ├── 05-Motor-Output-Arc.md                 (Connect→Control: hand + locomotion)
-├── 06a-Interoceptive-Bladder-Keystone.md  (⭐⭐ 4 Nút Thắt: 2 + 4 + 5 + 7)
+├── 06a-Interoceptive-Bladder-Keystone.md  (⭐⭐ 4 Convergence Points: 2 + 4 + 5 + 7)
 ├── 06b-Interoceptive-Other-States.md      (hunger + pain + thermal + emotional)
-├── 07-Social-Recognition-Arc.md           (⭐ Nút Thắt 3 — social smile multi-modal)
-├── 08-Verbal-Production-Arc.md            (⭐ Nút Thắt 5 + 6 — H11 formalization)
+├── 07-Social-Recognition-Arc.md           (⭐ Convergence Point 3 — social smile multi-modal)
+├── 08-Verbal-Production-Arc.md            (⭐ Convergence Points 5 + 6 — H11 formalization)
 ├── 09-Event-Chunks-Inference-Matrix.md    (cross-cutting synthesis)
 └── 10-F1-Synthesis.md                     (7 verdicts + R-F1-* recommendations)
 ```
 
-**Session split** (per "chậm mà chắc"):
+**Session split** (per "slow and steady, skip no step"):
 - **N+4a** (current): 00 + 01 + 02 (foundation, ~2200-2800 lines)
 - **N+4b**: 03 + 04 + 05 (sensory + motor arcs, ~3000-3700 lines)
 - **N+4c**: 06a + 06b + 07 + 08 + 09 + 10 (interoceptive + social + verbal + synthesis, ~5100-6400 lines)
@@ -403,7 +412,7 @@ By end of F1 drill (N+4a + N+4b + N+4c), deliverables:
 - ✅ Womb-to-birth baseline characterization
 - ✅ 6 body-input arc analyses (visual, auditory, motor, interoceptive×2, social, verbal)
 - ✅ 30+ observable events mapped to PFC-Inference Ladder levels
-- ✅ 7 Nút Thắt verdicts (or pending-research flags with specific unknowns)
+- ✅ 7 Convergence Point verdicts (or pending-research flags with specific unknowns)
 - ✅ H1 chunk substrate evidence compilation (cross-folder triangulation with H8/H9/Body-Feedback-Precondition)
 - ✅ H11 Receptive-Productive Asymmetry formalization with 7 falsifiable predictions
 - ✅ PFC-Inference Ladder framework contribution (novel 5-level event classifier)
@@ -422,7 +431,7 @@ By end of F1 drill (N+4a + N+4b + N+4c), deliverables:
 
 **F3 Chunk-External-Development** handles external-shared chunks — language, grammar, abstract concepts, cognition upgrade. Builds directly on F1 outputs:
 - Pre-verbal substrate (from F1) → verbal chunks install on top
-- Multi-modal binding mechanism (from F1 Nút Thắt 3) → language as 5th modality (or symbolic compression overlay, F1 Nút Thắt 6 verdict)
+- Multi-modal binding mechanism (from F1 Convergence Point 3) → language as 5th modality (or symbolic compression overlay, F1 Convergence Point 6 verdict)
 - Receptive-Productive H11 mechanism (from F1) → extends to adult second-language acquisition
 
 **F3 contains nested Language/ sub-folder** (migrated from old Grammar-Scaffolding/, per N+4 prep v2): 6 files covering vocabulary / grammar / anchor validation / cross-language relativity / language evolution / synthesis.
@@ -441,12 +450,12 @@ Final integration of all 4 sub-folders + drilled triples (H8/H9/Body-Feedback-Pr
 
 ---
 
-## §7 — How to Read Rest of F1 Sub-Folder
+## §7 — How to Read the Rest of the F1 Sub-Folder
 
 ### §7.1 — Reading paths by role
 
 **If you are drilling F1 next session (N+4b or N+4c)**:
-- Read plan.md §0 North Star + §0.5 user quotes + §0.6 Nút Thắt + §0.7 PFC Ladder first
+- Read plan.md §0 North Star + §0.5 user quotes + §0.6 Convergence Points + §0.7 PFC Ladder first
 - Then this file (00-Sketch) to refresh mental model
 - Then relevant arc files (03-08) per session goal
 - Use 09-Event-Matrix as reference index
@@ -462,7 +471,7 @@ Final integration of all 4 sub-folders + drilled triples (H8/H9/Body-Feedback-Pr
 - 09-Event-Chunks-Inference-Matrix.md (structured data)
 - This file §4 (drilled sub-folders triangulation)
 
-**If you are new reader orienting to chunk system**:
+**If you are a new reader orienting to the chunk system**:
 - This file (00-Sketch) — reader orientation
 - Then plan.md §0 for F1 specific mission
 - Then [Schema/Chunk.md](../../Schema/Chunk.md) for atomic chunk definition
@@ -493,8 +502,7 @@ Final integration of all 4 sub-folders + drilled triples (H8/H9/Body-Feedback-Pr
 
 ### §7.3 — Style conventions (for drill continuation)
 
-- **Vietnamese primary + English technical terms**
-- **Bạn-tôi addressing**
+- **English translation; original: Vietnamese primary + English technical terms**
 - **🟢 Research-backed / 🟡 Framework inference / 🔴 Hypothesis** — every major claim marked
 - **"Imagine-Final" never abbreviated**
 - **NO personal examples** — general situations + public historical figures only
@@ -540,8 +548,8 @@ Final integration of all 4 sub-folders + drilled triples (H8/H9/Body-Feedback-Pr
 
 ### §8.4 — Framework upstream
 
-- [../../Schema/Chunk.md](../../Schema/Chunk.md) — atomic chunk definition + 4 compile mechanisms + vô thức/PFC split
-- [../../Schema/Schema.md](../../Schema/Schema.md) — schema as mạng chunks với purpose
+- [../../Schema/Chunk.md](../../Schema/Chunk.md) — atomic chunk definition + 4 compile mechanisms + unconscious/PFC split
+- [../../Schema/Schema.md](../../Schema/Schema.md) — schema as chunk network with purpose
 - [../../Schema/Chunk-Search-Advanced.md](../../Schema/Chunk-Search-Advanced.md) — spreading activation, incubation, priming
 - [../../Schema/Anchor-Schema.md](../../Schema/Anchor-Schema.md) — reward sources + trust dynamics
 - [../../Schema/Personal-Melody.md](../../Schema/Personal-Melody.md) — baseline shift mechanism
@@ -575,26 +583,26 @@ Final integration of all 4 sub-folders + drilled triples (H8/H9/Body-Feedback-Pr
 
 Not actionable at this file level (pure synthesis). The following questions are **forwarded** to deep-drill files:
 
-1. **How exactly does PFC hardware reframe change F1 methodology?** → [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) §6
+1. **How exactly does the PFC hardware reframe change F1 methodology?** → [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) §6
 2. **What is the prenatal baseline state concretely?** → [02-Womb-to-Birth-Baseline.md](02-Womb-to-Birth-Baseline.md) §2-§5
 3. **Why is interoception the keystone body-input?** → [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) §6 (Precondition-2 link)
-4. **How do multi-modal chunks bind without a coordinator?** → [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6 (social smile E12 + Nút Thắt 3)
-5. **What does verbal label add to pre-existing chunks?** → [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §5 (Nút Thắt 6)
+4. **How do multi-modal chunks bind without a coordinator?** → [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6 (social smile E12 + Convergence Point 3)
+5. **What does a verbal label add to pre-existing chunks?** → [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §5 (Convergence Point 6)
 6. **Why is comprehension consistently before production?** → [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §6 (H11 formalization)
 
 ---
 
 ## §10 — Status + Next Step
 
-**Status**: 00-Sketch DRAFT complete (~650 lines target, orientation function). Reader should now have mental model for:
+**Status**: 00-Sketch DRAFT complete (~650 lines target, orientation function). Reader should now have a mental model for:
 - 3-layer architecture (Body-Feedback L1 ✅ / Chunk L2 🎯 / Feeling L3 ⏳)
-- Chunk System basics (what is a chunk, 4 compile mechanisms, vô thức/PFC split)
+- Chunk System basics (what is a chunk, 4 compile mechanisms, unconscious/PFC split)
 - Chunk-Analysis 4-folder mechanism architecture (F1/F3/F4/99)
 - 3 drilled sub-folders contribution (H8/H9/Body-Feedback-Precondition triangulation)
-- F1 v3 mission (4 architectural commitments + 7 nút thắt + 12 files + 3-session split)
+- F1 v3 mission (4 architectural commitments + 7 Convergence Points + 12 files + 3-session split)
 - Reading paths + style conventions
 
-**Next file**: [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) — deep drill foundation file for PFC hardware online vs compiled content missing architectural reframe. ~800-1100 lines target. Phase F1-P2 in Session N+4a drill sequence.
+**Next file**: [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) — deep drill foundation file for the PFC hardware online vs compiled content missing architectural reframe. ~800-1100 lines target. Phase F1-P2 in Session N+4a drill sequence.
 
 **After 01**: [02-Womb-to-Birth-Baseline.md](02-Womb-to-Birth-Baseline.md) — prenatal default smooth + first cry cascade + empirical Q&A from user (§0.5 Q5-Q6 of plan). ~800-1000 lines target. Phase F1-P3.
 

@@ -1,88 +1,81 @@
-# Feeling Sources — Các Nguồn Của Feeling Theo Body Channel
+---
+title: "Feeling-Sources — WHERE Feelings Come From: 10-Channel Body Map"
+version: 1.0
+created: "2026-04-13"
+status: DRAFT v1.0
+scope: "Source map — 10 body channels that produce feelings"
+language: English primary
+purpose: >
+  Maps body channels → feelings they produce.
+  10+ sources, 50+ examples, case study "I love you" decomposed.
+  File 2/4 of Feeling/ folder.
+reading_flow: >
+  Feeling.md (foundation) →
+  Feeling-Sources-Draft.md (THIS FILE — WHERE feelings come from) →
+  ├── Feeling-Accuracy-Draft.md (HOW PFC reads feelings)
+  └── Feeling-Research.md (research foundation)
+prerequisites:
+  - Feeling.md §1 (definition) + §2 (7-layer structure)
+  - Core-Software.md §2 (Body-Base L0+L1 substrate)
+  - Domain/Valence.md (multi-channel evaluation)
+  - Domain/Domain-Mechanisms.md §1 (mirror mechanism)
+  - Imagine-Final.md (preview mechanism)
+  - Body-Dissonance.md (14+ specific signals)
+confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
+---
 
-> **"Đói" đến từ dạ dày. "Cô đơn" đến từ agent input deficit.**
-> **"Cảm thấy bạn ấy không thật thà" đến từ mirror.**
-> **"Bình yên khi về nhà" đến từ schema. "Sẽ mưa" đến từ prediction.**
-> **"Yêu em" đến từ 9+ channels fire cùng lúc.**
+# Feeling-Sources — WHERE Feelings Come From: 10-Channel Body Map
+
+> *"Hungry" comes from the stomach. "Lonely" comes from agent input deficit.*
+> *"Something feels off about them" comes from the mirror system.*
+> *"At peace when I get home" comes from schema. "It's going to rain" comes from prediction.*
+> *"I love you" comes from 9+ channels firing simultaneously.*
 >
-> Mỗi feeling có NGUỒN cụ thể trong body. Nhưng source KHÔNG phải
-> luôn rõ — multi-source integration làm PFC khó decompose.
+> Every feeling has a specific SOURCE in the body. But the source is NOT
+> always clear — multi-source integration makes it hard for PFC to decompose.
 >
-> File này: MAP từ body channels → feelings chúng produce.
-> 10+ sources, 50+ examples, case study "yêu em" decomposed.
+> This file: MAP from body channels → the feelings they produce.
+> 10+ sources, 50+ examples, case study "I love you" decomposed.
 
 ---
 
-> **Trạng thái:** DRAFT v1.0 — file 2/4 của Feeling/ folder
-> **Ngày:** 2026-04-13
-> **Mục đích:** Map nguồn của feelings theo body channels. Cho mỗi
-> channel: mechanism, feeling manifestations, examples, characteristics,
-> PFC accuracy note. Case study "yêu em" decompose 9+ channels.
-> **Vị trí:** Core-Deep-Dive/Feeling/ (file 2/4)
-> **Flow đọc:**
->   Feeling.md (foundation — definition + 7 layers + loop)
->   **Feeling-Sources.md** (file NÀY — WHERE feelings come from)
->   ├── Feeling-Accuracy.md (HOW PFC reads feelings)
->   └── Feeling-Research.md (RESEARCH foundation)
-> **Tiền đề:**
->   Feeling.md §1 (definition) + §2 (7-layer structure)
->   Core-v7.5-Draft.md §2 (Body-Base L0+L1 substrate)
->   Domain/Valence.md (multi-channel evaluation)
->   Domain/Domain-Mechanisms.md §1 (mirror mechanism)
->   Imagine-Final.md (preview mechanism)
->   Body-Dissonance.md (14+ specific signals)
-> **Liên quan mainstream:**
->   🟢 Craig interoception afferent pathways (2002, 2013)
->   🟢 Panksepp 7 affective systems (SEEKING, FEAR, CARE,...)
->   🟢 Gallese embodied simulation (mirror-based feelings)
->   🟢 Eisenberger social pain = physical pain (2003)
->   🟢 Barrett emotional granularity (2017)
->   🟢 de Becker survival intuition (1997) 🟡
->   🟢 Ambady thin-slice social reading (1993)
->   🟢 Kounios insight/aha research (2014)
->   🟢 Klein naturalistic decision making (1998)
-> **⚠️ 🟢 Core sources + 🟡 Framework mapping — channel-to-feeling taxonomy là framework organizing**
-> **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
+## Table of Contents
+
+- §0 — Overview
+- §1 — L0 Threat Channel Feelings
+- §2 — L1 Physiological / Interoceptive Feelings
+- §3 — L2 Experience / Novelty Feelings
+- §4 — Mastery / Meaning / Status (Evaluative) Feelings
+- §5 — Agent Input Channel Feelings
+- §6 — Mirror-Generated Feelings
+- §7 — Schema-Triggered Feelings
+- §8 — Imagine-Final Preview Feelings
+- §9 — Valence Compiled Feelings
+- §10 — Cognitive / Prediction Feelings
+- §11 — 7 Categories of Feelings (Regrouped by Phenomenal Type)
+- §12 — Case Study: "I Love You" Decomposed
+- §13 — Honest Assessment
+- §14 — Cross-References
 
 ---
 
-## Mục lục
-
-- §0 — OVERVIEW
-- §1 — L0 THREAT CHANNEL FEELINGS
-- §2 — L1 PHYSIOLOGICAL / INTEROCEPTIVE FEELINGS
-- §3 — L2 EXPERIENCE / NOVELTY FEELINGS
-- §4 — MASTERY / MEANING / STATUS (evaluative) FEELINGS
-- §5 — AGENT INPUT CHANNEL FEELINGS
-- §6 — MIRROR-GENERATED FEELINGS
-- §7 — SCHEMA-TRIGGERED FEELINGS
-- §8 — IMAGINE-FINAL PREVIEW FEELINGS
-- §9 — VALENCE COMPILED FEELINGS
-- §10 — COGNITIVE / PREDICTION FEELINGS
-- §11 — 7 CATEGORIES OF FEELINGS (revisited với examples)
-- §12 — CASE STUDY: "Yêu em" Decomposed
-- §13 — HONEST ASSESSMENT
-- §14 — CROSS-REFERENCES
-
----
-
-## §0 — OVERVIEW
+## §0 — Overview
 
 ```
-🟡 FEELINGS CÓ NHIỀU NGUỒN — KHÔNG PHẢI 1:
+🟡 FEELINGS HAVE MULTIPLE SOURCES — NOT ONE:
 
-  Framework trước file này đã mention nhiều sources rải rác.
-  File này tập trung LIỆT KÊ và MAP rõ ràng:
+  The framework has mentioned sources scattered across prior files.
+  This file focuses on MAPPING them clearly:
 
 
-  10+ CHANNELS CÓ THỂ PRODUCE FEELINGS:
+  10+ CHANNELS THAT CAN PRODUCE FEELINGS:
 
   ┌─────────────────────────────────────────────────────────────┐
   │                                                              │
   │  ① L0 THREAT              → threat feelings                 │
   │  ② L1 PHYSIOLOGICAL       → body state feelings             │
   │  ③ L2 EXPERIENCE          → novelty/boredom feelings        │
-  │  ④ MASTERY/MEANING (evaluative)     → meaning/status feelings         │
+  │  ④ MASTERY/MEANING (evaluative)  → meaning/status feelings  │
   │  ⑤ AGENT INPUT            → social presence feelings        │
   │  ⑥ MIRROR                 → others' state feelings          │
   │  ⑦ SCHEMA                 → compiled knowledge feelings     │
@@ -90,7 +83,7 @@
   │  ⑨ VALENCE                → compiled valence feelings       │
   │  ⑩ COGNITIVE/PREDICTION   → rightness/wrongness feelings    │
   │                                                              │
-  │          ↓ TẤT CẢ fire đồng thời, continuous               │
+  │          ↓ ALL fire simultaneously, continuously            │
   │                                                              │
   │  INTEGRATION HUB (insula + ACC + VMPFC)                    │
   │                                                              │
@@ -102,32 +95,32 @@
 
 
   CRITICAL POINT:
-    → Feelings thường đến từ NHIỀU channels cùng lúc
-    → 1 feeling = 1 label PFC dùng cho multi-source state
-    → Decompose khó (case study §12 cho thấy tại sao)
+    → Feelings usually come from MULTIPLE channels simultaneously
+    → 1 feeling label = PFC's compression of a multi-source state
+    → Decomposition is HARD (case study §12 shows why)
     → Wise approach: trust the unified feeling,
-      be humble về decompose attempts
+      be humble about decomposition attempts
 
 
-  WHY CẦN FILE NÀY:
-    → Framework trước mention sources rải rác — chưa unified map
-    → Reader cần biết "khi cảm thấy X, có thể đến từ đâu"
-    → Literacy training cần vocabulary để tra sources
-    → Case study "yêu em" minh họa multi-source compression
+  WHY THIS FILE IS NEEDED:
+    → Prior framework files mentioned sources without a unified map
+    → Readers need to know "when I feel X, where could it come from?"
+    → Literacy training needs vocabulary to trace sources
+    → Case study "I love you" illustrates multi-source compression
 
 
-  CẤU TRÚC FILE:
+  FILE STRUCTURE:
     §1-4: body-base levels (L0+L1 substrate + evaluative)
-    §5: Agent input (body-base need riêng, cấp độ sâu)
-    §6-10: 5 cơ chế khác tạo feelings (mirror, schema, imagine-final, valence, cognitive)
-    §11: 7 categories view (regrouping by phenomenal type)
+    §5: Agent input (a distinct body-base need)
+    §6-10: 5 other mechanisms producing feelings (mirror, schema, imagine-final, valence, cognitive)
+    §11: 7 categories view (regrouped by phenomenal type)
     §12: Case study decomposition
-    §13-14: Assessment + cross-refs
+    §13-14: Assessment + cross-references
 ```
 
 ---
 
-## §1 — L0 THREAT CHANNEL FEELINGS
+## §1 — L0 Threat Channel Feelings
 
 ```
 🟢 L0 — THREAT CHANNEL:
@@ -135,14 +128,14 @@
   Mechanism:
     → Amygdala threat detection (LeDoux 1996) 🟢
     → HPA axis activation → cortisol release
-    → Sympathetic nervous system
-    → Fast pathway (thalamus → amygdala, 12ms)
+    → Sympathetic nervous system activation
+    → Fast pathway (thalamus → amygdala, ~12ms)
     → Slow pathway (thalamus → cortex → amygdala, 40ms+)
 
   Purpose:
     → Survival — detect danger BEFORE conscious thought
     → Evolution: "better safe than sorry" bias
-    → False positive tolerable, false negative lethal
+    → False positive tolerable; false negative lethal
 
   Feeling characteristics:
     → FAST (milliseconds)
@@ -154,51 +147,52 @@
 
   EXAMPLES:
 
-    "Cảm thấy có gì đó không ổn" (đi đêm trong hẻm vắng)
-      → L0 fire từ: lighting, silence, spatial compression
+    "Something doesn't feel right" (walking alone at night)
+      → L0 fires from: lighting, silence, spatial compression
       → Body knows before PFC can articulate
 
-    "Cảm thấy người kia nguy hiểm"
-      → L0 read from: micro-expressions, posture, proximity
+    "That person feels dangerous"
+      → L0 reads from: micro-expressions, posture, proximity
       → Often accurate, PFC can't always explain why
 
-    "Cảm thấy bị theo dõi"
+    "I feel like I'm being watched"
       → Sensory pickup of attention from others
       → Thin-slice detection (Ambady 1993) 🟢
 
-    "Rùng mình khi nghĩ tới đó"
-      → Schema-triggered L0 (thinking → memory → L0 fire)
+    "I shudder just thinking about that place"
+      → Schema-triggered L0 (thinking → memory → L0 fires)
       → Note: schema channel feeds L0 retrospectively
 
-    "Cảm thấy không muốn đi đường đó hôm nay"
+    "Something tells me not to take that route today"
       → Predictive L0, source unclear
       → Gavin de Becker "Gift of Fear" (1997): trust these 🟡
 
 
   PFC ACCURACY:
     → Feel-Consciousification (noticeable): HIGH — body reliable
-    → Feel-Observation (observe): MEDIUM — often override or dismiss
+    → Feel-Observation (observe): MEDIUM — often overridden or dismissed
     → Feel-Location (locate): LOW — "whole body" feeling
     → Feel-Labeling (label): MEDIUM — "fear", "unease", "bad feeling"
     → Feel-Explanation (explain): LOW — confabulation high
 
   LITERACY IMPLICATION:
-    → Trust Feel-Consciousification–Feel-Observation L0 signals especially in unfamiliar contexts
-    → Don't rationalize away "bad feeling" about person/place
-    → But verify when possible — L0 also has false positives
+    → Trust Feel-Consciousification–Feel-Observation L0 signals,
+      especially in unfamiliar contexts
+    → Don't rationalize away a "bad feeling" about a person or place
+    → But verify when possible — L0 also generates false positives
     → Anxiety disorders = L0 chronic over-activation
 
 
   Research:
     🟢 LeDoux 1996 "The Emotional Brain"
-    🟢 Amygdala threat detection (many studies)
+    🟢 Amygdala threat detection (multiple studies)
     🟡 de Becker 1997 (practical, not peer-reviewed)
     🟢 Ambady & Rosenthal 1993 thin slices
 ```
 
 ---
 
-## §2 — L1 PHYSIOLOGICAL / INTEROCEPTIVE FEELINGS
+## §2 — L1 Physiological / Interoceptive Feelings
 
 ```
 🟢 L1 — PHYSIOLOGICAL / INTEROCEPTIVE CHANNEL:
@@ -213,10 +207,10 @@
     → Maintain homeostasis
     → Signal deficits (hunger, thirst, fatigue)
     → Signal damage (pain, illness)
-    → Body ↔ brain communication continuous
+    → Continuous body ↔ brain communication
 
   Feeling characteristics:
-    → MEDIUM-SLOW timescale (minutes-hours typically)
+    → MEDIUM-SLOW timescale (minutes to hours typically)
     → LOCATION ACCURACY VARIES (somatic HIGH, visceral LOW)
     → Graduated intensity (mild → acute → severe)
     → Often ignored until critical
@@ -225,53 +219,53 @@
   EXAMPLES by subcategory:
 
   ── HUNGER / THIRST / SATIETY ──
-    "Đói" (gastric signals, ghrelin)
-    "Khát" (osmotic + HR, vasopressin)
-    "No" (stretch receptors stomach)
-    "Thèm" (specific — sweet, salty, fat, protein)
-    "Thấy ngấy" (satiation for current food type)
+    Hunger (gastric signals, ghrelin)
+    Thirst (osmotic + heart rate, vasopressin)
+    Full / satiated (gastric stretch receptors)
+    Craving (specific — sweet, salty, fat, protein)
+    Cloyed / oversatiated (satiation for current food type)
 
   ── FATIGUE / REST ──
-    "Mệt" (systemic fatigue, multi-source)
-    "Kiệt sức" (severe depletion)
-    "Muốn ngủ" (circadian + homeostatic pressure)
-    "Uể oải" (morning grogginess, sleep inertia)
-    "Năng lượng tràn trề" (well-rested state)
+    Tired (systemic fatigue, multi-source)
+    Exhausted (severe depletion)
+    Sleepy (circadian + homeostatic pressure)
+    Groggy (morning sluggishness, sleep inertia)
+    Energized / full of energy (well-rested state)
 
   ── PAIN / DISCOMFORT ──
-    "Đau bụng chỗ này" (visceral — LOW location accuracy)
-    "Chân tê" (somatic — HIGH location accuracy)
-    "Nhức đầu" (vascular/muscular/tension)
-    "Đau cơ sau tập" (DOMS)
-    "Ngứa chân" (local somatic, precise)
-    "Rát cổ họng" (mucosal)
+    Stomach ache, "somewhere here" (visceral — LOW location accuracy)
+    Numb foot (somatic — HIGH location accuracy)
+    Headache (vascular/muscular/tension)
+    Muscle soreness after exercise (DOMS)
+    Itchy leg (local somatic, precise)
+    Sore throat (mucosal)
 
   ── TEMPERATURE ──
-    "Lạnh" (hypothalamus → shivering, vasoconstriction)
-    "Nóng" (sweating, vasodilation)
-    "Rét run"
-    "Bị sốt" (hyperthermia, interleukin signaling)
+    Cold (hypothalamus → shivering, vasoconstriction)
+    Hot (sweating, vasodilation)
+    Chilled, shivering
+    Feverish (hyperthermia, interleukin signaling)
 
   ── RESPIRATION / HEART ──
-    "Khó thở" (chemoreceptors, CO2)
-    "Tim đập nhanh" (sympathetic activation)
-    "Ngộp thở" (panic or physical)
-    "Thở dốc" (exertion)
+    Short of breath (chemoreceptors, CO2)
+    Heart racing (sympathetic activation)
+    Suffocating (panic or physical)
+    Breathing hard (exertion)
 
   ── SEXUAL / AROUSAL ──
-    "Thèm" (sexual arousal)
-    "Gợi cảm" (stimulation response)
-    (Note: highly cultural in labeling, body mechanism universal)
+    Sexual desire / craving
+    Physical arousal response
+    (Note: highly culturally variable in labeling; body mechanism universal)
 
 
   LOCATION ACCURACY SUBTLETY:
     Somatic pain (skin, muscle): HIGH accuracy
-      → "Đau ngón tay út bên phải" = precise
+      → "Pain in my right pinky finger" = precise
     Visceral pain (organs): LOW accuracy
-      → "Đau bụng" = approximate, referred pain common
+      → "Stomach hurts" = approximate, referred pain common
       → Heart attack → arm/jaw pain (referred)
       → Appendicitis → initially generalized, later localizes
-    → Expert (doctor, experienced patient) learns discrimination
+    → Experts (doctors, experienced patients) learn to discriminate
 
 
   PFC ACCURACY:
@@ -280,14 +274,14 @@
     → Feel-Location: VARIES (somatic HIGH, visceral LOW)
     → Feel-Labeling: HIGH for common feelings, LOW for subtle
     → Feel-Explanation: MEDIUM — often confused with emotional states
-      (VD: hunger → anger, "hangry"; thirst → fatigue)
+      (e.g., hunger → irritability, "hangry"; thirst → fatigue)
 
 
   LITERACY IMPLICATION:
-    → Before labeling emotion, check physiological basics
-    → "Am I hungry? Thirsty? Tired? In pain? Needing movement?"
+    → Before labeling an emotion, check physiological basics:
+      "Am I hungry? Thirsty? Tired? In pain? Need to move?"
     → Simple check prevents many mislabels at Feel-Labeling–Feel-Explanation
-    → Pain literacy: describe quality + location + quality + timing
+    → Pain literacy: describe quality + location + character + timing
 
 
   Research:
@@ -299,7 +293,7 @@
 
 ---
 
-## §3 — L2 EXPERIENCE / NOVELTY FEELINGS
+## §3 — L2 Experience / Novelty Feelings
 
 ```
 🟢 L2 — EXPERIENCE / NOVELTY CHANNEL:
@@ -318,36 +312,36 @@
 
   Feeling characteristics:
     → MEDIUM timescale (seconds to hours)
-    → Positive valence usually
+    → Positive valence typically
     → Context-dependent intensity
     → Habituation-sensitive
 
 
   EXAMPLES:
 
-    "Chán" (habituation, reduced dopamine SEEKING)
+    Bored (habituation, reduced dopamine SEEKING)
       → Same stimulus, reduced novelty
       → Signal to seek new input
 
-    "Thú vị" (novelty reward fire)
+    Interested / engaged (novelty reward fires)
       → New pattern detected
       → Engagement up
 
-    "Tò mò" (SEEKING drive active)
+    Curious (SEEKING drive active)
       → Information gap detected
       → Motivation to fill
 
-    "Cảm thấy bị thu hút" (approach drive)
+    Drawn to something / attracted (approach drive)
       → Novelty + positive prediction
       → Body moves toward stimulus
 
-    "Thích thú" (sustained positive engagement)
+    Fascinated (sustained positive engagement)
       → Novelty + mastery interaction
 
-    "Phấn khích" (high arousal + positive valence)
+    Excited (high arousal + positive valence)
       → Novelty at peak + anticipation
 
-    "Chán nản" (negative valence when nothing novel)
+    Restless / unsatisfied (negative valence when nothing novel)
       → L2 deficit signal
 
 
@@ -355,11 +349,11 @@
     → First exposure: high novelty reward
     → Repeated exposure: adaptation
     → Asymptote: minimal reward
-    → → "Chán" signals need for new input
+    → → Boredom signals need for new input
 
     Counter: deliberate novelty injection
-    → "Cuộc sống hằng ngày" → boring
-    → "Trip / new activity" → novelty refresh
+    → Same daily routine → boring
+    → New trip / new activity → novelty refresh
 
 
   PFC ACCURACY:
@@ -370,10 +364,10 @@
 
 
   LITERACY IMPLICATION:
-    → Recognize "chán" as body signal, not personal failing
-    → Respond với deliberate novelty (not just distraction)
-    → "Tò mò" as valuable compass for learning/creativity
-    → Avoid habituation by varying contexts
+    → Recognize boredom as a body signal, not a personal failing
+    → Respond with deliberate novelty (not just distraction)
+    → Curiosity as a valuable compass for learning and creativity
+    → Vary contexts to avoid habituation
 
 
   Research:
@@ -384,7 +378,7 @@
 
 ---
 
-## §4 — MASTERY / MEANING / STATUS (evaluative) FEELINGS
+## §4 — Mastery / Meaning / Status (Evaluative) Feelings
 
 ```
 🟢 MASTERY / MEANING / STATUS (evaluative observation parameters):
@@ -397,12 +391,12 @@
 
   Purpose:
     → Drive competence development
-    → Maintain meaning/purpose
+    → Maintain meaning and purpose
     → Navigate social hierarchy
     → Long-term life optimization
 
   Feeling characteristics:
-    → LONG timescale (hours-years)
+    → LONG timescale (hours to years)
     → Schema-mediated (compiled, not raw)
     → Self-concept dependent
     → Culturally shaped
@@ -411,92 +405,92 @@
   EXAMPLES:
 
   ── MASTERY ──
-    "Tự tin" (compiled mastery history fires)
+    Confident (compiled mastery history fires)
       → Schema: "I've done this before, I can do it"
-    "Tự hào" (achievement recognized)
+    Proud (achievement recognized)
       → Reward system + self-schema fire
-    "Vô dụng" (mastery deficit)
-      → Self-schema "I can't do anything right"
-    "Có khả năng" (skill ownership)
+    Worthless / useless (mastery deficit)
+      → Self-schema: "I can't do anything right"
+    Capable / competent (skill ownership)
       → Mastery history compiled into identity
-    "Bất lực" (learned helplessness)
-      → Chronic deficit + schema calcified
+    Helpless (learned helplessness)
+      → Chronic deficit + calcified schema
 
   ── MEANING ──
-    "Có ý nghĩa" (meaning schema fire)
+    Meaningful / purposeful (meaning schema fires)
       → Current activity aligned with deep schema
-    "Vô nghĩa" (meaning deficit)
+    Meaningless / empty (meaning deficit)
       → Activity disconnected from schema
-    "Đúng hướng" (path alignment feeling)
+    On the right path (trajectory alignment)
       → Long-term trajectory feels coherent
-    "Lạc lối" (disorientation)
+    Lost / directionless (disorientation)
       → Schema about future unclear
-    "Sống sót qua ngày" (bare meaning)
+    Just surviving (bare meaning)
       → Survival mode, meaning thin
 
   ── STATUS ──
-    "Được tôn trọng" (status received)
+    Respected (status received)
       → Others' behavior signals status high
-    "Bị hạ thấp" (status violation)
+    Put down / diminished (status violation)
       → Others' behavior signals status low
-    "Ngang hàng" (status parity)
+    On equal footing (status parity)
       → Comfortable baseline
-    "Hơn hẳn" (status dominance)
-      → Some people seek, some avoid
-    "Xấu hổ" (public status loss)
+    Clearly superior (status dominance)
+      → Some people seek this, some avoid
+    Ashamed / embarrassed (public status loss)
       → Social signal of status threat
-    "Tự ti" (chronic status deficit)
+    Insecure / chronically low self-esteem (chronic status deficit)
       → Self-schema about status calcified
 
 
   SCHEMA-MEDIATED NATURE:
-    → Evaluative feelings KHÔNG phải "raw input"
-    → Evaluative feelings = schema firing about body state
-    → Schema built from years of history
-    → → Changes slowly, feels deeply
+    Evaluative feelings are NOT "raw input."
+    Evaluative feelings = schema firing ABOUT body state.
+    Schema built from years of history.
+    → Changes slowly, feels deeply.
 
   Example decomposition:
-    "Vô dụng" (feeling) =
-      + self-schema ("tôi")
-      + history compiled ("đã nhiều lần fail")
-      + current context (failed task)
-      + valence negative
-    → Fires as 1 feeling "vô dụng" but is multi-channel
+    "I'm worthless" (feeling) =
+      + self-schema ("I")
+      + compiled history ("I've failed many times")
+      + current context (just failed a task)
+      + negative valence
+    → Fires as 1 feeling "worthless" but is multi-channel
 
 
   PFC ACCURACY:
     → Feel-Consciousification: HIGH (body deeply engaged)
     → Feel-Observation: HIGH
     → Feel-Location: HARD — often "whole body" or "chest/stomach"
-    → Feel-Labeling: HIGH for common, LOW for subtle
+    → Feel-Labeling: HIGH for common feelings, LOW for subtle ones
     → Feel-Explanation: OFTEN WRONG — rationalization heavy
 
 
   LITERACY IMPLICATION:
     → Evaluative feelings encode long-term patterns
-    → Don't dismiss as "just emotions"
-    → But also: don't react to Evaluative feelings as immediate truth
-    → Verify schema — is it still accurate?
+    → Don't dismiss them as "just emotions"
+    → But: don't react to evaluative feelings as immediate truth
+    → Verify the schema — is it still accurate today?
     → Therapy often addresses evaluative schema updates
 
 
   Research:
     🟢 Ventral striatum long-term reward
     🟢 mPFC self-referential processing
-    🟢 Social comparison research (Festinger 1954 classic)
+    🟢 Social comparison research (Festinger 1954, classic)
     🟢 Learned helplessness (Seligman 1967)
 ```
 
 ---
 
-## §5 — AGENT INPUT CHANNEL FEELINGS
+## §5 — Agent Input Channel Feelings
 
 ```
 🟢 AGENT INPUT — A BODY-BASE NEED (independent channel):
 
   Framework insight (Domain-Interaction.md):
-    Agent input = body-base need REAL, not just "social nice-to-have"
-    Body requires presence of other agents để regulate
+    Agent input = a REAL body-base need, not merely "nice social experience."
+    The body requires the presence of other agents to self-regulate.
 
   Research support:
     🟢 Social Baseline Theory (Coan 2015) — brain defaults to social
@@ -507,13 +501,13 @@
 
 
   Mechanism:
-    → Oxytocin (binding, trust)
-    → Co-regulation of HR, cortisol, autonomic state
+    → Oxytocin (bonding, trust)
+    → Co-regulation of heart rate, cortisol, autonomic state
     → Mirror system activation (continuous background)
     → Ventral vagal (Porges polyvagal) 🟡
 
   Purpose:
-    → Body needs other bodies để thrive
+    → Body needs other bodies to thrive
     → Social presence recalibrates internal state
     → Agent input = primary regulation channel
 
@@ -521,73 +515,73 @@
   FEELING MANIFESTATIONS:
 
   ── AGENT PRESENT (sufficient) ──
-    "Ấm áp khi ở gần mẹ"
+    Warmth and comfort near a loved one
       → Parasympathetic dominance + oxytocin
-    "An toàn khi có bạn"
+    Safe when with a close friend
       → Co-regulation, cortisol suppressed
-    "Kết nối với người kia"
-      → Mirror active + schema trust fire
-    "Bình yên khi ở cùng"
+    Connected to this person
+      → Mirror active + schema trust fires
+    At ease, calm in their presence
       → Deep regulation felt
-    "Không đơn độc"
+    Not alone
       → Baseline social need met
 
   ── AGENT ABSENT (deficit) ──
-    "Cô đơn" (acute agent deficit)
+    Lonely (acute agent deficit)
       → Body signals need for presence
-    "Cô độc" (chronic agent deficit)
-      → Schema form around isolation
-    "Thèm người" (active agent craving)
+    Isolated (chronic agent deficit)
+      → Schema forms around isolation
+    Craving company / craving human contact (active agent craving)
       → Drive to seek contact
-    "Emptiness" (deep agent deficit)
+    Emptiness (deep agent deficit)
       → Chronic lack calcified
-    "Bị bỏ rơi" (expected agent missing)
+    Abandoned (expected agent missing)
       → Schema violation + L0 threat
-    "Nhớ ai đó" (specific agent absence)
-      → Particular agent needed
+    Missing a specific person (particular agent absent)
+      → That particular agent needed
 
   ── AGENT PARTIAL / MEDIATED ──
-    "Lẻ loi giữa đám đông"
+    Lonely in a crowd
       → People present but no real connection
-    "Gần mà xa"
-      → Physical proximity without psychic presence
-    "Bị ignore"
+    Close but distant
+      → Physical proximity without genuine presence
+    Ignored / invisible
       → Agent present but denying input
-    "Cô đơn online"
-      → Mediated agents not satisfying real need
+    Lonely online
+      → Mediated agents not satisfying the real need
 
 
   CRITICAL INSIGHT (Domain-Interaction.md):
-    Agent input KHÔNG phải "wants" — là biological NEED.
-    Body suffers real damage from agent deprivation,
-    just like water or food deprivation.
+    Agent input is NOT a "want" — it is a biological NEED.
+    The body suffers real damage from agent deprivation,
+    just as it does from water or food deprivation.
 
-    → Reframes loneliness: not "weakness", it's body distress signal
-    → Reframes love: not "luxury", it's regulation infrastructure
-    → Reframes solitary confinement: it's torture, physiologically
+    → Reframes loneliness: not "weakness" — it's a body distress signal
+    → Reframes love: not "luxury" — it's regulation infrastructure
+    → Reframes solitary confinement: torture, physiologically
 
 
   MODERN ERA COMPLICATION:
-    → Agent input = in-person, face-to-face evolved
-    → Modern: text, video, para-social, crowds
-    → Mediated agents: partial substitute, not full
-    → "Lonely in crowd" phenomenon real
-    → Social media can paradoxically DEEPEN deficit
+    → Agent input evolved for in-person, face-to-face contact
+    → Modern life: text, video, para-social relationships, crowds
+    → Mediated agents: partial substitute, not a full replacement
+    → "Lonely in a crowd" phenomenon is real
+    → Social media can paradoxically DEEPEN the deficit
 
 
   PFC ACCURACY:
-    → Feel-Consciousification: MEDIUM — often normalized as "life"
+    → Feel-Consciousification: MEDIUM — often normalized as "just life"
     → Feel-Observation: VARIES — cultures vary in attention to loneliness
     → Feel-Labeling: HIGH for acute, LOW for chronic
-    → Feel-Explanation: OFTEN WRONG — "I just need more work",
+    → Feel-Explanation: OFTEN WRONG — "I just need to be busier",
              "I'm fine alone", etc.
 
 
   LITERACY IMPLICATION:
-    → Recognize agent deficit as body signal, not personal defect
-    → Distinguish quantity (# of contacts) from quality (depth)
-    → "Cô đơn" = valid body signal, respond accordingly
-    → Don't rationalize need for presence away
+    → Recognize agent deficit as a body signal, not a personal defect
+    → Distinguish quantity (number of contacts) from quality (depth)
+    → Loneliness = valid body signal — respond accordingly
+    → Don't rationalize away the need for genuine presence
 
 
   Research:
@@ -600,16 +594,16 @@
 
 ---
 
-## §6 — MIRROR-GENERATED FEELINGS
+## §6 — Mirror-Generated Feelings
 
 ```
 🟢 MIRROR — FEELINGS ABOUT OTHERS' STATES:
 
   Mechanism (Domain-Mechanisms.md §1 in detail):
-    → Mirror = byproduct của agent processing
+    → Mirror = byproduct of agent processing
     → Pattern matching + own-state simulation + schema
     → Gallese embodied simulation (2007)
-    → Mirror neurons discovered Rizzolatti 1996
+    → Mirror neurons discovered by Rizzolatti 1996
 
   Purpose:
     → Predict agent behavior
@@ -620,84 +614,84 @@
   Feeling characteristics:
     → FAST (milliseconds to seconds)
     → Source often MISATTRIBUTED to self
-    → Thin-slice accuracy surprising
+    → Thin-slice accuracy surprisingly high
     → Contagious
 
 
   EXAMPLES:
 
   ── READING OTHERS ──
-    "Cảm thấy người kia không tin tưởng"
-      → Mirror reads micro-tension, eye avoidance
-      → PFC often can't explain source
-    "Cô ấy đang che giấu gì đó"
+    "I sense they're not being honest"
+      → Mirror reads micro-tension, gaze avoidance
+      → PFC often can't explain the source
+    "She's hiding something"
       → Incongruence detection
       → Thin-slice via Ambady research 🟢
-    "Người kia rất tốt bụng"
+    "That person is genuinely kind"
       → Positive pattern recognition
-    "Anh ấy đang buồn" (dù nói "tôi ổn")
+    "He says he's fine, but he's not"
       → Mirror reads body truth over verbal claim
-    "Cảm thấy người này sắp nổi giận"
+    "They're about to get angry"
       → Pre-anger somatic cues detected
 
   ── GROUP / ATMOSPHERE ──
-    "Không khí tense trong phòng"
+    "The tension in the room is palpable"
       → Multi-agent mirror integration
       → Body reads collective state
-    "Vibe không ổn"
-      → Similar to above, popular term
-    "Không khí thoải mái"
+    "The vibe is off"
+      → Similar to above
+    "The room feels relaxed and easy"
       → Group regulated state
 
   ── EMOTIONAL CONTAGION ──
-    "Vui lây" (người kia vui → mình vui)
-      → Mirror + own-system fire
-    "Buồn lây" (contagious sadness)
-    "Căng thẳng lây"
+    "Their happiness lifted me" (catching another's joy)
+      → Mirror + own-system fires
+    "I got pulled into their sadness" (contagious sadness)
+    "I felt their stress come into me"
       → Cortisol mirror response
-    "Cười ngặt nghẽo vì người kia cười"
+    "I couldn't help laughing because they were laughing"
       → Deep mirror activation
 
   ── MIRROR REWARD / PUNISHMENT ──
-    "Thấy người kia khổ → mình khổ"
-      → Ventral empathy fire
-    "Thấy người kia vui → mình được thưởng"
+    "Watching them suffer made me feel awful"
+      → Ventral empathy fires
+    "Seeing them succeed felt like a win for me too"
       → Vicarious reward
-    "Thấy em bé cười → ấm lòng"
+    "A baby smiling fills me with warmth"
       → Care system activation
 
 
   KEY INSIGHT FROM DOMAIN-MECHANISMS.MD:
-    Mirror feelings KHÔNG đến từ "empathy system riêng".
-    Mirror = 3 cơ chế:
+    Mirror feelings do NOT come from a separate "empathy system."
+    Mirror = 3 mechanisms:
       ① Pattern matching (pre-mirror, limbic)
       ② Agent modeling (mirror proper, 6-24m+)
       ③ Schema simulation (post-mirror, compiled)
 
-    Feelings từ mirror = OWN body firing NHƯ THỂ trải qua
-    what the other person is experiencing, WEAKER than real.
+    Feelings from mirror = OWN body firing AS IF experiencing
+    what the other person is experiencing — WEAKER than direct input.
 
 
   PFC ACCURACY:
     → Feel-Consciousification: HIGH — body simulation active
-    → Feel-Observation: OFTEN MISS — often "background" automatic
+    → Feel-Observation: OFTEN MISSED — often background, automatic
     → Feel-Location: HARD — "whole body" or "chest"
     → Feel-Labeling: MEDIUM — might mislabel as own feeling
     → Feel-Explanation: OFTEN WRONG — "I'm anxious because..."
-             (actually catching other's anxiety)
+             (actually catching the other person's anxiety)
 
 
   MIRROR MISATTRIBUTION (common error):
-    → Enter room, catch group anxiety → feel anxious
+    → Walk into a room, catch group anxiety → feel anxious
     → PFC: "I must be anxious about something"
     → Actually: mirroring others
     → Not a bug — mirror evolved for co-regulation
 
 
   LITERACY IMPLICATION:
-    → When feeling arises in social context, ask:
+    → When a feeling arises in a social context, ask:
       "Is this mine, or am I mirroring?"
-    → Distinction matters for response (own vs other)
+    → The distinction matters for response (own need vs other's state)
     → Therapists learn counter-transference = trained mirror awareness
 
 
@@ -712,7 +706,7 @@
 
 ---
 
-## §7 — SCHEMA-TRIGGERED FEELINGS
+## §7 — Schema-Triggered Feelings
 
 ```
 🟢 SCHEMA — FEELINGS FROM COMPILED KNOWLEDGE:
@@ -731,75 +725,75 @@
 
   Feeling characteristics:
     → Can fire INSTANTLY when pattern matches
-    → Often feels "from nowhere"
-    → Body responds as if actual input
+    → Often feels like it comes "from nowhere"
+    → Body responds as if actual input is present
     → Schema and reality can diverge
 
 
   EXAMPLES:
 
   ── POSITIVE SCHEMA ──
-    "Bình yên khi về nhà"
-      → Home schema fire, body relaxes
-    "Nostalgia nghe bài hát cũ"
+    "A wave of peace when I walk in the door at home"
+      → Home schema fires, body relaxes
+    "Nostalgia from hearing an old song"
       → Memory schema + feeling reactivated
-    "Cảm thấy Đức Mẹ bảo vệ"
+    "I feel protected, like something is watching over me" (religious)
       → Religious schema (Schema-Pure-Trust: pure logic-as-schema)
       → Ref: Domain/Agent-2Axis-Analysis.md
-    "Ấm áp khi nghĩ về tuổi thơ"
+    "Warmth when thinking about childhood"
       → Memory schema compiled positive
-    "Tin tưởng ngay khi gặp người này"
-      → Schema match with trusted pattern
+    "Immediate trust when I meet this person"
+      → Schema matches a trusted pattern
 
   ── NEGATIVE SCHEMA ──
-    "Rùng mình khi nghĩ tới nơi đó"
-      → Trauma schema fire, L0 activation
-    "Không muốn đi vào phòng đó"
-      → Schema associated với bad memory
-    "Lạnh người khi nghe tên đó"
-      → Schema + L0 threat fire
-    "Bụng đau khi nhớ chuyện đó"
+    "I shudder just thinking about that place"
+      → Trauma schema fires, L0 activates
+    "I don't want to walk into that room"
+      → Schema associated with a bad memory
+    "My blood runs cold when I hear that name"
+      → Schema + L0 threat fires
+    "My stomach hurts when I remember that incident"
       → Schema-generated physical response
 
   ── ABSTRACT SCHEMA ──
-    "Thấy công lý khi thắng vụ án"
-      → Schema "công lý" fire, satisfaction
-    "Bất công ghê gớm"
-      → Schema violation + L0-ish fire
-    "Tội lỗi"
+    "A sense of justice when winning that case"
+      → "Justice" schema fires, satisfaction
+    "Deep sense of injustice"
+      → Schema violation + L0-ish fires
+    "Guilt"
       → Moral schema + self-judgment
-    "Thiêng liêng"
-      → Sacred schema fire
+    "Sacred / holy" (reading scripture, entering a place of worship)
+      → Sacred schema fires
 
 
   BODY CANNOT DISTINGUISH SCHEMA vs REAL INPUT:
     Critical framework point:
-    → Body fires when schema fire
+    → Body fires when schema fires
     → Body fires when real input fires
     → SAME physiological response
     → → Schema-generated feeling is PHYSICALLY REAL
 
-    VD: "Nhớ tới người đã mất" → body grieves
-        (schema fire, real grief response)
-    VD: "Nghĩ tới deadline" → body stresses
-        (schema fire, real cortisol)
-    VD: "Đọc kinh sách" → body đạt peace state
-        (schema fire, real parasympathetic)
+    Example: Remembering someone who passed → body grieves
+        (schema fires, real grief response)
+    Example: Thinking about a deadline → body stresses
+        (schema fires, real cortisol)
+    Example: Reading scripture → body reaches a peaceful state
+        (schema fires, real parasympathetic activation)
 
 
   SCHEMA-TRIGGERED PAIN (psychogenic):
-    → Psychogenic pain = real pain, not "fake"
+    → Psychogenic pain = real pain, not "imagined"
     → Mechanism: schema fires pain circuits
     → Same neural pathways as "real" pain
-    → → Treatment: address schema, not dismiss pain
+    → → Treatment: address the schema, don't dismiss the pain
 
 
   ACCURACY SUBTLETY:
-    Schema fires based on pattern match — but pattern match
+    Schema fires based on pattern match — but the match
     can be WRONG:
     → Current situation ≠ past situation exactly
     → Schema fires reactive feeling anyway
-    → Person reacts to past, not present
+    → Person reacts to the PAST, not the PRESENT
     → → PTSD, triggered responses, prejudice
 
   → Wise: notice schema-fire, check against current reality
@@ -809,13 +803,13 @@
     → Feel-Consciousification: HIGH — body reacts fully
     → Feel-Observation: VARIES — often unnoticed until strong
     → Feel-Location: HARD — "whole body" typical
-    → Feel-Labeling: HIGH if schema has common name
+    → Feel-Labeling: HIGH if schema has a common name
     → Feel-Explanation: OFTEN WRONG — attributes to current, not past
 
 
   LITERACY IMPLICATION:
-    → When strong feeling arises, ask: "What schema is firing?"
-    → Is current situation matching ACCURATELY, or template?
+    → When a strong feeling arises, ask: "What schema is firing?"
+    → Is the current situation matching ACCURATELY, or is it a template?
     → Trauma work = updating schema responses
     → Therapy often = reconsolidation + schema update
 
@@ -830,103 +824,103 @@
 
 ---
 
-## §8 — IMAGINE-FINAL PREVIEW FEELINGS
+## §8 — Imagine-Final Preview Feelings
 
 ```
 🟢 IMAGINE-FINAL — FEELINGS FROM FUTURE PREVIEW:
 
   Mechanism (Imagine-Final.md detail):
     → PFC simulates possible future → body responds
-    → "As if" feelings, weaker than real but present
+    → "As-if" feelings, weaker than real but present
     → Core to Damasio's somatic marker hypothesis
 
   Purpose:
     → Preview outcomes before committing
-    → Guide decisions by feeling-based comparison
+    → Guide decisions through feeling-based comparison
     → Anticipatory planning
     → Risk assessment through felt sense
 
   Feeling characteristics:
     → VOLUNTARY or AUTOMATIC
     → Strength varies with simulation vividness
-    → Often rejected by logical thinking
-    → BUT trusted by wise decision-making (Damasio insight)
+    → Often dismissed by purely logical thinking
+    → BUT trusted by wise decision-making (Damasio's insight)
 
 
   EXAMPLES:
 
   ── POSITIVE PREVIEWS ──
-    "Kế hoạch này sẽ work" (felt conviction)
+    "This plan will work" (felt conviction)
       → Preview run, positive outcome felt
-    "Đây là ý tưởng tốt"
+    "This is a good idea"
       → Coherence detected in simulation
-    "Sẽ vui lắm"
+    "That's going to be great"
       → Anticipation preview
-    "Nhớ bạn" (thinking about future reunion)
-      → Preview reunion, mirror reward felt in advance
-    "Sẽ thành công"
+    "Thinking about seeing them again feels good"
+      → Preview reunion, vicarious reward felt in advance
+    "This is going to succeed"
       → Multiple simulation paths converge positive
 
   ── NEGATIVE PREVIEWS ──
-    "Sẽ bị reject"
+    "This is going to get rejected"
       → Preview of rejection, body contracts
-    "Điều này sẽ đi sai"
+    "Something about this is going to go wrong"
       → Multiple simulations find problems
-    "Sẽ hối hận"
+    "I'm going to regret this"
       → Post-hoc preview of regret
-    "Không thể sống thiếu X"
+    "I couldn't live without X"
       → Preview of absence, body responds
-    "Sẽ đau lòng khi mất"
+    "Losing this will hurt deeply"
       → Preview loss, grief anticipated
 
   ── ENVIRONMENT / PREDICTION ──
-    "Sẽ mưa"
+    "It's going to rain"
       → Body reads pressure, humidity, sky patterns
       → Prediction feeling, often accurate (weather sense)
-    "Hôm nay không nên đi đường đó"
+    "I shouldn't take that route today"
       → Predictive feeling, source often unclear
-    "Có chuyện gì sắp xảy ra"
-      → Vague anticipation, L0 mixed
+    "Something's about to happen"
+      → Vague anticipation, L0 mixed in
 
   ── DECISION PREVIEW ──
-    "Option A cảm thấy đúng"
-      → Preview A results better than B
-    "Option B cảm thấy tốt hơn"
+    "Option A feels right"
+      → Preview of A results better than B
+    "Option B feels better somehow"
       → Body votes (somatic marker)
-    "Cả hai đều không ổn"
+    "Neither option feels right"
       → Preview shows neither path satisfies
 
 
   DAMASIO'S KEY INSIGHT:
     VMPFC patients (Gage-type) retain logic but LOSE preview feelings.
     → Can reason about options
-    → Cannot FEEL differences
-    → Decision-making PARALYZED
+    → Cannot FEEL differences between them
+    → Decision-making becomes PARALYZED
     → → Feeling is NECESSARY for decision, not optional
 
-  Implication: "Rational decision" excluding feelings is IMPOSSIBLE.
-  Wise decisions INTEGRATE feeling-preview với logic analysis.
+  Implication: "Rational decision" excluding feeling is IMPOSSIBLE.
+  Wise decisions INTEGRATE feeling-preview with logical analysis.
 
 
   ACCURACY:
     → Depends on simulation accuracy
     → Expertise improves simulation (Klein 1998) 🟢
-    → Novice simulations often miss variables
+    → Novice simulations often miss key variables
     → Experienced practitioners trust preview feelings more
 
 
   PFC ACCURACY:
-    → Feel-Consciousification: HIGH when vivid simulation
-    → Feel-Observation: Depends on attention
+    → Feel-Consciousification: HIGH when simulation is vivid
+    → Feel-Observation: Depends on attention directed
     → Feel-Location: Often whole-body
     → Feel-Labeling: Usually labeled as "gut feeling", "intuition"
     → Feel-Explanation: Can be explained via simulation retrieval
 
 
   LITERACY IMPLICATION:
-    → Don't dismiss "gut feeling" about future
-    → Verify simulation quality (expertise)
-    → Run preview before important decisions
+    → Don't dismiss "gut feeling" about the future
+    → Verify simulation quality (depends on expertise)
+    → Run a preview before important decisions
     → Notice preview feelings even in small choices
 
 
@@ -939,20 +933,20 @@
 
 ---
 
-## §9 — VALENCE COMPILED FEELINGS
+## §9 — Valence Compiled Feelings
 
 ```
 🟢 VALENCE — FEELINGS FROM COMPILED ASSESSMENTS:
 
   Mechanism (Valence.md detail):
     → Repeated interactions compile into valence profiles
-    → Entity evaluated across multi-channel
-    → Compiled assessment fires as single feeling
+    → Entity evaluated across multiple channels
+    → Compiled assessment fires as a single feeling
     → Updated by new experience
 
   Purpose:
-    → Fast evaluation của familiar entities
-    → Don't re-compute from scratch
+    → Fast evaluation of familiar entities
+    → Don't recompute from scratch
     → Efficient domain navigation
     → Compressed meaning assignment
 
@@ -966,77 +960,77 @@
   EXAMPLES:
 
   ── POSITIVE VALENCE ──
-    "Thích cái cây kia"
+    "I love that tree"
       → Positive compile: aesthetic + history + schema
-    "Yêu căn nhà này"
+    "I love this house"
       → Multi-channel positive (safety, history, aesthetic)
-    "Mê con mèo"
+    "I adore this cat"
       → Agent input + novelty + aesthetic
-    "Thích quyển sách này"
+    "I love this book"
       → Cognitive fit + history + meaning
 
   ── NEGATIVE VALENCE ──
-    "Ghét cái tên này"
+    "I hate that name"
       → Compiled negative (association, phonetic, history)
-    "Không ưa người này"
+    "I just don't like this person"
       → Multi-channel negative (mirror + schema + valence)
-    "Chán món này"
+    "I'm sick of that food"
       → Habituation + taste decline
-    "Ghê căn phòng đó"
+    "That room gives me the creeps"
       → Threat + disgust + aesthetic negative
 
   ── COMPLEX VALENCE ──
-    "Yêu em" (case study §12 below)
+    "I love you" (case study §12 below)
       → 9+ channels converged
-    "Yêu mà cũng ghét"
+    "Love-hate"
       → Mixed valence (Valence.md §7)
-    "Vừa kính vừa sợ"
+    "Reverence mixed with fear"
       → Respect + fear compiled
-    "Vừa muốn vừa không"
+    "I want it but I don't"
       → Approach-avoid conflict
 
 
   SINGLE-WORD COMPRESSION:
     Valence feelings compress multi-channel state → 1 word.
     Compression ratio can be 9:1 or more.
-    → Information lost, functionality preserved
-    → PFC accesses "yêu" label, body knows full state
+    → Information lost, functionality preserved.
+    → PFC accesses the "love" label; body holds the full state.
 
   Example:
-    "Yêu em" →
+    "I love you" →
       + L0 safe
       + L1 calm regulation
       + L2 novelty still present
       + meaning schema active (evaluative)
-      + Agent input fulfilled deep
-      + Mirror + mutual
-      + Imagine-final positive preview
-      + Schema "em là người của tôi"
-      + Compiled valence strong positive
-    → Compressed to: "yêu"
+      + agent input fulfilled deeply
+      + mirror + mutual resonance
+      + imagine-final positive preview
+      + schema "they are mine"
+      + compiled valence strongly positive
+    → Compressed to: "love"
 
 
   WHY MULTI-CHANNEL FEELS INEFFABLE:
-    When asked "vì sao yêu em?" — honest answer is hard:
+    When asked "why do you love them?" — honest answer is hard:
     → Any single reason understates
-    → List of reasons feels mechanical
-    → "Vì em là em" = closest honest answer
-    → = acknowledge compression loss, don't force decompose
+    → A list of reasons feels mechanical
+    → "Because they're them" = closest honest answer
+    → = Acknowledge compression loss; don't force decomposition
 
   → Framework: "love feels ineffable" = compression phenomenon,
-    not mystical.
+    not mysticism.
 
 
   PFC ACCURACY:
     → Feel-Consciousification: HIGH — strong signal
     → Feel-Observation: HIGH if attending
     → Feel-Location: Whole-body typical
-    → Feel-Labeling: Single word (compression lossy but strong)
-    → Feel-Explanation: Hard to explain fully, justified attempts inadequate
+    → Feel-Labeling: Single word (compression lossy but powerful)
+    → Feel-Explanation: Hard to explain fully; justified attempts feel inadequate
 
 
   LITERACY IMPLICATION:
-    → Valence feelings encode lot of info
+    → Valence feelings encode a lot of compressed information
     → Don't dismiss "I just don't like this"
     → But: valences can be outdated or biased
     → Verify periodically: is this still accurate?
@@ -1051,7 +1045,7 @@
 
 ---
 
-## §10 — COGNITIVE / PREDICTION FEELINGS
+## §10 — Cognitive / Prediction Feelings
 
 ```
 🟢 COGNITIVE / PREDICTION — FEELINGS FROM THINKING:
@@ -1064,7 +1058,7 @@
 
   Purpose:
     → Signal cognitive rightness/wrongness
-    → Guide learning (what to attend)
+    → Guide learning (what to attend to)
     → Enable expert intuition
     → Alert to inconsistencies
 
@@ -1078,59 +1072,59 @@
   EXAMPLES:
 
   ── RIGHTNESS FEELINGS ──
-    "Bài này đúng" (expert math/code)
+    "This is correct" (expert in math/code)
       → Compiled pattern fires
       → Expert feels correctness before proof
-    "Đúng rồi" (sudden insight)
+    "That's it" (sudden insight)
       → Aha moment, coherence detected
-    "Nghe hợp lý"
+    "That sounds right"
       → Pattern matches existing understanding
-    "Answer là đây" (tip of tongue)
+    "The answer is this" (tip-of-tongue retrieval)
       → Partial retrieval firing
-    "Đây là đường đi" (navigation)
+    "This is the way" (navigation)
       → Spatial schema match
 
   ── WRONGNESS FEELINGS ──
-    "Có gì đó sai"
+    "Something's wrong here"
       → ACC error detection active
-    "Bài này kỳ kỳ"
+    "This seems odd"
       → Pattern mismatch felt before articulated
-    "Không hợp lý"
+    "That doesn't add up"
       → Coherence check failed
     "Something's off"
-      → Common English expression for this
+      → Common expression for this feeling
 
   ── STRUGGLE FEELINGS ──
-    "Stuck"
+    Stuck
       → No pattern matches current problem
-    "Não đờ đẫn"
+    Mental fog / brain sluggish
       → Cognitive fatigue
-    "Không hiểu gì cả"
+    "I have no idea what's going on"
       → Massive prediction-delta
 
   ── COMPREHENSION FEELINGS ──
-    "Hiểu rồi" (aha moment)
+    "I get it now" / "Aha!" (insight moment)
       → Sudden pattern integration
       → Kounios insight research 🟢
-    "Click" / "ngộ ra"
+    "Click" / "It clicked"
       → Same phenomenon, different vocabulary
     "Grokking" (Heinlein)
       → Deep integrated understanding
 
   ── EXPERT INTUITION ──
-    "Code này có bug ở đâu đó"
+    "There's a bug somewhere in this code"
       → Compiled bug-pattern recognition
-    "Bệnh nhân này có gì đó lạ" (doctor)
+    "Something's off about this patient" (doctor)
       → Pattern deviation detected
-    "Đá sắp rơi" (climber)
+    "That rock is about to go" (climber)
       → Micro-cue integration
 
-  ── EINSTEIN-TYPE THOUGHT EXPERIMENTS ──
-    "Cảm thấy cưỡi tia sáng" (Einstein)
+  ── THOUGHT-EXPERIMENT TYPE FEELINGS ──
+    "I can feel what it would be like to ride a beam of light" (Einstein)
       → Imagined body simulation → feeling generated
-    "Cảm thấy thầy giáo không đúng" (Einstein)
+    "My teacher is wrong about this" (Einstein, as a student)
       → Contradiction felt before articulated
-    "Cảm thấy vũ trụ có cấu trúc đẹp" (Einstein)
+    "The universe has a beautiful structure" (Einstein)
       → Aesthetic-mathematical intuition
 
 
@@ -1153,14 +1147,15 @@
     → Feel-Location: Often "head" or "chest" (abstract)
     → Feel-Labeling: VARIES (common labels: "right", "wrong", "off")
     → Feel-Explanation: Often hard to articulate the "why"
-             → Hence: "I just feel it" common expert phrase
+             → Hence: "I just feel it" = common expert phrase
 
 
   LITERACY IMPLICATION:
-    → Trust cognitive feelings IN DOMAIN of expertise
+    → Trust cognitive feelings IN YOUR DOMAIN of expertise
     → Be skeptical OUTSIDE expertise
-    → Develop expertise → develop cognitive literacy
-    → Distinguish "I feel right" (expert) vs "I feel right" (novice)
+    → Develop expertise → develop cognitive feeling literacy
+    → Distinguish "I feel right" (expert, reliable) vs
+      "I feel right" (novice, unreliable)
 
 
   Research:
@@ -1173,16 +1168,16 @@
 
 ---
 
-## §11 — 7 CATEGORIES OF FEELINGS (Regrouping by Phenomenal Type)
+## §11 — 7 Categories of Feelings (Regrouped by Phenomenal Type)
 
 ```
 🟡 PHENOMENAL REGROUPING:
 
   §1-10 mapped feelings by CHANNEL/SOURCE (mechanism-based).
-  §11 regroups by PHENOMENAL TYPE (how it feels).
+  §11 regroups by PHENOMENAL TYPE (how it feels from the inside).
 
-  Cùng 1 feeling có thể thuộc multiple channels.
-  Cùng 1 channel có thể produce multiple phenomenal types.
+  One feeling can belong to multiple channels.
+  One channel can produce multiple phenomenal types.
 
 
   7 CATEGORIES:
@@ -1191,101 +1186,101 @@
   11.1 — BODY STATE FEELINGS
   ──────────────────────────
     Pure physiological reports, mostly L1.
-    → "Đói", "khát", "mệt", "đau", "lạnh", "ngứa"
+    → Hungry, thirsty, tired, in pain, cold, itchy
     → Clearest PFC access at Feel-Location–Feel-Labeling
-    → Literacy entry point
+    → Entry point for feeling literacy
 
 
   11.2 — EMOTIONAL FEELINGS (NARROW SENSE)
   ─────────────────────────────────────────
-    What mainstream calls "emotions".
-    → "Vui", "buồn", "giận", "sợ", "yêu", "ghét"
+    What mainstream calls "emotions."
+    → Happy, sad, angry, afraid, loving, hateful
     → Panksepp 7 primary systems
-    → Cultural labeling varies
-    → Subset of feeling, not whole category
+    → Cultural labeling varies significantly
+    → A SUBSET of feeling, not the whole category
 
 
   11.3 — SOCIAL READING FEELINGS (MIRROR-BASED)
   ──────────────────────────────────────────────
-    Feelings about others, from mirror mechanism.
-    → "Cảm thấy người kia tin tưởng/không tin"
-    → "Không khí tense trong phòng"
-    → "Anh ấy đang che giấu"
-    → "Vibe không ổn"
+    Feelings about others, from the mirror mechanism.
+    → "I sense they don't trust me"
+    → "The tension in the room is thick"
+    → "They're hiding something"
+    → "The vibe is off"
     → Often misattributed to self
 
 
   11.4 — COGNITIVE FEELINGS
   ──────────────────────────
     Rightness/wrongness from cognitive processing.
-    → "Đúng rồi"
-    → "Có gì đó sai"
+    → "That's it"
+    → "Something's wrong"
     → "Stuck"
-    → "Hiểu rồi"
+    → "I get it now"
     → Expert intuition lives here
 
 
   11.5 — PREDICTIVE / INTUITIVE FEELINGS
   ───────────────────────────────────────
     About future outcomes, from imagine-final preview.
-    → "Sẽ work"
-    → "Sẽ sai"
-    → "Có linh cảm"
-    → "Gut feeling về quyết định"
+    → "This will work"
+    → "This is going to go wrong"
+    → "I have a feeling / premonition"
+    → "Gut feeling about a decision"
 
 
   11.6 — VALENCE FEELINGS
   ────────────────────────
     Like/dislike about entities, compiled.
-    → "Thích", "ghét"
-    → "Yêu", "chán"
-    → "Ưa", "không ưa"
+    → Like, dislike
+    → Love, bored
+    → Drawn to, put off
     → Fast, stable, entity-specific
 
 
   11.7 — META FEELINGS
   ─────────────────────
     Feelings about feelings.
-    → "Buồn vì mình lại buồn" (meta-sadness)
-    → "Giận vì mình đã giận" (meta-anger)
-    → "Tự ghét mình"
-    → "Tội lỗi vì cảm thấy..." (moral meta-feeling)
+    → "I'm sad that I keep feeling sad" (meta-sadness)
+    → "I'm angry at myself for getting angry" (meta-anger)
+    → "I hate myself"
+    → "I feel guilty for feeling this way" (moral meta-feeling)
     → Can spiral (depression pattern)
     → Or stabilize (mindful awareness)
 
 
   WHY 2 VIEWS MATTER:
-    → Channel view (§1-10): diagnostic, for tracing source
-    → Phenomenal view (§11): recognition, for vocabulary
-    → Together: complete map of feeling landscape
+    → Channel view (§1-10): diagnostic — for tracing source
+    → Phenomenal view (§11): recognition — for vocabulary
+    → Together: complete map of the feeling landscape
 ```
 
 ---
 
-## §12 — CASE STUDY: "Yêu Em" Decomposed
+## §12 — Case Study: "I Love You" Decomposed
 
 ```
-⭐ CASE STUDY — WHY SINGLE WORD CAPTURES MULTI-CHANNEL STATE:
+⭐ CASE STUDY — WHY A SINGLE WORD CAPTURES A MULTI-CHANNEL STATE:
 
-  Framework claim: feelings are multi-source integrated.
-  Best demonstration: "yêu" / "love" — notoriously hard to decompose.
+  Framework claim: feelings are multi-source integrated states.
+  Best demonstration: "love" — notoriously hard to decompose.
 
   Let's try.
 
 
-  WHAT "YÊU EM" TYPICALLY MEANS (ideal case):
+  WHAT "I LOVE YOU" TYPICALLY MEANS (ideal case):
 
   ── L0 THREAT CHANNEL ──
-     "Em là safe" — body does not activate threat around em
-     "Ở bên em, tôi không sợ"
+     "They are safe" — body does not activate threat around them
+     "I feel no fear with them"
      → L0 baseline: minimal activation
-     → Security enables other channels to deepen
+     → Security enables all other channels to deepen
 
 
   ── L1 PHYSIOLOGICAL CHANNEL ──
-     "Body relax khi gần em"
+     "Body relaxes when they're near"
      → Parasympathetic dominance
-     → HR slows, Background-Pattern normalizes
+     → Heart rate slows, background body noise normalizes
      → Cortisol low
      → "Mild arousal" if romantic (HPA + sexual)
      → Comfort touch: oxytocin release
@@ -1293,67 +1288,67 @@
 
 
   ── L2 EXPERIENCE / NOVELTY CHANNEL ──
-     "Em luôn có gì đó mới"
+     "They always have something new"
      → Not fully habituated
-     → Tương tác có novelty dimension
+     → Interactions still have a novelty dimension
      → SEEKING still engaged
-     → Surprises, learning, discovery with em
+     → Surprises, learning, discovery with them
 
 
-  ── MASTERY / MEANING / STATUS (evaluative) CHANNEL ──
-     "Em làm cho đời tôi có ý nghĩa"
+  ── MASTERY / MEANING / STATUS (EVALUATIVE) CHANNEL ──
+     "They make my life meaningful"
      → Meaning schema fires strongly
-     → "We together" = identity component
-     → Status: em respects me, I respect em
-     → Long-term narrative contains em centrally
-     → Self-schema includes em as permanent feature
+     → "We together" = component of identity
+     → Status: they respect me, I respect them
+     → Long-term life narrative contains them centrally
+     → Self-schema includes them as a permanent feature
 
 
   ── AGENT INPUT CHANNEL ──
-     "Em thỏa mãn agent need deep"
+     "They satisfy agent need at a deep level"
      → Body's agent input channel fully fed
      → Co-regulation present
      → Baseline loneliness suppressed
-     → Without em: immediate agent input deficit
+     → Without them: immediate agent input deficit
      → This is biological, not metaphorical
 
 
   ── MIRROR CHANNEL ──
-     "Tôi cảm thấy em cũng yêu tôi"
-     → Mirror reading em's body back
-     → Detects safety, trust, love returned
+     "I can feel that they love me too"
+     → Mirror reading their body in return
+     → Detects safety, trust, love reflected back
      → Mutual mirror = positive feedback loop
-     → Em's vui → mình vui (emotional contagion)
-     → Em's buồn → mình buồn
+     → Their joy → my joy (emotional contagion)
+     → Their sadness → my sadness
 
 
   ── IMAGINE-FINAL PREVIEW CHANNEL ──
-     "Tương lai với em cảm thấy đúng"
-     → Preview of future with em: positive valence
-     → Preview of future without em: negative valence
+     "A future with them feels right"
+     → Preview of future together: positive valence
+     → Preview of future without them: negative valence
      → Preview running constantly in background
      → Guides commitment behaviors
 
 
   ── SCHEMA CHANNEL ──
-     "Em là người của tôi"
+     "They are mine / I am theirs"
      → Relationship schema formed
-     → Compiled knowledge about em
-     → Fires fast when em present
+     → Compiled knowledge about them
+     → Fires fast when they are present
      → Updates with new experiences
      → Can be shaken by violations (betrayal, distance)
 
 
   ── COMPILED VALENCE CHANNEL ──
-     "Strong positive valence on em entity"
+     "Strong positive valence on this person as entity"
      → Multi-channel converged over time
-     → Fires fast as single positive signal
+     → Fires fast as a single positive signal
      → Stable, resistant to small fluctuations
-     → Core "feeling of loving em"
+     → Core "feeling of loving them"
 
 
   ── COGNITIVE/PREDICTION CHANNEL (optional, expertise) ──
-     "Em là đúng người cho tôi"
+     "They are the right person for me"
      → Cognitive pattern-matching over life history
      → Coherence with deep life patterns
      → "Fits my template"
@@ -1363,56 +1358,56 @@
 
 
   PFC COMPRESSION:
-    9+ channels → single word "yêu" (1 morpheme)
-    Compression ratio: 9:1 at minimum
+    9+ channels → 3 words: "I love you"
+    Compression ratio: 9:1 minimum
     Information loss: ~80-90%
-    Functionality preserved: 100% (body knows, works)
+    Functionality preserved: 100% (body knows, it works)
 
 
-  WHY "VÌ SAO YÊU EM?" IS HARD:
-    Q: "Why do you love em?"
-    A attempts:
-      → "Vì em đẹp" — reductive, em without beauty still loved
-      → "Vì em thông minh" — reductive, many smart people not loved
-      → "Vì em hiểu tôi" — closer but still partial
-      → "Vì em là em" — closest HONEST answer
+  WHY "WHY DO YOU LOVE THEM?" IS HARD:
+    Question: "Why do you love them?"
+    Attempted answers:
+      → "Because they're beautiful" — reductive; would still love them without beauty
+      → "Because they're smart" — reductive; many smart people aren't loved
+      → "Because they understand me" — closer, still partial
+      → "Because they're them" — closest HONEST answer
 
-    "Vì em là em" = acknowledge compression, don't force decompose.
+    "Because they're them" = acknowledge compression; don't force decomposition.
 
-    This is NOT romantic mysticism. This is COMPRESSION PHENOMENON.
-    PFC cannot retrieve 9-channel state perfectly.
-    Body knows, PFC approximates.
+    This is NOT romantic mysticism. This is a COMPRESSION PHENOMENON.
+    PFC cannot fully retrieve a 9-channel state.
+    Body knows. PFC approximates.
 
 
   WHY LOVE FEELS "INEFFABLE":
-    Framework answer: love is 9+ channels converged.
-    Single word compresses.
-    Decomposition always lossy.
+    Framework answer: love = 9+ channels converged.
+    Single phrase compresses.
+    Decomposition is always lossy.
     → "Ineffable" = correctly acknowledging compression limits.
 
 
   IMPLICATION:
     → Don't demand perfect verbal justification for deep feelings
-    → "Vì em là em" is intellectually honest
+    → "Because they're them" is intellectually honest
     → Trust the compiled valence over Feel-Explanation explanations
     → BUT: also verify the channels over time
-      (does evaluative still fire? Still agent input? Still mirror?)
-    → Lost channels = weakening compile, even if Feel-Labeling word "yêu" persists
+      (Is the evaluative still firing? Still agent input? Still mirror?)
+    → Lost channels = weakening compile, even if the word "love" persists
 
 
-  CONTRAST CASE: "Ghét" decomposed
+  CONTRAST CASE: Hate / "I hate them" decomposed
     Similar structure, negative valence:
-    + L0: maybe threat (em is dangerous to me)
+    + L0: threat (they are dangerous to me)
     + L1: body tense when near
-    + Agent input: NEGATIVE (drains, not fills)
+    + Agent input: NEGATIVE (drains, does not fill)
     + Mirror: reads hostility back
     + Preview: future negative
-    + Schema: "em is bad for me"
+    + Schema: "this person is bad for me"
     + Compiled valence: strongly negative
 
-  → "Ghét" also 9+ channels
+  → Hate also 9+ channels
   → Same compression phenomenon
-  → Both love and hate are multi-source compressed states
+  → Both love and hate = multi-source compressed states
 
 
   UNIVERSAL FRAMEWORK PRINCIPLE:
@@ -1424,113 +1419,117 @@
 
   EXTENDED CASES (other framework-relevant examples):
 
-  "Nhớ mẹ" = agent input + schema + memory + valence
-            = 4+ channels compressed
+  "Missing my mother" = agent input + schema + memory + valence
+                      = 4+ channels compressed
 
-  "Sợ ma" = L0 + schema (cultural) + imagine-final preview
-           = 3 channels
+  "Fear of ghosts" = L0 + schema (cultural) + imagine-final preview
+                   = 3 channels
 
-  "Ganh tỵ bạn" = status (evaluative) + compiled valence + schema
-                = 3 channels compressed
+  "Envy of a friend" = status (evaluative) + compiled valence + schema
+                     = 3 channels compressed
 
-  "Thương bản thân" = mirror (reflexive) + meta-feeling + evaluative
-                    = 3 channels
+  "Compassion for oneself" = mirror (reflexive) + meta-feeling + evaluative
+                           = 3 channels
 
-  "Tự hào về con" = meaning (evaluative) + mirror + agent input + schema
-                  = 4 channels
+  "Pride in my child" = meaning (evaluative) + mirror + agent input + schema
+                      = 4 channels
 
 
   PRINCIPLE GENERALIZED:
-    Nếu feeling khó decompose → multi-channel confirmed
-    Nếu feeling dễ decompose → usually single-channel dominant
-    Emotional intelligence = ability to notice channels
-    Wisdom = trust compiled signal + verify over time
+    If a feeling is hard to decompose → multi-channel, confirmed
+    If a feeling is easy to decompose → usually single-channel dominant
+    Emotional intelligence = capacity to notice which channels are active
+    Wisdom = trust the compiled signal + verify it over time
 ```
 
 ---
 
-## §13 — HONEST ASSESSMENT (Sources-Specific)
+## §13 — Honest Assessment
 
 ```
 🟡 CONFIDENCE BREAKDOWN:
 
   🟢 HIGH CONFIDENCE:
      ✓ Body has multiple channels for feedback (Craig, Damasio)
-     ✓ body-base levels (L0+L1 substrate + evaluative) exist (framework synthesis, solid components)
+     ✓ Body-base levels (L0+L1 substrate + evaluative) exist
+       (framework synthesis, components individually solid)
      ✓ Interoception pathways (well-mapped)
      ✓ Mirror system fires when observing others (Gallese, Rizzolatti)
      ✓ Schema triggers body response (Damasio, reconsolidation research)
      ✓ Imagine-final preview (somatic marker, Damasio)
      ✓ Valence compilation exists (classical conditioning + beyond)
-     ✓ Cognitive feelings domain-specific (Klein, Chase & Simon)
-     ✓ Multi-channel integration in insula+ACC+VMPFC
+     ✓ Cognitive feelings are domain-specific (Klein, Chase & Simon)
+     ✓ Multi-channel integration in insula + ACC + VMPFC
 
 
   🟡 MEDIUM CONFIDENCE:
-     ⚠ Specific channel-to-feeling mapping (framework organizing)
-     ⚠ 10-channel taxonomy (framework choice, could be different cuts)
+     ⚠ Specific channel-to-feeling mapping (framework organizing heuristic)
+     ⚠ 10-channel taxonomy (framework choice — could be cut differently)
      ⚠ 7-category phenomenal regrouping (heuristic)
-     ⚠ "Yêu em = 9+ channels" specific count (illustrative)
+     ⚠ "Love = 9+ channels" specific count (illustrative, not measured)
      ⚠ Channel weights/proportions (not measured)
-     ⚠ Agent input as distinct from body-base levels (framework insight)
+     ⚠ Agent input as distinct from body-base levels
+       (framework insight — individual components established)
 
 
   🔴 LOW CONFIDENCE / HYPOTHESIS:
      ⚠ Exact neural correlates for each channel
      ⚠ Specific compression ratios (9:1 etc.)
-     ⚠ Whether "yêu" always compresses 9+ (could be 5, could be 15)
-     ⚠ Real-time channel decomposition (not yet possible)
+     ⚠ Whether love always compresses 9+ (could be 5, could be 15)
+     ⚠ Real-time channel decomposition (not yet technically possible)
 
 
   NOT CLAIMING:
-    ✗ Every feeling = exactly these 10 channels (taxonomy is heuristic)
-    ✗ Channels are physically separable in brain (integration hub real)
+    ✗ Every feeling = exactly these 10 channels
+      (taxonomy is heuristic)
+    ✗ Channels are physically separable in the brain
+      (integration hub real — channels are conceptual, not anatomical)
     ✗ Examples are exhaustive (50+ is sample, not complete)
-    ✗ Love = 9 channels precisely (9 is illustrative)
+    ✗ Love = precisely 9 channels (9 is illustrative)
 
 
   CLAIMING:
     ✓ Feelings have multiple origins that integrate
     ✓ Labeled feelings are compressed multi-source states
     ✓ Source channels can be partly traced with practice
-    ✓ Different feelings weigh different channels
+    ✓ Different feelings weight different channels differently
     ✓ Multi-channel origin explains "ineffability" of strong feelings
 
 
   LIMITATIONS TO ACKNOWLEDGE:
-    → Vietnamese vocabulary used often — cultural specific
+    → Examples are drawn from a limited cultural range
       (framework claim: mechanism universal, vocabulary varies)
-    → Examples lean Western/urban (limited cultural range)
-    → Individual variation huge (not modeled)
-    → Some feelings hybrid between categories (fuzzy boundaries)
+    → Examples lean toward Western/urban experience
+    → Individual variation is large (not modeled here)
+    → Some feelings are hybrid between categories (fuzzy boundaries)
 ```
 
 ---
 
-## §14 — CROSS-REFERENCES
+## §14 — Cross-References
 
 ```
 📚 WITHIN FEELING/ FOLDER:
 
-  Feeling.md §1            — Definition + disclaimer
-  Feeling.md §2            — 7-layer structure
-  Feeling.md §4            — body-base levels brief overview
-  Feeling-Accuracy.md §1-3 — PFC reading accuracy + error modes
-  Feeling-Accuracy.md §4   — Pain as special case (see §2 L1 here)
-  Feeling-Research.md §2-9 — Research streams detail
+  Feeling.md §1              — Definition + disclaimer
+  Feeling.md §2              — 7-layer structure
+  Feeling.md §4              — Body-base levels brief overview
+  Feeling-Accuracy-Draft.md §1-3   — PFC reading accuracy + error modes
+  Feeling-Accuracy-Draft.md §4     — Pain as special case (see §2 L1 here)
+  Feeling-Research.md §2-9   — Research streams detail
 
 
 📚 FRAMEWORK DEPENDENCIES:
 
-  Core-v7.5-Draft.md §2        — Body-Base L0+L1 substrate foundation
-  Body-Dissonance.md           — 14+ specific signals
-  Domain/Valence.md            — Compiled feelings detail (§9 here references)
-  Domain/Domain-Mechanisms.md  — Mirror mechanism (§6 here references §1)
-  Imagine-Final.md             — Preview mechanism (§8 here)
-  Logic-Modeling.md            — Logic + Feeling parallel
-  Somatic-Articulation-Loop.md — Body → words process
-  Cortisol-Baseline.md         — Chronic L0 patterns
-  Domain/Agent-2Axis-Analysis.md — Schema entity feelings (§7 Đức Mẹ)
+  Core-Software.md §2              — Body-Base L0+L1 substrate foundation
+  Body-Dissonance.md               — 14+ specific signals
+  Domain/Valence.md                — Compiled feelings detail (§9 here references)
+  Domain/Domain-Mechanisms.md      — Mirror mechanism (§6 here references §1)
+  Imagine-Final.md                 — Preview mechanism (§8 here)
+  Logic-Modeling.md                — Logic + Feeling parallel
+  Somatic-Articulation-Loop.md     — Body → words process
+  Cortisol-Baseline.md             — Chronic L0 patterns
+  Domain/Agent-2Axis-Analysis.md   — Schema entity feelings (§7 religious schema)
 
 
 📚 MAINSTREAM RESEARCH KEY REFERENCES:
@@ -1585,14 +1584,16 @@
 
 ---
 
-> **END OF Feeling-Sources.md**
+> **END OF Feeling-Sources-Draft.md**
 >
-> **Next file:** Feeling-Accuracy.md — HOW PFC reads feelings,
-> error modes, pain special case, literacy training.
+> **Next file:** Feeling-Accuracy-Draft.md — HOW PFC reads feelings,
+> error modes, pain as a special case, literacy training.
 >
-> **Framework position:** Sources map — tra source của bất kỳ feeling nào.
-> Case study "yêu em" = framework's clearest demonstration of
-> multi-channel compression principle.
+> **Framework position:** Source map — look up the origin of any feeling.
+> Case study "I love you" = the framework's clearest demonstration
+> of the multi-channel compression principle.
 >
 > **Quality note:** 🟢 Core sources research-supported.
-> 🟡 Channel-to-feeling mapping là framework organizing heuristic.
+> 🟡 Channel-to-feeling mapping is a framework organizing heuristic.
+>
+> **Version:** v1.0, 2026-04-13. English translation: 2026-06-09.

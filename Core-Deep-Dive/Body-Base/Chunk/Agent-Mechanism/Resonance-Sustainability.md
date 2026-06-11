@@ -1,5 +1,5 @@
-﻿---
-title: Resonance-Sustainability — Điều Kiện Quan Sát Cho Resonance Bền Vững
+---
+title: Resonance-Sustainability — Conditions for Sustained Resonance
 version: 1.0
 created: 2026-05-22
 status: OBSERVATION FILE v1.0
@@ -8,7 +8,7 @@ scope: |
   By-Product-Gap-Resonance v1.2 = WHAT resonance is (mutual by-product gap fill).
   Bond-Architecture v2.0 = HOW Entity-Compiled plays out across 4 bond types.
   Boredom v2.0 = WHY resonance decays (6 sources, unified formula).
-  FILE NÀY = WHAT CONDITIONS predict sustained vs decaying resonance:
+  THIS FILE = WHAT CONDITIONS predict sustained vs decaying resonance:
     → THROUGH WHAT CHANNELS (3 modalities)
     → WHAT AMPLIFIES quality (capitalization, PPR, secure base)
     → HOW trajectory changes over time (maintenance decline, U-curve)
@@ -17,8 +17,8 @@ scope: |
     ① 3 Primitive Conditions: Proximity × Duration × Agent-mode = MINIMUM
     ② Gap Flexibility: Gap ≠ Strategy → compatible gap processing = sufficient
     ③ 3 Resonance Modalities: Verbal / Non-verbal / Body-level = INDEPENDENT
-    ④ Silence 4 types: CHỈ Intrinsic bền vững (Weinstein 2024)
-    ⑤ Verbal necessity spectrum: per-function, KHÔNG prescribe ratio
+    ④ Silence 4 types: ONLY Intrinsic sustainable (Weinstein 2024)
+    ⑤ Verbal necessity spectrum: per-function, NOT prescribing ratio
     ⑥ Amplification: Capitalization + PPR + Secure Base
     ⑦ Maintenance behaviors DECLINE naturally (Ogolsky N=12,273)
     ⑧ Co-regulation U-curve (value-neutral: positive sync ≠ negative sync)
@@ -26,80 +26,51 @@ scope: |
     ⑩ Dormant ties: trust = most resilient compilation dimension
     ⑪ 4-Layer sustainability synthesis (Foundation→Modality→Amplification→Trajectory)
     ⑫ CANNOT PRESCRIBE sustainability → domain feedback = only arbiter
-  TÁCH RÕ: 4 tầng, 3 modalities, 4 silence types, 3 amplifiers, 5 trajectory factors.
-  Refine mainstream relationship science, KHÔNG phản đối.
 purpose: |
-  Inter-Body-Mechanism.md = TẠI SAO + BẰNG GÌ 2 bodies interact (mechanism).
-  Self-Pattern-Modeling.md = HOW 1 body simulate entity khác (mechanism).
-  By-Product-Gap-Resonance.md = WHEN mutual quality emerge (observation lens).
+  Inter-Body-Mechanism.md = WHY + HOW 2 bodies interact (mechanism).
+  Self-Pattern-Modeling.md = HOW 1 body predicts another (mechanism).
+  By-Product-Gap-Resonance.md = WHEN mutual quality emerges (observation lens).
   Bond-Architecture.md = HOW Entity-Compiled plays out across 4 bond types.
-  FILE NÀY = WHAT CONDITIONS sustain resonance OVER TIME:
+  THIS FILE = WHAT CONDITIONS sustain resonance OVER TIME:
     → 3 conditions = minimum. 3 modalities = channels.
     → 3 amplifiers = quality boosters. 5 trajectory factors = long-term dynamics.
-    → 4-layer model = observation tool cho sustainability.
-  = "By-Product-Gap-Resonance §7-§8-§11 tách ra + enriched with full drill depth."
-position: |
-  Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/ — cùng folder By-Product-Gap-Resonance, Bond-Architecture, Entity-Compiled.
-  Agent-Mechanism.md = integration hub.
-  By-Product-Gap-Resonance.md = resonance definition + 5 axes.
-  Bond-Architecture.md = cross-bond view (4 types, over-clone, decline).
-  Resonance-Sustainability.md (FILE NÀY) = sustainability conditions + trajectory.
-  By-Product-Scale.md v1.0 = 3 scales Pair/Hub/Institutional.
-  Resonance-Per-Entity.md v1.0 = per-entity resonance dynamics.
-dependencies:
-  - By-Product-Gap-Resonance.md v1.2 — Resonance Core, 5 Trục, Tool/Agent-mode
-  - Bond-Architecture.md v2.0 — 4 bond types, Resonance Decline (2 Forces + 1 Fuel), true understanding
-  - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Agent-mode engine, Self-Pattern-Modeling accuracy
-  - PFC-Operations.md v1.0 — Hold/Suppress, compiled quality, PFC budget
-  - Entity-Compiled.md v1.0 — Formation 40→200h, compilation chain
-  - Entity-Access-Calibration.md v1.0 — 3-Layer, engine use quality
-  - Boredom.md v2.0 — Source ⑥, Resonance Decline, unified formula
-  - Connection.md v4.0 — 3 Generative Primitives, Compilable Architecture social
-  - Body-Coupling.md v2.0 — coupling mechanism, depth × direction
-  - Gap-Direction.md v2.0 — gap = f(surrounding chunks), gap flexibility basis
-  - Valence-Propagation.md v3.0 — per-entity valence, structural vs current
-  - Inter-Body-Mechanism.md v1.0 — by-product match §5.4, 3-cost §4
-  - Reward-Calibration.md v1.1 — domain feedback = only arbiter
-  - Logic-Feeling-Balance.md v2.1 — infinite regress, cannot prescribe
-  - Body-Feedback-Label.md v2.0 — vocabulary reference
-sources:
-  - Drill-Resonance-Sustainability v1.0 (1,408L, 24 insights, 32 citations)
-  - Enriches: By-Product-Gap-Resonance v1.2 §7 (3 conditions + gap flexibility) + §8 (modalities + silence) + §11 (amplification + trajectory)
-research: See §18
-language: Tiếng Việt primary + English technical terms
+    → 4-layer model = observation tool for sustainability.
+language: English (translated from Vietnamese source v1.0)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Resonance-Sustainability — Điều Kiện Quan Sát Cho Resonance Bền Vững
+# Resonance-Sustainability — Conditions for Sustained Resonance
 
-> **2 extrovert xã giao → resonance bề mặt. DỄ.**
-> **Nhưng resonance SÂU, BỀN, có khi cần → thì HIẾM.**
+> **Two sociable extroverts → surface resonance. EASY.**
+> **But resonance that is DEEP, DURABLE, and there when you need it → RARE.**
 >
-> **Vì sao?**
+> **Why?**
 >
-> **Resonance emergence cần 3 ĐIỀU KIỆN TỐI THIỂU:**
-> **Proximity (cùng không gian) × Duration (đủ lâu) × Agent-mode (model state, không chỉ function).**
-> **Thiếu 1 = resonance KHÔNG emerge.**
+> **Resonance emergence requires 3 MINIMUM CONDITIONS:**
+> **Proximity (shared space) × Duration (long enough) × Agent-mode**
+> **(modeling state, not just function).**
+> **Missing one = resonance DOES NOT emerge.**
 >
-> **Resonance TRUYỀN qua 3 MODALITY độc lập:**
-> **Verbal (Generative dominant) × Non-verbal (bids, eye contact) × Body-level (HR sync, touch).**
-> **Im lặng ≠ không resonance. Im lặng CÓ THỂ = Tonic resonance body-level.**
+> **Resonance flows through 3 INDEPENDENT MODALITIES:**
+> **Verbal (Generative dominant) × Non-verbal (bids, eye contact)**
+> **× Body-level (HR sync, touch).**
+> **Silence ≠ no resonance. Silence CAN = Tonic resonance at body-level.**
 >
-> **Resonance BỀN VỮNG cần AMPLIFICATION liên tục:**
-> **Capitalization (chia sẻ tích cực) × PPR (cảm thấy được hiểu)**
-> **× Secure Base (hỗ trợ exploration) × Self-Expansion (novelty injection).**
+> **SUSTAINED resonance requires continuous AMPLIFICATION:**
+> **Capitalization (sharing positive events) × PPR (feeling understood)**
+> **× Secure Base (supporting exploration) × Self-Expansion (novelty injection).**
 >
-> **NHƯNG: maintenance behaviors TỰ GIẢM theo thời gian (Ogolsky 2013, N=12,273).**
-> **→ Sustainability = CHỐNG LẠI decay tự nhiên. Không phải "cứ để nó tự tốt."**
+> **BUT: maintenance behaviors NATURALLY DECLINE over time (Ogolsky 2013, N=12,273).**
+> **→ Sustainability = FIGHTING natural decay. Not "it will take care of itself."**
 >
-> **KHÔNG THỂ PRESCRIBE "làm gì để resonance bền."**
+> **CANNOT PRESCRIBE "what to do to sustain resonance."**
 > **= Infinite regress (Logic-Feeling-Balance §6-7).**
-> **= Domain feedback = trọng tài DUY NHẤT.**
-> **= File này QUAN SÁT điều kiện, KHÔNG kê đơn.**
+> **= Domain feedback = THE ONLY ARBITER.**
+> **= This file OBSERVES conditions, does NOT prescribe.**
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §0 — THESIS + POSITION
 - §1 — 3 PRIMITIVE CONDITIONS (Proximity × Duration × Agent-mode)
@@ -125,17 +96,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §0 — THESIS + POSITION
 
-### §0.1 — Core thesis
+### §0.1 — Core Thesis
 
 ```
 ⭐⭐ RESONANCE SUSTAINABILITY v1.0:
 
-  EXISTING FRAMEWORK COVERS:
+  WHAT THE FRAMEWORK ALREADY COVERS:
     By-Product-Gap-Resonance v1.2: WHAT resonance is (mutual by-product gap fill)
     Bond-Architecture v2.0: HOW Entity-Compiled plays out across 4 bond types
     Boredom v2.0: WHY resonance decays (6 sources, unified formula)
 
-  FILE NÀY = CÁI GÌ CÒN THIẾU:
+  WHAT THIS FILE ADDS:
     WHAT CONDITIONS predict sustained vs decaying resonance?
     THROUGH WHAT CHANNELS does resonance flow?
     WHAT AMPLIFIES resonance quality?
@@ -145,27 +116,27 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   CORE CLAIMS:
 
   ① 3 Primitive Conditions: Proximity × Duration × Agent-mode
-     = MINIMUM cho resonance emergence. Thiếu 1 = không resonance.
+     = MINIMUM for resonance emergence. Missing one = no resonance.
 
   ② Gap Flexibility: Gap ≠ Strategy
-     = Gap chấp nhận nhiều strategies. Resonance cần compatible GAP processing,
-       không cần cùng activity.
+     = Gap accommodates multiple strategies. Resonance needs compatible
+       GAP PROCESSING, not the same activity.
 
-  ③ 3 Modality: Verbal (Generative) / Non-verbal (bids) / Body-level (synchrony)
-     = Resonance truyền qua NHIỀU kênh ĐỘC LẬP.
-     = Silent resonance = REAL nếu body-level modality active.
+  ③ 3 Modalities: Verbal (Generative) / Non-verbal (bids) / Body-level (synchrony)
+     = Resonance flows through MULTIPLE INDEPENDENT channels.
+     = Silent resonance = REAL if body-level modality is active.
 
   ④ Silence 4 types: Intrinsic / Introjected / External / Spontaneous
-     = CHỈ Intrinsic silence bền vững. Limerence silence ≠ mature silence.
+     = ONLY Intrinsic silence is sustainable. Limerence silence ≠ mature silence.
 
   ⑤ Amplification: Capitalization + PPR + Secure Base
      = Active-Constructive responding > handling negative events (Gable 2006).
      = Perception of responsiveness > actual behavior (Reis & Shaver).
      = Secure base ≠ mere presence (Feeney 2007).
 
-  ⑥ Maintenance behaviors TỰ GIẢM theo thời gian
+  ⑥ Maintenance behaviors NATURALLY DECLINE over time.
      = Ogolsky 2013 meta-analysis: N=12,273. Positivity + Assurances DECLINE.
-     = Longer relationships cần MORE deliberate effort.
+     = Longer relationships need MORE deliberate effort.
 
   ⑦ Co-regulation U-curve
      = Young + Old: MORE synchrony. Middle-aged: LESS.
@@ -176,7 +147,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      = Motivated inaccuracy: protect bond short-term, drift long-term.
 
   ⑨ Dormant ties retain trust infrastructure
-     = Entity-Compiled deep compilation decays VERY slowly cho trust.
+     = Entity-Compiled deep compilation decays VERY slowly for trust.
 
   ⑩ 4-Layer model: Foundation → Modality → Amplification → Trajectory
      = Observation tool. CANNOT PRESCRIBE sustainability.
@@ -189,28 +160,33 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §0.2 — Position
 
 ```
-⭐ VỊ TRÍ:
+⭐ POSITION:
 
   MECHANISM LAYER:
     Inter-Body-Mechanism v1.0     = WHY + HOW 2 bodies interact
-    Self-Pattern-Modeling v3.1    = HOW 1 body predicts entity
+    Self-Pattern-Modeling v3.1    = HOW 1 body predicts another
     Body-Coupling v2.0            = HOW coupling deepens structurally
 
   OBSERVATION LAYER:
-    By-Product-Gap-Resonance v1.2 = WHAT resonance is + 5 Trục
-    Bond-Architecture v2.0        = HOW Entity-Compiled differs per bond type + Resonance Decline
-    ★ File này v1.0               = WHAT CONDITIONS sustain resonance over time
+    By-Product-Gap-Resonance v1.2 = WHAT resonance is + 5 Axes
+    Bond-Architecture v2.0        = HOW Entity-Compiled differs per bond type
+                                    + Resonance Decline
+    ★ This file v1.0              = WHAT CONDITIONS sustain resonance over time
 
   COMPANION FILES:
     Boredom v2.0                  = WHY resonance DECAYS (failure modes)
     Entity-Access-Calibration v1.0= HOW to calibrate ACCESS level
-    Resonance-Per-Entity v1.0    = HOW resonance differs per entity type
+    Resonance-Per-Entity v1.0     = HOW resonance differs per entity type
 
-  FILE NÀY ENRICHES:
-    By-Product-Gap-Resonance §5: Deepen/Fade/Break → ADDS modality + amplification + trajectory
-    Boredom §2-§3: Source ⑥ → ADDS conditions that PREVENT source ⑥
-    Bond-Architecture §4-§5: Resonance Decline + true understanding → ADDS amplification mechanisms
-    Entity-Access-Calibration §6: engine quality → ADDS response quality detail
+  THIS FILE ENRICHES:
+    By-Product-Gap-Resonance §5: Deepen/Fade/Break →
+      ADDS modality + amplification + trajectory
+    Boredom §2-§3: Source ⑥ →
+      ADDS conditions that PREVENT Source ⑥
+    Bond-Architecture §4-§5: Resonance Decline + true understanding →
+      ADDS amplification mechanisms
+    Entity-Access-Calibration §6: engine quality →
+      ADDS response quality detail
 ```
 
 ---
@@ -218,50 +194,51 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §1 — 3 PRIMITIVE CONDITIONS (Proximity × Duration × Agent-mode)
 
 ```
-⭐⭐ 3 ĐIỀU KIỆN TỐI THIỂU CHO RESONANCE EMERGENCE:
+⭐⭐ 3 MINIMUM CONDITIONS FOR RESONANCE EMERGENCE:
 
-  By-Product-Gap-Resonance §4 mô tả 5 Trục ước lượng xác suất.
-  5 Trục = TINH tế (evaluate quality + probability).
-  3 Primitive Conditions = THÔ hơn, TRƯỚC 5 Trục:
-    = MINIMUM cho resonance CÓ THỂ xảy ra.
-    = Thiếu 1 → resonance KHÔNG emerge, dù 5 Trục tốt.
+  By-Product-Gap-Resonance §4 describes 5 Axes for estimating probability.
+  5 Axes = FINE-GRAINED (evaluate quality + probability).
+  3 Primitive Conditions = COARSER, come BEFORE the 5 Axes:
+    = MINIMUM for resonance to be POSSIBLE.
+    = Missing one → resonance CANNOT emerge, even if all 5 Axes are favorable.
 
 
-  CONDITION ① — PROXIMITY (cùng không gian):
+  CONDITION ① — PROXIMITY (shared space):
 
-    2 entities phải ở đủ GẦN để by-products REACH nhau.
-    → Physical: cùng phòng, cùng quán → ALL 3 modalities available
+    2 entities must be close enough for by-products to REACH each other.
+    → Physical: same room, same café → ALL 3 modalities available
     → Video: verbal + non-verbal (body-level OFFLINE)
     → Text: verbal only (non-verbal + body-level OFFLINE)
-    → Proximity SET upper bound cho resonance quality.
+    → Proximity SETS the upper bound on resonance quality.
 
     🟢 Festinger 1950: proximity = strongest friendship predictor.
     🟢 Back 2008: random seating → friendship 1 year later.
 
 
-  CONDITION ② — DURATION (đủ lâu):
+  CONDITION ② — DURATION (long enough):
 
-    By-product match cần THỜI GIAN để detect + compile.
-    → Passing encounter: possible match nhưng NO compilation.
-    → Repeated encounter: Hebbian strengthen → Fresh→Compiled → resonance deepen.
+    By-product matching requires TIME to detect + compile.
+    → Passing encounter: possible match but NO compilation.
+    → Repeated encounters: Hebbian strengthen → Fresh→Compiled → resonance deepens.
     → Hall 2019: 40-60h casual → 80-100h friend → 200+h close friend.
     → LEISURE time counts MORE than work time.
 
-    Duration ALONE không đủ:
-    → 2 đồng nghiệp 10 năm, Tool-mode only = 0 resonance dù 10,000h.
+    Duration ALONE is insufficient:
+    → 2 colleagues for 10 years, Tool-mode only = 0 resonance despite 10,000h.
     → Duration × Agent-mode = relevant duration.
 
     🟢 Hall 2019: friendship hour thresholds (N=355 + N=112).
 
 
-  CONDITION ③ — AGENT-MODE (model state, không chỉ function):
+  CONDITION ③ — AGENT-MODE (modeling state, not just function):
 
-    Self-Pattern-Modeling phải ON ở Agent-mode: predict entity STATE, not just output.
-    → Tool-mode: predict function → dissolves khi goal ends → 0 resonance.
+    Self-Pattern-Modeling must be ON in Agent-mode: predict entity STATE,
+      not just output.
+    → Tool-mode: predict function → dissolves when goal ends → 0 resonance.
     → Agent-mode: predict state → compile Entity-Compiled → resonance possible.
 
     Agent-mode QUALITY matters (not just ON/OFF):
-    → Phải PERCEIVED as available + responsive + non-interfering.
+    → Must be PERCEIVED as available + responsive + non-interfering.
     → Agent-mode ON + unresponsive = still insufficient.
 
     🟢 By-Product-Gap-Resonance §3.3: Agent-mode = resonance engine.
@@ -270,18 +247,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   3 CONDITIONS × SUFFICIENCY:
 
-    ┌──────────────┬──────────┬──────────┬─────────────────────┐
-    │ Proximity    │ Duration │ Agent-   │ Resonance?          │
-    │              │          │ mode     │                     │
-    ├──────────────┼──────────┼──────────┼─────────────────────┤
-    │ ✅ Physical  │ ✅ 200h+ │ ✅ ON    │ ✅ Full potential   │
-    │ ✅ Physical  │ ✅ 200h+ │ ❌ Tool  │ ❌ 0 (10yr collgue)│
-    │ ✅ Physical  │ ❌ 1h    │ ✅ ON    │ ⚠️ "Click" not yet │
-    │              │          │          │    compiled          │
-    │ ❌ Text only │ ✅ 200h+ │ ✅ ON    │ ⚠️ Limited: verbal │
-    │              │          │          │    only, body off    │
-    │ ❌ None      │ ❌       │ ❌       │ ❌ Impossible       │
-    └──────────────┴──────────┴──────────┴─────────────────────┘
+    ┌──────────────┬──────────┬──────────┬─────────────────────────┐
+    │ Proximity    │ Duration │ Agent-   │ Resonance?              │
+    │              │          │ mode     │                         │
+    ├──────────────┼──────────┼──────────┼─────────────────────────┤
+    │ ✅ Physical  │ ✅ 200h+ │ ✅ ON    │ ✅ Full potential       │
+    │ ✅ Physical  │ ✅ 200h+ │ ❌ Tool  │ ❌ 0 (10yr colleague)   │
+    │ ✅ Physical  │ ❌ 1h    │ ✅ ON    │ ⚠️ "Click" — not yet   │
+    │              │          │          │    compiled              │
+    │ ❌ Text only │ ✅ 200h+ │ ✅ ON    │ ⚠️ Limited: verbal      │
+    │              │          │          │    only, body offline    │
+    │ ❌ None      │ ❌       │ ❌       │ ❌ Impossible            │
+    └──────────────┴──────────┴──────────┴─────────────────────────┘
 
   🟡 3 Primitive Conditions as minimum requirement = framework synthesis.
   🟢 Individual conditions established independently.
@@ -292,42 +269,43 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §2 — GAP FLEXIBILITY (Gap ≠ Strategy)
 
 ```
-⭐ GAP CHẤP NHẬN NHIỀU STRATEGY KHÁC NHAU:
+⭐ GAP ACCOMMODATES MULTIPLE DIFFERENT STRATEGIES:
 
-  VÍ DỤ:
-    Gap: "chán" = low stimulation, cần novelty/social.
-    Strategy A: đi xem phim. Strategy B: đi ăn. Strategy C: ngồi nói chuyện.
-    → Bạn B bảo "không thích xem phim, đi ăn nhé" → VẪN hết chán.
-    → ACTIVITY khác nhưng GAP PROCESSING tương thích.
+  EXAMPLE:
+    Gap: bored = low stimulation, needs novelty or social input.
+    Strategy A: go see a movie. Strategy B: go eat. Strategy C: sit and talk.
+    → Friend says "not feeling the movie, let's eat" → boredom still resolved.
+    → The ACTIVITY differs but GAP PROCESSING is compatible.
 
   FRAMEWORK MAPPING:
-    Gap = WHAT needs to be filled (body-need, không PFC chọn).
-    Strategy = HOW to fill (PFC propose, nhiều options).
+    Gap = WHAT needs to be filled (body-need, PFC doesn't choose this).
+    Strategy = HOW to fill it (PFC proposes, many options available).
     → Gap-Direction v2.0: gap = f(surrounding chunks). Direction FIXED.
-    → Strategy = 1 trong nhiều PATHS toward gap fill.
+    → Strategy = 1 of many PATHS toward gap fill.
 
-    By-product resonance cần COMPATIBLE GAP PROCESSING:
+    By-product resonance requires COMPATIBLE GAP PROCESSING:
     → "Compatible" = gap directions overlap + by-products match.
-    → KHÔNG cần cùng activity. KHÔNG cần cùng strategy.
-    → "Đi đâu cũng được, miễn đi cùng" = social gap fill BY PRESENCE.
+    → Does NOT require the same activity. Does NOT require the same strategy.
+    → "Doesn't matter where we go, as long as we go together" =
+      social gap filled BY PRESENCE.
 
-  IMPLICATION CHO SUSTAINABILITY:
+  IMPLICATIONS FOR SUSTAINABILITY:
 
-    ① Resonance KHÔNG fragile trước activity mismatch:
-      "Tôi thích phim, bạn thích ăn" ≠ resonance threat.
-      Nếu underlying gap compatible → activity negotiable.
+    ① Resonance NOT fragile from activity mismatch:
+      "I like movies, you like eating" ≠ resonance threat.
+      If underlying gap is compatible → activity is negotiable.
 
-    ② Resonance FRAGILE trước GAP DIVERGENCE:
-      Gap distributions diverge → overlap giảm → by-product match giảm.
+    ② Resonance IS fragile from GAP DIVERGENCE:
+      Gap distributions diverge → overlap decreases → by-product match decreases.
       = By-Product-Gap-Resonance §5.2 Fade conditions.
       Activity mismatch = surface symptom. Gap divergence = actual cause.
 
     ③ Limerence amplifies gap flexibility:
       Entity IS the gap-filler → ANY context works.
-      Post-limerence: vẫn đúng nếu resonance genuine.
+      Post-limerence: still true if resonance is genuine.
 
-  🟡 Gap ≠ Strategy = framework synthesis (implied nhưng chưa explicit).
-  🟢 Aron 2000: novel activities work, mechanism = novelty, not specific activity.
+  🟡 Gap ≠ Strategy = framework synthesis (implied but not previously explicit).
+  🟢 Aron 2000: novel activities work; mechanism = novelty, not the specific activity.
 ```
 
 ---
@@ -335,7 +313,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §3 — 3 RESONANCE MODALITIES (Verbal / Non-verbal / Body-level)
 
 ```
-⭐⭐ RESONANCE TRUYỀN QUA 3 MODALITY ĐỘC LẬP:
+⭐⭐ RESONANCE FLOWS THROUGH 3 INDEPENDENT MODALITIES:
 
 
   MODALITY ① — VERBAL (Generative dominant):
@@ -346,7 +324,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Function:
       → Inject novelty (new topics, perspectives, stories).
       → Share internal states explicitly (self-disclosure).
-      → Calibrate alignment ("mình hiểu đúng nhau chứ?").
+      → Calibrate alignment ("are we still understanding each other right?").
       → Repair mismatches (address conflicts explicitly).
     When critical: building resonance (Stage 1-2), conflict repair, Generative.
     When NOT critical: established bonds (Stage 3+), Tonic resonance.
@@ -362,10 +340,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Primary reward: Evaluative + Direct-State mixed (evaluation + social warmth).
     Resonance type: MIXED (Generative + Tonic).
     Function:
-      → Signal availability without words ("tôi ở đây, sẵn sàng").
+      → Signal availability without words ("I'm here, ready").
       → Respond to bids for connection (Gottman: touch, glance, nod).
       → Express emotional state implicitly.
-      → Maintain Agent-mode visibility ("tôi đang chú ý đến bạn").
+      → Maintain Agent-mode visibility ("I'm paying attention to you").
     When critical: moment-to-moment connection, bid response.
     When NOT critical: information exchange, complex problem-solving.
 
@@ -394,27 +372,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   3 MODALITIES × COMBINATION:
 
     ┌──────────────────────────────────────────────────────────────────┐
-    │ Verbal + Non-verbal + Body = MAXIMUM (all channels active)     │
-    │ → In-person deep conversation + physical closeness              │
-    │                                                                 │
-    │ Verbal + Non-verbal = STRONG (body-level offline)              │
-    │ → Video call: see face, hear voice, no touch                    │
-    │                                                                 │
-    │ Verbal only = GENERATIVE limited (Tonic minimal)               │
-    │ → Text chat: information exchange, no body cues                 │
-    │                                                                 │
-    │ Non-verbal + Body = TONIC strong (Generative minimal)          │
-    │ → ★ Silent couple at beach: body-level sync, glances, touch    │
-    │ → Resonance REAL qua body-level + non-verbal                   │
-    │                                                                 │
-    │ Body only = MINIMAL but real                                    │
-    │ → Sleeping together: HR sync, breathing sync, body warmth       │
-    │ → "Ngủ cạnh nhau = khỏe hơn" = body-level resonance           │
+    │ Verbal + Non-verbal + Body = MAXIMUM (all channels active)      │
+    │ → In-person deep conversation + physical closeness               │
+    │                                                                  │
+    │ Verbal + Non-verbal = STRONG (body-level offline)               │
+    │ → Video call: see face, hear voice, no touch                     │
+    │                                                                  │
+    │ Verbal only = GENERATIVE limited (Tonic minimal)                │
+    │ → Text chat: information exchange, no body cues                  │
+    │                                                                  │
+    │ Non-verbal + Body = TONIC strong (Generative minimal)           │
+    │ → ★ Silent couple at the beach: body-level sync, glances, touch │
+    │ → Resonance REAL via body-level + non-verbal                    │
+    │                                                                  │
+    │ Body only = MINIMAL but real                                     │
+    │ → Sleeping together: HR sync, breathing sync, body warmth        │
+    │ → "Sleeping next to each other = feeling better" =              │
+    │    body-level resonance                                          │
     └──────────────────────────────────────────────────────────────────┘
 
   ⭐ EACH MODALITY = INDEPENDENT CONTRIBUTION:
-    Verbal loss (im lặng) ≠ resonance loss (body-level still active).
-    Body-level loss (xa nhau) ≠ resonance loss (verbal still active qua phone).
+    Verbal loss (silence) ≠ resonance loss (body-level still active).
+    Body-level loss (physical distance) ≠ resonance loss
+      (verbal still active via phone).
     ALL modality loss = resonance suspended.
 
   🟡 3-modality taxonomy = framework synthesis.
@@ -427,88 +407,89 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §4 — SILENCE TAXONOMY (4 types × sustainability)
 
 ```
-⭐⭐ IM LẶNG CÓ 4 LOẠI — CHỈ 1 LOẠI BỀN VỮNG:
+⭐⭐ SILENCE HAS 4 TYPES — ONLY 1 IS SUSTAINABLE:
 
   🟢 Weinstein et al. 2024 (Motivation and Emotion, 587 participants, 4 studies):
 
 
-  TYPE 1 — INTRINSIC SILENCE (kết nối, thoải mái):
+  TYPE 1 — INTRINSIC SILENCE (connecting, comfortable):
 
-    Motivation: muốn kết nối, CHỌN im lặng vì thoải mái.
+    Motivation: wanting to connect, CHOOSING silence because it feels natural.
     Emotional state: LOW-AROUSAL POSITIVE (relaxed, peaceful).
     Physiological: synchronized HR/breathing, low EDA.
     Resonance modality: Non-verbal + Body-level ACTIVE.
     Attachment correlate: Secure attachment.
-    ✅ SUSTAINABLE — đặc trưng MATURE relationships.
+    ✅ SUSTAINABLE — characteristic of MATURE relationships.
 
-    VD: Vợ chồng 20 năm ngồi đọc sách cùng phòng.
-        2 bạn thân ngồi câu cá, im lặng, thoải mái.
+    Example: Couple of 20 years sitting in the same room reading.
+             Two close friends fishing together in comfortable silence.
 
 
-  TYPE 2 — INTROJECTED SILENCE (sợ, kiềm chế):
+  TYPE 2 — INTROJECTED SILENCE (fear-based, self-suppressing):
 
-    Motivation: sợ bị judge, sợ conflict, tự kiềm chế.
+    Motivation: fear of being judged, fear of conflict, self-restraint.
     Emotional state: HIGH-AROUSAL NEGATIVE (anxious, tense).
     Physiological: elevated HR, cortisol holding.
-    Resonance modality: ALL modalities DAMPENED (self-monitoring suppress signal).
+    Resonance modality: ALL modalities DAMPENED
+      (self-monitoring suppresses signal).
     Attachment correlate: Anxious attachment.
     ❌ NOT sustainable — burnout trajectory (daily cortisol cost).
 
-    VD: Vợ muốn nói nhưng sợ chồng nổi giận → im lặng.
-        = By-Product-Gap-Resonance §3: Hold + Suppress → cost accumulate.
+    Example: Wanting to say something but afraid of partner's reaction → staying silent.
+      = By-Product-Gap-Resonance §3: Hold + Suppress → cost accumulates.
 
 
-  TYPE 3 — EXTERNAL SILENCE (kiểm soát, trừng phạt):
+  TYPE 3 — EXTERNAL SILENCE (controlling, punishing):
 
-    Motivation: dùng im lặng để kiểm soát/trừng phạt đối phương.
+    Motivation: using silence to control/punish the other person.
     Emotional state: anger + control.
     Resonance modality: ALL modalities BLOCKED (intentional disconnection).
     Attachment correlate: Avoidant/hostile.
     ❌ DESTRUCTIVE — = Gottman's stonewalling (1 of 4 Horsemen).
 
-    VD: "Chiến tranh lạnh" — không nói chuyện để partner chịu không nổi.
+    Example: "The cold war" — giving the silent treatment until partner can't take it.
 
 
-  TYPE 4 — SPONTANEOUS SILENCE (tự nhiên, trung tính):
+  TYPE 4 — SPONTANEOUS SILENCE (natural, neutral):
 
-    Motivation: không cố ý, tự nhiên yên lặng.
+    Motivation: not deliberate, silence falls naturally.
     Emotional state: neutral to mildly positive.
-    Resonance modality: available nhưng not actively engaged.
+    Resonance modality: available but not actively engaged.
     ✅ Benign — NEVER associated with negative outcomes (Weinstein 2024).
 
-    VD: Lái xe cùng nhau, tự nhiên im lặng 10 phút.
+    Example: Driving together, naturally quiet for 10 minutes.
 
 
   SILENCE × LIMERENCE vs MATURE:
 
     LIMERENCE SILENCE:
       HIGH-AROUSAL positive (excited, intense, charged).
-      Hormone flooding → EVERYTHING feels meaningful.
-      TEMPORARY (18-36 tháng — Fisher 2004).
-      Post-limerence: nếu không genuine resonance → empty.
+      Hormone flood → EVERYTHING feels meaningful.
+      TEMPORARY (18-36 months — Fisher 2004).
+      Post-limerence: if no genuine resonance → empty silence.
 
     MATURE SILENCE (Intrinsic):
       LOW-AROUSAL positive (relaxed, peaceful — Weinstein 2024).
       Conditioned over time (Sbarra & Hazan: co-regulation).
-      Trust-based → decades sustainable.
-      🟢 Luscher 2022: 118 couples, married 40.4 years average
+      Trust-based → sustainable for decades.
+      🟢 Luscher 2022: 118 couples, married 40.4 years average.
          Companionship (quiet shared time) → ↑ positive affect (b=0.63, p<0.001).
 
-    → Same behavior (im lặng), KHÁC mechanism + arousal + sustainability.
+    → Same behavior (silence), DIFFERENT mechanism + arousal + sustainability.
 
 
   SILENCE × ENTITY TYPE:
 
-    ┌────────────────┬──────────────┬──────────────┬──────────────┐
-    │                │ Intrinsic    │ Introjected  │ External     │
-    │                │ (comfortable)│ (anxious)    │ (hostile)    │
-    ├────────────────┼──────────────┼──────────────┼──────────────┤
-    │ Mẹ-con (nhỏ)  │ CÓ (ôm êm)  │ CÓ (sợ mẹ)  │ ÍT           │
-    │ Mẹ-con (teen) │ ÍT           │ CÓ (tránh)  │ CÓ (rebel)  │
-    │ Bạn thân      │ CÓ (thoải m.)│ ÍT           │ ÍT           │
-    │ Romantic       │ CÓ (mature) │ CÓ (anxious)│ CÓ (conflict)│
-    │ Colleague      │ ÍT           │ CÓ (sếp)    │ CÓ (office) │
-    └────────────────┴──────────────┴──────────────┴──────────────┘
+    ┌──────────────────────┬────────────────┬───────────────┬──────────────┐
+    │                      │ Intrinsic      │ Introjected   │ External     │
+    │                      │ (comfortable)  │ (anxious)     │ (hostile)    │
+    ├──────────────────────┼────────────────┼───────────────┼──────────────┤
+    │ Parent-child (young) │ YES (cuddling) │ YES (fear)    │ RARE         │
+    │ Parent-child (teen)  │ RARE           │ YES (avoiding)│ YES (rebel.) │
+    │ Close friend         │ YES (relaxed)  │ RARE          │ RARE         │
+    │ Romantic             │ YES (mature)   │ YES (anxious) │ YES (conflict│
+    │ Colleague            │ RARE           │ YES (boss)    │ YES (office) │
+    └──────────────────────┴────────────────┴───────────────┴──────────────┘
 
   🟢 Weinstein 2024: 4 silence types + outcomes (4 studies, N=587).
   🟢 Luscher 2022: companionship in 40+ year marriages (N=118).
@@ -522,36 +503,40 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §5 — VERBAL NECESSITY SPECTRUM
 
 ```
-⭐⭐ KHI NÀO VERBAL CẦN THIẾT, KHI NÀO KHÔNG:
+⭐⭐ WHEN VERBAL IS NECESSARY, WHEN IT IS NOT:
 
 
-  VERBAL CRITICAL (không thể thay thế):
+  VERBAL CRITICAL (cannot be replaced):
 
     ① CONFLICT REPAIR:
-      Mismatch → cần ADDRESS explicitly. Non-verbal + body-level KHÔNG ĐỦ.
+      Mismatch → must ADDRESS explicitly. Non-verbal + body-level NOT SUFFICIENT.
       Gottman: repair attempts (often verbal) = strongest predictor of stability.
 
     ② CALIBRATION CHECK:
       Long-term bonds → compiled patterns MAY drift.
-      "Mình vẫn hiểu đúng nhau chứ?" = cần verbal periodically.
-      Without verbal calibration: drift without detection.
+      "Are we still understanding each other right?" = verbal check needed periodically.
+      Without verbal calibration: drift occurs without detection.
 
     ③ GENERATIVE INJECTION:
-      Novelty qua conversation: new topics, perspectives, debates.
-      Body-level + non-verbal KHÔNG inject Generative content.
-      "Nói chuyện trên trời dưới bể" = verbal Generative resonance.
+      Novelty via conversation: new topics, perspectives, debates.
+      Body-level + non-verbal CANNOT inject Generative content.
+      Wide-ranging conversations about anything and everything =
+        verbal Generative resonance.
 
     ④ CAPITALIZATION (§6):
-      Full active-constructive response cần verbal (smile KHÔNG đủ).
+      Full active-constructive response requires verbal
+        (a smile alone is NOT sufficient).
 
 
   VERBAL NOT CRITICAL (body-level sufficient):
 
-    ① TONIC COMFORT: "Ôm nhau không nói gì" = body-level sufficient.
-       CT afferents + oxytocin KHÔNG cần verbal trigger.
-    ② CRISIS SUPPORT: Partner đang khóc → ôm chặt > "nói gì đi."
-       "Không biết nói gì, chỉ ôm" = architecturally correct.
-    ③ ROUTINE PRESENCE: "Ngồi cùng phòng đọc sách" = body-level + non-verbal.
+    ① TONIC COMFORT: "Holding each other without saying anything" =
+       body-level sufficient.
+       CT afferents + oxytocin do NOT need verbal trigger.
+    ② CRISIS SUPPORT: Partner crying → holding them close > "say something."
+       "Nothing to say, just held them" = architecturally correct.
+    ③ ROUTINE PRESENCE: "Sitting in the same room reading" =
+       body-level + non-verbal.
     ④ CO-REGULATION: Sleep, relax, walk together = HR sync, automatic.
 
 
@@ -573,12 +558,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Body-level sufficient
 
 
-  ⭐ VERBAL = TOOL FOR SPECIFIC FUNCTIONS:
+  ⭐ VERBAL = A TOOL FOR SPECIFIC FUNCTIONS:
     Verbal is NOT "better" than non-verbal/body-level.
-    Each modality serves DIFFERENT function.
+    Each modality serves a DIFFERENT function.
     Purely verbal (text only) = LIMITED (body offline).
-    Purely non-verbal (never talk) = RISKY (no calibration, no repair, no Generative).
-    OPTIMAL = all 3 modalities available, used per function.
+    Purely non-verbal (never talking) = RISKY
+      (no calibration, no repair, no Generative).
+    OPTIMAL = all 3 modalities available, deployed per function.
     Cannot prescribe ratio → domain feedback = arbiter.
 
   🟡 Verbal necessity spectrum = framework synthesis.
@@ -590,50 +576,55 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §6 — CAPITALIZATION (Active-Constructive Responding)
 
 ```
-⭐⭐ CHIA SẺ TÍCH CỰC > XỬ LÝ TIÊU CỰC CHO RELATIONSHIP QUALITY:
+⭐⭐ SHARING POSITIVE EVENTS > HANDLING NEGATIVE EVENTS
+    FOR RELATIONSHIP QUALITY:
 
   🟢 Gable, Reis, Impett & Asher 2004 (JPSP):
      Sharing positive events → ↑ daily positive affect + well-being.
-     ABOVE AND BEYOND impact of the positive event itself.
+     ABOVE AND BEYOND the impact of the positive event itself.
 
   🟢 Gable, Gonzaga & Strachman 2006 (JPSP):
      ~80 couples: HOW partner responds to positive news
-     → Predict breakup 2 MONTHS later.
+     → Predicts breakup 2 MONTHS later.
      → MORE closely related than responses to NEGATIVE events.
 
 
   4 RESPONSE TYPES (Gable 2006):
 
-    ┌─────────────────────────┬──────────────────────────────────────┐
-    │ ACTIVE-CONSTRUCTIVE     │ ★ CHỈ LOẠI NÀY correlate POSITIVE   │
-    │ (enthusiastic, ask      │                                      │
-    │ questions, express      │ "Hay quá! Kể thêm đi! Vui quá!"    │
-    │ excitement)             │ = Agent-mode ON + by-product MATCH   │
-    │                         │ → Amplify + prolong positive affect  │
-    ├─────────────────────────┼──────────────────────────────────────┤
-    │ PASSIVE-CONSTRUCTIVE    │ Correlate NEGATIVE                   │
-    │ (understated)           │ "Ừ, tốt." = Agent-mode LOW          │
-    ├─────────────────────────┼──────────────────────────────────────┤
-    │ ACTIVE-DESTRUCTIVE      │ Correlate NEGATIVE                   │
-    │ (dampen)                │ "Thăng chức? Sẽ phải làm nhiều hơn."│
-    │                         │ = Anti-match (By-Product-Gap-Resonance §6.5)            │
-    ├─────────────────────────┼──────────────────────────────────────┤
-    │ PASSIVE-DESTRUCTIVE     │ Correlate NEGATIVE                   │
-    │ (ignore)                │ "Ừ. Hôm nay ăn gì?" = turning away │
-    └─────────────────────────┴──────────────────────────────────────┘
+    ┌─────────────────────────┬────────────────────────────────────────┐
+    │ ACTIVE-CONSTRUCTIVE     │ ★ THE ONLY TYPE that correlates        │
+    │ (enthusiastic, asks     │    POSITIVELY                          │
+    │ questions, expresses    │                                        │
+    │ excitement)             │ "That's amazing! Tell me more!         │
+    │                         │ I'm so excited for you!"               │
+    │                         │ = Agent-mode ON + by-product MATCH     │
+    │                         │ → Amplifies + prolongs positive affect │
+    ├─────────────────────────┼────────────────────────────────────────┤
+    │ PASSIVE-CONSTRUCTIVE    │ Correlates NEGATIVE                    │
+    │ (understated)           │ "Oh, that's good." = Agent-mode LOW    │
+    ├─────────────────────────┼────────────────────────────────────────┤
+    │ ACTIVE-DESTRUCTIVE      │ Correlates NEGATIVE                    │
+    │ (dampens)               │ "Promoted? More work, then."           │
+    │                         │ = Anti-match (By-Product-Gap-Resonance │
+    │                         │   §6.5)                                │
+    ├─────────────────────────┼────────────────────────────────────────┤
+    │ PASSIVE-DESTRUCTIVE     │ Correlates NEGATIVE                    │
+    │ (ignores)               │ "Oh. What are we eating today?"        │
+    │                         │ = turning away                         │
+    └─────────────────────────┴────────────────────────────────────────┘
 
   FRAMEWORK MAPPING:
     Active-Constructive = Agent-mode ON + by-product MATCH:
-    → Partner share positive news = fill THEIR Generative gap.
+    → Partner shares positive news = fills THEIR Generative gap.
     → By-product = joy, excitement, pride.
     → Active-Constructive response MATCHES this by-product.
     → Amplification loop: joy → shared → amplified joy.
 
-    3 other types = Agent-mode OFF or ANTI-MATCH.
+    The other 3 types = Agent-mode OFF or ANTI-MATCH.
 
   ⭐ CAPITALIZATION = VERBAL AMPLIFICATION MECHANISM:
-    REQUIRES verbal (body-level smile KHÔNG đủ cho active-constructive).
-    = 1 reason verbal CRITICAL cho Generative sustainability.
+    REQUIRES verbal (a smile alone is NOT sufficient for active-constructive).
+    = 1 reason verbal is CRITICAL for Generative sustainability.
 
   🟢 Gable 2004, 2006: capitalization research (replicated).
   🟡 Mapping to Agent-mode + by-product match = framework synthesis.
@@ -644,7 +635,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §7 — PERCEIVED PARTNER RESPONSIVENESS (PPR × Self-Pattern-Modeling)
 
 ```
-⭐⭐ CẢM THẤY ĐƯỢC HIỂU > THỰC TẾ ĐƯỢC HIỂU:
+⭐⭐ FEELING UNDERSTOOD > ACTUALLY BEING UNDERSTOOD:
 
   🟢 Reis & Shaver 1988 — Interpersonal Process Model of Intimacy:
      3 components: feeling (a) UNDERSTOOD, (b) VALIDATED, (c) CARED FOR.
@@ -655,19 +646,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   3 COMPONENTS:
 
-    ① UNDERSTOOD ("bạn hiểu tôi"):
-      Self-Pattern-Modeling accuracy high → partner's Compiled predict MY state well.
-      PERCEPTION: tôi cảm thấy partner predict đúng state tôi.
+    ① UNDERSTOOD ("you understand me"):
+      Self-Pattern-Modeling accuracy high → partner's Compiled predicts MY state well.
+      PERCEPTION: I feel partner accurately predicts my state.
       Cue: paraphrase, reflect, appropriate facial response.
 
-    ② VALIDATED ("bạn chấp nhận tôi"):
+    ② VALIDATED ("you accept me"):
       Partner response confirms MY gap directions as legitimate.
-      PERCEPTION: gap directions tôi KHÔNG bị judged.
-      Cue: "điều đó make sense", "tôi hiểu vì sao", nod.
+      PERCEPTION: my gap directions are NOT judged.
+      Cue: "that makes sense," "I understand why," a nod.
 
-    ③ CARED FOR ("bạn quan tâm tôi"):
-      Partner invest resources (time, effort, attention) cho tôi.
-      PERCEPTION: partner MUỐN tôi well, không chỉ obligated.
+    ③ CARED FOR ("you care about me"):
+      Partner invests resources (time, effort, attention) in me.
+      PERCEPTION: partner WANTS me to be well, not just obligated to.
       Cue: offer help, touch, proximity, attention.
 
 
@@ -675,7 +666,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     PPR = perceived partner responsiveness.
     → PERCEPTION of responsiveness produces intimacy, NOT the objective behavior.
-    → = Self-Pattern-Modeling as mediator: MY Self-Pattern-Modeling interprets partner's behavior.
+    → = Self-Pattern-Modeling as mediator: MY Self-Pattern-Modeling interprets
+        partner's behavior.
 
     Per attachment style:
     → Secure: Self-Pattern-Modeling calibrated → perceive responsiveness accurately.
@@ -683,16 +675,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Avoidant: Self-Pattern-Modeling dampened → perceive less responsiveness.
 
     IMPLICATION:
-    → Partner CAN be responsive, nhưng nếu MY Self-Pattern-Modeling interpret sai → PPR low.
-    → "Nó có quan tâm đâu" (mà actually có, nhưng Self-Pattern-Modeling tôi không detect).
-    → FIX: calibrate Self-Pattern-Modeling (therapy, secure base experience, verbal explicit check).
+    → Partner CAN be responsive, but if MY Self-Pattern-Modeling misreads it →
+      PPR low.
+    → "They don't even care" (when they actually do, but my
+      Self-Pattern-Modeling fails to detect it).
+    → FIX: calibrate Self-Pattern-Modeling
+      (therapy, secure base experience, explicit verbal check).
 
 
   PPR × MODALITY:
-    Verbal: explicit → easier to detect → PPR HIGHEST signal clarity.
-    Non-verbal: implicit → harder → PPR ambiguous.
+    Verbal: explicit → easier to detect → PPR has HIGHEST signal clarity.
+    Non-verbal: implicit → harder → PPR more ambiguous.
     Body-level: automatic → felt but not labeled → PPR below PFC threshold.
-    → Both contribute, different layers.
+    → Both contribute, at different layers.
 
   🟢 Reis & Shaver 1988: IPM model (foundational).
   🟢 Laurenceau 1998, 2005: diary confirmation.
@@ -705,32 +700,36 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §8 — SECURE BASE EFFECT (3 components + spiral)
 
 ```
-⭐ PARTNER AS SUPPORT FOR EXPLORATION:
+⭐ PARTNER AS A PLATFORM FOR EXPLORATION:
 
   🟢 Feeney 2004, 2007 (JPSP): partner support of exploration.
-  🟢 Feeney & Thrush 2010: 167 married couples, ALL 3 components predict exploration.
+  🟢 Feeney & Thrush 2010: 167 married couples,
+     ALL 3 components predict exploration.
 
 
   3 COMPONENTS:
 
-    ① AVAILABILITY ("tôi ở đây nếu bạn cần"):
+    ① AVAILABILITY ("I'm here if you need me"):
       Partner present + perceived as accessible when needed.
       NOT constant hovering — available ON REQUEST.
 
-    ② NONINTERFERENCE ("tôi không cản"):
-      Allow partner's drive riêng to operate.
+    ② NONINTERFERENCE ("I won't get in the way"):
+      Allowing partner's own drives to operate.
       = Anti-compiled-suppress (Bond-Architecture §5).
-      Anxious partners: MORE interfering → partners explore LESS (Feeney & Thrush 2010).
+      Anxious partners: MORE interfering → partners explore LESS
+        (Feeney & Thrush 2010).
 
-    ③ ENCOURAGEMENT ("bạn làm được"):
+    ③ ENCOURAGEMENT ("you can do it"):
       Active signal: partner's exploration = valued + supported.
       NOT just absence of criticism — PRESENCE of support.
-      Overlap with Capitalization (§6): "hay quá, kể thêm đi."
+      Overlaps with Capitalization (§6):
+        "That's amazing, tell me more."
 
 
   "MERE PRESENCE IS NOT ENOUGH" (Feeney 2007):
 
-    Partner presence WITHOUT responsive behavior → KHÔNG facilitate exploration.
+    Partner presence WITHOUT responsive behavior →
+      does NOT facilitate exploration.
     Must be PERCEIVED as available + encouraging + non-interfering.
     = Agent-mode ON + quality response (not just co-location).
     = Condition ③ (Agent-mode) from §1 REFINED.
@@ -739,18 +738,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   FRAMEWORK MAPPING — POSITIVE SPIRAL:
 
     Secure base = partner fills Tonic gap (safety, comfort)
-    → Tôi free to pursue Generative gaps
-    → Drive riêng → new by-products
+    → I am free to pursue Generative gaps
+    → Own drive → new by-products
     → By-products match partner's gap → resonance
-    → Resonance strengthen base → more exploration
+    → Resonance strengthens base → more exploration
     → = POSITIVE SPIRAL
 
   SECURE BASE FAILURE — NEGATIVE SPIRAL:
 
-    Anxious partner: over-monitoring → MY drive suppressed → less by-products.
-    Avoidant partner: unavailable → MY distress unmet → energy diverted to seeking.
+    Anxious partner: over-monitoring → MY drive suppressed → fewer by-products.
+    Avoidant partner: unavailable → MY distress unmet →
+      energy diverted to seeking safety.
     → Both patterns REDUCE by-products → REDUCE resonance → weaker base.
-    → = Bond-Architecture §4.1: Compiled-Suppress gap riêng.
+    → = Bond-Architecture §4.1: Compiled-Suppress of own drive.
 
   🟢 Feeney 2004, 2007: secure base in adults.
   🟢 Feeney & Thrush 2010: 3 components predict exploration (N=167 couples).
@@ -762,7 +762,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §9 — SELF-EXPANSION × BOREDOM PREVENTION
 
 ```
-⭐⭐ KHI SELF-EXPANSION DỪNG → RELATIONSHIP BOREDOM → SATISFACTION ↓:
+⭐⭐ WHEN SELF-EXPANSION STOPS → RELATIONSHIP BOREDOM → SATISFACTION ↓:
 
   🟢 Tsapelas, Aron & Orbuch 2009 (Psychological Science):
      N=123 couples, LONGITUDINAL.
@@ -783,28 +783,30 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Self-expansion = COUNTER to Reward-Habituated + restores novelty fuel:
     → Novel shared activities → new sensory stimuli → counter Reward-Habituated (②).
-    → Novel shared activities → new prediction-deltas + new chunks → novelty fuel restored.
-    → = Counter BOTH force ② AND restore fuel in one action.
+    → Novel shared activities → new prediction-deltas + new chunks →
+      novelty fuel restored.
+    → = Counters BOTH force ② AND restores fuel in a single action.
 
-    NHƯNG Compiled-Suppress (①) cần KHÁC treatment:
-    → Novel activities không help nếu partner suppress drive riêng.
+    BUT Compiled-Suppress (①) requires DIFFERENT treatment:
+    → Novel activities do not help if partner suppresses their own drive.
     → Compiled-Suppress fix = awareness + uncompile + secure base (§8).
     → = Bond-Architecture §5: true understanding = anti-compiled-suppress.
 
 
   INDIVIDUAL vs SHARED GROWTH:
 
-    Individual growth (1 người grow, partner observe):
-    → CÓ benefit: new perspectives feed back.
-    → NHƯNG: must be SHARED perception (partner perceive support).
-    → If NOT shared → gap distributions DIVERGE → Fade (By-Product-Gap-Resonance §5.2).
+    Individual growth (one person grows, partner observes):
+    → HAS benefit: new perspectives feed back into the relationship.
+    → BUT: must be SHARED perception (partner perceives support).
+    → If NOT shared → gap distributions DIVERGE → Fade
+        (By-Product-Gap-Resonance §5.2).
 
-    Shared growth (cùng trải nghiệm mới):
-    → DIRECT resonance: cùng process novelty → by-products match.
-    → "Travel together" > "travel alone" cho resonance.
+    Shared growth (experiencing novelty together):
+    → DIRECT resonance: processing novelty together → by-products match.
+    → "Traveling together" > "traveling alone" for resonance.
 
     OPTIMAL = both: individual drive maintained + shared novel experiences.
-    = Secure base (§8): partner support exploration + share discoveries.
+    = Secure base (§8): partner supports exploration + shares discoveries.
 
   🟢 Tsapelas 2009: boredom → satisfaction lag (longitudinal).
   🟢 Aron 2000: novel activities → satisfaction (3 experiments).
@@ -817,7 +819,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §10 — MAINTENANCE DECLINE PARADOX
 
 ```
-⭐⭐ META-ANALYSIS: MAINTENANCE TỰ GIẢM THEO THỜI GIAN:
+⭐⭐ META-ANALYSIS: MAINTENANCE NATURALLY DECLINES OVER TIME:
 
   🟢 Ogolsky & Bowers 2013 (Journal of Social and Personal Relationships):
      META-ANALYSIS: 35 studies, N=12,273.
@@ -826,41 +828,42 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟢 Canary & Stafford 1992 — 5 MAINTENANCE BEHAVIORS:
 
-    ┌────────────────────┬───────────────────────────────────────────┐
-    │ ① POSITIVITY       │ Cheerful, uncritical interaction          │
-    │                    │ → DECLINES with duration (Ogolsky 2013)  │
-    ├────────────────────┼───────────────────────────────────────────┤
-    │ ② OPENNESS         │ Direct discussion of relationship needs  │
-    │                    │ → STABLE over time                       │
-    │                    │ → REQUIRES verbal modality                │
-    ├────────────────────┼───────────────────────────────────────────┤
-    │ ③ ASSURANCES       │ Acknowledge relationship continues       │
-    │                    │ → DECLINES with duration                  │
-    │                    │ → "Đương nhiên rồi, nói gì?"             │
-    ├────────────────────┼───────────────────────────────────────────┤
-    │ ④ SOCIAL NETWORKS  │ Engaging shared affiliations              │
-    │                    │ → STABLE                                  │
-    ├────────────────────┼───────────────────────────────────────────┤
-    │ ⑤ SHARING TASKS    │ Equitable responsibilities                │
-    │                    │ → STABLE                                  │
-    └────────────────────┴───────────────────────────────────────────┘
+    ┌────────────────────┬───────────────────────────────────────────────┐
+    │ ① POSITIVITY       │ Cheerful, uncritical interaction              │
+    │                    │ → DECLINES with duration (Ogolsky 2013)      │
+    ├────────────────────┼───────────────────────────────────────────────┤
+    │ ② OPENNESS         │ Direct discussion of relationship needs       │
+    │                    │ → STABLE over time                            │
+    │                    │ → REQUIRES verbal modality                    │
+    ├────────────────────┼───────────────────────────────────────────────┤
+    │ ③ ASSURANCES       │ Acknowledge the relationship continues        │
+    │                    │ → DECLINES with duration                      │
+    │                    │ → "Of course, what needs saying?"             │
+    ├────────────────────┼───────────────────────────────────────────────┤
+    │ ④ SOCIAL NETWORKS  │ Engaging shared affiliations                  │
+    │                    │ → STABLE                                      │
+    ├────────────────────┼───────────────────────────────────────────────┤
+    │ ⑤ SHARING TASKS    │ Equitable responsibilities                    │
+    │                    │ → STABLE                                      │
+    └────────────────────┴───────────────────────────────────────────────┘
 
 
   DECLINE MECHANISM:
 
     Compilation Stage 3 → cost ≈ 0, reward habituated → VTA "invisible."
-    → Entity-Compiled = structural baseline → "đương nhiên."
-    → PFC KHÔNG observe baseline → KHÔNG feel need to maintain.
+    → Entity-Compiled = structural baseline → "of course it's there."
+    → PFC does NOT observe the baseline → does NOT feel need to maintain.
 
     = TRAP: better compilation → less visible → less maintained.
     → Resonance still NEEDS maintenance to prevent Stage 4B (habituated flat).
-    → But maintenance FEELS unnecessary because baseline invisible.
+    → But maintenance FEELS unnecessary because baseline is invisible.
 
 
   SUSTAINABILITY IMPLICATION:
 
-    Longer relationships cần MORE deliberate effort (counter-intuitive).
-    "Mới yêu thì dễ duy trì, yêu lâu thì khó" = structurally correct.
+    Longer relationships need MORE deliberate effort (counter-intuitive).
+    "Newly in love = maintenance feels easy; long-term = harder"
+      = structurally correct.
     Limerence: maintenance behaviors AUTOMATIC (hormone drive).
     Post-limerence: maintenance must be DELIBERATE.
     = Transition from ①a (hardware-boosted) to ①b (compiled-maintained).
@@ -877,14 +880,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §11 — CO-REGULATION U-CURVE
 
 ```
-⭐ PHYSIOLOGICAL SYNCHRONY FOLLOWS NON-LINEAR TRAJECTORY:
+⭐ PHYSIOLOGICAL SYNCHRONY FOLLOWS A NON-LINEAR TRAJECTORY:
 
   🟢 Sbarra & Hazan 2008 (Personality & Social Psychology Review):
      Co-regulation = interwoven physiology.
      Conditioned through repeated proximity over months-years.
      Loss → biobehavioral dysregulation (breakup = physical symptoms).
 
-  🟢 Coutinho et al. 2021 (Psychophysiology):
+  🟡 Coutinho et al. 2021 (Psychophysiology):
      Cardiac synchrony: U-SHAPED CURVE proposed across adulthood:
      → Young couples: HIGHER synchrony (new bond, hormone-boosted).
      → Middle-aged: LOWER synchrony (habituated, less attention).
@@ -899,16 +902,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     STAGE 1-2 (new bond): HIGH sync.
       Hormone boost (limerence) → body-level coupling high.
-      Agent-mode HIGH (novelty → Self-Pattern-Modeling engage → by-product rich).
+      Agent-mode HIGH (novelty → Self-Pattern-Modeling engages →
+        by-product rich).
 
     STAGE 3 (compiled baseline): SYNC DROPS.
       Compiled → automatic → less body attention.
       Habituation → VTA "invisible" → body less responsive.
 
     STAGE 4A (renewed): SYNC RISES.
-      Older couples: health concerns → partner dependency ↑.
+      Older couples: health concerns → partner dependency increases.
       = Hardware gaps resurface (60+).
-      "Về già cần nhau hơn" = hardware gaps re-dominate.
+      "Needing each other more as you grow old" =
+        hardware gaps re-dominate.
 
 
   ⭐ SYNCHRONY CONTEXT MATTERS (VALUE-NEUTRAL):
@@ -916,10 +921,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Positive interaction: sync = GOOD (co-regulation, mutual reward).
     Conflict: sync = BAD (stress contagion, co-dysregulation).
     = Body-Coupling v2.0: entanglement pattern.
-    "Cùng stress" ≠ "cùng vui" — same mechanism, opposite valence.
+    "Stressed together" ≠ "joyful together" —
+      same mechanism, opposite valence.
 
     → CANNOT simply say "more sync = better relationship."
-    → Must specify CONTEXT of synchrony.
+    → Must specify the CONTEXT of synchrony.
 
   🟢 Sbarra & Hazan 2008: co-regulation model.
   🟡 Coutinho 2021: U-curve proposal.
@@ -942,45 +948,49 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Sened et al. 2022:
      262 romantic couples, daily diary.
      Direct accuracy → SLOWER response times.
-     = Deliberate cognitive processing (Self-Pattern-Modeling Fresh) > automatic (Self-Pattern-Modeling Compiled).
+     = Deliberate cognitive processing (Self-Pattern-Modeling Fresh) >
+       automatic (Self-Pattern-Modeling Compiled).
 
 
   FRAMEWORK MAPPING — Self-Pattern-Modeling ACCURACY:
 
     Compiled: fast, automatic, based on past patterns.
-    → "Biết vợ đang cáu vì giọng nói" = compiled pattern match.
+    → "Knowing wife is irritated just from her tone" = compiled pattern match.
 
     Fresh: slow, effortful, based on current observation.
-    → "Bạn hôm nay khác bình thường, sao vậy?" = PFC invest.
+    → "You seem different today — what's going on?" = PFC investment.
 
     Accuracy INCREASES with: exposure hours, Agent-mode frequency, motivation.
     Accuracy DOES NOT simply increase with time:
     → Compiled patterns may STALE (partner changed but Compiled not updated).
-    → "Tưởng hiểu mà hóa ra không hiểu nữa" = stale Compiled.
+    → "Thought I knew them, turns out I don't anymore" = stale Compiled.
 
 
   ⭐ MOTIVATED INACCURACY (Ickes):
 
     Partners sometimes DELIBERATELY reduce accuracy:
     → When truth THREATENS the bond.
-    → "Vờ không thấy" = PROTECTIVE mechanism.
+    → "Pretending not to notice" = PROTECTIVE mechanism.
 
-    VD:
-      Biết partner đang thích người khác → Self-Pattern-Modeling deliberately REDUCE resolution.
-      Biết partner đang stress vì tôi → Self-Pattern-Modeling deflect ("chắc do công việc").
-      = PFC=Lawyer (By-Product-Gap-Resonance §5.5): create narrative that PROTECTS bond.
+    Examples:
+      Knowing partner is attracted to someone else →
+        Self-Pattern-Modeling deliberately REDUCES resolution.
+      Knowing partner is stressed because of me →
+        Self-Pattern-Modeling deflects ("probably just work stress").
+      = PFC=Lawyer (By-Product-Gap-Resonance §5.5):
+        creates a narrative that PROTECTS the bond.
 
     ADAPTIVE vs MALADAPTIVE:
       Adaptive: temporary deflection during acute stress → allows recovery.
       Maladaptive: chronic avoidance → drift accumulates → eventual crisis.
-      → "Vợ chồng ít nói chuyện thật" → drift → "bỗng phát hiện xa lạ."
+      → Couples talking less honestly → drift → suddenly feeling like strangers.
 
     FRAMEWORK:
-      Motivated inaccuracy = Self-Pattern-Modeling intentionally reduce fidelity.
+      Motivated inaccuracy = Self-Pattern-Modeling intentionally reduces fidelity.
       = Compiled suppress applied to Self-Pattern-Modeling accuracy.
       = Entity-Access-Calibration §6: engine use quality.
-      Threat mode → reduce accuracy → calibration fail.
-      Curiosity mode → increase accuracy → calibration improve.
+      Threat mode → reduce accuracy → calibration fails.
+      Curiosity mode → increase accuracy → calibration improves.
 
   🟢 Ickes 1993, 2003: empathic accuracy (foundational).
   🟢 Sened 2022: accuracy = deliberate processing (N=262 couples).
@@ -995,7 +1005,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ COMPILED BONDS CAN SURVIVE DECADES WITHOUT CONTACT:
 
   🟢 Levin, Walter & Murnighan 2011:
-     Dormant ties: reconnecting long-lost contacts → value cao:
+     Dormant ties: reconnecting long-lost contacts → high value:
      (a) Shared history → trust infrastructure INTACT.
      (b) Different social circles → novel information bridges.
      (c) Easier trust source than fresh ties.
@@ -1007,15 +1017,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Hebbian: deep compilation (years, multi-channel) = slow to weaken.
     → Trust compilation = especially slow decay.
       Built from MANY verified episodes → verified pattern over time.
-      "20 năm không gặp, gặp lại vẫn tin nhau" = trust compilation intact.
+      "Twenty years apart, reunite and still trust each other immediately" =
+        trust compilation intact.
 
     Dormant tie ≠ Active resonance:
-    → Entity-Compiled chunks EXIST nhưng Valence-Momentary = 0 (no momentary reward).
-    → Valence-Structural = weakened nhưng not zeroed.
-    → Reunion: trigger compilation → Valence-Momentary fire → "vẫn thân."
+    → Entity-Compiled chunks EXIST but Valence-Momentary = 0
+      (no momentary reward currently firing).
+    → Valence-Structural = weakened but not zeroed.
+    → Reunion: triggers compilation → Valence-Momentary fires →
+      "still feels close."
 
-    NHƯNG: gap distributions MAY have diverged:
-    → 20 năm → gap landscapes shift enormously.
+    BUT: gap distributions MAY have diverged:
+    → 20 years → gap landscapes shift enormously.
     → Reunion warmth = Entity-Compiled intact (trust, memories).
     → Sustained resonance after reunion depends on:
       Current gap overlap (may be very different now).
@@ -1024,17 +1037,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 
   DORMANT TIES × MODALITY:
-    Reunion often starts VERBAL (catch up, share stories).
-    If physical proximity: body-level sync re-establish quickly.
-    → "Ôm bạn cũ — ấm lại ngay" = body-level reactivation.
+    Reunion often starts VERBAL (catching up, sharing stories).
+    If physical proximity: body-level sync re-establishes quickly.
+    → "Hugging an old friend — warmth returns immediately" =
+      body-level reactivation.
     Physical reunion > digital reunion for reactivation.
 
 
   ⭐ TRUST = MOST RESILIENT COMPILATION DIMENSION:
-    Other Entity-Compiled dimensions (habits, preferences, personality model) CAN stale.
-    Trust dimension: "người này sẽ KHÔNG hại tôi."
+    Other Entity-Compiled dimensions (habits, preferences, personality model)
+      CAN become stale.
+    Trust dimension: "this person will NOT harm me."
     Built from MANY verified episodes → slow decay.
-    Even if personality model outdated, trust intact.
+    Even if the personality model is outdated, trust remains intact.
     = WHY dormant tie reactivation feels SAFE immediately.
 
   🟢 Levin 2011: dormant ties research.
@@ -1047,109 +1062,109 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §14 — 4-LAYER SUSTAINABILITY SYNTHESIS
 
 ```
-⭐⭐⭐ TỔNG HỢP: RESONANCE SUSTAINABILITY QUA 4 TẦNG:
+⭐⭐⭐ SYNTHESIS: RESONANCE SUSTAINABILITY ACROSS 4 LAYERS:
 
 
-  TẦNG 1 — FOUNDATION (§1-§2):
+  LAYER 1 — FOUNDATION (§1-§2):
 
-    ┌─────────────────────────────────────────────────────────────┐
-    │ 3 Primitive Conditions:                                     │
-    │   Proximity × Duration × Agent-mode = MINIMUM              │
-    │                                                             │
+    ┌──────────────────────────────────────────────────────────────┐
+    │ 3 Primitive Conditions:                                      │
+    │   Proximity × Duration × Agent-mode = MINIMUM               │
+    │                                                              │
     │ Gap Flexibility:                                             │
-    │   Gap ≠ Strategy → specific activity không quan trọng       │
-    │   Compatible gap processing = sufficient                    │
-    │                                                             │
-    │ = CÓ nền tảng → resonance CÓ THỂ emerge                   │
-    │ = THIẾU nền tảng → resonance KHÔNG THỂ, dù tất cả tốt     │
-    └─────────────────────────────────────────────────────────────┘
+    │   Gap ≠ Strategy → specific activity doesn't matter         │
+    │   Compatible gap processing = sufficient                     │
+    │                                                              │
+    │ = WITH foundation → resonance CAN emerge                    │
+    │ = WITHOUT foundation → resonance CANNOT, regardless of rest │
+    └──────────────────────────────────────────────────────────────┘
 
 
-  TẦNG 2 — MODALITY (§3-§5):
+  LAYER 2 — MODALITY (§3-§5):
 
-    ┌─────────────────────────────────────────────────────────────┐
-    │ 3 Modalities:                                               │
-    │   Verbal (Generative) × Non-verbal (bids) × Body-level     │
-    │                                                             │
+    ┌──────────────────────────────────────────────────────────────┐
+    │ 3 Modalities:                                                │
+    │   Verbal (Generative) × Non-verbal (bids) × Body-level      │
+    │                                                              │
     │ Silence quality = f(motivation × compilation depth):         │
-    │   Intrinsic = bền. Introjected/External = destructive.      │
-    │                                                             │
+    │   Intrinsic = sustainable. Introjected/External = destructive│
+    │                                                              │
     │ Verbal necessity per function:                               │
-    │   Critical: repair, calibration, Generative, capitalization │
-    │   Not critical: Tonic comfort, crisis co-reg, routine       │
-    │                                                             │
-    │ = THROUGH WHAT resonance flows determines quality + type    │
-    └─────────────────────────────────────────────────────────────┘
+    │   Critical: repair, calibration, Generative, capitalization  │
+    │   Not critical: Tonic comfort, crisis co-reg, routine        │
+    │                                                              │
+    │ = THROUGH WHAT resonance flows determines quality + type     │
+    └──────────────────────────────────────────────────────────────┘
 
 
-  TẦNG 3 — AMPLIFICATION (§6-§8):
+  LAYER 3 — AMPLIFICATION (§6-§8):
 
-    ┌─────────────────────────────────────────────────────────────┐
-    │ Capitalization: Active-Constructive > all other responses    │
-    │   → Sharing positive > handling negative for quality        │
-    │                                                             │
-    │ PPR: feeling understood > actual understanding               │
-    │   → Self-Pattern-Modeling interpretation = mediator                           │
-    │                                                             │
-    │ Secure Base: Availability + Noninterference + Encouragement │
-    │   → Enables drive riêng → by-products → resonance           │
-    │                                                             │
-    │ = WHAT AMPLIFIES resonance once it exists                   │
-    └─────────────────────────────────────────────────────────────┘
-
-
-  TẦNG 4 — TRAJECTORY (§9-§13):
-
-    ┌─────────────────────────────────────────────────────────────┐
-    │ Self-expansion: stopping → boredom → satisfaction ↓         │
-    │   → Novel shared experiences = counter ② + restore novelty   │
-    │                                                             │
-    │ Maintenance: naturally DECLINE with duration                 │
-    │   → Longer relationships need MORE effort, not less         │
-    │                                                             │
-    │ Co-regulation: U-curve (high → low → high again)            │
-    │   → Context matters: positive sync good, conflict sync bad  │
-    │                                                             │
-    │ Empathic accuracy: learned + motivated inaccuracy            │
-    │   → Chronic avoidance → drift → eventual crisis             │
-    │                                                             │
-    │ Dormant ties: trust compilation = most resilient             │
-    │   → Reactivation possible decades later                     │
-    │                                                             │
-    │ = HOW resonance trajectory unfolds over time                │
-    └─────────────────────────────────────────────────────────────┘
+    ┌──────────────────────────────────────────────────────────────┐
+    │ Capitalization: Active-Constructive > all other responses     │
+    │   → Sharing positive > handling negative for quality         │
+    │                                                              │
+    │ PPR: feeling understood > actual understanding                │
+    │   → Self-Pattern-Modeling interpretation = mediator          │
+    │                                                              │
+    │ Secure Base: Availability + Noninterference + Encouragement  │
+    │   → Enables own drive → by-products → resonance             │
+    │                                                              │
+    │ = WHAT AMPLIFIES resonance once it exists                    │
+    └──────────────────────────────────────────────────────────────┘
 
 
-  4-TẦNG TƯƠNG TÁC:
+  LAYER 4 — TRAJECTORY (§9-§13):
 
-    Tầng 1 (Foundation) → enables → Tầng 2 (Modality)
-    → shapes → Tầng 3 (Amplification) → sustains → Tầng 4 (Trajectory)
+    ┌──────────────────────────────────────────────────────────────┐
+    │ Self-expansion: stopping → boredom → satisfaction ↓          │
+    │   → Novel shared experiences = counter ② + restore novelty  │
+    │                                                              │
+    │ Maintenance: naturally DECLINES with duration                 │
+    │   → Longer relationships need MORE effort, not less          │
+    │                                                              │
+    │ Co-regulation: U-curve (high → low → high again)             │
+    │   → Context matters: positive sync good, conflict sync bad   │
+    │                                                              │
+    │ Empathic accuracy: learned + motivated inaccuracy             │
+    │   → Chronic avoidance → drift → eventual crisis              │
+    │                                                              │
+    │ Dormant ties: trust compilation = most resilient              │
+    │   → Reactivation possible decades later                      │
+    │                                                              │
+    │ = HOW resonance trajectory unfolds over time                 │
+    └──────────────────────────────────────────────────────────────┘
 
-    Failure ở Tầng 1 → tất cả collapse (no proximity = no resonance).
-    Failure ở Tầng 2 → quality limited (text-only = Generative only).
-    Failure ở Tầng 3 → decay accelerates (no amplification → habituate).
-    Failure ở Tầng 4 → long-term decline (boredom → flat → death).
 
-    → SUSTAINABILITY = ALL 4 TẦNG maintained simultaneously.
-    → NHƯNG: cannot prescribe HOW to maintain.
+  4-LAYER INTERACTION:
+
+    Layer 1 (Foundation) → enables → Layer 2 (Modality)
+    → shapes → Layer 3 (Amplification) → sustains → Layer 4 (Trajectory)
+
+    Failure at Layer 1 → everything collapses (no proximity = no resonance).
+    Failure at Layer 2 → quality limited (text-only = Generative only).
+    Failure at Layer 3 → decay accelerates (no amplification → habituate).
+    Failure at Layer 4 → long-term decline (boredom → flat → death).
+
+    → SUSTAINABILITY = ALL 4 LAYERS maintained simultaneously.
+    → BUT: cannot prescribe HOW to maintain each layer.
     → = Domain feedback = only arbiter (Logic-Feeling-Balance §6-7).
     → = Each person, each pair, each context = unique solution.
 
 
-  ⭐ TRẢ LỜI CÂU HỎI: "Silent couple at beach — bền vững không?"
+  ⭐ ANSWERING THE QUESTION: "Silent couple at the beach — sustainable?"
 
-    Tầng 1: ✅ proximity + duration + Agent-mode (đang ở cùng nhau).
-    Tầng 2: ✅ Non-verbal + Body-level active, verbal optional.
+    Layer 1: ✅ proximity + duration + Agent-mode (together in shared space).
+    Layer 2: ✅ Non-verbal + Body-level active, verbal optional.
        → IF Intrinsic silence → ✅ sustainable.
        → IF Limerence silence → ⚠️ temporary (hormone-dependent).
        → IF Avoidant silence → ❌ destructive.
-    Tầng 3: ⚠️ limited without verbal → capitalization restricted.
+    Layer 3: ⚠️ limited without verbal → capitalization restricted.
        → Periodic verbal check-in ADVISABLE.
-    Tầng 4: ⚠️ need novelty injection + growing individually.
+    Layer 4: ⚠️ need novelty injection + growing individually.
 
-    = BÌNH THƯỜNG, BỀN VỮNG — IF đúng loại im lặng + periodic verbal.
+    = NORMAL, SUSTAINABLE — IF the right type of silence + periodic verbal.
 
-  🟡 4-tầng sustainability model = framework synthesis.
+  🟡 4-layer sustainability model = framework synthesis.
   🟢 Individual components established independently (32 citations).
 ```
 
@@ -1158,49 +1173,49 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §15 — OBSERVATION CASES
 
 ```
-CASE 1 — Vợ chồng 20 năm ngồi đọc sách:
+CASE 1 — Couple of 20 years reading in the same room:
 
-  Tầng 1: ✅ Physical proximity + 20 năm duration + Agent-mode (shared space).
-  Tầng 2: Non-verbal + Body-level. Intrinsic silence (Type 1). Verbal OFF nhưng OK.
-  Tầng 3: Capitalization limited (không nói). PPR = compiled high. Secure base = stable.
-  Tầng 4: Maintenance adequate IF periodic Generative injection (talk about books).
-  Assessment: BỀN VỮNG nếu cả hai duy trì drive riêng + share periodically.
-  Risk: Compiled-Suppress nếu "đọc sách" = tránh conversation.
-
-
-CASE 2 — Long-distance relationship chỉ text:
-
-  Tầng 1: ❌ Text only → modality limited. Duration ✅ (daily). Agent-mode ✅.
-  Tầng 2: Verbal ONLY. Non-verbal OFFLINE. Body-level OFFLINE.
-  Tầng 3: Capitalization ✅ (verbal active). PPR ✅ nếu responsive.
-          Secure base ⚠️ limited (no body-level safety).
-  Tầng 4: Self-expansion restricted (no shared physical experiences).
-  Assessment: Generative GOOD, Tonic LIMITED. Cần periodic physical reunion.
-  Risk: Body-level co-regulation absent → Tonic deficit accumulate.
+  Layer 1: ✅ Physical proximity + 20 years duration + Agent-mode (shared space).
+  Layer 2: Non-verbal + Body-level. Intrinsic silence (Type 1). Verbal OFF but OK.
+  Layer 3: Capitalization limited (not talking). PPR = deeply compiled. Secure base = stable.
+  Layer 4: Maintenance adequate IF periodic Generative injection (talking about their books).
+  Assessment: SUSTAINABLE if both maintain own drives + share periodically.
+  Risk: Compiled-Suppress if "reading in silence" = avoiding conversation.
 
 
-CASE 3 — Bạn thân 10 năm, gap distributions diverge:
+CASE 2 — Long-distance relationship with only text:
 
-  Tầng 1: ✅ Physical + duration + Agent-mode (cùng thành phố).
-  Tầng 2: All 3 modalities available when meet.
-  Tầng 3: Capitalization variable. PPR = compiled từ 10 năm.
-  Tầng 4: Gap overlap GIẢM (career khác, life stage khác).
-          Maintenance DECLINE (less frequent meet).
-  Assessment: Trust intact (dormant possible). Resonance NARROWING to fewer domains.
-  Risk: By-Product-Gap-Resonance §5.2 Fade — gap divergence = actual cause, not "busy."
+  Layer 1: ❌ Text only → modality limited. Duration ✅ (daily). Agent-mode ✅.
+  Layer 2: Verbal ONLY. Non-verbal OFFLINE. Body-level OFFLINE.
+  Layer 3: Capitalization ✅ (verbal active). PPR ✅ if responsive.
+           Secure base ⚠️ limited (no body-level safety).
+  Layer 4: Self-expansion restricted (no shared physical experiences).
+  Assessment: Generative GOOD, Tonic LIMITED. Needs periodic physical reunion.
+  Risk: Body-level co-regulation absent → Tonic deficit accumulates.
 
 
-CASE 4 — Mẹ-con teen, introjected silence:
+CASE 3 — Close friend of 10 years, gap distributions diverge:
 
-  Tầng 1: ✅ Physical proximity + duration + Agent-mode (live together).
-  Tầng 2: Body-level available nhưng teen AVOID. Non-verbal LIMITED.
-          Verbal = INTROJECTED silence (Type 2: sợ judge).
-  Tầng 3: Capitalization ❌ (teen không share positive events).
-          PPR ❌ (teen perceive "mẹ không hiểu").
-          Secure base ❌ (noninterference low — mẹ over-monitor).
-  Tầng 4: Self-expansion limited by mẹ's control.
-  Assessment: Foundation OK, nhưng Amplification FAIL → decay trajectory.
-  Fix: Bond-Architecture §5 true understanding = support drive riêng.
+  Layer 1: ✅ Physical + duration + Agent-mode (same city).
+  Layer 2: All 3 modalities available when meeting.
+  Layer 3: Capitalization variable. PPR = compiled from 10 years.
+  Layer 4: Gap overlap DECREASING (different careers, different life stages).
+           Maintenance DECLINING (meeting less frequently).
+  Assessment: Trust intact (dormant tie possible). Resonance NARROWING to fewer domains.
+  Risk: By-Product-Gap-Resonance §5.2 Fade — gap divergence = actual cause, not just "being busy."
+
+
+CASE 4 — Parent-teen, introjected silence:
+
+  Layer 1: ✅ Physical proximity + duration + Agent-mode (living together).
+  Layer 2: Body-level available but teen AVOIDS. Non-verbal LIMITED.
+           Verbal = INTROJECTED silence (Type 2: fear of judgment).
+  Layer 3: Capitalization ❌ (teen doesn't share positive events with parent).
+           PPR ❌ (teen perceives "parent doesn't understand me").
+           Secure base ❌ (noninterference low — parent over-monitors).
+  Layer 4: Self-expansion limited by parent's control.
+  Assessment: Foundation OK, but Amplification FAILS → decay trajectory.
+  Fix: Bond-Architecture §5 true understanding = support own drive.
 ```
 
 ---
@@ -1212,34 +1227,34 @@ CASE 4 — Mẹ-con teen, introjected silence:
 🟢 ESTABLISHED
 ═══════════════════════════════════════
 
-  Proximity → friendship: Festinger 1950
-  Random seating → friendship: Back 2008
-  Friendship hour thresholds: Hall 2019
-  Mere presence insufficient: Feeney 2007
-  3 components predict exploration: Feeney & Thrush 2010 (N=167)
-  Self-disclosure → dopamine: Tamir & Mitchell 2012
-  36 Questions → closeness: Aron 1997
-  Non-verbal bid response 86%/33%: Gottman
-  Non-verbal touch → well-being: Debrot 2013
+  Proximity → friendship:              Festinger 1950
+  Random seating → friendship:         Back 2008
+  Friendship hour thresholds:          Hall 2019
+  Mere presence insufficient:          Feeney 2007
+  3 components predict exploration:    Feeney & Thrush 2010 (N=167)
+  Self-disclosure → dopamine:          Tamir & Mitchell 2012
+  36 Questions → closeness:            Aron 1997
+  Non-verbal bid response 86%/33%:     Gottman
+  Non-verbal touch → well-being:       Debrot 2013
   Touch → physiological sync + pain ↓: Goldstein 2017 (p < 0.001)
-  Presence → EDA attenuation: Han 2021 (N=106)
-  Co-regulation model: Sbarra & Hazan 2008
-  4 silence types + outcomes: Weinstein 2024 (N=587, 4 studies)
-  Companionship 40+ year marriages: Luscher 2022 (N=118)
-  Capitalization amplifies positive affect: Gable 2004
-  Active-Constructive > all responses: Gable 2006
-  PPR model: Reis & Shaver 1988 (foundational)
-  PPR diary confirmation: Laurenceau 1998, 2005
-  Secure base in adults: Feeney 2004, 2007
-  Boredom → satisfaction lag: Tsapelas 2009 (N=123, longitudinal)
-  Exciting > pleasant > control: Reissman 1993 (RCT)
-  Novel activities → quality: Aron 2000 (3 experiments)
-  5 maintenance behaviors: Canary & Stafford 1992
-  Maintenance meta-analysis: Ogolsky & Bowers 2013 (N=12,273)
-  Empathic accuracy: Ickes 1993, 2003
-  Accuracy = deliberate processing: Sened 2022 (N=262 couples)
-  Cortisol sync × satisfaction: Reed 2013
-  Dormant ties value: Levin 2011
+  Presence → EDA attenuation:          Han 2021 (N=106)
+  Co-regulation model:                 Sbarra & Hazan 2008
+  4 silence types + outcomes:          Weinstein 2024 (N=587, 4 studies)
+  Companionship 40+ year marriages:    Luscher 2022 (N=118)
+  Capitalization amplifies:            Gable 2004
+  Active-Constructive > all:           Gable 2006
+  PPR model:                           Reis & Shaver 1988 (foundational)
+  PPR diary confirmation:              Laurenceau 1998, 2005
+  Secure base in adults:               Feeney 2004, 2007
+  Boredom → satisfaction lag:          Tsapelas 2009 (N=123, longitudinal)
+  Exciting > pleasant > control:       Reissman 1993 (RCT)
+  Novel activities → quality:          Aron 2000 (3 experiments)
+  5 maintenance behaviors:             Canary & Stafford 1992
+  Maintenance meta-analysis:           Ogolsky & Bowers 2013 (N=12,273)
+  Empathic accuracy:                   Ickes 1993, 2003
+  Accuracy = deliberate processing:    Sened 2022 (N=262 couples)
+  Cortisol sync × satisfaction:        Reed 2013
+  Dormant ties value:                  Levin 2011
 
 ═══════════════════════════════════════
 🟡 FRAMEWORK SYNTHESIS
@@ -1263,7 +1278,7 @@ CASE 4 — Mẹ-con teen, introjected silence:
   Synchrony as value-neutral (context determines)
   Motivated inaccuracy × Self-Pattern-Modeling fidelity
   Trust as most resilient compilation dimension
-  4-tầng sustainability model
+  4-layer sustainability model
 
 ═══════════════════════════════════════
 🔴 HYPOTHESIS
@@ -1281,18 +1296,20 @@ CASE 4 — Mẹ-con teen, introjected silence:
 
 ## §17 — CROSS-REFERENCES
 
-### §17.1 — Within Agent-Mechanism/ folder
+### §17.1 — Within Agent-Mechanism/ Folder
 
 ```
-  → By-Product-Gap-Resonance.md v1.2 — resonance definition, 5 Trục, Tool/Agent-mode
-  → Bond-Architecture.md v2.0 — 4 bond types, Resonance Decline (2 Forces + 1 Fuel), true understanding
-  → Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Agent-mode engine, Self-Pattern-Modeling accuracy
+  → By-Product-Gap-Resonance.md v1.2 — resonance definition, 5 Axes, Tool/Agent-mode
+  → Bond-Architecture.md v2.0 — 4 bond types, Resonance Decline (2 Forces + 1 Fuel),
+                                  true understanding
+  → Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Agent-mode engine,
+                                     Self-Pattern-Modeling accuracy
   → Entity-Compiled.md v1.0 — Formation 40→200h, compilation chain
   → Entity-Access-Calibration.md v1.0 — 3-Layer, engine use quality
   → Agent-Mechanism.md v2.0 — integration hub
 ```
 
-### §17.2 — Source mechanism files
+### §17.2 — Source Mechanism Files
 
 ```
   → Inter-Body-Mechanism.md v1.0 — by-product match, 3-cost
@@ -1304,7 +1321,7 @@ CASE 4 — Mẹ-con teen, introjected silence:
   → Logic-Feeling-Balance.md v2.1 — infinite regress, cannot prescribe
 ```
 
-### §17.3 — Companion observation files
+### §17.3 — Companion Observation Files
 
 ```
   → Connection.md v4.0 — 3 Generative Primitives, Compilable Architecture social
@@ -1317,39 +1334,42 @@ CASE 4 — Mẹ-con teen, introjected silence:
 
 ## §18 — RESEARCH CITATIONS
 
-| # | Citation | Used in | Evidence |
+| # | Citation | Section | Evidence |
 |---|----------|---------|----------|
-| R1 | Festinger 1950 — Proximity = friendship predictor | §1 | 🟢 |
-| R2 | Back 2008 — Random seating → friendship | §1 | 🟢 |
+| R1 | Festinger 1950 — Proximity = strongest friendship predictor | §1 | 🟢 |
+| R2 | Back 2008 — Random seating → friendship 1 year later | §1 | 🟢 |
 | R3 | Hall 2019 — 40→80→200h friendship thresholds (N=355+112) | §1 | 🟢 |
 | R4 | Feeney 2004, 2007 — Secure base in adults | §1, §8 | 🟢 |
 | R5 | Feeney & Thrush 2010 — 3 components predict exploration (N=167) | §8 | 🟢 |
-| R6 | Tamir & Mitchell 2012 — Self-disclosure dopamine | §3 | 🟢 |
-| R7 | Aron 1997 — 36 Questions → closeness | §3 | 🟢 |
-| R8 | Gottman — Bids for connection 86% vs 33% | §3, §4 | 🟢 |
-| R9 | Debrot 2013 — Non-verbal touch → well-being | §3 | 🟢 |
+| R6 | Tamir & Mitchell 2012 — Self-disclosure activates dopamine | §3 | 🟢 |
+| R7 | Aron 1997 — 36 Questions → closeness (verbal accelerator) | §3 | 🟢 |
+| R8 | Gottman — Non-verbal bid response 86% vs 33% | §3, §4 | 🟢 |
+| R9 | Debrot 2013 — Non-verbal affective touch → well-being | §3 | 🟢 |
 | R10 | Goldstein et al. 2017 — Touch → sync, pain ↓52% (p<0.001) | §3 | 🟢 |
-| R11 | Han et al. 2021 — Presence → EDA ↓1.44μS (N=106) | §3 | 🟢 |
-| R12 | Sbarra & Hazan 2008 — Co-regulation model | §3, §11 | 🟢 |
+| R11 | Han et al. 2021 — Presence → EDA ↓1.44μS (N=106, p=.02) | §3 | 🟢 |
+| R12 | Sbarra & Hazan 2008 — Co-regulation = physiological felt security | §3, §11 | 🟢 |
 | R13 | Weinstein et al. 2024 — 4 silence types (N=587, 4 studies) | §4 | 🟢 |
 | R14 | Luscher et al. 2022 — Companionship 40+ year couples (N=118) | §4 | 🟢 |
 | R15 | Fisher 2004 — Limerence = drive (18-36 months) | §4 | 🟢 |
-| R16 | Gable, Reis, Impett & Asher 2004 — Capitalization | §6 | 🟢 |
-| R17 | Gable, Gonzaga & Strachman 2006 — Active-Constructive | §6 | 🟢 |
-| R18 | Reis & Shaver 1988 — IPM (PPR model) | §7 | 🟢 |
-| R19 | Laurenceau, Barrett & Pietromonaco 1998 — PPR diary | §7 | 🟢 |
-| R20 | Laurenceau, Barrett & Rovine 2005 — PPR married couples | §7 | 🟢 |
-| R21 | Tsapelas, Aron & Orbuch 2009 — Boredom → satisfaction (N=123) | §9 | 🟢 |
-| R22 | Reissman, Aron & Bergen 1993 — Exciting > pleasant (RCT) | §9 | 🟢 |
-| R23 | Aron et al. 2000 — Novel activities → quality (3 exp) | §9 | 🟢 |
+| R16 | Gable, Reis, Impett & Asher 2004 — Capitalization × affect (JPSP) | §6 | 🟢 |
+| R17 | Gable, Gonzaga & Strachman 2006 — Active-Constructive predicts breakup (JPSP) | §6 | 🟢 |
+| R18 | Reis & Shaver 1988 — Interpersonal Process Model (PPR foundational) | §7 | 🟢 |
+| R19 | Laurenceau, Barrett & Pietromonaco 1998 — PPR diary (new relationships) | §7 | 🟢 |
+| R20 | Laurenceau, Barrett & Rovine 2005 — PPR diary (married couples) | §7 | 🟢 |
+| R21 | Tsapelas, Aron & Orbuch 2009 — Boredom → satisfaction 9-year lag (N=123) | §9 | 🟢 |
+| R22 | Reissman, Aron & Bergen 1993 — Exciting > pleasant > control (RCT) | §9 | 🟢 |
+| R23 | Aron et al. 2000 — Novel activities → relationship quality (3 exp.) | §9 | 🟢 |
 | R24 | Canary & Stafford 1992 — 5 maintenance behaviors | §10 | 🟢 |
 | R25 | Ogolsky & Bowers 2013 — Maintenance meta (N=12,273, 35 studies) | §10 | 🟢 |
-| R26 | Coutinho et al. 2021 — Cardiac synchrony U-curve | §11 | 🟡 |
-| R27 | Reed et al. 2013 — Cortisol sync × satisfaction | §11 | 🟢 |
-| R28 | Ickes 1993, 2003 — Empathic accuracy | §12 | 🟢 |
-| R29 | Sened et al. 2022 — Accuracy = deliberate processing (N=262) | §12 | 🟢 |
-| R30 | Levin, Walter & Murnighan 2011 — Dormant ties | §13 | 🟢 |
+| R26 | Coutinho et al. 2021 — Cardiac synchrony U-curve (Psychophysiology) | §11 | 🟡 |
+| R27 | Reed et al. 2013 — Cortisol sync × satisfaction (N=32 couples) | §11 | 🟢 |
+| R28 | Ickes 1993, 2003 — Empathic accuracy (foundational) | §12 | 🟢 |
+| R29 | Sened et al. 2022 — Accuracy = deliberate processing (N=262 couples) | §12 | 🟢 |
+| R30 | Levin, Walter & Murnighan 2011 — Dormant ties value | §13 | 🟢 |
 | R31 | Hasegawa & Gudykunst 1998 — Cross-cultural silence | §4 | 🟢 |
 | R32 | Bourassa, Ruiz & Sbarra 2019 — Presence → blood pressure | §11 | 🟢 |
 
 ---
+
+**END OF FILE — Resonance-Sustainability v1.0 (32 citations, 18 sections)**
+**Source: Drill-Resonance-Sustainability v1.0 (1,408L, 24 insights, 32 citations)**

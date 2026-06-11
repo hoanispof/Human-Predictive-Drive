@@ -6,13 +6,13 @@ updated: 2026-05-10 (v1.2 — sub-region tags per-category, §7 5 modes note, cr
 status: REFERENCE v1.2
 scope: |
   24 PFC functions organized by 5 categories.
-  Focus: cái PFC CÓ THỂ LÀM → actionable cho human development.
+  Focus: what PFC CAN DO → actionable for human development.
   Physical map: Neural-Architecture.md §2.
   Chunk substrate: Chunk.md v2.0.
 purpose: |
-  Chi tiết WHAT PFC does trong framework.
-  Core-v7.8-Draft.md reference đến file này cho PFC detail.
-  Focus trên ACTIONABLE functions — cái có thể nâng cấp chủ động.
+  Details WHAT PFC does within the framework.
+  Core-Software.md references this file for PFC detail.
+  Focus on ACTIONABLE functions — those that can be intentionally upgraded.
 supersedes: |
   Imagination/PFC-Analysis.md (2026-03, old framing → backup)
   Imagination/PFC-4-Dimensions.md (2026-03, old framing → backup)
@@ -25,269 +25,284 @@ related: |
   Agent.md — Self-Pattern-Modeling function PFC invokes
   Drive.md v1.1 — PFC role in drive integration
   Cortisol-Baseline.md v2.0 — cortisol affects PFC function
-language: Tiếng Việt primary + English technical terms
+language: English primary + technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# PFC — 24 Functions cho Human-Predictive-Drive
+# PFC — 24 Functions for Human-Predictive-Drive
 
-> **PFC = lever DUY NHẤT cho nâng cấp chủ động.**
+> **PFC = the ONLY lever for intentional upgrade.**
 >
-> Body (B+C+D) xử lý ~95% tự động.
-> PFC (~5%) quyết định HƯỚNG.
-> ⚠️ % = calibration anchor, KHÔNG phải đo lường chính xác.
-> "Vô thức xây nhà, PFC chọn XÂY Ở ĐÂU." — Chunk.md §8.1
+> Body (B+C+D) handles ~95% automatically.
+> PFC (~5%) determines DIRECTION.
+> ⚠️ % = calibration anchor, NOT a precise measurement.
+> "The unconscious builds the house; PFC chooses WHERE TO BUILD." — Chunk.md §8.1
 >
-> PFC KHÔNG điều khiển trực tiếp body.
-> PFC hold chunks → bias spreading activation → B+C tự phản ứng.
-> PFC effectiveness = f(chunks đã compiled cho tình huống đó).
+> PFC does NOT directly control the body.
+> PFC holds chunks → biases spreading activation → B+C responds automatically.
+> PFC effectiveness = f(chunks already compiled for that situation).
 >
 > 24 functions, 5 categories:
 >   OBSERVE (4) → HOLD (4) → PROCESS (6) → ORCHESTRATE (6) → STRATEGIC (4)
 >
-> File này: WHAT PFC does. Physical map: Neural-Architecture.md §2.
+> This file: WHAT PFC does. Physical map: Neural-Architecture.md §2.
 
 ---
 
-## Mục lục
+## TABLE OF CONTENTS
 
-- §1 — OBSERVE (đọc output từ B+C)
-- §2 — HOLD (giữ chunks active)
-- §3 — PROCESS (xử lý chủ động)
-- §4 — ORCHESTRATE (điều hướng gián tiếp)
+- §1 — OBSERVE (reading output from B+C)
+- §2 — HOLD (keeping chunks active)
+- §3 — PROCESS (active processing)
+- §4 — ORCHESTRATE (indirect steering)
 - §5 — STRATEGIC (meta-level decisions)
 - §6 — PFC LIMITATIONS
 - §7 — PFC OFFLINE CASES
 - §8 — HARDWARE PROFILE
-- §9 — PRINCIPLE: PFC TẠO CONTEXT, B+C+D TỰ HỌC
+- §9 — PRINCIPLE: PFC CREATES CONTEXT, B+C+D LEARNS AUTOMATICALLY
 - §10 — HONEST ASSESSMENT
 - §11 — CROSS-REFERENCES
 
 ---
 
-## §1 — OBSERVE (đọc output từ B+C)
+## §1 — OBSERVE (reading output from B+C)
 
 ```
-⭐ PFC KHÔNG feel trực tiếp — PFC OBSERVE output đã integrated từ B+C:
+⭐ PFC does NOT feel directly — PFC OBSERVES output already integrated from B+C:
    Sub-regions: ① vmPFC  ② ACC+OFC  ③ dlPFC+mPFC  ④ mPFC+ACC
-   Chi tiết mapping 24×6: PFC-Configuration.md §4
+   Detail 24×6 mapping: PFC-Configuration.md §4
 
   ① OBSERVE FEELING (7-layer fidelity gradient):
-     → Feeling = integrated body-chunk signal emerge tại anterior insula (B)
-     → PFC observe ở Feel-Observation+ (observation → location → label → explanation)
-     → Fidelity GIẢM DẦN: raw 100% → explanation 20-70%
-     → Wise: trust Feel-Consciousification-Feel-Observation (pre-label). Naive: trust Feel-Labeling-Feel-Explanation (lossy)
+     → Feeling = integrated body-chunk signal emerging at anterior insula (B)
+     → PFC observes at Feel-Observation+ level
+       (observation → location → label → explanation)
+     → Fidelity DECREASES PROGRESSIVELY: raw 100% → explanation 20-70%
+     → Wise: trust Feel-Observation (pre-label).
+       Naive: trust Feel-Labeling / Feel-Explanation (lossy)
      → TRAINABLE: meditation, Focusing, somatic therapy → access lower layers
      Source: Feeling.md v2.0 §2
 
   ② OBSERVE BODY VOTE (smooth / resistance / empty):
-     → PFC search output → body DUYỆT kết quả
-     → Smooth: "hay, nối được" (opioid micro-dose → coherent)
-     → Resistance: "kỳ kỳ, mâu thuẫn" (ACC alert + mild cortisol)
-     → Empty: "không liên quan" (no signal)
-     → = "Trực giác" = body evaluate TRƯỚC PFC articulate
+     → PFC search output → body EVALUATES the result
+     → Smooth: "interesting, it connects" (opioid micro-dose → coherent)
+     → Resistance: "odd, contradictory" (ACC alert + mild cortisol)
+     → Empty: "not relevant" (no signal)
+     → = "Intuition" = body evaluates BEFORE PFC articulates
      → 🟢 Consistent with Damasio somatic markers (1994)
      Source: Chunk.md v3.0 §8.4
 
   ③ OBSERVE CHUNK ACTIVATIONS:
-     → Chunks fire theo probability distribution (spreading activation)
-     → PFC detect WHICH chunks currently active
-     → Expert: detect "có gì đó" ở convergence zone (Gendlin felt sense)
-     → Beginner: miss weak activations → miss insights
+     → Chunks fire according to probability distribution (spreading activation)
+     → PFC detects WHICH chunks are currently active
+     → Expert: detects "something there" at the convergence zone
+       (Gendlin felt sense)
+     → Beginner: misses weak activations → misses insights
      Source: Chunk.md v2.0 §4, §7
 
   ④ META-COGNITION (observe OWN processing):
-     → PFC observe: "tôi đang nghĩ gì?" / "tại sao tôi cảm thấy vậy?"
-     → = Recursive observation — PFC observe PFC's own output
-     → TRAINABLE: mindfulness practice → meta-cognition improve
-     → Mediator cases: detect own bias, catch own patterns
+     → PFC observes: "what am I thinking?" / "why do I feel this way?"
+     → = Recursive observation — PFC observes PFC's own output
+     → TRAINABLE: mindfulness practice → meta-cognition improves
+     → Mediators: detect own bias, catch own patterns
      → 🟢 Flavell 1979, Fleming & Dolan 2012
 ```
 
 ---
 
-## §2 — HOLD (giữ chunks active trong WM)
+## §2 — HOLD (keeping chunks active in WM)
 
 ```
-⭐ PFC HOLD = giữ chunks active → BIAS spreading activation direction:
-   = PFC KHÔNG search database → PFC HOLD → sóng lan CÓ HƯỚNG
+⭐ PFC HOLD = keeps chunks active → BIASES spreading activation direction:
+   = PFC does NOT search database → PFC HOLDS → spreading activation has DIRECTION
    🟢 Cowan 2001: WM ~4±1 items
    Sub-regions: ⑤⑥⑧ dlPFC  ⑦ dlPFC↓+mPFC/DMN↑
 
   ⑤ HOLD ~4±1 SLOTS:
-     → Beginner: mỗi slot = small chunk → ít info
-     → Expert: mỗi slot = meta-chunk → CỰC NHIỀU info
-     → = "Cùng 4 slots, khác SIZE mỗi slot"
-     → NÂNG CẤP: build meta-chunks qua repetition → mỗi slot RỘNG hơn
+     → Beginner: each slot = small chunk → little info
+     → Expert: each slot = meta-chunk → VAST info
+     → = "Same 4 slots, different SIZE per slot"
+     → UPGRADE: build meta-chunks through repetition → each slot WIDENS
      Source: Chunk.md v3.0 §1, §9
 
-  ⑥ QUICK SEARCH (giây):
-     → PFC hold [2+3] → hit [5] → RELEASE
-     → = "Tính toán" = chuỗi quick searches
-     → Cortisol: không tăng (quá nhanh)
+  ⑥ QUICK SEARCH (seconds):
+     → PFC holds [2+3] → hits [5] → RELEASES
+     → = "Calculation" = chain of quick searches
+     → Cortisol: does not rise (too fast)
      Source: Chunk.md v3.0 §8.2
 
-  ⑦ LOOSE HOLD (phút-giờ):
-     → PFC hold NHẸ → body RELAX → sóng lan RỘNG
-     → Insight BẤT NGỜ (Type 2 territory — aha moment)
+  ⑦ LOOSE HOLD (minutes-hours):
+     → PFC holds LIGHTLY → body RELAXES → spreading activation WIDENS
+     → Sudden insight (Type 2 territory — aha moment)
      → = CREATIVE mode — curiosity/novelty-dominant
-     → "Đi dạo nghĩ ra đáp án" = loose hold + body relax → sóng lan rộng
-     → NÂNG CẤP: practice loose hold (meditation, walk, shower thinking)
+     → "The answer comes while walking" = loose hold + body relaxes
+       → spreading activation widens
+     → UPGRADE: practice loose hold (meditation, walking, shower thinking)
      Source: Chunk.md v3.0 §8.2
 
-  ⑧ ACTIVE LOCK (giờ-ngày):
-     → = LOOSE HOLD + THREAT → PFC KHÔNG THỂ thả
-     → Body BỊ ÉP align → LÀM hoặc double dissonance
+  ⑧ ACTIVE LOCK (hours-days):
+     → = LOOSE HOLD + THREAT → PFC CANNOT release
+     → Body is FORCED to align → EXECUTE or double dissonance
      → = EXECUTION mode — deadline, problem must-solve
      → 🟢 Zeigarnik Effect (1927): unfinished task → PFC keeps holding
-     → NGUY HIỂM: active lock kéo dài → cortisol sustained → neural wear
+     → DANGER: prolonged active lock → sustained cortisol → neural wear
      Source: Chunk.md v3.0 §8.2
 ```
 
 ---
 
-## §3 — PROCESS (xử lý chủ động)
+## §3 — PROCESS (active processing)
 
 ```
-⭐ PFC PROCESS = chủ động tạo/sửa/verify chunks:
+⭐ PFC PROCESS = actively creates/modifies/verifies chunks:
    Sub-regions: ⑨⑪⑬ dlPFC+ACC  ⑩ dlPFC+mPFC  ⑫ dlPFC+vlPFC  ⑭ dlPFC+vmPFC
 
   ⑨ TYPE 4 DELIBERATE LINKING ("thinking"):
-     → PFC hold chunk A + chunk B → check overlap → body vote
-     → = "Suy nghĩ" = chaining Type 4 connections
+     → PFC holds chunk A + chunk B → checks overlap → body vote
+     → = "Thinking" = chaining Type 4 connections
      → Body vote 3 outcomes: smooth / resistance / empty
      → CAN trigger Type 2 aha (deliberate search → sudden insight)
      → CAN lead to Type 3 meta-chunk compile (repeated → compilation)
      → 5 failure modes: confirmation bias, WM overload, trauma noise,
        false smoothness (beginner), premature closure
-     → NÂNG CẤP: practice deliberate linking + respect body vote
+     → UPGRADE: practice deliberate linking + respect body vote
      Source: Chunk.md v2.0 §3
 
-  ⑩ IMAGINATION (simulate tương lai via chunk combinations):
-     → PFC combine existing chunks → simulate scenarios CHƯA XẢY RA
-     → Body-feedback evaluate imagined scenarios (body reacts to imagination)
+  ⑩ IMAGINATION (simulate future via chunk combinations):
+     → PFC combines existing chunks → simulates scenarios THAT HAVEN'T HAPPENED
+     → Body-feedback evaluates imagined scenarios (body reacts to imagination)
      → Imagined chunks CAN trigger real body-base responses
      → = "Einstein thought experiment" = imagination → insight
-     → = "Lập kế hoạch" = simulate multiple futures → choose best
-     → NÂNG CẤP: practice imagination + body-check (not just verbal fantasy)
+     → = "Planning" = simulate multiple futures → choose best
+     → UPGRADE: practice imagination + body-check (not just verbal fantasy)
      Source: Imagine-Final.md, Imagination-Analysis-v2.md
 
   ⑪ DOMAIN-CHECK (verify smooth vs reality — Domain-Checked vs Self-Referencing):
-     → PFC = BỘ CHECK DOMAIN DUY NHẤT — tắt PFC = mất check
+     → PFC = THE ONLY DOMAIN-CHECK MODULE — PFC offline = check lost
      → Domain-Checked: chunks tested against EXTERNAL REALITY regularly
        → Body vote ACCURATE: smooth = actually correct
      → Self-Referencing: chunks tested against EXISTING CHUNKS only
        → Body vote MISLEADING: smooth = consistent with self (NOT reality)
-     → = Scientist, craftsman = Domain-Checked. Echo chamber, ideologue = Self-Referencing.
-     → NÂNG CẤP: deliberately seek domain feedback, not just internal coherence
+     → = Scientist, craftsman = Domain-Checked.
+       Echo chamber, ideologue = Self-Referencing.
+     → UPGRADE: deliberately seek domain feedback, not just internal coherence
      Source: Chunk.md v3.0 §8.6
 
   ⑫ LABEL / ANCHOR CREATION:
-     → PFC attach verbal/symbolic tag to chunk
-     → BEFORE label: chunk influence body ONLY (Direction A)
-     → AFTER label: chunk influence body + logic (Direction A + B)
-     → Label = "vé vào cửa" cho planning system
-     → Label ĐÚNG → link ĐÚNG → future reasoning accurate
-     → Label SAI → link SAI → mislead reasoning
-     → NÂNG CẤP: choose labels carefully, expand vocabulary
+     → PFC attaches verbal/symbolic tag to chunk
+     → BEFORE label: chunk influences body ONLY (Direction A)
+     → AFTER label: chunk influences body + logic (Direction A + B)
+     → Label = "entry ticket" into the planning system
+     → Label CORRECT → link CORRECT → future reasoning accurate
+     → Label WRONG → link WRONG → misleads reasoning
+     → UPGRADE: choose labels carefully, expand vocabulary
      Source: Chunk.md v2.0 §6
 
   ⑬ CREATE NEW CHUNKS:
-     → PFC imagine chunk mới → body check → compile nếu ok
-     → Con đường 2 schema formation (Schema.md §2): PFC draft → compile
+     → PFC imagines new chunk → body checks → compiles if ok
+     → Schema formation path 2 (Schema.md §2): PFC drafts → compiles
      → = "Einstein E=mc²" — pure imagination → domain-verified → chunk
-     → CHẬM hơn vô thức compile, NHƯNG: cross-domain possible, predict xa hơn
+     → SLOWER than unconscious compile, BUT: cross-domain possible,
+       predicts farther
      Source: Chunk.md v2.0 §8.1, Schema.md §2
 
   ⑭ MODIFY EXISTING CHUNKS:
-     → PFC recall chunk → reconsolidation window opens (~4-6 giờ)
-     → Trong window → provide new experience → chunk modify → re-compile
+     → PFC recalls chunk → reconsolidation window opens (~4-6 hours)
+     → Within window → provide new experience → chunk modifies → re-compiles
      → = Therapy mechanism: recall trauma → reframe → re-compile
-     → ⚠️ Recall MÀ KHÔNG modify → chunk STRENGTHEN → TỆ HƠN (rumination)
+     → ⚠️ Recall WITHOUT modifying → chunk STRENGTHENS → WORSENS (rumination)
      → 🟢 Nader 2000, Schiller et al. 2010
-     → NÂNG CẤP: use reconsolidation window deliberately (therapy, reframing)
+     → UPGRADE: use reconsolidation window deliberately (therapy, reframing)
      Source: Chunk.md v2.0 §2.5, §4.3
 ```
 
 ---
 
-## §4 — ORCHESTRATE (điều hướng gián tiếp)
+## §4 — ORCHESTRATE (indirect steering)
 
 ```
-⭐ PFC KHÔNG điều khiển trực tiếp body — PFC BIAS hệ thống:
+⭐ PFC does NOT directly control the body — PFC BIASES the system:
    Sub-regions: ⑮⑯⑳ dlPFC  ⑰ mPFC+vmPFC  ⑱ vlPFC  ⑲ vlPFC+dlPFC
 
   ⑮ GATE ATTENTION VIA TRN:
-     → PFC → TRN (Thalamic Reticular Nucleus) → gate thalamus
-     → = Chọn sensory channels nào được RELAY lên cortex
-     → = "Chú ý mắt" vs "chú ý tai" vs "chú ý body"
+     → PFC → TRN (Thalamic Reticular Nucleus) → gates thalamus
+     → = Selects which sensory channels get RELAYED to cortex
+     → = "Attend to eyes" vs "attend to ears" vs "attend to body"
      → 🟢 McAlonan et al. 2008, Crick 1984 searchlight hypothesis
      Source: Neural-Processing-Flow.md §2, Neural-Architecture.md §4
 
   ⑯ BIAS SPREADING ACTIVATION:
-     → PFC hold chunks → bias sóng lan trong B areas
-     → = Chuyên gia chợ đồ cũ: PFC notice "nét vẽ kỳ lạ"
-       → cầm lên, dùng kính lúp → amplify input cho visual cortex
-       → Visual cortex match SÂU hơn → "bức tranh đặc biệt"
-     → PFC KHÔNG "thấy" tranh đẹp — PFC hold attention → B match → body reward
+     → PFC holds chunks → biases spreading waves in B areas
+     → = Antique market expert: PFC notices "unusual brushwork"
+       → picks it up, uses a magnifying glass → amplifies input to visual cortex
+       → visual cortex matches DEEPER → "this painting is special"
+     → PFC does NOT "see" the beautiful painting — PFC holds attention
+       → B matches → body reward
      Source: Chunk.md v3.0 §8.3
 
   ⑰ INVOKE Self-Pattern-Modeling ON TARGETS (agent modeling):
-     → PFC invoke Self-Pattern-Modeling function on target entity
-     → = Dùng self-chunks làm template → simulate target's state
-     → Quality varies: high (người thân) → low (người lạ) → zero (cục đá)
-     → = Empathy khi applied to others' emotional states
+     → PFC invokes Self-Pattern-Modeling function on target entity
+     → = Uses self-chunks as template → simulates target's state
+     → Quality varies: high (close person) → low (stranger) → zero (a rock)
+     → = Empathy when applied to others' emotional states
      Source: Agent.md §5, Empathy.md §4
 
   ⑱ INHIBIT COMPILED RESPONSES:
-     → vlPFC suppress compiled response khi cần
-     → = "Đừng nói vậy" / "Đừng ăn thêm" / "Bình tĩnh"
-     → NHƯNG: giới hạn bởi signal strength
-       → Body-base signal quá mạnh (đói cực, crush) → PFC BẤT LỰC
-       → PFC inhibit = f(PFC hold strength, body signal intensity, chunks compiled)
+     → vlPFC suppresses compiled response when needed
+     → = "Don't say that" / "Don't eat more" / "Stay calm"
+     → BUT: limited by signal strength
+       → Body-base signal too strong (extreme hunger, crush) → PFC POWERLESS
+       → PFC inhibit = f(PFC hold strength, body signal intensity,
+         chunks compiled)
      → 🟢 Aron et al. 2004
      Source: Neural-Architecture.md §2
 
   ⑲ OVERRIDE SATISFACTION SIGNAL:
-     → Body: "đủ rồi" (satisfaction) → PFC: "CHƯA! deadline/ngon/thêm!"
-     → = PFC override "hết muốn" → force tiếp dù body nói đủ
-     → Spectrum: nhẹ (quên ăn vì work) → nặng (anorexia, tử vì đạo)
-     → ⚠️ "Lắng nghe body" = tôn trọng KẾT QUẢ "hết muốn" → ĐỪNG override
+     → Body: "enough" (satisfaction) → PFC: "NOT YET! deadline/delicious/more!"
+     → = PFC overrides "no longer want" → forces continuation despite body
+       saying enough
+     → Spectrum: mild (forget to eat while working) → severe
+       (anorexia, dying for a cause)
+     → ⚠️ "Listening to your body" = respecting the "no longer want" signal
+       → DON'T override
      Source: Schema.md §2.5
 
   ⑳ CHANGE ENVIRONMENT (indirect C+D influence):
-     → PFC KHÔNG fix amygdala trực tiếp
-     → PFC CÓ THỂ: thay đổi environment → body-input thay đổi
-       → C+D tự recalibrate từ body-input mới
-     → = Exposure therapy: PFC tạo safe context → amygdala tự shift
-     → = Diet change: PFC chọn food → gut neurons tự calibrate
-     → = Move city: PFC decide → entire B+C+D recalibrate over months
+     → PFC does NOT fix the amygdala directly
+     → PFC CAN: change environment → body-input changes
+       → C+D self-recalibrates from new body-input
+     → = Exposure therapy: PFC creates safe context → amygdala shifts on its own
+     → = Diet change: PFC chooses food → gut neurons self-calibrate
+     → = Move city: PFC decides → entire B+C+D recalibrates over months
      → Timeline: weeks → months (NOT instant)
-     → = "PFC tạo CONTEXT, C+D tự học"
+     → = "PFC creates CONTEXT, C+D learns on its own"
      Source: session analysis, consistent with extinction learning literature
 
 
   ⭐ PFC PROXY TRIGGER — indirect body access (Drill-L2 §3.6 — GAP-C5):
 
-     PFC → C+D = KHÔNG CÓ direct command pathway (§6).
-     DUY NHẤT indirect: hold/recall chunks → chunks fire → body respond.
+     PFC → C+D = NO direct command pathway (§6).
+     ONLY indirect: hold/recall chunks → chunks fire → body responds.
 
-     CÙNG CƠ CHẾ:
-       "Chanh" → compiled taste chunks → salivation (universal)
-       "Con chó cắn" → fear chunks → NE → heart rate ↑
-       "Mẹ" → Valence-Structural compiled chunks → warmth (if Valence-Structural deep)
-       Thiền sư = refined proxy (practice → meta-chunks SÂU → precise)
-     → PFC chỉ control bước 1 (decide recall). Bước 2+ = automatic.
+     SAME MECHANISM:
+       "Lemon" → compiled taste chunks → salivation (universal)
+       "Getting bitten by a dog" → fear chunks → NE → heart rate ↑
+       "Mother" → Valence-Structural compiled chunks → warmth
+         (if Valence-Structural deep)
+       Meditation practitioner = refined proxy (practice → deep meta-chunks
+         → precise)
+     → PFC controls only step 1 (decides to recall). Step 2+ = automatic.
 
      FAIL CONDITIONS:
-       → "Tim đập nhanh đi" = no chunk to fire → FAIL
-       → Trầm cảm: cortisol suppress opioid → "nghĩ mà không cảm"
-       → Valence-Structural chưa compiled đủ → recall weak → body respond weak
+       → "Make my heart beat faster" = no chunk to fire → FAIL
+       → Depression: cortisol suppresses opioid → "thinking without feeling"
+       → Valence-Structural not compiled enough → recall weak
+         → body responds weakly
 
-     "Ý chí" = KHÔNG phải PFC force body.
-     "Ý chí" = body có ĐỦ proxy trigger sources (meaning+Valence-Structural+ritual+group).
+     "Willpower" = NOT PFC forcing the body.
+     "Willpower" = body has SUFFICIENT proxy trigger sources
+       (meaning+Valence-Structural+ritual+group).
 
-     → Chi tiết: Body-Coupling §1.4 Kênh F
+     → Detail: Body-Coupling §1.4 Channel F
      🟡 Proxy trigger as unified mechanism = Drill-L2 §3.6
 ```
 
@@ -296,47 +311,48 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §5 — STRATEGIC (meta-level decisions)
 
 ```
-⭐ PFC STRATEGIC FUNCTIONS — cao nhất, cần chunk depth:
+⭐ PFC STRATEGIC FUNCTIONS — highest level, requires chunk depth:
    Sub-regions: ㉑㉓ ACC+dlPFC  ㉒ OFC+dlPFC  ㉔ dlPFC+motor
 
   ㉑ SMOOTH MELODY (core job — Drive.md §0):
-     → PFC có 1 JOB duy nhất: SMOOTH MELODY (reduce dissonance)
-     → = Giảm dissonance giữa competing schemas
-     → Mỗi lần smooth 1 arc → body-base cho reward
-     → PFC activation ≈ f(dissonance level) — tăng khi cần
-     → 3 levels capability:
-       Level 1: smooth schemas ĐANG ACTIVE (reactive — basic)
-       Level 2: predict + smooth schemas ẨN (proactive — strong)
-       Level 3: CHẤP NHẬN dissonance tạm cho value lớn (strategic)
+     → PFC has 1 UNIQUE JOB: SMOOTH MELODY (reduce dissonance)
+     → = Reduces dissonance between competing schemas
+     → Each time one arc is smoothed → body-base gives reward
+     → PFC activation ≈ f(dissonance level) — increases when needed
+     → 3 capability levels:
+       Level 1: smooth CURRENTLY ACTIVE schemas (reactive — basic)
+       Level 2: predict + smooth HIDDEN schemas (proactive — strong)
+       Level 3: ACCEPT temporary dissonance for larger value (strategic)
      Source: Drive.md v1.1 §0, §3
 
   ㉒ CHOOSE BETWEEN COMPETING GOALS:
-     → Nhiều Imagine-Finals đang active → PFC chọn pursue cái nào
-     → Ngắn hạn vs dài hạn: "ăn ngon BÂY GIỜ" vs "diet cho khỏe SAU"
-     → PFC = trọng tài cho competing body signals
+     → Multiple Imagine-Finals active → PFC chooses which to pursue
+     → Short-term vs long-term: "eat well NOW" vs "diet for health LATER"
+     → PFC = arbitrator for competing body signals
      → QUALITY of choice = f(chunk depth × domain-check rigor)
      Source: Drive.md v1.1, Chunk.md §8.1
 
   ㉓ ACCEPT TEMPORARY DISSONANCE:
      → Level 3 PFC capability (Drive.md §3):
-     → CHẤP NHẬN dissonance tạm VÌ value lớn hơn
-     → = "Chịu đau ngắn hạn vì mục tiêu dài hạn"
-     → = Student chịu học khó → future mastery
-     → = Entrepreneur chịu risk → future reward
+     → ACCEPT temporary dissonance FOR a larger value
+     → = "Endure short-term pain for long-term goal"
+     → = Student endures hard learning → future mastery
+     → = Entrepreneur endures risk → future reward
      → Requires: strong Imagine-Final + deep domain chunks + domain-check
-     → RARE: most people operate Level 1-2
+     → RARE: most people operate at Level 1-2
      Source: Drive.md v1.1 §3
 
   ㉔ HIJACK BODY-INPUT (create → see → continue):
-     → PFC imagine con ngựa có sừng (internal, unclear)
-     → PFC decide: vẽ ra giấy
-     → Mắt THẤY bản vẽ (body-input REAL — enters B via visual cortex)
-     → PFC continue imagine SÂU hơn dựa trên real input
-     → = PFC "hijack" perception-action cycle:
+     → PFC imagines a unicorn (internal, unclear)
+     → PFC decides: draw it on paper
+     → Eyes SEE the drawing (body-input REAL — enters B via visual cortex)
+     → PFC continues imagining DEEPER based on real input
+     → = PFC "hijacks" the perception-action cycle:
        imagine → create artifact → body-input → richer imagination
      → = Tool use, art, writing, coding = ALL this mechanism
      → = Unique to humans: create external representation → re-input
-     Source: session analysis, consistent with extended mind thesis (Clark & Chalmers 1998)
+     Source: session analysis, consistent with extended mind thesis
+       (Clark & Chalmers 1998)
 ```
 
 ---
@@ -344,43 +360,51 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §6 — PFC LIMITATIONS
 
 ```
-⭐ PFC KHÔNG THỂ:
+⭐ PFC CANNOT:
 
-  → Feel trực tiếp: phải NHẬN từ body qua feeling bridge
-  → Compile chunks tự động: B+C+D compile, PFC observe kết quả
-  → Override body-base khi signal quá mạnh:
-    Đói cực → ăn ngấu (body overwhelm PFC)
-    Gặp crush → ấp úng (chunks cho tình huống rạo rực CHƯA COMPILED)
-  → Force fire chunks ở C+D trực tiếp:
-    Không force amygdala, gut, brainstem neurons
-    Chỉ indirect qua environment change
-  → Process nhanh hơn subcortical:
-    PFC ~200ms+, amygdala ~12ms = PFC LUÔN chậm hơn
-    PFC "quyết định" = thường confirm cái B+C đã started
+  → Feel directly: must RECEIVE from body via feeling bridge
+  → Compile chunks automatically: B+C+D compiles, PFC observes results
+  → Override body-base when signal is too strong:
+    Extreme hunger → eat ravenously (body overwhelms PFC)
+    Meeting a crush → stumble over words
+      (chunks for this charged situation NOT YET COMPILED)
+  → Force-fire chunks in C+D directly:
+    Cannot force amygdala, gut, brainstem neurons
+    Only indirect via environment change
+  → Process faster than subcortical:
+    PFC ~200ms+, amygdala ~12ms = PFC is ALWAYS slower
+    PFC "decisions" = usually confirm what B+C already started
 
-  PFC EFFECTIVENESS = f(3 yếu tố):
-    ① Chunks compiled cho tình huống (nhiều → effective, ít → helpless)
-    ② Body signal intensity (nhẹ → PFC override ok, mạnh → PFC thua)
-    ③ Cortisol level (optimal → PFC clear, quá cao/thấp → PFC impaired)
+  PFC EFFECTIVENESS = f(3 factors):
+    ① Chunks compiled for the situation (many → effective, few → helpless)
+    ② Body signal intensity (mild → PFC override ok, strong → PFC loses)
+    ③ Cortisol level (optimal → PFC clear, too high/low → PFC impaired)
 
 
   ⭐ CONFABULATION = RULE, NOT EXCEPTION (Drill §10 — GAP 10):
 
-    PFC observe body output → tạo "giải thích" → TƯỞNG là quyết định.
-    Thực tế: body compile + act TRƯỚC → PFC label SAU (post-hoc).
-    PFC KHÔNG BIẾT nguồn gốc chunks (Chunk §1.1 — no source tag).
+    PFC observes body output → creates an "explanation" → BELIEVES it was
+    a decision.
+    Reality: body compiles + acts FIRST → PFC labels AFTER (post-hoc).
+    PFC does NOT KNOW the origin of chunks (Chunk §1.1 — no source tag).
 
-    Chuỗi THẬT:      trust → body receive → compile → act → PFC observe → label
-    Chuỗi PFC TƯỞNG: PFC hiểu → PFC quyết định → body làm theo
+    ACTUAL sequence:
+      trust → body receives → compiles → acts → PFC observes → labels
+    PFC-IMAGINED sequence:
+      PFC understands → PFC decides → body follows
 
-    VD: "Cho đi vô tư" (PFC label) ← compiled patterns fire nhiều chains
-    VD: "Đam mê vật lý" (PFC label) ← hardware fit + prediction-delta
-    VD: "Bản năng" (PFC label) ← hormone + schema compound
+    Example: "Giving without condition" (PFC label)
+      ← compiled patterns firing many chains
+    Example: "Passion for physics" (PFC label)
+      ← hardware fit + prediction-delta
+    Example: "Instinct" (PFC label)
+      ← hormone + schema compound
     → PFC LABEL ≠ ACTUAL MECHANISM
 
     → 🟢 Nisbett & Wilson 1977: "telling more than we can know"
     → 🟢 Split-brain confabulation: Gazzaniga
-    → Chi tiết mechanism: Valence-Propagation §7 (PFC Blindness + Confabulation)
+    → Detail mechanism: Valence-Propagation §7
+      (PFC Blindness + Confabulation)
 ```
 
 ---
@@ -388,105 +412,118 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §7 — PFC OFFLINE CASES
 
 ```
-🟢 KHI PFC OFFLINE — B+C+D VẪN CHẠY:
+🟢 WHEN PFC IS OFFLINE — B+C+D STILL RUNS:
 
-  SAY RƯỢU (alcohol → GABA agonist → PFC suppressed):
-    VẪN: nói (Broca/Wernicke), đi (motor), đánh nhau (amygdala)
-    MẤT: nhớ hôm sau (hippocampal encoding failure), inhibition, planning
+  ALCOHOL INTOXICATION (alcohol → GABA agonist → PFC suppressed):
+    STILL: speaking (Broca/Wernicke), walking (motor), fighting (amygdala)
+    LOST: remembering tomorrow (hippocampal encoding failure),
+      inhibition, planning
     🟢 White 2003, Zorumski 2014
 
-  NGỦ SÂU (NREM — PFC offline):
-    VẪN: thở (brainstem), tiêu hóa (gut), consolidate (hippocampus replay)
-    Sleepwalking: VẪN đi lại, mở cửa, nấu ăn KHÔNG CẦN PFC
+  DEEP SLEEP (NREM — PFC offline):
+    STILL: breathing (brainstem), digesting (gut), consolidating
+      (hippocampus replay)
+    Sleepwalking: STILL walks around, opens doors, cooks WITHOUT PFC
 
   NE α1 FLOOD (acute threat):
     → PFC DISCONNECT (circuit breaker — design feature, NOT damage)
     → Subcortical takes over (faster, survival-optimized)
-    → Recovery: seconds sau khi threat qua
+    → Recovery: seconds after threat passes
     → 🟢 Arnsten 2009
 
   CORTISOL EXTREME:
-    → Quá thấp (Addison's): PFC functional nhưng body yếu
-    → Quá cao mãn tính: PFC dendrite retraction → DAMAGE
+    → Too low (Addison's): PFC functional but body weak
+    → Chronically too high: PFC dendrite retraction → DAMAGE
     → 🟢 McEwen 2007
 
-  → CHỨNG MINH: PFC = optional cho basic function
-  → B+C+D = self-sufficient cho survival
-  → PFC THÊM: direction, planning, imagination, domain-check
-  → = PFC = evolutionary UPGRADE, không phải requirement
+  → DEMONSTRATES: PFC = optional for basic function
+  → B+C+D = self-sufficient for survival
+  → PFC ADDS: direction, planning, imagination, domain-check
+  → = PFC = evolutionary UPGRADE, not a requirement
 
-  ⭐ §7 = ONLY CONFIG ④ (Disconnected). PFC CÓ 5 MODES KHÁC (v1.2):
+  ⭐ §7 = ONLY CONFIG ④ (Disconnected). PFC HAS 5 OTHER MODES (v1.2):
     ① Normal (all 24 available)
     ② Reallocation (flow — task ON, self OFF)
     ③ Reconfigured (meditation, hypnosis)
     ⑤ Hyperactivated (dissociation — 4 functions weaponized)
     ⑥ Disintegrated (psychedelic — ⑭ Modify enhanced)
-    → Chi tiết: PFC-Configuration.md v1.0
+    → Detail: PFC-Configuration.md v1.0
 ```
 
 ---
 
-## §8 — HARDWARE PROFILE (summary — chi tiết: PFC-Hardware.md)
+## §8 — HARDWARE PROFILE (summary — detail: PFC-Hardware.md)
 
 ```
-🟢🟡 PFC HARDWARE SPECS — cá nhân khác nhau:
+🟢🟡 PFC HARDWARE SPECS — vary between individuals:
 
   PFC ONLINE FROM BIRTH (🟢 Hodel 2018):
-    → 5 empirical pillars — chi tiết: PFC-Development.md §1
+    → 5 empirical pillars — detail: PFC-Development.md §1
     → Newborn PFC = hardware present, CHUNKS MISSING
 
   SUB-REGIONS (Neural-Architecture.md §2):
-    dlPFC, vlPFC, OFC, vmPFC, mPFC, ACC — 6 sub-regions chính
-    24×6 mapping: PFC-Configuration.md §4 (dlPFC hub 15/24, vlPFC specialist 3/24)
+    dlPFC, vlPFC, OFC, vmPFC, mPFC, ACC — 6 main sub-regions
+    24×6 mapping: PFC-Configuration.md §4
+      (dlPFC hub 15/24, vlPFC specialist 3/24)
 
-  2 THUỘC TÍNH HARDWARE CHÍNH (PFC-Hardware.md §1):
+  2 MAIN HARDWARE PROPERTIES (PFC-Hardware.md §1):
     ① PFC-Quality: resolution × filter × retrieval × compression per-slot
     ② Clear Speed: COMT enzyme (Val/Val fast ↔ Met/Met slow)
 
   INDIVIDUAL PARAMETERS (PFC-Hardware.md §3-6):
     COMT: improviser (Val/Val) vs specialist (Met/Met) draft mode
-    DRD4: chunk threshold — data đúng, interpretation có lỗ hổng (Hypothesis D)
-    MAO-A: mood stability (toàn não, không chỉ PFC)
+    DRD4: chunk threshold — data correct, interpretation has gap (Hypothesis D)
+    MAO-A: mood stability (whole brain, not just PFC)
     NE α2/α1: enhance vs disconnect (circuit breaker)
 
   WM ~4±1 SLOTS = physics constraint (PFC-Hold-Dimensions.md):
-    → 6 lực độc lập hội tụ tại ~4. Không phải accident.
-    → Thêm neurons không thêm slots — chỉ thêm quality per-slot.
+    → 6 independent forces converge at ~4. Not an accident.
+    → More neurons do not add slots — only add quality per slot.
 
-  Observed Capacity = Hardware × Chunks × Cortisol × Context (PFC-Hardware.md §2)
-  → "PFC mạnh/yếu" misleading → "chunks compiled bao nhiêu" more accurate
+  Observed Capacity = Hardware × Chunks × Cortisol × Context
+    (PFC-Hardware.md §2)
+  → "PFC strong/weak" misleading → "how many chunks are compiled"
+    more accurate
 ```
 
 ---
 
-## §9 — PRINCIPLE: PFC TẠO CONTEXT, B+C+D TỰ HỌC
+## §9 — PRINCIPLE: PFC CREATES CONTEXT, B+C+D LEARNS AUTOMATICALLY
 
 ```
-⭐ NGUYÊN TẮC CỐT LÕI CHO FRAMEWORK:
+⭐ CORE PRINCIPLE FOR THE FRAMEWORK:
 
-  PFC = lever DUY NHẤT cho nâng cấp chủ động.
-  NHƯNG PFC hoạt động THÔNG QUA chunk system (B areas).
-  C+D tự học khi PFC thay đổi environment.
+  PFC = THE ONLY lever for intentional upgrade.
+  BUT PFC operates THROUGH the chunk system (B areas).
+  C+D learns on its own when PFC changes the environment.
 
-  ACTIONABLE (framework focus sâu):
-    → PFC: 24 functions → TẤT CẢ trainable
-    → B areas: PFC can direct attention → chunks compile sâu hơn
-    → Chunk system: hiểu mechanism → optimize compile
+  ACTIONABLE (deep framework focus):
+    → PFC: 24 functions → ALL trainable
+    → B areas: PFC can direct attention → chunks compile deeper
+    → Chunk system: understand mechanism → optimize compilation
 
-  PASSIVE (framework liệt kê sơ lược):
-    → C: PFC thay đổi environment → amygdala/hippocampus tự recalibrate
-    → D: PFC chọn food/exercise/sleep → gut/ANS/spinal tự calibrate
-    → = "PFC tạo CONTEXT, C+D tự học"
+  PASSIVE (framework lists briefly):
+    → C: PFC changes environment → amygdala/hippocampus self-recalibrates
+    → D: PFC chooses food/exercise/sleep → gut/ANS/spinal self-calibrates
+    → = "PFC creates CONTEXT, C+D learns on its own"
 
-  ỨNG DỤNG:
-    "Muốn giảm sợ" → PFC KHÔNG fix amygdala
-      → PFC thay đổi environment (exposure) → amygdala tự shift (weeks-months)
-    "Muốn improve gut" → PFC KHÔNG fix gut neurons
-      → PFC chọn food + lifestyle → gut tự calibrate
-    "Muốn improve empathy" → PFC KHÔNG install mirror module
-      → PFC train self-chunks (meditation, Focusing) → Self-Pattern-Modeling improve as side effect
-    "Muốn improve skill" → PFC KHÔNG download skill
-      → PFC direct attention + repetition → B motor areas compile → skill emerge
+  APPLICATIONS:
+    "Want to reduce fear"
+      → PFC does NOT fix the amygdala
+      → PFC changes environment (exposure)
+      → amygdala shifts on its own (weeks-months)
+    "Want to improve gut health"
+      → PFC does NOT fix gut neurons
+      → PFC chooses food + lifestyle
+      → gut self-calibrates
+    "Want to improve empathy"
+      → PFC does NOT install a mirror module
+      → PFC trains self-chunks (meditation, Focusing)
+      → Self-Pattern-Modeling improves as side effect
+    "Want to improve a skill"
+      → PFC does NOT download skill
+      → PFC directs attention + repetition
+      → B motor areas compile → skill emerges
 ```
 
 ---
@@ -507,7 +544,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 FRAMEWORK SYNTHESIS:
   24-function taxonomy (novel organization, components established)
   5-category structure (novel, consistent with literature)
-  "PFC tạo context, C+D tự học" principle (novel, consistent with extinction)
+  "PFC creates context, C+D learns" principle (novel, consistent with extinction)
   PFC effectiveness formula (novel, components established)
   "Hijack body-input" concept (novel name, mechanism = extended mind thesis)
   4 hold modes taxonomy (novel names, mechanisms established)
@@ -533,7 +570,7 @@ PFC FOLDER (companion files):
     → §5: which functions survive in which configuration
     → §7-§8: Strategy A→B, System Reconsolidation
   PFC-Development.md — Life stages, learning trajectory, training
-  PFC-Hold-Dimensions.md — Tại sao ~4±1 (6 convergent forces)
+  PFC-Hold-Dimensions.md — Why ~4±1 (6 convergent forces)
 
 PHYSICAL MAP:        Neural-Architecture.md §2 (PFC sub-regions, connectivity)
 CHUNK SUBSTRATE:     Chunk.md v2.0 (full mechanism PFC operates on)
@@ -544,7 +581,7 @@ AGENT MODELING:      Agent.md (Self-Pattern-Modeling function PFC invokes)
 EMPATHY:             Empathy.md (Self-Pattern-Modeling applied to others)
 DRIVE INTEGRATION:   Drive.md v1.1 (PFC smooth melody role)
 CORTISOL:            Cortisol-Baseline.md v2.0 (affects PFC function)
-CORE ARCHITECTURE:   Core-v7.8-Draft.md §1 (PFC position in cycle)
+CORE ARCHITECTURE:   Core-Software.md §1 (PFC position in cycle)
 SIGNAL PATHWAYS:     Neural-Processing-Flow.md (sensor → cortex → PFC flow)
 MODALITY:            Modality-Analysis.md (B areas PFC reads output from)
 
@@ -558,11 +595,11 @@ OLD PFC FILES (backup, insights integrated into 3 new files above):
 > **PFC-Function.md v1.2**
 >
 > 24 functions: Observe(4) + Hold(4) + Process(6) + Orchestrate(6) + Strategic(4).
-> PFC = lever duy nhất cho nâng cấp chủ động.
+> PFC = the only lever for intentional upgrade.
 > PFC effectiveness = f(chunks compiled × body signal intensity × cortisol level).
-> PFC KHÔNG direct control body — PFC bias + context.
-> "PFC tạo CONTEXT, C+D tự học."
+> PFC does NOT directly control body — PFC biases + creates context.
+> "PFC creates CONTEXT, C+D learns on its own."
 > v1.2: Sub-region tags per-category, §7 5 modes note → PFC-Configuration.md,
 >   cross-refs PFC-Configuration + Reward-Signal-Architecture.
 >
-> Phiên bản: v1.2, 2026-05-10.
+> Version: v1.2, 2026-05-10.

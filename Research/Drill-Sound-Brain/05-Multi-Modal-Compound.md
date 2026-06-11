@@ -1,6 +1,6 @@
-﻿---
+---
 title: Multi-Modal Compound — Audio + Visual + Action Sync Hierarchy
-version: 1.1
+version: 1.2
 created: 2026-05-29
 updated: 2026-05-29 (v1.1 — C10 "multiplicative" → "potentially super-additive")
 status: ANALYSIS FILE v1.1
@@ -10,14 +10,14 @@ scope: |
   Game compound reward analysis. Film vs game reward types.
   User hypothesis refined: sound as Tonic background + foreground peaks.
 purpose: |
-  Modality.md describe GENERAL multi-modal encoding.
-  Personal-Melody.md §2 describe multi-modal sync = "hay".
-  File này EXTEND both cho COMPOUND EXPERIENCE territory:
+  Modality.md describes the GENERAL multi-modal encoding mechanism.
+  Personal-Melody.md §2 describes multi-modal sync as "beautiful."
+  This file EXTENDS both into COMPOUND EXPERIENCE territory:
     Video (audio+visual), Game (audio+visual+action), VR (full-body).
-  Test user hypothesis: "sound background + visual/action bổ sung → compound."
+  Tests the user hypothesis: "sound background + visual/action supplementary → compound."
 position: |
   Research/Drill-Sound-Brain/ — analysis file #2.
-  Đọc SAU 03 (Reward Pipeline — shares Evaluative/Direct-State).
+  Read AFTER 03 (Reward Pipeline — shares Evaluative/Direct-State).
   Builds on ALL previous drill files.
 dependencies:
   primary:
@@ -34,30 +34,30 @@ dependencies:
   within_drill:
     - 02-Sound-Background-Pattern.md — §5 (Tonic/Cyclic/Generative)
     - 03-Sound-Reward-Pipeline.md — §5 (Evaluative/Direct-State table)
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # Multi-Modal Compound — Audio + Visual + Action Sync Hierarchy
 
-> **Nghe nhạc hay = pleasant.**
-> **Xem music video hay = pleasant hơn.**
-> **Chơi Beat Saber = pleasant CỰC MẠNH.**
+> **Listening to good music = pleasant.**
+> **Watching a good music video = even more pleasant.**
+> **Playing Beat Saber = INTENSELY pleasant.**
 >
-> **Tại sao cùng bài nhạc mà THÊM modality → reward TĂNG?**
+> **Why does the SAME piece of music → MORE reward when you ADD modalities?**
 >
-> **Không phải chỉ cộng dồn. Potentially SUPER-ADDITIVE — NẾU coherent.**
+> **Not just additive. Potentially SUPER-ADDITIVE — IF coherent.**
 > **3 modalities × COHERENT sync = compound reward (sometimes > sum of parts).**
 > **3 modalities × INCOHERENT = compound dissonance.**
 >
 > **Coherence = CONDITION. Not automatic.**
 > **More modalities ≠ more reward. More modalities × SYNC = more reward.**
 >
-> **File này: 3-tier hierarchy + coherence condition + game analysis.**
+> **This file: 3-tier hierarchy + coherence condition + game analysis.**
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §0 — Position + Thesis
 - §1 — 3-Tier Hierarchy Model
@@ -89,7 +89,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ⚠️ v1.1: "Multiplicative" overstated. Multisensory integration CAN BE super-additive
        (response > sum of parts) but also additive or sub-additive depending on conditions
        (eLife 2024). "Potentially super-additive" = more accurate than "multiplicative."
-    = Modality.md §4: Reinforcement (cùng hướng → MẠNH) vs Conflict (khác hướng → crash)
+    = Modality.md §4: Reinforcement (same direction → STRONGER) vs Conflict (opposing directions → crash)
 
   Sound WITHIN compound:
     → Oscillates Tonic (background baseline) ↔ Cyclic (foreground peaks)
@@ -193,33 +193,33 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Modality.md §4 — 3 Interaction Types:
 
-  ① REINFORCEMENT (cùng hướng → chunk MẠNH thêm):
+  ① REINFORCEMENT (same direction → chunk STRENGTHENED):
     Music beat drop + visual flash + haptic pulse = ALL "PEAK NOW"
-    → 3 modalities cùng nói "ĐỈNH!" → body: COMPOUND reward ✅
+    → 3 modalities all say "PEAK!" → body: COMPOUND reward ✅
     → = Multiplicative positive
 
-  ② CONFLICT (khác hướng → dissonance):
-    Happy music + sad visual + action fail = 3 KHÁC HƯỚNG
-    → Body: "MÂU THUẪN!" → compound DISSONANCE ❌
+  ② CONFLICT (opposing directions → dissonance):
+    Happy music + sad visual + action fail = 3 OPPOSING DIRECTIONS
+    → Body: "CONTRADICTION!" → compound DISSONANCE ❌
     → = Multiplicative NEGATIVE — WORSE than single-modality dissonance
 
-  ③ COMPENSATION (1 modality weak → other bù):
+  ③ COMPENSATION (1 modality weak → others compensate):
     Music ok + visual poor + action smooth = 1 weak, 2 strong
     → Body: partial match → ATTENUATED reward (not compound)
 
 
-  COHERENT SYNC = ALL modalities CÙNG PREDICTION PATTERN:
+  COHERENT SYNC = ALL modalities ON THE SAME PREDICTION PATTERN:
 
     ✅ COHERENT:
       Beat Saber: audio beat (120 BPM) → visual note approach (timed) → slice action (on beat)
-      → 3 modalities PREDICT CÙNG thời điểm → MATCH cùng lúc → compound ✅
+      → 3 modalities PREDICT THE SAME moment → MATCH simultaneously → compound ✅
 
     ❌ INCOHERENT:
-      Game với nhạc vui + dying scene + frustrating controls
-      → Audio: "vui!" + Visual: "chết!" + Action: "fail!" → 3 hướng KHÁC → compound ❌
+      Game with upbeat music + dying scene + frustrating controls
+      → Audio: "fun!" + Visual: "dead!" + Action: "fail!" → 3 OPPOSING directions → compound ❌
 
     ⚠️ PARTIAL:
-      Film với score ok nhưng acting poor
+      Film with decent score but poor acting
       → Audio: match + Visual: partial → attenuated, not compound
 
   GAME DESIGN IMPLICATION:
@@ -242,8 +242,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 EFFERENCE COPY = TIER 3 EXCLUSIVE REWARD SOURCE:
 
   Autonomy-Hardware.md §1:
-    → Self-action → brain generate SENSORY PREDICTION before action executes
-    → Action execute → sensory feedback ARRIVE
+    → Self-action → brain generates SENSORY PREDICTION before action executes
+    → Action executes → sensory feedback ARRIVES
     → Match (predicted ≈ actual) → micro-opioid → reward
     → = "Self-action = better prediction = more reward"
 
@@ -253,7 +253,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ① SEE note approaching (visual prediction: "hit at T=0.5s")
       ② HEAR beat approaching (auditory prediction: "beat at T=0.5s")
       ③ PLAN action (motor preparation: "swing at T=0.5s")
-      ④ EXECUTE swing → efference copy PREDICT sensory feedback
+      ④ EXECUTE swing → efference copy PREDICTS sensory feedback
       ⑤ FEEDBACK: haptic vibration + visual explosion + score +1
       ⑥ Match: predicted ≈ actual → micro-opioid → "HIT!"
       → = 3 predictions (visual + auditory + motor) CONFIRMED SIMULTANEOUSLY
@@ -261,8 +261,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     PLAYING INSTRUMENT:
       ① INTEND chord (motor plan)
-      ② FINGERS move (efference copy predict: "will hear Am chord")
-      ③ HEAR Am chord → match → micro-opioid → "ĐÚNG!"
+      ② FINGERS move (efference copy predicts: "will hear Am chord")
+      ③ HEAR Am chord → match → micro-opioid → "Right!"
       ④ + If playing WITH others: output MATCH band → social binding
       → = Efference copy + Evaluative (music quality) + social
 
@@ -270,20 +270,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ① HEAR beat → predict next beat → PLAN movement
       ② EXECUTE movement → body feedback → match beat
       ③ FEEL body move → endorphin (Direct-State)
-      ④ SEE others dance sync → social sync reward
+      ④ SEE others dance in sync → social sync reward
       → = Efference + Direct-State + Evaluative + social
 
   ⭐ WHY TIER 3 = PEAK:
-    → Tier 1: predictions ở 1-3 modalities → reward FROM prediction match
-    → Tier 2: predictions ở 3-4 modalities → reward FROM prediction + binding
-    → Tier 3: predictions ở 4-5 modalities → reward FROM prediction + binding
+    → Tier 1: predictions in 1-3 modalities → reward FROM prediction match
+    → Tier 2: predictions in 3-4 modalities → reward FROM prediction + binding
+    → Tier 3: predictions in 4-5 modalities → reward FROM prediction + binding
        + ⭐ EFFERENCE COPY = ADDITIONAL prediction PER ACTION
        + ⭐ Direct-State = ADDITIONAL reward FROM movement itself
     → = Tier 3 has BOTH more prediction channels AND more reward types
     → = Multiplicative, not additive
 
   🟢 Dunbar 2012: active > passive for endorphin
-  🟢 Grahn & Brett 2007: motor active even passive
+  🟢 Grahn & Brett 2007: motor active even during passive listening
   🟡 Compound from efference × multi-modal = framework prediction
 ```
 
@@ -310,11 +310,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     PERFECT streak = sustained compound → "flow state"
     BREAK streak = 5 predictions VIOLATED → compound dissonance → "ugh!"
 
-  WHY RHYTHM GAMES "GÂY NGHIỆN":
+  WHY RHYTHM GAMES ARE ADDICTIVE:
     → 5-modality sync = peak compound reward territory
     → Immediate feedback (ms precision) → tight prediction loop
     → Difficulty curve = Goldilocks maintained (Body-Feedback-Precondition Precondition-4 Match-Range)
-    → Score = progress marker → approach tag reinforce
+    → Score = progress marker → approach tag reinforced
     → Social (leaderboard/multiplayer) = additional Evaluative layer
     → = MULTIPLE framework mechanisms converge → compound appeal
 
@@ -349,7 +349,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ✅ Evaluative Reward (music + visual aesthetics + narrative coherence)
       ✅ Multi-modal binding (score SYNC story → compound Evaluative)
       ✅ Simulation-Engine STRONG activation:
-        DMN fire (Taruffi 2017) → self-referential processing
+        DMN fires (Taruffi 2017) → self-referential processing
         Character simulation → (Other, Future, Construct)
         Emotional resonance via narrative → DEEP Evaluative
 
@@ -390,8 +390,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     NEITHER "better" — different neural profiles
 
   "CRYING DURING MOVIE" = peak Evaluative:
-    → Narrative coherence → body EVALUATE → DEEP opioid
-    → Simulation-Engine fire: (Other, All-times, Construct+Observe)
+    → Narrative coherence → body EVALUATES → DEEP opioid
+    → Simulation-Engine fires: (Other, All-times, Construct+Observe)
     → = Evaluative Reward at E₂-E₃ complexity (Reward-Signal-Architecture §2)
     → Game rarely achieves this depth (action interrupts reflection)
 
@@ -418,7 +418,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   FRAMEWORK PREDICTS:
     → More modalities × coherent = EVEN MORE compound reward
-    → NHƯNG: coherence requirement STRICTER:
+    → BUT: coherence requirement STRICTER:
       Vestibular input MUST match visual → else MOTION SICKNESS
       Motion sickness = vestibular-visual INCOHERENCE → compound DISSONANCE
       = Modality §4 type ② CONFLICT at hardware level
@@ -447,23 +447,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 USER HYPOTHESIS + FRAMEWORK REFINEMENT:
 
   ORIGINAL HYPOTHESIS:
-    "Sound chạy ở background, visual + action kích hoạt bổ sung,
-    khi chơi cùng → đồng bộ tạo coherence multiple modality
-    → chất lượng pattern cao hơn → body-reward mạnh."
+    "Sound runs in the background, visual + action activate supplementary channels,
+    when playing together → synchronization creates coherence across multiple modalities
+    → higher pattern quality → stronger body-reward."
 
-  FRAMEWORK ASSESSMENT: ĐÚNG CƠ BẢN — cần 3 refinements:
+  FRAMEWORK ASSESSMENT: CORRECT in principle — needs 3 refinements:
 
 
   REFINEMENT 1 — Sound OSCILLATES Tonic ↔ Cyclic:
 
-    Sound KHÔNG chỉ "background" (pure Tonic):
+    Sound is NOT just "background" (pure Tonic):
       → Verse/build sections = Tonic channel (background, continuous, invisible)
       → Drop/peak/chorus = Cyclic channel (foreground, VTA FIRE, attention shift)
       → = Sound oscillates Tonic ↔ Cyclic WITHIN 1 session
 
     02-Sound-Background-Pattern §5:
-      → Tonic = "luôn có nhạc nền" → Background-Pattern substrate
-      → Cyclic = "đỉnh nhạc" → prediction-delta → VTA fire → attention
+      → Tonic = "music always present" → Background-Pattern substrate
+      → Cyclic = "music peak" → prediction-delta → VTA fire → attention
 
     IN GAME CONTEXT:
       → Background music = Tonic (baseline, sets mood)
@@ -472,7 +472,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = DESIGNED oscillation for optimal engagement
 
 
-  REFINEMENT 2 — Visual + Action ≠ just "bổ sung":
+  REFINEMENT 2 — Visual + Action ≠ just "supplementary":
 
     Visual + Action = INDEPENDENT prediction channels, not supplements:
       → Each modality generates ITS OWN predictions
@@ -491,8 +491,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   REFINEMENT 3 — Coherence = NECESSARY condition:
 
-    User implied: "chơi cùng nhau → đồng bộ → reward"
-    Framework adds: "→ NẾU coherent"
+    User implied: "playing together → synchronization → reward"
+    Framework adds: "→ IF coherent"
     → Incoherent multi-modal = WORSE than single-modal
     → Coherence = game design responsibility (not automatic)
 
@@ -554,7 +554,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Game neuroscience = young field.
     VR neuroscience = almost nonexistent.
     Framework PREDICTIONS here, not VALIDATIONS.
-    → Future research CÓ THỂ revise tier model.
+    → Future research MAY revise the tier model.
 ```
 
 ---
@@ -566,7 +566,7 @@ PRIMARY:
   Modality.md v1.0 — §1 (6 modalities), §3 (depth), §4 (3 interaction types)
   Autonomy-Hardware.md v1.1 — §1 (efference copy mechanism)
   Reward-Signal-Architecture.md v2.1 — §1 (Evaluative/Direct-State)
-  Personal-Melody.md v2.0 — §2 (multi-modal sync = "hay")
+  Personal-Melody.md v2.0 — §2 (multi-modal sync = "beautiful")
 
 SECONDARY:
   Simulation-Engine.md v1.1 — DMN (film reward, social context)
@@ -584,7 +584,7 @@ WITHIN DRILL:
 
 ---
 
-> *05-Multi-Modal-Compound v1.0 — Audio + Visual + Action sync hierarchy.
+> *05-Multi-Modal-Compound v1.2 — Audio + Visual + Action sync hierarchy.
 > 3 tiers: Sound (baseline) → +Visual (binding) → +Action (compound peak).
 > Coherence = CONDITION: potentially super-additive reward IF coherent, dissonance IF NOT.
 > Efference copy = Tier 3 exclusive reward source.

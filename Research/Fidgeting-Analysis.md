@@ -1,309 +1,311 @@
-# Fidgeting Analysis — Qua Lăng Kính HPD Framework
+# Fidgeting Analysis — Through the HPD Framework Lens
 
-> **Phiên bản:** 1.0 (refined from DRAFT 2026-03-27)
-> **Ngày cập nhật:** 2026-05-11
-> **Trạng thái:** PHÂN TÍCH — tổng hợp từ research + framework analysis
-> **Phụ thuộc:** Cortisol-Baseline v2.0, OCD-Analysis v2.1, Body-Feedback-Mechanism v1.2,
+> **Version:** 1.0 (refined from DRAFT 2026-03-27)
+> **Updated:** 2026-05-11
+> **Status:** ANALYSIS — synthesis from research + framework analysis
+> **Dependencies:** Cortisol-Baseline v2.0, OCD-Analysis v2.1, Body-Feedback-Mechanism v1.2,
 > Reward-Signal-Architecture v1.0, PFC-Configuration v1.0, Observation/Boredom v1.0, Observation/Novelty v1.0
-> **Mục đích:** Phân tích fidgeting (rung đùi, bấm bút, vẽ bừa, bóp bóng...)
-> như output tự nhiên của **change-readiness system** khi không có target hành động.
-> Fidgeting = thỏa mãn change-readiness ở mức tối thiểu, hoạt động qua 3 tầng,
-> và nằm trên 1 **trajectory liên tục** từ regulation bình thường → habit → BFRB → OCD spectrum.
-> Hoàn toàn khác OCD về cơ chế, dù bề ngoài giống ("lặp lại").
-> **Quy ước:** 🟢 Evidence vững | 🟡 Suy luận có cơ sở | 🔴 Giả thuyết mới
+> **Purpose:** Analyze fidgeting (leg bouncing, pen clicking, doodling, stress ball squeezing...)
+> as the natural output of the **change-readiness system** when it has no action target.
+> Fidgeting = satisfying change-readiness at minimum cost, operating across 3 layers,
+> sitting on a **continuous trajectory** from normal regulation → habit → BFRB → OCD spectrum.
+> Completely different from OCD in mechanism, despite surface similarity ("repetitive").
+> **Convention:** 🟢 Strong evidence | 🟡 Grounded inference | 🔴 New hypothesis
 
 ---
 
-## Mục Lục
+## Table of Contents
 
-1. [Fidgeting Là Gì — Nhìn Nhanh](#1-fidgeting) — incl. §1.1 Gốc: Change-Readiness
-2. [Cơ Chế: 3 Tầng Hoạt Động](#2-3-tầng)
-3. [VTA Discriminator — Tại Sao Rung Đùi Không Vui Mà Vẽ Bừa Vui](#3-vta)
+1. [What Is Fidgeting — Quick Overview](#1-fidgeting) — incl. §1.1 Root: Change-Readiness
+2. [The Mechanism: 3 Operating Layers](#2-3-layers)
+3. [VTA Discriminator — Why Leg Bouncing Isn't Fun but Doodling Is](#3-vta)
 4. [Spectrum: Pure Fidget → Micro-Novelty → Full Novelty](#4-spectrum)
-5. [Fidgeting vs OCD — Cùng "Lặp Lại", Khác Hoàn Toàn](#5-fidget-vs-ocd)
-6. ["Beach Test" — Phép Thử Phân Biệt](#6-beach-test)
+5. [Fidgeting vs OCD — Both "Repetitive," Completely Different](#5-fidget-vs-ocd)
+6. [The "Beach Test" — A Diagnostic Heuristic](#6-beach-test)
 7. [Modality-Specific Fidgeting](#7-modality) 🔴 prediction
 8. [Exercise = Scheduled Motor Discharge](#8-exercise)
-9. [Tại Sao "Ngồi Yên" = Không Miễn Phí](#9-ngồi-yên)
-10. [Repetitive Behavior Spectrum Rộng](#10-spectrum-rộng)
+9. [Why "Sitting Still" Is Not Free](#9-sitting-still)
+10. [The Broad Repetitive Behavior Spectrum](#10-spectrum)
 11. [Trajectory: Change-Readiness → Fidget → Habit → BFRB → OCD](#11-trajectory) ⭐ KEY
 12. [Research Evidence Hub](#12-evidence)
-13. [Honest Assessment](#13-honest)
-14. [Câu Hỏi Mở](#14-câu-hỏi)
-15. [Kết Nối](#15-kết-nối)
+13. [Honest Assessment](#13-assessment)
+14. [Open Questions](#14-questions)
+15. [Connections](#15-connections)
 
 ---
 
-## 1. Fidgeting Là Gì — Nhìn Nhanh {#1-fidgeting}
+## 1. What Is Fidgeting — Quick Overview {#1-fidgeting}
 
 ```
-DEFINE:
-  Fidgeting = hành vi vận động LẶP LẠI, thường VÔ THỨC,
-              KHÔNG phục vụ mục đích task cụ thể nào
+DEFINITION:
+  Fidgeting = REPETITIVE motor behavior, typically UNCONSCIOUS,
+              that does NOT serve any specific task goal
 
-  Ví dụ phổ biến:
-    → Rung đùi (leg bouncing)
-    → Bấm bút (pen clicking)
-    → Quay bút, xoay bút (pen spinning)
-    → Bóp bóng / stress ball (squeezing)
-    → Cắn móng tay (nail biting)
-    → Vặn tóc (hair twirling)
-    → Gõ ngón tay lên bàn (finger tapping)
-    → Vẽ nguệch ngoạc (doodling)
-    → Xoay ghế, lắc ghế
-    → Đi qua đi lại (pacing)
+  Common examples:
+    → Leg bouncing
+    → Pen clicking
+    → Pen spinning
+    → Stress ball squeezing
+    → Nail biting
+    → Hair twirling
+    → Finger tapping on a table
+    → Doodling
+    → Chair rocking or swiveling
+    → Pacing back and forth
 
-  ĐẶC ĐIỂM QUAN TRỌNG:
-    → KHÔNG có obsession (≠ OCD: không có suy nghĩ xâm nhập)
-    → KHÔNG có target cần "done" (≠ OCD: không cần "tay sạch")
-    → KHÔNG ego-dystonic (không biết vô lý — vì không VÔ LÝ)
-    → PHỤ THUỘC context (stress → tăng, thư giãn → giảm/dừng)
-    → TỰ DỪNG khi change-readiness được thỏa mãn (≠ OCD: không tự dừng)
-    → BÌNH THƯỜNG — ~100% người đều fidget ở mức nào đó
+  KEY CHARACTERISTICS:
+    → NO obsession (≠ OCD: no intrusive thoughts)
+    → NO target that needs to be "done" (≠ OCD: no "hands must be clean")
+    → NOT ego-dystonic (doesn't feel irrational — because it ISN'T irrational)
+    → CONTEXT-DEPENDENT (increases with stress, decreases or stops with relaxation)
+    → SELF-TERMINATING when change-readiness is satisfied (≠ OCD: doesn't self-terminate)
+    → NORMAL — ~100% of people fidget at some level
 
   🟢 NEAT research: Levine et al. (2005, Mayo Clinic)
-     Fidgeting đốt 300-800 kcal/ngày — khác biệt LỚN giữa cá nhân
-     = Motor drive baseline KHÁC NHAU, sinh học, không phải ý chí
+     Fidgeting burns 300-800 kcal/day — LARGE variation between individuals
+     = Motor drive baseline DIFFERS between people, biologically, not by willpower
 ```
 
-### 1.1 — Gốc: Change-Readiness Không Có Target
+### 1.1 — Root: Change-Readiness With No Target
 
 ```
-⭐ REFRAME — FIDGETING KHÔNG CHỈ LÀ "AROUSAL REGULATION":
+⭐ REFRAME — FIDGETING IS NOT SIMPLY "AROUSAL REGULATION":
 
-  MÔ TẢ CŨ (chung chung):
-    "Fidgeting = điều hòa mức kích thích (arousal regulation)"
-    → Đúng nhưng CHƯA ĐỦ — mô tả HIỆN TƯỢNG, không mô tả CƠ CHẾ
+  OLD DESCRIPTION (generic):
+    "Fidgeting = regulating arousal levels"
+    → Correct but INCOMPLETE — describes the PHENOMENON, not the MECHANISM
 
-  MÔ TẢ MỚI (qua framework):
-    "Fidgeting = output tự nhiên của CHANGE-READINESS system khi bị block"
-    → Mô tả CƠ CHẾ GỐC — giải thích TẠI SAO fidgeting xảy ra
+  NEW DESCRIPTION (through framework):
+    "Fidgeting = natural output of the CHANGE-READINESS system when blocked"
+    → Describes the ROOT MECHANISM — explains WHY fidgeting occurs
 
-  CHANGE-READINESS (xem: Cortisol-Baseline.md):
-    → Cortisol ↑ → signal: "MÔI TRƯỜNG CẦN THAY ĐỔI → HÀNH ĐỘNG ĐỂ THAY ĐỔI NÓ"
-    → = Không phải "stress" chung chung
-    → = Signal CỤ THỂ: "hành động để change cái gì đó"
-    → Kèm: norepinephrine ↑ → motor cortex PRIMED → cơ bắp sẵn sàng
+  CHANGE-READINESS (see: Cortisol-Baseline.md):
+    → Cortisol ↑ → signal: "ENVIRONMENT NEEDS TO CHANGE → ACT TO CHANGE IT"
+    → NOT generic "stress"
+    → SPECIFIC signal: "take action to change something"
+    → Plus: norepinephrine ↑ → motor cortex PRIMED → muscles ready
 
-  KHI CÓ TARGET RÕ RÀNG:
-    → Change-readiness: "hành động đi!"
-    → Target: chạy, đánh, xây, code, nấu ăn, dọn nhà
-    → Hành động → change XẢY RA → cortisol giảm → done
-    → = Change-readiness ĐƯỢC THỎA MÃN ĐÚNG CÁCH
+  WHEN A CLEAR TARGET EXISTS:
+    → Change-readiness: "act now!"
+    → Target: run, fight, build, code, cook, clean up
+    → Action → change OCCURS → cortisol ↓ → done
+    → = Change-readiness SATISFIED THE RIGHT WAY
 
-  KHI KHÔNG CÓ TARGET (ngồi họp, ngồi học, chờ đợi):
-    → Change-readiness: "hành động đi!"
-    → KHÔNG CÓ target phù hợp → tension TĂNG
-    → Motor primed nhưng KHÔNG output → interrupt PFC liên tục
-    → = Change-readiness BỊ BLOCK
+  WHEN NO TARGET EXISTS (sitting in a meeting, sitting in class, waiting):
+    → Change-readiness: "act now!"
+    → NO suitable target → tension BUILDS
+    → Motor primed but NO output → interrupts PFC continuously
+    → = Change-readiness BLOCKED
 
-    → FIDGETING = CƠ CHẾ "BYPASS":
-      Motor tìm BẤT KỲ output nào → rung đùi, bấm bút, bóp bóng
-      → Proprioceptive feedback: "body ĐANG hành động"
-      → Brainstem interpret: "đang xử lý → situation under control"
-      → Cortisol giảm NHẸ → change-readiness PHẦN NÀO thỏa mãn
-      → = "LỪA" brainstem rằng change đang xảy ra
-      → = CHEAPEST WAY để thỏa mãn change-readiness khi bị block
+    → FIDGETING = THE "BYPASS" MECHANISM:
+      Motor finds ANY output → leg bouncing, pen clicking, ball squeezing
+      → Proprioceptive feedback: "body IS taking action"
+      → Brainstem interprets: "processing → situation under control"
+      → Cortisol drops SLIGHTLY → change-readiness PARTIALLY satisfied
+      → = "DECEIVING" the brainstem that change is happening
+      → = CHEAPEST WAY to satisfy change-readiness when blocked
 
-  → = Fidgeting KHÔNG PHẢI "thói xấu" hay "mất tập trung"
-  → = Là RESPONSE TỰ NHIÊN của change-readiness system
-  → = Giống hắt hơi là response của immune system — ko phải lỗi
+  → = Fidgeting is NOT a "bad habit" or "losing focus"
+  → = It is the NATURAL RESPONSE of the change-readiness system
+  → = Like sneezing is the response of the immune system — not a flaw
 ```
 
 ---
 
-## 2. Cơ Chế: 3 Tầng Hoạt Động {#2-3-tầng}
+## 2. The Mechanism: 3 Operating Layers {#2-3-layers}
 
-> Fidgeting KHÔNG ĐƠN GIẢN là "thói quen" hay "mất tập trung".
-> Gốc = change-readiness không có target (§1.1). Cơ chế hoạt động ở 3 tầng.
+> Fidgeting is NOT simply "a habit" or "loss of focus."
+> Root = change-readiness without a target (§1.1). The mechanism operates across 3 layers.
 
 ```
-⭐ NÃO CÓ 1 "CỬA SỔ TỐI ƯU" CHO AROUSAL (MỨC KÍCH THÍCH):
+⭐ THE BRAIN HAS AN OPTIMAL "WINDOW" FOR AROUSAL:
 
   😴 ──────── 😌 ──────── 🎯 ──────── 😰 ──────── 🤯
-  Quá thấp    Hơi thấp    TỐI ƯU     Hơi cao    Quá cao
-  (buồn ngủ)  (chán)      (focused)   (căng)     (panic)
-              ↑ fidget                 fidget ↓
-              để TĂNG                  để GIẢM
+  Too low    Slightly low  OPTIMAL   Slightly high  Too high
+  (drowsy)   (bored)      (focused)   (tense)       (panic)
+             ↑ fidget                 fidget ↓
+             to INCREASE               to DECREASE
 
-  🟢 Yerkes-Dodson Law (1908): performance tối ưu ở arousal trung bình
+  🟢 Yerkes-Dodson Law (1908): optimal performance at intermediate arousal
 
-  Change-readiness signal (cortisol) nằm NGOÀI vùng tối ưu:
-    Quá cao: "HÃY thay đổi gì đó!" → fidget = xả → kéo XUỐNG
-    Quá thấp: "không có gì thay đổi..." → fidget = tự kích thích → kéo LÊN
+  Change-readiness signal (cortisol) falls OUTSIDE the optimal window:
+    Too high: "CHANGE SOMETHING!" → fidget = discharge → pulls DOWN
+    Too low:  "nothing is changing..." → fidget = self-stimulate → pulls UP
 
-  Fidgeting = cơ chế TỰ ĐỘNG kéo change-readiness về vùng tối ưu
-  Hoạt động ở CẢ HAI hướng: tăng (khi chán) và giảm (khi stress)
+  Fidgeting = AUTOMATIC mechanism pulling change-readiness back to optimal
+  Operates in BOTH directions: up (when bored) and down (when stressed)
 ```
 
-### 2.1 — Tầng 1: Brainstem (Primitive, Hardware)
+### 2.1 — Layer 1: Brainstem (Primitive, Hardware)
 
 ```
-TẦNG SÂU NHẤT — KHÔNG CẦN Ý THỨC:
+DEEPEST LAYER — REQUIRES NO CONSCIOUS AWARENESS:
 
-  Motor action → cơ co/thả → PROPRIOCEPTIVE signal
-  → Signal đi thẳng tới BRAINSTEM (không qua PFC)
-  → Brainstem interpret: "cơ đang hoạt động = body đang XỬ LÝ tình huống"
-  → Parasympathetic nervous system KÍCH HOẠT
+  Motor action → muscle contraction/release → PROPRIOCEPTIVE signal
+  → Signal travels directly to BRAINSTEM (bypasses PFC)
+  → Brainstem interprets: "muscles active = body IS HANDLING the situation"
+  → Parasympathetic nervous system ACTIVATES
   → Heart rate ↓, cortisol ↓, muscle tension ↓
 
-  TẠI SAO PROPRIOCEPTION = CALMING?
+  WHY IS PROPRIOCEPTION CALMING?
 
-  Evolution logic:
-    Cơ đang co = đang HÀNH ĐỘNG (fight/flight/build/carry)
-    Đang hành động = đang XỬ LÝ threat/task
-    Đang xử lý = situation UNDER CONTROL
-    Under control = SAFE signal → parasympathetic activate → calm
+  Evolutionary logic:
+    Muscle contracting = taking ACTION (fight/flight/build/carry)
+    Taking action = HANDLING a threat/task
+    Handling it = situation UNDER CONTROL
+    Under control = SAFE signal → parasympathetic activates → calm
 
-    Cơ KHÔNG co + arousal cao = CHƯA hành động + CÓ threat
-    = KHÔNG under control = DANGER signal → sympathetic TĂNG → anxiety
-    = "Ngồi yên khi stress = body nghĩ bạn ĐANG ĐÔNG CỨNG trước danger"
+    Muscles NOT contracting + high arousal = NOT acting + THREAT PRESENT
+    = NOT under control = DANGER signal → sympathetic INCREASES → anxiety
+    = "Sitting still when stressed = body thinks you are FREEZING in front of danger"
 
   🟢 Sensory Integration Theory — Ayres (1972):
-     Proprioceptive input = 1 trong những input calming nhất cho nervous system
+     Proprioceptive input = one of the most calming inputs for the nervous system
   🟢 Thayer & Lane (2000): rhythmic movement → cortisol reduction
 
-  ỨNG DỤNG CÙNG CƠ CHẾ:
-    Em bé tự lắc/tự bú tay = proto-fidget (schema calming CỔ NHẤT)
-    Ru em bé: nhịp nhàng → proprioceptive → calm → sleep
-    Weighted blanket: áp lực toàn thân → proprioceptive MẠNH → deep calm
-    Stress ball: bóp mạnh → cơ tay co MẠNH → proprioceptive signal CỰC MẠNH
-      → Tại sao stress ball > rung đùi cho high anxiety:
-        signal MẠNH hơn (cả bàn tay co vs chỉ đùi rung nhẹ)
-    Ôm ai đó / ôm gối: áp lực lên chest + arms → proprioceptive + safe signal
+  APPLICATIONS USING THE SAME MECHANISM:
+    Baby self-rocking/thumb-sucking = proto-fidget (OLDEST calming schema)
+    Rocking a baby: rhythmic → proprioceptive → calm → sleep
+    Weighted blanket: full-body pressure → strong proprioceptive → deep calm
+    Stress ball: hard squeeze → hand muscles contract STRONGLY → powerful proprioceptive signal
+      → Why stress ball > leg bouncing for high anxiety:
+        signal STRONGER (entire hand contracting vs gentle leg bounce)
+    Hugging someone / hugging a pillow: pressure on chest + arms → proprioceptive + safe signal
 
-  Speed: milliseconds. Cost: gần 0. Conscious: KHÔNG CẦN.
+  Speed: milliseconds. Cost: near zero. Conscious: NOT REQUIRED.
 ```
 
-### 2.2 — Tầng 2: Motor Cortex → VTA (Arousal Management)
+### 2.2 — Layer 2: Motor Cortex → VTA (Arousal Management)
 
 ```
-TẦNG GIỮA — GIẢI PHÓNG PFC:
+MIDDLE LAYER — FREEING UP PFC:
 
-  Khi arousal cao + KHÔNG CÓ action phù hợp:
+  When arousal is high + NO suitable action is available:
 
-  ① Motor cortex PRIMED (cortisol + norepinephrine → "sẵn sàng hành động!")
-  ② Nhưng context = ngồi họp / ngồi học / ngồi chờ → KHÔNG CÓ target action
-  ③ Motor gửi signal liên tục: "SẴN SÀNG! LÀM GÌ ĐI!"
-  ④ Signal này = INTERRUPT tới PFC
-  ⑤ PFC phải xử lý mỗi interrupt: "có gì cần làm? → không → dismiss"
-  ⑥ Mỗi interrupt = PFC mất 1 slot → tích lũy = bandwidth BỊ ĂN DẦN
+  ① Motor cortex PRIMED (cortisol + norepinephrine → "ready to act!")
+  ② But context = sitting in meeting / class / waiting → NO target action
+  ③ Motor sends continuous signals: "READY! DO SOMETHING!"
+  ④ That signal = INTERRUPT to PFC
+  ⑤ PFC must process each interrupt: "anything to do? → no → dismiss"
+  ⑥ Each interrupt = PFC loses 1 slot → accumulates = bandwidth BEING EATEN
 
-  KHI CÓ FIDGET:
-  → Motor nhận "dummy task" (rung đùi, bấm bút)
-  → Motor: "OK, đang làm việc" → NGỪNG gửi interrupt
-  → VTA monitor motor output: "đều đặn, no prediction-delta" → không báo PFC
-  → PFC: interrupt BIẾN MẤT → bandwidth GIẢI PHÓNG → focus task chính
+  WHEN FIDGETING:
+  → Motor receives a "dummy task" (leg bouncing, pen clicking)
+  → Motor: "OK, working on it" → STOPS sending interrupts
+  → VTA monitors motor output: "steady, no prediction-delta" → doesn't alert PFC
+  → PFC: interrupts DISAPPEAR → bandwidth FREED → focus on main task
 
-  = Fidget hoạt động như "white noise machine" cho motor system
-  = Che đi "silence" (ko hành động) → ngăn motor interrupt
-  = PFC KHÔNG BIẾT fidget đang diễn ra (vô thức hoàn toàn)
+  = Fidgeting works as a "white noise machine" for the motor system
+  = Covers the "silence" (no action) → prevents motor interrupts
+  = PFC DOESN'T KNOW fidgeting is happening (fully unconscious)
 
-  THÊM — Rhythmic oscillation anchoring:
-  → Rung đùi = nhịp đều: co → thả → co → thả
-  → Nhịp đều = ENTRAINMENT — kéo neural oscillations vào pattern ỔN ĐỊNH
-  → Giống metronome cho dàn nhạc: giữ nhịp → mọi thứ đồng bộ
-  → Neural firing ỔN ĐỊNH → noise GIẢM → signal-to-noise ratio TĂNG
-  → = Fidget KHÔNG CHỈ "xả" mà còn "ANCHOR" — giữ hệ thống ổn định
+  ADDITIONAL — Rhythmic oscillation anchoring:
+  → Leg bouncing = steady rhythm: contract → release → contract → release
+  → Steady rhythm = ENTRAINMENT — pulls neural oscillations into STABLE patterns
+  → Like a metronome for an orchestra: keeps beat → everything synchronized
+  → Neural firing STABLE → noise DECREASES → signal-to-noise ratio RISES
+  → = Fidgeting DOESN'T just "release" tension — it also "ANCHORS" the system
 
-  Speed: seconds. Cost: motor energy nhỏ. Conscious: KHÔNG CẦN.
+  Speed: seconds. Cost: small motor energy. Conscious: NOT REQUIRED.
 ```
 
-### 2.3 — Tầng 3: Micro-Novelty (Reward + Regulation Hybrid)
+### 2.3 — Layer 3: Micro-Novelty (Reward + Regulation Hybrid)
 
 ```
-TẦNG CAO NHẤT — KHI FIDGET DRIFT SANG SÁNG TẠO:
+TOP LAYER — WHEN FIDGETING DRIFTS TOWARD CREATIVITY:
 
-  Một số fidget TẠO output KHÔNG hoàn toàn predict được:
-  → Vẽ bừa: mỗi nét = hình mới
-  → Bấm bút rhythm phức tạp: mỗi pattern = hơi khác
-  → Xoay bút tricks: mỗi lần = trajectory hơi khác
-  → Gấp giấy origami: mỗi bước = hình dạng mới
+  Some fidgeting generates output that is NOT fully predictable:
+  → Doodling: each stroke = new shape
+  → Complex pen-clicking rhythm: each pattern = slightly different
+  → Pen spinning tricks: each time = slightly different trajectory
+  → Paper folding: each step = new shape
 
-  Khi output KHÔNG 100% predictable:
-  → VTA detect prediction-delta NHỎ → fire NHẸ → micro-dopamine
-  → = Mỗi nét vẽ / mỗi trick = 1 MICRO-NOVELTY LOOP:
+  When output is NOT 100% predictable:
+  → VTA detects SMALL prediction-delta → fires LIGHTLY → micro-dopamine
+  → = Each stroke / each trick = 1 MICRO-NOVELTY LOOP:
      action → output → pattern detect → predict → confirm/surprise → dopamine
   → = Continuous micro-reward stream
-  → = Calming (tầng 1+2) + VUI (tầng 3)
+  → = Calming (layers 1+2) + ENJOYABLE (layer 3)
   → = BEST OF BOTH WORLDS
 
-  → = Tại sao doodling trong meeting = TỐI ƯU:
-     Tầng 1: proprioceptive calming ✓
-     Tầng 2: motor busy → PFC free ✓
-     Tầng 3: micro-novelty → positive mood ✓
-     + Memory improve 29% (Andrade 2010) ✓
+  → = Why doodling in a meeting is OPTIMAL:
+     Layer 1: proprioceptive calming ✓
+     Layer 2: motor busy → PFC free ✓
+     Layer 3: micro-novelty → positive mood ✓
+     + Memory improves 29% (Andrade 2010) ✓
 
-  Speed: continuous. Cost: motor + chút attention (nhỏ).
-  Conscious: bán ý thức (biết đang vẽ nhưng không "cố" vẽ).
+  Speed: continuous. Cost: motor energy + tiny attention (small).
+  Conscious: semi-conscious (aware of drawing, but not "trying" to draw).
 
   ───────────────────────────────────────────────────────
-  🟡 NOTE — Qua Lăng Kính Evaluative/Direct-State (Reward-Signal-Architecture v1.0):
+  🟡 NOTE — Through the Evaluative/Direct-State Lens (Reward-Signal-Architecture v1.0):
 
-  Tầng 1 proprioceptive calming = DIRECT-STATE reward:
-    Body-state change (cortisol ↓, HR ↓) = reward TRỰC TIẾP
-    Hardware-based, non-opioid, KHÔNG cần Body-Feedback-Precondition
-    → Fidgeting calming = fast + cheap + no PFC → đặc trưng Direct-State
+  Layer 1 proprioceptive calming = DIRECT-STATE reward:
+    Body-state change (cortisol ↓, HR ↓) = DIRECT reward
+    Hardware-based, non-opioid, DOES NOT require Body-Feedback-Precondition
+    → Fidgeting calming = fast + cheap + no PFC → characteristic Direct-State profile
 
-  Tầng 3 micro-novelty = DOPAMINE SIGNALING, không phải Evaluative:
-    VTA prediction-delta → dopamine = salience alert (không phải opioid reward)
-    Doodling "vui" = prediction-delta loop engaging ≠ evaluative reward
-    Evaluative cần Body-Feedback-Precondition + PFC evaluation → KHÔNG match fidget profile
+  Layer 3 micro-novelty = DOPAMINE SIGNALING, not Evaluative:
+    VTA prediction-delta → dopamine = salience alert (not opioid reward)
+    Doodling "feels good" = prediction-delta loop engaging ≠ evaluative reward
+    Evaluative requires Body-Feedback-Precondition + PFC evaluation → DOESN'T match fidget profile
 
-  → Fidgeting = chủ yếu Direct-State reward pathway
+  → Fidgeting = primarily Direct-State reward pathway
   → Consistent: fast, unconscious, hardware-level, no PFC evaluation
   ───────────────────────────────────────────────────────
 ```
 
 ---
 
-## 3. VTA Discriminator — Tại Sao Rung Đùi Không Vui Mà Vẽ Bừa Vui {#3-vta}
+## 3. VTA Discriminator — Why Leg Bouncing Isn't Fun but Doodling Is {#3-vta}
 
 ```
 ⭐ VTA (Ventral Tegmental Area) = novelty/prediction-delta detector:
 
-  🟢 Schultz et al. (1997): VTA dopamine neurons fire khi
-      outcome KHÁC prediction (prediction error)
-  → Input mới, không predict được → VTA fire → dopamine → "chú ý, có gì mới!"
-  → Input cũ, predict được → VTA KHÔNG fire → "bỏ qua, biết rồi"
+  🟢 Schultz et al. (1997): VTA dopamine neurons fire when
+      outcome DIFFERS from prediction (prediction error)
+  → New input, unpredictable → VTA fires → dopamine → "attention, something new!"
+  → Old input, predictable → VTA DOES NOT fire → "ignore, already known"
 
-ÁP DỤNG VÀO FIDGETING:
+APPLIED TO FIDGETING:
 
-  RUNG ĐÙI (pure repetitive):
-    Lần 1: đùi rung → proprioceptive signal → VTA: "?" → nhìn thử
-    Lần 2: đùi rung Y HỆT → VTA: "giống lần trước" → giảm fire
-    Lần 3+: Y HỆT → VTA: "predict được 100%" → KHÔNG fire
-    → VTA classify: "repetitive, no prediction-delta, ignore"
-    → Kết quả: calming CÓ (tầng 1+2), dopamine = 0, VUI = KHÔNG
-    → = "Giảm stress nhưng không thú vị"
+  LEG BOUNCING (pure repetitive):
+    Turn 1: leg bounces → proprioceptive signal → VTA: "?" → checks
+    Turn 2: leg bounces IDENTICALLY → VTA: "same as before" → fires less
+    Turn 3+: IDENTICAL → VTA: "100% predictable" → DOES NOT fire
+    → VTA classifies: "repetitive, no prediction-delta, ignore"
+    → Result: calming YES (layers 1+2), dopamine = 0, enjoyable = NO
+    → = "Reduces stress but not interesting"
 
-  BẤM BÚT ĐƠN GIẢN → RHYTHM PHỨC TẠP:
-    Click-click-click (đều): VTA ignore sau vài lần
-    → Chán → vô thức BẬT rhythm: tạch-tạch...TẠ:CH...tạch-tạch
-    → Rhythm MỚI → VTA: "ồ, pattern khác?" → fire nhẹ
-    → = Tại sao người bấm bút LUÔN escalate sang rhythm phức tạp
-    → = Vô thức TÌM prediction-delta để duy trì micro-dopamine
+  SIMPLE PEN CLICKING → COMPLEX RHYTHM:
+    Click-click-click (steady): VTA ignores after a few clicks
+    → Gets boring → unconsciously SWITCHES to rhythm: tap-tap...TAP...tap-tap
+    → NEW rhythm → VTA: "oh, different pattern?" → fires lightly
+    → = Why pen-clickers ALWAYS escalate to complex rhythms
+    → = Unconsciously SEEKING prediction-delta to maintain micro-dopamine
 
-  VẼ BỪA (micro-novelty):
-    Nét 1: đường cong → mắt thấy hình mới → VTA fire nhẹ
-    Nét 2: thêm đường → "ồ, giống mặt người" → SURPRISE → fire
-    Nét 3: thêm chi tiết → "đúng rồi" → confirm → fire
-    Nét 4: thêm râu → "haha" → creative surprise → fire MẠNH
-    → MỖI NÉT = prediction-delta NHỎ → micro-dopamine liên tục
-    → = VUI dù "không làm gì có ý nghĩa"
+  DOODLING (micro-novelty):
+    Stroke 1: curved line → eye sees new shape → VTA fires lightly
+    Stroke 2: add a line → "oh, looks like a face" → SURPRISE → fires
+    Stroke 3: add detail → "yes, that's right" → confirm → fires
+    Stroke 4: add a beard → "haha" → creative surprise → fires STRONGLY
+    → EACH STROKE = small prediction-delta → micro-dopamine continuously
+    → = ENJOYABLE even while "doing nothing meaningful"
 
-  XOAY BÚT TRICKS:
-    Trick đơn giản (đã compiled): VTA ignore → chỉ calming
-    THỬ trick MỚI: → có thể rớt → UNCERTAIN → VTA fire NHẸ
-    Trick MỚI THÀNH CÔNG: → prediction-delta POSITIVE → dopamine bump
-    → = Tại sao pen spinning ADDICTIVE: continuous skill-novelty loop
+  PEN SPINNING TRICKS:
+    Simple (already compiled) tricks: VTA ignores → calming only
+    TRYING a NEW trick: → might drop → UNCERTAIN → VTA fires LIGHTLY
+    NEW TRICK SUCCEEDS: → positive prediction-delta → dopamine bump
+    → = Why pen spinning is ADDICTIVE: continuous skill-novelty loop
+```
 
-PATTERN CHUNG:
-  → VTA ADAPT (habituation) với bất kỳ input nào LẶP LẠI hoàn toàn
-  → Fidget CÓ XU HƯỚNG DRIFT sang phức tạp hơn theo thời gian
-  → Vì: VTA cần prediction-delta → vô thức tìm cách TẠO error
-  → = NÃO LUÔN HƯỚNG VỀ NOVELTY dù ở hành vi nhỏ nhất
-  → = Micro-novelty seeking = PROPERTY CƠ BẢN của VTA
+```
+GENERAL PATTERN:
+  → VTA ADAPTS (habituates) to any FULLY REPETITIVE input
+  → Fidgeting TENDS TO DRIFT toward more complex forms over time
+  → Because: VTA needs prediction-delta → unconsciously finds ways to CREATE error
+  → = THE BRAIN ALWAYS SEEKS NOVELTY even in the smallest behaviors
+  → = Micro-novelty seeking = CORE PROPERTY of VTA
 ```
 
 ---
@@ -311,283 +313,287 @@ PATTERN CHUNG:
 ## 4. Spectrum: Pure Fidget → Micro-Novelty → Full Novelty {#4-spectrum}
 
 ```
-⭐ FIDGETING KHÔNG PHẢI 1 LOẠI — LÀ 1 SPECTRUM:
+⭐ FIDGETING IS NOT ONE TYPE — IT IS A SPECTRUM:
 
 ┌─────────────────────────────────────────────────────────────────┐
 │                                                                   │
 │  PURE FIDGET ←────────── HYBRID ──────────→ FULL NOVELTY        │
 │  (motor only)         (motor + micro-novel)    (novelty loop)    │
 │                                                                   │
-│  Rung đùi     Bấm bút    Xoay bút     Vẽ bừa     Brainstorm   │
-│  Cắn móng     rhythm     tricks       Doodle     Viết tự do    │
-│  Lắc chân     Gõ nhịp    Gấp giấy    Origami    Code pet proj │
+│  Leg bounce   Pen click  Pen spin     Doodle     Brainstorm     │
+│  Nail biting  rhythm     tricks       Sketch     Free-write     │
+│  Foot rocking Beat tap   Origami      Visual     Code pet proj  │
 │                                                                   │
-│  VTA: ignore  VTA: nhẹ   VTA: nhẹ     VTA: liên  VTA: fire     │
-│  Dopamine: 0  Dopa: ~    Dopa: ~      tục fire   mạnh          │
-│  Vui: KHÔNG   Vui: hơi   Vui: hơi     Vui: CÓ    Vui: NHIỀU   │
-│  Calming: CÓ  Calm: CÓ   Calm: CÓ    Calm: có    Calm: ít     │
-│  PFC cost: 0  PFC: ~0    PFC: nhỏ     PFC: nhỏ   PFC: LỚN     │
+│  VTA: ignore  VTA: light VTA: light   VTA: cont  VTA: fires     │
+│  Dopamine: 0  Dopa: ~   Dopa: ~       uous fire   strongly      │
+│  Fun: NO      Fun: a bit Fun: a bit   Fun: YES    Fun: A LOT    │
+│  Calming: YES Calm: YES  Calm: YES    Calm: some  Calm: little  │
+│  PFC cost: 0  PFC: ~0   PFC: small   PFC: small  PFC: LARGE    │
 │                                                                   │
-│  MỤC ĐÍCH:    MỤC ĐÍCH:  MỤC ĐÍCH:    MỤC ĐÍCH:  MỤC ĐÍCH:    │
-│  Xả motor     Xả + chút  Xả + chút   Xả + play  Explore       │
-│  tension      stimulate   skill play   + create   + create      │
+│  PURPOSE:     PURPOSE:   PURPOSE:     PURPOSE:    PURPOSE:       │
+│  Release motor Release +  Release +   Release +   Explore       │
+│  tension       stimulate  skill play   play+create + create      │
 │                                                                   │
 └─────────────────────────────────────────────────────────────────┘
 
-DRIFT TỰ NHIÊN SANG PHẢI:
-  → Bắt đầu rung đùi → VTA adapt → chán
-  → Chuyển sang bấm bút rhythm → VTA hơi fire → ok 1 lúc
-  → Rhythm cũ → chán → xoay bút → VTA fire → ok
-  → Xoay bút quen → chán → vẽ bừa → VTA fire liên tục → ở đây lâu hơn
+NATURAL DRIFT RIGHTWARD:
+  → Start leg bouncing → VTA adapts → gets boring
+  → Switch to pen clicking rhythm → VTA fires lightly → OK for a bit
+  → Old rhythm → boring → pen spinning → VTA fires → OK
+  → Pen spinning gets routine → boring → doodling → VTA fires continuously → stays longer
 
-  = ESCALATION TỰ NHIÊN: VTA habituation → vô thức tìm THÊM novelty
-  = Nếu không bị ngăn: fidget → micro-novelty → có thể DRIFT vào full novelty
-  = Nhưng: meeting/class = constraint → bị LOCK ở pure/hybrid zone
+  = NATURAL ESCALATION: VTA habituation → unconsciously seeks MORE novelty
+  = If unconstrained: fidget → micro-novelty → may DRIFT into full novelty
+  = But: meeting/class = constraint → LOCKED in pure/hybrid zone
 
-  QUAN SÁT:
-  → Fidgeting DỪNG khi:
-    ① Arousal về optimal → không cần nữa (beach test)
-    ② Có TASK THẬT cần motor (coding, viết, xây) → motor có việc thật
-    ③ Task thật = FULL novelty → không cần micro-novelty nữa
-  → = Fidgeting = "placeholder" cho đến khi có thứ THẬT để làm
+  OBSERVATION:
+  → Fidgeting STOPS when:
+    ① Arousal returns to optimal → no longer needed (beach test)
+    ② There is REAL WORK needing motor output (coding, writing, building) → motor has real work
+    ③ Real task = FULL novelty → micro-novelty no longer needed
+  → = Fidgeting = "placeholder" until something REAL comes along
 ```
 
 ---
 
-## 5. Fidgeting vs OCD — Cùng "Lặp Lại", Khác Hoàn Toàn {#5-fidget-vs-ocd}
+## 5. Fidgeting vs OCD — Both "Repetitive," Completely Different {#5-fidget-vs-ocd}
 
-> Bề ngoài giống: đều lặp lại, đều khó dừng, đều "vô nghĩa".
-> Bên trong: cơ chế HOÀN TOÀN KHÁC.
+> On the surface they look similar: both repetitive, both hard to stop, both appear "pointless."
+> Underneath: the MECHANISMS are completely different.
 
 ```
 ┌─────────────────┬───────────────────────┬───────────────────────┐
 │                 │ FIDGETING              │ OCD                   │
 ├─────────────────┼───────────────────────┼───────────────────────┤
-│ Có obsession?   │ KHÔNG — không có suy  │ CÓ — intrusive        │
-│                 │ nghĩ xâm nhập        │ thought lặp lại       │
+│ Obsession?      │ NO — no intrusive      │ YES — repetitive      │
+│                 │ thoughts               │ intrusive thoughts     │
 ├─────────────────┼───────────────────────┼───────────────────────┤
-│ Có target?      │ KHÔNG — rung đùi ko   │ CÓ — "tay bẩn",      │
-│                 │ nhằm "hoàn thành"    │ "cửa chưa khóa"      │
-│                 │ cái gì cả            │                       │
+│ Target?         │ NO — leg bouncing      │ YES — "dirty hands,"  │
+│                 │ isn't trying to        │ "door not locked"      │
+│                 │ "complete" anything    │                        │
 ├─────────────────┼───────────────────────┼───────────────────────┤
-│ "Done" signal?  │ CÓ — arousal ổn →    │ LỖI — signal bẩn →    │
-│                 │ tự dừng (BÌNH THƯỜNG)│ không dừng (HỎNG)     │
+│ "Done" signal?  │ YES — arousal settled  │ BROKEN — signal is     │
+│                 │ → self-terminates      │ noisy → never stops    │
+│                 │ (NORMAL)               │ (BROKEN)               │
 ├─────────────────┼───────────────────────┼───────────────────────┤
-│ Ego-dystonic?   │ KHÔNG — ko distressed │ CÓ — biết vô lý      │
-│                 │ (chỉ hơi ngại xã hội)│ nhưng ko dừng được    │
+│ Ego-dystonic?   │ NO — not distressed    │ YES — knows it's       │
+│                 │ (just slightly         │ irrational but can't   │
+│                 │ socially awkward)      │ stop                   │
 ├─────────────────┼───────────────────────┼───────────────────────┤
-│ Context-depend? │ CÓ — thư giãn → DỪNG │ KHÔNG — fire ở mọi    │
-│                 │ (beach test ✓)       │ context                │
+│ Context-depend? │ YES — relaxed → STOPS  │ NO — fires in all      │
+│                 │ (beach test ✓)         │ contexts               │
 ├─────────────────┼───────────────────────┼───────────────────────┤
-│ Neurochemistry  │ Norepinephrine +      │ Serotonin (certainty  │
-│                 │ dopamine (arousal)    │ bias) + OFC-caudate   │
+│ Neurochemistry  │ Norepinephrine +       │ Serotonin (certainty  │
+│                 │ dopamine (arousal)     │ bias) + OFC-caudate    │
 ├─────────────────┼───────────────────────┼───────────────────────┤
-│ Circuit         │ Motor cortex +        │ OFC + caudate +       │
-│                 │ proprioceptive +      │ serotonin system      │
-│                 │ autonomic nervous sys │                       │
+│ Circuit         │ Motor cortex +         │ OFC + caudate +        │
+│                 │ proprioceptive +       │ serotonin system       │
+│                 │ autonomic nervous sys  │                        │
 ├─────────────────┼───────────────────────┼───────────────────────┤
-│ Cơ chế loop     │ Arousal regulation    │ "Done" detector       │
-│                 │ (TỰ ĐIỀU CHỈNH)      │ failure (HỎNG)        │
+│ Loop mechanism  │ Arousal regulation     │ "Done" detector        │
+│                 │ (SELF-REGULATING)      │ failure (BROKEN)       │
 ├─────────────────┼───────────────────────┼───────────────────────┤
-│ Tự dừng?        │ CÓ — khi arousal ổn  │ KHÔNG — cần treatment │
+│ Self-terminate? │ YES — when arousal OK  │ NO — requires treatment│
 ├─────────────────┼───────────────────────┼───────────────────────┤
-│ Treatment?      │ Ko cần (bình thường)  │ SSRIs + CBT           │
-│                 │ Nếu muốn giảm:       │                       │
-│                 │ exercise, stress mgmt │                       │
+│ Treatment?      │ Not needed (normal)    │ SSRIs + CBT            │
+│                 │ To reduce: exercise,   │                        │
+│                 │ stress management      │                        │
 ├─────────────────┼───────────────────────┼───────────────────────┤
-│ Bệnh lý?       │ KHÔNG (trừ khi       │ CÓ — ảnh hưởng chất   │
-│                 │ extreme → xem §10)   │ lượng sống nghiêm trọng│
+│ Pathology?      │ NO (unless extreme     │ YES — seriously affects │
+│                 │ → see §10)             │ quality of life        │
 └─────────────────┴───────────────────────┴───────────────────────┘
 
-TẠI SAO NHẦM LẪN:
-  Bề ngoài GIỐNG:
-    ✓ Lặp lại
-    ✓ Khó dừng bằng ý chí (khi đang stress)
-    ✓ Có vẻ "vô nghĩa" nhìn từ ngoài
+WHY THEY GET CONFUSED:
+  Surface SIMILARITIES:
+    ✓ Repetitive
+    ✓ Hard to stop with willpower (when stressed)
+    ✓ Appears "pointless" from the outside
 
-  Bản chất KHÁC:
-    Fidgeting: lặp lại vì RHYTHM = calming mechanism
-    OCD: lặp lại vì "DONE" SIGNAL KHÔNG FIRE
+  Core DIFFERENCES:
+    Fidgeting: repetitive because RHYTHM = calming mechanism
+    OCD: repetitive because "DONE" SIGNAL NEVER FIRES
 
-    Fidgeting: khó dừng vì AROUSAL CHƯA ỔN → dừng = khó chịu → làm lại
-    OCD: khó dừng vì HARDWARE LỖI → ý chí KHÔNG sửa được hardware
+    Fidgeting: hard to stop because AROUSAL NOT YET SETTLED → stopping = uncomfortable → restarts
+    OCD: hard to stop because HARDWARE IS BROKEN → willpower CANNOT FIX hardware
 
-    Fidgeting: "vô nghĩa" nhìn từ ngoài, nhưng = REGULATION nhìn từ trong
-    OCD: vô nghĩa THEO ĐÚNG NGHĨA — bản thân BIẾT vô lý (ego-dystonic)
+    Fidgeting: "pointless" from the outside, but = REGULATION from the inside
+    OCD: pointless IN THE EXACT SENSE — the person themselves KNOWS it's irrational (ego-dystonic)
 
-  = GIỐNG nhau vì đều là LOOP
-  = KHÁC nhau vì NGUYÊN NHÂN loop hoàn toàn khác
-  = Fidgeting: loop CÓ MỤC ĐÍCH + TỰ DỪNG
-  = OCD: loop KHÔNG MỤC ĐÍCH + KHÔNG TỰ DỪNG
+  = SIMILAR because both are LOOPS
+  = DIFFERENT because the ROOT CAUSE of the loop is completely different
+  = Fidgeting: loop HAS A PURPOSE + SELF-TERMINATES
+  = OCD: loop HAS NO PURPOSE + DOES NOT SELF-TERMINATE
 
   ───────────────────────────────────────────────────────
-  🟡 SYNC — OCD-Analysis v2.1 (3-Tuyến Model):
+  🟡 SYNC — OCD-Analysis v2.1 (3-Circuit Model):
 
-  OCD v2.1 xác định 3 tuyến dừng — fidgeting khác ở CẢ BA:
+  OCD v2.1 identifies 3 stopping circuits — fidgeting differs on ALL THREE:
 
-  Tuyến 1 — "Done" detector (OFC-caudate circuit):
-    OCD: circuit HỎNG → signal "chưa xong" dù đã xong → loop vô tận
-    Fidget: circuit BÌNH THƯỜNG → arousal ổn = "done" → TỰ DỪNG
+  Circuit 1 — "Done" detector (OFC-caudate circuit):
+    OCD: circuit BROKEN → signal "not done" even when done → endless loop
+    Fidget: circuit NORMAL → arousal settled = "done" → SELF-TERMINATES
 
-  Tuyến 2 — Satisfaction threshold (serotonin system):
-    OCD: serotonin ↓ → uncertainty bias ↑ → threshold KHÔNG BAO GIỜ đạt
-    Fidget: serotonin BÌNH THƯỜNG → threshold đạt khi arousal ổn
-    ⚠️ KEY (OCD v2.1): serotonin ↓ = AMPLIFIER, không phải ROOT CAUSE
-    → PANDAS chứng minh: sửa hardware tuyến 1 → OCD hết → serotonin tự phục hồi
+  Circuit 2 — Satisfaction threshold (serotonin system):
+    OCD: serotonin ↓ → uncertainty bias ↑ → threshold NEVER REACHED
+    Fidget: serotonin NORMAL → threshold reached when arousal settles
+    ⚠️ KEY (OCD v2.1): serotonin ↓ = AMPLIFIER, not ROOT CAUSE
+    → PANDAS proves: fix hardware in circuit 1 → OCD resolves → serotonin self-recovers
 
-  Tuyến 3 — PFC override (dlPFC conscious control):
-    OCD: PFC override = cuối cùng, exhausting, không bền vững
-    Fidget: KHÔNG CẦN PFC override — hệ thống tự điều chỉnh
+  Circuit 3 — PFC override (dlPFC conscious control):
+    OCD: PFC override = last resort, exhausting, not sustainable
+    Fidget: PFC OVERRIDE NOT NEEDED — system self-regulates
 
-  = Fidgeting = cả 3 tuyến HOẠT ĐỘNG BÌNH THƯỜNG
-  = OCD = tuyến 1 + tuyến 2 hỏng, tuyến 3 không đủ bù
+  = Fidgeting = all 3 circuits WORKING NORMALLY
+  = OCD = circuits 1 + 2 broken, circuit 3 insufficient to compensate
   ───────────────────────────────────────────────────────
 ```
 
 ---
 
-## 6. "Beach Test" — Phép Thử Phân Biệt {#6-beach-test}
+## 6. The "Beach Test" — A Diagnostic Heuristic {#6-beach-test}
 
 ```
-⭐ PHÉP THỬ ĐƠN GIẢN NHƯNG EFFECTIVE:
+⭐ SIMPLE BUT EFFECTIVE HEURISTIC:
 
-  Câu hỏi: "Hành vi này CÒN diễn ra khi đang THƯ GIÃN HOÀN TOÀN không?"
-  Context: bãi biển, spa, nằm võng, sau massage, trước khi ngủ (đã buồn ngủ)
+  Question: "Does this behavior STILL occur when you are COMPLETELY RELAXED?"
+  Context: beach, spa, lying in a hammock, after a massage, just before sleep (already drowsy)
 
-  NẾU DỪNG khi thư giãn:
+  IF IT STOPS when relaxed:
     → = AROUSAL REGULATION (fidgeting)
-    → Vì: arousal đã optimal → không cần regulate → dừng tự nhiên
-    → "Done" signal = arousal ổn → HOẠT ĐỘNG BÌNH THƯỜNG
+    → Because: arousal has reached optimal → no need to regulate → stops naturally
+    → "Done" signal = arousal settled → FUNCTIONING NORMALLY
 
-  NẾU VẪN DIỄN RA khi thư giãn:
-    → = CÓ THỂ khác fidgeting — xem xét:
-      → OCD: obsession VẪN fire dù relaxed → compulsion VẪN chạy
-      → Tic: motor discharge BẤT THƯỜNG → không phụ thuộc arousal
-      → Stereotypy: sensory seeking CỨNG → giảm nhưng có thể ko hết
+  IF IT STILL OCCURS when relaxed:
+    → = MAY BE something other than fidgeting — consider:
+      → OCD: obsession STILL fires even when relaxed → compulsion STILL runs
+      → Tic: ABNORMAL motor discharge → not dependent on arousal
+      → Stereotypy: RIGID sensory seeking → may reduce but may not stop
 
-  VÍ DỤ:
-    Rung đùi ở bãi biển? → Hầu như KHÔNG → = fidgeting
-    Mang stress ball ra biển bóp? → Hầu như KHÔNG → = fidgeting
-    Rửa tay 10 lần ở bãi biển? → OCD CÓ THỂ vẫn làm → = OCD
-    Tic giật mắt ở bãi biển? → Có thể giảm nhưng VẪN CÓ → = tic
+  EXAMPLES:
+    Leg bouncing at the beach? → Almost NEVER → = fidgeting
+    Taking a stress ball to the beach? → Almost NEVER → = fidgeting
+    Washing hands 10 times at the beach? → OCD MAY still do this → = OCD
+    Eye-twitch tic at the beach? → May reduce but STILL PRESENT → = tic
 
-  NGOẠI LỆ — fidgeting ở rest nhưng KHÔNG PHẢI OCD:
-    → Cortisol baseline CỰC CAO (chronic anxiety): ngay cả "thư giãn"
-      vẫn arousal cao → vẫn fidget → nhưng = fidgeting (chỉ là baseline quá cao)
-    → ADHD: dopamine baseline THẤP → ngay cả rest vẫn understimulated
-      → Có thể fidget nhẹ → nhưng = arousal regulation, ko phải OCD
-    → Phân biệt: hỏi "có OBSESSION kèm không?" → No = fidgeting, Yes = OCD
+  EXCEPTIONS — fidgeting at rest but NOT OCD:
+    → EXTREMELY HIGH cortisol baseline (chronic anxiety): even "relaxed"
+      still has elevated arousal → still fidgets → but = fidgeting (just very high baseline)
+    → ADHD: low dopamine baseline → even at rest still understimulated
+      → May fidget lightly → but = arousal regulation, not OCD
+    → Distinguish: ask "Is there an OBSESSION accompanying it?" → No = fidgeting, Yes = OCD
 
-  → = Beach test = QUICK SCREEN, không phải diagnostic tool
-  → Nhưng: phân biệt ĐÚNG trong ~90% cases thông thường
+  → = Beach test = QUICK SCREEN, not a diagnostic tool
+  → But: correctly distinguishes in ~90% of everyday cases
 ```
 
 ---
 
 ## 7. Modality-Specific Fidgeting {#7-modality}
 
-> 🟡 PREDICTION — Framework predict fidgeting TYPE khác nhau theo processing modality.
-> Chưa có research trực tiếp, nhưng logic nhất quán.
+> 🟡 PREDICTION — Framework predicts that fidgeting TYPE differs by processing modality.
+> No direct research yet, but the logic is consistent.
 
 ```
-SOMATIC-DOMINANT (vận động viên, thợ thủ công, dancer):
-  → Body signal MẠNH + motor awareness CAO
-  → Khi arousal lệch → body DETECT nhanh → motor response NHANH
+SOMATIC-DOMINANT (athletes, craftspeople, dancers):
+  → STRONG body signals + HIGH motor awareness
+  → When arousal drifts → body DETECTS quickly → motor response FAST
 
-  Fidget TYPE: PHYSICAL rõ ràng
-    → Rung đùi, bấm bút, bóp bóng, xoay ghế, gõ bàn
-    → Đi qua đi lại, đứng lên ngồi xuống, kéo giãn cơ
-    → Tập với vật gì đó trong tay (rubik nhỏ, coin flip)
+  Fidget TYPE: clearly PHYSICAL
+    → Leg bouncing, pen clicking, stress ball squeezing, chair spinning, table tapping
+    → Pacing, repeatedly sitting down and standing up, muscle stretching
+    → Working with a small object in hand (mini Rubik's cube, coin flipping)
 
-  Fidget HIỆU QUẢ: CAO — đúng channel (body → body discharge)
-  Exercise need: CAO — body CẦN motor discharge thường xuyên
-  Nếu KHÔNG tập thể thao đều:
-    → Motor tension tích lũy → fidget trong meeting TĂNG MẠNH
+  Fidget EFFECTIVENESS: HIGH — correct channel (body → body discharge)
+  Exercise need: HIGH — body NEEDS frequent motor discharge
+  If NOT exercising regularly:
+    → Motor tension accumulates → meeting fidgeting INCREASES STRONGLY
 
   Micro-novelty drift: → pen tricks, object manipulation, fidget toys
 
 
-VERBAL-DOMINANT (translator, lawyer, writer, teacher):
-  → Language signal MẠNH + inner speech LIÊN TỤC
-  → Khi arousal lệch → PFC overload → VERBAL discharge
+VERBAL-DOMINANT (translators, lawyers, writers, teachers):
+  → STRONG language signal + CONTINUOUS inner speech
+  → When arousal drifts → PFC overloads → VERBAL discharge
 
-  Fidget TYPE: "FIDGET TRONG ĐẦU" + verbal-adjacent
-    → Self-talk liên tục (nói thầm, lẩm bẩm trong đầu)
-    → Humming, hát nhỏ, nghêu ngao
-    → "Chuyện trò linh tinh" — nói không mục đích
-    → Viết linh tinh, ghi note vô nghĩa
-    → Đọc lại text cũ trên điện thoại
+  Fidget TYPE: "FIDGETING IN THE HEAD" + verbal-adjacent
+    → Continuous self-talk (muttering internally)
+    → Humming, singing softly, absent-minded vocalizing
+    → "Empty chatter" — talking without a clear purpose
+    → Writing random notes, jotting meaningless things
+    → Re-reading old texts on the phone
 
-  Fidget HIỆU QUẢ: TRUNG BÌNH
-    → Verbal loop CÓ THỂ → rumination (suy nghĩ vòng tròn)
-       nếu content = stress-related → TĂNG anxiety thay vì giảm
-    → = Rung đùi KHÔNG BAO GIỜ trở thành rumination
-    → = Verbal fidget CÓ THỂ trở thành rumination
-    → = Somatic fidget AN TOÀN hơn verbal fidget
+  Fidget EFFECTIVENESS: MODERATE
+    → Verbal loop CAN → rumination (circular thinking)
+       if content = stress-related → INCREASES anxiety instead of reducing it
+    → = Leg bouncing NEVER becomes rumination
+    → = Verbal fidgeting CAN become rumination
+    → = Somatic fidgeting SAFER than verbal fidgeting
 
-  Exercise need: THẤP HƠN somatic — body ít "đòi" motor discharge
-  NHƯNG: "mental fidget" KHÓ TẮT hơn physical fidget
-    → Rung đùi: dừng = dừng ngay
-    → Thought loop: "dừng" = rất khó (PFC phải suppress liên tục)
+  Exercise need: LOWER than somatic — body less "demanding" about motor discharge
+  HOWEVER: "mental fidgeting" HARDER TO SWITCH OFF than physical fidgeting
+    → Leg bouncing: stop = immediate stop
+    → Thought loop: "stop" = very difficult (PFC must continuously suppress)
 
-  🟡 INSIGHT: Verbal-dominant "ngồi yên, trông tập trung"
-     nhưng ĐẦU đang fidget → PFC bị ăn bandwidth Y NHƯ rung đùi
-     → BỀ NGOÀI trông chuyên nghiệp, BÊN TRONG performance GIẢM
+  🟡 INSIGHT: Verbal-dominant people "sit still, look focused"
+     but their HEAD is fidgeting → PFC losing bandwidth THE SAME AS leg bouncing
+     → EXTERNALLY looks professional, INTERNALLY performance DROPS
 
 
-VISUAL-DOMINANT (designer, architect, photographer, artist):
-  → Visual signal MẠNH + spatial awareness CAO
-  → Khi arousal lệch → visual system discharge
+VISUAL-DOMINANT (designers, architects, photographers, artists):
+  → STRONG visual signals + HIGH spatial awareness
+  → When arousal drifts → visual system discharges
 
   Fidget TYPE: VISUAL output
-    → Doodling (vẽ nguệch ngoạc) — PHỔ BIẾN NHẤT
-    → Nhìn quanh phòng liên tục (visual scanning)
-    → Sắp xếp đồ trên bàn theo pattern
-    → Xoay bút nhìn nó quay (visual + motor hybrid)
-    → Chỉnh font/color trong document (visual stimulation)
+    → Doodling — MOST COMMON
+    → Continuously scanning the room (visual scanning)
+    → Rearranging objects on the desk by pattern
+    → Spinning a pen and watching it rotate (visual + motor hybrid)
+    → Adjusting fonts/colors in a document (visual stimulation)
 
-  Fidget HIỆU QUẢ: CAO — đặc biệt cho memory
+  Fidget EFFECTIVENESS: HIGH — especially for memory
     → Andrade (2010): doodling → +29% recall
-    → Visual output = micro-novelty LIÊN TỤC (mỗi nét = hình mới)
-    → = Tầng 3 activate TỰ NHIÊN → calming + vui + memory boost
+    → Visual output = CONTINUOUS micro-novelty (each stroke = new shape)
+    → = Layer 3 activates NATURALLY → calming + enjoyable + memory boost
 
-  Exercise need: TRUNG BÌNH
-    → Body ít đòi motor nhưng cần visual stimulation
-    → Đi dạo ngắm cảnh có thể THAY THẾ gym cho visual-dominant
+  Exercise need: MODERATE
+    → Body needs less motor but needs visual stimulation
+    → Walking while enjoying scenery can SUBSTITUTE for the gym for visual-dominant people
 
   Micro-novelty drift: → elaborate doodles, mini sketches, visual notes
 
 
 MIXED / CROSS-MODALITY:
-  → Hầu hết người = MIXED (ví dụ: visual-somatic, verbal-visual)
-  → Fidget type = BLEND: ví dụ programmer (visual-logical)
-    → doodle + keyboard fidget + pen spin
-  → Dominant modality quyết định PREFERENCE, không phải exclusive
+  → Most people = MIXED (e.g., visual-somatic, verbal-visual)
+  → Fidget type = BLEND: e.g., programmer (visual-logical)
+    → doodle + keyboard fidgeting + pen spinning
+  → Dominant modality determines PREFERENCE, not exclusivity
 ```
 
 ```
-BẢNG TÓM TẮT:
+SUMMARY TABLE:
 
 ┌──────────────┬────────────────┬─────────────┬────────────┬──────────┐
-│ Modality     │ Fidget type    │ Hiệu quả   │ Rủi ro     │ Exercise │
-│              │ dominant       │ calming     │            │ need     │
+│ Modality     │ Dominant       │ Calming     │ Risk       │ Exercise │
+│              │ fidget type    │ effectiveness│            │ need     │
 ├──────────────┼────────────────┼─────────────┼────────────┼──────────┤
-│ Somatic      │ Physical       │ Cao         │ Thấp       │ Cao      │
-│              │ (body movement)│ (direct     │ (ko thành  │          │
-│              │                │ discharge)  │ rumination)│          │
+│ Somatic      │ Physical       │ High        │ Low        │ High     │
+│              │ (body movement)│ (direct     │ (never     │          │
+│              │                │ discharge)  │ becomes    │          │
+│              │                │             │ rumination)│          │
 ├──────────────┼────────────────┼─────────────┼────────────┼──────────┤
-│ Verbal       │ Mental/verbal  │ Trung bình  │ Cao        │ Thấp     │
-│              │ (thought loop, │ (có thể     │ (→ ruminat-│ (body ít │
-│              │ humming, talk) │ thành loop) │ ion risk)  │ đòi)     │
+│ Verbal       │ Mental/verbal  │ Moderate    │ High       │ Low      │
+│              │ (thought loop, │ (may become │ (→ ruminat-│ (body    │
+│              │ humming, talk) │ a loop)     │ ion risk)  │ less     │
+│              │                │             │            │ demanding│
 ├──────────────┼────────────────┼─────────────┼────────────┼──────────┤
-│ Visual       │ Visual output  │ Cao         │ Thấp       │ T.bình   │
-│              │ (doodle, scan, │ (micro-novel│ (creative  │          │
-│              │ arrange)       │ = calming   │ ko toxic)  │          │
+│ Visual       │ Visual output  │ High        │ Low        │ Moderate │
+│              │ (doodle, scan, │ (micro-novel│ (creative, │          │
+│              │ arrange)       │ = calming   │ not toxic) │          │
 │              │                │ + rewarding)│            │          │
 └──────────────┴────────────────┴─────────────┴────────────┴──────────┘
 
-🟡 TOÀN BỘ section này = FRAMEWORK PREDICTION — chưa có direct research
-   phân loại fidgeting theo processing modality.
+🟡 THIS ENTIRE SECTION = FRAMEWORK PREDICTION — no direct research yet
+   classifying fidgeting by processing modality.
    = Research gap, testable via survey + behavioral observation.
 ```
 
@@ -596,415 +602,416 @@ BẢNG TÓM TẮT:
 ## 8. Exercise = Scheduled Motor Discharge {#8-exercise}
 
 ```
-⭐ TẬP THỂ THAO = KHÔNG CHỈ "SỨC KHỎE"
-   TẬP THỂ THAO = SCHEDULED MOTOR DISCHARGE
+⭐ EXERCISE = NOT JUST "HEALTH"
+   EXERCISE = SCHEDULED MOTOR DISCHARGE
 
-🟢 Evidence nền:
-  Kline (2014): regular exercise → GIẢM restlessness + fidgeting
-  Craft & Perna (2004): exercise → cortisol baseline GIẢM
-  Blumenthal et al. (1999): aerobic exercise ≈ SSRIs cho anxiety
+🟢 Background evidence:
+  Kline (2014): regular exercise → DECREASES restlessness + fidgeting
+  Craft & Perna (2004): exercise → cortisol baseline DECREASES
+  Blumenthal et al. (1999): aerobic exercise ≈ SSRIs for anxiety
   Ratey (2008, "Spark"): exercise → BDNF ↑ → neuroplasticity ↑
 
-MECHANISM QUA FRAMEWORK:
+MECHANISM THROUGH THE FRAMEWORK:
 
-  NGƯỜI TẬP THỂ THAO ĐỀU (3-5x/tuần):
-    → Motor system ĐƯỢC XẢ định kỳ → tension KHÔNG TÍCH LŨY
-    → Cortisol baseline GIẢM → arousal baseline ỔN hơn
-    → Trong meeting: motor KHÔNG primed quá mức → ít interrupt PFC
-    → Fidget: ÍT HƠN hoặc NHẸ HƠN (nhẹ nhàng, không intense)
-    → Attention: TỐT HƠN (PFC free hơn)
+  PEOPLE WHO EXERCISE REGULARLY (3-5x/week):
+    → Motor system gets DISCHARGED regularly → tension DOES NOT ACCUMULATE
+    → Cortisol baseline DECREASES → arousal baseline MORE STABLE
+    → In meetings: motor NOT over-primed → fewer PFC interrupts
+    → Fidgeting: LESS or LIGHTER (gentle, not intense)
+    → Attention: BETTER (PFC freer)
 
-  NGƯỜI KHÔNG TẬP (ít vận động):
-    → Motor tension TÍCH LŨY ngày qua ngày
-    → Cortisol baseline CÓ THỂ cao hơn (ít discharge + ít regulation)
-    → Trong meeting: motor primed MẠNH → interrupt NHIỀU
-    → Fidget: MẠNH HƠN + THƯỜNG XUYÊN HƠN
-    → HOẶC: suppress fidget → tốn PFC → attention GIẢM
-    → HOẶC: zone out (mind-wander) = PFC bị noise hijack
+  PEOPLE WHO DON'T EXERCISE (sedentary):
+    → Motor tension ACCUMULATES day after day
+    → Cortisol baseline MAY BE higher (less discharge + less regulation)
+    → In meetings: motor heavily primed → MANY interrupts
+    → Fidgeting: MORE INTENSE + MORE FREQUENT
+    → OR: suppress fidgeting → costs PFC → attention DROPS
+    → OR: zone out (mind-wander) = PFC hijacked by noise
 
-  EXERCISE NEED THEO MODALITY:
+  EXERCISE NEED BY MODALITY:
 
   Somatic-dominant:
-    → Motor drive baseline CAO → CẦN discharge THƯỜNG XUYÊN
-    → Không tập = "nợ motor" tích lũy → restlessness, irritability
-    → Exercise = GẦN NHƯ THIẾT YẾU (maintenance, không phải luxury)
-    → Type: intense — gym, bóng đá, võ, bơi, chạy
-    → Frequency: cao (3-5x/tuần hoặc hàng ngày)
+    → High motor drive baseline → NEEDS frequent discharge
+    → No exercise = "motor debt" accumulating → restlessness, irritability
+    → Exercise = NEAR-ESSENTIAL (maintenance, not luxury)
+    → Type: intense — gym, football, martial arts, swimming, running
+    → Frequency: high (3-5x/week or daily)
 
   Verbal-dominant:
-    → Motor drive baseline THẤP → body ít "đòi" discharge
-    → CÓ THỂ ngồi yên cả ngày mà KHÔNG quá khó chịu body
-    → NHƯNG: tension tích lũy dưới dạng KHÁC:
-      → Thought loops, irritability, insomnia (đầu không ngừng)
-    → Exercise VẪN GIÚP: cortisol ↓, sleep ↑, clear mental noise
-    → DRIVE để tập = THẤP (body không gửi signal đủ mạnh)
-    → = Tại sao nhiều "người sách vở" KHÔNG tập thể thao:
-      body ko kêu → không cảm thấy cần → nhưng mental tension TÍCH LŨY
-    → Type: moderate — đi bộ, yoga, bơi nhẹ (vừa đủ discharge)
-    → Frequency: 2-3x/tuần có thể đủ
+    → Low motor drive baseline → body less "demanding" about discharge
+    → CAN sit still all day without excessive body discomfort
+    → HOWEVER: tension accumulates in a DIFFERENT FORM:
+      → Thought loops, irritability, insomnia (head never stops)
+    → Exercise STILL HELPS: cortisol ↓, sleep ↑, clears mental noise
+    → DRIVE to exercise = LOW (body doesn't send strong enough signal)
+    → = Why many "book people" DON'T exercise:
+      body doesn't complain → doesn't feel the need → but mental tension ACCUMULATES
+    → Type: moderate — walking, yoga, light swimming (just enough discharge)
+    → Frequency: 2-3x/week may be sufficient
 
   Visual-dominant:
-    → Motor drive TRUNG BÌNH
-    → Cần stimulation nhưng không nhất thiết intense motor
-    → Đi dạo ngắm cảnh, hiking = visual + motor = tối ưu cho visual-dom
-    → Type: moderate + visual-rich environment
-    → Frequency: 2-4x/tuần
-
-  🟡 PREDICTION CHƯA TEST:
-  → "Người tập thể thao đều fidget ÍT HƠN trong meeting
-     so với người không tập — VÀ modality moderate effect này"
-  → = Testable qua actigraphy (đo movement) + exercise log + modality survey
+    → Motor drive MODERATE
+    → Needs stimulation but not necessarily intense motor output
+    → Walking through interesting scenery, hiking = visual + motor = optimal for visual-dominant
+    → Type: moderate + visually rich environment
+    → Frequency: 2-4x/week
 ```
 
 ```
-ỨNG DỤNG CỤ THỂ — PROGRAMMER TRONG CUỘC HỌP:
+SPECIFIC APPLICATION — PROGRAMMER IN A MEETING:
 
-  Programmer = thường visual-logical dominant + ít motor
-  + Ngồi code cả ngày = motor discharge CỰC THẤP
+  Programmer = often visual-logical dominant + low motor
+  + Sitting coding all day = EXTREMELY LOW motor discharge
 
-  Programmer TẬP THỂ THAO ĐỀU (gym/bóng đá hàng tuần):
-    → Motor tension đã xả → trong meeting: arousal ỔN
-    → Fidget: nhẹ (bấm bút nhẹ, xoay ghế nhẹ)
-    → Attention: tốt (PFC free)
+  Programmer who EXERCISES REGULARLY (gym/football weekly):
+    → Motor tension already discharged → in meeting: arousal STABLE
+    → Fidgeting: light (light pen clicking, light chair swiveling)
+    → Attention: good (PFC free)
 
-  Programmer KHÔNG TẬP:
-    → Motor tension TÍCH LŨY tuần qua tuần
-    → Trong meeting: motor interrupt NHIỀU
-    → Fidget: mạnh (rung đùi rõ, đứng lên ngồi xuống)
-    → HOẶC: zone out (nghĩ code trong meeting) = mental fidget
-    → Attention: kém hơn — không phải "không quan tâm"
-      mà PFC bị overloaded bởi motor noise
+  Programmer who DOESN'T EXERCISE:
+    → Motor tension ACCUMULATED week after week
+    → In meeting: many motor interrupts
+    → Fidgeting: strong (obvious leg bouncing, repeatedly sitting/standing)
+    → OR: zone out (thinking about code during the meeting) = mental fidgeting
+    → Attention: worse — not "doesn't care"
+      but PFC overloaded by motor noise
 ```
 
 ---
 
-## 9. Tại Sao "Ngồi Yên" = Không Miễn Phí {#9-ngồi-yên}
+## 9. Why "Sitting Still" Is Not Free {#9-sitting-still}
 
 ```
-⭐ MISCONCEPTION PHỔ BIẾN:
+⭐ COMMON MISCONCEPTION:
 
-  "Ngồi yên = trung lập, không tốn gì"        ← SAI
-  "Fidget = mất tập trung, nên dừng"           ← SAI
-  "Ngồi yên = chuyên nghiệp, fidget = thiếu kỷ luật" ← SAI
+  "Sitting still = neutral, costs nothing"               ← WRONG
+  "Fidgeting = losing focus, should stop"                ← WRONG
+  "Sitting still = professional, fidgeting = undisciplined" ← WRONG
 
-THỰC TẾ:
+THE REALITY:
 
-  "NGỒI YÊN" KHI AROUSAL CAO = ACTIVELY SUPPRESS MOTOR OUTPUT
+  "SITTING STILL" WHEN AROUSAL IS HIGH = ACTIVELY SUPPRESSING MOTOR OUTPUT
 
-  → Motor muốn chạy → PFC nói "KHÔNG" → motor push → PFC push back
-  → = PFC phải dùng bandwidth LIÊN TỤC để ĐÈ motor xuống
-  → = Giống giữ quả bóng dưới nước — TỐN LỰC liên tục
-  → = Bandwidth cho task chính: GIẢM
-  → = "Ngồi yên + nghe họp" = PFC đa nhiệm (suppress motor + listen)
-       Cả hai GIẢM chất lượng
+  → Motor wants to go → PFC says "NO" → motor pushes → PFC pushes back
+  → = PFC must spend bandwidth CONTINUOUSLY to HOLD DOWN motor output
+  → = Like holding a ball underwater — requires CONTINUOUS EFFORT
+  → = Bandwidth for the main task: DECREASES
+  → = "Sitting still + listening in a meeting" = PFC multitasking (suppress motor + listen)
+       Both DECREASE in quality
 
-  FIDGET = THẢ QUẢ BÓNG:
-  → Bóng nổi lên → hết tốn lực → tay FREE
-  → Motor có việc → ngừng quấy PFC → PFC FREE
-  → = "Rung đùi + nghe họp" THỰC RA tối ưu hơn "ngồi yên + nghe họp"
+  FIDGETING = RELEASING THE BALL:
+  → Ball floats up → no more effort needed → hand FREE
+  → Motor has a job → stops pestering PFC → PFC FREE
+  → = "Leg bouncing + listening in a meeting" is ACTUALLY more optimal than "sitting still + listening"
 
   🟢 SUPPORT:
-  → Hartanto et al. (2016): trẻ ADHD fidget → performance TĂNG
-  → Farley et al. (2013): stress ball → attention TĂNG
-  → Andrade (2010): doodle → recall +29%
-  → = EVIDENCE nói: cho phép fidget = GIÚP performance
-  → = Bắt ngồi yên = CẢN performance (đặc biệt high-arousal + ADHD)
+  → Hartanto et al. (2016): children with ADHD who fidget → performance INCREASES
+  → Farley et al. (2013): stress ball → attention INCREASES
+  → Andrade (2010): doodling → recall +29%
+  → = EVIDENCE says: allowing fidgeting = HELPS performance
+  → = Forcing stillness = HINDERS performance (especially high-arousal + ADHD)
 
-HỆ QUẢ THỰC TẾ:
-  Trường học bắt ngồi yên → trẻ GIẢM performance (đặc biệt ADHD, somatic-dom)
-  Meeting room "chuyên nghiệp" = ngồi yên → attention GIẢM
-  Cho phép fidget tools (stress ball, doodle pad) → performance TĂNG
+PRACTICAL CONSEQUENCES:
+  Schools that enforce stillness → children's performance DECREASES (especially ADHD, somatic-dominant)
+  "Professional" meeting rooms = sit still → attention DECREASES
+  Allowing fidget tools (stress balls, doodle pads) → performance INCREASES
 
-  NGOẠI TRỪ — khi "ngồi yên" THỰC SỰ free (cost = 0):
-  → Arousal thấp + body relaxed (bãi biển, trước ngủ)
-  → Motor KHÔNG primed → không cần suppress → 0 cost
-  → = Beach test: ngồi yên ở biển = thực sự free
-  → = Ngồi yên trong meeting căng = KHÔNG free
+  EXCEPTION — when "sitting still" IS genuinely free (cost = 0):
+  → Arousal low + body relaxed (beach, just before sleep)
+  → Motor NOT primed → no need to suppress → 0 cost
+  → = Beach test: sitting still at the beach = truly free
+  → = Sitting still in a tense meeting = NOT free
 ```
 
 ---
 
-## 10. Repetitive Behavior Spectrum Rộng {#10-spectrum-rộng}
+## 10. The Broad Repetitive Behavior Spectrum {#10-spectrum}
 
-> Không phải mọi "lặp lại" đều giống nhau. Phân loại theo CƠ CHẾ.
+> Not all "repetitive behaviors" are the same. Classification by MECHANISM.
 
 ```
 ┌──────────────────┬────────────────┬───────────┬────────────┬──────────┐
-│ Hành vi          │ Cơ chế         │ Mục đích  │ Tự dừng?   │ Bệnh lý?│
+│ Behavior         │ Mechanism      │ Purpose   │ Self-term? │ Patholo- │
+│                  │                │           │            │ gy?      │
 ├──────────────────┼────────────────┼───────────┼────────────┼──────────┤
-│ Fidgeting        │ Arousal        │ Regulation│ CÓ (khi    │ KHÔNG    │
-│ (rung đùi,      │ regulation     │ arousal   │ arousal ổn)│          │
-│ bấm bút)        │ (§2 tầng 1+2) │           │            │          │
+│ Fidgeting        │ Arousal        │ Regulate  │ YES (when  │ NO       │
+│ (leg bounce,     │ regulation     │ arousal   │ arousal OK)│          │
+│ pen click)       │ (§2 layers 1+2)│           │            │          │
 ├──────────────────┼────────────────┼───────────┼────────────┼──────────┤
-│ Doodling         │ Arousal reg +  │ Regulate +│ CÓ         │ KHÔNG    │
-│ (vẽ bừa)        │ micro-novelty  │ micro-    │            │          │
-│                  │ (§2 tầng 3)   │ reward    │            │          │
+│ Doodling         │ Arousal reg +  │ Regulate +│ YES        │ NO       │
+│                  │ micro-novelty  │ micro-    │            │          │
+│                  │ (§2 layer 3)   │ reward    │            │          │
 ├──────────────────┼────────────────┼───────────┼────────────┼──────────┤
-│ Stimming (ADHD/  │ Dopamine +     │ Maintain  │ CÓ (khi    │ Trait    │
-│ Autism)          │ sensory        │ arousal + │ engaged)   │ (ko bệnh │
-│                  │ regulation     │ comfort   │            │ thường)  │
+│ Stimming (ADHD/  │ Dopamine +     │ Maintain  │ YES (when  │ Trait    │
+│ Autism)          │ sensory        │ arousal + │ engaged)   │ (usually │
+│                  │ regulation     │ comfort   │            │ not path)│
 ├──────────────────┼────────────────┼───────────┼────────────┼──────────┤
-│ Habit (thói quen)│ Basal ganglia  │ Automatic │ CÓ (nếu    │ KHÔNG    │
-│ (vặn tóc, gõ    │ compiled loop  │ behavior  │ conscious)  │          │
-│ bàn tay)         │ (không arousal)│ (ko goal) │            │          │
+│ Habit            │ Basal ganglia  │ Automatic │ YES (if    │ NO       │
+│ (hair twirling,  │ compiled loop  │ behavior  │ conscious) │          │
+│ knuckle cracking)│ (not arousal)  │ (no goal) │            │          │
 ├──────────────────┼────────────────┼───────────┼────────────┼──────────┤
-│ Tic              │ Motor cortex   │ KHÔNG     │ Tạm thời   │ CÓ THỂ  │
-│ (giật mắt,      │ discharge BẤT  │ (involunt-│ (suppress   │ (Tourette│
-│ nhún vai)       │ THƯỜNG         │ ary)      │ khó, tái)   │ nếu nặng)│
+│ Tic              │ Motor cortex   │ NONE      │ Temporarily│ POSSIBLY │
+│ (eye twitch,     │ ABNORMAL       │ (involunt-│ (suppress  │ (Tourette│
+│ shoulder shrug)  │ discharge      │ ary)      │ hard, recurs│ if severe│
 ├──────────────────┼────────────────┼───────────┼────────────┼──────────┤
-│ OCD compulsion   │ "Done" detect  │ Giảm      │ KHÔNG      │ CÓ      │
-│ (rửa tay 50x,   │ failure +      │ anxiety   │ (tuyến 1+2 │          │
-│ kiểm tra 10x)   │ serotonin low  │ (tạm)     │ lỗi)       │          │
+│ OCD compulsion   │ "Done" detect  │ Reduce    │ NO         │ YES      │
+│ (hand washing    │ failure +      │ anxiety   │ (circuits  │          │
+│ 50x, check 10x) │ serotonin low  │ (briefly) │ 1+2 broken)│          │
 ├──────────────────┼────────────────┼───────────┼────────────┼──────────┤
-│ Stereotypy       │ Understimulat- │ Self-     │ TÙY        │ TÙY     │
-│ (rocking, hand   │ ion + sensory  │ stimulate │ (environ-   │ severity │
-│ flapping)        │ seeking        │ + comfort │ ment-dep)   │          │
+│ Stereotypy       │ Understimulat- │ Self-     │ VARIES     │ VARIES   │
+│ (rocking, hand   │ ion + sensory  │ stimulate │ (environ-  │ by       │
+│ flapping)        │ seeking        │ + comfort │ ment-dep)  │ severity │
 ├──────────────────┼────────────────┼───────────┼────────────┼──────────┤
-│ BFRB (Body-     │ Arousal reg +  │ Regulate +│ KHÓ        │ CÓ THỂ  │
-│ Focused Repet.) │ reward loop    │ soothing  │ (compiled   │ (nếu gây │
-│ (nhổ tóc, cắn   │ (habit + mood) │           │ SÂU, auto) │ tổn      │
-│ da, cạy da)     │                │           │             │ thương)  │
+│ BFRB (Body-     │ Arousal reg +  │ Regulate +│ HARD       │ POSSIBLY │
+│ Focused Repet.) │ reward loop    │ soothing  │ (compiled  │ (if      │
+│ (hair pulling,   │ (habit + mood) │           │ DEEPLY,    │ causing  │
+│ skin picking)    │                │           │ automatic) │ harm)    │
 └──────────────────┴────────────────┴───────────┴────────────┴──────────┘
 
-PHÂN BIỆT NHANH — HỎI 3 CÂU:
-  ① Có obsession/intrusive thought KÈM không? → Yes = hướng OCD
-  ② Có TỰ DỪNG khi thư giãn không (beach test)? → Yes = fidgeting/habit
-  ③ Có GÂY TỔN THƯƠNG/distress không? → Yes = cần chú ý (BFRB, OCD, tic)
+QUICK DISTINCTION — ASK 3 QUESTIONS:
+  ① Is there an accompanying obsession/intrusive thought? → Yes = points to OCD
+  ② Does it SELF-STOP when relaxed (beach test)? → Yes = fidgeting/habit
+  ③ Does it CAUSE HARM/distress? → Yes = warrants attention (BFRB, OCD, tic)
 ```
 
 ```
-⚠️ RANH GIỚI MỜ — KHI FIDGETING CẦN CHÚ Ý:
+⚠️ FUZZY BOUNDARY — WHEN FIDGETING WARRANTS ATTENTION:
 
-  → Chi tiết: xem §11 Trajectory (bước 4→5→6)
+  → Detail: see §11 Trajectory (steps 4→5→6)
 
-  QUICK CHECK — 4 dấu hiệu fidgeting đã VƯỢT ngưỡng bình thường:
-    ① GÂY TỔN THƯƠNG vật lý (máu, sẹo, hói tóc)
-    ② KHÔNG THỂ dừng dù MUỐN dừng (ego-dystonic xuất hiện)
-    ③ Ảnh hưởng chất lượng sống (xấu hổ, tránh xã hội)
-    ④ Tăng MẠNH khi stress nhưng KHÔNG GIẢM khi stress giảm
+  QUICK CHECK — 4 signs fidgeting has CROSSED the normal threshold:
+    ① PHYSICAL HARM (blood, scarring, hair loss)
+    ② CANNOT STOP even when WANTING to stop (ego-dystonic emerges)
+    ③ Affects quality of life (shame, social avoidance)
+    ④ Intensifies STRONGLY with stress but DOESN'T DECREASE when stress decreases
 
-  Nếu ≥2 dấu hiệu: → CÓ THỂ ở bước 5 (BFRB) trong trajectory
-  Nếu + obsession kèm: → CÓ THỂ gần bước 6 → cần chuyên gia
+  If ≥2 signs: → MAY BE at step 5 (BFRB) in the trajectory
+  If + accompanying obsession: → MAY BE near step 6 → needs professional attention
 
-  Qua framework:
-    = Đã chuyển từ REGULATION (bước 2-3) sang COMPULSION (bước 5+)
-    = Schema compiled quá sâu + reward loop (relief) quá mạnh
-    = Vùng xám giữa habit bình thường và OCD spectrum
-    = DSM-5 xếp BFRB (trichotillomania, excoriation) vào OCD spectrum
+  Through the framework:
+    = Has shifted from REGULATION (steps 2-3) to COMPULSION (steps 5+)
+    = Schema compiled too deeply + reward loop (relief) too strong
+    = Gray zone between normal habit and OCD spectrum
+    = DSM-5 classifies BFRB (trichotillomania, excoriation) under OCD spectrum
 ```
 
-## 11. Trajectory Liên Tục: Change-Readiness → Fidget → Habit → BFRB → OCD {#11-trajectory}
+---
 
-> ⭐ Đây là insight quan trọng nhất của file: các hành vi lặp lại KHÔNG PHẢI
-> nhiều loại riêng biệt — mà là 1 ĐƯỜNG LIÊN TỤC. Mỗi bước = thêm 1 điều kiện.
-> Bước nào DỪNG → outcome đó.
+## 11. Continuous Trajectory: Change-Readiness → Fidget → Habit → BFRB → OCD {#11-trajectory}
+
+> ⭐ This is the most important insight in the file: repetitive behaviors ARE NOT
+> multiple separate types — they form a SINGLE CONTINUOUS PATH. Each step = one more condition added.
+> Where someone STOPS on the path → that is their outcome.
 
 ```
-TRAJECTORY 6 BƯỚC:
+6-STEP TRAJECTORY:
 
-BƯỚC 0 — Change-readiness có target (BÌNH THƯỜNG, ko fidget)
+STEP 0 — Change-readiness with a target (NORMAL, no fidgeting)
 │
-│ Cortisol ↑ → "hành động đi" → CÓ target (chạy, code, xây, nấu)
-│ → Hành động → change XẢY RA → cortisol ↓ → done
-│ → = Không có fidgeting — change-readiness được thỏa mãn ĐÚNG CÁCH
+│ Cortisol ↑ → "act!" → HAS a target (run, code, build, cook)
+│ → Action → change OCCURS → cortisol ↓ → done
+│ → = No fidgeting — change-readiness satisfied THE RIGHT WAY
 │
-│ Ví dụ: deadline → viết code → xong → nhẹ
-│         Nguy hiểm → chạy → thoát → nhẹ
-│
-▼
-BƯỚC 1 — Change-readiness KHÔNG có target → TENSION
-│
-│ Cortisol ↑ → motor primed → "LÀM GÌ ĐI"
-│ NHƯNG: context = ngồi họp / ngồi học / chờ đợi → KHÔNG target
-│ → Motor gửi interrupt liên tục tới PFC
-│ → PFC phải dismiss từng interrupt → bandwidth BỊ ĂN
-│ → Body tension TĂNG → uncomfortable
-│ → = Change-readiness BỊ BLOCK
+│ Example: deadline → write code → done → relief
+│          Danger → run → escape → relief
 │
 ▼
-BƯỚC 2 — Fidgeting (REGULATION — bình thường, lành tính)
+STEP 1 — Change-readiness WITH NO target → TENSION
 │
-│ Motor tìm BẤT KỲ output → rung đùi, bấm bút, lắc chân
-│ → Proprioceptive: "body đang hành động" → brainstem: "ok, under control"
-│ → Motor busy → ngừng interrupt PFC → PFC free
-│ → Change-readiness PHẦN NÀO thỏa mãn → tension giảm
-│
-│ VTA: "motor output đều đặn, no prediction-delta" → ignore
-│ → Dopamine = 0 → KHÔNG VUI — chỉ CALMING
-│ → Schema: NÔNG (ko compile sâu vì ko có reward)
-│ → DỄ DỪNG khi arousal ổn
-│
-│ = ~95% fidgeting DỪNG Ở ĐÂY. Bình thường. Lành tính.
-│
-│ ⭐ Điều kiện để LEO TIẾP: VTA detect novelty trong output
+│ Cortisol ↑ → motor primed → "DO SOMETHING"
+│ BUT: context = sitting in meeting / class / waiting → NO target
+│ → Motor sends continuous interrupts to PFC
+│ → PFC must dismiss each interrupt → bandwidth EATEN
+│ → Body tension BUILDS → uncomfortable
+│ → = Change-readiness BLOCKED
 │
 ▼
-BƯỚC 3 — Micro-novelty fidget (REGULATION + REWARD — vẫn lành tính)
+STEP 2 — Fidgeting (REGULATION — normal, benign)
 │
-│ Fidget DRIFT sang phức tạp hơn: vẽ bừa, pen tricks, rhythm phức tạp
-│ → Mỗi output hơi KHÁC output trước → VTA detect prediction-delta
-│ → VTA fire nhẹ → micro-dopamine → VUI
-│ → = Calming (tầng 1+2) + reward (tầng 3) = best of both
+│ Motor finds ANY output → leg bouncing, pen clicking, foot rocking
+│ → Proprioceptive: "body is acting" → brainstem: "ok, under control"
+│ → Motor busy → stops interrupting PFC → PFC free
+│ → Change-readiness PARTIALLY satisfied → tension decreases
 │
-│ Schema BẮT ĐẦU compile (vì có reward lặp lại):
-│ → "Vẽ bừa khi chán" → compile dần → dễ trigger hơn lần sau
-│ → NHƯNG: reward NHỎ → compile NÔNG → vẫn DỄ DỪNG
-│ → Andrade (2010): doodling → +29% recall → HỮUÍCH
+│ VTA: "motor output steady, no prediction-delta" → ignore
+│ → Dopamine = 0 → NOT ENJOYABLE — only CALMING
+│ → Schema: SHALLOW (doesn't compile deep because no reward)
+│ → EASY TO STOP when arousal settles
 │
-│ = Bình thường. Lành tính. Thậm chí CÓ ÍCH.
+│ = ~95% of fidgeting STOPS HERE. Normal. Benign.
 │
-│ ⭐ Điều kiện để LEO TIẾP: lặp lại ĐỦ NHIỀU + reward đủ consistent
-│
-▼
-BƯỚC 4 — Habit (COMPILED — tự động, thường vô hại)
-│
-│ Lặp lại hàng trăm/ngàn lần → schema compile SÂU vào basal ganglia
-│ → Auto-fire: không cần cortisol trigger nữa
-│ → "Cắn móng tay" xảy ra NGAY CẢ khi không stress (habitual)
-│ → "Quay bút" xảy ra bất kỳ lúc nào cầm bút (automatic)
-│
-│ Reward: soothing + familiar → dopamine nhẹ nhưng CONSISTENT
-│ Dừng: KHÓ HƠN — schema compiled → cần conscious effort (PFC)
-│ NHƯNG: CÓ THỂ dừng nếu PFC đủ mạnh + motivation đủ lớn
-│ Hại: THƯỜNG KHÔNG — chỉ là thói quen (habit, ko pathology)
-│
-│ = Thói quen. Khó bỏ nhưng KHÔNG harmful.
-│ = ~100% người có ít nhất 1 habit ở mức này.
-│
-│ ⭐ Điều kiện để LEO TIẾP:
-│   target = SELF-HARM ADJACENT (cắn da, nhổ tóc, cạy da)
-│   + stress MÃN TÍNH (reward = RELIEF từ tension, rất mạnh)
-│   + PFC suy yếu (ko override nổi)
+│ ⭐ Condition to ESCALATE: VTA detects novelty in output
 │
 ▼
-BƯỚC 5 — BFRB (Body-Focused Repetitive Behavior — cần chú ý)
+STEP 3 — Micro-novelty fidgeting (REGULATION + REWARD — still benign)
 │
-│ Schema compiled CỰC SÂU + target = gây tổn thương:
-│   Cắn móng tới CHẢY MÁU (vẫn cắn tiếp)
-│   Nhổ tóc (trichotillomania) → hói
-│   Cạy da (excoriation disorder) → sẹo
-│   Cắn môi/má trong → loét
+│ Fidget DRIFTS toward more complexity: doodling, pen tricks, complex rhythm
+│ → Each output SLIGHTLY DIFFERENT from the last → VTA detects prediction-delta
+│ → VTA fires lightly → micro-dopamine → ENJOYABLE
+│ → = Calming (layers 1+2) + reward (layer 3) = best of both
 │
-│ Reward loop: tension (change-readiness) → hành vi → RELIEF
-│   Relief = negative reinforcement CỰC MẠNH
-│   + Có thể: endorphin nhẹ từ đau nhẹ → thêm reward
-│   → Schema compile THÊM SÂU NỮA → auto → rất khó dừng
+│ Schema BEGINS to compile (because reward is repeating):
+│ → "Doodle when bored" → gradually compiles → easier to trigger next time
+│ → BUT: reward SMALL → shallow compile → still EASY TO STOP
+│ → Andrade (2010): doodling → +29% recall → BENEFICIAL
 │
-│ Ego-dystonic BẮT ĐẦU: "biết sai nhưng KO DỪNG được"
-│ → Gần OCD ở TRIỆU CHỨNG (biết vô lý + ko dừng)
-│ → NHƯNG: vẫn KHÔNG CÓ obsession (intrusive thought)
-│ → = Vùng xám giữa habit và OCD
-│ → DSM-5: xếp vào OCD AND RELATED DISORDERS spectrum
+│ = Normal. Benign. Even USEFUL.
 │
-│ 🟢 Prevalence: ~2-5% dân số (Grant et al. 2012)
+│ ⭐ Condition to ESCALATE: ENOUGH repetitions + sufficiently consistent reward
 │
-│ ⭐ Điều kiện để LEO TIẾP:
+▼
+STEP 4 — Habit (COMPILED — automatic, usually harmless)
+│
+│ Repeated hundreds/thousands of times → schema compiled DEEPLY into basal ganglia
+│ → Auto-fires: no longer needs a cortisol trigger
+│ → "Nail biting" happens EVEN without stress (habitual)
+│ → "Pen spinning" happens automatically whenever a pen is held (automatic)
+│
+│ Reward: soothing + familiar → light but CONSISTENT dopamine
+│ Stopping: HARDER — schema compiled → needs conscious PFC effort
+│ BUT: CAN stop if PFC strong enough + motivation high enough
+│ Harm: USUALLY NONE — just a habit (not pathology)
+│
+│ = A habit. Hard to break but NOT harmful.
+│ = ~100% of people have at least 1 habit at this level.
+│
+│ ⭐ Condition to ESCALATE:
+│   target = SELF-HARM ADJACENT (biting skin, pulling hair, picking skin)
+│   + CHRONIC stress (reward = RELIEF from tension, very powerful)
+│   + PFC weakened (unable to override)
+│
+▼
+STEP 5 — BFRB (Body-Focused Repetitive Behavior — warrants attention)
+│
+│ Schema compiled EXTREMELY DEEP + target = causes harm:
+│   Nail biting until BLEEDING (still continues)
+│   Hair pulling (trichotillomania) → bald patches
+│   Skin picking (excoriation disorder) → scarring
+│   Lip/inner cheek biting → sores
+│
+│ Reward loop: tension (change-readiness) → behavior → RELIEF
+│   Relief = EXTREMELY POWERFUL negative reinforcement
+│   + Possible: light endorphin from mild pain → additional reward
+│   → Schema compiles EVEN DEEPER → automatic → very hard to stop
+│
+│ Ego-dystonic BEGINS to emerge: "knows it's wrong but CAN'T STOP"
+│ → Close to OCD in SYMPTOMS (knows it's irrational + can't stop)
+│ → BUT: still NO obsession (intrusive thought)
+│ → = Gray zone between habit and OCD
+│ → DSM-5: classifies under OCD AND RELATED DISORDERS spectrum
+│
+│ 🟢 Prevalence: ~2-5% of population (Grant et al. 2012)
+│
+│ ⭐ Condition to ESCALATE:
 │   + Serotonin dysfunction (certainty bias ↓)
-│   + "Done" detector hardware lỗi (OFC-caudate)
-│   + Obsession xuất hiện (intrusive thought)
-│   = CẦN thêm yếu tố SINH HỌC — không thể "thói quen" mãi thành OCD
+│   + "Done" detector hardware broken (OFC-caudate)
+│   + Obsession appears (intrusive thought)
+│   = REQUIRES additional BIOLOGICAL factors — habit alone cannot become OCD
 │
 ▼
-BƯỚC 6 — OCD territory (BỆNH LÝ — cần treatment)
+STEP 6 — OCD territory (PATHOLOGICAL — requires treatment)
 
-  Hành vi lặp KÈM intrusive thought (obsession):
-    "Tay CHẮC CHẮN bẩn" → rửa → "chưa chắc" → rửa lại → ...
-  + Serotonin thấp → certainty bias giảm → threshold "done" CỰC CAO
-  + "Done" detector (OFC-caudate) lỗi → signal bẩn
-  + PFC override fail (threat priority > PFC)
-  → = Full OCD — không còn regulation, là compulsion thật sự
-  → Cần treatment: SSRIs + CBT (xem OCD-Analysis.md)
+  Repetitive behavior + intrusive thought (obsession):
+    "Hands are DEFINITELY dirty" → wash → "not sure" → wash again → ...
+  + Serotonin low → certainty bias decreased → "done" threshold EXTREMELY HIGH
+  + "Done" detector (OFC-caudate) broken → noisy signal
+  + PFC override fails (threat priority > PFC)
+  → = Full OCD — no longer regulation, truly compulsion
+  → Requires treatment: SSRIs + CBT (see OCD-Analysis.md)
 
-  🟢 Prevalence: ~2-3% dân số (WHO)
+  🟢 Prevalence: ~2-3% of population (WHO)
 ```
 
 ```
-⭐ NHÌN TOÀN CẢNH — CÂY QUYẾT ĐỊNH:
+⭐ FULL PICTURE — DECISION TREE:
 
-  CHANGE-READINESS (cortisol → "hành động đi!")
+  CHANGE-READINESS (cortisol → "act now!")
        │
-       ├── CÓ target → action → done ..................... BÌNH THƯỜNG
+       ├── HAS target → action → done ................... NORMAL
        │
-       └── KHÔNG target → tension
+       └── NO target → tension
               │
-              ├── Pure fidget → dừng khi ổn .............. BÌNH THƯỜNG
+              ├── Pure fidget → stops when settled ........ NORMAL
               │
-              ├── + micro-novelty → vui → compile nhẹ .... LÀNH TÍNH (có ích)
+              ├── + micro-novelty → enjoyable → shallow compile .. BENIGN (useful)
               │
-              ├── + lặp lại nhiều → habit compiled ........ THÓi QUEN (vô hại)
+              ├── + enough repetition → compiled habit ............. HABIT (harmless)
               │
-              ├── + harmful target + stress mãn → BFRB ... CẦN CHÚ Ý (DSM-5)
+              ├── + harmful target + chronic stress → BFRB ..... WARRANTS ATTENTION (DSM-5)
               │
-              └── + obsession + serotonin ↓ + hardware → OCD ... BỆNH LÝ
+              └── + obsession + serotonin ↓ + hardware → OCD ..... PATHOLOGY
 ```
 
 ```
-⭐ TẠI SAO KHÔNG PHẢI AI CŨNG LEO HẾT THANG:
+⭐ WHY NOT EVERYONE ESCALATES TO THE END:
 
-MỖI BƯỚC CẦN THÊM ĐIỀU KIỆN CỤ THỂ:
+EACH STEP REQUIRES ADDITIONAL SPECIFIC CONDITIONS:
 
 ┌─────────────┬──────────────────────────────┬────────────┬──────────┐
-│ Transition  │ Điều kiện CẦN                │ % dân số   │ Dễ/Khó   │
-│             │                              │ ở bước này │ xảy ra?  │
+│ Transition  │ Conditions REQUIRED           │ % of pop.  │ Easy/Hard│
+│             │                              │ at this    │ to occur?│
+│             │                              │ step       │          │
 ├─────────────┼──────────────────────────────┼────────────┼──────────┤
-│ 0→1 tension │ Cortisol ↑ + ko target       │ ~100%      │ RẤT DỄ  │
-│             │ (ai cũng gặp)               │ (hàng ngày)│          │
+│ 0→1 tension │ Cortisol ↑ + no target       │ ~100%      │ VERY EASY│
+│             │ (everyone encounters this)    │ (daily)    │          │
 ├─────────────┼──────────────────────────────┼────────────┼──────────┤
-│ 1→2 fidget  │ Motor output bất kỳ          │ ~100%      │ TỰ ĐỘNG │
-│             │ (automatic, ko cần ý thức)   │            │          │
+│ 1→2 fidget  │ Any motor output             │ ~100%      │ AUTOMATIC│
+│             │ (automatic, no consciousness │            │          │
+│             │ required)                    │            │          │
 ├─────────────┼──────────────────────────────┼────────────┼──────────┤
-│ 2→3 micro-  │ VTA detect novelty trong     │ ~70-80%    │ DỄ      │
-│ novelty     │ fidget output (vẽ, rhythm)   │            │ (drift   │
-│             │                              │            │ tự nhiên)│
+│ 2→3 micro-  │ VTA detects novelty in       │ ~70-80%    │ EASY     │
+│ novelty     │ fidget output (drawing,       │            │ (natural │
+│             │ rhythm)                       │            │ drift)   │
 ├─────────────┼──────────────────────────────┼────────────┼──────────┤
-│ 3→4 habit   │ Lặp lại đủ nhiều +          │ ~100% có   │ TRUNG    │
-│             │ reward đủ consistent         │ ≥1 habit   │ BÌNH     │
+│ 3→4 habit   │ Enough repetitions +         │ ~100% have │ MODERATE │
+│             │ sufficiently consistent       │ ≥1 habit   │          │
+│             │ reward                        │            │          │
 ├─────────────┼──────────────────────────────┼────────────┼──────────┤
-│ 4→5 BFRB    │ Target harmful + stress mãn  │ ~2-5%      │ KHÓ     │
-│             │ + PFC yếu + relief reward    │            │ (cần     │
-│             │ compile sâu                   │            │ combo)   │
+│ 4→5 BFRB   │ Harmful target + chronic     │ ~2-5%      │ HARD     │
+│             │ stress + weak PFC + relief    │            │ (requires│
+│             │ reward compiled deeply        │            │ combo)   │
 ├─────────────┼──────────────────────────────┼────────────┼──────────┤
-│ 5→6 OCD     │ + Serotonin dysfunction      │ ~2-3%      │ RẤT KHÓ │
-│             │ + "Done" detector hardware    │            │ (cần     │
-│             │ + Obsession (intrusive think) │            │ sinh học)│
+│ 5→6 OCD    │ + Serotonin dysfunction      │ ~2-3%      │ VERY HARD│
+│             │ + "Done" detector hardware   │            │ (requires│
+│             │ + Obsession (intrusive think)│            │ biology) │
 └─────────────┴──────────────────────────────┴────────────┴──────────┘
 
-QUAN TRỌNG:
-  → KHÔNG PHẢI cứ fidget nhiều → sẽ thành OCD
-     (cần thêm yếu tố SINH HỌC ở bước 5→6 mà ý chí không tạo ra)
-  → NHƯNG: CÓ đường nối liên tục → DSM-5 thấy đường nối này
-     → xếp BFRB vào "OCD and Related Disorders"
-  → = 1 spectrum, KHÔNG PHẢI ranh giới cứng
-  → = Mỗi người DỪNG ở bước khác nhau tùy:
+IMPORTANT:
+  → DOES NOT mean fidgeting a lot → will become OCD
+     (requires additional BIOLOGICAL factors at step 5→6 that willpower cannot create)
+  → BUT: THERE IS a continuous connecting path → DSM-5 sees this connection
+     → classifies BFRB under "OCD and Related Disorders"
+  → = 1 spectrum, NOT hard boundaries
+  → = Each person STOPS at a different step depending on:
      genetics (serotonin baseline, OFC-caudate wiring)
      + environment (stress level, sleep, PFC capacity)
-     + target (cắn móng vs cắn da: vô hại vs harmful)
+     + target (nail biting vs skin biting: harmless vs harmful)
      + repetition (compile depth)
 ```
 
 ```
-🟡 PREDICTION MỚI TỪ TRAJECTORY:
+🟡 NEW PREDICTIONS FROM THE TRAJECTORY:
 
-  ① BFRB patients CÓ THỂ có cortisol baseline cao hơn trung bình
-     (vì gốc = change-readiness mãn tính → fidget → compile sâu → BFRB)
-     → Testable: đo cortisol baseline ở BFRB vs control
+  ① BFRB patients MAY have higher cortisol baseline than average
+     (since root = chronic change-readiness → fidget → deep compile → BFRB)
+     → Testable: measure cortisol baseline in BFRB vs control
 
-  ② Giảm stress mãn tính → CÓ THỂ giảm BFRB severity
-     (vì change-readiness ↓ → trigger ↓ → loop fire ÍT hơn)
-     → Consistent với observation: BFRB waxing-waning theo stress
+  ② Reducing chronic stress → MAY reduce BFRB severity
+     (because change-readiness ↓ → trigger ↓ → loop fires LESS often)
+     → Consistent with observation: BFRB waxing-waning with stress
 
-  ③ Exercise CÓ THỂ giúp BFRB
-     (vì exercise = scheduled motor discharge → change-readiness thỏa mãn
-      → ít trigger fidget → ít cơ hội loop fire → giảm dần)
-     → 🟡 Chưa có RCT cụ thể cho exercise × BFRB
+  ③ Exercise MAY help BFRB
+     (because exercise = scheduled discharge → change-readiness satisfied
+      → fewer fidget triggers → fewer opportunities for loop to fire → gradually decreases)
+     → 🟡 No specific RCT for exercise × BFRB yet
 
-  ④ Redirect sang non-harmful fidget CÓ THỂ giúp BFRB
-     ("Thay vì cạy da → bóp stress ball" = cùng thỏa mãn change-readiness
-      + cùng proprioceptive relief → nhưng ko harmful)
-     → = Competing response training trong HRT (Habit Reversal Training)
-     → 🟢 HRT = evidence-based treatment cho BFRB (Azrin & Nunn 1973)
-     → = Framework GIẢI THÍCH tại sao HRT hoạt động:
-         redirect CÙNG change-readiness sang output KHÁC, ko harmful
+  ④ Redirecting to non-harmful fidgeting MAY help BFRB
+     ("Instead of skin picking → squeeze a stress ball" = same change-readiness satisfied
+      + same proprioceptive relief → but NOT harmful)
+     → = Competing response training in HRT (Habit Reversal Training)
+     → 🟢 HRT = evidence-based treatment for BFRB (Azrin & Nunn 1973)
+     → = Framework EXPLAINS why HRT works:
+         redirect THE SAME change-readiness to a DIFFERENT, non-harmful output
 ```
 
 ---
@@ -1012,265 +1019,230 @@ QUAN TRỌNG:
 ## 12. Research Evidence Hub {#12-evidence}
 
 ```
-🟢 EVIDENCE VỮNG (replicated, meta-analysis, hoặc established):
+🟢 STRONG EVIDENCE (replicated, meta-analysis, or established):
 
   Arousal regulation:
-  → Yerkes-Dodson Law (1908): performance tối ưu ở arousal trung bình
+  → Yerkes-Dodson Law (1908): optimal performance at intermediate arousal
   → Thayer & Lane (2000): rhythmic movement → cortisol reduction
-  → Ayres (1972): proprioceptive input = calming cho nervous system
+  → Ayres (1972): proprioceptive input = calming for the nervous system
 
   Fidgeting + cognition:
-  → Andrade (2010): doodling → memory recall +29% trong boring task
-  → Hartanto et al. (2016): ADHD fidgeting → working memory IMPROVE
+  → Andrade (2010): doodling → memory recall +29% in a boring task
+  → Hartanto et al. (2016): ADHD fidgeting → working memory IMPROVES
   → Rapport et al. (2009): ADHD motor activity = compensatory mechanism
-  → Farley et al. (2013): stress ball → attention + learning TĂNG
+  → Farley et al. (2013): stress ball → attention + learning INCREASE
 
   Exercise + regulation:
-  → Kline (2014): regular exercise → giảm restlessness + fidgeting
-  → Craft & Perna (2004): exercise → cortisol baseline giảm
-  → Blumenthal et al. (1999): aerobic exercise ≈ SSRIs cho anxiety
+  → Kline (2014): regular exercise → decreases restlessness + fidgeting
+  → Craft & Perna (2004): exercise → cortisol baseline decreases
+  → Blumenthal et al. (1999): aerobic exercise ≈ SSRIs for anxiety
   → Ratey (2008): exercise → BDNF ↑ → brain function ↑
 
   Neuroscience:
-  → Schultz et al. (1997): VTA dopamine neurons fire khi prediction error
-  → Levine et al. (2005): NEAT — fidgeting = 300-800 kcal/ngày khác biệt
+  → Schultz et al. (1997): VTA dopamine neurons fire on prediction error
+  → Levine et al. (2005): NEAT — fidgeting = 300-800 kcal/day variation
   → Arnsten (2009): stress → PFC impaired
 
   BFRB:
   → DSM-5: trichotillomania + excoriation → classified under OCD spectrum
   → Grant et al. (2012): BFRB prevalence ~2-5%
 
-🟡 SUY LUẬN CÓ CƠ SỞ (framework synthesis, chưa direct test):
+🟡 GROUNDED INFERENCE (framework synthesis, not yet directly tested):
 
-  → 3 tầng fidgeting (brainstem → VTA → micro-novelty) = framework model
-  → VTA discriminator giải thích WHY rung đùi ≠ vẽ bừa về reward
+  → 3-layer fidgeting model (brainstem → VTA → micro-novelty) = framework model
+  → VTA discriminator explains WHY leg bouncing ≠ doodling in reward profile
   → Micro-novelty spectrum (pure fidget → creative fidget) = framework
-  → Fidgeting drift sang novelty theo thời gian = observation + logic
-  → "Ngồi yên" = active suppress = PFC cost → framework logic + supported
-    gián tiếp bởi Hartanto, Andrade, Farley
+  → Fidgeting drift toward novelty over time = observation + logic
+  → "Sitting still" = active suppression = PFC cost → framework logic + indirectly
+    supported by Hartanto, Andrade, Farley
 
-🔴 GIẢ THUYẾT MỚI (framework prediction, chưa test):
+🔴 NEW HYPOTHESES (framework predictions, not yet tested):
 
   → Modality-specific fidgeting: somatic→physical, verbal→mental, visual→doodle
-  → Verbal "mental fidget" khó tắt hơn + rumination risk
-  → Exercise need khác nhau theo modality
+  → Verbal "mental fidgeting" harder to switch off + rumination risk
+  → Exercise need differs by modality
   → Programmer performance × exercise × fidget interaction
   → Rhythmic fidgeting → neural oscillation anchoring
 ```
 
 ---
 
-## 13. Honest Assessment {#13-honest}
+## 13. Honest Assessment {#13-assessment}
 
 ```
-CÁI CHẮC CHẮN:
-  ✅ Fidgeting = arousal regulation — established qua nhiều research lines
-  ✅ Fidgeting improve attention trong boring/stressful tasks — RCTs
-  ✅ ADHD fidgeting = compensatory, không phải problem — Rapport, Hartanto
-  ✅ Exercise → giảm fidgeting need + giảm anxiety — meta-analyses
+WHAT IS ESTABLISHED:
+  ✅ Fidgeting = arousal regulation — established across multiple research lines
+  ✅ Fidgeting improves attention in boring/stressful tasks — RCTs
+  ✅ ADHD fidgeting = compensatory, not a problem — Rapport, Hartanto
+  ✅ Exercise → reduces fidgeting need + reduces anxiety — meta-analyses
   ✅ Doodling → +29% recall — Andrade 2010
   ✅ Proprioceptive input = calming — sensory integration theory (Ayres)
   ✅ VTA = prediction error detector — Schultz 1997
-  ✅ Fidgeting ≠ OCD — established (khác mechanism hoàn toàn)
+  ✅ Fidgeting ≠ OCD — established (completely different mechanisms)
   ✅ NEAT: fidgeting level = biological variation — Levine 2005
-  ✅ BFRB = khi fidgeting vượt ngưỡng → DSM-5 OCD spectrum
-  ✅ HRT (Habit Reversal Training) effective cho BFRB — Azrin & Nunn 1973
+  ✅ BFRB = when fidgeting crosses threshold → DSM-5 OCD spectrum
+  ✅ HRT (Habit Reversal Training) effective for BFRB — Azrin & Nunn 1973
   ✅ Cortisol → motor readiness → primed state — established neuroscience
-  ✅ Stress ball → attention + learning tăng — Farley 2013
+  ✅ Stress ball → attention + learning increase — Farley 2013
 
-CÁI HYPOTHESIS (framework contribution):
-  🟡 Change-readiness = GỐC của fidgeting (không chỉ "arousal regulation"):
-     Cortisol signal cụ thể "hành động để change" → khi block → fidget
-     → Deeper explanation hơn "arousal regulation" chung chung
-     → Consistent với: cortisol ↑ → fidget ↑, exercise (discharge) → fidget ↓
-     → NHƯNG: "change-readiness" as specific mechanism = framework model
-  🟡 3 tầng model (brainstem → motor-VTA → micro-novelty):
-     Mỗi tầng CÓ evidence riêng, nhưng model 3 TẦNG = framework tổng hợp
-  🟡 VTA discriminator: giải thích WHY vẽ bừa vui mà rung đùi không
-     → Logic từ Schultz prediction error, specific application = mới
-  🟡 Trajectory liên tục (fidget → habit → BFRB → OCD):
-     = Framework insight — DSM-5 đã xếp BFRB vào OCD spectrum (partial confirm)
-     HRT hoạt động = redirect cùng change-readiness (consistent với trajectory)
-     NHƯNG: trajectory as CONTINUOUS PATH = model mới, chưa formal test
-  🟡 Pure→micro-novelty spectrum + drift:
-     Observation-based, consistent với VTA habituation, chưa formal study
-  🟡 "Ngồi yên" = PFC cost khi arousal cao:
-     Supported gián tiếp (fidget → improve performance = ngồi yên → worse)
-     Nhưng: "PFC suppress cost" as specific mechanism = chưa đo trực tiếp
-  🟡 Beach test = quick screen fidgeting vs OCD:
-     Logic mạnh, clinically useful, nhưng chưa validated as diagnostic tool
-  🟡 OCD 3-tuyến sync: fidgeting = cả 3 tuyến dừng BÌNH THƯỜNG:
+WHAT IS HYPOTHESIS (framework contribution):
+  🟡 Change-readiness = ROOT of fidgeting (not just "arousal regulation"):
+     Specific cortisol signal "act to change" → when blocked → fidget
+     → Deeper explanation than generic "arousal regulation"
+     → Consistent with: cortisol ↑ → fidget ↑, exercise (discharge) → fidget ↓
+     → BUT: "change-readiness" as specific mechanism = framework model
+  🟡 3-layer model (brainstem → motor-VTA → micro-novelty):
+     Each layer HAS its own evidence, but the 3-LAYER MODEL = framework synthesis
+  🟡 VTA discriminator: explains WHY doodling is enjoyable but leg bouncing is not
+     → Logic from Schultz prediction error, specific application = new
+  🟡 Continuous trajectory (fidget → habit → BFRB → OCD):
+     = Framework insight — DSM-5 already classifies BFRB under OCD spectrum (partial confirm)
+     HRT works = redirecting same change-readiness (consistent with trajectory)
+     BUT: trajectory as CONTINUOUS PATH = new model, not yet formally tested
+  🟡 Pure → micro-novelty spectrum + drift:
+     Observation-based, consistent with VTA habituation, no formal study yet
+  🟡 "Sitting still" = PFC cost when arousal is high:
+     Indirectly supported (fidget → improves performance = sitting still → worse)
+     But: "PFC suppression cost" as specific mechanism = not yet directly measured
+  🟡 Beach test = quick screen for fidgeting vs OCD:
+     Strong logic, clinically useful, not yet validated as a formal diagnostic tool
+  🟡 OCD 3-circuit sync: fidgeting = all 3 stopping circuits NORMAL:
      Combined insight OCD v2.1 + Fidgeting Analysis → consistent
-     → NHƯNG: combined model chưa trực tiếp test
+     → BUT: combined model not yet directly tested
   🟡 Evaluative/Direct-State mapping: fidgeting calming = Direct-State reward:
-     Consistent với Reward-Signal-Architecture v1.0 profile (fast, hardware, non-opioid)
-     → NHƯNG: specific mapping = framework inference, chưa direct measurement
+     Consistent with Reward-Signal-Architecture v1.0 profile (fast, hardware, non-opioid)
+     → BUT: specific mapping = framework inference, not yet directly measured
 
-  🔴 GIẢ THUYẾT MỚI (testable predictions):
+  🔴 NEW HYPOTHESES (testable predictions):
   → Modality-specific fidgeting: somatic→physical, verbal→mental, visual→doodle
-  → Verbal "mental fidget" = hidden attention loss (trông tập trung nhưng ko)
-  → Exercise need khác nhau theo modality
-  → BFRB patients có cortisol baseline cao hơn trung bình
-  → Exercise giúp giảm BFRB severity (chưa có RCT)
+  → Verbal "mental fidgeting" = hidden attention loss (looks focused but isn't)
+  → Exercise need differs by modality
+  → BFRB patients have higher cortisol baseline than average
+  → Exercise reduces BFRB severity (no RCT yet)
 
-CÁI CHƯA BIẾT:
-  ❌ Fidgeting theo modality = hoàn toàn chưa research
-  ❌ Exercise × modality × fidgeting interaction = chưa đo
-  ❌ "Mental fidget" (verbal-dominant) = measurable bằng gì?
-  ❌ Rhythmic fidget → neural oscillation anchoring = mechanism rõ chưa?
+WHAT IS UNKNOWN:
+  ❌ Fidgeting by modality = completely unresearched
+  ❌ Exercise × modality × fidgeting interaction = not yet measured
+  ❌ "Mental fidgeting" (verbal-dominant) = measurable by what instrument?
+  ❌ Rhythmic fidget → neural oscillation anchoring = mechanism fully clear?
   ❌ BFRB transition: exact trigger? prevention window?
-  ❌ Optimal fidget strategy per person = chưa có
+  ❌ Optimal fidget strategy per individual = not yet established
   ❌ Change-readiness vs arousal regulation: distinguishable experimentally?
-  ❌ Trajectory bước 4→5: TẠI SAO một số habit → BFRB mà đa số thì không?
+  ❌ Trajectory step 4→5: WHY do some habits → BFRB while most don't?
 ```
 
 ---
 
-## 14. Câu Hỏi Mở {#14-câu-hỏi}
+## 14. Open Questions {#14-questions}
 
 ```
 FDG-1: Modality × fidget type → testable?
    → Survey: dominant processing style + preferred fidget type
    → Prediction: somatic → physical, verbal → mental, visual → doodle
-   → Sample: lập trình viên, nhà văn, vận động viên, designer
+   → Sample: programmers, writers, athletes, designers
    → = Low-cost study, high framework value
 
-FDG-2: "Mental fidget" (verbal-dominant) = đo được?
-   → Thought loops khi bored = verbal equivalent của rung đùi?
-   → Đo bằng: EEG alpha disruption? pupilometry? self-report?
-   → NẾU đo được: compare focus THẬT vs "trông tập trung nhưng đang mental fidget"
-   → = Có thể reveal hidden attention loss ở verbal-dominant
+FDG-2: "Mental fidgeting" (verbal-dominant) = measurable?
+   → Thought loops when bored = verbal equivalent of leg bouncing?
+   → Measure via: EEG alpha disruption? pupilometry? self-report?
+   → IF measurable: compare real focus vs "looks focused but mentally fidgeting"
+   → = Could reveal hidden attention loss in verbal-dominant people
 
 FDG-3: Exercise frequency × meeting attention × fidget intensity?
-   → Actigraphy (đo movement) trong meetings
+   → Actigraphy (movement measurement) during meetings
    → Log: exercise frequency + type + modality
-   → Measure: attention (recall test sau meeting)
-   → Prediction: exercise đều → less fidget → OR same fidget but less intense
-     → better attention cả hai trường hợp
+   → Measure: attention (recall test after meeting)
+   → Prediction: regular exercise → less fidget → OR same fidget but less intense
+     → better attention in both cases
 
-FDG-4: Fidgeting → BFRB transition — trigger cụ thể?
-   → Khi nào cắn móng tay bình thường → cắn tới chảy máu?
-   → Hypothesis: stress mãn tính + reward loop compile SÂU
-   → Có prevention window? Có early indicator?
-   → = Clinical value nếu có thể predict + prevent
+FDG-4: Fidgeting → BFRB transition — specific trigger?
+   → When does normal nail biting → biting until bleeding?
+   → Hypothesis: chronic stress + reward loop compiled DEEPLY
+   → Is there a prevention window? Early indicator?
+   → = Clinical value if predictable and preventable
 
 FDG-5: Optimal fidget tool per context?
    → Meeting: stress ball vs doodle pad vs fidget cube?
-   → Classroom: which tool cho which student type?
-   → Office: standing desk vs fidget → which cho which modality?
+   → Classroom: which tool for which student type?
+   → Office: standing desk vs fidget tool → which for which modality?
    → = Applied research → product design + workspace optimization
 
-FDG-6: Verbal-dominant rumination risk — fidget channel redirect?
-   → Nếu verbal fidget → rumination risk:
-   → Có thể REDIRECT sang physical fidget → giảm rumination?
-   → = "Bắt người hay suy nghĩ vòng tròn → bóp stress ball thay vì nghĩ"
-   → = Potential therapeutic intervention cho anxiety/overthinking
+FDG-6: Verbal-dominant rumination risk — fidget channel redirection?
+   → If verbal fidgeting → rumination risk:
+   → Can it be REDIRECTED to physical fidgeting → reduces rumination?
+   → = "Make overthinkers squeeze a stress ball instead of spiraling in thought"
+   → = Potential therapeutic intervention for anxiety/overthinking
 
 FDG-7: Weighted blanket × proprioceptive calming — dose-response?
-   → Weighted blanket = toàn thân proprioceptive
-   → Stress ball = tay proprioceptive
-   → Rung đùi = đùi proprioceptive
-   → Liệu "lượng" proprioceptive input có proportional với calming effect?
+   → Weighted blanket = whole-body proprioceptive input
+   → Stress ball = hand proprioceptive input
+   → Leg bouncing = leg proprioceptive input
+   → Is the "amount" of proprioceptive input proportional to calming effect?
    → = Precision fidgeting recommendation
 
-FDG-8: Trajectory prediction — BFRB patients có cortisol baseline cao hơn?
-   → Nếu gốc = change-readiness mãn tính → fidget compile sâu → BFRB
-   → Prediction: cortisol baseline CAO hơn control group
+FDG-8: Trajectory prediction — do BFRB patients have higher cortisol baseline?
+   → If root = chronic change-readiness → fidget compiles deeply → BFRB
+   → Prediction: cortisol baseline HIGHER than control group
    → Testable: salivary cortisol measurement + BFRB diagnosis
-   → Nếu confirmed: → support change-readiness as root mechanism
+   → If confirmed: → supports change-readiness as root mechanism
 
 FDG-9: Exercise as BFRB intervention — RCT needed?
-   → Logic: exercise = scheduled discharge → change-readiness thỏa mãn
-   → → Ít trigger fidget → ít cơ hội BFRB loop fire → giảm severity
-   → HRT đã proven → exercise + HRT combo tốt hơn HRT alone?
+   → Logic: exercise = scheduled discharge → change-readiness satisfied
+   → → Fewer fidget triggers → fewer BFRB loop firings → reduces severity
+   → HRT already proven → exercise + HRT combo better than HRT alone?
    → = Clinical trial potential
 
 FDG-10: Change-readiness vs arousal — distinguishable?
-   → Framework nói: fidgeting = change-readiness (specific), không chỉ arousal (general)
-   → Test: tạo high arousal NHƯNG WITH target (exciting game)
-     vs high arousal WITHOUT target (boring waiting room)
-   → Prediction: same arousal level nhưng CHỈ no-target → fidget
-   → Nếu confirmed: → change-readiness ≠ arousal, cần target component
+   → Framework says: fidgeting = change-readiness (specific), not just arousal (general)
+   → Test: create high arousal WITH a target (exciting game)
+     vs high arousal WITHOUT a target (boring waiting room)
+   → Prediction: same arousal level but ONLY no-target → fidgeting
+   → If confirmed: → change-readiness ≠ arousal, target component is required
 ```
 
 ---
 
-## 15. Kết Nối {#15-kết-nối}
+## 15. Connections {#15-connections}
 
 ```
 → Cortisol-Baseline.md v2.0 ⭐ (CORE CONNECTION):
-    Fidgeting = output tự nhiên của change-readiness khi bị block
-    Change-readiness (cortisol = amplifier) = GỐC → fidget = thỏa mãn ở mức tối thiểu
+    Fidgeting = natural output of change-readiness when blocked
+    Change-readiness (cortisol = amplifier) = ROOT → fidget = satisfaction at minimum cost
     Exercise = scheduled discharge → cortisol baseline ↓ → fidget need ↓
     Chronic stress → chronic change-readiness → chronic fidget → BFRB risk
 
 → OCD-Analysis.md v2.1:
-    Fidgeting vs OCD = cùng "lặp lại" nhưng khác HOÀN TOÀN cơ chế
-    3-tuyến model: fidgeting = cả 3 tuyến BÌNH THƯỜNG (OCD = tuyến 1+2 hỏng)
-    Serotonin = amplifier, not cause (PANDAS proof: sửa hardware → OCD hết)
-    BFRB: vùng xám — trajectory §11 nối fidget → OCD spectrum
-    DSM-5 xếp BFRB vào OCD spectrum = confirm đường nối tồn tại
+    Fidgeting vs OCD = both "repetitive" but COMPLETELY DIFFERENT mechanisms
+    3-circuit model: fidgeting = all 3 circuits NORMAL (OCD = circuits 1+2 broken)
+    Serotonin = amplifier, not cause (PANDAS proof: fix hardware → OCD resolves)
+    BFRB: gray zone — trajectory §11 connects fidget → OCD spectrum
+    DSM-5 classifying BFRB under OCD spectrum = confirms the connecting path exists
 
 → Observation/Novelty.md v1.0:
-    Micro-novelty fidget (vẽ bừa, pen tricks) = novelty loop ở MINIMUM scale
+    Micro-novelty fidgeting (doodling, pen tricks) = novelty loop at MINIMUM scale
     Spectrum: pure fidget → micro-novelty → full novelty loop
     VTA discriminator: same mechanism (prediction-delta), different scale
-    Drift sang phải = VTA habituation → seek more novelty → same drive
+    Drift rightward = VTA habituation → seeks more novelty → same drive
 
 → Observation/Boredom.md v1.0:
-    Boredom 2-chiều (dissonance + Imagine-Final clarity)
-    Fidgeting = response to motor channel không được thỏa mãn
-    Change-readiness khi bored = fidget trigger cơ bản nhất
+    Boredom is two-directional (dissonance + Imagine-Final clarity)
+    Fidgeting = response when the motor channel is not being satisfied
+    Change-readiness when bored = the most basic fidget trigger
 
 → Body-Feedback-Mechanism.md v1.2 + Reward-Signal-Architecture.md v1.0:
     Fidgeting calming = Direct-State reward (direct body-state, non-opioid)
-    Tầng 1 proprioceptive = Sensory-Driven input (Body-Feedback)
-    Evaluative reward (opioid) KHÔNG involved ở fidgeting bình thường
+    Layer 1 proprioceptive = Sensory-Driven input (Body-Feedback)
+    Evaluative reward (opioid) NOT involved in normal fidgeting
 
-→ Schema operations (Compile-Taxonomy v1.1):
-    Fidget schema = compiled motor pattern (rung đùi, bấm bút)
-    Trajectory §11: compile depth quyết định bước nào (fidget→habit→BFRB)
-    Compiled từ nhỏ: baby rocking, thumb-sucking = proto-fidget
-    HRT (redirect) hoạt động VÌ: redirect cùng change-readiness sang schema khác
+→ Compile Architecture (Compile-Taxonomy v1.1):
+    Fidget schema = compiled motor pattern (leg bouncing, pen clicking)
+    Trajectory §11: compile depth determines the step reached (fidget→habit→BFRB)
+    Compiled from early childhood: baby rocking, thumb-sucking = proto-fidget
+    HRT (redirect) works BECAUSE: it redirects the same change-readiness to a different schema
 
-→ PFC/PFC-Configuration.md v1.0:
-    "Ngồi yên" khi stress = PFC suppress motor = TỐN bandwidth
-    Fidget = GIẢI PHÓNG PFC → attention IMPROVE
-    PFC Mode ① Normal = fidget self-regulates
-    PFC capacity × fidget need = interaction quan trọng
-
-→ PFC/Attention-Spectrum.md (DRD4/ADHD):
-    ADHD/DRD4-7R: dopamine baseline thấp → fidget = COMPENSATORY
-    Fidgeting ở ADHD = self-medication (dopamine boost via movement)
-    Bắt trẻ ADHD ngồi yên = COUNTER-PRODUCTIVE
-
-→ Modality.md:
-    Modality-specific fidgeting = new prediction (🔴)
-    Somatic→physical, Verbal→mental, Visual→visual fidget
-    Verbal mental fidget → rumination risk (unique to verbal-dominant)
-
-→ Core-Software.md v1.0:
-    7-step cycle: fidgeting = Step ①→④ feedback loop tự điều chỉnh
-    Change-readiness satisfied → chunk deactivate → fidget tự dừng
-    = Satisfaction signal HOẠT ĐỘNG BÌNH THƯỜNG (contrast OCD)
-
-→ Hijack/Addiction-Analysis.md v3.0:
-    BFRB reward loop (relief = negative reinforcement) ≈ hijack mechanism
-    Trajectory bước 4→5: habit → BFRB = giống habit → addiction pathway
-    Direct-State reward hijack: proprioceptive relief compile sâu → BFRB
+→ PFC-Configuration.md v1.0:
+    "Sitting still" when stressed = PFC suppressing motor output = COSTS bandwidth
+    Fidgeting = FREES PFC → attention IMPROVES
+    PFC Config ① Normal = fidgeting self-regulates
+    PFC capacity × fidget need = an important interaction
 ```
-
----
-
-> *Fidgeting = output tự nhiên của change-readiness system khi bị block.
-> Gốc: cortisol nói "hành động để thay đổi" → không có target → motor tìm output bất kỳ
-> → thỏa mãn change-readiness ở mức tối thiểu ("lừa" brainstem rằng đang xử lý).
-> Hoạt động ở 3 tầng: brainstem calming, VTA-motor management (PFC giải phóng),
-> và micro-novelty reward (khi drift sang creative fidget — vẽ bừa VUI vì VTA fire).
-> "Ngồi yên" khi stress = KHÔNG miễn phí — PFC phải suppress motor = tốn bandwidth.
-> Fidgeting nằm trên 1 TRAJECTORY LIÊN TỤC: change-readiness → fidget → habit → BFRB → OCD.
-> Mỗi bước = thêm 1 điều kiện (reward, compile depth, harmful target, serotonin).
-> KHÔNG PHẢI cứ fidget nhiều → thành OCD (cần thêm yếu tố sinh học).
-> NHƯNG đường nối tồn tại — DSM-5 xếp BFRB vào OCD spectrum vì thấy đường nối này.
-> Beach test: fidgeting DỪNG khi thư giãn (change-readiness ổn), OCD thì KHÔNG (hardware lỗi).
-> Framework predict: fidgeting TYPE khác theo modality — research gap lớn, testable.*

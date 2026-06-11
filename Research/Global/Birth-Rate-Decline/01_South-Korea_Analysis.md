@@ -1,778 +1,789 @@
-# 🇰🇷 Hàn Quốc — TFR Thấp Nhất Thế Giới: Tại Sao?
+---
+title: "South Korea — World's Lowest TFR: Why?"
+version: DRAFT (English translation)
+source: Research/Global/Birth-Rate-Decline/01_South-Korea_Analysis.md
+translated: 2026-06-09
+framework: Human Predictive Drive v7.8
+---
 
-> **Hàn Quốc KHÔNG ĐƠN GIẢN là "sinh ít".**
-> **Hàn Quốc là CASE STUDY cho thấy khi TẤT CẢ 5 trục bị phá ĐỒNG THỜI,
-> body signal CỰC MẠNH: "KHÔNG ĐỦ ĐIỀU KIỆN cho thế hệ sau".**
+# 🇰🇷 South Korea — World's Lowest TFR: Why?
+
+> **South Korea is NOT simply "having fewer babies."**
+> **South Korea is a CASE STUDY showing what happens when ALL 5 axes break SIMULTANEOUSLY,**
+> **and the body signal becomes EXTREME: "CONDITIONS ARE NOT SUFFICIENT for the next generation."**
 >
-> $270 tỷ USD chi trong 19 năm → TFR VẪN giảm từ 1.13 → 0.72.
-> Tiền KHÔNG fix được khi gốc là: repair phá + connection thiếu
-> + schemas "khổ" compiled + competing Imagine-Finals quá mạnh.
+> $270 billion USD spent over 19 years → TFR STILL fell from 1.13 → 0.72.
+> Money CANNOT fix a root that is: broken repair + lacking connection
+> + compiled "suffering" schemas + competing Imagine-Finals that are simply too strong.
 
 ---
 
-> **Trạng thái:** DRAFT — framework analysis + validated data
-> **Ngày:** 2026-03-31
-> **Mục đích:** Phân tích chuyên sâu Hàn Quốc qua 5 trục framework.
-> Tại sao TFR THẤP NHẤT thế giới? Trục nào DOMINANT? Vòng xoáy nào tự tăng cường?
-> **Reference:** 00_Overview.md (5 trục tổng thể),
+> **Status:** DRAFT — framework analysis + validated data
+> **Date:** 2026-03-31
+> **Purpose:** In-depth analysis of South Korea through the framework's 5 axes.
+> Why is TFR the LOWEST in the world? Which axis is DOMINANT? Which downward spiral is self-reinforcing?
+> **Reference:** 00_Overview.md (5 axes overall),
 > Cortisol-Baseline.md §3 + §10.5 (repair cycle, misconception),
-> Imagine-Final.md §1 (2 tầng, PFC reactive, competing Imagine-Finals),
+> Imagine-Final.md §1 (2 layers, PFC reactive, competing Imagine-Finals),
 > Connection.md v3.1 §12 (Connection × Imagine-Final),
 > Conflict-Dynamics.md §7 (scarcity = engine),
-> Education-Mechanism.md §3.1 (bridge = nguồn ④ External Inject)
-> **⚠️ Data thực + framework interpretation — PHÂN BIỆT RÕ 🟢/🟡/🔴**
-> **Quy ước:** 🟢 Research/data support | 🟡 Suy luận từ framework | 🔴 Hypothesis
+> Education-Mechanism.md §3.1 (bridge = source ④ External Inject)
+> **⚠️ Real data + framework interpretation — DISTINGUISH CLEARLY 🟢/🟡/🔴**
+> **Convention:** 🟢 Research/data support | 🟡 Reasoning from framework | 🔴 Hypothesis
 
 ---
 
-## Mục Lục
+## Table of Contents
 
 ```
-  §1   DATA TỔNG QUAN — Timeline + Key Stats
-  §2   5 TRỤC ÁP DỤNG — Hàn cụ thể từng trục
-  §3   VÒNG XOÁY TỰ TĂNG CƯỜNG — Các trục feed nhau
+  §1   OVERVIEW DATA — Timeline + Key Stats
+  §2   5 AXES APPLIED — Korea-specific across each axis
+  §3   SELF-REINFORCING DOWNWARD SPIRAL — how the axes feed each other
   §4   "HELL JOSEON" = DOMAIN FEEDBACK
-  §5   GIỚI TÍNH — Conflict Qua Framework Lens
-  §6   THẾ HỆ — Sampo → N-po = Imagine-Final Collapse
-  §7   CHÍNH SÁCH — Tại Sao $270 Tỷ Thất Bại
-  §8   TẠI SAO THẤP NHẤT THẾ GIỚI — So Sánh Nhật/TQ
+  §5   GENDER — Conflict Through the Framework Lens
+  §6   GENERATIONS — Sampo → N-po = Imagine-Final Collapse
+  §7   POLICY — Why $270 Billion Failed
+  §8   WHY THE LOWEST IN THE WORLD — Comparison with Japan/China
   §9   HONEST ASSESSMENT
-  §10  CÂU HỎI MỞ
-  §11  KẾT NỐI VỚI CÁC FILE KHÁC
+  §10  OPEN QUESTIONS
+  §11  CONNECTIONS WITH OTHER FILES
 ```
 
 ---
 
-## 1. Data Tổng Quan
+## §1. Overview Data
 
 ```
-🟢 TIMELINE — TỪ 6.16 → 0.72 TRONG 63 NĂM:
+🟢 TIMELINE — FROM 6.16 → 0.72 IN 63 YEARS:
 
-  ┌────────┬───────┬────────────────────────────────────────────────┐
-  │ Năm    │ TFR   │ Sự kiện                                        │
-  ├────────┼───────┼────────────────────────────────────────────────┤
-  │ 1960   │ 6.16  │ Post-war baby boom                             │
-  │ 1962   │ 5.79  │ Chính phủ KHUYẾN KHÍCH giảm sinh               │
-  │        │       │ ("Ít con, nuôi cho tốt")                       │
-  │ 1970   │ 4.53  │ Campaign aggressive → giảm nhanh               │
-  │ 1983   │ 2.06  │ DƯỚI replacement rate (2.1) LẦN ĐẦU           │
-  │ 1984   │ 1.74  │ Sụt 1 năm — inertia từ policy                 │
-  │ 1996   │ 1.57  │ Chính phủ DỪNG anti-natalist policy            │
-  │ 2001   │ 1.31  │ "Lowest-low fertility" (<1.3)                  │
-  │ 2005   │ 1.09  │ Lập Ủy ban Birth Rate → bắt đầu chi tiền      │
-  │ 2018   │ 0.98  │ DƯỚI 1.0 lần đầu tiên (DUY NHẤT trong OECD)  │
-  │ 2023   │ 0.72  │ THẤP NHẤT lịch sử thế giới thời bình          │
-  │ 2024   │ 0.75  │ Tăng nhẹ lần đầu sau 9 năm (cohort effect)   │
-  └────────┴───────┴────────────────────────────────────────────────┘
+  ┌────────┬───────┬──────────────────────────────────────────────────────┐
+  │ Year   │ TFR   │ Event                                                │
+  ├────────┼───────┼──────────────────────────────────────────────────────┤
+  │ 1960   │ 6.16  │ Post-war baby boom                                   │
+  │ 1962   │ 5.79  │ Government ENCOURAGES lower birth rates              │
+  │        │       │ ("Fewer children, raise them well")                  │
+  │ 1970   │ 4.53  │ Aggressive campaign → rapid decline                  │
+  │ 1983   │ 2.06  │ BELOW replacement rate (2.1) FOR FIRST TIME          │
+  │ 1984   │ 1.74  │ Sharp drop — inertia from policy                     │
+  │ 1996   │ 1.57  │ Government STOPS anti-natalist policy                │
+  │ 2001   │ 1.31  │ "Lowest-low fertility" (<1.3)                        │
+  │ 2005   │ 1.09  │ Birth Rate Committee formed → money spending begins  │
+  │ 2018   │ 0.98  │ BELOW 1.0 for first time ever (UNIQUE in OECD)      │
+  │ 2023   │ 0.72  │ LOWEST in recorded world history during peacetime    │
+  │ 2024   │ 0.75  │ First slight uptick in 9 years (cohort effect)       │
+  └────────┴───────┴──────────────────────────────────────────────────────┘
 
-  Mấu chốt:
-    → 1962-1996: chính phủ ÉP giảm sinh → schemas "ít con = tốt" COMPILED
-    → 1996 trở đi: đảo ngược policy NHƯNG schemas ĐÃ compiled → quá muộn
-    → 2006-2025: chi $270 tỷ → TFR VẪN giảm từ 1.13 → 0.72
-    → = Tiền KHÔNG fix schemas đã compiled
+  Key takeaways:
+    → 1962–1996: government FORCED birth reduction → schemas "fewer children = good" COMPILED
+    → After 1996: policy reversed BUT schemas ALREADY compiled → too late
+    → 2006–2025: spent $270 billion → TFR STILL fell from 1.13 → 0.72
+    → = Money CANNOT fix already-compiled schemas
 
 
-🟢 KEY STATS — HIỆN TẠI (2024-2025):
+🟢 KEY STATS — CURRENT (2024–2025):
 
-  Hôn nhân:
-    → Marriages giảm 56% từ 1996 (434,900 → 222,400)
-    → Tuổi kết hôn trung bình: nam 33.9 / nữ 31.6
-    → 27.4% KHÔNG có ý định kết hôn (nữ 34.6% vs nam 21.5%)
+  Marriage:
+    → Marriages down 56% since 1996 (434,900 → 222,400)
+    → Average marriage age: men 33.9 / women 31.6
+    → 27.4% have NO intention to marry (women 34.6% vs men 21.5%)
 
-  Sinh con:
-    → Births giảm 67% từ 1995 (715,000 → 238,343)
-    → 52.6% nói "KHÔNG CẦN có con cũng được"
-    → 63.5% PHỤ NỮ nói "sống không con cũng ổn"
-    → 43% người 20-49 tuổi KHÔNG có kế hoạch sinh con
+  Childbirth:
+    → Births down 67% since 1995 (715,000 → 238,343)
+    → 52.6% say "it's fine NOT to have children"
+    → 63.5% of WOMEN say "living child-free is fine"
+    → 43% of adults aged 20–49 have NO plans to have children
 
-  Chi phí nuôi con:
-    → ĐẮT NHẤT THẾ GIỚI: 7.79× GDP/capita = ~$272,000 USD đến 18 tuổi
-    → Chi phí hàng tháng: 1.116 triệu won (~$800/tháng)
-    → Riêng hagwon (học thêm): ~$330/tháng trung bình
+  Child-rearing costs:
+    → MOST EXPENSIVE IN THE WORLD: 7.79× GDP/capita = ~$272,000 USD through age 18
+    → Monthly costs: 1.116 million won (~$800/month)
+    → Hagwon (private tutoring) alone: ~$330/month on average
 
   Seoul:
-    → TFR Seoul = 0.581 — THẤP NHẤT mọi thành phố lớn trên thế giới
-    → PIR (giá nhà / thu nhập) = 13.9 năm
-    → 82.6% người trẻ THUÊ nhà
-    → Chỉ 25.8% người 30s ở Seoul SỞ HỮU nhà
+    → TFR Seoul = 0.581 — LOWEST of any major city in the world
+    → PIR (house price / income ratio) = 13.9 years
+    → 82.6% of young people RENT
+    → Only 25.8% of people in their 30s in Seoul OWN a home
 
-  Dân số dài hạn:
-    → 2050: ~45.2 triệu (−12.5%)
-    → 2100: ~11-18 triệu (−65% đến −78%)
-    → 2125: ~7.5 triệu nếu không thay đổi (−85%)
-    → 6/10 hộ gia đình DỰ KIẾN không có con vào 2052
+  Long-term population:
+    → 2050: ~45.2 million (−12.5%)
+    → 2100: ~11–18 million (−65% to −78%)
+    → 2125: ~7.5 million if unchanged (−85%)
+    → 6/10 households EXPECTED to have no children by 2052
 ```
 
 ---
 
-## 2. Năm Trục Áp Dụng Cho Hàn Quốc
+## §2. Five Axes Applied to South Korea
 
-### ① CON CÁI: ASSET → COST — Hàn = CỰC ĐOAN NHẤT
+### ① CHILDREN: ASSET → COST — Korea = THE MOST EXTREME
 
 ```
 🟢 DATA:
-  → ĐẮT NHẤT thế giới: 365 triệu won (~$272K) đến 18 tuổi
-  → Q1 2024: hộ gia đình chi cho HAGWON nhiều hơn ĂN + Ở CỘNG LẠI
-  → 78.3% học sinh học thêm (hagwon) → gần TOÀN BỘ
-  → 47.6% trẻ DƯỚI 6 tuổi đã đi học thêm
-  → 1/4 trẻ DƯỚI 2 TUỔI đã đi hagwon
+  → MOST EXPENSIVE in world: 365 million won (~$272K) through age 18
+  → Q1 2024: households spend MORE on HAGWON than on FOOD + HOUSING combined
+  → 78.3% of students attend hagwon (private tutoring academies) → nearly ALL
+  → 47.6% of children UNDER 6 already attend hagwon
+  → 1/4 of children UNDER 2 YEARS already attend hagwon
 
 🟡 FRAMEWORK INTERPRETATION:
-  → Investment cost = CỰC ĐẠI ở MỌI chiều:
-      Tiền: $272K + $330/tháng hagwon + nhà rộng hơn + đồ trẻ em
-      Thời gian: 18-25 năm liên tục (đến tốt nghiệp ĐH)
+  → Investment cost = MAXIMUM across EVERY dimension:
+      Money: $272K + $330/month hagwon + larger housing + children's goods
+      Time: 18–25 continuous years (until university graduation)
       Energy: physical + emotional drain DAILY
-      Cơ hội: MẤT career progress, MẤT tự do, MẤT ngủ
+      Opportunity: LOSE career progress, LOSE freedom, LOSE sleep
 
-  → PFC tính:
-      Cost = CỰC LỚN + CỰC DÀI + CỰC CHẮC CHẮN
-      Return = KHÔNG RÕ + KHÔNG CHẮC + CỰC XA
-      → Dissonance: cost >> perceived return → "KHÔNG ĐÁNG"
+  → PFC calculates:
+      Cost = ENORMOUS + EXTENDED + ALMOST CERTAIN
+      Return = UNCLEAR + UNCERTAIN + EXTREMELY DISTANT
+      → Dissonance: cost >> perceived return → "NOT WORTH IT"
 
-  → So sánh xưa vs nay:
-      Xưa: con 6 tuổi → ra đồng phụ → ASSET ngay
-      Nay: con 25 tuổi → vẫn ĐÒI tiền học → COST đến cuối
+  → Comparison: past vs present:
+      Past: child at 6 → helping in the fields → ASSET immediately
+      Present: child at 25 → still ASKING for school money → COST through the end
 
 
-⭐ EDUCATION ARMS RACE — TẠI SAO COST CAO ĐẾN MỨC NÀY:
+⭐ EDUCATION ARMS RACE — WHY COST IS THIS HIGH:
 
-  🟢 Suneung (수능) = THI 1 LẦN QUYẾT CẢ ĐỜI:
-    → 8 tiếng thi → quyết định ĐH → quyết định career → quyết định STATUS
-    → Ngày thi: chứng khoán mở muộn, máy bay dừng, cảnh sát hộ tống
-    → = TOÀN BỘ xã hội organize quanh 1 KỲ THI
+  🟢 Suneung (수능) = ONE TEST THAT DECIDES YOUR ENTIRE LIFE:
+    → 8-hour exam → determines university → determines career → determines STATUS
+    → Exam day: stock markets open late, flights halted, police escorts students
+    → = THE ENTIRE SOCIETY organized around 1 EXAM
 
-  🟢 SKY (Seoul National / Korea / Yonsei) = "cánh cửa duy nhất":
-    → Tỷ lệ trúng: SNU ~15% (top 1% suneung), Yonsei early <1%
-    → SKY graduates thống trị: chính phủ, chaebol, luật, y
-    → = Không vào SKY → perceived "thất bại"
+  🟢 SKY (Seoul National / Korea / Yonsei) = "the only gate":
+    → Acceptance rates: SNU ~15% (top 1% suneung), Yonsei early admission <1%
+    → SKY graduates dominate: government, chaebols, law, medicine
+    → = Not getting into SKY → perceived "failure"
 
-  🟡 Framework: Suneung = body detect:
-    → Con phải "CHIẾN THẮNG" suneung → mới có chance
-    → Bố mẹ phải ĐẦU TƯ hagwon 12-18 năm để con "CHIẾN THẮNG"
-    → = Investment cost không chỉ tiền mà CẢ MELODY gia đình
-    → = Toàn bộ gia đình xoay quanh suneung CỦA CON
-    → = Bố mẹ MẤT melody riêng → "có con = MẤT mình"
+  🟡 Framework: Suneung = body detects:
+    → Child must "WIN" the suneung → to have a chance
+    → Parents must INVEST in hagwon 12–18 years for child to "WIN"
+    → = Investment cost is not just money but THE FAMILY'S ENTIRE MELODY
+    → = The whole family revolves around the child's suneung
+    → = Parents LOSE their own melody → "having a child = LOSING YOURSELF"
 ```
 
-### ② IMAGINE-FINAL CẠNH TRANH — Hàn = NHIỀU OPTIONS
+### ② COMPETING IMAGINE-FINALS — Korea = MANY OPTIONS
 
 ```
 🟡 FRAMEWORK INTERPRETATION:
 
-  XƯA (trước 1980s):
-    → Imagine-Final gần như DUY NHẤT: "lập gia đình → sinh con"
-    → Confucian framework: hiếu = có con nối dõi
-    → Xã hội nông nghiệp: con = lao động
-    → → Không có competing Imagine-Final → không cần PFC deliberate
+  BEFORE (pre-1980s):
+    → Imagine-Final nearly ONLY: "start a family → have children"
+    → Confucian framework: filial piety = having children to continue the lineage
+    → Agricultural society: children = labor
+    → → No competing Imagine-Final → no PFC deliberation needed
 
-  NAY (2020s):
-    → Career: "lên vị trí cao → được công nhận → melody mượt"
-    → Tự do: "muốn đi đâu thì đi, muốn ăn gì thì ăn"
-    → Sáng tạo: "làm content / art / music / startup"
-    → Du lịch: "khám phá thế giới"
-    → Game / entertainment: "giải trí ngay bây giờ"
-    → Self-development: "học thêm, gym, đẹp hơn"
-    → → MỖI option TRANH CÙNG resource: thời gian + tiền + energy
-    → → "Sinh con" phải CẠNH TRANH với TẤT CẢ options trên
+  NOW (2020s):
+    → Career: "rise to a high position → gain recognition → smooth melody"
+    → Freedom: "go wherever you want, eat whatever you want"
+    → Creativity: "make content / art / music / startup"
+    → Travel: "explore the world"
+    → Gaming / entertainment: "immediate entertainment right now"
+    → Self-development: "learn more, gym, look better"
+    → → EACH option COMPETES for the same resource: time + money + energy
+    → → "Having children" must COMPETE with ALL the above options
 
-  ⭐ VẤN ĐỀ ĐẶC BIỆT HÀN: cost của "sinh con" QUÁ CAO
-    → so với các competing Imagine-Finals:
-    → Career: invest → return visible → body reward nhanh
-    → Du lịch: invest ít → return immediate → body reward ngay
-    → Con: invest CỰC LỚN → return KHÔNG RÕ → body KHÔNG reward
-    → = PFC tính xong → "sinh con" THUA MỌI option khác
+  ⭐ KOREA'S SPECIFIC PROBLEM: cost of "having children" is TOO HIGH
+    → Compared to competing Imagine-Finals:
+    → Career: invest → visible return → body rewards fast
+    → Travel: small investment → immediate return → body rewards now
+    → Children: ENORMOUS investment → UNCLEAR return → body DOES NOT reward
+    → = After PFC calculates → "having children" LOSES to every other option
 ```
 
-### ③ REPAIR CYCLE BỊ PHÁ — Hàn = OVERWORK + THIẾU NGỦ
+### ③ REPAIR CYCLE BROKEN — Korea = OVERWORK + SLEEP DEPRIVATION
 
 ```
 🟢 DATA:
-  → 1,872 giờ làm/năm — cao thứ 5 OECD
-    (so sánh: Đức 1,340 | Anh 1,531 | Nhật 1,607 | Mỹ 1,810)
-  → Gender pay gap 29% — LỚN NHẤT OECD
-  → Paternity leave uptake: chỉ 10.2% (2024), dù có quyền
-  → Văn hóa doanh nghiệp: hierarchical, subcontracting, sếp về trước
+  → 1,872 working hours/year — 5th HIGHEST in OECD
+    (comparison: Germany 1,340 | UK 1,531 | Japan 1,607 | USA 1,810)
+  → Gender pay gap 29% — LARGEST IN OECD
+  → Paternity leave uptake: only 10.2% (2024), despite having the legal right
+  → Corporate culture: hierarchical, subcontracting, bosses leave first
 
 🟡 FRAMEWORK INTERPRETATION:
   → NET HEALTH = repair − damage
-  → Hàn: damage CAO (overwork) + repair THIẾU (ngủ kém, ít downtime)
-  → = NET HEALTH âm → body signal: "BẢN THÂN chưa ổn, đừng nói thêm con"
+  → Korea: damage HIGH (overwork) + repair INSUFFICIENT (poor sleep, little downtime)
+  → = NET HEALTH negative → body signal: "MY OWN state isn't stable, let alone adding a child"
 
-  → ⚠️ KHÔNG PHẢI "cortisol cao là vấn đề"
-  → MÀ: cortisol lên (làm việc) → NHƯNG KHÔNG CÓ repair cycle đủ
-  → = Damage tích lũy → body chronically depleted
-  → = Thêm con → thêm damage → body REFUSE
+  → ⚠️ NOT "high cortisol is the problem"
+  → RATHER: cortisol rises (work) → BUT NO ADEQUATE repair cycle
+  → = Damage accumulates → body chronically depleted
+  → = Adding a child → adds more damage → body REFUSES
 
-  → Gender gap 29% tạo THÊM pressure:
-    → Nữ: "chọn career HOẶC con" (vì career penalty quá lớn)
-    → Nam: "phải gánh kinh tế 1 mình" (vì nữ mất thu nhập khi sinh)
-    → = CẢ 2 GIỚI đều thấy "có con = repair cycle BỊ PHÁ hơn nữa"
+  → Gender gap 29% creates ADDITIONAL pressure:
+    → Women: "choose career OR children" (because career penalty is too large)
+    → Men: "must support economically alone" (because women lose income after birth)
+    → = BOTH GENDERS feel "having a child = repair cycle BREAKS EVEN FURTHER"
 ```
 
-### ④ COMPILED SCHEMAS "CÓ CON = KHỔ"
+### ④ COMPILED SCHEMAS "HAVING CHILDREN = SUFFERING"
 
 ```
 🟡 FRAMEWORK INTERPRETATION:
 
-  COMPILED TỪ QUAN SÁT (chunk → vô thức):
+  COMPILED FROM OBSERVATION (chunk → unconscious):
 
-    Schema A — "Bố mẹ tôi KHỔ vì có con":
-      → Thấy bố mẹ: làm quần quật, tiết kiệm cho hagwon con
-      → Thấy bố mẹ: cãi nhau vì TIỀN + ÁP LỰC suneung
-      → Thấy bố mẹ: MẤT cuộc sống riêng → chỉ xoay quanh con
-      → Compiled: "có con = MẤT hạnh phúc + MẤT tự do"
+    Schema A — "My parents SUFFERED because of having children":
+      → Watched parents: working nonstop, saving everything for hagwon
+      → Watched parents: fighting over MONEY + suneung PRESSURE
+      → Watched parents: LOSING their own lives → revolving entirely around the children
+      → Compiled: "having children = LOSING happiness + LOSING freedom"
 
-    Schema B — "Tuổi thơ tôi KHÔNG VUI":
-      → Bản thân: bị ép học từ 2 tuổi (1/4 trẻ dưới 2 đã đi hagwon!)
-      → Bản thân: áp lực suneung từ năm 10 tuổi
-      → Bản thân: so sánh liên tục (điểm, ngoại hình, ĐH)
-      → Compiled: "tuổi thơ = ÁP LỰC" → "tại sao lặp lại cho con?"
+    Schema B — "My childhood was NOT enjoyable":
+      → Personal: forced into studying from age 2 (1/4 of under-2s already in hagwon!)
+      → Personal: suneung pressure from age 10
+      → Personal: continuous comparison (grades, looks, university)
+      → Compiled: "childhood = PRESSURE" → "why repeat that for a child?"
 
-    Schema C — "Bạn bè tôi CONFIRM":
-      → Bạn đồng trang lứa: "mệt quá", "đắt quá", "áp lực quá"
-      → Social media: content "childfree = happy" viral
-      → 52.6% nói "không cần con cũng được"
-      → = Social reinforcement → schema MẠNH thêm
+    Schema C — "My peers CONFIRM IT":
+      → Same-age friends: "so exhausted", "so expensive", "too much pressure"
+      → Social media: "childfree = happy" content goes viral
+      → 52.6% say "it's fine without children"
+      → = Social reinforcement → schema STRENGTHENS
 
-    Schema D — "1962-1996 anti-natalist" legacy:
-      → 34 NĂM chính phủ ép: "ít con = tốt"
-      → Compiled DEEP qua 2 THẾ HỆ: ông bà → bố mẹ → tôi
-      → 1996 đảo ngược policy → NHƯNG schemas đã compiled VÔ THỨC
-      → = Policy mới nói "sinh con đi" → vô thức nói "ít con = tốt"
-      → = Xung đột policy vs compiled schema → schema THẮNG
+    Schema D — "1962–1996 anti-natalist" legacy:
+      → 34 YEARS of government pushing: "fewer children = better"
+      → Compiled DEEPLY across 2 GENERATIONS: grandparents → parents → me
+      → 1996: policy reversed → BUT schemas ALREADY compiled UNCONSCIOUSLY
+      → = New policy says "go have kids" → unconscious says "fewer = better"
+      → = Policy vs compiled schema conflict → schema WINS
 
-  ⭐ KEY INSIGHT: schemas hoạt động ở TẦNG 1 (vô thức):
-    → PFC có thể "biết" rằng "nên sinh con"
-    → Nhưng body ĐÃ compiled "có con = khổ"
-    → Body wins — vì tầng 1 = ~95% processing
-    → = "Biết nên sinh nhưng KHÔNG MUỐN" = schema vs PFC conflict
+  ⭐ KEY INSIGHT: schemas operate at LAYER 1 (unconscious):
+    → PFC may "know" that "one should have children"
+    → But body HAS COMPILED "having children = suffering"
+    → Body wins — because layer 1 = ~95% of processing
+    → = "Knowing I should have children but NOT WANTING TO" = schema vs PFC conflict
 ```
 
-### ⑤ CONNECTION SUY GIẢM — Hàn = CÔ ĐƠN HÓA
+### ⑤ CONNECTION DECLINING — Korea = INCREASING ISOLATION
 
 ```
 🟢 DATA:
-  → Gia đình hạt nhân chiếm tuyệt đại đa số
-  → Urbanization: Seoul metro ~25 triệu / 51.7 triệu = ~50% dân số
-  → 6/10 hộ gia đình dự kiến KHÔNG CON vào 2052
-  → Hikikomori-style isolation tăng (ảnh hưởng từ Nhật)
+  → Nuclear families vastly predominant
+  → Urbanization: Seoul metro ~25 million / 51.7 million = ~50% of population
+  → 6/10 households expected to have NO children by 2052
+  → Hikikomori-style isolation increasing (influence from Japan)
 
 🟡 FRAMEWORK INTERPRETATION:
-  → XƯA: đại gia đình + cả làng nuôi con:
-      → 1 đứa trẻ = 10-20 người chăm → CHIA TẢI
-      → Connection mạnh (evaluative): cộng đồng, gia tộc
-      → = Nuôi con = shared task → manageable
+  → BEFORE: extended family + the whole village raised children:
+      → 1 child = 10–20 people caring → SHARED LOAD
+      → Strong connection (evaluative): community, extended family
+      → = Raising a child = shared task → manageable
 
-  → NAY: hạt nhân 2 người (hoặc 1 người):
-      → 1 đứa trẻ = 1-2 người gánh TẤT CẢ
-      → Seoul: xa quê → ông bà KHÔNG giúp được
-      → = Nuôi con = solo task → overwhelming
+  → NOW: nuclear unit of 2 people (or 1):
+      → 1 child = 1–2 people bearing ALL of it
+      → Seoul: far from hometown → grandparents CANNOT help
+      → = Raising a child = solo task → overwhelming
 
-  → Digital connection KHÔNG thay thế physical:
-      → Social media tạo ẢO GIÁC connection
-      → Nhưng body cần connection THẬT (physical, prolonged)
-      → = Có "bạn online" nhưng KHÔNG AI giúp trông con
-      → = Connection perceived ≠ connection functional
+  → Digital connection does NOT replace physical:
+      → Social media creates the ILLUSION of connection
+      → But body needs REAL connection (physical, prolonged)
+      → = Has "online friends" but NO ONE to help watch the baby
+      → = Perceived connection ≠ functional connection
 
-  → Quân đội bắt buộc (18-21 tháng):
-      → Nam mất ~2 năm → delay career + delay gia đình
-      → "Phải xong quân đội mới được tính là sẵn sàng kết hôn"
-      → = Thêm 1 rào cản → push marriage age lên → push birth age lên
+  → Mandatory military service (18–21 months):
+      → Men lose ~2 years → delays career + delays family formation
+      → "Must finish military service before being considered 'ready to marry'"
+      → = One more barrier → pushes marriage age up → pushes birth age up
 ```
 
 ---
 
-## 3. Vòng Xoáy Tự Tăng Cường — Tại Sao Hàn Quốc Không Dừng Ở 1.3
+## §3. Self-Reinforcing Downward Spiral — Why Korea Didn't Stop at 1.3
 
 ```
-🟡 HÀN KHÔNG CHỈ "THẤP" — HÀN ĐANG TRONG VÒNG XOÁY XUỐNG:
+🟡 KOREA IS NOT JUST "LOW" — KOREA IS IN A DOWNWARD SPIRAL:
 
-  ⭐ FEEDBACK LOOP — 5 trục FEED NHAU:
+  ⭐ FEEDBACK LOOP — 5 axes FEED each other:
 
-  ┌─────────────────────────────────────────────────────────────┐
-  │                                                             │
-  │   Ít con hơn                                                │
-  │      ↓                                                      │
-  │   Mỗi con = investment MỌI THỨ (vì chỉ có 1)              │
-  │      ↓                                                      │
-  │   Education arms race TĂNG (hagwon từ 2 tuổi)              │
-  │      ↓                                                      │
-  │   Cost per child TĂNG                                       │
-  │      ↓                                                      │
-  │   Repair cycle bố mẹ BỊ PHÁ hơn (overwork để trả hagwon)  │
-  │      ↓                                                      │
-  │   Bố mẹ KHÔNG HẠNH PHÚC → con compile "có con = khổ"      │
-  │      ↓                                                      │
-  │   Con lớn lên → KHÔNG MUỐN sinh → ít con hơn               │
-  │      ↓                                                      │
-  │   (Quay lại đầu — MẠNH HƠN mỗi vòng)                     │
-  │                                                             │
-  └─────────────────────────────────────────────────────────────┘
+  ┌──────────────────────────────────────────────────────────────────┐
+  │                                                                  │
+  │   Fewer children                                                 │
+  │      ↓                                                           │
+  │   Each child = ALL the investment (because there's only 1)      │
+  │      ↓                                                           │
+  │   Education arms race INTENSIFIES (hagwon from age 2)           │
+  │      ↓                                                           │
+  │   Cost per child RISES                                           │
+  │      ↓                                                           │
+  │   Parents' repair cycle MORE BROKEN (overwork to pay hagwon)    │
+  │      ↓                                                           │
+  │   Parents NOT HAPPY → child compiles "having children = suffering"│
+  │      ↓                                                           │
+  │   Child grows up → DOESN'T WANT to have children → even fewer   │
+  │      ↓                                                           │
+  │   (Back to start — STRONGER each cycle)                         │
+  │                                                                  │
+  └──────────────────────────────────────────────────────────────────┘
 
-  Đồng thời:
+  Simultaneously:
 
-  ┌─────────────────────────────────────────────────────────────┐
-  │   Ít kết hôn → ít connection sâu                            │
-  │      ↓                                                      │
-  │   Ít người nuôi con → mỗi người gánh nhiều hơn            │
-  │      ↓                                                      │
-  │   Nuôi con = QUÁOVERLOAD → schema "khổ" COMPILED mạnh hơn │
-  │      ↓                                                      │
-  │   Ít kết hôn hơn nữa                                       │
-  └─────────────────────────────────────────────────────────────┘
+  ┌──────────────────────────────────────────────────────────────────┐
+  │   Fewer marriages → less deep connection                         │
+  │      ↓                                                           │
+  │   Fewer people raising children → each person bears more        │
+  │      ↓                                                           │
+  │   Raising children = COMPLETELY OVERLOADED → "suffering" schema │
+  │      COMPILED more strongly                                      │
+  │      ↓                                                           │
+  │   Even fewer marriages                                           │
+  └──────────────────────────────────────────────────────────────────┘
 
-  Và:
+  And:
 
-  ┌─────────────────────────────────────────────────────────────┐
-  │   Gender pay gap 29% → nữ chọn career thay vì con          │
-  │      ↓                                                      │
-  │   Nữ thành công hơn → Imagine-Final career MẠNH hơn        │
-  │      ↓                                                      │
-  │   "Sinh con = MẤT career" → schema CỐ ĐỊNH                │
-  │      ↓                                                      │
-  │   Nữ từ chối kết hôn nhiều hơn (34.6%)                    │
-  │      ↓                                                      │
-  │   Nam resentment → gender conflict → CẢ 2 giới tránh nhau │
-  │      ↓                                                      │
-  │   Ít kết hôn hơn nữa                                       │
-  └─────────────────────────────────────────────────────────────┘
+  ┌──────────────────────────────────────────────────────────────────┐
+  │   Gender pay gap 29% → women choose career over children        │
+  │      ↓                                                           │
+  │   Women become more successful → career Imagine-Final STRONGER  │
+  │      ↓                                                           │
+  │   "Having children = LOSING career" → schema FIXED              │
+  │      ↓                                                           │
+  │   More women refuse to marry (34.6%)                            │
+  │      ↓                                                           │
+  │   Male resentment → gender conflict → BOTH genders avoid each   │
+  │      other                                                       │
+  │      ↓                                                           │
+  │   Even fewer marriages                                           │
+  └──────────────────────────────────────────────────────────────────┘
 
 
-  ⭐ TẠI SAO DỪNG Ở 1.3 (NHƯ NHẬT) NHƯNG HÀN ĐI TIẾP XUỐNG 0.72:
+  ⭐ WHY JAPAN STOPPED AT ~1.3 BUT KOREA KEPT GOING DOWN TO 0.72:
 
-    Nhật BẮT ĐẦU giảm → dừng ở ~1.2-1.3 vì:
-      → Overwork + nuclear family → NHƯNG gender conflict KHÔNG cực đoan
-      → Education pressure có → NHƯNG không bằng suneung
-      → Connection suy giảm → NHƯNG còn community structure
+    Japan STARTED declining → stopped at ~1.2–1.3 because:
+      → Overwork + nuclear family → BUT gender conflict NOT extreme
+      → Education pressure exists → BUT not as extreme as suneung
+      → Connection declining → BUT community structures still exist
 
-    Hàn KHÔNG DỪNG vì TẤT CẢ 5 trục CỰC ĐOAN ĐỒNG THỜI:
-      → Cost: ĐẮT NHẤT THẾ GIỚI (7.79× GDP)
-      → Competing Imagine-Final: K-culture / career options CỰC MẠNH
-      → Repair phá: 1,872 giờ/năm + gender gap 29%
-      → Schemas: 34 năm anti-natalist + suneung trauma COMPILED
-      → Connection: Seoul 50% dân số + urbanization + hạt nhân hóa
-      → + THÊM: gender conflict (4B) + lookism + military delay
-      → = Không trục nào "bù" cho trục khác → TỔNG LỰC xuống
+    Korea DID NOT STOP because ALL 5 axes are EXTREME SIMULTANEOUSLY:
+      → Cost: MOST EXPENSIVE IN THE WORLD (7.79× GDP)
+      → Competing Imagine-Final: K-culture / career options EXTREMELY STRONG
+      → Repair broken: 1,872 hours/year + gender gap 29%
+      → Schemas: 34 years of anti-natalism + suneung trauma COMPILED
+      → Connection: Seoul = 50% of population + urbanization + nuclear-family-ization
+      → PLUS: gender conflict (4B) + lookism + military delay
+      → = No axis "compensates" for any other → ALL FORCES POINTING DOWN
 ```
 
 ---
 
-## 4. "Hell Joseon" = Domain Feedback
+## §4. "Hell Joseon" = Domain Feedback
 
 ```
-🟡 "HELL JOSEON" (헬조선) — KHÔNG CHỈ LÀ THAN PHIỀN:
+🟡 "HELL JOSEON" (헬조선) — NOT JUST COMPLAINING:
 
-  🟢 Thuật ngữ: nổi lên ~2015, nghĩa "Hàn Quốc = địa ngục"
-  → Phản đối: thất nghiệp trẻ, bất bình đẳng, overwork, "cố gắng
-    cũng không thoát nghèo", xã hội ưu tiên nhóm đặc quyền
+  🟢 The term: emerged ~2015, meaning "Korea = hell"
+  → Targets: youth unemployment, inequality, overwork, "trying hard still can't escape poverty,"
+    society that favors the privileged
 
   🟡 Framework interpretation:
-    → "Hell Joseon" = body detect: "domain real KHÔNG match Imagine-Final"
-    → = Dissonance CỰC LỚN giữa:
-        Imagine-Final: "cố gắng → thành công → hạnh phúc"
-        Reality: "cố gắng → vẫn thuê nhà, vẫn nợ, vẫn overwork"
-    → = PFC scan → 4 kết quả:
-        ❌ Tìm + KHÔNG khả thi ("cố gắng cũng vô ích")
-        ❌ Tìm sai target ("hệ thống sai, không phải tôi")
-    → = Body kết luận: "environment KHÔNG support Imagine-Final"
-    → = ĐÚNG: đây là domain FEEDBACK → body nói "chưa đủ điều kiện"
+    → "Hell Joseon" = body detects: "actual domain DOESN'T MATCH Imagine-Final"
+    → = MASSIVE dissonance between:
+        Imagine-Final: "work hard → succeed → be happy"
+        Reality: "work hard → still renting, still in debt, still overworking"
+    → = PFC scans → 4 outcomes:
+        ❌ Seek + NOT feasible ("trying hard is useless")
+        ❌ Wrong target ("the system is broken, not me")
+    → = Body concludes: "environment DOES NOT SUPPORT Imagine-Final"
+    → = CORRECT: this is domain FEEDBACK → body says "conditions not sufficient"
 
 
-  ⭐ EVOLUTION CỦA "TỪ BỎ" — Sampo → N-po:
+  ⭐ THE EVOLUTION OF "GIVING UP" — Sampo → N-po:
 
-    🟢 Sampo (삼포세대) — "Từ bỏ 3 thứ":
+    🟢 Sampo (삼포세대) — "Give up 3 things":
       → Dating, marriage, childbirth
-      → = Imagine-Final "gia đình" bị DROP khỏi competing list
+      → = Imagine-Final "family" DROPPED from the competing list
 
-    🟢 Opo — "Từ bỏ thêm 2":
+    🟢 Opo — "Give up 2 more":
       → + Employment + homeownership
-      → = Imagine-Final "career" + "nhà" cũng bị DROP
+      → = Imagine-Final "career" + "owning a home" also DROPPED
 
-    🟢 Chilpo — "Từ bỏ thêm":
+    🟢 Chilpo — "Give up more":
       → + Relationships + hope
-      → = Connection Imagine-Final + TOÀN BỘ long-term Imagine-Final DROP
+      → = Connection Imagine-Final + ALL long-term Imagine-Final DROPPED
 
-    🟢 N-po (N포세대) — "Từ bỏ N thứ" (N = ∞):
-      → Dreams, hope, relationships, consumption, mọi thứ
-      → = KHÔNG CÒN Imagine-Final nào đủ mạnh
-      → = Existential boredom (Boredom-Analysis §1: cortisol cao + no Imagine-Final)
+    🟢 N-po (N포세대) — "Give up N things" (N = ∞):
+      → Dreams, hope, relationships, consumption, everything
+      → = NO remaining Imagine-Final strong enough
+      → = Existential boredom (Boredom-Analysis §1: high cortisol + no Imagine-Final)
 
-  🟡 Framework: Sampo → N-po = IMAGINE-FINAL COLLAPSE theo thứ tự:
-    → Body DROP Imagine-Final nào có cost/return ratio TỆ NHẤT trước
-    → "Gia đình" bị drop TRƯỚC (cost cao nhất, return thấp nhất)
-    → Tiếp theo: career, housing (cost cao, return ngày càng xa)
-    → Cuối cùng: hope (= tất cả long-term Imagine-Final)
-    → = N-po = body nói: "KHÔNG CÒN Imagine-Final nào khả thi ở domain real này"
-    → = Không phải "lười" — MÀ body CHÍNH XÁC khi tính: cost >> return MỌI option
+  🟡 Framework: Sampo → N-po = IMAGINE-FINAL COLLAPSE in order:
+    → Body DROPS the Imagine-Final with the WORST cost/return ratio first
+    → "Family" dropped FIRST (highest cost, lowest return)
+    → Then: career, housing (high cost, return increasingly distant)
+    → Finally: hope (= all long-term Imagine-Finals)
+    → = N-po = body says: "NO MORE FEASIBLE Imagine-Final in this actual domain"
+    → = Not "laziness" — RATHER body is ACCURATE when calculating: cost >> return for EVERY option
 ```
 
 ---
 
-## 5. Giới Tính — Conflict Qua Framework Lens
+## §5. Gender — Conflict Through the Framework Lens
 
 ```
-🟡 GENDER CONFLICT HÀN QUỐC = MỘT DẠNG CONFLICT-DYNAMICS:
+🟡 KOREA'S GENDER CONFLICT = A FORM OF CONFLICT-DYNAMICS:
 
-  ⭐ ÁP DỤNG công thức: Conflict = Overlap × Scarcity × Commitment
+  ⭐ APPLYING the formula: Conflict = Overlap × Scarcity × Commitment
 
-    Overlap: NAM + NỮ cùng Imagine-Final "cuộc sống tốt"
-      → NHƯNG "cuộc sống tốt" MAP VÀO khác resources:
-      → Nữ: career + tự do + an toàn (molka, deepfake, bạo lực)
-      → Nam: career + status + connection (military service burden)
+    Overlap: MEN + WOMEN share the same Imagine-Final "good life"
+      → BUT "good life" MAPS TO different resources:
+      → Women: career + freedom + safety (molka, deepfake, violence)
+      → Men: career + status + connection (burden of military service)
 
-    Scarcity: resources FINITE:
-      → Chỉ 1 promotion slot → ai lên?
-      → Gender gap 29% → nữ thấy "bất công" / nam thấy "đe dọa"
-      → "Reverse discrimination" perceived → zero-sum thinking
+    Scarcity: resources are FINITE:
+      → Only 1 promotion slot → who gets it?
+      → Gender gap 29% → women see "injustice" / men see "threat"
+      → Perceived "reverse discrimination" → zero-sum thinking
 
-    Commitment: CẢ 2 BÊN committed vào position:
-      → Nữ: 4B movement = COMMITTED từ chối hệ thống
-      → Nam: anti-feminist = COMMITTED bảo vệ hệ thống
-      → = Conflict escalate → compromise = "phản bội phe mình"
-
-
-  🟢 4B MOVEMENT — QUA FRAMEWORK:
-
-    4 KHÔNG: bi-hon (hôn), bi-chulsan (sinh), bi-yeonae (yêu), bi-sex
-    → Catalyst: vụ giết người Gangnam 2016 + molka + Nth Room + deepfake
-    → Spread: Google searches tăng 450% sau bầu cử Mỹ 2024
-
-    🟡 Framework: 4B = body detect "NAM = THREAT" → withdraw:
-      → L0: molka + deepfake + bạo lực = PHYSICAL THREAT → body withdraw
-      → L1: gender gap 29% = ECONOMIC THREAT → body guard resources
-      → L2: nam anti-feminist = CONNECTION THREAT → body avoid
-      → = 4B = body protect ACROSS LAYERS → không phải "ideology"
-      → = Body nói: "relationship với nam = NET NEGATIVE ở MỌI layer"
-
-    🟡 NHƯNG: 4B đồng thời = DROP Imagine-Final "gia đình" VĨ nhẽn viễn:
-      → Nếu "nam = threat" → relationship = danger → con = impossible
-      → = Trục ② (competing Imagine-Final) + trục ⑤ (connection)
-        đều bị CẮT khi 4B activated
+    Commitment: BOTH SIDES committed to their position:
+      → Women: 4B movement = COMMITTED to refusing the system
+      → Men: anti-feminism = COMMITTED to defending the system
+      → = Conflict escalates → compromise = "betraying my side"
 
 
-  🟢 ANTI-FEMINISM — QUA FRAMEWORK:
+  🟢 4B MOVEMENT — THROUGH THE FRAMEWORK:
 
-    Nam phản ứng: "nữ được ưu tiên = tôi bị bất công"
-    → Yoon Suk Yeol thắng cử 2022 trên platform anti-feminist
-    → Carnegie research: nam resist mạnh hơn khi BIẾT "thừa nam"
+    4 NO's: bi-hon (marriage), bi-chulsan (birth), bi-yeonae (dating), bi-sex
+    → Catalysts: 2016 Gangnam murder + molka (hidden cameras) + Nth Room scandal + deepfakes
+    → Spread: Google searches up 450% after 2024 US election
 
-    🟡 Framework: anti-feminism = body detect "STATUS THREAT":
-      → Military service: nam 18-21 tháng, nữ không → "bất bình đẳng"
-      → Gender quota: nữ được ưu tiên tuyển → "tôi mất cơ hội"
-      → = status (evaluative) Imagine-Final bị threatened → body react
-      → = KHÔNG phải "ghét nữ" → mà body protect status position
+    🟡 Framework: 4B = body detects "MEN = THREAT" → withdraws:
+      → L0: molka + deepfake + violence = PHYSICAL THREAT → body withdraws
+      → L1: gender gap 29% = ECONOMIC THREAT → body guards resources
+      → L2: male anti-feminism = CONNECTION THREAT → body avoids
+      → = 4B = body protects ACROSS LAYERS → not just "ideology"
+      → = Body says: "relationship with men = NET NEGATIVE across ALL layers"
+
+    🟡 BUT: 4B simultaneously = PERMANENTLY DROPS Imagine-Final "family":
+      → If "men = threat" → relationship = danger → children = impossible
+      → = Axis ② (competing Imagine-Final) + axis ⑤ (connection)
+        BOTH CUT when 4B is activated
+
+
+  🟢 ANTI-FEMINISM — THROUGH THE FRAMEWORK:
+
+    Male reaction: "women get preferential treatment = I'm being treated unfairly"
+    → Yoon Suk Yeol won 2022 election on anti-feminist platform
+    → Carnegie research: men resist more strongly when they know there's a "male surplus"
+
+    🟡 Framework: anti-feminism = body detects "STATUS THREAT":
+      → Military service: men 18–21 months, women not → "inequality"
+      → Gender quotas: women get priority hiring → "I'm losing opportunities"
+      → = Status (evaluative) Imagine-Final threatened → body reacts
+      → = NOT "hating women" → rather body protecting status position
 
     ⭐ MUTUAL WITHDRAWAL = BIRTH RATE COLLAPSE:
-      → Nữ: "nam = threat" → avoid relationship
-      → Nam: "nữ = unfair advantage" → resentment → avoid commitment
-      → = CẢ 2 GIỚI tránh nhau → marriage collapse → birth collapse
-      → = Gender conflict = multiplier cho MỌI trục khác
+      → Women: "men = threat" → avoid relationships
+      → Men: "women = unfair advantage" → resentment → avoid commitment
+      → = BOTH GENDERS avoid each other → marriage collapse → birth collapse
+      → = Gender conflict = multiplier on EVERY other axis
 
 
   🟢 DIGITAL SEX CRIMES — COMPOUND EFFECT:
 
     Data:
-      → 30,000+ vụ molka (camera ẩn) 2013-2018
-      → 55,000-70,000 nữ biểu tình 2018 ("Đời tôi không phải phim")
-      → Nth Room 2020: 8+ nhóm Telegram buôn bán video
-      → ~220,000 user Telegram tạo deepfake sex nạn nhân
-      → = L0 THREAT cực kỳ real → body nữ KHÔNG SAFE
+      → 30,000+ molka incidents (hidden cameras) 2013–2018
+      → 55,000–70,000 women protested 2018 ("My life is not your porn")
+      → Nth Room 2020: 8+ Telegram groups trafficking videos
+      → ~220,000 Telegram users created deepfake sex content of victims
+      → = L0 THREAT extremely real → women's body CANNOT FEEL SAFE
 
-    Framework: digital crimes = L0 threat CỰC MẠNH + CỰC LAN:
-      → Không chỉ nạn nhân trực tiếp → MỌI NỮ đều biết
-      → = Schemas compile: "là nữ ở Hàn = KHÔNG AN TOÀN"
-      → = Schemas này FEED 4B → FEED birth rate collapse
+    Framework: digital crimes = EXTREMELY STRONG + EXTREMELY WIDESPREAD L0 threat:
+      → Not just direct victims → ALL women know about it
+      → = Schemas compile: "being a woman in Korea = NOT SAFE"
+      → = These schemas FEED 4B → FEED birth rate collapse
 ```
 
 ---
 
-## 6. Thế Hệ — Evolution Qua Framework
+## §6. Generations — Evolution Through the Framework
 
 ```
-🟡 3 THẾ HỆ HÀN QUỐC — CÙNG VĂN HÓA, KHÁC PARAMETERS:
+🟡 3 GENERATIONS IN KOREA — SAME CULTURE, DIFFERENT PARAMETERS:
 
-  THẾ HỆ 1 — Rebuild (1960-1980):
-    → Context: chiến tranh vừa qua, nghèo, nông nghiệp → công nghiệp
+  GENERATION 1 — Rebuild (1960–1980):
+    → Context: war just ended, poverty, agriculture → industrialization
     → TFR: 6.16 → 2.82
-    → Framework: L0/L1 threat → con = ASSET (lao động, bảo vệ)
-    → Imagine-Final: "gia đình lớn" = DEFAULT (Confucian + economic)
-    → Anti-natalist policy bắt đầu → NHƯNG body vẫn muốn (con = asset)
-    → Giảm: vì contraception + policy, KHÔNG phải vì "không muốn"
+    → Framework: L0/L1 threat → children = ASSET (labor, protection)
+    → Imagine-Final: "large family" = DEFAULT (Confucian + economic)
+    → Anti-natalist policy begins → BUT body still wanted (children = assets)
+    → Declined: due to contraception + policy, NOT because "didn't want to"
 
-  THẾ HỆ 2 — Miracle (1980-2000):
-    → Context: "Miracle on the Han River", kinh tế bùng nổ
+  GENERATION 2 — Miracle (1980–2000):
+    → Context: "Miracle on the Han River," economy booming
     → TFR: 2.82 → 1.47
-    → Framework: L1 improving → con KHÔNG CÒN cần thiết cho L1
-    → Imagine-Final: "career" bắt đầu COMPETE với "gia đình"
-    → Education pressure TĂNG: "con phải ĐH tốt"
-    → Cost TĂNG: từ "nuôi 6 con" → "nuôi 1-2 con nhưng ĐẦU TƯ HẾT"
-    → Anti-natalist policy vẫn chạy đến 1996 → schemas COMPILED
+    → Framework: L1 improving → children NO LONGER needed for L1 survival
+    → Imagine-Final: "career" starts COMPETING with "family"
+    → Education pressure INCREASES: "children must get into a good university"
+    → Cost RISES: from "raising 6 children" → "raising 1–2 but INVESTING EVERYTHING"
+    → Anti-natalist policy still running until 1996 → schemas COMPILED
 
-  THẾ HỆ 3 — Hell Joseon (2000-now):
-    → Context: kinh tế trưởng thành, bất bình đẳng tăng, digital native
+  GENERATION 3 — Hell Joseon (2000–now):
+    → Context: mature economy, rising inequality, digital natives
     → TFR: 1.47 → 0.72
-    → Framework: TẤT CẢ 5 trục CỰC ĐOAN ĐỒNG THỜI
-    → Imagine-Final: "gia đình" ĐÃ BỊ DROP khỏi list (Sampo)
-    → Schemas compiled từ THẾ HỆ 2: "bố mẹ khổ vì con"
+    → Framework: ALL 5 axes EXTREME SIMULTANEOUSLY
+    → Imagine-Final: "family" ALREADY DROPPED from the list (Sampo)
+    → Schemas compiled from GENERATION 2: "parents suffered because of children"
     → + Gender conflict + digital crimes + lookism + housing crisis
-    → = VÒNG XOÁY §3 đang chạy FULL SPEED
+    → = THE DOWNWARD SPIRAL of §3 running at FULL SPEED
 
 
-  ⭐ PATTERN: mỗi thế hệ COMPILE SCHEMAS → truyền cho thế hệ sau:
+  ⭐ PATTERN: each generation COMPILES SCHEMAS → passes to the next:
 
-    Thế hệ 1 compile: "ít con = tốt" (anti-natalist policy)
+    Generation 1 compiles: "fewer children = better" (anti-natalist policy)
         ↓
-    Thế hệ 2 NHẬN schema + THÊM: "phải đầu tư hết cho con"
+    Generation 2 RECEIVES that schema + ADDS: "must invest everything in the child"
         ↓
-    Thế hệ 3 NHẬN cả 2 + THÊM: "có con = mất mọi thứ"
+    Generation 3 RECEIVES both + ADDS: "having children = losing everything"
         ↓
-    Thế hệ 4 (sắp tới) sẽ NHẬN TẤT CẢ + "không ai có con cả"
+    Generation 4 (upcoming) will RECEIVE all 3 + "nobody has children anymore"
 
-    → = Schemas COMPOUND qua mỗi thế hệ — giống compound interest
-    → = Mỗi thế hệ = schemas CŨ + schemas MỚI → ngày càng CHỐNG sinh
-    → = Đây là lý do $270 tỷ KHÔNG fix: tiền chỉ address HIỆN TẠI,
-        schemas compiled qua 3 THẾ HỆ → sâu hơn bất kỳ policy nào
+    → = Schemas COMPOUND with each generation — like compound interest
+    → = Each generation = OLD schemas + NEW schemas → increasingly ANTI-CHILD
+    → = This is why $270 billion DID NOT FIX IT: money only addresses the PRESENT,
+        schemas compiled across 3 GENERATIONS → deeper than any policy
 ```
 
 ---
 
-## 7. Chính Sách — Tại Sao $270 Tỷ Thất Bại
+## §7. Policy — Why $270 Billion Failed
 
 ```
-🟢 DATA — TIỀN ĐÃ CHI:
-  → 280-390 nghìn tỷ won ($211-270+ tỷ) từ 2006
-  → 29.6 triệu won (~$22,100) per child over 8 năm
-  → Seoul riêng: $1.3 tỷ trong 2024
-  → Booyoung Group (tư nhân): 100 triệu won (~$75K) per baby
-  → Đề xuất: 100 triệu won/con (sẽ tốn $16+ tỷ/năm)
+🟢 DATA — MONEY SPENT:
+  → 280–390 trillion won ($211–270+ billion) since 2006
+  → 29.6 million won (~$22,100) per child over 8 years
+  → Seoul alone: $1.3 billion in 2024
+  → Booyoung Group (private): 100 million won (~$75K) per baby
+  → Proposal: 100 million won/child (would cost $16+ billion/year)
 
-🟢 KẾT QUẢ:
-  → 2006 (bắt đầu chi): TFR = 1.13
-  → 2024 (sau 19 năm + $270 tỷ): TFR = 0.75
-  → = GIẢM 34% DÙ chi KHỔNG LỒ
-
-
-🟡 FRAMEWORK GIẢI THÍCH TẠI SAO THẤT BẠI:
-
-  ① Tiền = CARROT BRIDGE (ref: Education-Mechanism §3.1):
-    → Carrot bridge = "cho phần thưởng bên ngoài" (nguồn ④ External Inject)
-    → Carrot bridge BỊ INFLATION: $22K/con → nhưng cost $272K/con
-    → = Carrot < Cost → PFC vẫn tính: "lỗ"
-    → Ngay cả $75K (Booyoung) → vẫn < $272K → vẫn "lỗ"
-    → Cần ~$272K+ per child → nhưng KHÔNG AI đủ ngân sách
-
-  ② Tiền KHÔNG fix schemas:
-    → Compiled schemas "có con = khổ" ở TẦNG 1 (vô thức)
-    → PFC có thể "biết" rằng "chính phủ cho $22K"
-    → Nhưng vô thức VẪN nói "có con = mất tự do + mất hạnh phúc"
-    → = Ý thức vs vô thức → vô thức THẮNG (~95% processing)
-
-  ③ Tiền KHÔNG fix repair cycle:
-    → Overwork 1,872 giờ/năm → vẫn overwork SAU khi nhận tiền
-    → Gender gap 29% → vẫn 29% SAU khi nhận tiền
-    → = Body VẪN depleted → tiền không mua REPAIR
-
-  ④ Tiền KHÔNG fix connection:
-    → Nuclear family ở Seoul → vẫn 1-2 người nuôi con
-    → Tiền có thể thuê babysitter → nhưng NOT connection
-    → = Body vẫn cảm thấy "nuôi con CÔ ĐƠN"
-
-  ⑤ Tiền KHÔNG fix gender conflict:
-    → 4B movement + anti-feminism → vẫn chạy bất kể tiền
-    → Molka + deepfake → vẫn chưa fix → nữ vẫn "unsafe"
-    → = Tiền cho sinh con → nhưng nam nữ TRÁNH NHAU → ai sinh?
+🟢 RESULTS:
+  → 2006 (spending begins): TFR = 1.13
+  → 2024 (after 19 years + $270 billion): TFR = 0.75
+  → = FELL 34% DESPITE ENORMOUS spending
 
 
-  ⭐ CHÍNH SÁCH NÀO ĐÃ CÓ EFFECT (NHỎ):
+🟡 FRAMEWORK EXPLANATION FOR THE FAILURE:
 
-    🟢 Paternity leave reform (2025: 20 ngày, 6+6 scheme):
-      → Uptake tăng: 1.1% (2015) → 10.2% (2024) → 16.1% (2023 total)
-      → = Fix 1 PHẦN repair cycle (nam CŨNG nghỉ)
-      → = NHƯNG uptake vẫn thấp vì CULTURE chưa thay đổi
-      → = Có luật 52 giờ/tuần → nhưng văn hóa "sếp về trước" = vượt luật
+  ① Money = CARROT BRIDGE (ref: Education-Mechanism §3.1):
+    → Carrot bridge = "giving external rewards" (source ④ External Inject)
+    → Carrot bridge suffers INFLATION: $22K/child → but cost is $272K/child
+    → = Carrot < Cost → PFC still calculates: "a loss"
+    → Even $75K (Booyoung) → still < $272K → still "a loss"
+    → Would need ~$272K+ per child → but nobody has that budget
 
-    🟢 Working hours reform (2018: 68 → 52 giờ/tuần):
-      → Giờ làm giảm ~200 giờ/năm trong 10 năm
-      → = Fix 1 PHẦN repair cycle
-      → = NHƯNG vẫn cao thứ 5 OECD → chưa đủ
+  ② Money does NOT fix schemas:
+    → Compiled schemas "having children = suffering" operate at LAYER 1 (unconscious)
+    → PFC may "know" that "the government gives $22K"
+    → But unconscious STILL says "having children = losing freedom + losing happiness"
+    → = Conscious vs unconscious → unconscious WINS (~95% of processing)
 
-    ❌ "Killer questions" cắt khỏi suneung (2023):
-      → Symbolic → KHÔNG thay đổi structure (vẫn thi 1 lần quyết cả đời)
-      → = Sửa symptom, không sửa cause
+  ③ Money does NOT fix the repair cycle:
+    → Overwork of 1,872 hours/year → STILL overworking AFTER receiving money
+    → Gender gap 29% → STILL 29% AFTER receiving money
+    → = Body is STILL depleted → money cannot buy REPAIR
+
+  ④ Money does NOT fix connection:
+    → Nuclear family in Seoul → still 1–2 people raising the child
+    → Money can hire a babysitter → but that's NOT connection
+    → = Body still feels "raising a child ALONE"
+
+  ⑤ Money does NOT fix gender conflict:
+    → 4B movement + anti-feminism → still running regardless of money
+    → Molka + deepfakes → not yet fixed → women still "unsafe"
+    → = Gave money to have children → but men and women AVOIDING EACH OTHER → who has them?
 
 
-  ⭐ TẠI SAO RESEARCHERS NÓI "TIỀN KHÔNG ĐỦ":
+  ⭐ POLICIES THAT HAD SOME EFFECT (small):
+
+    🟢 Paternity leave reform (2025: 20 days, 6+6 scheme):
+      → Uptake increased: 1.1% (2015) → 10.2% (2024) → 16.1% (2023 total)
+      → = Fixed 1 PART of repair cycle (men ALSO taking leave)
+      → = BUT uptake still low because CULTURE hasn't changed
+      → = Have a 52-hour/week law → but "boss leaves first" culture = exceeds the law
+
+    🟢 Working hours reform (2018: 68 → 52 hours/week):
+      → Working hours down ~200 hours/year over 10 years
+      → = Fixed 1 PART of repair cycle
+      → = BUT still 5th highest in OECD → not enough
+
+    ❌ Removing "killer questions" from suneung (2023):
+      → Symbolic → DOESN'T CHANGE THE STRUCTURE (still 1 exam decides your whole life)
+      → = Fixing a symptom, not the cause
+
+
+  ⭐ WHY RESEARCHERS SAY "MONEY ISN'T ENOUGH":
     → "Merely investing money does not increase TFR
        without proper causal analysis"
-    → = ĐÚNG: tiền chỉ fix 1/5 trục (cost) → 4/5 trục NGUYÊN
-    → = Framework predict: cần fix TẤT CẢ 5 trục ĐỒNG THỜI
-    → = Nhưng chưa quốc gia nào thử fix ALL 5 simultaneously
+    → = CORRECT: money only fixes 1/5 axes (cost) → 4/5 axes UNCHANGED
+    → = Framework predicts: need to fix ALL 5 axes SIMULTANEOUSLY
+    → = But no country has ever tried fixing ALL 5 simultaneously
 ```
 
 ---
 
-## 8. Tại Sao Thấp NHẤT Thế Giới — So Sánh Nhanh
+## §8. Why the Lowest in the World — Quick Comparison
 
 ```
-🟡 HÀN vs NHẬT vs TRUNG — CÙNG NHÓM A, TẠI SAO HÀN TỆ NHẤT:
+🟡 KOREA vs JAPAN vs CHINA — SAME GROUP A, WHY IS KOREA WORST:
 
-  ┌────────────────────┬──────────┬──────────┬──────────┐
-  │ Yếu tố            │ 🇰🇷 Hàn  │ 🇯🇵 Nhật  │ 🇨🇳 Trung │
-  ├────────────────────┼──────────┼──────────┼──────────┤
-  │ TFR (latest)       │ 0.75     │ ~1.20    │ ~1.00    │
-  │ Cost nuôi con      │ #1 TG    │ #3 TG    │ #2 TG    │
-  │ Education pressure │ CỰC ĐẠI │ CAO      │ CAO      │
-  │   (suneung)        │ (1 thi)  │ (đa dạng)│ (gaokao) │
-  │ Gender conflict    │ CỰC ĐẠI │ VỪA      │ VỪA      │
-  │   (4B movement)    │          │          │          │
-  │ Overwork (giờ/năm) │ 1,872    │ 1,607    │ 996 cul. │
-  │ Gender pay gap     │ 29% (#1) │ 22% (#2) │ ~20%     │
-  │ Housing (Seoul)    │ 13.9×PIR │ ~10×PIR  │ ~15×PIR  │
-  │ Anti-natalist legacy│ 34 năm  │ Không    │ 35 năm   │
-  │ Lookism            │ CỰC ĐẠI │ VỪA      │ VỪA      │
-  │ Digital sex crimes │ CỰC CAO │ VỪA      │ VỪA      │
-  │ Military service   │ 18-21 th │ Không    │ Không    │
-  └────────────────────┴──────────┴──────────┴──────────┘
+  ┌──────────────────────┬────────────┬────────────┬────────────┐
+  │ Factor               │ 🇰🇷 Korea  │ 🇯🇵 Japan  │ 🇨🇳 China  │
+  ├──────────────────────┼────────────┼────────────┼────────────┤
+  │ TFR (latest)         │ 0.75       │ ~1.20      │ ~1.00      │
+  │ Child-rearing cost   │ #1 WORLD   │ #3 WORLD   │ #2 WORLD   │
+  │ Education pressure   │ EXTREME    │ HIGH       │ HIGH       │
+  │   (suneung)          │ (1 exam)   │ (diverse)  │ (gaokao)   │
+  │ Gender conflict      │ EXTREME    │ MODERATE   │ MODERATE   │
+  │   (4B movement)      │            │            │            │
+  │ Overwork (hrs/year)  │ 1,872      │ 1,607      │ 996 cult.  │
+  │ Gender pay gap       │ 29% (#1)   │ 22% (#2)   │ ~20%       │
+  │ Housing (Seoul)      │ 13.9×PIR   │ ~10×PIR    │ ~15×PIR    │
+  │ Anti-natalist legacy │ 34 years   │ None       │ 35 years   │
+  │ Lookism              │ EXTREME    │ MODERATE   │ MODERATE   │
+  │ Digital sex crimes   │ VERY HIGH  │ MODERATE   │ MODERATE   │
+  │ Military service     │ 18–21 mo.  │ None       │ None       │
+  └──────────────────────┴────────────┴────────────┴────────────┘
 
-  ⭐ HÀN = "WORST OF ALL WORLDS":
+  ⭐ KOREA = "WORST OF ALL WORLDS":
 
-    → Cost: cao nhất TG (Nhật #3, TQ #2 → nhưng Hàn #1)
-    → Education: suneung = CỰC ĐOAN nhất (1 kỳ thi quyết tất cả)
-       Nhật có đa dạng đường vào ĐH, TQ gaokao tuy khó nhưng bigger pool
-    → Gender conflict: 4B + molka + deepfake → KHÔNG có ở Nhật/TQ mức này
-    → Legacy: 34 năm anti-natalist compiled (Nhật KHÔNG CÓ policy này)
-    → Lookism: plastic surgery #1 TG → thêm 1 "arms race" nữa
-    → Military: delay 2 năm cho nam → push THÊM marriage age
+    → Cost: highest in world (Japan #3, China #2 → but Korea #1)
+    → Education: suneung = THE MOST EXTREME (1 exam decides everything)
+       Japan has diverse paths into university, China's gaokao is hard but bigger pool
+    → Gender conflict: 4B + molka + deepfakes → NOT present in Japan/China at this level
+    → Legacy: 34 years of anti-natalism compiled (Japan NEVER HAD this policy)
+    → Lookism: plastic surgery #1 in world → one MORE arms race
+    → Military: delays 2 years for men → FURTHER pushes up marriage age
 
-    → TQ có 1-child legacy (35 năm) + gaokao → TFR ~1.0
-    → Nhật có overwork + nuclear family → TFR ~1.2
-    → Hàn có TẤT CẢ factors trên + 4B + lookism + military
-    → = Hàn = MỌI yếu tố tiêu cực CHỒNG CHẤT → thấp nhất
+    → China has 1-child legacy (35 years) + gaokao → TFR ~1.0
+    → Japan has overwork + nuclear family → TFR ~1.2
+    → Korea has ALL above factors + 4B + lookism + military
+    → = Korea = EVERY NEGATIVE FACTOR STACKED → lowest result
 
-    → KHÔNG CÓ yếu tố BÙ TRỪ:
-      → Israel: shared Imagine-Final quốc gia → BÙ cost → TFR 3.0
-      → Pháp: childcare + 35h/tuần → BÙ cost → TFR 1.8
-      → Hàn: KHÔNG CÓ gì bù → TẤT CẢ trục ĐỀU ÂM → 0.72
+    → NO COMPENSATING FACTOR:
+      → Israel: shared national Imagine-Final → OFFSETS cost → TFR 3.0
+      → France: childcare + 35hr/week → OFFSETS cost → TFR 1.8
+      → Korea: NOTHING offsetting → ALL axes NEGATIVE → 0.72
 ```
 
 ---
 
-## 9. Honest Assessment
+## §9. Honest Assessment
 
 ```
   ESTABLISHED — DATA CONFIRMED (🟢):
-    🟢 TFR historical data: 6.16 (1960) → 0.72 (2023) → 0.75 (2024)
-    🟢 Seoul TFR 0.581 — thấp nhất thành phố lớn trên thế giới
-    🟢 Cost #1 thế giới: 7.79× GDP/capita ($272K)
-    🟢 $270+ tỷ chi → TFR vẫn giảm 34% (1.13 → 0.75)
-    🟢 Gender pay gap 29% — #1 OECD
-    🟢 1,872 giờ/năm — #5 OECD
-    🟢 78.3% học sinh đi hagwon, 47.6% dưới 6 tuổi
-    🟢 52.6% nói "không cần con", 63.5% nữ
+    🟢 Historical TFR data: 6.16 (1960) → 0.72 (2023) → 0.75 (2024)
+    🟢 Seoul TFR 0.581 — lowest of any major city in the world
+    🟢 Cost #1 world: 7.79× GDP/capita ($272K)
+    🟢 $270+ billion spent → TFR still fell 34% (1.13 → 0.75)
+    🟢 Gender pay gap 29% — #1 in OECD
+    🟢 1,872 hours/year — #5 in OECD
+    🟢 78.3% of students attend hagwon, 47.6% under age 6
+    🟢 52.6% say "fine without children," 63.5% of women
     🟢 Sampo → N-po evolution (documented sociological phenomenon)
     🟢 4B movement + digital sex crimes (documented)
-    🟢 34 năm anti-natalist policy (1962-1996)
-    🟢 Military service 18-21 tháng bắt buộc
-    🟢 PIR Seoul 13.9 năm, 82.6% trẻ thuê nhà
-    🟢 Marriages giảm 56%, births giảm 67% từ 1990s
+    🟢 34 years of anti-natalist policy (1962–1996)
+    🟢 18–21 months mandatory military service
+    🟢 Seoul PIR 13.9 years, 82.6% of young people renting
+    🟢 Marriages down 56%, births down 67% since the 1990s
 
   FRAMEWORK ANALYSIS (🟡):
-    🟡 5 trục classification — framework-specific, applied to Korea data
-    🟡 "Vòng xoáy tự tăng cường" — logical từ data, chưa formal model
-    🟡 "Tiền không fix schemas" — consistent với data (chi nhiều + vẫn giảm),
-       nhưng CÓ THỂ là threshold chưa đạt
-    🟡 "4B = body detect threat across layers" — framework interpretation
-       của documented movement
+    🟡 5-axis classification — framework-specific, applied to Korean data
+    🟡 "Self-reinforcing downward spiral" — logically derived from data, not yet formally modeled
+    🟡 "Money doesn't fix schemas" — consistent with data (massive spending + still declining),
+       but could be that the threshold hasn't been reached
+    🟡 "4B = body detecting threat across layers" — framework interpretation
+       of a documented movement
     🟡 "Sampo → N-po = Imagine-Final collapse" — framework interpretation
-       của documented sociological terms
-    🟡 "Schemas compound qua thế hệ" — consistent với intergenerational
-       research, mechanism là framework-specific
-    🟡 "Anti-natalist legacy = compiled schemas" — logical nhưng khó
-       isolate effect từ các yếu tố đồng thời
+       of documented sociological terms
+    🟡 "Schemas compound across generations" — consistent with intergenerational
+       research, mechanism is framework-specific
+    🟡 "Anti-natalist legacy = compiled schemas" — logical but difficult to
+       isolate effect from simultaneous factors
 
-  HYPOTHESIS — CẦN VALIDATE (🔴):
-    🔴 "Hàn = worst of all worlds" — so sánh reasonable nhưng
-       mỗi yếu tố cần weighing riêng (có thể 1 yếu tố dominant)
-    🔴 "Không có yếu tố bù trừ" — có thể có factors chưa identify
-    🔴 "Fix 5 trục đồng thời mới hiệu quả" — logical nhưng chưa
-       có quốc gia nào thử → chưa có evidence
-    🔴 "2024 rebound = cohort effect, sẽ fade" — Statistics Korea
-       cũng nói vậy nhưng chưa confirm (cần data 2025-2027)
-    🔴 Weightage cụ thể từng trục: trục nào DOMINANT nhất?
-       (education? gender conflict? cost?) → cần quantitative analysis
+  HYPOTHESIS — NEEDS VALIDATION (🔴):
+    🔴 "Korea = worst of all worlds" — comparison is reasonable but
+       each factor needs individual weighing (1 factor may dominate)
+    🔴 "No compensating factor" — may be factors not yet identified
+    🔴 "Fixing all 5 axes simultaneously is the only way" — logical but
+       no country has tried it → no evidence yet
+    🔴 "2024 rebound = cohort effect, will fade" — Statistics Korea
+       agrees but not yet confirmed (need 2025–2027 data)
+    🔴 Specific weighting of each axis: which axis is MOST DOMINANT?
+       (education? gender conflict? cost?) → requires quantitative analysis
 ```
 
 ---
 
-## 10. Câu Hỏi Mở
+## §10. Open Questions
 
 ```
-  SK-1: Trục nào DOMINANT nhất? Nếu chỉ fix ĐƯỢC 1 trục → trục nào?
-        (hypothesis: repair cycle — vì nó ENABLE tất cả trục khác)
+  SK-1: Which axis is MOST DOMINANT? If only 1 axis could be fixed → which one?
+        (hypothesis: repair cycle — because it ENABLES all other axes)
 
-  SK-2: 34 năm anti-natalist → bao lâu để "undo" schemas?
-        Liệu 1 thế hệ hạnh phúc có đủ không?
+  SK-2: 34 years of anti-natalism → how long to "undo" the schemas?
+        Is 1 generation of happy parents enough?
 
-  SK-3: Gender conflict — liệu có "tipping point" mà nam nữ
-        reconcile? Hay đây là structural và sẽ tự stabilize?
+  SK-3: Gender conflict — is there a "tipping point" where men and women
+        reconcile? Or is this structural and will self-stabilize?
 
-  SK-4: Suneung reform — nếu Hàn đổi sang multi-path education
-        (như Đức: nghề + ĐH), impact lên birth rate?
+  SK-4: Suneung reform — if Korea switches to multi-path education
+        (like Germany: vocational + university), impact on birth rate?
 
-  SK-5: Seoul vs tỉnh lẻ — data cho thấy Seoul 0.581, quốc gia 0.75.
-        Tỉnh lẻ có factors BÙ nào? (connection mạnh hơn?)
+  SK-5: Seoul vs rural areas — data shows Seoul 0.581, country 0.75.
+        Do rural areas have COMPENSATING factors? (stronger connection?)
 
-  SK-6: K-culture export (BTS, K-drama) — tạo national PRIDE
-        (shared Imagine-Final?) hay tạo thêm competing Imagine-Final
-        (mọi người muốn thành idol thay vì lập gia đình)?
+  SK-6: K-culture exports (BTS, K-drama) — creates national PRIDE
+        (shared Imagine-Final?) or creates MORE competing Imagine-Finals
+        (everyone wants to become an idol instead of starting a family)?
 
-  SK-7: Remote work post-COVID — data Hàn? Fix repair cycle?
-        Hay Hàn "back to office" mạnh do hierarchical culture?
+  SK-7: Remote work post-COVID — Korean data? Fixes repair cycle?
+        Or is Korea "back to office" heavily due to hierarchical culture?
 
-  SK-8: 2024 rebound: nếu 2025-2026 confirm cohort effect,
-        actual trajectory là bao nhiêu? 0.5? 0.6?
+  SK-8: 2024 rebound: if 2025–2026 confirms the cohort effect,
+        what is the actual trajectory? 0.5? 0.6?
 
-  SK-9: Immigration — Hàn resistant (homogeneous culture).
-        Framework predict: cần connection diversity → immigration
-        help? Hay cultural shock → schemas worse?
+  SK-9: Immigration — Korea is resistant (homogeneous culture).
+        Framework predicts: need connection diversity → does immigration
+        help? Or cultural shock → worse schemas?
 ```
 
 ---
 
-## 11. Kết Nối Với Các File Khác
+## §11. Connections with Other Files
 
 ```
   Framework Core:
-    → Cortisol-Baseline.md §3: NET HEALTH = repair - damage
-      (Hàn: overwork = high damage, repair cycle broken)
-    → Cortisol-Baseline.md §10.5: "giảm cortisol = SAI hướng"
-      (= cho tiền không fix gốc)
-    → Imagine-Final.md §1: 2 tầng + PFC reactive + competing Imagine-Finals
-      (Hàn: career/freedom/travel compete with "gia đình")
+    → Cortisol-Baseline.md §3: NET HEALTH = repair − damage
+      (Korea: overwork = high damage, repair cycle broken)
+    → Cortisol-Baseline.md §10.5: "reducing cortisol = WRONG direction"
+      (= giving money doesn't fix the root)
+    → Imagine-Final.md §1: 2 layers + PFC reactive + competing Imagine-Finals
+      (Korea: career/freedom/travel compete with "family")
     → Connection.md v3.1 §12: Connection × Imagine-Final
-      (Hàn: nuclear family = connection suy giảm)
+      (Korea: nuclear family = connection declining)
     → Conflict-Dynamics.md §1: Overlap × Scarcity × Commitment
-      (Hàn: gender conflict = cả 3 điều kiện đồng thời)
+      (Korea: gender conflict = all 3 conditions simultaneously)
     → Conflict-Dynamics.md §7: Scarcity = Engine
-      (nhưng scarcity KHÔNG bị leverage → chỉ tạo conflict)
+      (but scarcity NOT leveraged → only creates conflict)
 
   Research:
-    → Education-Mechanism.md §3.1: Carrot bridge (nguồn ④)
-      (= tiền incentive = carrot bridge → bị inflation)
+    → Education-Mechanism.md §3.1: Carrot bridge (source ④)
+      (= cash incentives = carrot bridge → subject to inflation)
     → Boredom.md: existential boredom
-      (N-po = cortisol cao + no Imagine-Final = existential boredom)
+      (N-po = high cortisol + no Imagine-Final = existential boredom)
 
   Birth Rate:
-    → 00_Overview.md: 5 trục framework + pattern phổ quát
-    → 06_Israel.md (planned): CONTRAST — phát triển + TFR cao
-      (= có yếu tố BÙ mà Hàn KHÔNG CÓ)
+    → 00_Overview.md: 5-axis framework + universal pattern
+    → 06_Israel.md: CONTRAST — developed + high TFR
+      (= has COMPENSATING factors that Korea DOES NOT)
 ```
 
 ---
 
-> *Hàn Quốc — "TFR 0.72 KHÔNG phải vì 1 lý do.
-> MÀ vì TẤT CẢ 5 trục bị phá ĐỒNG THỜI + KHÔNG CÓ yếu tố bù trừ.
-> Cost #1 TG + suneung 1-kỳ-thi-quyết-đời + 4B + 34-năm-anti-natalist
-> + overwork #5 OECD + gender gap #1 OECD + lookism + military delay.
-> $270 tỷ USD KHÔNG fix: vì tiền = carrot bridge → KHÔNG reach schemas/repair/connection.
-> Giải pháp: fix TẤT CẢ 5 trục ĐỒNG THỜI — chưa quốc gia nào thử."*
+> *South Korea — "TFR 0.72 is NOT because of 1 reason.*
+> *RATHER because ALL 5 axes broke SIMULTANEOUSLY + NO COMPENSATING FACTOR exists.*
+> *Cost #1 world + suneung 1-exam-decides-your-life + 4B + 34-years-anti-natalism*
+> *+ overwork #5 OECD + gender gap #1 OECD + lookism + military delay.*
+> *$270 billion DID NOT FIX IT: because money = carrot bridge → DOESN'T REACH schemas/repair/connection.*
+> *Solution: fix ALL 5 axes SIMULTANEOUSLY — no country has ever tried."*
+> — South Korea v1.0

@@ -2,22 +2,22 @@
 title: 03 — Reward Decoding
 phase: P3 (of P0→P5)
 parent: plan.md
-scope: Decode reward mechanism + preconditions matrix + 7 reward cases + calibration paradoxes (ô tô, Van Gogh) + schema update latency + chunk association tag + sustainability
+scope: Decode reward mechanism + preconditions matrix + 7 reward cases + calibration paradoxes (Car paradox, Van Gogh) + schema update latency + chunk association tag + sustainability
 status: REFERENCE v1.1 (P3 COMPLETE §1-§12. v1.1 2026-05-10: Evaluative/Direct-State notes + cross-refs).
 reading_order: Read AFTER 01-Foundation.md + 02-Dissonance.md
-prerequisite_concepts: Dual-pull / Interface loop / Body-feedback vs Feeling / Vô thức vs PFC / Schema phục vụ body-base (P1) + Cortisol-Baseline §3.5 Novelty/Threat cortisol distinction + Chunk association tag (P2 §5 + §9)
-language: Tiếng Việt primary + English technical terms
+prerequisite_concepts: Dual-Pull Principle / Interface Loop / Body-Feedback vs Feeling / Unconscious vs PFC / Schema Serves Body-Base (P1) + Cortisol-Baseline §3.5 Novelty/Threat cortisol distinction + Chunk association tag (P2 §5 + §9)
+language: English
 ---
 
 # 03 — Reward Decoding
 
-> **Foundation assumed**: Read `01-Foundation.md` + `02-Dissonance.md` first. File này decode reward GIVEN foundation architecture + dissonance mechanism already established.
+> **Foundation assumed**: Read `01-Foundation.md` + `02-Dissonance.md` first. This file decodes reward GIVEN the foundation architecture + dissonance mechanism already established.
 >
 > **Drill priority** (per plan §2.3): "Decode reward mechanism + precondition matrix + 7-case analysis + calibration paradoxes."
 >
-> **Style**: Tiếng Việt primary + English technical terms. 🟢 Research / 🟡 Framework suy luận / 🔴 Hypothesis. "Imagine-Final" không viết tắt.
+> **Style**: 🟢 Research-supported / 🟡 Framework synthesis / 🔴 Hypothesis. "Imagine-Final" is never abbreviated.
 >
-> ⚠️ **H10 formalized**: H10 đã được formalize thành [Body-Feedback-Precondition.md](../Body-Feedback-Precondition.md). File này giữ nguyên H10 là tên hypothesis gốc trong quá trình drill.
+> ⚠️ **H10 formalized**: H10 has been formalized in [Body-Feedback-Precondition.md](../Body-Feedback-Precondition.md). This file retains H10 as the original hypothesis name throughout the drill.
 
 ---
 
@@ -25,54 +25,54 @@ language: Tiếng Việt primary + English technical terms
 
 ### §1.1 — Cluster C user's questions recap
 
-Từ [plan.md §0.5.3](plan.md), user's reward questions:
+From [plan.md §0.5.3](plan.md), reward questions driving this drill:
 
-1. **Body-reward là gì? Sao body lại biết mà trả reward?**
-2. **User's hypothesis**: "Khi 2 chunk hoặc nhiều chunk liên kết với nhau, VTA sẽ fire dopamine. Và khi schema đang có dissonance, bỗng có chunk nào đó liên kết tới và giải được dissonance thì sinh ra => reward"
-3. **7 reward cases** to analyze (C1.1-C1.7)
-4. **Critical precondition hypothesis**: "Body phải có schema đang chờ được giải, hoặc schema đó đang sẵn sàng nâng cấp, thì nó mới cho reward"
-5. **Ô tô paradox 5 scenarios** (C2.1-C2.5) — calibration mystery
+1. **What is body-reward? How does the body know when to give reward?**
+2. **User's hypothesis**: "When two or more chunks link together, VTA fires dopamine. And when a schema is in dissonance, if some chunk suddenly connects and resolves the dissonance — that generates ⇒ reward"
+3. **7 reward cases** to analyze (C1.1–C1.7)
+4. **Critical precondition hypothesis**: "For this to be correct, the body must have a schema that is waiting to be resolved, or that schema must be ready for an upgrade — only then will it grant reward"
+5. **Car paradox 5 scenarios** (C2.1–C2.5) — calibration mystery
 6. **Van Gogh paradox** (C3) — appreciation chunks dependency
-7. **Multi-schema activation** (C4) — new input fires many schemas?
+7. **Multi-schema activation** (C4) — does new input fire many schemas?
 
-File này drill từng câu hỏi, validate user's hypothesis against framework, decompose each case.
+This file drills each question, validates the user's hypothesis against the framework, and decomposes each case.
 
 ### §1.2 — Reward definition reframe
 
 🟡 Framework commit (consolidating from PFC-Analysis §8.3 + Why-Body-Knows §3 + Cortisol-Baseline §3.5):
 
-> **Reward is NOT a single signal**. It's **2-level mechanism** with critical distinction:
+> **Reward is NOT a single signal**. It is a **2-level mechanism** with a critical distinction:
 >
-> **Level 1 — Dopamine ALERT (VTA)**: "CÓ BIẾN ĐỘNG — chú ý!" — signal salience, NOT value
-> **Level 2 — Opioid REWARD (body-base)**: "chunk KHỚP body-need → có giá trị thật" — actual reward
+> **Level 1 — Dopamine ALERT (VTA)**: "CHANGE DETECTED — pay attention!" — signals salience, NOT value
+> **Level 2 — Opioid REWARD (body-base)**: "chunk FITS body-need → this has real value" — actual reward
 >
-> VTA dopamine = **chuông cửa** (doorbell). Opioid = **quà đằng sau cửa** (gift behind door).
+> VTA dopamine = **doorbell**. Opioid = **the gift behind the door**.
 
 **User's initial hypothesis validation**:
 
-User said: "VTA fire dopamine khi chunks link + schema đang có dissonance được giải → reward"
+User said: "VTA fires dopamine when chunks link + schema in dissonance gets resolved → reward"
 
-**Framework agrees with refinement** ✅:
-- ✅ VTA fires on chunk linking (detects delta/coherence change)
+**Framework agrees, with refinement** ✅:
+- ✅ VTA fires on chunk linking (detects prediction-delta / coherence change)
 - ✅ Reward requires schema pending (needs body-need gap)
-- ✅ Reward requires resolution (chunk fill the gap)
+- ✅ Reward requires resolution (chunk fills the gap)
 - 🟡 Refinement: **VTA fire ≠ reward itself**. VTA = alert. Reward = body-base opioid release AFTER body confirms fit.
 
 **This distinction is foundational** because:
-- Explains why scrolling phone can fire dopamine but feel empty (VTA fires, body doesn't confirm = no opioid)
+- Explains why scrolling a phone can fire dopamine but feel empty (VTA fires, body doesn't confirm = no opioid)
 - Explains Berridge wanting vs liking research 🟢
 - Explains why reward is per-person (body-base needs differ)
-- Sets up 5 preconditions structure (§3)
+- Sets up the 5-precondition structure (§3)
 
 ### §1.3 — Berridge wanting vs liking (research validation)
 
 🟢 **Established research** (Berridge & Robinson 1998, 2003):
 
-> Dopamine = **WANTING** (motivation seeking). NOT **LIKING** (pleasure when received).
+> Dopamine = **WANTING** (motivational seeking). NOT **LIKING** (pleasure when received).
 > Liking = primarily opioid system.
 
 **Classic experiments**:
-- Rats with blocked dopamine: STILL like sugar (eat it when given) but DON'T seek it
+- Rats with blocked dopamine: STILL like sugar (eat it when placed in front of them) but DON'T seek it
 - Rats with stimulated dopamine: SEEK non-stop but DON'T experience more pleasure
 
 **Framework interpretation** 🟡:
@@ -84,44 +84,44 @@ User said: "VTA fire dopamine khi chunks link + schema đang có dissonance đư
 - Slot machines, social media, scroll apps: dopamine-heavy (constant alerts)
 - Low opioid (most events don't actually fill body-need)
 - Result: **"wanting without liking"** → compulsive seeking + empty feeling
-- User recognizes: "scroll phone khó chịu xong vẫn chán"
+- (Scrolling feels compulsive yet unsatisfying — this is the mechanism)
 
 **User's hypothesis refined**:
-- "VTA fire" = correct, signals chunk linking detection
-- "Reward sinh ra" = correct mechanism IF body-need actually filled
+- "VTA fires" = correct, signals chunk linking detection
+- "Reward generated" = correct mechanism IF body-need is actually filled
 - **Not every VTA fire → reward** — depends on body-base confirmation
 
 ### §1.4 — Schema pending precondition — user's key insight
 
 **User's critical claim**:
-> "Muốn giải thích được cái này là đúng, vậy chúng ta phải đảm bảo: **body phải có schema đang chờ được giải, hoặc schema đó đang sẵn sàng nâng cấp, thì nó mới cho reward**"
+> "For this to be correct, we need to guarantee: **the body must have a schema waiting to be resolved, or that schema must be ready for an upgrade — only then will it grant reward**"
 
 🟢 **Framework validates with celebration**:
 
-This is **exactly** the precondition embedded in PFC-Analysis §8.3 bước 5:
-> "Chunk KHỚP body-need → opioid release → reward THẬT. Chunk KHÔNG khớp → body 'meh' → PFC discard."
+This is **exactly** the precondition embedded in PFC-Analysis §8.3 step 5:
+> "Chunk FITS body-need → opioid release → REAL reward. Chunk DOES NOT fit → body 'meh' → PFC discards."
 
-**"Body-need" = user's "schema đang chờ được giải"**. Different phrasing, same mechanism.
+**"Body-need" = user's "schema waiting to be resolved."** Different phrasing, same mechanism.
 
-This insight → **H10 Precondition 1** (Schema pending status). File này elevates it from implicit framework claim to **explicit drill thesis**.
+This insight → **H10 Precondition 1** (Schema pending status). This file elevates it from an implicit framework claim to an **explicit drill thesis**.
 
 ### §1.5 — Drill sections overview
 
-File này cover 12 drill sections:
+This file covers 12 drill sections:
 
 - **§2** — VTA Detection Mechanism (PFC-Analysis §8.3 7-step consolidated)
 - **§3** — Reward Preconditions Matrix (H10 core — 5 preconditions explicated)
-- **§4** — 7 Reward Cases Analyzed (C1.1-C1.7)
-- **§5** — Ô tô paradox 5-scenario matrix (C2.1-C2.5)
+- **§4** — 7 Reward Cases Analyzed (C1.1–C1.7)
+- **§5** — Car paradox 5-scenario matrix (C2.1–C2.5)
 - **§6** — Van Gogh appreciation paradox (C3) [P3b]
 - **§7** — Spreading activation multi-schema (C4) [P3b]
 - **§8** — Schema update latency (C5 + real alternatives) [P3b]
-- **§9** — Chunk association tag (novelty vs threat cortisol + thiên tài paradox) [P3b]
+- **§9** — Chunk association tag (novelty vs threat cortisol + Genius paradox) [P3b]
 - **§10** — Reward sustainability (flow state, opioid vs relief) [P3b]
 - **§11** — Open questions [P3b]
-- **§12** — Cross-refs [P3b]
+- **§12** — Cross-references [P3b]
 
-**P3a scope**: §1-§5. **P3b** (append next): §6-§12.
+**P3a scope**: §1–§5. **P3b** (appended): §6–§12.
 
 ---
 
@@ -129,43 +129,45 @@ File này cover 12 drill sections:
 
 ### §2.1 — Source: PFC-Analysis §8.3
 
-🟡 Framework formalization ở `Imagination/PFC-Analysis.md` §8.3 "VTA Detection Mechanism — Delta Detection + PFC Spotlight Loop". Đã read + extract ở session prep.
+🟡 Framework formalization in `Imagination/PFC-Analysis.md` §8.3 "VTA Detection Mechanism — Delta Detection + PFC Spotlight Loop."
 
-**This section**: consolidate 7-step loop + validate user's hypothesis against each step.
+**This section**: consolidates the 7-step loop and validates the user's hypothesis against each step.
 
 ### §2.2 — 7-Step Loop Overview
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
 │                                                                │
-│  Step 1: VÔ THỨC — neurons fire 24/7, self-organizing          │
+│  Step 1: UNCONSCIOUS — neurons fire 24/7, self-organizing      │
 │          patterns form via Hebbian synchronization              │
 │                              ↓                                 │
 │  Step 2: VTA DETECTS DELTA — habituation-based                 │
 │          (prediction-delta, not "prediction error")            │
-│          Schema cũ đều → VTA quen → im                         │
-│          Pattern mới → "BIẾN ĐỘNG!" → VTA fire → dopamine      │
+│          Old schema stable → VTA habituates → silent           │
+│          New pattern → "CHANGE DETECTED!" → VTA fires →        │
+│          dopamine                                              │
 │                              ↓                                 │
 │  Step 3: RECEPTOR FILTER — DRD4 determines threshold           │
 │          4R receptor: sensitive → small delta detected         │
 │          7R receptor: less sensitive → only large delta        │
 │                              ↓                                 │
-│  Step 4: PFC SPOTLIGHT — top-down boost target region          │
+│  Step 4: PFC SPOTLIGHT — top-down boost to target region       │
 │          PFC: "something happening there" → NE + ACh boost     │
 │          Target region fires more clearly → "spotlighted"      │
 │                              ↓                                 │
-│  Step 5: BODY-BASE CHECK ⭐ — chunk fit body-need?             │
-│          PFC sends chunk to body: "simulate → feel gì?"        │
-│          Body KHỚP → OPIOID release → REWARD THẬT              │
+│  Step 5: BODY-BASE CHECK ⭐ — does chunk fit body-need?        │
+│          PFC sends chunk to body: "simulate → what does it     │
+│          feel like?"                                           │
+│          Body FITS → OPIOID release → REAL REWARD              │
 │          Body "meh" → PFC discards                             │
 │                              ↓                                 │
 │  Step 6: REINFORCE + LOOP — pattern stabilizes                 │
 │          Successful chunk → strengthen pathways                 │
-│          VTA habituate new pattern → "baseline mới"            │
+│          VTA habituates new pattern → "new baseline"           │
 │          Unconscious continues trying → new delta → Step 2     │
 │                              ↓                                 │
-│  Step 7: CLEAR DOPAMINE — COMT enzyme breaks down               │
-│          Signal fades → ready for next detection                │
+│  Step 7: CLEAR DOPAMINE — COMT enzyme breaks down              │
+│          Signal fades → ready for next detection               │
 │                                                                │
 └────────────────────────────────────────────────────────────────┘
 ```
@@ -173,37 +175,37 @@ File này cover 12 drill sections:
 ### §2.3 — Step 1: Unconscious Self-Organization
 
 **Mechanism**:
-- 🟢 86 billion neurons fire continuously (24/7, even in sleep)
-- Each neuron connects to ~7000 neighbors → signals propagate
+- 🟢 86 billion neurons fire continuously (24/7, even during sleep)
+- Each neuron connects to ~7,000 neighbors → signals propagate
 - Neurons synchronize (fire together) based on Hebbian rule
-- Self-organizing process (Mexican wave analogy) — no central controller
+- Self-organizing process (like a stadium wave) — no central controller
 - Patterns emerge = "chunks" (groups of neurons firing synchronously)
 
 **Critical context**: Cortisol baseline amplifies this (Cortisol-Baseline §1):
-- Cortisol low → fewer pattern attempts → slow adaptation
-- Cortisol moderate → active pattern trying → optimal learning
-- Cortisol high → excessive firing → noise + overload
+- Low cortisol → fewer pattern attempts → slow adaptation
+- Moderate cortisol → active pattern-trying → optimal learning
+- High cortisol → excessive firing → noise + overload
 
-**Connection to user's hypothesis**: "Chunks liên kết với nhau" happens continuously in unconscious. Question is WHEN VTA detects the linking.
+**Connection to user's hypothesis**: "Chunks linking together" happens continuously in the unconscious. The question is WHEN VTA detects the linking.
 
 ### §2.4 — Step 2: Prediction-Delta Detection (Habituation-Based)
 
 🟡 **Critical framework claim** (PFC-Analysis §8.3 — diverges from Schultz "prediction error"):
 
-> VTA = **"seismograph"** — detects BIẾN ĐỘNG (prediction-delta), not absolute intensity, not "prediction error" calculation.
+> VTA = **"seismograph"** — detects prediction-delta (change), not absolute intensity, not "prediction error" calculation.
 >
 > Mechanism: HABITUATION.
 > - Region X fires stably → VTA habituates → ignores
 > - Region X fires differently → "SOMETHING CHANGED!" → VTA fires → dopamine
-> - Region X stabilizes at new level → VTA habituates again → back to ignore
+> - Region X stabilizes at new level → VTA habituates again → back to ignoring
 > - Region Y changes → "DIFFERENT CHANGE!" → VTA fires again
 
-**Key insight**: Framework's habituation model (prediction-delta) is **simpler** than Schultz 1997 "prediction error" theory, but produces same observable result.
+**Key insight**: The framework's habituation model (prediction-delta) is **simpler** than Schultz 1997 "prediction error" theory, yet produces the same observable result.
 
 **Schultz model** (standard): Brain predicts outcome → compares to actual → dopamine fires on error
 **Framework model**: Brain has habituated to stable patterns → new activity differs → fires on difference
 
-**Both give same prediction**: dopamine fires on novelty, silence on routine. But framework model is **computationally cheaper** (no prediction computation needed, just habituation detection).
+**Both produce the same prediction**: dopamine fires on novelty, silence on routine. But the framework model is **computationally cheaper** (no prediction computation required, just habituation detection).
 
 🟢 **Research support for habituation aspect**: established neuroscience (multiple species, multiple systems).
 
@@ -220,9 +222,9 @@ File này cover 12 drill sections:
 - 7R = "big chunks / big delta" — high threshold, misses subtleties, needs novelty to notice
 - 4R = "small chunks / small delta" — low threshold, notices everything, detail-oriented
 
-**Implication for reward**: Same pattern → different person DRD4 → different PFC detection → different reward experience.
+**Implication for reward**: Same pattern → different person's DRD4 → different PFC detection → different reward experience.
 
-**Why this matters for drill**: Reward is **per-person** at receptor level too, not just at chunks base level.
+**Why this matters for the drill**: Reward is **per-person** at the receptor level too, not just at the chunks base level.
 
 ### §2.6 — Step 4: PFC Spotlight (Top-Down Boost)
 
@@ -232,22 +234,22 @@ File này cover 12 drill sections:
 - Target region neurons fire MORE strongly (amplification)
 - "Spotlight effect" — region becomes clearer to PFC
 
-**Key**: PFC doesn't "tell" unconscious what to do. PFC just "increases volume" of that region, and neurons there do whatever their connections dictate.
+**Key**: PFC doesn't "tell" the unconscious what to do. PFC just "turns up the volume" of that region, and the neurons there do whatever their connections dictate.
 
 **Spreading activation**: Boosted region → neighbors fire → related chunks activate → "associative cascade" (Collins & Loftus 1975 🟢).
 
 ### §2.7 — Step 5: BODY-BASE CHECK ⭐ (CRITICAL STEP)
 
-🟡 **This is the KEY step for reward** (PFC-Analysis §8.3 bước 5, verbatim):
+🟡 **This is the KEY step for reward** (PFC-Analysis §8.3 step 5, verbatim framework):
 
-> "PFC nhận chunk → integrate vào workspace → PFC gửi chunk XUỐNG body-base: 'giả lập → body feel gì?'
-> Body-base simulate:
-> → Chunk KHỚP body-need → **opioid release → reward THẬT**
-> → Chunk KHÔNG khớp → body 'meh' → PFC discard
+> "PFC receives chunk → integrates into workspace → PFC sends chunk DOWN to body-base: 'simulate → what does the body feel?'
+> Body-base simulates:
+> → Chunk FITS body-need → **opioid release → REAL REWARD**
+> → Chunk DOES NOT fit → body 'meh' → PFC discards
 >
-> → Reward thật = body-base confirm, KHÔNG phải dopamine
-> → Dopamine = signal 'có biến động' (chuông cửa)
-> → Opioid = reward 'có giá trị thật' (quà đằng sau cửa)"
+> → Real reward = body-base confirmation, NOT dopamine
+> → Dopamine = 'change detected' signal (doorbell)
+> → Opioid = 'real value confirmed' reward (the gift behind the door)"
 
 **Unpacking**:
 
@@ -256,7 +258,7 @@ File này cover 12 drill sections:
 - Activates associated body states (cross-pathway firing)
 - 🟢 Jeannerod 1995: motor imagery uses motor cortex same as real motion
 - 🟢 Kosslyn 1994: visual imagery uses visual cortex same as real sight
-- Body can "feel" simulated action ~20-60% fidelity
+- Body can "feel" simulated action at ~20–60% fidelity
 
 **Substep 5b — Body-base checks body-need match**:
 - Current body state has active needs (hunger, social, exploration, safety, etc.)
@@ -268,41 +270,41 @@ File này cover 12 drill sections:
 - Endogenous opioids (endorphins, enkephalins, dynorphins)
 - 🟢 Berridge 2003, Fields 2007 — liking system
 - Body experiences "pleasure" signal
-- This is what user experiences as "pleasant"
+- This is what the person experiences as "pleasant"
 
 **Substep 5d — PFC receives opioid feedback**:
-- PFC notes: chunk produced body reward
+- PFC notes: this chunk produced body reward
 - Tags chunk: "valuable, keep"
 - Reinforces chunk in memory
 - **This is where chunks get tagged** (opioid vs cortisol association — Cortisol-Baseline §3.5)
 
 🟡 **Evaluative/Direct-State Note (v1.1)**: Step 5 opioid check = primarily **EVALUATIVE** pathway.
 Direct-State Reward (touch, exercise, warmth) bypasses cortical evaluation → different, shorter pathway.
-Chi tiết Evaluative/Direct-State dimension: Reward-Signal-Architecture.md §1-§3.
+For the Evaluative/Direct-State dimension in detail: Reward-Signal-Architecture.md §1–§3.
 
 **User's hypothesis validated with addition**:
-- User: "Chunk liên kết → VTA fire → reward"
-- Framework: "Chunk liên kết → VTA fire (alert) → PFC check → body simulate → body-need match → **opioid (actual reward)**"
+- User: "Chunk links → VTA fires → reward"
+- Framework: "Chunk links → VTA fires (alert) → PFC check → body simulates → body-need match → **opioid (actual reward)**"
 - User's "reward" = framework's "opioid response after body confirmation"
 
 ### §2.8 — Step 6: Reinforce + Loop
 
 **Mechanism**:
-- Successful chunk (got opioid) → pathway strengthened via Hebbian LTP + late LTP
+- Successful chunk (received opioid) → pathway strengthened via Hebbian LTP + late LTP
 - Schema updates → more stable pattern
 - VTA habituates to new stable pattern → ignores → baseline shifted
 - **Unconscious tries next pattern** → new delta → Step 2 → loop continues
 
-**Key insight**: Each successful loop **raises baseline**. Next reward requires new novelty. This is the **hedonic treadmill** at neural level (Brickman 1978 🟢).
+**Key insight**: Each successful loop **raises the baseline**. The next reward requires new novelty. This is the **hedonic treadmill** at the neural level (Brickman 1978 🟢).
 
 ### §2.9 — Step 7: Clear Dopamine
 
 **Mechanism**:
-- COMT enzyme breaks down dopamine in synaptic cleft (PFC)
+- COMT enzyme breaks down dopamine in the synaptic cleft (PFC)
 - Signal fades → synapse ready for next signal
-- COMT variants affect clear speed:
-  - Val/Val (fast COMT) → rapid clear → short-lived dopamine → "improviser" mode
-  - Met/Met (slow COMT) → slow clear → persistent dopamine → "specialist" mode
+- COMT variants affect clearance speed:
+  - Val/Val (fast COMT) → rapid clearance → short-lived dopamine → "improviser" mode
+  - Met/Met (slow COMT) → slow clearance → persistent dopamine → "specialist" mode
 
 **Application**: Personal hardware (genetics) affects reward signal duration, therefore reward experience intensity.
 
@@ -310,24 +312,24 @@ Chi tiết Evaluative/Direct-State dimension: Reward-Signal-Architecture.md §1-
 
 🟡 **Framework core commitment**:
 
-> The "reward" subjective experience = Step 5 opioid release.
-> VTA dopamine = Step 2-4 alert + attention direction.
+> The subjective experience of "reward" = Step 5 opioid release.
+> VTA dopamine = Steps 2–4 alert + attention direction.
 > These are **different signals, different systems, different neurochemicals, different subjective experiences**.
 
 **Why confusion is common**:
 - Research often measures dopamine → calls it "reward signal" → conflates with subjective reward
-- Pop science: "dopamine hit" → everyone thinks dopamine = pleasure
-- Framework: dopamine = alert, opioid = pleasure, they cooperate but are NOT the same
+- Pop science: "dopamine hit" → everyone assumes dopamine = pleasure
+- Framework: dopamine = alert, opioid = pleasure — they cooperate but are NOT the same
 
 **Falsification test**: If dopamine = reward, then:
 - Blocking dopamine → no reward → no liking → subject won't eat sugar
 - Stimulating dopamine → more reward → more liking → subject enjoys more
 
 **Actual findings** (Berridge):
-- Blocking dopamine → subject STILL likes sugar (eats when given, facial pleasure) but won't SEEK it
+- Blocking dopamine → subject STILL likes sugar (eats when placed in front of them, shows facial pleasure) but won't SEEK it
 - Stimulating dopamine → subject SEEKS more but DOESN'T enjoy more
 
-**→ Dopamine separated from liking. Liking is opioid. Framework vindicated**.
+**→ Dopamine separated from liking. Liking is opioid. Framework vindicated.**
 
 ---
 
@@ -337,15 +339,15 @@ Chi tiết Evaluative/Direct-State dimension: Reward-Signal-Architecture.md §1-
 
 🟡 **H10 — Body Signal Precondition Hypothesis v2**:
 
-> Body signal (reward OR dissonance) = function of **5 preconditions** on interface loop:
+> Body signal (reward OR dissonance) = function of **5 preconditions** on the Interface Loop:
 >
-> 1. **Schema pending status** — có schema đang chờ fill/resolve/upgrade?
-> 2. **Chunks base adequacy** — có đủ chunks substrate để decode pattern?
-> 3. **prediction-delta threshold** — biến động đủ lớn để VTA detect?
-> 4. **Goldilocks zone position** — Goldilocks zone (dynamic)?
-> 5. **Chunk association tag** — chunks tag (opioid vs cortisol) direction?
+> 1. **Schema pending status** — is there a schema waiting to be filled/resolved/upgraded?
+> 2. **Chunks base adequacy** — is there sufficient chunks substrate to decode the pattern?
+> 3. **Prediction-delta threshold** — is the change large enough for VTA to detect?
+> 4. **Goldilocks zone position** — is the input within the Goldilocks zone (dynamic)?
+> 5. **Chunk association tag** — what direction do the chunks' tags (opioid vs cortisol) point?
 >
-> **Claim**: Signal fires correctly (i.e., full reward) WHEN ALL 5 preconditions met. Absence of ANY → signal absent or wrong direction.
+> **Claim**: Signal fires correctly (i.e., full reward) WHEN ALL 5 preconditions are met. Absence of ANY → signal absent or pointing in the wrong direction.
 
 **Falsifiability**: Each precondition can be manipulated independently. Failure modes are predictable per precondition violated.
 
@@ -353,45 +355,45 @@ Chi tiết Evaluative/Direct-State dimension: Reward-Signal-Architecture.md §1-
 
 🟡 **Definition**:
 
-> Body must have **unresolved body-need** OR **schema seeking upgrade** — an "opening" in the schema landscape where new information can "fit."
+> Body must have an **unresolved body-need** OR a **schema seeking upgrade** — an "opening" in the schema landscape where new information can "fit."
 
 **Mechanism**:
-- Body-needs (Body-Base L1 + Body-Input-Enumeration §4): hunger, social, exploration, safety, etc.
+- Body-needs (Body-Base layer 1 + Body-Input-Enumeration §4): hunger, social, exploration, safety, etc.
 - Schema-level needs: coherence gap, incomplete knowledge, unresolved problem
-- "Pending" = active signal indicating gap exists
+- "Pending" = active signal indicating a gap exists
 
 **Detection by body**:
-- Vô thức scans ongoing (vis-à-vis Imagine-Final expectations)
+- Unconscious scans ongoing (vis-à-vis Imagine-Final expectations)
 - When current state ≠ expected → signal "need"
-- Signal persists until need met
+- Signal persists until need is met
 
 **When precondition MET** (schema pending present):
-- Relevant chunks fire → check if fit pending need → opioid if match
+- Relevant chunks fire → check if they fit the pending need → opioid if match
 - Example: hungry person eats → food chunks fit "need" → opioid
 
 **When precondition FAILED** (no schema pending):
-- Chunks fire but no "need" to match against
+- Chunks fire but there is no "need" to match against
 - VTA may still fire on delta, but body doesn't confirm value
 - No opioid
 - Example: full person offered food → no hunger need → no pleasure
 
 **Classical research validation**:
-- Satiety effects: same food less pleasurable when full (Cabanac 1971 "alliesthesia" 🟢)
-- Motivation + reward: seeking requires pending need state
+- Satiety effects: same food is less pleasurable when full (Cabanac 1971 "alliesthesia" 🟢)
+- Motivation + reward: seeking requires a pending need state
 
-**User's hypothesis match**: ✅ Exactly "schema đang chờ được giải" = schema pending status.
+**User's hypothesis match**: ✅ Exactly "schema waiting to be resolved" = schema pending status.
 
 ### §3.3 — Precondition 2: Chunks Base Adequacy
 
 🟡 **Definition**:
 
-> Body must have **sufficient chunks substrate** để decode the incoming pattern and recognize it as relevant to a pending need.
+> Body must have **sufficient chunks substrate** to decode the incoming pattern and recognize it as relevant to a pending need.
 
 **Mechanism**:
 - Chunks = compiled patterns from past experience (Chunk.md §2)
 - New input → unconscious searches for matching chunks
 - Match → recognition → can evaluate fit with need
-- No match → "cannot decode" → uncertainty → cortisol mild (NOT opioid)
+- No match → "cannot decode" → uncertainty → mild cortisol (NOT opioid)
 
 **When precondition MET** (chunks base sufficient):
 - Input recognized via matching chunks
@@ -401,21 +403,21 @@ Chi tiết Evaluative/Direct-State dimension: Reward-Signal-Architecture.md §1-
 **When precondition FAILED** (chunks base insufficient):
 - Input cannot be decoded
 - Body signals "confusion" or "strangeness"
-- NO reward, even if theoretically the object is valuable
-- Example: Van Gogh painting shown to untrained viewer → chunks base insufficient → "không hiểu" (§6 drill)
+- NO reward, even if the object is theoretically valuable
+- Example: Van Gogh painting shown to untrained viewer → chunks base insufficient → "can't make sense of this" (§6)
 
 **Developmental implication** (P1 §5.5):
-- Infants have minimal chunks → many things "strange"
+- Infants have minimal chunks → many things are "strange"
 - Adults have rich chunks → more things decodable
 - Experts in domain X have rich X-specific chunks → more fine-grained evaluation possible
 
-**User's hypothesis extension**: "Schema đang sẵn sàng nâng cấp" = chunks base adequate FOR upgrade = this precondition.
+**User's hypothesis extension**: "Schema ready for upgrade" = chunks base adequate FOR upgrade = this precondition.
 
 ### §3.4 — Precondition 3: Prediction-Delta Threshold
 
 🟡 **Definition**:
 
-> The biến động (delta) must be **large enough** to exceed VTA habituation threshold so that dopamine fires and PFC attention is triggered.
+> The change (prediction-delta) must be **large enough** to exceed VTA's habituation threshold so that dopamine fires and PFC attention is triggered.
 
 **Mechanism**:
 - VTA habituated to stable patterns → ignores
@@ -426,13 +428,13 @@ Chi tiết Evaluative/Direct-State dimension: Reward-Signal-Architecture.md §1-
 - VTA fires → dopamine → PFC attention → downstream reward possible
 
 **When precondition FAILED** (delta too small):
-- VTA stays silent → no alert → PFC doesn't attend → no downstream reward even if other preconditions met
+- VTA stays silent → no alert → PFC doesn't attend → no downstream reward even if other preconditions are met
 - Example: routine daily events slip by without being registered as "rewarding" even if they're objectively good
 
 **Classic manifestation** (hedonic adaptation):
 - First time eating chocolate: huge delta → reward intense
 - 100th time: pattern stable → small delta → reward muted
-- 1000th time: fully habituated → no delta → no reward despite same food
+- 1,000th time: fully habituated → no delta → no reward despite same food
 
 **Implication**: Reward requires novelty at some level. Pure repetition without variation loses reward potency.
 
@@ -440,23 +442,23 @@ Chi tiết Evaluative/Direct-State dimension: Reward-Signal-Architecture.md §1-
 
 🟡 **Definition**:
 
-> Match ratio between input pattern and existing chunks must fall in **Goldilocks zone** (dynamic per person/context). Too familiar (>90%) → boring. Too alien (<20%) → confusing. Goldilocks zone → optimal reward.
+> The match ratio between the input pattern and existing chunks must fall within the **Goldilocks zone** (dynamic per person/context). Too familiar (>90%) → boring. Too alien (<20%) → confusing. Goldilocks zone → optimal reward.
 
 **Mechanism** (Why-Body-Knows §2):
-- <20% match: too novel → can't decode → cortisol mild → dissonance
-- Goldilocks zone: recognizable + surprising → opioid + dopamine → **HAY**
-- >90% match: too familiar → habituated → dopamine silent → chán
+- <20% match: too novel → can't decode → mild cortisol → dissonance
+- Goldilocks zone: recognizable + surprising → opioid + dopamine → **captivating**
+- >90% match: too familiar → habituated → dopamine silent → boring
 
 **When precondition MET**:
-- Input fits Goldilocks zone
-- Combined with Preconditions 1-3 → maximum reward
+- Input falls within Goldilocks zone
+- Combined with Preconditions 1–3 → maximum reward
 
 **When precondition FAILED**:
-- **Too alien** (<20%): No decoding → confusion (Van Gogh to untrained)
-- **Too familiar** (>90%): No novelty → boredom (same food 1000x)
+- **Too alien** (<20%): No decoding → confusion (Van Gogh to untrained viewer)
+- **Too familiar** (>90%): No novelty → boredom (same food 1,000 times)
 
 **Research validation** 🟢:
-- Zajonc 1968 mere exposure effect (familiarity → preference, but limit)
+- Zajonc 1968 mere exposure effect (familiarity → preference, but with a limit)
 - Berlyne 1960 optimal novelty (inverted-U with arousal)
 - North & Hargreaves 1995 music preference × familiarity inverted-U
 
@@ -464,149 +466,149 @@ Chi tiết Evaluative/Direct-State dimension: Reward-Signal-Architecture.md §1-
 
 🟡 **Definition** (Cortisol-Baseline §3.5 integration):
 
-> Chunks being activated must have **appropriate association tag** (opioid vs cortisol) for the direction of reward being sought. Threat-tagged chunks fire discomfort even if other preconditions met. Opioid-tagged chunks fire sustainably.
+> Chunks being activated must carry the **appropriate association tag** (opioid vs cortisol) for the direction of reward being sought. Threat-tagged chunks fire discomfort even if all other preconditions are met. Opioid-tagged chunks fire sustainably.
 
 **Mechanism**:
-- Chunks compile under specific cortisol state (novelty vs threat)
+- Chunks compile under specific cortisol states (novelty vs threat)
 - Tag persists through retrieval (Cortisol-Baseline §3.5)
-- Future activation fires tag association along with content
+- Future activation fires the tag association along with the content
 
 **When precondition MET**:
-- Chunks opioid-tagged → activation pleasant → sustainable reward
-- Example: music learned during curiosity → re-listening pleasant
+- Chunks are opioid-tagged → activation is pleasant → sustainable reward
+- Example: music learned during curiosity → re-listening is pleasant
 
 **When precondition FAILED**:
-- Chunks cortisol-tagged → activation uncomfortable → avoidant
+- Chunks are cortisol-tagged → activation is uncomfortable → avoidance
 - Example: math learned under fear → adult retrieval fires discomfort
-- Or: chunks compiled in survival mode → functional but not "enjoyable"
+- Or: chunks compiled in survival mode → functional but not enjoyable
 
-**Thiên tài paradox relevance** (P2 §5.6):
-- Newton/Tesla/Einstein had high baseline cortisol
-- But learning-domain chunks compiled in curiosity state (threat source ≠ learning)
+**Genius paradox relevance** (P2 §5.6):
+- Newton/Tesla/Einstein had high cortisol baseline
+- But learning-domain chunks compiled in curiosity state (threat source ≠ learning domain)
 - → Chunks opioid-tagged in their learning domain
 - → Reward accessible despite high baseline
 
-🟡 **P5 extends (v1.1)**: P5 determines not just direction (approach/avoid) but reward QUALITY.
+🟡 **Precondition 5 extends (v1.1)**: Precondition 5 determines not just direction (approach/avoid) but reward QUALITY.
 4-Pathway × P5 Tag Model: Hardware Fit → approach, Trust → moderate, Social → neutral, Threat → avoidance.
-Chi tiết: Reward-Signal-Architecture.md §8.4
+For details: Reward-Signal-Architecture.md §8.4.
 
 ### §3.7 — Preconditions Matrix Summary
 
 | # | Precondition | Failure mode | Classic example |
 |---|---|---|---|
 | 1 | Schema pending | No need → no reward even if offered | Full person offered more food |
-| 2 | Chunks base adequate | Cannot decode → confusion not reward | Van Gogh to untrained |
-| 3 | prediction-delta threshold | No alert → no attention | Routine events missed |
-| 4 | Goldilocks zone | Too alien OR too familiar → wrong direction | New music no chunks (alien) or 1000x same song (familiar) |
-| 5 | Chunk tag | Content recognized but discomfort tagged → avoidance | Math learned under stress |
+| 2 | Chunks base adequate | Cannot decode → confusion, not reward | Van Gogh to untrained viewer |
+| 3 | Prediction-delta threshold | No alert → no attention | Routine events missed |
+| 4 | Goldilocks zone | Too alien OR too familiar → wrong direction | New music with no chunks (alien) or the same song 1,000 times (familiar) |
+| 5 | Chunk tag | Content recognized but discomfort-tagged → avoidance | Math learned under stress |
 
 ### §3.8 — All 5 Required Claim
 
 🟡 **Strong claim**:
 
-> Full reward (subjective pleasant experience) requires **ALL 5** preconditions met. Absence of ANY → signal reduced or wrong direction.
+> Full reward (subjective pleasant experience) requires **ALL 5** preconditions to be met. Absence of ANY → signal reduced or pointing in the wrong direction.
 
 **Why strong claim**:
-- Each precondition addresses different mechanism layer
+- Each precondition addresses a different mechanism layer
 - Missing any layer → corresponding failure mode
-- No precondition redundant
+- No precondition is redundant
 
 **Falsifiability**:
-- Violate P1: full person, offer food → should not show reward → tested (alliesthesia research)
-- Violate P2: show Van Gogh to untrained → should show confusion not reward → observable
+- Violate P1: full person, offer food → should show no reward → tested (alliesthesia research)
+- Violate P2: show Van Gogh to untrained viewer → should show confusion not reward → observable
 - Violate P3: boring routine → should show habituation not reward → observable
 - Violate P4: extreme novelty or extreme familiarity → should NOT reward → Goldilocks research
-- Violate P5: math-avoidant adult given "interesting" math problem → still feels aversion → clinical observation
+- Violate P5: math-avoidant adult given an "interesting" math problem → still feels aversion → clinical observation
 
-**Framework prediction**: Cases where "should reward but doesn't" = one precondition missed. Cases where "shouldn't reward but does" = either mislabeling OR threshold effect (still all 5 met barely).
+**Framework prediction**: Cases where "should reward but doesn't" = one precondition missed. Cases where "shouldn't reward but does" = either mislabeling OR threshold effect (still all 5 barely met).
 
 ---
 
-## §4 — 7 Reward Cases Analyzed (C1.1-C1.7)
+## §4 — 7 Reward Cases Analyzed (C1.1–C1.7)
 
-### §4.1 — Case C1.1: Cô Giáo Gọi Tên (Habituation vs Novelty)
+### §4.1 — Case C1.1: Teacher Calls Your Name (Habituation vs Novelty)
 
-**User's verbatim**:
-> "Đang chăm chú làm bài, bỗng cô giáo gọi tên mình, chunk liên kết quá mạnh trong não, nó kích hoạt mạnh mẽ hàng loạt chunk liên quan, VTA báo hiệu rõ ràng, PFC biết, ngẩng lên nhìn cô <= giật mình, hoặc bình thường do đã quen, không reward"
+**User's verbatim** (translated):
+> "Deep in an assignment, suddenly the teacher calls your name — the chunk links fire so strongly they cascade across all related chunks, VTA signals clearly, PFC knows, you look up ← startled. Or nothing happens because you're used to it — no reward."
 
 **Mechanism decomposition** 🟡:
 
 #### §4.1.1 — Dual outcome analysis
 
-User cleverly identifies **2 outcomes** for same stimulus:
-- Outcome A: "Giật mình" (surprise, attention spike)
-- Outcome B: "Bình thường do đã quen" (no reaction, habituated)
+User cleverly identifies **2 outcomes** for the same stimulus:
+- Outcome A: Startled (surprise, attention spike)
+- Outcome B: No reaction (habituated)
 
 Framework explains via precondition analysis:
 
-**Outcome A (giật mình) — Preconditions state**:
-- P1 Schema pending: focus on bài → not specifically attending to name
-- P2 Chunks base: "cô giáo gọi tên = attention event" chunk solid
-- P3 prediction-delta: HIGH (unexpected name call while focused elsewhere)
+**Outcome A (startled) — Preconditions state**:
+- P1 Schema pending: focused on the assignment → not specifically attending to one's name
+- P2 Chunks base: "teacher calls name = attention event" chunk solid
+- P3 Prediction-delta: HIGH (unexpected name call while focused elsewhere)
 - P4 Goldilocks: within Goldilocks zone (expected some teacher sound, not specifically own name)
 - P5 Tag: neutral-positive (not threatening)
 
-Result: VTA fires HARD → dopamine spike → attention interrupts → "giật mình"
-But → body-base check: Name call isn't filling any body-need at Step 5 → NO OPIOID → NO subjective reward despite VTA activity.
+Result: VTA fires HARD → dopamine spike → attention interrupts → startled
+But → body-base check: name call isn't filling any body-need at Step 5 → NO OPIOID → NO subjective reward despite VTA activity.
 
-**→ VTA alert ≠ reward**. Giật mình is "attention grabbed," not "pleased."
+**→ VTA alert ≠ reward.** Being startled is "attention grabbed," not "pleased."
 
-**Outcome B (bình thường do quen) — Preconditions state**:
-- P3 prediction-delta: LOW (habituated — pattern of being called in class is stable)
+**Outcome B (no reaction, habituated) — Preconditions state**:
+- P3 Prediction-delta: LOW (habituated — the pattern of being called in class is stable)
 - VTA doesn't fire strongly → no interrupt → "no reaction"
 - All other preconditions irrelevant if P3 fails
 
 Result: No attention shift, no surprise, routine continues.
 
-#### §4.1.2 — Why user's case is instructive
+#### §4.1.2 — Why this case is instructive
 
-This case reveals **2-level separation** between VTA alert and reward:
+This case reveals the **2-level separation** between VTA alert and reward:
 - VTA CAN fire without reward (Outcome A: spike but no opioid)
 - Reward CANNOT fire without VTA alert (Outcome B: no alert → no downstream)
 
 → Dopamine is **necessary but not sufficient** for reward.
 
 User's intuition:
-> "VTA báo hiệu rõ ràng" = dopamine fires
-> "Giật mình" = attention captured
-> "Không reward" = correct — no opioid despite VTA activity
+> "VTA signals clearly" = dopamine fires
+> "Startled" = attention captured
+> "No reward" = correct — no opioid despite VTA activity
 
-Framework validates: VTA fires (attention), but Step 5 body-base check doesn't find fit → no opioid.
+Framework validates: VTA fires (attention), but Step 5 body-base check finds no fit → no opioid.
 
-### §4.2 — Case C1.2: Cô Khen Giải Bài Trước Lớp (Social Schema Fill)
+### §4.2 — Case C1.2: Teacher Praises Problem-Solving in Front of the Class (Social Schema Fill)
 
-**User's verbatim**:
-> "Cô hỏi mình làm được bài này không, mình trả lời với cô là làm được, giải bài trước lớp, cô khen => sướng (schema được khen trước lớp là mong muốn tự nhiên, vì thấy nhiều bạn được khen, mẹ cũng thích mình được khen trước lớp, chunk cô giáo khen kích hoạt đồng thời nhiều chunk liên quan, fire mạnh mẽ)"
+**User's verbatim** (translated):
+> "Teacher asks whether I can solve this problem, I say I can, work it out at the front of the class, teacher praises me ⇒ pleasant (being praised in front of the class is a natural desire — I've seen classmates praised, my mom wants me to be praised too; the 'teacher's praise' chunk activates many related chunks simultaneously, firing strongly)"
 
 **Mechanism decomposition** 🟡:
 
 #### §4.2.1 — Precondition analysis
 
-**P1 Schema pending ✅**: 
-- User articulates this beautifully: "schema được khen trước lớp là mong muốn tự nhiên"
-- Observational learning: saw bạn được khen → mong muốn form
-- Social approval schema compiled from: observing others + mẹ's preference + cultural context
+**P1 Schema pending ✅**:
+- User articulates this beautifully: "being praised in front of the class is a natural desire"
+- Observational learning: saw classmates praised → desire forms
+- Social approval schema compiled from: observing others + mother's preference + cultural context
 - **Need state**: "I want social recognition" — pending, active
 
 **P2 Chunks base ✅**:
-- Rich chunks about: "khen trước lớp" + "social approval" + "competence display" + "cô giáo judgment"
+- Rich chunks about: "praise in front of class" + "social approval" + "competence display" + "teacher's judgment"
 - Can decode the situation fully
 - Understands meaning at multiple levels (direct praise + social positioning + family pride)
 
-**P3 prediction-delta ✅**:
+**P3 Prediction-delta ✅**:
 - Surprise factor: praise (positive) exceeds baseline expectation
-- Multiple simultaneous chunks firing (user notes: "nhiều chunk liên quan, fire mạnh mẽ")
+- Multiple simultaneous chunks firing (user notes: "many related chunks activate simultaneously, firing strongly")
 - Spreading activation cascade → large neural delta
 - VTA fires strongly
 
 **P4 Goldilocks ✅**:
-- Match 50-70%: recognized situation but with positive novelty
-- Familiar enough to decode ("khen trước lớp I understand")
-- Novel enough to be salient (praise specifically for me, now)
+- Match 50–70%: recognized situation but with positive novelty
+- Familiar enough to decode ("being praised in front of the class — I understand this")
+- Novel enough to be salient (praise specifically for me, right now)
 
 **P5 Chunk tag ✅**:
-- "Khen" chunks opioid-tagged (compiled from observing pleasant outcomes)
-- Social approval chunks positively tagged from childhood (mẹ's happy response)
+- "Praise" chunks opioid-tagged (compiled from observing pleasant outcomes)
+- Social approval chunks positively tagged from childhood (mother's happy response)
 
 **ALL 5 preconditions MET** → full reward mechanism engages:
 - Step 5 body-base check: chunk fires "social schema need satisfied"
@@ -616,56 +618,56 @@ Framework validates: VTA fires (attention), but Step 5 body-base check doesn't f
 #### §4.2.2 — Multi-schema activation (user's insight)
 
 User's observation:
-> "Chunk cô giáo khen kích hoạt đồng thời nhiều chunk liên quan, fire mạnh mẽ"
+> "The 'teacher's praise' chunk activates many related chunks simultaneously, firing strongly"
 
 🟡 Framework: Yes, this is **spreading activation cascade** (Collins & Loftus 1975 🟢).
 
 **Cascade includes**:
-- "Cô khen" → "bạn ngưỡng mộ" → "mẹ tự hào" → "tôi giỏi" → "future tươi sáng" → "safety"
+- "Teacher praises" → "classmates admire" → "mother is proud" → "I am capable" → "bright future ahead" → "safety"
 - Multiple body-need schemas all "hit" in one event
-- Each contributes opioid signal
+- Each contributes an opioid signal
 - **Summation**: experience is stronger than any single fire
 
-**Framework prediction**: Single event activating multi-schema cascade produces **compound reward** proportional to schemas satisfied.
+**Framework prediction**: A single event activating a multi-schema cascade produces **compound reward** proportional to schemas satisfied.
 
-This case is "hot" precisely because it fills **many needs at once**:
+This case is "powerful" precisely because it fills **many needs at once**:
 - Competence need
 - Social belonging need
 - Parental approval need
 - Future safety signal
 - Current status
 
-**→ Multi-schema fill = compound reward** (will drill more in §7 spreading activation P3b).
+**→ Multi-schema fill = compound reward** (drilled further in §7 spreading activation).
 
-### §4.3 — Case C1.3: Lương + Trúng Số (Pending Schema + Delta Extreme)
+### §4.3 — Case C1.3: Monthly Pay + Jackpot (Pending Schema + Extreme Delta)
 
-**User's verbatim**:
-> "Làm cật lực kiếm tiền, cuối tháng lãnh lương, bỗng một ngày trúng số độc đắc => sướng cực kỳ"
+**User's verbatim** (translated):
+> "Working hard to earn money, collecting pay at the end of the month, then one day hitting the jackpot ⇒ intensely pleasant"
 
 **Mechanism decomposition** — 2 sub-cases:
 
-#### §4.3.1 — Lương cuối tháng (monthly expected pay)
+#### §4.3.1 — Monthly pay (expected)
 
 **P1 Schema pending**: Yes — resource need, expected (planned expenses)
 **P2 Chunks base**: Strong — adult understands money, work, reward cycle
-**P3 prediction-delta**: **LOW to moderate** — expected event, not surprising
+**P3 Prediction-delta**: **LOW to moderate** — expected event, not surprising
 **P4 Goldilocks**: HIGH match (routine pattern)
-**P5 Tag**: Mixed (work chunks may be cortisol-tagged if job stressful)
+**P5 Tag**: Mixed (work chunks may be cortisol-tagged if job is stressful)
 
-Result: Some reward but **muted**. User says "làm cật lực" → effort cortisol tag likely → salary = relief more than opioid → diminishing.
+Result: Some reward but **muted**. "Working hard" → effort cortisol tag likely → salary = relief more than opioid → diminishing.
 
-**Alternative scenario**: Salary unexpected raise → P3 delta HIGH → much stronger reward.
+**Alternative scenario**: Unexpected salary raise → P3 delta HIGH → much stronger reward.
 
-#### §4.3.2 — Trúng số độc đắc (jackpot)
+#### §4.3.2 — Jackpot (hitting the lottery)
 
 **P1 Schema pending**: Yes — resource need (always pending for most people)
 **P2 Chunks base**: Strong — understands money, lottery, winning
-**P3 prediction-delta**: **EXTREME** — unexpected massive event exceeding all predictions
-**P4 Goldilocks**: within Goldilocks zone (understand lottery but never experienced winning)
-**P5 Tag**: Positive (lottery chunks fantasy-tagged, not negative)
+**P3 Prediction-delta**: **EXTREME** — unexpected massive event exceeding all predictions
+**P4 Goldilocks**: within Goldilocks zone (understands lottery but has never experienced winning)
+**P5 Tag**: Positive (lottery chunks are fantasy-tagged, not negative)
 
-Result: ALL 5 preconditions MAXIMALLY met → **"intensely pleasant"**:
-- VTA MASSIVE fire (extreme delta)
+Result: ALL 5 preconditions MAXIMALLY met → **intensely pleasant**:
+- VTA fires MASSIVELY (extreme delta)
 - Multiple body-needs satisfied (security, freedom, possibility)
 - Opioid flood
 - Experience = peak reward
@@ -674,7 +676,7 @@ Result: ALL 5 preconditions MAXIMALLY met → **"intensely pleasant"**:
 
 🟢 **Brickman 1978** classic lottery winner study:
 - Initial spike: massive happiness boost
-- Adaptation: within 6-12 months, baseline returns to roughly pre-lottery levels
+- Adaptation: within 6–12 months, baseline returns to roughly pre-lottery levels
 - **Why**: schema landscape adjusts → new baseline → reward habituates
 
 **Framework mechanism**:
@@ -682,35 +684,35 @@ Result: ALL 5 preconditions MAXIMALLY met → **"intensely pleasant"**:
 - Some old needs disappear (security met)
 - New needs emerge (what to do with wealth, avoiding loss, trust issues)
 - **Schema portfolio shifts** — similar to hedonic trap (P2 §9)
-- Each new need pending → potential new dissonance source
+- Each new pending need becomes a potential new dissonance source
 
-**Key insight**: Peak reward is **instantaneous maximum**. Sustained reward is different — requires ongoing schema fit, not one-time massive delta.
+**Key insight**: Peak reward is **instantaneous maximum**. Sustained reward is different — requires ongoing schema fit, not a one-time massive delta.
 
-This explains: "Trúng số intensely pleasant" (peak) ≠ "trúng số sống hạnh phúc mãi" (sustained). Different mechanisms.
+This explains: "Jackpot = intensely pleasant" (peak) ≠ "jackpot = living happily ever after" (sustained). Different mechanisms.
 
-### §4.4 — Case C1.4: Giải Bài Stuck → Bỗng Giải Được (Dissonance Resolution)
+### §4.4 — Case C1.4: Stuck on a Problem → Breakthrough (Dissonance Resolution)
 
-**User's verbatim**:
-> "Muốn giải bài toán này, nhiều ngày bế tắc, bỗng giải được => reward"
+**User's verbatim** (translated):
+> "Trying to solve this problem, stuck for many days, then suddenly it clicks ⇒ reward"
 
 **Mechanism decomposition** 🟡:
 
 #### §4.4.1 — Pre-resolution state (stuck)
 
 **Preconditions during struggle**:
-- P1 Schema pending: VERY STRONG — "giải bài toán" is explicit pending schema
-- P2 Chunks base: PARTIAL — has some math tools but missing key insight
-- P3 prediction-delta: Moderate — trying different approaches fires some delta each time
-- P4 Goldilocks: Match varies as approaches tried
-- P5 Tag: Math chunks (hopefully) opioid-tagged from curiosity context
+- P1 Schema pending: VERY STRONG — "solve this problem" is an explicit pending schema
+- P2 Chunks base: PARTIAL — has some tools but missing the key insight
+- P3 Prediction-delta: Moderate — trying different approaches fires some delta each time
+- P4 Goldilocks: Match varies as approaches are tried
+- P5 Tag: Math/problem chunks (hopefully) opioid-tagged from curiosity context
 
-**State**: PFC active drafting (Imagine-Final §1.5 Phase 1), body dissonance "không có giải" accumulates, multiple mini-rewards from partial progress.
+**State**: PFC active drafting (Imagine-Final §1.5 Phase 1), body dissonance "no solution found" accumulates, multiple mini-rewards from partial progress.
 
-#### §4.4.2 — Resolution moment (bỗng giải được)
+#### §4.4.2 — Resolution moment (breakthrough)
 
 **What happens at moment of insight**:
 - New chunk combination clicks (spreading activation produces the missing link)
-- prediction-delta: LARGE (new pattern after days of no progress)
+- Prediction-delta: LARGE (new pattern after days of no progress)
 - Multi-chunk cascade: solution chunk fires → activates solution-path chunks → activates "problem solved" schema → activates meta-learning chunks
 - Body-base check: Step 5 → opioid flood ("body-need 'resolve problem' satisfied")
 
@@ -724,26 +726,26 @@ This explains: "Trúng số intensely pleasant" (peak) ≠ "trúng số sống h
 
 **Why struggle amplifies reward**:
 - Longer pending = more accumulated body-need signal
-- More failed drafts = more frustration tag wanting release
+- More failed drafts = more frustration-tagged tension wanting release
 - Solution = complete resolution of all tension at once
-- Body releases LOT of opioid in single event
+- Body releases a LOT of opioid in a single event
 
 **Contrast**: Trivial problem solved instantly = P1 pending minimal = minor reward.
 
-**User's next case (C1.7) articulates this as meta-pattern**: "Càng cố gắng lâu càng sướng."
+**User's next case (C1.7) articulates this as meta-pattern**: "The longer you work for it, the better it feels."
 
 ### §4.5 — Case C1.5: Einstein Breakthrough (Coherence Gap Closure)
 
-**User's verbatim** (very rich):
-> "Einstein cảm thấy vật lý Newton có quá nhiều mâu thuẫn, tích lũy chunk để giải quyết, dissonance càng ngày càng nhiều, nhưng các chunk đều có độ chính xác khá cao với domain real, các chunk vẫn có sự đồng bộ với nhau nhất định, chỉ là thiếu một (hoặc rất nhiều) mảnh ghép chunk nào đó để tất cả đồng bộ => suy nghĩ nhiều năm => Grossman góp ý thêm công thức chuẩn => sửa lại cách tưởng tượng cảm nhận => phát hiện ra liên kết chunk nào đó rất có khả năng (mini reward) => tính toán logic để verify, nhờ Grossman verify cùng => đúng, sướng cực, vì hàng loạt chuỗi chunk được liên kết đúng => công bố, được xác nhận => sướng cực kỳ, vì hàng loạt chunk được liên kết và nó rõ ràng, an toàn, không phải sửa, không cần nghi ngờ"
+**User's verbatim** (translated — very rich):
+> "Einstein felt that Newtonian physics had too many contradictions. He accumulated chunks to resolve them, dissonance growing over time — but the chunks were all reasonably accurate to the real domain, and they had a certain coherence with each other. What was missing was just one (or many) chunk-pieces to make everything synchronize → years of thinking → Grossman contributed the right formula → Einstein revised his way of imagining and feeling → discovered that some chunk link seemed highly probable (mini reward) → calculated logically to verify, asked Grossman to verify together → correct, intensely pleasant, because a cascade of chunk chains linked correctly → published, confirmed → intensely pleasant again, because the chains of chunks linked clearly, safely, no need to revise, no need to doubt"
 
-**Mechanism decomposition** 🟡 — This is a MASTERCLASS case showing entire cycle:
+**Mechanism decomposition** 🟡 — This is a MASTERCLASS case showing the entire cycle:
 
 #### §4.5.1 — Stage 1: Dissonance accumulation (years)
 
 - Einstein: exposure to contradictions in Newtonian physics
 - Body signal: "coherence gap detected" — mild but persistent
-- This is **schema pending at highest level**: the entire physics domain has unresolved mismatch with evidence
+- This is **schema pending at the highest level**: the entire physics domain has an unresolved mismatch with evidence
 - **P1 Schema pending**: MASSIVE (grand coherence gap)
 
 Framework: Few humans experience P1 at this magnitude. It drives extraordinary effort.
@@ -752,22 +754,22 @@ Framework: Few humans experience P1 at this magnitude. It drives extraordinary e
 
 - Einstein: years of reading, experiments, mental simulations, math
 - Builds **extensive chunks base** in physics, math, philosophy, thought experiments
-- Chunks each mostly coherent with reality (user: "độ chính xác khá cao với domain real")
+- Chunks each mostly coherent with reality (user: "reasonably accurate to the real domain")
 - Chunks synchronized with each other to some extent
 - **BUT**: missing link prevents full unity
 - **P2 Chunks base**: NEARLY complete but missing key pieces
 
 User's precise phrase:
-> "Chỉ là thiếu một (hoặc rất nhiều) mảnh ghép chunk nào đó để tất cả đồng bộ"
+> "What was missing was just one (or many) chunk-pieces to make everything synchronize"
 
-Framework: this is **the most interesting state** — chunks base sufficient for detection of gap, insufficient for resolution. Drives creative work.
+Framework: This is **the most interesting state** — chunks base sufficient for detecting the gap, insufficient for resolving it. Drives creative work.
 
 #### §4.5.3 — Stage 3: External catalyst (Grossman)
 
 - Einstein + Grossman collaboration
 - Grossman provides: tensor calculus (mathematical framework)
 - **External input**: new chunks that Einstein's own work lacked
-- These chunks allow missing pieces to fit
+- These chunks allow the missing pieces to fit
 
 **Framework insight**: Even breakthrough thinkers often need **external chunks injection** to close final gaps. Einstein's body-base was primed (years of dissonance), but needed Grossman's specific math tools.
 
@@ -775,90 +777,90 @@ Framework: this is **the most interesting state** — chunks base sufficient for
 
 #### §4.5.4 — Stage 4: Insight moment (mini reward)
 
-- Einstein sees: key chunk could connect
-- "Phát hiện ra liên kết chunk nào đó rất có khả năng" 
-- **Not certainty yet** — "có khả năng"
+- Einstein sees: a key chunk could connect
+- "Discovered that some chunk link seemed highly probable"
+- **Not certainty yet** — "seemed probable"
 - **Mini reward** fires because:
-  - P3 prediction-delta HIGH (new combination after years of searching)
+  - P3 Prediction-delta HIGH (new combination after years of searching)
   - Step 5: body simulates → feels "this might work" → partial opioid
-  - NOT full opioid because not verified yet
+  - NOT full opioid because not yet verified
 
 **Framework observation**: Insight moment reward ≠ breakthrough reward. Insight = hypothesis formation. Breakthrough = verification.
 
 #### §4.5.5 — Stage 5: Verification (logical + social)
 
 User's precise sequence:
-> "Tính toán logic để verify, nhờ Grossman verify cùng → đúng, sướng cực"
+> "Calculated logically to verify, asked Grossman to verify together → correct, intensely pleasant"
 
 - Einstein + Grossman verify mathematically
 - Domain check (P1 §6 PFC exclusive domain check role) — math works
 - **Intensely pleasant** because:
-  - Now P1-P5 all strongly met
+  - Now all P1–P5 strongly met
   - Years of dissonance resolved at once
-  - Massive cascade: "hàng loạt chuỗi chunk được liên kết đúng"
+  - Massive cascade: "a cascade of chunk chains linked correctly"
   - Step 5 opioid FLOOD
 
 #### §4.5.6 — Stage 6: Public confirmation (peak reward)
 
 - Publish → external verification (peer review, experimental confirmation eventually)
-- "Intensely pleasant" — higher than internal verification
+- **Intensely pleasant again** — higher than internal verification
 
 User's precise reason:
-> "Hàng loạt chunk được liên kết và nó rõ ràng, an toàn, không phải sửa, không cần nghi ngờ"
+> "The chains of chunks linked clearly, safely, no need to revise, no need to doubt"
 
-🟡 Framework: This captures **trust dimension** (Anchor-Schema §2) becoming maximal:
-- No more doubt (schema no longer provisional)
+🟡 Framework: This captures the **trust dimension** (Anchor-Schema §2) becoming maximal:
+- No more doubt (schema is no longer provisional)
 - Safety (social validation removes threat)
 - Certainty (chunks anchored in confirmed framework)
 
-**Why stage 6 > stage 5**:
+**Why Stage 6 > Stage 5**:
 - Stage 5: Einstein knows personally
-- Stage 6: Social confirmation → community of mind shared → chunks anchored socially too (Anchor-Schema nguồn 4 external inject now reinforcing internal work)
+- Stage 6: Social confirmation → community of mind shared → chunks anchored socially too (Anchor-Schema source 4 external inject now reinforcing internal work)
 
-**Framework insight**: Peak reward has **social component**. Purely internal insight (Stage 5) is large, but social validation (Stage 6) compounds via reducing trust-maintenance cost to near-zero.
+**Framework insight**: Peak reward has a **social component**. Purely internal insight (Stage 5) is large, but social validation (Stage 6) compounds via reducing trust-maintenance cost to near-zero.
 
-### §4.6 — Case C1.6: Lego Ô Tô (Skill Build + Imagine-Final Match)
+### §4.6 — Case C1.6: Lego Car (Skill Build + Imagine-Final Match)
 
-**User's verbatim**:
-> "Trẻ con có bộ lego xếp hình toàn hình vuông => thích lắp thành cái ô tô => thử lặp lại nhiều ngày => lắp được, nhìn lại rất giống cái ô tô thật, sướng (càng cố gắng lâu thì càng sướng)"
+**User's verbatim** (translated):
+> "A child has a set of Lego blocks — all cubes — and wants to build a car. Tries repeatedly over many days. Eventually succeeds, looks at it, it really does look like a real car. Pleasant. (The longer you keep at it, the more pleasant it feels.)"
 
 **Mechanism decomposition** 🟡:
 
 #### §4.6.1 — Initial state
 
-- Trẻ con: has lego bricks (all cubes — limited substrate)
-- Imagine-Final forms: "xe ô tô" (from exposure to real cars, movies, etc.)
+- Child: has Lego bricks (all cubes — limited substrate)
+- Imagine-Final forms: "car" (from exposure to real cars, movies, etc.)
 - Imagine-Final clear enough to motivate
 - Current ability: cannot yet realize the form
-- **P1 Schema pending**: "make xe ô tô" goal active
+- **P1 Schema pending**: "build a car" goal active
 
 #### §4.6.2 — Effort iteration
 
 - Child tries → fails → retries → different approaches
 - Each iteration:
-  - Small chunks compile about lego manipulation
-  - Some attempts look closer to ô tô than others
+  - Small chunks compile about Lego manipulation
+  - Some attempts look closer to a car than others
   - Body provides micro-feedback (mini reward for closer attempts)
 - **P2 Chunks base** builds gradually
 
 #### §4.6.3 — Resolution (success)
 
-- After days: child assembles something recognizable as ô tô
+- After days: child assembles something recognizable as a car
 - **Imagine-Final vs reality comparison**:
-  - Child's simulated "ô tô look" vs physical construction
-  - Match 60-80% — close enough to trigger recognition
+  - Child's simulated "car look" vs physical construction
+  - Match 60–80% — close enough to trigger recognition
   - P4 Goldilocks satisfied
 
 **Moment of success**:
 - P1 Pending ✅ (goal was active)
 - P2 Chunks base ✅ (built through iteration)
-- P3 prediction-delta HIGH (novel successful assembly)
+- P3 Prediction-delta HIGH (novel successful assembly)
 - P4 Goldilocks ✅ (match with Imagine-Final)
-- P5 Tag ✅ (lego chunks opioid-tagged from play context)
+- P5 Tag ✅ (Lego chunks opioid-tagged from play context)
 
-**→ Full reward cascade**. "Pleasant."
+**→ Full reward cascade.** "Pleasant."
 
-#### §4.6.4 — "Càng cố gắng lâu càng sướng" mechanism
+#### §4.6.4 — "The longer you work for it, the more pleasant it feels" — mechanism
 
 User's crucial meta-observation. Framework explanation:
 
@@ -870,85 +872,85 @@ User's crucial meta-observation. Framework explanation:
 - At resolution: tension releases all at once → larger opioid burst
 
 **2. Chunks base investment**:
-- More iterations = more chunks compiled during process
-- More chunks = more cascade at success (Step 4 spreading activation amplified)
+- More iterations = more chunks compiled during the process
+- More chunks = larger cascade at success (Step 4 spreading activation amplified)
 - Multi-schema satisfaction at one moment
 
 **3. Self-efficacy schema**:
-- "I could do this" schema upgrades from uncertain to confirmed
+- "I can do this" schema upgrades from uncertain to confirmed
 - Upgrade fires its own opioid (meta-reward for schema improvement)
 
 **4. Contrast effect**:
 - Recent state: "cannot do" → "can do"
 - Delta magnitude amplified by sharp transition
 
-**Framework prediction**: For same final achievement, greater effort → greater reward. Explains why:
+**Framework prediction**: For the same final achievement, greater effort → greater reward. Explains why:
 - Hard-won achievements feel better than easy ones
 - "Participation trophies" don't match earned trophies
 - Gamification that makes things too easy loses reward quality
 
-### §4.7 — Case C1.7: "Càng Cố Gắng Lâu Càng Sướng" (Meta-Pattern)
+### §4.7 — Case C1.7: "The Longer You Work for It, the More Pleasant It Feels" (Meta-Pattern)
 
-User's phrase is actually a meta-insight synthesized from cases C1.4-C1.6. Not a separate case but a pattern recognition.
+User's phrase is actually a meta-insight synthesized from cases C1.4–C1.6. Not a separate case but a pattern recognition.
 
 🟡 **Framework formalization**:
 
 > **Effort-proportional reward principle**: Reward intensity ∝ (time with pending × chunks invested × resolution sharpness) × (all 5 preconditions met)
 
 **Derived predictions**:
-1. Long-struggle + sudden-resolution = maximum reward per unit resolution (C1.4, C1.5, C1.6)
-2. Long-struggle + gradual-resolution = distributed reward (less peak, more total)
-3. Short-struggle + resolution = mild reward (trivial problem)
+1. Long struggle + sudden resolution = maximum reward per unit resolution (C1.4, C1.5, C1.6)
+2. Long struggle + gradual resolution = distributed reward (less peak, more total)
+3. Short struggle + resolution = mild reward (trivial problem)
 4. No struggle + success = minimal reward (no pending need built up)
 
 **Implications**:
-- **Education**: artificially easy tasks rob students of reward potential
+- **Education**: artificially easy tasks rob students of their reward potential
 - **Flow state**: challenge ≈ skill → enough struggle to build reward, not enough to overwhelm
 - **Meaningful work**: sustained pending needs → rewarding when resolved
-- **Learned helplessness**: long-struggle + NO resolution → reverse (chronic dissonance per P2 §8)
+- **Learned helplessness**: long struggle + NO resolution → reversal (chronic dissonance per P2 §8)
 
-**Key insight**: **Effort-proportional reward requires eventual resolution**. Struggle without resolution is trauma, not growth.
+**Key insight**: **Effort-proportional reward requires eventual resolution.** Struggle without resolution is trauma, not growth.
 
 ### §4.8 — 7 Cases Summary Matrix
 
 | Case | P1 Pending | P2 Chunks | P3 Delta | P4 Goldilocks | P5 Tag | Outcome |
 |---|---|---|---|---|---|---|
-| C1.1 Cô gọi tên (giật) | ~no direct | ✅ | HIGH | ~50% | neutral | **Alert only, no opioid** |
-| C1.1 Cô gọi tên (quen) | ~no | ✅ | LOW | ~95% | neutral | **No response** |
-| C1.2 Cô khen | ✅ strong | ✅ rich | HIGH | 50-70% | opioid | **Pleasant** |
-| C1.3 Lương (expected) | partial | ✅ | LOW-MED | 95% | mixed | **Muted reward** |
-| C1.3 Trúng số | ✅ | ✅ | EXTREME | 40-60% | positive | **Intensely pleasant** (peak) |
-| C1.4 Giải bài stuck | ✅ strong | partial→✅ | HIGH at resolution | 50% | opioid if curious | **Strong reward** |
-| C1.5 Einstein | ✅ massive | built over years | HIGH | 40-60% | opioid | **Intensely pleasant** (Stage 5→6) |
-| C1.6 Lego ô tô | ✅ | built through effort | HIGH | 60-80% | opioid | **Pleasant + effort-proportional** |
+| C1.1 Teacher calls (startled) | ~no direct | ✅ | HIGH | ~50% | neutral | **Alert only, no opioid** |
+| C1.1 Teacher calls (habituated) | ~no | ✅ | LOW | ~95% | neutral | **No response** |
+| C1.2 Teacher praises | ✅ strong | ✅ rich | HIGH | 50–70% | opioid | **Pleasant** |
+| C1.3 Monthly pay (expected) | partial | ✅ | LOW–MED | 95% | mixed | **Muted reward** |
+| C1.3 Jackpot | ✅ | ✅ | EXTREME | 40–60% | positive | **Intensely pleasant** (peak) |
+| C1.4 Stuck problem | ✅ strong | partial→✅ | HIGH at resolution | 50% | opioid if curious | **Strong reward** |
+| C1.5 Einstein | ✅ massive | built over years | HIGH | 40–60% | opioid | **Intensely pleasant** (Stage 5→6) |
+| C1.6 Lego car | ✅ | built through effort | HIGH | 60–80% | opioid | **Pleasant + effort-proportional** |
 
 **Meta-pattern**: Cases producing strongest reward satisfy ALL 5 preconditions + high delta + effort-proportional build-up.
 
 ---
 
-## §5 — Ô Tô Paradox 5-Scenario Matrix (C2.1-C2.5)
+## §5 — Car Paradox 5-Scenario Matrix (C2.1–C2.5)
 
 ### §5.1 — User's scenarios recap
 
-User提出 5 scenarios với paradoxical outcomes:
+User proposes 5 scenarios with paradoxical outcomes:
 
-- **C2.1**: Bố mua xe đẹp đúng ý → SƯỚNG CỰC KỲ
-- **C2.2**: Bố mua xe máy → KHÔNG thích
-- **C2.3**: Bố mua máy bay → CONFUSED (chưa tưởng tượng tới, không lái được)
-- **C2.4**: Bố mua tranh Van Gogh triệu đô → KHÔNG thích
-- **C2.5**: Bố mua xe cổ (đắt hơn) → Con KHÔNG thích, bố thích
+- **C2.1**: Father buys the exact right car ⇒ INTENSELY PLEASANT
+- **C2.2**: Father buys a motorcycle ⇒ NOT liked
+- **C2.3**: Father buys an airplane ⇒ CONFUSED (never imagined it, can't drive it)
+- **C2.4**: Father buys a million-dollar Van Gogh painting ⇒ NOT liked
+- **C2.5**: Father buys a vintage car (more expensive) ⇒ Son DOESN'T like it, father loves it
 
-User's key insight: same PERSON (father) → different response per item. Same ITEM (đắt) → different response per person (bố vs con).
+User's key insight: same PERSON (father giving) → different response per item. Same ITEM (expensive) → different response per person (father vs son).
 
 **Framework explanation via H10 5 preconditions** — different scenarios violate different preconditions:
 
-### §5.2 — Scenario C2.1: Xe Đẹp Đúng Ý (All Preconditions Met)
+### §5.2 — Scenario C2.1: The Right Car (All Preconditions Met)
 
 **State**:
-- **P1 Pending**: ✅ Con đã có schema "muốn ô tô," watching cars, longing
+- **P1 Pending**: ✅ Son already has schema "want a car," watching cars, longing
 - **P2 Chunks base**: ✅ Rich — car chunks (models, colors, features, desirability)
-- **P3 prediction-delta**: ✅ HIGH — surprise (bất ngờ) + expectation exceeded
-- **P4 Goldilocks**: ✅ within Goldilocks zone — recognized (xe ô tô) + novel (this specific model)
+- **P3 Prediction-delta**: ✅ HIGH — surprise + expectation exceeded
+- **P4 Goldilocks**: ✅ within Goldilocks zone — recognized (it's a car) + novel (this specific model)
 - **P5 Tag**: ✅ Positive — car chunks opioid-tagged from play/admiration context
 
 **All 5 preconditions met strongly** → **intensely pleasant**.
@@ -959,27 +961,27 @@ User's key insight: same PERSON (father) → different response per item. Same I
 - Autonomy signal (can use car for desired activities)
 - Multi-schema cascade activated
 
-### §5.3 — Scenario C2.2: Xe Máy (Wrong Category)
+### §5.3 — Scenario C2.2: The Motorcycle (Wrong Category)
 
 **State**:
-- **P1 Pending**: ❌ No schema "muốn xe máy" — pending is specifically for "ô tô"
-- **P2 Chunks base**: ✅ Has chunks about xe máy (can decode what it is)
-- **P3 prediction-delta**: Moderate — unexpected but wrong category
+- **P1 Pending**: ❌ No schema "want a motorcycle" — pending is specifically for "car"
+- **P2 Chunks base**: ✅ Has chunks about motorcycles (can decode what it is)
+- **P3 Prediction-delta**: Moderate — unexpected but wrong category
 - **P4 Goldilocks**: N/A — wrong category can't be evaluated properly
 - **P5 Tag**: Neutral
 
-**P1 violated** → body-base check Step 5: chunk doesn't fit pending need ("I wanted ô tô, not xe máy") → **NO OPIOID** → **no reward**.
+**P1 violated** → body-base check Step 5: chunk doesn't fit pending need ("I wanted a car, not a motorcycle") → **NO OPIOID** → **no reward**.
 
-**Subjective experience**: "Không thích" — may be polite acknowledgment ("bố mua đấy... cảm ơn") but no body-level reward. Possibly mild disappointment (pending unresolved + new confusing object).
+**Subjective experience**: "Not liked" — may be polite acknowledgment ("you got me something... thank you") but no body-level reward. Possibly mild disappointment (pending unresolved + confusing new object).
 
-**Framework insight**: Reward is **category-specific**. Even close substitutes (both motor vehicles) don't transfer because schema "muốn ô tô" is not "muốn motor vehicle" — it's specific.
+**Framework insight**: Reward is **category-specific**. Even close substitutes (both motor vehicles) don't transfer because the schema "want a car" is not "want a motor vehicle" — it's specific.
 
-### §5.4 — Scenario C2.3: Máy Bay (Wrong Category + No Chunks)
+### §5.4 — Scenario C2.3: The Airplane (Wrong Category + No Chunks)
 
 **State**:
-- **P1 Pending**: ❌ No "muốn máy bay" schema
+- **P1 Pending**: ❌ No "want an airplane" schema
 - **P2 Chunks base**: ❌ Insufficient — child has limited/no chunks about personal airplane ownership
-- **P3 prediction-delta**: EXTREME — completely unexpected, strange, overwhelming
+- **P3 Prediction-delta**: EXTREME — completely unexpected, strange, overwhelming
 - **P4 Goldilocks**: ❌ <20% match — too alien
 - **P5 Tag**: N/A
 
@@ -989,50 +991,50 @@ User's key insight: same PERSON (father) → different response per item. Same I
 - P4 missing (too alien)
 
 **Subjective experience**: Confusion, not reward. User astutely predicts:
-> "Có lẽ người con chưa từng tưởng tượng tới, nhưng cũng không biết lái máy bay, cũng không thể dùng để đi chơi gần được"
+> "The son probably never imagined this — doesn't know how to fly a plane, can't use it for daily outings"
 
-Framework: Child thinks "it exists, it's mine(?), but what do I do with it?" → Stage 5 body check finds no fit for any body-need → NO OPIOID.
+Framework: Child thinks "it exists, it's mine(?), but what do I do with it?" → Step 5 body check finds no fit for any body-need → NO OPIOID.
 
-**Additional mild distress possible**: Cost schema may even fire "this seems wasteful" or confusion about implications. NET may even be slightly negative.
+**Additional mild distress possible**: Cost schema may even fire "this seems wasteful" or confusion about implications. Net may even be slightly negative.
 
-**Framework principle**: Reward requires **interpretability**. Gift must match chunks base to be meaningful. "Too much" gift can miss reward when chunks insufficient.
+**Framework principle**: Reward requires **interpretability**. A gift must match the chunks base to be meaningful. An "over-the-top" gift can miss reward entirely when chunks are insufficient.
 
-### §5.5 — Scenario C2.4: Van Gogh (Wrong Substrate Value)
+### §5.5 — Scenario C2.4: Van Gogh Painting (Wrong Substrate Value)
 
 **State**:
-- **P1 Pending**: ❌ No "muốn tranh" schema (child typically)
-- **P2 Chunks base**: ❌ No art appreciation chunks (doesn't decode visual as "masterpiece")
-- **P3 prediction-delta**: LOW — may not even register as special (looks like "just a painting")
-- **P4 Goldilocks**: ❌ <20% match (no art chunks → can't decode the "hay" signal art critics perceive)
+- **P1 Pending**: ❌ No "want a painting" schema (typical child)
+- **P2 Chunks base**: ❌ No art appreciation chunks (doesn't decode the visual as a "masterpiece")
+- **P3 Prediction-delta**: LOW — may not even register as special (looks like "just a painting")
+- **P4 Goldilocks**: ❌ <20% match (no art chunks → can't decode the "captivating" signal that art critics perceive)
 - **P5 Tag**: Neutral at best
 
 **All preconditions fail** despite the painting being objectively "valuable" ($millions).
 
-**Subjective experience**: User describes it perfectly in his own voice: "ngoằn nghoèo, bừa phứa, chả hiểu gì, chả đẹp gì."
+**Subjective experience**: "Wavy, messy, incomprehensible, not beautiful at all."
 
 Framework: "Value" (domain: monetary) ≠ "reward" (body: chunks match). Receiving Van Gogh → no body-level reward.
 
-**The paradox fully explained**: Object has high domain value, zero body reward. Schema phục vụ body-base (P1 §7) — without body-base match, no reward regardless of external value markers.
+**The paradox fully explained**: Object has high domain value, zero body reward. Schema serves body-base (P1 §7) — without body-base match, no reward regardless of external value markers.
 
-**§6 (P3b) will drill this case more** — training gradient shows HOW someone can develop appreciation via chunks compile.
+**§6 will drill this case further** — the training gradient shows HOW someone can develop appreciation via chunks compile.
 
-### §5.6 — Scenario C2.5: Xe Cổ Đắt (Wrong Generation Chunks)
+### §5.6 — Scenario C2.5: The Vintage Car (Wrong Generation Chunks)
 
-**Most interesting scenario** because same item produces opposite outcomes for father vs son.
+**The most interesting scenario** because the same item produces opposite outcomes for father vs son.
 
 **Son's state**:
-- **P1 Pending**: ❌ No "muốn xe cổ" schema (wants modern)
-- **P2 Chunks base**: ❌ No "xe cổ value" chunks (doesn't know historical significance)
-- **P3 prediction-delta**: Moderate — unusual car (not modern) → registers as "weird"
+- **P1 Pending**: ❌ No "want a vintage car" schema (wants modern)
+- **P2 Chunks base**: ❌ No "vintage car value" chunks (doesn't know historical significance)
+- **P3 Prediction-delta**: Moderate — unusual car (not modern) → registers as "weird"
 - **P4 Goldilocks**: ❌ Son may see <20% match with "what I want" (modern aesthetics)
 - **P5 Tag**: Neutral or negative ("outdated" chunks)
 
 **Son**: No reward. Possibly mild disappointment.
 
 **Father's state**:
-- **P1 Pending**: ✅ Has schema "muốn xe cổ" (collector interest)
+- **P1 Pending**: ✅ Has schema "want a vintage car" (collector interest)
 - **P2 Chunks base**: ✅ Rich chunks about vintage cars (history, craftsmanship, rarity, provenance)
-- **P3 prediction-delta**: HIGH — seeing this specific car, knowing what it is
+- **P3 Prediction-delta**: HIGH — seeing this specific car, knowing what it is
 - **P4 Goldilocks**: ✅ within Goldilocks zone (recognizable + specific)
 - **P5 Tag**: ✅ Opioid-positive (vintage chunks tagged with "cool" / "authentic" / "history")
 
@@ -1041,43 +1043,43 @@ Framework: "Value" (domain: monetary) ≠ "reward" (body: chunks match). Receivi
 **→ SAME ITEM → opposite reward** based on different chunks bases.
 
 **User's penetrating question**:
-> "Nhưng ông bố lại thích xe cổ đó hơn mấy mẫu hiện đại mà rẻ hơn, bạn của bố cũng thích xe cổ, tại sao đứa con lại không thích?"
+> "But the father prefers that vintage car over cheaper modern models. His friends like vintage cars too. Why doesn't the son appreciate it?"
 
-**Framework answer**: Reward is personalized function of chunks base. Father and father's friends share cultural chunks about vintage cars → common appreciation. Son lacks those chunks → no appreciation.
+**Framework answer**: Reward is a personalized function of the chunks base. Father and his friends share cultural chunks about vintage cars → common appreciation. Son lacks those chunks → no appreciation.
 
-**Can son learn to appreciate**? Yes — by building chunks base (study history of cars, collect examples, exposure, listening to father's stories). But **reward cannot be transferred directly**.
+**Can the son learn to appreciate it?** Yes — by building the chunks base (studying car history, collecting examples, exposure, listening to father's stories). But **reward cannot be transferred directly**.
 
 **Key framework claim**:
 
-> **Reward is NOT intrinsic to object. Reward is computed per-person based on their individual chunks base + schema pending state.**
+> **Reward is NOT intrinsic to the object. Reward is computed per-person based on their individual chunks base + schema pending state.**
 
-**Philosophical implication**: There's no "objectively better" object. "Value" in domain can be measured (monetary, historical, artistic expert consensus). But "reward" is always **subject-dependent**.
+**Philosophical implication**: There is no "objectively better" object. "Value" in a domain can be measured (monetary, historical, expert consensus). But "reward" is always **subject-dependent**.
 
 ### §5.7 — Summary Matrix
 
 | Scenario | P1 Pending | P2 Chunks | P3 Delta | P4 Goldilocks | P5 Tag | Outcome |
 |---|---|---|---|---|---|---|
-| **C2.1 Xe đẹp đúng ý** | ✅ | ✅ | ✅ HIGH | ✅ 60-70% | ✅ | **Intensely pleasant** |
-| **C2.2 Xe máy** | ❌ wrong | ✅ | ~ | N/A | Neutral | **Không thích** |
-| **C2.3 Máy bay** | ❌ | ❌ | ✅ extreme | ❌ too alien | N/A | **Confused, no reward** |
-| **C2.4 Van Gogh** | ❌ | ❌ | LOW | ❌ | Neutral | **Chả hiểu** |
-| **C2.5 Xe cổ (son)** | ❌ | ❌ | Moderate | ❌ | Neutral | **Không thích** |
-| **C2.5 Xe cổ (father)** | ✅ | ✅ | ✅ | ✅ | ✅ | **Rất thích** |
+| **C2.1 The right car** | ✅ | ✅ | ✅ HIGH | ✅ 60–70% | ✅ | **Intensely pleasant** |
+| **C2.2 The motorcycle** | ❌ wrong | ✅ | ~ | N/A | Neutral | **Not liked** |
+| **C2.3 The airplane** | ❌ | ❌ | ✅ extreme | ❌ too alien | N/A | **Confused, no reward** |
+| **C2.4 Van Gogh** | ❌ | ❌ | LOW | ❌ | Neutral | **Incomprehensible** |
+| **C2.5 Vintage car (son)** | ❌ | ❌ | Moderate | ❌ | Neutral | **Not liked** |
+| **C2.5 Vintage car (father)** | ✅ | ✅ | ✅ | ✅ | ✅ | **Highly appreciated** |
 
 ### §5.8 — Failure modes per precondition
 
-**Each precondition failure produces characteristic subjective experience**:
+**Each precondition failure produces a characteristic subjective experience**:
 
 | Failed | Subjective | Example |
 |---|---|---|
-| P1 (no pending) | "Không cần" / "không muốn" / polite acknowledgment | C2.2 xe máy |
-| P2 (no chunks) | "Chả hiểu" / "chả biết" / confusion | C2.4 Van Gogh |
-| P3 (no delta) | "Bình thường" / "quen rồi" / no reaction | Routine events |
-| P4 (too alien) | "Lạ quá" / "kỳ cục" / uncertainty | C2.3 máy bay |
-| P4 (too familiar) | "Chán" / "biết rồi" / habituation | Over-exposed reward |
-| P5 (cortisol tag) | "Không thích dùng" / avoidance | Learned under stress |
+| P1 (no pending) | "Don't need it" / "don't want it" / polite acknowledgment | C2.2 motorcycle |
+| P2 (no chunks) | "Can't make sense of it" / "don't understand it" / confusion | C2.4 Van Gogh |
+| P3 (no delta) | "Normal" / "already used to it" / no reaction | Routine events |
+| P4 (too alien) | "Too strange" / "bizarre" / uncertainty | C2.3 airplane |
+| P4 (too familiar) | "Boring" / "already know this" / habituation | Over-exposed reward |
+| P5 (cortisol tag) | "Don't like using it" / avoidance | Learned under stress |
 
-**Diagnostic value**: User can identify WHICH precondition failed based on subjective quality of "not-reward" experience.
+**Diagnostic value**: A person can identify WHICH precondition failed based on the subjective quality of their "not-reward" experience.
 
 ### §5.9 — Implications — Reward is PERSONALIZED
 
@@ -1088,19 +1090,19 @@ Framework: "Value" (domain: monetary) ≠ "reward" (body: chunks match). Receivi
 > NOT F(object) alone.
 >
 > This is why:
-> - "Perfect gift" requires knowing the person (matching their pending needs + chunks base)
-> - Generic "valuable" gifts fail reward (Van Gogh to child)
-> - Same person different life stages have different rewards (child vs adult)
-> - Cultural appreciation is trainable (can build chunks for appreciation)
+> - "The perfect gift" requires knowing the person (matching their pending needs + chunks base)
+> - Generic "valuable" gifts fail reward (Van Gogh to a child)
+> - The same person at different life stages has different rewards (child vs adult)
+> - Cultural appreciation is trainable (chunks for appreciation can be built)
 
-**Parenting implication**: Parents must understand CHILD's schema pending + chunks base to give meaningful gifts. "What adults value" ≠ "what child will reward."
+**Parenting implication**: Parents must understand the CHILD's schema pending + chunks base to give meaningful gifts. "What adults value" ≠ "what children reward."
 
-**Marketing implication**: Effective marketing builds schema pending first (create desire), then delivers fit. Can't skip P1.
+**Marketing implication**: Effective marketing builds schema pending first (creates desire), then delivers fit. Cannot skip P1.
 
 **Therapeutic implication**: Depression often = P1 Pending collapsed (schema no longer producing active needs) → nothing rewards → anhedonia. Treatment may require rebuilding P1 (goals, interests, motivations) before reward returns.
 
 **⭐ Gap Direction formalization** (Gap-Direction.md):
-Tại sao reward is personalized? Vì mỗi người có **gap direction KHÁC** (= f(surrounding chunk network)). "Chưa biết = không có gap" = desire chưa tồn tại. Reward = direction match quality, không chỉ "fill gap or not." Ô Tô Paradox C2.1-C2.5 = perfect test case cho gap direction: cùng "xe" nhưng KHÁC direction → KHÁC reward.
+Why is reward personalized? Because each person has a **different gap direction** (= f(surrounding chunk network)). "Doesn't know it yet = no gap" = desire doesn't exist yet. Reward = direction match quality, not just "fill gap or not." The Car Paradox C2.1–C2.5 = perfect test case for gap direction: same "car" but DIFFERENT directions → DIFFERENT reward.
 
 ---
 
@@ -1110,42 +1112,43 @@ Tại sao reward is personalized? Vì mỗi người có **gap direction KHÁC**
 
 ### §6.1 — User's verbatim
 
-> "Lại ví dụ về tranh Van Gogh, thực sự tôi nhìn thấy như trẻ con vẽ vậy, ngoằn nghoèo, bừa phứa, chả hiểu gì, chả đẹp gì. Nhưng nó lại được coi là siêu phẩm nghệ thuật. Vậy có phải những người thưởng thức nó cũng phải hình thành nhiều chunk gần như Van Gogh thì mới cảm nhận được?"
+(Translated):
+> "Back to Van Gogh — honestly, looking at it feels like a child drew it. Wavy, messy, doesn't make sense, not beautiful at all. Yet it's considered a supreme artistic masterpiece. Does that mean people who appreciate it must have built chunks close to Van Gogh's own in order to perceive it?"
 
-**Framework answer** 🟡: ✅ **YES, đúng chính xác**. User's intuition matches framework precisely.
+**Framework answer** 🟡: ✅ **YES, precisely right.** User's intuition matches the framework exactly.
 
 ### §6.2 — Framework explanation
 
-This case is a **specific application** of §5.8 failure mode table:
+This case is a **specific application** of the §5.8 failure mode table:
 - Violates **P2** (chunks base insufficient)
 - Violates **P4** (Goldilocks <20% match = too alien)
-- Result: "chả hiểu" experience
+- Result: "can't make sense of it" experience
 
 **Core claim** 🟡:
 
-> Art appreciation requires **matching chunks base** with the artist's chunks (or at least compatible ones). Without chunks, match <20% → dissonance/confusion, not reward.
+> Art appreciation requires a **matching chunks base** with the artist's chunks (or at least compatible ones). Without chunks, match <20% → dissonance/confusion, not reward.
 
-**User's insight**: "Những người thưởng thức nó cũng phải hình thành nhiều chunk **gần như** Van Gogh."
+**User's insight**: "People who appreciate it must have built chunks **close to** Van Gogh's."
 
-Framework: Not exactly like Van Gogh (no one can have exact same chunks), but in the **same neighborhood** — chunks about:
+Framework: Not exactly like Van Gogh (no one can have the exact same chunks), but in the **same neighborhood** — chunks about:
 - Post-impressionism technique
 - Expression of emotional states via color/brushstroke
 - Historical context (Van Gogh's life, era, artistic movements)
 - Art history evolution (why his deviation was significant)
 - Emotional resonance with his themes (isolation, nature, emotional intensity)
 
-### §6.3 — Why match ratio moves INTO Goldilocks with training
+### §6.3 — Why match ratio moves INTO the Goldilocks zone with training
 
 **Beginner's state**:
-- Chunks about art: minimal (maybe "color looks nice," "painting = representation")
+- Chunks about art: minimal (maybe "colors look nice," "painting = representation")
 - Van Gogh input match: <20% (strokes don't represent cleanly, colors unrealistic)
-- Body signal: "lạ quá, dở" — P4 failed
+- Body signal: "too strange, looks off" — P4 failed
 - **Result**: Dissonance, confusion, no reward
 
 **Intermediate learner** (after some art classes):
 - Chunks about: brushstroke techniques, color theory, artistic movements
 - Van Gogh input match: approaching Goldilocks zone (recognizes technique, still finds emotional intensity excessive)
-- Body signal: "interesting, không chắc đẹp" — approaching Goldilocks
+- Body signal: "interesting, not sure if beautiful" — approaching Goldilocks
 - **Result**: Mild interest, mixed feelings
 
 **Advanced learner** (years of study):
@@ -1156,7 +1159,7 @@ Framework: Not exactly like Van Gogh (no one can have exact same chunks), but in
 
 **Expert / artist**:
 - Chunks: can replicate/analyze technique, understand historical position, personal emotional resonance
-- Van Gogh input match: 60-80% — deep Goldilocks
+- Van Gogh input match: 60–80% — deep Goldilocks
 - Additional: appreciation triggers own creative chunks (simulating being Van Gogh)
 - **Result**: Profound reward, possibly tears (multi-schema cascade)
 
@@ -1166,61 +1169,61 @@ Framework: Not exactly like Van Gogh (no one can have exact same chunks), but in
 
 | Stage | Chunks base | Match ratio | Body signal | Subjective |
 |---|---|---|---|---|
-| **Beginner** | Minimal | <20% | Dissonance | "Bừa phứa, chả hiểu" |
-| **Beginner+ exposure** | Some art basics | 20-30% | Mild dissonance | "Lạ, không ấn tượng" |
-| **Intermediate** | Art movements + techniques | 30-50% | Mixed | "Interesting, mixed feelings" |
-| **Advanced** | Historical + technical + context | 50-70% | **Opioid** ✅ | "Beautiful, meaningful" |
-| **Expert** | Deep + personal resonance | 60-80% | **Strong opioid** ✅✅ | "Profound, moving" |
+| **Beginner** | Minimal | <20% | Dissonance | "Wavy, messy, incomprehensible" |
+| **Beginner+ exposure** | Some art basics | 20–30% | Mild dissonance | "Strange, unimpressive" |
+| **Intermediate** | Art movements + techniques | 30–50% | Mixed | "Interesting, mixed feelings" |
+| **Advanced** | Historical + technical + context | 50–70% | **Opioid** ✅ | "Beautiful, meaningful" |
+| **Expert** | Deep + personal resonance | 60–80% | **Strong opioid** ✅✅ | "Profound, moving" |
 
-**Key observation**: Training moves person through the Goldilocks transition → appreciation emerges at certain threshold.
+**Key observation**: Training moves the person through the Goldilocks transition → appreciation emerges at a certain threshold.
 
 **Not linear**: Progression has plateaus + breakthrough moments. Building chunks base isn't smooth.
 
-### §6.5 — 2-tầng calibration applied (Why-Body-Knows v1.1 §3)
+### §6.5 — 2-Tier Calibration applied (Why-Body-Knows v1.1 §3)
 
 **How chunks base builds**:
 
-🟢 **Tầng 1 Darwinian** (gen-level): Some aesthetic sensitivity wired (symmetry, color contrast, face recognition — universal)
+🟢 **Tier 1 Darwinian Selection** (genetics level): Some aesthetic sensitivity is wired in (symmetry, color contrast, face recognition — universal)
 
-🟡 **Tầng 2 Hebbian — Đường 2a Domain Contact** (trải nghiệm trực tiếp):
+🟡 **Tier 2 Hebbian — Path 2a Domain Contact** (direct experience):
 - Museum visits, art classes, looking at many artists' work
-- Personal practice with visual art, exposure
+- Personal practice with visual art, direct exposure
 
-🟡 **Tầng 2 Hebbian — Đường 2b Trust-Injected** (dạy/share qua trust):
+🟡 **Tier 2 Hebbian — Path 2b Trust-Injected** (taught/shared via trust):
 - "Van Gogh was a pioneer" meta-information (books, teachers, documentaries)
 - Stories of his life, critical framework from art history
-- AI provide background, technique analysis, historical context on demand
+- AI-provided background, technique analysis, historical context on demand
 
-⚠️ Culture, teachers, AI = INPUT SOURCES cho cùng cơ chế Hebbian (Tầng 2),
-   KHÔNG phải "tầng" riêng biệt. Khác nhau ở ĐƯỜNG VÀO, không phải cơ chế.
+⚠️ Culture, teachers, AI = INPUT SOURCES for the same Hebbian mechanism (Tier 2),
+   NOT separate "tiers." They differ in ENTRY PATH, not in mechanism.
 
-**Implication**: Appreciation can be **accelerated** via 2b trust-injected chunks + 2a direct exposure.
+**Implication**: Appreciation can be **accelerated** via Path 2b Trust-Injected chunks + Path 2a direct exposure.
 
 ### §6.6 — Why "everyone likes Van Gogh eventually" phenomenon
 
 **Common observation**: People who dismiss modern/post-impressionist art at 20 often come to love it at 40.
 
 **Framework explanation** 🟡:
-- 20 years → chunks base thin → match <30% → dismiss
-- 20-40 years → accumulated cultural exposure (friends, media, museums, incidental learning)
-- 40 years → chunks base sufficient → match in Goldilocks → appreciation emerges
+- Age 20 → chunks base thin → match <30% → dismiss
+- Ages 20–40 → accumulated cultural exposure (friends, media, museums, incidental learning)
+- Age 40 → chunks base sufficient → match in Goldilocks → appreciation emerges
 
-**NOT** because the art "became better" or "person became smarter." Chunks base grew via passive + active exposure → crossed appreciation threshold.
+**NOT** because the art "became better" or "the person became smarter." Chunks base grew via passive + active exposure → crossed the appreciation threshold.
 
-### §6.7 — Comparison: Van Gogh vs children's drawing
+### §6.7 — Comparison: Van Gogh vs children's drawings
 
 User's precise wording:
-> "Thực sự tôi nhìn thấy như trẻ con vẽ vậy"
+> "Honestly, looking at it feels like a child drew it."
 
-**Are they actually similar?** Physically (to untrained eye): some similarity. Wavy lines, bold colors, unconventional.
+**Are they actually similar?** Physically (to an untrained eye): some similarity. Wavy lines, bold colors, unconventional.
 
 **Why adults feel reward for Van Gogh but typically not children's drawings**:
 - Van Gogh chunks include: **historical significance** chunks ("this was done intentionally in 1889 when realism dominated")
 - **Technical chunks** ("this represents emotional state mapping onto color")
-- **Narrative chunks** ("artist struggled with mental illness, this captured his inner experience")
+- **Narrative chunks** ("the artist struggled with mental illness; this captures his inner experience")
 - **Comparison chunks** (can compare to other post-impressionists)
 
-Children's drawing:
+Children's drawings:
 - Few historical significance chunks
 - No intentionality chunks
 - No technical innovation context
@@ -1232,32 +1235,32 @@ Children's drawing:
 
 🔴 **Speculative framework position**:
 
-Is Van Gogh "objectively" a masterpiece? Framework answer: **No "objectively."** Beauty is relationship between object and observer's chunks.
+Is Van Gogh "objectively" a masterpiece? Framework answer: **No "objectively."** Beauty is a relationship between the object and the observer's chunks.
 
-**BUT**: Beauty can be **consensus** if enough observers have similar chunks base (cultural alignment).
+**BUT**: Beauty can be **consensus** if enough observers have a similar chunks base (cultural alignment).
 
-**Expert consensus** (art history academics) have similar chunks → consistent appreciation → "masterpiece" emerges from shared appreciation, not from object alone.
+**Expert consensus** (art history academics) have similar chunks → consistent appreciation → "masterpiece" emerges from shared appreciation, not from the object alone.
 
 **Implications**:
-- "Masterpiece" is honest but subject to chunk-base distribution
+- "Masterpiece" is a meaningful label but subject to chunks-base distribution
 - People can legitimately not appreciate Van Gogh (chunks base mismatch) — not "ignorance," just different chunks
-- Training can develop appreciation — but person chooses whether to invest
+- Training can develop appreciation — but the person chooses whether to invest
 - "Beauty standards" are chunks distributions shaped by culture
 
-**User's honest self-report** ("tôi nhìn thấy như trẻ con vẽ") is **valid data point**. Not wrong — just reflects current chunks state. Could change with exposure, or could remain genuinely uninterested.
+**User's honest self-report** ("it looks like a child drew it") is **valid data**. Not wrong — just reflects current chunks state. Could change with exposure, or could remain genuinely uninterested.
 
 ### §6.9 — Implications for drill cases
 
 **Reward is trainable but not forced**:
 - Building chunks base is effortful
 - Body doesn't lie about current state
-- Can't fake appreciation
+- Appreciation cannot be faked
 
 **Parenting implication**: Exposing children to "high culture" early doesn't guarantee appreciation. Must build chunks + give autonomy to develop genuine preference.
 
 **Cross-reference**:
 - **C5 status shift** (§8 next): chunks base for new self-schema takes time to build → reward latency
-- **Hedonic trap** (P2 §9): chunks base decays without activation → loss of appreciation even if previously had
+- **Hedonic trap** (P2 §9): chunks base decays without activation → loss of appreciation even if previously present
 
 ---
 
@@ -1265,15 +1268,16 @@ Is Van Gogh "objectively" a masterpiece? Framework answer: **No "objectively."**
 
 ### §7.1 — User's question
 
-> "New input (mắt, mũi, tai,...) hoặc new chunk link (imagine) kích hoạt đồng loạt nhiều schema?"
+(Translated):
+> "Does new input (eyes, nose, ears...) or a new chunk link (imagination) activate many schemas simultaneously?"
 
-**Framework answer** 🟢 + 🟡: ✅ **YES, đây là spreading activation** — established neuroscience (Collins & Loftus 1975) + framework integration.
+**Framework answer** 🟢 + 🟡: ✅ **YES, this is spreading activation** — established neuroscience (Collins & Loftus 1975) + framework integration.
 
 ### §7.2 — Spreading Activation Mechanism
 
 🟢 **Collins & Loftus 1975**:
 
-> Concepts in semantic memory are nodes in network. When one node activates, activation spreads to connected nodes, gradually fading with distance.
+> Concepts in semantic memory are nodes in a network. When one node activates, activation spreads to connected nodes, gradually fading with distance.
 
 **Modern formulation**:
 - Neurons (chunks) are nodes
@@ -1287,18 +1291,18 @@ Is Van Gogh "objectively" a masterpiece? Framework answer: **No "objectively."**
 ```
 ┌────────────────────────────────────────────────────────────┐
 │                                                            │
-│  SINGLE INPUT (e.g., visual of someone you love)           │
+│  SINGLE INPUT (e.g., seeing someone you love)              │
 │          ↓                                                 │
-│  Initial chunk fires (e.g., "face of X person")            │
+│  Initial chunk fires (e.g., "that person's face")          │
 │          ↓                                                 │
 │  Spreading activation cascade:                             │
-│          ├→ Memory chunks about X                          │
-│          ├→ Emotional chunks associated with X             │
+│          ├→ Memory chunks about that person                │
+│          ├→ Emotional chunks associated with them          │
 │          ├→ Context chunks (where you met, shared moments) │
-│          ├→ Future chunks (plans with X)                   │
+│          ├→ Future chunks (plans with them)                │
 │          ├→ Body state chunks (sensations from interaction)│
-│          ├→ Values chunks (what X means to you)            │
-│          ├→ Social network chunks (friends of friends)     │
+│          ├→ Values chunks (what they mean to you)          │
+│          ├→ Social network chunks (shared friends)         │
 │          └→ ... hundreds to thousands of chunks            │
 │                                                            │
 │  → Multi-schema cascade → multi-need potential fill        │
@@ -1306,23 +1310,23 @@ Is Van Gogh "objectively" a masterpiece? Framework answer: **No "objectively."**
 └────────────────────────────────────────────────────────────┘
 ```
 
-### §7.3 — Why multi-schema activation amplifies signal
+### §7.3 — Why multi-schema activation amplifies the signal
 
 🟡 **Framework claim**:
 
-> When single input activates many related chunks, body's Step 5 check runs against **multiple body-needs simultaneously**. If several needs fit the cascade → compound opioid release → amplified reward.
+> When a single input activates many related chunks, the body's Step 5 check runs against **multiple body-needs simultaneously**. If several needs fit the cascade → compound opioid release → amplified reward.
 
-**Example** — C1.2 cô khen revisited:
-- Single event: cô khen
+**Example** — C1.2 teacher praises revisited:
+- Single event: teacher praises
 - Cascade activated:
   - "Competence validated" → competence need filled
   - "Social approval received" → belonging need filled
-  - "Mẹ would be proud" → family connection filled (imagined)
+  - "Mom would be proud" → family connection filled (imagined)
   - "Teacher likes me" → safety in school environment filled
-  - "Peers see me as smart" → status need filled
+  - "Peers see me as capable" → status need filled
   - "Future prospects" → long-term security signal
-- **Each** contributes opioid signal
-- **Compound result**: much stronger reward than single-need fill
+- **Each** contributes an opioid signal
+- **Compound result**: much stronger reward than any single-need fill
 
 **Framework prediction**: Reward intensity ∝ number of body-needs simultaneously filled via cascade.
 
@@ -1330,43 +1334,43 @@ Is Van Gogh "objectively" a masterpiece? Framework answer: **No "objectively."**
 
 🟡 Cascades can go positive OR negative:
 
-**Positive cascade**: chunks with opioid tags activate → reward compound
-- See partner → love chunks + safety + future hopes → strong opioid
+**Positive cascade**: chunks with opioid tags activate → compound reward
+- See a partner → love chunks + safety + future hopes → strong opioid
 
-**Negative cascade**: chunks with cortisol tags activate → dissonance compound
-- See ex after bad breakup → loss chunks + rejection + what-might-have-been → strong dissonance
+**Negative cascade**: chunks with cortisol tags activate → compound dissonance
+- See an ex after a bad breakup → loss chunks + rejection + might-have-been → strong dissonance
 
 **Mixed cascade**: both tags activate → ambivalent feeling
 - Bittersweet moments (graduation, wedding, funeral)
 - Same event fires many conflicting schemas
 
-**Framework explanation for "complex emotions"**: They're cascade products where chunks have mixed tags.
+**Framework explanation for "complex emotions"**: They are cascade products where chunks carry mixed tags.
 
 ### §7.5 — Why "new input activates many schemas"
 
-User's observation framed as question — framework confirms it's **always true** for meaningful input:
+User's observation framed as a question — framework confirms it is **always true** for meaningful input:
 
-> Any input strong enough to register consciously has likely triggered cascade. "Meaningful" = activates more chunks than routine stimulus.
+> Any input strong enough to register consciously has likely triggered a cascade. "Meaningful" = activates more chunks than a routine stimulus.
 
 **Examples**:
 
 **Strong cascade triggers**:
 - Emotional events (joy, grief, surprise)
-- Meeting someone after long separation
-- Returning to childhood home
+- Meeting someone after a long separation
+- Returning to a childhood home
 - Music with personal history
-- Smell triggering old memory (🟢 Proust effect, olfactory → hippocampus direct)
+- A smell triggering an old memory (🟢 Proust effect, olfactory → hippocampus direct)
 
 **Weak cascade triggers**:
 - Background TV
 - Routine grocery shopping
 - Repeated daily tasks
 
-**Why rich cascade = meaningful**:
+**Why a rich cascade = meaningful**:
 - Activation reaches many memory chunks
 - Past + present + future integrated
 - Multi-modal (visual + auditory + emotional + somatic)
-- Body feels "this matters"
+- Body signals "this matters"
 
 ### §7.6 — Imagine-Final and cascade
 
@@ -1374,17 +1378,17 @@ User's observation framed as question — framework confirms it's **always true*
 
 **Mechanism** (Imagine-Final §1.5 + §7.2 above):
 - PFC sets up goal/theme
-- Activation spreads to chunks related to theme
+- Activation spreads to chunks related to the theme
 - Chunks recombine via cascade
 - Novel combinations emerge as Imagine-Final candidates
 - Body pre-feels each candidate
 
-**Creative insight** = cascade producing novel chunk combination not previously compiled. "Aha moment" literally is cascade hitting a new valid pattern.
+**Creative insight** = cascade producing a novel chunk combination not previously compiled. The "aha moment" literally is the cascade hitting a new valid pattern.
 
-**User's B1.3 case revisited** (cây hoa):
-- Exposure to hoa đẹp → chunks about hoa activate
-- Later: DMN mode, cascade spontaneously activates these chunks + "sân nhà mình" chunks
-- Combination: "hoa giữa sân" emerges as new Imagine-Final
+**B1.3 case revisited** (flowering plant):
+- Exposure to a beautiful flower → chunks about that flower activate
+- Later: default mode network activates, cascade spontaneously combines these flower chunks + "my yard" chunks
+- Combination: "flower in the yard" emerges as a new Imagine-Final
 - This is **cascade-driven creativity**
 
 ### §7.7 — Limitations of cascade
@@ -1405,13 +1409,13 @@ This connects to earlier sections:
 
 ### §7.8 — Framework commitment on C4
 
-**User's question answer**:
+**User's question answered**:
 
-> "New input (mắt, mũi, tai,...) hoặc new chunk link (imagine) kích hoạt đồng loạt nhiều schema?"
+> "Does new input (eyes, nose, ears...) or a new chunk link (imagination) activate many schemas simultaneously?"
 
 **YES**. Framework fully commits. Mechanism: spreading activation via synaptic network. Richer chunks base → richer cascade → richer experience.
 
-**Implication**: Quality of life proportional to chunks base depth + diversity. Building chunks base = building capacity for richer experience.
+**Implication**: Quality of life is proportional to chunks base depth + diversity. Building chunks base = building capacity for richer experience.
 
 ---
 
@@ -1419,65 +1423,66 @@ This connects to earlier sections:
 
 ### §8.1 — User's verbatim
 
-> "Shift status: tại sao chưa tin? Chưa tin thì có hơi thấy mâu thuẫn không? Tại sao một thời gian quen dần mới tin? Ở trường làng, thi học sinh giỏi cấp tỉnh và được giải nhất, vui sướng khi nhận được tin, nhưng vẫn còn nghi ngờ, sau một thời gian mới thấy bình thường và tự tin hãnh diện"
+(Translated):
+> "Status shift — why the disbelief? Doesn't the disbelief feel a little contradictory? Why does belief only come after gradually getting used to it? At a rural school, entering the provincial academic competition and winning first place — the news arrives and you feel joy, but also doubt. Only after some time does it become normal, replaced by genuine confidence and pride."
 
-**Framework answer** 🟡: This case reveals **reward latency mechanism** — positive information doesn't instantly produce full reward. Schema update takes time.
+**Framework answer** 🟡: This case reveals the **reward latency mechanism** — positive information doesn't instantly produce full reward. Schema update takes time.
 
-### §8.2 — Why "chưa tin" happens despite positive information
+### §8.2 — Why "not yet believing" happens despite positive information
 
 **Key insight** 🟡:
 
 > Reward isn't triggered by information ALONE. It's triggered by **body-level coherence**. Self-schema must update before full reward can fire.
 
 **Immediate receipt of good news**:
-- External info: "em được giải nhất cấp tỉnh"
+- External info: "You won first place at the provincial competition"
 - Auditory input → PFC receives → attempts to label
-- **BUT**: self-schema "tôi trường làng kém hơn thành phố" still compiled
+- **BUT**: self-schema "I'm from a rural school, inferior to city schools" still compiled
 - Contradiction: new info ≠ existing self-schema
 - Body detects mismatch → **cognitive dissonance fires**
-- **Mild dissonance despite positive content** — "chưa tin" = mini dissonance from coherence gap
+- **Mild dissonance despite positive content** — "not yet believing" = mini dissonance from coherence gap
 
 ### §8.3 — Framework mechanism decomposition
 
 **Phase 1 — Immediate information receipt**:
 
 - External announcement arrives
-- Auditory processing → concept "giải nhất tỉnh" → PFC workspace
-- **P3 prediction-delta**: HIGH (unexpected positive event)
-- **P2 Chunks base**: partial — child understands "giải nhất" = good thing
-- **P1 Pending**: mixed — child might have wanted to compete but self-doubts
+- Auditory processing → concept "first place provincially" → PFC workspace
+- **P3 Prediction-delta**: HIGH (unexpected positive event)
+- **P2 Chunks base**: partial — child understands "first place" = good thing
+- **P1 Pending**: mixed — child may have wanted to compete but self-doubts
 - **P4 Goldilocks**: poor match — self-schema doesn't align
 - **P5 Tag**: positive content
-- **Initial reward**: partial opioid — "vui sướng khi nhận được tin"
+- **Initial reward**: partial opioid — "felt joy upon hearing the news"
 
-Mechanism: Enough dopamine + some opioid → recognizable as positive. But full reward gated by self-schema coherence.
+Mechanism: Enough dopamine + some opioid → recognizable as positive. But full reward is gated by self-schema coherence.
 
 **Phase 2 — Coherence check fails**:
 
-- PFC attempts integration: "I am 'giải nhất cấp tỉnh winner'"
+- PFC attempts integration: "I am a 'provincial first-place winner'"
 - Body check: does this fit self-schema?
-- Self-schema: "trường làng, kém hơn thành phố, tôi không phải 'giải nhất' material"
+- Self-schema: "rural school kid, inferior to city schools — I'm not 'first-place material'"
 - **Mismatch detected** → dissonance signal
-- **"Chưa tin"** = body reports coherence gap
+- **"Not yet believing"** = body reports coherence gap
 
-**Critical**: The doubt is NOT about the information's truth. It's about **self-identity schema** not yet updated.
+**Critical**: The doubt is NOT about the truth of the information. It's about the **self-identity schema** not yet being updated.
 
-**Phase 3 — Suspended state (vui + nghi ngờ simultaneously)**:
+**Phase 3 — Suspended state (joy + doubt simultaneously)**:
 
 - PFC cannot resolve immediately
 - Two schemas firing in parallel:
   - New info: "I won"
   - Old self: "I am the type who doesn't win"
 - Subjective: **complex mixed feeling** — partial joy + disbelief + confusion
-- User's astute phrase: "vui sướng khi nhận được tin, nhưng vẫn còn nghi ngờ"
+- User's astute phrase: "felt joy upon hearing the news, but still doubted"
 
-**Phase 4 — Gradual schema update (days-weeks)**:
+**Phase 4 — Gradual schema update (days–weeks)**:
 
 External reinforcement compounds:
 - Family congratulates → social validation
-- Teachers mention → authority validation
-- Classmates see → peer validation
-- Media/newspaper (if local) → broader validation
+- Teachers mention it → authority validation
+- Classmates see it → peer validation
+- Local media (if applicable) → broader validation
 - Physical reminder (trophy, certificate) → tangible evidence
 
 Each reinforcement → **schema update pressure** (Chunk.md reconsolidation mechanism activated)
@@ -1487,55 +1492,55 @@ Each reinforcement → **schema update pressure** (Chunk.md reconsolidation mech
 
 **Phase 5 — Schema integration complete**:
 
-After days-weeks:
+After days–weeks:
 - Self-schema updated: "I can win"
-- Old trường-làng-schema weakened but not deleted (Chunk.md §2 "no delete")
+- Old rural-school-inferior-schema weakened but not deleted (Chunk.md §2 "no delete")
 - New schema becomes primary self-reference
 - **NOW coherence check passes** — info + self match
-- **Full reward fires**: "tự tin hãnh diện"
+- **Full reward fires**: "genuine confidence and pride"
 
-User's precise phrase: "sau một thời gian mới thấy bình thường và tự tin hãnh diện"
+User's precise phrase: "only after some time does it become normal, replaced by genuine confidence and pride"
 
-**"Bình thường"** = new schema accepted as baseline. Not special anymore because it's integrated into self-identity.
+**"Normal"** = new schema accepted as baseline. No longer special because it's integrated into self-identity.
 
 ### §8.4 — Why schema update takes time
 
-🟡 Framework mechanisms (Chunk.md §2 + Learning-Cycle §3-§4):
+🟡 Framework mechanisms (Chunk.md §2 + Learning-Cycle §3–§4):
 
 **Chunks don't update instantly**:
 - Compile pathways require time + activation
-- Emotional peak path (one-shot compile) works only for high-intensity
+- Emotional peak path (one-shot compile) works only for high intensity
 - Most schema update = repetition + multi-modal over iterations
 
 **Sleep consolidation critical**:
-- Each night's sleep refines schema
-- Takes multiple cycles (Learning-Cycle §4 6+1 mechanisms) to fully integrate
+- Each night's sleep refines the schema
+- Takes multiple cycles (Learning-Cycle §4 — 6+1 mechanisms) to fully integrate
 - Reconsolidation window (Nader 2000): recall → unstable → modify → re-stabilize
 
-**Why days-weeks**:
-- ~3-5 nights for initial integration
-- ~2-3 weeks for self-schema level changes
-- Months-years for deep identity shifts (e.g., career change)
+**Why days–weeks**:
+- ~3–5 nights for initial integration
+- ~2–3 weeks for self-schema level changes
+- Months–years for deep identity shifts (e.g., career change)
 
 **Implication**: Cannot force instant "belief" in new positive information. Body needs integration time.
 
-### §8.5 — Real alternatives (user's verbatim acknowledgment of uncertainty)
+### §8.5 — Real alternatives
 
-User's honest note:
-> "Đây chỉ là case tôi bịa ra thôi. Không biết có case nào thật vậy không nhỉ. Hoặc bạn có thể lấy ví dụ khác"
+**User's honest note** (translated):
+> "This is just a scenario I made up. I don't know if there are any real cases like this. Or maybe you can give another example."
 
-Framework provides 5 well-documented real examples of same mechanism:
+Framework provides 5 well-documented real examples of the same mechanism:
 
 #### §8.5.1 — C5.alt1: Impostor Syndrome Post-Promotion
 
-🟢 **Research**: Clance & Imes 1978 (foundational), subsequent extensive research.
+🟢 **Research**: Clance & Imes 1978 (foundational), extensive subsequent research.
 
-**Phenomenon**: High-achievers (often first-gen executives, minority hires, academics) receiving unexpected position/recognition feel "not deserving" despite clear merit.
+**Phenomenon**: High-achievers (often first-generation executives, minority hires, academics) receiving an unexpected position/recognition feel "undeserving" despite clear merit.
 
 **Common experience**:
-- Month 1-3: "They made a mistake hiring me"
-- Month 3-6: Anxiety about being "found out"
-- Month 6-12: Gradually accepting role
+- Month 1–3: "They made a mistake hiring me"
+- Month 3–6: Anxiety about being "found out"
+- Month 6–12: Gradually accepting the role
 - Year 2+: Comfortable with identity
 
 **Mechanism mapping** to framework:
@@ -1544,50 +1549,50 @@ Framework provides 5 well-documented real examples of same mechanism:
 - Coherence gap: persistent
 - Resolution: daily execution + social feedback + successful performance → schema update
 
-**Framework prediction**: Impostor syndrome resolves (for most) via **repeated positive feedback compiling new self-schema**. Some never fully resolve → stay in mild chronic dissonance.
+**Framework prediction**: Impostor syndrome resolves (for most) via **repeated positive feedback compiling a new self-schema**. Some never fully resolve → remain in mild chronic dissonance.
 
 #### §8.5.2 — C5.alt2: Lottery Winner Disbelief
 
 🟢 **Research**: Brickman et al. 1978 (classic hedonic adaptation study), subsequent replications.
 
-**Phenomenon**: Lottery winners report initial "surreal" phase — "it doesn't feel real."
+**Phenomenon**: Lottery winners report an initial "surreal" phase — "it doesn't feel real."
 
 **Common timeline**:
-- Day 1-7: "Dream-like, not processing fully"
-- Week 2-4: Practical implications dawn (tax, family, lifestyle changes)
-- Month 2-6: Gradual acceptance + identity shift
+- Day 1–7: "Dream-like, not processing fully"
+- Week 2–4: Practical implications dawn (tax, family, lifestyle changes)
+- Month 2–6: Gradual acceptance + identity shift
 - Year 1+: New baseline emerges
 
 **Mechanism mapping**:
 - External: wealth acquired
-- Self-schema: "ordinary person financial situation"
+- Self-schema: "ordinary financial situation"
 - Coherence gap: massive
 - Resolution: practical engagement with new reality forces schema update
 
-**Brickman's famous finding**: Despite initial peak, life satisfaction returns toward baseline within 12-18 months. Full schema integration happens, but hedonic adaptation also kicks in → no sustained massive happiness boost.
+**Brickman's famous finding**: Despite the initial peak, life satisfaction returns toward baseline within 12–18 months. Full schema integration happens, but hedonic adaptation also kicks in → no sustained massive happiness boost.
 
-**Framework interpretation**: Schema updates for new baseline → new pending schemas emerge → back to normal dissonance/reward patterns. Peak was transitional phase, not permanent.
+**Framework interpretation**: Schema updates to new baseline → new pending schemas emerge → back to normal dissonance/reward patterns. Peak was a transitional phase, not permanent.
 
 #### §8.5.3 — C5.alt3: Kuhn Paradigm Shift Acceptance
 
-🟢 **Research**: Kuhn 1962 "Structure of Scientific Revolutions."
+🟢 **Research**: Kuhn 1962 "The Structure of Scientific Revolutions."
 
-**Phenomenon**: Scientists trained in one paradigm literally cannot "see" new paradigm even when evidence is compelling.
+**Phenomenon**: Scientists trained in one paradigm literally cannot "see" the new paradigm even when evidence is compelling.
 
 **Classic examples**:
 - Continental drift theory (Wegener 1912): rejected for decades until evidence + generational change
-- Plate tectonics (1960s): accepted after old guard retired
+- Plate tectonics (1960s): accepted after the old guard retired
 - Helicobacter pylori causing ulcers (1980s): Marshall had to drink the bacteria to prove
 
 **Kuhn's famous quote** (via Max Planck):
 > "Science advances one funeral at a time."
 
-Meaning: Established scientists never truly update. They die, new generation (raised with new paradigm) replaces them.
+Meaning: Established scientists never truly update. They die, and a new generation — raised with the new paradigm — replaces them.
 
 **Mechanism mapping**:
 - External: new evidence + theory
-- Self-schema: "I am [old paradigm] expert"
-- Coherence gap: accepting new = invalidating career investment
+- Self-schema: "I am a [old paradigm] expert"
+- Coherence gap: accepting the new = invalidating career investment
 - Resolution: for most, never — only generational turnover resolves
 
 **Framework interpretation**: Strongest case of schema update resistance. Self-schema tied to professional identity + life's work → updating = identity threat + loss of expertise capital.
@@ -1598,70 +1603,70 @@ Meaning: Established scientists never truly update. They die, new generation (ra
 
 🟡 **Phenomenon** (research supports, common clinical observation):
 
-Person receiving unexpected romantic interest from partner perceived as "higher status" → "why would they want me?"
+Person receiving unexpected romantic interest from a partner perceived as "higher status" → "why would they want me?"
 
 **Timeline**:
 - Initial: euphoria + disbelief
-- Weeks 1-3: testing the relationship's reality
-- Months 1-6: gradual acceptance + security building
+- Weeks 1–3: testing the relationship's reality
+- Months 1–6: gradual acceptance + security building
 - Year 1+: comfortable
 
 **Mechanism mapping**:
 - External: mutual attraction + relationship
-- Self-schema: "I am not the kind deserving this partner"
+- Self-schema: "I am not the kind who deserves this partner"
 - Coherence gap: desire ≠ self-worth
 - Resolution: continued partner commitment + personal growth → update
 
-**Common failure mode**: Self-sabotage — schema protects itself by creating situations that confirm old self ("see, I told you I'm not worthy"). Relationship collapses → schema preserved.
+**Common failure mode**: Self-sabotage — schema protects itself by creating situations that confirm the old self ("see, I told you I'm not worthy"). Relationship collapses → schema preserved.
 
 **Successful resolution requires**: partner patience + personal growth work + time + consistent evidence.
 
-#### §8.5.5 — C5.alt5: Cinderella / Underdog Narrative Genre
+#### §8.5.5 — C5.alt5: The Underdog Narrative Genre
 
-🟡 **Cultural phenomenon**: Entire narrative genre built on this mechanism.
+🟡 **Cultural phenomenon**: An entire narrative genre built on this mechanism.
 
 - Underdog rises
-- Gradual belief in self
+- Gradual self-belief builds
 - External + internal journey
 - Final transformation
 
-**Why resonates universally**: Humans recognize the mechanism. Schema update IS a narrative — takes time, has stages, requires both external catalyst and internal growth.
+**Why it resonates universally**: Humans recognize the mechanism. Schema update IS a narrative — it takes time, has stages, requires both external catalyst and internal growth.
 
 Examples: Cinderella, Rocky, Slumdog Millionaire, countless biopics, coming-of-age stories.
 
 **Framework insight**: The "underdog story" structure reflects actual neuroscience of self-schema update. Not arbitrary storytelling — it mirrors lived experience.
 
-### §8.6 — Why C5 case is critical for drill
+### §8.6 — Why C5 is critical for the drill
 
 🟡 **Key framework insight**:
 
-> **Reward latency** is important because it shows reward is **NOT instant** despite "should" be. Body has its own timeline determined by schema integration cost.
+> **Reward latency** matters because it shows reward is **NOT instant** even when it "should" be. Body has its own timeline determined by schema integration cost.
 
 **Implications**:
-- Cannot "talk yourself into" feeling successful — body needs to experience
-- Good news received but not celebrated = normal, not abnormal
-- Gradual acceptance ≠ weakness — it's architectural
-- Full integration takes weeks-months for significant shifts
+- Cannot "talk yourself into" feeling successful — body needs to experience it
+- Good news received but not fully celebrated = normal, not abnormal
+- Gradual acceptance ≠ weakness — it is architectural
+- Full integration takes weeks–months for significant shifts
 
 **Practical application**:
 - Celebrating achievements matters (allows full integration)
 - Social validation accelerates compile (multi-modal reinforcement)
 - "Fake it till you make it" works partially — action forces schema exposure to new evidence
-- Patient with oneself during transitions
+- Be patient with oneself during transitions
 
 ### §8.7 — H10 precondition analysis for C5
 
 **Phase 1 state** (immediate good news):
-- P1 Pending: Complex — partial pending (competitive motivation) + new pending emerging ("be successful student")
-- P2 Chunks: INSUFFICIENT for new self — chunks about "winner identity" not yet compiled
+- P1 Pending: Complex — partial pending (competitive motivation) + new pending emerging ("be a successful student")
+- P2 Chunks base: INSUFFICIENT for new self — chunks about "winner identity" not yet compiled
 - P3 Delta: HIGH
 - P4 Goldilocks: POOR match between new info and current self
 - P5 Tag: Positive content but triggers uncertainty tag
 
-**Reason "chưa tin"**: **P2 + P4 failed** at self-schema level. Body signals "info exists but doesn't fit self" → coherence gap → mild dissonance despite positive content.
+**Reason for "not yet believing"**: **P2 + P4 failed** at the self-schema level. Body signals "info exists but doesn't fit self" → coherence gap → mild dissonance despite positive content.
 
 **Phase 5 state** (after integration):
-- P2 Chunks: New "winner" chunks compiled
+- P2 Chunks base: New "winner" chunks compiled
 - P4 Goldilocks: New self-schema matches new identity
 - All preconditions met
 - Body fires full reward on any reminder of achievement
@@ -1670,19 +1675,19 @@ Examples: Cinderella, Rocky, Slumdog Millionaire, countless biopics, coming-of-a
 
 ### §8.8 — Connection to trauma loop (anti-case)
 
-Interesting inverse: **Trauma = schema update failure in negative direction**.
+Interesting inverse: **Trauma = schema update failure in the negative direction**.
 
-**Positive case (C5)**: 
+**Positive case (C5)**:
 - New positive info → gradual integration → new healthier self-schema
 - Takes time but ends well
 
 **Trauma case (P2 §8)**:
 - New negative event → compiled deep (emotional peak)
 - Tries to integrate but can't resolve
-- Gets stuck at Phase 2-3 indefinitely
+- Gets stuck at Phase 2–3 indefinitely
 - Never reaches integration
 
-**Difference**: Positive schema update has clear positive destination (compile new good self). Trauma has no clear destination (no "good" interpretation available) → cycle instead of resolution.
+**Difference**: Positive schema update has a clear positive destination (compile new good self). Trauma has no clear destination (no "good" interpretation available) → cycle instead of resolution.
 
 **Framework prediction**: Positive schema updates typically succeed (given reinforcement). Negative schema updates from trauma often fail without intervention.
 
@@ -1698,9 +1703,9 @@ This section drills **Cortisol-Baseline §3.5** — the Novelty Cortisol vs Thre
 
 🟡 **Framework commitment**:
 
-> Chunks compile under specific neurochemical context. The context leaves a **tag** that persists through chunk retrieval. Same content can be **opioid-tagged** (from novelty context) OR **cortisol-tagged** (from threat context). Tag determines future usability.
+> Chunks compile under a specific neurochemical context. The context leaves a **tag** that persists through chunk retrieval. The same content can be **opioid-tagged** (from a novelty context) OR **cortisol-tagged** (from a threat context). The tag determines future usability.
 
-**Critical implication**: Chunk content alone insufficient to predict future use. Must know tag.
+**Critical implication**: Chunk content alone is insufficient to predict future use. Must know the tag.
 
 ### §9.3 — Mechanism: Novelty Cortisol vs Threat Cortisol
 
@@ -1711,7 +1716,7 @@ Both involve cortisol, but:
 - Accompanied by: dopamine + opioid preview
 - Body state: engaged, focused, eager
 - Neurons fire in **directed pattern** (attention on novelty source)
-- Calibrate **with hướng** (purposeful)
+- Directed calibration (purposeful)
 - Sleep quality: good (task done, cortisol drops)
 
 **Threat cortisol**:
@@ -1719,13 +1724,13 @@ Both involve cortisol, but:
 - Accompanied by: NE + adrenaline
 - Body state: tense, alert, defensive
 - Neurons fire in **scattered pattern** (scanning for danger)
-- Calibrate **mù** (anxious without clear direction)
+- Undirected calibration (anxious without clear direction)
 - Sleep quality: poor (cortisol stays elevated)
 
 ### §9.4 — The tagging mechanism 🟡
 
 **During chunk compile**:
-- New chunks form via Hebbian LTP (neurons fire together wire together)
+- New chunks form via Hebbian LTP (neurons that fire together wire together)
 - **Neighboring activity** at time of compile gets wired in
 - If environment is novelty-rich → dopamine + opioid co-active → wire in
 - If environment is threat-rich → NE + cortisol co-active → wire in
@@ -1735,107 +1740,107 @@ Both involve cortisol, but:
 - Retrieving chunk activates same network
 - **Associated tags fire too** (lingering effect)
 - Body experiences: original content + emotional association
-- Opioid-tagged chunk: "remembering feels good"
-- Cortisol-tagged chunk: "remembering feels uncomfortable"
+- Opioid-tagged chunk: "remembering this feels good"
+- Cortisol-tagged chunk: "remembering this feels uncomfortable"
 
-**🟡 Framework claim**: This explains why "same factual knowledge" can feel completely different to different people — compile context differs.
+**🟡 Framework claim**: This explains why "the same factual knowledge" can feel completely different to different people — compile context differs.
 
-### §9.5 — 4 Threat Intensity Ngưỡng
+### §9.5 — 4 Threat Intensity Threshold Levels
 
-Cortisol-Baseline §3.5 commits **4 threat levels** with different chunk outcomes:
+Cortisol-Baseline §3.5 commits to **4 threat levels** with different chunk outcomes:
 
-#### §9.5.1 — Threat nhẹ (60:40 threat:novelty)
+#### §9.5.1 — Mild threat (60:40 threat:novelty)
 
-**Example**: "Làm bài tập xong → được chơi" parenting
+**Example**: "'Finish your homework and you can play'" parenting
 
 **Mechanism**:
 - Mild threat (losing play time)
 - Some intrinsic novelty (possibly interesting task)
-- Cortisol: nhẹ
+- Cortisol: mild
 - Opioid: present (anticipating play reward)
 - **Chunk tag**: mostly opioid, slight cortisol
 
-**Result**: Chunks compile usable. Future retrieval: functional, slight wariness. Good foundation.
+**Result**: Chunks compile usably. Future retrieval: functional, slight wariness. Good foundation.
 
 ✅ **Framework: valuable** — gets chunks compiled + minimal damage.
 
-#### §9.5.2 — Threat vừa (80:20)
+#### §9.5.2 — Moderate threat (80:20)
 
-**Example**: "Phải xong project tuần này, không xong thì cuối tuần làm tiếp"
+**Example**: "'This project must be done by end of week — otherwise you work through the weekend'"
 
 **Mechanism**:
-- Moderate threat (losing weekend)
+- Moderate threat (losing the weekend)
 - Some task interest
-- Cortisol: vừa
+- Cortisol: moderate
 - Opioid: minimal
 - **Chunk tag**: mostly cortisol, some opioid
 
-**Result**: Chunks compile but "reluctant." Adult retrieval: functional but with dread. Can do but doesn't enjoy.
+**Result**: Chunks compile but "reluctantly." Adult retrieval: functional but with dread. Can do but doesn't enjoy.
 
 ✅ **Framework: acceptable foundation** — tradeoff.
 
-#### §9.5.3 — Threat nặng (95:5)
+#### §9.5.3 — Heavy threat (95:5)
 
-**Example**: "Không học là ăn đòn mỗi ngày suốt năm"
+**Example**: "'No studying means getting beaten every day for the whole year'"
 
 **Mechanism**:
 - Heavy threat, daily intensity
-- Cortisol: CAO, sustained
+- Cortisol: HIGH, sustained
 - Opioid: absent
 - **Chunk tag**: deep cortisol
 
-**Result**: Chunks have content but **body-base object to retrieval**:
-- Opening textbook → body automatic discomfort
-- Sitting at desk → muscles tense
+**Result**: Chunks have content but **body-base objects to retrieval**:
+- Opening the textbook → body automatic discomfort
+- Sitting at the desk → muscles tense
 - **Compiled avoidance response** alongside content
 
-Adult outcome: May know material but cannot enjoy using it. "Giỏi nhưng ghét" pattern.
+Adult outcome: May know the material but cannot enjoy using it. "Skilled but resentful" pattern.
 
 ⚠️ **Framework: low value** — chunks present but problematic usage.
 
-#### §9.5.4 — Threat cực đoan (bạo lực, xúc phạm, trauma)
+#### §9.5.4 — Extreme threat (violence, humiliation, trauma)
 
 **Example**: Extreme abuse contexts
 
 **Mechanism**:
-- CỰC high cortisol
+- EXTREME cortisol
 - Trauma-level compile
 - Other schemas damaged (not just learning content)
 - **Chunk tag**: TRAUMA-level cortisol
 
 **Result**: Chunks present but RETRIEVAL triggers panic/freeze:
-- Seeing textbook → trauma recall response
-- Teacher's voice → body co rúm
+- Seeing the textbook → trauma recall response
+- Teacher's voice → body flinches/shrinks
 - **Chunks become triggers** for trauma response
 
 Adult outcome: Dangerous to engage with content. May require therapy to reprocess.
 
 ❌ **Framework: net negative** — content compiled, but cost to access outweighs benefit.
 
-### §9.6 — 4-Ngưỡng Summary Table
+### §9.6 — 4-Threshold Summary Table
 
-| Ngưỡng | Threat:Novelty | Chunk tag | Content accessible? | Usability | Framework verdict |
+| Threshold | Threat:Novelty | Chunk tag | Content accessible? | Usability | Framework verdict |
 |---|---|---|---|---|---|
-| **Nhẹ** (60:40) | Mild | Opioid majority | ✅ Easy | ✅ Good | Valuable |
-| **Vừa** (80:20) | Moderate | Cortisol majority | ✅ Yes | ⚠️ Reluctant | Acceptable |
-| **Nặng** (95:5) | Heavy | Cortisol deep | ⚠️ Avoidant | ❌ "Giỏi nhưng ghét" | Low value |
-| **Cực đoan** | Trauma | Trauma-level | ❌ Triggers panic | ❌ Dangerous | Net negative |
+| **Mild** (60:40) | Mild | Opioid majority | ✅ Easy | ✅ Good | Valuable |
+| **Moderate** (80:20) | Moderate | Cortisol majority | ✅ Yes | ⚠️ Reluctant | Acceptable |
+| **Heavy** (95:5) | Heavy | Cortisol deep | ⚠️ Avoidant | ❌ "Skilled but resentful" | Low value |
+| **Extreme** | Trauma | Trauma-level | ❌ Triggers panic | ❌ Dangerous | Net negative |
 
-**Critical insight**: There's no linear "more threat = more damage" — there are **threshold effects** at each ngưỡng. The difference between nhẹ and vừa is gradual. Between nặng and cực đoan is qualitative (content becomes trauma trigger).
+**Critical insight**: There is no linear "more threat = more damage" — there are **threshold effects** at each level. The difference between mild and moderate is gradual. Between heavy and extreme is qualitative (content becomes a trauma trigger).
 
-### §9.7 — Thiên Tài Paradox Deep Dive
+### §9.7 — Genius Paradox Deep Dive
 
 **Introduced in P2 §5.6**, this section drills deeper.
 
-**Phenomenon**: Newton, Tesla, Einstein had high cortisol baseline (trauma, anxiety, difficult childhoods). But they produced brilliant work showing flow states and deep engagement. Why didn't their chunks all get cortisol-tagged → avoidant?
+**Phenomenon**: Newton, Tesla, Einstein had high cortisol baselines (trauma, anxiety, difficult childhoods). But they produced brilliant work demonstrating flow states and deep engagement. Why didn't their chunks all get cortisol-tagged → avoidant?
 
 🟡 **Framework resolution**:
 
-> **Source of cortisol matters more than its level.**
+> **The SOURCE of cortisol matters more than its level.**
 
 **Mechanism**:
 
-- High cortisol baseline → body in change-readiness mode continuously
+- High cortisol baseline → body continuously in change-readiness mode
 - BUT threat source ≠ learning domain
 - → Body has energy for pattern change → DIRECTS energy at novelty in any available domain
 - → Learning domain receives novelty cortisol + opioid preview + directed attention
@@ -1853,7 +1858,7 @@ Adult outcome: Dangerous to engage with content. May require therapy to reproces
 **Learning behavior**:
 - Read voraciously (books = replacement connection?)
 - Mathematical fascination (abstract world = safe)
-- Physics inquiries (understanding nature = filling gap?)
+- Physics inquiries (understanding nature = filling the gap?)
 
 **Chunks in math/physics**: Compiled with OPIOID tag because engagement was **chosen refuge**, not forced.
 
@@ -1869,7 +1874,7 @@ Adult outcome: Dangerous to engage with content. May require therapy to reproces
 
 **Learning behavior**:
 - Escaped into vivid imagination (safe mental space)
-- Inventions emerged from imagination play
+- Inventions emerged from imaginative play
 - Self-directed experimentation
 
 **Chunks in engineering/physics**: OPIOID-tagged — pursuit of invention = self-rescue from painful reality.
@@ -1883,7 +1888,7 @@ Adult outcome: Dangerous to engage with content. May require therapy to reproces
 **Cortisol baseline**: Moderate-high.
 
 **Learning behavior**:
-- Disliked formal school (cortisol-tagged school chunks)
+- Disliked formal school (school chunks cortisol-tagged)
 - LOVED physics (self-directed, curiosity-driven)
 - Thought experiments
 
@@ -1912,14 +1917,14 @@ Critical framework claim: **Chunk tags CAN be changed via re-association**.
 #### §9.10.1 — Path 1: Re-associate via new experience
 
 **Mechanism**:
-- Use chunks in NEW positive context
+- Use chunks in a NEW positive context
 - Repeat many times
 - Opioid association gradually overlays cortisol association
 - Chunks don't delete (Chunk.md §2) but tag changes
 
-**Example**: Adult who "ghét toán" (threat-tagged) starts doing data analysis for game dev hobby. Uses same math chunks but in novelty context (fun, self-directed). Over months-years, association shifts.
+**Example**: Adult who "hates math" (threat-tagged) starts doing data analysis for a game development hobby. Uses same math chunks but in a novelty context (fun, self-directed). Over months–years, association shifts.
 
-**Timeline**: Slow (months-years). Threat association never fully disappears but weakens.
+**Timeline**: Slow (months–years). Threat association never fully disappears but weakens.
 
 **Success factors**:
 - Consistent new positive context
@@ -1930,11 +1935,11 @@ Critical framework claim: **Chunk tags CAN be changed via re-association**.
 #### §9.10.2 — Path 2: Novelty hijack
 
 **Mechanism**:
-- Novelty drive (intrinsic curiosity) spontaneously activates cortisol-tagged chunks for NEW purpose
-- If purpose is exciting → chunks get "hijacked" into novelty context
-- Dopamine + opioid associations form around new use
+- Novelty drive (intrinsic curiosity) spontaneously activates cortisol-tagged chunks for a NEW purpose
+- If the purpose is exciting → chunks get "hijacked" into novelty context
+- Dopamine + opioid associations form around the new use
 
-**Example**: Someone who hated chemistry class (cortisol-tagged chunks) becomes fascinated with cooking. Realizes "chemistry = understanding food reactions." Chemistry chunks suddenly activate in positive food context → association shifts.
+**Example**: Someone who hated chemistry class (cortisol-tagged chunks) becomes fascinated with cooking. Realizes "chemistry = understanding food reactions." Chemistry chunks suddenly activate in a positive food context → association shifts.
 
 **Faster than Path 1** because novelty drive provides active motivation.
 
@@ -1944,12 +1949,12 @@ Critical framework claim: **Chunk tags CAN be changed via re-association**.
 
 🟡 **Framework extension**:
 
-- AI provides CONTEXT for cortisol-tagged chunks in new way
+- AI provides CONTEXT for cortisol-tagged chunks in a new way
 - Conversational, non-judgmental, patient
-- Meets person "where they are"
+- Meets person where they are
 - Bridges chunks to new purposes
 
-**Example**: Adult with math anxiety uses AI tutor to understand statistics for hobby. AI explains patiently, links to interesting topics, creates opioid-context engagement. Over sessions, math chunks re-tag.
+**Example**: Adult with math anxiety uses an AI tutor to understand statistics for a hobby. AI explains patiently, links to interesting topics, creates opioid-context engagement. Over sessions, math chunks re-tag.
 
 **Advantages of AI**:
 - Infinite patience (no frustration transmitted)
@@ -1959,23 +1964,23 @@ Critical framework claim: **Chunk tags CAN be changed via re-association**.
 
 **Risks**:
 - AI gives wrong information → builds wrong chunks
-- AI can't replace body-based experience entirely
+- AI cannot replace body-based experience entirely
 - Over-reliance on AI without action
 
-**Framework position**: AI is genuinely new path not previously available. Emerging research needed.
+**Framework position**: AI is a genuinely new path not previously available. Emerging research needed.
 
 ### §9.11 — Implications for trauma recovery
 
-**P2 §8.8 trauma treatment** can be connected here:
+P2 §8.8 trauma treatment can be connected here:
 
 Re-association paths offer hope for trauma chunks:
 - Path 1: Somatic therapy (SE, sensorimotor) — re-experience in safe context
 - Path 2: Finding meaning (Viktor Frankl tradition) — novelty hijack for trauma
 - Path 3: AI-supported exposure — emerging
 
-None instant. All require sustained effort. But all can work.
+None are instant. All require sustained effort. But all can work.
 
-**Key**: Chunks don't delete. Must overlay with new associations. This is architectural, not limitation — it's HOW brains work.
+**Key**: Chunks don't delete. Must overlay with new associations. This is architectural, not a limitation — it's HOW brains work.
 
 ---
 
@@ -1991,14 +1996,14 @@ Previous sections showed WHAT produces reward. This section asks: **How is rewar
 
 | Reward type | Source | Sustainability | Example |
 |---|---|---|---|
-| **Novelty reward** | prediction-delta + opioid from chunks compile | **High** — as long as chunks continue accumulating | Curious exploration, learning domain |
+| **Novelty reward** | Prediction-delta + opioid from chunks compile | **High** — as long as chunks continue accumulating | Curious exploration, learning domain |
 | **Relief reward** | Cortisol drop after threat resolves | **Low** — diminishing returns, needs escalating threat | Procrastination relief, avoiding punishment |
 | **Mastery reward** | Competence schema confirmation | **High** — deep opioid tagging + self-efficacy | Skilled craft, expertise |
 | **Social approval reward** | Connection schema fill | **Medium** — requires ongoing social context | Praise, status, recognition |
-| **Sensory reward** | Direct body-need fill | **Low** — satiety quickly, habituation | Food, sex, drugs (without connection) |
+| **Sensory reward** | Direct body-need fill | **Low** — satiety comes quickly, habituation | Food, sex, substances (without connection) |
 | **Meaningful work reward** | Multi-schema cascade filling | **Highest** — compound effect, value-aligned | Einstein-level passion projects |
 
-**Key insight**: **Sustainability** depends on how reward integrates with ongoing schema landscape, not just intensity.
+**Key insight**: **Sustainability** depends on how reward integrates with the ongoing schema landscape, not just intensity.
 
 ### §10.3 — Flow state mechanism
 
@@ -2013,14 +2018,14 @@ Previous sections showed WHAT produces reward. This section asks: **How is rewar
 **Framework decoding**:
 - **Challenge ≈ Skill** = Goldilocks zone maintained (P4 ✅)
 - **Clear goals** = Schema pending active (P1 ✅)
-- **Immediate feedback** = prediction-delta frequent (P3 ✅)
-- **Deep engagement** = chunks base sufficient for task (P2 ✅)
+- **Immediate feedback** = Prediction-delta frequent (P3 ✅)
+- **Deep engagement** = Chunks base sufficient for the task (P2 ✅)
 - Activity chosen = opioid-tagged (P5 ✅)
 - **All 5 preconditions CONTINUOUSLY met**
 
 **Result**: Continuous small reward signals, no large gaps, body stays engaged → subjective experience of "time flying," "effortless effort," deep satisfaction.
 
-🟡 **Framework claim**: **Flow = optimal maintenance of all 5 preconditions**. Cannot be forced, emerges from conditions.
+🟡 **Framework claim**: **Flow = optimal maintenance of all 5 preconditions.** Cannot be forced; emerges from conditions.
 
 ### §10.4 — Why some rewards sustain, others don't
 
@@ -2028,7 +2033,7 @@ Previous sections showed WHAT produces reward. This section asks: **How is rewar
 - Embedded in activity that builds chunks base → more future reward possible
 - Aligned with deep body-needs (not just surface)
 - Opioid-tagged (not relief-based)
-- Meaningful in multi-schema cascade
+- Meaningful via multi-schema cascade
 - Examples: passion work, craft mastery, deep relationships
 
 **Non-sustaining rewards**:
@@ -2047,7 +2052,7 @@ Previous sections showed WHAT produces reward. This section asks: **How is rewar
 - Builds on itself
 - Sustainable
 - Grows capacity for future reward
-- Example: finishing hard project → proud + chunks compiled → can do harder next time
+- Example: finishing a hard project → proud + chunks compiled → can take on harder work next time
 
 **Relief reward** (negative-valence reward):
 - Only at arrival (threat gone)
@@ -2056,30 +2061,30 @@ Previous sections showed WHAT produces reward. This section asks: **How is rewar
 - May erode capacity
 - Example: procrastinating → deadline stress → rush → relief → but damages self-regulation chunks
 
-**User's B2.3 vs B2.2 mapping**:
-- B2.3 bố hứa xe: opioid reward trajectory
-- B2.2 mẹ cầm roi: relief reward only — unsustainable
+**Mapping to P2 cases**:
+- Parent's Promise of a Toy Car (P2 §5 B2.3): opioid reward trajectory
+- Parent with the Switch (P2 §5 B2.2): relief reward only — unsustainable
 
 ### §10.6 — Burnout mechanism
 
 🟡 Framework prediction:
 
 **Burnout** = extended period where:
-- Reward primarily relief-based (sustained threat)
-- Chunks cortisol-tagged
+- Reward is primarily relief-based (sustained threat)
+- Chunks are cortisol-tagged
 - Repair deficit accumulates (Cortisol-Baseline §3)
 - PFC M2 damage begins
 - Feeling layer collapses (can't even enjoy what once worked)
 - Self-signal interoception degrades
 
-**Result**: Person cannot enter flow even in previously-loved activities. Reward capacity itself damaged.
+**Result**: Person cannot enter flow even in previously-loved activities. Reward capacity itself is damaged.
 
 **Recovery**:
 - Rest (reduce cortisol load)
 - Sleep quality (allow consolidation)
-- Re-association of chunks (Path 1-3 from §9.10)
+- Re-association of chunks (Path 1–3 from §9.10)
 - Gradual rebuilding of reward sensitivity
-- May take 6 months - 2 years for severe burnout
+- May take 6 months–2 years for severe burnout
 
 ### §10.7 — Diminishing returns (hedonic treadmill)
 
@@ -2095,14 +2100,14 @@ Previous sections showed WHAT produces reward. This section asks: **How is rewar
 **Framework insight**: Explains why:
 - Money doesn't bring lasting happiness (habituation to luxuries)
 - New purchases lose appeal
-- Same food / same music / same success become routine
+- Same food / same music / same success becomes routine
 - Novelty-seeking behavior in humans
 
 **Mitigation**:
 - Variety (break habituation via new chunks in cascade)
 - Breaks (allow VTA to reset)
 - Gratitude practice (deliberately attend to inputs, reset habituation)
-- New dimensions of same activity (deeper expertise in existing love)
+- New dimensions of the same activity (deeper expertise in existing passion)
 
 ### §10.8 — Peak vs sustained reward — final synthesis
 
@@ -2110,22 +2115,22 @@ Previous sections showed WHAT produces reward. This section asks: **How is rewar
 
 Peak reward (intense moment):
 - Often result of long-accumulated pending + sudden large delta
-- Examples: breakthrough, winning, getting long-desired thing
-- **Cannot be sustained** — peak by definition transient
+- Examples: breakthrough, winning, getting a long-desired thing
+- **Cannot be sustained** — peak is by definition transient
 - Intensity is its characteristic
 
 Sustained reward:
 - Continuous moderate reward from ongoing activity
 - Examples: flow, deep work, meaningful relationships, craft
-- **Can be sustained** indefinitely if conditions maintained
+- **Can be sustained** indefinitely if conditions are maintained
 - Integration is its characteristic
 
-**Meaningful life** combines both:
+**A meaningful life** combines both:
 - Occasional peaks (achievements, milestones)
 - Sustained flow (daily engaged activities)
 - Not either/or
 
-**Framework warning**: Chasing only peaks → hedonic trap (B4 in P2 §9). Peak isn't replicable without new pending. Need sustained base + occasional peaks.
+**Framework warning**: Chasing only peaks → hedonic trap (B4 in P2 §9). Peaks aren't replicable without new pending. Need sustained base + occasional peaks.
 
 ---
 
@@ -2141,7 +2146,7 @@ Sustained reward:
 
 **Q15**: **What is the exact molecular mechanism** of chunk association tags? How do opioid vs cortisol associations get "wired in" during compile?
 
-**Current status**: Framework level is functional model. Exact neurochemistry underdetermined. Candidates: 
+**Current status**: Framework level is a functional model. Exact neurochemistry underdetermined. Candidates:
 - Co-release of neurotransmitters during LTP
 - Epigenetic markers
 - Different gene expression during compile
@@ -2149,18 +2154,18 @@ Sustained reward:
 
 ### §11.3 — Minimum re-association dose
 
-**Q16**: **How much positive re-exposure needed** to shift cortisol-tagged chunks to opioid-tagged? Research-based clinical question.
+**Q16**: **How much positive re-exposure is needed** to shift cortisol-tagged chunks to opioid-tagged? Research-based clinical question.
 
 **Current observation**: Varies by:
 - Original tag intensity
 - Person's flexibility
 - New context quality
 - Time available
-- Generally months-years for significant shifts
+- Generally months–years for significant shifts
 
 ### §11.4 — Flow state trainability
 
-**Q17**: **Can flow state be trained** more directly, or only emerges spontaneously from conditions?
+**Q17**: **Can flow state be trained** more directly, or does it only emerge spontaneously from conditions?
 
 **Framework prediction**: Flow emerges. Direct training of flow itself doesn't make sense (it's a state resulting from conditions). But training of **prerequisites** (chunks base, skill, task selection) enables flow.
 
@@ -2175,11 +2180,11 @@ Sustained reward:
 
 ### §11.6 — Hedonic adaptation mitigation
 
-**Q19**: **What's the longest-documented sustained peak reward without significant adaptation?** Is permanent happiness boost achievable?
+**Q19**: **What's the longest-documented sustained peak reward without significant adaptation?** Is a permanent happiness boost achievable?
 
 **Current research**: Brickman shows lottery winners return to baseline. But some studies of meaningful work + community + autonomy (Self-Determination Theory, Deci & Ryan) show more sustained subjective well-being.
 
-**Framework hypothesis**: Sustained reward requires continuous chunks base growth + cascade richness. Pure input-based reward adapts. Growth-based reward doesn't adapt same way.
+**Framework hypothesis**: Sustained reward requires continuous chunks base growth + cascade richness. Pure input-based reward adapts. Growth-based reward doesn't adapt the same way.
 
 ### §11.7 — Cross-cultural universality
 
@@ -2187,22 +2192,22 @@ Sustained reward:
 
 **Framework position**: Underlying mechanism (neurobiology) universal. Content (what fits each precondition) culture-specific.
 - P1 pending: culture shapes which schemas are typically pending
-- P2 chunks: culture determines what chunks commonly built
+- P2 chunks base: culture determines what chunks are commonly built
 - P3 delta: mostly universal
 - P4 Goldilocks: culture shapes what's "familiar" vs "alien"
-- P5 tag: culture shapes contexts in which chunks get compiled
+- P5 tag: culture shapes the contexts in which chunks get compiled
 
 ---
 
-## §12 — Cross-Refs
+## §12 — Cross-References
 
 ### §12.0 — Complement File (v1.1 NEW)
 
 **Reward-Signal-Architecture.md v1.0** (Body-Feedback/ folder):
-- File này (03-Reward): KHI NÀO reward fires (H10, 7-step VTA mechanism)
-- Reward-Signal-Architecture: reward fire CHẤT LƯỢNG THẾ NÀO (Evaluative/Direct-State, 5 Profiles, Interaction)
+- This file (03-Reward): WHEN reward fires (H10, 5 preconditions, 7-step VTA mechanism)
+- Reward-Signal-Architecture.md: HOW reward fires with what QUALITY (Evaluative/Direct-State, 5 Profiles, Interaction)
 - Complement, not replacement. Different questions → different files.
-- PFC-Configuration.md v1.0 — PFC modes × reward (which configs allow reward)
+- PFC-Configuration.md v1.0 — PFC modes × reward (which configurations allow reward)
 
 ### §12.1 — Framework files referenced in P3
 
@@ -2212,10 +2217,10 @@ Sustained reward:
 
 **Chunk + schema**:
 - `Schema/Chunk.md` §2 (lifecycle) + §4 (spreading activation) + §5 (body evaluate)
-- `Schema/Anchor-Schema.md` §2 (Trust) + §3 (4 nguồn fill)
+- `Schema/Anchor-Schema.md` §2 (Trust) + §3 (4 sources of fill)
 
 **Imagine-Final role**:
-- `Imagination/Imagine-Final.md` §1 (reference pattern) + §1.5 (5 phases lifecycle)
+- `Imagination/Imagine-Final.md` §1 (reference pattern) + §1.5 (5-phase lifecycle)
 
 **Cortisol context**:
 - `Cortisol-Baseline.md` §3.5 (novelty vs threat cortisol) — essential for §9
@@ -2225,38 +2230,38 @@ Sustained reward:
 - `02-Dissonance.md` §8 (trauma loop)
 
 **Body-feedback architecture**:
-- `01-Foundation.md` §5 (body-feedback vs feeling + 7-layer + 3 states)
+- `01-Foundation.md` §5 (body-feedback vs feeling + 7-layer model + 3 states)
 
 ### §12.2 — Map to P4 Integration phase
 
-P4 will weave all this into unified cycle. Key P3 contributions P4 uses:
+P4 will weave all of this into a unified cycle. Key P3 contributions P4 uses:
 
-**§2 VTA loop** → integrated into unified interface loop (P4 §2)
+**§2 VTA loop** → integrated into unified Interface Loop (P4 §2)
 **§3 H10 preconditions** → explicit in P4 unified cycle analysis
 **§4 7 cases** → referenced in P4 case walkthroughs (especially C1.5 Einstein)
-**§5 ô tô paradox** → P4 demonstration of personalized reward
+**§5 Car paradox** → P4 demonstration of personalized reward
 **§6 Van Gogh** → P4 chunks base evolution via personal melody
-**§7 spreading activation** → P4 cycle step 5-6 amplification
+**§7 spreading activation** → P4 cycle steps 5–6 amplification
 **§8 C5 latency** → P4 Imagine-Final lifecycle integration
 **§9 chunk tag** → P4 personal melody quality (opioid vs cortisol tags in portfolio)
 **§10 sustainability** → P4 flow + personal melody stability
 
 ### §12.3 — Map to P5 H10 formalization
 
-P5 will formalize H10 with evidence from all drill. P3 contributions:
+P5 will formalize H10 with evidence from all drills. P3 contributions:
 
-- H10 precondition 1 (schema pending) — validated via C2 ô tô paradox failure modes
-- H10 precondition 2 (chunks base) — validated via C3 Van Gogh training gradient
-- H10 precondition 3 (prediction-delta) — validated via C1.1 habituation vs novelty
-- H10 precondition 4 (Goldilocks) — validated via C2 + C3 across-person variance
-- H10 precondition 5 (chunk tag) — validated via thiên tài paradox + re-association paths
+- H10 Precondition 1 (schema pending) — validated via C2 Car paradox failure modes
+- H10 Precondition 2 (chunks base) — validated via C3 Van Gogh training gradient
+- H10 Precondition 3 (prediction-delta) — validated via C1.1 habituation vs novelty
+- H10 Precondition 4 (Goldilocks) — validated via C2 + C3 across-person variance
+- H10 Precondition 5 (chunk tag) — validated via Genius paradox + re-association paths
 - All 5 required claim — validated via failure mode matrix
 
 **Framework update recommendations emerging from P3**:
 
-**R2 (from plan §2.5)**: Chunk.md §5 "FEEL MƯỢT ≠ ĐÚNG" — strengthen with ô tô paradox as concrete example of body reward computed per-person not per-object.
+**R2** (from plan §2.5): Chunk.md §5 "FEELS SMOOTH ≠ CORRECT" — strengthen with the Car paradox as a concrete example of body reward computed per-person, not per-object.
 
-**R8**: Add reward preconditions matrix as formal claim in Feeling.md or new file. Currently implicit in PFC-Analysis §8.3, should be explicit.
+**R8**: Add reward preconditions matrix as a formal claim in Feeling.md or a new file. Currently implicit in PFC-Analysis §8.3; should be explicit.
 
 **R9**: Cortisol-Baseline §3.5 chunk tag concept → generalize beyond cortisol to all reward tagging. Framework extension.
 
@@ -2264,19 +2269,19 @@ P5 will formalize H10 with evidence from all drill. P3 contributions:
 
 1. **5-Precondition Reward Matrix (H10)** — formalized from scattered claims
 2. **Reward decomposition per failure mode** — diagnostic framework
-3. **Reward PERSONALIZED function** — explicit claim (not in framework as stated)
+3. **Reward PERSONALIZED function** — explicit claim (not previously stated in framework)
 4. **Effort-Proportional Reward Principle** — formalized from C1.7
 5. **Training gradient for appreciation** — Van Gogh case extends chunks base model
 6. **Schema update latency principle** — C5 case + real alternatives
-7. **Thiên tài paradox resolution** — source of cortisol vs level
+7. **Genius paradox resolution** — source of cortisol vs level
 8. **Re-association 3-path model** — recovery paths from cortisol-tagged chunks
 9. **Flow state decomposed** — all 5 preconditions continuously met
 10. **Peak vs sustained reward distinction** — different mechanisms, both valid
 
 ---
 
-> **P3 COMPLETE — §1-§12 all drilled**. Ready for user review before P4 Integration.
+> **P3 COMPLETE — §1–§12 all drilled**. Ready for user review before P4 Integration.
 >
-> **Stop point**: User review this file → confirm go for P4 → drill `04-Integration.md`
+> **Stop point**: User reviews this file → confirms → drill `04-Integration.md`
 >
-> **Next phase P4**: ~1000-1300L integrating everything into unified cycle — Imagine-Final role + Anchor-Schema role + Personal-Melody evolution + 3 case walkthroughs (Einstein, hedonic trap, trauma loop) + unified interface loop formal model.
+> **Next phase P4**: ~1,000–1,300 lines integrating everything into a unified cycle — Imagine-Final role + Anchor-Schema role + Personal-Melody evolution + 3 case walkthroughs (Einstein, hedonic trap, trauma loop) + unified Interface Loop formal model.

@@ -4,22 +4,22 @@ version: 1.0
 created: 2026-05-30
 status: REFERENCE v1.0
 scope: |
-  PRECONDITION REFERENCE: KHI NÀO body-feedback signal (reward/dissonance) fires?
-  5 Preconditions model — formalize từ 03-Reward.md §3 (drill origin).
-  Mỗi precondition: definition, mechanism, failure mode, refinement insights.
-  Scope qualifier: ALL 5 required cho Evaluative. Direct-State = simplified subset.
-  v1.0: Refine từ drill H10 — thêm direction component, genesis/decode split,
+  PRECONDITION REFERENCE: WHEN does body-feedback signal (reward/dissonance) fire?
+  5 Preconditions model — formalized from 03-Reward.md §3 (drill origin).
+  Each precondition: definition, mechanism, failure mode, refinement insights.
+  Scope qualifier: ALL 5 required for Evaluative. Direct-State = simplified subset.
+  v1.0: Refined from drill H10 — added direction component, genesis/decode split,
   boredom disambiguation, dynamic zone, 4-pathway quality ceiling.
 purpose: |
-  Existing files phân loại body-feedback theo:
+  Existing files classify body-feedback by:
     WHAT KINDS:  Reward-Signal-Architecture.md (reward types)
                  Dissonance-Signal-Architecture.md (dissonance types)
     HOW:         Body-Feedback-Mechanism.md (chunk dynamics)
     VOCAB:       Body-Feedback-Label.md (terminology)
-  File này thêm trục: WHEN — 5 preconditions quyết định signal CÓ fire hay KHÔNG.
-  Hoàn thành bộ 4 siblings: Mechanism → Label → Precondition → Signal Architecture.
+  This file adds axis: WHEN — 5 preconditions determine whether signal fires or not.
+  Completes the set of 4 siblings: Mechanism → Label → Precondition → Signal Architecture.
 position: |
-  Core-Deep-Dive/Body-Base/Body-Feedback/ — ngang hàng Body-Feedback-Mechanism.md.
+  Core-Deep-Dive/Body-Base/Body-Feedback/ — peer with Body-Feedback-Mechanism.md.
   Sibling relationship:
     Body-Feedback.md          = SYNTHESIS entry point (overview)
     Body-Feedback-Mechanism.md = HOW signal arises (chunk dynamics)
@@ -35,38 +35,38 @@ dependencies:
   - Dissonance-Signal-Architecture.md v1.0 — dissonance application (§9 cross-ref)
   - 03-Reward.md v1.1 — §3 H10 drill origin, §2 7-step VTA
   - 04-Integration.md — §9 H10 refined
-  - Gap-Direction.md v2.0 — §3 "chưa biết = không gap", §6.3 hierarchy
+  - Gap-Direction.md v2.0 — §3 "don't know it exists = no gap", §6.3 hierarchy
   - Chunk.md v2.2 — chunk substrate, context-tag model
   - Compile-Taxonomy.md v3.0 — §6 4-pathway model (Precondition-5)
   - Cortisol-Baseline.md v2.2 — §3.3 Direction-At-Compile, §7 source > level
   - Reward-Calibration.md v1.1 — §1.2 Goldilocks per-gap dynamic
   - Boredom.md v2.1 — §1 + §7 boredom ≠ Precondition-3 failure
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # Body-Feedback Precondition — 5 Preconditions for Signal Fire
 
-> **Cùng 1 bản nhạc hay.**
-> Người chưa nghe bao giờ → "lạ quá" (không đủ chunks decode).
-> Người nghe lần đầu → "hay!" (mới + vừa đủ match).
-> Người nghe lần thứ 1000 → "chán" (không còn delta).
-> Người bị ép nghe khi nhỏ → "ghét dù biết hay" (tag avoidance).
-> Người đang no nê âm nhạc → "không cảm gì" (không có gap).
+> **Same piece of captivating music.**
+> Someone who's never heard it → "too strange" (insufficient chunks to decode).
+> Someone hearing it for the first time → "captivating!" (novel + just enough match).
+> Someone who's heard it 1,000 times → "boring" (no delta left).
+> Someone forced to listen as a child → "dislike even though I know it's good" (avoidance tag).
+> Someone saturated with music → "feel nothing" (no gap active).
 >
-> Cùng stimulus. 5 người. 5 phản ứng KHÁC NHAU.
-> Mỗi phản ứng = 1 precondition KHÁC bị fail.
+> Same stimulus. 5 people. 5 DIFFERENT responses.
+> Each response = a DIFFERENT precondition failing.
 >
-> Body-feedback signal KHÔNG fire tự động khi có stimulus.
-> Signal fires KHI VÀ CHỈ KHI 5 preconditions ĐỀU thỏa mãn.
+> Body-feedback signal does NOT fire automatically when a stimulus arrives.
+> Signal fires WHEN AND ONLY WHEN all 5 preconditions are simultaneously met.
 >
-> File này formalize 5 preconditions đó.
+> This file formalizes those 5 preconditions.
 
 ---
 
 ## §0 — Position + Scope
 
-### §0.1 — 4 câu hỏi, 4 files
+### §0.1 — 4 questions, 4 files
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -79,28 +79,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 │                                                                     │
 │  WHEN?        → ⭐ Body-Feedback-Precondition.md (THIS FILE)       │
 │                 5 preconditions: Precondition-1–Precondition-5      │
-│                 Signal fires if and only if all 5 Preconditions met            │
+│                 Signal fires if and only if all 5 Preconditions met │
 │                                                                     │
 │  VOCAB?       → Body-Feedback-Label.md (terminology)               │
 │                                                                     │
-│  OVERVIEW?    → Body-Feedback.md (synthesis entry point)            │
+│  OVERVIEW?    → Body-Feedback.md (synthesis entry point)           │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
 ### §0.2 — Scope + boundary rules
 
-**File này DEFINE**:
-- 5 preconditions cho body-feedback signal fire (Precondition-1–Precondition-5)
-- Mỗi precondition: mechanism, met/failed states, refinement insights
+**This file DEFINES**:
+- 5 preconditions for body-feedback signal fire (Precondition-1–Precondition-5)
+- Each precondition: mechanism, met/failed states, refinement insights
 - Conjunction logic (AND-gate structure)
 - Developmental arc (infant → adult → aging)
 - Dissonance application (not just reward)
 
-**File này KHÔNG duplicate** (chỉ cross-ref):
+**This file does NOT duplicate** (cross-references only):
 
-| Nội dung | Thuộc file | Cross-ref |
+| Content | Belongs in | Cross-ref |
 |---|---|---|
-| Evaluative/Direct-State × Precondition-1–Precondition-5 table | Reward-Signal-Architecture §1.3 | §1.2, §2-§6 per-Precondition notes |
+| Evaluative/Direct-State × Precondition-1–Precondition-5 table | Reward-Signal-Architecture §1.3 | §1.2, §2-§6 per-precondition notes |
 | Chunk dynamics × preconditions mapping | Body-Feedback-Mechanism §6.2 | §7 conjunction logic |
 | H10 48-line summary table | Body-Feedback §5.2 | §0.1 pointer |
 | Timing asymmetry (dissonance → reward) | Dissonance-Signal-Architecture | §9 cross-ref |
@@ -109,13 +109,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §0.3 — Reading prerequisites
 
 ```
-PHẢI đọc TRƯỚC:
+MUST READ FIRST:
   Body-Feedback.md         — dual-pull, interface loop, body-base
   03-Reward.md §2-§3       — 7-step VTA, H10 drill origin
   Chunk.md v2.2+           — chunk substrate, context-tag
   Compile-Taxonomy.md      — 4-pathway model (for §6 Precondition-5)
 
-ĐỌC SONG SONG:
+READ IN PARALLEL:
   Reward-Signal-Architecture — WHAT KINDS reward (→ type-split per precondition)
   Dissonance-Signal-Architecture — WHAT KINDS dissonance (→ §9 dissonance application)
   Body-Feedback-Mechanism — HOW chunks fire (→ dynamics × preconditions)
@@ -124,7 +124,7 @@ PHẢI đọc TRƯỚC:
 
 ### §0.4 — Origin + evolution
 
-🟡 File này formalize "H10" — hypothesis number từ drill 03-Reward.md §3.
+🟡 This file formalizes "H10" — hypothesis label from drill 03-Reward.md §3.
 
 ```
 DRILL ORIGIN (2026):
@@ -133,14 +133,14 @@ DRILL ORIGIN (2026):
     Goldilocks zone, Chunk tag
 
 FRAMEWORK EVOLUTION:
-  ① Drill → 92+ files dùng "H10" như concept name
-  ② Gap-Direction.md → Precondition-1 thiếu direction, Precondition-2 thiếu genesis/decode split
+  ① Drill → 92+ files use "H10" as concept name
+  ② Gap-Direction.md → Precondition-1 missing direction, Precondition-2 missing genesis/decode split
   ③ Boredom.md → boredom ≠ Precondition-3 failure (disambiguation needed)
   ④ Reward-Calibration.md → Goldilocks zone dynamic (not fixed 40-70%)
   ⑤ Compile-Taxonomy.md → Precondition-5 binary → 4-pathway quality ceiling
   ⑥ Cortisol-Baseline.md → Precondition-5 opioid/cortisol → Direction-At-Compile gate
 
-THIS FILE: Refine + formalize tất cả insights trên thành official reference.
+THIS FILE: Refines + formalizes all insights above into official reference.
 ```
 
 ---
@@ -154,76 +154,76 @@ THIS FILE: Refine + formalize tất cả insights trên thành official referenc
 > Body-feedback signal (reward OR dissonance) fires to full magnitude
 > WHEN AND ONLY WHEN **all 5 preconditions** are simultaneously met:
 >
-> | # | Precondition | Câu hỏi nó trả lời |
+> | # | Precondition | Question it answers |
 > |---|---|---|
-> | Precondition-1 | **Directed-Gap** | Có gap đang active không? Gap hướng về đâu? |
-> | Precondition-2 | **Chunk-Substrate** | Có đủ chunks để decode stimulus không? |
-> | Precondition-3 | **Delta-Gate** | Có đủ biến động để VTA detect không? |
-> | Precondition-4 | **Match-Range** | Match có nằm trong vùng phù hợp không? |
-> | Precondition-5 | **Compile-Gate** | Chunks tag cho phép signal fire đúng hướng không? |
+> | Precondition-1 | **Directed-Gap** | Is there an active gap? Where is the gap directed? |
+> | Precondition-2 | **Chunk-Substrate** | Are there sufficient chunks to decode the stimulus? |
+> | Precondition-3 | **Delta-Gate** | Is there enough change for VTA to detect? |
+> | Precondition-4 | **Match-Range** | Does the match fall within a suitable range? |
+> | Precondition-5 | **Compile-Gate** | Does the chunk tag permit the signal to fire in the correct direction? |
 >
 > **Logical form**: Signal_full = Precondition-1 ∧ Precondition-2 ∧ Precondition-3 ∧ Precondition-4 ∧ Precondition-5
 
-**Claim strength**: 🟡 Framework synthesis — mỗi precondition riêng có research support 🟢,
-nhưng conjunction "ALL 5 required" là framework-level claim chưa có direct empirical test.
+**Claim strength**: 🟡 Framework synthesis — each individual precondition has research support 🟢,
+but the conjunction "ALL 5 required" is a framework-level claim without direct empirical test yet.
 
 ### §1.2 — Scope qualifier: Evaluative vs Direct-State
 
 ```
-⭐ "ALL 5 required" chỉ áp dụng cho EVALUATIVE reward/dissonance.
+⭐ "ALL 5 required" applies ONLY to EVALUATIVE reward/dissonance.
 
 EVALUATIVE (compiled patterns, learning-dependent):
   → Precondition-1–Precondition-5 ALL required
-  → Ví dụ: nghe nhạc hay, giải bài toán, thưởng thức Van Gogh
+  → Examples: appreciating captivating music, solving a problem, enjoying Van Gogh
 
 DIRECT-STATE (hardware signals, body-need-driven):
-  → Precondition-1 simplified: body-need LUÔN present (hunger, thirst, pain, touch)
-  → Precondition-2 minimal: hardware paths from birth (không cần compiled chunks)
+  → Precondition-1 simplified: body-need ALWAYS present (hunger, thirst, pain, touch)
+  → Precondition-2 minimal: hardware paths from birth (compiled chunks not required)
   → Precondition-3 uncertain: may bypass VTA entirely (posterior insula pathway)
-  → Precondition-4 hardware: CT afferent ~1-10cm/s = fixed range (không learned)
+  → Precondition-4 hardware: CT afferent ~1-10cm/s = fixed range (not learned)
   → Precondition-5 N/A: hardware signals, no opioid/cortisol tag needed
 
-  → Chi tiết type-split per precondition: Reward-Signal-Architecture §1.3
+  → Type-split details per precondition: Reward-Signal-Architecture §1.3
 
 CLINICAL IMPLICATION:
-  Evaluative bị block bởi Precondition-2/Precondition-3/Precondition-5 failures → anhedonia, burnout
-  Direct-State KHÔNG bị block → "touch still works" = reliable baseline
-  Mất CẢ HAI = rare + devastating (advanced depression, severe trauma)
+  Evaluative blocked by Precondition-2/Precondition-3/Precondition-5 failures → anhedonia, burnout
+  Direct-State NOT blocked → "touch still works" = reliable baseline
+  Loss of BOTH = rare + devastating (advanced depression, severe trauma)
 ```
 
 ### §1.3 — Falsifiability
 
-🟡 Mỗi precondition tạo **testable prediction** khi bị violate:
+🟡 Each precondition creates a **testable prediction** when violated:
 
 | Violate | Prediction | Observable |
 |---|---|---|
 | Precondition-1 | Full person offered food → no reward | Alliesthesia research (Cabanac 1971) 🟢 |
 | Precondition-2 | Van Gogh to untrained → confusion not reward | Art appreciation studies 🟢 |
-| Precondition-3 | Routine event → no alert despite value | Hedonic adaptation literature 🟢 |
+| Precondition-3 | Routine event → no alert despite objective value | Hedonic adaptation literature 🟢 |
 | Precondition-4 | Extreme novelty OR familiarity → no reward | Berlyne 1960 inverted-U 🟢 |
 | Precondition-5 | Math-avoidant adult given "interesting" math → aversion | Clinical observation 🟢 |
 
-**Framework prediction**: Cases "should reward but doesn't" = ít nhất 1 precondition bị fail.
-Cases "shouldn't reward but does" = ALL 5 met nhưng observer chưa nhận ra.
+**Framework prediction**: Cases of "should reward but doesn't" = at least 1 precondition failing.
+Cases of "shouldn't reward but does" = ALL 5 are met but the observer hasn't recognized it.
 
 ### §1.4 — Precondition hierarchy
 
-🟡 Từ Gap-Direction.md v2.0 §6.3 — preconditions có thứ bậc, không phải flat AND-gate:
+🟡 From Gap-Direction.md v2.0 §6.3 — preconditions have a hierarchy, not a flat AND-gate:
 
 ```
-"Chưa biết" → Precondition-2 → Precondition-1 → Precondition-3 → Precondition-4 → Precondition-5 → signal fire
+"Don't know it exists" → Precondition-2 → Precondition-1 → Precondition-3 → Precondition-4 → Precondition-5 → signal fires
 
-Layer 0 (GENESIS):   "Chưa biết = không gap" — prerequisite cho Precondition-2
-Layer 1 (SUBSTRATE):  Precondition-2 Chunk-Substrate — CÓ chunks để form gap?
-Layer 2 (GAP):        Precondition-1 Directed-Gap — gap active + có direction?
-Layer 3 (DETECTION):  Precondition-3 Delta-Gate — VTA detect delta?
-Layer 4 (MATCH):      Precondition-4 Match-Range — match trong vùng phù hợp?
-Layer 5 (DIRECTION):  Precondition-5 Compile-Gate — tag cho phép signal đúng hướng?
+Layer 0 (GENESIS):   "Don't know it exists = no gap" — prerequisite for Precondition-2
+Layer 1 (SUBSTRATE):  Precondition-2 Chunk-Substrate — ARE there chunks to form a gap?
+Layer 2 (GAP):        Precondition-1 Directed-Gap — gap active + has direction?
+Layer 3 (DETECTION):  Precondition-3 Delta-Gate — VTA detects delta?
+Layer 4 (MATCH):      Precondition-4 Match-Range — match in suitable range?
+Layer 5 (DIRECTION):  Precondition-5 Compile-Gate — tag permits signal in correct direction?
 
-⭐ Hierarchy KHÔNG thay đổi "ALL 5 required" claim.
-  → Nhưng CHO BIẾT failure mode nào xảy ra TRƯỚC.
-  → Precondition-2 fail = Precondition-1 KHÔNG THỂ form (cho schema-level gaps).
-  → Precondition-3 fail = Precondition-4 KHÔNG ĐƯỢC evaluate (sequential dependency).
+⭐ Hierarchy does NOT change "ALL 5 required" claim.
+  → But TELLS US which failure mode occurs FIRST.
+  → Precondition-2 fail = Precondition-1 CANNOT form (for schema-level gaps).
+  → Precondition-3 fail = Precondition-4 NOT evaluated (sequential dependency).
 ```
 
 ---
@@ -237,27 +237,27 @@ Layer 5 (DIRECTION):  Precondition-5 Compile-Gate — tag cho phép signal đún
 > Body must have an **active gap** — an unresolved body-need OR schema seeking
 > upgrade — AND that gap must have **direction** (toward what kind of fill).
 >
-> Gap = opening trong schema landscape where new information can fit.
+> Gap = opening in the schema landscape where new information can fit.
 > Direction = constraints on valid fill, determined by surrounding chunks.
 
-**Tên cũ**: "Schema Pending Status" (drill 03-Reward.md §3.2)
-**Đổi vì**: Tên cũ bỏ sót (a) hardware-driven gaps và (b) direction component.
+**Old name**: "Schema Pending Status" (drill 03-Reward.md §3.2)
+**Changed because**: The old name missed (a) hardware-driven gaps and (b) the direction component.
 
 ### §2.2 — Precondition-1a: Hardware-driven gaps
 
-🟢 Hardware-driven gaps = body-needs từ Body-Base:
+🟢 Hardware-driven gaps = body-needs from Body-Base:
 - Hunger, thirst, pain avoidance, temperature, social contact, sleep
-- LUÔN TỒN TẠI ở mức nào đó (homeostatic regulation)
-- Infant từ sinh đã có — không cần learning
+- ALWAYS present at some level (homeostatic regulation)
+- Infants have from birth — no learning required
 - Direction inherent: hunger → food direction, thirst → water direction
 
 ```
-Đặc điểm Precondition-1a:
+Precondition-1a characteristics:
   ① Always available (homeostatic cycle)
   ② Direction = hardware-defined (specific body-need category)
-  ③ Không cần Precondition-2 (chunks) — hardware path from birth
+  ③ Does not require Precondition-2 (chunks) — hardware path from birth
   ④ Intensity varies (satiated ↔ deprived)
-  ⑤ → Chủ yếu cho DIRECT-STATE reward/dissonance
+  ⑤ → Primary source for DIRECT-STATE reward/dissonance
 ```
 
 ### §2.3 — Precondition-1b: Pattern-driven gaps
@@ -265,37 +265,37 @@ Layer 5 (DIRECTION):  Precondition-5 Compile-Gate — tag cho phép signal đún
 🟡 Pattern-driven gaps = schema-level needs:
 - Coherence gap: incomplete knowledge, unresolved problem
 - Curiosity gap: detected pattern hinting at more
-- Skill gap: biết có thể làm tốt hơn nhưng chưa được
+- Skill gap: knowing you could do better but haven't yet
 - Social gap: disconnection from expected social state
 
 ```
-Đặc điểm Precondition-1b:
-  ① Requires Precondition-2 first (phải có chunks mới có gap — §2.5)
+Precondition-1b characteristics:
+  ① Requires Precondition-2 first (must have chunks before a gap can exist — §2.5)
   ② Direction = f(surrounding chunk network) (Gap-Direction.md §1.1)
   ③ Learned, not innate — develops through experience
   ④ Can be installed (education, marketing, social exposure)
-  ⑤ → Chủ yếu cho EVALUATIVE reward/dissonance
+  ⑤ → Primary source for EVALUATIVE reward/dissonance
 ```
 
-**Ví dụ gap direction**:
-- Nhạc sĩ nghe 1 đoạn → gap "giai điệu tiếp theo nên đi đâu?" = direction rõ
-- Lập trình viên gặp bug → gap "nguyên nhân bug?" = direction hẹp
-- Trẻ em chưa biết guitar tồn tại → gap KHÔNG THỂ TỒN TẠI (→ §2.5)
+**Gap direction examples**:
+- A musician hears a phrase → gap "where should the melody go next?" = clear direction
+- A programmer encounters a bug → gap "what's causing this bug?" = narrow direction
+- A child who doesn't know guitar exists → gap CANNOT EXIST (→ §2.5)
 
 ### §2.4 — Direction implicit
 
-🟡 Từ Gap-Direction.md v2.0 §1.1:
+🟡 From Gap-Direction.md v2.0 §1.1:
 
 > **Gap_Direction = f(surrounding_chunk_network_structure)**
 >
 > Shape of hole = constraints on valid fill.
-> Chunks xung quanh gap QUY ĐỊNH direction.
+> Surrounding chunks DEFINE the direction.
 
-**Tại sao direction quan trọng cho Precondition-1**:
-- Gap KHÔNG direction = not really a gap (vague unease, not actionable)
-- Direction cho biết LOẠI stimulus nào sẽ fill gap
-- Direction quyết định Precondition-4 (Match-Range) evaluate match VỚI CÁI GÌ
-- Thiếu direction → Precondition-4 không có reference point → signal không fire
+**Why direction matters for Precondition-1**:
+- Gap WITHOUT direction = not really a gap (vague unease, not actionable)
+- Direction specifies WHAT KIND of stimulus will fill the gap
+- Direction determines what Precondition-4 (Match-Range) evaluates the match AGAINST
+- Without direction → Precondition-4 has no reference point → signal cannot fire
 
 ```
 Gap-Direction 4 properties (Gap-Direction.md §4):
@@ -307,30 +307,30 @@ Gap-Direction 4 properties (Gap-Direction.md §4):
 
 ### §2.5 — Precondition-2 → Precondition-1 dependency (schema-level)
 
-🟡 Critical insight từ Gap-Direction.md §3:
+🟡 Critical insight from Gap-Direction.md §3:
 
-> **"Chưa biết = không có gap"**
+> **"Don't know it exists = no gap"**
 > Chunks_related_to_X = ∅ → Gap_about_X = IMPOSSIBLE
 >
-> Bạn KHÔNG THỂ thiếu thứ bạn không biết tồn tại.
+> You CANNOT miss something you don't know exists.
 
 **Implications**:
-- Precondition-2 (Chunk-Substrate) là **prerequisite** cho Precondition-1b (Pattern-driven gap)
-- Nếu Precondition-2 fail ở level genesis → Precondition-1b KHÔNG THỂ form
-- Hardware Precondition-1a KHÔNG cần Precondition-2 (body-needs exist from birth)
-- Đây là "Tầng 0" — trước cả precondition model
+- Precondition-2 (Chunk-Substrate) is a **prerequisite** for Precondition-1b (Pattern-driven gap)
+- If Precondition-2 fails at genesis level → Precondition-1b CANNOT form
+- Hardware Precondition-1a does NOT need Precondition-2 (body-needs exist from birth)
+- This is "Layer 0" — prior to the precondition model itself
 
 ```
 Precondition-2 → Precondition-1 dependency chain:
-  ① Chưa có chunks về X → gap về X KHÔNG TỒN TẠI → Precondition-1 fail
-  ② Có vài chunks về X → gap MƠ HỒ → Precondition-1 partial (direction broad)
-  ③ Có nhiều chunks về X → gap RÕ RÀNG → Precondition-1 full (direction specific)
+  ① No chunks about X → gap about X DOES NOT EXIST → Precondition-1 fails
+  ② A few chunks about X → gap is VAGUE → Precondition-1 partial (direction broad)
+  ③ Many chunks about X → gap is CLEAR → Precondition-1 full (direction specific)
 
 5 consequences (Gap-Direction.md §3.4):
   → Desire is CONSTRUCTED (not innate except hardware Tier 1)
-  → Education phải BUILD chunks trước khi present answers
+  → Education must BUILD chunks before presenting answers
   → Marketing = gap installation (create chunks → create gap → sell fill)
-  → Therapy phải MAP gap landscape (what gaps exist?)
+  → Therapy must MAP the gap landscape (what gaps exist?)
   → Cross-cultural = different gap landscapes (different chunk bases)
 ```
 
@@ -338,10 +338,10 @@ Precondition-2 → Precondition-1 dependency chain:
 
 | Failure type | Mechanism | Subjective experience |
 |---|---|---|
-| Satiated | Body-need filled → gap closed | "Không thèm" (no desire) |
-| No active goal | Schema landscape stable | "Không cần gì" (contentment) |
-| Empty scroll | Stimuli arrive, no gap matches | "Lướt mà không dừng" |
-| Direction lost | Gap exists but surrounding chunks insufficient | "Muốn gì đó nhưng không biết gì" |
+| Satiated | Body-need filled → gap closed | "No desire" |
+| No active goal | Schema landscape stable | "Don't need anything" |
+| Empty scroll | Stimuli arrive, no gap matches | "Scrolling without stopping" |
+| Direction lost | Gap exists but surrounding chunks insufficient | "Want something but don't know what" |
 
 🟢 Research: Cabanac 1971 alliesthesia — same stimulus (sugar) shifts from
 pleasant to unpleasant as body-need (hunger) gets filled. Precondition-1 failure = signal stops.
@@ -354,33 +354,33 @@ pleasant to unpleasant as body-need (hunger) gets filled. Precondition-1 failure
 
 🟡 **Precondition-2 — Chunk-Substrate**:
 
-> Body must have **sufficient chunks** to (a) form gap about domain (genesis)
+> Body must have **sufficient chunks** to (a) form a gap about a domain (genesis)
 > AND (b) decode incoming stimulus for evaluation (decode).
 >
 > Chunks = compiled patterns from past experience (Chunk.md §2).
 > Without chunks, body cannot even RECOGNIZE stimulus as relevant.
 
-**Tên cũ**: "Chunks Base Adequacy" (drill 03-Reward.md §3.3)
-**Đổi vì**: "Adequacy" mơ hồ. "Substrate" = nền tảng cần thiết, rõ nghĩa hơn.
+**Old name**: "Chunks Base Adequacy" (drill 03-Reward.md §3.3)
+**Changed because**: "Adequacy" is vague. "Substrate" = necessary foundation, clearer.
 
-### §3.2 — Precondition-2a: Genesis failure ("chưa biết = không gap")
+### §3.2 — Precondition-2a: Genesis failure ("don't know it exists = no gap")
 
-🟡 Từ Gap-Direction.md §3 — TẦNG 0, trước cả precondition model:
+🟡 From Gap-Direction.md §3 — LAYER 0, prior to the precondition model:
 
-> **Precondition-2a Genesis**: Chunks_related_to_X = ∅ → Gap KHÔNG THỂ TỒN TẠI
+> **Precondition-2a Genesis**: Chunks_related_to_X = ∅ → Gap CANNOT EXIST
 >
-> Đây KHÔNG phải "stimulus đến mà không decode được" (= Precondition-2b).
-> Đây là "gap về X CHƯA BAO GIỜ HÌNH THÀNH" — trước cả Precondition-1.
+> This is NOT "stimulus arrives and can't be decoded" (= Precondition-2b).
+> This is "gap about X has NEVER FORMED" — prior to Precondition-1.
 
-**Ví dụ Precondition-2a**:
-- Trẻ 3 tuổi chưa biết guitar tồn tại → KHÔNG THỂ có gap "muốn chơi guitar"
-- Người chưa bao giờ nghe jazz → KHÔNG THỂ có gap "muốn nghe jazz"
-- Dân tộc chưa có khái niệm "thi cử" → KHÔNG THỂ có gap "muốn đỗ đạt"
+**Precondition-2a examples**:
+- A 3-year-old who doesn't know guitar exists → CANNOT have a gap "want to play guitar"
+- Someone who's never heard jazz → CANNOT have a gap "want to hear jazz"
+- A culture without the concept of "exams" → CANNOT have a gap "want to pass exams"
 
 ```
 Precondition-2a vs Precondition-2b — key distinction:
-  Precondition-2a = TRƯỚC stimulus (gap không thể form → desire không tồn tại)
-  Precondition-2b = SAU stimulus (stimulus đến nhưng không đủ chunks decode)
+  Precondition-2a = BEFORE stimulus (gap cannot form → desire doesn't exist)
+  Precondition-2b = AFTER stimulus (stimulus arrives but insufficient chunks to decode)
   Precondition-2a fail → Precondition-1 fail (no gap possible)
   Precondition-2b fail → confusion/strangeness (stimulus present but undecodable)
 ```
@@ -392,13 +392,13 @@ Precondition-2a vs Precondition-2b — key distinction:
 > New input → unconscious searches for matching chunks → NO match found
 > → "Cannot decode" → uncertainty → mild cortisol → NOT reward
 
-**Ví dụ Precondition-2b**:
+**Precondition-2b examples**:
 - Van Gogh shown to untrained viewer → chunks insufficient for art evaluation
-  → "Không hiểu" (confusion, not reward) — even though painting objectively valuable
+  → "Can't understand" (confusion, not reward) — even though painting is objectively valuable
 - Atonal music to pop listener → chunks insufficient for harmonic evaluation
-  → "Lộn xộn" (confusion) — same music = masterpiece to trained listener
+  → "Sounds chaotic" — same music = masterpiece to trained listener
 - Advanced mathematics to beginner → chunks insufficient for pattern recognition
-  → "Không hiểu gì" — same proof = "beautiful" to mathematician
+  → "I don't understand any of this" — same proof = "beautiful" to mathematician
 
 🟢 Research: Art appreciation studies confirm training → appreciation (Leder et al. 2004).
 Mere exposure without understanding ≠ appreciation — chunk compilation required.
@@ -407,47 +407,47 @@ Mere exposure without understanding ≠ appreciation — chunk compilation requi
 
 ```
 EVALUATIVE:
-  Precondition-2 = REQUIRED — compiled chunks để evaluate pattern
-  → Thiếu chunks = confusion → no reward
+  Precondition-2 = REQUIRED — compiled chunks needed to evaluate pattern
+  → Insufficient chunks = confusion → no reward
   → Van Gogh case = Precondition-2 failure (NOT Precondition-4)
 
 DIRECT-STATE:
   Precondition-2 = MINIMAL — hardware paths from birth
   → CT afferents (touch), taste buds (sweet/bitter), nociceptors (pain)
-  → Không cần compiled chunks — hardware decode đủ
-  → Infant ngay từ sinh đã reward từ touch, sweetness
+  → Compiled chunks not required — hardware decode sufficient
+  → Infant from birth already rewards from touch, sweetness
 ```
 
 ### §3.5 — Precondition-2 ≠ Precondition-5 distinction
 
 ```
-⚠️ Precondition-2 và Precondition-5 KHÁC NHAU — cả hai liên quan chunks nhưng ở KHÁC layer:
+⚠️ Precondition-2 and Precondition-5 DIFFER — both involve chunks but at DIFFERENT layers:
 
   Precondition-2 Chunk-Substrate:
-    Câu hỏi: CÓ ĐỦ chunks để DECODE stimulus không?
-    Layer: SUBSTRATE — nền tảng
-    Failure: confusion ("không hiểu")
+    Question: Are there ENOUGH chunks to DECODE the stimulus?
+    Layer: SUBSTRATE — the foundation
+    Failure: confusion ("can't understand")
     → Chunks EXIST or NOT
 
   Precondition-5 Compile-Gate:
-    Câu hỏi: Chunks đã decode → tag CHO PHÉP signal đúng hướng không?
-    Layer: DIRECTION — hướng signal
-    Failure: signal wrong direction ("hiểu nhưng ghét")
+    Question: Once chunks decode → does the tag PERMIT the signal in the correct direction?
+    Layer: DIRECTION — signal direction
+    Failure: signal fires in wrong direction ("understand but dislike")
     → Chunks exist BUT tagged approach/avoidance
 
-  Ví dụ: Toán
-    Precondition-2 fail: "Không hiểu toán" (insufficient chunks to decode)
-    Precondition-5 fail: "Hiểu toán nhưng ghét toán" (chunks exist, tagged avoidance)
+  Example: Math
+    Precondition-2 fail: "I don't understand math" (insufficient chunks to decode)
+    Precondition-5 fail: "I understand math but hate math" (chunks exist, tagged avoidance)
 ```
 
 ### §3.6 — Precondition-2 failure modes
 
 | Failure type | Mechanism | Subjective experience |
 |---|---|---|
-| Genesis (Precondition-2a) | No chunks about domain → gap impossible | "Không biết thứ đó tồn tại" |
-| Decode (Precondition-2b) | Stimulus arrives, insufficient chunks to parse | "Không hiểu" / confusion |
-| Partial decode | Some chunks match, insufficient for evaluation | "Lờ mờ hiểu nhưng chưa đủ" |
-| Cross-domain gap | Chunks exist in domain A, not B — transfer fails | "Giỏi nhạc nhưng mù thơ" |
+| Genesis (Precondition-2a) | No chunks about domain → gap impossible | "Don't know it exists" |
+| Decode (Precondition-2b) | Stimulus arrives, insufficient chunks to parse | "Can't understand" / confusion |
+| Partial decode | Some chunks match, insufficient for evaluation | "Vaguely understand but not enough" |
+| Cross-domain gap | Chunks exist in domain A, not B — transfer fails | "Good at music but blind to poetry" |
 
 **Developmental trajectory** 🟡:
 - Infant: minimal chunks → most stimuli = Precondition-2b fail → exploration critical
@@ -469,11 +469,11 @@ Same chess board: grandmaster sees structure, novice sees random pieces = Precon
 > The change (delta) between current state and prediction must be **large enough**
 > to exceed VTA habituation threshold, triggering dopamine alert.
 >
-> Precondition-3 answers: "Có gì MỚI không?" — detection mechanism, not value judgment.
-> VTA dopamine = chuông cửa (doorbell). Precondition-3 = chuông CÓ KÊU không.
+> Precondition-3 answers: "Is there anything NEW?" — detection mechanism, not value judgment.
+> VTA dopamine = doorbell. Precondition-3 = whether the doorbell RINGS.
 
-**Tên cũ**: "Prediction-Delta Threshold" (drill 03-Reward.md §3.4)
-**Đổi vì**: "Delta-Gate" ngắn gọn hơn, nhấn mạnh tính gate (open/close).
+**Old name**: "Prediction-Delta Threshold" (drill 03-Reward.md §3.4)
+**Changed because**: "Delta-Gate" is more concise, emphasizes the gate nature (open/close).
 
 ### §4.2 — VTA habituation mechanism
 
@@ -488,7 +488,7 @@ Same chess board: grandmaster sees structure, novice sees random pieces = Precon
 
 Threshold affected by:
   → Baseline arousal (cortisol level modulates sensitivity)
-  → Recent history (nhiều delta liên tiếp → threshold tăng)
+  → Recent history (many consecutive deltas → threshold rises)
   → DRD4 variant (§4.5)
   → Domain expertise (expert detects finer deltas)
 ```
@@ -500,7 +500,7 @@ Prediction error signal = Precondition-3 mechanism.
 ### §4.3 — Scope: Evaluative ONLY
 
 ```
-⭐ Precondition-3 chỉ áp dụng đầy đủ cho EVALUATIVE reward/dissonance.
+⭐ Precondition-3 applies fully ONLY to EVALUATIVE reward/dissonance.
 
 EVALUATIVE:
   → Precondition-3 REQUIRED — VTA must detect delta
@@ -510,14 +510,14 @@ EVALUATIVE:
 DIRECT-STATE:
   → Precondition-3 UNCERTAIN — may bypass VTA entirely
   → Posterior insula pathway: body-need → direct signal (no delta check)
-  → Ví dụ: hungry person eats → reward fires WITHOUT needing "surprise"
+  → Example: hungry person eats → reward fires WITHOUT needing "surprise"
   → Touch (CT afferents) → opioid release WITHOUT prediction error
-  → Chi tiết: Reward-Signal-Architecture §1.3
+  → Details: Reward-Signal-Architecture §1.3
 ```
 
 ### §4.4 — Boredom disambiguation
 
-🟡 **Boredom ≠ Precondition-3 failure.** Từ Boredom.md v2.1 §1 + §7:
+🟡 **Boredom ≠ Precondition-3 failure.** From Boredom.md v2.1 §1 + §7:
 
 > Boredom = 2-dimensional state requiring 3 co-conditions:
 > ① Gap exists (something wanted but absent)
@@ -535,7 +535,7 @@ WHY boredom ≠ simple Precondition-3 failure:
 
   Boredom requires Precondition-1 (gap EXISTS) + Precondition-4 (no suitable match available)
   → Body WANTS something (Precondition-1 met) but NOTHING matches (Precondition-4 fail)
-  → Plus: signal too diffuse for PFC to commit action
+  → Plus: signal too diffuse for PFC to commit to action
 
   → Boredom = Precondition-1 met + Precondition-4 fail + PFC unclear = compound state
   → NOT = Precondition-3 fail (Precondition-3 fail = simply nothing detected)
@@ -580,8 +580,8 @@ Precondition-3 fail → Precondition-4 NEVER CHECKED:
   → No delta → no alert → PFC doesn't attend → match quality irrelevant
   → Stimulus may be PERFECT match (Precondition-4 would pass) but Precondition-3 blocks detection
 
-Precondition-3 pass → Precondition-4 CHECK:
-  → Delta detected → attention → NOW evaluate: match trong vùng nào?
+Precondition-3 pass → Precondition-4 CHECKED:
+  → Delta detected → attention → NOW evaluate: match falls in what range?
   → Precondition-4 pass → continue to Precondition-5
   → Precondition-4 fail → signal attenuated or wrong direction
 ```
@@ -590,10 +590,10 @@ Precondition-3 pass → Precondition-4 CHECK:
 
 | Failure type | Mechanism | Subjective experience |
 |---|---|---|
-| Habituation | Same pattern repeated → VTA adapts | "Chán" (hedonic treadmill) |
-| Routine | Life predictable → few deltas | "Nhàm" (monotony) |
-| Overstimulation | Too many deltas → threshold rises | "Tê liệt" (sensory overload) |
-| Anhedonia (clinical) | VTA function impaired | "Không cảm gì" (depression symptom) |
+| Habituation | Same pattern repeated → VTA adapts | "Boring" (hedonic treadmill) |
+| Routine | Life predictable → few deltas | "Monotonous" |
+| Overstimulation | Too many deltas → threshold rises | "Numb" (sensory overload) |
+| Anhedonia (clinical) | VTA function impaired | "Feel nothing" (depression symptom) |
 
 **Hedonic adaptation cycle** 🟢:
 ```
@@ -619,100 +619,100 @@ Brickman & Campbell 1971 — hedonic treadmill concept.
 > Match between incoming pattern and gap direction must fall within
 > a **suitable range** — not too alien, not too familiar.
 >
-> Precondition-4 answers: "Match có VỪA không?" — quality of fit, not just detection.
+> Precondition-4 answers: "Does the match FIT?" — quality of fit, not just detection.
 > Precondition-3 detects THAT something changed. Precondition-4 evaluates HOW WELL it fits.
 
-**Tên cũ**: "Goldilocks Zone Position" (drill 03-Reward.md §3.5)
-**Đổi vì**: (a) "Zone" bỏ sót direction-match component. (b) "40-70%" không cố định → "Range" = dynamic.
+**Old name**: "Goldilocks Zone Position" (drill 03-Reward.md §3.5)
+**Changed because**: (a) "Zone" missed the direction-match component. (b) "40-70%" is not fixed → "Range" = dynamic.
 **Informal shorthand**: "Goldilocks zone" — used across framework as intuitive label for this precondition.
 
 ### §5.2 — Direction-match (not just magnitude)
 
-🟡 Từ Gap-Direction.md v2.0 §6.3:
+🟡 From Gap-Direction.md v2.0 §6.3:
 
-> Match VỚI CÁI GÌ? → Match với **gap direction**.
+> Match AGAINST WHAT? → Match against **gap direction**.
 >
-> Gap có direction = f(surrounding chunks).
-> Precondition-4 evaluate: stimulus match DIRECTION + MAGNITUDE của gap.
+> Gap has direction = f(surrounding chunks).
+> Precondition-4 evaluates: stimulus match DIRECTION + MAGNITUDE of gap.
 
 ```
 Direction-match matters:
 
-  ① Đúng direction + đúng range → reward (full match)
-  ② Đúng direction + ngoài range → attenuated (too close or too far)
-  ③ Sai direction + bất kỳ range → no reward (direction mismatch)
+  ① Correct direction + correct range → reward (full match)
+  ② Correct direction + outside range → attenuated (too close or too far)
+  ③ Wrong direction + any range → no reward (direction mismatch)
 
-Ví dụ:
-  Nhạc sĩ đang tìm giai điệu buồn (gap direction = melancholy)
-  → Nhận được giai điệu buồn vừa đủ mới → reward ✅ (direction + range match)
-  → Nhận được giai điệu vui → no reward ❌ (direction mismatch)
-  → Nhận được giai điệu buồn nhưng quá phức tạp → confusion ❌ (range miss)
+Example:
+  Musician searching for a sad melody (gap direction = melancholy)
+  → Receives a sufficiently novel sad melody → reward ✅ (direction + range match)
+  → Receives a cheerful melody → no reward ❌ (direction mismatch)
+  → Receives a sad melody that's too complex → confusion ❌ (range miss)
 ```
 
 ### §5.3 — Goldilocks zone (dynamic, not a fixed number)
 
-🟡 Từ Reward-Calibration.md v1.1 §1.2:
+🟡 From Reward-Calibration.md v1.1 §1.2:
 
 > **Goldilocks zone**: novel enough to trigger + right direction to match gap.
 > Dynamic per person / context / gap-type / time.
 > The often-cited "40-70% match ratio" is a **rough approximation**, not a fixed threshold.
-> Zone thay đổi theo 4 trục:
+> Zone changes along 4 axes:
 
 ```
 ① PER-PERSON:
-  COMT Val/Val → needs nhiều shallow rewards → zone rộng
-  COMT Met/Met → needs ít deep rewards → zone hẹp
+  COMT Val/Val → needs more shallow rewards → zone wide
+  COMT Met/Met → needs fewer deep rewards → zone narrow
   DRD4-7R → higher threshold → zone shifted toward MORE novel
   (PFC-Hardware §3.4)
 
 ② PER-GAP-TYPE:
-  Chunk-Shift → delta nhỏ đủ → zone rộng
-  Chunk-Miss → delta trung bình → zone moderate
-  Chunk-Gap → delta lớn cần thiết → zone hẹp
+  Chunk-Shift → small delta sufficient → zone wide
+  Chunk-Miss → moderate delta → zone moderate
+  Chunk-Gap → larger delta needed → zone narrow
   (Body-Feedback-Mechanism.md §3)
 
 ③ PER-CONTEXT:
-  Cortisol state: cao → zone thu hẹp (threat mode)
-  Existing chunks: nhiều → zone narrow (expert) vs ít → zone wide (novice)
+  Cortisol state: high → zone narrows (threat mode)
+  Existing chunks: many → zone narrow (expert) vs few → zone wide (novice)
   Relationship: trusted source → zone wider (trust compile)
   Background pattern: stable → zone sensitive to small changes
 
 ④ PER-TIME:
-  Baseline shift from repeated reward → zone dịch chuyển
+  Baseline shift from repeated reward → zone shifts
   Developmental stage: child = wide zone, adult = narrower
   Habituation: trial 1 vs trial 100 = completely different zone
 ```
 
-**Kết luận** (Reward-Calibration.md):
-> "KHÔNG CÓ formula 'cho X reward cho gap Y' — Chỉ có OBSERVE + ADJUST liên tục."
+**Conclusion** (Reward-Calibration.md):
+> "There is NO formula 'give X reward for gap Y' — only OBSERVE + ADJUST continuously."
 
 ### §5.4 — Expertise shift (E₀ → E₃)
 
-🟡 Zone thay đổi theo expertise level:
+🟡 Zone changes with expertise level:
 
 ```
 E₀ (Zero exposure):
-  → No chunks → Precondition-2 fail before Precondition-4 reached
+  → No chunks → Precondition-2 fails before Precondition-4 is reached
   → Zone question irrelevant
 
 E₁ (Beginner):
-  → Few chunks → zone WIDE (nhiều thứ "mới + vừa đủ match")
-  → Dễ reward, nhưng quality thấp
-  → Ví dụ: mới học guitar, bấm được 1 hợp âm → reward!
+  → Few chunks → zone WIDE (many things are "new + just enough to match")
+  → Easy to reward, but quality is low
+  → Example: just learning guitar, can play 1 chord → reward!
 
 E₂ (Intermediate):
-  → Many chunks → zone NARROWS (phải tinh tế hơn mới "đủ mới")
-  → Reward harder to trigger, nhưng quality cao hơn
-  → Ví dụ: chơi guitar 5 năm, cần kỹ thuật mới mới "interesting"
+  → Many chunks → zone NARROWS (needs more sophistication to be "novel enough")
+  → Reward harder to trigger, but quality is higher
+  → Example: 5 years playing guitar, needs new technique to find it "interesting"
 
 E₃ (Expert):
   → Deep rich chunks → zone VERY NARROW + SHIFTED
   → Only subtle, refined differences trigger reward
   → BUT when triggered → very deep reward (rich chunk network activated)
-  → Ví dụ: nghệ sĩ 30 năm, chỉ nuance tinh tế mới "wow"
+  → Example: 30-year artist, only delicate nuance produces "wow"
 
 Pattern: expertise NARROWS zone + SHIFTS toward subtlety
-  → CÙNG stimulus: beginner rewards, expert bored (or vice versa)
+  → SAME stimulus: beginner rewards, expert bored (or vice versa)
   → Van Gogh: beginner = Precondition-2 fail, art student = Precondition-4 zone match, expert = Precondition-4 too familiar
 ```
 
@@ -722,7 +722,7 @@ Berlyne 1960 — inverted-U arousal × complexity.
 
 ### §5.5 — Failure asymmetry: reward vs dissonance
 
-🟡 Precondition-4 failure khác nhau cho reward và dissonance:
+🟡 Precondition-4 failure differs for reward and dissonance:
 
 ```
 REWARD Precondition-4 failure:
@@ -739,17 +739,17 @@ DISSONANCE Precondition-4 "failure" (i.e., dissonance does NOT fire):
   → Threat detection favors false positives (evolutionary advantage)
   → → Precondition-4 zone for dissonance is WIDER than for reward
   → → Easier to trigger dissonance than reward from same mismatch
-  → Chi tiết: Dissonance-Signal-Architecture.md, §9 this file
+  → Details: Dissonance-Signal-Architecture.md, §9 this file
 ```
 
 ### §5.6 — Precondition-4 failure modes
 
 | Failure type | Mechanism | Subjective experience |
 |---|---|---|
-| Too alien | Match < lower bound → cannot evaluate | "Quá lạ, không hiểu" |
-| Too familiar | Match > upper bound → habituated | "Quá quen, không còn gì mới" |
-| Direction mismatch | Stimulus matches wrong gap direction | "Không phải cái tôi tìm" |
-| Zone shifted | Expertise/context changed zone → stimulus no longer fits | "Hồi trước hay, giờ chán" |
+| Too alien | Match < lower bound → cannot evaluate | "Too strange, can't understand" |
+| Too familiar | Match > upper bound → habituated | "Too familiar, nothing new" |
+| Direction mismatch | Stimulus matches wrong gap direction | "Not what I'm looking for" |
+| Zone shifted | Expertise/context changed zone → stimulus no longer fits | "Used to be captivating, now boring" |
 
 ---
 
@@ -763,16 +763,16 @@ DISSONANCE Precondition-4 "failure" (i.e., dissonance does NOT fire):
 > signal to fire in the expected direction. Tag compiled at formation time
 > persists through retrieval and determines signal DIRECTION + QUALITY.
 >
-> Precondition-5 answers: "Tag CHO PHÉP không?" — direction gate, not substrate check.
+> Precondition-5 answers: "Does the tag PERMIT it?" — direction gate, not substrate check.
 
-**Tên cũ**: "Chunk Association Tag" (drill 03-Reward.md §3.6)
-**Đổi vì**: (a) "Association Tag" mô tả mechanism, không mô tả function.
-(b) "Compile-Gate" nhấn mạnh: tag được compile vào chunk → gate quyết định direction.
+**Old name**: "Chunk Association Tag" (drill 03-Reward.md §3.6)
+**Changed because**: (a) "Association Tag" describes mechanism, not function.
+(b) "Compile-Gate" emphasizes: tag is compiled into chunk → gate determines direction.
 
 ### §6.2 — Scope: Evaluative ONLY
 
 ```
-⭐ Precondition-5 CHỈ áp dụng cho EVALUATIVE reward/dissonance.
+⭐ Precondition-5 applies ONLY to EVALUATIVE reward/dissonance.
 
 EVALUATIVE:
   → Precondition-5 REQUIRED — chunks' tag determines signal direction
@@ -785,19 +785,19 @@ DIRECT-STATE:
   → CT afferents fire opioid directly (no compiled tag)
   → Taste buds signal directly (sweet → approach, bitter → avoid)
   → Hardware "tag" = hardwired, not compiled
-  → Chi tiết: Reward-Signal-Architecture §1.3
+  → Details: Reward-Signal-Architecture §1.3
 
-⚠️ Precondition-5 = N/A là ONLY precondition completely absent in Direct-State.
+⚠️ Precondition-5 = N/A is the ONLY precondition completely absent in Direct-State.
   (Precondition-3 is "uncertain", others are "simplified" — Precondition-5 is clean N/A.)
 ```
 
 ### §6.3 — Direction-At-Compile gate model
 
-🟡 Từ Cortisol-Baseline.md v2.2 §3.3 — tag không binary (opioid/cortisol) mà là **gradient**:
+🟡 From Cortisol-Baseline.md v2.2 §3.3 — tag is NOT binary (opioid/cortisol) but a **gradient**:
 
-> Tại compile time: cortisol level + body-state direction
-> → determines tag on resulting chunk.
-> Key insight: "cortisol assigned DIRECTION — direction matters more than level."
+> At compile time: cortisol level + body-state direction
+> → determines tag on the resulting chunk.
+> Key insight: "cortisol assigns DIRECTION — direction matters more than level."
 
 ```
 4-Threshold Gradient (Cortisol-Baseline.md §3.3):
@@ -821,7 +821,7 @@ DIRECT-STATE:
   │           │                  │ Avoidance = only possible response │
   └───────────┴──────────────────┴───────────────────────────────────┘
 
-⭐ CÙNG cortisol level, KHÁC source:
+⭐ SAME cortisol level, DIFFERENT source:
   Novelty cortisol (curious but tense) → chunk tagged APPROACH
   Threat cortisol (afraid) → chunk tagged AVOIDANCE
   → SOURCE > LEVEL (Cortisol-Baseline.md §7)
@@ -829,54 +829,54 @@ DIRECT-STATE:
 
 ### §6.4 — 4-Pathway × quality ceiling
 
-🟡 Từ Compile-Taxonomy.md v3.0 §6:
+🟡 From Compile-Taxonomy.md v3.0 §6:
 
-> Mỗi compile pathway tạo KHÁC Precondition-5 tag → determines reward capacity:
+> Each compile pathway creates a DIFFERENT Precondition-5 tag → determines reward capacity:
 
 ```
 ┌──────────────────────┬───────────────────┬────────────────────────────┐
-│ Pathway              │ Precondition-5 Tag            │ Reward ceiling              │
+│ Pathway              │ Precondition-5 Tag│ Reward ceiling             │
 ├──────────────────────┼───────────────────┼────────────────────────────┤
-│ ① Hardware Fit       │ Approach          │ HIGHEST — natural coherence │
-│   (direct experience │                   │ Flow accessible             │
-│    in Goldilocks)    │                   │ Sustainable engagement      │
+│ ① Hardware Fit       │ Approach          │ HIGHEST — natural coherence│
+│   (direct experience │                   │ Flow accessible            │
+│    in Goldilocks)    │                   │ Sustainable engagement     │
 ├──────────────────────┼───────────────────┼────────────────────────────┤
-│ ② Trust + Moderate   │ Moderate approach │ MODERATE — depends on       │
-│   (trusted source +  │                   │ collective chain quality    │
-│    partial verify)   │                   │ Can upgrade with experience │
+│ ② Trust + Moderate   │ Moderate approach │ MODERATE — depends on      │
+│   (trusted source +  │                   │ collective chain quality   │
+│    partial verify)   │                   │ Can upgrade with experience│
 ├──────────────────────┼───────────────────┼────────────────────────────┤
-│ ③ Social Default     │ Neutral           │ LOW — relief dominant       │
-│   (consensus, "mọi  │                   │ "Done" > "Interesting"      │
-│    người đều làm")   │                   │ PFC confabulation ~30%     │
+│ ③ Social Default     │ Neutral           │ LOW — relief dominant      │
+│   (consensus,        │                   │ "Done" > "Interesting"     │
+│    "everyone does it")│                  │ PFC confabulation ~30%     │
 ├──────────────────────┼───────────────────┼────────────────────────────┤
-│ ④ Threat Avoidance   │ Avoidance         │ LOWEST — relief ONLY        │
-│   (fear-driven       │                   │ Never genuine engagement    │
-│    compliance)       │                   │ Burnout trajectory          │
+│ ④ Threat Avoidance   │ Avoidance         │ LOWEST — relief ONLY       │
+│   (fear-driven       │                   │ Never genuine engagement   │
+│    compliance)       │                   │ Burnout trajectory         │
 └──────────────────────┴───────────────────┴────────────────────────────┘
 
 ⭐ Precondition-5 tag at childhood compile → PERSISTS → constrains ADULT reward profile.
-  "Giỏi mà không thích" = Precondition-5 fail (understand but avoidance-tagged).
-  Pathway ④ = giải thích tại sao nhiều người "thành công nhưng không hạnh phúc."
+  "Skilled but resentful" = Precondition-5 fail (understand but avoidance-tagged).
+  Pathway ④ = why many people "succeed but aren't happy."
 ```
 
 ### §6.5 — Re-association 3 paths
 
-🟡 Precondition-5 tag CAN change, nhưng tốn resources (Cortisol-Baseline.md §7.6):
+🟡 Precondition-5 tag CAN change, but requires resources (Cortisol-Baseline.md §7.6):
 
 ```
 3 Re-association Paths:
 
   Path 1: NEW POSITIVE CONTEXT (months → years)
-    → Cùng domain, new positive experiences
+    → Same domain, new positive experiences
     → Gradually overlay approach tag onto avoidance-tagged chunks
-    → Slowest nhưng most robust
-    → Ví dụ: math-phobic adult finds good teacher → years → "math ok"
+    → Slowest but most robust
+    → Example: math-phobic adult finds a good teacher → years → "math is ok"
 
   Path 2: NOVELTY HIJACK (weeks → months)
     → Completely new angle/context for same domain
     → Bypass old chunks → build new approach-tagged chunks
     → Old avoidance chunks still exist BUT new chunks dominate
-    → Ví dụ: learn math through music → new chunks, new tag
+    → Example: learn math through music → new chunks, new tag
 
   Path 3: AI SUPPORT (weeks — 🔴 hypothesis level)
     → AI provides perfectly calibrated Goldilocks stimuli
@@ -898,8 +898,8 @@ Summary distinction:
   Precondition-2 Chunk-Substrate:  CAN you decode? (existence of chunks)
   Precondition-5 Compile-Gate:     WHAT DIRECTION does decoded signal go? (tag on chunks)
 
-  Precondition-2 fail: "Tôi không hiểu bài toán này" (no chunks to decode)
-  Precondition-5 fail: "Tôi hiểu bài toán này nhưng ghét toán" (chunks exist, tagged avoid)
+  Precondition-2 fail: "I don't understand this problem" (no chunks to decode)
+  Precondition-5 fail: "I understand this problem but hate math" (chunks exist, tagged avoid)
 
   Precondition-2 fix: LEARN (accumulate chunks) — education problem
   Precondition-5 fix: RE-ASSOCIATE (change tag) — much harder, emotional rewiring
@@ -912,12 +912,12 @@ Summary distinction:
 
 | Failure type | Mechanism | Subjective experience |
 |---|---|---|
-| Threat-tagged | Chunks compiled under fear → avoidance direction | "Ghét dù biết hay" |
-| Social-default | Chunks compiled via consensus → relief only | "Làm xong là mừng, không hào hứng" |
-| Mixed-tag | Some chunks approach + some avoidance → ambivalent | "Vừa thích vừa sợ" |
-| Trauma-tagged | Extreme compile → body refuses chunk activation | "Không thể nghĩ đến" (avoidance) |
+| Threat-tagged | Chunks compiled under fear → avoidance direction | "Dislike even though I know it's good" |
+| Social-default | Chunks compiled via consensus → relief only | "Relieved when done, not engaged" |
+| Mixed-tag | Some chunks approach + some avoidance → ambivalent | "Both attracted and afraid" |
+| Trauma-tagged | Extreme compile → body refuses chunk activation | "Can't even think about it" (avoidance) |
 
-**Thiên tài paradox** (03-Reward.md §3.6):
+**Genius paradox** (03-Reward.md §3.6):
 ```
 Newton/Tesla/Einstein: high baseline cortisol
   → BUT: learning-domain chunks compiled in CURIOSITY state
@@ -941,12 +941,12 @@ Same cortisol level → enhanced OR impaired memory depending on context and tim
 
 🟡 **Core logic**: Signal fires if and only if Precondition-1 ∧ Precondition-2 ∧ Precondition-3 ∧ Precondition-4 ∧ Precondition-5.
 
-> Preconditions hoạt động như AND-gate — thiếu BẤT KỲ 1 → signal không fire đầy đủ.
-> KHÔNG có precondition nào compensate cho precondition khác.
-> Precondition-2 (chunks) KHÔNG bù cho Precondition-5 (tag). Precondition-3 (delta) KHÔNG bù cho Precondition-1 (gap).
+> Preconditions operate as an AND-gate — missing ANY 1 → signal does not fire at full magnitude.
+> NO precondition can compensate for another.
+> Precondition-2 (chunks) does NOT offset Precondition-5 (tag). Precondition-3 (delta) does NOT offset Precondition-1 (gap).
 
 ```
-Full signal (reward hoặc dissonance):
+Full signal (reward or dissonance):
   Precondition-1 ✅ + Precondition-2 ✅ + Precondition-3 ✅ + Precondition-4 ✅ + Precondition-5 ✅ → FULL SIGNAL
 
 Partial cases:
@@ -956,25 +956,25 @@ Partial cases:
   1/5 met → NOTHING
 
 ⚠️ "Attenuated" ≠ "absent":
-  → Near-miss cases tạo ra MILD signal ("gần hay", "hơi thú vị")
+  → Near-miss cases produce MILD signal ("almost captivating," "vaguely interesting")
   → Framework prediction: mild reward = 1 precondition BARELY failing
   → Clinical: chronic mild anhedonia = 1 precondition chronically weak
 ```
 
 ### §7.2 — Dependencies between preconditions
 
-🟡 Preconditions KHÔNG flat — có thứ bậc dependency (§1.4):
+🟡 Preconditions are NOT flat — they have a dependency hierarchy (§1.4):
 
 ```
 DEPENDENCY 1: Precondition-2 → Precondition-1 (schema-level)
-  Precondition-2 (chunks) phải tồn tại TRƯỚC khi Precondition-1b (schema gap) có thể form.
-  "Chưa biết = không gap" → Precondition-2a fail = Precondition-1b impossible.
-  ⚠️ Precondition-1a (hardware) KHÔNG cần Precondition-2 → body-needs exist from birth.
+  Precondition-2 (chunks) must exist BEFORE Precondition-1b (schema gap) can form.
+  "Don't know it exists = no gap" → Precondition-2a fail = Precondition-1b impossible.
+  ⚠️ Precondition-1a (hardware) does NOT need Precondition-2 → body-needs exist from birth.
 
 DEPENDENCY 2: Precondition-3 → Precondition-4 (sequential)
-  Precondition-3 (delta detected) phải fire TRƯỚC khi Precondition-4 (match quality) được evaluate.
-  Precondition-3 fail → PFC không attend → Precondition-4 không được check → Precondition-4 irrelevant.
-  ⚠️ Stimulus có thể PERFECT match (Precondition-4 pass) nhưng Precondition-3 blocks detection.
+  Precondition-3 (delta detected) must fire BEFORE Precondition-4 (match quality) is evaluated.
+  Precondition-3 fail → PFC doesn't attend → Precondition-4 not checked → Precondition-4 irrelevant.
+  ⚠️ Stimulus may be a PERFECT match (Precondition-4 would pass) but Precondition-3 blocks detection.
 
 NO OTHER DEPENDENCIES:
   Precondition-5 independent of Precondition-3/Precondition-4 (tag compiled at formation, not at evaluation)
@@ -984,17 +984,17 @@ NO OTHER DEPENDENCIES:
 
 ### §7.3 — Per-precondition failure → specific outcome
 
-🟡 Mỗi precondition failure tạo ra **distinct** subjective experience:
+🟡 Each precondition failure produces a **distinct** subjective experience:
 
 | Precondition-fail | Others met | Outcome | Typical phrase |
 |---|---|---|---|
-| Precondition-1 | Precondition-2–Precondition-5 ✅ | No desire → signal irrelevant | "Không thèm", "Đủ rồi" |
-| Precondition-2 | Precondition-1, Precondition-3–Precondition-5 ✅ | Confusion → cannot evaluate | "Không hiểu", "Lạ quá" |
-| Precondition-3 | Precondition-1, Precondition-2, Precondition-4, Precondition-5 ✅ | Unnoticed → attention not triggered | "Bình thường", "Quen rồi" |
-| Precondition-4 | Precondition-1–Precondition-3, Precondition-5 ✅ | Wrong range → too alien or too familiar | "Quá khó" / "Quá dễ" |
-| Precondition-5 | Precondition-1–Precondition-4 ✅ | Wrong direction → aversion despite understanding | "Hiểu nhưng ghét" |
+| Precondition-1 | Precondition-2–Precondition-5 ✅ | No desire → signal irrelevant | "No desire," "Have enough already" |
+| Precondition-2 | Precondition-1, Precondition-3–Precondition-5 ✅ | Confusion → cannot evaluate | "Can't understand," "Too strange" |
+| Precondition-3 | Precondition-1, Precondition-2, Precondition-4, Precondition-5 ✅ | Unnoticed → attention not triggered | "Normal," "Already used to it" |
+| Precondition-4 | Precondition-1–Precondition-3, Precondition-5 ✅ | Wrong range → too alien or too familiar | "Too hard" / "Too easy" |
+| Precondition-5 | Precondition-1–Precondition-4 ✅ | Wrong direction → aversion despite understanding | "Understand but dislike" |
 
-**Diagnostic power**: Knowing WHICH precondition failed → biết CHÍNH XÁC cách fix.
+**Diagnostic power**: Knowing WHICH precondition failed → knowing EXACTLY how to fix it.
 - Precondition-1 fail → create/activate gap (education, exposure, need induction)
 - Precondition-2 fail → build chunks (training, scaffolding, prerequisite learning)
 - Precondition-3 fail → introduce variation (change context, angle, presentation)
@@ -1006,7 +1006,7 @@ NO OTHER DEPENDENCIES:
 🟡 Body-Feedback-Mechanism.md §6.2 maps chunk dynamics (Shift/Miss/Gap) × Precondition-1–Precondition-5:
 
 ```
-⭐ KEY INSIGHT: Chunk dynamics ≠ preconditions, nhưng INTERACT.
+⭐ KEY INSIGHT: Chunk dynamics ≠ preconditions, but they INTERACT.
 
   Chunk-Shift:
     Precondition-1 = shift CREATES new pending (e.g. betrayal creates need to fix)
@@ -1029,21 +1029,21 @@ NO OTHER DEPENDENCIES:
     Precondition-4 = gap must be detectable (not too alien)
     Precondition-5 = surrounding compiled chunks carry tag
 
-  → Chi tiết: Body-Feedback-Mechanism.md §6.2
+  → Details: Body-Feedback-Mechanism.md §6.2
 
 ⚠️ Compound dynamics = Precondition-1–Precondition-5 checked MULTIPLE TIMES per event.
-  Ví dụ: bị bạn thân lừa → Shift (betrayal) + Miss (trust lost) + Gap (how to fix?)
-  → Mỗi dynamic triggers Precondition-1–Precondition-5 check riêng → compound signal
+  Example: scammed by a close friend → Shift (betrayal) + Miss (trust lost) + Gap (how to fix?)
+  → Each dynamic triggers its own Precondition-1–Precondition-5 check → compound signal
 ```
 
 ### §7.5 — Multi-precondition failure combinations
 
-🟡 Khi NHIỀU preconditions fail đồng thời:
+🟡 When MULTIPLE preconditions fail simultaneously:
 
 ```
 Precondition-1 + Precondition-3 co-fail:
   No gap + no delta → COMPLETE INDIFFERENCE
-  → Ví dụ: scrolling social media while satiated — nothing registers
+  → Example: scrolling social media while satiated — nothing registers
 
 Precondition-1 + Precondition-4 co-fail:
   Gap exists but nothing matches → BOREDOM (Boredom.md §7)
@@ -1052,16 +1052,17 @@ Precondition-1 + Precondition-4 co-fail:
 
 Precondition-2 + Precondition-4 co-fail:
   Insufficient chunks + wrong range → OVERWHELM
-  → Ví dụ: advanced lecture to complete beginner
+  → Example: advanced lecture to a complete beginner
 
 Precondition-3 + Precondition-5 co-fail:
   No delta + wrong tag → STAGNANT AVERSION
-  → Ví dụ: forced daily math by math-phobic person
+  → Example: math-phobic person forced to do math daily
   → Habituated (Precondition-3 fail) + avoidance-tagged (Precondition-5 fail) → chronic low-grade suffering
 
 Precondition-1 + Precondition-2 + Precondition-3 co-fail:
   No gap + no chunks + no delta → EMPTINESS
   → Nothing wanted, nothing understood, nothing new → existential boredom
+  → "Don't want, don't enjoy, don't know what's wanted"
 ```
 
 ---
@@ -1110,7 +1111,7 @@ facial expressions to tag novel stimuli as approach/avoid.
 
 ```
 Precondition-1: Precondition-1b DEVELOPING — schema gaps form as chunk network grows
-    → "Muốn biết tại sao" (curiosity gaps) emerge ~age 3-4
+    → "Wanting to know why" (curiosity gaps) emerge ~age 3-4
     → Social gaps (acceptance, status) emerge ~age 5-7
     → Direction becomes more specific with experience
 
@@ -1160,7 +1161,7 @@ Precondition-4: NARROWED + SHIFTED by expertise
     → Cross-domain exploration = Precondition-4 reset strategy
 
 Precondition-5: ACCUMULATED BIOGRAPHICAL TAGS
-    → Childhood compilations persist: "giỏi mà ghét" patterns established
+    → Childhood compilations persist: "skilled but resentful" patterns established
     → Re-association possible but costly (months-years, §6.5)
     → Professional competence ≠ enjoyment (Precondition-5 fail common in adults)
     → "Burnout" often = Precondition-3 (no delta) + Precondition-5 (avoidance tag accumulation)
@@ -1196,7 +1197,7 @@ Precondition-5: CORTISOL ACCUMULATION — life stress compounds avoidance tags
 
 BURNOUT FORMULA (compound):
   Precondition-3 erosion (habituated) + Precondition-5 avoidance (stress-tagged) + Precondition-1 weak (gap unclear)
-  → "Không muốn, không thích, không biết muốn gì" = triple precondition failure
+  → "Don't want, don't enjoy, don't know what's wanted" = triple precondition failure
 ```
 
 🟢 Research: Dopamine system aging (Bäckman et al. 2006).
@@ -1208,11 +1209,11 @@ Burnout and reward system (Sokka et al. 2017 — reduced reward anticipation in 
 
 ### §9.1 — Precondition-1–Precondition-5 apply to dissonance, not just reward
 
-🟡 Precondition model là **body-feedback** model, không chỉ reward model:
+🟡 The precondition model is a **body-feedback** model, not just a reward model:
 
 > Body-feedback signal = reward OR dissonance.
-> Precondition-1–Precondition-5 quyết định signal CÓ fire không — cho CẢ HAI hướng.
-> Nhưng preconditions hoạt động KHÁC cho dissonance vs reward.
+> Precondition-1–Precondition-5 determine whether the signal fires — for BOTH directions.
+> But preconditions operate DIFFERENTLY for dissonance vs reward.
 
 ```
 REWARD firing: Precondition-1–Precondition-5 all met → opioid pathway → approach signal
@@ -1243,7 +1244,7 @@ DISSONANCE:
 → Same mismatch: approach-tagged domain → mild dissonance
                   avoidance-tagged domain → intense dissonance
 
-Ví dụ:
+Example:
   Musician (approach-tagged) makes mistake → mild dissonance, quickly resolved
   Math-phobic adult (avoidance-tagged) makes math error → intense dissonance, slow to resolve
   → SAME type of error, DIFFERENT Precondition-5 tag → DIFFERENT dissonance intensity
@@ -1251,20 +1252,20 @@ Ví dụ:
 
 ### §9.3 — Asymmetric transition speed
 
-🟡 Từ Dissonance-Signal-Architecture §7.5 — reward → dissonance vs dissonance → reward:
+🟡 From Dissonance-Signal-Architecture §7.5 — reward → dissonance vs dissonance → reward:
 
 ```
 REWARD → DISSONANCE: FAST
   → Amygdala ~12ms bypasses PFC
   → Opioid off in seconds
   → Threat detection = survival priority
-  → Ví dụ: enjoying music → sudden loud noise → instant dissonance
+  → Example: enjoying music → sudden loud noise → instant dissonance
 
 DISSONANCE → REWARD: SLOW
   → Cortisol half-life ~60-90 minutes
   → Opioid RE-activation requires FULL H10 re-check (all 5 preconditions)
   → PFC must re-assess safety before releasing opioid gate
-  → Ví dụ: stressful exam → relief → takes minutes-hours, not seconds
+  → Example: stressful exam → relief → takes minutes-hours, not seconds
 
 ⭐ Asymmetry resides in EVALUATIVE layer specifically.
   Direct-State is relatively symmetric (pain stops → relief fast).
@@ -1277,18 +1278,18 @@ Evolutionary logic: missing threat = death (max cost), false alarm = low cost.
 
 ### §9.4 — Evaluative gates
 
-🟡 Từ Dissonance-Signal-Architecture §3 — evaluative layer GATES direct-state dissonance:
+🟡 From Dissonance-Signal-Architecture §3 — evaluative layer GATES direct-state dissonance:
 
 ```
 Evaluative gates can:
   ① AMPLIFY — nocebo effect (expecting pain → more pain)
   ② SUPPRESS — placebo effect (expecting relief → less pain)
   ③ ABSENT — infant/dissociation (no evaluative layer active)
-  ④ CONFLICT — "pain from loved one" (mismatch between signal directions)
+  ④ CONFLICT — "pain from a loved one" (mismatch between signal directions)
 
 → Precondition-1–Precondition-5 for dissonance: evaluative gates modulate INTENSITY, not just presence.
 → Same physical stimulus: different evaluative context → different dissonance level.
-→ Chi tiết mechanism: Dissonance-Signal-Architecture.md §3
+→ Mechanism details: Dissonance-Signal-Architecture.md §3
 ```
 
 🟢 Research: Placebo analgesia (Wager et al. 2004). Nocebo hyperalgesia (Zubieta et al. 2005).
@@ -1313,15 +1314,15 @@ Craig 2002/2009 — insula gradient model for interoception.
 
 ```
 Q1: Precondition-3 × Precondition-4 interaction boundary
-  Khi Precondition-3 (delta) rất lớn, Precondition-4 (match) có bị bypass không?
-  Ví dụ: extreme surprise → reward regardless of match quality?
-  → Hiện tại: framework says NO (Precondition-4 still required)
-  → Nhưng: extreme delta cases chưa studied rigorously
+  When Precondition-3 (delta) is very large, can Precondition-4 (match) be bypassed?
+  Example: extreme surprise → reward regardless of match quality?
+  → Current: framework says NO (Precondition-4 still required)
+  → But: extreme delta cases not yet studied rigorously
 
 Q2: Precondition-5 re-association speed
   Path 3 (AI support) accelerates re-association — to what degree?
   → Hypothesis level (🔴). No empirical validation yet.
-  → Nếu AI CAN accelerate → educational implications massive
+  → If AI CAN accelerate → massive educational implications
 
 Q3: Direct-State Precondition-3 mechanism
   Does Direct-State bypass VTA entirely or use different threshold?
@@ -1393,7 +1394,7 @@ PREDICTION 5: Developmental Precondition-5 testable
 
 | File | Relevant section | What refined |
 |---|---|---|
-| Gap-Direction.md v2.0 | §3, §6.3 | Precondition-1 direction + "chưa biết = không gap" + hierarchy |
+| Gap-Direction.md v2.0 | §3, §6.3 | Precondition-1 direction + "don't know it exists = no gap" + hierarchy |
 | Cortisol-Baseline.md v2.2 | §3.3, §7 | Precondition-5 Direction-At-Compile gradient + source > level |
 | Compile-Taxonomy.md v3.0 | §6 | Precondition-5 4-pathway × quality ceiling |
 | Reward-Calibration.md v1.1 | §1.2 | Precondition-4 Goldilocks zone (dynamic, not fixed number) |

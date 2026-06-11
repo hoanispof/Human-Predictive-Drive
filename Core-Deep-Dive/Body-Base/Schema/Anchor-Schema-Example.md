@@ -1,796 +1,812 @@
-# Anchor-Schema Examples — Ví Dụ Cụ Thể Across Phổ
+# Anchor-Schema Examples — Concrete Examples Across the Spectrum
 
-> **Mỗi ví dụ = 1 tình huống CỤ THỂ ai cũng hình dung được.**
-> Mỗi ví dụ annotate: anchor là gì, trust loại nào, cost bao nhiêu,
-> domain real hay không, nguồn nào, kết quả thế nào.
+> **Each example = 1 CONCRETE situation anyone can picture.**
+> Each example annotated: what the anchor is, what type of trust, how much cost,
+> whether the domain is real, which source, and what happens.
 >
-> Đọc để: ① hiểu Anchor-Schema qua cases thực ② verify bằng trải nghiệm
-> ③ làm cơ sở để công nhận hoặc phản đối nếu cần
+> Read to: ① understand Anchor-Schema through real cases ② verify against experience
+> ③ use as a basis to confirm or push back if needed
 
 ---
 
-> **Trạng thái:** COMPLETE — v1.2
-> **Ngày:** 2026-04-10 (v1.1: thêm EXTREME Y1-Y4)
->   (v1.2: move EXTREME → Anchor-Schema-Extreme-Example.md, focus vào healthy spectrum)
-> **Vị trí:** Core-Deep-Dive/ (example file cho Anchor-Schema.md)
-> **Flow đọc:** Anchor-Schema.md (concept) → **FILE NÀY (ví dụ cụ thể)**
-> **Tiền đề:** Anchor-Schema.md (§1 flow, §2 Trust + Strength + Cost, §3 nguồn, §4 species)
+> **Status:** COMPLETE — v1.2
+> **Date:** 2026-04-10 (v1.1: added EXTREME Y1-Y4)
+>   (v1.2: moved EXTREME → Anchor-Schema-Extreme-Example.md, focus on healthy spectrum)
+> **Location:** Core-Deep-Dive/ (example file for Anchor-Schema.md)
+> **Reading flow:** Anchor-Schema.md (concept) → **THIS FILE (concrete examples)**
+> **Prerequisites:** Anchor-Schema.md (§1 flow, §2 Trust + Strength + Cost, §3 sources, §4 species)
 > **Annotation key:**
->   Anchor = schema nào đang làm sync point
->   Trust = positive (reward) / negative (tránh harm) / mixed
->   Strength = mờ / đang build / compiled (tại thời điểm ví dụ)
->   Cost = ≈0 / thấp / trung bình / cao / cực cao
->   Domain = real / bán-real / unfalsifiable
+>   Anchor = which schema is acting as the sync point
+>   Trust = positive (reward) / negative (avoid harm) / mixed
+>   Strength = Faint / Building / Compiled (at the moment of the example)
+>   Cost = ≈0 / low / moderate / high / extreme
+>   Domain = real / semi-real / unfalsifiable
 >   Source = ① PFC / ② Hippocampus / ③ Compiled / ④ External Inject
->   Outcome = melody smooth / dissonance tạm / collapse / etc.
+>   Outcome = melody smooth / temporary dissonance / collapse / etc.
 
 ---
 
-## MICRO-ANCHOR (giây → phút)
+## MICRO-ANCHOR (seconds → minutes)
 
-> Phần lớn INVISIBLE — xảy ra quá nhanh để "cảm nhận" niềm tin.
-> NHƯNG: vẫn là Anchor-Schema (vô thức sync theo 1 schema cụ thể).
-> = Tầng 0-1 (Anchor-Schema.md §4).
+> Mostly INVISIBLE — happens too fast to "feel" trust.
+> BUT: still an Anchor-Schema (the unconscious syncs to a specific schema).
+> = Tiers 0–1 (Anchor-Schema.md §4).
 
 ```
-── M1. ĐƯA TAY LẤY LY NƯỚC ──
+── M1. REACHING FOR A GLASS OF WATER ──
 
-  Situation: Khát → thấy ly nước → tay đưa ra → cầm → uống.
-  
-  Anchor: schema "tay → ly → cầm → uống" (compiled sensorimotor)
-  Trust: positive, IMPLICIT (không doubt "tay sẽ chạm ly")
-  Strength: COMPILED (hàng nghìn lần → auto)
-  Cost: ≈0 (giây, không risk, không sacrifice)
-  Domain: real ✓ (physics — tay chạm ly = domain confirm mỗi lần)
+  Situation: Thirsty → sees a glass of water → hand reaches out → grips → drinks.
+
+  Anchor: schema "hand → glass → grip → drink" (compiled sensorimotor)
+  Trust: positive, IMPLICIT (no doubt "hand will touch the glass")
+  Strength: COMPILED (thousands of times → automatic)
+  Cost: ≈0 (seconds, no risk, no sacrifice)
+  Domain: real ✓ (physics — hand touches glass = domain confirmed every time)
   Source: ③ Compiled (motor schema from thousands of repetitions)
-  Outcome: melody micro-smooth → done → next anchor
+  Outcome: micro-melody smooth → done → next anchor
 
-  ⭐ NOTE: Đây CÓ PHẢI Anchor-Schema không?
-    → CÓ — toàn body sync (mắt track ly, cánh tay coordinate, ngón tay chuẩn bị)
-    → NHƯNG: quá nhỏ, quá nhanh → invisible → không ai nghĩ "tôi TIN tay sẽ chạm"
-    → = Anchor-Schema ở mức PRIMITIVE nhất — pure compiled, zero PFC
+  ⭐ NOTE: Is this ACTUALLY an Anchor-Schema?
+    → YES — the whole body syncs (eyes track glass, arm coordinates, fingers prepare)
+    → BUT: too small, too fast → invisible → no one thinks "I TRUST my hand will touch it"
+    → = Anchor-Schema at the most PRIMITIVE level — pure compiled, zero PFC
 
 
-── M2. GÕ PHÍM → CHỮ HIỆN TRÊN MÀN HÌNH ──
+── M2. PRESSING A KEY → LETTER APPEARS ON SCREEN ──
 
-  Situation: Đang code/viết → gõ phím → chữ hiện → tiếp.
+  Situation: Coding or writing → press key → letter appears → continue.
 
-  Anchor: schema "ngón tay → phím → chữ" (compiled typing)
+  Anchor: schema "finger → key → letter" (compiled typing)
   Trust: positive, IMPLICIT
-  Strength: COMPILED (typist: hàng triệu lần)
+  Strength: COMPILED (for a typist: millions of times)
   Cost: ≈0
-  Domain: real ✓ (keyboard → display = domain confirm mỗi phím)
+  Domain: real ✓ (keyboard → display = domain confirmed with every keystroke)
   Source: ③ Compiled
-  Outcome: melody micro-smooth → continuous flow
+  Outcome: micro-melody smooth → continuous flow
 
-  ⭐ NOTE: Khi keyboard LAG → anchor BREAK tức thì:
-    → Gõ → chữ KHÔNG hiện → body GIẬT (micro-dissonance)
-    → = Schema "gõ → chữ" BỊ PHẢN BÁC bởi domain feedback
-    → = Trust BREAK ở micro-level → body dissonance → PFC jump:
-      "keyboard hỏng?" → debug
-    → = CHỨNG MINH: ngay cả micro-anchor CÓ trust,
-      và trust BỊ PHÁ khi domain feedback ✗
+  ⭐ NOTE: When the keyboard LAGS → anchor BREAKS instantly:
+    → Press key → letter DOESN'T APPEAR → body JOLTS (micro-dissonance)
+    → = Schema "press → letter" REFUTED by domain feedback
+    → = Trust BREAKS at the micro level → body dissonance → PFC jumps:
+      "keyboard broken?" → debug
+    → = PROOF: even micro-anchors HAVE trust,
+      and trust IS BROKEN when domain feedback ✗
 
 
-── M3. BƯỚC XUỐNG CẦU THANG ──
+── M3. STEPPING DOWN A STAIRCASE ──
 
-  Situation: Đi cầu thang → bước → chân chạm bậc → tiếp.
+  Situation: Walking down stairs → step → foot lands on step → continue.
 
-  Anchor: schema "bước → chân chạm → trọng lực ổn" (compiled motor)
+  Anchor: schema "step → foot lands → gravity OK" (compiled motor)
   Trust: positive, IMPLICIT
   Strength: COMPILED
   Cost: ≈0
   Domain: real ✓
-  Source: ③ Compiled + ② Hippocampus (spatial map cầu thang)
+  Source: ③ Compiled + ② Hippocampus (spatial map of the staircase)
   Outcome: melody smooth
 
-  ⭐ NOTE: Bước HỤT bậc → GIẬT CỰC MẠNH:
-    → Schema "chân sẽ chạm bậc kế" → chân KHÔNG chạm → body SHOCK
-    → = Micro-anchor trust BREAK → toàn body emergency response
-    → = NE spike, adrenaline, tim đập → dù chỉ 1 bậc thang
-    → = CHỨNG MINH: body INVEST trust vào MỌI micro-anchor
-      → khi trust bị phản bác = response MẠNH (dù "nhỏ")
-    → = Tại sao VR headset gây chóng mặt:
-      body trust "bước → chạm sàn" → VR nói KHÁC → micro-trust CONFLICT
+  ⭐ NOTE: Missing a step → EXTREME JOLT:
+    → Schema "foot will land on next step" → foot DOESN'T LAND → body SHOCK
+    → = Micro-anchor trust BREAKS → whole-body emergency response
+    → = NE spike, adrenaline, heart rate — even for just 1 step
+    → = PROOF: body INVESTS trust in EVERY micro-anchor
+      → when trust is refuted = strong response (even for something "small")
+    → = Why VR headsets cause dizziness:
+      body trusts "step → floor contact" → VR says OTHERWISE → micro-trust CONFLICT
 
 
-── M4. TRẺ CON ĐƯA TAY ĐÒI MẸ BẾ ──
+── M4. A TODDLER REACHING UP TO BE HELD ──
 
-  Situation: Trẻ 1-2 tuổi → thấy mẹ → đưa tay → chờ bế.
+  Situation: Child 1-2 years old → sees mother → reaches up → waits to be picked up.
 
-  Anchor: schema "đưa tay → mẹ bế" (compiled từ hàng trăm lần)
-  Trust: positive, IMPLICIT (body BIẾT mẹ sẽ bế)
+  Anchor: schema "reach up → mother picks me up" (compiled from hundreds of times)
+  Trust: positive, IMPLICIT (body KNOWS mother will pick them up)
   Strength: COMPILED (attachment schema — deep)
-  Cost: ≈0 (đưa tay = effort cực nhỏ)
-  Domain: real ✓ (mẹ bế = domain confirm hàng trăm lần)
-  Source: ③ Compiled (attachment schema) + ② hippocampus (nhận mặt mẹ)
-  Outcome: mẹ bế → melody smooth → oxytocin
+  Cost: ≈0 (reaching up = minimal effort)
+  Domain: real ✓ (mother picking up = domain confirmed hundreds of times)
+  Source: ③ Compiled (attachment schema) + ② Hippocampus (face recognition)
+  Outcome: mother picks up → micro-melody smooth → oxytocin
 
-  ⭐ NOTE: Mẹ KHÔNG BẾ → trust BREAK ở trẻ:
-    → Đưa tay → mẹ quay đi → body: DISSONANCE (attachment violation)
-    → NẾU lặp lại nhiều lần → compiled schema "mẹ KHÔNG bế"
-      → Trust DAMAGE → attachment style THAY ĐỔI (insecure)
+  ⭐ NOTE: Mother DOES NOT PICK UP → trust BREAKS in the child:
+    → Reaches up → mother turns away → body: DISSONANCE (attachment violation)
+    → IF repeated many times → compiled schema "mother WON'T pick me up"
+      → Trust DAMAGED → attachment style CHANGES (insecure)
     → = Anchor-Schema.md §2 Trust violation → ripple effect
-    → = Attachment theory (Bowlby): micro-trust BREAK lặp lại
-      → compiled thành attachment schema dài hạn
+    → = Attachment theory (Bowlby): micro-trust BREAK repeated
+      → compiles into long-term attachment schema
     → 🟢 Verified: attachment theory (Bowlby 1969, Ainsworth 1978)
 
 
-── M5. LÁI XE ĐẾN NGÃ TƯ QUEN ──
+── M5. DRIVING TO A FAMILIAR INTERSECTION ──
 
-  Situation: Lái xe đường quen → đèn xanh → rẽ phải → tiếp.
+  Situation: Driving a familiar road → green light → turn right → continue.
 
-  Anchor: schema "ngã tư này → rẽ phải → về nhà" (compiled route)
+  Anchor: schema "this intersection → turn right → get home" (compiled route)
   Trust: positive, IMPLICIT
-  Strength: COMPILED (hàng trăm lần đi qua)
+  Strength: COMPILED (hundreds of times through this spot)
   Cost: ≈0
-  Domain: real ✓ (đường vẫn đó, đèn vẫn hoạt động)
-  Source: ③ Compiled + ② Hippocampus (spatial map route)
-  Outcome: melody smooth → PFC đang nghĩ chuyện KHÁC (auto-pilot)
+  Domain: real ✓ (road still there, lights still working)
+  Source: ③ Compiled + ② Hippocampus (spatial map of route)
+  Outcome: melody smooth → PFC thinking about SOMETHING ELSE (auto-pilot)
 
-  ⭐ NOTE: Đường BỊ ĐỔI (xây cầu, chặn đường) → PFC JUMP:
-    → Compiled route → domain feedback ✗ (đường chặn) → anchor BREAK
-    → PFC: activate → scan alternative → build new micro-anchor
-    → = Bước ② fail → ③④ activate (Anchor-Schema.md §1 flow)
-    → = Tại sao đường quen bị đổi = ANNOYING (micro-trust break)
+  ⭐ NOTE: Road is CHANGED (construction, blocked) → PFC JUMPS:
+    → Compiled route → domain feedback ✗ (road blocked) → anchor BREAKS
+    → PFC: activates → scans alternative → builds new micro-anchor
+    → = Step ② fails → steps ③④ activate (Anchor-Schema.md §1 flow)
+    → = Why a familiar road being changed is ANNOYING (micro-trust break)
 ```
 
 ```
 ═══════════════════════════════════════════════════════
-MICRO-ANCHOR — PATTERN TỔNG HỢP
+MICRO-ANCHOR — CROSS-CASE PATTERNS
 ═══════════════════════════════════════════════════════
 
   ┌──────────┬──────────────────────────────────────────────────┐
   │ Pattern  │ Observation                                      │
   ├──────────┼──────────────────────────────────────────────────┤
-  │ Trust    │ LUÔN positive + IMPLICIT (không conscious)       │
-  │ Strength │ LUÔN compiled (thousands of repetitions)         │
-  │ Cost     │ LUÔN ≈0 (trivial effort)                        │
-  │ Domain   │ LUÔN real ✓ (physics, sensorimotor = confirmed) │
-  │ Source   │ LUÔN ③ Compiled (± ② Hippocampus for spatial)   │
-  │ PFC      │ ~0% (pure auto)                                 │
-  │ Visible  │ INVISIBLE — chỉ thấy khi BREAK                 │
+  │ Trust    │ ALWAYS positive + IMPLICIT (not conscious)       │
+  │ Strength │ ALWAYS compiled (thousands of repetitions)       │
+  │ Cost     │ ALWAYS ≈0 (trivial effort)                      │
+  │ Domain   │ ALWAYS real ✓ (physics/sensorimotor = confirmed)│
+  │ Source   │ ALWAYS ③ Compiled (± ② Hippocampus for spatial) │
+  │ PFC      │ ~0% (pure automatic)                            │
+  │ Visible  │ INVISIBLE — only visible when BROKEN            │
   ├──────────┼──────────────────────────────────────────────────┤
-  │ ⭐ Key   │ Micro-anchor CHỨNG MINH trust tồn tại ở MỌI    │
-  │ insight  │ level — kể cả nơi ta không "cảm nhận" niềm tin.│
-  │          │ Body INVEST trust vào hàng nghìn micro-schema    │
-  │          │ mỗi giây. Chỉ THẤY khi trust BỊ PHÁ            │
-  │          │ (keyboard lag, bước hụt, mẹ không bế).          │
+  │ ⭐ Key   │ Micro-anchors PROVE that trust exists at EVERY   │
+  │ insight  │ level — even where we don't "feel" trust.       │
+  │          │ Body INVESTS trust in thousands of micro-schemas │
+  │          │ per second. Only VISIBLE when trust IS BROKEN    │
+  │          │ (keyboard lag, missed step, mother doesn't hold).│
   └──────────┴──────────────────────────────────────────────────┘
 ```
 
 ---
 
-## SHORT-ANCHOR (phút → giờ)
+## SHORT-ANCHOR (minutes → hours)
 
-> PFC BẮT ĐẦU tham gia (nhẹ). Trust BẮT ĐẦU "cảm nhận được".
-> Cost > 0 nhưng VẪN thấp. Domain feedback NHANH (phút-giờ).
-> = Anchor-Schema "bình thường" mà ai cũng trải hàng chục lần/ngày.
+> PFC BEGINS to participate (lightly). Trust BEGINS to be felt.
+> Cost > 0 but STILL low. Domain feedback FAST (minutes-hours).
+> = The "everyday" Anchor-Schema that everyone experiences dozens of times a day.
 
 ```
-── S1. LÀM XONG BÀI TẬP → ĐƯỢC CHƠI GAME ──
+── S1. FINISH HOMEWORK → GET TO PLAY VIDEO GAMES ──
 
-  Situation: Trẻ 8 tuổi. Bố nói "làm xong bài → được chơi game 1 giờ."
+  Situation: Child, age 8. Father says "finish homework → 1 hour of video games."
 
-  Anchor: schema "xong bài → game" (reward schema injected bởi bố)
-  Trust: positive ("game CHẮC CHẮN sau khi xong")
-    → Trust source: authority inject (bố) + experience confirm (bố đã giữ lời trước)
-  Strength: MỜ → ĐANG BUILD
-    → Lần đầu bố nói: mờ (chưa compiled)
-    → Bố giữ lời 5 lần: đang build (pattern forming)
-    → Bố giữ lời 50 lần: compiled ("bố nói = thật")
-  Cost: THẤP (1-2 giờ effort, không risk)
-  Domain: real ✓ (game CÓ THẬT, bố CÓ THỂ cho chơi)
-  Source: ④ External Inject (bố) → ③ Compile dần
-  Outcome: làm xong → chơi game → melody smooth → anchor CONFIRM
+  Anchor: schema "done with homework → games" (reward schema injected by father)
+  Trust: positive ("games are GUARANTEED once I'm done")
+    → Trust source: authority inject (father) + confirmed by experience (father kept
+      his word before)
+  Strength: Faint → Building
+    → Father says it the first time: Faint (not yet compiled)
+    → Father keeps word 5 times: Building (pattern forming)
+    → Father keeps word 50 times: Compiled ("father's word = real")
+  Cost: LOW (1-2 hours effort, no risk)
+  Domain: real ✓ (games ARE REAL, father CAN let them play)
+  Source: ④ External Inject (father) → ③ Gradually compiling
+  Outcome: finishes → plays games → melody smooth → anchor CONFIRMED
 
-  ⭐ NOTE: Bố KHÔNG giữ lời → trust BREAK:
-    → "Xong rồi!" → bố: "thôi muộn rồi, mai chơi"
-    → Trust violation → lần sau bố hứa → trust THẤP hơn
-    → Lặp lại nhiều → compiled "bố hứa ≠ bố làm"
+  ⭐ NOTE: Father DOESN'T KEEP HIS WORD → trust BREAKS:
+    → "Done!" → father: "it's late now, play tomorrow"
+    → Trust violation → next time father promises → trust IS LOWER
+    → Repeated → compiled "father's promise ≠ father's action"
     → = Anchor-Schema.md §2 Trust violation → ripple
-    → = Ảnh hưởng KHÔNG CHỈ game — mà TẤT CẢ lời hứa từ bố
+    → = Effect extends NOT JUST to games — but to ALL promises from father
 
 
-── S2. NẤU CƠM CHO GIA ĐÌNH ──
+── S2. COOKING DINNER FOR THE FAMILY ──
 
-  Situation: Mẹ nấu cơm chiều. 45 phút. Gia đình ăn.
+  Situation: Mother cooking dinner. 45 minutes. Family eats.
 
-  Anchor: schema "nấu → gia đình ăn ngon → vui" (compiled routine)
-  Trust: positive + mixed (empathy-driven: reward = NGƯỜI KHÁC happy)
-  Strength: COMPILED (hàng nghìn bữa → auto-pilot)
-  Cost: THẤP (45 phút, effort quen, không risk)
-  Domain: real ✓ (nấu → đồ ăn → gia đình ăn = domain confirm mỗi bữa)
-  Source: ③ Compiled (routine hàng ngày) + empathy reward (thấy gia đình ăn)
+  Anchor: schema "cook → family eats well → happiness" (compiled routine)
+  Trust: positive + mixed (empathy-driven: reward = OTHER PEOPLE being happy)
+  Strength: COMPILED (thousands of meals → auto-pilot)
+  Cost: LOW (45 minutes, familiar effort, no risk)
+  Domain: real ✓ (cook → food → family eats = domain confirmed every meal)
+  Source: ③ Compiled (daily routine) + empathy reward (seeing family enjoy the meal)
   Outcome: melody smooth (routine + empathy reward)
 
   ⭐ NOTE: Empathy-driven anchor:
-    → Reward CHÍNH = KHÔNG phải "mình ăn ngon"
-    → Mà: "thấy chồng/con ăn ngon → mirror reward → opioid CỦA MÌNH"
-    → = Anchor-Schema reward qua Empathy-Mirror
-    → = Tại sao mẹ/bố nấu ăn KHÔNGcảm thấy "khổ" dù TỐN công
-      (vì reward = empathy, không phải self-reward)
-    → = "Anchor cho NGƯỜI KHÁC" pattern (quan sát 5 từ thảo luận trước)
+    → Primary reward = NOT "I eat well myself"
+    → But: "seeing husband/child enjoy the meal → mirror reward → MY OWN opioid"
+    → = Anchor-Schema reward VIA the Empathy Mirror
+    → = Why a mother or father cooking doesn't feel "like a burden" despite the effort
+      (because the reward is empathy, not self-reward)
+    → = "Anchor for SOMEONE ELSE" pattern (observation from earlier discussions)
 
 
-── S3. CHÁN → PFC SCAN → GỌI BẠN ──
+── S3. BORED → PFC SCANS → CALLS A FRIEND ──
 
-  Situation: Ngồi nhà chiều chủ nhật. Chán. Lướt phone. Vẫn chán.
-  PFC scan → "gọi bạn B?" → body preview → "có vẻ vui" → gọi.
+  Situation: Home on a Sunday afternoon. Bored. Scrolls through phone. Still bored.
+  PFC scans → "call friend B?" → body preview → "that sounds fun" → calls.
 
-  Anchor: schema "gọi bạn B → vui" (PFC-built, body preview confirm)
-  Trust: positive, NHẸ (chưa gọi → chưa confirm → trust vừa đủ để thử)
-  Strength: MỜ (vừa hình thành từ PFC scan → chưa compiled)
-  Cost: THẤP (gọi điện = effort nhỏ, risk ≈ 0)
-  Domain: real ✓ (bạn B CÓ THẬT, gọi ĐƯỢC)
-  Source: ① PFC (generate option) → body preview (confirm) → thành anchor
+  Anchor: schema "call friend B → have fun" (PFC-built, body preview confirms)
+  Trust: positive, LIGHT (hasn't called yet → not confirmed → just enough trust to try)
+  Strength: FAINT (just formed from PFC scan → not yet compiled)
+  Cost: LOW (a phone call = minimal effort, risk ≈ 0)
+  Domain: real ✓ (friend B IS REAL, call IS POSSIBLE)
+  Source: ① PFC (generates option) → body preview (confirms) → becomes anchor
   Outcome:
-    → Bạn B bắt máy, nói chuyện vui → anchor CONFIRM → trust BUILD
-    → Bạn B bận → anchor BREAK → PFC re-scan → next option
-  
-  ⭐ NOTE: Flow §1 bước ②③④⑤ diễn ra TRONG VÀI PHÚT:
-    → ② scan compiled: "scroll? xem TV?" → compiled nhưng KHÔNG ĐỦ (vẫn chán)
-    → ③ PFC generate: "gọi bạn B?" (Imagine-Final micro)
-    → ④ body evaluate: preview "nói chuyện B" → opioid nhẹ → CHỌN
-    → ⑤ anchor amplify: tay lấy phone → gọi
-    → = Flow NGẮN nhưng ĐẦY ĐỦ 6 bước
+    → Friend B picks up, good conversation → anchor CONFIRMED → trust BUILDS
+    → Friend B is busy → anchor BREAKS → PFC re-scans → next option
+
+  ⭐ NOTE: Flow from §1 steps ②③④⑤ plays out IN A FEW MINUTES:
+    → ② scan compiled: "scroll? watch TV?" → compiled but NOT ENOUGH (still bored)
+    → ③ PFC generates: "call friend B?" (micro Imagine-Final)
+    → ④ body evaluates: preview "talking with B" → light opioid → CHOOSE
+    → ⑤ anchor amplifies: hand picks up phone → dials
+    → = A SHORT flow but the FULL 6 steps
 
 
-── S4. ĐỌC XONG CHƯƠNG SÁCH → HIỂU CONCEPT ──
+── S4. FINISH A DIFFICULT CHAPTER → UNDERSTAND THE CONCEPT ──
 
-  Situation: Đang đọc sách framework. Chương khó. 2 giờ.
-  "Đọc xong chương này → sẽ hiểu concept."
+  Situation: Reading a framework book. Difficult chapter. 2 hours.
+  "Read through this chapter → will understand the concept."
 
-  Anchor: schema "đọc → hiểu" (compiled học tập + Imagine-Final "aha moment")
-  Trust: positive ("đã từng đọc → hiểu → reward", compiled experience)
-  Strength: COMPILED (người hay đọc: compiled "đọc = sẽ hiểu eventually")
-    → NHƯNG: mỗi chương MỚI = micro-uncertainty (chưa biết sẽ hiểu ĐÚNG khi nào)
-  Cost: THẤP-TRUNG BÌNH (2 giờ focus, PFC bandwidth, energy)
-  Domain: bán-real ("đọc → hiểu" THƯỜNG đúng nhưng KHÔNG guarantee per chương)
-  Source: ③ Compiled (kinh nghiệm đọc) + ① PFC (navigate difficult passages)
-  Outcome: hiểu → "aha!" → body reward → trust CONFIRM → tiếp chapter next
+  Anchor: schema "read → understand" (compiled learning + Imagine-Final "aha moment")
+  Trust: positive ("have read before → understood → reward, compiled experience")
+  Strength: COMPILED (for an avid reader: compiled "reading = will eventually understand")
+    → BUT: each NEW chapter = micro-uncertainty (don't know exactly WHEN understanding
+      will click)
+  Cost: LOW-MODERATE (2 hours of focus, PFC bandwidth, energy)
+  Domain: semi-real ("read → understand" USUALLY holds but NOT guaranteed per chapter)
+  Source: ③ Compiled (reading experience) + ① PFC (navigating difficult passages)
+  Outcome: understanding clicks → "aha!" → body reward → trust CONFIRMED → next chapter
 
   ⭐ NOTE: "Aha moment" = micro-anchor COMPLETE:
-    → Đọc → dissonance (chưa hiểu) → tiếp → suddenly HIỂU
-    → = Anchor "đọc → hiểu" CONFIRM → mini-melody smooth
-    → = Tại sao "aha" feel GIÀU hơn mức "information received"
-      → Vì: nó = ANCHOR COMPLETE + trust confirm + dissonance resolve
+    → Reading → dissonance (not yet understanding) → continue → suddenly GET IT
+    → = Anchor "read → understand" CONFIRMED → mini-melody smooth
+    → = Why the "aha" feels RICHER than just "information received"
+      → Because: it = ANCHOR COMPLETE + trust confirmed + dissonance resolved
     → = Melody-Arc.md: mini-arc complete → harmony
 
 
-── S5. TẬP GYM 30 PHÚT ──
+── S5. THIRTY MINUTES AT THE GYM ──
 
-  Situation: Đi gym. 30 phút cardio. Mồ hôi.
+  Situation: At the gym. 30 minutes cardio. Sweating.
 
-  Anchor: schema "tập → body khỏe → endorphin" (compiled + body-level)
-  Trust: positive (body CONFIRM mỗi lần tập → compiled trust)
-  Strength: TÙY NGƯỜI:
-    → Người tập lâu năm: COMPILED (auto — "đến giờ → đi" → không cần deliberate)
-    → Người mới tập: MỜ → ĐANG BUILD (cần PFC hold "phải đi tập")
-  Cost: THẤP-TRUNG BÌNH (30 phút + physical effort + phải đi tới gym)
-  Domain: real ✓ (exercise → endorphin → body khỏe = physiology confirmed 🟢)
-  Source: ③ Compiled (người quen) HOẶC ① PFC (người mới → deliberate decision)
-  Outcome: tập xong → endorphin → body reward → trust TĂNG
+  Anchor: schema "exercise → healthy body → endorphins" (compiled + body-level)
+  Trust: positive (body CONFIRMS every time → compiled trust)
+  Strength: DEPENDS ON THE PERSON:
+    → Long-time gym-goer: COMPILED (automatic — "it's time → go" → no deliberation)
+    → New gym-goer: FAINT → BUILDING (needs PFC hold: "I have to work out")
+  Cost: LOW-MODERATE (30 minutes + physical effort + getting to the gym)
+  Domain: real ✓ (exercise → endorphins → healthier body = physiology confirmed 🟢)
+  Source: ③ Compiled (experienced person) OR ① PFC (new person → deliberate decision)
+  Outcome: workout done → endorphins → body reward → trust INCREASES
 
-  ⭐ NOTE: Người MỚI tập vs người QUEN tập:
-    → Mới: Anchor = PFC-held (①) → strength MỜ → cost FEEL cao → dễ bỏ
-    → Quen: Anchor = compiled (③) → strength COMPILED → cost FEEL thấp → auto
-    → = CÙNG hành vi (gym 30 phút) → KHÁC anchor strength → KHÁC experience
-    → = Tại sao "21 ngày thành thói quen" (oversimplified nhưng HƯỚNG đúng):
-      PFC-held (①) → repeat → compile (③) → anchor strength TĂNG → auto
-    → = Chi phí THỰC của anchor = GIẢM DẦN khi strength tăng
+  ⭐ NOTE: A NEWCOMER vs a VETERAN at the gym:
+    → New: anchor = PFC-held (①) → strength FAINT → cost FEELS high → easy to quit
+    → Veteran: anchor = compiled (③) → strength COMPILED → cost FEELS low → automatic
+    → = SAME behavior (30 minutes at gym) → DIFFERENT anchor strength → DIFFERENT experience
+    → = Why "21 days to build a habit" (oversimplified but DIRECTIONALLY right):
+      PFC-held (①) → repeat → compile (③) → anchor strength INCREASES → automatic
+    → = ACTUAL cost of an anchor = DECREASES GRADUALLY as strength increases
 ```
 
 ```
 ═══════════════════════════════════════════════════════
-SHORT-ANCHOR — PATTERN TỔNG HỢP
+SHORT-ANCHOR — CROSS-CASE PATTERNS
 ═══════════════════════════════════════════════════════
 
   ┌──────────┬──────────────────────────────────────────────────┐
   │ Pattern  │ Observation                                      │
   ├──────────┼──────────────────────────────────────────────────┤
-  │ Trust    │ Bắt đầu VISIBLE — "tôi tin sẽ..." cảm nhận được│
-  │ Strength │ PHỔ: mờ (mới) → compiled (quen) per NGƯỜI       │
-  │ Cost     │ Thấp → trung bình (phút-giờ effort)            │
-  │ Domain   │ Phần lớn real ✓ (feedback NHANH → confirm/deny) │
-  │ Source   │ MIX: ③ compiled (routine) + ① PFC (tình huống mới)│
+  │ Trust    │ Starts VISIBLE — "I trust that..." is felt      │
+  │ Strength │ SPECTRUM: Faint (new) → Compiled (experienced)  │
+  │          │ per PERSON                                       │
+  │ Cost     │ Low → moderate (minutes-hours of effort)        │
+  │ Domain   │ Mostly real ✓ (feedback FAST → confirm/deny)   │
+  │ Source   │ MIX: ③ Compiled (routine) + ① PFC (new situations)│
   │ PFC      │ ~5-20% (monitor + occasional generate)          │
   ├──────────┼──────────────────────────────────────────────────┤
-  │ ⭐ Key   │ Short-anchor = NƠI "niềm tin" BẮT ĐẦU VISIBLE.│
-  │ insight  │ Trust violation ở đây → ripple effect RỘNG      │
-  │          │ (bố không giữ lời → ảnh hưởng MỌI lời hứa sau).│
-  │          │ Empathy-driven anchor XUẤT HIỆN (nấu cơm cho    │
-  │          │ gia đình = reward qua NGƯỜI KHÁC happy).         │
-  │          │ CÙNG hành vi → KHÁC strength → KHÁC experience  │
-  │          │ (gym mới vs gym quen = khác anchor hoàn toàn).  │
+  │ ⭐ Key   │ Short-anchor = WHERE "trust" FIRST BECOMES      │
+  │ insight  │ VISIBLE. Trust violation here → ripple effect   │
+  │          │ IS WIDE (father doesn't keep his word →         │
+  │          │ affects ALL future promises).                    │
+  │          │ Empathy-driven anchor APPEARS (cooking for the  │
+  │          │ family = reward VIA OTHER PEOPLE'S happiness).  │
+  │          │ SAME behavior → DIFFERENT strength → DIFFERENT  │
+  │          │ experience (new gym-goer vs veteran = completely │
+  │          │ different anchor).                               │
   └──────────┴──────────────────────────────────────────────────┘
 ```
 
 ---
 
-## MEDIUM-ANCHOR (ngày → tháng)
+## MEDIUM-ANCHOR (days → months)
 
-> Trust CẦN MẠNH HƠN vì cost TĂNG + domain feedback CHẬM HƠN.
-> PFC tham gia RÕ (plan, navigate, hold qua dissonance dài hơn).
-> BẮT ĐẦU có risk thật + opportunity cost thật.
-> = Nơi "niềm tin" BẮT ĐẦU bị THỬ THÁCH nghiêm túc.
+> Trust needs to be STRONGER because cost INCREASES + domain feedback IS SLOWER.
+> PFC participates CLEARLY (plan, navigate, hold through longer dissonance).
+> STARTS to have real risk + real opportunity cost.
+> = Where "trust" STARTS to be seriously CHALLENGED.
 
 ```
-── D1. HỌC XONG KHÓA ONLINE 3 THÁNG → CÓ SKILL MỚI ──
+── D1. FINISH A 3-MONTH ONLINE COURSE → GAIN A NEW SKILL ──
 
-  Situation: Dev muốn học Rust. Đăng ký khóa 3 tháng. Mỗi tối 2 giờ.
-  "Học xong → có thêm skill → career options tốt hơn."
+  Situation: Developer wants to learn Rust. Signs up for a 3-month course. 2 hours
+  each evening. "Finish the course → gain a skill → better career options."
 
   Anchor: schema "learn Rust → skill → career ↑" (PFC-built Imagine-Final)
   Trust: positive, MIXED source
-    → Evidence: "đã học Python thành công trước" → compiled trust "tôi learn được"
-    → Social: "Rust đang trending" → social proof
-    → PFC: "market cần Rust" → rational evaluation
-  Strength: ĐANG BUILD (mới bắt đầu → vài tuần → dần rõ)
-  Cost: TRUNG BÌNH
-    → Time: 3 tháng × 2 giờ/tối = ~180 giờ
-    → Energy: PFC bandwidth mỗi tối (sau ngày làm việc = mệt)
-    → Opportunity: 180 giờ KHÔNG chơi game / xem phim / nghỉ
-    → Risk: thấp (tiền khóa + thời gian, không risk career)
+    → Evidence: "already learned Python successfully" → compiled trust "I can learn"
+    → Social: "Rust is trending" → social proof
+    → PFC: "the market needs Rust" → rational evaluation
+  Strength: BUILDING (just starting → a few weeks → gradually clearer)
+  Cost: MODERATE
+    → Time: 3 months × 2 hours/evening = ~180 hours
+    → Energy: PFC bandwidth each evening (after a full workday = tired)
+    → Opportunity: 180 hours NOT gaming / watching movies / resting
+    → Risk: low (course fee + time, no career risk)
   Domain: real ✓ (Rust = real language, skill = real value)
-    → NHƯNG: "career options tốt hơn" = bán-real (likely, not guaranteed)
-  Source: ① PFC (chọn) + ④ social (trending) + ③ compiled ("tôi learn được")
+    → BUT: "better career options" = semi-real (likely, not guaranteed)
+  Source: ① PFC (chooses) + ④ Social (trending) + ③ Compiled ("I can learn")
   Outcome:
-    → Tuần 1-2: novelty → body reward → "hay đấy!" → trust BUILD
-    → Tuần 3-6: difficulty tăng (ownership/borrowing) → dissonance
-      → Trust ĐỦ? → tiếp. Trust KHÔNG ĐỦ? → "thôi quá khó" → bỏ.
-    → Tháng 3: hoàn thành → build mini-project → "ĐƯỢC!" → anchor COMPLETE
+    → Weeks 1-2: novelty → body reward → "this is interesting!" → trust BUILDS
+    → Weeks 3-6: difficulty increases (ownership/borrowing) → dissonance
+      → Trust SUFFICIENT? → continue. Trust INSUFFICIENT? → "too hard" → quit.
+    → Month 3: completes → builds a mini-project → "got it!" → anchor COMPLETE
 
-  ⭐ NOTE: "The Valley" (Melody-Arc.md §3.3) XUẤT HIỆN ở đây:
-    → Giữa khóa = xa nhất từ start VÀ finish → dissonance CAO NHẤT
-    → Trust CẦN ≥ Cost tại điểm này → nếu không → BỎ CUỘC
-    → = Tại sao nhiều người bỏ khóa online ở GIỮA (không phải đầu hay cuối)
-    → = Trust ban đầu (novelty) KHÔNG ĐỦ cho cost GIỮA (dissonance peak)
+  ⭐ NOTE: "The Valley" (Melody-Arc.md §3.3) APPEARS here:
+    → Mid-course = furthest from both start AND finish → dissonance HIGHEST
+    → Trust NEEDS ≥ Cost at this point → if not → QUIT
+    → = Why so many people quit online courses IN THE MIDDLE (not at the start or end)
+    → = Initial trust (novelty) is NOT ENOUGH for the MIDDLE cost (dissonance peak)
 
 
-── D2. HOÀN THÀNH PROJECT LỚN Ở CÔNG TY — 2 THÁNG ──
+── D2. COMPLETING A MAJOR PROJECT AT WORK — 2 MONTHS ──
 
-  Situation: Sếp giao project lớn. Deadline 2 tháng. Team 5 người.
-  "Hoàn thành → sếp đánh giá tốt → thưởng/thăng tiến."
+  Situation: Manager assigns a large project. Deadline in 2 months. Team of 5.
+  "Complete the project → manager rates us well → bonus/promotion."
 
-  Anchor: schema "hoàn thành project → recognition + reward" (mixed sources)
-  Trust: MIXED (positive + negative cùng lúc)
-    → Positive: "xong → thưởng → career ↑" (reward phía trước)
-    → Negative: "không xong → sếp đánh giá kém → risk bị layoff" (threat)
-    → = 2 trust CÙNG HỖ TRỢ anchor → anchor MẠNH HƠN single trust
-  Strength: ĐANG BUILD → COMPILED DẦN
-    → Ngày 1: PFC hold ("phải xong project")
-    → Tuần 2: daily routine formed → dần compiled
-    → Tháng 2: gần deadline → compiled + threat amplify → CỰC MẠNH
-  Cost: TRUNG BÌNH → CAO
-    → Time: 2 tháng focus
-    → Energy: PFC intensive (coordinate team + solve problems)
-    → Risk: career risk nếu fail
+  Anchor: schema "complete project → recognition + reward" (mixed sources)
+  Trust: MIXED (positive + negative simultaneously)
+    → Positive: "done → bonus → career ↑" (reward ahead)
+    → Negative: "not done → bad review → risk of layoff" (threat)
+    → = 2 trusts BOTH SUPPORTING the anchor → anchor STRONGER than single trust
+  Strength: BUILDING → GRADUALLY COMPILED
+    → Day 1: PFC holds ("must finish the project")
+    → Week 2: daily routine forms → gradually compiled
+    → Month 2: near deadline → compiled + threat amplifies → EXTREMELY STRONG
+  Cost: MODERATE → HIGH
+    → Time: 2 months of focus
+    → Energy: PFC-intensive (coordinate team + solve problems)
+    → Risk: career risk if fail
     → Opportunity: sacrifice personal time, connection
-  Domain: real ✓ (project = deliverable thật, sếp đánh giá = domain feedback thật)
-  Source: ④ External (sếp giao) + ① PFC (plan) + ③ Compile dần (daily routine)
-  Outcome: hoàn thành → reward → melody smooth → trust CONFIRM cho project tiếp
+  Domain: real ✓ (project = real deliverable, manager's review = real domain feedback)
+  Source: ④ External (manager assigns) + ① PFC (plan) + ③ Gradually compiled (daily routine)
+  Outcome: completes → reward → melody smooth → trust CONFIRMED for the next project
 
-  ⭐ NOTE: Positive + Negative trust CÙNG LÚC:
-    → = Threat.md + Novelty.md: 2 drives CÙNG HƯỚNG → intensity CAO
-    → = Tại sao deadline = EFFECTIVE: PUSH (threat) + PULL (reward) = cùng anchor
-    → = NHƯNG: nếu CHỈ CÓ negative trust (threat only → không reward):
-      → Xong → relief ("phù") nhưng KHÔNG "xứng"
+  ⭐ NOTE: Positive + Negative trust SIMULTANEOUSLY:
+    → = Threat.md + Novelty.md: 2 drives IN THE SAME DIRECTION → intensity HIGH
+    → = Why deadlines = EFFECTIVE: PUSH (threat) + PULL (reward) = same anchor
+    → = BUT: if ONLY negative trust (threat only → no reward):
+      → Done → relief ("phew") but NOT "earned it"
       → = Unsustainable long-term (Anchor-Schema.md §2 negative trust)
 
 
-── D3. TIẾT KIỆM 6 THÁNG → MUA ĐƯỢC THỨ MONG MUỐN ──
+── D3. SAVING FOR 6 MONTHS → BUYING SOMETHING DESIRED ──
 
-  Situation: Muốn mua laptop mới. 6 tháng tiết kiệm 3 triệu/tháng.
-  "6 tháng → đủ tiền → mua → upgrade workflow."
+  Situation: Wants to buy a new laptop. 6 months saving 3M VND/month.
+  "6 months → enough money → buy → upgrade workflow."
 
-  Anchor: schema "tiết kiệm → mua laptop → upgrade" (PFC plan + body preview)
-  Trust: positive ("arithmetic chắc chắn: 3tr × 6 = 18tr = đủ")
-    → Trust ĐẶC BIỆT CAO vì: domain = ARITHMETIC (cực real, cực verifiable)
-    → Khác "cố gắng → thành công" (bán-real): "tiết kiệm → đủ tiền" = CHẮC CHẮN
-  Strength: ĐANG BUILD → COMPILED
-    → Tháng 1: PFC hold "nhịn chi tiêu"
-    → Tháng 3: thấy số dư TĂNG → body confirm → trust TĂNG → compile
-    → Tháng 5: gần đủ → compiled + excitement → anchor CỰC MẠNH
-  Cost: TRUNG BÌNH
-    → Time: 6 tháng
-    → Sacrifice: nhịn chi tiêu (opportunity cost hàng tháng)
-    → Risk: CỰC THẤP (tiền vẫn là tiền, laptop vẫn có bán)
-  Domain: real ✓ (arithmetic + commerce = domain cực rõ)
-  Source: ① PFC (plan) → ③ compile dần (monthly savings routine)
-  Outcome: mua laptop → body reward (new tool) → melody smooth
+  Anchor: schema "save → buy laptop → upgrade" (PFC plan + body preview)
+  Trust: positive ("arithmetic is certain: 3M × 6 = 18M = enough")
+    → Trust is ESPECIALLY HIGH because: domain = ARITHMETIC (extremely real, extremely verifiable)
+    → Unlike "work hard → succeed" (semi-real): "save → enough money" = CERTAIN
+  Strength: BUILDING → COMPILED
+    → Month 1: PFC holds ("resist spending")
+    → Month 3: balance INCREASING → body confirms → trust INCREASES → compiles
+    → Month 5: almost there → compiled + excitement → anchor EXTREMELY STRONG
+  Cost: MODERATE
+    → Time: 6 months
+    → Sacrifice: cutting spending (monthly opportunity cost)
+    → Risk: EXTREMELY LOW (money is still money, laptops are still for sale)
+  Domain: real ✓ (arithmetic + commerce = extremely clear domain)
+  Source: ① PFC (plan) → ③ Gradually compiled (monthly savings routine)
+  Outcome: buys laptop → body reward (new tool) → melody smooth
 
-  ⭐ NOTE: Domain ARITHMETIC = trust CAO NHẤT:
-    → Vì: verifiable 100%, không uncertainty
-    → "3 × 6 = 18" = domain feedback CHẮC CHẮN mỗi tháng (check số dư)
-    → = Tại sao mục tiêu TÀI CHÍNH dễ trust hơn mục tiêu TRỪU TƯỢNG
-      ("tiết kiệm 18tr" = rõ ràng vs "trở thành người tốt hơn" = mờ)
-    → = Cost concept: cost THẤP (risk ≈ 0) + trust CAO (domain real) = dễ hold
+  ⭐ NOTE: ARITHMETIC domain = HIGHEST trust:
+    → Because: 100% verifiable, no uncertainty
+    → "3 × 6 = 18" = CERTAIN domain feedback every month (check balance)
+    → = Why FINANCIAL goals are easier to trust than ABSTRACT goals
+      ("save 18M" = clear vs "become a better person" = fuzzy)
+    → = Cost principle: LOW cost (risk ≈ 0) + HIGH trust (real domain) = easy to hold
 
 
-── D4. TẬP GYM 3 THÁNG → BODY THAY ĐỔI ──
+── D4. 3 MONTHS OF GYM → VISIBLE BODY CHANGE ──
 
-  Situation: Bắt đầu tập gym. Mục tiêu: 3 tháng → body visible change.
+  Situation: Starting the gym. Goal: 3 months → visible body change.
 
-  Anchor: schema "tập đều → body thay đổi" (PFC + social + domain knowledge)
-  Trust: positive, NHƯNG domain feedback CHẬM
-    → Domain: physiology = real ✓ (tập → muscle grow)
-    → NHƯNG: visible change = 6-12 TUẦN (không ngay)
-    → = Trust phải HOLD qua 6 tuần KHÔNG CÓ visible feedback
-    → = "Trust gap" — khoảng thời gian trust KHÔNG ĐƯỢC REINFORCE bởi results
-  Strength: MỜ → ĐANG BUILD (nếu không bỏ)
-  Cost: TRUNG BÌNH
-    → Time: 3 tháng × 4-5 buổi/tuần × 1 giờ
+  Anchor: schema "train consistently → body changes" (PFC + social + domain knowledge)
+  Trust: positive, BUT domain feedback IS SLOW
+    → Domain: physiology = real ✓ (exercise → muscle grows)
+    → BUT: visible change = 6-12 WEEKS (not immediate)
+    → = Trust must HOLD through 6 weeks WITH NO visible feedback
+    → = "Trust Gap" — the period when trust IS NOT REINFORCED by results
+  Strength: FAINT → BUILDING (if not abandoned)
+  Cost: MODERATE
+    → Time: 3 months × 4-5 sessions/week × 1 hour
     → Energy: physical effort + soreness + routine change
-    → Opportunity: 60+ giờ
+    → Opportunity: 60+ hours
   Domain: real ✓ (exercise science = verified 🟢)
-  Source: ① PFC (decision) + ④ social (gym culture, before/after photos)
-          + ③ compile dần (nếu routine form)
+  Source: ① PFC (decision) + ④ Social (gym culture, before/after photos)
+          + ③ Gradually compiled (if routine forms)
   Outcome:
-    → Tuần 1-2: soreness → "đau quá" → trust TEST
-    → Tuần 3-6: CHƯA THẤY change → "có tác dụng không?" → trust GIẢM
-      → = Trust gap = NGUY HIỂM NHẤT
-      → NẾU social support (gym buddy, trainer) → bridge qua gap
-      → NẾU solo + không thấy results → BỎ (anchor collapse)
-    → Tuần 8-12: visible change → body confirm → trust JUMP → compile
+    → Weeks 1-2: soreness → "this hurts" → trust TESTED
+    → Weeks 3-6: STILL NO visible change → "is this working?" → trust DECREASES
+      → = Trust gap = MOST DANGEROUS PERIOD
+      → IF social support (gym buddy, trainer) → bridges through the gap
+      → IF solo + no visible results → QUIT (anchor collapses)
+    → Weeks 8-12: visible change → body confirms → trust JUMPS → compiles
 
-  ⭐ NOTE: "Trust Gap" = khoảng trống giữa START và FIRST DOMAIN FEEDBACK:
-    → Domain real ✓ + NHƯNG feedback CHẬM → trust phải hold KHÔNG CÓ evidence
-    → = Giai đoạn DỄ BỎ NHẤT (vì trust build on evidence → CHƯA CÓ evidence)
-    → = Tại sao "support" (trainer, buddy, social) = QUAN TRỌNG ở giai đoạn này:
-      → Social trust (nguồn ④) BRIDGE qua trust gap → cho tới khi domain confirm
-    → = Melody-Arc.md §4 ④ Social Mirror: "người đi trước share tiến trình"
+  ⭐ NOTE: "Trust Gap" = the gap between START and FIRST DOMAIN FEEDBACK:
+    → Domain real ✓ + BUT feedback IS SLOW → trust must hold WITH NO evidence
+    → = The EASIEST PERIOD TO QUIT (trust builds on evidence → NO evidence yet)
+    → = Why "support" (trainer, buddy, social) = IMPORTANT in this period:
+      → Social trust (Source ④) BRIDGES through the trust gap → until domain confirms
+    → = Melody-Arc.md §4 ④ Social Mirror: "those who went before share their progress"
 
 
-── D5. SINH VIÊN — THI CUỐI KỲ, HỌC ÔN 3 TUẦN ──
+── D5. STUDENT — FINAL EXAMS, STUDYING FOR 3 WEEKS ──
 
-  Situation: 3 tuần trước thi cuối kỳ. Nhiều môn. Phải ôn.
-  "Ôn đủ → đỗ → lên lớp → career path tiếp tục."
+  Situation: 3 weeks before final exams. Many subjects. Must study.
+  "Study enough → pass → advance → career path continues."
 
-  Anchor: schema "ôn → đỗ → lên lớp" (compiled academic + threat + reward)
-  Trust: MIXED MẠNH (positive + negative CÙNG ANCHOR, cùng hướng)
-    → Positive: "đỗ → tự hào + bố mẹ vui + career tiếp" (reward)
-    → Negative: "trượt → mất năm + bố mẹ buồn + xấu hổ" (threat)
-    → = 2 trust REINFORCE → anchor MẠNH
-  Strength: COMPILED (academic schema từ 12+ năm đi học)
-    → "Thi → ôn" = compiled deep → auto-activate khi gần thi
-    → NHƯNG: mỗi kỳ thi MỚI = micro-uncertainty (môn này khó cỡ nào?)
-  Cost: TRUNG BÌNH
-    → Time: 3 tuần intensive
+  Anchor: schema "study → pass → advance" (compiled academic + threat + reward)
+  Trust: MIXED STRONG (positive + negative SAME ANCHOR, same direction)
+    → Positive: "pass → pride + parents happy + career ahead" (reward)
+    → Negative: "fail → lose a year + parents disappointed + shame" (threat)
+    → = 2 trusts REINFORCE → anchor STRONG
+  Strength: COMPILED (academic schema from 12+ years of schooling)
+    → "Exam → study" = compiled deep → auto-activates when exam approaches
+    → BUT: each NEW exam = micro-uncertainty (how hard is this subject?)
+  Cost: MODERATE
+    → Time: 3 weeks intensive
     → Energy: PFC bandwidth (memorize + understand + practice)
     → Sacrifice: social time, entertainment, sleep (!)
-    → Risk: vừa (trượt = real consequence, nhưng KHÔNG = mất mạng)
-  Domain: real ✓ (ôn → điểm cao = strong correlation, verified per exam)
-  Source: ③ Compiled (12+ năm) + ④ External (system giáo dục, bố mẹ)
-          + ① PFC (plan ôn cụ thể per môn)
-  Outcome: đỗ → trust CONFIRM → compiled THÊM → "tôi làm được" → arc tiếp
+    → Risk: moderate (failing = real consequence, but NOT life-threatening)
+  Domain: real ✓ (study → high score = strong correlation, verified per exam)
+  Source: ③ Compiled (12+ years) + ④ External (education system, parents)
+          + ① PFC (specific study plan per subject)
+  Outcome: passes → trust CONFIRMED → further compiled → "I can do it" → next arc
 
-  ⭐ NOTE: SACRIFICE SLEEP = anchor override body-base:
-    → Anchor "đỗ" MẠNH → override L1 "cần ngủ"
-    → = Anchor-Schema CÓ THỂ override body-base NẾU trust đủ mạnh
-    → = Threat.md §5 ④: threat override body-base warning
-    → = EFFECTIVE ngắn hạn (đỗ thật) nhưng cost BODY (neural wear)
-    → = Tại sao thức đêm ôn thi = "work nhưng không sustainable"
+  ⭐ NOTE: SACRIFICING SLEEP = anchor overriding body-base:
+    → Anchor "pass" STRONG → overrides L1 "need sleep"
+    → = Anchor-Schema CAN override body-base IF trust is strong enough
+    → = Threat.md §5 ④: threat overrides body-base warning
+    → = EFFECTIVE short-term (actually passes) but BODY COST (neural wear)
+    → = Why staying up all night to study = "works but is not sustainable"
 ```
 
 ```
 ═══════════════════════════════════════════════════════
-MEDIUM-ANCHOR — PATTERN TỔNG HỢP
+MEDIUM-ANCHOR — CROSS-CASE PATTERNS
 ═══════════════════════════════════════════════════════
 
   ┌──────────┬──────────────────────────────────────────────────┐
   │ Pattern  │ Observation                                      │
   ├──────────┼──────────────────────────────────────────────────┤
-  │ Trust    │ VISIBLE + TESTED — phải hold qua dissonance thật│
-  │ Strength │ PHỔ: PFC-held → build → compile (trajectory)    │
-  │ Cost     │ Trung bình (tuần-tháng effort, real sacrifice)  │
-  │ Domain   │ Real → bán-real (feedback CHẬM hơn short)       │
-  │ Source   │ MIX nhiều: PFC + compiled + social + external   │
-  │ PFC      │ ~15-40% (plan + hold + navigate dissonance)     │
+  │ Trust    │ VISIBLE + TESTED — must hold through real        │
+  │          │ dissonance                                        │
+  │ Strength │ SPECTRUM: PFC-held → Building → Compiled (over  │
+  │          │ time)                                            │
+  │ Cost     │ Moderate (weeks-months of effort, real sacrifice)│
+  │ Domain   │ Real → semi-real (feedback SLOWER than short)    │
+  │ Source   │ MULTIPLE: PFC + Compiled + Social + External     │
+  │ PFC      │ ~15-40% (plan + hold + navigate dissonance)      │
   ├──────────┼──────────────────────────────────────────────────┤
-  │ ⭐ New   │ "TRUST GAP" xuất hiện: khoảng trống giữa start │
-  │ concepts │ và first domain feedback → DỄ BỎ NHẤT.          │
-  │          │ "The Valley" (Melody-Arc §3.3) = trust gap      │
-  │          │ ở medium-long scale.                             │
+  │ ⭐ New   │ "TRUST GAP" appears: the gap between start and  │
+  │ concepts │ first domain feedback → EASIEST PERIOD TO QUIT.  │
+  │          │ "The Valley" (Melody-Arc §3.3) = the trust gap   │
+  │          │ at medium-long scale.                            │
   │          │                                                  │
-  │          │ POSITIVE + NEGATIVE trust CÙNG ANCHOR:           │
+  │          │ POSITIVE + NEGATIVE trust ON THE SAME ANCHOR:   │
   │          │ deadline = push (threat) + pull (reward)         │
-  │          │ → MẠNH hơn single trust.                        │
+  │          │ → STRONGER than single trust.                    │
   │          │                                                  │
-  │          │ DOMAIN ARITHMETIC = trust CAO NHẤT              │
-  │          │ (verifiable 100% → dễ hold → ít bỏ cuộc).      │
+  │          │ ARITHMETIC DOMAIN = HIGHEST TRUST               │
+  │          │ (100% verifiable → easy to hold → rarely quits).│
   │          │                                                  │
-  │          │ ANCHOR CÓ THỂ OVERRIDE BODY-BASE                │
-  │          │ (thức đêm ôn thi = work nhưng cost body).       │
+  │          │ ANCHOR CAN OVERRIDE BODY-BASE                   │
+  │          │ (all-night study = works but body cost).         │
   └──────────┴──────────────────────────────────────────────────┘
 ```
 
 ---
 
-## LONG-ANCHOR (năm → đời)
+## LONG-ANCHOR (years → lifetime)
 
-> Trust phải CỰC MẠNH vì cost CỰC CAO + domain feedback CỰC CHẬM.
-> Phần lớn = BÁN-REAL (không guarantee). PFC tham gia NẶNG.
-> Anchor thường = IDENTITY ("tôi LÀ người làm X").
-> = Nơi "niềm tin" trở thành "con người" — và collapse = existential crisis.
+> Trust must be EXTREMELY STRONG because cost is EXTREME + domain feedback is EXTREMELY SLOW.
+> Most are SEMI-REAL (not guaranteed). PFC participates HEAVILY.
+> Anchor often = IDENTITY ("I AM the person who does X").
+> = Where "trust" becomes "who you are" — and collapse = existential crisis.
 
 ```
-── L1. SINH VIÊN NGHÈO → LÀM VIỆC → THOÁT NGHÈO → BỐ MẸ VUI ──
+── L1. POOR STUDENT → WORK → ESCAPE POVERTY → PARENTS' HAPPINESS ──
 
-  Situation: VN context. Nhà nghèo. Ra trường. Làm 12h/ngày.
-  "Cố gắng → giàu → ấm no → bố mẹ hết khổ."
+  Situation: Vietnamese context. Poor background. After graduation. Working 12 hours/day.
+  "Work hard → become wealthy → comfortable life → parents no longer suffer."
 
-  Anchor: schema "cố gắng → giàu → bố mẹ vui" (MULTI-LAYER anchor)
-    → Layer 1: "cố → giàu" (self-reward: tiền, comfort)
-    → Layer 2: "giàu → bố mẹ vui" (empathy-reward: NGƯỜI KHÁC happy)
-    → Layer 3: "bù đắp quá khứ" (guilt-resolve: bố mẹ vất vả → mình phải trả)
-    → = 3 layers REINFORCE → anchor CỰC MẠNH
+  Anchor: schema "work hard → wealthy → parents happy" (MULTI-LAYER anchor)
+    → Layer 1: "work → wealth" (self-reward: money, comfort)
+    → Layer 2: "wealth → parents happy" (empathy-reward: OTHER PEOPLE happy)
+    → Layer 3: "make up for the past" (guilt-resolve: parents worked hard → I must pay back)
+    → = 3 layers REINFORCE → anchor EXTREMELY STRONG
   Trust: MIXED (positive + negative + empathy)
-  Strength: COMPILED DEEP (từ childhood experience "nghèo = khổ")
-  Cost: CỰC CAO (năm→thập kỷ, 12h/ngày, sacrifice health+relationship)
-  Domain: BÁN-REAL ("cố → giàu" partially true, NOT guarantee)
-  Source: ③ Compiled (childhood poverty) + ④ External (VN culture) + ① PFC
-  Outcome: best → giàu thật / common → "chưa đủ" / worst → burnout collapse
+  Strength: COMPILED DEEP (from childhood experience "poverty = suffering")
+  Cost: EXTREME (years→decades, 12 hours/day, sacrifice health + relationships)
+  Domain: SEMI-REAL ("work hard → become wealthy" partially true, NOT guaranteed)
+  Source: ③ Compiled (childhood poverty) + ④ External (Vietnamese culture) + ① PFC
+  Outcome: best case → actually becomes wealthy / common → "not yet enough" /
+           worst case → burnout collapse
 
-  ⭐ NOTE: "CỐ GẮNG → THÀNH CÔNG" = anchor BÁN-REAL phổ biến nhất
+  ⭐ NOTE: "WORK HARD → SUCCEED" = the most common SEMI-REAL anchor
 
 
-── L2. BUILD STARTUP — 3-5 NĂM ──
+── L2. BUILDING A STARTUP — 3-5 YEARS ──
 
-  Situation: Founder. Product idea. Team 5 người. Runway 18 tháng.
+  Situation: Founder. Product idea. Team of 5. 18-month runway.
 
   Anchor: schema "build → fit → scale → freedom" (PFC-built vision)
-  Trust: MIXED, THAY ĐỔI THEO PHASE
-  Strength: PFC-HELD → BUILD → COMPILED + IDENTITY ("tôi là founder")
-  Cost: CỰC CAO (3-5 năm all-in, tiền, relationship, health, identity risk)
-  Domain: BÁN-REAL (~90% fail)
-  Source: ① PFC (vision) + ③ compile dần (identity) + ④ social (startup culture)
+  Trust: MIXED, CHANGING BY PHASE
+  Strength: PFC-HELD → BUILDS → COMPILED + IDENTITY ("I am a founder")
+  Cost: EXTREME (3-5 years all-in, money, relationships, health, identity risk)
+  Domain: SEMI-REAL (~90% fail)
+  Source: ① PFC (vision) + ③ Gradually compiled (identity) + ④ Social (startup culture)
   Outcome: success ~10% / pivot ~30% / fail ~60% → identity crisis
 
-  ⭐ NOTE: IDENTITY = anchor COMPILED thành "tôi LÀ":
-    → BỎ anchor = MẤT IDENTITY = existential threat = bẫy 3 lớp
+  ⭐ NOTE: IDENTITY = anchor COMPILED into "I AM":
+    → Abandoning anchor = LOSING IDENTITY = existential threat = 3-layer trap
 
 
-── L3. JENSEN HUANG — "GPU CÓ TIỀM NĂNG" — 30+ NĂM ──
+── L3. JENSEN HUANG — "GPU HAS POTENTIAL" — 30+ YEARS ──
 
-  Situation: 1993. "GPU sẽ quan trọng cho computing." 30 năm sau: trillion-dollar.
+  Situation: 1993. "GPU will be essential for computing." 30 years later: trillion-dollar company.
 
-  Anchor: schema "GPU = nền tảng computing tương lai"
-  Trust: BOOTSTRAP — 1993 vừa → 2000s tăng → 2012 nhảy → 2023 = 100%
-  Strength: PFC-HELD → COMPILED DEEP (30 năm)
-  Cost: CỰC CAO (cả đời, multiple near-death moments)
+  Anchor: schema "GPU = foundation of future computing"
+  Trust: BOOTSTRAPPED — faint in 1993 → grows through 2000s → jumps 2012 →
+         100% by 2023
+  Strength: PFC-HELD → COMPILED DEEP (30 years)
+  Cost: EXTREME (a whole career, multiple near-death moments)
   Domain: real ✓ (physics of parallel computing)
-  Source: ① PFC (analysis) + ③ compile dần + domain feedback LOOP
+  Source: ① PFC (analysis) + ③ Gradually compiled + domain feedback LOOP
 
   ⭐ NOTE: TRUST BOOTSTRAP = positive loop:
-    → trust vừa → results → trust TĂNG → invest MORE → more results
-    → KHÁC Delusion (trust CAO + results ✗ → rationalize)
+    → faint trust → results → trust INCREASES → invest MORE → more results
+    → DIFFERENT from Delusion (high trust + results ✗ → rationalize)
 
 
-── L4. BỐ MẸ NUÔI CON — 20+ NĂM ──
+── L4. PARENTS RAISING A CHILD — 20+ YEARS ──
 
-  Situation: Có con. Nuôi dạy 20+ năm. "Con thành người tốt."
+  Situation: Having a child. Raising them for 20+ years. "Child becomes a good person."
 
-  Anchor: schema "nuôi con tốt → con thành người tốt"
-  Trust: MIXED PHỨC TẠP (positive + negative + empathy + unfalsifiable)
-  Strength: COMPILED CỰC SÂU (L0 Protect Gene + Attachment + Identity)
-  Cost: CỰC CAO (20+ năm, KHÔNG kiểm soát outcome)
-  Domain: BÁN-REAL (nurture matters nhưng con = independent person)
+  Anchor: schema "raise child well → child becomes a good person"
+  Trust: MIXED COMPLEX (positive + negative + empathy + unfalsifiable)
+  Strength: COMPILED EXTREMELY DEEP (L0 Protect Gene + Attachment + Identity)
+  Cost: EXTREME (20+ years, NO control over outcome)
+  Domain: SEMI-REAL (nurture matters but child = an independent person)
   Source: ③ Compiled (biological) + ① PFC (parenting choices)
 
-  ⭐ NOTE: ANCHOR MẠNH NHẤT mà KHÔNG KIỂM SOÁT OUTCOME:
-    → = Tại sao parenting = anchor dễ gây anxiety NHẤT
+  ⭐ NOTE: STRONGEST ANCHOR WITH NO CONTROL OVER OUTCOME:
+    → = Why parenting = the anchor most likely to cause anxiety
 
 
-── L5. EINSTEIN — "VŨ TRỤ CÓ QUY LUẬT THỐNG NHẤT" — CẢ ĐỜI ──
+── L5. EINSTEIN — "THE UNIVERSE HAS A UNIFIED LAW" — A WHOLE LIFETIME ──
 
-  Situation: "Vũ trụ CÓ quy luật đẹp, thống nhất, có thể tìm ra."
+  Situation: "The universe DOES have a beautiful, unified law that can be found."
 
   Anchor: schema "unified physics EXISTS"
   Trust: FAITH + EVIDENCE MIX
-  Strength: COMPILED CỰC SÂU (identity level)
-  Cost: CỰC CAO (cả đời, unified theory CHƯA hoàn thành khi chết)
-  Domain: EDGE-REAL ("vũ trụ có quy luật" ✓, "unified theory" = CHƯA BIẾT)
-  Source: ③ Compiled (childhood fascination) + ① PFC (math reasoning)
+  Strength: COMPILED EXTREMELY DEEP (identity level)
+  Cost: EXTREME (an entire lifetime, unified theory INCOMPLETE at death)
+  Domain: EDGE-REAL ("the universe has laws" ✓, "unified theory" = UNKNOWN)
+  Source: ③ Compiled (childhood fascination) + ① PFC (mathematical reasoning)
 
-  ⭐ NOTE: ANCHOR KHÔNG CẦN RESOLVE ĐỂ DRIVE:
-    → "Mục đích" ≠ "mục tiêu" (hướng ≠ endpoint)
-    → Life-anchor = HƯỚNG vô hạn → drive vô hạn
+  ⭐ NOTE: ANCHOR DOESN'T NEED TO RESOLVE TO DRIVE:
+    → "Purpose" ≠ "goal" (direction ≠ endpoint)
+    → Life-anchor = INFINITE direction → infinite drive
 ```
 
 ```
 ═══════════════════════════════════════════════════════
-LONG-ANCHOR — PATTERN TỔNG HỢP
+LONG-ANCHOR — CROSS-CASE PATTERNS
 ═══════════════════════════════════════════════════════
 
   ┌──────────┬──────────────────────────────────────────────────┐
   │ Pattern  │ Observation                                      │
   ├──────────┼──────────────────────────────────────────────────┤
-  │ Trust    │ MIXED + MULTI-LAYER + thay đổi theo phase       │
-  │ Strength │ PFC-held → compile → IDENTITY level             │
-  │ Cost     │ CỰC CAO (năm-đời, sacrifice real, risk real)   │
-  │ Domain   │ BÁN-REAL → EDGE (feedback CHẬM, KHÔNG guarantee)│
-  │ Source   │ ① PFC + ③ compile + ④ external + empathy MIX   │
-  │ PFC      │ Variable: dormant khi smooth, CỰC MẠNH khi crisis│
+  │ Trust    │ MIXED + MULTI-LAYER + changes by phase          │
+  │ Strength │ PFC-held → Compiled → IDENTITY level            │
+  │ Cost     │ EXTREME (years-lifetime, real sacrifice, real   │
+  │          │ risk)                                            │
+  │ Domain   │ SEMI-REAL → EDGE (feedback SLOW, NOT guaranteed)│
+  │ Source   │ ① PFC + ③ Compiled + ④ External + Empathy MIX  │
+  │ PFC      │ Variable: dormant when smooth, EXTREMELY ACTIVE  │
+  │          │ during crisis                                    │
   ├──────────┼──────────────────────────────────────────────────┤
-  │ ⭐ New   │ IDENTITY FORMATION: anchor lâu → "tôi LÀ"      │
+  │ ⭐ New   │ IDENTITY FORMATION: sustained anchor → "I AM"   │
   │ concepts │ TRUST BOOTSTRAP: trust → results → trust ↑      │
   │          │ UNCONTROLLABLE OUTCOME: parenting anxiety        │
-  │          │ ANCHOR KHÔNG CẦN RESOLVE: hướng ≠ endpoint      │
-  │          │ "CỐ GẮNG → THÀNH CÔNG" = anchor bán-real #1    │
+  │          │ ANCHOR DOESN'T NEED TO RESOLVE: direction ≠     │
+  │          │ endpoint                                         │
+  │          │ "WORK HARD → SUCCEED" = semi-real anchor #1    │
   └──────────┴──────────────────────────────────────────────────┘
 ```
 
 ---
 
-## SPECIAL CASES — ANCHOR ĐẶC BIỆT
+## SPECIAL CASES — ANCHORS OUTSIDE THE NORMAL SPECTRUM
 
-> Không nằm gọn trên phổ ngắn→dài.
-> Mỗi case = 1 PATTERN đặc biệt đáng phân tích riêng.
+> These don't sit neatly on the short→long spectrum.
+> Each case = a SPECIAL PATTERN worth analyzing separately.
 
 ```
-── X1. TÔN GIÁO — UNFALSIFIABLE ANCHOR ──
+── X1. RELIGION — UNFALSIFIABLE ANCHOR ──
 
-  Situation: Tín đồ Công giáo. Đi lễ mỗi tuần. Cầu nguyện mỗi tối.
+  Situation: A Catholic. Mass every week. Prayer every evening.
 
-  Anchor: schema "Chúa + thiên đàng + ý nghĩa" (compiled qua ritual)
-  Trust: CỰC CAO → vô hạn (unfalsifiable, trust TĂNG KHI KHỔ)
-  Strength: COMPILED CỰC SÂU (Nguồn ④ Full Combo: repeat+ritual+emotion+social)
-  Cost: varies (nhẹ: đi lễ / cực đoan: tử vì đạo)
-  Domain: UNFALSIFIABLE (trust KHÔNG BAO GIỜ bị domain phá)
-  Source: ④ External Inject → ③ Compile deep
-  Outcome: body calm + meaning + community / risk mismatch khi cực đoan
+  Anchor: schema "God + heaven + meaning" (compiled through ritual)
+  Trust: EXTREMELY HIGH → infinite (unfalsifiable, trust INCREASES DURING SUFFERING)
+  Strength: COMPILED EXTREMELY DEEP (Source ④ Full Combo: repeat+ritual+emotion+social)
+  Cost: varies (light: attending mass / extreme: martyrdom)
+  Domain: UNFALSIFIABLE (trust can NEVER be broken by domain feedback)
+  Source: ④ External Inject → ③ Compiles deep
+  Outcome: body calm + meaning + community / risk of mismatch in extreme cases
 
-  ⭐ NOTE: TRUST TĂNG KHI KHỔ = self-reinforcing loop KHÔNG CÓ EXIT
-    → = Tại sao tôn giáo TỒN TẠI HÀNG NGHÌN NĂM
-    → → Extreme version: Y1 (cult dependency) — khi unfalsifiable trust
-      bị exploit → harm thật
-
-
-── X2. ĐEO DÂY CHUYỀN ĐỨC MẸ → "ĐƯỢC BẢO VỆ" ──
-
-  Situation: Đeo dây chuyền có mẫu Đức Mẹ.
-
-  Anchor: schema "Đức Mẹ bảo vệ"
-  Trust: CAO (unfalsifiable + TACTILE reinforcement liên tục)
-  Strength: COMPILED (repeat touch)
-  Cost: gần 0
-  Domain: UNFALSIFIABLE (mọi outcome đều CONFIRM)
-  Source: ④ External + ③ Compile (repeat touch)
-  Outcome: body calm → cortisol GIẢM → placebo effect THẬT
-
-  ⭐ NOTE: TACTILE ANCHOR — physical object = body-level reinforcement LIÊN TỤC
-    → Tại sao tôn giáo dùng OBJECTS + wedding ring = anchor relationship
+  ⭐ NOTE: TRUST INCREASES DURING SUFFERING = self-reinforcing loop WITH NO EXIT
+    → = Why religion HAS LASTED FOR THOUSANDS OF YEARS
+    → → Extreme version: Y1 (cult dependency) — when unfalsifiable trust
+      is exploited → real harm
 
 
-── X3. "THUẬN VỢ THUẬN CHỒNG" — SHARED ANCHOR ──
+── X2. WEARING A VIRGIN MARY NECKLACE → "PROTECTED" ──
 
-  Situation: Vợ chồng cùng tin "cùng cố gắng → gia đình tốt."
+  Situation: Wearing a necklace with an image of the Virgin Mary.
 
-  Anchor: schema "cùng nhau → tốt hơn" (SHARED between 2 người)
-  Trust: positive + INTERPERSONAL (trust vào NGƯỜI KHÁC cùng giữ)
-  Strength: COMPILED (nếu hàng ngày confirm)
-  Cost: CAO (năm-đời)
-  Domain: BÁN-REAL (phụ thuộc CẢ HAI)
+  Anchor: schema "the Virgin Mary protects"
+  Trust: HIGH (unfalsifiable + continuous TACTILE reinforcement)
+  Strength: COMPILED (repeated touch)
+  Cost: nearly 0
+  Domain: UNFALSIFIABLE (every outcome CONFIRMS it)
+  Source: ④ External + ③ Compiled (repeated touch)
+  Outcome: body calm → cortisol DECREASES → placebo effect IS REAL
+
+  ⭐ NOTE: TACTILE ANCHOR — physical object = CONTINUOUS body-level reinforcement
+    → Why religion uses OBJECTS + wedding ring = anchors a relationship
+
+
+── X3. "HUSBAND AND WIFE IN HARMONY" — SHARED ANCHOR ──
+
+  Situation: Husband and wife both believe "working together → better family."
+
+  Anchor: schema "together → better" (SHARED between 2 people)
+  Trust: positive + INTERPERSONAL (trust in ANOTHER PERSON also holding the anchor)
+  Strength: COMPILED (if confirmed daily)
+  Cost: HIGH (years-lifetime)
+  Domain: SEMI-REAL (depends on BOTH people)
   Source: ③ Compiled (daily) + ④ Culture
-  Outcome: cả 2 maintain → harmony / 1 người stop → collapse CẢ HAI
+  Outcome: both maintain → harmony / 1 person stops → BOTH COLLAPSE
 
-  ⭐ NOTE: SHARED ANCHOR = MẠNH khi align + FRAGILE khi 1 bên shift
-
-
-── X4. ANCHOR CONFLICT — "MUỐN A PHẢI B" ──
-
-  Situation: Developer 30 tuổi. Muốn freelance. Vợ sắp sinh.
-
-  Anchor CONFLICT:
-    → A: "freelance → tự do" (③ body muốn)
-    → B: "giữ job → nuôi con" (④+③ responsibility)
-  → = §5.5 Mức 3: dàn nhạc BỊ XÉ
-
-  Outcome: reconcile / chọn 1 + grief / không resolve → chronic dissonance
-  ⭐ NOTE: Fix = CHỌN 1 + GRIEF cái bỏ + REBUILD
+  ⭐ NOTE: SHARED ANCHOR = STRONG when aligned + FRAGILE when 1 side shifts
 
 
-── X5. "BỐ MẸ ÉP HỌC BÁC SĨ" — INJECT vs INTERNAL ──
+── X4. ANCHOR CONFLICT — "WANT A MUST DO B" ──
 
-  Situation: Con thích vẽ. Bố mẹ ép bác sĩ. "Mẹ không còn mặt mũi."
+  Situation: Developer, 30 years old. Wants to freelance. Wife is about to give birth.
 
   Anchor CONFLICT:
-    → A (internal ③): "vẽ → body reward"
-    → B (inject ④): "bác sĩ → bố mẹ vui" (repeat + guilt)
-  → = 2 anchors compiled ĐỀU SÂU → conflict CỰC MẠNH
+    → A: "freelance → freedom" (③ what the body wants)
+    → B: "keep the job → support the child" (④+③ responsibility)
+  → = §5.5 Level 3: the orchestra is PULLED APART
+
+  Outcome: reconcile / choose 1 + grieve what was let go / unresolved → chronic
+           dissonance
+  ⭐ NOTE: Fix = CHOOSE 1 + GRIEVE what's abandoned + REBUILD
+
+
+── X5. "PARENTS PRESSURING CHILD TO BECOME A DOCTOR" — INJECT vs INTERNAL ──
+
+  Situation: Child loves drawing. Parents pressure: become a doctor.
+  "Mother won't be able to show her face."
+
+  Anchor CONFLICT:
+    → A (internal ③): "drawing → body reward"
+    → B (injected ④): "doctor → parents happy" (repetition + guilt)
+  → = 2 anchors BOTH COMPILED DEEP → EXTREMELY STRONG conflict
 
   3 Outcomes:
-    ① Theo B + hardware fit → "giỏi nhưng mệt" (Mismatch-A)
-    ② Theo B + hardware miss → "kẹt giữa 2 threats" (Mismatch-B)
-    ③ Theo A → guilt + conflict gia đình → nhưng melody cá nhân smooth
+    ① Follow B + hardware fits → "skilled but exhausted" (Mismatch-A)
+    ② Follow B + hardware doesn't fit → "trapped between 2 threats" (Mismatch-B)
+    ③ Follow A → guilt + family conflict → but personal melody IS smooth
 
-  ⭐ NOTE: "Biết muốn gì + bị inject mạnh" = CONFLICT DÙ BIẾT
-    → "Follow your heart" = đúng nhưng KHÔNG DỄ
-    → → Extreme version (anchor compiled CỰC SÂU + harm thật):
-      → Anchor-Schema-Extreme-Example.md Y2 (mẹ-con threat loop)
+  ⭐ NOTE: "Knowing what you want + being heavily injected" = CONFLICT EVEN WHEN YOU KNOW
+    → "Follow your heart" = right but NOT EASY
+    → → Extreme version (anchor compiled EXTREMELY DEEP + real harm):
+      → Anchor-Schema-Extreme-Example.md Y2 (mother-child threat loop)
 ```
 
 ---
 
-## EXTREME CASES — XEM FILE RIÊNG
+## EXTREME CASES — SEE SEPARATE FILE
 
-> File này focus vào **HEALTHY spectrum** (M-S-D-L-X) — anchor trong optimal zone.
+> This file focuses on the **HEALTHY SPECTRUM** (M-S-D-L-X) — anchors in the optimal zone.
 >
-> **Extreme cases** (anchor quá mức + skip domain → Hardware-First Harm):
+> **Extreme cases** (anchor over-zone + domain skipped → Hardware-First Harm):
 > → Cult dependency / Threat loop / Gaming addiction / Limerence /
 >   Workaholism / Substance addiction / Dose-dependent harm
-> → **Đã tách thành file riêng:** [Anchor-Schema-Extreme-Example.md](Anchor-Schema-Extreme-Example.md)
+> → **Moved to a separate file:** [Anchor-Schema-Extreme-Example.md](Anchor-Schema-Extreme-Example.md)
 >
-> Lý do tách:
-> → Tính đối xứng: file này = healthy zone, file extreme = over zone
-> → Anchor-Schema.md §5.5 = under zone (cacophony)
-> → 3 file cover toàn bộ phổ: dưới / vừa / trên
+> Reason for separation:
+> → Symmetry: this file = healthy zone, extreme file = over-zone
+> → Anchor-Schema.md §5.5 = under-zone (cacophony)
+> → 3 files cover the full spectrum: under / healthy / over
 
 ---
 
-## CROSS-PHỔ PATTERN ANALYSIS — NHÌN XUYÊN SUỐT 20 VÍ DỤ
+## CROSS-SPECTRUM PATTERN ANALYSIS — READING ACROSS ALL 20 EXAMPLES
 
 ```
 ═══════════════════════════════════════════════════════
-PATTERN 1: TRUST ≥ COST → ANCHOR HOLD
+PATTERN 1: TRUST ≥ COST → ANCHOR HOLDS
 ═══════════════════════════════════════════════════════
 
-  Xuyên suốt TẤT CẢ 20 ví dụ healthy spectrum:
-    → Khi trust ≥ cost → anchor HOLD → hành vi TIẾP TỤC
-    → Khi trust < cost → anchor COLLAPSE → dừng/chuyển
+  Across ALL 20 healthy spectrum examples:
+    → When trust ≥ cost → anchor HOLDS → behavior CONTINUES
+    → When trust < cost → anchor COLLAPSES → stops/shifts
 
-  PHỔ:
-    Micro (M1-M5):   cost ≈ 0 → trust implicit ĐỦ → LUÔN hold
-    Short (S1-S5):   cost thấp → trust nhẹ ĐỦ → THƯỜNG hold
-    Medium (D1-D5):  cost trung bình → trust CẦN build → BẮT ĐẦU có bỏ cuộc
-    Long (L1-L5):    cost cực cao → trust CẦN cực mạnh → NHIỀU collapse
-    Special (X1-X5): cost varies → trust ĐẶC BIỆT (unfalsifiable, shared, conflict)
+  SPECTRUM:
+    Micro (M1-M5):   cost ≈ 0 → implicit trust SUFFICIENT → ALWAYS holds
+    Short (S1-S5):   low cost → light trust SUFFICIENT → USUALLY holds
+    Medium (D1-D5):  moderate cost → trust NEEDS to build → STARTS to see quitting
+    Long (L1-L5):    extreme cost → trust NEEDS to be extremely strong → MANY collapses
+    Special (X1-X5): cost varies → SPECIAL trust (unfalsifiable, shared, conflict)
 
-  → Extreme over-anchor (Y1-Y6): xem Anchor-Schema-Extreme-Example.md
+  → Extreme over-anchor (Y1-Y6): see Anchor-Schema-Extreme-Example.md
 
-  → = "Trust ≥ Cost" KHÔNG CHỈ là nguyên tắc — là PATTERN QUAN SÁT ĐƯỢC
-    qua TẤT CẢ scale
+  → = "Trust ≥ Cost" is NOT just a principle — it is an OBSERVABLE PATTERN
+    across ALL scales
 
 
 ═══════════════════════════════════════════════════════
-PATTERN 2: ANCHOR STRENGTH TRAJECTORY — MỜ → BUILD → COMPILED
+PATTERN 2: ANCHOR STRENGTH TRAJECTORY — FAINT → BUILDING → COMPILED
 ═══════════════════════════════════════════════════════
 
-  MỌI anchor (trừ micro-compiled) đi qua CÙNG trajectory:
+  EVERY anchor (except micro-compiled) follows the SAME trajectory:
 
-    MỜ NHẠT → ĐANG BUILD → COMPILED
+    FAINT → BUILDING → COMPILED
 
-    VD: S5 gym: mới → "phải đi" (PFC hold) → 3 tháng → auto (compiled)
-    VD: L2 startup: mới → "build daily" (PFC hold) → 18 tháng → identity (compiled)
-    VD: S1 bài tập: bố hứa lần 1 (mờ) → giữ lời 50 lần → compiled ("bố nói = thật")
+    Ex: S5 gym: new → "have to go" (PFC holds) → 3 months → automatic (compiled)
+    Ex: L2 startup: new → "build daily" (PFC holds) → 18 months → identity (compiled)
+    Ex: S1 homework: father promises once (faint) → keeps word 50 times →
+        compiled ("father's word = real")
 
-  → = CÙNG trajectory, KHÁC tốc độ:
-    → Cost thấp + domain confirm nhanh → compile NHANH (S5 gym 3 tháng)
-    → Cost cao + domain confirm chậm → compile CHẬM (L2 startup 18+ tháng)
-    → External inject + emotional peak → compile NGAY (X5 "mẹ khóc" = compile instant)
+  → = SAME trajectory, DIFFERENT speed:
+    → Low cost + fast domain confirmation → compiles QUICKLY (S5 gym: 3 months)
+    → High cost + slow domain confirmation → compiles SLOWLY (L2 startup: 18+ months)
+    → External inject + emotional peak → compiles IMMEDIATELY
+      (X5 "mother cries" = compile in an instant)
 
-  → = "21 ngày thành thói quen" = oversimplified nhưng HƯỚNG đúng:
-    → PFC-held → repeat → compile → anchor strength TĂNG → auto
-    → NHƯNG: thời gian phụ thuộc cost + domain feedback speed + emotional intensity
+  → = "21 days to build a habit" = oversimplified but DIRECTIONALLY right:
+    → PFC-held → repeat → compile → anchor strength INCREASES → automatic
+    → BUT: time depends on cost + domain feedback speed + emotional intensity
 
 
 ═══════════════════════════════════════════════════════
 PATTERN 3: TRUST BREAK = VISIBLE, TRUST HOLD = INVISIBLE
 ═══════════════════════════════════════════════════════
 
-  Xuyên suốt:
-    → M2 keyboard lag: trust hold = INVISIBLE → trust break = GIẬT
-    → M3 bước hụt: trust hold = INVISIBLE → trust break = SHOCK
-    → M4 mẹ không bế: trust hold = INVISIBLE → trust break = khóc
-    → S1 bố không giữ lời: trust hold = INVISIBLE → trust break = thất vọng
-    → L2 startup fail: trust hold = INVISIBLE → trust break = identity crisis
+  Across cases:
+    → M2 keyboard lag: trust holding = INVISIBLE → trust break = JOLT
+    → M3 missed step: trust holding = INVISIBLE → trust break = SHOCK
+    → M4 mother doesn't hold: trust holding = INVISIBLE → trust break = crying
+    → S1 father doesn't keep word: trust holding = INVISIBLE → trust break = disappointment
+    → L2 startup fails: trust holding = INVISIBLE → trust break = identity crisis
 
-  → = Trust LUÔN INVISIBLE khi hoạt động đúng
-  → = Trust CHỈ VISIBLE khi BỊ PHÁ
-  → = "Niềm tin" = thứ KHÔNG THẤY cho tới khi MẤT
-  → = Tại sao người ta "take for granted": body trust implicit → không appreciate
-    → MẤT → "à, mình đã tin cái đó mà không biết"
+  → = Trust is ALWAYS INVISIBLE when working correctly
+  → = Trust IS ONLY VISIBLE when BROKEN
+  → = "Trust" = the thing you CAN'T SEE until it's GONE
+  → = Why people "take it for granted": body trust is implicit → not appreciated
+    → LOST → "oh, I was trusting that without knowing it"
 
 
 ═══════════════════════════════════════════════════════
@@ -798,122 +814,127 @@ PATTERN 4: DOMAIN VERIFIABILITY → TRUST STABILITY
 ═══════════════════════════════════════════════════════
 
   ┌──────────────────┬──────────────────┬──────────────────┐
-  │ Domain type      │ Trust stability  │ Ví dụ            │
+  │ Domain type      │ Trust stability  │ Example          │
   ├──────────────────┼──────────────────┼──────────────────┤
-  │ Arithmetic/      │ CỰC CAO          │ D3 tiết kiệm    │
-  │ Physics (real)   │ (verify 100%)    │ M1-M5 sensorimotor│
+  │ Arithmetic/      │ EXTREMELY HIGH   │ D3 saving        │
+  │ Physics (real)   │ (100% verify)    │ M1-M5 sensorimotor│
   ├──────────────────┼──────────────────┼──────────────────┤
-  │ Evidence-based   │ CAO              │ D4 gym           │
-  │ (real, delayed)  │ (verify, chậm)  │ D1 learn Rust    │
+  │ Evidence-based   │ HIGH             │ D4 gym           │
+  │ (real, delayed)  │ (verify, slow)   │ D1 learn Rust    │
   ├──────────────────┼──────────────────┼──────────────────┤
-  │ Bán-real         │ TRUNG BÌNH       │ L1 cố → giàu    │
-  │ (partial truth)  │ (dễ bị shaken)  │ L2 startup       │
+  │ Semi-real        │ MODERATE         │ L1 work → wealth │
+  │ (partial truth)  │ (easily shaken)  │ L2 startup       │
   ├──────────────────┼──────────────────┼──────────────────┤
-  │ Unfalsifiable    │ CỰC CAO (!)     │ X1 tôn giáo     │
-  │                  │ (KHÔNG THỂ phá) │ X2 dây chuyền    │
+  │ Unfalsifiable    │ EXTREMELY HIGH(!)│ X1 religion      │
+  │                  │ (CANNOT be       │ X2 necklace      │
+  │                  │ broken)          │                  │
   └──────────────────┴──────────────────┴──────────────────┘
 
-  ⭐ INSIGHT: Unfalsifiable = trust CAO NHƯ arithmetic — nhưng VÌ LÝ DO NGƯỢC:
-    → Arithmetic: trust cao vì VERIFY ĐƯỢC 100% → chắc chắn
-    → Unfalsifiable: trust cao vì KHÔNG THỂ verify → không bao giờ bị phá
-    → = 2 CỰC TRÊN PHỔ → đều trust CAO → nhưng mechanism KHÁC HOÀN TOÀN
-    → = Giữa (bán-real) = trust YẾU NHẤT → vì: CÓ evidence nhưng KHÔNG đủ
+  ⭐ INSIGHT: Unfalsifiable = trust HIGH LIKE arithmetic — but FOR THE OPPOSITE REASON:
+    → Arithmetic: trust high because CAN VERIFY 100% → certainty
+    → Unfalsifiable: trust high because CANNOT verify → never broken
+    → = 2 EXTREMES ON THE SPECTRUM → both trust HIGH → but COMPLETELY DIFFERENT mechanism
+    → = In between (semi-real) = WEAKEST trust → because: HAS evidence but NOT enough
 
 
 ═══════════════════════════════════════════════════════
-PATTERN 5: EMPATHY-DRIVEN ANCHOR = SUB-TYPE RIÊNG
+PATTERN 5: EMPATHY-DRIVEN ANCHOR = ITS OWN SUB-TYPE
 ═══════════════════════════════════════════════════════
 
-  Xuất hiện xuyên suốt:
-    → S2 nấu cơm: reward = gia đình ăn → mirror reward
-    → L1 thoát nghèo: layer 2 = bố mẹ vui = empathy reward
-    → L4 nuôi con: empathy = reward CHÍNH (con vui = mình vui)
-    → X3 thuận vợ chồng: interpersonal trust = shared anchor
+  Appears throughout:
+    → S2 cooking: reward = family eats → mirror reward
+    → L1 escape poverty: layer 2 = parents happy = empathy reward
+    → L4 raising a child: empathy = PRIMARY reward (child happy = I'm happy)
+    → X3 husband and wife in harmony: interpersonal trust = shared anchor
 
-  ĐẶC ĐIỂM RIÊNG:
-    → Reward QUA NGƯỜI KHÁC (không phải self-direct)
-    → = Anchor-Schema reward DÙNG Empathy-Mirror
-    → MẠNH vì: mirror reward = body-level (opioid CỦA MÌNH từ người KHÁC happy)
-    → FRAGILE vì: phụ thuộc NGƯỜI KHÁC respond
-    → ĐÁNG CHÚ Ý: phổ biến CỰC KỲ ở VN (hiếu thảo, hy sinh cho gia đình)
+  DISTINCTIVE PROPERTIES:
+    → Reward COMES THROUGH ANOTHER PERSON (not self-directed)
+    → = Anchor-Schema reward USES the Empathy Mirror
+    → STRONG because: mirror reward = body-level (MY OWN opioid from OTHER PERSON's
+      happiness)
+    → FRAGILE because: depends on THE OTHER PERSON responding
+    → NOTABLY: extremely prevalent in Vietnamese culture (filial piety, self-sacrifice
+      for family)
 
-  → = CÓ THỂ là sub-type đáng formalize trong Anchor-Schema.md tương lai
+  → = May be a sub-type worth formalizing in Anchor-Schema.md in the future
 
 
 ═══════════════════════════════════════════════════════
-PATTERN 6: TRUST GAP = GIAI ĐOẠN NGUY HIỂM NHẤT
+PATTERN 6: TRUST GAP = THE MOST DANGEROUS PERIOD
 ═══════════════════════════════════════════════════════
 
-  Xuất hiện từ MEDIUM trở lên:
-    → D4 gym: tuần 3-6 CHƯA THẤY change → trust gap → dễ bỏ
-    → D1 khóa online: giữa khóa → "The Valley" → dễ bỏ
-    → L2 startup: năm 1-2 → chưa product-market fit → trust gap
-    → L1 thoát nghèo: nhiều năm → "chưa đủ giàu" → trust gap kéo DÀI
+  Appears from MEDIUM scale up:
+    → D4 gym: weeks 3-6 NO visible change → trust gap → easy to quit
+    → D1 online course: mid-course → "The Valley" → easy to quit
+    → L2 startup: year 1-2 → no product-market fit → trust gap
+    → L1 escape poverty: many years → "not yet wealthy enough" →
+      trust gap EXTENDED
 
-  TRUST GAP = khoảng thời gian từ START → FIRST DOMAIN FEEDBACK ✓:
-    → Trong gap: trust phải HOLD mà KHÔNG CÓ evidence reinforce
-    → = Giai đoạn DỄ BỎ NHẤT
-    → = Melody-Arc.md §3.3 "The Valley" = trust gap ở arc level
+  TRUST GAP = the period from START → FIRST DOMAIN FEEDBACK ✓:
+    → During the gap: trust must HOLD with NO evidence to reinforce it
+    → = The EASIEST PERIOD TO QUIT
+    → = Melody-Arc.md §3.3 "The Valley" = trust gap at the arc level
 
-  BRIDGE QUA TRUST GAP:
-    → Social support (④): "người đi trước nói bình thường"
-    → Micro-results: partial feedback (gym: "đỡ mệt hơn" dù chưa thấy muscle)
-    → Identity anchor: "tôi LÀ người tập gym" → identity bridge
+  BRIDGING THE TRUST GAP:
+    → Social support (④): "those who went before say it's normal"
+    → Micro-results: partial feedback (gym: "less tired" even without visible muscle)
+    → Identity anchor: "I AM a person who works out" → identity bridge
     → = Anchor-Schema.md §2 Trust Build: social + body + compile
 
 
 ═══════════════════════════════════════════════════════
-PATTERN 7: HARDWARE-FIRST HARM (extreme zone — file riêng)
+PATTERN 7: HARDWARE-FIRST HARM (extreme zone — separate file)
 ═══════════════════════════════════════════════════════
 
-  Pattern này = NGHỊCH ĐẢO của 6 patterns ở trên:
-    → 6 patterns trên: anchor trong healthy zone (trust ≥ cost, có domain check)
-    → Pattern 7: anchor over zone (trust >> cost, skip domain → harm)
+  This pattern = THE INVERSE of the 6 patterns above:
+    → 6 patterns above: anchors in the healthy zone (trust ≥ cost, domain check present)
+    → Pattern 7: anchors in the over-zone (trust >> cost, domain skipped → harm)
 
-  TÓM TẮT:
-    → Anchor MẠNH + hardware SMOOTH + domain ✗ → harm KHÔNG THẤY
-    → NGHỊCH ĐẢO Mismatch (Imagine-Final-Evaluation.md §4):
-      Mismatch:       domain ✓ + hardware ✗ → CÓ cảnh báo
-      Hardware-First: domain ✗ + hardware ✓ → KHÔNG cảnh báo
-    → "Body nói ĐÚNG + Domain nói SAI → body THẮNG"
+  SUMMARY:
+    → Anchor STRONG + hardware SMOOTH + domain ✗ → harm UNDETECTED
+    → INVERSE of Mismatch (Imagine-Final-Evaluation.md §4):
+      Mismatch:       domain ✓ + hardware ✗ → WARNING SIGNALS PRESENT
+      Hardware-First: domain ✗ + hardware ✓ → NO WARNING SIGNALS
+    → "Body says CORRECT + Domain says WRONG → body WINS"
 
-  → Chi tiết đầy đủ + 6 ví dụ (cult, threat loop, gaming, limerence,
+  → Full details + 6 examples (cult, threat loop, gaming, limerence,
     workaholism, substance) + dose-dependent harm:
     **Anchor-Schema-Extreme-Example.md**
 ```
 
 ```
 ═══════════════════════════════════════════════════════
-TỔNG HỢP — BẢNG CROSS-PHỔ
+SUMMARY — CROSS-SPECTRUM TABLE
 ═══════════════════════════════════════════════════════
 
   ┌──────────┬──────────┬──────────┬───────────┬───────────┬──────────────┐
   │          │ MICRO    │ SHORT    │ MEDIUM    │ LONG      │ SPECIAL      │
   │          │ (M1-M5)  │ (S1-S5)  │ (D1-D5)  │ (L1-L5)  │ (X1-X5)     │
   ├──────────┼──────────┼──────────┼───────────┼───────────┼──────────────┤
-  │ Trust    │ Implicit │ Visible  │ Tested    │ Multi-    │ Đặc biệt    │
+  │ Trust    │ Implicit │ Visible  │ Tested    │ Multi-    │ Special      │
   │          │          │          │           │ layer     │ per case     │
   ├──────────┼──────────┼──────────┼───────────┼───────────┼──────────────┤
-  │ Strength │ Compiled │ Mờ→Build │ Build→    │ Build→    │ Compiled     │
-  │          │          │ →Compile │ Compile   │ Identity  │ deep         │
+  │ Strength │ Compiled │ Faint→   │ Building→ │ Building→ │ Compiled     │
+  │          │          │ Building │ Compiled  │ Identity  │ deep         │
+  │          │          │ →Compiled│           │           │              │
   ├──────────┼──────────┼──────────┼───────────┼───────────┼──────────────┤
-  │ Cost     │ ≈0       │ Thấp    │ Trung bình│ Cực cao  │ Varies       │
+  │ Cost     │ ≈0       │ Low      │ Moderate  │ Extreme   │ Varies       │
   ├──────────┼──────────┼──────────┼───────────┼───────────┼──────────────┤
-  │ Domain   │ Real ✓   │ Real ✓  │ Real→     │ Bán-real │ Unfalsifiable│
-  │          │          │          │ Bán-real  │ → Edge   │ → Real       │
+  │ Domain   │ Real ✓   │ Real ✓  │ Real →    │ Semi-real │ Unfalsifiable│
+  │          │          │          │ semi-real │ → Edge    │ → Real       │
   ├──────────┼──────────┼──────────┼───────────┼───────────┼──────────────┤
-  │ Hardware │ Smooth   │ Smooth   │ Tested    │ Variable  │ Smooth ổn   │
+  │ Hardware │ Smooth   │ Smooth   │ Tested    │ Variable  │ Smooth       │
   ├──────────┼──────────┼──────────┼───────────┼───────────┼──────────────┤
-  │ PFC      │ ~0%      │ ~5-20%  │ ~15-40%  │ Variable │ Variable     │
+  │ PFC      │ ~0%      │ ~5-20%  │ ~15-40%  │ Variable  │ Variable     │
   ├──────────┼──────────┼──────────┼───────────┼───────────┼──────────────┤
-  │ Self-    │ N/A      │ Cao     │ Cao       │ Trbình   │ Trbình       │
+  │ Self-    │ N/A      │ High     │ High      │ Moderate  │ Moderate     │
   │ aware    │          │          │           │           │              │
   ├──────────┼──────────┼──────────┼───────────┼───────────┼──────────────┤
-  │ Break    │ Giật     │ Thất     │ Bỏ cuộc  │ Identity │ Collapse     │
-  │ impact   │ (micro)  │ vọng     │ (re-scan) │ crisis   │ hệ thống    │
+  │ Break    │ Jolt     │ Disap-   │ Quit      │ Identity  │ System       │
+  │ impact   │ (micro)  │ pointment│ (re-scan) │ crisis    │ collapse     │
   └──────────┴──────────┴──────────┴───────────┴───────────┴──────────────┘
 
-  → File này = HEALTHY zone (5 columns trên)
+  → This file = HEALTHY zone (5 columns above)
   → Extreme zone (anchor over): Anchor-Schema-Extreme-Example.md
   → Under zone (anchor under): Anchor-Schema.md §5.5
 ```
@@ -923,41 +944,43 @@ TỔNG HỢP — BẢNG CROSS-PHỔ
 ## HONEST ASSESSMENT
 
 ```
-  VỀ 20 VÍ DỤ:
-    → TẤT CẢ = ILLUSTRATIVE (minh họa), KHÔNG phải PROOF
-    → Mỗi ví dụ = 1 interpretation qua lens Anchor-Schema
-    → Có thể interpret KHÁC bằng lens khác (CBT, SDT, goal theory...)
-    → = Framework cung cấp 1 GÓC NHÌN, không phải GÓC NHÌN DUY NHẤT
+  ABOUT THE 20 EXAMPLES:
+    → ALL = ILLUSTRATIVE (for demonstration), NOT proof
+    → Each example = 1 interpretation through the Anchor-Schema lens
+    → Can be interpreted DIFFERENTLY through other lenses (CBT, SDT, goal theory...)
+    → = Framework provides 1 ANGLE OF VIEW, not THE ONLY ANGLE OF VIEW
 
-  MẠNH:
-    → 20 ví dụ cover PHỔ RỘNG (micro → life, real → unfalsifiable)
-    → Annotation CONSISTENT (cùng format → dễ so sánh)
-    → 6 patterns EMERGE tự nhiên từ ví dụ (không force-fit)
-    → Nhiều ví dụ RELATABLE (ai cũng trải qua ít nhất vài cái)
+  STRENGTHS:
+    → 20 examples cover a WIDE SPECTRUM (micro → lifetime, real → unfalsifiable)
+    → Annotation is CONSISTENT (same format → easy to compare)
+    → 6 patterns EMERGE naturally from examples (not force-fitted)
+    → Many examples are RELATABLE (everyone experiences at least a few)
 
-  YẾU:
-    → Ví dụ = CHỌN LỌC (có thể cherry-pick ví dụ fit framework)
-    → Chưa có ví dụ PHẢN BÁC (counter-example: anchor theory KHÔNG giải thích?)
-    → Annotation = SUBJECTIVE (trust "cao" vs "thấp" = tôi đánh giá, không đo)
-    → Chưa có: cross-cultural comparison (VN vs US vs JP patterns?)
+  WEAKNESSES:
+    → Examples = SELECTED (potential cherry-picking of examples that fit the framework)
+    → No COUNTER-EXAMPLES yet (situations Anchor-Schema theory does NOT explain well?)
+    → Annotation = SUBJECTIVE (trust "high" vs "low" = my assessment, not measured)
+    → Missing: cross-cultural comparison (Vietnamese vs US vs Japanese patterns?)
 
-  CẦN THÊM (tương lai):
-    → Counter-examples: tình huống mà Anchor-Schema KHÔNG giải thích tốt?
-    → Quantitative: CÓ THỂ đo trust level / anchor strength bằng survey?
-    → Cultural variation: cùng ví dụ, khác VN/US/JP → pattern KHÁC?
-    → Developmental: ví dụ per age group (trẻ em / thiếu niên / trung niên / già)
+  NEEDED (future):
+    → Counter-examples: situations where Anchor-Schema does NOT explain well?
+    → Quantitative: CAN trust level / anchor strength be measured via survey?
+    → Cultural variation: same example, different Vietnamese/US/Japanese context
+      → DIFFERENT pattern?
+    → Developmental: examples per age group (children / teens / middle-aged / elderly)
 ```
 
 ---
 
-> *Anchor-Schema Examples — "20 ví dụ healthy spectrum, 1 pattern xuyên suốt:
-> Trust ≥ Cost → anchor hold. Trust < Cost → collapse.
-> Từ tay chạm ly (micro, invisible) tới Einstein pursue unified physics (đời, identity).
-> Trust INVISIBLE khi hold, CHỈ VISIBLE khi break.
-> Unfalsifiable trust CAO như arithmetic — nhưng vì lý do NGƯỢC.
-> Bán-real = phổ biến nhất + trust YẾU nhất → nguồn anxiety.
-> Trust Gap = giai đoạn DỄ BỎ NHẤT — cần bridge (social, micro-results, identity).
-> Empathy-driven anchor = reward qua NGƯỜI KHÁC → mạnh nhưng fragile.
-> Hardware-First Harm (anchor over zone) → Anchor-Schema-Extreme-Example.md
-> Cacophony (anchor under zone) → Anchor-Schema.md §5.5
-> 3 file đối xứng: under / healthy / over."*
+> *Anchor-Schema Examples — "20 examples in the healthy spectrum, 1 pattern throughout:
+> Trust ≥ Cost → anchor holds. Trust < Cost → collapse.
+> From hand touching glass (micro, invisible) to Einstein pursuing unified physics
+> (lifetime, identity).
+> Trust INVISIBLE when holding, ONLY VISIBLE when broken.
+> Unfalsifiable trust as HIGH as arithmetic — but for the OPPOSITE reason.
+> Semi-real = most common + weakest trust → source of anxiety.
+> Trust Gap = the EASIEST PERIOD TO QUIT — needs bridging (social, micro-results, identity).
+> Empathy-driven anchor = reward VIA OTHER PEOPLE → strong but fragile.
+> Hardware-First Harm (anchor over-zone) → Anchor-Schema-Extreme-Example.md
+> Cacophony (anchor under-zone) → Anchor-Schema.md §5.5
+> 3 files symmetrically cover: under / healthy / over."*

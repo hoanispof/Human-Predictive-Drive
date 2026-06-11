@@ -1,30 +1,30 @@
-﻿---
-title: Skill-Introduction — Giới Thiệu Kỹ Năng Cho Trẻ (0-6 Tuổi)
+---
+title: Skill Introduction — Introducing Skills to Children (Ages 0–6)
 version: 2.3
 created: 2026-04-01
 updated: 2026-06-03
 status: REFERENCE v2.3
 scope: |
-  PRACTICAL FILE: KHI NÀO và THẾ NÀO giới thiệu kỹ năng cụ thể cho trẻ —
-  từ vận động, âm nhạc, nhận thức, tới sáng tạo. Qua lens v7.8.
-  EXPOSURE trước, TRAINING sau. Body signal quyết định — không phải lịch bố mẹ.
-  Approach/avoidance tag = tại sao CÁCH giới thiệu quyết định SCHEMA suốt đời.
+  PRACTICAL FILE: WHEN and HOW to introduce specific skills to children —
+  from motor to music, cognitive to creative. Through the v7.8 lens.
+  EXPOSURE first, TRAINING second. Body signal decides — not the parent's schedule.
+  Approach/avoidance tag = why HOW you introduce determines the SCHEMA for life.
 purpose: |
-  File NÀY mô tả ÁP DỤNG — Mechanism.md giải thích CƠ CHẾ.
-  Natural-Development = hiểu cái TỰ NHIÊN, đừng cản trở.
-  Skill-Introduction = giới thiệu cái MỚI, ĐÚNG LÚC + ĐÚNG CÁCH.
-  Bố mẹ đọc file này để biết KỸ NĂNG NÀO, KHI NÀO, THẾ NÀO.
-  Muốn hiểu TẠI SAO approach quan trọng → đọc Mechanism.
+  THIS FILE describes APPLICATION — Mechanism.md explains the MECHANISMS.
+  Natural-Development = understand what is NATURAL, don't block it.
+  Skill-Introduction = introduce what is NEW, at the RIGHT TIME + in the RIGHT WAY.
+  Parents read this file to know WHICH SKILL, WHEN, and HOW.
+  Want to understand WHY approach matters → read Mechanism.
 position: |
-  Research/Human-Learning/Child-Development/ — TẦNG 2 trong kiến trúc 5 tầng.
-  TẦNG 1: Core-Deep-Dive/ (não hoạt động thế nào)
-  TẦNG 2: Research/Human-Learning/Child-Development/ (con người phát triển 0-6) ← ĐÂY
-  TẦNG 3: Research/Human-Learning/Education-Mechanism/ (nguyên lý giáo dục bất biến)
-  TẦNG 4: Applications/Education-System/ (ứng dụng per-era)
-  TẦNG 5: Country/ (per-country)
+  Research/Human-Learning/Child-Development/ — LAYER 2 in the 5-layer architecture.
+  LAYER 1: Core-Deep-Dive/ (how the brain works)
+  LAYER 2: Research/Human-Learning/Child-Development/ (human development 0–6) ← HERE
+  LAYER 3: Research/Human-Learning/Education-Mechanism/ (invariant principles of education)
+  LAYER 4: Applications/Education-System/ (per-era applications)
+  LAYER 5: Country/ (per-country)
 dependencies:
-  - Child-Development-Mechanism.md v2.3 — KHUNG NGUYÊN LÝ v7.8 (reference chính) [UPDATED v2.3]
-  - Natural-Development.md v2.3 — nền tảng phát triển tự nhiên (prerequisite) [UPDATED v2.3]
+  - Child-Development-Mechanism.md v2.3 — PRINCIPLE FRAMEWORK v7.8 (primary reference) [UPDATED v2.3]
+  - Natural-Development.md v2.3 — natural development foundation (prerequisite) [UPDATED v2.3]
   - Compile-Taxonomy.md v3.0 — Compile Architecture (1E+3M), Multi-Stream, Critical Asymmetry [NEW v2.2]
   - Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms) [NEW v2.2]
   - Core-Software.md v2.0 — cycle architecture, observation parameters
@@ -48,419 +48,433 @@ dependencies:
   - Background-Pattern.md v2.0 — Triple Bias, Pattern Shiftability [NEW v2.1]
   - Resonance-Sustainability.md v1.0 — 4-Layer Sustainability model [NEW v2.1]
   - Trust.md v1.0 — Trust = compiled prediction, 3 sub-dimensions, amplifier [NEW v2.3]
-  - Self-Observation.md v1.0 — APPLICATION-3, Gradient Mức 0-6, Caregiver ON/OFF [NEW v2.3]
+  - Self-Observation.md v1.0 — APPLICATION-3, Gradient Level 0–6, Caregiver ON/OFF [NEW v2.3]
 supersedes: |
   Skill-Introduction.md v2.0 (2026-04-21, v7.8 lens — pre-drill concepts)
   v1.0 (2026-04-01, v7.5 lens)
   Backup: Research/Human-Learning/Child-Development/backup/
-language: Tiếng Việt primary + English technical terms
+language: English (translated from Vietnamese primary + English technical terms)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 caution: |
-  ⚠️ KHÔNG thay thế chuyên gia giáo dục / nhi khoa.
-  Mỗi trẻ phát triển theo TIMELINE RIÊNG — các mốc là TRUNG BÌNH.
+  ⚠️ NOT a substitute for education or pediatric professionals.
+  Each child develops on their OWN TIMELINE — milestones are AVERAGES.
 ---
 
-# Skill Introduction — Giới Thiệu Kỹ Năng Cho Trẻ (0-6 Tuổi)
+# Skill Introduction — Introducing Skills to Children (Ages 0–6)
 
-> **Trẻ chạy CÙNG kiến trúc với người lớn.**
-> Cùng Perception-Action Cycle. Cùng chunk substrate. Cùng body-feedback.
-> Cùng PFC hardware — online từ prenatal (Hodel 2018).
+> **Children run on the SAME architecture as adults.**
+> Same Perception-Action Cycle. Same chunk substrate. Same body-feedback.
+> Same PFC hardware — online from prenatal (Hodel 2018).
 >
-> Chỉ KHÁC: chunk density.
+> The ONLY difference: chunk density.
 >
-> Natural-Development.md mô tả CÁI TỰ XẢY RA — đừng cản trở.
-> File này mô tả CÁI BỐ MẸ GIỚI THIỆU — đúng lúc, đúng cách.
+> Natural-Development.md describes WHAT HAPPENS NATURALLY — don't block it.
+> This file describes WHAT PARENTS INTRODUCE — at the right time, in the right way.
 >
-> Tại sao "cách" quan trọng?
-> Vì CÙNG kỹ năng + CÙNG trẻ + KHÁC cách giới thiệu
-> = KHÁC approach/avoidance tag gắn vào chunks compile
-> = KHÁC schema suốt đời: "kỹ năng X = thú vị" vs "kỹ năng X = bị ép"
+> Why does "how" matter?
+> Because SAME skill + SAME child + DIFFERENT introduction method
+> = DIFFERENT approach/avoidance tag compiled into chunks
+> = DIFFERENT lifelong schema: "skill X = interesting" vs "skill X = forced"
 >
-> Cơ chế tag: → Mechanism.md §3 (Approach/Avoidance Tags).
-> Cơ chế chunks: → Mechanism.md §2 (Compile Architecture).
-> File này: ÁP DỤNG thực tế per-skill + per-hardware.
+> Tag mechanism: → Mechanism.md §3 (Approach/Avoidance Tags).
+> Chunk mechanism: → Mechanism.md §2 (Compile Architecture).
+> This file: PRACTICAL APPLICATION per-skill + per-hardware.
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ TRONG BỘ FILES
-- §1 — NGUYÊN TẮC GỐC: 5 NGUYÊN TẮC XUYÊN SUỐT
-- §2 — EXPOSURE → STRUCTURE: 4 BƯỚC + APPROACH/AVOIDANCE TAG
-- §3 — KỸ NĂNG VẬN ĐỘNG: bơi, xe đạp, sport, dance
-- §4 — KỸ NĂNG ÂM NHẠC: nghe, hát, nhạc cụ
-- §5 — KỸ NĂNG NHẬN THỨC: đọc, viết, toán, ngôn ngữ 2
-- §6 — KỸ NĂNG SÁNG TẠO & BIỂU ĐẠT: vẽ, xây dựng, kể chuyện
+- §0 — POSITION IN THE FILE SET
+- §1 — CORE PRINCIPLES: 5 FOUNDATIONAL PRINCIPLES
+- §2 — EXPOSURE → STRUCTURE: 4 STEPS + APPROACH/AVOIDANCE TAG
+- §3 — MOTOR SKILLS: swimming, cycling, sport, dance
+- §4 — MUSIC SKILLS: listening, singing, instruments
+- §5 — COGNITIVE SKILLS: reading, writing, math, second language
+- §6 — CREATIVE & EXPRESSIVE SKILLS: drawing, construction, storytelling
 - §7 — CALIBRATE PER-CHILD: hardware adjustment
-- §8 — SAI LẦM & WARNING SIGNS
+- §8 — MISTAKES & WARNING SIGNS
 - §9 — HONEST ASSESSMENT
-- §10 — CÂU HỎI MỞ
+- §10 — OPEN QUESTIONS
 - §11 — CROSS-REFERENCES
 
 ---
 
-## §0 — VỊ TRÍ TRONG BỘ FILES
+## §0 — POSITION IN THE FILE SET
 
-### §0.1 — Bộ 4 files Child-Development
-
-```
-BỘ 4 FILES — PHÁT TRIỂN TRẺ 0-6:
-
-  Mother-Optimization.md        → TRƯỚC sinh (hardware con hình thành từ mẹ)
-  Natural-Development.md v2.3   → 0-6 tuổi: body/brain TỰ compile chunks (đừng cản)
-  Skill-Introduction.md v2.3    → Song song: bố mẹ GIỚI THIỆU kỹ năng (đúng lúc)
-       [FILE NÀY]
-  Child-Development-Mechanism.md → CƠ CHẾ v7.8: giải thích TẠI SAO
-       (PFC Reframe, Approach/Avoidance Tags, Chunk Dynamics, Self-Pattern-Modeling, Cortisol...)
-
-  ┌─────────────────────────────────────────────────────────────┐
-  │ Natural Development = NỀN                                   │
-  │   chạy LIÊN TỤC 0-6 tuổi                                  │
-  │   body tự compile chunks: bò, chạm, ngã, chơi, ngủ        │
-  │                                                             │
-  │ Skill Introduction = TẦNG TRÊN                              │
-  │   bắt đầu DẦN DẦN, song song với nền                      │
-  │   bố mẹ giới thiệu: nhạc, bơi, đọc, vẽ...                │
-  │   CHỈ KHI nền đủ + trẻ sẵn sàng                           │
-  │                                                             │
-  │ Mechanism = GIẢI THÍCH                                      │
-  │   CƠ CHẾ đằng sau cả Natural-Dev và Skill-Intro            │
-  │   Approach/avoidance tag, chunk dynamics, cortisol...       │
-  └─────────────────────────────────────────────────────────────┘
-
-  = Skill introduction KHÔNG thay thế natural development
-  = Skill introduction BUILD TRÊN natural development
-  = Nền yếu + skill sớm = xây nhà trên cát
-  = Nền mạnh + skill đúng lúc = xây nhà trên đá
-```
-
-### §0.2 — Phân biệt với các files khác
+### §0.1 — The 4-File Child-Development Set
 
 ```
-TRONG BỘ CHILD-DEVELOPMENT:
+4-FILE ARCHITECTURE — CHILD DEVELOPMENT 0–6:
 
-  Natural-Development.md:         CÁI ĐANG XẢY RA tự nhiên → hiểu để không cản
-  Child-Development-Mechanism.md: CƠ CHẾ v7.8 → TẠI SAO mọi thứ hoạt động
-  Skill-Introduction.md:          KỸ NĂNG CỤ THỂ nào, KHI NÀO, THẾ NÀO
-       [FILE NÀY]
+  Mother-Optimization.md        → BEFORE birth (child's hardware forms from the mother)
+  Natural-Development.md v2.3   → 0–6 years: body/brain SELF-compiles chunks
+                                    (don't block it)
+  Skill-Introduction.md v2.3    → In parallel: parents INTRODUCE skills (at the right time)
+       [THIS FILE]
+  Child-Development-Mechanism.md → MECHANISMS v7.8: explains WHY
+       (PFC Reframe, Approach/Avoidance Tags, Chunk Dynamics,
+        Self-Pattern-Modeling, Cortisol...)
 
-LIÊN KẾT VỚI FRAMEWORK:
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ Natural Development = FOUNDATION                                │
+  │   runs CONTINUOUSLY throughout 0–6                             │
+  │   body self-compiles chunks: crawling, touching, falling,      │
+  │   playing, sleeping                                            │
+  │                                                                 │
+  │ Skill Introduction = LAYER ON TOP                               │
+  │   begins GRADUALLY, in parallel with the foundation           │
+  │   parents introduce: music, swimming, reading, drawing...      │
+  │   ONLY WHEN foundation is sufficient + child is ready          │
+  │                                                                 │
+  │ Mechanism = EXPLAINS                                           │
+  │   MECHANISMS behind both Natural-Dev and Skill-Intro           │
+  │   Approach/avoidance tag, chunk dynamics, cortisol...          │
+  └─────────────────────────────────────────────────────────────────┘
 
-  Education-Bridge.md:    CƠ CHẾ MOTIVATION cho learning (bridge)
+  = Skill introduction does NOT replace natural development
+  = Skill introduction BUILDS ON natural development
+  = Weak foundation + early skill = building a house on sand
+  = Strong foundation + timely skill = building a house on rock
+```
+
+### §0.2 — How This File Differs from Others
+
+```
+WITHIN THE CHILD-DEVELOPMENT SET:
+
+  Natural-Development.md:          WHAT IS NATURALLY HAPPENING → understand so you DON'T BLOCK
+  Child-Development-Mechanism.md:  MECHANISMS v7.8 → WHY everything works
+  Skill-Introduction.md:           WHICH SPECIFIC SKILLS, WHEN, HOW
+       [THIS FILE]
+
+CONNECTIONS TO THE FRAMEWORK:
+
+  Education-Bridge.md:    MOTIVATION MECHANISM for learning (bridge)
   Personal-Melody.md:     Passion development → melody-arc per-child
   Attention-Spectrum.md:  DRD4 spectrum → per-hardware adjustment
 
-  VD: dạy con piano
-    → Natural-Dev: não 3 tuổi — chunks chiến lược chưa compile đủ,
-         motor tinh đang phát triển (→ Mechanism §1)
-    → Mechanism: approach/avoidance tag quyết định schema suốt đời (→ §3)
-    → Edu-Bridge: bridge nào? curiosity > carrot > threat
-    → Skill-Intro: piano khi nào? exposure trước, readiness sign gì?
-         bắt đầu thế nào? per-hardware adjust ra sao?
-    → = 4+ files BỔ SUNG nhau, không overlap
+  E.g.: teaching a child piano
+    → Natural-Dev: brain at age 3 — strategy chunks not yet compiled in sufficient
+         density, fine motor developing (→ Mechanism §1)
+    → Mechanism: approach/avoidance tag determines lifelong schema (→ §3)
+    → Edu-Bridge: which bridge? curiosity > carrot > threat
+    → Skill-Intro: piano when? exposure first, what readiness signs?
+         how to start? per-hardware adjustment?
+    → = 4+ files COMPLEMENT each other, no overlap
 ```
 
-### §0.3 — Cách đọc file này
+### §0.3 — How to Read This File
 
 ```
-NẾU BẠN LÀ BỐ MẸ (thực hành):
-  → Đọc §1 (nguyên tắc) + §2 (4 bước) → NỀN TẢNG
-  → Đọc §3-§6 CÁI LIÊN QUAN đến kỹ năng bạn quan tâm
-  → Đọc §7 per-hardware → adjust cho CON BẠN
-  → Đọc §8 warning signs → biết khi nào DỪNG
+IF YOU ARE A PARENT (practical use):
+  → Read §1 (principles) + §2 (4 steps) → FOUNDATION
+  → Read §3–§6 RELEVANT to the skill you care about
+  → Read §7 per-hardware → adjust for YOUR CHILD
+  → Read §8 warning signs → know when to STOP
 
-NẾU BẠN MUỐN HIỂU SÂU (cơ chế):
-  → Đọc Mechanism.md trước (đặc biệt §3 Approach/Avoidance Tags)
-  → Sau đó: file này = cách ÁP DỤNG cơ chế đó per-skill
+IF YOU WANT DEEP UNDERSTANDING (mechanisms):
+  → Read Mechanism.md first (especially §3 Approach/Avoidance Tags)
+  → Then: this file = how to APPLY that mechanism per-skill
 
-CONCEPT V7.8 XUYÊN SUỐT FILE NÀY:
-  → "Chunks compile" thay vì "não wire" — chunks = đơn vị học (→ Mechanism §2)
-  → "Approach/avoidance tag" — body-state lúc compile quyết định tag (→ Mechanism §3)
+v7.8 CONCEPTS RUNNING THROUGH THIS FILE:
+  → "Chunks compile" instead of "brain wires" — chunks = unit of learning (→ Mechanism §2)
+  → "Approach/avoidance tag" — body-state at compile determines tag (→ Mechanism §3)
   → "Body signal" = Hardware-Signal + Evaluative-Signal (Body-Feedback-Label v2.1 3-tier)
-     Trẻ 0-6: chủ yếu Tier 1 (Hardware-Signal: cơ bản, raw)
-     + dần Tier 2 (Evaluative-Signal: approach/avoidance)
-     Chưa có Tier 3 (Integration-Signal: PFC label, conscious feeling)
+     Children 0–6: primarily Tier 1 (Hardware-Signal: basic, raw)
+     + gradually Tier 2 (Evaluative-Signal: approach/avoidance)
+     Not yet Tier 3 (Integration-Signal: PFC label, conscious feeling naming)
      (→ Mechanism §5, Body-Feedback-Label.md v2.1)
-  → "prediction-delta" = body phát hiện delta giữa predicted vs actual
-     → TẤT CẢ body-feedback = prediction-delta detection (→ PFC-Label.md v1.0)
-  → "Readiness" = chunks prerequisite ĐÃ compile đủ (→ Mechanism §1, §2)
-  → "Schema" = cluster chunks có chung tag → "piano = enjoy" hay "piano = threat"
+  → "Prediction-delta" = body detects delta between predicted vs actual
+     → ALL body-feedback = prediction-delta detection (→ PFC-Label.md v1.0)
+  → "Readiness" = prerequisite chunks ALREADY compiled in sufficient density
+     (→ Mechanism §1, §2)
+  → "Schema" = cluster of chunks sharing a tag → "piano = enjoyable"
+     or "piano = threat"
 ```
 
 ---
 
-## §1 — NGUYÊN TẮC GỐC: 5 NGUYÊN TẮC XUYÊN SUỐT
+## §1 — CORE PRINCIPLES: 5 FOUNDATIONAL PRINCIPLES
 
-### §1.1 — READINESS > AGE (sẵn sàng > tuổi)
+### §1.1 — READINESS > AGE
 
 ```
-SAI: "3 tuổi nên học piano" (tuổi quyết định)
-ĐÚNG: "khi nào trẻ SẴN SÀNG thì bắt đầu" (readiness quyết định)
+WRONG: "3-year-olds should learn piano" (age decides)
+RIGHT: "begin when child IS READY" (readiness decides)
 
-READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
+READINESS = 3 CONDITIONS SIMULTANEOUSLY:
 
-  ① NÃO/CƠ THỂ ĐỦ (biological readiness)
-     → Chunks prerequisite ĐÃ compile + myelination đủ tốc độ
+  ① BRAIN/BODY SUFFICIENT (biological readiness)
+     → Prerequisite chunks ALREADY compiled + myelination sufficient speed
        (→ Mechanism §1: hardware online, chunks missing)
-     → Cơ thể đủ mạnh / đủ coordination
-     → VD: piano cần fine motor (pincer grip chắc, ngón độc lập)
-       → Thường ~5-6 tuổi, NHƯNG mỗi trẻ KHÁC
+     → Body strong enough / coordination sufficient
+     → E.g.: piano requires fine motor (pincer grip solid, fingers independent)
+       → Usually ~5–6 years, BUT each child is DIFFERENT
 
-  ② TRẺ THỂ HIỆN HỨNG THÚ (interest signal)
-     → Tự chạm, tự thử, hỏi về, nhìn chăm chú, bắt chước
-     → = Body đang NÓI: "cái này thú vị, tôi muốn thử"
-     → KHÔNG có interest signal → CHƯA phải lúc (dù não đủ)
+  ② CHILD SHOWS INTEREST (interest signal)
+     → Self-touches, self-tries, asks about it, stares intently, imitates
+     → = Body IS SAYING: "this is interesting, I want to try"
+     → NO interest signal → NOT YET time (even if brain is ready)
 
-  ③ KHÔNG CÓ RESISTANCE SIGNAL (no aversion)
-     → Không né tránh, không khóc khi tiếp xúc, không cứng người
-     → Resistance ≠ "lười" → = body NÓI: "chưa sẵn sàng" hoặc "không phải hướng tôi"
+  ③ NO RESISTANCE SIGNAL (no aversion)
+     → Doesn't avoid, doesn't cry when exposed, doesn't tense up
+     → Resistance ≠ "lazy" → = body SAYING: "not ready yet"
+       or "not my direction"
 
-  CẢ 3 CÓ → bắt đầu ✅
-  THIẾU 1 → ĐỢI hoặc THỬ cách khác
+  ALL 3 PRESENT → begin ✅
+  MISSING 1 → WAIT or TRY a different approach
 
-  🟡 READINESS QUA LENS GAP-DIRECTION (→ Gap-Direction.md v2.0):
-  → Gap có HƯỚNG = f(surrounding chunks). Trẻ chưa có chunks xung quanh skill
-    → gap CÓ THỂ chưa hình thành, hoặc hướng chưa toward skill
-  → Interest signal = gap ĐÃ hướng toward skill (body đang "kéo" về phía đó)
-  → No interest = gap chưa tồn tại HOẶC hướng khác → ÉP = KHÔNG CÓ GAP ĐỂ FILL
+  🟡 READINESS THROUGH GAP-DIRECTION LENS (→ Gap-Direction.md v2.0):
+  → Gap has DIRECTION = f(surrounding chunks). Child without surrounding chunks for
+    a skill → gap MAY not yet exist, or direction not yet toward the skill
+  → Interest signal = gap ALREADY directed toward the skill
+    (body is being "pulled" in that direction)
+  → No interest = gap doesn't yet exist OR direction is elsewhere
+    → FORCING = NO GAP TO FILL
 
-  TẠI SAO READINESS > AGE? (→ Mechanism §3: approach/avoidance tag)
-  → Cùng tuổi: trẻ A myelin hóa motor nhanh, trẻ B chậm hơn → hardware KHÁC
-  → Ép trẻ B theo timeline trẻ A → chunks compile với frustration
-  → Tag: AVOIDANCE → schema "piano = tôi không đủ giỏi = threat"
-  → Đợi trẻ B ready → chunks compile với success
-  → Tag: APPROACH → schema "piano = tôi LÀM ĐƯỢC = enjoy"
-  → = CÙNG KỸ NĂNG, khác TIMING → khác TAG → khác trajectory suốt đời
+  WHY READINESS > AGE? (→ Mechanism §3: approach/avoidance tag)
+  → Same age: Child A myelinates motor fast, Child B slower → DIFFERENT hardware
+  → Forcing Child B on Child A's timeline → chunks compile with frustration
+  → Tag: AVOIDANCE → schema "piano = I'm not good enough = threat"
+  → Waiting for Child B to be ready → chunks compile with success
+  → Tag: APPROACH → schema "piano = I CAN DO IT = enjoyable"
+  → = SAME SKILL, different TIMING → different TAG → different trajectory for life
 ```
 
-### §1.2 — BODY SIGNAL QUYẾT ĐỊNH
+### §1.2 — BODY SIGNAL DECIDES
 
 ```
-  Bố mẹ HAY quyết theo LOGIC: "piano tốt cho não → cho con học piano"
-  Framework: body signal trẻ QUAN TRỌNG hơn logic bố mẹ
+  Parents often decide by LOGIC: "piano is good for the brain → enroll child in piano"
+  Framework: child's body signal MATTERS MORE than parent's logic
 
-  V7.8: Body signal = prediction-delta detection (body phát hiện
-    sai khác giữa predicted vs actual → tạo body-feedback signal)
-    Trẻ 0-6: chủ yếu Hardware-Signal (Tier 1) + Evaluative-Signal (Tier 2)
-    CHƯA có Integration-Signal (Tier 3: PFC label = conscious feeling naming)
-    → Trẻ KHÔNG giải thích được TẠI SAO thích/ghét → CHỈ THỂ HIỆN qua body
-    → Bố mẹ QUAN SÁT body = đọc prediction-delta signals RAW của trẻ
+  v7.8: Body signal = prediction-delta detection (body detects
+    difference between predicted vs actual → creates body-feedback signal)
+    Children 0–6: primarily Hardware-Signal (Tier 1) + Evaluative-Signal (Tier 2)
+    NOT YET Integration-Signal (Tier 3: PFC label = conscious feeling naming)
+    → Child CANNOT explain WHY they like/dislike → only EXPRESSES through body
+    → Parents OBSERVE body = reading child's RAW prediction-delta signals
     (→ Mechanism §5, Body-Feedback-Label.md v2.1, PFC-Label.md v1.0)
 
-  BODY SIGNAL "CÓ":
-    → Mắt sáng lên khi thấy/nghe
-    → Tự với tay / tự thử (không ai bảo)
-    → Hỏi: "mẹ, cái đó là gì?" / "con muốn thử"
-    → Lặp lại: làm đi làm lại không chán
-    → Cười / hào hứng trong quá trình
-    → = Body đang NÓI: "cái này resonance với tôi" → APPROACH direction
+  BODY SIGNAL "YES":
+    → Eyes light up when seeing/hearing
+    → Self-reaches / self-tries (without anyone prompting)
+    → Asks: "what's that?" / "I want to try"
+    → Repeats: does it over and over without getting bored
+    → Smiles / excited during the process
+    → = Body IS SAYING: "this resonates with me" → APPROACH direction
 
-  BODY SIGNAL "KHÔNG":
-    → Quay mặt / né tránh
-    → Cứng người khi được đặt vào tình huống
-    → Khóc / tantrum khi phải practice
-    → Mất tập trung NGAY (không phải sau 1 lúc — mà NGAY từ đầu)
-    → Nói: "con không thích" (nếu đã biết nói)
-    → = Body đang NÓI: "không phải lúc" hoặc "không phải hướng tôi" → AVOIDANCE direction
+  BODY SIGNAL "NO":
+    → Turns away / avoids
+    → Tenses when placed in the situation
+    → Cries / tantrums when forced to practice
+    → Loses focus IMMEDIATELY (not after a while — IMMEDIATELY from the start)
+    → Says: "I don't like it" (if verbal)
+    → = Body IS SAYING: "not the right time" or "not my direction" → AVOIDANCE direction
 
-  ⭐ PHÂN BIỆT QUAN TRỌNG:
-    "Khó" ≠ "Không thích"
-    → Trẻ gặp khó → tức → nhưng QUAY LẠI THỬ TIẾP = thích + đang learn
-    → Trẻ gặp khó → né → KHÔNG QUAY LẠI = chưa ready hoặc không thích
-    → = Signal "quay lại" vs "né" là KEY
+  ⭐ IMPORTANT DISTINCTION:
+    "Difficult" ≠ "Doesn't like"
+    → Child faces difficulty → frustrated → but COMES BACK TO TRY AGAIN = likes it + learning
+    → Child faces difficulty → avoids → DOESN'T COME BACK = not ready or doesn't like it
+    → = Signal "comes back" vs "avoids" is the KEY
 
   🟡 DISSONANCE SIGNAL (→ Dissonance-Signal-Architecture.md v1.0):
-    → Khi body signal trẻ bị IGNORE (ép tiếp dù body nói "không"):
-      cortisol AMPLIFY dissonance (cortisol không TẠO dissonance — KHUẾCH ĐẠI)
-    → Signal bị ignore LẶP LẠI → dissonance tích lũy → body-listening suy yếu
-    → Inconsistency đặc biệt harmful: "hôm nay OK, mai ép" → body không predict được
+    → When child's body signal is IGNORED (forcing on despite body saying "no"):
+      cortisol AMPLIFIES dissonance (cortisol does NOT CREATE dissonance — AMPLIFIES)
+    → Ignored signal REPEATED → dissonance accumulates → body-listening weakens
+    → Inconsistency especially harmful: "OK today, force tomorrow"
+      → body cannot predict → especially damaging
 
-  🟡 SELF-OBSERVATION MỨC × READINESS (→ Self-Observation.md v1.0 §4):
+  🟡 SELF-OBSERVATION LEVEL × READINESS (→ Self-Observation.md v1.0 §4):
 
-    Self-Observation = Feeling hướng SELF (APPLICATION-3 trên Simulation-Engine).
-    Mức Self-Observation trẻ = READINESS INDICATOR cho self-paced learning:
+    Self-Observation = Feeling directed at SELF (APPLICATION-3 on Simulation-Engine).
+    Child's Self-Observation Level = READINESS INDICATOR for self-paced learning:
 
-    Mức 1 (Body-Detect): trẻ DETECT discomfort nhưng CHƯA nhận diện
-      → KHÔNG THỂ report "tôi mệt" → CẦN bố mẹ/thầy observe external
-      → 0-18 tháng: mọi skill practice CẦN external monitoring 100%
+    Level 1 (Body-Detect): child DETECTS discomfort but CANNOT YET identify it
+      → CANNOT report "I'm tired" → REQUIRES parent/teacher to observe externally
+      → 0–18 months: all skill practice REQUIRES 100% external monitoring
 
-    Mức 2 (Body-Recognize): trẻ CÓ THỂ report "tôi mệt", "tôi chán"
-      → CÓ THỂ self-pace ở mức cơ bản → "con muốn tiếp không?" → trẻ TRẢ LỜI được
-      → ~18 tháng - 3 tuổi dần có → per-child varies
+    Level 2 (Body-Recognize): child CAN report "I'm tired," "I'm bored"
+      → CAN self-pace at a basic level → "want to keep going?" → child CAN ANSWER
+      → ~18 months – 3 years gradually emerging → per-child varies
 
-    Mức 3 (Body-Predict): trẻ DỰ ĐOÁN "chút nữa tôi sẽ mệt"
-      → CÓ THỂ self-regulate practice duration → "con tập thêm chút rồi nghỉ"
-      → ~4-6 tuổi dần emerging → nhưng VẪN CẦN external scaffold
+    Level 3 (Body-Predict): child PREDICTS "I'll be tired soon"
+      → CAN self-regulate practice duration → "let me do a bit more then rest"
+      → ~4–6 years gradually emerging → but STILL NEEDS external scaffold
 
     SELF-OBSERVATION DURING PRACTICE:
       → Body-feedback DURING practice = quality signal (not just before/after)
-      → "Sao con? Mệt chưa?" = scaffold Mức 2→3 (parent label body state)
-      → "Con thấy tay hơi đau không? Nghỉ nhé" = parent label FOR child
-      → = Bố mẹ/thầy = External Scaffold per-Mức (→ Self-Observation §2.4)
+      → "How are you? Tired yet?" = scaffold Level 2→3 (parent labels body state)
+      → "Does your hand feel a little sore? Let's rest" = parent labels FOR child
+      → = Parents/teachers = External Scaffold per-Level (→ Self-Observation §2.4)
 
     CAREGIVER ON/OFF SWITCH (→ Self-Observation §6.2):
-      → Responsive to body signal DURING practice → signal meaningful → Mức 2 GROW
-      → Ignore body signal DURING practice → signal meaningless → body-listening WEAKEN
+      → Responsive to body signal DURING practice → signal meaningful → Level 2 GROWS
+      → Ignore body signal DURING practice → signal meaningless → body-listening WEAKENS
       → = HOW you handle body signals during skill practice
         = HOW child develops Self-Observation
 ```
 
-### §1.3 — SKILL PHỤC VỤ IMAGINE-FINAL CỦA TRẺ
+### §1.3 — SKILL SERVES THE CHILD'S IMAGINE-FINAL
 
 ```
-  SAI: bố mẹ chọn skill cho con theo Imagine-Final CỦA BỐ MẸ
-    → "Con phải học piano vì bố mẹ muốn con giỏi nhạc"
-    → "Con phải học tiếng Anh vì tương lai cần"
-    → = Imagine-Final của BỐ MẸ → áp lên trẻ
+  WRONG: parents choose skills for the child according to PARENTS' Imagine-Final
+    → "Child MUST learn piano because we want our child to be good at music"
+    → "Child MUST learn English because the future requires it"
+    → = Parents' Imagine-Final → imposed on the child
 
-  ĐÚNG: skill phục vụ HƯỚNG ĐI ĐANG HIỆN của trẻ
-    → Con thích côn trùng → sách côn trùng, kính lúp, vườn, museum
-    → Con thích xây → lego, blocks, cát, gỗ, xưởng mini
-    → Con thích âm thanh → nhạc cụ, hát, rhythm games
-    → = Observe Imagine-Final ĐANG HIỆN → support HƯỚNG ĐÓ
+  RIGHT: skill serves the child's CURRENT EMERGING DIRECTION
+    → Child likes insects → insect books, magnifying glass, garden, museum
+    → Child likes building → lego, blocks, sand, wood, mini workshop
+    → Child likes sounds → instruments, singing, rhythm games
+    → = Observe CURRENT Imagine-Final → support THAT DIRECTION
 
-  NGOẠI LỆ — BASIC SKILLS (cần cho MỌI trẻ):
-    → Bơi: an toàn dưới nước — giới thiệu cho TẤT CẢ (cách nào phù hợp)
-    → Ngôn ngữ: đọc, giao tiếp — nền tảng cho MỌI hướng
-    → Vận động cơ bản: chạy, nhảy, leo — sức khỏe + motor foundation
-    → = Với basic skills: giới thiệu cho TẤT CẢ, nhưng VẪN respect body signal
-    → = CÁCH giới thiệu VẪN theo 4 bước (§2), chỉ có QUYẾT ĐỊNH giới thiệu là của bố mẹ
+  EXCEPTION — BASIC SKILLS (needed by ALL children):
+    → Swimming: water safety — introduce to ALL (in whatever way fits)
+    → Language: reading, communication — foundation for ALL directions
+    → Basic movement: running, jumping, climbing — health + motor foundation
+    → = With basic skills: introduce to ALL, but STILL respect body signal
+    → = HOW to introduce STILL follows the 4 steps (§2),
+      only the DECISION to introduce is the parent's
 
-  🟡 IMAGINE-FINAL Ở 0-6 = CHƯA ỔN ĐỊNH:
-    → Imagine-Final CẦN Simulation-Engine (→ Simulation-Engine.md v1.0):
+  🟡 IMAGINE-FINAL AT 0–6 = NOT YET STABLE:
+    → Imagine-Final NEEDS Simulation-Engine (→ Simulation-Engine.md v1.0):
       3 components (Constructive Simulation + Interoception + Self/Other Model)
-      → Trẻ 3 tuổi: Simulation-Engine MỚI bắt đầu → simulate đơn giản, ngắn
-      → Trẻ 5-6 tuổi: Simulation-Engine mạnh hơn → nhưng VẪN hạn chế
-    → Trẻ 3 tuổi: "con muốn làm bác sĩ!" → tuần sau: "con muốn làm đầu bếp!"
-    → = BÌNH THƯỜNG → Simulation-Engine đang thử nhiều hướng
-    → Bố mẹ: ĐỪNG lock vào 1 hướng → expose ĐA DẠNG → body sẽ dần signal rõ hơn
-    → Sở thích BỀN (~4-6 tuổi): nếu 1 hướng giữ vài tháng → body resonance MẠNH
-    → = Lúc đó: invest sâu hơn vào hướng đó (nhưng VẪN giữ exposure đa dạng)
+      → Child age 3: Simulation-Engine JUST STARTING → simulates simply, briefly
+      → Child 5–6: Simulation-Engine stronger → but STILL limited
+    → 3-year-old: "I want to be a doctor!" → next week: "I want to be a chef!"
+    → = NORMAL → Simulation-Engine is trying many directions
+    → Parents: DON'T lock into 1 direction → expose DIVERSELY
+      → body will gradually signal more clearly
+    → Durable interests (~4–6 years): if 1 direction holds for a few months
+      → body resonance STRONG
+    → = Then: invest more deeply in that direction
+      (but STILL keep diverse exposure)
 ```
 
-### §1.4 — CHẤT LƯỢNG > SỐ LƯỢNG
+### §1.4 — QUALITY > QUANTITY
 
 ```
-  SAI: "con học 5 môn / tuần → đa dạng → tốt"
-  ĐÚNG: "con học 1-2 môn sâu + nhiều free play → tốt HƠN"
+  WRONG: "child learns 5 activities per week → diverse → good"
+  RIGHT: "child learns 1–2 activities deeply + lots of free play → BETTER"
 
-  TẠI SAO?
+  WHY?
 
   ① DEEP ENGAGEMENT → DEEP COMPILE (→ Mechanism §2)
-     → 1 skill 30 phút TẬP TRUNG > 5 skills mỗi cái 10 phút lướt qua
-     → Deep = Fresh processing → dần Compiled processing (tự động, body biết)
-       (→ Compiled-Fresh.md v2.0: Fresh = PFC effortful / Compiled = tự động)
-     → Shallow = chunks rải rác → mãi Fresh, không đủ density để compile
-     → Deep engagement = Generative firing mode (tạo chunks MỚI)
-       Shallow = Reactive firing mode (chỉ phản ứng, không tạo mới)
+     → 1 skill for 30 minutes FOCUSED > 5 skills 10 minutes each skimmed
+     → Deep = Fresh processing → gradually Compiled processing (automatic, body knows)
+       (→ Compiled-Fresh.md v2.0: Fresh = PFC effortful / Compiled = automatic)
+     → Shallow = scattered chunks → stays Fresh forever, not enough density to compile
+     → Deep engagement = Generative Firing Mode (creates NEW chunks)
+       Shallow = Reactive Firing Mode (only responds, doesn't create new)
        (→ Valence-Propagation.md v3.0: 3 Firing Modes)
 
   ② MASTERY → CONFIDENCE → IMAGINE-FINAL
-     → 1 skill đủ SÂU → trẻ CẢM THẤY "tôi GIỎI cái này"
+     → 1 skill deep enough → child FEELS "I'm GOOD at this"
      → = Status + identity + body confidence
-     → 5 skills nông → trẻ cảm thấy "tôi biết tí tí mấy cái" → không có anchor
-     → = Mastery ở 1 domain → spillover confidence cho domains khác
+     → 5 skills shallow → child feels "I know a little bit of many things" → no anchor
+     → = Mastery in 1 domain → spillover confidence to other domains
 
-  ③ THỜI GIAN HỮU HẠN
-     → Trẻ 0-6 CẦN free play + ngủ + natural exploration (Natural-Dev)
-     → Quá nhiều skill = CẮT free play → CẮT creativity, problem-solving, social
-     → = Skill introduction PHẢI CẠNH TRANH với free play
-     → = Chỉ giữ CÁI TRẺ THẬT SỰ THÍCH + basic skills
-     → Còn lại → free play TỐT hơn lớp học
+  ③ LIMITED TIME
+     → Children 0–6 NEED free play + sleep + natural exploration (Natural-Dev)
+     → Too many skills = CUTS free play → CUTS creativity, problem-solving, social
+     → = Skill introduction MUST COMPETE with free play time
+     → = Only keep WHAT CHILD TRULY ENJOYS + basic skills
+     → Everything else → free play is BETTER than a class
 
-  GUIDELINE (không phải rule cứng):
-    2-3 tuổi: 0-1 hoạt động có cấu trúc / tuần → còn lại: play + explore
-    3-4 tuổi: 1-2 hoạt động / tuần
-    4-6 tuổi: 2-3 hoạt động / tuần (MAX)
-    → CÒN LẠI: chơi tự do, thiên nhiên, gia đình, nghỉ ngơi
+  GUIDELINE (not a rigid rule):
+    2–3 years: 0–1 structured activity / week → rest: play + explore
+    3–4 years: 1–2 activities / week
+    4–6 years: 2–3 activities / week (MAX)
+    → THE REST: free play, nature, family time, rest
 ```
 
-### §1.5 — QUÁ TRÌNH > KẾT QUẢ
+### §1.5 — PROCESS > RESULT
 
 ```
-  SAI: "Con vẽ cái gì đây? Đẹp chưa?" (focus KẾT QUẢ)
-  ĐÚNG: "Con đang vẽ à! Con dùng MÀU GÌ thế?" (focus QUÁ TRÌNH)
+  WRONG: "What did you draw? Is it pretty?" (focus on RESULT)
+  RIGHT: "You're drawing! What COLORS did you use?" (focus on PROCESS)
 
-  TẠI SAO?
+  WHY?
 
-  FOCUS KẾT QUẢ (→ Mechanism §3: threat-path → avoidance tag):
-    → Trẻ learn: "sản phẩm phải ĐẸP / ĐÚNG / GIỎI"
+  RESULT FOCUS (→ Mechanism §3: threat-path → avoidance tag):
+    → Child learns: "the product must be PRETTY / CORRECT / SKILLED"
     → = Performance pressure → cortisol threat-direction → AVOIDANCE tag
-    → Schema: "skill = phải đạt = threat" → tránh thử cái mới
-    → = Risk aversion → creativity GIẢM → exploration GIẢM
+    → Schema: "skill = must achieve = threat" → avoids trying new things
+    → = Risk aversion → creativity DECREASES → exploration DECREASES
 
-  FOCUS QUÁ TRÌNH (→ Mechanism §3: novelty-path → approach tag):
-    → Trẻ learn: "THỬ là thú vị, CÁCH LÀM là hay"
+  PROCESS FOCUS (→ Mechanism §3: novelty-path → approach tag):
+    → Child learns: "TRYING is interesting, HOW TO DO IT is interesting"
     → = Process engagement → curiosity → cortisol novelty-direction → APPROACH tag
-    → Schema: "skill = khám phá = enjoy" → dám thử cái mới
-    → = Risk tolerance → creativity GIỮ → exploration GIỮ
+    → Schema: "skill = exploration = enjoyable" → dares to try new things
+    → = Risk tolerance → creativity PRESERVED → exploration PRESERVED
 
-  🟡 HARDWARE-SUBSIDY CHO QUÁ TRÌNH (→ Connection.md v5.0 §3.4):
-    → Khi bố mẹ CÙNG practice: oxytocin + opioid = Hardware-Subsidy
-    → Hardware-Subsidy = cơ chế sinh học CHỐNG HABITUATION
-    → = Body trẻ KHÔNG CHÁN nhanh khi có bố mẹ bên cạnh
-    → = Process reward TĂNG nhờ Hardware-Subsidy → approach tag MẠNH hơn
-    → Bố mẹ practice 1 MÌNH: không có Hardware-Subsidy → chán nhanh hơn
+  🟡 HARDWARE-SUBSIDY FOR PROCESS (→ Connection.md v5.0 §3.4):
+    → When parents PRACTICE TOGETHER: oxytocin + opioid = Hardware-Subsidy
+    → Hardware-Subsidy = biological mechanism COUNTERING HABITUATION
+    → = Child's body does NOT get bored as quickly when parents are beside them
+    → = Process reward INCREASES with Hardware-Subsidy → approach tag STRONGER
+    → Child practicing ALONE: no Hardware-Subsidy → gets bored faster
 
-  CÁCH THỰC HÀNH:
+  HOW TO PRACTICE:
 
-    THAY VÌ                    →  THỬ
-    "Vẽ đẹp lắm!"             →  "Con dùng rất nhiều màu nhỉ!"
-    "Con chơi đàn giỏi quá!"  →  "Mẹ nghe con tập bài mới hả?"
-    "Con thua rồi"             →  "Lần này chưa được — con thấy chỗ nào khó?"
-    "10 điểm! Giỏi!"          →  "Con thấy bài hôm nay thế nào?"
-    "Sai rồi!"                →  "Ồ, thử cách khác xem?"
+    INSTEAD OF                     → TRY
+    "What a great drawing!"        → "You used so many colors!"
+    "You play piano so well!"      → "Are you practicing your new piece?"
+    "You lost"                     → "Didn't get it this time — where did it feel hard?"
+    "10 points! Brilliant!"        → "How did you feel about today's piece?"
+    "That's wrong!"                → "Oh, want to try a different way?"
 
-  = Khen QUÁ TRÌNH (effort, strategy, curiosity)
-  = KHÔNG khen KẾT QUẢ (đẹp, giỏi, đúng, nhất)
+  = Praise the PROCESS (effort, strategy, curiosity)
+  = DON'T praise the RESULT (pretty, smart, correct, first place)
   → 🟢 Research: Carol Dweck — "growth mindset" vs "fixed mindset"
-    → Khen "thông minh" (trait) → fixed mindset → tránh thử thách
-    → Khen "cố gắng" (process) → growth mindset → đón thử thách
+    → Praising "smart" (trait) → fixed mindset → avoids challenges
+    → Praising "tried hard" (process) → growth mindset → embraces challenges
 ```
 
-### §1.6 — 4 BƯỚC × COMPILE TYPE: EXPERIENCE DẪN TRƯỚC, TRUST THEO SAU
+### §1.6 — 4 STEPS × COMPILE TYPE: EXPERIENCE LEADS, TRUST FOLLOWS
 
 ```
-⭐ 4 BƯỚC = ĐẢM BẢO EXPERIENCE COMPILE BUILD APPROACH TAGS
-  TRƯỚC KHI TRUST COMPILE INSTALL CONTENT (Compile-Taxonomy.md v3.0 §4):
+⭐ 4 STEPS = ENSURING EXPERIENCE COMPILE BUILDS APPROACH TAGS
+  BEFORE TRUST COMPILE INSTALLS CONTENT (Compile-Taxonomy.md v3.0 §4):
 
   3 Compile Types = dominant modulator configurations:
-    Experience Compile: Engine + direct exposure → CHẬM, SÂU, TỰ verify
-    Trust Compile:      Engine + Entity-Valence dominant → NHANH, Entity install
+    Experience Compile: Engine + direct exposure → SLOW, DEEP, SELF-verifying
+    Trust Compile:      Engine + Entity-Valence dominant → FAST, Entity installs
     Expertise Compile:  Engine + PFC sustained → YEARS, mastery
 
-  4 BƯỚC × COMPILE TYPE:
+  4 STEPS × COMPILE TYPE:
 
-    Bước 1 (Exposure):  Experience Compile — body thu thập data trực tiếp
-      → Compile Engine qua external exposure → chunks sensory + causal
-      → KHÔNG có Trust Compile (chưa có instruction từ ai)
+    Step 1 (Exposure):  Experience Compile — body collects data directly
+      → Compile Engine via external exposure → sensory + causal chunks
+      → NO Trust Compile (no instruction from anyone yet)
 
-    Bước 2 (Interest):  Experience Compile — body tự signal resonance
-      → VTA fire → approach tag TỰ NHIÊN (không ai install)
-      → = Experience-driven approach = MẠNH NHẤT, KHÓ gỡ nhất
+    Step 2 (Interest):  Experience Compile — body signals resonance naturally
+      → VTA fires → approach tag NATURALLY (no one installs it)
+      → = Experience-driven approach = STRONGEST, HARDEST to remove
 
-    Bước 3 (Guided):    Experience 70% + Trust 30%
-      → Trẻ TỰ khám phá (Experience) + bố mẹ introduce basic (Trust)
-      → Trust Compile effective vì Entity-Valence ĐÃ positive (bố mẹ = trusted entity)
-      → = Trust install trên NỀN approach → install SÂU + ĐÚNG HƯỚNG
+    Step 3 (Guided):    Experience 70% + Trust 30%
+      → Child SELF-EXPLORES (Experience) + parent introduces basics (Trust)
+      → Trust Compile effective because Entity-Valence ALREADY positive
+        (parent = trusted entity)
+      → = Trust installs ON TOP OF approach foundation → installs DEEP + CORRECTLY DIRECTED
 
-    Bước 4 (Structured): Trust 60% + Experience 40%
-      → Thầy/sách install content (Trust Compile dominant)
-      → Trẻ practice + verify (Experience Compile continues)
-      → Trust Compile effective vì VALUE stream ĐÃ approach từ bước 1-3
+    Step 4 (Structured): Trust 60% + Experience 40%
+      → Teacher/book installs content (Trust Compile dominant)
+      → Child practices + verifies (Experience Compile continues)
+      → Trust Compile effective because VALUE stream ALREADY approach from steps 1–3
 
-  ⭐ TẠI SAO EXPERIENCE DẪN TRƯỚC TRUST:
+  ⭐ WHY EXPERIENCE LEADS BEFORE TRUST:
 
-    Experience Compile → approach tag VÀO Value stream TRƯỚC
-    → Sau đó Trust Compile install content → Content stream tiếp nhận HIỆU QUẢ
-    → Vì: Trust Compile amplify VALUE (Mức 0-5), KHÔNG amplify CONTENT
-    → Content compile qua Engine bất kể Trust (Mechanism v2.3 §2.6)
+    Experience Compile → approach tag INTO Value stream FIRST
+    → Then Trust Compile installs content → Content stream receives EFFECTIVELY
+    → Because: Trust Compile amplifies VALUE (Level 0–5), does NOT amplify CONTENT
+    → Content compiles through Engine regardless of Trust (Mechanism v2.3 §2.6)
 
-    Skip bước 1-3 = Trust Compile TRƯỚC Experience:
-    → Thầy install "piano = tốt" (Trust) → NHƯNG trẻ chưa có body data
-    → VALUE stream: Trust amplifier ≈ 0 (thầy LẠ, chưa trusted entity)
-    → CONTENT stream: compile OK (repetition, exposure)
-    → = "Biết chơi nhưng KHÔNG thích" = Content ✓, Value ✗
+    Skip steps 1–3 = Trust Compile BEFORE Experience:
+    → Teacher installs "piano = good" (Trust) → BUT child has no body data yet
+    → VALUE stream: Trust amplifier ≈ 0 (teacher is UNFAMILIAR, not yet trusted entity)
+    → CONTENT stream: compiles OK (repetition, exposure)
+    → = "Can play but DOESN'T LIKE it" = Content ✓, Value ✗
 
   → Cross-ref: Compile-Taxonomy.md v3.0 §4 (3 Compile Types)
   → Cross-ref: Mechanism v2.3 §2.6 (Multi-Stream)
@@ -469,36 +483,37 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
 ### §1.7 — TRUST × INSTRUCTOR = VALUE STREAM AMPLIFIER
 
 ```
-⭐ TRUST LEVEL INSTRUCTOR = MULTIPLIER CHO VALUE COMPILE
+⭐ INSTRUCTOR TRUST LEVEL = MULTIPLIER FOR VALUE COMPILE
   (→ Trust.md v1.0, Compile-Taxonomy.md v3.0 §3):
 
   Trust = compiled prediction about entity's gap-fill RELIABILITY.
-  Trust = AMPLIFIER (gradient) cho VALUE stream — NOT gate.
-  → HIGH trust teacher: VALUE stream amplified → approach tag build NHANH
-  → LOW trust teacher: VALUE stream dampened → content vẫn compile (Engine), value KHÔNG
+  Trust = AMPLIFIER (gradient) for VALUE stream — NOT a gate.
+  → HIGH trust teacher: VALUE stream amplified → approach tag builds QUICKLY
+  → LOW trust teacher: VALUE stream dampened → content still compiles (Engine),
+    but value does NOT
 
   "LOVE THE TEACHER → LEARN THE LESSON":
-  → Trust cao → Entity-Valence path → VALUE stream approach
-  → Trust thấp → CONTENT compile OK nhưng VALUE = neutral/avoidance
-  → = "Biết bơi nhưng ghét bơi" = thầy KỸ THUẬT giỏi nhưng trust thấp
+  → High trust → Entity-Valence path → VALUE stream approach
+  → Low trust → CONTENT compiles OK but VALUE = neutral/avoidance
+  → = "Can swim but hates swimming" = technically skilled teacher but low trust
 
   FIRST WEEKS = BUILD TRUST (Entity-Valence toward instructor):
-  → Tuần 1-2 lớp mới → mục tiêu: trẻ TRUST thầy/cô → CHƯA CẦN content sâu
-  → Thầy/cô vui, consistent, responsive = trust build
-  → Thầy/cô strict, unpredictable, cold = trust collapse TRƯỚC khi content bắt đầu
+  → Weeks 1–2 of a new class → goal: child TRUSTS the teacher → NOT deep content yet
+  → Teacher who is warm, consistent, responsive = trust building
+  → Teacher who is strict, unpredictable, cold = trust collapses BEFORE content begins
 
-  3 SUB-DIMENSIONS TRUST × INSTRUCTOR (→ Trust.md §1):
-  → Trust-Authority: thầy/cô CÓ authority → thường ĐÃ installed (structural)
-  → Trust-Competence: trẻ nhỏ CHƯA verify → trust bố mẹ chọn
-  → Trust-Intention: trẻ cảm nhận qua body = KEY sub-dimension
-    Body detect warmth, patience → trust-intention BUILD
-    Body detect coldness, dismissive → trust-intention COLLAPSE
+  3 TRUST SUB-DIMENSIONS × INSTRUCTOR (→ Trust.md §1):
+  → Trust-Authority: teacher HAS authority → usually ALREADY installed (structural)
+  → Trust-Competence: young children CANNOT YET verify → trust that parents chose well
+  → Trust-Intention: child senses through body = KEY sub-dimension
+    Body detects warmth, patience → trust-intention BUILDS
+    Body detects coldness, dismissiveness → trust-intention COLLAPSES
 
-  IMPLICATION CHO BỐ MẸ:
-  → CHỌN thầy/cô trẻ THÍCH > thầy/cô giỏi nhất (Value > Content)
-  → Nếu trẻ "không thích cô" → ĐỪNG ép → THỬ cô/thầy khác
-  → Trust build slow, collapse fast → 1 trải nghiệm xấu với thầy
-    có thể collapse trust → avoidance cho entire skill
+  IMPLICATIONS FOR PARENTS:
+  → CHOOSE teacher the child LIKES > best-qualified teacher (Value > Content)
+  → If child "doesn't like the teacher" → DON'T FORCE → TRY a different teacher
+  → Trust builds slowly, collapses fast → 1 bad experience with a teacher
+    can collapse trust → avoidance for the ENTIRE skill
 
   🟢 Mayer, Davis & Schoorman 1995
   🟡 Trust = amplifier not gate (Compile-Taxonomy §3, Trust §3.2)
@@ -506,357 +521,374 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
 
 ---
 
-## §2 — EXPOSURE → STRUCTURE: 4 BƯỚC + APPROACH/AVOIDANCE TAG
+## §2 — EXPOSURE → STRUCTURE: 4 STEPS + APPROACH/AVOIDANCE TAG
 
-> **Tại sao 4 bước?**
-> Vì mỗi bước = cơ hội để chunks compile với APPROACH tag.
-> Skip bước = chunks compile với AVOIDANCE tag (→ Mechanism §3).
-> Tag gắn vào chunk = gần như VĨNH VIỄN (trừ reconsolidation window).
-> → 4 bước = đầu tư vào tag ĐÚNG, một lần, suốt đời.
+> **Why 4 steps?**
+> Because each step = an opportunity for chunks to compile WITH an APPROACH tag.
+> Skipping steps = chunks compiling WITH an AVOIDANCE tag (→ Mechanism §3).
+> Tag attaches to chunk = nearly PERMANENT (except for the reconsolidation window).
+> → 4 steps = investing in the RIGHT tag, once, for life.
 
 ```
-ĐA SỐ BỐ MẸ NHẢY THẲNG TỚI BƯỚC 4 (đăng ký lớp):
+MOST PARENTS JUMP STRAIGHT TO STEP 4 (enrolling in class):
 
-  "Con 3 tuổi → đăng ký lớp piano → thứ 3 và thứ 5 học piano"
-  → Trẻ CHƯA từng thấy piano → CHƯA biết thích hay không
-  → CHƯA chạm → CHƯA có body data
-  → Đột nhiên: ngồi ghế, thầy lạ, phải làm theo
-  → Body state: threat-direction (lạ + ép + không control)
-  → Chunks "piano" compile với AVOIDANCE tag
-  → Schema: "piano = bị ép" → tag NÀY có thể tồn tại suốt đời
+  "Child is 3 → enroll in piano class → lessons Tuesday and Thursday"
+  → Child has NEVER SEEN a piano → doesn't know if they like it or not
+  → Has NEVER touched one → NO body data yet
+  → Suddenly: sit in a chair, unfamiliar teacher, must follow instructions
+  → Body state: threat-direction (unfamiliar + forced + no control)
+  → "Piano" chunks compile WITH AVOIDANCE tag
+  → Schema: "piano = being forced" → THIS tag can persist for life
 
-  FILE NÀY ĐỀ XUẤT: 4 BƯỚC TUẦN TỰ
-  → Có thể nhanh (vài ngày) hoặc chậm (vài tháng) — TÙY TRẺ
-  → Mỗi bước = body state shift dần từ "lạ" → "quen" → "thích" → "muốn sâu"
-  → = Mỗi bước = approach tag TÍCH LŨY → schema positive KHI vào bước 4
+  THIS FILE PROPOSES: 4 SEQUENTIAL STEPS
+  → Can move quickly (a few days) or slowly (a few months) — DEPENDING ON THE CHILD
+  → Each step = body state shifts gradually from "unfamiliar" → "familiar"
+    → "likes" → "wants to go deeper"
+  → = Each step = approach tag ACCUMULATES → positive schema BY THE TIME step 4 begins
 
-  ⭐ APPROACH/AVOIDANCE × 4 BƯỚC (→ Mechanism §3):
+  ⭐ APPROACH/AVOIDANCE × 4 STEPS (→ Mechanism §3):
 
-    Bước 1 (Exposure):  Body THU THẬP → chunks "lạ nhưng an toàn" → NEUTRAL → dần APPROACH
-    Bước 2 (Interest):  Body TỰ SIGNAL "muốn thử" → approach tag TỰ NHIÊN (không ai ép)
-    Bước 3 (Guided):    Body KHÁM PHÁ với support → approach tag + micro-mastery
-    Bước 4 (Structured): Body ĐÃ CÓ approach schema → structured = BUILD ON positive
+    Step 1 (Exposure):   Body COLLECTS DATA → chunks "unfamiliar but safe" →
+                           NEUTRAL → gradually APPROACH
+    Step 2 (Interest):   Body SELF-SIGNALS "want to try" → approach tag NATURALLY
+                           (no one forced it)
+    Step 3 (Guided):     Body EXPLORES with support → approach tag + micro-mastery
+    Step 4 (Structured): Body ALREADY HAS approach schema → structured = BUILDS ON positive
 
-    Skip thẳng bước 4: Body CHƯA CÓ data → lạ + ép → threat-direction → AVOIDANCE tag
-    → = 4 bước KHÔNG phải "chậm" → là ĐÚNG CÁCH để tag APPROACH
+    Skip to step 4 directly: Body HAS NO DATA YET → unfamiliar + forced → threat-direction
+                               → AVOIDANCE tag
+    → = 4 steps is NOT "slow" → it's the RIGHT WAY to compile APPROACH tag
 
-  🟡 VALENCE DYNAMICS TRONG 4 BƯỚC (→ Valence-Propagation.md v3.0):
+  🟡 VALENCE DYNAMICS ACROSS 4 STEPS (→ Valence-Propagation.md v3.0):
 
-    → Bước 1-2: chủ yếu Current valence (per-moment, dễ thay đổi)
-      = trẻ "vui lúc nghe nhạc" = Current tag, chưa gắn vào compiled chunks
-    → Bước 3-4: Current dần → Structural valence (gắn VÀO compiled chunks, khó thay đổi)
-      = "piano = thú vị" trở thành PHẦN CỦA schema → tồn tại lâu dài
-    → = 4 bước = DẪN DẮT Current → Structural ĐÚNG HƯỚNG (approach)
-    → Skip → Structural valence gắn AVOIDANCE → KHÓ gỡ sau
+    → Steps 1–2: primarily Current valence (per-moment, easily changed)
+      = child "happy while listening to music" = Current tag, not yet compiled into chunks
+    → Steps 3–4: Current gradually → Structural valence (compiles INTO chunks, hard to change)
+      = "piano = interesting" becomes PART OF schema → persists long-term
+    → = 4 steps = GUIDING Current → Structural IN THE RIGHT DIRECTION (approach)
+    → Skip → Structural valence compiles AVOIDANCE → HARD to remove later
     (→ Mechanism §3: Structural vs Current valence per developmental stage)
 
 
-  ⭐ MULTI-STREAM × 4 BƯỚC (→ Mechanism v2.3 §2.6, Compile-Taxonomy.md v3.0 §5):
+  ⭐ MULTI-STREAM × 4 STEPS (→ Mechanism v2.3 §2.6, Compile-Taxonomy.md v3.0 §5):
 
-    4 streams compile ĐỘC LẬP từ CÙNG 1 skill event:
+    4 streams compile INDEPENDENTLY from the SAME 1 skill event:
       Content / Value / Entity / Behavior
 
-    Bước 1-2 (Exposure + Interest):
-      → VALUE stream compile CHỦ YẾU: "skill NÀY = thú vị?" (approach/avoidance)
-      → CONTENT stream: minimal (chưa instruction → ít content)
-      → ENTITY stream: "bố mẹ CŨNG enjoy" → Entity-Valence update
-      → BEHAVIOR stream: sơ khai (observe → proto-motor)
-      → = VALUE FIRST → approach tag build TRƯỚC content
+    Steps 1–2 (Exposure + Interest):
+      → VALUE stream compiles PRIMARILY: "is this skill interesting?" (approach/avoidance)
+      → CONTENT stream: minimal (no instruction yet → little content)
+      → ENTITY stream: "parents ALSO enjoy" → Entity-Valence update
+      → BEHAVIOR stream: rudimentary (observe → proto-motor)
+      → = VALUE FIRST → approach tag builds BEFORE content
 
-    Bước 3 (Guided Play):
-      → VALUE stream: approach TIẾP TỤC (vui + bố mẹ cùng)
-      → CONTENT stream: BẮT ĐẦU (learn basics qua play)
-      → BEHAVIOR stream: motor chunks COMPILE (practice qua play)
-      → = 3 streams CÙNG positive → integrated learning
+    Step 3 (Guided Play):
+      → VALUE stream: approach CONTINUES (fun + with parents)
+      → CONTENT stream: BEGINS (learn basics through play)
+      → BEHAVIOR stream: motor chunks COMPILE (practice through play)
+      → = 3 streams ALL positive → integrated learning
 
-    Bước 4 (Structured):
-      → CONTENT stream: DOMINANT (instruction → knowledge compile)
-      → VALUE stream: ĐÃ positive từ bước 1-3 → APPROACH schema SẴN
+    Step 4 (Structured):
+      → CONTENT stream: DOMINANT (instruction → knowledge compiles)
+      → VALUE stream: ALREADY positive from steps 1–3 → APPROACH schema READY
       → BEHAVIOR stream: deliberate practice → motor mastery
-      → = Content stream MỞ RỘNG trên nền Value ĐÃ approach
+      → = Content stream EXPANDS on a Value foundation ALREADY approach
 
-    Skip bước 1-3 → vào thẳng bước 4:
-      → CONTENT stream: compile OK (instruction → knowledge)
-      → VALUE stream: avoidance (ép + lạ + không control)
-      → = "Giỏi nhưng ghét" = Content ✓, Value ✗
-      → = Architecture PREDICTS "biết chơi nhưng không muốn chơi"
+    Skip steps 1–3 → go straight to step 4:
+      → CONTENT stream: compiles OK (instruction → knowledge)
+      → VALUE stream: avoidance (forced + unfamiliar + no control)
+      → = "Can play but hates it" = Content ✓, Value ✗
+      → = Architecture PREDICTS "can play but doesn't want to play"
 
-    → = 4 bước = đảm bảo VALUE stream approach TRƯỚC content volume TĂNG
+    → = 4 steps = ensuring VALUE stream approach BEFORE content volume INCREASES
     → = "Value stream first, content stream second" (Compile-Taxonomy.md v3.0 §5)
 ```
 
-### §2.1 — Bước 1: EXPOSURE — PHƠI NHIỄM (Bố mẹ tạo, trẻ tự gặp)
+### §2.1 — Step 1: EXPOSURE (Parent creates it; child encounters it naturally)
 
 ```
-MÔ TẢ:
-  Trẻ THẤY / NGHE / CHẠM kỹ năng trong bối cảnh TỰ NHIÊN
-  KHÔNG có hướng dẫn, KHÔNG có kỳ vọng, chỉ CÓ MẶT trong môi trường
+DESCRIPTION:
+  Child SEES / HEARS / TOUCHES the skill in a NATURAL context
+  NO instruction, NO expectations — just BEING PRESENT in the environment
 
-VD:
-  Piano: nhạc chơi ở nhà, bố mẹ ngồi gõ piano, video musician
-  Bơi: chơi nước trong bồn tắm, đi hồ bơi (chơi, không học)
-  Vẽ: bút màu + giấy LUÔN CÓ SẴN trên bàn, bố mẹ ngồi vẽ
-  Đọc: sách ở khắp nơi, đọc trước ngủ, biển hiệu trên đường
-  Bóng đá: xem bóng đá cùng, đá bóng với bố ở sân
+EXAMPLES:
+  Piano: music playing at home, parent sitting playing piano, videos of musicians
+  Swimming: playing with water in the bath, going to the pool (to play, not to learn)
+  Drawing: colored pencils + paper ALWAYS AVAILABLE on the table, parent draws
+  Reading: books everywhere, reading before bed, signs on the road
+  Football: watching football together, kicking a ball with dad in the yard
 
-MỤC ĐÍCH:
-  → Body trẻ THU THẬP chunks về kỹ năng này (→ Mechanism §2: Compile Architecture)
-  → Âm thanh piano = auditory chunks
-  → Nước chạm da = tactile + thermal chunks
-  → Thấy bút tạo vết trên giấy = visual + causal chunks
-  → = Brain đang compile internal model của kỹ năng
-  → CHƯA cần hành động → chỉ cần NHẬN
-  → TAG LÚC NÀY: neutral → dần approach (vì an toàn + tự nhiên + không ép)
+PURPOSE:
+  → Child's body COLLECTS chunks about this skill (→ Mechanism §2: Compile Architecture)
+  → Piano sounds = auditory chunks
+  → Water touching skin = tactile + thermal chunks
+  → Seeing a pen create marks on paper = visual + causal chunks
+  → = Brain is compiling an internal model of the skill
+  → NO action required yet → only RECEIVING
+  → TAG NOW: neutral → gradually approach (because safe + natural + not forced)
 
-THỜI GIAN: ngày → tuần → tháng (TÙY kỹ năng + trẻ)
+DURATION: days → weeks → months (DEPENDING ON skill + child)
 
-BỐ MẸ LÀM:
-  → Tạo môi trường có kỹ năng ĐÓ (đồ vật, âm thanh, hình ảnh)
-  → TỰ LÀM trước mặt trẻ (sống mẫu — Natural-Dev §5 nguyên tắc 6)
-  → ĐỪNG hỏi: "con muốn thử không?" → quá sớm → để trẻ TỰ ĐẾN
-  → ĐỪNG ép: "nhìn cái này đi!" → ép attention → schema: "cái này = bị ép nhìn"
-  → CHỈ: làm cho nó AVAILABLE + VISIBLE + bố mẹ tự enjoy
+PARENTS DO:
+  → Create an environment where THAT skill is present (objects, sounds, images)
+  → DO IT THEMSELVES in front of the child (modeling — Natural-Dev §5 Principle 6)
+  → DON'T ask: "want to try?" → too early → let child COME ON THEIR OWN
+  → DON'T force: "look at this!" → forcing attention → schema: "this thing = forced to look at"
+  → ONLY: make it AVAILABLE + VISIBLE + parents naturally enjoy it
 ```
 
-### §2.2 — Bước 2: INTEREST — HỨNG THÚ (Trẻ tự biểu hiện, bố mẹ nhận diện)
+### §2.2 — Step 2: INTEREST (Child expresses spontaneously; parent recognizes it)
 
 ```
-MÔ TẢ:
-  Trẻ THỂ HIỆN hứng thú TỰ PHÁT — không ai gợi ý
+DESCRIPTION:
+  Child SHOWS INTEREST SPONTANEOUSLY — no one suggested it
 
-DẤU HIỆU (body signal "có"):
-  → Tự chạm / tự thử: tự leo lên ghế piano, tự cầm bút vẽ
-  → Hỏi: "mẹ, cái đó là gì?" / "cho con thử" / "dạy con đi"
-  → Nhìn chăm chú: dừng lại xem người khác làm, không chớp mắt
-  → Bắt chước: tự gõ bàn theo nhịp nhạc, tự "vẽ" bằng tay trên không
-  → Quay lại: sau khi thử → bỏ → QUAY LẠI thử tiếp (key signal)
-  → Kể: "mẹ, hôm nay con thấy bạn chơi đàn!" (tự nhắc lại)
+SIGNS (body signal "yes"):
+  → Self-touches / self-tries: climbs on the piano bench themselves,
+    picks up a pen to draw
+  → Asks: "what's that?" / "let me try" / "teach me"
+  → Stares intently: stops to watch others do it, doesn't look away
+  → Imitates: drums on the table along with music, "draws" in the air with finger
+  → Comes back: after trying → puts it down → COMES BACK TO TRY AGAIN (key signal)
+  → Talks about it: "mom, today I saw a friend playing piano!" (self-references it)
 
-NẾU CÓ INTEREST → chuyển sang bước 3
-NẾU KHÔNG CÓ → VẪN OK:
-  → Có thể: kỹ năng này KHÔNG match body trẻ (personal melody khác)
-  → Có thể: chưa đến lúc (readiness chưa đủ, thử lại sau vài tháng)
-  → Có thể: exposure chưa đủ (thấy 1 lần ≠ đủ data để quyết)
-  → → Tiếp tục exposure nhẹ nhàng → ĐỪNG kết luận "con không có khiếu"
-  → → "Không có khiếu" ở 3 tuổi ≠ "không có khiếu" ở 5 tuổi
+IF INTEREST EXISTS → move to step 3
+IF NO INTEREST → STILL OK:
+  → Possible: this skill doesn't MATCH child's body (different personal melody)
+  → Possible: not the right time yet (readiness insufficient, try again in a few months)
+  → Possible: exposure hasn't been enough (seeing it once ≠ enough data to decide)
+  → → Continue light exposure → DON'T conclude "child has no talent"
+  → → "No talent at age 3" ≠ "no talent at age 5"
 
-⚠️ PHÂN BIỆT: interest TỰ PHÁT vs interest BỊ GỢI
-  → Tự phát: trẻ ĐẾN VỚI kỹ năng → body drive → MẠNH
-  → Bị gợi: bố mẹ hỏi "con muốn học đàn không?" → trẻ nói "dạ"
-    → Có thể: thật sự thích (body confirm)
-    → Có thể: please bố mẹ (social compliance)
-    → = Cần QUAN SÁT sau đó: khi practice → body signal "có" hay "không"?
+⚠️ DISTINGUISH: SPONTANEOUS interest vs PROMPTED interest
+  → Spontaneous: child COMES TO the skill → body drive → STRONG
+  → Prompted: parent asks "do you want to learn piano?" → child says "yes"
+    → Possible: genuinely interested (body confirms)
+    → Possible: pleasing the parent (social compliance)
+    → = Need to OBSERVE afterward: when practicing → body signal "yes" or "no"?
 
-TAG LÚC NÀY: Interest tự phát = approach tag TỰ NHIÊN (dopamine + curiosity)
-  → Đây là TẠI SAO đợi interest TRƯỚC khi structured learning
-  → Interest tự phát = novelty-direction body state = approach tag mạnh nhất
-  → Interest bị gợi = CÓ THỂ approach (nếu body confirm) HOẶC neutral/avoidance
+TAG NOW: Spontaneous interest = approach tag NATURALLY (dopamine + curiosity)
+  → This is WHY we wait for interest BEFORE structured learning
+  → Spontaneous interest = novelty-direction body state = strongest approach tag
+  → Prompted interest = MAY BE approach (if body confirms) OR neutral/avoidance
 ```
 
-### §2.3 — Bước 3: GUIDED PLAY — CHƠI CÓ HƯỚNG DẪN (Bố mẹ introduce, trẻ khám phá)
+### §2.3 — Step 3: GUIDED PLAY (Parent introduces; child explores)
 
 ```
-MÔ TẢ:
-  Bố mẹ / người hướng dẫn introduce BASIC elements qua CHƠI
-  VẪN playful, VẪN child-led phần lớn, CHƯA có requirement
+DESCRIPTION:
+  Parent / guide introduces BASIC elements through PLAY
+  STILL playful, STILL mostly child-led, NO requirements yet
 
-VD:
-  Piano: "nhấn phím này → nghe tiếng gì? → phím kia thì sao?"
-    → Trẻ TỰ khám phá keyboard → bố mẹ đặt TÊN: "đó là nốt Đô"
-    → Chơi game: "con nhấn, mẹ đoán phím nào" (turn-taking + fun)
-  Bơi: bố mẹ CÙNG trong nước, chơi nổi, chơi bong bóng, đạp nước
-    → Trẻ thoải mái VỚI NƯỚC → body learn: "nước = an toàn + fun"
-    → CHƯA dạy kỹ thuật bơi → dạy TIN NƯỚC
-  Vẽ: vẽ CÙNG, bố mẹ vẽ 1 hình → trẻ thêm gì tùy ý
-    → "Mẹ vẽ nhà → con vẽ gì bên cạnh?" (co-create, không instruct)
-  Đọc: chỉ chữ trên biển → "chữ đó giống chữ đầu TÊN CON!"
-    → Chơi game: "tìm chữ A trên đường đi" (scavenger hunt)
+EXAMPLES:
+  Piano: "press this key → what sound does it make? → what about that one?"
+    → Child SELF-EXPLORES keyboard → parent NAMES: "that's the note C"
+    → Play a game: "you press, I'll guess which key" (turn-taking + fun)
+  Swimming: parent TOGETHER in the water, play floating, blowing bubbles, splashing
+    → Child relaxed WITH WATER → body learns: "water = safe + fun"
+    → NOT TEACHING swimming technique → teaching WATER TRUST
+  Drawing: draw TOGETHER, parent draws 1 shape → child adds whatever they want
+    → "Mom draws a house → what will you draw beside it?" (co-create, don't instruct)
+  Reading: point to a sign → "that word looks like the first letter of YOUR NAME!"
+    → Play a game: "find the letter A on our walk" (scavenger hunt)
 
-MỤC ĐÍCH (→ Mechanism §3: approach tag tích lũy):
-  → Chunks kỹ năng compile VỚI APPROACH TAG (novelty-direction body state)
-  → "Piano = vui + khám phá + với mẹ" → NOT "piano = ngồi im + thầy lạ + phải đúng"
-  → Body state lúc compile: dopamine + opioid (enjoy + connection) = APPROACH
-  → "Với mẹ" = Hardware-Subsidy: oxytocin chống habituation
-    → = Cùng 1 hoạt động: VỚI bố mẹ = lâu chán hơn → more chunks compile positive
+PURPOSE (→ Mechanism §3: approach tag accumulates):
+  → Skill chunks compile WITH APPROACH TAG (novelty-direction body state)
+  → "Piano = fun + exploration + with mom" → NOT "piano = sit still + unfamiliar teacher
+    + must be right"
+  → Body state at compile: dopamine + opioid (enjoyment + connection) = APPROACH
+  → "With mom/dad" = Hardware-Subsidy: oxytocin counters habituation
+    → = Same activity: WITH parents = stays interesting longer → more chunks compile positive
     (→ Connection.md v5.0 §3.4: Hardware-Subsidy = anti-habituation mechanism)
-  → = Nền tảng cho: khi vào structured learning → CÓ SẴN approach schema
-  → = KHÁC HẲN: nhảy thẳng vào lớp → avoidance tag từ đầu → khó gỡ
+  → = Foundation for: when entering structured learning → ALREADY HAS approach schema
+  → = COMPLETELY DIFFERENT FROM: jumping straight to class → avoidance tag from day 1
+    → hard to remove
 
-THỜI GIAN: tuần → tháng (TÙY kỹ năng + trẻ)
+DURATION: weeks → months (DEPENDING ON skill + child)
 
 KEY: "GUIDED" ≠ "TAUGHT"
-  → Guided = bố mẹ TẠO CƠ HỘI khám phá → trẻ tự khám phá trong cơ hội đó
-  → Taught = bố mẹ CHỈ CÁCH → trẻ làm THEO
-  → Ở bước 3: 70% trẻ khám phá + 30% bố mẹ introduce
-  → Ở bước 4: tỷ lệ DẦN đảo → nhưng VẪN giữ exploration space
+  → Guided = parent CREATES OPPORTUNITY to explore → child self-explores within that opportunity
+  → Taught = parent SHOWS HOW → child follows
+  → In step 3: 70% child explores + 30% parent introduces
+  → In step 4: ratio GRADUALLY shifts → but STILL keeps exploration space
 
-KHI NÀO CHUYỂN SANG BƯỚC 4:
-  → Trẻ THỂ HIỆN muốn "biết thêm" (hỏi cách, muốn học bài mới)
-  → Trẻ TỰ practice (ngồi gõ piano 1 mình, tự vẽ, tự đọc)
-  → Trẻ FRUSTRATED vì "muốn giỏi hơn" (signal: investment CAO)
-  → = Body đang NÓI: "tôi muốn SÂUHƠN" → lúc này: structured learning phù hợp
+WHEN TO MOVE TO STEP 4:
+  → Child SHOWS wanting "to learn more" (asks how, wants to learn a new piece)
+  → Child PRACTICES ON THEIR OWN (sits at piano alone, draws independently, reads on their own)
+  → Child FRUSTRATED because "wants to be better" (signal: HIGH INVESTMENT)
+  → = Body IS SAYING: "I want to go DEEPER" → then: structured learning is appropriate
 ```
 
-### §2.4 — Bước 4: STRUCTURED LEARNING — HỌC CÓ CẤU TRÚC (Chính thức, có thầy/lớp)
+### §2.4 — Step 4: STRUCTURED LEARNING (Formal, with teacher/class)
 
 ```
-MÔ TẢ:
-  Lớp học chính thức, giáo viên, curriculum, practice, feedback
-  CHỈ KHI: bước 1-3 ĐÃ QUA + interest SUSTAINED + readiness confirmed
+DESCRIPTION:
+  Formal class, teacher, curriculum, practice, feedback
+  ONLY WHEN: steps 1–3 ARE COMPLETE + sustained interest + readiness confirmed
 
-VD:
-  Piano: lớp piano chính thức → học nốt, đọc nhạc, bài tập
-  Bơi: lớp bơi → kỹ thuật tay, chân, thở, style
-  Vẽ: lớp vẽ → kỹ thuật, perspective, media
-  Đọc: dạy đọc chính thức → phonics, ghép vần
+EXAMPLES:
+  Piano: formal piano class → notes, reading music, exercises
+  Swimming: swim class → arm technique, kick, breathing, style
+  Drawing: art class → technique, perspective, media
+  Reading: formal reading instruction → phonics, blending
 
-ĐẶC ĐIỂM BƯỚC 4:
-  → Có INSTRUCTION: thầy/bố mẹ chỉ cách ĐÚNG
-  → Có PRACTICE: lặp lại để compile thành tự động
-  → Có FEEDBACK: sai → sửa, đúng → reinforce
-  → Có CHALLENGE tăng dần: từ dễ → khó (arc design — Education-Bridge §5.5)
-  → = GẦN GIỐNG "học" truyền thống → nhưng VỚI approach schema đã có từ bước 1-3
-  → = Structured practice CÓ challenge → cortisol VỪA nhưng NOVELTY-direction (vì đã thích)
+CHARACTERISTICS OF STEP 4:
+  → Has INSTRUCTION: teacher/parent shows the CORRECT way
+  → Has PRACTICE: repetition to compile to automatic
+  → Has FEEDBACK: wrong → correct, right → reinforce
+  → Has gradually INCREASING CHALLENGE: easy → hard
+    (arc design — Education-Bridge §5.5)
+  → = SIMILAR TO "learning" in the traditional sense → but WITH approach schema
+    ALREADY BUILT from steps 1–3
+  → = Structured practice WITH challenge → cortisol MODERATE but NOVELTY-direction
+    (because already likes it)
   → = Chunks compile: approach tag + increasing complexity = deep mastery
 
-VẪN RESPECT BODY SIGNAL TRONG BƯỚC 4:
-  → Chán → Check: quá dễ? sai fit? cần break? cần đổi approach?
-  → Frustrated → Check: quá khó? arc design tệ? cần decompose?
-  → Thriving → Continue + tăng challenge dần
-  → Muốn dừng → Xem §2 "Withdrawal" bên dưới
+STILL RESPECT BODY SIGNAL IN STEP 4:
+  → Bored → Check: too easy? wrong fit? needs a break? needs different approach?
+  → Frustrated → Check: too hard? poor arc design? needs to decompose?
+  → Thriving → Continue + gradually increase challenge
+  → Wants to stop → See §2.5 "Withdrawal" below
 
-⚠️ BƯỚC 4 KHÔNG PHẢI ĐÍCH ĐẾN:
-  → Không phải MỌI kỹ năng phải tới bước 4
-  → Trẻ ở bước 3 (guided play) VẪN ĐANG HỌC (chỉ khác cách)
-  → Bước 4 = cho trẻ MUỐN đi SÂU → không phải mặc định cho mọi kỹ năng
-  → VD: trẻ chơi piano ở bước 3, enjoy → ĐỪNG ép bước 4 "cho tử tế"
-    → Bước 3 VẪN compile chunks, VẪN approach tag, VẪN enjoy
+⚠️ STEP 4 IS NOT THE DESTINATION:
+  → Not EVERY skill needs to reach step 4
+  → Child at step 3 (guided play) IS STILL LEARNING (just a different way)
+  → Step 4 = for child who WANTS to go DEEPER → not the default for every skill
+  → E.g.: child plays piano at step 3, enjoys it → DON'T force step 4 "to be serious"
+    → Step 3 STILL compiles chunks, STILL approach tag, STILL enjoyable
 ```
 
-### §2.5 — WITHDRAWAL — KHI TRẺ MUỐN DỪNG
+### §2.5 — WITHDRAWAL: WHEN A CHILD WANTS TO STOP
 
 ```
-TÌNH HUỐNG: trẻ đã ở bước 3 hoặc 4 → MUỐN DỪNG
+SITUATION: child is at step 3 or 4 → WANTS TO STOP
 
-PHẢN ỨNG THƯỜNG THẤY CỦA BỐ MẸ:
-  → "Con phải học tiếp! Mẹ đã đóng tiền rồi!"
-  → "Con không được bỏ giữa chừng!"
-  → "Con cố thêm 1 tháng đi, rồi tính"
+TYPICAL PARENT RESPONSE:
+  → "You have to keep going! I already paid for it!"
+  → "You can't quit halfway!"
+  → "Just try one more month, then we'll see"
 
 FRAMEWORK ANALYSIS (→ Mechanism §3 + §4):
-  → Trẻ muốn dừng = body signal: "kỹ năng này KHÔNG (còn) resonance"
-  → V7.8: tag đang SHIFT từ approach → avoidance. Lý do có thể:
-    a) Chưa bao giờ approach (skip bước 1-2 → avoidance tag từ đầu)
-    b) Thích trước nhưng personal melody DỊCH CHUYỂN (bình thường ở 0-6)
-    c) Approach SAI → threat-direction body state → tag đang shift (→ Mechanism §3.2)
-    d) Quá khó / quá dễ → chunk dynamics Miss hoặc Gap (→ Mechanism §4)
-    e) HABITUATION SATIATION: skill lặp lại quá nhiều → VTA hết fire → chán
+  → Child wanting to stop = body signal: "this skill NO LONGER resonates"
+  → v7.8: tag is SHIFTING from approach → avoidance. Possible reasons:
+    a) Never was approach (skipped steps 1–2 → avoidance tag from the start)
+    b) Used to like it but personal melody HAS SHIFTED (normal at 0–6)
+    c) Approached WRONGLY → threat-direction body state → tag shifting
+       (→ Mechanism §3.2)
+    d) Too hard / too easy → chunk dynamics Miss or Gap (→ Mechanism §4)
+    e) HABITUATION SATIATION: skill repeated too many times → VTA stops firing → bored
        (→ Gap-Body-Need.md v1.0: 3 Satiation Types)
-       → Khác Gap-Fill Satiation (opioid → contentment, TÍCH CỰC)
-       → Habituation = VTA không còn fire → CHÁN, không phải "đã đủ"
-       → FIX: thêm NOVELTY trong practice (bài mới, cách mới, context mới)
+       → Different from Gap-Fill Satiation (opioid → contentment, POSITIVE)
+       → Habituation = VTA no longer fires → BORED, not "had enough"
+       → FIX: add NOVELTY to practice (new piece, new approach, new context)
 
-  🟡 MULTI-STREAM PHÂN BIỆT "MUỐN DỪNG" (→ Mechanism v2.3 §2.6):
+  🟡 MULTI-STREAM DISTINGUISHES "WANTS TO STOP" (→ Mechanism v2.3 §2.6):
 
-    "Con muốn dừng" = STREAM NÀO đang avoidance?
+    "I want to stop" = WHICH STREAM is avoidance?
 
-    a) Value stream avoidance (CÁCH dạy sai):
-       → Content vẫn compile (biết chơi) nhưng Value = avoidance (ghét)
-       → FIX: đổi approach (thầy khác, kiểu khác) → Value stream shift
-       → Signal: "biết chơi nhưng không muốn", "mỗi lần practice = mệt/buồn"
+    a) Value stream avoidance (WRONG TEACHING APPROACH):
+       → Content still compiling (can play) but Value = avoidance (hates it)
+       → FIX: change approach (different teacher, different style) → Value stream shifts
+       → Signal: "can play but doesn't want to," "every practice = exhausting/sad"
 
-    b) Content satiation (ĐÃ compile đủ cho level này):
+    b) Content satiation (ALREADY COMPILED ENOUGH for this level):
        → Content stream: Compilation-Complete (Gap-Body-Need.md v1.0)
-       → Value vẫn approach (vẫn thích) nhưng "hết cái để học"
-       → FIX: tăng challenge / depth → open new Content gaps
-       → Signal: "dễ quá", "biết hết rồi", "chán vì lặp lại"
+       → Value still approach (still likes it) but "nothing left to learn"
+       → FIX: increase challenge / depth → open new Content gaps
+       → Signal: "too easy," "already know it all," "bored because repetitive"
 
-    c) Habituation (VTA hết fire — cần novelty mới):
-       → Cả Content + Value đều neutral (không ghét, không thích)
-       → VTA habituated → "nhạt" → cần NOVELTY injection
-       → FIX: thêm novelty (bài mới, context mới, partner mới)
-       → Signal: "không hẳn ghét, chỉ... không hứng thú nữa"
+    c) Habituation (VTA stopped firing — needs new novelty):
+       → Both Content + Value neutral (not hate, not love)
+       → VTA habituated → "bland" → needs NOVELTY injection
+       → FIX: add novelty (new pieces, new context, new practice partner)
+       → Signal: "don't hate it exactly, just... not interested anymore"
 
-    → = Multi-Stream giúp PHÂN BIỆT 3 dạng → 3 cách xử lý KHÁC NHAU
-    → = Nếu không phân biệt → dễ ÉP TIẾP (khi chỉ cần đổi approach)
-      hoặc DỪU HẲN (khi chỉ cần thêm novelty)
+    → = Multi-Stream helps DISTINGUISH 3 types → 3 DIFFERENT fixes
+    → = Without distinguishing → easy to KEEP FORCING (when just need to change approach)
+      or STOP ENTIRELY (when just need to add novelty)
 
 
-  → Bố mẹ NÊN:
-    ① PHÂN BIỆT: muốn dừng KỸ NĂNG hay muốn dừng APPROACH?
-       → "Con không thích piano" vs "Con không thích thầy/lớp/cách này"
-       → Nếu approach: THỬ đổi (thầy khác, kiểu khác, ở nhà vs lớp)
-       → Nếu kỹ năng: xem ②
-    ② NẾU thật sự không thích kỹ năng:
-       → Non-basic skill (piano, vẽ, ballet...): DỪNG ✅
-         "OK con, mình dừng piano. Con muốn thử gì khác không?"
-       → Basic skill (bơi, đọc): ĐỪNG dừng hẳn → đổi APPROACH
-         "Lớp bơi con không thích → vậy bố con chơi nước ở hồ nhé?" (quay lại bước 3)
+  → Parents SHOULD:
+    ① DISTINGUISH: wants to stop the SKILL or wants to stop the APPROACH?
+       → "I don't like piano" vs "I don't like this teacher/class/method"
+       → If approach: TRY CHANGING (different teacher, different style, home vs class)
+       → If the skill itself: see ②
+    ② IF truly doesn't like the skill:
+       → Non-basic skill (piano, drawing, ballet...): STOP ✅
+         "OK, we'll stop piano. Is there something else you'd like to try?"
+       → Basic skill (swimming, reading): DON'T stop entirely → change APPROACH
+         "You don't like the swim class → then let's play in the water at the pool?"
+           (back to step 3)
 
-  ⚠️ ÉP TIẾP = RỦI RO LỚN (→ Mechanism §3 + §7):
-    → Chunks compile với AVOIDANCE tag CỰC MẠNH:
-      "khi tôi MUỐN DỪNG → bị ép → ý kiến tôi VÔ GIÁ TRỊ"
-    → + "Học = bị ép → dù không thích VẪN phải làm" (learned helplessness)
-    → + Body-listening suy yếu: "signal của tôi bị IGNORE"
-      → Autonomy damage (→ Mechanism §7: efference copy bị override)
-    → = 1 kỹ năng KHÔNG ĐÁNG để đổi lấy body-listening + agency + trust
+  ⚠️ FORCING ON = SERIOUS RISK (→ Mechanism §3 + §7):
+    → Chunks compile WITH EXTREME AVOIDANCE tag:
+      "when I WANT TO STOP → was forced → my opinion IS WORTHLESS"
+    → + "Learning = being forced → even if I dislike it I MUST do it"
+      (learned helplessness)
+    → + Body-listening weakened: "my signal was IGNORED"
+      → Autonomy damage (→ Mechanism §7: efference copy overridden)
+    → = 1 skill is NOT WORTH trading away body-listening + agency + trust
 ```
 
-### §2.6 — SENSITIVE PERIODS — CỬA SỔ NHẠY CẢM (không phải "deadline")
+### §2.6 — SENSITIVE PERIODS: WINDOWS OF HEIGHTENED SENSITIVITY (not "deadlines")
 
 ```
-  CÓ những giai đoạn não ĐẶC BIỆT dễ tiếp nhận 1 số kỹ năng:
+  THERE ARE periods when the brain is ESPECIALLY receptive to certain skills:
 
-  ┌─────────────────┬────────────────────────────────────────────────┐
-  │ Kỹ năng         │ Sensitive period                               │
-  ├─────────────────┼────────────────────────────────────────────────┤
-  │ Phoneme nhận    │ 0-10 tháng: phân biệt MỌI âm vị              │
-  │ diện (ngữ âm)   │ → 10-12 tháng: thu hẹp về ngôn ngữ nghe       │
-  │                 │ → = Window cho ngôn ngữ 2 phoneme = SỚM       │
-  ├─────────────────┼────────────────────────────────────────────────┤
-  │ Musical pitch   │ ~2-5 tuổi: tai đang calibrate → dễ hơn       │
-  │ (cao độ nhạc)   │ → Absolute pitch: gần như chỉ develop nếu      │
-  │                 │   exposure SỚM (nhưng relative pitch = OK sau) │
-  ├─────────────────┼────────────────────────────────────────────────┤
-  │ Gross motor     │ 0-6 tuổi: motor cortex đang myelin mạnh       │
-  │ (vận động thô)  │ → Window rộng → ít urgent                      │
-  ├─────────────────┼────────────────────────────────────────────────┤
-  │ Fine motor      │ 3-7 tuổi: fine motor cortex đang myelin       │
-  │ (vận động tinh) │ → Viết, nhạc cụ, dụng cụ                      │
-  ├─────────────────┼────────────────────────────────────────────────┤
-  │ Language syntax  │ 2-7 tuổi: grammar acquisition dễ nhất          │
-  │ (ngữ pháp)      │ → Sau 7: VẪN học được nhưng KHÓ hơn            │
-  ├─────────────────┼────────────────────────────────────────────────┤
-  │ Reading         │ 4-7 tuổi: readiness window RỘNG               │
-  │ (đọc)           │ → KHÔNG có deadline "phải đọc lúc 5"           │
-  │                 │ → Phần Lan: 7 tuổi → kết quả tốt              │
-  └─────────────────┴────────────────────────────────────────────────┘
+  ┌──────────────────┬────────────────────────────────────────────────────┐
+  │ Skill            │ Sensitive period                                   │
+  ├──────────────────┼────────────────────────────────────────────────────┤
+  │ Phoneme          │ 0–10 months: can distinguish ALL phonemes of ALL  │
+  │ recognition      │ languages → 10–12 months: narrows to language(s) │
+  │ (speech sounds)  │ being heard → Window for L2 phonemes = EARLY      │
+  ├──────────────────┼────────────────────────────────────────────────────┤
+  │ Musical pitch    │ ~2–5 years: ear is calibrating → easier           │
+  │                  │ → Absolute pitch: almost only develops with EARLY  │
+  │                  │   exposure (but relative pitch = OK later)         │
+  ├──────────────────┼────────────────────────────────────────────────────┤
+  │ Gross motor      │ 0–6 years: motor cortex myelinating strongly       │
+  │                  │ → Broad window → less urgent                        │
+  ├──────────────────┼────────────────────────────────────────────────────┤
+  │ Fine motor       │ 3–7 years: fine motor cortex myelinating           │
+  │                  │ → Writing, instruments, tools                       │
+  ├──────────────────┼────────────────────────────────────────────────────┤
+  │ Language syntax  │ 2–7 years: grammar acquisition easiest             │
+  │ (grammar)        │ → After 7: STILL LEARNABLE but HARDER              │
+  ├──────────────────┼────────────────────────────────────────────────────┤
+  │ Reading          │ 4–7 years: broad readiness window                  │
+  │                  │ → NO deadline "must read by age 5"                 │
+  │                  │ → Finland: age 7 → good outcomes                  │
+  └──────────────────┴────────────────────────────────────────────────────┘
 
-  ⭐ QUAN TRỌNG — SENSITIVE ≠ CRITICAL:
+  ⭐ IMPORTANT — SENSITIVE ≠ CRITICAL:
 
-    CRITICAL period = nếu MISS → KHÔNG THỂ develop
-      → Rất ít kỹ năng có true critical period
-      → VD: vision (nếu mắt bị bịt suốt → vision cortex không wire — cực hiếm)
+    CRITICAL period = if MISSED → CANNOT develop
+      → Very few skills have a true critical period
+      → E.g.: vision (if eyes covered continuously → vision cortex doesn't wire
+        — extremely rare)
 
-    SENSITIVE period = window dễ HƠN → nhưng NGOÀI window VẪN CÓ THỂ
-      → Đa số kỹ năng = sensitive, KHÔNG phải critical
-      → Ngôn ngữ 2: dễ nhất trước 7 → nhưng CÓ THỂ học sau (chỉ khó hơn)
-      → Nhạc cụ: dễ nhất 4-7 → nhưng CÓ THỂ bắt đầu 10, 15, 30 tuổi
-      → Đọc: dễ nhất 5-7 → nhưng CÓ THỂ học muộn hơn
+    SENSITIVE period = window where it's EASIER → but OUTSIDE window IT'S STILL POSSIBLE
+      → Most skills = sensitive, NOT critical
+      → Second language: easiest before 7 → but CAN learn after (just harder)
+      → Instrument: easiest 4–7 → but CAN begin at 10, 15, 30 years old
+      → Reading: easiest 5–7 → but CAN learn later
 
-  → = Sensitive period = LÝ DO để EXPOSE sớm (bước 1)
-  → ≠ Lý do để ÉP sớm (skip bước 1-3)
-  → = Tận dụng window BẰNG CÁCH expose → KHÔNG PHẢI bằng cách ép
+  → = Sensitive period = REASON to EXPOSE early (step 1)
+  → ≠ Reason to FORCE early (skip steps 1–3)
+  → = Use the window BY EXPOSING → NOT BY FORCING
 
   🟡 TRIPLE BIAS + PATTERN SHIFTABILITY (→ Background-Pattern.md v2.0):
-  → Trải nghiệm ĐẦU TIÊN với 1 skill = set 3 bias CÙNG LÚC:
-    ① Retrieval Bias: "piano" → brain retrieve KỶ NIỆM nào? (vui vs bị ép)
-    ② Template Bias: "tình huống mới tương tự" → dùng TEMPLATE nào? (approach vs avoidance)
-    ③ Interpretation Bias: "ambiguous signal" → diễn giải CÁCH NÀO? (cơ hội vs threat)
-  → Trẻ nhỏ: Pattern Shiftability CAO (ít chunks cũ → dễ shift)
-    → = Sensitive period: bias DỄ SET + DỄ SHIFT hơn người lớn
-    → NHƯNG: bias NEGATIVE cũng dễ set → first experience CỰC quan trọng
-  → = 4 bước = đảm bảo FIRST EXPERIENCE = POSITIVE → set cả 3 bias ĐÚNG HƯỚNG
+  → FIRST experience with a skill = sets 3 biases SIMULTANEOUSLY:
+    ① Retrieval Bias: "piano" → brain retrieves WHICH MEMORY? (fun vs forced)
+    ② Template Bias: "new similar situation" → uses WHICH TEMPLATE?
+       (approach vs avoidance)
+    ③ Interpretation Bias: "ambiguous signal" → interpreted WHICH WAY?
+       (opportunity vs threat)
+  → Young children: Pattern Shiftability HIGH (few old chunks → easier to shift)
+    → = Sensitive period: bias EASY TO SET + EASY TO SHIFT vs adults
+    → BUT: NEGATIVE bias also easy to set → first experience is CRITICAL
+  → = 4 steps = ensuring FIRST EXPERIENCE = POSITIVE → sets all 3 biases
+    IN THE RIGHT DIRECTION
 ```
 
 ### §2.7 — CRITICAL ASYMMETRY × SKILL INTRODUCTION
@@ -864,1046 +896,1086 @@ FRAMEWORK ANALYSIS (→ Mechanism §3 + §4):
 ```
 ⭐ CRITICAL ASYMMETRY (Compile-Taxonomy.md v3.0 §7):
 
-  PFC → Entity-Valence path = CHẬM, TỐN (weeks-months, PFC effort)
-  Entity-Valence → PFC path = NHANH, RẺ (milliseconds, automatic)
+  PFC → Entity-Valence path = SLOW, COSTLY (weeks–months, PFC effort)
+  Entity-Valence → PFC path = FAST, CHEAP (milliseconds, automatic)
 
-  CHO SKILL INTRODUCTION:
+  FOR SKILL INTRODUCTION:
 
-    PFC PATH (giải thích): "Piano quan trọng vì..."
-      → Bố mẹ GIẢI THÍCH tại sao skill X tốt → PFC trẻ tiếp nhận
-      → NHƯNG: PFC → Entity-Valence = CHẬM, TỐN
-      → Trẻ 3-6: PFC budget HẠN CHẾ → absorb ÍT
-      → Kết quả: "hiểu piano quan trọng" nhưng body KHÔNG có approach
+    PFC PATH (explaining): "Piano is important because..."
+      → Parent EXPLAINS why skill X is valuable → child's PFC receives it
+      → BUT: PFC → Entity-Valence = SLOW, COSTLY
+      → Children 3–6: PFC budget LIMITED → absorbs LITTLE
+      → Result: "understands piano is important" but body HAS NO approach
 
-    ENTITY-VALENCE PATH (sống mẫu + trải nghiệm): Bố mẹ CHƠI piano vui
-      → Trẻ THẤY bố mẹ enjoy → Entity-Valence path: NHANH, tự động
-      → Trẻ MUỐN THỬ (Entity-Valence → PFC: "tôi cũng muốn")
-      → Kết quả: body approach tag TRƯỚC cả khi hiểu "tại sao quan trọng"
+    ENTITY-VALENCE PATH (modeling + experience): Parent PLAYS piano with joy
+      → Child SEES parent enjoying → Entity-Valence path: FAST, automatic
+      → Child WANTS TO TRY (Entity-Valence → PFC: "I want that too")
+      → Result: body approach tag BEFORE even understanding "why it's important"
 
-  → = "SỐNG MẪU" (Natural-Dev §5.6) CÓ CƠ SỞ CƠ CHẾ:
-    → Bố mẹ enjoy skill → Entity-Valence path → trẻ muốn
-    → Bố mẹ giải thích skill → PFC path → trẻ hiểu nhưng chưa muốn
+  → = "MODELING" (Natural-Dev §5.6) HAS A MECHANISTIC BASIS:
+    → Parent enjoys skill → Entity-Valence path → child wants it
+    → Parent explains skill → PFC path → child understands but doesn't yet want it
 
   HARDWARE-SUBSIDY + ENTITY-VALENCE = COMPOUND EFFECT:
-    → Bố mẹ = trusted entity (Mức 4 Entity-Access) + Hardware-Subsidy
-    → Bố mẹ enjoy piano TRƯỚC MẶT trẻ:
-      Entity-Valence path (nhanh) + Hardware-Subsidy (anti-habituation)
-      = approach tag CỰC MẠNH, bền, tự nhiên
-    → > Bất kỳ giải thích nào về "piano tốt cho não"
+    → Parent = trusted entity (Level 4 Entity-Access) + Hardware-Subsidy
+    → Parent enjoys piano IN FRONT OF child:
+      Entity-Valence path (fast) + Hardware-Subsidy (anti-habituation)
+      = approach tag EXTREMELY STRONG, durable, natural
+    → > Any explanation about "piano is good for the brain"
 
-  → = Bước 1 (Exposure) HIỆU QUẢ NHẤT khi BỐ MẸ TỰ ENJOY skill
-  → = "Muốn con thích X → bố mẹ SỐNG thích X" (Entity-Valence > PFC)
+  → = Step 1 (Exposure) MOST EFFECTIVE when parents GENUINELY ENJOY the skill
+  → = "Want child to like X → parents LIVE liking X" (Entity-Valence > PFC)
   → Cross-ref: Mechanism v2.3 §3.2b (Critical Asymmetry for Parenting)
 ```
 
 ---
 
-## §3 — KỸ NĂNG VẬN ĐỘNG: BƠI, XE ĐẠP, SPORT, DANCE
+## §3 — MOTOR SKILLS: SWIMMING, CYCLING, SPORT, DANCE
 
 ```
-VẬN ĐỘNG = NHÓM KỸ NĂNG CÓ NỀN TẢNG TỰ NHIÊN MẠNH NHẤT
+MOTOR = THE SKILL GROUP WITH THE STRONGEST NATURAL FOUNDATION
 
-  Natural-Development đã cover: bò, đứng, đi, chạy, leo, nhảy
-  → Tất cả = motor schemas tự nhiên, KHÔNG CẦN dạy
-  → Skill-Introduction ở đây = kỹ năng vận động CÓ CẤU TRÚC
-  → BUILD TRÊN motor schemas tự nhiên
+  Natural-Development already covered: crawling, standing, walking, running, climbing, jumping
+  → All = natural motor schemas, NO TEACHING NEEDED
+  → Skill-Introduction here = motor skills WITH STRUCTURE
+  → BUILDING ON natural motor schemas
 
-  NGUYÊN TẮC CHUNG cho vận động:
-  → Gross motor TRƯỚC fine motor (chạy trước viết)
-  → ĐA DẠNG TRƯỚC chuyên sâu (nhiều môn trước khi chọn 1)
-  → Vui TRƯỚC kỹ thuật (enjoy movement trước drill)
-  → 🟢 Research: early sport specialization (<12 tuổi) → TĂNG chấn thương,
-    TĂNG burnout, GIẢM thành tích dài hạn
-  → Multi-sport exposure → athletic foundation TỐT hơn → specialize SAU
+  GENERAL PRINCIPLES for motor skills:
+  → Gross motor BEFORE fine motor (running before writing)
+  → DIVERSITY BEFORE specialization (many activities before choosing 1)
+  → FUN BEFORE technique (enjoy movement before drills)
+  → 🟢 Research: early sport specialization (<12 years) → INCREASES injury risk,
+    INCREASES burnout, DECREASES long-term performance
+  → Multi-sport exposure → better athletic foundation → specialize LATER
 ```
 
-### §3.1 — BƠI (Swimming) — BASIC SKILL
+### §3.1 — SWIMMING — BASIC SKILL
 
 ```
-⭐ BƠI = KỸ NĂNG AN TOÀN → giới thiệu cho TẤT CẢ trẻ (không chờ interest)
-   Nhưng CÁCH giới thiệu VẪN theo 4 bước
+⭐ SWIMMING = SAFETY SKILL → introduce to ALL children (don't wait for interest)
+   But HOW to introduce STILL follows the 4 steps
 
-BƯỚC 1 — EXPOSURE (từ sơ sinh):
-  → Tắm = exposure tự nhiên đầu tiên (nước chạm da, nhiệt độ, splash)
-  → Chơi nước: xô, chậu, vòi, mưa → body learn "nước = an toàn + vui"
-  → Baby swim (~3-12 tháng): BỐ MẸ CÙNG trong nước, bế, hát
-    → KHÔNG phải "dạy bơi" → là water familiarization
-    → Mục đích: body build "nước = OK" schema (không phải kỹ thuật)
+STEP 1 — EXPOSURE (from birth):
+  → Bath = the first natural exposure (water on skin, temperature, splashing)
+  → Water play: buckets, basins, hoses, rain → body learns "water = safe + fun"
+  → Baby swim (~3–12 months): PARENTS IN WATER TOGETHER, holding, singing
+    → NOT "teaching swimming" → it's water familiarization
+    → Purpose: body builds "water = OK" schema (not technique)
 
-BƯỚC 2 — INTEREST:
-  → Với bơi: hầu hết trẻ TỰ NHIÊN thích nước (novelty + sensory)
-  → NẾU trẻ SỢ nước: ĐỪNG ép → quay lại bước 1 (chơi nước NHỎ: chậu, vòi)
-  → Sợ nước + bị ép = schema "nước = danger" → KHÓ gỡ sau này
-  → Body signal sẵn sàng: thích chơi nước, tự nhào vào, không panic khi ướt mặt
+STEP 2 — INTEREST:
+  → With swimming: most children NATURALLY like water (novelty + sensory)
+  → IF child FEARS water: DON'T FORCE → back to step 1
+    (water play SMALL: basin, hose)
+  → Fear of water + forced = schema "water = danger" → HARD TO REMOVE later
+  → Body signal ready: likes playing in water, jumps in, doesn't panic when face gets wet
 
-BƯỚC 3 — GUIDED PLAY (~1-4 tuổi):
-  → Bố mẹ CÙNG trong hồ → chơi: đạp nước, thổi bong bóng, nổi, lặn nhẹ
-  → Dạy TIN NƯỚC (water trust): nằm ngửa trên nước với bố đỡ → dần bớt đỡ
-  → Dạy THỔI (blow bubbles): nền tảng cho thở khi bơi
-  → CHƯA dạy kỹ thuật tay/chân chính thức → chỉ CHƠI + quen nước
-  → = Chunks compile: "nước = an toàn + vui + với bố mẹ"
+STEP 3 — GUIDED PLAY (~1–4 years):
+  → Parent IN POOL TOGETHER → play: kicking, blowing bubbles, floating, gentle dipping
+  → Teach WATER TRUST: lying on back in water with parent supporting → gradually reducing support
+  → Teach BLOWING (blow bubbles): foundation for breathing while swimming
+  → NOT YET teaching formal arm/kick technique → only PLAYING + getting comfortable in water
+  → = Chunks compile: "water = safe + fun + with parents"
 
-BƯỚC 4 — STRUCTURED (~4-6 tuổi):
-  → Lớp bơi chính thức: kỹ thuật tay, chân, thở, style
-  → Readiness: thoải mái trong nước, nghe hướng dẫn được, chịu nổi xa bố mẹ
-  → Trẻ đã qua bước 1-3 → vào lớp với POSITIVE schema → learn NHANH
-  → Trẻ skip bước 1-3 → vào lớp → có thể sợ/panic → learn CHẬM + schema negative
+STEP 4 — STRUCTURED (~4–6 years):
+  → Formal swim class: arm technique, kick, breathing, style
+  → Readiness: comfortable in water, can follow instructions, willing to be away from parents
+  → Child who went through steps 1–3 → enters class WITH POSITIVE schema → learns FAST
+  → Child who skipped steps 1–3 → enters class → may be scared/panic → learns SLOWLY
+    + negative schema
 
 KEY INSIGHTS:
-  → WATER COMFORT > kỹ thuật → trẻ tin nước = learn technique dễ
-  → Mỗi trẻ timeline KHÁC: có trẻ 3 tuổi thoải mái, có trẻ 5 tuổi vẫn sợ → CẢ HAI OK
-  → Bơi = skill CẢ ĐỜI → không cần "giỏi sớm" → cần "TIN NƯỚC sớm"
-  → 🟡 Framework: water trust = compiled chunk cluster về nước (with approach valence)
-    → Positive valence → approach → learn / Negative valence → avoid → không learn
+  → WATER COMFORT > technique → child trusts water = learns technique easily
+  → Each child's timeline VARIES: some comfortable at age 3, some still cautious at 5
+    → BOTH OK
+  → Swimming = life skill → doesn't need to be "good early" → needs to "TRUST WATER early"
+  → 🟡 Framework: water trust = cluster of compiled chunks about water (with approach valence)
+    → Positive valence → approach → learns / Negative valence → avoids → doesn't learn
 ```
 
-### §3.2 — XE ĐẠP (Cycling)
+### §3.2 — CYCLING
 
 ```
-CÁCH CŨ vs CÁCH MỚI:
+OLD WAY vs NEW WAY:
 
-  CÁCH CŨ (training wheels):
-    → Xe 4 bánh → pedal OK nhưng balance = 0
-    → Bỏ training wheels → BỖN NHIÊN phải balance → sợ → ngã → stress
-    → = Học phần KHÓ (balance) CUỐI CÙNG, dưới pressure
+  OLD WAY (training wheels):
+    → 4-wheeled bike → pedaling OK but balance = 0
+    → Remove training wheels → SUDDENLY must balance → scared → falls → stress
+    → = Learning the HARDEST PART (balance) LAST, under pressure
 
-  CÁCH MỚI (balance bike / xe cân bằng):
-    → Xe 2 bánh KHÔNG pedal → chân chạm đất → TỰ balance dần
-    → Body learn balance qua CHƠI (scoot, glide, dần nhấc chân)
-    → Khi balance OK → chuyển xe có pedal → thêm pedal = DỄ
-    → = Học phần KHÓ (balance) TRƯỚC, qua PLAY, không pressure
+  NEW WAY (balance bike):
+    → 2-wheeled bike WITHOUT pedals → feet touch the ground → SELF-BALANCES gradually
+    → Body learns balance through PLAYING (scoot, glide, gradually lift feet)
+    → When balance is OK → transition to bike with pedals → adding pedals = EASY
+    → = Learning the HARDEST PART (balance) FIRST, through PLAY, no pressure
 
-  → 🟢 Balance bike = approach hiệu quả hơn training wheels
-    (nhiều nghiên cứu + practice evidence)
+  → 🟢 Balance bike = more effective than training wheels
+    (many studies + practice evidence)
 
-4 BƯỚC:
+4 STEPS:
 
-  Bước 1 — EXPOSURE (~1-2 tuổi):
-    → Thấy xe đạp (bố mẹ đạp, trẻ khác đạp)
-    → Xe chòi chân (ride-on toy): di chuyển bằng chân, NỀN cho xe cân bằng
+  Step 1 — EXPOSURE (~1–2 years):
+    → See bicycles (parents cycling, other children cycling)
+    → Ride-on toy: move by feet, FOUNDATION for balance bike
 
-  Bước 2 — INTEREST:
-    → Trẻ muốn LEO lên xe, muốn "đi như bạn", chỉ vào xe
+  Step 2 — INTEREST:
+    → Child wants to CLIMB ON the bike, wants to "go like the others," points at bikes
 
-  Bước 3 — GUIDED PLAY (~2-4 tuổi):
-    → Balance bike: trẻ ngồi, chân đẩy, dần glide → body TỰ learn balance
-    → Bố mẹ: ĐI BÊN CẠNH, ĐỪNG giữ yên (giữ = trẻ không learn balance)
-    → Cho đi trên dốc NHẸ → trẻ TỰ nhấc chân → balance practice tự nhiên
-    → Tricycle (xe 3 bánh): song song → pedaling practice (nhưng không có balance)
+  Step 3 — GUIDED PLAY (~2–4 years):
+    → Balance bike: child sits, pushes with feet, gradually glides → body SELF-LEARNS balance
+    → Parents: WALK ALONGSIDE, DON'T hold the bike (holding = child doesn't learn balance)
+    → Allow riding on a GENTLE slope → child NATURALLY lifts feet → natural balance practice
+    → Tricycle: simultaneously → pedaling practice (but without balance)
 
-  Bước 4 — STRUCTURED (~3.5-6 tuổi):
-    → Chuyển sang xe pedal (không training wheels)
-    → Trẻ ĐÃ biết balance (từ balance bike) → chỉ cần thêm pedal
-    → Thường: 1-2 buổi tập → ĐI ĐƯỢC (vì balance đã có)
-    → So sánh: training wheels → bỏ → có thể MẤT TUẦN để balance
+  Step 4 — STRUCTURED (~3.5–6 years):
+    → Transition to pedal bike (no training wheels)
+    → Child ALREADY KNOWS balance (from balance bike) → only needs to add pedaling
+    → Usually: 1–2 practice sessions → RIDING (because balance is already there)
+    → Compare: training wheels → remove → can take WEEKS to balance
 
-KEY: balance bike = body learn PHẦN KHÓ NHẤT qua play
-  → Framework: body compile balance chunks TRƯỚC (Compiled processing)
-  → Thêm pedal = thêm 1 layer lên chunks ĐÃ CÓ → dễ
+KEY: balance bike = body learns THE HARDEST PART through play
+  → Framework: body compiles balance chunks FIRST (Compiled processing)
+  → Adding pedals = adding 1 layer on TOP OF chunks ALREADY THERE → easy
 ```
 
-### §3.3 — THỂ THAO / SPORT
+### §3.3 — SPORT
 
 ```
-⭐ NGUYÊN TẮC SỐ 1: ĐA DẠNG TRƯỚC, CHUYÊN SÂU SAU
+⭐ PRINCIPLE #1: DIVERSITY FIRST, SPECIALIZATION LATER
 
   🟢 Research (Côté et al., Lloyd et al.):
-  → Early specialization (chỉ 1 môn trước 12 tuổi):
-    → Tăng chấn thương quá tải (overuse injuries)
-    → Tăng burnout + bỏ thể thao sớm
-    → KHÔNG tăng thành tích dài hạn (trừ vài môn đặc biệt: gymnastics, figure skating)
-  → Early diversification (nhiều môn trước 12):
-    → Motor foundation ĐA DẠNG → body adaptable
-    → Ít chấn thương + ít burnout
-    → Khi specialize (12+) → thành tích TƯƠNG ĐƯƠNG hoặc TỐT HƠN
+  → Early specialization (only 1 sport before age 12):
+    → Increases overuse injuries
+    → Increases burnout + early dropout
+    → Does NOT increase long-term performance (except a few sports: gymnastics,
+      figure skating)
+  → Early diversification (multiple sports before age 12):
+    → DIVERSE motor foundation → body is adaptable
+    → Fewer injuries + less burnout
+    → When specializing (12+) → performance EQUIVALENT or BETTER
 
-  → = Trước 6 tuổi: cho trẻ THỬ NHIỀU → đừng "chọn 1 môn"
+  → = Before age 6: let child TRY MANY → don't "choose 1 sport"
 
-4 BƯỚC CHO SPORT NÓI CHUNG:
+4 STEPS FOR SPORT GENERALLY:
 
-  Bước 1 — EXPOSURE (từ sơ sinh):
-    → Xem thể thao (TV, sân, công viên)
-    → Bóng ở nhà (mọi loại: to, nhỏ, mềm)
-    → Bố mẹ chạy/nhảy/chơi thể thao → trẻ THẤY (sống mẫu)
+  Step 1 — EXPOSURE (from birth):
+    → Watch sports (TV, field, park)
+    → Balls at home (all types: big, small, soft)
+    → Parents run/jump/play sports → child SEES (modeling)
 
-  Bước 2 — INTEREST:
-    → Tự đá bóng, tự ném, tự chạy theo bóng
-    → "Bố, chơi bóng với con!" → body signal rõ
+  Step 2 — INTEREST:
+    → Self-kicks a ball, throws, runs after the ball
+    → "Dad, play ball with me!" → clear body signal
 
-  Bước 3 — GUIDED PLAY (~2-5 tuổi):
-    → Đá bóng với bố mẹ (không luật, không kỹ thuật)
-    → Ném/bắt bóng to → dần nhỏ hơn
-    → Chạy chơi, nhảy, leo → motor foundation
-    → "Multi-sport playground": thử nhiều vận động khác nhau
-    → CÒN VUI = TIẾP / HẾT VUI = THỬ cái khác
+  Step 3 — GUIDED PLAY (~2–5 years):
+    → Kick ball with parents (no rules, no technique)
+    → Throw/catch a big ball → gradually smaller
+    → Running, jumping, climbing → motor foundation
+    → "Multi-sport playground": try many different movements
+    → STILL FUN = CONTINUE / NO LONGER FUN = TRY something else
 
-  Bước 4 — STRUCTURED (~5-7 tuổi):
-    → Lớp thể thao có coach, có luật, có team
-    → Readiness: nghe hướng dẫn, chơi theo luật đơn giản, chấp nhận thua
-    → Chunks chiến lược đủ để hiểu rules + teamwork (myelination tăng tốc xử lý)
-    → TRƯỚC đó: "chơi" thể thao → không phải "thi đấu" thể thao
+  Step 4 — STRUCTURED (~5–7 years):
+    → Sport class with coach, rules, team
+    → Readiness: can follow instructions, play by simple rules, accept losing
+    → Strategy chunks sufficient to understand rules + teamwork
+      (myelination increases processing speed)
+    → BEFORE this: "play" sports → not "compete" in sports
 
-PER-SPORT READINESS (ước tính, mỗi trẻ khác):
+PER-SPORT READINESS (estimates, each child is different):
 
-  ┌──────────────────┬──────────────┬────────────────────────────────┐
-  │ Môn              │ Guided play  │ Structured                     │
-  ├──────────────────┼──────────────┼────────────────────────────────┤
-  │ Bóng đá          │ ~3-4 tuổi    │ ~5-6 (mini team, luật đơn giản)│
-  │ Bóng rổ          │ ~3-4         │ ~6-7 (cần coordination hơn)    │
-  │ Cầu lông/tennis  │ ~4-5         │ ~6-7 (racket = tool extension) │
-  │ Chạy / điền kinh │ natural      │ ~6-7 (structured training)     │
-  │ Võ thuật         │ ~3-4 (basic) │ ~5-6 (formal class)            │
-  │ Thể dục dụng cụ  │ ~2-3 (tumble)│ ~4-5 (formal gymnastics)       │
-  └──────────────────┴──────────────┴────────────────────────────────┘
-  → Tất cả = ƯỚC TÍNH → observe body signal PER-CHILD
+  ┌─────────────────────┬──────────────┬──────────────────────────────────┐
+  │ Sport               │ Guided play  │ Structured                       │
+  ├─────────────────────┼──────────────┼──────────────────────────────────┤
+  │ Football (soccer)   │ ~3–4 years   │ ~5–6 (mini team, simple rules)   │
+  │ Basketball          │ ~3–4         │ ~6–7 (more coordination needed)   │
+  │ Badminton/tennis    │ ~4–5         │ ~6–7 (racket = tool extension)    │
+  │ Running/athletics   │ natural      │ ~6–7 (structured training)        │
+  │ Martial arts        │ ~3–4 (basic) │ ~5–6 (formal class)              │
+  │ Gymnastics          │ ~2–3 (tumble)│ ~4–5 (formal gymnastics)         │
+  └─────────────────────┴──────────────┴──────────────────────────────────┘
+  → All = ESTIMATES → observe body signal PER-CHILD
 
-  VÕ THUẬT — GHI CHÚ ĐẶC BIỆT:
-    → Không chỉ motor → còn: discipline, respect, self-regulation, body awareness
-    → Nhiều võ đường nhận trẻ ~4-5 tuổi
-    → Lợi ích framework: body-base mạnh + emotional regulation + social schema
-    → Karate/Taekwondo: forms (động tác mẫu) → phù hợp bắt đầu sớm hơn
-    → Judo/Jiu-jitsu: grappling → cần body awareness hơn → thường muộn hơn chút
+  MARTIAL ARTS — SPECIAL NOTE:
+    → Not only motor → also: discipline, respect, self-regulation, body awareness
+    → Many dojos accept children ~4–5 years
+    → Framework benefits: strong body-base + emotional regulation + social schema
+    → Karate/Taekwondo: forms (patterned sequences) → suitable to start earlier
+    → Judo/Jiu-jitsu: grappling → needs more body awareness → usually starts a bit later
 ```
 
-### §3.4 — NHẢY MÚA / DANCE
+### §3.4 — DANCE
 
 ```
-DANCE = GIAO ĐIỂM CỦA NHIỀU KỸ NĂNG:
-  Motor (vận động) + Music (nhạc) + Spatial (không gian) +
-  Social (bạn, nhóm) + Emotional expression (biểu đạt) + Creativity (sáng tạo)
-  → = Kỹ năng "giàu nhất" về synapse diversity
+DANCE = INTERSECTION OF MANY SKILLS:
+  Motor + Music + Spatial + Social + Emotional expression + Creativity
+  → = The "richest" skill for synapse diversity
 
-4 BƯỚC:
+4 STEPS:
 
-  Bước 1 — EXPOSURE (từ sơ sinh):
-    → Nhạc ở nhà → trẻ TỰ lắc lư, đung đưa (natural rhythm response)
-    → Bố mẹ nhảy với trẻ (bế + nhảy = vestibular + rhythm + connection)
-    → = Trẻ sơ sinh ĐÃ có rhythm response → exposure CỰC SỚM, TỰ NHIÊN
+  Step 1 — EXPOSURE (from birth):
+    → Music at home → child NATURALLY sways, rocks (natural rhythm response)
+    → Parents dance WITH child (hold + dance = vestibular + rhythm + connection)
+    → = Newborns ALREADY have rhythm response → exposure EXTREMELY EARLY, NATURALLY
 
-  Bước 2 — INTEREST:
-    → Tự đứng lên nhảy khi nghe nhạc (thường ~12-18 tháng)
-    → Xoay tròn, giậm chân, vỗ tay theo nhạc
-    → = Hầu hết trẻ CÓ interest tự nhiên (rhythm = universal human trait)
+  Step 2 — INTEREST:
+    → Self-stands up to dance when music plays (typically ~12–18 months)
+    → Spins, stomps, claps to music
+    → = Most children HAVE natural interest (rhythm = universal human trait)
 
-  Bước 3 — GUIDED PLAY (~2-4 tuổi):
-    → Creative movement: "nhạc nhanh → chạy! nhạc chậm → bước nhẹ!"
-    → Freeze dance: nhạc dừng → đứng im (inhibition chunk practice!)
-    → Bắt chước động tác: "bay như chim! bò như mèo!"
+  Step 3 — GUIDED PLAY (~2–4 years):
+    → Creative movement: "fast music → run! slow music → step lightly!"
+    → Freeze dance: music stops → stand still (inhibition chunk practice!)
+    → Copy movements: "fly like a bird! crawl like a cat!"
     → = Motor + imagination + following instructions + FUN
 
-  Bước 4 — STRUCTURED:
-    → Creative dance class: ~3-4 tuổi (ít kỹ thuật, nhiều biểu đạt)
-    → Ballet / múa cổ điển: ~5-6 (cần body control + instruction following)
-    → Hip-hop / modern: ~4-6 (ít formal hơn ballet)
-    → Múa dân gian: ~4-5 (cultural + social + motor)
+  Step 4 — STRUCTURED:
+    → Creative dance class: ~3–4 years (little technique, lots of expression)
+    → Ballet / classical dance: ~5–6 (requires body control + instruction following)
+    → Hip-hop / modern: ~4–6 (less formal than ballet)
+    → Cultural/folk dance: ~4–5 (cultural + social + motor)
 
-  ⚠️ BALLET SỚM — LƯU Ý:
-    → Nhiều lớp nhận từ 3 tuổi → nhưng: trẻ 3 tuổi CHƯA có
-      inhibition chunks + body control ĐỦ cho ballet technique thật sự
-    → Lớp "pre-ballet" 3-4 tuổi = thường là creative movement
-      MẶC đồ ballet → OK nếu fun, NHƯNG đừng kỳ vọng kỹ thuật
-    → Ballet thật sự (positions, barre, turnout): ~5-7 tuổi
-    → Pointe shoes (mũi cứng): KHÔNG trước ~11-12
-      (xương chân chưa phát triển đủ → nguy cơ chấn thương)
+  ⚠️ EARLY BALLET — NOTE:
+    → Many studios accept from age 3 → but: 3-year-olds DON'T YET HAVE
+      sufficient inhibition chunks + body control for real ballet technique
+    → "Pre-ballet" class ages 3–4 = usually creative movement DRESSED IN ballet
+      clothes → OK if fun, BUT don't expect technical performance
+    → Real ballet (positions, barre, turnout): ~5–7 years
+    → Pointe shoes: NOT before ~11–12
+      (foot bones not yet developed enough → injury risk)
 ```
 
 ---
 
-## §4 — KỸ NĂNG ÂM NHẠC: NGHE, HÁT, NHẠC CỤ
+## §4 — MUSIC SKILLS: LISTENING, SINGING, INSTRUMENTS
 
 ```
-ÂM NHẠC = KỸ NĂNG CÓ SENSITIVE PERIOD RÕ RÀNG NHẤT
+MUSIC = THE SKILL WITH THE CLEAREST SENSITIVE PERIOD
 
-  → Tai trẻ ĐANG calibrate 0-5 tuổi
-  → Auditory cortex đang compile chunks MẠNH
-  → = Window TỐT NHẤT để build musical foundation
-  → NHƯNG: foundation = NGHE + HÁT + RHYTHM → không phải "vào lớp piano lúc 3"
-  → Nhạc cụ = TẦNG 3-4 → CẦN foundation nghe/hát/rhythm TRƯỚC
+  → Child's ear IS CALIBRATING ages 0–5
+  → Auditory cortex is ACTIVELY compiling chunks
+  → = BEST WINDOW to build musical foundation
+  → BUT: foundation = LISTENING + SINGING + RHYTHM → not "piano class at age 3"
+  → Instruments = LAYER 3–4 → NEEDS listening/singing/rhythm foundation FIRST
 ```
 
-### §4.1 — NỀN TẢNG: NGHE — HÁT — RHYTHM
+### §4.1 — FOUNDATION: LISTENING — SINGING — RHYTHM
 
 ```
-① NGHE (Listening) — từ BÀO THAI:
+① LISTENING — from the WOMB:
 
-  → Thai nhi nghe nhạc từ ~20 tuần → auditory chunks BẮT ĐẦU compile
-  → 0-12 tháng: đa dạng nhạc ở nhà → auditory chunks compile PHONG PHÚ
-    → Classical, folk, pop, jazz, nhạc dân tộc... → MỖI loại = khác patterns
-    → = Chunks: rhythm patterns, melody contours, timbre (chất âm)
-  → ĐỪNG chỉ 1 loại nhạc → đa dạng = chunks compile ĐA DẠNG (như đa dạng texture cho tay)
+  → Fetus hears music from ~20 weeks → auditory chunks BEGIN compiling
+  → 0–12 months: diverse music at home → auditory chunks compile RICHLY
+    → Classical, folk, pop, jazz, traditional... → EACH type = different patterns
+    → = Chunks: rhythm patterns, melody contours, timbre (sound quality)
+  → DON'T play only 1 type of music → diversity = chunks compile DIVERSELY
+    (like diverse textures for the hands)
 
-  → Bố mẹ HÁT cho trẻ nghe = HIỆU QUẢ HƠN nhạc recorded:
-    → Giọng bố mẹ: trẻ đã BIẾT từ bào thai → attention CAO hơn
-    → Live: có eye contact, body movement, emotional connection
-    → = Social + emotional + musical chunks CÙNG LÚC
+  → Parents SINGING to child = MORE EFFECTIVE than recorded music:
+    → Parents' voices: child ALREADY KNOWS from the womb → higher attention
+    → Live: has eye contact, body movement, emotional connection
+    → = Social + emotional + musical chunks SIMULTANEOUSLY
 
-② HÁT (Singing) — từ babbling:
+② SINGING — from babbling:
 
-  → Babbling đã có musical elements: trẻ "hát" trước khi nói (lên xuống giọng)
-  → ~12-18 tháng: bắt đầu hát fragments (vài nốt của bài quen)
-  → ~2-3 tuổi: hát gần full bài (sai pitch nhiều → BÌNH THƯỜNG)
-  → ~4-5 tuổi: pitch accuracy cải thiện rõ
-  → ~5-7 tuổi: hát tương đối chính xác (nếu có exposure đủ)
+  → Babbling already has musical elements: child "sings" before speaking
+    (voice rises and falls)
+  → ~12–18 months: begins singing fragments (a few notes of a familiar song)
+  → ~2–3 years: sings near full songs (many wrong pitches → NORMAL)
+  → ~4–5 years: pitch accuracy clearly improves
+  → ~5–7 years: sings relatively accurately (if sufficient exposure)
 
-  → Hát = NHẠC CỤ TỰ NHIÊN NHẤT → voice luôn available
-  → Hát CÙNG bố mẹ = bonding + rhythm + pitch + language + memory
-  → ĐỪNG nói "con hát sai rồi!" → suppress → schema "tôi không biết hát"
-  → = Mọi trẻ CÓ THỂ hát → "không biết hát" = schema learned, không phải hardware
+  → Singing = THE MOST NATURAL INSTRUMENT → voice always available
+  → Singing TOGETHER with parents = bonding + rhythm + pitch + language + memory
+  → DON'T say "you're singing it wrong!" → suppress → schema "I can't sing"
+  → = Every child CAN sing → "can't sing" = a learned schema, not hardware
 
-③ RHYTHM (Nhịp) — INNATE:
+③ RHYTHM — INNATE:
 
-  → Nghiên cứu: trẻ sơ sinh ĐÃ phản ứng với nhịp (beat perception)
-  → ~6-12 tháng: lắc lư, đung đưa theo nhạc
-  → ~1-2 tuổi: vỗ tay, giậm chân theo nhịp (chưa chính xác)
-  → ~3-4 tuổi: bắt đầu theo đúng beat
-  → ~5-6 tuổi: giữ nhịp khá ổn
+  → Research: newborns ALREADY respond to beat (beat perception)
+  → ~6–12 months: sways, rocks to music
+  → ~1–2 years: claps, stomps to music (not precise yet)
+  → ~3–4 years: begins matching the actual beat
+  → ~5–6 years: keeps rhythm fairly reliably
 
-  → Rhythm = NỀN cho mọi nhạc cụ → build rhythm TRƯỚC nhạc cụ
-  → Cách build: gõ nồi, chơi trống, body percussion (vỗ tay, đập đùi, giậm chân)
-  → = MIỄN PHÍ + VUI + hiệu quả cao
-  → Clapping games, đồng dao, "head shoulders knees and toes" = rhythm training TỰ NHIÊN
+  → Rhythm = FOUNDATION for all instruments → build rhythm BEFORE instruments
+  → How to build: drum pots, play drums, body percussion (clapping, thigh-patting, stomping)
+  → = FREE + FUN + highly effective
+  → Clapping games, nursery rhymes, "head shoulders knees and toes" = NATURAL rhythm training
 
-  ⭐ TRIANGLE FOUNDATION: NGHE × HÁT × RHYTHM
-    → 3 cái này = NỀN cho mọi nhạc cụ
-    → Trẻ có nền MẠNH (nghe nhiều, hát nhiều, rhythm tốt)
-      → vào học nhạc cụ: NHANH + ENJOY
-    → Trẻ thiếu nền (ít nghe, không hát, chưa giữ nhịp)
-      → vào học nhạc cụ: CHẬM + FRUSTRATING
-    → = Invest vào nền (0-5 tuổi, MIỄN PHÍ) > nhảy thẳng vào nhạc cụ (TỐN TIỀN + risk)
+  ⭐ TRIANGLE FOUNDATION: LISTENING × SINGING × RHYTHM
+    → These 3 = FOUNDATION for all instruments
+    → Child with STRONG foundation (listens a lot, sings a lot, good rhythm)
+      → starts learning an instrument: FAST + ENJOYABLE
+    → Child lacking foundation (little listening, doesn't sing, can't keep rhythm)
+      → starts learning an instrument: SLOW + FRUSTRATING
+    → = Invest in the foundation (ages 0–5, FREE) > jumping straight to instruments
+      (EXPENSIVE + risky)
 ```
 
-### §4.2 — NHẠC CỤ — KHI NÀO VÀ CÁI NÀO
+### §4.2 — INSTRUMENTS: WHEN AND WHICH
 
 ```
-TRƯỚC KHI CHỌN NHẠC CỤ — HỎI:
+BEFORE CHOOSING AN INSTRUMENT — ASK:
 
-  ① Con có nền NGHE + HÁT + RHYTHM chưa? (§4.1)
-  ② Con có interest với nhạc cụ CỤ THỂ không? (body signal)
-  ③ Tay/body con ĐỦ cho nhạc cụ đó chưa? (physical readiness)
-  ④ Con chịu được instruction + practice ngắn không? (chunks chiến lược đủ)
+  ① Has child built the LISTENING + SINGING + RHYTHM foundation? (§4.1)
+  ② Does child have interest in a SPECIFIC instrument? (body signal)
+  ③ Is child's hand/body READY for that instrument? (physical readiness)
+  ④ Can child tolerate brief instruction + practice? (sufficient strategy chunks)
 
-  CẢ 4 CÓ → bắt đầu ✅
-  THIẾU ①: build nền trước (miễn phí, vui, 0 pressure)
-  THIẾU ②: tiếp tục expose → đừng chọn hộ
-  THIẾU ③-④: ĐỢI → body/brain sẽ ready → không mất gì
+  ALL 4 YES → begin ✅
+  MISSING ①: build foundation first (free, fun, 0 pressure)
+  MISSING ②: keep exposing → don't choose for them
+  MISSING ③–④: WAIT → body/brain will be ready → nothing is lost
 ```
 
 #### PIANO / KEYBOARD
 
 ```
-TẠI SAO PHỔ BIẾN:
-  → Nhấn phím = ra âm NGAY (feedback loop tức thì, không cần kỹ thuật để ra tiếng)
-  → Visual layout rõ ràng (cao → phải, thấp → trái)
-  → Một tay = melody, hai tay = harmony → progressive
-  → Repertoire khổng lồ: classical, pop, jazz...
+WHY IT'S POPULAR:
+  → Press key = sound IMMEDIATELY (instant feedback loop, no technique needed to make sound)
+  → Clear visual layout (higher = right, lower = left)
+  → One hand = melody, both hands = harmony → progressive
+  → Enormous repertoire: classical, pop, jazz...
 
-4 BƯỚC:
+4 STEPS:
 
-  Bước 1 — EXPOSURE:
-    → Nhạc piano ở nhà (recorded hoặc bố mẹ chơi)
-    → Piano/keyboard CÓ SẴN → trẻ TỰ chạm khi muốn
-    → Nghe live piano (concert, nhà thờ, trung tâm thương mại)
+  Step 1 — EXPOSURE:
+    → Piano music at home (recorded or parent playing)
+    → Piano/keyboard AVAILABLE → child touches whenever they want
+    → Hear live piano (concert, church, shopping center)
 
-  Bước 2 — INTEREST:
-    → Trẻ tự leo ghế, tự gõ phím, tự explore âm thanh
-    → Hỏi: "mẹ, dạy con bài này!" hoặc tự cố play melody quen
+  Step 2 — INTEREST:
+    → Child climbs onto the bench, presses keys, explores sounds on their own
+    → Asks: "teach me this piece!" or tries to play a familiar melody by ear
 
-  Bước 3 — GUIDED PLAY (~3-5 tuổi):
-    → "Nhấn phím này → nghe nốt cao, phím này → nốt thấp"
-    → Chơi game: "con nhấn, mẹ đoán" / "mẹ hát, con tìm nốt"
-    → Simple melody by ear: "Twinkle Twinkle" = 6 nốt → trẻ TỰ tìm
-    → CHƯA đọc nhạc, CHƯA bài tập → chỉ EXPLORE + ENJOY
+  Step 3 — GUIDED PLAY (~3–5 years):
+    → "Press this key → what sound? → that key?"
+    → Games: "you press, I'll guess" / "mom sings, find the note"
+    → Simple melody by ear: "Twinkle Twinkle" = 6 notes → child SELF-FINDS
+    → NOT reading music, NOT exercises → only EXPLORE + ENJOY
 
-  Bước 4 — STRUCTURED:
-    → Suzuki method: ~4-5 tuổi (by ear trước → notation sau)
-    → Traditional method: ~6-7 tuổi (đọc nhạc từ đầu)
-    → Physical readiness: ngón tay ĐỘC LẬP, hand span đủ
-      (phím piano thiết kế cho tay NGƯỜI LỚN → trẻ 4 tuổi: tay nhỏ → hạn chế)
-    → Attention span: ~15-20 phút lesson (ngắn hơn người lớn NHIỀU)
+  Step 4 — STRUCTURED:
+    → Suzuki method: ~4–5 years (by ear first → notation later)
+    → Traditional method: ~6–7 years (reading music from the start)
+    → Physical readiness: fingers INDEPENDENT, hand span sufficient
+      (piano keys designed for ADULT hands → child at 4: small hands → limited)
+    → Attention span: ~15–20 minutes per lesson (much shorter than adults)
 
   SUZUKI vs TRADITIONAL:
-    Suzuki: nghe → hát → chơi → ĐỌC sau (giống học ngôn ngữ: nghe → nói → đọc)
-      → Phù hợp: trẻ nhỏ (4-6), ear foundation tốt
-      → Cần: bố mẹ DỰ MỌI buổi học + practice CÙNG ở nhà
-    Traditional: đọc nhạc → chơi (giống học đọc trước nói)
-      → Phù hợp: trẻ lớn hơn (6+), đã biết đọc chữ, abstract thinking OK
-      → Cần: attention span + motivation đọc ký hiệu
+    Suzuki: listen → sing → play → READ LATER (like learning a language: listen → speak → read)
+      → Suitable: young children (4–6), strong ear foundation
+      → Requires: parent attends EVERY lesson + practices TOGETHER at home
+    Traditional: read music → play (like learning to read before speaking)
+      → Suitable: older children (6+), already reading text, abstract thinking OK
+      → Requires: attention span + motivation to read notation
 
   PRACTICE:
-    → 3-4 tuổi: 5 phút/ngày (MAX) → DAILY > occasional
-    → 5-6 tuổi: 10-15 phút/ngày
-    → 6+ tuổi: 15-20 phút/ngày → tăng dần
-    → BỐ MẸ CÙNG practice (đặc biệt Suzuki) → trẻ KHÔNG practice 1 mình ở tuổi này
-    → = Practice = ritual CÙNG, không phải punishment 1 mình
+    → 3–4 years: 5 minutes/day (MAX) → DAILY > occasional
+    → 5–6 years: 10–15 minutes/day
+    → 6+ years: 15–20 minutes/day → increase gradually
+    → PARENTS PRACTICE TOGETHER (especially Suzuki) → child does NOT practice alone
+      at this age
+    → = Practice = a TOGETHER ritual, not a solo punishment
 ```
 
 #### VIOLIN
 
 ```
-ĐẶC BIỆT:
-  → Suzuki METHOD bắt nguồn từ violin (Shinichi Suzuki)
-  → Nổi tiếng vì bắt đầu RẤT SỚM (~3-4 tuổi)
-  → Có kích thước fractional: 1/16, 1/10, 1/8, 1/4, 1/2, 3/4, 4/4
-  → = Thiết kế CHO TRẺ NHỎ (khác piano: phím cố định cho tay lớn)
+DISTINCTIVE FEATURES:
+  → Suzuki METHOD originated with violin (Shinichi Suzuki)
+  → Famous for starting VERY EARLY (~3–4 years)
+  → Available in fractional sizes: 1/16, 1/10, 1/8, 1/4, 1/2, 3/4, 4/4
+  → = DESIGNED FOR YOUNG CHILDREN (unlike piano: fixed-size keys for adult hands)
 
-4 BƯỚC:
+4 STEPS:
 
-  Bước 1 — EXPOSURE:
-    → Nghe violin (recorded, live, video)
-    → Thấy người chơi violin (concert, video, bạn)
+  Step 1 — EXPOSURE:
+    → Listen to violin (recorded, live, video)
+    → See people playing violin (concert, video, friends)
 
-  Bước 2 — INTEREST:
-    → Trẻ bắt chước kéo đàn (dùng que + hộp)
-    → Hỏi về violin, muốn chạm, muốn thử
+  Step 2 — INTEREST:
+    → Child imitates bowing (uses a stick + box)
+    → Asks about violin, wants to touch it, wants to try
 
-  Bước 3 — GUIDED PLAY (~2.5-4 tuổi):
-    → Suzuki "pre-twinkle": nghe → hát → rhythm practice
-    → "Box violin": hộp + que → tập tư thế giữ đàn (body familiarization)
-    → Nghe Twinkle Twinkle variations → hát theo → body absorb melody
+  Step 3 — GUIDED PLAY (~2.5–4 years):
+    → Suzuki "pre-Twinkle": listen → sing → rhythm practice
+    → "Box violin": box + stick → practice holding position
+      (body familiarization)
+    → Listen to Twinkle Twinkle variations → sing along → body absorbs melody
 
-  Bước 4 — STRUCTURED (~3-5 tuổi Suzuki / 6-7 traditional):
-    → Suzuki: by ear → Book 1 → rất chậm, rất kỹ → mỗi bài = nhiều tuần
-    → Physical: tư thế cầm đàn + cầm vĩ → KHÓ → cần kiên nhẫn (bố mẹ + trẻ)
-    → Âm thanh ban đầu: KÉT → BÌNH THƯỜNG (cần ~6 tháng-1 năm để ra tiếng đẹp)
+  Step 4 — STRUCTURED (~3–5 years Suzuki / 6–7 traditional):
+    → Suzuki: by ear → Book 1 → very slowly, very carefully
+      → each piece = many weeks
+    → Physical: posture holding violin + bow → HARD → requires patience
+      (parent + child)
+    → Initial sounds: SCRATCHY → NORMAL (takes ~6 months–1 year to produce
+      beautiful tone)
 
-  ĐẶC THÙ VIOLIN:
-    → Intonation: KHÔNG có phím → trẻ phải NGHE để đặt ngón ĐÚNG chỗ
-    → = Cần ear training TỐT TRƯỚC → §4.1 foundation CỰC quan trọng
-    → Tư thế: asymmetric (tay trái nhấn, tay phải kéo) → body awareness cần
-    → Suzuki: bố mẹ PHẢI dự MỌI buổi học + "home teacher" → commitment CAO
-    → → Bố mẹ không sẵn sàng commit → đừng bắt đầu (tốt hơn chờ lớn hơn)
+  VIOLIN CHARACTERISTICS:
+    → Intonation: NO FRETS → child must LISTEN to place fingers in the RIGHT SPOT
+    → = Needs STRONG EAR TRAINING BEFOREHAND → §4.1 foundation is CRITICAL
+    → Posture: asymmetric (left hand presses, right hand bows) → body awareness needed
+    → Suzuki: parent MUST attend EVERY lesson + be "home teacher" → HIGH commitment
+    → → Parent not ready to commit → don't start (better to wait until child is older)
 ```
 
 #### GUITAR / UKULELE
 
 ```
 GUITAR:
-  → Ấn dây: cần lực NGÓN đáng kể → ngón trẻ nhỏ = ĐAU + YẾU
-  → Guitar acoustic: dây thép → ĐAU hơn
-  → Guitar classical: dây nylon → dễ hơn chút
-  → Kích thước nhỏ (1/2, 3/4) có sẵn
-  → Structured: thường ~6-7 tuổi (finger strength + span)
-  → = Guitar KHÔNG phải lựa chọn "sớm" tốt → đợi → tốt hơn
+  → Pressing strings: requires significant finger STRENGTH → young children's fingers
+    = HURT + WEAK
+  → Acoustic guitar: steel strings → MORE PAINFUL
+  → Classical guitar: nylon strings → slightly easier
+  → Small sizes (1/2, 3/4) available
+  → Structured: usually ~6–7 years (finger strength + span)
+  → = Guitar is NOT a good "early start" choice → wait → better
 
-UKULELE — THAY THẾ TỐT CHO TRẺ NHỎ:
-  → 4 dây (vs 6 dây guitar) → ĐƠN GIẢN hơn
-  → Dây nylon mềm → KHÔNG đau
-  → Kích thước nhỏ → phù hợp tay trẻ 4-5 tuổi
-  → 3 chords = chơi được NHIỀU bài → reward NHANH → schema positive
-  → = "Gateway instrument": ukulele trước → guitar sau (nếu muốn)
+UKULELE — GOOD ALTERNATIVE FOR YOUNG CHILDREN:
+  → 4 strings (vs 6 for guitar) → SIMPLER
+  → Nylon strings → NO PAIN
+  → Small size → suitable for hands of 4–5-year-olds
+  → 3 chords = can play MANY songs → fast reward → positive schema
+  → = "Gateway instrument": ukulele first → guitar later (if desired)
 
-  Guided play: ~3-4 tuổi (explore sounds, strum along)
-  Structured: ~4-6 tuổi (simple chords, simple songs)
+  Guided play: ~3–4 years (explore sounds, strum along)
+  Structured: ~4–6 years (simple chords, simple songs)
 ```
 
-#### TRỐNG / PERCUSSION
+#### DRUMS / PERCUSSION
 
 ```
-NHẠC CỤ TỰ NHIÊN NHẤT:
-  → Gõ = hành vi BẨM SINH (trẻ gõ mọi thứ từ ~8 tháng)
-  → Feedback TỨC THÌ: gõ → tiếng → cause-effect rõ ràng
-  → KHÔNG cần kỹ thuật để ra tiếng (khác violin, piano chỉnh pitch)
-  → = Entry barrier THẤP NHẤT → phù hợp START sớm nhất
+THE MOST NATURAL INSTRUMENT:
+  → Striking = INNATE BEHAVIOR (children bang everything from ~8 months)
+  → IMMEDIATE feedback: hit → sound → clear cause-effect
+  → NO technique needed to produce sound (unlike violin, piano pitch adjustment)
+  → = LOWEST ENTRY BARRIER → suitable to START earliest
 
-4 BƯỚC:
+4 STEPS:
 
-  Bước 1 — EXPOSURE (từ sơ sinh):
-    → Nồi + muỗng → GÕ (đã là exposure — bố mẹ hay ngăn, nên ĐỂ!)
-    → Nghe nhạc có beat mạnh → body response tự nhiên
-    → Xem drummer (video, live)
+  Step 1 — EXPOSURE (from birth):
+    → Pots + spoons → BANG (this is already exposure — parents often stop it, so DON'T!)
+    → Music with strong beat → natural body response
+    → Watch a drummer (video, live)
 
-  Bước 2 — INTEREST:
-    → GÕ MỌI THỨ (đã là interest!) → hầu hết trẻ CÓ
-    → "Body percussion": vỗ tay, đập đùi, giậm chân → interest tự phát
+  Step 2 — INTEREST:
+    → BANGING EVERYTHING (this IS interest!) → most children HAVE this
+    → "Body percussion": clapping, thigh-patting, stomping → spontaneous interest
 
-  Bước 3 — GUIDED PLAY (~1-4 tuổi):
-    → Đồ chơi trống nhỏ, shaker, tambourine, xylophone
-    → "Mẹ gõ nhịp → con gõ theo" (call-and-response)
-    → "Nhạc nhanh → gõ nhanh, nhạc chậm → gõ chậm" (tempo awareness)
-    → Orff instruments (xylophone, glockenspiel): phím màu → visual + auditory
+  Step 3 — GUIDED PLAY (~1–4 years):
+    → Small drum toys, shaker, tambourine, xylophone
+    → "Mom drums a rhythm → you copy" (call-and-response)
+    → "Fast music → drum fast, slow music → drum slow" (tempo awareness)
+    → Orff instruments (xylophone, glockenspiel): colored keys
+      → visual + auditory
 
-  Bước 4 — STRUCTURED:
-    → Percussion class: ~3-5 tuổi (group, rhythm focus)
-    → Drum kit: ~5-7 tuổi (coordination 4 chi: 2 tay + 2 chân)
-    → Drum kit readiness: chân ĐỦ DÀI chạm pedal + 4-limb independence
+  Step 4 — STRUCTURED:
+    → Percussion class: ~3–5 years (group, rhythm focus)
+    → Drum kit: ~5–7 years (4-limb coordination: 2 hands + 2 feet)
+    → Drum kit readiness: feet LONG ENOUGH to reach pedal + 4-limb independence
 
-  ⭐ GIÁ TRỊ CỦA PERCUSSION:
-    → Rhythm = NỀN cho MỌI nhạc cụ khác
-    → Trẻ chơi percussion 1-2 năm trước → vào piano/violin: rhythm ĐÃ MẠNH
-    → + Motor coordination, attention, social (chơi nhóm = sync với người khác)
-    → + Emotional release (gõ mạnh khi tức = regulation channel an toàn)
-    → = Percussion nên là nhạc cụ ĐẦU TIÊN cho hầu hết trẻ
+  ⭐ VALUE OF PERCUSSION:
+    → Rhythm = FOUNDATION for ALL other instruments
+    → Child plays percussion 1–2 years before → enters piano/violin: rhythm ALREADY STRONG
+    → + Motor coordination, attention, social (group play = syncing with others)
+    → + Emotional release (drum hard when angry = safe regulation channel)
+    → = Percussion should be the FIRST instrument for most children
 ```
 
-#### KÈN / SÁNG / RECORDER
+#### WIND INSTRUMENTS / RECORDER
 
 ```
-  → Cần BREATH CONTROL → phổ + cơ hoành đủ mạnh
-  → Recorder (sáo nhựa): thường ~5-6 tuổi → starter wind instrument
-    → Kỹ thuật đơn giản: thổi + bịt lỗ
-    → Rẻ, nhẹ, dễ mang theo
-  → Flute (sáo): ~7-8+ (cần embouchure + breath control mạnh hơn)
-  → Clarinet / Kèn: ~8-10+ (cần răng vĩnh viễn cho mouthpiece + lực hơi)
-  → Trumpet: ~8-10+ (cần lip strength + breath support)
+  → Requires BREATH CONTROL → lungs + diaphragm sufficiently strong
+  → Recorder: usually ~5–6 years → starter wind instrument
+    → Simple technique: blow + cover holes
+    → Cheap, light, portable
+  → Flute: ~7–8+ (requires stronger embouchure + breath control)
+  → Clarinet / Saxophone: ~8–10+ (needs permanent teeth for mouthpiece + air pressure)
+  → Trumpet: ~8–10+ (requires lip strength + breath support)
 
-  → = Wind instruments = "muộn" nhất trong các nhạc cụ
-  → = ĐỪNG vội → build NGHE + HÁT + RHYTHM trước → wind INSTRUMENT sau
-  → = Trẻ 3-5 tuổi muốn "thổi": whistle, kazoo, harmonica = alternatives vui
+  → = Wind instruments = "latest" among all instruments
+  → = DON'T rush → build LISTENING + SINGING + RHYTHM first → wind instrument LATER
+  → = Children 3–5 who want to "blow something": whistle, kazoo, harmonica = fun alternatives
 ```
 
-### §4.3 — NGUYÊN TẮC PRACTICE CHO TRẺ NHỎ
+### §4.3 — PRACTICE PRINCIPLES FOR YOUNG CHILDREN
 
 ```
-PRACTICE Ở TRẺ 3-6 TUỔI ≠ PRACTICE Ở NGƯỜI LỚN:
+PRACTICE FOR CHILDREN 3–6 ≠ PRACTICE FOR ADULTS:
 
-  ① NGẮN + THƯỜNG XUYÊN > DÀI + HIẾM
-     → 5 phút/ngày × 7 ngày > 35 phút × 1 ngày
-     → Brain consolidation: ngắn + daily → synapse reinforce MỖI ngày
-     → Dài + hiếm → quên giữa các buổi → frustration
+  ① SHORT + FREQUENT > LONG + RARE
+     → 5 minutes/day × 7 days > 35 minutes × 1 day
+     → Brain consolidation: short + daily → synapses reinforce EVERY DAY
+     → Long + rare → forget between sessions → frustration
 
-  ② BỐ MẸ CÙNG (không phải 1 mình)
-     → Trẻ 3-6: CHƯA có self-regulation đủ để practice 1 mình
-     → Bố mẹ CÙNG: model practice behavior + co-regulate khi frustrated
-     → = Practice = ritual GIA ĐÌNH, không phải bài tập cá nhân
-     → Suzuki: gọi rõ bố mẹ là "home teacher"
+  ② PARENTS TOGETHER (not alone)
+     → Children 3–6: NOT YET have sufficient self-regulation to practice alone
+     → Parents TOGETHER: model practice behavior + co-regulate when frustrated
+     → = Practice = FAMILY ritual, not individual homework
+     → Suzuki explicitly calls parents "home teacher"
 
   ③ GAME > DRILL
-     → "Chơi bài này 5 lần" → DRILL → boring → schema "practice = chán"
-     → "Chơi bài này cho gấu bông nghe!" → GAME → fun → schema "practice = chơi"
-     → "Đua xem ai chơi nhanh hơn: con hay mẹ?" → social + fun
-     → = Cùng content, KHÁC framing → khác schema
+     → "Play this piece 5 times" → DRILL → boring → schema "practice = boring"
+     → "Play this piece for the stuffed animals!" → GAME → fun →
+       schema "practice = playing"
+     → "Race to see who plays faster: you or mom?" → social + fun
+     → = Same content, DIFFERENT framing → different schema
 
-  ④ DỪNG TRƯỚC KHI CHÁN
-     → Better: 5 phút vui → dừng → trẻ còn MUỐN chơi tiếp (tomorrow!)
-     → Worse: 20 phút → trẻ chán → ép → dừng khi đã "ghét"
-     → = "Leave the table while still a bit hungry" → áp dụng cho practice
-     → = Schema cuối mỗi practice session = "vui" → muốn quay lại
+  ④ STOP BEFORE BOREDOM SETS IN
+     → Better: 5 minutes of fun → stop → child STILL WANTS to play (tomorrow!)
+     → Worse: 20 minutes → child is bored → forced → stops when already "hating it"
+     → = "Leave the table while still a bit hungry" → applies to practice
+     → = Schema at the END of each practice session = "fun" → wants to come back
 
-  ⑤ TIẾN BỘ = CELEBRATE (process, không result)
-     → "Hôm qua con chưa được, hôm nay con chơi ĐƯỢC rồi!" (process)
-     → ĐỪNG: "con chơi SAI nốt này" (result / error focus)
-     → Progress tracking: sticker chart, recording before/after (trẻ TỰ nghe tiến bộ)
-     → = Body compile: "practice → THẤY tiến bộ → rewarding"
+  ⑤ PROGRESS = CELEBRATE (process, not result)
+     → "Yesterday you couldn't, today you CAN!" (process)
+     → DON'T: "you played this note WRONG" (result / error focus)
+     → Progress tracking: sticker chart, recording before/after
+       (child LISTENS TO their own progress)
+     → = Body compiles: "practice → SEE improvement → rewarding"
 ```
 
 ---
 
-## §5 — KỸ NĂNG NHẬN THỨC: ĐỌC, VIẾT, TOÁN, NGÔN NGỮ 2
+## §5 — COGNITIVE SKILLS: READING, WRITING, MATH, SECOND LANGUAGE
 
 ```
-NHẬN THỨC = NHÓM KỸ NĂNG BỐ MẸ HAY ÉP SỚM NHẤT
+COGNITIVE = THE SKILL GROUP PARENTS MOST OFTEN PUSH TOO EARLY
 
-  "Con 3 tuổi phải biết đếm!" "Con 4 tuổi phải biết đọc!"
-  → Áp lực xã hội + so sánh + lo lắng tương lai
+  "Child must be counting by age 3!" "Child must be reading by age 4!"
+  → Social pressure + comparison + worry about the future
 
-  THỰC TẾ (→ Mechanism §1: PFC hardware online, chunks missing):
-  → Nhận thức = CẦN chunks chiến lược compiled + myelination đủ tốc độ
-  → PFC hardware ONLINE từ prenatal — nhưng chunks chiến lược 3 tuổi: RẤT ÍT
-  → Ép nhận thức trước khi chunks ready = ép chạy phần mềm khi dữ liệu chưa đủ
-  → = Có thể "chạy" (rote memory) nhưng CHẬM + compile với AVOIDANCE tag
+  REALITY (→ Mechanism §1: PFC hardware online, chunks missing):
+  → Cognitive = REQUIRES strategy chunks compiled + myelination sufficient speed
+  → PFC hardware ONLINE from prenatal — but strategy chunks at age 3: VERY FEW
+  → Forcing cognition before chunks are ready = forcing software to run before
+    the data is sufficient
+  → = Can "run" (rote memory) but SLOW + compiles with AVOIDANCE tag
 
-  NGUYÊN TẮC: CONCRETE trước ABSTRACT
-  → Trẻ hiểu "3 quả cam" (concrete: thấy, chạm, đếm) TRƯỚC "3" (abstract: ký hiệu)
-  → Trẻ hiểu "mẹ đi chợ" (nghe, thấy) TRƯỚC "mẹ đi chợ" (đọc ký tự)
-  → = Trải nghiệm cụ thể → brain build model → KHI ĐÓ ký hiệu MỚI có nghĩa
-  → = Flashcard = ký hiệu TRƯỚC trải nghiệm = vỏ không ruột
+  PRINCIPLE: CONCRETE BEFORE ABSTRACT
+  → Child understands "3 oranges" (concrete: sees, touches, counts) BEFORE "3"
+    (abstract: a symbol)
+  → Child understands "mom goes to market" (hears, sees) BEFORE reading
+    "mom goes to market" (recognizing written text)
+  → = Concrete experience → brain builds model → THEN symbols HAVE MEANING
+  → = Flashcards = symbol BEFORE experience = shell without content
 ```
 
-### §5.1 — ĐỌC (Reading)
+### §5.1 — READING
 
 ```
-ĐỌC = KỸ NĂNG PHỨC TẠP NHẤT mà trẻ 0-6 có thể học
-  Cần ĐỒNG THỜI: visual processing + phonological processing +
+READING = THE MOST COMPLEX SKILL a child 0–6 can learn
+  Requires SIMULTANEOUSLY: visual processing + phonological processing +
   vocabulary + working memory + comprehension + attention
-  → = Rất nhiều vùng não phải PHỐI HỢP → cần FOUNDATION vững
+  → = Many brain regions must COORDINATE → needs SOLID FOUNDATION
 
-NỀN TẢNG TRƯỚC KHI ĐỌC (quan trọng HƠN đọc):
+FOUNDATION BEFORE READING (more important than reading itself):
 
-  ① NGÔN NGỮ NÓI (oral language):
-     → Vocabulary: trẻ HIỂU nghĩa nhiều từ → đọc = nhận ra từ ĐÃ BIẾT
-     → Grammar: hiểu câu → dự đoán từ tiếp theo khi đọc
-     → Narrative: hiểu cốt truyện → comprehension khi đọc
-     → = Trẻ nói TỐT → đọc DỄ HƠN (vì đọc BUILD TRÊN nói)
-     → = Invest vào NÓI (đọc sách cho nghe, trò chuyện, kể chuyện) > ép đọc sớm
+  ① ORAL LANGUAGE:
+     → Vocabulary: child UNDERSTANDS the meaning of many words
+       → reading = recognizing words ALREADY KNOWN
+     → Grammar: understands sentences → predicts next word while reading
+     → Narrative: understands plot → comprehension while reading
+     → = Child speaks WELL → reads MORE EASILY (because reading BUILDS ON speaking)
+     → = Invest in SPEAKING (read books aloud, conversation, storytelling)
+       > force early reading
 
-  ② PHONOLOGICAL AWARENESS (nhận biết âm):
-     → Rhyming: "cat - hat - bat" → nghe ÂM GIỐNG nhau → ~3-4 tuổi
-     → Syllables: "ba-na-na" = 3 phần → ~3-4 tuổi
-     → Initial sounds: "mẹ" bắt đầu bằng "m" → ~4-5 tuổi
-     → Segmenting: "cá" = "c" + "á" → ~5-6 tuổi
-     → = Đây là PREDICTOR mạnh nhất cho đọc thành công
-     → = Build qua: đồng dao, thơ vần, chơi âm thanh → MIỄN PHÍ + VUI
+  ② PHONOLOGICAL AWARENESS:
+     → Rhyming: "cat – hat – bat" → hears the SAME SOUND → ~3–4 years
+     → Syllables: "ba-na-na" = 3 parts → ~3–4 years
+     → Initial sounds: "mom" starts with "m" → ~4–5 years
+     → Segmenting: "cat" = "c" + "a" + "t" → ~5–6 years
+     → = This is the STRONGEST predictor of reading success
+     → = Build through: nursery rhymes, poetry, sound games → FREE + FUN
 
-  ③ PRINT AWARENESS (nhận biết chữ in):
-     → Hiểu: chữ = ký hiệu cho lời nói → "dấu hiệu trên giấy CÓ NGHĨA"
-     → Hiểu: đọc từ trái → phải, trên → dưới
-     → Biết: sách cầm thế nào, lật trang thế nào
-     → = Build qua: ĐỌC SÁCH CÙNG (trẻ thấy bố mẹ đọc chữ + chỉ)
+  ③ PRINT AWARENESS:
+     → Understand: letters = symbols for speech → "marks on paper HAVE MEANING"
+     → Understand: read left → right, top → bottom
+     → Know: how to hold a book, how to turn pages
+     → = Build through: READING BOOKS TOGETHER (child sees parent reading +
+       pointing to text)
 
-  ④ LETTER KNOWLEDGE (biết chữ cái):
-     → Nhận ra chữ cái + biết âm → ~4-6 tuổi (tùy exposure)
-     → KHÔNG cần biết TẤT CẢ chữ trước khi bắt đầu đọc
-     → Bắt đầu: chữ trong TÊN CON ("T" của "Tuấn") → meaningful + personal
+  ④ LETTER KNOWLEDGE:
+     → Recognize letters + know their sounds → ~4–6 years (depends on exposure)
+     → DON'T need to know ALL letters before starting to read
+     → Start: letter in child's OWN NAME ("T" for "Tom") → meaningful + personal
 
-4 BƯỚC:
+4 STEPS:
 
-  Bước 1 — EXPOSURE (từ sơ sinh):
-    → Sách ở KHẮP NƠI (không chỉ kệ sách — bàn, giường, xe)
-    → Đọc sách cho trẻ nghe HÀNG NGÀY (5-15 phút, tùy tuổi)
-      → = Exposure #1 hiệu quả nhất: body + language + attention + bonding
-    → Environmental print: biển hiệu, nhãn, menu → "chữ ở mọi nơi"
-    → Bố mẹ ĐỌC (sống mẫu) → trẻ thấy: "đọc = hoạt động NGƯỜI LỚN làm"
+  Step 1 — EXPOSURE (from birth):
+    → Books EVERYWHERE (not just on a shelf — table, bed, car)
+    → Read books aloud to child DAILY (5–15 minutes, varies by age)
+      → = Most effective exposure #1: body + language + attention + bonding
+    → Environmental print: signs, labels, menus → "letters are everywhere"
+    → Parents READ (modeling) → child sees: "reading = something GROWN-UPS do"
 
-  Bước 2 — INTEREST:
-    → "Chữ đó viết gì?" (hỏi về biển hiệu, nhãn)
-    → Pretend-read: cầm sách, "đọc" cho gấu bông nghe (dù chưa biết đọc)
-    → Nhận ra tên mình: "Kia là chữ T — tên con!" (thường ~3-4 tuổi)
-    → Chỉ vào chữ khi bố mẹ đọc: "chữ nào là 'mèo'?"
+  Step 2 — INTEREST:
+    → "What does that word say?" (asks about signs, labels)
+    → Pretend-read: holds book, "reads" to stuffed animals (even without knowing how)
+    → Recognizes own name: "That's the letter T — that's MY name!" (usually ~3–4 years)
+    → Points to text when parent reads: "which word is 'cat'?"
 
-  Bước 3 — GUIDED PLAY (~3-6 tuổi):
-    → Letter games: "tìm chữ A trên đường" (scavenger hunt)
-    → Rhyming games: "con nói từ vần với 'mèo'?" → "bèo, teo, keo..."
-    → Sound games: "từ nào bắt đầu bằng 'b'?" → phonological awareness
-    → Letter magnets trên tủ lạnh → tự xếp, tự explore
-    → Name writing: TÊN CON = first word → meaningful → motivated
-    → = TẤT CẢ qua CHƠI → chunks compile positive
+  Step 3 — GUIDED PLAY (~3–6 years):
+    → Letter games: "find the letter A on our walk" (scavenger hunt)
+    → Rhyming games: "say a word that rhymes with 'cat'?" → "bat, hat, mat..."
+    → Sound games: "what word starts with 'b'?" → phonological awareness
+    → Letter magnets on the fridge → self-arrange, self-explore
+    → Name writing: CHILD'S NAME = first word → meaningful → motivated
+    → = ALL through PLAY → chunks compile positive
 
-  Bước 4 — STRUCTURED:
-    → Khi trẻ: rhyme được + biết nhiều letter-sound + MUỐN đọc
-    → Thường ~5-7 tuổi (range RẤT RỘNG — cả hai đầu đều bình thường)
-    → Phonics: âm → ghép → từ → câu (systematic, evidence-based)
-    → Tiếng Việt: hệ thống phiên âm tương đối nhất quán → dễ hơn tiếng Anh
-
-  🟡 VN CONTEXT:
-    → Tiếng Việt: chữ ghép đơn giản hơn English (mỗi chữ = 1 âm, ít ngoại lệ)
-    → → CÓ THỂ ready sớm hơn trẻ học English
-    → Nhưng VẪN: readiness > age → đừng ép vì "bạn con đọc được rồi"
+  Step 4 — STRUCTURED:
+    → When child: can rhyme + knows many letter-sounds + WANTS to read
+    → Usually ~5–7 years (range VERY WIDE — both ends of the range are normal)
+    → Phonics: sound → blend → word → sentence (systematic, evidence-based)
 
   ⭐ KEY INSIGHT:
-    → Trẻ ĐỌC SÁCH CÙNG bố mẹ 15 phút/ngày × 5 năm = ~450 giờ exposure
-    → = FOUNDATION khổng lồ: vocabulary, grammar, narrative, print awareness
-    → Trẻ FLASHCARD chữ 10 phút/ngày × 2 năm = ~120 giờ rote drill
-    → = Chỉ letter recognition, THIẾU foundation
-    → → Trẻ 1: chưa đọc được lúc 5, nhưng HIỂU 5000 từ + yêu sách
-    → → Trẻ 2: đọc được lúc 4, nhưng hiểu 2000 từ + schema "đọc = drill"
-    → → Lúc 10 tuổi: trẻ 1 CÓ THỂ đọc TỐT HƠN + THÍCH đọc hơn
+    → Child READS BOOKS WITH parents 15 minutes/day × 5 years = ~450 hours of exposure
+    → = ENORMOUS FOUNDATION: vocabulary, grammar, narrative, print awareness
+    → Child with FLASHCARD drills 10 minutes/day × 2 years = ~120 hours of rote drill
+    → = Only letter recognition, MISSING foundation
+    → → Child 1: can't yet read at 5, but UNDERSTANDS 5,000 words + loves books
+    → → Child 2: reads at 4, but understands 2,000 words + schema "reading = drill"
+    → → At age 10: Child 1 MAY read BETTER + ENJOY reading more
 ```
 
-### §5.2 — VIẾT (Writing)
+### §5.2 — WRITING
 
 ```
-VIẾT = MOTOR + COGNITIVE → cần CẢ HAI ready
+WRITING = MOTOR + COGNITIVE → BOTH must be ready
 
-MOTOR DEVELOPMENT CHO VIẾT (thứ tự):
+MOTOR DEVELOPMENT FOR WRITING (in order):
 
-  ~1-2 tuổi:  Scribbling (viết nguệch ngoạc — motor practice, KHÔNG phải viết)
-  ~2-3 tuổi:  Controlled marks (vòng tròn, đường thẳng — CÓ CHỦ ĐÍCH)
-  ~3-4 tuổi:  Letter-like forms (trông GIỐNG chữ nhưng CHƯA phải)
-  ~4-5 tuổi:  Một số chữ thật (thường: tên mình, chữ cái quen)
-  ~5-7 tuổi:  Từ + câu (viết chính thức)
+  ~1–2 years:  Scribbling (random marks — motor practice, NOT writing)
+  ~2–3 years:  Controlled marks (circles, straight lines — INTENTIONAL)
+  ~3–4 years:  Letter-like forms (LOOKS LIKE letters but isn't yet)
+  ~4–5 years:  Some real letters (usually: own name, familiar letters)
+  ~5–7 years:  Words + sentences (formal writing)
 
-  → = MỖI BƯỚC BUILD trên bước trước
-  → = Skip bước (ép viết chữ khi chưa controlled marks) = frustration
+  → = EACH STEP BUILDS on the previous
+  → = Skipping steps (forcing written letters before controlled marks) = frustration
 
 PHYSICAL READINESS:
-  → Pincer grip (kẹp ngón) CHẮC — từ hàng ngàn lần nắm, kẹp, xoay (Natural-Dev §2.4)
-  → Sức tay đủ: từ bò, chống tay, leo, mang vác (Natural-Dev §2.2)
-  → Visual-motor integration: tay làm cái mắt thấy → build qua vẽ, xếp, xâu hạt
-  → Cross-midline: tay phải vẽ sang bên trái giấy → build qua bò (cross-lateral)
+  → Pincer grip SOLID — from thousands of grasping, pinching, rotating
+    (Natural-Dev §2.4)
+  → Hand strength: from crawling, propping, climbing, carrying (Natural-Dev §2.2)
+  → Visual-motor integration: hand does what eyes see → built through drawing, stacking,
+    threading beads
+  → Cross-midline: right hand draws across to left side of paper → built through
+    crawling (cross-lateral)
 
-  → = NATURAL DEVELOPMENT (bò, leo, nắm, ném) = NỀN cho viết
-  → = Trẻ bò ĐỦ + nắm ĐỦ + vẽ ĐỦ → tay SẴN SÀNG cho viết
-  → = Trẻ skip bò + ít nắm + không vẽ → tay CÓ THỂ chưa sẵn sàng
+  → = NATURAL DEVELOPMENT (crawling, climbing, grasping, throwing) = FOUNDATION for writing
+  → = Child crawls ENOUGH + grasps ENOUGH + draws ENOUGH → hand READY for writing
+  → = Child skips crawling + little grasping + no drawing → hand MAY NOT be ready yet
 
-4 BƯỚC:
+4 STEPS:
 
-  Bước 1 — EXPOSURE:
-    → Bút + giấy + chalk LUÔN CÓ SẴN (accessible)
-    → Bố mẹ VIẾT trước mặt (list mua đồ, ghi chú) → trẻ thấy: "viết có mục đích"
-    → Thấy chữ ở mọi nơi (biển, sách, TV) → "chữ = ký hiệu có nghĩa"
+  Step 1 — EXPOSURE:
+    → Pen + paper + chalk ALWAYS AVAILABLE (accessible at any time)
+    → Parents WRITE in front of child (shopping list, notes) → child sees:
+      "writing has a purpose"
+    → See text everywhere (signs, books, screens) → "letters = meaningful symbols"
 
-  Bước 2 — INTEREST:
-    → Tự cầm bút, tự vẽ/viết nguệch ngoạc
-    → "Mẹ, viết tên con đi!" → sau đó TỰ cố copy
-    → Pretend-write: "thư" cho ông bà (dù chỉ là vòng tròn)
+  Step 2 — INTEREST:
+    → Self-picks up pen, self-draws/scribbles
+    → "Mom, write my name!" → then SELF-TRIES to copy it
+    → Pretend-write: "letters" to grandparents (even if just circles)
 
-  Bước 3 — GUIDED PLAY (~3-5 tuổi):
-    → Pre-writing patterns: zig-zag, vòng tròn, sóng → "maze" vui
-    → Viết TÊN: meaningful + personal → motivation tự nhiên
-    → Sand writing: viết trên cát bằng ngón tay → tactile + motor (không cần bút!)
-    → Chalk on sidewalk: to, dễ grip, dễ xóa → low pressure
-    → Playdough letters: nặn chữ → 3D + tactile + fun
-    → ĐỪNG ép grip "đúng": trước 4 tuổi, nhiều grip styles BÌNH THƯỜNG
+  Step 3 — GUIDED PLAY (~3–5 years):
+    → Pre-writing patterns: zig-zag, circles, waves → fun "mazes"
+    → Write NAME: meaningful + personal → natural motivation
+    → Sand writing: write on sand with finger → tactile + motor (no pen needed!)
+    → Chalk on sidewalk: large, easy grip, easy to erase → low pressure
+    → Playdough letters: sculpt letters → 3D + tactile + fun
+    → DON'T force "correct" grip: before age 4, many grip styles are NORMAL
 
-  Bước 4 — STRUCTURED (~5-7 tuổi):
+  Step 4 — STRUCTURED (~5–7 years):
     → Formal handwriting instruction: letter formation, sizing, spacing
-    → Thường bắt đầu VỚI school (lớp 1 ở VN: 6 tuổi)
-    → Readiness: controlled grip + visual-motor OK + MUỐN viết
-    → NẾU chưa ready lúc vào lớp 1 → inform thầy/cô → adjust, ĐỪNG ép
+    → Usually begins WITH school (Grade 1 at age 6 in many countries)
+    → Readiness: controlled grip + visual-motor OK + WANTS to write
+    → IF not ready when entering Grade 1 → inform teacher → adjust, DON'T force
 
-  ⚠️ ĐỌC TRƯỚC VIẾT = BÌNH THƯỜNG:
-    → Đọc = nhận diện (recognition) → DỄ hơn
-    → Viết = sản xuất (production) → KHÓ hơn (cần motor + cognitive + memory)
-    → Trẻ đọc được lúc 5 nhưng viết kém → BÌNH THƯỜNG → motor đang phát triển
-    → ĐỪNG lo "sao con đọc được mà viết không được?"
+  ⚠️ READING BEFORE WRITING = NORMAL:
+    → Reading = recognition → EASIER
+    → Writing = production → HARDER (needs motor + cognitive + memory)
+    → Child reads at 5 but writes poorly → NORMAL → motor still developing
+    → DON'T worry "why can they read but not write?"
 ```
 
-### §5.3 — TOÁN / SỐ (Math / Numbers)
+### §5.3 — MATH / NUMBERS
 
 ```
-TOÁN TỰ NHIÊN ĐÃ CÓ SẴN (từ Natural-Development):
+NATURAL MATH ALREADY PRESENT (from Natural-Development):
 
-  → Subitizing: nhận ra 1, 2, 3 mà KHÔNG cần đếm → từ ~6 tháng (innate!)
-  → More/less: "nhiều hơn, ít hơn" → hiểu từ ~1-2 tuổi
-  → Sorting: phân loại theo màu, hình, kích thước → tự nhiên từ ~2 tuổi
-  → Patterns: nhận ra ABAB → ~3 tuổi
-  → Cause-effect: ném → rơi (§2.4) → nền tảng logic
-  → Spatial: xếp blocks → hình học trực giác
+  → Subitizing: recognizes 1, 2, 3 WITHOUT counting → from ~6 months (innate!)
+  → More/less: "more than, less than" → understood from ~1–2 years
+  → Sorting: classify by color, shape, size → natural from ~2 years
+  → Patterns: recognizes ABAB → ~3 years
+  → Cause-effect: throw → falls (§2.4) → foundation for logic
+  → Spatial: stacking blocks → intuitive geometry
 
-  → = Trẻ ĐÃ "làm toán" từ khi bò → CHỈ CHƯA DÙNG KÝ HIỆU
+  → = Children ARE "doing math" from when they crawl → just not yet USING SYMBOLS
 
-NỀN TẢNG TOÁN (TRƯỚC ký hiệu):
+MATH FOUNDATION (BEFORE symbols):
 
-  ① COUNTING (đếm) — concrete TRƯỚC:
-     → Rote counting: "1, 2, 3, 4, 5..." = nhớ THỨ TỰ từ (language skill)
-     → One-to-one: ĐẾM đúng mỗi vật 1 lần → ~2-3 tuổi
-     → Cardinality: "đếm 1,2,3 → CÓ 3 cái" (số cuối = tổng) → ~3-4 tuổi
-     → → = 3 BƯỚC đếm → mỗi bước = prerequisite cho bước sau
+  ① COUNTING — concrete FIRST:
+     → Rote counting: "1, 2, 3, 4, 5..." = memorizing SEQUENCE of words (language skill)
+     → One-to-one: COUNT each object ONCE → ~2–3 years
+     → Cardinality: "count 1,2,3 → THERE ARE 3" (last number = total) → ~3–4 years
+     → → = 3 STEPS of counting → each = prerequisite for the next
 
-  ② NUMBER SENSE (cảm nhận số):
-     → "3 nhiều hơn 2" → hiểu qua VẬT THẬT (cam, kẹo, ngón tay)
-     → "Thêm 1 = nhiều hơn, bớt 1 = ít hơn" → qua TRẢI NGHIỆM
-     → = Cảm nhận TRƯỚC → ký hiệu SAU
-     → = "3 + 2 = 5" trên giấy CHỈ có nghĩa NẾU đã trải nghiệm 3 quả + 2 quả = 5 quả
+  ② NUMBER SENSE:
+     → "3 is more than 2" → understood through REAL OBJECTS (oranges, candy, fingers)
+     → "Add 1 = more, take away 1 = less" → through EXPERIENCE
+     → = Sense FIRST → symbol LATER
+     → = "3 + 2 = 5" on paper ONLY has meaning IF already experienced
+       3 objects + 2 objects = 5 objects
 
   ③ SPATIAL + LOGICAL REASONING:
      → Puzzles, blocks, sorting → spatial + classification
-     → "Nếu... thì..." → conditional reasoning → ~4-5 tuổi
+     → "If... then..." → conditional reasoning → ~4–5 years
      → Pattern recognition → algebraic thinking seed
-     → = "Toán" RỘNG hơn "số" → bao gồm logic, pattern, spatial
+     → = "Math" BROADER than "numbers" → includes logic, pattern, spatial
 
-4 BƯỚC:
+4 STEPS:
 
-  Bước 1 — EXPOSURE (từ sơ sinh):
-    → Đếm trong DAILY LIFE: "1 bậc, 2 bậc, 3 bậc thang!"
-    → Sorting tự nhiên: "kẹo đỏ với kẹo đỏ, kẹo xanh với kẹo xanh"
-    → Measuring: "con cao HƠN em" / "cốc này ĐẦY, cốc này VƠI"
-    → Number songs: "5 little ducks", "1 con vịt xòe ra 2 cái cánh"
+  Step 1 — EXPOSURE (from birth):
+    → Count in DAILY LIFE: "1 step, 2 steps, 3 steps up!"
+    → Natural sorting: "red candy with red candy, green candy with green"
+    → Measuring: "you're TALLER than the table" / "this cup is FULL, this one EMPTY"
+    → Number songs: "5 little ducks," "10 in the bed"
 
-  Bước 2 — INTEREST:
-    → Tự đếm: "1, 2, 3... con có 3 cái!"
-    → Hỏi "mấy": "mẹ, con có mấy cái kẹo?"
-    → Comparing: "bạn NHIỀU hơn con!" (fairness → math seed)
-    → Nhận ra số: "mẹ, số 5! giống tuổi con!"
+  Step 2 — INTEREST:
+    → Self-counts: "1, 2, 3... I have 3!"
+    → Asks "how many": "mom, how many candies do I have?"
+    → Comparing: "my friend has MORE than me!" (fairness → math seed)
+    → Recognizes numbers: "the number 5! That's my age!"
 
-  Bước 3 — GUIDED PLAY (~2-5 tuổi):
-    → Cooking cùng: "cho 3 muỗng bột, đếm nào — 1, 2, 3"
-    → Shopping cùng: "lấy 4 quả cam giúp mẹ"
+  Step 3 — GUIDED PLAY (~2–5 years):
+    → Cooking together: "put in 3 spoons of flour, let's count — 1, 2, 3"
+    → Shopping together: "pick 4 oranges for me"
     → Board games: counting spaces, dice → quantity + counting
-    → Blocks: "xây tháp 5 tầng" → counting + spatial
-    → Measurement: "đo xem con CAO mấy blocks" → non-standard measurement
-    → = TOÁN TRONG CUỘC SỐNG → chunks compile "toán = hữu ích + vui"
+    → Blocks: "build a tower 5 floors tall" → counting + spatial
+    → Measurement: "how many blocks tall are you?" → non-standard measurement
+    → = MATH IN DAILY LIFE → chunks compile "math = useful + fun"
 
-  Bước 4 — STRUCTURED (~5-7 tuổi):
+  Step 4 — STRUCTURED (~5–7 years):
     → Formal math: written numbers, addition, subtraction
-    → Manipulatives TRƯỚC worksheets: dùng VẬT THẬT trước ký hiệu trên giấy
-    → Tiếng Việt: hệ thống số đếm LOGIC (mười một, mười hai...) → dễ hơn English
-    → Thường bắt đầu với school (lớp 1)
+    → Manipulatives BEFORE worksheets: use REAL OBJECTS before symbols on paper
+    → Usually begins WITH school
 
-  ⭐ KEY: "3 quả cam + 2 quả cam = 5 quả cam" (concrete, body hiểu)
-    → TRƯỚC "3 + 2 = 5" (abstract, PFC required)
-    → Concrete ĐÚNG → abstract DỄ (vì brain ĐÃ CÓ model)
-    → Abstract trước → rote memory (nhớ nhưng KHÔNG hiểu) → vỡ khi toán KHÓ hơn
+  ⭐ KEY: "3 apples + 2 apples = 5 apples" (concrete, body understands)
+    → BEFORE "3 + 2 = 5" (abstract, requires PFC)
+    → Concrete CORRECT → abstract EASY (brain ALREADY HAS a model)
+    → Abstract first → rote memory (memorized but NOT understood)
+      → breaks down when math gets HARDER
 ```
 
-### §5.4 — NGÔN NGỮ 2 (Second Language)
+### §5.4 — SECOND LANGUAGE
 
 ```
-SENSITIVE PERIOD RÕ NHẤT TRONG CÁC KỸ NĂNG NHẬN THỨC:
+CLEAREST SENSITIVE PERIOD AMONG COGNITIVE SKILLS:
 
-  0-10 tháng: phân biệt MỌI âm vị mọi ngôn ngữ (universal listener)
-  10-12 tháng: THU HẸP về ngôn ngữ(các) đang nghe → mất âm vị không dùng
-  2-7 tuổi: grammar acquisition DỄ NHẤT (statistical learning + chunks ngôn ngữ compile nhanh)
-  Sau 7: VẪN HỌC ĐƯỢC → nhưng chuyển từ Compiled processing sang Fresh processing
-    (Compiled = tự động, body biết trước PFC → Fresh = PFC effortful, cần strategy chunks)
+  0–10 months: can distinguish ALL phonemes of ALL languages
+    (universal listener)
+  10–12 months: NARROWS to language(s) being heard → loses unused phonemes
+  2–7 years: grammar acquisition EASIEST (statistical learning + language
+    chunks compile quickly)
+  After 7: STILL LEARNABLE → but shifts from Compiled processing to Fresh processing
+    (Compiled = automatic, body knows before PFC → Fresh = PFC effortful,
+      needs strategy chunks)
     (→ Compiled-Fresh.md v2.0)
 
-  → = CÓ window → nhưng sensitive, KHÔNG critical
-  → = Không expose trước 7 ≠ "quá muộn" → chỉ = khó HƠN
+  → = THERE IS a window → but sensitive, NOT critical
+  → = Not exposing before 7 ≠ "too late" → just = HARDER
 
-CÁC CÁCH TIẾP CẬN:
+APPROACHES:
 
-  ① BILINGUAL TỪ SINH (cả 2 ngôn ngữ từ đầu):
-     → OPOL: mẹ nói tiếng Việt, bố nói tiếng Anh (nhất quán)
-     → Hoặc: gia đình nói tiếng Việt, daycare nói tiếng Anh
-     → = Não trẻ TỰ tách 2 hệ thống (KHÔNG "nhầm lẫn")
-     → Code-switching ("mẹ, con want eat") = BÌNH THƯỜNG, KHÔNG phải nhầm
-       → = Não đang sử dụng TÀI NGUYÊN SẴN CÓ → sẽ tách dần
-     → Vocabulary per language CÓ THỂ nhỏ hơn monolingual → nhưng TỔNG ≥
-     → Delay nhỏ có thể xảy ra → TẠM THỜI, bắt kịp ~5-6 tuổi
+  ① BILINGUAL FROM BIRTH (both languages from the start):
+     → OPOL: mom speaks language A, dad speaks language B (consistent)
+     → Or: family speaks language A, daycare speaks language B
+     → = Child's brain AUTOMATICALLY separates the 2 systems (NO "confusion")
+     → Code-switching ("mom, I want eat") = NORMAL, NOT confusion
+       → = Brain using AVAILABLE RESOURCES → will separate gradually
+     → Vocabulary per language MAY be smaller than monolingual → but TOTAL ≥
+     → Small delay may occur → TEMPORARY, catches up ~5–6 years
 
-  ② EXPOSURE SỚM (ngôn ngữ 2 từ 1-3 tuổi):
-     → Nghe nhạc, video, sách, người nói ngôn ngữ 2
-     → = Phoneme exposure: giữ ability phân biệt âm
-     → NHƯNG: chỉ nghe từ MÀN HÌNH → kém hiệu quả hơn NGƯỜI thật RẤT NHIỀU
-     → = Tốt nhất: NGƯỜI THẬT nói ngôn ngữ 2 (babysitter, bạn, gia đình)
+  ② EARLY EXPOSURE (L2 from 1–3 years):
+     → Listen to music, videos, books, people speaking L2
+     → = Phoneme exposure: maintains ability to distinguish sounds
+     → BUT: listening only from SCREENS → much less effective than REAL PEOPLE
+     → = Best: REAL PERSON speaking L2 (babysitter, friend, family)
 
-  ③ IMMERSION (~3-6 tuổi):
+  ③ IMMERSION (~3–6 years):
      → International school, bilingual daycare, au pair
-     → = Hiệu quả CAO (ngôn ngữ dùng TRONG context thật)
-     → = Trẻ KHÔNG "học" ngôn ngữ → trẻ DÙNG ngôn ngữ → brain tự compile
+     → = Highly effective (language used IN REAL context)
+     → = Child doesn't "learn" the language → child USES the language →
+       brain self-compiles
 
-  ④ LỚP HỌC (~4-6 tuổi):
-     → English class 30-60 phút × 2 lần/tuần
-     → = Hiệu quả THẤP NHẤT cho trẻ nhỏ (quá ít exposure, thiếu context)
-     → Có thể fun (hát, game) → NHƯNG: language acquisition CẦN LƯỢNG + CONTEXT
-     → 1 giờ/tuần = ~50 giờ/năm → immersion = ~2000 giờ/năm → 40 lần chênh lệch
-     → = Lớp = "vitamin" / Immersion = "bữa ăn chính" cho ngôn ngữ
+  ④ CLASS (~4–6 years):
+     → English class 30–60 minutes × 2 times/week
+     → = LEAST effective for young children (too little exposure, lacks context)
+     → Can be fun (singing, games) → BUT: language acquisition NEEDS VOLUME + CONTEXT
+     → 1 hour/week = ~50 hours/year → immersion = ~2,000 hours/year →
+       40× difference
+     → = Class = "vitamin" / Immersion = "main meal" for language
 
   ⭐ FRAMEWORK INSIGHT:
-    → Ngôn ngữ = SKILL ĐẶC BIỆT: learn qua IMMERSION, không qua INSTRUCTION
-    → Trẻ <7: brain compile chunks ngôn ngữ = Compiled processing (tự động, giống ngôn ngữ 1)
-    → Trẻ >7 + người lớn: compile qua Fresh processing (PFC effortful, cần strategy chunks)
-    → = Nếu muốn ngôn ngữ 2: IMMERSION sớm > lớp muộn
-    → = Nếu không có điều kiện immersion: expose ĐA DẠNG (nhạc, video, sách, người)
-      + đợi → lớp chính thức khi trẻ LỚN hơn (8-10) → PFC ĐỦ cho explicit learning
-    → = ĐỪNG ép lớp tiếng Anh lúc 3 tuổi nếu chỉ 1 giờ/tuần → gần như vô ích
-      + có thể tạo schema negative ("English = chán/khó")
+    → Language = SPECIAL SKILL: learned through IMMERSION, not INSTRUCTION
+    → Children <7: brain compiles language chunks = Compiled processing
+      (automatic, like first language)
+    → Children >7 + adults: compile via Fresh processing (PFC effortful,
+      needs strategy chunks)
+    → = If wanting L2: EARLY IMMERSION > LATE class
+    → = If immersion not possible: expose DIVERSELY (music, video, books, people)
+      + wait → formal class when OLDER (8–10) → PFC SUFFICIENT for explicit learning
+    → = DON'T force English class at age 3 if only 1 hour/week
+      → nearly useless + may create negative schema ("English = boring/hard")
 ```
 
 ### §5.5 — LOGIC / PROBLEM-SOLVING
 
 ```
-LOGIC TỰ NHIÊN ĐÃ BUILD TỪ FREE PLAY (Natural-Dev §2.8):
+LOGIC ALREADY BUILDS FROM FREE PLAY (Natural-Dev §2.8):
 
-  → Trial-and-error: xếp → đổ → xếp KHÁC → dần đúng
-  → Cause-effect: ném → rơi → ném MẠNH hơn → rơi XA hơn
-  → Classification: tự sorting đồ chơi theo loại
-  → Pattern: nhận ra lặp lại
-  → = Trẻ CHƠI TỰ DO = trẻ ĐANG LUYỆN LOGIC
+  → Trial-and-error: stack → falls → stack DIFFERENTLY → gradually right
+  → Cause-effect: throw → falls → throw HARDER → falls FARTHER
+  → Classification: self-sorts toys by type
+  → Pattern: recognizes repetition
+  → = Child PLAYING FREELY = child IS PRACTICING LOGIC
 
-  → = Logic KHÔNG CẦN "dạy" ở 0-6 → CẦN MÔI TRƯỜNG để practice
+  → = Logic DOESN'T NEED "teaching" at 0–6 → NEEDS ENVIRONMENT to practice
 
-CÔNG CỤ (không phải "bài học"):
+TOOLS (not "lessons"):
 
   ① PUZZLES:
-     → ~1-2 tuổi: puzzle knob (1-3 mảnh, có tay cầm)
-     → ~2-3 tuổi: puzzle đơn giản (4-12 mảnh)
-     → ~3-5 tuổi: puzzle phức tạp hơn (12-48 mảnh)
-     → ~5-6 tuổi: 50-100 mảnh
+     → ~1–2 years: knob puzzle (1–3 pieces, with handle)
+     → ~2–3 years: simple puzzle (4–12 pieces)
+     → ~3–5 years: more complex puzzle (12–48 pieces)
+     → ~5–6 years: 50–100 pieces
      → = Spatial reasoning + pattern matching + persistence
-     → BỐ MẸ: đừng giúp quá nhanh → để trẻ TRY → struggle = LEARNING
+     → PARENTS: don't help too quickly → let child TRY → struggle = LEARNING
 
   ② BUILDING (blocks, lego, Kapla):
-     → Structural reasoning: "tại sao đổ?" → load, balance, foundation
-     → Planning: "muốn xây nhà → cần gì? → bắt đầu từ đâu?"
+     → Structural reasoning: "why does it fall?" → load, balance, foundation
+     → Planning: "want to build a house → what do I need? → where to start?"
      → Math implicit: counting, symmetry, proportion
-     → = Engineering thinking ĐẦU TIÊN → KHÔNG cần "dạy engineering"
+     → = FIRST engineering thinking → NO NEED to "teach engineering"
 
   ③ BOARD GAMES:
-     → ~3 tuổi: matching games, simple memory
-     → ~4-5: counting games (Snakes & Ladders), simple strategy
-     → ~5-6: basic strategy games
+     → ~3 years: matching games, simple memory
+     → ~4–5: counting games (Snakes & Ladders), simple strategy
+     → ~5–6: basic strategy games
      → = Rule-following + turn-taking + planning + losing gracefully
-     → 🟡 Losing = emotional regulation practice → ĐỪNG luôn cho thắng
+     → 🟡 Losing = emotional regulation practice → DON'T always let them win
 
-  ④ CODING CONCEPTS (KHÔNG CẦN MÁY TÍNH):
-     → "Unplugged coding": sequences, conditionals, loops qua GAME
-     → VD: "robot game" → 1 trẻ = robot, 1 = programmer → "instructions"
-       → "Đi 3 bước → quay phải → đi 2 bước → nhặt đồ" (sequence)
-     → VD: "NẾU gặp tường → quay trái" (conditional) → trẻ 4-5 hiểu qua CHƠI
-     → = Computational thinking TRƯỚC code → code SẼ DỄ sau này
-     → = KHÔNG cần tablet/laptop cho trẻ 3-6 tuổi để "học coding"
+  ④ CODING CONCEPTS (NO COMPUTER NEEDED):
+     → "Unplugged coding": sequences, conditionals, loops through GAMES
+     → E.g.: "robot game" → 1 child = robot, 1 = programmer → "instructions"
+       → "Walk 3 steps → turn right → walk 2 steps → pick up object" (sequence)
+     → E.g.: "IF you meet a wall → turn left" (conditional) → children 4–5
+       understand through PLAY
+     → = Computational thinking BEFORE code → code will be EASY later
+     → = NO tablet/laptop needed for 3–6 year-olds to "learn coding"
 ```
 
 ---
 
-## §6 — KỸ NĂNG SÁNG TẠO & BIỂU ĐẠT: VẼ, XÂY DỰNG, KỂ CHUYỆN
+## §6 — CREATIVE & EXPRESSIVE SKILLS: DRAWING, CONSTRUCTION, STORYTELLING
 
 ```
-SÁNG TẠO = KHÔNG PHẢI "TÀI NĂNG" → LÀ "KỸ NĂNG" (trainable)
+CREATIVITY = NOT "TALENT" → IS "SKILL" (trainable)
 
-  Sai lầm phổ biến: "con không có năng khiếu vẽ/nhạc/kể chuyện"
-  Thực tế: MỌI trẻ sáng tạo TỰ NHIÊN → đến khi bị suppress
-  → Free play, pretend play = creativity practice TỰ ĐỘNG (Natural-Dev §2.8)
-  → Sáng tạo GIẢM khi: ép theo mẫu, khen result > process, phê bình sớm
+  Common mistake: "my child has no talent for drawing/music/storytelling"
+  Reality: ALL children are naturally creative → until suppressed
+  → Free play, pretend play = AUTOMATIC creativity practice (Natural-Dev §2.8)
+  → Creativity DECREASES when: forced to follow templates, result praised > process,
+    criticized early
 
-  File này: CÁCH giữ + phát triển creativity tự nhiên qua kỹ năng cụ thể
+  This file: HOW to preserve + develop natural creativity through specific skills
 ```
 
-### §6.1 — VẼ / NGHỆ THUẬT (Drawing & Art)
+### §6.1 — DRAWING & ART
 
 ```
-CÁC GIAI ĐOẠN VẼ (universal, mọi trẻ đều đi qua):
+DRAWING STAGES (universal, all children go through these):
 
-  ~1-2 tuổi: SCRIBBLING (viết nguệch ngoạc)
-    → Ngẫu nhiên → dần controlled → vòng tròn
-    → = Motor practice, KHÔNG phải "vẽ"
-    → BỐ MẸ: "con đang vẽ!" (validate) → ĐỪNG "cái gì đây?" (demand meaning)
+  ~1–2 years: SCRIBBLING (random marks)
+    → Random → gradually controlled → circles
+    → = Motor practice, NOT "drawing"
+    → PARENTS: "you're drawing!" (validate) → DON'T "what is that?" (demand meaning)
 
-  ~2-4 tuổi: PRE-SCHEMATIC (tiền sơ đồ)
-    → Basic shapes: vòng tròn, đường thẳng
-    → "Tadpole people": người = vòng tròn (đầu) + 2 gạch (chân)
-    → = Não bắt đầu REPRESENT reality → nhưng theo LOGIC TRẺ (không phải logic lớn)
-    → "Đầu TO, không có thân" = bình thường (đầu = quan trọng nhất với trẻ)
+  ~2–4 years: PRE-SCHEMATIC
+    → Basic shapes: circles, straight lines
+    → "Tadpole people": person = circle (head) + 2 lines (legs)
+    → = Brain beginning to REPRESENT reality → but according to CHILD'S LOGIC
+      (not adult logic)
+    → "Head BIG, no body" = normal (head = most important to the child)
 
-  ~4-7 tuổi: SCHEMATIC (sơ đồ)
-    → Người có: đầu, thân, tay, chân, mặt
-    → Baseline: mặt đất = đường ngang phía dưới
-    → Sky: trời = đường ngang phía trên
-    → Colors: bắt đầu match reality (cỏ = xanh, mặt trời = vàng)
-    → = Schema visual đang COMPILE → representation ngày càng GIÀU
+  ~4–7 years: SCHEMATIC
+    → Person has: head, body, arms, legs, face
+    → Baseline: ground = horizontal line at the bottom
+    → Sky: a horizontal line at the top
+    → Colors: begin matching reality (grass = green, sun = yellow)
+    → = Visual schema IS COMPILING → representation increasingly RICH
 
-4 BƯỚC:
+4 STEPS:
 
-  Bước 1 — EXPOSURE:
-    → Bút màu + giấy LUÔN AVAILABLE (để trẻ tự lấy bất cứ lúc nào)
-    → Bố mẹ vẽ (sống mẫu) → trẻ thấy "người lớn cũng vẽ"
-    → Nghệ thuật quanh nhà (tranh, poster, sách hình) → visual exposure
-    → Museum, gallery, street art → "vẽ = hoạt động thật, không chỉ bài tập"
+  Step 1 — EXPOSURE:
+    → Colored pencils + paper ALWAYS AVAILABLE (child can get them any time)
+    → Parents draw (modeling) → child sees "grown-ups also draw"
+    → Art around the home (pictures, posters, illustrated books) → visual exposure
+    → Museum, gallery, street art → "drawing = real activity, not just homework"
 
-  Bước 2 — INTEREST:
-    → Tự cầm bút, tự vẽ → hầu hết trẻ CÓ (drawing = natural → like babbling for visual)
-    → Interest hiếm khi THIẾU ở trẻ nhỏ → thường bị GIẾT bởi phê bình hoặc so sánh
+  Step 2 — INTEREST:
+    → Self-picks up pen, self-draws → most children HAVE this
+      (drawing = natural → like babbling for visual)
+    → Interest rarely MISSING in young children → usually KILLED by criticism or comparison
 
-  Bước 3 — GUIDED PLAY (~2-5 tuổi):
-    → Vẽ CÙNG: "mẹ vẽ nhà, con vẽ gì bên cạnh?" (co-create)
-    → Đa dạng MEDIA: bút màu, bút sáp, watercolor, finger paint, chalk, collage
-      → MỖI media = khác sensory + khác motor + khác creative possibility
-    → Process art: "dùng MÀU NÀY trộn MÀU KIA → xem ra gì?" (exploration > product)
-    → Outdoor art: vẽ bằng nước trên sân, cát, đất, lá → không giới hạn giấy
-    → ĐỪNG: coloring book là hoạt động DUY NHẤT
-      → Coloring book: fine motor OK, nhưng creativity = 0 (shape ĐÃ ĐƯỢC QUYẾT)
-      → = Blank paper + coloring book → cả hai, nhưng blank paper NÊN NHIỀU HƠN
+  Step 3 — GUIDED PLAY (~2–5 years):
+    → Draw TOGETHER: "mom draws a house, what will you draw beside it?" (co-create)
+    → Diverse MEDIA: colored pencils, crayons, watercolor, finger paint,
+      chalk, collage
+      → EACH media = different sensory + different motor + different creative possibility
+    → Process art: "use THIS color mix with THAT color → see what happens?"
+      (exploration > product)
+    → Outdoor art: draw with water on pavement, sand, dirt, leaves
+      → not limited to paper
+    → DON'T: make coloring books the ONLY activity
+      → Coloring book: fine motor OK, but creativity = 0 (shape ALREADY DECIDED)
+      → = Blank paper + coloring book → both, but blank paper SHOULD BE MORE
 
-  Bước 4 — STRUCTURED (~5-7 tuổi nếu interest):
-    → Lớp vẽ: kỹ thuật, perspective, media techniques
-    → CHỈ KHI trẻ MUỐN → đừng ép "cho con đi học vẽ cho giỏi"
-    → VẪN giữ free art song song → structured KHÔNG thay thế creative freedom
+  Step 4 — STRUCTURED (~5–7 years if interested):
+    → Art class: technique, perspective, media techniques
+    → ONLY IF child WANTS → don't force "let's take art class to get better"
+    → KEEP free art in parallel → structured does NOT replace creative freedom
 
-  ⚠️ CÂU NÓI GIẾT CREATIVITY:
-    → "Cái gì đây?" → áp lực phải REPRESENT → trẻ bỏ abstract expression
-    → "Tô trong viền!" → áp lực phải CONFORM → trẻ bỏ free exploration
-    → "Không giống [X] gì cả" → phê bình → schema "tôi vẽ xấu" → DỪNG vẽ
-    → "Để mẹ vẽ cho" → undermine → schema "mẹ giỏi hơn, tôi không cần cố"
+  ⚠️ PHRASES THAT KILL CREATIVITY:
+    → "What is that?" → pressure to REPRESENT → child abandons abstract expression
+    → "Color inside the lines!" → pressure to CONFORM → child abandons free exploration
+    → "Doesn't look like [X] at all" → criticism → schema "I draw badly" → STOPS drawing
+    → "Let me draw it for you" → undermines → schema "mom is better, I don't need to try"
 
-  ✅ CÂU NÓI HỖ TRỢ:
-    → "Con dùng rất nhiều màu!" (observe process)
-    → "Kể mẹ nghe về bức vẽ này đi" (invite sharing, không judge)
-    → "Con thử trộn xanh với vàng xem ra gì?" (encourage exploration)
-    → "Con vẽ KHÁC hôm qua — mẹ thấy con thử cái mới" (celebrate exploration)
+  ✅ SUPPORTIVE PHRASES:
+    → "You used so many colors!" (observe process)
+    → "Tell me about this drawing" (invite sharing, no judgment)
+    → "Try mixing blue with yellow, see what you get?" (encourage exploration)
+    → "This is different from yesterday's — I can see you tried something new"
+       (celebrate exploration)
 ```
 
-### §6.2 — XÂY DỰNG / CONSTRUCTION
+### §6.2 — CONSTRUCTION
 
 ```
-XÂY DỰNG = 1 TRONG NHỮNG KỸ NĂNG "GIÀU" NHẤT:
+CONSTRUCTION = ONE OF THE "RICHEST" SKILLS:
   Spatial + Engineering + Math + Physics + Planning + Creativity + Problem-solving
-  → = Rất nhiều brain areas fire CÙNG LÚC → synapse connections ĐA DẠNG
+  → = Many brain areas fire SIMULTANEOUSLY → DIVERSE synapse connections
 
-PROGRESSION (materials theo tuổi):
+PROGRESSION (materials by age):
 
-  ~1-2 tuổi: STACK & KNOCK
-    → Blocks to, nhẹ → xếp 2-3 → ĐỔ → vui! → lại xếp
+  ~1–2 years: STACK & KNOCK
+    → Large, light blocks → stack 2–3 → FALLS → fun! → stack again
     → = Cause-effect + gravity + motor + persistence
-    → ĐỪNG ngăn "đổ" → đổ = data point
+    → DON'T STOP the "falling" → falling = data point
 
-  ~2-3 tuổi: CONNECT
-    → Duplo / mega blocks → snap together → structures đơn giản
-    → Boxes, tubes, containers → "nhà", "cầu", "tàu"
-    → = Spatial relationship: on top, next to, inside, through
+  ~2–3 years: CONNECT
+    → Duplo / mega blocks → snap together → simple structures
+    → Boxes, tubes, containers → "house," "bridge," "boat"
+    → = Spatial relationships: on top, next to, inside, through
 
-  ~3-5 tuổi: PLAN & BUILD
-    → Standard Lego → phức tạp hơn, mảnh nhỏ hơn
+  ~3–5 years: PLAN & BUILD
+    → Standard Lego → more complex, smaller pieces
     → Kapla / plain blocks → balance + patience + precision
-    → Sand, clay, cardboard → 3D từ vật liệu linh hoạt
-    → "Con muốn xây gì?" → plan → build → adjust → rebuild
-    → = Planning + execution + problem-solving khi đổ/sai
+    → Sand, clay, cardboard → 3D from flexible materials
+    → "What do you want to build?" → plan → build → adjust → rebuild
+    → = Planning + execution + problem-solving when it falls/goes wrong
 
-  ~5-7 tuổi: COMPLEX CONSTRUCTION
+  ~5–7 years: COMPLEX CONSTRUCTION
     → Lego Technic, K'nex → mechanical concepts (gears, axles)
-    → Real tools (búa, đinh, cưa nhỏ — SUPERVISED): ~6-7 tuổi
-    → Marble runs: chain reactions → cause-effect phức tạp
-    → = Engineering thinking thật sự bắt đầu
+    → Real tools (hammer, nails, small saw — SUPERVISED): ~6–7 years
+    → Marble runs: chain reactions → complex cause-effect
+    → = Real engineering thinking begins
 
 FREE BUILD vs INSTRUCTION SETS:
 
   Free build:
-    → Trẻ QUYẾT: cái gì, cách nào, khi nào sai → thử cách khác
+    → Child DECIDES: what, how, what to do when wrong → try different approach
     → = Creativity + problem-solving + agency → RICH
-    → NÊN chiếm PHẦN LỚN thời gian build
+    → SHOULD occupy MOST build time
 
   Instruction sets (Lego kits, model kits):
-    → Theo HƯỚNG DẪN: bước 1, bước 2, bước 3...
+    → Follow INSTRUCTIONS: step 1, step 2, step 3...
     → = Following directions + spatial reasoning + fine motor → ALSO valuable
-    → NHƯNG: creativity = LOW (đã được quyết hộ)
-    → 🟡 Sau khi build xong theo hướng dẫn → KHUYẾN KHÍCH: tháo ra → build CÁI MỚI
+    → BUT: creativity = LOW (already decided for them)
+    → 🟡 After building as instructed → ENCOURAGE: take it apart → build SOMETHING NEW
       → = "Kit = exposure to techniques → free build = apply techniques creatively"
 ```
 
-### §6.3 — KỂ CHUYỆN / STORYTELLING
+### §6.3 — STORYTELLING
 
 ```
-KỂ CHUYỆN = PRE-WRITING + PRE-READING + CREATIVITY + LANGUAGE + MEMORY
+STORYTELLING = PRE-WRITING + PRE-READING + CREATIVITY + LANGUAGE + MEMORY
 
 DEVELOPMENT:
 
-  ~2-3 tuổi: SEQUENCE — kể sự kiện theo THỨ TỰ
-    → "Mình đi công viên. Rồi ăn kem." (2-3 events, linear)
-    → = Narrative structure SƠ KHAI: temporal sequence
+  ~2–3 years: SEQUENCE — tells events IN ORDER
+    → "We went to the park. Then we had ice cream." (2–3 events, linear)
+    → = RUDIMENTARY narrative structure: temporal sequence
 
-  ~3-4 tuổi: BASIC NARRATIVE — có sự kiện TRUNG TÂM
-    → "Có con mèo. Nó leo cây. Nó sợ!" (character + event + emotion)
-    → = Beginning of PLOT (không chỉ sequence nữa)
+  ~3–4 years: BASIC NARRATIVE — has a CENTRAL event
+    → "There was a cat. It climbed a tree. It was scared!" 
+      (character + event + emotion)
+    → = Beginning of PLOT (not just sequence anymore)
 
-  ~4-5 tuổi: PROBLEM-RESOLUTION
-    → "Con mèo leo cây → sợ → bạn chó giúp → xuống được → vui!"
+  ~4–5 years: PROBLEM-RESOLUTION
+    → "The cat climbed a tree → got scared → the dog helped → came down → happy!"
     → = Problem → attempt → resolution → NARRATIVE ARC
 
-  ~5-6 tuổi: COMPLEX NARRATIVE
+  ~5–6 years: COMPLEX NARRATIVE
     → Setting + characters + problem + multiple attempts + resolution + lesson
-    → = Full story structure → foundation cho VIẾT truyện sau này
+    → = Full story structure → foundation for WRITING stories later
 
-TẠI SAO KỂ CHUYỆN CỰC QUAN TRỌNG:
+WHY STORYTELLING IS CRITICALLY IMPORTANT:
 
-  ① PRE-WRITING: trẻ kể giỏi → viết truyện giỏi (narrative skill CHUYỂN từ oral → written)
-  ② LANGUAGE: vocabulary, grammar, complex sentences → develop qua telling
-  ③ MEMORY: nhớ + sắp xếp + trình bày → working memory training
-  ④ CREATIVITY: tạo thế giới KHÔNG CÓ THẬT → Imagine-Final practice
-  ⑤ EMOTIONAL PROCESSING: kể về trải nghiệm → process emotion qua narrative
-  ⑥ SOCIAL: kể = giao tiếp → audience awareness → theory of mind
+  ① PRE-WRITING: child tells stories well → writes stories well
+     (narrative skill TRANSFERS from oral → written)
+  ② LANGUAGE: vocabulary, grammar, complex sentences → develop through telling
+  ③ MEMORY: remember + organize + present → working memory training
+  ④ CREATIVITY: creates a world THAT DOESN'T EXIST → Imagine-Final practice
+  ⑤ EMOTIONAL PROCESSING: telling about experiences → process emotion through narrative
+  ⑥ SOCIAL: telling = communicating → audience awareness → theory of mind
 
-CÁCH HỖ TRỢ (4 bước):
+HOW TO SUPPORT (4 steps):
 
-  Bước 1 — EXPOSURE:
-    → Đọc sách cho trẻ nghe HÀNG NGÀY = exposure #1
-    → Bố mẹ kể chuyện (bedtime stories, family stories)
-    → Trẻ NGHE narrative structure hàng trăm lần trước khi TỰ kể
+  Step 1 — EXPOSURE:
+    → Read books to child DAILY = exposure #1
+    → Parents tell stories (bedtime stories, family stories)
+    → Child HEARS narrative structure hundreds of times before TELLING their own
 
-  Bước 2 — INTEREST:
-    → "Mẹ, kể nữa đi!" (muốn nghe)
-    → Tự "kể" lại sách (dù chỉ nhớ 1 phần)
-    → Kể về ngày của mình (khi được hỏi)
+  Step 2 — INTEREST:
+    → "Tell me more!" (wants to hear)
+    → Self-"retells" books (even if only remembers part)
+    → Tells about their day (when asked)
 
-  Bước 3 — GUIDED PLAY (~3-5 tuổi):
-    → "WHAT HAPPENS NEXT?" — đọc sách → dừng → "con nghĩ tiếp sao?"
-    → Co-create stories: "Có 1 con mèo... (mẹ) → Nó tên là Mimi! (con) → Mimi đi đâu? (mẹ)"
+  Step 3 — GUIDED PLAY (~3–5 years):
+    → "WHAT HAPPENS NEXT?" — read a book → pause → "what do you think happens?"
+    → Co-create stories: "Once there was a cat... (parent) → Its name was Mimi!
+      (child) → Where did Mimi go? (parent)"
     → Puppet shows: hand puppets, finger puppets → embodied storytelling
-    → Wordless picture books: trẻ TỰ kể → 100% creative → cực hiệu quả
-    → "Dictation": trẻ KỂ → bố mẹ VIẾT → trẻ thấy: "lời tôi THÀNH CHỮ"
+    → Wordless picture books: child TELLS their own story → 100% creative
+      → extremely effective
+    → "Dictation": child TELLS → parent WRITES → child sees: "my words BECOME TEXT"
       → = Pre-literacy connection: oral → written → meaningful
 
-  Bước 4 — STRUCTURED (~5-7 tuổi nếu interest):
-    → Story structure explicit: "mở đầu → vấn đề → giải quyết → kết thúc"
-    → Writing stories (khi viết đủ)
+  Step 4 — STRUCTURED (~5–7 years if interested):
+    → Story structure explicit: "beginning → problem → solution → ending"
+    → Writing stories (when writing is sufficient)
     → Drama / theater classes
-    → = CHỈ KHI trẻ enjoy telling → ĐỪNG ép "phải kể hay"
+    → = ONLY IF child enjoys telling → DON'T force "must tell it well"
 
-  ⭐ KEY PRACTICE — 1 CÂU MỖI TỐI:
-    → "Kể mẹ nghe HÔM NAY có gì hay?"
-    → → Trẻ practice: nhớ + chọn + organize + tell
-    → → Daily = compound effect → narrative skill MẠNH dần
-    → → + Bonding + body-listening (nhớ lại CẢM XÚC trong ngày)
+  ⭐ KEY PRACTICE — 1 SENTENCE EVERY EVENING:
+    → "Tell me one thing that happened today"
+    → → Child practices: remember + choose + organize + tell
+    → → Daily = compound effect → narrative skill GROWS stronger
+    → → + Bonding + body-listening (remembering FEELINGS from the day)
 ```
 
 ---
@@ -1911,312 +1983,327 @@ CÁCH HỖ TRỢ (4 bước):
 ## §7 — CALIBRATE PER-CHILD: HARDWARE ADJUSTMENT
 
 ```
-KHÔNG CÓ 1 CÔNG THỨC CHO TẤT CẢ TRẺ
+NO ONE FORMULA FOR ALL CHILDREN
 
-  §3-§6 cho guidance CHUNG → nhưng mỗi trẻ hardware KHÁC:
+  §3–§6 give GENERAL guidance → but each child has DIFFERENT hardware:
   → DRD4 spectrum (4R steady ↔ 7R novelty-seeking)
   → Modality (somatic-dominant ↔ verbal-dominant)
-  → Sensitivity level (cao ↔ thấp)
+  → Sensitivity level (high ↔ low)
   → Temperament (cautious ↔ bold, high energy ↔ calm)
 
-  → = CÙNG kỹ năng + CÙNG tuổi + KHÁC hardware = CẦN KHÁC approach
-  → CÙNG approach + KHÁC hardware = KHÁC body state = KHÁC tag (→ Mechanism §3)
-  → Bố mẹ QUAN SÁT → nhận ra PATTERN → adjust
-  → (Hardware chi tiết: Attention-Spectrum.md, Personal-Melody.md v2.0)
+  → = SAME skill + SAME age + DIFFERENT hardware = NEEDS DIFFERENT approach
+  → SAME approach + DIFFERENT hardware = DIFFERENT body state = DIFFERENT tag
+    (→ Mechanism §3)
+  → Parents OBSERVE → recognize PATTERN → adjust
+  → (Hardware detail: Attention-Spectrum.md, Personal-Melody.md v2.0)
   → (Mechanism: observation parameters emerge per-child → Mechanism §9)
 
   🟡 GAP-DISTRIBUTION-PROFILE (→ Gap-Distribution-Profile.md v1.1):
-  → Mỗi trẻ có GAP LANDSCAPE riêng — cluster gaps ở ĐÂU?
-    → Trẻ A: gaps cluster ở motor → tự nhiên hứng thú vận động
-    → Trẻ B: gaps cluster ở auditory → tự nhiên hứng thú âm nhạc
-    → Trẻ C: gaps cluster ở social → tự nhiên hứng thú giao tiếp
-  → Bố mẹ observe: trẻ "tự kéo" về HƯỚNG NÀO? = gap landscape signal
-  → Skill match gap landscape → approach tag TỰ NHIÊN
-  → Skill MIS-match gap landscape → cần EXPOSURE LÂU hơn (bước 1-2 DÀI)
-  → Gap landscape 0-6 THAY ĐỔI nhanh → "không thích lúc 3" ≠ "không thích lúc 5"
+  → Each child has their own GAP LANDSCAPE — where do gaps CLUSTER?
+    → Child A: gaps cluster in motor → naturally drawn to movement activities
+    → Child B: gaps cluster in auditory → naturally drawn to music
+    → Child C: gaps cluster in social → naturally drawn to communication
+  → Parents observe: which direction does child naturally "pull" toward?
+    = gap landscape signal
+  → Skill matching gap landscape → approach tag NATURALLY
+  → Skill MISMATCHING gap landscape → needs LONGER EXPOSURE (longer steps 1–2)
+  → Gap landscape 0–6 CHANGES QUICKLY → "doesn't like at 3" ≠ "doesn't like at 5"
 ```
 
 ### §7.1 — DRD4 SPECTRUM: 4R (STEADY) vs 7R (NOVELTY-SEEKING)
 
 ```
-TRẺ 4R TENDENCY (detail, steady, patient):
+CHILD WITH 4R TENDENCY (detail-oriented, steady, patient):
 
   Strengths:
-    → Instruction following: TỐT → structured learning (bước 4) phù hợp sớm hơn
-    → Small increments: OK → "mỗi ngày 1 chút" = satisfying
-    → Attention sustained: practice 15 phút = CÓ THỂ
-    → Classroom: phù hợp (ngồi, nghe, làm theo)
+    → Instruction following: GOOD → structured learning (step 4) appropriate earlier
+    → Small increments: OK → "a little each day" = satisfying
+    → Sustained attention: 15 minutes of practice = POSSIBLE
+    → Classroom: suitable (sit, listen, follow)
 
   Risks:
-    → Quá COMPLIANT → theo instruction nhưng KHÔNG explore cái khác
-    → Có thể GIỮ 1 kỹ năng quá lâu mà không thử mới (comfort zone)
-    → Bố mẹ NGHĨ "ngoan, giỏi" nhưng: creativity CÓ THỂ bị hạn chế
+    → Too COMPLIANT → follows instructions but DOESN'T EXPLORE other things
+    → May STAY WITH 1 skill too long without trying new ones (comfort zone)
+    → Parents THINK "well-behaved, talented" but: creativity MAY be limited
 
   Approach:
-    → Structured learning: OK, phù hợp hardware
-    → NHƯNG: bổ sung EXPOSURE đa dạng → đảm bảo trẻ THẤY nhiều kỹ năng khác
-    → Khuyến khích thử cái MỚI: "hôm nay mình thử cái khác xem?"
-    → Free play VẪN cần → dù trẻ "thích học" → vì creativity cần unstructured time
+    → Structured learning: OK, suits hardware
+    → BUT: add DIVERSE EXPOSURE → ensure child SEES many different skills
+    → Encourage trying NEW things: "today let's try something different?"
+    → Free play STILL NEEDED → even if child "likes learning" → because
+      creativity needs unstructured time
 
 
-TRẺ 7R / ADHD TENDENCY (big picture, restless, novelty-seeking):
+CHILD WITH 7R / ADHD TENDENCY (big-picture, restless, novelty-seeking):
 
   Strengths:
-    → Novelty drive MẠNH → exposure (bước 1) = TỰ NHIÊN (thấy gì cũng muốn thử)
-    → Hyperfocus: khi TÌM ĐÚNG kỹ năng match → invest CỰC MẠNH
-    → Creativity cao → divergent thinking → art, music, building = thường giỏi
-    → Big picture: nắm concept NHANH (dù detail có thể miss)
+    → Strong novelty drive → exposure (step 1) = NATURAL (sees anything and wants to try)
+    → Hyperfocus: when FINDING the right matching skill → invests EXTREMELY DEEPLY
+    → High creativity → divergent thinking → art, music, building = often excellent
+    → Big picture: grasps concepts QUICKLY (though may miss details)
 
   Risks:
-    → "Chán" nếu skill KHÔNG đủ stimulating (threshold cao hơn)
-    → Structured learning (bước 4) = KHÓ nếu approach truyền thống
-    → Practice DÀI = gần như KHÔNG thể → cần short bursts
-    → Bị label "lười / không tập trung / hư" → schema: "tôi không giỏi gì"
+    → "Bored" if skill is NOT stimulating enough (higher threshold)
+    → Structured learning (step 4) = HARD with traditional approaches
+    → Long practice = nearly IMPOSSIBLE → needs short bursts
+    → Gets labeled "lazy / unfocused / badly behaved" → schema: "I'm not good at anything"
 
   Approach:
-    → Bước 3 (guided play) CÓ THỂ DÀI hơn → chuyển bước 4 CHẬM hơn
-    → Practice: 3-5 phút × NHIỀU lần/ngày (thay vì 15 phút × 1 lần)
-    → Novelty TRONG practice: cùng bài piano nhưng "hôm nay chơi NHƯ ROBOT!"
-    → TÌM kỹ năng gây HYPERFOCUS → đó có thể là personal melody → INVEST
-    → ĐỪNG ép đa dạng (4-5 skills) → tìm 1-2 cái THẬT SỰ match → sâu
-    → Movement breaks: giữa practice → chạy 1 vòng → quay lại → effective
+    → Step 3 (guided play) CAN BE LONGER → transition to step 4 SLOWER
+    → Practice: 3–5 minutes × MANY TIMES/day (instead of 15 minutes × 1 time)
+    → Novelty WITHIN practice: same piano piece but "play it today LIKE A ROBOT!"
+    → FIND skills that cause HYPERFOCUS → that may be the personal melody → INVEST
+    → DON'T force diversity (4–5 skills) → find 1–2 that TRULY match → go deep
+    → Movement breaks: between practice → run a lap → come back → effective
 ```
 
 ### §7.2 — MODALITY: SOMATIC vs VERBAL
 
 ```
-TRẺ SOMATIC-DOMINANT (body signal mạnh, verbal yếu hơn):
+SOMATIC-DOMINANT CHILD (strong body signal, weaker verbal):
 
-  → "Nói không rõ nhưng LÀM rất giỏi"
+  → "Can't explain it well but CAN DO it very well"
   → Learns by DOING > by HEARING instructions
-  → = Compiled processing qua BODY nhanh hơn qua VERBAL
-    (→ Compiled-Fresh.md v2.0: Compiled = tự động, body biết trước PFC)
-  → Motor skills: thường pick up NHANH (body awareness tự nhiên)
-  → Music: có thể prefer nhạc cụ (body) > lý thuyết nhạc (verbal)
-  → Cognitive skills: CẦN concrete (manipulatives, hands-on) > worksheets
+  → = Compiled processing through BODY faster than through VERBAL
+    (→ Compiled-Fresh.md v2.0: Compiled = automatic, body knows before PFC)
+  → Motor skills: usually picks up QUICKLY (natural body awareness)
+  → Music: may prefer instrument (body) > music theory (verbal)
+  → Cognitive skills: NEEDS concrete (manipulatives, hands-on) > worksheets
 
   Approach:
-    → "Show me" > "tell me" → DEMO thay vì GIẢI THÍCH
-    → Movement integration: học đếm BẰNG nhảy, học chữ BẰNG body shape
-    → Bước 3 (guided play) = RẤT hiệu quả cho somatic child
-    → Bước 4 = cần thầy/cô HIỂU somatic approach (không chỉ nói)
-    → Đừng lo "sao con không giải thích được" → body BIẾT trước miệng NÓI
+    → "Show me" > "tell me" → DEMO instead of EXPLAIN
+    → Movement integration: count by JUMPING, learn letters BY MAKING BODY SHAPES
+    → Step 3 (guided play) = VERY effective for somatic child
+    → Step 4 = needs teacher/coach who UNDERSTANDS somatic approach (not just talking)
+    → Don't worry "why can't they explain it" → body KNOWS before the mouth SAYS it
 
 
-TRẺ VERBAL-DOMINANT (verbal mạnh, body signal yếu hơn):
+VERBAL-DOMINANT CHILD (strong verbal, weaker body signal):
 
-  → "Giải thích rất hay nhưng LÀM thì vụng"
+  → "Explains things very well but is CLUMSY at doing them"
   → Learns by HEARING, discussing, reading > by doing
-  → Reading / language: thường pick up NHANH (verbal advantage)
-  → Motor skills: CÓ THỂ chậm hơn → CẦN bổ sung body experience
-  → Music: có thể prefer singing, theory > instrument technique
+  → Reading / language: usually picks up QUICKLY (verbal advantage)
+  → Motor skills: MAY be slower → NEEDS additional body experience
+  → Music: may prefer singing, theory > instrument technique
 
   Approach:
-    → Cognitive skills: phù hợp tự nhiên → NHƯNG đừng CHỈCHÚ TRỌNG verbal
-    → BỔ SUNG motor / sensory: sport, dance, outdoor → body needs training TOO
-    → "Nói giỏi" ≠ "hiểu sâu" → đôi khi verbal mask thiếu body understanding
-    → Bước 3: include VERBAL element ("kể mẹ nghe con đang xây gì")
+    → Cognitive skills: naturally suited → BUT don't ONLY focus on verbal
+    → ADD motor / sensory: sport, dance, outdoor → body needs training TOO
+    → "Speaks well" ≠ "understands deeply" → sometimes verbal masks missing
+      body understanding
+    → Step 3: include VERBAL element ("tell me what you're building")
 ```
 
-### §7.3 — SENSITIVITY: CAO vs THẤP
+### §7.3 — SENSITIVITY: HIGH vs LOW
 
 ```
-TRẺ HIGH SENSITIVITY (HSC — Highly Sensitive Child):
+HIGHLY SENSITIVE CHILD (HSC):
 
-  → Overwhelmed bởi: ồn, đông, ánh sáng mạnh, nhiều stimuli cùng lúc
-  → NHƯNG: pick up SUBTLETIES nhanh (chi tiết nhỏ, emotion người khác, nuance)
-  → → CÓ THỂ giỏi: nhạc (nghe tinh), art (thấy chi tiết), ngôn ngữ (cảm nhận nuance)
+  → Overwhelmed by: noise, crowds, bright light, many stimuli at once
+  → BUT: picks up SUBTLETIES quickly (small details, others' emotions, nuance)
+  → → MAY excel at: music (keen hearing), art (sees detail), language (feels nuance)
 
   🟡 PFC BUDGET (→ PFC-Label.md v1.0):
-    → HSC: PFC budget HẾT NHANH HƠN vì processing NHIỀU stimuli hơn
-    → Overwhelm = PFC budget CẠNKIỆT → không còn resource để learn
-    → = Skill practice KHI PFC budget đã hết = compile với avoidance tag
-    → FIX: practice KHI PFC budget còn (sáng > chiều, sau nghỉ > sau school)
+    → HSC: PFC budget DEPLETES FASTER because processing MORE stimuli
+    → Overwhelm = PFC budget EXHAUSTED → no resource left to learn
+    → = Skill practice WHEN PFC budget already depleted = compiles with avoidance tag
+    → FIX: practice WHEN PFC budget is still available
+      (morning > afternoon, after rest > after school)
 
   🟡 DISSONANCE AMPLIFICATION (→ Dissonance-Signal-Architecture.md v1.0):
-    → HSC: dissonance signal MẠNH hơn average (sensitivity hardware = amplifier)
-    → Ép nhẹ → HSC NHẬN dissonance mạnh → avoidance tag hình thành NHANH hơn
-    → = Bước 1-2 CẦN NHẸHƠN + LÂU HƠN cho HSC
+    → HSC: dissonance signal STRONGER than average (sensitivity hardware = amplifier)
+    → Mild forcing → HSC RECEIVES dissonance strongly → avoidance tag forms FASTER
+    → = Steps 1–2 need to be GENTLER + LONGER for HSC
 
   Approach:
-    → Group class: CÓ THỂ overwhelm → thử INDIVIDUAL hoặc SMALL GROUP trước
-    → New environment: cần EXTRA thời gian làm quen → bước 1 DÀI hơn
-    → Resist mới ≠ "không thích" → có thể = sensory overload → adjust environment
-    → Performance / recital: pressure CÓ THỂ quá lớn → introduce DẦN, KHÔNG ép
-    → Transition: báo trước "5 phút nữa mình dừng" → đừng dừng ĐỘT NGỘT
+    → Group class: MAY overwhelm → try INDIVIDUAL or SMALL GROUP first
+    → New environment: needs EXTRA time to adjust → step 1 LONGER than average
+    → Resistance to new ≠ "doesn't like" → may = sensory overload → adjust environment
+    → Performance / recital: pressure MAY be too high → introduce GRADUALLY, NOT forced
+    → Transitions: warn ahead "5 more minutes then we stop" → don't stop ABRUPTLY
 
 
-TRẺ LOW SENSITIVITY (seeks stimulation):
+LOW SENSITIVITY CHILD (seeks stimulation):
 
-  → Cần NHIỀU stimulation hơn để engage
-  → Group class: OK (đông, ồn = stimulating → phù hợp)
-  → Individual lesson: CÓ THỂ "buồn" → cần thầy DYNAMIC
-  → Bước 1: có thể NGẮN hơn (không cần exposure lâu → nhào vào thử ngay)
-  → Challenge cần CAO hơn → dễ quá = chán
+  → Needs MORE stimulation to engage
+  → Group class: OK (busy, noisy = stimulating → suitable)
+  → Individual lesson: MAY feel "boring" → needs DYNAMIC teacher
+  → Step 1: can be SHORTER (doesn't need long exposure → dives in to try immediately)
+  → Challenge needs to be HIGHER → too easy = bored
 
   Approach:
-    → High-energy activities: sport, dance, drums → phù hợp tự nhiên
-    → Quiet skills (piano, drawing): CẦN adjustment (movement breaks, variation)
-    → Group > individual cho phase đầu
-    → "Bored" = CÓ THỂ dưới threshold → tăng challenge, thêm novelty
+    → High-energy activities: sport, dance, drums → naturally suitable
+    → Quiet skills (piano, drawing): NEEDS adjustment (movement breaks, variation)
+    → Group > individual for the early phase
+    → "Bored" = MAY BE under-threshold → increase challenge, add novelty
 ```
 
 ### §7.4 — TEMPERAMENT: CAUTIOUS vs BOLD
 
 ```
-TRẺ CAUTIOUS (thận trọng, observe trước):
+CAUTIOUS CHILD (careful, observes first):
 
-  → Bước 1-2 CẦN NHIỀU thời gian hơn (observe lâu trước khi thử)
-  → Đứng ngoài nhìn bạn chơi → KHÔNG phải "sợ" → đang COLLECT DATA
-  → = Fresh processing ĐẦU TIÊN: PFC assess kỹ trước khi body engage
-    (→ Compiled-Fresh.md v2.0: cautious = Fresh-dominant, cần data nhiều trước Compiled)
-  → Ép "thử đi con!" = backfire → schema: "bị ép = threat"
-  → "Warm-up" cần: 1 buổi đầu = chỉ XEM → buổi 2 = thử NHẸ → dần dần
-  → Khi ĐÃ quen → CÓ THỂ commit MẠNH (vì đã assess kỹ trước → Compiled CHẮC)
+  → Steps 1–2 NEED MORE time (observes for a long time before trying)
+  → Stands on the sidelines watching others play → NOT "scared" → COLLECTING DATA
+  → = Fresh processing FIRST: PFC assesses carefully before body engages
+    (→ Compiled-Fresh.md v2.0: cautious = Fresh-dominant, needs data first before Compiled)
+  → Forcing "try it!" = backfire → schema: "being forced = threat"
+  → Needs "warm-up": first session = just WATCH → second session = try GENTLY → gradually
+  → Once COMFORTABLE → CAN commit DEEPLY (because thoroughly assessed → Compiled SOLID)
 
-TRẺ BOLD (mạnh dạn, nhào vào ngay):
+BOLD CHILD (confident, dives in immediately):
 
-  → Bước 1-2 có thể RẤT NGẮN → nhảy thẳng vào thử
-  → Risk: skip foundation → có thể gặp frustration SAU (khi thiếu nền)
-  → Risk: thử nhiều nhưng KHÔNG ĐỦ SÂU (nhảy skill liên tục)
-  → Bố mẹ: encourage depth → "con giỏi thử mới — mình TỐT THÊM cái này nhé?"
-  → Physical safety: cần WATCH closer (nhào vào trước khi assess risk)
+  → Steps 1–2 can be VERY SHORT → jumps straight to trying
+  → Risk: skips foundation → may encounter frustration LATER (when lacking foundation)
+  → Risk: tries many things but NONE DEEP ENOUGH (constantly switches skills)
+  → Parents: encourage depth → "you're great at trying new things —
+    let's get even BETTER at this one?"
+  → Physical safety: needs CLOSER WATCHING (dives in before assessing risk)
 ```
 
 ### §7.5 — TRUST PER-ENTITY: RELATIONSHIP HISTORY × SKILL
 
 ```
-⭐ TRUST LEVEL KHÁC NHAU PER-CHILD × PER-INSTRUCTOR (→ Trust.md v1.0):
+⭐ TRUST LEVEL VARIES PER-CHILD × PER-INSTRUCTOR (→ Trust.md v1.0):
 
-  CÙNG teacher → KHÁC trẻ → KHÁC trust level:
-  → Trẻ A: trust cao (warm relationship) → VALUE amplified → learn NHANH
-  → Trẻ B: trust thấp (cold first meeting) → VALUE dampened → learn CHẬM
-  → = KHÔNG phải "trẻ B chậm" → mà trust × entity KHÁC → adjust
+  SAME teacher → DIFFERENT children → DIFFERENT trust level:
+  → Child A: high trust (warm relationship) → VALUE amplified → learns QUICKLY
+  → Child B: low trust (cold first meeting) → VALUE dampened → learns SLOWLY
+  → = NOT "Child B is slow" → trust × entity is DIFFERENT → adjust
 
-  CÙNG trẻ → KHÁC instructor → KHÁC trust level:
-  → Skill intro FROM parent (trust Mức 4-5) > FROM stranger (trust DEFAULT)
-  → Bước 3 VỚI BỐ MẸ = Trust HIGH + Hardware-Subsidy = compound effect
-  → Bước 4 VỚI THẦY MỚI = Trust DEFAULT → cần CONSISTENCY PERIOD (tuần-tháng)
+  SAME child → DIFFERENT instructor → DIFFERENT trust level:
+  → Skill intro FROM parent (trust Level 4–5) > FROM stranger (trust DEFAULT)
+  → Step 3 WITH PARENTS = Trust HIGH + Hardware-Subsidy = compound effect
+  → Step 4 WITH NEW TEACHER = Trust DEFAULT → needs CONSISTENCY PERIOD (weeks–months)
 
   NEW TEACHER — TRUST DEFAULT OPERATION (→ Trust.md §5):
-  → Trẻ 0-6: Phase 1 (INSTALLED) → default trust ALL caregivers
-  → Default trust ≠ deep trust → default = "OK cho đến khi vi phạm"
-  → Consistency + warmth → default STRENGTHEN dần
-  → Inconsistency + coldness → default COLLAPSE nhanh
-  → Trust collapse asymmetry: build slow (tuần), collapse fast (1 event)
-  → = First impression teacher CỰC QUAN TRỌNG
+  → Children 0–6: Phase 1 (INSTALLED) → default trust ALL caregivers
+  → Default trust ≠ deep trust → default = "OK until violated"
+  → Consistency + warmth → default STRENGTHENS gradually
+  → Inconsistency + coldness → default COLLAPSES quickly
+  → Trust collapse asymmetry: builds slow (weeks), collapses fast (1 event)
+  → = First impression of a teacher is EXTREMELY IMPORTANT
 
   🟡 Trust per-entity for skill learning = framework application
 ```
 
 ---
 
-## §8 — SAI LẦM & WARNING SIGNS
+## §8 — MISTAKES & WARNING SIGNS
 
 ```
-LƯU Ý: sai lầm ≠ "xấu" → đa số = ý tốt + thiếu thông tin
-  → Biết = để ĐIỀU CHỈNH, không phải TỰ TRÁCH
+NOTE: mistakes ≠ "bad" → most = good intentions + lack of information
+  → Knowing = to ADJUST, not to BLAME YOURSELF
 ```
 
-### §8.1 — SAI LẦM PHỔ BIẾN TRONG GIỚI THIỆU KỸ NĂNG
+### §8.1 — COMMON MISTAKES IN SKILL INTRODUCTION
 
 ```
-① NHẢY THẲNG TỚI BƯỚC 4 (phổ biến nhất)
-   → "Con 3 tuổi → đăng ký lớp piano" → skip exposure, interest, guided play
-   → Trẻ: chưa biết piano là gì, chưa biết thích hay không
-   → → Đột nhiên: phòng lạ, thầy lạ, phải làm theo → schema: "piano = bị ép"
-   → FIX: bắt đầu từ bước 1 (nghe nhạc, để piano available) → DẦN DẦN
+① JUMPING STRAIGHT TO STEP 4 (most common)
+   → "Child is 3 → enroll in piano class" → skip exposure, interest, guided play
+   → Child: has never seen a piano, doesn't know if they like it or not
+   → → Suddenly: unfamiliar room, unfamiliar teacher, must follow instructions
+     → schema: "piano = being forced"
+   → FIX: start from step 1 (listen to music, make piano available) → GRADUALLY
 
-② CHỌN KỸ NĂNG THEO Ý BỐ MẸ
-   → "Con PHẢI học violin vì bố mẹ thích nhạc cổ điển"
-   → "Con PHẢI bơi vì bố mẹ sợ nước lúc nhỏ" (projection)
-   → = Imagine-Final CỦA BỐ MẸ → áp lên trẻ
-   → FIX: observe body signal trẻ → support HƯỚNG TRẺ → basic skills vẫn introduce nhưng theo 4 bước
+② CHOOSING SKILLS ACCORDING TO PARENT'S PREFERENCE
+   → "Child MUST learn violin because we love classical music"
+   → "Child MUST swim because we're scared of water" (projection)
+   → = Parents' Imagine-Final → imposed on the child
+   → FIX: observe child's body signal → support CHILD'S DIRECTION
+     → basic skills still introduced but following the 4 steps
 
-③ QUÁ NHIỀU KỸ NĂNG CÙNG LÚC
-   → Thứ 2: piano, Thứ 3: bơi, Thứ 4: vẽ, Thứ 5: tiếng Anh, Thứ 6: ballet
-   → = HẾT thời gian free play + hết thời gian nghỉ + cortisol mãn tính
-   → FIX: MAX 2-3 / tuần cho 4-6 tuổi → ưu tiên cái trẻ THẬT SỰ THÍCH
+③ TOO MANY SKILLS AT ONCE
+   → Monday: piano, Tuesday: swimming, Wednesday: drawing, Thursday: English,
+     Friday: ballet
+   → = NO time for free play + no rest time + chronic cortisol
+   → FIX: MAX 2–3 / week for ages 4–6 → prioritize what child TRULY ENJOYS
 
-④ SO SÁNH TIẾN ĐỘ
-   → "Bạn A chơi piano 6 tháng đã qua Book 2, sao con vẫn Book 1?"
-   → = Status threat → cortisol → schema: "tôi CHẬM = tôi KÉM"
-   → FIX: so sánh con với CHÍNH CON → "tháng trước chưa được, giờ ĐƯỢC rồi!"
+④ COMPARING PROGRESS
+   → "Friend A has been playing piano for 6 months and is already on Book 2,
+     why are you still on Book 1?"
+   → = Status threat → cortisol → schema: "I'm SLOW = I'm NOT GOOD ENOUGH"
+   → FIX: compare child to THEMSELVES → "last month you couldn't, now you CAN!"
 
-⑤ FOCUS KẾT QUẢ, KHÔNG QUÁ TRÌNH
-   → "Con được mấy điểm?" thay vì "con thấy bài hôm nay thế nào?"
-   → "Vẽ đẹp chưa?" thay vì "con dùng màu gì thế?"
-   → = Trẻ learn: giá trị = KẾT QUẢ → tránh thử cái MỚI (sợ kết quả xấu)
-   → FIX: §1 nguyên tắc 5 — khen process, không result
+⑤ FOCUSING ON RESULT, NOT PROCESS
+   → "How many points did you get?" instead of "how did you feel about today's piece?"
+   → "Is the drawing pretty?" instead of "what colors did you use?"
+   → = Child learns: value = RESULT → avoids trying new things
+     (afraid of bad results)
+   → FIX: §1 Principle 5 — praise process, not result
 
-⑥ KHÔNG CHỊU WITHDRAWAL
-   → "Mẹ đã đóng 6 tháng tiền rồi, con phải học hết!"
-   → "Không được bỏ giữa chừng!"
-   → = Ép tiếp → body-listening suppress + learned helplessness
-   → FIX: §2 Withdrawal — phân biệt bỏ kỹ năng vs bỏ approach
+⑥ NOT ACCEPTING WITHDRAWAL
+   → "I've already paid for 6 months, you have to finish!"
+   → "You can't quit halfway!"
+   → = Forcing on → body-listening suppressed + learned helplessness
+   → FIX: §2.5 Withdrawal — distinguish quitting the SKILL vs quitting the APPROACH
 
-⑦ ĐỔ LỖI CHO TRẺ THAY VÌ APPROACH
-   → "Con LƯỜI nên không tiến bộ" → thật ra: approach không phù hợp hardware
-   → "Con KHÔNG CÓ NĂNG KHIẾU" → thật ra: readiness chưa đủ hoặc thiếu foundation
-   → "Con KHÔNG TẬP TRUNG" → thật ra: 7R hardware + drill approach = mismatch
-   → FIX: khi trẻ "thất bại" → check APPROACH trước khi blame TRẺ
-     → Đổi thầy? Đổi method? Đổi schedule? Bước lùi về bước 3?
+⑦ BLAMING THE CHILD INSTEAD OF THE APPROACH
+   → "Child is LAZY so no progress" → reality: approach doesn't fit hardware
+   → "Child has NO TALENT" → reality: readiness insufficient or lacks foundation
+   → "Child can't FOCUS" → reality: 7R hardware + drill approach = mismatch
+   → FIX: when child "fails" → CHECK APPROACH first before blaming the CHILD
+     → Change teacher? Change method? Change schedule? Step back to step 3?
 ```
 
-### §8.2 — WARNING SIGNS — DẤU HIỆU CẦN DỪNG / ĐIỀU CHỈNH
+### §8.2 — WARNING SIGNS: WHEN TO STOP / ADJUST
 
 ```
 ⚠️ PHYSICAL:
-  → Đau bụng / đau đầu TRƯỚC buổi học (không có lý do y tế)
-  → Giấc ngủ thay đổi (khó ngủ, ác mộng) quanh thời gian practice
-  → Tension: nghiến răng, cứng vai, nắm tay chặt khi practice
-  → = Body đang NÓI: "activity này = THREAT"
+  → Stomachaches / headaches BEFORE sessions (no medical reason)
+  → Sleep changes (difficulty sleeping, nightmares) around practice time
+  → Tension: grinding teeth, stiff shoulders, clenched fists during practice
+  → = Body IS SAYING: "this activity = THREAT"
 
 ⚠️ BEHAVIORAL:
-  → Né tránh: giấu nhạc cụ, "quên" lịch học, kéo dài trước khi bắt đầu
-  → Tantrum ĐẶC THÙ: chỉ xảy ra quanh skill đó (không phải general tantrum)
-  → Regression: skill ĐI XUỐNG (không phải plateau — plateau = bình thường)
-  → "Đổ" sang behavior khác: aggressive, withdraw, clingy → sau buổi practice
+  → Avoidance: hides the instrument, "forgets" the schedule,
+    delays indefinitely before starting
+  → SPECIFIC tantrum: only occurs around that skill (not general tantrums)
+  → Regression: skill DECLINING (not plateau — plateau = normal)
+  → "Spillover" to other behavior: aggressive, withdrawal, clingy → AFTER practice
 
 ⚠️ EMOTIONAL:
-  → Self-deprecation: "con NGU", "con không làm được gì", "con ghét piano"
-  → Anxiety: lo lắng TRƯỚC buổi học (hàng giờ, không phải vài phút)
-  → Loss of joy: không còn VUI khi làm CÁI GÌ (không chỉ skill — general joy giảm)
-  → = Burnout ở trẻ → NGHIÊM TRỌNG → cần DỪNG + assess
+  → Self-deprecation: "I'm STUPID," "I can't do anything right," "I hate piano"
+  → Anxiety: worried BEFORE the session (hours before, not just minutes)
+  → Loss of joy: no longer HAPPY doing ANYTHING (not just the skill — general joy decreases)
+  → = Burnout in a child → SERIOUS → need to STOP + assess
 
 ⚠️ RELATIONAL:
-  → Conflict bố mẹ-con TĂNG xoay quanh practice
-  → Trẻ NÉ bố mẹ khi đến giờ practice
-  → Connection GIẢM: "mỗi lần gặp con = ép practice" → relationship = threat
-  → = Practice ĐANG PHÁ connection → connection QUAN TRỌNG HƠN bất kỳ skill nào
+  → Parent-child conflict INCREASES around practice
+  → Child AVOIDS parents when it's time for practice
+  → Connection DECREASES: "every time I see them = forced to practice"
+    → relationship = threat
+  → = Practice IS DAMAGING connection → connection is MORE IMPORTANT than any skill
 
-🟡 BURNOUT QUA LENS RESONANCE DECLINE (→ Bond-Architecture v2.0 §4):
-  → Compiled-Suppress: trẻ ĐÃ compile "piano = enjoy" nhưng dần
-    lặp lại quá nhiều → suppress unique exploration → từ "vui" → "bình thường" → "chán"
+🟡 BURNOUT THROUGH RESONANCE DECLINE LENS (→ Bond-Architecture v2.0 §4):
+  → Compiled-Suppress: child ALREADY compiled "piano = enjoyable" but gradually
+    repeating too much → suppresses unique exploration → from "fun" → "normal" → "boring"
   → Reward-Habituated: same stimulus → VTA habituates, especially WITHOUT Hardware-Subsidy
-    → bố mẹ ngừng CÙNG practice → habituation NHANH hơn → chán sớm hơn
-  → = Burnout ≠ "trẻ hư" → là natural decline → cần NOVELTY + CONNECTION
+    → parents stop PRACTICING TOGETHER → habituation FASTER → bored sooner
+  → = Burnout ≠ "child is badly behaved" → is natural decline
+    → needs NOVELTY + CONNECTION
 
-🟡 4-LAYER SUSTAINABILITY CHO SKILL PRACTICE (→ Resonance-Sustainability.md v1.0):
-  → Foundation: practice CÓ ĐỦ proximity + duration + child-led moments?
-  → Modality: practice có ĐA DẠNG (verbal + non-verbal + body-level)?
-  → Amplification: có Hardware-Subsidy (bố mẹ cùng)?
-  → Trajectory: challenge TĂNG DẦN hay đứng yên?
-  → Warning = 1+ layer THIẾU → check per-layer trước khi dừng hẳn
+🟡 4-LAYER SUSTAINABILITY FOR SKILL PRACTICE (→ Resonance-Sustainability.md v1.0):
+  → Foundation: does practice have SUFFICIENT proximity + duration +
+    child-led moments?
+  → Modality: is practice DIVERSE (verbal + non-verbal + body-level)?
+  → Amplification: is Hardware-Subsidy present (parents practicing together)?
+  → Trajectory: is challenge GRADUALLY INCREASING or static?
+  → Warning = 1+ layer MISSING → check per-layer before stopping entirely
 
 🟡 CORTISOL PRECISION (→ Cortisol-Baseline.md v2.0):
-  → Cortisol KHÔNG GÂY avoidance → cortisol KHUẾCH ĐẠI dissonance ĐÃ CÓ
-  → Stress mãn tính từ skill practice → cortisol baseline TĂNG → ảnh hưởng MỌI domain
-  → = Warning signs từ 1 skill CÓ THỂ lan sang other domains (joy giảm CHUNG)
+  → Cortisol does NOT CAUSE avoidance → cortisol AMPLIFIES dissonance ALREADY PRESENT
+  → Chronic stress from skill practice → cortisol baseline RISES → affects ALL domains
+  → = Warning signs from 1 skill CAN SPREAD to other domains (general joy decreases)
 
-KHI THẤY WARNING SIGNS:
-  → DỪNG → assess → đừng "cố thêm 1 tháng xem"
-  → Hỏi trẻ (nếu nói được): "con thấy thế nào?" (body signal)
-  → Check: approach sai? teacher sai? quá nhiều? quá khó? thiếu foundation?
-  → Check per Resonance Decline: Compiled-Suppress? Reward-Habituated? Novelty hết?
-  → Check per 4-Layer: layer nào thiếu? CÓ THỂ fix layer đó thay vì dừng?
-  → Nếu TẤT CẢ đã adjust mà vẫn warning → DỪNG skill đó
-  → = 1 kỹ năng KHÔNG ĐÁNG để đổi lấy: health + connection + body-listening + joy
+WHEN WARNING SIGNS APPEAR:
+  → STOP → assess → don't "try one more month"
+  → Ask child (if verbal): "how are you feeling about it?" (body signal)
+  → Check: wrong approach? wrong teacher? too much? too hard? missing foundation?
+  → Check per Resonance Decline: Compiled-Suppress? Reward-Habituated? Novelty exhausted?
+  → Check per 4-Layer: which layer is missing? CAN THAT LAYER be fixed instead of stopping?
+  → If ALL has been adjusted and warning signs remain → STOP that skill
+  → = 1 skill is NOT WORTH trading for: health + connection + body-listening + joy
 ```
 
 ---
@@ -2224,34 +2311,34 @@ KHI THẤY WARNING SIGNS:
 ## §9 — HONEST ASSESSMENT
 
 ```
-⭐ CÁI FILE NÀY CÓ THỂ LÀM:
+⭐ WHAT THIS FILE CAN DO:
 
-  ✅ Framework cho CÁCH TIẾP CẬN giới thiệu kỹ năng (4 bước + approach/avoidance tag)
-  ✅ Per-skill readiness guidance (§3-§6)
+  ✅ Framework for the APPROACH to introducing skills (4 steps + approach/avoidance tag)
+  ✅ Per-skill readiness guidance (§3–§6)
   ✅ Per-hardware adjustment principles (§7)
-  ✅ Warning signs rõ ràng (§8)
-  ✅ Kết nối với Natural-Development + Mechanism.md foundation (§0)
-  ✅ Nguyên tắc EXPOSURE → STRUCTURE áp dụng được cho gần như MỌI kỹ năng
-  ✅ V7.8 lens: approach/avoidance tag giải thích TẠI SAO 4 bước quan trọng
+  ✅ Clear warning signs (§8)
+  ✅ Connection with Natural-Development + Mechanism.md foundation (§0)
+  ✅ EXPOSURE → STRUCTURE principle applicable to nearly ALL skills
+  ✅ v7.8 lens: approach/avoidance tag explains WHY 4 steps matter
 
 
-⭐ CÁI FILE NÀY KHÔNG THỂ LÀM:
+⭐ WHAT THIS FILE CANNOT DO:
 
-  ❌ Cho biết CHÍNH XÁC trẻ NÀO nên học KỸ NĂNG NÀO
-     → File cho framework → bố mẹ observe + adjust per-child
-  ❌ Thay thế thầy/cô DẠY kỹ năng
-     → File = KHI NÀO + THẾ NÀO tiếp cận → không phải HOW TO dạy piano/bơi/đọc
-  ❌ Cover trẻ >6 tuổi đầy đủ
-     → Focus 0-6 → giai đoạn sau cần phân tích RIÊNG (school age = dynamic khác)
-  ❌ Cover trẻ neurodivergent chi tiết
-     → ASD, ADHD, sensory processing differences → approach ĐẶC THÙ cần chuyên gia
-  ❌ Đảm bảo trẻ "giỏi" kỹ năng nào
-     → Approach ĐÚNG → trẻ ENJOY + learn hiệu quả → nhưng mastery ≠ guaranteed
+  ❌ Tell EXACTLY which child should learn WHICH SKILL
+     → File gives framework → parents observe + adjust per-child
+  ❌ Replace teachers who TEACH specific skills
+     → File = WHEN + HOW to approach → not HOW TO teach piano/swimming/reading
+  ❌ Fully cover children >6 years
+     → Focus 0–6 → later stages need SEPARATE analysis (school age = different dynamic)
+  ❌ Cover neurodivergent children in detail
+     → ASD, ADHD, sensory processing differences → SPECIFIC approaches need specialists
+  ❌ Guarantee child will be "skilled" at anything
+     → RIGHT approach → child ENJOYS + learns effectively → but mastery ≠ guaranteed
 
 
-⭐ ĐỘ TIN CẬY:
+⭐ CONFIDENCE LEVELS:
 
-  CAO (well-established):
+  HIGH (well-established):
     → 🟢 Early sport specialization risks (Côté, Lloyd et al.) — §3.3
     → 🟢 Growth mindset / process vs result praise (Dweck) — §1.5
     → 🟢 Language sensitive periods (phoneme, syntax) — §2.6, §5.4
@@ -2261,116 +2348,122 @@ KHI THẤY WARNING SIGNS:
     → 🟢 AAP screen time recommendations — §5.4 (implicit)
     → 🟢 PFC hardware online from prenatal (Hodel 2018) — §0, Mechanism §1
 
-  TRUNG BÌNH (well-cited, some nuance):
-    → 🟡 Suzuki method effectiveness — §4.2: widely practiced, nhưng
-      controlled studies ÍT (hard to separate method from parental investment)
+  MEDIUM (well-cited, some nuance):
+    → 🟡 Suzuki method effectiveness — §4.2: widely practiced, but
+      controlled studies FEW (hard to separate method from parental investment)
     → 🟡 Balance bike > training wheels — §3.2: strong practice evidence,
       limited formal research
-    → 🟡 Sensitive period cho musical pitch — §4.1: evidence CÓ nhưng
+    → 🟡 Sensitive period for musical pitch — §4.1: evidence EXISTS but
       absolute vs relative pitch distinction matters
-    → 🟡 "Creativity killed by praise/criticism" — §6.1: directionally đúng,
-      nhưng magnitude và mechanism đang debated
+    → 🟡 "Creativity killed by praise/criticism" — §6.1: directionally right,
+      but magnitude and mechanism still debated
     → 🟡 Cortisol direction > level (novelty vs threat) — Mechanism §8:
-      framework synthesis từ Sapolsky + McEwen, CÓ support nhưng chưa đủ granular
+      framework synthesis from Sapolsky + McEwen, HAS support but
+      not yet sufficiently granular
 
   FRAMEWORK-SPECIFIC (novel interpretation):
     → 🔴 4-step progression (Exposure → Interest → Guided Play → Structured)
-      → Logic CHẶT + consistent với developmental science
-      → Nhưng: CHƯA CÓ nghiên cứu test CỤ THỂ model 4-step này
+      → Logic SOUND + consistent with developmental science
+      → But: NO research has yet SPECIFICALLY tested this 4-step model
       → = Framework proposal, NOT proven protocol
     → 🔴 Approach/avoidance tag formation per-step — §2, Mechanism §3
-      → Body-state-at-compile mechanism: consistent với Damasio somatic marker
+      → Body-state-at-compile mechanism: consistent with Damasio somatic marker
         + Nader 2000 reconsolidation + Berridge wanting/liking
-      → Nhưng: ÁP DỤNG cụ thể cho skill introduction = framework inference
-      → Tag PERSISTENCE (gần vĩnh viễn) = plausible nhưng magnitude chưa quantify
+      → But: SPECIFIC application to skill introduction = framework inference
+      → Tag PERSISTENCE (nearly permanent) = plausible but magnitude not yet quantified
     → 🔴 Body signal as primary decision maker — §1.2
-      → Consistent với somatic marker hypothesis (Damasio)
-      → Nhưng: ÁP DỤNG cho trẻ nhỏ + skill selection = extrapolation
+      → Consistent with somatic marker hypothesis (Damasio)
+      → But: APPLICATION to young children + skill selection = extrapolation
     → 🔴 Per-hardware skill matching (DRD4 × skill type) — §7
-      → Logic từ attention-spectrum research + DRD4 literature
-      → Nhưng: specific recommendations = inference, KHÔNG direct evidence
+      → Logic from attention-spectrum research + DRD4 literature
+      → But: specific recommendations = inference, NOT direct evidence
     → 🔴 Body signal = prediction-delta (Hardware-Signal + Evaluative-Signal) — §1.2
-      → Consistent với Body-Feedback-Label v2.1 3-tier + PFC-Label v1.0
-      → Nhưng: mapping cụ thể (trẻ 0-6 chủ yếu Tier 1-2) = framework estimate
+      → Consistent with Body-Feedback-Label v2.1 3-tier + PFC-Label v1.0
+      → But: specific mapping (children 0–6 primarily Tier 1–2) = framework estimate
 
 
-⭐ RỦI RO:
+⭐ RISKS:
 
-  ⚠️ BỐ MẸ TRÌ HOÃN QUÁ LÂU:
-     → Đọc file → "phải đợi interest!" → đợi MÃI → miss sensitive period
-     → Fix: EXPOSURE (bước 1) nên bắt đầu SỚM và ĐA DẠNG
-       → Đợi interest ≠ đợi không làm gì → đợi = ĐANG EXPOSE
+  ⚠️ PARENTS WAITING TOO LONG:
+     → Read file → "must wait for interest!" → wait FOREVER → miss sensitive period
+     → Fix: EXPOSURE (step 1) should begin EARLY and be DIVERSE
+       → Waiting for interest ≠ doing nothing → waiting = ALREADY EXPOSING
 
-  ⚠️ BỐ MẸ LO LẮNG THÊM:
-     → "Trời ơi tôi đã skip bước 1-3 cho piano!"
-     → Fix: bắt đầu TỪ BÂY GIỜ, quay lại bước phù hợp → chưa muộn
-     → Reconsolidation window (Nader 2000): avoidance tag CÓ THỂ update
-       nếu re-activate + new body state (→ Mechanism §3)
+  ⚠️ PARENTS BECOMING MORE ANXIOUS:
+     → "Oh my goodness, I skipped steps 1–3 for piano!"
+     → Fix: start FROM NOW, go back to the right step → not too late
+     → Reconsolidation window (Nader 2000): avoidance tag CAN be updated
+       if re-activated + new body state (→ Mechanism §3)
 
-  ⚠️ ÁP DỤNG CỨNG NHẮC:
-     → "File nói 5 phút/ngày → PHẢI 5 phút!" → mất tinh thần per-child adjust
-     → Fix: mọi con số = GUIDELINE, mỗi trẻ KHÁC → OBSERVE + ADJUST
+  ⚠️ RIGID APPLICATION:
+     → "The file says 5 minutes/day → MUST be exactly 5 minutes!"
+       → loses spirit of per-child adjustment
+     → Fix: all numbers = GUIDELINES, each child is DIFFERENT → OBSERVE + ADJUST
 
-  ⚠️ THIÊN KIẾN VĂN HÓA:
-     → Research gốc đa số Western → VN context: gia đình mở rộng, điều kiện khác
-     → "Follow the child" CÓ THỂ conflict với: ông bà kỳ vọng, áp lực xã hội
-     → File = framework → bố mẹ FILTER per-context, không áp dụng mù quáng
+  ⚠️ CULTURAL BIAS:
+     → Source research mostly Western → different contexts: extended family,
+       different economic conditions, "strictness = love" perspective
+     → "Follow the child" MAY conflict with: grandparents' expectations,
+       social pressure
+     → File = framework → parents FILTER per-context, don't apply blindly
 
   ⚠️ OVER-INTERPRETING TAGS:
-     → "Mọi trải nghiệm tiêu cực = avoidance tag suốt đời!" → quá đơn giản
-     → Fix: tag = probability, không binary. Nhiều yếu tố: intensity, repetition,
-       reconsolidation, context. 1 buổi khó chịu ≠ avoidance suốt đời
-     → Nhưng: PATTERN lặp lại (nhiều buổi threat) = tag MẠNH dần
+     → "Every negative experience = lifelong avoidance tag!" → oversimplified
+     → Fix: tag = probability, not binary. Many factors: intensity, repetition,
+       reconsolidation, context. 1 unpleasant session ≠ lifelong avoidance
+     → But: REPEATED PATTERN (many threatening sessions) = tag STRENGTHENS
 ```
 
 ---
 
-## §10 — CÂU HỎI MỞ
+## §10 — OPEN QUESTIONS
 
 ```
-① Transfer effects: piano có THẬT SỰ giúp toán không?
-   → Nghiên cứu: mixed results → một số thấy spatial reasoning tăng nhẹ
-   → Nhưng: effect size NHỎ + nhiều confounds (gia đình cho học piano = cũng invest vào toán)
-   → Framework: piano CHẮC CHẮN build motor + auditory + discipline
-   → Transfer sang toán? CÓ THỂ (shared brain areas) → nhưng chưa confirmed mạnh
+① Transfer effects: does piano REALLY help with math?
+   → Research: mixed results → some show slight spatial reasoning increase
+   → But: effect size SMALL + many confounds (family that enrolls in piano
+     also invests in math)
+   → Framework: piano CERTAINLY builds motor + auditory + discipline
+   → Transfer to math? POSSIBLE (shared brain areas) → but not strongly confirmed
 
-② Talent vs Practice: bao nhiêu là bẩm sinh?
+② Talent vs Practice: how much is innate?
    → "10,000 hours rule" (Ericsson) vs "innate talent" debate
-   → Reality: CẢ HAI matter → hardware sets RANGE + practice determines WHERE in range
-   → Trẻ hardware match → ít practice → vẫn giỏi (relative to effort)
-   → Trẻ hardware mismatch → nhiều practice → vẫn struggle (relative to effort)
-   → = Tìm hardware match > ép practice trên hardware mismatch
+   → Reality: BOTH matter → hardware sets RANGE + practice determines WHERE in range
+   → Child hardware match → less practice → still excellent (relative to effort)
+   → Child hardware mismatch → more practice → still struggles (relative to effort)
+   → = Find hardware match > force practice on hardware mismatch
 
-③ Digital skills: khi nào giới thiệu coding, digital literacy?
-   → Unplugged coding concepts: ~4-6 tuổi (§5.5 ④)
-   → Actual coding: ~7-8+ (đọc được + abstract thinking đủ)
-   → Digital literacy (sử dụng device có ý thức): ~6-8
-   → Typing: ~7-8 (finger independence needed → sau fine motor development)
-   → → Screen-based skills = SAU, không phải 0-6 priority
+③ Digital skills: when to introduce coding, digital literacy?
+   → Unplugged coding concepts: ~4–6 years (§5.5 ④)
+   → Actual coding: ~7–8+ (can read + abstract thinking sufficient)
+   → Digital literacy (using devices consciously): ~6–8
+   → Typing: ~7–8 (finger independence needed → after fine motor development)
+   → → Screen-based skills = LATER, not 0–6 priority
 
-④ Competition: khi nào giới thiệu yếu tố thi đua?
-   → Trước ~6: trẻ chưa fully handle winning/losing → competition = often frustrating
-   → 6-8: bắt đầu hiểu fair competition + graceful losing (nếu được practice qua board games)
-   → Early competition (3-5): risk → schema "skill = must win = threat"
-   → → Fun games WITH losing practice (board games) > formal competition ở tuổi nhỏ
+④ Competition: when to introduce competitive elements?
+   → Before ~6: children can't fully handle winning/losing → competition = often frustrating
+   → 6–8: beginning to understand fair competition + graceful losing
+     (if practiced through board games)
+   → Early competition (3–5): risk → schema "skill = must win = threat"
+   → → Fun games WITH losing practice (board games) > formal competition at young age
 
-⑤ Gender: nên differentiate approach theo giới tính không?
+⑤ Gender: should approach be differentiated by gender?
    → Brain differences: subtle, MUCH overlap between genders
-   → Cultural expectations: "con trai = sport, con gái = piano" → BIAS, not biology
+   → Cultural expectations: "boys = sport, girls = piano" → BIAS, not biology
    → Framework: follow BODY SIGNAL per-child → not per-gender
-   → → Expose ALL skills to ALL children → body signal sẽ tự filter
+   → → Expose ALL skills to ALL children → body signal will self-filter
 
-⑥ Gifted children: approach khác không?
-   → "Gifted" = hardware advantage ở 1 số domain (faster processing, deeper pattern recognition)
-   → Risk: ép quá NHIỀU vì "con giỏi → phải tận dụng" → burnout
-   → Risk: skip social/emotional development → "giỏi nhưng cô đơn"
-   → Framework: VẪN 4 bước → nhưng mỗi bước CÓ THỂ NHANH hơn
-   → Và: social skills + emotional skills VẪN cần → đừng sacrifice cho academic
+⑥ Gifted children: different approach?
+   → "Gifted" = hardware advantage in some domains (faster processing, deeper pattern recognition)
+   → Risk: push TOO MUCH because "child is talented → must capitalize on it" → burnout
+   → Risk: skip social/emotional development → "talented but lonely"
+   → Framework: STILL 4 steps → but each step CAN BE FASTER
+   → And: social skills + emotional skills STILL NEEDED → don't sacrifice for academics
 
-⑦ Failure & Resilience: nên cho trẻ THẤT BẠI bao nhiêu?
-   → Quá ít thất bại: không build resilience, sốc khi gặp sau
-   → Quá nhiều thất bại: learned helplessness, "tôi luôn thua"
-   → Goldilocks: "challenge vừa đủ khó → thất bại THỈNH THOẢNG → recovery → learn"
+⑦ Failure & Resilience: how much should children FAIL?
+   → Too little failure: doesn't build resilience, shock when encountering it later
+   → Too much failure: learned helplessness, "I always lose"
+   → Goldilocks: "challenge just hard enough → OCCASIONAL failure → recovery → learn"
    → = Arc design (Education-Bridge §5.5) → calibrate difficulty per-child
 ```
 
@@ -2379,62 +2472,75 @@ KHI THẤY WARNING SIGNS:
 ## §11 — CROSS-REFERENCES
 
 ```
-TRONG BỘ CHILD-DEVELOPMENT (Research/Human-Learning/Child-Development/):
+WITHIN THE CHILD-DEVELOPMENT SET (Research/Human-Learning/Child-Development/):
 
-→ Child-Development-Mechanism.md v2.3 — KHUNG NGUYÊN LÝ v7.8 [UPDATED v2.3]
+→ Child-Development-Mechanism.md v2.3 — PRINCIPLE FRAMEWORK v7.8 [UPDATED v2.3]
    §1: PFC Reframe (hardware online, chunks missing)
    §2: Compile Architecture (1E+3M) + Multi-Stream §2.6 + Critical Asymmetry §3.2b
-   §3: ⭐ Approach/Avoidance Tag × Parenting (Structural/Current valence, Mixed Valence)
-   §4: Chunk Dynamics + §4.4 Connection v5.0 (Entity-Compiled, Bond-Architecture, Hardware-Subsidy)
+   §3: ⭐ Approach/Avoidance Tag × Parenting
+   §4: Chunk Dynamics + §4.4 Connection v5.0 (Entity-Compiled, Bond-Architecture,
+       Hardware-Subsidy)
    §5: Feeling Development (Body-Feedback-Label 3-tier, prediction-delta)
    §7: Autonomy (efference copy → meta-chunk, PFC Budget)
-   §8: Cortisol Baseline × Phát Triển (Dissonance-Signal-Architecture: amplifier, không tạo)
+   §8: Cortisol Baseline × Development (Dissonance-Signal-Architecture: amplifier, not cause)
    §9: Imagine-Final v3.0 (hardware prediction ≠ Imagine-Final, Simulation-Engine)
 
-→ Natural-Development.md v2.3 — NỀN TẢNG (prerequisite) [UPDATED v2.3]
-   §2: Hành vi tự nhiên (Dissonance-Signal-Architecture, Simulation-Engine, Self-Pattern-Modeling v3.1)
-   §4: Timeline (Entity-Compiled, Dissonance-Signal-Architecture, Gap-Direction, Phantom, 4-Layer)
-   §7: Qua lens framework v7.8 (Valence-Propagation v3.0, Connection v5.0, Imagine-Final v3.0, Body-Feedback-Label)
+→ Natural-Development.md v2.3 — FOUNDATION (prerequisite) [UPDATED v2.3]
+   §2: Natural behaviors (Dissonance-Signal-Architecture, Simulation-Engine,
+       Self-Pattern-Modeling v3.1)
+   §4: Timeline (Entity-Compiled, Dissonance-Signal-Architecture, Gap-Direction,
+       Phantom, 4-Layer)
+   §7: Through the framework lens (Valence-Propagation v3.0, Connection v5.0,
+       Imagine-Final v3.0, Body-Feedback-Label)
 
-→ Mother-Optimization.md — TRƯỚC sinh (hardware con từ mẹ)
+→ Mother-Optimization.md — BEFORE birth (child's hardware from the mother)
 
 
-TRONG CORE-DEEP-DIVE/ — CORE:
+WITHIN CORE-DEEP-DIVE/ — CORE:
 
 → Core-Software.md v2.0 — Cycle architecture, observation parameters
 → Body-Base/Chunk/Chunk.md v2.2 — Chunk substrate, compile, context-tag, lifecycle
-→ Body-Base/Chunk/Compile-Taxonomy.md v3.0 — Compile Architecture (1E+3M), Multi-Stream, Critical Asymmetry [NEW v2.2]
+→ Body-Base/Chunk/Compile-Taxonomy.md v3.0 — Compile Architecture (1E+3M),
+   Multi-Stream, Critical Asymmetry [NEW v2.2]
 → Body-Base/Chunk/Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms) [NEW v2.2]
 → Compiled-Fresh.md v2.0 — Compiled/Fresh processing spectrum [NEW v2.1]
 
 
-TRONG CORE-DEEP-DIVE/ — BODY-BASE:
+WITHIN CORE-DEEP-DIVE/ — BODY-BASE:
 
 → Body-Base/Body-Feedback/Body-Feedback-Mechanism.md v2.0 — 2 sources × 3 dynamics
-→ Body-Base/Body-Feedback/Body-Feedback-Label.md v2.1 — 3-tier labels, prediction-delta [NEW v2.1]
-→ Body-Base/Body-Feedback/Gap-Direction.md v2.0 — gap direction = f(surrounding chunks) [NEW v2.1]
-→ Body-Base/Body-Feedback/Gap-Distribution-Profile.md v1.1 — per-person gap landscape [NEW v2.1]
-→ Body-Base/Body-Feedback/Gap-Body-Need.md v1.0 — 3 Satiation Types, per-gap dynamics [NEW v2.1]
-→ Body-Base/Valence-Propagation.md v3.0 — Structural/Current, 3 Firing Modes, Mixed Valence [NEW v2.1]
+→ Body-Base/Body-Feedback/Body-Feedback-Label.md v2.1 — 3-tier labels, prediction-delta
+   [NEW v2.1]
+→ Body-Base/Body-Feedback/Gap-Direction.md v2.0 — gap direction = f(surrounding chunks)
+   [NEW v2.1]
+→ Body-Base/Body-Feedback/Gap-Distribution-Profile.md v1.1 — per-person gap landscape
+   [NEW v2.1]
+→ Body-Base/Body-Feedback/Gap-Body-Need.md v1.0 — 3 Satiation Types, per-gap dynamics
+   [NEW v2.1]
+→ Body-Base/Valence-Propagation.md v3.0 — Structural/Current, 3 Firing Modes,
+   Mixed Valence [NEW v2.1]
 → Body-Base/Cortisol-Baseline.md v2.0 — Amplifier reframe, direction > level
-→ Body-Base/Trust.md v1.0 — Trust = compiled prediction, 3 sub-dimensions, amplifier [NEW v2.3]
+→ Body-Base/Trust.md v1.0 — Trust = compiled prediction, 3 sub-dimensions, amplifier
+   [NEW v2.3]
 → Body-Base/Feeling/Feeling.md v2.2 — PFC observation of body-feedback
 → Body-Base/Melody-Lens/Personal-Melody.md v2.0 — Passion development, melody-arc
 → Body-Base/Melody-Lens/Melody-Arc.md v2.0 — Arc trajectory per-person
 
 
-TRONG CORE-DEEP-DIVE/ — PFC:
+WITHIN CORE-DEEP-DIVE/ — PFC:
 
 → PFC/PFC-Label.md v1.0 — PFC label = observation, not creation [NEW v2.1]
 → PFC/Simulation-Engine.md v1.0 — 3 Components, constructive simulation [NEW v2.1]
 → PFC/Imagination/Imagine-Final.md v3.0 — hardware prediction ≠ Imagine-Final
 → PFC/Attention-Spectrum.md — DRD4 spectrum → §7.1 per-hardware adjustment
-→ PFC/Self-Observation.md v1.0 — APPLICATION-3, Gradient Mức 0-6, Caregiver ON/OFF [NEW v2.3]
+→ PFC/Self-Observation.md v1.0 — APPLICATION-3, Gradient Level 0–6, Caregiver ON/OFF
+   [NEW v2.3]
 
 
-TRONG CORE-DEEP-DIVE/ — OBSERVATION:
+WITHIN CORE-DEEP-DIVE/ — OBSERVATION PARAMETERS:
 
-→ Connection.md v5.0 — Hardware-Subsidy, Bond-Architecture, 4-Layer, Resonance Decline [UPDATED v2.1]
+→ Connection.md v5.0 — Hardware-Subsidy, Bond-Architecture, 4-Layer, Resonance Decline
+   [UPDATED v2.1]
 → Empathy.md v4.0 — Self-Pattern-Modeling, compiled quality
 → Autonomy-Software.md — Efference copy, meta-chunk
 → Boredom.md v2.0 — Source ⑥, Resonance Decline, unified formula
@@ -2442,28 +2548,28 @@ TRONG CORE-DEEP-DIVE/ — OBSERVATION:
 → Status.md v2.0 — Mastery → status → identity
 
 
-TRONG CORE-DEEP-DIVE/ — AGENT-MECHANISM:
+WITHIN CORE-DEEP-DIVE/ — AGENT-MECHANISM:
 
 → Agent-Mechanism/Self-Pattern-Modeling.md v3.1 — Match→Modeling rename [NEW v2.1]
-→ Agent-Mechanism/Entity-Compiled.md v1.0 — Hub-and-Spoke, formation 40→200h [NEW v2.1]
+→ Agent-Mechanism/Entity-Compiled.md v1.0 — Hub-and-Spoke, formation [NEW v2.1]
 → Agent-Mechanism/By-Product-Gap-Resonance.md v1.4 — by-product match [NEW v2.1]
 → Agent-Mechanism/Resonance-Per-Entity.md v1.0 — per-entity dynamics [NEW v2.1]
 → Agent-Mechanism/Bond-Architecture.md v2.0 — 4 bond types [NEW v2.1]
 
 
-TRONG CORE-DEEP-DIVE/ — COLLECTIVE:
+WITHIN CORE-DEEP-DIVE/ — COLLECTIVE:
 
-→ Collective/Coordination-Node.md v1.2 — Mẹ = first node [NEW v2.1]
+→ Collective/Coordination-Node.md v1.2 — Mother = first node [NEW v2.1]
 → Collective/Resonance-Sustainability.md v1.0 — 4-Layer Sustainability [NEW v2.1]
 
 
-TRONG CORE-DEEP-DIVE/ — OTHER:
+WITHIN CORE-DEEP-DIVE/ — OTHER:
 
 → Background-Pattern.md v2.0 — Triple Bias, Pattern Shiftability [NEW v2.1]
 → Dissonance-Signal-Architecture.md v1.0 — cortisol amplifies dissonance [NEW v2.1]
 
 
-TRONG EDUCATION-MECHANISM/ (Research/Human-Learning/Education-Mechanism/):
+WITHIN EDUCATION-MECHANISM/ (Research/Human-Learning/Education-Mechanism/):
 
 → Education-Bridge.md — Motivation mechanism + Arc Design
    §5.5: Arc Design (calibrate difficulty per-child)
@@ -2473,13 +2579,13 @@ TRONG EDUCATION-MECHANISM/ (Research/Human-Learning/Education-Mechanism/):
 
 ---
 
-> *Skill Introduction v2.3 — "EXPOSURE trước, TRAINING sau. Body signal quyết định,
-> không phải lịch của bố mẹ. Mỗi kỹ năng = 4 bước: Phơi nhiễm → Hứng thú →
-> Chơi có hướng dẫn → Học có cấu trúc. Mỗi bước = cơ hội tag APPROACH.
-> Skip bước = risk tag AVOIDANCE — gắn vào chunk, tồn tại suốt đời.
-> Trust = AMPLIFIER cho VALUE stream — love the teacher → learn the lesson.
-> Self-Observation Mức = readiness indicator — Mức 2: trẻ CAN report body state.
-> Mỗi trẻ hardware KHÁC → adjust. Trust per-entity per-child."*
+> *Skill Introduction v2.3 — "EXPOSURE first, TRAINING second. Body signal decides,
+> not the parent's schedule. Every skill = 4 steps: Exposure → Interest →
+> Guided Play → Structured Learning. Each step = opportunity for an APPROACH tag.
+> Skip steps = risk AVOIDANCE tag — attaches to chunks, persists for life.
+> Trust = AMPLIFIER for the VALUE stream — love the teacher → learn the lesson.
+> Self-Observation Level = readiness indicator — Level 2: child CAN report body state.
+> Each child has DIFFERENT hardware → adjust. Trust per-entity per-child."*
 
 ---
 
@@ -2487,61 +2593,14 @@ TRONG EDUCATION-MECHANISM/ (Research/Human-Learning/Education-Mechanism/):
 
 ```
 v2.3 (2026-06-03):
-  - §1.2: +Self-Observation Mức × Readiness (~25L): Mức 1/2/3 as readiness indicator.
-    Caregiver ON/OFF during practice. External Scaffold per-Mức.
-  - §1.7 NEW: Trust × Instructor = VALUE stream amplifier (~30L)
-    Trust = amplifier not gate. First weeks = build trust. 3 sub-dimensions per instructor.
-    "Love the teacher → learn the lesson." CHỌN thầy trẻ THÍCH > thầy giỏi nhất.
-  - §7.5 NEW: Trust Per-Entity × Hardware (~20L)
+  - §1.2: +Self-Observation Level × Readiness (~25 lines):
+    Level 1/2/3 as readiness indicator.
+    Caregiver ON/OFF during practice. External Scaffold per-Level.
+  - §1.7 NEW: Trust × Instructor = VALUE stream amplifier (~30 lines)
+    Trust = amplifier not gate. First weeks = build trust.
+    3 sub-dimensions per instructor.
+    "Love the teacher → learn the lesson."
+    Choose teacher child LIKES > most qualified teacher.
+  - §7.5 NEW: Trust Per-Entity × Hardware (~20 lines)
     Trust varies per-child × per-instructor. Trust DEFAULT for new teacher.
-    Trust collapse asymmetry: build slow, collapse fast.
-  - Header: +Trust.md v1.0, +Self-Observation.md v1.0
-  - Mechanism v2.2→v2.3, Natural-Dev v2.2→v2.3
-  - §11: +Trust.md, +Self-Observation.md cross-refs
-  Source: Trust.md v1.0 + Self-Observation.md v1.0
-
-v2.2 (2026-06-01):
-  - §1.6 NEW: Trust vs Experience Compile × 4-step mapping (~30L)
-    Experience DẪN TRƯỚC Trust. 4 bước = ensure VALUE approach TRƯỚC content.
-  - §2: +Multi-Stream × 4 bước (~35L): Value/Content/Entity/Behavior per step
-    Skip bước 1-3 → "giỏi nhưng ghét" = Content ✓ Value ✗
-  - §2.5: +Multi-Stream lens cho Withdrawal (~20L): 3 dạng "muốn dừng" phân biệt
-    a) Value avoidance b) Content satiation c) Habituation → 3 cách xử lý
-  - §2.7 NEW: Critical Asymmetry × Skill Introduction (~30L)
-    Entity-Valence path (sống mẫu) > PFC path (giải thích). Compound effect.
-  - Terminology: "4+1 Channel Compile" → "Compile Architecture" (3 replacements)
-  - Header: +CT v3.0, +CS v1.0, Mechanism v2.0→v2.2, Natural-Dev v2.1→v2.2
-  - §11: +CT v3.0, +CS v1.0 cross-refs, version updates
-  Source: Compile-Taxonomy.md v3.0 + Compile-Sleep.md v1.0
-
-v2.1 (2026-05-25):
-  - §0.3: Body-Feedback-Label 3-tier (Hardware-Signal / Evaluative-Signal / Integration-Signal)
-          replace "feeling layer 1-2". +prediction-delta vocabulary.
-  - §1.1: +Gap-Direction (readiness = gap hướng toward skill)
-  - §1.2: +prediction-delta, +Dissonance-Signal-Architecture (signal bị ignore)
-  - §1.3: +Simulation-Engine (3 components, Imagine-Final CẦN Simulation-Engine)
-  - §1.4: +Compiled/Fresh (deep=Fresh→Compiled), +3 Firing Modes (deep=Generative)
-  - §1.5: +Hardware-Subsidy (process-focused, bố mẹ cùng = anti-habituation)
-  - §2: +Valence Dynamics (Current→Structural per 4 bước)
-  - §2.3: +Hardware-Subsidy (bố mẹ cùng = lâu chán hơn)
-  - §2.5: +Habituation Satiation (VTA hết fire, khác Gap-Fill)
-  - §2.6: +Background-Pattern Triple Bias + Pattern Shiftability
-  - §3.2: "body-base schema" → compiled chunk cluster
-  - §5.4: "implicit/explicit" → Compiled/Fresh processing
-  - §7: +Gap-Distribution-Profile (per-child gap landscape)
-  - §7.2: +Compiled processing note (somatic = Compiled qua body)
-  - §7.3: +PFC Budget (HSC hết nhanh), +Dissonance-Signal-Architecture (HSC amplify)
-  - §7.4: +Compiled/Fresh (cautious = Fresh-dominant)
-  - §8.2: +Resonance Decline burnout, +4-Layer Sustainability, +Cortisol precision
-  - §9: "Feeling layer 1-2" → "prediction-delta + Body-Feedback-Label 3-tier"
-  - §11: reorganized, +18 new files, updated versions + paths
-  - Header: deps 11→22, position paths fixed, version 2.0→2.1
-
-v2.0 (2026-04-21):
-  - REWRITE từ v1.0 (v7.5 → v7.8 lens)
-  - Approach/avoidance tags, chunk dynamics, cortisol direction
-  - 4-step framework, per-hardware calibration, honest assessment
-
-v1.0 (2026-04-01):
-  - Initial version, v7.5 lens
 ```

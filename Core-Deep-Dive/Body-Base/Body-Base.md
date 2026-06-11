@@ -1,43 +1,25 @@
 ---
-title: Body-Base — Entry Point cho Toàn Bộ Body-Base System
+title: "Body-Base — Entry Point for the Entire Body-Base System"
 version: 4.0
 created: 2026-04-14 (v1.0 BASIC — Phase C)
 rewritten: 2026-05-16 (v3.0 — Phase 4 ALL REWRITE)
 refined: 2026-05-17 (v3.1), 2026-05-23 (v3.2), 2026-05-25 (v3.3), 2026-06-01 (v3.4)
-rewritten: 2026-06-02 (v4.0 — tích hợp 4 file nền tảng mới: Compile-Taxonomy v3.0, Compile-Sleep v1.0, Trust v1.0, Self-Observation v1.0. §3 Trust REWRITE, §4.2 Compile 1-Engine REWRITE, §0 rút gọn, §9 reduce, versions synced)
-previous: backup/Body-Base-v3.4-backup.md
+rewritten: 2026-06-02 (v4.0 — integrates 4 new foundation files: Compile-Taxonomy v3.0, Compile-Sleep v1.0, Trust v1.0, Self-Observation v1.0. §3 Trust REWRITE, §4.2 Compile 1-Engine REWRITE, §0 condensed, §9 reduced, versions synced)
 status: v4.0 REFERENCE FILE
 scope: |
-  ENTRY POINT cho toàn bộ Body-Base/ folder (~70+ files).
-  Body-Base LÀ GÌ + 3 Hardware Foundations + Compilable Architecture +
+  ENTRY POINT for the entire Body-Base/ folder (~70+ files).
+  Body-Base DEFINED + 3 Hardware Foundations + Compilable Architecture +
   Core Principles + Unified Model 3+1 + L0-L1 Substrate +
   Body Compile + Compiled/Fresh Axis + Body-Need 2-Source +
   3-Layer Evolution + 2-Tier Calibration + Circuit Breaker +
   Body-Feedback Overview.
-  v3.0 KEY CHANGES: 3 Hardware Foundations, Body-Need 2-source, Compiled/Fresh axis,
-    3-Layer Evolution, PFC Operators reframe, cross-refs updated.
-  v3.1-v3.4: Concept Cascade (~15 new files), Dissonance-Signal-Architecture,
-    Agent-Mechanism 11 files, Body-Feedback 17 files, version sync.
-    Chi tiết: backup/Body-Base-v3.4-backup.md
-  v4.0 KEY CHANGES (tích hợp 4 file nền tảng mới):
-    ① §3 Trust REWRITE: +definition, +3 sub-dimensions, +3 functions, +dynamics, +formation
-    ② §4.2 Compile REWRITE: 1 Engine + 3 Modulator Configurations (Compile-Taxonomy v3.0)
-    ③ §3 PFC: +Self-Observation = APPLICATION-3, keystone, Mức 0-6
-    ④ §0 RESTRUCTURE: flow diagram rút gọn (~50→30 dòng)
-    ⑤ §9 REDUCE: Body-Feedback overview rút gọn (pointer to Body-Feedback.md v3.1)
-    ⑥ §7: +Trust mechanism detail (4 nguồn formation, Compile-Taxonomy v3.0)
-    ⑦ Versions synced: Simulation-Engine v1.2, PFC-Operations v1.3, Self-Pattern-Modeling v3.2, Entity-Valence-Dynamics v1.1, PFC-Label v1.1
-    ⑧ +2 deps: Self-Observation.md v1.0, Attention-Spectrum.md v2.1
-    ⑨ Changelog trimmed (v1.0-v3.3 details → backup)
 purpose: |
-  Người đọc NÊN ĐỌC FILE NÀY TRƯỚC khi đi vào bất kỳ sub-file nào.
-  File này consolidate, KHÔNG duplicate — detail ở sub-files.
-  Foundation layer cho TOÀN BỘ framework.
-previous_version: backup/Body-Base-v2.1-backup.md
-parent: Core-Deep-Dive/ (foundation file)
+  Readers SHOULD read this file BEFORE entering any sub-file.
+  This file consolidates — it does NOT duplicate. Details live in sub-files.
+  Foundation layer for the ENTIRE framework.
 dependencies:
   - Why-Body-Knows.md v1.2 — 2-tier + 2-pathway calibration, coherence ≠ truth, Simulation-Engine
-  - Body-Feedback/Body-Feedback.md v3.1 — Dual-Pull, Body-Feedback-Precondition, Interface Loop, 17 files synthesis
+  - Body-Feedback/Body-Feedback.md v3.1 — Dual-Pull, Body-Feedback-Precondition, Interface Loop, 17-file synthesis
   - Body-Feedback/01-Foundation.md — body-feedback vs feeling 2-layer
   - Body-Feedback/Body-Feedback-Mechanism.md v2.1 — chunk dynamics, Body-Need aggregate
   - Body-Feedback/Gap-Body-Need.md v1.0 — 3 satiation types, ENGINE/ROAD/VEHICLE, entity-gap matching
@@ -49,15 +31,15 @@ dependencies:
   - Chunk/Chunk.md v3.0 — sole substrate, 4-phase lifecycle, Compile Architecture
   - Chunk/Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 3 Compile Types
   - Chunk/Compile-Sleep.md v1.0 — Sleep Maintenance, 6 mechanisms, offline system
-  - Valence-Propagation.md v4.1 — valence definition, formation, propagation qua schema chain
-  - Entity-Valence-Dynamics.md v1.1 — per-entity dynamics: structural/current, 3 firing modes, hardware-subsidy
-  - Body-Coupling.md v3.0 — coupling mechanism, 4 bond types, hardware-subsidy, Resonance Decline
+  - Valence-Propagation.md v4.1 — valence definition, formation, propagation via schema chain
+  - Entity-Valence-Dynamics.md v1.1 — per-entity dynamics: structural/current, 3 firing modes, Hardware-Subsidy
+  - Body-Coupling.md v3.0 — coupling mechanism, 4 bond types, Hardware-Subsidy, Resonance Decline
   - Cortisol-Baseline.md v2.1 — amplifier, direction > level
   - PFC/PFC-Function.md — 24 functions, 95/5 split
   - PFC/Simulation-Engine.md v1.2 — 1 engine, 3 components, 3 axes, N applications
   - PFC/PFC-Operations.md v1.3 — Hold/Suppress, Budget, Compiled Quality
   - PFC/PFC-Label.md v1.1 — vocabulary reference, 13 domains, 3-tier labels
-  - PFC/Self-Observation.md v1.0 — APPLICATION-3, Mức 0-6, Keystone, Tool Not Virtue
+  - PFC/Self-Observation.md v1.0 — APPLICATION-3, Level 0-6, Keystone, Tool Not Virtue
   - Attention-Spectrum.md v2.1 — attention hardware, COMT/DRD4
   - Neural-Architecture.md — A/B/C/D 4-zone physical map
   - Inter-Body-Mechanism.md v2.0 — 8 drill principles, Compilable Architecture
@@ -65,94 +47,95 @@ dependencies:
   - Body-Feedback/Body-Feedback-Label.md v2.1 — vocabulary reference
   - Chunk/Agent-Mechanism/Self-Pattern-Modeling.md v3.2 — solo simulation, 1 mechanism × 3 dimensions
   - Chunk/Agent-Mechanism/Entity-Compiled.md v1.0 — neural reality, formation 40→200h, Dunbar
-  - Chunk/Agent-Mechanism/Entity-Access.md v1.2 — gradient model, Mức 0-5, per-entity
+  - Chunk/Agent-Mechanism/Entity-Access.md v1.2 — gradient model, Level 0-5, per-entity
   - Chunk/Agent-Mechanism/Bond-Architecture.md v2.0 — 1 mechanism × 4 bond types, Resonance Decline
   - Chunk/Agent-Mechanism/By-Product-Gap-Resonance.md v1.4 — mutual match, 5 drills
   - Chunk/Agent-Mechanism/Resonance-Sustainability.md v1.0 — 4-layer, 3 conditions, 3 modalities
   - Chunk/Agent-Mechanism/By-Product-Scale.md v1.0 — 1 mechanism × 3 scales
-  - Chunk/Agent-Mechanism/Resonance-Per-Entity.md v1.0 — per-relationship, hardware-subsidy spectrum
+  - Chunk/Agent-Mechanism/Resonance-Per-Entity.md v1.0 — per-relationship, Hardware-Subsidy spectrum
   - Chunk/Agent-Mechanism/Entity-Access-Excess.md v1.0 — excess territory, addiction
-  - Chunk/Agent-Mechanism/Entity-Access-Calibration.md v1.0 — self-regulation, hardware-subsidy
-language: Tiếng Việt primary + English technical terms
+  - Chunk/Agent-Mechanism/Entity-Access-Calibration.md v1.0 — self-regulation, Hardware-Subsidy
+language: English translation of Vietnamese source (v4.0)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+source: Core-Deep-Dive/Body-Base/Body-Base.md (Vietnamese)
 ---
 
-# Body-Base — Entry Point cho Toàn Bộ Body-Base System
+# Body-Base — Entry Point for the Entire Body-Base System
 
-> **Bạn khát nước → body thiếu hydration.**
-> **Bạn cô đơn dù xung quanh đầy người lạ → body thiếu agent depth.**
-> **Bạn nghe bài nhạc MỚI → body biết "hay" TRƯỚC PFC.**
-> **Bạn bị phản bội → valence flip NGAY dù PFC chưa kịp phân tích.**
-> **Bạn "cho đi vô tư" → compiled patterns (trust, coupling, norms) fire tự động — body CÓ lý do, PFC chỉ thấy "vô tư".**
+> **You're thirsty → your body lacks hydration.**
+> **You feel lonely even surrounded by people → your body lacks agent depth.**
+> **You hear a NEW piece of music → your body knows "this is good" BEFORE the PFC does.**
+> **You're betrayed → valence flips IMMEDIATELY, before the PFC has time to analyze.**
+> **You "give freely without thinking" → compiled patterns (trust, coupling, norms) fire automatically — the body HAS its reasons; the PFC just sees "spontaneous generosity."**
 >
-> Tất cả đều là **body-base** — hệ thống nền tảng mà MỌI THỨ trong framework
-> chạy trên đó. Body phản ứng trước. PFC observe sau. Thứ tự KHÔNG bao giờ đảo ngược.
+> All of this is **body-base** — the foundational system that EVERYTHING in the framework
+> runs on top of. The body reacts first. The PFC observes afterward. This order NEVER reverses.
 >
 > **Core principles (v3.0):**
 > Body evaluates PATTERNS, not reality.
 > PFC = director. Body = compiler.
-> Trust = bridge duy nhất cho complexity vượt 4±1.
+> Trust = the only bridge for complexity beyond 4±1.
 > External tools = capacity multiplier ×∞.
 > 3 Hardware Foundations → Compilable Architecture (general-purpose adaptive).
 >
-> **"Con người cần FEEL đúng → AI sẽ giúp PLAN đúng."**
+> **"Humans need to FEEL correctly → AI will help PLAN correctly."**
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ TRONG FRAMEWORK
-- §1 — BODY-BASE LÀ GÌ
+- §0 — POSITION IN THE FRAMEWORK
+- §1 — WHAT BODY-BASE IS
 - §2 — CORE PRINCIPLE: Body Evaluates Patterns, Not Reality
 - §3 — UNIFIED MODEL: 3 Components + 1 Bridge
 - §4 — BODY COMPILE + COMPILED/FRESH AXIS
 - §5 — L0-L1 SUBSTRATE
 - §6 — 3-LAYER EVOLUTION
-- §7 — 2-TIER CALIBRATION (2 cơ chế + 2 đường vào)
+- §7 — 2-TIER CALIBRATION (2 mechanisms + 2 pathways)
 - §8 — CIRCUIT BREAKER MECHANISM
 - §9 — BODY-FEEDBACK OVERVIEW
-- §10 — READING GUIDE CHO BODY-BASE/ FOLDER
+- §10 — READING GUIDE FOR BODY-BASE/ FOLDER
 - §11 — HONEST ASSESSMENT
 - §12 — CROSS-REFERENCES
 
 ---
 
-## §0 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — POSITION IN THE FRAMEWORK
 
 ```
-⭐ BODY-BASE = FOUNDATION LAYER CỦA TOÀN BỘ FRAMEWORK:
+⭐ BODY-BASE = FOUNDATION LAYER OF THE ENTIRE FRAMEWORK:
 
-  Mọi thứ build trên body-base:
-    → Chunks compile TRÊN body-base substrate
-    → Feelings emerge TỪ body-chunk interaction
-    → Drives operate TRÊN body-base signals
-    → Schemas serve BODY-BASE (không phải ngược lại)
-    → PFC observes BODY-BASE output (không feel trực tiếp)
+  Everything builds on body-base:
+    → Chunks compile ON TOP OF the body-base substrate
+    → Feelings emerge FROM body-chunk interaction
+    → Drives operate ON body-base signals
+    → Schemas SERVE body-base (not the reverse)
+    → PFC observes body-base OUTPUT (does not feel directly)
 
   Conceptual layer stack:
-    [PFC OBSERVATION]       ← Feeling (PFC observe body-chunk interaction)
+    [PFC OBSERVATION]       ← Feeling (PFC observes body-chunk interaction)
     [SCHEMAS, CHUNKS]       ← Compiled patterns (sole substrate)
     [L1 BODY-INPUTS]        ← Body-Base substrate (17 sub-categories)
     [L0 ALIVE THRESHOLD]    ← Survival floor (binary)
     [3 HARDWARE FOUNDATIONS] ← General-Purpose Reward + Compilation + Social Hardware
 
-  PFC-mediated drives (Novelty, Status) = OPERATORS on L1 substrate.
+  PFC-mediated drives (Novelty, Status) = OPERATORS on the L1 substrate.
     → Shift baselines, create expectations, generate dissonance
     → Operate ON body-base — NOT a separate layer
-    → Protect = observation parameter, KHÔNG phải operator (Protect.md §0)
+    → Protect = observation parameter, NOT an operator (Protect.md §0)
 
-  BODY-NEED = aggregate output CỦA body-base signals:
-    → Hardware/sensory + chunk dynamics → body-need (Body-Feedback-Mechanism v2.1 §1)
-    → PFC KHÔNG luôn biết body-need hiện tại
-    → Chi tiết: Inter-Body-Mechanism.md §2
+  BODY-NEED = aggregate output OF body-base signals:
+    → Hardware/sensory + chunk dynamics → Body-Need (Body-Feedback-Mechanism v2.1 §1)
+    → PFC does NOT always know the current Body-Need
+    → Detail: Inter-Body-Mechanism.md §2
 
 
-FILE NÀY TRONG FLOW:
+FILE POSITION IN THE FLOW:
 
   ┌────────────────────────────────────────────────────────────────────────┐
-  │ BODY-BASE.MD (FILE NÀY) — ENTRY POINT                                 │
+  │ BODY-BASE.MD (THIS FILE) — ENTRY POINT                                 │
   │                                                                        │
-  │  Đọc file này TRƯỚC → chọn hướng đi sâu:                             │
+  │  Read this file FIRST → then choose your depth path:                  │
   │                                                                        │
   │  Mechanism (HOW — 10 files):                                           │
   │    Chunk/ (Chunk v3.0, Compile-Taxonomy v3.0, Compile-Sleep v1.0)      │
@@ -167,7 +150,7 @@ FILE NÀY TRONG FLOW:
   │                                                                        │
   │  Observation (WHAT PFC SEES):                                          │
   │    Feeling/ (Feeling v3.0, Body-Knowing v1.0)                          │
-  │    Body-Feedback/ (17 files, ~27,500L)                                 │
+  │    Body-Feedback/ (17 files, ~27,500 lines)                            │
   │                                                                        │
   │  Foundation + PFC (WHY + WHAT DIRECTS):                                │
   │    Why-Body-Knows v1.2, Neural-Architecture                            │
@@ -176,53 +159,53 @@ FILE NÀY TRONG FLOW:
   │    PFC/Self-Observation.md v1.0 — APPLICATION-3 (keystone)             │
   │    Attention-Spectrum.md v2.1 — attention hardware                     │
   │                                                                        │
-  │  Chi tiết đầy đủ: §10 Reading Guide                                   │
+  │  Full detail: §10 Reading Guide                                        │
   └────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## §1 — BODY-BASE LÀ GÌ
+## §1 — WHAT BODY-BASE IS
 
 ### §1.1 — Formal Definition
 
 ```
-⭐ BODY-BASE = HỆ THỐNG NỀN TẢNG MÀ MỌI PROCESSING CHẠY TRÊN ĐÓ:
+⭐ BODY-BASE = THE FOUNDATIONAL SYSTEM THAT ALL PROCESSING RUNS ON TOP OF:
 
-  Body-Base bao gồm:
-    → L0: Alive threshold (binary — sống hoặc chết)
-    → L1: 17 body-input substrates với adaptive baseline
-    → Trên L0+L1: chunks compile, schemas form, feelings emerge
+  Body-Base includes:
+    → L0: Alive threshold (binary — alive or dead)
+    → L1: 17 body-input substrates with adaptive baselines
+    → On top of L0+L1: chunks compile, schemas form, feelings emerge
 
-  Body-Base KHÔNG phải "physical needs" narrow:
-    → KHÔNG chỉ đói/khát/ngủ (Maslow hierarchy)
-    → BAO GỒM: social inputs, aesthetic inputs, cognitive inputs
-    → "Cô đơn" = body-base signal thật (L1 social input deficit)
-    → "Chán" = body-base signal thật (L1 novelty baseline unmet)
-    → "Nhạc hay" = body-base coherence reward thật
+  Body-Base is NOT a narrow concept of "physical needs":
+    → NOT just hunger/thirst/sleep (Maslow hierarchy)
+    → INCLUDES: social inputs, aesthetic inputs, cognitive inputs
+    → "Loneliness" = a real body-base signal (L1 social input deficit)
+    → "Boredom" = a real body-base signal (L1 novelty baseline unmet)
+    → "Beautiful music" = a real body-base coherence reward
 
-  Body-Base là SOURCE:
-    → Schema phục vụ body-base (Drill §23, PFC-Function §9)
+  Body-Base is the SOURCE:
+    → Schemas serve body-base (Drill §23, PFC-Function §9)
     → Reward = body decides, PFC observes
-    → PFC KHÔNG tạo feeling — PFC observe body-chunk interaction
+    → PFC does NOT create feeling — PFC observes body-chunk interaction
     → = Feeling.md v3.0: "Feeling = WHAT PFC SEES"
 ```
 
 ### §1.2 — 3 Hardware Foundations → Compilable Architecture
 
 ```
-⭐ MỌI THỨ TRONG BODY-BASE EMERGE TỪ 3 FOUNDATIONS (Inter-Body §1):
+⭐ EVERYTHING IN BODY-BASE EMERGES FROM 3 FOUNDATIONS (Inter-Body §1):
 
 ┌─────────────────────────────────────────────────────────┐
 │ ① GENERAL-PURPOSE REWARD                                │
 │                                                         │
 │   VTA/dopamine + opioid system.                         │
-│   Fire cho BẤT KỲ gap fill đúng direction.              │
-│   KHÔNG check content ("edible?" → irrelevant).         │
-│   Chỉ check: "gap direction matched?"                   │
+│   Fires for ANY gap fill in the correct direction.       │
+│   Does NOT check content ("is this edible?" = irrelevant)│
+│   Only checks: "did gap direction match?"               │
 │                                                         │
-│   → Einstein solve equation = body reward THẬT           │
-│   → Vì body-need KHÔNG chỉ survival                    │
+│   → Einstein solving an equation = real body reward      │
+│   → Because body-need is NOT only survival              │
 │   → Body-need = ANY compiled gap fill                   │
 │                                                         │
 │   🟢 Schultz 1997: VTA prediction error                  │
@@ -232,13 +215,13 @@ FILE NÀY TRONG FLOW:
 ┌─────────────────────────────────────────────────────────┐
 │ ② COMPILATION CAPABILITY                                │
 │                                                         │
-│   Hebbian: "whatever works → strengthen → automatic"    │
-│   Fresh → repeat + verify → compile → "cảm thấy"       │
-│   Body LEARN from experience, without conscious plan    │
+│   Hebbian: "whatever works → strengthen → become automatic"│
+│   Fresh → repeat + verify → compile → "just feels right" │
+│   Body LEARNS from experience, without conscious planning│
 │                                                         │
-│   → Skill: lái xe ngày 1 vs ngày 1,000                  │
-│   → Social: stranger → bạn thân qua 10 năm             │
-│   → Expert: therapist 1,000 cases → "trực giác"         │
+│   → Skill: driving on day 1 vs. day 1,000               │
+│   → Social: stranger → close friend over 10 years       │
+│   → Expert: therapist with 1,000 cases → "intuition"    │
 │     (= compiled patterns, Klein 1998)                    │
 │                                                         │
 │   🟢 Hebb 1949: Hebbian learning                         │
@@ -248,7 +231,7 @@ FILE NÀY TRONG FLOW:
 ┌─────────────────────────────────────────────────────────┐
 │ ③ SOCIAL HARDWARE                                       │
 │                                                         │
-│   Oxytocin: fire khi touch, eye contact, trust          │
+│   Oxytocin: fires for touch, eye contact, trust         │
 │   μ-opioid: social play reward = same system as food    │
 │   dACC reuse: social pain = physical pain circuits      │
 │   Social = DEFAULT state (body RELAXES with others)     │
@@ -260,101 +243,108 @@ FILE NÀY TRONG FLOW:
 └─────────────────────────────────────────────────────────┘
 
 
-KẾT HỢP ①②③ = COMPILABLE ARCHITECTURE:
+COMBINING ①②③ = COMPILABLE ARCHITECTURE:
 
-  HARDWIRED ARCHITECTURE (specific-reward — côn trùng, đơn giản):
+  HARDWIRED ARCHITECTURE (specific-reward — insects, simple organisms):
     Hardwired circuits: food→reward, mate→reward, escape→reward
-    ƯU: nhanh, chính xác cho environment ổn định
-    NHƯỢC: environment thay đổi → species die
+    ADVANTAGE: fast, accurate for stable environments
+    DISADVANTAGE: environment changes → species extinction
 
   COMPILABLE ARCHITECTURE (general-purpose — humans):
-    Hardwired: CHỈ reward MECHANISM + compilation + social + PFC
-    Content: LEARN from environment/culture → compile → body-need
-    ƯU: adapt BẤT KỲ environment
-    NHƯỢC: cần 15-20 NĂM compile (long childhood)
+    Hardwired: ONLY the reward MECHANISM + compilation + social + PFC
+    Content: LEARNED from environment/culture → compiled → body-need
+    ADVANTAGE: adapts to ANY environment
+    DISADVANTAGE: requires 15-20 YEARS to compile (long childhood)
 
-  → Trade-off: CẦN parents + group protect trong 15-20 năm compile
-  → = TẠI SAO social = architecture requirement, NOT luxury
+  → Trade-off: NEEDS parents + group protection during 15-20 years of compilation
+  → = WHY social = architectural REQUIREMENT, NOT a luxury
 
-  4 LÝ DO social = requirement:
-    ① Survival math: alone → phải tự làm ALL → die
-    ② Compilation: child alone = chậm + nguy hiểm; in group = nhanh + an toàn
+  4 REASONS social = requirement:
+    ① Survival math: alone → must do ALL tasks oneself → cannot survive
+    ② Compilation: child alone = slow + dangerous; in group = fast + safe
     ③ Neural circuit reuse: dACC social = physical pain (Eisenberger 2003)
     ④ Social Baseline: alone = deviation, with others = baseline (Coan 2015)
 
 🟡 Hardwired/Compilable Architecture naming = framework synthesis.
    Underlying neuroscience (general-purpose reward, Hebbian, social circuits) = 🟢.
 
-Chi tiết: Inter-Body-Mechanism.md §1
+Detail: Inter-Body-Mechanism.md §1
 ```
 
 ### §1.3 — Body-Need: 2-Source Aggregate
 
 ```
-⭐ BODY-NEED = TỔNG HỢP TRẠNG THÁI CẦN HIỆN TẠI (Body-Feedback-Mechanism v2.1 §1):
+⭐ BODY-NEED = AGGREGATE OF WHAT IS CURRENTLY NEEDED (Body-Feedback-Mechanism v2.1 §1):
 
   2 GENUINE SOURCES:
-    ① Hardware/Sensory-Driven: đói, khát, đau, nhiệt, oxy, ngủ
+    ① Hardware/Sensory-Driven: hunger, thirst, pain, temperature, oxygen, sleep
     ② Pattern-Driven (chunk dynamics): Shift/Miss/Gap + compound
 
-  Cross-cutting (KHÔNG phải source — modify, không tạo):
+  Cross-cutting factors (NOT sources — they modify, they do not generate):
     → Observation parameters: Novelty, Status, Protect
     → State modifiers: cortisol, sleep debt, hormones
 
   7 PROPERTIES:
     ① Multi-source aggregate   ② Always-on (24/7)
-    ③ PFC KHÔNG luôn biết     ④ General-purpose (Compilable Architecture)
+    ③ PFC does NOT always know ④ General-purpose (Compilable Architecture)
     ⑤ Driven by gap direction  ⑥ State-dependent intensity
-    ⑦ Có thể bị hijack (hormone, scam)
+    ⑦ Can be hijacked (hormones, scams)
 
   Body-need = WHY body drives behavior.
-  PFC observes body-need SAU khi nó đã form.
-  Nhiều hành vi "vô tư" = body-need running mà PFC chưa đặt tên.
+  PFC observes body-need AFTER it has already formed.
+  Many behaviors that feel "spontaneous" = body-need running while PFC
+    has not yet given it a name.
 
   SATIATION — 3 TYPES (Gap-Body-Need.md v1.0):
-    Body-need KHÔNG chỉ "có hoặc không" — có 3 kiểu satiation khác nhau:
-    ① ENGINE satiation: cơ chế tạo gap mệt/giảm (Ví dụ: dopamine receptor downregulation)
-    ② ROAD satiation: đường gap fill quen quá → cần path mới (Ví dụ: nhạc cũ nhàm)
-    ③ VEHICLE satiation: entity cụ thể bão hòa (Ví dụ: ăn phở 7 ngày liên tiếp)
-    → Mỗi type → khác intervention. Nhầm type = fix sai.
-    → Entity-gap matching: mỗi gap có entity phù hợp riêng (Gap-Body-Need.md §4)
+    Body-need is NOT simply "present or absent" — 3 distinct types of satiation:
+    ① ENGINE satiation: the mechanism generating the gap gets tired/reduced
+        (e.g., dopamine receptor downregulation)
+    ② ROAD satiation: the gap-fill path becomes too familiar → a new path is needed
+        (e.g., a familiar song becoming monotonous)
+    ③ VEHICLE satiation: the specific entity saturates
+        (e.g., eating the same meal 7 days in a row)
+    → Each type → different intervention. Misidentifying the type = wrong fix.
+    → Entity-gap matching: each gap has its own appropriate entity
+        (Gap-Body-Need.md §4)
 
   SLEEP MAINTENANCE IMPACT (Compile-Sleep.md v1.0):
-    Sleep deprivation → body-need DISTORTED:
-    → Pruning thiếu → noise tích tụ → baseline thresholds sai
-    → PFC degrades FIRST → direction selection kém → wrong gaps pursued
-    → Body-need vẫn fire nhưng MẤT ĐỘ CHÍNH XÁC (signal integrity giảm)
+    Sleep deprivation → Body-need DISTORTED:
+    → Pruning deficient → noise accumulates → baseline thresholds miscalibrated
+    → PFC degrades FIRST → direction selection impaired → wrong gaps pursued
+    → Body-need still fires but LOSES ACCURACY (signal integrity decreases)
 
-Chi tiết: Body-Feedback-Mechanism.md v2.1 §1, Inter-Body-Mechanism.md §2, Gap-Body-Need.md v1.0
+Detail: Body-Feedback-Mechanism.md v2.1 §1, Inter-Body-Mechanism.md §2,
+        Gap-Body-Need.md v1.0
 ```
 
-### §1.4 — Architectural Claim: Schema Phục Vụ Body-Base
+### §1.4 — Architectural Claim: Schemas Serve Body-Base
 
 ```
 🟡 FRAMEWORK COMMITMENT (PFC-Function §9, Drill §23):
 
-  Schema phục vụ body-base. Body-base là NGUỒN GỐC reward/dissonance.
+  Schemas serve body-base. Body-base is the SOURCE of reward/dissonance.
 
-  KHÔNG phải:
+  NOT:
     ❌ "Schema drives behavior, body is output"
     ❌ "PFC decides, body follows"
-    ❌ "Rational agent với body as constraint"
+    ❌ "Rational agent with body as constraint"
 
-  LÀ:
+  BUT:
     ✅ "Body drives, schemas serve"
-    ✅ "Vô thức primary, PFC observer + director"
-    ✅ "Embodied agent với PFC as extended capability"
+    ✅ "Unconscious is primary, PFC is observer + director"
+    ✅ "Embodied agent with PFC as extended capability"
 
   Evidence:
-    → VTA/Opioid split: VTA = chuông cửa (attention). Opioid = quà thật (body-base match).
-    → PFC send chunks → body verify → opioid release nếu match body-need.
+    → VTA/Opioid split: VTA = doorbell (attention). Opioid = actual gift
+        (body-base match).
+    → PFC sends chunks → body verifies → opioid releases IF they match Body-Need.
     → Body is FINAL ARBITER of value. PFC is gateway, not source.
     → 🟢 Berridge 2003: wanting (dopamine) ≠ liking (opioid)
     → 🟢 Damasio 1994: somatic markers guide decisions
 
   Corollary: Reward = PERSONALIZED
-    → Same stimulus → different person → different chunks base → different reward
-    → "Ô tô paradox" (Body-Feedback.md §8.1): same car → 5 opposite reactions
+    → Same stimulus → different person → different chunk base → different reward
+    → "The car paradox" (Body-Feedback.md §8.1): same car → 5 opposite reactions
     → Reward = f(object, person's chunks, pending needs, history)
 ```
 
@@ -369,47 +359,52 @@ Chi tiết: Body-Feedback-Mechanism.md v2.1 §1, Inter-Body-Mechanism.md §2, Ga
 
   NEUROSCIENCE FOUNDATION:
     🟢 Treisman 1977 "poison theory":
-      Motion sickness = nausea mechanism triggered BY WRONG INPUT.
-      Vestibular ≠ vision → same Area Postrema fires as ACTUAL poison.
-      Body KHÔNG biết "đây là xe chạy, không phải chất độc."
-      Body biết: "PATTERN nausea đang fire → respond."
+      Motion sickness = nausea mechanism triggered BY THE WRONG INPUT.
+      Vestibular ≠ vision → same Area Postrema fires as for ACTUAL poison.
+      The body does NOT know "this is a moving vehicle, not a toxin."
+      The body knows: "the PATTERN for nausea is firing → respond."
 
     🟢 Sensory conflict theory:
-      Mismatch signals (tai nói động, mắt nói tĩnh) → activate CÙNG
-      chemoreceptor zone + nucleus → CÙNG nausea response.
-      → = CÙNG neural pathway cho poison VÀ motion sickness.
+      Mismatched signals (inner ear says moving, eyes say stationary) → activate
+      SAME chemoreceptor zone + nucleus → SAME nausea response.
+      → = SAME neural pathway for poison AND motion sickness.
 
   6 SUPPORTING CASES:
-    ① Phantom limb pain: KHÔNG có chân → pattern VẪN fire → đau thật
-    ② Placebo nausea: đường → installed pattern fire → nôn thật
-    ③ Moral disgust: KHÔNG có độc → same insula fire → "buồn nôn" thật
-    ④ Anxiety nausea: KHÔNG có chất độc → fear pattern → nôn thật
-    ⑤ Vicarious nausea: empathy pattern → nôn thật khi NHÌN người khác nôn
-    ⑥ Morning sickness: PREDICTIVE pattern fire TRƯỚC actual toxin
+    ① Phantom limb pain: NO limb present → pattern STILL fires → real pain
+    ② Placebo nausea: sugar pill → installed pattern fires → real vomiting
+    ③ Moral disgust: NO toxin present → same insula fires → real "nausea"
+    ④ Anxiety nausea: NO toxin → fear pattern → real vomiting
+    ⑤ Vicarious nausea: empathy pattern → real nausea watching someone else vomit
+    ⑥ Morning sickness: PREDICTIVE pattern fires BEFORE actual toxin
 
-  3 CƠ CHẾ CỤ THỂ:
-    ① Habituation/compilation: repeated exposure → compile [mismatch] = normal → no signal
-    ② Threshold modulation: hungry/tired → lower threshold → same mismatch = stronger nausea
-    ③ Conditioned valence: smell of car → conditioned nausea TRƯỚC actual motion (Pavlovian)
+  3 SPECIFIC MECHANISMS:
+    ① Habituation/compilation: repeated exposure → compile [mismatch] = normal →
+        no signal
+    ② Threshold modulation: hungry/tired → lower threshold → same mismatch =
+        stronger nausea
+    ③ Conditioned valence: smell of a car → conditioned nausea BEFORE actual
+        motion (Pavlovian)
 
 
   ⭐ UNIFIED PRINCIPLE:
 
-    Body evaluate PATTERNS (compiled chunks fire), KHÔNG evaluate REALITY (actual causes).
+    Body evaluates PATTERNS (compiled chunks firing), NOT REALITY (actual causes).
 
-    Drill §6b + §21 = CÙNG PRINCIPLE, 2 góc nhìn:
-      §6b: Body checks OUTPUT (hành vi → body-feedback), not CHAIN LOGIC
+    Drill §6b + §21 = THE SAME PRINCIPLE, 2 perspectives:
+      §6b: Body checks OUTPUT (behavior → body-feedback), not CHAIN LOGIC
       §21: Body responds to PATTERN FIRE, not INPUT CAUSE
 
-    → = Body = pattern evaluator. NOT reality checker.
-    → = TẠI SAO body "biết" (phần lớn patterns align reality qua evolution)
-    → = TẠI SAO body "sai" (khi patterns misalign reality — evolution lag, chunks nền sai)
+    → = Body = pattern evaluator. NOT a reality checker.
+    → = WHY body "knows" (most patterns align with reality via evolution)
+    → = WHY body "is wrong" (when patterns misalign reality — evolution lag,
+        flawed baseline chunks)
     → = Coherence ≠ Truth (Why-Body-Knows.md §3)
 
-    → Body đúng ~90%+ (patterns calibrated qua 2 cơ chế — §7 below)
-    → Body sai ở ~10% (evolution lag, chunks nền sai, schema override)
-    → External check cần thiết cho 10% gap: người khác, AI, domain thật
-    → ⚠️ Tất cả % trong file = calibration anchor, KHÔNG phải đo lường chính xác. Xem §11.
+    → Body is correct ~90%+ (patterns calibrated via 2 mechanisms — §7 below)
+    → Body errs at ~10% (evolution lag, flawed baseline chunks, schema override)
+    → External checks are needed for the 10% gap: other people, AI, domain reality
+    → ⚠️ All percentages in this file = calibration anchors, NOT precise measurements.
+        See §11.
 
 
 🟢 Research support:
@@ -427,143 +422,153 @@ Chi tiết: Body-Feedback-Mechanism.md v2.1 §1, Inter-Body-Mechanism.md §2, Ga
 ## §3 — UNIFIED MODEL: 3 Components + 1 Bridge
 
 ```
-⭐ MODEL 3+1 (Drill §23 — Unified Model):
+⭐ THE 3+1 MODEL (Drill §23 — Unified Model):
 
-  Toàn bộ framework phenomena = COMBINATIONS của 3 components + 1 amplifier.
-  Không cần mechanism mới. Mọi thứ = variation/scale/combination.
+  All framework phenomena = COMBINATIONS of 3 components + 1 amplifier.
+  No new mechanisms needed. Everything = variation/scale/combination.
 
 
   ┌─────────────────────────────────────────────────────────────────┐
-  │ COMPONENT 1 — VÔ THỨC: COMPILE + FIRE + EVALUATE               │
+  │ COMPONENT 1 — UNCONSCIOUS: COMPILE + FIRE + EVALUATE            │
   │                                                                  │
-  │   CÓ THỂ:                                                       │
-  │     → Compile patterns từ experience                             │
-  │     → Fire compiled schemas tự động                              │
-  │     → Evaluate body state (coherence check)                      │
-  │     → Create expectancy patterns (prediction)                    │
-  │     → Deliver rewards (opioid) / punishments (cortisol signal)   │
+  │   CAN:                                                           │
+  │     → Compile patterns from experience                           │
+  │     → Fire compiled schemas automatically                        │
+  │     → Evaluate body state (coherence check)                     │
+  │     → Create expectancy patterns (prediction)                   │
+  │     → Deliver rewards (opioid) / punishments (cortisol signal)  │
   │                                                                  │
-  │   KHÔNG THỂ:                                                     │
-  │     → Chain novel logic (chỉ fire compiled sequences)            │
-  │     → Check domain accuracy (chỉ check coherence)               │
-  │     → Simulate future intentionally (PFC does this)              │
-  │     → Compare memories intentionally (PFC hold + compare)        │
+  │   CANNOT:                                                        │
+  │     → Chain novel logic (only fires compiled sequences)          │
+  │     → Check domain accuracy (only checks coherence)             │
+  │     → Simulate the future intentionally (PFC does this)         │
+  │     → Compare memories intentionally (PFC holds + compares)     │
   │                                                                  │
-  │   ~95% behavior. 24/7. No novel chaining.                        │
-  │   3 things LOOK like chaining (thực ra không phải):              │
-  │     ① Compiled sequence replay (single meta-chunk)               │
-  │     ② Associative spreading (follow strongest links)             │
-  │     ③ Incubation (parallel combination + coherence eval)         │
+  │   ~95% of behavior. 24/7. No novel chaining.                    │
+  │   3 things that LOOK like chaining (but are not):               │
+  │     ① Compiled sequence replay (single meta-chunk)              │
+  │     ② Associative spreading (following strongest links)         │
+  │     ③ Incubation (parallel combination + coherence eval)        │
   ├─────────────────────────────────────────────────────────────────┤
   │ COMPONENT 2 — PFC: DIRECT + SEQUENCE + OBSERVE                  │
   │                                                                  │
-  │   DIRECT: allocate attention, active lock (hold+cortisol),       │
-  │           hijack body-input                                      │
-  │   SEQUENCE: plan (arrange chunks), compare (hold 2+ options),    │
-  │             choose (select competing paths)                      │
-  │   HOLD: working memory 4±1 slots                                 │
-  │   OBSERVE: monitor body state, verify, domain-check              │
-  │   FACILITATE: imagination, creation (combine chunks mới)         │
-  │   INHIBIT: impulse control (suppress compiled responses)         │
+  │   DIRECT: allocate attention, active lock (hold+cortisol),      │
+  │           hijack body-input                                     │
+  │   SEQUENCE: plan (arrange chunks), compare (hold 2+ options),   │
+  │             choose (select competing paths)                     │
+  │   HOLD: working memory 4±1 slots                                │
+  │   OBSERVE: monitor body state, verify, domain-check             │
+  │   FACILITATE: imagination, creation (combine new chunks)        │
+  │   INHIBIT: impulse control (suppress compiled responses)        │
   │                                                                  │
-  │   ~5% behavior. NONE process content.                            │
-  │   PFC = conductor (không chơi nhạc cụ, chỉ điều phối dàn nhạc). │
-  │   Specialty: novel sequencing (sắp xếp tổ hợp chưa compiled).   │
+  │   ~5% of behavior. Does NOT process content.                    │
+  │   PFC = conductor (does not play instruments, only coordinates  │
+  │     the orchestra).                                             │
+  │   Specialty: novel sequencing (arranging combinations not yet   │
+  │     compiled).                                                  │
   │                                                                  │
-  │   SIMULATION-ENGINE = formalized PFC mechanism:                  │
+  │   SIMULATION-ENGINE = formalized PFC mechanism:                 │
   │     Interoception × Simulation × Self/Other Model = 1 engine    │
-  │     APPLICATION-1: Self-Pattern-Modeling                         │
-  │       (Other, Present, Simulate)                                 │
-  │     APPLICATION-2: Imagine-Final                                 │
-  │       (Self, Future, Simulate+Construct)                         │
-  │     APPLICATION-3: Self-Observation (Self, Present, Observe)     │
-  │     ⭐ KEYSTONE: Self-Observation fail → cascade 5+ systems     │
-  │     Chi tiết: Simulation-Engine.md v1.2, Self-Observation.md v1.0│
+  │     APPLICATION-1: Self-Pattern-Modeling                        │
+  │       (Other, Present, Simulate)                                │
+  │     APPLICATION-2: Imagine-Final                                │
+  │       (Self, Future, Simulate+Construct)                        │
+  │     APPLICATION-3: Self-Observation (Self, Present, Observe)    │
+  │     ⭐ KEYSTONE: Self-Observation fails → cascade across 5+     │
+  │         systems                                                 │
+  │     Detail: Simulation-Engine.md v1.2, Self-Observation.md v1.0 │
   │                                                                  │
-  │   ATTENTION HARDWARE: COMT/DRD4 variation per person             │
-  │     Chi tiết: Attention-Spectrum.md v2.1                         │
+  │   ATTENTION HARDWARE: COMT/DRD4 variation per person            │
+  │     Detail: Attention-Spectrum.md v2.1                          │
   │                                                                  │
-  │   24 functions chi tiết: PFC-Function.md                         │
+  │   24 full functions: PFC-Function.md                            │
   ├─────────────────────────────────────────────────────────────────┤
-  │ COMPONENT 3 (BRIDGE) — TRUST: AMPLIFY + MODULATE + CONNECT       │
+  │ COMPONENT 3 (BRIDGE) — TRUST: AMPLIFY + MODULATE + CONNECT      │
   │                                                                  │
-  │   DEFINITION (Trust.md v1.0):                                    │
+  │   DEFINITION (Trust.md v1.0):                                   │
   │     Trust = compiled prediction about entity's gap-fill RELIABILITY│
-  │     Trust ≠ Valence: trust = PREDICTION (tương lai)              │
-  │                       valence = ASSESSMENT (hiện tại)            │
-  │     2 chiều ĐỘC LẬP: high-trust + negative-valence CÓ THỂ      │
-  │       (Ví dụ: sợ Chúa nhưng TIN Chúa toàn năng)                    │
+  │     Trust ≠ Valence: trust = PREDICTION (future-oriented)       │
+  │                       valence = ASSESSMENT (present/past)       │
+  │     2 INDEPENDENT dimensions: high-trust + negative-valence CAN │
+  │       coexist (e.g., fearing God but TRUSTING God's omnipotence) │
   │     🟢 Colquitt 2007: trust separable from liking               │
   │                                                                  │
-  │   3 SUB-DIMENSIONS (independent — Trust.md v1.0 §1):            │
-  │     ① Trust-Authority: entity CÓ QUYỀN trong domain? (structural)│
-  │     ② Trust-Competence: entity CÓ NĂNG LỰC? (calibrated via experience)│
-  │     ③ Trust-Intention: entity CÓ Ý TỐT cho tôi? (fastest collapse)│
-  │     3 chiều ĐỘC LẬP — high ở 1, low ở 2 có thể xảy ra         │
+  │   3 SUB-DIMENSIONS (independent — Trust.md v1.0 §1):           │
+  │     ① Trust-Authority: does the entity HAVE AUTHORITY in the    │
+  │         domain? (structural)                                    │
+  │     ② Trust-Competence: does the entity HAVE ABILITY? (calibrated│
+  │         through direct experience)                              │
+  │     ③ Trust-Intention: does the entity HAVE GOOD INTENTIONS     │
+  │         toward me? (fastest to collapse)                        │
+  │     3 dimensions INDEPENDENT — can be high on 1, low on 2       │
   │     🟢 Mayer, Davis & Schoorman 1995 (framework ADDS authority)  │
   │                                                                  │
   │   3 FUNCTIONS:                                                   │
-  │     AMPLIFY: trust = Entity-Valence amplifier cho compile rate   │
-  │       (gradient Mức 0-5, NOT binary gate — Compile-Taxonomy v3.0)│
-  │     MODULATE: trust modulate TOÀN BỘ valence profile             │
-  │     CONNECT: trust = ONLY mechanism cho complexity > 4±1          │
+  │     AMPLIFY: trust = Entity-Valence amplifier for compile rate  │
+  │       (gradient Level 0-5, NOT binary gate — Compile-Taxonomy   │
+  │         v3.0)                                                   │
+  │     MODULATE: trust modulates the ENTIRE valence profile        │
+  │     CONNECT: trust = ONLY mechanism for complexity > 4±1        │
   │                                                                  │
-  │   DYNAMICS (Trust.md v1.0 §4):                                   │
-  │     Build: CHẬM (months/years — cần consistency, not 1 lần tốt) │
-  │     Maintain: ỔN ĐỊNH (compiled = persistent, không cần daily)   │
-  │     Collapse: NHANH (1 betrayal — negativity bias override ALL)  │
-  │     → Asymmetry = evolutionary design: quick detect danger       │
+  │   DYNAMICS (Trust.md v1.0 §4):                                  │
+  │     Build: SLOW (months/years — needs consistency, not 1 good   │
+  │       instance)                                                 │
+  │     Maintain: STABLE (compiled = persistent, no daily refresh   │
+  │       needed)                                                   │
+  │     Collapse: FAST (1 betrayal — negativity bias overrides ALL) │
+  │     → Asymmetry = evolutionary design: detect danger quickly    │
   │     🟢 Slovic 1993, Baumeister 2001, Freyd 1996                 │
   │                                                                  │
-  │   FORMATION: 4 nguồn (Trust.md v1.0 §2):                        │
-  │     ① Direct experience: chậm nhất (months), chính xác nhất     │
-  │     ② Observed experience: trung bình (weeks)                    │
-  │     ③ Schema inheritance: nhanh nhất (hours), kém chính xác nhất │
-  │     ④ Context inference: nhanh (seconds), dễ bị exploit          │
-  │     = TẠI SAO trẻ tin thầy TRƯỚC khi đi học (installed trust ③) │
+  │   FORMATION: 4 sources (Trust.md v1.0 §2):                     │
+  │     ① Direct experience: slowest (months), most accurate        │
+  │     ② Observed experience: medium (weeks)                       │
+  │     ③ Schema inheritance: fastest (hours), least accurate       │
+  │     ④ Context inference: fast (seconds), easily exploited       │
+  │     = WHY children trust teachers BEFORE attending school       │
+  │         (installed trust via source ③)                          │
   │     🟢 Lewicki 2006, Csibra & Gergely 2009, Bandura 1977       │
   │                                                                  │
-  │   ENTITY-ACCESS GRADIENT = formalized trust model:               │
-  │     Mức 0 (stranger) → Mức 5 (self/child)                       │
-  │     Trust ≠ binary → gradient per-entity                         │
-  │     Chi tiết: Entity-Access.md v1.2                              │
+  │   ENTITY-ACCESS GRADIENT = formalized trust model:              │
+  │     Level 0 (stranger) → Level 5 (self/child)                  │
+  │     Trust ≠ binary → gradient per-entity                        │
+  │     Detail: Entity-Access.md v1.2                               │
   │                                                                  │
-  │   BOND-ARCHITECTURE = 4 bond types qua 1 mechanism:             │
-  │     Proximity / Shared-Experience / Reciprocal / Identity        │
-  │     Entity-Compiled = neural reality, KHÔNG phải metaphor        │
-  │     Chi tiết: Bond-Architecture.md v2.0, Entity-Compiled.md v1.0│
+  │   BOND-ARCHITECTURE = 4 bond types via 1 mechanism:            │
+  │     Proximity / Shared-Experience / Reciprocal / Identity       │
+  │     Entity-Compiled = neural reality, NOT metaphor              │
+  │     Detail: Bond-Architecture.md v2.0, Entity-Compiled.md v1.0 │
   │                                                                  │
-  │   Tại sao Trust = Bridge, không phải component:                  │
-  │     → Trust KHÔNG process — trust ENABLE processing              │
-  │     → Verify một số → trust phần còn lại → build recursively    │
-  │     → Không có trust → mỗi người stuck ở ~4±1 per session       │
+  │   Why Trust = Bridge, not just a component:                     │
+  │     → Trust does NOT process — trust ENABLES processing         │
+  │     → Verify some → trust the rest → build recursively          │
+  │     → Without trust → every person stuck at ~4±1 per session   │
   ├─────────────────────────────────────────────────────────────────┤
   │ AMPLIFIER — EXTERNAL TOOLS: ×∞ CAPACITY                         │
   │                                                                  │
-  │   Paper, pen, books, computers, AI = extend BEYOND:              │
-  │     → PFC capacity (4±1) → ×∞ via external storage              │
-  │     → Trust range → ×∞ via accumulated collective knowledge      │
+  │   Paper, pen, books, computers, AI = extend BEYOND:             │
+  │     → PFC capacity (4±1) → ×∞ via external storage             │
+  │     → Trust range → ×∞ via accumulated collective knowledge     │
   │                                                                  │
-  │   Hierarchy: PFC 4±1 → ×4 via vô thức compression →             │
-  │              ×∞ via external tools                                │
+  │   Hierarchy: PFC 4±1 → ×4 via unconscious compression →         │
+  │              ×∞ via external tools                               │
   │                                                                  │
-  │   Civilization = compound stacking of 3+1.                       │
+  │   Civilization = compound stacking of 3+1.                      │
   └─────────────────────────────────────────────────────────────────┘
 
 
   BLACKBOX-1 + BLACKBOX-2 CONVERGENCE (Drill §26):
 
     Blackbox-1 (chunk substrate) + Blackbox-2 (valence complexity)
-    = KHÔNG PHẢI 2 blackbox riêng biệt.
-    = CÙNG 1 mechanism ở behavioral level:
+    = NOT 2 separate blackboxes.
+    = THE SAME 1 mechanism at the behavioral level:
       Compile = structural aspect (patterns form)
       Valence = evaluative aspect (patterns get tagged)
-      → XẢY RA ĐỒNG THỜI, không tuần tự.
+      → OCCUR SIMULTANEOUSLY, not sequentially.
 
     Blackbox-2 = Blackbox-1 + collective scale + hardware variance.
     Blackbox-1 ⊂ Blackbox-2 ⊂ Model 3+1.
 
-    Chi tiết convergence: Drill-Compile-Short-Collective.md §26,
+    Detail on convergence: Drill-Compile-Short-Collective.md §26,
     Blackbox-Map.md §4.2 (supersedes Framework-Boundaries.md v2.0).
 ```
 
@@ -574,46 +579,46 @@ Chi tiết: Body-Feedback-Mechanism.md v2.1 §1, Inter-Body-Mechanism.md §2, Ga
 ### §4.1 — PFC ≠ Compiler
 
 ```
-⭐ PFC KHÔNG COMPILE. BODY LUÔN LÀ COMPILER (Drill §19):
+⭐ PFC DOES NOT COMPILE. BODY IS ALWAYS THE COMPILER (Drill §19):
 
-  PFC CÓ 5 VAI TRÒ (KHÔNG vai trò nào là compile):
+  PFC HAS 5 ROLES (none of them is compiling):
 
-    ① DIRECT attention: chọn focus vào đâu
-    ② HOLD ~4 chunks: giữ active trong working memory
-    ③ IMAGINE scenarios: combine chunks → simulate chưa xảy ra
-    ④ DOMAIN-CHECK: verify body-smooth vs reality
-    ⑤ CHANGE ENVIRONMENT: thay đổi context → body-input thay đổi
+    ① DIRECT attention: choose what to focus on
+    ② HOLD ~4 chunks: keep them active in working memory
+    ③ IMAGINE scenarios: combine chunks → simulate what hasn't happened yet
+    ④ DOMAIN-CHECK: verify body-smoothing against reality
+    ⑤ CHANGE ENVIRONMENT: change context → change body-input
 
-  BODY COMPILE qua 4 mechanisms (Chunk.md v3.0 §2):
-    ① Repetition — lặp lại nhiều lần (LTP, Bliss & Lømo 1973 🟢)
-    ② Emotional peak — 1 lần cảm xúc cực mạnh (Brown & Kulik 1977 🟢)
-    ③ Multi-modal — nhiều kênh cùng lúc (wire across cortex)
+  BODY COMPILES via 4 mechanisms (Chunk.md v3.0 §2):
+    ① Repetition — repeated exposure many times (LTP, Bliss & Lømo 1973 🟢)
+    ② Emotional peak — 1 extremely intense emotional event (Brown & Kulik 1977 🟢)
+    ③ Multi-modal — multiple channels simultaneously (wires across cortex)
     ④ Sleep consolidation — offline integration (Walker 2017 🟢)
-       Chi tiết sleep: Compile-Sleep.md v1.0 (6 mechanisms, offline system)
+       Sleep detail: Compile-Sleep.md v1.0 (6 mechanisms, offline system)
 
-  IMAGINATION = NỘI BỘ BODY EXPERIENCE (Drill §19 key insight):
-    → Imagine chanh → tiết nước bọt THẬT (body respond)
-    → Imagine solving → opioid THẬT (reward thật)
-    → Imagination IS body experience, chỉ THẤP HƠN direct input
-    → = Boundary "PFC create" vs "body compile" KHÔNG tồn tại
-    → = PFC direct + body compile = always collaborative, never separate
+  IMAGINATION = AN INTERNAL BODY EXPERIENCE (Drill §19 key insight):
+    → Imagine a lemon → real salivation (body responds)
+    → Imagine solving a problem → real opioid release (real reward)
+    → Imagination IS a body experience, just LOWER intensity than direct input
+    → = The boundary "PFC creates" vs "body compiles" does NOT exist
+    → = PFC directing + body compiling = always collaborative, never separate
 
   EINSTEIN TEST CASE:
-    → PFC directed attention (vật lý Newton mâu thuẫn ở ĐÂU)
-    → PFC held chunks (đồng hồ, ánh sáng, khung tham chiếu)
-    → PFC imagined scenarios (ngồi trên tia sáng)
-    → NHƯNG: compilation = body mechanisms (sleep, incubation, coherence eval)
-    → Body coherence evaluation → "E=mc² ĐÚNG" → opioid → eureka
+    → PFC directed attention (WHERE does Newtonian physics contradict itself?)
+    → PFC held chunks (clocks, light, reference frames)
+    → PFC imagined scenarios (riding a beam of light)
+    → BUT: compilation = body mechanisms (sleep, incubation, coherence evaluation)
+    → Body coherence evaluation → "E=mc² is CORRECT" → opioid → eureka
     → PFC directed. Body compiled.
 
   SPECTRUM:
     Infant:   pure body compile, minimal PFC direction
     Adult:    body compile + PFC direction ~5%
     Expert:   body compile + PFC direction refined + compiled meta-chunks
-    Einstein: body compile + PFC direction CỰC refined
-    → MỌI mức = body compile. PFC chỉ thay đổi QUALITY of direction.
+    Einstein: body compile + PFC direction EXTREMELY refined
+    → EVERY level = body compiling. PFC only changes QUALITY of direction.
 
-  🟡 Principle: "PFC tạo CONTEXT, B+C+D tự học" (PFC-Function §9)
+  🟡 Principle: "PFC creates CONTEXT, the body learns" (PFC-Function §9)
 ```
 
 ### §4.2 — Compile Architecture: 1 Engine + 3 Modulator Configurations
@@ -621,13 +626,14 @@ Chi tiết: Body-Feedback-Mechanism.md v2.1 §1, Inter-Body-Mechanism.md §2, Ga
 ```
 🟡 COMPILE ARCHITECTURE (Compile-Taxonomy.md v3.0):
 
-  ⭐ ALL compile = 1 ENGINE: Exposure → Hebbian → Compiled Chunk (Hebb 1949).
-  Không có "trust compile mechanism" riêng hay "expertise mechanism" riêng.
-  CHỈ CÓ 1 engine. 3 Compile Types = labels cho dominant modulator configuration.
+  ⭐ ALL compiling = 1 ENGINE: Exposure → Hebbian → Compiled Chunk (Hebb 1949).
+  There is no separate "trust compile mechanism" or "expertise mechanism."
+  ONLY 1 engine. 3 Compile Types = labels for dominant modulator configurations.
 
   3 MODULATORS:
-    ① Entity-Valence Bias (automatic, cost≈0): trust amplify compile rate + bias exposure
-    ② 3 Exposure Channels SONG SONG:
+    ① Entity-Valence Bias (automatic, cost≈0): trust amplifies compile rate +
+        biases exposure
+    ② 3 Exposure Channels IN PARALLEL:
        External (body-input from reality — richest, domain-checked)
        Deliberate (PFC imagination/simulate — flexible, abstract domains)
        Spontaneous (automatic chunk fire — Background-Pattern, mind wandering)
@@ -640,80 +646,86 @@ Chi tiết: Body-Feedback-Mechanism.md v2.1 §1, Inter-Body-Mechanism.md §2, Ga
     ├──────────────┼──────────────────────────┼──────────────┤
     │ Experience   │ Engine + minimal modulators│ ~90%        │
     │ Expertise    │ Engine + PFC sustained hold│ ~5%         │
-    │ Trust        │ Engine + Entity-Valence Bias│ ~5%        │
+    │ Trust        │ Engine + Entity-Valence    │ ~5%         │
+    │              │   Bias                    │             │
     └──────────────┴──────────────────────────┴──────────────┘
 
-  ⚠️ TRUST = AMPLIFIER (gradient Mức 0-5), KHÔNG PHẢI GATE (binary):
-    → Trẻ bị ÉP HỌC (no trust) → VẪN compile kiến thức (engine chạy)
-    → Trust "đóng" → body EXPOSED to content → content compile
-    → Trust KHÔNG gate content compile. Trust amplify VALUE compile.
+  ⚠️ TRUST = AMPLIFIER (gradient Level 0-5), NOT A GATE (binary):
+    → A child FORCED to study (no trust) → STILL compiles knowledge (engine runs)
+    → Trust "closed" → body is STILL EXPOSED to content → content compiles
+    → Trust does NOT gate content compile. Trust amplifies VALUE compile.
     → Entity-Access.md v1.2: trust = gradient per-entity
     → Entity-Access-Calibration.md v1.0: self-regulation mechanism
 
   SLEEP MAINTENANCE (Compile-Sleep.md v1.0):
-    → Sleep ≠ exposure source thứ 4. Sleep = OFFLINE MAINTENANCE SYSTEM.
+    → Sleep ≠ a 4th exposure source. Sleep = OFFLINE MAINTENANCE SYSTEM.
     → 6 mechanisms: ~1.5 exposure-based + ~4.5 optimization.
     → Cycle: Waking (build) → Sleep (maintain) → Waking (build on maintained)
 
-  MULTI-STREAM: Content / Value / Entity / Behavior compile SONG SONG.
-    → Cùng 1 engine, khác stream → giải thích tại sao trust amplify VALUE
-      mà không gate CONTENT (Compile-Taxonomy.md v3.0 §5).
+  MULTI-STREAM: Content / Value / Entity / Behavior compile IN PARALLEL.
+    → Same 1 engine, different streams → explains why trust amplifies VALUE
+      compile without gating CONTENT compile (Compile-Taxonomy.md v3.0 §5).
 
   ENTITY-COMPILED = NEURAL REALITY (Entity-Compiled.md v1.0):
-    → Khi compile đủ sâu (40-200h), entity CÓ THẬT trong não
-    → Hub-and-spoke: amygdala/hippocampus/PFC form per-entity network
-    → Dunbar ~150: giới hạn Entity-Compiled capacity
-    → Grief Type A/B/C: mất Entity-Compiled = mất neural reality
-    → Entity-Compiled = mechanism chung cho CẢ 3 Compile Types
+    → When compiled deeply enough (40-200h), entity EXISTS LITERALLY in the brain
+    → Hub-and-spoke: amygdala/hippocampus/PFC form a per-entity network
+    → Dunbar ~150: limit of Entity-Compiled capacity
+    → Grief Type A/B/C: losing Entity-Compiled = losing neural reality
+    → Entity-Compiled = common mechanism for ALL 3 Compile Types
 
-  Chi tiết architecture: Compile-Taxonomy.md v3.0
+  Detail on architecture: Compile-Taxonomy.md v3.0
 ```
 
 ### §4.3 — Compiled vs Fresh = Real Axis
 
 ```
-⭐ TRỤC THẬT: COMPILATION LEVEL (Inter-Body §3)
+⭐ THE REAL AXIS: COMPILATION LEVEL (Inter-Body §3)
 
-  Framework uses Compiled = "Feeling", Fresh = "Logic."
+  The framework uses Compiled = "Feeling," Fresh = "Logic."
   Deeper reality:
     Compiled = automatic processing (body-feedback direct, cost ≈ 0)
     Fresh = PFC deliberate draft (costly, not yet compiled)
 
-  "Feeling" và "Logic" = LABELS from observer perspective.
-  Inside body: chỉ có COMPILED ←→ FRESH spectrum.
-  Content (emotion/reasoning) KHÔNG quyết định Compiled/Fresh.
-  COMPILATION LEVEL quyết định.
+  "Feeling" and "Logic" = LABELS from the observer's perspective.
+  Inside the body: there is only the COMPILED ←→ FRESH spectrum.
+  Content (emotion/reasoning) does NOT determine Compiled/Fresh.
+  COMPILATION LEVEL determines it.
 
   ┌──────────────────────┬──────────────────────────┐
-  │ COMPILED                   │ FRESH                       │
+  │ COMPILED             │ FRESH                    │
   ├──────────────────────┼──────────────────────────┤
   │ Automatic            │ Deliberate               │
   │ Body-direct feedback │ PFC-mediated             │
   │ Cost ≈ 0             │ Cost > 0                 │
-  │ "Cảm thấy"          │ "Nghĩ ra"                │
-  │ Hebbian reinforced   │ Mỗi lần = effort         │
-  │ Tức thời             │ Cần thời gian            │
+  │ "Just feels right"   │ "I figured it out"       │
+  │ Hebbian reinforced   │ Each time requires effort│
+  │ Instantaneous        │ Requires time            │
   └──────────────────────┴──────────────────────────┘
 
   Evidence — content ≠ processing level:
-    ① Einstein + toán quen = COMPILED (content "logic" nhưng automatic)
-    ② Stranger đoán cảm xúc người lạ = FRESH (content "feeling" nhưng deliberate)
-    ③ Chef nếm → biết ngay thiếu muối = COMPILED (complex content, instant)
-    ④ Therapist gặp case mới = FRESH (content "feeling" nhưng phải phân tích)
+    ① Einstein + familiar math = COMPILED (content is "logic" but automatic)
+    ② A stranger guessing another stranger's emotion = FRESH (content is
+        "feeling" but deliberate)
+    ③ A chef tasting food → immediately knows it lacks salt = COMPILED
+        (complex content, instant)
+    ④ A therapist encountering a new case = FRESH (content is "feeling"
+        but requires analysis)
 
-  Transition cả 2 chiều:
-    FRESH → COMPILED (Learning): lặp + verify → Hebbian → automatic
-    COMPILED → FRESH (Unlearning): disrupted → phải suy nghĩ lại
+  Transition in both directions:
+    FRESH → COMPILED (Learning): repeat + verify → Hebbian → automatic
+    COMPILED → FRESH (Unlearning): disrupted → must rethink it
 
-  "Logic" vs "Intuition" = naming artifact:
-    → "Logic" = compiled chunks SHAREABLE (toán: mọi người cùng kết quả)
-    → "Intuition" = compiled chunks NON-SHAREABLE (therapy: mỗi chuyên gia khác)
-    → BÊN TRONG: CƠ CHẾ GIỐNG HỆT (compiled automatic processing)
+  "Logic" vs "Intuition" = a naming artifact:
+    → "Logic" = compiled chunks that are SHAREABLE (math: everyone gets the
+        same result)
+    → "Intuition" = compiled chunks that are NON-SHAREABLE (therapy: each
+        expert differs)
+    → INSIDE: IDENTICAL MECHANISM (compiled automatic processing)
 
 🟡 Compiled/Fresh reframe = framework synthesis.
    Consistent with Kahneman 2011 System 1/2, Klein 1998 (🟢).
 
-Chi tiết: Inter-Body-Mechanism.md §3, Self-Pattern-Modeling.md v3.2 §2
+Detail: Inter-Body-Mechanism.md §3, Self-Pattern-Modeling.md v3.2 §2
 ```
 
 ---
@@ -730,22 +742,22 @@ Chi tiết: Inter-Body-Mechanism.md §3, Self-Pattern-Modeling.md v3.2 §2
     Critical injury        — immediate
     Extreme temperature    — hours
     Water deprivation      — days
-    Starvation            — weeks
+    Starvation             — weeks
 
   L0 properties:
-    → BINARY (có/không). Không graded.
-    → Suppresses ALL other processing khi threatened
+    → BINARY (present/absent). Not graded.
+    → Suppresses ALL other processing when threatened
     → Single-track survival response
-    → Spinal cord + brainstem handle (D zone — fastest)
-    → PFC offline (NE α1 flood — circuit breaker design feature)
+    → Spinal cord + brainstem handle this (D zone — fastest)
+    → PFC goes offline (NE α1 flood — Circuit Breaker design feature)
 ```
 
-### §5.2 — L1 Body-Inputs với Adaptive Baseline
+### §5.2 — L1 Body-Inputs with Adaptive Baseline
 
 ```
-🟡 L1 — 17 SUB-CATEGORIES CỦA BODY-INPUTS:
+🟡 L1 — 17 SUB-CATEGORIES OF BODY-INPUTS:
 
-  Mỗi input: evolved baseline (gen) + individual baseline (experience).
+  Each input has an evolved baseline (genetic) + individual baseline (experience).
   Deviation below → dissonance. Above → reward → baseline shifts up.
 
   EXTEROCEPTION (5 inputs — external world):
@@ -755,37 +767,39 @@ Chi tiết: Inter-Body-Mechanism.md §3, Self-Pattern-Modeling.md v3.2 §2
     Proprioception, Vestibular, Kinesthetic
 
   INTEROCEPTION (9 inputs — internal state):
-    Thermoreception (core temp), Nociception (pain),
+    Thermoreception (core temperature), Nociception (pain),
     Respiratory, Cardiovascular, Visceral,
-    Metabolic (đói/khát/năng lượng),
-    Hormonal-sensed (cycle, cortisol subjective),
+    Metabolic (hunger/thirst/energy),
+    Hormonal-sensed (cycle, subjective cortisol),
     Sleep/Circadian,
     ⭐ Self-signal interoception (META — keystone)
 
   ⭐ SELF-SIGNAL INTEROCEPTION = KEYSTONE (01-Foundation §5.4):
     → Body's capacity to READ its own internal state
-    → Prerequisite cho feeling layer development
-    → Compromise → silent deficit (alexithymia ~10% population)
+    → Prerequisite for the feeling layer to develop
+    → Compromised → silent deficit (alexithymia, ~10% of population)
     → TRAINABLE: meditation, Focusing, somatic therapy
     → 🟢 Craig 2002/2009, Garfinkel et al. 2015
 
   BASELINE ADAPTATION:
-    → Hedonic treadmill (🟢 Brickman 1978): baseline shifts WITH sustained exposure
-    → Novelty operator: shifts baselines UP → body cần MORE
-    → Loss of elevated baseline → dissonance AT NEW FLOOR
-    → Asymmetric: loss hurts ~2x gain (🟢 Kahneman & Tversky 1979)
+    → Hedonic treadmill (🟢 Brickman 1978): baseline shifts WITH sustained
+        exposure
+    → Novelty operator: shifts baselines UP → body needs MORE
+    → Loss of elevated baseline → dissonance AT THE NEW FLOOR
+    → Asymmetric: loss hurts ~2× more than equivalent gain
+        (🟢 Kahneman & Tversky 1979)
 
-  Chi tiết substrate: Body-Input-Enumeration.md (8,418L)
+  Detail on substrate: Body-Input-Enumeration.md (8,418 lines)
 ```
 
 ### §5.3 — PFC-Mediated Operators on L1
 
 ```
-🟡 PFC DRIVES = OPERATORS ON L1 (không phải separate layer):
+🟡 PFC DRIVES = OPERATORS ON L1 (not a separate layer):
 
-  v2.1 gọi "L3 PFC Drives" gồm Novelty/Status/Protect.
-  v3.0 REFRAME: drives = PFC-mediated OPERATORS trên L1 substrate.
-  Protect = observation parameter, KHÔNG phải operator.
+  v2.1 listed "L3 PFC Drives" as Novelty/Status/Protect.
+  v3.0 REFRAME: drives = PFC-mediated OPERATORS on the L1 substrate.
+  Protect = observation parameter, NOT an operator.
 
   2 PRIMARY OPERATORS:
 
@@ -793,70 +807,72 @@ Chi tiết: Inter-Body-Mechanism.md §3, Self-Pattern-Modeling.md v3.2 §2
     → Shifts L1 baselines UPWARD (explore, expand)
     → prediction-delta detection (🟢 Schultz 1997)
     → Cortisol LOW-MODERATE, domain-pull direction
-    → Chi tiết: Observation/Novelty.md
+    → Detail: Observation/Novelty.md
 
   ② STATUS:
     → Resource Access Map (evolutionary grounded)
     → Status = PROXY for body-base resource access
     → 350M+ years cross-species
-    → Chi tiết: Observation/Status.md
+    → Detail: Observation/Status.md
 
   ⚠️ PROTECT = OBSERVATION PARAMETER (Protect.md §0):
-    → Protect = named pattern emergent từ compiled ownership chunks
-      + asymmetric prediction-delta khi mất
-    → KHÔNG phải operator — là TÊN GỌI cho patterns
+    → Protect = a named pattern emerging from compiled ownership chunks
+      + asymmetric prediction-delta when losing
+    → NOT an operator — it is a NAME for patterns
     → v2.1 listed Protect as "L3 drive" → CORRECTED in v3.0
 
   HARDWARE-SUBSIDY (Entity-Valence-Dynamics.md v1.1 §5, Body-Coupling.md v3.0):
-    → Body hardware cung cấp baseline support "miễn phí" cho operators
-    → Ví dụ: oxytocin system → social reward KHÔNG cần PFC effort
-    → Hardware-Subsidy = TẠI SAO một số drives mạnh hơn hẳn
-    → Khác nhau theo entity type: con > bạn thân > đồng nghiệp > stranger
+    → Body hardware provides baseline support "for free" for operators
+    → Example: oxytocin system → social reward WITHOUT PFC effort
+    → Hardware-Subsidy = WHY some drives are dramatically stronger
+    → Varies by entity type: child > close friend > colleague > stranger
     → = Evolutionary investment per-relationship
 
   4 FIRING MODES:
-    → Tonic: low-intensity, liên tục, duy trì baseline
-    → Phasic: burst cụ thể, response to event
-    → Compound: nhiều hệ fire ĐỒNG THỜI (Ví dụ: reunion = oxytocin+dopamine+opioid)
-    → Cascade: 1 event trigger chain nhiều systems theo thứ tự
-    → Operators fire KHÁC NHAU tùy mode → cùng stimulus, khác response
+    → Tonic: low-intensity, continuous, maintains baseline
+    → Phasic: specific burst, response to event
+    → Compound: multiple systems fire SIMULTANEOUSLY
+        (e.g., reunion = oxytocin+dopamine+opioid)
+    → Cascade: 1 event triggers a chain of multiple systems in sequence
+    → Operators fire DIFFERENTLY depending on mode → same stimulus,
+        different response
 
-  Operators ≠ layer:
+  Operators ≠ a separate layer:
     → Operate ON L1 body-inputs, SHIFT baselines
     → CREATE expectations, GENERATE dissonance
-    → Chi tiết integration: Observation/Drive.md
+    → Detail integration: Observation/Drive.md
 ```
 
-### §5.4 — Modulatory vs Processing neurons: Parkinson validation
+### §5.4 — Modulatory vs Processing Neurons: Parkinson Validation
 
 ```
-🟡 2 NHÓM NEURONS × FRAMEWORK LAYERS (Parkinson-Analysis.md §2):
+🟡 2 NEURON GROUPS × FRAMEWORK LAYERS (Parkinson-Analysis.md §2):
 
-  PROCESSING NEURONS (mạch CHÍNH):
+  PROCESSING NEURONS (main circuits):
     → Glutamate (excitatory) + GABA (inhibitory)
-    → Xử lý thông tin + điều khiển hành vi
-    → Vị trí: PFC, motor cortex, sensory cortex, hippocampus
-    → = DÀN NHẠC (instruments chơi nhạc)
+    → Process information + control behavior
+    → Location: PFC, motor cortex, sensory cortex, hippocampus
+    → = THE ORCHESTRA (instruments playing the music)
 
-  MODULATORY NEURONS (mạch PHỤ):
+  MODULATORY NEURONS (auxiliary circuits):
     → Dopamine, Serotonin, NE, Acetylcholine
-    → ĐIỀU CHỈNH gain/speed/gate cho mạch chính
-    → Vị trí: SNc, VTA, raphe, locus coeruleus, basal forebrain
-    → = AMPLIFIER + VOLUME CONTROL + NHẠC TRƯỞNG
+    → ADJUST gain/speed/gate for main circuits
+    → Location: SNc, VTA, raphe nuclei, locus coeruleus, basal forebrain
+    → = AMPLIFIER + VOLUME CONTROL + CONDUCTOR
 
-  MAP VÀO L0-L1:
-    L0 (Alive threshold):    brainstem = cả processing VÀ modulatory
-    L1 (Body-inputs):        modulatory hệ regulate sensory processing
+  MAPPING TO L0-L1:
+    L0 (Alive threshold):    brainstem = BOTH processing AND modulatory
+    L1 (Body-inputs):        modulatory system regulates sensory processing
     PFC operators:           modulatory = operators (dopamine, NE, serotonin)
-    PFC (observation):       processing neurons compute, modulatory fuel
+    PFC (observation):       processing neurons compute, modulatory fuels
 
   BRAAK STAGING VALIDATES ARCHITECTURE (Parkinson-Analysis.md §4.2):
     → α-synuclein ascending: gut → brainstem → midbrain → cortex
-    → = L0 → L1 → PFC = CÙNG HƯỚNG ĐI LÊN
-    → Stages 1-4: modulatory neurons chết (mạch phụ)
-    → Stages 5-6: processing neurons bị (mạch chính)
-    → = Mạch PHỤ chết TRƯỚC → mạch chính CÒN nhưng KHÔNG ĐƯỢC modulate
-    → Parkinson: "BIẾT nhưng KHÔNG LÀM ĐƯỢC" = processing intact, gate locked
+    → = L0 → L1 → PFC = SAME ASCENDING DIRECTION
+    → Stages 1-4: modulatory neurons die (auxiliary circuits)
+    → Stages 5-6: processing neurons affected (main circuits)
+    → = Auxiliary circuits die FIRST → main circuits INTACT but UNMODULATED
+    → Parkinson: "KNOWS but CAN'T DO" = processing intact, gate locked
 
   🟢 Braak et al. 2003: 6-stage ascending pattern
   🟡 Modulatory/Processing × L0-L1 mapping = framework synthesis
@@ -867,12 +883,12 @@ Chi tiết: Inter-Body-Mechanism.md §3, Self-Pattern-Modeling.md v3.2 §2
 ## §6 — 3-LAYER EVOLUTION
 
 ```
-⭐ 3 LAYERS STACKED, MỖI LAYER NHANH HƠN LAYER DƯỚI (Inter-Body §9):
+⭐ 3 LAYERS STACKED — EACH LAYER FASTER THAN THE ONE BELOW (Inter-Body §9):
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 LAYER 1 — HARDWARE (genetic evolution):
-  Speed: hàng nghìn → triệu năm
-  Changes: sensory, muscle, brain size, hormone, neural circuits
+  Speed: thousands → millions of years
+  Changes: sensory, muscle, brain size, hormones, neural circuits
   Examples: social pain circuits (dACC), oxytocin system, PFC expansion
   Mechanism: mutation → selection → reproduction
   = Foundation. Slow. Irreversible per generation.
@@ -880,7 +896,7 @@ LAYER 1 — HARDWARE (genetic evolution):
 LAYER 2 — COMPILED (individual learning):
   Speed: months → years (within 1 lifetime)
   Changes: chunk compilation, gap directions, valence profiles, skills
-  Examples: Einstein compile physics, therapist compile patterns
+  Examples: Einstein compiling physics, therapist compiling patterns
   Mechanism: experience → body-feedback → Hebbian → compiled
   = Built ON hardware. Medium speed. Individual-specific.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -892,19 +908,19 @@ LAYER 3 — CULTURAL (collective invention):
   = Built ON hardware + compiled. FASTEST. Cumulative across generations.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  "BOOST FEATURES" — Layer 3 accelerate Layers 1-2:
-    Language ×100 — truyền chunks qua verbal
-    Teaching ×10  — structured transmission → compile efficient
-    Writing ×1000 — persist chunks BEYOND individual lifetime
-    Money ×∞      — convert ANY contribution → survival resource
-    Newton: "standing on shoulders of giants" = Layer 3 cumulative.
+  "BOOST FEATURES" — Layer 3 accelerates Layers 1-2:
+    Language ×100 — transmits chunks verbally
+    Teaching ×10  — structured transmission → efficient compilation
+    Writing ×1000 — persists chunks BEYOND an individual's lifetime
+    Money ×∞      — converts ANY contribution → survival resource
+    Newton: "standing on the shoulders of giants" = Layer 3 cumulative.
 
   MONEY = BRIDGE TECHNOLOGY:
-    Doctor skill → money → food. Engineer → money → shelter.
-    = WHY humans CAN pursue non-survival gap → still survive.
-    Einstein: solve physics gap CỦA ÔNG → by-product = human knowledge
+    Doctor's skill → money → food. Engineer → money → shelter.
+    = WHY humans CAN pursue non-survival gaps → and still survive.
+    Einstein: solving his physics gap → by-product = human knowledge
     → Collective benefit → pay back (salary, status)
-    → Money BRIDGE: non-edible contribution → survival resources flow back
+    → Money BRIDGES: non-edible contribution → survival resources flow back
 
   DOUBLE INHERITANCE: genes (Layer 1) + culture (Layer 3)
     Group A: no cooperation → weak. Group B: Layer 3 tools → strong.
@@ -916,100 +932,116 @@ LAYER 3 — CULTURAL (collective invention):
 🟢 Tomasello 2009: cumulative cultural evolution uniquely human.
 🟡 3-layer model as unified framework = framework synthesis.
 
-Chi tiết: Inter-Body-Mechanism.md §9
+Detail: Inter-Body-Mechanism.md §9
 ```
 
 ---
 
-## §7 — 2-TIER CALIBRATION (2 cơ chế + 2 đường vào)
+## §7 — 2-TIER CALIBRATION (2 Mechanisms + 2 Pathways)
 
 ```
-⭐ TẠI SAO BODY ĐÁNG TIN: 2 CƠ CHẾ CALIBRATE + 2 ĐƯỜNG VÀO
+⭐ WHY THE BODY IS TRUSTWORTHY: 2 CALIBRATION MECHANISMS + 2 PATHWAYS
    (Why-Body-Knows.md v1.2 — consolidated):
 
-  CHỈ 2 CƠ CHẾ THẬT SỰ KHÁC NHAU:
+  ONLY 2 TRULY DISTINCT MECHANISMS:
 
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  TẦNG 1 — DARWINIAN SELECTION (gen-level, triệu năm):
-    🟢 Triệu sinh vật × triệu năm × triệu thử nghiệm.
-    → Gen "reward pattern đúng" → truyền. Gen "reward sai" → chủ nhân chết.
-    → Body HIỆN TẠI = survivor's GPS — đã test triệu route, giữ route đúng.
-    → Ví dụ: lửa=đau, ngọt=nutrition, rắn=nguy hiểm, social=reward (wired)
-    → Unit: SPECIES population. Speed: nghìn-triệu năm.
-    → = Cái bạn CÓ khi sinh ra, TRƯỚC mọi trải nghiệm.
-    → LIMIT: calibrate CHẬM → evolution lag.
+  TIER 1 — DARWINIAN SELECTION (gene-level, millions of years):
+    🟢 Millions of organisms × millions of years × millions of trials.
+    → Genes that "reward the correct pattern" → transmitted. Genes that
+        reward incorrectly → bearer dies.
+    → Your body RIGHT NOW = a survivor's GPS — tested on millions of routes,
+        kept only the correct ones.
+    → Examples: fire=pain, sweet=nutrition, snake=danger, social=reward (wired in)
+    → Unit: SPECIES population. Speed: thousands-millions of years.
+    → = What you HAVE at birth, BEFORE any experience.
+    → LIMIT: calibrates SLOWLY → evolution lag.
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  TẦNG 2 — HEBBIAN COMPILATION (individual-level, suốt đời):
-    🟢 + 🟡: TẤT CẢ learning suốt đời = CƠ CHẾ NÀY.
-    → Experience → body-feedback → Hebbian strengthen → compiled.
-    → BẤT KỂ input source (tự thử, được dạy, absorb vô thức).
+  TIER 2 — HEBBIAN COMPILATION (individual-level, lifetime):
+    🟢 + 🟡: ALL learning throughout life = THIS MECHANISM.
+    → Experience → body-feedback → Hebbian strengthening → compiled.
+    → REGARDLESS of input source (self-tested, taught, absorbed unconsciously).
 
-    2 ĐƯỜNG VÀO cho cùng 1 cơ chế Hebbian:
+    2 PATHWAYS INTO the same 1 Hebbian mechanism:
 
     ┌───────────────────────────┬───────────────────────────┐
     │ 2a DOMAIN CONTACT         │ 2b TRUST-INJECTED         │
     ├───────────────────────────┼───────────────────────────┤
-    │ Body tiếp xúc domain      │ Entity khác truyền chunks │
-    │ trực tiếp                 │ qua trust amplifier       │
+    │ Body directly contacts    │ Another entity transmits  │
+    │ the domain                │ chunks via trust amplifier│
     │                           │                           │
-    │ Active: chạm lửa,        │ Bố mẹ dạy, thầy dạy,    │
-    │   lái xe, therapist       │   sách, tôn giáo, AI     │
-    │ Passive: giọng vùng,     │                           │
-    │   norms, gu thẩm mỹ      │                           │
+    │ Active: touching fire,    │ Parents teach, teacher    │
+    │   driving, therapist work │   teaches, books,         │
+    │ Passive: regional accent, │   religion, AI            │
+    │   social norms, aesthetic │                           │
+    │   sensibility             │                           │
     │                           │                           │
-    │ Multi-modal (5 kênh)      │ Thường 1-2 kênh (verbal) │
-    │ Domain verify MỖI lần     │ Verify: CHƯA (on trust)  │
-    │ KHÔNG cần trust amplifier │ CẦN trust amplifier       │
+    │ Multi-modal (5 channels)  │ Usually 1-2 channels      │
+    │ Domain verifies EACH time │   (verbal)                │
+    │ Does NOT need trust       │ Verify: NOT YET (on trust)│
+    │   amplifier               │ Needs trust amplifier     │
     │ Compile: THICK            │ Compile: THINNER          │
-    │ Speed: CHẬM               │ Speed: NHANH              │
+    │ Speed: SLOW               │ Speed: FAST               │
     └───────────────────────────┴───────────────────────────┘
 
-    → 2b inject SEED → 2a verify + DEEPEN = tối ưu (education design)
+    → 2b injects the SEED → 2a verifies + DEEPENS = optimal (education design)
     → Recursive: existing chunks filter + amplify domain contact
-      (expert thấy cái beginner KHÔNG thấy — cùng domain input)
+      (an expert sees what a beginner does NOT — same domain input)
 
-    TRUST MECHANISM CHI TIẾT (Trust.md v1.0, Compile-Taxonomy.md v3.0):
+    TRUST MECHANISM IN DETAIL (Trust.md v1.0, Compile-Taxonomy.md v3.0):
       2b = Trust Compile = Engine + Entity-Valence Bias dominant.
-      Trust formation: 4 nguồn (Direct > Observed > Schema > Context).
-      Trust = AMPLIFIER, NOT gate: amplify VALUE compile, NOT content compile.
-      → 2b CẦN trust vì chunks chưa qua domain verify → body dựa vào
-        prediction about entity's reliability (= trust compiled aggregate).
+      Trust formation: 4 sources (Direct > Observed > Schema > Context).
+      Trust = AMPLIFIER, NOT gate: amplifies VALUE compile, NOT content compile.
+      → 2b NEEDS trust because chunks haven't been domain-verified yet →
+          body relies on the prediction about the entity's reliability
+          (= compiled trust aggregate).
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
-  "CULTURE" VÀ "AI" = TÊN GỌI, KHÔNG PHẢI CƠ CHẾ RIÊNG:
-    Culture = 2a passive (social environment → compile vô thức) + 2b (accumulated transmission)
-    AI = newest 2b input source (inject chunks, body vẫn phải check)
-    Cumulative stacking = emergent property (2b × thế hệ), not separate mechanism
+  "CULTURE" AND "AI" = LABELS, NOT SEPARATE MECHANISMS:
+    Culture = 2a passive (social environment → unconscious compile) +
+              2b (accumulated transmission)
+    AI = newest 2b input source (injects chunks, body still has to check)
+    Cumulative stacking = emergent property (2b × across generations),
+      not a separate mechanism
 
 
   §6 ↔ §7 RELATIONSHIP:
-    §6 (3-Layer) = WHAT thay đổi (hardware / chunks / tools)
-    §7 (2-Tầng) = HOW body LEARNS (Darwinian / Hebbian)
-    → Bổ sung nhau, không mâu thuẫn.
+    §6 (3-Layer) = WHAT changes (hardware / chunks / tools)
+    §7 (2-Tier) = HOW the body LEARNS (Darwinian / Hebbian)
+    → Complementary, not contradictory.
 
 
   ⭐ COHERENCE ≠ TRUTH (3 failure modes):
 
-    Body check COHERENCE (pattern mới khớp cái đã biết?), KHÔNG check TRUTH.
+    Body checks COHERENCE (does new pattern fit what is already known?),
+    NOT TRUTH.
 
-    ① EVOLUTION LAG: body reward ĐÚNG cho environment CŨ, SAI cho MỚI
-       → Đường: evolution hiếm → reward "ngọt=quý" → modern dễ → nghiện
-       → MXH: ancestral novelty + social cues hiếm → reward "info mới=quý"
-         → modern feed vô hạn + đa dạng (mỗi post feed mini gap khác) → scroll
+    ① EVOLUTION LAG: body rewards what was CORRECT for the OLD environment,
+        which is WRONG for the NEW environment
+       → Sugar: evolution-era scarcity → rewards "sweet = precious" →
+           modern abundance → easy access → addiction
+       → Social media: ancestral novelty + social cues were scarce →
+           rewards "new information = precious" → modern infinite feed +
+           diverse content (each post fills a mini different gap) → scrolling
 
-    ② CHUNKS NỀN SAI: coherence khớp nhưng nền sai
-       → Flat Earth: nhìn thẳng=phẳng → coherent → body "đúng" → SAI domain
-       → "Cortisol = stress hormone" → coherent với pop science → SAI actual mechanism
+    ② FLAWED BASELINE CHUNKS: coherence fits but the baseline is wrong
+       → Flat Earth: looking straight = flat → coherent → body says "correct"
+           → domain reality says WRONG
+       → "Cortisol = stress hormone" → coherent with pop-science →
+           WRONG about the actual mechanism
 
-    ③ SCHEMA OVERRIDE: biết sai mà VẪN follow
-       → Nghiện: body "biết" xấu → schema "reward" compiled quá mạnh → override
-       → Procrastinate: PFC biết cần làm → "scroll=reward" override
+    ③ SCHEMA OVERRIDE: knowing it's wrong yet STILL following it
+       → Addiction: body "knows" it's harmful → "reward" schema compiled
+           too strongly → overrides
+       → Procrastination: PFC knows work is needed → "scrolling=reward"
+           overrides
 
-    → Body đúng ~90%+ (2 cơ chế calibrate). Sai ~10% (3 failure modes).
-    → EXTERNAL CHECK cần thiết cho 10%: người khác, AI, experiment, domain thật.
+    → Body correct ~90%+ (2 calibration mechanisms). Wrong at ~10% (3 failure modes).
+    → EXTERNAL CHECK needed for the 10%: other people, AI, experiment,
+        domain reality.
 
-  Chi tiết: Why-Body-Knows.md v1.2 §3
+  Detail: Why-Body-Knows.md v1.2 §3
 ```
 
 ---
@@ -1017,64 +1049,67 @@ Chi tiết: Inter-Body-Mechanism.md §9
 ## §8 — CIRCUIT BREAKER MECHANISM
 
 ```
-⭐ BODY = CIRCUIT BREAKER TỰ NHIÊN (Drill §6b):
+⭐ BODY = NATURAL CIRCUIT BREAKER (Drill §6b):
 
-  Body KHÔNG check chain logic (truth).
-  Body CHECK output: hành vi → body-feedback → PATTERN đánh giá.
+  Body does NOT check chain logic (truth).
+  Body CHECKS output: behavior → body-feedback → PATTERN evaluation.
 
   3 BREAK PATHWAYS:
 
   ① GRADUAL REVISION (slow, most common):
      → Output fails repeatedly → valence shifts slowly
      → Compiled pattern weakens over multiple episodes
-     → Ví dụ: công thức kinh doanh → thất bại nhiều lần → body dần bỏ
+     → Example: a business formula → fails many times → body gradually
+         abandons it
      → Timeline: weeks-months
 
   ② VIOLENT FLIP (fast, traumatic):
-     → Betrayal / extreme experience → valence FLIP immediately
+     → Betrayal / extreme experience → valence FLIPS immediately
      → Deep schema collapse (Valence-Propagation v4.1 §3: violent flip mechanism)
-     → Ví dụ: phản bội → chunks person VẪN ĐÓ, valence flip từ + sang -
+     → Example: betrayal → chunks of that person STILL EXIST, valence flips
+         from + to -
      → Timeline: instant (1 trial — emotional peak compile)
 
   ③ BODY DEFENSE (3 automatic circuit breakers):
-     → Detachment: cut empathy connection → Valence-Structural decoupling
+     → Detachment: cuts the empathy connection → Valence-Structural decoupling
      → Numbness: threshold habituated → signal no longer registers
-     → Avoidance behavior: compiled "tránh xa" pattern
-     → = Body self-protect khi override quá nhiều lần
+     → Avoidance behavior: compiled "stay away" pattern
+     → = Body self-protects when override happens too many times
 
 
   VALENCE-STRUCTURAL CEILING MECHANISM:
 
-    Có Valence-Structural entities (con, bạn thân = body-level feedback):
+    WITH Valence-Structural entities (children, close friends = body-level feedback):
       → Valence-Structural entities = natural circuit breaker
-      → Override chains bị CHẶN bởi Valence-Structural body-feedback
-      → Ví dụ: cha quá mê công việc → con ốm → body-feedback CẮT
+      → Override chains are BLOCKED by Valence-Structural body-feedback
+      → Example: a parent obsessed with work → child falls ill →
+          body-feedback CUTS through
 
-    Không có Valence-Structural:
-      → Override chains KHÔNG CÓ ceiling tự nhiên
+    WITHOUT Valence-Structural entities:
+      → Override chains have NO natural ceiling
       → Burnout emerges (no body-level signal to stop)
-      → Ví dụ: workaholic độc thân → nothing stops the chain
+      → Example: a workaholic living alone → nothing stops the chain
 
-    → Valence-Structural entities = built-in circuit breaker cho complex behavior
-    → = TẠI SAO connection matters beyond "feeling good"
+    → Valence-Structural entities = built-in circuit breaker for complex behavior
+    → = WHY connection matters beyond "feeling good"
 
 
   TIMING HIERARCHY:
     ① Body check (automatic, fast) — FIRST checkpoint
-    ② PFC observe (khi body signal problem) — SECOND checkpoint
+    ② PFC observe (when body signals a problem) — SECOND checkpoint
     ③ Chain analysis (diagnostic) — THIRD (post-break, framework level)
 
-    → Body is ALWAYS first responder
+    → Body is ALWAYS the first responder
     → PFC only engages WHEN body signals significant dissonance
     → Framework analysis = explanatory (understanding), not processing
 
 
   CONNECTION TO MODEL 3+1:
-    Circuit breaker = Component 1 (vô thức evaluate)
-    operating on compiled patterns tự động.
-    PFC (Component 2) only gets involved SAU body has already flagged.
+    Circuit Breaker = Component 1 (unconscious evaluation)
+    operating on compiled patterns automatically.
+    PFC (Component 2) only gets involved AFTER body has already flagged it.
 
-  Chi tiết: Drill-Compile-Short-Collective.md §6b
+  Detail: Drill-Compile-Short-Collective.md §6b
 ```
 
 ---
@@ -1082,80 +1117,90 @@ Chi tiết: Inter-Body-Mechanism.md §9
 ## §9 — BODY-FEEDBACK OVERVIEW
 
 ```
-⭐ BODY-FEEDBACK = SIGNAL ARCHITECTURE CỦA BODY-BASE:
+⭐ BODY-FEEDBACK = THE SIGNAL ARCHITECTURE OF BODY-BASE:
 
-  Body-Feedback/ folder (17 files, ~27,500L) chứa chi tiết.
-  Section này = overview. Chi tiết đầy đủ: Body-Feedback/Body-Feedback.md v3.1
+  Body-Feedback/ folder (17 files, ~27,500 lines) contains the full detail.
+  This section = overview. Full detail: Body-Feedback/Body-Feedback.md v3.1
 
 
   DUAL-PULL ARCHITECTURE (01-Foundation §2):
-    🟡 Schema bị kéo ĐỒNG THỜI bởi 2 lực:
-      ① HARDWARE PULL (bảo thủ, muốn smooth): comfort zone, routine
-      ② DOMAIN PULL (đòi adapt, map reality): learning, curiosity
-    Tension = EVOLUTIONARY FEATURE, not bug.
-    CẢ HAI → oscillation → thrive. Chỉ 1 → stagnation hoặc burnout.
+    🟡 A schema is pulled SIMULTANEOUSLY by 2 forces:
+      ① HARDWARE PULL (conservative, seeks smooth): comfort zone, routine
+      ② DOMAIN PULL (demands adaptation, maps reality): learning, curiosity
+    Tension = EVOLUTIONARY FEATURE, not a bug.
+    BOTH → oscillation → thriving. Only one → stagnation or burnout.
 
 
-  5 Body-Feedback-Preconditions FOR EVALUATIVE SIGNAL (Body-Feedback-Precondition.md v1.0):
-    🟡 Evaluative body signal = function of 5 preconditions ĐỒNG THỜI:
+  5 BODY-FEEDBACK-PRECONDITIONS FOR EVALUATIVE SIGNAL
+  (Body-Feedback-Precondition.md v1.0):
+    🟡 Evaluative body signal = function of 5 simultaneous preconditions:
 
-    ┌───┬──────────────────────┬──────────────────────────┐
-    │ # │ Precondition         │ Failure → subjective     │
-    ├───┼──────────────────────┼──────────────────────────┤
-    │ 1 │ Directed-Gap         │ "Không cần"              │
-    │ 2 │ Chunk-Substrate      │ "Chả hiểu"              │
-    │ 3 │ Delta-Gate           │ "Bình thường"            │
-    │ 4 │ Match-Range          │ "Quá lạ" / "quá quen"   │
-    │ 5 │ Compile-Gate         │ "Ghét dù hiểu"           │
-    └───┴──────────────────────┴──────────────────────────┘
-    ALL 5 REQUIRED. Direct-State signals KHÔNG cần Body-Feedback-Precondition.
+    ┌───┬──────────────────────┬──────────────────────────────┐
+    │ # │ Precondition         │ Failure → subjective         │
+    ├───┼──────────────────────┼──────────────────────────────┤
+    │ 1 │ Directed-Gap         │ "I don't need this"          │
+    │ 2 │ Chunk-Substrate      │ "I don't understand it"      │
+    │ 3 │ Delta-Gate           │ "This is normal / nothing    │
+    │   │                      │  new"                        │
+    │ 4 │ Match-Range          │ "Too strange" / "too         │
+    │   │                      │  familiar"                   │
+    │ 5 │ Compile-Gate         │ "I understand it but I hate  │
+    │   │                      │  it anyway"                  │
+    └───┴──────────────────────┴──────────────────────────────┘
+    ALL 5 REQUIRED. Direct-State signals do NOT need Body-Feedback-Precondition.
 
 
   3 GENUINE DISCOMFORT SOURCES (Body-Feedback §3.3):
-    ⭐ CORTISOL KHÔNG GÂY ĐAU. 3 nguồn đau THẬT:
+    ⭐ CORTISOL DOES NOT CAUSE PAIN. 3 real sources of pain:
     ① Nociception (physical damage)
     ② Mismatch (schema ≠ reality) — CORE of almost ALL dissonance
        → Split: hardware mismatch → Direct-State, compiled → Evaluative
     ③ Recalibration (neurons adjusting pattern — "gym for neurons")
-    → "Reduce cortisol" = WRONG strategy. "Fix mismatch" = RIGHT strategy.
+    → "Reduce cortisol" = WRONG strategy. "Fix the mismatch" = RIGHT strategy.
 ```
 
 ---
 
-## §10 — READING GUIDE CHO BODY-BASE/ FOLDER
+## §10 — READING GUIDE FOR BODY-BASE/ FOLDER
 
 ```
 BODY-BASE/ FOLDER OVERVIEW (~70+ files):
 
   Body-Base.md (THIS FILE)           — Entry point
-  ├── Why-Body-Knows.md v1.2         — META: tại sao body đáng tin
-  ├── Cortisol-Baseline.md v2.1      — Amplifier mechanism (3,059L)
-  ├── Valence-Propagation.md v4.1    — Valence definition + formation + propagation (~918L)
-  ├── Entity-Valence-Dynamics.md v1.1 — Per-entity dynamics, 3 firing modes, hardware-subsidy (~1,545L)
-  ├── Body-Coupling.md v3.0          — Coupling, 4 bond types, hardware-subsidy, Resonance Decline
+  ├── Why-Body-Knows.md v1.2         — META: why the body is trustworthy
+  ├── Cortisol-Baseline.md v2.1      — Amplifier mechanism (3,059 lines)
+  ├── Valence-Propagation.md v4.1    — Valence definition + formation +
+  │                                     propagation (~918 lines)
+  ├── Entity-Valence-Dynamics.md v1.1 — Per-entity dynamics, 3 firing modes,
+  │                                     Hardware-Subsidy (~1,545 lines)
+  ├── Body-Coupling.md v3.0          — Coupling, 4 bond types, Hardware-Subsidy,
+  │                                     Resonance Decline
   ├── Inter-Body-Mechanism.md v2.0   — 8 principles, Compilable Architecture
-  ├── Trust.md v1.0                  — Trust = compiled prediction, meta-dimension (~1,134L)
+  ├── Trust.md v1.0                  — Trust = compiled prediction,
+  │                                     meta-dimension (~1,134 lines)
   │
   ├── Body-Feedback/                 — Signal architecture (17 files, ~27,500L)
   │   ├── Body-Feedback.md v3.1      — Synthesis entry point
   │   ├── Body-Feedback-Mechanism.md v2.1 — Chunk dynamics, Body-Need aggregate
   │   ├── Body-Feedback-Label.md v2.1 — Vocabulary reference (3-tier)
   │   ├── Body-Feedback-Precondition.md v1.0 — 5 preconditions, WHEN signal fires
-  │   ├── Gap-Direction.md v2.0      — Gap có hướng cụ thể
+  │   ├── Gap-Direction.md v2.0      — Gaps have a specific direction
   │   ├── Gap-Body-Need.md v1.0      — 3 satiation types, ENGINE/ROAD/VEHICLE
   │   ├── Gap-Distribution-Profile.md v1.1 — 5-parameter, technology fill
   │   ├── Reward-Signal-Architecture.md v2.1 — Evaluative/Direct-State, 5 Profiles
-  │   ├── Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State Dissonance
+  │   ├── Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State
+  │   │                                              Dissonance
   │   ├── Reward-Calibration.md v1.1 — Goldilocks per-gap, 6 mechanisms
   │   ├── Hidden-Quality-Perception.md v1.0 — 2 types, Dunning-Kruger meta
-  │   ├── Action-Space.md v1.0       — Supply-side, 4 trục, DEMAND × SUPPLY
-  │   ├── Drill-Evolutionary-Sensor-Architecture.md v1.0 — WHY architecture
+  │   ├── Action-Space.md v1.0       — Supply-side, 4 axes, DEMAND × SUPPLY
+  │   ├── Drill-Evolutionary-Sensor-Architecture.md v1.0 — WHY the architecture
   │   ├── Drill-Body-Feedback/01-Foundation.md — Dual-Pull, Interface Loop
   │   ├── Drill-Body-Feedback/02-Dissonance.md — 14 levels, trauma loop
-  │   ├── Drill-Body-Feedback/03-Reward.md — Body-Feedback-Precondition, ô tô paradox
+  │   ├── Drill-Body-Feedback/03-Reward.md — Body-Feedback-Precondition, car
+  │   │                                        paradox
   │   └── Drill-Body-Feedback/04-Integration.md — Unified cycle, walkthroughs
   │
-  ├── Feeling/                       — PFC observation system (~7,700L)
+  ├── Feeling/                       — PFC observation system (~7,700 lines)
   │   ├── Feeling.md v3.0            — Central reference (WHAT + HOW)
   │   ├── Body-Knowing.md v1.0       — Compiled knowing, 3 directions, Dual Check
   │   ├── Feeling-Mechanism-Deep-Draft.md  — 8-step flow, reward
@@ -1167,7 +1212,7 @@ BODY-BASE/ FOLDER OVERVIEW (~70+ files):
   │   ├── Drill-Feeling-Dev/         — 124 examples trajectory
   │   └── Drill-Feeling-Knowning/    — 6 themes + synthesis
   │
-  ├── Chunk/                         — Chunk system (~55,000L)
+  ├── Chunk/                         — Chunk system (~55,000 lines)
   │   ├── Chunk.md v3.0              — Core reference (4-phase lifecycle)
   │   ├── Compile-Taxonomy.md v3.0   — 1 Engine + 3 Modulators, 3 Compile Types
   │   ├── Compile-Sleep.md v1.0      — Sleep Maintenance (6 mechanisms, offline)
@@ -1175,15 +1220,17 @@ BODY-BASE/ FOLDER OVERVIEW (~70+ files):
   │   │
   │   ├── Drill-Chunk/               — Deep analysis drills
   │   │   ├── 99-Master-Synthesis.md — Unified lifecycle
-  │   │   ├── 09-Learning-Cycle.md   — Chu kỳ học
+  │   │   ├── 09-Learning-Cycle.md   — Learning cycle
   │   │
   │   ├── Agent-Mechanism/           — Per-entity mechanism (11 files)
   │   │   ├── Agent-Mechanism.md v2.1 — Master: 10 dimensions
-  │   │   ├── Self-Pattern-Modeling.md v3.2 — Solo simulation, 1 mechanism × 3 dimensions
+  │   │   ├── Self-Pattern-Modeling.md v3.2 — Solo simulation,
+  │   │   │                                    1 mechanism × 3 dimensions
   │   │   ├── Entity-Compiled.md v1.0 — Neural reality, formation, Dunbar
-  │   │   ├── Entity-Access.md v1.2   — Gradient Mức 0-5
+  │   │   ├── Entity-Access.md v1.2   — Gradient Level 0-5
   │   │   ├── Entity-Access-Excess.md v1.0 — Excess territory, addiction
-  │   │   ├── Entity-Access-Calibration.md v1.0 — Self-regulation, hardware-subsidy
+  │   │   ├── Entity-Access-Calibration.md v1.0 — Self-regulation,
+  │   │   │                                         Hardware-Subsidy
   │   │   ├── Bond-Architecture.md v2.0 — 1 mechanism × 4 bond types
   │   │   ├── By-Product-Gap-Resonance.md v1.4 — Mutual match, 5 drills
   │   │   ├── Resonance-Sustainability.md v1.0 — 4-layer, 3 conditions
@@ -1196,7 +1243,7 @@ BODY-BASE/ FOLDER OVERVIEW (~70+ files):
   │
   ├── Schema/                        — Schema system
   │   ├── Schema.md                  — Schema = observation parameter
-  │   ├── Anchor-Schema.md           — Sync point + 4 nguồn
+  │   ├── Anchor-Schema.md           — Sync point + 4 sources
   │   ├── Anchor-Schema-Example.md   — 24 healthy examples
   │   └── Anchor-Schema-Extreme-Example.md — Failure modes
   │
@@ -1209,12 +1256,12 @@ BODY-BASE/ FOLDER OVERVIEW (~70+ files):
 
 READING PATHS:
 
-  Quick orientation (~1 giờ):
+  Quick orientation (~1 hour):
     1. THIS FILE (Body-Base.md)
     2. Body-Feedback/Body-Feedback.md
     3. Why-Body-Knows.md
 
-  Core mechanism deep dive (~3-5 giờ):
+  Core mechanism deep dive (~3-5 hours):
     1. THIS FILE
     2. Chunk/Chunk.md v3.0
     3. Valence-Propagation.md v4.1
@@ -1223,13 +1270,13 @@ READING PATHS:
     5. Cortisol-Baseline.md v2.1
     6. Inter-Body-Mechanism.md v2.0
 
-  Trust + Compile Architecture deep dive (~3-4 giờ):
+  Trust + Compile Architecture deep dive (~3-4 hours):
     1. Trust.md v1.0 (trust mechanism — 3 sub-dimensions, formation, dynamics)
     2. Compile-Taxonomy.md v3.0 (1 Engine + 3 Modulators)
     3. Compile-Sleep.md v1.0 (Sleep Maintenance, 6 mechanisms)
     4. Chunk/Chunk.md v3.0 (chunk substrate)
 
-  Agent-Mechanism deep dive (~4-6 giờ):
+  Agent-Mechanism deep dive (~4-6 hours):
     1. THIS FILE §3-§4 (Model 3+1, compile)
     2. Entity-Compiled.md v1.0 (neural reality)
     3. Entity-Access.md v1.2 (gradient model)
@@ -1238,21 +1285,21 @@ READING PATHS:
     6. Resonance-Sustainability.md v1.0 (sustainability)
     7. Self-Pattern-Modeling.md v3.2 (solo simulation)
 
-  Feeling system (~2-3 giờ):
+  Feeling system (~2-3 hours):
     1. THIS FILE §1-§2
     2. Feeling/Feeling.md v3.0
     3. Body-Feedback/01-Foundation.md §5 (body-feedback vs feeling)
     4. PFC/Self-Observation.md v1.0 (APPLICATION-3, keystone)
 
-  Framework theory (~2 giờ):
+  Framework theory (~2 hours):
     1. THIS FILE §1-§4 (foundations + core principles + compile)
     2. PFC/PFC-Function.md
     3. PFC/Simulation-Engine.md v1.2
     4. Neural-Architecture.md
     5. Why-Body-Knows.md
 
-  Inter-Body deep dive (~2 giờ):
-    1. THIS FILE §1.2-§1.3 (3 foundations + body-need)
+  Inter-Body deep dive (~2 hours):
+    1. THIS FILE §1.2-§1.3 (3 foundations + Body-Need)
     2. Inter-Body-Mechanism.md v2.0
     3. Body-Feedback-Mechanism.md v2.1
     4. Entity-Valence-Dynamics.md v1.1 §2 (Entity-Compiled)
@@ -1263,7 +1310,7 @@ READING PATHS:
 ## §11 — HONEST ASSESSMENT
 
 ```
-🟢 HIGH CONFIDENCE:
+🟢 HIGH CONFIDENCE (Research Support):
 
   ✓ Evolution calibration (Darwin, established)
   ✓ Mere exposure effect (Zajonc 1968)
@@ -1271,7 +1318,7 @@ READING PATHS:
   ✓ Wanting ≠ liking (Berridge & Robinson 1998, 2003)
   ✓ Somatic markers (Damasio 1994)
   ✓ PFC sub-regions + functions (decades of research)
-  ✓ WM ~4±1 (Cowan 2001)
+  ✓ Working memory ~4±1 (Cowan 2001)
   ✓ Hebbian learning (Hebb 1949)
   ✓ Sleep consolidation (Walker 2017)
   ✓ Reconsolidation window (Nader 2000)
@@ -1280,79 +1327,103 @@ READING PATHS:
   ✓ Anterior insula interoception (Craig 2002, 2009)
   ✓ NE α1 PFC disconnect (Arnsten 2009)
   ✓ Hedonic adaptation (Brickman 1978)
-  ✓ Loss aversion ~2x (Kahneman & Tversky 1979)
-  ✓ Social-physical pain overlap (Eisenberger 2003) [v3.0]
-  ✓ μ-opioid in social play (Panksepp 1998) [v3.0]
-  ✓ Social Baseline Theory (Coan & Sbarra 2015) [v3.0]
-  ✓ Dual inheritance genes + culture (Boyd & Richerson 2005) [v3.0]
-  ✓ Cumulative cultural evolution (Tomasello 2009) [v3.0]
-  ✓ Pain 2-component (Melzack & Casey 1968, Rainville 1997, Price 2000) [v3.3]
-  ✓ Placebo/Nocebo mechanism (Wager 2004, Zubieta 2005, Colloca & Benedetti 2005) [v3.3]
-  ✓ Negativity bias (Baumeister 2001, Rozin & Royzman 2001) [v3.3]
-  ✓ Amygdala fast path ~12ms (LeDoux 1996) [v3.3]
-  ✓ Trust 3 antecedents: ability, benevolence, integrity (Mayer, Davis & Schoorman 1995) [v4.0]
-  ✓ Trust separable from liking (Colquitt et al. 2007, meta-analysis) [v4.0]
-  ✓ Trust builds through repeated interactions (Lewicki et al. 2006) [v4.0]
-  ✓ Trust asymmetry: hard to gain, easy to lose (Slovic 1993) [v4.0]
-  ✓ Betrayal trauma (Freyd 1996) [v4.0]
-  ✓ Epistemic trust in children (Csibra & Gergely 2009) [v4.0]
+  ✓ Loss aversion ~2× (Kahneman & Tversky 1979)
+  ✓ Social-physical pain overlap (Eisenberger 2003)
+  ✓ μ-opioid in social play (Panksepp 1998)
+  ✓ Social Baseline Theory (Coan & Sbarra 2015)
+  ✓ Dual inheritance genes + culture (Boyd & Richerson 2005)
+  ✓ Cumulative cultural evolution (Tomasello 2009)
+  ✓ Pain 2-component (Melzack & Casey 1968, Rainville 1997, Price 2000)
+  ✓ Placebo/Nocebo mechanism (Wager 2004, Zubieta 2005, Colloca & Benedetti 2005)
+  ✓ Negativity bias (Baumeister 2001, Rozin & Royzman 2001)
+  ✓ Amygdala fast path ~12ms (LeDoux 1996)
+  ✓ Trust 3 antecedents: ability, benevolence, integrity
+      (Mayer, Davis & Schoorman 1995)
+  ✓ Trust separable from liking (Colquitt et al. 2007, meta-analysis)
+  ✓ Trust builds through repeated interactions (Lewicki et al. 2006)
+  ✓ Trust asymmetry: hard to gain, easy to lose (Slovic 1993)
+  ✓ Betrayal trauma (Freyd 1996)
+  ✓ Epistemic trust in children (Csibra & Gergely 2009)
 
 
 🟡 MEDIUM CONFIDENCE (Framework Synthesis):
 
   ⚠ "Body evaluates patterns not reality" as UNIFIED principle
-    (each case established, unifying integration = novel)
-  ⚠ Model 3+1 (components established, 3+1 organization = novel)
+    (each case established; unifying integration = novel)
+  ⚠ Model 3+1 (components established; 3+1 organization = novel)
   ⚠ "PFC = director, body = compiler" framing
-    (roles established, metaphor = novel)
-  ⚠ Trust as BRIDGE component (mechanism established, positioning = novel)
-  ⚠ L0-L1 substrate model (components established, organization = novel)
-  ⚠ 2-tier + 2-pathway calibration model (each component established, integration = novel)
+    (roles established; metaphor = novel)
+  ⚠ Trust as BRIDGE component (mechanism established; positioning = novel)
+  ⚠ L0-L1 substrate model (components established; organization = novel)
+  ⚠ 2-tier + 2-pathway calibration model (each component established;
+    integration = novel)
   ⚠ Blackbox-1 + Blackbox-2 convergence (novel insight from Drill §26)
-  ⚠ Circuit breaker 3 pathways (mechanisms established, taxonomy = novel)
-  ⚠ Dual-pull as architectural principle (each pull established, 2-force = novel)
-  ⚠ 5 Body-Feedback-Preconditions model (each precondition grounded, ALL-5 = novel)
-  ⚠ 3 Loại compile taxonomy (components established, taxonomy = novel)
-  ⚠ Valence-Structural ceiling mechanism (mechanism plausible, not directly tested)
+  ⚠ Circuit breaker 3 pathways (mechanisms established; taxonomy = novel)
+  ⚠ Dual-pull as architectural principle (each pull established;
+    2-force framing = novel)
+  ⚠ 5 Body-Feedback-Preconditions model (each precondition grounded;
+    ALL-5 required = novel)
+  ⚠ 3 compile type taxonomy (components established; taxonomy = novel)
+  ⚠ Valence-Structural ceiling mechanism (mechanism plausible;
+    not directly tested)
   ⚠ Modulatory vs Processing × L0-L1 mapping (Parkinson drill validates)
   ⚠ Braak staging confirms bottom-up architecture
-  ⚠ 3 Hardware Foundations → Compilable Architecture (neuroscience 🟢, synthesis = 🟡) [v3.0]
-  ⚠ Hardwired/Compilable Architecture naming (mechanism established, naming = novel) [v3.0]
-  ⚠ Body-Need as named aggregate (mechanism established, naming = novel) [v3.0]
-  ⚠ Compiled/Fresh reframe (consistent w/ Kahneman, reframe = novel) [v3.0]
-  ⚠ 3-Layer Evolution model (dual inheritance 🟢, 3-layer organization = 🟡) [v3.0]
-  ⚠ Protect = observation parameter, NOT operator (reframe, consistent) [v3.0]
-  ⚠ Money = bridge technology (function established, naming = novel) [v3.0]
-  ⚠ Entity-Access gradient Mức 0-5 (trust research 🟢, gradient model = 🟡) [v3.2]
-  ⚠ Entity-Compiled = neural reality (neuroscience 🟢, naming = 🟡) [v3.2]
-  ⚠ Bond-Architecture 4 types (attachment research 🟢, taxonomy = 🟡) [v3.2]
-  ⚠ Hardware-Subsidy as named mechanism (oxytocin/opioid 🟢, concept = 🟡) [v3.2]
-  ⚠ 4 firing modes Tonic/Phasic/Compound/Cascade (neurochemistry 🟢, 4-mode taxonomy = 🟡) [v3.2]
-  ⚠ 3 Satiation types ENGINE/ROAD/VEHICLE (receptor dynamics 🟢, metaphor = 🟡) [v3.2]
-  ⚠ Simulation-Engine 3-component model (PFC sim research 🟢, formalization = 🟡) [v3.2]
-  ⚠ Evaluative/Direct-State Dissonance = orthogonal dimension (pain 2-comp 🟢, unification = 🟡) [v3.3]
-  ⚠ Mismatch Splitting: hardware vs compiled sub-types (each grounded, splitting = 🟡) [v3.3]
-  ⚠ Numbness-Proof ↔ Burnout-Proof symmetry (each side grounded, symmetric framing = 🟡) [v3.3]
-  ⚠ Asymmetric Transition Speed: reward→dissonance FAST, reverse SLOW (negativity bias 🟢, localization = 🟡) [v3.3]
-  ⚠ E₀→E₃ applied to BOTH reward + dissonance (evaluation complexity, not reward-specific = 🟡) [v3.3]
-  ⚠ Clinical mappings: dissociation/alexithymia/anxiety/chronic pain via 2-type (clinical 🟢, mapping = 🟡) [v3.3]
-  ⚠ Placebo/Nocebo = Evaluative Gates Direct-State proof for dissonance (placebo 🟢, architecture = 🟡) [v3.3]
-  ⚠ Trust = compiled prediction about reliability (Mayer 🟢, framing = 🟡) [v4.0]
-  ⚠ Trust 3 sub-dimensions: Authority/Competence/Intention (Mayer 🟢, Authority addition = 🟡) [v4.0]
-  ⚠ 1 Engine + 3 Modulators compile architecture (Hebbian 🟢, architecture unification = 🟡) [v4.0]
-  ⚠ Trust = Amplifier NOT Gate (Hebbian 🟢, gate/amplifier distinction = 🟡) [v4.0]
-  ⚠ Sleep = 6-mechanism maintenance system (Walker 🟢, 6-mechanism taxonomy = 🟡) [v4.0]
-  ⚠ Self-Observation gradient Mức 0-6 (interoception 🟢, gradient formalization = 🟡) [v4.0]
-  ⚠ Self-Observation Keystone Property: fail → cascade 5+ systems (alexithymia 🟢, cascade model = 🟡) [v4.0]
-  ⚠ Multi-Stream compile: Content/Value/Entity/Behavior (neuroscience 🟢, 4-stream taxonomy = 🟡) [v4.0]
+  ⚠ 3 Hardware Foundations → Compilable Architecture (neuroscience 🟢;
+    synthesis = 🟡)
+  ⚠ Hardwired/Compilable Architecture naming (mechanism established;
+    naming = novel)
+  ⚠ Body-Need as named aggregate (mechanism established; naming = novel)
+  ⚠ Compiled/Fresh reframe (consistent with Kahneman; reframe = novel)
+  ⚠ 3-Layer Evolution model (dual inheritance 🟢; 3-layer organization = 🟡)
+  ⚠ Protect = observation parameter, NOT operator (reframe; consistent)
+  ⚠ Money = bridge technology (function established; naming = novel)
+  ⚠ Entity-Access gradient Level 0-5 (trust research 🟢; gradient model = 🟡)
+  ⚠ Entity-Compiled = neural reality (neuroscience 🟢; naming = 🟡)
+  ⚠ Bond-Architecture 4 types (attachment research 🟢; taxonomy = 🟡)
+  ⚠ Hardware-Subsidy as named mechanism (oxytocin/opioid 🟢; concept = 🟡)
+  ⚠ 4 firing modes Tonic/Phasic/Compound/Cascade (neurochemistry 🟢;
+    4-mode taxonomy = 🟡)
+  ⚠ 3 satiation types ENGINE/ROAD/VEHICLE (receptor dynamics 🟢;
+    metaphor = 🟡)
+  ⚠ Simulation-Engine 3-component model (PFC simulation research 🟢;
+    formalization = 🟡)
+  ⚠ Evaluative/Direct-State Dissonance = orthogonal dimension (pain
+    2-component 🟢; unification = 🟡)
+  ⚠ Mismatch Splitting: hardware vs compiled sub-types (each grounded;
+    splitting = 🟡)
+  ⚠ Numbness-Proof ↔ Burnout-Proof symmetry (each side grounded;
+    symmetric framing = 🟡)
+  ⚠ Asymmetric Transition Speed: reward→dissonance FAST, reverse SLOW
+    (negativity bias 🟢; localization = 🟡)
+  ⚠ E₀→E₃ applied to BOTH reward + dissonance (evaluation complexity,
+    not reward-specific = 🟡)
+  ⚠ Clinical mappings: dissociation/alexithymia/anxiety/chronic pain via
+    2-type (clinical 🟢; mapping = 🟡)
+  ⚠ Placebo/Nocebo = Evaluative Gates Direct-State proof for dissonance
+    (placebo 🟢; architecture = 🟡)
+  ⚠ Trust = compiled prediction about reliability (Mayer 🟢; framing = 🟡)
+  ⚠ Trust 3 sub-dimensions: Authority/Competence/Intention
+    (Mayer 🟢; Authority addition = 🟡)
+  ⚠ 1 Engine + 3 Modulators compile architecture
+    (Hebbian 🟢; architecture unification = 🟡)
+  ⚠ Trust = Amplifier NOT Gate (Hebbian 🟢; gate/amplifier distinction = 🟡)
+  ⚠ Sleep = 6-mechanism maintenance system (Walker 🟢; 6-mechanism
+    taxonomy = 🟡)
+  ⚠ Self-Observation gradient Level 0-6 (interoception 🟢;
+    gradient formalization = 🟡)
+  ⚠ Self-Observation Keystone Property: fail → cascade across 5+ systems
+    (alexithymia 🟢; cascade model = 🟡)
+  ⚠ Multi-Stream compile: Content/Value/Entity/Behavior
+    (neuroscience 🟢; 4-stream taxonomy = 🟡)
 
 
-🔴 LOW CONFIDENCE:
+🔴 LOW CONFIDENCE (Hypothesis):
 
   ⚠ Body accuracy "~90%" estimate (qualitative, not measurable)
-  ⚠ Vô thức "~95%" / PFC "~5%" ratio (heuristic, not measured)
-  ⚠ Goldilocks zone boundaries (inverted-U established, dynamic per person/context)
-  ⚠ "Melody hay" sustainability prediction (logical but untested)
+  ⚠ Unconscious "~95%" / PFC "~5%" ratio (heuristic, not measured)
+  ⚠ Goldilocks zone boundaries (inverted-U established; dynamic per
+    person/context)
+  ⚠ Sustainability prediction for "beautiful music" (logical but untested)
 ```
 
 ---
@@ -1361,20 +1432,30 @@ READING PATHS:
 
 ```
 WITHIN BODY-BASE/ FOLDER:
-  Why-Body-Knows.md v1.2    — 2-tier + 2-pathway calibration, coherence ≠ truth, Simulation-Engine
+  Why-Body-Knows.md v1.2    — 2-tier + 2-pathway calibration, coherence ≠ truth,
+                               Simulation-Engine
   Cortisol-Baseline.md v2.1 — amplifier mechanism, 10 touchpoints, direction > level
-  Valence-Propagation.md v4.1 — valence definition, formation, propagation (companion: Entity-Valence-Dynamics.md v1.1)
-  Body-Coupling.md v3.0     — coupling, 4 bond types, hardware-subsidy, Resonance Decline, anti-suppress
-  Trust.md v1.0              — compiled prediction, 3 sub-dimensions, formation 4 nguồn, dynamics asymmetry, 29 citations
-  Body-Feedback/            — signal architecture, Dual-Pull, Body-Feedback-Precondition, trauma loop
-  Body-Feedback-Mechanism.md v2.1 — chunk dynamics, Body-Need aggregate, 3 dynamics
+  Valence-Propagation.md v4.1 — valence definition, formation, propagation
+                               (companion: Entity-Valence-Dynamics.md v1.1)
+  Body-Coupling.md v3.0     — coupling, 4 bond types, Hardware-Subsidy,
+                               Resonance Decline, anti-suppress
+  Trust.md v1.0              — compiled prediction, 3 sub-dimensions, 4 formation
+                               sources, dynamics asymmetry, 29 citations
+  Body-Feedback/            — signal architecture, Dual-Pull,
+                               Body-Feedback-Precondition, trauma loop
+  Body-Feedback-Mechanism.md v2.1 — chunk dynamics, Body-Need aggregate,
+                               3 dynamics
   Body-Feedback-Label.md v2.1 — vocabulary reference, 3-tier labels
-  Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State Dissonance, mismatch split, clinical
-  Body-Feedback-Precondition.md v1.0 — 5 preconditions, WHEN signal fires, conjunction logic
-  Gap-Body-Need.md v1.0     — 3 satiation types, ENGINE/ROAD/VEHICLE, entity-gap matching
+  Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State Dissonance,
+                               mismatch split, clinical
+  Body-Feedback-Precondition.md v1.0 — 5 preconditions, WHEN signal fires,
+                               conjunction logic
+  Gap-Body-Need.md v1.0     — 3 satiation types, ENGINE/ROAD/VEHICLE,
+                               entity-gap matching
   Gap-Distribution-Profile.md v1.1 — 5-parameter, technology fill, PFC budget
   Hidden-Quality-Perception.md v1.0 — 2 types (Expert+Leader), Dunning-Kruger meta
-  Reward-Signal-Architecture.md v2.1 — Evaluative:Direct-State ratio, reward calibration
+  Reward-Signal-Architecture.md v2.1 — Evaluative:Direct-State ratio,
+                               reward calibration
   Feeling/                  — PFC observation interface, 7-layer fidelity
   Feeling/Body-Knowing.md v1.0 — compiled knowing, 3 directions, Dual Check
   Chunk/Chunk.md v3.0       — sole substrate, 4-phase lifecycle, Compile Architecture
@@ -1387,32 +1468,36 @@ WITHIN BODY-BASE/ FOLDER:
 AGENT-MECHANISM/ FOLDER (11 files):
   Agent-Mechanism.md v2.1   — master: 10 dimensions per-entity
   Self-Pattern-Modeling.md v3.2 — solo simulation, 1 mechanism × 3 dimensions
-  Entity-Compiled.md v1.0   — neural reality, formation 40→200h, Dunbar ~150, grief A+B+C
-  Entity-Access.md v1.2     — gradient Mức 0-5, per-entity access model
+  Entity-Compiled.md v1.0   — neural reality, formation 40→200h, Dunbar ~150,
+                               grief A+B+C
+  Entity-Access.md v1.2     — gradient Level 0-5, per-entity access model
   Entity-Access-Excess.md v1.0 — excess territory, when access becomes addiction
-  Entity-Access-Calibration.md v1.0 — self-regulation, hardware-subsidy, failure modes
-  Bond-Architecture.md v2.0 — 1 mechanism × 4 bond types, Resonance Decline, gap-clone proof
+  Entity-Access-Calibration.md v1.0 — self-regulation, Hardware-Subsidy, failure modes
+  Bond-Architecture.md v2.0 — 1 mechanism × 4 bond types, Resonance Decline,
+                               gap-clone proof
   By-Product-Gap-Resonance.md v1.4 — mutual match, 5 drills, sustainability bridge
   Resonance-Sustainability.md v1.0 — 4-layer, 3 conditions, 3 modalities, U-curve
-  Resonance-Per-Entity.md v1.0 — per-relationship dynamics, hardware-subsidy spectrum
+  Resonance-Per-Entity.md v1.0 — per-relationship dynamics, Hardware-Subsidy spectrum
   By-Product-Scale.md v1.0  — 1 mechanism × 3 scales (pair/hub/institutional)
 
 INTER-BODY:
-  Inter-Body-Mechanism.md v2.0 — 8 principles, Compilable Architecture, 5-channel, 3-cost
+  Inter-Body-Mechanism.md v2.0 — 8 principles, Compilable Architecture, 5-channel,
+                               3-cost
   (Drill files → Core-Deep-Dive/backup/Drill-Inter-Body-Mechanism/)
 
 PFC/ FOLDER:
-  PFC-Function.md           — 24 functions, 95/5 split, "PFC tạo context"
+  PFC-Function.md           — 24 functions, 95/5 split, "PFC creates context"
   PFC-Operations.md v1.3    — Hold/Suppress, Budget, Compiled Quality
   Simulation-Engine.md v1.2 — 1 engine, 3 components, 3 axes, N applications
-  Self-Observation.md v1.0  — APPLICATION-3 (Self, Present, Observe), Mức 0-6, Keystone
+  Self-Observation.md v1.0  — APPLICATION-3 (Self, Present, Observe),
+                               Level 0-6, Keystone
   PFC-Label.md v1.1         — vocabulary reference, 13 domains, 3-tier labels
   PFC-Hardware.md           — COMT, DRD4, NE, hardware variation
   Attention-Spectrum.md v2.1 — attention hardware, COMT/DRD4
   PFC-Development.md        — lifecycle, training
-  PFC-Hold-Dimensions.md    — tại sao ~4±1 (6 convergent forces)
+  PFC-Hold-Dimensions.md    — why ~4±1 (6 convergent forces)
   Logic-Feeling.md          — Body-Knowing + observer labels, Compiled/Fresh spectrum
-  Logic-Feeling-Balance.md  — meta-principle, infinite regress, mỗi người tự cân bằng
+  Logic-Feeling-Balance.md  — meta-principle, infinite regress, balance per person
   Imagination/              — Imagine-Final v3.1, Somatic-Articulation-Loop
 
 OBSERVATION/ FOLDER:
@@ -1429,7 +1514,8 @@ NEURAL + DOMAIN:
 
 DRILL SOURCES:
   Drill-Draft/Drill-Compile-Short-Collective.md — §6b, §19, §21, §23, §26
-  Drill-Draft/Drill-L2-Phenomenology-Emptiness.md — L2, emptiness, 2 cơ chế nền
+  Drill-Draft/Drill-L2-Phenomenology-Emptiness.md — L2, emptiness,
+    2 foundational mechanisms
   plan-Phase-E-Refinement.md — E1-E5 sequence
 
 HEALTH CONDITIONS:
@@ -1447,32 +1533,32 @@ KEY RESEARCH:
   Hebb (1949) — Hebbian learning
   Walker (2017) — sleep consolidation
   Nader (2000) — reconsolidation
-  Cowan (2001) — WM ~4±1
+  Cowan (2001) — working memory ~4±1
   Zajonc (1968) — mere exposure
   Berlyne (1960) — optimal novelty
-  Eisenberger (2003) — social-physical pain overlap [v3.0]
-  Panksepp (1998) — μ-opioid social play [v3.0]
-  Coan & Sbarra (2015) — Social Baseline Theory [v3.0]
-  Boyd & Richerson (2005) — dual inheritance [v3.0]
-  Tomasello (2009) — cumulative cultural evolution [v3.0]
-  Klein (1998) — recognition-primed decisions [v3.0]
-  Kahneman (2011) — System 1/2 ≈ Compiled/Fresh [v3.0]
-  Mayer, Davis & Schoorman (1995) — trust 3 antecedents [v4.0]
-  Colquitt et al. (2007) — trust separable from liking [v4.0]
-  Lewicki et al. (2006) — trust builds through repeated interactions [v4.0]
-  Slovic (1993) — trust asymmetry [v4.0]
-  Freyd (1996) — betrayal trauma [v4.0]
-  Csibra & Gergely (2009) — epistemic trust [v4.0]
+  Eisenberger (2003) — social-physical pain overlap
+  Panksepp (1998) — μ-opioid social play
+  Coan & Sbarra (2015) — Social Baseline Theory
+  Boyd & Richerson (2005) — dual inheritance
+  Tomasello (2009) — cumulative cultural evolution
+  Klein (1998) — recognition-primed decisions
+  Kahneman (2011) — System 1/2 ≈ Compiled/Fresh
+  Mayer, Davis & Schoorman (1995) — trust 3 antecedents
+  Colquitt et al. (2007) — trust separable from liking
+  Lewicki et al. (2006) — trust builds through repeated interactions
+  Slovic (1993) — trust asymmetry
+  Freyd (1996) — betrayal trauma
+  Csibra & Gergely (2009) — epistemic trust
 ```
 
 ---
 
 > **Body-Base.md v4.0**
 >
-> Entry point cho toàn bộ Body-Base system.
-> Foundation layer: mọi thứ trong framework build trên body-base.
+> Entry point for the entire Body-Base system.
+> Foundation layer: everything in the framework builds on body-base.
 >
-> v4.0 tích hợp 4 file nền tảng mới:
+> v4.0 integrates 4 new foundation files:
 >   Compile-Taxonomy v3.0 (1 Engine + 3 Modulators), Compile-Sleep v1.0 (Sleep Maintenance),
 >   Trust v1.0 (compiled prediction, 3 sub-dimensions, dynamics), Self-Observation v1.0 (APPLICATION-3, keystone).
 >
@@ -1485,9 +1571,14 @@ KEY RESEARCH:
 >   §6: 3-Layer Evolution (Hardware → Compiled → Cultural)
 >   §7: 2-tier calibration + Trust mechanism detail
 >   §8: Circuit breaker (3 pathways, Valence-Structural ceiling)
->   §9: Body-feedback overview (rút gọn — pointer to Body-Feedback.md v3.1)
+>   §9: Body-feedback overview (condensed — pointer to Body-Feedback.md v3.1)
 >
-> Schema phục vụ body-base. Body is final arbiter of value.
+> Schemas serve body-base. Body is the final arbiter of value.
 >
-> Phiên bản: v4.0, 2026-06-02.
-> Changelog v1.0-v3.4: backup/Body-Base-v3.4-changelog.md
+> Version: v4.0, 2026-06-02.
+
+---
+
+*English translation of Body-Base.md (Vietnamese source, v4.0)*
+*Translation target: English-speaking audience — rewritten for clarity and natural English expression.*
+*All framework vocabulary preserved exactly as defined in the Human Predictive Drive Framework.*

@@ -1,46 +1,42 @@
 ---
 title: Empathy — Observation Parameter
-version: 4.0
-created: 2026-04-18
-rewritten: 2026-05-22 (v4.0 — REWRITE integrating ALL Phase A+B+T)
-status: OBSERVATION PARAMETER v4.0
+version: 1.0 (English)
+source_version: 4.0 (Vietnamese, 2026-05-22)
+translated: 2026-06-11
+status: OBSERVATION PARAMETER v1.0 (English)
 scope: |
-  OBSERVATION FILE: Empathy = named pattern khi Self-Pattern-Modeling Compiled fire on agent
-  với ❸ positive valence → body CỦA MÌNH respond bản sao yếu state NGƯỜI KHÁC.
-  Empathy KHÔNG phải module riêng — là 1 OBSERVABLE OUTPUT
-  của connection mechanism (❶ Hardware × ❷ Self-Pattern-Modeling × ❸ Valence).
-  v4.0 KEY CHANGE (REWRITE — Phase C2):
-    - +PFC budget × empathy: Fresh empathy = PFC cost, competes with MỌI hoạt động
-    - +Compiled Quality × empathy: genuine/schema/threat → burnout prediction
-    - +Burnout reframe: Compiled-Suppress + PFC depletion, NOT "too much empathy"
-    - +Hardware-Subsidy × empathy: persistence khác nhau per entity type
-    - +Per-entity empathy profiles: mẹ→con, bạn thân, romantic, professional
-    - +Structural vs Current empathy: compiled Valence-Structural (slow) vs activated Valence-Momentary (fast)
-    - +3 Satiation Types × empathy: Cyclic/Tonic/Generative per entity
-    - +Compilation Chain × empathy: Fresh→Compiled→Baseline→Dynamics stages
-    - +Entity-Access gradient × empathy: Mức 0-5 intensity mapping
-    - +Resonance Decline (2 Forces + 1 Fuel) × empathy: per-bond decline risk
-    - +4-Layer Sustainability × empathy: prevention framework
-    - +Empathic Accuracy + Motivated Inaccuracy
-    - +3-Layer Calibration Architecture (body signal / Simulation-Engine / feedback)
-    - +Simulation-Engine context: Self-Pattern-Modeling = APPLICATION-1
-    - Self-Pattern-Modeling v3.0 → v3.1 (Match → Modeling), all dependency versions updated
-  Tích hợp: ALL Phase A (PFC-Operations, Simulation-Engine, Entity-Compiled, Entity-Access) + Phase B (Self-Pattern-Modeling v3.1, Valence-Propagation v3.0,
-  By-Product-Gap-Resonance v1.4, Boredom v2.0, Imagine-Final v3.0) + Phase T (PFC-Label, Entity-Access-Excess, Entity-Access-Calibration, Bond-Architecture, Resonance-Sustainability, By-Product-Scale,
-  Gap-Body-Need, Resonance-Per-Entity) + C1 Connection v5.0.
+  OBSERVATION FILE: Empathy = named pattern when Self-Pattern-Modeling Compiled fires on an agent
+  with ❸ positive valence → body OF SELF responds with a weakened replica of the OTHER's state.
+  Empathy is NOT a separate module — it is 1 OBSERVABLE OUTPUT
+  of the connection mechanism (❶ Hardware × ❷ Self-Pattern-Modeling × ❸ Valence).
+  v4.0 KEY CHANGES (REWRITE — Phase C2):
+    +PFC budget × empathy: Fresh empathy = PFC cost, competes with ALL activities
+    +Compiled Quality × empathy: genuine/schema/threat → burnout prediction
+    +Burnout reframe: Compiled-Suppress + PFC depletion, NOT "too much empathy"
+    +Hardware-Subsidy × empathy: persistence differs per entity type
+    +Per-entity empathy profiles: mother→child, close friend, romantic, professional
+    +Structural vs Current empathy: compiled Valence-Structural (slow) vs activated Valence-Momentary (fast)
+    +3 Satiation Types × empathy: Cyclic/Tonic/Generative per entity
+    +Compilation Chain × empathy: Fresh→Compiled→Baseline→Dynamics stages
+    +Entity-Access gradient × empathy: Level 0-5 intensity mapping
+    +Resonance Decline (2 Forces + 1 Fuel) × empathy: per-bond decline risk
+    +4-Layer Sustainability × empathy: prevention framework
+    +Empathic Accuracy + Motivated Inaccuracy
+    +3-Layer Calibration Architecture (body signal / Simulation-Engine / feedback)
+    +Simulation-Engine context: Self-Pattern-Modeling = APPLICATION-1
 purpose: |
-  Central reference file cho toàn bộ Empathy trong framework.
-  Thay thế Empathy.md v3.0 (→ backup/Empathy-v3.0-backup.md).
-  Empathy = "kết quả observation cao nhất sau toàn bộ core" —
-  tổng hợp TẤT CẢ mechanisms vào 1 observable human experience.
+  Central reference file for all Empathy in the framework.
+  Replaces Empathy.md v3.0 (→ backup/Empathy-v3.0-backup.md).
+  Empathy = "the highest observation result after all core layers" —
+  synthesizing ALL mechanisms into 1 observable human experience.
 position: |
-  Core-Deep-Dive/Observation/ — ngang hàng Connection.md, Novelty.md, Threat.md,
+  Core-Deep-Dive/Observation/ — alongside Connection.md, Novelty.md, Threat.md,
   Drive.md, Boredom.md, Schema.md, Status.md, Protect.md, Meaning.md,
   Autonomy-Hardware.md, Autonomy.md, Liking-Wanting.md, AI-Schema-Detection.md.
-  Tất cả = observation parameter deep-dives, KHÔNG phải mechanism files.
+  All = observation parameter deep-dives, NOT mechanism files.
 dependencies:
   - Connection.md v5.0 — 3 Generative Primitives, Resonance Decline, 4-Layer Sustainability, Phantom
-  - Agent-Mechanism.md v2.0 — unified mechanism file, §12 body-need feeder, §12.2b 2-luồng
+  - Agent-Mechanism.md v2.0 — unified mechanism file, §12 body-need feeder, §12.2b 2-track
   - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, APPLICATION-1, failure modes
   - By-Product-Gap-Resonance.md v1.4 — 2-Stream Architecture, by-product match, anti-match
   - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 5-Channel, Entity-Compiled, 3-Layer Evolution
@@ -48,11 +44,11 @@ dependencies:
   - PFC-Operations.md v1.0 — PFC budget, Hold/Suppress, compiled quality, vmPFC escalation
   - Simulation-Engine.md v1.0 — 1 engine × 3 components × 3 axes, Self-Pattern-Modeling = APPLICATION-1
   - Entity-Compiled.md v1.0 — hub-and-spoke, formation 40→200h, grief A+B+C, Dunbar
-  - Entity-Access.md v1.2 — Mức 0-5 gradient, Tool/Agent engine mode, exit cost
+  - Entity-Access.md v1.2 — Level 0-5 gradient, Tool/Agent engine mode, exit cost
   - Entity-Access-Calibration.md v1.0 — 3-Layer calibration, 5 failure modes, exit cost signal
   - Bond-Architecture.md v2.0 — Resonance Decline (2 Forces + 1 Fuel), gap clone impossible, 4 bond types
   - Resonance-Sustainability.md v1.0 — 4-Layer model, PPR, secure base, motivated inaccuracy
-  - Resonance-Per-Entity.md v1.0 — 3-Tầng per-entity, compilation chain, Hardware-Subsidy spectrum
+  - Resonance-Per-Entity.md v1.0 — 3-Tier per-entity, compilation chain, Hardware-Subsidy spectrum
   - By-Product-Scale.md v1.0 — 3 scales (pair/hub/institutional)
   - Gap-Body-Need.md v1.0 — 3 satiation types, ENGINE/ROAD/VEHICLE
   - PFC-Label.md v1.0 — framework vocabulary reference
@@ -65,126 +61,163 @@ dependencies:
   - Body-Coupling.md v2.0 — coupling depth × direction
   - Status.md v2.0 — Resource Access Map
   - Protect.md v1.0 — ownership chunks, loss aversion
-sources_backup: |
-  v3.0: Empathy.md (2,264L, 2026-05-17) → backup/Empathy-v3.0-backup.md
-  v1.1: Empathy.md (1,755L, 2026-04-24) → backup/Empathy-v1.1-backup.md
-  v0: Empathy-Mirror.md (~1,055L, 2026-04-06) → backup/Empathy-Mirror.md
-language: Tiếng Việt primary + English technical terms
+language: English translation (Vietnamese primary + English technical terms in source)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # Empathy — Observation Parameter
 
-> **Bạn thấy bạn thân khóc → body bạn khó chịu.**
-> **Bạn thấy em bé cười → body bạn nhẹ nhõm.**
-> **Bạn thấy con chó bị thương → body bạn co rúm.**
+> **You see your close friend crying → your body feels distress.**
+> **You see a baby smile → your body feels relief.**
+> **You see an injured dog → your body flinches.**
 >
-> Bạn KHÔNG bị gì. Nhưng body bạn fire NHƯ THỂ bạn đang trải qua — chỉ YẾU HƠN.
+> YOU are not hurt. But your body fires AS IF you were experiencing it — only WEAKER.
 >
-> Đây KHÔNG phải "mirror neuron" hardware chuyên biệt.
-> Đây KHÔNG phải hệ thống cảm xúc riêng biệt.
+> This is NOT a specialized "mirror neuron" hardware module.
+> This is NOT a separate emotion system.
 >
-> Đây là **Self-Pattern-Modeling Compiled** — body simulate trạng thái NGƯỜI KHÁC
-> bằng chunks CỦA MÌNH → body MÌNH fire bản sao yếu → PFC observe → "feeling about other."
+> This is **Self-Pattern-Modeling Compiled** — the body simulating the OTHER person's state
+> using YOUR OWN chunks → YOUR body fires a weakened replica → PFC observes → "feeling about other."
 >
-> Empathy = **1 observable output** khi connection mechanism fire với ❸ positive valence.
-> Cùng mechanism tạo Schadenfreude (❸ negative), dehumanization (❸ extreme negative).
-> Empathy, strategic prediction, khinh bỉ = CÙNG Self-Pattern-Modeling, KHÁC ❸ valence.
+> Empathy = **1 observable output** when the connection mechanism fires with ❸ positive valence.
+> The same mechanism produces Schadenfreude (❸ negative), dehumanization (❸ extreme negative).
+> Empathy, strategic prediction, contempt = SAME Self-Pattern-Modeling, DIFFERENT ❸ valence.
 >
-> VÀ empathy có 2 LUỒNG chạy SONG SONG:
-> **Luồng 1 (Valence-Momentary)** — Self-Pattern-Modeling-owned: body-feedback mỗi lần Compiled fire (vui lây, khó chịu)
-> **Luồng 2 (Valence-Structural)** — Entity-Compiled: compiled valence (agent = body-base extension)
-> Mẹ chăm con ốm dù Valence-Momentary negative → vì Valence-Structural (con = body-ext) bù đủ.
-> Bác sĩ burnout dù cùng chăm người ốm → vì Valence-Structural ≈ 0, Valence-Momentary cost tích lũy.
+> AND empathy runs 2 TRACKS IN PARALLEL:
+> **Track 1 (Valence-Momentary)** — Self-Pattern-Modeling-owned: body-feedback each time Compiled fires (joy contagion, distress contagion)
+> **Track 2 (Valence-Structural)** — Entity-Compiled: compiled valence (agent = body-base extension)
+> Mother cares for a sick child despite negative Valence-Momentary → because Valence-Structural (child = body extension) compensates.
+> Doctor burns out despite caring for the same sick people → because Valence-Structural ≈ 0, Valence-Momentary cost accumulates.
 >
-> File này: Empathy LÀ GÌ (redefine: observation output, KHÔNG phải module),
-> TẠI SAO empathy cần chunks + developmental bootstrap,
-> 3 cơ chế bị mainstream gộp thành "mirror",
-> biochemistry cascade THẬT + 2-luồng organic,
-> spectrum lành mạnh → compulsive, 7 failure modes,
-> và TẠI SAO empathy = irreplaceable human advantage trong AI era.
+> This file: WHAT empathy IS (redefine: observation output, NOT module),
+> WHY empathy requires chunks + developmental bootstrap,
+> the 3 mechanisms mainstream collapses into "mirror,"
+> the REAL biochemistry cascade + organic 2-track mechanism,
+> spectrum healthy → compulsive, 7 failure modes,
+> and WHY empathy = irreplaceable human advantage in the AI era.
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ TRONG FRAMEWORK
-- §1 — EMPATHY LÀ GÌ
-- §2 — 3 CƠ CHẾ BỊ MAINSTREAM GỘP THÀNH "MIRROR"
-- §3 — CHUNK PREREQUISITE + DEVELOPMENTAL BOOTSTRAP
-- §4 — CƠ CHẾ HOẠT ĐỘNG: Compiled/Fresh + 2-LUỒNG
-- §5 — 4 YẾU TỐ STRENGTH + 4 QUALITY AXES
-- §6 — SPECTRUM: Lành Mạnh → Override → Compulsive
-- §7 — EVOLUTIONARY FUNCTION
-- §8 — FAILURES + PATHOLOGY
-- §9 — AI ERA SIGNIFICANCE
-- §10 — HONEST ASSESSMENT
-- §11 — CROSS-REFERENCES + STATUS
+- [§0 — POSITION IN FRAMEWORK](#0)
+- [§1 — WHAT IS EMPATHY](#1)
+  - [§1.1 — Definition](#11)
+  - [§1.2 — 3 Rejections](#12)
+  - [§1.3 — 4 Acceptances](#13)
+  - [§1.4 — Why Redefine Matters](#14)
+- [§2 — 3 MECHANISMS MAINSTREAM COLLAPSES INTO "MIRROR"](#2)
+  - [§2.1 — Overview](#21)
+  - [§2.2 — ① Pattern Matching (limbic, from birth)](#22)
+  - [§2.3 — ② Agent Modeling = Self-Pattern-Modeling (learned, 14-24m+)](#23)
+  - [§2.4 — ③ Schema Simulation (compiled, mature)](#24)
+  - [§2.5 — Developmental Trajectory Summary](#25)
+- [§3 — CHUNK PREREQUISITE + DEVELOPMENTAL BOOTSTRAP](#3)
+  - [§3.1 — Core Insight](#31)
+  - [§3.2 — Caregiver Bootstrap Mechanism](#32)
+  - [§3.3 — Rouge Test = Self-Other Distinction Milestone](#33)
+  - [§3.4 — Alexithymia — Decisive Architectural Evidence](#34)
+  - [§3.5 — Disruption Consequences](#35)
+- [§4 — MECHANISM: Compiled/Fresh + 2-TRACK](#4)
+  - [§4.1 — Self-Pattern-Modeling Compiled/Fresh Applied to Empathy](#41)
+  - [§4.2 — Biochemistry Cascade + 2-Track](#42)
+  - [§4.3 — Empathy Ceiling — Limited by Chunk Overlap](#43)
+  - [§4.4 — 5 Pattern-Type Variations](#44)
+  - [§4.5 — 2-Stream Empathy (Resonance Context)](#45)
+  - [§4.6 — Hardware-Subsidy × Empathy Persistence](#46)
+  - [§4.7 — Per-Entity Empathy Profiles](#47)
+  - [§4.8 — 3 Satiation Types × Empathy](#48)
+  - [§4.9 — Compilation Chain × Empathy Stages](#49)
+- [§5 — 4 STRENGTH FACTORS + 4 QUALITY AXES](#5)
+  - [§5.1 — 4 Trigger Strength Factors](#51)
+  - [§5.2 — 4 Quality Axes](#52)
+- [§6 — SPECTRUM: Healthy → Override → Compulsive](#6)
+  - [§6.1 — Spectrum Overview — Unified via 2-Track](#61)
+  - [§6.2 — Justified vs Schema Hijack via 2-Track](#62)
+  - [§6.3 — Triple Override](#63)
+- [§7 — EVOLUTIONARY FUNCTION](#7)
+  - [§7.1 — Empathy = Natural Resource Distribution Mechanism](#71)
+  - [§7.2 — Valence-Structural Adds Sustained Motivation Layer](#72)
+  - [§7.3 — Optimal Conditions + Scarcity Complement](#73)
+- [§8 — FAILURES + PATHOLOGY](#8)
+  - [§8.1 — 7 Failure Modes Overview](#81)
+  - [§8.2 — Empathy Fatigue — 2-Track Analysis](#82)
+  - [§8.3 — Moral Injury via 2-Track](#83)
+  - [§8.4 — Other Failure Modes](#84)
+  - [§8.5 — Valence-Structural Strong + Compiled Weak: "Love without Understanding" (Parent Case)](#85)
+  - [§8.6 — PFC=Lawyer × Empathy](#86)
+  - [§8.7 — Resonance Decline × Empathy](#87)
+  - [§8.8 — 4-Layer Sustainability × Empathy](#88)
+  - [§8.9 — Empathic Accuracy + Motivated Inaccuracy](#89)
+  - [§8.10 — 3-Layer Calibration Architecture](#810)
+- [§9 — AI ERA SIGNIFICANCE](#9)
+- [§10 — HONEST ASSESSMENT](#10)
+- [§11 — CROSS-REFERENCES + STATUS](#11)
 
 ---
 
-## §0 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — POSITION IN FRAMEWORK
 
 ```
-⭐ EMPATHY = OBSERVATION OUTPUT CỦA CONNECTION MECHANISM:
+⭐ EMPATHY = OBSERVATION OUTPUT OF THE CONNECTION MECHANISM:
 
-  Connection (Connection.md v5.0) = observable pattern khi body's social mechanisms
-  (❶ Hardware + ❷ Self-Pattern-Modeling) engage với agents.
+  Connection (Connection.md v5.0) = observable pattern when body's social mechanisms
+  (❶ Hardware + ❷ Self-Pattern-Modeling) engage with agents.
 
-  Connection output phụ thuộc 3 GENERATIVE PRIMITIVES:
-    ❶ Hardware Social Drive (innate, body CẦN social input)
+  Connection output depends on 3 GENERATIVE PRIMITIVES:
+    ❶ Hardware Social Drive (innate, body NEEDS social input)
     ❷ Self-Pattern-Modeling quality (Compiled + Fresh, chunk-based)
     ❸ Per-Agent Valence (body's evaluation of THIS agent)
 
-  EMPATHY = 1 observable output khi:
-    ❷ Self-Pattern-Modeling Compiled fire on agent + ❸ POSITIVE valence
-    → body simulate state agent → body MÌNH respond bản sao yếu
-    → PFC observe → "feeling about other's state"
+  EMPATHY = 1 observable output when:
+    ❷ Self-Pattern-Modeling Compiled fires on an agent + ❸ POSITIVE valence
+    → body simulates agent's state → body OF SELF responds with weakened replica
+    → PFC observes → "feeling about the other's state"
 
-  Cùng mechanism (❷ Self-Pattern-Modeling), KHÁC ❸ valence → KHÁC output:
-    ❸ positive → EMPATHY (file này)
+  Same mechanism (❷ Self-Pattern-Modeling), DIFFERENT ❸ valence → DIFFERENT output:
+    ❸ positive → EMPATHY (this file)
     ❸ negative → SCHADENFREUDE (reversed Compiled — Connection.md §3.3)
-    ❸ extreme negative → DEHUMANIZATION (Compiled suppress — Self-Pattern-Modeling.md §10)
+    ❸ extreme negative → DEHUMANIZATION (Compiled suppressed — Self-Pattern-Modeling.md §10)
 
 
   ⭐ HIERARCHY: CONNECTION > EMPATHY
 
-    Connection = MECHANISM LEVEL (sâu hơn):
+    Connection = MECHANISM LEVEL (deeper):
       = ❶ hardware + ❷ Self-Pattern-Modeling engage agents
-      = TẠO ra nhiều observable outputs (empathy, Schadenfreude, strategic,
-        dehumanization) tùy ❸ valence
+      = PRODUCES many observable outputs (empathy, Schadenfreude, strategic,
+        dehumanization) depending on ❸ valence
 
-    Empathy = OBSERVATION LEVEL (cao hơn):
-      = 1 CỤ THỂ observable output khi ❸ positive
-      = "Kết quả observation cao nhất sau toàn bộ core" —
-        tổng hợp chunks + Self-Pattern-Modeling + valence + body-feedback + feeling
-        vào 1 observable human experience
+    Empathy = OBSERVATION LEVEL (higher):
+      = 1 SPECIFIC observable output when ❸ positive
+      = "The highest observation result after all core layers" —
+        synthesizing chunks + Self-Pattern-Modeling + valence + body-feedback + feeling
+        into 1 observable human experience
 
     → Connection ⊃ Empathy (mechanism ⊃ observation)
-    → Empathy = CONNECTION expression khi valence positive
-    → KHÔNG PHẢI empathy > connection hay connection > empathy
-    → LÀ: empathy EMERGE TỪ connection mechanism + positive valence
+    → Empathy = CONNECTION expressed when valence is positive
+    → NOT empathy > connection or connection > empathy
+    → RATHER: empathy EMERGES FROM connection mechanism + positive valence
 
 
-  ⭐ EMPATHY CÓ 2 LUỒNG REWARD ĐỒNG THỜI:
+  ⭐ EMPATHY HAS 2 REWARD TRACKS SIMULTANEOUSLY:
 
-    Luồng 1 (Valence-Momentary) — Self-Pattern-Modeling-owned:
-      = Body-feedback TẠI KHOẢNH KHẮC Compiled fire trên target
-      = Positive (bạn vui → vui lây) hoặc Negative (con ốm → khó chịu)
-      = Per-episode, THUỘC VỀ Self-Pattern-Modeling mechanism
+    Track 1 (Valence-Momentary) — Self-Pattern-Modeling-owned:
+      = Body-feedback AT THE MOMENT Compiled fires on target
+      = Positive (friend happy → joy contagion) or Negative (child sick → distress)
+      = Per-episode, BELONGS TO Self-Pattern-Modeling mechanism
 
-    Luồng 2 (Valence-Structural) — Entity-Compiled:
-      = Compiled valence SÂU → agent = body-base extension
+    Track 2 (Valence-Structural) — Entity-Compiled:
+      = Deeply compiled valence → agent = body-base extension
       = Agent's wellbeing = MY wellbeing
-      = SUSTAINED, KHÔNG phụ thuộc Valence-Momentary mỗi episode
-      = THUỘC VỀ per-agent valence (Valence-Propagation.md v4.0 §2)
+      = SUSTAINED, INDEPENDENT of Valence-Momentary each episode
+      = BELONGS TO per-agent valence (Valence-Propagation.md v4.0 §2)
 
-    2 luồng sống ở 2 NƠI KHÁC NHAU trong architecture:
+    2 tracks live in 2 DIFFERENT PLACES in the architecture:
       Valence-Momentary → Self-Pattern-Modeling mechanism (Self-Pattern-Modeling.md v3.1 §2.1)
       Valence-Structural → Entity valence (Valence-Propagation.md v4.0 §2)
 
-    → Burnout = f(Valence-Momentary cost tích lũy / Valence-Structural compensation)
-    → Xuyên suốt file này, 2-luồng = lens chính cho phân tích
+    → Burnout = f(Valence-Momentary cost accumulated / Valence-Structural compensation)
+    → The 2-track model is the primary lens for analysis throughout this file
 
 
   ⭐ SIMULATION-ENGINE CONTEXT (v4.0):
@@ -192,97 +225,100 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Self-Pattern-Modeling = APPLICATION-1 of Simulation-Engine (Simulation-Engine.md v1.0):
       1 Engine × 3 Components (Imagine-Final, Self-Pattern-Modeling, Self-Observation) × 3 Axes
     → Self-Pattern-Modeling/Imagine-Final/Self-Observation SHARE PFC budget (PFC-Operations.md v1.0 §9)
-    → "Mệt ở cơ quan" = PFC budget đã dùng cho work → empathy ở nhà YẾU
-    → = KHÔNG phải "không thương" — PFC budget ĐÃ HẾT
+    → "Exhausted at work" = PFC budget spent on work → empathy at home WEAKER
+    → = NOT "doesn't care" — PFC budget IS DEPLETED
 
     PFC BUDGET × EMPATHY:
       Fresh empathy = PFC cost (deliberate predict target state)
       Compiled empathy ≈ 0 cost (Hebbian reinforced)
-      → Expert therapist sustainable VÌ compiled → cost ≈ 0
-      → Novice therapist burnout VÌ fresh → cost CAO mỗi session
+      → Expert therapist sustainable BECAUSE compiled → cost ≈ 0
+      → Novice therapist burns out BECAUSE fresh → cost HIGH each session
       → Parent-child = HIGHEST PFC cost (child = moving target)
         (PFC-Operations.md v1.0 §9.2)
 
 
   ⭐ ENTITY-ACCESS GRADIENT × EMPATHY (v4.0):
 
-    Entity-Access Mức 0-5 (Entity-Access.md v1.2) × empathy intensity:
+    Entity-Access Level 0-5 (Entity-Access.md v1.2) × empathy intensity:
 
-    ┌───────┬────────────────────┬────────────────────────────────────────┐
-    │ Mức   │ Entity-Access      │ Empathy quality                        │
-    ├───────┼────────────────────┼────────────────────────────────────────┤
-    │ 0a-0c │ Machine/Service/   │ Compiled OFF — no empathy (Tool-mode)        │
-    │       │ Tool-mode          │                                        │
-    │ 1     │ Shallow            │ Surface pattern matching only           │
-    │ 2     │ Partial            │ Compiled emerging, Generative + some Cyclic  │
-    │ 3     │ Deep (Compilable-dominant)  │ Compiled rich, mutual calibrated, easy exit  │
-    │ 4     │ Entity-owned       │ Valence-Structural override, structural empathy        │
-    │       │ (Hardware/low exit)      │ Body-base extension → automatic        │
-    │ 5     │ Excess             │ Projection risk — Valence-Structural drive > Compiled radar  │
-    └───────┴────────────────────┴────────────────────────────────────────┘
+    ┌───────┬────────────────────┬─────────────────────────────────────────────┐
+    │ Level │ Entity-Access      │ Empathy quality                             │
+    ├───────┼────────────────────┼─────────────────────────────────────────────┤
+    │ 0a-0c │ Machine/Service/   │ Compiled OFF — no empathy (Tool-mode)       │
+    │       │ Tool-mode          │                                             │
+    │ 1     │ Shallow            │ Surface pattern matching only               │
+    │ 2     │ Partial            │ Compiled emerging, Generative + some Cyclic │
+    │ 3     │ Deep (Compilable-  │ Compiled rich, mutual calibrated, easy exit │
+    │       │ dominant)          │                                             │
+    │ 4     │ Entity-owned       │ Valence-Structural override, structural emp.│
+    │       │ (Hardware/low exit)│ Body-base extension → automatic             │
+    │ 5     │ Excess             │ Projection risk — Valence-Structural drive  │
+    │       │                    │ > Compiled radar                            │
+    └───────┴────────────────────┴─────────────────────────────────────────────┘
 
-    ⭐ Tool-mode (Mức 0) = Compiled OFF → empathy IMPOSSIBLE
-    Agent-mode (Mức 1+) = Compiled CAN fire → empathy POSSIBLE
-    → Engine Mode (Entity-Access.md §2.3) quyết định empathy ON/OFF
-    → Mức 5 excess: Valence-Structural drive MẠNH QUÁ → Compiled bị "lấn" → projection thay empathy
+    ⭐ Tool-mode (Level 0) = Compiled OFF → empathy IMPOSSIBLE
+    Agent-mode (Level 1+) = Compiled CAN fire → empathy POSSIBLE
+    → Engine Mode (Entity-Access.md §2.3) determines empathy ON/OFF
+    → Level 5 excess: Valence-Structural drive TOO STRONG → Compiled "crowded out"
+      → projection replaces empathy
 
 
-  FLOW CHÍNH:
+  MAIN FLOW:
 
     Chunk substrate (Chunk.md v2.0)
       → Agent-Mechanism (detect + model + simulate)
         → Simulation-Engine (PFC budget allocation)
-          → Self-Pattern-Modeling Compiled (body-level simulate state agent)
-            → ⭐ EMPATHY = Compiled output khi ❸ positive (FILE NÀY)
-              → Body signals fire THẬT (Cortisol / NE / Opioid)
-                → Feeling observe (Feeling.md v3.0)
+          → Self-Pattern-Modeling Compiled (body-level simulate agent state)
+            → ⭐ EMPATHY = Compiled output when ❸ positive (THIS FILE)
+              → Body signals fire FOR REAL (Cortisol / NE / Opioid)
+                → Feeling observes (Feeling.md v3.0)
 
 
-  SO SÁNH REFERENCE FILES:
+  REFERENCE FILES COMPARED:
 
     ┌──────────────────────────────┬──────────────────────────────────────────┐
-    │ Reference file               │ Trả lời câu hỏi gì                      │
+    │ Reference file               │ Answers the question                     │
     ├──────────────────────────────┼──────────────────────────────────────────┤
-    │ Chunk.md v2.0                │ Substrate LÀ GÌ, compile THẾ NÀO        │
-    │ PFC-Operations.md v1.0       │ PFC BUDGET cho empathy bao nhiêu         │
-    │ Simulation-Engine.md v1.0    │ Self-Pattern-Modeling = APPLICATION-1 CỦA engine gì       │
-    │ Feeling.md v3.0              │ Body NÓI với PFC THẾ NÀO                │
-    │ Valence-Propagation v3.0     │ Body ĐÁNH GIÁ entity THẾ NÀO            │
-    │ Entity-Access.md v1.2        │ Entity access GRADIENT bao nhiêu         │
-    │ Connection.md v5.0           │ Body ENGAGE agents THẾ NÀO (mechanism)  │
-    │ Bond-Architecture.md v2.0    │ Bond types DECLINE thế nào               │
-    │ Resonance-Sustainability v1.0│ Sustain empathy THẾ NÀO                  │
-    │ Resonance-Per-Entity v1.0    │ Per-entity empathy dynamics THẾ NÀO      │
-    │ ⭐ Empathy.md v4.0           │ Body SIMULATE agent khác THẾ NÀO         │
-    │                              │ khi ❸ positive (observation output)      │
+    │ Chunk.md v2.0                │ What the substrate IS, HOW it compiles   │
+    │ PFC-Operations.md v1.0       │ HOW MUCH PFC budget empathy costs        │
+    │ Simulation-Engine.md v1.0    │ Self-Pattern-Modeling = APP-1 of WHAT    │
+    │ Feeling.md v3.0              │ HOW body talks to PFC                    │
+    │ Valence-Propagation v3.0     │ HOW body evaluates entities              │
+    │ Entity-Access.md v1.2        │ HOW MUCH the entity access gradient is   │
+    │ Connection.md v5.0           │ HOW body engages agents (mechanism)      │
+    │ Bond-Architecture.md v2.0    │ How bond types DECLINE                   │
+    │ Resonance-Sustainability v1.0│ HOW to sustain empathy                   │
+    │ Resonance-Per-Entity v1.0    │ Per-entity empathy dynamics              │
+    │ ⭐ Empathy.md v4.0           │ HOW body SIMULATES another agent         │
+    │                              │ when ❸ positive (observation output)     │
     └──────────────────────────────┴──────────────────────────────────────────┘
 
 
-  FILE NÀY THAY THẾ:
+  THIS FILE REPLACES:
 
     Empathy.md v3.0 (2026-05-17, 2,264L → backup/Empathy-v3.0-backup.md)
-    Lý do: v3.0 written BEFORE Phase A+B+T → 12 Phase A+B files and 8 Phase T
-    files chưa integrated. REWRITE for coherent integration.
+    Reason: v3.0 written BEFORE Phase A+B+T → 12 Phase A+B files and 8 Phase T
+    files not yet integrated. REWRITE for coherent integration.
 
     Empathy.md v1.1 (2026-04-24, 1,755L → backup/Empathy-v1.1-backup.md)
     Empathy-Mirror.md (2026-04-06, ~1,055L → backup/Empathy-Mirror.md)
 
 
-  TIỀN ĐỀ BẮT BUỘC ĐỌC:
+  PREREQUISITE READING:
 
     1. Chunk.md v2.0 — chunk substrate, compile mechanism
     2. Agent-Mechanism.md v2.0 — unified model, Self-Pattern-Modeling preview, body-need feeder
     3. Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, APPLICATION-1, failure modes
     4. Connection.md v5.0 — 3 Generative Primitives, Resonance Decline, 4-Layer, Phantom
     5. PFC-Operations.md v1.0 — PFC budget, Hold/Suppress, compiled quality
-    6. Entity-Access.md v1.2 — Mức 0-5 gradient, Tool/Agent engine mode
+    6. Entity-Access.md v1.2 — Level 0-5 gradient, Tool/Agent engine mode
 
 
   SCOPE IN:
     - Empathy definition (reframe: observation output, NOT module)
-    - 3 mechanisms tách biệt (pattern matching / agent modeling / schema simulation)
+    - 3 separate mechanisms (pattern matching / agent modeling / schema simulation)
     - Developmental bootstrap (chunk prerequisite)
-    - Biochemistry cascade + 2-luồng organic (Valence-Momentary Self-Pattern-Modeling-owned + Valence-Structural Entity-Compiled)
+    - Biochemistry cascade + organic 2-track (Valence-Momentary + Valence-Structural)
     - Structural vs Current empathy (Valence-Propagation v3.0 distinction)
     - Hardware-Subsidy × empathy persistence (Valence-Propagation v3.0)
     - Per-entity empathy profiles (Resonance-Per-Entity v1.0)
@@ -290,583 +326,594 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     - Compilation Chain × empathy stages (Resonance-Per-Entity v1.0)
     - Entity-Access gradient × empathy intensity (Entity-Access v1.2)
     - Strength factors + quality axes
-    - Spectrum (healthy → compulsive) + 2-luồng giải thích ceiling
+    - Spectrum (healthy → compulsive) + 2-track explains ceiling
     - Failures: burnout reframe (Compiled-Suppress + PFC depletion), Resonance Decline,
       4-Layer sustainability, empathic accuracy, 3-Layer calibration
     - AI era significance
 
   SCOPE OUT:
-    - Connection mechanism chi tiết → Connection.md v5.0
-    - Self-Pattern-Modeling mechanism chi tiết → Self-Pattern-Modeling.md v3.1
-    - Bond decline chi tiết → Bond-Architecture.md v2.0
-    - Sustainability chi tiết → Resonance-Sustainability.md v1.0
-    - Per-entity dynamics chi tiết → Resonance-Per-Entity.md v1.0
-    - Entity-Access chi tiết → Entity-Access.md v1.2
-    - Giving dynamics chi tiết → 05-Theme-E (Deep-Analysis-Draft/)
-    - Education ứng dụng → Empathy-Education.md
+    - Connection mechanism details → Connection.md v5.0
+    - Self-Pattern-Modeling mechanism details → Self-Pattern-Modeling.md v3.1
+    - Bond decline details → Bond-Architecture.md v2.0
+    - Sustainability details → Resonance-Sustainability.md v1.0
+    - Per-entity dynamics details → Resonance-Per-Entity.md v1.0
+    - Entity-Access details → Entity-Access.md v1.2
+    - Giving dynamics details → 05-Theme-E (Deep-Analysis-Draft/)
+    - Education application → Empathy-Education.md
 ```
 
 ---
 
-## §1 — EMPATHY LÀ GÌ
+## §1 — WHAT IS EMPATHY
 
-### §1.1 — Định nghĩa
+### §1.1 — Definition
 
 ```
-⭐ ĐỊNH NGHĨA v2.0:
+⭐ DEFINITION v2.0:
 
-  Empathy = observable output khi Self-Pattern-Modeling Compiled fire on agent
-  với ❸ positive valence → body CỦA MÌNH respond bản sao yếu
-  state NGƯỜI KHÁC → PFC observe → "feeling about other's state."
+  Empathy = observable output when Self-Pattern-Modeling Compiled fires on an agent
+  with ❸ positive valence → body OF SELF responds with a weakened replica
+  of the OTHER person's state → PFC observes → "feeling about other's state."
 
-  Reframe từ v1.1:
+  Reframe from v1.1:
     v1.1: "Empathy = Self-Pattern-Modeling function applied to other agents"
-    v2.0: "Empathy = observable output khi connection mechanism fire
-           với ❸ positive valence"
+    v2.0: "Empathy = observable output when connection mechanism fires
+           with ❸ positive valence"
 
-  Tại sao reframe:
-    → v1.1 đúng ở mức mechanism nhưng THIẾU ❸ valence gate
-    → Cùng Self-Pattern-Modeling fire on agent: ❸ positive = empathy, ❸ negative = KHÔNG empathy
-    → Empathy = Self-Pattern-Modeling + ❸ positive, KHÔNG PHẢI Self-Pattern-Modeling đơn thuần
-    → Connection v5.0 làm rõ: empathy = 1 CỤ THỂ output,
-      không phải toàn bộ mechanism
+  Why reframe:
+    → v1.1 correct at mechanism level but MISSING the ❸ valence gate
+    → Same Self-Pattern-Modeling firing on an agent: ❸ positive = empathy,
+      ❸ negative = NOT empathy
+    → Empathy = Self-Pattern-Modeling + ❸ positive, NOT Self-Pattern-Modeling alone
+    → Connection v5.0 clarifies: empathy = 1 SPECIFIC output,
+      not the entire mechanism
 
 
-  CƠ CHẾ:
-    Não dùng chunks CỦA MÌNH làm template
-    → Self-Pattern-Modeling Compiled simulate trạng thái NGƯỜI KHÁC
-    → Body MÌNH fire bản sao — intensity BIẾN THIÊN (zero → rất mạnh)
-    → PFC observe simulation output
+  MECHANISM:
+    Brain uses OWN chunks as template
+    → Self-Pattern-Modeling Compiled simulates the OTHER person's state
+    → OWN body fires a replica — intensity VARIES (zero → very strong)
+    → PFC observes simulation output
     → "feeling about other's state"
 
-  BY-PRODUCT MATCH — TẠI SAO EMPATHY FIRE (Inter-Body-Mechanism.md §5.4):
+  BY-PRODUCT MATCH — WHY EMPATHY FIRES (Inter-Body-Mechanism.md §5.4):
 
-    Empathy thường fire KHÔNG phải vì B cố ý tạo cảm xúc cho A:
-      → B fill gap CỦA B (hát vì vui, khóc vì buồn, làm việc vì need)
-      → Output CỦA B là BY-PRODUCT (không nhắm vào A)
-      → By-product đó match A's Self-Pattern-Modeling template → A's body fire empathy
-      → = A receive empathy KHÔNG CẦN B biết, không cần B cố ý
+    Empathy typically fires NOT because B intentionally creates emotion in A:
+      → B fills B's OWN gap (singing because happy, crying because sad, working because of need)
+      → B's output is a BY-PRODUCT (not aimed at A)
+      → That by-product matches A's Self-Pattern-Modeling template → A's body fires empathy
+      → = A receives empathy WITHOUT B knowing, without B intending it
 
-    Ví dụ:
-      → Bạn thân chia tay, khóc (fill own gap: release emotion)
-        → Tiếng khóc = by-product → match template sadness CỦA TÔI
-        → Body TÔI fire empathy → "buồn theo"
-      → Con cười vui vẻ (fill own gap: playing)
-        → Nụ cười = by-product → match template joy CỦA MẸ
-        → Body MẸ fire empathy positive → opioid nhẹ
+    Examples:
+      → Close friend breaks up, cries (filling own gap: releasing emotion)
+        → Crying sound = by-product → matches MY sadness template
+        → MY body fires empathy → "feeling sad with them"
+      → Child laughs with joy (filling own gap: playing)
+        → Smile = by-product → matches MOTHER's joy template
+        → MOTHER's body fires positive empathy → mild opioid
 
-    FALSE EMPATHY — by-product match FAIL + PFC fabricate:
-      → B khóc nhưng A's template KHÔNG match (chưa từng trải nghiệm tương tự)
-      → Body A KHÔNG fire empathy thật
-      → Nhưng PFC A có thể FABRICATE: "tôi hiểu bạn đau" (PFC=Lawyer)
+    FALSE EMPATHY — by-product match FAILS + PFC fabricates:
+      → B cries but A's template DOESN'T match (never experienced anything similar)
+      → A's body does NOT fire genuine empathy
+      → But A's PFC can FABRICATE: "I understand your pain" (PFC=Lawyer)
       → = Verbal empathy without body-base = hollow
 
-  SONG SONG, Fresh chain predict:
-    → "Target feel X → target sẽ do Y → tôi nên do Z"
-    → Fresh = deliberate predict, hỗ trợ Compiled nhưng KHÔNG PHẢI empathy core
-    → Empathy CORE = Compiled body-level response (cảm nhận state người khác)
+  IN PARALLEL, Fresh chain predicts:
+    → "Target feels X → target will do Y → I should do Z"
+    → Fresh = deliberate prediction, supports Compiled but IS NOT empathy core
+    → Empathy CORE = Compiled body-level response (feeling the other's state)
 
 
-  INTENSITY BIẾN THIÊN — phụ thuộc nhiều yếu tố:
-    → Hợp tính (similarity): hợp → fire MẠNH, khác xa → yếu hoặc KHÔNG fire
-    → Trạng thái bản thân: stressed/mệt → bandwidth thấp → fire yếu
-    → PFC budget còn bao nhiêu: hết budget → Fresh shutdown → chỉ compiled Compiled
+  INTENSITY VARIES — depends on many factors:
+    → Template fit (similarity): fits well → fires STRONGLY, very different → weak or NO fire
+    → Own state: stressed/tired → low bandwidth → fires weakly
+    → Remaining PFC budget: depleted → Fresh shutdown → only automated Compiled
       (PFC-Operations.md v1.0 §9)
-    → Có MUỐN simulate: PFC/schema có thể suppress hoặc enhance
-    → Simulate ĐÚNG: template match sai → prediction-delta
-    → Chunk library depth: chunks sâu → fire chính xác + mạnh
-    → Entity-Access level: Mức 0 (Tool-mode) → Compiled OFF; Mức 3+ → Compiled rich
+    → Whether one WANTS to simulate: PFC/schema can suppress or enhance
+    → Whether simulation is ACCURATE: template mismatch → prediction-delta
+    → Chunk library depth: deep chunks → fires accurately + strongly
+    → Entity-Access level: Level 0 (Tool-mode) → Compiled OFF; Level 3+ → Compiled rich
       (Entity-Access.md v1.2 §9)
-    → Hardware-Subsidy: có subsidy → empathy persistence CAO hơn per entity
+    → Hardware-Subsidy: subsidy present → empathy persistence HIGHER per entity
       (Entity-Valence-Dynamics.md v1.0 §5)
     → Feedback available: real-time → calibrate mid-interaction
-    → CÓ THỂ: từ ZERO tới RẤT MẠNH = GRADIENT liên tục
+    → RANGE: from ZERO to VERY STRONG = continuous GRADIENT
 
 
   ⭐ STRUCTURAL vs CURRENT EMPATHY (v4.0 — Entity-Valence-Dynamics.md v1.0 §1):
 
     STRUCTURAL EMPATHY = compiled Valence-Structural (slow, inside Entity-Compiled):
-      = Tổng hợp TOÀN BỘ empathy history với entity
+      = Synthesis of ALL empathy history with entity
       = Months/years to build, slow to change
-      = "Tôi thương bạn" = structural assertion
+      = "I care about you" = structural assertion
       = INVISIBLE when stable (VTA habituated)
 
     CURRENT EMPATHY = activated Valence-Momentary per-moment (fast, context-dependent):
-      = Compiled fire TẠI khoảnh khắc NÀY on entity NÀY
+      = Compiled fires AT this moment on THIS entity
       = Seconds, context-dependent
-      = "Tôi đang buồn VÌ bạn buồn" = current activation
+      = "I'm sad BECAUSE you're sad" = current activation
       = VISIBLE per episode (PFC observes)
 
-    → "Ghét bạn lúc này" (current negative) ≠ "không empathy với bạn"
-      (structural vẫn positive)
-    → "Bác sĩ lạnh lùng" (current Compiled suppressed) ≠ "không care"
-      (structural professional anchor có thể có)
-    → Structural empathy PERSISTS qua episodes negative
+    → "I'm angry at you right now" (current negative) ≠ "I have no empathy for you"
+      (structural still positive)
+    → "The doctor is cold" (current Compiled suppressed) ≠ "doesn't care"
+      (structural professional anchor may still be there)
+    → Structural empathy PERSISTS through negative episodes
     → Current empathy FLUCTUATES per context
 
 
-  2 LUỒNG REWARD ĐỒNG THỜI (organic từ cơ chế):
+  2 REWARD TRACKS SIMULTANEOUSLY (organic from the mechanism):
 
-    MỖI LẦN empathy fire, body nhận 2 luồng feedback:
+    EACH TIME empathy fires, body receives 2 feedback tracks:
 
-    Luồng 1 (Valence-Momentary) — Self-Pattern-Modeling-owned:
-      = Compiled output: body-feedback TẠI KHOẢNH KHẮC simulate
-      = Empathy negative → cortisol, NE, tension = Valence-Momentary cost
-      = Empathy positive → opioid, oxytocin = Valence-Momentary reward
+    Track 1 (Valence-Momentary) — Self-Pattern-Modeling-owned:
+      = Compiled output: body-feedback AT THE MOMENT of simulation
+      = Negative empathy → cortisol, NE, tension = Valence-Momentary cost
+      = Positive empathy → opioid, oxytocin = Valence-Momentary reward
 
-    Luồng 2 (Valence-Structural) — Entity-Compiled — CÓ THỂ có hoặc không:
-      = Compiled valence SÂU → agent = body-base extension
-      = NẾU CÓ: agent's wellbeing = MY wellbeing → sustained drive
-      = NẾU KHÔNG: chỉ Valence-Momentary → burnout nếu Valence-Momentary negative kéo dài
+    Track 2 (Valence-Structural) — Entity-Compiled — MAY or MAY NOT be present:
+      = Deeply compiled valence → agent = body-base extension
+      = IF PRESENT: agent's wellbeing = MY wellbeing → sustained drive
+      = IF ABSENT: only Valence-Momentary → burnout if Valence-Momentary negative persists
 
-    → "Nhìn con ăn ngon mà sướng": Valence-Momentary+ (opioid) + Valence-Structural+ (con = body-ext) = compound
-    → "Chăm con ốm dù mệt": Valence-Momentary- (cascade) + Valence-Structural+ → Valence-Structural > Valence-Momentary → vẫn chăm
-    → "Bác sĩ burnout": Valence-Momentary- (cascade) + Valence-Structural ≈ 0 → Valence-Momentary tích lũy → fatigue
-
-
-  KHÔNG PHẢI:
-    ✗ Hardware "mirror neuron" module chuyên biệt
-    ✗ Hệ thống cảm xúc riêng biệt / channel riêng
-    ✗ Bẩm sinh hoàn chỉnh từ sinh (cần chunks tích lũy)
-    ✗ Chỉ dành cho agent-reading (Self-Pattern-Modeling = general-purpose)
-    ✗ "Empathy RỘNG HƠN Connection" (SAI — Connection ⊃ Empathy)
-
-  LÀ:
-    ○ OBSERVABLE OUTPUT khi ❷ Self-Pattern-Modeling Compiled fire + ❸ positive valence
-    ○ Body-level process — biochemistry THẬT
-    ○ Learned qua experience (cần interaction data × time)
-    ○ Quality phụ thuộc chunk library quality (self-awareness prerequisite)
-    ○ 1 trong nhiều outputs của connection mechanism
-      (empathy, Schadenfreude, strategic prediction, dehumanization = cùng Self-Pattern-Modeling, khác ❸)
+    → "Watching a child eat well and feeling satisfied": Valence-Momentary+ (opioid)
+      + Valence-Structural+ (child = body-extension) = compound reward
+    → "Caring for a sick child despite exhaustion":
+      Valence-Momentary- (cascade) + Valence-Structural+ → Valence-Structural > Valence-Momentary
+      → still cares
+    → "Doctor burnout": Valence-Momentary- (cascade) + Valence-Structural ≈ 0
+      → Valence-Momentary accumulates unchecked → burnout
 
 
-  ⭐ TẠI SAO GENERAL-PURPOSE — COMPILABLE ARCHITECTURE (Inter-Body-Mechanism.md §1.2):
+  NOT:
+    ✗ Hardware "mirror neuron" specialized module
+    ✗ Separate emotion system / separate channel
+    ✗ Complete from birth (requires accumulated chunks)
+    ✗ Only for agent-reading (Self-Pattern-Modeling = general-purpose)
+    ✗ "Empathy BROADER THAN Connection" (WRONG — Connection ⊃ Empathy)
 
-    Con người = Compilable Architecture: hardwired GENERAL-PURPOSE reward + compilation + social hardware.
-    (Khác côn trùng = Hardwired Architecture: hardwired SPECIFIC rewards, cố định, không compile.)
+  IS:
+    ○ OBSERVABLE OUTPUT when ❷ Self-Pattern-Modeling Compiled fires + ❸ positive valence
+    ○ Body-level process — REAL biochemistry
+    ○ Learned through experience (requires interaction data × time)
+    ○ Quality depends on chunk library quality (self-awareness prerequisite)
+    ○ 1 of many outputs of the connection mechanism
+      (empathy, Schadenfreude, strategic prediction, dehumanization = same Self-Pattern-Modeling, different ❸)
 
-    Hệ quả cho empathy:
-      → Empathy KHÔNG CẦN module riêng — emerge từ CÙNG reward system dùng cho MỌI THỨ
-      → Cùng Self-Pattern-Modeling fire trên math problem, music, agent → empathy = 1 HƯỚNG sử dụng
-      → Compilable Architecture → empathy = gradient (zero → rất mạnh), learnable, context-dependent
-      → Nếu Hardwired Architecture → empathy sẽ binary (có/không), cố định = SAI thực tế
-      → = Giải thích tại sao empathy TRAINABLE (Lutz 2008) 🟢:
+
+  ⭐ WHY GENERAL-PURPOSE — COMPILABLE ARCHITECTURE (Inter-Body-Mechanism.md §1.2):
+
+    Humans = Compilable Architecture: hardwired GENERAL-PURPOSE reward + compilation + social hardware.
+    (Different from insects = Hardwired Architecture: hardwired SPECIFIC rewards, fixed, no compilation.)
+
+    Implications for empathy:
+      → Empathy DOES NOT NEED a separate module — emerges from the SAME reward system used for EVERYTHING
+      → Same Self-Pattern-Modeling fires on a math problem, music, an agent → empathy = 1 DIRECTION of use
+      → Compilable Architecture → empathy = gradient (zero → very strong), learnable, context-dependent
+      → If Hardwired Architecture → empathy would be binary (have/not), fixed = WRONG in practice
+      → = Explains why empathy is TRAINABLE (Lutz 2008) 🟢:
         build self-chunks → Self-Pattern-Modeling library improves → empathy improves
-        = Modify compilation, KHÔNG modify hardware
+        = Modify compilation, NOT modify hardware
 
     🟡 Compilable Architecture framing = framework synthesis (Inter-Body-Mechanism.md §1.2)
 
 
-  TẠI SAO "OBSERVABLE OUTPUT" CHỨ KHÔNG PHẢI "MODULE":
+  WHY "OBSERVABLE OUTPUT" NOT "MODULE":
 
-    Module claim: "Có vùng não / circuit CHUYÊN CHO empathy"
-    Observable output claim: "Empathy = Self-Pattern-Modeling Compiled + ❸ positive → body respond → PFC observe"
+    Module claim: "There is a brain region / circuit DEDICATED TO empathy"
+    Observable output claim: "Empathy = Self-Pattern-Modeling Compiled + ❸ positive → body responds → PFC observes"
 
-    Bằng chứng:
-      → Self-Pattern-Modeling dùng CÙNG chunks cho empathy, giving, teaching, planning
+    Evidence:
+      → Self-Pattern-Modeling uses THE SAME chunks for empathy, giving, teaching, planning
         (Self-Pattern-Modeling.md v3.1 §11 — multiple use cases)
       → Alexithymia (poor self-chunks) → empathy deficit
-        (Bird & Cook 2013 — nếu module riêng thì self-chunks không liên quan)
-      → Cùng Self-Pattern-Modeling mechanism: ❸ positive = empathy, ❸ negative = Schadenfreude
-        (nếu module riêng thì Schadenfreude cần module KHÁC)
-      → Cross-species empathy gradient (nếu module riêng thì binary)
+        (Bird & Cook 2013 — if a separate module, self-chunks would be irrelevant)
+      → Same Self-Pattern-Modeling mechanism: ❸ positive = empathy, ❸ negative = Schadenfreude
+        (if a separate module, Schadenfreude would need a DIFFERENT module)
+      → Cross-species empathy gradient (if a separate module it would be binary)
 ```
 
 ### §1.2 — 3 Rejections
 
 ```
-🟡 FRAMEWORK BÁC BỎ 3 CLAIMS CŨ:
+🟡 FRAMEWORK REJECTS 3 OLD CLAIMS:
 
   ❌ REJECTION 1 — Hardware mirror neuron module:
 
-    Claim cũ (Rizzolatti 1996): "Có neurons CHUYÊN cho mirror,
-      bẩm sinh, fire khi thấy người khác hành động."
+    Old claim (Rizzolatti 1996): "There are neurons DEDICATED to mirroring,
+      innate, firing when observing another person's action."
 
-    Framework position (gần Heyes, mở rộng):
-      → KHÔNG CÓ neuron CHUYÊN cho mirror
-      → Shared activation areas (fMRI) TỒN TẠI ✅ — nhưng = LEARNED patterns
-      → Mirroring = LEARNED PREDICTION MODEL khi brain cần predict
-        "agent phi logic" (unpredictable — khác đồ vật)
-      → WHY learned? Vì agent = phi logic → brain PHẢI build model KHÁC
-      → Chi tiết: Mirror-Neuron-Rejection.md (Agent-Mechanism/)
+    Framework position (close to Heyes, expanded):
+      → NO neurons DEDICATED to mirroring
+      → Shared activation areas (fMRI) EXIST ✅ — but = LEARNED patterns
+      → Mirroring = LEARNED PREDICTION MODEL when brain needs to predict
+        "agent who is unpredictable" (unlike objects)
+      → WHY learned? Because agent = unpredictable → brain MUST build a different model
+      → Details: Mirror-Neuron-Rejection.md (Agent-Mechanism/)
 
-    Bằng chứng chống hardware mirror:
-      🟢 Trẻ sơ sinh khóc lây tiếng khóc trẻ KHÁC > tiếng khóc CỦA MÌNH
-        (Dondi 1999) → nếu hardware mirror, phải khóc ĐỒNG ĐỀU
-      🟢 Neonatal imitation (Meltzoff) đang bị challenge (Oostenbroek 2016)
-      🟢 Mirror phát triển DẦN theo tuổi (14m → 24m → 7y+)
+    Evidence against hardware mirror:
+      🟢 Newborns cry more to another infant's cry than to their OWN cry (recorded)
+        (Dondi 1999) → if hardware mirror, should cry EQUALLY
+      🟢 Neonatal imitation (Meltzoff) is being challenged (Oostenbroek 2016)
+      🟢 Mirror develops GRADUALLY with age (14m → 24m → 7y+)
       🟢 "Broken mirror theory of autism" = DEAD
-        → Bird & Cook 2013: alexithymia drives deficit, NOT autism per se
+        → Bird & Cook 2013: alexithymia drives the deficit, NOT autism per se
 
 
   ❌ REJECTION 2 — Empathy = separate system / emotion / channel:
 
-    Claim cũ: "Empathy là 1 hệ thống cảm xúc riêng biệt"
+    Old claim: "Empathy is a separate emotion system"
 
     Framework position:
-      → Empathy = OBSERVABLE OUTPUT, không phải system riêng
-      → Empathy KHÔNG thêm need mới — chuyển đổi state người khác
-        thành signal CỦA MÌNH chạy qua channels ĐÃ CÓ
+      → Empathy = OBSERVABLE OUTPUT, not a separate system
+      → Empathy DOES NOT add a new need — it converts the other's state
+        into a signal in SELF that runs through EXISTING channels
       → Connection.md v5.0 §1: empathy = Self-Pattern-Modeling Compiled + ❸ positive
-        = 1 output cụ thể của connection mechanism
+        = 1 specific output of the connection mechanism
 
 
   ❌ REJECTION 3 — "Broken mirror theory of autism":
 
-    Claim cũ: "Autism → broken mirror neurons → empathy deficit"
+    Old claim: "Autism → broken mirror neurons → empathy deficit"
 
-    DEAD — bác bỏ bởi Bird & Cook 2013 🟢:
-      → Empathy deficit attributed to autism THỰC RA driven by ALEXITHYMIA
+    DEAD — refuted by Bird & Cook 2013 🟢:
+      → Empathy deficit attributed to autism ACTUALLY driven by ALEXITHYMIA
       → Autistic WITHOUT alexithymia → empathy INTACT
       → Alexithymic WITHOUT autism → empathy DEFICIT
-      → = Self-awareness là upstream bottleneck
+      → = Self-awareness is the upstream bottleneck
 ```
 
 ### §1.3 — 4 Acceptances
 
 ```
-🟢🟡 FRAMEWORK CHẤP NHẬN 4 CLAIMS:
+🟢🟡 FRAMEWORK ACCEPTS 4 CLAIMS:
 
-  ✅ ACCEPTANCE 1 — Shared activation areas TỒN TẠI:
-    🟢 fMRI: anterior insula + ACC fire khi QUAN SÁT người khác đau
+  ✅ ACCEPTANCE 1 — Shared activation areas EXIST:
+    🟢 fMRI: anterior insula + ACC fire when OBSERVING another's pain
       (Singer 2004, Lamm 2011)
-    🟢 mPFC + TPJ activate khi nghĩ về mental state người khác
+    🟢 mPFC + TPJ activate when thinking about another's mental state
       (Frith & Frith 2006)
-    → NHƯNG: = LEARNED patterns compiled qua experience,
-      KHÔNG PHẢI dedicated hardware module
+    → BUT: = LEARNED patterns compiled through experience,
+      NOT dedicated hardware module
 
   ✅ ACCEPTANCE 2 — Arousal contagion = real, pre-PFC:
-    🟢 Emotional contagion tự động (Hatfield 1994)
-    🟢 Chuột freeze thấy chuột khác bị shock (Church 1959)
-    🟢 Khỉ từ chối ăn nếu = đồng loại bị shock (Masserman 1964)
-    → NHƯNG: KHÔNG PHẢI empathy — là Pattern Matching limbic (§2 ①)
+    🟢 Emotional contagion automatic (Hatfield 1994)
+    🟢 Rats freeze seeing another rat get shocked (Church 1959)
+    🟢 Monkeys refuse food if eating = fellow monkey gets shocked (Masserman 1964)
+    → BUT: NOT empathy — it is limbic Pattern Matching (§2 ①)
 
   ✅ ACCEPTANCE 3 — Empathy = learnable, context-dependent, motivated:
-    🟢 Empathy CÓ THỂ train (Lutz 2008: meditators enhanced empathic response)
+    🟢 Empathy CAN be trained (Lutz 2008: meditators showed enhanced empathic response)
     → Consistent: build self-chunks → Self-Pattern-Modeling library improves → empathy improves
 
   ✅ ACCEPTANCE 4 — Self-awareness prerequisite for other-awareness:
     🟢 Bird & Cook 2013 — DECISIVE EVIDENCE:
       Poor self-reading (alexithymia) → poor templates → poor Self-Pattern-Modeling → empathy deficit
-    → Training implication: rebuild self-chunks TRƯỚC → empathy improves AS SIDE EFFECT
+    → Training implication: rebuild self-chunks FIRST → empathy improves AS A SIDE EFFECT
 ```
 
-### §1.4 — Tại sao redefine matters
+### §1.4 — Why Redefine Matters
 
 ```
-🟡 REDEFINE NÀY GIẢI THÍCH 6 HIỆN TƯỢNG:
+🟡 THIS REDEFINE EXPLAINS 7 PHENOMENA:
 
   ① Alexithymia-empathy link:
-    Module model: tại sao self-reading liên quan? (không giải thích)
-    Self-Pattern-Modeling model: poor self-chunks → poor templates → poor Self-Pattern-Modeling → đương nhiên
+    Module model: why is self-reading related? (cannot explain)
+    Self-Pattern-Modeling model: poor self-chunks → poor templates → poor Self-Pattern-Modeling → obvious
 
   ② Empathy training possible:
-    Module model: hardware → fix thế nào?
+    Module model: if hardware → how do you fix it?
     Self-Pattern-Modeling model: build self-chunks → library improves → empathy improves
 
-  ③ Empathy-Schadenfreude cùng mechanism:
-    Module model: cần 2 modules riêng?
-    Self-Pattern-Modeling model: cùng Self-Pattern-Modeling Compiled, ❸ positive = empathy, ❸ negative = Schadenfreude
+  ③ Empathy-Schadenfreude share same mechanism:
+    Module model: would need 2 separate modules?
+    Self-Pattern-Modeling model: same Self-Pattern-Modeling Compiled,
+      ❸ positive = empathy, ❸ negative = Schadenfreude
 
   ④ Cross-species gradient:
-    Module model: species có mirror hay không? (binary)
-    Self-Pattern-Modeling model: similarity axis → affective-only cho distant species → gradient
+    Module model: species either have mirror or not (binary)
+    Self-Pattern-Modeling model: similarity axis → affective-only for distant species → gradient
 
   ⑤ Schema override (dehumanization):
-    Module model: tại sao "tắt" được empathy?
-    Self-Pattern-Modeling model: Schema suppress Self-Pattern-Modeling → Compiled suppress → empathy absent dù axes high
+    Module model: why can you "turn off" empathy?
+    Self-Pattern-Modeling model: Schema suppresses Self-Pattern-Modeling → Compiled suppressed
+      → empathy absent even when all axes high
 
-  ⑥ Burnout differential (bác sĩ vs mẹ):
-    Module model: cùng empathy intensity → tại sao khác outcome?
-    2-luồng model: cùng Valence-Momentary cost, KHÁC Valence-Structural compensation → khác burnout
+  ⑥ Burnout differential (doctor vs. mother):
+    Module model: same empathy intensity → why different outcome?
+    2-track model: same Valence-Momentary cost, DIFFERENT Valence-Structural compensation
+      → different burnout
 
   ⑦ Hardware-Subsidy × empathy persistence (v4.0):
-    Module model: empathy giống nhau cho mọi relationship → tại sao khác persistence?
-    Entity-Valence-Dynamics.md v1.0 model: Hardware-Subsidy (MAX mẹ→con, NONE bạn) modulates empathy sustainability
-      Mẹ empathy auto-sustain VÌ oxytocin+synchrony counter habituation
-      Bạn empathy MUST maintain actively VÌ no Hardware protection
+    Module model: empathy same for all relationships → why different persistence?
+    Entity-Valence-Dynamics.md v1.0 model: Hardware-Subsidy (MAX mother→child, NONE friend)
+      modulates empathy sustainability
+      Mother empathy auto-sustains BECAUSE oxytocin+synchrony counter habituation
+      Friend empathy MUST maintain actively BECAUSE no Hardware protection
       (Entity-Valence-Dynamics.md v1.0 §5, Resonance-Per-Entity.md v1.0 §2)
 ```
 
 ---
 
-## §2 — 3 CƠ CHẾ BỊ MAINSTREAM GỘP THÀNH "MIRROR"
+## §2 — 3 MECHANISMS MAINSTREAM COLLAPSES INTO "MIRROR"
 
-### §2.1 — Tổng quan
+### §2.1 — Overview
 
 ```
-🟡 MAINSTREAM GỌI "MIRROR / EMPATHY" — THỰC RA LÀ 3 CƠ CHẾ KHÁC NHAU:
+🟡 MAINSTREAM CALLS THEM "MIRROR / EMPATHY" — ACTUALLY 3 DIFFERENT MECHANISMS:
 
-  Mainstream gộp thành 1 khái niệm "mirror" → confusion.
-  Framework tách rõ 3 mechanisms với timeline + evidence khác nhau:
+  Mainstream collapses into 1 concept "mirror" → confusion.
+  Framework clearly separates 3 mechanisms with different timelines + evidence:
 
-    ① PATTERN MATCHING (limbic, gần bẩm sinh, từ sinh)
+    ① PATTERN MATCHING (limbic, near-innate, from birth)
        = PRE-MIRROR — arousal contagion, NOT empathy
 
     ② AGENT MODELING = Self-Pattern-Modeling (learned, 14-24m+)
-       = TRUE EMPATHY bắt đầu ở đây
-       = v2.0: Compiled (body simulate) + Fresh (deliberate predict) song song
+       = TRUE EMPATHY starts here
+       = v2.0: Compiled (body simulates) + Fresh (deliberate predict) in parallel
 
     ③ SCHEMA SIMULATION (compiled, mature)
-       = POST-MIRROR — schema đủ mạnh, không cần real input
+       = POST-MIRROR — schema strong enough, no real input needed
 
 
-  ┌────────────────────┬──────────────────┬──────────────────┬─────────────────────┐
-  │                    │ ① Pattern Match  │ ② Agent Modeling │ ③ Schema Simulation │
-  ├────────────────────┼──────────────────┼──────────────────┼─────────────────────┤
-  │ Tuổi xuất hiện    │ Từ sinh          │ 14-24 tháng      │ 2-7y → mature       │
-  │ Hardware           │ Limbic, near-    │ Chunk-based,     │ Compiled schema,    │
-  │                    │ innate           │ LEARNED          │ no input needed     │
-  │ Cần agent model?   │ KHÔNG            │ CÓ               │ Compiled ĐỦ        │
-  │ Cần self-chunks?   │ KHÔNG            │ CÓ — prerequisite│ Compiled ĐỦ        │
-  │ Self-Pattern-Modeling Compiled fire?       │ KHÔNG            │ CÓ — TRUE start  │ Schema-driven       │
-  │ Connection context │ ❶ Hardware alone │ ❶ + ❷ Self-Pattern-Modeling        │ ❷ compiled          │
-  │ Cross-species?     │ CÓ (tất cả      │ CÓ (gradient     │ CÓ (schema)         │
-  │                    │ động vật xã hội) │ similarity)       │                     │
-  │ Evidence           │ Dondi 1999,      │ Warneken 2006,   │ Piaget animism,     │
-  │                    │ Hatfield 1994    │ Svetlova 2010,   │ religious neuro,    │
-  │                    │                  │ Bird & Cook 2013  │ placebo research    │
-  └────────────────────┴──────────────────┴──────────────────┴─────────────────────┘
+  ┌────────────────────┬──────────────────┬──────────────────┬───────────────────────┐
+  │                    │ ① Pattern Match  │ ② Agent Modeling │ ③ Schema Simulation   │
+  ├────────────────────┼──────────────────┼──────────────────┼───────────────────────┤
+  │ Age of onset       │ From birth       │ 14-24 months     │ 2-7y → mature         │
+  │ Hardware           │ Limbic, near-    │ Chunk-based,     │ Compiled schema,      │
+  │                    │ innate           │ LEARNED          │ no input needed       │
+  │ Needs agent model? │ NO               │ YES              │ Compiled SUFFICIENT   │
+  │ Needs self-chunks? │ NO               │ YES — prerequis. │ Compiled SUFFICIENT   │
+  │ Self-PM Compiled   │ NO               │ YES — TRUE start │ Schema-driven         │
+  │ fires?             │                  │                  │                       │
+  │ Connection context │ ❶ Hardware alone │ ❶ + ❷ Self-PM   │ ❷ compiled            │
+  │ Cross-species?     │ YES (all social  │ YES (similarity  │ YES (schema)          │
+  │                    │ animals)         │ gradient)        │                       │
+  │ Evidence           │ Dondi 1999,      │ Warneken 2006,   │ Piaget animism,       │
+  │                    │ Hatfield 1994    │ Svetlova 2010,   │ religious neuro,      │
+  │                    │                  │ Bird & Cook 2013 │ placebo research      │
+  └────────────────────┴──────────────────┴──────────────────┴───────────────────────┘
 
-  ⭐ MAPPING VÀO 3 GENERATIVE PRIMITIVES:
+  ⭐ MAPPING ONTO 3 GENERATIVE PRIMITIVES:
     ① Pattern Matching = ❶ Hardware reaction (pre-Self-Pattern-Modeling, pre-❷)
-    ② Agent Modeling = ❷ Self-Pattern-Modeling fire (Compiled+Fresh) + ❸ positive = empathy
-    ③ Schema Simulation = ❷ Self-Pattern-Modeling compiled → schema-driven (Schema-Pure-Trust/Imagined-Overlay)
+    ② Agent Modeling = ❷ Self-Pattern-Modeling fires (Compiled+Fresh) + ❸ positive = empathy
+    ③ Schema Simulation = ❷ Self-Pattern-Modeling compiled → schema-driven
+       (Schema-Pure-Trust/Imagined-Overlay)
 
-  ⭐ MAPPING VÀO COMPILATION CHAIN (v4.0 — Resonance-Per-Entity v1.0 §1):
-    3 cơ chế = 3 stages trong empathy compilation per entity:
-    Stage 1 (Fresh cautious) ≈ ② early (HIGH cost, đang build model)
-    Stage 2 (Compiled developing) ≈ ② maturing (cost DECREASING, "hiểu nhau hơn")
+  ⭐ MAPPING ONTO COMPILATION CHAIN (v4.0 — Resonance-Per-Entity v1.0 §1):
+    3 mechanisms = 3 stages in empathy compilation per entity:
+    Stage 1 (Fresh cautious) ≈ ② early (HIGH cost, building model)
+    Stage 2 (Compiled developing) ≈ ② maturing (cost DECREASING, "understanding each other more")
     Stage 3 (Baseline) ≈ ③ compiled (cost ≈ 0, empathy automatic, INVISIBLE)
     Stage 4 (Dynamics) = 3 trajectories: sustained / flat / death (§4.9)
 ```
 
-### §2.2 — ① Pattern Matching (limbic, từ sinh)
+### §2.2 — ① Pattern Matching (limbic, from birth)
 
 ```
-🟢 PATTERN MATCHING — CƠ CHẾ GỐC, KHÔNG PHẢI EMPATHY:
+🟢 PATTERN MATCHING — THE ROOT MECHANISM, NOT EMPATHY:
 
-  CƠ CHẾ:
-    → Detect acoustic/visual pattern GIỐNG experience CỦA MÌNH
-    → "Tiếng khóc → giống khi mình khóc → body react"
-    → KHÔNG CẦN agent model — chỉ cần pattern recognition limbic
-    → KHÔNG CẦN self-chunks — near-innate
+  MECHANISM:
+    → Detect acoustic/visual pattern SIMILAR to own experience
+    → "Crying sound → similar to when I cry → body reacts"
+    → NO agent model needed — only limbic pattern recognition
+    → NO self-chunks needed — near-innate
 
   CONNECTION CONTEXT:
-    → = Connection Tầng Hardware (❶ Hardware alone — Connection.md §3.2)
-    → Bé 0-6 tháng CHƯA CÓ Self-Pattern-Modeling nhưng ĐÃ CÓ arousal contagion
-    → ❶ Hardware drive social input → pattern matching = first response
-    → CHƯA PHẢI empathy — chưa có "tôi hiểu BẠN đang buồn"
-    → MÀ LÀ: "tiếng đó = khó chịu cho TÔI"
+    → = Connection Hardware Layer (❶ Hardware alone — Connection.md §3.2)
+    → Infant 0-6 months HAS NO Self-Pattern-Modeling yet but ALREADY HAS arousal contagion
+    → ❶ Hardware drives social input → pattern matching = first response
+    → NOT YET empathy — no "I understand YOU are sad"
+    → RATHER: "that sound = uncomfortable FOR ME"
 
-  SƠ SINH (0-72 giờ):
-    → Contagious crying: nghe khóc trẻ khác → khóc theo
-    → NHƯNG: nghe khóc CỦA CHÍNH MÌNH (recorded) → phản ứng YẾU hơn
+  NEWBORNS (0-72 hours):
+    → Contagious crying: hearing another infant cry → cries back
+    → BUT: hearing OWN cry (recorded) → reaction WEAKER
       (Dondi, Simion & Caltran 1999) 🟢
-    → Nếu hardware mirror → phải khóc ĐỒNG ĐỀU
-    → Thực tế: khóc người khác = unfamiliar distress → body react MẠNH hơn
-    → = PATTERN RECOGNITION, KHÔNG PHẢI HARDWARE MIRROR
+    → If hardware mirror → would cry EQUALLY
+    → Reality: another's crying = unfamiliar distress → body reacts MORE STRONGLY
+    → = PATTERN RECOGNITION, NOT HARDWARE MIRROR
 
-  3-6 THÁNG:
-    → Phân biệt biểu cảm vui/buồn/sợ trên mặt
-    → Emotional contagion: phòng có người lo → trẻ bất an
-    → = VẪN pattern matching — detect pattern quen từ experience
-    → = Chưa có agent model, chưa có empathy
+  3-6 MONTHS:
+    → Distinguishes happy/sad/scared expressions on faces
+    → Emotional contagion: anxious people in the room → infant becomes uneasy
+    → = STILL pattern matching — detecting familiar patterns from experience
+    → = No agent model yet, no empathy yet
 
-  CROSS-SPECIES (cùng cơ chế):
-    🟢 Chuột freeze khi thấy chuột khác bị shock (Church 1959)
-    🟢 Khỉ từ chối ăn nếu ăn = đồng loại bị shock (Masserman 1964)
-    → Mọi động vật xã hội có — pre-PFC, limbic-level
+  CROSS-SPECIES (same mechanism):
+    🟢 Rats freeze seeing another rat get shocked (Church 1959)
+    🟢 Monkeys refuse food if eating = fellow monkey gets shocked (Masserman 1964)
+    → All social animals have this — pre-PFC, limbic-level
 ```
 
 ### §2.3 — ② Agent Modeling = Self-Pattern-Modeling (learned, 14-24m+)
 
 ```
-🟢🟡 AGENT MODELING — TRUE EMPATHY BẮT ĐẦU Ở ĐÂY:
+🟢🟡 AGENT MODELING — TRUE EMPATHY STARTS HERE:
 
-  CƠ CHẾ:
-    → Brain build prediction model cho agent "phi logic" (unpredictable)
-    → Schema đồ vật KHÔNG work → PHẢI BUILD model mới
-    → Model mới = own-state mapping onto other:
-      "Khi MÌNH vui → MÌNH muốn chơi. Khi MẸ vui → MẸ chơi với mình."
-      → "MẸ có state riêng, state đó GIỐNG cách MÌNH có state"
-    → = Mirror = PREDICTION MODEL dùng own-state để predict other-state
+  MECHANISM:
+    → Brain builds prediction model for "unpredictable agent" (unlike objects)
+    → Object schema doesn't work → MUST BUILD new model
+    → New model = own-state mapping onto other:
+      "When I am happy → I want to play. When MOTHER is happy → Mother plays with me."
+      → "Mother has her own state, that state RESEMBLES how I have states"
+    → = Mirror = PREDICTION MODEL using own-state to predict other-state
 
-  v2.0 REFINEMENT — Compiled/Fresh TÁCH RÕ:
-    → Compiled: body fire bản sao yếu state target → body respond THẬT
-      = CORE empathy — tạo "feeling about other"
-    → Fresh: PFC chain "target feel X → sẽ do Y → tôi nên do Z"
-      = Predict hành vi, HỖ TRỢ empathy nhưng không phải empathy core
-    → Compiled + Fresh chạy SONG SONG trên cùng chunk library
+  v2.0 REFINEMENT — Compiled/Fresh clearly separated:
+    → Compiled: body fires weakened replica of target state → body ACTUALLY responds
+      = CORE empathy — creates "feeling about other"
+    → Fresh: PFC chain "target feels X → will do Y → I should do Z"
+      = Predicts behavior, SUPPORTS empathy but is not empathy core
+    → Compiled + Fresh run IN PARALLEL on the same chunk library
     → Compiled near-automatic (milliseconds), Fresh deliberate (seconds)
 
   TIMELINE:
-    6-9 tháng — Social referencing:
-      → Nhìn mẹ trước khi react với vật lạ
-      → Mẹ sợ → tránh. Mẹ vui → approach.
-      → = BẮT ĐẦU transition từ pattern matching → agent-aware
-      → CHƯA PHẢI "mẹ đang sợ" → MÀ LÀ "cái mặt đó → nguy hiểm cho MÌNH"
+    6-9 months — Social referencing:
+      → Looks at mother before reacting to an unfamiliar object
+      → Mother scared → avoids. Mother happy → approaches.
+      → = BEGINNING the transition from pattern matching → agent-aware
+      → NOT YET "mother is scared" → RATHER "that face → dangerous FOR ME"
 
-    14-18 tháng — Helping phức tạp:
-      → Warneken & Tomasello (2006, 2007): trẻ phân biệt
-        "muốn nhưng không được" vs "không muốn" 🟢
-      → Instrumental helping ĐÃ CÓ, empathic helping ĐANG BUILD
-      → = TRANSITION: instrumental = pattern completion, empathic = CẦN agent model
+    14-18 months — Complex helping:
+      → Warneken & Tomasello (2006, 2007): infant distinguishes
+        "wants but can't" vs "doesn't want" 🟢
+      → Instrumental helping PRESENT, empathic helping BUILDING
+      → = TRANSITION: instrumental = pattern completion, empathic = NEEDS agent model
 
-    18-24 tháng — BƯỚC NHẢY LỚN:
+    18-24 months — MAJOR LEAP:
       → Rouge test pass (Amsterdam 1972) 🟢: self-other distinction
-      → Empathic helping tăng đáng kể (Svetlova 2010) 🟢
-      → Trẻ bắt đầu AN ỦI người khác
-      → = NHẬN RA MÌNH → phân biệt SELF / OTHER
-        → MỚI có thể MAP state mình lên other
-      → = TRUE EMPATHY bắt đầu: Self-Pattern-Modeling Compiled fire on other agent
+      → Empathic helping increases significantly (Svetlova 2010) 🟢
+      → Infant begins to COMFORT others
+      → = RECOGNIZES SELF → distinguishes SELF / OTHER
+        → ONLY THEN CAN map own state onto other
+      → = TRUE EMPATHY begins: Self-Pattern-Modeling Compiled fires on other agent
 
-  BẰNG CHỨNG QUYẾT ĐỊNH — Bird & Cook 2013 🟢:
-    → Empathy deficit attributed to autism → THỰC RA driven by alexithymia
-    → Self-awareness = upstream prerequisite cho empathy
-    → = NẾU module hardware → self-awareness không nên liên quan
-    → = NẾU Self-Pattern-Modeling function → self-chunks thiếu → Self-Pattern-Modeling fail → đúng
+  DECISIVE EVIDENCE — Bird & Cook 2013 🟢:
+    → Empathy deficit attributed to autism → ACTUALLY driven by alexithymia
+    → Self-awareness = upstream prerequisite for empathy
+    → = IF hardware module → self-awareness should not be relevant
+    → = IF Self-Pattern-Modeling function → self-chunks lacking → Self-Pattern-Modeling fails → correct
     → = DECISIVE for function model, AGAINST module model
 
   CONNECTION CONTEXT:
-    → = Connection Tầng PFC (❶ + ❷ Self-Pattern-Modeling — Connection.md §3.2)
-    → ❷ Self-Pattern-Modeling online → enables Resonance (mutual co-fire)
-    → Connection cung cấp SUSTAINED CONTEXT cho Resonance lặp lại
-    → Empathy = Self-Pattern-Modeling Compiled fire với ❸ positive trong connection context
+    → = Connection PFC Layer (❶ + ❷ Self-Pattern-Modeling — Connection.md §3.2)
+    → ❷ Self-Pattern-Modeling online → enables Resonance (mutual co-firing)
+    → Connection provides SUSTAINED CONTEXT for repeated Resonance
+    → Empathy = Self-Pattern-Modeling Compiled firing with ❸ positive in connection context
 ```
 
 ### §2.4 — ③ Schema Simulation (compiled, mature)
 
 ```
-🟡 SCHEMA SIMULATION — KHI AGENT MODEL ĐÃ COMPILED SÂU:
+🟡 SCHEMA SIMULATION — WHEN AGENT MODEL HAS COMPILED DEEPLY:
 
-  CƠ CHẾ:
-    → Agent model compiled qua nhiều năm → body respond KHÔNG CẦN input thật
-    → PFC TẠO virtual agent (thần, người đã mất, "giọng lương tâm")
-    → Schema ĐỦ MẠNH → fire tự động khi trigger
+  MECHANISM:
+    → Agent model compiled over many years → body responds WITHOUT actual input
+    → PFC CREATES virtual agent (deity, deceased person, "voice of conscience")
+    → Schema STRONG ENOUGH → fires automatically when triggered
 
   2 MODES (Agent-Mechanism.md §10):
 
     Schema-Pure-Trust — Zero modeling, pure schema trust:
-      → Schema rule: "Đức Mẹ luôn yêu thương, luôn bảo vệ"
-      → KHÔNG simulate state Đức Mẹ — chỉ trust rule
-      → Self-Pattern-Modeling KHÔNG fire — schema handles everything
-      → Body response: comfort, cortisol giảm, oxytocin
+      → Schema rule: "The Virgin Mary always loves, always protects"
+      → DOES NOT simulate Mary's state — only trusts the rule
+      → Self-Pattern-Modeling DOES NOT fire — schema handles everything
+      → Body response: comfort, cortisol decreases, oxytocin
 
     Schema-Imagined-Overlay — Imagined modeling overlay:
-      → Self-Pattern-Modeling fire toward schema-constructed virtual agent
-      → "Đức Mẹ đang NHÌN tôi, đang BUỒN vì tôi phạm lỗi"
-      → Schema fills in target's "state" → body responds intense
+      → Self-Pattern-Modeling fires toward schema-constructed virtual agent
+      → "The Virgin Mary is WATCHING me, is SADDENED by my transgression"
+      → Schema fills in target's "state" → body responds intensely
 
-  TẠI SAO TÔN GIÁO / TƯỢNG / PLACEBO / MẪU ẢNH WORK:
-    → Body KHÔNG phân biệt source:
-      Mẹ thật → cortisol giảm. Cục đá thiêng → cortisol giảm.
-      = CÙNG OUTPUT, KHÁC SOURCE.
-    → Schema compiled SÂU (lặp ritual hàng nghìn lần) → fire tự động
+  WHY RELIGION / STATUES / PLACEBO / PORTRAITS WORK:
+    → Body DOES NOT distinguish source:
+      Real mother → cortisol decreases. Sacred stone → cortisol decreases.
+      = SAME OUTPUT, DIFFERENT SOURCE.
+    → Schema compiled DEEPLY (repeated ritual thousands of times) → fires automatically
 
   DEVELOPMENTAL:
-    2-4 tuổi — Animism phase (Piaget 1929) 🟢:
-      → Trẻ attribute feelings cho đồ vật: "ghế bị đau"
-      → = Agent model ĐÃ BUILD → apply RỘNG HƠN CẦN THIẾT
-    4-7 tuổi — Refine boundaries:
-      → Selective: người, chó = CÓ state. Ghế = KHÔNG.
-      → NHƯNG: nếu CỘNG ĐỒNG nói "đá có linh hồn" → schema PREVENT refinement
+    2-4 years — Animism phase (Piaget 1929) 🟢:
+      → Children attribute feelings to objects: "the chair got hurt"
+      → = Agent model ALREADY BUILT → applied MORE BROADLY THAN NEEDED
+    4-7 years — Refine boundaries:
+      → Selective: people, dogs = HAVE states. Chair = DO NOT.
+      → BUT: if COMMUNITY says "rocks have spirits" → schema PREVENTS refinement
 ```
 
-### §2.5 — Developmental trajectory tổng hợp
+### §2.5 — Developmental Trajectory Summary
 
 ```
-🟢🟡 TRAJECTORY — TỪ SINH TỚI TRƯỞNG THÀNH:
+🟢🟡 TRAJECTORY — FROM BIRTH TO ADULTHOOD:
 
   ┌────────────┬─────────────┬───────────────────────────┬───────────────────────┐
-  │ Giai đoạn  │ Tuổi        │ Mechanism                 │ Milestone chính       │
+  │ Phase      │ Age         │ Mechanism                 │ Key Milestones        │
   ├────────────┼─────────────┼───────────────────────────┼───────────────────────┤
-  │ Pre-mirror │ 0-6 tháng   │ ① Pattern Matching only   │ Cry contagion,        │
+  │ Pre-mirror │ 0-6 months  │ ① Pattern Matching only   │ Cry contagion,        │
   │            │             │ = ❶ Hardware alone         │ social smile (6-8w)   │
   ├────────────┼─────────────┼───────────────────────────┼───────────────────────┤
-  │ Transition │ 6-12 tháng  │ ① → ② beginning          │ Social referencing,   │
-  │            │             │ Agent detection sơ khai   │ instrumental helping  │
+  │ Transition │ 6-12 months │ ① → ② beginning          │ Social referencing,   │
+  │            │             │ Agent detection emerging  │ instrumental helping  │
   ├────────────┼─────────────┼───────────────────────────┼───────────────────────┤
-  │ TRUE       │ 14-24 tháng │ ② Agent Modeling          │ Rouge test (18-24m),  │
-  │ EMPATHY    │             │ = ❷ Self-Pattern-Modeling Compiled fires          │ empathic helping      │
+  │ TRUE       │ 14-24 months│ ② Agent Modeling          │ Rouge test (18-24m),  │
+  │ EMPATHY    │             │ = ❷ Self-PM Compiled fires│ empathic helping      │
   ├────────────┼─────────────┼───────────────────────────┼───────────────────────┤
-  │ Over-apply │ 2-7 tuổi    │ ② over-generalize         │ Animism (Piaget),     │
+  │ Over-apply │ 2-7 years   │ ② over-generalize         │ Animism (Piaget),     │
   │            │             │                           │ false belief (4y)     │
   ├────────────┼─────────────┼───────────────────────────┼───────────────────────┤
   │ Refine     │ 7y+         │ ② + ③ matures             │ Boundary calibrate,   │
   │            │             │                           │ schema simulation     │
   ├────────────┼─────────────┼───────────────────────────┼───────────────────────┤
-  │ Adult      │ Mature      │ ①②③ blend tùy context     │ Context-dependent,    │
+  │ Adult      │ Mature      │ ①②③ blend per context     │ Context-dependent,    │
   │            │             │ + ❸ valence gate           │ valence-mediated      │
   └────────────┴─────────────┴───────────────────────────┴───────────────────────┘
 
   ⭐ KEY INSIGHT:
-    "Mirror" KHÔNG "turn on" ở 1 thời điểm — là COMPILE TRAJECTORY:
+    "Mirror" does NOT "turn on" at 1 moment — it is a COMPILE TRAJECTORY:
     ① Limbic patterns (near-innate) → ② Chunks compile agent model (learned)
-    → ③ Schema compile sâu (no input needed)
-    = Không phải "mirror neuron bật" → mà "brain build prediction model DẦN"
+    → ③ Schema compiles deeply (no input needed)
+    = Not "mirror neurons switch on" → rather "brain builds prediction model GRADUALLY"
 
-  🟢 Tất cả milestones = well-established developmental research
+  🟢 All milestones = well-established developmental research
   🟡 3-mechanism decomposition = framework synthesis
-  🟡 Mapping vào 3 Generative Primitives = framework synthesis
+  🟡 Mapping onto 3 Generative Primitives = framework synthesis
 ```
 
 ---
 
 ## §3 — CHUNK PREREQUISITE + DEVELOPMENTAL BOOTSTRAP
 
-### §3.1 — Core insight
+### §3.1 — Core Insight
 
 ```
-⭐ EMPATHY BUỘC PHẢI CÓ SELF-CHUNKS TÍCH LŨY ĐỦ:
+⭐ EMPATHY REQUIRES SUFFICIENT ACCUMULATED SELF-CHUNKS:
 
-  Chain kiến trúc (Self-Pattern-Modeling.md v3.1 §7):
+  Architectural chain (Self-Pattern-Modeling.md v3.1 §7):
 
-    Contingent caregiving (mẹ / caregiver)
+    Contingent caregiving (mother / caregiver)
       ↓
-    Self-chunk formation ("state này = label này = response này")
+    Self-chunk formation ("this state = this label = this response")
       ↓
-    Self-awareness emerges (tích lũy đủ chunks → biết mình đang feel gì)
+    Self-awareness emerges (sufficient chunks accumulated → knows what self is feeling)
       ↓
-    Templates available for projection (chunks dùng làm template)
+    Templates available for projection (chunks used as template)
       ↓
-    Self-Pattern-Modeling Compiled fires on others (simulate other's state via own template)
+    Self-Pattern-Modeling Compiled fires on others (simulates other's state via own template)
       ↓
-    Empathy emerges (khi ❸ positive)
+    Empathy emerges (when ❸ positive)
 
-  ⭐ SKIP SELF-CHUNK → KHÔNG TEMPLATES → KHÔNG Self-Pattern-Modeling → KHÔNG EMPATHY.
+  ⭐ SKIP SELF-CHUNK → NO TEMPLATES → NO Self-Pattern-Modeling → NO EMPATHY.
 
-  Đây là ARCHITECTURAL constraint, không phải developmental delay đơn thuần.
+  This is an ARCHITECTURAL constraint, not merely a developmental delay.
   Bird & Cook 2013 🟢: ongoing alexithymia blocks ongoing empathy
-  KỂ CẢ ở trained adults — không phải "sẽ tự phát triển theo tuổi."
+  EVEN in trained adults — it will not "naturally develop with age."
 
   ENTITY-COMPILED FORMATION × EMPATHY (v4.0 — Entity-Compiled v1.0):
-    Entity-Compiled = hub-and-spoke structure, hình thành qua 40→200 giờ tương tác
+    Entity-Compiled = hub-and-spoke structure, formed through 40→200 hours of interaction
     (Dunbar social brain: ~5 intimate / ~15 close / ~50 friends / ~150 acquaintances)
     → Empathy DEPTH = f(Entity-Compiled spoke count + compilation quality)
     → Intimate (200h+): hundreds of compiled spokes → HIGH-fidelity Compiled
     → Acquaintance (<40h): few spokes → COARSE empathy
-    → = Empathy quality ARCHITECTURALLY LIMITED bởi formation time
+    → = Empathy quality ARCHITECTURALLY LIMITED by formation time
 ```
 
-### §3.2 — Caregiver bootstrap mechanism
+### §3.2 — Caregiver Bootstrap Mechanism
 
 ```
-🟢🟡 CAREGIVER BOOTSTRAP — CÁCH SELF-CHUNKS HÌNH THÀNH:
+🟢🟡 CAREGIVER BOOTSTRAP — HOW SELF-CHUNKS FORM:
 
   (Self-Pattern-Modeling.md v3.1 §7)
 
-  QUY TRÌNH:
+  PROCESS:
 
-    Infant có internal state (đói, mệt, distressed, curious, satisfied)
+    Infant has internal state (hungry, tired, distressed, curious, satisfied)
       ↓
-    Caregiver observe infant behavior + context
+    Caregiver observes infant behavior + context
       ↓
-    Caregiver interpret + label contingently: "đói à con?", "con mệt rồi"
+    Caregiver interprets + labels contingently: "Are you hungry?", "You're tired"
       ↓
-    Caregiver respond contingently: feed khi đói, soothe khi distressed
+    Caregiver responds contingently: feeds when hungry, soothes when distressed
       ↓
-    Infant experience: state → label → response coupling
+    Infant experiences: state → label → response coupling
       ↓
     Self-chunk forms: "this internal state = this word/context = this response"
       ↓
@@ -875,58 +922,58 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Self-Pattern-Modeling Compiled can begin to fire (rouge test milestone)
 
 
-  TẠI SAO "CONTINGENT" QUAN TRỌNG:
+  WHY "CONTINGENT" MATTERS:
 
-    Contingent = response MATCH infant's state
-    Non-contingent = response MISMATCH
+    Contingent = response MATCHES infant's state
+    Non-contingent = response MISMATCHES
 
     → Quality of contingency > quantity of presence
-    → Caregiver vắng mặt 8 giờ đi làm nhưng contingent khi ở nhà
-      > Caregiver ở nhà 24/7 nhưng non-contingent
+    → Caregiver absent 8 hours at work but contingent when home
+      > Caregiver home 24/7 but non-contingent
 
     CONNECTION CONTEXT — 3 conditions (Connection.md §3.1):
       MET (active engagement) > UNMET (no one) > VIOLATED (present but non-contingent)
-      → VIOLATED CÓ THỂ TỆ HƠN UNMET
-      → 🟢 Still Face (Tronick 1978): mẹ apathetic → bé distress HƠN mẹ vắng
-      → = Hardware phân biệt CONTINGENCY, không chỉ presence
+      → VIOLATED CAN BE WORSE THAN UNMET
+      → 🟢 Still Face (Tronick 1978): apathetic mother → infant MORE distressed than absent mother
+      → = Hardware distinguishes CONTINGENCY, not just presence
 
-  🟢 Self-chunks form qua REPETITION:
-    → Hàng nghìn lần: state → label → response → confirm
-    → Mỗi lần = strengthen Hebbian connection
-    → KHÔNG có "moment bật" — là gradient (proto-chunks → compiled chunks)
+  🟢 Self-chunks form through REPETITION:
+    → Thousands of times: state → label → response → confirm
+    → Each time = strengthen Hebbian connection
+    → NO "moment of switching on" — it is a gradient (proto-chunks → compiled chunks)
 ```
 
-### §3.3 — Rouge test = birth milestone
+### §3.3 — Rouge Test = Self-Other Distinction Milestone
 
 ```
-🟢 ROUGE TEST — SELF-OTHER DISTINCTION (18-24 THÁNG):
+🟢 ROUGE TEST — SELF-OTHER DISTINCTION (18-24 MONTHS):
 
   Test (Amsterdam 1972) 🟢:
-    → Place rouge trên mũi trẻ, đặt trước gương
-    → Nếu trẻ chạm MŨI MÌNH (không phải gương) → PASS
-    → = Nhận ra reflection = CHÍNH MÌNH
+    → Place rouge on infant's nose, place in front of mirror
+    → If infant touches OWN nose (not mirror) → PASS
+    → = Recognizes reflection = SELF
 
   Framework interpretation:
-    → Rouge test pass = marker cho SELF-OTHER DISTINCTION
-    → Self-other distinction = PREREQUISITE cho Self-Pattern-Modeling Compiled:
-      Cần phân biệt "template CỦA MÌNH" vs "state CỦA NGƯỜI KHÁC"
-    → Trước rouge test: chưa phân biệt → Self-Pattern-Modeling KHÔNG fire được
-    → Sau rouge test: phân biệt → Self-Pattern-Modeling Compiled BẮT ĐẦU fire
+    → Rouge test pass = marker for SELF-OTHER DISTINCTION
+    → Self-other distinction = PREREQUISITE for Self-Pattern-Modeling Compiled:
+      Need to distinguish "MY OWN template" vs "the OTHER's state"
+    → Before rouge test: cannot distinguish → Self-Pattern-Modeling CANNOT fire
+    → After rouge test: can distinguish → Self-Pattern-Modeling Compiled BEGINS to fire
 
   Correlates 🟢:
-    → Empathic helping tăng đáng kể ở 18-24 tháng (Svetlova 2010)
-    → Phân biệt "wants but can't" vs "doesn't want" (Warneken 2006/2007)
-    → = ĐỒNG THỜI với self-other distinction → consistent with Self-Pattern-Modeling model
+    → Empathic helping increases significantly at 18-24 months (Svetlova 2010)
+    → Distinguishes "wants but can't" vs "doesn't want" (Warneken 2006/2007)
+    → = CONCURRENT with self-other distinction → consistent with Self-Pattern-Modeling model
 ```
 
-### §3.4 — Alexithymia — decisive architectural evidence
+### §3.4 — Alexithymia — Decisive Architectural Evidence
 
 ```
-🟢 BIRD & COOK 2013 — BẰNG CHỨNG QUYẾT ĐỊNH:
+🟢 BIRD & COOK 2013 — DECISIVE EVIDENCE:
 
   FINDING (Translational Psychiatry) 🟢:
     → Empathy deficit classically attributed to autism
-    → THỰC RA driven by ALEXITHYMIA (poor self-labeling of emotions)
+    → ACTUALLY driven by ALEXITHYMIA (poor self-labeling of emotions)
     → Autistic WITHOUT alexithymia → empathy INTACT
     → Alexithymic WITHOUT autism → empathy DEFICIT
 
@@ -940,16 +987,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ↓
     Poor template → poor Compiled simulation → poor Compiled output
       ↓
-    Poor output read — CŨNG fail vì can't interpret own simulation output
+    Poor output reading — ALSO fails because cannot interpret own simulation output
       ↓
     Empathy deficit (observable outcome)
 
 
-  ALEXITHYMIA CŨNG PHÁ FEEDBACK LOOP:
+  ALEXITHYMIA ALSO BREAKS THE FEEDBACK LOOP:
 
-    Self-Pattern-Modeling fire (thin chunks) → prediction noisy
+    Self-Pattern-Modeling fires (thin chunks) → prediction noisy
       ↓
-    Outcome observed → BUT interpretation CŨNG noisy
+    Outcome observed → BUT interpretation ALSO noisy
       ↓
     Resonance inference fails
       ↓
@@ -957,57 +1004,57 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ↓
     Next Self-Pattern-Modeling STILL uses thin chunks → NO IMPROVEMENT
 
-    → Alexithymia không chỉ impair CURRENT empathy
-    → Alexithymia PREVENTS LEARNING — loop broken
+    → Alexithymia not only impairs CURRENT empathy
+    → Alexithymia PREVENTS LEARNING — loop is broken
     → = Persistent without targeted intervention
 
 
   PREVALENCE:
-    → ~10% population có clinically significant alexithymia 🟢
+    → ~10% of population has clinically significant alexithymia 🟢
     → Self-chunk library quality = continuous, NOT binary
 ```
 
-### §3.5 — Disruption consequences
+### §3.5 — Disruption Consequences
 
 ```
-🟢🟡 KHI BOOTSTRAP BỊ PHÁ VỠ:
+🟢🟡 WHEN THE BOOTSTRAP IS DISRUPTED:
 
   Romanian orphanage studies 🟢:
-    → Children raised minimal contingent caregiving
+    → Children raised with minimal contingent caregiving
     → Persistent social-cognitive deficits into adulthood
 
-  CONNECTION CONTEXT — 2 outcomes tùy ❸ valence (Connection.md §3.4):
-    → ❷ Self-Pattern-Modeling thiếu + ❸ positive → indiscriminate friendliness
-    → ❷ Self-Pattern-Modeling thiếu + ❸ negative → social withdrawal
-    → = CÙNG bootstrap failure, KHÁC ❸ valence → KHÁC behavior
+  CONNECTION CONTEXT — 2 outcomes depending on ❸ valence (Connection.md §3.4):
+    → ❷ Self-Pattern-Modeling lacking + ❸ positive → indiscriminate friendliness
+    → ❷ Self-Pattern-Modeling lacking + ❸ negative → social withdrawal
+    → = SAME bootstrap failure, DIFFERENT ❸ valence → DIFFERENT behavior
 
-  SPECTRUM DISRUPTION:
+  SPECTRUM OF DISRUPTION:
 
     Mild: functional Self-Pattern-Modeling with alexithymia tendencies
-      → "Biết bạn buồn nhưng khó label chính xác"
+      → "Knows friend is sad but hard to label precisely"
       → Trainable via focused self-awareness work
 
     Moderate: thin self-chunks, empathy difficulties
-      → "Khó connect sâu với người khác"
+      → "Hard to connect deeply with others"
       → Requires therapeutic re-scaffolding
 
     Severe: profound Self-Pattern-Modeling deficits, reactive attachment disorder
       → Early intervention critical (under 2y = best window)
 
   RECOVERY:
-    → Early intervention (< 2 tuổi): brain plasticity → can largely recover
-    → Later: therapeutic re-scaffolding — build missing chunks DẦN
+    → Early intervention (< 2 years): brain plasticity → can largely recover
+    → Later: therapeutic re-scaffolding — build missing chunks GRADUALLY
     → Adult therapy: improve significantly but may not fully compensate
-    → = "Phá nhanh, xây chậm" — recovery asymmetry (Cortisol-Baseline.md v2.0 §1.5)
+    → = "Damage fast, repair slow" — recovery asymmetry (Cortisol-Baseline.md v2.0 §1.5)
 
 
   TRAINING IMPLICATION — ADULT EMPATHY:
 
-    SỐNG CÒN: phải rebuild SELF-CHUNKS trước, empathy improves AS SIDE EFFECT.
+    ESSENTIAL: must rebuild SELF-CHUNKS first, empathy improves AS SIDE EFFECT.
 
     Methods:
       → Focusing (Gendlin 1978): access felt sense, bypass premature labeling
-      → Mindfulness of body: build interoceptive chunks
+      → Body mindfulness: build interoceptive chunks
       → Emotional labeling therapy: explicit vocabulary practice
       → Body-based therapies: somatic experiencing, yoga, breathwork
 
@@ -1018,50 +1065,50 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §4 — CƠ CHẾ HOẠT ĐỘNG: Compiled/Fresh + 2-LUỒNG
+## §4 — MECHANISM: Compiled/Fresh + 2-TRACK
 
-### §4.1 — Self-Pattern-Modeling Compiled/Fresh applied to empathy
+### §4.1 — Self-Pattern-Modeling Compiled/Fresh Applied to Empathy
 
 ```
-⭐ EMPATHY = CHỦ YẾU Compiled, Fresh HỖ TRỢ:
+⭐ EMPATHY = PRIMARILY Compiled, Fresh SUPPORTS:
 
   (Self-Pattern-Modeling.md v3.1 §2 — Compiled + Fresh)
 
   Empathy CORE = Compiled (body-level simulation):
 
-    ┌─────┬──────────────────────┬──────────────────────────────────────────┐
-    │ Step│ Action               │ Empathy example                          │
-    ├─────┼──────────────────────┼──────────────────────────────────────────┤
-    │  1  │ RETRIEVE             │ Thấy bạn thân khóc → retrieve           │
-    │     │ Select chunks từ     │ "sadness / loss / chia tay" chunks       │
-    │     │ self repertoire      │ từ kinh nghiệm CỦA MÌNH                │
-    ├─────┼──────────────────────┼──────────────────────────────────────────┤
-    │  2  │ TEMPLATE MATCH       │ "Nếu mình ở vị trí bạn..."              │
-    │     │ Position as          │ Position sadness chunks as template      │
-    │     │ self-template        │ ready to project onto bạn               │
-    ├─────┼──────────────────────┼──────────────────────────────────────────┤
-    │  3  │ PROJECTION           │ Map template lên bạn:                    │
-    │     │ Apply template       │ "bạn's chunks would fire similarly"      │
-    │     │ onto target          │ = hypothesis, CHƯA verify                │
-    ├─────┼──────────────────────┼──────────────────────────────────────────┤
-    │  4  │ Compiled SIMULATION        │ Body MÌNH fire sadness — intensity        │
-    │     │ Body fire template   │ BIẾN THIÊN (zero → rất mạnh, tùy        │
-    │     │ as-if-self-were-     │ hợp tính, trạng thái, chunks, context)  │
-    │     │ target               │ = REAL body-level event                  │
-    │     │                      │ = Luồng 1 (Valence-Momentary) Self-Pattern-Modeling-owned         │
-    ├─────┼──────────────────────┼──────────────────────────────────────────┤
-    │  5  │ OUTPUT READ          │ PFC observe: "bạn đang rất buồn          │
-    │     │ PFC observe          │ vì chia tay" = feeling observation       │
-    │     │ simulation output    │ (Feeling.md v3.0 §3: PFC observation)    │
-    ├─────┼──────────────────────┼──────────────────────────────────────────┤
-    │  6  │ ATTRIBUTION          │ "Bạn cần được an ủi"                     │
-    │     │ Attribute to target  │ = prediction → possible action           │
-    └─────┴──────────────────────┴──────────────────────────────────────────┘
+  ┌─────┬──────────────────────┬─────────────────────────────────────────────────┐
+  │Step │ Action               │ Empathy example                                 │
+  ├─────┼──────────────────────┼─────────────────────────────────────────────────┤
+  │  1  │ RETRIEVE             │ See close friend cry → retrieve                 │
+  │     │ Select chunks from   │ "sadness / loss / breakup" chunks               │
+  │     │ self repertoire      │ from OWN experience                             │
+  ├─────┼──────────────────────┼─────────────────────────────────────────────────┤
+  │  2  │ TEMPLATE MATCH       │ "If I were in their position..."               │
+  │     │ Position as          │ Position sadness chunks as template             │
+  │     │ self-template        │ ready to project onto friend                   │
+  ├─────┼──────────────────────┼─────────────────────────────────────────────────┤
+  │  3  │ PROJECTION           │ Map template onto friend:                       │
+  │     │ Apply template       │ "friend's chunks would fire similarly"          │
+  │     │ onto target          │ = hypothesis, NOT yet verified                  │
+  ├─────┼──────────────────────┼─────────────────────────────────────────────────┤
+  │  4  │ Compiled SIMULATION  │ OWN body fires sadness — intensity              │
+  │     │ Body fires template  │ VARIES (zero → very strong, depending on        │
+  │     │ as-if-self-were-     │ template fit, own state, chunks, context)       │
+  │     │ target               │ = REAL body-level event                         │
+  │     │                      │ = Track 1 (Valence-Momentary) Self-PM-owned     │
+  ├─────┼──────────────────────┼─────────────────────────────────────────────────┤
+  │  5  │ OUTPUT READ          │ PFC observes: "friend is very sad               │
+  │     │ PFC observes         │ about the breakup" = feeling observation        │
+  │     │ simulation output    │ (Feeling.md v3.0 §3: PFC observation)           │
+  ├─────┼──────────────────────┼─────────────────────────────────────────────────┤
+  │  6  │ ATTRIBUTION          │ "Friend needs comforting"                       │
+  │     │ Attribute to target  │ = prediction → possible action                  │
+  └─────┴──────────────────────┴─────────────────────────────────────────────────┘
 
-  Step 4 = CRITICAL: simulation là REAL BODY-LEVEL EVENT.
-    → Body MÌNH genuinely responds (slight sadness, tension)
-    → = Tại sao empathy CÓ COST thật (biochemistry — §4.2)
-    → = Luồng 1 SINH RA ở đây: body-feedback từ Compiled simulation
+  Step 4 = CRITICAL: simulation is a REAL BODY-LEVEL EVENT.
+    → OWN body genuinely responds (slight sadness, tension)
+    → = Why empathy HAS REAL COST (biochemistry — §4.2)
+    → = Track 1 ORIGINATES HERE: body-feedback from Compiled simulation
 
   Step 5 = REQUIRES self-awareness:
     → Rich self-chunk labels → precise: "ambivalent gratitude tinged with guilt"
@@ -1069,15 +1116,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Bird & Cook architectural point
 
 
-  Fresh HỖ TRỢ EMPATHY (không phải empathy core):
+  Fresh SUPPORTS EMPATHY (not empathy core):
 
-    SONG SONG với Compiled, Fresh chain:
-    → "Bạn buồn vì chia tay → bạn sẽ muốn nói chuyện →
-       bạn KHÔNG muốn nghe advice → nên LẮNG NGHE → kế hoạch cho tôi"
-    → Fresh = DELIBERATE predict: target sẽ làm gì, tôi nên làm gì
-    → Fresh KHÔNG tạo body response — tạo PLAN
-    → Empathy = Compiled (cảm nhận state người khác)
-    → Empathic response = Compiled + Fresh (cảm nhận + biết nên làm gì)
+    IN PARALLEL with Compiled, Fresh chain:
+    → "Friend sad about breakup → will want to talk →
+       will NOT want advice → should LISTEN → plan for me"
+    → Fresh = DELIBERATE prediction: what will target do, what should I do
+    → Fresh does NOT create body response — creates a PLAN
+    → Empathy = Compiled (feeling the other's state)
+    → Empathic response = Compiled + Fresh (feeling + knowing what to do)
 
   SPEED varies by Pattern-Type:
     → Affective Compiled: milliseconds (near-automatic, hardest to suppress)
@@ -1088,260 +1135,268 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   CONTEXT-DEPENDENT CHUNK SELECTION (Self-Pattern-Modeling v3.1 §4):
 
-    Vô thức tùy chọn chunks phù hợp agent + context:
-    → Với mẹ: retrieve "ngoan, nhà cửa, xưng con-mẹ"
-    → Với bạn: retrieve "thoải mái, mày-tao, joke"
-    → Với kẻ thù: retrieve "cảnh giác, phòng thủ, điểm yếu"
-    → COMPILED — không cần PFC deliberate mỗi lần
+    Unconsciously selects appropriate chunks for agent + context:
+    → With mother: retrieve "polite, family, formal address"
+    → With close friend: retrieve "relaxed, casual, jokes"
+    → With enemy: retrieve "vigilant, defensive, weaknesses"
+    → COMPILED — no PFC deliberation needed each time
 
-    → = Tại sao empathy "khác" với mỗi người: chunks khác → Compiled output khác
-    → = Tại sao cùng 1 hành vi (khóc): bạn thân khóc → buồn nhiều,
-        người lạ khóc → buồn nhẹ, kẻ thù khóc → có thể KHÔNG buồn
+    → = Why empathy "feels different" for each person: different chunks → different Compiled output
+    → = Why with same behavior (crying): close friend crying → much sadness,
+        stranger crying → mild sadness, enemy crying → may NOT feel sadness
 
 
   ⭐ COMPILED/FRESH EMPATHY — COST DIFFERENTIAL (Self-Pattern-Modeling v3.1 §2, Inter-Body-Mechanism.md §3):
 
-    Compiled/Fresh KHÔNG phải "Feeling vs Logic" — là MỨC ĐỘ COMPILATION:
+    Compiled/Fresh is NOT "Feeling vs Logic" — it is DEGREE OF COMPILATION:
       → Compiled: body-level, automatic, cost ≈ 0 (Hebbian reinforced)
       → Fresh: PFC draft, deliberate, cost > 0 (processing load)
 
-    ÁP DỤNG CHO EMPATHY:
+    APPLIED TO EMPATHY:
 
-      Compiled empathy (Compiled dominant, cost thấp):
-        → Mẹ đọc con: decades practice → automatic, không cần nghĩ
-        → Therapist expert: hundreds patients → pattern compiled → read fast
-        → Bạn thân 20 năm: deep model → predict chính xác → cost ≈ 0
-        → = BỀN VỮNG — cost thấp, accuracy cao
+      Compiled empathy (Compiled dominant, low cost):
+        → Mother reading her child: decades of practice → automatic, no thinking needed
+        → Expert therapist: hundreds of patients → patterns compiled → reads fast
+        → Close friend of 20 years: deep model → predicts accurately → cost ≈ 0
+        → = SUSTAINABLE — low cost, high accuracy
 
-      Fresh empathy (Fresh dominant, cost cao):
-        → Người lạ: PFC phải draft "họ đang feel gì?" → effortful
-        → Cross-cultural: template mismatch → PFC compensate → cost × 2
-        → Novice helper: MỌI case đều fresh → PFC drain → burnout
-        → = KHÔNG BỀN VỮNG nếu volume cao
+      Fresh empathy (Fresh dominant, high cost):
+        → Stranger: PFC must draft "what are they feeling?" → effortful
+        → Cross-cultural: template mismatch → PFC compensates → cost × 2
+        → Novice helper: EVERY case is fresh → PFC drain → burnout
+        → = UNSUSTAINABLE if volume is high
 
-      3-COST ÁP DỤNG (Inter-Body-Mechanism.md §4):
-        ① PFC draft: "đang nghĩ họ feel gì" = cost mỗi chain
-        ② Suppress: override phản ứng tự nhiên ("đừng khóc theo") = cost
-        ③ Uncertainty: "đọc đúng chưa? họ thật sự buồn hay giận?" = cost
+      3-COST APPLIED (Inter-Body-Mechanism.md §4):
+        ① PFC draft: "thinking about what they feel" = cost per chain
+        ② Suppress: override natural reaction ("don't cry along") = cost
+        ③ Uncertainty: "am I reading this right? are they truly sad or angry?" = cost
 
-      → Expert therapist sustainable VÌ: compiled → ①②③ gần 0
-      → Novice therapist burnout VÌ: fresh → ①②③ đều CAO mỗi session
-      → = Giải thích burnout differential CHÍNH XÁC hơn "stress exposure" đơn thuần
+      → Expert therapist sustainable BECAUSE: compiled → ①②③ near 0
+      → Novice therapist burns out BECAUSE: fresh → ①②③ ALL HIGH each session
+      → = Explains burnout differential MORE ACCURATELY than "stress exposure" alone
 
 
   ⭐ PFC BUDGET × EMPATHY (v4.0 — PFC-Operations.md v1.0 §9):
 
     PFC budget = FINITE SHARED RESOURCE. Empathy competes:
-      → Work stress dùng PFC → về nhà: hết budget → Self-Pattern-Modeling cho con YẾU
-      → "Không muốn nói chuyện" = KHÔNG PHẢI "không yêu" = PFC budget ĐÃ HẾT
+      → Work stress uses PFC → come home: budget depleted → Self-Pattern-Modeling for child WEAKER
+      → "Don't want to talk" = NOT "don't love" = PFC budget IS DEPLETED
 
     PARENT-CHILD = HIGHEST PFC COST (PFC-Operations.md v1.0 §9.2):
-      ① Con = moving target: 3 tuổi ≠ 7 ≠ 13 ≠ 17 → model phải RE-DRAFT
-      ② Hardware mismatch: con ≈ 50% genetic + peer + era → bias Self-Pattern-Modeling = SAI
-         → Phải SUPPRESS own compiled + HOLD fresh = DOUBLE COST
-      ③ Hormone support GIẢM DẦN: oxytocin mạnh 0-5 → yếu khi con lớn
-      ④ Asymmetric: bố mẹ Self-Pattern-Modeling con = Fresh (con luôn đổi), con Self-Pattern-Modeling bố mẹ = Compiled
-      → Teenager = HIGHEST cost (biggest change + least hormone support)
+      ① Child = moving target: age 3 ≠ 7 ≠ 13 ≠ 17 → model must RE-DRAFT
+      ② Hardware mismatch: child ≈ 50% genetic + peers + era
+         → biased Self-Pattern-Modeling = WRONG
+         → Must SUPPRESS own compiled + HOLD fresh = DOUBLE COST
+      ③ Hormonal support GRADUALLY DECREASES: oxytocin strong 0-5y → weaker as child grows
+      ④ Asymmetric: parents Self-Pattern-Modeling child = Fresh (child always changing),
+         child Self-Pattern-Modeling parents = Compiled
+      → Teenager = HIGHEST cost (biggest change + least hormonal support)
 
 
   ⭐ COMPILED QUALITY × EMPATHY (v4.0 — PFC-Operations.md v1.0 §5):
 
-    Empathy COMPILATION có 3 QUALITY TYPES:
+    Empathy COMPILATION has 3 QUALITY TYPES:
 
-    ┌──────────────────┬─────────────────┬─────────────────┬─────────────────┐
-    │                  │ GENUINE-COMPILED│ SCHEMA-COMPILED │ THREAT-COMPILED │
-    ├──────────────────┼─────────────────┼─────────────────┼─────────────────┤
-    │ Compile pathway  │ Body reward thật│ PFC/obligation  │ Punishment/fear │
-    │ Body khi dùng    │ THÍCH empathize │ NEUTRAL         │ TRÁNH nhưng ép  │
-    │ Self-Pattern-Modeling capacity     │ EXPANSIVE       │ LIMITED         │ BIASED negative │
-    │ Long-term        │ Compound growth │ Stable if bridge│ BURNOUT risk ⚠️│
-    └──────────────────┴─────────────────┴─────────────────┴─────────────────┘
+    ┌──────────────────┬─────────────────┬─────────────────┬──────────────────┐
+    │                  │ GENUINE-COMPILED│ SCHEMA-COMPILED │ THREAT-COMPILED  │
+    ├──────────────────┼─────────────────┼─────────────────┼──────────────────┤
+    │ Compile pathway  │ Real body reward│ PFC/obligation  │ Punishment/fear  │
+    │ Body when used   │ ENJOYS empathy  │ NEUTRAL         │ AVOIDS but forced│
+    │ Self-PM capacity │ EXPANSIVE       │ LIMITED         │ BIASED negative  │
+    │ Long-term        │ Compound growth │ Stable if bridge│ BURNOUT risk ⚠️ │
+    └──────────────────┴─────────────────┴─────────────────┴──────────────────┘
 
-    VD: Genuine-compiled therapist = 20 năm practice → automatic, expansive, sustainable
-    VD: Schema-compiled teacher = "phải caring vì là giáo viên" → functional nhưng limited
-    VD: Threat-compiled caregiver = "nếu không chăm sóc sẽ bị đánh giá" → burnout trajectory
+    E.g.: Genuine-compiled therapist = 20 years practice → automatic, expansive, sustainable
+    E.g.: Schema-compiled teacher = "must be caring because I'm a teacher" → functional but limited
+    E.g.: Threat-compiled caregiver = "if I don't care I'll be judged" → burnout trajectory
 
-    → Compiled quality QUYẾT ĐỊNH sustainability — cùng Compiled intensity, khác trajectory
+    → Compiled quality DETERMINES sustainability — same Compiled intensity, different trajectory
 
     🟡 Compiled/Fresh empathy cost = framework synthesis
     🟢 Expert intuition = compiled pattern: consistent with expertise research
 ```
 
-### §4.2 — Biochemistry cascade + 2-luồng
+### §4.2 — Biochemistry Cascade + 2-Track
 
 ```
-⭐ EMPATHY = BIOCHEMISTRY THẬT TRONG BODY MÌNH:
+⭐ EMPATHY = REAL BIOCHEMISTRY IN OWN BODY:
 
-  Khác biệt DUY NHẤT so với trải nghiệm trực tiếp:
-    → NGUỒN trigger (từ Self-Pattern-Modeling Compiled simulation, không phải domain trực tiếp)
-    → INTENSITY (thường yếu hơn, nhưng BIẾN THIÊN: zero → rất mạnh)
-  Còn lại: CÙNG pathways, CÙNG molecules, CÙNG body response.
+  The ONLY difference from direct experience:
+    → SOURCE of trigger (from Self-Pattern-Modeling Compiled simulation,
+      not from direct domain)
+    → INTENSITY (usually weaker, but VARIES: zero → very strong)
+  Otherwise: SAME pathways, SAME molecules, SAME body response.
 
 
-  EMPATHY NEGATIVE (thấy agent đau / buồn / sợ) = Valence-Momentary COST:
+  NEGATIVE EMPATHY (seeing agent in pain / sad / scared) = Valence-Momentary COST:
 
-    Self-Pattern-Modeling Compiled fire → body tạo bản sao yếu state NEGATIVE
+    Self-Pattern-Modeling Compiled fires → body creates weakened replica of NEGATIVE state
       ↓
-    ① Amygdala detect dissonance (Cortisol-Baseline.md v2.0 §1.5 ①)
+    ① Amygdala detects dissonance (Cortisol-Baseline.md v2.0 §1.5 ①)
        → "Low road" (LeDoux 1996) 🟢: sensory → amygdala ~12ms
-       → Dù nguồn từ Compiled simulation, amygdala KHÔNG phân biệt source
+       → Even though source is Compiled simulation, amygdala DOES NOT distinguish source
       ↓
     ② NE spike (Cortisol-Baseline.md v2.0 §1.5 ②)
-       → Locus Coeruleus fire Norepinephrine
-       → NE thấp-vừa → PFC ENHANCE (α2 receptors)
-       → NE cao → PFC DISCONNECT (α1 receptors)
+       → Locus Coeruleus fires Norepinephrine
+       → NE low-moderate → PFC ENHANCES (α2 receptors)
+       → NE high → PFC DISCONNECTS (α1 receptors)
        → (Arnsten 2009, 2015) 🟢
       ↓
-    ③ Adrenaline nhẹ (Cortisol-Baseline.md v2.0 §1.5 ③)
-       → Sympathetic → body mobilize NHẸ: tim nhanh, cơ căng nhẹ
+    ③ Mild adrenaline (Cortisol-Baseline.md v2.0 §1.5 ③)
+       → Sympathetic → body mobilizes MILDLY: heart rate up, mild muscle tension
       ↓
-    ④ HPA axis → Cortisol sustain (Cortisol-Baseline.md v2.0 §1.5 ④⑤)
+    ④ HPA axis → Cortisol sustains (Cortisol-Baseline.md v2.0 §1.5 ④⑤)
        → Hypothalamus → CRH → Pituitary → ACTH → Cortisol
-       → SUSTAIN neurons mobilized (phút → giờ)
+       → SUSTAINS mobilized neurons (minutes → hours)
        → (Sapolsky 2004) 🟢
       ↓
-    Body MÌNH: cortisol THẬT, NE THẬT, tension THẬT
-    → = Valence-Momentary COST mỗi episode Compiled fire
+    OWN body: REAL cortisol, REAL NE, REAL tension
+    → = Valence-Momentary COST each episode Compiled fires
 
 
-  EMPATHY POSITIVE (thấy agent vui / pleasant) = Valence-Momentary REWARD:
+  POSITIVE EMPATHY (seeing agent happy / pleasant) = Valence-Momentary REWARD:
 
-    Self-Pattern-Modeling Compiled fire → body tạo bản sao yếu state POSITIVE
+    Self-Pattern-Modeling Compiled fires → body creates weakened replica of POSITIVE state
       ↓
-    → Opioid pathway: endorphin release nhẹ
-    → Oxytocin release nhẹ (bonding, warmth)
-    → VTA / reward circuit activate nhẹ
-    → = Valence-Momentary REWARD mỗi episode Compiled fire
+    → Opioid pathway: mild endorphin release
+    → Mild oxytocin release (bonding, warmth)
+    → Mild VTA / reward circuit activation
+    → = Valence-Momentary REWARD each episode Compiled fires
 
 
   3 GENUINE DISCOMFORT SOURCES (Body-Feedback-Mechanism.md §2.5):
 
-    Cortisol KHÔNG gây đau — 3 nguồn thật:
-      ① Đau vật lý: Singer 2004 🟢: anterior insula + ACC fire khi observe đau
-      ② Mismatch: state người khác ≠ state mình → dissonance signal
-      ③ Recalibration: cortisol sustain → neurons calibrate → uncomfortable
+    Cortisol does NOT cause pain — 3 REAL sources:
+      ① Physical pain: Singer 2004 🟢: anterior insula + ACC fire when observing pain
+      ② Mismatch: other's state ≠ own state → dissonance signal
+      ③ Recalibration: cortisol sustains → neurons calibrate → uncomfortable
 
 
-  ⭐ 2 LUỒNG ĐỒNG THỜI — ORGANIC TRONG CƠ CHẾ:
+  ⭐ 2 TRACKS SIMULTANEOUSLY — ORGANIC IN THE MECHANISM:
 
-    Toàn bộ cascade trên = Luồng 1 (Valence-Momentary, Self-Pattern-Modeling-owned).
-    NHƯNG mỗi empathy event CŨNG có Luồng 2 chạy song song (nếu có):
+    The entire cascade above = Track 1 (Valence-Momentary, Self-Pattern-Modeling-owned).
+    BUT each empathy event ALSO has Track 2 running in parallel (if present):
 
-    LUỒNG 1 — Self-Pattern-Modeling-owned (Compiled output):
-      = Body-feedback TẠI KHOẢNH KHẮC Compiled fire trên target
-      = Per-episode: mỗi lần Compiled fire = 1 episode Valence-Momentary
-      = Empathy negative → cascade ①-④ = Valence-Momentary cost
-      = Empathy positive → opioid, oxytocin = Valence-Momentary reward
+    TRACK 1 — Self-Pattern-Modeling-owned (Compiled output):
+      = Body-feedback AT THE MOMENT Compiled fires on target
+      = Per-episode: each Compiled fire = 1 Valence-Momentary episode
+      = Negative empathy → cascade ①-④ = Valence-Momentary cost
+      = Positive empathy → opioid, oxytocin = Valence-Momentary reward
 
-    LUỒNG 2 — Entity-Compiled (compiled valence):
-      = Agent ĐÃ compiled thành body-base extension (Entity-Valence-Dynamics.md v1.0 §2)
+    TRACK 2 — Entity-Compiled (compiled valence):
+      = Agent has ALREADY compiled into body-base extension (Entity-Valence-Dynamics.md v1.0 §2)
       = Agent's wellbeing = MY wellbeing (structural)
-      = SUSTAINED — KHÔNG phụ thuộc Valence-Momentary output mỗi episode
-      = CÓ hoặc KHÔNG tùy valence compiled depth
+      = SUSTAINED — INDEPENDENT of Valence-Momentary output each episode
+      = PRESENT or ABSENT depending on compiled valence depth
 
-    2 LUỒNG GIẢI THÍCH CASES QUAN TRỌNG:
+    2 TRACKS EXPLAIN IMPORTANT CASES:
 
-      "Nhìn con ăn ngon mà sướng":
-        Valence-Momentary+ (opioid — thấy con vui) + Valence-Structural+ (con = body-ext) = COMPOUND REWARD
+      "Watching a child eat well and feeling satisfied":
+        Valence-Momentary+ (opioid — seeing child happy) + Valence-Structural+
+        (child = body-extension) = COMPOUND REWARD
 
-      "Chăm con ốm dù mệt":
-        Valence-Momentary- (cascade ①-④ — thấy con đau) + Valence-Structural+ (con = body-ext)
-        → Valence-Structural > Valence-Momentary → VẪN CHĂM dù body khó chịu
+      "Caring for a sick child despite exhaustion":
+        Valence-Momentary- (cascade ①-④ — seeing child in pain) + Valence-Structural+
+        (child = body-extension)
+        → Valence-Structural > Valence-Momentary → STILL CARES even when body uncomfortable
 
-      "Bác sĩ burnout":
-        Valence-Momentary- (cascade ①-④ — thấy bệnh nhân đau) + Valence-Structural ≈ 0 (chưa compiled)
-        → Valence-Momentary cost TÍCH LŨY không bù → burnout (§8.2)
+      "Doctor burnout":
+        Valence-Momentary- (cascade ①-④ — seeing patient in pain)
+        + Valence-Structural ≈ 0 (not yet compiled)
+        → Valence-Momentary cost ACCUMULATES unchecked → burnout (§8.2)
 
-      "Cho quà và nhìn mở quà":
-        Valence-Momentary+ (Compiled observe họ vui → opioid) + visual input amplify
-        → = Empathy reward CẦN visual input thật — thấy người nhận improve
-        → = Tại sao cho trực tiếp > donate online
+      "Giving a gift and watching it be opened":
+        Valence-Momentary+ (Compiled observes recipient's joy → opioid) + visual input amplifies
+        → = Empathy reward NEEDS real visual input — seeing the recipient improve
+        → = Why giving in person > donating online
 
-    → 2 luồng KHÔNG phải "2 hệ thống" — là 2 OUTPUTS cùng architecture:
+    → 2 tracks are NOT "2 systems" — they are 2 OUTPUTS of the same architecture:
       Valence-Momentary = Self-Pattern-Modeling mechanism output (per-episode) = CURRENT empathy
       Valence-Structural = Entity valence compiled output (structural) = STRUCTURAL empathy
 
 
   ⭐ 3 FIRING MODES × EMPATHY (v4.0 — Entity-Valence-Dynamics.md v1.0 §4):
 
-    Firing-Maintenance (entity present, hàng ngày):
-      → Entity PRESENT → empathy fire LOW-LEVEL → VTA habituated → INVISIBLE
-      → "Ở với mẹ 20 năm, không thấy đặc biệt gì" = Firing-Maintenance empathy
-      → Hardware-subsidy modulates: mẹ→con Firing-Maintenance = RICHER baseline
+    Firing-Maintenance (entity present, daily):
+      → Entity PRESENT → empathy fires LOW-LEVEL → VTA habituated → INVISIBLE
+      → "Living with mother for 20 years, nothing feels special" = Firing-Maintenance empathy
+      → Hardware-subsidy modulates: mother→child Firing-Maintenance = RICHER baseline
 
-    Firing-Chunk-Miss (entity absent, cấp tính):
-      → Entity ABSENT → compiled routine fire → no response → PAIN
-      → "Bạn ốm, không gặp → nhớ → body khó chịu" = Firing-Chunk-Miss empathy
-      → 🟢 O'Connor 2023: basal ganglia vẫn fire "entity sẽ ở đây" khi đã mất
+    Firing-Chunk-Miss (entity absent, acute):
+      → Entity ABSENT → compiled routine fires → no response → PAIN
+      → "Friend is sick, can't meet → miss them → body uncomfortable"
+        = Firing-Chunk-Miss empathy
+      → 🟢 O'Connor 2023: basal ganglia still fires "entity should be here" after loss
 
-    Firing-Context-Trigger (entity absent, tình cờ):
-      → External cue → match Entity-Compiled spoke → empathy fire → UNPREDICTABLE
-      → "Nghe bài hát → nhớ bạn → buồn" = Firing-Context-Trigger empathy
+    Firing-Context-Trigger (entity absent, incidental):
+      → External cue → matches Entity-Compiled spoke → empathy fires → UNPREDICTABLE
+      → "Hear a song → remember friend → feel sad" = Firing-Context-Trigger empathy
 
-    → 3 Firing Modes giải thích TẠI SAO empathy fire ở moments KHÁC NHAU:
-      Cùng entity nhưng khác context → khác mode → khác intensity
+    → 3 Firing Modes explain WHY empathy fires at DIFFERENT moments:
+      Same entity but different context → different mode → different intensity
     → Connection.md v5.0 §3.3
 
 
-    🟡 2-luồng model = framework synthesis
+    🟡 2-track model = framework synthesis
     🟢 Empathy biochemistry cascade = established neuroscience
 ```
 
-### §4.3 — Empathy ceiling — giới hạn bởi chunk overlap
+### §4.3 — Empathy Ceiling — Limited by Chunk Overlap
 
 ```
-🟡 EMPATHY KHÔNG BAO GIỜ 100% — 3 LỚP OVERLAP GIỚI HẠN:
+🟡 EMPATHY NEVER 100% — 3 LAYERS OF OVERLAP LIMIT IT:
 
   ① Species overlap (~70-90%):
-    → Cùng loài → body-base GẦN GIỐNG → đồng cảm cơ bản
-    → Khác loài → overlap GIẢM (chó ~40-60%, cá ~5-10%)
-    → = Tại sao empathy cho người > cho chó > cho cá
+    → Same species → body-base NEARLY IDENTICAL → basic empathy
+    → Different species → overlap DECREASES (dog ~40-60%, fish ~5-10%)
+    → = Why empathy for humans > dogs > fish
 
   ② Culture overlap (0-80%):
-    → Shared domain → chunks chung → predict ĐÚNG hơn
-    → Khác văn hóa → chunks KHÁC → predict SAI nhiều hơn
+    → Shared domain → common chunks → predict MORE ACCURATELY
+    → Different culture → different chunks → predict MORE INCORRECTLY
 
   ③ Personal overlap (0-90%):
-    → Thời gian × attention → simulate CHI TIẾT
-    → Bạn thân 20 năm: deep compiled model → high-fidelity empathy
-    → Người lạ: surface template → coarse empathy
+    → Time × attention → simulate IN DETAIL
+    → Close friend of 20 years: deeply compiled model → high-fidelity empathy
+    → Stranger: surface template → coarse empathy
 
-  → = "Hiểu" = APPROXIMATE, không bao giờ 100%
-  → = Hardware delta (DRD4, cortisol baseline) = KHÔNG simulate được
+  → = "Understanding" = APPROXIMATE, never 100%
+  → = Hardware delta (DRD4, cortisol baseline) = CANNOT be simulated
 
-  NHƯNG: Domain depth ≠ Personal depth:
-    → Mathematicians "hiểu nhau" qua math chunks,
-      KHÔNG cần shared personal history (Agent-Mechanism.md §9.3)
-    → = "Hiểu nhau" có thể domain-specific
+  BUT: Domain depth ≠ Personal depth:
+    → Mathematicians "understand each other" through math chunks,
+      WITHOUT needing shared personal history (Agent-Mechanism.md §9.3)
+    → = "Understanding" can be domain-specific
 
 
   ⭐ ENTITY-ACCESS GRADIENT × EMPATHY CEILING (v4.0 — Entity-Access v1.2):
 
-    Entity-Access Mức 0-5 SET CEILING cho empathy quality:
+    Entity-Access Level 0-5 SETS CEILING for empathy quality:
 
-    Mức 0 (Tool-mode): Engine Mode = Tool → Compiled OFF → empathy IMPOSSIBLE
-      → "Bưu tá = delivers packages" → no empathy engagement
-    Mức 1 (Shallow): Surface Compiled → coarse empathy, minimal overlap
-    Mức 2 (Partial): Compiled emerging → decent empathy, some Generative
-    Mức 3 (Deep, Compilable-dominant): Compiled rich → mutual calibrated empathy, EASY EXIT
-      → = HIGHEST QUALITY empathy (Compilable-dominant = genuine, feedback calibrate)
-    Mức 4 (Entity-owned, Hardware/low exit): Valence-Structural override → structural empathy
-      → Empathy "always on" nhưng EXIT COST BLOCKS calibration feedback
-    Mức 5 (Excess): Valence-Structural drive > Compiled radar → PROJECTION replaces empathy
-      → "Mẹ tưởng hiểu con" = Self-Pattern-Modeling Failure Mode 1 (Bond-Architecture.md §2.2)
+    Level 0 (Tool-mode): Engine Mode = Tool → Compiled OFF → empathy IMPOSSIBLE
+      → "Mail carrier = delivers packages" → no empathy engagement
+    Level 1 (Shallow): Surface Compiled → coarse empathy, minimal overlap
+    Level 2 (Partial): Compiled emerging → decent empathy, some Generative
+    Level 3 (Deep, Compilable-dominant): Compiled rich → mutual calibrated empathy, EASY EXIT
+      → = HIGHEST QUALITY empathy (Compilable-dominant = genuine, feedback calibrates)
+    Level 4 (Entity-owned, Hardware/low exit): Valence-Structural override → structural empathy
+      → Empathy "always on" but EXIT COST BLOCKS calibration feedback
+    Level 5 (Excess): Valence-Structural drive > Compiled radar → PROJECTION replaces empathy
+      → "Mother thinks she understands her child" = Self-Pattern-Modeling Failure Mode 1
+         (Bond-Architecture.md §2.2)
 
     ⭐ EXIT COST × CALIBRATION PARADOX (Entity-Access v1.2 §8.3):
       Strongest bond = HARDEST to calibrate empathy:
       → Child can't exit → "no" signal ineffective → parent may not recalibrate
       → Teen rebellion = child's FIRST calibration signal
-      → Bạn bè (Mức 3): low exit cost → EXTERNAL feedback forces calibration
+      → Friends (Level 3): low exit cost → EXTERNAL feedback forces calibration
       → Self-awareness = ONLY calibration source for high-exit-cost bonds
 ```
 
-### §4.4 — 5 Pattern-Type variations
+### §4.4 — 5 Pattern-Type Variations
 
 ```
-🟡 Self-Pattern-Modeling Compiled FIRE KHÁC NHAU TÙY PATTERN-TYPE:
+🟡 Self-Pattern-Modeling Compiled FIRES DIFFERENTLY BY PATTERN-TYPE:
 
   (Self-Pattern-Modeling.md v3.1 §5)
 
@@ -1349,246 +1404,255 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Compiled fastest — milliseconds, near-automatic
     → Hardest to suppress (even dehumanization requires ongoing effort)
     → Cross-species: works via surface distress cues
-    → VD: thấy ai khóc → body mình buồn nhẹ TỰ ĐỘNG
+    → E.g.: seeing someone cry → own body feels slightly sad AUTOMATICALLY
 
   ② SOMATIC (body state chunks):
     → Compiled fast — seconds, body-coupled
     → Strong in embodied contexts (dance, sports, crafts)
-    → VD: xem vận động viên thi đấu → body co-fire tension
+    → E.g.: watching an athlete compete → own body co-fires tension
 
   ③ VISUAL-SYMBOLIC (spatial / mathematical chunks):
     → Moderate speed
-    → Enables deep understanding KHÔNG CẦN personal depth
-    → VD: 2 nhà toán học discuss proof → "hiểu nhau" qua symbolic chunks
+    → Enables deep understanding WITHOUT needing personal depth
+    → E.g.: 2 mathematicians discussing a proof → "understand each other" through symbolic chunks
 
   ④ VERBAL-COGNITIVE (inner speech / reasoning chunks):
     → Fresh-dominant — slower, sequential reasoning
     → Explicit perspective-taking
-    → VD: simulate "tại sao họ nghĩ vậy" qua verbal reasoning
+    → E.g.: simulate "why do they think that way" through verbal reasoning
 
   ⑤ COMPOSITE (multi-modal blend):
     → Rich relationships = composite dominant
     → Family, close friends: affective + somatic + cognitive blend
     → = Richest empathy, highest fidelity
 
-  MỖI NGƯỜI có modality bias (Logic-Feeling.md §6):
-    → Verbal-dominant → fire verbal-cognitive trước
-    → Somatic-dominant → fire affective/somatic trước
-    → = Conflict giữa people với modality khác: cả 2 "đúng" với mode mình
+  EACH PERSON has a modality bias (Logic-Feeling.md §6):
+    → Verbal-dominant → fires verbal-cognitive first
+    → Somatic-dominant → fires affective/somatic first
+    → = Conflict between people with different modality: both are "right" in their own mode
 ```
 
-### §4.5 — 2-Stream empathy (Resonance context)
+### §4.5 — 2-Stream Empathy (Resonance Context)
 
 ```
-⭐ EMPATHY FIRE QUA 2 STREAMS CỦA RESONANCE (By-Product-Gap-Resonance v1.4 §2):
+⭐ EMPATHY FIRES THROUGH 2 STREAMS OF RESONANCE (By-Product-Gap-Resonance v1.4 §2):
 
-  Resonance có 2-Stream Architecture — empathy CŨNG phân theo 2 streams:
+  Resonance has a 2-Stream Architecture — empathy ALSO divides into 2 streams:
 
   STREAM 1 — HARDWARE/AUTOMATIC EMPATHY:
-    = Thấy bé khóc → body co rúm. Thấy ai cười → nhẹ nhõm.
-    = KHÔNG CẦN hiểu, không cần Self-Pattern-Modeling mutual, không cần engagement ngược
-    = Maps vào §2 mechanism ① Pattern Matching (limbic, từ sinh)
-    = HABITUATES: thấy lần đầu → mạnh. Thấy lần thứ 100 → yếu đi
+    = Seeing a baby cry → body flinches. Seeing someone smile → feels lighter.
+    = NO understanding needed, no mutual Self-Pattern-Modeling, no reverse engagement
+    = Maps to §2 mechanism ① Pattern Matching (limbic, from birth)
+    = HABITUATES: first time → strong. Hundredth time → weaker
       (Weber-Fechner, hedonic treadmill — By-Product-Gap-Resonance v1.4 §2.1)
-    = Cross-species: tất cả động vật xã hội CÓ Hardware-Stream empathy
-    = Ví dụ: mẹ-bé (evolution protected), người-chó, bác sĩ lần đầu thấy bệnh nhân
+    = Cross-species: all social animals HAVE Hardware-Stream empathy
+    = Example: mother-baby (evolution protected), human-dog, doctor first time seeing patient
 
   STREAM 2 — Self-Pattern-Modeling MUTUAL EMPATHY (bidirectional, deepens):
-    = Biết bạn buồn → respond ĐÚNG → bạn FEEL được hiểu → respond lại → loop
-    = CẦN cả 2 bên engage Self-Pattern-Modeling toward nhau → feedback loop → 2 não đồng bộ
-    = Maps vào §2 mechanism ② Agent Modeling (learned, 14-24m+)
-    = ANTI-HABITUATION: Hebbian → more use → stronger → cost GIẢM → empathy TĂNG
+    = Know friend is sad → respond ACCURATELY → friend FEELS understood → responds back → loop
+    = REQUIRES both sides engaging Self-Pattern-Modeling toward each other
+      → feedback loop → 2 brains synchronize
+    = Maps to §2 mechanism ② Agent Modeling (learned, 14-24m+)
+    = ANTI-HABITUATING: Hebbian → more use → stronger → cost DECREASES → empathy INCREASES
       (By-Product-Gap-Resonance v1.4 §2.2)
-    = = Deepest human empathy — "hiểu nhau thật sự"
-    = Ví dụ: bạn thân compiled (decades), vợ chồng calibrated, therapist-client mutual
+    = = Deepest human empathy — "truly understanding each other"
+    = Example: compiled close friend (decades), calibrated couple, mutual therapist-client
 
   TEMPORAL DYNAMICS:
-    Người mới quen: Hardware-Stream DOMINANT (automatic empathy: "dễ thương quá")
-    → Hardware-Stream habituates dần
-    Bạn thân lâu năm: Modeling-Stream DOMINANT (deep calibrated: "biết mày cần gì")
-    → Modeling-Stream deepens qua thời gian
+    New acquaintance: Hardware-Stream DOMINANT (automatic empathy: "so charming")
+    → Hardware-Stream habituates gradually
+    Long-term close friend: Modeling-Stream DOMINANT (deep calibration: "know what you need")
+    → Modeling-Stream deepens over time
 
-    Sustainability: Modeling-Stream growth phải > Hardware-Stream decline
-    → Nếu KHÔNG: empathy fades ("hết thương rồi")
-    → Nếu CÓ: empathy deepens ("càng hiểu nhau hơn")
+    Sustainability: Modeling-Stream growth must > Hardware-Stream decline
+    → If NOT: empathy fades ("lost the feeling")
+    → If YES: empathy deepens ("understand each other more and more")
 
-  2-STREAM vs 2-LUỒNG — ORTHOGONAL:
-    2-Stream = LOẠI EMPATHY (automatic vs mutual calibrated)
-    2-luồng = LOẠI REWARD (Valence-Momentary vs Valence-Structural)
-    → Hardware-Stream empathy CÓ Valence-Momentary reward (body co-fire momentary)
-    → Modeling-Stream empathy CÓ Valence-Momentary + có thể Valence-Structural (nếu entity đã compiled)
-    → 4 tổ hợp đều CÓ THỂ:
-      Hardware-Stream + Valence-Momentary only: thấy em bé lạ khóc → buồn lây (momentary, habituates)
-      Hardware-Stream + Valence-Momentary + Valence-Structural: thấy con mình khóc → buồn + drive chăm (structural)
-      Modeling-Stream + Valence-Momentary only: đồng nghiệp mới → mutual calibrate → understand nhưng chưa Valence-Structural
-      Modeling-Stream + Valence-Momentary + Valence-Structural: bạn thân 20 năm → deep mutual + structural bond
+  2-STREAM vs 2-TRACK — ORTHOGONAL:
+    2-Stream = TYPE OF EMPATHY (automatic vs mutual calibrated)
+    2-Track = TYPE OF REWARD (Valence-Momentary vs Valence-Structural)
+    → Hardware-Stream empathy HAS Valence-Momentary reward (body co-fires momentary)
+    → Modeling-Stream empathy HAS Valence-Momentary + may have Valence-Structural
+      (if entity already compiled)
+    → All 4 combinations ARE POSSIBLE:
+      Hardware-Stream + Valence-Momentary only: seeing a stranger's baby cry → feel sad
+        (momentary, habituates)
+      Hardware-Stream + Valence-Momentary + Valence-Structural: seeing own baby cry
+        → sadness + drive to care (structural)
+      Modeling-Stream + Valence-Momentary only: new colleague → mutual calibration →
+        understand but no Valence-Structural yet
+      Modeling-Stream + Valence-Momentary + Valence-Structural: close friend of 20 years
+        → deep mutual + structural bond
 
   🟡 2-Stream empathy mapping = framework synthesis (Resonance v1.4 + Empathy integration)
   🟢 Habituation of empathic response: established (Figley 2002)
-  🟢 Anti-habituation qua mutual calibration: consistent with Hebbian learning
+  🟢 Anti-habituation via mutual calibration: consistent with Hebbian learning
 ```
 
-### §4.6 — Hardware-Subsidy × Empathy persistence (v4.0)
+### §4.6 — Hardware-Subsidy × Empathy Persistence
 
 ```
 ⭐ HARDWARE-SUBSIDY MODULATES EMPATHY PERSISTENCE PER ENTITY:
 
   (Entity-Valence-Dynamics.md v1.0 §5, Resonance-Per-Entity.md v1.0 §2)
 
-  Hardware-subsidy = anti-habituation mechanism COUNTER VTA habituation
-  → KHÁC per entity type → empathy persistence KHÁC:
+  Hardware-subsidy = anti-habituation mechanism that COUNTERS VTA habituation
+  → DIFFERS per entity type → empathy persistence DIFFERS:
 
-  ┌──────────────┬─────────────┬─────────────────────────────────────────┐
-  │ Subsidy      │ Entity      │ Empathy persistence                     │
-  ├──────────────┼─────────────┼─────────────────────────────────────────┤
-  │ MAXIMUM      │ Mẹ → Con    │ AUTO-SUSTAIN: oxytocin + baby schema +  │
-  │              │             │ synchrony + prolactin counter habituation│
-  │              │             │ → empathy "vô hình" nhưng ALWAYS ON     │
-  │              │             │ 🟢 Feldman 2012                         │
-  ├──────────────┼─────────────┼─────────────────────────────────────────┤
-  │ MODERATE     │ Con → Mẹ,   │ SCAFFOLD: attachment hardware slows     │
-  │              │ Kin         │ habituation. Resilient without active    │
-  │              │             │ maintenance. 🟢 Roberts & Dunbar 2011   │
-  ├──────────────┼─────────────┼─────────────────────────────────────────┤
-  │ TEMPORARY    │ Romantic    │ LIMERENCE MASK: vasopressin/oxytocin    │
-  │              │ (limerence) │ simulates deep empathy → FADES 18-36m  │
-  │              │             │ → true Compiled quality REVEALED post-limerence│
-  ├──────────────┼─────────────┼─────────────────────────────────────────┤
-  │ NONE         │ Bạn thân,   │ MUST MAINTAIN: VTA habituates standard  │
-  │              │ Colleague   │ rate. No Hardware protection → empathy FADES  │
-  │              │             │ without active novelty + contact         │
-  │              │             │ 🟢 Panksepp 1998 (μ-opioid only)       │
-  └──────────────┴─────────────┴─────────────────────────────────────────┘
+  ┌──────────────┬─────────────┬──────────────────────────────────────────────┐
+  │ Subsidy      │ Entity      │ Empathy persistence                          │
+  ├──────────────┼─────────────┼──────────────────────────────────────────────┤
+  │ MAXIMUM      │ Mother →    │ AUTO-SUSTAIN: oxytocin + baby schema +       │
+  │              │ Child       │ synchrony + prolactin counter habituation    │
+  │              │             │ → empathy "invisible" but ALWAYS ON          │
+  │              │             │ 🟢 Feldman 2012                              │
+  ├──────────────┼─────────────┼──────────────────────────────────────────────┤
+  │ MODERATE     │ Child →     │ SCAFFOLD: attachment hardware slows          │
+  │              │ Mother, Kin │ habituation. Resilient without active        │
+  │              │             │ maintenance. 🟢 Roberts & Dunbar 2011        │
+  ├──────────────┼─────────────┼──────────────────────────────────────────────┤
+  │ TEMPORARY    │ Romantic    │ LIMERENCE MASK: vasopressin/oxytocin         │
+  │              │ (limerence) │ simulates deep empathy → FADES 18-36m       │
+  │              │             │ → true Compiled quality REVEALED post-       │
+  │              │             │   limerence                                  │
+  ├──────────────┼─────────────┼──────────────────────────────────────────────┤
+  │ NONE         │ Close       │ MUST MAINTAIN: VTA habituates at standard    │
+  │              │ friend,     │ rate. No Hardware protection → empathy FADES │
+  │              │ Colleague   │ without active novelty + contact             │
+  │              │             │ 🟢 Panksepp 1998 (μ-opioid only)            │
+  └──────────────┴─────────────┴──────────────────────────────────────────────┘
 
   ⭐ SUBSIDY ≠ QUALITY. SUBSIDY = SUSTAINABILITY INSURANCE.
-    → Mẹ empathy auto-sustain ≠ mẹ empathy ĐÚNG (Compiled accuracy independent)
-    → Bạn empathy needs maintenance ≠ bạn empathy KÉM (can be highest quality)
-    → Romantic empathy "intense" ≠ romantic empathy GENUINE (limerence masks)
+    → Mother empathy auto-sustains ≠ mother empathy is ACCURATE (Compiled accuracy independent)
+    → Friend empathy needs maintenance ≠ friend empathy is POOR (can be highest quality)
+    → Romantic empathy "intense" ≠ romantic empathy is GENUINE (limerence masks it)
 
   🟡 Hardware-subsidy × empathy persistence = framework synthesis
   🟢 Biobehavioral synchrony (Feldman 2012), Social play (Panksepp 1998)
 ```
 
-### §4.7 — Per-entity empathy profiles (v4.0)
+### §4.7 — Per-Entity Empathy Profiles
 
 ```
-⭐ EMPATHY DYNAMICS KHÁC CĂN BẢN PER ENTITY TYPE:
+⭐ EMPATHY DYNAMICS DIFFER FUNDAMENTALLY PER ENTITY TYPE:
 
   (Resonance-Per-Entity.md v1.0 §4-§8, overview)
 
-  ┌──────────────┬──────────┬──────────┬──────────┬───────────┬───────────┐
-  │              │ Mẹ→Con   │ Con→Mẹ   │ Bạn Thân │ Romantic       │ Professional │
-  ├──────────────┼──────────┼──────────┼──────────┼───────────────┼──────────────┤
-  │ Valence-Momentary/Valence-Structural ratio  │ Valence-Structural dominant │ Valence-Momentary→Valence-Structural │ Valence-Momentary dominant │ Phase-dependent│ Valence-Momentary only      │
-  │ Hardware-Subsidy   │ MAX      │ MODERATE │ NONE     │ TEMPORARY │ NONE      │
-  │ Compilation  │ SKIP(Hardware) │ Standard │ Standard │ Accelerate│ Selective │
-  │ Cost profile │ ≈ 0      │ Shift    │ Moderate │ Variable  │ High Fresh   │
-  │ "Chán" risk  │ LOW      │ MOD(teen)│ HIGH     │ HIGHEST   │ N/A       │
-  │ Phantom      │ DEVASTAT │ MAJOR    │ MINOR    │ COMPLEX   │ MINOR     │
-  └──────────────┴──────────┴──────────┴──────────┴───────────┴───────────┘
+  ┌──────────────────┬───────────┬───────────┬──────────┬───────────┬──────────────┐
+  │                  │ Mother→   │ Child→    │ Close    │ Romantic  │ Professional │
+  │                  │ Child     │ Mother    │ Friend   │           │              │
+  ├──────────────────┼───────────┼───────────┼──────────┼───────────┼──────────────┤
+  │ VM/VS ratio      │ VS dom.   │ VM→VS     │ VM dom.  │ Phase-dep.│ VM only      │
+  │ Hardware-Subsidy │ MAX       │ MODERATE  │ NONE     │ TEMPORARY │ NONE         │
+  │ Compilation      │ SKIP(HW)  │ Standard  │ Standard │ Accelerate│ Selective    │
+  │ Cost profile     │ ≈ 0       │ Shift     │ Moderate │ Variable  │ High Fresh   │
+  │ "Stale" risk     │ LOW       │ MOD(teen) │ HIGH     │ HIGHEST   │ N/A          │
+  │ Phantom on loss  │ DEVASTAT. │ MAJOR     │ MINOR    │ COMPLEX   │ MINOR        │
+  └──────────────────┴───────────┴───────────┴──────────┴───────────┴──────────────┘
+  (VM = Valence-Momentary, VS = Valence-Structural)
 
-  MẸ→CON: Valence-Structural dominant, compiled ≈ 0 cost, Hardware auto-sustain
-    → Empathy "vô hình" nhưng ALWAYS ON. Loss = DEVASTATING phantom.
-    → "Mẹ mệt nhưng vẫn chăm con" = Valence-Structural > Valence-Momentary (structural overrides momentary)
+  MOTHER→CHILD: VS dominant, compiled ≈ 0 cost, Hardware auto-sustains
+    → Empathy "invisible" but ALWAYS ON. Loss = DEVASTATING phantom.
+    → "Mother tired but still cares for child" = Valence-Structural > Valence-Momentary
 
-  CON→MẸ: Shifting Valence-Momentary→Valence-Structural, lifecycle SHIFT at teen
-    → Gap landscape EXPANDS → mẹ fills FEWER of expanding gaps
-    → NOT "bớt cần mẹ" — proportion SHRINKS while total grows
-    → Teen = highest "chán" risk (autonomy drive ↑)
+  CHILD→MOTHER: Shifting Valence-Momentary→Valence-Structural, lifecycle SHIFT at teen
+    → Gap landscape EXPANDS → mother fills FEWER of expanding gaps
+    → NOT "needing mother less" — proportion SHRINKS while total grows
+    → Teen = highest "stale" risk (autonomy drive ↑)
 
-  BẠN THÂN: Valence-Momentary dominant, Generative-driven, ZERO Hardware-Subsidy
-    → PUREST resonance (Compilable-dominant) nhưng FRAGILE
+  CLOSE FRIEND: Valence-Momentary dominant, Generative-driven, ZERO Hardware-Subsidy
+    → PUREST resonance (Compilable-dominant) but FRAGILE
     → 48.6% inner circle churn (Roberts & Dunbar 2011) 🟢
-    → "Gặp nhau vui ghê → lâu không gặp → quên" = no Hardware protection
+    → "Just met and clicked, long gap and it fades" = no Hardware protection
 
   ROMANTIC: Phase-dependent, limerence MASKS empathy quality
     → Phase 1: INTENSE (hormone fast-track) → Phase 2: 3 trajectories
-    → HIGHEST "chán" risk (inflated baseline + no permanent subsidy)
+    → HIGHEST "stale" risk (inflated baseline + no permanent subsidy)
 
   PROFESSIONAL: Valence-Momentary only, domain-selective, Tool-mode risk
     → Therapist: Valence-Structural ≈ 0 (professional boundary) → burnout trajectory
     → Teacher: can develop genuine-compiled over years
-    → Tool-mode = Compiled OFF → predict behavior only, NOT model state
+    → Tool-mode = Compiled OFF → predicts behavior only, DOES NOT model state
 
-  Chi tiết per-entity: Resonance-Per-Entity.md v1.0 §4-§8
+  Details per entity: Resonance-Per-Entity.md v1.0 §4-§8
 
   🟡 Per-entity empathy profiles = framework synthesis
 ```
 
-### §4.8 — 3 Satiation Types × Empathy (v4.0)
+### §4.8 — 3 Satiation Types × Empathy
 
 ```
-⭐ EMPATHY CÓ 3 LOẠI SATIATION KHÁC NHAU:
+⭐ EMPATHY HAS 3 DIFFERENT SATIATION TYPES:
 
   (Entity-Valence-Dynamics.md v1.0 §6, Gap-Body-Need.md v1.0)
 
   CYCLIC EMPATHY — sharp oscillation:
-    = "Bạn buồn → tôi buồn lây → bạn hết buồn → tôi hết buồn"
-    = Gap fill → reward → gap OFF → no empathy signal → gap RETURN
+    = "Friend is sad → I feel sadness → friend feels better → I feel better"
+    = Gap filled → reward → gap OFF → no empathy signal → gap RETURNS
     = MOST VISIBLE (high delta per cycle), MOST FORGETTABLE (episode-bound)
-    = VD: cãi nhau → giận → hòa → quên. "Quên chuyện cãi nhau."
+    = E.g.: argue → angry → reconcile → forget. "Forgot the argument."
 
   TONIC EMPATHY — slow invisible baseline:
-    = "Ở cạnh mẹ 20 năm → body ẤM nhưng PFC không thấy gì đặc biệt"
+    = "Living with mother for 20 years → body WARM but PFC sees nothing special"
     = Gap fill ongoing → VTA habituated → INVISIBLE when present
-    = LEAST VISIBLE, SLOWEST DECAY, DEVASTATING khi removed
-    = VD: mẹ comfort = background → mẹ mất → PAIN = Tonic phantom
+    = LEAST VISIBLE, SLOWEST DECAY, DEVASTATING when removed
+    = E.g.: mother's comfort = background → mother dies → PAIN = Tonic phantom
 
-  GENERATIVE EMPATHY — renewable exciting:
-    = "Bạn thân kể chuyện mới → insight → vui → chuyện mới → vui"
+  GENERATIVE EMPATHY — renewable, exciting:
+    = "Close friend shares new story → insight → joy → new story → joy"
     = Novelty-dependent: same content → habituate → need NEW
     = MOST VISIBLE (high novelty), FASTEST HABITUATION without novelty
-    = VD: "bạn mới quen hay ghê" → quen rồi → "hết gì để nói"
+    = E.g.: "just met them and they seem so interesting" → familiar → "nothing new to say"
 
-  "CHÁN" QUA EMPATHY LENS:
-    = Generative DIES + Tonic SURVIVES nhưng INVISIBLE
-    = PFC observes: no Generative reward + Tonic invisible = "chán"
+  "STALENESS" THROUGH EMPATHY LENS:
+    = Generative DIES + Tonic SURVIVES but INVISIBLE
+    = PFC observes: no Generative reward + Tonic invisible = "stale"
     = Body reality: Tonic STILL PROVIDES, PFC just can't see it
-    = "Vẫn thoải mái nhưng không exciting" = Tonic intact, Generative dead
+    = "Still comfortable but not exciting" = Tonic intact, Generative dead
 
   PER-ENTITY SATIATION PROFILE:
-    Mẹ→con: Tonic dominant + Generative bursts (child changes daily)
-    Bạn thân: Generative dominant (~70A/30B) + Tonic component
-    Romantic post-L: Tonic + Generative (if genuine match)
+    Mother→child: Tonic dominant + Generative bursts (child changes daily)
+    Close friend: Generative dominant (~70%/30%) + Tonic component
+    Romantic post-limerence: Tonic + Generative (if genuine match)
     Colleague: Generative dominant (domain-specific)
 
   🟡 3 satiation types × empathy = framework synthesis
 ```
 
-### §4.9 — Compilation Chain × Empathy stages (v4.0)
+### §4.9 — Compilation Chain × Empathy Stages
 
 ```
-⭐ EMPATHY QUA 4 STAGES COMPILATION:
+⭐ EMPATHY THROUGH 4 COMPILATION STAGES:
 
   (Resonance-Per-Entity.md v1.0 §1)
 
   Stage 1 — Fresh CAUTIOUS (first interactions):
-    = "Click" khi by-product match confirmed
+    = "Click" when by-product match confirmed
     = PFC draft + suppress + uncertainty = HIGHEST COST
-    = "Mình chưa biết họ buồn thật hay giả" = uncertainty cost
+    = "Don't know yet if they're genuinely sad or performing" = uncertainty cost
     = Duration: weeks
 
   Stage 2 — Compiled DEVELOPING (months):
-    = Repeated success → Compiled compile → cost DECREASING
-    = "Bắt đầu quen, gặp thoải mái hơn"
-    = "Hiểu nhau không cần nói" = Compiled predict accurate
+    = Repeated success → Compiled compiles → cost DECREASING
+    = "Starting to feel at ease, meeting is more comfortable"
+    = "Understand without words" = Compiled predicts accurately
     = Duration: months-years
 
   Stage 3 — BASELINE COMPILED (established):
     = Compiled automatic → cost ≈ 0 → VTA habituated → reward INVISIBLE
-    = "Gặp bạn thân = thoải mái, không cần nghĩ"
-    = Empathy RICH nhưng INVISIBLE (Firing-Maintenance)
+    = "Meeting a close friend = comfortable, no need to think"
+    = Empathy RICH but INVISIBLE (Firing-Maintenance)
     = Duration: years of established bond
 
   Stage 4 — DYNAMICS (3 trajectories):
-    4A: Tonic intact + Generative alive = "vẫn vui" (sustained)
-    4B: Tonic intact + Generative dead = "chán" (flat — §4.8)
-    4C: Compiled suppress gap → no drive → no by-product → DEATH
+    4A: Tonic intact + Generative alive = "still enjoying" (sustained)
+    4B: Tonic intact + Generative dead = "stale" (flat — §4.8)
+    4C: Compiled suppresses gap → no drive → no by-product → DEATH
       (Bond-Architecture.md v2.0 §4.1: Compiled-Suppress = leverage point)
 
-  PER-ENTITY COMPILATION RATE KHÁC:
-    Mẹ→con: SKIP Stage 1-2 partly (prenatal priming, Hardware-Subsidy MAX)
-    Bạn thân: STANDARD chain (40→80→200h — Entity-Compiled v1.0)
+  PER-ENTITY COMPILATION RATE DIFFERS:
+    Mother→child: SKIP Stage 1-2 partly (prenatal priming, Hardware-Subsidy MAX)
+    Close friend: STANDARD chain (40→80→200h — Entity-Compiled v1.0)
     Romantic: ACCELERATED by limerence (hormone fast-track Stage 1)
     Professional: SELECTIVE compilation (domain spokes only)
 
@@ -1597,72 +1661,72 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §5 — 4 YẾU TỐ STRENGTH + 4 QUALITY AXES
+## §5 — 4 STRENGTH FACTORS + 4 QUALITY AXES
 
-### §5.1 — 4 yếu tố trigger strength
+### §5.1 — 4 Trigger Strength Factors
 
 ```
-🟢🟡 4 YẾU TỐ QUYẾT ĐỊNH EMPATHY MẠNH HAY YẾU:
+🟢🟡 4 FACTORS DETERMINING HOW STRONGLY EMPATHY FIRES:
 
-  ① LIVING BEING — prerequisite, phải có sự sống (hoặc perceived):
-    → Living → empathy CÓ THỂ fire
-    → Non-living → empathy KHÔNG fire (trừ khi schema simulate — §2.4 ③)
+  ① LIVING BEING — prerequisite, must have life (or perceived life):
+    → Living → empathy CAN fire
+    → Non-living → empathy DOES NOT fire (unless schema simulates — §2.4 ③)
     → VTC hardware trigger (Agent-Mechanism.md §2.3)
 
-  ② VULNERABILITY CUES — càng yếu ớt → empathy CÀNG MẠNH:
+  ② VULNERABILITY CUES — the more vulnerable → empathy STRONGER:
     🟢 Baby Schema (Lorenz 1943):
-      Mắt to, mặt tròn, body nhỏ → trigger nurturing response
-    🟢 Nucleus accumbens fire khi nhìn infant faces (Glocker 2009)
-    → Tại sao: vulnerability = POTENTIAL DEFICIT LỚN
-      → Body auto-prioritize: "sinh vật này CÓ THỂ chết nếu không ai giúp"
-    → Mở rộng: pet nhỏ CÓ baby schema features
-      → = Tại sao mèo con trigger MẠNH hơn mèo trưởng thành
+      Large eyes, round face, small body → triggers nurturing response
+    🟢 Nucleus accumbens fires when viewing infant faces (Glocker 2009)
+    → Why: vulnerability = POTENTIAL LARGE DEFICIT
+      → Body auto-prioritizes: "this creature COULD DIE if no one helps"
+    → Extended: small pets HAVE baby schema features
+      → = Why kittens trigger STRONGER than adult cats
 
-  ③ EXPRESSIVENESS — càng biểu hiện rõ state → empathy CÀNG MẠNH:
-    → Mặt người: CỰC expressive → fire MẠNH
-    → Mặt chó: khá expressive → fire tốt
-    → Cá: gần zero → fire rất yếu
-    → = Self-Pattern-Modeling Compiled CẦN INPUT để fire — ít input = ít empathy
+  ③ EXPRESSIVENESS — the more clearly state is displayed → empathy STRONGER:
+    → Human face: EXTREMELY expressive → fires STRONGLY
+    → Dog face: fairly expressive → fires well
+    → Fish: near zero → fires very weakly
+    → = Self-Pattern-Modeling Compiled NEEDS INPUT to fire — less input = less empathy
     🟢 Facial EMG mimicry = automatic, 300ms, pre-conscious (Dimberg 2000)
 
-  ④ SIMILARITY / FAMILIARITY — càng giống/quen → empathy CÀNG MẠNH:
-    → Cùng loài > khác loài (species overlap)
-    → Quen > lạ (chunks compiled → simulate CHÍNH XÁC → empathy MẠNH)
-    → Schema mapping: "ngang tuổi con mình" → map vào "con" slot → AMPLIFY
+  ④ SIMILARITY / FAMILIARITY — the more similar/familiar → empathy STRONGER:
+    → Same species > different species (species overlap)
+    → Familiar > stranger (compiled chunks → simulation ACCURATE → empathy STRONG)
+    → Schema mapping: "same age as my own child" → maps to "child" slot → AMPLIFY
     🟢 In-group empathy bias (Xu 2009):
-      ACC response mạnh hơn khi thấy in-group member đau
+      ACC response stronger when seeing in-group member in pain
 
 
-  ⭐ 4 YẾU TỐ NHÂN VỚI NHAU (không cộng):
+  ⭐ 4 FACTORS MULTIPLY (not add):
 
-    Baby ruột = living ✅ × vulnerability MAX × expressiveness MAX × familiarity MAX
-    → = Empathy MẠNH NHẤT → drive chăm sóc MẠNH NHẤT
-    → + Valence-Structural (con = body-ext) → COMPOUND drive
+    Own infant = living ✅ × vulnerability MAX × expressiveness MAX × familiarity MAX
+    → = STRONGEST empathy → strongest drive to care
+    → + Valence-Structural (child = body-extension) → COMPOUND drive
 
-    Em bé lạ = living ✅ × vulnerability CAO × expressiveness CAO × familiarity THẤP
-    → = VẪN mạnh (3/4 yếu tố cao)
-    → NHƯNG Valence-Structural ≈ 0 → chỉ Valence-Momentary
+    Stranger's baby = living ✅ × vulnerability HIGH × expressiveness HIGH × familiarity LOW
+    → = STILL strong (3/4 factors high)
+    → BUT Valence-Structural ≈ 0 → only Valence-Momentary
 
-    Cá cảnh = living ✅ × vulnerability THẤP × expressiveness ≈ 0 × familiarity THẤP
-    → = Rất yếu → "nuôi cá đẹp" chủ yếu aesthetic, ít empathy
+    Ornamental fish = living ✅ × vulnerability LOW × expressiveness ≈ 0 × familiarity LOW
+    → = Very weak → "keeping beautiful fish" mainly aesthetic, little empathy
 ```
 
-### §5.2 — 4 quality axes
+### §5.2 — 4 Quality Axes
 
 ```
-🟡 4 QUALITY AXES — TỪ AGENT-MECHANISM.MD §7, APPLIED TO EMPATHY:
+🟡 4 QUALITY AXES — FROM AGENT-MECHANISM.MD §7, APPLIED TO EMPATHY:
 
-  ① PATTERN-TYPE MATCH — fire đúng loại chunks cho target cues:
-    → Distress → cần affective chunks
-    → Math problem → cần symbolic chunks
-    → Mismatch → prediction kém
-    → Self modality bias ảnh hưởng (Logic-Feeling.md §6)
+  ① PATTERN-TYPE MATCH — fire the right type of chunks for target cues:
+    → Distress → needs affective chunks
+    → Math problem → needs symbolic chunks
+    → Mismatch → poor prediction
+    → Own modality bias affects this (Logic-Feeling.md §6)
 
-  ② DEPTH — quantity + specificity chunks về target:
+  ② DEPTH — quantity + specificity of chunks about target:
     → Thin (stranger): 5-10 relevant chunks → coarse simulation
     → Moderate (colleague): 50-100 → decent
     → Deep (family): hundreds-thousands → high-fidelity
-    → Deepest (mẹ 30 năm): fully compiled model
+    → Deepest (mother of 30 years): fully compiled model
 
   ③ SIMILARITY — self-target template match:
     → Self-similar → template fits directly
@@ -1686,219 +1750,226 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §6 — SPECTRUM: Lành Mạnh → Override → Compulsive
+## §6 — SPECTRUM: Healthy → Override → Compulsive
 
-### §6.1 — Spectrum tổng quan — unified qua 2-luồng
-
-```
-🟡 EMPATHY-DRIVEN BEHAVIOR = SPECTRUM — 2-LUỒNG LÀ TRỤC PHÂN TÍCH:
-
-  ┌─────────────┬──────────────────────────────────┬──────┬──────┬───────────┐
-  │ Mức độ      │ Biểu hiện                        │ Valence-Momentary   │ Valence-Structural   │ Bền vững? │
-  ├─────────────┼──────────────────────────────────┼──────┼──────┼───────────┤
-  │ LÀNH MẠNH   │ Thừa quả → cho hàng xóm         │ +    │ ±    │ ✅ YES    │
-  │ (cost ≈ 0)  │ Body-base MÌNH không ảnh hưởng   │ pure │      │           │
-  │             │ → PURE Valence-Momentary empathy reward          │ reward│     │           │
-  ├─────────────┼──────────────────────────────────┼──────┼──────┼───────────┤
-  │ TRUNG GIAN  │ Bớt thời gian/tiền riêng → cho  │ + >  │ ±    │ Mostly    │
-  │ (cost có)   │ Body-base HƠI ảnh hưởng         │ cost │      │           │
-  │             │ Valence-Momentary reward > body cost             │      │      │           │
-  ├─────────────┼──────────────────────────────────┼──────┼──────┼───────────┤
-  │ JUSTIFIED   │ Mẹ ăn ít → con ăn nhiều         │ - có │ ++ ⭐│ ✅ Designed│
-  │ OVERRIDE    │ Valence-Structural + gene protection  │ cost │ body │ (CÓ       │
-  │ (gene)      │ → double drive CÓ CEILING        │      │ ext  │ ceiling)  │
-  ├─────────────┼──────────────────────────────────┼──────┼──────┼───────────┤
-  │ SCHEMA      │ Cúng dường tới khánh kiệt        │ + có │ ≈ 0  │ ❌ Bug    │
-  │ HIJACK      │ KHÔNG có gene carrier bị đe dọa  │ Valence-Momentary   │ ⭐   │ (KHÔNG    │
-  │             │ Schema promise drive không Valence-Structural     │ only │ thiếu│ ceiling)  │
-  ├─────────────┼──────────────────────────────────┼──────┼──────┼───────────┤
-  │ COMPULSIVE  │ Nghiện empathy reward → ignore    │ + →  │ ≈ 0  │ ❌ Hại   │
-  │             │ body → "Đèn cháy hết dầu"        │ add  │      │           │
-  └─────────────┴──────────────────────────────────┴──────┴──────┴───────────┘
-
-  ⭐ KEY — 2-LUỒNG LÀ TRỤC PHÂN BIỆT:
-    → Justified override CÓ CEILING vì CÓ Valence-Structural (body-level feedback loop)
-    → Schema hijack KHÔNG CEILING vì THIẾU Valence-Structural (chỉ có Valence-Momentary + schema promise)
-    → = Phân biệt CĂN BẢN hơn "L0 > Valence-Momentary" — là Valence-Structural có hay không
-```
-
-### §6.2 — Phân biệt justified vs hijack qua 2-luồng
+### §6.1 — Spectrum Overview — Unified via 2-Track
 
 ```
-⭐ 2 LOẠI OVERRIDE KHÁC CĂN BẢN — Valence-Structural QUYẾT ĐỊNH CEILING:
+🟡 EMPATHY-DRIVEN BEHAVIOR = SPECTRUM — 2-TRACK IS THE ANALYTICAL AXIS:
+
+  ┌───────────────┬──────────────────────────────────┬──────┬──────┬────────────┐
+  │ Level         │ Expression                       │  VM  │  VS  │ Sustain?   │
+  ├───────────────┼──────────────────────────────────┼──────┼──────┼────────────┤
+  │ HEALTHY       │ Surplus fruit → give to neighbor │  +   │  ±   │ ✅ YES     │
+  │ (cost ≈ 0)    │ Own body-base NOT affected        │ pure │      │            │
+  │               │ → PURE Valence-Momentary reward  │reward│      │            │
+  ├───────────────┼──────────────────────────────────┼──────┼──────┼────────────┤
+  │ INTERMEDIATE  │ Trade time/money → give          │ + >  │  ±   │ Mostly     │
+  │ (cost present)│ Own body-base SLIGHTLY affected  │ cost │      │            │
+  │               │ Valence-Momentary reward > cost  │      │      │            │
+  ├───────────────┼──────────────────────────────────┼──────┼──────┼────────────┤
+  │ JUSTIFIED     │ Mother eats less → child eats    │ - w/ │ ++ ⭐│ ✅ Designed│
+  │ OVERRIDE      │ more                             │ cost │body  │ (HAS       │
+  │ (gene)        │ Valence-Structural + gene protect.│      │ ext  │ ceiling)   │
+  │               │ → double drive HAS CEILING       │      │      │            │
+  ├───────────────┼──────────────────────────────────┼──────┼──────┼────────────┤
+  │ SCHEMA        │ Donate to depletion              │ + w/ │ ≈ 0  │ ❌ Bug     │
+  │ HIJACK        │ NO gene carrier threatened       │  VM  │ ⭐   │ (NO        │
+  │               │ Schema promise drives, no VS     │ only │lacking│ ceiling)  │
+  ├───────────────┼──────────────────────────────────┼──────┼──────┼────────────┤
+  │ COMPULSIVE    │ Addicted to empathy reward →     │ + →  │ ≈ 0  │ ❌ Harmful │
+  │               │ ignore body → "lamp burning out" │ addict│     │            │
+  └───────────────┴──────────────────────────────────┴──────┴──────┴────────────┘
+  (VM = Valence-Momentary, VS = Valence-Structural)
+
+  ⭐ KEY — 2-TRACK IS THE DISTINGUISHING AXIS:
+    → Justified override HAS CEILING because IT HAS Valence-Structural
+      (body-level feedback loop)
+    → Schema hijack HAS NO CEILING because IT LACKS Valence-Structural
+      (only Valence-Momentary + schema promise)
+    → = MORE FUNDAMENTAL distinction than "L0 > Valence-Momentary"
+      — it's whether Valence-Structural is present or absent
+```
+
+### §6.2 — Justified vs Schema Hijack via 2-Track
+
+```
+⭐ 2 TYPES OF OVERRIDE DIFFER FUNDAMENTALLY — Valence-Structural DETERMINES CEILING:
 
   JUSTIFIED OVERRIDE (evolution DESIGNED):
-    → Có gene carrier bị đe dọa (con đói)
-    → Valence-Structural STRUCTURAL: con = body-base extension (compiled SÂU)
-    → Valence-Structural + gene protection = DOUBLE drive → override MẠNH
-    → NHƯNG: Valence-Structural là body-level → có feedback loop TỰ NHIÊN:
-      "Nếu mẹ chết → con mất source → Valence-Structural TỰ NÓ cảnh báo"
-      → "Ăn ít thôi, KHÔNG nhịn chết" = Valence-Structural self-regulate
-    → = Ceiling TỰ NHIÊN vì Valence-Structural = body-level, self-regulating
-    → Recovery KHẢ THI: tạm thời hy sinh → phục hồi khi con ổn
+    → Gene carrier threatened (child hungry)
+    → Valence-Structural STRUCTURAL: child = body-base extension (compiled DEEPLY)
+    → Valence-Structural + gene protection = DOUBLE drive → override STRONG
+    → BUT: Valence-Structural is body-level → has NATURAL feedback loop:
+      "If mother dies → child loses source → Valence-Structural SELF-WARNS"
+      → "Eat a little less, but NOT starve to death" = Valence-Structural self-regulates
+    → = Natural CEILING because Valence-Structural = body-level, self-regulating
+    → Recovery FEASIBLE: temporary sacrifice → recovers when child is well
 
   SCHEMA HIJACK (evolution BUG):
-    → KHÔNG CÓ gene carrier bị đe dọa
-    → Valence-Structural THIẾU: sư thầy / tổ chức ≠ body-base extension
-      (valence ++ nhưng CHƯA compiled đủ sâu thành structural,
-       hoặc schema-based KHÔNG phải interaction-compiled)
-    → Drive chủ yếu từ Valence-Momentary empathy reward + schema promise
-    → KHÔNG CÓ body-level feedback loop tự cảnh báo
-    → = KHÔNG ceiling — schema tiếp tục drive dù body sụp
-    → Recovery KHÔNG TỰ ĐỘNG
+    → NO gene carrier threatened
+    → Valence-Structural MISSING: teacher / organization ≠ body-base extension
+      (valence ++ but NOT compiled deeply enough to become structural,
+       or schema-based NOT interaction-compiled)
+    → Drive mainly from Valence-Momentary empathy reward + schema promise
+    → NO body-level feedback loop to self-warn
+    → = NO ceiling — schema continues to drive even as body collapses
+    → Recovery NOT AUTOMATIC
 
-  RANH GIỚI RÕ:
-    Body-base ĐỦ + share DƯ = LÀNH MẠNH
-    Body-base THIẾU + share VÌ gene (Valence-Structural có) = JUSTIFIED, có ceiling
-    Body-base THIẾU + share VÌ SCHEMA (Valence-Structural thiếu) = HIJACK, KHÔNG ceiling
+  CLEAR BOUNDARY:
+    Body-base SUFFICIENT + share SURPLUS = HEALTHY
+    Body-base INSUFFICIENT + share FOR GENE (Valence-Structural present) = JUSTIFIED, has ceiling
+    Body-base INSUFFICIENT + share FOR SCHEMA (Valence-Structural absent) = HIJACK, NO ceiling
 
-  🟡 2-luồng quyết định ceiling = framework synthesis
+  🟡 2-track determines ceiling = framework synthesis
 ```
 
-### §6.3 — Triple override
+### §6.3 — Triple Override
 
 ```
-🟡 3 PATHWAYS CÓ THỂ STACK — TRIPLE OVERRIDE:
+🟡 3 PATHWAYS CAN STACK — TRIPLE OVERRIDE:
 
-  VD — Mẹ hy sinh cho con (3 nguồn cùng hướng):
-    ① Empathy Valence-Momentary: thấy con đói → Compiled dissonance → cho con ăn → Valence-Momentary reward
-    ② Schema: "mẹ tốt phải hy sinh" → schema reward
-    ③ Gene threat: "con đói = gene threat" → threat drive
-    + Valence-Structural: con = body-base extension → sustained drive
-    → = CỰC KỲ KHÓ PHÁ (4 nguồn cùng hướng)
+  E.g. — Mother sacrifices for child (3 sources aligned):
+    ① Empathy Valence-Momentary: sees child hungry → Compiled dissonance → feeds child
+      → Valence-Momentary reward
+    ② Schema: "good mother must sacrifice" → schema reward
+    ③ Gene threat: "child hungry = gene threat" → threat drive
+    + Valence-Structural: child = body-base extension → sustained drive
+    → = EXTREMELY HARD TO BREAK (4 sources aligned)
 
-  VD — Nghiện quyên góp tôn giáo (Valence-Structural THIẾU):
-    ① Empathy Valence-Momentary: thấy sư/thầy vui → Valence-Momentary empathy reward
-    ② Schema: "cúng = phước, đời sau tốt" → imagine reward
-    ③ Status: "người mộ đạo = được tôn trọng" → belonging reward
-    → Triple override NHƯNG không có Valence-Structural backing
-    → = KHÔNG CEILING → khánh kiệt
+  E.g. — Addicted to religious donation (Valence-Structural ABSENT):
+    ① Empathy Valence-Momentary: seeing teacher/leader happy → Valence-Momentary empathy reward
+    ② Schema: "offering = merit, better afterlife" → imagined reward
+    ③ Status: "devotee = respected" → belonging reward
+    → Triple override BUT no Valence-Structural backing
+    → = NO CEILING → depletes to nothing
 
-  DẤU HIỆU NHẬN BIẾT empathy reward override:
-    Verbal: "Nhìn con ăn là mẹ no rồi" → Valence-Momentary empathy reward thay thế nutrition
-    Body: gầy, mệt, thiếu ngủ NHƯNG vẫn pleasant khi cho
-    → = "Đèn cháy hết dầu — sáng cho người khác, tắt cho mình"
+  RECOGNIZABLE SIGNS of empathy reward override:
+    Verbal: "Watching the child eat fills me too" → Valence-Momentary empathy reward replacing nutrition
+    Body: thin, tired, sleep-deprived BUT still pleasant when giving
+    → = "Lamp burning to its last drop of oil — lights others, dark for self"
 
-  BUG VÀ FEATURE:
-    BUG (cho cá nhân): body-base bị bỏ quên → burnout, suy kiệt
-    FEATURE (cho gene/tập thể): con sống, nhóm mạnh hơn
+  BUG AND FEATURE:
+    BUG (for individual): body-base neglected → burnout, depletion
+    FEATURE (for gene/collective): child survives, group strengthens
 ```
 
 ---
 
 ## §7 — EVOLUTIONARY FUNCTION
 
-### §7.1 — Empathy = cơ chế phân phối tài nguyên tự nhiên
+### §7.1 — Empathy = Natural Resource Distribution Mechanism
 
 ```
-🟡 TẠI SAO EVOLUTION HARD-WIRE EMPATHY VÀO MỌI ĐỘNG VẬT XÃ HỘI:
+🟡 WHY EVOLUTION HARD-WIRES EMPATHY INTO ALL SOCIAL ANIMALS:
 
-  Mechanism TỐN energy (neurons fire, cortisol tăng, attention bị kéo).
-  Nếu không có lợi → evolution ĐÃ loại bỏ.
+  Mechanism COSTS energy (neurons fire, cortisol rises, attention is captured).
+  If it were not beneficial → evolution WOULD HAVE eliminated it.
 
-  ⭐ EMPATHY Valence-Momentary = CƠ CHẾ PHÂN PHỐI TÀI NGUYÊN TỰ NHIÊN:
+  ⭐ EMPATHY Valence-Momentary = NATURAL RESOURCE DISTRIBUTION MECHANISM:
 
-    Body TỰ drive share khi THỪA — không cần luật, không cần đạo đức:
+    Body SELF-DRIVES sharing when there is SURPLUS — no law, no ethics needed:
 
-    Item X ở chỗ TÔI, body-base đã đủ:
-      → Item X thêm cho MÌNH: reward ≈ 0 (đã no, đã biết, đã có)
-    Item X ở chỗ NGƯỜI KHÁC đang thiếu:
-      → Self-Pattern-Modeling Compiled detect: họ THIẾU → body MÌNH empathy dissonance
-      → Share item X → họ improve → Valence-Momentary empathy reward CỦA MÌNH fire
-      → = CÙNG 1 quả xoài: tôi ăn thêm (reward ≈ 0) vs
-          cho người đói (reward CAO cho họ + Valence-Momentary reward cho tôi)
-    → = Body TỰ TÍNH: "share > giữ" (không cần PFC phân tích)
+    Item X with ME, my body-base already sufficient:
+      → Item X adds more for ME: reward ≈ 0 (already full, already know, already have)
+    Item X with SOMEONE ELSE who is lacking:
+      → Self-Pattern-Modeling Compiled detects: they LACK → MY body empathy dissonance
+      → Share item X → they improve → Valence-Momentary empathy reward fires FOR ME
+      → = SAME mango: I eat more (reward ≈ 0) vs
+          give to hungry person (reward HIGH for them + Valence-Momentary reward for me)
+    → = Body SELF-CALCULATES: "share > keep" (no PFC analysis needed)
 
   POSITIVE-SUM LOGIC:
-    Nhóm CÓ empathy:
-      → Items dư tự phân phối → ít lãng phí
-      → Kiến thức tự lan truyền → nhóm GIỎI HƠN nhanh hơn
-      → Người khỏe giúp người yếu → nhóm SỐNG SÓT tốt hơn
-    → Gene "share khi thừa" THẮNG gene "giữ hết cho mình"
+    Group WITH empathy:
+      → Surplus items self-distribute → less waste
+      → Knowledge self-propagates → group IMPROVES FASTER
+      → Strong members help weak → group SURVIVES better
+    → Gene "share when surplus" WINS over gene "keep everything"
 
-  🟢 Consistent với:
+  🟢 Consistent with:
     Reciprocal altruism (Trivers 1971) 🟢
     Kin selection (Hamilton 1964) 🟢
     Group selection debate (Wilson 2007) 🟡 debated
 
-  ⭐ BY-PRODUCT MATCH = CORE CỦA RESOURCE DISTRIBUTION:
+  ⭐ BY-PRODUCT MATCH = CORE OF RESOURCE DISTRIBUTION:
 
-    Phân phối tài nguyên qua empathy = BY-PRODUCT MATCH ở group level:
-      → A fill gap CỦA A (ăn no, nghỉ ngơi → body-base đủ)
-      → A's surplus = by-product (quả xoài thừa)
-      → B đang thiếu → A's Self-Pattern-Modeling detect B thiếu → body A empathy fire
-      → A share by-product → MATCH B's gap → B reward + A Valence-Momentary reward
-      → = By-product match KHÔNG CẦN intention "tôi muốn giúp"
-      → = Body TỰ drive share vì reward architecture (Compilable Architecture)
-    → Empathy = by-product match DETECTION MECHANISM cho groups
+    Resource distribution via empathy = BY-PRODUCT MATCH at group level:
+      → A fills A's OWN gap (eats until full, rests → body-base sufficient)
+      → A's surplus = by-product (extra mangoes)
+      → B is lacking → A's Self-Pattern-Modeling detects B lacking → body A empathy fires
+      → A shares by-product → MATCHES B's gap → B rewarded + A Valence-Momentary rewarded
+      → = By-product match DOES NOT REQUIRE intention "I want to help"
+      → = Body SELF-DRIVES sharing because of reward architecture (Compilable Architecture)
+    → Empathy = by-product match DETECTION MECHANISM for groups
     (Inter-Body-Mechanism.md §5.4)
 
   ⭐ EMPATHY ACROSS 3 SCALES (v4.0 — By-Product-Scale.md v1.0):
-    PAIR: empathy = 1-to-1 Compiled fire → mạnh nhất, most personal
-    HUB: empathy = leader/hub fire Compiled on group → amplified by position
-    INSTITUTIONAL: empathy = policy design → WIDEST reach nhưng impersonal
-    → VD: bác sĩ empathy 1 bệnh nhân (pair) vs hospital policy (institutional)
-    → VD: giáo viên empathy 1 trò (pair) vs education system (institutional)
+    PAIR: empathy = 1-to-1 Compiled fire → strongest, most personal
+    HUB: empathy = leader/hub fires Compiled on group → amplified by position
+    INSTITUTIONAL: empathy = policy design → WIDEST reach but impersonal
+    → E.g.: doctor empathizes 1 patient (pair) vs hospital policy (institutional)
+    → E.g.: teacher empathizes 1 student (pair) vs education system (institutional)
 ```
 
-### §7.2 — Valence-Structural thêm tầng sustained motivation
+### §7.2 — Valence-Structural Adds Sustained Motivation Layer
 
 ```
-⭐ Valence-Momentary GIẢI THÍCH SHARING KHI THỪA — Valence-Structural GIẢI THÍCH SUSTAINED CARE:
+⭐ Valence-Momentary EXPLAINS SHARING WHEN SURPLUS — Valence-Structural EXPLAINS SUSTAINED CARE:
 
-  Valence-Momentary = resource distribution khi THỪA (nhóm level):
-    = "Share → họ improve → empathy reward"
-    = Momentary, per-episode, hoạt động TỐT khi Valence-Momentary = positive
+  Valence-Momentary = resource distribution when SURPLUS (group level):
+    = "Share → they improve → empathy reward"
+    = Momentary, per-episode, works WELL when Valence-Momentary = positive
 
-  Valence-Structural = sustained care khi CẦN (kin level):
-    → Agent đã compiled thành body-base extension
+  Valence-Structural = sustained care when NEEDED (kin level):
+    → Agent has compiled into body-base extension
     → Agent's wellbeing = MY wellbeing (structural)
-    → Share VỚI AGENT NÀY = feed body-base MÌNH
-    → KHÔNG CẦN đợi "thấy họ improve" (Valence-Momentary visual input)
-    → SUSTAINED drive BẤT KỂ Valence-Momentary output
+    → Sharing WITH THIS AGENT = feeding MY OWN body-base
+    → DOES NOT need to wait "to see them improve" (Valence-Momentary visual input)
+    → SUSTAINED drive REGARDLESS of Valence-Momentary output
 
-  Kin selection (Hamilton 1964) giải thích TẠI SAO evolution select Valence-Structural:
-    = Gene dùng Valence-Structural drive cho gene carriers (con, ruột thịt)
-    → Mẹ share NGAY CẢ KHI Valence-Momentary = negative (con ốm, con khóc)
-    → KHÔNG CẦN "thấy con improve" → structural drive ĐỦ
+  Kin selection (Hamilton 1964) explains WHY evolution selects Valence-Structural:
+    = Gene uses Valence-Structural to drive toward gene carriers (children, kin)
+    → Mother shares EVEN WHEN Valence-Momentary = negative (child sick, child crying)
+    → DOES NOT NEED "to see child improve" → structural drive SUFFICIENT
     → = Valence-Structural = evolved extension of kin selection logic
 
   MIRROR REWARD OVERRIDE (Agent-Mechanism.md §12.3):
-    Cây xoài scenario = Valence-Momentary only (share khi thừa → mirror reward > keep)
-    Mẹ chăm con ốm = Valence-Structural required (Valence-Momentary negative → Valence-Momentary alone KHÔNG incentive)
-    → Valence-Momentary giải thích sharing surplus. Valence-Structural giải thích sustained care despite cost.
+    Mango scenario = Valence-Momentary only (share surplus → mirror reward > keep)
+    Mother cares for sick child = Valence-Structural required
+      (Valence-Momentary negative → Valence-Momentary alone NOT incentive)
+    → Valence-Momentary explains surplus sharing. Valence-Structural explains sustained care despite cost.
 
-  → CẢ 2 tồn tại song song, complement nhau:
-    Valence-Momentary (empathy reward) = PULL khi thừa
-    Valence-Structural (structural drive) = SUSTAIN khi cần
+  → BOTH exist in parallel, complement each other:
+    Valence-Momentary (empathy reward) = PULL when surplus
+    Valence-Structural (structural drive) = SUSTAIN when needed
 
   🟡 Valence-Structural as evolved extension of kin selection = framework synthesis
 ```
 
-### §7.3 — Optimal conditions + scarcity complement
+### §7.3 — Optimal Conditions + Scarcity Complement
 
 ```
-🟡 EMPATHY + SCARCITY = 2 MẶT CỦA CÙNG ENGINE:
+🟡 EMPATHY + SCARCITY = 2 SIDES OF THE SAME ENGINE:
 
-  Scarcity TĂNG → ép tìm mới = ĐẨY
-  Resource DƯ → empathy share = KÉO
-  → CÙNG KẾT QUẢ: tối ưu resource cho nhóm
-  → KHÁC ĐƯỜNG: scarcity ĐẨY, empathy KÉO
+  Scarcity INCREASES → forces seeking new = PUSH
+  Resource SURPLUS → empathy shares = PULL
+  → SAME RESULT: optimize resources for group
+  → DIFFERENT PATH: scarcity PUSHES, empathy PULLS
 
-  ĐIỀU KIỆN ĐỂ Valence-Momentary SHARING TỐI ƯU:
+  CONDITIONS FOR Valence-Momentary SHARING TO BE OPTIMAL:
 
-    ① Body-base CỦA MÌNH ĐÃ ĐỦ:
-      → Item dư thật → share = pure Valence-Momentary reward, không có cost
-      → = "Lành mạnh" trong §6 spectrum
+    ① OWN body-base ALREADY SUFFICIENT:
+      → Truly surplus → share = pure Valence-Momentary reward, no cost
+      → = "Healthy" in §6 spectrum
 
-    ② Perceived ability CAO:
-      → Có item + biết cách share + target CÓ THỂ nhận
+    ② Perceived ability HIGH:
+      → Has item + knows how to share + target CAN receive
 
-    ③ Empathy input CÓ (thấy người nhận improve):
-      → Share trực tiếp > gián tiếp (Compiled CẦN visual input)
-      → Cho hàng xóm quả (thấy họ vui) > donate online (không thấy)
+    ③ Empathy input PRESENT (sees recipient improve):
+      → Share directly > indirectly (Compiled NEEDS visual input)
+      → Give neighbor the fruit (see them happy) > donate online (don't see it)
 
-    KHI THIẾU ①: body-base chưa đủ mà VẪN share
+    WHEN ① IS MISSING: body-base not yet sufficient but STILL sharing
       → = §6 Empathy Reward Override → pathological
 ```
 
@@ -1906,115 +1977,118 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §8 — FAILURES + PATHOLOGY
 
-### §8.1 — 7 failure modes tổng quan
+### §8.1 — 7 Failure Modes Overview
 
 ```
-🟡 EMPATHY CÓ THỂ FAIL THEO 7 CÁCH KHÁC NHAU:
+🟡 EMPATHY CAN FAIL IN 7 DIFFERENT WAYS:
 
-  ┌────┬─────────────────────────┬────────────────────────────────────────┐
-  │ #  │ Failure mode            │ Cơ chế gốc (qua Compiled/Fresh + 2-luồng)      │
-  ├────┼─────────────────────────┼────────────────────────────────────────┤
-  │ 1  │ Empathy fatigue         │ Valence-Momentary cost tích lũy + Valence-Structural compensation     │
-  │    │ (= burnout)             │ không đủ → cortisol baseline drift up  │
-  ├────┼─────────────────────────┼────────────────────────────────────────┤
-  │ 2  │ Alexithymia             │ Poor self-chunks → Compiled cannot fire     │
-  │    │                         │ properly + feedback loop broken        │
-  ├────┼─────────────────────────┼────────────────────────────────────────┤
-  │ 3  │ Dehumanization          │ Schema suppress Self-Pattern-Modeling → Compiled TẮT          │
-  │    │                         │ (❸ extreme negative)                   │
-  ├────┼─────────────────────────┼────────────────────────────────────────┤
-  │ 4  │ Parasocial              │ High Compiled + zero feedback →             │
-  │    │                         │ templates distort, no Resonance│
-  ├────┼─────────────────────────┼────────────────────────────────────────┤
-  │ 5  │ Schema suppress         │ Hostile schema blocks Compiled dù           │
-  │    │ (relationship)          │ axes theoretically high               │
-  ├────┼─────────────────────────┼────────────────────────────────────────┤
-  │ 6  │ Animism (over-apply)    │ Self-Pattern-Modeling Compiled apply lên non-agents           │
-  │    │                         │ (developmental or schema-prevented)    │
-  ├────┼─────────────────────────┼────────────────────────────────────────┤
-  │ 7  │ Empathy reward hijack   │ Nghiện Valence-Momentary empathy reward →            │
-  │    │                         │ ignore own body-base (§6.3)           │
-  └────┴─────────────────────────┴────────────────────────────────────────┘
+  ┌────┬─────────────────────────┬────────────────────────────────────────────┐
+  │ #  │ Failure mode            │ Root mechanism (via Compiled/Fresh + 2-track)│
+  ├────┼─────────────────────────┼────────────────────────────────────────────┤
+  │ 1  │ Empathy fatigue         │ VM cost accumulated + VS compensation      │
+  │    │ (= burnout)             │ insufficient → cortisol baseline drifts up │
+  ├────┼─────────────────────────┼────────────────────────────────────────────┤
+  │ 2  │ Alexithymia             │ Poor self-chunks → Compiled cannot fire    │
+  │    │                         │ properly + feedback loop broken            │
+  ├────┼─────────────────────────┼────────────────────────────────────────────┤
+  │ 3  │ Dehumanization          │ Schema suppresses Self-PM → Compiled OFF   │
+  │    │                         │ (❸ extreme negative)                       │
+  ├────┼─────────────────────────┼────────────────────────────────────────────┤
+  │ 4  │ Parasocial              │ High Compiled + zero feedback →            │
+  │    │                         │ templates distort, no Resonance            │
+  ├────┼─────────────────────────┼────────────────────────────────────────────┤
+  │ 5  │ Schema suppress         │ Hostile schema blocks Compiled even when   │
+  │    │ (relationship)          │ axes theoretically high                    │
+  ├────┼─────────────────────────┼────────────────────────────────────────────┤
+  │ 6  │ Animism (over-apply)    │ Self-PM Compiled applies to non-agents     │
+  │    │                         │ (developmental or schema-prevented)        │
+  ├────┼─────────────────────────┼────────────────────────────────────────────┤
+  │ 7  │ Empathy reward hijack   │ Addicted to VM empathy reward →            │
+  │    │                         │ ignore own body-base (§6.3)                │
+  └────┴─────────────────────────┴────────────────────────────────────────────┘
+  (VM = Valence-Momentary, VS = Valence-Structural, Self-PM = Self-Pattern-Modeling)
 ```
 
-### §8.2 — Empathy fatigue — 2-luồng analysis
+### §8.2 — Empathy Fatigue — 2-Track Analysis
 
 ```
-⭐ BURNOUT = f(Valence-Momentary COST TÍCH LŨY / Valence-Structural COMPENSATION):
+⭐ BURNOUT = f(VM COST ACCUMULATED / VS COMPENSATION):
 
-  CƠ CHẾ Valence-Momentary COST (Cortisol-Baseline.md v2.0 §1.5):
+  MECHANISM OF VM COST (Cortisol-Baseline.md v2.0 §1.5):
 
-    Mỗi empathy Compiled event (thấy bệnh nhân đau, thấy trẻ khổ):
-      → NE spike → cortisol spike nhỏ
-      → Spike → partial recovery → nhưng KHÔNG về hẳn baseline cũ
-      → Spike tiếp → baseline DRIFT UP thêm
-      → × nhiều ngày → baseline TÍCH LŨY
+    Each negative empathy Compiled event (seeing patient in pain, seeing child suffer):
+      → NE spike → small cortisol spike
+      → Spike → partial recovery → but does NOT return all the way to old baseline
+      → Next spike → baseline DRIFTS UP further
+      → × many days → baseline ACCUMULATES
 
     VICIOUS CYCLE:
-      cortisol cao → LC NHẠY HƠN (sensitization)
-      → LC dễ fire NE → amygdala NHẠY → detect empathy dissonance NHIỀU
-      → Detect nhiều → cortisol THÊM cao
-      → = "Càng empathy → càng nhạy → càng fire → càng kiệt"
+      High cortisol → LC MORE SENSITIVE (sensitization)
+      → LC easily fires NE → amygdala MORE SENSITIVE → detects empathy dissonance MORE
+      → Detect more → cortisol RISES FURTHER
+      → = "The more you empathize → the more sensitive → the more it fires → the more depleted"
 
 
-  ⭐ Valence-Structural COMPENSATION QUYẾT ĐỊNH OUTCOME:
+  ⭐ VS COMPENSATION DETERMINES OUTCOME:
 
-    ┌─────────────────────┬──────────┬───────────┬──────────────────────────┐
-    │ Case                │ Valence-Momentary (Compiled)  │ Valence-Structural (❸)    │ Outcome                  │
-    ├─────────────────────┼──────────┼───────────┼──────────────────────────┤
-    │ Bác sĩ + bệnh nhân │ Negative │ ≈ 0       │ Valence-Momentary cost TÍCH LŨY         │
-    │ lạ (hàng ngày)      │ (cascade │ (chưa     │ → burnout, fatigue       │
-    │                     │ ①-④)    │ compiled) │ → cần professional anchor│
-    ├─────────────────────┼──────────┼───────────┼──────────────────────────┤
-    │ Mẹ + con ốm        │ Negative │ STRONG +  │ Valence-Structural BÙ Valence-Momentary cost            │
-    │ (cùng intensity)    │ (cascade │ (con =    │ → KHÔNG burnout          │
-    │                     │ ①-④)    │ body-ext) │ → chăm tiếp dù mệt      │
-    ├─────────────────────┼──────────┼───────────┼──────────────────────────┤
-    │ Cha mẹ trẻ khuyết   │ Negative │ STRONG +  │ Valence-Structural BÙ NHƯNG Valence-Momentary cực cao  │
-    │ tật (kéo dài)       │ (CỰC    │ (con =    │ → Valence-Structural CÓ THỂ không đủ bù │
-    │                     │ nhiều)   │ body-ext) │ → fatigue DÙ có Valence-Structural       │
-    └─────────────────────┴──────────┴───────────┴──────────────────────────┘
+    ┌──────────────────────┬──────────┬───────────┬──────────────────────────────┐
+    │ Case                 │   VM     │     VS    │ Outcome                      │
+    │                      │(Compiled)│(❸ valence)│                              │
+    ├──────────────────────┼──────────┼───────────┼──────────────────────────────┤
+    │ Doctor + unknown     │Negative  │ ≈ 0       │ VM cost ACCUMULATES          │
+    │ patient (daily)      │(cascade  │(not yet   │ → burnout, fatigue           │
+    │                      │①-④)     │compiled)  │ → needs professional anchor  │
+    ├──────────────────────┼──────────┼───────────┼──────────────────────────────┤
+    │ Mother + sick child  │Negative  │ STRONG +  │ VS COMPENSATES VM cost       │
+    │ (same intensity)     │(cascade  │(child =   │ → NO burnout                 │
+    │                      │①-④)     │body-ext)  │ → still cares despite tired  │
+    ├──────────────────────┼──────────┼───────────┼──────────────────────────────┤
+    │ Parent of child with │Negative  │ STRONG +  │ VS compensates BUT VM        │
+    │ disability (extended)│(EXTREME  │(child =   │ EXTREMELY high               │
+    │                      │ high)    │body-ext)  │ → VS MAY NOT be enough       │
+    │                      │          │           │ → fatigue DESPITE having VS  │
+    └──────────────────────┴──────────┴───────────┴──────────────────────────────┘
 
     ⭐ BURNOUT FORMULA:
-      Burnout = f(Valence-Momentary cost tích lũy / Valence-Structural compensation)
-      → Valence-Structural CAO + Valence-Momentary vừa → KHÔNG burnout (mẹ chăm con ốm thường)
-      → Valence-Structural ≈ 0 + Valence-Momentary bất kỳ → burnout (bác sĩ, social worker)
-      → Valence-Structural CAO + Valence-Momentary CỰC CAO kéo dài → VẪN CÓ THỂ burnout
-        (cha mẹ trẻ khuyết tật = Valence-Structural có nhưng Valence-Momentary vượt ngưỡng)
+      Burnout = f(VM cost accumulated / VS compensation)
+      → VS HIGH + VM moderate → NO burnout (mother cares for occasionally sick child)
+      → VS ≈ 0 + any VM → burnout (doctor, social worker)
+      → VS HIGH + VM EXTREMELY HIGH extended → CAN STILL burnout
+        (parents of children with disabilities = VS present but VM exceeds threshold)
 
 
-  PROFESSIONAL ANCHOR = PROXY Valence-Structural:
+  PROFESSIONAL ANCHOR = PROXY VS:
 
-    Bác sĩ có Valence-Structural ≈ 0 với bệnh nhân lạ. NHƯNG có thể có:
-      → Professional identity anchor: "tôi là bác sĩ, chữa bệnh = nhiệm vụ"
-      → = Schema-based proxy cho Valence-Structural (anchor provide structural drive)
-      → NHƯNG proxy YẾU hơn Valence-Structural thật (schema ≠ compiled body-base extension)
-      → = Tại sao professional anchor GIẢM burnout nhưng KHÔNG loại bỏ
-    Chi tiết: Connection.md v5.0 §3.3, Self-Pattern-Modeling.md v3.1 §10.4
+    Doctor has Valence-Structural ≈ 0 for unknown patients. BUT can have:
+      → Professional identity anchor: "I am a doctor, healing = my mission"
+      → = Schema-based proxy for VS (anchor provides structural drive)
+      → BUT proxy WEAKER than genuine VS (schema ≠ compiled body-base extension)
+      → = Why professional anchor REDUCES burnout but DOES NOT eliminate it
+    Details: Connection.md v5.0 §3.3, Self-Pattern-Modeling.md v3.1 §10.4
 
 
-  NGHỀ NGHIỆP CHỊU NHIỀU NHẤT:
-    → Y tá, bác sĩ: Valence-Momentary cost hàng ngày × nhiều bệnh nhân × Valence-Structural ≈ 0
-    → Social worker: Valence-Momentary cost hàng ngày × nhiều case × Valence-Structural ≈ 0
-    → Giáo viên (môi trường khó): Valence-Momentary cost × perceived ability thấp
-    → Cha mẹ trẻ khuyết tật: Valence-Momentary cực cao + Valence-Structural có nhưng CÓ THỂ bị vượt
+  PROFESSIONS MOST AFFECTED:
+    → Nurses, doctors: daily VM cost × many patients × VS ≈ 0
+    → Social workers: daily VM cost × many cases × VS ≈ 0
+    → Teachers (difficult environments): VM cost × low perceived ability
+    → Parents of children with disabilities: extreme VM + VS present but CAN be exceeded
 
-  3 DEFENSE MECHANISMS (body self-protect):
-    ① Detachment: CẮT empathy Compiled chủ động → "nhìn bệnh nhân như case"
-    ② Numbness: VTA habituate → Compiled threshold TĂNG → ít fire
-    ③ Avoidance: tránh input → "không muốn nhìn tin tức"
+  3 DEFENSE MECHANISMS (body self-protects):
+    ① Detachment: ACTIVELY CUTS empathy Compiled → "look at patient as a case"
+    ② Numbness: VTA habituates → Compiled threshold RISES → fires less
+    ③ Avoidance: avoids input → "don't want to watch the news"
 
-  KHÔNG PHẢI "NGƯỜI XẤU":
-    → = Compassion fatigue = body self-protect (circuit breaker)
-    → = Cần RECOVERY, không cần "cố gắng thêm"
+  NOT "A BAD PERSON":
+    → = Compassion fatigue = body self-protecting (circuit breaker)
+    → = Needs RECOVERY, not "try harder"
 
   RECOVERY (Cortisol-Baseline.md v2.0 §1.5):
-    Cần CẢ 3 đồng thời:
-    ① Empathy input GIẢM (giảm exposure, rotate assignments)
-    ② Sleep ĐỦ (BDNF repair + cortisol circadian reset)
-    ③ Thời gian ĐỦ (LC desensitize dần)
+    Needs ALL 3 simultaneously:
+    ① Empathy input DECREASES (reduce exposure, rotate assignments)
+    ② Sufficient SLEEP (BDNF repair + cortisol circadian reset)
+    ③ Sufficient TIME (LC desensitizes gradually)
 
-    ⚠️ BẤT ĐỐI XỨNG: damage nhanh, recovery chậm (tuần → tháng)
+    ⚠️ ASYMMETRY: damage fast, recovery slow (weeks → months)
 
 
   ⭐ BURNOUT REFRAME v4.0 — NOT "TOO MUCH EMPATHY":
@@ -2022,381 +2096,385 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     (PFC-Operations.md v1.0 §4.2 + §8.1)
 
     Burnout = Compiled-Suppress + PFC depletion + quality issue.
-    KHÔNG PHẢI "empathy quá nhiều" — mà là 3 MECHANISMS KHÁC:
+    NOT "too much empathy" — rather 3 DIFFERENT MECHANISMS:
 
     ① COMPILED-SUPPRESS (Bond-Architecture.md v2.0 §4.1 — ★ LEVERAGE POINT):
-      → Compiled suppress gap CỦA CHÍNH MÌNH để dành cho target
-      → Reward pathways THU HẸP → cortisol baseline TĂNG
-      → = "Bác sĩ suppress own needs hàng năm" → anhedonia
+      → Compiled suppresses OWN gap to save capacity for target
+      → Reward pathways NARROW → cortisol baseline RISES
+      → = "Doctor suppresses own needs for years" → anhedonia
       → Accelerates Reward-Habituated + drains novelty fuel
 
     ② PFC BUDGET DEPLETION (PFC-Operations.md v1.0 §9):
-      → Fresh empathy = PFC cost mỗi session
-      → Volume cao (nhiều bệnh nhân/ngày) × fresh (mỗi người khác) = DRAIN
-      → Hết PFC → chỉ automated Compiled → Compiled CÓ THỂ stale → empathy SAI
-      → "Đến cuối ngày, coi bệnh nhân như case" = PFC shutdown, NOT cruelty
+      → Fresh empathy = PFC cost per session
+      → High volume (many patients/day) × fresh (each person different) = DRAIN
+      → PFC depleted → only automated Compiled → Compiled CAN go stale
+        → empathy INCORRECT
+      → "By end of day, treating patients like cases" = PFC shutdown, NOT cruelty
 
     ③ COMPILED QUALITY (PFC-Operations.md v1.0 §5):
-      → Threat-compiled empathy ("phải caring nếu không bị đánh giá") = burnout risk
-      → Schema-compiled empathy ("phải caring vì quy tắc") = limited
+      → Threat-compiled empathy ("must be caring or I'll be judged") = burnout risk
+      → Schema-compiled empathy ("must be caring per the rules") = limited
       → Genuine-compiled empathy = ONLY sustainable path
 
     ESCALATION PATHWAY (PFC-Operations.md v1.0 §8.1):
-      Compiled suppress 1 domain → 2 domains → nhiều domains
-      → reward pathways THU HẸP → cortisol chronic
+      Compiled suppresses 1 domain → 2 domains → many domains
+      → reward pathways NARROW → chronic cortisol
       → 🟢 McEwen 2007: vmPFC structural damage (dendritic retraction)
-      → vmPFC quá yếu → passive response MỌI THỨ = SYSTEMIC helplessness
+      → vmPFC too weak → passive response to EVERYTHING = SYSTEMIC helplessness
       → = "Enough doors closed → room DARK"
 
     6-STEP RECOVERY (PFC-Operations.md v1.0 §8.2):
-      ① Safe context (giảm exposure)
-      ② Meta-awareness ("tôi đang suppress cái gì?")
+      ① Safe context (reduce exposure)
+      ② Meta-awareness ("what am I suppressing?")
       ③ Uncompile suppress (controlled reactivation — feels WORSE before better)
       ④ Process with PFC (articulate — Somatic-Articulation-Loop)
       ⑤ Build new pattern (genuine — body engagement, not forced)
       ⑥ Compile new pattern (approach tag, not avoidance)
 
-  🟡 Valence-Momentary/Valence-Structural compensation model = framework synthesis
-  🟡 Burnout = compiled suppress + PFC depletion = v4.0 reframe
+  🟡 VM/VS compensation model = framework synthesis
+  🟡 Burnout = Compiled-Suppress + PFC depletion = v4.0 reframe
   🟢 Empathy fatigue differential: documented (Figley 2002, Maslach 2001)
   🟢 vmPFC structural damage under chronic stress: McEwen 2007
 ```
 
-### §8.3 — Moral injury qua 2-luồng
+### §8.3 — Moral Injury via 2-Track
 
 ```
-⭐ MORAL INJURY = Valence-Momentary COST TÍCH LŨY KHI Valence-Structural KHÔNG ĐỦ BÙ:
+⭐ MORAL INJURY = VM COST ACCUMULATED WHEN VS INSUFFICIENT TO COMPENSATE:
 
   (Self-Pattern-Modeling.md v3.1 §10.4)
 
-  Moral injury khác burnout ở THÊM dimension:
-    → Burnout = Valence-Momentary cost > Valence-Structural compensation → kiệt sức
-    → Moral injury = Valence-Momentary cost + PFC nhận ra "mình ĐANG làm hại"
-      + KHÔNG CÓ Valence-Structural cung cấp moral anchor
+  Moral injury differs from burnout by ONE ADDED DIMENSION:
+    → Burnout = VM cost > VS compensation → exhaustion
+    → Moral injury = VM cost + PFC recognizes "I AM causing harm"
+      + NO VS providing moral anchor
 
-  Bác sĩ (moral injury):
-    → Valence-Momentary: Compiled fire → thấy bệnh nhân đau → body khó chịu
-    → PFC: "tôi biết cần cứu nhưng KHÔNG ĐỦ resource"
-    → Valence-Structural ≈ 0 → không có structural drive BÙ moral cost
-    → = Valence-Momentary cost + moral cost + Valence-Structural ≈ 0 → compound injury
+  Doctor (moral injury):
+    → VM: Compiled fires → sees patient in pain → body uncomfortable
+    → PFC: "I know I should save them but DON'T HAVE ENOUGH resources"
+    → VS ≈ 0 → no structural drive COMPENSATING moral cost
+    → = VM cost + moral cost + VS ≈ 0 → compound injury
 
-  Mẹ (KHÔNG moral injury dù cùng Compiled cost):
-    → Valence-Momentary: Compiled fire → thấy con đau → body khó chịu
-    → PFC: "tôi đang chăm con hết sức"
-    → Valence-Structural ++: con = body-base extension → structural anchor
-    → = Valence-Momentary cost + Valence-Structural → moral injury KHÔNG xảy ra
-      (vì Valence-Structural provide moral anchor: "tôi đang feed body-base MÌNH")
+  Mother (NO moral injury even with same Compiled cost):
+    → VM: Compiled fires → sees child in pain → body uncomfortable
+    → PFC: "I am caring for my child as best I can"
+    → VS ++: child = body-base extension → structural anchor
+    → = VM cost + VS → moral injury DOES NOT occur
+      (because VS provides moral anchor: "I am feeding MY OWN body-base")
 
-  🟡 Moral injury qua Valence-Momentary/Valence-Structural = framework synthesis
+  🟡 Moral injury via VM/VS = framework synthesis
 ```
 
-### §8.4 — Các failure modes khác
+### §8.4 — Other Failure Modes
 
 ```
-🟡 6 FAILURE MODES CÒN LẠI:
+🟡 THE REMAINING 6 FAILURE MODES:
 
-  ② ALEXITHYMIA (§3.4 đã chi tiết):
+  ② ALEXITHYMIA (§3.4 has full details):
     → Poor self-chunks → poor templates → poor Compiled → empathy deficit
-    → CŨNG phá feedback loop → library KHÔNG improve
-    → ~10% population clinically significant
+    → ALSO breaks feedback loop → library DOES NOT improve
+    → ~10% of population clinically significant
     → Fix: rebuild self-chunks (Focusing, mindfulness, emotional labeling)
 
   ③ DEHUMANIZATION:
-    → ❸ extreme negative → schema suppress Self-Pattern-Modeling → Compiled TẮT
+    → ❸ extreme negative → schema suppresses Self-Pattern-Modeling → Compiled OFF
     → Agent-Mechanism.md §10, §14
     → Grossman On Killing 🟢: must dehumanize to kill effectively
     → Recoverable: remove schema → Compiled re-fires → PTSD after war
-      (= gate mở lại → flood of Valence-Momentary empathy dissonance retroactive)
+      (= gate reopens → flood of VM empathy dissonance retroactively)
 
   ④ PARASOCIAL (feedback axis failure):
     → High Compiled investment + ZERO feedback → open loop
     → Templates distort increasingly (no Resonance possible)
-    → Fan feels "know" celebrity → reality intrudes → distress
-    → Connection.md v5.0 §3.4: rich Self-Pattern-Modeling nhưng no Resonance
+    → Fan feels they "know" the celebrity → reality intrudes → distress
+    → Connection.md v5.0 §3.4: rich Self-Pattern-Modeling but no Resonance
 
   ⑤ SCHEMA SUPPRESS IN RELATIONSHIPS:
     → Mother-10-year case (Agent-Mechanism.md §9.2):
-      Hostile schema blocks Compiled dù depth + similarity HIGH
-    → "Dehumanization-lite" — routine script replaces Compiled genuine simulation
-    → DANGER zone: all axes theoretically high nhưng SCHEMA blocks
+      Hostile schema blocks Compiled even when depth + similarity HIGH
+    → "Dehumanization-lite" — routine script replaces genuine Compiled simulation
+    → DANGER zone: all axes theoretically high but SCHEMA blocks
 
   ⑥ ANIMISM (over-apply Compiled):
-    → 2-7y developmental: Compiled mới → apply lên MỌI THỨ (Piaget 1929) 🟢
-    → "Ghế bị đau", "búp bê buồn" = overgeneralization
-    → Adult animism: cộng đồng schema PREVENT natural refinement
+    → 2-7y developmental: Compiled new → applies to EVERYTHING (Piaget 1929) 🟢
+    → "Chair got hurt", "doll is sad" = overgeneralization
+    → Adult animism: community schema PREVENTS natural refinement
 
   ⑦ EMPATHY REWARD HIJACK (§6.3 overlap):
-    → Nghiện Valence-Momentary empathy reward → body NGHIỆN → ignore own needs
-    → KHÁC fatigue: fatigue = body CẮT Compiled (defense),
-      hijack = body NGHIỆN Valence-Momentary reward (addiction)
-    → "Pleasant khi giúp" nhưng "gầy, mệt, tài chính yếu"
+    → Addicted to VM empathy reward → body ADDICTED → ignores own needs
+    → DIFFERS from fatigue: fatigue = body CUTS Compiled (defense),
+      hijack = body ADDICTED to VM reward (addiction)
+    → "Pleasant when helping" but "thin, tired, financially weak"
 ```
 
-### §8.5 — Valence-Structural STRONG + Compiled WEAK: "Yêu thương nhưng không hiểu" (case bố mẹ)
+### §8.5 — Valence-Structural Strong + Compiled Weak: "Love without Understanding" (Parent Case)
 
 ```
-⭐ CASE ĐẶC TRƯNG NHẤT CỦA 2-LUỒNG: Valence-Structural CÓ ≠ Compiled CÓ
+⭐ MOST CHARACTERISTIC CASE OF 2-TRACK: VS PRESENT ≠ Compiled PRESENT
 
-  Case này PHÂN TÁCH 2 nguồn drive CỰC ĐẠI — chứng minh
-  Valence-Structural (yêu thương structural) và Compiled (đồng cảm momentary)
-  là 2 thứ TÁCH BIỆT HOÀN TOÀN, có thể tồn tại ĐỘC LẬP.
-
-
-  ⭐ CƠ CHẾ:
-
-    Bố mẹ CÓ Valence-Structural rất mạnh — con = body-base extension THẬT SỰ:
-      → Drive genuine: muốn con an toàn, phát triển, tốt hơn
-      → Reward THẬT khi con tốt. Đau THẬT khi con đau.
-      → Hy sinh THẬT: thời gian, tiền bạc, sức khỏe
-      → Valence-Structural KHÔNG giả — đây là yêu thương structural, body-level
-
-    NHƯNG Valence-Structural chỉ nói: "CON PHẢI TỐT"
-    Valence-Structural KHÔNG nói: "CON ĐANG CẢM THẤY GÌ"
-    Cái sau là việc CỦA Compiled.
-
-    Khi Compiled yếu hoặc bị schema chặn:
-      → Bố mẹ có Valence-Structural drive MẠNH nhưng KHÔNG CÓ RADAR đọc state thật của con
-      → Bố mẹ PROJECT schema CỦA MÌNH lên con:
-        "Con PHẢI học giỏi" (vì tôi biết học giỏi = tốt)
-        "Con PHẢI nghe lời" (vì tôi biết đường nào an toàn)
-        "Con PHẢI như thế này" (vì Valence-Structural drive tôi muốn con tốt nhất)
-      → KHÔNG simulate: "Con đang FEEL gì khi bị ép?"
-      → KHÔNG simulate: "Con MUỐN gì thật sự?"
-      → = Treat con as OBJECT to optimize, NOT agent to understand
+  This case MAXIMALLY SEPARATES the 2 drive sources — proving
+  Valence-Structural (structural love) and Compiled (momentary empathy)
+  are 2 COMPLETELY SEPARATE things that can exist INDEPENDENTLY.
 
 
-  ⭐ TẠI SAO Compiled YẾU — NHIỀU NGUỒN KHÁC NHAU:
+  ⭐ MECHANISM:
 
-    ① Schema thay thế Compiled:
-      → "Bố mẹ tốt phải thế này" → schema SCRIPT thay thế genuine Compiled simulate
-      → Bố mẹ follow "phải dạy con thế này" → KHÔNG CẦN hỏi con feel gì
-      → Schema cho REWARD khi comply ("tôi là bố mẹ tốt") → reinforce
+    Parents HAVE very strong Valence-Structural — child = body-base extension GENUINELY:
+      → Drive genuine: want child safe, developing, doing better
+      → REAL reward when child thrives. REAL pain when child hurts.
+      → REAL sacrifice: time, money, health
+      → Valence-Structural NOT fake — this is structural love, body-level
 
-    ② Chunk library thiếu cho domain "con cái":
-      → Tuổi thơ CỦA BỐ MẸ cũng bị chăm kiểu này
-      → Self-chunks cho "bị kiểm soát mà vẫn được yêu" = THIN
-      → → Templates cho Compiled fire on con = KÉM
-      → = Generational: ông bà → bố mẹ → con — mỗi thế hệ truyền CÙNG GAP
+    BUT Valence-Structural only says: "CHILD MUST DO WELL"
+    Valence-Structural DOES NOT say: "WHAT IS CHILD FEELING RIGHT NOW"
+    That second question is the job of COMPILED.
 
-    ③ Self-Pattern-Modeling chưa đủ practice cho đa dạng agent:
-      → Bố mẹ có thể Compiled TỐT với bạn bè, đồng nghiệp
-      → Nhưng Compiled với CON = context KHÁC: power asymmetry + Valence-Structural override
-      → Valence-Structural drive MẠNH QUÁ → Compiled bị "lấn" — Valence-Structural nói "phải tốt cho con"
-        mạnh hơn Compiled nói "con đang feel gì"
+    When Compiled is weak or schema-blocked:
+      → Parents have STRONG VS drive but NO RADAR to read child's actual state
+      → Parents PROJECT OWN schema onto child:
+        "Child MUST study hard" (because I know studying hard = good)
+        "Child MUST obey" (because I know which path is safe)
+        "Child MUST be like this" (because VS drive says I want the best for child)
+      → DO NOT simulate: "What is the child FEELING when pressured?"
+      → DO NOT simulate: "What does the child ACTUALLY want?"
+      → = Treats child as OBJECT to optimize, NOT agent to understand
+
+
+  ⭐ WHY Compiled IS WEAK — MULTIPLE DIFFERENT SOURCES:
+
+    ① Schema replaces Compiled:
+      → "Good parent must do it this way" → schema SCRIPT replaces genuine Compiled simulation
+      → Parent follows "must teach child this way" → NO NEED to ask what child feels
+      → Schema gives REWARD when complying ("I am a good parent") → reinforces
+
+    ② Chunk library lacking for domain "child-rearing":
+      → Parent's OWN CHILDHOOD was also raised this way
+      → Self-chunks for "being controlled while still loved" = THIN
+      → → Templates for Compiled to fire on child = POOR
+      → = Generational: grandparents → parents → child — each generation passes SAME GAP
+
+    ③ Self-Pattern-Modeling not yet practiced enough for diverse agents:
+      → Parents can Compiled well with friends, colleagues
+      → But Compiled WITH CHILD = DIFFERENT context: power asymmetry + VS override
+      → VS drive TOO STRONG → crowds out Compiled — VS says "must be good for child"
+        stronger than Compiled says "what is child feeling"
       → = Context-dependent chunk selection (Self-Pattern-Modeling v3.1 §4):
-        context "bố mẹ" activate "dạy dỗ" chunks, KHÔNG activate "lắng nghe" chunks
+        context "parent" activates "teaching" chunks, DOES NOT activate "listening" chunks
 
-    ④ Alexithymia nhẹ (partial):
-      → Bố mẹ có thể KHÔNG nhận ra emotional complexity CỦA CON
-      → Vì self-chunks cho emotional nuance = THIN
-      → → Compiled fire nhưng coarse: "con buồn" thay vì "con bị kìm kẹp mà
-          không biết cách nói vì sợ làm bố mẹ buồn"
-
-
-  ⭐ KẾT QUẢ — CẢ HAI BÊN ĐỀU ĐÚNG:
-
-    Bố mẹ perspective:
-      → "Tôi yêu con hết mình" → ĐÚNG (Valence-Structural thật, structural)
-      → "Tôi hy sinh cho con" → ĐÚNG (Valence-Structural drive → real sacrifice)
-      → "Tại sao con không hiểu?" → vì bố mẹ THẬT SỰ không hiểu tại sao
-        con phản kháng khi mình yêu thương "hết mình"
-
-    Con perspective:
-      → "Tôi bị kìm kẹp" → ĐÚNG (Compiled thiếu → không được HIỂU)
-      → "Bố mẹ không hiểu tôi" → ĐÚNG (Compiled không fire → validation ⑤ KHÔNG hoạt động)
-      → "Tôi như vật sở hữu" → ĐÚNG (bố mẹ dùng object valence:
-        "tôi đánh giá con nên thế nào" thay vì agent valence:
-        "con đang thế nào thật sự")
-
-    → KHÔNG AI NÓI DỐI. Cả hai genuinely đúng trong perspective của mình.
-    → XUNG ĐỘT KHÔNG phải vì thiếu yêu thương — mà vì thiếu Compiled.
-    → = Valence-Structural ≠ Compiled. Yêu thương ≠ đồng cảm. 2 nguồn drive TÁCH BIỆT.
+    ④ Mild alexithymia (partial):
+      → Parents may NOT recognize child's emotional complexity
+      → Because self-chunks for emotional nuance = THIN
+      → → Compiled fires but coarse: "child is sad" instead of "child feels trapped but
+          doesn't know how to say it because they fear disappointing their parents"
 
 
-  ⭐ CONNECTION PATHWAY ANALYSIS — CON NHẬN GÌ VÀ THIẾU GÌ:
+  ⭐ RESULT — BOTH SIDES ARE CORRECT:
+
+    Parent perspective:
+      → "I love my child with everything I have" → CORRECT (VS real, structural)
+      → "I sacrifice for my child" → CORRECT (VS drive → real sacrifice)
+      → "Why doesn't the child understand?" → because parents GENUINELY don't understand
+        why child pushes back when they love "with everything they have"
+
+    Child perspective:
+      → "I feel controlled" → CORRECT (Compiled lacking → not being UNDERSTOOD)
+      → "My parents don't understand me" → CORRECT (Compiled not firing → validation ⑤ NOT working)
+      → "I feel like an object" → CORRECT (parents use object valence:
+        "I evaluate how child should be" instead of agent valence:
+        "how is child actually doing")
+
+    → NOBODY IS LYING. Both are genuinely correct in their own perspective.
+    → CONFLICT is NOT because of lacking love — but because of lacking Compiled.
+    → = Valence-Structural ≠ Compiled. Love ≠ empathy. 2 SEPARATE drive sources.
+
+
+  ⭐ CONNECTION PATHWAY ANALYSIS — WHAT CHILD RECEIVES AND WHAT IS MISSING:
 
     (Connection.md v5.0 §5 — 8 pathways)
 
-    CON NHẬN (Valence-Structural-driven):
-      ② Co-regulation: CÓ — bố mẹ presence = cortisol giảm (khi không conflict)
-      ③ Virtual chunks: CÓ — bố mẹ teach, provide resources
-      ⑥ Presence: CÓ — bố mẹ ở bên
-      ⑧ Knowledge flow: CÓ — bố mẹ dạy kiến thức, kỹ năng
+    CHILD RECEIVES (VS-driven):
+      ② Co-regulation: PRESENT — parent presence = cortisol decreases (when no conflict)
+      ③ Virtual chunks: PRESENT — parents teach, provide resources
+      ⑥ Presence: PRESENT — parents are there
+      ⑧ Knowledge flow: PRESENT — parents teach knowledge, skills
 
-    CON THIẾU (Compiled-driven):
-      ① Mirror reward: YẾU — bố mẹ không fire Compiled chính xác on con
-        → con không nhận được "bố mẹ HIỂU tôi đang feel gì"
-      ④ Giving dynamics: LỆCH — bố mẹ cho THEO Ý BỐ MẸ, không theo nhu cầu CON
-      ⑤ Validation: THIẾU ⭐ — đây là pathway BỊ ẢNH HƯỞNG NHẤT
-        → "Bố mẹ KHÔNG map tôi đúng" → safety reward KHÔNG fire
-        → = Core nỗi đau: "được chăm sóc nhưng KHÔNG ĐƯỢC HIỂU"
-      ⑦ Shared Imagine-Final: XUNG ĐỘT
-        → Bố mẹ: "con phải là bác sĩ" (Imagine-Final CỦA BỐ MẸ)
-        → Con: "con muốn vẽ" (Imagine-Final CỦA CON)
-        → = 2 Imagine-Final KHÁC NHAU → conflict, không shared
+    CHILD LACKS (Compiled-driven):
+      ① Mirror reward: WEAK — parents do not fire Compiled accurately on child
+        → child does not receive "parents UNDERSTAND what I am feeling"
+      ④ Giving dynamics: SKEWED — parents give ACCORDING TO PARENTS' IDEA,
+        not according to CHILD's needs
+      ⑤ Validation: MISSING ⭐ — this is the MOST AFFECTED pathway
+        → "Parents do NOT map me correctly" → safety reward DOES NOT fire
+        → = Core pain: "cared for but NOT UNDERSTOOD"
+      ⑦ Shared Imagine-Final: CONFLICT
+        → Parent: "child must become a doctor" (Imagine-Final OF PARENT)
+        → Child: "I want to paint" (Imagine-Final OF CHILD)
+        → = 2 DIFFERENT Imagine-Finals → conflict, not shared
 
-    → Con nhận 4/8 pathways (Valence-Structural-driven) nhưng THIẾU 4/8 (Compiled-driven)
-    → = "Yêu thương nửa vời" — đủ care, thiếu understanding
-
-
-  ⭐ PHÂN BIỆT VỚI CÁC FAILURE MODES KHÁC:
-
-    ≠ Fatigue (#1): Compiled không bị kiệt — Compiled CHƯA BAO GIỜ mạnh với con
-    ≠ Alexithymia (#2): bố mẹ CÓ THỂ Compiled tốt với người khác
-    ≠ Dehumanization (#3): bố mẹ KHÔNG dehumanize con
-    ≠ Schema suppress hostile (#5): schema KHÔNG hostile — schema BENEVOLENT
-      → Schema nói "phải tốt cho con" — KHÔNG nói "con = kẻ thù"
-      → = "Benevolent schema suppress" — khó phát hiện VÌ intention tốt
-
-    ⭐ ĐẶC TRƯNG: Valence-Structural MẠNH + Compiled YẾU + SCHEMA BENEVOLENT
-      → = Case DUY NHẤT mà drive TÍCH CỰC (Valence-Structural genuine love)
-          DẪN TỚI output TIÊU CỰC cho target (con bị kìm kẹp)
-      → = "Đường tới địa ngục lát bằng thiện ý" — framework version
+    → Child receives 4/8 pathways (VS-driven) but LACKS 4/8 (Compiled-driven)
+    → = "Half-hearted love" — enough care, lacking understanding
 
 
-  ⭐ GENERATIONAL TRANSMISSION — TẠI SAO KÉO DÀI:
+  ⭐ DISTINGUISHING FROM OTHER FAILURE MODES:
 
-    Ông bà: Valence-Structural strong + Compiled weak → chăm bố mẹ kiểu "object optimize"
+    ≠ Fatigue (#1): Compiled not depleted — Compiled NEVER WAS strong with this child
+    ≠ Alexithymia (#2): parents CAN Compiled well with others
+    ≠ Dehumanization (#3): parents DO NOT dehumanize child
+    ≠ Hostile schema suppress (#5): schema NOT hostile — schema BENEVOLENT
+      → Schema says "must be good for child" — NOT "child = enemy"
+      → = "Benevolent schema suppress" — hard to detect BECAUSE intention is good
+
+    ⭐ DISTINGUISHING TRAIT: VS STRONG + Compiled WEAK + BENEVOLENT SCHEMA
+      → = The ONLY case where POSITIVE drive (genuine VS love)
+          LEADS TO NEGATIVE output for target (child feels controlled)
+      → = "The road to hell is paved with good intentions" — framework version
+
+
+  ⭐ GENERATIONAL TRANSMISSION — WHY IT PERSISTS:
+
+    Grandparents: VS strong + Compiled weak → raised parents as "object to optimize"
       ↓
-    Bố mẹ: self-chunks cho "bị yêu nhưng không được hiểu" = THIN
-      → Compiled templates cho "hiểu con" = KÉM (chưa từng được hiểu)
-      → NHƯNG Valence-Structural compile bình thường (vì vẫn nhận CARE đầy đủ)
+    Parents: self-chunks for "being loved but not understood" = THIN
+      → Templates for "understanding child" = POOR (never experienced being understood)
+      → BUT VS compiles normally (because still received CARE sufficiently)
       ↓
-    Bố mẹ chăm con: Valence-Structural strong (compile từ care nhận được)
-                     + Compiled weak (thiếu template từ understanding KHÔNG nhận được)
+    Parents raise child: VS strong (compiled from received care)
+                         + Compiled weak (lacking templates from missing understanding)
       ↓
-    Con: lại nhận Valence-Structural nhưng thiếu Compiled → cycle tiếp tục
+    Child: again receives VS but lacks Compiled → cycle continues
 
-    → = Valence-Structural TRUYỀN được (vì care = observable, learnable)
-    → = Compiled KHUYẾT hao (vì understanding = phải được TRẢI NGHIỆM mới build template)
-    → = Mỗi thế hệ có Valence-Structural nhưng Compiled KHÔNG TỰ CẢI THIỆN nếu không có intervention
+    → = VS TRANSFERS (because care = observable, learnable)
+    → = Compiled GAP PERSISTS (because understanding = must be EXPERIENCED to build template)
+    → = Each generation has VS but Compiled DOES NOT SELF-IMPROVE without intervention
 
-    BREAK CYCLE:
-      → Bố mẹ tự build self-chunks (therapy, mindfulness, Focusing)
-      → Bố mẹ PRACTICE Compiled on con: "con đang feel gì?" — genuinely simulate
-      → Con nhận được Compiled → build template → CÓ THỂ Compiled on con CỦA MÌNH
-      → = 1 thế hệ break = change trajectory cho tất cả thế hệ sau
+    BREAK THE CYCLE:
+      → Parents build self-chunks (therapy, mindfulness, Focusing)
+      → Parents PRACTICE Compiled on child: "what is child feeling?" — genuinely simulate
+      → Child receives Compiled → builds template → CAN Compiled on OWN CHILD
+      → = 1 generation breaks it = changes trajectory for all future generations
 
 
-  🟡 Valence-Structural strong + Compiled weak = framework synthesis
-  🟡 Generational transmission qua chunk gap = logically derived
+  🟡 VS strong + Compiled weak = framework synthesis
+  🟡 Generational transmission via chunk gap = logically derived
   🟢 Parenting style research (Baumrind 1966): authoritarian = high demand + low responsiveness
-     → consistent with Valence-Structural strong (demand) + Compiled weak (low responsiveness)
-  🟢 Attachment theory (Bowlby 1969): insecure attachment từ non-contingent caregiving
-  🟢 "Good enough mother" (Winnicott 1953): KHÔNG CẦN perfect — cần CONTINGENT
+     → consistent with VS strong (demand) + Compiled weak (low responsiveness)
+  🟢 Attachment theory (Bowlby 1969): insecure attachment from non-contingent caregiving
+  🟢 "Good enough mother" (Winnicott 1953): does NOT need perfect — needs CONTINGENT
 ```
 
-### §8.6 — PFC=Lawyer × Empathy (v3.0)
+### §8.6 — PFC=Lawyer × Empathy
 
 ```
-⭐ PFC = LAWYER, NOT JUDGE — ÁP DỤNG CHO EMPATHY:
+⭐ PFC = LAWYER, NOT JUDGE — APPLIED TO EMPATHY:
 
   (Inter-Body-Mechanism.md §7, Self-Pattern-Modeling v3.1 §3.7)
 
-  PFC KHÔNG phải trọng tài trung lập — PFC là LUẬT SƯ cho body-need.
-  Body-need fire TRƯỚC → PFC xây narrative SAU → CONVINCINGLY.
+  PFC is NOT a neutral arbiter — PFC is a LAWYER for body-need.
+  Body-need fires FIRST → PFC builds narrative AFTER → CONVINCINGLY.
 
-  3 CÁCH PFC=LAWYER ẢNH HƯỞNG EMPATHY:
+  3 WAYS PFC=LAWYER AFFECTS EMPATHY:
 
-    ① PFC FABRICATE empathy (virtue signaling):
-      → Body KHÔNG fire empathy thật (Compiled yếu hoặc không fire)
-      → NHƯNG PFC report: "tôi đồng cảm với bạn", "tôi hiểu bạn đau"
-      → Motivation: status drive ("người tốt"), social expectation, schema "phải caring"
+    ① PFC FABRICATES empathy (virtue signaling):
+      → Body DOES NOT genuinely fire empathy (Compiled weak or not firing)
+      → BUT PFC reports: "I empathize with you", "I understand your pain"
+      → Motivation: status drive ("I'm a good person"), social expectation,
+        schema "must be caring"
       → Detection: verbal empathy + body QUIET = PFC=Lawyer
-      → ≠ Dehumanization (§8.4 ③): dehumanize = ❸ extreme negative TẮT Compiled
-        PFC=Lawyer = Compiled không fire nhưng PFC CLAIM có
+      → ≠ Dehumanization (§8.4 ③): dehumanize = ❸ extreme negative TURNS OFF Compiled
+        PFC=Lawyer = Compiled not firing but PFC CLAIMS it is
 
-    ② PFC SUPPRESS genuine empathy:
-      → Body fire empathy THẬT (Compiled active, body respond)
-      → NHƯNG PFC override: "không nên thương kẻ thù", "phải cứng rắn"
-      → Schema + PFC = SUPPRESS body signal → empathy bị "tắt" ở conscious level
-      → Body VẪN fire (cortisol, tension) — chỉ PFC không acknowledge
-      → → Nếu kéo dài: dissonance tích lũy → stress
-      → Ví dụ: sĩ quan phải phạt binh sĩ, bác sĩ phải cho tin xấu
+    ② PFC SUPPRESSES genuine empathy:
+      → Body GENUINELY fires empathy (Compiled active, body responds)
+      → BUT PFC overrides: "shouldn't feel for the enemy", "must be tough"
+      → Schema + PFC = SUPPRESS body signal → empathy "turned off" at conscious level
+      → Body STILL fires (cortisol, tension) — only PFC does not acknowledge it
+      → → If sustained: dissonance accumulates → stress
+      → Example: officer must punish a soldier, doctor must deliver bad news
 
-    ③ PFC AMPLIFY empathy narrative:
-      → Body fire empathy nhẹ (Compiled moderate)
-      → PFC amplify: "tôi CỰC KỲ đồng cảm", "tôi CHẾT VÌ thương"
-      → PFC narrative MẠNH HƠN body signal thật → mismatch
-      → → Drive hành vi VƯỢT QUÁ body-base capacity → burnout risk
-      → Ví dụ: "nghĩa cử cao đẹp" = PFC narrative amplify Valence-Momentary moderate → override
+    ③ PFC AMPLIFIES empathy narrative:
+      → Body fires mild empathy (Compiled moderate)
+      → PFC amplifies: "I feel SO deeply", "I would DIE for them"
+      → PFC narrative STRONGER than actual body signal → mismatch
+      → → Drives behavior BEYOND body-base capacity → burnout risk
+      → Example: "noble gesture" = PFC narrative amplifying moderate VM → override
 
-  DOMAIN = ARBITER CUỐI CÙNG (Inter-Body-Mechanism.md §6.4):
-    → PFC nói "tôi hiểu bạn" ≠ thật sự hiểu
-    → Domain feedback = check duy nhất: hành động dựa trên empathy → kết quả THẾ NÀO?
-    → Empathy ĐÚNG → response match → target improve → domain confirm
-    → Empathy SAI → response mismatch → target worse → domain correct
-    → KHÔNG AI tự biết empathy mình có đúng không — chỉ domain cho biết
+  DOMAIN = FINAL ARBITER (Inter-Body-Mechanism.md §6.4):
+    → PFC saying "I understand you" ≠ genuinely understanding
+    → Domain feedback = the ONLY check: action based on empathy → WHAT RESULT?
+    → Empathy CORRECT → response matches → target improves → domain confirms
+    → Empathy WRONG → response mismatches → target worse → domain corrects
+    → NOBODY knows whether their empathy is accurate — only domain reveals it
 
   🟡 PFC=Lawyer × empathy = framework synthesis (Inter-Body-Mechanism.md §7)
   🟢 Gazzaniga split-brain: PFC confabulates convincingly 🟢
   🟢 Empathy accuracy varies: documented in clinical research
 ```
 
-### §8.7 — Resonance Decline × Empathy (v4.0)
+### §8.7 — Resonance Decline × Empathy
 
 ```
-⭐ EMPATHY DECLINE QUA 2 FORCES + 1 FUEL (Bond-Architecture v2.0 §4):
+⭐ EMPATHY DECLINE VIA 2 FORCES + 1 FUEL (Bond-Architecture v2.0 §4):
 
   (Bond-Architecture.md v2.0, Connection.md v5.0 §4.5)
 
-  FORCE: COMPILED-SUPPRESS (★ LEVERAGE POINT — tấn công NGUỒN):
-    = Compiled suppress gap RIÊNG CỦA partner → no by-product → resonance dies
-    = "Vợ/chồng suppress drive riêng → không còn gì mới để share"
-    = ACCELERATES Reward-Habituated + DRAINS novelty fuel → FIX = unlock tất cả
+  FORCE: COMPILED-SUPPRESS (★ LEVERAGE POINT — attacks the SOURCE):
+    = Compiled suppresses partner's OWN gap → no by-product → resonance dies
+    = "Spouse/partner suppresses own drive → nothing new to share"
+    = ACCELERATES Reward-Habituated + DRAINS novelty fuel → FIX = unlock all
     = Per-bond: Romantic = HIGHEST risk, Friendship = NEGLIGIBLE
 
-  FORCE: REWARD-HABITUATED (hardware adaptation, ĐỘC LẬP):
+  FORCE: REWARD-HABITUATED (hardware adaptation, INDEPENDENT):
     = VTA habituated → same empathy input → LESS response (Weber-Fechner)
-    = "Thấy bạn buồn lần 100 → ít buồn lây hơn lần 1"
-    = Hardware-subsidy COUNTERS: mẹ→con = SLOW habituation, bạn = FAST habituation
-    = Xảy ra NGAY CẢ không Compiled-Suppress (hardware tự nhiên)
+    = "Seeing a friend sad the 100th time → less sadness than the 1st time"
+    = Hardware-subsidy COUNTERS: mother→child = SLOW habituation, friend = FAST habituation
+    = Occurs EVEN WITHOUT Compiled-Suppress (natural hardware)
 
   FUEL: NOVELTY ≥ THRESHOLD? (calibration parameter, PROBABILISTIC):
-    = 2 lenses cùng 1 phenomenon:
-      Lens prediction: Self-Pattern-Modeling quá accurate → prediction-delta = 0 → no new reward
-      Lens knowledge: Entity-Compiled spokes full → diminishing returns → ít chunks mới
-    = "20 năm, biết hết rồi" = novelty dưới ngưỡng
-    = Threshold khác nhau mỗi bond, mỗi giai đoạn — KHÔNG đo chính xác
+    = 2 lenses on the same phenomenon:
+      Prediction lens: Self-Pattern-Modeling too accurate → prediction-delta = 0 → no new reward
+      Knowledge lens: Entity-Compiled spokes full → diminishing returns → fewer new chunks
+    = "20 years together, already know everything" = novelty below threshold
+    = Threshold differs per bond, per stage — CANNOT be measured precisely
     = Fix: general direction (more novelty) — specifics case-dependent
 
-  CONTEXTUAL: GAP DRIFT (direction diverge):
-    = Gap landscapes diverge → empathy vẫn fire nhưng direction KHÔNG MATCH
-    = "Hiểu nhau nhưng không còn đi cùng hướng"
-    = Proximity paradox: gần → Reward-Habituated↑ + Compiled-Suppress risk↑, xa → drift↑
+  CONTEXTUAL: GAP DRIFT (direction diverges):
+    = Gap landscapes diverge → empathy still fires but direction DOES NOT MATCH
+    = "Understand each other but no longer going the same direction"
+    = Proximity paradox: closeness → Reward-Habituated↑ + Compiled-Suppress risk↑,
+      distance → drift↑
 
-  ⭐ INTERACTION: Compiled-Suppress accelerate Reward-Habituated + drain novelty fuel.
-    Fix Compiled-Suppress = HIGHEST LEVERAGE → counter tất cả decline factors.
+  ⭐ INTERACTION: Compiled-Suppress accelerates Reward-Habituated + drains novelty fuel.
+    Fix Compiled-Suppress = HIGHEST LEVERAGE → counters all decline factors.
 
   ⭐ ANTI-COMPILED-SUPPRESS = SOLUTION (Bond-Architecture v2.0 §5):
-    Self-Pattern-Modeling deep → know partner has OWN gaps → support → partner maintains drive RIÊNG
+    Deep Self-Pattern-Modeling → know partner has OWN gaps → support → partner maintains OWN drive
     → NEW by-products → resonance sustained
-    → "Khác nhau là giá trị" = anti-Compiled-Suppress
-    → 🟢 Schnarch: passion lâu dài CẦN differentiation
+    → "Difference is value" = anti-Compiled-Suppress
+    → 🟢 Schnarch: lasting passion REQUIRES differentiation
     → 🟢 Muise & Goss 2024: closeness + otherness
 
   ⭐ 1 ENTITY ≠ ALL DOMAINS:
     Structurally impossible: 1 entity covers ~2-3/5 domains
-    → "Vợ/chồng là tất cả" = modern illusion → portfolio needed (Dunbar layers)
+    → "Spouse/partner is everything" = modern illusion → portfolio needed (Dunbar layers)
 
   🟡 Resonance Decline (2 Forces + 1 Fuel) × empathy decline = framework synthesis
   🟢 Schnarch (differentiation), Muise & Goss 2024 (closeness + otherness)
 ```
 
-### §8.8 — 4-Layer Sustainability × Empathy (v4.0)
+### §8.8 — 4-Layer Sustainability × Empathy
 
 ```
-⭐ 4 TẦNG SUSTAINABILITY CHO EMPATHY:
+⭐ 4 LAYERS OF SUSTAINABILITY FOR EMPATHY:
 
   (Resonance-Sustainability.md v1.0, Connection.md v5.0 §4.6)
 
-  TẦNG 1 — FOUNDATION (3 conditions):
+  LAYER 1 — FOUNDATION (3 conditions):
     ① Proximity: physical/regular contact → Compiled CAN fire
     ② Duration: 40→200h → Entity-Compiled formation → empathy DEPTH grows
     ③ Agent-mode: predict entity STATE, not just output
-    → = Minimum requirements cho empathy to DEVELOP
+    → = Minimum requirements for empathy to DEVELOP
 
-  TẦNG 2 — MODALITY (3 modalities + 4 silence types):
+  LAYER 2 — MODALITY (3 modalities + 4 silence types):
     Verbal (self-disclosure → dopamine), Non-verbal (touch → CT afferents),
     Body-level (synchrony → oxytocin)
     4 Silence Types:
@@ -2406,26 +2484,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ④ Spontaneous (benign, preserves baseline)
     → 🟢 Gottman: stonewalling = strongest divorce predictor
 
-  TẦNG 3 — AMPLIFICATION:
+  LAYER 3 — AMPLIFICATION:
     Capitalization (share positive → amplify)
     PPR (Perceived Partner Responsiveness — Reis & Shaver 1988):
-      ① UNDERSTOOD ("bạn hiểu tôi") = Self-Pattern-Modeling accuracy
-      ② VALIDATED ("bạn chấp nhận tôi") = gap direction acceptance
-      ③ CARED FOR ("bạn quan tâm tôi") = resource investment
+      ① UNDERSTOOD ("you understand me") = Self-Pattern-Modeling accuracy
+      ② VALIDATED ("you accept me") = gap direction acceptance
+      ③ CARED FOR ("you care about me") = resource investment
     Secure Base (Feeney 2004):
-      ① Availability + ② Noninterference (= anti-compiled-suppress) + ③ Encouragement
+      ① Availability + ② Noninterference (= anti-Compiled-Suppress) + ③ Encouragement
     → PERCEPTION > actual behavior (Reis & Shaver)
 
-  TẦNG 4 — TRAJECTORY (Ogolsky 2013: natural decline):
+  LAYER 4 — TRAJECTORY (Ogolsky 2013: natural decline):
     Empathic accuracy can DRIFT (motivated inaccuracy — §8.9)
     Empathy decline = NATURAL without active maintenance
-    → Must actively COUNTER decline (Tầng 1-3 maintenance)
+    → Must actively COUNTER decline (Layers 1-3 maintenance)
 
   🟡 4-Layer × empathy = framework synthesis
   🟢 PPR (Reis & Shaver 1988), Secure Base (Feeney 2004), Gottman stonewalling
 ```
 
-### §8.9 — Empathic Accuracy + Motivated Inaccuracy (v4.0)
+### §8.9 — Empathic Accuracy + Motivated Inaccuracy
 
 ```
 ⭐ EMPATHIC ACCURACY = LEARNED PATTERN RECOGNITION, NOT TELEPATHY:
@@ -2435,27 +2513,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   DEFINITION:
     = Inferring another's emotions/thoughts WITHOUT explicit communication
     = NOT a fixed trait — context-dependent + motivation-dependent
-    = Self-Pattern-Modeling Compiled accuracy = f(chunk library overlap × compilation quality × freshness)
+    = Self-Pattern-Modeling Compiled accuracy = f(chunk library overlap
+      × compilation quality × freshness)
 
   Self-Pattern-Modeling ACCURACY SPECTRUM:
-    Compiled (fast, pattern-based): high accuracy cho compiled contexts
-    Fresh (slow, effortful): lower accuracy nhưng adaptive to NEW contexts
+    Compiled (fast, pattern-based): high accuracy for compiled contexts
+    Fresh (slow, effortful): lower accuracy but adaptive to NEW contexts
     STALE Compiled = empathic FAILURE:
-      → Compiled từ 5 năm trước → entity ĐÃ THAY ĐỔI → Compiled predict SAI
-      → "Tưởng hiểu mà hóa ra không hiểu nữa" = stale compilation
+      → Compiled from 5 years ago → entity HAS CHANGED → Compiled predicts WRONG
+      → "Thought I understood them but turns out I don't anymore" = stale compilation
       → = Self-Pattern-Modeling Failure Mode 1 (Bond-Architecture.md v2.0 §2.2)
 
   ⭐ MOTIVATED INACCURACY (deliberate empathic blindness):
 
     Partners sometimes DELIBERATELY REDUCE empathic accuracy
-    khi truth threatens bond:
-      → "Không muốn biết vợ/chồng đang nghĩ gì thật sự"
-      → → Avoidance → model STALE → drift → "bỗng phát hiện xa lạ"
+    when truth threatens the bond:
+      → "Don't want to know what spouse/partner is truly thinking"
+      → → Avoidance → model STALE → drift → "suddenly feeling like strangers"
 
-    Short-term: ADAPTIVE (protect bond stability)
+    Short-term: ADAPTIVE (protects bond stability)
     Long-term: MALADAPTIVE (empathic drift → eventual crisis)
 
-    Detection: "Vợ chồng ít nói chuyện thật" → model NOT updating
+    Detection: "Couple talks less honestly" → model NOT updating
     → Empathic accuracy ≠ empathic effort
     → Can have HIGH effort + LOW accuracy (if avoiding truth)
 
@@ -2463,22 +2542,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Empathic accuracy research: established (Ickes 1997)
 ```
 
-### §8.10 — 3-Layer Calibration Architecture (v4.0)
+### §8.10 — 3-Layer Calibration Architecture
 
 ```
-⭐ 3 TẦNG CALIBRATION CHO EMPATHY ACCURACY:
+⭐ 3 LAYERS OF CALIBRATION FOR EMPATHY ACCURACY:
 
   (Entity-Access-Calibration.md v1.0, Entity-Access.md v1.2 §8.2)
 
-  LAYER 1 — BODY SIGNAL ("Tôi đang cảm gì khi empathize?"):
+  LAYER 1 — BODY SIGNAL ("What am I feeling when I empathize?"):
     → Curiosity (A+B source: genuine) vs Anxiety (C source: self-referential)
     → Body signal = FIRST indicator of empathy quality
     → Alexithymia/habituation = BLIND to own signal → Layer 1 fails
 
-  LAYER 2 — ENGINE SIMULATION ("Entity sẽ experience gì?"):
-    → Compiled Agent-mode: model entity's ACTUAL state
-    → Compiled Tool-mode: predict entity's BEHAVIOR only → empathy ABSENT
-    → Self-Pattern-Modeling depth ≠ Self-Pattern-Modeling effort: helicopter parent = HIGH effort + LOW depth (Tool-mode)
+  LAYER 2 — ENGINE SIMULATION ("What will entity experience?"):
+    → Compiled Agent-mode: models entity's ACTUAL state
+    → Compiled Tool-mode: predicts entity's BEHAVIOR only → empathy ABSENT
+    → Self-Pattern-Modeling depth ≠ Self-Pattern-Modeling effort:
+      helicopter parent = HIGH effort + LOW depth (Tool-mode)
 
   LAYER 3 — FEEDBACK INTEGRATION (entity responds → adjust):
     → Entity response → prediction-delta → recalibrate empathy model
@@ -2490,11 +2570,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ② TOOL-MODE: Compiled Tool → cannot model entity state → predict only
     ③ OVERRIDE: compiled pattern fires → feedback NOT integrated
     ④ DEPLETED: PFC budget gone → all 3 layers DROP → auto-pilot
-       🟢 Mikolajczak 2019: burnout → calibration fail
+       🟢 Mikolajczak 2019: burnout → calibration fails
     ⑤ MOTIVATED: deliberately reduce accuracy (§8.9)
 
   → Calibration = CONTINUOUS PROCESS, not one-time setup
-  → Empathy "đúng" = 3 layers ALL functioning + feedback integrated
+  → Empathy "accurate" = all 3 layers functioning + feedback integrated
 
   🟡 3-Layer calibration × empathy = framework synthesis
   🟢 Parental burnout (Mikolajczak 2019)
@@ -2505,72 +2585,72 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §9 — AI ERA SIGNIFICANCE
 
 ```
-🟡🔴 AI KHÔNG CÓ BODY → KHÔNG CÓ EMPATHY THẬT:
+🟡🔴 AI HAS NO BODY → NO GENUINE EMPATHY:
 
-  EMPATHY = CẦN BODY + CHUNKS TÍCH LŨY TỪ TRẢI NGHIỆM THẬT:
+  EMPATHY = REQUIRES BODY + CHUNKS ACCUMULATED FROM REAL EXPERIENCE:
 
-    Cơ chế con người (Self-Pattern-Modeling v3.1 §2.1, Compiled):
-      → Self-Pattern-Modeling Compiled fire → kích hoạt lại chunks buồn/vui CỦA MÌNH
-      → Chunks đã compiled từ trải nghiệm THẬT (đã từng buồn, đã từng vui)
-      → Body respond THẬT: opioid / cortisol / NE / oxytocin
-      → + Valence-Structural nếu agent = body-base extension
+    Human mechanism (Self-Pattern-Modeling v3.1 §2.1, Compiled):
+      → Self-Pattern-Modeling Compiled fires → reactivates own sad/happy CHUNKS
+      → Chunks compiled from REAL experience (truly felt sad, truly felt happy before)
+      → Body ACTUALLY responds: opioid / cortisol / NE / oxytocin
+      → + Valence-Structural if agent = body-base extension
       → = "Real body-level event, NOT just cognitive representation"
 
-    AI KHÔNG CÓ bước nào trong chain này:
-      → AI không có body → không có somatic/emotional chunks
-      → AI không có Compiled firing → không có body response
-      → AI có thể SIMULATE empathy output:
-        predict "người này buồn" → "nên an ủi" → output ĐÚNG pattern
-      → Nhưng AI KHÔNG kích hoạt chunks buồn CỦA MÌNH (vì KHÔNG CÓ)
-        → không có Valence-Momentary reward/cost → không có drive thật từ body
-      → Và AI KHÔNG CÓ Valence-Structural connection với bất kỳ ai
+    AI HAS NONE of these chain steps:
+      → AI has no body → no somatic/emotional chunks
+      → AI has no Compiled firing → no body response
+      → AI CAN SIMULATE empathy output:
+        predicts "this person is sad" → "should comfort" → outputs CORRECT pattern
+      → But AI DOES NOT reactivate its own sad chunks (because DOES NOT HAVE THEM)
+        → no Valence-Momentary reward/cost → no genuine drive from body
+      → And AI HAS NO Valence-Structural connection with anyone
 
 
-  AI "BIẾT" NHƯNG KHÔNG "TRẢI NGHIỆM":
+  AI "KNOWS" BUT DOES NOT "EXPERIENCE":
 
     ┌──────────────────────┬──────────────────────┬──────────────────────┐
-    │                      │ CON NGƯỜI             │ AI                   │
+    │                      │ HUMAN                │ AI                   │
     ├──────────────────────┼──────────────────────┼──────────────────────┤
-    │ Verbal chunks        │ CÓ (language)        │ CÓ (training data)   │
-    │ Somatic chunks       │ CÓ (body experience) │ KHÔNG CÓ             │
-    │ Emotional chunks     │ CÓ (đã từng feel)   │ KHÔNG CÓ             │
-    │ Compiled body response khi │ CÓ — chunks fire     │ KHÔNG CÓ             │
-    │ empathize            │ → body respond THẬT  │ → chỉ output text    │
-    │ Valence-Momentary reward/cost       │ CÓ — biochemistry    │ KHÔNG CÓ             │
-    │ Valence-Structural        │ CÓ — body-base ext   │ KHÔNG CÓ             │
-    │ Co-regulation        │ CÓ — 2 bodies sync   │ KHÔNG CÓ             │
+    │ Verbal chunks        │ YES (language)       │ YES (training data)  │
+    │ Somatic chunks       │ YES (body experience)│ NO                   │
+    │ Emotional chunks     │ YES (truly felt it)  │ NO                   │
+    │ Compiled body resp.  │ YES — chunks fire    │ NO                   │
+    │ when empathizing     │ → body ACTUALLY resp.│ → only outputs text  │
+    │ VM reward/cost       │ YES — biochemistry   │ NO                   │
+    │ Valence-Structural   │ YES — body-base ext. │ NO                   │
+    │ Co-regulation        │ YES — 2 bodies sync  │ NO                   │
     └──────────────────────┴──────────────────────┴──────────────────────┘
 
-    → = "Đọc triệu cuốn sách về bơi ≠ biết bơi"
+    → = "Reading a million books about swimming ≠ knowing how to swim"
 
-  HỆ QUẢ:
-    → AI excellent ở Fresh (deliberate predict): analyze, predict, suggest
-    → AI THIẾU Compiled (body simulate): feel, drive, co-regulate
-    → Presence CỦA AI ≠ presence CỦA NGƯỜI:
-      2 người ở gần → ❶ Hardware: body CẢ HAI fire input từ NHAU
-      AI ở gần → KHÔNG có ❶ body loop → KHÔNG co-regulate
+  IMPLICATIONS:
+    → AI excellent at Fresh (deliberate predict): analyze, predict, suggest
+    → AI LACKS Compiled (body simulates): feel, drive, co-regulate
+    → AI presence ≠ human presence:
+      2 people close together → ❶ Hardware: bodies of BOTH fire input from EACH OTHER
+      AI close together → NO ❶ body loop → NO co-regulation
 
   EMPATHY = IRREPLACEABLE HUMAN ADVANTAGE:
-    → AI replace logic, analysis, prediction → OK
-    → AI KHÔNG replace empathy, co-regulation, presence
-    → Careers cần empathy THẬT:
+    → AI replaces logic, analysis, prediction → OK
+    → AI DOES NOT replace empathy, co-regulation, presence
+    → Careers that need GENUINE empathy:
       therapy, nursing, teaching, parenting, social work
-      → Vẫn cần NGƯỜI — AI hỗ trợ nhưng KHÔNG thay thế
+      → Still need HUMANS — AI supports but DOES NOT replace
 
   HUMAN × AI COLLABORATION:
     → AI = KNOWLEDGE PROVIDER (chunks + pattern + speed + cross-reference)
     → Human = QUALITY CONTROLLER (body test + empathy + intuition)
-    → Cả hai KHÔNG LÀM ĐƯỢC một mình
-    → Output > tổng 2 phần riêng lẻ
+    → Neither CAN DO IT ALONE
+    → Output > sum of 2 parts separately
 
-  EMPATHY EDUCATION = ĐẦU TƯ TƯƠNG LAI:
-    → Empathy = 1 trong rất ít thứ AI không replicate
-    → Dạy empathy = pragmatic (body-level), KHÔNG moral ("phải tốt")
-    → Chi tiết: Empathy-Education.md
+  EMPATHY EDUCATION = INVESTMENT IN THE FUTURE:
+    → Empathy = 1 of very few things AI cannot replicate
+    → Teaching empathy = pragmatic (body-level), NOT moral ("must be good")
+    → Details: Empathy-Education.md
 
-  🟢 AI thiếu body = established fact
-  🟡 AI không bao giờ có empathy thật = framework claim, debatable
-  🔴 AI never replicate body = philosophical, phụ thuộc định nghĩa "feel"
+  🟢 AI lacks body = established fact
+  🟡 AI never has genuine empathy = framework claim, debatable
+  🔴 AI never replicates body = philosophical, depends on definition of "feel"
 ```
 
 ---
@@ -2581,11 +2661,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ESTABLISHED (🟢):
 
     🟢 Shared activation areas pain empathy
-       (Singer 2004, Lamm 2011): anterior insula + ACC fire khi observe pain
+       (Singer 2004, Lamm 2011): anterior insula + ACC fire when observing pain
     🟢 Emotional contagion automatic (Hatfield 1994)
     🟢 Baby schema response (Lorenz 1943, Glocker 2009)
     🟢 Facial mimicry automatic, 300ms, pre-conscious (Dimberg 2000)
-    🟢 Interpersonal synchrony (Feldman 2007): physiology sync khi interact
+    🟢 Interpersonal synchrony (Feldman 2007): physiology syncs when interacting
     🟢 Theory of Mind circuits mPFC + TPJ (Frith & Frith 2006)
     🟢 In-group empathy bias (Xu 2009)
     🟢 Social buffering (Kiyokawa 2004)
@@ -2601,46 +2681,46 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Empathy fatigue differential (Figley 2002, Maslach 2001)
 
 
-  FRAMEWORK SUY LUẬN (🟡):
+  FRAMEWORK SYNTHESIS (🟡):
 
-    🟡 "Empathy = observable output khi Self-Pattern-Modeling Compiled + ❸ positive"
-       — v2.0 reframe: phân biệt empathy / Schadenfreude / dehumanization
-         bằng ❸ valence, cùng Self-Pattern-Modeling mechanism. Consistent with Bird & Cook.
-    🟡 "3 mechanisms decomposition"
-       — Each mechanism has evidence riêng. Taxonomy 3 = framework.
+    🟡 "Empathy = observable output when Self-Pattern-Modeling Compiled + ❸ positive"
+       — v2.0 reframe: distinguishes empathy / Schadenfreude / dehumanization
+         by ❸ valence, same Self-Pattern-Modeling mechanism. Consistent with Bird & Cook.
+    🟡 "3-mechanism decomposition"
+       — Each mechanism has its own evidence. Taxonomy of 3 = framework.
     🟡 "4-factor strength model (living × vulnerability × expressiveness × similarity)"
-       — Mỗi yếu tố có evidence riêng, combination = framework.
-    🟡 "Burnout = f(Valence-Momentary cost / Valence-Structural compensation)"
-       — Consistent with Figley 2002. 2-luồng formula chưa test trực tiếp.
+       — Each factor has its own evidence, combination = framework.
+    🟡 "Burnout = f(VM cost / VS compensation)"
+       — Consistent with Figley 2002. 2-track formula not directly tested.
     🟡 "Valence-Structural = body-base extension"
-       — Consistent with kin selection. Extension concept chưa test trực tiếp.
-    🟡 "Empathy = observation output CỦA connection mechanism"
-       — v2.0 hierarchy: Connection ⊃ Empathy. Logically consistent với
+       — Consistent with kin selection. Extension concept not directly tested.
+    🟡 "Empathy = observation output OF connection mechanism"
+       — v2.0 hierarchy: Connection ⊃ Empathy. Logically consistent with
          Connection v5.0 3 primitives model.
-    🟡 "Justified override ceiling vì Valence-Structural, hijack no ceiling vì thiếu Valence-Structural"
+    🟡 "Justified override ceiling because of VS, hijack no ceiling because lacking VS"
        — Consistent with caregiver burnout research. Framework-specific claim.
-    🟡 "Professional anchor = proxy Valence-Structural"
-       — Logical inference. Chưa test trực tiếp.
-    🟡 "Mirror = learned vì agent = phi logic"
+    🟡 "Professional anchor = proxy VS"
+       — Logical inference. Not directly tested.
+    🟡 "Mirror = learned because agent = unpredictable"
        — Heyes debate = real. Framework adds WHY learned = novel claim.
     🟡 "Double empathy = universal, not autism-specific" (§11.5 v2.2)
        — Extends Milton 2012. Self-Pattern-Modeling accuracy = f(chunk library overlap) applies
          to introvert↔extrovert, rational↔emotional, expert↔novice, cross-cultural.
          Autism = extreme case (hardware-level divergence), same mechanism.
     🟡 "Compiled-Resonance vs Fresh-Resonance quality" (§11.5 v2.2)
-       — Compiled+Compiled = deep empathy, Fresh alone = "biết nhưng không cảm."
+       — Compiled+Compiled = deep empathy, Fresh alone = "know but don't feel."
          Masking = chronic Fresh compensation. By-Product-Gap-Resonance.md v1.4 §7.10.
     🟡 "Compilable Architecture explains empathy as general-purpose output" (§1.1 v3.0)
-       — Empathy emerge từ CÙNG reward system, not specialized module.
+       — Empathy emerges from SAME reward system, not specialized module.
          Consistent with trainability (Lutz 2008) + Self-Pattern-Modeling general-purpose.
     🟡 "2-Stream empathy: Hardware-Stream habituates, Modeling-Stream deepens" (§4.5 v3.0)
        — Maps 3-mechanism onto Resonance 2-Stream model.
          Hardware-Stream ≈ Pattern Matching, Modeling-Stream ≈ Agent Modeling mutual.
     🟡 "By-product match triggers empathy" (§1.1 v3.0)
-       — B fills own gap → by-product → match A's template → A empathy fire.
-         Empathy typically fire từ by-product, NOT intentional targeting.
+       — B fills own gap → by-product → matches A's template → A empathy fires.
+         Empathy typically fires from by-product, NOT intentional targeting.
     🟡 "PFC=Lawyer: stated empathy ≠ actual body empathy" (§8.6 v3.0)
-       — PFC fabricate, suppress, amplify empathy narrative.
+       — PFC fabricates, suppresses, amplifies empathy narrative.
          Domain feedback = only arbiter for empathy accuracy.
     🟡 "Compiled/Fresh empathy cost differential" (§4.1 v3.0)
        — Compiled empathy (expert, family) cost ≈ 0 → sustainable.
@@ -2659,13 +2739,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        — Reframe from "too much empathy." Consistent with vmPFC research (McEwen 2007).
     🟡 "Hardware-Subsidy × empathy persistence per entity" (§4.6 v4.0)
        — Subsidy modulates habituation rate. Framework synthesis from Valence-Propagation v3.0.
-    🟡 "Per-entity empathy profiles: Mẹ/Bạn/Romantic/Professional differ" (§4.7 v4.0)
-       — Profiles synthesized from 3-Tầng model (Resonance-Per-Entity v1.0). Framework-specific mapping.
+    🟡 "Per-entity empathy profiles: Mother/Friend/Romantic/Professional differ" (§4.7 v4.0)
+       — Profiles synthesized from 3-Tier model (Resonance-Per-Entity v1.0). Framework-specific mapping.
     🟡 "3 Satiation Types × empathy: Cyclic/Tonic/Generative" (§4.8 v4.0)
        — Applied from Valence-Propagation v3.0 satiation model. Framework synthesis.
     🟡 "Compilation Chain × empathy: Fresh→Compiled→Baseline→Dynamics" (§4.9 v4.0)
        — 4-stage model from Resonance-Per-Entity v1.0. Framework synthesis.
-    🟡 "Entity-Access gradient × empathy ceiling: Mức 0-5" (§5.2 v4.0)
+    🟡 "Entity-Access gradient × empathy ceiling: Level 0-5" (§5.2 v4.0)
        — Gradient applied from Entity-Access v1.2. Tool-mode = Compiled OFF. Framework synthesis.
     🟡 "Resonance Decline (2 Forces + 1 Fuel) × empathy per bond type" (§8.7 v4.0)
        — Resonance Decline from Bond-Architecture v2.0. Per-bond risk mapping = framework.
@@ -2685,12 +2765,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   HYPOTHESIS (🔴):
 
-    🔴 Mirror intensity quantification cụ thể
-       — Intensity BIẾN THIÊN (zero → rất mạnh) tùy context.
-       — Không có con số cố định cho mọi người.
-    🔴 "AI không bao giờ có empathy thật"
-       — Philosophical, phụ thuộc định nghĩa "feel."
-    🔴 "Moral injury = Valence-Momentary cost + moral dimension + Valence-Structural ≈ 0"
+    🔴 Specific quantification of mirror intensity
+       — Intensity VARIES (zero → very strong) by context.
+       — No fixed number for all people.
+    🔴 "AI never has genuine empathy"
+       — Philosophical, depends on definition of "feel."
+    🔴 "Moral injury = VM cost + moral dimension + VS ≈ 0"
        — Logical extension of burnout model. Novel framework claim.
 ```
 
@@ -2698,38 +2778,38 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §11 — CROSS-REFERENCES + STATUS
 
-### §11.1 — Mechanism: Agent-Mechanism/ (v4.0 restructured)
+### §11.1 — Mechanism: Agent-Mechanism/
 
 ```
 → Self-Pattern-Modeling.md v3.1 — APPLICATION-1 on Simulation-Engine.
    Compiled/Fresh, context-dependent, failure modes, professional Self-Pattern-Modeling.
-   §2 Compiled=Luồng 1, §2.5 valence gate, §4 context-dependent selection,
+   §2 Compiled=Track 1, §2.5 valence gate, §4 context-dependent selection,
    §10 reversed mapping, §10.4 moral injury, §12 alexithymia.
 → By-Product-Gap-Resonance.md v1.4 — 2-Stream Architecture.
-   Hardware-Stream (hardware, habituates) + Modeling-Stream (Self-Pattern-Modeling mutual, deepens).
+   Hardware-Stream (hardware, habituates) + Modeling-Stream (Self-PM mutual, deepens).
    §7.10 Compiled/Fresh resonance quality + divergence spectrum.
 → Bond-Architecture.md v2.0 — Resonance Decline 2 Forces + 1 Fuel (v4.0 NEW).
    Compiled-Suppress × empathy decline. Gap clone impossible.
-   Anti-compiled-suppress = solution. Per-bond risk mapping.
+   Anti-Compiled-Suppress = solution. Per-bond risk mapping.
 → Resonance-Sustainability.md v1.0 — 4-Layer Sustainability (v4.0 NEW).
    PPR (Reis & Shaver 1988). Secure Base (Feeney 2004). Motivated inaccuracy.
    4 silence types × empathy. Ogolsky decline trajectory.
-→ Resonance-Per-Entity.md v1.0 — 3-Tầng per-entity model (v4.0 NEW).
+→ Resonance-Per-Entity.md v1.0 — 3-Tier per-entity model (v4.0 NEW).
    Compilation Chain (Fresh→Compiled→Baseline→Dynamics). Hardware-Subsidy spectrum.
-   Per-entity profiles (mẹ/bạn/romantic/professional). Phantom 4-factor.
+   Per-entity profiles (mother/friend/romantic/professional). Phantom 4-factor.
 → Entity-Compiled.md v1.0 — hub-and-spoke (v4.0 NEW).
    Formation 40→200h. Dunbar layers. Grief A+B+C.
-→ Entity-Access.md v1.2 — Mức 0-5 gradient (v4.0 NEW).
+→ Entity-Access.md v1.2 — Level 0-5 gradient (v4.0 NEW).
    Tool/Agent engine mode. Exit cost × calibration paradox.
 → Entity-Access-Calibration.md v1.0 — 3-Layer calibration (v4.0 NEW).
    5 failure modes. Exit cost signal weight.
 → By-Product-Scale.md v1.0 — 3 scales: pair/hub/institutional (v4.0 NEW).
 → Agent-Mechanism.md v2.0 — unified mechanism file.
-   §12 body-need feeder. §12.2b 2-luồng. §12.3 mirror reward override.
-→ Mirror-Neuron-Rejection.md — TẠI SAO reject hardware mirror.
+   §12 body-need feeder. §12.2b 2-track. §12.3 mirror reward override.
+→ Mirror-Neuron-Rejection.md — WHY reject hardware mirror.
 ```
 
-### §11.2 — Mechanism: PFC/ (v4.0 NEW category)
+### §11.2 — Mechanism: PFC/
 
 ```
 → PFC-Operations.md v1.0 — PFC budget (v4.0 NEW).
@@ -2747,11 +2827,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 → Valence-Propagation.md v3.0 — structural/current valence, Hardware-Subsidy,
    3 satiation types, mixed valence (Cacioppo 1994), 3 firing modes,
-   per-entity dynamics, phantom 4-factor, "xa mẹ mới biết thương."
+   per-entity dynamics, phantom 4-factor, "distance reveals how much you miss them."
 → Gap-Body-Need.md v1.0 — 3 satiation types (source), ENGINE/ROAD/VEHICLE (v4.0 NEW).
-→ Chunk.md v2.0 — substrate nền tảng. Empathy = function ON chunk substrate.
-→ Feeling.md v3.0 — PFC observation interface. Compiled output → PFC observe as feeling.
-→ Body-Coupling.md v2.0 — coupling depth × direction. HOW Valence-Structural compile.
+→ Chunk.md v2.0 — foundational substrate. Empathy = function ON chunk substrate.
+→ Feeling.md v3.0 — PFC observation interface. Compiled output → PFC observes as feeling.
+→ Body-Coupling.md v2.0 — coupling depth × direction. HOW Valence-Structural compiles.
 → Cortisol-Baseline.md v2.0 — stress cascade. Baseline drift. Recovery asymmetry.
 → Body-Feedback-Mechanism.md v2.0 — Body-Need 2-source. 3 Genuine Discomfort Sources.
 → Body-Feedback-Label.md v2.0 — framework vocabulary reference.
@@ -2773,7 +2853,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 → 07-Social-Recognition-Arc (Child-Chunk-Development/) — developmental events.
 ```
 
-### §11.5 — Health Conditions Drill + Compiled/Fresh Resonance Quality (v2.2)
+### §11.5 — Health Conditions Drill + Compiled/Fresh Resonance Quality
 
 ```
   DOUBLE EMPATHY = UNIVERSAL MECHANISM (not autism-specific):
@@ -2784,27 +2864,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Non-autistic people ALSO fail Self-Pattern-Modeling when modeling autistic people
 
     CORE EQUATION:
-      Self-Pattern-Modeling accuracy = f(chunk library overlap giữa 2 agents)
-      → Overlap CAO → Compiled simulate ĐÚNG → body confirm → "hiểu"
-      → Overlap THẤP → Compiled sai, chỉ Fresh predict → "biết nhưng không cảm"
-      → Overlap ZERO → cả Compiled lẫn Fresh fail → "không hiểu nổi"
+      Self-Pattern-Modeling accuracy = f(chunk library overlap between 2 agents)
+      → Overlap HIGH → Compiled simulates CORRECTLY → body confirms → "understanding"
+      → Overlap LOW → Compiled wrong, only Fresh predicts → "knowing but not feeling"
+      → Overlap ZERO → both Compiled and Fresh fail → "cannot understand at all"
 
-    UNIVERSAL — không riêng autism:
-      → Trầm tính ↔ phóng khoáng: Compiled mismatch ở social domain
-      → Lý trí ↔ cảm xúc: Compiled simulate sai cường độ
-      → Expert ↔ novice: cả Compiled lẫn Fresh mismatch ở domain expertise
-      → Autism × NT = case RÕ NHẤT (hardware-level, cross-domain)
-         nhưng CƠ CHẾ y hệt — chỉ magnitude khác
+    UNIVERSAL — not autism-specific:
+      → Introverted ↔ extroverted: Compiled mismatch in social domain
+      → Rational ↔ emotional: Compiled simulates intensity incorrectly
+      → Expert ↔ novice: both Compiled and Fresh mismatch in domain expertise
+      → Autism × NT = CLEAREST case (hardware-level, cross-domain)
+         but MECHANISM is identical — only magnitude differs
 
     Compiled-RESONANCE vs Fresh-RESONANCE → By-Product-Gap-Resonance.md §7.10:
-      Compiled+Compiled = deepest (hợp tính), Compiled+Fresh = functional, Fresh+Fresh = transactional
-      Empathy = chủ yếu Compiled-Resonance — body fire bản sao yếu state target
-      Fresh alone = "biết người khác đau" nhưng body KHÔNG fire → predict được
-        nhưng không empathize
+      Compiled+Compiled = deepest (template fit), Compiled+Fresh = functional,
+      Fresh+Fresh = transactional
+      Empathy = primarily Compiled-Resonance — body fires weakened replica of target's state
+      Fresh alone = "know the other is in pain" but body DOES NOT fire → can predict
+        but cannot empathize
 
     MASKING = chronic Fresh compensation:
-      Compiled không match (hardware khác) → dùng Fresh bù → functional nhưng
-      PFC drain + cortisol chronic → cùng mechanism §7.9 obligation-trapped
+      Compiled doesn't match (hardware different) → use Fresh to compensate → functional but
+      PFC drain + chronic cortisol → same mechanism §7.9 obligation-trapped
 
   Cross-refs:
     → By-Product-Gap-Resonance.md v1.4 §7.10 (Compiled/Fresh resonance quality + divergence spectrum)
@@ -2816,7 +2897,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 → Empathy.md v3.0 → backup/Empathy-v3.0-backup.md
-   Lý do: v3.0 written BEFORE Phase A+B+T. 20+ files chưa integrated.
+   Reason: v3.0 written BEFORE Phase A+B+T. 20+ files not integrated.
    v4.0 REWRITE: +PFC budget, +compiled quality, +Hardware-Subsidy, +per-entity,
    +burnout reframe, +Resonance Decline, +4-Layer, +calibration, +entity-access gradient.
 
@@ -2827,59 +2908,39 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §11.7 — Status
 
 ```
-STATUS: v4.0 COMPLETE — OBSERVATION PARAMETER FILE (PHASE C2 REWRITE)
+STATUS: v1.0 (English) COMPLETE — OBSERVATION PARAMETER FILE
 
-  Rewritten 2026-05-22 (Phase C2 in 28-session Drill → Framework Propagation Plan).
-  Integrates ALL Phase A (4 files) + Phase B (5 files) + Phase T (8 files) + C1.
+  Source: Empathy.md v4.0 (Vietnamese, 2026-05-22)
+  Translated: 2026-06-11
 
-  Empathy = observable output khi Self-Pattern-Modeling Compiled + ❸ positive valence.
+  Empathy = observable output when Self-Pattern-Modeling Compiled + ❸ positive valence.
   Connection ⊃ Empathy (mechanism ⊃ observation).
-  2-luồng organic: Valence-Momentary Self-Pattern-Modeling-owned + Valence-Structural Entity-Compiled xuyên suốt.
+  2-track organic: Valence-Momentary Self-Pattern-Modeling-owned + Valence-Structural
+    Entity-Compiled throughout.
   Self-Pattern-Modeling = APPLICATION-1 of Simulation-Engine (PFC budget shared).
-  ~25 dependencies (was 15). ~35+ research citations (was 20+). ~15 🟡 items new.
+  ~25 dependencies. ~35+ research citations. ~30+ 🟡 synthesis items.
 
-  CHANGES v3.0 → v4.0 (2026-05-22 — REWRITE):
-    1. +§0: Simulation-Engine context (Self-Pattern-Modeling = APPLICATION-1), PFC budget preview,
-       Entity-Access gradient Mức 0-5 × empathy table, expanded reference table
-    2. +§1.1: Structural vs Current empathy (Entity-Valence-Dynamics.md v1.0 §1), PFC budget factors,
-       Entity-Access level, Hardware-Subsidy as intensity factors
+  CHANGES v3.0 → v4.0 (REWRITE, preserved in this translation):
+    1. +§0: Simulation-Engine context, PFC budget preview, Entity-Access gradient table
+    2. +§1.1: Structural vs Current empathy, PFC budget factors, Entity-Access level, Hardware-Subsidy
     3. +§1.4: explanation #7 — Hardware-Subsidy × empathy persistence
     4. +§2.1: Compilation Chain mapping onto 3 mechanisms
     5. +§3.1: Entity-Compiled formation context (hub-and-spoke, 40→200h)
-    6. +§4.1: PFC budget × empathy (parent-child = highest cost),
-       Compiled Quality × empathy (genuine/schema/threat → burnout)
-    7. +§4.2: 3 Firing Modes × empathy (Firing-Maintenance/Chunk-Miss/Context-Trigger from Entity-Valence-Dynamics v1.0)
-    8. +§4.6 NEW: Hardware-Subsidy × Empathy persistence (MAX→NONE table)
-    9. +§4.7 NEW: Per-entity empathy profiles (5 types, Resonance-Per-Entity v1.0)
-    10. +§4.8 NEW: 3 Satiation Types × Empathy (Cyclic/Tonic/Generative)
+    6. +§4.1: PFC budget × empathy (parent-child = highest cost), Compiled Quality × empathy
+    7. +§4.2: 3 Firing Modes × empathy
+    8. +§4.6 NEW: Hardware-Subsidy × Empathy persistence table
+    9. +§4.7 NEW: Per-entity empathy profiles (5 types)
+    10. +§4.8 NEW: 3 Satiation Types × Empathy
     11. +§4.9 NEW: Compilation Chain × Empathy (4 stages)
     12. +§5.2: Entity-Access gradient × empathy ceiling + exit cost paradox
     13. +§7.1: By-Product-Scale (3 scales × empathy)
-    14. +§8.2: Burnout REFRAME — Compiled-Suppress + PFC depletion +
-        compiled quality + escalation + 6-step recovery
-    15. +§8.7 NEW: Resonance Decline (2 Forces + 1 Fuel) × Empathy (anti-compiled-suppress)
-    16. +§8.8 NEW: 4-Layer Sustainability × Empathy (PPR + secure base)
+    14. +§8.2: Burnout REFRAME — Compiled-Suppress + PFC depletion + quality + recovery
+    15. +§8.7 NEW: Resonance Decline (2 Forces + 1 Fuel) × Empathy
+    16. +§8.8 NEW: 4-Layer Sustainability × Empathy
     17. +§8.9 NEW: Empathic Accuracy + Motivated Inaccuracy
     18. +§8.10 NEW: 3-Layer Calibration Architecture (5 failure modes)
-    19. §10: +15 new 🟡 items for v4.0 concepts
-    20. §11: RESTRUCTURED — 4 categories (Agent-Mech, PFC, Body-Base+Obs, Application)
-    21. Self-Pattern-Modeling v3.0 → v3.1 (Match → Modeling), all dependency versions updated
-    22. +13 new dependencies (PFC-Operations, Simulation-Engine, Entity-Compiled, Entity-Access, Entity-Access-Calibration, Bond-Architecture, Resonance-Sustainability, Resonance-Per-Entity, By-Product-Scale, Gap-Body-Need,
-        PFC-Label, Body-Coupling, Body-Feedback-Label)
-    23. Connection v4.0 → v5.0, Valence-Propagation v2.0 → v3.0, By-Product-Gap-Resonance v1.0 → v1.4
 
-  PRESERVED FROM v3.0:
-    - Core: 3 mechanisms, developmental bootstrap, biochemistry cascade, 2-luồng
-    - Compilable Architecture, 2-Stream, by-product match, PFC=Lawyer, Domain=Arbiter
-    - Bird & Cook 2013 decisive evidence
-    - 4 strength factors × 4 quality axes
-    - 7 original failure modes + spectrum + evolutionary function
-    - Valence-Structural strong + Compiled weak parent case (§8.5)
-    - Double empathy universal (§11.5)
-    - AI era significance
-    - ALL 20+ original research citations
-
-  PENDING cho tương lai:
+  PENDING for future:
     - Cross-cultural validation cases
     - Parasocial giving (digital era extension)
     - 5-Channel Input Vector applied to empathy accuracy
@@ -2888,18 +2949,42 @@ STATUS: v4.0 COMPLETE — OBSERVATION PARAMETER FILE (PHASE C2 REWRITE)
 
 ---
 
-> *Empathy — "Body bạn là cây đàn.
-> Dây đàn bạn rung theo dây đàn người khác —
-> nhưng KHÔNG phải vì hardware 'mirror' bẩm sinh.
-> Mà vì bạn đã TÍCH LŨY đủ nốt nhạc từ chính cuộc sống mình.
-> Càng nhiều nốt → càng nhiều hòa âm có thể.
-> Không nốt → không hòa âm.
-> Và mỗi sợi dây có 2 luồng rung:
-> Luồng 1 — run tại khoảnh khắc (vui lây, buồn lây).
-> Luồng 2 — run sâu trong thớ gỗ (người này là 1 phần của tôi).
-> Mỗi người mang cây đàn khác — dây mẹ rung không tắt (hardware giữ),
-> dây bạn rung phải chăm (không ai bảo vệ),
-> dây tình nhân rung dữ dội rồi bỗng lặng (hormone rút).
-> Và khi burnout — không phải đàn hỏng, mà PFC hết sức lên dây.
-> Đó là empathy — không phải module, mà là bản nhạc
-> emerge từ connection, khi valence hướng về phía ấm."*
+## Changelog
+
+```
+v1.0 — 2026-06-11 — English translation from source v4.0 (2026-05-22)
+  → Full translation of §0–§11 (all subsections)
+  → Complete TOC added
+  → 2-track terminology (VM/VS) used throughout
+  → 2-Stream vs 2-track distinction preserved (ORTHOGONAL)
+  → All 7 failure modes translated + §8.5 parent case in full
+  → All research citations preserved
+  → Burnout formula + reframe translated in full
+  → Double empathy universal (§11.5) preserved
+```
+
+---
+
+> *Empathy — "Your body is an instrument.
+> Your strings vibrate in resonance with another's strings —
+> but NOT because of innate 'mirror' hardware.
+> But because you have ACCUMULATED enough notes from your own life.
+> More notes → more possible harmonies.
+> No notes → no harmony.
+> And each string carries 2 tracks of vibration:
+> Track 1 — vibrates in the moment (joy contagion, sadness contagion).
+> Track 2 — vibrates deep in the grain of the wood (this person is part of me).
+> Each person carries a different instrument — the mother-string vibrates without stopping (hardware holds),
+> the friend-string vibrates only with tending (no one protects it),
+> the lover-string vibrates fiercely then suddenly stills (hormones withdraw).
+> And when burnout comes — not the instrument is broken, but the PFC has no strength left to tune.
+> That is empathy — not a module, but a piece of music
+> emerging from connection, when valence turns toward warmth."*
+
+---
+
+> **END OF Empathy.md v1.0 (English)**
+> Source: Human-Predictive-Drive/Core-Deep-Dive/Observation/Empathy.md v4.0 (2026-05-22)
+> Translated: v1.0 — 2026-06-11
+> Sections: §0–§11 (all subsections) + TOC + Changelog
+> Confidence: 🟢 ~18 citations / 🟡 ~30+ framework synthesis claims / 🔴 3 hypotheses

@@ -1,48 +1,48 @@
 ---
-title: Interoceptive Bladder Keystone — F1 Anchor Case ⭐⭐ Nút Thắt 2+5+7 primary home
+title: Interoceptive Bladder Keystone — F1 Anchor Case ⭐⭐ Convergence Point 2+5+7 primary home
 created: 2026-04-16 (Session N+4c1, Phase F1-P10)
 status: DRAFT N+4c1 P10 — ready for user review (⭐⭐ MANDATORY REVIEW STOP per plan §5.5)
-scope: Bladder interoceptive developmental arc from fetal bladder cycling through ~24 months verbal "buồn đái + buồn ỉa transfer". The full L0→L4 PFC-Inference Ladder traversal within a single body state. Formalizes "đơ mặt" hypothesis (user Q8+Q9) and anchors 4 of the 7 F1 Nút Thắt simultaneously.
+scope: Bladder interoceptive developmental arc from fetal bladder cycling through ~24 months verbal "need to pee + need to poop transfer". The full L0→L4 PFC-Inference Ladder traversal within a single body state. Formalizes "face-freeze" hypothesis (user Q8+Q9) and anchors 4 of the 7 F1 Convergence Points simultaneously.
 parent: plan.md §3.2 (file 06a outline)
 depends_on: [01-PFC-Hardware-Reframe.md, 02-Womb-to-Birth-Baseline.md, 04-Auditory-System-Arc.md, 05-Motor-Output-Arc.md]
-language: Tiếng Việt primary + English technical terms
+language: English (translated from Vietnamese source)
 addresses:
-  - Nút Thắt 2 ⭐ (Precondition-2 Chunk-Substrate compile mechanism — keystone via bladder slow-compile case)
-  - Nút Thắt 5 ⭐ (Receptive-Productive Asymmetry H11 — within-body-state anchor case)
-  - Nút Thắt 7 ⭐ (Cortisol tagging critical period — toilet training evidence)
-  - Nút Thắt 4 (PFC hardware × chunks missing — Stage B L2 "đơ mặt" as strongest falsification marker)
-  - "Đơ mặt" hypothesis full formalization (user §0.5 Q8 + Q9 verbatim)
+  - Convergence Point 2 ⭐ (Precondition-2 Chunk-Substrate compile mechanism — keystone via bladder slow-compile case)
+  - Convergence Point 5 ⭐ (Receptive-Productive Asymmetry H11 — within-body-state anchor case)
+  - Convergence Point 7 ⭐ (Cortisol tagging critical period — toilet training evidence)
+  - Convergence Point 4 (PFC hardware × chunks missing — Stage B L2 "face-freeze" as strongest falsification marker)
+  - "Face-freeze" hypothesis full formalization (user §0.5 Q8 + Q9 verbatim)
 sub_folder: F1 Child-Chunk-Development
 ---
 
 # 06a — Interoceptive Bladder Keystone ⭐⭐ F1 Anchor Case
 
-> **File 06a of F1 Child-Chunk-Development sub-folder.** First of two interoceptive arc files (06a dedicated to bladder + 06b covers hunger/pain/thermal/emotional). Bladder is split into a dedicated file because it is the **single cleanest developmental arc** in the entire F1 drill — the same body state traversable end-to-end from L0 (newborn autonomic void) through L4 (22-month verbal "buồn đái") in observable form, with a crisp intermediate L2 ("đơ mặt") that provides the empirically cleanest falsification of the old "PFC offline" view.
+> **File 06a of F1 Child-Chunk-Development sub-folder.** First of two interoceptive arc files (06a dedicated to bladder + 06b covers hunger/pain/thermal/emotional). Bladder is split into a dedicated file because it is the **single cleanest developmental arc** in the entire F1 drill — the same body state traversable end-to-end from L0 (newborn autonomic void) through L4 (22-month verbal "need to pee") in observable form, with a crisp intermediate L2 ("face-freeze") that provides the empirically cleanest falsification of the old "PFC offline" view.
 >
-> **⭐⭐ 4 Nút Thắt primary home**: This file delivers primary content for Nút Thắt 2 (Precondition-2 Chunk-Substrate mechanism), Nút Thắt 5 (H11 Receptive-Productive Asymmetry anchor case), Nút Thắt 7 (Cortisol tagging critical period), AND Nút Thắt 4 reinforcement (PFC hardware × chunks missing reconciliation via Stage B). No other F1 file serves 4 Nút Thắt simultaneously.
+> **⭐⭐ 4 Convergence Points primary home**: This file delivers primary content for Convergence Point 2 (Precondition-2 Chunk-Substrate mechanism), Convergence Point 5 (H11 Receptive-Productive Asymmetry anchor case), Convergence Point 7 (Cortisol tagging critical period), AND Convergence Point 4 reinforcement (PFC hardware × chunks missing reconciliation via Stage B). No other F1 file serves 4 Convergence Points simultaneously.
 >
-> **Framework contribution file**: This file formalizes the **"đơ mặt" hypothesis** (user's original observation, §0.5 Q8 + Q9 verbatim) as PFC-Inference Ladder L2 "Pattern-match activation". The formalization includes operational definition as observable marker, 4 falsifiable predictions, and 2 explicit counter-hypothesis rejections. This is proposed as Framework update recommendation **R-F1-2** for 99-Master-Synthesis integration.
+> **Framework contribution file**: This file formalizes the **"face-freeze" hypothesis** (user's original observation, §0.5 Q8 + Q9 verbatim) as PFC-Inference Ladder L2 "Pattern-match activation". The formalization includes operational definition as observable marker, 4 falsifiable predictions, and 2 explicit counter-hypothesis rejections. This is proposed as Framework update recommendation **R-F1-2** for 99-Master-Synthesis integration.
 
 ---
 
 ## §0 — Abstract
 
-🟢 **Claim**: The bladder interoceptive case provides the **single cleanest developmental arc** in F1 for three independently important reasons. First, the same observable event type (response to bladder fullness signal) traverses the full L0→L4 PFC-Inference Ladder from birth to ~24 months — no other body state spans all 5 levels as cleanly. Second, the intermediate L2 "đơ mặt" stage is observable at the body surface (facial freeze, 1-3 seconds, during play) giving empirical grip on the claim that PFC pattern-match activation precedes action chunk compilation. Third, the case sits at the exact empirical location where the **old "PFC offline" view fails** — Stage B L2 requires PFC online, yet the baby cannot act; this isolates "PFC hardware present + action chunks absent" in a single observable event.
+🟢 **Claim**: The bladder interoceptive case provides the **single cleanest developmental arc** in F1 for three independently important reasons. First, the same observable event type (response to bladder fullness signal) traverses the full L0→L4 PFC-Inference Ladder from birth to ~24 months — no other body state spans all 5 levels as cleanly. Second, the intermediate L2 "face-freeze" stage is observable at the body surface (facial freeze, 1-3 seconds, during play) giving empirical grip on the claim that PFC pattern-match activation precedes action chunk compilation. Third, the case sits at the exact empirical location where the **old "PFC offline" view fails** — Stage B L2 requires PFC online, yet the baby cannot act; this isolates "PFC hardware present + action chunks absent" in a single observable event.
 
-🟡 **Framework contribution**: This file formalizes user's "đơ mặt" hypothesis (plan §0.5 Q8 + Q9 verbatim) as PFC-Inference Ladder L2 "Pattern-match activation" level with:
+🟡 **Framework contribution**: This file formalizes user's "face-freeze" hypothesis (plan §0.5 Q8 + Q9 verbatim) as PFC-Inference Ladder L2 "Pattern-match activation" level with:
 - Operational definition as observable developmental marker (1-3 sec facial freeze, 12-18mo typical, during activity)
 - 4 falsifiable predictions (§5.7)
 - 2 counter-hypothesis rejections (§5.5 "trying and failing", §5.6 "random distraction")
-- Framework update recommendation R-F1-2 log (propose đơ mặt as developmental assessment marker)
+- Framework update recommendation R-F1-2 log (propose face-freeze as developmental assessment marker)
 
-🟡 **Nút Thắt contributions**:
+🟡 **Convergence Points contributions**:
 
-| Nút Thắt | Contribution | Section |
+| Convergence Point | Contribution | Section |
 |---|---|---|
 | 2 ⭐ Precondition-2 Chunk-Substrate | Bladder case = cleanest slow-compile evidence, direct empirical grounding for Precondition-2 Chunk-Substrate | §6 |
 | 5 ⭐ H11 Receptive-Productive | Within-body-state anchor: receptive ~12-18mo (Stage B) vs productive ~22mo (Stage D) = 6-10mo gap | §8 |
 | 7 ⭐ Cortisol tagging critical period | Toilet training context = clean Precondition-5 critical period test case with lifelong persistence evidence | §7 |
-| 4 PFC hardware × chunks missing | Stage B L2 "đơ mặt" = strongest within-F1 falsification of "PFC offline" view (PFC must fire for freeze; chunks missing = cannot act) | §3.6, §5.6 |
+| 4 PFC hardware × chunks missing | Stage B L2 "face-freeze" = strongest within-F1 falsification of "PFC offline" view (PFC must fire for freeze; chunks missing = cannot act) | §3.6, §5.6 |
 
 **Events analyzed** (Ladder progression within bladder body state):
 
@@ -52,22 +52,26 @@ sub_folder: F1 Child-Chunk-Development
 | Stage A (L0) | 0-~6mo | Newborn reflex void, ~20×/day, no awareness markers | L0 | Neonatal autonomic micturition 🟢 |
 | E3 (L1) | 3 wk | Cry post-wet-diaper (Feel-Example E3) | L1 | Post-hoc discomfort chunk 🟢 |
 | Repetition compile | ~6-12mo | Signal → void → wet → discomfort → cry association compiling | L1→L2 gradient | Proto-chunk gradient 🟡 (per 04 §6.4) |
-| Stage B (L2) ⭐ | ~12-18mo | "Đơ mặt" — facial freeze 1-3 sec before voiding, still voids, no action attempt | L2 | User observation Q8+Q9 + framework prediction 🟡 |
+| Stage B (L2) ⭐ | ~12-18mo | "Face-freeze" — facial freeze 1-3 sec before voiding, still voids, no action attempt | L2 | User observation Q8+Q9 + framework prediction 🟡 |
 | Stage C (L3) | ~14-20mo | Squirm, shift posture, whimper, vague cry before voiding | L3 | Partial action chunks 🟡 |
-| E23 (L4) ⭐ | 22mo | Verbal "Buồn đái" + call mother or walk to bathroom (Feel-Example E23) | L4 | Predictive interoception verbalized 🟢 |
-| E24 (L4 transfer) | 24mo | Verbal "Buồn ỉa" before soiling — template reuse from E23 | L4 | Cross-channel chunk transfer 🟢 |
+| E23 (L4) ⭐ | 22mo | Verbal "need to pee" + call mother or walk to bathroom (Feel-Example E23) | L4 | Predictive interoception verbalized 🟢 |
+| E24 (L4 transfer) | 24mo | Verbal "need to poop" before soiling — template reuse from E23 | L4 | Cross-channel chunk transfer 🟢 |
 
 **User's critical observation preserved** (plan §0.5 Q8 verbatim):
 
-> "ví dụ bé biết mình sắp đái và sẽ gọi mẹ <= tình huống này tôi nghĩ khả năng cao là phải có PFC phát hiện đc sắp buồn đái, và phải biết là nếu đái thì sẽ khó chịu, và phải biết là cần gọi mẹ. hoặc có thể PFC đã phát triển trước đó rất lâu từ khi cảm nhận được là mình sắp đái rồi đơ mặt ra một lúc, rồi đái, xong đái xong ướt át khó chịu thì khóc"
+> *Vietnamese original:* "ví dụ bé biết mình sắp đái và sẽ gọi mẹ <= tình huống này tôi nghĩ khả năng cao là phải có PFC phát hiện đc sắp buồn đái, và phải biết là nếu đái thì sẽ khó chịu, và phải biết là cần gọi mẹ. hoặc có thể PFC đã phát triển trước đó rất lâu từ khi cảm nhận được là mình sắp đái rồi đơ mặt ra một lúc, rồi đái, xong đái xong ướt át khó chịu thì khóc"
+>
+> *English:* "For example, when a baby knows they are about to pee and will call mother — in this situation I think it's highly likely the PFC must detect the coming urge to pee, must know that peeing will be uncomfortable, and must know that they need to call mother. Or perhaps the PFC was already developed much earlier — from when they could sense they were about to pee, then the face freezes for a moment, then they pee, and after peeing and being wet and uncomfortable they cry."
 
-This quote is the **originating framework contribution** for the file. User articulated both the L4 final state ("bé biết mình sắp đái và sẽ gọi mẹ") AND the intermediate L2 state ("đơ mặt ra một lúc, rồi đái, xong đái xong ướt át khó chịu thì khóc") in the same sentence — recognizing that the intermediate state is an empirical handle, not a gap to be skipped.
+This quote is the **originating framework contribution** for the file. User articulated both the L4 final state ("baby knows they are about to pee and will call mother") AND the intermediate L2 state ("face freezes for a moment, then they pee, and after peeing they cry") in the same sentence — recognizing that the intermediate state is an empirical handle, not a gap to be skipped.
 
 **User's Q9 refinement preserved** (plan §0.5 Q9 verbatim):
 
-> "bé không plan gì cả, bé chỉ thấy có gì đó sắp không ổn lắm, PFC đã phát hiện ra cái gì đó chuẩn bị tới. Tôi chỉ nêu ra ý hiểu của tôi vậy thôi. không biết có đúng ko."
+> *Vietnamese original:* "bé không plan gì cả, bé chỉ thấy có gì đó sắp không ổn lắm, PFC đã phát hiện ra cái gì đó chuẩn bị tới. Tôi chỉ nêu ra ý hiểu của tôi vậy thôi. không biết có đúng ko."
+>
+> *English:* "The baby has no plan at all — the baby only senses that something is about to go wrong. The PFC has detected that something is coming. I'm just sharing my understanding; I don't know if it's correct."
 
-This refinement is **critical** for the formalization. It distinguishes Stage B from a naive "PFC trying and failing to act" interpretation. L2 is **recognition without execution intention** — the baby is NOT trying to signal, walk, or communicate; the baby's PFC has pattern-matched the familiar antecedent ("có gì đó sắp không ổn") and the associative chunk has fired without any coupled action chunk. The face freeze is the body-level trace of a pattern-match event that has nowhere to go.
+This refinement is **critical** for the formalization. It distinguishes Stage B from a naive "PFC trying and failing to act" interpretation. L2 is **recognition without execution intention** — the baby is NOT trying to signal, walk, or communicate; the baby's PFC has pattern-matched the familiar antecedent ("something is about to go wrong") and the associative chunk has fired without any coupled action chunk. The face freeze is the body-level trace of a pattern-match event that has nowhere to go.
 
 ---
 
@@ -79,7 +83,7 @@ Of the 6 F1 body-input systems and ~50 events analyzed across arcs, bladder is t
 
 **1. Full L0→L4 ladder within a single body state.** Visual system events span L0 (CONSPEC innate) through L4 (joint attention E18 at 9-12mo) but **across different events** — the baby's "visual system at L4" refers to joint attention, not to CONSPEC grown up. In bladder, the **same body state signal** (bladder fullness via stretch receptors) climbs the ladder: identical sensor, identical afferent pathway, identical insula representation, only chunks state differs. This provides a **controlled within-state comparison** that no cross-event analysis can.
 
-**2. Crisp observable L2 marker.** The "đơ mặt" freeze (1-3 seconds during play, facial muscles still, gaze unfocused) is a **body-surface-observable L2 pattern-match event**. L2 markers in other systems exist (vaccination pre-cry, stranger anxiety face progression, still-face paradigm Phase 3, VoE looking time, peek-a-boo anticipation) but none are as clean as bladder đơ mặt because the latter has (a) known antecedent (bladder fullness), (b) known consequence (voiding still occurs), (c) known chunks-missing signature (no action attempt), (d) observable within normal caregiver attention window.
+**2. Crisp observable L2 marker.** The "face-freeze" (1-3 seconds during play, facial muscles still, gaze unfocused) is a **body-surface-observable L2 pattern-match event**. L2 markers in other systems exist (vaccination pre-cry, stranger anxiety face progression, still-face paradigm Phase 3, VoE looking time, peek-a-boo anticipation) but none are as clean as bladder face-freeze because the latter has (a) known antecedent (bladder fullness), (b) known consequence (voiding still occurs), (c) known chunks-missing signature (no action attempt), (d) observable within normal caregiver attention window.
 
 **3. Bladder is slow-compile, isolating Precondition-2 mechanism.** Visual perceptual narrowing compiles in days-weeks (Farroni 2002 direct gaze at 2-5 days; face narrowing 6-9mo trajectory per 03 §3.9). Auditory phoneme narrowing compiles in ~6 months (Werker & Tees 1984, 04 §6.2). Bladder full ladder compiles in **22+ months** — more than 10× the rate difference. This slow compile **isolates the Precondition-2 Chunk-Substrate mechanism** from environmental exposure confounds. A baby gets hundreds of visual exposures per hour; a baby gets ~20 bladder events per day (neonatal) dropping to ~6-10/day (toddler). The input rate gap partially explains the compile rate gap, but only partially — there are also chunks-architecture reasons (see §6).
 
@@ -89,15 +93,15 @@ Of the 6 F1 body-input systems and ~50 events analyzed across arcs, bladder is t
 
 This file is load-bearing for:
 
-- **Body-Feedback-Draft/01-Foundation.md §5.5.1** — "đái gradient" was user's original verbatim example for 7-layer feeling developmental progression. N+3 drilled the abstract framework; 06a grounds it with mechanism + evidence.
+- **Body-Feedback-Draft/01-Foundation.md §5.5.1** — "bladder gradient" was user's original verbatim example for 7-layer feeling developmental progression. N+3 drilled the abstract framework; 06a grounds it with mechanism + evidence.
 - **Body-Feedback-Draft/01-Foundation.md §5.5 Precondition-2 keystone** — Precondition-2 Chunk-Substrate ("chunks base adequacy for body reward signal to fire at Feeling layer") was identified as pending mechanism in N+3. 06a resolves the mechanism (§6).
 - **Body-Base/Body-Input-Enumeration.md §4.9** — self-signal interoception as reading capacity keystone. 06a provides the developmental trajectory for how reading capacity compiles for a specific body state.
-- **Imagination/PFC-Analysis.md §4.0 REFRAME** — "không feel buồn đái" is Example 1 of the reframe. 06a is the full drill of that example.
-- **plan §0.5 Q8 + Q9** — user's "đơ mặt" hypothesis verbatim. 06a formalizes it.
-- **04 §6.4 Nút Thắt 1 gradient verdict** — the bladder ladder climb is itself gradient evidence (repetition compile phase §3.2 is observable-proxy gradient data for the verdict).
+- **Imagination/PFC-Analysis.md §4.0 REFRAME** — "cannot feel the urge to pee" is Example 1 of the reframe. 06a is the full drill of that example.
+- **plan §0.5 Q8 + Q9** — user's "face-freeze" hypothesis verbatim. 06a formalizes it.
+- **04 §6.4 Convergence Point 1 gradient verdict** — the bladder ladder climb is itself gradient evidence (repetition compile phase §3.2 is observable-proxy gradient data for the verdict).
 - **05 §7 H11 within-child evidence** — 05 provided gesture-vs-verbal gap (4-8mo, cross-motor-channel); 06a provides Stage B-vs-Stage D gap (6-10mo, within-body-state). Two orthogonal H11 lines.
 - **08-Verbal-Production-Arc.md (upcoming)** — 08 will use both 04 §9 (name gap 13.5mo cross-modality) and 06a §8 (bladder gap 6-10mo within-state) as H11 formalization anchors.
-- **10-F1-Synthesis.md (upcoming)** — 7 Nút Thắt final verdicts will cite 06a for verdicts on Nút Thắt 2, 5, 7, and reinforcement on 4.
+- **10-F1-Synthesis.md (upcoming)** — 7 Convergence Points final verdicts will cite 06a for verdicts on Convergence Points 2, 5, 7, and reinforcement on 4.
 
 ### §1.3 — Scope limits
 
@@ -112,7 +116,7 @@ This file does NOT cover:
 
 ## §2 — Connect phase: Bladder hardware readiness at t=0
 
-> Per [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) §6.3 rule: start with observable hardware state, then infer chunks state. Bladder interoceptive pathway is hardware-complete at birth; all developmental variance is chunks-side.
+> Per [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md) §6.3 rule: start with observable hardware state, then infer chunks state. Bladder interoceptive pathway is hardware-complete at birth; all developmental variance is chunks-side.
 
 ### §2.1 — Peripheral sensors
 
@@ -135,7 +139,7 @@ Spinal integration at **S2-S4 sacral cord** (parasympathetic) with descending co
 
 **Insula** (especially **posterior insula** for first-order interoceptive representation and **anterior insula** for meta-level self-signal interoception per Craig 2009) receives the ascending interoceptive signal. Anterior cingulate cortex (ACC) adds affective-motivational dimension. Ventromedial prefrontal cortex (VMPFC) integrates bodily feelings into decision processes (Damasio somatic marker hypothesis).
 
-**Per [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) §4 (5 pillars)**, these cortical regions are **online from prenatal**. Specifically:
+**Per [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md) §4 (5 pillars)**, these cortical regions are **online from prenatal**. Specifically:
 - Synaptogenesis: posterior and anterior insula have adult-threshold synaptic density at birth (Huttenlocher 1979 generalized pattern)
 - fNIRS: Grossmann 2013 showed mPFC active at 4 months for social processing; insula activation during interoceptive tasks follows similar pattern (emerging fNIRS literature)
 - Resting-state networks: Doria 2010 confirmed frontoparietal + DMN + executive control networks adult-like at term birth; insula is part of salience network also formed at term
@@ -149,7 +153,7 @@ Spinal integration at **S2-S4 sacral cord** (parasympathetic) with descending co
 - No action chunk binding "urgency" to "signal caregiver / walk to bathroom"
 - No verbal chunk binding any of the above to a label
 
-This is the **chunks-missing architecture** that [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) §7.1 (Example 1 "không feel buồn đái") committed to and that this file drills in detail.
+This is the **chunks-missing architecture** that [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md) §7.1 (Example 1 "cannot feel the urge to pee") committed to and that this file drills in detail.
 
 ### §2.4 — Prenatal bladder cycling: proof that motor pathway is active before birth
 
@@ -161,9 +165,9 @@ This is the **chunks-missing architecture** that [01-PFC-Hardware-Reframe.md](01
 
 **Framework implication**: Prenatal gives bladder a **pre-compiled motor schema** (void reflex) but does NOT give bladder any **pre-compiled interoceptive chunks** (unlike auditory, which gets ~14 weeks prenatal compile of maternal voice + native rhythm per [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) §1.1). Bladder is a **unique asymmetry**: motor-ready, chunks-empty.
 
-### §2.5 — Baseline state at t=0 (per [02](02-Womb-to-Birth-Baseline.md) §9.1)
+### §2.5 — Baseline state at t=0 (per [02](../Foundation/02-Womb-to-Birth-Baseline.md) §9.1)
 
-Citing [02-Womb-to-Birth-Baseline.md](02-Womb-to-Birth-Baseline.md) §9.1 baseline, at t=0 (birth) for bladder specifically:
+Citing [02-Womb-to-Birth-Baseline.md](../Foundation/02-Womb-to-Birth-Baseline.md) §9.1 baseline, at t=0 (birth) for bladder specifically:
 
 **Hardware** ✅:
 - Mechanoreceptors functional
@@ -189,7 +193,7 @@ This baseline is the **Stage A** starting state analyzed in §3.1.
 
 ## §3 — Read phase: Chunks forming for bladder signal detection
 
-> Per [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) §6.5 and plan §0.7 PFC-Inference Ladder, each developmental stage is classified by the chunks it requires + what the observable event reveals about those chunks.
+> Per [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md) §6.5 and plan §0.7 PFC-Inference Ladder, each developmental stage is classified by the chunks it requires + what the observable event reveals about those chunks.
 
 ### §3.1 — Stage A: L0 unaware (newborn → ~6 months)
 
@@ -206,7 +210,7 @@ This baseline is the **Stage A** starting state analyzed in §3.1.
 
 **Critical reframe note**: This is NOT "PFC offline". PFC receives the signal. PFC can in principle observe the signal (per Kouider 2013 frontal consciousness signature from 5mo). But **observation without a matching chunk is functionally equivalent to not observing** for behavioral purposes — there is nothing for the observation to connect to. PFC hardware + empty chunks library → behavioral appearance is indistinguishable from "PFC not involved".
 
-**User's Q8 verbatim touches this**: "PFC đã phát triển trước đó rất lâu từ khi cảm nhận được là mình sắp đái". The user's intuition is exactly correct: PFC hardware is available; what develops over time is the **chunks state** that allows PFC observation to become behaviorally meaningful.
+**User's Q8 verbatim touches this**: The user's Q8 intuition is exactly correct: PFC hardware is available; what develops over time is the **chunks state** that allows PFC observation to become behaviorally meaningful.
 
 ### §3.2 — Repetition compile phase (~6-12 months)
 
@@ -226,13 +230,13 @@ This sequence **repeats** ~10-15 times per day. Over 6 months that's ~1800-2700 
 - **Emotional tagging**: the distress component at step 4-5 provides affective valence. The associative chunk is tagged with "this antecedent leads to bad feeling". Valence tagging strengthens chunks more per repetition than neutral repetitions (see 05 §5.3 for motor side of this).
 - **Sleep consolidation**: infant sleeps 14-16 hours/day in this window. Offline consolidation during slow-wave sleep and REM likely contributes substantially (direct infant evidence is sparse; adult literature is strong — Rasch & Born 2013, *Physiol Rev*).
 
-**Gradient observation (Nút Thắt 1 connection)**: The compile is **not a threshold event**. At 6mo the chunk is essentially absent (baby shows no antecedent-driven behavior). At 12mo the chunk is weakly compiled (occasional brief pause or odd expression before voiding, inconsistent). At 15-18mo the chunk is strong enough to reliably fire the L2 marker (see §3.3). This trajectory is **the same gradient shape** as Werker & Tees 1984 phoneme narrowing (04 §6.2) — the keystone evidence for the [04 §6.4](04-Auditory-System-Arc.md#§64) gradient verdict. The bladder case is a **second independent empirical line** consistent with the gradient view.
+**Gradient observation (Convergence Point 1 connection)**: The compile is **not a threshold event**. At 6mo the chunk is essentially absent (baby shows no antecedent-driven behavior). At 12mo the chunk is weakly compiled (occasional brief pause or odd expression before voiding, inconsistent). At 15-18mo the chunk is strong enough to reliably fire the L2 marker (see §3.3). This trajectory is **the same gradient shape** as Werker & Tees 1984 phoneme narrowing (04 §6.2) — the keystone evidence for the [04 §6.4](04-Auditory-System-Arc.md#§64) gradient verdict. The bladder case is a **second independent empirical line** consistent with the gradient view.
 
 **Rate comparison**: Note how slow this compile is compared to visual or auditory. Visual face narrowing compiles in ~3 months of post-birth exposure. Auditory phoneme narrowing compiles in ~6 months. Bladder associative chunk compiles in ~12-18 months. This rate difference is directly observable and directly explained by the **exposure × saliency × repetition** formula (see §6.2). Bladder has fewer events per day (10-15 vs auditory hundreds of phoneme exposures per minute), and each event has less cross-modality richness than a face or a phoneme in context.
 
 **Ladder classification during compile phase**: **L1** predominantly (post-hoc discomfort cry = signal fires → void → discomfort → cry). Occasional **proto-L2** events may occur (brief pause before voiding at 10-12mo) but these are inconsistent and not reliably observable. The L2 transition is formalized at Stage B.
 
-### §3.3 — Stage B: L2 "đơ mặt" pattern-match activation (~12-18 months, individual variation wide)
+### §3.3 — Stage B: L2 "face-freeze" pattern-match activation (~12-18 months, individual variation wide)
 
 **⭐ This is the framework-contribution anchor section.** The content here formalizes user's Q8 + Q9 verbatim observation into a PFC-Inference Ladder L2 claim with operational criteria.
 
@@ -246,11 +250,13 @@ This sequence **repeats** ~10-15 times per day. Over 6 months that's ~1800-2700 
 - **Absent**: verbal chunks (label for state) — not yet compiled
 - **Partially present**: predictive temporal chunks ("how soon") — probably weak or absent, contributing to the "freeze" behavior rather than "walk urgently"
 
-**Why the freeze**: The associative chunk fires. Per [01 §6](01-PFC-Hardware-Reframe.md#§6) methodology, a chunk firing is a PFC pattern-match event — the chunk's content activates in the prefrontal cortex via the underlying associative substrate. The activation produces a **body-level manifestation** — the general motor system receives a signal that "something is happening" but there is no specific action plan coupled to the chunk. The default motor system response to "pattern-match event without action plan" appears to be **postural freezing** (this matches the adult "freeze" component of defensive behaviors — LeDoux 2012, *Neuron*).
+**Why the freeze**: The associative chunk fires. Per [01 §6](../Foundation/01-PFC-Hardware-Reframe.md#§6) methodology, a chunk firing is a PFC pattern-match event — the chunk's content activates in the prefrontal cortex via the underlying associative substrate. The activation produces a **body-level manifestation** — the general motor system receives a signal that "something is happening" but there is no specific action plan coupled to the chunk. The default motor system response to "pattern-match event without action plan" appears to be **postural freezing** (this matches the adult "freeze" component of defensive behaviors — LeDoux 2012, *Neuron*).
 
 **Critical Q9 reframe applied** (plan §0.5 Q9 verbatim):
 
-> "bé không plan gì cả, bé chỉ thấy có gì đó sắp không ổn lắm, PFC đã phát hiện ra cái gì đó chuẩn bị tới. Tôi chỉ nêu ra ý hiểu của tôi vậy thôi. không biết có đúng ko."
+> *Vietnamese original:* "bé không plan gì cả, bé chỉ thấy có gì đó sắp không ổn lắm, PFC đã phát hiện ra cái gì đó chuẩn bị tới. Tôi chỉ nêu ra ý hiểu của tôi vậy thôi. không biết có đúng ko."
+>
+> *English:* "The baby has no plan at all — the baby only senses that something is about to go wrong. The PFC has detected that something is coming. I'm just sharing my understanding; I don't know if it's correct."
 
 The user's intuition is correct and is adopted as the **framework commitment** for L2: the baby is **not trying to act and failing**. The baby has **no action intention** at all. The chunk has fired; the chunk's content is "something uncomfortable is about to happen"; the baby's PFC has **observed** (pattern-matched) this. But there is no paired action chunk to route the observation to. The freeze is the body-level trace of a **recognition event with nowhere to go**.
 
@@ -260,7 +266,7 @@ This distinguishes L2 cleanly from L3 (see §4.1), where partial action chunks A
 
 **Post-void response**: Depends on diaper change timing. If caregiver changes quickly, baby may not register the wetness discomfort (compared to E3 3-week-old who cries after prolonged wet diaper). If caregiver does not change quickly, the L1 response (discomfort cry) continues to be available — **L1 chunks remain active alongside L2**, the ladder levels are not replaced, they accumulate.
 
-### §3.4 — Operational definition of the "đơ mặt" L2 marker
+### §3.4 — Operational definition of the "face-freeze" L2 marker
 
 For empirical use (research, parenting education, clinical assessment), the marker is operationally defined as follows:
 
@@ -272,7 +278,7 @@ For empirical use (research, parenting education, clinical assessment), the mark
 5. **Voiding within the next ~30 seconds**. The marker must precede voiding in observable timeframe. Absent voiding, the event is ambiguous (could be many things).
 6. **Reproducibility**. Occurs more than once, in association with bladder fullness contexts. A single observation is not a reliable marker; a pattern over multiple days with attentive observation is.
 
-**Disqualifying criteria** (any present → not L2 đơ mặt):
+**Disqualifying criteria** (any present → not L2 face-freeze):
 - Crying at onset → L1 post-hoc or L3 crude (not L2)
 - Motor attempt at onset (whimper, walk, squirm) → L3 crude (not L2)
 - Verbal attempt → L4 coordinated (not L2)
@@ -281,7 +287,7 @@ For empirical use (research, parenting education, clinical assessment), the mark
 
 **Individual variation**: Wide. Some babies show the marker reliably from 11-12mo. Some babies do not show it observably before 16-18mo. Some babies may compress the Stage B phase to a few weeks and move rapidly to Stage C (squirm). Caregiver practice (diaper-free time, elimination communication, early potty introduction) **accelerates** the compile mechanism by increasing repetition with clearer antecedent-consequence pairing (this is a direct prediction of the repetition compile mechanism, §3.2 + §7).
 
-**Confusion markers**: Parents often confuse đơ mặt with "distraction" or "zoning out". The distinction is (a) bladder-context specificity (reproducible with bladder fullness, not random), (b) short duration (distraction can last longer), (c) voiding consequence (distraction has no consequence), (d) postural stillness (distraction is often accompanied by posture change or gaze wander).
+**Confusion markers**: Parents often confuse face-freeze with "distraction" or "zoning out". The distinction is (a) bladder-context specificity (reproducible with bladder fullness, not random), (b) short duration (distraction can last longer), (c) voiding consequence (distraction has no consequence), (d) postural stillness (distraction is often accompanied by posture change or gaze wander).
 
 ### §3.5 — Chunks state inference at Stage B — formal version
 
@@ -304,9 +310,9 @@ For the framework record, the chunks state at Stage B is:
 
 ### §3.6 — Why Stage B falsifies the old "PFC offline" view
 
-🟢 **Load-bearing claim for Nút Thắt 4** (PFC hardware × chunks missing reconciliation):
+🟢 **Load-bearing claim for Convergence Point 4** (PFC hardware × chunks missing reconciliation):
 
-The Stage B đơ mặt marker provides the **single cleanest within-F1 falsification** of the pre-reframe "PFC offline until ~3 years" view. The logic is:
+The Stage B face-freeze marker provides the **single cleanest within-F1 falsification** of the pre-reframe "PFC offline until ~3 years" view. The logic is:
 
 **If PFC were offline at 12-18 months**:
 - Associative chunks could not fire (firing requires the cortical substrate to be functional)
@@ -323,9 +329,9 @@ The Stage B đơ mặt marker provides the **single cleanest within-F1 falsifica
 
 **Conclusion**: The marker requires a chunk firing, which requires PFC cortical substrate to be functional. PFC is online. The baby just cannot act because action chunks are still compiling.
 
-**This is cleaner than Farroni 2002** (03 §3.2 direct gaze 2-5 days, earliest L2 event in F1): Farroni is earlier age but the chunk in question is relatively simple (face template pattern-match). Stage B bladder đơ mặt is later age but the chunk is richer (associative chunk linking interoceptive signal to predicted consequence), and the falsification logic is arguably cleaner because the "chunks-missing vs PFC-offline" distinction is easier to see — at 2-5 days someone might still argue "it's just subcortical face recognition". At 12-18 months with an associative chunk firing on an internally-generated interoceptive signal, subcortical-only explanations become implausible.
+**This is cleaner than Farroni 2002** (03 §3.2 direct gaze 2-5 days, earliest L2 event in F1): Farroni is earlier age but the chunk in question is relatively simple (face template pattern-match). Stage B bladder face-freeze is later age but the chunk is richer (associative chunk linking interoceptive signal to predicted consequence), and the falsification logic is arguably cleaner because the "chunks-missing vs PFC-offline" distinction is easier to see — at 2-5 days someone might still argue "it's just subcortical face recognition". At 12-18 months with an associative chunk firing on an internally-generated interoceptive signal, subcortical-only explanations become implausible.
 
-**Framework implication**: Bladder Stage B is cited in [10-F1-Synthesis.md](10-F1-Synthesis.md) (upcoming) as a **primary falsification anchor** for Nút Thắt 4 verdict.
+**Framework implication**: Bladder Stage B is cited in [10-F1-Synthesis.md](../10-F1-Synthesis.md) (upcoming) as a **primary falsification anchor** for Convergence Point 4 verdict.
 
 ---
 
@@ -353,22 +359,22 @@ The Stage B đơ mặt marker provides the **single cleanest within-F1 falsifica
 
 **Observable event** (matches [Feel-Example E23](../../Body-Base/Feeling/Feel-Example-Draft.md#e23) at 22 months):
 
-> "Bé 22 tháng đang chơi. Cảm giác bladder fullness tăng dần — bladder stretch receptors gửi signal. Bé dừng chơi, nói 'buồn đái' và đi tìm cha mẹ hoặc tự đi vào nhà vệ sinh."
+> "Baby at 22 months is playing. Bladder fullness sensation increases — bladder stretch receptors send signal. Baby stops playing, says 'need to pee' and goes to find parents or walks to the bathroom on their own."
 
 **Ladder classification**: **L4 coordinated execution** — full chunks stack engaged.
 
 **Chunks state inference** 🟢 (strongest confidence level reachable in F1 analysis for this body state):
 - **Present**: stable associative chunk (signal → imminent void)
-- **Present**: predictive temporal chunk ("sắp đái", not "đang đái")
-- **Present**: verbal label chunk ("buồn đái" or equivalent dialect/culture label)
+- **Present**: predictive temporal chunk ("about to pee", not "currently peeing")
+- **Present**: verbal label chunk ("need to pee" or equivalent dialect/culture label)
 - **Present**: action plan chunk (walk to bathroom OR call caregiver)
 - **Present**: social-communication chunk (caregiver will respond appropriately)
 - **Present (weak)**: inhibitory chunk (hold urine for the walk duration) — still immature, accidents common
-- **Present**: verbal production motor chunk (articulation for "buồn đái" — see [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) §2.11 articulation arc + [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md))
+- **Present**: verbal production motor chunk (articulation for "need to pee" — see [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) §2.11 articulation arc + [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md))
 
 **E23 is identified in Feel-Example as**:
 
-> "FIRST CLEAR INSTANCE OF PREDICTIVE INTEROCEPTION VERBALIZED. Trước đây (newborn E3) bé chỉ 'feel' event SAU khi nó xảy ra (tã ướt rồi mới khó chịu). Giờ bé 'feel' trước khi event xảy ra. Đây là một bước nhảy về chất."
+> "FIRST CLEAR INSTANCE OF PREDICTIVE INTEROCEPTION VERBALIZED. Previously (newborn E3), the baby only 'felt' the event AFTER it occurred (diaper wet first, then uncomfortable). Now the baby 'feels' before the event occurs. This is a qualitative leap."
 
 This framing is adopted here. The **qualitative leap** between L1 (E3 post-hoc) and L4 (E23 predictive-verbal) is:
 - Post-hoc → predictive: chunk fires on antecedent alone, not on consequence
@@ -378,24 +384,28 @@ This framing is adopted here. The **qualitative leap** between L1 (E3 post-hoc) 
 
 The leap takes ~22 months because all of these chunk types must compile. The leap is NOT "PFC turned on" — PFC has been online the whole time (per 5 pillars). The leap is **chunks accumulation crossing threshold** for each required chunk type.
 
-### §4.3 — E24 "Buồn ỉa" transfer (24mo): chunk template reuse
+### §4.3 — E24 "Need to poop" transfer (24mo): chunk template reuse
 
 **Observable event** (matches [Feel-Example E24](../../Body-Base/Feeling/Feel-Example-Draft.md#e24)):
 
-Baby ~24 months says "buồn ỉa" before soiling. Same predictive + verbal + planned action pattern as E23 but for bowel signal rather than bladder signal.
+Baby ~24 months says "need to poop" before soiling. Same predictive + verbal + planned action pattern as E23 but for bowel signal rather than bladder signal.
 
-**Critical framework observation** (user verbatim from session developing framework, preserved in E24 Notes): **"biết buồn đái rồi → dễ biết buồn ỉa hơn"**.
+**Critical framework observation** (user verbatim preserved):
+
+> *Vietnamese original:* "biết buồn đái rồi → dễ biết buồn ỉa hơn"
+>
+> *English:* "already knows 'need to pee' → easier to know 'need to poop'"
 
 **Chunks analysis**: E24 is NOT independently compiled from scratch. The chunk template established for E23 (predictive interoception + verbal label + planned action) is **transferred** to a parallel channel (rectal vs bladder stretch receptors). The baby needs only:
 - Associative chunk content for rectal signal (new)
-- Verbal label ("buồn ỉa" — new)
+- Verbal label ("need to poop" — new)
 - Same template for predictive + verbal + action routing (reused)
 
 **Why transfer is fast**: Same template format means the compile effort is reduced. The baby does not have to learn "what a predictive interoceptive verbalization is" — she already has that abstraction from bladder. She only has to fill in the new content.
 
-**Framework contribution to Nút Thắt 1 (gradient view)**: This is **additional gradient evidence** at the compositional level. Chunks are not just individually gradient (phoneme narrowing per 04 §6.4); they also **compose compositionally** with gradient reuse strength. An established chunk template has a compile-rate multiplier effect on related chunks. This is consistent with biological LTP mechanism (shared dendritic substrate + shared cortical columns make co-binding faster).
+**Framework contribution to Convergence Point 1 (gradient view)**: This is **additional gradient evidence** at the compositional level. Chunks are not just individually gradient (phoneme narrowing per 04 §6.4); they also **compose compositionally** with gradient reuse strength. An established chunk template has a compile-rate multiplier effect on related chunks. This is consistent with biological LTP mechanism (shared dendritic substrate + shared cortical columns make co-binding faster).
 
-**Framework contribution to chunks compositionality** (Nút Thắt 1 sub-point): The E23→E24 transfer is one of the clearest F1 cases of **chunk template reuse**. A compiled chunk's architecture can be "lifted" and applied to a parallel body state. This matters for the framework because it suggests chunks are not just stored facts but also **reusable computational templates** — the adult version of this is analogical reasoning (this case is mentioned briefly in [09-Event-Chunks-Inference-Matrix.md](09-Event-Chunks-Inference-Matrix.md) §5 as an early precursor to later analogical chunks).
+**Framework contribution to chunks compositionality** (Convergence Point 1 sub-point): The E23→E24 transfer is one of the clearest F1 cases of **chunk template reuse**. A compiled chunk's architecture can be "lifted" and applied to a parallel body state. This matters for the framework because it suggests chunks are not just stored facts but also **reusable computational templates** — the adult version of this is analogical reasoning (this case is mentioned briefly in [09-Event-Chunks-Inference-Matrix.md](../09-Event-Chunks-Inference-Matrix.md) §5 as an early precursor to later analogical chunks).
 
 ### §4.4 — Ladder traversal summary table
 
@@ -405,16 +415,16 @@ Baby ~24 months says "buồn ỉa" before soiling. Same predictive + verbal + pl
 | A | 0-~6mo | Reflex void, no marker | L0 | All chunks absent; reflex scaffolding only |
 | E3 | 3 weeks | Post-wet cry | L1 | Post-hoc discomfort chunk; no predictive |
 | Compile phase | 6-12mo | Reflex void + compiling association | L1 gradient → proto-L2 | Associative chunk compiling; not yet firing on antecedent alone |
-| B (đơ mặt) ⭐ | 12-18mo | Freeze before void, no action | L2 | Associative chunk fires on antecedent; action chunks absent |
+| B (face-freeze) ⭐ | 12-18mo | Freeze before void, no action | L2 | Associative chunk fires on antecedent; action chunks absent |
 | C | 14-20mo | Squirm/whimper before void | L3 | Action chunks partial; still reflex-voiding |
-| D (E23) ⭐ | ~22mo | "Buồn đái" + walk/call | L4 | Full stack: predictive + verbal + action + social |
-| D transfer (E24) | ~24mo | "Buồn ỉa" before soil | L4 | Template reuse from E23 |
+| D (E23) ⭐ | ~22mo | "Need to pee" + walk/call | L4 | Full stack: predictive + verbal + action + social |
+| D transfer (E24) | ~24mo | "Need to poop" before soil | L4 | Template reuse from E23 |
 
 The entire ladder span (L0→L4) within a single body state, with observable events at each level, is **unique to bladder in F1 drilling**. Other body states span multiple levels but typically across different event types, not within a single state.
 
 ---
 
-## §5 — "Đơ mặt" full formalization (framework contribution R-F1-2)
+## §5 — "Face-freeze" full formalization (framework contribution R-F1-2)
 
 > This section formalizes user's Q8 + Q9 observations into a named framework contribution. Prior framework literature (infant development, cognitive psychology) does not treat intermediate "recognition without execution" as a named developmental stage for interoceptive chunks. This file proposes formalizing it as the L2 level of the PFC-Inference Ladder with the bladder case as anchor exemplar.
 
@@ -422,15 +432,19 @@ The entire ladder span (L0→L4) within a single body state, with observable eve
 
 From plan §0.5 Q8 (2026-04-15 session):
 
-> "ví dụ bé biết mình sắp đái và sẽ gọi mẹ <= tình huống này tôi nghĩ khả năng cao là phải có PFC phát hiện đc sắp buồn đái, và phải biết là nếu đái thì sẽ khó chịu, và phải biết là cần gọi mẹ. **hoặc có thể PFC đã phát triển trước đó rất lâu từ khi cảm nhận được là mình sắp đái rồi đơ mặt ra một lúc, rồi đái, xong đái xong ướt át khó chịu thì khóc**"
+> *Vietnamese original:* "ví dụ bé biết mình sắp đái và sẽ gọi mẹ <= tình huống này tôi nghĩ khả năng cao là phải có PFC phát hiện đc sắp buồn đái, và phải biết là nếu đái thì sẽ khó chịu, và phải biết là cần gọi mẹ. **hoặc có thể PFC đã phát triển trước đó rất lâu từ khi cảm nhận được là mình sắp đái rồi đơ mặt ra một lúc, rồi đái, xong đái xong ướt át khó chịu thì khóc**"
+>
+> *English:* "For example, when a baby knows they are about to pee and will call mother — in this situation I think it's highly likely the PFC must detect the coming urge to pee, must know that peeing will be uncomfortable, and must know they need to call mother. **Or perhaps the PFC was already developed much earlier — from when they could sense they were about to pee, then the face freezes for a moment, then they pee, and after peeing and being wet and uncomfortable they cry.**"
 
-**Analysis of the observation**: The user articulated both the L4 final state AND the intermediate L2 state in the same sentence. The key insight is the "hoặc có thể" — user proposed an **alternative developmental history** where PFC was already pattern-matching the antecedent signal long before the baby could act on it. This alternative is exactly what the gradient view of chunks compile (04 §6.4) predicts: chunks compile before they can be acted upon; the compile is gradient; intermediate states are meaningful.
+**Analysis of the observation**: The user articulated both the L4 final state AND the intermediate L2 state in the same sentence. The key insight is the "or perhaps" — user proposed an **alternative developmental history** where PFC was already pattern-matching the antecedent signal long before the baby could act on it. This alternative is exactly what the gradient view of chunks compile (04 §6.4) predicts: chunks compile before they can be acted upon; the compile is gradient; intermediate states are meaningful.
 
 ### §5.2 — Pattern-match-not-plan-failing reframe (verbatim)
 
 From plan §0.5 Q9 (2026-04-15 session, refinement after discussion):
 
-> "bé không plan gì cả, bé chỉ thấy có gì đó sắp không ổn lắm, **PFC đã phát hiện ra cái gì đó chuẩn bị tới**. Tôi chỉ nêu ra ý hiểu của tôi vậy thôi. không biết có đúng ko."
+> *Vietnamese original:* "bé không plan gì cả, bé chỉ thấy có gì đó sắp không ổn lắm, **PFC đã phát hiện ra cái gì đó chuẩn bị tới**. Tôi chỉ nêu ra ý hiểu của tôi vậy thôi. không biết có đúng ko."
+>
+> *English:* "The baby has no plan at all — the baby only senses that something is about to go wrong. **The PFC has detected that something is coming.** I'm just sharing my understanding; I don't know if it's correct."
 
 **Why this refinement is critical**: It prevents misinterpretation of L2 as "PFC trying and failing". A naive reading would say "the baby's PFC is trying to plan an action but cannot, so the body freezes". That naive reading is wrong because:
 1. It implies PFC has an action intention but execution is failing — which would predict uncoordinated attempts (L3), not freeze
@@ -442,11 +456,11 @@ The correct reading (adopted by framework): **PFC observed a pattern-match event
 
 (Formally stated in §3.4; repeated here for the formalization record.)
 
-The "đơ mặt" marker is defined by 6 required criteria: 1-3 second duration, mid-activity interruption, facial stillness, no motor attempt, voiding within ~30 seconds, reproducibility. See §3.4 for disqualifying criteria.
+The "face-freeze" marker is defined by 6 required criteria: 1-3 second duration, mid-activity interruption, facial stillness, no motor attempt, voiding within ~30 seconds, reproducibility. See §3.4 for disqualifying criteria.
 
 ### §5.4 — Ladder L2 exemplar role
 
-The đơ mặt marker is proposed as the **cleanest L2 exemplar** in F1 for three reasons:
+The face-freeze marker is proposed as the **cleanest L2 exemplar** in F1 for three reasons:
 
 1. **Known antecedent trigger** (bladder fullness) — unlike other L2 markers which have ambiguous triggers
 2. **Observable stillness** — unlike stranger anxiety (L2 face progression is observable but mixed with L3 components quickly)
@@ -459,17 +473,17 @@ Other L2 markers (plan §0.8 6 markers list):
 - Violation of expectation looking time (Baillargeon) — requires measurement, not naturalistically observable
 - Peek-a-boo anticipation (common) — positive valence, good marker, but overlaps with L3 excitement response
 
-Đơ mặt is the **only marker with all three purity properties** (known trigger, clean stillness, no verbal confound). This makes it uniquely suited for developmental assessment use.
+Face-freeze is the **only marker with all three purity properties** (known trigger, clean stillness, no verbal confound). This makes it uniquely suited for developmental assessment use.
 
 ### §5.5 — Counter-hypothesis rejection: "PFC trying and failing to act"
 
-**Counter-claim**: Stage B đơ mặt is PFC attempting to initiate an action plan but lacking the coordination to execute.
+**Counter-claim**: Stage B face-freeze is PFC attempting to initiate an action plan but lacking the coordination to execute.
 
 **Why this is wrong**:
 1. If PFC had an action plan, we would see **intention markers** — eye movement toward bathroom or caregiver, postural lean, muscle tension in arms or legs — any of which would qualify as crude L3. The observed freeze has none of these.
 2. Failed execution of a compiled plan would produce partial movement or hesitation, not facial stillness. Motor attempts at Stage C are qualitatively different: they are active squirms or walk-toward, not failed freezes.
 3. If PFC were trying and failing consistently over weeks-months, we would expect the baby to show **frustration affect** (whimpering, distress) during the freeze. Observed affect at Stage B is typically **neutral** (blank expression, not distressed expression).
-4. User's Q9 observation directly rejects this: "bé không plan gì cả".
+4. User's Q9 observation directly rejects this: "The baby has no plan at all."
 
 ### §5.6 — Counter-hypothesis rejection: "Random distraction / zoning out"
 
@@ -477,9 +491,9 @@ Other L2 markers (plan §0.8 6 markers list):
 
 **Why this is wrong**:
 1. **Context specificity**: When observed carefully, the marker is reproducible in association with bladder fullness. Parents who track notice it happens before voiding more often than chance would predict. (Empirical validation pending — no published longitudinal study tracks this marker specifically, a gap this file flags as research opportunity §11.)
-2. **Duration specificity**: Random distraction has variable duration (often much longer than 3 seconds, sometimes shorter). Đơ mặt has a characteristic ~1-3 second range tied to how quickly the void reflex completes after the pattern-match fires.
-3. **Postural specificity**: Distraction is often accompanied by shifting posture, looking around, or change of focus. Đơ mặt is specifically a **stillness** event — facial muscles held, gaze not wandering.
-4. **Pre-event timing specificity**: Distraction has no predictable consequence. Đơ mặt precedes voiding within a short window.
+2. **Duration specificity**: Random distraction has variable duration (often much longer than 3 seconds, sometimes shorter). Face-freeze has a characteristic ~1-3 second range tied to how quickly the void reflex completes after the pattern-match fires.
+3. **Postural specificity**: Distraction is often accompanied by shifting posture, looking around, or change of focus. Face-freeze is specifically a **stillness** event — facial muscles held, gaze not wandering.
+4. **Pre-event timing specificity**: Distraction has no predictable consequence. Face-freeze precedes voiding within a short window.
 5. **Falsifiable prediction** (§5.7 #2): Babies at Stage A will NOT show the freeze before voiding; babies at Stage B WILL. If the freeze were generic distraction, both groups should show it equally.
 
 ### §5.7 — Falsifiable predictions
@@ -490,16 +504,16 @@ The framework contribution is strengthened by offering falsifiable predictions:
 
 **Prediction 2**: Babies at Stage B will show the freeze before voiding with >50% consistency when observed carefully and tagged to bladder fullness context (not conflated with random stillness events). **Falsification test**: Same longitudinal study, Stage B babies specifically. Observer blinded to voiding timing should be able to predict voiding within 30 seconds from freeze observation at rate better than chance.
 
-**Prediction 3**: Stage A→B transition correlates with **chunks compile conditions** (exposure × saliency × caregiver contingent response × emotional tagging frequency), not with chronological age alone. **Falsification test**: Compare babies in cultures with high elimination-communication practice (more frequent caregiver attention to bladder state, faster repetition cycling) vs low-Entity-Compiled-practice cultures (scheduled diapering, less antecedent-focused attention). Prediction: high-Entity-Compiled babies reach Stage B earlier on average, with significant individual variation still present. This is consistent with Haiti/Kenya/traditional Vietnam anecdotal reports of earlier toilet awareness.
+**Prediction 3**: Stage A→B transition correlates with **chunks compile conditions** (exposure × saliency × caregiver contingent response × emotional tagging frequency), not with chronological age alone. **Falsification test**: Compare babies in cultures with high elimination-communication practice (more frequent caregiver attention to bladder state, faster repetition cycling) vs low-practice cultures (scheduled diapering, less antecedent-focused attention). Prediction: high-practice babies reach Stage B earlier on average, with significant individual variation still present. This is consistent with traditional Vietnamese/Kenyan/Haitian anecdotal reports of earlier toilet awareness.
 
 **Prediction 4**: Caregiver co-regulation (diaper-free time, potty introduction, timed voidings) accelerates Stage A→B transition by providing more repetitions with clearer antecedent-consequence pairing. **Falsification test**: Randomized intervention comparing two groups of parents — one taught to offer potty at regular intervals from 12 months, one using standard diapering — with Stage B marker onset as dependent variable. Prediction: intervention group reaches Stage B ~2-3 months earlier on average.
 
 ### §5.8 — Framework update recommendation R-F1-2
 
-**R-F1-2**: Propose "đơ mặt" as a developmental marker for chunks accumulation assessment, to be integrated in 99-Master-Synthesis and in parent-education framework (Body-Parenting-Optimization.md update).
+**R-F1-2**: Propose "face-freeze" as a developmental marker for chunks accumulation assessment, to be integrated in 99-Master-Synthesis and in parent-education framework (Body-Parenting-Optimization.md update).
 
 **Recommendation scope**:
-- Naming: "đơ mặt" as Vietnamese primary term + English "pattern-match pause marker" for technical literature
+- Naming: "face-freeze" (English primary term; Vietnamese original: "đơ mặt")
 - Operational definition: per §3.4 criteria
 - Anchor citation: this file (06a) as primary drill + plan §0.5 Q8+Q9 as originating observation
 - Research program: propose empirical study per §5.7 predictions — longitudinal video study with timestamped voiding
@@ -512,13 +526,13 @@ The framework contribution is strengthened by offering falsifiable predictions:
 
 ---
 
-## §6 — Precondition-2 Chunk-Substrate keystone (Nút Thắt 2 primary home)
+## §6 — Precondition-2 Chunk-Substrate keystone (Convergence Point 2 primary home)
 
 > Body-Feedback-Draft N+3 identified Precondition-2 Chunk-Substrate as a load-bearing but unresolved precondition for Body-Feedback-Precondition. 06a grounds the mechanism with empirical evidence from the bladder case.
 
 ### §6.1 — Precondition-2 Chunk-Substrate recap
 
-From [Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5 (drilled N+3): Precondition-2 states that for a body dissonance signal to be observable at Feeling (Feel-Consciousification–Feel-Explanation) level (PFC observation + labeling), the underlying chunks base must be adequate. A body state with no compiled chunks fires Feel-RawSignals–Feel-Integration raw signals but cannot produce labeled observations ("tôi đang đói", "tôi buồn đái").
+From [Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5 (drilled N+3): Precondition-2 states that for a body dissonance signal to be observable at Feeling (Feel-Consciousification–Feel-Explanation) level (PFC observation + labeling), the underlying chunks base must be adequate. A body state with no compiled chunks fires Feel-RawSignals–Feel-Integration raw signals but cannot produce labeled observations ("I'm hungry", "I need to pee").
 
 N+3 identified Precondition-2 as critical but did not drill the **compile mechanism** — how chunks reach adequacy threshold. This was flagged as pending F1 work.
 
@@ -528,14 +542,14 @@ The bladder L0→L4 traversal provides direct observable evidence for how Precon
 
 | Stage | Precondition-2 state for bladder | Feeling layer state | Body-Feedback gradient reference |
 |---|---|---|---|
-| A (L0) | Chunks essentially zero for bladder content | Feel-RawSignals–Feel-Integration only (raw bladder signal ascends; no labeled observation) | §5.5.1 row 1 "Trẻ sơ sinh" |
-| E3 (L1) | Post-hoc discomfort chunk compiling weakly | Emerging Feel-Consciousification ("có gì đó khó chịu") | §5.5.1 row 2 "Post-hoc notice" |
-| B (L2) | Associative chunk reaches firing threshold | Feel-Consciousification ("có gì đó sắp") emerging; Feel-Observation–Feel-Labeling not yet accessible | Between rows 2-3 of §5.5.1 (not explicitly named) |
-| C (L3) | Motor action chunks compiling | Feel-Observation ("tôi sắp đái") partial | Row 3 approaching |
-| D (L4) | Full chunks stack adequate | Feel-Observation–Feel-Labeling ("tôi sắp đái" + "cần gọi mẹ" + "đái ở đây") | §5.5.1 row 3 "Trẻ biết gọi" |
-| Adult | Stable + refined + predictive | Feel-Explanation ("sau khi uống nước 2h sẽ cần") | §5.5.1 row 4 "Người lớn" |
+| A (L0) | Chunks essentially zero for bladder content | Feel-RawSignals–Feel-Integration only (raw bladder signal ascends; no labeled observation) | §5.5.1 row 1 "Newborn" |
+| E3 (L1) | Post-hoc discomfort chunk compiling weakly | Emerging Feel-Consciousification ("something is uncomfortable") | §5.5.1 row 2 "Post-hoc notice" |
+| B (L2) | Associative chunk reaches firing threshold | Feel-Consciousification ("something is about to happen") emerging; Feel-Observation–Feel-Labeling not yet accessible | Between rows 2-3 of §5.5.1 (not explicitly named) |
+| C (L3) | Motor action chunks compiling | Feel-Observation ("I'm about to pee") partial | Row 3 approaching |
+| D (L4) | Full chunks stack adequate | Feel-Observation–Feel-Labeling ("I'm about to pee" + "need to call mom" + "pee here") | §5.5.1 row 3 "Baby calls out" |
+| Adult | Stable + refined + predictive | Feel-Explanation ("after drinking water, will need to go in ~2 hours") | §5.5.1 row 4 "Adult" |
 
-**The bladder arc therefore instantiates the body-feedback §5.5.1 "đái gradient"** that user originally provided as a verbatim example in N+3. What N+3 described abstractly is drilled mechanistically in 06a. The two files should be bidirectionally cross-referenced (N+3 needs a forward link added; this file provides the backward link).
+**The bladder arc therefore instantiates the body-feedback §5.5.1 "bladder gradient"** that user originally provided as a verbatim example in N+3. What N+3 described abstractly is drilled mechanistically in 06a. The two files should be bidirectionally cross-referenced (N+3 needs a forward link added; this file provides the backward link).
 
 ### §6.3 — Precondition-2 compile mechanism resolved
 
@@ -559,8 +573,8 @@ This **rate analysis** is the Precondition-2 compile mechanism's concrete expres
 
 The bladder case methodology extends to other body states (hunger, pain, thermal, emotional) in [06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md). Brief preview:
 
-- **Hunger**: L1 (E1 hungry cry) → L4 (E21 "đói" at 18mo) ≈ 18-month arc. Similar mechanism, slightly faster compile (more events per day, stronger valence at peak).
-- **Pain**: L0-L1 (E2 newborn pain cry) → L2 (vaccination pre-cry, Pierce & Rodrigues 1996) → L4 (E22 "đau chân" at 20mo with body location). ~20-month arc.
+- **Hunger**: L1 (E1 hungry cry) → L4 (E21 "hungry" at 18mo) ≈ 18-month arc. Similar mechanism, slightly faster compile (more events per day, stronger valence at peak).
+- **Pain**: L0-L1 (E2 newborn pain cry) → L2 (vaccination pre-cry, Pierce & Rodrigues 1996) → L4 (E22 "leg hurts" at 20mo with body location). ~20-month arc.
 - **Thermal**: L0-L1 (E4 newborn thermal cry) → L3 limited → rarely reaches L4 by 24mo. Truncated arc, explained by lower exposure × saliency.
 - **Emotional**: L0-L2 social-emotional chunks (E5 quiet alert, E12 social smile) → L4 largely post-24mo (meta-emotion verbalization delayed beyond F1 window).
 
@@ -568,15 +582,15 @@ The bladder case methodology extends to other body states (hunger, pain, thermal
 
 ### §6.5 — Framework link: F1 resolves N+3 pending question
 
-**Body-Feedback-Draft N+3 identified** (01-Foundation.md §5.5): "Chunks accumulation qua repeated experience + language (caregiver labeling). Without caregiver mirroring, Feel-Consciousification+ develops slower or incompletely."
+**Body-Feedback-Draft N+3 identified** (01-Foundation.md §5.5): "Chunks accumulation via repeated experience + language (caregiver labeling). Without caregiver mirroring, Feel-Consciousification+ develops slower or incompletely."
 
 **F1 resolves** (06a + 06b): The mechanism is four-channel compile (repetition + emotional + multi-modal + sleep). Rate is determined by exposure × saliency × caregiver contingency × peak valence. Individual and cultural variation in Feeling layer development is directly explained by variation in these parameters. The bladder case provides the cleanest single-state evidence for the mechanism.
 
-**Cross-folder output contract** (to be committed in [10-F1-Synthesis.md](10-F1-Synthesis.md) §6): 06a provides F1's mechanism-grounding for Precondition-2, which updates Body-Feedback-Draft §5.5 with the mechanism content. This is Framework update recommendation **R-F1-4** (update Body-Feedback-Draft Precondition-2 section with F1 substrate evidence).
+**Cross-folder output contract** (to be committed in [10-F1-Synthesis.md](../10-F1-Synthesis.md) §6): 06a provides F1's mechanism-grounding for Precondition-2, which updates Body-Feedback-Draft §5.5 with the mechanism content. This is Framework update recommendation **R-F1-4** (update Body-Feedback-Draft Precondition-2 section with F1 substrate evidence).
 
 ---
 
-## §7 — Hormonal sustain context + chunk association: bladder as test case (Nút Thắt 7 primary home)
+## §7 — Hormonal sustain context + chunk association: bladder as test case (Convergence Point 7 primary home)
 
 > **Scope correction (N+4c2-REV1)**: Earlier draft of §7 framed this as "cortisol tagging critical period" with a binary "supportive (low cortisol) / punitive (high cortisol)" model. That framing is **incomplete and misleading**. Cortisol per se is not the tagging mechanism — cortisol is a sustainer of the body state during which chunks compile, and the **body state** (not the cortisol level alone) determines chunk association. This section is rewritten using the upstream framework commitments from [Cortisol-Baseline.md](../../Cortisol-Baseline.md), [Drive/Threat.md](../../Drive/Threat.md), and [Drive/Threat-Drive-Analysis.md](../../Drive/Threat-Drive-Analysis.md).
 
@@ -593,7 +607,7 @@ Per [Cortisol-Baseline §3.5](../../Cortisol-Baseline.md#3.5):
 | | Novelty cortisol (curious, engaged) | Threat cortisol (fear, coerced) |
 |---|---|---|
 | Co-active hormones | + dopamine + mild opioid (seeking) | + NE + adrenaline (alert) |
-| Body state | Aroused, engaged, *forward-leaning* | Tense, defended, *push-away* |
+| Body state | Aroused, engaged, forward-leaning | Tense, defended, push-away |
 | Neuron firing pattern | Focused, domain-directed | Diffuse, scanning for threat |
 | **Chunk association compiled** | **Chunk ↔ opioid** → "understanding = pleasant → body wants to use again" | **Chunk ↔ cortisol** → "using = unpleasant → body avoids" |
 | Cortisol shut-off when done | Clean drop (task complete) | May persist (threat not verified over) |
@@ -602,7 +616,7 @@ Per [Cortisol-Baseline §3.5](../../Cortisol-Baseline.md#3.5):
 
 **Key implication for F1**: Two children can have equally **high cortisol** during the same chunks-compile window and end up with **opposite chunk association outcomes**. The difference is not the cortisol level — it is whether the cortisol co-occurred with novelty-drive arousal or threat-drive arousal. This is why the binary "supportive (low cortisol) / punitive (high cortisol)" framing used in the earlier draft is wrong: it confounds the *level* with the *direction* of the co-active body state.
 
-⭐ **The genius cases** (Newton, Tesla, Einstein example from Cortisol-Baseline §3.5): cortisol baseline chronically high (trauma, insecurity) but the *domain chunks* compile under novelty-drive (bứt rứt → tò mò → đọc sách để bù) rather than threat-drive. Result: chunks gắn opioid despite high background cortisol. This is decisive evidence that cortisol alone does not determine chunk association.
+⭐ **The genius cases** (highly productive individuals from adverse backgrounds — cortisol baseline chronically high from trauma and insecurity, but *domain chunks* compile under novelty-drive rather than threat-drive): restless → curious → read to compensate. Result: chunks bond with opioid despite high background cortisol. This is decisive evidence that cortisol alone does not determine chunk association.
 
 #### §7.0.2 — Schema = trigger, Hormone = sustain
 
@@ -615,7 +629,7 @@ Schema fire  →  NE energy  →  Adrenaline  →  [behavior begins]  →  Corti
 0 ms          ~500 ms        ~1-2 s                                  5-20 min
 ```
 
-**Implication for F1 NT7**: The earlier draft said "chunks are compiled under cortisol-context". More precisely, **schema fire triggers a body state, chunks compile during that body state, and the hormonal profile of that body state is what shapes the chunks' later association**. Cortisol is part of the body state fingerprint, not the causal agent of tagging.
+**Implication for F1 Convergence Point 7**: The earlier draft said "chunks are compiled under cortisol-context". More precisely, **schema fire triggers a body state, chunks compile during that body state, and the hormonal profile of that body state is what shapes the chunks' later association**. Cortisol is part of the body state fingerprint, not the causal agent of tagging.
 
 **Implication for parenting intervention**: You cannot fix tagging by "lowering cortisol" alone — you must change the **schema-level trigger** (what schemas fire in the child, what drive the body enters) which then automatically shifts the hormonal profile. This is why mere relaxation techniques rarely resolve deeply compiled threat-chunks without addressing the underlying schema.
 
@@ -626,9 +640,9 @@ Per [Cortisol-Baseline §4](../../Cortisol-Baseline.md#4) and [§7](../../Cortis
 🟢 **Framework commitment**: Cortisol distributes approximately evenly across brain regions via blood. **PFC wears out first** not because cortisol reaches PFC preferentially, but because **PFC synapses are the weakest structurally**:
 
 - PFC operates as a **continuous draft machine** (creating + erasing + recreating networks for imagination, planning, evaluation)
-- PFC synapses are therefore **maximally flexible but minimally compiled** — "nhà đang xây, chưa cứng"
-- Compiled-sooner regions (amygdala, sensory cortices) have stable structural support and tolerate shaking well
-- PFC = cuống lá mỏng / amygdala = cành chính chắc / gốc = thân cây → cùng rung, cuống lá rụng trước
+- PFC synapses are therefore **maximally flexible but minimally compiled** — "house still under construction, not yet solid"
+- Compiled-sooner regions (amygdala, sensory cortices) have stable structural support and tolerate stress well
+- Analogy: PFC = thin leaf-stalk / amygdala = main branch / root = tree trunk → same shaking, thin leaf-stalk falls first
 
 🟢 **Chronic cortisol produces a PFC↓ + Amygdala↑ vicious cycle** (🟢 Vyas et al. 2002 *J Neurosci* — chronic stress → amygdala dendrites grow; 🟢 Shin et al. 2006 — PTSD patients show PFC hypoactivity + amygdala hyperactivity):
 
@@ -643,10 +657,10 @@ The loop is self-sustaining. Fix requires reversing both sides (reduce cortisol 
 **Four stages of PFC compromise** (Cortisol-Baseline §7, summarized):
 1. **Stage 0 — NE α1 disconnect** (ms): PFC circuit-breaker fires, PFC offline briefly, structure undamaged, recovery seconds-minutes.
 2. **Stage 1 — signal overload** (seconds-minutes): cortisol spike overloads PFC workspace, freeze/panic, structure undamaged, recovery minutes-hours.
-3. **Stage 2 — accumulated wear** (weeks-months): chronic baseline cortisol → PFC synapses fatigue + dendrites retract (🟢 Arnsten 2009, 🟢 McEwen 2007). Subjective: "sao mình nghĩ chậm hơn trước". Recovery: weeks-months of reduced cortisol + adequate sleep.
+3. **Stage 2 — accumulated wear** (weeks-months): chronic baseline cortisol → PFC synapses fatigue + dendrites retract (🟢 Arnsten 2009, 🟢 McEwen 2007). Subjective: "why am I thinking more slowly than before". Recovery: weeks-months of reduced cortisol + adequate sleep.
 4. **Stage 3 — crash** (burnout): stages 1+2 simultaneously → PFC near-offline → primitive survival mode → recovery months-years.
 
-⭐ **Stage 2 is the one most relevant for F1 critical period claims**: stress during infancy falls on a still-developing PFC substrate. "PFC đang xây → cortisol phá khi đang xây". This is the mechanism behind 🟢 ACE (Adverse Childhood Experiences) studies linking childhood adversity to adult PFC deficits — not metaphorical, but structural-developmental.
+⭐ **Stage 2 is the one most relevant for F1 critical period claims**: stress during infancy falls on a still-developing PFC substrate. "PFC still being built → cortisol damages it while building". This is the mechanism behind 🟢 ACE (Adverse Childhood Experiences) studies linking childhood adversity to adult PFC deficits — not metaphorical, but structural-developmental.
 
 #### §7.0.4 — 3 threat mechanism sources
 
@@ -657,7 +671,7 @@ Per [Threat-Drive-Analysis §3](../../Drive/Threat-Drive-Analysis.md#3):
 | Source | Activation path | Buffer | Duration | Recovery |
 |---|---|---|---|---|
 | **Physical** (pain, direct danger) | Nociceptor → reflex → NE/cortisol | ✅ Endorphin | Short (threat passes) | Fast |
-| **Social** (quát, rejection, shame) | Audio/visual → Amygdala+Schema → NE/cortisol | ❌ No endorphin, oxytocin drops | Longer | Slower — no pain-killer for social pain (🟢 Eisenberger 2003: social rejection activates dACC + insula, same as physical pain) |
+| **Social** (shouting, rejection, shame) | Audio/visual → Amygdala+Schema → NE/cortisol | ❌ No endorphin, oxytocin drops | Longer | Slower — no pain-killer for social pain (🟢 Eisenberger 2003: social rejection activates dACC + insula, same as physical pain) |
 | **Anticipation** (PFC imagines bad future) | PFC draft → body simulates (20-60% fidelity) → cortisol drip | ❌ Can loop infinitely | Can be unbounded | Requires PFC to stop drafting OR threat resolves |
 
 **Why this matters for bladder training**: A punitive training episode rarely fires only one mechanism source. A parent yelling "don't pee on the floor!" simultaneously activates **Social** (the yelling tone + disapproving face) and **Anticipation** (child imagines "next accident → more yelling → lose caregiver approval"). If there is physical punishment, **Physical** also fires. Combined multi-mechanism damage is disproportionately large compared to single-mechanism threats.
@@ -713,13 +727,13 @@ Bladder training is a natural experiment for Precondition-5 because it isolates 
 
 Per [Cortisol-Baseline §3.5](../../Cortisol-Baseline.md#3.5) "4 threshold levels" applied specifically to toilet training context:
 
-#### §7.3.1 — Level 1: NHẸ (novelty-dominant, threat ~60:40)
+#### §7.3.1 — Level 1: Light (novelty-dominant, threat ~60:40)
 
-**Caregiver pattern**: Diaper-free time offered. Potty introduced at child's signal readiness. Accidents named matter-of-factly ("oh, ướt rồi, mình thay nhé"). Successes acknowledged ("con đi potty được rồi"). No punishment, no shame, no body-disgust reaction from caregiver. Some natural mild consequence (wet = cold/uncomfortable briefly before change) is domain-origin and acceptable.
+**Caregiver pattern**: Diaper-free time offered. Potty introduced at child's signal readiness. Accidents named matter-of-factly ("oh, you're wet, let's change you"). Successes acknowledged ("you made it to the potty!"). No punishment, no shame, no body-disgust reaction from caregiver. Some natural mild consequence (wet = cold/uncomfortable briefly before change) is domain-origin and acceptable.
 
 **Body state at compile**: Mostly novelty-drive (child is curious about this new body signal and action sequence). Mild cortisol from the genuine dissonance of wet diaper is **novelty cortisol + mild opioid from caregiver warmth + anticipation of clean-change comfort**. Schema fire: "bladder signal → action → useful body control + caregiver connection preserved".
 
-**Chunk association compiled**: Bladder chunks gắn **opioid + mild neutral cortisol**. Adult retrieval: smooth, minimal anxiety, body cooperates.
+**Chunk association compiled**: Bladder chunks bonded with **opioid + mild neutral cortisol**. Adult retrieval: smooth, minimal anxiety, body cooperates.
 
 **Adult outcome**: Normal bladder control, no residual anxiety, public restrooms unremarkable, enuresis (if present at any point) resolves normally.
 
@@ -727,7 +741,7 @@ Per [Cortisol-Baseline §3.5](../../Cortisol-Baseline.md#3.5) "4 threshold level
 
 ✅ **Framework verdict**: Level 1 is the optimal training context. This is what Body-Parenting-Optimization.md should recommend as primary.
 
-#### §7.3.2 — Level 2: VỪA (reasonable adult guidance, threat ~80:20)
+#### §7.3.2 — Level 2: Moderate (reasonable adult guidance, threat ~80:20)
 
 **Caregiver pattern**: Training initiated on age schedule (18-24mo) rather than child signal readiness. Accidents met with mild disapproval ("oh no, we try again next time"). Mild verbal reminders ("remember to go potty when you feel it"). Occasional mild frustration from caregiver ("we've talked about this"). No shame, no physical punishment, no voice-raising.
 
@@ -739,13 +753,13 @@ Per [Cortisol-Baseline §3.5](../../Cortisol-Baseline.md#3.5) "4 threshold level
 
 **Framework verdict**: ✅ Acceptable, especially when Level 1 is not feasible (caregiver time constraints, disability, medical reasons). Not optimal but not harmful.
 
-#### §7.3.3 — Level 3: NẶNG (strict schedule, shame-based, threat ~95:5)
+#### §7.3.3 — Level 3: Heavy (strict schedule, shame-based, threat ~95:5)
 
-**Caregiver pattern**: Strict age-based schedule starting early (<12mo in some cases). Accidents met with anger, disgust reaction, shame ("dơ quá!", "con hư!"), loss of caregiver warmth during accident events. Verbal pressure ongoing ("tại sao con không chịu!"). Successes taken for granted or minimally acknowledged. No physical punishment in standard Level 3 but the emotional withdrawal is substantial.
+**Caregiver pattern**: Strict age-based schedule starting early (<12mo in some cases). Accidents met with anger, disgust reaction, shame ("that's disgusting!", "you bad child!"), loss of caregiver warmth during accident events. Verbal pressure ongoing ("why won't you control yourself!"). Successes taken for granted or minimally acknowledged. No physical punishment in standard Level 3 but the emotional withdrawal is substantial.
 
 **Body state at compile**: Dominated by **threat cortisol** — Social mechanism (shame + disapproval) + Anticipation mechanism (child imagines next accident → more shame → more disapproval) fire simultaneously (per §7.0.4). Oxytocin drops (connection threatened by the connection source — §7.0.6). Schema fire: "bladder signal → possible shame event → body defends".
 
-**Chunk association compiled**: Bladder chunks gắn **strongly with threat cortisol**. Using the chunks later (adult life, bathroom events) re-activates the compiled body state residue: mild-to-moderate anxiety, tension, avoidance.
+**Chunk association compiled**: Bladder chunks bonded **strongly with threat cortisol**. Using the chunks later (adult life, bathroom events) re-activates the compiled body state residue: mild-to-moderate anxiety, tension, avoidance.
 
 **Adult outcome**: Bladder control is mechanically intact but carries emotional load. Public restroom avoidance (paruresis), anxiety about urgency in social contexts, occasional persistent nocturnal enuresis into adult life, higher rates of lower urinary tract dysfunction not explained by urology.
 
@@ -753,9 +767,9 @@ Per [Cortisol-Baseline §3.5](../../Cortisol-Baseline.md#3.5) "4 threshold level
 
 ⚠️ **Framework verdict**: Level 3 produces structural chunk-association damage that is updateable but slowly. The three update paths (re-associate via new experience / novelty hijack / therapy-assisted) each take months to years to reverse the pattern (per [Cortisol-Baseline §3.5](../../Cortisol-Baseline.md#3.5) end). Parents at Level 3 should be advised to move toward Level 1-2, not "try harder" at Level 3.
 
-#### §7.3.4 — Level 4: CỰC ĐOAN (traumatic, physical punishment, all mechanisms fire)
+#### §7.3.4 — Level 4: Extreme (traumatic, physical punishment, all mechanisms fire)
 
-**Caregiver pattern**: Physical punishment for accidents (hitting, forced cleaning as punishment, locked in bathroom, humiliation in front of others). Sustained shaming language ("dơ thú vật"). Threats of abandonment. Witnessed in extreme parenting contexts including some historical/cultural practices and active abuse situations.
+**Caregiver pattern**: Physical punishment for accidents (hitting, forced cleaning as punishment, locked in bathroom, humiliation in front of others). Sustained shaming language ("dirty like an animal"). Threats of abandonment. Witnessed in extreme parenting contexts including some historical/cultural practices and active abuse situations.
 
 **Body state at compile**: All 3 threat mechanisms fire (§7.0.4): Physical (actual pain), Social (shaming + loss of caregiver), Anticipation (imagining next accident → more violence). Amygdala maximally reinforced. Cortisol peaks into Stage 1 signal overload territory (§7.0.3). During chronic exposure, Stage 2 accumulated PFC wear also progresses — and the developing PFC is maximally vulnerable.
 
@@ -791,7 +805,7 @@ Per §7.0.3, chronic threat cortisol causes accumulated PFC wear (Stage 2). In a
 
 Bladder training is the cleanest test case for this prediction, now refined:
 
-- **Childhood compile body state**: Level 3 or Level 4 training → bladder chunks gắn threat cortisol + cumulative neural wear
+- **Childhood compile body state**: Level 3 or Level 4 training → bladder chunks bonded with threat cortisol + cumulative neural wear
 - **Chunk content**: "Bladder signal → action → caregiver response"
 - **Adult access context**: Normal public restroom, no current threat
 - **Prediction**: Adult experiences bladder-event discomfort disproportionate to current context
@@ -825,15 +839,15 @@ It also **validates the framework correction in §7.0.1** — it is specifically
 
 1. **Cortisol is not the enemy** — novelty cortisol (curious exploration of bladder signal + action) is beneficial; threat cortisol (shame/fear compile context) is the damaging variant. Parents who try to "lower all cortisol" by removing any challenge are removing the novelty-drive growth substrate. The goal is to shift the **direction** of body state, not the level.
 2. **4-threshold framework** (§7.3.1 through §7.3.4) replacing the binary "supportive vs punitive" framing:
-   - Level 1 (NHẸ) ✅ optimal — child-led Brazelton-style
-   - Level 2 (VỪA) ✅ acceptable — mild adult guidance
-   - Level 3 (NẶNG) ⚠️ produces persistent association damage
-   - Level 4 (CỰC ĐOAN) ❌ traumatic, requires immediate intervention
+   - Level 1 (Light) ✅ optimal — child-led Brazelton-style
+   - Level 2 (Moderate) ✅ acceptable — mild adult guidance
+   - Level 3 (Heavy) ⚠️ produces persistent association damage
+   - Level 4 (Extreme) ❌ traumatic, requires immediate intervention
 3. **Critical period window** (12-30mo) with specific mechanism (chunks reach plasticity threshold Stage B → maximally shaped by body state during 12-18mo compile, stabilize by 18-30mo).
 4. **3-mechanism × 3-origin taxonomy** applied to parenting: recognize that a single punitive episode fires Social + Anticipation mechanisms simultaneously (not just "cortisol tagging"). This is why chronic Level 3 is disproportionately damaging compared to occasional stress.
 5. **Imposed parent = connection source + threat source simultaneously** — the structural reason parent-sourced threats are the most damaging origin and cannot be buffered by the same mechanisms that buffer peer or domain threats.
 6. **Neural wear dimension** — chronic Level 3/4 training contributes to cumulative ACE load on developing PFC, not just bladder chunk damage. Frame outcomes in terms of whole-child cost, not just urological outcome.
-7. **Update paths for already-damaged chunks**: parents who realize they were at Level 3 should not blame themselves but take the 3 update paths (re-associate via new experiences / novelty hijack / therapy) as a pathway forward. "Chunks gắn threat" is recoverable, not fixed-for-life.
+7. **Update paths for already-damaged chunks**: parents who realize they were at Level 3 should not blame themselves but take the 3 update paths (re-associate via new experiences / novelty hijack / therapy) as a pathway forward. "Chunks bonded with threat" is recoverable, not fixed-for-life.
 
 **Integration target**: Body-Parenting-Optimization.md toilet training section + new framework-foundations note pointing readers to Cortisol-Baseline.md + Threat-Drive-Analysis.md for mechanism depth.
 
@@ -841,7 +855,7 @@ It also **validates the framework correction in §7.0.1** — it is specifically
 
 ---
 
-## §8 — H11 anchor case: bladder gap formalization (Nút Thắt 5 primary home)
+## §8 — H11 anchor case: bladder gap formalization (Convergence Point 5 primary home)
 
 > H11 Receptive-Productive Asymmetry is the hypothesis that comprehension/receptive chunks precede production chunks by 6-12 months because production requires more chunk types (including motor articulation + social feedback + grammar scaffolding) than comprehension. 04 §9 provided cross-modality evidence (13.5mo name gap). 05 §7 provided cross-motor-channel evidence (4-8mo gesture-verbal gap). 06a provides **within-body-state evidence** — the cleanest possible isolation of H11 because it holds body state, signal, and motor system constant.
 
@@ -855,13 +869,13 @@ It also **validates the framework correction in §7.0.1** — it is specifically
 
 ### §8.2 — Productive side (Stage D L4, ~22-24 months)
 
-**What the baby "produces"**: Verbal label "buồn đái" + planned walk to bathroom or caregiver call.
+**What the baby "produces"**: Verbal label "need to pee" + planned walk to bathroom or caregiver call.
 
 **Chunks required**: 4-6 chunks
 1. Associative chunk (carried from Stage B)
-2. Predictive temporal chunk ("sắp đái" not "đang đái")
-3. Verbal label chunk ("buồn đái" semantic content)
-4. Verbal articulation motor chunk (mouth/tongue/breath for "buồn đái" sound sequence)
+2. Predictive temporal chunk ("about to pee", not "currently peeing")
+3. Verbal label chunk ("need to pee" semantic content)
+4. Verbal articulation motor chunk (mouth/tongue/breath for "need to pee" sound sequence)
 5. Social communication chunk (caregiver is addressable and will respond)
 6. Walking + spatial navigation chunk (to bathroom) OR gesture chunk (to summon caregiver)
 
@@ -894,7 +908,7 @@ This is of course only a first-approximation model. Real compile rates depend on
 | 05 §7 | Within-child gesture-verbal | 4-8mo (14mo → 18-22mo) | Motor output channel (hand vs mouth) |
 | 06a §8 | Within-body-state Stage B-D | 6-10mo (12-18mo → 22mo) | Receptive vs productive within single interoceptive state |
 
-Three orthogonal isolations → converging evidence for the same H11 mechanism claim. This is the strongest empirical base for H11 available in F1, and it will feed directly into [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §6 full H11 formalization in N+4c2.
+Three orthogonal isolations → converging evidence for the same H11 mechanism claim. This is the strongest empirical base for H11 available in F1, and it will feed directly into [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §6 full H11 formalization.
 
 ### §8.6 — Cross-case validation strengthens H11 mechanism
 
@@ -929,7 +943,7 @@ The **ratio** is consistently ~1:3 to 1:4 across all three lines. This convergen
 
 - 🟢 **Brazelton, T.B. (1962).** "A child-oriented approach to toilet training." *Pediatrics* 29:121-128. ~1170 children longitudinal sample, child-led vs age-based methods. Primary anchor for §7.3 supportive training evidence.
 - 🟡 **Bakker, E. & Wyndaele, J.J. (2000).** "Changes in the toilet training of children during the last 60 years: the cause of an increase in lower urinary tract dysfunction?" *BJU Int* 86:248-252. Correlation between training stress and adult dysfunction. Primary anchor for §7.4 punitive training evidence.
-- 🟡 **Hodges, S.J. & Anthony, E.Y. (2012).** Toilet training readiness + anxiety correlation. Less specific citation but relevant to §7.4.
+- 🟡 **Hodges, S.J. & Anthony, E.Y. (2012).** Toilet training readiness + anxiety correlation.
 - 🟢 **Rabinowitz, R. et al. (1989).** "Measurement of fetal urine production in normal pregnancy by real-time ultrasonography." *Am J Obstet Gynecol* 161:1264-1266. Fetal bladder cycling from ~10 weeks gestation. Anchor for §2.4.
 
 ### §9.3 — PFC reframe (load-bearing from 01)
@@ -948,21 +962,21 @@ The **ratio** is consistently ~1:3 to 1:4 across all three lines. This convergen
 ### §9.5 — Feel-Example anchors
 
 - [Feel-Example E3](../../Body-Base/Feeling/Feel-Example-Draft.md#e3) — newborn wet diaper cry, 3 weeks (Stage A L1 anchor)
-- [Feel-Example E22](../../Body-Base/Feeling/Feel-Example-Draft.md#e22) — pain localization "đau chân" 20 months (cross-referenced for 06b + body schema integration)
-- [Feel-Example E23](../../Body-Base/Feeling/Feel-Example-Draft.md#e23) — "buồn đái" 22 months ⭐ (Stage D L4 primary anchor — first predictive interoception verbalized)
-- [Feel-Example E24](../../Body-Base/Feeling/Feel-Example-Draft.md#e24) — "buồn ỉa" 24 months (template transfer anchor)
+- [Feel-Example E22](../../Body-Base/Feeling/Feel-Example-Draft.md#e22) — pain localization "leg hurts" 20 months (cross-referenced for 06b + body schema integration)
+- [Feel-Example E23](../../Body-Base/Feeling/Feel-Example-Draft.md#e23) — "need to pee" 22 months ⭐ (Stage D L4 primary anchor — first predictive interoception verbalized)
+- [Feel-Example E24](../../Body-Base/Feeling/Feel-Example-Draft.md#e24) — "need to poop" 24 months (template transfer anchor)
 
 ### §9.6 — Framework files
 
-- [plan.md §0.5 Q8](plan.md#q8) — user's original đơ mặt observation verbatim
+- [plan.md §0.5 Q8](plan.md#q8) — user's original face-freeze observation verbatim
 - [plan.md §0.5 Q9](plan.md#q9) — pattern-match-not-plan-failing refinement verbatim
-- [01-PFC-Hardware-Reframe.md §4](01-PFC-Hardware-Reframe.md#§4) — 5 pillars of PFC hardware online
-- [01-PFC-Hardware-Reframe.md §6](01-PFC-Hardware-Reframe.md#§6) — event-inference methodology rule
-- [01-PFC-Hardware-Reframe.md §7.1](01-PFC-Hardware-Reframe.md#§71) — "không feel buồn đái" Example 1 reframe (this file drills it)
-- [02-Womb-to-Birth-Baseline.md §9.1](02-Womb-to-Birth-Baseline.md#§91) — F1 baseline state at t=0
-- [04-Auditory-System-Arc.md §6.4](04-Auditory-System-Arc.md#§64) — Nút Thắt 1 gradient verdict (cited in §3.2 for bladder compile gradient)
+- [01-PFC-Hardware-Reframe.md §4](../Foundation/01-PFC-Hardware-Reframe.md#§4) — 5 pillars of PFC hardware online
+- [01-PFC-Hardware-Reframe.md §6](../Foundation/01-PFC-Hardware-Reframe.md#§6) — event-inference methodology rule
+- [01-PFC-Hardware-Reframe.md §7.1](../Foundation/01-PFC-Hardware-Reframe.md#§71) — "cannot feel the urge to pee" Example 1 reframe (this file drills it)
+- [02-Womb-to-Birth-Baseline.md §9.1](../Foundation/02-Womb-to-Birth-Baseline.md#§91) — F1 baseline state at t=0
+- [04-Auditory-System-Arc.md §6.4](04-Auditory-System-Arc.md#§64) — Convergence Point 1 gradient verdict (cited in §3.2 for bladder compile gradient)
 - [05-Motor-Output-Arc.md §7](05-Motor-Output-Arc.md#§7) — H11 within-child gesture-verbal evidence (complementary H11 line to 06a §8)
-- [Body-Feedback-Draft/01-Foundation.md §5.5.1](../Body-Feedback-Draft/01-Foundation.md#§551) — đái gradient verbatim example (N+3 abstract, 06a mechanism ground)
+- [Body-Feedback-Draft/01-Foundation.md §5.5.1](../Body-Feedback-Draft/01-Foundation.md#§551) — bladder gradient verbatim example (N+3 abstract, 06a mechanism ground)
 - [Body-Base/Body-Input-Enumeration.md §4.9](../../Body-Base/Body-Input-Enumeration.md#§49) — self-signal interoception as reading capacity keystone
 
 ---
@@ -972,9 +986,9 @@ The **ratio** is consistently ~1:3 to 1:4 across all three lines. This convergen
 ### §10.1 — Within F1 Child-Chunk-Development
 
 **Backward**:
-- [00-Chunk-System-Sketch.md](00-Chunk-System-Sketch.md) — F1 sub-folder orientation
-- [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) — §4 5 pillars, §6 methodology rule, §7.1 Example 1 reframe
-- [02-Womb-to-Birth-Baseline.md](02-Womb-to-Birth-Baseline.md) — §9.1 baseline, §4 prenatal bladder cycling absent from prenatal chunks list (asymmetry noted)
+- [00-Chunk-System-Sketch.md](../Foundation/00-Chunk-System-Sketch.md) — F1 sub-folder orientation
+- [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md) — §4 5 pillars, §6 methodology rule, §7.1 Example 1 reframe
+- [02-Womb-to-Birth-Baseline.md](../Foundation/02-Womb-to-Birth-Baseline.md) — §9.1 baseline, §4 prenatal bladder cycling absent from prenatal chunks list (asymmetry noted)
 - [03-Visual-System-Arc.md](03-Visual-System-Arc.md) — §3.8 object permanence gradient as parallel gradient evidence
 - [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) — §6.4 gradient verdict (bladder compile consistent with verdict); §9 name-gap H11 line
 - [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) — §7 H11 within-child gesture-verbal line (complementary)
@@ -983,12 +997,12 @@ The **ratio** is consistently ~1:3 to 1:4 across all three lines. This convergen
 - [06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md) — applies 06a methodology to hunger/pain/thermal/emotional
 - [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) — emotional interoceptive chunks via social smile E12 (cross-body-input)
 - [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) — H11 full formalization uses 06a §8 as anchor
-- [09-Event-Chunks-Inference-Matrix.md](09-Event-Chunks-Inference-Matrix.md) — aggregated event table includes all 06a events
-- [10-F1-Synthesis.md](10-F1-Synthesis.md) — 7 Nút Thắt verdicts cite 06a for 2, 4, 5, 7
+- [09-Event-Chunks-Inference-Matrix.md](../09-Event-Chunks-Inference-Matrix.md) — aggregated event table includes all 06a events
+- [10-F1-Synthesis.md](../10-F1-Synthesis.md) — 7 Convergence Points verdicts cite 06a for 2, 4, 5, 7
 
 ### §10.2 — Other drilled Chunk-Analysis folders
 
-- [Body-Feedback-Draft/01-Foundation.md §5.5.1](../Body-Feedback-Draft/01-Foundation.md#§551) — đái gradient verbatim example (bidirectional — 06a grounds mechanism)
+- [Body-Feedback-Draft/01-Foundation.md §5.5.1](../Body-Feedback-Draft/01-Foundation.md#§551) — bladder gradient verbatim example (bidirectional — 06a grounds mechanism)
 - [Body-Feedback-Draft/04-Integration.md §9](../Body-Feedback-Draft/04-Integration.md#§9) — Precondition-2 Chunk-Substrate (06a resolves mechanism)
 - [Agent/](../Agent/) — not directly referenced in 06a but 07 will cross-reference Resonance
 
@@ -1001,7 +1015,7 @@ The **ratio** is consistently ~1:3 to 1:4 across all three lines. This convergen
 
 ### §10.4 — Imagination framework
 
-- [Imagination/PFC-Analysis.md §4.0](../../Imagination/PFC-Analysis.md#§40) — REFRAME block Example 1 "không feel buồn đái" (06a is the full drill of this example)
+- [Imagination/PFC-Analysis.md §4.0](../../Imagination/PFC-Analysis.md#§40) — REFRAME block Example 1 "cannot feel the urge to pee" (06a is the full drill of this example)
 
 ---
 
@@ -1009,7 +1023,7 @@ The **ratio** is consistently ~1:3 to 1:4 across all three lines. This convergen
 
 ### §11.1 — Empirical questions (research opportunities)
 
-1. **Direct longitudinal validation of đơ mặt marker.** No published study tracks the pattern-match pause before voiding with timestamped observation. The falsifiable predictions in §5.7 are feasible for any well-resourced developmental research lab. This is the single most important empirical validation opportunity from this file.
+1. **Direct longitudinal validation of face-freeze marker.** No published study tracks the pattern-match pause before voiding with timestamped observation. The falsifiable predictions in §5.7 are feasible for any well-resourced developmental research lab. This is the single most important empirical validation opportunity from this file.
 
 2. **Stage A → B transition timing distribution.** Population-level distribution of onset age for Stage B is unknown. Anecdotal reports suggest 11-18 months range. A proper distribution study would also enable Prediction 3 testing (culture-dependent variance).
 
@@ -1017,7 +1031,7 @@ The **ratio** is consistently ~1:3 to 1:4 across all three lines. This convergen
 
 4. **Cross-cultural variation.** Traditional cultures practicing elimination communication report earlier awareness (6-12mo anecdotally). Is this Stage B onset earlier, or is it a different developmental trajectory altogether? Framework prediction: earlier Stage B due to higher repetition × caregiver contingent response rate.
 
-5. **Is "đơ mặt" empirically documented outside this framework?** Quick literature search finds no specific named marker in developmental psychology or pediatric urology. Deeper search may find equivalent observations under different terminology. Important to establish novelty vs. re-discovery of existing work.
+5. **Is "face-freeze" empirically documented outside this framework?** Quick literature search finds no specific named marker in developmental psychology or pediatric urology. Deeper search may find equivalent observations under different terminology. Important to establish novelty vs. re-discovery of existing work.
 
 ### §11.2 — Framework questions (to resolve in later files)
 
@@ -1033,7 +1047,7 @@ The **ratio** is consistently ~1:3 to 1:4 across all three lines. This convergen
 
 ### §11.3 — Methodological questions
 
-11. **How to disambiguate L2 "đơ mặt" from L3 "mild squirm" in marginal cases?** The ladder classification assumes discrete levels but §3.4 operational criteria acknowledge edge cases. A more refined observational coding scheme may be needed for research use.
+11. **How to disambiguate L2 "face-freeze" from L3 "mild squirm" in marginal cases?** The ladder classification assumes discrete levels but §3.4 operational criteria acknowledge edge cases. A more refined observational coding scheme may be needed for research use.
 
 12. **What's the minimum observational window for reliable Stage B detection?** Is one week of attentive observation enough? Two weeks? A month? This matters for parent-report vs researcher-observation reliability.
 
@@ -1043,22 +1057,22 @@ The **ratio** is consistently ~1:3 to 1:4 across all three lines. This convergen
 
 **File status**: DRAFT N+4c1 P10 — ready for user review. ⭐⭐ MANDATORY REVIEW STOP per plan §5.5.
 
-**Nút Thắt delivered**:
-- ⭐ Nút Thắt 2 (Precondition-2 Chunk-Substrate) — primary home content in §6; mechanism resolved with 4-channel compile + exposure × saliency × contingency × valence rate analysis
-- ⭐ Nút Thắt 5 (H11 Receptive-Productive) — within-body-state anchor case in §8; 1:3 ratio consistency with 04 + 05 lines
-- ⭐ Nút Thắt 7 (Cortisol tagging critical period) — §7 with toilet training as test case; 12-30mo window proposed
-- ⭐ Nút Thắt 4 (PFC hardware × chunks missing) reinforcement — §3.6 Stage B as strongest within-F1 falsification
+**Convergence Points delivered**:
+- ⭐ Convergence Point 2 (Precondition-2 Chunk-Substrate) — primary home content in §6; mechanism resolved with 4-channel compile + exposure × saliency × contingency × valence rate analysis
+- ⭐ Convergence Point 5 (H11 Receptive-Productive) — within-body-state anchor case in §8; 1:3 ratio consistency with 04 + 05 lines
+- ⭐ Convergence Point 7 (Cortisol tagging critical period) — §7 with toilet training as test case; 12-30mo window proposed
+- ⭐ Convergence Point 4 (PFC hardware × chunks missing) reinforcement — §3.6 Stage B as strongest within-F1 falsification
 
 **Framework contribution**:
-- R-F1-2 logged: "đơ mặt" as developmental marker — full formalization in §5 with operational definition, 4 falsifiable predictions, 2 counter-hypothesis rejections
+- R-F1-2 logged: "face-freeze" as developmental marker — full formalization in §5 with operational definition, 4 falsifiable predictions, 2 counter-hypothesis rejections
 - R-F1-4 logged: update Body-Feedback-Draft §5.5 with F1 substrate evidence
 - R-F1-7 logged: update Body-Parenting-Optimization toilet training section
 
-**User quotes preserved verbatim** (4):
-- plan §0.5 Q8 (originating đơ mặt observation) — §0 Abstract + §5.1
+**User Vietnamese quotes preserved verbatim** (4) with English translations:
+- plan §0.5 Q8 (originating face-freeze observation) — §0 Abstract + §5.1
 - plan §0.5 Q9 (pattern-match-not-plan-failing refinement) — §0 Abstract + §5.2
-- Feel-Example E24 "biết buồn đái rồi → dễ biết buồn ỉa hơn" — §4.3
-- Feel-Example E23 "first clear instance of predictive interoception verbalized" — §4.2
+- Feel-Example E24 "already knows 'need to pee' → easier to know 'need to poop'" — §4.3
+- Feel-Example E23 "FIRST CLEAR INSTANCE OF PREDICTIVE INTEROCEPTION VERBALIZED" — §4.2
 
 **Framework rules maintained**:
 - ✅ Event-inference methodology (01 §6.3 rule template) applied to every stage
@@ -1068,19 +1082,28 @@ The **ratio** is consistently ~1:3 to 1:4 across all three lines. This convergen
 - ✅ Baseline state from 02 §9.1 cited
 - ✅ Feel-Example cross-references bidirectional with line numbers
 - ✅ No personal examples — only general situations + published research
-- ✅ Tiếng Việt primary + English technical terms
-- ✅ Verbatim user quotes preserved with source attribution
+- ✅ "Nút Thắt" → "Convergence Point" throughout
+- ✅ "đơ mặt" → "face-freeze" throughout
+- ✅ "buồn đái" → "need to pee" throughout
+- ✅ "buồn ỉa" → "need to poop" throughout
+- ✅ User Vietnamese quotes preserved with English translations added
 
 **Cross-references bidirectional**:
 - Backward to 00, 01, 02, 03, 04, 05, Body-Feedback-Draft, Body-Input-Enumeration, Feel-Example, PFC-Analysis
 - Forward to 06b, 07, 08, 09, 10
 
 **Expected review points** (for user):
-1. Does the đơ mặt formalization accurately preserve user's Q8+Q9 intent?
-2. Is the 4-Nút-Thắt loading too dense? Should any content move to 06b or 08?
+1. Does the face-freeze formalization accurately preserve user's Q8+Q9 intent?
+2. Is the 4-Convergence-Point loading too dense? Should any content move to 06b or 08?
 3. Are the falsifiable predictions in §5.7 concrete enough?
 4. Does §7 cortisol tagging critical period framing match user's intended Precondition-5 Compile-Gate linkage?
 5. Is the H11 1:3 ratio calculation in §8.4 reasonable for framework commitment, or too speculative?
-6. Any terminology adjustments ("đơ mặt" English translation, etc.)?
+6. Any terminology adjustments for "face-freeze" as English translation of "đơ mặt"?
 
 **Next after review**: Phase F1-P11 drill of [06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md) applying 06a methodology to hunger, pain, thermal, emotional states (parallel structure, shorter due to methodology established here).
+
+---
+
+> **06a-Interoceptive-Bladder-Keystone.md — End of file.**
+>
+> F1 interoceptive arc #1 (bladder keystone). Full L0→L4 PFC-Inference Ladder within a single body state. "Face-freeze" formalized as observable L2 marker. Convergence Points 2 (Precondition-2), 5 (H11), 7 (cortisol tagging), and 4 (PFC falsification) all addressed. ⭐⭐ Mandatory user review before proceeding to 06b.

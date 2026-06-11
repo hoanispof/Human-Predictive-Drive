@@ -16,115 +16,119 @@ dependencies:
   - Schema/Chunk.md §2 (meta-chunk compile)
   - Neural-Processing-Flow.md (hardware)
 test_hypothesis: H2
-language: Tiếng Việt primary + English technical
+language: English
 ---
 
 # 01 — Chunk Connection Logical
 
-> **File này drill**: Khi PFC hold 2+ chunks → kiểm tra mối quan hệ → body vote →
-> kết quả. Thread 2 từ Feeling Deep Analysis. H2 test: đây có phải connection type
-> THỨ 4, DISTINCT so với 3 types đã có?
+> **This file drills**: When PFC holds 2+ chunks → checks the relationship → body vote →
+> result. Thread 2 from Feeling Deep Analysis. H2 test: is this connection type
+> FOUR, DISTINCT from the 3 existing types?
 
 ---
 
-## §1 — Vấn đề trung tâm
+## §1 — The Central Problem
 
-### §1.1 — Câu hỏi
+### §1.1 — The Question
 
 ```
-KHI PFC HOLD CHUNK A + CHUNK B, CÁI GÌ XẢY RA?
+WHEN PFC HOLDS CHUNK A + CHUNK B, WHAT HAPPENS?
 
 User's formulation (verbatim):
-  "2 chunk sẽ cho cảm giác chúng nối với nhau, PFC hold và chúng có 
-   nối được với nhau không, nhưng não bộ không phải là 2 cục neuron 
-   nối với nhau, mà là pattern fire ở nhiều vùng não, và pattern nào 
+  "2 chunk sẽ cho cảm giác chúng nối với nhau, PFC hold và chúng có
+   nối được với nhau không, nhưng não bộ không phải là 2 cục neuron
+   nối với nhau, mà là pattern fire ở nhiều vùng não, và pattern nào
    đó được coi là 1 chunk"
+  [English: "2 chunks will give the feeling of connecting to each other, PFC
+   holds them and checks whether they can connect — but the brain is not 2
+   neurons wired together, it's patterns firing across many brain regions,
+   and some pattern is treated as 1 chunk"]
 
-Câu hỏi cụ thể:
-  ① CƠ CHẾ gì xảy ra khi PFC hold 2 chunks cùng lúc?
-  ② Body "vote" connection kiểu gì?
-  ③ H2: Đây có phải TYPE 4 connection, DISTINCT so với 3 types đã có?
+Specific questions:
+  ① What MECHANISM occurs when PFC holds 2 chunks simultaneously?
+  ② How does the body "vote" on the connection?
+  ③ H2: Is this TYPE 4, DISTINCT from the 3 existing types?
 ```
 
-### §1.2 — 3 connection types đã có (context cho H2)
+### §1.2 — 3 existing connection types (context for H2)
 
 ```
 TYPE 1 — SHARED CONTAMINATION (Schema.md §2):
-  = 2 chunks CHIA CHUNG neurons/areas → fire lẫn nhau
-  = VÔ THỨC, không cần PFC
+  = 2 chunks SHARE neurons/areas → fire into each other
+  = UNCONSCIOUS, no PFC required
   
   Mechanism:
-    Chunk A fire → neuron overlap → chunk B CŨNG fire nhẹ
-    = "Cross-contamination" — fire A → B tự fire vì shared substrate
+    Chunk A fires → neuron overlap → chunk B ALSO fires weakly
+    = "Cross-contamination" — firing A → B fires automatically via shared substrate
     
-  Đặc điểm:
-    → Automatic, không chủ đích
-    → Strength phụ thuộc overlap extent
-    → Có thể lành mạnh (yêu → hồi hộp → háo hức)
-    → Có thể pathological (yêu → hồi hộp → sợ bị bỏ = trauma contamination)
+  Characteristics:
+    → Automatic, unintentional
+    → Strength depends on overlap extent
+    → Can be healthy (love → excitement → eagerness)
+    → Can be pathological (love → excitement → fear of abandonment = trauma contamination)
     → 🟢 Spreading activation — Collins & Loftus 1975
 
 
 TYPE 2 — AHA MOMENT (Chunk-Search-Advanced §2):
-  = 2+ chunks CŨ bỗng LINK theo cách MỚI → sudden burst
-  = Phần lớn VÔ THỨC (DMN, incubation), emerge bất ngờ
+  = 2+ OLD chunks suddenly LINK in a NEW way → sudden burst
+  = Mostly UNCONSCIOUS (DMN, incubation), emerges unexpectedly
   
   Mechanism:
-    ① Chunks simmering in background (PFC thả, DMN active)
+    ① Chunks simmering in background (PFC releases, DMN active)
     ② Suddenly: connection fires → BURST activation
-    ③ VTA fires (dopamine = SALIENCE ALERT: "biến động lớn!" — chuông cửa)
+    ③ VTA fires (dopamine = SALIENCE ALERT: "major shift!" — doorbell rings)
     ④ Connection resolves pending schemas / dissonance →
-       body-need match → OPIOID RELEASE = actual reward (quà đằng sau cửa)
+       body-need match → OPIOID RELEASE = actual reward (the gift behind the door)
        (🟢 Berridge 2003: dopamine = wanting, opioid = liking)
     ⑤ IF threat was present (e.g., deadline, pending problem):
-       threat resolved → cortisol RÚT DẦN (hậu quả, KHÔNG phải nguyên nhân)
+       threat resolved → cortisol WITHDRAWS GRADUALLY (consequence, NOT cause)
        = Additional relief signal on top of opioid reward
-    ⑥ PFC observe: "à, A liên quan B qua C!"
+    ⑥ PFC observes: "ah, A relates to B via C!"
     ⑦ Novel chunk compiles (emotional peak mechanism)
 
     ⭐ FRAMEWORK CORRECTION (N+10):
        OLD (mainstream): "dopamine + cortisol DROP → EUREKA!"
        NEW (framework-consistent): eureka REWARD = opioid (body-need match).
-       Dopamine = salience alert, KHÔNG gây pleasant.
-       Cortisol drop = hậu quả threat resolution, KHÔNG phải nguyên nhân reward.
+       Dopamine = salience alert, does NOT cause pleasant sensation.
+       Cortisol drop = consequence of threat resolution, NOT the cause of reward.
        (Refs: Body-Feedback-Draft/03-Reward.md §2, Cortisol-Baseline.md §1)
 
     ⭐ EUREKA INTENSITY varies by context:
-       Archimedes: threat (lệnh vua) + curiosity → resolve BOTH
-         → opioid (schema match) + cortisol drops (threat resolved) = CỰC SƯỚNG
-       Einstein: NO threat, chỉ dissonance → resolve dissonance only
-         → opioid (deep satisfaction) nhưng less explosive (no threat relief)
-       Học sinh positive: short dissonance + endpoint → resolve nhanh
-         → opioid nhẹ + cortisol drops = bình thường
-       Học sinh negative (mẹ ép): threat MÃN TÍNH, no endpoint
-         → học xong nhưng threat KHÔNG resolve → cortisol DUY TRÌ
-         → body-need "an toàn" KHÔNG match → NO proper opioid reward
+       Archimedes: threat (king's order) + curiosity → resolve BOTH
+         → opioid (schema match) + cortisol drops (threat resolved) = EXTREMELY SATISFYING
+       Einstein: NO threat, only dissonance → resolve dissonance only
+         → opioid (deep satisfaction) but less explosive (no threat relief)
+       Student (positive): short dissonance + clear endpoint → resolves fast
+         → mild opioid + cortisol drops = normal
+       Student (negative, forced by parent): chronic threat, no endpoint
+         → learns but threat DOES NOT resolve → cortisol PERSISTS
+         → body-need "safety" DOES NOT match → NO proper opioid reward
          → = Toxic: learning without reward cycle
 
-  Đặc điểm:
+  Characteristics:
     → Sudden (gamma burst — 🟢 Kounios & Beeman 2009)
-    → Cannot be forced — chỉ tạo ĐIỀU KIỆN (incubation)
+    → Cannot be forced — can only create CONDITIONS (incubation)
     → Reward = opioid (resolve schemas + body-need match), NOT dopamine
     → Intensity ∝ (number of schemas resolved × threat relief if present)
-    → Compile nhanh (emotional peak mechanism)
-    → Cross-domain = aha LỚN nhất (resolve more schemas = more opioid)
+    → Compiles quickly (emotional peak mechanism)
+    → Cross-domain = BIGGEST aha (resolve more schemas = more opioid)
 
 
 TYPE 3 — META-CHUNK COMPILE (Chunk.md §2):
-  = Nhiều chunks fire cùng nhau → compile thành 1 UNIT lớn hơn
-  = Gradual, qua REPETITION
+  = Many chunks fire together → compile into 1 LARGER unit
+  = Gradual, via REPETITION
   
   Mechanism:
-    ① Chunks A + B + C fire cùng nhau NHIỀU LẦN
+    ① Chunks A + B + C fire together MANY TIMES
     ② Hebbian: "neurons that fire together wire together"
-    ③ Dần dần: A+B+C → [ABC] = 1 meta-chunk
+    ③ Gradually: A+B+C → [ABC] = 1 meta-chunk
     ④ Fire as single unit → free WM capacity
     
-  Đặc điểm:
-    → Gradual (cần repetition)
-    → Tạo HIERARCHY: chunks → meta-chunks → schemas
+  Characteristics:
+    → Gradual (requires repetition)
+    → Creates HIERARCHY: chunks → meta-chunks → schemas
     → Expert: 50,000+ chess patterns = meta-chunks (🟢 Chase & Simon 1973)
-    → PFC freed khi meta-chunk compiled (auto-run)
+    → PFC freed when meta-chunk compiled (auto-run)
 ```
 
 ---
@@ -135,15 +139,15 @@ TYPE 3 — META-CHUNK COMPILE (Chunk.md §2):
 
 ```
 H2 CLAIM:
-  Khi PFC CHỦ ĐÍCH hold chunk A + chunk B trong Working Memory,
-  kiểm tra mối quan hệ giữa chúng, và body "vote" kết quả
-  → đây là connection type THỨ 4, DISTINCT so với 3 types trên.
+  When PFC DELIBERATELY holds chunk A + chunk B in Working Memory,
+  checks the relationship between them, and body "votes" the result
+  → this is the FOURTH connection type, DISTINCT from the 3 types above.
 
-WHAT MAKES IT DISTINCT (nếu H2 đúng):
+WHAT MAKES IT DISTINCT (if H2 is correct):
 
   vs Type 1 (Contamination):
-    Type 1 = VÔ THỨC, automatic fire qua shared neurons
-    Type 4 = CHỦ ĐÍCH, PFC intentionally hold + check
+    Type 1 = UNCONSCIOUS, automatic fire via shared neurons
+    Type 4 = DELIBERATE, PFC intentionally holds + checks
     → Different trigger: automatic vs intentional
 
   vs Type 2 (Aha):
@@ -162,48 +166,48 @@ WHAT MAKES IT DISTINCT (nếu H2 đúng):
 ### §2.2 — Mechanism drill: PFC intentional connection
 
 ```
-🟡 CƠ CHẾ CỤ THỂ (framework synthesis from established components):
+🟡 SPECIFIC MECHANISM (framework synthesis from established components):
 
 STEP 1 — PFC LOAD:
-  PFC hold chunk A in WM slot 1
-  PFC hold chunk B in WM slot 2
+  PFC holds chunk A in WM slot 1
+  PFC holds chunk B in WM slot 2
   → Cowan 2001: ~3-5 slots available
   → 🟢 Prefrontal sustained activity during working memory (Fuster 1973+)
 
 STEP 2 — PATTERN OVERLAP CHECK:
-  Chunk A = pattern fire across cortical areas (visual, auditory, somatic...)
-  Chunk B = pattern fire across OTHER cortical areas
+  Chunk A = pattern fires across cortical areas (visual, auditory, somatic...)
+  Chunk B = pattern fires across OTHER cortical areas
   
   3 possible overlap outcomes:
   
-  (a) SIGNIFICANT OVERLAP — A và B share nhiều neurons/areas:
+  (a) SIGNIFICANT OVERLAP — A and B share many neurons/areas:
       → Spreading activation: A's firing FACILITATES B's firing
-      → Body signal: "smooth" — "nối được, liên quan"
-      → PFC reads: "A liên quan B"
-      → Example: "mẹ" + "ấm" → high overlap → "mẹ = ấm áp" feels smooth
+      → Body signal: "smooth" — "connects, related"
+      → PFC reads: "A relates to B"
+      → Example: "mom" + "warm" → high overlap → "mom = warmth" feels smooth
   
-  (b) MINIMAL OVERLAP — A và B share ít neurons:
-      → Spreading activation yếu: A's firing does NOT facilitate B
-      → Body signal: "neutral / empty" — "không liên quan"
-      → PFC reads: "A không liên quan B"
-      → Example: "toán" + "trời mưa" → low overlap → "?" feels empty
+  (b) MINIMAL OVERLAP — A and B share few neurons:
+      → Spreading activation weak: A's firing does NOT facilitate B
+      → Body signal: "neutral / empty" — "unrelated"
+      → PFC reads: "A does not relate to B"
+      → Example: "math" + "rainy day" → low overlap → "?" feels empty
   
-  (c) CONFLICT OVERLAP — A và B share neurons BUT fire INCOMPATIBLE patterns:
-      → Spreading activation BLOCKED: A and B fire nhưng mâu thuẫn
-      → ACC detect conflict → body signal: "resistance" — "sai sai, mâu thuẫn"
+  (c) CONFLICT OVERLAP — A and B share neurons BUT fire INCOMPATIBLE patterns:
+      → Spreading activation BLOCKED: A and B fire but contradict each other
+      → ACC detects conflict → body signal: "resistance" — "something's off, contradictory"
       → 🟢 ACC conflict monitoring — Botvinick et al. 2004
-      → PFC reads: "A mâu thuẫn với B"
-      → Example: "anh ấy tốt" + "anh ấy nói dối" → conflict → "sao kỳ vậy?"
+      → PFC reads: "A contradicts B"
+      → Example: "he's a good person" + "he lied" → conflict → "why is that strange?"
 
 STEP 3 — BODY VOTE:
   Body produces INTEGRATED signal based on overlap check:
   
   → "Smooth" (many shared areas fire coherently):
-     Opioid MICRO-DOSE → PFC feel "mượt, hợp lý"
+     Opioid MICRO-DOSE → PFC feels "seamless, logical"
      → Connection ACCEPTED
   
   → "Resistance" (conflict detected):
-     ACC alert + mild cortisol → PFC feel "sai sai, cản"
+     ACC alert + mild cortisol → PFC feels "something's off, blocked"
      → Connection REJECTED or flagged for investigation
   
   → "Empty" (no significant overlap):
@@ -211,32 +215,32 @@ STEP 3 — BODY VOTE:
      → Connection NOT FOUND (neutral)
   
   → "Surprise" (unexpected overlap found):
-     Dopamine + norepinephrine → PFC feel "ồ, thú vị"
+     Dopamine + norepinephrine → PFC feels "oh, interesting"
      → Connection DISCOVERED → may transition to Type 2 (aha) if strong enough
 
 STEP 4 — ARTICULATION:
-  PFC articulate relationship: "A liên quan B VÌ X"
+  PFC articulates relationship: "A relates to B BECAUSE X"
   → Creates VERBAL TAG for the connection
-  → Tag = anchor cho relationship (F3 Direction B applied to connections)
+  → Tag = anchor for the relationship (F3 Direction B applied to connections)
   → Strengthens the connection via explicit labeling (NT6 verbal-as-handle)
 
 STEP 5 — OUTPUT STORAGE:
   2 possible outcomes:
   
-  (a) LINK stored — A and B remain separate chunks, nhưng có 1 relationship
-      tag: "A → liên quan → B" (semantic link)
-      → Chunks không merge → vẫn 2 chunks riêng
-      → Link tag = MỚI, nhưng chunks = CŨ
-      → = "Tôi biết A liên quan B" — metadata, not content
+  (a) LINK stored — A and B remain separate chunks, but with 1 relationship
+      tag: "A → relates to → B" (semantic link)
+      → Chunks do not merge → still 2 separate chunks
+      → Link tag = NEW, but chunks = SAME
+      → = "I know A relates to B" — metadata, not content
   
   (b) If connection strong enough + repeated → ESCALATE to Type 3:
-      A + B + relationship → compile thành meta-chunk [AB]
-      → Type 4 becomes Type 3 (dần merge)
-      → = "Ban đầu tôi THẤY A liên quan B, giờ tôi TỰ ĐỘNG thấy AB"
+      A + B + relationship → compile into meta-chunk [AB]
+      → Type 4 becomes Type 3 (gradually merges)
+      → = "At first I NOTICED A relates to B; now I AUTOMATICALLY see AB"
       
-  → Type 4 có thể là PRECURSOR cho Type 3 (link → compile)
-  → Nhưng Type 4 KHÔNG TẤT NHIÊN dẫn đến Type 3
-  → Nhiều connections remain as links without compiling
+  → Type 4 can be PRECURSOR to Type 3 (link → compile)
+  → But Type 4 does NOT NECESSARILY lead to Type 3
+  → Many connections remain as links without compiling
 ```
 
 ### §2.3 — Evidence for Type 4 as distinct
@@ -246,7 +250,7 @@ STEP 5 — OUTPUT STORAGE:
 
   1. Working Memory sustained activity:
      → Fuster 1973, Goldman-Rakic 1995
-     → PFC CÓ THỂ hold multiple items simultaneously
+     → PFC CAN hold multiple items simultaneously
      → Different from passive spreading activation
 
   2. Relational reasoning:
@@ -270,7 +274,7 @@ STEP 5 — OUTPUT STORAGE:
   5. Verbal tagging of discovered relationships:
      → 🟡 Framework extension of NT6 verbal-as-handle
      → Labels applied to RELATIONSHIPS between chunks, not just chunks
-     → "A liên quan B vì X" = relationship handle
+     → "A relates to B because X" = relationship handle
 
 
 🟡 FRAMEWORK SYNTHESIS (what H2 adds):
@@ -324,8 +328,8 @@ COUNTER 2: "Type 4 is just early-stage Type 3"
   Argument: all deliberate connections eventually compile into meta-chunks
   Response:
     → Many Type 4 connections NEVER compile into meta-chunks
-    → Example: "mẹ liên quan cô giáo vì cùng phạt tôi"
-      → Link noted, but "mẹ-cô giáo" does NOT become 1 meta-chunk
+    → Example: "mom relates to teacher because both punished me"
+      → Link noted, but "mom-teacher" does NOT become 1 meta-chunk
       → Remains as relationship metadata, not merged unit
     → Type 3 requires REPETITION → Type 4 can be ONE-TIME
     → Type 4 output (link tag) is structurally different from Type 3 output (merged chunk)
@@ -360,19 +364,19 @@ VERDICT ON COUNTERS:
 
 ## §3 — Body Vote Mechanism (deep drill)
 
-### §3.1 — Cơ chế body vote cho connection
+### §3.1 — Body vote mechanism for connections
 
 ```
 🟡 FRAMEWORK SYNTHESIS — HOW BODY "VOTES" ON CONNECTIONS:
 
-Khi PFC hold chunk A + chunk B, body không "quyết định" theo nghĩa 
-cognitive. Body RESPOND to the pattern overlap:
+When PFC holds chunk A + chunk B, the body does not "decide" in any
+cognitive sense. The body RESPONDS to the pattern overlap:
 
 MECHANISM:
 
   ① PATTERN ACTIVATION:
-     PFC hold A → A's neural pattern fires
-     PFC hold B → B's neural pattern fires
+     PFC holds A → A's neural pattern fires
+     PFC holds B → B's neural pattern fires
      Both patterns active SIMULTANEOUSLY in WM
 
   ② COHERENCE CHECK (distributed, not localized):
@@ -389,10 +393,10 @@ MECHANISM:
      No signal → neutral (no overlap, no information)
 
   ④ PFC READS:
-     PFC observe body state → interpret:
-     → Smooth = "nối được, liên quan, hợp lý"
-     → Tension = "sai sai, mâu thuẫn, cần kiểm tra"
-     → Neutral = "không liên quan, no information"
+     PFC observes body state → interprets:
+     → Smooth = "connects, related, logical"
+     → Tension = "something's off, contradictory, needs checking"
+     → Neutral = "unrelated, no information"
 
   ⭐ BODY VOTE IS FIRST, PFC INTERPRETATION IS SECOND:
      → Consistent with Damasio somatic marker hypothesis (🟢 1994)
@@ -421,8 +425,8 @@ But vote QUALITY depends on chunk library depth:
     → "Gut feeling" in domain = UNRELIABLE
     → ⚠️ Beginner CAN STILL FEEL "smooth" — but feeling is MISLEADING
     → = Dunning-Kruger at body level:
-      → Ít chunks → ít conflict detected → feels "smooth"
-      → Nhiều chunks → nhiều conflict detected → feels "complicated"
+      → Fewer chunks → fewer conflicts detected → feels "smooth"
+      → More chunks → more conflicts detected → feels "complicated"
       → Expert KNOWS it's complicated; beginner FEELS it's simple
     → 🟢 Dunning & Kruger 1999
 
@@ -430,13 +434,13 @@ But vote QUALITY depends on chunk library depth:
     → Expert in domain X checking connection in domain Y:
     → Body vote uses X chunks (deep) BUT Y chunks (shallow)
     → Signal can be MISLEADING — X expertise contaminates Y evaluation
-    → = "Nhà vật lý bình luận về xã hội = confident nhưng sai"
-    → Partial cross-domain transfer exists nhưng UNRELIABLE
+    → = "A physicist commenting on sociology = confident but wrong"
+    → Partial cross-domain transfer exists but UNRELIABLE
 
   TRAUMA-CONTAMINATED:
     → Chunks compiled under threat (NT7 Level 3/4)
     → Body vote SKEWED — tension signal from trauma, not from logic
-    → PFC misreads: "sai sai" when actually "trauma firing"
+    → PFC misreads: "something's off" when actually "trauma firing"
     → = False negative: reject valid connection because body tense
     → = Or false positive: accept because avoiding the tension path
     → Therapy = recalibrate body vote by updating chunk association
@@ -447,7 +451,7 @@ But vote QUALITY depends on chunk library depth:
   → Expert: body vote ≈ valid (high chunk depth → good signal)
   → Beginner: body vote ≈ noise (low chunk depth → misleading signal)
   → AI era: AI can help CHECK body vote via logic verification
-  → "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng"
+  → "Humans need to FEEL correctly → AI will help PLAN correctly"
   → = Feel = body vote, Plan = logic check
   → = BOTH needed for reliable Type 4 connection
 ```
@@ -461,17 +465,17 @@ Type 4 connections exist on a STRENGTH spectrum:
   │  WEAK                                              STRONG   │
   │  ←──────────────────────────────────────────────────────→   │
   │                                                             │
-  │  "có liên quan     "liên quan     "rõ ràng      "CHẮC CHẮN │
-  │   ko nhỉ?"         hình như"       liên quan"     liên quan"│
+  │  "could these    "seems like    "clearly      "DEFINITELY   │
+  │   connect?"       related"       related"      related"      │
   │                                                             │
-  │  Body: faint       Body: mild     Body: clear    Body: strong│
-  │  signal             smooth         smooth         smooth +   │
+  │  Body: faint      Body: mild     Body: clear    Body: strong │
+  │  signal            smooth         smooth         smooth +    │
   │                                                   dopamine   │
   │                                                             │
-  │  PFC: uncertain    PFC: tentative PFC: confident PFC: certain│
+  │  PFC: uncertain   PFC: tentative PFC: confident PFC: certain │
   │                                                             │
-  │  Retain? Maybe     Retain? If     Retain? Yes    Retain? Yes │
-  │                    reinforced                     + compile  │
+  │  Retain? Maybe    Retain? If     Retain? Yes    Retain? Yes  │
+  │                   reinforced                     + compile   │
   └──────────────────────────────────────────────────────────────┘
 
   → Weak connections = most Type 4 output (tentative links)
@@ -489,53 +493,53 @@ Type 4 connections exist on a STRENGTH spectrum:
 ```
 🟡 "THINKING" = CHAINING TYPE 4 CONNECTIONS:
 
-Khi người ta "suy nghĩ" (deliberate reasoning), cơ chế thực tế là:
+When someone "thinks" (deliberate reasoning), the actual mechanism is:
 
-  ① PFC load A → check against B → body vote → result
-  ② Based on result → PFC load C → check against result → body vote
+  ① PFC loads A → checks against B → body vote → result
+  ② Based on result → PFC loads C → checks against result → body vote
   ③ Continue: D, E, F...
   → = CHAIN of Type 4 connections = reasoning chain
 
-  Example — "Tại sao dự án thất bại?":
-    Load [dự án] + [thất bại] → body: tension → "có gì sai"
-    Load [thất bại] + [deadline] → body: smooth → "deadline liên quan"
-    Load [deadline] + [nhân sự] → body: smooth → "nhân sự liên quan"
-    Load [nhân sự] + [thiếu] → body: STRONG smooth → "nhân sự thiếu!"
-    → Chain: dự án thất bại ← deadline ← nhân sự thiếu
+  Example — "Why did the project fail?":
+    Load [project] + [failed] → body: tension → "something went wrong"
+    Load [failed] + [deadline] → body: smooth → "deadline is related"
+    Load [deadline] + [staffing] → body: smooth → "staffing is related"
+    Load [staffing] + [insufficient] → body: STRONG smooth → "not enough staff!"
+    → Chain: project failed ← deadline ← insufficient staffing
     → = Reasoning = Type 4 chain with body vote at each step
 
   ⭐ SPEED:
-    → Mỗi Type 4 connection: ~200-500ms (PFC hold + body vote)
-    → Chain 5 links: ~1-3 seconds
+    → Each Type 4 connection: ~200-500ms (PFC hold + body vote)
+    → Chain of 5 links: ~1-3 seconds
     → Comparable to deliberate reasoning speed observed in cognitive experiments
     → 🟡 Consistent with response time data in relational reasoning tasks
 ```
 
-### §4.2 — Các dạng reasoning sử dụng Type 4
+### §4.2 — Reasoning types using Type 4
 
 ```
 DEDUCTIVE REASONING:
-  PFC hold [premise A] + [premise B] → check overlap → body vote
+  PFC holds [premise A] + [premise B] → checks overlap → body vote
   → If smooth: "conclusion follows"
-  → = "Mọi người đều chết" + "Socrates là người" → "Socrates chết" = smooth
+  → = "All humans die" + "Socrates is human" → "Socrates dies" = smooth
   → 🟢 Syllogistic reasoning involves PFC (Goel et al. 2000)
 
 ANALOGICAL REASONING:
-  PFC hold [source domain chunk] + [target domain chunk] → check STRUCTURAL overlap
-  → Body vote on STRUCTURAL similarity (not surface)
+  PFC holds [source domain chunk] + [target domain chunk] → checks STRUCTURAL overlap
+  → Body votes on STRUCTURAL similarity (not surface)
   → = "Atom" + "solar system" → structural overlap: center + orbiting → smooth
   → 🟢 Gentner 1983 Structure-Mapping Theory
   → Analogical reasoning = Type 4 with structural (not content) overlap check
 
 CAUSAL REASONING:
-  PFC hold [event A] + [event B] → check TEMPORAL + OVERLAP patterns
-  → Body vote: does A pattern include "leads to B" pattern?
+  PFC holds [event A] + [event B] → checks TEMPORAL + OVERLAP patterns
+  → Body votes: does A pattern include "leads to B" pattern?
   → = "Rain" + "wet ground" → temporal overlap smooth → "rain causes wet ground"
   → 🟡 Framework: causal reasoning = Type 4 with temporal dimension added
 
 EVALUATIVE REASONING:
-  PFC hold [option A] + [Imagine-Final] → check overlap
-  → Body vote: does A match Imagine-Final expectation?
+  PFC holds [option A] + [Imagine-Final] → checks overlap
+  → Body votes: does A match Imagine-Final expectation?
   → = "This job offer" + [ideal career Imagine-Final] → smooth? resist?
   → 🟡 Framework: evaluation = Type 4 connection to Imagine-Final reference
 ```
@@ -553,7 +557,7 @@ TYPE 4 IS NOT PERFECT — systematic failure modes:
     → 🟢 Confirmation bias — Wason 1960, Nickerson 1998
 
   FAILURE 2 — WM OVERLOAD:
-    PFC hold > 4-5 chunks → oldest chunk DROPS from WM
+    PFC holds > 4-5 chunks → oldest chunk DROPS from WM
     → Connection check incomplete
     → Complex multi-variable problems EXCEED Type 4 capacity
     → Fix: externalize (write down, diagram, use AI to hold)
@@ -619,19 +623,19 @@ TYPE 4 IS NOT PERFECT — systematic failure modes:
 ⭐ COMPLETE TAXONOMY after H2:
 
   ┌───────────────────────────────────────────────────────────────────┐
-  │ TYPE │ NAME                │ MECHANISM            │ PFC ROLE     │
+  │ TYPE │ NAME                │ MECHANISM             │ PFC ROLE     │
   ├───────────────────────────────────────────────────────────────────┤
-  │  1   │ Shared              │ Overlapping neurons  │ None         │
-  │      │ Contamination       │ fire lẫn nhau        │ (automatic)  │
+  │  1   │ Shared              │ Overlapping neurons   │ None         │
+  │      │ Contamination       │ fire into each other  │ (automatic)  │
   ├───────────────────────────────────────────────────────────────────┤
-  │  2   │ Aha Moment          │ DMN incubation →     │ Observer     │
-  │      │ (Insight)           │ sudden burst link    │ (surprised)  │
+  │  2   │ Aha Moment          │ DMN incubation →      │ Observer     │
+  │      │ (Insight)           │ sudden burst link     │ (surprised)  │
   ├───────────────────────────────────────────────────────────────────┤
-  │  3   │ Meta-chunk          │ Repeated co-firing → │ Weak         │
-  │      │ Compile             │ merge into unit      │ (repetition) │
+  │  3   │ Meta-chunk          │ Repeated co-firing →  │ Weak         │
+  │      │ Compile             │ merge into unit       │ (repetition) │
   ├───────────────────────────────────────────────────────────────────┤
-  │  4   │ Static Logical      │ PFC hold + overlap   │ Active       │
-  │      │ Linking (H2)        │ check + body vote    │ (intentional)│
+  │  4   │ Static Logical      │ PFC hold + overlap    │ Active       │
+  │      │ Linking (H2)        │ check + body vote     │ (intentional)│
   └───────────────────────────────────────────────────────────────────┘
 
   4 types operate on SAME substrate (neural networks, spreading activation)
@@ -685,31 +689,31 @@ P-H2-5: Deliberate Type 4 search should sometimes trigger Type 2 aha moments
 
 ## §6 — Connection to Framework
 
-### §6.1 — Type 4 trong Direction A / Direction B
+### §6.1 — Type 4 in Direction A / Direction B
 
 ```
 DIRECTION A (feel-first → find label):
-  Body feels "A liên quan B" → PFC search for articulation
+  Body feels "A relates to B" → PFC searches for articulation
   → Type 4 with BOTTOM-UP initiation
   → = Somatic-Articulation Loop applied to connections
-  → "Tôi cảm thấy hai thứ này liên quan nhưng không biết tại sao"
+  → "I feel these two things are related but don't know why"
   → → Dwell → refine → articulate → explicit relationship
 
 DIRECTION B (label-first → verify):
-  Receive label "A causes B" (from teacher/book/AI) → PFC hold A+B → body check
+  Receive label "A causes B" (from teacher/book/AI) → PFC holds A+B → body checks
   → Type 4 with TOP-DOWN initiation
   → = External install of connection, body verifies
-  → "Sách nói A liên quan B → tôi check → smooth? resist?"
+  → "The book says A relates to B → I check → smooth? resist?"
   → → If smooth: accepted → compile
   → → If resist: flagged → investigate further
 
   ⭐ Direction A + Direction B BOTH use Type 4:
-  → Direction A: body signal FIRST → PFC hold to investigate
-  → Direction B: PFC hold FIRST → body vote to verify
+  → Direction A: body signal FIRST → PFC holds to investigate
+  → Direction B: PFC holds FIRST → body votes to verify
   → = SAME mechanism, different initiation direction
 ```
 
-### §6.2 — Type 4 và AI era
+### §6.2 — Type 4 and the AI era
 
 ```
 ⭐ AI ERA AMPLIFICATION OF TYPE 4:
@@ -718,34 +722,34 @@ DIRECTION B (label-first → verify):
 
   ① WM EXTENSION:
      Human: 3-5 slots → limited connection check
-     AI: unlimited → check NHIỀU connections cùng lúc
-     → AI suggests: "A có thể liên quan B, C, D, E"
-     → Human: body vote each → "B smooth, C resist, D aha!"
+     AI: unlimited → checks MANY connections simultaneously
+     → AI suggests: "A may relate to B, C, D, E"
+     → Human: body votes on each → "B smooth, C resist, D aha!"
      → = AI extends breadth, human provides body evaluation
 
   ② BIAS CHECK:
-     Human: confirmation bias → miss connections
-     AI: no bias → suggest OPPOSING connections
+     Human: confirmation bias → misses connections
+     AI: no bias → suggests OPPOSING connections
      → Human forced to check: body smooth? resist?
      → = AI helps overcome premature closure (Failure 5)
 
   ③ CROSS-DOMAIN:
-     Human: expertise in 1-2 domains → limited cross-domain
-     AI: knowledge across ALL domains → suggest cross-domain links
-     → Human: body vote on AI's cross-domain suggestions
+     Human: expertise in 1-2 domains → limited cross-domain connections
+     AI: knowledge across ALL domains → suggests cross-domain links
+     → Human: body votes on AI's cross-domain suggestions
      → = AI provides search, human provides evaluation
 
   ④ ARTICULATION SUPPORT:
-     Human: "cảm thấy liên quan nhưng không biết sao"
-     AI: "có thể vì X? hoặc Y?" → articulation catalyst
+     Human: "I feel they're related but don't know why"
+     AI: "could it be because X? or Y?" → articulation catalyst
      → = Somatic-Articulation Loop accelerated by AI
      → = Somatic-Articulation-Loop §5 AI era variation applied to connections
 
-  → "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng"
+  → "Humans need to FEEL correctly → AI will help PLAN correctly"
   → Type 4 connection: human = FEEL (body vote), AI = PLAN (suggest + verify)
 ```
 
-### §6.3 — Type 4 và Feeling literacy
+### §6.3 — Type 4 and Feeling literacy
 
 ```
 ⭐ FEELING LITERACY IS TYPE 4 QUALITY CONTROL:
@@ -912,4 +916,4 @@ ACADEMIC REFERENCES:
 > 4-type connection taxonomy established. Body vote mechanism formalized.
 > Next: 02-Feeling-Intuition-Gradient.md (Thread 3 + H5).
 >
-> Phiên bản: v1.0, 2026-04-17.
+> Version: v1.0, 2026-04-17.

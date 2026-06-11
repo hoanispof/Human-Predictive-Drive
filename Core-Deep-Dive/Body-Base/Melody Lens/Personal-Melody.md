@@ -1,22 +1,23 @@
 ---
-title: Personal Melody — Bài Nhạc Riêng Của Mỗi Người
+title: Personal Melody — Every Person's Unique Song
 version: 2.0
 created: 2026-03-29 (v1.0 DRAFT)
 updated: 2026-04-20 (v2.0 REWRITE — v7.8 aligned, cycle-based, observation parameter reframe)
 status: v2.0 COMPLETE
 scope: |
-  STATE + DYNAMICS melody CÁ NHÂN: melody "nghe" thế nào, build thế nào,
-  thay đổi thế nào, output thế nào. METAPHOR communication tool —
-  giúp hình dung chunk network state qua ngôn ngữ âm nhạc.
+  STATE + DYNAMICS of the PERSONAL melody: what the melody "sounds like,"
+  how it builds, how it changes, what it outputs.
+  METAPHOR communication tool — helps visualize chunk network state
+  through musical language.
 position: |
-  Melody-Lens = METAPHOR COMMUNICATION TOOL (cách nhìn, cách nói).
-  Core-v7.8-Draft.md §8 define Melody observation parameter ngắn gọn:
+  Melody-Lens = METAPHOR COMMUNICATION TOOL (a way of seeing, a way of speaking).
+  Core-Software.md §8 defines the Melody observation parameter concisely:
   "Emergent state of all systems running simultaneously."
-  File này EXPAND metaphor → giúp người đọc hình dung state đó.
-  KHÔNG thêm mechanism mới — dùng metaphor để mô tả mechanisms đã establish.
+  This file EXPANDS that metaphor → helps readers visualize that state.
+  Does NOT add new mechanisms — uses metaphor to describe already-established mechanisms.
 previous_version: Melody Lens/backup/Personal-Melody.md (884L, v1.0 DRAFT 2026-03-29)
 dependencies:
-  - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
+  - Core-Software.md — cycle architecture, §8 observation parameters
   - Schema.md v2.0 — schema = observation parameter, named chunk-network pattern
   - Chunk.md v2.0 — chunk substrate, compilation, 4-phase lifecycle
   - Modality.md v1.0 — 6 modalities (encoding channels)
@@ -26,7 +27,7 @@ dependencies:
   - Autonomy-Hardware.md — efference copy, emergent from architecture
   - Feeling.md v2.0 — PFC observation interface
   - PFC-Function.md — PFC core job = smooth melody
-  - Imagine-Final.md — compass mechanism, 14 ngưỡng
+  - Imagine-Final.md — compass mechanism, 14 thresholds
   - Anchor-Schema.md — trust binding, sync point
   - Agent.md — Self-Pattern-Modeling mechanism, Resonance
   - Empathy.md — Self-Pattern-Modeling function applied to other agents
@@ -34,115 +35,117 @@ dependencies:
   - Novelty.md — positive prediction-delta
   - Observation/Drive.md — energy+direction integration
 deep_dive_files:
-  - Melody-Arc.md — thiết kế arc tối ưu
+  - Melody-Arc.md — optimal arc design
   - Global-Melody.md — collective melody interaction
-  - Personal-Melody-Example.md — profiles ví dụ
-language: Tiếng Việt primary + English technical terms
+  - Personal-Melody-Example.md — example profiles
+language: English (translated from Vietnamese primary + English technical terms)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Personal Melody — Bài Nhạc Riêng Của Mỗi Người
+# Personal Melody — Every Person's Unique Song
 
-> **Melody = METAPHOR giúp hình dung, KHÔNG phải mô tả 1-1 với neuron.**
+> **Melody = METAPHOR for understanding — NOT a 1-to-1 description of neurons.**
 >
-> Mỗi người tại mỗi thời điểm = 1 bài nhạc đang tự chơi.
-> "Bài nhạc" đó = chunk network state — tất cả chunks đang fire,
-> đang compiled, đang interact CÙNG LÚC → tạo 1 "tổng thể" emergent.
+> Every person at every moment = a song playing itself.
+> That "song" = chunk network state — all chunks currently firing,
+> compiled, and interacting SIMULTANEOUSLY → creating an emergent "whole."
 >
-> File này dùng ngôn ngữ âm nhạc để MÔ TẢ state đó:
+> This file uses musical language to DESCRIBE that state:
 > notes, harmony, dissonance, key, tempo, instruments, arc.
 >
-> Mục đích: giúp người đọc HÌNH DUNG trạng thái phức tạp
-> mà mechanism files mô tả bằng technical terms.
-> Melody-Lens = communication tool. Mechanisms = ở files khác.
+> Purpose: help readers VISUALIZE the complex states
+> that mechanism files describe in technical terms.
+> Melody-Lens = communication tool. Mechanisms = in other files.
 >
-> **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
+> **Convention:** 🟢 Research support | 🟡 Framework inference | 🔴 Hypothesis
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — MELODY LÀ GÌ TRONG V7.8
+- §0 — WHAT MELODY MEANS IN V7.8
 - §1 — START MELODY (Hardware Profile)
-- §2 — MULTI-MODAL SYNC ("Hay" Nghĩa Là Gì)
-- §3 — "GU" (Tại Sao Mỗi Người Thích KHÁC)
+- §2 — MULTI-MODAL SYNC (What "Beautiful" Actually Means)
+- §3 — "TASTE" (Why Every Person Likes DIFFERENT Things)
 - §4 — TWO-AXIS TENSION (Body-Base vs Domain)
-- §5 — "MELODY HAY" (4 Tiêu Chí)
-- §6 — IMAGINE-FINAL (Compass Của Melody)
-- §7 — ARC DYNAMICS (Melody Build Qua Sóng)
+- §5 — "A GOOD MELODY" (4 Criteria)
+- §6 — IMAGINE-FINAL (Compass of the Melody)
+- §7 — ARC DYNAMICS (Melody Builds Through Waves)
 - §8 — MELODY EQUILIBRIUM (5 Profiles)
-- §9 — PREDICT MELODY NGƯỜI KHÁC
+- §9 — PREDICTING ANOTHER PERSON'S MELODY
 - §10 — DIFFICULTY vs MISMATCH
 - §11 — HONEST ASSESSMENT
 - §12 — CROSS-REFERENCES
 
 ---
 
-## §0 — MELODY LÀ GÌ TRONG V7.8
+## §0 — WHAT MELODY MEANS IN V7.8
 
 ```
-⭐ REFRAME V7.8:
+⭐ V7.8 REFRAME:
 
-  Core v7.8 §8 define Melody ngắn gọn:
+  Core-Software.md §8 defines Melody concisely:
     "Emergent state of all systems running simultaneously.
      4 criteria: hardware smooth + accurate map + wide map + sustainable."
 
-  Melody KHÔNG PHẢI:
-    ✗ Component kiến trúc (không ai "chạy melody")
-    ✗ Module riêng biệt (không có vùng não "melody center")
-    ✗ Thứ PFC điều khiển (melody tự emergent, PFC chỉ observe + smooth)
+  Melody is NOT:
+    ✗ An architectural component (nobody "runs melody")
+    ✗ A separate module (no brain region is a "melody center")
+    ✗ Something PFC controls (melody emerges on its own; PFC only observes + smooths)
 
-  Melody LÀ:
-    ✓ TÊN GỌI cho emergent state — chunk network running simultaneously
-    ✓ Observation parameter — cách nhìn TỔNG THỂ (zoom out)
-    ✓ Giống "thời tiết" = tên gọi cho nhiều yếu tố vật lý đồng thời
-      (nhiệt độ + áp suất + gió + ẩm = "thời tiết")
+  Melody IS:
+    ✓ A NAME for emergent state — chunk network running simultaneously
+    ✓ Observation parameter — a HOLISTIC way of seeing (zoomed out)
+    ✓ Like "weather" = a name for many physical factors at once
+      (temperature + pressure + wind + humidity = "weather")
       (chunks firing + body-feedback + PFC smoothing + domain feedback = "melody")
 
 
-  TẠI SAO CẦN METAPHOR:
+  WHY WE NEED THE METAPHOR:
 
     Mechanism files (Chunk.md, Body-Feedback.md, PFC-Function.md,...):
-      → Mô tả TỪNG PHẦN chính xác
-      → Nhưng người đọc KHÓ hình dung tổng thể
+      → Describe each PART precisely
+      → But readers struggle to visualize the whole
 
     Melody-Lens:
-      → Dùng ngôn ngữ âm nhạc = AI NÀO CŨNG HIỂU
-      → Không thêm mechanism mới → chỉ CÁCH NÓI khác cho cùng thứ
-      → Khi metaphor gây nhầm → BỎ, quay lại mechanism language
+      → Uses musical language that anyone can grasp
+      → Adds no new mechanisms → just a DIFFERENT WAY of saying the same thing
+      → When the metaphor causes confusion → DROP IT, return to mechanism language
 
 
-  MAPPING METAPHOR → MECHANISM:
+  METAPHOR → MECHANISM MAPPING:
 
     Metaphor              Mechanism (file reference)
-    ──────────────────    ─────────────────────────────────────
-    Bài nhạc tổng thể    Schema = named chunk-network pattern (Schema.md v2.0)
-    Notes/nốt nhạc       Chunks = compiled associative networks (Chunk.md v2.0)
-    Nhạc cụ              Modalities = encoding channels (Modality.md v1.0)
-    Harmony              Multi-modal sync → body reward (opioid)
-    Dissonance           Chunk-Shift/Miss/Gap → body signal (Body-Feedback-Mechanism.md)
-    Tempo/nhịp           PFC processing speed (PFC-Hardware.md)
-    Key (major/minor)    Chunk valence pattern dominant (Valence-Propagation.md)
-    Earworm              Compiled chunks tự fire vô thức (Chunk.md §4 Activation)
-    Dàn nhạc tự chơi    Parallel chunk activation — vô thức 95% (Drive.md §1)
-    Chuyển điệu          Arc = learning cycle (Melody-Arc.md)
-    Khán giả bên trong   Body-feedback evaluation (Body-Feedback.md v1.1)
-    Sân khấu thật        Domain reality feedback (Core-v7.8-Draft.md §7)
-    Nhạc trưởng          PFC = observer-orchestrator, NOT controller (PFC-Function.md)
+    ─────────────────     ──────────────────────────────────────────
+    The whole piece       Schema = named chunk-network pattern (Schema.md v2.0)
+    Notes                 Chunks = compiled associative networks (Chunk.md v2.0)
+    Instruments           Modalities = encoding channels (Modality.md v1.0)
+    Harmony               Multi-modal sync → body reward (opioid)
+    Dissonance            Chunk-Shift/Miss/Gap → body signal (Body-Feedback-Mechanism.md)
+    Tempo                 PFC processing speed (PFC-Hardware.md)
+    Key (major/minor)     Dominant chunk valence pattern (Valence-Propagation.md)
+    Earworm               Compiled chunks firing unconsciously (Chunk.md §4 Activation)
+    Self-playing ensemble Parallel chunk activation — unconscious 95% (Drive.md §1)
+    Key change            Arc = learning cycle (Melody-Arc.md)
+    The inner audience    Body-feedback evaluation (Body-Feedback.md v1.1)
+    The real stage        Domain reality feedback (Core-Software.md §7)
+    The conductor         PFC = observer-orchestrator, NOT controller (PFC-Function.md)
 
 
-  ⚠️ GIỚI HẠN METAPHOR:
+  ⚠️ LIMITS OF THE METAPHOR:
 
-    Nhạc thường: SEQUENTIAL (nốt 1→2→3)
-    Chunk network: PARALLEL (nhiều neurons fire CÙNG LÚC)
-    → Hình dung: DÀN NHẠC TỰ CHƠI (nhiều nhạc cụ cùng lúc) → đúng hơn "bài hát"
+    Music: SEQUENTIAL (note 1→2→3)
+    Chunk network: PARALLEL (many neurons fire SIMULTANEOUSLY)
+    → Better image: A SELF-PLAYING ENSEMBLE (many instruments at once) → more accurate
+      than "a song"
 
-    Nhạc thường: nhạc sĩ CHỦ ĐỘNG chơi
-    Chunk network: TỰ ĐỘNG chạy (vô thức fire, PFC không control)
-    → Hình dung: EARWORM (bài nhạc dính trong đầu, TỰ CHẠY, bạn chỉ "nghe")
+    Music: musician ACTIVELY plays
+    Chunk network: RUNS AUTOMATICALLY (unconscious firing; PFC does not control it)
+    → Better image: EARWORM (a song stuck in your head, RUNNING ON ITS OWN,
+      you only "hear" it)
 
-    Khi metaphor GIÚP hiểu → DÙNG.
-    Khi metaphor GÂY NHẦM → BỎ, quay lại cơ chế.
+    When the metaphor HELPS → USE IT.
+    When the metaphor MISLEADS → DROP IT, return to mechanism language.
 ```
 
 ---
@@ -150,158 +153,162 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §1 — START MELODY (Hardware Profile)
 
 ```
-🟡 Mỗi người SINH RA với "start melody" RIÊNG:
+🟡 Every person is BORN with their own "start melody":
 
-  HARDWARE set "giọng ca bẩm sinh" — cái MÀ BẠN KHÔNG CHỌN:
+  HARDWARE sets the "innate voice" — what YOU DID NOT CHOOSE:
 
     ① PFC-Attention / VTA-Chunk-Size (DRD4 gene — Attention-Spectrum.md):
-       → 4R: nghe MỌI nốt nhỏ → melody GIÀU detail
-       → 7R: chỉ nghe nốt LỚN → melody BIG PICTURE
-       → = "Tai nhạc" khác → nghe thế giới KHÁC → melody build KHÁC
+       → 4R: hears EVERY small note → melody RICH in detail
+       → 7R: only hears LARGE notes → BIG PICTURE melody
+       → = Different "musical ear" → hears the world DIFFERENTLY →
+           melody builds DIFFERENTLY
        → 🟢 DRD4 polymorphism × novelty seeking (Ebstein 1996)
 
     ② PFC Clear-Speed (COMT gene — PFC-Hardware.md):
-       → Val/Val: xóa nốt cũ NHANH → melody biến đổi liên tục
-       → Met/Met: giữ nốt cũ LÂU → melody ổn định, sâu
-       → = "Tempo" khác → rhythm melody KHÁC
+       → Val/Val: clears old notes FAST → melody shifts continuously
+       → Met/Met: holds old notes LONG → stable, deep melody
+       → = Different "tempo" → different melody rhythm
 
     ③ PFC Capacity:
-       → Cao: dàn nhạc LỚN (nhiều nhạc cụ cùng lúc)
-       → Thấp: dàn nhạc NHỎ (ít nhạc cụ)
+       → High: LARGE ensemble (many instruments at once)
+       → Low: SMALL ensemble (fewer instruments)
 
-    ④ Modality dominant (Modality.md v1.0 — 6 channels):
-       → Somatic: TRỐNG là chính → melody FEEL-based
-       → Visual: PIANO là chính → melody HÌNH-based
-       → Verbal: VOCAL là chính → melody CHỮ-based
-       → Motor: PERCUSSION → melody HÀNH ĐỘNG-based
-       → Auditory: GUITAR → melody NGHE-based
-       → Temporal: METRONOME → melody SEQUENCE-based
+    ④ Dominant modality (Modality.md v1.0 — 6 channels):
+       → Somatic: DRUMS lead → FEEL-based melody
+       → Visual: PIANO leads → IMAGE-based melody
+       → Verbal: VOCALS lead → WORDS-based melody
+       → Motor: PERCUSSION → ACTION-based melody
+       → Auditory: GUITAR → LISTENING-based melody
+       → Temporal: METRONOME → SEQUENCE-based melody
 
     ⑤ Body-base baseline (Cortisol-Baseline.md v2.0):
-       → Body-base state KHÔNG phải "key" (major/minor)
+       → Body-base state is NOT the "key" (major/minor)
        → Body-base state = chunk valence pattern + hormonal amplification
-       → Cortisol CAO = amplifier MẠNH → dissonance feel MẠNH HƠN
-         (KHÔNG phải "minor key" — cortisol không tạo direction, chỉ amplify)
-       → Opioid baseline CAO = body reward dễ fire → melody feel smoother
-       → Oxytocin baseline CAO = social chunks fire mạnh → connection layer dày
+       → HIGH cortisol = STRONGER amplifier → dissonance feels MORE intense
+         (NOT a "minor key" — cortisol doesn't create direction, only amplifies)
+       → HIGH opioid baseline = body reward fires easily → melody feels smoother
+       → HIGH oxytocin baseline = social chunks fire strongly → thick connection layer
 
     ⑥ Efference copy precision (Autonomy-Hardware.md §1):
        → Self-action → sensory prediction match → micro-opioid
-       → Precision khác per-person → autonomy preference khác
-       → = "Tự chơi nhạc" cho reward KHÁC "nghe người khác chơi"
+       → Precision varies per-person → different autonomy preference
+       → = "Playing the music yourself" gives different reward than
+           "listening to someone else play"
 
 
   Start melody = COMBINATION:
     DRD4 × COMT × Capacity × Modality × Body-base × Efference precision
-    → KHÔNG AI CHỌN → genetics + epigenetics quyết định
+    → NOBODY CHOOSES THIS → genetics + epigenetics decide
 
-  Start melody ≠ melody HIỆN TẠI:
-    → Start = ĐIỂM XUẤT PHÁT (bé mới sinh)
-    → Hiện tại = start + HÀNG NGHÌN chunk compilations qua experience
-    → Hardware set RANGE → experience chọn VỊ TRÍ trong range
-    → = "Giọng ca bẩm sinh + 20 năm luyện tập = giọng ca HIỆN TẠI"
+  Start melody ≠ CURRENT melody:
+    → Start = STARTING POINT (newborn)
+    → Current = start + THOUSANDS of chunk compilations through experience
+    → Hardware sets the RANGE → experience chooses POSITION within that range
+    → = "Innate voice + 20 years of training = CURRENT voice"
 
 
   ⭐ V7.8 NOTE — "EMERGENT FROM ARCHITECTURE":
-    → Hardware KHÔNG "thiết kế" cho melody cụ thể nào
-    → Hardware provide BUILDING BLOCKS (DRD4, COMT, modality zones,...)
-    → Melody EMERGE từ blocks đó interacting với environment
-    → Giống: không ai thiết kế "thích tự do" — nhưng efference copy + VTA + opioid
-      → ĐƯƠNG NHIÊN self-action cho reward hơn → "thích tự do" emergent
+    → Hardware does NOT "design" for any specific melody
+    → Hardware provides BUILDING BLOCKS (DRD4, COMT, modality zones,...)
+    → Melody EMERGES from those blocks interacting with the environment
+    → Example: nobody designs "a love of freedom" — but efference copy + VTA + opioid
+      → self-action NATURALLY gives more reward than being acted upon →
+          "love of freedom" emerges
     → (Ref: Autonomy-Hardware.md §0 — emergent comparison table)
 ```
 
 ---
 
-## §2 — MULTI-MODAL SYNC ("Hay" Nghĩa Là Gì)
+## §2 — MULTI-MODAL SYNC (What "Beautiful" Actually Means)
 
 ```
-🟡 "HAY / ĐẸP / SƯỚNG" = nhiều modality fire ĐỒNG BỘ cùng pattern:
+🟡 "BEAUTIFUL / GREAT / FEELS AMAZING" = many modalities firing IN SYNC on the same pattern:
 
-  Khi ĐỒNG BỘ:
-    → Chunks từ NHIỀU modalities fire cùng RHYTHM (cùng pattern)
+  When IN SYNC:
+    → Chunks from MANY modalities fire with the same RHYTHM (same pattern)
     → 🟢 Gamma synchronization (Buzsáki 2006) = binding mechanism
-    → Body detect sync → opioid → "SƯỚNG / HAY / ĐẸP"
+    → Body detects sync → opioid → "FEELS AMAZING / BEAUTIFUL / GREAT"
     → = Prediction match ACROSS modalities → positive prediction-delta
 
-  Khi LỆCH:
-    → Chunks từ các modalities fire KHÁC rhythm → "Dissonance"
-    → Body-feedback signal: Chunk-Shift hoặc Chunk-Miss
+  When OUT OF SYNC:
+    → Chunks from different modalities fire at DIFFERENT rhythms → "Dissonance"
+    → Body-feedback signal: Chunk-Shift or Chunk-Miss
       (Body-Feedback-Mechanism.md §3)
-    → = Dissonance = observable pattern, cortisol có thể AMPLIFY
-      (nhưng cortisol KHÔNG gây dissonance — Cortisol-Baseline.md §1)
+    → = Dissonance = observable pattern; cortisol can AMPLIFY it
+      (but cortisol does NOT cause dissonance — Cortisol-Baseline.md §1)
 
 
-  VÍ DỤ — mỗi trải nghiệm = mức đồng bộ KHÁC:
+  EXAMPLES — each experience = a DIFFERENT level of sync:
 
-    Nghe nhạc HAY:
-      → Auditory (melody) + Somatic (body rung theo) SYNC → opioid nhẹ
+    Listening to great music:
+      → Auditory (melody) + Somatic (body resonates) IN SYNC → mild opioid
 
-    Game nhạc (Guitar Hero, Beat Saber):
-      → Auditory + Visual + Motor PHẢI ĐỒNG BỘ chính xác
-      → Perfect streak = 3+ modalities SYNC liên tục → opioid + positive delta
-      → = Tại sao game nhạc GÂY NGHIỆN: multi-modal sync = reward mạnh
+    Music games (Guitar Hero, Beat Saber):
+      → Auditory + Visual + Motor MUST sync precisely
+      → Perfect streak = 3+ modalities IN SYNC continuously → opioid + positive delta
+      → = Why rhythm games are ADDICTIVE: multi-modal sync = strong reward
 
-    Bé tự xúc ăn (Autonomy-Hardware.md §1):
-      → Motor (tay cầm) + Somatic (nhiệt độ thức ăn) + Gustatory (vị)
-      → Efference copy → PREDICTION TRƯỚC → match khi thức ăn vào miệng
+    A toddler self-feeding (Autonomy-Hardware.md §1):
+      → Motor (hand holding spoon) + Somatic (food temperature) + Gustatory (taste)
+      → Efference copy → PREDICTION fires FIRST → matches when food reaches mouth
       → Multi-channel preview → match → micro-opioid PER channel
       → = Self-action + multi-modal sync = compound reward
 
-    Nhạc buồn khi đang buồn:
-      → Personal chunk valence đang NEGATIVE → nhạc buồn MATCH valence pattern
-      → Body: "ĐỒNG BỘ!" → opioid (dù nội dung "buồn")
-      → = "Nghe nhạc buồn khi buồn = SƯỚNG" (sync = reward, bất kể valence)
-      → = "Được HIỂU" = external pattern MATCH internal pattern
+    Sad music when you're already sad:
+      → Personal chunk valence currently NEGATIVE → sad music MATCHES valence pattern
+      → Body: "IN SYNC!" → opioid (even though the content is "sad")
+      → = "Listening to sad music when sad = feels great" (sync = reward,
+          regardless of valence)
+      → = "Feeling UNDERSTOOD" = external pattern MATCHING internal pattern
 
 
-  ⭐ "THẨM MỸ" = body detect MỨC ĐỘ multi-modal sync:
-    → "Hay" = KHÔNG hoàn toàn chủ quan
-    → "Hay" = body detect NHIỀU modality ĐỒNG BỘ → opioid
-    → = Phản ứng SINH HỌC + personal chunk filter
-    → NHƯNG: đồng bộ VỚI CÁI GÌ = tùy personal melody (xem §3)
+  ⭐ "AESTHETIC SENSE" = body detecting the DEGREE of multi-modal sync:
+    → "Beautiful" is NOT purely subjective
+    → "Beautiful" = body detects MANY modalities IN SYNC → opioid
+    → = BIOLOGICAL response + personal chunk filter
+    → BUT: sync WITH WHAT = depends on personal melody (see §3)
     → 🟢 Blood & Zatorre 2001: music pleasure → striatum + opioid system
 ```
 
 ---
 
-## §3 — "GU" (Tại Sao Mỗi Người Thích KHÁC)
+## §3 — "TASTE" (Why Every Person Likes DIFFERENT Things)
 
 ```
-🟡 "Gu" = personal chunk pattern match PATTERN nào bên ngoài:
+🟡 "Taste" = which external PATTERNS your personal chunk pattern matches:
 
-  Personal melody KHÁC (start + compiled chunks) → match pattern KHÁC:
-    → External stimulus có PATTERN riêng
-    → Personal chunks MATCH → body: "ĐỒNG BỘ!" → opioid → "THÍCH"
-    → Personal chunks KHÔNG match → body: "LỆCH" → "KHÔNG THÍCH"
-    → = "Gu" = melody CỦA BẠN match CÁI GÌ
+  Personal melody DIFFERS (start + compiled chunks) → matches DIFFERENT patterns:
+    → External stimulus has its own PATTERN
+    → Personal chunks MATCH → body: "IN SYNC!" → opioid → "LOVE IT"
+    → Personal chunks DON'T match → body: "OUT OF SYNC" → "DON'T LIKE IT"
+    → = "Taste" = what YOUR melody syncs with
 
-  Bài HIT phổ biến:
-    → Hit = pattern KHỚP global average (chunk pattern phổ biến nhất)
-    → Đa số người ở near-center → match → "hay!"
-    → Edge melodies: "chán" (too simple) hoặc "quá lạ" (no match)
-    → = "Top chart = melody phù hợp SỐ ĐÔNG"
+  Popular hit songs:
+    → A hit = pattern matching the GLOBAL AVERAGE (most common chunk pattern)
+    → Most people cluster near-center → match → "sounds great!"
+    → Edge melodies: "boring" (too simple) or "too strange" (no match)
+    → = "Top charts = melody that fits the MOST PEOPLE"
 
-  "Gu thay đổi":
-    → Chunks compile LIÊN TỤC → personal melody SHIFT
-    → Match pattern cũ yếu dần → match pattern MỚI mạnh dần
-    → 15 tuổi thích pop → 25 jazz → 35 classical
-    → = Chunk network ĐÃ SHIFT → đồng bộ với KHÁC → "gu thay đổi"
+  "Taste shifts":
+    → Chunks compile CONTINUOUSLY → personal melody SHIFTS
+    → Old match patterns weaken → NEW match patterns strengthen
+    → 15 years old: loves pop → 25: jazz → 35: classical
+    → = Chunk network HAS SHIFTED → syncs with SOMETHING DIFFERENT → "taste changed"
 
   "Guilty pleasure":
-    → Body: match → opioid → "HAY!"
-    → Compiled status chunks: "nhạc này = thấp cấp" → threat nhẹ
-    → = Body reward + status observation conflict → CÙNG LÚC
-    → = 2 observation parameters ĐỒNG THỜI fire khác hướng
+    → Body: match → opioid → "LOVE IT!"
+    → Compiled status chunks: "this music = low-brow" → mild threat
+    → = Body reward + status observation in CONFLICT → SIMULTANEOUSLY
+    → = 2 observation parameters firing in DIFFERENT DIRECTIONS at once
 
   🟢 RESEARCH:
     → Music preference × personality (Rentfrow & Gosling 2003):
-      Classical/Jazz: Openness CAO → deep, reflective chunk patterns
-      Rock/Metal: Openness CAO + Agreeable THẤP → intense patterns
-      Pop: Extraversion CAO → near-center, social sync patterns
-    → ⚠️ Correlation, không causation. Nhiều người nghe đa thể loại.
-    → Framework interpretation: personality = proxy cho chunk network state
-      → chunk network match → preference. Consistent, không phải proof.
+      Classical/Jazz: HIGH Openness → deep, reflective chunk patterns
+      Rock/Metal: HIGH Openness + LOW Agreeableness → intense patterns
+      Pop: HIGH Extraversion → near-center, social sync patterns
+    → ⚠️ Correlation, not causation. Many people listen across genres.
+    → Framework interpretation: personality = proxy for chunk network state
+      → chunk network matches → preference. Consistent, not proof.
 ```
 
 ---
@@ -309,301 +316,307 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §4 — TWO-AXIS TENSION (Body-Base vs Domain)
 
 ```
-🟡 Melody bị kéo bởi 2 LỰC — DUAL-PULL (Body-Feedback.md v1.1):
+🟡 Melody is pulled by 2 FORCES — DUAL-PULL (Body-Feedback.md v1.1):
 
-  LỰC 1 — BODY-BASE PULL (hướng NỘI, muốn SMOOTH):
-    → Body muốn chunk network state SMOOTH, prediction match, harmony
-    → Chunk mới = prediction miss → Chunk-Shift/Gap → body signal dissonance
-    → Body-base = BẢO THỦ — muốn giữ compiled patterns đã stable
-    → = "Khán giả muốn nghe BÀI CŨ hay"
-    → Mechanism: PFC core job = SMOOTH MELODY (PFC-Function.md §5):
-      body reward MỖI LẦN PFC reduce dissonance thành công
-    → = PFC "smooth" vì body THƯỞNG cho smooth, không phải PFC "muốn"
+  FORCE 1 — BODY-BASE PULL (inward, wants SMOOTH):
+    → Body wants chunk network state to be SMOOTH, prediction match, harmony
+    → New chunk = prediction miss → Chunk-Shift/Gap → body signals dissonance
+    → Body-base is CONSERVATIVE — wants to keep already-stable compiled patterns
+    → = "The audience wants to hear FAMILIAR songs played well"
+    → Mechanism: PFC's core job = SMOOTH MELODY (PFC-Function.md §5):
+        body rewards PFC EVERY TIME it successfully reduces dissonance
+    → = PFC "smooths" because the body REWARDS it for smoothing —
+        not because PFC "wants to"
 
-  LỰC 2 — DOMAIN PULL (hướng NGOẠI, đòi ADAPT):
-    → Domain reality KHÔNG CARE melody smooth không
-    → Domain = physics, market, biology → ĐỨNG IM, trả feedback THẬT
-    → Muốn survive/thrive trong domain → PHẢI nạp chunks body CHƯA thích
-    → = "Sân khấu đòi bài MỚI — khán giả chưa quen"
+  FORCE 2 — DOMAIN PULL (outward, demands ADAPTATION):
+    → Domain reality DOESN'T CARE whether the melody is smooth
+    → Domain = physics, markets, biology → FIXED, returns REAL feedback
+    → To survive/thrive in a domain → MUST absorb chunks the body hasn't warmed up to
+    → = "The stage demands NEW material — the audience hasn't heard it yet"
     → Mechanism: domain feedback = Chunk-Miss (predicted outcome ≠ reality)
-      → body-feedback fires → forces adaptation hoặc denial
+        → body-feedback fires → forces adaptation or denial
 
-  TENSION = SUỐT ĐỜI:
-    → Body-base: "giữ nguyên, ĐANG smooth"
-    → Domain: "thế giới đòi PATTERN KHÁC"
-    → = BÌNH THƯỜNG — không phải lỗi, mà là ĐỘNG LỰC (Drive.md §0)
-    → = "Drive" = tên gọi cho energy+direction emergent từ tension này
-    → Externalization: tension này PROPAGATE sang mọi hệ thống con người tạo
-      (software, luật, y tế, tổ chức) — cùng tension, khác hình thức.
+  TENSION = LIFELONG:
+    → Body-base: "keep it as is, it's smooth NOW"
+    → Domain: "the world demands a DIFFERENT PATTERN"
+    → = NORMAL — not a flaw, but a SOURCE OF MOMENTUM (Drive.md §0)
+    → = "Drive" = the name for the energy+direction that emerges from this tension
+    → Externalization: this tension PROPAGATES into every system humans create
+      (software, law, medicine, organizations) — same tension, different form.
       Collective-Body.md §3.5.
 
 
   ⭐ BODY-BASE REWARD ≠ DOMAIN REWARD:
 
-    Body-base: trả reward khi melody SMOOTH (prediction match)
-      → NHƯNG smooth CHƯA CHẮC đúng domain
-      → Body accuracy ~90% (Why-Body-Knows.md) → 10% CÓ THỂ sai
-      → VD: nghiện = body reward MẠNH → domain PHẠT (sức khỏe)
-      → VD: comfort zone = body smooth → domain ĐỨNG YÊN
+    Body-base: rewards when melody is SMOOTH (prediction match)
+      → BUT smooth does NOT guarantee domain correctness
+      → Body accuracy ~90% (Why-Body-Knows.md) → 10% can be WRONG
+      → Ex: addiction = STRONG body reward → domain PUNISHES (health)
+      → Ex: comfort zone = body smooth → domain STAGNATES
 
-    Domain: trả feedback THẬT (survive hay không)
-      → Luôn ĐÚNG → nhưng không luôn "pleasant"
-      → VD: học cái khó = body dissonance → domain THƯỞNG sau (skill mới)
-      → VD: dậy sớm tập = body resistance → domain THƯỞNG (sức khỏe)
+    Domain: returns REAL feedback (survive or not)
+      → Always CORRECT → but not always "pleasant"
+      → Ex: learning something hard = body dissonance → domain REWARDS later (new skill)
+      → Ex: early morning training = body resistance → domain REWARDS (health)
 
-    TỐI ƯU = CẢ HAI CÙNG LÚC:
-      → CHỈ body-base: pleasant nhưng có thể sai domain → không bền
-      → CHỈ domain: đúng nhưng body khổ → burnout (cortisol amplify kéo dài)
-      → CẢ HAI: smooth trên hardware + đúng domain = BỀN VỮNG + reward
+    OPTIMAL = BOTH AT ONCE:
+      → ONLY body-base: pleasant but may be domain-wrong → unsustainable
+      → ONLY domain: correct but body suffers → burnout (cortisol amplification prolonged)
+      → BOTH: smooth on hardware + correct domain = SUSTAINABLE + rewarding
 
 
-  CHUNK DYNAMICS TRONG TENSION (Body-Feedback-Mechanism.md §3):
+  CHUNK DYNAMICS IN TENSION (Body-Feedback-Mechanism.md §3):
 
     Chunk-Shift: valence changes, content unchanged
-      → VD: "toán = vui" → bị ép → "toán = khó chịu" (avoidance tag compile)
-      → Cùng chunks (toán knowledge) nhưng VALENCE đã shift
-      → Melody "key" thay đổi cho domain đó
+      → Ex: "math = fun" → forced → "math = uncomfortable" (avoidance tag compiled)
+      → Same chunks (math knowledge) but VALENCE has shifted
+      → Melody "key" changes for that domain
 
     Chunk-Miss: expected pattern absent
-      → VD: quen có mẹ đón → mẹ không đến → body signal
-      → Missing note trong melody → dissonance tức thì
+      → Ex: used to mom picking you up → mom doesn't come → body signals
+      → Missing note in the melody → immediate dissonance
 
-    Chunk-Gap: pattern nonexistent (chưa từng compile)
-      → VD: lần đầu gặp cái mới hoàn toàn → "trống"
-      → Network detect "nên có gì đó ở đây" → VTA fire → novelty pull
+    Chunk-Gap: pattern nonexistent (never compiled)
+      → Ex: first encounter with something completely new → "blank space"
+      → Network detects "something should be here" → VTA fires → novelty pull
 
 
   APPROACH / AVOIDANCE TAG (Cortisol-Baseline.md v2.0, Autonomy-Hardware.md §3):
 
-    Mỗi chunk khi compile = gắn DIRECTION TAG:
-      → APPROACH tag: chunk compile trong context reward/opioid
-        → Future activation = body pull TOWARD
-      → AVOIDANCE tag: chunk compile trong context threat/pain
-        → Future activation = body push AWAY
+    Every chunk when compiled = assigned a DIRECTION TAG:
+      → APPROACH tag: chunk compiled in reward/opioid context
+        → Future activation = body pulls TOWARD
+      → AVOIDANCE tag: chunk compiled in threat/pain context
+        → Future activation = body pushes AWAY
 
-    Tag gắn TẠI THỜI ĐIỂM compile — sau đó rất khó đổi:
-      → "Toán được dạy vui" → approach tag → tự pull về toán
-      → "Toán bị ép + phạt" → avoidance tag → tự push khỏi toán
-      → CÙNG domain (toán) → KHÁC tag → KHÁC melody trajectory
-      → = "Giỏi nhưng ghét" = chunks TỐT + avoidance tag
+    Tag is assigned AT COMPILE TIME — very hard to change afterward:
+      → "Math taught with joy" → approach tag → self-pulls toward math
+      → "Math forced + punished" → avoidance tag → self-pushes away from math
+      → SAME domain (math) → DIFFERENT tag → DIFFERENT melody trajectory
+      → = "Skilled but hates it" = GOOD chunks + avoidance tag
 
-    ⚠️ CORTISOL KHÔNG phải tag source:
-      → Cortisol = AMPLIFIER (tăng signal strength)
-      → Tag source = context tại compile time
-      → Cortisol CAO tại compile → tag GẮN SÂU HƠN (cả approach lẫn avoidance)
-      → (Chi tiết: Cortisol-Baseline.md §3.5, Clarification/Cortisol-Amplifier-Not-Cause.md)
+    ⚠️ CORTISOL is NOT the tag source:
+      → Cortisol = AMPLIFIER (increases signal strength)
+      → Tag source = context at compile time
+      → HIGH cortisol at compile → tag embeds DEEPER (both approach and avoidance)
+      → (Details: Cortisol-Baseline.md §3.5, Clarification/Cortisol-Amplifier-Not-Cause.md)
 ```
 
 ---
 
-## §5 — "MELODY HAY" (4 Tiêu Chí)
+## §5 — "A GOOD MELODY" (4 Criteria)
 
 ```
-⭐ "MELODY HAY" — definition quan trọng nhất của Melody-Lens:
+⭐ "A GOOD MELODY" — the most important definition in Melody-Lens:
 
-  "Melody hay" ≠ bài nhạc SƯỚNG NHẤT cho body.
-  "Melody hay" = state đạt CẢ 4 tiêu chí CÙNG LÚC:
+  "A good melody" ≠ the most pleasurable song for the body.
+  "A good melody" = state that meets ALL 4 criteria SIMULTANEOUSLY:
 
-    ① SMOOTH trên hardware CỦA MÌNH:
-       → Body-base comfortable, prediction match cao
-       → Vì hardware KHÁC → melody "hay" KHÁC per-person
-       → DRD4-7R cần nhiều novelty input → "smooth" của họ ≠ "smooth" của 4R
-       → Somatic-dominant cần body engagement → "smooth" ≠ verbal-dominant
-       → = "Hay" là TƯƠNG ĐỐI — theo hardware profile CỦA MÌNH
+    ① SMOOTH on YOUR OWN hardware:
+       → Body-base comfortable, high prediction match
+       → Because hardware DIFFERS → "a good melody" DIFFERS per person
+       → DRD4-7R needs more novelty input → their "smooth" ≠ DRD4-4R's "smooth"
+       → Somatic-dominant needs body engagement → their "smooth" ≠
+           verbal-dominant's
+       → = "Good" is RELATIVE — relative to YOUR hardware profile
 
-    ② Map domain CHÍNH XÁC:
-       → Chunks phản ánh thực tế ĐÚNG (không phải ảo tưởng pleasant)
-       → Domain luôn trả feedback THẬT: survive được hay không
-       → = Melody "hay" phải MAP ĐƯỢC vào thế giới thật
-       → VD: "tin mình giàu" mà thật ra nợ = melody smooth nhưng KHÔNG hay
+    ② Maps domain ACCURATELY:
+       → Chunks reflect reality CORRECTLY (not just a pleasant illusion)
+       → Domain always returns REAL feedback: survive or not
+       → = A "good melody" must MAP ONTO the real world
+       → Ex: "believing I'm wealthy" while actually in debt = smooth melody but NOT good
 
-    ③ Map domain RỘNG nhất có thể:
-       → Cover nhiều domain = linh hoạt, thích ứng nhiều tình huống
-       → Chunks đa dạng → melody có nhiều "đoạn" → adapt được nhiều context
-       → = "Bài nhạc phong phú" — chơi được trên nhiều sân khấu
+    ③ Maps domain as BROADLY as possible:
+       → Covers more domains = more flexible, adapts to more situations
+       → Diverse chunks → melody has many "passages" → can adapt to many contexts
+       → = "A rich piece" — playable on many stages
 
-    ④ Chơi LÂU DÀI bền vững:
-       → Sustainable: body-base KHÔNG bị deplete
+    ④ Plays SUSTAINABLY over the long run:
+       → Sustainable: body-base NOT depleted
        → Opioid pathway (intrinsic) → sustainable
        → Relief pathway (cortisol-driven) → unsustainable (Liking-Wanting.md §4)
-       → = "Bài nhạc chơi được MÃI" — không cháy cũng không tắt
+       → = "A piece that can play FOREVER" — neither burns out nor fades away
 
 
-  ⭐ "PASSION" = khi body-base pull + domain pull CÙNG HƯỚNG:
-    → Melody VỪA smooth VỪA map domain tốt
-    → = "Tôi THÍCH làm cái mà thế giới CŨNG CẦN"
-    → = 4 tiêu chí overlap → hiếm → khi tìm được = quý giá
-    → Dấu hiệu: approach tag + high prediction match + sustained delta
-    → 🟡 Consistent với Self-Determination Theory (Ryan & Deci 2000):
+  ⭐ "PASSION" = when body-base pull + domain pull POINT THE SAME DIRECTION:
+    → Melody BOTH smooth AND maps domain well
+    → = "I ENJOY doing what the world also NEEDS"
+    → = 4 criteria overlap → rare → when found = precious
+    → Signs: approach tag + high prediction match + sustained delta
+    → 🟡 Consistent with Self-Determination Theory (Ryan & Deci 2000):
       autonomy + competence + relatedness → intrinsic motivation
       = smooth (autonomy) + accurate (competence) + connected (relatedness)
 
 
-  INVESTMENT COST — khoảng giữa "bắt đầu" và melody upgrade:
+  INVESTMENT COST — the gap between "starting" and the melody upgrade:
 
-    1 chunk đơn lẻ = CÓ THỂ PHÁ melody (prediction miss → dissonance)
-    Chuỗi chunks đủ lớn = TỰ TẠO sub-melody mới (liên kết → sync → "à! HAY!")
+    A single chunk = CAN DISRUPT the melody (prediction miss → dissonance)
+    A sufficient chain of chunks = CREATES a new sub-melody on its own
+      (connected → sync → "oh! This sounds great!")
 
-    Investment cost = khoảng GIỮA:
-      → Vài phút (chunk đơn giản, gần melody hiện tại)
-      → Vài năm (domain hoàn toàn mới, cần hệ thống chunks)
-      → Trong khoảng này: body signal dissonance liên tục → nhiều người BỎ CUỘC
+    Investment cost = the GAP IN BETWEEN:
+      → A few minutes (simple chunk, close to current melody)
+      → A few years (completely new domain, needs a whole chunk system)
+      → During this gap: body signals dissonance continuously → many people QUIT
 
-    → (Chi tiết arc design: Melody-Arc.md)
+    → (Details on arc design: Melody-Arc.md)
 
 
-  MOTIVATION BRIDGE — cái giữ qua investment cost:
+  MOTIVATION BRIDGE — what carries you through the investment cost:
 
-    5 loại bridge, theo sức mạnh tăng dần:
-      ① Novelty pull: VTA positive delta từ chunk mới → "ồ hay" → tiếp
-      ② External reward: "xong → bonus" → anticipated reward > dissonance
-      ③ Identity schema: "tôi KHÔNG bỏ cuộc" → internal standard
-      ④ Social connection: "team phụ thuộc vào tôi" → connection drive
-      ⑤ Threat avoidance: "không làm → mất việc" → avoidance tag activate
+    5 bridge types, in increasing strength:
+      ① Novelty pull: VTA positive delta from new chunk → "oh interesting" → continue
+      ② External reward: "finish → bonus" → anticipated reward > dissonance
+      ③ Identity schema: "I DON'T QUIT" → internal standard
+      ④ Social connection: "the team depends on me" → connection drive
+      ⑤ Threat avoidance: "don't do it → lose the job" → avoidance tag activates
 
-    ⭐ RÚT BRIDGE KHI ĐỦ:
-      → Chunks compile đủ → sub-melody mới emerge → body TỰ reward (intrinsic)
-      → Lúc này: rút bridge → approach tag tự sustain
-      → Giữ bridge quá lâu:
+    ⭐ REMOVE THE BRIDGE WHEN READY:
+      → Enough chunks compiled → new sub-melody emerges → body SELF-REWARDS (intrinsic)
+      → At this point: remove the bridge → approach tag sustains on its own
+      → Keeping the bridge too long:
         External reward → overjustification (Deci 1971 🟢)
-        Threat → avoidance tag compile → "giỏi nhưng ghét"
-      → Dấu hiệu đủ: body enjoy process, tự làm không cần nhắc
-      → = Bridge NHỎ NHẤT + NGẮN NHẤT có thể → đợi intrinsic → rút
+        Threat → avoidance tag compiles → "skilled but hates it"
+      → Signs of readiness: body enjoys the process, works without being prompted
+      → = SMALLEST + SHORTEST bridge possible → wait for intrinsic → remove it
 
-    → (Chi tiết: Melody-Arc.md §4, Education-Bridge.md, Reward-Economics.md §9)
+    → (Details: Melody-Arc.md §4, Education-Bridge.md, Reward-Economics.md §9)
 ```
 
 ---
 
-## §6 — IMAGINE-FINAL (Compass Của Melody)
+## §6 — IMAGINE-FINAL (Compass of the Melody)
 
 ```
-⭐ IMAGINE-FINAL = REFERENCE PATTERN mà hệ thống dùng để navigate:
+⭐ IMAGINE-FINAL = REFERENCE PATTERN the system uses to navigate:
 
-  → KHÔNG CHỈ "mục tiêu trong đầu"
-  → LÀ: 1 PATTERN mà body ĐÃ PRE-FEEL (opioid preview — somatic marker)
-  → Mỗi chunk mới PHẢN XẠ với pattern này: "đúng hướng" hay "vô nghĩa"
-  → PFC observe: "dissonance NÀY xứng với melody update TIỀM NĂNG?"
+  → NOT just "a goal in mind"
+  → IS: a PATTERN that the body has already PRE-FELT (opioid preview — somatic marker)
+  → Each new chunk is checked against this pattern: "heading in the right direction"
+    or "meaningless"
+  → PFC observes: "is THIS dissonance worth the POTENTIAL melody upgrade?"
 
-  ⚠️ Imagine-Final KHÔNG CHỈ conscious (PFC):
-    → Body-base LUÔN CÓ expectation patterns VÔ THỨC ở mọi scale
-    → Vô thức = check chính (~95%): chunk match imagine-final? → opioid/dissonance
-    → PFC = extension (~5%): conscious hóa, check domain, chọn thực thi
-    → = "Compass" chạy VÔ THỨC — PFC chỉ "đọc" compass khi cần
-    → 🟢 Somatic marker hypothesis (Damasio 1994): body preview outcomes
+  ⚠️ Imagine-Final is NOT only conscious (PFC):
+    → Body-base ALWAYS has unconscious expectation patterns at every scale
+    → Unconscious = primary check (~95%): does chunk match imagine-final? →
+        opioid/dissonance
+    → PFC = extension (~5%): makes it conscious, checks domain, chooses execution
+    → = "Compass" runs UNCONSCIOUSLY — PFC only "reads" the compass when needed
+    → 🟢 Somatic marker hypothesis (Damasio 1994): body previews outcomes
 
-  (Chi tiết cơ chế + 14 ngưỡng: Imagine-Final.md)
+  (Details on mechanism + 14 thresholds: Imagine-Final.md)
 
 
-  CÓ COMPASS → melody BUILD CÓ HƯỚNG:
-    → Mỗi arc HƯỚNG VỀ 1 phía → chunks tích lũy có ý nghĩa
-    → Dissonance hàng ngày CÓ MỤC ĐÍCH → approach tag compile dần
-    → = "Bài nhạc ĐANG viết tiếp" — có direction
+  WITH A COMPASS → melody BUILDS WITH DIRECTION:
+    → Each arc HEADS TOWARD one side → chunks accumulate meaningfully
+    → Daily dissonance HAS A PURPOSE → approach tags compile gradually
+    → = "A piece still being written" — has direction
 
-  KHÔNG CÓ COMPASS → melody TRÔI:
-    → Chunks nạp random → "sống đời người khác"
-    → Body-base không biết pull hướng nào → mất energy
-    → Crisis khi template cũ mất (quarter-life crisis, mid-life crisis)
-    → "Chán" = novelty drive active + Chunk-Gap (KHÔNG CÓ Imagine-Final)
+  WITHOUT A COMPASS → melody DRIFTS:
+    → Chunks absorbed at random → "living someone else's life"
+    → Body-base doesn't know which direction to pull → energy dissipates
+    → Crisis when the old template is lost (quarter-life crisis, mid-life crisis)
+    → "Boredom" = novelty drive active + Chunk-Gap (NO Imagine-Final)
       (Boredom.md: boredom = VTA underfed + no direction)
 
-  COMPASS SAI → melody build về phía SAI:
-    → "Muốn giàu" → có tiền → body emptiness (body-base KHÔNG match)
-    → "Con phải làm bác sĩ" → Imagine-Final CỦA BỐ MẸ inject vào con
-    → = Anchor-Schema ở MISMATCH (Imagine-Final-Evaluation.md §4)
+  WRONG COMPASS → melody builds in the WRONG DIRECTION:
+    → "Want to be rich" → gets money → body feels empty (body-base NOT matched)
+    → "You must become a doctor" → Imagine-Final of the PARENTS injected into the child
+    → = Anchor-Schema in MISMATCH (Imagine-Final-Evaluation.md §4)
 
 
-  3 MỨC COMPASS:
-    ① Per-task: "xong bài tập" → ngắn hạn
-    ② Per-domain: "thành expert" → trung hạn
-    ③ Per-life: "cuộc sống tôi MUỐN sống" → dài hạn
-    → Không có ③ → ① và ② chạy nhưng KHÔNG NỐI thành unified melody
+  3 LEVELS OF COMPASS:
+    ① Per-task: "finish the assignment" → short-term
+    ② Per-domain: "become an expert" → medium-term
+    ③ Per-life: "the life I WANT to live" → long-term
+    → Without ③ → ① and ② run but DON'T CONNECT into a unified melody
 
-  CÁCH TÌM COMPASS ĐÚNG:
-    → Body-listening: khi nào reward thật? khi nào satisfaction? → ĐÓ là hướng
-    → EXPOSE: Imagine-Final CẦN external trigger → không thấy = không imagine
-    → Self-Pattern-Modeling (Agent.md): simulate future self → body pre-feel
-    → = "Thử" bằng imagination → body vote → refine direction
+  HOW TO FIND THE RIGHT COMPASS:
+    → Body-listening: when do you get real reward? when real satisfaction? → THAT is the direction
+    → EXPOSE: Imagine-Final NEEDS external triggers → can't imagine what you haven't seen
+    → Self-Pattern-Modeling (Agent.md): simulate future self → body pre-feels
+    → = "Try through imagination" → body votes → refine direction
 
-  → Khi compass COMMITTED → Anchor-Schema (Anchor-Schema.md):
-    Trust binding giữ qua dissonance. 4 nguồn trust.
-  → Đánh giá chất lượng compass: Imagine-Final-Evaluation.md
-    (2 trục: Domain Fit × Hardware Fit → 4 góc)
+  → When compass is COMMITTED → Anchor-Schema (Anchor-Schema.md):
+    Trust binding holds through dissonance. 4 trust sources.
+  → Assess compass quality: Imagine-Final-Evaluation.md
+    (2 axes: Domain Fit × Hardware Fit → 4 corners)
 ```
 
 ---
 
-## §7 — ARC DYNAMICS (Melody Build Qua Sóng)
+## §7 — ARC DYNAMICS (Melody Builds Through Waves)
 
 ```
-🟡 Melody KHÔNG build tuyến tính — mà qua SÓNG (arcs):
+🟡 Melody does NOT build linearly — it builds through WAVES (arcs):
 
-  ARC = 1 chu kỳ build cho 1 nhóm chunks cụ thể:
-    → Bắt đầu: Chunk-Gap hoặc Chunk-Miss (something missing/wrong)
-    → Giữa: dissonance (PFC draft → body check → thử sai → compile dần)
-    → Kết thúc: chunks compile đủ → melody update stable → body reward
-    → = 1 "chuyển điệu" trong bài nhạc — sang key MỚI nhưng SMOOTH lại
-    → (Chi tiết arc design: Melody-Arc.md)
+  ARC = 1 build cycle for a specific group of chunks:
+    → Start: Chunk-Gap or Chunk-Miss (something missing/wrong)
+    → Middle: dissonance (PFC drafts → body checks → trial and error → gradual compile)
+    → End: enough chunks compiled → melody update stabilizes → body rewards
+    → = 1 "key change" in the piece — moves to a NEW key but settles SMOOTH again
+    → (Details on arc design: Melody-Arc.md)
 
-  NHIỀU ARCS CHẠY ĐỒNG THỜI:
-    → PFC SERIAL: chỉ focus 1 arc tại 1 thời điểm
-    → Vô thức PARALLEL: hàng chục arcs chạy nền
-    → Arcs PHỤ THUỘC: biết code → mới build game → mới hiểu UX
-    → PFC nhảy giữa arcs → tất cả TIẾN (không đồng tốc)
-    → "Dồn dập" = nhiều arcs đều ở phase dissonance cao cùng lúc
+  MANY ARCS RUNNING SIMULTANEOUSLY:
+    → PFC is SERIAL: only focuses on 1 arc at a time
+    → Unconscious is PARALLEL: dozens of arcs running in the background
+    → Arcs DEPEND ON EACH OTHER: know how to code → can build a game →
+        can understand UX
+    → PFC jumps between arcs → all PROGRESS (at different speeds)
+    → "Overwhelming" = many arcs all in high-dissonance phase simultaneously
 
 
-  WAVE PATTERN — peak và trough:
+  WAVE PATTERN — peaks and troughs:
 
     Dissonance
-    (lượng Arc    ╱╲        ╱╲           ╱╲
-     đang build) ╱  ╲  ╱╲  ╱  ╲    ╱╲  ╱  ╲
-                ╱    ╲╱  ╲╱    ╲  ╱  ╲╱    ╲───
-               ╱              ╲╱
-    ──────────╱─────────────────────────────────→ Time
+    (arc build   ╱╲        ╱╲           ╱╲
+     volume)    ╱  ╲  ╱╲  ╱  ╲    ╱╲  ╱  ╲
+               ╱    ╲╱  ╲╱    ╲  ╱  ╲╱    ╲───
+              ╱              ╲╱
+    ──────────╱──────────────────────────────────→ Time
 
-    PEAK = nhiều arcs cùng ở dissonance cao:
-      → Cortisol amplify (tăng signal cho MỌI dissonance)
-      → PFC full bandwidth
-      → = "Phase chiến" — tập trung toàn lực
+    PEAK = many arcs all in high-dissonance simultaneously:
+      → Cortisol amplifies (increases signal for EVERY dissonance)
+      → PFC at full bandwidth
+      → = "Crunch phase" — full focus, all hands on deck
 
-    TROUGH = arcs vừa compile xong:
-      → Melody smoother, cortisol giảm
-      → NHƯNG arcs nền vẫn chạy
-      → = "Nghỉ giữa hiệp" — thoải mái hơn nhưng vẫn tiến
+    TROUGH = arcs just finished compiling:
+      → Melody smoother, cortisol decreases
+      → BUT background arcs still running
+      → = "Between-round rest" — more relaxed but still progressing
 
-    MỖI TROUGH CAO HƠN TROUGH TRƯỚC:
-      → Arcs complete → chunks compiled → melody NÂNG CẤP permanent
-      → = Baseline melody TĂNG sau mỗi wave
-      → = Build reward (Reward-Economics.md) — upgrade bền vững
-
-
-  PARADOX "SMOOTH HƠN NHƯNG THẤY NHIỀU DISSONANCE HƠN":
-    → Xong wave → melody smooth hơn VỀ CÁI ĐÃ BIẾT
-    → NHƯNG: PFC ở level CAO hơn → "nhìn rộng hơn" → thấy thêm Chunk-Gaps
-    → = "Leo lên cao → nhìn xa → thấy nhiều đỉnh cần leo hơn"
-    → KHÔNG mâu thuẫn: smooth + thấy thêm = bình thường
+    EACH TROUGH IS HIGHER THAN THE PREVIOUS:
+      → Arcs complete → chunks compiled → melody PERMANENTLY UPGRADED
+      → = Baseline melody RISES after each wave
+      → = Build reward (Reward-Economics.md) — durable upgrade
 
 
-  VÔ THỨC ARCS — phần chìm:
-    → PFC chỉ biết 1-2 arcs đang focus
-    → Vô thức compile hàng chục arcs nền
-    → "Tự nhiên hiểu" = vô thức compile xong 1 arc nền
-    → Smooth melody TẠM khi vừa lên tầng mới (sau peak)
+  PARADOX: "SMOOTHER BUT SEEING MORE DISSONANCE":
+    → After a wave → melody smoother FOR WHAT YOU ALREADY KNOW
+    → BUT: PFC at a HIGHER level → "sees further" → notices MORE Chunk-Gaps
+    → = "Climb higher → see farther → notice more peaks left to climb"
+    → NOT a contradiction: smooth + seeing more = completely normal
+
+
+  UNCONSCIOUS ARCS — the hidden portion:
+    → PFC only knows 1-2 arcs currently focused on
+    → Unconscious compiles dozens of background arcs
+    → "Suddenly understood" = unconscious finished compiling a background arc
+    → Melody TEMPORARILY smooth when just reaching a new level (after peak)
 
 
   LIFETIME TRAJECTORY:
-    Trẻ con: peak CỰC MẠNH (mọi thứ mới, build từ 0)
-    Thanh niên: mega-arcs lớn (học nghề, đi làm, lập gia đình)
-    Trung niên: arcs ít nhưng SÂU, refined
-    Về già: compiled đủ, arcs nền nhẹ, xu hướng smooth
+    Childhood: EXTREMELY intense peaks (everything is new, building from zero)
+    Young adults: large mega-arcs (learning a career, working, building a family)
+    Middle age: fewer arcs but DEEPER, more refined
+    Old age: enough compiled, light background arcs, trend toward smooth
 
     🟢 U-CURVE OF HAPPINESS (Blanchflower & Oswald 2008):
-      → Happiness THẤP NHẤT ~45-50 tuổi
-      → SAU ĐÓ: TĂNG dần
-      → Framework: 45-50 = peak cuối mega-arcs (career + family + health shift)
-      → Sau 50: mega-arcs DẦN compile → melody smoother
-      → = Prediction match cao hơn, fewer Chunk-Gaps, acceptance
+      → Happiness LOWEST at ~45-50
+      → AFTER THAT: rises steadily
+      → Framework: 45-50 = peak of final mega-arcs (career + family + health shift)
+      → After 50: mega-arcs GRADUALLY compile → melody smoother
+      → = Higher prediction match, fewer Chunk-Gaps, acceptance
 ```
 
 ---
@@ -611,139 +624,149 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §8 — MELODY EQUILIBRIUM (5 Profiles)
 
 ```
-🟡 Có trạng thái "ĐỦ HAY" không?
+🟡 Is there a state of "good enough"?
 
-  ⭐ "ĐÍCH ĐẾN" = 1 TRẠNG THÁI, không phải 1 điểm:
+  ⭐ "THE DESTINATION" = A STATE, not a single point:
 
-    Trạng thái "melody đủ hay" = khi:
-      → Body-base met ĐỦ cho hardware CỦA MÌNH
-      → Domain map ĐỦ cho cuộc sống BỀN VỮNG
-      → Imagine-Final gap CHẤP NHẬN ĐƯỢC (nhỏ hoặc "đúng hướng rồi")
-      → Approach tags > avoidance tags trong daily experience
+    The state of "melody good enough" = when:
+      → Body-base met SUFFICIENTLY for YOUR hardware
+      → Domain mapped SUFFICIENTLY for a SUSTAINABLE life
+      → Imagine-Final gap is ACCEPTABLE (small or "already heading the right way")
+      → Approach tags > avoidance tags in daily experience
 
-    KHÁC per-person vì:
-      → Hardware KHÁC: DRD4-7R cần nhiều arcs hơn mới "đủ smooth"
-      → Body-base threshold KHÁC: cortisol baseline khác
-      → Imagine-Final KHÁC: compass lớn = gap lớn
-      → Domain exposure KHÁC: môi trường cho phép map tới đâu
+    DIFFERENT per person because:
+      → Hardware DIFFERS: DRD4-7R needs more arcs before "smooth enough"
+      → Body-base threshold DIFFERS: different cortisol baseline
+      → Imagine-Final DIFFERS: large compass = large gap
+      → Domain exposure DIFFERS: environment determines how far you can map
 
-    VÀ: trạng thái KHÔNG cố định:
-      → Có thể ĐẠT rồi MẤT (Chunk-Shift: bệnh, mất người thân)
-      → Có thể CHƯA ĐẠT rồi ĐẠT (therapy, connection mới, shift environment)
-
-
-  5 PROFILES — cùng framework, khác trajectory:
-
-    ① CHƯA BAO GIỜ ĐỦ (body-base chưa met suốt đời):
-       → Nghèo, bệnh, chiến tranh, trauma liên tục
-       → Cortisol amplify LIÊN TỤC → body-base signal dissonance KHÔNG NGỪNG
-       → Freed resource cho arcs = rất ít
-       → = "Chưa bao giờ đủ yên để hỏi 'mình muốn gì'"
-
-    ② ĐỦ + DỪNG (smooth sớm, novelty drive thấp):
-       → Body-base met, domain map đủ
-       → Hardware: DRD4-4R, VTA threshold cao → ít cần novelty
-       → ~45-55: compiled ĐỦ → melody SMOOTH
-       → = "Tôi vừa ý với cuộc sống này" → sống chậm, enjoy
-
-    ③ ĐỦ + TIẾP TỤC (smooth nhưng VTA vẫn fire):
-       → Body-base met, domain map TỐT
-       → Hardware: novelty drive CAO → luôn Chunk-Gap mới
-       → Build vì SƯỚNG (approach tag), không vì PHẢI (avoidance tag)
-       → = "Đã ổn nhưng CÒN MUỐN THÊM" → active về già
-
-    ④ ĐỦ + SHARE (build cho người khác):
-       → Melody hay đủ cho mình → Imagine-Final SHIFT: "cho người"
-       → Connection drive dominant → dạy, mentor, cộng đồng
-       → Self-Pattern-Modeling fire OUTWARD: help others build THEIR melody
-       → = "Đã đủ cho mình → giờ SHARE"
-
-    ⑤ HORIZON VÔ HẠN (Imagine-Final cực lớn):
-       → Body-base met, domain map tốt
-       → NHƯNG: Imagine-Final UPDATE LỚN HƠN mỗi mốc → luôn gap
-       → Risk: burnout nếu body-base bị bỏ quên cho compass
-       → = "Horizon luôn xa hơn mình đứng"
+    AND: the state is NOT FIXED:
+      → Can REACH it then LOSE it (Chunk-Shift: illness, losing a loved one)
+      → Can go WITHOUT it then FIND it (therapy, new connection, environment shift)
 
 
-  CÁI GÌ QUYẾT ĐỊNH PROFILE:
+  5 PROFILES — same framework, different trajectories:
+
+    ① NEVER ENOUGH (body-base never sufficiently met throughout life):
+       → Poverty, illness, war, continuous trauma
+       → Cortisol amplifies CONTINUOUSLY → body-base signals dissonance WITHOUT PAUSE
+       → Resources freed for arcs = very limited
+       → = "Never had enough quiet to ask 'what do I want?'"
+
+    ② ENOUGH + STOP (settled early, low novelty drive):
+       → Body-base met, domain mapped sufficiently
+       → Hardware: DRD4-4R, high VTA threshold → less need for novelty
+       → Around 45-55: compiled ENOUGH → melody SMOOTH
+       → = "I'm content with this life" → slow living, enjoy
+
+    ③ ENOUGH + KEEP GOING (smooth but VTA still fires):
+       → Body-base met, domain mapped WELL
+       → Hardware: HIGH novelty drive → always new Chunk-Gaps
+       → Builds because it FEELS GOOD (approach tag), not because MUST (avoidance tag)
+       → = "Already settled but STILL WANT MORE" → actively engaged into old age
+
+    ④ ENOUGH + SHARE (building for others):
+       → Melody good enough for oneself → Imagine-Final SHIFTS: "for others"
+       → Connection drive dominant → teaching, mentoring, community
+       → Self-Pattern-Modeling fires OUTWARD: help others build THEIR melody
+       → = "Already enough for myself → now SHARE"
+
+    ⑤ INFINITE HORIZON (extremely large Imagine-Final):
+       → Body-base met, domain mapped well
+       → BUT: Imagine-Final UPDATES LARGER at every milestone → always a gap
+       → Risk: burnout if body-base is neglected in pursuit of the compass
+       → = "The horizon is always farther than where I'm standing"
+
+
+  WHAT DETERMINES THE PROFILE:
     → Hardware novelty drive level: ② vs ③ vs ⑤
-    → Body-base met hay chưa: ① vs tất cả
+    → Body-base met or not: ① vs all others
     → Imagine-Final size: ② vs ⑤
-    → Domain exposure: ① (locked) vs ④ (freed)
-    → = Framework KHÔNG nói profile nào "tốt nhất"
-    → = Mỗi người TỰ DEFINE "đủ hay" cho melody CỦA MÌNH
+    → Domain exposure: ① (locked out) vs ④ (freed up)
+    → = Framework does NOT say any profile is "best"
+    → = Each person DEFINES their own "good enough" for THEIR melody
 ```
 
 ---
 
-## §9 — PREDICT MELODY NGƯỜI KHÁC
+## §9 — PREDICTING ANOTHER PERSON'S MELODY
 
 ```
-🟡 "Hiểu ai đó" = Self-Pattern-Modeling (Self-Pattern-Modeling) applied to melody CỦA HỌ:
+🟡 "Understanding someone" = Self-Pattern-Modeling applied to THEIR melody:
 
   MECHANISM (Agent.md + Self-Pattern-Modeling.md):
     → Self-Pattern-Modeling = solo forward simulation:
-      [1] Retrieve chunks từ SELF repertoire matching target cues
-      [2] Template match: "nếu TÔI ở vị trí họ..."
-      [3] Project template lên target
+      [1] Retrieve chunks from SELF repertoire matching target cues
+      [2] Template match: "if I were in their position..."
+      [3] Project template onto target
       [4] Simulate: fire self-chunks as-if-target
-      [5] Output read: PFC observe simulation result
-      [6] Attribution: "HỌ đang feel/want/will X"
-    → = KHÔNG phải "mirror neuron" hardware module
-    → = Brain dùng MÌNH làm template đoán NGƯỜI KHÁC
+      [5] Output read: PFC observes simulation result
+      [6] Attribution: "THEY are feeling/wanting/will do X"
+    → = NOT a "mirror neuron" hardware module
+    → = Brain uses ITSELF as a template to predict OTHERS
 
 
-  3 LỚP OVERLAP (quyết định Self-Pattern-Modeling quality):
+  3 LAYERS OF OVERLAP (determines Self-Pattern-Modeling quality):
 
     ① Species overlap (~70-90%):
-       → Cùng loài → body-base hardware GẦN GIỐNG
-       → "Đói = khó chịu" (ai cũng vậy) → predict dễ
-       → = "Đồng cảm cơ bản" — Self-Pattern-Modeling accuracy cao vì template match hardware
+       → Same species → body-base hardware VERY SIMILAR
+       → "Hunger = discomfort" (true for everyone) → easy to predict
+       → = "Basic empathy" — high Self-Pattern-Modeling accuracy because
+           template matches hardware
 
-    ② Culture overlap (0-80%):
-       → Shared environment → chunks compile TƯƠNG TỰ
-       → Cùng VN: chunk [mất mặt] compiled → predict "đau" = ĐÚNG
-       → KHÁC culture: chunk THIẾU → Self-Pattern-Modeling output = projection CỦA MÌNH
-       → = Self-Pattern-Modeling quality phụ thuộc shared chunk library
+    ② Cultural overlap (0-80%):
+       → Shared environment → chunks compile SIMILARLY
+       → Same culture: chunk [losing face] compiled → predict "pain" = CORRECT
+       → DIFFERENT culture: chunk MISSING → Self-Pattern-Modeling output =
+           projection of SELF
+       → = Self-Pattern-Modeling quality depends on shared chunk library
 
     ③ Personal overlap (0-90%):
-       → Thời gian × attention → chunks VỀ NGƯỜI ĐÓ compiled
-       → 10 năm sống cùng → nhiều chunks → simulate CHI TIẾT
-       → = "Hiểu sâu" = Self-Pattern-Modeling có many templates cho target cụ thể
+       → Time × attention → chunks ABOUT THAT PERSON compiled
+       → 10 years living together → many chunks → simulate IN DETAIL
+       → = "Deep understanding" = Self-Pattern-Modeling has many templates
+           for that specific target
 
 
-  RESONANCE — khi cả 2 bên Self-Pattern-Modeling thành công (By-Product-Gap-Resonance.md):
-    → Self-Pattern-Modeling = solo forward (mình đoán họ)
-    → Resonance = EMERGENT khi CẢ HAI bên Self-Pattern-Modeling match thành công
-    → Retrospective only — không biết real-time, chỉ infer sau
-    → Serves as calibration feedback cho Self-Pattern-Modeling library refinement
-    → = "2 bài nhạc tình cờ HARMONIZE" — không ai điều khiển, tự xảy ra
+  RESONANCE — when both sides Self-Pattern-Modeling succeeds (By-Product-Gap-Resonance.md):
+    → Self-Pattern-Modeling = solo forward (I predict them)
+    → Resonance = EMERGENT when BOTH SIDES' Self-Pattern-Modeling match successfully
+    → Retrospective only — not knowable in real-time, only inferred afterward
+    → Serves as calibration feedback for Self-Pattern-Modeling library refinement
+    → = "2 pieces happen to HARMONIZE" — nobody controls it, it just happens
 
 
-  ⭐ OBSERVER THẤY RÕ HƠN SUBJECT:
+  ⭐ THE OBSERVER SEES MORE CLEARLY THAN THE SUBJECT:
 
-    PFC chủ nhân KHÔNG thấy melody chính mình rõ:
-      → Schema compiled sâu = vô thức → PFC không observe (Feeling.md v2.0)
-      → PFC đo mình = dùng melody MÌNH đo melody MÌNH
-      → = "Thước CONG đo xem có cong không → luôn nói THẲNG"
+    The owner's PFC cannot see their own melody clearly:
+      → Schema compiled deep = unconscious → PFC cannot observe it (Feeling.md v2.0)
+      → PFC measures itself = using OWN melody to measure OWN melody
+      → = "A crooked ruler measuring whether things are crooked →
+           always says STRAIGHT"
       → 🟢 Blind spot bias (Pronin 2002)
 
-    Observer có thể thấy rõ hơn:
-      → Self-Pattern-Modeling dùng THEIR chunks (khác template) → detect patterns subject bỏ lỡ
-      → Pattern lặp lại mà subject không thấy → observer THẤY
-      → = Therapy / coaching / bạn thân = external melody observation
-      → NHƯNG: observer accuracy cũng limited bởi THEIR Self-Pattern-Modeling quality
-        (Bird & Cook 2013: poor self-reading → poor Self-Pattern-Modeling → poor observation)
+    An observer may see more clearly:
+      → Self-Pattern-Modeling uses THEIR chunks (different template) → detects
+          patterns the subject misses
+      → Repeating patterns the subject doesn't notice → observer SEES them
+      → = Therapy / coaching / close friendship = external melody observation
+      → BUT: observer accuracy is also limited by THEIR Self-Pattern-Modeling quality
+        (Bird & Cook 2013: poor self-reading → poor Self-Pattern-Modeling →
+         poor observation)
 
-    → = "Bạn không thấy mặt mình nếu không có gương — nhưng gương cũng có thể méo"
+    → = "You can't see your own face without a mirror — but the mirror
+         can also be warped"
 
 
-  "JUDGEMENTAL" = Self-Pattern-Modeling thất bại + closure nhanh:
-    → Gặp melody KHÁC → Chunk-Gap → VTA fire nhẹ (novelty)
-    → 2 phản ứng:
-      ① Tò mò → tìm thêm chunks → build Self-Pattern-Modeling template → hiểu SÂU dần
-      ② Label → "người kỳ lạ" → đóng gap bằng schema sẵn → Self-Pattern-Modeling NÔNG mãi
-    → = "Phán xét = lười build Self-Pattern-Modeling template" — áp melody MÌNH lên melody HỌ
+  "JUDGMENTAL" = Self-Pattern-Modeling failing + fast closure:
+    → Encountering a DIFFERENT melody → Chunk-Gap → mild VTA fire (novelty)
+    → 2 reactions:
+      ① Curiosity → seek more chunks → build Self-Pattern-Modeling template →
+          understanding deepens over time
+      ② Label → "strange person" → close the gap with a ready-made schema →
+          Self-Pattern-Modeling stays SHALLOW forever
+    → = "Being judgmental = being lazy about building Self-Pattern-Modeling
+         templates" — forcing YOUR melody onto THEIR melody
 ```
 
 ---
@@ -751,49 +774,50 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §10 — DIFFICULTY vs MISMATCH
 
 ```
-🟡 2 loại dissonance trong melody — PHÂN BIỆT CỐT LÕI:
+🟡 2 types of dissonance in melody — A CORE DISTINCTION:
 
-  DIFFICULTY DISSONANCE — khó nhưng ĐÚNG HƯỚNG:
-    → Chunks phù hợp hardware → melody ĐÚNG direction → task KHÓ
-    → Khi solve: chunks compile → melody NÂNG CẤP thật sự (permanent)
-    → Approach tag: body pull TOWARD dù khó
-    → = "Khó nhưng TÔI MUỐN khó kiểu này"
+  DIFFICULTY DISSONANCE — hard but HEADING THE RIGHT WAY:
+    → Chunks fit the hardware → melody in the RIGHT direction → task is HARD
+    → When solved: chunks compile → melody GENUINELY UPGRADES (permanent)
+    → Approach tag: body pulls TOWARD even when hard
+    → = "Hard, but I WANT this kind of hard"
 
-  MISMATCH DISSONANCE — dễ hoặc khó nhưng SAI HƯỚNG:
-    → Chunks KHÔNG match hardware → melody LỆCH → task có thể dễ mà vẫn mệt
-    → Khi xong: relief (hết dissonance) → KHÔNG harmony sâu
-    → Avoidance tag compile dần: "xong = bớt khổ" (relief pathway)
-    → = "Khổ và TÔI KHÔNG MUỐN khổ kiểu này"
+  MISMATCH DISSONANCE — easy or hard but WRONG DIRECTION:
+    → Chunks DON'T match hardware → melody misaligned → task can be easy but still draining
+    → When done: relief (dissonance gone) → no deep harmony
+    → Avoidance tag gradually compiles: "finishing = less suffering" (relief pathway)
+    → = "Suffering, and I DON'T WANT this kind of suffering"
 
 
-  2 PATHWAY KHÁC NHAU (Liking-Wanting.md §4):
+  2 DIFFERENT PATHWAYS (Liking-Wanting.md §4):
 
     Opioid pathway (difficulty → mastery):
       → Effort → prediction match → opioid → sustainable reward
-      → Approach tag strengthen → intrinsic pull
-      → = BUILD reward — melody upgrade permanent
+      → Approach tag strengthens → intrinsic pull
+      → = BUILD reward — melody upgrade is permanent
 
     Relief pathway (mismatch → survival):
-      → Threat signal → avoidance action → threat giảm → relief
-      → KHÔNG có opioid, chỉ cortisol giảm
-      → Avoidance tag = duy trì → phải lặp → dependent
-      → = CONSUME relief — melody không upgrade
+      → Threat signal → avoidance action → threat decreases → relief
+      → NO opioid, only cortisol reduction
+      → Avoidance tag maintained → must repeat → dependency
+      → = CONSUME relief — melody doesn't upgrade
 
 
-  BIỂU HIỆN:
-    → "Chỉ thấy SỐNG vào cuối tuần" = work melody MISMATCH + weekend melody MATCH
-    → "Flow" = difficulty dissonance TỐI ƯU (Csíkszentmihályi) — hardware match + challenge vừa đủ
-    → "Burnout" = difficulty + NO approach tag (forced) HOẶC mismatch kéo dài
+  HOW IT SHOWS UP:
+    → "Only feel ALIVE on weekends" = work melody MISMATCHED + weekend melody MATCHED
+    → "Flow" = optimal difficulty dissonance (Csíkszentmihályi) — hardware match +
+        challenge calibrated just right
+    → "Burnout" = difficulty + NO approach tag (forced) OR mismatch sustained too long
 
 
-  ƯỚC LƯỢNG (🟡 consistent với Gallup engagement surveys 🟢):
-    ~10-15%: match + BIẾT match → chọn đúng → melody hay
-    ~20-30%: match + CHƯA biết → đang mismatch → nếu thử → hay
-    ~40-50%: mismatch + chấp nhận → "sống được" (relief cycle)
-    ~10-20%: mismatch + khổ → burnout/depression
-    → = ~60-70% đang ở mismatch ở mức nào đó
-    → = KHÔNG phải "lười" → là CHƯA TÌM ĐÚNG domain match hardware
-    → 🟡 Consistent với person-environment fit theory (Edwards 1991)
+  ESTIMATES (🟡 consistent with Gallup engagement surveys 🟢):
+    ~10-15%: matched + KNOW they're matched → chose right → good melody
+    ~20-30%: matched + DON'T KNOW YET → currently mismatched → if they tried → good
+    ~40-50%: mismatched + accepting it → "livable" (relief cycle)
+    ~10-20%: mismatched + suffering → burnout/depression
+    → = ~60-70% currently experiencing some degree of mismatch
+    → = NOT "lazy" → simply HAVEN'T FOUND the domain that matches their hardware
+    → 🟡 Consistent with person-environment fit theory (Edwards 1991)
 ```
 
 ---
@@ -806,7 +830,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Music + emotion: neural overlap (Blood & Zatorre 2001)
     → Music preference × personality (Rentfrow & Gosling 2003)
     → DRD4 × novelty seeking (Ebstein 1996)
-    → Somatic marker hypothesis (Damasio 1994): body preview outcomes
+    → Somatic marker hypothesis (Damasio 1994): body previews outcomes
     → Overjustification effect (Deci 1971): external reward undermines intrinsic
     → Blind spot bias — self less accurate than others on some dimensions (Pronin 2002)
     → ~70% workers "not engaged" globally (Gallup engagement surveys)
@@ -820,22 +844,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   FRAMEWORK (🟡):
     → "Melody = emergent state": observation parameter framing — logical,
-      consistent với v7.8 cycle architecture, chưa test trực tiếp
-    → "Hay = multi-modal sync": consistent nhưng chưa test trực tiếp
-    → "Gu = chunk pattern match": logical, personality research correlation supports
-    → "Two-axis tension" (body-base vs domain): consistent với comfort zone
+      consistent with v7.8 cycle architecture, not directly tested
+    → "Beautiful = multi-modal sync": consistent but not directly tested
+    → "Taste = chunk pattern match": logical, personality research correlation supports
+    → "Two-axis tension" (body-base vs domain): consistent with comfort zone
       research + deliberate practice (Ericsson 1993)
-    → "4 criteria melody hay": definitional — consistent với evolutionary fitness
-    → "Body ~90%": heuristic estimate, consistent với Why-Body-Knows.md analysis
-    → "Passion = 2 lực cùng hướng": maps SDT, consistent, not proof
+    → "4 criteria for a good melody": definitional — consistent with evolutionary fitness
+    → "Body ~90%": heuristic estimate, consistent with Why-Body-Knows.md analysis
+    → "Passion = 2 forces aligned": maps to SDT, consistent, not proof
     → "Motivation bridge → overjustification": mechanism explanation for established effect
-    → "Investment cost": consistent với learning curve + insight literature
-    → "Arc wave pattern": observable personally, chưa formalize
-    → "5 profiles": framework classification — consistent với personality × aging
-    → "Self-Pattern-Modeling = simulation-based prediction": consistent với Goldman simulation theory (2006)
+    → "Investment cost": consistent with learning curve + insight literature
+    → "Arc wave pattern": personally observable, not yet formalized
+    → "5 profiles": framework classification — consistent with personality × aging
+    → "Self-Pattern-Modeling = simulation-based prediction": consistent with Goldman
+      simulation theory (2006)
     → "Resonance = emergent mutual": novel framing, consistent
-    → "Difficulty vs mismatch": consistent với person-environment fit
-    → "Approach/avoidance tag": framework concept — consistent với Pavlovian
+    → "Difficulty vs mismatch": consistent with person-environment fit
+    → "Approach/avoidance tag": framework concept — consistent with Pavlovian
       approach/avoidance + incentive salience (Berridge), needs direct testing
 
   HYPOTHESIS (🔴):
@@ -843,16 +868,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → 5 profiles as EXHAUSTIVE list — likely more variants exist
     → Efference copy precision varies per-person → affects autonomy preference
       — logical but no direct measurement yet
-    → "Gu" entirely reducible to chunk-pattern match — likely oversimplified,
-      hormonal state + social context also gate in real-time
+    → "Taste" entirely reducible to chunk-pattern match — likely oversimplified;
+      hormonal state + social context also gate preferences in real-time
 
 
-  METAPHOR LIMITATIONS (phải nhớ):
-    → Nhạc = sequential → schema = parallel (nghĩ "dàn nhạc")
-    → Nhạc = chủ động → schema = tự động (nghĩ "earworm")
-    → "Key major/minor" ≠ simple cortisol mapping — valence phức tạp hơn
-    → "Nhạc trưởng" (PFC) gợi quá nhiều control — PFC chỉ observer+smoother
-    → Nếu metaphor gây nhầm → bỏ, dùng mechanism language
+  METAPHOR LIMITATIONS (keep in mind):
+    → Music = sequential → schema = parallel (think "self-playing ensemble")
+    → Music = active → schema = automatic (think "earworm")
+    → "Key major/minor" ≠ simple cortisol mapping — valence is more complex
+    → "The conductor" (PFC) implies too much control — PFC is only observer+smoother
+    → If the metaphor causes confusion → drop it, use mechanism language
 ```
 
 ---
@@ -860,8 +885,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §12 — CROSS-REFERENCES
 
 ```
-MECHANISM FILES (chi tiết kỹ thuật):
-  → Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
+MECHANISM FILES (technical details):
+  → Core-Software.md — cycle architecture, §8 observation parameters
   → Chunk.md v2.0 — chunk substrate, compilation, 4-phase lifecycle
   → Schema.md v2.0 — schema = observation parameter (named chunk pattern)
   → Modality.md v1.0 — 6 modalities, encoding channels
@@ -891,19 +916,19 @@ AGENT FILES:
   → Agent/By-Product-Gap-Resonance.md — emergent mutual phenomenon
 
 COMPASS + DIRECTION FILES:
-  → Imagine-Final.md — compass mechanism, 14 ngưỡng
-  → Anchor-Schema.md — trust binding, sync point, 4 nguồn
-  → Imagine-Final-Evaluation.md — 2 trục × 4 góc quality assessment
+  → Imagine-Final.md — compass mechanism, 14 thresholds
+  → Anchor-Schema.md — trust binding, sync point, 4 sources
+  → Imagine-Final-Evaluation.md — 2 axes × 4 corners quality assessment
 
 MELODY-LENS (sibling files):
   → Melody-Arc.md — arc design, investment cost, bridge mechanics
   → Global-Melody.md — collective melody interaction
-  → Personal-Melody-Example.md — profiles ví dụ
+  → Personal-Melody-Example.md — example profiles
 
 APPLICATIONS:
   → Reward-Economics.md — build vs consume reward, cost-benefit
   → Education-Bridge.md — motivation bridge per-context
-  → Attention-Spectrum.md — DRD4 spectrum, "tai nhạc" khác
+  → Attention-Spectrum.md — DRD4 spectrum, different "musical ears"
 
 HARDWARE:
   → Neural-Architecture.md — zones A/B/C/D
@@ -912,11 +937,11 @@ HARDWARE:
 
 ---
 
-> *Personal Melody v2.0 — "Mỗi người = 1 bài nhạc đang tự chơi.
-> 'Melody' = tên gọi cho emergent state — chunk network running simultaneously.
-> 'Melody hay' ≠ pleasant nhất. 'Melody hay' = smooth trên hardware CỦA MÌNH
-> + map domain CHÍNH XÁC + cover RỘNG + chơi LÂU DÀI bền vững.
-> Body-base pull (smooth) vs Domain pull (adapt) = tension SUỐT ĐỜI.
-> Approach tag vs Avoidance tag = direction mỗi chunk compile.
-> Self-Pattern-Modeling = cách ta dùng melody MÌNH đoán melody NGƯỜI KHÁC.
-> 'Đích đến' = trạng thái, per-person, đạt được + mất được + đạt lại được."*
+> *Personal Melody v2.0 — "Every person = a song playing itself.
+> 'Melody' = the name for emergent state — chunk network running simultaneously.
+> 'A good melody' ≠ most pleasant. 'A good melody' = smooth on YOUR OWN hardware
+> + maps domain ACCURATELY + covers BROADLY + plays SUSTAINABLY.
+> Body-base pull (smooth) vs Domain pull (adapt) = LIFELONG tension.
+> Approach tag vs Avoidance tag = the direction each chunk compiles with.
+> Self-Pattern-Modeling = how we use OUR melody to predict OTHERS' melody.
+> 'The destination' = a state, per-person — reachable, losable, and reachable again."*

@@ -1,772 +1,778 @@
-# Self-Created-Threat — Cơ Chế Tự Tạo Áp Lực Để Duy Trì Drive
+# Self-Created Threat — The Mechanism of Generating Your Own Pressure to Sustain Drive
 
-> **Jensen Huang: "Chúng tôi cách phá sản 30 ngày."**
-> **NVIDIA = công ty giá trị nhất thế giới. Không ai ngoài ông dám nói vậy.**
+> **Jensen Huang: "We are 30 days from going out of business."**
+> **NVIDIA = the world's most valuable company. No one else dared to say that.**
 >
 > **Andy Grove (Intel): "Only the paranoid survive."**
 > **Jeff Bezos: "Regret minimization framework."**
-> **Steve Jobs (sau chẩn đoán ung thư): "Death is the best invention of life."**
+> **Steve Jobs (after cancer diagnosis): "Death is the best invention of life."**
 >
-> Pattern chung: những người duy trì drive MẠNH NHẤT
-> thường TỰ TẠO áp lực — khi áp lực bên ngoài KHÔNG CÒN ĐỦ.
+> Common pattern: people who maintain the STRONGEST drive
+> tend to SELF-CREATE pressure — when external pressure is NO LONGER SUFFICIENT.
 >
-> Đây không phải "kỹ thuật motivation."
-> Đây là cơ chế: PFC tạo threat scenario → body trust → cortisol fire NHƯ THẬT.
-> = Trust Compile, nhưng từ chính bản thân mình.
+> This isn't a "motivation technique."
+> It's a mechanism: PFC creates a threat scenario → body trusts it → cortisol fires AS IF REAL.
+> = Trust Compile, but from yourself.
 >
-> File này phân tích: cơ chế hoạt động thế nào? Học được không?
-> Khi nào có lợi, khi nào có hại? Và tại sao AI era làm skill này
-> trở nên quan trọng hơn bao giờ hết.
+> This file analyzes: how does the mechanism work? Can it be learned?
+> When is it beneficial, when is it harmful? And why the AI era makes this skill
+> more important than ever.
 
 ---
 
-> **Trạng thái:** v1.1 (refined 2026-05-29: L3 RETIRE — "L3/L1-L2"→"PFC-level/body-compiled". Pattern C terminology)
-> **Ngày:** 2026-05-13
-> **Vị trí:** Research/ (cross-domain analysis, observation-level)
+> **Status:** v1.1 (refined 2026-05-29: L3 RETIRED — "L3/L1-L2"→"PFC-level/body-compiled". Pattern C terminology)
+> **Date:** 2026-05-13
+> **Location:** Research/ (cross-domain analysis, observation-level)
 > **Dependencies:**
->   Novelty.md v1.0 — §4.2 Mức 4 Self-Created Threat + §4.3 Novelty vs Anxiety Loop
+>   Novelty.md v1.0 — §4.2 Level 4 Self-Created Threat + §4.3 Novelty vs Anxiety Loop
 >   Threat.md v1.0 — §2 Internal-Predict (~20-60% fidelity), External vs Internal
 >   Imagine-Final.md — §7 Bootstrap (PFC start → body take over), Jensen Huang timeline
 >   Compile-Type-Learning.md v1.1 — Trust Compile, trust then verify
 >   Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, trust amplifier
 >   Cortisol-Baseline.md v2.0 — §7.7 5 Roles, §8.1-8.2 Inverted-U + 6 parameters
->   Anchor-Schema.md v1.0 — Clarity × Quality × Trust, 4 nguồn
+>   Anchor-Schema.md v1.0 — Clarity × Quality × Trust, 4 sources
 >   Protect.md v1.0 — §1.2 Loss Aversion ~2×, ownership chunks, Protect mechanism
->   Human-AI-Future.md v2.0 — §8 Con người tự nâng cấp, symbiosis
+>   Human-AI-Future.md v2.0 — §8 Human self-upgrade, symbiosis
 >   Expansion-Saturation-Crisis.md v1.1 — Expansion → Discovery shift
 >   Reward-Calibration.md v1.1 — Goldilocks, dynamic equilibrium
 >   Body-Feedback.md v1.1 — dual-pull, body accuracy ~90%
->   Novelty-Loop.md (backup) — §4.1-§4.3 source material (4 types, 3-phase, BẬT/TẮT)
+>   Novelty-Loop.md (backup) — §4.1-§4.3 source material (4 types, 3-phase, ON/OFF)
 > **Confidence:** 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
-> **Language:** Tiếng Việt primary + English technical terms
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ + CÂU HỎI
+- §0 — POSITION + QUESTIONS
 - §1 — CORE MECHANISM: PFC-TO-BODY TRUST-COMPILE
-- §2 — 4 LOẠI SELF-CREATED THREAT
-- §3 — 3 GIAI ĐOẠN HỌC (trải nghiệm → quan sát → tự tạo)
-- §4 — BẬT/TẮT: TẠI SAO PFC-LEVEL CONTROLLABLE, BODY-COMPILED KHÔNG
-- §5 — AI ERA: NGUỒN DRIVE CŨ BIẾN MẤT
-- §5.5 — FULL CYCLE: TỰ QUẢN TRỊ DRIVE (xã hội cũ vs tương lai)
-- §6 — CALIBRATION: INVERTED-U ÁP DỤNG CHO SELF-DRIVE
+- §2 — 4 TYPES OF SELF-CREATED THREAT
+- §3 — 3 STAGES OF LEARNING (experience → observe → self-create)
+- §4 — ON/OFF: WHY PFC-LEVEL IS CONTROLLABLE, BODY-COMPILED IS NOT
+- §5 — AI ERA: OLD DRIVE SOURCES DISAPPEARING
+- §5.5 — FULL CYCLE: SELF-MANAGING DRIVE (old society vs future)
+- §6 — CALIBRATION: INVERTED-U APPLIED TO SELF-DRIVE
 - §7 — HONEST ASSESSMENT
 - §8 — CROSS-REFERENCES
 
 ---
 
-## §0 — VỊ TRÍ + CÂU HỎI
+## §0 — POSITION + QUESTIONS
 
 ```
-⭐ CÂU HỎI NỀN TẢNG:
+⭐ THE FOUNDATIONAL QUESTION:
 
-  Tại sao một số người duy trì drive CỰC MẠNH
-  ngay cả khi đã thành công, giàu có, an toàn?
+  Why do some people maintain EXTREMELY STRONG drive
+  even after they've succeeded, gotten wealthy, become safe?
 
-  Logic thông thường: thành công → an toàn → thư giãn → drive GIẢM
-  Thực tế: nhiều người thành công nhất LẠI drive MẠNH NHẤT
+  Common logic: success → safety → relax → drive DECREASES
+  Reality: many of the most successful people have the STRONGEST drive
 
-  → Framework giải thích: họ TỰ TẠO threat
-  → Và cơ chế tự tạo = CÙNG PATHWAY với threat thật
-  → Body KHÔNG PHÂN BIỆT — chỉ care "chain có chạm body-base không"
+  → Framework explains: they SELF-CREATE threat
+  → And the self-creation mechanism = THE SAME PATHWAY as real threat
+  → Body CANNOT TELL THE DIFFERENCE — it only cares "does the chain reach body-base?"
 
 
-⭐ FILE NÀY TRẢ LỜI:
+⭐ THIS FILE ANSWERS:
 
   ┌───────────────────────────┬───────────────────────────────────────┐
-  │ Câu hỏi                  │ Section                               │
+  │ Question                  │ Section                               │
   ├───────────────────────────┼───────────────────────────────────────┤
-  │ Cơ chế THẾ NÀO?          │ §1 — Trust-Compile PFC → Body         │
+  │ HOW does the mechanism    │ §1 — Trust-Compile PFC → Body         │
+  │ work?                     │                                       │
   ├───────────────────────────┼───────────────────────────────────────┤
-  │ Có mấy LOẠI?             │ §2 — 4 loại threat tự tạo             │
+  │ How many TYPES are there? │ §2 — 4 types of self-created threat   │
   ├───────────────────────────┼───────────────────────────────────────┤
-  │ HỌC ĐƯỢC không?          │ §3 — 3 giai đoạn: compiled → observed │
+  │ CAN it be LEARNED?        │ §3 — 3 stages: compiled → observed   │
   │                           │       → self-created                   │
   ├───────────────────────────┼───────────────────────────────────────┤
-  │ Sao CEO TẮT được mà      │ §4 — PFC-level vs body-compiled       │
-  │ người lo âu KHÔNG?       │                                       │
+  │ Why can CEOs TURN IT OFF  │ §4 — PFC-level vs body-compiled       │
+  │ but anxious people CAN'T? │                                       │
   ├───────────────────────────┼───────────────────────────────────────┤
-  │ AI era thay đổi gì?      │ §5 — Nguồn drive cũ biến mất          │
+  │ What changes in the       │ §5 — Old drive sources disappearing   │
+  │ AI era?                   │                                       │
   ├───────────────────────────┼───────────────────────────────────────┤
-  │ BAO NHIÊU là ĐỦ?         │ §6 — Inverted-U + calibration         │
+  │ HOW MUCH is ENOUGH?       │ §6 — Inverted-U + calibration         │
   └───────────────────────────┴───────────────────────────────────────┘
 
 
-⭐ VỊ TRÍ TRONG FRAMEWORK:
+⭐ POSITION IN THE FRAMEWORK:
 
-  Mechanisms SỬ DỤNG (KHÔNG tạo mới):
+  Mechanisms USED (not creating new ones):
     → Threat.md: Internal-Predict, body ~20-60% fidelity
     → Compile-Type-Learning.md: Trust Compile
-    → Novelty.md §4.2: Mức 4 Self-Created Threat
+    → Novelty.md §4.2: Level 4 Self-Created Threat
     → Cortisol-Baseline.md: Inverted-U, 5 Roles
     → Imagine-Final.md: bootstrap mechanism
     → Anchor-Schema.md: Clarity × Quality × Trust
 
-  File này = SYNTHESIS + APPLICATION:
-    → Kết nối mechanisms trên vào 1 practical skill
-    → KHÔNG phải mechanism mới — mà APPLY mechanisms đã established
-    → Giá trị: NẾU framework đúng → skill này LEARNABLE + PRACTICAL
+  This file = SYNTHESIS + APPLICATION:
+    → Connects the above mechanisms into 1 practical skill
+    → NOT a new mechanism — it APPLIES already-established mechanisms
+    → Value: IF the framework is correct → this skill is LEARNABLE + PRACTICAL
 ```
 
 ---
 
 ## §1 — CORE MECHANISM: PFC-TO-BODY TRUST-COMPILE
 
-### §1.1 — Body không phân biệt imagine vs real
+### §1.1 — The Body Cannot Distinguish Imagined from Real
 
 ```
 🟢 NEUROSCIENCE (confirmed):
 
-  PFC imagine threat → cortisol fire (Kosslyn et al., 2001; Ganis et al., 2004)
-  CÙNG neural pathway: amygdala → HPA axis → cortisol release
-  Fidelity: ~20-60% so với real (Threat.md §2)
-  = Body KHÔNG CÓ cơ chế phân biệt "ông chủ nói" vs "tôi tự tưởng tượng"
+  PFC imagines threat → cortisol fires (Kosslyn et al., 2001; Ganis et al., 2004)
+  SAME neural pathway: amygdala → HPA axis → cortisol release
+  Fidelity: ~20-60% compared to real threat (Threat.md §2)
+  = Body HAS NO mechanism to distinguish "the boss said" vs "I imagined it"
 
-  → Đây là FOUNDATION của toàn bộ file này
-  → Không có property này → self-created threat KHÔNG THỂ hoạt động
+  → This is the FOUNDATION of the entire file
+  → Without this property → self-created threat CANNOT work
 ```
 
-### §1.2 — Trust-Compile từ chính mình
+### §1.2 — Trust-Compile From Yourself
 
 ```
-🟡 FRAMEWORK SYNTHESIS (insight mới — kết nối 2 mechanisms):
+🟡 FRAMEWORK SYNTHESIS (new insight — connecting 2 mechanisms):
 
-  BÌNH THƯỜNG (Trust Compile — Compile-Type-Learning.md):
+  NORMAL CASE (Trust Compile — Compile-Type-Learning.md):
 
-    Thầy giáo nói: "X đúng"
-    → Bạn TRUST thầy (source credibility)
-    → Body compile chunk [X = đúng] → installed
-    → Logic chain chặt chẽ DÙ chưa verify trực tiếp
+    Teacher says: "X is correct"
+    → You TRUST the teacher (source credibility)
+    → Body compiles chunk [X = correct] → installed
+    → Logic chain solid EVEN BEFORE direct verification
 
+  SELF-CREATED THREAT (same pathway):
 
-  SELF-CREATED THREAT (cùng pathway):
+    Your PFC says: "if I don't act → bankruptcy"
+    → Body TRUSTS the PFC (= trusting yourself)
+    → Body compiles chunk [danger → must act] → cortisol fires
+    → Drive activates EVEN THOUGH threat hasn't happened yet
 
-    PFC của bạn nói: "nếu không làm → phá sản"
-    → Body TRUST PFC (= trust chính mình)
-    → Body compile chunk [nguy hiểm → phải hành động] → cortisol fire
-    → Drive activate DÙ threat chưa xảy ra
-
-  = TRUST COMPILE, nhưng SOURCE = chính PFC của bạn
-  = Body là "student" — PFC là "teacher"
-  = Cùng trust amplifier, cùng compile pathway
-
-
-  ⚠️ ĐIỀU KIỆN — GIỐNG Trust Compile learning:
-
-    Trust Compile KHÔNG CÓ anchor → body bỏ qua:
-      "Cố lên!" → PFC nói → body: "chain tới đâu?" → nowhere → KỆ
-      = Motivation speech = Trust Compile floating → body không respond
-
-    Trust Compile CÓ anchor thật → body trust → compile:
-      "Nếu không làm → hết tiền → không tồn tại" → chain chạm L0 (survival)
-      = Body: chain có ý nghĩa → cortisol fire → drive activate
-
-    → LUẬT Y HỆT:
-      Chain phải NỐI TỚI BODY-BASE (L0/L1/L2) mới fire được
-      Arbitrary pressure không chain → body bỏ qua
-      = "Áp lực phải là áp lực có thật — chuỗi chain có ý nghĩa"
+  = TRUST COMPILE, but SOURCE = your own PFC
+  = Body is the "student" — PFC is the "teacher"
+  = Same trust amplifier, same compile pathway
 
 
-  KẾT NỐI IMAGINE-FINAL (Imagine-Final.md §7):
-    Self-created threat KHÔNG ĐỘC LẬP — chain trực tiếp TỚI Imagine-Final:
-    → Imagine-Final: PFC simulate REWARD scenario → body pre-feel → approach
-    → Self-created threat: PFC simulate MẤT Imagine-Final → body pre-feel → urgency
-    → CẢ HAI dùng CÙNG pathway: PFC imagine → body respond
-    → CẢ HAI cần CHAIN tới body-base
-    → = 2 mặt của 1 Imagine-Final: "đạt được" (pull) vs "mất nó" (push)
+  ⚠️ CONDITIONS — IDENTICAL to Trust Compile in learning:
+
+    Trust Compile WITHOUT anchor → body ignores:
+      "Try harder!" → PFC says → body: "chain leads where?" → nowhere → IGNORED
+      = Motivational speech = floating Trust Compile → body doesn't respond
+
+    Trust Compile WITH real anchor → body trusts → compiles:
+      "If I don't act → out of money → can't survive" → chain reaches L0 (survival)
+      = Body: chain has meaning → cortisol fires → drive activates
+
+    → SAME RULE:
+      Chain MUST CONNECT TO BODY-BASE (L0/L1/L2) to fire
+      Arbitrary pressure without chain → body ignores
+      = "Pressure must be real pressure — a chain with genuine meaning"
 
 
-    ⭐ TẠI SAO PUSH MẠNH HƠN PULL — PROTECT MECHANISM:
+  CONNECTION TO IMAGINE-FINAL (Imagine-Final.md §7):
+    Self-created threat is NOT STANDALONE — it chains directly TO Imagine-Final:
+    → Imagine-Final: PFC simulates REWARD scenario → body pre-feels → approach
+    → Self-created threat: PFC simulates LOSING the Imagine-Final → body pre-feels → urgency
+    → BOTH use THE SAME pathway: PFC imagines → body responds
+    → BOTH need a CHAIN reaching body-base
+    → = 2 sides of 1 Imagine-Final coin: "achieving it" (pull) vs "losing it" (push)
 
-      Imagine-Final khi body đã pre-feel → compile OWNERSHIP CHUNKS:
-        → "Tương lai này = CỦA TÔI" (dù chưa xảy ra, body đã pre-own)
-        → = Baseline shift: Imagine-Final trở thành prediction mặc định
 
-      Self-created threat = simulate MẤT cái body đã pre-own:
+    ⭐ WHY PUSH IS STRONGER THAN PULL — PROTECT MECHANISM:
+
+      Imagine-Final once body pre-feels it → compiles OWNERSHIP CHUNKS:
+        → "This future = MINE" (even though it hasn't happened, body has pre-owned it)
+        → = Baseline shift: Imagine-Final becomes the default prediction
+
+      Self-created threat = simulating LOSING what the body has already pre-owned:
         → = PROTECT fires (Protect.md §1)
-        → = Loss aversion: mất đau ~2× được (Kahneman & Tversky 1979)
+        → = Loss aversion: losing hurts ~2× more than gaining feels good
+          (Kahneman & Tversky 1979)
         → = Asymmetric prediction-delta (Body-Feedback-Mechanism §5③, SNC Crespi 1942)
 
-      → Jensen Huang: NVIDIA = 30 năm Anchor-Schema, body pre-own CỰC SÂU
-        → "Phá sản" = MẤT cái đã owned → Protect fire ~2× so với approach
-        → = Push (threat mất) MẠNH HƠN Pull (tiếp tục build) = GIẢI THÍCH ĐƯỢC
+      → Jensen Huang: NVIDIA = 30 years of Anchor-Schema, body pre-owned it DEEPLY
+        → "Bankruptcy" = LOSING what was already owned → Protect fires ~2× vs approach
+        → = Push (threat of loss) STRONGER THAN Pull (keep building) = EXPLAINED
 
-      → = Self-created threat hoạt động MẠNH vì TẬN DỤNG loss aversion:
-        Approach alone: "đạt được X" → reward 1×
-        Threat to Imagine-Final: "MẤT X" → pain ~2× → drive MẠNH HƠN
-        CẢ HAI cùng lúc: approach + threat → ~3× drive (double)
+      → = Self-created threat works STRONGLY because it LEVERAGES loss aversion:
+        Approach alone: "achieve X" → reward 1×
+        Threat to Imagine-Final: "LOSE X" → pain ~2× → STRONGER drive
+        BOTH simultaneously: approach + threat → ~3× drive (double)
 
-      🟢 RESEARCH CONFIRM:
+      🟢 RESEARCH CONFIRMATION:
         → Loss aversion ~2:1 (Kahneman & Tversky 1979, Prospect Theory)
-        → SNC: động vật cũng phản ứng mất > được (Crespi 1942, Flaherty 1996)
-        → Dopamine suppress below baseline khi actual < expected (Schultz 1997)
-        → = Body-level mechanism, hardware, KHÔNG CẦN PFC
-        → Chi tiết: Protect.md §1.2
+        → SNC: animals also respond more to loss than gain (Crespi 1942, Flaherty 1996)
+        → Dopamine suppresses below baseline when actual < expected (Schultz 1997)
+        → = Body-level mechanism, hardware, NO PFC REQUIRED
+        → Details: Protect.md §1.2
 
 
-    🟢 DATA XÁC THỰC — 6/6 cases threat chain TỚI mục tiêu, không generic:
-      Jensen Huang: threat = mất NVIDIA (không phải "phải cố gắng")
-      Andy Grove: threat = mất vị trí Intel (strategic inflection point cụ thể)
-      Jeff Bezos: threat = bỏ lỡ Internet window CỤ THỂ (không phải "sẽ hối hận chung")
-      Steve Jobs: threat mortality = filter "đang làm SAI THỨ không?" (không phải "cố hơn")
-      Elon Musk: threat = cửa sổ civilization đang đóng (chain tới Mars Imagine-Final)
-      Kobe Bryant: threat = không đạt championship (mục tiêu cụ thể)
+    🟢 DATA CONFIRMATION — 6/6 cases: threat chains TO the target, not generic:
+      Jensen Huang: threat = losing NVIDIA (not "need to try harder")
+      Andy Grove: threat = losing Intel's position (specific strategic inflection point)
+      Jeff Bezos: threat = missing THAT SPECIFIC Internet window (not "will regret in general")
+      Steve Jobs: threat of mortality = filters "am I doing the WRONG THING?" (not "try harder")
+      Elon Musk: threat = civilization's window closing (chain toward Mars Imagine-Final)
+      Kobe Bryant: threat = not reaching the championship (specific target)
 
-    → KHÔNG AI tự tạo threat generic "phải kỷ luật hơn" hay "phải cố gắng hơn"
-    → MỌI threat đều = "Imagine-Final của tôi đang bị đe dọa"
-    → = Threat fire MẠNH vì Protect mechanism: body ĐÃ PRE-OWN Imagine-Final
+    → NO ONE self-creates generic threat "need more discipline" or "need to work harder"
+    → EVERY threat = "My Imagine-Final is being threatened"
+    → = Threat fires STRONGLY because of Protect mechanism: body has ALREADY PRE-OWNED the Imagine-Final
 ```
 
-### §1.3 — Tại sao "cố lên" không hoạt động
+### §1.3 — Why "Try Harder" Doesn't Work
 
 ```
-🟡 ỨNG DỤNG TRỰC TIẾP:
+🟡 DIRECT APPLICATION:
 
-  "Cố lên, bạn làm được!":
-    → PFC nói → body check chain → chain tới đâu? → KHÔNG RÕ
-    → Body: "cố lên vì gì? Được gì? Mất gì nếu không?"
-    → Không có answer → body bỏ qua → PFC nói vậy thôi
-    → = Trust Compile floating chunk — not compiled
+  "You can do it, keep trying!":
+    → PFC says it → body checks chain → chain leads where? → UNCLEAR
+    → Body: "try harder for what? What do I gain? What do I lose if I don't?"
+    → No answer → body ignores → PFC just said words
+    → = Floating Trust Compile chunk — not compiled
 
-  "Nếu không xong project → hết tiền → mất nhà → con không có chỗ ở":
-    → PFC nói → body check chain → chain tới L0 + L2 (protect con)
-    → Body: "RÕ. NGUY HIỂM." → cortisol fire → drive activate
-    → = Trust Compile anchored chunk — compiled thành threat schema
+  "If this project isn't done → out of money → lose the house → kids have nowhere to live":
+    → PFC says it → body checks chain → chain reaches L0 + L2 (protect children)
+    → Body: "CLEAR. DANGEROUS." → cortisol fires → drive activates
+    → = Anchored Trust Compile chunk — compiled as a threat schema
 
-  "Nếu xong project → thưởng lớn → mua nhà → con an toàn":
-    → PFC nói → body check chain → chain tới L0 + L2 (reward)
-    → Body: "RÕ. CÓ GIÁ TRỊ." → dopamine (VTA) → approach drive
+  "If the project is done → big bonus → buy a house → kids are safe":
+    → PFC says it → body checks chain → chain reaches L0 + L2 (reward)
+    → Body: "CLEAR. VALUABLE." → dopamine (VTA) → approach drive
     → = Imagine-Final bootstrap (positive version)
 
 
-  → CÙNG NGƯỜI, CÙNG LÚC có thể dùng CẢ HAI:
-    Threat: "nếu không làm → mất X" (push)
-    Imagine-Final: "nếu làm xong → được Y" (pull)
-    → DOUBLE drive = mạnh nhất (Novelty:Threat mixed loop)
-    → Novelty.md §4.3: tỉ lệ 80:20 (Novelty:Threat) = flow territory
+  → THE SAME PERSON, AT THE SAME TIME can use BOTH:
+    Threat: "if I don't act → lose X" (push)
+    Imagine-Final: "if I finish → get Y" (pull)
+    → DOUBLE drive = strongest (Novelty:Threat mixed loop)
+    → Novelty.md §4.3: ratio 80:20 (Novelty:Threat) = flow territory
 ```
 
 ---
 
-## §2 — 4 LOẠI SELF-CREATED THREAT
+## §2 — 4 TYPES OF SELF-CREATED THREAT
 
 ```
-🟡 FRAMEWORK ANALYSIS (từ observable patterns):
+🟡 FRAMEWORK ANALYSIS (from observable patterns):
 
-⚠️ Phân loại theo ANCHOR — chain chạm body-base Ở ĐÂU:
+⚠️ Classification by ANCHOR — where the chain reaches body-base:
 
 
-① THREAT CẠNH TRANH — anchor: Status + Protect
-   "Đối thủ đang bắt kịp. Phải nhanh hơn."
+① COMPETITIVE THREAT — anchor: Status + Protect
+   "Competitors are catching up. Must move faster."
 
-   Chain: đối thủ tiến → status giảm tương đối → mất resource access → nguy hiểm
+   Chain: competitor advances → relative status drops → resource access lost → danger
    Anchor: Status (evaluative, resource access map) + Protect (loss aversion)
-   Cortisol: trung bình, ổn định, dài hạn
-   BẬT: khi review đối thủ, họp chiến lược, đọc tin thị trường
-   TẮT: khi về nhà, nghỉ phép, context chuyển sang Connection
+   Cortisol: moderate, stable, long-term
+   TURN ON: when reviewing competitors, in strategy meetings, reading market news
+   TURN OFF: coming home, taking leave, context shifts to Connection
 
-   🟢 Ví dụ (public):
-     Jensen Huang: "Chúng tôi cách phá sản 30 ngày"
-       (dù NVIDIA = công ty giá trị nhất thế giới 2024-2025)
-       Chain: competition → NVIDIA mất vị trí → 30 năm Anchor-Schema sụp
-       → Chạm MỌI tầng: L0 (identity survival) + Status + Meaning (evaluative)
-       ⚠️ Internal mechanism CỤ THỂ = chỉ Jensen Huang biết.
-       Framework infer từ observable behavior, không phải đọc vị chính xác.
+   🟢 Examples (public figures):
+     Jensen Huang: "We are 30 days from going out of business"
+       (even though NVIDIA = the world's most valuable company 2024-2025)
+       Chain: competition → NVIDIA loses position → 30 years of Anchor-Schema collapses
+       → Reaches ALL layers: L0 (identity survival) + Status + Meaning (evaluative)
+       ⚠️ The SPECIFIC internal mechanism = only Jensen Huang knows.
+       Framework infers from observable behavior, not an exact mind-read.
 
      Andy Grove (Intel): "Only the paranoid survive"
-       → Paranoid = DELIBERATELY maintain threat schema ở trạng thái active
+       → Paranoid = DELIBERATELY maintaining threat schema in an active state
 
 
-② THREAT LÃNG PHÍ THỜI GIAN — anchor: Novelty + L0 (mortality)
-   "Đời ngắn. Còn nhiều thứ chưa làm."
+② TIME-WASTE THREAT — anchor: Novelty + L0 (mortality)
+   "Life is short. So many things not yet done."
 
-   Chain: thời gian hữu hạn → chưa đạt Imagine-Final → chết = mất cơ hội vĩnh viễn
-   Anchor: L0 (mortality awareness) + Novelty (evaluative, expansion)
-   ĐẶC BIỆT: dùng L0 threat (mạnh nhất) để FUEL evaluative drive (expand territory)
+   Chain: time is finite → Imagine-Final not yet reached → death = opportunity lost forever
+   Anchor: L0 (mortality awareness) + Novelty (evaluative, territory expansion)
+   SPECIAL: uses L0 threat (strongest) to FUEL evaluative drive (expand territory)
 
-   🟢 Ví dụ (public):
-     Steve Jobs (sau chẩn đoán ung thư 2003):
+   🟢 Examples (public figures):
+     Steve Jobs (after 2003 cancer diagnosis):
        "Remembering that I'll be dead soon is the most important tool
         I've ever encountered to help me make the big choices in life."
-       → L0 mortality = TRỰC TIẾP → chain NGẮN NHẤT → body fire MẠNH NHẤT
-       → Sau chẩn đoán: drive TĂNG (không giảm) — output 2003-2011 = đỉnh cao
+       → L0 mortality = DIRECT → SHORTEST chain → body fires STRONGEST
+       → After diagnosis: drive INCREASED (didn't decrease) — output 2003-2011 = peak
 
-     Elon Musk: "Nếu không multiplanetary → 1 thiên thạch = hết"
-       → Scale lên: mortality CỦA LOÀI, không chỉ cá nhân
-       → L0 projected cho collective → drive CỰC MẠNH
+     Elon Musk: "If we're not multiplanetary → one asteroid = everything gone"
+       → Scales up: mortality OF THE SPECIES, not just the individual
+       → L0 projected to the collective → EXTREMELY STRONG drive
 
-   ⚠️ RỦI RO: nếu không KIỂM SOÁT → anxiety về mortality → harmful
-     "Sắp chết mà chưa làm gì" → khi KHÔNG có channel output → ám ảnh
-
-
-③ THREAT TRÁCH NHIỆM — anchor: Status + Connection
-   "Nếu tôi fail → hàng nghìn người chịu hậu quả."
-
-   Chain: quyết định sai → team mất việc → gia đình họ ảnh hưởng
-   Anchor: Connection (care people) + Status (evaluative, leader = responsible)
-   DOUBLE drive: 2 anchor cùng lúc = reinforced
-
-   🟡 Pattern phổ biến:
-     CEO team lớn: "quyết định của tôi ảnh hưởng N người"
-       → N càng lớn → chain càng nặng → drive càng mạnh
-       → NHƯNG: N quá lớn + không tắt được → burnout executive
-
-   ⚠️ RỦI RO: dễ thành gánh nặng → "atlas syndrome"
-     = Cảm giác phải gánh cả thế giới → không cho phép mình nghỉ
+   ⚠️ RISK: if UNCONTROLLED → mortality anxiety → harmful
+     "About to die but haven't done anything" → when there's NO output channel → obsession
 
 
-④ THREAT LEGACY — anchor: Status (projected tương lai) + Novelty
-   "Tôi sẽ được nhớ đến thế nào? Đã đóng góp đủ chưa?"
+③ RESPONSIBILITY THREAT — anchor: Status + Connection
+   "If I fail → thousands of people suffer the consequences."
 
-   Chain: chết → mọi người quên → như chưa từng tồn tại
-   Anchor: Status (projected, evaluative) + Novelty (muốn để lại dấu ấn)
-   ĐẶC BIỆT: threat MƠ HỒ — không biết khi nào "đủ" → loop RẤT DÀI
+   Chain: wrong decision → team loses jobs → their families are affected
+   Anchor: Connection (caring for people) + Status (evaluative, leader = responsible)
+   DOUBLE drive: 2 anchors at once = reinforced
 
-   🟢 Ví dụ (public):
+   🟡 Common pattern:
+     CEO of a large team: "my decision affects N people"
+       → The larger N → the heavier the chain → the stronger the drive
+       → BUT: N too large + can't turn off → executive burnout
+
+   ⚠️ RISK: easily becomes a burden → "atlas syndrome"
+     = Feeling of having to carry the world → can't allow oneself to rest
+
+
+④ LEGACY THREAT — anchor: Status (projected future) + Novelty
+   "How will I be remembered? Have I contributed enough?"
+
+   Chain: die → people forget → as if I never existed
+   Anchor: Status (projected, evaluative) + Novelty (wanting to leave a mark)
+   SPECIAL: AMBIGUOUS threat — never knows when it's "enough" → VERY LONG loop
+
+   🟢 Examples (public figures):
      Jeff Bezos: "regret minimization framework"
-       = Threat "hối hận tương lai" — imagine 80 tuổi nhìn lại
-       → Chain: không thử → hối hận → body pre-feel regret → drive "thử đi"
+       = Threat of "future regret" — imagine looking back at age 80
+       → Chain: don't try → regret → body pre-feels regret → drive to "just try"
 
-   ⚠️ RỦI RO: không bao giờ "xong"
-     → "Chưa đủ" mãi mãi → drive thành trap thay vì fuel
+   ⚠️ RISK: never "done"
+     → "Not enough yet" forever → drive becomes trap instead of fuel
 
 
-⭐ PATTERN CHUNG 4 LOẠI:
+⭐ COMMON PATTERN ACROSS ALL 4 TYPES:
 
   ┌────────────────┬──────────────────┬─────────────────┬───────────────┐
-  │ Loại           │ Chain chạm       │ Duration        │ Rủi ro chính  │
+  │ Type           │ Chain reaches    │ Duration        │ Primary risk  │
   ├────────────────┼──────────────────┼─────────────────┼───────────────┤
-  │ ① Cạnh tranh   │ Status+Protect   │ Bounded (event) │ Team burnout  │
-  │ ② Thời gian    │ L0+Novelty       │ Persistent      │ Mortality anx │
-  │ ③ Trách nhiệm  │ Connection+Status│ Scaling w/ team │ Atlas syndrome│
+  │ ① Competition  │ Status+Protect   │ Bounded (event) │ Team burnout  │
+  │ ② Time         │ L0+Novelty       │ Persistent      │ Mortality anx │
+  │ ③ Responsibility│ Connection+Status│ Scales w/ team  │ Atlas syndrome│
   │ ④ Legacy       │ Status+Novelty   │ Unbounded       │ Never "enough"│
   └────────────────┴──────────────────┴─────────────────┴───────────────┘
 
-  → MỌI loại đều cần CHAIN chạm body-base → mới fire được
-  → MỌI loại đều có rủi ro riêng → cần calibration (§6)
-  → MỌI loại đều BẬT/TẮT ĐƯỢC — vì PFC tạo, PFC dismiss (§4)
-  → Phần lớn người thành công dùng COMBO: ≥2 loại cùng lúc
+  → ALL types need a CHAIN reaching body-base → to fire
+  → ALL types have their own risk → need calibration (§6)
+  → ALL types can be TURNED ON/OFF — because PFC creates them, PFC can dismiss them (§4)
+  → Most successful people use a COMBO: ≥2 types simultaneously
 ```
 
 ---
 
-## §3 — 3 GIAI ĐOẠN HỌC (Trải Nghiệm → Quan Sát → Tự Tạo)
+## §3 — 3 STAGES OF LEARNING (Experience → Observe → Self-Create)
 
 ```
 🟡 FRAMEWORK ANALYSIS:
 
-  Self-Created Threat = SKILL, không phải bẩm sinh.
-  Học qua 3 GIAI ĐOẠN tuần tự — KHÔNG skip được:
+  Self-Created Threat = SKILL, not something you're born with.
+  Learned through 3 SEQUENTIAL STAGES — cannot be skipped:
 
 
-GIAI ĐOẠN 1 — TRẢI NGHIỆM THREAT THẬT (childhood / early career):
+STAGE 1 — EXPERIENCE REAL THREAT (childhood / early career):
 
-  Threat THẬT → body compile: "threat → cortisol → action → survive → reward"
-  = Schema: "threat = NĂNG LƯỢNG, không phải tai họa"
+  Real threat → body compiles: "threat → cortisol → action → survive → reward"
+  = Schema: "threat = ENERGY, not a disaster"
 
-  Phần lớn người duy trì drive cao đều có thời kỳ khó khăn THẬT:
-    🟢 Jensen Huang: gia đình di cư, ký túc xá khó khăn thời thiếu niên
-    🟢 Elon Musk: bị bắt nạt nặng, bố mẹ ly dị, childhood khó khăn
-    🟢 Steve Jobs: bị cho làm con nuôi, bỏ đại học vì không đủ tiền
-    🟢 Jeff Bezos: mẹ sinh năm 17 tuổi, bố dượng
+  Most people who maintain high drive had a period of genuine hardship:
+    🟢 Jensen Huang: immigrant family, difficult dormitory conditions as a teenager
+    🟢 Elon Musk: severe bullying, parents divorced, difficult childhood
+    🟢 Steve Jobs: given up for adoption, dropped out of college due to tuition costs
+    🟢 Jeff Bezos: mother gave birth at 17, stepfather
 
-  CƠ CHẾ: body compile chunk thông qua Experience Compile (trực tiếp trải nghiệm)
+  MECHANISM: body compiles the chunk through Experience Compile (lived directly)
     → threat → cortisol spike → action → survive → opioid reward
-    → Loop nhiều lần → compiled deep:
+    → Loop repeated many times → compiled deeply:
       [threat → action → survive → reward] = SCHEMA
-    → Schema này = FOUNDATION cho giai đoạn 2 + 3
+    → This schema = FOUNDATION for stages 2 + 3
 
-  ⚠️ NHƯNG: threat QUÁ MẠNH + hardware yếu = TRAUMA, không phải skill
-    → Cần: threat VỪA ĐỦ + PFC capacity xử lý KHÔNG crash
-    → Cùng hoàn cảnh: 1 người → compiled skill, 1 người → compiled trauma
+  ⚠️ BUT: threat TOO STRONG + weak hardware = TRAUMA, not a skill
+    → Need: threat JUST RIGHT + PFC capacity to handle it WITHOUT crashing
+    → Same circumstances: 1 person → compiled skill, 1 person → compiled trauma
     → = Hardware variance (irreducible — Blackbox-Map.md §7)
 
 
-GIAI ĐOẠN 2 — QUAN SÁT PATTERN (adolescence / early adulthood):
+STAGE 2 — OBSERVING THE PATTERN (adolescence / early adulthood):
 
-  Bắt đầu THẤY pattern: "khi bị ép thì nhanh, khi thoải mái thì chậm"
-  Body detect từ compiled experience:
-    → Khi có deadline → output tăng
-    → Khi thoải mái → chơi → không tiến triển
-    → Thoải mái quá lâu → body drive GIẢM → bắt đầu drift
+  Begins to NOTICE the pattern: "when pushed I'm fast, when comfortable I'm slow"
+  Body detects from compiled experience:
+    → When there's a deadline → output increases
+    → When comfortable → play → no progress
+    → Too comfortable for too long → body drive DECREASES → starts to drift
 
-  = Schema REFINE: "mức threat VỪA = optimal, quá ít = drift, quá nhiều = hại"
-  = CHƯA biết VERBALIZE → chỉ "cảm thấy" áp lực GIÚP mình
+  = Schema REFINES: "MODERATE threat = optimal, too little = drift, too much = harmful"
+  = NOT YET ABLE TO VERBALIZE → just "feels" that pressure helps
 
   🟢 Research support: Yerkes-Dodson Law (1908) — inverted-U performance curve
-    → Arousal vừa = performance tốt nhất
+    → Moderate arousal = best performance
     → Framework: arousal = cortisol level → §6 Calibration
 
 
-GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
+STAGE 3 — SELF-CREATING CONSCIOUSLY (leadership / mastery phase):
 
-  Khi đã thành công → threat thật GIẢM (giàu, an toàn, status cao)
-  Body nhận ra: "thoải mái quá → drive GIẢM → output giảm"
-  PFC: "lần trước threat giúp mình → TẠO LẠI threat"
-  = SIMULATE threat → body respond NHƯ THẬT
-    (vì simulate dùng CÙNG pathway — Threat.md §2 Internal-Predict)
+  After succeeding → real threats DECREASE (wealthy, safe, high status)
+  Body notices: "too comfortable → drive DECREASES → output decreases"
+  PFC: "last time threat helped me → RECREATE the threat"
+  = SIMULATE threat → body responds AS IF REAL
+    (because simulation uses THE SAME pathway — Threat.md §2 Internal-Predict)
 
-  = "Only the paranoid survive" = VERBALIZE cái body đã biết từ lâu
-  = Giai đoạn 3 = self Trust Compile: PFC create scenario → body trust → compile
+  = "Only the paranoid survive" = VERBALIZING what the body has known for a long time
+  = Stage 3 = self Trust Compile: PFC creates scenario → body trusts → compiles
 
-  SEQUENCE BẮT BUỘC: compiled (①) → observed (②) → self-created (③)
-    → KHÔNG skip giai đoạn 1 → vì cần schema [threat = energy] compiled SÂU
-    → KHÔNG skip giai đoạn 2 → vì cần meta-observation "threat giúp mình"
-    → Giai đoạn 3 = APPLY 2 giai đoạn trước
+  MANDATORY SEQUENCE: experienced (①) → observed (②) → self-created (③)
+    → CANNOT skip stage 1 → need schema [threat = energy] compiled DEEPLY
+    → CANNOT skip stage 2 → need meta-observation "threat helps me"
+    → Stage 3 = APPLYING stages 1 and 2
 
 
-⭐ TẠI SAO KHÔNG PHẢI AI KHÓ KHĂN CŨNG THÀNH NGƯỜI DRIVE CAO:
+⭐ WHY NOT EVERYONE WHO FACES HARDSHIP BECOMES HIGH-DRIVE:
 
-  Cần COMBO đầy đủ:
-    ① Threat thật → compiled "threat = energy" (nhiều người có)
-    ② Hardware đủ: PFC capacity xử lý threat KHÔNG crash
-       (threat quá mạnh + PFC yếu = TRAUMA, không phải skill)
-    ③ Tìm được domain KHỚP → threat FUEL novelty, không block
-       (threat trong domain "ghét" → avoidance, không phải drive)
-    ④ Meta-observation: "threat giúp mình" → conscious application
-       (nhiều người có ① nhưng KHÔNG nhận ra pattern → không tới ③)
+  Needs the FULL COMBO:
+    ① Real threat → compiled "threat = energy" (many people have this)
+    ② Sufficient hardware: PFC capacity to process threat WITHOUT crashing
+       (threat too strong + weak PFC = TRAUMA, not a skill)
+    ③ Found a MATCHING domain → threat FUELS novelty, doesn't block it
+       (threat in a "hated" domain → avoidance, not drive)
+    ④ Meta-observation: "threat helps me" → conscious application
+       (many people have ① but DON'T notice the pattern → never reach ③)
 
-  → Thiếu BẤT KỲ 1 → sequence không hoàn thành
-  → = Lý do phổ biến: "tuổi thơ khó khăn" ≠ "thành công" (thiếu ②③④)
+  → Missing ANY 1 → sequence is incomplete
+  → = Common reason: "difficult childhood" ≠ "success" (missing ②③④)
 ```
 
 ---
 
-## §4 — BẬT/TẮT: TẠI SAO PFC-LEVEL CONTROLLABLE, BODY-COMPILED KHÔNG
+## §4 — ON/OFF: WHY PFC-LEVEL IS CONTROLLABLE, BODY-COMPILED IS NOT
 
 ```
-🟡 FRAMEWORK SYNTHESIS (kết nối Threat.md + Body-Base model):
+🟡 FRAMEWORK SYNTHESIS (connecting Threat.md + Body-Base model):
 
 
-⭐ NGUYÊN TẮC: TẦNG TẠO THREAT = TẦNG CÓ THỂ TẮT THREAT
+⭐ PRINCIPLE: THE LAYER THAT CREATES THE THREAT = THE LAYER THAT CAN TURN IT OFF
 
   ┌────────────────┬────────────────────────┬────────────────────────┐
-  │ Threat ở tầng  │ Ai tạo                 │ Ai tắt được            │
+  │ Threat at level│ Who creates it         │ Who can turn it off    │
   ├────────────────┼────────────────────────┼────────────────────────┤
-  │ PFC-level      │ PFC imagine             │ PFC dismiss ✅         │
-  │                │ "đối thủ đang tiến"     │ "về nhà, tắt đi"      │
+  │ PFC-level      │ PFC imagines            │ PFC dismisses ✅       │
+  │                │ "competitor is catching"│ "go home, turn it off" │
   ├────────────────┼────────────────────────┼────────────────────────┤
-  │ Body-compiled  │ Vô thức compiled deep   │ PFC KHÔNG reach ❌    │
-  │                │ Childhood trauma, schema │ "Lo mà không biết lo  │
-  │                │ sâu, body auto-fire      │  gì" = threat tự fire │
+  │ Body-compiled  │ Compiled unconsciously  │ PFC CANNOT reach ❌   │
+  │                │ Childhood trauma, deep  │ "Anxious without       │
+  │                │ schema, body auto-fires │  knowing why" = threat │
+  │                │                        │  firing automatically  │
   └────────────────┴────────────────────────┴────────────────────────┘
 
 
   CEO SELF-CREATED THREAT = PFC-LEVEL:
-    → PFC TẠO threat → PFC CÓ THỂ TẮT threat
-    → Họp chiến lược: "chúng ta sắp thua" → cortisol ON → team chạy
-    → Về nhà cuối tuần: tắt → thư giãn → repair → recovery
-    → = Giống bật/tắt công tắc (vì PFC territory)
-    → REPAIR xảy ra → sustainable
+    → PFC CREATES threat → PFC CAN TURN OFF threat
+    → Strategy meeting: "we're about to lose" → cortisol ON → team runs
+    → Coming home on the weekend: turns off → relaxes → repairs → recovers
+    → = Like flipping a light switch (because it's PFC territory)
+    → REPAIR happens → sustainable
 
 
-  NGƯỜI BỊ ANXIETY = BODY-COMPILED:
-    → Body tự threat → PFC KHÔNG can thiệp được → không tắt được
-    → "Lo lắng mà không biết lo gì" = threat schema compiled quá sâu
-    → PFC mất access → giống hardware lock, software không override được
-    → REPAIR KHÔNG xảy ra đầy đủ → cortisol chronic → PFC damage tích lũy
-    → = Cortisol-Baseline.md Role ⑤ SILENT: cortisol CAO nhưng không awareness
+  PERSON WITH ANXIETY = BODY-COMPILED:
+    → Body self-threatens → PFC CANNOT intervene → cannot turn off
+    → "Anxious without knowing why" = threat schema compiled too deeply
+    → PFC lost access → like hardware lock, software cannot override
+    → REPAIR DOESN'T FULLY HAPPEN → cortisol becomes chronic → PFC damage accumulates
+    → = Cortisol-Baseline.md Role ⑤ SILENT: cortisol HIGH but no awareness
 
 
-  ⭐ PHÂN BIỆT QUAN TRỌNG:
+  ⭐ IMPORTANT DISTINCTION:
 
-    Self-created threat (§2, §3) → PFC-level → controllable → CÓ LỢI (nếu calibrate)
-    Anxiety / trauma threat → body-compiled → uncontrollable → CẦN THERAPY
+    Self-created threat (§2, §3) → PFC-level → controllable → BENEFICIAL (if calibrated)
+    Anxiety / trauma threat → body-compiled → uncontrollable → NEEDS THERAPY
 
-    CÙNG HIỆN TƯỢNG bên ngoài ("người này lúc nào cũng căng"),
-    nhưng KHÁC mechanism bên trong:
-      → Nếu PFC-level: người đó TỰ CHỌN căng → tắt được → productive
-      → Nếu body-compiled: người đó BỊ căng → không tắt được → destructive
+    SAME EXTERNAL APPEARANCE ("this person is always tense"),
+    but DIFFERENT internal mechanism:
+      → If PFC-level: person CHOOSES to be tense → can turn it off → productive
+      → If body-compiled: person IS FORCED tense → cannot turn it off → destructive
 
 
-  ⚠️ RISK: PFC-LEVEL CÓ THỂ COMPILE THÀNH BODY-LEVEL:
+  ⚠️ RISK: PFC-LEVEL CAN COMPILE INTO BODY-LEVEL:
 
-    Nếu self-created threat CHẠY QUÁ LÂU + không tắt + không repair:
-      → Schema [threat → action] compile SÂU → vào body-level
-      → BAN ĐẦU: controllable (PFC-level)
-      → SAU NHIỀU NĂM: compiled → auto-fire → KHÔNG tắt được nữa
-      → = "Workaholic" = threat ban đầu tự tạo → sau thành compiled anxiety
+    If self-created threat RUNS TOO LONG + never turned off + no repair:
+      → Schema [threat → action] compiles DEEPLY → enters body-level
+      → INITIALLY: controllable (PFC-level)
+      → AFTER MANY YEARS: compiled → auto-fires → NO LONGER CONTROLLABLE
+      → = "Workaholic" = self-created threat initially → later becomes compiled anxiety
       → = CEO burnout after decades
 
-    Phòng: PHẢI có cycle repair (§6)
-    → Tắt threat → sleep → repair → bật lại
-    → Không có repair cycle → PFC-level threat compile dần thành body-level
+    Prevention: MUST have a repair cycle (§6)
+    → Turn off threat → sleep → repair → turn back on
+    → No repair cycle → PFC-level threat gradually compiles into body-level
 ```
 
 ---
 
-## §5 — AI ERA: NGUỒN DRIVE CŨ BIẾN MẤT
+## §5 — AI ERA: OLD DRIVE SOURCES DISAPPEARING
 
 ```
 🟡 FRAMEWORK SYNTHESIS + 🔴 HYPOTHESIS:
 
 
-⭐ NGUỒN DRIVE CŨ = CHỦ YẾU EXTERNAL THREAT (Mức 3):
+⭐ OLD DRIVE SOURCES = PRIMARILY EXTERNAL THREAT (Level 3):
 
-  200 năm qua, drive của phần lớn mọi người đến từ:
+  For the past 200 years, most people's drive came from:
 
   ┌───────────────────────┬──────────────────────────────────────────┐
-  │ Nguồn drive cũ        │ Mechanism                                │
+  │ Old drive source      │ Mechanism                                │
   ├───────────────────────┼──────────────────────────────────────────┤
-  │ Điểm số / thi cử      │ Threat: điểm thấp → bị phạt/mất cơ hội │
-  │ Cạnh tranh việc làm   │ Threat: không giỏi → không có việc       │
-  │ Boss / deadline        │ Threat: không xong → bị đuổi            │
-  │ Áp lực tài chính      │ Threat: không làm → không ăn             │
-  │ Kỳ vọng gia đình      │ Threat: làm bố mẹ thất vọng             │
-  │ So sánh xã hội        │ Threat: thua bạn bè → status giảm       │
+  │ Grades / exams        │ Threat: low grade → punishment / loss of │
+  │                       │ opportunity                              │
+  │ Job competition       │ Threat: not good enough → no job         │
+  │ Boss / deadlines      │ Threat: not done → fired                 │
+  │ Financial pressure    │ Threat: don't work → can't eat           │
+  │ Family expectations   │ Threat: disappoint parents               │
+  │ Social comparison     │ Threat: lose to peers → status drops     │
   └───────────────────────┴──────────────────────────────────────────┘
 
-  Tất cả = Mức 3 (Novelty.md §4.2): EXTERNAL threat, PFC không dismiss được
-  → Drive MẠNH nhưng KHÔNG controllable → risk burnout
+  All = Level 3 (Novelty.md §4.2): EXTERNAL threat, PFC cannot dismiss
+  → STRONG drive but NOT controllable → burnout risk
 
 
-⭐ AI ĐANG LÀM GÌ VỚI CÁC NGUỒN NÀY:
+⭐ WHAT AI IS DOING TO THESE SOURCES:
 
-  ① ĐIỂM SỐ / THI CỬ:
-     → AI làm bài tốt hơn người → "học giỏi" mất giá trị tuyệt đối
-     → Credential inflation đã xảy ra (Expansion-Saturation-Crisis.md)
-     → Threat "điểm thấp → mất cơ hội" GIẢM (vì cơ hội cũng đang thay đổi)
+  ① GRADES / EXAMS:
+     → AI performs tasks better than humans → "being good at school" loses absolute value
+     → Credential inflation already happening (Expansion-Saturation-Crisis.md)
+     → Threat "low grade → miss opportunity" DECREASING (because opportunities are shifting too)
 
-  ② CẠNH TRANH VIỆC LÀM:
-     → AI thay thế entry-level expansion work (Human-AI-Future.md §5)
-     → "Giỏi hơn" trong expansion KHÔNG ĐỦ — vì AI giỏi hơn
-     → Threat "không giỏi → không có việc" CHUYỂN HƯỚNG:
-       không phải "giỏi hơn AI" mà "làm gì AI KHÔNG LÀM ĐƯỢC"
+  ② JOB COMPETITION:
+     → AI replaces entry-level expansion work (Human-AI-Future.md §5)
+     → "Being better at X" in expansion work NOT ENOUGH — AI is better
+     → Threat "not good enough → no job" SHIFTING DIRECTION:
+       not "better than AI" but "what can't AI do"
 
-  ③ BOSS / DEADLINE:
-     → AI tăng productivity → deadline DỄ HƠN
-     → Boss pressure GIẢM (vì AI hỗ trợ)
-     → NHƯNG: expectation TĂNG → threat CHUYỂN (không mất, chỉ đổi dạng)
+  ③ BOSS / DEADLINES:
+     → AI increases productivity → deadlines become EASIER
+     → Boss pressure DECREASES (because AI supports)
+     → BUT: expectations INCREASE → threat SHIFTS (not gone, just changes form)
 
-  ④ ÁP LỰC TÀI CHÍNH:
-     → Chưa thay đổi nhiều (2026) → sẽ shift khi AI phổ biến hơn
-     → Long-term: nếu AI tạo abundance → financial threat GIẢM
-     → = Nguồn drive L0 mạnh nhất → CÓ THỂ biến mất
+  ④ FINANCIAL PRESSURE:
+     → Not yet changed much (2026) → will shift as AI becomes more widespread
+     → Long-term: if AI creates abundance → financial threat DECREASES
+     → = Strongest L0 drive source → MAY DISAPPEAR
 
-  ⑤ KỲ VỌNG GIA ĐÌNH + SO SÁNH XÃ HỘI:
-     → Đang SHIFT: "con học giỏi" → "con biết dùng AI"
-     → Status marker thay đổi → old threat chains broken
-     → New threat chains chưa hình thành rõ
+  ⑤ FAMILY EXPECTATIONS + SOCIAL COMPARISON:
+     → SHIFTING: "child is good at school" → "child knows how to use AI"
+     → Status markers change → old threat chains broken
+     → New threat chains not yet clearly formed
 
 
-⭐ HỆ QUẢ: "KHOẢNG TRỐNG DRIVE"
+⭐ CONSEQUENCE: "THE DRIVE VOID"
 
-  Nguồn drive cũ (Mức 3) GIẢM hoặc BIẾN MẤT
-  Nguồn drive mới chưa hình thành rõ
-  = KHOẢNG TRỐNG: nhiều người mất drive mà không hiểu tại sao
+  Old drive sources (Level 3) DECREASING or DISAPPEARING
+  New drive sources not yet clearly formed
+  = VOID: many people lose drive without understanding why
 
-  🔴 DỰ ĐOÁN:
-    → Tỉ lệ "không biết muốn gì" sẽ TĂNG
+  🔴 PREDICTIONS:
+    → Rate of "don't know what they want" will INCREASE
     → Boredom epidemic (VTA underfed — Boredom.md)
-    → Content consumption TĂNG (TikTok fill khoảng trống bằng micro-novelty)
-    → "Existential crisis" thế hệ mới: không phải vì khó khăn,
-       mà vì THIẾU KHÓ KHĂN → thiếu drive → drift
+    → Content consumption INCREASES (TikTok fills the void with micro-novelty)
+    → "Existential crisis" for a new generation: not from difficulty,
+       but from LACK OF DIFFICULTY → lack of drive → drift
 
-  🟢 ĐÃ QUAN SÁT (2020s):
+  🟢 ALREADY OBSERVED (2020s):
     → "Quiet quitting" movement
-    → "Lying flat" (躺平) ở Trung Quốc
-    → NEET rates tăng toàn cầu
-    → = Symptoms phù hợp với "khoảng trống drive"
+    → "Lying flat" (躺平) in China
+    → NEET rates rising globally
+    → = Symptoms consistent with "the drive void"
 
 
-⭐ TẠI SAO SELF-CREATED THREAT TRỞ NÊN QUAN TRỌNG:
+⭐ WHY SELF-CREATED THREAT BECOMES IMPORTANT:
 
-  Khi external threat GIẢM → drive phải đến từ ĐÂU?
+  When external threat DECREASES → where must drive come from?
 
-  Lựa chọn:
-    A) Micro-novelty (TikTok, games, shopping) → Mức 1 → vui nhưng không sâu
-    B) Chờ external threat mới → passive → drift
-    C) TỰ TẠO drive (Mức 4) → controllable + sustainable
+  Options:
+    A) Micro-novelty (social media, games, shopping) → Level 1 → fun but not deep
+    B) Wait for new external threat → passive → drift
+    C) SELF-CREATE drive (Level 4) → controllable + sustainable
 
-  → Lựa chọn C = Self-Created Threat = SKILL quan trọng nhất AI era
-  → NHƯNG: skill này cần 3 giai đoạn học (§3) → không instant
-  → VÀ: cần body-base anchor → "tự tạo vì gì?" phải RÕ
+  → Option C = Self-Created Threat = THE MOST IMPORTANT SKILL in the AI era
+  → BUT: this skill needs 3 stages of learning (§3) → not instant
+  → AND: needs body-base anchor → "self-creating for WHAT?" must be CLEAR
 
 
-⭐ 3 KỸ NĂNG THỜI AI (bổ sung Human-AI-Future.md §8):
+⭐ 3 SKILLS FOR THE AI ERA (supplement Human-AI-Future.md §8):
 
-  ① BODY-LISTENING: biết mình đang ở trạng thái nào
-     → Đã có ở Human-AI-Future.md §8①
-     → = Foundation: không nghe body → không biết khi nào cần gì
+  ① BODY-LISTENING: knowing what state you're in
+     → Already in Human-AI-Future.md §8①
+     → = Foundation: can't hear the body → can't know when you need what
 
-  ② SELF-CREATED DRIVE: tự tạo áp lực đúng hướng, đúng liều
-     → File NÀY
-     → = Engine: biết body → tạo drive → hành động → output
+  ② SELF-CREATED DRIVE: self-creating pressure in the right direction, right dose
+     → THIS file
+     → = Engine: hear body → create drive → act → output
 
-  ③ COLLECTIVE AWARENESS: cảnh giác collective compile
+  ③ COLLECTIVE AWARENESS: vigilance about collective compile
      → Collective-Body.md, AI-Schema-Detection.md
-     → = Shield: drive có hướng nhưng cần check hướng có đúng không
+     → = Shield: drive has direction, but need to check if direction is right
 
-  → 3 skills BỔ TRỢ: ① nghe → ② tạo → ③ kiểm tra
-  → Thiếu ① → tạo drive mù (không biết quá hay thiếu)
-  → Thiếu ② → biết mình nhưng không hành động
-  → Thiếu ③ → hành động nhưng sai hướng (collective kéo)
+  → 3 skills COMPLEMENT each other: ① listen → ② create → ③ check
+  → Missing ① → creates drive blindly (doesn't know if too much or too little)
+  → Missing ② → knows oneself but doesn't act
+  → Missing ③ → acts but in the wrong direction (collective pulls)
 
 
-⭐ SELF-CREATED THREAT ≠ CON ĐƯỜNG DUY NHẤT:
+⭐ SELF-CREATED THREAT ≠ THE ONLY PATH:
 
-  File này focus PUSH (threat) — nhưng nhiều người drive bằng PULL:
+  This file focuses on PUSH (threat) — but many people drive through PULL:
 
-  NOVELTY-PULL DRIVE (Einstein, Tesla, nhà nghiên cứu đam mê):
-    → Chunk-Gap tự fire → curiosity → VTA → dopamine → approach
-    → KHÔNG CẦN threat để chạy — gap filling = reward đủ mạnh
-    → Giống "nghiện" discovery — body compiled [fill gap = pleasant] quá sâu
-    → Vấn đề NGƯỢC: quên NGHỈ, không phải thiếu drive
-    → Chi tiết: Novelty.md, Domain-Mapping-Drive.md
+  NOVELTY-PULL DRIVE (Einstein, Tesla, passionate researchers):
+    → Chunk-Gap fires automatically → curiosity → VTA → dopamine → approach
+    → DOES NOT NEED threat to run — gap-filling = sufficiently strong reward
+    → Like being "addicted" to discovery — body compiled [fill gap = pleasant] too deeply
+    → The OPPOSITE problem: forgetting to REST, not lacking drive
+    → Details: Novelty.md, Domain-Mapping-Drive.md
 
-  TẠI SAO FILE NÀY FOCUS THREAT:
-    → Novelty-pull đã mô tả kỹ ở nhiều file framework
-    → Self-created threat = cơ chế ÍT ĐƯỢC MÔ TẢ + KHÓ HƠN + CẦN HƠN
-    → Nhiều người KHÔNG có sẵn novelty-pull đủ mạnh → CẦN push
-    → AI era: external push biến mất (§5) → self-push trở thành skill thiết yếu
+  WHY THIS FILE FOCUSES ON THREAT:
+    → Novelty-pull is already well-described in many framework files
+    → Self-created threat = mechanism LESS DESCRIBED + HARDER + MORE NEEDED
+    → Many people DON'T HAVE sufficiently strong novelty-pull → NEED push
+    → AI era: external push disappears (§5) → self-push becomes an essential skill
 
-  CON ĐƯỜNG TIẾN HÓA: THREAT → NOVELTY-PULL
+  EVOLUTIONARY PATH: THREAT → NOVELTY-PULL
 
-    🔴 Dự đoán (nếu framework đúng):
-    → Nếu giáo dục thiết kế đúng (Education-Mechanism.md, Compile-Type-Learning.md):
-      → Trẻ compile [exploration = pleasant] từ nhỏ (Experience Compile trải nghiệm)
-      → Lớn lên: novelty-pull tự fire → KHÔNG CẦN threat push
-      → = Chuyển từ "phải ép bản thân" → "body tự muốn"
+    🔴 Prediction (if framework is correct):
+    → If education is designed correctly (Education-Mechanism.md, Compile-Type-Learning.md):
+      → Children compile [exploration = pleasant] from early on (Experience Compile)
+      → Growing up: novelty-pull fires automatically → NO NEED for threat push
+      → = Shift from "forcing yourself" → "body wants it by itself"
 
-    → Nếu giáo dục thiết kế SAI (threat-based: điểm số, phạt, ép):
-      → Trẻ compile [learning = tránh phạt] (avoidance tag)
-      → Lớn lên: CẦN threat external hoặc self-created → phụ thuộc push
-      → = Mắc kẹt ở "phải ép bản thân" suốt đời
+    → If education is designed INCORRECTLY (threat-based: grades, punishment, coercion):
+      → Children compile [learning = avoiding punishment] (avoidance tag)
+      → Growing up: NEED external or self-created threat → dependent on push
+      → = Stuck in "forcing yourself" for life
 
-    → Framework đã trình bày nguyên lý giáo dục để TẠO novelty-pull:
+    → Framework has already presented the educational principles TO CREATE novelty-pull:
       Education-Mechanism.md — arc design, approach tag
-      Compile-Type-Learning.md — Experience Compile verify, không chỉ Trust Compile install
-      Child-Development-Mechanism.md — approach/avoidance tag từ cách giới thiệu
+      Compile-Type-Learning.md — Experience Compile verify, not just Trust Compile install
+      Child-Development-Mechanism.md — approach/avoidance tag × parenting
 
-    → = Self-created threat có thể là SKILL CHUYỂN TIẾP:
-      Thế hệ hiện tại (thiếu novelty-pull sẵn) → CẦN skill này
-      Thế hệ tương lai (nếu giáo dục đúng) → novelty-pull tự đủ → threat ít cần hơn
+    → = Self-created threat may be a TRANSITIONAL SKILL:
+      Current generation (lacks ready novelty-pull) → NEEDS this skill
+      Future generation (if education is done right) → novelty-pull sufficient → threat less needed
 ```
 
-### §5.5 — FULL CYCLE: TỰ QUẢN TRỊ DRIVE (xã hội cũ vs tương lai)
+### §5.5 — FULL CYCLE: SELF-MANAGING DRIVE (old society vs future)
 
 ```
 🟡 FRAMEWORK SYNTHESIS:
 
-⭐ XÃ HỘI CŨ = AUTO-CALIBRATED (không cần tự quản trị):
+⭐ OLD SOCIETY = AUTO-CALIBRATED (no self-management needed):
 
-  → DEEP-DIVE: Social-Calibration.md v1.0 — mở rộng 5 components → 7 functions,
-    thêm lịch sử tiến hóa (4 giai đoạn), evidence (16 citations), breakdown analysis.
-    Bảng dưới đây = SOURCE DATA cho file đó.
+  → DEEP-DIVE: Social-Calibration.md v1.0 — expands 5 components → 7 functions,
+    adds evolutionary history (4 stages), evidence (16 citations), breakdown analysis.
+    The table below = SOURCE DATA for that file.
 
-  Xã hội TỰ TẠO toàn bộ cycle cho cá nhân:
+  Society itself created the ENTIRE cycle for the individual:
 
   ┌──────────────┬──────────────────────────┬─────────────────────┐
-  │ Component    │ Xã hội cũ TỰ CUNG CẤP   │ AI era: AI LẤY MẤT  │
+  │ Component    │ Old society PROVIDED      │ AI era: AI TAKES IT │
   ├──────────────┼──────────────────────────┼─────────────────────┤
-  │ Direction    │ Nghề rõ, con đường rõ     │ Con đường mờ         │
-  │ Push (threat)│ Boss, deadline, tài chính │ Đang biến mất (§5)  │
-  │ Pull (reward)│ Lương, quán bia, hát hò  │ Micro-novelty thay   │
-  │ Repair       │ Weekend, lễ hội, về quê  │ Không ai ép nghỉ     │
-  │ Check        │ Xã hội phản hồi tự nhiên │ Echo chamber          │
+  │ Direction    │ Clear profession,         │ Path unclear         │
+  │              │ clear path               │                     │
+  │ Push (threat)│ Boss, deadline, finances  │ Disappearing (§5)   │
+  │ Pull (reward)│ Salary, social gatherings │ Micro-novelty replac│
+  │ Repair       │ Weekend, festivals, visits│ No one forces rest  │
+  │ Check        │ Natural social feedback   │ Echo chambers        │
   └──────────────┴──────────────────────────┴─────────────────────┘
 
-  → Lao động phổ thông xã hội cũ: cycle TỰ CHẠY
-  → Không cần biết cơ chế → hệ thống auto-calibrate
-  → Rất phù hợp cho expansion era (Expansion-Saturation-Crisis.md)
+  → Common worker in old society: cycle RAN ON ITS OWN
+  → No need to understand the mechanism → system auto-calibrated
+  → Very suitable for the expansion era (Expansion-Saturation-Crisis.md)
 
 
-⭐ TƯƠNG LAI = SELF-CALIBRATE (phải tự quản trị):
+⭐ FUTURE = SELF-CALIBRATE (must self-manage):
 
-  Khi hệ thống auto-calibrate SUY YẾU → mỗi người cần TỰ LÀM.
-  Drive cycle = 5 COMPONENTS chạy TEMPORAL (có thứ tự thời gian):
+  When the auto-calibration system WEAKENS → each person must DO IT THEMSELVES.
+  Drive cycle = 5 COMPONENTS running TEMPORALLY (in time-order):
 
 
   ┌─────────────────────────────────────────────────────────────┐
   │                                                             │
   │   ① SET DIRECTION (Imagine-Final)                          │
-  │   → "Tôi muốn tới đâu?" → body pre-feel → compass         │
-  │   → Chi tiết: Imagine-Final.md (14 clarity levels)         │
-  │   → KHÔNG có direction → drive chạy KHÔNG HƯỚNG → drift    │
+  │   → "Where do I want to go?" → body pre-feels → compass   │
+  │   → Details: Imagine-Final.md (14 clarity levels)          │
+  │   → NO direction → drive runs WITHOUT DIRECTION → drift    │
   │                       ↓                                     │
   │   ② SUSTAIN (Mini-Arc + Mini-Reward)                       │
-  │   → Chia arc lớn thành mini-arcs (3-7 chunks mỗi)         │
-  │   → Mỗi mini-compile = reward reset → body chịu tiếp      │
-  │   → Chi tiết: Melody-Arc.md §5② + Education-Mechanism.md   │
-  │   → KHÔNG có mini-reward → dissonance liên tục → bỏ cuộc  │
+  │   → Break the big arc into mini-arcs (3-7 chunks each)    │
+  │   → Each mini-compile = reward reset → body continues      │
+  │   → Details: Melody-Arc.md §5② + Education-Mechanism.md    │
+  │   → NO mini-reward → continuous dissonance → quitting      │
   │                       ↓                                     │
-  │   ③ PUSH QUA "THE VALLEY" (Self-Created Threat)            │
-  │   → Giữa arc: dissonance CAO + chưa thấy final            │
-  │   → Mini-reward KHÔNG ĐỦ → cần THÊM threat push           │
-  │   → = Lúc NÀY self-created threat CÓ GIÁ TRỊ CAO NHẤT    │
-  │   → Chi tiết: §1-§4 file này                              │
-  │   → KHÔNG có push → valley = bỏ cuộc                      │
+  │   ③ PUSH THROUGH "THE VALLEY" (Self-Created Threat)        │
+  │   → Middle of arc: HIGH dissonance + final not yet visible │
+  │   → Mini-reward NOT SUFFICIENT → need additional PUSH      │
+  │   → = The moment self-created threat HAS HIGHEST VALUE     │
+  │   → Details: §1-§4 of this file                           │
+  │   → NO push → valley = quitting                            │
   │                       ↓                                     │
-  │   ④ REAL-CHECK (verify hướng)                              │
-  │   → Sau mỗi mini-compile: "đúng hướng không?"             │
-  │   → Chi tiết: Melody-Arc.md §5③                           │
-  │   → KHÔNG check → chạy sai hướng mà không biết            │
+  │   ④ REAL-CHECK (verify direction)                          │
+  │   → After each mini-compile: "still on the right track?"  │
+  │   → Details: Melody-Arc.md §5③                            │
+  │   → NO check → running in wrong direction without knowing │
   │                       ↓                                     │
-  │   ⑤ REPAIR (thả lỏng + phục hồi)                          │
-  │   → Complete arc hoặc giữa arc khi mệt → TẮT threat       │
-  │   → Sleep + connection + vui chơi → cortisol reset          │
-  │   → Chi tiết: §6.3 file này + Cortisol-Baseline.md §8     │
-  │   → KHÔNG repair → PFC-level compile thành body-level → anxiety│
+  │   ⑤ REPAIR (release + recover)                             │
+  │   → Complete arc or mid-arc when tired → TURN OFF threat  │
+  │   → Sleep + connection + play → cortisol resets            │
+  │   → Details: §6.3 of this file + Cortisol-Baseline.md §8  │
+  │   → NO repair → PFC-level compiles into body-level →      │
+  │     anxiety                                                 │
   │                       ↓                                     │
-  │   ⑥ RE-FIRE (bật lại)                                     │
-  │   → Sau repair → body thoải mái → drive = 0                │
-  │   → Cần BẬT LẠI: re-activate Imagine-Final + threat chain  │
-  │   → Giai đoạn 3 skill (§3) → bật có ý thức                 │
-  │   → Quay lại ② → next arc                                  │
+  │   ⑥ RE-FIRE (turn back on)                                 │
+  │   → After repair → body comfortable → drive = 0           │
+  │   → Need to TURN BACK ON: re-activate Imagine-Final +      │
+  │     threat chain                                            │
+  │   → Stage 3 skill (§3) → turn on consciously               │
+  │   → Return to ② → next arc                                 │
   │                                                             │
   └─────────────────────────────────────────────────────────────┘
 
 
-  ⭐ TEMPORAL INTERPLAY — khi nào PULL, khi nào PUSH:
+  ⭐ TEMPORAL INTERPLAY — when PULL, when PUSH:
 
-    ĐẦU ARC: chủ yếu PULL (Imagine-Final + curiosity)
-      → Chunks mới, novelty cao, approach direction
-      → Self-threat: KHÔNG CẦN (novelty đủ drive)
+    START OF ARC: primarily PULL (Imagine-Final + curiosity)
+      → New chunks, high novelty, approach direction
+      → Self-threat: NOT NEEDED (novelty drives enough)
 
-    GIỮA ARC ("The Valley"): cần PUSH + PULL
-      → Pull yếu dần (novelty habituate, final còn xa)
-      → Push cần tăng: self-created threat (§2)
-      → Mixed loop 80:20 → 50:50 → có thể 30:70 tại valley
-      → = Lúc "khó nhất" = lúc self-threat CÓ GIÁ TRỊ NHẤT
+    MIDDLE OF ARC ("The Valley"): needs PUSH + PULL
+      → Pull weakens (novelty habituates, final still far away)
+      → Push needs to increase: self-created threat (§2)
+      → Mixed loop 80:20 → 50:50 → possibly 30:70 at the valley
+      → = The "hardest" moment = moment self-threat HAS HIGHEST VALUE
 
-    CUỐI ARC: PULL trở lại mạnh
-      → Final GẦN → body pre-feel → dopamine tăng
-      → Self-threat: GIẢM (không cần ép, body tự kéo)
-      → = "Gần xong rồi" = drive tự nhiên
+    END OF ARC: PULL returns strong
+      → Final is near → body pre-feels → dopamine increases
+      → Self-threat: DECREASES (no need to push, body pulls itself)
+      → = "Almost done" = natural drive
 
-    SAU ARC: REPAIR bắt buộc
-      → Tắt hết threat + pull → thả lỏng
-      → Duration: tùy arc length + body state
-      → Re-fire: cần effort có ý thức (§3 Giai đoạn 3)
+    AFTER ARC: MANDATORY REPAIR
+      → Turn off all threat + pull → release
+      → Duration: depends on arc length + body state
+      → Re-fire: requires conscious effort (§3 Stage 3)
 
 
-  ⭐ SELF-CREATED THREAT = CƠ CHẾ MỚI NHẤT + KHÓ NHẤT:
+  ⭐ SELF-CREATED THREAT = NEWEST + HARDEST MECHANISM:
 
-    → Imagine-Final: con người đã dùng TỪ LUÔN (mơ ước, plan tương lai)
-    → Mini-Arc: body tự làm VÔ THỨC (chia việc nhỏ, Melody-Arc.md §5②)
-    → Real-Check: xã hội tự feedback
-    → Repair: xã hội ép nghỉ
+    → Imagine-Final: humans have used it ALWAYS (dreams, future plans)
+    → Mini-Arc: body does it UNCONSCIOUSLY (breaking work small, Melody-Arc.md §5②)
+    → Real-Check: society provided feedback
+    → Repair: society forced rest
 
-    → Self-Created Threat: CẦN meta-cognition + 3 giai đoạn học (§3)
-      → Ít người có skill này TỰ NHIÊN
-      → Xã hội cũ KHÔNG CẦN (vì external threat đủ)
-      → AI era: external threat GIẢM → skill này TRỞ NÊN THIẾT YẾU
-      → = "Cơ chế mới nhất" không phải vì mechanism mới
-         mà vì TRƯỚC ĐÂY xã hội làm thay → giờ phải TỰ LÀM
+    → Self-Created Threat: REQUIRES meta-cognition + 3 stages of learning (§3)
+      → Few people have this skill NATURALLY
+      → Old society DID NOT NEED IT (external threat was sufficient)
+      → AI era: external threat DECREASES → this skill BECOMES ESSENTIAL
+      → = "Newest mechanism" not because the mechanism is new
+         but because PREVIOUSLY society did it for you → now you must DO IT YOURSELF
 ```
 
 ---
 
-## §6 — CALIBRATION: INVERTED-U ÁP DỤNG CHO SELF-DRIVE
+## §6 — CALIBRATION: INVERTED-U APPLIED TO SELF-DRIVE
 
-### §6.1 — Inverted-U của Self-Created Threat
+### §6.1 — The Inverted-U of Self-Created Threat
 
 ```
-🟡 FRAMEWORK SYNTHESIS (áp dụng Cortisol-Baseline.md §8.1-8.2):
+🟡 FRAMEWORK SYNTHESIS (applying Cortisol-Baseline.md §8.1-8.2):
 
-  Self-created threat = cortisol source → tuân theo Inverted-U:
+  Self-created threat = a cortisol source → obeys the Inverted-U:
 
   Drive Output
       ▲
@@ -777,54 +783,54 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
       │     ╱ FLOW    ╲ BURNOUT
       │    ╱  ZONE     ╲
       └──────────────────▶ Self-Created Threat Level
-      Thấp   Vừa     Cao    Cực cao
-      (drift)(optimal)(mệt) (crash)
+      Low    Moderate  High  Extreme
+      (drift)(optimal)(tired)(crash)
 
 
-  QUÁ ÍT (drift zone):
-    → Thoải mái → drive GIẢM → không tiến triển
-    → "Chơi pleasant quá → chả muốn làm gì"
-    → Body không có threat → không fire → PFC idle
+  TOO LITTLE (drift zone):
+    → Comfortable → drive DECREASES → no progress
+    → "Too enjoyable → don't feel like doing anything"
+    → Body has no threat → doesn't fire → PFC idles
 
-  VỪA ĐỦ (flow zone):
-    → Threat vừa + novelty → mixed loop 80:20
-    → "Hào hứng + chút áp lực → flow territory"
-    → Cortisol đủ cho change-readiness, repair KỊP
-    → = OPTIMAL: drive mạnh + sustainable
+  JUST RIGHT (flow zone):
+    → Moderate threat + novelty → mixed loop 80:20
+    → "Excited + a little pressure → flow territory"
+    → Cortisol sufficient for change-readiness, repair KEEPS UP
+    → = OPTIMAL: strong drive + sustainable
 
-  QUÁ NHIỀU (burnout zone):
-    → Threat quá mạnh → cortisol cao liên tục → repair KHÔNG kịp
-    → "Căng quá → mệt → sai → càng căng → spiral"
-    → PFC damage tích lũy (Cortisol-Baseline.md §6)
+  TOO MUCH (burnout zone):
+    → Threat too strong → cortisol continuously high → repair CAN'T KEEP UP
+    → "Too tense → tired → making mistakes → more tense → spiral"
+    → PFC damage accumulates (Cortisol-Baseline.md §6)
 
-  CỰC CAO (crash zone):
-    → Threat overwhelming → PFC-level compile thành body-level (§4)
+  EXTREME (crash zone):
+    → Threat overwhelming → PFC-level compiles into body-level (§4)
     → Controllable → uncontrollable → anxiety/depression
-    → Body shutdown: "không chịu nổi nữa"
+    → Body shutdown: "can't take it anymore"
 ```
 
-### §6.2 — Đỉnh Inverted-U dịch theo mỗi người
+### §6.2 — The Inverted-U Peak Shifts Per Person
 
 ```
-🟡 (tương tự Cortisol-Baseline.md §8.2 — 6 parameters):
+🟡 (similar to Cortisol-Baseline.md §8.2 — 6 parameters):
 
-  ĐỈNH DỊCH PHẢI (chịu được nhiều threat hơn) khi:
-    → Sleep quality TỐT → repair mạnh → chịu cortisol CAO hơn
-    → PFC capacity CAO → xử lý nhiều signal → không ngập
-    → Cortisol baseline THẤP → headroom nhiều
-    → Domain chunks ĐỦ → threat chain rõ → không mơ hồ → ít anxiety
-    → Body-base ổn (ăn đủ, ngủ đủ, connection đủ)
+  PEAK SHIFTS RIGHT (can tolerate more threat) when:
+    → Sleep quality GOOD → strong repair → can tolerate HIGHER cortisol
+    → HIGH PFC capacity → processes more signal → doesn't get overwhelmed
+    → LOW cortisol baseline → more headroom
+    → SUFFICIENT domain chunks → threat chain clear → not ambiguous → less anxiety
+    → Stable body-base (adequate food, sleep, connection)
 
-  ĐỈNH DỊCH TRÁI (chịu ít threat hơn) khi:
-    → Sleep kém → repair yếu → crash sớm
-    → PFC mệt → threshold thấp
-    → Cortisol baseline CAO sẵn → thêm ít đã quá
-    → Domain chunks THIẾU → threat mơ hồ → anxiety amplify
-    → Body-base thiếu (đói, thiếu ngủ, cô đơn)
+  PEAK SHIFTS LEFT (can tolerate less threat) when:
+    → Poor sleep → weak repair → crashes sooner
+    → Tired PFC → lower threshold
+    → ALREADY HIGH cortisol baseline → a little more = already too much
+    → INSUFFICIENT domain chunks → ambiguous threat → anxiety amplifies
+    → Insufficient body-base (hungry, sleep-deprived, lonely)
 
-  → "Optimal self-pressure" KHÔNG phải universal number
-  → Depends on CURRENT STATE — thay đổi HÀNG NGÀY
-  → = Cần body-listening (§5③) để calibrate REAL-TIME
+  → "Optimal self-pressure" is NOT a universal number
+  → Depends on CURRENT STATE — changes DAILY
+  → = Needs body-listening (§5③) to calibrate IN REAL-TIME
 ```
 
 ### §6.3 — Cycle: Threat → Action → Repair → Repeat
@@ -832,47 +838,47 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
 ```
 🟡 PRACTICAL CALIBRATION:
 
-  ⭐ KHÔNG PHẢI "maintain threat 24/7":
-     = BẬT threat → ACTION → TẮT threat → REPAIR → BẬT lại
-     = CYCLE, không phải CONSTANT STATE
+  ⭐ NOT "maintain threat 24/7":
+     = TURN ON threat → ACTION → TURN OFF threat → REPAIR → Turn back on
+     = A CYCLE, not a CONSTANT STATE
 
-  Phase 1 — BẬT (work mode):
-    PFC tạo threat scenario → body fire → cortisol → drive
-    → Tập trung toàn lực → output
-    → Duration: giờ → ngày → tuần (tùy task)
+  Phase 1 — ON (work mode):
+    PFC creates threat scenario → body fires → cortisol → drive
+    → Full concentration → output
+    → Duration: hours → days → weeks (depends on task)
 
-  Phase 2 — TẮT (repair mode):
-    PFC dismiss threat → context chuyển → cortisol DROP
-    → Thư giãn, vui chơi, connection, sleep
-    → Duration: PHẢI ĐỦ cho repair (sleep ≥ 7h, vài ngày nghỉ)
-    → ⚠️ Nếu bỏ qua → cortisol chronic → PFC damage
+  Phase 2 — OFF (repair mode):
+    PFC dismisses threat → context shifts → cortisol DROPS
+    → Relax, play, connect, sleep
+    → Duration: MUST BE SUFFICIENT for repair (sleep ≥ 7h, several days off)
+    → ⚠️ If skipped → chronic cortisol → PFC damage
 
   Phase 3 — EVALUATE:
-    Sau repair: body tự evaluate → "phase vừa rồi hiệu quả không?"
-    → Output tốt + body ổn → "cân bằng OK" → lặp lại
-    → Output tốt + body mệt → "quá nhiều" → giảm intensity
-    → Output kém + body ổn → "quá ít" → tăng intensity
+    After repair: body self-evaluates → "was the last phase effective?"
+    → Good output + body OK → "balance is fine" → repeat
+    → Good output + body tired → "too much" → reduce intensity
+    → Poor output + body OK → "too little" → increase intensity
 
   → = DYNAMIC EQUILIBRIUM (Reward-Calibration.md parallel)
-  → KHÔNG prescribe "bao nhiêu ngày chiến, bao nhiêu ngày nghỉ"
-  → Mỗi người tự calibrate qua body feedback
-  → Body = arbiter cuối cùng
+  → DOES NOT prescribe "how many days of work, how many days of rest"
+  → Each person self-calibrates through body feedback
+  → Body = final arbiter
 
 
-  ⚠️ 2 SAI LẦM PHỔ BIẾN:
+  ⚠️ 2 COMMON MISTAKES:
 
-    SAI LẦM 1 — Không tắt: "chiến liên tục vài tháng"
-      → Cortisol chronic → PFC damage → output GIẢM dù effort TĂNG
-      → Cảm giác: "tôi làm nhiều hơn mà ra ít hơn" = PFC đã yếu
-      → Fix: BẮT BUỘC repair — dù body nói "chưa muốn nghỉ"
-        (body đã mất self-signal accuracy — Cortisol-Baseline.md Role ⑤)
+    MISTAKE 1 — Never turning off: "full battle mode for months"
+      → Chronic cortisol → PFC damage → output DECREASES despite INCREASED effort
+      → Feeling: "I'm doing more but producing less" = PFC has already weakened
+      → Fix: FORCE repair — even when body says "don't want to stop yet"
+        (body has already lost self-signal accuracy — Cortisol-Baseline.md Role ⑤)
 
-    SAI LẦM 2 — Không bật lại: "nghỉ rồi không muốn quay lại"
-      → Repair xong → body THOẢI MÁI → drive = 0
-      → "Lúc thoải mái thì chả muốn làm gì cả"
-      → = BÌNH THƯỜNG: body không có threat → không fire → hệ quả tất yếu
-      → Fix: BẬT LẠI threat scenario (§1) → body re-fire
-        → Cần Giai Đoạn 3 skill (§3) để bật có ý thức
+    MISTAKE 2 — Not turning back on: "rested and now don't want to return"
+      → After repair → body COMFORTABLE → drive = 0
+      → "When comfortable, don't feel like doing anything"
+      → = NORMAL: body has no threat → doesn't fire → inevitable consequence
+      → Fix: TURN BACK ON threat scenario (§1) → body re-fires
+        → Needs Stage 3 skill (§3) to turn on consciously
 ```
 
 ---
@@ -884,45 +890,45 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
 
 
 🟢 RESEARCH SUPPORT (verified independently):
-  → Body imagine → cortisol fire cùng pathway (Kosslyn 2001, Ganis 2004)
+  → Body imagines → cortisol fires on same pathway (Kosslyn 2001, Ganis 2004)
   → Yerkes-Dodson Inverted-U (1908, replicated)
   → CEO adversity background correlation (multiple studies)
   → Sleep deprivation → PFC impairment (Walker 2017)
-  → Cortisol chronic → hippocampal damage (Sapolsky 2004)
+  → Chronic cortisol → hippocampal damage (Sapolsky 2004)
 
 
-🟡 FRAMEWORK SYNTHESIS (từ v7.8 mechanisms):
+🟡 FRAMEWORK SYNTHESIS (from v7.8 mechanisms):
   → Self-created threat = Trust Compile from PFC
-  → 4 loại phân theo anchor (body-base level)
-  → 3 giai đoạn học sequence
+  → 4 types classified by anchor (body-base level)
+  → 3-stage learning sequence
   → PFC-level (controllable) vs body-compiled (uncontrollable)
   → Inverted-U applied to self-drive
   → Repair cycle necessity
 
 
-🔴 HYPOTHESIS (chưa verify):
-  → AI era "khoảng trống drive" prediction
+🔴 HYPOTHESIS (not yet verified):
+  → AI era "drive void" prediction
   → "Quiet quitting" = symptom of drive gap (correlation ≠ causation)
   → Exact 3-phase learning sequence (inferred from cases, not tested)
   → PFC-level → body-level compilation timeline (years? decades?)
-  → Self-Created Threat effectiveness ĐÚNG NHƯ MÔ TẢ hay còn factors khác?
+  → Self-Created Threat effectiveness EXACTLY AS DESCRIBED or are there other factors?
 
 
-⚠️ GIỚI HẠN:
-  → CEO cases = survivorship bias: thấy người THÀNH CÔNG dùng skill này,
-    KHÔNG thấy người DÙNG CŨ SKILL NÀY MÀ THẤT BẠI (invisible)
-  → Internal mechanism = inferred từ behavior, không phải direct measurement
-  → "Threat chain chạm body-base" = framework construct,
-    chưa có neuroscience direct measurement
-  → Cross-cultural validity chưa test:
-    collective cultures (VN, JP) vs individualist (US) có khác không?
+⚠️ LIMITATIONS:
+  → CEO cases = survivorship bias: we see people who SUCCEEDED using this skill,
+    but NOT people who USED THIS SKILL AND FAILED (invisible)
+  → Internal mechanism = inferred from behavior, not direct measurement
+  → "Threat chain reaching body-base" = framework construct,
+    no direct neuroscience measurement yet
+  → Cross-cultural validity not yet tested:
+    collective cultures (Vietnam, Japan) vs individualist (US) — any differences?
 
 
-⚠️ FILE NÀY KHÔNG PHẢI:
-  → Hướng dẫn "cách thành công" ❌
-  → Prescription "hãy tạo áp lực cho mình" ❌
-  → File NÀY = mô tả CƠ CHẾ đã được quan sát ở nhiều người
-  → Mỗi người TỰ QUYẾT có áp dụng hay không + BODY = arbiter cuối cùng
+⚠️ THIS FILE IS NOT:
+  → A guide to "how to succeed" ❌
+  → A prescription "you should create pressure for yourself" ❌
+  → THIS FILE = describes the MECHANISM observed in many people
+  → Each person DECIDES FOR THEMSELVES whether to apply it + BODY = final arbiter
 ```
 
 ---
@@ -930,36 +936,36 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
 ## §8 — CROSS-REFERENCES
 
 ```
-MECHANISM FILES (đọc để hiểu sâu):
+MECHANISM FILES (read for deeper understanding):
 
-  Threat.md §2            — External vs Internal-Predict, fidelity ~20-60%
-  Novelty.md §4.2         — Mức 4 Self-Created Threat, BẬT/TẮT
-  Novelty.md §4.3         — Novelty Loop vs Anxiety Loop, mixed ratio
-  Imagine-Final.md §7     — Bootstrap: PFC start → body take over
-  Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, trust amplifier mechanism
-  Compile-Type-Learning.md— Trust Compile in learning, trust then verify
-  Cortisol-Baseline.md    — §7.7 5 Roles, §8 Inverted-U + 6 parameters
-  Anchor-Schema.md        — Clarity × Quality × Trust, 4 nguồn
-  Protect.md §1.2         — Loss aversion ~2×, asymmetric prediction-delta
-  Body-Feedback.md        — Dual-pull, body accuracy ~90%
+  Threat.md §2              — External vs Internal-Predict, fidelity ~20-60%
+  Novelty.md §4.2           — Level 4 Self-Created Threat, ON/OFF
+  Novelty.md §4.3           — Novelty Loop vs Anxiety Loop, mixed ratio
+  Imagine-Final.md §7       — Bootstrap: PFC start → body take over
+  Compile-Taxonomy.md v3.0  — 1 Engine + 3 Modulators, trust amplifier mechanism
+  Compile-Type-Learning.md  — Trust Compile in learning, trust then verify
+  Cortisol-Baseline.md      — §7.7 5 Roles, §8 Inverted-U + 6 parameters
+  Anchor-Schema.md          — Clarity × Quality × Trust, 4 sources
+  Protect.md §1.2           — Loss aversion ~2×, asymmetric prediction-delta
+  Body-Feedback.md          — Dual-pull, body accuracy ~90%
 
-PULL-SIDE FILES (novelty-drive, đã có nhà):
+PULL-SIDE FILES (novelty-drive, already well-established):
 
-  Novelty.md              — VTA, prediction-delta, 4 mức depth
-  Domain-Mapping-Drive.md — reward từ PROCESS, exploration drive
-  Melody-Arc.md           — Mini-arc design, 6 kỹ thuật, The Valley
+  Novelty.md                — VTA, prediction-delta, 4 levels of depth
+  Domain-Mapping-Drive.md   — reward from PROCESS, exploration drive
+  Melody-Arc.md             — Mini-arc design, 6 techniques, The Valley
 
-APPLICATION FILES (context ứng dụng):
+APPLICATION FILES (application context):
 
-  Human-AI-Future.md §8   — Con người tự nâng cấp, 5 skills
+  Human-AI-Future.md §8     — Human self-upgrade, 5 skills
   Expansion-Saturation-Crisis.md — Expansion → Discovery shift, AI disruption
-  Reward-Calibration.md   — Goldilocks, dynamic equilibrium
-  Boredom.md              — VTA underfed, Imagine-Final unclear
+  Reward-Calibration.md     — Goldilocks, dynamic equilibrium
+  Boredom.md                — VTA underfed, Imagine-Final unclear
 
-EDUCATION FILES (tạo novelty-pull từ nhỏ):
+EDUCATION FILES (building novelty-pull from childhood):
 
-  Education-Mechanism.md  — Arc design principles, approach tag
-  Compile-Type-Learning.md— Experience Compile verify, optimal learning flow
+  Education-Mechanism.md    — Arc design principles, approach tag
+  Compile-Type-Learning.md  — Experience Compile verify, optimal learning flow
   Child-Development-Mechanism.md — Approach/Avoidance tag × parenting
 
 BACKUP (source material):
@@ -972,17 +978,17 @@ BACKUP (source material):
 
 > **Self-Created-Threat v1.0 — End of file.**
 >
-> PFC tạo threat → body trust → cortisol fire NHƯ THẬT.
-> = Trust Compile từ chính bản thân.
-> Body không phân biệt "ai nói" — chỉ care "chain có chạm body-base không."
+> PFC creates threat → body trusts it → cortisol fires AS IF REAL.
+> = Trust Compile from yourself.
+> Body cannot distinguish "who said it" — only cares "does the chain reach body-base?"
 >
-> 4 loại threat tự tạo. 3 giai đoạn học (skill, không bẩm sinh).
-> PFC-level controllable — body-compiled không. Repair cycle = non-negotiable.
-> AI era: nguồn drive cũ biến mất → skill này quan trọng hơn bao giờ hết.
-> Novelty-pull = con đường khác (đã có file riêng).
-> Giáo dục đúng → thế hệ sau có thể novelty-pull tự đủ → threat ít cần hơn.
+> 4 types of self-created threat. 3 stages of learning (a skill, not innate).
+> PFC-level is controllable — body-compiled is not. Repair cycle = non-negotiable.
+> AI era: old drive sources disappearing → this skill more important than ever.
+> Novelty-pull = the other path (already has its own files).
+> Correct education → future generations can have self-sufficient novelty-pull → threat less needed.
 >
-> ⚠️ File này = mô tả CƠ CHẾ. Không phải hướng dẫn sống.
-> Body bạn = arbiter cuối cùng.
+> ⚠️ This file = describes the MECHANISM. Not a guide for life.
+> Your body = the final arbiter.
 >
-> Phiên bản: v1.0, 2026-05-13.
+> Version: v1.0, 2026-05-13.

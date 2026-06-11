@@ -1,125 +1,120 @@
-# Anchor-Schema — Điểm Neo Đồng Bộ Của Vô Thức
+---
+title: Anchor-Schema — The Unconscious Synchronization Anchor Point
+created: 2026-04-09 (v1.0) | 2026-04-10 (v1.1: §2 Anchor Strength + Cost) | 2026-04-18 (v1.2: refs)
+translated: 2026-06-09
+status: COMPLETE — v1.2
+scope: |
+  Anchor-Schema = the unconscious's REQUIREMENT for a sync point.
+  PFC is only 1 of 4 sources that supply the anchor.
+  This file: WHY the unconscious needs an anchor, HOW anchors work,
+  WHICH sources fill the anchor, and WHAT happens when it's missing.
+parent: Core-Software.md §8 (observation parameters table)
+dependencies:
+  - Core-Software.md — cycle architecture, observation parameters
+  - Chunk.md v2.0 — chunk substrate
+  - Drive.md v1.1 — 5 unconscious inputs, PFC = navigator
+  - Imagine-Final.md — mechanism, 2 layers, reference pattern
+  - Personal-Melody.md §1 — melody = emergent state
+  - Melody-Arc.md §2 — 9 arc principles
+  - Boredom-Analysis.md §1 — "boredom" = dissonance + fuzzy Imagine-Final
+language: English
+confidence: 🟡 Framework concept — logic consistent, derived from multiple verified sources
+---
 
-> **Dàn nhạc vô thức LUÔN chơi — hàng nghìn nhạc sĩ, mỗi người 1 bài.**
-> **Khi có Anchor-Schema → cả dàn nhạc đồng bộ → melody.**
-> **Khi không có → cacophony → "chán" / "lost" / anxiety.**
+# Anchor-Schema — The Unconscious Synchronization Anchor Point
+
+> **The unconscious orchestra is ALWAYS playing — thousands of musicians, each with their own piece.**
+> **When there is an Anchor-Schema → the whole orchestra synchronizes → melody.**
+> **When there is none → cacophony → "boredom" / "lost" / anxiety.**
 >
-> Anchor-Schema KHÔNG phải sản phẩm của PFC.
-> Anchor-Schema là YÊU CẦU của vô thức — hệ thống CẦN 1 điểm neo để sync.
-> PFC chỉ là 1 trong 4 nguồn CUNG CẤP anchor.
+> Anchor-Schema is NOT a product of PFC.
+> Anchor-Schema is the REQUIREMENT of the unconscious — the system NEEDS a sync point.
+> PFC is only 1 of 4 sources that SUPPLY the anchor.
 >
-> File này: TẠI SAO vô thức cần anchor, HOW anchor hoạt động,
-> NGUỒN NÀO fill anchor, và CHUYỆN GÌ XẢY RA khi thiếu.
+> This file: WHY the unconscious needs an anchor, HOW the anchor works,
+> WHICH sources fill it, and WHAT HAPPENS when it's missing.
 
 ---
 
-> **Trạng thái:** COMPLETE — v1.2 (2026-04-18: cross-refs aligned with v2.0 reference files)
-> **Ngày:** 2026-04-09 (v1.0) | 2026-04-10 (v1.1: §2 Anchor Strength + Cost) | 2026-04-18 (v1.2: refs)
-> **Mục đích:** Define Anchor-Schema — concept MỚI trong framework
-> = "Vô thức CẦN gì để đồng bộ? Cái gì làm sync point? Tại sao?"
-> **Vị trí:** Core-Deep-Dive/ (concept nền tảng, cùng cấp Imagine-Final.md)
-> **Flow đọc:**
->   Imagine-Final.md (PFC build tương lai CỤ THỂ — content + clarity)
->   → **FILE NÀY (vô thức CẦN gì + CHẤP NHẬN gì làm sync point)**
->   → Imagine-Final-Evaluation.md (sync point đó TỐT hay XẤU?)
-> **HOẶC đọc ngược (bottom-up):**
->   **FILE NÀY (vô thức CẦN gì?)** → Imagine-Final.md (PFC cung cấp gì?)
->   → Imagine-Final-Evaluation.md (cung cấp đúng hay sai?)
-> **Tiền đề:**
->   Core-v7.8-Draft.md §8 (Schema = observation parameter, drives = emergent)
->   Drive.md §1 (5 inputs vô thức, PFC = navigator)
->   Imagine-Final.md §1 (mechanism, 2 tầng, reference pattern)
->   Personal-Melody.md §1 (melody = emergent state từ tất cả)
->   Melody-Arc.md §2 (9 nguyên tắc arc, đặc biệt ① Imagine-Final + ⑤ bridge)
->   Boredom-Analysis.md §1 ("chán" = dissonance + Imagine-Final mờ)
-> **⚠️ 🟡 Framework concept MỚI — logic consistent, derived từ nhiều verified sources**
-> **⚠️ Chưa có research TRỰC TIẾP về "Anchor-Schema" — concept framework-specific**
-> **v1.2 refs:** Valence-Propagation.md v1.0 (anchor AMPLIFY valence chain propagation),
->   Feeling.md v2.0 (PFC observe anchor-driven body state → feeling),
->   Chunk.md v2.0 (chunk substrate cho anchor compile/decay),
->   AI-Schema-Detection.md v1.0 (anchor identification trong therapy context)
-
----
-
-## §0 — MỤC ĐÍCH + PHÂN BIỆT VỚI IMAGINE-FINAL
+## §0 — PURPOSE + DISTINCTION FROM IMAGINE-FINAL
 
 ```
-ANCHOR-SCHEMA TRONG FRAMEWORK:
+ANCHOR-SCHEMA IN THE FRAMEWORK:
 
-  Framework ĐÃ CÓ 2 file về Imagine-Final:
-    Imagine-Final.md = PFC build tương lai: CƠ CHẾ + ĐỘ RÕ (clarity)
-    Imagine-Final-Evaluation.md = Đánh giá hướng đi: CHẤT LƯỢNG (quality)
+  Framework already has 2 Imagine-Final files:
+    Imagine-Final.md = PFC builds a specific future: MECHANISM + CLARITY
+    Imagine-Final-Evaluation.md = Evaluate the direction: QUALITY
 
-  CẢ 2 đều mô tả PHÍA PFC (top-down):
-    → PFC imagine → PFC evaluate → PFC đề xuất
-    → = "PFC CUNG CẤP gì?"
+  BOTH describe the PFC SIDE (top-down):
+    → PFC imagines → PFC evaluates → PFC proposes
+    → = "What does PFC SUPPLY?"
 
-  File NÀY mô tả PHÍA VÔ THỨC (bottom-up):
-    → Vô thức CẦN sync point → vô thức CHẤP NHẬN hay KHÔNG
-    → = "Vô thức YÊU CẦU gì?"
+  THIS FILE describes the UNCONSCIOUS SIDE (bottom-up):
+    → Unconscious NEEDS a sync point → unconscious ACCEPTS or doesn't
+    → = "What does the unconscious REQUIRE?"
 
 
-⭐ PHÂN BIỆT CỐT LÕI:
+⭐ CORE DISTINCTION:
 
   ┌──────────────────────────────────────────────────────────────┐
   │                                                              │
-  │  IMAGINE-FINAL = SẢN PHẨM CỦA PFC (top-down)              │
-  │    PFC tạo ra, build, mở rộng, tối ưu, loại bỏ            │
-  │    = "PFC ĐỀ XUẤT: tương lai NÀY thì sao?"                │
-  │    → Có thể có NHIỀU Imagine-Final cùng lúc (portfolio)     │
-  │    → Mỗi cái có Clarity (14 ngưỡng) + Quality (2 trục)     │
-  │    → CẦN PFC để tồn tại                                    │
+  │  IMAGINE-FINAL = PFC'S PRODUCT (top-down)                  │
+  │    PFC creates, builds, extends, optimizes, discards         │
+  │    = "PFC PROPOSES: what about THIS future?"                │
+  │    → Multiple Imagine-Finals can exist simultaneously        │
+  │    → Each has Clarity (14 thresholds) + Quality (2 axes)    │
+  │    → REQUIRES PFC to exist                                   │
   │                                                              │
-  │  ANCHOR-SCHEMA = YÊU CẦU CỦA VÔ THỨC (bottom-up)         │
-  │    Vô thức CẦN sync point để dàn nhạc đồng bộ             │
-  │    = "Vô thức YÊU CẦU: cho tôi CÁI GÌ ĐÓ để sync theo"  │
-  │    → Thường 1-2 ACTIVE tại 1 thời điểm                     │
-  │    → KHÔNG nhất thiết cần PFC (4 nguồn fill — §3)          │
-  │    → Có Trust (binding strength — §2)                       │
+  │  ANCHOR-SCHEMA = THE UNCONSCIOUS'S REQUIREMENT (bottom-up)  │
+  │    Unconscious NEEDS a sync point for the orchestra          │
+  │    = "Unconscious REQUIRES: give me SOMETHING to sync with" │
+  │    → Usually 1–2 ACTIVE at any one time                     │
+  │    → Does NOT necessarily require PFC (4 fill sources — §3) │
+  │    → Has Trust (binding strength — §2)                       │
   │                                                              │
-  │  QUAN HỆ:                                                   │
-  │    → Imagine-Final ĐỦ TỐT + body ACCEPT → thành Anchor     │
-  │    → NHƯNG: Anchor-Schema KHÔNG CHỈ từ Imagine-Final        │
-  │      (compiled schemas, hippocampus, external inject cũng   │
-  │       fill được — §3)                                        │
-  │    → Imagine-Final = 1 trong nhiều NGUỒN cung cấp anchor   │
-  │    → KHÔNG PHẢI mọi Imagine-Final thành Anchor-Schema       │
-  │      (wish, dream = Imagine-Final chưa được chọn)                      │
-  │    → NHƯNG mọi Anchor-Schema ĐỀU CÓ content                │
-  │      (schema nào đó đang làm sync point)                    │
+  │  RELATIONSHIP:                                               │
+  │    → Imagine-Final GOOD ENOUGH + body ACCEPTS → becomes Anchor│
+  │    → BUT: Anchor-Schema is NOT ONLY from Imagine-Final       │
+  │      (compiled schemas, hippocampus, external inject also    │
+  │       fill it — §3)                                          │
+  │    → Imagine-Final = 1 of many anchor SOURCES               │
+  │    → NOT every Imagine-Final becomes an Anchor-Schema        │
+  │      (wishes, dreams = Imagine-Finals not yet chosen)        │
+  │    → BUT every Anchor-Schema DOES have content              │
+  │      (some schema is acting as the sync point)               │
   │                                                              │
   └──────────────────────────────────────────────────────────────┘
 
 
-TẠI SAO CẦN CONCEPT MỚI — KHÔNG ĐỦ CHỈ CÓ IMAGINE-FINAL:
+WHY A NEW CONCEPT IS NEEDED — IMAGINE-FINAL ALONE ISN'T SUFFICIENT:
 
-  Imagine-Final KHÔNG GIẢI THÍCH ĐƯỢC:
+  Imagine-Final CANNOT EXPLAIN:
 
-    ① "Biết muốn gì nhưng KHÔNG hành động":
-       → Imagine-Final RÕ (PFC đã build) → NHƯNG body không commit
-       → = PFC ĐỀ XUẤT, vô thức CHƯA CHẤP NHẬN
-       → = Imagine-Final CÓ, Anchor-Schema CHƯA
+    ① "Knowing what I want but NOT acting on it":
+       → Imagine-Final is CLEAR (PFC has built it) → BUT body won't commit
+       → = PFC PROPOSES, unconscious HAS NOT ACCEPTED
+       → = Imagine-Final exists, Anchor-Schema does NOT
 
-    ② "Không giải thích được tại sao nhưng BIẾT phải làm":
-       → PFC chưa name được (Imagine-Final MỜ) → NHƯNG drive MẠNH
-       → = Compiled schema ĐÃ TỰ thành Anchor-Schema
-       → = Anchor-Schema CÓ, Imagine-Final MỜ
-       → = "Tiếng gọi" / "calling" / "gut feeling"
+    ② "Can't explain why, but KNOW I have to do it":
+       → PFC can't yet name it (Imagine-Final is FUZZY) → BUT drive is STRONG
+       → = Compiled schema has ALREADY BECOME an Anchor-Schema on its own
+       → = Anchor-Schema exists, Imagine-Final is fuzzy
+       → = "Calling" / "gut feeling" / "vocation"
 
-    ③ Động vật KHÔNG CÓ PFC vẫn drive có hướng:
-       → Không có PFC → không có Imagine-Final
-       → NHƯNG: hippocampus + compiled schemas → CÓ Anchor-Schema
-       → = Anchor-Schema TỒNTẠI KHÔNG CẦN PFC
+    ③ Animals WITHOUT PFC still drive directionally:
+       → No PFC → no Imagine-Final
+       → BUT: hippocampus + compiled schemas → there IS an Anchor-Schema
+       → = Anchor-Schema EXISTS WITHOUT PFC
 
-    ④ Tôn giáo work MÀ KHÔNG CẦN PFC hiểu sâu:
-       → Ritual repeat → compile trực tiếp vào vô thức
-       → = Anchor-Schema hình thành BYPASS PFC
-       → = Tôn giáo = direct-to-unconscious Anchor-Schema provider
+    ④ Religion works WITHOUT PFC deep understanding:
+       → Ritual repetition → compiles directly into the unconscious
+       → = Anchor-Schema forms BYPASSING PFC
+       → = Religion = direct-to-unconscious Anchor-Schema provider
 
-  → 4 cases NÀY = Imagine-Final framework KHÔNG cover đủ
-  → = CẦN concept mô tả PHÍA VÔ THỨC: Anchor-Schema
+  → These 4 cases = Imagine-Final framework alone doesn't fully cover
+  → = A concept is needed to describe THE UNCONSCIOUS SIDE: Anchor-Schema
 
-  🟡 "Imagine-Final ≠ Anchor-Schema" = framework distinction mới
+  🟡 "Imagine-Final ≠ Anchor-Schema" = new framework distinction
   🟢 Top-down vs bottom-up processing = neuroscience established
   🟢 "Know without knowing why" = implicit knowledge (Reber 1993)
   🟢 Goal-directed behavior without explicit goals = animal cognition research
@@ -127,658 +122,657 @@ TẠI SAO CẦN CONCEPT MỚI — KHÔNG ĐỦ CHỈ CÓ IMAGINE-FINAL:
 
 ---
 
-## §1 — ANCHOR-SCHEMA: CƠ CHẾ ĐỒNG BỘ DÀN NHẠC
+## §1 — ANCHOR-SCHEMA: THE ORCHESTRA SYNCHRONIZATION MECHANISM
 
 ```
-ANCHOR-SCHEMA LÀ GÌ — THEO LENS MELODY:
+WHAT IS ANCHOR-SCHEMA — THROUGH THE MELODY LENS:
 
-  Vô thức = DÀN NHẠC:
-    → Hàng nghìn "nhạc sĩ" (schemas compiled) LUÔN chơi
-    → Mỗi nhạc sĩ = 1 schema auto-fire theo trigger riêng
-    → Chơi ĐỒNG THỜI, SONG SONG, không dừng
-    → = Dàn nhạc TỰ CHƠI — không cần nhạc trưởng cho phần lớn
+  Unconscious = ORCHESTRA:
+    → Thousands of "musicians" (compiled schemas) ALWAYS playing
+    → Each musician = 1 schema auto-firing on its own trigger
+    → Playing SIMULTANEOUSLY, IN PARALLEL, without stopping
+    → = Orchestra PLAYS ITSELF — no conductor needed most of the time
 
   Anchor-Schema = MAIN PLAYER:
-    → 1 (hoặc vài) nhạc sĩ được "bật to" hơn
-    → Cả dàn nhạc NGHE và dần ĐỒNG BỘ theo main player
-    → = Sync point — điểm quy chiếu cho toàn bộ hệ thống
-    → = "Bài nhạc" mà cả dàn nhạc cùng chơi
+    → 1 (or a few) musicians are "turned up" louder
+    → The whole orchestra LISTENS and gradually SYNCS to the main player
+    → = Sync point — the reference point for the entire system
+    → = "The piece" the whole orchestra plays together
 
-  Không có Main Player:
-    → Mỗi nhạc sĩ tự chơi bài riêng
-    → = Cacophony (hỗn tạp) → body signal: dissonance
-    → = "Chán" / "lost" / anxiety (Boredom-Analysis.md §1)
+  No Main Player:
+    → Each musician plays their own piece
+    → = Cacophony (chaos) → body signal: dissonance
+    → = "Boredom" / "lost" / anxiety (Boredom-Analysis.md §1)
 
-  Có Main Player nhưng SAI:
-    → Dàn nhạc sync NHƯNG bài nhạc KHÔNG hợp hardware / domain
-    → = Melody CÓ nhưng KHÔNG smooth
+  Main Player present but WRONG:
+    → Orchestra syncs BUT the piece doesn't suit the hardware / domain
+    → = Melody EXISTS but is NOT smooth
     → = Mismatch / Delusion (Imagine-Final-Evaluation.md §4)
 
 
-ANCHOR-SCHEMA HOẠT ĐỘNG THẾ NÀO:
+HOW ANCHOR-SCHEMA OPERATES:
 
   ┌──────────────────────────────────────────────────────────────┐
   │                                                              │
-  │  BÌNH THƯỜNG (melody smooth → không cần anchor mạnh):       │
+  │  NORMAL (melody smooth → no strong anchor needed):          │
   │                                                              │
-  │    → Body-base MET → schemas auto-fire hòa → melody smooth │
-  │    → Anchor-Schema DORMANT (có nhưng không cần amplify)     │
-  │    → VD: nằm bãi biển → mọi thứ ổn → không cần "hướng"    │
-  │    → = Anchor-Schema tồn tại NỀN nhưng không ACTIVE         │
+  │    → Body-base MET → schemas auto-fire harmoniously → melody│
+  │    → Anchor-Schema DORMANT (exists but doesn't need to amplify)│
+  │    → Example: lying on the beach → everything fine → no "direction" │
+  │    → = Anchor-Schema exists in the BACKGROUND but is not ACTIVE│
   │                                                              │
-  │  KHI DISSONANCE (melody rối → CẦN anchor):                 │
+  │  WHEN DISSONANCE (melody disrupted → anchor NEEDED):        │
   │                                                              │
-  │    → Body-base UNMET → schemas CONFLICT → melody rối        │
-  │    → Anchor-Schema ACTIVATE — amplify → sync dàn nhạc      │
-  │    → VD: deadline gấp → Anchor "hoàn thành" amplify        │
-  │      → toàn body sync: ngồi xuống, tập trung, gõ code     │
-  │    → = Anchor-Schema CẦN NHẤT khi dissonance MẠNH NHẤT    │
+  │    → Body-base UNMET → schemas CONFLICT → melody disrupted  │
+  │    → Anchor-Schema ACTIVATES — amplifies → syncs orchestra  │
+  │    → Example: urgent deadline → Anchor "finish it" amplifies│
+  │      → whole body syncs: sit down, focus, type code         │
+  │    → = Anchor-Schema MOST NEEDED when dissonance is STRONGEST│
   │                                                              │
-  │  NGUYÊN TẮC THEN CHỐT:                                     │
-  │    → Anchor-Schema strength ≥ dissonance level → SYNC ĐỦ  │
-  │    → Anchor-Schema strength < dissonance level → SYNC MẤT  │
-  │    → = "Khó chịu NÀY có xứng với hướng KIA?"               │
-  │    → = Nếu anchor MẠNH HƠN → "xứng, chịu" → tiếp         │
-  │    → = Nếu anchor YẾU HƠN → "không xứng" → dừng/tan      │
+  │  KEY PRINCIPLE:                                              │
+  │    → Anchor-Schema strength ≥ dissonance level → SYNC HOLDS │
+  │    → Anchor-Schema strength < dissonance level → SYNC LOST  │
+  │    → = "Is THIS difficulty worth THAT direction?"            │
+  │    → = If anchor is STRONGER → "worth it, I'll endure" → continues│
+  │    → = If anchor is WEAKER → "not worth it" → stops/dissolves│
   │                                                              │
   └──────────────────────────────────────────────────────────────┘
 
 
-FLOW 6 BƯỚC — TỪ DISSONANCE TỚI SYNC:
+6-STEP FLOW — FROM DISSONANCE TO SYNC:
 
-  ① BODY-BASE DISSONANCE: "thiếu gì đó"
-     → Channel nào đó unmet → dissonance signal
-     → Dàn nhạc bắt đầu "lệch" — một số nhạc sĩ fire xung đột
-     → = TRIGGER cho toàn bộ flow
+  ① BODY-BASE DISSONANCE: "something is missing"
+     → Some channel unmet → dissonance signal
+     → Orchestra begins to "drift" — some musicians fire conflictingly
+     → = TRIGGER for the entire flow
 
-  ② ANCHOR-SCHEMA SCAN: "có anchor nào sẵn không?"
-     → Vô thức CHECK: có compiled schema nào ĐÃ LÀ anchor?
-     → NẾU CÓ (compiled deep, familiar situation):
-       → Anchor ACTIVATE ngay → skip tới ⑤
-       → VD: đói + quen "mở tủ lạnh" → auto sync → action
-       → VD: sếp giao task quen + Anchor "career" đã compiled → auto sync
-       → = PHẦN LỚN cuộc sống → anchor SẴN → PFC KHÔNG CẦN
-     → NẾU KHÔNG (tình huống mới, conflict, anchor cũ không đủ):
-       → Proceed tới ③ — GỌI PFC
+  ② ANCHOR-SCHEMA SCAN: "is there an anchor already available?"
+     → Unconscious CHECKS: is there a compiled schema that IS already an anchor?
+     → IF YES (compiled deep, familiar situation):
+       → Anchor ACTIVATES immediately → skip to ⑤
+       → Example: hungry + accustomed to "open the fridge" → auto-sync → action
+       → Example: familiar task assigned + compiled Anchor "career" → auto-sync
+       → = MOST OF LIFE → anchor AVAILABLE → PFC NOT NEEDED
+     → IF NO (new situation, conflict, old anchor insufficient):
+       → Proceed to ③ — CALL PFC
 
-  ③ PFC SCAN + IMAGINE: "tìm anchor mới"
-     → PFC được gọi (vì vô thức không đủ)
-     → PFC generate nhiều Imagine-Finals (simulate options):
-       → "Ăn?" / "Scroll?" / "Gọi bạn?" / "Ra ngoài?" / "Đổi nghề?"
-     → Hippocampus simulate preview mỗi option
-     → Body PRE-FEEL mỗi preview → opioid preview hoặc không
-     → = PFC đang tạo CANDIDATES cho Anchor-Schema position
+  ③ PFC SCAN + IMAGINE: "find a new anchor"
+     → PFC is called (because unconscious is insufficient)
+     → PFC generates multiple Imagine-Finals (simulate options):
+       → "Eat?" / "Scroll?" / "Call a friend?" / "Go outside?" / "Change jobs?"
+     → Hippocampus simulates a preview for each option
+     → Body PRE-FEELS each preview → opioid preview or not
+     → = PFC is creating CANDIDATES for the Anchor-Schema position
 
-  ④ BODY EVALUATE + CHỌN: "cái nào ĐỦ TỐT?"
-     → Body-base so sánh mỗi candidate:
-       → Preview nào → body feel "melody sẽ smooth HƠN"?
-       → Candidate nào → body confirm MẠNH nhất?
-     → PFC CŨNG evaluate: domain fit? hardware fit? feasible?
-     → GIAO ĐIỂM: body confirm + PFC confirm → CHỌN
-     → = Imagine-Final NÀY → THÀNH Anchor-Schema
-     → ⚠️ NẾU không candidate nào đủ:
-       → PFC: "chưa tìm được" → quay lại ③ (thử thêm)
-       → HOẶC: stuck → "chán" (Boredom-Analysis §1 ④)
+  ④ BODY EVALUATE + CHOOSE: "which one is GOOD ENOUGH?"
+     → Body-base compares each candidate:
+       → Which preview → body feels "melody will be SMOOTHER"?
+       → Which candidate → body confirms MOST strongly?
+     → PFC ALSO evaluates: domain fit? hardware fit? feasible?
+     → INTERSECTION: body confirm + PFC confirm → CHOOSE
+     → = THIS Imagine-Final → BECOMES Anchor-Schema
+     → ⚠️ IF no candidate is sufficient:
+       → PFC: "haven't found it yet" → return to ③ (try more)
+       → OR: stuck → "boredom" (Boredom-Analysis §1 ④)
 
-  ⑤ ANCHOR AMPLIFY → VÔ THỨC SYNC:
-     → Schema được chọn → AMPLIFY (PFC spotlight + body commit)
-     → Cả dàn nhạc bắt đầu NGHE main player
-     → Schemas liên quan: fire MẠNH hơn (hỗ trợ anchor)
-     → Schemas không liên quan: fire NHẸ hơn (nhường bandwidth)
-     → Actions EMERGE: toàn body sync → hành vi phục vụ anchor
-     → VD: Anchor "gọi bạn B" → tay lấy phone → tìm tên → gọi
+  ⑤ ANCHOR AMPLIFIES → UNCONSCIOUS SYNCS:
+     → Chosen schema → AMPLIFIES (PFC spotlight + body commits)
+     → The whole orchestra begins to LISTEN to the main player
+     → Related schemas: fire MORE STRONGLY (supporting the anchor)
+     → Unrelated schemas: fire MORE QUIETLY (yielding bandwidth)
+     → Actions EMERGE: whole body syncs → behavior serves the anchor
+     → Example: Anchor "call friend B" → hand reaches for phone → searches name → calls
 
   ⑥ DOMAIN FEEDBACK → RE-EVALUATE:
-     → Action → kết quả → domain feedback
-     → Feedback ✓ (bạn B vui) → Anchor CONFIRM → Trust TĂNG
-     → Feedback ✗ (bạn B bận) → Anchor WEAKEN → re-scan (quay ②③)
-     → Feedback MỞ (chưa rõ) → Anchor MAINTAIN → tiếp thử
-     → = LOOP liên tục — anchor KHÔNG CỐ ĐỊNH, liên tục re-evaluate
+     → Action → result → domain feedback
+     → Feedback ✓ (friend B is happy) → Anchor CONFIRMED → Trust INCREASES
+     → Feedback ✗ (friend B is busy) → Anchor WEAKENS → re-scan (return to ②③)
+     → Feedback OPEN (unclear yet) → Anchor MAINTAINED → keep trying
+     → = CONTINUOUS LOOP — anchor is NOT fixed, continuously re-evaluated
 
-  ⭐ BƯỚC ② LÀ BƯỚC QUAN TRỌNG NHẤT:
-    → Phần lớn cuộc sống: bước ② → CÓ anchor sẵn → skip tới ⑤
-    → = Vô thức handle ~95% (Drive.md §1)
-    → CHỈ khi ② fail (không có anchor sẵn) → MỚI gọi PFC (③④)
-    → = PFC = backup, không phải primary
-    → = Anchor-Schema là concept CỦA VÔ THỨC, PFC chỉ CUNG CẤP khi cần
+  ⭐ STEP ② IS THE MOST IMPORTANT STEP:
+    → Most of life: step ② → anchor AVAILABLE → skip to ⑤
+    → = Unconscious handles ~95% (Drive.md §1)
+    → ONLY when ② fails (no anchor available) → THEN call PFC (③④)
+    → = PFC = backup, not primary
+    → = Anchor-Schema is the UNCONSCIOUS'S concept; PFC only SUPPLIES when needed
 
 
-MULTI-SCALE ANCHOR — NHIỀU ANCHOR CÙNG LÚC:
+MULTI-SCALE ANCHOR — MULTIPLE ANCHORS SIMULTANEOUSLY:
 
-  Giống Imagine-Final multi-scale, Anchor-Schema cũng multi-scale:
+  Just like Imagine-Final operates at multiple scales, Anchor-Schema is also multi-scale:
 
-    Micro-Anchor (giây → phút):
-      → "Ăn miếng này" → tay cầm đũa → cho vào miệng
-      → = Schema compiled, auto, PFC ~0%
+    Micro-Anchor (seconds → minutes):
+      → "Eat this bite" → hand holds chopsticks → bring to mouth
+      → = Compiled schema, automatic, PFC ~0%
 
-    Short-Anchor (phút → giờ):
-      → "Xong bài tập" → ngồi, viết, tập trung
-      → = Schema semi-compiled, PFC ~5-15% monitor
+    Short-Anchor (minutes → hours):
+      → "Finish this exercise" → sit down, write, concentrate
+      → = Semi-compiled schema, PFC ~5–15% monitoring
 
-    Daily-Anchor (ngày):
-      → "Hoàn thành task hôm nay" → organize, prioritize, execute
-      → = PFC ~15-30% (plan + navigate)
+    Daily-Anchor (one day):
+      → "Complete today's tasks" → organize, prioritize, execute
+      → = PFC ~15–30% (planning + navigating)
 
-    Life-Anchor (năm → đời):
-      → "Career thành công" / "Gia đình hạnh phúc" / "Ý nghĩa cuộc đời"
+    Life-Anchor (years → lifetime):
+      → "Successful career" / "Happy family" / "Life meaning"
       → = Deep compiled OR PFC-built Imagine-Final
-      → = PFC ~variable (dormant khi smooth, active khi crisis)
+      → = PFC ~variable (dormant when smooth, active when in crisis)
 
   HIERARCHY:
-    → Micro-Anchors PHỤC VỤ short-Anchors → PHỤC VỤ daily → PHỤC VỤ life
-    → "Mở laptop" (micro) → "xong task" (daily) → "thăng tiến" (yearly)
-      → "career thành công" (life)
+    → Micro-Anchors SERVE short-anchors → SERVE daily → SERVE life
+    → "Open laptop" (micro) → "finish task" (daily) → "get promoted" (yearly)
+      → "successful career" (life)
     → = ALIGNMENT across scales → smooth drive → "flow"
-    → = MISALIGNMENT → "bận rộn mà không đi đâu"
-      (micro-anchors chạy nhưng KHÔNG NỐI vào life-anchor)
+    → = MISALIGNMENT → "busy going nowhere"
+      (micro-anchors firing but NOT connecting to the life-anchor)
 
   🟢 Goal hierarchy = established (Carver & Scheier 1998, control theory)
   🟢 PFC maintains goal representations → bias processing (Miller & Cohen 2001)
   🟢 Global Workspace Theory: PFC broadcast → whole-brain sync (Baars 1988)
-  🟢 Predictive processing: PFC set high-level priors (Clark 2013, Friston)
-  🟡 "Anchor-Schema = bottom-up requirement" = framework concept mới
+  🟢 Predictive processing: PFC sets high-level priors (Clark 2013, Friston)
+  🟡 "Anchor-Schema = bottom-up requirement" = new framework concept
   🟡 "6-step flow" = framework model, derived from established components
-  🟡 "Bước ② = quan trọng nhất" = framework emphasis
+  🟡 "Step ② = most important" = framework emphasis
 ```
 
 ---
 
-## §2 — TRUST: LỰC KẾT DÍNH GIỮA HỆ THỐNG VÀ ANCHOR
+## §2 — TRUST: THE BINDING FORCE BETWEEN THE SYSTEM AND THE ANCHOR
 
 ```
-TRUST LÀ GÌ — FRAMEWORK DEFINITION:
+WHAT IS TRUST — FRAMEWORK DEFINITION:
 
-  Trust = Mức độ hệ thống (vô thức + PFC) COMMIT vào Anchor-Schema,
-          đủ để MAINTAIN sync qua dissonance.
+  Trust = The degree to which the system (unconscious + PFC) COMMITS to the Anchor-Schema,
+          enough to MAINTAIN sync through dissonance.
 
-  KHÔNG PHẢI:
-    ✗ Interpersonal trust (tin người) — đó là 1 DẠNG cụ thể
-    ✗ Blind faith (tin mù) — trust CÓ THỂ evidence-based
-    ✗ Ý chí / willpower (PFC-only) — trust PHẦN LỚN ở vô thức
-    ✗ Thuộc tính của Imagine-Final — trust thuộc về BINDING, không content
+  NOT:
+    ✗ Interpersonal trust (trusting a person) — that is 1 specific manifestation
+    ✗ Blind faith (trusting blindly) — trust CAN be evidence-based
+    ✗ Willpower (PFC-only) — trust is MOSTLY in the unconscious
+    ✗ An attribute of Imagine-Final — trust belongs to BINDING, not content
 
-  LÀ:
-    ○ BINDING FORCE giữa hệ thống và Anchor-Schema
-    ○ = "Neo NÀY CHẮC cỡ nào?" (neo chắc → tàu giữ; neo lỏng → tàu trôi)
-    ○ Phần lớn VÔ THỨC (compiled trust = body-level, không cần PFC deliberate)
-    ○ CÓ THỂ conscious (PFC evaluate và chọn trust)
-    ○ THAY ĐỔI theo thời gian (build, break, rebuild)
+  IS:
+    ○ BINDING FORCE between the system and the Anchor-Schema
+    ○ = "How SECURE is this anchor?" (secure anchor → ship holds; loose anchor → ship drifts)
+    ○ Mostly UNCONSCIOUS (compiled trust = body-level, no PFC deliberation needed)
+    ○ CAN BE conscious (PFC evaluates and chooses to trust)
+    ○ CHANGES over time (builds, breaks, rebuilds)
 
-  METAPHOR DÀN NHẠC:
-    → Anchor-Schema = main player (BÀI nhạc nào)
-    → Trust = ÂM LƯỢNG main player (TO cỡ nào)
-    → Trust CAO → main player TO → cả dàn nhạc NGHE RÕ → sync TỐT
-    → Trust THẤP → main player NHỎ → dàn nhạc NGHE MỜ → sync YẾU
-    → Trust = 0 → main player TẮT → dàn nhạc mất sync → cacophony
-
-
-ANCHOR STRENGTH — ĐỘ SÂU COMPILED TRONG VÔ THỨC:
-
-  Trust (ở trên) = TỔNG binding (conscious PFC commit + unconscious compiled)
-  Anchor Strength = CỤ THỂ: schema NÀY compiled SÂU cỡ nào trong vô thức?
-  = STATE VARIABLE — snapshot tại 1 thời điểm, THAY ĐỔI liên tục
-
-  3 MỨC:
-
-    MỜ NHẠT (schema vừa mới hình thành):
-      → Vừa nghe ý tưởng → "hay đấy nhỉ" → schema mới, chưa compiled
-      → Fire RẤT YẾU → dễ bị override bởi schema khác mạnh hơn
-      → VD: đọc bài về startup → "mình cũng thử?" → mờ, chưa anchor
-      → = PFC cần HOLD active liên tục → tốn bandwidth
-
-    ĐANG BUILD (schema tích lũy dần):
-      → Nghĩ nhiều lần + thử nhỏ + kết quả partial → fire MẠNH HƠN
-      → VD: 3 tháng research + prototype → "có vẻ được" → đang build
-      → = Chưa compiled deep nhưng có momentum → PFC vẫn cần support
-
-    COMPILED (schema đã sâu, tự fire):
-      → Không cần PFC hold → vô thức TỰ fire → auto-anchor
-      → VD: Jensen Huang 2024: "GPU = AI" = compiled CỰC SÂU
-      → VD: "Tiếng gọi" = compiled deep từ body-base confirm nghìn lần
-      → = PFC KHÔNG CẦN deliberate → energy thấp → sustainable
-
-  3 CON ĐƯỜNG TĂNG ANCHOR STRENGTH:
-    ① Internal: suy nghĩ + trải nghiệm → fire nhiều lần → dần compiled
-    ② External install: bố mẹ, xã hội, tôn giáo repeat → compile vào vô thức
-    ③ PFC hold → vài tháng body confirm → vô thức ĐỒNG Ý → compiled
-    → = Map vào 4 nguồn (§3): ① = nguồn ①+③, ② = nguồn ④, ③ = nguồn ①→③
-
-  GIẢM:
-    → Domain feedback ✗ → weaken
-    → Competing schema mạnh hơn → override
-    → Thời gian không fire → fade (decay)
+  ORCHESTRA METAPHOR:
+    → Anchor-Schema = main player (WHICH piece is playing)
+    → Trust = VOLUME of the main player (HOW LOUD)
+    → Trust HIGH → main player LOUD → whole orchestra HEARS clearly → sync GOOD
+    → Trust LOW → main player QUIET → orchestra HEARS faintly → sync WEAK
+    → Trust = 0 → main player SILENT → orchestra loses sync → cacophony
 
 
-COST — ANCHOR CẦN MẠNH BAO NHIÊU ĐỂ HOLD?
+ANCHOR STRENGTH — DEPTH COMPILED IN THE UNCONSCIOUS:
 
-  §1 nguyên tắc: "Anchor strength ≥ dissonance level → SYNC ĐỦ"
-  REFINE: dissonance level ≈ f(COST)
+  Trust (above) = TOTAL binding (conscious PFC commit + unconscious compiled)
+  Anchor Strength = SPECIFICALLY: how DEEP is THIS schema compiled in the unconscious?
+  = STATE VARIABLE — a snapshot at 1 point in time, CHANGES continuously
 
-  Cost = TỔNG chi phí để Anchor-Schema dẫn tới kết quả:
-    → Time: thời gian invest
-    → Energy: body-base resources tiêu hao (cortisol, PFC bandwidth)
-    → Risk: xác suất MẤT nếu fail (tiền, status, relationship, health)
-    → Opportunity cost: cái KHÁC phải BỎ để pursue anchor này
-    → Dissonance accumulated: tổng "khó chịu" phải CHỊU dọc đường
+  3 LEVELS:
 
-  → Cost KHÔNG = temporal (thời gian):
-    → Short + high cost: nhảy việc = 1 ngày quyết định nhưng risk CỰC LỚN
-    → Long + low cost: đọc sách mỗi tối = nhiều năm nhưng mỗi tối cost NHỎ
-    → = Time NẰM TRONG cost, nhưng cost RỘNG HƠN
+    FAINT (schema just newly formed):
+      → Just heard an idea → "that's interesting" → new schema, not yet compiled
+      → Fires VERY WEAKLY → easily overridden by other stronger schemas
+      → Example: reads an article about startups → "maybe I should try?" → faint, not yet an anchor
+      → = PFC needs to HOLD it actively → costs bandwidth
 
-  PHỔ COST:
+    BUILDING (schema accumulating gradually):
+      → Thought about it multiple times + small experiments + partial results → fires MORE STRONGLY
+      → Example: 3 months of research + prototype → "seems viable" → building
+      → = Not yet compiled deep but has momentum → PFC still needs to support
 
-    Cost ≈ 0: "bài toán đơn giản → làm được ngay"
-      → Trust cần: GẦN NHƯ KHÔNG (vì dissonance ≈ 0)
-      → = Anchor activate → execute → done → không kịp nghĩ tới "niềm tin"
+    COMPILED (schema deep, self-firing):
+      → No PFC hold needed → unconscious FIRES ON ITS OWN → auto-anchor
+      → Example: Jensen Huang 2024: "GPU = AI" = compiled EXTREMELY DEEP
+      → Example: "Calling" = compiled deep from thousands of body-base confirms
+      → = PFC does NOT need to deliberate → low energy → sustainable
 
-    Cost THẤP: "học xong bài → được chơi game"
-      → Trust cần: NHẸ (vài giờ effort, reward rõ)
+  3 PATHWAYS TO INCREASE ANCHOR STRENGTH:
+    ① Internal: thinking + experience → fire many times → gradually compiled
+    ② External install: parents, society, religion repeat → compiles into unconscious
+    ③ PFC holds → months of body confirmation → unconscious AGREES → compiled
+    → = Map onto 4 sources (§3): ① = sources ①+③, ② = source ④, ③ = source ①→③
 
-    Cost TRUNG BÌNH: "học xong khóa → có skill"
-      → Trust cần: KHÁ (vài tháng effort, reward delayed)
+  DECREASE:
+    → Domain feedback ✗ → weakens
+    → Competing schema stronger → overrides
+    → Time without firing → fades (decay)
 
-    Cost CAO: "build startup → product-market fit"
-      → Trust cần: MẠNH (năm effort + tiền + health + relationship risk)
 
-    Cost CỰC CAO: "Einstein → unified physics" / "Musk → Mars"
-      → Trust cần: CỰC MẠNH hoặc compiled deep hoặc faith
-      → = Cost CÓ THỂ = cả đời + KHÔNG CHẮC ĐẠT
+COST — HOW STRONG MUST AN ANCHOR BE TO HOLD?
 
-  ⭐ NGUYÊN TẮC: Trust ≥ Cost → anchor HOLD; Trust < Cost → anchor COLLAPSE
+  §1 principle: "Anchor strength ≥ dissonance level → SYNC HOLDS"
+  REFINED: dissonance level ≈ f(COST)
 
-    → Cost CAO + Trust CAO → anchor HOLD qua dissonance lớn
-      VD: founder chịu 3 năm lỗ vì trust "product sẽ fit"
-    → Cost CAO + Trust THẤP → anchor COLLAPSE sớm
-      VD: "muốn đổi nghề nhưng risk quá lớn... thôi"
-    → Cost THẤP + Trust THẤP → VẪN OK (vì không cần trust mạnh)
-      VD: "thử nấu món mới" → fail cũng không sao
-    → = Cost QUYẾT ĐỊNH "anchor CẦN MẠNH bao nhiêu"
+  Cost = TOTAL cost for the Anchor-Schema to lead to its result:
+    → Time: time invested
+    → Energy: body-base resources consumed (cortisol, PFC bandwidth)
+    → Risk: probability of LOSS if it fails (money, status, relationships, health)
+    → Opportunity cost: what ELSE must be given up to pursue this anchor
+    → Accumulated dissonance: total "difficulty" that must be ENDURED along the way
+
+  → Cost is NOT = temporal (time):
+    → Short + high cost: changing jobs = 1-day decision but ENORMOUS risk
+    → Long + low cost: reading every evening = many years but each evening's cost is SMALL
+    → = Time is CONTAINED WITHIN cost, but cost is BROADER
+
+  COST SPECTRUM:
+
+    Cost ≈ 0: "simple problem → can do it right now"
+      → Trust needed: ALMOST NONE (because dissonance ≈ 0)
+      → = Anchor activates → executes → done → no time to even think about "faith"
+
+    LOW cost: "finish studying → get to play video games"
+      → Trust needed: LIGHT (a few hours of effort, clear reward)
+
+    MODERATE cost: "complete the course → have the skill"
+      → Trust needed: FAIR (months of effort, delayed reward)
+
+    HIGH cost: "build startup → product-market fit"
+      → Trust needed: STRONG (years of effort + money + health + relationship risk)
+
+    EXTREME cost: "Einstein → unified physics" / "Musk → Mars"
+      → Trust needed: EXTREMELY STRONG or compiled deep or faith
+      → = Cost CAN equal a whole lifetime + NO GUARANTEE of achieving it
+
+  ⭐ PRINCIPLE: Trust ≥ Cost → anchor HOLDS; Trust < Cost → anchor COLLAPSES
+
+    → High cost + High trust → anchor HOLDS through great dissonance
+      Example: founder endures 3 years of losses because they trust "product will fit"
+    → High cost + Low trust → anchor COLLAPSES early
+      Example: "want to change careers but the risk is too big... forget it"
+    → Low cost + Low trust → STILL OK (because no strong trust is needed)
+      Example: "try a new recipe" → if it fails, no big deal
+    → = Cost DETERMINES "how strong the anchor needs to be"
 
   🟡 "Trust ≥ Cost" = framework principle
   🟡 Cost = composite (time × risk × opportunity × dissonance) = framework model
-  🟡 Anchor Strength = unconscious depth snapshot = refine Trust concept
+  🟡 Anchor Strength = unconscious depth snapshot = refinement of Trust concept
 
 
-TẠI SAO TRUST KHÁC CLARITY VÀ QUALITY:
+WHY TRUST DIFFERS FROM CLARITY AND QUALITY:
 
-  3 CHIỀU ĐỘC LẬP CỦA IMAGINE-FINAL → ANCHOR-SCHEMA:
+  3 INDEPENDENT DIMENSIONS OF IMAGINE-FINAL → ANCHOR-SCHEMA:
 
-    CHIỀU 1 — CLARITY (Imagine-Final.md):
-      = "Imagine-Final RÕ đến đâu?"
-      = Body simulate VIVID cỡ nào?
-      = Phổ: Wish (0%) → Obsession (100%)
-      = Đo: 14 ngưỡng, body fidelity
+    DIMENSION 1 — CLARITY (Imagine-Final.md):
+      = "How CLEAR is the Imagine-Final?"
+      = How VIVID is the body simulation?
+      = Spectrum: Wish (0%) → Obsession (100%)
+      = Measured by: 14 thresholds, body fidelity
 
-    CHIỀU 2 — QUALITY (Imagine-Final-Evaluation.md):
-      = "Hướng đi TỐT hay XẤU?"
+    DIMENSION 2 — QUALITY (Imagine-Final-Evaluation.md):
+      = "Is the direction GOOD or BAD?"
       = Domain fit? Hardware fit?
-      = Phổ: Fantasy → Delusion → Mismatch → Sweet Spot
-      = Đo: 2 trục, domain feedback, body signals
+      = Spectrum: Fantasy → Delusion → Mismatch → Sweet Spot
+      = Measured by: 2 axes, domain feedback, body signals
 
-    CHIỀU 3 — TRUST (file NÀY):
-      = "COMMIT bao nhiêu?"
-      = Hệ thống BIND chặt cỡ nào vào anchor?
-      = Phổ: 0 (không bind) → ∞ (unfalsifiable faith)
-      = Đo: hành vi khi gặp dissonance
-        (dừng ngay = trust thấp; chịu đựng lâu = trust cao)
+    DIMENSION 3 — TRUST (THIS file):
+      = "How much COMMITMENT?"
+      = How tightly does the system BIND to the anchor?
+      = Spectrum: 0 (no bind) → ∞ (unfalsifiable faith)
+      = Measured by: behavior when dissonance hits
+        (stops immediately = low trust; endures for a long time = high trust)
 
-  3 CHIỀU ĐỘC LẬP — CHỨNG MINH:
+  3 DIMENSIONS ARE INDEPENDENT — PROOF:
 
-    Clarity CAO + Quality ✓ + Trust CAO = MẠNH NHẤT:
-      → Jensen Huang 2024: THẤY GPU future (rõ) + domain ✓ + commit 100%
-      → = Full sync → 30 năm consistent → NVIDIA
+    High Clarity + Good Quality + High Trust = STRONGEST:
+      → Jensen Huang 2024: SEES GPU future clearly (clarity) + domain ✓ + 100% committed
+      → = Full sync → 30 years consistent → NVIDIA
 
-    Clarity CAO + Quality ✓ + Trust THẤP = "BIẾT NHƯNG KHÔNG DÁM":
-      → "Tôi THẤY rõ mình nên đổi nghề" (clarity) + domain ✓ (quality)
-        + "nhưng chắc không được đâu..." (trust thấp)
-      → = Imagine-Final CÓ, Anchor-Schema KHÔNG HÌNH THÀNH
+    High Clarity + Good Quality + Low Trust = "SEES IT BUT DOESN'T DARE":
+      → "I CLEARLY see I should change careers" (clarity) + domain ✓ (quality)
+        + "but I probably can't..." (low trust)
+      → = Imagine-Final exists, Anchor-Schema DOES NOT FORM
       → = Imposter syndrome, self-doubt
 
-    Clarity THẤP + Quality ? + Trust CAO = "TIN DÙ CHƯA THẤY":
-      → Tín đồ tôn giáo: KHÔNG thấy thiên đàng rõ (clarity thấp)
-        + domain ? (unfalsifiable) + TIN TUYỆT ĐỐI (trust ∞)
-      → = Anchor-Schema MẠNH dù Imagine-Final MỜ
+    Low Clarity + ? Quality + High Trust = "BELIEVES WITHOUT SEEING":
+      → Religious devotee: DOESN'T see heaven clearly (low clarity)
+        + domain ? (unfalsifiable) + ABSOLUTE FAITH (trust ∞)
+      → = Anchor-Schema STRONG even though Imagine-Final is FUZZY
       → = Faith, calling, gut conviction
 
-    Clarity CAO + Quality ✗ + Trust CAO = NGUY HIỂM NHẤT:
-      → Cult leader: vision RÕ + domain SAI + commit 100%
-      → = Dàn nhạc sync MẠNH nhưng hướng HOÀN TOÀN SAI
-      → = Delusion + high trust = chạy lâu + sai hướng + không dừng được
+    High Clarity + Poor Quality + High Trust = MOST DANGEROUS:
+      → Cult leader: vision is CLEAR + domain WRONG + 100% committed
+      → = Orchestra syncs STRONGLY but in the COMPLETELY WRONG direction
+      → = Delusion + high trust = runs for a long time + wrong direction + can't stop
 
 
-PHỔ TRUST — TỪ MICRO TỚI VÔ HẠN:
+TRUST SPECTRUM — FROM MICRO TO INFINITE:
 
-  ┌──────────────────────────────────────────────────────────────────┐
-  │                                                                  │
-  │ TRUST = 0          TRUST THẤP       TRUST VỪA        TRUST CAO │
-  │ "không bind"       "mờ nhạt"        "đủ dùng"        "mạnh"    │
-  │                                                                  │
-  │ Anchor: KHÔNG      Anchor: CÓ       Anchor: CÓ       Anchor:   │
-  │ Dàn nhạc: tự chơi nhưng yếu,        ổn, maintain    MẠNH,     │
-  │ → cacophony        dễ mất khi       qua dissonance   chịu được │
-  │ → "chán/lost"      dissonance nhẹ   vừa              dissonance│
-  │                                                       lớn       │
-  │                                                                  │
-  │ VD: không biết     VD: "thử xem     VD: "tôi tin     VD: Jensen│
-  │ muốn gì           sao, chưa chắc"  hướng này đúng"  Huang +GPU│
-  │                                                                  │
-  │                                                     TRUST → ∞  │
-  │                                                     "vô điều   │
-  │                                                      kiện"      │
-  │                                                                  │
-  │                                                     VD: tôn giáo│
-  │                                                     unfalsifiable│
-  │                                                     → trust     │
-  │                                                     KHÔNG THỂ   │
-  │                                                     bị phá bởi  │
-  │                                                     domain      │
-  │                                                     feedback    │
-  └──────────────────────────────────────────────────────────────────┘
+  ┌─────────────┬──────────────┬───────────────┬────────────────────────┐
+  │ TRUST = 0   │ TRUST LOW    │ TRUST MODERATE│ TRUST HIGH             │
+  │ "no bind"   │ "faint"      │ "functional"  │ "strong"               │
+  │             │              │               │                        │
+  │ Anchor: NONE│ Anchor: YES  │ Anchor: YES   │ Anchor: STRONG         │
+  │ Orchestra:  │ but weak,    │ stable,        │ holds through          │
+  │ plays freely│ loses on     │ maintains      │ major                  │
+  │ → cacophony │ light        │ through        │ dissonance             │
+  │ → "boredom/ │ dissonance   │ moderate                               │
+  │ lost"       │              │ dissonance                             │
+  │             │              │               │                        │
+  │ Example:    │ Example:     │ Example: "I   │ Example: Jensen        │
+  │ don't know  │ "let's see,  │ trust this    │ Huang + GPU            │
+  │ what I want │ not sure"    │ direction"    │                        │
+  │             │              │               │ TRUST → ∞              │
+  │             │              │               │ "unconditional"        │
+  │             │              │               │                        │
+  │             │              │               │ Example: religion      │
+  │             │              │               │ unfalsifiable →        │
+  │             │              │               │ trust CANNOT be        │
+  │             │              │               │ broken by domain       │
+  │             │              │               │ feedback               │
+  └─────────────┴──────────────┴───────────────┴────────────────────────┘
 
 
 TRUST DYNAMICS — BUILD, BREAK, REBUILD:
 
-  ── BUILD (trust TĂNG) ──
+  ── BUILD (trust INCREASES) ──
 
-    ① Domain feedback tích cực (results confirm):
-      → Anchor "build startup" → MVP launch → users tới → trust TĂNG
-      → = "Đúng hướng thật" → body confirm → bind CHẶT hơn
-      → = Cách BUILD TRUST BỀN NHẤT (evidence-based)
+    ① Positive domain feedback (results confirm):
+      → Anchor "build startup" → MVP launch → users arrive → trust INCREASES
+      → = "We're on the right track" → body confirms → binding TIGHTENS
+      → = THE MOST SUSTAINABLE WAY TO BUILD TRUST (evidence-based)
 
-    ② Body-base confirm (feel đúng):
-      → Mỗi ngày làm việc → body reward → "xứng đáng"
-      → = Body-base nói "ĐÚNG" → trust tăng ở UNCONSCIOUS level
-      → = Tại sao "trải nghiệm" build trust hơn "nghĩ"
+    ② Body-base confirmation (feels right):
+      → Each day working → body reward → "worth it"
+      → = Body says "YES" → trust rises at the UNCONSCIOUS level
+      → = Why "experience" builds trust more than "thinking"
 
-    ③ Repetition → compile (lặp lại → compiled deep):
-      → Ritual, habit, routine → schema compile → trust IMPLICIT
-      → Không cần PFC deliberate → body TỰ trust
-      → VD: tôn giáo ritual hàng tuần → trust compiled deep
-      → VD: daily routine "dậy → code → ship" → trust compiled
+    ③ Repetition → compile (repeat → compiled deep):
+      → Ritual, habit, routine → schema compiles → trust IMPLICIT
+      → No PFC deliberation needed → body TRUSTS ON ITS OWN
+      → Example: weekly religious ritual → trust compiled deep
+      → Example: daily routine "wake up → code → ship" → trust compiled
 
-    ④ Social reinforcement (người khác cùng trust):
-      → "Mọi người cũng tin" → trust CỦA MÌNH tăng
+    ④ Social reinforcement (others also trust):
+      → "Everyone believes it too" → MY trust increases
       → = Mirror neurons + social proof → amplify
-      → VD: startup team cùng tin vision → trust NHÂN LÊN
-      → VD: giáo đoàn cùng cầu nguyện → trust NHÂN LÊN
+      → Example: startup team all believes in the vision → trust MULTIPLIES
+      → Example: congregation praying together → trust MULTIPLIES
 
-  ── BREAK (trust GIẢM / MẤT) ──
+  ── BREAK (trust DECREASES / LOST) ──
 
-    ① Domain feedback tiêu cực (results ✗):
-      → Anchor "startup" → 12 tháng → 0 users → trust GIẢM DẦN
-      → = "Hình như sai hướng" → body doubt → bind LỎNG
-      → ⚠️ NHƯNG: rationalize CÓ THỂ CHỐNG domain feedback
-        → "Market chưa sẵn sàng" → giữ trust dù feedback ✗
+    ① Negative domain feedback (results ✗):
+      → Anchor "startup" → 12 months → 0 users → trust GRADUALLY DECREASES
+      → = "Seems like the wrong direction" → body doubts → binding LOOSENS
+      → ⚠️ BUT: rationalization CAN RESIST domain feedback
+        → "The market isn't ready yet" → maintains trust despite ✗ feedback
         → = Delusion mechanism (Imagine-Final-Evaluation.md §4)
 
-    ② Body-base reject (feel sai):
-      → Hàng ngày làm → body drain → "không xứng"
-      → = Body nói "SAI" → trust giảm ở unconscious level
-      → = Meaningless dissonance (≠ task khó) → trust erode
+    ② Body-base rejection (feels wrong):
+      → Each day at work → body drains → "not worth it"
+      → = Body says "WRONG" → trust decreases at the unconscious level
+      → = Meaningless dissonance (≠ just a hard task) → trust erodes
 
-    ③ Trust violation (promise break):
-      → "Bố hứa mua đồ chơi" → cuối tuần KHÔNG mua
-      → = Trust BREAK → không chỉ cho event NÀY
-        → Schema "bố hứa → bố làm" BỊ DAMAGE
-        → Lần sau bố hứa → trust THẤP hơn
-      → = Trust violation → RIPPLE EFFECT lên related schemas
+    ③ Trust violation (promise breaks):
+      → "Dad promised to buy a toy" → end of the week — DIDN'T
+      → = Trust BREAKS → not just for THIS event
+        → Schema "dad promises → dad delivers" IS DAMAGED
+        → Next time dad promises → trust is LOWER
+      → = Trust violation → RIPPLE EFFECT onto related schemas
 
-    ④ Alternative exposure (thấy hướng khác tốt hơn):
-      → Đang trust Anchor A → thấy option B HẤP DẪN hơn
-      → = Trust vào A GIẢM (relative, dù A không thay đổi)
-      → VD: đang yên ổn ở công ty → thấy bạn startup thành công
-        → Trust vào "career ổn định" GIẢM (dù situation không đổi)
-      → = Modern MXH: exposure liên tục → trust EXISTING anchor liên tục bị test
+    ④ Exposure to alternatives (sees a better option):
+      → Currently trusting Anchor A → sees option B is MORE APPEALING
+      → = Trust in A DECREASES (relative, even if A hasn't changed)
+      → Example: comfortable at a company → sees a friend's startup succeed
+        → Trust in "stable career" DECREASES (even though situation hasn't changed)
+      → = Modern social media: constant exposure → existing anchor trust constantly tested
 
-  ── REBUILD (trust sau khi break) ──
+  ── REBUILD (trust after it breaks) ──
 
-    → Trust break → CÓ THỂ rebuild NHƯNG chậm hơn build lần đầu
-    → "Đã bị phản bội 1 lần" → threshold HIGHER cho trust lại
-    → Cần: domain feedback ✓ NHIỀU LẦN + body confirm NHIỀU LẦN
-    → = "Tin tưởng lại" = rebuild schema "X đáng tin" từ damaged
-    → = Tại sao second chance CẦN THỜI GIAN + HÀNH ĐỘNG, không chỉ lời nói
+    → Trust breaks → CAN be rebuilt BUT more slowly than the first time
+    → "Already been betrayed once" → threshold for trusting again is HIGHER
+    → Requires: domain feedback ✓ MANY TIMES + body confirms MANY TIMES
+    → = "Trusting again" = rebuilding the schema "X is trustworthy" from damaged state
+    → = Why a second chance TAKES TIME + ACTION, not just words
 
 
-TRUST POSITIVE vs TRUST NEGATIVE:
+POSITIVE TRUST vs NEGATIVE TRUST:
 
-  ── POSITIVE TRUST — "Tôi tin reward PHÍA TRƯỚC" ──
+  ── POSITIVE TRUST — "I believe the reward is AHEAD" ──
 
-    → Trust VÀO: kết quả TỐT sẽ tới nếu tiếp tục
-    → Anchor-Schema: hướng TỚI cái hay
-    → Body feeling khi dissonance: "khó nhưng XỨNG"
-    → Reward khi đạt: body opioid → "xứng đáng" → melody smooth
-    → Sustainable: CÓ (reward per step → trust reinforce → cycle)
+    → Trust IN: good results will come if you keep going
+    → Anchor-Schema: direction TOWARD something good
+    → Body feeling during dissonance: "hard but WORTH IT"
+    → Reward when achieved: body opioid → "earned it" → melody smooth
+    → Sustainable: YES (reward per step → trust reinforces → cycle)
 
-    VD:
-      → "Cuối tuần bố mua ô tô đồ chơi" → trust positive
-        → Dissonance (bài tập) → chịu vì reward rõ phía trước
-      → "Build product → users yêu thích" → trust positive
-        → Dissonance (code khó) → chịu vì vision rõ
-      → "Thuận vợ thuận chồng → gia đình hạnh phúc" → trust positive
-        → Dissonance (vất vả) → chịu vì trust vào nhau
+    Examples:
+      → "Dad will buy a toy car at the weekend" → positive trust
+        → Dissonance (homework) → endured because the reward is clear ahead
+      → "Build the product → users will love it" → positive trust
+        → Dissonance (hard code) → endured because the vision is clear
+      → "Working together → family happiness" → positive trust
+        → Dissonance (hardship and toil) → endured because of trust in each other
 
-  ── NEGATIVE TRUST — "Tôi tin sẽ TRÁNH ĐƯỢC harm" ──
+  ── NEGATIVE TRUST — "I believe I'll be ABLE TO AVOID harm" ──
 
-    → Trust VÀO: nếu làm → sẽ KHÔNG BỊ hại
-    → Anchor-Schema: TRÁNH XA cái dở (không hướng TỚI cái hay)
-    → Body feeling khi dissonance: "khó, nhưng nếu dừng sẽ TỆ HƠN"
-    → Reward khi đạt: threat resolved → cortisol RÚT DẦN → relief → "phù, thoát"
-      (KHÔNG phải opioid "xứng" — mà relief from threat cessation = "hết đau")
-    → Sustainable: KÉM (relief = diminishing, cần threat TĂNG DẦN)
+    → Trust IN: if I do this → I will NOT be harmed
+    → Anchor-Schema: AWAY FROM something bad (NOT toward something good)
+    → Body feeling during dissonance: "hard, but if I stop it will be WORSE"
+    → Reward when achieved: threat resolved → cortisol GRADUALLY SUBSIDES → relief → "phew, escaped it"
+      (NOT opioid "earned it" — but relief from threat cessation = "pain stops")
+    → Sustainable: POOR (relief is diminishing, requires ESCALATING threat)
 
-    VD:
-      → "Không học thì mẹ mắng" → trust negative
-        → Dissonance (bài tập) → chịu vì SỢ harm
-        → Xong → "phù, mẹ không giận" (relief, không phải "xứng")
-      → "Không học thì bị đánh" → trust negative MẠNH hơn
-        → Dissonance → chịu vì SỢ đau (survival trust)
-        → Xong → "không bị đánh" (relief cực mạnh nhưng KHÔNG positive)
+    Examples:
+      → "If I don't study, mom will scold me" → negative trust
+        → Dissonance (homework) → endured out of FEAR of harm
+        → Finished → "phew, mom's not angry" (relief, not "earned it")
+      → "If I don't study, I'll get beaten" → stronger negative trust
+        → Dissonance → endured out of FEAR of pain (survival trust)
+        → Finished → "didn't get beaten" (extremely strong relief but NOT positive)
 
-  ── SO SÁNH ──
+  ── COMPARISON ──
 
     ┌──────────────────┬──────────────────┬──────────────────────┐
     │                  │ POSITIVE TRUST   │ NEGATIVE TRUST       │
     ├──────────────────┼──────────────────┼──────────────────────┤
-    │ Trust vào        │ Reward phía trước│ Tránh harm           │
-    │ Anchor hướng     │ TỚI cái hay     │ TRÁNH XA cái dở     │
-    │ Dissonance feel  │ "Khó nhưng xứng"│ "Khó, nhưng nếu     │
-    │                  │                  │  dừng sẽ tệ hơn"    │
-    │ Reward type      │ Opioid ("pleasant")│ Relief ("hết đau")  │
-    │ Sustainable      │ CÓ (reinforce)  │ KÉM (diminishing)    │
-    │ Body-base long   │ Melody smooth   │ Neural wear           │
-    │ term             │                  │ (cortisol chronic)   │
-    │ Ref              │ Novelty reward   │ Threat relief reward │
+    │ Trust in         │ Reward ahead     │ Avoiding harm        │
+    │ Anchor direction │ TOWARD something │ AWAY FROM something  │
+    │                  │ good             │ bad                  │
+    │ Dissonance feel  │ "Hard but worth  │ "Hard, but if I      │
+    │                  │ it"              │ stop it'll be worse" │
+    │ Reward type      │ Opioid ("earned")│ Relief ("pain stops")│
+    │ Sustainable      │ YES (reinforces) │ POOR (diminishing)   │
+    │ Body long-term   │ Melody smooth    │ Neural wear          │
+    │                  │                  │ (chronic cortisol)   │
+    │ Reference        │ Novelty reward   │ Threat relief reward │
     │                  │ (Novelty.md)     │ (Threat.md §3)       │
     └──────────────────┴──────────────────┴──────────────────────┘
 
-    → CẢ HAI đều LÀ trust → CẢ HAI tạo Anchor-Schema → CẢ HAI sync dàn nhạc
-    → NHƯNG: output KHÁC (melody vs neural wear)
-    → = "Con nghe lời vì SỢ" vs "Con nghe lời vì MUỐN"
-    →   Cả 2 đều "nghe lời" → khác ở body-base cost dài hạn
+    → BOTH are trust → BOTH create Anchor-Schema → BOTH sync the orchestra
+    → BUT: outputs are DIFFERENT (melody vs neural wear)
+    → = "Children obeying out of FEAR" vs "Children obeying because they WANT TO"
+    →   Both "obey" → difference is in the long-term body-base cost
 
-    ⚠️ NUANCE: phần lớn trust = MIX positive + negative:
-      → Sinh viên ra trường: trust "thoát nghèo" (negative)
-        + trust "chứng minh giá trị" (positive) → MIX
+    ⚠️ NUANCE: most real trust = MIX of positive + negative:
+      → Fresh graduate: trust "escape poverty" (negative)
+        + trust "prove self-worth" (positive) → MIX
       → Startup founder: trust "product vision" (positive)
-        + trust "hết tiền nếu dừng" (negative) → MIX
-      → = Thuần positive hoặc thuần negative = HIẾM
-      → = Đánh giá: tỉ lệ positive/negative → predict sustainability
+        + trust "money runs out if I stop" (negative) → MIX
+      → Pure positive or pure negative = RARE
+      → = Assessment: positive/negative RATIO → predicts sustainability
 
 
-CÁCH CHECK TRUST LEVEL:
+HOW TO CHECK TRUST LEVEL:
 
-  HÀNH VI KHI GẶP DISSONANCE = measurement TỐT NHẤT:
+  BEHAVIOR WHEN FACING DISSONANCE = BEST MEASUREMENT:
 
-    Trust CAO:
-      → Gặp khó → vẫn làm → "biết sẽ qua"
-      → Feedback tiêu cực → absorb + adjust → KHÔNG bỏ
-      → Mất ngủ 1 đêm vì khó → sáng vẫn làm (anchor hold)
+    Trust HIGH:
+      → Encounters difficulty → still does it → "knows it will pass"
+      → Receives negative feedback → absorbs + adjusts → does NOT quit
+      → Loses 1 night of sleep due to difficulty → still works the next morning (anchor holds)
 
-    Trust VỪA:
-      → Gặp khó → do dự → "chắc không?" → rồi làm
-      → Feedback tiêu cực → wobble → cần reinforce (mentor, peer)
-      → = Anchor HOLD nhưng cần support
+    Trust MODERATE:
+      → Encounters difficulty → hesitates → "are you sure?" → then does it
+      → Receives negative feedback → wobbles → needs reinforcement (mentor, peer)
+      → = Anchor HOLDS but needs support
 
-    Trust THẤP:
-      → Gặp khó → "thôi, chắc không đúng đâu" → dừng
-      → Feedback tiêu cực → "ĐÚNG RỒI, SAI MÀ" → bỏ ngay
-      → = Anchor MẤTNGAY khi dissonance xuất hiện
+    Trust LOW:
+      → Encounters difficulty → "forget it, probably not right" → stops
+      → Receives negative feedback → "EXACTLY, it was wrong" → quits immediately
+      → = Anchor LOST the moment dissonance appears
 
     Trust = 0:
-      → Không gặp khó cũng không làm (không có anchor để drive)
-      → = "Chán" / "lost" — không phải lazy
+      → Doesn't even act before encountering difficulty (no anchor to drive action)
+      → = "Boredom" / "lost" — not laziness
 
   BODY SIGNALS:
-    → Trust cao: body CALM khi nghĩ tới anchor (đã compiled → implicit)
-    → Trust thấp: body ANXIETY khi nghĩ tới anchor ("chắc không đúng...")
-    → = Body PHẢN ÁNH trust level chính xác hơn PFC self-report
-    → = "Tôi NÓI tôi tin" ≠ "body TÔI tin" (có thể khác nhau)
+    → High trust: body CALM when thinking about the anchor (already compiled → implicit)
+    → Low trust: body ANXIETY when thinking about the anchor ("probably not right...")
+    → = Body REFLECTS trust level MORE ACCURATELY than PFC self-report
+    → = "I SAY I trust" ≠ "my BODY trusts" (they can differ)
 
-  🟢 Self-efficacy → persistence (Bandura 1977) = trust → anchor hold
+  🟢 Self-efficacy → persistence (Bandura 1977) = trust → anchor holds
   🟢 Commitment → goal attainment (Locke & Latham 1990)
   🟢 Intrinsic vs extrinsic motivation outcomes (SDT: Deci & Ryan 2000)
     = positive trust vs negative trust distinction
   🟢 Trust violation → ripple effect = trust repair research (Kim et al. 2004)
   🟢 Social proof → belief amplification (Cialdini 2001)
   🟢 Repetition → implicit learning / compiled (Reber 1993)
-  🟡 "Trust = binding force" = framework concept mới
-  🟡 "3 chiều độc lập" (Clarity × Quality × Trust) = framework model
+  🟡 "Trust = binding force" = new framework concept
+  🟡 "3 independent dimensions" (Clarity × Quality × Trust) = framework model
   🟡 Positive vs negative trust = framework mapping onto approach/avoidance
   🟡 Trust dynamics (build/break/rebuild) = framework compilation
-  🟡 "Body phản ánh trust chính xác hơn PFC self-report" = framework claim,
+  🟡 "Body reflects trust more accurately than PFC self-report" = framework claim,
      consistent with somatic marker hypothesis (Damasio 1994)
 ```
 
 ---
 
-## §3 — 4 NGUỒN FILL ANCHOR-SCHEMA
+## §3 — 4 SOURCES THAT FILL ANCHOR-SCHEMA
 
 ```
-ANCHOR-SCHEMA CẦN CONTENT — nhưng content TỪ ĐÂU?
+ANCHOR-SCHEMA NEEDS CONTENT — but where does the content come from?
 
-  §0 đã note: Imagine-Final (PFC) chỉ là 1 trong nhiều nguồn.
-  Section này: define 4 nguồn + đặc điểm + ví dụ mỗi nguồn.
+  §0 noted: Imagine-Final (PFC) is only 1 of many sources.
+  This section: defines all 4 sources + their characteristics + examples.
 
   ┌──────────────────────────────────────────────────────────────┐
   │                                                              │
-  │  4 NGUỒN FILL ANCHOR-SCHEMA:                                │
+  │  4 SOURCES THAT FILL ANCHOR-SCHEMA:                         │
   │                                                              │
-  │  ① PFC Imagine-Final (top-down, phong phú nhất)            │
+  │  ① PFC Imagine-Final (top-down, richest)                    │
   │  ② Hippocampus Simulation (mid-level, near-future)          │
-  │  ③ Compiled Schemas (bottom-up, mạnh nhất)                  │
-  │  ④ External Inject (outside-in, bypass PFC)                 │
+  │  ③ Compiled Schemas (bottom-up, strongest)                  │
+  │  ④ External Inject (outside-in, bypasses PFC)               │
   │                                                              │
-  │  Thứ tự KHÔNG phải priority — mà là NGUỒN KHÁC NHAU        │
-  │  Có thể NHIỀU nguồn fill CÙNG LÚC (reinforce hoặc conflict)│
+  │  The order is NOT priority — these are DIFFERENT SOURCES    │
+  │  Multiple sources CAN fill simultaneously (reinforcing OR   │
+  │  conflicting)                                               │
   │                                                              │
   └──────────────────────────────────────────────────────────────┘
 
 
 ═══════════════════════════════════════════════════════
-NGUỒN ① — PFC IMAGINE-FINAL (top-down)
+SOURCE ① — PFC IMAGINE-FINAL (top-down)
 ═══════════════════════════════════════════════════════
 
-  = PFC build Imagine-Final → body evaluate → nếu accept → thành Anchor
+  = PFC builds Imagine-Final → body evaluates → if accepted → becomes Anchor
 
-  ĐẶC ĐIỂM:
-    → PHONG PHÚ NHẤT: cross-domain, temporal xa, abstract
-    → CẦN PFC: không có PFC → không có nguồn này
-    → CHẬM: PFC cần thời gian simulate, evaluate, compare
-    → FLEXIBLE: PFC có thể build, adjust, discard, rebuild
-    → CONSCIOUS: PFC biết (ít nhất partially) đang anchor cái gì
+  CHARACTERISTICS:
+    → RICHEST: cross-domain, long temporal horizon, abstract
+    → REQUIRES PFC: without PFC → this source doesn't exist
+    → SLOW: PFC needs time to simulate, evaluate, compare
+    → FLEXIBLE: PFC can build, adjust, discard, rebuild
+    → CONSCIOUS: PFC knows (at least partially) what it's anchoring to
 
-  KHI NÀO NGUỒN NÀY ACTIVE:
-    → Tình huống MỚI (chưa có compiled schema match)
-    → Conflict giữa nhiều options (cần PFC so sánh)
+  WHEN THIS SOURCE IS ACTIVE:
+    → NEW situations (no compiled schema matches)
+    → Conflict between multiple options (PFC needs to compare)
     → Long-term decisions (career, relationship, life direction)
-    → = §1 Flow bước ③④ — khi bước ② (compiled) KHÔNG ĐỦ
+    → = §1 Flow steps ③④ — when step ② (compiled) is INSUFFICIENT
 
-  VÍ DỤ:
-    → "Tôi muốn build startup AI nhạc"
-      = PFC simulate cross-domain (AI + music + market)
-      = Body preview → "hay đấy" → trust build dần
-      = Imagine-Final → Anchor-Schema (nếu trust đủ)
+  EXAMPLES:
+    → "I want to build an AI music startup"
+      = PFC simulates cross-domain (AI + music + market)
+      = Body preview → "that's interesting" → trust gradually builds
+      = Imagine-Final → Anchor-Schema (if trust is sufficient)
 
-    → "Mình nên đổi nghề hay ở lại?"
-      = PFC simulate cả 2 options → compare
-      = Body preview mỗi option → feel nào mạnh hơn
-      = Option THẮNG → Anchor-Schema candidate
+    → "Should I change careers or stay?"
+      = PFC simulates both options → compares
+      = Body previews each option → which feel is stronger
+      = Winning option → Anchor-Schema candidate
 
-    → Sinh viên mới ra trường chọn career path
-      = PFC scan chunks (ngành nào? ở đâu? lương?)
-      = Simulate nhiều Imagine-Final → body evaluate
-      = CHỌN 1 → Anchor-Schema cho giai đoạn tới
+    → Fresh graduate choosing a career path
+      = PFC scans chunks (which industry? where? salary?)
+      = Simulates multiple Imagine-Finals → body evaluates
+      = CHOOSES one → Anchor-Schema for the next phase
 
-  HẠN CHẾ:
-    → CẦN chunks đủ (ít chunks → simulate MỜ → body KHÔNG confirm)
-    → CẦN PFC khỏe (mệt, stress → PFC kém → Imagine-Final kém)
-    → CẦN thời gian (PFC chậm → không instant)
-    → = Nguồn PHONG PHÚ nhưng CHẬM + ĐIỀU KIỆN nhiều
+  LIMITATIONS:
+    → NEEDS sufficient chunks (few chunks → fuzzy simulation → body can't confirm)
+    → NEEDS healthy PFC (tired, stressed → PFC weakens → Imagine-Final weakens)
+    → NEEDS time (PFC is slow → not instant)
+    → = The RICHEST source but SLOWEST + most CONDITIONAL
 
-  ⭐ FLOW CHI TIẾT — IMAGINE-FINAL → ANCHOR-SCHEMA:
+  ⭐ DETAILED FLOW — IMAGINE-FINAL → ANCHOR-SCHEMA:
 
-    Đây KHÔNG phải 1-step instant — mà là LIFECYCLE qua thời gian:
+    This is NOT a 1-step instant process — it is a LIFECYCLE over time:
 
-      PFC BUILD Imagine-Final (initial draft)
-          ↓ SAVE khi PFC switch task
-      Imagine-Final dormant trong storage (proto-schema state)
-          ↓ BACKGROUND processing (vô thức process related chunks)
-      RELOAD khi body trigger → có chunks mới → REFINE
-          ↓ Loop nhiều cycles
-      Imagine-Final dần "chín" — clarity tăng + body confirm liên tục
-          ↓ Đủ repetitions + domain feedback ✓
-      COMPILE thành Schema (vào vô thức deep)
-          ↓ Schema đủ mạnh
-      Trở thành ANCHOR-SCHEMA (auto-fire, không cần PFC hold)
+      PFC BUILDS Imagine-Final (initial draft)
+          ↓ SAVED when PFC switches tasks
+      Imagine-Final dormant in storage (proto-schema state)
+          ↓ BACKGROUND processing (unconscious processes related chunks)
+      RELOAD when body triggers → new chunks → REFINE
+          ↓ Multiple cycles loop
+      Imagine-Final gradually "ripens" — clarity increases + body confirms continuously
+          ↓ Sufficient repetitions + domain feedback ✓
+      COMPILED into Schema (into the unconscious, deep)
+          ↓ Schema strong enough
+      Becomes ANCHOR-SCHEMA (auto-fires, no PFC hold needed)
 
-    → = Imagine-Final → Anchor-Schema = QUÁ TRÌNH DÀI (tháng-năm)
-    → = KHÔNG phải PFC "decide" instant
-    → = Cần lifecycle (Imagine-Final.md §1.5) qua nhiều cycles
-    → = Jensen Huang ví dụ: 30 năm cycles → eventually compiled deep
+    → = Imagine-Final → Anchor-Schema = LONG PROCESS (months to years)
+    → = NOT a PFC "decides" instantly
+    → = Requires lifecycle (Imagine-Final.md §1.5) through many cycles
+    → = Jensen Huang example: 30 years of cycles → eventually compiled deep
 
   CROSS-REF: Imagine-Final.md §1.5 — Lifecycle 5 phases:
     BUILD → SAVE → BACKGROUND → RELOAD → REFINE → loop → eventually compile
 
 
 ═══════════════════════════════════════════════════════
-NGUỒN ② — HIPPOCAMPUS SIMULATION (mid-level)
+SOURCE ② — HIPPOCAMPUS SIMULATION (mid-level)
 ═══════════════════════════════════════════════════════
 
-  = Hippocampus recombine ký ức → tạo future scene → body evaluate → anchor
+  = Hippocampus recombines memories → creates future scene → body evaluates → anchor
 
-  ĐẶC ĐIỂM:
-    → NHANH HƠN PFC: hippocampus fire tự động, không cần deliberate
-    → KHÔNG CẦN PFC (hoạt động ở mammals không có PFC phức tạp)
-    → HẠN CHẾ: chỉ recombine CÁI ĐÃ CÓ (familiar elements)
-    → NEAR-FUTURE: phút → giờ → có thể ngày (không năm)
-    → VÔ THỨC: hippocampus simulate → body feel → KHÔNG verbal
+  CHARACTERISTICS:
+    → FASTER THAN PFC: hippocampus fires automatically, no deliberation needed
+    → NO PFC REQUIRED (operates in mammals without complex PFC)
+    → LIMITED: can only recombine WHAT ALREADY EXISTS (familiar elements)
+    → NEAR-FUTURE: minutes → hours → possibly days (not years)
+    → UNCONSCIOUS: hippocampus simulates → body feels → NO verbal label
 
-  KHI NÀO NGUỒN NÀY ACTIVE:
-    → Spatial navigation (tìm đường, về nhà)
+  WHEN THIS SOURCE IS ACTIVE:
+    → Spatial navigation (finding a way, heading home)
     → Familiar situations with slight variation
     → Immediate planning (maze, route, sequence)
-    → = "Đã từng ở tình huống TƯƠNG TỰ" → recombine → predict
+    → = "I've been in a SIMILAR situation before" → recombine → predict
 
-  VÍ DỤ:
-    → Chó đi lạc → hippocampus: spatial map "nhà ở hướng kia"
-      → Anchor-Schema: "về nhà" → toàn body sync → navigate
-      → KHÔNG CẦN PFC build Imagine-Final "về nhà"
-      → = Hippocampus TỰ fill anchor
+  EXAMPLES:
+    → A dog that wandered off → hippocampus: spatial map "home is in that direction"
+      → Anchor-Schema: "go home" → whole body syncs → navigates
+      → NO PFC needed to build Imagine-Final "go home"
+      → = Hippocampus FILLS the anchor on its own
 
-    → Chuột ở ngã ba maze → hippocampus preplay route A và route B
+    → Mouse at a maze junction → hippocampus "preplays" route A and route B
       (🟢 Pfeiffer & Foster 2013: place cells "preplay" future routes)
-      → Body evaluate preview mỗi route → chọn → anchor → chạy
+      → Body evaluates each route's preview → chooses → anchors → runs
 
-    → Người lái xe quen đường → hippocampus auto-route
-      → Anchor: "về nhà" → body auto drive → PFC đang nghĩ chuyện KHÁC
-      → = Hippocampus fill anchor cho navigation → free PFC
+    → Person driving a familiar route → hippocampus auto-routes
+      → Anchor: "get home" → body auto-drives → PFC is thinking about SOMETHING ELSE
+      → = Hippocampus fills anchor for navigation → frees PFC
 
-  HẠN CHẾ:
-    → CHỈ recombine familiar elements (không cross-domain MỚI)
-    → NEAR-FUTURE only (không simulate 10 năm)
-    → KHÔNG evaluate domain fit (không check "có thật không?")
-    → = Nguồn NHANH nhưng HẸP
+  LIMITATIONS:
+    → ONLY recombines familiar elements (can't cross-domain into truly new territory)
+    → NEAR-FUTURE only (can't simulate 10 years out)
+    → Does NOT evaluate domain fit (doesn't check "is this real?")
+    → = FAST source but NARROW
 
   🟢 Hippocampal preplay = Pfeiffer & Foster 2013
   🟢 Hippocampus necessary for imagination = Hassabis & Maguire 2007
@@ -786,189 +780,191 @@ NGUỒN ② — HIPPOCAMPUS SIMULATION (mid-level)
 
 
 ═══════════════════════════════════════════════════════
-NGUỒN ③ — COMPILED SCHEMAS (bottom-up, mạnh nhất)
+SOURCE ③ — COMPILED SCHEMAS (bottom-up, strongest)
 ═══════════════════════════════════════════════════════
 
-  = Schema compiled SÂU → TỰ THÀNH anchor → PFC KHÔNG CẦN chọn
+  = Schema compiled DEEP → BECOMES anchor ON ITS OWN → PFC doesn't need to choose
 
-  ⭐ ĐÂY LÀ NGUỒN MẠNH NHẤT — vì: compiled = implicit = body-level
+  ⭐ THIS IS THE STRONGEST SOURCE — because: compiled = implicit = body-level
 
-  ĐẶC ĐIỂM:
-    → MẠNH NHẤT: compiled deep → trust IMPLICIT → PFC không override được
-    → NHANH NHẤT: ms (auto-fire, không cần deliberate)
-    → VÔ THỨC HOÀN TOÀN: PFC có thể không BIẾT đang anchor cái gì
-    → KHÔNG flexible: compiled = CỨNG → khó thay đổi
-    → ĐÃ CÓ trust built-in (compile = repeat confirm → trust implicit)
+  CHARACTERISTICS:
+    → STRONGEST: compiled deep → trust IMPLICIT → PFC cannot override
+    → FASTEST: milliseconds (auto-fires, no deliberation)
+    → COMPLETELY UNCONSCIOUS: PFC may not KNOW what it's currently anchoring to
+    → NOT flexible: compiled = RIGID → hard to change
+    → HAS TRUST BUILT IN (compile = repeat + confirm → trust implicit)
 
-  KHI NÀO NGUỒN NÀY ACTIVE:
-    → LUÔN active nếu schema đủ mạnh (background anchor)
-    → Đặc biệt mạnh khi: threat trigger compiled response
-    → "Tiếng gọi" / "calling" = compiled schema TỰ thành anchor
-    → Survival situations = compiled L0-L1 schemas TỰ anchor
+  WHEN THIS SOURCE IS ACTIVE:
+    → ALWAYS active if the schema is strong enough (background anchor)
+    → Especially strong when: a threat trigger fires the compiled response
+    → "Calling" / "vocation" = compiled schema BECOMING anchor on its own
+    → Survival situations = compiled L0-L1 schemas anchor ON THEIR OWN
 
-  VÍ DỤ:
+  EXAMPLES:
 
-    "Tiếng gọi" (calling):
-      → Từ nhỏ thích tháo lắp → body reward MỖI LẦN → compile deep
-      → Schema "tháo lắp = pleasant" compile HÀNG NGHÌN LẦN
-      → Lớn lên: schema NÀY ĐỦ MẠNH → tự thành Anchor-Schema
-      → PFC: "à, mình muốn làm kỹ sư" (conscious hóa SAU)
-      → = Anchor-Schema TRƯỚC, Imagine-Final SAU
-      → = PFC KHÔNG chọn — PFC chỉ GỌI TÊN cái đã có
+    "A calling" (vocation):
+      → From childhood enjoyed tinkering → body reward EVERY TIME → compiled deep
+      → Schema "tinkering = pleasant" compiled THOUSANDS OF TIMES
+      → As an adult: THIS schema is STRONG ENOUGH → becomes Anchor-Schema on its own
+      → PFC: "oh, I want to be an engineer" (consciously names it AFTER)
+      → = Anchor-Schema FIRST, Imagine-Final SECOND
+      → = PFC did NOT choose — PFC only NAMES what was already there
 
-    Mẹ bảo vệ con (L0 Protect Gene):
-      → Nghe tiếng con khóc đau → compiled schema FIRE NGAY
-      → Anchor: "bảo vệ con" → toàn body sync → chạy tới NGAY
-      → PFC: ~0% (compiled override tất cả — KHÔNG CẦN deliberate)
-      → = Compiled schema = Anchor-Schema INSTANT
+    Mother protecting her child (L0 Protect Gene):
+      → Hears child cry in pain → compiled schema FIRES IMMEDIATELY
+      → Anchor: "protect child" → whole body syncs → runs to them IMMEDIATELY
+      → PFC: ~0% (compiled overrides everything — NO deliberation needed)
+      → = Compiled schema = Anchor-Schema INSTANTLY
 
-    Galileo "trái đất quay":
-      → Hàng nghìn giờ observation + calculation → compile
-      → Schema "trái đất quay" compile CỰC SÂU (evidence-based)
-      → Trust: IMPLICIT (body-level — "BIẾT là đúng")
-      → PFC: "tôi tin" = chỉ verbalize cái đã compiled
-      → Giáo hội bắt bỏ → compiled schema MẠNH HƠN threat
-      → = Compiled anchor THẮNG external threat
-      → = "PFC không kiềm được" vì schema compiled ĐÃ LÀ anchor
+    Galileo "the earth moves":
+      → Thousands of hours of observation + calculation → compiled
+      → Schema "the earth moves" compiled EXTREMELY DEEP (evidence-based)
+      → Trust: IMPLICIT (body-level — "KNOWS it's correct")
+      → PFC: "I believe" = only verbalizing what was already compiled
+      → Church demands he recant → compiled schema STRONGER than the threat
+      → = Compiled anchor WINS over external threat
+      → = "PFC couldn't contain it" because the schema WAS ALREADY an anchor when compiled
 
     Expert intuition:
-      → 10,000 giờ trong domain → chunks compile → patterns DEEP
-      → Expert "biết" câu trả lời TRƯỚC khi giải thích ĐƯỢC
-      → = Compiled schemas → Anchor-Schema cho decision
-      → PFC: explain SAU (confabulate reason cho intuitive choice)
+      → 10,000 hours in a domain → chunks compile → patterns DEEP
+      → Expert "knows" the answer BEFORE they can explain it
+      → = Compiled schemas → Anchor-Schema for decisions
+      → PFC: confabulates a reason AFTER (for the intuitive choice)
       → 🟢 Verified: expertise = compiled pattern recognition (Klein 1998)
 
-  HẠN CHẾ:
-    → KHÔNG flexible (compiled = cứng → khó adjust khi domain thay đổi)
-    → CÓ THỂ SAI (compile từ experience sai → anchor sai → nhưng MẠNH)
-      → VD: bị bỏ rơi khi nhỏ → compile "người khác = không đáng tin"
-        → Anchor-Schema: "tự lo" → suốt đời → dù domain nói ngược
-      → = Trauma = compiled anchor SAI nhưng CỰC MẠNH
-    → KHÓ THAY ĐỔI: cần NHIỀU counter-evidence + thời gian dài
+  LIMITATIONS:
+    → NOT flexible (compiled = rigid → hard to adjust when domain changes)
+    → CAN BE WRONG (compiled from wrong experience → wrong anchor → but STRONG)
+      → Example: abandoned as a child → compiles "others = untrustworthy"
+        → Anchor-Schema: "handle it alone" → for a lifetime → even when domain says otherwise
+      → = Trauma = compiled anchor WRONG but EXTREMELY STRONG
+    → HARD TO CHANGE: needs MUCH counter-evidence + long time
 
 
 ═══════════════════════════════════════════════════════
-NGUỒN ④ — EXTERNAL INJECT (outside-in)
+SOURCE ④ — EXTERNAL INJECT (outside-in)
 ═══════════════════════════════════════════════════════
 
-  = Bên ngoài (người khác, tổ chức, văn hóa) ĐẶT anchor VÀO hệ thống
+  = The outside world (others, institutions, culture) INSERTS an anchor INTO the system
 
-  ĐẶC ĐIỂM:
-    → BYPASS PFC: có thể compile trực tiếp vào vô thức
-      (qua repetition, ritual, social pressure, emotional peak)
-    → KHÔNG CẦN cá nhân "chọn" (khác nguồn ①)
-    → CÓ THỂ match HOẶC mismatch body-base
-    → SCALE lớn: 1 source → inject NHIỀU người cùng lúc
+  CHARACTERISTICS:
+    → BYPASSES PFC: can compile directly into the unconscious
+      (via repetition, ritual, social pressure, emotional peaks)
+    → Does NOT require the individual to "choose" (unlike source ①)
+    → CAN match OR mismatch body-base
+    → SCALE: 1 source → injects into MANY people simultaneously
 
-  CƠ CHẾ INJECT:
+  INJECT MECHANISMS:
 
-    Repetition (lặp lại):
-      → Nghe đủ nhiều lần → schema compile → thành anchor NGẦM
-      → VD: "phải học giỏi" nghe từ nhỏ → compile → anchor "học giỏi"
-        → Thậm chí KHI body-base không muốn → compiled ĐỦ MẠNH → anchor
-      → VD: quảng cáo lặp → "cần sản phẩm X" → compile nhẹ
+    Repetition:
+      → Heard enough times → schema compiles → becomes a SILENT anchor
+      → Example: "you must study hard" heard from childhood → compiles → anchor "study hard"
+        → Even WHEN the body doesn't want to → compiled IS STRONG ENOUGH → anchor
+      → Example: repeated advertising → "I need product X" → mild compile
 
-    Ritual (nghi lễ):
-      → Hành vi lặp + group + cảm xúc → compile NHANH + SÂU
-      → VD: cầu nguyện hàng tuần → "Chúa/Phật là thật" compile
-      → VD: chào cờ mỗi sáng → "tổ quốc" compile
+    Ritual (ceremonial practice):
+      → Repeated behavior + group + emotion → compiles QUICKLY + DEEPLY
+      → Example: weekly prayer → "God/Buddha is real" compiles
+      → Example: daily flag-raising ceremony → "the nation" compiles
       → = Ritual = repetition + social + emotional peak = compile combo
 
-    Emotional Peak (đỉnh cảm xúc):
-      → 1 event cảm xúc CỰC MẠNH → compile INSTANT
-      → VD: bố mắng "mày vô dụng" khi đang khóc → compile 1 LẦN
-        → Anchor-Schema: "tôi vô dụng" (CÓ THỂ kéo dài HÀNG NĂM)
-      → VD: thầy khen "em giỏi nhất lớp" trước mặt bạn bè → compile
-        → Anchor-Schema: "tôi giỏi" → confidence boost dài hạn
-      → = Emotional peak = shortcut compile (1 lần = nhiều lần repeat)
+    Emotional Peak:
+      → 1 event of EXTREMELY STRONG emotion → compiles INSTANTLY
+      → Example: father yells "you're useless" while child is already crying → compiles in 1 TIME
+        → Anchor-Schema: "I am useless" (CAN last for YEARS)
+      → Example: teacher praises "you're the best in class" in front of classmates → compiles
+        → Anchor-Schema: "I am capable" → long-term confidence boost
+      → = Emotional peak = compile shortcut (1 time = many repetitions)
 
-    Social Pressure (áp lực nhóm):
-      → "Ai cũng thế" → schema "phải thế" compile qua mirror neurons
-      → VD: văn hóa "30 tuổi phải có nhà xe" → compile dần
-        → Anchor-Schema: "mua nhà" (dù body-base có thể muốn khác)
-      → VD: peer group khởi nghiệp → "tôi cũng nên" → compile
+    Social Pressure:
+      → "Everyone is like this" → schema "must be this way" compiles via mirror neurons
+      → Example: culture of "must own a house and car by 30" → gradually compiles
+        → Anchor-Schema: "buy a house" (even if body-base might want something different)
+      → Example: peer group launching startups → "I should too" → compiles
 
-  VÍ DỤ CHI TIẾT:
+  DETAILED EXAMPLES:
 
-    Tôn giáo = FULL COMBO inject:
-      → Repetition: kinh mỗi ngày, ritual mỗi tuần
-      → Ritual: cầu nguyện + nhóm + cảm xúc (thiêng liêng)
-      → Emotional peak: "được cứu rỗi" experience
-      → Social: cả cộng đồng cùng tin → reinforce
-      → = 4/4 inject mechanisms → Anchor-Schema CỰC MẠNH
-      → = Tại sao tôn giáo = EFFECTIVE anchor provider
+    Religion = FULL COMBO inject:
+      → Repetition: prayers every day, rituals every week
+      → Ritual: prayer + group + emotion (the sacred/holy feeling)
+      → Emotional peak: "being saved" experience
+      → Social: entire community believes together → reinforces
+      → = 4/4 inject mechanisms → Anchor-Schema EXTREMELY STRONG
+      → = Why religion = EFFECTIVE anchor provider
 
-    "Bố mẹ bảo con làm bác sĩ":
-      → Repetition: nói từ nhỏ, lặp lại nhiều năm
-      → Emotional peak: "bố mẹ vất vả → con PHẢI đỗ" (guilt peak)
-      → Social: họ hàng cũng nói → reinforce
-      → = Inject anchor "bác sĩ" VÀO con → dù con body-base muốn khác
+    "Parents tell their child to become a doctor":
+      → Repetition: said from childhood, repeated for many years
+      → Emotional peak: "your parents work so hard → you MUST pass the exam" (guilt peak)
+      → Social: relatives also say it → reinforces
+      → = Anchor "doctor" INJECTED INTO the child → even if child's body-base wants something different
       → = Mismatch case (Imagine-Final-Evaluation.md §4)
 
-    MXH inject (modern):
-      → Repetition: scroll hàng ngày → "life tốt = thế NÀY"
+    Social media inject (modern):
+      → Repetition: scrolling daily → "good life = THIS"
       → Social: likes, followers = social proof
-      → Emotional peak: viral post → "tôi cũng muốn thế"
-      → = Inject anchor LIÊN TỤC + NHIỀU HƯỚNG KHÁC NHAU
-      → = Modern paradox: QUÁ NHIỀU inject → CONFLICT → cacophony
+      → Emotional peak: viral post → "I want that too"
+      → = Anchors INJECTED CONTINUOUSLY + IN MANY DIFFERENT DIRECTIONS
+      → = Modern paradox: TOO MANY injects → CONFLICT → cacophony
 
-  HẠN CHẾ:
-    → CÓ THỂ mismatch body-base (inject ≠ body muốn)
-    → CÓ THỂ conflict với anchor hiện có → dissonance
-    → Modern: QUÁ NHIỀU inject sources → overload
-    → = External inject = MẠNH nhưng KHÔNG CHẮC phù hợp
+  LIMITATIONS:
+    → CAN mismatch body-base (inject ≠ what the body actually wants)
+    → CAN conflict with existing anchors → dissonance
+    → Modern: TOO MANY inject sources → overload
+    → = External inject = POWERFUL but NOT GUARANTEED to fit
 
 
 ═══════════════════════════════════════════════════════
-4 NGUỒN — SO SÁNH
+4 SOURCES — COMPARISON
 ═══════════════════════════════════════════════════════
 
   ┌─────────────┬────────────────┬──────────────┬───────────────┬─────────────────┐
   │             │ ① PFC          │ ② Hippocampus│ ③ Compiled    │ ④ External      │
   │             │ Imagine-Final  │ Simulation   │ Schemas       │ Inject          │
   ├─────────────┼────────────────┼──────────────┼───────────────┼─────────────────┤
-  │ Hướng       │ Top-down       │ Mid-level    │ Bottom-up     │ Outside-in      │
-  │ Cần PFC?    │ CÓ             │ KHÔNG        │ KHÔNG         │ KHÔNG (bypass)  │
-  │ Speed       │ Chậm (giây-phút)│ Nhanh (ms-s)│ CỰC NHANH (ms)│ Chậm (compile) │
-  │ Flexibility │ CAO            │ TRUNG BÌNH   │ THẤP          │ THẤP (đã compile)│
-  │ Strength    │ Tùy trust      │ Vừa         │ CỰC MẠNH     │ Tùy mechanism   │
-  │ Range       │ Xa (năm-đời)  │ Gần (phút-ngày)│ Tùy (any)   │ Tùy content    │
-  │ Accuracy    │ Check domain ✓│ Không check  │ Tùy experience│ Tùy source     │
-  │ Phổ biến   │ ~5% decisions  │ ~10%         │ ~80%          │ Variable       │
-  │ Risk        │ Sai Imagine-Final → wrong │ Limited scope│ Trauma,  │ Mismatch       │
-  │             │ anchor         │              │ outdated      │ body-base      │
+  │ Direction   │ Top-down       │ Mid-level    │ Bottom-up     │ Outside-in      │
+  │ Needs PFC?  │ YES            │ NO           │ NO            │ NO (bypasses)   │
+  │ Speed       │ Slow (sec-min) │ Fast (ms-sec)│ VERY FAST (ms)│ Slow (compile)  │
+  │ Flexibility │ HIGH           │ MODERATE     │ LOW           │ LOW (compiled)  │
+  │ Strength    │ Depends on     │ Moderate     │ VERY STRONG   │ Depends on      │
+  │             │ trust          │              │               │ mechanism       │
+  │ Range       │ Far (yrs-life) │ Near (min-dy)│ Any           │ Depends content │
+  │ Accuracy    │ Domain check ✓│ No check     │ Depends on    │ Depends on      │
+  │             │                │              │ experience    │ source          │
+  │ Prevalence  │ ~5% decisions  │ ~10%         │ ~80%          │ Variable        │
+  │ Risk        │ Wrong IF →     │ Limited      │ Trauma,       │ Mismatch        │
+  │             │ wrong anchor   │ scope        │ outdated      │ body-base       │
   ├─────────────┼────────────────┼──────────────┼───────────────┼─────────────────┤
-  │ Ví dụ       │ Career choice  │ Chó về nhà  │ Tiếng gọi    │ Tôn giáo       │
-  │             │ Startup vision │ Lái xe quen  │ Expert intuit │ "Phải giàu"    │
-  │             │ Life direction │ Maze route   │ Mẹ bảo vệ con│ Peer pressure  │
+  │ Examples    │ Career choice  │ Dog finds    │ Calling       │ Religion        │
+  │             │ Startup vision │ way home     │ Expert intuit │ "Must get rich" │
+  │             │ Life direction │ Maze route   │ Mother protect│ Peer pressure   │
   └─────────────┴────────────────┴──────────────┴───────────────┴─────────────────┘
 
-  ⭐ PHẦN LỚN CUỘC SỐNG = NGUỒN ③ (compiled):
-    ⚠️ % below = calibration anchor, exact % = guess (§12 Honest Assessment).
-    → ~80% hành vi = compiled schemas auto-fire → auto-anchor
-    → PFC (①) chỉ tham gia ~5% (tình huống mới, complex, conflict)
-    → = Đa số thời gian: Anchor-Schema SẴN, PFC nghỉ
-    → = §1 bước ②: scan compiled → CÓ → skip PFC
+  ⭐ MOST OF LIFE = SOURCE ③ (compiled):
+    ⚠️ % below = calibration anchors, exact % = estimates (§6 Honest Assessment).
+    → ~80% of behavior = compiled schemas auto-fire → auto-anchor
+    → PFC (①) only participates ~5% (new, complex, conflicted situations)
+    → = Most of the time: Anchor-Schema IS AVAILABLE, PFC at rest
+    → = §1 step ②: scan compiled → YES → skip PFC
 
-  ⭐ NHIỀU NGUỒN CÓ THỂ CÙNG LÚC:
-    → ① PFC "muốn đổi nghề" + ③ Compiled "công việc hiện tại safe"
-      → = CONFLICT → dissonance → PFC phải CHOOSE
-    → ① PFC "build startup" + ④ External "phải ổn định"
+  ⭐ MULTIPLE SOURCES CAN OPERATE SIMULTANEOUSLY:
+    → ① PFC "want to change careers" + ③ Compiled "current job is safe"
+      → = CONFLICT → dissonance → PFC must CHOOSE
+    → ① PFC "build startup" + ④ External "must be stable"
       → = CONFLICT → dissonance → which anchor WINS?
-    → ③ Compiled "tháo lắp = pleasant" + ① PFC "career kỹ sư"
-      → = ALIGN → Anchor-Schema CỰC MẠNH (cả 2 nguồn reinforce)
+    → ③ Compiled "tinkering = pleasant" + ① PFC "engineering career"
+      → = ALIGNED → Anchor-Schema EXTREMELY STRONG (both sources reinforce)
 
-  → ANCHOR MẠNH NHẤT = NHIỀU NGUỒN ALIGN:
-    → Compiled (③) + PFC (①) + social (④) CÙNG HƯỚNG
-    → = Jensen Huang: compiled curiosity (③) + PFC vision (①) + market confirm
+  → STRONGEST ANCHOR = MULTIPLE SOURCES ALIGNED:
+    → Compiled (③) + PFC (①) + social (④) ALL IN THE SAME DIRECTION
+    → = Jensen Huang: compiled curiosity (③) + PFC vision (①) + market confirms
     → = "Passion + strategy + environment" = full alignment
 
-  → ANCHOR YẾU NHẤT = CÁC NGUỒN CONFLICT:
-    → PFC muốn A (①) + compiled muốn B (③) + xã hội ép C (④)
-    → = 3 nguồn 3 HƯỚNG → dàn nhạc bị KÉO 3 phía → cacophony
-    → = "Muốn A, quen B, phải C" = modern anxiety pattern
+  → WEAKEST ANCHOR = SOURCES IN CONFLICT:
+    → PFC wants A (①) + compiled wants B (③) + society pushes C (④)
+    → = 3 sources, 3 DIFFERENT DIRECTIONS → orchestra pulled 3 ways → cacophony
+    → = "Want A, accustomed to B, have to do C" = modern anxiety pattern
 
-  🟡 4 nguồn classification = framework model
+  🟡 4 sources classification = framework model
   🟡 "~80% compiled" estimate = consistent with unconscious dominance research
   🟢 Expertise = compiled pattern recognition (Klein 1998)
   🟢 Emotional peak → memory consolidation (McGaugh 2004)
@@ -978,393 +974,395 @@ NGUỒN ④ — EXTERNAL INJECT (outside-in)
 
 ---
 
-## §4 — ACROSS SPECIES: ANCHOR-SCHEMA Ở MỌI SINH VẬT
+## §4 — ACROSS SPECIES: ANCHOR-SCHEMA IN ALL ORGANISMS
 
 ```
-TIỀN ĐỀ:
+PREMISE:
 
-  §3 cho thấy: Anchor-Schema KHÔNG CẦN PFC
-  (nguồn ②③ KHÔNG cần PFC)
-  → Vậy: sinh vật KHÔNG CÓ PFC có Anchor-Schema không?
-  → Trả lời: CÓ — nhưng ở MỨC ĐỘ KHÁC
+  §3 showed: Anchor-Schema does NOT REQUIRE PFC
+  (sources ②③ do NOT need PFC)
+  → So: organisms WITHOUT PFC — do they have an Anchor-Schema?
+  → Answer: YES — but at DIFFERENT LEVELS
 
 
-3 TẦNG ANCHOR-SCHEMA ACROSS SPECIES:
+3 TIERS OF ANCHOR-SCHEMA ACROSS SPECIES:
 
   ┌──────────────────────────────────────────────────────────────┐
   │                                                              │
-  │ TẦNG 0 — REACTIVE ANCHOR (pattern match)                   │
-  │   Ai có: MỌI sinh vật có learning (cá, ong, bò sát,...)    │
-  │   Cơ chế: compiled stimulus-response (Nguồn ③ primitive)    │
-  │   KHÔNG CÓ: simulation, recombine, flexible adjustment     │
+  │ TIER 0 — REACTIVE ANCHOR (pattern match)                    │
+  │   Who has it: ALL organisms with learning (fish, bees,       │
+  │               reptiles, ...)                                 │
+  │   Mechanism: compiled stimulus-response (Source ③ primitive) │
+  │   NO: simulation, recombination, flexible adjustment         │
   │                                                              │
-  │ TẦNG 1 — SIMULATED ANCHOR (hippocampal)                    │
-  │   Ai có: Mammals + có thể corvids/parrots                  │
-  │   Cơ chế: hippocampus recombine (Nguồn ② + ③)             │
-  │   CÓ: near-future simulation, basic flexibility            │
-  │   KHÔNG CÓ: cross-domain, temporal xa, domain check        │
+  │ TIER 1 — SIMULATED ANCHOR (hippocampal)                     │
+  │   Who has it: Mammals + possibly corvids / parrots           │
+  │   Mechanism: hippocampus recombines (Sources ②③)            │
+  │   HAS: near-future simulation, basic flexibility             │
+  │   NO: cross-domain, far temporal, domain check               │
   │                                                              │
-  │ TẦNG 2 — DIRECTED ANCHOR (PFC-directed)                    │
-  │   Ai có: Mammals có PFC (phổ rộng), người = mạnh nhất     │
-  │   Cơ chế: PFC direct + hippocampus simulate (Nguồn ①②③④)  │
-  │   CÓ: cross-domain, temporal xa, abstract, evaluate,       │
-  │        social inject, meaning/purpose                       │
-  │   = ANCHOR-SCHEMA đúng nghĩa framework                     │
+  │ TIER 2 — DIRECTED ANCHOR (PFC-directed)                     │
+  │   Who has it: Mammals with PFC (broad spectrum);             │
+  │               humans = the most capable                      │
+  │   Mechanism: PFC directs + hippocampus simulates (①②③④)    │
+  │   HAS: cross-domain, far temporal, abstract, evaluation,     │
+  │        social inject, meaning / purpose                      │
+  │   = ANCHOR-SCHEMA in the full framework sense                │
   │                                                              │
   └──────────────────────────────────────────────────────────────┘
 
 
 ═══════════════════════════════════════════════════════
-TẦNG 0 — REACTIVE ANCHOR: "Input → Response"
+TIER 0 — REACTIVE ANCHOR: "Input → Response"
 ═══════════════════════════════════════════════════════
 
-  = Compiled stimulus-response LÀM ANCHOR cho toàn body
-  = KHÔNG construct tương lai — chỉ MATCH pattern ĐÃ CÓ
-  = "Anchor" ở đây = rất primitive, gần = "default drive direction"
+  = Compiled stimulus-response ACTS AS ANCHOR for the whole body
+  = Does NOT construct a future — only MATCHES an EXISTING pattern
+  = "Anchor" here = very primitive, close to = "default drive direction"
 
-  VÍ DỤ:
+  EXAMPLES:
 
-    Con cá đói:
-      → Mùi thức ăn → compiled "mùi = ăn" → FIRE → toàn body sync "approach"
-      → = "Anchor" = schema "approach food" → tất cả fins, muscles, senses sync
-      → KHÔNG imagine "sẽ no" → chỉ react theo compiled pattern
-      → KHÔNG evaluate "mồi có an toàn?" (vì: không có simulation layer)
-      → = Cá ăn mồi câu: anchor "approach food" → KHÔNG CÓ khả năng check lưỡi câu
-      → ⚠️ NẾU đã bị câu + thoát → compile chunk MỚI: "dạng mồi này = đau"
-        → Anchor UPDATE: "approach food TRỪRETUYP dạng này"
-        → = VẪN là reactive (pattern match updated), KHÔNG phải simulation
+    A hungry fish:
+      → Smell of food → compiled "smell = eat" → FIRES → whole body syncs "approach"
+      → = "Anchor" = schema "approach food" → all fins, muscles, senses sync
+      → Does NOT imagine "will be full" → only reacts by compiled pattern
+      → Does NOT evaluate "is the bait safe?" (because: no simulation layer)
+      → = Fish bites a hook: anchor "approach food" → NO capability to check for the hook
+      → ⚠️ IF already hooked + escaped → compiles a NEW chunk: "this bait shape = pain"
+        → Anchor UPDATES: "approach food EXCEPT this type"
+        → = STILL reactive (pattern match updated), NOT simulation
 
-    Ong tìm mật:
-      → Time-place learning: "giờ này + chỗ này = mật"
-      → Compiled → anchor "bay tới chỗ X" → toàn body sync
-      → = Sophisticated NHƯNG vẫn pattern match (không recombine novel)
+    A bee seeking nectar:
+      → Time-place learning: "this time + this place = nectar"
+      → Compiled → anchor "fly to location X" → whole body syncs
+      → = Sophisticated BUT still pattern match (can't recombine into truly novel territory)
 
-  ĐẶC ĐIỂM:
-    → Nguồn duy nhất: ③ Compiled (primitive)
-    → Trust: IMPLICIT (compiled = auto-trust, không có doubt)
-    → Flexibility: GẦN NHƯ ZERO (chỉ update khi experience mới compile)
+  CHARACTERISTICS:
+    → Only source: ③ Compiled (primitive)
+    → Trust: IMPLICIT (compiled = auto-trust, no doubt possible)
+    → Flexibility: NEAR ZERO (only updates when new experience compiles)
     → Duration: immediate (stimulus present → anchor; stimulus gone → anchor gone)
-    → = "Anchor" NHẸ NHẤT — gần = "reflex direction"
+    → = The LIGHTEST "anchor" — close to = "reflex direction"
 
   🟢 Associative learning across species = Pavlov → modern
   🟢 Time-place learning in insects = established (Beling 1929)
 
 
 ═══════════════════════════════════════════════════════
-TẦNG 1 — SIMULATED ANCHOR: "Recombine → Near-Future"
+TIER 1 — SIMULATED ANCHOR: "Recombine → Near-Future"
 ═══════════════════════════════════════════════════════
 
-  = Hippocampus recombine ký ức → create NEAR-FUTURE anchor
-  = CÓ THỂ "imagine" destination CHƯA HIỆN DIỆN (khác Tầng 0: cần stimulus)
+  = Hippocampus recombines memories → creates a NEAR-FUTURE anchor
+  = CAN "imagine" a destination NOT CURRENTLY PRESENT (unlike Tier 0: needs stimulus)
 
-  VÍ DỤ:
+  EXAMPLES:
 
-    Chó đi xa → "về nhà":
-      → Nhà KHÔNG hiện diện trong giác quan (khác Tầng 0: cần stimulus)
-      → Hippocampus: spatial map "nhà ở hướng kia" (representation NỘI BỘ)
-      → Anchor: "về nhà" → toàn body sync → navigate
-      → = Anchor cho destination KHÔNG CẦN stimulus trực tiếp
-      → = Bước tiến lớn so với Tầng 0
+    Dog that wandered far away → "go home":
+      → Home is NOT present in the senses (unlike Tier 0: needs stimulus)
+      → Hippocampus: spatial map "home is in that direction" (INTERNAL representation)
+      → Anchor: "go home" → whole body syncs → navigates
+      → = Anchor for a destination WITHOUT needing direct stimulus
+      → = A major step beyond Tier 0
 
-    Chó "nhớ chủ" khi chủ vắng:
-      → Chủ KHÔNG hiện diện → NHƯNG hippocampus CÓ representation "chủ"
+    Dog "misses its owner" when owner is away:
+      → Owner is NOT present → BUT hippocampus HAS representation of "owner"
       → Body-base: separation distress (cortisol) → dissonance
-      → Anchor: "chủ" representation → seek behavior
+      → Anchor: "owner" representation → seeking behavior
       → Greeting intensity scales with absence duration
-        → GỢI Ý: temporal tracking CƠ BẢN (biết "đã lâu")
-      → = Anchor cho NGƯỜI KHÔNG CÓ MẶT → near-future simulation
-      → ⚠️ "Nhớ" như ý thức con người = speculative
-      → NHƯNG: body response (cortisol, seeking) = THẬT
+        → SUGGESTS: basic temporal tracking (knows "it's been a while")
+      → = Anchor for a PERSON WHO IS ABSENT → near-future simulation
+      → ⚠️ "Missing someone" as in conscious experience = speculative
+      → BUT: body response (cortisol, seeking behavior) = REAL
 
-    Chuột ở ngã ba maze:
-      → Hippocampal place cells "preplay" route A rồi route B
-      → = Simulate 2 futures → "chọn" (body evaluate) → anchor 1
-      → CÓ THỂ chọn SHORTCUT chưa bao giờ đi
-      → = Recombine spatial elements → create NOVEL route
+    Mouse at a maze junction:
+      → Hippocampal place cells "preplay" route A then route B
+      → = Simulates 2 futures → "chooses" (body evaluates) → anchors on 1
+      → CAN choose a SHORTCUT it has never taken before
+      → = Recombines spatial elements → creates a NOVEL route
       → 🟢 Pfeiffer & Foster 2013: verified preplay
 
-  ĐẶC ĐIỂM:
-    → Nguồn: ②③ (hippocampus + compiled)
-    → Trust: implicit (hippocampal simulation → body evaluate → auto)
-    → Flexibility: CƠ BẢN (recombine familiar elements, novel combinations)
-    → Duration: near-future (phút → giờ → có thể ngày)
-    → Range: spatial + temporal ngắn (không abstract, không cross-domain)
-    → = Anchor TRUNG BÌNH — có simulation nhưng limited
+  CHARACTERISTICS:
+    → Sources: ②③ (hippocampus + compiled)
+    → Trust: implicit (hippocampal simulation → body evaluates → automatic)
+    → Flexibility: BASIC (recombines familiar elements, novel combinations possible)
+    → Duration: near-future (minutes → hours → possibly days)
+    → Range: spatial + short temporal (not abstract, not cross-domain)
+    → = INTERMEDIATE anchor — has simulation but limited
 
 
 ═══════════════════════════════════════════════════════
-TẦNG 2 — DIRECTED ANCHOR: "PFC Direct + Full Capability"
+TIER 2 — DIRECTED ANCHOR: "PFC Direct + Full Capability"
 ═══════════════════════════════════════════════════════
 
-  = PFC direct hippocampus simulate + evaluate + cross-domain + temporal xa
-  = CHỈ NGƯỜI MỚI CÓ ĐẦY ĐỦ (primates có partial, người = max)
+  = PFC directs hippocampus to simulate + evaluate + cross-domain + far temporal
+  = ONLY HUMANS have the FULL version (primates partial, humans = maximum)
 
-  CAPABILITIES chỉ TẦNG 2 mới có:
+  CAPABILITIES only TIER 2 has:
 
     Cross-domain simulation:
-      → "Nếu domain A + domain B → ?"
-      → VD: "AI + music → AI sáng tác nhạc?"
-      → = Tầng 1 KHÔNG làm được (chỉ recombine TRONG 1 domain)
+      → "If domain A + domain B → ?"
+      → Example: "AI + music → AI composing music?"
+      → = Tier 1 CANNOT do this (only recombines WITHIN 1 domain)
 
-    Temporal xa:
-      → "10 năm nữa cuộc đời sẽ thế nào?"
-      → VD: "nếu học y 6 năm → hành nghề → cuộc sống..."
-      → = Tầng 1: chỉ near-future (phút-ngày)
+    Far temporal horizon:
+      → "What will life look like in 10 years?"
+      → Example: "if I study medicine for 6 years → practice → life looks like..."
+      → = Tier 1: only near-future (minutes to days)
 
     Abstract anchor:
-      → "Ý nghĩa cuộc đời" / "giá trị" / "mục đích sống"
-      → = Tầng 1: chỉ concrete (nhà, thức ăn, người quen)
+      → "The meaning of life" / "values" / "purpose of living"
+      → = Tier 1: only concrete (home, food, familiar people)
 
     Domain evaluation:
-      → "Cái này CÓ THẬT trong domain không?"
-      → = Tầng 1: hippocampus recombine TỰ DO (kể cả phi thực tế)
-      → = Tầng 2: PFC CHECK thực tế → filter simulation
+      → "Is this REAL in the domain?"
+      → = Tier 1: hippocampus recombines FREELY (including unrealistic scenarios)
+      → = Tier 2: PFC CHECKS reality → filters simulations
 
     External inject processing:
-      → Nguồn ④ (tôn giáo, xã hội, văn hóa) → chỉ Tầng 2 TIẾP NHẬN fully
-      → = Cá không tiếp nhận "giáo lý" (không có processing capacity)
-      → = Chó tiếp nhận minimal ("chủ nói tốt/xấu" = tone, không content)
-      → = Người tiếp nhận FULL (content + logic + narrative + ritual)
+      → Source ④ (religion, society, culture) → only Tier 2 FULLY RECEIVES
+      → = Fish don't receive "doctrine" (no processing capacity)
+      → = Dogs receive minimally ("owner says good/bad" = tone, not content)
+      → = Humans receive FULLY (content + logic + narrative + ritual)
 
-  ĐẶC ĐIỂM:
-    → Nguồn: ①②③④ (TẤT CẢ 4 nguồn)
-    → Trust: conscious + implicit (cả 2 → phức tạp nhất)
-    → Flexibility: CỰC CAO (build, adjust, discard, rebuild)
-    → Duration: giây → CẢ ĐỜI (multi-scale — §1)
-    → Range: VÔ HẠN (any domain, any time, any abstraction level)
-    → = Anchor MẠNH NHẤT — nhưng cũng PHỨC TẠP nhất
+  CHARACTERISTICS:
+    → Sources: ①②③④ (ALL 4 sources)
+    → Trust: conscious + implicit (both → most complex)
+    → Flexibility: EXTREMELY HIGH (build, adjust, discard, rebuild)
+    → Duration: seconds → A WHOLE LIFETIME (multi-scale — §1)
+    → Range: UNLIMITED (any domain, any time, any abstraction level)
+    → = STRONGEST anchor — but also the MOST COMPLEX
 
-  CHỈ TẦNG 2 MỚI CÓ VẤN ĐỀ:
-    → Delusion (domain ✗ + hardware ✓ → nhưng CÓ progress → self-reinforce)
+  PROBLEMS ONLY TIER 2 HAS:
+    → Delusion (domain ✗ + hardware ✓ → but HAS progress → self-reinforcing)
     → Existential crisis (abstract anchor collapse)
-    → Meaning crisis (quá nhiều options, anchor nào?)
-    → Religious extremism (anchor unfalsifiable + trust ∞ → override L0)
-    → = CAPACITY lớn = RISK lớn
-    → = Cá KHÔNG có midlife crisis, KHÔNG có existential anxiety
-    → = Đó là GIÁ của PFC: khả năng mạnh hơn + vấn đề phức tạp hơn
+    → Meaning crisis (too many options, which anchor?)
+    → Religious extremism (anchor unfalsifiable + trust ∞ → overrides L0)
+    → = GREATER CAPACITY = GREATER RISK
+    → = Fish do NOT have midlife crises, do NOT have existential anxiety
+    → = That is THE PRICE OF PFC: greater capacity + more complex problems
 
 
-TỔNG HỢP — 3 TẦNG:
+SUMMARY — 3 TIERS:
 
   ┌──────────┬────────────────┬────────────────┬────────────────────┐
-  │          │ Tầng 0         │ Tầng 1         │ Tầng 2             │
+  │          │ Tier 0         │ Tier 1         │ Tier 2             │
   │          │ Reactive       │ Simulated      │ Directed           │
   ├──────────┼────────────────┼────────────────┼────────────────────┤
-  │ Cơ chế   │ Pattern match  │ Hippocampus    │ PFC + Hippocampus  │
-  │ Nguồn    │ ③ only         │ ②③            │ ①②③④              │
-  │ Cần PFC? │ KHÔNG          │ KHÔNG          │ CÓ (directing)     │
+  │ Mechanism│ Pattern match  │ Hippocampus    │ PFC + Hippocampus  │
+  │ Sources  │ ③ only         │ ②③            │ ①②③④              │
+  │ Needs PFC│ NO             │ NO             │ YES (directing)    │
   │ Range    │ Stimulus present│ Near-future   │ Any time/domain    │
-  │ Flexible │ Gần 0         │ Cơ bản        │ Cực cao             │
-  │ Animate  │ Mọi sinh vật  │ Mammals+       │ Mammals có PFC     │
-  │          │ có learning    │ (corvids?)     │ (người = max)      │
-  │ Vấn đề  │ Bẫy (lưỡi câu)│ Limited range  │ Delusion, meaning  │
+  │ Flexible │ Near 0         │ Basic          │ Extremely high     │
+  │ Organisms│ All with       │ Mammals+       │ Mammals with PFC   │
+  │          │ learning       │ (corvids?)     │ (humans = max)     │
+  │ Problems │ Traps (hook)   │ Limited range  │ Delusion, meaning  │
   │          │                │                │ crisis, extremism  │
   ├──────────┼────────────────┼────────────────┼────────────────────┤
-  │ Example  │ Cá ăn mồi     │ Chó về nhà    │ Einstein + physics │
-  │          │ Ong tìm mật   │ Chuột maze    │ Tôn giáo           │
+  │ Examples │ Fish bites bait│ Dog finds home │ Einstein + physics │
+  │          │ Bee finds nectar│ Mouse in maze  │ Religion           │
   │          │                │                │ Startup vision     │
   └──────────┴────────────────┴────────────────┴────────────────────┘
 
-  ⭐ ANCHOR-SCHEMA = CONCEPT XUYÊN SUỐT:
-    → Tầng 0: anchor = compiled stimulus-response (primitive)
-    → Tầng 1: anchor = hippocampal near-future goal (basic)
-    → Tầng 2: anchor = PFC-directed multi-scale purpose (full)
-    → = CÙNG FUNCTION (sync point cho hệ thống)
-    → = KHÁC CAPACITY (tùy hardware complexity)
-    → = Evolution: Tầng 0 (500M năm) → Tầng 1 (200M năm) → Tầng 2 (2M năm)
+  ⭐ ANCHOR-SCHEMA IS A CROSS-CUTTING CONCEPT:
+    → Tier 0: anchor = compiled stimulus-response (primitive)
+    → Tier 1: anchor = hippocampal near-future goal (basic)
+    → Tier 2: anchor = PFC-directed multi-scale purpose (full)
+    → = SAME FUNCTION (sync point for the system)
+    → = DIFFERENT CAPACITY (depends on hardware complexity)
+    → = Evolution: Tier 0 (~500M years) → Tier 1 (~200M years) → Tier 2 (~2M years)
 
   🟢 Associative learning across species = established
   🟢 Hippocampal spatial navigation = O'Keefe & Nadel 1978 (Nobel 2014)
   🟢 Hippocampal preplay = Pfeiffer & Foster 2013
   🟢 PFC goal maintenance = Miller & Cohen 2001
-  🟢 PFC evolution = comparative neuroscience (Semendeferi et al. 2002)
-  🟡 3 tầng classification = framework model
-  🟡 "Cùng function, khác capacity" = framework principle
-  🟡 "Giá của PFC" = framework observation
+  🟢 PFC evolution comparative = Semendeferi et al. 2002
+  🟡 3 tiers classification = framework model
+  🟡 "Same function, different capacity" = framework principle
+  🟡 "The price of PFC" = framework observation
 ```
 
 ---
 
-## §5 — HISTORICAL: XÃ HỘI PHỨC TẠP → CẦN ANCHOR MẠNH HƠN
+## §5 — HISTORICAL: INCREASING SOCIAL COMPLEXITY → NEED FOR STRONGER ANCHORS
 
 ```
-NGUYÊN LÝ CỐT LÕI:
+CORE PRINCIPLE:
 
-  Complexity MÔI TRƯỜNG tăng → schemas CẠNH TRANH tăng
-  → dàn nhạc KHÓ SYNC hơn → CẦN Anchor-Schema MẠNH hơn
+  Environmental COMPLEXITY increases → competing schemas increase
+  → orchestra is HARDER to sync → NEED a STRONGER Anchor-Schema
 
-  = "Dàn nhạc 5 người sync DỄ. Dàn nhạc 5000 người sync CẦN main player TO."
+  = "Syncing an orchestra of 5 people is EASY. Syncing an orchestra of 5,000 needs a LOUD main player."
 
 
 ═══════════════════════════════════════════════════════
-PREHISTORIC (hàng triệu năm → ~12,000 năm trước)
+PREHISTORIC (millions of years → ~12,000 years ago)
 ═══════════════════════════════════════════════════════
 
-  Môi trường:
-    → Nhóm nhỏ (50-150 người — Dunbar's number)
-    → Schemas social ÍT (50-150 người = limited social complexity)
-    → Threats: concrete, acute (predator, weather, hunger)
-    → = Dàn nhạc NHỎ → ÍT nhạc sĩ → tự sync DỄ
+  Environment:
+    → Small groups (50–150 people — Dunbar's number)
+    → Few social schemas (50–150 people = limited social complexity)
+    → Threats: concrete, acute (predators, weather, hunger)
+    → = SMALL orchestra → FEW musicians → self-syncing is EASY
 
-  Anchor-Schema cần: THẤP
-    → Phần lớn = Tầng 0-1 (compiled + hippocampal)
-    → Micro-anchor đủ (ăn, ngủ, an toàn, giao phối)
-    → Life-anchor chưa cần (xã hội không đặt yêu cầu trừu tượng)
-    → PFC (Tầng 2) tham gia: tool-making, basic planning, social strategy
-    → = Anchor SẴN cho hầu hết tình huống → dissonance THẤP
+  Anchor-Schema needed: LOW
+    → Mostly = Tiers 0–1 (compiled + hippocampal)
+    → Micro-anchors sufficient (eat, sleep, safety, reproduction)
+    → Life-anchors not yet needed (society didn't impose abstract demands)
+    → PFC (Tier 2) participates in: tool-making, basic planning, social strategy
+    → = Anchor AVAILABLE for most situations → dissonance LOW
 
-  TÔN GIÁO sơ khai CÓ — nhưng đơn giản:
-    → Animism, shamanism: giải thích cái chưa biết
-    → Chôn cất có đồ tùy táng (~100,000 năm trước)
-    → Göbekli Tepe (~11,600 Background-Pattern): ritual site TRƯỚC nông nghiệp
-    → = Con người ĐÃ CẦN anchor cho "cái không giải thích được"
-    → = NHƯNG: anchor CƠ BẢN (local spirit, ancestor worship)
-    → = Chưa cần hệ thống LỚN vì xã hội chưa phức tạp
+  EARLY RELIGION EXISTED — but was simple:
+    → Animism, shamanism: explaining the unknown
+    → Burial with grave goods (~100,000 years ago)
+    → Göbekli Tepe (~11,600 BP): ritual site BEFORE agriculture
+    → = Humans ALREADY NEEDED anchors for "what can't be explained"
+    → = BUT: anchors were BASIC (local spirits, ancestor worship)
+    → = Large systems not yet needed because society wasn't yet complex
 
   🟢 Dunbar's number (~150) = established (Dunbar 1992)
   🟢 Göbekli Tepe pre-agricultural ritual = established (Schmidt 2000)
 
 
 ═══════════════════════════════════════════════════════
-NÔNG NGHIỆP + THÀNH THỊ (~12,000 → ~300 năm trước)
+AGRICULTURE + CIVILIZATION (~12,000 → ~300 years ago)
 ═══════════════════════════════════════════════════════
 
-  ⭐ INFLECTION POINT — xã hội PHỨC TẠP HÓA
+  ⭐ INFLECTION POINT — SOCIETY BECOMES COMPLEX
 
-  Thay đổi:
-    → Nhóm: 150 → hàng nghìn → hàng triệu
-    → Hierarchy: rank, role, caste → social threat XUẤT HIỆN
-    → Property: "của tôi" → territory → conflict
-    → Comparison: "mình so với ai?" → status schemas TĂNG
-    → Rules: luật, đạo đức, chuẩn mực → schemas ĐẠO ĐỨC tăng
-    → = DÀN NHẠC TO HƠN → nhiều nhạc sĩ → KHÓ SYNC
+  Changes:
+    → Groups: 150 → thousands → millions
+    → Hierarchy: rank, role, caste → social threat EMERGES
+    → Property: "mine" → territory → conflict
+    → Comparison: "how do I compare?" → status schemas INCREASE
+    → Rules: laws, ethics, norms → MORAL schemas increase
+    → = ORCHESTRA GROWS → more musicians → HARDER to sync
 
-  Anchor-Schema cần: TĂNG RÕ RỆT
-    → KHÔNG CHỈ micro (ăn, ngủ) → CẦN: "Tôi LÀ AI trong hệ thống LỚN?"
-    → Social threats mới: status, role, belonging → cần anchor chống threats
-    → Compiled schemas cũ (prehistoric) KHÔNG ĐỦ cho xã hội mới
-    → PFC cần tham gia NHIỀU HƠN → nhưng phần lớn người KHÔNG ĐỦ chunks
-    → = CẦN anchor PROVIDER bên ngoài
+  Anchor-Schema needed: INCREASES NOTICEABLY
+    → NOT JUST micro (eat, sleep) → NEED: "WHO AM I in this LARGE system?"
+    → New social threats: status, role, belonging → need anchors against threats
+    → Old compiled schemas (prehistoric) INSUFFICIENT for the new society
+    → PFC needs to participate MORE → but most people don't have ENOUGH chunks
+    → = NEED an anchor PROVIDER from outside
 
-  ⭐ TÔN GIÁO TỔ CHỨC = ANCHOR-SCHEMA PROVIDER QUY MÔ LỚN:
+  ⭐ ORGANIZED RELIGION = LARGE-SCALE ANCHOR-SCHEMA PROVIDER:
 
-    Tại sao EMERGE (không phải ngẫu nhiên):
-      → Xã hội > 150 người → cooperation khó → CẦN shared anchor
-      → 🟢 Norenzayan "Big Gods" (2013): moralizing gods emerge với xã hội lớn
-      → 🟢 Whitehouse et al. 2019 (Nature): Seshat Databank confirms pattern
-      → = Tôn giáo = GIẢI PHÁP EMERGENT cho vấn đề "quá nhiều người, cần sync"
+    Why it EMERGED (not by chance):
+      → Society > 150 people → cooperation difficult → NEED shared anchor
+      → 🟢 Norenzayan "Big Gods" (2013): moralizing gods emerge with large societies
+      → 🟢 Whitehouse et al. 2019 (Nature): Seshat Databank confirms the pattern
+      → = Religion = EMERGENT SOLUTION to the problem of "too many people, need to sync"
 
-    Tôn giáo LÀM GÌ (lens Anchor-Schema):
+    What religion DOES (through the Anchor-Schema lens):
 
-      ① CUNG CẤP ANCHOR CHUNG:
-        → "Thiên đàng" / "Nirvana" / "Cực Lạc" = shared Anchor-Schema
-        → TOÀN XÃ HỘI sync CÙNG 1 main player
-        → = Dàn nhạc 1 triệu người CÓ cùng main player → sync ĐỦ TỐT
-        → Mechanism: Nguồn ④ External Inject (repeat + ritual + social + emotion)
+      ① PROVIDES A SHARED ANCHOR:
+        → "Heaven" / "Nirvana" / "Pure Land" = shared Anchor-Schema
+        → THE ENTIRE SOCIETY syncs to THE SAME main player
+        → = An orchestra of 1 million people HAS the same main player → sync GOOD ENOUGH
+        → Mechanism: Source ④ External Inject (repeat + ritual + social + emotion)
 
-      ② CUNG CẤP TRUST UNFALSIFIABLE:
-        → "Thiên đàng có thật" → domain fit ? (KHÔNG THỂ CHECK)
-        → KHÔNG domain feedback nào PHẢN BÁC được
-        → → Trust = ∞ (không có gì phá được)
-        → = Anchor CỰC BỀN — không bao giờ collapse từ domain feedback
-        → = Tại sao tôn giáo TỒN TẠI HÀNG NGHÌN NĂM
+      ② PROVIDES UNFALSIFIABLE TRUST:
+        → "Heaven is real" → domain fit ? (CANNOT BE CHECKED)
+        → NO domain feedback can REFUTE it
+        → → Trust = ∞ (nothing can break it)
+        → = Anchor EXTREMELY DURABLE — never collapses from domain feedback
+        → = Why religion HAS LASTED FOR THOUSANDS OF YEARS
 
-      ③ GIẢM PFC COST (rules sẵn):
-        → "Phải/không phải" = schemas ĐẠO ĐỨC compiled SẴN
-        → PFC KHÔNG CẦN deliberate mỗi quyết định đạo đức
-        → = Giảm decision cost → giảm dissonance → melody smooth hơn
-        → = "Sống theo giáo lý" = auto-pilot CHO ĐẠO ĐỨC
+      ③ REDUCES PFC COST (rules already given):
+        → "Must / must not" = MORAL schemas compiled and READY
+        → PFC does NOT need to deliberate each ethical decision
+        → = Reduces decision cost → reduces dissonance → melody smoother
+        → = "Living by the doctrine" = moral auto-pilot
 
-      ④ GIẢM EXISTENTIAL THREAT:
-        → "Chết → tiếp tục" → L0 threat BỚT → cortisol GIẢM
+      ④ REDUCES EXISTENTIAL THREAT:
+        → "Death → continuation" → L0 threat DIMINISHES → cortisol DECREASES
         → 🟢 TMT (Greenberg et al. 1986): religion = anxiety buffer
         → 🟢 Jong et al. 2012: religion → lower death anxiety
-        → = Anchor "ý nghĩa vượt cái chết" → smooth L0 threat
+        → = Anchor "meaning that transcends death" → smooths L0 threat
 
-      ⑤ CUNG CẤP COMMUNITY SYNC:
-        → Giáo đường, nhà thờ, đền chùa → cùng ritual → cùng anchor
-        → = Nhiều dàn nhạc CÁ NHÂN sync VỚI NHAU
+      ⑤ PROVIDES COMMUNITY SYNC:
+        → Mosques, churches, temples → shared ritual → shared anchor
+        → = Many INDIVIDUAL orchestras sync WITH EACH OTHER
         → = Global-Melody.md: shared Anchor-Schema = group harmony
 
-    → Tôn giáo = ①②③④⑤ = FULL PACKAGE anchor provider
-    → KHÔNG NGẪU NHIÊN mọi nền văn minh lớn đều CÓ tôn giáo
-    → = Nhu cầu ĐÁYCỦA vô thức (cần anchor) + supply tôn giáo (provide anchor)
+    → Religion = ①②③④⑤ = FULL PACKAGE anchor provider
+    → NOT BY CHANCE that every major civilization HAS had religion
+    → = The DEEPEST NEED of the unconscious (needs anchor) + supply of religion (provides anchor)
 
-  CÁC ANCHOR PROVIDER KHÁC (không chỉ tôn giáo):
-    → Nhà nước: "tin vào hệ thống" → anchor vào order, luật pháp
-    → Chủ nghĩa: "cách mạng thành công" → anchor vào ideology
-    → Gia tộc: "danh dự gia đình" → anchor vào lineage
-    → Samurai bushido: "danh dự = ý nghĩa" → anchor vào code
-    → Thiên tử: "vua = trời" → anchor vào authority divine
-    → = TẤT CẢ = external anchor provider cho collective sync
+  OTHER ANCHOR PROVIDERS (not just religion):
+    → The state: "trust the system" → anchor in order, law
+    → Ideology: "the revolution will succeed" → anchor in ideology
+    → Clan / lineage: "family honor" → anchor in lineage
+    → Samurai bushido: "honor = meaning" → anchor in the code
+    → The Son of Heaven: "emperor = heaven" → anchor in divine authority
+    → = ALL = external anchor providers for collective sync
 
   🟢 "Big Gods" + social complexity (Norenzayan 2013, Whitehouse 2019)
   🟢 Religion as anxiety buffer (TMT: Greenberg 1986, Jong 2012)
-  🟡 "Tôn giáo = anchor provider" = framework interpretation
-  🟡 "Emerge từ nhu cầu sync" = framework analysis, consistent with data
+  🟡 "Religion = anchor provider" = framework interpretation
+  🟡 "Emerged from sync need" = framework analysis, consistent with data
 
 
 ═══════════════════════════════════════════════════════
-HIỆN ĐẠI (~300 năm → nay, đặc biệt ~30 năm)
+MODERN ERA (~300 years → present, especially ~30 years)
 ═══════════════════════════════════════════════════════
 
-  ⭐ INFLECTION POINT THỨ 2 — PHỨC TẠP NHẤT LỊCH SỬ
+  ⭐ SECOND INFLECTION POINT — THE MOST COMPLEX IN HISTORY
 
-  Thay đổi:
-    → Information: TRIỆU lần nhiều hơn 300 năm trước
-    → Choices: vô số career, lifestyle, relationship options
-    → Social comparison: 24/7 qua MXH → status threat LIÊN TỤC
-    → External inject: CỰC NHIỀU sources cùng lúc (MXH, quảng cáo, news, peers)
-    → Schemas CẠNH TRANH: CỰC NHIỀU
+  Changes:
+    → Information: MILLIONS of times more than 300 years ago
+    → Choices: countless career, lifestyle, relationship options
+    → Social comparison: 24/7 via social media → status threat CONTINUOUS
+    → External inject: EXTREMELY MANY sources simultaneously (social media, ads, news, peers)
+    → Competing schemas: EXTREMELY MANY
       (career + relationship + health + finance + social + political + spiritual)
-    → = DÀN NHẠC CỰC TO + NHIỀU external inject CÙNG LÚC
+    → = EXTREMELY LARGE orchestra + MANY external injects SIMULTANEOUSLY
 
-  ANCHOR-SCHEMA CẦN: MẠNH NHẤT LỊCH SỬ
-    → Nhiều schemas cạnh tranh nhất → cần sync point MẠNH nhất
-    → Nhiều external inject nhất → cần INTERNAL anchor MẠNH nhất
-      (nếu không → bị external kéo mỗi hướng 1 tí → cacophony)
-    → Social threat phức tạp nhất → cần direction RÕ nhất
+  ANCHOR-SCHEMA NEEDED: STRONGEST IN HISTORY
+    → Most competing schemas ever → need the strongest sync point ever
+    → Most external injects ever → need the STRONGEST INTERNAL anchor
+      (without it → pulled slightly in every external direction → cacophony)
+    → Most complex social threats ever → need the CLEAREST direction
 
-  NHƯNG ANCHOR CŨNG KHÓ TÌM NHẤT:
+  BUT ANCHORS ARE ALSO HARDEST TO FIND:
 
-    Tôn giáo GIẢM hiệu lực:
-      → Knowledge tăng → domain check → "thiên đàng thật không?"
-      → Giới trẻ: tôn giáo giảm (secularization trend toàn cầu)
-      → = Anchor UNFALSIFIABLE bị question → trust GIẢM
-      → = Mất anchor provider TRUYỀN THỐNG lớn nhất
+    Religion LOSES EFFECTIVENESS:
+      → Knowledge increases → domain check → "is heaven real?"
+      → Young people: religion declining (secularization trend globally)
+      → = UNFALSIFIABLE anchor being questioned → trust DECREASES
+      → = Lost the LARGEST TRADITIONAL anchor provider
 
-    Meritocracy THAY THẾ nhưng FALSIFIABLE:
-      → "Cố gắng = thành công" = anchor MỚI (meritocracy)
-      → NHƯNG: falsifiable → domain check → "cố rồi mà không được"
-      → = Anchor meritocracy BỊ PHÁ khi domain feedback ✗
-      → = Tại sao "meaning crisis" ở thế hệ trẻ: mất cả 2 anchor
+    Meritocracy REPLACES IT but is FALSIFIABLE:
+      → "Hard work = success" = NEW anchor (meritocracy)
+      → BUT: falsifiable → domain check → "worked hard but didn't succeed"
+      → = Meritocracy anchor BROKEN when domain feedback ✗
+      → = Why "meaning crisis" in younger generations: lost both anchors
 
     Paradox of Choice (Schwartz 2004):
-      → Quá nhiều options → KHÔNG CHỌN ĐƯỢC → anchor KHÔNG HÌNH THÀNH
-      → = PFC overloaded bởi ③④ candidates → decision paralysis
+      → Too many options → CANNOT CHOOSE → anchor DOESN'T FORM
+      → = PFC overloaded by ③④ candidates → decision paralysis
       → 🟢 Iyengar & Lepper 2000: more choices → less satisfaction
 
-    MXH = ANTI-ANCHOR machine:
-      → Mỗi scroll = 1 external inject MỚI → anchor cũ bị TEST
-      → "Scroll → thấy bạn startup → thấy bạn du lịch → thấy bạn gia đình"
-        → 3 anchors KHÁC NHAU trong 30 giây → trust vào ANCHOR HIỆN TẠI giảm
-      → = MXH KHÔNG cung cấp anchor → MXH PHÁ anchor
-        (bằng cách liên tục expose alternatives → §2 Trust Break ④)
+    Social media = ANTI-ANCHOR machine:
+      → Each scroll = 1 NEW external inject → old anchor IS TESTED
+      → "Scroll → see friend launching startup → see friend traveling → see friend with family"
+        → 3 DIFFERENT anchors in 30 seconds → trust in CURRENT ANCHOR decreases
+      → = Social media does NOT provide anchors → social media DESTROYS anchors
+        (by constantly exposing alternatives → §2 Trust Break ④)
 
   ⭐ MODERN PARADOX:
-    → CẦN anchor MẠNH NHẤT (vì complexity + inject + social threats)
-    → NHƯNG anchor KHÓ TÌM NHẤT (mất tôn giáo, meritocracy falsified, MXH phá)
+    → NEED the STRONGEST anchor (because of complexity + inject + social threats)
+    → BUT anchors are the HARDEST TO FIND (religion lost, meritocracy falsified, social media destroys)
     → = "Meaning crisis" (John Vervaeke):
-      → Không còn tin tôn giáo + không còn tin meritocracy → "TIN GÌ?"
-      → PFC scan nhưng quá nhiều options + quá nhiều inject → overload
-      → = Anchor-Schema THIẾU → dàn nhạc cacophony → anxiety epidemic
+      → No longer believe in religion + no longer believe in meritocracy → "WHAT TO BELIEVE IN?"
+      → PFC scans but too many options + too many injects → overload
+      → = Anchor-Schema MISSING → orchestra cacophony → anxiety epidemic
 
-    → NHƯNG: self-trust (self-knowledge + body-base confirm) VẪN LÀ ANCHOR:
-      → "Tôi biết mình muốn gì" = internal Anchor-Schema
-      → = CẦN: đủ chunks tự hiểu + đủ experience body confirm
-      → = Tại sao self-knowledge = SKILL QUAN TRỌNG NHẤT thời hiện đại
-      → = Tại sao meditation, journaling, therapy TĂNG popularity:
-        = TOOLS giúp build INTERNAL anchor khi external anchor mất
+    → BUT: self-trust (self-knowledge + body-base confirms) IS STILL AN ANCHOR:
+      → "I know what I want" = internal Anchor-Schema
+      → = NEEDS: enough chunks to understand yourself + enough experience to confirm with body
+      → = Why self-knowledge = THE MOST IMPORTANT SKILL in the modern era
+      → = Why meditation, journaling, therapy are INCREASING in popularity:
+        = TOOLS to help build INTERNAL anchor when external anchors are gone
 
   🟢 Secularization trend = established (Inglehart 2020)
   🟢 Paradox of Choice (Schwartz 2004)
@@ -1372,144 +1370,146 @@ HIỆN ĐẠI (~300 năm → nay, đặc biệt ~30 năm)
   🟢 Purpose → lower anxiety + mortality (Czekierda 2017, Cohen 2016)
   🟢 Social media → social comparison → lower wellbeing (Vogel 2014)
   🟡 "Meaning crisis" = Vervaeke's analysis, framework-consistent
-  🟡 "MXH = anti-anchor" = framework analysis
-  🟡 "Self-knowledge = skill quan trọng nhất" = framework emphasis
+  🟡 "Social media = anti-anchor" = framework analysis
+  🟡 "Self-knowledge = most important skill" = framework emphasis
   🟡 Historical trajectory (prehistoric → modern) = framework interpretation
 ```
 
 ---
 
-## §5.5 — KHÔNG CÓ ANCHOR-SCHEMA: KHI DÀN NHẠC MẤT SYNC
+## §5.5 — WHEN THERE IS NO ANCHOR-SCHEMA: WHEN THE ORCHESTRA LOSES SYNC
 
 ```
-⭐ SECTION NÀY MÔ TẢ: chuyện gì xảy ra khi THIẾU Anchor-Schema
-   = "Dàn nhạc không có main player"
+⭐ THIS SECTION DESCRIBES: what happens when Anchor-Schema is MISSING
+   = "Orchestra with no main player"
 
 
-3 MỨC "THIẾU" — PHỔ LIÊN TỤC:
-
-  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  MỨC 1 — ANCHOR YẾU: dàn nhạc sync MỜ NHẠT
-  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-    → CÓ anchor nhưng KHÔNG đủ mạnh → sync PARTIAL
-    → Một số nhạc sĩ theo → một số tự chơi → "hơi lộn xộn"
-
-    Cảm giác: "Đi làm bình thường, không ghét nhưng cũng không thích"
-    Body-base: dissonance NHẸ, chronic, background
-    PFC: "Chắc ổn..." (rationalize, không re-evaluate sâu)
-
-    VD: người đi làm "cho có":
-      → Anchor: "lương" (compiled — weak nhưng real)
-      → Trust: thấp (lương = reward NHỎ, không excite)
-      → Dàn nhạc: sync MỜ → "sống được" nhưng "thiếu gì đó"
-      → = Boredom-Analysis §1 Loại 2: "rõ ràng nhưng stuck"
-
-    Duration: CÓ THỂ KÉO DÀI NHIỀU NĂM (vì không đau ĐỦ để thay đổi)
-    Risk: "sống mà như không sống" — functional nhưng KHÔNG thrive
-
+3 LEVELS OF "MISSING" — A CONTINUOUS SPECTRUM:
 
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  MỨC 2 — ANCHOR THIẾU: dàn nhạc KHÔNG SYNC
+  LEVEL 1 — WEAK ANCHOR: orchestra syncs FAINTLY
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-    → KHÔNG CÓ anchor nào ĐỦ → mỗi nhạc sĩ tự chơi
-    → = Cacophony → body signal: dissonance RÕ
+    → HAS an anchor but NOT strong enough → sync is PARTIAL
+    → Some musicians follow → some play independently → "slightly chaotic"
 
-    Cảm giác: "Chán quá, không biết làm gì"
-    Body-base: dissonance RÕ, ACTIVE, foreground
-    PFC: scan nhưng KHÔNG TÌM ĐƯỢC candidate đủ tốt
+    Feeling: "Going to work normally, don't hate it but don't like it either"
+    Body-base: MILD dissonance, chronic, in the background
+    PFC: "I guess it's fine..." (rationalizes, doesn't re-evaluate deeply)
 
-    2 PHẢN ỨNG:
+    Example: person going through the motions at work:
+      → Anchor: "salary" (compiled — weak but real)
+      → Trust: low (salary = SMALL reward, nothing exciting)
+      → Orchestra: syncs FAINTLY → "survivable" but "something is missing"
+      → = Boredom-Analysis §1 Type 2: "clear but stuck"
 
-      SCATTER (chạy nhiều hướng):
-        → PFC: "phải làm gì đó!" → thử X → thử Y → thử Z
-        → KHÔNG thử đủ sâu → không domain feedback → không build chunks
-        → = "Bận rộn mà không đi đâu"
-        → VD: scroll phone → chuyển app → xem video → chuyển topic
-          → = Mỗi thứ = micro-anchor TẠM → mất ngay → thử cái mới
+    Duration: CAN LAST FOR MANY YEARS (because not painful ENOUGH to change)
+    Risk: "existing without living" — functional but NOT thriving
 
-      FREEZE (đông cứng):
-        → "Phải hành động" + "không biết gì" = OVERLOAD
+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  LEVEL 2 — MISSING ANCHOR: orchestra DOESN'T SYNC
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    → NO anchor is SUFFICIENT → each musician plays independently
+    → = Cacophony → body signal: CLEAR dissonance
+
+    Feeling: "So bored, don't know what to do"
+    Body-base: CLEAR dissonance, ACTIVE, in the foreground
+    PFC: scanning but CANNOT FIND a sufficient candidate
+
+    2 RESPONSES:
+
+      SCATTER (run in many directions):
+        → PFC: "have to do something!" → tries X → tries Y → tries Z
+        → DOESN'T try deeply enough → no domain feedback → doesn't build chunks
+        → = "Busy going nowhere"
+        → Example: scroll phone → switch app → watch video → switch topic
+          → = Each thing = TEMPORARY micro-anchor → lost immediately → tries something new
+
+      FREEZE:
+        → "Must take action" + "don't know what" = OVERLOAD
         → PFC: paralysis → cannot choose → inaction
         → Body: anxiety + inaction → WORSENING dissonance
-        → VD: sinh viên lớp 12 chọn nghề: "phải chọn" + "không biết thích gì"
-          → Freeze → deadline tới → chọn random → Mismatch risk
+        → Example: high school senior choosing a major: "have to choose" + "don't know what I like"
+          → Freezes → deadline arrives → chooses randomly → Mismatch risk
 
-    Duration: tuần → tháng (nếu không resolve)
+    Duration: weeks → months (if not resolved)
     Risk: depression onset, anxiety disorder, "lost generation"
-    = Boredom-Analysis §1 Loại 1 + Loại 3
+    = Boredom-Analysis §1 Types 1 + 3
 
 
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  MỨC 3 — ANCHOR CONFLICT: dàn nhạc BỊ XÉ
+  LEVEL 3 — ANCHOR CONFLICT: orchestra is TORN
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-    → NHIỀU anchor CÙNG LÚC, KHÁC HƯỚNG
-    → = Dàn nhạc bị KÉO nhiều phía → TỆ HƠN không có anchor
+    → MULTIPLE anchors SIMULTANEOUSLY, DIFFERENT DIRECTIONS
+    → = Orchestra PULLED many ways → WORSE than having no anchor
 
-    Cảm giác: "Muốn A nhưng phải B, nên làm C, người ta nói D"
-    Body-base: dissonance MẠNH + contradictory drives
+    Feeling: "Want A but must do B, should do C, others say D"
+    Body-base: STRONG dissonance + contradictory drives
     PFC: OVERLOADED (multiple candidates, cannot resolve conflict)
 
-    VD điển hình — modern:
-      → Compiled anchor ③: "công việc hiện tại safe" → stay
-      → PFC Imagine-Final ①: "muốn đổi nghề" → change
-      → External inject ④: "bạn bè startup" → thử startup
-      → External inject ④: "bố mẹ nói ổn định" → stay safe
-      → = 4 ANCHORS, 3 HƯỚNG KHÁC NHAU → xé dàn nhạc
+    Typical example — modern:
+      → Compiled anchor ③: "current job is safe" → stay
+      → PFC Imagine-Final ①: "want to change careers" → change
+      → External inject ④: "friends are launching startups" → try a startup
+      → External inject ④: "parents say be stable" → stay safe
+      → = 4 ANCHORS, 3 DIFFERENT DIRECTIONS → orchestra torn
 
-    VD điển hình — VN context:
-      → Con: body-base muốn vẽ (③ compiled "vẽ = pleasant")
-      → Bố mẹ: inject "phải làm bác sĩ" (④ repeat + guilt)
-      → Xã hội: inject "phải giàu" (④ social pressure)
-      → = 3 anchors, 3 hướng → con BỊ XÉ
-      → = Double/triple dissonance → TỆ HƠN chỉ thiếu anchor
+    Typical example — Vietnamese cultural context:
+      → Child: body-base wants to draw (③ compiled "drawing = pleasant")
+      → Parents: inject "must become a doctor" (④ repetition + guilt)
+      → Society: inject "must get rich" (④ social pressure)
+      → = 3 anchors, 3 directions → child is TORN
+      → = Double/triple dissonance → WORSE than just missing an anchor
 
-    Tại sao CONFLICT TỆ HƠN THIẾU:
-      → Thiếu anchor → dàn nhạc tự chơi → cacophony (khó chịu)
-      → Conflict anchors → dàn nhạc bị KÉO → STRAIN (đau)
-      → = Cacophony = noise → Conflict = tension → tension HẠI HƠN noise
-      → = Body resource BỊ TIÊU HAO bởi conflict (cortisol từ CONFLICT,
-        không chỉ từ THIẾU)
-      → = Tại sao "biết muốn gì nhưng không được phép"
-        TỆ HƠN "không biết muốn gì"
+    Why CONFLICT IS WORSE THAN MISSING:
+      → Missing anchor → orchestra plays freely → cacophony (uncomfortable)
+      → Conflicting anchors → orchestra is PULLED → STRAIN (painful)
+      → = Cacophony = noise → Conflict = tension → tension IS MORE HARMFUL than noise
+      → = Body resources CONSUMED by conflict (cortisol from CONFLICT,
+        not just from MISSING)
+      → = Why "knowing what I want but not being allowed"
+        IS WORSE THAN "not knowing what I want"
 
-    Duration: tháng → năm (nếu conflict sources KHÔNG giải quyết)
+    Duration: months → years (if conflict sources are NOT resolved)
     Risk: burnout, chronic anxiety, relationship breakdown
-    Fix: RESOLVE conflict — hoặc 1 anchor THẮNG, hoặc RECONCILE anchors
+    Fix: RESOLVE conflict — either 1 anchor WINS, or RECONCILE the anchors
 
 
-TỔNG HỢP — PHỔ THIẾU ANCHOR:
+SUMMARY — MISSING ANCHOR SPECTRUM:
 
   ┌─────────────┬─────────────┬──────────────┬────────────────────┐
-  │             │ Mức 1: YẾU  │ Mức 2: THIẾU│ Mức 3: CONFLICT   │
+  │             │ Level 1:    │ Level 2:     │ Level 3:           │
+  │             │ WEAK        │ MISSING      │ CONFLICT           │
   ├─────────────┼─────────────┼──────────────┼────────────────────┤
-  │ Anchor      │ CÓ nhưng yếu│ KHÔNG CÓ    │ NHIỀU + xung đột  │
-  │ Dàn nhạc   │ Sync mờ     │ Không sync   │ BỊ XÉ nhiều hướng │
-  │ Dissonance  │ Nhẹ, chronic│ Rõ, active   │ MẠNH, contradictory│
-  │ Cảm giác   │ "Thiếu gì đó"│ "Chán/lost" │ "Muốn A phải B"   │
-  │ PFC        │ Rationalize  │ Scan fail    │ Overloaded         │
-  │ Phản ứng   │ Auto-pilot  │ Scatter/freeze│ Oscillate/strain  │
-  │ Duration   │ Năm         │ Tuần-tháng   │ Tháng-năm          │
-  │ Risk       │ "Tồn tại    │ Depression,  │ Burnout, anxiety,  │
-  │            │  không sống" │ lost         │ relationship break │
+  │ Anchor      │ YES but weak│ NONE         │ MANY + conflicting │
+  │ Orchestra   │ Faint sync  │ No sync      │ PULLED many ways   │
+  │ Dissonance  │ Mild, chronic│ Clear, active│ STRONG, contradictory│
+  │ Feeling     │ "Something  │ "Bored/lost" │ "Want A must do B" │
+  │             │  is missing"│              │                    │
+  │ PFC         │ Rationalizes│ Scan fails   │ Overloaded         │
+  │ Response    │ Auto-pilot  │ Scatter/freeze│ Oscillate/strain  │
+  │ Duration    │ Years       │ Weeks-months │ Months-years       │
+  │ Risk        │ "Existing   │ Depression,  │ Burnout, anxiety,  │
+  │             │  not living" │ lost         │ relationship break │
   ├─────────────┼─────────────┼──────────────┼────────────────────┤
-  │ Fix        │ Build stronger│ Tìm anchor  │ Resolve conflict:  │
-  │            │ anchor       │ (thử, expose)│ 1 thắng hoặc      │
-  │            │              │              │ reconcile          │
+  │ Fix         │ Build a     │ Find an      │ Resolve conflict:  │
+  │             │ stronger    │ anchor       │ 1 wins OR          │
+  │             │ anchor      │ (try, expose)│ reconcile          │
   └─────────────┴─────────────┴──────────────┴────────────────────┘
 
-  ⭐ MỨC 3 (CONFLICT) ĐANG PHỔ BIẾN NHẤT Ở XÃ HỘI HIỆN ĐẠI:
-    → Vì: external inject NHIỀU (④) + compiled schemas (③) + PFC ideas (①)
-      → = NHIỀU candidates, NHIỀU hướng, CONFLICT tăng
-    → = "Paradox of choice" KHÔNG CHỈ là quá nhiều options
-    → = Mà là quá nhiều ANCHOR CANDIDATES conflict nhau
-    → = Fix hiện đại: self-knowledge → biết ANCHOR NÀO là CỦA MÌNH
-      → = Giảm conflict bằng CHỌN internal (③①) thay vì theo external (④)
+  ⭐ LEVEL 3 (CONFLICT) IS THE MOST COMMON IN MODERN SOCIETY:
+    → Because: many external injects (④) + compiled schemas (③) + PFC ideas (①)
+      → = MANY candidates, MANY directions, CONFLICT INCREASES
+    → = "Paradox of choice" is NOT JUST having too many options
+    → = But having too many ANCHOR CANDIDATES in conflict
+    → = Modern fix: self-knowledge → knowing WHICH ANCHOR IS MINE
+      → = Reduce conflict by CHOOSING internal (③①) instead of following external (④)
 
-  🟡 3 mức "thiếu anchor" = framework classification
-  🟡 "Conflict tệ hơn thiếu" = framework analysis, consistent with
+  🟡 3 levels of "missing anchor" = framework classification
+  🟡 "Conflict is worse than missing" = framework analysis, consistent with
      approach-avoidance conflict research (Miller 1944, Lewin 1935)
   🟢 Approach-avoidance conflict → anxiety (established)
   🟢 Decision conflict → cortisol (Starcke & Brand 2012)
@@ -1521,63 +1521,63 @@ TỔNG HỢP — PHỔ THIẾU ANCHOR:
 ## §6 — HONEST ASSESSMENT
 
 ```
-TOÀN FILE — ĐÁNH GIÁ TRUNG THỰC:
+ENTIRE FILE — HONEST EVALUATION:
 
 
 🟢 VERIFIED (research support):
 
   ┌────────────────────────────────────────────────────────────────┐
-  │ NEUROSCIENCE — sync + goal maintenance:                       │
-  │   PFC maintains goal representations → bias processing        │
-  │     (Miller & Cohen 2001, Annual Review of Neuroscience)      │
-  │   Global Workspace Theory: PFC broadcast → whole-brain sync   │
-  │     (Baars 1988)                                              │
-  │   Predictive processing: PFC set high-level priors            │
-  │     (Clark 2013, Friston free energy)                         │
-  │   Goal hierarchy + feedback control                           │
-  │     (Carver & Scheier 1998, control theory)                   │
-  │   Hippocampal preplay (Pfeiffer & Foster 2013)                │
-  │   Hippocampus necessary for imagination                       │
-  │     (Hassabis & Maguire 2007)                                 │
-  │   PFC directs, hippocampus constructs                         │
-  │     (Benoit & Schacter 2011)                                  │
-  │   NCL in birds = functional analog (Güntürkün 2005)           │
-  │   PFC evolution comparative (Semendeferi et al. 2002)         │
-  │   Spatial memory hippocampus (O'Keefe & Nadel 1978, Nobel)    │
-  │   Unconscious processing dominance                            │
-  │     (Dijksterhuis, Bargh — established)                       │
-  │                                                                │
-  │ TRUST / COMMITMENT:                                            │
-  │   Self-efficacy → persistence (Bandura 1977)                  │
-  │   Commitment → goal attainment (Locke & Latham 1990)          │
-  │   Intrinsic vs extrinsic outcomes (SDT: Deci & Ryan 2000)    │
-  │   Trust violation → ripple effect (Kim et al. 2004)           │
-  │   Social proof → belief amplification (Cialdini 2001)         │
-  │   Implicit learning / compiled knowledge (Reber 1993)         │
-  │   Expertise = compiled pattern recognition (Klein 1998)       │
-  │   Somatic Marker Hypothesis (Damasio 1994)                    │
-  │                                                                │
-  │ LEARNING / INJECT:                                             │
-  │   Associative learning across species (Pavlov → modern)       │
-  │   Emotional peak → memory consolidation (McGaugh 2004)        │
-  │   Social learning → schema acquisition (Bandura 1977)         │
-  │   Ritual → belief formation (Whitehouse 2004)                 │
-  │                                                                │
-  │ HISTORICAL / SOCIAL:                                           │
-  │   Dunbar's number ~150 (Dunbar 1992)                          │
-  │   "Big Gods" + social complexity                              │
-  │     (Norenzayan 2013, Whitehouse et al. 2019 Nature)          │
-  │   Religion as anxiety buffer (TMT: Greenberg 1986, Jong 2012) │
-  │   Secularization trend (Inglehart 2020)                       │
-  │   Paradox of Choice (Schwartz 2004, Iyengar & Lepper 2000)   │
-  │   Information overload (Eppler & Mengis 2004)                 │
-  │   Purpose → lower anxiety + mortality                         │
-  │     (Czekierda 2017, Cohen 2016 PNAS)                        │
-  │   Social media → lower wellbeing (Vogel 2014)                │
-  │   Approach-avoidance conflict → anxiety                       │
-  │     (Miller 1944, Lewin 1935)                                 │
-  │   Decision conflict → cortisol (Starcke & Brand 2012)        │
-  │   Göbekli Tepe pre-agricultural (Schmidt 2000)                │
+  │ NEUROSCIENCE — sync + goal maintenance:                        │
+  │   PFC maintains goal representations → bias processing         │
+  │     (Miller & Cohen 2001, Annual Review of Neuroscience)       │
+  │   Global Workspace Theory: PFC broadcast → whole-brain sync    │
+  │     (Baars 1988)                                               │
+  │   Predictive processing: PFC sets high-level priors            │
+  │     (Clark 2013, Friston free energy)                          │
+  │   Goal hierarchy + feedback control                            │
+  │     (Carver & Scheier 1998, control theory)                    │
+  │   Hippocampal preplay (Pfeiffer & Foster 2013)                 │
+  │   Hippocampus necessary for imagination                        │
+  │     (Hassabis & Maguire 2007)                                  │
+  │   PFC directs, hippocampus constructs                          │
+  │     (Benoit & Schacter 2011)                                   │
+  │   NCL in birds = functional analog (Güntürkün 2005)            │
+  │   PFC evolution comparative (Semendeferi et al. 2002)          │
+  │   Spatial memory hippocampus (O'Keefe & Nadel 1978, Nobel)     │
+  │   Unconscious processing dominance                             │
+  │     (Dijksterhuis, Bargh — established)                        │
+  │                                                                 │
+  │ TRUST / COMMITMENT:                                             │
+  │   Self-efficacy → persistence (Bandura 1977)                   │
+  │   Commitment → goal attainment (Locke & Latham 1990)           │
+  │   Intrinsic vs extrinsic outcomes (SDT: Deci & Ryan 2000)     │
+  │   Trust violation → ripple effect (Kim et al. 2004)            │
+  │   Social proof → belief amplification (Cialdini 2001)          │
+  │   Implicit learning / compiled knowledge (Reber 1993)          │
+  │   Expertise = compiled pattern recognition (Klein 1998)        │
+  │   Somatic Marker Hypothesis (Damasio 1994)                     │
+  │                                                                 │
+  │ LEARNING / INJECT:                                              │
+  │   Associative learning across species (Pavlov → modern)        │
+  │   Emotional peak → memory consolidation (McGaugh 2004)         │
+  │   Social learning → schema acquisition (Bandura 1977)          │
+  │   Ritual → belief formation (Whitehouse 2004)                  │
+  │                                                                 │
+  │ HISTORICAL / SOCIAL:                                            │
+  │   Dunbar's number ~150 (Dunbar 1992)                           │
+  │   "Big Gods" + social complexity                               │
+  │     (Norenzayan 2013, Whitehouse et al. 2019 Nature)           │
+  │   Religion as anxiety buffer (TMT: Greenberg 1986, Jong 2012)  │
+  │   Secularization trend (Inglehart 2020)                        │
+  │   Paradox of Choice (Schwartz 2004, Iyengar & Lepper 2000)    │
+  │   Information overload (Eppler & Mengis 2004)                  │
+  │   Purpose → lower anxiety + mortality                          │
+  │     (Czekierda 2017, Cohen 2016 PNAS)                         │
+  │   Social media → lower wellbeing (Vogel 2014)                 │
+  │   Approach-avoidance conflict → anxiety                        │
+  │     (Miller 1944, Lewin 1935)                                  │
+  │   Decision conflict → cortisol (Starcke & Brand 2012)         │
+  │   Göbekli Tepe pre-agricultural (Schmidt 2000)                 │
   └────────────────────────────────────────────────────────────────┘
 
 
@@ -1586,52 +1586,53 @@ TOÀN FILE — ĐÁNH GIÁ TRUNG THỰC:
   ┌────────────────────────────────────────────────────────────────┐
   │                                                                │
   │ FOUNDATIONAL:                                                  │
-  │   "Anchor-Schema = bottom-up requirement" concept mới         │
-  │   "Imagine-Final (top-down) ≠ Anchor-Schema (bottom-up)"     │
+  │   "Anchor-Schema = bottom-up requirement" — new concept        │
+  │   "Imagine-Final (top-down) ≠ Anchor-Schema (bottom-up)"      │
   │     distinction                                                │
-  │   "4 cases Imagine-Final không giải thích đủ" as motivation   │
-  │   6-step flow (dissonance → scan → imagine → evaluate →       │
+  │   "4 cases Imagine-Final doesn't cover adequately" as motivation│
+  │   6-step flow (dissonance → scan → imagine → evaluate →        │
   │     amplify → feedback)                                        │
-  │   "Bước ② = quan trọng nhất" (compiled handle ~80%)          │
+  │   "Step ② = most important" (compiled handles ~80%)           │
   │   Multi-scale anchor hierarchy (micro → life)                  │
-  │   Alignment across scales → flow; misalignment → "bận rộn    │
-  │     mà không đi đâu"                                          │
+  │   Alignment across scales → flow; misalignment →              │
+  │     "busy going nowhere"                                       │
   │                                                                │
   │ TRUST:                                                         │
-  │   "Trust = binding force" concept mới                         │
-  │   "3 chiều độc lập" (Clarity × Quality × Trust) model        │
-  │   Trust dynamics: build (4 ways) / break (4 ways) / rebuild   │
-  │   Positive trust vs negative trust mapping (approach/avoid)   │
-  │   "Body phản ánh trust chính xác hơn PFC self-report"        │
-  │   Trust spectrum: 0 → ∞                                       │
+  │   "Trust = binding force" — new concept                        │
+  │   "3 independent dimensions" (Clarity × Quality × Trust) model │
+  │   Trust dynamics: build (4 ways) / break (4 ways) / rebuild    │
+  │   Positive trust vs negative trust mapping (approach/avoid)    │
+  │   "Body reflects trust more accurately than PFC self-report"   │
+  │   Trust spectrum: 0 → ∞                                        │
   │                                                                │
-  │ 4 NGUỒN:                                                      │
-  │   4 nguồn classification (PFC / hippocampus / compiled /       │
+  │ 4 SOURCES:                                                     │
+  │   4 sources classification (PFC / hippocampus / compiled /     │
   │     external inject)                                           │
   │   "~80% compiled" estimate                                     │
-  │   "Nhiều nguồn align = anchor mạnh nhất" principle            │
-  │   "Nhiều nguồn conflict = anchor yếu nhất"                   │
-  │   External inject 4 mechanisms (repeat / ritual / emotion /   │
+  │   "Multiple sources aligned = strongest anchor" principle      │
+  │   "Multiple sources in conflict = weakest anchor"              │
+  │   External inject 4 mechanisms (repeat / ritual / emotion /    │
   │     social)                                                    │
-  │   "Tôn giáo = full combo inject" analysis                     │
-  │   "Trauma = compiled anchor SAI nhưng CỰC MẠNH"              │
+  │   "Religion = full combo inject" analysis                      │
+  │   "Trauma = compiled anchor WRONG but EXTREMELY STRONG"        │
   │                                                                │
   │ ACROSS SPECIES:                                                │
-  │   3 tầng (Reactive / Simulated / Directed) classification     │
-  │   "Cùng function, khác capacity" principle                    │
-  │   "Giá của PFC" observation (capacity lớn = risk lớn)        │
+  │   3 tiers (Reactive / Simulated / Directed) classification     │
+  │   "Same function, different capacity" principle                │
+  │   "The price of PFC" observation (greater capacity = greater   │
+  │     risk)                                                       │
   │                                                                │
   │ HISTORICAL:                                                    │
-  │   "Complexity → cần anchor mạnh hơn" principle                │
-  │   "Tôn giáo = anchor provider" interpretation                 │
-  │   "MXH = anti-anchor machine" analysis                        │
-  │   "Modern paradox: cần nhất + khó nhất" observation           │
-  │   "Self-knowledge = skill quan trọng nhất" emphasis           │
+  │   "Complexity → need stronger anchor" principle                │
+  │   "Religion = anchor provider" interpretation                  │
+  │   "Social media = anti-anchor machine" analysis                │
+  │   "Modern paradox: most needed + hardest to find" observation  │
+  │   "Self-knowledge = most important skill" emphasis             │
   │                                                                │
   │ CACOPHONY:                                                     │
-  │   3 mức thiếu anchor (yếu / thiếu / conflict)                │
-  │   "Conflict tệ hơn thiếu" analysis                           │
-  │   "Mức 3 phổ biến nhất modern" observation                    │
+  │   3 levels of missing anchor (weak / missing / conflict)       │
+  │   "Conflict is worse than missing" analysis                    │
+  │   "Level 3 is most common in modern society" observation       │
   │                                                                │
   └────────────────────────────────────────────────────────────────┘
 
@@ -1641,240 +1642,240 @@ TOÀN FILE — ĐÁNH GIÁ TRUNG THỰC:
   ┌────────────────────────────────────────────────────────────────┐
   │                                                                │
   │ "Anchor-Schema = bottom-up requirement":                       │
-  │   → Framework claims vô thức CẦN sync point                  │
+  │   → Framework claims the unconscious NEEDS a sync point       │
   │   → Neuroscience: PFC→whole brain bias = verified             │
-  │   → NHƯNG: "vô thức YÊU CẦU" vs "PFC ÁP ĐẶT" = chưa rõ   │
-  │     (có thể là bidirectional, không thuần bottom-up)          │
-  │   → Cần thêm evidence: lesion studies, deactivation studies   │
+  │   → BUT: "unconscious REQUIRES" vs "PFC IMPOSES" = unclear    │
+  │     (could be bidirectional, not purely bottom-up)             │
+  │   → Needs more evidence: lesion studies, deactivation studies  │
   │                                                                │
-  │ "~80% compiled schemas handle" estimate:                      │
-  │   → Consistent với unconscious dominance research             │
-  │   → NHƯNG: exact % = guess, không có measurement             │
+  │ "~80% compiled schemas handle" estimate:                       │
+  │   → Consistent with unconscious dominance research            │
+  │   → BUT: exact % = estimate, no direct measurement            │
   │                                                                │
   │ "Trust = 3rd independent dimension":                           │
-  │   → Logic: clarity CAO + trust THẤP = biết nhưng không dám   │
-  │   → Consistent với self-efficacy (Bandura) là predictor riêng │
-  │   → NHƯNG: liệu trust THẬT SỰ orthogonal hay correlate      │
-  │     MẠNH với clarity?                                          │
-  │   → (High clarity → body confirm → trust tăng auto?)          │
+  │   → Logic: high clarity + low trust = knows but doesn't dare  │
+  │   → Consistent with self-efficacy (Bandura) as separate        │
+  │     predictor                                                  │
+  │   → BUT: is trust TRULY orthogonal or does it correlate        │
+  │     STRONGLY with clarity?                                     │
+  │   → (Does high clarity → body confirms → trust auto-increases?)│
   │                                                                │
-  │ "4 nguồn fill" classification:                                │
+  │ "4 sources fill" classification:                               │
   │   → Logical decomposition                                     │
-  │   → NHƯNG: boundaries có thể MỜ                              │
-  │     (compiled = từng là PFC → compiled; inject = external     │
-  │      → compiled; hippocampus = partially PFC-directed)        │
-  │   → = 4 nguồn = HEURISTIC, không phải discrete categories    │
+  │   → BUT: boundaries can be FUZZY                              │
+  │     (compiled = once was PFC → compiled; inject = external     │
+  │      → compiled; hippocampus = partially PFC-directed)         │
+  │   → = 4 sources = HEURISTIC, not discrete categories          │
   │                                                                │
-  │ "3 tầng across species":                                      │
+  │ "3 tiers across species":                                      │
   │   → Logical based on hardware differences                     │
-  │   → NHƯNG: boundaries KHÔNG sharp                             │
-  │     (Tầng 1 → 2 = spectrum, không phải binary)               │
-  │   → Corvids: which tầng? (NCL ≠ PFC nhưng function similar)  │
+  │   → BUT: boundaries are NOT sharp                             │
+  │     (Tier 1 → 2 = spectrum, not binary)                       │
+  │   → Corvids: which tier? (NCL ≠ PFC but function similar)     │
   │                                                                │
-  │ "Tôn giáo = anchor provider":                                 │
-  │   → Consistent with Big Gods (Norenzayan), TMT (Greenberg)   │
-  │   → NHƯNG: tôn giáo có NHIỀU functions khác ngoài anchor     │
-  │     (community, identity, ritual, moral framework, art...)    │
-  │   → = Framework FOCUS 1 function → có thể oversimplify       │
+  │ "Religion = anchor provider":                                  │
+  │   → Consistent with Big Gods (Norenzayan), TMT (Greenberg)    │
+  │   → BUT: religion has MANY other functions beyond anchor       │
+  │     (community, identity, ritual, moral framework, art...)     │
+  │   → = Framework FOCUSES on 1 function → may oversimplify      │
   │                                                                │
-  │ "MXH = anti-anchor":                                           │
+  │ "Social media = anti-anchor":                                  │
   │   → Consistent with social comparison research                │
-  │   → NHƯNG: MXH CÓ THỂ CŨNG BUILD anchor                    │
-  │     (communities, influencer as anchor source, identity)      │
-  │   → = Framework nhấn mạnh PHÁ → có thể miss BUILD function  │
+  │   → BUT: social media CAN ALSO BUILD anchors                  │
+  │     (communities, influencers as anchor source, identity)      │
+  │   → = Framework emphasizes DESTROYING → may miss BUILD function│
   │                                                                │
-  │ "Conflict tệ hơn thiếu":                                     │
+  │ "Conflict is worse than missing":                              │
   │   → Consistent with approach-avoidance research               │
-  │   → NHƯNG: chưa có direct comparison study                   │
-  │     "anchor conflict vs no anchor → which worse?"             │
-  │   → Inference, not measurement                                │
+  │   → BUT: no direct comparison study exists                    │
+  │     "anchor conflict vs no anchor → which is worse?"          │
+  │   → Inference, not measurement                                 │
   │                                                                │
   │ Trust dynamics timeline (build/break/rebuild):                 │
   │   → Logical, consistent with trust repair research            │
-  │   → NHƯNG: specifics (e.g., "rebuild slower than initial      │
-  │     build") = general observation, not measured in this        │
-  │     Anchor-Schema context                                     │
+  │   → BUT: specifics (e.g., "rebuild slower than initial build") │
+  │     = general observation, not measured in this               │
+  │     Anchor-Schema context                                      │
   │                                                                │
   └────────────────────────────────────────────────────────────────┘
 
 
-THIẾU SÓT (MISSING — cần phát triển):
+MISSING (needs development):
 
   → Anchor-Schema × DEVELOPMENTAL CONTEXT:
-    = Trẻ sơ sinh: Anchor-Schema nào? (attachment figure = first anchor?)
-    = Trẻ nhỏ: transition từ inject (④) → self-built (①)?
-    = Thiếu niên: anchor crisis (identity vs conformity)?
-    = Trung niên: anchor update (midlife shift)?
-    = Người già: anchor shift (legacy, mortality)?
-    → Cần developmental analysis riêng
+    = Infants: which Anchor-Schema? (attachment figure = first anchor?)
+    = Young children: transition from inject (④) → self-built (①)?
+    = Adolescents: anchor crisis (identity vs conformity)?
+    = Middle age: anchor update (midlife shift)?
+    = Old age: anchor shift (legacy, mortality)?
+    → Needs dedicated developmental analysis
 
   → Anchor-Schema × COUPLE / RELATIONSHIP:
-    = 2 người: shared anchor → collaborate; conflict anchor → relationship strain
-    = Bố mẹ inject anchor VÀO con: khi nào TỐT (guidance) khi nào XẤU (force)?
-    = = Nối Connection.md, Conflict-Dynamics.md
-    → Cần cross-analysis riêng
+    = 2 people: shared anchor → collaboration; conflicting anchor → relationship strain
+    = Parents injecting anchor INTO child: when is it GOOD (guidance) vs BAD (force)?
+    → Needs dedicated cross-analysis
 
   → Anchor-Schema MEASUREMENT TOOL:
-    = Checklist tự đánh giá: "anchor hiện tại CỦA TÔI là gì?"
-    = Trust level assessment: hành vi khi dissonance → infer trust
-    = Conflict detection: bao nhiêu anchors đang conflict?
-    → Cần practical tool riêng
+    = Self-assessment checklist: "what is MY current anchor?"
+    = Trust level assessment: behavior when dissonance → infer trust
+    = Conflict detection: how many anchors are currently conflicting?
+    → Needs dedicated practical tool
 
   → Anchor-Schema × THERAPY:
     = CBT: restructure PFC Imagine-Final (①) → new anchor candidate
     = Somatic therapy: access compiled anchor (③) → modify
-    = ACT: accept dissonance + commit to chosen anchor = trust build
-    = IFS: identify conflicting "parts" = conflicting anchors (Mức 3)
-    → Cần therapeutic application analysis
+    = ACT: accept dissonance + commit to chosen anchor = trust building
+    = IFS: identify conflicting "parts" = conflicting anchors (Level 3)
+    → Needs dedicated therapeutic application analysis
 
   → Anchor-Schema × EDUCATION:
-    = Giáo dục tốt = giúp trẻ BUILD internal anchor (① + ③)
-    = Giáo dục xấu = INJECT anchor không fit (④) → Mismatch
+    = Good education = helps children BUILD internal anchors (①③)
+    = Bad education = INJECTS anchors that don't fit (④) → Mismatch
     = HOW to help students find THEIR anchor?
-    → Nối Education-Principles.md, Education-Bridge.md
+    → Connects to Education-Principles.md, Education-Bridge.md
 
   → Anchor-Schema TRANSFER / SUCCESSION:
-    = Khi anchor CŨ hết → TRANSITION sang anchor MỚI thế nào?
+    = When an OLD anchor is exhausted → how to TRANSITION to a NEW anchor?
     = "Career pivot" = anchor transfer
     = "Post-retirement" = anchor vacuum
-    → Cần transition protocol
+    → Needs dedicated transition protocol
 ```
 
 ---
 
-## §7 — KẾT NỐI
+## §7 — CONNECTIONS
 
 ```
-← INPUT (files cần đọc TRƯỚC):
+← INPUT (files to read BEFORE this):
 
-  Core-v7.8-Draft.md:
+  Core-Software.md:
     → §8: Schema = observation parameter, drives = emergent patterns
     → §4: Chunk-System = sole substrate
-    → = Nền tảng cho "chunk network làm anchor cho body-feedback direction"
+    → = Foundation for "chunk network acts as anchor for body-feedback direction"
 
   Drive.md:
-    → §1: 5 inputs vô thức (đặc biệt Input 4: Imagine-Final)
-    → §0: PFC = navigator, vô thức = engine
-    → = Nền tảng cho "PFC amplify, vô thức sync"
+    → §1: 5 unconscious inputs (especially Input 4: Imagine-Final)
+    → §0: PFC = navigator, unconscious = engine
+    → = Foundation for "PFC amplifies, unconscious syncs"
 
   Imagine-Final.md:
-    → §1: mechanism 2 tầng, reference pattern, body pre-feel
-    → = Define CONTENT mà Anchor-Schema sử dụng (qua nguồn ①)
+    → §1: 2-layer mechanism, reference pattern, body pre-feel
+    → = Defines CONTENT that Anchor-Schema uses (via source ①)
 
   Personal-Melody.md:
     → §1: melody = emergent state
     → §6: Imagine-Final = compass
-    → = Melody lens mà Anchor-Schema mô tả ở system level
+    → = Melody lens that Anchor-Schema describes at the system level
 
   Melody-Arc.md:
-    → §2 ①: Imagine-Final = điều kiện tiên quyết cho arc
-    → §2 ⑤: bridges giữ qua dissonance
-    → = Trust (§2 file này) = mechanism UNDERNEATH bridges
+    → §2 ①: Imagine-Final = prerequisite for arc
+    → §2 ⑤: bridges that hold through dissonance
+    → = Trust (§2 of this file) = the mechanism UNDERNEATH bridges
 
   Boredom-Analysis.md:
-    → §1: "chán" = dissonance + Imagine-Final mờ
-    → = "Chán" = Anchor-Schema THIẾU hoặc YẾU (§5.5 Mức 1-2)
+    → §1: "boredom" = dissonance + fuzzy Imagine-Final
+    → = "Boredom" = Anchor-Schema MISSING or WEAK (§5.5 Levels 1–2)
 
 
-→ OUTPUT (files đọc SAU):
+→ OUTPUT (files to read AFTER):
 
   Imagine-Final-Evaluation.md:
-    → 2 trục (Domain Fit × Hardware Fit) + 4 góc
-    → = Đánh giá QUALITY của Anchor-Schema content
-    → = "Anchor-Schema này TỐT hay XẤU?"
+    → 2 axes (Domain Fit × Hardware Fit) + 4 corners
+    → = Evaluate the QUALITY of the Anchor-Schema content
+    → = "Is THIS Anchor-Schema GOOD or BAD?"
 
   Threat.md §4:
     → 3 Cases (productive / destructive / lost)
-    → = 3 Cases = Anchor-Schema ở quality GÓC NÀO + Trust level NÀO
-    → Case 1: Sweet Spot + Trust cao = productive
-    → Case 2: Mismatch/Delusion + Trust (threat override) = destructive
+    → = 3 Cases = Anchor-Schema at WHICH quality corner + which Trust level
+    → Case 1: Sweet Spot + High Trust = productive
+    → Case 2: Mismatch/Delusion + Trust (threat overrides) = destructive
     → Case 3: No anchor + Threat only = lost
 
   Threat-Drive-Analysis.md:
     → Chronic threat drive → sustained
-    → = Negative trust (§2) kéo dài → neural wear pattern
+    → = Negative trust (§2) prolonged → neural wear pattern
 
 
 V2.0 REFERENCE FILES (v1.2 added):
 
   Valence-Propagation.md v1.0:
-    → §4-§5: Anchor-Schema AMPLIFY valence chain propagation
-    → Anchor = cơ chế TĂNG CƯỜNG propagation dọc theo chain phục vụ anchor
-    → Trust (§2 file này) = propagation strength cho anchor-linked chains
-    → = Anchor-Schema + Valence Propagation = 2 concepts BỔ SUNG
+    → §4–§5: Anchor-Schema AMPLIFIES valence chain propagation
+    → Anchor = the mechanism that STRENGTHENS propagation along chains serving the anchor
+    → Trust (§2 of this file) = propagation strength for anchor-linked chains
+    → = Anchor-Schema + Valence Propagation = 2 COMPLEMENTARY concepts
 
   Feeling.md v2.0:
-    → §5: 8-step flow — anchor influence ở step 5 (chunk match) + step 7 (body vote)
-    → PFC observe anchor-driven body state → feeling
-    → = "Tại sao cảm thấy 'đúng hướng' khi anchor strong"
+    → §5: 8-step flow — anchor's influence at step 5 (chunk match) + step 7 (body vote)
+    → PFC observes anchor-driven body state → feeling
+    → = "Why it feels 'in the right direction' when the anchor is strong"
 
   Chunk.md v2.0:
-    → §5: Anchor-Decay Model — chunk substrate cho anchor compile/decay
-    → Anchor = schema compiled SÂU → chunk activation probability HIGH
+    → §5: Anchor-Decay Model — chunk substrate for anchor compile/decay
+    → Anchor = schema compiled DEEP → chunk activation probability HIGH
     → = Anchor strength ≈ chunk compile depth
 
   AI-Schema-Detection.md v1.0:
-    → §6 Bước 2: anchor identification trong schema cluster
+    → §6 Step 2: anchor identification within schema clusters
     → = Detect: client's primary anchor + trust level + possible conflicts
 
   Agent.md v1.0:
     → §10: Schema override Schema-Pure-Trust/Imagined-Overlay — abstract agent AS anchor
-    → = Thiên Chúa, tổ quốc = abstract agents filling anchor position
+    → = God / the nation = abstract agents filling the anchor position
 
 
-SONG SONG:
+PARALLEL:
 
   Novelty.md:
-    → Novelty = PULL drive → CÓ THỂ tạo new Imagine-Final → new anchor candidate
-    → = Novelty FEED nguồn ① (PFC generate options)
+    → Novelty = PULL drive → CAN create new Imagine-Final → new anchor candidate
+    → = Novelty FEEDS source ① (PFC generates options)
 
   Domain.md:
-    → Domain reality = ĐÍCH THẬT mà anchor HƯỚNG TỚI
-    → = Domain fit (Evaluation.md Trục 1) = anchor có hướng domain real?
+    → Domain reality = the TRUE DESTINATION the anchor points toward
+    → = Domain fit (Evaluation.md Axis 1) = does the anchor point toward real domain?
 
   Schema.md v2.0:
     → Schema = observation parameter (named chunk-network pattern)
-    → Chunks chạy parallel → cần anchor sync (Chunk.md v2.0 §4 activation dynamics)
+    → Chunks run in parallel → need anchor to sync (Chunk.md v2.0 §4 activation dynamics)
 
 
-→ ỨNG DỤNG (Application layer):
+→ APPLICATIONS (Application layer):
 
   Education-Principles.md:
-    → Giúp trẻ BUILD internal anchor (①③) thay vì chỉ INJECT (④)
-    → = "Dạy con TÌM compass" thay vì "ÉP compass"
+    → Help children BUILD internal anchors (①③) instead of only INJECTING (④)
+    → = "Teaching children to FIND their compass" rather than "FORCING a compass on them"
 
   Education-Bridge.md:
-    → §9 ⑦: compass bố mẹ ≠ compass con
+    → §9 ⑦: parent's compass ≠ child's compass
     → = External inject (④) vs internal build (①③)
-    → = Khi nào inject TỐT (guidance) vs KHI NÀO xấu (force)
+    → = When is inject GOOD (guidance) vs WHEN is it bad (force)
 
   VN-Cultural-Factors.md:
-    → "Học đổi đời" = external inject (④) anchor
+    → "Education as path out of poverty" = external inject (④) anchor
     → Guilt-based = negative trust mechanism
-    → = §5.5 Mức 3 conflict: body muốn A + bố mẹ inject B
+    → = §5.5 Level 3 conflict: body wants A + parents inject B
 
   VN-Recommendations.md:
-    → Giảm external inject → tăng internal anchor build
-    → = Giảm Mismatch trong giáo dục VN
+    → Reduce external inject → increase internal anchor building
+    → = Reduce Mismatch in education
 
 
-→ PHÁT TRIỂN TƯƠNG LAI (từ §6 MISSING):
+→ FUTURE DEVELOPMENT (from §6 MISSING):
 
   Anchor-Schema × Development (per-age anchor patterns)
   Anchor-Schema × Couple/Relationship (shared vs conflict)
   Anchor-Schema Measurement Tool (self-assessment)
   Anchor-Schema × Therapy (CBT, Somatic, ACT, IFS mapping)
-  Anchor-Schema × Education (how to help students find anchor)
+  Anchor-Schema × Education (how to help students find their anchor)
   Anchor-Schema Transfer / Succession (career pivot, retirement)
 ```
 
 ---
 
-> *Anchor-Schema — "Dàn nhạc vô thức LUÔN chơi. Câu hỏi không phải 'chơi hay không'
-> mà là 'chơi CÙNG bài hay mỗi người 1 bài?'
-> Anchor-Schema = main player mà cả dàn nhạc sync theo.
-> PFC chỉ là 1 trong 4 nguồn cung cấp anchor — compiled schemas mới là nguồn CHÍNH (~80%).
-> Trust = âm lượng main player — to đủ thì dàn nhạc nghe; nhỏ quá thì mất sync.
-> Xã hội phức tạp → cần anchor mạnh hơn. Tôn giáo = anchor provider nghìn năm.
-> Hiện đại = cần anchor nhất + khó tìm nhất. Self-knowledge = skill then chốt.
-> Conflict anchors tệ hơn không có anchor. Chọn 1, commit, re-evaluate."*
+> *Anchor-Schema — "The unconscious orchestra is ALWAYS playing. The question is not 'whether to play'
+> but 'are we all playing THE SAME PIECE, or each playing their own?'
+> Anchor-Schema = the main player the whole orchestra syncs to.
+> PFC is only 1 of 4 sources supplying the anchor — compiled schemas are the PRIMARY source (~80%).
+> Trust = the volume of the main player — loud enough and the orchestra hears it; too quiet and sync is lost.
+> More complex society → need a stronger anchor. Religion = anchor provider for thousands of years.
+> Modern era = need it most + hardest to find. Self-knowledge = the keystone skill.
+> Conflicting anchors are worse than having none at all. Choose one, commit, re-evaluate."*

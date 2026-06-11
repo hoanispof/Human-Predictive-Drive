@@ -5,22 +5,22 @@ status: DRAFT N+4b P6 — ready for user review
 scope: Visual input reception + eye motor control + visual chunk compile mechanism from birth to ~24mo, analyzed via Connect → Read → Control phases with PFC-Inference Ladder
 parent: plan.md §3.2 (file 03 outline)
 depends_on: [01-PFC-Hardware-Reframe.md, 02-Womb-to-Birth-Baseline.md]
-language: Tiếng Việt primary + English technical terms
+language: English (translated from Vietnamese source)
 addresses:
-  - Nút Thắt 1 (proto-chunk gradient — object file emergence as test case)
-  - Nút Thắt 3 (multi-modal binding — visual component)
+  - Convergence Point 1 (proto-chunk gradient — object file emergence as test case)
+  - Convergence Point 3 (multi-modal binding — visual component)
 sub_folder: F1 Child-Chunk-Development
 ---
 
 # 03 — Visual System Developmental Arc
 
-> **File 03 of F1 Child-Chunk-Development sub-folder.** First of six body-input arc files (visual, auditory, motor, interoceptive, social, verbal). This file traces visual system chunk compile mechanism from birth to ~24 months via **Connect → Read → Control phases**, classifying observable events with **PFC-Inference Ladder** (plan §0.7) and applying the **event-inference methodology rule** from [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) §6.
+> **File 03 of F1 Child-Chunk-Development sub-folder.** First of six body-input arc files (visual, auditory, motor, interoceptive, social, verbal). This file traces visual system chunk compile mechanism from birth to ~24 months via **Connect → Read → Control phases**, classifying observable events with **PFC-Inference Ladder** (plan §0.7) and applying the **event-inference methodology rule** from [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md) §6.
 
 ---
 
 ## §0 — Abstract
 
-🟢🟡 **Claim**: Visual chunks compile over 0-24 months in a gradient trajectory beginning from a sparse prenatal starting state (CONSPEC face template innate, no learned object/person chunks) and reaching rich multi-modal-bound identity chunks by ~18-24 months. The trajectory is **not a PFC maturation story** — PFC hardware is online from birth per [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) §3 — but a **chunks accumulation story** with observable events at progressively higher PFC-Inference Ladder levels.
+🟢🟡 **Claim**: Visual chunks compile over 0-24 months in a gradient trajectory beginning from a sparse prenatal starting state (CONSPEC face template innate, no learned object/person chunks) and reaching rich multi-modal-bound identity chunks by ~18-24 months. The trajectory is **not a PFC maturation story** — PFC hardware is online from birth per [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md) §3 — but a **chunks accumulation story** with observable events at progressively higher PFC-Inference Ladder levels.
 
 The visual system is analyzed along three phases:
 
@@ -41,10 +41,10 @@ Events analyzed with PFC-Inference Ladder:
 | Joint attention (triadic) | 9-12 months | L4 🟢 | Feel-Example E18, Tomasello 1995 |
 | Mirror self-recognition | 18-24 months | L4 🟡 | Amsterdam 1972 |
 
-**Two nút thắt addressed**:
+**Two Convergence Points addressed**:
 
-1. **Nút Thắt 1** — object file emergence (§3.8 + §5) provides one of the visual system's test cases for proto-chunk gradient vs discrete verdict.
-2. **Nút Thắt 3** — multi-modal binding visual component (§6) covers the visual side of the social smile E12 / mother recognition E15 / joint attention E18 binding mechanism. Full verdict deferred to [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6.
+1. **Convergence Point 1** — object file emergence (§3.8 + §5) provides one of the visual system's test cases for proto-chunk gradient vs discrete verdict.
+2. **Convergence Point 3** — multi-modal binding visual component (§6) covers the visual side of the social smile E12 / mother recognition E15 / joint attention E18 binding mechanism. Full verdict deferred to [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6.
 
 **What this file does NOT claim** (per §6 methodology rule):
 
@@ -57,7 +57,7 @@ Events analyzed with PFC-Inference Ladder:
 - ✅ Event X is observable at age Y per research citation
 - ✅ Event X plausibly requires chunks A, B, C to have compiled (framework inference 🟡)
 - ✅ Ladder classification per event with plausibility qualifier
-- ✅ Baseline state at t=0 from [02-Womb-to-Birth-Baseline.md](02-Womb-to-Birth-Baseline.md) §9.1 as starting point
+- ✅ Baseline state at t=0 from [02-Womb-to-Birth-Baseline.md](../Foundation/02-Womb-to-Birth-Baseline.md) §9.1 as starting point
 
 ---
 
@@ -68,12 +68,12 @@ Events analyzed with PFC-Inference Ladder:
 F1 v3 plan (§0.3 Q7 body-input axis) organizes developmental analysis along six body-input systems:
 
 ```
-1. Visual      (mắt)        ← THIS FILE
-2. Auditory    (tai)        ← 04-Auditory-System-Arc.md
-3. Motor       (tay/chân)   ← 05-Motor-Output-Arc.md
-4. Interoceptive (cơ thể)  ← 06a-Interoceptive-Bladder-Keystone.md + 06b
-5. Social      (đa kênh)    ← 07-Social-Recognition-Arc.md
-6. Verbal      (ngôn ngữ)   ← 08-Verbal-Production-Arc.md
+1. Visual                 ← THIS FILE
+2. Auditory               ← 04-Auditory-System-Arc.md
+3. Motor (hands/feet)     ← 05-Motor-Output-Arc.md
+4. Interoceptive (body)   ← 06a-Interoceptive-Bladder-Keystone.md + 06b
+5. Social (multi-channel) ← 07-Social-Recognition-Arc.md
+6. Verbal (language)      ← 08-Verbal-Production-Arc.md
 ```
 
 Visual is the **most intensively studied body-input arc in developmental psychology** — Fantz 1961 face preference paradigm, Baillargeon VoE paradigm, Tomasello joint attention studies, Amsterdam mirror test have decades of replication and cross-cultural confirmation. This makes visual the **richest empirical ground** for applying the event-inference methodology.
@@ -84,20 +84,20 @@ Three reasons visual arc is particularly instructive for F1's central question (
 
 1. **Gradient emergence visible across many events**: face preference → direct gaze → mother recognition → joint attention is a clear ascending chunks-accumulation trajectory across 0-12 months. Each step has observable markers. Few body-input systems have this many discrete milestones in such a short window.
 
-2. **Multi-modal binding rich**: visual chunks bind with auditory (social smile E12 = face + voice), with interoceptive (mother recognition E15 = face + comfort history), with motor (reaching, gaze following). Visual is the **central hub for early multi-modal binding** — touching Nút Thắt 3 at multiple angles.
+2. **Multi-modal binding rich**: visual chunks bind with auditory (social smile E12 = face + voice), with interoceptive (mother recognition E15 = face + comfort history), with motor (reaching, gaze following). Visual is the **central hub for early multi-modal binding** — touching Convergence Point 3 at multiple angles.
 
-3. **Object file emergence tests proto-chunk gradient**: the "is it one chunk or gradient?" question (Nút Thắt 1) has a clean test case in object file formation between 4-6 months. Behaviorally, babies show intermediate states (partial tracking, partial recognition, partial permanence) — not discrete "object chunk present / absent" switches.
+3. **Object file emergence tests proto-chunk gradient**: the "is it one chunk or gradient?" question (Convergence Point 1) has a clean test case in object file formation between 4-6 months. Behaviorally, babies show intermediate states (partial tracking, partial recognition, partial permanence) — not discrete "object chunk present / absent" switches.
 
 ### §1.3 — Dependencies on 01 + 02
 
 This file depends on two foundational files from N+4a drill:
 
-**From [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md)**:
+**From [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md)**:
 - §3 5 evidence pillars establishing PFC hardware online from birth (not a timeline claim)
 - §6 event-inference methodology rule (template used throughout this file's §5)
-- §7.2 worked example "tên mẹ" (Mandel 4.5mo) — parallel logic applies to visual face recognition at similar age range
+- §7.2 worked example "mother calling their name" (Mandel 4.5mo) — parallel logic applies to visual face recognition at similar age range
 
-**From [02-Womb-to-Birth-Baseline.md](02-Womb-to-Birth-Baseline.md)**:
+**From [02-Womb-to-Birth-Baseline.md](../Foundation/02-Womb-to-Birth-Baseline.md)**:
 - §9.1 F1 baseline state at t=0 — visual starting point at birth is: CONSPEC face template ✅, no learned face chunks ❌, no object chunks ❌, acuity ~20/400
 - §4 prenatal chunks library — visual side of library is essentially empty (womb is dark, visual cortex active but no patterned input)
 - §7.4 newborn vision Q&A — direct gaze preference 2-5 days is the earliest visual L2 event
@@ -199,7 +199,7 @@ V2-V5 (extrastriate visual areas including MT for motion, V4 for color, fusiform
 
 **🟢 Plausibility**: High for event, framework-standard for chunks claim.
 
-**Implication for F1**: The framework distinguishes **innate templates** (CONSPEC) from **compiled chunks** (CONLERN-built face chunks). Both are "face detection capability" from a behavioral standpoint, but architecturally different. The reframe from [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) §5 (hardware vs content 7-component distinction) applies: CONSPEC = hardware innate detector, CONLERN = content compiled from exposure.
+**Implication for F1**: The framework distinguishes **innate templates** (CONSPEC) from **compiled chunks** (CONLERN-built face chunks). Both are "face detection capability" from a behavioral standpoint, but architecturally different. The reframe from [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md) §5 (hardware vs content 7-component distinction) applies: CONSPEC = hardware innate detector, CONLERN = content compiled from exposure.
 
 ### §3.2 — Direct gaze preference 2-5 days (Farroni 2002) ⭐
 
@@ -259,7 +259,7 @@ V2-V5 (extrastriate visual areas including MT for motion, V4 for color, fusiform
 - Comfort/warmth association (from feeding and soothing)
 - Relative stability (mother mostly present during early weeks)
 
-This is where **Nút Thắt 3 (multi-modal binding mechanism)** takes a visible concrete form. Full mechanism drill deferred to [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6, but the visual component is primary anchoring modality.
+This is where **Convergence Point 3 (multi-modal binding mechanism)** takes a visible concrete form. Full mechanism drill deferred to [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6, but the visual component is primary anchoring modality.
 
 ### §3.5 — Feature integration emergence (Treisman 1980)
 
@@ -279,7 +279,7 @@ This is where **Nút Thắt 3 (multi-modal binding mechanism)** takes a visible 
 
 **🟡 Plausibility**: Event itself 🟡 (inferred from habituation paradigms, not directly observable). Chunks-required claim 🟡.
 
-**Framework note**: Feature integration is a **substrate for object file chunks** (§3.8 next). It's a necessary precondition. The gradient emergence is evidence for Nút Thắt 1 (proto-chunk gradient view) — integration doesn't snap on at a discrete moment, it strengthens over weeks.
+**Framework note**: Feature integration is a **substrate for object file chunks** (§3.8 next). It's a necessary precondition. The gradient emergence is evidence for Convergence Point 1 (proto-chunk gradient view) — integration doesn't snap on at a discrete moment, it strengthens over weeks.
 
 ### §3.6 — Color discrimination chunks
 
@@ -307,7 +307,7 @@ This is where **Nút Thắt 3 (multi-modal binding mechanism)** takes a visible 
 
 **PFC-Inference Ladder**: **L2** 🟡🟢. Pattern-match on mismatch event (object changes to different object) → longer looking time is the L2 marker. No action involvement required.
 
-### §3.8 — Object permanence (Baillargeon VoE 4-6mo → stable 8-9mo) ⭐ Nút Thắt 1
+### §3.8 — Object permanence (Baillargeon VoE 4-6mo → stable 8-9mo) ⭐ Convergence Point 1
 
 🟢 **Event**: Using **Violation of Expectation (VoE)** paradigm, 4-6 month-olds show longer looking times when physical impossibilities involving occluded objects are shown (e.g., object seems to pass through solid barrier, object appears to occupy two locations).
 
@@ -317,7 +317,7 @@ This is where **Nút Thắt 3 (multi-modal binding mechanism)** takes a visible 
 - Spelke et al. 1992 — core knowledge object principles
 - Hespos & Baillargeon 2001 — 2.5-month-olds showing object-related surprise
 
-Contrast with classic **Piaget A-not-B task** (Piaget 1954) where 8-9-month-olds fail to reach for hidden object → Piaget concluded "no object permanence". Baillargeon's looking-time method reveals permanence knowledge 4+ months earlier than action-based Piaget method. This is the classic **knowing vs acting asymmetry** — mirrors the receptive-productive gap (Nút Thắt 5) at a different level.
+Contrast with classic **Piaget A-not-B task** (Piaget 1954) where 8-9-month-olds fail to reach for hidden object → Piaget concluded "no object permanence". Baillargeon's looking-time method reveals permanence knowledge 4+ months earlier than action-based Piaget method. This is the classic **knowing vs acting asymmetry** — mirrors the receptive-productive gap (Convergence Point 5) at a different level.
 
 🟡 **Chunks required**:
 - Object file chunks (§3.7)
@@ -328,14 +328,14 @@ Contrast with classic **Piaget A-not-B task** (Piaget 1954) where 8-9-month-olds
 
 **PFC-Inference Ladder**: **L2** 🟢. This is a textbook L2 event: prediction chunk fires, reality mismatches, looking time increases (PFC pattern-match attention signal). No action involvement. The L2→L3 transition for object permanence is the **reaching side** — 8-9 month olds can *act* on the permanence knowledge (reach into location where object was hidden) which adds L3 action chunks on top of the L2 pattern-match.
 
-**⭐ Nút Thắt 1 test case**: Object permanence chunks do not emerge "all at once". Baillargeon's work shows **gradient emergence**:
+**⭐ Convergence Point 1 test case**: Object permanence chunks do not emerge "all at once". Baillargeon's work shows **gradient emergence**:
 - 2.5 months: basic surprise at impossible trajectory (Hespos & Baillargeon 2001)
 - 3.5-4 months: solid barrier impossibility (Baillargeon 1987)
 - 4-6 months: more complex permanence scenarios
 - 8-9 months: action-based permanence (reaching into hidden location)
 - 12+ months: more elaborate permanence reasoning
 
-**F1 drill verdict contribution**: Object permanence chunks compile in **gradient** — not discrete. Each sub-chunk (solidity, trajectory, continuity, identity) compiles semi-independently with different maturation rates. This supports **Nút Thắt 1 gradient view** (over discrete view). Full Nút Thắt 1 verdict in [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) §6 (phoneme discrimination provides even cleaner gradient evidence) + [10-F1-Synthesis.md](10-F1-Synthesis.md).
+**F1 drill verdict contribution**: Object permanence chunks compile in **gradient** — not discrete. Each sub-chunk (solidity, trajectory, continuity, identity) compiles semi-independently with different maturation rates. This supports **Convergence Point 1 gradient view** (over discrete view). Full Convergence Point 1 verdict in [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) §6 (phoneme discrimination provides even cleaner gradient evidence) + [10-F1-Synthesis.md](../10-F1-Synthesis.md).
 
 ### §3.9 — Face categorization and individuation 6-9 months
 
@@ -347,7 +347,7 @@ Contrast with classic **Piaget A-not-B task** (Piaget 1954) where 8-9-month-olds
 
 **PFC-Inference Ladder**: **L2** 🟢. Pattern-match strength differs by familiarity.
 
-**Cross-reference to Nút Thắt 1**: This event shows the **same gradient pattern** as auditory phoneme narrowing (04 §3.5). The parallelism is suggestive — chunks compilation via exposure follows similar shape across sensory modalities. Strong indirect support for gradient view.
+**Cross-reference to Convergence Point 1**: This event shows the **same gradient pattern** as auditory phoneme narrowing (04 §3.5). The parallelism is suggestive — chunks compilation via exposure follows similar shape across sensory modalities. Strong indirect support for gradient view.
 
 ---
 
@@ -386,7 +386,7 @@ Contrast with classic **Piaget A-not-B task** (Piaget 1954) where 8-9-month-olds
 
 **PFC-Inference Ladder**: **L3** 🟡. Partial coordinated action, not yet precise, improving over months.
 
-**Multi-modal binding note**: Visually guided reaching is the **first visuomotor chunk** binding visual input with motor output. Critical milestone for Nút Thắt 3 in motor dimension. Full treatment in [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) §2.4.
+**Multi-modal binding note**: Visually guided reaching is the **first visuomotor chunk** binding visual input with motor output. Critical milestone for Convergence Point 3 in motor dimension. Full treatment in [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) §2.4.
 
 ### §4.4 — Gaze following (6 months, E14) ⭐
 
@@ -420,7 +420,7 @@ Piaget read this as "no permanence" (wrong — behavioral act-failure). Modern v
 
 ### §4.6 — Joint attention triadic (9-12 months, E18) ⭐
 
-🟢 **Event**: Baby ~10 months. Mother points to an object ("nhìn kìa, con chó!"). Baby looks along mother's pointing direction, sees object, then **looks back at mother**, then back at object. The gaze triangle me-mother-object is **triadic joint attention** — the defining moment. ([Feel-Example E18](../../Body-Base/Feeling/Feel-Example-Draft.md#e18) line 1092.)
+🟢 **Event**: Baby ~10 months. Mother points to an object ("Look, a dog over there!"). Baby looks along mother's pointing direction, sees object, then **looks back at mother**, then back at object. The gaze triangle me-mother-object is **triadic joint attention** — the defining moment. ([Feel-Example E18](../../Body-Base/Feeling/Feel-Example-Draft.md#e18) line 1092.)
 
 🟢 **Research**: Butterworth 1991, Tomasello 1995, Tomasello 1999 "Cultural Origins of Human Cognition", Carpenter, Nagell & Tomasello 1998 — longitudinal study showing typical emergence 9-12 months.
 
@@ -456,7 +456,7 @@ This is a **major multi-modal multi-body-input integration event** — visual + 
 
 **PFC-Inference Ladder**: **L4** 🟡. Coordinated execution, involving self-other distinction. The chunks-required claim is 🟡 — alternative interpretations exist (some argue it's not evidence of "self-concept" in adult sense, just body schema).
 
-**Framework implication**: Mirror self-recognition is one of F1's latest events (approaching end of 24-month window). It demonstrates that **visual self chunks** (seeing oneself as a distinct entity) compile **after** years of multi-modal experience and are among the most complex visual chunks in the first two years. This is the substrate on which Agent/Self-Pattern-Modeling (H9, drilled N+2) subsequently operates at higher levels.
+**Framework implication**: Mirror self-recognition is one of F1's latest events (approaching end of 24-month window). It demonstrates that **visual self chunks** (seeing oneself as a distinct entity) compile **after** years of multi-modal experience and are among the most complex visual chunks in the first two years. This is the substrate on which Agent/Self-Pattern-Modeling (H9) subsequently operates at higher levels.
 
 ---
 
@@ -554,9 +554,9 @@ Three things:
 
 ---
 
-## §6 — Multi-Modal Binding (Visual Component) — Nút Thắt 3 contribution
+## §6 — Multi-Modal Binding (Visual Component) — Convergence Point 3 contribution
 
-> Visual chunks bind with chunks from other modalities to form multi-modal chunks. This section covers the **visual side** of multi-modal binding. Full Nút Thắt 3 verdict in [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6 which uses social smile (E12) as cleanest multi-modal exemplar.
+> Visual chunks bind with chunks from other modalities to form multi-modal chunks. This section covers the **visual side** of multi-modal binding. Full Convergence Point 3 verdict in [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6 which uses social smile (E12) as cleanest multi-modal exemplar.
 
 ### §6.1 — Visual + auditory binding (social smile E12)
 
@@ -568,7 +568,7 @@ Three things:
 
 **Why 6-8 weeks specifically**: Not a PFC maturation timeline. It's the time required for:
 - Visual face chunks to compile (V1 CONSPEC → V2 individuation by 2-4 weeks)
-- Auditory voice chunks strengthened (already seeded prenatal per [02](02-Womb-to-Birth-Baseline.md) §4.1)
+- Auditory voice chunks strengthened (already seeded prenatal per [02](../Foundation/02-Womb-to-Birth-Baseline.md) §4.1)
 - Co-occurrence exposure (face + voice happen together during feeding, many repetitions)
 - Binding chunk compile (repetition-driven compile mechanism)
 
@@ -611,7 +611,7 @@ Compile mechanism candidates (plan §0.7 + [Schema/Chunk.md](../../Body-Base/Sch
 - **Sleep-consolidated associative binding** — overnight memory reorganization + associative linking (Tononi & Cirelli 2014).
 - **Emotional tag binding** — high-valence states create strong associative links across modalities that happened together during the state (Phelps & LeDoux 2005).
 
-F1 does NOT commit to a mechanism winner here — [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6 (Nút Thắt 3 primary home) will drill the verdict using social smile as cleanest case. This file's contribution is **compiling the visual-side events that any mechanism must explain**.
+F1 does NOT commit to a mechanism winner here — [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6 (Convergence Point 3 primary home) will drill the verdict using social smile as cleanest case. This file's contribution is **compiling the visual-side events that any mechanism must explain**.
 
 ---
 
@@ -708,15 +708,15 @@ Virtually every visual social milestone (CONSPEC, direct gaze, mother recognitio
 - Common noun comprehension (Bergelson & Swingley 2012) at 6-9 months requires both visual object chunks + auditory word chunks + cross-modal binding
 - Full treatment in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §3
 
-**Receptive-productive gap** (Nút Thắt 5 preview): Baby comprehends "mẹ" by 6-9 months (visual face chunk + auditory word chunk + bind) but does not produce "mẹ" until ~12-18 months. The comprehension side is built largely on visual chunks. This is one of the "knowing vs acting" asymmetries across F1 — covered in Nút Thắt 5, primary home [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md).
+**Receptive-productive gap** (Convergence Point 5 preview): Baby comprehends "mama"/"mother" by 6-9 months (visual face chunk + auditory word chunk + bind) but does not produce the word until ~12-18 months. The comprehension side is built largely on visual chunks. This is one of the "knowing vs acting" asymmetries across F1 — covered in Convergence Point 5, primary home [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md).
 
 ---
 
-## §9 — Nút Thắt Contributions
+## §9 — Convergence Point Contributions
 
-> F1 drill converges on 7 nút thắt (plan §0.6). This file addresses two.
+> F1 drill converges on 7 Convergence Points (plan §0.6). This file addresses two.
 
-### §9.1 — Nút Thắt 1 — Proto-chunk gradient vs discrete (partial contribution)
+### §9.1 — Convergence Point 1 — Proto-chunk gradient vs discrete (partial contribution)
 
 **This file's contribution**: Object file chunks (§3.7-§3.8) and object permanence chunks provide a **visual system test case** for the gradient vs discrete question.
 
@@ -731,9 +731,9 @@ These are not a single discrete "object permanence present/absent" switch. They 
 
 **Visual arc verdict preview**: Gradient view supported by the visual data. Each sub-property of "object permanence" compiles semi-independently. This is consistent with **early-LTP → late-LTP gradient** at the biological level (Bliss & Lømo 1973, Abraham & Williams 2008 late-LTP review).
 
-**Full verdict**: Deferred to [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) §6 (phoneme discrimination provides even cleaner gradient evidence) + [10-F1-Synthesis.md](10-F1-Synthesis.md) synthesis.
+**Full verdict**: Deferred to [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) §6 (phoneme discrimination provides even cleaner gradient evidence) + [10-F1-Synthesis.md](../10-F1-Synthesis.md) synthesis.
 
-### §9.2 — Nút Thắt 3 — Multi-modal binding mechanism (partial contribution)
+### §9.2 — Convergence Point 3 — Multi-modal binding mechanism (partial contribution)
 
 **This file's contribution**: Compiled visual-side evidence for multi-modal binding events (§6):
 - Social smile E12 as first large-scale bind
@@ -743,12 +743,12 @@ These are not a single discrete "object permanence present/absent" switch. They 
 
 **Mechanism candidates** (§6.5): Temporal co-occurrence Hebb-style, multi-sensory convergence neurons, sleep consolidation, emotional tagging.
 
-**Full verdict**: Deferred to [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6 (social smile is cleanest case for mechanism drill) + [10-F1-Synthesis.md](10-F1-Synthesis.md).
+**Full verdict**: Deferred to [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6 (social smile is cleanest case for mechanism drill) + [10-F1-Synthesis.md](../10-F1-Synthesis.md).
 
-### §9.3 — Brief touch on other nút thắt
+### §9.3 — Brief touch on other Convergence Points
 
-- **Nút Thắt 2 (Precondition-2 Chunk-Substrate)**: Visual chunks are the **fastest-compiling body-input system** because visual input is densest. Visual adequacy emerges relatively early (many events already at L3-L4 by 12 months). Contrast with interoceptive (bladder) which lags dramatically. This cross-body-input rate difference is key evidence for Nút Thắt 2 "compile rate varies by input saliency + repetition frequency + contingency" — see [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md).
-- **Nút Thắt 4 (PFC hardware × chunks missing)**: Already committed in 01 — this file applies the reframe consistently throughout. Direct gaze at 2-5 days (§3.2) is among the strongest visual falsification evidence for the old "PFC offline" view.
+- **Convergence Point 2 (Precondition-2 Chunk-Substrate)**: Visual chunks are the **fastest-compiling body-input system** because visual input is densest. Visual adequacy emerges relatively early (many events already at L3-L4 by 12 months). Contrast with interoceptive (bladder) which lags dramatically. This cross-body-input rate difference is key evidence for Convergence Point 2 "compile rate varies by input saliency + repetition frequency + contingency" — see [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md).
+- **Convergence Point 4 (PFC hardware × chunks missing)**: Already committed in 01 — this file applies the reframe consistently throughout. Direct gaze at 2-5 days (§3.2) is among the strongest visual falsification evidence for the old "PFC offline" view.
 
 ---
 
@@ -760,11 +760,11 @@ These are not a single discrete "object permanence present/absent" switch. They 
 
 2. **What is the minimum exposure count for a compiled visual chunk?** Mother face distinguishable at 4 days (Bushnell 1989) — how many discrete feeding-face-view events in 4 days? Probably 50-100 episodes × minutes of face contact. Can we quantify "compile threshold" more precisely?
 
-3. **Why does stereopsis emerge discretely (3-4 months) while other visual chunks emerge gradient?** The substrate difference (binocular cell tuning + vergence) may explain. This is a case where the **gradient vs discrete distinction (Nút Thắt 1)** has mixed evidence within the visual system itself — most chunks gradient, but stereopsis appears discrete. Interesting.
+3. **Why does stereopsis emerge discretely (3-4 months) while other visual chunks emerge gradient?** The substrate difference (binocular cell tuning + vergence) may explain. This is a case where the **gradient vs discrete distinction (Convergence Point 1)** has mixed evidence within the visual system itself — most chunks gradient, but stereopsis appears discrete. Interesting.
 
 4. **Is visuomotor reaching (4-5mo) best classified as L2 or L3?** The reaching **attempt** is L3 (action component) but the accuracy is poor for weeks after first emergence. Classification depends on how "coordinated" the execution needs to be. This may indicate ladder levels have internal graduation.
 
-5. **Visual chunks for causality** (one object launches another — Michotte perception) — when do these compile? Leslie 1984, Oakes 1994 show ~7-9 months. Where in visual arc does this fit? Partially addressed in [09-Event-Chunks-Inference-Matrix.md](09-Event-Chunks-Inference-Matrix.md).
+5. **Visual chunks for causality** (one object launches another — Michotte perception) — when do these compile? Leslie 1984, Oakes 1994 show ~7-9 months. Where in visual arc does this fit? Partially addressed in [09-Event-Chunks-Inference-Matrix.md](../09-Event-Chunks-Inference-Matrix.md).
 
 6. **Mirror self-recognition cross-cultural variation**: passes earlier in Western WEIRD samples than in some non-WEIRD samples (Broesch et al. 2011). Framework implication: visual self chunk timing is **culturally modulated**, not universal biological schedule. What varies — the self-concept chunks or just the mirror test-taking behavior?
 
@@ -776,21 +776,21 @@ These are not a single discrete "object permanence present/absent" switch. They 
 
 ### §11.1 — Within F1 Child-Chunk-Development
 
-- [00-Chunk-System-Sketch.md](00-Chunk-System-Sketch.md) — F1 sub-folder orientation
-- [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) — §6 event-inference methodology rule used throughout, §7 three worked examples (parallel logic)
-- [02-Womb-to-Birth-Baseline.md](02-Womb-to-Birth-Baseline.md) — §9.1 baseline state at t=0, §4 prenatal chunks library, §7.4 newborn vision Q&A
-- [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) (drilling next) — Nút Thắt 1 primary verdict + auditory-visual binds (social smile, mother recognition)
+- [00-Chunk-System-Sketch.md](../Foundation/00-Chunk-System-Sketch.md) — F1 sub-folder orientation
+- [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md) — §6 event-inference methodology rule used throughout, §7 three worked examples (parallel logic)
+- [02-Womb-to-Birth-Baseline.md](../Foundation/02-Womb-to-Birth-Baseline.md) — §9.1 baseline state at t=0, §4 prenatal chunks library, §7.4 newborn vision Q&A
+- [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) (drilling next) — Convergence Point 1 primary verdict + auditory-visual binds (social smile, mother recognition)
 - [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) (drilling next) — visuomotor reaching drilled motor-side, pointing + gesture motor-side
 - [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) (pending) — contrast case (slow-compile system vs visual fast-compile)
-- [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) (pending) — Nút Thắt 3 primary home, mother recognition + joint attention full drill
+- [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) (pending) — Convergence Point 3 primary home, mother recognition + joint attention full drill
 - [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) (pending) — visual grounding for word-object mapping
-- [09-Event-Chunks-Inference-Matrix.md](09-Event-Chunks-Inference-Matrix.md) (pending) — cross-cutting event table synthesis
-- [10-F1-Synthesis.md](10-F1-Synthesis.md) (pending) — 7 nút thắt final verdicts including this file's contributions
+- [09-Event-Chunks-Inference-Matrix.md](../09-Event-Chunks-Inference-Matrix.md) (pending) — cross-cutting event table synthesis
+- [10-F1-Synthesis.md](../10-F1-Synthesis.md) (pending) — 7 Convergence Points final verdicts including this file's contributions
 
 ### §11.2 — Upstream framework
 
 - [../../Body-Base/Schema/Chunk.md](../../Body-Base/Schema/Chunk.md) — chunk substrate definition + 4 compile mechanisms
-- [../../Imagination/PFC-Analysis.md](../../Imagination/PFC-Analysis.md) §4.0 — PFC reframe (edited N+4 prep)
+- [../../Imagination/PFC-Analysis.md](../../Imagination/PFC-Analysis.md) §4.0 — PFC reframe
 - [../../Modality-Analysis.md](../../Modality-Analysis.md) §2.1.1 Visual — visual modality characterization
 
 ### §11.3 — Drilled sub-folders (cross-reference)
@@ -819,8 +819,6 @@ These are not a single discrete "object permanence present/absent" switch. They 
 
 **Sections complete**: §0 through §11 (12 sections).
 
-**Line count**: ~1100 (target was 1000-1200L per plan §3.2).
-
 **Framework commitments made**:
 - ✅ Event-inference methodology rule (01 §6) followed throughout
 - ✅ No "PFC matures at X" claims
@@ -830,15 +828,14 @@ These are not a single discrete "object permanence present/absent" switch. They 
 - ✅ Feel-Example E12/E14/E15/E18 referenced with line numbers
 - ✅ Cross-references bidirectional with 00 + 01 + 02 + drilled sub-folders
 - ✅ NO personal examples (framework rule)
-- ✅ Tiếng Việt primary + English technical terms
-- ✅ "Bạn-tôi" addressing (though this file has mostly neutral framing)
-- ✅ "Imagine-Final" not used in this file (not applicable topic)
+- ✅ "Nút Thắt" → "Convergence Point" throughout
+- ✅ Vietnamese body-input labels removed (English version)
 
-**Nút Thắt contributions**:
-- Nút Thắt 1 partial — object permanence gradient evidence
-- Nút Thắt 3 partial — visual side of multi-modal binding events
+**Convergence Point contributions**:
+- Convergence Point 1 partial — object permanence gradient evidence
+- Convergence Point 3 partial — visual side of multi-modal binding events
 
-**Next action**: User review → if approved, proceed to Phase F1-P7 drill of [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) (⭐ Nút Thắt 1 primary verdict).
+**Next action**: User review → if approved, proceed to drill of [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) (⭐ Convergence Point 1 primary verdict).
 
 **Review checkpoint**: Per plan §5.5, this file is optional review (mandatory review after 04). User can skip to 04 if satisfied, or hold for review first.
 
@@ -846,4 +843,4 @@ These are not a single discrete "object permanence present/absent" switch. They 
 
 > **03-Visual-System-Arc.md — End of file.**
 >
-> F1 body-input arc #1 of 6. Visual chunks traced from prenatal CONSPEC substrate through joint attention L4 at 9-12 months to mirror self-recognition L4 at 18-24 months. Event-inference methodology applied throughout. Two nút thắt partially addressed (1 + 3), pending final verdict at synthesis stage.
+> F1 body-input arc #1 of 6. Visual chunks traced from prenatal CONSPEC substrate through joint attention L4 at 9-12 months to mirror self-recognition L4 at 18-24 months. Event-inference methodology applied throughout. Two Convergence Points partially addressed (1 + 3), pending final verdict at synthesis stage.

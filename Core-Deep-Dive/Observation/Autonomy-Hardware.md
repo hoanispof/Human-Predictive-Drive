@@ -1,35 +1,35 @@
 ---
-title: Autonomy-Hardware — Tại Sao Self-Action = Reward
+title: Autonomy-Hardware — Why Self-Action = Reward
 version: 1.2
 created: 2026-04-20
 updated: 2026-05-17
 refined: 2026-05-23 (v1.2 — Concept Cascade: +Entity-Access calibration, +Hardware-Subsidy. Updated versions + cross-refs)
 status: OBSERVATION PARAMETER v1.2 — HARDWARE MECHANISM
 scope: |
-  HARDWARE MECHANISM FILE: Giải thích TẠI SAO con người tự nhiên prefer
-  self-action hơn external-control. Đây KHÔNG phải "thiết kế" hay "bản năng"
-  — mà là EMERGENT PATTERN từ kiến trúc hardware: efference copy + VTA
-  prediction-delta + opioid system → tự action = prediction accuracy CAO hơn
-  = body reward CAO hơn. Universal — mọi người đều có, cross-species.
-  Bổ sung: vmPFC + DRN controllability learning (Maier & Seligman 2016),
+  HARDWARE MECHANISM FILE: Explains WHY humans naturally prefer
+  self-action over external-control. This is NOT a "design" or "instinct"
+  — it is an EMERGENT PATTERN from hardware architecture: efference copy + VTA
+  prediction-delta + opioid system → self-action = higher prediction accuracy
+  = higher body reward. Universal — present in everyone, cross-species.
+  Supplement: vmPFC + DRN controllability learning (Maier & Seligman 2016),
   cortisol direction tag (novelty vs threat), opioid vs relief pathways.
   v1.1 KEY CHANGES:
     ⑪ +Compilable Architecture alignment: these emergent patterns = Compilable Architecture specific
     ⑫ +Cross-refs: Inter-Body-Mechanism v1.0, Body-Feedback-Label v2.0, dependency versions updated
 purpose: |
-  File này giải thích CƠ CHẾ HARDWARE tạo ra autonomy preference.
-  Autonomy.md (file đi kèm) giải thích SOFTWARE — chunk tích lũy,
-  developmental arc, xu hướng cá nhân.
-  Split vì: hardware mechanism = universal, nền tảng.
-  Software development = individual, tùy experience.
-  Các file khác (Cortisol-Baseline, Body-Feedback-Mechanism, Neural-Architecture) CẦN
-  reference file này cho efference copy reward + vmPFC/DRN mechanism
-  mà backup/Neurochemistry.md §6.3 từng chứa.
+  This file explains the HARDWARE MECHANISM that creates autonomy preference.
+  Autonomy.md (companion file) explains the SOFTWARE — chunk accumulation,
+  developmental arc, individual tendencies.
+  Split because: hardware mechanism = universal, foundational.
+  Software development = individual, depends on experience.
+  Other files (Cortisol-Baseline, Body-Feedback-Mechanism, Neural-Architecture) NEED
+  to reference this file for efference copy reward + vmPFC/DRN mechanism
+  that backup/Neurochemistry.md §6.3 previously contained.
 position: |
-  Core-Deep-Dive/Observation/ — đi kèm Autonomy.md (software/development).
-  Hardware mechanism NHƯNG nằm ở Observation/ vì: pattern này QUAN SÁT ĐƯỢC
-  từ chính kiến trúc hardware, không phải hardware được thiết kế buộc phải
-  như vậy. Giống VTA prediction-delta = emergent từ architecture.
+  Core-Deep-Dive/Observation/ — pairs with Autonomy.md (software/development).
+  Hardware mechanism BUT placed in Observation/ because: this pattern is OBSERVABLE
+  from the hardware architecture itself, not because hardware was designed to
+  operate this way. Similar to how VTA prediction-delta is emergent from architecture.
 dependencies:
   - Core-v7.8-Draft.md — §8 observation parameters, Autonomy definition
   - Cortisol-Baseline.md v2.0 — §7.2-§7.3 chunk direction tag
@@ -39,64 +39,64 @@ dependencies:
   - backup/Neurochemistry.md — §6.3 controllability, vmPFC + DRN
   - Neural-Architecture.md — vmPFC sub-region, amygdala pathway
   - Neural-Processing-Flow.md — §8.2 Feeling circuit (Insula + ACC + vmPFC)
-  - Imagine-Final.md — §1 student bị ép vs thích (line 174-179)
+  - Imagine-Final.md — §1 student coerced vs self-chosen (line 174-179)
   - Liking-Wanting.md — §4 Path A (opioid) vs Path B (relief)
   - Domain-Mapping-Drive.md — Student A vs B, threat vs novelty path
   - Reward-Economics.md — §9 controllability, Deci 1971 overjustification
 companion_file: Autonomy.md (software/development — chunk accumulation, developmental arc)
-language: Tiếng Việt primary + English technical terms
+language: English primary + Vietnamese technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Autonomy-Hardware — Tại Sao Self-Action = Reward
+# Autonomy-Hardware — Why Self-Action = Reward
 
-> Bạn tự đưa ly nước lên miệng. Tay feel nhiệt độ, weight, trajectory.
-> Não predict: "nước ~25°C sẽ chạm môi ở angle X trong 0.3 giây."
-> Miệng nhận → MATCH → body: "đúng rồi" → micro-opioid.
+> You lift the glass of water to your own mouth. Your hand feels the temperature, weight, trajectory.
+> Brain predicts: "water ~25°C will touch lips at angle X in 0.3 seconds."
+> Mouth receives → MATCH → body: "exactly right" → micro-opioid.
 >
-> Người khác đưa ly nước vào miệng bạn. Bạn KHÔNG cầm ly.
-> Não KHÔNG có efference copy. Tay KHÔNG feel preview.
-> Miệng nhận nước → "unpredicted timing, unpredicted temperature"
-> → body: alerting signal, KHÔNG phải reward.
+> Someone else brings the glass to your mouth. You are NOT holding the glass.
+> Brain has NO efference copy. Hand has NO preview feel.
+> Mouth receives water → "unpredicted timing, unpredicted temperature"
+> → body: alerting signal, NOT reward.
 >
-> CÙNG nước. CÙNG ly. CÙNG lượng. KHÁC prediction accuracy.
+> SAME water. SAME glass. SAME amount. DIFFERENT prediction accuracy.
 >
-> Đây KHÔNG phải "preference." Đây là ARCHITECTURE.
+> This is NOT "preference." This is ARCHITECTURE.
 > Efference copy + sensory preview + VTA prediction-delta = hardware.
 > Self-action = better prediction = more reward.
 > External-action = no efference copy = no preview = less reward.
 >
-> Không ai "thiết kế" body thích self-action.
-> Kiến trúc tự PRODUCE pattern đó — emergent, giống VTA
-> tự produce dopamine signal khi outcome > prediction.
+> Nobody "designed" the body to prefer self-action.
+> The architecture naturally PRODUCES that pattern — emergent, just like VTA
+> naturally produces dopamine signal when outcome > prediction.
 >
-> File này: TẠI SAO hardware produce pattern đó (mechanism),
-> VÀ tại sao bị ép = damage ở hardware level (cortisol direction tag).
-> Autonomy.md (file đi kèm): HOW pattern đó develop per person (chunks).
+> This file: WHY hardware produces that pattern (mechanism),
+> AND why being coerced = damage at the hardware level (cortisol direction tag).
+> Autonomy.md (companion file): HOW that pattern develops per person (chunks).
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — EMERGENT TỪ ARCHITECTURE, KHÔNG PHẢI THIẾT KẾ
+- §0 — EMERGENT FROM ARCHITECTURE, NOT BY DESIGN
 - §1 — EFFERENCE COPY → SELF-PREDICTION ACCURACY
   - §1.1 — Mechanism: Motor Command → Sensory Prediction
-  - §1.2 — Multi-Channel Preview: Tay → Não → Miệng
+  - §1.2 — Multi-Channel Preview: Hand → Brain → Mouth
   - §1.3 — Compare Table: Self vs External
   - §1.4 — Prediction Accuracy = Measurable, NOT Abstract
 - §2 — vmPFC + DRN: CONTROLLABILITY LEARNING
-  - §2.1 — Maier & Seligman 2016: Bất Lực = MẶC ĐỊNH
-  - §2.2 — vmPFC Learn "Kiểm Soát Được" → Suppress DRN
-  - §2.3 — Cortisol Mãn Tính → vmPFC Teo → Helplessness
-- §3 — CORTISOL DIRECTION TAG: CÙNG LEVEL, KHÁC TAG
+  - §2.1 — Maier & Seligman 2016: Helplessness = DEFAULT
+  - §2.2 — vmPFC Learns "Controllable" → Suppresses DRN
+  - §2.3 — Chronic Cortisol → vmPFC Atrophies → Helplessness
+- §3 — CORTISOL DIRECTION TAG: SAME LEVEL, DIFFERENT TAG
   - §3.1 — Novelty Direction vs Threat Direction
-  - §3.2 — Compile-Time Lock: Tag KHÔNG Đổi Sau Compile
-  - §3.3 — "Giỏi Nhưng Ghét" = Threat-Compiled Chunks
-- §4 — OPIOID vs RELIEF: 2 PATHWAYS, 2 KẾT QUẢ
+  - §3.2 — Compile-Time Lock: Tag Does NOT Change After Compile
+  - §3.3 — "Skilled But Hate It" = Threat-Compiled Chunks
+- §4 — OPIOID vs RELIEF: 2 PATHWAYS, 2 OUTCOMES
   - §4.1 — Path A (Self-Chosen): Opioid → Sustainable
-  - §4.2 — Path B (Bị Ép): Relief → Dependent
-  - §4.3 — Deci 1971: External Override Internal
-- §5 — BỊ ÉP = PREDICTION OVERRIDE → 2-LAYER DISSONANCE
+  - §4.2 — Path B (Coerced): Relief → Dependent
+  - §4.3 — Deci 1971: External Overrides Internal
+- §5 — COERCION = PREDICTION OVERRIDE → 2-LAYER DISSONANCE
 - §6 — HONEST ASSESSMENT
   - §6.1 — Tier 1: Research-Backed (🟢)
   - §6.2 — Tier 2: Framework Synthesis (🟡)
@@ -106,45 +106,46 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §0 — EMERGENT TỪ ARCHITECTURE, KHÔNG PHẢI THIẾT KẾ
+## §0 — EMERGENT FROM ARCHITECTURE, NOT BY DESIGN
 
 ```
 ⭐ HARDWARE MECHANISM — UNIVERSAL:
 
-  TẠI SAO CON NGƯỜI THÍCH TỰ LÀM:
+  WHY HUMANS PREFER TO DO THINGS THEMSELVES:
 
-    Không ai "dạy" bé thích tự xúc ăn.
-    Không ai "thiết kế" body cho reward khi self-action.
-    Pattern này EMERGENT từ 3 components hardware ĐÃ CÓ SẴN:
+    Nobody "taught" the baby to prefer self-feeding.
+    Nobody "designed" the body to reward self-action.
+    This pattern EMERGES from 3 hardware components ALREADY IN PLACE:
 
     ① EFFERENCE COPY (🟢 von Holst & Mittelstaedt 1950):
-      → Motor cortex gửi command → ĐỒNG THỜI gửi COPY tới sensory cortex
-      → Sensory cortex dùng copy để PREDICT sensory input sắp tới
-      → = Chỉ khi TỰ ACTION mới có efference copy
-      → = Khi NGƯỜI KHÁC action → KHÔNG có copy → KHÔNG có prediction
+      → Motor cortex sends command → SIMULTANEOUSLY sends COPY to sensory cortex
+      → Sensory cortex uses copy to PREDICT incoming sensory input
+      → = Only when ACTING YOURSELF is there an efference copy
+      → = When SOMEONE ELSE acts → NO copy → NO prediction
 
     ② VTA PREDICTION DELTA (🟢 Schultz 1997):
-      → Outcome MATCH prediction → neutral-to-positive signal
-      → Outcome MISS prediction → negative signal
-      → = Self-action có efference copy → prediction tốt hơn → match nhiều hơn
-      → = External-action không có copy → prediction kém → miss nhiều hơn
+      → Outcome MATCHES prediction → neutral-to-positive signal
+      → Outcome MISSES prediction → negative signal
+      → = Self-action has efference copy → better prediction → more matches
+      → = External-action has no copy → worse prediction → more misses
 
     ③ OPIOID SYSTEM (🟢 Berridge 2003):
       → Prediction match → micro-opioid release
-      → = "Đúng rồi" signal → hedonic micro-reward
-      → = Tích lũy qua hàng trăm lần → body PREFER self-action
+      → = "Exactly right" signal → hedonic micro-reward
+      → = Accumulated across hundreds of instances → body PREFERS self-action
 
-    → 3 components ĐỘC LẬP — không ai thiết kế chúng "cho autonomy"
-    → Efference copy evolved cho MOTOR CONTROL (tránh tự cù, etc.)
-    → VTA evolved cho LEARNING (reward prediction)
-    → Opioid evolved cho HEDONIC VALUATION
-    → NHƯNG khi hoạt động CÙNG LÚC → emergent pattern:
+    → 3 components INDEPENDENT — nobody designed them "for autonomy"
+    → Efference copy evolved for MOTOR CONTROL (avoiding self-tickling, etc.)
+    → VTA evolved for LEARNING (reward prediction)
+    → Opioid evolved for HEDONIC VALUATION
+    → BUT when operating SIMULTANEOUSLY → emergent pattern:
       "self-action = better prediction = more reward"
     → = AUTONOMY PREFERENCE = BYPRODUCT of architecture
-    → = Giống: nobody designed VTA "cho novelty" — VTA fires on prediction
+    → = Like: nobody designed VTA "for novelty" — VTA fires on prediction
       delta, novelty HAPPENS to produce large delta → novelty preference emerges
 
-  SO SÁNH VỚI CÁC EMERGENT PATTERNS KHÁC:
+
+  COMPARISON WITH OTHER EMERGENT PATTERNS:
 
     ┌──────────────────────┬──────────────────────────────────────┐
     │ EMERGENT PATTERN     │ HARDWARE COMPONENTS                  │
@@ -159,44 +160,50 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │                      │ = Self-action → copy → better        │
     │                      │   prediction → more match → reward   │
     ├──────────────────────┼──────────────────────────────────────┤
-    │ Boredom              │ VTA habituate (delta → 0 over time)  │
+    │ Boredom              │ VTA habituates (delta → 0 over time) │
     │                      │ + gap detection → dissonance signal  │
     └──────────────────────┴──────────────────────────────────────┘
 
-    → Tất cả = EMERGENT, không phải "designed for"
-    → Tất cả = observable FROM architecture, UNIVERSAL
-    → Tất cả = có giá trị khoa học vì TESTABLE + FALSIFIABLE
+    → All = EMERGENT, not "designed for"
+    → All = observable FROM architecture, UNIVERSAL
+    → All = have scientific value because TESTABLE + FALSIFIABLE
+
 
   ⭐ COMPILABLE ARCHITECTURE (Inter-Body-Mechanism.md §1.2):
 
-    Tất cả patterns trong bảng trên = COMPILABLE ARCHITECTURE emergent.
-    Hardwired Architecture (côn trùng): hardwired stimulus→response.
-      → Không có efference copy → sensory prediction comparison path.
-      → Không có vmPFC → không có controllability learning.
-      → Không cần "autonomy preference" — mọi action pre-wired.
-    Compilable Architecture (động vật có vú):
+    All patterns in the table above = COMPILABLE ARCHITECTURE emergent.
+
+    Hardwired Architecture (insects): hardwired stimulus→response.
+      → No efference copy → no sensory prediction comparison path.
+      → No vmPFC → no controllability learning.
+      → No need for "autonomy preference" — all actions pre-wired.
+
+    Compilable Architecture (mammals):
       → General-purpose reward + compilation + PFC.
       → Efference copy + VTA + opioid = autonomy preference = BY-PRODUCT.
       → vmPFC + DRN = controllability LEARNABLE (Maier & Seligman 2016).
-    File này: document CƠ CHẾ HARDWARE tạo autonomy preference trong Compilable Architecture.
 
-  ⚠️ DISTINCTION QUAN TRỌNG:
+    This file: documents the HARDWARE MECHANISM that creates autonomy preference
+    within Compilable Architecture.
 
-    HARDWARE (file này): "TẠI SAO self-action = reward"
-      → Universal — mọi người, mọi culture, cross-species
-      → Không cần "học" — architecture tự produce
-      → Efference copy có từ birth (dù motor chưa precise)
 
-    SOFTWARE (Autonomy.md): "AI sẽ có XU HƯỚNG autonomy CAO/THẤP"
-      → Individual — khác mỗi người tùy experience
-      → CẦN "build" — motor chunks, controllability chunks, meta-chunk
-      → Tùy môi trường (bố mẹ, school, culture)
+  ⚠️ IMPORTANT DISTINCTION:
 
-    → Hardware cho sẵn REWARD cho self-action
-    → Software quyết định AI DÙNG ĐƯỢC cái reward đó không
-    → Bé bị ép mãn tính: hardware VẪN cho reward cho self-action
-      NHƯNG software đã compile "tự làm = bị phạt" → SUPPRESS reward path
-    → = Hardware đúng, software override → "biết nên tự làm nhưng không dám"
+    HARDWARE (this file): "WHY self-action = reward"
+      → Universal — everyone, every culture, cross-species
+      → Does not need to be "learned" — architecture naturally produces it
+      → Efference copy present from birth (even before motor is precise)
+
+    SOFTWARE (Autonomy.md): "WHO will have HIGH/LOW autonomy TENDENCY"
+      → Individual — different for each person depending on experience
+      → MUST be "built" — motor chunks, controllability chunks, meta-chunk
+      → Depends on environment (parents, school, culture)
+
+    → Hardware provides REWARD for self-action
+    → Software determines WHETHER SOMEONE CAN USE that reward
+    → Child chronically coerced: hardware STILL rewards self-action
+      BUT software has compiled "doing it myself = punishment" → SUPPRESSES reward path
+    → = Hardware correct, software overrides → "know should do it myself but dare not"
 ```
 
 ---
@@ -208,100 +215,116 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟢 RESEARCH (von Holst & Mittelstaedt 1950, established neuroscience):
 
-  EFFERENCE COPY — CƠ CHẾ CƠ BẢN:
+  EFFERENCE COPY — THE FUNDAMENTAL MECHANISM:
 
-    Khi BẠN thực hiện action:
-      ① Motor cortex generate COMMAND → gửi tới muscles
-      ② ĐỒNG THỜI: motor cortex gửi COPY (efference copy)
-         → tới sensory cortex
-      ③ Sensory cortex dùng copy → PREDICT sensory input sắp tới
-         → "expect cảm giác X ở thời điểm Y với cường độ Z"
-      ④ Sensory input arrives → COMPARE với prediction
+    When YOU perform an action:
+      ① Motor cortex generates COMMAND → sends to muscles
+      ② SIMULTANEOUSLY: motor cortex sends COPY (efference copy)
+         → to sensory cortex
+      ③ Sensory cortex uses copy → PREDICTS incoming sensory input
+         → "expect sensation X at time Y with intensity Z"
+      ④ Sensory input arrives → COMPARE with prediction
       ⑤ Match → neutral-to-positive signal
          Mismatch → alerting/error signal
 
-    Khi NGƯỜI KHÁC thực hiện action lên bạn:
-      ① KHÔNG có motor command từ bạn
-      ② KHÔNG có efference copy
-      ③ Sensory cortex KHÔNG có prediction template
+    When SOMEONE ELSE performs an action on you:
+      ① NO motor command from you
+      ② NO efference copy
+      ③ Sensory cortex has NO prediction template
       ④ Sensory input arrives → "UNPREDICTED"
-      ⑤ Alerting signal (dù input positive)
+      ⑤ Alerting signal (even if input is positive)
+
 
   🟢 CLASSIC EVIDENCE:
 
-    TỰ CÙ (🟢 Blakemore et al. 1998):
-      → Bạn tự cù → efference copy PREDICT cảm giác
-      → Prediction MATCH → signal CANCELLED → không buồn cười
-      → Người khác cù → NO efference copy → UNPREDICTED → buồn cười
+    SELF-TICKLING (🟢 Blakemore et al. 1998):
+      → You tickle yourself → efference copy PREDICTS the sensation
+      → Prediction MATCHES → signal CANCELLED → not ticklish
+      → Someone else tickles you → NO efference copy → UNPREDICTED → ticklish
       → = Efference copy CANCELS self-generated sensory input
-      → = CÙNG input, KHÁC prediction → KHÁC body response
+      → = SAME input, DIFFERENT prediction → DIFFERENT body response
 
-    VÍ DỤ MỞ RỘNG:
-      → Tự gãi đầu: efference copy predict → match → neutral
-      → Người khác gãi đầu: no copy → unpredicted → startle/alerting
-      → = Hardware PHÂN BIỆT self-action vs external-action
-        ở SENSORY LEVEL, TRƯỚC conscious processing
+    EXTENDED EXAMPLES:
+      → Scratching your own head: efference copy predicts → matches → neutral
+      → Someone else scratches your head: no copy → unpredicted → startle/alerting
+      → = Hardware DISTINGUISHES self-action vs external-action
+        at the SENSORY LEVEL, BEFORE conscious processing
+
 
   ⭐ FRAMEWORK APPLICATION:
 
-    Efference copy = lý do PHYSICAL tại sao self-action
-    cho prediction accuracy CAO hơn external-action.
+    Efference copy = the PHYSICAL reason why self-action
+    provides higher prediction accuracy than external-action.
 
-    KHÔNG phải "psychology" hay "preference" — là NEUROSCIENCE ARCHITECTURE.
-    Body PHÂN BIỆT self vs external ở millisecond level.
-    Và prediction match = opioid micro-reward (§0 ③).
-    → = Self-action INHERENTLY more rewarding ở hardware level.
+    This is NOT "psychology" or "preference" — it is NEUROSCIENCE ARCHITECTURE.
+    Body DISTINGUISHES self vs external at the millisecond level.
+    And prediction match = opioid micro-reward (§0 ③).
+    → = Self-action is INHERENTLY more rewarding at the hardware level.
 ```
 
-### §1.2 — Multi-Channel Preview: Tay → Não → Miệng
+### §1.2 — Multi-Channel Preview: Hand → Brain → Mouth
 
 ```
 🟡 FRAMEWORK SYNTHESIS (🟢 efference copy + 🟢 multi-sensory integration):
 
-  TỰ XÚC ĂN — MULTI-CHANNEL PREDICTION CASCADE:
+  SELF-FEEDING — MULTI-CHANNEL PREDICTION CASCADE:
 
-    1. Motor cortex: "đưa muỗng lên miệng" (command)
+    1. Motor cortex: "bring spoon to mouth" (command)
+
     2. Efference copy → somatosensory cortex:
-       "expect muỗng chạm môi ở angle X, pressure Y, timing Z"
-    3. Tay cầm muỗng → touch receptors FIRE:
-       → Thermal: "food ~35°C" (preview cho miệng)
-       → Texture: "mềm, trơn" (preview cho lưỡi)
-       → Weight: "~5ml" (preview cho lượng)
-    4. Brain UPDATE prediction cho mouth:
-       "food ~35°C, mềm, lượng ~5ml, sắp tới trong 0.5 giây"
-    5. Miệng nhận → compare với ENRICHED prediction → MATCH
+       "expect spoon to touch lips at angle X, pressure Y, timing Z"
+
+    3. Hand holds spoon → touch receptors FIRE:
+       → Thermal: "food ~35°C" (preview for mouth)
+       → Texture: "soft, smooth" (preview for tongue)
+       → Weight: "~5ml" (preview for volume)
+
+    4. Brain UPDATES prediction for mouth:
+       "food ~35°C, soft, volume ~5ml, arriving in 0.5 seconds"
+
+    5. Mouth receives → compares with ENRICHED prediction → MATCH
+
     6. VTA: match → neutral-positive delta
+
     7. Opioid: match → micro-reward
 
-  MẸ XÚC — PREDICTION POOR:
 
-    1. KHÔNG có motor command từ bé → KHÔNG có efference copy
-    2. Sensory cortex KHÔNG có prediction template
-    3. Bé's hand KHÔNG cầm muỗng:
-       → KHÔNG có thermal preview
-       → KHÔNG có texture preview
-       → KHÔNG có weight preview
+  MOTHER FEEDS — PREDICTION POOR:
+
+    1. NO motor command from baby → NO efference copy
+
+    2. Sensory cortex has NO prediction template
+
+    3. Baby's hand is NOT holding spoon:
+       → NO thermal preview
+       → NO texture preview
+       → NO weight preview
+
     4. Brain: NO enriched prediction available
-    5. Miệng nhận input → "unpredicted timing, temperature, quantity"
-    6. VTA: unpredicted (dù positive) → alerting signal, NOT reward
+
+    5. Mouth receives input → "unpredicted timing, temperature, quantity"
+
+    6. VTA: unpredicted (even if positive) → alerting signal, NOT reward
+
     7. = Mild dissonance, not catastrophic but CONSISTENT
 
-  TỰ MẶC ÁO — CÙNG MECHANISM:
 
-    Bé tự mặc:
-      → Efference copy predict mọi contact point
-      → Tay feel vải → preview cho body surface
-      → Bé adjust speed, pressure theo body signal real-time
-      → = PREDICTION MATCH ở hầu hết contact points
+  SELF-DRESSING — SAME MECHANISM:
 
-    Mẹ mặc cho:
-      → Vải cọ xát theo trajectory CỦA MẸ → bé KHÔNG predict
-      → Pressure points ở chỗ mẹ tay đặt → KHÔNG match bé's comfort
-      → Speed: mẹ mặc nhanh → bé body chưa kịp adapt
-      → = PREDICTION MISS ở nhiều contact points
+    Child dresses self:
+      → Efference copy predicts all contact points
+      → Hand feels fabric → preview for body surface
+      → Child adjusts speed, pressure according to real-time body signal
+      → = PREDICTION MATCH at most contact points
 
-    → CHẬM nhưng THOẢI MÁI (tự mặc) > nhanh nhưng PREDICTION MISS (mẹ mặc)
-    → = Cost (chậm) < benefit (prediction match) khi motor chunks ĐỦ
+    Mother dresses child:
+      → Fabric rubs along MOTHER's trajectory → child cannot predict
+      → Pressure points where mother's hands land → do NOT match child's comfort
+      → Speed: mother dresses quickly → child's body cannot adapt in time
+      → = PREDICTION MISS at multiple contact points
+
+    → SLOW but COMFORTABLE (self-dressing) > fast but PREDICTION MISS (mother dresses)
+    → = Cost (slow) < benefit (prediction match) when motor chunks are SUFFICIENT
 ```
 
 ### §1.3 — Compare Table: Self vs External
@@ -310,24 +333,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ SUMMARY TABLE:
 
   ┌────────────────────┬──────────────────────┬──────────────────────┐
-  │ PARAMETER           │ SELF-ACTION          │ EXTERNAL-ACTION      │
+  │ PARAMETER          │ SELF-ACTION          │ EXTERNAL-ACTION      │
   ├────────────────────┼──────────────────────┼──────────────────────┤
-  │ Efference copy     │ ✅ CÓ               │ ❌ KHÔNG             │
-  │ Timing predict     │ HIGH (tự quyết)      │ LOW (người khác)     │
+  │ Efference copy     │ ✅ PRESENT           │ ❌ ABSENT            │
+  │ Timing predict     │ HIGH (self-controlled│ LOW (someone else)   │
   │ Spatial predict    │ HIGH (motor command) │ LOW (unpredicted)    │
-  │ Thermal preview    │ YES (hand feel)      │ NO (no hand contact) │
+  │ Thermal preview    │ YES (hand feels)     │ NO (no hand contact) │
   │ Texture preview    │ YES                  │ NO                   │
-  │ Olfactory preview  │ CLOSER (self-pace)   │ PARTIAL              │
+  │ Olfactory preview  │ CLOSER (self-paced)  │ PARTIAL              │
   │ Overall prediction │ HIGH                 │ LOW                  │
   │ VTA signal         │ Match → positive     │ Miss → alerting      │
   │ Opioid             │ Micro-reward         │ Absent               │
   │ Body feedback      │ REWARD               │ MILD DISSONANCE      │
   └────────────────────┴──────────────────────┴──────────────────────┘
 
-  → CÙNG action. CÙNG object. CÙNG outcome.
-  → KHÁC: ai control → KHÁC prediction accuracy → KHÁC body feedback.
-  → = HARDWARE ARCHITECTURE tự produce distinction này.
-  → = Mọi người đều có. Mọi tuổi. Cross-species.
+  → SAME action. SAME object. SAME outcome.
+  → DIFFERENT: who controls → DIFFERENT prediction accuracy → DIFFERENT body feedback.
+  → = HARDWARE ARCHITECTURE naturally produces this distinction.
+  → = Everyone has this. Every age. Cross-species.
 ```
 
 ### §1.4 — Prediction Accuracy = Measurable, NOT Abstract
@@ -336,71 +359,73 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ FALSIFIABILITY:
 
   "AGENCY FEELING" (mainstream):
-    → "Cảm giác tôi có quyền quyết định"
-    → ĐO BẰNG GÌ? → self-report questionnaire
-    → BÁC BỎ THẾ NÀO? → unfalsifiable
-    → = PFC LABEL cho body state — hữu ích cho giao tiếp, KHÔNG giải thích cơ chế
+    → "The feeling that I have decision-making power"
+    → HOW TO MEASURE? → self-report questionnaire
+    → HOW TO FALSIFY? → unfalsifiable
+    → = PFC LABEL for body state — useful for communication, does NOT explain mechanism
 
   "SELF-PREDICTION ACCURACY" (framework):
     → Self-action → sensory outcome MATCH/MISMATCH prediction
-    → ĐO BẰNG GÌ:
+    → HOW TO MEASURE:
       ① Efference copy match ratio (neural imaging, 🟢 technology exists)
       ② Sensory prediction-delta (VTA dopamine, 🟢 Schultz 1997)
       ③ Opioid release on match (🟢 PET scan measurable)
       ④ Behavioral proxy: preference test (choose self vs external)
-    → BÁC BỎ THẾ NÀO:
-      → Nếu self-action KHÔNG produce higher prediction accuracy
-        → efference copy mechanism bị bác bỏ (unlikely — well-established)
-      → Nếu higher prediction accuracy KHÔNG produce more reward
-        → VTA/opioid link bị bác bỏ (unlikely — Schultz + Berridge)
-    → = CLEAR testable chain → giá trị khoa học CAO
+    → HOW TO FALSIFY:
+      → If self-action does NOT produce higher prediction accuracy
+        → efference copy mechanism falsified (unlikely — well-established)
+      → If higher prediction accuracy does NOT produce more reward
+        → VTA/opioid link falsified (unlikely — Schultz + Berridge)
+    → = CLEAR testable chain → HIGH scientific value
 
   FRAMEWORK POSITION:
-    → "Agency feeling" = PFC label cho body state
+    → "Agency feeling" = PFC label for body state
     → Body state = prediction accuracy pattern (measurable)
-    → Giống: "đau" = PFC label cho nociceptor signal
-    → "Đau" hữu ích giao tiếp. "Nociceptor signal" giải thích cơ chế.
-    → "Agency feeling" hữu ích giao tiếp. "Prediction accuracy" giải thích cơ chế.
+    → Like: "pain" = PFC label for nociceptor signal
+    → "Pain" is useful for communication. "Nociceptor signal" explains mechanism.
+    → "Agency feeling" is useful for communication. "Prediction accuracy" explains mechanism.
 ```
 
 ---
 
 ## §2 — vmPFC + DRN: CONTROLLABILITY LEARNING
 
-### §2.1 — Maier & Seligman 2016: Bất Lực = MẶC ĐỊNH
+### §2.1 — Maier & Seligman 2016: Helplessness = DEFAULT
 
 ```
 🟢 RESEARCH — REVERSED ORIGINAL THEORY:
 
   ORIGINAL (Seligman 1967):
-    → Trạng thái bình thường = ACTIVE
+    → Normal state = ACTIVE
     → Uncontrollable events → LEARN helplessness
     → = "Learned helplessness" = brain LEARNS to be passive
 
   REVERSED (Maier & Seligman 2016):
-    → Trạng thái bình thường = PASSIVE (bất lực)
-    → Brain phải HỌC rằng tình huống controllable
-    → = "Learned controllability" mới là cái phải học
+    → Normal state = PASSIVE (helpless)
+    → Brain must LEARN that the situation is controllable
+    → = "Learned controllability" is actually what must be learned
     → = Passive response = DEFAULT (brainstem DRN)
-    → = Active response = LEARNED (vmPFC inhibit DRN)
+    → = Active response = LEARNED (vmPFC inhibits DRN)
 
-  🟢 CƠ CHẾ NEURAL (Maier & Seligman 2016; Maier & Watkins 2010):
 
-    DRN (Dorsal Raphe Nucleus — thân não):
-      → Fire khi aversive event → passive response DEFAULT
+  🟢 NEURAL MECHANISM (Maier & Seligman 2016; Maier & Watkins 2010):
+
+    DRN (Dorsal Raphe Nucleus — brainstem):
+      → Fires when aversive event occurs → passive response DEFAULT
       → = Serotonin release → passive coping (freeze, give up)
-      → = KHÔNG phải "depression serotonin" — là passive default
+      → = NOT "depression serotonin" — this is passive default
 
     vmPFC (ventromedial Prefrontal Cortex):
-      → CÓ THỂ learn "tình huống này controllable"
-      → Controllable DETECTED → vmPFC INHIBIT DRN
+      → CAN learn "this situation is controllable"
+      → Controllable DETECTED → vmPFC INHIBITS DRN
       → DRN suppressed → passive response BLOCKED → active coping possible
-      → = vmPFC = GATE cho active behavior
+      → = vmPFC = GATE for active behavior
 
     EVIDENCE:
       → vmPFC lesion → animals CANNOT learn controllability
         → Behave helpless EVEN when situation IS controllable
       → vmPFC intact + repeated controllable experience → robust controllability
+
 
   ⭐ FRAMEWORK TRANSLATION:
 
@@ -408,20 +433,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     vmPFC learn = body learns "my actions → outcomes"
     vmPFC training = ACCUMULATED EXPERIENCE of controllable situations
 
-    → = Hardware CHO PHÉP learn controllability
-    → = Nhưng PHẢI ĐƯỢC TRAIN qua experience
-    → = Nếu không train (helicopter parenting) → DRN default GIỮ NGUYÊN
-    → = Nếu train nhiều (cho tự thử) → vmPFC robust → active coping
+    → = Hardware ALLOWS learning controllability
+    → = But MUST BE TRAINED through experience
+    → = If not trained (helicopter parenting) → DRN default REMAINS
+    → = If trained extensively (allowed to try) → vmPFC robust → active coping
 
-  ⚠️ CONTENT NÀY TRƯỚC ĐÂY Ở backup/Neurochemistry.md §6.3:
-    → "Controllability = biến quan trọng nhất"
+  ⚠️ THIS CONTENT PREVIOUSLY IN backup/Neurochemistry.md §6.3:
+    → "Controllability = most important variable"
     → "Action Clarity ≈ controllability + available action path"
-    → Các file thay thế (Neural-Architecture, Neural-Processing-Flow)
-      KHÔNG cover vmPFC/DRN controllability detail
-    → File này = primary reference cho mechanism này
+    → Replacement files (Neural-Architecture, Neural-Processing-Flow)
+      do NOT cover vmPFC/DRN controllability detail
+    → This file = primary reference for this mechanism
 ```
 
-### §2.2 — vmPFC Learn "Kiểm Soát Được" → Suppress DRN
+### §2.2 — vmPFC Learns "Controllable" → Suppresses DRN
 
 ```
 🟡 FRAMEWORK SYNTHESIS (🟢 mechanism, 🟡 chunk framing):
@@ -429,30 +454,34 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   vmPFC LEARNING PROCESS:
 
     Step 1: Aversive event → DRN fires (DEFAULT passive)
+
     Step 2: Subject takes action + outcome CHANGES
-      → vmPFC detect: "action → outcome changed" = controllability signal
+      → vmPFC detects: "action → outcome changed" = controllability signal
+
     Step 3: Repeated controllable experiences
-      → vmPFC strengthen: "tình huống LOẠI NÀY = controllable"
+      → vmPFC strengthens: "situations OF THIS TYPE = controllable"
+
     Step 4: Next similar event
-      → DRN fires (DEFAULT) → vmPFC: "controllable!" → INHIBIT DRN
+      → DRN fires (DEFAULT) → vmPFC: "controllable!" → INHIBITS DRN
       → Passive response BLOCKED → active coping ENABLED
+
 
   ⭐ DOMAIN-SPECIFIC (framework addition):
 
-    vmPFC KHÔNG learn "mọi thứ controllable" — learn PER DOMAIN:
-      → Tự xúc ăn thành công × 50 → "ăn = controllable"
-      → Tự mặc áo thành công × 30 → "mặc = controllable"
-      → Chưa resolve conflict → "conflict = ?"
+    vmPFC does NOT learn "everything is controllable" — learns PER DOMAIN:
+      → Self-fed successfully × 50 → "eating = controllable"
+      → Self-dressed successfully × 30 → "dressing = controllable"
+      → Never resolved conflict → "conflict = ?"
       → = DOMAIN-SPECIFIC controllability
 
     → CEO confident (business: thousands of experiences)
-      nhưng helpless trong relationship (never trained)
-    → Student giỏi toán (novelty path) nhưng social anxiety (no training)
+      but helpless in relationships (never trained)
+    → Student good at math (novelty path) but social anxiety (no training)
     → = Autonomy ≠ global trait — collection of domain-specific states
-    → = KHÔNG phải "personality" — là chunk gap
+    → = NOT "personality" — it is a chunk gap
 ```
 
-### §2.3 — Cortisol Mãn Tính → vmPFC Teo → Helplessness
+### §2.3 — Chronic Cortisol → vmPFC Atrophies → Helplessness
 
 ```
 🟢 RESEARCH (McEwen 2007, Maier & Seligman 2016):
@@ -462,185 +491,201 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Chronic cortisol → dendritic retraction in vmPFC
       (🟢 McEwen 2007: glucocorticoid-mediated dendritic remodeling)
     → vmPFC neurons SHRINK → fewer connections → WEAKER DRN inhibition
-    → = vmPFC TEO VẬT LÝ → lost controllability learning
-    → = DRN REGAIN DOMINANCE → passive default RETURNS
+    → = vmPFC PHYSICALLY ATROPHIES → lost controllability learning
+    → = DRN REGAINS DOMINANCE → passive default RETURNS
 
     Consequence:
       → Person who HAD controllability → LOSES it after chronic stress
-      → "Bất lực TỔNG QUÁT HÓA sang cả tình huống kiểm soát được"
-      → = Biological basis for "không thể bắt đầu dù biết nên làm"
-      → = KHÔNG phải "lười" — vmPFC cấu trúc đã damaged
+      → "Helplessness GENERALIZES even to controllable situations"
+      → = Biological basis for "cannot start even knowing I should"
+      → = NOT "laziness" — vmPFC structure has been damaged
 
-  2 PATHWAYS TỚI HELPLESSNESS:
+
+  2 PATHWAYS TO HELPLESSNESS:
 
     Pathway 1 — OVER-CONTROL (no training):
-      → Parent làm MỌI THỨ cho trẻ → no controllable experience
-      → vmPFC KHÔNG được train → DRN default stays
-      → 🟢 LeMoyne & Buchanan 2011: helicopter → helplessness
+      → Parent does EVERYTHING for child → no controllable experience
+      → vmPFC NOT trained → DRN default stays
+      → 🟢 LeMoyne & Buchanan 2011: helicopter parenting → helplessness
 
     Pathway 2 — CHRONIC THREAT (damage):
-      → Parent imposed threats → chronic cortisol
-      → vmPFC developing UNDER cortisol → structural damage
-      → Controllability chunks KHÔNG compile (or weak)
-      → = ≠ "thiếu ý chí" — vmPFC developmental deficit
+      → Parent imposes threats → chronic cortisol
+      → vmPFC develops UNDER cortisol → structural damage
+      → Controllability chunks cannot compile (or compile weakly)
+      → = ≠ "lack of willpower" — vmPFC developmental deficit
 
-    CẢ 2 → cùng kết quả: helplessness
+    BOTH → same result: helplessness
     = Body-Base-Example.md: "parent's over-feeding of caring channel
       = child's starving of autonomy channel"
 
+
   RECOVERY:
-    → vmPFC CÓ THỂ recover (🟢 neuroplasticity)
-    → NHƯNG slower than damage
+    → vmPFC CAN recover (🟢 neuroplasticity)
+    → BUT slower than the damage
     → Requires: CONTROLLED exposure to controllable situations
     → = CBT graded exposure = REBUILD vmPFC controllability
-    → = Therapy ≠ "talk about feelings" — là RE-TRAIN vmPFC
-    → Timeline: tháng-năm
+    → = Therapy ≠ "talk about feelings" — it is RE-TRAINING vmPFC
+    → Timeline: months to years
 ```
 
 ---
 
-## §3 — CORTISOL DIRECTION TAG: CÙNG LEVEL, KHÁC TAG
+## §3 — CORTISOL DIRECTION TAG: SAME LEVEL, DIFFERENT TAG
 
 ### §3.1 — Novelty Direction vs Threat Direction
 
 ```
 🟢/🟡 (research: cortisol mechanisms 🟢, direction framing 🟡):
 
-  CÙNG CORTISOL LEVEL, KHÁC DIRECTION (Cortisol-Baseline §7.2-§7.3):
+  SAME CORTISOL LEVEL, DIFFERENT DIRECTION (Cortisol-Baseline §7.2-§7.3):
 
     ┌─────────────────┬────────────────────────┬──────────────────────┐
     │                 │ NOVELTY DIRECTION      │ THREAT DIRECTION     │
-    │                 │ (tự chọn, tò mò)      │ (bị ép, sợ)         │
+    │                 │ (self-chosen, curious) │ (coerced, fearful)   │
     ├─────────────────┼────────────────────────┼──────────────────────┤
-    │ Cortisol level  │ Moderate               │ Moderate-Cao         │
-    │ Kèm theo        │ + Dopamine (seeking)   │ + NE (alert)         │
-    │                 │ + Opioid nhẹ (preview) │ + Adrenaline         │
-    │ Body state      │ HƯNG PHẤN              │ CĂNG                 │
+    │ Cortisol level  │ Moderate               │ Moderate-High        │
+    │ Accompanied by  │ + Dopamine (seeking)   │ + NE (alert)         │
+    │                 │ + Opioid mild (preview)│ + Adrenaline         │
+    │ Body state      │ EXCITED                │ TENSE                │
     ├─────────────────┼────────────────────────┼──────────────────────┤
     │ Chunk tag       │ APPROACH (opioid)      │ AVOIDANCE (threat)   │
-    │                 │ "hiểu = pleasant"         │ "học = khó chịu"     │
-    │ Long-term       │ Body THÍCH dùng lại    │ Body TRÁNH dùng      │
+    │                 │ "understanding =       │ "studying =          │
+    │                 │  pleasant"             │  uncomfortable"      │
+    │ Long-term       │ Body LIKES to use it   │ Body AVOIDS it       │
     ├─────────────────┼────────────────────────┼──────────────────────┤
-    │ Sleep quality   │ TỐT                    │ CÓ THỂ KÉM          │
-    │ Repair quality  │ CAO                    │ THẤP                 │
+    │ Sleep quality   │ GOOD                   │ MAY BE POOR          │
+    │ Repair quality  │ HIGH                   │ LOW                  │
     │ Net health      │ Repair ≥ Damage        │ Repair < Damage      │
     ├─────────────────┼────────────────────────┼──────────────────────┤
-    │ Chunk quality   │ CÓ + DÙNG ĐƯỢC        │ CÓ + KHÓ DÙNG       │
-    │                 │ + THÍCH                │ + GẮN SỢ             │
+    │ Chunk quality   │ PRESENT + USABLE       │ PRESENT + HARD TO    │
+    │                 │ + LIKED                │ USE + FEAR-ATTACHED  │
     └─────────────────┴────────────────────────┴──────────────────────┘
 
   AUTONOMY CONNECTION:
     → Self-chosen action = typically NOVELTY direction
     → Forced action = typically THREAT direction
-    → = Autonomy (self) vs Ép (external) → KHÁC cortisol direction
-    → = KHÁC chunk tag → KHÁC cả đời
+    → = Autonomy (self) vs Coercion (external) → DIFFERENT cortisol direction
+    → = DIFFERENT chunk tag → DIFFERENT for a lifetime
 
-    (Table duplicated from Cortisol-Baseline §7.2 cho self-contained reference)
+    (Table duplicated from Cortisol-Baseline §7.2 for self-contained reference)
 ```
 
-### §3.2 — Compile-Time Lock: Tag KHÔNG Đổi Sau Compile
+### §3.2 — Compile-Time Lock: Tag Does NOT Change After Compile
 
 ```
 🟡 FRAMEWORK:
 
   CHUNKS COMPILE AT MOMENT cortisol fires (Cortisol-Baseline §7.3):
-    → Body state direction tại moment đó = LOCK IN vào chunk
+    → Body state direction at that moment = LOCKS IN to chunk
     → = COMPILE-TIME variable
 
-  Student A (tự chọn, interest):
+  Student A (self-chosen, interest):
     → Cortisol moderate + dopamine + opioid preview
     → Body state = NOVELTY direction
-    → Math chunks compile với APPROACH TAG (opioid present at compile)
-    → Adult: "tôi yêu toán, dùng thoải mái"
+    → Math chunks compile with APPROACH TAG (opioid present at compile)
+    → As adult: "I love math, use it comfortably"
 
-  Student B (bị ép, threat):
+  Student B (coerced, threat):
     → Cortisol moderate (SAME LEVEL) + NE + adrenaline
     → Body state = THREAT direction
-    → Math chunks compile với AVOIDANCE TAG (threat direction at compile time)
-    → Adult: "tôi giỏi toán nhưng GHÉT mở sách toán"
+    → Math chunks compile with AVOIDANCE TAG (threat direction at compile time)
+    → As adult: "I'm good at math but HATE opening a math book"
 
-  → CÙNG content learned. CÙNG cortisol level.
-  → KHÁC direction → KHÁC tag → KHÁC 20 năm sau.
+  → SAME content learned. SAME cortisol level.
+  → DIFFERENT direction → DIFFERENT tag → DIFFERENT 20 years later.
 ```
 
-### §3.3 — "Giỏi Nhưng Ghét" = Threat-Compiled Chunks
+### §3.3 — "Skilled But Hate It" = Threat-Compiled Chunks
 
 ```
 🟡 FRAMEWORK (Domain-Mapping-Drive.md §7.1):
 
   ┌────────────────────┬──────────────────┬──────────────────┐
-  │                    │ STUDENT A (self) │ STUDENT B (ép)   │
+  │                    │ STUDENT A (self) │ STUDENT B (forced│
   ├────────────────────┼──────────────────┼──────────────────┤
   │ Short term (6 mo)  │ Slower start     │ Faster (forced)  │
   │ Chunk quantity     │ Fewer initially  │ More initially   │
-  │ Chunk quality      │ Approach-tagged   │ Avoidance-tagged │
+  │ Chunk quality      │ Approach-tagged  │ Avoidance-tagged │
   │ Long term (10 yr)  │ Continue growing │ Decay + avoidance│
   │ Net result         │ DEEP + ENJOYED   │ BROAD but AVOIDED│
   └────────────────────┴──────────────────┴──────────────────┘
 
-  Decision-makers (bố mẹ, school) thấy 6-month results:
-    → Student B = "tốt hơn" → push system toward threat path
-  Decision-makers KHÔNG thấy 10-year results:
+  Decision-makers (parents, school) see 6-month results:
+    → Student B = "better" → push system toward threat path
+  Decision-makers do NOT see 10-year results:
     → Student A = MUCH better
   → = Short-term visible bias (Domain-Mapping-Drive.md line 2991-2993)
 
-  "Giỏi nhưng ghét" = VERY COMMON phenomenon:
-    → Chunks CÓ (giỏi) nhưng avoidance-tagged (ghét)
-    → Body TRÁNH dùng → career trong lĩnh vực đó = BURNOUT risk
+  "Skilled but hate it" = VERY COMMON phenomenon:
+    → Chunks PRESENT (skilled) but avoidance-tagged (hate it)
+    → Body AVOIDS using them → career in that field = BURNOUT risk
     → = Threat-compiled mastery = fragile achievement
 ```
 
 ---
 
-## §4 — OPIOID vs RELIEF: 2 PATHWAYS, 2 KẾT QUẢ
+## §4 — OPIOID vs RELIEF: 2 PATHWAYS, 2 OUTCOMES
 
 ### §4.1 — Path A (Self-Chosen): Opioid → Sustainable
 
 ```
 🟡 FRAMEWORK (🟢 Berridge opioid/dopamine):
 
-  PATH A — TỰ CHỌN:
+  PATH A — SELF-CHOSEN:
 
     ① Body-need active (curiosity, interest)
-    ② PFC: Imagine-Final = "tôi muốn HIỂU / LÀM / GIẢI"
+
+    ② PFC: Imagine-Final = "I want to UNDERSTAND / DO / SOLVE"
+
     ③ Self-initiated action → efference copy → prediction
-    ④ Outcome MATCH → VTA: positive prediction-delta
-    ⑤ Opioid: match → "đúng rồi" → hedonic reward
-    ⑥ Chunk compile với APPROACH TAG → "hiểu = pleasant"
-    ⑦ Next encounter: body THÍCH dùng chunk → approach → repeat
+
+    ④ Outcome MATCHES → VTA: positive prediction-delta
+
+    ⑤ Opioid: match → "exactly right" → hedonic reward
+
+    ⑥ Chunk compiles with APPROACH TAG → "understanding = pleasant"
+
+    ⑦ Next encounter: body LIKES to use the chunk → approach → repeat
 
     = Self-reinforcing, self-sustaining, compound, resilient
 ```
 
-### §4.2 — Path B (Bị Ép): Relief → Dependent
+### §4.2 — Path B (Coerced): Relief → Dependent
 
 ```
 🟡 FRAMEWORK (Liking-Wanting.md §4):
 
-  PATH B — BỊ ÉP:
+  PATH B — COERCED:
 
     ① External threat (punishment, shame)
-    ② Body-need: SAFETY (tránh phạt), NOT curiosity
-    ③ Imagine-Final: "không bị mắng" (Imagine-Final.md line 178)
-    ④ Action = compliance (external-directed)
-    ⑤ Threat REMOVED → cortisol DROP → RELIEF
-    ⑥ Chunk compile với AVOIDANCE TAG → "học = khó chịu, xong = nhẹ nhõm"
-    ⑦ Next encounter: body TRÁNH → cần external threat
 
-    = Dependent, decay without threat, shallow, fragile
+    ② Body-need: SAFETY (avoid punishment), NOT curiosity
 
-  ⚠️ CÙNG HÀNH VI, KHÁC CƠ CHẾ:
-    Path A student: ngồi làm bài → opioid → sustainable
-    Path B student: ngồi làm bài → relief → stops without threat
-    Observer: "cả hai chăm chỉ" → KHÔNG PHÂN BIỆT từ hành vi
-    Body: HOÀN TOÀN KHÁC
+    ③ Imagine-Final: "not being scolded" (Imagine-Final.md line 178)
 
-    → = Tại sao 2 students cùng điểm NHƯNG:
-      A ra đời → tiếp tục grow
-      B ra đời → DỪNG → "ghét lĩnh vực đã giỏi"
+    ④ Action = compliance (externally directed)
+
+    ⑤ Threat REMOVED → cortisol DROPS → RELIEF
+
+    ⑥ Chunk compiles with AVOIDANCE TAG → "studying = uncomfortable, done = relieved"
+
+    ⑦ Next encounter: body AVOIDS → needs external threat
+
+    = Dependent, decays without threat, shallow, fragile
+
+
+  ⚠️ SAME BEHAVIOR, DIFFERENT MECHANISM:
+    Path A student: sits down to work → opioid → sustainable
+    Path B student: sits down to work → relief → stops without threat
+    Observer: "both are hardworking" → CANNOT DISTINGUISH from behavior
+    Body: COMPLETELY DIFFERENT
+
+    → = Why 2 students with same grades BUT:
+      A goes out into the world → continues to grow
+      B goes out into the world → STOPS → "hates the field they were good at"
 ```
 
-### §4.3 — Deci 1971: External Override Internal
+### §4.3 — Deci 1971: External Overrides Internal
 
 ```
 🟢 RESEARCH (Deci 1971, Reward-Economics.md §9):
@@ -648,7 +693,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   OVERJUSTIFICATION EFFECT:
 
     🟢 Deci (1971):
-      → Group A: play puzzle (intrinsic)
+      → Group A: play puzzle (intrinsic motivation)
       → Group B: play puzzle + paid
       → Phase 2: no payment → Group B STOPPED. Group A continued.
       → = External reward REPLACED internal reward
@@ -661,46 +706,47 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Old Imagine-Final ("understand") DELINKED → VERY HARD to recover
 
   IMPLICATION:
-    External rewards (kẹo, tiền, khen) CÓ THỂ DAMAGE autonomy:
-      → "Thưởng QUÁ MẠNH/LÂU = override internal prediction"
-      → Reward-Economics.md §9: external reward = scaffolding → THÁO khi xong
-      → Giữ quá lâu → autonomy LOST
+    External rewards (candy, money, praise) CAN DAMAGE autonomy:
+      → "Reward TOO STRONG/TOO LONG = overrides internal prediction"
+      → Reward-Economics.md §9: external reward = scaffolding → REMOVE when done
+      → Keep too long → autonomy LOST
 ```
 
 ---
 
-## §5 — BỊ ÉP = PREDICTION OVERRIDE → 2-LAYER DISSONANCE
+## §5 — COERCION = PREDICTION OVERRIDE → 2-LAYER DISSONANCE
 
 ```
 🟡 FRAMEWORK:
 
-  "BỊ ÉP" = PREDICTION OVERRIDE CÓ 2 LAYERS:
+  "BEING COERCED" = PREDICTION OVERRIDE WITH 2 LAYERS:
 
   Layer 1 — Prediction override (immediate, Body-Feedback-Mechanism §3.2):
-    → Current prediction stream bị interrupt
-    → Bé đang chơi đồ chơi → mẹ đút food → INTERRUPT
-    → Body: "prediction cho đồ chơi → đột nhiên food = OVERRIDE"
-    → = Giống bất kỳ prediction miss nào
+    → Current prediction stream is interrupted
+    → Baby is playing with toy → mother feeds food → INTERRUPT
+    → Body: "prediction for toy → suddenly food = OVERRIDE"
+    → = Like any prediction miss
 
   Layer 2 — Controllability dissonance (meta, vmPFC):
-    → "Prediction CỦA TÔI = irrelevant vì NGƯỜI KHÁC quyết"
-    → vmPFC: "tình huống này KHÔNG controllable"
+    → "MY prediction = irrelevant because SOMEONE ELSE decides"
+    → vmPFC: "this situation is NOT controllable"
     → DRN: passive coping response
-    → = META-LEARNING: "prediction của tôi không matter ở đây"
+    → = META-LEARNING: "my prediction does not matter here"
     → 🟢 Maier & Seligman 2016: uncontrollable → DRN default → passive
 
-  ⚠️ "BỊ ÉP + KẾT QUẢ TỐT" VẪN = DISSONANCE:
 
-    Mẹ ép học toán → bé giỏi toán → kết quả TỐT
-    NHƯNG:
-      → Prediction CỦA BÉ bị override → chunks compile AVOIDANCE TAG
-      → = "Giỏi toán nhưng GHÉT toán"
+  ⚠️ "COERCED + GOOD RESULT" STILL = DISSONANCE:
+
+    Mother forces studying math → child becomes good at math → result GOOD
+    BUT:
+      → Child's prediction was overridden → chunks compile with AVOIDANCE TAG
+      → = "Good at math but HATES math"
       → = Outcome quality ≠ autonomy satisfaction
 
-    Sếp ép cách mới → kết quả tốt hơn
-    NHƯNG:
-      → Nhân viên's prediction bị override → VẪN dissonance
-      → = "Đúng nhưng tôi KHÔNG quyết" = low autonomy DÙ outcome good
+    Boss forces new method → result is better
+    BUT:
+      → Employee's prediction was overridden → STILL dissonance
+      → = "Correct but I did NOT decide" = low autonomy EVEN IF outcome is good
 ```
 
 ### §5.1 — × New Concepts (28-session Drill Propagation)
@@ -708,19 +754,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ENTITY-ACCESS × AUTONOMY-HARDWARE (Entity-Access.md v1.2):
   → vmPFC controllability learning (§2) = Entity-Access CALIBRATION hardware:
-    vmPFC learns "tôi control ĐƯỢC access" → Entity-Access-Calibration.md v1.0
-    vmPFC teo (chronic stress) → LOST calibration capacity
+    vmPFC learns "I CAN control access" → Entity-Access-Calibration.md v1.0
+    vmPFC atrophies (chronic stress) → LOST calibration capacity
     → = Autonomy hardware = access calibration hardware
   → DRN inhibition pattern = per-entity access gating:
-    Controllable entity → vmPFC inhibit DRN → approach
+    Controllable entity → vmPFC inhibits DRN → approach
     Uncontrollable entity → DRN fires → helplessness per-entity
 
 HARDWARE-SUBSIDY × AUTONOMY (Entity-Valence-Dynamics.md v1.0 §5):
-  → Hardware-subsidy INTERACT with autonomy hardware:
-    High subsidy entities (con, partner): efference copy BONUS
-      → Body reward self-action toward THESE entities even MORE
-      → = TẠI SAO chăm con = highest autonomy feeling (hardware + subsidy compound)
-    Low subsidy entities (stranger): efference copy ALONE
+  → Hardware-subsidy INTERACTS with autonomy hardware:
+    High subsidy entities (children, partner): efference copy BONUS
+      → Body rewards self-action toward THESE entities even MORE
+      → = WHY caring for a child = highest autonomy feeling (hardware + subsidy compound)
+    Low subsidy entities (strangers): efference copy ALONE
       → Body reward proportional to prediction accuracy only
   → Autonomy + hardware-subsidy = COMPOUND reward:
     Self-chosen action + toward subsidy entity = MAXIMUM opioid
@@ -750,7 +796,7 @@ HARDWARE-SUBSIDY × AUTONOMY (Entity-Valence-Dynamics.md v1.0 §5):
 
   ③ vmPFC + DRN controllability
     → Maier & Seligman (2016): reversed theory, well-replicated
-    → Maier & Watkins (2010): vmPFC inhibit DRN mechanism
+    → Maier & Watkins (2010): vmPFC inhibits DRN mechanism
     → McEwen (2007): chronic cortisol → vmPFC dendritic retraction
 
   ④ Overjustification
@@ -764,27 +810,27 @@ HARDWARE-SUBSIDY × AUTONOMY (Entity-Valence-Dynamics.md v1.0 §5):
 ### §6.2 — Tier 2: Framework Synthesis (🟡)
 
 ```
-🟡 PLAUSIBLE — combine established, chưa direct test:
+🟡 PLAUSIBLE — combines established, not yet directly tested:
 
   ① "Self-action = higher prediction accuracy than external-action"
     → Logical from efference copy + multi-channel preview
-    → Chưa direct experiment comparing prediction-delta self vs other-fed
+    → No direct experiment comparing prediction-delta self vs other-fed
     → TESTABLE: compare sensory prediction-delta
 
   ② Cortisol direction tag = COMPILE-TIME lock
     → Consistent with cortisol + opioid literature
-    → "Tag as permanent" chưa rõ = permanent or gradual?
-    → Therapy suggests retag possible but hard
+    → "Tag as permanent" unclear = permanent or gradual?
+    → Therapy suggests re-tagging is possible but hard
 
   ③ Emergent pattern framing
     → "Autonomy preference = byproduct of architecture"
     → Logically sound — but "emergent" is a claim about WHY, hard to test
-    → Alternative: could be directly selected (evolution for autonomy)
+    → Alternative: could be directly selected (evolution specifically for autonomy)
 
   ④ Compilable Architecture specificity (v1.1)
     → "These emergent patterns = Compilable Architecture only" = framework claim
     → Insects DO have simpler efference copies → but no vmPFC/controllability
-    → Boundary between Hardwired and Compilable may be gradient, not sharp
+    → Boundary between Hardwired and Compilable may be a gradient, not sharp
 ```
 
 ### §6.3 — Tier 3: Hypothesis (🔴)
@@ -793,7 +839,7 @@ HARDWARE-SUBSIDY × AUTONOMY (Entity-Valence-Dynamics.md v1.0 §5):
 🔴 SPECULATIVE:
 
   ① Multi-channel preview specifics (hand → temperature → mouth prediction)
-    → Nobody measured whether hand temperature preview ACTUALLY
+    → Nobody has measured whether hand temperature preview ACTUALLY
       improves infant mouth prediction accuracy
     → TESTABLE IN PRINCIPLE but not yet tested
 
@@ -808,10 +854,10 @@ HARDWARE-SUBSIDY × AUTONOMY (Entity-Valence-Dynamics.md v1.0 §5):
 ```
 ⚠️ 3 OPEN QUESTIONS (hardware-specific):
 
-  Q1: Efference copy DEVELOPMENT — when functional?
+  Q1: Efference copy DEVELOPMENT — when is it functional?
     → Present from birth? Or develops with motor cortex?
     → If present from birth → hardware reward for self-action from DAY 1
-    → If develops → there's a "before efference copy" period
+    → If develops → there is a "before efference copy" period
     → 🟢 Research suggests: basic form present early, refines with development
 
   Q2: vmPFC critical period?
@@ -823,7 +869,7 @@ HARDWARE-SUBSIDY × AUTONOMY (Entity-Valence-Dynamics.md v1.0 §5):
   Q3: Can approach tag → avoidance tag (and reverse)?
     → Trauma: can approach-tagged chunk be RE-tagged to avoidance?
     → Therapy: can avoidance-tagged be RE-tagged to approach?
-    → Partially answered: therapy works slowly → retag possible but hard
+    → Partially answered: therapy works slowly → re-tagging possible but hard
     → = Important for intervention design
 ```
 
@@ -851,7 +897,7 @@ COMPANION FILE:
 
 OBSERVATION FILES (cross-parameter):
   → Liking-Wanting.md §4 — Path A (opioid) vs Path B (relief)
-  → Imagine-Final.md §1 — student bị ép vs thích (line 174-179)
+  → Imagine-Final.md §1 — student coerced vs self-chosen (line 174-179)
   → Domain-Mapping-Drive.md §7.1 — Student A vs B, 10-year divergence
   → Reward-Economics.md §9 — controllability, Deci 1971
 
@@ -873,31 +919,32 @@ RESEARCH CITATIONS:
 ## SUMMARY
 
 ```
-AUTONOMY-HARDWARE = Tại sao self-action = reward (emergent from architecture)
+AUTONOMY-HARDWARE = Why self-action = reward (emergent from architecture)
 
-EFFERENCE COPY (§1): Self-action → motor cortex gửi COPY → sensory cortex
-  PREDICT input sắp tới → match → micro-opioid. External-action → no copy →
+EFFERENCE COPY (§1): Self-action → motor cortex sends COPY → sensory cortex
+  PREDICTS incoming input → match → micro-opioid. External-action → no copy →
   no prediction → mild dissonance. = Physical mechanism, universal, measurable.
 
-vmPFC + DRN (§2): Bất lực = MẶC ĐỊNH (Maier & Seligman 2016 reversed).
-  vmPFC LEARN controllability → inhibit DRN. Chronic cortisol → vmPFC teo →
-  helplessness returns. Domain-specific: controllable ở A ≠ controllable ở B.
+vmPFC + DRN (§2): Helplessness = DEFAULT (Maier & Seligman 2016 reversed).
+  vmPFC LEARNS controllability → inhibits DRN. Chronic cortisol → vmPFC atrophies →
+  helplessness returns. Domain-specific: controllable in A ≠ controllable in B.
 
-CORTISOL DIRECTION (§3): Cùng level, KHÁC direction → KHÁC tag.
-  Self-chosen = novelty direction = approach tag = body thích dùng.
-  Forced = threat direction = avoidance tag = body tránh. Compile-time lock.
+CORTISOL DIRECTION (§3): Same level, DIFFERENT direction → DIFFERENT tag.
+  Self-chosen = novelty direction = approach tag = body likes to use.
+  Forced = threat direction = avoidance tag = body avoids. Compile-time lock.
 
 2 PATHWAYS (§4): Path A (self) → opioid → sustainable.
-  Path B (ép) → relief → dependent on threat. Cùng hành vi, KHÁC cơ chế.
-  Overjustification (Deci 1971): external override internal = damage.
+  Path B (coerced) → relief → dependent on threat. Same behavior, DIFFERENT mechanism.
+  Overjustification (Deci 1971): external overrides internal = damage.
 
-BỊ ÉP (§5): 2-layer dissonance — immediate prediction override +
-  meta controllability loss. Kết quả tốt VẪN dissonance nếu bị ép.
+COERCION (§5): 2-layer dissonance — immediate prediction override +
+  meta controllability loss. Good result STILL = dissonance if coerced.
 
-= Hardware PRODUCE autonomy preference — emergent, not designed.
+= Hardware PRODUCES autonomy preference — emergent, not designed.
 = Companion file Autonomy.md covers SOFTWARE: how this develops per person.
 
-~870 lines | version 1.1 | 2026-05-17
+~900 lines | version 1.2 | 2026-05-23
 v1.1 CHANGES: ⑪ +Compilable Architecture alignment (§0) ⑫ +Inter-Body-Mechanism/Body-Feedback-Label cross-refs
   ⑬ Dependency versions updated (Body-Feedback-Mechanism v2.0, Cortisol v2.0)
+v1.2 CHANGES: +Entity-Access calibration (§5.1), +Hardware-Subsidy interaction (§5.1)
 ```

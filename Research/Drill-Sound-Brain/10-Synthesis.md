@@ -1,28 +1,28 @@
-﻿---
+---
 title: Sound × Brain Drill — Synthesis
 version: 1.0
 created: 2026-05-29
 updated: 2026-05-29
 status: SYNTHESIS v1.0
 scope: |
-  Tổng hợp toàn diện từ 44 insights, 150+ citations, 30 corrections qua 3 rounds verification.
+  Comprehensive synthesis from 44 insights, 150+ citations, 30 corrections across 3 verification rounds.
   6 framework validations. 10 framework extensions. 5 testable predictions.
   Drill quality: VERY GOOD (zero insights completely wrong).
 purpose: |
-  ① Executive summary — bức tranh tổng thể 1 trang
+  ① Executive summary — the complete picture in 1 page
   ② Framework validations — music neuroscience CONFIRMS framework mechanisms
-  ③ Framework extensions — new territory mapped thành công
+  ③ Framework extensions — new territory successfully mapped
   ④ Evidence quality — per-claim confidence assessment
-  ⑤ Key corrections — patterns in what drill got wrong
+  ⑤ Key corrections — patterns in what the drill got wrong
   ⑥ Open questions + predictions — future research directions
   ⑦ Methodological lessons — verification process insights
   ⑧ Impact assessment — what should change in core framework files
 position: |
   Research/Drill-Sound-Brain/ — FINAL synthesis file.
-  Đọc SAU tất cả drill files (01-09).
-  Đọc file này để HIỂU drill THAY VÌ đọc toàn bộ 10 files.
+  Read AFTER all drill files (01-09).
+  Read this file to UNDERSTAND the drill INSTEAD OF reading all 10 files.
   Reading priority: §1 (executive) → §2 (validations) → §3 (extensions) → rest.
-language: Tiếng Việt primary + English technical terms
+language: English
 ---
 
 # Sound × Brain Drill — Synthesis
@@ -31,15 +31,15 @@ language: Tiếng Việt primary + English technical terms
 > **3 rounds verification: 30 corrections, 35+ new citations.**
 > **Zero insights completely wrong.**
 >
-> **Music neuroscience = 1 trong những lĩnh vực MATURE nhất**
-> **để test framework predictions.**
-> **Kết quả: framework mechanisms VALIDATED ở mức per-step.**
+> **Music neuroscience = ONE of the MOST MATURE domains**
+> **for testing framework predictions.**
+> **Result: framework mechanisms VALIDATED at the per-step level.**
 >
-> **File này: tổng hợp TOÀN BỘ drill thành 1 bức tranh.**
+> **This file: synthesizes THE ENTIRE drill into 1 complete picture.**
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §1 — Executive Summary
 - §2 — 6 Framework Validations (What Music Neuroscience CONFIRMS)
@@ -57,18 +57,18 @@ language: Tiếng Việt primary + English technical terms
 ## §1 — Executive Summary
 
 ```
-⭐⭐ BỨC TRANH TỔNG THỂ:
+⭐⭐ THE COMPLETE PICTURE:
 
-  Music neuroscience là lĩnh vực hiếm hoi có neuroscience evidence
-  CHO TỪNG STEP của framework reward mechanism.
+  Music neuroscience is a rare domain with neuroscience evidence
+  FOR EACH STEP of the framework reward mechanism.
 
-  TRƯỚC DRILL:
-    Framework đã có: 7-step mechanism, Background-Pattern, Goldilocks,
+  BEFORE THE DRILL:
+    Framework already had: 7-step mechanism, Background-Pattern, Goldilocks,
     Gap-Direction, By-Product-Gap-Resonance, PFC budget...
-    Nhưng validation chủ yếu = logic + scattered evidence.
+    But validation was mostly = logic + scattered evidence.
 
-  SAU DRILL:
-    5 LANDMARK PAPERS trực tiếp confirm framework:
+  AFTER THE DRILL:
+    5 LANDMARK PAPERS directly confirm framework:
       Salimpoor 2011 → 7-step (caudate ≠ NAcc)
       Martínez-Molina 2016 → pipeline integrity (anhedonia)
       Cheung 2019 → Goldilocks (80k chords)
@@ -76,7 +76,7 @@ language: Tiếng Việt primary + English technical terms
       Selfhout 2009 → filter specificity
     + 1 new evidence (Nakai 2026) UPGRADES unified hierarchy claim
 
-    10 framework concepts APPLIED thành công:
+    10 framework concepts SUCCESSFULLY APPLIED:
       Gap-Direction, 3 Satiation Types, PFC budget, Background-Pattern,
       5-step social chain, Multi-modal compound, ENGINE/ROAD/VEHICLE,
       Unified hierarchy, 2-mode enjoyment, Shape vs Content
@@ -113,7 +113,7 @@ language: Tiếng Việt primary + English technical terms
   Finding:
     CAUDATE active during ANTICIPATION → Steps 1-3 (prediction/salience)
     NUCLEUS ACCUMBENS active during EXPERIENCE → Steps 5-6 (reward/pleasure)
-    2 vùng não KHÁC NHAU, 2 thời điểm KHÁC NHAU.
+    2 DIFFERENT brain regions, 2 DIFFERENT moments.
 
   Framework mechanism validated:
     Dopamine-Is-Not-Reward.md: PE = Step 1, Reward = Step 5-6
@@ -147,12 +147,12 @@ language: Tiếng Việt primary + English technical terms
   Analyzed 80,000 chords from Billboard Hot 100 (1958-1991).
 
   Finding:
-    Pleasure = MAX when: UNCERTAINTY CAO + OUTCOME POSITIVE.
+    Pleasure = MAX when: UNCERTAINTY HIGH + OUTCOME POSITIVE.
     = Surprising BUT coherent = peak pleasure.
 
   Framework mechanism validated:
     Prediction-Error-Is-Not-Reward.md §3 "Spotify test":
-    Random = PE nhưng no coherence → no pleasure.
+    Random = PE but no coherence → no pleasure.
     Too predictable = no PE → no pleasure.
     Sweet spot = PE + coherence. QUANTITATIVELY VALIDATED.
     Reward-Calibration.md: Goldilocks per-gap confirmed.
@@ -169,7 +169,7 @@ language: Tiếng Việt primary + English technical terms
     Consistent with Zajonc 1968 mere exposure.
 
   Framework mechanism validated:
-    Gap-Direction.md: "chưa biết = không có gap" → inverted-U
+    Gap-Direction.md: "no knowledge = no gap" → inverted-U
     Phase 0 (no gap) → Phase 2 (peak) → Phase 4 (saturation)
     Framework ADDS mechanism: inverted-U = f(gap formation trajectory)
 
@@ -218,35 +218,35 @@ language: Tiếng Việt primary + English technical terms
 ## §3 — 10 Framework Extensions
 
 ```
-⭐⭐ FRAMEWORK CONCEPTS APPLIED THÀNH CÔNG CHO MUSIC DOMAIN:
+⭐⭐ FRAMEWORK CONCEPTS SUCCESSFULLY APPLIED TO MUSIC DOMAIN:
 
-  Mỗi extension = 1 framework concept APPLIED (không thêm mechanism mới).
-  Tất cả consistent với evidence. Hầu hết = 🟡 framework synthesis.
+  Each extension = 1 framework concept APPLIED (no new mechanisms added).
+  All consistent with evidence. Most = 🟡 framework synthesis.
 
 
-  ① GAP-DIRECTION: "Chưa biết = không có gap" (02 §7b, 07 §5)
-     → Lần đầu nghe genre mới: chunks = ∅ → no gap → no desire → no reward
-     → Gap HÌNH THÀNH qua exposure → reward EMERGE → peak → saturation
-     → = Mechanism cho inverted-U trajectory
-     → EXPLAINS: "tại sao nghe nhiều lần mới thấy hay"
+  ① GAP-DIRECTION: "No knowledge = no gap" (02 §7b, 07 §5)
+     → First time hearing a new genre: chunks = ∅ → no gap → no desire → no reward
+     → Gap FORMS through exposure → reward EMERGES → peak → saturation
+     → = Mechanism for inverted-U trajectory
+     → EXPLAINS: "why you need many listens before it sounds good"
 
   ② 3 SATIATION TYPES × MUSIC (02 §5)
-     → Cyclic (1 bài: on/off/on), Tonic (luôn có nhạc nền), Generative (khám phá)
+     → Cyclic (1 song: on/off/on), Tonic (always background music), Generative (exploration)
      → Tonic = STRONGEST Background-Pattern formation (continuous, invisible)
-     → Per-listener profile: mỗi người = mix khác nhau
-     → EXPLAINS: "tại sao người luôn nghe nhạc = gu cứng nhất"
+     → Per-listener profile: each person = different mix
+     → EXPLAINS: "why people who always listen to music = strongest taste signature"
 
   ③ PFC BUDGET × COMPILED/FRESH (07 §7)
      → Familiar music + compiled task = OPTIMAL (no competition)
      → Unfamiliar music + fresh task = WORST (both compete for PFC)
-     → EXPLAINS: "tại sao nhạc giúp khi chạy bộ nhưng hại khi học bài mới"
+     → EXPLAINS: "why music helps when running but hurts when learning something new"
      → 🟢 Terry 2020 meta-analysis (k=139): music × exercise established
 
-  ④ BACKGROUND-PATTERN → "GU" = PFC LABEL (02 §3, §8)
-     → 10 năm nghe jazz → gist extraction → abstract pattern
-     → PFC label: "gu" → THAY THẾ investigation → identity
-     → "Gu thay đổi" = competing pattern built (years, not days)
-     → EXPLAINS: "tại sao gu khó thay đổi + tại sao thay đổi cần thời gian"
+  ④ BACKGROUND-PATTERN → TASTE SIGNATURE = PFC LABEL (02 §3, §8)
+     → 10 years listening to jazz → gist extraction → abstract pattern
+     → PFC label: taste signature → REPLACES investigation → identity
+     → Taste shift = competing pattern built (years, not days)
+     → EXPLAINS: "why taste is hard to change + why change takes time"
 
   ⑤ 5-STEP SOCIAL MECHANISM CHAIN (04 §3)
      → Selection → Reinforcement → Meeting → Discovery → Snowball
@@ -258,25 +258,25 @@ language: Tiếng Việt primary + English technical terms
      → Tier 1 (Sound alone) → Tier 2 (+Visual) → Tier 3 (+Action)
      → Coherence = CONDITION: super-additive IF coherent, dissonance IF NOT
      → Efference copy = Tier 3 exclusive reward source
-     → EXPLAINS: "tại sao rhythm games gây nghiện" + "game ≠ film"
+     → EXPLAINS: "why rhythm games are addictive" + "game ≠ film"
 
   ⑦ ENGINE/ROAD/VEHICLE × STREAMING ERA (07 §9)
      → Pre-streaming: gap = ACCESS (how to get music?)
      → Post-streaming: gap = DISCOVERY (what NEW to listen to?)
-     → Technology fill routine → frontier SHIFT
-     → EXPLAINS: "tại sao Spotify era thay đổi listening behavior"
+     → Technology fills the routine → frontier SHIFTS
+     → EXPLAINS: "why the Spotify era changes listening behavior"
 
   ⑧ UNIFIED HIERARCHY (07 §4b)
      → Music × Math × Language = shared IFG/BA44 mechanisms (Nakai 2026)
      → Same nested gap-fill architecture, different parameters
      → Quality = decomposition × level alignment × Goldilocks per level
-     → EXPLAINS: "tại sao nhạc hay, toán giải được, startup thành công = cùng cấu trúc"
+     → EXPLAINS: "why good music, solved math, successful startup = same structure"
      → ⚠️ Startup parallel = ANALOGICAL (no neuroscience study)
 
   ⑨ 2-MODE ENJOYMENT (07 §7b)
      → Mode 1: Flow/immersion (PFC relaxed, body-feedback dominant)
      → Mode 2: Expert appreciation (PFC engaged WITH compiled knowledge)
-     → Original "phân tích → hết sướng" = WRONG as absolute
+     → Original "analysis kills pleasure" = WRONG as absolute
      → Hou 2024: analytical KNOWLEDGE increases liking
      → EXPLAINS: "musicians enjoy MORE, not less" + "effort vs knowledge distinction"
 
@@ -285,7 +285,7 @@ language: Tiếng Việt primary + English technical terms
      → Brain fills CONTENT (from personal chunks)
      → 3 mechanisms: Direct (hardware) > Learned (personal) > Isomorphic (structural)
      → Langer 1953 attribution added (not novel framework claim)
-     → EXPLAINS: "tại sao cùng bài nhạc khác nhau mỗi người"
+     → EXPLAINS: "why the same song is different for each person"
 ```
 
 ---
@@ -379,9 +379,9 @@ language: Tiếng Việt primary + English technical terms
 
   ═══ PATTERN 1: Wording Too Strong (11 corrections) ═══
 
-    C3  "Phân tích → hết sướng" → effort vs knowledge distinction
+    C3  "Analysis kills pleasure" → effort vs knowledge distinction
     C6  "3 independent channels" → "3 partially separable streams"
-    C9  "KHÔNG có hardware-subsidy" → "không có DEDICATED..."
+    C9  "NO hardware-subsidy" → "no DEDICATED..."
     C10 "Multiplicative" → "potentially super-additive"
     C11 "Hundreds of micro-rewards" → "continuous prediction with phasic peaks"
     C15 "Forced imagery weaker" → "depends on congruence"
@@ -438,8 +438,8 @@ language: Tiếng Việt primary + English technical terms
     I40 STRENGTHENED: Norman-Haignere 2022 song-selective neurons
     I38 STRENGTHENED: Chmiel & Schubert 2017 (87.7% of 57 studies)
 
-    LESSON: Verification KHÔNG CHỈ tìm lỗi. Có khi tìm thấy evidence
-    mạnh hơn claim ban đầu. 3/30 corrections = upgrades.
+    LESSON: Verification does NOT only find errors. Sometimes it finds evidence
+    stronger than the original claim. 3/30 corrections = upgrades.
 
 
   ═══ ROUND-BY-ROUND PATTERN ═══
@@ -541,7 +541,7 @@ language: Tiếng Việt primary + English technical terms
 
   ⑤ "OVERSTATED" ≠ "WRONG":
      Most corrections = wording too strong, not direction wrong.
-     "Phân tích → hết sướng" = direction partially right (effort CAN interfere).
+     "Analysis kills pleasure" = direction partially right (effort CAN interfere).
      But absolute framing = wrong (knowledge ADDS channels).
      → Nuance matters more than binary correct/incorrect.
 
@@ -582,7 +582,7 @@ language: Tiếng Việt primary + English technical terms
     → Alzheimer validation (with Jacobsen mechanism nuance)
 
   Gap-Direction.md:
-    → Music as clean case study for "chưa biết = không có gap"
+    → Music as clean case study for "no knowledge = no gap"
     → Inverted-U trajectory = textbook application
 
 
@@ -699,7 +699,7 @@ language: Tiếng Việt primary + English technical terms
   Dopamine-Is-Not-Reward.md           — 7-step mechanism
   Prediction-Error-Is-Not-Reward.md   — PE + coherence
   Background-Pattern.md               — formation, Triple Bias
-  Gap-Direction.md                     — "chưa biết = không có gap"
+  Gap-Direction.md                     — "no knowledge = no gap"
   By-Product-Gap-Resonance.md         — 4 conditions, Enhancers
   Self-Pattern-Modeling.md             — Triple Bias
   Gap-Body-Need.md                     — 3 Satiation, ENGINE/ROAD/VEHICLE

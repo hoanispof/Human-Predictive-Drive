@@ -1,71 +1,39 @@
 ---
-title: AI-Collective-Detection — AI Hỗ Trợ Nhận Diện Context Tập Thể
+title: "AI-Collective-Detection — AI-Assisted Collective Context Detection"
 version: 1.0
-created: 2026-05-30
-status: v1.0 — COMPANION FILE (collective-level capabilities cho AI-Schema-Detection.md)
-scope: |
-  COMPANION: AI-Schema-Detection.md v2.1 = individual-level (①-⑨).
-  File NÀY = collective-level (⑩-⑭). Continuous capability system ①-⑭.
-  5 collective detection capabilities:
-    ⑩ Arc Shift + Scale Diagnosis
-    ⑪ Coordination Node Assessment
-    ⑫ Collective Schema Pressure Detection
-    ⑬ Gap Distribution × Collective Matching
-    ⑭ Collective-Level Verification
-  TẠI SAO TÁCH FILE:
-    ① Collective detection cần context data KHÁC individual
-    ② Intervention direction KHÁC (adapt vs fix)
-    ③ Verification methods KHÁC (body-check alone không đủ)
-    ④ AI-Schema-Detection đã 1,719L — thêm ~800L = quá dài
-purpose: |
-  Trả lời: Client than phiền → NGUỒN ở đâu? Cá nhân hay collective?
-  AI-Schema-Detection ⑧ cover BASICS (3 loại chain break).
-  File NÀY EXTEND: LOẠI NÀO collective? SCALE NÀO? VERIFY THẾ NÀO?
-  "Nhầm scale = fix sai hướng" — đây là rủi ro LỚN NHẤT trong AI-assisted therapy.
-position: |
-  Core-Deep-Dive/Observation/ — ngang hàng AI-Schema-Detection.md.
-  COMPANION TO AI-Schema-Detection.md v2.1 (individual ①-⑨).
-  EXTENDS ⑧ (Collective Chain Break Detection) từ basic → full.
-  Reading prerequisite: AI-Schema-Detection.md §3 ⑧⑨.
-dependencies:
-  - AI-Schema-Detection.md v2.1 — individual capabilities ①-⑨, 3-layer model, process §6
-  - Collective-Arc-Dynamics.md v1.2 — §4.5 scale-dependent disruption, §3 shelf-life
-  - Coordination-Node.md v1.2 — §6 Emergence≠Effectiveness, §8 node failure, §2 5 capabilities
-  - Collective-Schema-Pressure.md v1.0 — compound pressure, Asian/Confucian pattern
-  - Gap-Distribution-Profile.md v1.1 — 4 trục observation, collective gap landscape
-  - AI-Self-Model.md v2.1 — §3 Dual Check, §4 Stale Calibration
-  - Ask-AI.md v3.1 — §6.1 Dual Check principle (body + domain)
-  - Collective-Body.md v2.1 — §2 body không phân biệt source, Model 3 cấp
-  - Status.md v2.1 — §6 Disruption → Recalibrate cycle
-  - Body-Base.md v3.2 — §7 2-tier calibration
-source: AI-Schema-Detection-update-draft.md (5 GAPs → 5 capabilities, backup/)
-language: Tiếng Việt primary + English technical terms
-confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+scope: "Human Predictive Drive Framework v7.8 — Companion File (collective-level capabilities)"
+confidence: "Mixed: 🟢 research-backed / 🟡 framework synthesis / 🔴 speculative"
+source_file: "Core-Deep-Dive/Observation/AI-Collective-Detection.md"
 ---
 
-# AI-Collective-Detection — AI Hỗ Trợ Nhận Diện Context Tập Thể
+# AI-Collective-Detection — AI-Assisted Collective Context Detection
 
-> **Client: "Tôi thấy mọi thứ sụp đổ."**
+**Framework**: Human Predictive Drive v7.8
+**Version**: 1.0
+**Status**: COMPANION FILE — collective-level capabilities for AI-Schema-Detection.md
+**AI-Schema-Detection.md v2.1** = individual-level (①–⑨). **This file** = collective-level (⑩–⑭). Continuous capability system ①–⑭.
+
+> **Client: "I feel like everything is collapsing."**
 >
-> **AI cũ (chỉ individual detection):**
-> **→ "Có vẻ bạn đang có schema tiêu cực. Hãy explore tại sao bạn cảm thấy vậy."**
-> **→ Client tự blame. Therapy tốn thời gian. Không cải thiện.**
+> **Old AI (individual detection only):**
+> **→ "It seems you have a negative schema. Let's explore why you feel this way."**
+> **→ Client self-blames. Therapy takes time. No improvement.**
 >
-> **AI mới (+ collective detection):**
-> **→ Check: ngành client đang restructure? Company vừa layoff? Industry shift?**
-> **→ Nếu CÓ: "Vấn đề có vẻ ở COLLECTIVE level, không phải individual schema."**
-> **→ Hướng: adaptation (chuyển ngành, kỹ năng mới), KHÔNG therapy cá nhân.**
+> **New AI (+ collective detection):**
+> **→ Check: is the client's field restructuring? Did the company just lay off people? Industry shift?**
+> **→ If YES: "The problem seems to be at the COLLECTIVE level, not an individual schema."**
+> **→ Direction: adaptation (career shift, new skills), NOT individual therapy.**
 >
-> **CÙNG complaint. KHÁC diagnosis. KHÁC intervention. KHÁC outcome.**
-> **Biết SCALE = biết HƯỚNG.**
+> **SAME complaint. DIFFERENT diagnosis. DIFFERENT intervention. DIFFERENT outcome.**
+> **Knowing the SCALE = knowing the DIRECTION.**
 
 ---
 
-## Mục lục
+## Table of Contents
 
 ```
-§0  — VỊ TRÍ + COMPANION RELATIONSHIP
-§1  — TẠI SAO CẦN COLLECTIVE DETECTION RIÊNG
+§0  — POSITION + COMPANION RELATIONSHIP
+§1  — WHY COLLECTIVE DETECTION NEEDS SEPARATE TREATMENT
 §2  — ⑩ ARC SHIFT + SCALE DIAGNOSIS
 §3  — ⑪ COORDINATION NODE ASSESSMENT
 §4  — ⑫ COLLECTIVE SCHEMA PRESSURE DETECTION
@@ -78,93 +46,93 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §0 — VỊ TRÍ + COMPANION RELATIONSHIP
+## §0 — POSITION + COMPANION RELATIONSHIP
 
 ```
-⭐ HỆ THỐNG 14 CAPABILITIES — 2 FILES:
+⭐ THE 14-CAPABILITY SYSTEM — 2 FILES:
 
-  AI-Schema-Detection.md v2.1 — INDIVIDUAL (①-⑨):
+  AI-Schema-Detection.md v2.1 — INDIVIDUAL (①–⑨):
     ① Verbal Pattern Tracking
     ② Schema Cluster Suggestion
     ③ Contradiction Detection
     ④ Schema Chain Hypothesis
     ⑤ Compile Type Detection
     ⑥ Chunk Depth Inference
-    ⑦ AI Khơi Gợi Schema Ẩn
-    ⑧ Collective Chain Break Detection (BASIC — 3 loại)
-    ⑨ 3 Cấp Detection
+    ⑦ AI Eliciting Hidden Schemas
+    ⑧ Collective Chain Break Detection (BASIC — 3 types)
+    ⑨ 3-Level Detection
 
-  AI-Collective-Detection.md v1.0 — COLLECTIVE (⑩-⑭):     ← FILE NÀY
+  AI-Collective-Detection.md v1.0 — COLLECTIVE (⑩–⑭):     ← THIS FILE
     ⑩ Arc Shift + Scale Diagnosis
     ⑪ Coordination Node Assessment
     ⑫ Collective Schema Pressure Detection
     ⑬ Gap Distribution × Collective Matching
     ⑭ Collective-Level Verification
 
-  NOTE: ⑩ numbering TIẾP NỐI §3 capabilities của AI-Schema-Detection.
-  KHÔNG liên quan ⑩ trong §1 (limits numbering — context khác).
+  NOTE: ⑩ numbering CONTINUES from §3 capabilities of AI-Schema-Detection.
+  Not to be confused with ⑩ in §1 (limits numbering — different context).
 
   READING ORDER:
-    → AI-Schema-Detection §3 ⑧⑨ TRƯỚC (basic collective)
-    → File NÀY = EXTEND từ basic → full collective detection
+    → AI-Schema-Detection §3 ⑧⑨ FIRST (basic collective)
+    → This file = EXTENDS from basic → full collective detection
 
 
-  FLOW TỔNG THỂ:
+  OVERALL FLOW:
 
-    Client than phiền
+    Client complains
          ↓
-    AI-Schema-Detection ①-⑦: individual schema detection
+    AI-Schema-Detection ①–⑦: individual schema detection
          ↓
-    ⑧ Basic check: individual HAY collective?
+    ⑧ Basic check: individual OR collective?
          ↓
-    NẾU collective → FILE NÀY:
+    IF collective → THIS FILE:
          ↓
-    ⑩ Nguồn nào? Scale nào?
-    ⑪ Node fail hay individual issue?
+    ⑩ Which source? Which scale?
+    ⑪ Node failure or individual issue?
     ⑫ Compound schema pressure?
     ⑬ Gap distribution mismatch?
-    ⑭ Verify bằng cách nào?
+    ⑭ How to verify?
          ↓
-    → Intervention direction = collective adaptation (KHÁC individual therapy)
+    → Intervention direction = collective adaptation (DIFFERENT from individual therapy)
 ```
 
 ---
 
-## §1 — TẠI SAO CẦN COLLECTIVE DETECTION RIÊNG
+## §1 — WHY COLLECTIVE DETECTION NEEDS SEPARATE TREATMENT
 
 ```
-⭐ VẤN ĐỀ GỐC: BODY KHÔNG PHÂN BIỆT SOURCE.
+⭐ CORE PROBLEM: THE BODY DOESN'T DISTINGUISH SOURCE.
 
   Collective-Arc-Dynamics.md v1.2 §2:
-    → Dissonance từ individual schema failure = body feel "mệt, chán"
-    → Dissonance từ collective arc shift = body feel "mệt, chán"
-    → CÙNG body signal → PFC KHÔNG biết nguồn → PFC attribution CÓ THỂ SAI
+    → Dissonance from individual schema failure = body feels "exhausted, bored"
+    → Dissonance from collective arc shift = body feels "exhausted, bored"
+    → SAME body signal → PFC DOESN'T KNOW the source → PFC attribution CAN BE WRONG
 
   Collective-Body.md v2.1 §4.2 ⑥:
-    → Collective KHÔNG CÓ PFC thống nhất
-    → Cá nhân = node — nhận signal từ collective nhưng KHÔNG decode được source
-    → = Body nói "đau" — KHÔNG nói "đau vì ngành đang sụp" hay "đau vì tôi kém"
+    → The collective has NO unified PFC
+    → The individual = a node — receives signals from the collective but CANNOT decode the source
+    → = Body says "pain" — it doesn't say "pain because the field is collapsing" or "pain because I'm weak"
 
 
-  ⭐ HẬU QUẢ NHẦM SCALE:
+  ⭐ CONSEQUENCES OF WRONG SCALE:
 
-    NHẦM collective → individual (phổ biến nhất):
-      → Client: "Tôi thấy học vô ích" (thật ra: ngành đang gãy)
-      → Therapist: "Explore tại sao bạn sợ thất bại"
-      → Client tự blame → therapy vô hiệu → thêm frustrated → worse
+    WRONG: collective → individual (most common):
+      → Client: "I feel like studying is pointless" (actually: the field is breaking)
+      → Therapist: "Let's explore why you're afraid of failure"
+      → Client self-blames → therapy ineffective → more frustrated → gets worse
 
-    NHẦM individual → collective (ít phổ biến, cũng hại):
-      → Client: "Tôi luôn conflict với mọi sếp" (thật ra: authority schema)
-      → Advisor: "Đổi công ty đi, company này toxic"
-      → Client đổi 5 công ty → pattern lặp → mất cơ hội hiểu bản thân
+    WRONG: individual → collective (less common, also harmful):
+      → Client: "I always conflict with every boss I've ever had" (actually: authority schema)
+      → Advisor: "Switch companies, this one is toxic"
+      → Client switches 5 companies → pattern repeats → misses opportunity to understand themselves
 
-    → BIẾT SCALE = bước đầu tiên cho đúng hướng.
-    → AI CÓ THỂ check context data → assist phân biệt.
+    → KNOWING THE SCALE = the first step toward the right direction.
+    → AI CAN check context data → assist in distinguishing.
 
 
   🟢 Attribution error (self vs system blame): social psychology (Ross 1977)
   🟢 Structural unemployment vs individual skill gap: established economics
-  🟡 Body không phân biệt source = framework synthesis (Collective-Arc-Dynamics §2)
+  🟡 Body doesn't distinguish source = framework synthesis (Collective-Arc-Dynamics §2)
 ```
 
 ---
@@ -172,88 +140,91 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §2 — ⑩ ARC SHIFT + SCALE DIAGNOSIS
 
 ```
-⭐ AI-SCHEMA-DETECTION ⑧ DETECT: chain "GÃY" hay không.
-  FILE NÀY ⑩ DETECT: gãy VÌ GÌ + ở SCALE NÀO.
+⭐ AI-SCHEMA-DETECTION ⑧ DETECTS: chain "BROKEN" or not.
+  THIS FILE ⑩ DETECTS: broken BECAUSE OF WHAT + at WHICH SCALE.
 
-  = 2 tầng detection mới.
+  = 2 new tiers of detection.
 ```
 
-### §2.1 — Tầng 1: 3 nguồn "expired"
+### §2.1 — Tier 1: 3 Sources of "Expired"
 
 ```
-⭐ CLIENT NÓI "CÁI GÌ ĐÓ SAI" — 3 NGUỒN KHÁC NHAU:
+⭐ CLIENT SAYS "SOMETHING IS WRONG" — 3 DIFFERENT SOURCES:
 
-  A. COLLECTIVE ARC SHIFT (nguồn ở tập thể):
-     → Pattern TỪNG ĐÚNG → collective arc SHIFT → pattern OUTDATED
-     → VD: "Bằng ĐH → việc tốt" = ĐÚNG 2005, arc SHIFT → 2025 = default
-     → SIGNAL cho AI:
-       "Ngày xưa X thì Y, giờ không còn đúng nữa"
-       "Mọi người trong ngành đều thấy thay đổi"
-       "Thị trường/industry đang chuyển biến"
-     → INTERVENTION: recontextualize (hiểu arc shift, KHÔNG self-blame)
+  A. COLLECTIVE ARC SHIFT (source in the collective):
+     → Pattern WAS CORRECT → collective arc SHIFTS → pattern is OUTDATED
+     → Example: "College degree → good job" = CORRECT in 2005, arc SHIFTS → 2025 = default
+     → SIGNALS for AI:
+       "Before, X meant Y, but that's no longer true"
+       "Everyone in the field feels the change"
+       "The market/industry is shifting"
+     → INTERVENTION: recontextualize (understand the arc shift, do NOT self-blame)
      → Source: Collective-Arc-Dynamics v1.2 §5 ("true but unnecessary")
 
-  B. INDIVIDUAL GROWTH MISMATCH (nguồn ở cá nhân vượt qua):
-     → Cá nhân compile VƯỢT compiled pattern → pattern chật
-     → VD: Developer giỏi → "công ty này không đủ challenge" → cần level up
-     → SIGNAL cho AI:
-       "Tôi thấy mình đã qua giai đoạn này"
-       "Đồng nghiệp OK nhưng tôi thấy thiếu"
-       "Tôi muốn cái gì đó sâu hơn / rộng hơn"
-     → INTERVENTION: individual exploration (tìm domain/context phù hợp hơn)
+  B. INDIVIDUAL GROWTH MISMATCH (source in the individual surpassing their context):
+     → Individual has compiled BEYOND the compiled pattern → pattern feels too small
+     → Example: Developer becomes skilled → "this company isn't challenging enough" → needs to level up
+     → SIGNALS for AI:
+       "I feel like I've outgrown this stage"
+       "My colleagues are fine but I feel something's missing"
+       "I want something deeper / broader"
+     → INTERVENTION: individual exploration (find a more fitting domain/context)
 
-  C. COMPILED SHELF-LIFE HẾT HẠN (nguồn ở rule thay đổi):
-     → Pattern về collective rule → rule ĐÃ ĐỔI → pattern expired
-     → VD: "Mặc vest đến văn phòng" = compiled 2010 → remote work 2025 = irrelevant
-     → SIGNAL cho AI:
-       "Luật/quy định đã thay đổi nhưng tôi vẫn theo cũ"
-       "Mọi người xung quanh đã làm khác"
-       Pattern cụ thể, narrow, liên quan rule/convention
-     → INTERVENTION: update specific compiled chunk (nhỏ, nhanh)
+  C. COMPILED SHELF-LIFE EXPIRED (source in changed rules):
+     → Pattern was about a collective rule → rule HAS CHANGED → pattern expired
+     → Example: "Wear a suit to the office" = compiled in 2010 → remote work 2025 = irrelevant
+     → SIGNALS for AI:
+       "The rules/norms have changed but I'm still following the old ones"
+       "People around me already do it differently"
+       Specific, narrow pattern tied to a rule/convention
+     → INTERVENTION: update the specific compiled chunk (small, fast)
 
-  ⭐ HIỆN TẠI AI NHẦM CẢ 3 = "cái gì đó sai" → FIX SAI HƯỚNG:
-    A → cần recontextualize → nhầm cho individual therapy → tự blame
-    B → cần individual explore → nhầm cho collective → không tự improve
-    C → cần update chunk → nhầm cho deep therapy → waste time
+  ⭐ WITHOUT THIS DISTINCTION, AI LUMPS ALL 3 = "something is wrong" → WRONG FIX:
+    A → needs recontextualizing → mistakenly give individual therapy → self-blame
+    B → needs individual exploration → mistakenly push collective → doesn't self-improve
+    C → needs chunk update → mistakenly push deep therapy → waste of time
 ```
 
-### §2.2 — Tầng 2: 4-level scale spectrum
+### §2.2 — Tier 2: 4-Level Scale Spectrum
 
 ```
-⭐ "MỌI THỨ SỤP ĐỔ" — AI CHECK SCALE NÀO:
+⭐ "EVERYTHING IS COLLAPSING" — AI CHECKS WHICH SCALE:
 
   ┌──────────────────────┬────────────────────────┬────────────────────────┐
   │ Scale                │ Signal                 │ Intervention           │
   ├──────────────────────┼────────────────────────┼────────────────────────┤
-  │ ① PERSONAL           │ "Chỉ mình tôi thấy    │ Recompile personal     │
-  │ (compiled map cũ)    │  vậy, mọi người OK"   │ patterns               │
-  │                      │ Snapshot outdated      │ → Individual therapy    │
+  │ ① PERSONAL           │ "Only I feel this way, │ Recompile personal     │
+  │ (outdated personal   │  everyone else is OK"  │ patterns               │
+  │  map)                │ Snapshot outdated      │ → Individual therapy   │
   ├──────────────────────┼────────────────────────┼────────────────────────┤
-  │ ② COMPANY/NODE       │ "Team cũng than"       │ Navigate to new node   │
-  │ (leader/org fail)    │ "Mọi người ở cty này   │ → Chuyển cty/nhóm     │
-  │                      │  đều stress"           │ → Hoặc improve node    │
+  │ ② COMPANY/NODE       │ "The team is           │ Navigate to new node   │
+  │ (leader/org failure) │  complaining too"      │ → Switch company/team  │
+  │                      │ "Everyone at this      │ → Or improve the node  │
+  │                      │  company is stressed"  │                        │
   ├──────────────────────┼────────────────────────┼────────────────────────┤
-  │ ③ INDUSTRY           │ "Cả ngành đang khó"    │ Reposition in new      │
-  │ (arc shifting)       │ "Layoff toàn industry" │ direction              │
-  │                      │ Data: industry trends  │ → Chuyển ngành/kỹ năng │
+  │ ③ INDUSTRY           │ "The whole field is    │ Reposition in new      │
+  │ (arc shifting)       │  struggling"           │ direction              │
+  │                      │ "Layoffs industry-wide"│ → Career/skill shift   │
+  │                      │ Data: industry trends  │                        │
   ├──────────────────────┼────────────────────────┼────────────────────────┤
-  │ ④ NATIONAL/GLOBAL    │ "Mọi người đều khó     │ Adapt to new reality   │
-  │ (crisis/disruption)  │  khăn" Recession,      │ → Survival + patience  │
-  │                      │ pandemic, war          │ → Long-term adaptation │
+  │ ④ NATIONAL/GLOBAL    │ "Everyone is having    │ Adapt to new reality   │
+  │ (crisis/disruption)  │  a hard time"          │ → Survival + patience  │
+  │                      │ Recession, pandemic,   │ → Long-term adaptation │
+  │                      │ war                    │                        │
   └──────────────────────┴────────────────────────┴────────────────────────┘
 
   ⭐ AI CAN:
-    → Cross-reference verbal với context data (industry news, employment stats)
-    → Check: phàn nàn UNIQUE to client hay SHARED across context?
+    → Cross-reference verbal with context data (industry news, employment stats)
+    → Check: is the complaint UNIQUE to the client or SHARED across their context?
     → Tag scale → suggest appropriate intervention direction
 
-  ⭐ NHẦM SCALE = THERAPY SAI HƯỚNG:
-    → Nhầm ③ industry → ① personal → client TỰ BLAME
-    → Nhầm ① personal → ③ industry → client KHÔNG TỰ IMPROVE
-    → Scale nhỏ: intervention nhanh, personal
-    → Scale lớn: intervention chậm, patience + positioning
+  ⭐ WRONG SCALE = THERAPY IN THE WRONG DIRECTION:
+    → Treating ③ industry as ① personal → client SELF-BLAMES
+    → Treating ① personal as ③ industry → client DOESN'T SELF-IMPROVE
+    → Small scale: intervention fast, personal
+    → Large scale: intervention slow, patience + positioning
 
-  Source: Collective-Arc-Dynamics v1.2 §4.5 (4 mức: Shift→Disruption→Node Death→Extinction)
+  Source: Collective-Arc-Dynamics v1.2 §4.5 (4 levels: Shift→Disruption→Node Death→Extinction)
   Source: Status.md v2.1 §6 (Disruption → Recalibrate cycle)
   🟡 Scale diagnosis model = framework synthesis
   🟢 Structural unemployment (scale ③) vs individual (scale ①): economics
@@ -265,66 +236,67 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §3 — ⑪ COORDINATION NODE ASSESSMENT
 
 ```
-⭐ CLIENT PHÀN NÀN VỀ WORK → 3 NGUỒN KHÁC NHAU:
+⭐ CLIENT COMPLAINS ABOUT WORK → 3 DIFFERENT SOURCES:
 
-  VẤN ĐỀ: "Sếp tôi tệ / công ty toxic / tôi không chịu nổi"
-  → AI cần phân biệt: NGUỒN ở đâu?
+  PROBLEM: "My boss is bad / the company is toxic / I can't take it"
+  → AI needs to distinguish: WHERE is the SOURCE?
 
 
-  A. NODE FAIL — Leader/node thật sự kém hiệu quả:
+  A. NODE FAILURE — Leader/node genuinely ineffective:
 
      MECHANISM: Coordination-Node v1.2 §6 — Emergence ≠ Effectiveness.
-       WHO gets coordination position ≠ WHO operates well.
-       5 capabilities cần: Self-Pattern-Modeling, gap detection, PFC bandwidth,
+       WHO gets a coordination position ≠ WHO operates well.
+       5 capabilities needed: Self-Pattern-Modeling, gap detection, PFC bandwidth,
        uncertainty tolerance, trust cascade.
-       Node THIẾU capabilities → collective suffer.
+       Node LACKING capabilities → collective suffers.
 
-     SIGNAL cho AI:
-       → "Mọi người trong team cũng than" (nhiều người, không chỉ client)
-       → "Trước sếp cũ thì OK, sếp mới thì khác hẳn" (thay đổi correlate leader)
-       → "Sếp không hiểu domain" (scaffold chunks thiếu — Coordination-Node §2.4)
-       → Performance metrics giảm across team
-       → 🟢 Goodall 2009: physician-CEO → hospital quality cao hơn (p<0.001)
+     SIGNALS for AI:
+       → "Everyone on the team is also complaining" (many people, not just the client)
+       → "Things were fine with the old boss, totally different with the new one"
+         (change correlates with leader change)
+       → "The boss doesn't understand the domain" (scaffold chunks lacking — Coordination-Node §2.4)
+       → Performance metrics decline across the team
+       → 🟢 Goodall 2009: physician-CEO → hospital quality significantly higher (p<0.001)
          = domain scaffold matters
 
      INTERVENTION: career decision (leave / escalate / wait for change)
-       → FIX = ở organizational level, KHÔNG phải individual therapy
+       → FIX = at the organizational level, NOT individual therapy
 
 
-  B. CLIENT AUTHORITY SCHEMA — pattern cá nhân với authority:
+  B. CLIENT AUTHORITY SCHEMA — individual pattern with authority:
 
-     MECHANISM: Schema compiled từ personal history → project onto ALL authority.
+     MECHANISM: Schema compiled from personal history → projected onto ALL authority.
 
-     SIGNAL cho AI:
-       → "Chỉ mình tôi có vấn đề" (team OK, client struggle)
-       → "Tôi luôn conflict với MỌI sếp" (pattern lặp qua nhiều công ty/context)
-       → Personal history với authority (bố mẹ strict, bị ép tuổi thơ)
-       → Pattern ACROSS domains (conflict với sếp + giáo viên + bác sĩ + ...)
+     SIGNALS for AI:
+       → "Only I have a problem" (team is fine, client struggles)
+       → "I always conflict with EVERY boss I've ever had" (pattern repeats across many companies/contexts)
+       → Personal history with authority (strict parents, coercion in childhood)
+       → Pattern ACROSS domains (conflict with boss + teachers + doctors + ...)
 
      INTERVENTION: explore authority schema (individual work)
-       → FIX = ở individual level, đổi công ty KHÔNG giải quyết
+       → FIX = at the individual level, switching companies DOES NOT solve it
 
 
-  C. MISMATCH — neither fail, wrong fit:
+  C. MISMATCH — neither fails, wrong fit:
 
-     MECHANISM: Leader OK cho người khác, client's gap distribution KHÔNG match.
+     MECHANISM: Leader is fine for others, but client's gap distribution DOESN'T MATCH.
 
-     SIGNAL cho AI:
-       → "Sếp giỏi nhưng phong cách không hợp tôi" (acknowledge leader competence)
-       → "Đồng nghiệp hợp nhưng tôi không" (selective mismatch)
-       → Client's needs đặc biệt (autonomy cao, creative, hardware khác)
-       → KHÔNG có personal trauma history với authority
+     SIGNALS for AI:
+       → "The boss is skilled but the style doesn't suit me" (acknowledges leader competence)
+       → "My colleagues fit fine but I don't" (selective mismatch)
+       → Client's needs are particular (high autonomy, creative, different hardware)
+       → NO personal trauma history with authority
 
-     INTERVENTION: reposition (tìm context phù hợp hơn)
-       → FIX = ở matching level, không phải fix person HOẶC fix leader
+     INTERVENTION: reposition (find a more fitting context)
+       → FIX = at the matching level, not fixing the PERSON OR fixing the LEADER
 
 
-  ⭐ TẠI SAO 3-WAY DISTINCTION QUAN TRỌNG:
+  ⭐ WHY THE 3-WAY DISTINCTION MATTERS:
     A → career advice / organizational fix
     B → individual therapy / schema work
-    C → career advice (nhưng hướng KHÁC A — không phải "escape toxic")
-    NHẦM A↔B = waste time + wrong direction
-    NHẦM B→C = miss cơ hội hiểu bản thân
+    C → career advice (but a DIFFERENT direction from A — not "escape toxic situation")
+    Confusing A↔B = wastes time + wrong direction
+    Confusing B→C = misses opportunity to understand oneself
 
   Source: Coordination-Node.md v1.2 §6, §8 (node failure → collective recalibrate)
   🟡 3-way distinction applied to AI detection = framework synthesis
@@ -337,58 +309,59 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §4 — ⑫ COLLECTIVE SCHEMA PRESSURE DETECTION
 
 ```
-⭐ AI DETECT COMPOUND PRESSURE TỪ NHIỀU SCHEMAS ĐỒNG THỜI.
+⭐ AI DETECTS COMPOUND PRESSURE FROM MANY SCHEMAS SIMULTANEOUSLY.
 
-  HIỆN TẠI ⑤ (Compile Type Detection) detect 1 schema MỖI LẦN.
-  ⑫ detect: NHIỀU schemas CHỒNG LÊN ĐỒNG THỜI → compound effect.
+  Current ⑤ (Compile Type Detection) detects 1 schema AT A TIME.
+  ⑫ detects: MANY schemas STACKED SIMULTANEOUSLY → compound effect.
 
 
-  CƠ CHẾ (Collective-Schema-Pressure.md v1.0 §2):
+  MECHANISM (Collective-Schema-Pressure.md v1.0 §2):
     1 schema = 1 chunk-gap + 1 obligation + 1 cortisol holding → manageable.
-    N schemas ĐỒNG THỜI = compound (MULTIPLICATIVE, không additive):
+    N schemas SIMULTANEOUSLY = compound (MULTIPLICATIVE, not additive):
       → N chunk-gaps → PFC ~4±1 slots → OVERLOAD
-      → N obligations → total cost cực lớn
-      → N cortisol holdings → cortisol KHÔNG BAO GIỜ drop
-      → N status threats → mỗi domain đều có thể "thua"
-      → Vòng xoắn tự amplify: [chưa A NÊN chưa B NÊN... NÊN càng chưa A]
+      → N obligations → total cost enormous
+      → N cortisol holdings → cortisol NEVER drops
+      → N status threats → every domain has potential "failure"
+      → Self-amplifying spiral: [haven't done A SO haven't done B SO... SO even less done A]
 
 
-  AI DETECT — SIGNALS:
+  AI DETECTION — SIGNALS:
 
-    INDIVIDUAL schema problem (⑤ đã cover):
+    INDIVIDUAL schema problem (⑤ already covers):
       → 1 pattern, 1 domain, 1 personal history
       → Intervention: explore + recompile 1 pattern
 
-    COLLECTIVE SCHEMA PRESSURE (⑫ mới):
-      → Client list NHIỀU "phải" đồng thời:
-        "phải học giỏi" + "phải có nhà" + "phải lấy vợ/chồng" +
-        "phải có việc ổn định" + "phải chăm bố mẹ"
-      → Mỗi "phải" = Trust Compile install (không tự chọn)
-      → Client overwhelmed nhưng KHÔNG biết tại sao ("mệt mà không rõ nguồn")
-      → Body markers: sleep disrupted, anxiety diffuse, "mệt mà không biết tại sao"
+    COLLECTIVE SCHEMA PRESSURE (⑫ new):
+      → Client lists MANY "must-do" simultaneously:
+        "must study well" + "must own a home" + "must get married" +
+        "must have a stable job" + "must take care of parents"
+      → Each "must" = Trust Compile install (not self-chosen)
+      → Client is overwhelmed but DOESN'T KNOW WHY ("exhausted without a clear source")
+      → Body markers: sleep disrupted, diffuse anxiety, "tired without knowing why"
       → INTERVENTION:
-        RECOGNIZE compound load (đặt tên — giúp PFC observe pattern)
-        → PRIORITIZE (không thể giải quyết 6 "phải" đồng thời — chọn)
-        → POSSIBLY REJECT some (nhận ra một số "phải" = installed, KHÔNG phải genuine)
+        RECOGNIZE the compound load (naming it — helps PFC observe the pattern)
+        → PRIORITIZE (cannot resolve 6 "must-do" items simultaneously — must choose)
+        → POSSIBLY REJECT some (recognize that some "must-do" items are installed,
+          NOT genuine)
 
 
   ⭐ CULTURE-AWARE DETECTION:
 
-    → Schema density KHÁC theo culture:
-      Asian/Confucian: DENSE + RIGID (6+ schemas đồng thời, khó negotiate)
-      Nordic/Western: THINNER + FLEXIBLE (fewer schemas, negotiable)
-      → CÙNG hardware → KHÁC pressure = vì schema stack KHÁC
+    → Schema density DIFFERS by culture:
+      Asian/Confucian: DENSE + RIGID (6+ schemas simultaneously, hard to negotiate)
+      Nordic/Western: THINNER + FLEXIBLE (fewer schemas, more negotiable)
+      → SAME hardware → DIFFERENT pressure = because schema stack DIFFERS
       → Source: Collective-Schema-Pressure.md v1.0 §4
 
-    → AI cần CULTURAL CONTEXT:
-      Client culture = high density → compound check CRITICAL
-      Client culture = low density → compound ít phổ biến hơn
+    → AI needs CULTURAL CONTEXT:
+      Client from high-density culture → compound check CRITICAL
+      Client from low-density culture → compound less common
 
-    → ⚠️ KHÔNG phán xét văn hóa. Mô tả CƠ CHẾ:
-      Schema stack = trade-off structural (Collective-Schema-Pressure §3):
-        ~70% giữa phân phối: match → growth
-        ~15% mỗi đầu: mismatch → damage hoặc bored
-        → Mọi xã hội ĐỀU có trade-off này
+    → ⚠️ DO NOT JUDGE the culture. Describe the MECHANISM:
+      Schema stack = structural trade-off (Collective-Schema-Pressure §3):
+        ~70% in the middle of the distribution: match → growth
+        ~15% at each end: mismatch → damage or boredom
+        → Every society HAS this trade-off
 
 
   Source: Collective-Schema-Pressure.md v1.0 (§2 compound, §3 trade-off, §4 Asian pattern)
@@ -404,38 +377,38 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §5 — ⑬ GAP DISTRIBUTION × COLLECTIVE MATCHING
 
 ```
-⭐ AI OBSERVE GAP DISTRIBUTION → DETECT MISMATCH VỚI CONTEXT.
+⭐ AI OBSERVES GAP DISTRIBUTION → DETECTS MISMATCH WITH CONTEXT.
 
-  KHÔNG phải diagnostic. Là OBSERVATION tool — illuminate pattern.
-
-
-  CƠ CHẾ (Gap-Distribution-Profile.md v1.1):
-    Mỗi người có 1 gap distribution profile = AGGREGATE toàn bộ gaps.
-    4 trục: ① Domain Center × ② Origin Balance × ③ Depth Profile × ④ Stability.
-    Profile này TƯƠNG TÁC với environment → match hoặc mismatch.
+  NOT diagnostic. An OBSERVATION tool — to illuminate patterns.
 
 
-  AI CAN OBSERVE (từ conversation over time):
+  MECHANISM (Gap-Distribution-Profile.md v1.1):
+    Each person has 1 gap distribution profile = AGGREGATE of all their gaps.
+    4 axes: ① Domain Center × ② Origin Balance × ③ Depth Profile × ④ Stability.
+    This profile INTERACTS with environment → match or mismatch.
+
+
+  AI CAN OBSERVE (from conversation over time):
 
     DOMAIN CENTER:
-      "Client luôn excited về abstract problems" → abstract-dominant
-      "Client bored với routine work" → not near-body/sensory
-      "Khi rảnh, client đọc sách / code / nghiên cứu" → abstract indicator
-      Observable proxy: "Khi rảnh bạn tự nhiên làm gì?" = best indicator
+      "Client always gets excited about abstract problems" → abstract-dominant
+      "Client bored with routine work" → not near-body/sensory
+      "In free time, client reads / codes / researches" → abstract indicator
+      Observable proxy: "What do you naturally do when you have free time?" = best indicator
 
     ORIGIN BALANCE:
-      "Tôi thích X vì bố mẹ nói" → installed (Trust Compile)
-      "Tôi thích X vì tự tìm ra" → self-discovered (genuine approach)
-      AI check: behavior khi ALONE vs behavior khi WITH OTHERS
-      → Nếu khác nhiều → installed component cao
+      "I like X because my parents told me to" → installed (Trust Compile)
+      "I like X because I discovered it myself" → self-discovered (genuine approach)
+      AI checks: behavior when ALONE vs behavior when WITH OTHERS
+      → If very different → high installed component
 
     DEPTH PROFILE:
-      "Client biết nhiều thứ nhưng không sâu" → many-shallow (generalist)
-      "Client chỉ quan tâm 1 thứ nhưng cực kỳ sâu" → few-deep (specialist)
+      "Client knows many things but not deeply" → many-shallow (generalist)
+      "Client only cares about 1 thing but extremely deeply" → few-deep (specialist)
 
     STABILITY:
-      "Client đổi hướng liên tục" → shifting (high Pattern Shiftability)
-      "Client theo đuổi 1 thứ 10 năm" → locked (low shiftability)
+      "Client constantly changes direction" → shifting (high Pattern Shiftability)
+      "Client has pursued 1 thing for 10 years" → locked (low shiftability)
 
 
   MISMATCH DETECTION:
@@ -443,34 +416,34 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ┌────────────────────────────┬──────────────────────────────────────┐
     │ Mismatch type              │ Signal                               │
     ├────────────────────────────┼──────────────────────────────────────┤
-    │ Abstract person ×          │ "Tôi chán công việc nhưng lương     │
-    │ routine environment        │  tốt" — body bored, PFC rationaliz │
+    │ Abstract person ×          │ "I'm bored with my job but the      │
+    │ routine environment        │  salary is good" — body bored,      │
+    │                            │  PFC rationalizes                   │
     ├────────────────────────────┼──────────────────────────────────────┤
-    │ Specialist person ×        │ "Tôi phải làm quá nhiều thứ khác   │
-    │ generalist demand          │  nhau" — depth frustrated           │
+    │ Specialist person ×        │ "I have to do too many different    │
+    │ generalist demand          │  things" — depth frustrated         │
     ├────────────────────────────┼──────────────────────────────────────┤
-    │ Self-discovered gaps ×     │ "Tôi phải làm việc tôi không thực  │
-    │ installed expectations     │  sự muốn" — origin conflict        │
+    │ Self-discovered gaps ×     │ "I have to do work I don't actually │
+    │ installed expectations     │  want to do" — origin conflict      │
     ├────────────────────────────┼──────────────────────────────────────┤
-    │ Shifting person ×          │ "Tôi bị nhốt trong career path     │
-    │ locked environment         │  không phù hợp nữa"                │
+    │ Shifting person ×          │ "I'm trapped in a career path that  │
+    │ locked environment         │  no longer fits me"                 │
     └────────────────────────────┴──────────────────────────────────────┘
 
-    → Mismatch = REPOSITION, không phải "fix" person to fit environment.
-    → "Fix" person = compiled suppress → burnout (PFC-Operations v1.0 §6).
+    → Mismatch = REPOSITION, not "fix" the person to fit the environment.
+    → "Fixing" the person = Compiled Suppress → burnout (PFC-Operations v1.0 §6).
 
 
   ⚠️ GUARDRAILS:
 
-    → Đây là OBSERVATION tool, KHÔNG PHẢI diagnostic.
-    → AI suggest "gap distribution có vẻ mismatch context" → CLIENT verify.
-    → KHÔNG prescribe "bạn nên làm X" → chỉ illuminate pattern.
+    → This is an OBSERVATION tool, NOT a diagnostic.
+    → AI suggests "gap distribution seems to mismatch context" → CLIENT verifies.
+    → Does NOT prescribe "you should do X" → only illuminates the pattern.
     → Client's body = final judge (Dual Check — AI-Self-Model v2.1 §3).
     → Gap distribution CHANGES over time → observation = snapshot, not verdict.
 
 
-  Source: Gap-Distribution-Profile.md v1.1 (§3 4 trục, §7 collective landscape)
-  Source: Gap-Direction.md v2.0 (per-gap dynamics)
+  Source: Gap-Distribution-Profile.md v1.1 (§3 4 axes, §7 collective landscape)
   🟡 Gap distribution observation via AI = novel framework application
   🟡 Mismatch detection model = framework synthesis
   🟢 Person-environment fit: established (Holland 1997, Kristof-Brown 2005)
@@ -481,52 +454,52 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §6 — ⑭ COLLECTIVE-LEVEL VERIFICATION
 
 ```
-⭐ BODY-CHECK WORKS CHO INDIVIDUAL. KHÔNG ĐỦ CHO COLLECTIVE SCALE.
+⭐ BODY-CHECK WORKS FOR INDIVIDUAL. NOT SUFFICIENT FOR COLLECTIVE SCALE.
 
-  VẤN ĐỀ:
-    AI detect "collective arc shift" → HOW verify?
-    1 person's body CANNOT verify "ngành này đang sụp"
-    → CẦN verification methods KHÁC cho collective-level findings.
+  PROBLEM:
+    AI detects "collective arc shift" → HOW to verify?
+    1 person's body CANNOT verify "this field is collapsing"
+    → NEEDS different verification methods for collective-level findings.
 
 
   4 VERIFICATION APPROACHES — MATCH METHOD TO SCALE:
 
 
-  A. BODY-CHECK + DOMAIN FEEDBACK (cho Shift — scale ① ②):
+  A. BODY-CHECK + DOMAIN FEEDBACK (for Shift — scale ① ②):
 
-     → Client's OWN experience over time = valid signal cho gradual shift
-     → "Pattern cũ works less and less?" → body đã verify gradually
+     → Client's OWN experience over time = valid signal for gradual shift
+     → "Does the old pattern work less and less?" → body has verified gradually
      → + Domain feedback: P&L, career progress, market response
-     → = Ask-AI v3.1 §6.1 Dual Check applies NATURALLY cho gradual shift
-     → Confidence: MEDIUM-HIGH (verifiable qua personal experience)
+     → = Ask-AI v3.1 §6.1 Dual Check applies NATURALLY for gradual shift
+     → Confidence: MEDIUM-HIGH (verifiable through personal experience)
 
 
-  B. PEER PATTERN MATCHING (cho Disruption — scale ② ③):
+  B. PEER PATTERN MATCHING (for Disruption — scale ② ③):
 
-     → "Nhiều người cùng context report similar?" → collective signal
+     → "Do many people in the same context report similar things?" → collective signal
      → = Aggregated individual body-checks = proxy collective verification
-     → AI CAN ask: "Người khác trong ngành/công ty bạn có gặp tương tự?"
-     → Already partially in ⑧ — ⑭ formalize method
-     → ⚠️ RISK: echo chamber (nhiều người than = có thể chỉ group whining)
+     → AI CAN ask: "Do others in your field/company experience the same thing?"
+     → Already partially in ⑧ — ⑭ formalizes the method
+     → ⚠️ RISK: echo chamber (many people complaining = may be just group whining)
        → Cross-check: peer + objective data → both align?
-     → Confidence: MEDIUM (cần nhiều nguồn, risk echo chamber)
+     → Confidence: MEDIUM (needs multiple sources, echo chamber risk)
 
 
-  C. DATA TRIANGULATION (cho larger scale — scale ③ ④):
+  C. DATA TRIANGULATION (for larger scale — scale ③ ④):
 
-     → AI cross-reference: industry data, news, employment statistics
-     → = External verification thay vì body verification
+     → AI cross-references: industry data, news, employment statistics
+     → = External verification instead of body verification
      → Confidence = f(data quality × source diversity × recency)
      → AI CAN: search public data to confirm/deny collective hypothesis
-     → ⚠️ RISK: AI data có thể outdated hoặc biased
+     → ⚠️ RISK: AI data may be outdated or biased
      → Confidence: MEDIUM-LOW (depends on data quality)
 
 
-  D. HONEST CONFIDENCE TAGGING (cho TẤT CẢ scales):
+  D. HONEST CONFIDENCE TAGGING (for ALL scales):
 
-     → Scale nhỏ → tag HIGH confidence ("observable: company closed" = binary)
-     → Scale lớn → tag LOW confidence ("hypothesis: industry shifting" = uncertain)
-     → KHÔNG claim collective-level without evidence
+     → Small scale → tag HIGH confidence ("observable: company closed" = binary)
+     → Large scale → tag LOW confidence ("hypothesis: industry shifting" = uncertain)
+     → Do NOT claim collective-level without evidence
      → CAN claim: "signals suggest — verify with more data"
      → = Transparency > certainty
 
@@ -547,22 +520,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │                      │                     │  in real-time)       │
     └──────────────────────┴─────────────────────┴──────────────────────┘
 
-    SCALE NHỎ (shift, node): verification EASIER (observable)
-    SCALE LỚN (industry, national): verification HARDER (cần macro data)
+    SMALL SCALE (shift, node): verification EASIER (observable)
+    LARGE SCALE (industry, national): verification HARDER (needs macro data)
 
 
-  ⭐ DUAL CHECK Ở COLLECTIVE SCALE:
+  ⭐ DUAL CHECK AT COLLECTIVE SCALE:
 
     AI-Self-Model v2.1 §3 Dual Check: body = quality controller, domain = arbiter.
-    Collective scale: "domain feedback" THAY ĐỔI per scale:
+    Collective scale: "domain feedback" CHANGES per scale:
 
-      Personal: P&L, career progress, market response → domain feedback trực tiếp
+      Personal: P&L, career progress, market response → direct domain feedback
       Company: team metrics, turnover rate, multiple perspectives → proxy
       Industry: employment data, market reports, expert analysis → external data
       National: macro indicators, policy changes → statistical
 
-    → Body-check VẪN có giá trị ở mọi scale (body detect "có gì đó sai")
-    → Nhưng body ALONE không đủ CONFIRM collective-level claim
+    → Body-check STILL HAS VALUE at every scale (body detects "something is wrong")
+    → But body ALONE is not enough to CONFIRM a collective-level claim
     → = Body = early warning signal, domain data = confirmation
 
 
@@ -579,74 +552,74 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §7 — PROCESS INTEGRATION
 
-### §7.1 — Mapping vào AI-Schema-Detection §6 (5-step process)
+### §7.1 — Mapping to AI-Schema-Detection §6 (5-step process)
 
 ```
-⭐ 5 CAPABILITIES MỚI TÍCH HỢP VÀO QUY TRÌNH 5 BƯỚC ĐÃ CÓ:
+⭐ 5 NEW CAPABILITIES INTEGRATE INTO THE EXISTING 5-STEP PROCESS:
 
   ┌────────┬───────────────────────────┬──────────────────────────────────┐
-  │ Bước   │ AI-Schema-Detection §6    │ + Collective capabilities        │
+  │ Step   │ AI-Schema-Detection §6    │ + Collective capabilities        │
   ├────────┼───────────────────────────┼──────────────────────────────────┤
-  │ Bước 1 │ Thu thập pattern          │ + ⑩ Context data (industry,     │
+  │ Step 1 │ Collect patterns          │ + ⑩ Context data (industry,     │
   │        │                           │   company, market trends)        │
   │        │                           │ + ⑫ Cultural context             │
-  │        │                           │ + ⑬ Gap distribution signals     │
+  │        │                           │ + ⑬ Gap distribution signals    │
   ├────────┼───────────────────────────┼──────────────────────────────────┤
-  │ Bước 2 │ Cluster + Hypothesis +   │ + ⑩ "Expired" source diagnosis   │
-  │        │ Compile Type              │ + ⑪ Node assessment (nếu work   │
-  │        │                           │   complaint)                     │
-  │        │                           │ + ⑫ Compound pressure flag       │
+  │ Step 2 │ Cluster + Hypothesis +   │ + ⑩ "Expired" source diagnosis  │
+  │        │ Compile Type              │ + ⑪ Node assessment (if work    │
+  │        │                           │   complaint)                    │
+  │        │                           │ + ⑫ Compound pressure flag      │
   ├────────┼───────────────────────────┼──────────────────────────────────┤
-  │ Bước 3 │ Body-check với client     │ + ⑭ Verification method match   │
-  │        │                           │   to scale (body-check alone     │
-  │        │                           │   KHÔNG ĐỦ cho collective)       │
+  │ Step 3 │ Body-check with client   │ + ⑭ Verification method matched  │
+  │        │                           │   to scale (body-check alone    │
+  │        │                           │   NOT SUFFICIENT for collective) │
   ├────────┼───────────────────────────┼──────────────────────────────────┤
-  │ Bước 4 │ Predict + Verify          │ + ⑩ Collective predictions:     │
-  │        │                           │   "Người khác cùng context?"     │
+  │ Step 4 │ Predict + Verify          │ + ⑩ Collective predictions:     │
+  │        │                           │   "Others in same context?"     │
   │        │                           │ + ⑬ Mismatch predictions        │
   ├────────┼───────────────────────────┼──────────────────────────────────┤
-  │ Bước 5 │ Hướng can thiệp           │ + ALL ⑩-⑭ modify direction:    │
+  │ Step 5 │ Intervention direction    │ + ALL ⑩–⑭ modify direction:    │
   │        │                           │   Collective → adapt, not fix   │
   └────────┴───────────────────────────┴──────────────────────────────────┘
 
 
-  BƯỚC 0 (MỚI) — COLLECTIVE CONTEXT CHECK TRƯỚC INDIVIDUAL ANALYSIS:
+  STEP 0 (NEW) — COLLECTIVE CONTEXT CHECK BEFORE INDIVIDUAL ANALYSIS:
 
-    TRƯỚC khi bắt đầu 5 bước individual:
-      → AI quick-check: có collective context ĐÁNG CHÚ Ý không?
-      → Nếu CÓ (ngành disruption, company layoff, crisis) → flag
-      → NẾU collective flag = ON → adjust weight toàn bộ process
-      → Tránh: deep individual analysis cho collective problem
+    BEFORE starting the 5 individual steps:
+      → AI quick-check: is there any NOTABLE collective context?
+      → If YES (field disruption, company layoff, crisis) → flag
+      → IF collective flag = ON → adjust weighting across the whole process
+      → Avoids: deep individual analysis applied to a collective problem
 
-    → Bước 0 = CHEAP (context check nhanh, data-driven)
-    → Nhưng VALUE = rất cao (tránh nhầm hướng ngay từ đầu)
+    → Step 0 = CHEAP (quick context check, data-driven)
+    → But VALUE = very high (avoids wrong direction from the start)
 ```
 
-### §7.2 — Guardrails collective-specific
+### §7.2 — Collective-Specific Guardrails
 
 ```
-⭐ 4 RỦI RO RIÊNG CỦA COLLECTIVE DETECTION:
+⭐ 4 RISKS SPECIFIC TO COLLECTIVE DETECTION:
 
-  RISK 1 — NHẦM collective → individual (CLIENT TỰ BLAME):
-    → Phổ biến nhất. Default bias của therapy = individual focus.
-    → AI antidote: ALWAYS check collective context TRƯỚC.
-    → Đặc biệt khi: ngành disruption, mass layoff, recession
+  RISK 1 — WRONG: collective → individual (CLIENT SELF-BLAMES):
+    → Most common. Default bias in therapy = individual focus.
+    → AI antidote: ALWAYS check collective context FIRST.
+    → Especially when: field disruption, mass layoff, recession
 
-  RISK 2 — NHẦM individual → collective (CLIENT KHÔNG TỰ IMPROVE):
-    → Rarer nhưng harmful. "Đổ cho hệ thống" = escape self-reflection.
+  RISK 2 — WRONG: individual → collective (CLIENT DOESN'T SELF-IMPROVE):
+    → Rarer but harmful. "Blaming the system" = escaping self-reflection.
     → AI antidote: check pattern across contexts.
-    → Nếu pattern lặp ở NHIỀU contexts → likely individual.
+    → If pattern repeats across MANY contexts → likely individual.
 
-  RISK 3 — CULTURAL BIAS trong collective detection:
+  RISK 3 — CULTURAL BIAS in collective detection:
     → AI trained on Western data → may under-detect Asian schema pressure
     → AI may over-pathologize collectivist norms (not all schema = bad)
-    → AI antidote: culture-aware calibration, KHÔNG phán xét
+    → AI antidote: culture-aware calibration, NO judgment
 
   RISK 4 — ECHO CHAMBER vs genuine collective signal:
-    → "Nhiều người than" = collective problem HAY group whining?
+    → "Many people complaining" = collective problem OR group whining?
     → AI antidote: cross-check peer reports + objective data
-    → Nếu peers than BUT data OK → likely echo chamber
-    → Nếu peers than AND data confirm → likely genuine collective
+    → If peers complain BUT data is fine → likely echo chamber
+    → If peers complain AND data confirms → likely genuine collective
 ```
 
 ---
@@ -666,7 +639,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⑪ COORDINATION NODE ASSESSMENT:
     🟢 Emergence ≠ Effectiveness = research-backed (Goodall 2009, Benson 2019)
     🟢 Person-environment fit = established (Kristof-Brown 2005)
-    🟡 3-way distinction (fail/schema/mismatch) = framework synthesis
+    🟡 3-way distinction (failure/schema/mismatch) = framework synthesis
     🔴 AI can reliably distinguish 3 sources from verbal alone = untested
 
   ⑫ COLLECTIVE SCHEMA PRESSURE DETECTION:
@@ -678,7 +651,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⑬ GAP DISTRIBUTION × COLLECTIVE MATCHING:
     🟢 Person-environment fit = established (Holland 1997)
-    🟡 4 trục observation model = framework synthesis
+    🟡 4-axis observation model = framework synthesis
     🟡 Mismatch detection from verbal patterns = framework synthesis
     🔴 AI can infer gap distribution from conversation = untested
 
@@ -691,12 +664,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   OPEN QUESTIONS:
 
-    Q1. AI context data: data NÀO? Từ nguồn nào? Quality control?
-    Q2. Cultural calibration: dataset training nào cho culture-aware?
-    Q3. Scale ambiguity: ranh giới ②→③ (company→industry) = MỜN
-    Q4. Echo chamber detection: phân biệt genuine collective vs group bias?
+    Q1. AI context data: which data? From which sources? Quality control?
+    Q2. Cultural calibration: which training dataset for culture-aware detection?
+    Q3. Scale ambiguity: boundary between ② and ③ (company→industry) = BLURRY
+    Q4. Echo chamber detection: how to distinguish genuine collective vs group bias?
     Q5. Privacy: collective data aggregation × privacy rights?
-    Q6. Interaction ⑩-⑭: 5 capabilities tương tác thế nào khi đồng thời?
+    Q6. Interaction ⑩–⑭: how do the 5 capabilities interact when triggered simultaneously?
 ```
 
 ---
@@ -705,18 +678,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 COMPANION:
-  → AI-Schema-Detection.md v2.1 — individual capabilities ①-⑨
-    File NÀY = collective ⑩-⑭. Continuous system ①-⑭.
+  → AI-Schema-Detection.md v2.1 — individual capabilities ①–⑨
+    This file = collective ⑩–⑭. Continuous system ①–⑭.
 
 FOUNDATION FILES:
   → Collective-Arc-Dynamics.md v1.2 — §4.5 scale, §3 shelf-life (⑩ primary)
   → Coordination-Node.md v1.2 — §6 Emergence≠Effectiveness, §8 failure (⑪ primary)
   → Collective-Schema-Pressure.md v1.0 — §2 compound, §3 trade-off (⑫ primary)
-  → Gap-Distribution-Profile.md v1.1 — §3 4 trục, §7 landscape (⑬ primary)
+  → Gap-Distribution-Profile.md v1.1 — §3 4 axes, §7 landscape (⑬ primary)
   → AI-Self-Model.md v2.1 — §3 Dual Check, §4 Stale Calibration (⑭ primary)
 
 SUPPORTING FILES:
-  → Collective-Body.md v2.1 — §2 body không phân biệt source, §4.2 ⑥ no unified PFC
+  → Collective-Body.md v2.1 — §2 body doesn't distinguish source, §4.2 ⑥ no unified PFC
   → Ask-AI.md v3.1 — §6.1 Dual Check principle (body + domain)
   → Status.md v2.1 — §6 Disruption → Recalibrate cycle
   → Body-Base.md v3.2 — §7 2-tier calibration
@@ -725,8 +698,11 @@ SUPPORTING FILES:
 
 STATUS:
   v1.0 (2026-05-30): Initial creation.
-    → 5 capabilities (⑩-⑭) from AI-Schema-Detection-update-draft.md (5 GAPs).
-    → All 5 dependency files mature (v1.0-v1.2).
-    → Draft → backup/AI-Schema-Detection-update-draft.md.
-    → AI-Schema-Detection.md updated v2.0 → v2.1 (companion reference).
+    → 5 capabilities (⑩–⑭) derived from AI-Schema-Detection-update-draft.md (5 GAPs).
+    → All 5 dependency files mature (v1.0–v1.2).
+    → AI-Schema-Detection.md updated v2.0 → v2.1 (companion reference added).
 ```
+
+---
+
+*Human Predictive Drive Framework v7.8 — AI-Collective-Detection.md v1.0 English translation*

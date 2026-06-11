@@ -1,197 +1,208 @@
 ---
-title: Melody Arc — Tại Sao Học Cái Mới Thì Khó Chịu, Và Làm Sao Để Bớt Khó Chịu
+title: Melody Arc — Why Learning New Things Feels Uncomfortable, and How to Make It Less So
 version: 2.0
 created: 2026-03-27 (v1.0 DRAFT)
 updated: 2026-04-20 (v2.0 REWRITE — v7.8 aligned, chunk dynamics mapped, tag integration)
 status: v2.0 COMPLETE
 scope: |
-  ARC = chu kỳ build: dissonance → compile → melody upgrade.
-  File này: TẠI SAO arc có dissonance, HÌNH DẠNG arc, LÀM SAO thiết kế arc
-  để dissonance NHẸ NHẤT có thể — cho chính mình, cho con, cho học trò, cho team.
-  METAPHOR communication tool — dùng ngôn ngữ âm nhạc mô tả learning cycle.
+  ARC = build cycle: dissonance → compile → melody upgrade.
+  This file: WHY arcs have dissonance, the SHAPE of an arc, and HOW to design an arc
+  so dissonance is as LIGHT as possible — for yourself, for your child, for a student,
+  for a team. METAPHOR communication tool — uses musical language to describe
+  the learning cycle.
 position: |
-  Melody-Lens sibling file. Personal-Melody.md §7 giới thiệu arc dynamics high-level.
-  File này DEEP-DIVE: chi tiết hình dạng, kỹ thuật thiết kế, failure modes.
-  Cần đọc Personal-Melody.md TRƯỚC (nhất là §4 Two-Axis + §5 Investment Cost).
+  Melody-Lens sibling file. Personal-Melody.md §7 introduces arc dynamics at a high level.
+  This file is a DEEP-DIVE: detailed shape, design techniques, failure modes.
+  Read Personal-Melody.md FIRST (especially §4 Two-Axis + §5 Investment Cost).
 previous_version: Melody Lens/backup/Melody-Arc.md (772L, v1.0 DRAFT 2026-03-27)
 dependencies:
   - Personal-Melody.md v2.0 — §4 Two-Axis, §5 Investment Cost + Bridge, §6 Imagine-Final
-  - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
+  - Core-Software.md — cycle architecture, §8 observation parameters
   - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap (3 dynamics)
   - Body-Feedback.md v1.1 — dual-pull, body evaluation
   - Chunk.md v2.0 — compilation, 4-phase lifecycle, activation dynamics
   - PFC-Function.md — PFC core job = smooth melody
   - Cortisol-Baseline.md v2.0 — cortisol = amplifier, direction gate
   - Autonomy-Hardware.md — approach/avoidance tag, efference copy
-  - Imagine-Final.md — compass mechanism, 14 ngưỡng
-  - Imagine-Final-Evaluation.md — 2 trục × 4 góc quality
+  - Imagine-Final.md — compass mechanism, 14 thresholds
+  - Imagine-Final-Evaluation.md — 2 axes × 4 corners quality
   - Anchor-Schema.md — trust binding
   - Modality.md v1.0 — 6 modalities, hardware influence
   - Education-Bridge.md — bridge per-context application
   - Reward-Economics.md — build vs consume reward
   - Observation/Novelty.md — positive prediction-delta
   - Observation/Boredom.md — VTA underfed
-language: Tiếng Việt primary + English technical terms
+language: English (translated from Vietnamese primary + English technical terms)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Melody Arc — Tại Sao Học Cái Mới Thì Khó Chịu, Và Làm Sao Để Bớt Khó Chịu
+# Melody Arc — Why Learning New Things Feels Uncomfortable, and How to Make It Less So
 
-> **Bạn đã bao giờ:**
-> - Bắt đầu học cái gì đó → thấy khó chịu, muốn bỏ → rồi đột nhiên "à ha!" → thấy dễ?
-> - Tự chia việc lớn thành việc nhỏ, mà không biết tại sao nó giúp?
-> - Hình dung kết quả cuối cùng để tạo động lực, mà không biết tại sao nó hiệu quả?
-> - Hỏi người đi trước "anh/chị có gặp khó khăn này không?" để yên tâm hơn?
+> **Have you ever:**
+> - Started learning something → felt uncomfortable, wanted to quit → then suddenly had an "aha!" moment → and it felt easy?
+> - Instinctively broken a big task into smaller pieces, without knowing why it helped?
+> - Visualized the final outcome to build motivation, without knowing why it worked?
+> - Asked someone who'd been through it "did you hit this same difficulty?" to feel more reassured?
 >
-> **Bạn đã đang dùng những kỹ thuật này — chỉ là chưa có tên cho chúng.**
+> **You were already using these techniques — you just didn't have names for them.**
 >
-> File này giải thích: TẠI SAO mỗi lần build cái mới đều đi qua "cung" từ
-> thoải mái → khó chịu → thoải mái lại (nhưng ở level cao hơn),
-> và LÀM SAO thiết kế "cung" đó cho nhẹ nhàng nhất có thể.
+> This file explains: WHY every time you build something new you pass through an "arc"
+> from comfortable → uncomfortable → comfortable again (but at a higher level),
+> and HOW to design that arc to be as gentle as possible.
 >
-> **⚠️ "Melody Arc" = metaphor giúp hình dung, KHÔNG phải về sáng tác nhạc.**
-> **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
+> **⚠️ "Melody Arc" = a metaphor for visualization, NOT about composing music.**
+> **Convention:** 🟢 Research support | 🟡 Framework inference | 🔴 Hypothesis
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — MELODY ARC LÀ GÌ
-- §1 — TẠI SAO ARC CÓ DISSONANCE (Mechanism)
-- §2 — CHUNK DYNAMICS TRONG ARC (Shift / Miss / Gap)
-- §3 — 9 NGUYÊN TẮC THIẾT KẾ
-- §4 — HÌNH DẠNG ARC (Observer Nhìn Thấy Gì)
-- §5 — 6 KỸ THUẬT TỐI ƯU
-- §6 — OBSERVER QUY TRÌNH (7 Bước)
-- §7 — FAILURE MODES (6 Cách Arc Hỏng)
-- §8 — VÍ DỤ ÁP DỤNG
+- §0 — WHAT A MELODY ARC IS
+- §1 — WHY ARCS HAVE DISSONANCE (Mechanism)
+- §2 — CHUNK DYNAMICS WITHIN AN ARC (Shift / Miss / Gap)
+- §3 — 9 DESIGN PRINCIPLES
+- §4 — THE SHAPE OF AN ARC (What an Observer Sees)
+- §5 — 6 OPTIMIZATION TECHNIQUES
+- §6 — OBSERVER PROTOCOL (7 Steps)
+- §7 — FAILURE MODES (6 Ways an Arc Breaks)
+- §8 — APPLIED EXAMPLES
 - §9 — HONEST ASSESSMENT
 - §10 — CROSS-REFERENCES
 
 ---
 
-## §0 — MELODY ARC LÀ GÌ
+## §0 — WHAT A MELODY ARC IS
 
 ```
-🟡 Mỗi lần build skill/knowledge MỚI = 1 ARC trong melody cá nhân:
+🟡 Every time you build a NEW skill or area of knowledge = 1 ARC in the personal melody:
 
-  START ──── [dissonance tăng dần] ──── PEAK ──── [dissonance giảm] ──── FINAL
-  smooth      chunks đầu, rối nhẹ       rối nhất   chunks compile dần     smooth
-  (prediction                                       merge vào melody      (prediction
-   match)                                                                  match lại)
+  START ──── [dissonance building] ──── PEAK ──── [dissonance fading] ──── FINAL
+  smooth      first chunks, mild rattle  worst     chunks compiling        smooth
+  (prediction                                      merge into melody       (prediction
+   match)                                                                   match again)
 
-  = Giống 1 đoạn chuyển điệu (modulation) trong nhạc:
-    Đang ở key C major (thoải mái)
-    → Bắt đầu thêm nốt lạ (F#, Bb...) → nghe "rối"
-    → Nốt lạ TÍCH LŨY ĐỦ → tai "nghe ra" key MỚI (G major)
-    → Lại thoải mái — nhưng ở key KHÁC (melody ĐÃ NÂNG CẤP)
-
-
-  KHÁC 2 APPROACH (bổ sung, không thay thế):
-    Bridge = "LÀM SAO CHỊU dissonance?" (Personal-Melody.md §5)
-    Arc Design = "LÀM SAO THIẾT KẾ để dissonance NHẸ NHẤT?"
-    → 2 cách BỔ SUNG: bridge giữ qua dissonance + design giảm dissonance
+  = Like a modulation (key change) in music:
+    Currently in key C major (comfortable)
+    → Start adding unfamiliar notes (F#, Bb...) → sounds "dissonant"
+    → Unfamiliar notes ACCUMULATE ENOUGH → the ear "hears" a NEW key (G major)
+    → Comfortable again — but in a DIFFERENT key (melody HAS UPGRADED)
 
 
-  ⭐ INSIGHT: MỌI NGƯỜI ĐÃ ĐANG LÀM ĐIỀU NÀY VÔ THỨC:
-    → Body tự chọn "cái này feel tốt → làm" → KHÔNG biết tại sao
-    → VD: tự break task lớn thành nhỏ (= mini-arc, chưa có tên)
-         tự hỏi người đi trước (= social mirror, chưa có tên)
-         tự hình dung kết quả (= imagine-final, chưa có tên)
-    → File này ĐẶT TÊN + HỆ THỐNG HÓA cái body đã tự làm
-    → Giá trị: khi NHÌN THẤY → có thể CHỦ ĐỘNG chọn → tối ưu hơn "mò"
+  DIFFERS FROM 2 RELATED APPROACHES (complementary, not replacing):
+    Bridge = "HOW DO YOU ENDURE dissonance?" (Personal-Melody.md §5)
+    Arc Design = "HOW DO YOU DESIGN it so dissonance is as LIGHT as possible?"
+    → 2 COMPLEMENTARY approaches: bridge endures dissonance + design reduces dissonance
 
 
-  QUY MÔ ARC:
-    Nhỏ:      1+1=2 → biết đếm → tự mua kẹo (vài ngày, ít chunks)
-    Trung:    học ngôn ngữ lập trình → build app (vài tháng, trăm chunks)
-    Lớn:      chuyển ngành → expert domain mới (vài năm, ngàn chunks)
-    Khổng lồ: build company → stable + autonomous (thập kỷ, vạn chunks)
-    → Arc CÀNG LỚN → design CÀNG quan trọng (dissonance CÀNG DÀI)
+  ⭐ INSIGHT: EVERYONE IS ALREADY DOING THIS UNCONSCIOUSLY:
+    → Body naturally chooses "this feels right → do it" → WITHOUT KNOWING WHY
+    → Ex: instinctively breaking a large task into smaller pieces
+           (= mini-arc — didn't have a name for it)
+         instinctively asking someone who's been there before
+           (= social mirror — didn't have a name for it)
+         instinctively visualizing the final result
+           (= Imagine-Final — didn't have a name for it)
+    → This file NAMES + SYSTEMATIZES what the body was already doing
+    → Value: once you can SEE it → you can CONSCIOUSLY CHOOSE it →
+        optimize instead of fumbling through
+
+
+  ARC SCALE:
+    Small:    1+1=2 → know how to count → buy candy independently
+              (a few days, handful of chunks)
+    Medium:   learn a programming language → build an app
+              (a few months, hundreds of chunks)
+    Large:    change careers → become an expert in a new domain
+              (a few years, thousands of chunks)
+    Enormous: build a company → stable + autonomous
+              (decades, tens of thousands of chunks)
+    → The LARGER the arc → the MORE IMPORTANT the design
+        (dissonance is LONGER)
 ```
 
 ---
 
-## §1 — TẠI SAO ARC CÓ DISSONANCE (Mechanism)
+## §1 — WHY ARCS HAVE DISSONANCE (Mechanism)
 
 ```
-🟡 Arc có dissonance vì MECHANISM NỀN TẢNG:
+🟡 Arcs have dissonance because of the FOUNDATIONAL MECHANISM:
 
   ① PFC CORE JOB = SMOOTH MELODY (PFC-Function.md §5):
-     → PFC có 1 job: reduce dissonance (prediction miss → fix prediction)
-     → Body reward MỖI LẦN PFC smooth thành công
-     → = Body-base LUÔN muốn prediction match → muốn SMOOTH
-     → = Chunk mới = prediction MISS → body signal dissonance
+     → PFC has 1 job: reduce dissonance (prediction miss → fix prediction)
+     → Body rewards PFC EVERY TIME it smooths successfully
+     → = Body-base ALWAYS wants prediction match → wants SMOOTH
+     → = New chunk = prediction MISS → body signals dissonance
 
-  ② BODY-BASE PULL = BẢO THỦ (Personal-Melody.md §4):
-     → Body muốn giữ compiled patterns stable → prediction match CAO
-     → Chunk mới phá prediction match → body signal "stop"
-     → Body KHÔNG BIẾT "dissonance này TỐT cho tương lai"
-     → Body chỉ biết: "BÂY GIỜ prediction miss → MUỐN DỪNG"
+  ② BODY-BASE PULL = CONSERVATIVE (Personal-Melody.md §4):
+     → Body wants to keep compiled patterns stable → high prediction match
+     → New chunk disrupts prediction match → body signals "stop"
+     → Body does NOT KNOW "this dissonance is GOOD for the future"
+     → Body only knows: "RIGHT NOW prediction miss → WANT TO STOP"
 
-  ③ DOMAIN PULL = ĐÒI ADAPT (Personal-Melody.md §4):
-     → Domain reality không care melody smooth không
-     → Muốn survive/thrive → PHẢI nạp chunks body chưa predict được
-     → = Dissonance KHÔNG THỂ TRÁNH nếu muốn melody CẬP NHẬT
+  ③ DOMAIN PULL = DEMANDS ADAPTATION (Personal-Melody.md §4):
+     → Domain reality doesn't care whether the melody is smooth
+     → To survive/thrive → MUST absorb chunks the body can't yet predict
+     → = Dissonance is UNAVOIDABLE if you want the melody to UPDATE
 
   ④ COMPILE THRESHOLD (Chunk.md v2.0 §2):
-     → 1 chunk đơn lẻ = prediction miss = dissonance
-     → N chunks LIÊN KẾT NHAU = "đoạn nhạc mới" → compile → prediction match MỚI
-     → Có NGƯỠNG: dưới ngưỡng = mãi dissonance, không bao giờ merge
-     → = Arc = khoảng GIỮA "bắt đầu" và "compile đủ"
+     → 1 isolated chunk = prediction miss = dissonance
+     → N LINKED chunks = "new musical passage" → compile → NEW prediction match
+     → There is a THRESHOLD: below it = perpetual dissonance, never merges
+     → = Arc = the gap BETWEEN "starting" and "compiled enough"
 
-  ⑤ CORTISOL = AMPLIFIER TRONG ARC (Cortisol-Baseline.md v2.0):
-     → Arc dài → dissonance kéo dài → cortisol amplify signal
-     → Cortisol KHÔNG GÂY dissonance (chỉ amplify cái đã có)
-     → Cortisol baseline càng CAO → dissonance FEEL mạnh hơn → bỏ cuộc DỄ hơn
-     → = Hardware khác → chịu arc KHÁC (cùng task, khác experience)
+  ⑤ CORTISOL = AMPLIFIER DURING THE ARC (Cortisol-Baseline.md v2.0):
+     → Long arc → sustained dissonance → cortisol amplifies the signal
+     → Cortisol does NOT CAUSE dissonance (only amplifies what's already there)
+     → Higher cortisol baseline → dissonance FEELS stronger → easier to quit
+     → = Different hardware → different arc experience (same task, different feel)
 
 
-  ⭐ TẠI SAO ARC LẠI CÓ "AHA MOMENT" Ở CUỐI:
+  ⭐ WHY ARCS END IN AN "AHA MOMENT":
 
-    Chunks compile ĐỦ = prediction network UPDATE thành công:
-    → Prediction match MỚI xuất hiện (từ "ko biết" → "predict đúng")
-    → VTA fire positive prediction-delta → dopamine → "ồ!"
-    → Body-feedback: prediction match → opioid → "SƯỚNG"
-    → PFC: dissonance giảm đột ngột → smooth → body reward
-    → = "Aha moment" = compile threshold VƯỢT QUA
-    → = Melody key change thành công → smooth lại nhưng ở KEY MỚI
+    Enough chunks compiled = prediction network SUCCESSFULLY UPDATES:
+    → NEW prediction match appears (from "don't know" → "predict correctly")
+    → VTA fires positive prediction-delta → dopamine → "oh!"
+    → Body-feedback: prediction match → opioid → "feels great"
+    → PFC: dissonance drops suddenly → smooth → body rewards
+    → = "Aha moment" = compile threshold CROSSED
+    → = Successful melody key change → smooth again but in a NEW KEY
 ```
 
 ---
 
-## §2 — CHUNK DYNAMICS TRONG ARC (Shift / Miss / Gap)
+## §2 — CHUNK DYNAMICS WITHIN AN ARC (Shift / Miss / Gap)
 
 ```
-🟡 3 CHUNK DYNAMICS (Body-Feedback-Mechanism.md §3) MAP VÀO ARC PHASES:
+🟡 3 CHUNK DYNAMICS (Body-Feedback-Mechanism.md §3) MAP ONTO ARC PHASES:
 
   ① CHUNK-GAP → ARC START (trigger):
-     → Network detect "nên có gì đó ở đây" mà CHƯA CÓ
-     → = "Trống" — VTA fire (novelty signal) → pull toward new information
-     → VD: gặp domain mới → gap → curiosity → bắt đầu arc
-     → VD: nhận task mới → gap → "ko biết bắt đầu từ đâu"
-     → = Arc BẮT ĐẦU khi Chunk-Gap detected + enough pull (bridge) để engage
+     → Network detects "something should be here" but there's NOTHING YET
+     → = "A blank space" — VTA fires (novelty signal) → pulls toward new info
+     → Ex: encounter a new domain → gap → curiosity → arc begins
+     → Ex: receive a new task → gap → "don't know where to start"
+     → = Arc BEGINS when Chunk-Gap detected + enough pull (bridge) to engage
 
   ② CHUNK-MISS → ARC MIDDLE (frustration peak):
-     → Pattern ĐÃ compiled KHÔNG fire khi expected
-     → VD: "tôi nghĩ hiểu rồi" → test → SAI → prediction miss
-     → VD: skill cũ KHÔNG áp dụng được ở context mới → miss
-     → = Đỉnh dissonance: brain predict X, reality = Y → mismatch
-     → = "The Valley" — xa nhất từ cả start smooth VÀ final smooth
-     → Cortisol amplify tại đây → dễ bỏ cuộc nhất
+     → Pattern ALREADY compiled does NOT fire when expected
+     → Ex: "I thought I understood it" → test → WRONG → prediction miss
+     → Ex: old skill does NOT transfer to the new context → miss
+     → = Peak dissonance: brain predicts X, reality = Y → mismatch
+     → = "The Valley" — furthest from both the starting smooth AND the final smooth
+     → Cortisol amplifies here → easiest point to quit
 
   ③ CHUNK-SHIFT → ARC RESOLUTION (valence update):
-     → Khi chunks compile đủ: valence CỦA domain chunks SHIFT
-     → "Toán = khó hiểu" (avoidance) → compile → "Toán = ah tôi hiểu" (approach)
-     → Content SAME, evaluation CHANGE
-     → = "Aha moment" = chunk-shift POSITIVE quy mô lớn
-     → = Melody key change: cùng notes, khác key signature (khác valence)
+     → When enough chunks compile: valence OF domain chunks SHIFTS
+     → "Math = hard to understand" (avoidance) → compile → "Math = ah, I get it"
+       (approach)
+     → Content SAME, evaluation CHANGED
+     → = "Aha moment" = large-scale POSITIVE chunk-shift
+     → = Melody key change: same notes, different key signature (different valence)
 
 
-  ⭐ ARC = TRAJECTORY QUA 3 DYNAMICS:
+  ⭐ ARC = TRAJECTORY THROUGH 3 DYNAMICS:
 
     Gap (start) → Miss (middle) → Shift (resolve)
-    "trống"     → "sai/fail"   → "à! hiểu rồi!"
+    "blank"     → "wrong/fail"  → "oh! I get it!"
 
     Diagram:
     Body signal
@@ -199,119 +210,119 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │           ╱╲ Chunk-Miss peak
     │  Gap    ╱    ╲
     │  ↓    ╱        ╲ Chunk-Shift
-    0──●──╱────────────●──────→ smooth mới (prediction match)
+    0──●──╱────────────●──────→ new smooth (prediction match)
     │     START        RESOLVE
     ↓
 
-    → Gap = tại sao arc BẮT ĐẦU (Novelty.md: VTA detect gap → pull)
-    → Miss = tại sao arc KHÓ CHỊU (prediction fail → dissonance)
-    → Shift = tại sao arc "aha" (valence flip → opioid → reward)
+    → Gap = why the arc STARTS (Novelty.md: VTA detects gap → pulls)
+    → Miss = why the arc FEELS UNCOMFORTABLE (prediction fail → dissonance)
+    → Shift = why the arc ends in an "aha" (valence flip → opioid → reward)
 
 
   APPROACH / AVOIDANCE TAG × ARC:
 
-    ⭐ TẠI SAO CÁCH DẠY QUAN TRỌNG HƠN NỘI DUNG:
+    ⭐ WHY HOW YOU TEACH MATTERS MORE THAN WHAT YOU TEACH:
 
-    Cùng arc (học toán) — KHÁC context compile → KHÁC TAG:
+    Same arc (learning math) — DIFFERENT compile context → DIFFERENT TAG:
 
     Approach arc:
-      → Curiosity pull + mini-harmony design + autonomy (tự chọn pace)
+      → Curiosity pull + mini-harmony design + autonomy (self-choose pace)
       → Chunks compile with APPROACH TAG
-      → After arc: body pull TOWARD domain → intrinsic motivation
-      → = "Giỏi VÀ thích" (opioid pathway — Liking-Wanting.md §4)
+      → After arc: body pulls TOWARD domain → intrinsic motivation
+      → = "Skilled AND enjoys it" (opioid pathway — Liking-Wanting.md §4)
 
     Avoidance arc:
-      → Threat push + no mini-harmony + imposed (bị ép pace)
+      → Threat-driven + no mini-harmony + imposed (forced pace)
       → Chunks compile with AVOIDANCE TAG
-      → After arc: body push AWAY from domain → extrinsic only
-      → = "Giỏi NHƯNG ghét" (relief pathway — Liking-Wanting.md §4)
+      → After arc: body pushes AWAY from domain → extrinsic only
+      → = "Skilled BUT hates it" (relief pathway — Liking-Wanting.md §4)
       → Autonomy-Hardware.md §3: imposed → no efference copy → no self-prediction
-        → no opioid → chỉ relief khi xong → avoidance tag
+        → no opioid → only relief when done → avoidance tag
 
-    → CÙNG CHUNKS (same knowledge) → KHÁC TAG → KHÁC TRAJECTORY đời sau
-    → = "Cách dạy quyết định tag → tag quyết định tương lai"
+    → SAME CHUNKS (same knowledge) → DIFFERENT TAG → DIFFERENT life trajectory
+    → = "How you teach determines the tag — the tag determines the future"
     → 🟢 Consistent: Deci 1971 overjustification, SDT (Ryan & Deci 2000)
 ```
 
 ---
 
-## §3 — 9 NGUYÊN TẮC THIẾT KẾ
+## §3 — 9 DESIGN PRINCIPLES
 
 ```
-🟡 Observer CẦN BIẾT trước khi thiết kế arc cho ai đó:
+🟡 What an observer needs to know BEFORE designing an arc for someone:
 
-  ① IMAGINE-FINAL = ĐIỀU KIỆN TIÊN QUYẾT:
-     → Mọi arc CẦN compass (Personal-Melody.md §6)
-     → Imagine-final RÕ → body simulate → bridge mạnh → chịu dissonance tốt
-     → Imagine-final MỜ → bridge yếu → dễ bỏ cuộc
-     → Imagine-final TIẾN HÓA cùng arc (chunks nhiều → imagine chi tiết hơn)
-     → = Không có imagine-final → arc TRÔI
-     → (Chi tiết: Imagine-Final.md, Personal-Melody.md §6)
+  ① IMAGINE-FINAL = PREREQUISITE:
+     → Every arc NEEDS a compass (Personal-Melody.md §6)
+     → Clear Imagine-Final → body simulates → strong bridge → endures dissonance well
+     → Vague Imagine-Final → weak bridge → easy to quit
+     → Imagine-Final EVOLVES with the arc (more chunks → more detailed imagine)
+     → = No Imagine-Final → arc DRIFTS
+     → (Details: Imagine-Final.md, Personal-Melody.md §6)
 
-  ② BODY-BASE LUÔN MUỐN SMOOTH:
-     → PFC core job = smooth melody → body reward khi smooth
-     → Body KHÔNG BIẾT "dissonance này tốt cho tương lai"
-     → Observer phải HIỂU: body CỦA HỌ đang chống lại process
+  ② BODY-BASE ALWAYS WANTS SMOOTH:
+     → PFC core job = smooth melody → body rewards when smooth
+     → Body does NOT KNOW "this dissonance is good for the future"
+     → Observer must UNDERSTAND: THEIR body is resisting the process — that's normal
 
-  ③ CHUNKS PHẢI ĐỦ ĐỂ COMPILE:
-     → 1 chunk đơn lẻ = dissonance
-     → N chunks liên kết = compile → prediction match mới → smooth
-     → Có NGƯỠNG tối thiểu — dưới = mãi dissonance
-     → Observer phải BIẾT: ngưỡng merge CỦA TASK này là bao nhiêu?
+  ③ CHUNKS MUST BE ENOUGH TO COMPILE:
+     → 1 isolated chunk = dissonance
+     → N linked chunks = compile → new prediction match → smooth
+     → There is a MINIMUM THRESHOLD — below it = perpetual dissonance
+     → Observer must KNOW: what is the merge threshold for THIS task?
 
-  ④ THỨ TỰ CHUNKS QUAN TRỌNG:
-     → Cùng 20 chunks — xếp khác → experience dissonance KHÁC
-     → Chunk anchor (link melody CŨ) → đi TRƯỚC
-     → Chunk isolated (không link) → đi SAU (khi đã có context)
-     → Observer có thể THIẾT KẾ sequence → giảm peak dissonance
+  ④ CHUNK ORDER MATTERS:
+     → Same 20 chunks — arranged differently → DIFFERENT dissonance experience
+     → Anchor chunk (links to OLD melody) → goes FIRST
+     → Isolated chunk (no links) → goes LATER (when context is established)
+     → Observer CAN DESIGN sequence → reduces peak dissonance
 
-  ⑤ BRIDGE GIỮ QUA DISSONANCE:
-     → Imagine-final = bridge NỀN (luôn có)
-     → 5 bridge types bổ sung (Personal-Melody.md §5)
-     → Bridge PHẢI scale theo arc size + RÚT khi chunks compile đủ
-     → ⭐ Trust = mechanism underneath bridge (Anchor-Schema.md §2):
-       bridge work vì Trust bind chặt, bridge fail vì Trust yếu
+  ⑤ BRIDGES CARRY YOU THROUGH DISSONANCE:
+     → Imagine-Final = FOUNDATIONAL bridge (always present)
+     → 5 additional bridge types (Personal-Melody.md §5)
+     → Bridge MUST scale to arc size + be REMOVED when enough chunks compile
+     → ⭐ Trust = mechanism underneath a bridge (Anchor-Schema.md §2):
+       bridge works because Trust binds tightly; bridge fails when Trust is weak
 
   ⑥ REAL-CHECK = GPS RECALCULATE:
-     → Check domain thực tế: "đang đi ĐÚNG HƯỚNG không?"
-     → Đúng → mini-reward → boost motivation
-     → Sai → biết SỚM → chuyển hướng → tiết kiệm thời gian
-     → Timing: check khi MẠNH (sau mini-harmony), KHÔNG khi yếu
-     → Real-check = check CẢ 2 TRỤC (Imagine-Final-Evaluation.md):
-       Domain Fit (có thật?) × Hardware Fit (mình đi được + muốn?)
+     → Check domain reality: "am I heading in the RIGHT DIRECTION?"
+     → Correct → mini-reward → motivation boost
+     → Wrong → know EARLY → pivot → saves months
+     → Timing: check when STRONG (after mini-harmony), NOT when weak
+     → Real-check = check BOTH AXES (Imagine-Final-Evaluation.md):
+       Domain Fit (is this real?) × Hardware Fit (can I do it + will I want it when there?)
 
   ⑦ PURE IMAGINATION TRAP:
-     → Imagine lâu + KHÔNG check real → body treat imagine AS real
-     → Mọi negative feedback → dismiss: "họ không hiểu"
-     → = Imagine-Final-Evaluation.md: DELUSION góc (Domain ✗ + Hardware ✓)
-     → Observer CẦN: inject real-check nhẹ nhàng, không phá motivation
+     → Imagine for a long time + NO real-check → body treats imagination AS real
+     → Every negative feedback → dismissed: "they just don't understand"
+     → = Imagine-Final-Evaluation.md: DELUSION corner (Domain ✗ + Hardware ✓)
+     → Observer NEEDS: inject gentle real-checks without destroying motivation
 
   ⑧ SURVIVORSHIP BIAS:
-     → "Edison 10,000 lần" = survivorship bias
-     → Kiên trì + ĐÚNG HƯỚNG = tốt. Kiên trì + SAI HƯỚNG = lãng phí
-     → Real-check PHẢI đi cùng kiên trì
-     → (Imagine-Final-Evaluation.md §5.5: "kiên trì vs cố chấp")
+     → "Thomas Edison tried 10,000 times" = survivorship bias
+     → Persistence + RIGHT DIRECTION = good. Persistence + WRONG DIRECTION = waste
+     → Real-check MUST accompany persistence
+     → (Imagine-Final-Evaluation.md §5.5: "persistence vs stubbornness")
 
-  ⑨ HARDWARE ẢNH HƯỞNG ARC:
-     → DRD4 high: chịu dissonance TỐT HƠN (VTA tự bridge via novelty)
-     → Cortisol baseline cao: chịu KÉM HƠN (amplifier đã cao sẵn)
-     → Somatic-dominant: cần body-level chunks (làm thật)
-     → Verbal-dominant: cần logical chunks (giải thích, structure)
-     → = CÙNG arc — KHÁC hardware → cần KHÁC thiết kế
+  ⑨ HARDWARE AFFECTS THE ARC:
+     → High DRD4: tolerates dissonance BETTER (VTA naturally bridges via novelty)
+     → High cortisol baseline: tolerates it WORSE (amplifier already elevated)
+     → Somatic-dominant: needs body-level chunks (doing it physically)
+     → Verbal-dominant: needs logical chunks (explanations, structure)
+     → = SAME arc — DIFFERENT hardware → needs DIFFERENT design
 ```
 
 ---
 
-## §4 — HÌNH DẠNG ARC (Observer Nhìn Thấy Gì)
+## §4 — THE SHAPE OF AN ARC (What an Observer Sees)
 
 ```
-🟡 Observer nhìn vào 1 người đang build skill mới:
+🟡 Observer looking at someone building a new skill:
 
-  4.1 ARC ĐƠN (task nhỏ — vài chunks):
+  4.1 SINGLE ARC (small task — a few chunks):
 
     Body-Reward
-    ↑    ┌─────────────── smooth mới ──────
-    │    │                 (compile xong)
+    ↑    ┌─────────────── new smooth ──────
+    │    │                 (compiled)
     │    │
     0────┼──────────────────────────────────→ time
     │    │
@@ -320,11 +331,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ↓
     Dissonance
 
-    → VD: trẻ học 1+1=2 → vài phút dissonance → "À!" → smooth
-    → Bridge CẦN: gần như KHÔNG CẦN (arc quá ngắn)
+    → Ex: child learning 1+1=2 → a few minutes dissonance → "oh!" → smooth
+    → Bridge NEEDED: almost NONE (arc is too short)
 
 
-  4.2 ARC DÀI (task lớn — nhiều chunks):
+  4.2 LONG ARC (large task — many chunks):
 
     Body-Reward
     ↑              imagine                                  ┌── final
@@ -333,254 +344,260 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     0────┼──┼────┼──┼────┼──┼────┼──┼────┼──┼────┼──┼────┼──→ time
     │    │  │    │  │    │  │    │  │    │  │    │  │    │
     │    │  └────┘  └────┘  └─↑──┘  └────┘  └────┘  └────┘
-    ↓   start              PEAK         real-     gần compile
-    Dissonance           (The Valley)    check↑
+    ↓   start              PEAK         real-     near compile
+    Dissonance           (The Valley)   check↑
 
-    → = NHIỀU mini-arcs thay vì 1 arc phẳng
-    → Mỗi đỉnh sóng = mini-compile (aha moment nhỏ)
-    → Peak dissonance ở GIỮA — The Valley
-    → Real-check ở ĐỈNH sóng (body mạnh nhất)
+    → = MANY mini-arcs instead of 1 flat arc
+    → Each wave peak = mini-compile (small aha moment)
+    → Peak dissonance IN THE MIDDLE — The Valley
+    → Real-check at the WAVE PEAK (body is at its strongest)
 
 
-  4.3 "THE VALLEY" — điểm nguy hiểm nhất:
+  4.3 "THE VALLEY" — the most dangerous point:
 
-    → GIỮA arc: đã invest NHIỀU + chưa thấy final + dissonance CAO
-    → Body: "tốn công + vẫn khó + chưa thấy ánh sáng"
-    → Cortisol amplify tại đây (kéo dài → baseline tăng → feel MẠNH hơn)
-    → = DỄ BỎ CUỘC NHẤT ở điểm này
-    → Observer CẦN: bridge MẠNH nhất cho valley + social mirror
-    → "Darkest before dawn" — NHƯNG cần real-check:
-      valley DẪN TỚI final? Hay valley = sai hướng?
+    → MIDDLE of arc: already invested A LOT + can't see the final yet +
+        dissonance HIGH
+    → Body: "spent so much effort + still hard + can't see the light"
+    → Cortisol amplifies here (sustained → baseline rises → feels STRONGER)
+    → = EASIEST POINT TO QUIT
+    → Observer NEEDS: strongest bridge for the valley + social mirror
+    → "Darkest before dawn" — BUT requires a real-check:
+      does this valley LEAD TO the final? Or is the valley = wrong direction?
 
 
   4.4 BODY OBSERVATION PARAMETERS DURING ARC:
 
-    Framework v7.8 giúp observer BIẾT người đó đang ở đâu trên arc:
+    Framework v7.8 helps observer KNOW where someone is on the arc:
 
-    Chunk-Gap active       = đang ở START (vẫn "trống")
-    Novelty high           = đang nạp chunks mới (approach direction)
-    Chunk-Miss high        = đang ở PEAK (prediction fail nhiều)
-    Boredom signal         = mini-arc quá dễ HOẶC prediction-delta = 0
-    Autonomy low           = imposed arc (avoidance tag risk)
-    Chunk-Shift positive   = đang RESOLVE (valence updating)
-    Prediction match stable = đã COMPILE (arc xong, smooth mới)
+    Chunk-Gap active         = at START (still "blank")
+    Novelty high             = absorbing new chunks (approach direction)
+    Chunk-Miss high          = at PEAK (many prediction failures)
+    Boredom signal           = mini-arc too easy OR prediction-delta = 0
+    Autonomy low             = imposed arc (avoidance tag risk)
+    Chunk-Shift positive     = currently RESOLVING (valence updating)
+    Prediction match stable  = COMPILED (arc complete, new smooth)
 ```
 
 ---
 
-## §5 — 6 KỸ THUẬT TỐI ƯU
+## §5 — 6 OPTIMIZATION TECHNIQUES
 
 ```
-🟡 Observer (AI, mentor, therapist, hoặc CHÍNH MÌNH) có thể dùng:
+🟡 Observer (AI, mentor, therapist, or YOUR OWN SELF) can use these:
 
-  ⭐ Mọi người ĐÃ ĐANG dùng các kỹ thuật này VÔ THỨC.
-     File này ĐẶT TÊN + hệ thống hóa → để CHỦ ĐỘNG chọn.
+  ⭐ Everyone is ALREADY using these techniques UNCONSCIOUSLY.
+     This file NAMES + SYSTEMATIZES them → to CONSCIOUSLY CHOOSE them.
 
 
-  ① ANCHOR FIRST — Bắt đầu từ cái ĐÃ BIẾT
+  ① ANCHOR FIRST — Start with What's ALREADY KNOWN
 
-    Nguyên tắc: chunk MỚI link với chunk COMPILED = dissonance NHẸ hơn
+    Principle: NEW chunk linked to COMPILED chunk = LIGHTER dissonance
 
-    Cách làm:
-      → Tìm chunk trong melody HIỆN TẠI gần nhất với chunk mới
-      → Bắt đầu từ đó: "em đã biết X → Y giống X ở chỗ..."
-      → = Nốt mới CÙNG key → tai chấp nhận DỄ
+    How to:
+      → Find the chunk in the CURRENT melody closest to the new chunk
+      → Start there: "you already know X → Y is like X in the sense that..."
+      → = New note IN THE SAME KEY → the ear accepts it EASILY
 
-    Ví dụ:
-      Trẻ biết đếm → dạy cộng: "đếm THÊM = cộng"
-      Dev biết Python → JavaScript: "function giống def"
-      Body biết đi bộ → chạy: "giống đi bộ nhưng NHANH"
+    Examples:
+      Child knows counting → teach addition: "adding = counting MORE"
+      Dev knows Python → JavaScript: "function is like def"
+      Body knows walking → running: "like walking but FASTER"
 
-    ❌ Anti-pattern: dạy cái HOÀN TOÀN MỚI không link → dissonance MAX ngay
+    ❌ Anti-pattern: teach something COMPLETELY NEW with no links →
+        dissonance hits MAX immediately
     🟢 Consistent: advance organizers (Ausubel 1960), schema theory
 
 
-  ② MINI-ARC — Chia arc LỚN thành nhiều arc NHỎ
+  ② MINI-ARC — Break a LARGE Arc into Many SMALL Arcs
 
-    Nguyên tắc: body CẦN smooth ĐỊNH KỲ — không thể dissonance liên tục
+    Principle: body NEEDS smooth PERIODICALLY — can't sustain dissonance continuously
 
-    Cách làm:
-      → Thay vì: [smooth]────[6 tháng dissonance]────[smooth]
-      → Chia thành: [s]-[d]-[s] → [s]-[d]-[s] → [s]-[d]-[s]
-      → Mỗi mini-smooth = compile nhỏ = body reward reset
-      → = Game design: mỗi level = 1 mini-arc → clear → reward → next
+    How to:
+      → Instead of: [smooth]────[6 months dissonance]────[smooth]
+      → Break into: [s]-[d]-[s] → [s]-[d]-[s] → [s]-[d]-[s]
+      → Each mini-smooth = small compile = body reward reset
+      → = Game design: each level = 1 mini-arc → clear → reward → next
 
-    Thiết kế mini-arc:
-      → 3-7 chunks liên kết → compile thành 1 sub-pattern
-      → Sub-pattern dùng NGAY được (dù chưa hoàn chỉnh)
-      → VD: học nấu ăn → mini-arc 1 = trứng chiên (3 chunks → ăn được ngay)
+    Designing mini-arcs:
+      → 3-7 linked chunks → compile into 1 sub-pattern
+      → Sub-pattern is IMMEDIATELY USABLE (even if incomplete)
+      → Ex: learning to cook → mini-arc 1 = fried egg (3 chunks → edible right away)
 
     🟢 Research: Chunking (Chase & Simon 1973), Mastery learning (Bloom 1968)
 
 
-  ③ REAL-CHECK INTERVALS — Định kỳ verify hướng đi
+  ③ REAL-CHECK INTERVALS — Periodically Verify the Direction
 
-    KHI NÀO check:
-      ✅ Sau mini-compile (body MẠNH → chịu bad news được)
-      ✅ Khi có cơ hội tự nhiên (demo, review, feedback)
-      ❌ KHÔNG giữa peak dissonance (body yếu → bad news = bỏ cuộc)
-      ❌ KHÔNG liên tục (interrupt flow → mất momentum)
+    WHEN to check:
+      ✅ After a mini-compile (body STRONG → can handle bad news)
+      ✅ When natural opportunities arise (demo, review, feedback)
+      ❌ NOT in the middle of peak dissonance (body weak → bad news = quit)
+      ❌ NOT continuously (interrupts flow → loses momentum)
 
-    4 kết quả:
-      a) Đúng hướng + đúng pace → reward boost
-      b) Đúng hướng + chậm hơn → adjust pace
-      c) Lệch nhẹ → điều chỉnh → tiết kiệm tháng
-      d) SAI hướng → DỪNG → chuyển → tiết kiệm NĂM
+    4 outcomes:
+      a) Correct direction + correct pace → reward boost
+      b) Correct direction + slower than expected → adjust pace
+      c) Slight drift → correct → saves months
+      d) WRONG direction → STOP → pivot → saves YEARS
 
-    ⚠️ Real-check = check 2 trục (Imagine-Final-Evaluation.md):
-      Trục 1 Domain Fit: "hướng này có thật?"
-      Trục 2 Hardware Fit: "mình đi được + tới rồi muốn?"
+    ⚠️ Real-check = check BOTH AXES (Imagine-Final-Evaluation.md):
+      Axis 1 Domain Fit: "is this direction real?"
+      Axis 2 Hardware Fit: "can I do it + do I want it when I get there?"
 
 
-  ④ SOCIAL MIRROR — Người đi trước share TIẾN TRÌNH
+  ④ SOCIAL MIRROR — Someone Who's Already Been Through It Shares the PROCESS
 
-    Nguyên tắc: thấy người khác ĐÃ QUA arc → body: "dissonance = BÌNH THƯỜNG"
+    Principle: seeing someone else WHO HAS COMPLETED the arc → body: "dissonance = NORMAL"
 
-    Tại sao hiệu quả:
-      → Self-Pattern-Modeling fire (Self-Pattern-Modeling.md): simulate mentor's arc trajectory
-      → Body biết "dissonance này có ENDING" → uncertainty giảm → signal giảm
-      → = Normalize dissonance → bớt đáng sợ
+    Why it works:
+      → Self-Pattern-Modeling fires (Self-Pattern-Modeling.md): simulate the mentor's arc trajectory
+      → Body knows "this dissonance HAS AN ENDING" → uncertainty decreases → signal decreases
+      → = Normalize dissonance → makes it less frightening
 
     ❌ Anti-pattern:
-      → Chỉ show KẾT QUẢ (thành công) → hide TIẾN TRÌNH
-      → = "Người ta giỏi vậy mà mình không được" → compare → dissonance TĂNG
-      → = Social media: thấy final harmony NGƯỜI KHÁC + dissonance CỦA MÌNH
+      → Only show RESULTS (success) → hide the PROCESS
+      → = "They got so good and I'm still struggling" → comparison → dissonance INCREASES
+      → = Social media: seeing someone else's final harmony + feeling your own dissonance
 
 
-  ⑤ PROGRESS MARKERS — Đánh dấu đã đi được bao xa
+  ⑤ PROGRESS MARKERS — Mark How Far You've Come
 
-    Nguyên tắc: body KHÔNG tự biết vị trí trên arc → cần external signal
+    Principle: body does NOT naturally know its position on the arc → needs external signal
 
-    Tại sao hiệu quả:
-      → "Đã đi 60%" → body: "gần xong" → chịu thêm
-      → Nhìn LẠI mini-arcs đã xong → reward (nhớ lại compile moments)
+    Why it works:
+      → "60% complete" → body: "almost there" → can push a bit more
+      → Looking BACK at completed mini-arcs → reward (recalling compile moments)
 
     ⚠️ Sunk cost trap:
-      → "Đã đi 80%" + SAI HƯỚNG → "tiếc quá, cố nốt"
-      → Progress marker PHẢI đi cùng real-check
-      → "Đã đi xa + ĐÚNG hướng" = tốt
-      → "Đã đi xa + SAI hướng" = CẦN DŨNG CẢM dừng
+      → "80% done" + WRONG DIRECTION → "too much invested to stop now"
+      → Progress marker MUST accompany real-check
+      → "Came a long way + CORRECT direction" = good
+      → "Came a long way + WRONG direction" = requires COURAGE to stop
 
 
-  ⑥ BODY-BASE MAINTENANCE — Giữ nhạc cụ khỏe trong lúc bài khó
+  ⑥ BODY-BASE MAINTENANCE — Keep the Instrument Healthy While the Music Is Hard
 
-    Nguyên tắc: dissonance kéo dài → cortisol amplify → vicious cycle
+    Principle: sustained dissonance → cortisol amplifies → vicious cycle
 
-    Cách làm:
-      → Ngủ đủ: PFC recovery + cortisol baseline reset
-      → Ăn đúng: body-base signal stable
-      → Vận động: endorphin + endocannabinoid counter cortisol amplification
+    How to:
+      → Sleep enough: PFC recovery + cortisol baseline reset
+      → Eat right: stable body-base signals
+      → Move: endorphins + endocannabinoids counter cortisol amplification
       → Connection: oxytocin buffer (social buffering — Cortisol-Baseline.md §6)
 
-    Tại sao CRITICAL:
-      → Arc ĐÃ tăng dissonance signal (natural, expected)
-      → Nếu body-base BỎ QUÊN → cortisol CỘNG DỒN:
-        Learning dissonance + thiếu ngủ + thiếu ăn = CRASH
-      → Paradox: CỐ GẮNG HƠN (bỏ ngủ) = KẾT QUẢ KÉM (PFC yếu → learn kém)
-      → = Maintain body-base → arc TỰ hiệu quả hơn
+    Why this is CRITICAL:
+      → An arc ALREADY increases dissonance signal (natural, expected)
+      → If body-base is NEGLECTED → cortisol STACKS:
+        Learning dissonance + sleep deprivation + poor nutrition = CRASH
+      → Paradox: PUSHING HARDER (sacrificing sleep) = WORSE RESULTS
+        (PFC weakened → learns less effectively)
+      → = Maintain body-base → arc NATURALLY becomes more effective
 ```
 
 ---
 
-## §6 — OBSERVER QUY TRÌNH (7 Bước)
+## §6 — OBSERVER PROTOCOL (7 Steps)
 
 ```
-🟡 Khi observer (AI, mentor, therapist, hoặc TỰ MÌNH) muốn giúp ai đó:
+🟡 When an observer (AI, mentor, therapist, or YOUR OWN SELF) wants to help someone:
 
-  BƯỚC 1 — ĐỌC MELODY HIỆN TẠI:
-    → Chunks đã compiled? Skills? Domain đang ở?
-    → Body-base đang thế nào? (cortisol baseline, sleep, connection)
-    → Hardware profile? (DRD4, modality dominant, cortisol sensitivity)
-    → Đang giữa arc khác? Recovery? Smooth?
+  STEP 1 — READ THE CURRENT MELODY:
+    → What chunks are compiled? Skills? Current domain?
+    → What is body-base like? (cortisol baseline, sleep, connection)
+    → Hardware profile? (DRD4, dominant modality, cortisol sensitivity)
+    → In the middle of another arc? Recovery? Smooth?
 
-  BƯỚC 2 — XÁC ĐỊNH IMAGINE-FINAL:
-    → Họ MUỐN tới đâu? (compass)
-    → Final THỰC TẾ không? (real-check Domain Fit)
-    → Final CỤ THỂ không? (body simulate được?)
-    → Nếu chưa rõ → giúp DEFINE trước khi bắt đầu arc
+  STEP 2 — IDENTIFY THE IMAGINE-FINAL:
+    → Where do they WANT to go? (compass)
+    → Is the final REALISTIC? (real-check Domain Fit)
+    → Is the final SPECIFIC? (can body simulate it?)
+    → If unclear → help DEFINE it before starting the arc
 
-  BƯỚC 3 — MAP CHUNKS CẦN BUILD:
-    → Từ melody hiện tại → final: cần bao nhiêu chunks?
-    → Chunks NÀO link melody cũ? (= anchor chunks → đi TRƯỚC)
-    → Chunks NÀO isolated? (= khó → đi SAU khi có context)
-    → Ước lượng total investment cost
+  STEP 3 — MAP CHUNKS THAT NEED BUILDING:
+    → From current melody → to final: how many chunks are needed?
+    → WHICH chunks link to the old melody? (= anchor chunks → go FIRST)
+    → WHICH chunks are isolated? (= harder → go LATER when context exists)
+    → Estimate total investment cost
 
-  BƯỚC 4 — THIẾT KẾ MINI-ARCS:
-    → Gom chunks thành mini-arcs (3-7 chunks mỗi)
-    → Mỗi mini-arc → mini-compile ở cuối (usable skill nhỏ)
-    → Xếp: anchor → build → build → peak → final approach
+  STEP 4 — DESIGN MINI-ARCS:
+    → Group chunks into mini-arcs (3-7 chunks each)
+    → Each mini-arc → mini-compile at the end (small usable skill)
+    → Order: anchor → build → build → peak → final approach
 
-  BƯỚC 5 — CHỌN BRIDGE MIX:
-    ┌─────────────────┬──────────────────────────────────┐
-    │ Bridge type      │ Khi nào dùng                     │
-    ├─────────────────┼──────────────────────────────────┤
-    │ Novelty pull     │ DRD4 high + task vừa tầm         │
-    │ Imagine-final    │ Final cụ thể + body simulate được│
-    │ External reward  │ Mini-arc nhỏ + trẻ em + task nhạt│
-    │ Identity         │ "Tôi là người X" đã compile      │
-    │ Social           │ Team + peer + accountability     │
-    │ Threat avoidance │ Arc LỚN + deadline THẬT + ngắn hạn│
-    └─────────────────┴──────────────────────────────────┘
-    → Bridge scale theo arc + RÚT khi compile đủ (overjustification risk)
-    → ⚠️ Threat bridge → avoidance tag risk → chỉ dùng NGẮN HẠN
+  STEP 5 — CHOOSE BRIDGE MIX:
+    ┌──────────────────┬───────────────────────────────────┐
+    │ Bridge type       │ When to use                       │
+    ├──────────────────┼───────────────────────────────────┤
+    │ Novelty pull      │ High DRD4 + task at right level   │
+    │ Imagine-Final     │ Specific final + body can simulate│
+    │ External reward   │ Small mini-arcs + children + dull │
+    │                   │ tasks                             │
+    │ Identity          │ "I AM a person who X" compiled    │
+    │ Social            │ Team + peer + accountability      │
+    │ Threat avoidance  │ Large arc + REAL deadline + short-│
+    │                   │ term only                         │
+    └──────────────────┴───────────────────────────────────┘
+    → Bridge scales with arc + REMOVE when enough compiled
+        (overjustification risk)
+    → ⚠️ Threat bridge → avoidance tag risk → use SHORT-TERM ONLY
 
-  BƯỚC 6 — ĐẶT REAL-CHECK POINTS:
-    → Sau mỗi mini-compile (body mạnh nhất)
-    → Prepare 4 kịch bản: đúng nhanh / đúng chậm / lệch nhẹ / sai hoàn toàn
-    → Nếu sai: SẴN SÀNG chuyển hướng (chunks đã build KHÔNG mất)
+  STEP 6 — SET REAL-CHECK POINTS:
+    → After each mini-compile (body at its strongest)
+    → Prepare 4 scenarios: correct+fast / correct+slow / slight drift / completely wrong
+    → If wrong: BE READY to pivot (chunks already built are NOT LOST)
 
-  BƯỚC 7 — MONITOR VÀ ADJUST:
-    → Body-base còn ổn? (sleep, nutrition, connection)
-    → Đang ở đâu trên arc? (observation parameters: §4.4)
-    → Bridge còn hiệu quả? (approach tag vẫn active?)
-    → Cần adjust sequence? (chunk khó hơn tưởng → đặt lại?)
+  STEP 7 — MONITOR AND ADJUST:
+    → Body-base still stable? (sleep, nutrition, connection)
+    → Where are they on the arc? (observation parameters: §4.4)
+    → Bridge still working? (approach tag still active?)
+    → Need to adjust sequence? (chunk harder than expected → reposition?)
 ```
 
 ---
 
-## §7 — FAILURE MODES (6 Cách Arc Hỏng)
+## §7 — FAILURE MODES (6 Ways an Arc Breaks)
 
 ```
-🟡 6 failure modes phổ biến:
+🟡 6 common failure modes:
 
-  ① CHUNKS KHÔNG ĐỦ COMPILE — "Mãi không aha"
-     → Mini-arc quá lớn (cần 20 chunks → body bỏ ở chunk 12)
-     → Fix: chia nhỏ hơn → 5-7 chunks → compile SỚM hơn
+  ① NOT ENOUGH CHUNKS TO COMPILE — "Never getting the aha"
+     → Mini-arc too large (needs 20 chunks → body quits at chunk 12)
+     → Fix: break smaller → 5-7 chunks → compile EARLIER
 
-  ② ANCHOR THIẾU — "Học mà không hiểu gì"
-     → Chunks mới KHÔNG link melody cũ → dissonance MAX ngay
-     → Fix: tìm anchor + build anchor TRƯỚC nếu cần (pre-arc)
+  ② MISSING ANCHOR — "Learning but nothing sticks"
+     → New chunks do NOT link to old melody → dissonance hits MAX immediately
+     → Fix: find an anchor + build the anchor FIRST if needed (pre-arc)
 
-  ③ SAI THỨ TỰ — "Bắt đầu bằng cái khó nhất"
-     → Chunks khó đi TRƯỚC → body shock → bỏ cuộc
-     → Fix: dễ → trung → khó → trung → dễ (wave)
-     → Peak difficulty ở GIỮA (đã có momentum + bridge mạnh)
+  ③ WRONG ORDER — "Starting with the hardest thing"
+     → Hard chunks go FIRST → body is shocked → gives up
+     → Fix: easy → medium → hard → medium → easy (wave)
+     → Peak difficulty in the MIDDLE (already has momentum + bridge is strongest)
 
-  ④ DELUSION — "Thế giới sai, tôi đúng"
-     → Imagine-final MẠNH + KHÔNG real-check + lâu
-     → Body treat imagine AS real → dismiss feedback
+  ④ DELUSION — "The world is wrong, I'm right"
+     → Strong Imagine-Final + NO real-check + sustained over time
+     → Body treats imagination AS real → dismisses feedback
      → Fix: mandatory real-check intervals
-     → = Imagine-Final-Evaluation.md: DELUSION góc
+     → = Imagine-Final-Evaluation.md: DELUSION corner
 
-  ⑤ BODY-BASE CRASH — "Cố quá → sập"
-     → Sacrifice sleep/food/connection VÌ arc → cortisol stack
+  ⑤ BODY-BASE CRASH — "Pushed too hard → collapsed"
+     → Sacrificing sleep/food/connection FOR the arc → cortisol stacks
      → Fix: body-base maintenance = NON-NEGOTIABLE
 
-  ⑥ SUNK COST TRAP — "Đã tốn công → phải tiếp"
-     → Real-check = sai hướng → "tiếc 80% → tiếp"
-     → Fix: TÁCH "progress on arc" khỏi "arc direction correct?"
-     → Chunks đã build KHÔNG mất → dùng cho arc KHÁC (transfer)
+  ⑥ SUNK COST TRAP — "Already invested so much — have to keep going"
+     → Real-check = wrong direction → "invested 80% → keep going"
+     → Fix: SEPARATE "progress on arc" from "is arc direction correct?"
+     → Chunks already built are NOT LOST → transfer to a DIFFERENT arc
 
 
-  ⭐ THÊM V7.8 — AVOIDANCE TAG FAILURE:
+  ⭐ ADDITIONAL V7.8 — AVOIDANCE TAG FAILURE:
 
-  ⑦ AVOIDANCE TAG COMPILE — "Giỏi nhưng ghét"
+  ⑦ AVOIDANCE TAG COMPILES — "Skilled but hates it"
      → Arc imposed + threat-driven + no autonomy
-     → Chunks compile ĐÚNG (knowledge correct) nhưng tag = AVOIDANCE
-     → After arc: body push AWAY dù đã master
-     → = "Học giỏi toán nhưng GHÉT toán" — relief pathway, not opioid
-     → Fix: ensure approach context TRONG arc:
-       autonomy (self-choose pace), mini-reward (opioid fire),
+     → Chunks compile CORRECTLY (knowledge is correct) but tag = AVOIDANCE
+     → After arc: body pushes AWAY even after mastery
+     → = "Got good at math but HATES math" — relief pathway, not opioid
+     → Fix: ensure APPROACH CONTEXT DURING the arc:
+       autonomy (self-choose pace), mini-reward (opioid fires),
        novelty (VTA positive delta), connection (social buffer)
      → Autonomy-Hardware.md §3: self-action → efference copy → opioid
        → approach tag. Imposed → no copy → no opioid → avoidance tag.
@@ -588,68 +605,70 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §8 — VÍ DỤ ÁP DỤNG
+## §8 — APPLIED EXAMPLES
 
 ```
-🟡 3 ví dụ ở scale khác nhau:
+🟡 3 examples at different scales:
 
 
-  VÍ DỤ 1 — TRẺ HỌC ĐẾM (arc nhỏ, vài ngày):
+  EXAMPLE 1 — CHILD LEARNS TO COUNT (small arc, a few days):
 
-    Melody hiện tại: biết tên số (chunks verbal compiled)
-    Imagine-final: "em tự cầm tiền đi mua kẹo nhé!" → body simulate → MUỐN
+    Current melody: knows number names (verbal chunks compiled)
+    Imagine-Final: "you can go buy your own candy!" → body simulates → WANTS TO
 
-    Anchor: "em biết số 1 → giờ xếp theo THỨ TỰ"
+    Anchor: "you know the number 1 → now arrange them IN ORDER"
     Mini-arcs:
-      Arc 1: đếm 1-3 → "đếm được 3 ngón tay!" (compile)
-      Arc 2: đếm 1-5 → "đếm được 1 bàn tay!" (compile)
-      Arc 3: đếm 1-10 → "đếm được 2 bàn tay!" (compile)
-      Arc 4: ÁP DỤNG — tự mua kẹo → FINAL: "TỰ mua được!" (full compile)
+      Arc 1: count 1-3 → "counted 3 fingers!" (compile)
+      Arc 2: count 1-5 → "counted 1 hand!" (compile)
+      Arc 3: count 1-10 → "counted both hands!" (compile)
+      Arc 4: APPLY — go buy candy independently → FINAL: "I DID IT MYSELF!" (full compile)
 
-    Bridge: curiosity + imagine-final (đủ — arc nhỏ)
-    Tag result: APPROACH (tự chọn, reward mỗi step, no threat)
-    Body-base: chơi xen kẽ (arc quá nhỏ, ít ảnh hưởng)
+    Bridge: curiosity + Imagine-Final (sufficient — very small arc)
+    Tag result: APPROACH (self-chosen, reward at every step, no threat)
+    Body-base: interspersed with play (arc is too small, minimal impact)
 
 
-  VÍ DỤ 2 — DEV HỌC RUST (arc trung, vài tháng):
+  EXAMPLE 2 — DEV LEARNS RUST (medium arc, a few months):
 
-    Melody hiện tại: Python compiled (chunks lập trình sẵn)
-    Imagine-final: deploy app, performance 10x Python
+    Current melody: Python compiled (programming chunks established)
+    Imagine-Final: deploy an app with 10x Python performance
 
-    Anchor: "function, variable, loop = GIỐNG Python, chỉ syntax khác"
+    Anchor: "function, variable, loop = SAME AS Python, just different syntax"
     Mini-arcs:
-      Arc 1: Hello World + syntax cơ bản → "chạy được!" (anchor compile)
-      Arc 2: ownership + borrowing → "à! memory safety!" (NEW chunks, hard)
-      Arc 3: struct + impl → "giống class!" (link OOP anchor)
-      Arc 4: error handling → "Result thay try/except" (different pattern)
-      Arc 5: small project → FINAL: "deploy thật!" (full compile)
+      Arc 1: Hello World + basic syntax → "it runs!" (anchor compile)
+      Arc 2: ownership + borrowing → "oh! memory safety!" (NEW chunks, hard)
+      Arc 3: struct + impl → "like a class!" (links OOP anchor)
+      Arc 4: error handling → "Result instead of try/except" (different pattern)
+      Arc 5: small project → FINAL: "deployed for real!" (full compile)
 
-    Bridge: curiosity + imagine-final + identity ("polyglot dev")
-    ⚠️ Valley: Arc 2-3 (ownership = NO ANCHOR in Python)
-       → Bridge MẠNH nhất ở đây + social mirror (blog dev khác)
+    Bridge: curiosity + Imagine-Final + identity ("polyglot developer")
+    ⚠️ Valley: Arcs 2-3 (ownership = NO ANCHOR in Python)
+       → STRONGEST bridge at this point + social mirror (other devs' blogs)
     Tag result: APPROACH (self-chosen, curiosity-driven)
-    Body-base: 4-6h focused + exercise + sleep (KHÔNG code 16h)
+    Body-base: 4-6h focused + exercise + sleep (NOT 16h coding sessions)
 
 
-  VÍ DỤ 3 — CEO BUILD COMPANY (arc khổng lồ, nhiều năm):
+  EXAMPLE 3 — CEO BUILDS A COMPANY (enormous arc, many years):
 
-    Melody hiện tại: expert domain X + leadership chunks
-    Imagine-final: company profitable + team autonomous (CỤ THỂ)
+    Current melody: domain X expert + leadership chunks
+    Imagine-Final: company profitable + team autonomous (SPECIFIC)
 
-    Mini-arcs: hàng chục milestones:
-      Arc 1: MVP → first user → "có người DÙNG!"
-      Arc 2: first revenue → "có người TRẢ TIỀN!"
-      Arc 3: hire → first delegation → "team TỰ chạy!"
+    Mini-arcs: dozens of milestones:
+      Arc 1: MVP → first user → "someone is USING it!"
+      Arc 2: first revenue → "someone is PAYING for it!"
+      Arc 3: hire → first delegation → "the team RUNS ITSELF!"
       ... → Arc N: profitability → FINAL
 
-    Bridge: imagine-final + identity + threat (runway — NGẮN HẠN only)
-    ⚠️ Delusion risk CỰC CAO:
-       → Founder imagine CÀNG lâu → CÀNG tin → PHẢI force real-check
-       → "Fall in love with problem, not solution" = keep checking domain
-    ⚠️ Body-base CỰC CRITICAL:
-       → CEO bỏ ăn ngủ = arc GIỮ nhưng body PHÁ → paradox → crash
-    Tag risk: nếu chỉ dùng threat bridge → avoidance tag cho cả company
-       → "Thành công mà muốn bỏ" → shift sang approach bridge sớm
+    Bridge: Imagine-Final + identity + threat (runway — SHORT-TERM only)
+    ⚠️ Delusion risk EXTREMELY HIGH:
+       → The longer a founder imagines → the more they believe it →
+           MUST force real-checks
+       → "Fall in love with the problem, not the solution" = keep checking domain
+    ⚠️ Body-base EXTREMELY CRITICAL:
+       → CEO sacrifices sleep/food = arc PERSISTS but body BREAKS →
+           paradox → crash
+    Tag risk: if only using threat bridge → avoidance tag for the whole company
+       → "Succeeded but wants to quit" → shift to approach bridge early
 ```
 
 ---
@@ -674,28 +693,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Cortisol × memory (Lupien 2007): chronic high = impaired
 
   FRAMEWORK (🟡):
-    → "Arc shape" (smooth → dissonance → smooth): consistent với learning curves
-    → "Anchor first": consistent với schema theory + advance organizers
-    → "Mini-arc = mini-compile": consistent với microlearning + gamification
-    → "Real-check intervals": consistent với feedback loops in skill acquisition
-    → "The Valley": consistent với U-shaped learning curves
+    → "Arc shape" (smooth → dissonance → smooth): consistent with learning curves
+    → "Anchor first": consistent with schema theory + advance organizers
+    → "Mini-arc = mini-compile": consistent with microlearning + gamification
+    → "Real-check intervals": consistent with feedback loops in skill acquisition
+    → "The Valley": consistent with U-shaped learning curves
     → "Chunk dynamics mapped to arc phases": novel framework mapping,
       logical consistency but not directly tested
-    → "Approach/avoidance tag per arc context": consistent với SDT +
+    → "Approach/avoidance tag per arc context": consistent with SDT +
       overjustification + intrinsic/extrinsic motivation literature
-    → "Cách dạy > nội dung (tag perspective)": strong claim, consistent
-      with SDT research on autonomy-supportive vs controlling contexts
+    → "How you teach > what you teach (tag perspective)": strong claim,
+      consistent with SDT research on autonomy-supportive vs controlling contexts
     → "Body-base maintenance during arc": consistent with sleep + consolidation
-    → "Observer predict + design arc": consistent with scaffolding +
+    → "Observer can predict + design arc": consistent with scaffolding +
       adaptive instruction research
 
   HYPOTHESIS (🔴):
-    → "Imagine-final LUÔN CÓ trong mọi arc": strong claim — need verify
-    → Real-check TỐI ƯU ở cuối mini-compile: logical, not tested
+    → "Imagine-Final present in every arc": strong claim — needs verification
+    → Optimal real-check at end of mini-compile: logical, not directly tested
     → 3-7 chunks as universal mini-arc size: likely varies per hardware
-    → 6 kỹ thuật = COMPLETE list: likely more exist
-    → Observer can design arc CHÍNH XÁC: depends on prediction quality
-    → Chunk transfer % khi bỏ arc: unknown, likely variable
+    → 6 techniques = COMPLETE list: likely more exist
+    → Observer can design an arc PRECISELY: depends on prediction quality
+    → Chunk transfer % when abandoning an arc: unknown, likely variable
 ```
 
 ---
@@ -704,7 +723,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 PERSONAL-MELODY (parent file):
-  → Personal-Melody.md v2.0 §4 — Two-Axis Tension (tại sao dissonance)
+  → Personal-Melody.md v2.0 §4 — Two-Axis Tension (why dissonance)
   → Personal-Melody.md v2.0 §5 — Investment Cost + Bridge (mechanism)
   → Personal-Melody.md v2.0 §6 — Imagine-Final compass
   → Personal-Melody.md v2.0 §7 — Arc Dynamics high-level (overview)
@@ -719,8 +738,8 @@ MECHANISM FILES:
   → Modality.md v1.0 — Hardware modality influence
 
 COMPASS + EVALUATION:
-  → Imagine-Final.md — 14 ngưỡng, compass mechanism
-  → Imagine-Final-Evaluation.md — 2 trục × 4 góc (real-check framework)
+  → Imagine-Final.md — 14 thresholds, compass mechanism
+  → Imagine-Final-Evaluation.md — 2 axes × 4 corners (real-check framework)
   → Anchor-Schema.md §2 — Trust binding (why bridges hold)
 
 OBSERVATION PARAMETERS (during arc):
@@ -742,8 +761,11 @@ MELODY-LENS (sibling files):
 
 ---
 
-> *Melody Arc v2.0 — "Mọi skill mới = 1 arc: smooth → dissonance → smooth.
-> Dissonance KHÔNG THỂ TRÁNH (PFC smooth melody = core job → body muốn smooth → chunk mới phá smooth).
-> NHƯNG có thể THIẾT KẾ arc: anchor first, mini-compile, right sequence, real-check.
-> CÁCH dạy quyết định TAG — approach hay avoidance — TAG quyết định tương lai.
-> Chunks đã build KHÔNG MẤT — dù arc sai hướng, chunks transfer sang arc mới."*
+> *Melody Arc v2.0 — "Every new skill = 1 arc: smooth → dissonance → smooth.
+> Dissonance is UNAVOIDABLE (PFC's core job = smooth melody → body wants smooth
+> → new chunk disrupts smooth).
+> BUT the arc can be DESIGNED: anchor first, mini-compile, right sequence, real-check.
+> HOW you teach determines the TAG — approach or avoidance —
+> and the TAG determines the future trajectory.
+> Chunks already built are NOT LOST — even if the arc pointed the wrong direction,
+> the chunks transfer to the next arc."*

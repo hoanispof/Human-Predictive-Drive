@@ -1,665 +1,687 @@
-# Compliance Floor — Luật Tối Thiểu Để Melodies Không Phá Nhau
+---
+title: Compliance Floor — The Minimum Rules So Melodies Don't Destroy Each Other
+version: 2.1
+source: Core-Deep-Dive/Collective/Compliance-Floor.md v2.1
+translated: 2026-06-09
+status: APPLIED FRAMEWORK FILE v2.1
+scope: |
+  META-LEVEL APPLICATION: When should rules exist, and how many?
+  Framework answer: Freedom = default. Rules only define the floor:
+  "what is NOT ALLOWED because it DISRUPTS someone else's melody."
+  Everything outside the floor = automatically free.
+  Only 1 parameter: Compliance Floor.
+  Floor too high = unnecessarily suppresses melodies.
+  Floor too low = the strong disrupt the weak.
+language: English
+confidence: 🟢 Research support | 🟡 Framework inference | 🔴 Hypothesis
+---
 
-> **Câu hỏi gốc:**
-> Tự do bao nhiêu là đủ? Luật bao nhiêu là đủ?
+# Compliance Floor — The Minimum Rules So Melodies Don't Destroy Each Other
+
+> **Original question:**
+> How much freedom is enough? How many rules are enough?
 >
-> **Đáp án từ framework:**
-> Sai câu hỏi. Tự do = DEFAULT — không cần "cho phép."
-> Luật chỉ cần XÁC ĐỊNH NỀN: "cái gì KHÔNG ĐƯỢC vì PHÁ melody người khác."
-> Mọi thứ ngoài nền = tự do tự động.
+> **Answer from the framework:**
+> Wrong question. Freedom = DEFAULT — no one needs to "grant" it.
+> Rules only need to DEFINE THE FLOOR: "what is NOT ALLOWED because it DISRUPTS someone else's melody."
+> Everything outside the floor = automatically free.
 >
-> Chỉ cần **1 tham số**: **Compliance Floor** (nền tuân thủ).
-> Nền ĐÚNG = đủ để melodies không phá nhau.
-> Nền QUÁ CAO = ép melody vô ích. Nền QUÁ THẤP = kẻ mạnh phá kẻ yếu.
+> Only **1 parameter**: the **Compliance Floor**.
+> The RIGHT floor = enough to keep melodies from disrupting each other.
+> Floor TOO HIGH = needlessly suppresses melodies. Floor TOO LOW = the strong disrupt the weak.
 
 ---
 
-> **Trạng thái:** v2.1 — 2026-05-23 Concept Cascade +Entity-Access +Hardware-Subsidy. v2.0 rewrite from v1.0 (2026-03-28), Self-Pattern-Modeling/v7.8 aligned
-> **Ngày:** 2026-03-28 | Rewritten: 2026-04-25
-> **Mục đích:** Kiến trúc tổng thể cho "luật × melody" — nhìn luật lệ, quy tắc xã hội
-> qua lens framework. Xác định nguyên tắc: khi nào CẦN luật, khi nào THỪA.
-> **Vị trí:** Core-Deep-Dive/Collective/ — Collective mechanism layer (moved from Domain/ 2026-05-18)
-> → **Overview:** Collective.md v1.0 (integration hub cho folder)
-> **Tiền đề:**
+> **Status:** v2.1 — 2026-05-23 Concept Cascade +Entity-Access +Hardware-Subsidy. v2.0 rewrite from v1.0 (2026-03-28)
+> **Purpose:** Overall architecture for "rules × melody" — viewing laws and social rules through the framework lens.
+> Define the principle: when rules are NEEDED, when they're EXCESSIVE.
+> **Position:** Core-Deep-Dive/Collective/ — Collective mechanism layer
+> **Prerequisites:**
 >   Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT
->   Status.md v2.0 — Resource Access Map, 3 Modes (Lấy/Trao đổi/Comply)
+>   Status.md v2.0 — Resource Access Map, 3 Modes (Take/Exchange/Comply)
 >   Collective-Purpose.md v1.1 — 3 Forces (Resonance collective + Status + Survival)
->   Connection.md v3.0 — Self-Pattern-Modeling mechanism, 2-luồng reward
+>   Connection.md v3.0 — Self-Pattern-Modeling mechanism, 2-stream reward
 >   Empathy.md v2.0 — Connection ⊃ Empathy, Compiled/Fresh
 >   Self-Pattern-Modeling.md v3.0 — Compiled + Fresh, valence gate
->   Personal-Melody.md — mỗi người = 1 melody riêng
->   Global-Melody.md — melody interaction ở scale tập thể
-> **Liên quan mainstream:**
+>   Personal-Melody.md — each person = 1 individual melody
+>   Global-Melody.md — melody interaction at collective scale
+> **Mainstream alignment:**
 >   🟢 Harm Principle (John Stuart Mill 1859)
 >   🟢 Social Contract Theory (Locke, Rousseau)
 >   🟢 Regulatory accumulation (OECD data)
 >   🟢 Evidence-based policy literature
 >   🟢 Scaffolding theory (Vygotsky) + Self-Determination Theory (Deci & Ryan)
-> **⚠️ Rất nhiều hypothesis — framework inference applied to social domain**
-> **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
+> **⚠️ Much of this is hypothesis — framework inference applied to the social domain**
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ TRONG FRAMEWORK
-- §1 — NGUYÊN LÝ GỐC: Tự Do = Default, Luật = Ngoại Lệ
-- §2 — COMPLIANCE FLOOR: Cấu Trúc 4 Tầng
-- §3 — TẠI SAO LUẬT KHÔNG BAO GIỜ HOÀN HẢO (5 Giới Hạn Cố Hữu)
-- §4 — TẠI SAO NỀN LUÔN BỊ ĐẨY LÊN (4 Lý Do)
-- §5 — "PHÁ MELODY" — Ranh Giới Khó Xác Định
-- §6 — 3 NHÓM TỰ NHIÊN — Tỉ Lệ Tùy Nền
-- §7 — GIẢI PHÁP GỐC: Luật = Bridge, Empathy = Intrinsic
-- §8 — ƯỚC LƯỢNG NỀN TỐI ƯU — 5 Nguyên Tắc
-- §9 — ỨNG DỤNG: Nhìn Lại Ví Dụ Thực Tế
-- §10 — HONEST ASSESSMENT
-- §11 — CÂU HỎI MỞ
-- §12 — CROSS-REFERENCES
+- §0 — Position in the Framework
+- §1 — Core Principle: Freedom = Default, Rules = Exception
+- §2 — Compliance Floor: 4-Layer Structure
+- §3 — Why Rules Are Never Perfect (5 Inherent Limits)
+- §4 — Why the Floor Always Gets Pushed Up (4 Reasons)
+- §5 — "Melody Disruption" — The Hard-to-Define Boundary
+- §6 — 3 Natural Groups — Ratio Depends on the Floor
+- §7 — The Root Solution: Rules = Bridge, Empathy = Intrinsic
+- §8 — Estimating the Optimal Floor — 5 Principles
+- §9 — Application: Looking at Real Examples
+- §10 — Honest Assessment
+- §11 — Open Questions
+- §12 — Cross-References
 
 ---
 
-## §0 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — Position in the Framework
 
 ```
-🟡 COMPLIANCE FLOOR TRONG KIẾN TRÚC:
+🟡 COMPLIANCE FLOOR IN THE ARCHITECTURE:
 
   Compliance Floor = META-LEVEL application:
-    Framework mô tả CƠ CHẾ cá nhân (body-base, chunks, melody)
-    File NÀY áp cơ chế đó vào CÂU HỎI XÃ HỘI: khi nào cần luật?
+    The framework describes INDIVIDUAL MECHANISMS (body-base, chunks, melody)
+    THIS FILE applies that mechanism to a SOCIAL QUESTION: when should rules exist?
 
-  ┌─────────────────────────────────────────────────────────────────┐
-  │ CÁ NHÂN                          │ XÃ HỘI (file NÀY)          │
-  ├───────────────────────────────────┼─────────────────────────────┤
-  │ Melody cá nhân tự do             │ Tự do = default state       │
-  │ Conflict khi melodies overlap    │ Cần rule khi melodies xung  │
-  │   (Conflict-Dynamics.md)         │   đột resource              │
-  │ Status = Resource Access Map     │ Luật = formalize access     │
-  │   (Status.md v2.0)               │   rules cho tập thể        │
-  │ 3 Forces drive participation     │ Compliance = emergent       │
-  │   (Collective-Purpose.md v1.1)   │   từ Resonance + Status + Survival │
-  │ Self-Pattern-Modeling Compiled = empathy mechanism       │ Empathy = internal law      │
-  │   (Self-Pattern-Modeling.md v2.1)   │   không cần external rule   │
-  └───────────────────────────────────┴─────────────────────────────┘
+  ┌─────────────────────────────────┬──────────────────────────────────┐
+  │ INDIVIDUAL                      │ SOCIETY (this file)              │
+  ├─────────────────────────────────┼──────────────────────────────────┤
+  │ Individual melody is free       │ Freedom = default state          │
+  │ Conflict when melodies overlap  │ Need rules when melodies conflict │
+  │   (Conflict-Dynamics.md)        │   over resources                 │
+  │ Status = Resource Access Map    │ Rules = formalize access rules   │
+  │   (Status.md v2.0)              │   for the collective             │
+  │ 3 Forces drive participation    │ Compliance = emergent from       │
+  │   (Collective-Purpose.md v1.1)  │   Resonance + Status + Survival  │
+  │ Self-Pattern-Modeling Compiled  │ Empathy = internal rule          │
+  │   = empathy mechanism           │   → no external rule needed      │
+  └─────────────────────────────────┴──────────────────────────────────┘
 
-  KHÁC CÁC FILE KHÁC:
-    Conflict-Dynamics.md = TẠI SAO xung đột xảy ra (mechanism)
-    Status.md = TẠI SAO hierarchies hình thành (resource access)
-    Collective-Purpose.md = TẠI SAO cá nhân tham gia tập thể
-    FILE NÀY = KHI NÀO CẦN LUẬT và BAO NHIÊU (applied question)
+  DIFFERS FROM OTHER FILES:
+    Conflict-Dynamics.md = WHY conflict occurs (mechanism)
+    Status.md = WHY hierarchies form (resource access)
+    Collective-Purpose.md = WHY individuals participate in the collective
+    THIS FILE = WHEN rules are NEEDED and HOW MANY (applied question)
 ```
 
 ---
 
-## §1 — NGUYÊN LÝ GỐC: Tự Do = Default, Luật = Ngoại Lệ
+## §1 — Core Principle: Freedom = Default, Rules = Exception
 
 ```
-🔴 NGUYÊN LÝ:
+🔴 THE PRINCIPLE:
 
-  Mỗi người = 1 melody riêng (Personal-Melody.md).
-  Melody tự do = DEFAULT STATE — không ai cần "cho phép" bạn có melody.
-  Body-base LUÔN muốn harmony (melody mượt) — đó là drive TỰ NHIÊN.
+  Each person = 1 individual melody (Personal-Melody.md).
+  Free melody = DEFAULT STATE — no one needs to "grant" you a melody.
+  Body-base ALWAYS wants harmony (smooth melody) — that is a NATURAL drive.
 
-  VẤN ĐỀ xảy ra khi NHIỀU melodies cùng domain:
-    → Melody A tự do → melody B tự do → A và B XUNG ĐỘT
-    → VD: A muốn mở nhạc to, B muốn im lặng → cùng không gian → xung đột
-    → VD: A muốn chiếm đất, B đang sống trên đất → xung đột
-    → = Tự do TUYỆT ĐỐI = xung đột TUYỆT ĐỐI (vì melodies sẽ overlap)
+  THE PROBLEM occurs when MANY melodies share the same domain:
+    → Melody A is free → Melody B is free → A and B CONFLICT
+    → Example: A wants to play loud music, B wants silence → same space → conflict
+    → Example: A wants to claim land, B is living on the land → conflict
+    → = ABSOLUTE FREEDOM = ABSOLUTE CONFLICT (melodies will overlap)
     → = Conflict-Dynamics.md: OVERLAP × SCARCITY × COMMITMENT
 
-  GIẢI PHÁP = COMPLIANCE FLOOR:
-    → Tập hợp TỐI THIỂU các ràng buộc để melody A KHÔNG PHÁ melody B
-    → Mọi thứ NGOÀI floor = tự do = không cần luật
-    → = Luật KHÔNG "cho phép" tự do → luật CHỈ "cấm phá melody người khác"
+  THE SOLUTION = COMPLIANCE FLOOR:
+    → The MINIMAL set of constraints so melody A DOES NOT DISRUPT melody B
+    → Everything OUTSIDE the floor = free = no rules needed
+    → = Rules do NOT "grant" freedom → rules ONLY "prohibit disrupting someone else's melody"
 
-  NGUYÊN TẮC DUY NHẤT:
-    "Melody CỦA TÔI tự do 100% — TRỪ KHI nó PHÁ melody NGƯỜI KHÁC"
+  THE SINGLE PRINCIPLE:
+    "MY Melody is 100% free — EXCEPT when it DISRUPTS SOMEONE ELSE'S melody"
 
-    → Đơn giản nhưng TOÀN BỘ hệ thống luật pháp derive từ nguyên tắc này
-    → Giết = phá melody người khác VĨNH VIỄN → cấm
-    → Cướp = phá chunks (tài sản) người khác → cấm
-    → Lừa = inject chunks SAI vào melody người khác → cấm
-    → Nhuộm tóc = KHÔNG phá melody ai → không cần cấm
+    → Simple but the ENTIRE legal system derives from this principle
+    → Murder = disrupts someone else's melody PERMANENTLY → prohibited
+    → Theft = disrupts someone else's chunks (property) → prohibited
+    → Fraud = injects WRONG chunks into someone else's melody → prohibited
+    → Dyeing one's hair = DISRUPTS nobody's melody → no prohibition needed
 
-  🟢 ALIGNED VỚI: Harm Principle (Mill 1859):
+  🟢 ALIGNED WITH: Harm Principle (Mill 1859):
     "The only purpose for which power can be rightfully exercised
      over any member of a civilized community, against his will,
      is to prevent harm to others."
-    → Framework reframe: "harm to others" = "phá melody người khác"
+    → Framework reframe: "harm to others" = "disrupts someone else's melody"
 ```
 
 ---
 
-## §2 — COMPLIANCE FLOOR: Cấu Trúc 4 Tầng
+## §2 — Compliance Floor: 4-Layer Structure
 
 ```
-🔴 FLOOR = danh sách CẤM ngắn nhất có thể:
+🔴 FLOOR = the SHORTEST possible list of prohibitions:
 
-  TẦNG 1 — BẢO VỆ BODY-BASE (không thể nhượng bộ):
-    → Cấm giết (phá melody VĨNH VIỄN)
-    → Cấm gây đau/thương tích (phá body-base trực tiếp)
-    → Cấm giam giữ/ép buộc (phá tự do chọn action)
-    → Cấm đầu độc/gây bệnh (phá body-base gián tiếp)
-    → = Bảo vệ PHẦN CỨNG — không ai được phá body CỦA NGƯỜI KHÁC
+  LAYER 1 — PROTECT BODY-BASE (non-negotiable):
+    → Prohibit killing (disrupts melody PERMANENTLY)
+    → Prohibit inflicting pain/injury (directly disrupts body-base)
+    → Prohibit detention/coercion (disrupts freedom to choose action)
+    → Prohibit poisoning/causing illness (indirectly disrupts body-base)
+    → = Protects the HARDWARE — no one may disrupt ANOTHER PERSON'S body
 
-  TẦNG 2 — BẢO VỆ CHUNKS (tài sản, hợp đồng):
-    → Cấm cướp/trộm (phá chunks vật chất người khác)
-    → Cấm lừa đảo (inject chunks SAI để chiếm chunks THẬT)
-    → Cấm phá hợp đồng (đã commit → phải giữ → vì người khác build arc dựa trên đó)
-    → = Bảo vệ CHUNKS ĐÃ BUILD — không ai được phá kết quả melody NGƯỜI KHÁC
+  LAYER 2 — PROTECT CHUNKS (property, contracts):
+    → Prohibit robbery/theft (disrupts someone else's material chunks)
+    → Prohibit fraud (injects WRONG chunks to seize REAL chunks)
+    → Prohibit contract breach (once committed → must keep → because others build their arc on it)
+    → = Protects BUILT CHUNKS — no one may disrupt the results of someone else's melody
 
-  TẦNG 3 — BẢO VỆ KHÔNG GIAN MELODY (ranh giới):
-    → Cấm xâm nhập (physical space = body-base extension)
-    → Cấm noise quá mức (phá melody người khác bằng input cưỡng bức)
-    → Cấm ô nhiễm (phá body-base qua environment chung)
-    → = Bảo vệ BOUNDARY — melody mỗi người cần KHÔNG GIAN để play
+  LAYER 3 — PROTECT MELODY SPACE (boundaries):
+    → Prohibit trespassing (physical space = body-base extension)
+    → Prohibit excessive noise (disrupts someone else's melody through forced input)
+    → Prohibit pollution (disrupts body-base through shared environment)
+    → = Protects BOUNDARIES — each melody needs SPACE to play
 
-  TẦNG 4 — BẢO VỆ INFORMATION INTEGRITY (optional, phức tạp):
-    → Cấm phỉ báng (inject chunks SAI về người khác → phá social melody họ)
-    → Cấm lừa đảo thông tin (inject chunks SAI ở scale lớn)
-    → ⚠️ TẦNG NÀY phức tạp nhất — ranh giới "phá melody" vs "ý kiến khác" rất mờ
-
-
-  MỌI THỨ NGOÀI 4 TẦNG = TỰ DO MẶC ĐỊNH:
-    → Kiểu tóc, lối sống, ý kiến, tôn giáo, giới tính, nghề nghiệp
-    → Melody cá nhân — KHÔNG PHÁ melody ai → KHÔNG CẦN luật
-    → = "Nếu không ai bị PHÁ melody → không cần CẤM"
+  LAYER 4 — PROTECT INFORMATION INTEGRITY (optional, complex):
+    → Prohibit defamation (injects WRONG chunks about someone → disrupts their social melody)
+    → Prohibit mass disinformation (injects WRONG chunks at large scale)
+    → ⚠️ THIS LAYER is most complex — boundary between "melody disruption" vs "different opinion" is blurry
 
 
-  ⭐ LUẬT PHỔ QUÁT — bất kỳ ai, bất kỳ ở đâu, bất kỳ thời đại nào:
-
-    Có 1 tập luật mà MỌI xã hội, MỌI thời đại đều có (dù từ ngữ khác):
-
-    ┌──────────────────┬────────────────────────────────┬─────────────────────────┐
-    │ Cấm              │ Melody damage                  │ Tại sao PHỔ QUÁT        │
-    ├──────────────────┼────────────────────────────────┼─────────────────────────┤
-    │ Giết người       │ Phá melody VĨNH VIỄN           │ Body-base — mọi loài    │
-    │ Gây thương tích  │ Phá body-base trực tiếp        │ Body-base               │
-    │ Cướp/trộm       │ Phá chunks đã build             │ Investment cost BỊ PHÁ  │
-    │ Lừa đảo          │ Inject chunks sai → chiếm       │ Information integrity   │
-    │ Ép buộc/giam giữ │ Phá quyền chọn action          │ Freedom = default state │
-    │ Hãm hiếp         │ Phá body-base + melody sâu      │ Body + compiled trauma  │
-    │ Phá hợp đồng     │ Phá arc người khác đang build   │ Trust = nền cooperation │
-    └──────────────────┴────────────────────────────────┴─────────────────────────┘
-
-    → Tại sao PHỔ QUÁT: vì chúng phá BODY-BASE trực tiếp
-    → Body-base GIỐNG NHAU mọi người mọi nơi (cùng loài)
-    → = "Nền cứng" — phần KHÔNG BAO GIỜ thay đổi của compliance floor
-
-    Mọi thứ NGOÀI bảng trên = "nền mềm" — TÙY CONTEXT, TÙY THỜI ĐẠI:
-    → Đây là chỗ xã hội TRANH CÃI (§5)
-    → Đây là chỗ luật KHÔNG BAO GIỜ hoàn hảo (§3)
-```
-
----
-
-## §3 — TẠI SAO LUẬT KHÔNG BAO GIỜ HOÀN HẢO (5 Giới Hạn Cố Hữu)
-
-```
-🔴 ĐÂY LÀ GIỚI HẠN CỐ HỮU — không phải vì nhà làm luật kém:
+  EVERYTHING OUTSIDE THE 4 LAYERS = FREE BY DEFAULT:
+    → Hairstyle, lifestyle, opinions, religion, gender, occupation
+    → Individual melody — DISRUPTS nobody's melody → NO rules needed
+    → = "If nobody's melody is DISRUPTED → no prohibition needed"
 
 
-  ① LUẬT = RỜI RẠC, REALITY = LIÊN TỤC:
+  ⭐ UNIVERSAL RULES — anyone, anywhere, any era:
 
-    Luật: "Cấm lừa đảo" → binary: lừa đảo / không lừa đảo
-    Reality: spectrum liên tục từ "hơi misleading" → "lừa trắng trợn"
+    There is 1 set of rules that EVERY society, EVERY era has (even with different wording):
 
-    → Ở đâu trên spectrum = "phạm luật"?
-    → Luật PHẢI vẽ đường ở 1 chỗ → LUÔN có người ngay sát đường
-    → Ngay sát đường = "kỹ thuật thì hợp pháp, thực chất thì phá melody"
-    → = LÁCH LUẬT = tồn tại vì luật DISCRETE, damage CONTINUOUS
+    ┌──────────────────┬──────────────────────────────┬───────────────────────────┐
+    │ Prohibition      │ Melody damage                 │ Why UNIVERSAL             │
+    ├──────────────────┼──────────────────────────────┼───────────────────────────┤
+    │ Murder           │ Disrupts melody PERMANENTLY   │ Body-base — all species   │
+    │ Physical assault │ Directly disrupts body-base   │ Body-base                 │
+    │ Robbery/Theft    │ Disrupts built chunks         │ Investment cost DESTROYED │
+    │ Fraud            │ Injects wrong chunks → seizes │ Information integrity     │
+    │ Coercion/        │ Disrupts right to choose      │ Freedom = default state   │
+    │  detention       │ action                        │                           │
+    │ Rape             │ Disrupts body-base + melody   │ Body + compiled trauma    │
+    │                  │ deeply                        │                           │
+    │ Contract breach  │ Disrupts someone else's arc   │ Trust = foundation of     │
+    │                  │ under construction             │ cooperation               │
+    └──────────────────┴──────────────────────────────┴───────────────────────────┘
 
-    VD: Hợp đồng 50 trang chữ nhỏ:
-      → Luật: "2 bên ký = đồng ý" → hợp pháp ✅
-      → Reality: 1 bên KHÔNG ĐỌC KỊP → chunks SAI inject → melody BỊ PHÁ
-      → = Đúng luật (discrete) + phá melody (continuous)
+    → Why UNIVERSAL: because they disrupt BODY-BASE directly
+    → Body-base is IDENTICAL for everyone everywhere (same species)
+    → = "Hard floor" — the part of the compliance floor that NEVER CHANGES
 
-
-  ② CONTEXT THAY ĐỔI NHANH HƠN LUẬT:
-
-    Luật: viết cho context A (VD: thời pre-internet)
-    Context B đến (internet, AI, crypto) → luật CŨ không cover
-    → Viết luật mới → context C đến → lại không cover
-    → = Luật LUÔN CHẠY SAU reality (reactive, không proactive)
-
-
-  ③ HARDWARE ĐA DẠNG → KHÔNG CÓ LUẬT FIT ALL:
-
-    Luật áp cho 90 triệu người VN → mỗi người = melody KHÁC
-    → Luật "vừa" cho 70% → "chật" cho 15% → "rộng" cho 15% (% = illustrative)
-    → = "Luật cho trung bình" = KHÔNG ai perfectly fit
-
-    VD: Giới hạn tốc độ 60km/h:
-      → Tay lái giỏi + xe tốt: 60 = quá chật
-      → Tay lái yếu + xe cũ: 60 = vừa
-      → Tay lái rất yếu: 60 = vẫn nguy hiểm
-
-
-  ④ NGƯỜI LÀM LUẬT CŨNG CÓ MELODY RIÊNG (bias):
-
-    → Nhà làm luật = con người → có hardware + compiled schema + bias
-    → Simulate "dân sẽ react thế nào" = dùng Self-Pattern-Modeling Compiled/Fresh CỦA MÌNH
-      (Self-Pattern-Modeling.md: PFC dùng own chunks simulate người khác)
-    → = Predict dân bằng melody CỦA MÌNH → bias SYSTEMATIC
-    → Nhà làm luật giàu → imagine "dân cũng có lựa chọn" (vì MÌNH có)
-    → = KHÔNG AI có thể viết luật KHÔNG BIAS → vì Self-Pattern-Modeling LUÔN dùng self-chunks
-
-
-  ⑤ TỐI ƯU CHO 1 NHÓM = PHÁ NHÓM KHÁC (zero-sum ở ranh giới):
-
-    → Luật chặt hơn → nhóm "chịu đựng" TĂNG → xã hội "trật tự" nhưng bất mãn
-    → Luật lỏng hơn → xung đột melody↔melody TĂNG → xã hội "tự do" nhưng hỗn loạn
-    → = KHÔNG CÓ điểm tối ưu TUYỆT ĐỐI — chỉ có trade-off
-    → = Logic-Feeling-Balance.md: không thể prescribe balance, chỉ calibrate liên tục
-
-
-  → = TÓM LẠI: Luật KHÔNG BAO GIỜ hoàn hảo vì:
-    Reality liên tục, luật rời rạc (①)
-    Context đổi nhanh hơn luật (②)
-    Hardware đa dạng, luật đồng phục (③)
-    Người viết luật cũng bias (④)
-    Tối ưu cho nhóm này = phá nhóm kia (⑤)
-    → = GIỚI HẠN CỐ HỮU của "dùng luật quản lý melody"
+    Everything OUTSIDE the table above = "soft floor" — CONTEXT-DEPENDENT, ERA-DEPENDENT:
+    → This is where society ARGUES (§5)
+    → This is where rules are NEVER PERFECT (§3)
 ```
 
 ---
 
-## §4 — TẠI SAO NỀN LUÔN BỊ ĐẨY LÊN (4 Lý Do)
+## §3 — Why Rules Are Never Perfect (5 Inherent Limits)
 
 ```
-🔴 Trong thực tế, nền LUÔN bị đẩy CAO HƠN mức tối thiểu. Tại sao?
-
-  ① NGƯỜI CÓ QUYỀN muốn melody ĐỒNG PHỤC (control):
-    → Leader có quyền lực: "melody KHÁC = threat cho melody TÔI"
-    → Status.md v2.0 §4: Mode LẤY — leader dùng power ĐẨY NỀN LÊN
-      để bảo vệ status position CỦA MÌNH
-    → VD: cấm tôn giáo khác (không phá ai → nhưng phá quyền lực leader)
-    → = Luật phục vụ melody NGƯỜI CÓ QUYỀN, không phải melody NGƯỜI DÂN
-
-  ② SỢ HIỆU ỨNG LAN (cascade fear):
-    → Cô giáo cấm nhuộm tóc: "sợ các bạn đua đòi"
-    → Chính phủ cấm X: "sợ domino effect"
-    → Framework: PFC simulate worst case (Imagine-Final) → cấm A để PHÒNG C
-    → ⚠️ Cascade CÓ THỂ đúng HOẶC sai:
-      Đúng: "không cấm lái xe say → tai nạn tăng" → cascade CÓ EVIDENCE
-      Sai: "không cấm nhuộm tóc → học sinh hư" → cascade TƯỞNG TƯỢNG
-
-  ③ CULTURE INERTIA (quán tính văn hóa):
-    → Luật cũ: có lý do ở THỜI ĐÓ (context khác)
-    → Context đổi → luật KHÔNG CÒN CẦN → nhưng vẫn giữ vì "truyền thống"
-    → = Schema compiled ở level xã hội → khó thay đổi
-      (giống cá nhân: compiled chunks khó override — Chunk.md v2.0)
-
-  ④ PRECAUTION BIAS (thiên về phòng ngừa):
-    → "Cấm cho chắc" → cost of cấm = dissonance cá nhân (ngầm, khó thấy)
-    → "Không cấm" → cost of không cấm = risk tai nạn (rõ, dễ blame)
-    → → Người ra luật THIÊN VỀ CẤM (asymmetric cost visibility)
-    → = Nền tự động BỊ ĐẨY LÊN theo thời gian
-    → 🟢 Regulatory accumulation (OECD): laws accumulate faster than repealed
+🔴 THESE ARE INHERENT LIMITS — not because legislators are poor:
 
 
-  → = NỀN luôn có XU HƯỚNG TĂNG — cần CƠ CHẾ HẠ nền khi không cần
-  → = "Freedom maintenance" = liên tục hỏi: "luật này CÒN CẦN không?"
-```
+  ① RULES = DISCRETE, REALITY = CONTINUOUS:
 
----
+    Rule: "Fraud is prohibited" → binary: fraud / not fraud
+    Reality: continuous spectrum from "slightly misleading" → "outright fraud"
 
-## §5 — "PHÁ MELODY" — Ranh Giới Khó Xác Định
+    → Where on the spectrum = "violation"?
+    → Rules MUST draw a line somewhere → there are ALWAYS people right on the line
+    → Right at the line = "technically legal, but actually disrupts melody"
+    → = LOOPHOLE EXPLOITATION = exists because rules are DISCRETE, damage is CONTINUOUS
 
-```
-🔴 Nguyên tắc "cấm khi phá melody người khác" — RÕ ở cực, MỜ ở giữa:
-
-  RÕ RÀNG — ai cũng đồng ý:
-    → Giết người = phá melody VĨNH VIỄN → cấm ✅
-    → Cướp tài sản = phá chunks → cấm ✅
-    → Nhuộm tóc = không phá ai → không cấm ✅
-
-  MỜ — xã hội TRANH CÃI (vì "phá melody" PHỤ THUỘC CONTEXT):
-
-    Ví dụ 1 — Phát ngôn gây thù ghét (hate speech):
-      → Trực tiếp: lời nói KHÔNG phá body-base
-      → Cascade: lời nói → kích động → bạo lực → PHÁ body-base
-      → Framework check: cascade MẠNH đến đâu? Context nào?
-        → Online + anonymous + mass reach = cascade MẠNH → có thể cần giới hạn
-        → 2 người nói chuyện riêng = cascade YẾU → không cần cấm
-      → = CÙNG hành vi → KHÁC context → KHÁC kết luận
-
-    Ví dụ 2 — Ma túy:
-      → Trực tiếp: phá melody CHÍNH MÌNH (body-base damage)
-      → Câu hỏi: "có QUYỀN phá melody CỦA MÌNH không?"
-      → Cascade: nghiện → mất kiểm soát → cướp/phá → phá melody NGƯỜI KHÁC
-      → = Ranh giới: "tự phá" vs "phá lan"
+    Example: 50-page contract in fine print:
+      → Rule: "both parties signed = agreement" → legal ✅
+      → Reality: 1 party COULDN'T READ IN TIME → wrong chunks injected → melody DISRUPTED
+      → = Legally correct (discrete) + melody disrupted (continuous)
 
 
-  FRAMEWORK CUNG CẤP CÔNG CỤ CHECK — không cung cấp ĐÁP ÁN:
+  ② CONTEXT CHANGES FASTER THAN RULES:
 
-    Bước 1: "Hành vi X có PHÁ TRỰC TIẾP melody người khác không?"
-      → CÓ → thuộc nền → cấm
-      → KHÔNG → sang bước 2
+    Rule: written for context A (e.g., pre-internet era)
+    Context B arrives (internet, AI, crypto) → old rule doesn't cover it
+    → Write new rule → context C arrives → again not covered
+    → = Rules ALWAYS CHASE reality (reactive, not proactive)
 
-    Bước 2: "Có CASCADE đáng tin từ X → phá melody người khác không?"
-      → CÓ evidence → cấm/giới hạn + REVIEW định kỳ
-      → KHÔNG evidence, chỉ imagine → KHÔNG cấm
-      → CHƯA RÕ → thu thập data trước khi cấm
 
-    Bước 3: "Luật này CÒN CẦN không?" (review định kỳ)
-      → Context đã đổi → cascade KHÔNG CÒN → bỏ luật
-      → = Luật cần EXPIRY CHECK — không phải "cấm forever"
+  ③ DIVERSE HARDWARE → NO RULE FITS ALL:
+
+    A rule applied to 90 million people → each person = DIFFERENT melody
+    → Rule "fits" 70% → "too tight" for 15% → "too loose" for 15% (% = illustrative)
+    → = "Rule for the average" = NOBODY fits perfectly
+
+    Example: Speed limit of 60 km/h:
+      → Skilled driver + good car: 60 = too tight
+      → Average driver + average car: 60 = fine
+      → Very weak driver: 60 = still dangerous
+
+
+  ④ LEGISLATORS ALSO HAVE THEIR OWN MELODY (bias):
+
+    → Legislators = human beings → have hardware + compiled schemas + bias
+    → Simulating "how will citizens react" = using their OWN Self-Pattern-Modeling Compiled/Fresh
+      (Self-Pattern-Modeling.md: PFC uses own chunks to simulate others)
+    → = Predicting citizens through THEIR OWN melody → SYSTEMATIC bias
+    → Wealthy legislators → imagine "citizens also have options" (because THEY do)
+    → = NOBODY can write unbiased rules → because Self-Pattern-Modeling ALWAYS uses self-chunks
+
+
+  ⑤ OPTIMIZING FOR 1 GROUP = DISRUPTING ANOTHER (zero-sum at the boundary):
+
+    → Stricter rules → "suppressed" group GROWS → society "orderly" but resentful
+    → Looser rules → melody↔melody conflicts GROW → society "free" but chaotic
+    → = NO absolute optimal point — only trade-offs
+    → = Logic-Feeling-Balance.md: cannot prescribe balance, only calibrate continuously
+
+
+  → SUMMARY: Rules are NEVER PERFECT because:
+    Reality is continuous, rules are discrete (①)
+    Context changes faster than rules (②)
+    Hardware is diverse, rules are uniform (③)
+    Legislators are also biased (④)
+    Optimizing for one group = disrupting another (⑤)
+    → = INHERENT LIMITS of "using rules to manage melody"
 ```
 
 ---
 
-## §6 — 3 NHÓM TỰ NHIÊN — Tỉ Lệ Tùy Nền
+## §4 — Why the Floor Always Gets Pushed Up (4 Reasons)
 
 ```
-🔴 Cùng 1 luật → 3 nhóm sinh ra TỰ NHIÊN (từ hardware diversity):
+🔴 In practice, the floor ALWAYS gets pushed HIGHER than the minimum. Why?
 
-  ① MELODY KHỚP LUẬT (tuân thủ thoải mái):
-    → Hardware + compiled schema = tự nhiên KHỚP với luật
-    → Dissonance từ luật: GẦN ZERO
-    → VD: người introvert + luật "không mở nhạc to" → thoải mái
-    → = Tuân thủ vì MELODY TỰ MUỐN VẬY — không cần bridge
+  ① THOSE WITH POWER want UNIFORM melody (control):
+    → Powerful leaders: "a DIFFERENT melody = threat to MY melody"
+    → Status.md v2.0 §4: Take Mode — leaders use power to PUSH THE FLOOR UP
+      in order to protect their own status position
+    → Example: banning other religions (doesn't disrupt anyone → but disrupts the leader's power)
+    → = Rules serve the melody of THE POWERFUL, not the melody of THE PEOPLE
 
-  ② MELODY KHÔNG KHỚP + CHỊU (tuân thủ chịu đựng):
-    → Melody muốn X, luật cấm X → nhưng 3 Forces ĐỦ MẠNH → chịu
-    → Collective-Purpose.md v1.1 §2: 3 Forces giải thích TẠI SAO:
-      Force 1: Resonance with collective → "mọi người tuân thủ → tôi cũng"
-      Force 2: Status lock → "vi phạm = mất resource access"
-      Force 3: Survival schema → "vi phạm = bị phạt/tù"
-    → Dissonance từ luật: CÓ + MÃN TÍNH (nhẹ hoặc trung bình)
-    → = ĐÔNG NHẤT — vì hardware đa dạng → luật KHÔNG BAO GIỜ khớp 100%
+  ② FEAR OF CASCADE EFFECT (cascade fear):
+    → Teacher bans hair dyeing: "afraid students will copy each other"
+    → Government bans X: "afraid of domino effect"
+    → Framework: PFC simulates worst case (Imagine-Final) → bans A to PREVENT C
+    → ⚠️ Cascade CAN be right OR wrong:
+      Right: "no ban on drunk driving → accidents increase" → cascade HAS EVIDENCE
+      Wrong: "no ban on hair dyeing → students deteriorate" → IMAGINED cascade
 
-  ③ MELODY KHÔNG KHỚP + KHÔNG CHỊU (phá hoặc đòi đổi):
-    → Melody muốn X, luật cấm X → 3 Forces KHÔNG ĐỦ → action
-    → 2 loại:
-      a) Phá luật: làm lén, chấp nhận risk bị phạt
-      b) Đòi đổi luật: biểu tình, vận động, cách mạng
-    → VD: luật cấm đồng tính → người đồng tính → ③b đòi đổi luật
-    → = ③a = "tội phạm" hoặc "rebel" — ③b = "nhà cải cách" hoặc "kẻ phá rối"
+  ③ CULTURAL INERTIA:
+    → Old rule: made sense AT THAT TIME (different context)
+    → Context changed → rule NO LONGER NEEDED → but kept because "tradition"
+    → = Schema compiled at social level → hard to change
+      (like individuals: compiled chunks hard to override — Chunk.md v2.0)
 
-  TỈ LỆ ①②③ = f(nền × hardware distribution):
-    Nền CAO (nhiều cấm):  ① ít + ② rất đông + ③ tăng → "trật tự nhưng bất mãn"
-    Nền VỪA (cấm đúng):  ① đông + ② vừa + ③ ít → "tự do có trật tự"
-    Nền THẤP (ít cấm):   ① rất đông + ② ít + NHƯNG xung đột melody↔melody tăng
+  ④ PRECAUTIONARY BIAS (lean toward prevention):
+    → "Ban to be safe" → cost of banning = individual dissonance (subtle, hard to see)
+    → "Don't ban" → cost of not banning = risk of accident (visible, easy to blame)
+    → → Legislators LEAN TOWARD BANNING (asymmetric cost visibility)
+    → = Floor automatically PUSHED UP over time
+    → 🟢 Regulatory accumulation (OECD): laws accumulate faster than they're repealed
 
-  ⚠️ GROUP ② LÀ INDICATOR QUAN TRỌNG NHẤT:
-    → ② quá đông → nền QUÁ CAO → cần HẠ
-    → ② quá ít + xung đột cao → nền QUÁ THẤP → cần NÂNG
-    → ② vừa phải + ít xung đột = nền ĐÚNG
-    → = "Sức khỏe xã hội" ≈ tỉ lệ group ② (càng thấp càng tốt)
+
+  → = The floor ALWAYS TENDS TO INCREASE — need a MECHANISM TO LOWER the floor when unneeded
+  → = "Freedom maintenance" = continuously asking: "is this rule STILL NEEDED?"
+```
+
+---
+
+## §5 — "Melody Disruption" — The Hard-to-Define Boundary
+
+```
+🔴 The principle "prohibit when disrupting someone else's melody" — CLEAR at extremes, BLURRY in the middle:
+
+  CLEAR — everyone agrees:
+    → Murder = disrupts melody PERMANENTLY → prohibit ✅
+    → Robbery = disrupts chunks → prohibit ✅
+    → Dyeing hair = disrupts nobody → don't prohibit ✅
+
+  BLURRY — society ARGUES (because "melody disruption" DEPENDS ON CONTEXT):
+
+    Example 1 — Hate speech:
+      → Directly: words do NOT disrupt body-base
+      → Cascade: words → incitement → violence → DISRUPTS body-base
+      → Framework check: how STRONG is the cascade? In which context?
+        → Online + anonymous + mass reach = STRONG cascade → may need restriction
+        → 2 people speaking privately = WEAK cascade → no prohibition needed
+      → = SAME behavior → DIFFERENT context → DIFFERENT conclusion
+
+    Example 2 — Illegal drugs:
+      → Directly: disrupts YOUR OWN melody (body-base damage)
+      → Question: "do you have the RIGHT to disrupt your OWN melody?"
+      → Cascade: addiction → loss of control → theft/harm → disrupts OTHERS' melodies
+      → = Boundary: "self-disruption" vs "disruption spreading to others"
+
+
+  FRAMEWORK PROVIDES A CHECK TOOL — does not provide THE ANSWER:
+
+    Step 1: "Does behavior X DIRECTLY DISRUPT someone else's melody?"
+      → YES → belongs to the floor → prohibit
+      → NO → move to step 2
+
+    Step 2: "Is there a credible CASCADE from X → disrupting someone else's melody?"
+      → YES with evidence → prohibit/restrict + PERIODIC REVIEW
+      → NO evidence, only imagined → DO NOT prohibit
+      → UNCLEAR → collect data before prohibiting
+
+    Step 3: "Is this rule STILL NEEDED?" (periodic review)
+      → Context has changed → cascade NO LONGER EXISTS → remove the rule
+      → = Rules need EXPIRY CHECKS — not "prohibited forever"
+```
+
+---
+
+## §6 — 3 Natural Groups — Ratio Depends on the Floor
+
+```
+🔴 The same rule → 3 groups NATURALLY arise (from hardware diversity):
+
+  ① MELODY ALIGNS WITH THE RULE (comfortable compliance):
+    → Hardware + compiled schema = naturally ALIGNS with the rule
+    → Dissonance from rule: NEAR ZERO
+    → Example: introverted person + rule "no loud music" → comfortable
+    → = Complies because THEIR MELODY NATURALLY WANTS THIS — no bridge needed
+
+  ② MELODY DOESN'T ALIGN + TOLERATES IT (enduring compliance):
+    → Melody wants X, rule prohibits X → but the 3 Forces are STRONG ENOUGH → tolerates
+    → Collective-Purpose.md v1.1 §2: 3 Forces explain WHY:
+      Force 1: Resonance with collective → "everyone complies → I also comply"
+      Force 2: Status lock → "violation = loss of resource access"
+      Force 3: Survival schema → "violation = punishment/prison"
+    → Dissonance from rule: PRESENT + CHRONIC (mild or moderate)
+    → = THE LARGEST GROUP — because hardware is diverse → rules NEVER fit 100%
+
+  ③ MELODY DOESN'T ALIGN + WON'T TOLERATE IT (breaks or demands change):
+    → Melody wants X, rule prohibits X → the 3 Forces are INSUFFICIENT → action
+    → 2 types:
+      a) Break the rule: act covertly, accept risk of punishment
+      b) Demand rule change: protest, advocacy, revolution
+    → Example: law prohibiting same-sex relationships → gay individuals → ③b demand change
+    → = ③a = "criminal" or "rebel" — ③b = "reformer" or "disruptor"
+
+  RATIO ①②③ = f(floor × hardware distribution):
+    HIGH floor (many prohibitions): ① few + ② very large + ③ grows → "orderly but resentful"
+    RIGHT floor (right prohibitions): ① large + ② moderate + ③ few → "free with order"
+    LOW floor (few prohibitions): ① very large + ② few + BUT melody↔melody conflicts rise
+
+  ⚠️ GROUP ② IS THE MOST IMPORTANT INDICATOR:
+    → ② too large → floor TOO HIGH → needs lowering
+    → ② too small + high conflict → floor TOO LOW → needs raising
+    → ② moderate + few conflicts = floor RIGHT
+    → = "Social health" ≈ ratio of group ② (lower is better)
 
   STATUS.MD v2.0 CONNECTION:
-    → Status.md §15: Status = organizational layer cho tập thể
-    → Luật = FORMALIZE status maps ("ai access gì, phải gì")
-    → Dân chủ = FLATTEN gap (trao đổi dominant)
-    → Độc tài = WIDEN gap (leader LẤY dominant → nền CAO phục vụ leader)
-    → = Status system QUYẾT ĐỊNH ai set nền → nền reflect STATUS, không chỉ fairness
+    → Status.md §15: Status = organizational layer for the collective
+    → Rules = FORMALIZE status maps ("who accesses what, must do what")
+    → Democracy = FLATTEN gap (Exchange mode dominant)
+    → Dictatorship = WIDEN gap (Take mode dominant for leader → high floor serves leader)
+    → = Status system DETERMINES who sets the floor → floor reflects STATUS, not just fairness
 ```
 
 ---
 
-## §7 — GIẢI PHÁP GỐC: Luật = Bridge, Empathy = Intrinsic
+## §7 — The Root Solution: Rules = Bridge, Empathy = Intrinsic
 
 ```
-🔴 INSIGHT QUAN TRỌNG NHẤT CỦA FILE NÀY:
+🔴 THE MOST IMPORTANT INSIGHT OF THIS FILE:
 
 
 ═══════════════════════════════════════════════════════
-§7.1 — LUẬT = BRIDGE TẠM THỜI
+§7.1 — RULES = TEMPORARY BRIDGE
 ═══════════════════════════════════════════════════════
 
-  Luật = external bridge:
-    → Giữ xã hội qua xung đột → giảm khi melody quality đủ
-    → Giống Education-Mechanism.md: scaffolding → rút khi intrinsic đủ
+  Rules = external bridge:
+    → Holds society through conflict → reduces as melody quality improves
+    → Like Education-Mechanism.md: scaffolding → withdraw when intrinsic is sufficient
 
-  SONG SONG:
+  PARALLEL:
 
-    GIÁO DỤC CÁ NHÂN:           XÃ HỘI:
-    ─────────────────            ──────────────────
-    Bridge (scaffolding)    ↔    Luật (cấm/phạt)
-    Rút bridge khi đủ      ↔    Giảm luật khi đủ
-    Intrinsic motivation    ↔    Empathy (internal floor)
-    "Con TỰ muốn học"      ↔    "Dân TỰ không muốn phá"
+    INDIVIDUAL EDUCATION:          SOCIETY:
+    ─────────────────              ──────────────────
+    Bridge (scaffolding)      ↔    Rules (prohibition/punishment)
+    Withdraw bridge when ready↔    Reduce rules when sufficient
+    Intrinsic motivation      ↔    Empathy (internal floor)
+    "Child WANTS to learn"    ↔    "Citizens DON'T WANT to disrupt"
 
 
 ═══════════════════════════════════════════════════════
 §7.2 — EMPATHY = INTERNAL COMPLIANCE FLOOR
 ═══════════════════════════════════════════════════════
 
-  ⭐ PHÂN TÁCH — Self-Pattern-Modeling alone KHÔNG ĐỦ cho internal compliance:
+  ⭐ DISTINCTION — Self-Pattern-Modeling alone is NOT ENOUGH for internal compliance:
 
-  Self-Pattern-Modeling Compiled (Self-Pattern-Modeling.md v2.1) = TOOL predict:
-    → Simulate melody NGƯỜI KHÁC bằng own chunks
-    → Output: BIẾT người khác sẽ đau nếu tôi hành động X
-    → NHƯNG: biết ≠ quan tâm
-    → Sociopath có Self-Pattern-Modeling mạnh — predict người khác giỏi → dùng để EXPLOIT
-    → = Self-Pattern-Modeling alone = prediction tool, CÓ THỂ dùng cho tốt HOẶC xấu
+  Self-Pattern-Modeling Compiled (Self-Pattern-Modeling.md v2.1) = prediction TOOL:
+    → Simulates someone else's melody using own chunks
+    → Output: KNOWS the other person will hurt if I take action X
+    → BUT: knowing ≠ caring
+    → A sociopath can have strong Self-Pattern-Modeling — predicts others well → uses it to EXPLOIT
+    → = Self-Pattern-Modeling alone = prediction tool, CAN be used for good OR evil
 
-  Valence-Structural Entity-compiled (Agent-Mechanism.md §12.2b) = CARING structural:
-    → Agent trở thành body-base extension
-    → "Wellbeing CỦA HỌ = wellbeing CỦA TÔI" (compiled, structural)
-    → Hại agent = body signal "đang hại CHÍNH MÌNH"
-    → NHƯNG: Valence-Structural alone cũng KHÔNG ĐỦ
-    → Empathy.md v2.0 §8.5: bố mẹ Valence-Structural MAX + Compiled ZERO
-      = "yêu thương hết mình nhưng không hiểu con"
-      = vẫn có thể HẠI (vô tình, do không predict được)
+  Valence-Structural Entity-compiled (Agent-Mechanism.md §12.2b) = structural CARING:
+    → Agent becomes body-base extension
+    → "THEIR wellbeing = MY wellbeing" (compiled, structural)
+    → Harming the agent = body signal "harming MYSELF"
+    → BUT: Valence-Structural alone is also NOT ENOUGH
+    → Empathy.md v2.0 §8.5: parents with Valence-Structural MAX + Compiled ZERO
+      = "love wholeheartedly but don't understand the child"
+      = can still CAUSE HARM (unintentionally, due to inability to predict)
 
-  ⭐ EMPATHY = Self-Pattern-Modeling Compiled + Valence-Structural POSITIVE — CẢ HAI cùng lúc:
+  ⭐ EMPATHY = Self-Pattern-Modeling Compiled + Valence-Structural POSITIVE — BOTH simultaneously:
 
-    ┌──────────────────────────────────────────────────────────────────────────────────────┐
-    │                                                                                      │
-    │  Self-Pattern-Modeling Compiled (predict)  +  Valence-Structural positive (care)      │
-    │  =  EMPATHY                                                                          │
-    │                                                                                      │
-    │  BIẾT hại sẽ gây đau  +  QUAN TÂM vì họ là body-base ext  =  TỰ KHÔNG MUỐN hại     │
-    │                                                                                      │
-    │  Thiếu Self-Pattern-Modeling → care nhưng không hiểu → hại vô tình (§8.5)            │
-    │  Thiếu Valence-Structural  → hiểu nhưng không care → exploit có ý (sociopath)        │
-    │  CÓ CẢ HAI → hiểu VÀ care → INTERNAL COMPLIANCE FLOOR                               │
-    │                                                                                      │
-    └──────────────────────────────────────────────────────────────────────────────────────┘
+    ┌──────────────────────────────────────────────────────────────────┐
+    │                                                                  │
+    │  Self-Pattern-Modeling Compiled (predict)                        │
+    │  + Valence-Structural positive (care)                            │
+    │  = EMPATHY                                                       │
+    │                                                                  │
+    │  KNOWS harm causes pain  +  CARES because they're body-base ext  │
+    │  = DOESN'T WANT to harm (internally)                             │
+    │                                                                  │
+    │  Missing Self-Pattern-Modeling → care but don't understand →     │
+    │    harm unintentionally (§8.5)                                   │
+    │  Missing Valence-Structural → understand but don't care →        │
+    │    exploit intentionally (sociopath)                             │
+    │  HAVE BOTH → understand AND care → INTERNAL COMPLIANCE FLOOR     │
+    │                                                                  │
+    └──────────────────────────────────────────────────────────────────┘
 
-    → = "Không cần tường rào nếu không ai MUỐN trèo tường"
-    → = Empathy = luật NỘI BỘ — mỗi người TỰ CÓ compliance floor
-
-
-═══════════════════════════════════════════════════════
-§7.3 — 2-LUỒNG TRONG INTERNAL COMPLIANCE
-═══════════════════════════════════════════════════════
-
-  Valence-Momentary (Self-Pattern-Modeling-owned, momentary) — hàng rào NGAY LÚC ĐÓ:
-    → Self-Pattern-Modeling Compiled fire → body simulate trạng thái người khác
-    → Nếu simulate "họ sẽ đau" → body MÌNH dissonance NGAY
-    → = Hàng rào phản ứng nhanh: "ê, dừng lại, sẽ gây đau"
-    → NHƯNG: Valence-Momentary yếu, momentary, có thể bị override
-
-  Valence-Structural (Entity-compiled, structural) — nền tảng BASELINE:
-    → Agent đã compiled thành body-base extension
-    → KHÔNG CẦN fire Self-Pattern-Modeling mỗi lần — baseline "không hại agent này" ĐÃ CÓ
-    → = Hàng rào structural: "người này quan trọng, đương nhiên không hại"
-    → MẠNH hơn Valence-Momentary vì compiled sâu, sustained
-
-  CẢ HAI cùng hoạt động:
-    → Valence-Momentary = phản ứng nhanh cho TÌNH HUỐNG MỚI (người lạ, context lạ)
-    → Valence-Structural = baseline cho NGƯỜI ĐÃ BIẾT (gia đình, bạn, đồng nghiệp)
-    → = 2 tầng bảo vệ melody NGƯỜI KHÁC từ BÊN TRONG
+    → = "No fence needed if nobody WANTS to climb the fence"
+    → = Empathy = INTERNAL rule — each person NATURALLY HAS their own compliance floor
 
 
 ═══════════════════════════════════════════════════════
-§7.4 — ⭐ Valence-Structural GENERAL CHO "CON NGƯỜI NÓI CHUNG"
+§7.3 — 2-STREAM IN INTERNAL COMPLIANCE
 ═══════════════════════════════════════════════════════
 
-  Valence-Structural sâu (mẹ, con, bạn thân):
-    → Body-base extension MẠNH → compliance RẤT CAO
-    → Giết con = body signal "giết MÌNH" → gần như impossible
+  Valence-Momentary (Self-Pattern-Modeling-owned, momentary) — immediate barrier:
+    → Self-Pattern-Modeling Compiled fires → body simulates the other person's state
+    → If simulates "they will hurt" → MY body feels dissonance IMMEDIATELY
+    → = Fast-response barrier: "hey, stop, this will cause pain"
+    → BUT: Valence-Momentary is weak, momentary, can be overridden
 
-  Valence-Structural vừa (đồng nghiệp, hàng xóm):
-    → Body-base extension NHẸ → compliance VỪA
-    → Hại họ = dissonance nhưng có thể override nếu lý do đủ mạnh
+  Valence-Structural (Entity-compiled, structural) — BASELINE foundation:
+    → Agent already compiled as body-base extension
+    → DOESN'T NEED to fire Self-Pattern-Modeling each time — baseline "don't harm this agent" ALREADY EXISTS
+    → = Structural barrier: "this person matters, of course I won't harm them"
+    → STRONGER than Valence-Momentary because compiled deeply, sustained
 
-  ⭐ Valence-Structural general ("con người nói chung"):
-    → Body-base extension RẤT NHẸ nhưng PHỔ QUÁT
-    → = "Mọi người xung quanh đều tốt bụng, mọi người đều là
-      body-base extension của tôi một chút"
-    → = Baseline compliance cho MỌI interaction, kể cả người lạ
-    → = Tại sao hầu hết người bình thường KHÔNG hại người lạ
-      dù không có luật cụ thể cấm
+  BOTH operate together:
+    → Valence-Momentary = fast response for NEW SITUATIONS (strangers, unfamiliar contexts)
+    → Valence-Structural = baseline for KNOWN PEOPLE (family, friends, colleagues)
+    → = 2 layers protecting SOMEONE ELSE'S melody FROM WITHIN
 
-  Valence-Structural GENERAL ĐẾN TỪ ĐÂU:
+
+═══════════════════════════════════════════════════════
+§7.4 — ⭐ Valence-Structural GENERAL FOR "PEOPLE IN GENERAL"
+═══════════════════════════════════════════════════════
+
+  Deep Valence-Structural (mother, child, close friend):
+    → STRONG body-base extension → compliance VERY HIGH
+    → Killing one's child = body signal "killing MYSELF" → nearly impossible
+
+  Moderate Valence-Structural (colleagues, neighbors):
+    → LIGHT body-base extension → compliance MODERATE
+    → Harming them = dissonance but can be overridden with sufficient reason
+
+  ⭐ General Valence-Structural ("people in general"):
+    → Body-base extension VERY LIGHT but UNIVERSAL
+    → = "Everyone around me is decent, everyone is a body-base extension
+      of me to some small degree"
+    → = Baseline compliance for ALL interactions, including strangers
+    → = Why most normal people DON'T harm strangers
+      even with no specific rule prohibiting it
+
+  WHERE DOES GENERAL VALENCE-STRUCTURAL COME FROM:
 
     ❶ Hardware (Connection.md v3.0):
-      → Social brain default — não giả định CÓ agent gần = quý
-      → Mere Presence Effect: body auto-recalibrate khi có agent
-      → = Hardware ĐÃ CÓ baseline "agent = positive"
+      → Social brain default — brain assumes HAVING agents nearby = good
+      → Mere Presence Effect: body auto-recalibrates when agents are present
+      → = Hardware ALREADY HAS baseline "agent = positive"
 
     ❷ Cultural compilation:
-      → Schema "con người = quý" install từ gia đình, xã hội
-      → "Đừng hại người khác" compile từ BÉ (External Install)
-      → Tôn giáo, đạo đức truyền thống = compile Valence-Structural general
+      → Schema "people are precious" installed by family, society
+      → "Don't harm others" compiled from CHILDHOOD (External Install)
+      → Religion, traditional ethics = compile general Valence-Structural
 
-    ❸ Self-Pattern-Modeling exposure rộng:
-      → Tương tác ĐA DẠNG người → compile general positive valence
-      → Càng gặp nhiều người → Valence-Structural general càng RỘNG
-      → Travel, đa văn hóa = mở rộng Valence-Structural general
-      → Isolation, xenophobia = thu hẹp Valence-Structural general
+    ❸ Broad Self-Pattern-Modeling exposure:
+      → Interacting with DIVERSE people → compiles general positive valence
+      → The more people you meet → the BROADER general Valence-Structural
+      → Travel, multiculturalism = expands general Valence-Structural
+      → Isolation, xenophobia = narrows general Valence-Structural
 
-  PHÂN TÍCH SOCIOPATH QUA LENS NÀY:
-    → Sociopath: Self-Pattern-Modeling có thể MẠNH + Valence-Structural general ≈ ZERO
-    → = Predict giỏi + không care → exploit
-    → = Internal floor gần ZERO → CẦN external floor (luật) 100%
-    → = Tại sao sociopath SỢ luật (consequence) chứ không sợ "hại người"
+  ANALYZING SOCIOPATHY THROUGH THIS LENS:
+    → Sociopath: Self-Pattern-Modeling can be STRONG + general Valence-Structural ≈ ZERO
+    → = Predicts well + doesn't care → exploits
+    → = Internal floor near ZERO → NEEDS external floor (law) 100%
+    → = Why sociopaths FEAR the law (consequence) but don't fear "harming people"
 
-  PHÂN TÍCH "NGƯỜI TỐT" QUA LENS NÀY:
-    → "Người tốt" = Self-Pattern-Modeling OK + Valence-Structural general CAO
-    → = Predict đủ tốt + care phổ quát → internal floor CAO
-    → = CẦN external floor ÍT → tự do RỘNG mà vẫn không hại ai
-    → = Đây là MỤC TIÊU của giáo dục: build Self-Pattern-Modeling + Valence-Structural general
+  ANALYZING "GOOD PEOPLE" THROUGH THIS LENS:
+    → "Good person" = Self-Pattern-Modeling OK + general Valence-Structural HIGH
+    → = Predicts well enough + cares broadly → internal floor HIGH
+    → = NEEDS external floor LESS → broad freedom yet doesn't harm anyone
+    → = This IS THE GOAL of education: build Self-Pattern-Modeling + general Valence-Structural
 
 
 ═══════════════════════════════════════════════════════
-§7.5 — LỐI THOÁT CỦA COMPLIANCE
+§7.5 — THE WAY OUT OF COMPLIANCE
 ═══════════════════════════════════════════════════════
 
-  External floor (luật) = CHỮA TRIỆU CHỨNG:
-    → Giữ trật tự NGAY → cần thiết NGẮN HẠN
-    → NHƯNG: không thay đổi melody → lách mãi mãi
-    → Người lách = chunk "exploit within rules" COMPILED
-    → Luật mới → tìm cách lách mới → chạy đua vô tận
+  External floor (rules) = TREATS SYMPTOMS:
+    → Maintains order IMMEDIATELY → necessary SHORT-TERM
+    → BUT: doesn't change melody → loophole exploitation continues indefinitely
+    → Exploiter = chunk "exploit within rules" COMPILED
+    → New rule → find new loophole → endless arms race
 
-  Internal floor (Empathy = Self-Pattern-Modeling + Valence-Structural) = CHỮA GỐC:
-    → Thay đổi MELODY → người đó TỰ KHÔNG MUỐN hại
-    → KHÔNG CẦN lách vì KHÔNG MUỐN phá
-    → = Lối thoát THẬT SỰ: build empathy, không phải build luật
+  Internal floor (Empathy = Self-Pattern-Modeling + Valence-Structural) = TREATS THE ROOT:
+    → Changes MELODY → person GENUINELY DOESN'T WANT to harm
+    → NO loophole exploitation because NO DESIRE to disrupt
+    → = REAL way out: build empathy, not build more rules
 
   COMPLIANCE FLOOR = f(population empathy quality):
 
-    Empathy CAO (Self-Pattern-Modeling mạnh + Valence-Structural general rộng):
-      → External floor THẤP đủ → tự do RỘNG → xã hội vẫn ổn
+    High Empathy (strong Self-Pattern-Modeling + broad general Valence-Structural):
+      → Low external floor sufficient → broad freedom → society still functions well
 
-    Empathy THẤP (Self-Pattern-Modeling yếu HOẶC Valence-Structural general hẹp):
-      → External floor phải CAO → tự do HẸP → VẪN LÁCH
+    Low Empathy (weak Self-Pattern-Modeling OR narrow general Valence-Structural):
+      → External floor must be HIGH → narrow freedom → STILL EXPLOITED
 
-  THỰC TẾ: CẦN CẢ HAI (không phải either/or):
-    → Luật = NGẮN HẠN (giữ trật tự NGAY, bảo vệ melody YẾU)
-    → Giáo dục empathy = DÀI HẠN (build Self-Pattern-Modeling + Valence-Structural general)
-    → = Luật giữ nền TRONG KHI giáo dục build empathy → rồi HẠ NỀN dần
+  REALITY: NEED BOTH (not either/or):
+    → Rules = SHORT-TERM (maintain order NOW, protect vulnerable melodies)
+    → Empathy education = LONG-TERM (build Self-Pattern-Modeling + general Valence-Structural)
+    → = Rules maintain the floor WHILE education builds empathy → then GRADUALLY LOWER the floor
 
-  GIÁO DỤC EMPATHY — 2 trục song song:
-    → Trục 1 — BUILD Self-Pattern-Modeling (hiểu): đa dạng trải nghiệm xã hội, exposure
-      nhiều loại người, luyện tập simulate → Self-Pattern-Modeling quality tăng
-    → Trục 2 — BUILD Valence-Structural GENERAL (care): attachment secure từ 0-3,
-      cooperation experience từ 3-6, responsibility từ 6-12,
-      meta-empathy từ 12-18 (Empathy-Education.md v2.0)
-    → CẢ HAI trục = empathy THẬT → internal floor THẬT
+  EMPATHY EDUCATION — 2 parallel tracks:
+    → Track 1 — BUILD Self-Pattern-Modeling (understanding): diverse social experiences, exposure
+      to many types of people, practice simulating → Self-Pattern-Modeling quality increases
+    → Track 2 — BUILD GENERAL Valence-Structural (caring): secure attachment from 0–3,
+      cooperation experience from 3–6, responsibility from 6–12,
+      meta-empathy from 12–18 (Empathy-Education.md v2.0)
+    → BOTH tracks = REAL empathy → REAL internal floor
 
   🟢 Education reduces crime more than punishment (criminology literature)
   🟢 Self-Determination Theory (Deci & Ryan): intrinsic > extrinsic
   🟢 Scaffolding (Vygotsky): external support → withdraw as competence grows
   🟢 Attachment security → prosocial behavior (Bowlby, meta-analyses)
   🟡 "Empathy = internal compliance floor" = framework synthesis
-  🟡 "Luật = bridge" = framework reframe of scaffolding at social scale
-  🟡 "Valence-Structural general for humanity" = framework extension of body-base extension
+  🟡 "Rules = bridge" = framework reframe of scaffolding at social scale
+  🟡 "General Valence-Structural for humanity" = framework extension of body-base extension
   🟡 "Sociopath = Self-Pattern-Modeling high + Valence-Structural ≈ 0" = framework analysis
-  🔴 "Valence-Structural general đo được" = chưa có measurement protocol
+  🔴 "General Valence-Structural measurable" = no measurement protocol yet
 ```
 
 ---
 
-## §8 — ƯỚC LƯỢNG NỀN TỐI ƯU — 5 Nguyên Tắc
+## §8 — Estimating the Optimal Floor — 5 Principles
 
 ```
-🔴 KHÔNG có 1 nền ĐÚNG cho mọi xã hội — vì:
-    → Hardware distribution KHÁC (mỗi dân tộc/culture = mix khác)
-    → Domain KHÁC (nông nghiệp ≠ công nghiệp ≠ tri thức)
-    → Context KHÁC (chiến tranh ≠ hòa bình)
+🔴 NO single CORRECT floor for every society — because:
+    → Hardware distribution DIFFERS (each nation/culture = different mix)
+    → Domain DIFFERS (agriculture ≠ industry ≠ knowledge economy)
+    → Context DIFFERS (war ≠ peace)
 
-  NHƯNG có NGUYÊN TẮC ước lượng:
+  BUT there are ESTIMATION PRINCIPLES:
 
-  NGUYÊN TẮC 1 — CẤM TỐI THIỂU:
-    → Chỉ cấm cái PHÁ melody người khác (trực tiếp hoặc cascade CÓ EVIDENCE)
-    → Mọi thứ khác = tự do
-    → = "Nếu không chứng minh được X PHÁ melody ai → không cấm X"
+  PRINCIPLE 1 — MINIMUM PROHIBITION:
+    → Only prohibit what DISRUPTS someone else's melody (directly or via CASCADE WITH EVIDENCE)
+    → Everything else = free
+    → = "If you can't prove X DISRUPTS anyone's melody → don't prohibit X"
 
-  NGUYÊN TẮC 2 — BURDEN OF PROOF NẰM Ở NGƯỜI MUỐN CẤM:
-    → Mặc định = tự do
-    → Muốn cấm → PHẢI chứng minh: "X phá melody người khác"
-    → Không chứng minh được → không cấm
-    → = Ngược với nhiều xã hội hiện tại (mặc định cấm, xin phép mới được)
+  PRINCIPLE 2 — BURDEN OF PROOF LIES WITH THOSE WHO WANT TO PROHIBIT:
+    → Default = freedom
+    → Want to prohibit → MUST prove: "X disrupts someone else's melody"
+    → Can't prove it → don't prohibit
+    → = Opposite of many current societies (default is prohibition, must apply to get permission)
 
-  NGUYÊN TẮC 3 — REVIEW ĐỊNH KỲ:
-    → Mọi luật cần EXPIRY CHECK: "context đã đổi → luật còn cần?"
-    → Luật không review = culture inertia → nền TỰ TĂNG theo thời gian
-    → = "Luật tốt = luật TỰ HỦY khi không cần" (sunset clause)
+  PRINCIPLE 3 — PERIODIC REVIEW:
+    → Every rule needs EXPIRY CHECK: "has context changed → is this rule still needed?"
+    → Rules without review = cultural inertia → floor AUTOMATICALLY RISES over time
+    → = "Good rule = rule that SELF-DESTRUCTS when no longer needed" (sunset clause)
 
-  NGUYÊN TẮC 4 — SCALE MATTERS:
-    → Gia đình: nền NHỎ (vài rule cơ bản)
-    → Trường học: nền TRUNG BÌNH (safety + learning environment)
-    → Công ty: nền tùy domain (per-industry)
-    → Quốc gia: nền LỚN (bảo vệ body-base + chunks + boundary)
-    → Toàn cầu: nền TOÀN CẦU (nhân quyền = body-base protection cross-border)
-    → = Mỗi scale = 1 COMPLIANCE FLOOR riêng
+  PRINCIPLE 4 — SCALE MATTERS:
+    → Family: SMALL floor (a few basic rules)
+    → School: MEDIUM floor (safety + learning environment)
+    → Company: floor depends on domain (per-industry)
+    → Nation: LARGE floor (protects body-base + chunks + boundaries)
+    → Global: GLOBAL floor (human rights = cross-border body-base protection)
+    → = Each scale = its OWN COMPLIANCE FLOOR
 
-  NGUYÊN TẮC 5 — LUẬT = BRIDGE, GIÁO DỤC = GIẢI PHÁP GỐC (§7):
-    → Mục tiêu: nâng melody quality → HẠ NỀN dần → tự do TĂNG dần
-    → = Xã hội TRƯỞNG THÀNH = cần ÍT luật hơn (vì dân TỰ regulate)
-```
-
----
-
-## §9 — ỨNG DỤNG: Nhìn Lại Ví Dụ Thực Tế
-
-```
-🔴 APPLY framework check cho các ví dụ:
-
-  "Cô giáo cấm học sinh nhuộm tóc":
-    Bước 1: Nhuộm tóc phá melody ai trực tiếp? → KHÔNG
-    Bước 2: Cascade evidence? → "đua đòi → mất tập trung"
-      → CÓ evidence? → RẤT YẾU
-      → Nhiều trường CHO PHÉP → học sinh vẫn học tốt
-    → Kết luận: CẤM = nền thừa → dissonance vô ích
-    → Cách tốt hơn: THỬ cho phép + ĐO kết quả
-
-  "Leader tôn giáo cấm tín đồ theo tôn giáo khác":
-    Bước 1: Theo tôn giáo khác phá melody ai? → KHÔNG
-    Bước 2: Cascade? → "mất tín đồ → mất quyền lực leader"
-      → Cascade phá melody LEADER, không phá melody DÂN
-    → Kết luận: CẤM = phục vụ melody NGƯỜI CÓ QUYỀN → nền sai
-    → = Status.md: leader dùng Mode LẤY để protect position
-
-  "Cấm lái xe say rượu":
-    Bước 1: Lái xe say phá melody ai? → CÓ THỂ (tai nạn → phá body-base)
-    Bước 2: Cascade evidence? → RẤT MẠNH (statistics rõ ràng)
-    → Kết luận: CẤM = nền đúng → bảo vệ melody NGƯỜI KHÁC trên đường
-
-  "Cấm súng":
-    Bước 1: Có súng phá melody ai? → KHÔNG trực tiếp
-    Bước 2: Cascade? → CÓ evidence (statistics: nhiều súng → nhiều gun death)
-      → NHƯNG: tùy context (nông thôn ≠ thành phố, Mỹ ≠ Nhật)
-    → Kết luận: PHỨC TẠP — framework giúp PHÂN TÍCH, không cho ĐÁP ÁN
+  PRINCIPLE 5 — RULES = BRIDGE, EDUCATION = ROOT SOLUTION (§7):
+    → Goal: raise melody quality → GRADUALLY LOWER the floor → freedom GRADUALLY EXPANDS
+    → = MATURE SOCIETY = needs FEWER rules (because citizens SELF-REGULATE)
 ```
 
 ---
 
-## §10 — HONEST ASSESSMENT
+## §9 — Application: Looking at Real Examples
+
+```
+🔴 APPLY framework check to examples:
+
+  "Teacher bans students from dyeing their hair":
+    Step 1: Does hair dyeing directly disrupt anyone's melody? → NO
+    Step 2: Cascade evidence? → "copying each other → loss of focus"
+      → STRONG evidence? → VERY WEAK
+      → Many schools ALLOW it → students still perform well
+    → Conclusion: PROHIBITION = excessive floor → unnecessary dissonance
+    → Better approach: TRY allowing it + MEASURE results
+
+  "Religious leader bans followers from practicing another religion":
+    Step 1: Does practicing another religion disrupt anyone's melody? → NO
+    Step 2: Cascade? → "losing followers → losing leader's power"
+      → Cascade disrupts THE LEADER'S melody, not THE PEOPLE'S melody
+    → Conclusion: PROHIBITION = serves the POWERFUL PERSON'S melody → wrong floor
+    → = Status.md: leader uses Take Mode to protect their position
+
+  "Ban on drunk driving":
+    Step 1: Does drunk driving disrupt anyone's melody? → POSSIBLY (accident → disrupts body-base)
+    Step 2: Cascade evidence? → VERY STRONG (statistics are clear)
+    → Conclusion: PROHIBITION = right floor → protects OTHERS' melodies on the road
+
+  "Gun control":
+    Step 1: Owning a gun — does it directly disrupt anyone's melody? → NOT directly
+    Step 2: Cascade? → YES evidence (statistics: more guns → more gun deaths)
+      → BUT: depends on context (rural ≠ urban, USA ≠ Japan)
+    → Conclusion: COMPLEX — framework helps ANALYZE, doesn't give THE ANSWER
+```
+
+---
+
+## §10 — Honest Assessment
 
 ```
   ESTABLISHED (🟢):
@@ -671,99 +693,101 @@
     🟢 Self-Determination Theory (Deci & Ryan): intrinsic > extrinsic motivation
     🟢 Scaffolding (Vygotsky): external support → withdraw as competence grows
 
-  FRAMEWORK SUY LUẬN (🟡):
+  FRAMEWORK INFERENCE (🟡):
     🟡 "Compliance Floor" = framework reframing of harm principle through melody lens
-    🟡 "4 tầng nền" — logical hierarchy, consistent với legal theory
-    🟡 "3 nhóm tự nhiên" — consistent với compliance/deviance spectrum in criminology
-    🟡 "Group ② as social health indicator" — logical, chưa có formal measurement
-    🟡 "Cascade check 3 bước" — consistent với evidence-based policy literature
-    🟡 "Nền tự tăng theo thời gian" — consistent với regulatory accumulation research
-    🟡 "Luật = bridge, giáo dục = intrinsic" — consistent với scaffolding + SDT
-    🟡 "Empathy (Self-Pattern-Modeling Compiled + Valence-Structural) = internal compliance floor" — consistent với
-        empathy-altruism hypothesis (Batson 1991), Self-Pattern-Modeling mechanism, 2-luồng reward
-    🟡 "Valence-Structural general for humanity" = framework extension of body-base extension
-    🟡 "Sociopath = Self-Pattern-Modeling high + Valence-Structural ≈ 0" = consistent với psychopathy research
-        (Hare 1993: cognitive empathy intact, affective empathy impaired)
-    🟡 "Luật discrete vs reality continuous" — consistent với legal philosophy
+    🟡 "4-layer floor" — logical hierarchy, consistent with legal theory
+    🟡 "3 natural groups" — consistent with compliance/deviance spectrum in criminology
+    🟡 "Group ② as social health indicator" — logical, no formal measurement yet
+    🟡 "3-step cascade check" — consistent with evidence-based policy literature
+    🟡 "Floor self-rises over time" — consistent with regulatory accumulation research
+    🟡 "Rules = bridge, education = intrinsic" — consistent with scaffolding + SDT
+    🟡 "Empathy (Self-Pattern-Modeling Compiled + Valence-Structural) = internal compliance floor"
+        — consistent with empathy-altruism hypothesis (Batson 1991), Self-Pattern-Modeling
+        mechanism, 2-stream reward
+    🟡 "General Valence-Structural for humanity" = framework extension of body-base extension
+    🟡 "Sociopath = Self-Pattern-Modeling high + Valence-Structural ≈ 0"
+        = consistent with psychopathy research (Hare 1993: cognitive empathy intact,
+        affective empathy impaired)
+    🟡 "Rules discrete vs reality continuous" — consistent with legal philosophy
         (Hart 1961: open texture of law)
-    🟡 "Luật phổ quát = body-base protection" — consistent với natural law theory
-        (Aquinas) và universal human rights (UDHR 1948)
-    🟡 "Status system quyết định ai set nền" — Status.md v2.0 extension
+    🟡 "Universal rules = body-base protection" — consistent with natural law theory
+        (Aquinas) and universal human rights (UDHR 1948)
+    🟡 "Status system determines who sets the floor" — Status.md v2.0 extension
 
   HYPOTHESIS (🔴):
-    🔴 "Chỉ cần 1 tham số (nền)" — simplification, thực tế có thể cần thêm
-    🔴 "Burden of proof nằm ở người muốn cấm" — normative claim, nhiều xã hội
-        KHÔNG hoạt động theo nguyên tắc này
-    🔴 "Expiry check" — lý tưởng nhưng implementation cực khó (politics)
-    🔴 "Floor = f(melody quality)" — logical nhưng melody quality CHƯA ĐO ĐƯỢC
-    🔴 "Empathy = key" — strong claim, có thể oversimplify
-        (người empathy thấp vẫn tuân thủ vì game theory / Status lock)
-    🔴 "Valence-Structural general đo được" — chưa có measurement protocol
+    🔴 "Only 1 parameter needed (floor)" — simplification, reality may need more
+    🔴 "Burden of proof lies with those who want to prohibit" — normative claim,
+        many societies do NOT operate on this principle
+    🔴 "Expiry check" — ideal but extremely hard to implement (politics)
+    🔴 "Floor = f(melody quality)" — logical but melody quality NOT YET MEASURABLE
+    🔴 "Empathy = key" — strong claim, may oversimplify
+        (low-empathy people still comply due to game theory / Status lock)
+    🔴 "General Valence-Structural measurable" — no measurement protocol yet
 
-  ⚠️ FILE NÀY = APPLIED FRAMEWORK, KHÔNG PHẢI MECHANISM:
-    Mechanism files (Self-Pattern-Modeling, Connection, Status) đã established.
-    File NÀY ÁP mechanism vào social question → thêm 1 layer inference.
-    Mọi conclusion ở đây = f(mechanism quality) — nếu mechanism sai → conclusion sai.
+  ⚠️ THIS FILE = APPLIED FRAMEWORK, NOT MECHANISM:
+    Mechanism files (Self-Pattern-Modeling, Connection, Status) are established.
+    THIS FILE APPLIES mechanism to social questions → adds 1 layer of inference.
+    All conclusions here = f(mechanism quality) — if mechanism is wrong → conclusions wrong.
 ```
 
 ---
 
-## §11 — CÂU HỎI MỞ
+## §11 — Open Questions
 
 ```
-  Compliance-Floor-1: "Phá melody" có ĐO ĐƯỢC không?
-        → Nếu đo được → luật có thể evidence-based hoàn toàn
-        → Nếu không → vẫn cần judgment call (chính trị)
+  Compliance-Floor-1: Is "melody disruption" MEASURABLE?
+        → If measurable → rules can be fully evidence-based
+        → If not → still need judgment calls (politics)
 
-  Compliance-Floor-2: AI có thể giúp check cascade?
-        → AI simulate: "nếu bỏ luật X → consequence Y xác suất Z%"
+  Compliance-Floor-2: Can AI help check cascades?
+        → AI simulates: "if rule X is removed → consequence Y at probability Z%"
         → → Evidence-based legislation?
-        → Ethical concern: AI decide luật = ai KIỂM SOÁT AI?
+        → Ethical concern: AI decides rules = who CONTROLS the AI?
 
-  Compliance-Floor-3: Nền gia đình vs nền quốc gia — xung đột?
-        → Bố mẹ set nền CAO ("cấm yêu trước 18")
-        → Quốc gia set nền THẤP hơn ("16 tuổi = legal")
-        → Con tuân nền NÀO? → xung đột floor giữa các scale
+  Compliance-Floor-3: Family floor vs national floor — conflicts?
+        → Parents set HIGH floor ("no dating before 18")
+        → Nation sets LOWER floor ("16 = legal")
+        → Which floor does the child follow? → conflict between floors at different scales
 
-  Compliance-Floor-4: "Quyền phá melody CỦA MÌNH" — giới hạn ở đâu?
-        → Tự hại (drugs, extreme sports, euthanasia)
-        → Cascade: gia đình buồn, xã hội mất thành viên
-        → = Body-base CỦA MÌNH vs cascade RA NGƯỜI KHÁC
+  Compliance-Floor-4: "Right to disrupt ONE'S OWN melody" — where is the limit?
+        → Self-harm (drugs, extreme sports, euthanasia)
+        → Cascade: family grieves, society loses a member
+        → = Body-base OF ONESELF vs cascade TO OTHERS
 
-  Compliance-Floor-5: Transition: xã hội nền CAO → nền THẤP → LÀM SAO?
-        → Hạ nền đột ngột = chaos (melodies chưa quen tự quản)
-        → Hạ nền từ từ = group ② giảm dần, group ① tăng dần
-        → = Timing quan trọng — giống rút bridge trong giáo dục
+  Compliance-Floor-5: Transition: high-floor society → low-floor society → HOW?
+        → Lowering floor suddenly = chaos (melodies not used to self-governing)
+        → Lowering floor gradually = group ② decreases, group ① grows
+        → = Timing matters — like withdrawing scaffolding in education
 
-  Compliance-Floor-6: AI era — compliance floor thay đổi thế nào?
-        → AI detect vi phạm chính xác hơn → enforcement TĂNG
-        → AI predict cascade tốt hơn → evidence-based legislation
-        → NHƯNG: AI surveillance = nền ĐẨY LÊN (§4 ①) vì control dễ hơn
-        → = AI vừa là tool HẠ nền (evidence) vừa là tool NÂNG nền (surveillance)
+  Compliance-Floor-6: AI era — how does the compliance floor change?
+        → AI detects violations more accurately → enforcement INCREASES
+        → AI predicts cascades better → evidence-based legislation
+        → BUT: AI surveillance = floor PUSHED UP (§4 ①) because control becomes easier
+        → = AI is both a tool to LOWER the floor (evidence) and to RAISE it (surveillance)
 ```
 
 ---
 
-## §12 — CROSS-REFERENCES
+## §12 — Cross-References
 
 ```
   MECHANISM FILES (framework foundation):
     → Self-Pattern-Modeling.md v2.1 — Self-Pattern-Modeling Compiled = empathy mechanism = internal floor
-    → Empathy.md v2.0 — Connection ⊃ Empathy, Compiled/Fresh, 2-luồng
+    → Empathy.md v2.0 — Connection ⊃ Empathy, Compiled/Fresh, 2-stream
     → Connection.md v3.0 — 3 Generative Primitives, Self-Pattern-Modeling × Resonance
-    → Status.md v2.0 — Resource Access Map, 3 Modes, §15 tập thể
-    → Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT → TẠI SAO cần nền
+    → Status.md v2.0 — Resource Access Map, 3 Modes, §15 collective
+    → Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT → WHY floor is needed
 
   META-SYNTHESIS FILES (same layer):
     → Collective-Purpose.md v1.1 — 3 Forces (compliance as mechanism)
-    → Domain-Mapping-Drive.md — WHY humans drive map domain
+    → Domain-Mapping-Drive.md — WHY humans drive to map domain
     → Knowledge-Flow.md — knowledge transmission → baseline shift
-    → Logic-Feeling-Balance.md — KHÔNG thể prescribe balance → calibrate
+    → Logic-Feeling-Balance.md — CANNOT prescribe balance → calibrate continuously
 
   MELODY FILES:
-    → Personal-Melody.md — mỗi người = 1 melody riêng
-    → Global-Melody.md — melody interaction ở scale tập thể
-    → Melody-Arc.md — arc design → §4 ② cascade imagine vs real
+    → Personal-Melody.md — each person = 1 individual melody
+    → Global-Melody.md — melody interaction at collective scale
+    → Melody-Arc.md — arc design → §4 ② imagined vs real cascade
 
   EDUCATION FILES (application layer):
     → Education-Mechanism.md — scaffolding principles, arc design
@@ -773,7 +797,7 @@
   BODY-BASE FILES:
     → Chunk.md v2.0 — chunk substrate, compilation
     → Imagine-Final.md — cascade simulation, worst-case preview
-    → Cortisol-Baseline.md v2.0 — chronic stress from nền quá cao
+    → Cortisol-Baseline.md v2.0 — chronic stress from too-high floor
 
   RESEARCH (not in Core):
     → Innovation-Geography.md (Research/Global/) — domain overlap → competition → rule
@@ -781,25 +805,26 @@
 
 ---
 
-## Compliance-Floor × New Concepts (28-session Drill Propagation)
+## Compliance-Floor × New Concepts
 
 ```
 ENTITY-ACCESS × COMPLIANCE (Entity-Access.md v1.2):
   → Compliance = MINIMUM access requirement per-entity:
-    Mức 0 (stranger): compliance floor = social norms (implicit)
-    Mức 2 (friend): compliance floor = mutual respect norms
-    Mức 5 (family): compliance floor = care obligations (highest)
+    Level 0 (stranger): compliance floor = social norms (implicit)
+    Level 2 (friend): compliance floor = mutual respect norms
+    Level 5 (family): compliance floor = care obligations (highest)
   → Compliance floor SCALES with Entity-Access level
-  → "Phá melody người khác" = violate their access gradient expectations
+  → "Disrupting someone else's melody" = violating their access gradient expectations
 
 HARDWARE-SUBSIDY × COMPLIANCE (Entity-Valence-Dynamics.md v1.0 §5):
   → Hardware-subsidy provides NATURAL compliance baseline:
-    Oxytocin/opioid system → body REWARD caring for close entities
-    → = "Luật nội bộ" (Self-Pattern-Modeling + Valence-Structural) = hardware-subsidy operating as compliance
+    Oxytocin/opioid system → body REWARDS caring for close entities
+    → = "Internal rule" (Self-Pattern-Modeling + Valence-Structural) = hardware-subsidy
+      operating as compliance
     → Close entities: hardware-subsidy = sufficient compliance (no law needed)
     → Distant entities: NO hardware-subsidy → need EXTERNAL law
-  → = TẠI SAO luật pháp chủ yếu regulate stranger interactions
-    (gia đình regulate bằng hardware-subsidy + compiled norms)
+  → = WHY laws primarily regulate stranger interactions
+    (family regulated by hardware-subsidy + compiled norms)
 
 🟡 Entity-Access × compliance = framework convergence
 🟡 Hardware-Subsidy × compliance = framework explanation (natural floor)
@@ -807,13 +832,13 @@ HARDWARE-SUBSIDY × COMPLIANCE (Entity-Valence-Dynamics.md v1.0 §5):
 
 ---
 
-> *Compliance Floor v2.1 — "Tự do không cần ai cho phép — tự do TỰ CÓ.
-> Luật chỉ cần 1 việc: ngăn melody bạn PHÁ melody người khác.
-> Nền ĐÚNG = cấm TỐI THIỂU. Nền quá cao = ép vô ích.
-> Empathy (Self-Pattern-Modeling Compiled + Valence-Structural positive) = luật nội bộ — mỗi người tự có compliance
-> floor trong melody mình. Self-Pattern-Modeling alone = tool, có thể exploit. Valence-Structural alone = care
-> nhưng không hiểu. CẢ HAI = hiểu VÀ care = internal floor THẬT.
-> Valence-Structural general cho 'con người nói chung' = lối thoát: baseline compliance cho MỌI
-> interaction. Luật = bridge. Giáo dục empathy (Self-Pattern-Modeling + Valence-Structural) = giải pháp gốc.
-> Mỗi luật phải trả lời được: 'Cái này phá melody AI?'
-> Nếu không trả lời được — luật đó KHÔNG CẦN tồn tại."*
+> *Compliance Floor v2.1 — "Freedom needs no one to grant it — freedom EXISTS BY DEFAULT.
+> Rules only need to do 1 thing: prevent your melody from DISRUPTING someone else's melody.
+> The RIGHT floor = MINIMUM prohibition. Too-high floor = needless suppression.
+> Empathy (Self-Pattern-Modeling Compiled + Valence-Structural positive) = internal rule — each person
+> naturally has a compliance floor within their own melody. Self-Pattern-Modeling alone = tool, can exploit.
+> Valence-Structural alone = care but no understanding. BOTH = understand AND care = REAL internal floor.
+> General Valence-Structural for 'people in general' = the way out: baseline compliance for ALL
+> interactions. Rules = bridge. Empathy education (Self-Pattern-Modeling + Valence-Structural) = root solution.
+> Every rule must answer: 'Whose melody does this protect?'
+> If it can't be answered — that rule DOES NOT NEED TO EXIST."*

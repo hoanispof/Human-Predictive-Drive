@@ -7,20 +7,20 @@ scope: |
   QUOTE ANALYSIS: "Stay Hungry. Stay Foolish."
   — Stewart Brand, Whole Earth Catalog (mid-1970s).
   Popularized by Steve Jobs, Stanford Commencement, June 12, 2005.
-  Framework giải mã: TẠI SAO câu này đúng (mechanism), KHI NÀO nó sai hoặc incomplete,
-  CÁCH calibrate để apply hiệu quả thay vì cứng nhắc.
+  Framework decodes: WHY this is correct (mechanism), WHEN it is wrong or incomplete,
+  HOW to calibrate for effective application rather than rigid rule-following.
 purpose: |
-  File trước (Work-Goal-And-Why.md) phân tích EXTERNAL motivation (leader → team).
-  File NÀY phân tích INTERNAL orientation (self → self).
-  "Stay Hungry, Stay Foolish" = 2 self-directives mà framework map vào
-  2 MECHANISM KHÁC BIỆT nhưng BỔ SUNG: Generative Gap Dynamics + Background-Pattern Resistance.
-  Context cái chết (Jobs' cancer) = Anchor-Schema disruption → meaning question.
+  Prior file (Work-Goal-And-Why.md) analyzed EXTERNAL motivation (leader → team).
+  THIS file analyzes INTERNAL orientation (self → self).
+  "Stay Hungry, Stay Foolish" = 2 self-directives the framework maps to
+  2 DISTINCT but COMPLEMENTARY mechanisms: Generative Gap Dynamics + Background-Pattern Resistance.
+  Death context (Jobs' cancer) = Anchor-Schema disruption → meaning question.
 position: |
-  Research/Quote-Analysis/ — cùng folder Work-Goal-And-Why.md.
+  Research/Quote-Analysis/ — same folder as Work-Goal-And-Why.md.
 dependencies:
   Gap-Dynamics:
     - Gap-Body-Need.md v1.0 — §2.4 Generative satiation profile, §3 Transitions
-    - Gap-Direction.md v2.0 — §3 "Chưa biết = không có gap", gap = f(surrounding chunks)
+    - Gap-Direction.md v2.0 — §3 "No knowledge = no gap", gap = f(surrounding chunks)
     - Body-Feedback-Mechanism.md v2.0 — Chunk-Gap dynamics, Shift/Miss/Gap
   Bias-Resistance:
     - Background-Pattern.md v2.0 — §6 Triple Bias, §5 PFC invisible, §3 Formation
@@ -28,7 +28,7 @@ dependencies:
     - Self-Pattern-Modeling.md v3.1 — §9 Triple Bias source
   Novelty:
     - Novelty.md v1.2 — §1 VTA+chunk dynamics, §1.4 Combinatorial space, §5 DRD4
-    - Boredom.md v2.0 — Dissonance + Imagine-Final mờ, inverse of "hungry"
+    - Boredom.md v2.0 — Dissonance + Imagine-Final unclear, inverse of "hungry"
   Anchor:
     - Anchor-Schema.md v1.2 — §2 Trust, disruption
     - Meaning.md v2.2 — §2.3 Anchor DISRUPTED (death context)
@@ -36,7 +36,7 @@ dependencies:
   Other:
     - Drive.md v1.2 — §2 PFC 6 Modes (Drive-PFC-Spinning)
     - Cortisol-Baseline.md v2.1 — Direction tag, approach/avoidance
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
@@ -45,11 +45,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **"Stay Hungry. Stay Foolish."**
 >
 > — Stewart Brand, Whole Earth Catalog (back cover, final issue, mid-1970s).
-> Popularized bởi Steve Jobs tại Stanford University Commencement, June 12, 2005.
+> Popularized by Steve Jobs at Stanford University Commencement, June 12, 2005.
 >
-> Context: Jobs kể 3 câu chuyện — dropout khỏi Reed College, bị đuổi khỏi Apple,
-> đối mặt ung thư tụy (diagnosed 2004). Kết thúc bằng quote này.
-> Ngay trước đó, Jobs nói: "Don't let the noise of others' opinions
+> Context: Jobs told 3 stories — dropping out of Reed College, being fired from Apple,
+> facing pancreatic cancer (diagnosed 2004). He ended with this quote.
+> Immediately before it, Jobs said: "Don't let the noise of others' opinions
 > drown out your own inner voice."
 >
 > 🟢 Verified source: Stanford News, Steve Jobs Archive, NPR transcript.
@@ -57,256 +57,260 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — TẠI SAO PHÂN TÍCH QUOTE NÀY
-- §1 — GIẢI MÃ: "STAY HUNGRY"
-- §2 — GIẢI MÃ: "STAY FOOLISH"
-- §3 — KẾT HỢP: HUNGRY × FOOLISH
-- §4 — CONTEXT CÁI CHẾT × FRAMEWORK
+- §0 — WHY ANALYZE THIS QUOTE
+- §1 — DECODE: "STAY HUNGRY"
+- §2 — DECODE: "STAY FOOLISH"
+- §3 — COMBINED: HUNGRY × FOOLISH
+- §4 — DEATH CONTEXT × FRAMEWORK
 - §5 — FAILURE MODES
-- §6 — CALIBRATION: CÁCH APPLY KHÔNG CỨNG NHẮC
+- §6 — CALIBRATION: HOW TO APPLY WITHOUT RIGIDITY
 - §7 — HONEST ASSESSMENT
 - §8 — CROSS-REFERENCES
 
 ---
 
-## §0 — TẠI SAO PHÂN TÍCH QUOTE NÀY
+## §0 — WHY ANALYZE THIS QUOTE
 
 ```
-KHÁC BIỆT VỚI FILE TRƯỚC (Work-Goal-And-Why):
+WHAT MAKES THIS QUOTE DIFFERENT FROM THE PRIOR FILE (Work-Goal-And-Why):
 
   ┌────────────────────┬──────────────────────┬──────────────────────┐
   │                    │ Goal + Why           │ Hungry + Foolish     │
   ├────────────────────┼──────────────────────┼──────────────────────┤
-  │ Hướng              │ External → team      │ Internal → bản thân  │
-  │ Tính chất          │ Prescriptive (làm X) │ Philosophical (HÃY X)│
-  │ Source             │ Floating attribution │ Verified (Stanford)   │
-  │ Context            │ Management           │ Đối mặt cái chết    │
+  │ Direction          │ External → team      │ Internal → self      │
+  │ Nature             │ Prescriptive (do X)  │ Philosophical (BE X) │
+  │ Source             │ Floating attribution │ Verified (Stanford)  │
+  │ Context            │ Management           │ Facing death         │
   │ Framework focus    │ Anchor-Schema,       │ Gap Dynamics,        │
   │                    │ Imagine-Final,       │ Background-Pattern   │
   │                    │ Valence Propagation  │                      │
   └────────────────────┴──────────────────────┴──────────────────────┘
 
-  Quote này = 2 TỪ ĐƠN GIẢN × 2.
-  Framework cần giải thích:
-    ① TẠI SAO "hungry" = hiệu quả (mechanism)
-    ② TẠI SAO "foolish" = hiệu quả (mechanism)
-    ③ TẠI SAO CẢ HAI cùng lúc (synergy)
-    ④ TẠI SAO context cái chết làm quote mạnh hơn
-    ⑤ KHI NÀO quote SAI hoặc nguy hiểm
+  Quote = 2 SIMPLE WORDS × 2.
+  Framework needs to explain:
+    ① WHY "hungry" = effective (mechanism)
+    ② WHY "foolish" = effective (mechanism)
+    ③ WHY BOTH at the same time (synergy)
+    ④ WHY the death context makes the quote more powerful
+    ⑤ WHEN the quote is WRONG or dangerous
 ```
 
 ---
 
-## §1 — GIẢI MÃ: "STAY HUNGRY"
+## §1 — DECODE: "STAY HUNGRY"
 
-### §1.1 — Hungry = Duy Trì Generative Satiation Profile
+### §1.1 — Hungry = Maintain Generative Satiation Profile
 
 ```
-⭐ MAPPING CỐT LÕI:
+⭐ CORE MAPPING:
 
-  Gap-Body-Need.md §2.4 define 3 Satiation Profiles:
+  Gap-Body-Need.md §2.4 defines 3 Satiation Profiles:
 
   ┌────────────────┬──────────────────────────────────────────┐
   │ CYCLIC         │ Fill → satiation CLEAR → dormant → return│
-  │                │ Ví dụ: đói → ăn → no → đói lại           │
-  │                │ = "Hungry rồi full rồi hungry lại"      │
+  │                │ Example: hungry → eat → full → hungry again│
+  │                │ = "Hungry, then full, then hungry again"  │
   ├────────────────┼──────────────────────────────────────────┤
-  │ TONIC          │ Fill ongoing → habituate chậm → invisible│
-  │                │ Ví dụ: comfort, safety, social presence  │
-  │                │ = "Không hungry, cũng không biết vì sao" │
+  │ TONIC          │ Fill ongoing → habituate slowly → invisible│
+  │                │ Example: comfort, safety, social presence  │
+  │                │ = "Not hungry, and don't know why"         │
   ├────────────────┼──────────────────────────────────────────┤
-  │ ⭐ GENERATIVE  │ Fill → CREATE new gaps → perpetual       │
-  │                │ Ví dụ: curiosity, mastery, creativity    │
-  │                │ = "Càng fill càng HUNGRY HƠN"           │
+  │ ⭐ GENERATIVE  │ Fill → CREATE new gaps → perpetual        │
+  │                │ Example: curiosity, mastery, creativity    │
+  │                │ = "The more you fill, the HUNGRIER you get"│
   └────────────────┴──────────────────────────────────────────┘
 
-  Jobs' "Stay Hungry" = duy trì GENERATIVE profile:
+  Jobs' "Stay Hungry" = maintain GENERATIVE profile:
     Fill gap → discover new gaps → chase → fill → discover MORE.
-    = Không bao giờ "done" — mỗi answer = 10 new questions.
-    = KHÁC "hungry for success" (cyclic/tonic) = sai mapping.
+    = Never "done" — every answer = 10 new questions.
+    = DIFFERENT from "hungry for success" (cyclic/tonic) = wrong mapping.
 
   Generative reward:
     = Evaluative dominant (~95/5 ratio): pattern EVALUATION.
-    = VTA fire trên DISCOVERY, not on status confirmation.
+    = VTA fires on DISCOVERY, not on status confirmation.
     = Variable reward (prediction-delta per discovery).
 
   🟢 Self-expansion model: Aron & Aron 1996, 2000
   🟡 Generative as satiation profile = framework synthesis
 ```
 
-### §1.2 — Hungry = VTA Còn Có Thể Fire
+### §1.2 — Hungry = VTA Still Has Capacity to Fire
 
 ```
 ⭐ NOVELTY MECHANISM:
 
-  Novelty.md §1.1: VTA detect DELTA trong chunk network.
-    Chunks compile → fire pattern ổn định → VTA habituate → IM LẶNG.
-    Pattern THAY ĐỔI → VTA detect → FIRE → "thú vị!"
+  Novelty.md §1.1: VTA detects DELTA in the chunk network.
+    Chunks compile → stable firing pattern → VTA habituates → SILENT.
+    Pattern CHANGES → VTA detects → FIRES → "interesting!"
 
-  "Hungry" = VTA CHƯA habituate hoàn toàn:
-    → Còn gaps OPEN → còn prediction-delta possible
-    → Còn input chưa compiled → VTA còn fire
-    → = "Hungry" = hệ thống còn CAPACITY for surprise.
+  "Hungry" = VTA has NOT yet fully habituated:
+    → Gaps still OPEN → prediction-delta still possible
+    → Input not yet compiled → VTA still fires
+    → = "Hungry" = the system still has CAPACITY for surprise.
 
   "Not hungry" = VTA habituated:
-    → Tất cả gaps satiated hoặc dormant
-    → Mọi input đã compiled → delta = 0 → VTA im
-    → = Boredom.md: dissonance + Imagine-Final mờ = "chán."
+    → All gaps satiated or dormant
+    → All input compiled → delta = 0 → VTA silent
+    → = Boredom.md: dissonance + Imagine-Final unclear = "bored."
 
-  ⭐ INSIGHT QUAN TRỌNG — Novelty.md §1.4 (Combinatorial Space):
+  ⭐ KEY INSIGHT — Novelty.md §1.4 (Combinatorial Space):
 
-    Beginner: 10 chunks → ~45 cặp → NHANH hết tổ hợp → hết hungry.
-    Expert: 1,000 chunks → ~500,000 cặp → GẦN NHƯ KHÔNG THỂ hết.
+    Beginner: 10 chunks → ~45 pairs → QUICKLY exhausts combinations → loses hunger.
+    Expert: 1,000 chunks → ~500,000 pairs → NEARLY IMPOSSIBLE to exhaust.
 
-    → EXPERT CÓ NHIỀU NOVELTY HƠN BEGINNER (phản trực giác).
-    → Combinatorial space TĂNG theo chunks tích lũy.
-    → "Stay Hungry" KHÔNG có nghĩa "stay beginner."
+    → EXPERT HAS MORE NOVELTY THAN BEGINNER (counter-intuitive).
+    → Combinatorial space GROWS with accumulated chunks.
+    → "Stay Hungry" does NOT mean "stay a beginner."
     → = Stay Hungry = KEEP BUILDING chunks → expanding combinatorial space
       → MORE possibilities for VTA to fire → MORE "hungry."
-    → = Đọ ngược lại "Hungry" Cyclic (đói → ăn → hết):
-      Generative Hungry = ĂN → THẤY MÓN MỚI → ĐÓI HƠN.
+    → = Inverts "Hungry" Cyclic (hungry → eat → done):
+      Generative Hungry = EAT → SEE NEW DISHES → GET HUNGRIER.
 
   🟢 VTA habituation: Schultz 1997
   🟢 Combinatorial mathematics + expertise: Chase & Simon 1973
 ```
 
-### §1.3 — Nghịch Đảo: Không Hungry = Boredom Territory
+### §1.3 — Inverse: Not Hungry = Boredom Territory
 
 ```
-⭐ FRAMEWORK PREDICT: "NOT HUNGRY" = CỤ THỂ CÁI GÌ?
+⭐ FRAMEWORK PREDICTS: "NOT HUNGRY" = SPECIFICALLY WHAT?
 
   Boredom.md v2.0:
-    Boredom = body-feedback dissonance + Imagine-Final clarity THIẾU.
-    6 sources, 3 loại:
-      Loại 1 — Tạm thời (chờ đợi)
-      Loại 2 — Tình huống (task không match gap)
-      Loại 3 — TRỐNG (không có hướng nào cả) ← "not hungry"
+    Boredom = body-feedback dissonance + Imagine-Final clarity LACKING.
+    6 sources, 3 types:
+      Type 1 — Temporary (waiting)
+      Type 2 — Situational (task doesn't match gap)
+      Type 3 — EMPTY (no direction at all) ← "not hungry"
 
-  Loại 3 = GATEWAY tới meaning question (Meaning.md §2):
-    "Không biết muốn gì" = gaps ALL dormant hoặc absent.
-    = Energy có nhưng KHÔNG BIẾT hướng nào → spinning.
-    = Drive-PFC-Spinning (Drive.md §2): PFC scan liên tục, không tìm được focus.
+  Type 3 = GATEWAY to the meaning question (Meaning.md §2):
+    "Don't know what I want" = gaps ALL dormant or absent.
+    = Energy present but NO DIRECTION → spinning.
+    = Drive-PFC-Spinning (Drive.md §2): PFC scans continuously, can't find focus.
 
-  "Stay Hungry" = PREVENT Loại 3 Boredom:
-    Duy trì generative gaps → luôn có hướng → KHÔNG spinning.
+  "Stay Hungry" = PREVENT Type 3 Boredom:
+    Maintain generative gaps → always have a direction → NOT spinning.
 
-  ⚠️ NHƯNG: "hungry" KHÁC "anxious" (§5 Failure Modes):
+  ⚠️ BUT: "hungry" is DIFFERENT from "anxious" (§5 Failure Modes):
     Hungry = gaps OPEN + approach tag → drive TOWARD.
     Anxious = gaps OPEN + avoidance tag → drive AWAY FROM.
-    Cùng "open gaps" nhưng KHÁC direction tag → KHÁC hoàn toàn.
+    Same "open gaps" but DIFFERENT direction tag → COMPLETELY different.
 
-  🟡 Loại 3 boredom = "not hungry" mapping: framework synthesis
+  🟡 Type 3 boredom = "not hungry" mapping: framework synthesis
 ```
 
 ---
 
-## §2 — GIẢI MÃ: "STAY FOOLISH"
+## §2 — DECODE: "STAY FOOLISH"
 
 ### §2.1 — Foolish = Resist Background-Pattern Triple Bias
 
 ```
-⭐⭐ ĐÂY LÀ PHẦN HAY NHẤT CỦA QUOTE:
+⭐⭐ THIS IS THE BEST PART OF THE QUOTE:
 
   Background-Pattern.md §6.2 — Triple Bias Mechanism:
 
-  Expert compiled deep → Background-Pattern STRONG → bias MỌI processing
-  qua 3 CƠ CHẾ ĐỒNG THỜI:
+  Deep expert compilation → Background-Pattern STRONG → biases ALL processing
+  via 3 SIMULTANEOUS MECHANISMS:
 
   ┌──────────────────────────────────────────────────────────────┐
   │                                                              │
-  │  CƠ CHẾ 1 — RETRIEVAL BIAS (Chunk Selection):              │
-  │    Background-Pattern chunks fire TRƯỚC tất cả (highest link density).      │
-  │    Expert: "tôi đã thấy pattern này 1,000 lần" →           │
-  │    chunks [familiar solution] fire TRƯỚC → miss novel       │
+  │  MECHANISM 1 — RETRIEVAL BIAS (Chunk Selection):            │
+  │    Background-Pattern chunks fire FIRST above all others    │
+  │    (highest link density).                                   │
+  │    Expert: "I've seen this pattern 1,000 times" →           │
+  │    chunks [familiar solution] fire FIRST → miss novel        │
   │    approach COMPLETELY.                                      │
   │                                                              │
-  │  CƠ CHẾ 2 — TEMPLATE BIAS (Self-Template):                 │
-  │    Self-Pattern-Modeling dùng "TÔI" làm template: "nếu TÔI ở vị trí đó..."  │
-  │    Expert "TÔI" = compiled deep → template CỐ ĐỊNH →       │
-  │    project own pattern onto everything → miss OTHER's       │
+  │  MECHANISM 2 — TEMPLATE BIAS (Self-Template):               │
+  │    Self-Pattern-Modeling uses "ME" as template:             │
+  │    "If I were in that position..."                          │
+  │    Expert "ME" = deeply compiled → template FIXED →         │
+  │    project own pattern onto everything → miss OTHERS'       │
   │    perspective.                                              │
   │                                                              │
-  │  CƠ CHẾ 3 — INTERPRETATION BIAS (PFC Attribution):         │
-  │    Background-Pattern bias cách PFC INTERPRET ambiguous data.               │
-  │    Expert: ambiguous result → "chắc là X" (X = familiar)    │
-  │    → MISS novel explanation Y hoàn toàn.                    │
-  │    PFC = "Lawyer cho Background-Pattern" — rationalize theo Background-Pattern direction.   │
+  │  MECHANISM 3 — INTERPRETATION BIAS (PFC Attribution):       │
+  │    Background-Pattern biases how PFC INTERPRETS             │
+  │    ambiguous data.                                           │
+  │    Expert: ambiguous result → "probably X" (X = familiar)   │
+  │    → MISS novel explanation Y entirely.                      │
+  │    PFC = "Lawyer for Background-Pattern" — rationalizes in  │
+  │    the Background-Pattern direction.                         │
   │                                                              │
   └──────────────────────────────────────────────────────────────┘
 
   "Stay Foolish" = RESIST all 3 biases simultaneously:
-    → Retrieval: "Đừng auto-fire familiar solution — wait."
-    → Template: "Đừng assume mình biết — listen."
-    → Interpretation: "Đừng rationalize quen — question."
+    → Retrieval: "Don't auto-fire familiar solution — wait."
+    → Template: "Don't assume you already know — listen."
+    → Interpretation: "Don't rationalize toward the familiar — question."
 
-  = Beginner's mind KHÔNG PHẢI thiếu knowledge —
-    mà RESIST cho knowledge auto-drive conclusion.
+  = Beginner's mind is NOT an absence of knowledge —
+    it is RESISTING the knowledge from automatically driving conclusions.
 
   🟢 Confirmation bias: Nickerson 1998
   🟢 Projection bias: Krueger 2007
   🟡 Triple Bias mechanism: framework synthesis (Self-Pattern-Modeling v3.1 §9)
 ```
 
-### §2.2 — Foolish = Giữ Gaps OPEN (Genesis Principle Đảo Ngược)
+### §2.2 — Foolish = Keeping Gaps OPEN (Genesis Principle Inverted)
 
 ```
-⭐ GAP-DIRECTION §3 — "CHƯA BIẾT = KHÔNG CÓ GAP":
+⭐ GAP-DIRECTION §3 — "NO KNOWLEDGE = NO GAP":
 
-  Framework principle: bạn KHÔNG THỂ thiếu thứ bạn không biết tồn tại.
-  Gap CHỈ hình thành khi surrounding chunks TẠO border cho hole.
+  Framework principle: you CANNOT lack something you don't know exists.
+  Gaps ONLY form when surrounding chunks CREATE a border around a hole.
 
-  ĐẢO NGƯỢC cho expert:
-    Expert có NHIỀU chunks → NHIỀU borders → NHIỀU gaps CÓ THỂ detect.
-    NHƯNG: Background-Pattern Triple Bias → expert NGHĨ MÌNH BIẾT → gaps CLOSE PREMATURELY.
+  INVERTED for experts:
+    Expert has MANY chunks → MANY borders → MANY gaps they CAN detect.
+    BUT: Background-Pattern Triple Bias → expert THINKS THEY KNOW → gaps CLOSE PREMATURELY.
 
-    "Tôi biết domain này" = Background-Pattern label → inquiry ĐÓNG → gap ĐÓNG.
-    Gaps đóng = VTA KHÔNG fire = learning DỪNG.
+    "I know this domain" = Background-Pattern label → inquiry CLOSES → gap CLOSES.
+    Gaps closed = VTA DOESN'T FIRE = learning STOPS.
 
   "Stay Foolish" = PREVENT premature gap closure:
-    "Tôi CHƯA CHẮC biết" → gaps REMAIN OPEN → VTA CÒN CÓ THỂ fire.
+    "I'm NOT SURE I know" → gaps REMAIN OPEN → VTA CAN STILL fire.
     = ACKNOWLEDGE uncertainty → gaps possible → learning continues.
 
-  THỰC TẾ CỰC KỲ KHÓ — vì:
+  EXTREMELY DIFFICULT IN PRACTICE — because:
     Background-Pattern §6.3 Self-Fulfilling Prophecy:
-      Background-Pattern [tôi biết] → predict familiar → act on familiar → outcome confirm
-      → "Thấy chưa, đúng mà" — nhưng chính Background-Pattern TẠO RA outcome.
-      → Expert LOCKED trong loop: confident → act → confirm → MORE confident.
+      Background-Pattern [I know] → predict familiar → act on familiar → outcome confirms
+      → "See? I was right" — but the Background-Pattern CREATED the outcome.
+      → Expert LOCKED in loop: confident → act → confirm → MORE confident.
       → "Stay Foolish" = BREAK LOOP — refuse to confirm prematurely.
 
   🟡 Premature gap closure by Background-Pattern: framework synthesis
   🟢 Expert blindness / Einstellung effect: Luchins 1942
 ```
 
-### §2.3 — Foolish = PFC Cost CỰC CAO
+### §2.3 — Foolish = Extremely High PFC Cost
 
 ```
-⭐ TẠI SAO "STAY FOOLISH" CỰC KHÓ:
+⭐ WHY "STAY FOOLISH" IS EXTREMELY HARD:
 
   PFC-Operations.md §2:
-    HOLD = PFC amplify new pattern → cost ①.
-    SUPPRESS = PFC block compiled pattern → cost ②.
+    HOLD = PFC amplifies new pattern → cost ①.
+    SUPPRESS = PFC blocks compiled pattern → cost ②.
 
   "Stay Foolish" = HOLD fresh perspective + SUPPRESS compiled auto-response
   = DOUBLE COST (① + ②).
 
   PFC-Operations.md §9: PFC Budget = FINITE SHARED RESOURCE.
-    → "Foolish" tốn PFC budget CHO MỌI input.
+    → "Foolish" depletes PFC budget FOR EVERY input.
     → Expert default = compiled (cost ≈ 0) — automatic, effortless.
-    → "Foolish" OVERRIDE default → cost >> 0 mỗi lần.
-    → = Tại sao rất ít người THỰC SỰ "stay foolish" lâu dài.
+    → "Foolish" OVERRIDES default → cost >> 0 each time.
+    → = Why very few people ACTUALLY "stay foolish" long-term.
 
   Compiled Quality Dimension (PFC-Operations §5):
-    Genuine-compiled: body THẬT SỰ trải nghiệm → rich, approach tag.
-    "Stay foolish" = ĐỪNG để genuine-compiled AUTO-ANSWER.
-    = "Tôi BIẾT câu trả lời... nhưng ĐỪNG answer ngay — look deeper."
-    = Suppress cost ② on OWN GENUINE expertise.
+    Genuine-compiled: body TRULY experienced it → rich, approach tag.
+    "Stay foolish" = DON'T let genuine-compiled AUTO-ANSWER.
+    = "I KNOW the answer... but DON'T answer immediately — look deeper."
+    = Suppress cost ② on YOUR OWN GENUINE expertise.
 
-  ⚠️ CHỈ BỀN KHI CÓ REWARD:
-    "Foolish" + KHÔNG discover gì mới → PFC cost pure waste → unsustainable.
-    "Foolish" + DISCOVER insight mới → VTA fire → opioid reward → REINFORCE.
-    → "Stay Foolish" chỉ bền trong GENERATIVE environment (§3).
+  ⚠️ ONLY SUSTAINABLE WHEN REWARDED:
+    "Foolish" + discover NOTHING new → PFC cost = pure waste → unsustainable.
+    "Foolish" + DISCOVER new insight → VTA fires → opioid reward → REINFORCED.
+    → "Stay Foolish" only sustains in a GENERATIVE environment (§3).
 
   🟡 Double cost analysis: framework synthesis
   🟢 Cognitive inhibition cost: Miyake et al. 2000
@@ -315,117 +319,121 @@ KHÁC BIỆT VỚI FILE TRƯỚC (Work-Goal-And-Why):
 
 ---
 
-## §3 — KẾT HỢP: HUNGRY × FOOLISH
+## §3 — COMBINED: HUNGRY × FOOLISH
 
-### §3.1 — 2 Concept Bổ Sung Nhau
+### §3.1 — 2 Complementary Concepts
 
 ```
-⭐⭐ SYNERGY — TẠI SAO CẦN CẢ HAI:
+⭐⭐ SYNERGY — WHY YOU NEED BOTH:
 
   ┌──────────────────────────────────────────────────────────────┐
   │                                                              │
-  │  HUNGRY alone (không Foolish):                              │
-  │    = Pursue gaps CÙNG HƯỚNG sâu hơn.                       │
+  │  HUNGRY alone (without Foolish):                            │
+  │    = Pursue gaps DEEPER in the SAME direction.              │
   │    = Expert tunnel vision: deeper AND narrower.              │
-  │    = Ví dụ: Jensen Huang + GPU 30 năm = hungry WITHOUT foolish │
-  │      → CỰC hiệu quả trong 1 domain → nhưng MISS cross-domain│
-  │    = Gap dynamics: generative nhưng TRONG compiled direction.│
+  │    = Example: deep focus expert + 30 years in 1 domain      │
+  │      = hungry WITHOUT foolish                                │
+  │      → EXTREMELY effective in 1 domain → but MISSES         │
+  │        cross-domain                                          │
+  │    = Gap dynamics: generative but WITHIN compiled direction. │
   │                                                              │
-  │  FOOLISH alone (không Hungry):                              │
-  │    = Open to everything nhưng KHÔNG drive pursue.           │
-  │    = "Hay nhỉ... hay nhỉ... hay nhỉ..." → không đi sâu.   │
-  │    = Ví dụ: người "tò mò mọi thứ" nhưng never master anything │
-  │    = Gaps open nhưng KHÔNG fill → no compile → no expertise.│
+  │  FOOLISH alone (without Hungry):                            │
+  │    = Open to everything but NO drive to pursue.             │
+  │    = "Interesting... interesting... interesting..." → never  │
+  │       goes deep.                                             │
+  │    = Example: person "curious about everything" but never    │
+  │       masters anything                                        │
+  │    = Gaps open but NOT filled → no compile → no expertise.  │
   │                                                              │
-  │  HUNGRY + FOOLISH (cả hai):                                 │
+  │  HUNGRY + FOOLISH (both):                                   │
   │    = Maintain generative gaps (hungry)                       │
-  │      VỚI openness to NEW directions (foolish).              │
-  │    = Drive pursue (hungry) + resist auto-answer (foolish).  │
-  │    = ENGINE chạy (hungry) + ROAD mở (foolish).             │
+  │      WITH openness to NEW directions (foolish).              │
+  │    = Drive to pursue (hungry) + resist auto-answer (foolish).│
+  │    = ENGINE running (hungry) + ROAD open (foolish).         │
   │    = Gap dynamics (hungry) + Gap possibility (foolish).     │
   │                                                              │
   └──────────────────────────────────────────────────────────────┘
 
-  Framework mapping lên ENGINE/ROAD/VEHICLE (Gap-Body-Need §9):
+  Framework mapping onto ENGINE/ROAD/VEHICLE (Gap-Body-Need §9):
     HUNGRY = ENGINE running (hardware drives + generative gaps ACTIVE).
     FOOLISH = ROAD open (resist Background-Pattern from narrowing road to 1 lane).
-    Combined = engine CHẠY trên road MỞ = maximum exploration space.
+    Combined = engine RUNNING on OPEN road = maximum exploration space.
 ```
 
-### §3.2 — Jobs = Example Cả Hai
+### §3.2 — Jobs = Example of Both Simultaneously
 
 ```
-  Jobs' career = evidence cho CÙNG LÚC hungry + foolish:
+  Jobs' career = evidence for HUNGRY + FOOLISH simultaneously:
 
   HUNGRY:
-    → Dropped out of Reed → NHƯNG audit calligraphy class → generative gap.
-    → Built Apple → fired → built NeXT + Pixar → generative: mỗi failure = new gaps.
-    → KHÔNG dừng sau thành công → iPhone AFTER iPod → iPad AFTER iPhone.
-    → = Generative satiation: mỗi fill = new gaps emerged.
+    → Dropped out of Reed → BUT audited calligraphy class → generative gap.
+    → Built Apple → fired → built NeXT + Pixar → generative: each failure = new gaps.
+    → Didn't stop after success → iPhone AFTER iPod → iPad AFTER iPhone.
+    → = Generative satiation: each fill = new gaps emerged.
 
   FOOLISH:
-    → Calligraphy class: CEO tech company audit CALLIGRAPHY → "foolish"
-      → Compiled Background-Pattern [tech = relevant, art = irrelevant] → Jobs SUPPRESS.
+    → Calligraphy class: tech company CEO auditing CALLIGRAPHY → "foolish"
+      → Compiled Background-Pattern [tech = relevant, art = irrelevant] → Jobs SUPPRESSES.
       → Result: Mac typography = competitive advantage YEARS later.
-    → NeXT: built computer NOBODY wanted → "foolish"
+    → NeXT: built a computer NOBODY wanted → "foolish"
       → BUT: NeXT OS → became macOS foundation.
-    → Pixar: hardware CEO làm PHIM → "foolish"
+    → Pixar: hardware CEO makes FILMS → "foolish"
       → BUT: Toy Story → animation revolution.
-    → = Jobs RESIST Background-Pattern [stick to what you know] → cross-domain innovation.
+    → = Jobs RESISTS Background-Pattern [stick to what you know] → cross-domain innovation.
 
   ⚠️ CAVEAT: survivorship bias.
-  Nhiều người cũng "hungry + foolish" và THẤT BẠI.
-  Framework KHÔNG nói "hungry + foolish = guaranteed success."
-  Framework nói: "hungry + foolish = maximize EXPLORATION SPACE."
-  Outcome vẫn phụ thuộc domain feedback (§6).
+  Many people were also "hungry + foolish" and FAILED.
+  Framework does NOT say "hungry + foolish = guaranteed success."
+  Framework says: "hungry + foolish = maximize EXPLORATION SPACE."
+  Outcome still depends on domain feedback (§6).
 ```
 
 ---
 
-## §4 — CONTEXT CÁI CHẾT × FRAMEWORK
+## §4 — DEATH CONTEXT × FRAMEWORK
 
 ### §4.1 — Death = Ultimate Anchor-Schema Disruption
 
 ```
-⭐ JOBS NÓI QUOTE NÀY SAU KHI KỂ VỀ UNG THƯ:
+⭐ JOBS DELIVERED THIS QUOTE AFTER TELLING HIS CANCER STORY:
 
   Meaning.md §2.3 — Anchor DISRUPTED:
-    Anchor-Schema bị phá khi event lớn INVALIDATE nó.
-    Death awareness = DISRUPTION CỰC MẠNH:
-      → Tất cả Anchor-Schema "dài hạn" bị question: "có kịp không?"
-      → Life-level anchors RE-EVALUATE: "cái nào THỰC SỰ quan trọng?"
+    Anchor-Schema is disrupted when a major event INVALIDATES it.
+    Death awareness = EXTREMELY STRONG DISRUPTION:
+      → All "long-term" Anchor-Schemas are questioned: "will there be time?"
+      → Life-level anchors RE-EVALUATED: "what TRULY matters?"
       → = "Remembering that I'll be dead soon is the most important tool
           I've ever encountered to help me make the big choices in life."
-        — Jobs, Stanford 2005 (câu khác trong cùng speech).
+        — Jobs, Stanford 2005 (another line from the same speech).
 
-  Framework giải thích TẠI SAO death awareness CLARIFY:
-    ① Cortisol direction tag CỰC RÕ:
-      Death = threat TUYỆT ĐỐI → cortisol spike → nhưng direction = RÕ NHẤT.
-      Mọi thứ KHÔNG essential → cortisol tag NEGATIVE → PFC cut nhanh.
-      Chỉ thứ essential CÒN → anchor CONCENTRATE → drive FOCUS.
+  Framework explains WHY death awareness CLARIFIES:
+    ① Cortisol direction tag BECOMES EXTREMELY CLEAR:
+      Death = ABSOLUTE threat → cortisol spike → but direction = CLEAREST.
+      Everything NON-ESSENTIAL → cortisol tag NEGATIVE → PFC cuts fast.
+      Only the essential REMAINS → anchor CONCENTRATES → drive FOCUSES.
 
-    ② Anchor-Schema §2 — Trust test cực mạnh:
-      Trust ≥ Cost → hold. Death = cost TĂNG VƯỢT (time finite).
-      Anchors WEAK → COLLAPSE ngay (không đủ trust cho cost mới).
-      Anchors STRONG → REMAIN → = cái THẬT SỰ quan trọng.
-      = Natural filter: death strip away weak anchors → reveal core.
+    ② Anchor-Schema §2 — Ultimate trust test:
+      Trust ≥ Cost → holds. Death = cost RISES BEYOND (time finite).
+      WEAK anchors → COLLAPSE immediately (insufficient trust for new cost).
+      STRONG anchors → REMAIN → = what TRULY matters.
+      = Natural filter: death strips away weak anchors → reveals the core.
 
-    ③ Boredom Loại 3 → Meaning question FORCE:
-      "Nếu chết sớm, tôi có chấp nhận đã sống thế này?" 
-      = Meaning question FORCED — không thể trì hoãn.
-      → Re-evaluate TOÀN BỘ gap landscape.
+    ③ Type 3 Boredom → Meaning question FORCED:
+      "If I die soon, am I at peace with how I've lived?"
+      = Meaning question FORCED — cannot be postponed.
+      → Re-evaluate the ENTIRE gap landscape.
 
-  "Stay Hungry" sau death awareness:
-    = Đừng để mortality PARALYZE (Loại 3 boredom extreme).
-    = Dùng nó để CLARIFY: gaps nào THỰC SỰ generative?
-    = Death = ultimate filter cho "hungry VỀ CÁI GÌ."
+  "Stay Hungry" after death awareness:
+    = Don't let mortality PARALYZE (Type 3 boredom extreme).
+    = Use it to CLARIFY: which gaps are TRULY generative?
+    = Death = ultimate filter for "hungry about WHAT."
 
-  "Stay Foolish" sau death awareness:
-    = Đừng để legacy/reputation (Background-Pattern) LOCK bạn vào 1 hướng.
+  "Stay Foolish" after death awareness:
+    = Don't let legacy/reputation (Background-Pattern) LOCK you into 1 direction.
     = "Almost everything — all external expectations, all pride,
        all fear of embarrassment or failure — these things just fall away
        in the face of death." — Jobs, Stanford 2005.
-    = Death strip away Background-Pattern bias → free to be "foolish" again.
+    = Death strips away Background-Pattern bias → free to be "foolish" again.
 
   🟢 Terror Management Theory: Greenberg, Pyszczynski & Solomon 1986
   🟢 Post-traumatic growth: Tedeschi & Calhoun 2004
@@ -436,118 +444,118 @@ KHÁC BIỆT VỚI FILE TRƯỚC (Work-Goal-And-Why):
 
 ## §5 — FAILURE MODES
 
-### §5.1 — Khi "Hungry" Trở Thành Pathological
+### §5.1 — When "Hungry" Becomes Pathological
 
 ```
-⭐ 3 DẠNG "HUNGRY" SAI:
+⭐ 3 FORMS OF "HUNGRY" GONE WRONG:
 
-  DẠNG 1 — NOVELTY LOOP (Novelty.md §4):
-    "Hungry" nhưng KHÔNG fill deep → chỉ skim surface.
-    = Mạng xã hội scroll: VTA fire liên tục nhưng KHÔNG compile deep.
+  FORM 1 — NOVELTY LOOP (Novelty.md §4):
+    "Hungry" but NOT filling deep → only skims the surface.
+    = Social media scrolling: VTA fires continuously but DOESN'T compile deep.
     = "Hungry for stimulation" ≠ "Hungry for mastery."
     = Cyclic micro-rewards, not generative exploration.
-    Framework: phanh tự nhiên thất bại (Novelty §3) → loop.
+    Framework: natural brakes fail (Novelty §3) → loop.
 
-  DẠNG 2 — STATUS ESCALATION:
-    "Hungry" nhưng gap = status comparison → escalating baseline.
-    = Gap-Body-Need §2.4: status = generative nhưng VỚI baseline shift.
-    = "Lương $1M → adapt → $10M → vẫn thiếu."
-    = LOOKS like "stay hungry" nhưng = hedonic treadmill.
+  FORM 2 — STATUS ESCALATION:
+    "Hungry" but gap = status comparison → escalating baseline.
+    = Gap-Body-Need §2.4: status = generative but WITH baseline shift.
+    = "Salary $1M → adapt → $10M → still feels lacking."
+    = LOOKS like "stay hungry" but = hedonic treadmill.
     🟢 Brickman & Campbell 1971: hedonic adaptation.
 
-  DẠNG 3 — WORKAHOLIC (Cortisol chronic):
-    "Hungry" nhưng direction tag = AVOIDANCE không phải approach.
-    = "Phải làm thêm vì sợ thất bại" ≠ "Muốn làm thêm vì thấy mới."
+  FORM 3 — WORKAHOLIC (chronic cortisol):
+    "Hungry" but direction tag = AVOIDANCE not approach.
+    = "Must work more because scared of failing" ≠ "Want to work more because see something new."
     = Cortisol-Baseline §7: chronic cortisol → PFC damage → LESS capacity.
-    = Body wear TÍCH LŨY → unsustainable dù "hungry."
+    = Body wear ACCUMULATES → unsustainable despite being "hungry."
 ```
 
-### §5.2 — Khi "Foolish" Trở Thành Harmful
+### §5.2 — When "Foolish" Becomes Harmful
 
 ```
-⭐ 3 DẠNG "FOOLISH" SAI:
+⭐ 3 FORMS OF "FOOLISH" GONE WRONG:
 
-  DẠNG 1 — ACTUALLY INCOMPETENT:
-    "Foolish" nhưng KHÔNG CÓ compiled base → không có gì để suppress.
-    = Beginner claim "stay foolish" = excuse for not learning fundamentals.
-    = Framework: "Foolish" CHỈ có giá trị KHI ĐÃ CÓ expertise (Background-Pattern strong).
-      Suppress compiled → NHƯNG phải CÓ compiled TRƯỚC ĐÃ.
+  FORM 1 — ACTUALLY INCOMPETENT:
+    "Foolish" but NO compiled base → nothing to suppress.
+    = Beginner claiming "stay foolish" = excuse for not learning fundamentals.
+    = Framework: "Foolish" ONLY has value WHEN expertise ALREADY EXISTS (Background-Pattern strong).
+      Suppress compiled → BUT must HAVE compiled FIRST.
       = PFC suppress EMPTY = no-op.
 
-  DẠNG 2 — IGNORE DOMAIN FEEDBACK:
-    "Foolish" nhưng BỎ QUA signals domain nói "sai hướng."
-    = Imagine-Final-Evaluation: Quality check vẫn cần.
-    = "Foolish" = open to new → KHÔNG phải ignore feedback.
-    = Framework: domain feedback = arbiter DUY NHẤT.
+  FORM 2 — IGNORE DOMAIN FEEDBACK:
+    "Foolish" but IGNORES signals that domain is saying "wrong direction."
+    = Imagine-Final-Evaluation: quality check still needed.
+    = "Foolish" = open to new → NOT the same as ignoring feedback.
+    = Framework: domain feedback = the ONLY arbiter.
 
-  DẠNG 3 — DUNNING-KRUGER TERRITORY:
-    Ít knowledge + "stay foolish" confidence → overestimate.
-    = Khác Jobs' "foolish": Jobs CÓ deep expertise + CHOOSE to look beyond.
-    = Dunning-Kruger: KHÔNG CÓ expertise + THINK they see beyond.
-    = Framework: Gap-Direction — ít chunks → ít borders → ít gaps
-      → KHÔNG BIẾT MÌNH KHÔNG BIẾT (Genesis Principle).
+  FORM 3 — DUNNING-KRUGER TERRITORY:
+    Low knowledge + "stay foolish" confidence → overestimate.
+    = Different from Jobs' "foolish": Jobs HAD deep expertise + CHOSE to look beyond.
+    = Dunning-Kruger: NO expertise + THINKS they see beyond.
+    = Framework: Gap-Direction — few chunks → few borders → few gaps
+      → DOESN'T KNOW WHAT THEY DON'T KNOW (Genesis Principle).
     🟢 Dunning & Kruger 1999.
 ```
 
-### §5.3 — Khi Kết Hợp Sai
+### §5.3 — When the Combination Goes Wrong
 
 ```
-  HUNGRY + FOOLISH + KHÔNG CÓ DOMAIN ARBITER = DELUSION:
-    = Anchor-Schema Trust CAO + Quality SAI (Anchor-Schema §2).
-    = "Tôi tin tuyệt đối (hungry trust) + tôi không cần conventional
-      wisdom (foolish)" + KHÔNG CHECK domain = cult leader territory.
-    = Framework: CẦN domain feedback làm arbiter.
+  HUNGRY + FOOLISH + NO DOMAIN ARBITER = DELUSION:
+    = Anchor-Schema Trust HIGH + Quality WRONG (Anchor-Schema §2).
+    = "I believe absolutely (hungry trust) + I don't need conventional
+      wisdom (foolish)" + DON'T CHECK domain = cult leader territory.
+    = Framework: NEEDS domain feedback as arbiter.
 
   HUNGRY + FOOLISH + PFC BUDGET DEPLETED = BURNOUT:
-    = Generative gaps open + suppress compiled + nhưng PFC đã hết.
-    = "Muốn explore mới + muốn stay open + nhưng quá mệt."
-    = PFC-Operations §9: budget finite → "foolish" costs MOST khi mệt nhất.
+    = Generative gaps open + suppress compiled + but PFC is exhausted.
+    = "Want to explore new + want to stay open + but too tired."
+    = PFC-Operations §9: budget finite → "foolish" costs MOST when most exhausted.
 ```
 
 ---
 
-## §6 — CALIBRATION: CÁCH APPLY KHÔNG CỨNG NHẮC
+## §6 — CALIBRATION: HOW TO APPLY WITHOUT RIGIDITY
 
 ```
-⭐⭐ 6 NGUYÊN TẮC CALIBRATION:
+⭐⭐ 6 CALIBRATION PRINCIPLES:
 
-  ① HUNGRY PHẢI GENERATIVE, KHÔNG PHẢI CYCLIC:
-    Test: "Fill gap NÀY có CREATE new gaps không?"
-    Nếu có → generative → đúng "hungry."
-    Nếu không (fill → done → next same type) → cyclic → sai "hungry."
-    Ví dụ: đọc sách → thấy 3 câu hỏi mới → generative ✓
-    Ví dụ: scroll mạng xã hội → dopamine hit → next scroll → cyclic ✗
+  ① HUNGRY MUST BE GENERATIVE, NOT CYCLIC:
+    Test: "Does filling THIS gap CREATE new gaps?"
+    If yes → generative → correct "hungry."
+    If no (fill → done → next same type) → cyclic → wrong "hungry."
+    Example: read a book → notice 3 new questions → generative ✓
+    Example: scroll social media → dopamine hit → next scroll → cyclic ✗
 
-  ② FOOLISH CẦN EXPERTISE TRƯỚC:
+  ② FOOLISH REQUIRES EXPERTISE FIRST:
     "Stay foolish" = suppress compiled TO SEE BEYOND.
-    Cần CÓ compiled trước → mới có gì để suppress.
-    Beginner: ĐỪNG "stay foolish" — hãy BUILD compiled base trước.
-    Expert: bắt đầu "stay foolish" khi Background-Pattern bắt đầu BLOCK new learning.
-    = Phải EARN the right to be "foolish."
+    Must HAVE compiled first → then have something to suppress.
+    Beginner: DON'T "stay foolish" — BUILD compiled base first.
+    Expert: start "staying foolish" when Background-Pattern begins BLOCKING new learning.
+    = Must EARN the right to be "foolish."
 
-  ③ FOOLISH TRONG EXPLORATION, KHÔNG PHẢI EXECUTION:
+  ③ FOOLISH IN EXPLORATION, NOT IN EXECUTION:
     Exploring new territory → suppress compiled → be foolish → OPEN.
-    Executing known task → USE compiled → be EXPERT → EFFICIENT.
-    Cả 2 phases CẦN — switch is key, not permanent state.
-    = "Foolish" 100% of time = can't get anything done.
+    Executing a known task → USE compiled → be EXPERT → EFFICIENT.
+    Both phases NEEDED — switching is key, not permanent state.
+    = "Foolish" 100% of the time = can't get anything done.
 
-  ④ DOMAIN FEEDBACK = ARBITER DUY NHẤT:
-    "Hungry" hướng ĐÚNG hay SAI → chỉ domain biết.
-    "Foolish" mở ĐÚNG hay MÊ → chỉ domain biết.
-    Framework: KHÔNG prescribe content. CHỈ prescribe:
-    check domain feedback, điều chỉnh, check lại.
+  ④ DOMAIN FEEDBACK = THE ONLY ARBITER:
+    "Hungry" in the RIGHT or WRONG direction → only domain knows.
+    "Foolish" opening the RIGHT or WRONG doors → only domain knows.
+    Framework: does NOT prescribe content. ONLY prescribes:
+    check domain feedback, adjust, check again.
 
   ⑤ PFC BUDGET MANAGEMENT:
-    "Foolish" = HIGH PFC cost → KHÔNG sustainable 24/7.
-    Cần OSCILLATE: foolish (explore) → compile genuine → foolish lại.
+    "Foolish" = HIGH PFC cost → NOT sustainable 24/7.
+    Need to OSCILLATE: foolish (explore) → compile genuine → foolish again.
     Sleep = PFC budget RESET (PFC-Operations §9 + Learning-Cycle).
-    Chronic mất ngủ → PFC budget KHÔNG recover → CAN'T be foolish.
+    Chronic sleep deprivation → PFC budget DOESN'T recover → CAN'T be foolish.
 
   ⑥ PER-PERSON CALIBRATION (Novelty §5 — DRD4):
-    DRD4 7R+: threshold CAO → deep focus → "hungry" = deep, narrow.
-    DRD4 4R: threshold THẤP → broad awareness → "hungry" = broad, varied.
-    Mỗi người "hungry" và "foolish" KHÁC NHAU.
-    KHÔNG CÓ 1 cách "stay hungry, stay foolish" universal.
+    DRD4 7R+: HIGH threshold → deep focus → "hungry" = deep, narrow.
+    DRD4 4R: LOW threshold → broad awareness → "hungry" = broad, varied.
+    Each person is "hungry" and "foolish" DIFFERENTLY.
+    There is NO 1 universal way to "stay hungry, stay foolish."
 ```
 
 ---
@@ -555,37 +563,37 @@ KHÁC BIỆT VỚI FILE TRƯỚC (Work-Goal-And-Why):
 ## §7 — HONEST ASSESSMENT
 
 ```
-⭐ FRAMEWORK GIẢI THÍCH ĐƯỢC GÌ:
+⭐ WHAT THE FRAMEWORK EXPLAINS:
 
-  ✅ TẠI SAO "hungry" works (Generative satiation → perpetual drive)
-  ✅ TẠI SAO "foolish" works (Resist Background-Pattern Triple Bias → keep gaps open)
-  ✅ TẠI SAO CẢ HAI cùng lúc (Engine + Road — synergy)
-  ✅ TẠI SAO death context amplify (Anchor-Schema disruption → filter)
-  ✅ KHI NÀO nó FAIL (6 failure modes — loop, escalation, workaholic,
+  ✅ WHY "hungry" works (Generative satiation → perpetual drive)
+  ✅ WHY "foolish" works (Resist Background-Pattern Triple Bias → keep gaps open)
+  ✅ WHY BOTH at the same time (Engine + Road — synergy)
+  ✅ WHY the death context amplifies it (Anchor-Schema disruption → filter)
+  ✅ WHEN it FAILS (6 failure modes — loop, escalation, workaholic,
      incompetent, ignore feedback, Dunning-Kruger)
-  ✅ CÁCH calibrate (6 principles — generative test, expertise prerequisite,
+  ✅ HOW to calibrate (6 principles — generative test, expertise prerequisite,
      explore/execute toggle, domain arbiter, PFC budget, per-person)
-  ✅ TẠI SAO "foolish" KHÓ (PFC double cost)
-  ✅ TẠI SAO expert CẦN "foolish" HƠN beginner (Background-Pattern Triple Bias stronger)
+  ✅ WHY "foolish" is HARD (PFC double cost)
+  ✅ WHY expert NEEDS "foolish" MORE than beginner (Background-Pattern Triple Bias stronger)
 
   ⚠️ CAVEATS:
 
   🟡 "Generative satiation" = framework synthesis.
-     Consistent với self-expansion theory (Aron 1996)
-     nhưng 3-way satiation split chưa có specific study.
+     Consistent with self-expansion theory (Aron 1996)
+     but the 3-way satiation split has no specific study yet.
 
   🟡 Background-Pattern Triple Bias = framework synthesis (Self-Pattern-Modeling v3.1 §9).
-     Confirmation bias, projection bias = established riêng lẻ.
-     3-cơ-chế-đồng-thời model = framework integration.
+     Confirmation bias, projection bias = each established separately.
+     3-mechanisms-simultaneously model = framework integration.
 
   🟡 "Foolish = PFC double cost" = framework prediction.
      Consistent with cognitive inhibition research (Miyake 2000)
-     nhưng specific "double cost for expert beginner's mind" chưa measured.
+     but the specific "double cost for expert beginner's mind" has not been measured.
 
   🔴 "Death clarifies via cortisol direction tag concentration"
      = framework hypothesis. Terror Management Theory confirmed
-     death awareness → behavior change, nhưng specific mechanism
-     (cortisol tag filter) chưa có direct evidence.
+     death awareness → behavior change, but the specific mechanism
+     (cortisol tag filter) has no direct evidence yet.
 
   🟢 ESTABLISHED:
      VTA habituation + prediction-delta (Schultz 1997)
@@ -604,9 +612,9 @@ KHÁC BIỆT VỚI FILE TRƯỚC (Work-Goal-And-Why):
   Framework: Generative Satiation + Background-Pattern Triple Bias Resistance
     + PFC Double Cost + Genesis Principle Inversion
     = WHY it works + WHEN it fails + WHY it's hard + HOW to calibrate.
-  = THÊM predictive power: predict 6 failure modes mà quote không mention.
-  = ADD explanation: WHY expert NEEDS foolish MORE than beginner.
-  = ADD cost analysis: WHY foolish is EXPENSIVE (PFC budget).
+  = ADDS predictive power: predicts 6 failure modes the quote doesn't mention.
+  = ADDS explanation: WHY expert NEEDS foolish MORE than beginner.
+  = ADDS cost analysis: WHY foolish is EXPENSIVE (PFC budget).
 ```
 
 ---
@@ -616,7 +624,7 @@ KHÁC BIỆT VỚI FILE TRƯỚC (Work-Goal-And-Why):
 ```
 GAP DYNAMICS:
   Gap-Body-Need.md v1.0 — §2.4 Generative, §3 Transitions, §9 ENGINE/ROAD/VEHICLE
-  Gap-Direction.md v2.0 — §3 "Chưa biết = không có gap", §1 Definition
+  Gap-Direction.md v2.0 — §3 "No knowledge = no gap", §1 Definition
   Body-Feedback-Mechanism.md v2.0 — §3 Chunk-Gap, §4 Compound dynamics
 
 BIAS RESISTANCE:
@@ -625,12 +633,12 @@ BIAS RESISTANCE:
   Self-Pattern-Modeling.md v3.1 — §9 Triple Bias source
 
 NOVELTY:
-  Novelty.md v1.2 — §1 VTA mechanism, §1.4 Combinatorial space, §3 3 phanh, §4 Loop, §5 DRD4
-  Boredom.md v2.0 — §0 6 sources 3 types, Loại 3 trống = meaning gateway
+  Novelty.md v1.2 — §1 VTA mechanism, §1.4 Combinatorial space, §3 3 brakes, §4 Loop, §5 DRD4
+  Boredom.md v2.0 — §0 6 sources 3 types, Type 3 empty = meaning gateway
 
 ANCHOR + MEANING:
   Anchor-Schema.md v1.2 — §2 Trust (strength ≥ cost), disruption dynamics
-  Meaning.md v2.2 — §2.3 Anchor DISRUPTED, §3 5 types anchor
+  Meaning.md v2.2 — §2.3 Anchor DISRUPTED, §3 5 anchor types
   Imagine-Final.md v3.0 — §6 Gradient, constructive simulation
 
 OTHER:

@@ -2,17 +2,17 @@
 title: 00 — External Mechanism — How External World Installs Chunks
 created: 2026-04-17 (N+6 session)
 status: COMPLETE v1.0
-scope: F3 — External-shared chunk formation mechanism (thu gọn post-N+5 pivot)
+scope: F3 — External-shared chunk formation mechanism (consolidated post-N+5 pivot)
 purpose: |
   Core F3 file: formalize HOW external sources install chunks into individual.
-  Thu gọn từ original 14-file plan sau N+5 pivot:
-  Logic side đóng gói (Logic-Planning.md) → Language deep drill không cần.
-  File này cover MECHANISM cần và đủ.
+  Consolidated from original 14-file plan after N+5 pivot:
+  Logic side packaged (Logic-Planning.md) → Language deep drill not needed.
+  This file covers MECHANISM as needed and sufficient.
 parent: plan.md (F3 stub)
 grandparent: ../plan.md (master)
 dependencies:
   - F1 Child-Chunk-Development (substrate — COMPLETE, 12/12 files)
-  - Logic-Planning.md (Logic side đóng gói — COMPLETE)
+  - Logic-Planning.md (Logic side packaged — COMPLETE)
   - Neural-Processing-Flow.md (hardware foundation — COMPLETE)
 f1_input_assumptions:
   - Pre-verbal substrate exists (F1 NT6 + 10 §2)
@@ -22,30 +22,35 @@ f1_input_assumptions:
   - Moderate Whorfian: language shapes handles, not substrate (F1 08 §5.6)
   - PFC-Inference Ladder: 5 levels (F1 10 §4)
 test_hypotheses: H3, H4, H7, H12 (verdicts in 01-External-Synthesis.md)
-language: Tiếng Việt primary + English technical
+language: English
 ---
 
 # 00 — External Mechanism — How External World Installs Chunks
 
-> **Câu hỏi cốt lõi**: Khi một người NHẬN ĐƯỢC chunk từ bên ngoài (từ người khác, từ sách, từ văn hóa, từ giáo dục) — cơ chế VẬT LÝ nào xảy ra?
+> **Core question**: When a person RECEIVES a chunk from outside (from another person,
+> from a book, from culture, from education) — what PHYSICAL mechanism occurs?
 >
-> **N+5 pivot context**: Session N+5 xác nhận "Logic side = AI-assisted → đóng gói." Language structure, grammar, planning đã cover trong Logic-Planning.md + 5 files Language-Structure-Analysis/. F3 thu gọn → focus vào MECHANISM of installation, không drill sâu language format.
+> **N+5 pivot context**: Session N+5 confirmed "Logic side = AI-assisted → packaged."
+> Language structure, grammar, planning already covered in Logic-Planning.md + 5 files
+> Language-Structure-Analysis/. F3 consolidated → focus on MECHANISM of installation,
+> not deep-drilling language format.
 >
-> **F1 assumptions (không re-derive)**: Pre-verbal substrate ✅, multi-modal binding ✅, verbal-as-handle ✅, H11 asymmetry ✅, moderate Whorfian ✅.
+> **F1 assumptions (not re-derived)**: Pre-verbal substrate ✅, multi-modal binding ✅,
+> verbal-as-handle ✅, H11 asymmetry ✅, moderate Whorfian ✅.
 
 ---
 
-## MỤC LỤC
+## TABLE OF CONTENTS
 
 - §1 — 5 External Install Mechanisms
 - §2 — Infant Social External (cross-ref F1)
 - §3 — Non-Verbal External Anchors
 - §4 — Language as Dominant External Anchor
-- §5 — Cultural Transmission: Chunks Across Generations
-- §6 — Abstract + Metaphysical via External Labels (Thread 1, H4)
-- §7 — External Valence Transmission (Thread 11, H7)
-- §8 — Education = Batch Direction B Installation
-- §9 — Cognition Upgrade via External (Thread 9 external component)
+- §5 — Abstract + Metaphysical via External Labels (Thread 1, H4)
+- §6 — External Valence Transmission (Thread 11, H7)
+- §7 — Education = Batch Direction B Installation
+- §8 — Cognition Upgrade via External (Thread 9 external component)
+- §9 — F3 ↔ F4 Boundary Explicit
 - §10 — Honest Assessment
 - §11 — Cross-references
 
@@ -74,7 +79,7 @@ SAME MECHANISM AT ANY AGE:
 
 ```
 DEFINITION:
-  2+ người CÙNG CHÚ Ý vào 1 object/event CÙNG LÚC
+  2+ people ATTEND TO the SAME object/event SIMULTANEOUSLY
   → Shared reference point → chunk installs in BOTH minds
 
 MECHANISM (neural):
@@ -83,7 +88,7 @@ MECHANISM (neural):
   ③ ADDITIONALLY: A perceives B looking at X (social: gaze direction detection)
      → STS (superior temporal sulcus) tracks gaze direction  🟢 Pelphrey 2005
   ④ A's brain: object X + B's attention toward X = CONVERGENCE
-     → "Chúng ta đang nhìn CÙNG THỨ" = shared reference chunk compiles
+     → "We are looking at the SAME THING" = shared reference chunk compiles
   ⑤ A and B now hold OVERLAPPING chunks about X
      → NOT identical (each processes through own chunk library)
      → But OVERLAPPING enough for communication about X
@@ -96,7 +101,7 @@ DEVELOPMENTAL TIMELINE:
                  = First reliable external chunk install via shared attention
   ~12-18 months: proto-declarative pointing (baby DIRECTS adult attention)
                  = Baby actively CREATES co-attention episodes
-  Adult:         "nhìn kìa!" = same mechanism, instant, automatic
+  Adult:         "Look at that!" = same mechanism, instant, automatic
 
 🟢 Tomasello 1995, 2003 — joint attention as foundation of cultural learning
 🟢 Mundy & Newell 2007 — joint attention development review
@@ -107,7 +112,7 @@ DEVELOPMENTAL TIMELINE:
   → No language needed — just shared perception
   → = Proto-foundation of ALL cultural transmission
   → Group anchor (Logic-Planning §2.2) BEGINS here:
-    "Cùng nhìn → cùng biết → cùng nói về nó" = shared chunk
+    "Look together → know together → talk about it" = shared chunk
 ```
 
 ### §1.2 — Mechanism 2: Imitation / Motor Mirror
@@ -126,7 +131,7 @@ MECHANISM (neural):
      → Chunk compiles FASTER than observation alone (more modalities)
   ④ If observer only watches:
      → Motor chunk compiles PARTIALLY (weaker, visual + partial motor only)
-     → = "Xem YouTube nấu ăn ≠ nấu ăn" (observation < practice)
+     → = "Watching YouTube cooking ≠ cooking" (observation < practice)
 
 DEVELOPMENTAL TIMELINE:
   Neonatal:      facial imitation (Meltzoff & Moore 1977 — debated, recent challenges)
@@ -144,7 +149,7 @@ DEVELOPMENTAL TIMELINE:
 LINK TO F1 + FEELING:
   → F1 05-Motor-Output-Arc: motor chunk compile via own execution (bottom-up)
   → F3 Imitation: motor chunk compile via OBSERVATION (external input)
-  → CÙNG compile mechanism (multi-modal), KHÁC input source
+  → SAME compile mechanism (multi-modal), DIFFERENT input source
   → = F3 extends F1 motor arc into social domain
   → Imitation = WHY apprenticeship works (watch master → partial compile → practice → full compile)
 ```
@@ -170,8 +175,8 @@ MECHANISM (neural):
 DEVELOPMENTAL TIMELINE:
   ~10-12 months: reliable social referencing (Sorce et al. 1985 visual cliff)
   ~12-18 months: referencing extends to novel objects, strangers, situations
-  ~2-3 years:    verbal social referencing ("đừng chạm vào, nóng đấy!")
-  Adult:         "Mọi người nói restaurant đó dở" → valence install WITHOUT trying
+  ~2-3 years:    verbal social referencing ("don't touch, it's hot!")
+  Adult:         "Everyone says that restaurant is bad" → valence install WITHOUT trying
 
 🟢 Sorce et al. 1985 — visual cliff social referencing
 🟢 Feinman 1992 — social referencing review
@@ -179,9 +184,9 @@ DEVELOPMENTAL TIMELINE:
 ⭐ CRITICAL IMPLICATION FOR FRAMEWORK:
   → Social referencing = mechanism for EXTERNAL VALENCE TRANSMISSION (H7 support)
   → Valence CAN BE INSTALLED WITHOUT OWN EXPERIENCE
-  → = Phần lớn "sợ" và "thích" ở adult = SOCIALLY TRANSMITTED, not personally experienced
-  → = "Sợ rắn" nhưng chưa bao giờ gặp rắn = social referencing from childhood
-  → = Prejudice: "người X nguy hiểm" = social referencing valence install
+  → = Most "fear" and "liking" in adults = SOCIALLY TRANSMITTED, not personally experienced
+  → = Fear of snakes without ever encountering a snake = social referencing from childhood
+  → = Prejudice: "people from X are dangerous" = social referencing valence install
 
   → NT7 connection: caregiver's emotional response DURING social referencing
     is a compile-context factor. Caregiver overreacting (Level 3-4) installs
@@ -203,13 +208,13 @@ DEFINITION:
   → Chunk becomes retrievable, chainable, communicable
 
 MECHANISM (neural):
-  ① External source produces label: "đây là CON CHÓ" (verbal)
-  ② Baby perceives: auditory pattern (phonemes → word pattern "con chó")
+  ① External source produces label: "this is a DOG" (verbal)
+  ② Baby perceives: auditory pattern (phonemes → word pattern)
   ③ SIMULTANEOUSLY: baby perceives object (visual: furry, 4 legs, barking)
   ④ MULTI-MODAL BINDING: auditory label pattern + visual object pattern
      → 4 concurrent binding mechanisms fire (F1 NT3)
      → Label-object link COMPILES as chunk
-  ⑤ After sufficient repetition: hear "con chó" alone → visual cortex fires
+  ⑤ After sufficient repetition: hear "dog" alone → visual cortex fires
      → Label = RETRIEVAL PATH to chunk (F1 NT6 verdict)
 
   = Direction B (Logic-Planning.md §7.4):
@@ -222,7 +227,7 @@ DEVELOPMENTAL TIMELINE:
   ~18-24 months: vocabulary spurt (~50 words → rapid acceleration)
   Adult:         read new term → understand → use = Direction B pipeline
 
-VERBAL AS HANDLE (F1 NT6 recap — không re-derive):
+VERBAL AS HANDLE (F1 NT6 recap — not re-derived):
   → Label ≠ chunk content. Label = HANDLE for retrieval + compression
   → Removing label ≠ removing chunk. Chunk persists, just harder to retrieve
   → 5 handle systems exist: verbal, gestural, visual, olfactory, contextual
@@ -290,7 +295,7 @@ RATCHET EFFECT:
   → Cultural library: millions of books, thousands of years
   → Individual ACCESSES cultural library via Direction B (label install)
   → AI ERA: AI = instant access to ENTIRE cultural library
-  → = "AI hỗ trợ Logic cực mạnh" (Logic-Planning.md §6)
+  → = "AI massively amplifies Logic" (Logic-Planning.md §6)
 ```
 
 ### §1.6 — 5 Mechanisms Summary
@@ -315,7 +320,7 @@ RATCHET EFFECT:
   → Cultural transmission COMPOUNDS across generations (ratchet effect)
   → 5 mechanisms are NOT mutually exclusive — typically work TOGETHER:
     Co-attention + label + social referencing = typical learning episode
-    "Mẹ chỉ con chó (co-attention) + nói 'con chó' (label) + mỉm cười (social ref: safe)"
+    "Mom points to dog (co-attention) + says 'dog' (label) + smiles (social ref: safe)"
     = 3 mechanisms fire SIMULTANEOUSLY → deep multi-modal compile
 ```
 
@@ -327,7 +332,7 @@ RATCHET EFFECT:
 F1 ALREADY DRILLED infant social arcs extensively:
   → 07-Social-Recognition-Arc.md: 19 events, E12 social smile keystone
   → 08-Verbal-Production-Arc.md: 12 events, verbal emergence arc
-  → F3 KHÔNG re-drill. Chỉ MAP F1 events lên 5 external mechanisms.
+  → F3 does NOT re-drill. Only MAPS F1 events to 5 external mechanisms.
 
 MAPPING F1 EVENTS → EXTERNAL MECHANISMS:
 
@@ -407,20 +412,20 @@ MODERN RITUAL DECLINE:
 SHARED SENSORY = 2+ people experience SAME sensory event → shared chunks
 
 Examples:
-  • Sấm: cả nhóm nghe → shared chunk "tiếng sấm hôm đó"
-  • Hoàng hôn: cùng nhìn → shared chunk "cảnh đẹp hôm đó"
-  • Mùi: vào quán phở → shared olfactory chunk (mùi phở = Group anchor)
-  • Tai nạn: cùng chứng kiến → shared emotional chunk (flashbulb)
-  • Concert: cùng nghe → shared auditory-social-emotional chunk
+  • Thunder: whole group hears → shared chunk "that thunder we heard"
+  • Sunset: looked together → shared chunk "that beautiful view"
+  • Smell: entering a pho restaurant → shared olfactory chunk (pho smell = Group anchor)
+  • Accident: witnessed together → shared emotional chunk (flashbulb)
+  • Concert: listened together → shared auditory-social-emotional chunk
 
 Mechanism: Co-attention (§1.1) + multi-modal binding (F1 NT3)
   → No language needed initially
-  → Language LATER: "nhớ hôm đó không?" = verbal retrieval of shared chunk
+  → Language LATER: "Remember that day?" = verbal retrieval of shared chunk
   → = Group anchor formation (Logic-Planning §2.2)
 
 ⭐ SHARED SENSORY IS THE OLDEST EXTERNAL MECHANISM:
   → Before language, before ritual: just BEING TOGETHER + experiencing SAME event
-  → "Hai người cùng thấy hổ → chỉ tay → chạy" (Logic-Planning §2.2)
+  → "Two people see a tiger → point → run" (Logic-Planning §2.2)
   → Modern: watching movie together, attending concert, road trip
   → = Foundation of GROUP BONDING (shared chunks = connection substrate)
 ```
@@ -441,9 +446,9 @@ IMAGE: visual artifact as external chunk anchor
   → Map: spatial relationship encoding → install spatial chunks
 
 ARTIFACT (TOOL, OBJECT):
-  → Object AS anchor: "cái ly đó" = object triggers memory chunk
+  → Object AS anchor: "that cup" = object triggers memory chunk
   → Tool AS extended mind: paper extends WM (Clark & Chalmers 1998)
-  → Sacred object: "thánh giá" = object triggers religious chunk cluster
+  → Sacred object: cross = object triggers religious chunk cluster
   → = Objects participate in external chunk install by BEING the anchor
 ```
 
@@ -452,7 +457,7 @@ ARTIFACT (TOOL, OBJECT):
 ## §4 — Language as Dominant External Anchor (brief — cross-ref Logic-Planning)
 
 ```
-⭐ LANGUAGE DOMINANCE ALREADY ĐÓNG GÓI IN LOGIC-PLANNING.MD:
+⭐ LANGUAGE DOMINANCE ALREADY PACKAGED IN LOGIC-PLANNING.MD:
 
 Logic-Planning.md covers:
   → §2: 3-tier anchor system (Individual / Group / Global)
@@ -473,7 +478,7 @@ F3 ADDS (not already covered):
   → 5-mechanism taxonomy: language uses mechanism 4 primarily
   → Language dominance EXPLAINED via mechanism properties:
     
-    Tại sao language dominant cho general-purpose cognition?
+    Why is language dominant for general-purpose cognition?
     ① SPEED: verbal label generates in ~200ms (Broca + motor)
     ② CAPACITY: vocabulary = thousands of labels (vast retrieval network)
     ③ SHAREABILITY: everyone trained in same language can decode
@@ -502,25 +507,25 @@ F3 ADDS (not already covered):
 
 ```
 QUESTION (from user):
-  Siêu hình = "imagine phức tạp, chưa nhìn thấy bao giờ, chủ yếu visual"
-  Trừu tượng = "imagine phức tạp, chưa cảm nhận, chủ yếu somatic/mix phức tạp"
+  Metaphysical = "complex imagination, never seen before, primarily visual"
+  Abstract = "complex imagination, never directly sensed, primarily somatic/complex mix"
 
 F3 PERSPECTIVE: HOW external labels ENABLE abstract/metaphysical chunks:
 
-ABSTRACT CONCEPTS (công bằng, tự do, entropy):
-  ① No direct sensory referent (cannot point at "công bằng")
+ABSTRACT CONCEPTS (fairness, freedom, entropy):
+  ① No direct sensory referent (cannot point at "fairness")
   ② Formed via: multiple concrete examples + extracted PATTERN
      → See fair distribution 1, 2, 3... → extract common pattern → "fairness" chunk
-  ③ Label install (Direction B): learn word "công bằng" → attach to extracted pattern
+  ③ Label install (Direction B): learn word "fairness" → attach to extracted pattern
   ④ Without label: pattern exists but hard to retrieve/chain
   ⑤ With label: pattern retrievable, chainable, communicable
   → = Abstract chunks BUILD ON concrete chunks + label enables manipulation
 
-METAPHYSICAL CONCEPTS (linh hồn, thiên đường, karma):
+METAPHYSICAL CONCEPTS (soul, heaven, karma):
   ① No direct sensory referent AND no extractable pattern from experience
   ② Formed via: CULTURAL TRANSMISSION (mechanism 5) + IMAGINATION (PFC top-down)
-     → Community TELLS you "linh hồn tồn tại" → label install
-     → PFC simulates: "imagine linh hồn" → visual-heavy top-down activation
+     → Community TELLS you "souls exist" → label install
+     → PFC simulates: "imagine a soul" → visual-heavy top-down activation
      → Chunk compiles from: cultural label + PFC simulation + emotional charge
   ③ Depth: ritual (mechanism 3) adds multi-modal depth
      → Religious ceremony: visual + auditory + social + motor + emotional
@@ -545,7 +550,7 @@ H4 SKETCH (formal verdict in 01-External-Synthesis.md):
 
 ```
 QUESTION (from user):
-  "Một chunk có thể tích cực ở schema này nhưng tiêu cực ở schema khác"
+  "A chunk can be positive in one schema but negative in another"
 
 F3 PERSPECTIVE: HOW external world INSTALLS valence on chunks:
 
@@ -557,10 +562,10 @@ F3 PERSPECTIVE: HOW external world INSTALLS valence on chunks:
      → = Most primitive external valence install
 
   ② VERBAL VALENCE LABELS:
-     → "Chó nguy hiểm" = verbal label TELLS you valence (without experience)
-     → "Pizza ngon lắm" = verbal label installs positive expectation
+     → "Dogs are dangerous" = verbal label TELLS you valence (without experience)
+     → "Pizza is delicious" = verbal label installs positive expectation
      → = Language carries VALENCE INFORMATION inside labels
-     → Classifiers encode valence: "thằng X" (negative) vs "anh X" (neutral/positive)
+     → Classifiers encode valence: "thằng X" (pejorative) vs "anh X" (neutral/respectful)
        (Vietnamese classifier system — 01-Natural-Language-Architecture.md §2)
 
   ③ CULTURAL NORM VALENCE:
@@ -578,9 +583,9 @@ F3 PERSPECTIVE: HOW external world INSTALLS valence on chunks:
 H7 SKETCH (formal verdict in 01-External-Synthesis.md):
   → Valence = chunk × schema interaction
   → SAME chunk CAN HAVE different valence in different schema contexts:
-    "Dao" in cooking schema → positive (useful tool)
-    "Dao" in threat schema → negative (weapon)
-    "Dao" in surgery schema → positive (saving life)
+    "Knife" in cooking schema → positive (useful tool)
+    "Knife" in threat schema → negative (weapon)
+    "Knife" in surgery schema → positive (saving life)
   → External world provides INITIAL valence tag (via 4 sources above)
   → But schema context MODULATES valence at retrieval time
   → H7 = valence not chunk-intrinsic → 🟡 SUPPORTED
@@ -624,14 +629,14 @@ WHY EDUCATION SOMETIMES FAILS:
      → Student doesn't FEEL why this knowledge matters → no PFC engagement
      → FIX: connect to student's existing Imagine-Final (relevance)
   → ④ Mismatch with existing chunks = confusion (not error)
-     → New label conflicts with existing chunk → ACC conflict → "sai sai"
+     → New label conflicts with existing chunk → ACC conflict → "something off"
      → FIX: explicit reframe (acknowledge old chunk, install new one)
 
 AI ERA EDUCATION:
   → AI = 24/7 Direction B installer (explain, demonstrate, assess)
   → AI CANNOT provide: Direction A experience (feel-first, body-based)
   → Optimal: AI handles Direction B (install labels) + human provides Direction A (feel)
-  → = "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng" applied to education
+  → = "Human needs to FEEL right → AI helps PLAN right" applied to education
 ```
 
 ---
@@ -766,9 +771,9 @@ F3 EXTERNAL UPGRADE MECHANISM:
 | [08-Verbal-Production-Arc.md](Child-Chunk-Development/08-Verbal-Production-Arc.md) | NT6 verbal-as-handle + H11 | §5, §6 |
 | [10-F1-Synthesis.md](Child-Chunk-Development/10-F1-Synthesis.md) | Output contracts for F3 | §6.1 |
 
-### §11.2 — Logic-Planning + Language-Structure-Analysis (companion — đóng gói)
+### §11.2 — Logic-Planning + Language-Structure-Analysis (companion — packaged)
 
-| File | Content | Đóng gói status |
+| File | Content | Status |
 |---|---|---|
 | [Logic-Planning.md](../Logic-Planning.md) | 3-tier anchor + 5 formats + AI-assisted | ✅ COMPLETE |
 | [Language-Structure-Analysis/](Language-Structure-Analysis/) | 5 files, 4,266L total | ✅ REFERENCE |
@@ -814,10 +819,15 @@ F3 EXTERNAL UPGRADE MECHANISM:
 
 > **00-External-Mechanism.md — End of file.**
 >
-> F3 core file: 5 external install mechanisms formalized. Infant social, non-verbal, language, cultural transmission, education, abstract/metaphysical, valence transmission covered cần và đủ. Boundary with F4 explicit.
+> F3 core file: 5 external install mechanisms formalized. Infant social, non-verbal
+> (ritual, gesture, image), language, cultural transmission, education,
+> abstract/metaphysical, valence transmission — covered as needed and sufficient.
+> Boundary with F4 explicit.
 >
-> Related: 02-Cross-Network-Transfer.md — STRATEGY LAYER: HOW to optimize transfer khi sender ≠ receiver chunk landscape. Extends §7 Education (batch Direction B) với analogy mechanism, mini-gap chain, audience detection.
+> Related: 02-Cross-Network-Transfer.md — STRATEGY LAYER: HOW to optimize transfer
+> when sender ≠ receiver chunk landscape. Extends §7 Education (batch Direction B)
+> with analogy mechanism, mini-gap chain, audience detection.
 >
 > Next: 01-External-Synthesis.md (formal verdicts + output contracts).
 >
-> Phiên bản: v1.0, 2026-04-17.
+> Version: v1.0, 2026-04-17.

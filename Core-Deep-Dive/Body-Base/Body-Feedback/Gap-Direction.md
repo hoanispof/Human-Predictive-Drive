@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gap Direction — Body-Feedback Requires Directional Match
 version: 2.0
 created: 2026-04-27
@@ -6,102 +6,102 @@ rewritten: 2026-05-17 (v2.0 — FULL REWRITE: +By-product match connection, +2-S
 previous: v1.1 → backup/Gap-Direction-v1.1-backup.md
 status: v2.0 COMPLETE
 scope: |
-  CORE MECHANISM FILE: Gap trong chunk network có HƯỚNG CỤ THỂ.
+  CORE MECHANISM FILE: Gaps in the chunk network have a SPECIFIC DIRECTION.
   Gap direction = f(surrounding chunk network structure).
-  Reward/dissonance KHÔNG chỉ phụ thuộc prediction error (Schultz 1997)
-  mà còn phụ thuộc DIRECTION MATCH — stimulus phải khớp HƯỚNG cụ thể.
-  "Chưa biết = không có gap" = foundational principle.
-  Unified model: Tier 1-4 chunks cùng substrate, khác depth/origin.
+  Reward/dissonance does NOT depend only on prediction error (Schultz 1997)
+  but also on DIRECTION MATCH — a stimulus must match the SPECIFIC DIRECTION.
+  "What you don't know creates no gap" = foundational principle.
+  Unified model: Tier 1-4 chunks share the same substrate, differing in depth/origin.
   2-layer model: signal mechanism (Layer 1) × direction content (Layer 2).
   v2.0: Gap direction = WHY by-product match works (Inter-Body connection).
   v2.0: 2-Stream × gap direction. Compilable Architecture × gap direction.
   v2.0: Compiled/Fresh evaluation processing.
 purpose: |
-  Body-Feedback-Mechanism.md §3.3 define Chunk-Gap:
-    "Structure predict C should exist → C chưa compile → HOLE"
-  Nhưng §3.3 CHƯA formalize: C có HÌNH DẠNG CỤ THỂ.
-  File này formalize:
-  ① Gap direction = consequence tất yếu của "gap = hole in chunk network"
-  ② "Chưa biết = không có gap" = genesis principle (khác Precondition-2 Chunk-Substrate diagnosis)
-  ③ Reward = direction match quality (không chỉ "fill gap or not")
-  ④ 2-layer model clarify tại sao Schultz 1997 "đúng nhưng chưa đủ"
-  ⑤ Gap direction install, Background-Pattern constraint, implications
+  Body-Feedback-Mechanism.md §3.3 defines Chunk-Gap:
+    "Structure predicts C should exist → C not yet compiled → HOLE"
+  But §3.3 has NOT yet formalized: C has a SPECIFIC SHAPE.
+  This file formalizes:
+  ① Gap direction = inevitable consequence of "gap = hole in chunk network"
+  ② "What you don't know creates no gap" = genesis principle (distinct from Precondition-2 Chunk-Substrate diagnosis)
+  ③ Reward = direction match quality (not just "fill gap or not")
+  ④ 2-layer model clarifies why Schultz 1997 is "correct but incomplete"
+  ⑤ Gap direction installation, Background-Pattern constraints, implications
   ⑥ v2.0: Gap direction = THE MECHANISM underneath by-product match
-     (Inter-Body-Mechanism.md §5.4 — B's output match A's gap DIRECTION)
+     (Inter-Body-Mechanism.md §5.4 — B's output matches A's gap DIRECTION)
 position: |
-  Core-Deep-Dive/Body-Base/Body-Feedback/ — ngang hàng Body-Feedback-Mechanism.md.
+  Core-Deep-Dive/Body-Base/Body-Feedback/ — parallel to Body-Feedback-Mechanism.md.
   Body-Feedback-Mechanism.md = WHAT gap is (chunk dynamics mechanism)
-  Gap-Direction.md (FILE NÀY) = WHY gap has direction + evaluation implications
+  Gap-Direction.md (THIS FILE) = WHY gap has direction + evaluation implications
   03-Reward.md = WHEN reward fires (Body-Feedback-Preconditions + case analyses)
-  BỔ SUNG nhau — KHÔNG THAY THẾ.
+  These COMPLEMENT each other — they do NOT replace one another.
 dependencies:
   - Body-Feedback-Mechanism.md v2.0 — §3.3 Chunk-Gap definition, Shift/Miss/Gap, §1 Body-Need aggregate
   - Body-Feedback.md v2.0 — 5 Body-Feedback-Preconditions, dual-pull
   - Body-Feedback-Label.md v2.0 — vocabulary consistency, §2 Foundation terms
   - Inter-Body-Mechanism.md v1.0 — §2 Body-Need direction, §5 by-product match, §5.3 Full Chain
   - By-Product-Gap-Resonance.md v1.0 — §2 2-Stream Architecture, §1.5 by-product match
-  - 03-Reward.md — Ô Tô Paradox C2.1-C2.5, Van Gogh gradient, Body-Feedback-Precondition cases
+  - 03-Reward.md — Car Paradox C2.1-C2.5, Van Gogh gradient, Body-Feedback-Precondition cases
   - Chunk.md v2.0 — chunk substrate, compile, activation dynamics
-  - Background-Pattern.md v1.0 — Background-Pattern bias gap direction landscape
+  - Background-Pattern.md v1.0 — Background-Pattern biases gap direction landscape
   - Novelty.md v1.0 — Chunk-Gap = novelty foundation
   - Schema.md v2.0 — observation parameter, §4 depth, §8 body baseline
   - Cortisol-Baseline.md v2.0 — amplifier, direction tag, novelty vs threat
   - Imagine-Final.md — preview mechanism, Gap→Miss transition
   - Connection.md v3.3 — giving reward, Self-Pattern-Modeling-mediated, altruism
-  - Gratitude.md v1.0 — Body-Feedback-Precondition applied to gifts, gap pre-requisite
+  - Gratitude.md v1.0 — Body-Feedback-Precondition applied to gifts, gap prerequisite
   - Self-Pattern-Modeling v3.0 — Compiled/Fresh processing (Modeling-Stream mechanism)
   - Body-Base.md v3.1 — Compilable Architecture (3 foundations)
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # Gap Direction — Body-Feedback Requires Directional Match
 
-> **Bố mua cho xe thời thượng nhất giới trẻ → intensely pleasant.**
-> **Bố mua cho tên lửa (đắt hơn gấp ngàn lần) → confused.**
-> **Bố mua cho xe cổ (đắt hơn, bố thích) → không thích.**
+> **Father buys the trendiest car among young people → intensely pleasant.**
+> **Father buys a rocket (a thousand times more expensive) → confused.**
+> **Father buys a vintage car (more expensive, father loves it) → not pleased.**
 >
-> **Cùng "bố mua cho." Cùng "đắt tiền." Cùng "xe."**
-> **Nhưng reward CHỈ fire khi stimulus KHỚP HƯỚNG CỤ THỂ.**
+> **Same "father bought it." Same "expensive." Same "car."**
+> **But reward ONLY fires when the stimulus matches the SPECIFIC DIRECTION.**
 >
-> **E=mc² trình bày cho Einstein → intensely pleasant.**
-> **E=mc² trình bày cho học sinh → "ồ, hay" nhưng không cảm gì.**
-> **Cùng thông tin. Cùng "objective value." KHÁC reward hoàn toàn.**
+> **E=mc² presented to Einstein → intensely pleasant.**
+> **E=mc² presented to a high school student → "oh, interesting" but no felt response.**
+> **Same information. Same "objective value." COMPLETELY different reward.**
 >
-> **Tại sao?**
+> **Why?**
 >
-> **Vì gap trong chunk network có HƯỚNG.**
-> **Hướng = f(surrounding chunk network structure).**
-> **Không có chunks xung quanh = không có bờ = không có hole = KHÔNG CÓ GAP.**
-> **"Chưa biết = không có gap" = bạn KHÔNG THỂ thiếu thứ bạn không biết tồn tại.**
+> **Because gaps in the chunk network have a DIRECTION.**
+> **Direction = f(surrounding chunk network structure).**
+> **No surrounding chunks = no boundary = no hole = NO GAP.**
+> **"What you don't know creates no gap" = you CANNOT lack something you don't know exists.**
 >
-> **Prediction error (Schultz 1997) = cơ chế DETECT (có gì đó khác).**
-> **Gap direction = NỘI DUNG predict (khác CÁI GÌ cụ thể).**
-> **Cần CẢ HAI để giải thích tại sao reward là PERSONAL.**
+> **Prediction error (Schultz 1997) = the DETECTION mechanism (something is different).**
+> **Gap direction = the CONTENT of what is predicted (different HOW, specifically).**
+> **Both are needed to explain why reward is PERSONAL.**
 >
 > **v2.0: Gap direction = WHY by-product match works.**
-> **B fill gap CỦA B → output → match A's gap DIRECTION → A reward.**
-> **Direction mismatch = output vô dụng DÙ "tốt" theo objective measure.**
+> **B fills B's own gap → output → matches A's gap DIRECTION → A rewarded.**
+> **Direction mismatch = output is useless EVEN IF "good" by objective measure.**
 >
-> **File này: Gap direction LÀ GÌ, TẠI SAO tất yếu,**
-> **"Chưa biết = không có gap" hoạt động THẾ NÀO,**
-> **TẠI SAO đây là chìa khóa hiểu reward mechanism,**
-> **và v2.0: TẠI SAO đây là foundation cho inter-body by-product match.**
+> **This file: WHAT gap direction IS, WHY it is inevitable,**
+> **HOW "what you don't know creates no gap" operates,**
+> **WHY this is the key to understanding the reward mechanism,**
+> **and v2.0: WHY this is the foundation for inter-body by-product match.**
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — TẠI SAO CẦN FORMALIZE GAP DIRECTION
+- §0 — WHY GAP DIRECTION NEEDS TO BE FORMALIZED
 - §1 — DEFINITION
-- §2 — PROOF: TẠI SAO GAP BUỘC PHẢI CÓ HƯỚNG
-- §3 — "CHƯA BIẾT = KHÔNG CÓ GAP" (Foundational Principle)
-- §4 — 4 PROPERTIES CỦA GAP DIRECTION
+- §2 — PROOF: WHY A GAP MUST HAVE DIRECTION
+- §3 — "WHAT YOU DON'T KNOW CREATES NO GAP" (Foundational Principle)
+- §4 — 4 PROPERTIES OF GAP DIRECTION
 - §5 — UNIFIED DIRECTION MODEL (Tier 1-4)
 - §6 — 2-LAYER MODEL: SIGNAL MECHANISM vs DIRECTION CONTENT
 - §7 — GAP DIRECTION FORMATION
 - §8 — GAP DIRECTION × EXTERNAL INSTALL
-- §9 — GAP DIRECTION × BACKGROUND PATTERN
+- §9 — GAP DIRECTION × BACKGROUND-PATTERN
 - §10 — ABSTRACT ACTIVITY × BODY-BASE
 - §11 — EXAMPLES
 - §12 — GAP DIRECTION × INTER-BODY: BY-PRODUCT MATCH + 2-STREAM (★ NEW v2.0)
@@ -112,180 +112,180 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §0 — TẠI SAO CẦN FORMALIZE GAP DIRECTION
+## §0 — WHY GAP DIRECTION NEEDS TO BE FORMALIZED
 
-### §0.1 — Framework hiện tại đã có gì
+### §0.1 — What the existing framework already has
 
 ```
 BODY-FEEDBACK-MECHANISM.MD §3.3 (Chunk-Gap):
 
-  "Structure predict: nếu A và B đúng thì C phải tồn tại"
-  "C CHƯA compile → HOLE trong network"
-  "ACC detect inconsistency → body signal bứt rứt"
+  "Structure predicts: if A and B are correct then C must exist"
+  "C NOT YET compiled → HOLE in the network"
+  "ACC detects inconsistency → body signal of persistent unease"
   
-  → Definition ĐÃ ĐÚNG. Gap = hole where network predicts something.
-  → §3.3 nói "C should exist" — nhưng CHƯA hỏi: C trông như thế nào?
-  → CHƯA formalize: C có HÌNH DẠNG CỤ THỂ determined by A, B, và network
+  → Definition is CORRECT. Gap = hole where network predicts something.
+  → §3.3 says "C should exist" — but has NOT asked: what does C look like?
+  → NOT yet formalized: C has a SPECIFIC SHAPE determined by A, B, and the network
 
 
 5 BODY-FEEDBACK-PRECONDITIONS (Body-Feedback.md §6):
 
   Precondition-1 Directed-Gap (body-need gap open)
-  Precondition-2 Chunk-Substrate (đủ substrate decode)
-  Precondition-3 Delta-Gate (biến động đủ lớn)
+  Precondition-2 Chunk-Substrate (sufficient substrate to decode)
+  Precondition-3 Delta-Gate (deviation large enough)
   Precondition-4 Match-Range (Goldilocks zone — dynamic)
   Precondition-5 Compile-Gate (opioid vs cortisol)
 
-  → Precondition-2 nói "chunks base inadequate → confused" — FAILURE MODE khi nhận stimulus
-  → CHƯA nói: không có chunks = gap KHÔNG THỂ HÌNH THÀNH = desire chưa tồn tại
-  → Precondition-4 nói "Goldilocks zone" — NHƯNG match VỚI CÁI GÌ? 
-    Với gap direction! (implicit, chưa explicit)
+  → Precondition-2 says "chunks base inadequate → confused" — FAILURE MODE when receiving stimulus
+  → NOT yet saying: no chunks = gap CANNOT FORM = desire does not yet exist
+  → Precondition-4 says "Goldilocks zone" — BUT match WITH WHAT?
+    With gap direction! (implicit, not yet explicit)
 
 
-03-REWARD.MD §5.9 (Ô Tô Paradox):
+03-REWARD.MD §5.9 (Car Paradox):
 
   "Reward = personalized function F(object, person's chunks, pending, history)"
   "Reward is NOT intrinsic to object"
 
-  → Kết luận ĐÚNG — nhưng CHƯA giải thích MECHANISM:
-    Tại sao personalized? VÌ mỗi người có gap direction KHÁC.
+  → Conclusion CORRECT — but the MECHANISM is not yet explained:
+    Why personalized? BECAUSE each person has a DIFFERENT gap direction.
 ```
 
-### §0.2 — Cái gì THIẾU
+### §0.2 — What is MISSING
 
 ```
-⭐ FRAMEWORK HIỆN TẠI = ĐÚNG NHƯNG THIẾU 1 CHIỀU:
+⭐ THE EXISTING FRAMEWORK = CORRECT BUT MISSING 1 DIMENSION:
 
-  ĐÃ CÓ (implicit):
+  ALREADY PRESENT (implicit):
     ✅ Gap = hole in network
-    ✅ "Structure predict C" → C phải phù hợp A, B
+    ✅ "Structure predicts C" → C must be compatible with A, B
     ✅ Reward = personalized
     ✅ Goldilocks zone (match range)
 
-  THIẾU (chưa explicit):
-    ❌ Gap có HÌNH DẠNG CỤ THỂ = f(surrounding chunk network)
-    ❌ "Chưa biết = không có gap" = GENESIS principle (trước cả Precondition-1)
-    ❌ Reward = DIRECTION MATCH quality (không chỉ "fill or not fill")
-    ❌ Prediction error = signal, direction = content (2 layers phân biệt)
-    ❌ Tất cả direction = chunk pattern direction (unified Tier 1-4)
-    ❌ Gap direction có thể INSTALL từ bên ngoài (F3 for gaps)
-    ❌ Background-Pattern CONSTRAIN gap direction landscape
+  MISSING (not yet explicit):
+    ❌ Gap has a SPECIFIC SHAPE = f(surrounding chunk network)
+    ❌ "What you don't know creates no gap" = GENESIS principle (precedes even Precondition-1)
+    ❌ Reward = DIRECTION MATCH quality (not just "fill or not fill")
+    ❌ Prediction error = signal, direction = content (2 distinct layers)
+    ❌ All direction = chunk pattern direction (unified Tier 1-4)
+    ❌ Gap direction can be INSTALLED from outside (F3 for gaps)
+    ❌ Background-Pattern CONSTRAINS the gap direction landscape
 
-  v2.0 — THIẾU THÊM 1 TẦNG (chưa có trong v1.0):
+  v2.0 — ADDITIONALLY MISSING (not in v1.0):
     ❌ Gap direction = WHY by-product match works (Inter-Body §5.4)
-    ❌ B's output match A's gap DIRECTION → A reward
+    ❌ B's output matches A's gap DIRECTION → A rewarded
     ❌ Direction mismatch = ANTI-MATCH (not just no-match)
     ❌ 2-Stream connection: Hardware-Stream = hardware gap direction matched,
        Modeling-Stream = Self-Pattern-Modeling-mediated gap direction matched
     ❌ Compilable Architecture × gap direction: general-purpose reward =
-       gap direction KHÔNG hardwired per-content → emerge from chunk network
+       gap direction NOT hardwired per-content → emerges from chunk network
 
-  HẬU QUẢ CỦA THIẾU:
-    → Khi nói "gap fill → reward" — thiếu giải thích 
-      tại sao CÙNG gap mà fill KHÁC → reward KHÁC
-    → Khi nói "reward = personalized" — thiếu MECHANISM underneath
-    → Khi nói "Precondition-4 Match-Range" — thiếu specify match VỚI CÁI GÌ
-    → Khi nói "by-product match" — thiếu giải thích TẠI SAO match/mismatch
-    → = Framework mô tả ĐÚNG nhưng chưa GIẢI THÍCH tầng sâu nhất
+  CONSEQUENCES OF THE GAPS:
+    → When saying "gap fill → reward" — missing explanation of
+      why the SAME gap filled DIFFERENTLY → DIFFERENT reward
+    → When saying "reward = personalized" — missing the MECHANISM underneath
+    → When saying "Precondition-4 Match-Range" — missing what it matches WITH
+    → When saying "by-product match" — missing explanation of WHY match/mismatch
+    → = Framework describes CORRECTLY but doesn't EXPLAIN the deepest layer
 ```
 
-### §0.3 — File này bổ sung gì
+### §0.3 — What this file adds
 
 ```
-FILE NÀY:
-  → KHÔNG sửa definitions hiện tại — chúng ĐÃ ĐÚNG
-  → THÊM chiều mới: direction (content specificity)
-  → FORMALIZE consequences tất yếu từ "gap = hole in network"
-  → BRIDGE giữa: gap mechanism (§3.3) ↔ reward evaluation (Body-Feedback-Precondition) ↔ 
+THIS FILE:
+  → Does NOT revise existing definitions — they are ALREADY CORRECT
+  → ADDS a new dimension: direction (content specificity)
+  → FORMALIZES inevitable consequences from "gap = hole in network"
+  → BRIDGES: gap mechanism (§3.3) ↔ reward evaluation (Body-Feedback-Precondition) ↔
     personalized reward (03-Reward §5.9)
-  → v2.0: BRIDGE giữa: gap direction ↔ by-product match ↔ 2-Stream
-    (WHY inter-body reward works = output match gap DIRECTION)
-  → = Missing explanatory layer giữa "chunks fire" và "reward fires"
+  → v2.0: BRIDGES: gap direction ↔ by-product match ↔ 2-Stream
+    (WHY inter-body reward works = output matches gap DIRECTION)
+  → = The missing explanatory layer between "chunks fire" and "reward fires"
 ```
 
 ---
 
 ## §1 — DEFINITION
 
-### §1.1 — Gap Direction là gì
+### §1.1 — What gap direction is
 
 ```
-⭐ GAP DIRECTION = HÌNH DẠNG CỤ THỂ CỦA HOLE TRONG CHUNK NETWORK:
+⭐ GAP DIRECTION = THE SPECIFIC SHAPE OF THE HOLE IN THE CHUNK NETWORK:
 
-  Body-Feedback-Mechanism.md §3.3 define:
+  Body-Feedback-Mechanism.md §3.3 defines:
     Gap = hole in chunk network where structure predicts something missing
 
-  Gap Direction = WHAT SPECIFICALLY is predicted missing:
-    → Shape of the hole = constraints on what counts as valid fill
+  Gap Direction = WHAT SPECIFICALLY is predicted as missing:
+    → Shape of the hole = constraints on what counts as a valid fill
     → Determined by: surrounding chunks' content + links + density
     → Formal: Gap_Direction = f(surrounding_chunk_network_structure)
 
-  VD:
-    Network: [bạn bè có xe đẹp] + [đi chơi thoải mái] + [trông oai]
-    → Predict: "nếu mình cũng có xe đẹp thời thượng → oai giống vậy"
-    → Gap direction = "xe đẹp thời thượng giới trẻ"
-    → KHÔNG phải "xe" chung chung
-    → KHÔNG phải "phương tiện di chuyển"
-    → KHÔNG phải "vật đắt tiền"
-    → = Direction CỤ THỂ, phụ thuộc chunks CỤ THỂ xung quanh gap
+  Example:
+    Network: [friends have nice cars] + [hanging out comfortably] + [looking prestigious]
+    → Predicts: "if I also had a trendy car → prestigious like them"
+    → Gap direction = "a trendy car popular among young people"
+    → NOT just "a car" in general
+    → NOT "a means of transportation"
+    → NOT "an expensive item"
+    → = SPECIFIC direction, dependent on SPECIFIC surrounding chunks
 ```
 
-### §1.2 — Phân biệt: Gap vs Gap Direction
+### §1.2 — Distinction: Gap vs Gap Direction
 
 ```
 ⭐ GAP ≠ GAP DIRECTION:
 
   GAP (§3.3):
-    → Binary question: có hole hay không?
-    → Answer: có/không
-    → Trigger: ACC detect inconsistency → body signal
+    → Binary question: is there a hole or not?
+    → Answer: yes/no
+    → Trigger: ACC detects inconsistency → body signal
     → = DETECTION mechanism
 
   GAP DIRECTION:
-    → Shape question: hole hướng về đâu, chấp nhận fill nào?
-    → Answer: specific set of constraints
-    → Determine: which fills count as VALID → reward fires hay không
+    → Shape question: where does the hole point, what fills are acceptable?
+    → Answer: a specific set of constraints
+    → Determines: which fills count as VALID → whether reward fires or not
     → = EVALUATION mechanism
 
-  CÙNG gap, KHÁC direction analysis:
+  SAME gap, DIFFERENT direction analysis:
 
-    Einstein: Gap "unified physics" (binary: có)
+    Einstein: Gap "unified physics" (binary: yes)
     Direction: must reconcile Newton + Maxwell + be mathematically elegant
-    → E=mc² MATCH direction → massive reward
-    → Random formula MISS direction → no reward
+    → E=mc² MATCHES direction → massive reward
+    → Random formula MISSES direction → no reward
 
-    Con muốn xe: Gap "muốn xe" (binary: có)
-    Direction: xe đẹp + thời thượng + bạn bè impressed + đi chơi được
-    → Xe đúng ý MATCH → intensely pleasant
-    → Xe cổ MISS direction (không thời thượng, bạn bè không impressed)
-    → Tên lửa OUTSIDE direction entirely (không có chunks nào match)
+    Son wants a car: Gap "wants a car" (binary: yes)
+    Direction: trendy car + good-looking + friends impressed + can go out
+    → Right car MATCHES → intensely pleasant
+    → Vintage car MISSES direction (not trendy, friends not impressed)
+    → Rocket OUTSIDE direction entirely (no matching chunks)
 
-  → Gap = "CÓ thiếu gì đó không?" (yes/no)
-  → Gap Direction = "Thiếu CÁI GÌ CỤ THỂ?" (shape + constraints)
-  → Body-feedback cần CẢ HAI: detect gap (§3.3) + evaluate direction match
+  → Gap = "Is something missing?" (yes/no)
+  → Gap Direction = "What SPECIFICALLY is missing?" (shape + constraints)
+  → Body-feedback requires BOTH: detect gap (§3.3) + evaluate direction match
 ```
 
-### §1.3 — Relationship với §3.3
+### §1.3 — Relationship with §3.3
 
 ```
-🟡 GAP DIRECTION KHÔNG THAY THẾ §3.3 — BỔ SUNG:
+🟡 GAP DIRECTION DOES NOT REPLACE §3.3 — IT SUPPLEMENTS:
 
   §3.3 (Chunk-Gap mechanism):
-    → HOW gap arises (network topology, ACC detection)
-    → HOW gap transitions (Gap→Miss via Imagine-Final)
-    → HOW gap drives behavior (novelty loop)
+    → HOW the gap arises (network topology, ACC detection)
+    → HOW the gap transitions (Gap→Miss via Imagine-Final)
+    → HOW the gap drives behavior (novelty loop)
     → = MECHANISM layer
 
-  Gap Direction (file này):
-    → WHY gap has specific shape (surrounding chunk network)
-    → WHY same gap accepts some fills but not others (direction match)
+  Gap Direction (this file):
+    → WHY the gap has a specific shape (surrounding chunk network)
+    → WHY the same gap accepts some fills but not others (direction match)
     → WHY reward magnitude varies (match quality)
     → = EVALUATION layer
 
   ANALOGY:
-    §3.3 = "Hệ thống báo cháy HOẠT ĐỘNG thế nào" (mechanism)
-    Gap Direction = "Cháy Ở ĐÂU và cần dập KIỂU GÌ" (content)
-    → Cần CẢ HAI: detect + specify
+    §3.3 = "How the fire alarm WORKS" (mechanism)
+    Gap Direction = "WHERE the fire is and WHAT KIND to put it out" (content)
+    → Both are needed: detect + specify
 ```
 
 ### §1.4 — Gap Direction × By-Product Match (★ v2.0)
@@ -294,43 +294,43 @@ FILE NÀY:
 ⭐ GAP DIRECTION = WHY BY-PRODUCT MATCH WORKS:
 
   Inter-Body-Mechanism.md §5.4 principle:
-    Entity B fill gap CỦA B → output = by-product
-    Khi by-product match gap direction CỦA A → A receives reward
+    Entity B fills B's own gap → output = by-product
+    When by-product matches A's gap DIRECTION → A receives reward
 
   GAP DIRECTION IS THE MECHANISM UNDERNEATH:
-    → "Match" = B's output KHỚP HƯỚNG CỤ THỂ của A's gap
-    → "Mismatch" = B's output MISS hướng A's gap (no reward)
-    → "Anti-match" = B's output CONFLICTS A's gap direction (friction)
+    → "Match" = B's output FITS THE SPECIFIC DIRECTION of A's gap
+    → "Mismatch" = B's output MISSES A's gap direction (no reward)
+    → "Anti-match" = B's output CONFLICTS with A's gap direction (friction)
 
-  VÍ DỤ QUA LENS GAP DIRECTION:
+  EXAMPLES THROUGH THE GAP DIRECTION LENS:
 
-    Tiền đạo → Hậu vệ:
-      Hậu vệ A: gap "muốn đội thắng" → direction = "bàn thắng + phòng ngự"
-      Tiền đạo B: fill gap CỦA B "muốn score" → output = bàn thắng
-      B's output = bàn thắng → match A's direction "đội thắng"
-      → A reward. B KHÔNG biết/cần biết A's gap direction.
-      = By-product match VÌ directions tình cờ ALIGNED.
+    Forward → Defender:
+      Defender A: gap "wants the team to win" → direction = "goals + defense"
+      Forward B: fills B's own gap "wants to score" → output = a goal
+      B's output = a goal → matches A's direction "team wins"
+      → A rewarded. B did not know/need to know A's gap direction.
+      = By-product match BECAUSE directions happened to be ALIGNED.
 
-    Bố mua xe cổ cho con:
-      Con A: gap direction = "xe đẹp thời thượng giới trẻ"
-      Bố B: fill gap CỦA BỐ "muốn con vui" → output = xe cổ (bố's aesthetic)
-      B's output = xe cổ → MISS A's direction (sai aesthetic)
-      → A KHÔNG reward. Bố có ý tốt nhưng output MISS DIRECTION.
-      = By-product MISMATCH vì bố's gap direction ≠ con's gap direction.
+    Father buys a vintage car for son:
+      Son A: gap direction = "trendy car popular among young people"
+      Father B: fills B's own gap "wants son to be happy" → output = vintage car (father's aesthetic)
+      B's output = vintage car → MISSES A's direction (wrong aesthetic)
+      → A NOT rewarded. Father had good intentions but output MISSED DIRECTION.
+      = By-product MISMATCH because father's gap direction ≠ son's gap direction.
 
-    CEO đổi mới ↔ nhân viên thích ổn định:
-      Nhân viên A: gap direction = "stability, routine, predictable"
-      CEO B: fill gap CỦA B "muốn growth" → output = change, disruption
+    CEO innovates ↔ employee who prefers stability:
+      Employee A: gap direction = "stability, routine, predictable"
+      CEO B: fills B's own gap "wants growth" → output = change, disruption
       B's output = change → CONFLICTS A's direction (opposite to stability)
       → A NEGATIVE (active friction, not just no-match).
       = ANTI-MATCH: by-product actively conflicts gap direction.
 
-  ⭐ TẠI SAO BY-PRODUCT MATCH XẢY RA ĐỦ THƯỜNG XUYÊN?
+  ⭐ WHY DOES BY-PRODUCT MATCH HAPPEN FREQUENTLY ENOUGH?
     → Species-level hardware overlap → gap directions PARTIALLY overlap
-    → Cùng loài → cùng basic needs → basic gap directions SIMILAR
+    → Same species → same basic needs → basic gap directions SIMILAR
     → Culture/language = shared chunk install → shared gap directions
     → Self-selection: gravitate toward high match-rate partners
-    → = Foundation cho Resonance (By-Product-Gap-Resonance v1.0 §1.5)
+    → = Foundation for Resonance (By-Product-Gap-Resonance v1.0 §1.5)
 
 🟡 Gap direction as by-product match mechanism = framework synthesis.
    By-product match principle (Inter-Body §5.4) = 🟡 established logic.
@@ -339,314 +339,315 @@ FILE NÀY:
 
 ---
 
-## §2 — PROOF: TẠI SAO GAP BUỘC PHẢI CÓ HƯỚNG
+## §2 — PROOF: WHY A GAP MUST HAVE DIRECTION
 
 ### §2.1 — Logical necessity
 
 ```
-⭐ GAP DIRECTION = CONSEQUENCE TẤT YẾU, KHÔNG PHẢI ASSUMPTION:
+⭐ GAP DIRECTION = INEVITABLE CONSEQUENCE, NOT AN ASSUMPTION:
 
-  Từ §3.3: Gap = HOLE in chunk network
+  From §3.3: Gap = HOLE in chunk network
   
-  BƯỚC 1 — Hole tồn tại VÌ CÓ BỜ:
-    → Hole trong tường: tồn tại vì có tường XUNG QUANH
-    → Xóa tường → không còn hole → chỉ còn không gian trống
-    → Hole in chunk network: tồn tại vì có CHUNKS xung quanh
-    → Xóa surrounding chunks → không còn hole → chỉ "chưa biết"
-    → = HOLE VÀ BỜ KHÔNG THỂ TÁCH RỜI
+  STEP 1 — A hole exists BECAUSE there are boundaries:
+    → A hole in a wall: exists because there is wall SURROUNDING it
+    → Remove the wall → no more hole → only empty space
+    → Hole in chunk network: exists because there are CHUNKS around it
+    → Remove surrounding chunks → no more hole → only "unknown territory"
+    → = HOLE AND BOUNDARY CANNOT BE SEPARATED
 
-  BƯỚC 2 — Bờ có hình dạng → hole có hình dạng:
-    → Bờ = surrounding chunks có CONTENT cụ thể
-    → Content chunks: [A], [B], [A→B links], [A→? predictions]
-    → Hole phải COMPATIBLE với bờ → hole có HÌNH DẠNG = f(bờ)
+  STEP 2 — The boundary has a shape → the hole has a shape:
+    → Boundary = surrounding chunks with SPECIFIC CONTENT
+    → Chunk content: [A], [B], [A→B links], [A→? predictions]
+    → The hole must be COMPATIBLE with the boundary → hole has SHAPE = f(boundary)
     → = Gap direction = shape of hole determined by surrounding chunks
 
-  BƯỚC 3 — "Structure predict C" → C có constraints:
-    → A và B là chunks CỤ THỂ (Newton mechanics, Maxwell electromagnetism)
-    → "Nếu A và B → C" = C phải COMPATIBLE với cả A và B
-    → C KHÔNG phải "bất kỳ thứ gì" — C phải:
-      ⓐ Giải quyết inconsistency giữa A và B
-      ⓑ Không phá vỡ connections hiện có
-      ⓒ Fit vào network topology hiện tại
-    → = C có CONSTRAINTS = gap có DIRECTION
+  STEP 3 — "Structure predicts C" → C has constraints:
+    → A and B are SPECIFIC chunks (Newton mechanics, Maxwell electromagnetism)
+    → "If A and B → C" = C must be COMPATIBLE with both A and B
+    → C is NOT "anything" — C must:
+      ⓐ Resolve the inconsistency between A and B
+      ⓑ Not break existing connections
+      ⓒ Fit into the current network topology
+    → = C has CONSTRAINTS = gap has DIRECTION
 
-  KẾT LUẬN:
-    Gap direction = LOGICAL NECESSITY từ "gap = hole in chunk network"
-    KHÔNG CẦN thêm mechanism mới
-    KHÔNG CẦN thêm assumption mới
-    Chỉ cần FORMALIZE consequence đã implicit trong §3.3
+  CONCLUSION:
+    Gap direction = LOGICAL NECESSITY from "gap = hole in chunk network"
+    No new mechanism needed
+    No new assumption needed
+    Only needs to FORMALIZE the consequence already implicit in §3.3
 ```
 
 ### §2.2 — Puzzle analogy
 
 ```
-🟡 MẢNH PUZZLE THIẾU:
+🟡 THE MISSING PUZZLE PIECE:
 
-  Bức puzzle 1000 mảnh, còn thiếu 1 mảnh:
-    → Mảnh thiếu có HÌNH DẠNG = f(hình dạng mảnh xung quanh)
-    → Mảnh thiếu có MÀU SẮC = f(màu sắc mảnh xung quanh)
-    → Mảnh thiếu có VỊ TRÍ = xác định bởi topology puzzle
-    → = Mảnh BẤT KỲ không khớp — chỉ 1 mảnh ĐÚNG mới fill gap
+  A 1000-piece puzzle with 1 piece missing:
+    → The missing piece has a SHAPE = f(shape of surrounding pieces)
+    → The missing piece has a COLOR = f(color of surrounding pieces)
+    → The missing piece has a POSITION = determined by puzzle topology
+    → = Any arbitrary piece doesn't fit — only the RIGHT piece fills the gap
 
-  Chunk network Y HỆT:
-    → Gap có "shape" = constraints từ surrounding chunks
-    → Gap có "content direction" = what missing pattern should look like
-    → Gap có "position" = where in network topology
-    → = Chunk BẤT KỲ không fill — chỉ chunk ĐÚNG HƯỚNG mới fill
+  Chunk network is IDENTICAL:
+    → Gap has a "shape" = constraints from surrounding chunks
+    → Gap has a "content direction" = what the missing pattern should look like
+    → Gap has a "position" = where in the network topology
+    → = Any arbitrary chunk won't fill it — only the chunk pointing in the RIGHT DIRECTION fills it
 
-  NHƯNG khác puzzle ở 2 điểm quan trọng:
+  BUT differs from a puzzle in 2 important ways:
 
-    ① Chunk gap: direction có RANGE (Goldilocks zone)
-       → Nhiều fills CÓ THỂ match ở các mức khác nhau
+    ① Chunk gap: direction has a RANGE (Goldilocks zone)
+       → Multiple fills CAN match at different quality levels
        → Partial fill → partial reward (mini-arc)
-       → = Gap direction = shape + range, không phải exact single answer
+       → = Gap direction = shape + range, not a single exact answer
 
-    ② Chunk gap: fill THAY ĐỔI BỜ → thay đổi GAP TIẾP THEO
-       → Puzzle: fill 1 mảnh → bức tranh rõ hơn nhưng mảnh khác KHÔNG đổi
-       → Chunk gap: fill 1 gap → NEW chunks compile → network GROW
-         → detect NEW inconsistencies → NEW gaps emerge
-       → = Mỗi fill CÓ THỂ tạo thêm gaps mới (§7.5 oscillation dynamics)
-       → VD: Einstein fill special relativity → new chunks 
-         → detect "gravity chưa fit" → NEW gap "general relativity"
-       → = Gap landscape DYNAMIC, không phải static puzzle
+    ② Chunk gap: fill CHANGES THE BOUNDARY → changes the NEXT GAP
+       → Puzzle: fill 1 piece → picture clearer but other pieces DON'T CHANGE
+       → Chunk gap: fill 1 gap → NEW chunks compile → network GROWS
+         → detects NEW inconsistencies → NEW gaps emerge
+       → = Each fill CAN create additional new gaps (§7.5 oscillation dynamics)
+       → Example: Einstein fills special relativity → new chunks
+         → detects "gravity doesn't fit" → NEW gap "general relativity"
+       → = Gap landscape is DYNAMIC, not a static puzzle
 ```
 
-### §2.3 — Counter-test: có gap KHÔNG CÓ hướng được không?
+### §2.3 — Counter-test: can a gap exist WITHOUT direction?
 
 ```
-🟡 TEST: TÌM VÍ DỤ GAP KHÔNG CÓ DIRECTION:
+🟡 TEST: FIND AN EXAMPLE OF A GAP WITH NO DIRECTION:
 
-  THỬ: "Tôi thấy thiếu gì đó nhưng không biết thiếu gì"
-    → Felt sense (Gendlin 1978): body detect trước PFC verbal
-    → NHƯNG: body VẪN có direction — chỉ PFC chưa articulate
-    → Proof: khi tìm đúng → body NHẬN RA ("à, đây rồi!")
-    → Nếu gap thật sự không có direction → body không thể "nhận ra"
-    → = Gap direction TỒN TẠI ở body level, PFC có thể CHƯA biết
+  TRY: "I feel like something is missing but don't know what"
+    → Felt sense (Gendlin 1978): body detects before PFC verbal labeling
+    → BUT: body STILL has direction — PFC just hasn't articulated it yet
+    → Proof: when the right thing is found → body RECOGNIZES it ("that's it!")
+    → If the gap truly had no direction → body couldn't "recognize" it
+    → = Gap direction EXISTS at the body level; PFC may not yet know it
 
-  THỬ: "Tôi chán nhưng không biết muốn gì"
+  TRY: "I'm bored but don't know what I want"
     → Boredom = Chunk-Miss (Body-Feedback-Mechanism.md §3.2 variant ⓑ)
-    → KHÔNG phải Chunk-Gap — đây là missing ACTIVITY patterns
-    → Nếu thử nhiều thứ → khi gặp đúng → body reward → "à, muốn cái này!"
-    → = Direction tồn tại (compiled baseline patterns) nhưng PFC chưa label
+    → NOT a Chunk-Gap — this is missing ACTIVITY patterns
+    → If trying many things → when the right one is found → body reward → "ah, this is what I wanted!"
+    → = Direction exists (compiled baseline patterns) but PFC hasn't yet labeled it
 
-  THỬ: "Tôi curious về tất cả mọi thứ" (general curiosity)
-    → Novelty.md §5 (DRD4 breadth): high breadth = 
-      nhiều gaps NHỎ across domains
-    → Mỗi gap NHỎ VẪN CÓ direction riêng
-    → "Curious tất cả" = NHIỀU directed gaps, không phải 1 undirected gap
+  TRY: "I'm curious about everything" (general curiosity)
+    → Novelty.md §5 (DRD4 breadth): high breadth =
+      many SMALL gaps across domains
+    → Each small gap STILL HAS its own direction
+    → "Curious about everything" = MANY directed gaps, not 1 undirected gap
     → = Aggregate of many directed gaps ≠ one directionless gap
 
-  KẾT LUẬN: Không tìm được ví dụ gap KHÔNG có direction.
-  → Gap luôn có direction — PFC có thể chưa biết direction (implicit)
-  → = Direction là property INEVITABLE, không phải optional
+  CONCLUSION: No example of a gap WITHOUT direction was found.
+  → Gaps always have direction — PFC may not know the direction yet (implicit)
+  → = Direction is an INEVITABLE property, not an optional one
 ```
 
 ---
 
-## §3 — "CHƯA BIẾT = KHÔNG CÓ GAP" (Foundational Principle)
+## §3 — "WHAT YOU DON'T KNOW CREATES NO GAP" (Foundational Principle)
+
 
 ### §3.1 — Principle statement
 
 ```
 ⭐⭐ FOUNDATIONAL PRINCIPLE:
 
-  "CHƯA BIẾT = KHÔNG CÓ GAP"
+  "WHAT YOU DON'T KNOW CREATES NO GAP"
 
   Formal:
     Chunks_related_to_X = ∅ → Gap_about_X = IMPOSSIBLE
     
   In words:
-    Bạn KHÔNG THỂ thiếu thứ bạn không biết tồn tại.
-    Gap CẦN surrounding chunks để TỒN TẠI.
-    Không có chunks xung quanh = không có bờ = không có hole = không có gap.
-    = Desire KHÔNG tự nhiên có — desire = f(chunks accumulated)
+    You CANNOT lack something you don't know exists.
+    A gap REQUIRES surrounding chunks to EXIST.
+    No surrounding chunks = no boundary = no hole = no gap.
+    = Desire does NOT arise naturally — desire = f(accumulated chunks)
 
-  VD ngắn:
-    → Người chưa biết iPhone tồn tại: không muốn iPhone
-    → Người chưa biết cờ vua: không muốn bàn cờ đẹp
-    → Học sinh chưa biết vật lý sâu: không có gap về unified physics
-    → Dân bản địa chưa biết laptop: concept không tồn tại = impossible gap
+  Short examples:
+    → A person who doesn't know the iPhone exists: has no desire for an iPhone
+    → A person who doesn't know chess: has no desire for a beautiful chess set
+    → A student who doesn't know physics deeply: has no gap about unified physics
+    → An indigenous person who has never seen a laptop: the concept doesn't exist = impossible gap
 ```
 
-### §3.2 — Khác gì Precondition-2 Chunk-Substrate?
+### §3.2 — How is this different from Precondition-2 Chunk-Substrate?
 
 ```
-⭐ "CHƯA BIẾT = KHÔNG GAP" ≠ Precondition-2 Chunk-Substrate:
+⭐ "WHAT YOU DON'T KNOW CREATES NO GAP" ≠ Precondition-2 Chunk-Substrate:
 
   Precondition-2 Chunk-Substrate:
-    → WHEN: Nhận stimulus → chunks thiếu → confused → no reward
-    → QUESTION: "Tại sao không reward KHI NHẬN?"
-    → = DIAGNOSIS — giải thích failure mode khi stimulus ĐÃ ĐẾN
-    → VD: Con nhận tranh Van Gogh → "chả hiểu" → Precondition-2 fail
+    → WHEN: Receiving a stimulus → chunks insufficient → confused → no reward
+    → QUESTION: "Why no reward WHEN RECEIVING the stimulus?"
+    → = DIAGNOSIS — explains the failure mode when a stimulus HAS ALREADY ARRIVED
+    → Example: Son receives a Van Gogh painting → "doesn't understand" → Precondition-2 fails
 
-  "Chưa biết = không có gap":
-    → BEFORE: Trước khi bất kỳ stimulus nào đến
-    → QUESTION: "Tại sao KHÔNG MUỐN ngay từ đầu?"
-    → = GENESIS — giải thích tại sao desire CHƯA TỒN TẠI
-    → VD: Con CHƯA BAO GIỜ muốn tranh Van Gogh (gap không tồn tại)
+  "What you don't know creates no gap":
+    → BEFORE: Before any stimulus arrives
+    → QUESTION: "Why doesn't the desire EXIST in the first place?"
+    → = GENESIS — explains why desire HAS NOT YET FORMED
+    → Example: Son has NEVER wanted a Van Gogh painting (the gap doesn't exist)
 
-  2 CÂU HỎI KHÁC NHAU, 2 TẦNG KHÁC NHAU:
+  2 DIFFERENT QUESTIONS, 2 DIFFERENT LAYERS:
 
     ┌────────────────────────────────────────────────────────────────┐
     │                                                                │
-    │  TẦNG 1 — GENESIS ("Chưa biết = không gap"):                  │
-    │    Chunks about X = ∅ → Gap about X = impossible               │
-    │    → Desire KHÔNG TỒN TẠI                                     │
-    │    → TRƯỚC CẢ Precondition-1 (schema pending)                   │
-    │    → Trả lời: TẠI SAO không muốn                              │
+    │  LAYER 1 — GENESIS ("What you don't know creates no gap"):     │
+    │    Chunks about X = ∅ → Gap about X = impossible              │
+    │    → Desire DOES NOT EXIST                                     │
+    │    → PRECEDES even Precondition-1 (schema pending)            │
+    │    → Answers: WHY the desire doesn't exist                    │
     │                                                                │
-    │  TẦNG 2 — DETECTION (5 Body-Feedback-Preconditions):           │
-    │    Gap TỒN TẠI → stimulus đến → Body-Feedback-Precondition check│
-    │    → Precondition-1: gap open? Precondition-2: decode được?    │
-    │    → Precondition-3: delta đủ? Precondition-4: match range?   │
-    │    → Precondition-5: tag phù hợp?                             │
-    │    → Trả lời: TẠI SAO reward fires hay không fires            │
+    │  LAYER 2 — DETECTION (5 Body-Feedback-Preconditions):          │
+    │    Gap EXISTS → stimulus arrives → Body-Feedback-Precondition check│
+    │    → Precondition-1: gap open? Precondition-2: decodable?     │
+    │    → Precondition-3: delta large enough? Precondition-4: match range?│
+    │    → Precondition-5: tag appropriate?                         │
+    │    → Answers: WHY reward fires or doesn't fire                │
     │                                                                │
-    │  = TẦNG 1 quyết định gap CÓ HÌNH THÀNH KHÔNG                  │
-    │  = TẦNG 2 quyết định reward CÓ FIRE KHÔNG (khi gap đã có)     │
-    │  = "Chưa biết = không gap" là PREREQUISITE cho toàn bộ         │
-    │    Body-Feedback-Precondition                                  │
+    │  = LAYER 1 determines WHETHER the gap FORMS                   │
+    │  = LAYER 2 determines WHETHER reward FIRES (once gap exists)  │
+    │  = "What you don't know creates no gap" is a PREREQUISITE for │
+    │    the entire Body-Feedback-Precondition system                │
     │                                                                │
     └────────────────────────────────────────────────────────────────┘
 ```
 
-### §3.3 — Ví dụ chi tiết
+### §3.3 — Detailed examples
 
 ```
-🟡 VÍ DỤ: IPHONE CHO EM BÉ 3 TUỔI
+🟡 EXAMPLE: AN IPHONE FOR A 3-YEAR-OLD
 
-  Em bé 3 tuổi:
+  3-year-old child:
     Chunks about smartphone: ≈ 0
     Chunks about apps, social media, camera: ≈ 0
-    → Không có bờ → không có hole → không có gap
-    → "Muốn iPhone" = IMPOSSIBLE desire
-    → Nhận iPhone → curiosity (bấm → đèn sáng = sensory novelty)
-    → NHƯNG: không có "pleasant vì có iPhone" — gap đó KHÔNG TỒN TẠI
+    → No boundary → no hole → no gap
+    → "Wanting an iPhone" = IMPOSSIBLE desire
+    → Receives iPhone → curiosity (presses button → screen lights up = sensory novelty)
+    → BUT: no "pleasant because I have an iPhone" — that gap DOES NOT EXIST
 
-  Teenager 16 tuổi:
-    Chunks: [bạn bè có iPhone] + [chụp ảnh đẹp] + [MXH] + [status]
-    → BỜ phong phú → HOLE rõ ràng: "mình chưa có iPhone"
-    → Gap direction: "iPhone mới, model đẹp, dùng được MXH + camera"
-    → Nhận iPhone đúng model → gap fill → pleasant
-    → Nhận Nokia 1100 → cùng "phone" nhưng MISS direction → not pleasant
+  16-year-old teenager:
+    Chunks: [friends have iPhones] + [great photos] + [social media] + [status]
+    → Rich boundary → clear HOLE: "I don't have an iPhone yet"
+    → Gap direction: "new iPhone, good-looking model, social media + camera capable"
+    → Receives the right iPhone model → gap filled → pleasant
+    → Receives a Nokia 1100 → same "phone" but MISSES direction → not pleasant
 
-  → CÙNG vật (iPhone). KHÁC gap structure → KHÁC reward hoàn toàn.
+  → SAME object (iPhone). DIFFERENT gap structure → COMPLETELY different reward.
 
 
-🟡 VÍ DỤ: E=MC² CHO CÁC TRÌNH ĐỘ KHÁC NHAU
+🟡 EXAMPLE: E=mc² FOR DIFFERENT KNOWLEDGE LEVELS
 
-  Học sinh phổ thông:
-    Chunks physics: F=ma, vài công thức cơ bản
-    Chunks "unified framework": ≈ 0
-    → Không có gap về unified physics — concept CHƯA TỒN TẠI
-    → Nghe E=mc² → "ồ, hay" → MỨC label (mild novelty)
-    → KHÔNG body-level reward vì KHÔNG CÓ GAP để fill
+  High school student:
+    Physics chunks: F=ma, a few basic formulas
+    Chunks about "unified framework": ≈ 0
+    → No gap about unified physics — the concept DOES NOT YET EXIST
+    → Hears E=mc² → "oh, interesting" → LABEL LEVEL (mild novelty)
+    → NO body-level reward because there is NO GAP to fill
 
-  Sinh viên mới biết quantum (label, chưa học kỹ):
+  Undergraduate who just heard of quantum (label only, not deeply studied):
     Chunks: labels [quantum], [relativity], [wave-particle]
-    → Chunks NÔNG — label without depth
-    → Gap TỒN TẠI nhưng NÔNG (network sparse → prediction yếu)
-    → Nghe giải thích E=mc² → "ồ, vậy đó" → mild satisfaction
-    → KHÔNG "intensely pleasant" vì gap nông + direction mờ
+    → SHALLOW chunks — labels without depth
+    → Gap EXISTS but SHALLOW (sparse network → weak prediction)
+    → Hears explanation of E=mc² → "oh, I see" → mild satisfaction
+    → NOT "intensely pleasant" because gap is shallow + direction is fuzzy
 
-  Einstein (so sánh):
+  Einstein (for comparison):
     Chunks: YEARS of deep physics (Newton + Maxwell + thought experiments)
-    → Gap MASSIVE: "unified framework MUST exist" → direction CỰC RÕ
+    → Gap MASSIVE: "unified framework MUST exist" → direction EXTREMELY CLEAR
     → Direction: must reconcile Newton AND Maxwell AND be elegant
-    → Gap open YEARS → Gap→Miss transition → compound signal
-    → Derive E=mc² → match direction PERFECTLY → compound 3 dynamics:
+    → Gap open for YEARS → Gap→Miss transition → compound signal
+    → Derives E=mc² → matches direction PERFECTLY → compounds 3 dynamics:
       Chunk-Gap fill + Chunk-Miss reverse + Chunk-Shift self-schema
     → = "Intensely pleasant"
 
   ┌─────────────────────┬─────────────┬─────────────┬────────────────────┐
-  │                     │ Học sinh    │ Sinh viên   │ Einstein           │
+  │                     │ Student     │ Undergrad   │ Einstein           │
   ├─────────────────────┼─────────────┼─────────────┼────────────────────┤
-  │ Chunks physics      │ Minimal     │ Labels only │ Years deep         │
-  │ Gap exists?         │ ❌ Không    │ ✅ Nông     │ ✅ Massive         │
-  │ Gap direction       │ N/A         │ Mờ, sparse  │ Cực rõ, rich       │
-  │ E=mc² match?       │ N/A         │ Partial     │ Perfect            │
+  │ Physics chunks      │ Minimal     │ Labels only │ Years deep         │
+  │ Gap exists?         │ ❌ No       │ ✅ Shallow  │ ✅ Massive         │
+  │ Gap direction       │ N/A         │ Fuzzy, sparse│ Extremely clear   │
+  │ E=mc² match?        │ N/A         │ Partial     │ Perfect            │
   │ Reward              │ Mild novelty│ Mild satis. │ Intensely pleasant │
   └─────────────────────┴─────────────┴─────────────┴────────────────────┘
 
-  → CÙNG thông tin (E=mc²) → KHÁC reward HOÀN TOÀN
-  → Reward = f(gap direction match), KHÔNG f(information value)
+  → SAME information (E=mc²) → COMPLETELY different reward
+  → Reward = f(gap direction match), NOT f(information value)
 
 
-🟡 VÍ DỤ: MUSIC LISTENING TRAJECTORY (textbook case)
+🟡 EXAMPLE: MUSIC LISTENING TRAJECTORY (textbook case)
 
-  "Chưa biết = không có gap" applied qua 4 phase nghe nhạc:
+  "What you don't know creates no gap" applied across 4 listening phases:
 
-  Phase 0 — Chưa nghe jazz:
-    Chunks jazz: ≈ 0 → không có bờ → KHÔNG CÓ GAP → KHÔNG CÓ desire
-    → Nghe jazz lần đầu: confused HOẶC neutral → skip
+  Phase 0 — Before hearing jazz:
+    Jazz chunks: ≈ 0 → no boundary → NO GAP → NO desire
+    → First time hearing jazz: confused OR neutral → skip
 
-  Phase 2 — Goldilocks zone (sau vài lần nghe):
-    Chunks: đủ (genre gist compiled, biết swing rhythm, blue notes)
-    → Gap FORMED + direction rõ: "muốn nghe thêm kiểu này"
-    → PE in sweet spot → peak enjoyment
+  Phase 2 — Goldilocks zone (after a few listens):
+    Chunks: sufficient (genre gist compiled, swing rhythm known, blue notes familiar)
+    → Gap FORMED + direction clear: "want to hear more of this style"
+    → Prediction-delta in sweet spot → peak enjoyment
 
   Phase 4 — Saturation:
-    Chunks: complete cho familiar → prediction-delta → 0
-    → Gap ĐÓNG → desire TẮT cho bài quen → "chán, tìm cái mới"
+    Chunks: complete for familiar material → prediction-delta → 0
+    → Gap CLOSES → desire TURNS OFF for familiar songs → "bored, looking for something new"
 
   = Inverted-U trajectory: 🟢 87.7% of 57 studies confirm (Chmiel & Schubert 2017).
-  = Music = pure case vì inverted-U quantifiable + timeline compact (days-months).
+  = Music = a pure case because the inverted-U is quantifiable + timeline compact (days-months).
   → Drill-Sound-Brain/07-Music-Entrainment-Reward-Dynamics v1.2 §5.
 ```
 
-### §3.4 — Hệ quả của principle
+### §3.4 — Consequences of the principle
 
 ```
-⭐ 5 HỆ QUẢ QUAN TRỌNG:
+⭐ 5 IMPORTANT CONSEQUENCES:
 
-  ① DESIRE KHÔNG TỰ NHIÊN — DESIRE ĐƯỢC XÂY DỰNG:
-     → Trẻ sơ sinh: chỉ có Tier 1 gaps (hunger, warmth, contact)
-     → Mọi desire khác = chunks accumulate → gap hình thành
-     → "Tôi muốn X" = "chunks về X đã compile đủ để tạo gap"
-     → = Desire is CONSTRUCTED, not innate (ngoại trừ Tier 1)
+  ① DESIRE IS NOT NATURAL — DESIRE IS CONSTRUCTED:
+     → Newborns: only Tier 1 gaps (hunger, warmth, contact)
+     → Every other desire = chunks accumulate → gap forms
+     → "I want X" = "chunks about X have compiled enough to create a gap"
+     → = Desire is CONSTRUCTED, not innate (except Tier 1)
 
-  ② EDUCATION CẦN BUILD CHUNKS TRƯỚC:
-     → Trình bày đáp án TRƯỚC khi student có gap = không reward
-     → Phải build chunks TRƯỚC → gap tự hình thành → THEN present answer
-     → = "Không thể cho đáp án khi chưa có câu hỏi"
-     → = Giải thích tại sao learning by doing > lecture
+  ② EDUCATION MUST BUILD CHUNKS FIRST:
+     → Presenting answers BEFORE the student has a gap = no reward
+     → Must build chunks FIRST → gap forms naturally → THEN present the answer
+     → = "You can't give an answer when there is no question"
+     → = Explains why learning by doing > lecture
 
   ③ MARKETING = GAP INSTALLATION:
-     → Ads build chunks: "người đẹp dùng sản phẩm X" + "lifestyle cool"
-     → Chunks compile → gap hình thành: "nếu mình cũng có X..."
+     → Ads build chunks: "beautiful person uses product X" + "cool lifestyle"
+     → Chunks compile → gap forms: "if I also had X..."
      → Product fills gap → reward → purchase
-     → = Hiểu marketing qua gap direction mechanism
+     → = Understanding marketing through the gap direction mechanism
 
-  ④ THERAPY PHẢI MAP GAP LANDSCAPE:
-     → Client "muốn hạnh phúc nhưng không biết muốn gì cụ thể"
-     → = Fuzzy gap direction (network sparse hoặc conflicted)
-     → Therapy: help build chunks → gap direction SHARPEN → action possible
-     → Hoặc: identify Background-Pattern constraining gap landscape
+  ④ THERAPY MUST MAP THE GAP LANDSCAPE:
+     → Client "wants to be happy but doesn't know what they want specifically"
+     → = Fuzzy gap direction (sparse or conflicted network)
+     → Therapy: help build chunks → gap direction SHARPENS → action becomes possible
+     → Or: identify Background-Pattern constraining the gap landscape
 
   ⑤ CROSS-CULTURAL DIFFERENCES = DIFFERENT GAP LANDSCAPES:
-     → Culture A: chunks about X phong phú → gaps about X active
+     → Culture A: rich chunks about X → gaps about X active
      → Culture B: chunks about X = ∅ → no gaps about X
-     → = "Giá trị văn hóa" = shared gap landscape
-     → = Tại sao "happiness" KHÁC nhau giữa cultures
+     → = "Cultural values" = shared gap landscape
+     → = Why "happiness" DIFFERS across cultures
 ```
 
 ---
 
-## §4 — 4 PROPERTIES CỦA GAP DIRECTION
+## §4 — 4 PROPERTIES OF GAP DIRECTION
 
-### §4.0 — Tổng quan
+### §4.0 — Overview
 
 ```
-⭐ GAP DIRECTION CÓ 4 PROPERTIES QUAN SÁT ĐƯỢC:
+⭐ GAP DIRECTION HAS 4 OBSERVABLE PROPERTIES:
 
   ┌────────────────────────────────────────────────────────────────┐
   │                                                                │
-  │  ① DIRECTION (hướng): toward WHAT specific fill                │
-  │  ② SPECIFICITY (độ rõ): constraints narrow hay broad           │
-  │  ③ DEPTH (độ sâu): surrounding network → signal strength       │
-  │  ④ RANGE (phạm vi): Goldilocks zone within direction           │
+  │  ① DIRECTION: toward WHAT specific fill                        │
+  │  ② SPECIFICITY: constraints narrow or broad                    │
+  │  ③ DEPTH: surrounding network → signal strength                │
+  │  ④ RANGE: Goldilocks zone within the direction                 │
   │                                                                │
-  │  4 properties INDEPENDENT — combine to determine:              │
+  │  4 properties are INDEPENDENT — they combine to determine:     │
   │  → WHICH fills the gap accepts                                 │
   │  → HOW STRONG the gap signal fires                             │
   │  → HOW MUCH reward when filled                                 │
@@ -654,68 +655,68 @@ FILE NÀY:
   └────────────────────────────────────────────────────────────────┘
 ```
 
-### §4.1 — Direction (hướng: toward what)
+### §4.1 — Direction (toward what, specifically)
 
 ```
-⭐ DIRECTION = CÁI GÌ CỤ THỂ mà network predict missing:
+⭐ DIRECTION = WHAT SPECIFICALLY the network predicts is missing:
 
-  Direction trả lời: "Thiếu CÁI GÌ?"
-  = Content dự đoán = what the gap POINTS TOWARD
+  Direction answers: "What IS missing?"
+  = Predicted content = what the gap POINTS TOWARD
 
-  VD — Xe:
-    Network: [bạn bè có xe đẹp] + [oai] + [đi chơi] + [aesthetic hiện đại]
-    → Direction: "xe đẹp thời thượng giới trẻ"
-    → KHÔNG phải "xe" (quá rộng)
-    → KHÔNG phải "phương tiện" (quá abstract)
-    → KHÔNG phải "xe cổ đắt tiền" (sai aesthetic direction)
-    → = Direction CỤ THỂ, phụ thuộc chunks CỤ THỂ đã compile
+  Example — Car:
+    Network: [friends have nice cars] + [prestige] + [going out] + [modern aesthetic]
+    → Direction: "a trendy car popular among young people"
+    → NOT "a car" (too broad)
+    → NOT "a mode of transport" (too abstract)
+    → NOT "an expensive vintage car" (wrong aesthetic direction)
+    → = SPECIFIC direction, dependent on SPECIFIC compiled chunks
 
-  VD — Einstein:
+  Example — Einstein:
     Network: [Newton mechanics] + [Maxwell electromagnetism] + [conflict]
     → Direction: "unified framework reconciling BOTH + elegant"
-    → KHÔNG phải "random formula" (miss direction)
-    → KHÔNG phải "chọn 1 bỏ 1" (violate network structure)
+    → NOT "a random formula" (misses direction)
+    → NOT "choose one, discard the other" (violates network structure)
     → = Direction = WHAT specifically resolves the inconsistency
 
-  VD — Đang khát nước:
-    Body-state: dehydration sensors fire → [khát] chunks activate
-    → Direction: "nước" (Tier 1 evolutionary specific)
-    → KHÔNG phải "đồ ăn" (different body-need direction)
-    → Tier 1 direction: cực specific, universal, genes determined
+  Example — Being thirsty:
+    Body-state: dehydration sensors fire → [thirsty] chunks activate
+    → Direction: "water" (Tier 1 evolutionarily specific)
+    → NOT "food" (different body-need direction)
+    → Tier 1 direction: extremely specific, universal, gene-determined
 
-  ⭐ DIRECTION CHANGE:
-    → Direction CAN change khi chunk network grow:
-      Ban đầu: "muốn xe" (broad) → biết thêm models → "muốn model X" (narrow)
+  ⭐ DIRECTION CHANGES:
+    → Direction CAN change as chunk network grows:
+      Initially: "want a car" (broad) → learn more about models → "want model X" (narrow)
     → Direction CAN split:
-      "Muốn xe" → biết thêm → "muốn xe thể thao" + "muốn xe tiện dụng"
-    → = Direction = DYNAMIC, evolves with chunk network
+      "Want a car" → learn more → "want a sports car" + "want a practical car"
+    → = Direction = DYNAMIC, evolves with the chunk network
 ```
 
-### §4.2 — Specificity (độ rõ: narrow vs broad)
+### §4.2 — Specificity (how narrow or broad the constraints are)
 
 ```
-⭐ SPECIFICITY = CONSTRAINTS CHẶT hay LỎNG:
+⭐ SPECIFICITY = HOW TIGHT OR LOOSE THE CONSTRAINTS ARE:
 
-  Specificity trả lời: "Bao nhiêu fills ĐƯỢC CHẤP NHẬN?"
+  Specificity answers: "How many fills are ACCEPTED?"
   = Resolution of gap direction
 
-  NARROW SPECIFICITY (constraints chặt):
-    → Collector: "con tem cụ thể, năm cụ thể, quốc gia cụ thể"
-    → Chỉ 1 fill ĐÚNG → match/mismatch rõ ràng
-    → Reward: VERY HIGH khi match (rare fill found)
+  NARROW SPECIFICITY (tight constraints):
+    → Collector: "a specific stamp, from a specific year, from a specific country"
+    → Only 1 fill is EXACTLY RIGHT → match/mismatch is clear
+    → Reward: VERY HIGH when matched (rare fill found)
     → Risk: VERY LOW chance of fill → frustration
 
-  BROAD SPECIFICITY (constraints lỏng):
-    → "Muốn đi du lịch đâu đó" → nhiều destinations match
-    → Nhiều fills acceptable → dễ match hơn
+  BROAD SPECIFICITY (loose constraints):
+    → "Want to travel somewhere" → many destinations match
+    → Many fills acceptable → easier to match
     → Reward: MODERATE per fill (less specific = less gap closure)
     → Benefit: flexible, adaptable
 
   SPECIFICITY = f(chunk network resolution):
-    → Chunks ÍT về topic → gap direction BROAD (mờ, ít constraints)
-    → Chunks NHIỀU về topic → gap direction NARROW (rõ, nhiều constraints)
-    → VD: mới biết cờ vua → "muốn bàn cờ đẹp" (broad)
-    → VD: chơi 10 năm → "muốn bàn cờ gỗ ebony, quân weighted, 
+    → FEW chunks about topic → gap direction BROAD (fuzzy, few constraints)
+    → MANY chunks about topic → gap direction NARROW (clear, many constraints)
+    → Example: just learned chess → "want a beautiful chess set" (broad)
+    → Example: 10 years playing → "want an ebony wood board, weighted pieces,
       Staunton pattern, 3.75 inch king" (narrow)
 
   SPECIFICITY × REWARD:
@@ -723,176 +724,175 @@ FILE NÀY:
     → Broad match → MODERATE reward per fill
     → Narrow mismatch → HIGH dissonance (close but wrong)
     → Broad mismatch → MODERATE dissonance
-    → VD: Muốn xe đỏ, được xe xanh (narrow miss: 90% match → 
-      reward CÓ nhưng "nhưng...")
+    → Example: Want a red car, receive a blue car (narrow miss: 90% match →
+      reward IS THERE but "but...")
 ```
 
-### §4.3 — Depth (độ sâu: signal strength)
+### §4.3 — Depth (signal strength)
 
 ```
 ⭐ DEPTH = SURROUNDING NETWORK → SIGNAL STRENGTH:
 
-  Depth trả lời: "Gap signal MẠNH bao nhiêu?"
+  Depth answers: "How STRONG is the gap signal?"
   = f(surrounding network size × density × time pending)
 
-  NÔNG (network sparse):
-    → Vài chunks liên quan → bờ mỏng → hole nhỏ
-    → Body signal: nhẹ, dễ bỏ qua
-    → VD: mới biết về topic → mild curiosity
-    → VD: sinh viên nghe label "quantum" → shallow interest
+  SHALLOW (sparse network):
+    → Few related chunks → thin boundary → small hole
+    → Body signal: mild, easy to ignore
+    → Example: just discovered a topic → mild curiosity
+    → Example: undergraduate hears the label "quantum" → shallow interest
 
-  SÂU (network dense):
-    → Nhiều chunks liên quan → bờ dày → hole lớn + rõ
-    → Body signal: MẠNH, persistent, hard to ignore
-    → VD: Einstein years of physics → massive gap signal → CAN'T ignore
-    → VD: collector 20 năm thiếu 1 item → obsessive drive
+  DEEP (dense network):
+    → Many related chunks → thick boundary → large + clear hole
+    → Body signal: STRONG, persistent, hard to ignore
+    → Example: Einstein with years of physics → massive gap signal → CANNOT ignore
+    → Example: 20-year collector missing 1 item → obsessive drive
 
   DEPTH × TIME PENDING:
-    → Gap mới mở → signal vừa → CÓ THỂ fade nếu không reinforced
-    → Gap open YEARS → Gap→Miss transition (§3.3 ①)
-      → Signal COMPOUND: gap + miss + cortisol holding
+    → Newly opened gap → moderate signal → CAN fade if not reinforced
+    → Gap open for YEARS → Gap→Miss transition (§3.3 ①)
+      → Signal COMPOUNDS: gap + miss + cortisol holding
     → = Depth × Time = COMPOUND signal strength
 
   DEPTH × REWARD MAGNITUDE:
-    → Shallow gap fill → mild reward → "ồ, hay"
+    → Shallow gap fill → mild reward → "oh, interesting"
     → Deep gap fill → massive reward → "eureka!" "intensely pleasant!"
     → 🟡 Reward ∝ Gap_depth × Fill_match_quality
-    → = Giải thích tại sao Einstein's E=mc² >> student's "ồ hay"
-    → = CÙNG thông tin, KHÁC depth → KHÁC reward magnitude
+    → = Explains why Einstein's E=mc² >> student's "oh interesting"
+    → = SAME information, DIFFERENT depth → DIFFERENT reward magnitude
 
   🟢 REFERENCE:
     → Gap decomposition mini-arc (§3.3): deeper gap = more mini-arcs needed
     → Effort-proportional reward (03-Reward.md §4.7)
-    → Progress principle (Amabile & Kramer 2011): deeper gap = 
+    → Progress principle (Amabile & Kramer 2011): deeper gap =
       more powerful "small wins"
 ```
 
-### §4.4 — Range (phạm vi: Goldilocks within direction)
+### §4.4 — Range (Goldilocks zone within direction)
 
 ```
 ⭐ RANGE = NOT "MORE = BETTER" — BELL CURVE WITHIN DIRECTION:
 
-  Range trả lời: "Fill bao nhiêu là TỐI ƯU?"
-  = Goldilocks zone WITHIN gap direction (connect Precondition-4 Match-Range)
+  Range answers: "How much fill is OPTIMAL?"
+  = Goldilocks zone WITHIN gap direction (connects to Precondition-4 Match-Range)
 
-  FRAMEWORK HIỆN TẠI (Precondition-4 Match-Range):
+  EXISTING FRAMEWORK (Precondition-4 Match-Range):
     → Goldilocks zone (dynamic — novel enough + right direction)
-    → Too alien (<20%): "lạ quá" → confusion
-    → Too familiar (>90%): "biết rồi" → habituation
+    → Too alien (<20%): "too strange" → confusion
+    → Too familiar (>90%): "already know this" → habituation
   
-  GAP DIRECTION EXTENDS:
-    → Match HƯỚNG ĐÚNG nhưng MAGNITUDE sai → CŨNG miss
-    → "More" within correct direction ≠ "better"
+  GAP DIRECTION EXTENDS THIS:
+    → Matching the RIGHT DIRECTION but WRONG MAGNITUDE → ALSO misses
+    → "More" within the correct direction ≠ "better"
 
-  VD — Massage:
+  Example — Massage:
     Direction: relaxation (Tier 1 body-need)
-    Range: nhẹ → ok → pleasant → hơi đau → ĐAU
-    = Bell curve: optimal pressure zone, beyond = nociception
-    = Within correct direction, MAGNITUDE vượt range → negative
+    Range: light → ok → pleasant → slightly painful → PAINFUL
+    = Bell curve: optimal pressure zone; beyond it = nociception
+    = Within the correct direction, MAGNITUDE exceeds range → negative
 
-  VD — Khen:
+  Example — Praise:
     Direction: recognition of effort (self-schema relevant)
-    Range: "Làm tốt đấy" ✅ → "Rất giỏi" ✅✅ → 
-           "Thiên tài" ⚠️ → "Einstein thứ 2" ❌
-    = Beyond range: Precondition-4 violated (mismatch self-schema)
-    = Khen vẫn "đúng hướng" nhưng MAGNITUDE quá lớn → body reject
+    Range: "Good job" ✅ → "Very talented" ✅✅ →
+           "Genius" ⚠️ → "A second Einstein" ❌
+    = Beyond range: Precondition-4 violated (mismatch with self-schema)
+    = Praise still "points in the right direction" but MAGNITUDE too large → body rejects
 
-  VD — Tiền thưởng:
+  Example — Bonus payment:
     Direction: resource reward (body-need met)
-    Range: 1 triệu ✅ → 10 triệu ✅✅ → 100 triệu ⚠️ → 1000 tỷ ❌
-    = 1000 tỷ: đúng direction (tiền) nhưng VƯỢT range
-    = Body: "không tin" → Precondition-4 violated (too alien for self-schema)
+    Range: 1 million ✅ → 10 million ✅✅ → 100 million ⚠️ → 1000 billion ❌
+    = 1000 billion: correct direction (money) but EXCEEDS range
+    = Body: "can't believe it" → Precondition-4 violated (too alien for self-schema)
 
-  VD — Gia vị đồ ăn:
+  Example — Food seasoning:
     Direction: taste reward (Tier 1)
-    Range: nhạt → vừa → ngon → quá mặn/cay → PAIN
-    = Tier 1 range: evolutionary calibrated optimal zone
-    = x10 gia vị: đúng direction (taste) nhưng VƯỢT range → nociception
+    Range: bland → right → delicious → too salty/spicy → PAIN
+    = Tier 1 range: evolutionarily calibrated optimal zone
+    = 10× seasoning: correct direction (taste) but EXCEEDS range → nociception
 
   ⭐ RANGE = MULTI-DIMENSIONAL:
-    → Body evaluate NHIỀU chiều ĐỒNG THỜI
-    → VD: Áo lụa tơ tằm:
-      Texture: mềm ✅ + Temperature: mát ✅ + Breathability: thoáng ✅
-      = Match nhiều chiều → reward
-    → VD: Túi nilon:
-      Texture: mềm ✅ + Temperature: nóng ❌ + Breathability: blocked ❌
-      = Match 1 chiều, violate nhiều chiều → net negative
-    → = Range is PER-DIMENSION, body compute NET across all dimensions
+    → Body evaluates MULTIPLE dimensions SIMULTANEOUSLY
+    → Example: Silk fabric:
+      Texture: soft ✅ + Temperature: cool ✅ + Breathability: airy ✅
+      = Matches multiple dimensions → reward
+    → Example: Plastic bag:
+      Texture: soft ✅ + Temperature: hot ❌ + Breathability: blocked ❌
+      = Matches 1 dimension, violates multiple → net negative
+    → = Range is PER-DIMENSION; body computes NET across all dimensions
 
   RANGE × SPECIFICITY:
     → Narrow specificity + narrow range = VERY hard to satisfy
-      (collector muốn item cụ thể, condition perfect)
+      (collector wants specific item in perfect condition)
     → Broad specificity + broad range = EASY to satisfy
-      (muốn đi chơi đâu đó, thời tiết tạm ổn)
-    → = Specificity × Range = "khó tính" spectrum
+      (want to go somewhere, weather roughly okay)
+    → = Specificity × Range = "how picky" spectrum
 ```
 
-### §4.5 — 4 Properties kết hợp
+### §4.5 — The 4 properties combined
 
 ```
-🟡 BẢNG TỔNG HỢP:
+🟡 SUMMARY TABLE:
 
-  ┌──────────────┬──────────────┬──────────────┬───────────────┐
-  │ Property     │ Question     │ Determines   │ VD            │
-  ├──────────────┼──────────────┼──────────────┼───────────────┤
-  │ Direction    │ Thiếu CÁI GÌ│ Which fills  │ "xe đẹp thời  │
-  │              │ cụ thể?      │ valid        │ thượng"       │
-  ├──────────────┼──────────────┼──────────────┼───────────────┤
-  │ Specificity  │ Constraints  │ How many     │ Broad: "xe"   │
-  │              │ chặt/lỏng?   │ fills match  │ Narrow: "xe   │
-  │              │              │              │ model X đỏ"   │
-  ├──────────────┼──────────────┼──────────────┼───────────────┤
-  │ Depth        │ Signal mạnh  │ Reward       │ Shallow: mild │
-  │              │ bao nhiêu?   │ magnitude    │ Deep: massive │
-  ├──────────────┼──────────────┼──────────────┼───────────────┤
-  │ Range        │ Bao nhiêu    │ Optimal zone │ Massage:      │
-  │              │ là tối ưu?   │ for fill     │ nhẹ→đau      │
-  └──────────────┴──────────────┴──────────────┴───────────────┘
+  ┌──────────────┬──────────────┬──────────────┬────────────────────────┐
+  │ Property     │ Question     │ Determines   │ Example                │
+  ├──────────────┼──────────────┼──────────────┼────────────────────────┤
+  │ Direction    │ What SPECIFIC│ Which fills  │ "trendy car popular    │
+  │              │ thing missing│ are valid    │ among young people"    │
+  ├──────────────┼──────────────┼──────────────┼────────────────────────┤
+  │ Specificity  │ Constraints  │ How many     │ Broad: "a car"         │
+  │              │ tight/loose? │ fills match  │ Narrow: "model X red"  │
+  ├──────────────┼──────────────┼──────────────┼────────────────────────┤
+  │ Depth        │ How strong   │ Reward       │ Shallow: mild          │
+  │              │ is signal?   │ magnitude    │ Deep: massive          │
+  ├──────────────┼──────────────┼──────────────┼────────────────────────┤
+  │ Range        │ How much     │ Optimal zone │ Massage:               │
+  │              │ is optimal?  │ for fill     │ light→painful          │
+  └──────────────┴──────────────┴──────────────┴────────────────────────┘
 
   Reward = f(Direction_match × Specificity_fit × Depth × Range_within)
   
-  → Direction wrong → no reward (xe cổ cho teen)
-  → Direction right + Specificity miss → partial reward (xe xanh thay đỏ)
-  → Direction right + Depth shallow → mild reward (student nghe E=mc²)
-  → Direction right + Range exceeded → diminished/negative (khen quá lớn)
-  → ALL match → maximum reward (xe đúng ý cho teen, E=mc² cho Einstein)
+  → Direction wrong → no reward (vintage car for teen)
+  → Direction right + Specificity miss → partial reward (blue car instead of red)
+  → Direction right + Depth shallow → mild reward (student hears E=mc²)
+  → Direction right + Range exceeded → diminished/negative (praise too large)
+  → ALL match → maximum reward (right car for teen, E=mc² for Einstein)
 ```
 
 ---
 
 ## §5 — UNIFIED DIRECTION MODEL (Tier 1-4)
 
-### §5.1 — Tất cả direction = chunk pattern direction
+### §5.1 — All direction = chunk pattern direction
 
 ```
-⭐⭐ USER'S KEY INSIGHT: KHÔNG PHẢI 2 LOẠI DIRECTION — TẤT CẢ LÀ PATTERNS
+⭐⭐ KEY INSIGHT: NOT 2 TYPES OF DIRECTION — ALL ARE PATTERNS
 
-  Sensory input vào não:
-    Da tiếp xúc lụa → mechanoreceptors fire → neural signal
+  Sensory input enters the brain:
+    Skin touches silk → mechanoreceptors fire → neural signal
     → Somatosensory cortex → PATTERN
-    → Pattern match compiled patterns → body-feedback
+    → Pattern matches compiled patterns → body-feedback
 
-  Compiled patterns TỪ EVOLUTION = CHUNKS:
-    → Genes wire connections sẵn (Tier 1)
-    → Millions of years: [smooth+breathable+cool] wired CỰC SÂU
-    → Universal across humans (chung evolutionary history)
-    → NHƯNG VẪN LÀ CHUNKS — cùng substrate, cùng rules
+  Compiled patterns FROM EVOLUTION = CHUNKS:
+    → Genes wire connections in advance (Tier 1)
+    → Millions of years: [smooth+breathable+cool] wired EXTREMELY DEEP
+    → Universal across humans (shared evolutionary history)
+    → BUT STILL CHUNKS — same substrate, same rules
 
-  Compiled patterns TỪ EXPERIENCE = CHUNKS:
-    → Personal experience wire connections (Tier 2-4)
-    → Years-decades: [xe đẹp+oai+friends approve] compiled
-    → Personal/cultural (khác mỗi người)
-    → CŨNG LÀ CHUNKS — cùng substrate, cùng rules
+  Compiled patterns FROM EXPERIENCE = CHUNKS:
+    → Personal experience wires connections (Tier 2-4)
+    → Years-decades: [trendy car+prestige+friends approve] compiled
+    → Personal/cultural (differs per person)
+    → ALSO CHUNKS — same substrate, same rules
 
-  → CHỈ CÓ 1 LOẠI DIRECTION: chunk pattern direction
-  → Khác biệt: ORIGIN + DEPTH + UNIVERSALITY
-  → KHÔNG phải "hardware" vs "software" — tất cả chunks
-  → Consistent với "chunks = sole substrate" (Chunk.md v2.0 §1)
+  → THERE IS ONLY 1 TYPE OF DIRECTION: chunk pattern direction
+  → Differences: ORIGIN + DEPTH + UNIVERSALITY
+  → NOT "hardware" vs "software" — all are chunks
+  → Consistent with "chunks = sole substrate" (Chunk.md v2.0 §1)
 
   v2.0 CONNECTION — COMPILABLE ARCHITECTURE:
     → Compilable Architecture (Body-Base.md v3.1, Inter-Body §1):
       general-purpose reward + compilation + social hardware
-    → Gap directions KHÔNG hardwired per-content (Hardwired Architecture species)
+    → Gap directions NOT hardwired per-content (as in Hardwired Architecture species)
     → Gap directions EMERGE from accumulated chunk network
     → = WHY gap direction is PERSONAL (not species-fixed)
     → = WHY gap direction CHANGES (chunks accumulate → direction evolves)
@@ -900,7 +900,7 @@ FILE NÀY:
       → Bee: "find flower with X wavelength" = hardwired direction
     → Compilable Architecture (humans): gap directions = COMPILED
       → Human: "find car that matches MY aesthetic" = compiled direction
-    → = Compilable Architecture × gap direction = foundation cho DIVERSITY of desires
+    → = Compilable Architecture × gap direction = foundation for DIVERSITY of desires
 ```
 
 ### §5.2 — 4 Tiers of direction origin
@@ -909,134 +909,134 @@ FILE NÀY:
 🟡 DIRECTION ORIGIN = 4 TIERS (Chunk.md §2 calibration hierarchy):
 
   TIER 1 — EVOLUTIONARY (genes compile):
-    → Origin: millions of years natural selection
-    → Depth: CỰC SÂU (hardwired, universal)
+    → Origin: millions of years of natural selection
+    → Depth: EXTREMELY DEEP (hardwired, universal)
     → Examples: hunger, thirst, pain, temperature, touch comfort
-    → "Chưa biết = không gap": KHÔNG ÁP DỤNG thông thường
-      → Genes ĐÃ "biết sẵn" → trẻ sơ sinh VẪN có gap (hunger)
-      → = Species đã "experience" millions years → genes carry knowledge
-    → Modifiable: CỰC KHÓ (requires evolutionary timescale)
-    → VD: Lụa tơ tằm → da cảm nhận TRỰC TIẾP → reward
-      dù chưa từng mặc (Tier 1 chunks already know "smooth = good")
+    → "What you don't know creates no gap": DOES NOT TYPICALLY APPLY
+      → Genes have already "pre-known" → newborns STILL have gap (hunger)
+      → = Species has "experienced" millions of years → genes carry the knowledge
+    → Modifiable: EXTREMELY DIFFICULT (requires evolutionary timescale)
+    → Example: Silk fabric → skin senses DIRECTLY → reward
+      even without ever wearing it (Tier 1 chunks already know "smooth = good")
 
   TIER 2 — DEVELOPMENTAL (childhood compile):
-    → Origin: childhood experience (0-18)
-    → Depth: SÂU (compiled during critical periods)
+    → Origin: childhood experience (ages 0-18)
+    → Depth: DEEP (compiled during critical periods)
     → Examples: attachment style, cultural norms, language
-    → "Chưa biết = không gap": ÁP DỤNG HOÀN TOÀN
-    → Modifiable: KHÓ (Background-Pattern territory)
-    → VD: Trẻ lớn lên thấy bạn bè có xe → gap hình thành
+    → "What you don't know creates no gap": FULLY APPLIES
+    → Modifiable: DIFFICULT (Background-Pattern territory)
+    → Example: Child grows up seeing friends with cars → gap forms
 
   TIER 3 — CULTURAL (shared compile):
-    → Origin: cultural exposure, education, social
-    → Depth: TRUNG BÌNH (compiled qua repeated cultural input)
-    → Examples: "xe cổ = giá trị" (collector culture), jazz appreciation
-    → "Chưa biết = không gap": ÁP DỤNG HOÀN TOÀN
+    → Origin: cultural exposure, education, social environment
+    → Depth: MODERATE (compiled through repeated cultural input)
+    → Examples: "vintage car = value" (collector culture), jazz appreciation
+    → "What you don't know creates no gap": FULLY APPLIES
     → Modifiable: MODERATE (exposure + time)
-    → VD: Bố thích xe cổ (Tier 3 collector culture) → 
-      gap direction khác con (Tier 2-3 youth culture)
+    → Example: Father loves vintage cars (Tier 3 collector culture) →
+      gap direction differs from son (Tier 2-3 youth culture)
 
   TIER 4 — LEARNED (individual compile):
-    → Origin: deliberate learning, expertise
-    → Depth: VARIABLE (tùy effort × time × emotional weight)
+    → Origin: deliberate learning, expertise development
+    → Depth: VARIABLE (depends on effort × time × emotional weight)
     → Examples: physics expertise, programming skill, art training
-    → "Chưa biết = không gap": ÁP DỤNG HOÀN TOÀN
-    → Modifiable: DỄ NHẤT (build chunks → gap direction shifts)
-    → VD: Einstein physics chunks (Tier 4) → gap direction "unified physics"
+    → "What you don't know creates no gap": FULLY APPLIES
+    → Modifiable: EASIEST (build chunks → gap direction shifts)
+    → Example: Einstein's physics chunks (Tier 4) → gap direction "unified physics"
 ```
 
-### §5.3 — Tier 1 đặc biệt: genes = pre-installed chunks
+### §5.3 — Tier 1 special case: genes = pre-installed chunks
 
 ```
-⭐ TIER 1 CÓ KHÁC BIỆT QUAN TRỌNG:
+⭐ TIER 1 HAS AN IMPORTANT DIFFERENCE:
 
-  "Chưa biết = không có gap" principle nói:
-    Không có chunks → không có bờ → không có hole → không có gap
+  "What you don't know creates no gap" says:
+    No chunks → no boundary → no hole → no gap
 
-  NHƯNG Tier 1: genes PRE-INSTALL chunks:
-    → Trẻ sơ sinh CHƯA experience sữa mẹ → NHƯNG VẪN có gap (hunger)
-    → Chưa experience áo ấm → NHƯNG VẪN có gap (cold discomfort)
-    → = "Cá nhân chưa biết" nhưng "species đã biết"
+  BUT Tier 1: genes PRE-INSTALL chunks:
+    → Newborn has NOT experienced breast milk → BUT STILL has gap (hunger)
+    → Has not experienced warm clothing → BUT STILL has gap (cold discomfort)
+    → = "The individual hasn't known it" but "the species has known it"
     → Genes carry evolutionary knowledge as PRE-COMPILED chunks
 
-  REFINE PRINCIPLE cho Tier 1:
-    Original: "Chưa biết = không có gap"
-    Refined: "Chưa biết VÀ genes chưa wire = không có gap"
+  REFINED PRINCIPLE for Tier 1:
+    Original: "What you don't know creates no gap"
+    Refined: "What you don't know AND genes haven't wired = no gap"
     → Tier 1: genes wire → gap exists without personal experience
-    → Tier 2-4: genes KHÔNG wire → gap CẦN personal/cultural experience
-    → = 2 nguồn "biết": evolutionary (genes) + experiential (chunks)
+    → Tier 2-4: genes do NOT wire → gap REQUIRES personal/cultural experience
+    → = 2 sources of "knowing": evolutionary (genes) + experiential (chunks)
 
-  TẠI SAO REFINE NÀY QUAN TRỌNG:
-    → Giải thích silk example: lần đầu mặc VẪN pleasant 
-      (Tier 1 chunks "biết sẵn" smooth = good)
-    → Giải thích food: lần đầu ăn ngon VẪN biết ngon 
+  WHY THIS REFINEMENT MATTERS:
+    → Explains silk example: first time wearing it STILL pleasant
+      (Tier 1 chunks already "know" smooth = good)
+    → Explains food: first time eating something good STILL tastes good
       (Tier 1 taste receptors calibrated)
-    → Giải thích: tại sao Tier 1 gaps UNIVERSAL nhưng 
-      Tier 2-4 gaps PERSONAL
-    → = Tier 1 = shared species knowledge. 
+    → Explains: why Tier 1 gaps are UNIVERSAL but
+      Tier 2-4 gaps are PERSONAL
+    → = Tier 1 = shared species knowledge.
       Tier 2-4 = individual accumulated knowledge.
 ```
 
-### §5.4 — Bảng so sánh unified
+### §5.4 — Unified comparison table
 
 ```
-🟡 SO SÁNH 3 CASES QUA UNIFIED MODEL:
+🟡 COMPARISON OF 3 CASES THROUGH UNIFIED MODEL:
 
   ┌──────────────────┬───────────────┬───────────────┬───────────────┐
-  │                  │ Silk (Tier 1) │ Xe (Tier 2-3) │ E=mc²(Tier 4)│
+  │                  │ Silk (Tier 1) │ Car (Tier 2-3)│ E=mc²(Tier 4)│
   ├──────────────────┼───────────────┼───────────────┼───────────────┤
-  │ Chunk origin     │ Evolution     │ Experience +  │ Years study   │
+  │ Chunk origin     │ Evolution     │ Experience +  │ Years of study│
   │                  │ (genes wire)  │ social context│ (deliberate)  │
-  │ Depth            │ Cực sâu       │ Trung bình    │ Sâu (expert)  │
+  │ Depth            │ Extremely deep│ Moderate      │ Deep (expert) │
   │ Universality     │ ~Universal    │ Cultural/     │ Individual    │
   │                  │               │ generational  │               │
   │ Gap direction    │ Multi-dim     │ Specific      │ Specific      │
   │                  │ optimal space │ social object │ knowledge gap │
-  │ "Chưa biết=     │ N/A (genes    │ ✅ Áp dụng   │ ✅ Áp dụng   │
-  │   no gap"        │ pre-install)  │ hoàn toàn     │ hoàn toàn     │
-  │ Modifiable?      │ Cực khó       │ Moderate      │ Yes (learn)   │
+  │ "No knowledge =  │ N/A (genes    │ ✅ Fully      │ ✅ Fully      │
+  │   no gap"        │ pre-install)  │ applies       │ applies       │
+  │ Modifiable?      │ Extremely hard│ Moderate      │ Yes (learn)   │
   │ Direction source │ Genes         │ Chunks + Background-Pattern   │ Chunks        │
   │ Match mechanism  │ Sensory match │ Pattern match │ Pattern match │
   │ Range type       │ Evolutionary  │ Social/       │ Intellectual  │
   │                  │ optimal zone  │ personal zone │ coherence     │
   └──────────────────┴───────────────┴───────────────┴───────────────┘
 
-  ⭐ CÙNG MECHANISM: chunks → gap direction → match → reward
-  ⭐ KHÁC: origin, depth, universality, modifiability
-  ⭐ = 1 model THỐNG NHẤT cho TOÀN BỘ reward/dissonance evaluation
+  ⭐ SAME MECHANISM: chunks → gap direction → match → reward
+  ⭐ DIFFERENT: origin, depth, universality, modifiability
+  ⭐ = 1 UNIFIED MODEL for ALL reward/dissonance evaluation
 ```
 
 ### §5.5 — Compiled/Fresh processing × gap direction (★ v2.0)
 
 ```
-⭐ GAP DIRECTION EVALUATION = COMPILED HOẶC FRESH:
+⭐ GAP DIRECTION EVALUATION = COMPILED OR FRESH:
 
   (Inter-Body-Mechanism.md §3, Body-Feedback-Label.md v2.0 §8)
 
   COMPILED EVALUATION (body-direct, cost ≈ 0):
-    → Expert in domain: compiled chunks match CHECK → automatic
-    → Nghe E=mc² → body BIẾT match hay không (Einstein case)
-    → Thấy xe → body BIẾT "đúng ý" hay không (teen case)
-    → Speed: milliseconds. Accuracy: HIGH (nếu chunks phong phú)
-    → = Gap direction match evaluated TRƯỚC PFC aware
+    → Expert in domain: compiled chunks CHECK match → automatic
+    → Hears E=mc² → body KNOWS whether it matches or not (Einstein case)
+    → Sees a car → body KNOWS "right direction" or not (teen case)
+    → Speed: milliseconds. Accuracy: HIGH (if chunks are rich)
+    → = Gap direction match evaluated BEFORE PFC becomes aware
 
   FRESH EVALUATION (PFC deliberate, costly):
-    → Lĩnh vực mới: PFC phải BUILD match/mismatch assessment
-    → Xem review xe → PFC process specs → "có match gap không?"
+    → New domain: PFC must BUILD match/mismatch assessment
+    → Reads car review → PFC processes specs → "does this match my gap?"
     → Speed: slow (seconds-minutes). Accuracy: VARIABLE.
-    → = PFC TRY to evaluate — nhưng CÓ THỂ SAI (PFC=Lawyer, §7)
+    → = PFC TRIES to evaluate — but CAN BE WRONG (PFC = Lawyer, §7)
 
-  SPECTRUM (không phải binary):
-    → Full compiled: body knows instantly (expert + domain match)
+  SPECTRUM (not binary):
+    → Fully compiled: body knows instantly (expert + domain match)
     → Mostly compiled + some fresh: body guides + PFC fine-tunes
-    → Mostly fresh: PFC lead + body gives vague signal
-    → Full fresh: no compiled chunks → "không biết muốn gì"
+    → Mostly fresh: PFC leads + body gives vague signal
+    → Fully fresh: no compiled chunks → "don't know what I want"
 
-  ⭐ TẠI SAO QUAN TRỌNG:
+  ⭐ WHY THIS MATTERS:
     → Expert's "feeling" about match = COMPILED evaluation (accurate, fast)
     → Beginner's "analysis" of match = FRESH evaluation (slow, uncertain)
-    → "Trust your gut" = trust compiled evaluation (IF chunks phong phú)
-    → "Think carefully" = use fresh evaluation (IF compiled insufficient)
+    → "Trust your gut" = trust compiled evaluation (IF chunks are rich)
+    → "Think carefully" = use fresh evaluation (IF compiled is insufficient)
     → = Dual Check (Ask-AI v3.1): body = quality controller, domain = arbiter
 
 🟡 Compiled/Fresh evaluation spectrum = framework synthesis.
@@ -1048,31 +1048,31 @@ FILE NÀY:
 
 ## §6 — 2-LAYER MODEL: SIGNAL MECHANISM vs DIRECTION CONTENT
 
-### §6.1 — Tại sao cần 2 layers
+### §6.1 — Why 2 layers are needed
 
 ```
-⭐ PREDICTION ERROR (SCHULTZ 1997) ĐÚNG NHƯNG CHƯA ĐỦ:
+⭐ PREDICTION ERROR (SCHULTZ 1997) IS CORRECT BUT INCOMPLETE:
 
   Schultz 1997:
-    → VTA fires dopamine khi: actual > predicted
-    → VTA suppress khi: actual < predicted
-    → = Signal mechanism: body DETECT "có gì đó khác expected"
-    → = GENERIC: "better/worse than expected" — nhưng 
-      KHÔNG carry thông tin "khác CÁI GÌ cụ thể"
+    → VTA fires dopamine when: actual > predicted
+    → VTA suppresses when: actual < predicted
+    → = Signal mechanism: body DETECTS "something is different from expected"
+    → = GENERIC: "better/worse than expected" — but
+      does NOT carry information about "different HOW specifically"
 
-  CHƯA ĐỦ vì:
-    → Cùng "actual > predicted" (positive prediction error)
-    → Nhưng: xe thời thượng = pleasant, xe cổ = không thích
-    → Cả 2 đều "better than expected" (bố mua xe bất ngờ)
-    → Tại sao KHÁC reward? Vì DIRECTION KHÁC.
+  INCOMPLETE because:
+    → Same "actual > predicted" (positive prediction error)
+    → But: trendy car = pleasant, vintage car = not pleased
+    → Both are "better than expected" (father buying a car is a surprise)
+    → Why DIFFERENT rewards? Because DIRECTION is DIFFERENT.
 
-  CẦN THÊM LAYER 2:
-    → Layer 1 cho biết: "có mismatch/match" (signal fires)
-    → Layer 2 cho biết: "match CÁI GÌ cụ thể" (direction content)
-    → Cần CẢ HAI để giải thích reward THỰC TẾ
+  LAYER 2 IS NEEDED:
+    → Layer 1 tells: "there is mismatch/match" (signal fires)
+    → Layer 2 tells: "matches WHAT specifically" (direction content)
+    → BOTH are needed to explain ACTUAL reward
 ```
 
-### §6.2 — 2 Layers defined
+### §6.2 — The 2 Layers defined
 
 ```
 ⭐⭐ 2-LAYER MODEL:
@@ -1081,60 +1081,63 @@ FILE NÀY:
   │                                                             │
   │  LAYER 1 — SIGNAL MECHANISM (HOW body detects):             │
   │                                                             │
-  │    VTA: detect prediction-delta (Schultz 1997)              │
-  │    ACC: detect inconsistency (Bush et al. 2000)             │
-  │    = GENERIC mechanism: "có gì đó khác/thiếu/mâu thuẫn"    │
-  │    = KHÔNG carry thông tin "khác CÁI GÌ"                   │
-  │    = Hệ thống báo cháy: CHỈ báo "có cháy"                 │
+  │    VTA: detects prediction-delta (Schultz 1997)             │
+  │    ACC: detects inconsistency (Bush et al. 2000)            │
+  │    = GENERIC mechanism: "something is different/missing/     │
+  │      contradictory"                                         │
+  │    = Does NOT carry information about "different HOW"        │
+  │    = Fire alarm: ONLY signals "there is a fire"             │
   │                                                             │
   │  LAYER 2 — DIRECTION CONTENT (WHAT body expects):           │
   │                                                             │
   │    Chunk network structure: surrounding chunks define gap   │
   │    Gap direction: WHAT specifically is predicted missing     │
   │    Match quality: HOW well stimulus fits gap shape           │
-  │    = PERSONAL: mỗi người có direction KHÁC                  │
-  │    = Bản đồ ngôi nhà: CHỈ RÕ "cháy ở đâu, hướng nào"     │
+  │    = PERSONAL: each person has a DIFFERENT direction         │
+  │    = Building map: SHOWS "where the fire is, what direction"│
   │                                                             │
   │  TOGETHER = COMPLETE EVALUATION:                             │
-  │    Layer 1: "có cháy" (signal fires)                        │
-  │    Layer 2: "cháy ở phòng bếp, cần nước" (direction match) │
-  │    = Body detect + biết direction = reward hoặc dissonance  │
+  │    Layer 1: "there is a fire" (signal fires)                │
+  │    Layer 2: "fire in the kitchen, needs water" (direction   │
+  │              match)                                         │
+  │    = Body detects + knows direction = reward or dissonance  │
   │                                                             │
   └─────────────────────────────────────────────────────────────┘
 
   v2.0 NOTE — BY-PRODUCT MATCH × 2-LAYER MODEL:
     → Inter-body interaction:
       Layer 1: "B did something" (prediction-delta from B's action)
-      Layer 2: "B's output match MY gap direction?" (direction evaluation)
-    → By-product match = Layer 2 match positive
-    → Anti-match = Layer 2 match NEGATIVE (conflicts direction)
+      Layer 2: "Does B's output match MY gap direction?" (direction evaluation)
+    → By-product match = Layer 2 match is positive
+    → Anti-match = Layer 2 match is NEGATIVE (conflicts direction)
     → No-match = Layer 1 fires but Layer 2 = neutral (irrelevant)
-    → = 2-layer model giải thích tại sao cùng action của B →
-      A1 reward, A2 no-match, A3 anti-match (khác gap direction)
+    → = 2-layer model explains why the same action by B →
+      A1 rewarded, A2 no-match, A3 anti-match (different gap directions)
 ```
 
-### §6.3 — Body-Feedback-Precondition reinterpretation qua 2 layers
+### §6.3 — Body-Feedback-Precondition reinterpreted through 2 layers
 
 ```
-⭐ 5 BODY-FEEDBACK-PRECONDITIONS = ĐÃ MÔ TẢ 2 LAYERS (chưa nói rõ):
+⭐ 5 BODY-FEEDBACK-PRECONDITIONS = ALREADY DESCRIBE 2 LAYERS (not yet stated clearly):
 
   ┌─────────────────────────────────┬──────────┬──────────────────────────────┐
-  │ Body-Feedback-Precondition      │ Layer    │ Function trong 2-layer model │
+  │ Body-Feedback-Precondition      │ Layer    │ Function in 2-layer model    │
   ├─────────────────────────────────┼──────────┼──────────────────────────────┤
   │ Precondition-1 Directed-Gap    │ Layer 2  │ DIRECTION EXISTS             │
-  │ (body-need gap)                │          │ Gap đã hình thành, có hướng  │
-  │                                 │          │ = Prerequisite cho evaluation │
+  │ (body-need gap)                │          │ Gap has formed, has direction │
+  │                                 │          │ = Prerequisite for evaluation│
   ├─────────────────────────────────┼──────────┼──────────────────────────────┤
   │ Precondition-2 Chunk-Substrate │ Layer 2  │ DIRECTION CAN FORM           │
-  │ (đủ substrate)                 │          │ Đủ chunks = đủ bờ = có hole │
-  │                                 │          │ = Prerequisite cho Precondition-1 │
+  │ (sufficient substrate)         │          │ Enough chunks = enough       │
+  │                                 │          │ boundary = hole exists       │
+  │                                 │          │ = Prerequisite for Precond-1 │
   ├─────────────────────────────────┼──────────┼──────────────────────────────┤
   │ Precondition-3 Delta-Gate      │ Layer 1  │ SIGNAL FIRES                 │
-  │ (biến động đủ)                 │          │ Prediction-delta detected    │
+  │ (deviation large enough)       │          │ Prediction-delta detected    │
   │                                 │          │ = Detection mechanism active  │
   ├─────────────────────────────────┼──────────┼──────────────────────────────┤
   │ Precondition-4 Match-Range     │ Layer 2  │ DIRECTION MATCH QUALITY      │
-  │ (Goldilocks zone — dynamic)    │          │ Match VỚI gap direction      │
+  │ (Goldilocks zone — dynamic)    │          │ Match WITH gap direction     │
   │                                 │          │ = Range property check        │
   ├─────────────────────────────────┼──────────┼──────────────────────────────┤
   │ Precondition-5 Compile-Gate    │ Layer 2  │ DIRECTION VALENCE            │
@@ -1142,11 +1145,11 @@ FILE NÀY:
   │                                 │          │ = Reward or threat direction? │
   └─────────────────────────────────┴──────────┴──────────────────────────────┘
 
-  HIERARCHY RÕ HƠN:
+  CLEARER HIERARCHY:
 
-    "Chưa biết = không gap"
+    "What you don't know creates no gap"
         ↓ (prerequisite)
-    Precondition-2: đủ chunks → direction CAN form
+    Precondition-2: enough chunks → direction CAN form
         ↓ (prerequisite)
     Precondition-1: gap direction EXISTS (pending active)
         ↓ (gap exists, now evaluate stimulus)
@@ -1158,48 +1161,48 @@ FILE NÀY:
         ↓
     REWARD or DISSONANCE fires
 
-  → "Chưa biết = không gap" = TẦNG 0 — trước cả Body-Feedback-Precondition
-  → Precondition-2 → Precondition-1 = Layer 2 prerequisites (gap phải tồn tại)
-  → Precondition-3 = Layer 1 (signal phải fire)
+  → "What you don't know creates no gap" = LAYER 0 — precedes all Body-Feedback-Preconditions
+  → Precondition-2 → Precondition-1 = Layer 2 prerequisites (gap must exist)
+  → Precondition-3 = Layer 1 (signal must fire)
   → Precondition-4 → Precondition-5 = Layer 2 quality check
-  → = Body-Feedback-Precondition ĐÃ mô tả 2 layers — chỉ chưa PHÂN BIỆT 2 layers
+  → = Body-Feedback-Preconditions ALREADY describe 2 layers — just hadn't DISTINGUISHED them
 ```
 
-### §6.4 — Tại sao 2-layer model hữu ích
+### §6.4 — Why the 2-layer model is useful
 
 ```
-🟡 GIẢI THÍCH HIỆN TƯỢNG MÀ 1-LAYER KHÔNG GIẢI THÍCH ĐƯỢC:
+🟡 EXPLAINS PHENOMENA THAT A 1-LAYER MODEL CANNOT:
 
-  ① "Cùng prediction error, khác reward":
-    → Xe thời thượng và xe cổ: BOTH surprise (positive prediction error)
-    → 1-layer: cả 2 nên reward → SAI
-    → 2-layer: Layer 1 fire cho CẢ 2, nhưng Layer 2 chỉ match cho 
-      xe thời thượng → ĐÚNG
+  ① "Same prediction error, different reward":
+    → Trendy car and vintage car: BOTH are a surprise (positive prediction error)
+    → 1-layer: both should reward → WRONG
+    → 2-layer: Layer 1 fires for BOTH, but Layer 2 only matches for
+      the trendy car → CORRECT
 
-  ② "Reward là personal":
-    → 1-layer: prediction error = generic → should be universal → SAI
-    → 2-layer: Layer 2 = chunk network = PERSONAL → reward personal → ĐÚNG
+  ② "Reward is personal":
+    → 1-layer: prediction error = generic → should be universal → WRONG
+    → 2-layer: Layer 2 = chunk network = PERSONAL → reward is personal → CORRECT
 
   ③ "More ≠ better":
-    → 1-layer: larger prediction error = more reward → SAI
-    → 2-layer: Layer 1 = larger delta, nhưng Layer 2 = out of range 
-      → diminished/negative → ĐÚNG
+    → 1-layer: larger prediction error = more reward → WRONG
+    → 2-layer: Layer 1 = larger delta, but Layer 2 = out of range
+      → diminished/negative → CORRECT
 
-  ④ "Biết nhưng không cảm":
-    → PFC updated (Layer 1 acknowledged) nhưng 
-      chunk network unchanged (Layer 2 direction same)
-    → 1-layer: know = feel → SAI
-    → 2-layer: Layer 1 (know) ≠ Layer 2 (feel direction) → 
-      can diverge → ĐÚNG
+  ④ "Knowing but not feeling":
+    → PFC updated (Layer 1 acknowledged) but
+      chunk network unchanged (Layer 2 direction the same)
+    → 1-layer: know = feel → WRONG
+    → 2-layer: Layer 1 (know) ≠ Layer 2 (feel direction) →
+      can diverge → CORRECT
 
-  ⑤ "By-product match selective" (v2.0):
-    → 1-layer: B did something unexpected → all observers reward → SAI
-    → 2-layer: Layer 1 fires for all observers, nhưng Layer 2 (direction match)
-      = DIFFERENT per observer → chỉ matching observers reward → ĐÚNG
-    → = Giải thích tại sao cùng 1 action → người thích người ghét
+  ⑤ "By-product match is selective" (v2.0):
+    → 1-layer: B did something unexpected → all observers reward → WRONG
+    → 2-layer: Layer 1 fires for all observers, but Layer 2 (direction match)
+      = DIFFERENT per observer → only matching observers reward → CORRECT
+    → = Explains why the same action → some people like it, others don't
 
-  → 2-layer model không THAY THẾ prediction error — 
-    THÊM layer underneath giải thích CONTENT
+  → 2-layer model does NOT REPLACE prediction error —
+    ADDS a layer underneath to explain CONTENT
 ```
 
 ---
@@ -1209,147 +1212,147 @@ FILE NÀY:
 ### §7.1 — Natural formation: chunks compile → gaps emerge
 
 ```
-⭐ GAP DIRECTION HÌNH THÀNH TỰ NHIÊN KHI CHUNKS ACCUMULATE:
+⭐ GAP DIRECTION FORMS NATURALLY AS CHUNKS ACCUMULATE:
 
   FLOW:
-    Experience → chunks compile → network grow → internal structure form
-    → Structure predict "C should exist" → C chưa có → GAP with DIRECTION
+    Experience → chunks compile → network grows → internal structure forms
+    → Structure predicts "C should exist" → C not yet present → GAP with DIRECTION
 
-  VD — Con thấy bạn có xe:
-    ① Thấy bạn có xe đẹp → chunks compile: [bạn-có-xe] + [trông-oai]
-    ② Nghe bạn kể đi chơi → chunks thêm: [đi-chơi-thoải-mái] + [tự-do]
-    ③ Thấy bạn gái bạn impressed → chunks thêm: [xe → impressed]
-    ④ Network predict: "nếu mình cũng có → oai + tự do + impressed"
-    ⑤ Predict chưa thành hiện thực → GAP hình thành
-    ⑥ Gap direction = f(tất cả chunks compiled): 
-       "xe đẹp thời thượng giới trẻ"
-    → KHÔNG CÓ BƯỚC NÀO CẦN PFC CHỦ ĐỘNG
-    → Vô thức tự compile → gap tự emerge
+  Example — Son sees friend's car:
+    ① Sees friend's nice car → chunks compile: [friend-has-car] + [looks-prestigious]
+    ② Hears friend talk about going out → more chunks: [going-out-comfortably] + [freedom]
+    ③ Sees friend's girlfriend impressed → more chunks: [car → impressed]
+    ④ Network predicts: "if I also had one → prestige + freedom + impressiveness"
+    ⑤ Prediction not yet realized → GAP forms
+    ⑥ Gap direction = f(all compiled chunks):
+       "a trendy car popular among young people"
+    → NO STEP REQUIRES ACTIVE PFC INVOLVEMENT
+    → Unconsciously compiles → gap naturally emerges
 
-  VD — Học sinh dần biết vật lý:
-    ① Học Newton → chunks compile: [F=ma] + [gravity]
-    ② Học Maxwell → chunks thêm: [electromagnetic waves] + [light]
-    ③ Nếu giáo viên GIỎ → giới thiệu conflict: "Newton và Maxwell 
-       mâu thuẫn về tốc độ ánh sáng"
-    ④ Conflict chunks: [Newton ≠ Maxwell ở X]
-    ⑤ Network predict: "phải có framework giải quyết"
-    ⑥ Gap hình thành: direction = "giải mâu thuẫn Newton-Maxwell"
-    → Gap CHỈ hình thành SAU KHI đủ chunks compile
-    → Giáo viên DỞ skip conflict → student KHÔNG có gap → bài giảng boring
+  Example — Student gradually learning physics:
+    ① Studies Newton → chunks compile: [F=ma] + [gravity]
+    ② Studies Maxwell → more chunks: [electromagnetic waves] + [light]
+    ③ If teacher is SKILLED → introduces conflict: "Newton and Maxwell
+       contradict each other about the speed of light"
+    ④ Conflict chunks: [Newton ≠ Maxwell at X]
+    ⑤ Network predicts: "there must be a framework that resolves this"
+    ⑥ Gap forms: direction = "resolve the Newton-Maxwell contradiction"
+    → Gap ONLY forms AFTER enough chunks compile
+    → Poor teacher skips the conflict → student has NO gap → lecture is boring
 
   FORMATION SPEED:
-    → Emotional peak experience: 1 lần CÓ THỂ đủ
-      (VD: thấy bạn lái xe oai → emotional → gap nhanh)
-    → Neutral repeated experience: cần nhiều lần
-      (VD: học physics dần dần → gap chậm)
-    → = Chunk.md §2.2: compile rate = f(repetition × saliency × 
+    → Emotional peak experience: 1 time CAN be enough
+      (Example: seeing a friend drive impressively → emotional → gap forms quickly)
+    → Neutral repeated experience: requires many times
+      (Example: gradually studying physics → gap forms slowly)
+    → = Chunk.md §2.2: compile rate = f(repetition × saliency ×
       peak_valence × multi_modal × contingency)
 ```
 
 ### §7.2 — Gap→Miss transition: direction SHARPENS
 
 ```
-🟡 IMAGINE-FINAL PREVIEW LÀM DIRECTION RÕ HƠN:
+🟡 IMAGINE-FINAL PREVIEW MAKES DIRECTION CLEARER:
 
   Body-Feedback-Mechanism.md §3.3 ①:
-    Gap detected → PFC build Imagine-Final preview
-    → Preview lặp → body compile preview thành baseline
-    → Gap CHUYỂN thành Miss (body now EXPECTS cái chưa có)
+    Gap detected → PFC builds Imagine-Final preview
+    → Preview repeats → body compiles preview as baseline
+    → Gap TRANSITIONS to Miss (body now EXPECTS what isn't there yet)
 
   GAP DIRECTION PERSPECTIVE:
-    → Ban đầu: gap direction MỜ (network sparse → shape vague)
-    → Imagine-Final preview: ADD DETAIL to direction
-      "Có xe" → "xe model X" → "xe model X màu đỏ" → "lái xe đi biển"
-    → Mỗi preview cycle: direction SHARPEN (specificity tăng)
+    → Initially: gap direction FUZZY (sparse network → vague shape)
+    → Imagine-Final preview: ADDS DETAIL to direction
+      "Having a car" → "model X" → "red model X" → "driving to the beach"
+    → Each preview cycle: direction SHARPENS (specificity increases)
     → = Imagine-Final = direction refinement mechanism
 
-  VD: "Muốn xe" evolution:
-    Week 1: "muốn có xe đi lại" (broad direction)
-    Week 4: "muốn xe thể thao, nhìn đẹp" (direction narrowing)
-    Month 3: "muốn model X, màu đỏ, nội thất đen" (narrow direction)
-    → Direction SHARPEN theo Imagine-Final preview iterations
-    → Specificity tăng → range thu hẹp → khó satisfy hơn
+  Example: "Want a car" evolution:
+    Week 1: "want a car to get around" (broad direction)
+    Week 4: "want a sports car, nice-looking" (direction narrowing)
+    Month 3: "want model X, red, black interior" (narrow direction)
+    → Direction SHARPENS through Imagine-Final preview iterations
+    → Specificity increases → range narrows → harder to satisfy
 
   ⚠️ RISK: Over-specification
-    → Preview lặp quá nhiều → direction CỰC narrow
-    → Reality hiếm khi match 100% → "đạt rồi mà vẫn thiếu"
-    → = §3.3 ⑦: "Kỳ vọng càng cao, thất vọng càng lớn"
+    → Preview repeats too many times → direction becomes EXTREMELY narrow
+    → Reality rarely matches 100% → "got it but still something missing"
+    → = §3.3 ⑦: "The higher the expectations, the greater the disappointment"
     → = Direction over-specification = setup for disappointment
 ```
 
-### §7.3 — Direction change: network grow → gap shape evolves
+### §7.3 — Direction change: network grows → gap shape evolves
 
 ```
-🟡 GAP DIRECTION KHÔNG CỐ ĐỊNH — EVOLVES VỚI NETWORK:
+🟡 GAP DIRECTION IS NOT FIXED — EVOLVES WITH THE NETWORK:
 
-  Chunks MỚI compile → surrounding network thay đổi
-  → Bờ thay đổi → hole shape thay đổi → direction evolves
+  New chunks compile → surrounding network changes
+  → Boundary changes → hole shape changes → direction evolves
 
-  VD: "Muốn xe" → biết thêm → direction SHIFT:
-    Phase 1: "xe đẹp thời thượng" (youth aesthetic)
-    Phase 2: học về xe → biết xe cổ giá trị → chunks mới compile
-    Phase 3: gap direction SHIFT: "xe cổ classic cũng đẹp"
+  Example: "Want a car" → learns more → direction SHIFTS:
+    Phase 1: "trendy car for young people" (youth aesthetic)
+    Phase 2: learns about cars → discovers vintage car value → new chunks compile
+    Phase 3: gap direction SHIFTS: "a classic vintage car also has beauty"
     → = Education/exposure → direction shift POSSIBLE
 
-  VD: Career gap direction evolution:
-    Age 18: "muốn giàu" (broad, status-driven)
-    Age 25: "muốn career có ý nghĩa" (direction shift via experience)
-    Age 35: "muốn balance work-life" (direction shift via feedback)
-    → Mỗi phase: chunks compile → gap direction evolves
+  Example: Career gap direction evolution:
+    Age 18: "want to be rich" (broad, status-driven)
+    Age 25: "want a career with meaning" (direction shift through experience)
+    Age 35: "want work-life balance" (direction shift through feedback)
+    → Each phase: chunks compile → gap direction evolves
 
-  NHƯNG: Background-Pattern RESIST direction change (§9):
-    → Background-Pattern = deeply compiled pattern → bias gap landscape
-    → Gap direction shift CẦN vượt qua Background-Pattern inertia
-    → = Tại sao career change ở 35 KHÓ HƠN ở 25
+  BUT: Background-Pattern RESISTS direction change (§9):
+    → Background-Pattern = deeply compiled pattern → biases gap landscape
+    → Gap direction shift REQUIRES overcoming Background-Pattern inertia
+    → = Why career change at 35 is HARDER than at 25
     → = Background-Pattern.md: resolution = years, not weeks
 ```
 
 ### §7.4 — Direction split: 1 gap → 2 sub-gaps
 
 ```
-🟡 GAP CÓ THỂ SPLIT KHI NETWORK REFINE:
+🟡 A GAP CAN SPLIT WHEN THE NETWORK REFINES:
 
-  Network grow → detect: "gap này thực ra = 2 gaps KHÁC NHAU"
-  → 1 parent gap → 2+ child gaps, mỗi cái có direction riêng
+  Network grows → detects: "this gap is actually = 2 DIFFERENT gaps"
+  → 1 parent gap → 2+ child gaps, each with its own direction
 
-  VD: "Muốn xe" splits:
-    → "Muốn xe thể thao (đi chơi weekend)"
-    → "Muốn xe tiện dụng (đi làm hàng ngày)"
+  Example: "Want a car" splits:
+    → "Want a sports car (for weekend outings)"
+    → "Want a practical car (for daily commuting)"
     → = 2 functions, 2 contexts, 2 directions
 
-  VD: Einstein "unified physics" splits:
+  Example: Einstein's "unified physics" splits:
     → "Special relativity" (uniform motion)
     → "General relativity" (gravity + acceleration)
-    → Mỗi sub-gap có direction riêng, fill riêng
+    → Each sub-gap has its own direction, its own fill
 
-  = Gap decomposition (§3.3 mini-arc) CŨNG LÀ direction split:
-    Big gap → mini gaps = big direction → sub-directions
-    Mỗi sub-gap fill = mini reward
-    All sub-gaps fill = compound reward
+  = Gap decomposition (§3.3 mini-arc) IS ALSO direction split:
+    Big gap → mini-gaps = big direction → sub-directions
+    Each sub-gap fill = mini reward
+    All sub-gaps filled = compound reward
 ```
 
-### §7.5 — Oscillation dynamics: fill tạo CẢ reward VÀ new dissonance
+### §7.5 — Oscillation dynamics: fill creates BOTH reward AND new dissonance
 
 ```
-⭐⭐ MINI-FILL KHÔNG CHỈ GIẢM GAP — CÒN TẠO GAPS MỚI:
+⭐⭐ MINI-FILL DOESN'T JUST REDUCE THE GAP — IT ALSO CREATES NEW GAPS:
 
-  HÌNH DUNG ĐƠN GIẢN (sai):
+  OVERSIMPLIFIED VIEW (incorrect):
     Gap → fill → reward → smaller gap → fill → ... → gap = 0 → done
-    = Linear giảm dần, cuối cùng xong
+    = Linear reduction, eventually finished
 
-  HÌNH DUNG ĐÚNG:
+  CORRECT VIEW:
     Gap → fill → reward + NEW CHUNKS COMPILE
-    → New chunks = new BỜ → detect NEW inconsistencies
-    → = THÊM dissonance (network LỚN HƠN → thấy NHIỀU HƠN)
-    → Net: reward TỪ fill + dissonance TỪ new detections
+    → New chunks = new BOUNDARY → detect NEW inconsistencies
+    → = MORE dissonance (larger network → sees MORE)
+    → Net: reward FROM fill + dissonance FROM new detections
 
-  CƠ CHẾ:
+  MECHANISM:
 
-    ① FILL: mini gap closed → chunks mới compile → opioid (reward) ✅
-    ② GROW: new chunks = network expand → new bờ appear
-    ③ DETECT: bigger network → detect inconsistencies CHƯA THẤY trước
+    ① FILL: mini-gap closed → new chunks compile → opioid (reward) ✅
+    ② GROW: new chunks = network expands → new boundaries appear
+    ③ DETECT: bigger network → detects inconsistencies NOT SEEN before
     ④ NEW GAP: new inconsistency → new gap → new direction
-    ⑤ OSCILLATION: reward (①) + dissonance (④) ĐỒNG THỜI
+    ⑤ OSCILLATION: reward (①) + dissonance (④) SIMULTANEOUSLY
 
   PATTERN:
     ┌─────────────────────────────────────────────────────┐
@@ -1365,40 +1368,40 @@ FILE NÀY:
     │                                                     │
     └─────────────────────────────────────────────────────┘
 
-  TREND qua process:
-    → Reward per fill: TĂNG (each fill more chunks = more opioid)
-    → Dissonance per detection: CŨNG TĂNG (network larger = bigger holes)
-    → Total dissonance: TÍCH TỤ (many unresolved mini-inconsistencies)
-    → Cho tới CRITICAL MASS: accumulated chunks suddenly cohere
+  TREND across the process:
+    → Reward per fill: INCREASES (each fill more chunks = more opioid)
+    → Dissonance per detection: ALSO INCREASES (larger network = bigger holes)
+    → Total dissonance: ACCUMULATES (many unresolved mini-inconsistencies)
+    → Until CRITICAL MASS: accumulated chunks suddenly cohere
     → = BREAKTHROUGH = compound resolution of ALL accumulated gaps
 
-  VD — Einstein (chi tiết ở §10.4):
-    Year 1-5: fill photoelectric → reward + new chunks 
-      → detect "wave-particle duality mâu thuẫn" → new dissonance
-    Year 5-10: fill special relativity → reward + new chunks
-      → detect "gravity chưa fit" → more dissonance
-    Year 10-15: accumulate tensor math + thought experiments
-      → dissonance CỰC CAO (rất nhiều chunks giá trị chưa unified)
+  Example — Einstein (detailed in §10.4):
+    Years 1-5: fill photoelectric → reward + new chunks
+      → detect "wave-particle duality contradicts" → new dissonance
+    Years 5-10: fill special relativity → reward + new chunks
+      → detect "gravity doesn't fit" → more dissonance
+    Years 10-15: accumulate tensor math + thought experiments
+      → dissonance EXTREMELY HIGH (many valuable chunks not yet unified)
     November 1915: field equations → ALL accumulated chunks UNIFY
       → COMPOUND reward (years × massive network × all-at-once)
 
-  ⭐ TẠI SAO BREAKTHROUGH REWARD CỰC LỚN:
-    → Reward KHÔNG chỉ = "fill 1 gap"
-    → Reward = resolve ALL accumulated mini-inconsistencies ĐỒNG THỜI
+  ⭐ WHY BREAKTHROUGH REWARD IS MASSIVE:
+    → Reward is NOT just = "fill 1 gap"
+    → Reward = resolve ALL accumulated mini-inconsistencies SIMULTANEOUSLY
     → = Accumulated dissonance over YEARS → released IN ONE MOMENT
     → Compound: Gap fill + Miss reverse + Shift + Cortisol drop
-    → = Tại sao "eureka" moments feel TRANSCENDENT
+    → = Why "eureka" moments feel TRANSCENDENT
 
-  ⚠️ RISK: Nếu breakthrough KHÔNG đến:
+  ⚠️ RISK: If breakthrough NEVER comes:
     → Accumulated dissonance keeps growing → no compound resolution
     → Cortisol holding → persistent → burnout
-    → = Tại sao research CÓ THỂ destructive nếu gap too deep
-    → VD: Einstein spent 30 years on unified field theory → never resolved
-    → = Perpetual gap at too deep level → chronic dissonance
+    → = Why research CAN be destructive if gap is too deep
+    → Example: Einstein spent 30 years on unified field theory → never resolved
+    → = Perpetual gap at too deep a level → chronic dissonance
 
   🟢 REFERENCE:
     → Progress principle (Amabile & Kramer 2011): small wins sustain
-    → Gap decomposition (§3.3 mini-arc): each mini fill = reward
+    → Gap decomposition (§3.3 mini-arc): each mini-fill = reward
     → Combinatorial explosion (Novelty.md §5): network grows → more combinations
 ```
 
@@ -1411,25 +1414,25 @@ FILE NÀY:
 ```
 ⭐ CHUNK EXTERNAL INSTALL (F3) → GAP INSTALL:
 
-  Chunk.md §2 F3: External Install = chunks installed từ bên ngoài
+  Chunk.md §2 F3: External Install = chunks installed from outside
   (education, media, social influence, advertising)
 
   GAP DIRECTION PERSPECTIVE:
-    → F3 install chunks XUNG QUANH → gap TỰ hình thành
-    → External agent KHÔNG "cài gap trực tiếp"
-    → External agent install CHUNKS → chunks tạo BỜ → hole emerge
-    → = "Directed gap installation" = build surrounding chunks 
-      sao cho gap hình thành với DIRECTION mong muốn
+    → F3 installs chunks SURROUNDING → gap NATURALLY FORMS
+    → External agent does NOT "directly install a gap"
+    → External agent installs CHUNKS → chunks create BOUNDARY → hole emerges
+    → = "Directed gap installation" = build surrounding chunks
+      so that a gap forms with the DESIRED DIRECTION
 
-  CƠ CHẾ:
-    ① Install chunks A, B: [sản phẩm X] + [người dùng X = cool]
-    ② Chunks compile → network predict: "nếu mình cũng có X → cool"
-    ③ Predict chưa thành → gap hình thành: direction = "sản phẩm X"
-    ④ Sản phẩm X available → fills gap → reward → purchase
+  MECHANISM:
+    ① Install chunks A, B: [product X] + [users of X = cool]
+    ② Chunks compile → network predicts: "if I also had X → cool"
+    ③ Prediction not yet realized → gap forms: direction = "product X"
+    ④ Product X available → fills gap → reward → purchase
     → = Advertiser engineers gap direction TOWARD their product
 
   v2.0 NOTE — 5-CHANNEL INPUT VECTOR (Inter-Body §6):
-    → Gap install qua CHANNEL nào?
+    → Gap install through WHICH CHANNEL?
     → Ch1 Hardware Sensory: product design triggers Tier 1 (beauty, texture)
     → Ch3 Compiled Chunks: brand awareness (repeated exposure → compiled)
     → Ch4 Entity Actions: influencer uses product → social proof
@@ -1438,129 +1441,129 @@ FILE NÀY:
     → = Most effective: Ch3+Ch4 (compiled + social) > Ch5 only (just logic)
 ```
 
-### §8.2 — 4 hình thức gap install
+### §8.2 — 4 forms of gap installation
 
 ```
-🟡 4 HÌNH THỨC GAP INSTALL:
+🟡 4 FORMS OF GAP INSTALLATION:
 
-  ① ADVERTISING (thương mại):
-     → Install chunks: [sản phẩm + lifestyle + social proof]
+  ① ADVERTISING (commercial):
+     → Installs chunks: [product + lifestyle + social proof]
      → Gap direction: toward specific product
      → Fill: purchase product
      → Ethical? Depends on product quality vs gap promise
      → = Marketing 101: "create need" = install gap direction
 
-  ② EDUCATION (giáo dục):
-     → Install chunks: [knowledge base + conflict + curiosity]
+  ② EDUCATION:
+     → Installs chunks: [knowledge base + conflict + curiosity]
      → Gap direction: toward understanding/skill
      → Fill: learning, practice, discovery
-     → = Good teacher: build chunks FIRST → present challenge SECOND
-     → = Bad teacher: present answer without gap → no reward → boring
+     → = Good teacher: builds chunks FIRST → presents challenge SECOND
+     → = Poor teacher: presents answer without a gap → no reward → boring
 
-  ③ SOCIAL MEDIA (xã hội):
-     → Install chunks: [others' lives + comparison + lifestyle]
-     → Gap direction: toward "lifestyle tôi chưa có"
+  ③ SOCIAL MEDIA:
+     → Installs chunks: [others' lives + comparison + lifestyle]
+     → Gap direction: toward "a lifestyle I don't yet have"
      → Fill: consumption, travel, status display
-     → ⚠️ Problematic: gap direction may be UNREALISTIC 
+     → ⚠️ Problematic: gap direction may be UNREALISTIC
        (filtered reality → impossible Imagine-Final)
-     → = Novelty.md §3: MXH hack phanh tự nhiên
+     → = Novelty.md §3: social media hacks the natural brake
 
-  ④ CULTURE / RELIGION (văn hóa):
-     → Install chunks: [shared values + rituals + meaning framework]
+  ④ CULTURE / RELIGION:
+     → Installs chunks: [shared values + rituals + meaning framework]
      → Gap direction: toward culturally-defined "good life"
-     → Fill: following cultural path, rituals, community belonging
+     → Fill: following the cultural path, rituals, community belonging
      → = Shared gap landscape = cultural identity
-     → = Tại sao cultural values feel "natural" = 
+     → = Why cultural values feel "natural" =
        gaps installed early (Tier 2) → feel like Tier 1
 ```
 
 ### §8.3 — Ethical implications
 
 ```
-🟡 GAP INSTALL ETHICS:
+🟡 GAP INSTALLATION ETHICS:
 
-  GAP INSTALL ITSELF = NEUTRAL (tool, not inherently good/bad)
+  GAP INSTALLATION ITSELF = NEUTRAL (a tool, not inherently good or bad)
 
-  ETHICAL khi:
-    → Fill THẬT SỰ serve body-base (education → skills → resources)
-    → Direction honest (product = what advertised)
-    → Gap depth appropriate (not manufacturing desperation)
+  ETHICAL when:
+    → Fill GENUINELY serves body-base (education → skills → resources)
+    → Direction is honest (product = what was advertised)
+    → Gap depth is appropriate (not manufacturing desperation)
 
-  PROBLEMATIC khi:
-    → Fill KHÔNG serve body-base (addictive product, empty status)
-    → Direction manipulated (filtered reality → impossible standard)
-    → Gap depth artificially deepened (FOMO, scarcity tactics)
-    → Exploit Tier 1 gaps (sex sells = hijack sexual gap for product)
+  PROBLEMATIC when:
+    → Fill does NOT serve body-base (addictive product, hollow status)
+    → Direction is manipulated (filtered reality → impossible standard)
+    → Gap depth is artificially deepened (FOMO, scarcity tactics)
+    → Exploits Tier 1 gaps (sex sells = hijacking sexual gap for product)
 
   FRAMEWORK VIEW:
-    → Hiểu gap install mechanism → hiểu TẠI SAO marketing works
-    → Hiểu direction → hiểu TẠI SAO some products "feel right"
-    → Hiểu "chưa biết = không gap" → hiểu TẠI SAO exposure matters
+    → Understanding gap installation mechanism → understanding WHY marketing works
+    → Understanding direction → understanding WHY some products "feel right"
+    → Understanding "what you don't know creates no gap" → understanding WHY exposure matters
     → = Knowledge empowers BOTH creators AND consumers
 ```
 
 ---
 
-## §9 — GAP DIRECTION × BACKGROUND PATTERN
+## §9 — GAP DIRECTION × BACKGROUND-PATTERN
 
-### §9.1 — Background-Pattern constrains gap landscape
+### §9.1 — Background-Pattern constrains the gap landscape
 
 ```
-⭐ BACKGROUND PATTERN BIAS WHICH GAPS CAN FORM:
+⭐ BACKGROUND-PATTERN BIASES WHICH GAPS CAN FORM:
 
   Background-Pattern.md: Background-Pattern = accumulated chunk-network pattern
-  → Hình thành qua years → invisible to PFC → bias ALL processing
+  → Forms over years → invisible to PFC → biases ALL processing
 
   Background-Pattern × GAP DIRECTION:
-    → Background-Pattern = deeply compiled chunk network THROUGHOUT brain
-    → Background-Pattern's chunks ARE "surrounding chunks" for many potential gaps
+    → Background-Pattern = deeply compiled chunk network THROUGHOUT the brain
+    → Background-Pattern's chunks ARE the "surrounding chunks" for many potential gaps
     → = Background-Pattern constrains WHICH gaps can form and WHICH DIRECTIONS they point
 
-  VD — Background-Pattern [effort → not enough]:
-    → Mọi achievement-related chunks contaminated bởi [not enough]
-    → Gap direction bias: "cần đạt MORE" (never enough)
-    → EVEN WHEN đạt rồi → Background-Pattern create NEW gap: "chưa đủ"
+  Example — Background-Pattern [effort → never enough]:
+    → All achievement-related chunks contaminated by [never enough]
+    → Gap direction bias: "need to achieve MORE" (never enough)
+    → EVEN WHEN achieved → Background-Pattern creates NEW gap: "still not enough"
     → = Chronic dissatisfaction = Background-Pattern constraining gap landscape
-    → = "Chạy mãi không đến đích" = đích bị Background-Pattern DI CHUYỂN
+    → = "Running endlessly without reaching the finish" = finish line MOVED by Background-Pattern
 
-  VD — Background-Pattern [connection → danger]:
-    → Intimacy-related chunks contaminated bởi [danger]
-    → Gap direction SUPPRESSED: gaps about deep connection KHÔNG HÌNH THÀNH
-    → Hoặc: gap hình thành nhưng direction DISTORTED
-      ("muốn connection" + [danger] → direction = "connection an toàn = control")
-    → = Avoidant attachment = Background-Pattern suppress connection gap formation
+  Example — Background-Pattern [connection → danger]:
+    → Intimacy-related chunks contaminated by [danger]
+    → Gap direction SUPPRESSED: gaps about deep connection DO NOT FORM
+    → Or: gap forms but direction is DISTORTED
+      ("want connection" + [danger] → direction = "safe connection = control")
+    → = Avoidant attachment = Background-Pattern suppresses connection gap formation
 
-  VD — Background-Pattern [expertise → identity]:
+  Example — Background-Pattern [expertise → identity]:
     → Expert's identity chunks linked to domain
     → Gap direction FOCUSED: gaps about domain = STRONG
-    → Gaps about OTHER domains = WEAK (Background-Pattern doesn't support)
-    → = "Chuyên gia chỉ biết chuyên môn" = Background-Pattern focus gap landscape
+    → Gaps about OTHER domains = WEAK (Background-Pattern doesn't support them)
+    → = "Expert only knows their specialty" = Background-Pattern focuses gap landscape
 ```
 
 ### §9.2 — Background-Pattern × gap direction resolution
 
 ```
-🟡 THAY ĐỔI GAP LANDSCAPE CẦN THAY ĐỔI Background-Pattern:
+🟡 CHANGING THE GAP LANDSCAPE REQUIRES CHANGING Background-Pattern:
 
-  TẠI SAO KHÓ THAY ĐỔI:
+  WHY IT IS HARD TO CHANGE:
     → Background-Pattern chunks = deeply compiled (years)
-    → Background-Pattern chunks = bờ cũ → constrain gap direction CŨ
-    → Install chunks MỚI → nhưng Background-Pattern chunks VẪN CÒN → conflict
-    → = Gap direction shift bị Background-Pattern PULL BACK
+    → Background-Pattern chunks = old boundary → constrain OLD gap direction
+    → Install NEW chunks → but Background-Pattern chunks REMAIN → conflict
+    → = Gap direction shift gets PULLED BACK by Background-Pattern
 
   RESOLUTION (from Background-Pattern.md §10):
-    → CANNOT fix Background-Pattern directly (too distributed, PFC invisible)
-    → MUST build competing Background-Pattern → new chunks → new bờ → new gap directions
+    → CANNOT fix Background-Pattern directly (too distributed, invisible to PFC)
+    → MUST build competing Background-Pattern → new chunks → new boundary → new gap directions
     → Takes YEARS (competing pattern must reach comparable density)
-    → = Therapy = slowly build new chunk network → 
-      new gap landscape emerges ALONGSIDE old one
-    → Old Background-Pattern doesn't disappear — new Background-Pattern competes → probability shift
+    → = Therapy = slowly build new chunk network →
+      new gap landscape emerges ALONGSIDE the old one
+    → Old Background-Pattern doesn't disappear — new Background-Pattern competes → probability shifts
 
-  VD:
-    → Client Background-Pattern [effort → not enough]
+  Example:
+    → Client Background-Pattern [effort → never enough]
     → Therapy: compile new chunks [effort → ok, rest ok, enough exists]
-    → New chunks create new BỜ → new gaps possible:
-      "muốn rest" (gap KHÔNG CÓ trước vì Background-Pattern suppress)
+    → New chunks create new BOUNDARY → new gaps become possible:
+      "wanting rest" (gap that DID NOT EXIST before because Background-Pattern suppressed it)
     → = Therapy = GAP LANDSCAPE EXPANSION via competing Background-Pattern
 ```
 
@@ -1571,13 +1574,13 @@ FILE NÀY:
 ### §10.1 — The "hijack" question
 
 ```
-⭐ "E=MC² PHỤC VỤ GÌ BODY-BASE?" — DEEP ANALYSIS:
+⭐ "WHAT DOES E=mc² SERVE IN BODY-BASE?" — DEEP ANALYSIS:
 
-  GIẢI THUYẾT: Abstract work (physics, art, math) dùng mechanism 
-  evolved cho survival → body reward fires dù KHÔNG trực tiếp survival
+  HYPOTHESIS: Abstract work (physics, art, math) uses mechanisms
+  evolved for survival → body reward fires even though NOT directly survival-relevant
 
-  NHƯNG "HIJACK" GỢI Ý: mechanism bị dùng SAI, output KHÔNG serve body-base
-  → Phân tích cho thấy: KHÔNG PHẢI "dùng sai" — là EXTENDED APPLICATION
+  BUT "HIJACK" IMPLIES: mechanism is being used INCORRECTLY, output does NOT serve body-base
+  → Analysis shows: NOT "incorrect use" — it is EXTENDED APPLICATION
 ```
 
 ### §10.2 — Evolution wired: inconsistency = danger
@@ -1586,21 +1589,21 @@ FILE NÀY:
 🟡 TIER 1 MECHANISM: INCONSISTENCY DETECTION
 
   Evolution selected:
-    → Môi trường inconsistent = khó predict = nguy hiểm
-    → Thú ăn thịt hành xử bất nhất → khó predict trajectory → dễ bị ăn
+    → Inconsistent environment = unpredictable = dangerous
+    → Predator behaving erratically → hard to predict trajectory → more likely to be caught
     → Genes wire: detect inconsistency → body discomfort → FIX IT → safety
     → = ACC (Anterior Cingulate Cortex) = inconsistency detector
     → 🟢 Bush, Luu, Posner 2000: ACC fires on conflict/error
 
   Mechanism properties:
-    → KHÔNG phân biệt domain: ACC detect inconsistency BẤT KỲ
-    → [con mồi đi lạ hướng] = inconsistency → body alert
+    → Does NOT distinguish domains: ACC detects inconsistency ANYWHERE
+    → [prey moving in wrong direction] = inconsistency → body alert
     → [Newton ≠ Maxwell] = inconsistency → body alert
-    → CÙNG ACC, CÙNG signal type
-    → Body KHÔNG "biết" đây là physics — body chỉ biết "pattern không khớp"
+    → SAME ACC, SAME signal type
+    → Body does NOT "know" this is physics — body only knows "pattern doesn't fit"
 
-  → = Tier 1 mechanism applied BEYOND original domain
-  → Giống: hand evolved for grasping → ALSO used for writing, playing piano
+  → = Tier 1 mechanism applied BEYOND its original domain
+  → Similar to: hand evolved for grasping → ALSO used for writing, playing piano
   → = Extended application, NOT malfunction
 
   v2.0 NOTE — COMPILABLE ARCHITECTURE CONNECTION:
@@ -1611,106 +1614,108 @@ FILE NÀY:
       → Bee cannot feel "eureka" about physics
     → Compilable Architecture (humans): mechanism GENERAL
       → Human CAN feel "eureka" about abstract patterns
-    → = Abstract gap fill is FEATURE of Compilable Architecture, not bug
+    → = Abstract gap fill is a FEATURE of Compilable Architecture, not a bug
 ```
 
-### §10.3 — 2 con đường serve body-base
+### §10.3 — 2 pathways to serve body-base
 
 ```
-⭐ ABSTRACT ACTIVITY SERVE BODY-BASE QUA 2 CON ĐƯỜNG:
+⭐ ABSTRACT ACTIVITY SERVES BODY-BASE THROUGH 2 PATHWAYS:
 
-  CON ĐƯỜNG 1 — TRỰC TIẾP (internal state improve):
-    → Inconsistency trong world model → body feels "unsafe" → cortisol
-    → Resolve inconsistency → pattern coherent → body feels "safe" → opioid
-    → = Body-base state THẬT SỰ improve:
-      ✅ Cortisol giảm (inconsistency resolved)
-      ✅ Opioid tăng (coherence reward)
-      ✅ Sleep cải thiện (less pending → less cortisol holding)
-    → = Body-base served TRỰC TIẾP, ĐỘC LẬP với outcome bên ngoài
-    → = Einstein feel better NGAY KHI derive E=mc², trước khi anyone knows
+  PATHWAY 1 — DIRECT (internal state improves):
+    → Inconsistency in the world model → body feels "unsafe" → cortisol
+    → Resolve inconsistency → pattern is coherent → body feels "safe" → opioid
+    → = Body-base state GENUINELY improves:
+      ✅ Cortisol decreases (inconsistency resolved)
+      ✅ Opioid increases (coherence reward)
+      ✅ Sleep improves (less pending → less cortisol holding)
+    → = Body-base served DIRECTLY, INDEPENDENT of external outcomes
+    → = Einstein feels better THE MOMENT he derives E=mc², before anyone knows
 
-  CON ĐƯỜNG 2 — GIÁN TIẾP (external outcome):
+  PATHWAY 2 — INDIRECT (external outcomes):
     → Abstract work → expertise → recognition → status → resources
     → Einstein: E=mc² → fame → academic position → resources → body-base
-    → = NHƯNG đây là CONSEQUENCE, không phải REASON body reward fires
-    → Body reward fires VÌ con đường 1 (gap fill)
-    → Con đường 2 = bonus, thường arrives LATER
+    → = BUT this is a CONSEQUENCE, not the REASON body reward fires
+    → Body reward fires BECAUSE of Pathway 1 (gap fill)
+    → Pathway 2 = bonus, usually arrives LATER
 
-  TẠI SAO EVOLUTION KHÔNG "CẮT" ABSTRACT APPLICATION:
-    → Vì: người giải abstract problems = SURVIVAL ADVANTAGE
+  WHY EVOLUTION DID NOT "CUT OFF" THE ABSTRACT APPLICATION:
+    → Because: people who solve abstract problems = SURVIVAL ADVANTAGE
     → Tool invention, strategic planning, prediction = abstract gap fill
-    → Selection pressure: keep mechanism GENERAL → apply rộng
+    → Selection pressure: keep mechanism GENERAL → apply broadly
     → Restrict to survival-only → lose abstract capability → disadvantage
     → = "Feature, not bug" — generalizing gap detection = competitive edge
 ```
 
-### §10.4 — Einstein full lifecycle (Gap Direction deep analysis)
+### §10.4 — Einstein's full lifecycle (Gap Direction deep analysis)
 
 ```
-⭐⭐ EINSTEIN = CASE HOÀN HẢO ĐỂ TEST GAP DIRECTION MECHANISM:
+⭐⭐ EINSTEIN = THE PERFECT CASE TO TEST THE GAP DIRECTION MECHANISM:
 
-  Tại sao case này quan trọng:
-  → Process kéo dài DECADES → thấy rõ direction EVOLVES
-  → Multiple mini-arcs → thấy oscillation dynamics
-  → Breakthrough + post-breakthrough → thấy perpetual loop
-  → Verify cascade → thấy reward tầng tầng
-  → = Test TOÀN BỘ Gap Direction mechanism end-to-end
+  Why this case matters:
+  → Process spans DECADES → direction EVOLUTION is clearly visible
+  → Multiple mini-arcs → oscillation dynamics visible
+  → Breakthrough + post-breakthrough → perpetual loop visible
+  → Verify cascade → layered reward visible
+  → = Tests the ENTIRE Gap Direction mechanism end-to-end
 
 
   ┌─────────────────────────────────────────────────────────────┐
-  │  PHASE 0 — GAP DIRECTION BAN ĐẦU: MỜ                       │
+  │  PHASE 0 — INITIAL GAP DIRECTION: FUZZY                     │
   ├─────────────────────────────────────────────────────────────┤
   │                                                             │
   │  Chunks: [Newton mechanics] + [Maxwell electromagnetism]    │
-  │  Conflict: "tốc độ ánh sáng không khớp giữa 2 framework"   │
+  │  Conflict: "speed of light doesn't match between 2 frameworks"│
   │                                                             │
   │  Gap direction:                                             │
-  │    = "CÁI GÌ ĐÓ giải mâu thuẫn này"                       │
-  │    = Direction MỜ: chỉ biết "cần cái gì đó"               │
-  │    = KHÔNG biết hình dạng cụ thể (chưa biết E=mc² tồn tại) │
-  │    = §4.2 Specificity: BROAD (constraints lỏng)             │
+  │    = "SOMETHING that resolves this contradiction"           │
+  │    = Direction FUZZY: only knows "something is needed"      │
+  │    = Does NOT know specific shape (doesn't know E=mc² exists)│
+  │    = §4.2 Specificity: BROAD (loose constraints)            │
   │                                                             │
-  │  Analogy: biết "mảnh puzzle thiếu" nhưng CHƯA biết          │
-  │  bức tranh tổng thể → chỉ biết constraints từ mảnh xung    │
-  │  quanh (must be compatible với Newton AND Maxwell)           │
+  │  Analogy: knows "puzzle piece is missing" but DOESN'T yet  │
+  │  know the full picture → only knows constraints from pieces │
+  │  around it (must be compatible with Newton AND Maxwell)      │
   │                                                             │
   │  Body signal: mild dissonance — "something doesn't fit"     │
-  │  Imagine-Final: fuzzy — "unified framework nào đó"          │
+  │  Imagine-Final: fuzzy — "some kind of unified framework"    │
   └─────────────────────────────────────────────────────────────┘
 
 
   ┌─────────────────────────────────────────────────────────────┐
-  │  PHASE 1-3 — OSCILLATION: reward + new dissonance (§7.5)   │
+  │  PHASES 1-3 — OSCILLATION: reward + new dissonance (§7.5)  │
   ├─────────────────────────────────────────────────────────────┤
   │                                                             │
   │  MINI-ARC 1 — Photoelectric effect (1905):                  │
-  │    Fill: photon model giải photoelectric → opioid ✅         │
+  │    Fill: photon model explains photoelectric → opioid ✅    │
   │    New chunks: [photon] + [wave-particle duality]           │
   │    New inconsistency: "photon model ≠ Maxwell continuous"   │
   │    Net: reward + MORE dissonance                            │
-  │    Direction SHIFT: "cần gì đó RỘNG HƠN chỉ photoelectric" │
+  │    Direction SHIFTS: "need something BROADER than just the  │
+  │      photoelectric effect"                                  │
   │                                                             │
   │  MINI-ARC 2 — Special relativity (1905):                    │
-  │    Fill: time dilation, length contraction → opioid ✅✅     │
+  │    Fill: time dilation, length contraction → opioid ✅✅    │
   │    New chunks: [spacetime] + [Lorentz] + [E=mc²]           │
-  │    New inconsistency: "SR KHÔNG handle gravity"             │
+  │    New inconsistency: "SR does NOT handle gravity"          │
   │    Net: bigger reward + BIGGER dissonance                   │
-  │    Direction SHARPEN: "cần geometric theory of gravity"     │
+  │    Direction SHARPENS: "need a geometric theory of gravity" │
   │                                                             │
   │  MINI-ARC 3 — Grossman collaboration (1912-1914):           │
   │    Fill: tensor calculus tools → opioid ✅ ("this might fit")│
   │    New chunks: [tensor calculus] + [Riemannian geometry]    │
-  │    New inconsistency: "equations gần đúng nhưng CHƯA hoàn  │
-  │      toàn khớp"                                             │
-  │    Net: moderate reward + ACCUMULATED dissonance cực cao     │
+  │    New inconsistency: "equations close but NOT yet fully    │
+  │      correct"                                               │
+  │    Net: moderate reward + ACCUMULATED dissonance extremely  │
+  │      high                                                   │
   │                                                             │
-  │  TREND qua Phase 1-3:                                       │
-  │    → Network physics: GROWS massively mỗi year              │
+  │  TREND through Phases 1-3:                                  │
+  │    → Physics network: GROWS massively each year             │
   │    → Gap direction: SHARPENS (fuzzy → "geometric gravity")  │
-  │    → Total dissonance: TÍCH TỤ (rất nhiều chunks giá trị   │
-  │      nhưng CHƯA THỐNG NHẤT)                                │
+  │    → Total dissonance: ACCUMULATES (many valuable chunks    │
+  │      not yet unified)                                       │
   │    → Body state: persistent mild-to-moderate dissonance     │
-  │      + cortisol holding + Imagine-Final lặp cưỡng bức       │
+  │      + cortisol holding + forced Imagine-Final loop         │
   │    → = Conditions for COMPOUND BREAKTHROUGH building        │
   │                                                             │
   └─────────────────────────────────────────────────────────────┘
@@ -1720,112 +1725,118 @@ FILE NÀY:
   │  PHASE 4 — BREAKTHROUGH: November 1915                      │
   ├─────────────────────────────────────────────────────────────┤
   │                                                             │
-  │  Field equations hoàn chỉnh:                                │
-  │    → 1 framework UNIFY tất cả accumulated chunks            │
-  │    → KHÔNG chỉ fill 1 gap — resolve ALL accumulated        │
-  │      mini-inconsistencies ĐỒNG THỜI                         │
+  │  Field equations completed:                                 │
+  │    → 1 framework UNIFIES all accumulated chunks             │
+  │    → NOT just filling 1 gap — resolves ALL accumulated     │
+  │      mini-inconsistencies SIMULTANEOUSLY                    │
   │                                                             │
-  │  Tại sao reward CỰC LỚN:                                   │
+  │  Why reward is MASSIVE:                                     │
   │    ① Chunk-Gap fill: unified framework found → opioid       │
-  │    ② Chunk-Miss reverse: YEARS of "chưa tìm ra" → "ĐÂY RỒI"│
-  │    ③ Chunk-Shift: self-schema "tôi = người giải được"       │
+  │    ② Chunk-Miss reverse: YEARS of "haven't found it" →     │
+  │         "HERE IT IS!"                                       │
+  │    ③ Chunk-Shift: self-schema "I = the one who solved this" │
   │    ④ Cortisol DROP: years of holding signal → RELEASED      │
   │    ⑤ Accumulated inconsistencies: ALL resolved at once      │
-  │    = COMPOUND 5 dynamics → "intensely pleasant"                   │
+  │    = COMPOUND 5 dynamics → "intensely pleasant"             │
   │                                                             │
   │  ⭐ Reward ∝ accumulated_dissonance × time_pending           │
   │           × network_size × all-at-once_resolution           │
   │  = Years × massive network × compound                       │
-  │  = COMPOUND EXPLOSION, not single fill                      │
+  │  = COMPOUND EXPLOSION, not a single fill                    │
   │                                                             │
   └─────────────────────────────────────────────────────────────┘
 
 
   ┌─────────────────────────────────────────────────────────────┐
-  │  PHASE 4.5 — VERIFY CASCADE: reward TẦNG TẦNG              │
+  │  PHASE 4.5 — VERIFY CASCADE: reward in LAYERS               │
   ├─────────────────────────────────────────────────────────────┤
   │                                                             │
-  │  TẦNG 1 — Self-verify (logic cá nhân):                      │
-  │    Einstein tự check equations → "toán đúng"                │
-  │    Body: coherent internally → opioid ✅                     │
-  │    NHƯNG: still uncertain → residual anxiety                │
+  │  LAYER 1 — Self-verify (personal logic):                    │
+  │    Einstein checks equations himself → "math is correct"    │
+  │    Body: internally coherent → opioid ✅                    │
+  │    BUT: still uncertain → residual anxiety                  │
   │                                                             │
-  │  TẦNG 2 — Friend-verify (Grossman, Besso, Hilbert):        │
-  │    Share → họ check → "hợp lý"                              │
-  │    Self-Pattern-Modeling: "người tôi tôn trọng CŨNG thấy đúng" → opioid ✅   │
-  │    Trust dimension tăng → residual anxiety giảm              │
+  │  LAYER 2 — Friend-verify (Grossman, Besso, Hilbert):        │
+  │    Shares → they check → "makes sense"                      │
+  │    Self-Pattern-Modeling: "people I respect ALSO agree" →  │
+  │      opioid ✅                                              │
+  │    Trust dimension grows → residual anxiety decreases        │
   │                                                             │
-  │  TẦNG 3 — Community-verify (publish, peer review):          │
-  │    Paper → physics community gradually confirm logic        │
-  │    Mỗi confirmation = thêm 1 layer reward                   │
+  │  LAYER 3 — Community-verify (publish, peer review):         │
+  │    Paper → physics community gradually confirms logic        │
+  │    Each confirmation = 1 more layer of reward               │
   │    Trust dimension continues growing                         │
   │                                                             │
-  │  TẦNG 4 — Empirical-verify (1919 eclipse, Eddington):      │
+  │  LAYER 4 — Empirical-verify (1919 eclipse, Eddington):      │
   │    Light bends EXACTLY as predicted → reality itself confirms│
-  │    Trust dimension MAXIMIZED: "không cần nghi ngờ nữa"      │
-  │    = PEAK reward (Phase 5 > Phase 4 vì Trust complete)      │
-  │    (04-Integration.md §6.6: Trust dimension analysis)       │
+  │    Trust dimension MAXIMIZED: "no need to doubt anymore"    │
+  │    = PEAK reward (Phase 5 > Phase 4 because Trust complete) │
+  │    (04-Integration.md §6.6: Trust dimension analysis)        │
   │                                                             │
-  │  Mechanism mỗi tầng:                                        │
-  │    ⓐ Residual uncertainty giảm → cortisol drop → relief     │
-  │    ⓑ Trust dimension tăng (Anchor-Schema.md §2)             │
-  │    ⓒ Self-schema reinforced: "tôi THẬT SỰ đúng"            │
-  │    ⓓ Social reward: recognition, status (con đường 2)       │
-  │    = Reward không phải 1 lần — là CASCADE qua nhiều tầng    │
+  │  Mechanism at each layer:                                   │
+  │    ⓐ Residual uncertainty decreases → cortisol drops → relief│
+  │    ⓑ Trust dimension grows (Anchor-Schema.md §2)            │
+  │    ⓒ Self-schema reinforced: "I was TRULY right"            │
+  │    ⓓ Social reward: recognition, status (Pathway 2)         │
+  │    = Reward is not 1 moment — it is a CASCADE across layers  │
   │                                                             │
   └─────────────────────────────────────────────────────────────┘
 
 
   ┌─────────────────────────────────────────────────────────────┐
-  │  PHASE 5 — "NGHIỆN": PERPETUAL PURSUIT                     │
+  │  PHASE 5 — "ADDICTION-LIKE DRIVE": PERPETUAL PURSUIT        │
   ├─────────────────────────────────────────────────────────────┤
   │                                                             │
-  │  Sau general relativity:                                    │
-  │    Network physics: CỰC LỚN (biggest ever for 1 person)    │
-  │    → Network LỚN → detect NEW inconsistency:               │
+  │  After general relativity:                                  │
+  │    Physics network: EXTREMELY LARGE (biggest ever for 1     │
+  │      person)                                                │
+  │    → Large network → detects NEW inconsistency:             │
   │      "General relativity ≠ quantum mechanics"               │
   │    → NEW GAP: "unified field theory"                        │
   │    → = §7.5 oscillation: fill → new chunks → new gap       │
   │                                                             │
-  │  TẠI SAO KHÔNG THỂ DỪNG — 5 mechanisms lock:               │
+  │  WHY CANNOT STOP — 5 locking mechanisms:                    │
   │                                                             │
-  │  ① NEW GAP INEVITABLE:                                      │
-  │    Network lớn hơn → detect inconsistency mới → gap mới    │
-  │    Câu hỏi KHÔNG BAO GIỜ HẾT vì mỗi answer = thêm chunks │
-  │    = thêm detection capability (Novelty.md §5 combinatorial)│
+  │  ① NEW GAP IS INEVITABLE:                                   │
+  │    Larger network → detects new inconsistency → new gap     │
+  │    Questions NEVER END because each answer = more chunks    │
+  │    = more detection capability (Novelty.md §5 combinatorial)│
   │                                                             │
   │  ② REWARD MEMORY (Background-Pattern):                      │
   │    Body compiled: [physics gap fill = MASSIVE opioid]       │
-  │    Background-Pattern hình thành: [tìm kiếm vật lý = who I am]             │
-  │    Body BIẾT: effort trong domain → reward CỰC LỚN possible│
-  │    = Drive cực mạnh vì reward history cực sâu               │
+  │    Background-Pattern formed: [seeking physics = who I am]  │
+  │    Body KNOWS: effort in domain → massive reward POSSIBLE   │
+  │    = Drive extremely strong because reward history is deep   │
   │                                                             │
   │  ③ GAP→MISS TRANSITION:                                     │
-  │    "Unified field theory" gap → Imagine-Final preview lặp   │
-  │    Preview compile thành baseline → body EXPECTS resolution │
-  │    Chưa resolution → Chunk-Miss LIÊN TỤC → cortisol hold   │
-  │    = KHÔNG THỂ dừng nghĩ về nó                              │
+  │    "Unified field theory" gap → Imagine-Final preview loops │
+  │    Preview compiles as baseline → body EXPECTS resolution   │
+  │    No resolution → Chunk-Miss CONTINUOUSLY → cortisol hold │
+  │    = CANNOT stop thinking about it                          │
   │                                                             │
-  │  ④ IDENTITY LOCKED:                                          │
-  │    Self-schema: "tôi = nhà vật lý tìm unified theory"      │
-  │    DỪNG research = identity threat → massive dissonance     │
-  │    (Background-Pattern.md §10.4: Background-Pattern integrated into identity)│
+  │  ④ IDENTITY LOCKED:                                         │
+  │    Self-schema: "I = a physicist seeking unified theory"    │
+  │    STOPPING research = identity threat → massive dissonance │
+  │    (Background-Pattern.md §10.4: Background-Pattern         │
+  │      integrated into identity)                              │
   │                                                             │
-  │  ⑤ DEPTH × SPECIFICITY TRAP:                                │
-  │    Network cực deep + cực specific → gap cực narrow         │
+  │  ⑤ DEPTH × SPECIFICITY TRAP:                               │
+  │    Extremely deep network + extremely specific → gap         │
+  │      extremely narrow                                        │
   │    Very few possible fills → persistent → perpetual drive   │
-  │    Einstein spent 30 YEARS (1925-1955) — KHÔNG tìm ra       │
+  │    Einstein spent 30 YEARS (1925-1955) — NEVER found it     │
   │    = Gap too deep + too narrow → unresolvable within        │
-  │      lifetime → chronic pursuit                             │
+  │      a lifetime → chronic pursuit                           │
   │                                                             │
-  │  "CƠN NGHIỆN" = CÙNG mechanism như addiction:               │
-  │    ① Reward history compiled deep → body expect reward      │
+  │  "ADDICTION-LIKE DRIVE" = SAME mechanism as addiction:      │
+  │    ① Reward history compiled deep → body expects reward     │
   │    ② Gap persistent → cortisol holding → can't stop         │
   │    ③ Identity locked → stopping = self-schema threat        │
   │    ④ Network grows → more gaps → more drive                 │
-  │    KHÁC addiction: abstract gap fill SERVE body-base         │
-  │    Addiction: fill KHÔNG serve body-base                     │
-  │    = Cùng mechanism, khác outcome = Feature vs Bug           │
+  │    DIFFERENCE from addiction: abstract gap fill SERVES      │
+  │      body-base                                              │
+  │    Addiction: fill does NOT serve body-base                  │
+  │    = Same mechanism, different outcome = Feature vs Bug      │
   │                                                             │
   └─────────────────────────────────────────────────────────────┘
 ```
@@ -1833,209 +1844,209 @@ FILE NÀY:
 ### §10.5 — Other cases
 
 ```
-🟡 CASES KHÁC — ABSTRACT ACTIVITY × BODY-BASE:
+🟡 OTHER CASES — ABSTRACT ACTIVITY × BODY-BASE:
 
-  HỌC SINH HỌC TỐI NGÀY:
-    Gap: "tương lai tốt hơn" (Imagine-Final compiled)
+  STUDENT STUDYING INTENSELY:
+    Gap: "a better future" (Imagine-Final compiled)
     Direction: toward academic success → career → resources
-    Con đường 1: mỗi bài học = mini gap fill → micro opioid ✅
-    Con đường 2: grades → opportunities → body-base future ✅
-    ⚠️ NẾU học dưới threat cortisol → Con đường 1 bị poison
-      (chunks compile với cortisol tag → "ghét học" dù vẫn drive)
+    Pathway 1: each lesson = mini-gap fill → micro-opioid ✅
+    Pathway 2: grades → opportunities → future body-base ✅
+    ⚠️ IF studying under cortisol-threat → Pathway 1 gets poisoned
+      (chunks compile with cortisol tag → "hate studying" even if drive persists)
 
-  ĐI TỪ THIỆN (CHỈ CHO ĐI):
-    Gap: Self-Pattern-Modeling fire → simulate recipient's need → body feel need ✅
-    Direction: reduce other's suffering (gap via Compiled body simulation)
-    Con đường 1: Self-Pattern-Modeling gap fill + oxytocin → body-state improve ✅
-    Con đường 2: community standing → access → body-base ✅
-    + Self-schema shift: "tôi = generous" → chunks compile → reward
+  DOING CHARITY (GIVING ONLY):
+    Gap: Self-Pattern-Modeling fires → simulates recipient's need → body feels need ✅
+    Direction: reduce other's suffering (gap via compiled body simulation)
+    Pathway 1: Self-Pattern-Modeling gap fill + oxytocin → body-state improves ✅
+    Pathway 2: community standing → access → body-base ✅
+    + Self-schema shift: "I = generous" → chunks compile → reward
     + Connection pathway ④ (Connection.md §8): giving = reward pathway
     = MULTIPLE reward channels override resource loss
 
-  NGHỆ SĨ SÁNG TÁC:
+  ARTIST CREATING:
     Gap: aesthetic vision not yet realized (creative gap)
     Direction: specific artistic expression
-    Con đường 1: each creative step = mini gap fill → opioid ✅
-    Con đường 2: art → recognition → resources (IF successful) ⚠️
-    ⚠️ Con đường 2 uncertain → many artists persist 
-      VÌ con đường 1 đủ strong
-    = Explain: "starving artist" = con đường 1 reward > resource loss
+    Pathway 1: each creative step = mini-gap fill → opioid ✅
+    Pathway 2: art → recognition → resources (IF successful) ⚠️
+    ⚠️ Pathway 2 uncertain → many artists persist
+      BECAUSE Pathway 1 is strong enough
+    = Explains: "starving artist" = Pathway 1 reward > resource loss
 
-  GIẢI SUDOKU:
-    Gap: each empty cell = mini gap (network predict specific number)
+  SOLVING SUDOKU:
+    Gap: each empty cell = mini-gap (network predicts a specific number)
     Direction: VERY specific (number X in cell Y)
-    Con đường 1: fill cell → micro opioid → fill all → compound ✅
-    Con đường 2: minimal (no status, no resources from Sudoku)
-    = Almost purely con đường 1 — demonstrates abstract gap fill
-      serve body-base TRỰC TIẾP without external outcome
+    Pathway 1: fill cell → micro-opioid → fill all → compound ✅
+    Pathway 2: minimal (no status, no resources from Sudoku)
+    = Almost purely Pathway 1 — demonstrates abstract gap fill
+      serves body-base DIRECTLY without external outcomes
 ```
 
 ---
 
 ## §11 — EXAMPLES (organized by property tested)
 
-### §11.1 — Nhóm A: "Chưa biết = không có gap"
+### §11.1 — Group A: "What you don't know creates no gap"
 
 ```
 🟡 TEST: No chunks → no gap → no desire → no reward
 
-  A1. EM BÉ 3 TUỔI NHẬN IPHONE 16 PRO MAX:
+  A1. 3-YEAR-OLD CHILD RECEIVES THE LATEST FLAGSHIP SMARTPHONE:
     Chunks about smartphone: ≈ 0
-    Gap about iPhone: IMPOSSIBLE (no surrounding chunks)
-    Nhận → curious (bấm→đèn sáng = sensory novelty)
-    NHƯNG: không "pleasant vì có iPhone" → gap không tồn tại
-    → Bố mẹ: chunks phong phú → gap → pleasant
-    → CÙNG vật, KHÁC gap existence → KHÁC reward ✅
+    Gap about smartphone: IMPOSSIBLE (no surrounding chunks)
+    Receives it → curious (presses button → screen lights up = sensory novelty)
+    BUT: no "pleasant because I have a flagship phone" → gap doesn't exist
+    → Parents: rich chunks → gap → pleasant
+    → SAME object, DIFFERENT gap existence → DIFFERENT reward ✅
 
-  A2. NGƯỜI CHƯA BIẾT CỜ VUA NHẬN BÀN CỜ ĐẮT:
-    Chunks about chess: ≈ 0 → no gap "muốn bàn cờ đẹp"
-    Nhận → "ồ, đẹp" (visual novelty) nhưng không reward sâu
-    → Người chơi 10 năm: gap "bàn cờ chất lượng" → pleasant ✅
+  A2. PERSON WHO DOESN'T KNOW CHESS RECEIVES AN EXPENSIVE CHESS SET:
+    Chunks about chess: ≈ 0 → no gap "want a beautiful chess set"
+    Receives it → "oh, it's pretty" (visual novelty) but no deep reward
+    → 10-year player: gap "quality chess set" → pleasant ✅
 
-  A3. DÂN BẢN ĐỊA AMAZON NHẬN LAPTOP:
-    Chunks digital technology: ≈ 0 → concept không tồn tại
-    Nhận → curiosity → có thể dùng làm thớt
+  A3. AMAZON INDIGENOUS PERSON RECEIVES A LAPTOP:
+    Digital technology chunks: ≈ 0 → concept doesn't exist
+    Receives it → curiosity → might use it as a cutting board
     → Gap about "laptop": IMPOSSIBLE ✅
 
-  A4. CHƯA NGHE JAZZ ĐƯỢC TẶNG VÉ CONCERT JAZZ:
-    Chunks jazz: minimal (label only) → gap gần như không tồn tại
-    → Người yêu jazz 20 năm: specific gap → intensely pleasant ✅
+  A4. PERSON WHO HAS NEVER HEARD JAZZ RECEIVES A JAZZ CONCERT TICKET:
+    Jazz chunks: minimal (label only) → gap barely exists
+    → 20-year jazz lover: specific gap → intensely pleasant ✅
 
-  KẾT LUẬN: Tất cả 4 cases confirm — no chunks = no gap = no reward
+  CONCLUSION: All 4 cases confirm — no chunks = no gap = no reward
 ```
 
-### §11.2 — Nhóm B: "Cùng vật, sai hướng"
+### §11.2 — Group B: "Same object, wrong direction"
 
 ```
-🟡 TEST: Direction mismatch → no reward dù category match
+🟡 TEST: Direction mismatch → no reward even though category matches
 
-  B1. THÍCH TOÁN, ĐƯỢC TẶNG SÁCH VĂN HỌC ĐẮT:
-    Gap direction: "sách toán hay" (math chunks phong phú)
-    Sách văn: category "sách" ✅ nhưng direction "toán" ❌
-    → Mild appreciation nhưng không gap-fill reward ✅
+  B1. LOVES MATH, RECEIVES AN EXPENSIVE LITERATURE BOOK:
+    Gap direction: "a good math book" (rich math chunks)
+    Literature book: category "book" ✅ but direction "math" ❌
+    → Mild appreciation but no gap-fill reward ✅
 
-  B2. ĐANG KHÁT NƯỚC, ĐƯỢC TẶNG ĐỒ ĂN NGON:
-    Gap direction: "nước" (Tier 1 dehydration → specific)
-    Đồ ăn: satisfy hunger nhưng MISS thirst direction
-    → Body VẪN signal "khát" dù ăn no ✅
+  B2. VERY THIRSTY, RECEIVES DELICIOUS FOOD:
+    Gap direction: "water" (Tier 1 dehydration → specific)
+    Food: satisfies hunger but MISSES thirst direction
+    → Body STILL signals "thirsty" even after eating ✅
 
-  B3. MUỐN XE ĐỎ, ĐƯỢC XE CÙNG MODEL MÀU XANH:
-    Gap direction: model X + MÀU ĐỎ (narrow specificity)
-    Xe xanh: match 90% nhưng miss 10% (color dimension)
-    → Reward CÓ nhưng "nhưng..." feeling = partial direction match ✅
+  B3. WANTS A RED CAR, RECEIVES SAME MODEL IN BLUE:
+    Gap direction: model X + RED COLOR (narrow specificity)
+    Blue car: 90% match but misses 10% (color dimension)
+    → Reward IS THERE but "but..." feeling = partial direction match ✅
 
-  B4. THÍCH PHỞ BÒ, ĐƯỢC MỜI PHỞ GÀ:
-    Gap direction: "phở bò tái" (specific compiled preference)
-    Phở gà: "phở" ✅ nhưng "bò tái" ❌
-    → Reward partial + "tiếc" nhẹ (miss direction) ✅
+  B4. LOVES BEEF PHO, OFFERED CHICKEN PHO:
+    Gap direction: "beef pho, rare" (specific compiled preference)
+    Chicken pho: "pho" ✅ but "beef rare" ❌
+    → Partial reward + mild sense of missing (direction missed) ✅
 
-  KẾT LUẬN: Direction match required — category match NOT sufficient
+  CONCLUSION: Direction match is required — category match is NOT sufficient
 ```
 
-### §11.3 — Nhóm C: "More ≠ better" (range exceeded)
+### §11.3 — Group C: "More ≠ better" (range exceeded)
 
 ```
 🟡 TEST: Correct direction but BEYOND range → diminished/negative
 
   C1. MASSAGE:
     Direction: relaxation (Tier 1)
-    Range: nhẹ→ok→pleasant→hơi đau→ĐAU (bell curve)
-    → Cực mạnh: đúng direction nhưng VƯỢT range → nociception ✅
+    Range: light→ok→pleasant→slightly painful→PAINFUL (bell curve)
+    → Maximum pressure: correct direction but EXCEEDS range → nociception ✅
 
-  C2. ÂM NHẠC VOLUME:
+  C2. MUSIC VOLUME:
     Direction: auditory enjoyment (Tier 1)
-    Range: nhỏ→vừa→enjoy→exciting→ĐAU tai
-    → Cực lớn: cochlear damage → nociception override ✅
+    Range: quiet→moderate→enjoyable→exciting→EAR PAIN
+    → Maximum volume: cochlear damage → nociception overrides ✅
 
-  C3. TIỀN THƯỞNG:
+  C3. BONUS PAYMENT:
     Direction: resource reward
-    Range: 1tr→10tr→100tr→1000 tỷ
-    → 1000 tỷ: "không tin" → Precondition-4 violated (mismatch self-schema) ✅
+    Range: 1M→10M→100M→1000 billion
+    → 1000 billion: "can't believe it" → Precondition-4 violated (mismatch self-schema) ✅
 
-  C4. KHEN:
+  C4. PRAISE:
     Direction: recognition (self-schema relevant)
-    Range: "tốt đấy"→"giỏi"→"thiên tài"→"Einstein thứ 2"
-    → "Einstein thứ 2": body reject (mismatch self-schema quá lớn) ✅
+    Range: "good job"→"talented"→"genius"→"a second Einstein"
+    → "A second Einstein": body rejects (mismatch self-schema too large) ✅
 
-  C5. ĂN KẸO:
+  C5. EATING CANDY:
     Direction: sweet taste (Tier 1)
-    Range: 1 cái→5 cái→10 cái→100 cái
-    → 100 cái: receptor saturation + nausea + blood sugar alarm ✅
+    Range: 1 piece→5 pieces→10 pieces→100 pieces
+    → 100 pieces: receptor saturation + nausea + blood sugar alarm ✅
 
-  C6. GIA VỊ ĐỒ ĂN:
+  C6. FOOD SEASONING:
     Direction: taste enhancement (Tier 1)
-    Range: nhạt→vừa→ngon→quá mặn/cay→PAIN
-    → x10 gia vị: nociception override taste reward ✅
+    Range: bland→right→delicious→too salty/spicy→PAIN
+    → 10× seasoning: nociception overrides taste reward ✅
 
-  KẾT LUẬN: Bell curve per dimension — more ≠ better, even in correct direction
+  CONCLUSION: Bell curve per dimension — more ≠ better, even in correct direction
 ```
 
-### §11.4 — Nhóm D: "Abstract gap fill"
+### §11.4 — Group D: "Abstract gap fill"
 
 ```
 🟡 TEST: Abstract activity fills gap → body reward despite no direct survival value
 
-  D1. GIẢI SUDOKU:
-    Gap: each empty cell = mini gap, network predict specific number
-    Direction: "số X ở ô Y" (very specific, very narrow)
-    Fill each cell → micro opioid. Complete → compound reward.
-    → Cho người không biết Sudoku → no chunks → no gap → no drive ✅
+  D1. SOLVING SUDOKU:
+    Gap: each empty cell = mini-gap, network predicts specific number
+    Direction: "number X in cell Y" (very specific, very narrow)
+    Fill each cell → micro-opioid. Complete → compound reward.
+    → For someone who doesn't know Sudoku → no chunks → no gap → no drive ✅
 
-  D2. ĐỌC TIỂU THUYẾT:
-    Gap: "chuyện gì xảy ra tiếp?" (plot creates directed gap)
+  D2. READING A NOVEL:
+    Gap: "what happens next?" (plot creates directed gap)
     Direction: character fate prediction (Self-Pattern-Modeling-based)
     Plot twist → prediction wrong → prediction-delta → new gap → fill → reward
-    → Tác giả = gap direction engineer (create→fill→create loop) ✅
+    → Author = gap direction engineer (create→fill→create loop) ✅
 
-  D3. SƯU TẦM TEM:
-    Gap: "con tem X từ năm Y" (extremely narrow direction)
+  D3. STAMP COLLECTING:
+    Gap: "stamp X from year Y" (extremely narrow direction)
     Fill: find specific stamp → gap fill → opioid
     Complete set = all gaps closed = massive compound
-    → Người ngoài: "mấy cái tem cũ" → no chunks → no gap → no reward ✅
+    → Outsider: "just old stamps" → no chunks → no gap → no reward ✅
 
-  D4. CHƠI GAME RPG:
+  D4. PLAYING AN RPG GAME:
     Gap: quests, levels, items = engineered gap system
     Direction: game designers CREATE gap directions deliberately
     Level up → self-schema shift (avatar = proxy self) → reward
     → Game = artificial gap-direction factory ✅
 
-  KẾT LUẬN: Abstract gaps use SAME mechanism — gap fill → opioid
+  CONCLUSION: Abstract gaps use SAME mechanism — gap fill → opioid
   regardless of survival relevance
 ```
 
-### §11.5 — Nhóm E: "Paradoxical reward"
+### §11.5 — Group E: "Paradoxical reward"
 
 ```
-🟡 TEST: Reward ở chỗ naive model predict KHÔNG reward
+🟡 TEST: Reward where a naive model predicts NO reward
 
-  E1. XEM PHIM BUỒN → KHÓC → NHƯNG "HAY":
-    Self-Pattern-Modeling Compiled: body simulate nhân vật → buồn THẬT
-    Gap: about human condition → film articulates → gap fill
-    + Safety frame: "đây là phim" → body process risk-free
-    = Buồn (body simulate) + reward (gap fill) + safety → MIX ✅
+  E1. WATCHING A SAD FILM → CRYING → BUT "GREAT FILM":
+    Self-Pattern-Modeling Compiled: body simulates character → genuinely sad
+    Gap: about the human condition → film articulates it → gap filled
+    + Safety frame: "this is a film" → body processes risk-free
+    = Sadness (body simulates) + reward (gap filled) + safety → MIX ✅
 
-  E2. ĂN ỚT (CAPSAICIN):
+  E2. EATING CHILI (CAPSAICIN):
     Nociceptors fire → PAIN signal
-    Body respond: endorphin release → opioid
-    + Compiled chunks after exposure: [cay = pleasant sau đau]
-    → Lần đầu: KHÔNG pleasant (chưa compiled)
-    → Sau exposure: direction SHIFT: [cay → endorphin → pleasant] ✅
+    Body responds: endorphin release → opioid
+    + Compiled chunks after exposure: [spicy = pleasant after the pain]
+    → First time: NOT pleasant (not yet compiled)
+    → After exposure: direction SHIFTS: [spicy → endorphin → pleasant] ✅
 
-  E3. TẬP GYM ĐAU CƠ:
-    Tập: nociception (muscle strain)
-    Sau tập: endorphin + sense of accomplishment
-    Imagine-Final: body fit → gap "body hiện tại vs body mong muốn"
-    Mỗi buổi tập = partial gap fill toward Imagine-Final ✅
+  E3. WORKING OUT — MUSCLE SORENESS:
+    During workout: nociception (muscle strain)
+    After workout: endorphin + sense of accomplishment
+    Imagine-Final: fit body → gap "current body vs desired body"
+    Each workout session = partial gap fill toward Imagine-Final ✅
 
-  E4. CHO TIỀN NGƯỜI LẠ (CHARITY):
-    Body mất resources → naive: should be NEGATIVE
-    Self-Pattern-Modeling Compiled → simulate recipient happy → body mirror → opioid
+  E4. GIVING MONEY TO A STRANGER (CHARITY):
+    Body loses resources → naive: should be NEGATIVE
+    Self-Pattern-Modeling Compiled → simulates recipient happy → body mirrors → opioid
     + Connection pathway ④ (giving reward)
-    + Self-schema: "tôi = generous" → positive shift
+    + Self-schema: "I = generous" → positive shift
     + Community mechanism: giving → others value you → access
     = MULTIPLE reward channels > resource loss ✅
 
-  KẾT LUẬN: Paradoxical rewards explained — multiple gaps/channels 
+  CONCLUSION: Paradoxical rewards explained — multiple gaps/channels
   interact, not just "stimulus → single response"
 ```
 
@@ -2043,7 +2054,7 @@ FILE NÀY:
 
 ```
   ┌─────────┬───────────────────────────────────┬─────────────┐
-  │ Nhóm    │ Test                              │ Confirmed?  │
+  │ Group   │ Test                              │ Confirmed?  │
   ├─────────┼───────────────────────────────────┼─────────────┤
   │ A (4)   │ No chunks → no gap → no reward    │ ✅ All 4    │
   │ B (4)   │ Wrong direction → no reward        │ ✅ All 4    │
@@ -2054,64 +2065,64 @@ FILE NÀY:
   │ TOTAL   │ 22 examples tested                │ ✅ All 22   │
   └─────────┴───────────────────────────────────┴─────────────┘
 
-  Không tìm được counter-example.
+  No counter-example was found.
 ```
 
 ---
 
 ## §12 — GAP DIRECTION × INTER-BODY: BY-PRODUCT MATCH + 2-STREAM (★ NEW v2.0)
 
-### §12.1 — Gap direction = foundation cho by-product match
+### §12.1 — Gap direction = foundation for by-product match
 
 ```
-⭐⭐ BY-PRODUCT MATCH CHỈ HOẠT ĐỘNG NẾU CÓ GAP DIRECTION:
+⭐⭐ BY-PRODUCT MATCH ONLY WORKS IF THERE IS GAP DIRECTION:
 
   Inter-Body-Mechanism.md §5.4:
-    "Entity B fill gap CỦA B → output = by-product"
-    "Khi by-product match gap direction CỦA A → A receives reward"
+    "Entity B fills B's own gap → output = by-product"
+    "When by-product matches A's gap DIRECTION → A receives reward"
 
-  ANALYSIS QUA GAP DIRECTION:
+  ANALYSIS THROUGH GAP DIRECTION:
     → "Match" = B's output fits THE SPECIFIC SHAPE of A's gap
-    → KHÔNG phải "B did something nice" (vague)
-    → = B's output match A's gap's DIRECTION + SPECIFICITY + RANGE
-    → = Gap direction is THE EVALUATOR for by-product match
+    → NOT "B did something nice" (vague)
+    → = B's output matches A's gap's DIRECTION + SPECIFICITY + RANGE
+    → = Gap direction IS THE EVALUATOR for by-product match
 
-  TẠI SAO CẦN GAP DIRECTION ĐỂ HIỂU BY-PRODUCT MATCH:
+  WHY GAP DIRECTION IS NEEDED TO UNDERSTAND BY-PRODUCT MATCH:
 
     ① WITHOUT gap direction: "B output → A reward" = magic
-       → Tại sao CÙNG output B → A1 reward, A2 nothing, A3 annoyance?
-       → = Không có explanatory mechanism
+       → Why the SAME output from B → A1 rewarded, A2 nothing, A3 annoyed?
+       → = No explanatory mechanism
 
-    ② WITH gap direction: "B output match A's specific direction → A reward"
-       → A1 reward: B's output match A1's gap direction ✅
-       → A2 nothing: B's output irrelevant to A2's gap directions
-       → A3 annoyance: B's output CONFLICTS A3's gap direction (anti-match)
+    ② WITH gap direction: "B output matches A's specific direction → A reward"
+       → A1 reward: B's output matches A1's gap direction ✅
+       → A2 nothing: B's output is irrelevant to A2's gap directions
+       → A3 annoyed: B's output CONFLICTS with A3's gap direction (anti-match)
        → = CLEAR mechanism. Testable. Per-person.
 
-  VÍ DỤ TRIPLE-CASE:
-    B = Ca sĩ hát live
-    B's gap: "muốn thể hiện, muốn khán giả thích" → action = hát
-    B's output = bài hát (by-product of filling B's gap)
+  TRIPLE-CASE EXAMPLE:
+    B = a live singer performing
+    B's gap: "want to perform, want the audience to enjoy" → action = singing
+    B's output = the song (by-product of filling B's gap)
 
-    A1 (fan 10 năm): gap direction = "nghe bài Y live từ ca sĩ B"
-      → Output match direction EXACTLY → massive reward ✅
-    A2 (đi cùng bạn, không biết ca sĩ): gap direction ≠ music domain
+    A1 (10-year fan): gap direction = "hear song Y live from singer B"
+      → Output exactly matches direction → massive reward ✅
+    A2 (came along with friend, doesn't know the singer): gap direction ≠ music domain
       → Output = irrelevant → no gap-fill reward (maybe mild novelty)
-    A3 (hàng xóm muốn yên tĩnh): gap direction = "quiet evening"
+    A3 (neighbor wanting a quiet evening): gap direction = "quiet evening"
       → Output = loud music → CONFLICTS direction → annoyance (anti-match) ❌
 
-    = CÙNG output (bài hát). 3 GAP DIRECTIONS khác nhau. 3 OUTCOMES khác nhau.
-    = Gap direction = THE mechanism explaining selectivity of by-product match.
+    = SAME output (the song). 3 DIFFERENT gap directions. 3 DIFFERENT outcomes.
+    = Gap direction = THE mechanism explaining the selectivity of by-product match.
 
 
   ⭐ ANTI-MATCH = NOT JUST "NO MATCH" — ACTIVE DIRECTION CONFLICT:
 
-    No-match: B's output irrelevant to A's gap (neutral — no reward, no harm)
-      VD: ca sĩ hát → người không quan tâm → nothing happens
+    No-match: B's output is irrelevant to A's gap (neutral — no reward, no harm)
+      Example: singer performs → someone who doesn't care → nothing happens
     
     Anti-match: B's output ACTIVELY OPPOSES A's gap direction
-      VD: CEO đổi mới → nhân viên gap "ổn định" → change = THREATS stability
-      VD: extrovert loud → introvert gap "quiet" → noise = CONFLICTS direction
+      Example: CEO innovates → employee gap "stability" → change = THREATENS stability
+      Example: extrovert is loud → introvert gap "quiet" → noise = CONFLICTS direction
       
     Anti-match is WORSE than no-match:
       → No-match = 0 reward (neutral)
@@ -2126,63 +2137,64 @@ FILE NÀY:
 ### §12.2 — 2-Stream Architecture × Gap Direction
 
 ```
-⭐ STREAM 1 VÀ STREAM 2 = 2 LOẠI GAP DIRECTION MATCH:
+⭐ STREAM 1 AND STREAM 2 = 2 TYPES OF GAP DIRECTION MATCH:
 
   (By-Product-Gap-Resonance.md v1.0 §2)
 
-  STREAM 1 × GAP DIRECTION:
-    = Hardware-level gap directions matched by EXISTENCE/THUỘC TÍNH
+  HARDWARE-STREAM × GAP DIRECTION:
+    = Hardware-level gap directions matched by EXISTENCE/ATTRIBUTES
 
     Mechanism:
-      Entity B TỒN TẠI / CÓ THUỘC TÍNH X
-      → X match A's gap direction (hardware or compiled)
+      Entity B EXISTS / HAS ATTRIBUTE X
+      → X matches A's gap direction (hardware or compiled)
       → A reward fires
-      B KHÔNG CẦN LÀM GÌ.
+      B DOES NOT NEED TO DO ANYTHING.
 
-    Gap direction involved:
+    Gap directions involved:
       → Tier 1 (hardware): baby schema, sexual attractiveness, voice timbre
       → Tier 2-3 (compiled): status patterns, aesthetic preferences
       → Direction evaluation: mostly COMPILED (automatic hardware check)
 
     Properties:
       → UNIDIRECTIONAL: A has gap, B's existence fills it. No loop.
-      → HABITUATES: constant stimulus → Weber-Fechner → direction "tắt dần"
+      → HABITUATES: constant stimulus → Weber-Fechner → direction "fades"
         (body adjusts baseline → same stimulus = smaller delta)
       → MULTI-CHANNEL: beauty + voice + smell = multiple directions matched
 
-    VD:
-      Chồng gap "aesthetic pleasure" → vợ xinh = Hardware-Stream match
-      Mẹ gap "caregiving fulfillment" → bé cute (baby schema) = Hardware-Stream match
-      Fan gap "novelty + beauty" → ca sĩ performance = Hardware-Stream match
+    Examples:
+      Husband's gap "aesthetic pleasure" → wife is attractive = Hardware-Stream match
+      Mother's gap "caregiving fulfillment" → baby is cute (baby schema) = Hardware-Stream match
+      Fan's gap "novelty + beauty" → singer's performance = Hardware-Stream match
 
 
-  STREAM 2 × GAP DIRECTION:
+  MODELING-STREAM × GAP DIRECTION:
     = Self-Pattern-Modeling-mediated gap directions matched by ACTIONS (mutual)
 
     Mechanism:
-      A's Self-Pattern-Modeling detect B's state → A respond phù hợp
-      → A's RESPONSE = by-product of A filling A's gap "hiểu B"
-      → A's response match B's gap direction "được hiểu"
-      → B reward → B respond → B's response match A's gap "được hiểu lại"
+      A's Self-Pattern-Modeling detects B's state → A responds appropriately
+      → A's RESPONSE = by-product of A filling A's gap "understanding B"
+      → A's response matches B's gap direction "being understood"
+      → B reward → B responds → B's response matches A's gap "being understood in return"
       → = MUTUAL by-product match via Self-Pattern-Modeling-mediated actions
 
-    Gap direction involved:
+    Gap directions involved:
       → Tier 2-4 (compiled): understanding, emotional resonance, shared meaning
-      → Direction evaluation: Compiled (experts in each other) hoặc
+      → Direction evaluation: Compiled (experts in each other) OR
         Fresh (still learning each other)
 
     Properties:
-      → BIDIRECTIONAL: CẦN cả 2 match nhau's gap directions
+      → BIDIRECTIONAL: REQUIRES both sides to match each other's gap directions
       → ANTI-HABITUATION: Hebbian → more practice → better match → MORE reward
         (direction matching IMPROVES → reward INCREASES over time)
-      → Can CHANGE gap direction: deep Modeling-Stream → A can help B see new gaps
-        ("bạn thân nói 1 câu thay đổi cách nhìn" = install chunks → new direction)
+      → CAN CHANGE gap direction: deep Modeling-Stream → A can help B see new gaps
+        ("a close friend's single sentence changes your perspective" =
+          install chunks → new direction)
 
-    VD:
-      Bạn thân A: gap "được hiểu mà không cần giải thích"
-        → B Self-Pattern-Modeling compiled → respond EXACTLY matching → A massive reward
+    Examples:
+      Close friend A: gap "to be understood without needing to explain"
+        → B's Self-Pattern-Modeling compiled → responds EXACTLY matching → A massive reward
       Therapist: gap direction "help client see clearly"
-        → Client Self-Pattern-Modeling reciprocate → therapist reward (mutual Modeling-Stream)
+        → Client's Self-Pattern-Modeling reciprocates → therapist rewarded (mutual Modeling-Stream)
 
 
   TEMPORAL DYNAMIC:
@@ -2215,16 +2227,16 @@ FILE NÀY:
     → General-purpose reward: ANY compiled gap fill → reward
     → Gap direction = EMERGED from accumulated chunk network
     → Each person = UNIQUE gap directions (different chunks compiled)
-    → = EXPLAINS personal reward differences PERFECTLY
+    → = PERFECTLY EXPLAINS personal reward differences
 
   IMPLICATIONS FOR INTER-BODY:
     → Compilable Architecture = WHY by-product match is SELECTIVE
-      (mỗi người có different directions → different matches)
+      (each person has different directions → different matches)
     → Compilable Architecture = WHY relationships are PERSONAL
       (my directions overlap SOME people, not others)
     → Compilable Architecture = WHY cultural bonding works
       (shared chunk install → shared directions → easier match)
-    → Compilable Architecture = WHY diversity valuable
+    → Compilable Architecture = WHY diversity is valuable
       (different directions → different outputs → richer by-product landscape)
 
   INTER-BODY CONSEQUENCE:
@@ -2233,7 +2245,8 @@ FILE NÀY:
     → Species hardware = SOME overlap guaranteed (Tier 1 shared)
     → Culture = ADDITIONAL overlap (Tier 2-3 shared install)
     → Personal experience = DIVERGENCE (Tier 4 individual)
-    → = WHY "cùng nhóm nhưng KHÁC mức kết nối" = different Tier 4 overlap
+    → = WHY "same group but DIFFERENT connection levels" =
+      different Tier 4 overlap
 ```
 
 ### §12.4 — 3 Independent Cost Sources × Gap Direction
@@ -2243,29 +2256,29 @@ FILE NÀY:
 
   (Inter-Body-Mechanism.md §4)
 
-  KHI EVALUATE BY-PRODUCT MATCH:
+  WHEN EVALUATING BY-PRODUCT MATCH:
 
-    ① PFC DRAFT COST — "B's output match my direction không?"
+    ① PFC DRAFT COST — "Does B's output match my direction?"
        → If COMPILED: cost ≈ 0 (body knows instantly)
-         VD: bạn thân nói → body BIẾT match hay không (milliseconds)
-       → If FRESH: cost HIGH (PFC phải build evaluation)
-         VD: stranger's proposal → PFC analyze fit (seconds-minutes)
-       → = Expert in relationship → lower evaluation cost
+         Example: close friend speaks → body KNOWS whether it matches (milliseconds)
+       → If FRESH: cost HIGH (PFC must build evaluation)
+         Example: stranger's proposal → PFC analyzes fit (seconds-minutes)
+       → = Expert in the relationship → lower evaluation cost
 
-    ② SUPPRESS COST — "Output miss my direction → must suppress reaction"
+    ② SUPPRESS COST — "Output misses my direction → must suppress reaction"
        → Anti-match → body fires dissonance → want to react (withdraw/fight)
-       → Social context requires suppress → PFC override → processing load
-       → VD: CEO change → employee SUPPRESS frustration daily = costly
+       → Social context requires suppression → PFC override → processing load
+       → Example: CEO changes → employee SUPPRESSES frustration daily = costly
        → = Chronic direction-mismatch + suppress = burnout trajectory
 
     ③ UNCERTAINTY COST — "Will B's output match my direction?"
        → Unknown entity: can't predict → cortisol
        → Known entity: predict accurately → low uncertainty
-       → = WHY familiar = comfortable (direction-match predictable)
+       → = WHY familiar = comfortable (direction-match is predictable)
        → = WHY new = stressful even if ultimately good
 
   SUSTAINABILITY:
-    → Low all 3 costs = sustainable interaction (bạn thân compiled)
+    → Low all 3 costs = sustainable interaction (close friend, compiled)
     → High ① = new territory (learning phase — acceptable if temporary)
     → High ② = chronic mismatch (→ burnout, need to exit)
     → High ③ = instability (→ anxiety until resolved)
@@ -2287,29 +2300,29 @@ FILE NÀY:
     Ch5: PFC Active Chain (deliberate thoughts, plans, predictions)
 
   × GAP DIRECTION:
-    → Gap direction activation DEPENDS on which channels active
+    → Gap direction activation DEPENDS on which channels are active
     → Ch1 dominant (sensory-rich): Tier 1 gap directions activate
-      VD: music concert → auditory → Tier 1 aesthetic gaps fire
+      Example: music concert → auditory → Tier 1 aesthetic gaps fire
     → Ch3 dominant (memory-triggered): Tier 2-4 gap directions activate
-      VD: reunion → compiled friend-chunks fire → Modeling-Stream gaps activate
+      Example: reunion → compiled friend-chunks fire → Modeling-Stream gaps activate
     → Ch4 dominant (entity-focused): by-product match evaluation active
-      VD: observe B's actions → evaluate match/mismatch to my directions
+      Example: observe B's actions → evaluate match/mismatch to my directions
     → Ch5 dominant (PFC-driven): abstract gap directions active
-      VD: planning → Tier 4 career/knowledge gaps fire
+      Example: planning → Tier 4 career/knowledge gaps fire
 
   INTER-BODY APPLICATION:
     → Entity B primarily enters via Ch1 + Ch4 (perceive + observe actions)
     → WHICH gap directions B can match = limited by available channels
     → Text-only communication: Ch5 dominant, Ch1 minimal
-      → Only match abstract/intellectual gap directions
-    → In-person: Ch1 + Ch3 + Ch4 full → match wider range of directions
+      → Can only match abstract/intellectual gap directions
+    → In-person: Ch1 + Ch3 + Ch4 full → matches wider range of directions
       → Hardware-Stream (Ch1: beauty, voice) + Modeling-Stream (Ch4: responsive actions)
     → = WHY in-person > text for deep bonding (more channels = more matches)
 
-  MANIPULATION = CONTROL CHANNELS TO DISTORT GAP DIRECTION:
-    → Propaganda: Ch4 (social proof) + Ch5 (arguments) → install specific direction
-    → Advertising: Ch1 (beauty) + Ch4 (influencer) → associate product with direction
-    → Gaslighting: Ch4 (entity actions) + Ch5 (reframe) → distort existing directions
+  MANIPULATION = CONTROLLING CHANNELS TO DISTORT GAP DIRECTION:
+    → Propaganda: Ch4 (social proof) + Ch5 (arguments) → installs specific direction
+    → Advertising: Ch1 (beauty) + Ch4 (influencer) → associates product with direction
+    → Gaslighting: Ch4 (entity actions) + Ch5 (reframe) → distorts existing directions
     → = Power = control over WHICH directions get activated
     → = Inter-Body-Mechanism.md §6: "Input Channel Control = Power"
 ```
@@ -2321,17 +2334,17 @@ FILE NÀY:
 ### §13.1 — Education
 
 ```
-🟡 GIÁO DỤC PHẢI BUILD CHUNKS TRƯỚC, PRESENT ANSWERS SAU:
+🟡 EDUCATION MUST BUILD CHUNKS FIRST, PRESENT ANSWERS SECOND:
 
-  HIỆN TRẠNG PHỔ BIẾN:
-    → Giáo viên trình bày đáp án → học sinh ghi nhận → test
-    → = "Cho đáp án khi chưa có câu hỏi" → no gap → no reward → boring
+  COMMON CURRENT PRACTICE:
+    → Teacher presents answers → students note them down → test
+    → = "Giving the answer when there is no question yet" → no gap → no reward → boring
 
   GAP DIRECTION APPROACH:
-    ① Build chunks: giới thiệu concepts, examples, experiences
+    ① Build chunks: introduce concepts, examples, experiences
     ② Create conflict: show inconsistency, pose problem
-    ③ Gap emerges: student FEELS "thiếu gì đó" (direction forms)
-    ④ Present tools: guide toward answer (not give answer)
+    ③ Gap emerges: student FEELS "something is missing" (direction forms)
+    ④ Present tools: guide toward answer (don't give the answer)
     ⑤ Student fills gap: discovery → opioid → intrinsic motivation
     → = Gap direction mechanism = natural curiosity driver
     → = "Build the question before giving the answer"
@@ -2340,67 +2353,68 @@ FILE NÀY:
 ### §13.2 — Therapy
 
 ```
-🟡 THERAPY = MAP AND EXPAND GAP LANDSCAPE:
+🟡 THERAPY = MAP AND EXPAND THE GAP LANDSCAPE:
 
   DIAGNOSIS: Map client's gap direction landscape
-    → Which gaps active? (what they want)
-    → Which gaps suppressed? (what Background-Pattern prevents)
-    → Which gap directions distorted? (Background-Pattern contamination)
+    → Which gaps are active? (what they want)
+    → Which gaps are suppressed? (what Background-Pattern prevents)
+    → Which gap directions are distorted? (Background-Pattern contamination)
 
   INTERVENTION:
     → Build new chunks → expand gap landscape possibilities
     → Identify Background-Pattern constraints → build competing patterns
     → Sharpen fuzzy directions → Imagine-Final refinement
-    → = Therapy KHÔNG "fix" gaps — therapy ENABLES new gaps
+    → = Therapy does NOT "fix" gaps — therapy ENABLES new gaps
 
-  VD: Client "muốn hạnh phúc nhưng không biết muốn gì":
-    → = Fuzzy gap direction (network sparse or conflicted)
+  Example: Client "wants to be happy but doesn't know what they want":
+    → = Fuzzy gap direction (sparse or conflicted network)
     → Therapy: explore → build chunks → direction sharpens
-    → NOT: prescribe "happiness = X" (install someone else's direction)
+    → NOT: prescribe "happiness = X" (installing someone else's direction)
 ```
 
 ### §13.3 — Marketing (ethical vs exploitative)
 
 ```
-🟡 HIỂU GAP INSTALL → HIỂU MARKETING:
+🟡 UNDERSTANDING GAP INSTALLATION → UNDERSTANDING MARKETING:
 
   ETHICAL MARKETING:
-    → Product THẬT SỰ fills genuine gap → honest direction install
-    → VD: "Bạn có vấn đề X → sản phẩm solve X" → gap direction = X → fill = product
+    → Product GENUINELY fills a real gap → honest direction installation
+    → Example: "You have problem X → product solves X" → gap direction = X → fill = product
 
   EXPLOITATIVE MARKETING:
-    → Create ARTIFICIAL gap → fill with unnecessary product
-    → VD: "Bạn thiếu status" → install [status = product X] → purchase X
-    → Gap was manufactured, not genuine body-need
+    → Creates ARTIFICIAL gap → fills with unnecessary product
+    → Example: "You lack status" → installs [status = product X] → purchase X
+    → Gap was manufactured, not a genuine body-need
 
   CONSUMER DEFENSE:
-    → Recognize: "Am I buying because GAP is REAL or INSTALLED?"
-    → "Chưa biết = không gap": before ad, I had NO desire → ad INSTALLED gap
-    → = Awareness of mechanism = partial immunity
+    → Recognize: "Am I buying because the GAP is REAL or INSTALLED?"
+    → "What you don't know creates no gap": before the ad, I had NO desire →
+      the ad INSTALLED the gap
+    → = Awareness of the mechanism = partial immunity
 ```
 
 ### §13.4 — Parenting
 
 ```
-🟡 PARENTING: HIỂU CHILD'S GAP DIRECTION ≠ PARENT'S:
+🟡 PARENTING: UNDERSTAND THAT THE CHILD'S GAP DIRECTION ≠ PARENT'S:
 
-  Ô Tô Paradox (03-Reward.md §5):
-    → Bố thích xe cổ (bố's gap direction)
-    → Con thích xe thời thượng (con's gap direction)
-    → Bố mua xe cổ cho con = fill BỐ'S gap, MISS con's gap
+  Car Paradox (03-Reward.md §5):
+    → Father loves vintage cars (father's gap direction)
+    → Son loves trendy cars (son's gap direction)
+    → Father buys vintage car for son = fills FATHER'S gap, MISSES son's gap
 
   PARENTING IMPLICATION:
-    → "Perfect gift" = match CHILD's gap direction
+    → "Perfect gift" = matches the CHILD's gap direction
     → Requires: understand child's chunk network → infer gap direction
-    → CANNOT assume: "tôi thích → con cũng thích"
-    → CAN help: build chunks cho con → gap direction develop naturally
+    → CANNOT assume: "I like it → child will also like it"
+    → CAN help: build chunks for the child → gap direction develops naturally
 
   v2.0 NOTE — BY-PRODUCT MATCH IN PARENTING:
-    → Parent fill parent's gap "nuôi con tốt" → output = choices
-    → Output = by-product of parent's gap direction ("tốt" = parent's definition)
-    → IF parent's "tốt" definition match child's gap directions → child thrives
-    → IF parent's "tốt" = parent's projection → MISS child's directions
-    → = Ô Tô Paradox = by-product mismatch in parent-child
+    → Parent fills parent's gap "raising child well" → output = choices
+    → Output = by-product of parent's gap direction ("well" = parent's definition)
+    → IF parent's "well" definition matches child's gap directions → child thrives
+    → IF parent's "well" = parent's projection → MISSES child's directions
+    → = Car Paradox = by-product mismatch in parent-child
     → Solution: Self-Pattern-Modeling toward child → detect CHILD's gap directions → adjust output
 ```
 
@@ -2410,24 +2424,24 @@ FILE NÀY:
 🟡 AI CAN HELP IDENTIFY + ARTICULATE GAP DIRECTIONS:
 
   AI strengths aligned:
-    → Gap direction often IMPLICIT (body knows, PFC can't articulate)
+    → Gap direction is often IMPLICIT (body knows, PFC can't articulate)
     → AI CAN detect patterns in behavior → infer gap direction
     → AI CAN suggest: "based on your interests, your gap might be..."
-    → = AI as gap direction articulation assistant
+    → = AI as a gap direction articulation assistant
 
   AI limitations:
-    → AI CANNOT feel gap (no body-base)
-    → AI CAN mis-infer direction (chunks insufficient)
-    → AI suggestions MUST be body-checked by user
-    → = 3-tầng (AI-Schema-Detection.md): AI detect → expert verify → 
-      client body-check
+    → AI CANNOT feel a gap (no body-base)
+    → AI CAN mis-infer direction (insufficient chunks)
+    → AI suggestions MUST be body-checked by the user
+    → = 3-tier system (AI-Schema-Detection.md): AI detects → expert verifies →
+      client body-checks
 
   v2.0 NOTE — AI × BY-PRODUCT MATCH:
-    → AI output = by-product of "fill user's query" (AI's "task")
-    → User evaluate: "AI output match MY gap direction?"
-    → Body-check: does answer FEEL right? (compiled evaluation)
-    → Domain-check: does answer WORK? (reality arbiter)
-    → = Dual Check applies to AI output exactly like human by-product
+    → AI output = by-product of "filling user's query" (AI's "task")
+    → User evaluates: "Does AI output match MY gap direction?"
+    → Body-check: does the answer FEEL right? (compiled evaluation)
+    → Domain-check: does the answer WORK? (reality arbiter)
+    → = Dual Check applies to AI output exactly as it does to human by-product
 ```
 
 ---
@@ -2437,21 +2451,21 @@ FILE NÀY:
 ```
 GD-Q1: Gap direction CHANGE dynamics:
   → How fast does direction shift when new chunks compile?
-  → Is there a "critical mass" of new chunks for direction shift?
+  → Is there a "critical mass" of new chunks needed for a direction shift?
   → Does Background-Pattern inertia slow direction change proportionally?
   → 🔴 No direct experimental data on direction shift rate
 
 GD-Q2: Gap direction CONFLICT:
-  → Can 2 gaps exist in same domain with DIFFERENT directions?
-  → VD: "muốn xe thể thao" + "muốn xe tiện dụng" = 2 gaps compete?
-  → How does body resolve when 2 gap directions pull OPPOSITE?
+  → Can 2 gaps exist in the same domain with DIFFERENT directions?
+  → Example: "want a sports car" + "want a practical car" = 2 competing gaps?
+  → How does the body resolve when 2 gap directions pull in OPPOSITE directions?
   → Connection to Schema.md §5.1 (schema conflict)?
   → 🔴 Needs further analysis
 
 GD-Q3: Tier 1 gap direction MODIFIABILITY:
   → Can evolutionary gap directions be OVERRIDDEN?
-  → VD: hunger gap direction → fasting practice override?
-  → Or just: suppress signal temporarily, direction unchanged?
+  → Example: hunger gap direction → overridden by fasting practice?
+  → Or just: signal temporarily suppressed, direction unchanged?
   → 🔴 Partially addressed by cultural practices (fasting, asceticism)
 
 GD-Q4: Exact REWARD MAGNITUDE formula:
@@ -2460,15 +2474,15 @@ GD-Q4: Exact REWARD MAGNITUDE formula:
   → 🔴 Framework synthesis, not experimentally derived
 
 GD-Q5: Gap direction × SLEEP:
-  → Does sleep REFINE gap shape? (gist extraction → direction sharpen?)
-  → Does sleep CREATE new gaps? (replay → detect new inconsistencies?)
+  → Does sleep REFINE gap shape? (gist extraction → direction sharpens?)
+  → Does sleep CREATE new gaps? (replay → detects new inconsistencies?)
   → Connection to Background-Pattern.md §4 (sleep = accelerator)?
   → 🟡 Plausible from existing sleep literature, not specifically tested
 
 GD-Q6: Gap direction INHERITANCE across generations:
   → Can gap direction landscape be TRANSMITTED?
   → Via: parenting (chunk install) + culture (shared chunks) + epigenetics?
-  → VD: family values = shared gap direction landscape?
+  → Example: family values = shared gap direction landscape?
   → 🟡 Cultural transmission established, epigenetic mechanism speculative
 
 GD-Q7 (v2.0 NEW): By-product match OPTIMIZATION:
@@ -2479,7 +2493,7 @@ GD-Q7 (v2.0 NEW): By-product match OPTIMIZATION:
 
 GD-Q8 (v2.0 NEW): Anti-match ACCUMULATION:
   → Does repeated anti-match CHANGE gap directions?
-  → VD: employee in toxic workplace → gap direction SHIFTS to "escape"?
+  → Example: employee in toxic workplace → gap direction SHIFTS to "escape"?
   → Or: Background-Pattern forms around anti-match → direction DISTORTS?
   → 🔴 Plausible (chronic stress literature) but not specifically formalized
 ```
@@ -2505,9 +2519,9 @@ GD-Q8 (v2.0 NEW): Anti-match ACCUMULATION:
 
 🟡 FRAMEWORK SYNTHESIS (novel integration of established components):
 
-  → Gap direction as explicit property: LOGICAL CONSEQUENCE of "gap = hole"
+  → Gap direction as an explicit property: LOGICAL CONSEQUENCE of "gap = hole"
     → Each component established — formalization = framework contribution
-  → "Chưa biết = không có gap" as genesis principle:
+  → "What you don't know creates no gap" as genesis principle:
     → Implicit in Precondition-2 Chunk-Substrate — explicit formulation = framework contribution
   → 2-layer model (signal vs content):
     → Each layer established individually — distinction = framework contribution
@@ -2515,11 +2529,11 @@ GD-Q8 (v2.0 NEW): Anti-match ACCUMULATION:
     → Each tier established — unified substrate = framework contribution
   → 4 properties (direction, specificity, depth, range):
     → Each observable — taxonomy = framework contribution
-  → Gap direction install:
+  → Gap direction installation:
     → F3 established — application to gap creation = framework contribution
   → Background-Pattern × gap direction landscape:
     → Both concepts established — interaction = framework contribution
-  → Abstract activity serve body-base via 2 pathways:
+  → Abstract activity serves body-base via 2 pathways:
     → Each pathway described — explicit 2-pathway model = framework contribution
   → v2.0: Gap direction = by-product match foundation:
     → Gap direction + by-product match both established separately
@@ -2555,16 +2569,16 @@ SUMMARY:
 
   OVERALL ASSESSMENT:
   → Core claim "gap has direction" = 🟢🟡 (logical necessity + consistent)
-  → "Chưa biết = không gap" = 🟡 (logical, needs explicit test)
+  → "What you don't know creates no gap" = 🟡 (logical, needs explicit test)
   → 2-layer model = 🟡 (clarifying, each layer established)
-  → Formalization = 🟡 (framework contribution, not new discovery)
+  → Formalization = 🟡 (framework contribution, not a new discovery)
   → v2.0: By-product match × gap direction = 🟡 (logical integration)
   → v2.0: 2-Stream × gap direction = 🟡 (each component established)
   → Specifics (formula, dynamics) = 🔴 (speculative)
 
-  → Giả thiết của user ĐÚNG ở core claim
-  → File này formalize what was implicit → make usable for analysis
-  → v2.0: CONNECT gap direction to inter-body framework (by-product match + 2-Stream)
+  → The core claim is CORRECT
+  → This file formalizes what was implicit → makes it usable for analysis
+  → v2.0: CONNECTS gap direction to inter-body framework (by-product match + 2-Stream)
 ```
 
 ---
@@ -2576,26 +2590,27 @@ SUMMARY:
 ```
   Body-Feedback-Mechanism.md v2.0  — §3.3 Chunk-Gap (extends), §3.1-§3.2 (Shift/Miss),
                                      §1 Body-Need aggregate
-  Body-Feedback.md v2.0           — §6 Body-Feedback-Precondition (reinterprets qua 2 layers)
+  Body-Feedback.md v2.0           — §6 Body-Feedback-Precondition (reinterpreted via 2 layers)
   Body-Feedback-Label.md v2.0     — §2 Foundation terms, §4 dissonance labels,
                                      §8 Compiled/Fresh processing
   Inter-Body-Mechanism.md v1.0    — §2 Body-Need direction, §5 by-product match + Full Chain,
                                      §1 Compilable Architecture, §3 Compiled/Fresh, §4 3-cost,
                                      §6 5-Channel Input Vector
-  03-Reward.md                    — §5 Ô Tô Paradox (perfect test case), §6 Van Gogh
+  03-Reward.md                    — §5 Car Paradox (perfect test case), §6 Van Gogh
   04-Integration.md               — §6-8 Einstein/hedonic/trauma walkthroughs
   Chunk.md v2.0                   — §1-§4 substrate, §2 compile, §2 calibration tiers
-  Background-Pattern.md v1.0      — §6 Background-Pattern×Self-Pattern-Modeling, §10 resolution (extends via §9)
+  Background-Pattern.md v1.0      — §6 Background-Pattern×Self-Pattern-Modeling, §10 resolution
+                                     (extended via §9)
 ```
 
 ### §16.2 — Agent-Mechanism files
 
 ```
-  By-Product-Gap-Resonance.md v1.0       — §2 2-Stream Architecture, §1.5 by-product match,
-                                     §2.4 anti-match
-  Self-Pattern-Modeling.md v3.0      — §1 Compiled/Fresh, Compiled/Fresh processing, Modeling-Stream mechanism
-  Body-Coupling.md v2.0           — coupling direction, Entity-Compiled subtypes
-  Valence-Propagation.md v2.0     — §3 Entity-Compiled (positive/negative/mixed)
+  By-Product-Gap-Resonance.md v1.0  — §2 2-Stream Architecture, §1.5 by-product match,
+                                       §2.4 anti-match
+  Self-Pattern-Modeling.md v3.0    — §1 Compiled/Fresh, processing, Modeling-Stream mechanism
+  Body-Coupling.md v2.0            — coupling direction, Entity-Compiled subtypes
+  Valence-Propagation.md v2.0      — §3 Entity-Compiled (positive/negative/mixed)
 ```
 
 ### §16.3 — Observation files
@@ -2612,29 +2627,29 @@ SUMMARY:
 
 ```
   Imagine-Final.md                — Preview → direction sharpens (§7.2)
-  Somatic-Articulation-Loop.md    — Felt sense = body detects gap direction 
-                                    trước PFC verbal label
+  Somatic-Articulation-Loop.md    — Felt sense = body detects gap direction
+                                    before PFC verbal label
   Cortisol-Baseline.md v2.0       — Direction tag (novelty vs threat cortisol)
-  Ask-AI.md v3.1                  — Dual Check (body=quality controller, domain=arbiter)
+  Ask-AI.md v3.1                  — Dual Check (body = quality controller, domain = arbiter)
 ```
 
 ### §16.5 — Key research
 
 ```
   🟢 Schultz, Dayan, Montague 1997 — reward prediction error (Layer 1)
-  🟢 Bush, Luu, Posner 2000      — ACC conflict/error detection
-  🟢 Loewenstein 1994             — information gap theory of curiosity
-  🟢 Festinger 1957               — cognitive dissonance
-  🟢 Kounios & Beeman 2009        — aha moments + ACC
-  🟢 Gendlin 1978                 — felt sense (body detect before verbal)
-  🟢 Berlyne 1960, 1971           — optimal arousal theory (Goldilocks)
-  🟢 Brickman et al. 1978         — hedonic adaptation
-  🟢 Amabile & Kramer 2011        — progress principle (mini-arc reward)
-  🟢 Feldman 2007                 — interpersonal synchrony (Modeling-Stream)
-  🟢 Coan & Sbarra 2015           — social co-regulation, social baseline theory
-  🟢 Kahneman 2011                — dual-process (compiled/fresh parallel)
-  🟢 Eisenberger 2003             — social pain = physical pain circuits
-  🟢 Panksepp 1998                — social play reward = food reward circuits
+  🟢 Bush, Luu, Posner 2000       — ACC conflict/error detection
+  🟢 Loewenstein 1994              — information gap theory of curiosity
+  🟢 Festinger 1957                — cognitive dissonance
+  🟢 Kounios & Beeman 2009         — aha moments + ACC
+  🟢 Gendlin 1978                  — felt sense (body detects before verbal)
+  🟢 Berlyne 1960, 1971            — optimal arousal theory (Goldilocks)
+  🟢 Brickman et al. 1978          — hedonic adaptation
+  🟢 Amabile & Kramer 2011         — progress principle (mini-arc reward)
+  🟢 Feldman 2007                  — interpersonal synchrony (Modeling-Stream)
+  🟢 Coan & Sbarra 2015            — social co-regulation, social baseline theory
+  🟢 Kahneman 2011                 — dual-process (compiled/fresh parallel)
+  🟢 Eisenberger 2003              — social pain = physical pain circuits
+  🟢 Panksepp 1998                 — social play reward = food reward circuits
 ```
 
 ### §16.6 — Health Conditions Drill (v1.1)
@@ -2657,23 +2672,23 @@ SUMMARY:
 ```
   Drill-Sound-Brain/07-Music-Entrainment-Reward-Dynamics v1.2:
     → §5 Gap-Direction × Music: full inverted-U trajectory (Phase 0→4)
-    → "Chưa biết = không có gap" = textbook case qua music listening
+    → "What you don't know creates no gap" = textbook case via music listening
     → 🟢 Chmiel & Schubert 2017: 87.7% of 57 studies confirm inverted-U
     → §3.3 music trajectory example added (v2.0 cross-ref)
 ```
 
 ---
 
-> *Gap-Direction.md v2.0 — "Gap trong chunk network có HƯỚNG CỤ THỂ.*
+> *Gap-Direction.md v2.0 — "Gaps in the chunk network have a SPECIFIC DIRECTION.*
 > *Direction = f(surrounding chunk network structure).*
-> *Chưa biết = không có gap = bạn không thể thiếu thứ bạn không biết tồn tại.*
+> *What you don't know creates no gap = you cannot lack something you don't know exists.*
 > *Prediction error = signal mechanism (Layer 1).*
 > *Gap direction = content evaluation (Layer 2).*
 > *Reward = direction match quality, not just 'fill gap or not'.*
-> *1 model thống nhất cho toàn bộ reward mechanism: Tier 1-4 cùng substrate.*
+> *1 unified model for the entire reward mechanism: Tier 1-4 sharing the same substrate.*
 >
 > *v2.0: Gap direction = WHY by-product match works.*
-> *B fill gap CỦA B → output match A's gap DIRECTION → A reward.*
+> *B fills B's own gap → output matches A's gap DIRECTION → A rewarded.*
 > *2-Stream: Hardware-Stream = hardware direction match. Modeling-Stream = Self-Pattern-Modeling mutual direction match.*
 > *Compilable Architecture: gap directions EMERGE from chunks (not hardwired) = WHY personal."*
 
@@ -2683,7 +2698,7 @@ SUMMARY:
 
 ```
 v1.0 (2026-04-27):
-  → File mới. Gap direction formalized. 4 properties. "Chưa biết = không gap."
+  → New file. Gap direction formalized. 4 properties. "What you don't know creates no gap."
   → 2-layer model. Unified Tier 1-4. 22 examples. Einstein full lifecycle.
 
 v1.1 (2026-05-15):
@@ -2696,10 +2711,10 @@ v2.0 (2026-05-17):
   → NEW §5.5: Compiled/Fresh processing × gap direction evaluation.
   → NEW §6.2 addition: by-product match × 2-layer model connection.
   → NEW §6.4 ⑤: "by-product match selective" explained via 2-layer.
-  → NEW §8.1 addition: 5-Channel Input Vector × gap install.
+  → NEW §8.1 addition: 5-Channel Input Vector × gap installation.
   → NEW §10.2 addition: Compilable Architecture connection (abstract = feature not bug).
   → NEW §12: Gap Direction × Inter-Body — CORE NEW SECTION (~250L):
-    §12.1: Gap direction = foundation cho by-product match
+    §12.1: Gap direction = foundation for by-product match
     §12.2: 2-Stream Architecture × Gap Direction
     §12.3: Compilable Architecture × Gap Direction (general-purpose evaluation)
     §12.4: 3 Independent Cost Sources × Gap Direction

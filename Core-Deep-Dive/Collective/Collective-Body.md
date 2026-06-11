@@ -1,66 +1,63 @@
 ---
-title: Collective Body-Base — Model 3 Cấp (Individual → Collective → Framework)
-version: 2.2
-created: 2026-05-08
-updated: 2026-06-02 (v2.2: +§5.4 Compilation Source Match — guilt resolution mechanism, trust ≠ valence in guilt, 3-layer guilt model, PFC cannot self-resolve. From Drill-Guilt-Resolution v1.2)
-previous_updates_latest: 2026-05-23 (v2.1: +§3.1 By-product Scale-Institutional framing (By-Product-Scale v1.0), +§8.5 Technology × Scale interaction, Self-Pattern-Modeling rename Match→Modeling, ALL dep versions updated)
-previous_updates:
-  - 2026-05-17 (v2.0: Compilable Architecture, §2.5 Individual Detect Collective Gap, Compiled/Fresh, drill integration)
-  - 2026-05-14 (v1.2: §3.5 Dual-Pull Propagation)
-  - 2026-05-09 (v1.1: AI trust entity, collective no sleep, Open Q resolved)
-status: MECHANISM FILE v2.1
+title: Collective Body-Base — 3-Level Model (Individual → Collective → Framework)
+version: 1.0 (English)
+source_version: 2.2 (Vietnamese, 2026-06-02)
+translated: 2026-06-11
+status: MECHANISM FILE v1.0 (English)
 scope: |
   MECHANISM FILE: HOW individual body-base connects TO collective body-base.
-  Model 3 cấp formalize: Individual (compile SHORT) → Collective (hold LONG distributed)
+  3-Level Model: Individual (compile SHORT) → Collective (hold LONG distributed)
   → Framework (explanatory decomposition).
-  v1.0-v1.2 KEY CONTRIBUTIONS:
-    ① Model 3 cấp: "chain dài sống ở đâu?" = Cấp 2 collective (Drill §5)
+  v1.0–v1.2 KEY CONTRIBUTIONS:
+    ① 3-Level Model: "where do long chains live?" = Level 2 collective (Drill §5)
     ② Global-Body analogy: ~70% mapping valid + ~30% breaks (Drill §8)
     ③ System Compilation 6 mechanisms compound (Drill §25, Body-Coupling §2.5)
     ④ Trust = ONLY bridge individual ← collective (Drill §22)
     ⑤ Coupling proxy: leader/symbol/virtual agent (Drill §25D)
-    ⑥ Trust hijack + defense (KOL, brand, "bóc phốt" — Drill §22C-D)
-    ⑦ Collective × AI era (external tools = Cấp 2 cá nhân — Drill §22E)
-    ⑧ AI = trust entity loại mới (§8.4)
-    ⑨ Collective KHÔNG sleep (§4.2 ⑨) — dynasty stagnation
+    ⑥ Trust hijack + defense (KOL, brand, "callout" — Drill §22C-D)
+    ⑦ Collective × AI era (external tools = individual Level 2 — Drill §22E)
+    ⑧ AI = new type of trust entity (§8.4)
+    ⑨ Collective has NO "sleep" (§4.2 ⑨) — dynasty stagnation
     ⑩ Open Questions Q-E2-4/5 RESOLVED
     ⑪ Dual-Pull Propagation (§3.5)
   v2.0 KEY CHANGES (Inter-Body drill integration):
     ⑫ Compilable Architecture: WHY collective = architecture REQUIREMENT (not luxury)
     ⑬ §2.5 NEW: Individual Detect Collective Gap (gap-direction × collective data)
-       Einstein, Jensen Huang, học sinh, by-product match, "đổ xô" threshold
+       Einstein, Jensen Huang, student, by-product match, rush threshold
     ⑭ By-product match at collective scale (§3)
     ⑮ PFC=Lawyer at collective scale (§5)
     ⑯ Compiled/Fresh terminology, 3-cost model, Domain=Arbiter
   v2.1 KEY CHANGES (By-Product-Scale v1.0 integration):
     ⑰ §3.1 ENRICHED: By-product match Scale-Institutional framing (3-level model explicit)
     ⑱ §8.5 NEW: Technology × Scale interaction (fill ROUTINE → frontier GENUINE)
-    ⑲ Self-Pattern-Modeling rename: Self-Pattern-Match → Self-Pattern-Modeling (abbreviation giữ nguyên)
-    ⑳ ALL dep versions updated (Self-Pattern-Modeling v3.1, Valence-Propagation v3.0, Body-Coupling v3.0, Connection v5.0, +By-Product-Scale v1.0, +Gap-Distribution-Profile v1.1)
-  GAP 12 (CRITICAL) + GAP 9: Model 3 cấp chưa formalize → FILE NÀY RESOLVE.
+    ⑲ Self-Pattern-Modeling rename
+    ⑳ ALL dep versions updated
+  v2.2 KEY CHANGES:
+    ㉑ §5.4 NEW: Compilation Source Match — guilt resolution mechanism, trust ≠ valence
+       in guilt, 3-layer guilt model, PFC cannot self-resolve
+       (From Drill-Guilt-Resolution v1.2)
 purpose: |
-  Body-Base.md §3 define Model 3+1 (Vô thức / PFC / Trust / Tools).
-  Body-Base.md §4.2 define 3 Compile Types (Experience/Expertise/Trust).
-  Body-Coupling.md §2.5 define System Compilation (6 compound).
-  Connection.md §14 note collective connection.
-  Global-Melody.md describe collective melody (metaphor layer).
-  Collective-Purpose.md describe cosmic loop (meta-purpose layer).
-  File NÀY = MECHANISM: HOW individual body-base ↔ collective body-base interact.
-  = Missing formalization giữa individual mechanisms và collective phenomena.
-  Đọc Body-Base.md TRƯỚC file này.
+  Body-Base.md §3 defines 3+1 Model (Unconscious / PFC / Trust / Tools).
+  Body-Base.md §4.2 defines 3 Compile Types (Experience/Expertise/Trust).
+  Body-Coupling.md §2.5 defines System Compilation (6 compound).
+  Connection.md §14 notes collective connection.
+  Global-Melody.md describes collective melody (metaphor layer).
+  Collective-Purpose.md describes cosmic loop (meta-purpose layer).
+  THIS FILE = MECHANISM: HOW individual body-base ↔ collective body-base interact.
+  = Missing formalization between individual mechanisms and collective phenomena.
+  Read Body-Base.md BEFORE this file.
 position: |
-  Core-Deep-Dive/Collective/ — ngang hàng Collective-Arc-Dynamics.md,
+  Core-Deep-Dive/Collective/ — alongside Collective-Arc-Dynamics.md,
   Collective-Purpose.md, Coordination-Node.md, Compliance-Floor.md.
-  → Overview: Collective.md v1.0 (integration hub cho folder).
+  → Overview: Collective.md v1.0 (integration hub for folder).
   MECHANISM FILE. Moved from Body-Base/ (2026-05-18).
-  SAU tạo file này: Body-Base.md §9 Reading Guide → add reference.
 dependencies:
   core-mechanism:
-    - Body-Base.md v3.1 — Model 3+1, Compilable Architecture, 3-Layer Evolution, 2-tầng calibration
+    - Body-Base.md v3.1 — 3+1 Model, Compilable Architecture, 3-Layer Evolution, 2-layer calibration
     - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, by-product match, 3-cost, PFC=Lawyer
     - Valence-Propagation.md v3.0 — per-entity valence, 3 Firing Modes, Hardware-Subsidy, Satiation Type
-    - Gap-Direction.md v2.0 — gap = f(surrounding chunks), "chưa biết = không có gap"
-    - Gap-Distribution-Profile.md v1.1 — 4 trục, Satiation Types, ENGINE/ROAD/VEHICLE, Technology fill
+    - Gap-Direction.md v2.0 — gap = f(surrounding chunks), "unknown = no gap"
+    - Gap-Distribution-Profile.md v1.1 — 4 axes, Satiation Types, ENGINE/ROAD/VEHICLE, Technology fill
     - Chunk.md v2.0 — compile mechanisms, 4 connection types
   agent-mechanism:
     - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, per-domain, APPLICATION-1 on Simulation-Engine
@@ -69,218 +66,234 @@ dependencies:
     - By-Product-Gap-Resonance.md v1.4 — 2-Stream, by-product match, resonance baseline
   connection-observation:
     - Body-Coupling.md v3.0 — per-agent coupling, System Compilation, Hardware-Subsidy, 3 Firing Modes
-    - Connection.md v5.0 — 3 Generative Primitives, Resonance Decline, 4-Layer Sustainability, Hardware-Subsidy
-    - Coordination-Node.md v1.2 — node = partial PFC, Prestige=genuine resonance, Mẹ=first node
+    - Connection.md v5.0 — 3 Generative Primitives, Resonance Decline, 4-Layer Sustainability
+    - Coordination-Node.md v1.2 — node = partial PFC, Prestige=genuine resonance, Mother=first node
     - Religion.md v2.0 — 7 functions, system compilation test case, FAITH anchor
-    - Global-Melody.md v2.0 — collective melody, 5 tầng zoom, center/edge
+    - Global-Melody.md v2.0 — collective melody, 5 zoom levels, center/edge
     - Collective-Purpose.md v1.1 — cosmic loop, 3 forces, biological ceiling
   processing:
-    - PFC-Function.md — 24 functions, "PFC tạo context", 95/5 split
+    - PFC-Function.md — 24 functions, "PFC creates context", 95/5 split
     - Logic-Feeling.md v2.1 — Compiled/Fresh axis, Domain Stability
-    - Why-Body-Knows.md v1.1 — 2-tầng calibration, coherence ≠ truth, vòng tròn
+    - Why-Body-Knows.md v1.1 — 2-layer calibration, coherence ≠ truth
     - Expansion-Saturation-Crisis.md v1.1 — saturation cycle, collective chain break
     - Body-Feedback-Label.md v2.0 — vocabulary reference
-sources_backup: |
-  v1.2: Collective-Body.md (1,389L, 2026-05-14) → backup/Collective-Body-v1.2-backup.md
-language: Tiếng Việt primary + English technical terms
+language: English translation (Vietnamese primary + English technical terms in source)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Collective Body-Base — Model 3 Cấp (Individual → Collective → Framework)
+# Collective Body-Base — 3-Level Model (Individual → Collective → Framework)
 
-> **Bạn đi học. Tại sao?**
-> **PFC trả lời: "Vì muốn tương lai tốt."**
-> **Body trả lời: [học → mẹ khen → ấm]. Xong.**
+> **You go to school. Why?**
+> **PFC answers: "For a better future."**
+> **Body answers: [school → mother praises → warmth]. Done.**
 >
-> PFC confabulate chain dài [học → đại học → việc → lương → body-base].
-> Brain KHÔNG process chain đó. Brain compile SHORT.
+> PFC confabulates the long chain [school → university → job → salary → body-base].
+> The brain DOES NOT process that chain. The brain compiles SHORT.
 >
-> VẬY CHAIN DÀI NẰM Ở ĐÂU?
+> SO WHERE DOES THE LONG CHAIN LIVE?
 >
-> Ở COLLECTIVE. Trường hold [học → đại học]. Thị trường hold [đại học → việc].
-> Kinh tế hold [việc → lương]. Cá nhân chỉ cần: trust + compile SHORT.
+> In THE COLLECTIVE. School holds [school → university]. Labor market holds [university → job].
+> Economy holds [job → salary]. The individual only needs: trust + compile SHORT.
 >
-> File này: Model 3 cấp (Individual → Collective → Framework).
-> Chain dài sống ở Cấp 2 (collective). Cá nhân compile ngắn ở Cấp 1.
-> Framework phân tích ở Cấp 3. Trust = bridge DUY NHẤT giữa 2 cấp.
-> System Compilation = HOW collective gắn kết sâu KHÔNG CẦN Valence-Structural per-agent.
+> This file: 3-Level Model (Individual → Collective → Framework).
+> Long chains live in Level 2 (collective). Individuals compile short in Level 1.
+> Framework analyzes in Level 3. Trust = the ONLY bridge between the two levels.
+> System Compilation = HOW collective bonds deeply WITHOUT needing Valence-Structural per-agent.
 >
-> "Cá nhân compile NGẮN. Tập thể hold DÀI. Trust nối 2 thế giới."
+> "Individuals compile SHORT. Collective holds LONG. Trust connects the two worlds."
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ + SCOPE
-- §1 — MODEL 3 CẤP: Individual → Collective → Framework
-- §2 — CẤP 1: INDIVIDUAL (Short Compile + Trust Bypass)
-- §3 — CẤP 2: COLLECTIVE (Where Long Chains Live)
-  - §3.1 enriched: By-product match Scale-Institutional framing (v2.1)
-- §4 — GLOBAL-BODY ANALOGY (~70% Mapping + ~30% Breaks)
-- §5 — TRUST = BRIDGE (Individual ← Collective)
-  - §5.4 — Compilation Source Match (Trust × Guilt Resolution)
-- §6 — SYSTEM COMPILATION (6 Compound Mechanisms)
-- §7 — COUPLING PROXY (Leader / Symbol / Virtual Agent)
-- §8 — COLLECTIVE × AI ERA
-  - §8.5 — Technology × Scale Interaction (v2.1)
-- §9 — HONEST ASSESSMENT
-- §10 — CROSS-REFERENCES
+- [§0 — POSITION + SCOPE](#0)
+- [§1 — 3-LEVEL MODEL: Individual → Collective → Framework](#1)
+- [§2 — LEVEL 1: INDIVIDUAL (Short Compile + Trust Bypass)](#2)
+  - [§2.5 — Individual DETECT Collective Gap: Gap-Direction × Collective Data](#25)
+- [§3 — LEVEL 2: COLLECTIVE (Where Long Chains Live)](#3)
+  - [§3.1 — By-product match + Scale-Institutional framing](#31)
+  - [§3.2 — Scale Hierarchy](#32)
+  - [§3.3 — Individual Level 2: External Tools (Personal Infrastructure)](#33)
+  - [§3.4 — Collective Patterns Emerge](#34)
+  - [§3.5 — Dual-Pull Propagation](#35)
+- [§4 — GLOBAL-BODY ANALOGY (~70% Mapping + ~30% Breaks)](#4)
+  - [§4.1 — Valid Mapping (~70%)](#41)
+  - [§4.2 — Invalid Mapping (~30%)](#42)
+  - [§4.3 — Test Cases](#43)
+- [§5 — TRUST = BRIDGE (Individual ← Collective)](#5)
+  - [§5.1 — Trust as Only Bridge](#51)
+  - [§5.2 — When Collective Chain Breaks](#52)
+  - [§5.3 — Trust Hijack (Modern Exploit of Ancient Mechanism)](#53)
+  - [§5.4 — Compilation Source Match (Trust × Guilt Resolution)](#54)
+- [§6 — SYSTEM COMPILATION (6 Compound Mechanisms)](#6)
+  - [§6.1 — Valence-Structural Cannot Exist for Abstract Entities](#61)
+  - [§6.2 — 6 Mechanisms Compound](#62)
+  - [§6.3 — Valence-Structural vs System Compilation](#63)
+- [§7 — COUPLING PROXY (Leader / Symbol / Virtual Agent)](#7)
+- [§8 — COLLECTIVE × AI ERA](#8)
+  - [§8.1 — AI in the 3-Level Model](#81)
+  - [§8.2 — AI ≠ Collective PFC](#82)
+  - [§8.3 — Extended Hierarchy](#83)
+  - [§8.4 — AI = New Type of Trust Entity](#84)
+  - [§8.5 — Technology × Scale Interaction (v2.1)](#85)
+- [§9 — HONEST ASSESSMENT](#9)
+- [§10 — CROSS-REFERENCES](#10)
 
 ---
 
-## §0 — VỊ TRÍ + SCOPE
+## §0 — POSITION + SCOPE
 
 ```
-⭐ FILE NÀY TRONG FRAMEWORK:
+⭐ THIS FILE IN THE FRAMEWORK:
 
-  Core-Deep-Dive/Body-Base/ — MECHANISM FILE.
-  Formalize: HOW individual body-base ↔ collective body-base interact.
-  Resolve GAP 12 (CRITICAL) + GAP 9.
+  Core-Deep-Dive/Collective/ — MECHANISM FILE.
+  Formalizes: HOW individual body-base ↔ collective body-base interact.
+  Resolves GAP 12 (CRITICAL) + GAP 9.
 
 
-  PHÂN BIỆT 5 FILES GẦN NHAU:
+  DISTINGUISHING 5 CLOSELY RELATED FILES:
 
     ┌────────────────────────┬──────────────────────────────────────────┐
     │ File                   │ Scope                                     │
     ├────────────────────────┼──────────────────────────────────────────┤
-    │ Body-Base.md v3.3      │ ENTRY POINT: Model 3+1, L0+L1 substrate, │
+    │ Body-Base.md v3.3      │ ENTRY POINT: 3+1 Model, L0+L1 substrate, │
     │                        │ core principles (patterns not reality)    │
     │                        │ = INDIVIDUAL body-base foundation         │
     ├────────────────────────┼──────────────────────────────────────────┤
-    │ Collective-Body.md     │ Model 3 cấp: Individual → Collective     │
-    │ (FILE NÀY)             │ → Framework. Trust bridge. System        │
+    │ Collective-Body.md     │ 3-Level Model: Individual → Collective   │
+    │ (THIS FILE)            │ → Framework. Trust bridge. System         │
     │                        │ Compilation. Global-Body analogy.         │
     │                        │ = COLLECTIVE body-base formalization      │
     ├────────────────────────┼──────────────────────────────────────────┤
-    │ Body-Coupling.md v1.0  │ HOW body couples với AGENT CỤ THỂ.       │
+    │ Body-Coupling.md v1.0  │ HOW body couples with a SPECIFIC AGENT.  │
     │                        │ Per-agent coupling (Valence-Structural).  │
     │                        │ §2.5 System Compilation (per-context,     │
     │                        │ 6 mechanisms).                            │
-    │                        │ = MECHANISM deep-dive cho coupling         │
+    │                        │ = MECHANISM deep-dive for coupling        │
     ├────────────────────────┼──────────────────────────────────────────┤
-    │ Global-Melody.md v2.0  │ Collective melody: 5 tầng zoom,          │
+    │ Global-Melody.md v2.0  │ Collective melody: 5 zoom levels,        │
     │                        │ center/edge, cultural KEY.                │
-    │                        │ = METAPHOR layer cho collective dynamics  │
+    │                        │ = METAPHOR layer for collective dynamics  │
     ├────────────────────────┼──────────────────────────────────────────┤
-    │ Collective-Purpose.md  │ Cosmic loop: humanity map domain.         │
+    │ Collective-Purpose.md  │ Cosmic loop: humanity maps domains.       │
     │ v1.1                   │ 3 forces. Biological ceiling.             │
     │                        │ = META-PURPOSE layer (WHY collective)     │
     └────────────────────────┴──────────────────────────────────────────┘
 
-    → Body-Base.md: Individual foundation (ĐỌC TRƯỚC)
-    → File này: Individual ↔ Collective mechanism (ĐỌC SAU Body-Base.md)
-    → Body-Coupling.md: Per-agent mechanism (reference từ file này)
-    → Global-Melody.md: Metaphor (complement, không overlap)
-    → Collective-Purpose.md: Meta-purpose (complement, không overlap)
+    → Body-Base.md: Individual foundation (READ FIRST)
+    → This file: Individual ↔ Collective mechanism (READ AFTER Body-Base.md)
+    → Body-Coupling.md: Per-agent mechanism (referenced from this file)
+    → Global-Melody.md: Metaphor (complement, no overlap)
+    → Collective-Purpose.md: Meta-purpose (complement, no overlap)
 
 
-  ⭐ COMPILABLE ARCHITECTURE: TẠI SAO COLLECTIVE = REQUIREMENT (v2.0):
+  ⭐ COMPILABLE ARCHITECTURE: WHY COLLECTIVE = REQUIREMENT (v2.0):
 
     (Inter-Body-Mechanism.md v1.0 §1 — Compilable Architecture)
 
     Compilable Architecture (general-purpose reward + compilation):
-      → Hardwire HOW to need, NOT what to need
-      → Body learn content FROM environment → compile → body-need
-      → TRADE-OFF: cần 15-20 NĂM compile → VULNERABLE → cần group PROTECT
+      → Hardwires HOW to need, NOT what to need
+      → Body learns content FROM environment → compiles → body-need
+      → TRADE-OFF: needs 15-20 YEARS to compile → VULNERABLE → needs group PROTECTION
 
-    → COLLECTIVE tồn tại vì Compilable Architecture CẦN NÓ:
-      ① 15-20 năm compile = cần entity khác protect (family, school)
-      ② Compilation requires social (observe, teach, imitate → FASTER)
-      ③ Chain DÀI quá cho 1 brain → distributed = collective hold
-      ④ Knowledge non-rivalrous → share → ALL benefit → accelerate
+    → COLLECTIVE exists because Compilable Architecture NEEDS IT:
+      ① 15-20 years to compile = needs other entities to protect (family, school)
+      ② Compilation requires social input (observe, teach, imitate → FASTER)
+      ③ Long chains exceed 1 brain capacity → distributed = collective holds
+      ④ Knowledge is non-rivalrous → share → ALL benefit → accelerate
 
-    → Collective KHÔNG phải "xã hội phát triển thêm" — là ARCHITECTURE REQUIREMENT
-    → = File này formalize HOW collective THỰC HIỆN requirement đó
+    → Collective is NOT "society getting more advanced" — it is an ARCHITECTURE REQUIREMENT
+    → = This file formalizes HOW collective FULFILLS that requirement
     🟡 Compilable Architecture → collective = requirement: framework synthesis (Inter-Body §1)
 
-  QUY ƯỚC:
+  CONVENTIONS:
     🟢 Research support — peer-reviewed, replicated
-    🟡 Framework synthesis — consistent, chưa mainstream term
-    🔴 Hypothesis — testable, chưa verified
+    🟡 Framework synthesis — consistent, not yet mainstream term
+    🔴 Hypothesis — testable, not yet verified
 ```
 
 ---
 
-## §1 — MODEL 3 CẤP: Individual → Collective → Framework
+## §1 — 3-LEVEL MODEL: Individual → Collective → Framework
 
 ```
-⭐⭐ "CHAIN DÀI SỐNG Ở ĐÂU?" — 3 CẤP ĐỘ (Drill §5):
+⭐⭐ "WHERE DO LONG CHAINS LIVE?" — 3 LEVELS (Drill §5):
 
-  ┌─────────────────────────────────────────────────────────────┐
-  │ CẤP 3: FRAMEWORK ANALYSIS (explanatory)                    │
-  │   Valence-Propagation §4 chains = phân tích TẠI SAO behavior functional     │
-  │   = Decomposition cho hiểu + chẩn đoán + thiết kế          │
-  │   ≠ Brain processing model                                  │
-  └─────────────────────────────────────────────────────────────┘
-                        ↑ giải thích
-  ┌─────────────────────────────────────────────────────────────┐
-  │ CẤP 2: COLLECTIVE (distributed infrastructure)             │
-  │   Institutions + culture + ritual + knowledge               │
-  │   Hold TOÀN BỘ chain dài phân tán trong hệ thống          │
-  │   = "Nơi chain dài THẬT SỰ TỒN TẠI"                       │
-  │   = Creator (ít) tạo → Installer truyền → User dùng        │
-  └─────────────────────────────────────────────────────────────┘
-                        ↓ install qua trust
-  ┌─────────────────────────────────────────────────────────────┐
-  │ CẤP 1: INDIVIDUAL BRAIN (short compile)                     │
-  │   Body compile: [action → sensory result → body evaluation] │
-  │   Trust = amplifier cho external compile (bypass chain verify) │
-  │   PFC = post-hoc confabulation                              │
-  │   = Brain KHÔNG process chain dài cho PHẦN LỚN behavior    │
-  │   = Brain compile NGẮN, trust collective cho phần còn lại  │
-  └─────────────────────────────────────────────────────────────┘
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ LEVEL 3: FRAMEWORK ANALYSIS (explanatory)                      │
+  │   Valence-Propagation §4 chains = analyze WHY behavior works   │
+  │   = Decomposition for understanding + diagnosis + design        │
+  │   ≠ Brain processing model                                      │
+  └─────────────────────────────────────────────────────────────────┘
+                        ↑ explains
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ LEVEL 2: COLLECTIVE (distributed infrastructure)               │
+  │   Institutions + culture + ritual + knowledge                   │
+  │   Hold THE ENTIRE long chain distributed throughout the system  │
+  │   = "Where long chains ACTUALLY EXIST"                          │
+  │   = Creator (few) create → Installer transmits → User uses      │
+  └─────────────────────────────────────────────────────────────────┘
+                        ↓ installed via trust
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ LEVEL 1: INDIVIDUAL BRAIN (short compile)                       │
+  │   Body compiles: [action → sensory result → body evaluation]    │
+  │   Trust = amplifier for external compile (bypasses chain verify)│
+  │   PFC = post-hoc confabulation                                  │
+  │   = Brain DOES NOT process long chains for MOST behavior        │
+  │   = Brain compiles SHORT, trusts collective for the rest        │
+  └─────────────────────────────────────────────────────────────────┘
 
 
-  ⭐ TẠI SAO 3 CẤP QUAN TRỌNG:
+  ⭐ WHY THE 3 LEVELS MATTER:
 
-    TRƯỚC khi có model này:
-      → "Cơ chế valence kỳ quái" (Valence-Propagation §4 chains quá dài cho brain)
-      → Confuse vì cố giải thích behavior ở CẤP 1 (individual)
-        bằng chains ở CẤP 3 (framework analysis)
+    BEFORE this model:
+      → "Strange valence mechanism" (Valence-Propagation §4 chains too long for brain)
+      → Confused because trying to explain behavior at LEVEL 1 (individual)
+        using chains from LEVEL 3 (framework analysis)
 
-    SAU khi có model này:
-      → CẤP 1: [cho → ấm]. Không kỳ quái.
-      → CẤP 2: collective organize để [cho → ấm] HOẠT ĐỘNG thật.
-      → CẤP 3: chain analysis giải thích WHY evolution selected this.
-      → "Kỳ quái" = MISMATCH GIỮA CẤP → confuse → giải mã xong.
+    AFTER this model:
+      → LEVEL 1: [give → warmth]. Not strange.
+      → LEVEL 2: collective organizes so [give → warmth] ACTUALLY WORKS.
+      → LEVEL 3: chain analysis explains WHY evolution selected this.
+      → "Strange" = MISMATCH BETWEEN LEVELS → confusion → deciphered.
 
 
   ⭐ BLACKBOX-2 = BLACKBOX-1 + COLLECTIVE SCALE + HARDWARE VARIANCE (Drill §26):
 
     Blackbox-1 (chunk substrate):
-      = CẤP 1 individual compile + valence tags = ĐỒNG THỜI
+      = Level 1 individual compile + valence tags = SIMULTANEOUS
 
     Blackbox-2 (valence complexity):
-      = Blackbox-1 + CẤP 2 collective complexity (distributed × trust × many links)
+      = Blackbox-1 + Level 2 collective complexity (distributed × trust × many links)
            + hardware variance (hormone, gene = irreducible)
 
-    → Blackbox-2 KHÔNG PHẢI mechanism KHÁC Blackbox-1
+    → Blackbox-2 is NOT a different mechanism from Blackbox-1
     → Blackbox-2 = Blackbox-1 + SCALE + VARIANCE
-    → Compile = structural aspect. Valence = evaluative aspect. ĐỒNG THỜI.
+    → Compile = structural aspect. Valence = evaluative aspect. SIMULTANEOUS.
 
-    Chi tiết: Body-Base.md §3 (Model 3+1), Drill §26.
+    Details: Body-Base.md §3 (3+1 Model), Drill §26.
 
 
-  3 CẤP × MODEL 3+1:
+  3 LEVELS × 3+1 MODEL:
 
-    CẤP 1 (Individual):
-      Vô thức (95%): compile + fire + evaluate SHORT
-      PFC (5%): direct + hold + observe (nhưng KHÔNG compile)
-      Trust: amplifier cho external compile rate (Trust Compile)
-      Tools: extend PFC capacity (giấy, máy tính)
+    LEVEL 1 (Individual):
+      Unconscious (95%): compile + fire + evaluate SHORT
+      PFC (5%): direct + hold + observe (but DOES NOT compile)
+      Trust: amplifier for external compile rate (Trust Compile)
+      Tools: extend PFC capacity (paper, calculator)
 
-    CẤP 2 (Collective):
-      Vô thức (aggregate): millions of individual compiles → collective patterns
-      PFC (aggregate): KHÔNG có unified collective PFC (§4 — key break)
+    LEVEL 2 (Collective):
+      Unconscious (aggregate): millions of individual compiles → collective patterns
+      PFC (aggregate): NO unified collective PFC (§4 — key break)
       Trust (aggregate): institutions, culture, ritual = TRUST INFRASTRUCTURE
       Tools (aggregate): books, internet, libraries, AI = COLLECTIVE MEMORY
 
-    CẤP 3 (Framework):
-      = Analytical tool cho humans (researchers, therapists, educators)
-      = EXPLANATORY: mô tả TẠI SAO, không phải HOW brain process
-      = Valence-Propagation §4 chains thuộc cấp này
+    LEVEL 3 (Framework):
+      = Analytical tool for humans (researchers, therapists, educators)
+      = EXPLANATORY: describes WHY, not HOW brain processes
+      = Valence-Propagation §4 chains belong here
 
-  🟡 Model 3 cấp = framework synthesis (Drill §5)
+  🟡 3-Level Model = framework synthesis (Drill §5)
   🟡 Blackbox-2 = Blackbox-1 + scale = framework synthesis (Drill §26)
   🟢 Distributed cognition: Hutchins 1995
   🟢 Extended mind: Clark & Chalmers 1998
@@ -288,71 +301,71 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §2 — CẤP 1: INDIVIDUAL (Short Compile + Trust Bypass)
+## §2 — LEVEL 1: INDIVIDUAL (Short Compile + Trust Bypass)
 
 ```
-⭐ BRAIN COMPILE NGẮN — TRUST COLLECTIVE CHO PHẦN CÒN LẠI:
+⭐ BRAIN COMPILES SHORT — TRUSTS COLLECTIVE FOR THE REST:
 
 
-  INDIVIDUAL BRAIN THẬT SỰ XỬ LÝ:
+  WHAT THE INDIVIDUAL BRAIN ACTUALLY PROCESSES:
 
     [action → sensory result → body evaluation → compile]
 
-    VD: cho đi → người nhận vui → Self-Pattern-Modeling Compiled fire → opioid → "ấm"
-    = SHORT: [cho → ấm]. XONG.
-    Body KHÔNG BIẾT tại sao ấm. Body chỉ biết ẤM.
-    PFC confabulate: "tôi cho vì muốn giúp" = post-hoc, không phải mechanism.
+    Example: give → recipient happy → Self-Pattern-Modeling Compiled fires → opioid → "warmth"
+    = SHORT: [give → warmth]. DONE.
+    Body DOESN'T KNOW why it is warm. Body only knows WARMTH.
+    PFC confabulates: "I gave because I wanted to help" = post-hoc, not mechanism.
 
     Body-Base.md §2: Body evaluates PATTERNS, not reality.
-    → Body evaluate [output → body-feedback]. Không evaluate [full chain logic].
+    → Body evaluates [output → body-feedback]. Does not evaluate [full chain logic].
     → = §6b circuit breaker principle: body checks OUTPUT, not CHAIN.
 
 
-  4 COMPILE PATHWAYS — CÙNG OUTPUT KHÁC CƠ CHẾ (Drill §22A):
+  4 COMPILE PATHWAYS — SAME OUTPUT DIFFERENT MECHANISM (Drill §22A):
 
-    Test case: "Cùng là học sinh đi học toán"
-    Valence-Propagation §4 mô tả: [toán → điểm → đại học → việc → lương → body-base]
-    = CẤP 3 analysis. ĐÚNG nhưng KHÔNG phải cách brain process.
+    Test case: "The same student goes to study math"
+    Valence-Propagation §4 describes: [math → grade → university → job → salary → body-base]
+    = LEVEL 3 analysis. CORRECT but NOT how the brain processes.
 
-    THỰC TẾ — 4 đứa trẻ, 4 compile pathways:
+    REALITY — 4 students, 4 compile pathways:
 
     ① HARDWARE FIT (Experience Compile — direct short):
-       [toán → brain fire → Goldilocks → VTA → opioid]
-       = "Tự thấy thú vị." Cấp 1 direct. Trust: KHÔNG CẦN.
-       Chain length individual: 1 node.
+       [math → brain fires → Goldilocks → VTA → opioid]
+       = "Naturally finds it interesting." Level 1 direct. Trust: NOT NEEDED.
+       Individual chain length: 1 node.
 
     ② TRUST + MODERATE FIT (Trust Compile — installed + verified):
-       Bố mẹ nói → trust → compile [học → tốt]
-       + Tự học → hợp hardware → status trên lớp
-       = Cấp 1: [học → mẹ khen + điểm + status → body ấm] (2 nodes)
-       = Cấp 2: bố mẹ hold chain dài [học → tương lai]
+       Parents say → trust → compile [study → good]
+       + Study independently → fits hardware → class status
+       = Level 1: [study → mother praises + grade + status → body warmth] (2 nodes)
+       = Level 2: parents hold long chain [study → future]
 
     ③ SOCIAL DEFAULT (Trust Compile — installed pure):
-       "Thấy ai cũng làm thế → đương nhiên"
-       = Valence-Propagation §3 ③ schema inheritance từ cộng đồng
-       = Cấp 1: [mọi người đều học → bình thường → tôi cũng] (1 node)
+       "See everyone doing it → of course"
+       = Valence-Propagation §3 ③ schema inheritance from community
+       = Level 1: [everyone studies → normal → so do I] (1 node)
 
     ④ THREAT AVOIDANCE (Experience Compile — direct short):
-       [không học → mẹ mắng / bị đánh → L0 threat → học để avoid]
-       = Cấp 1 direct. Chain length: 1-2 nodes.
+       [don't study → mother scolds / gets hit → L0 threat → study to avoid]
+       = Level 1 direct. Chain length: 1-2 nodes.
 
 
-    ⭐ HỘI TỤ:
-       4 pathways KHÁC NHAU → cùng output: "đi học"
-       TẤT CẢ compile SHORT ở CẤP 1 (1-2 nodes)
-       Chain DÀI [toán → ... → body-base] NẰM Ở CẤP 2 (collective)
-       Valence-Propagation §4 GIẢI THÍCH (CẤP 3) tại sao TẤT CẢ đều đi học
+    ⭐ CONVERGENCE:
+       4 DIFFERENT pathways → same output: "go to school"
+       ALL compile SHORT at LEVEL 1 (1-2 nodes)
+       Long chain [math → ... → body-base] LIVES IN LEVEL 2 (collective)
+       Valence-Propagation §4 EXPLAINS (LEVEL 3) why ALL go to school
 
 
-  ⭐ 3 COMPILE TYPES × 3 CẤP (Body-Base.md §4.2):
+  ⭐ 3 COMPILE TYPES × 3 LEVELS (Body-Base.md §4.2):
 
-    Experience Compile (direct short ~90%): Cấp 1 thuần. Body experience → compile.
-    Expertise Compile (compiled expertise ~5%): Cấp 1 + external tools (Cấp 2 cá nhân).
-    Trust Compile (installed + collective): Cấp 2 → trust amplifier → Cấp 1 install.
+    Experience Compile (direct short ~90%): Pure Level 1. Body experience → compile.
+    Expertise Compile (compiled expertise ~5%): Level 1 + external tools (individual Level 2).
+    Trust Compile (installed + collective): Level 2 → trust amplifier → Level 1 installs.
 
-    → Trust Compile = PHẦN LỚN behavior hàng ngày mà framework CHƯA nhận ra đủ
-    → Ngôn ngữ, đạo đức, skill xã hội, world knowledge = TẤT CẢ Trust Compile
-    → Cá nhân compile NGẮN [pattern → ấm/đau]. Collective hold TOÀN BỘ chain dài.
+    → Trust Compile = MOST behavior day-to-day that the framework has NOT sufficiently recognized
+    → Language, ethics, social skills, world knowledge = ALL Trust Compile
+    → Individuals compile SHORT [pattern → warmth/pain]. Collective holds THE ENTIRE long chain.
 
   🟡 4 compile pathways = framework synthesis (Drill §22A)
   🟡 Trust Compile dominance insight = framework synthesis (Drill §3)
@@ -360,438 +373,453 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Confabulation: Nisbett & Wilson 1977
 ```
 
-### §2.5 — Cá Nhân DETECT Collective Gap: Gap-Direction × Collective Data
+### §2.5 — Individual DETECT Collective Gap: Gap-Direction × Collective Data
 
 ```
-⭐⭐ CƠ CHẾ: CÁ NHÂN "THẤY" CƠ HỘI / PHÁT HIỆN GAP TẬP THỂ BẰNG CÁCH NÀO?
+⭐⭐ MECHANISM: HOW DOES AN INDIVIDUAL "SEE" AN OPPORTUNITY / DETECT A COLLECTIVE GAP?
 
   (Gap-Direction.md v2.0: gap = f(surrounding chunk network structure))
-  (Foundational principle: "Chưa biết = không có gap")
+  (Foundational principle: "Unknown = no gap")
 
-  CÁ NHÂN KHÔNG "SCAN COLLECTIVE" RỒI "THẤY GAP."
-  Cá nhân có GAP-DIRECTION RIÊNG → collective data TÌNH CỜ MATCH direction đó.
-  = By-product match ở chiều DETECT:
+  INDIVIDUALS DO NOT "SCAN THE COLLECTIVE" THEN "SEE A GAP."
+  Individuals have THEIR OWN GAP-DIRECTION → collective data HAPPENS TO MATCH that direction.
+  = By-product match in the DETECTION direction:
     Individual gap-direction + collective data → match → "opportunity detected"
 
 
   ⭐ 5-STEP MECHANISM:
 
-    STEP 1: CHUNKS COMPILE qua experience/education (Tier 2 Development)
+    STEP 1: CHUNKS COMPILE through experience/education (Tier 2 Development)
       → Accumulated domain knowledge → forms chunk network
 
     STEP 2: GAP-DIRECTION FORMS = f(surrounding chunks)
-      → Chunks xung quanh TẠO "bờ" → hole = gap CÓ HÌNH DẠNG CỤ THỂ
-      → Chunks DEEP → gap-direction PRECISE
-      → Chunks THIN → gap-direction VAGUE hoặc KHÔNG TỒN TẠI
+      → Surrounding chunks CREATE "walls" → hole = gap WITH SPECIFIC SHAPE
+      → Deep chunks → precise gap-direction
+      → Thin chunks → vague gap-direction or DOES NOT EXIST
 
-    STEP 3: COLLECTIVE DATA ENTERS qua 5-Channel (Inter-Body §6):
-      → Ch1 sensory: thấy quán cafe đầy, thấy trẻ tự kỷ tăng
-      → Ch4 entity actions: tin tức, báo chí, người kể
-      → Ch3 compiled: pattern recognition ("ngành này bão hòa")
-      → Ch5 PFC: active analysis khi data đủ interesting
+    STEP 3: COLLECTIVE DATA ENTERS through 5-Channel (Inter-Body §6):
+      → Ch1 sensory: see a crowded coffee shop, see autism cases rising
+      → Ch4 entity actions: news, press, people telling stories
+      → Ch3 compiled: pattern recognition ("this industry is saturating")
+      → Ch5 PFC: active analysis when enough interesting data
 
-    STEP 4: BODY EVALUATE — collective data MATCH gap-direction?
-      → MATCH → reward fire → "ồ, đây là cơ hội!" → PURSUE
+    STEP 4: BODY EVALUATES — does collective data MATCH gap-direction?
+      → MATCH → reward fires → "Oh, this is an opportunity!" → PURSUE
       → NO MATCH → skip (not relevant to my gap-direction)
-      → CONFLICT → "ngành này rủi ro" → AVOID
+      → CONFLICT → "this industry is risky" → AVOID
 
     STEP 5: DOMAIN VERIFY (iterative)
-      → Pursue → thử → domain feedback → adjust → compile thêm → refine
-      → = Vòng tròn (Why-Body-Knows §6): mỗi vòng CHÍNH XÁC hơn
+      → Pursue → try → domain feedback → adjust → compile more → refine
+      → = The Loop (Why-Body-Knows §6): each loop MORE PRECISE
 
 
-  ⭐ 4 CASES XÁC NHẬN:
+  ⭐ 4 CONFIRMING CASES:
 
   CASE 1 — EINSTEIN: Deep compiled → conflict gap → by-product match collective
 
     Chunks: Maxwell ("light speed constant") + Newton ("speed relative")
-    → 2 chunks TỰCONFLICT trong network → gap-direction: "CẦN resolve mâu thuẫn"
-    → Einstein KHÔNG scan physics community rồi "thấy họ đang stuck"
+    → 2 chunks SELF-CONFLICTING in network → gap-direction: "NEED to resolve contradiction"
+    → Einstein did NOT scan the physics community and "see they were stuck"
     → Einstein's OWN gap drove pursuit. Collective benefit = BY-PRODUCT.
     → Domain verify: decades of experimental confirmation
-    → = "Visionary" ≠ scan → detect. = Compiled DEEP → gap PRECISE → fill OWN gap
-      → output TÌNH CỜ match collective gap (by-product match)
+    → = "Visionary" ≠ scan → detect. = Compiled DEEP → gap PRECISE → fills OWN gap
+      → output HAPPENS TO MATCH collective gap (by-product match)
 
-  CASE 2 — JENSEN HUANG (GPU → AI, 30 năm trajectory):
+  CASE 2 — JENSEN HUANG (GPU → AI, 30-year trajectory):
 
-    1993 chunks: EE + CS → "parallel computing > serial cho many tasks"
-    → Gap-direction: "parallel computing HAS potential lớn hơn current use"
-    → Mỗi bước: domain verify → compile → refine direction
-      1993: GPU cho gaming (match gap: gamers cần graphics) ✅ verify
-      2006: CUDA (match gap: researchers cần parallel computing) ✅ verify
-      2012+: Deep learning bùng nổ → GPU = perfect match (matrix math = parallel)
-    → Huang KHÔNG "biết trước AI cần GPU" 30 năm trước
-    → Huang BIẾT "parallel computing = powerful" → domain confirmed iteratively
-    → AI need = BY-PRODUCT MATCH: Huang's product fill HIS gap → match AI's gap
-    → = 30 năm = 30 năm COMPILE + DOMAIN VERIFY, không phải 1 lần "nhìn thấy"
+    1993 chunks: EE + CS → "parallel computing > serial for many tasks"
+    → Gap-direction: "parallel computing HAS larger potential than current use"
+    → Each step: domain verify → compile → refine direction
+      1993: GPU for gaming (matches gap: gamers need graphics) ✅ verify
+      2006: CUDA (matches gap: researchers need parallel computing) ✅ verify
+      2012+: Deep learning surge → GPU = perfect match (matrix math = parallel)
+    → Huang did NOT "know in advance that AI would need GPU" 30 years ago
+    → Huang KNEW "parallel computing = powerful" → domain confirmed iteratively
+    → AI need = BY-PRODUCT MATCH: Huang's product fills HIS gap → matches AI's gap
+    → = 30 years = 30 years of COMPILE + DOMAIN VERIFY, not one "moment of vision"
 
-  CASE 3 — HỌC SINH: Thin chunks → CANNOT detect → rely trust proxy
+  CASE 3 — STUDENT: Thin chunks → CANNOT detect → relies on trust proxy
 
-    Chunks: MỎNG (chưa có domain experience)
-    → Gap-direction: MƠ HỒ hoặc KHÔNG TỒN TẠI (thiếu bờ → thiếu hole)
-    → "Chưa biết = không có gap" = học sinh KHÔNG có gap cho "thị trường cần gì"
-      vì chưa THAM GIA thị trường
+    Chunks: THIN (no domain experience yet)
+    → Gap-direction: VAGUE or DOES NOT EXIST (no walls → no hole)
+    → "Unknown = no gap" = student has NO gap for "what does the market need"
+      because has NOT YET PARTICIPATED in the market
     → Pathway: Trust Compile install — parent/teacher = PROXY detector
-      Parent detect dựa trên THEIR chunks (compiled from their experience)
+      Parent detects based on THEIR chunks (compiled from their experience)
     → ⚠️ PROXY ACCURACY depends on proxy's chunks being CURRENT:
-      Parent 20 năm trước: "bác sĩ ổn" → domain ĐÃ ĐỔI → có thể SAI
-      = Expansion-Saturation-Crisis: proxy detector OUTDATED → install SAI
-    → FIX: expose student TO domain (internship, mentor, real projects)
+      Parent 20 years ago: "doctors do well" → domain HAS CHANGED → may be WRONG
+      = Expansion-Saturation-Crisis: proxy detector OUTDATED → installs WRONG
+    → FIX: expose student TO the domain (internship, mentor, real projects)
       → chunks COMPILE → gap-direction FORMS → student CAN detect own opportunities
 
-  CASE 4 — NGƯỜI ĐI LÀM: Observe + valence match → detect
+  CASE 4 — WORKING ADULT: Observe + valence match → detect
 
-    Chunks: compiled qua years working (domain experience accumulated)
-    → Observe: "trẻ tự kỷ tăng" (Ch1/Ch4 data) + "ít giáo viên chuyên biệt" (Ch4)
-    → Personal valence: "tôi yêu trẻ con" (compiled positive)
-    → Gap-direction MATCH: "domain CẦN service + tôi MUỐN provide"
+    Chunks: compiled through years working (accumulated domain experience)
+    → Observe: "autism cases rising" (Ch1/Ch4 data) + "few specialized teachers" (Ch4)
+    → Personal valence: "I love children" (compiled positive)
+    → Gap-direction MATCH: "domain NEEDS service + I WANT to provide"
     → = Individual gap-direction DETECTS collective gap (both directions ALIGN)
-    → Domain verify: thử → feedback → adjust → or confirm
+    → Domain verify: try → feedback → adjust → or confirm
 
 
-  ⭐ "ĐỔ XÔ" (RUSH) = THRESHOLD MECHANISM:
+  ⭐ "RUSH" = THRESHOLD MECHANISM:
 
-    Collective gap lúc đầu: SUBTLE
-      → Chỉ deep compiled detect (few people have precise enough gap-direction)
-      → = "Visionary" period: risk HIGH, reward POTENTIAL HIGH
+    Collective gap initially: SUBTLE
+      → Only deeply compiled can detect (few people have precise enough gap-direction)
+      → = "Visionary" period: risk HIGH, reward POTENTIALLY HIGH
 
-    Collective gap RÕ DẦN (more data available):
+    Collective gap BECOMES CLEARER (more data available):
       → More people compile enough chunks → gap-direction FORMS for more people
       → = "Early adopter" period: growing detection, moderate risk
 
-    THRESHOLD CROSSED: gap HIỂN NHIÊN
-      → Gap-direction forms cho NHIỀU NGƯỜI → RUSH
+    THRESHOLD CROSSED: gap becomes OBVIOUS
+      → Gap-direction forms for MANY PEOPLE → RUSH
       → = "Mainstream" period: most people see it now
 
     SATURATION:
       → Gap FILLS → reward DROPS (Expansion-Saturation-Crisis)
       → = "Late entry" period: overcrowded, diminishing returns
-      → Body reward giảm (Goldilocks fail — "quá quen, quá đông")
+      → Body reward decreases (Goldilocks fails — "too familiar, too crowded")
 
-    → = MỖI collective gap có LIFECYCLE:
+    → = EVERY collective gap has a LIFECYCLE:
       Subtle → emerging → threshold → rush → saturate → next gap
-      Cá nhân THAM GIA ở phase NÀO phụ thuộc chunk depth CỦA HỌ.
+      Individuals JOIN at which PHASE depends on THEIR chunk depth.
 
 
   ⭐ IMPLICATIONS:
 
-    ① "Visionary" = compiled DEEPER → detect EARLIER (not magic, not luck)
+    ① "Visionary" = compiled DEEPER → detects EARLIER (not magic, not luck)
        Jensen Huang, Steve Jobs, Einstein = years of domain compilation
        → Gap-direction PRECISE → see opportunity when others don't
        → DOMAIN-SPECIFIC: Einstein ≠ detect biotech gap (no chunks)
 
-    ② "Học sinh không biết chọn ngành" = EXPECTED (chunks thiếu → gap chưa có)
+    ② "Student doesn't know what to study" = EXPECTED (chunks lacking → gap doesn't exist yet)
        → FIX: expose + compile (internship, mentor, real projects)
-       → NOT: "hãy tìm đam mê" (gap-direction chưa EXIST nếu chưa compile)
+       → NOT: "find your passion" (gap-direction doesn't EXIST yet if not compiled)
 
-    ③ "Đam mê" = gap-direction ĐÃ FORMED + reward đã VERIFIED
-       → "Chưa có đam mê" = chưa compile đủ → gap chưa rõ → chưa biết
-       → "Có đam mê" = compiled enough → body BIẾT direction → pursue
+    ③ "Passion" = gap-direction ALREADY FORMED + reward already VERIFIED
+       → "No passion yet" = haven't compiled enough → gap not yet clear → don't know
+       → "Have passion" = compiled enough → body KNOWS direction → pursue
 
     ④ Domain = FINAL ARBITER: detect gap ≠ fill gap successfully
-       → Detect đúng + execute sai = vẫn fail
-       → Detect sai (gap không thật) + execute giỏi = vẫn fail
+       → Correct detection + poor execution = still fail
+       → Wrong detection (gap isn't real) + excellent execution = still fail
        → BOTH needed: accurate detection + domain-verified execution
 
-    ⑤ By-product match ở chiều detection:
-       Cá nhân fill OWN gap → by-product = detect collective gap
-       Einstein solve HIS physics gap → by-product = physics advances
-       Huang build HIS parallel computing vision → by-product = AI infrastructure
+    ⑤ By-product match at detection level:
+       Individual fills OWN gap → by-product = detects collective gap
+       Einstein solves HIS physics gap → by-product = physics advances
+       Huang builds HIS parallel computing vision → by-product = AI infrastructure
 
 🟡 "Individual detect collective gap via gap-direction" = framework synthesis
 🟡 Threshold → rush → saturate = consistent with Expansion-Saturation-Crisis
 🟡 "Visionary = compiled deeper" = consistent with expertise research (Klein 1998)
 🟡 By-product match at detection level = framework extension
 🟢 Expert intuition = compiled patterns (Kahneman 2011, Klein 1998)
-🟢 "Chưa biết = không có gap" = Gap-Direction.md foundational principle
+🟢 "Unknown = no gap" = Gap-Direction.md foundational principle
 ```
 
 ---
 
-## §3 — CẤP 2: COLLECTIVE (Where Long Chains Live)
+## §3 — LEVEL 2: COLLECTIVE (Where Long Chains Live)
 
 ```
-⭐ COLLECTIVE = NƠI CHAIN DÀI THẬT SỰ TỒN TẠI:
+⭐ COLLECTIVE = WHERE LONG CHAINS ACTUALLY EXIST:
 
 
   §3.1 — DEFINITION:
 
-    Collective body-base = DISTRIBUTED INFRASTRUCTURE giữ chain dài
-    mà cá nhân KHÔNG THỂ tự compile.
+    Collective body-base = DISTRIBUTED INFRASTRUCTURE holding long chains
+    that individuals CANNOT compile on their own.
 
-    VD: [học → đại học → việc → lương → body-base feed]
-    Chain này KHÔNG nằm trong 1 đầu → PHÂN TÁN trong hệ thống:
-      Trường (institution) hold "học → đại học"
-      Thị trường lao động hold "đại học → việc"
-      Kinh tế hold "việc → lương"
-    → Cá nhân chỉ cần: trust + compile [học → tốt] (SHORT)
-    → Collective hold TOÀN BỘ chain → cá nhân hưởng kết quả.
+    Example: [study → university → job → salary → body-base feed]
+    This chain does NOT live in 1 head → DISTRIBUTED throughout the system:
+      School (institution) holds "study → university"
+      Labor market holds "university → job"
+      Economy holds "job → salary"
+    → Individual only needs: trust + compile [study → good] (SHORT)
+    → Collective holds THE ENTIRE chain → individual gets the result.
 
     ⭐ BY-PRODUCT MATCH AT COLLECTIVE SCALE (v2.0):
       (Inter-Body-Mechanism.md §5.4 — by-product match principle)
 
       Collective institutions fill THEIR OWN gaps → by-product serves individuals:
-        Trường: fill gap "truyền knowledge" → by-product: student compile skills
-        Bệnh viện: fill gap "heal patients" → by-product: individual health restored
-        Chính phủ: fill gap "maintain order" → by-product: citizens feel safe
-        Doanh nghiệp: fill gap "profit" → by-product: employees get salary
+        School: fills gap "transmit knowledge" → by-product: students compile skills
+        Hospital: fills gap "heal patients" → by-product: individual health restored
+        Government: fills gap "maintain order" → by-product: citizens feel safe
+        Business: fills gap "profit" → by-product: employees receive salary
 
-      = CÙNG mechanism by-product match như inter-body (2 individuals)
-        nhưng ở SCALE: institution fill ITS gap → individual hưởng by-product
-      = Collective KHÔNG "phục vụ" cá nhân (intentional) — mà by-product MATCH
-      = Khi by-product KHÔNG match individual gap → individual LEAVE (if can)
-      = Khi institution fill WRONG gap → collective chain BREAK (§5.2)
+      = SAME by-product match mechanism as inter-body (2 individuals)
+        but at SCALE: institution fills ITS gap → individual benefits from by-product
+      = Collective DOES NOT "serve" individuals (intentional) — but by-product MATCHES
+      = When by-product DOES NOT match individual gap → individual LEAVES (if they can)
+      = When institution fills WRONG gap → collective chain BREAKS (§5.2)
 
       🟡 By-product match at collective scale = framework extension
 
 
     ⭐ BY-PRODUCT MATCH = 1 MECHANISM × 3 SCALES (v2.1, By-Product-Scale v1.0 §0.2):
 
-      By-Product-Scale v1.0 formal model: by-product match ĐÃ mô tả ở trên
-      = Scale-Institutional trong mô hình 3-level:
+      By-Product-Scale v1.0 formal model:
+      = Scale-Institutional in the 3-level model:
 
       ┌─────────────────────┬──────────────────────┬───────────────────────────┐
-      │ Scale               │ Topology              │ Example ở §3.1            │
+      │ Scale               │ Topology              │ Example in §3.1           │
       ├─────────────────────┼──────────────────────┼───────────────────────────┤
-      │ Scale-Pair          │ A↔B pair-wise         │ Cá nhân ↔ cá nhân        │
+      │ Scale-Pair          │ A↔B pair-wise         │ Individual ↔ individual   │
       │                     │ Direct verify         │ (Inter-Body §5.4)         │
       ├─────────────────────┼──────────────────────┼───────────────────────────┤
-      │ Scale-Hub           │ Node↔{A,B,...N}       │ CEO ↔ nhân viên           │
+      │ Scale-Hub           │ Node↔{A,B,...N}       │ CEO ↔ employees           │
       │                     │ Trust bypass          │ (Coordination-Node §1.4)  │
       ├─────────────────────┼──────────────────────┼───────────────────────────┤
-      │ Scale-Institutional │ Distributed network   │ Trường ↔ student          │
-      │                     │ Institutional trust   │ (section này)              │
+      │ Scale-Institutional │ Distributed network   │ School ↔ student          │
+      │                     │ Institutional trust   │ (this section)            │
       └─────────────────────┴──────────────────────┴───────────────────────────┘
 
-      4 KHÁC BIỆT Scale-Institutional so với Scale-Pair/Scale-Hub:
-        ① No single node: không 1 ai coordinate → DISTRIBUTED
-        ② Institutional trust: ABSTRACT, không personal, không proxy
-        ③ Long chains DISTRIBUTED: [học→bằng→việc→lương] phân tán across institutions
+      4 DIFFERENCES — Scale-Institutional vs Scale-Pair/Scale-Hub:
+        ① No single node: no one coordinates → DISTRIBUTED
+        ② Institutional trust: ABSTRACT, not personal, not a proxy
+        ③ Long chains DISTRIBUTED: [study→degree→job→salary] distributed across institutions
         ④ Self-reinforcing SLOWLY: institution→by-product→individuals→contribute→cycle
-           (nhưng correction CỰC CHẬM: decades-centuries)
+           (but correction is EXTREMELY SLOW: decades-centuries)
 
-      → Scale Hierarchy (§3.2) = Scale-Institutional architecture CÙNG mechanism, KHÁC scale
-      → Cùng by-product match principle → khác topology + hardware + failure mode
+      → Scale Hierarchy (§3.2) = Scale-Institutional architecture SAME mechanism, DIFFERENT scale
+      → Same by-product match principle → different topology + hardware + failure mode
 
       🟡 3-level model = framework synthesis (By-Product-Scale v1.0)
       🟢 Institutional trust: North 1990, Acemoglu & Robinson 2012
+```
 
+### §3.2 — Scale Hierarchy
 
-  §3.2 — SCALE HIERARCHY (chồng lên nhau, không tách rời):
+```
+⭐ SCALE HIERARCHY (stacked on each other, not separate):
 
-    ┌──────────────────────────────────────────────────────────────┐
-    │ SCALE         │ CHAIN LENGTH │ TRUST SOURCE    │ EXAMPLES     │
-    ├──────────────────────────────────────────────────────────────┤
-    │ FAMILY (3-10) │ Short-medium │ Direct + ❸ deep │ Nuôi con,    │
-    │               │              │                  │ dạy skill    │
-    ├──────────────────────────────────────────────────────────────┤
-    │ SCHOOL (30-   │ Medium       │ Institution +    │ Chương trình │
-    │  500)         │              │ authority        │ giáo dục     │
-    ├──────────────────────────────────────────────────────────────┤
-    │ COMPANY (10-  │ Medium-long  │ Contract +       │ Workflow,    │
-    │  10,000)      │              │ reputation       │ processes    │
-    ├──────────────────────────────────────────────────────────────┤
-    │ CITY (10K-    │ Long         │ Infrastructure + │ Giao thông,  │
-    │  10M)         │              │ habit           │ tiện ích      │
-    ├──────────────────────────────────────────────────────────────┤
-    │ NATION (1M-   │ Very long    │ Law + culture +  │ Hiến pháp,  │
-    │  1B+)         │              │ identity        │ kinh tế      │
-    ├──────────────────────────────────────────────────────────────┤
-    │ GLOBAL (8B)   │ Longest      │ Science +        │ Internet,   │
-    │               │              │ accumulated     │ WHO, UN      │
-    └──────────────────────────────────────────────────────────────┘
+    ┌──────────────────────────────────────────────────────────────────┐
+    │ SCALE         │ CHAIN LENGTH │ TRUST SOURCE    │ EXAMPLES         │
+    ├──────────────────────────────────────────────────────────────────┤
+    │ FAMILY (3-10) │ Short-medium │ Direct + ❸ deep │ Raise children,  │
+    │               │              │                  │ teach skills     │
+    ├──────────────────────────────────────────────────────────────────┤
+    │ SCHOOL (30-   │ Medium       │ Institution +    │ Curriculum,      │
+    │  500)         │              │ authority        │ education        │
+    ├──────────────────────────────────────────────────────────────────┤
+    │ COMPANY (10-  │ Medium-long  │ Contract +       │ Workflow,        │
+    │  10,000)      │              │ reputation       │ processes        │
+    ├──────────────────────────────────────────────────────────────────┤
+    │ CITY (10K-    │ Long         │ Infrastructure + │ Transport,       │
+    │  10M)         │              │ habit            │ utilities        │
+    ├──────────────────────────────────────────────────────────────────┤
+    │ NATION (1M-   │ Very long    │ Law + culture +  │ Constitution,    │
+    │  1B+)         │              │ identity         │ economy          │
+    ├──────────────────────────────────────────────────────────────────┤
+    │ GLOBAL (8B)   │ Longest      │ Science +        │ Internet,        │
+    │               │              │ accumulated      │ WHO, UN          │
+    └──────────────────────────────────────────────────────────────────┘
 
-    → Các scale CHỒNG LÊN NHAU: 1 cá nhân thuộc NHIỀU scale cùng lúc
-    → Mỗi scale hold chains KHÁC → tổng = collective infrastructure
-    → Scale LỚN hơn = chain DÀI hơn + trust PHỨC TẠP hơn
+    → Scales STACK ON EACH OTHER: 1 individual belongs to MANY scales simultaneously
+    → Each scale holds DIFFERENT chains → total = collective infrastructure
+    → LARGER scale = LONGER chain + MORE COMPLEX trust
+```
 
+### §3.3 — Individual Level 2: External Tools (Personal Infrastructure)
 
-  §3.3 — CẤP 2 CÁ NHÂN: EXTERNAL TOOLS (Drill §22E):
+```
+⭐ INDIVIDUAL LEVEL 2 (Drill §22E):
 
-    Model 3 cấp (§5): Cấp 2 = collective infrastructure
-    MỞ RỘNG: giấy, bút, notebook, máy tính = CẤP 2 CỦA CÁ NHÂN
+  3-Level Model (§1): Level 2 = collective infrastructure
+  EXTENDED: paper, pen, notebook, computer = INDIVIDUAL'S LEVEL 2
 
-    CÁCH EINSTEIN THẬT SỰ LÀM (Drill §19 + §22E apply):
+  HOW EINSTEIN ACTUALLY WORKED (Drill §19 + §22E):
 
-      ① WRITE DOWN = external memory
-         PFC hold 4 → viết ra giấy → PFC freed → hold 4 tiếp
-         Giấy = EXTERNAL STORAGE mở rộng PFC capacity
+    ① WRITE DOWN = external memory
+       PFC holds 4 → writes on paper → PFC freed → holds next 4
+       Paper = EXTERNAL STORAGE extending PFC capacity
 
-      ② TRUST PAST SELF = trust mechanism applied to SELF
-         "Công thức X tôi đã kiểm chứng tuần trước" → trust tag {+++}
-         → PFC KHÔNG re-verify X → use X as compiled chunk
-         → Build on top of X → recursive compile (Body-Base.md §4)
+    ② TRUST PAST SELF = trust mechanism applied to SELF
+       "Formula X I verified last week" → trust tag {+++}
+       → PFC DOES NOT re-verify X → uses X as compiled chunk
+       → Builds on top of X → recursive compile (Body-Base.md §4)
 
-      ③ ITERATIVE RECURSIVE:
-         Verify part A → trust A → build B on A → verify B → trust B →
-         build C on A+B → ... → decades → E=mc²
-         = Mỗi bước: PFC hold ≤4. Body verify. Trust. Stack.
-         = KHÔNG BAO GIỜ hold toàn bộ chain cùng lúc.
+    ③ ITERATIVE RECURSIVE:
+       Verify part A → trust A → build B on A → verify B → trust B →
+       build C on A+B → ... → decades → E=mc²
+       = Each step: PFC holds ≤4. Body verifies. Trust. Stack.
+       = NEVER holds the entire chain at once.
 
-      ④ SLEEP CONSOLIDATE giữa các bước
-         Chunk.md §2 ④: sleep = compile mechanism
+    ④ SLEEP CONSOLIDATES between steps
+       Chunk.md §2 ④: sleep = compile mechanism
 
-    HIERARCHY:
-      PFC 4±1 (hardware limit)
-      → ×4 pyramidal compression (vô thức compile — Chunk.md)
-      → ×∞ external tools (giấy, máy tính, database, AI)
+  HIERARCHY:
+    PFC 4±1 (hardware limit)
+    → ×4 pyramidal compression (unconscious compiles — Chunk.md)
+    → ×∞ external tools (paper, computer, database, AI)
 
-    → WHY civilization accelerates:
-      Mỗi thế hệ tạo external tools TỐT HƠN
-      → Individual compile capacity TĂNG → create MORE tools → loop
-      = CẤP 2 collective × Cấp 2 cá nhân = COMPOUND acceleration
-      → = Collective-Purpose.md cosmic loop accelerating mechanism
+  WHY CIVILIZATION ACCELERATES:
+    Each generation creates BETTER external tools
+    → Individual compile capacity INCREASES → creates MORE tools → loop
+    = Level 2 collective × Individual Level 2 = COMPOUND acceleration
+    → = Collective-Purpose.md cosmic loop accelerating mechanism
 
-
-  §3.4 — COLLECTIVE PATTERNS EMERGE:
-
-    CẤP 2 KHÔNG CÓ "1 brain" → patterns emerge từ AGGREGATE:
-
-    Culture = COMPILED CHUNK PATTERNS SHARED:
-      → Không phải "luật" ai đặt ra → là CHUNKS ĐA SỐ ĐÃ COMPILE
-      → Culture SHIFT khi đa số compile KHÁC (qua thời gian + exposure)
-      → = Culture = attractor state of collective chunk networks
-      → 🟢 Hofstede cultural dimensions (measurable patterns)
-      → Global-Melody.md §2: mỗi văn hóa = 1 KEY (giọng nhạc)
-
-    Institution = FORMALIZED CHAIN HOLDER:
-      → Trường, công ty, chính phủ = explicit infrastructure hold chains
-      → Institution fail → chains it holds COLLAPSE → ripple effect
-      → "Học làm gì" (§5.2) = institution link gãy → chain collapse
-
-    Knowledge = NON-RIVALROUS OUTPUT:
-      → Resource vật chất: chia → mỗi người ít hơn (rivalrous)
-      → Knowledge: share không mất — ai cũng có full copy
-      → = Knowledge là ENGINE CHÍNH của Cấp 2
-      → = Tại sao loop accelerate: knowledge dispersal KHÔNG bị limit
-      → 🟢 Endogenous growth theory: Paul Romer
-
-
-  §3.5 — DUAL-PULL PROPAGATION: TẠI SAO HỆ THỐNG CON NGƯỜI TẠO RA
-         PHẢN ÁNH CÙNG TENSION:
-
-    ⭐ QUAN SÁT:
-
-    Mọi hệ thống do con người thiết kế + vận hành đều thể hiện tension
-    giữa ỔN ĐỊNH (giữ cái đã hoạt động) và THÍCH ỨNG (đổi theo thực tế mới).
-    Trông giống Dual-Pull (01-Foundation.md §2) — nhưng KHÔNG PHẢI analogy.
-    Đây là PROPAGATION: brain architecture truyền sang system architecture.
-
-
-    VÍ DỤ — CÙNG TENSION, KHÁC HÌNH THỨC:
-
-    ① PHẦN MỀM (dễ quan sát nhất):
-       Ổn định: code đã test, backward compatible, ít bug
-       Thích ứng: thị trường đòi feature mới, đối thủ phát triển
-       → "Chạy tốt thì đừng đụng" ↔ "Không đổi mới thì chết"
-       → Bug sau update = dissonance. Revenue tăng khi đúng hướng = reward.
-       → Mỗi bản release = brain decide: giữ compiled pattern hay nạp mới?
-         Cùng dynamics, khác layer: code thay vì neural substrate.
-
-    ② LUẬT PHÁP:
-       Ổn định: tiền lệ (stare decisis) — proven, xã hội dự đoán được
-       Thích ứng: tình huống mới — AI, internet, xã hội thay đổi
-       → Quá bảo thủ = luật không phản ánh reality → stagnation
-       → Quá nhanh = luật chưa test → loopholes, contradiction
-       → Amendment/reform = não update schema khi domain thay đổi.
-
-    ③ Y TẾ:
-       Ổn định: protocol đã proven — "primum non nocere" (không gây hại)
-       Thích ứng: bệnh mới, phương pháp mới — nghiên cứu đòi thử nghiệm
-       → FDA approval CỐ TÌNH CHẬM = Hardware Pull (đảm bảo an toàn)
-       → Quá nhanh = thalidomide (thuốc chưa test → dị tật thai nhi hàng loạt)
-       → Clinical trial + phê duyệt = balance: domain test → hardware gate.
-
-    ④ TỔ CHỨC:
-       Ổn định: quy trình, SOP, hierarchy — predictable, kiểm soát được
-       Thích ứng: thị trường đòi pivot, innovate, disrupt
-       → Startup (Domain Pull mạnh) CHẾT vì chaos khi thiếu process.
-       → Enterprise (Hardware Pull mạnh) CHẾT vì obsolete khi thiếu innovation.
-       → Cả hai CẦN cả hai lực — giống chính xác não: chỉ 1 lực = chết.
-
-    → Áp dụng TƯƠNG TỰ: giáo dục (chương trình ↔ kiến thức mới),
-      sản xuất (dây chuyền ổn ↔ công nghệ mới), quân sự (doctrine ↔ chiến trường)
-      — BẤT KỲ hệ thống nào con người thiết kế + vận hành.
-
-
-    ⭐ TẠI SAO GIỐNG: PROPAGATION, KHÔNG PHẢI ANALOGY
-
-    ❌ SAI: "phần mềm hoạt động giống não"
-       (phần mềm không có Hebbian LTP, body, VTA — cơ chế KHÁC hoàn toàn)
-
-    ✅ ĐÚNG: người thiết kế + vận hành + quyết định = NÃO CÓ DUAL-PULL
-       → Mỗi người tham gia hệ thống MANG THEO Dual-Pull CỦA MÌNH:
-         Product manager CẢM THẤY Domain Pull (thị trường đòi feature)
-         Engineer CẢM THẤY Hardware Pull (code phải stable)
-         Bác sĩ CẢM THẤY Hardware Pull (protocol an toàn)
-         Nhà nghiên cứu CẢM THẤY Domain Pull (phương pháp mới)
-       → Tension GIỮA HỌ = Dual-Pull của từng não EXTERNALIZE thành tổ chức
-
-    Brain architecture → designer/operator decisions → system architecture
-    = CÙNG NGUỒN (não có Dual-Pull)
-    → CÙNG TENSION (ổn định ↔ thích ứng)
-    → KHÁC HÌNH THỨC (vì domain khác: code ≠ luật ≠ y tế ≠ tổ chức)
-
-
-    ⭐ TẠI SAO KHÁC HÌNH THỨC DÙ CÙNG TENSION:
-
-    Mỗi lĩnh vực có Domain Pull RIÊNG:
-      Software: user demand, market competition, technology shift
-      Luật: tình huống xã hội mới, công nghệ chưa có tiền lệ
-      Y tế: bệnh mới, nghiên cứu mới, dân số thay đổi
-      Tổ chức: competitor, market shift, technology disruption
-
-    VÀ Hardware Pull RIÊNG:
-      Software: code stability, backward compatibility, test coverage
-      Luật: tiền lệ, tính nhất quán, dự đoán được
-      Y tế: protocol an toàn, evidence-based, "không gây hại"
-      Tổ chức: quy trình, hierarchy, compliance, SOPs
-
-    → CÙNG architecture tension (Dual-Pull từ não)
-    × KHÁC domain-specific constraints
-    = KHÁC hình thức biểu hiện
-    → = Tại sao mỗi lĩnh vực PHẢI QUAN SÁT MỘT KIỂU
-      nhưng PATTERN CẤU TRÚC vẫn nhận ra qua framework lens
-
-
-    ⭐ 3 KHÁC BIỆT QUAN TRỌNG VỚI NÃO:
-
-    ① ARCHITECTURAL vs ORGANIZATIONAL:
-       Não: Dual-Pull = evolved → KHÔNG THOÁT ĐƯỢC
-       System: tension = organizational → CÓ THỂ quản lý có chủ đích
-       → Meeting, vote, policy = adjust balance giữa 2 lực
-       → System CÓ ƯU THẾ: nhìn được tension + điều chỉnh
-
-    ② BODY SIGNAL vs METRICS:
-       Não: feedback = body signal (valence) → vô thức, nhanh
-       System: feedback = metrics (crash, revenue, complaints) → phân tích, chậm
-       → Cả hai đều feedback loop — nhưng qua KÊNH KHÁC
-       → System feedback VẪN THÔNG QUA con người interpret → phụ thuộc não cuối cùng
-
-    ③ DESIGNER LAYER (system CÓ, não KHÔNG):
-       System: designer NHÌN tension từ bên ngoài → adjust cấu trúc
-       Não: KHÔNG THỂ nhìn Dual-Pull của mình từ bên ngoài (dễ)
-         (= giới hạn PFC observe — 01-Foundation §5)
-       → = Tại sao tools HỮU ÍCH: externalize cái não không tự xem được
-
-
-    ⭐ IMPLICATION CHO CẤP 2 CÁ NHÂN:
-
-    → Tools mirror brain patterns VÌ CÙNG NGUỒN GỐC (designer = brain)
-    → Extended Mind (Clark & Chalmers 1998) at DESIGN level:
-       Tools không chỉ mở rộng capacity — mà THỪA HƯỞNG architectural constraints
-    → Civilization loop (§3.3 ④) có BUILT-IN FRICTION:
-       Tool tốt hơn → externalize hơn → brain freed → create more tools
-       Nhưng mỗi tool inherit Dual-Pull → cần maintain → COST
-    → Cross-ref: 01-Foundation.md §2 Dual-Pull, Creator-Lens.md §2
-
-
-  🟡 Cấp 2 cá nhân (external tools) = framework synthesis (Drill §22E)
-  🟡 Scale hierarchy model = framework synthesis
-  🟡 Dual-Pull propagation to human-designed systems (§3.5) = framework synthesis
+  🟡 Individual Level 2 (external tools) = framework synthesis (Drill §22E)
   🟢 Distributed cognition: Hutchins 1995
   🟢 Extended mind: Clark & Chalmers 1998
+```
+
+### §3.4 — Collective Patterns Emerge
+
+```
+⭐ LEVEL 2 HAS NO "1 BRAIN" → patterns emerge from AGGREGATE:
+
+  Culture = COMPILED CHUNK PATTERNS THAT ARE SHARED:
+    → Not a "law" anyone imposed → but CHUNKS MOST PEOPLE HAVE COMPILED
+    → Culture SHIFTS when majority compiles DIFFERENTLY (over time + exposure)
+    → = Culture = attractor state of collective chunk networks
+    → 🟢 Hofstede cultural dimensions (measurable patterns)
+    → Global-Melody.md §2: each culture = 1 KEY (musical key)
+
+  Institution = FORMALIZED CHAIN HOLDER:
+    → School, company, government = explicit infrastructure holding chains
+    → Institution fails → chains it holds COLLAPSE → ripple effect
+    → "Why study" (§5.2) = institution link breaks → chain collapses
+
+  Knowledge = NON-RIVALROUS OUTPUT:
+    → Physical resource: divide → each person gets less (rivalrous)
+    → Knowledge: share without losing — everyone has full copy
+    → = Knowledge is the MAIN ENGINE of Level 2
+    → = Why the loop accelerates: knowledge dispersal NOT limited
+    → 🟢 Endogenous growth theory: Paul Romer
+
   🟢 Cultural evolution: Henrich 2016 ("The Secret of Our Success")
+  🟢 Organizational inertia: Hannan & Freeman 1984
+```
+
+### §3.5 — Dual-Pull Propagation
+
+```
+🟡 DUAL-PULL PROPAGATES INTO HUMAN-DESIGNED SYSTEMS:
+
+  ⭐ OBSERVATION:
+
+  Every system designed + operated by humans exhibits tension
+  between STABILITY (keep what works) and ADAPTATION (change to fit new reality).
+  Looks like Dual-Pull (01-Foundation.md §2) — but this is NOT analogy.
+  This is PROPAGATION: brain architecture transmits to system architecture.
+
+
+  EXAMPLES — SAME TENSION, DIFFERENT FORM:
+
+  ① SOFTWARE (most observable):
+     Stability: tested code, backward compatible, fewer bugs
+     Adaptation: market demands new features, competitors develop
+     → "If it works don't touch it" ↔ "Not innovating means dying"
+     → Bug after update = dissonance. Revenue growth when right direction = reward.
+     → Each release = brain decides: keep compiled pattern or load new?
+       Same dynamics, different layer: code instead of neural substrate.
+
+  ② LAW:
+     Stability: precedent (stare decisis) — proven, society can predict
+     Adaptation: new situations — AI, internet, societal change
+     → Too conservative = law doesn't reflect reality → stagnation
+     → Too fast = law not tested → loopholes, contradiction
+     → Amendment/reform = brain updates schema when domain changes.
+
+  ③ MEDICINE:
+     Stability: proven protocols — "primum non nocere" (do no harm)
+     Adaptation: new diseases, new methods — research demands experimentation
+     → FDA approval deliberately SLOW = Hardware Pull (ensures safety)
+     → Too fast = thalidomide (untested drug → mass fetal defects)
+     → Clinical trial + approval = balance: domain test → hardware gate.
+
+  ④ ORGANIZATIONS:
+     Stability: processes, SOP, hierarchy — predictable, controllable
+     Adaptation: market demands pivot, innovate, disrupt
+     → Startup (strong Domain Pull) DIES from chaos without process.
+     → Enterprise (strong Hardware Pull) DIES from obsolescence without innovation.
+     → Both NEED both forces — exactly like the brain: only 1 force = dies.
+
+  → Applies similarly: education (curriculum ↔ new knowledge),
+    manufacturing (stable production lines ↔ new technology),
+    military (doctrine ↔ battlefield reality)
+    — ANY system designed + operated by humans.
+
+
+  ⭐ WHY SIMILAR: PROPAGATION, NOT ANALOGY
+
+  ❌ WRONG: "software works like a brain"
+     (software has no Hebbian LTP, body, VTA — mechanism is COMPLETELY DIFFERENT)
+
+  ✅ RIGHT: the designer + operator + decision-maker = BRAIN THAT HAS DUAL-PULL
+     → Each person in the system BRINGS ALONG THEIR OWN Dual-Pull:
+       Product manager FEELS Domain Pull (market demands features)
+       Engineer FEELS Hardware Pull (code must be stable)
+       Doctor FEELS Hardware Pull (safety protocol)
+       Researcher FEELS Domain Pull (new methods)
+     → Tension BETWEEN THEM = each brain's Dual-Pull EXTERNALIZED as an organization
+
+  Brain architecture → designer/operator decisions → system architecture
+  = SAME SOURCE (brain has Dual-Pull)
+  → SAME TENSION (stability ↔ adaptation)
+  → DIFFERENT FORM (because different domain: code ≠ law ≠ medicine ≠ organization)
+
+
+  ⭐ WHY DIFFERENT FORM DESPITE SAME TENSION:
+
+  Each domain has its OWN Domain Pull:
+    Software: user demand, market competition, technology shift
+    Law: new social situations, technology without precedent
+    Medicine: new disease, new research, demographic change
+    Organizations: competitor, market shift, technology disruption
+
+  AND its OWN Hardware Pull:
+    Software: code stability, backward compatibility, test coverage
+    Law: precedent, consistency, predictability
+    Medicine: safe protocol, evidence-based, "do no harm"
+    Organizations: processes, hierarchy, compliance, SOPs
+
+  → SAME architecture tension (Dual-Pull from brain)
+  × DIFFERENT domain-specific constraints
+  = DIFFERENT forms of expression
+  → = Why each domain MUST BE OBSERVED DIFFERENTLY
+    but STRUCTURAL PATTERN is still recognizable through framework lens
+
+
+  ⭐ 3 IMPORTANT DIFFERENCES FROM THE BRAIN:
+
+  ① ARCHITECTURAL vs ORGANIZATIONAL:
+     Brain: Dual-Pull = evolved → CANNOT ESCAPE
+     System: tension = organizational → CAN be managed intentionally
+     → Meetings, votes, policy = adjust balance between 2 forces
+     → System HAS AN ADVANTAGE: can SEE the tension + adjust it
+
+  ② BODY SIGNAL vs METRICS:
+     Brain: feedback = body signal (valence) → unconscious, fast
+     System: feedback = metrics (crash, revenue, complaints) → analytical, slow
+     → Both are feedback loops — but through DIFFERENT CHANNELS
+     → System feedback STILL GOES THROUGH humans to interpret → depends on brain ultimately
+
+  ③ DESIGNER LAYER (system HAS, brain DOES NOT):
+     System: designer CAN SEE tension from outside → adjust structure
+     Brain: CANNOT easily see its own Dual-Pull from outside
+       (= PFC observe limit — 01-Foundation §5)
+     → = Why tools ARE USEFUL: externalize what the brain can't see directly
+
+
+  ⭐ IMPLICATION FOR INDIVIDUAL LEVEL 2:
+
+  → Tools mirror brain patterns BECAUSE SAME ORIGIN (designer = brain)
+  → Extended Mind (Clark & Chalmers 1998) at DESIGN level:
+     Tools don't just extend capacity — they INHERIT architectural constraints
+  → Civilization loop (§3.3 ④) has BUILT-IN FRICTION:
+     Better tools → externalize more → brain freed → creates more tools
+     But each tool inherits Dual-Pull → needs maintenance → COST
+  → Cross-ref: 01-Foundation.md §2 Dual-Pull, Creator-Lens.md §2
+
+
+  🟡 Dual-Pull propagation to human-designed systems = framework synthesis (§3.5)
+  🟡 "Same source → same tension → different form" = novel framework observation
+  🟢 Distributed cognition: Hutchins 1995
+  🟢 Extended mind: Clark & Chalmers 1998
   🟢 Organizational inertia: Hannan & Freeman 1984
 ```
 
@@ -800,98 +828,98 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §4 — GLOBAL-BODY ANALOGY (~70% Mapping + ~30% Breaks)
 
 ```
-⭐ TẬP THỂ NHƯ 1 CƠ THỂ: ĐÚNG ~70%, SAI ~30% (Drill §8):
+⭐ COLLECTIVE AS 1 BODY: CORRECT ~70%, WRONG ~30% (Drill §8):
 
 
-  §4.1 — MAPPING ĐÚNG (~70%):
+  §4.1 — VALID MAPPING (~70%):
 
     ① Body-input: ✅
-       Mỗi cá nhân = "receptor" → tập thể nhận info từ domain
-       VD: nhà khoa học = "mắt" → detect vấn đề → collective biết
+       Each individual = "receptor" → collective receives info from domain
+       Example: scientist = "eye" → detects problem → collective knows
 
     ② VTA habituation: ✅
-       Collective cũng có HABITUATION — thay đổi chậm → chưa vượt ngưỡng
-       → "bình thường" dù đang thay đổi
-       VD: nhiệt độ +0.01°C/năm → collective "bình thường" dù climate crisis
+       Collective also has HABITUATION — slow change → not yet over threshold
+       → "normal" even while changing
+       Example: +0.01°C/year → collective "normal" even during climate crisis
 
     ③ Pattern compile: ✅
-       "Bảo vệ môi trường" = pattern compiled ở collective (nhưng nông)
-       "Dân chủ" = pattern compiled sâu ở nhiều quốc gia
+       "Protect the environment" = pattern compiled in collective (but shallow)
+       "Democracy" = pattern compiled deeply in many nations
 
     ④ Competing patterns: ✅
-       "Phát triển AI" vs "sợ AI" = 2 pattern CẠN TRANH ở collective
-       VD: cụm pattern giành giật quyền thực thi (policy, funding, narrative)
+       "Develop AI" vs "fear AI" = 2 COMPETING patterns in collective
+       Example: pattern clusters competing for implementation authority (policy, funding, narrative)
 
-    ⑤ Valence: ✅ (một phần)
-       Collective CÓ valence tags (approach/avoidance) trên patterns
-       Nhưng KHÔNG unified — distribution, không 1 giá trị
+    ⑤ Valence: ✅ (partial)
+       Collective HAS valence tags (approach/avoidance) on patterns
+       But NOT unified — a distribution, not 1 value
 
 
-  §4.2 — MAPPING SAI (~30%):
+  §4.2 — INVALID MAPPING (~30%):
 
-    ⑥ PFC: ❌ KHÔNG CÓ PFC THỐNG NHẤT
-       → Individual: 1 PFC direct + hold + observe
-       → Collective: KHÔNG CÓ 1 entity direct toàn bộ
-       → = Collective action problems (tragedy of commons)
-       → = Tại sao climate change: "biết" nhưng không "làm" (no unified PFC)
-       → Leaders, institutions = PARTIAL PFC analogs (nhưng compete, không unified)
+    ⑥ PFC: ❌ NO UNIFIED PFC
+       → Individual: 1 PFC directs + holds + observes
+       → Collective: NO 1 entity directs the whole
+       → = Collective action problems (tragedy of the commons)
+       → = Why climate change: "knows" the danger but cannot "act" (no unified PFC)
+       → Leaders, institutions = PARTIAL PFC analogs (but compete, not unified)
 
-    ⑦ Đồng bộ: ❌ CỰC THẤP
-       → Individual: neural signals = milliseconds → đồng bộ CAO
-       → Collective: info truyền minutes → years → đồng bộ CỰC THẤP
-       → = Tại sao collective "phản ứng chậm" với threat rõ ràng
-       → = Tại sao "tập thể thiếu PFC" = description, không phải explanation
+    ⑦ Synchronization: ❌ EXTREMELY LOW
+       → Individual: neural signals = milliseconds → synchronization HIGH
+       → Collective: information transmits minutes → years → synchronization EXTREMELY LOW
+       → = Why collective "reacts slowly" to obvious threats
+       → = Why "collective lacks PFC" = description, not explanation
 
-    ⑧ Compile: ❌ MỖI CÁ NHÂN COMPILE RIÊNG
+    ⑧ Compile: ❌ EACH INDIVIDUAL COMPILES SEPARATELY
        → Individual: 1 brain, 1 compile process
        → Collective: AGGREGATE of millions of individual compiles
-       → = Distribution, không 1 giá trị
-       → = Tại sao "dư luận" = NOISY + POLARIZED (không phải 1 "quyết định")
+       → = Distribution, not 1 value
+       → = Why "public opinion" = NOISY + POLARIZED (not 1 "decision")
 
-    ⑨ Sleep: ❌ COLLECTIVE KHÔNG CÓ "SLEEP" (Drill E5 Q-S2-3)
-       → Individual: sleep = SHY pruning + consolidation + REST.
-         External processing STOPS hoàn toàn.
-       → Collective: external processing KHÔNG BAO GIỜ stops.
-         Sau WWII → công nghiệp hóa ngay. Quốc gia luôn active.
-       → Hòa bình = phase SHIFT (vẫn active), KHÔNG phải rest.
-       → Dynasty "ngừng phát triển" ≠ sleep → = Boredom Loại 3 ở collective:
-         Chunk-Gap GIẢM → VTA underfed → internal decay → vulnerability.
-       → = Collective LUÔN cần arc mới
-         (giống cá nhân luôn cần gì đó để làm — Boredom.md §3)
+    ⑨ Sleep: ❌ COLLECTIVE HAS NO "SLEEP" (Drill E5 Q-S2-3)
+       → Individual: sleep = synaptic homeostasis (SHY) pruning + consolidation + REST.
+         External processing STOPS completely.
+       → Collective: external processing NEVER STOPS.
+         After WWII → industrialization immediately. Nations always active.
+       → Peace = phase SHIFT (still active), NOT rest.
+       → Dynasty "stops developing" ≠ sleep → = Boredom Type 3 in collective:
+         Chunk-Gap DECREASES → VTA underfed → internal decay → vulnerability.
+       → = Collective ALWAYS needs a new arc
+         (like individuals always need something to do — Boredom.md §3)
 
 
   §4.3 — TEST CASES:
 
     Climate change:
-      → ② VTA habituation: ✅ thay đổi chậm → collective "bình thường"
-      → ⑥ No unified PFC: ❌ biết nguy nhưng KHÔNG coordinate response
-      → = "PFC biết body chưa cảm" ở collective scale
+      → ② VTA habituation: ✅ slow change → collective "normal"
+      → ⑥ No unified PFC: ❌ knows the danger but CANNOT coordinate response
+      → = "PFC knows, body hasn't felt" at collective scale
 
     AI development:
-      → ④ Competing patterns: ✅ "AI tốt" vs "AI nguy" = 2 pattern cạnh tranh
-      → ③ Pattern compile: ✅ "AI regulations" đang compile ở collective
-      → ⑥ No unified PFC: ❌ regulation CHẬM hơn development
+      → ④ Competing patterns: ✅ "AI good" vs "AI dangerous" = 2 competing patterns
+      → ③ Pattern compile: ✅ "AI regulations" compiling in collective
+      → ⑥ No unified PFC: ❌ regulation SLOWER than development
 
-    Các thời kỳ lịch sử:
-      → Chiến tranh → hòa bình → phát triển = melody ARC ở collective
-      → Global-Melody.md §7: cùng wave pattern với cá nhân
-      → Cùng constraints → cùng solution → WAVE pattern ở mọi scale
+    Historical periods:
+      → War → peace → development = melody ARC in collective
+      → Global-Melody.md §7: same wave pattern as individual
+      → Same constraints → same solutions → WAVE pattern at every scale
 
 
-  ⭐ KẾT LUẬN:
+  ⭐ CONCLUSION:
 
-    Analogy HỮU ÍCH cho mô tả nhưng THIẾU unified PFC = khác biệt CĂN BẢN.
+    Analogy USEFUL for description but LACKING unified PFC = FUNDAMENTAL difference.
 
     Individual body-base: 1 unified system
-      → Body evaluate → PFC observe → Schema update → Action
+      → Body evaluates → PFC observes → Schema updates → Action
       → = COHERENT response (though imperfect)
 
     Collective body-base: DISTRIBUTED system
       → Many individuals evaluate → NO unified observer → Competing schemas
       → = EMERGENT response (noisy, slow, polarized)
 
-    → DÙNG analogy cho ~70% mapping: body-input, habituation, compile, competing patterns
-    → KHÔNG DÙNG analogy khi cần unified direction: collective action, coordination
+    → USE analogy for ~70% mapping: body-input, habituation, compile, competing patterns
+    → DO NOT USE analogy when unified direction is needed: collective action, coordination
 
   🟡 Global-Body analogy = framework synthesis (Drill §8)
   🟢 Collective action problems: Olson 1965
@@ -905,48 +933,48 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §5.1 — Trust as Only Bridge
 
 ```
-⭐ TRUST = CƠ CHẾ DUY NHẤT NỐI CẤP 1 VÀ CẤP 2:
+⭐ TRUST = THE ONLY MECHANISM CONNECTING LEVEL 1 AND LEVEL 2:
 
-  Cá nhân KHÔNG THỂ tự compile chain dài (PFC 4±1 constraint).
-  Tập thể HOLD chain dài (distributed across institutions + culture).
-  Trust = AMPLIFIER cho external compile rate (Body-Base.md §3 Component 3).
+  Individuals CANNOT compile long chains on their own (PFC 4±1 constraint).
+  Collective HOLDS long chains (distributed across institutions + culture).
+  Trust = AMPLIFIER for external compile rate (Body-Base.md §3 Component 3).
 
   MECHANISM (Drill §4, §20):
 
     ① Trust per-entity (Valence-Propagation §2):
-       → Trust = per-ENTITY meta-tag trên chunks
-       → MỌI trust sources (bản thân, cha mẹ, thầy, tập thể, hệ thống)
-         dùng IDENTICAL mechanism — khác verification path
+       → Trust = per-ENTITY meta-tag on chunks
+       → ALL trust sources (self, parents, teacher, collective, system)
+         use IDENTICAL mechanism — different verification paths
 
-    ② Trust bypass verification:
+    ② Trust bypasses verification:
        → Cost of verification > cost of trust → trust = RATIONAL shortcut
-       → Individual compile: [trust source nói X → X] = SHORT (1 node)
-       → Individual KHÔNG process: [full chain behind X]
-       → Cấp 2 hold: full chain (institutions, accumulated knowledge)
+       → Individual compile: [trust source says X → X] = SHORT (1 node)
+       → Individual DOES NOT process: [full chain behind X]
+       → Level 2 holds: full chain (institutions, accumulated knowledge)
 
-    ③ Trust MODULATE toàn bộ valence profile (Valence-Propagation §2 ④):
-       → Trust CAO trên entity → TẤT CẢ từ entity đó AMPLIFIED
-       → Trust THẤP → TẤT CẢ bị DISCOUNT
-       → = Trust KHÔNG selective per-domain (evolution design for small group)
-       → NHƯNG: direct experience CÓ THỂ calibrate per-domain (Trust.md v1.0 §5)
+    ③ Trust MODULATES entire valence profile (Valence-Propagation §2 ④):
+       → HIGH trust on entity → EVERYTHING from that entity AMPLIFIED
+       → LOW trust → EVERYTHING is DISCOUNTED
+       → = Trust is NOT selective per-domain (evolution designed for small groups)
+       → BUT: direct experience CAN calibrate per-domain (Trust.md v1.0 §5)
 
     ④ Chain trust = product of link trusts (Valence-Propagation §5 ②):
        → Chain [A → B → C → D]: trust chain ≈ trust(A→B) × trust(B→C) × trust(C→D)
-       → 1 link trust COLLAPSE → toàn bộ chain phía sau BỊ ẢNH HƯỞNG
-       → = Tại sao chain dài FRAGILE: nhiều links = nhiều potential failure points
+       → 1 link trust COLLAPSES → entire chain after that link AFFECTED
+       → = Why long chains are FRAGILE: more links = more potential failure points
 
 
   5 EXTERNAL INSTALL MECHANISMS (Chunk.md §2.3):
 
-    ① Co-attention: cùng chú ý → cùng compile
-    ② Imitation: thấy → copy → compile
-    ③ Social referencing: check người khác → trust → compile
-    ④ Label installation: "đây là X" → label compile
-    ⑤ Cultural transmission: qua thế hệ → compile tích lũy
+    ① Co-attention: attend together → compile together
+    ② Imitation: see → copy → compile
+    ③ Social referencing: check others → trust → compile
+    ④ Label installation: "this is X" → label compiles
+    ⑤ Cultural transmission: across generations → accumulated compile
 
-    → TẤT CẢ 5 yêu cầu trust amplifier ở mức nào đó
-    → Trust CAO → chunks install nhanh + sâu
-    → Trust THẤP → chunks reject hoặc compile nông
+    → ALL 5 require trust amplifier at some level
+    → HIGH trust → chunks install fast + deep
+    → LOW trust → chunks rejected or compiled shallowly
 
   🟡 Trust = only bridge = framework synthesis (Drill §4, §20)
   🟢 Source credibility: Hovland & Weiss 1951
@@ -957,22 +985,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     (Inter-Body-Mechanism.md §7: PFC = Lawyer not Judge)
 
-    PFC at INDIVIDUAL level: tạo narrative FOR body decision đã xảy ra.
+    PFC at INDIVIDUAL level: creates narrative FOR a body decision that already happened.
     PFC at COLLECTIVE level: collective narratives = PFC confabulation AGGREGATED.
 
-    "Quốc gia vĩ đại" = narrative FOR group cohesion (not neutral assessment)
-    "Thị trường luôn tăng" = narrative FOR collective optimism (not fact)
-    "Nghề này ổn định" = narrative FOR trust maintenance (not guaranteed)
+    "Great nation" = narrative FOR group cohesion (not neutral assessment)
+    "Market always rises" = narrative FOR collective optimism (not fact)
+    "This career is stable" = narrative FOR trust maintenance (not guaranteed)
 
     → Collective narratives serve FUNCTION (maintain trust bridge, group cohesion)
-    → NHƯNG: narratives ≠ domain reality (can be outdated, wrong, manipulated)
+    → BUT: narratives ≠ domain reality (can be outdated, wrong, manipulated)
     → = PFC=Lawyer at scale → collective CAN confabulate at scale
-    → = "Bong bóng" (bubble) = collective narrative ("tăng mãi")
+    → = "Bubble" = collective narrative ("always rises")
       detached from domain reality → crash = domain feedback arrives
 
-    → DOMAIN = FINAL ARBITER (luôn):
-      Collective narrative says "bằng đại học = việc tốt"
-      Domain reality: unemployment rate TĂNG (Expansion-Saturation-Crisis)
+    → DOMAIN = FINAL ARBITER (always):
+      Collective narrative says "college degree = good job"
+      Domain reality: unemployment rate RISING (Expansion-Saturation-Crisis)
       → Domain wins. Narrative eventually adjusts (slow, painful).
     🟢 Gazzaniga: interpreter fabricates (individual → collective parallel)
     🟡 PFC=Lawyer at collective scale = framework extension
@@ -981,42 +1009,42 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §5.2 — When Collective Chain Breaks
 
 ```
-⭐ "HỌC LÀM GÌ" = BODY CIRCUIT-BREAK KHI CHAIN COLLECTIVE GÃY (Drill §22B):
+⭐ "WHY STUDY?" = BODY CIRCUIT-BREAK WHEN COLLECTIVE CHAIN BREAKS (Drill §22B):
 
-  Chain collective: [học → đại học → việc → lương → body-base feed]
-  Individual compile: [học → tốt] (trust-amplified SHORT)
+  Collective chain: [study → university → job → salary → body-base feed]
+  Individual compile: [study → good] (trust-amplified SHORT)
 
-  KHI NÀO PFC QUAY LẠI ĐÁNH GIÁ?
-  → Khi BODY circuit-break (Body-Base.md §7) — KHÔNG phải PFC tự nhiên suy nghĩ.
+  WHEN DOES PFC RE-EVALUATE?
+  → When BODY circuit-breaks (Body-Base.md §7) — NOT because PFC spontaneously reflects.
 
 
-  3 LOẠI CHAIN BREAK:
+  3 TYPES OF CHAIN BREAK:
 
-    ① COST TĂNG:
-       Baseline compiled = "học → vừa phải"
-       Reality mới = "học → mệt quá" → cost >> baseline
+    ① COST INCREASES:
+       Baseline compiled = "study → moderate effort"
+       New reality = "study → exhausted" → cost >> baseline
        = Body-Feedback-Mechanism Chunk-Miss: VTA negative delta → dissonance
-       → Body circuit-break: "output KHÔNG feed body-base nữa"
-       → PFC wake → "tại sao mệt?" → re-evaluate
+       → Body circuit-breaks: "output NO LONGER feeds body-base"
+       → PFC wakes → "why is it exhausting?" → re-evaluates
 
-    ② LINK GÃY:
-       Collective chain GÃY ở link [đại học → việc TỐT]
+    ② LINK BREAKS:
+       Collective chain BREAKS at link [university → GOOD job]
        = Valence-Propagation §5 ②: chain trust ≈ product of link trusts
-       Link [kiến thức → giải quyết vấn đề thực tế] trust COLLAPSE
-       → Toàn bộ chain phía trước link đó BỊ ẢNH HƯỞNG
-       → "Học vô ích" = chain đứt → valence "học" FLIP negative
+       Link [knowledge → solving real problems] trust COLLAPSES
+       → Entire chain before that link AFFECTED
+       → "Studying is useless" = chain breaks → valence of "study" FLIPS negative
 
     ③ COMPOUND:
-       Cost TĂNG (①) + link GÃY (②) + trust COLLAPSE
+       Cost INCREASES (①) + link BREAKS (②) + trust COLLAPSES
        = Body-Feedback-Mechanism Compound: multiple dynamics × intensity
-       → PFC wake MẠNH → "học làm gì" = PFC RE-EVALUATE toàn bộ chain
+       → PFC wakes STRONGLY → "why study?" = PFC RE-EVALUATES entire chain
 
 
   ⭐ KEY INSIGHT:
-     "Học làm gì" KHÔNG phải PFC tự phát suy nghĩ triết học.
-     = Body circuit-break (§6b) TRƯỚC → PFC wake → PFC TÌM lý do.
-     = CÙNG nguyên tắc Body-Base.md §2: body evaluates patterns first.
-     = Collective chain GÃY → individual body DETECT → PFC engage.
+     "Why study?" is NOT PFC spontaneously reflecting philosophically.
+     = Body circuit-breaks (§6b) FIRST → PFC wakes → PFC SEEKS reason.
+     = SAME principle Body-Base.md §2: body evaluates patterns first.
+     = Collective chain BREAKS → individual body DETECTS → PFC engages.
 
   🟡 Chain break model = framework synthesis (Drill §22B)
   🟢 Disillusionment: educational psychology research
@@ -1025,76 +1053,76 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §5.3 — Trust Hijack (Modern Exploit of Ancient Mechanism)
 
 ```
-⭐ TRUST MECHANISM EVOLVED CHO SMALL GROUP — EXPLOITED Ở MODERN SCALE:
+⭐ TRUST MECHANISM EVOLVED FOR SMALL GROUPS — EXPLOITED AT MODERN SCALE:
 
 
-  THƯƠNG HIỆU = COMPILED TRUST TAG (Drill §22C):
+  BRAND = COMPILED TRUST TAG (Drill §22C):
 
-    [Hàng Nhật] = chunk với tag {trust: ++++, quality: ++}
-    Compiled qua: collective schema inheritance + SOME direct experience
-    → Thấy "Made in Japan" → trust tag FIRE → approach → mua
-    = Individual compile: [nhãn → trust → mua] = SHORT (1 node)
-    = Individual KHÔNG process: [nhà máy → quy trình → chất lượng]
-    = CẤP 2 hold: tiêu chuẩn, kiểm định, danh tiếng tích lũy
+    [Japanese product] = chunk with tag {trust: ++++, quality: ++}
+    Compiled through: collective schema inheritance + SOME direct experience
+    → See "Made in Japan" → trust tag FIRES → approach → buy
+    = Individual compile: [label → trust → buy] = SHORT (1 node)
+    = Individual DOES NOT process: [factory → process → quality]
+    = Level 2 holds: standards, certification, accumulated reputation
 
-    COUNTRY-OF-ORIGIN BIAS = COMPILED TRUST KHÓ REVISE:
-      [Hàng Trung Quốc] = chunk {trust: --, quality: --, giá rẻ: ++}
-      "iPhone sản xuất tại Trung Quốc" = evidence NGƯỢC
-      → NHƯNG old tag compiled SÂU (nhiều năm) vs new evidence NÔNG
-      → Old WIN vì compiled SÂU hơn → bias VẪN CÒN
-      → = Tại sao stereotypes KHÓ thay đổi dù evidence mới RÕ RÀNG
+    COUNTRY-OF-ORIGIN BIAS = COMPILED TRUST HARD TO REVISE:
+      [Chinese product] = chunk {trust: --, quality: --, cheap: ++}
+      "iPhone manufactured in China" = COUNTER evidence
+      → BUT old tag compiled DEEP (many years) vs new evidence SHALLOW
+      → Old WINS because compiled DEEPER → bias REMAINS
+      → = Why stereotypes are HARD TO CHANGE even with CLEAR new evidence
     🟢 Country-of-origin effect: Schooler 1965
 
 
   KOL HIJACK = CROSS-DOMAIN TRUST TRANSFER (Drill §22D):
 
-    Valence-Propagation §2: Trust = per-ENTITY, MODULATE toàn bộ profile.
-    → Trust compiled trên NGƯỜI, không phải trên DOMAIN.
-    → Trust CAO trên NGƯỜI → TẤT CẢ từ người đó AMPLIFIED.
+    Valence-Propagation §2: Trust = per-ENTITY, MODULATES entire profile.
+    → Trust compiled on PERSON, not on DOMAIN.
+    → HIGH trust on PERSON → EVERYTHING from that person AMPLIFIED.
 
-    CƠ CHẾ:
-      Bước 1: Build trust qua DOMAIN CỦA HỌ
-        [KOL → game hay / hát hay → entertainment value → opioid]
-        → Trust tag compile: entity "KOL" = {trust: +++}
-        = Experience Compile: direct experience (xem → vui THẬT)
+    MECHANISM:
+      Step 1: Build trust through THEIR DOMAIN
+        [KOL → makes great games / sings well → entertainment value → opioid]
+        → Trust tag compiles: entity "KOL" = {trust: +++}
+        = Experience Compile: direct experience (watch → genuinely happy)
 
-      Bước 2: Quảng cáo sản phẩm NGOÀI domain
-        KOL nói "nước X ngon" → Valence-Propagation §3 ③ Schema inheritance
-        → Trust tag trên KOL {+++} MODULATE valence "nước X"
-        → [nước X] INHERIT valence positive TỪ [KOL trust]
+      Step 2: Advertise product OUTSIDE their domain
+        KOL says "product X is great" → Valence-Propagation §3 ③ Schema inheritance
+        → Trust tag on KOL {+++} MODULATES valence of "product X"
+        → [product X] INHERITS positive valence FROM [KOL trust]
 
-      Bước 3: Follower MUA dù KOL không phải chuyên gia
-        Individual compile: [KOL nói tốt → trust → mua] = SHORT
-        = Trust BYPASS verification
-        = KHÔNG CÓ "trust filter per-domain" tự động trong brain
+      Step 3: Followers BUY even though KOL is not an expert
+        Individual compile: [KOL says good → trust → buy] = SHORT
+        = Trust BYPASSES verification
+        = NO automatic "trust filter per-domain" in the brain
 
-    ⭐ TẠI SAO HOẠT ĐỘNG:
-      CƠ CHẾ EVOLUTION DESIGN CHO face-to-face community nhỏ:
-        Người đáng tin (thủ lĩnh, trưởng lão) → tin MỌI THỨ họ nói
-        → THƯỜNG đúng vì thủ lĩnh = experienced + accountable
+    ⭐ WHY IT WORKS:
+      MECHANISM EVOLVED FOR face-to-face small community:
+        Trustworthy person (leader, elder) → believe EVERYTHING they say
+        → USUALLY right because leader = experienced + accountable
 
-      EXPLOIT bởi modern media:
-        Scale LỚN (triệu followers vs vài chục người trong bộ lạc)
-        Cross-domain (game thủ quảng cáo thuốc)
-        NO accountability (KOL không chịu hậu quả nếu sản phẩm kém)
+      EXPLOITED by modern media:
+        Scale LARGE (millions of followers vs dozens in a tribe)
+        Cross-domain (gamer advertises medicine)
+        NO accountability (KOL faces no consequences if product is bad)
 
 
-  "BÓC PHỐT" = COLLECTIVE DEFENSE (Drill §22D):
+  PUBLIC CALLOUT / EXPOSÉ = COLLECTIVE DEFENSE (Drill §22D):
 
-    Valence-Propagation §3: 1 betrayal event → trust FLIP
+    Valence-Propagation §3: 1 betrayal event → trust FLIPS
     + Collective amplification:
-      1 bài bóc phốt → share toàn mạng → MỌI NGƯỜI cùng flip
-      = Install propagation negative direction
-      = Tốc độ: CỰC NHANH (giờ/ngày, không tháng/năm)
-      = Collective sync: flip ĐỒNG LOẠT → "tẩy chay"
+      1 exposé post → shared across the internet → EVERYONE flips together
+      = Install propagation in the negative direction
+      = Speed: EXTREMELY FAST (hours/days, not months/years)
+      = Collective sync: flip SIMULTANEOUSLY → "boycott"
 
-    NHƯNG — Valence-Propagation §3 ① reinforcement:
-      KOL build trust SÂU → một số followers KHÔNG flip
-      = "Tôi vẫn tin anh ấy" = old trust chunks VẪN fire
-      = Old trust KHÔNG bị xóa → stress → "biết đâu bị oan?"
+    BUT — Valence-Propagation §3 ① reinforcement:
+      KOL built deep trust → some followers DO NOT flip
+      = "I still believe him" = old trust chunks STILL fire
+      = Old trust NOT deleted → stress → "maybe they were wrongly accused?"
 
-    → "Bóc phốt" = collective defense mechanism AGAINST trust hijack
-    → Effectiveness tùy: old trust depth × evidence strength × collective sync
+    → Callout/exposé = collective defense mechanism AGAINST trust hijack
+    → Effectiveness depends on: old trust depth × evidence strength × collective sync
 
   🟡 Cross-domain trust transfer = framework synthesis (Drill §22D)
   🟢 Source credibility transfer: Hovland & Weiss 1951
@@ -1104,93 +1132,93 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §5.4 — Compilation Source Match (Trust × Guilt Resolution)
 
 ```
-⭐⭐ PRINCIPLE: GUILT RESOLUTION CẦN SIGNAL TỪ ĐÚNG NGUỒN ĐÃ COMPILE GUILT.
+⭐⭐ PRINCIPLE: GUILT RESOLUTION REQUIRES A SIGNAL FROM THE EXACT SOURCE THAT COMPILED THE GUILT.
 
-  Hypothesis ban đầu: guilt compiled ở level CAO HƠN → cần authority CAO HƠN resolve.
-  COUNTEREXAMPLE PHÁ: lỗi với vợ → Thiên Chúa (authority MAX) KHÔNG resolve.
-  → KHÔNG PHẢI hierarchy (ai CAO HƠN) — mà là SOURCE MATCH (ai ĐÃ COMPILE).
-  → Analogy: mỗi ổ khóa cần ĐÚNG chìa. Cha xứ có chìa "collective moral"
-    nhưng KHÔNG CÓ chìa "vợ." Chỉ vợ có chìa "vợ."
+  Initial hypothesis: guilt compiled at a HIGHER level → needs HIGHER authority to resolve.
+  COUNTEREXAMPLE BREAKS IT: wrong against spouse → God (authority MAX) DOES NOT resolve.
+  → NOT hierarchy (who is HIGHER) — but SOURCE MATCH (who COMPILED it).
+  → Analogy: each lock needs the RIGHT key. The priest has the "collective moral" key
+    but DOES NOT HAVE the "spouse" key. Only the spouse has the "spouse" key.
 
 
   ⭐ 3-LAYER GUILT MODEL:
 
-    Khi vi phạm, body CÓ THỂ fire 1, 2, hoặc CẢ 3 lớp ĐỒNG THỜI:
+    When a violation occurs, body CAN fire 1, 2, or ALL 3 layers SIMULTANEOUSLY:
 
-    ┌───────────────┬───────────────────────┬──────────────────────────────┐
-    │ Lớp           │ Nguồn compile          │ Resolution source             │
-    ├───────────────┼───────────────────────┼──────────────────────────────┤
-    │ ① Per-entity  │ Entity-Compiled        │ ENTITY ĐÓ THA               │
-    │ (cá nhân)     │ (Singer 2004: shared   │ Phụ thuộc entity's valence   │
-    │               │ pain circuits)         │ toward me.                   │
-    ├───────────────┼───────────────────────┼──────────────────────────────┤
-    │ ② Collective  │ Collective moral code  │ COLLECTIVE AUTHORITY         │
-    │ (đạo đức)     │ (schema inheritance,   │ Cha xứ, thẩm phán, trưởng   │
-    │               │ Valence-Propagation    │ lão — proxy cho SOURCE.      │
-    │               │ §3 nguồn ③)           │                              │
-    ├───────────────┼───────────────────────┼──────────────────────────────┤
-    │ ③ Self-model  │ Self-Pattern-Modeling  │ BEHAVIORAL CHANGE + TIME     │
-    │ (tự phán xét) │ ("tôi muốn tốt" vs   │ + body verify. CHẬM NHẤT.    │
-    │               │ "tôi vừa làm xấu")   │ Self-Pattern-Modeling         │
-    │               │                       │ §15.4: moral injury.         │
-    └───────────────┴───────────────────────┴──────────────────────────────┘
+    ┌─────────────────┬───────────────────────┬──────────────────────────────┐
+    │ Layer           │ Compile source         │ Resolution source             │
+    ├─────────────────┼───────────────────────┼──────────────────────────────┤
+    │ ① Per-entity   │ Entity-Compiled        │ THAT ENTITY FORGIVES         │
+    │ (individual)    │ (Singer 2004: shared   │ Depends on entity's valence  │
+    │                 │ pain circuits)         │ toward me.                   │
+    ├─────────────────┼───────────────────────┼──────────────────────────────┤
+    │ ② Collective   │ Collective moral code  │ COLLECTIVE AUTHORITY         │
+    │ (moral)         │ (schema inheritance,   │ Priest, judge, elder —       │
+    │                 │ Valence-Propagation    │ proxy for SOURCE.            │
+    │                 │ §3 source ③)           │                              │
+    ├─────────────────┼───────────────────────┼──────────────────────────────┤
+    │ ③ Self-model   │ Self-Pattern-Modeling  │ BEHAVIORAL CHANGE + TIME     │
+    │ (self-judgment) │ ("I want to be good"   │ + body verify. SLOWEST.      │
+    │                 │ vs "I just did bad")   │ Self-Pattern-Modeling        │
+    │                 │                        │ §15.4: moral injury.         │
+    └─────────────────┴───────────────────────┴──────────────────────────────┘
 
-    ⚠️ KEY: Resolve 1 lớp → lớp khác VẪN FIRE.
-    → Confession resolve lớp ② (collective moral) → NHẸ NHÕM.
-    → NHƯNG: "tại sao vẫn chưa hết?" = lớp ① (entity chưa tha) + lớp ③ (self-model).
-    → = Tại sao confession CÓ GIÁ TRỊ nhưng KHÔNG giải quyết hoàn toàn.
+    ⚠️ KEY: Resolving 1 layer → other layers STILL FIRE.
+    → Confession resolves layer ② (collective moral) → RELIEF.
+    → BUT: "why does it still not stop?" = layer ① (entity hasn't forgiven) + layer ③ (self-model).
+    → = Why confession HAS VALUE but DOES NOT fully resolve it.
 
 
   ⭐ TRUST × GUILT RESOLUTION:
 
-    Lớp ②: cần TRUST CỦA TÔI vào authority — valence IRRELEVANT.
-      → Sợ Chúa (valence -) VẪN work nếu trust HIGH (tin Chúa có quyền tha).
-      → Thích cha xứ (valence +) KHÔNG work nếu trust LOW (không tin authority).
-      → Trust ≠ Valence (Trust.md §1, §6): 2 chiều ĐỘC LẬP.
-      → = Tại sao fear-based religion VẪN effective cho confession.
+    Layer ②: needs MY TRUST in the authority — valence IRRELEVANT.
+      → Fear of God (valence -) STILL works if trust HIGH (believe God has power to forgive).
+      → Like the priest (valence +) DOES NOT work if trust LOW (don't believe their authority).
+      → Trust ≠ Valence (Trust.md §1, §6): 2 INDEPENDENT dimensions.
+      → = Why fear-based religion IS STILL effective for confession.
 
-    Lớp ①: cần ENTITY CHỌN THA — phụ thuộc entity's valence toward me.
-      → Entity vẫn valence + toward me → DỄ tha (gap-fill positive history).
-      → Entity valence - toward me → KHÓ tha (gap-fill negative history).
-      → Trust CỦA TÔI vào entity irrelevant — CẦN entity's decision.
+    Layer ①: needs ENTITY TO CHOOSE TO FORGIVE — depends on entity's valence toward me.
+      → Entity still valence + toward me → EASY to forgive (positive gap-fill history).
+      → Entity valence - toward me → HARD to forgive (negative gap-fill history).
+      → MY trust in entity is irrelevant — NEEDS entity's decision.
 
-    Lớp ③: cần behavioral change + time + body verify.
-      → PFC tự nói "tôi đã tốt hơn" = verbal (1 channel).
-      → Body cần THẤY hành vi thay đổi THỰC + qua TIME → mới update self-model.
-      → = CHẬM NHẤT vì compiled self-model = DEEP, cần sustained evidence.
+    Layer ③: needs behavioral change + time + body verify.
+      → PFC telling itself "I am better now" = verbal (1 channel).
+      → Body needs to SEE ACTUAL behavioral change + through TIME → only then updates self-model.
+      → = SLOWEST because compiled self-model = DEEP, needs sustained evidence.
 
     🟢 Singer et al. 2004: shared pain circuits (per-entity guilt neural basis).
     🟢 Colquitt et al. 2007: trust separable from affect (trust ≠ valence).
 
 
-  ⭐ PFC KHÔNG TỰ THA ĐƯỢC:
+  ⭐ PFC CANNOT SELF-FORGIVE:
 
     PFC holds ~4±1 items. Guilt = HUNDREDS of interconnected chunks.
-    PFC suppress ≠ resolve — suppression tốn metabolic, unsustainable.
+    PFC suppress ≠ resolve — suppression costs metabolic energy, unsustainable.
     PFC runs ON collectively-compiled substrate:
-      → Ngôn ngữ = collective product. "Đúng/sai" = collective definition.
-      → PFC dùng tools collective tạo ra → KHÔNG override được collective.
+      → Language = collective product. "Right/wrong" = collective definition.
+      → PFC uses tools collective created → CANNOT override collective.
       → "Application cannot modify BIOS."
-    PFC tự tha = 1 kênh verbal × ~5% influence × self-assessment.
+    PFC self-forgiveness = 1 verbal channel × ~5% influence × self-assessment.
     Confession = multi-modal (ritual + space + voice + authority) ×
       compiled trust (unfalsifiable) × collective-level signal.
-    → = Tại sao confession > self-forgiveness: signal MATCH strength.
+    → = Why confession > self-forgiveness: signal MATCHES strength.
 
     🟢 Cowan 2001: PFC capacity ~4±1 items.
     🟢 Pennebaker 1997: confession/disclosure benefit for mental health.
 
 
-  ⭐ ENTITY MẤT → UNRESOLVABLE:
+  ⭐ ENTITY LOST → UNRESOLVABLE:
 
-    Per-entity guilt (lớp ①) fire MÃI khi entity đã chết/mất.
-    Resolution source MẤT → no signal → no resolution.
+    Per-entity guilt (layer ①) fires INDEFINITELY when entity has died/departed.
+    Resolution source GONE → no signal → no resolution.
     = Moral injury component of PTSD (Litz et al. 2009).
-    "Cây muốn lặng mà gió chẳng dừng."
+    "The tree wants to be still but the wind does not stop."
 
-    Friendly fire → PTSD NẶG HƠN killing enemy vì:
-      Enemy = NOT Entity-Compiled (chỉ fire lớp ②③).
-      Comrade = DEEP Entity-Compiled (fire CẢ 3 lớp).
-      + Comrade DEAD → lớp ① PERMANENTLY unresolvable.
+    Friendly fire → PTSD WORSE than killing the enemy because:
+      Enemy = NOT Entity-Compiled (only fires layers ②③).
+      Comrade = DEEP Entity-Compiled (fires ALL 3 layers).
+      + Comrade DEAD → layer ① PERMANENTLY unresolvable.
 
     🟢 Litz et al. 2009: moral injury — distinct from PTSD.
     🟢 Drescher et al. 2011: friendly fire → worse outcomes.
@@ -1198,15 +1226,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ COORDINATION-NODE MEDIATION:
 
-    Bố mẹ vợ/chồng = mediation, NOT direct resolution.
-    Chain: tôi → authority in entity's network → mediate → entity tha.
-    Mediation CAN open gate, nhưng entity STILL DECIDES.
-    = Coordination-Node v1.2 §2.2: node = partial PFC cho collective.
-    = Node mediate nhưng KHÔNG override entity's autonomy.
+    Parents-in-law = mediation, NOT direct resolution.
+    Chain: me → authority in entity's network → mediate → entity forgives.
+    Mediation CAN open the gate, but entity STILL DECIDES.
+    = Coordination-Node v1.2 §2.2: node = partial PFC for collective.
+    = Node mediates but DOES NOT override entity's autonomy.
 
-    Matthew 5:23-24: "Đi làm hòa TRƯỚC, rồi dâng lễ."
-    → Kinh Thánh ĐÃ BIẾT: per-entity resolution (lớp ①) TRƯỚC collective (lớp ②).
-    → = Bible formalize compilation source match principle 2000 năm trước.
+    Matthew 5:23-24: "Go and be reconciled FIRST, then offer your gift."
+    → Scripture ALREADY KNEW: per-entity resolution (layer ①) BEFORE collective (layer ②).
+    → = Bible formalizes Compilation Source Match principle 2000 years ago.
 
 
 🟡 Compilation Source Match = framework synthesis (from Guilt Drill v1.2)
@@ -1223,27 +1251,27 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §6 — SYSTEM COMPILATION (6 Compound Mechanisms)
 
-### §6.1 — Valence-Structural Không Tồn Tại Cho Abstract Entities
+### §6.1 — Valence-Structural Cannot Exist for Abstract Entities
 
 ```
-⭐ Valence-Structural KHÔNG THỂ TỒN TẠI CHO ABSTRACT ENTITIES (Drill §25A):
+⭐ Valence-Structural CANNOT EXIST FOR ABSTRACT ENTITIES (Drill §25A):
 
-  Valence-Structural (entity-owned structural reward) YÊU CẦU (Body-Coupling.md §2-§3):
-    → Per-agent coupling: Self-Pattern-Modeling bidirectional (agent respond back)
-    → Physical presence: body detect agent → Self-Pattern-Modeling fire
-    → Irreplaceable: agent specific → grief khi mất
+  Valence-Structural (entity-owned structural reward) REQUIRES (Body-Coupling.md §2-§3):
+    → Per-agent coupling: Self-Pattern-Modeling bidirectional (agent responds back)
+    → Physical presence: body detects agent → Self-Pattern-Modeling fires
+    → Irreplaceable: agent-specific → grief when lost
 
-  Abstract entities (quốc gia, tôn giáo, ideal) THIẾU TẤT CẢ:
-    → Không có physical form → KHÔNG có L0 direct
-    → Không respond back → KHÔNG có Self-Pattern-Modeling bidirectional
-    → Valence HOÀN TOÀN qua schema chain (Valence-Propagation §4 propagation)
-    → Members = REPLACEABLE (instances in schema, không per-agent)
+  Abstract entities (nation, religion, ideal) LACK ALL OF THESE:
+    → No physical form → NO L0 direct
+    → Does not respond back → NO Self-Pattern-Modeling bidirectional
+    → Valence ENTIRELY through schema chain (Valence-Propagation §4 propagation)
+    → Members = REPLACEABLE (instances in schema, not per-agent)
 
-  Valence-Propagation §2: "Body-base extension = EMERGENT property CHỈ CÓ ở agent valence"
-  → Abstract entities = GIỐNG object về Valence-Structural dimension: valence CÓ, coupling KHÔNG
+  Valence-Propagation §2: "Body-base extension = EMERGENT property ONLY FOUND in agent valence"
+  → Abstract entities = LIKE OBJECTS on the Valence-Structural dimension: valence YES, coupling NO
 
-  VẬY TẠI SAO "YÊU NƯỚC" CẢM THẤY RẤT SÂU?
-  → Vì có mechanism KHÁC: System Compilation (Body-Coupling §2.5)
+  SO WHY DOES "LOVE OF COUNTRY" FEEL SO DEEP?
+  → Because there is a DIFFERENT mechanism: System Compilation (Body-Coupling §2.5)
 
   🟡 Valence-Structural cannot exist for abstract entities = framework synthesis (Drill §25A)
 ```
@@ -1251,50 +1279,50 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §6.2 — 6 Mechanisms Compound
 
 ```
-⭐ SYSTEM COMPILATION = 6 MECHANISMS CHẠY ĐỒNG THỜI (Drill §25B):
+⭐ SYSTEM COMPILATION = 6 MECHANISMS RUNNING SIMULTANEOUSLY (Drill §25B):
 
-  Body-Coupling §2.5 đã phân biệt rõ:
-    COUPLING = per-agent (mẹ, bạn, kẻ thù) → Valence-Structural
-    SYSTEM COMPILATION = per-context (công ty, quốc gia, tôn giáo) → 6 compound
+  Body-Coupling §2.5 clearly distinguishes:
+    COUPLING = per-agent (mother, friend, enemy) → Valence-Structural
+    SYSTEM COMPILATION = per-context (company, nation, religion) → 6 compound
 
 
   ① HARDWARE BELONGING (Agent-Mechanism §12.5):
      → "Among my people" → continuous baseline social presence signal
      → Pre-Self-Pattern-Modeling: body-level, not cognitive
-     → Đi trên đường giữa đồng bào → body feel safe TỰ ĐỘNG
+     → Walking among compatriots → body feels safe AUTOMATICALLY
      → 🟢 Social baseline theory: Coan 2006
 
   ② IDENTITY ANCHOR (Meaning.md §3.3):
-     → "Tôi là người Việt" / "Tôi là tín đồ Phật giáo"
-     → IDENTITY type life-level anchor → sync MỌI hành vi quanh identity
-     → Mất → anchor disrupted → existential crisis
+     → "I am Vietnamese" / "I am a Buddhist"
+     → IDENTITY type life-level anchor → synchronizes ALL behavior around identity
+     → Loss → anchor disrupted → existential crisis
 
   ③ VALENCE CHAIN INSTALL (Valence-Propagation §4):
-     → "Quốc gia → cờ → tự do → an toàn" = chain INSTALLED
-     → Qua giáo dục, nghi lễ, media
-     → Body fire khi BẤT KỲ node nào triggered
-     → Unfalsifiable entities (Thiên Đàng) → valence KHÔNG BAO GIỜ bị revise
+     → "Nation → flag → freedom → safety" = chain INSTALLED
+     → Through education, ritual, media
+     → Body fires when ANY node is triggered
+     → Unfalsifiable entities (Heaven) → valence NEVER revised
 
   ④ ROUTINE COMPILE (Body-Feedback-Mechanism §5):
-     → 10 năm × mỗi ngày = HÀNG NGHÌN patterns compiled
-     → Baseline shift → routine = "bình thường"
-     → Mất routine → Chunk-Miss compound (đường đi, chỗ ngồi, thói quen)
+     → 10 years × every day = THOUSANDS of patterns compiled
+     → Baseline shifts → routine = "normal"
+     → Lose routine → Chunk-Miss compound (commute, seat, habits)
 
   ⑤ COLLECTIVE EFFERVESCENCE (🟢 Durkheim 1912):
      → Mass gathering → shared emotional state
-     → Concert, lễ hội, nghi lễ → body fire CỰC MẠNH
+     → Concert, festival, ritual → body fires EXTREMELY STRONGLY
      → Mass Self-Pattern-Modeling co-firing → Resonance at group scale
 
   ⑥ SCHEMA-AGENT SCHEMA-PURE-TRUST/IMAGINED-OVERLAY (Agent-Mechanism §12.4):
-     → Đức Mẹ, quốc phụ = "virtual agent" → body fire presence
+     → Virgin Mary, founding father = "virtual agent" → body fires presence
      → Schema-provided "presence" → cortisol ↓, comfort
-     → KHÔNG phải agent thật, nhưng body TREAT như agent
-     → UNCALIBRATED (giống parasocial): no feedback → CÓ THỂ inflated
+     → NOT a real agent, but body TREATS them like one
+     → UNCALIBRATED (like parasocial): no feedback → CAN BE inflated
 
 
-  → 6 mechanisms CÙNG compile → COMPOUND effect CỰC MẠNH
-  → Binh lính chết cho đất nước = compound 6 mechanisms (NOT per-agent Valence-Structural)
-  → "Công ty cũ" = mini version "quốc gia" → cùng model, khác scale
+  → 6 mechanisms COMPILE TOGETHER → COMPOUND effect EXTREMELY STRONG
+  → Soldiers dying for their country = compound of 6 mechanisms (NOT per-agent Valence-Structural)
+  → "Former company" = mini version of "nation" → same model, different scale
 
   🟡 System compilation 6-mechanism model = framework synthesis (Drill §25B)
   🟢 Social baseline theory: Coan 2006
@@ -1305,81 +1333,81 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §6.3 — Valence-Structural vs System Compilation
 
 ```
-⭐ KHÁC MECHANISM, TƯƠNG ĐƯƠNG INTENSITY, KHÁC QUALITY (Drill §25C):
+⭐ DIFFERENT MECHANISM, COMPARABLE INTENSITY, DIFFERENT QUALITY (Drill §25C):
 
-  ┌─────────────────────┬───────────────────────────────┬──────────────────────────────────┐
-  │                     │ Valence-Structural            │ SYSTEM COMPILATION               │
-  │                     │ (PER-AGENT)                   │ (PER-CONTEXT/ABSTRACT)           │
-  ├─────────────────────┼───────────────────────────────┼──────────────────────────────────┤
-  │ Target              │ Agent CỤ THỂ                  │ Context / abstract               │
-  │                     │ (mẹ, bạn, kẻ thù)            │ (quốc gia, đạo, ideal)           │
-  ├─────────────────────┼───────────────────────────────┼──────────────────────────────────┤
-  │ Core mechanism      │ ❸ per-agent compile           │ 6 mechanisms COMPOUND            │
-  │                     │ + Self-Pattern-Modeling deep   │ (không Self-Pattern-Modeling      │
-  │                     │                               │ bidirectional)                    │
-  ├─────────────────────┼───────────────────────────────┼──────────────────────────────────┤
-  │ Members             │ IRREPLACEABLE                 │ REPLACEABLE                      │
-  │                     │ (per-agent specific)          │ (instances in schema)             │
-  ├─────────────────────┼───────────────────────────────┼──────────────────────────────────┤
-  │ Falsifiable?        │ CÓ (agent phản bội → flip)    │ CÓ THỂ KHÔNG                     │
-  │                     │                               │ (Thiên Đàng = ∞)                 │
-  ├─────────────────────┼───────────────────────────────┼──────────────────────────────────┤
-  │ Loss quality        │ Grief = body-base AMPUTATION  │ Compound Chunk-Miss              │
-  │                     │                               │ + identity DISRUPTION             │
-  ├─────────────────────┼───────────────────────────────┼──────────────────────────────────┤
-  │ Loss intensity      │ DEEP cho 1 agent              │ CÓ THỂ > Valence-Structural vì  │
-  │                     │                               │ 6 compound = additive             │
-  ├─────────────────────┼───────────────────────────────┼──────────────────────────────────┤
-  │ Break difficulty    │ 3 đường                       │ RẤT KHÓ: unfalsifiable           │
-  │                     │ (Body-Coupling §6.3-6.4)      │ + 6 mechanisms cùng lúc           │
-  └─────────────────────┴───────────────────────────────┴──────────────────────────────────┘
+  ┌──────────────────────┬───────────────────────────────┬──────────────────────────────────┐
+  │                      │ Valence-Structural             │ SYSTEM COMPILATION               │
+  │                      │ (PER-AGENT)                    │ (PER-CONTEXT/ABSTRACT)           │
+  ├──────────────────────┼───────────────────────────────┼──────────────────────────────────┤
+  │ Target               │ SPECIFIC agent                 │ Context / abstract               │
+  │                      │ (mother, friend, enemy)        │ (nation, religion, ideal)        │
+  ├──────────────────────┼───────────────────────────────┼──────────────────────────────────┤
+  │ Core mechanism       │ ❸ per-agent compile            │ 6 mechanisms COMPOUND            │
+  │                      │ + Self-Pattern-Modeling deep   │ (no Self-Pattern-Modeling        │
+  │                      │                                │ bidirectional)                   │
+  ├──────────────────────┼───────────────────────────────┼──────────────────────────────────┤
+  │ Members              │ IRREPLACEABLE                  │ REPLACEABLE                      │
+  │                      │ (per-agent specific)           │ (instances in schema)            │
+  ├──────────────────────┼───────────────────────────────┼──────────────────────────────────┤
+  │ Falsifiable?         │ YES (agent betrayal → flip)    │ POSSIBLY NOT                     │
+  │                      │                                │ (Heaven = ∞)                     │
+  ├──────────────────────┼───────────────────────────────┼──────────────────────────────────┤
+  │ Loss quality         │ Grief = body-base AMPUTATION   │ Compound Chunk-Miss              │
+  │                      │                                │ + identity DISRUPTION            │
+  ├──────────────────────┼───────────────────────────────┼──────────────────────────────────┤
+  │ Loss intensity       │ DEEP for 1 agent               │ CAN EXCEED Valence-Structural    │
+  │                      │                                │ because 6 compound = additive    │
+  ├──────────────────────┼───────────────────────────────┼──────────────────────────────────┤
+  │ Break difficulty     │ 3 pathways                     │ VERY HARD: unfalsifiable         │
+  │                      │ (Body-Coupling §6.3-6.4)       │ + 6 mechanisms simultaneously    │
+  └──────────────────────┴───────────────────────────────┴──────────────────────────────────┘
 
 
-  ⭐ LOSS COMPARISON — QUALITY KHÁC:
+  ⭐ LOSS COMPARISON — DIFFERENT QUALITY:
 
-    Mất per-agent (mẹ qua đời):
-      → Valence-Structural CẮT → body-base amputation → phantom Valence-Structural
-      → = Pain THUẦN (Connection.md §15)
+    Lose per-agent (mother dies):
+      → Valence-Structural CUTS → body-base amputation → phantom Valence-Structural
+      → = PURE pain (Connection.md §15)
 
-    Mất system (lưu vong, bỏ đạo):
-      → 6 mechanisms MẤT CÙNG LÚC:
+    Lose system (exile, leave religion):
+      → 6 mechanisms LOST AT ONCE:
         ① Belonging GONE → body baseline safety ↓
         ② Identity anchor DISRUPTED → existential crisis
         ③ Valence chains ORPHANED → Chunk-Miss compound
-        ④ Routine MẤT TOÀN BỘ → massive baseline disruption
+        ④ Routine ENTIRELY GONE → massive baseline disruption
         ⑤ Collective effervescence GONE → isolation
         ⑥ Schema-agent ABSENT → comfort source gone
-      → = Pain COMPOUND (nhiều loại pain KHÁC nhau ĐỒNG THỜI)
-      → CÓ THỂ kéo dài SUỐT ĐỜI (exile/refugee grief)
+      → = COMPOUND pain (many DIFFERENT types of pain SIMULTANEOUSLY)
+      → CAN last A LIFETIME (exile/refugee grief)
 
-    🟢 Refugee mental health: Fazel 2005 (10× risk depression vs general population)
+    🟢 Refugee mental health: Fazel 2005 (10× risk of depression vs general population)
     🟢 Religious deconversion grief: Streib 2014
 
 
-  ⭐ TÔN GIÁO = SYSTEM COMPILATION MẠNH NHẤT (Drill §25E):
+  ⭐ RELIGION = STRONGEST SYSTEM COMPILATION (Drill §25E):
 
-    Religion.md §2: tôn giáo kích hoạt CẢ 6 mechanisms + BONUS:
+    Religion.md §2: religion activates ALL 6 mechanisms + BONUS:
 
     ┌────────────────────────┬──────────────────────────────────────────┐
-    │ MECHANISM              │ TÔN GIÁO IMPLEMENTATION                  │
+    │ MECHANISM              │ RELIGION IMPLEMENTATION                   │
     ├────────────────────────┼──────────────────────────────────────────┤
-    │ ① Hardware belonging   │ Cộng đồng → "among my people" daily     │
-    │ ② Identity anchor      │ "Tôi là tín đồ" = IDENTITY type         │
-    │ ③ Valence chain        │ "Sống thiện → thiên đàng" UNFALSIFIABLE │
-    │ ④ Routine compile      │ Cầu nguyện mỗi ngày, lễ mỗi tuần      │
-    │ ⑤ Collective efferv.   │ Lễ hội, thánh lễ = mass emotional state │
-    │ ⑥ Schema-agent         │ Chúa, Phật = virtual agent → presence   │
-    │ + FAITH ANCHOR BONUS   │ Unfalsifiable → trust ≈ ∞ → ULTRA-STABLE│
+    │ ① Hardware belonging   │ Community → "among my people" daily      │
+    │ ② Identity anchor      │ "I am a believer" = IDENTITY type        │
+    │ ③ Valence chain        │ "Live righteously → heaven" UNFALSIFIABLE │
+    │ ④ Routine compile      │ Pray every day, Mass every week           │
+    │ ⑤ Collective efferv.   │ Festivals, Mass = mass emotional state    │
+    │ ⑥ Schema-agent         │ God, Buddha = virtual agent → presence    │
+    │ + FAITH ANCHOR BONUS   │ Unfalsifiable → trust ≈ ∞ → ULTRA-STABLE │
     └────────────────────────┴──────────────────────────────────────────┘
 
-    → 6 + 1 BONUS → compound effect CỰC MẠNH nhất trong MỌI system compilation
-    → Công ty: có ①②④ nhưng thiếu ③(falsifiable) + ⑤(yếu) + ⑥(không có)
-    → Quốc gia: có ①②③④⑤ nhưng thiếu ⑥ + ③ falsifiable
-    → Tôn giáo: CÓ TẤT CẢ 6 + UNFALSIFIABLE = CỰC BỀN
+    → 6 + 1 BONUS → compound effect MOST EXTREME of all system compilations
+    → Company: has ①②④ but lacks ③(falsifiable) + ⑤(weak) + ⑥(absent)
+    → Nation: has ①②③④⑤ but lacks ⑥ + ③ falsifiable
+    → Religion: HAS ALL 6 + UNFALSIFIABLE = EXTREMELY DURABLE
 
-    MẤT ĐỨC TIN = COMPOUND GRIEF (Religion.md §9):
-      → MẤT CÙNG LÚC: identity + routine + community + meaning + virtual agent
-      → = TẤT CẢ 6 mechanisms mất ĐỒNG THỜI
+    LOSS OF FAITH = COMPOUND GRIEF (Religion.md §9):
+      → LOSES AT ONCE: identity + routine + community + meaning + virtual agent
+      → = ALL 6 mechanisms lost SIMULTANEOUSLY
       → 🟢 Streib 2014: religious deconversion grief ≈ bereavement grief
 
   🟡 Comparison model = framework synthesis (Drill §25C)
@@ -1391,51 +1419,51 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §7 — COUPLING PROXY (Leader / Symbol / Virtual Agent)
 
 ```
-⭐ CẦU NỐI GIỮA Valence-Structural VÀ SYSTEM COMPILATION (Drill §25D):
+⭐ BRIDGE BETWEEN Valence-Structural AND SYSTEM COMPILATION (Drill §25D):
 
-  Abstract entity → body KHÔNG THỂ couple trực tiếp.
-  NHƯNG body CÓ THỂ couple với REPRESENTATIVE → tạo CẦU NỐI:
+  Abstract entity → body CANNOT couple directly.
+  BUT body CAN couple with REPRESENTATIVE → creates BRIDGE:
 
 
-  ⭐ 3 LOẠI PROXY:
+  ⭐ 3 TYPES OF PROXY:
 
   ① LEADER AS COUPLING PROXY:
-     → Leader = agent THẬT → per-agent ❸ CÓ THỂ deep → Valence-Structural THẬT
-     → Leader REPRESENT group → coupling VỚI leader ≈ coupling VỚI group
-     → Mất leader = Valence-Structural grief (per-agent) + system loss (6 compound) = COMPOUND CỰC MẠNH
-     → VD: lãnh đạo qua đời → cả nước đau = Valence-Structural proxy + system loss
+     → Leader = REAL agent → per-agent ❸ CAN be deep → REAL Valence-Structural
+     → Leader REPRESENTS the group → coupling WITH leader ≈ coupling WITH group
+     → Lose leader = Valence-Structural grief (per-agent) + system loss (6 compound) = COMPOUND EXTREME
+     → Example: leader dies → entire nation grieves = Valence-Structural proxy + system loss
 
   ② SYMBOL AS TRIGGER PROXY:
-     → Cờ, thánh giá, quốc ca = trigger cho toàn bộ valence chain
-     → Đốt cờ → Chunk-Shift trên chain → body respond MẠNH
-     → KHÔNG PHẢI coupling (symbol ≠ agent) → trigger proxy
-     → = Giống sentimental object (Body-Coupling §7.1): trigger → fire → body respond
+     → Flag, cross, national anthem = trigger for the entire valence chain
+     → Burn the flag → Chunk-Shift on chain → body responds STRONGLY
+     → NOT coupling (symbol ≠ agent) → trigger proxy
+     → = Like sentimental object (Body-Coupling §7.1): trigger → fires → body responds
 
   ③ VIRTUAL AGENT AS SCHEMA-AGENT:
-     → Chúa, Phật, quốc phụ = schema-provided presence (Agent-Mechanism §12.4)
-     → Body fire AS IF agent present → cortisol ↓, comfort
-     → KHÔNG phải Valence-Structural thật: no Self-Pattern-Modeling bidirectional, no physical feedback
-     → UNCALIBRATED → CÓ THỂ inflated beyond reality (giống parasocial)
-     → NHƯNG: stable + comforting + unfalsifiable = EFFECTIVE dù không "thật"
+     → God, Buddha, founding father = schema-provided presence (Agent-Mechanism §12.4)
+     → Body fires AS IF agent were present → cortisol ↓, comfort
+     → NOT real Valence-Structural: no Self-Pattern-Modeling bidirectional, no physical feedback
+     → UNCALIBRATED → CAN be inflated beyond reality (like parasocial)
+     → BUT: stable + comforting + unfalsifiable = EFFECTIVE even if not "real"
 
 
-  ⭐ LEADER PROXY = NƠI Valence-Structural VÀ SYSTEM COMPILATION GẶP NHAU:
+  ⭐ LEADER PROXY = WHERE Valence-Structural AND SYSTEM COMPILATION MEET:
 
-    Body compile Valence-Structural cho leader AS PERSON (per-agent coupling)
-    + Body compile system cho group AS CONTEXT (6 compound)
-    + Leader REPRESENT group → 2 loại MERGE → compound
+    Body compiles Valence-Structural for leader AS PERSON (per-agent coupling)
+    + Body compiles system for group AS CONTEXT (6 compound)
+    + Leader REPRESENTS group → 2 types MERGE → compound
 
-    → = TẠI SAO "cult" xoay quanh 1 leader:
-      per-agent Valence-Structural (yêu leader) + system compilation (belong to group)
-    → = TẠI SAO leader betrayal/death = devastating:
-      per-agent flip/grief + system disruption + identity crisis CÙNG LÚC
+    → = WHY "cult" revolves around 1 leader:
+      per-agent Valence-Structural (love for leader) + system compilation (belong to group)
+    → = WHY leader betrayal/death = devastating:
+      per-agent flip/grief + system disruption + identity crisis ALL AT ONCE
 
-    → IN-GROUP + OUT-GROUP dynamics qua proxy:
-      In-group: system compilation positive → smooth flaws
+    → IN-GROUP + OUT-GROUP dynamics through proxy:
+      In-group: system compilation positive → smooths flaws
       Out-group: installed negative chain → anti-smooth
-      → CÙNG evidence + KHÁC group valence → OPPOSITE conclusions
-      → "Online thì ghét, gặp nhau thì bình thường"
-        = online → group schema chạy, face-to-face → per-agent ❸ compile
+      → SAME evidence + DIFFERENT group valence → OPPOSITE conclusions
+      → "Online we hate each other, in person it's fine"
+        = online → group schema runs, face-to-face → per-agent ❸ compiles
       → 🟢 Contact hypothesis: Allport 1954
 
   🟡 3 proxy types = framework synthesis (Drill §25D)
@@ -1447,131 +1475,131 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §8 — COLLECTIVE × AI ERA
 
 ```
-⭐ AI = EXTERNAL TOOL CỰC MẠNH CHO CẤP 2 (Drill §22E-F):
+⭐ AI = EXTREMELY POWERFUL EXTERNAL TOOL FOR LEVEL 2 (Drill §22E-F):
 
 
-  §8.1 — AI TRONG MODEL 3 CẤP:
+  §8.1 — AI IN THE 3-LEVEL MODEL:
 
-    CẤP 1 (Individual):
-      AI = extend PFC capacity (giống giấy bút, nhưng ×∞∞)
+    LEVEL 1 (Individual):
+      AI = extends PFC capacity (like paper, but ×∞∞)
       → Hold unlimited → compute unlimited → suggest unlimited
-      → NHƯNG: body-base evaluation VẪN HUMAN (AI lacks body)
-      → AI assist DIRECTION (PFC role). Body VERIFY (vô thức role).
+      → BUT: body-base evaluation STILL HUMAN (AI lacks body)
+      → AI assists DIRECTION (PFC role). Body VERIFIES (unconscious role).
 
-    CẤP 2 (Collective):
-      AI = accelerate knowledge transmission
-      → Compress output TỐT hơn → external chunk RẺ hơn
-      → Learn NHANH hơn → collective chain compile NHANH hơn
-      → Global-Melody.md §6: "AI = nhạc cụ mới trong dàn nhạc"
+    LEVEL 2 (Collective):
+      AI = accelerates knowledge transmission
+      → Compresses output BETTER → external chunk CHEAPER
+      → Learn FASTER → collective chain compiles FASTER
+      → Global-Melody.md §6: "AI = new instrument in the orchestra"
 
-    CẤP 3 (Framework):
-      AI = assist pattern detection + analysis
-      → AI CÓ THỂ detect compile source (internal? external? trust-amplified?)
-      → AI CÓ THỂ detect valence origin (hardware fit? installed? threat?)
-      → AI CÓ THỂ detect chain break ("học vô ích" → node nào gãy?)
-      → Chi tiết: AI-Schema-Detection.md §3
+    LEVEL 3 (Framework):
+      AI = assists pattern detection + analysis
+      → AI CAN detect compile source (internal? external? trust-amplified?)
+      → AI CAN detect valence origin (hardware fit? installed? threat?)
+      → AI CAN detect chain break ("why study?" → which node broke?)
+      → Details: AI-Schema-Detection.md §3
+
+  🟡 AI × 3-level model = framework synthesis (Drill §22E-F)
+  🟢 Extended mind: Clark & Chalmers 1998
 
 
   §8.2 — AI ≠ COLLECTIVE PFC:
 
-    AI CÓ:
+    AI HAS:
       → Pattern detection ×∞ (faster, wider than individual PFC)
       → Memory ×∞ (no 4±1 constraint)
       → Consistency (no fatigue, no emotional interference)
 
-    AI KHÔNG CÓ:
+    AI DOES NOT HAVE:
       → Body-base evaluation (no opioid, no cortisol, no VTA)
       → Valence (no approach/avoidance FROM body-level)
       → Skin in the game (no consequences from being wrong)
 
-    → AI = TOOL for Cấp 2, KHÔNG phải Cấp 2's "PFC"
-    → Collective VẪN thiếu unified PFC (§4 — key break)
-    → AI assist decision-making nhưng KHÔNG thay thế body-base verify
-    → "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng" (Body-Base.md)
+    → AI = TOOL for Level 2, NOT Level 2's "PFC"
+    → Collective STILL lacks unified PFC (§4 — key break)
+    → AI assists decision-making but DOES NOT replace body-base verification
+    → "Humans need to FEEL right → AI will help PLAN right" (Body-Base.md)
 
 
-  §8.3 — HIERARCHY MỞ RỘNG:
+  §8.3 — EXTENDED HIERARCHY:
 
-    Body-Base.md §3 (Model 3+1 — individual):
+    Body-Base.md §3 (3+1 Model — individual):
       PFC 4±1 (hardware limit)
-      → ×4 pyramidal compression (vô thức compile)
-      → ×∞ external tools (Cấp 2 cá nhân)
+      → ×4 pyramidal compression (unconscious compiles)
+      → ×∞ external tools (individual Level 2)
 
-    Collective-Body (mở rộng):
-      Cấp 2 cá nhân (giấy, máy tính)
-      → Cấp 2 collective (institutions, culture, knowledge)
-      → ×AI (tool CỰC MẠNH cho CẢ 2 cấp)
+    Collective-Body (extended):
+      Individual Level 2 (paper, computer)
+      → Level 2 collective (institutions, culture, knowledge)
+      → ×AI (EXTREMELY POWERFUL tool for BOTH levels)
 
     → WHY civilization accelerates:
-      Mỗi thế hệ tạo tools TỐT HƠN → capacity TĂNG → create MORE → loop
+      Each generation creates BETTER tools → capacity INCREASES → creates MORE → loop
       = Collective-Purpose.md cosmic loop = SAME observation, DIFFERENT frame
 
-  🟡 AI × 3 cấp model = framework synthesis (Drill §22E-F)
-  🟢 Extended mind: Clark & Chalmers 1998
 
+  §8.4 — AI = NEW TYPE OF TRUST ENTITY (Drill E5 Q-S2-5):
 
-  §8.4 — AI = TRUST ENTITY LOẠI MỚI (Drill E5 Q-S2-5):
+    §5 trust table has 6 source types (self, parents, teacher,
+    community, leader, system). AI = THE 7TH TYPE, with DIFFERENT properties:
 
-    §5 trust table có 6 loại source (bản thân, bố mẹ, thầy,
-    cộng đồng, lãnh đạo, hệ thống). AI = LOẠI THỨ 7, properties KHÁC:
-
-    ┌────────────────────┬───────────────────────┬─────────────────────────┐
-    │ PROPERTY           │ HUMAN TRUST SOURCE    │ AI TRUST SOURCE          │
-    ├────────────────────┼───────────────────────┼─────────────────────────┤
-    │ Availability       │ Hữu hạn (giờ/ngày)   │ 24/7 unlimited           │
-    │ Domain breadth     │ 1-3 expert domains    │ TOÀN BỘ domain (shallow) │
-    │ Consistency        │ Mood, fatigue varies  │ Near-constant             │
-    │ Body-base          │ CÓ (skin in game)     │ KHÔNG (no consequences)   │
-    │ Accountability     │ Social + legal        │ Minimal (hiện tại)       │
-    │ Cross-domain trust │ Exception (KOL hijack)│ DEFAULT (1 AI = all)     │
-    └────────────────────┴───────────────────────┴─────────────────────────┘
+    ┌────────────────────┬───────────────────────┬──────────────────────────┐
+    │ PROPERTY           │ HUMAN TRUST SOURCE    │ AI TRUST SOURCE           │
+    ├────────────────────┼───────────────────────┼──────────────────────────┤
+    │ Availability       │ Limited (hours/day)   │ 24/7 unlimited            │
+    │ Domain breadth     │ 1-3 expert domains    │ ALL domains (shallow)     │
+    │ Consistency        │ Mood, fatigue vary    │ Near-constant             │
+    │ Body-base          │ YES (skin in game)    │ NO (no consequences)      │
+    │ Accountability     │ Social + legal        │ Minimal (currently)       │
+    │ Cross-domain trust │ Exception (KOL hijack)│ DEFAULT (1 AI = all)      │
+    └────────────────────┴───────────────────────┴──────────────────────────┘
 
 
     ① CROSS-DOMAIN TRUST BY DEFAULT:
-       Valence-Propagation §2 ④: trust = per-ENTITY, modulate TOÀN BỘ profile.
-       Human: mỗi người expert 1-3 domain → cross-domain = hijack (§5.3)
-       AI: 1 entity + TOÀN BỘ domain → cross-domain = TỰ NHIÊN
-       → Trust AI ở code → trust AI ở medicine = user DEFAULT behavior
-       → = §5.3 KOL cross-domain transfer, nhưng SYSTEMIC không phải exception
+       Valence-Propagation §2 ④: trust = per-ENTITY, modulates ENTIRE profile.
+       Human: each person expert in 1-3 domains → cross-domain = hijack (§5.3)
+       AI: 1 entity + ALL domains → cross-domain = NATURAL
+       → Trust AI in code → trust AI in medicine = user DEFAULT behavior
+       → = §5.3 KOL cross-domain transfer, but SYSTEMIC not exceptional
 
     ② INSTALL-COMPILE SPEED GAP:
-       AI install Trust Compile ×100+ nhanh hơn human teacher.
-       NHƯNG: body compile speed KHÔNG ĐỔI (Hebbian + sleep + time).
-       = GAP: "tiếp xúc nhanh" (via AI) ≠ "compile sâu" (via biology)
-       → PFC tưởng hiểu (T2 confabulation) dù body chưa compile đủ
-       → "Đọc AI summary" ≠ "hiểu sâu" = illusion of understanding
+       AI installs Trust Compile ×100+ faster than human teacher.
+       BUT: body compile speed DOES NOT CHANGE (Hebbian + sleep + time).
+       = GAP: "fast exposure" (via AI) ≠ "deep compile" (via biology)
+       → PFC thinks it understands (T2 confabulation) even though body hasn't compiled enough
+       → "Reading AI summary" ≠ "deep understanding" = illusion of understanding
 
     ③ AI BIAS = SYSTEMIC TRUST HIJACK:
-       §5.3 KOL hijack: 1 người → visible → "bóc phốt" = defense.
-       AI bias: 1 system → millions CÙNG pattern → INVISIBLE:
-       → AI trained on data → inherit biases → output biased
-       → Millions compile CÙNG bias qua trust AI ĐỒNG THỜI
-       → = Trust hijack UNIFORM + INVISIBLE → defense cũ KHÔNG apply
-       → Cần mechanism defense MỚI (audit, transparency, competing AI)
+       §5.3 KOL hijack: 1 person → visible → exposé = defense.
+       AI bias: 1 system → millions SAME pattern → INVISIBLE:
+       → AI trained on data → inherits biases → output biased
+       → Millions compile SAME bias through AI trust SIMULTANEOUSLY
+       → = Trust hijack UNIFORM + INVISIBLE → old defense DOES NOT APPLY
+       → Needs NEW defense mechanism (audit, transparency, competing AI)
 
 
-    ⭐ NGUYÊN TẮC CỐT LÕI:
+    ⭐ CORE PRINCIPLE:
 
-       AI thay đổi SOURCE và SPEED của Trust Compile compile.
-       AI KHÔNG thay đổi MECHANISM.
-       Body vẫn Hebbian. PFC vẫn 4±1. Trust vẫn per-entity. Sleep vẫn cần.
+       AI changes the SOURCE and SPEED of Trust Compile.
+       AI DOES NOT change the MECHANISM.
+       Body still Hebbian. PFC still 4±1. Trust still per-entity. Sleep still needed.
        Hardware unchanged → fundamental trade-offs unchanged.
 
-       T6 "biết mà không làm" = fundamental (Experience > Trust).
-       KHÔNG phải information problem → AI giải thích tốt hơn KHÔNG fix T6.
+       T6 "knowing but not doing" = fundamental (Experience > Trust).
+       NOT an information problem → AI explaining better DOES NOT fix T6.
 
-       AI verify Trust Compile install CỦA NGƯỜI KHÁC = useful.
-       NHƯNG: AI output = NEW Trust Compile install → "ai verify AI?"
-       → Body-Base.md §6: domain feedback (Domain-Checked) VẪN LÀ final arbiter.
+       AI verifying Trust Compile installs OF OTHERS = useful.
+       BUT: AI output = NEW Trust Compile install → "who verifies AI?"
+       → Body-Base.md §6: domain feedback (Domain-Checked) REMAINS the final arbiter.
 
-    Expertise Compile MỞ RỘNG qua AI:
-       AI = "Cấp 2 cá nhân" cực mạnh (§3.3) → more people reach compiled expertise.
-       Compile time GIẢM (AI feedback loop nhanh hơn traditional).
-       NHƯNG: vẫn cần body compile (Hebbian + sleep) → KHÔNG instant.
+    Expertise Compile EXTENDED through AI:
+       AI = "individual Level 2" extremely powerful (§3.3) → more people reach compiled expertise.
+       Compile time DECREASES (AI feedback loop faster than traditional).
+       BUT: still needs body compile (Hebbian + sleep) → NOT instant.
        = Democratization of expertise, not elimination of compile cost.
 
     Institution SPLIT (🔴 testable prediction):
-       Knowledge function → AI CÓ THỂ thay thế (AI deliver trực tiếp)
+       Knowledge function → AI CAN replace (AI delivers directly)
        Social function → institution REMAINS (AI no body, no Valence-Structural, no §6 mechanisms)
        = Future institution = PRIMARILY social, SECONDARILY knowledge?
 
@@ -1582,14 +1610,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🔴 Institution split prediction = hypothesis, testable over time
 ```
 
-
 ### §8.5 — Technology × Scale Interaction (v2.1)
 
 ```
 ⭐⭐ TECHNOLOGY FILLS ROUTINE MATCHING → FRONTIER SHIFTS TO GENUINE (By-Product-Scale v1.0 §11):
 
-  By-Product-Scale v1.0 + Gap-Body-Need v1.0 phát hiện:
-  Technology KHÔNG thay thế by-product match — mà DỊCH CHUYỂN frontier.
+  By-Product-Scale v1.0 + Gap-Body-Need v1.0 discover:
+  Technology DOES NOT replace by-product match — it SHIFTS THE FRONTIER.
 
 
   TECHNOLOGY × 3 SCALES:
@@ -1598,26 +1625,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Scale               │ Technology FILLS          │ Frontier SHIFTS to       │
   ├─────────────────────┼──────────────────────────┼──────────────────────────┤
   │ Scale-Pair          │ Video call maintains     │ Touch IRREPLACEABLE      │
-  │                     │ partial Generative.      │ (CT afferents, oxytocin).│
+  │                     │ partial Generative.       │ (CT afferents, oxytocin).│
   │                     │ AI fills insight supply.  │ Social + abstract gaps   │
-  │                     │                          │ = new frontier.           │
+  │                     │                           │ = new frontier.          │
   ├─────────────────────┼──────────────────────────┼──────────────────────────┤
-  │ Scale-Hub           │ Algorithms replace some  │ Self-Pattern-Modeling     │
-  │                     │ coordination (schedule,  │ across domains = HARD to  │
-  │                     │ allocation). AI reduces  │ automate. Judgment-based  │
-  │                     │ node's PFC bandwidth.    │ decisions = new frontier. │
+  │ Scale-Hub           │ Algorithms replace some  │ Self-Pattern-Modeling    │
+  │                     │ coordination (schedule,   │ across domains = HARD to │
+  │                     │ allocation). AI reduces   │ automate. Judgment-based │
+  │                     │ node's PFC bandwidth.     │ decisions = new frontier.│
   ├─────────────────────┼──────────────────────────┼──────────────────────────┤
-  │ Scale-Institutional │ Internet distributes     │ Trust foundation STILL    │
-  │                     │ functions globally.      │ requires collective       │
-  │                     │ DAO/blockchain attempt   │ compilation. "Code is     │
-  │                     │ to replace nodes.        │ law" fails for complex    │
-  │                     │                          │ judgment.                 │
+  │ Scale-Institutional │ Internet distributes     │ Trust foundation STILL   │
+  │                     │ functions globally.       │ requires collective      │
+  │                     │ DAO/blockchain attempt    │ compilation. "Code is    │
+  │                     │ to replace nodes.         │ law" fails for complex   │
+  │                     │                           │ judgment.                │
   └─────────────────────┴──────────────────────────┴──────────────────────────┘
 
 
   ⭐ INCOME PLATEAU = TECHNOLOGY FILL EVIDENCE:
 
-    Kahneman & Deaton (2010): income > ~$75K → well-being KHÔNG tăng
+    Kahneman & Deaton (2010): income > ~$75K → well-being DOES NOT increase
     → Technology fills SENSORY baselines (food, shelter, transport)
     → Social + abstract gaps = UNFILLED by money
     → = Technology fills Scale-Institutional gaps → Scale-Pair gaps REMAIN
@@ -1625,16 +1652,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Gap-Distribution-Profile v1.1 §7.4: Technology fill level per gap domain:
       Sensory: ~80% filled (food, shelter, transport, entertainment)
       Social: ~30% filled (partial: social media, video call)
-      Abstract: ~10% filled (AI emerging, nhưng body verify chưa thay thế)
+      Abstract: ~10% filled (AI emerging, but body verify not yet replaced)
     → = Frontier shifts UP: sensory → social → abstract
 
 
-  ⭐ AI × MODEL 3 CẤP (enriched):
+  ⭐ AI × 3-LEVEL MODEL (enriched):
 
-    §8.1-§8.4 đã phân tích AI × 3 cấp.
-    §8.5 BỔ SUNG: AI = technology fill MẠNH NHẤT nhưng CÓ GIỚI HẠN:
-      AI fills Trust Compile install ×100+ → by-product match ROUTINE ↑ speed
-      AI KHÔNG fills body compile (Hebbian + sleep) → GENUINE match UNCHANGED
+    §8.1-§8.4 analyzed AI × 3 levels.
+    §8.5 ADDS: AI = most powerful technology fill but HAS LIMITS:
+      AI fills Trust Compile install ×100+ → ROUTINE by-product match ↑ speed
+      AI DOES NOT fill body compile (Hebbian + sleep) → GENUINE match UNCHANGED
       → = "AI makes easy things easier, but hard things stay hard"
       → = Gap-Body-Need §10: technology fills NEAR-BODY, shifts frontier to FAR-BODY
 
@@ -1672,22 +1699,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ✓ Social proof (Cialdini 1984)
   ✓ Endogenous growth (Romer)
   ✓ Hofstede cultural dimensions
+  ✓ Shared pain circuits: Singer et al. 2004
+  ✓ Moral injury: Litz et al. 2009
+  ✓ Confession benefit: Pennebaker 1997
+  ✓ PFC capacity: Cowan 2001
+  ✓ Trust ≠ liking: Colquitt et al. 2007
+  ✓ Friendly fire → worse outcomes: Drescher et al. 2011
 
 
 🟡 MEDIUM CONFIDENCE (Framework Synthesis):
 
-  ⚠ Model 3 cấp (Individual → Collective → Framework)
+  ⚠ 3-Level Model (Individual → Collective → Framework)
     — each level established, 3-level organization = novel
   ⚠ Blackbox-2 = Blackbox-1 + collective scale + hardware variance
     — convergence insight from Drill §26
-  ⚠ "Chain dài sống ở collective" as explicit principle
+  ⚠ "Long chains live in collective" as explicit principle
     — consistent with distributed cognition, phrasing = novel
-  ⚠ 4 compile pathways cho same output
+  ⚠ 4 compile pathways for same output
     — each pathway established, 4-way taxonomy = novel
-  ⚠ Trust Compile dominance insight ("phần lớn behavior hàng ngày")
+  ⚠ Trust Compile dominance insight ("most behavior day-to-day")
     — consistent with cultural evolution, explicit framing = novel
-  ⚠ Cấp 2 cá nhân (external tools = personal infrastructure)
-    — extended mind established, "Cấp 2 cá nhân" = framework term
+  ⚠ Individual Level 2 (external tools = personal infrastructure)
+    — extended mind established, "individual Level 2" = framework term
   ⚠ Scale hierarchy (Family → Global)
     — each scale established, hierarchy = novel organization
   ⚠ Global-Body analogy ~70%/~30% split
@@ -1707,17 +1740,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⚠ Dual-Pull propagation to human-designed systems (§3.5)
     — each domain example (software, law, medicine, organization) established;
       unified "propagation not analogy" framing = novel framework synthesis
-  ⚠ "Cùng nguồn → cùng tension → khác hình thức" (§3.5)
+  ⚠ "Same source → same tension → different form" (§3.5)
     — consistent with organizational theory; cross-domain pattern = novel observation
   ⚠ Compilable Architecture → collective = requirement (§0 v2.0)
     — each reason 🟢, framing as "requirement" = novel
   ⚠ Individual detect collective gap via gap-direction (§2.5 v2.0)
     — mechanism consistent with gap-direction + expertise research, formalization = novel
-  ⚠ "Visionary = compiled deeper → detect earlier" (§2.5 v2.0)
+  ⚠ "Visionary = compiled deeper → detects earlier" (§2.5 v2.0)
     — consistent with Klein 1998, explicit framing = novel
   ⚠ Threshold → rush → saturate for collective gaps (§2.5 v2.0)
     — consistent with Expansion-Saturation-Crisis, lifecycle model = novel
-  ⚠ "Đam mê = gap-direction đã formed + reward verified" (§2.5 v2.0)
+  ⚠ "Passion = gap-direction already formed + reward verified" (§2.5 v2.0)
     — framework reframe, logically derived from gap-direction mechanism
   ⚠ By-product match at collective scale (§3.1 v2.0)
     — Inter-Body §5.4 extended to institutions, logical but novel scale
@@ -1729,17 +1762,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     — consistent with income plateau research, cross-scale observation = novel
   ⚠ Income plateau = technology fill evidence (§8.5 v2.1)
     — Kahneman & Deaton 🟢, framework interpretation = novel
+  ⚠ Compilation Source Match — guilt requires signal from compile source (§5.4 v2.2)
+    — each mechanism established, unified principle = novel synthesis
+  ⚠ 3-layer guilt model (per-entity / collective / self-model) (§5.4 v2.2)
+    — each layer has research grounding, taxonomy = novel
+  ⚠ PFC cannot self-resolve guilt = framework synthesis (§5.4 v2.2)
+    — consistent with PFC ~5% principle, explicit claim = novel
+  ⚠ Trust ≠ valence in guilt resolution (§5.4 v2.2)
+    — consistent with Colquitt et al. 2007, explicit application = novel
 
 
 🔴 LOW CONFIDENCE (Hypothesis):
 
   ⚠ ~70%/~30% specific percentages for Global-Body analogy
     — qualitative, not measurable
-  ⚠ "Bóc phốt" as formal collective defense mechanism
+  ⚠ "Callout / public exposé" as formal collective defense mechanism
     — observable, not formally studied as defense
   ⚠ AI ≠ collective PFC (stated as limitation)
     — current observation, may change as AI evolves
-  ⚠ Compound acceleration (Cấp 2 collective × Cấp 2 cá nhân)
+  ⚠ Compound acceleration (Level 2 collective × individual Level 2)
     — logical pattern, hard to quantify
   ⚠ Collective gap lifecycle timing (visionary→early→mainstream→saturate)
     — qualitative phases, boundaries not measurable
@@ -1747,32 +1788,32 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 OPEN QUESTIONS:
 
-  Q-E2-1: Scale hierarchy — tại sao một số scales BỀN hơn khác?
-           Family > company ở persistence. Nation > city ở identity. Tại sao?
-           → CHƯA RESOLVED. DEFER.
+  Q-E2-1: Scale hierarchy — why are some scales MORE DURABLE than others?
+           Family > company in persistence. Nation > city in identity. Why?
+           → NOT RESOLVED. DEFER.
 
-  Q-E2-2: Trust repair mechanisms — khi collective chain GÃY,
-           collective sửa bằng cách nào? (regulation, education, reform?)
+  Q-E2-2: Trust repair mechanisms — when collective chain BREAKS,
+           how does collective repair? (regulation, education, reform?)
            → PARTIALLY: safety nets = compiled response FROM past crisis,
-             KHÔNG phải proactive PFC (Drill E5 E5-8). Cần drill riêng.
+             NOT proactive PFC (Drill E5 E5-8). Needs separate drill.
 
-  Q-E2-3: Global-Body analogy — có thể refine ~70%/~30% thành
+  Q-E2-3: Global-Body analogy — can we refine ~70%/~30% into
            precise mapping per-function?
            → PARTIALLY RESOLVED (Drill E5 Q-S2-3):
-             Arc mapping ~80% (cùng 3 phases Gap→Miss→Shift).
-             ~20% break = no unified PFC → emergent thay vì directed.
-             §4.2 ⑨ thêm: collective KHÔNG có sleep. Chưa per-function precise.
+             Arc mapping ~80% (same 3 phases Gap→Miss→Shift).
+             ~20% break = no unified PFC → emergent rather than directed.
+             §4.2 ⑨ adds: collective has NO sleep. Not yet per-function precise.
 
-  Q-E2-4: AI × collective body-base — AI CÓ THỂ tạo "partial unified PFC"
-           cho collective? (decision support, simulation, prediction)
+  Q-E2-4: AI × collective body-base — CAN AI create "partial unified PFC"
+           for collective? (decision support, simulation, prediction)
            → RESOLVED (Drill E5 E5-20 + §8.2):
-             AI = TOOL, KHÔNG phải collective PFC. Thiếu body-base evaluation.
-             Even force compile (threat-based) ≠ PFC (thiếu verify + adjust).
+             AI = TOOL, NOT collective PFC. Lacks body-base evaluation.
+             Even forced compile (threat-based) ≠ PFC (lacks verify + adjust).
 
-  Q-E2-5: System compilation × AI era — Trust Compile compile thay đổi thế nào
-           khi AI = primary knowledge source thay vì human institutions?
+  Q-E2-5: System compilation × AI era — how does Trust Compile change
+           when AI = primary knowledge source instead of human institutions?
            → RESOLVED (Drill E5 Q-S2-5, §8.4):
-             AI = trust entity loại mới (cross-domain default, no accountability).
+             AI = new type of trust entity (cross-domain default, no accountability).
              AI changes SOURCE + SPEED of Trust Compile, NOT MECHANISM.
              Systemic AI bias = new vulnerability. Body check = final arbiter.
 ```
@@ -1783,121 +1824,122 @@ OPEN QUESTIONS:
 
 ```
 WITHIN BODY-BASE/ FOLDER:
-  Body-Base.md v3.1         — Entry point, Compilable Architecture, 3-Layer, 2-tầng calibration
+  Body-Base.md v3.1            — Entry point, Compilable Architecture, 3-Layer, 2-layer calibration
   Inter-Body-Mechanism.md v1.0 — Compilable Architecture, by-product match, 3-cost, PFC=Lawyer
-  Body-Coupling.md v3.0     — per-agent coupling, System Compilation, Hardware-Subsidy, 3 Firing Modes
-  Valence-Propagation.md v3.0 — per-entity valence, 3 Firing Modes, Hardware-Subsidy, Satiation Type
-  Why-Body-Knows.md v1.1    — 2-tầng calibration deep, coherence ≠ truth, vòng tròn
-  Cortisol-Baseline.md v2.1 — amplifier, social buffering
-  Chunk/Chunk.md v2.0       — §2.3 external install mechanisms, §2 compile mechanisms
+  Body-Coupling.md v3.0        — per-agent coupling, System Compilation, Hardware-Subsidy, 3 Firing Modes
+  Valence-Propagation.md v3.0  — per-entity valence, 3 Firing Modes, Hardware-Subsidy, Satiation Type
+  Why-Body-Knows.md v1.1       — 2-layer calibration deep, coherence ≠ truth
+  Cortisol-Baseline.md v2.1    — amplifier, social buffering
+  Chunk/Chunk.md v2.0          — §2.3 external install mechanisms, §2 compile mechanisms
 
 BODY-FEEDBACK/ FOLDER:
-  Gap-Direction.md v2.0     — gap = f(surrounding chunks), "chưa biết = không có gap"
-  Gap-Distribution-Profile.md v1.1 — 4 trục, Satiation Types, ENGINE/ROAD/VEHICLE, Technology fill
-  Body-Feedback-Label.md v2.0 — vocabulary reference
+  Gap-Direction.md v2.0        — gap = f(surrounding chunks), "unknown = no gap"
+  Gap-Distribution-Profile.md v1.1 — 4 axes, Satiation Types, ENGINE/ROAD/VEHICLE, Technology fill
+  Body-Feedback-Label.md v2.0  — vocabulary reference
   Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, Compiled/Fresh mapping
 
 PFC/ FOLDER:
-  PFC-Function.md           — 24 functions, "PFC tạo context", 95/5 split
-  Logic-Feeling.md v2.1     — Compiled/Fresh axis, Domain Stability
-  PFC-Hardware.md            — COMT, DRD4, NE, hardware variation
+  PFC-Function.md              — 24 functions, "PFC creates context", 95/5 split
+  Logic-Feeling.md v2.1        — Compiled/Fresh axis, Domain Stability
+  PFC-Hardware.md              — COMT, DRD4, NE, hardware variation
 
 OBSERVATION/ FOLDER:
-  Connection.md v5.0        — 3 Generative Primitives, Resonance Decline, 4-Layer, Hardware-Subsidy
-  Status.md v2.0            — Resource Access Map (collective status structure)
-  Meaning.md v2.0           — §3.3 IDENTITY anchor, §3.4 FAITH anchor
-  Empathy.md v4.0           — PFC budget, Compiled Quality, Burnout reframe
+  Connection.md v5.0           — 3 Generative Primitives, Resonance Decline, 4-Layer, Hardware-Subsidy
+  Status.md v2.0               — Resource Access Map (collective status structure)
+  Meaning.md v2.0              — §3.3 IDENTITY anchor, §3.4 FAITH anchor
+  Empathy.md v4.0              — PFC budget, Compiled Quality, Burnout reframe
 
 COLLECTIVE/ FOLDER:
-  Coordination-Node.md v1.2 — node = partial PFC, Prestige=genuine resonance, Mẹ=first node
-  Collective-Purpose.md v1.1— Cosmic loop (WHY collective), 3 forces
+  Coordination-Node.md v1.2    — node = partial PFC, Prestige=genuine resonance, Mother=first node
+  Collective-Purpose.md v1.1   — Cosmic loop (WHY collective), 3 forces
 
 DOMAIN + META:
-  Global-Melody.md v2.0     — Collective melody metaphor (5 tầng zoom)
-  Knowledge-Flow.md          — Horizontal transmission, compression
+  Global-Melody.md v2.0        — Collective melody metaphor (5 zoom levels)
+  Knowledge-Flow.md            — Horizontal transmission, compression
 
 RESEARCH:
-  Religion.md v2.0          — System compilation test case (7 functions + FAITH)
-  AI-Schema-Detection.md v2.0 — §3 (7 capabilities, collective extension)
+  Religion.md v2.0             — System compilation test case (7 functions + FAITH)
+  AI-Schema-Detection.md v2.0  — §3 (7 capabilities, collective extension)
   Expansion-Saturation-Crisis.md v1.1 — saturation cycle, collective chain break
 
 AGENT-MECHANISM:
-  Agent-Mechanism.md v2.1   — integration hub, §12 body-need feeder, entity mechanism
+  Agent-Mechanism.md v2.1      — integration hub, §12 body-need feeder, entity mechanism
   Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, per-domain, APPLICATION-1 on Simulation-Engine
   By-Product-Gap-Resonance.md v1.4 — 2-Stream Architecture, by-product match
-  By-Product-Scale.md v1.0  — 1 mechanism × 3 scales, Scale-Institutional, Technology × scale
+  By-Product-Scale.md v1.0     — 1 mechanism × 3 scales, Scale-Institutional, Technology × scale
 
-DRILL (source for v1.0 + v1.1):
-  Drill-Compile-Short-Collective.md — §5 (Model 3 cấp), §8 (Global-Body),
-    §22 (Valence-Propagation §4 reframe, 4 pathways, trust hijack, Einstein),
-    §25 (System Compilation ≠ Coupling, 6 mechanisms, religion test)
-  Drill E5 (Q-S2-3/4/5) — collective arc, threshold, Trust Compile × AI era
+KEY RESEARCH CITATIONS:
+  Hutchins 1995                — Distributed cognition
+  Clark & Chalmers 1998        — Extended mind thesis
+  Henrich 2016                 — Cultural evolution, cumulative culture
+  Bandura 1977                 — Social learning theory
+  Hovland & Weiss 1951         — Source credibility
+  Cialdini 1984                — Social proof, influence
+  Olson 1965                   — Collective action, free rider
+  Hardin 1968                  — Tragedy of the commons
+  Coan 2006                    — Social baseline theory
+  Durkheim 1912                — Collective effervescence
+  Tajfel 1979                  — In-group favoritism, minimal group
+  Allport 1954                 — Contact hypothesis
+  Schooler 1965                — Country-of-origin effect
+  Horton & Wohl 1956           — Parasocial relationships
+  Fazel 2005                   — Refugee mental health
+  Streib 2014                  — Religious deconversion grief
+  Nisbett & Wilson 1977        — Confabulation
+  Gazzaniga                    — Split-brain interpreter (PFC=Lawyer collective parallel)
+  Kahneman 2011 + Klein 1998   — Expert intuition = compiled (§2.5 visionary)
+  Kahneman & Deaton 2010       — Income × well-being threshold (~$75K) (v2.1)
+  Romer                        — Endogenous growth theory
+  Hofstede                     — Cultural dimensions
+  Hannan & Freeman 1984        — Organizational inertia
+  North 1990                   — Institutional trust
+  Acemoglu & Robinson 2012     — Institutions and prosperity
+  Singer et al. 2004           — Shared pain circuits
+  Litz et al. 2009             — Moral injury, distinct from PTSD
+  Drescher et al. 2011         — Friendly fire → worse outcomes
+  Pennebaker 1997              — Confession/disclosure mental health benefit
+  Cowan 2001                   — PFC capacity ~4±1 items
+  Colquitt et al. 2007         — Trust separable from affect
 
-KEY RESEARCH:
-  Hutchins 1995             — Distributed cognition
-  Clark & Chalmers 1998     — Extended mind thesis
-  Henrich 2016              — Cultural evolution, cumulative culture
-  Bandura 1977              — Social learning theory
-  Hovland & Weiss 1951      — Source credibility
-  Cialdini 1984             — Social proof, influence
-  Olson 1965                — Collective action, free rider
-  Hardin 1968               — Tragedy of the commons
-  Coan 2006                 — Social baseline theory
-  Durkheim 1912             — Collective effervescence
-  Tajfel 1979               — In-group favoritism, minimal group
-  Allport 1954              — Contact hypothesis
-  Schooler 1965             — Country-of-origin effect
-  Horton & Wohl 1956        — Parasocial relationships
-  Fazel 2005                — Refugee mental health
-  Streib 2014               — Religious deconversion grief
-  Nisbett & Wilson 1977     — Confabulation
-  Gazzaniga                 — Split-brain interpreter (PFC=Lawyer collective parallel)
-  Kahneman 2011 + Klein 1998 — Expert intuition = compiled (§2.5 visionary)
-  Kahneman & Deaton 2010    — Income × well-being threshold (~$75K) (v2.1)
-  Romer                     — Endogenous growth theory
-  Hofstede                  — Cultural dimensions
 
 CHANGELOG:
 
-  v1.0 — 2026-05-08: Model 3 Cấp, Global-Body, Trust, System Compilation
-  v1.1 — 2026-05-09: AI trust entity, collective no sleep, Open Q resolved
-  v1.2 — 2026-05-14: §3.5 Dual-Pull Propagation
-  v2.0 — 2026-05-17 (Inter-Body drill integration):
-    → §0 ENRICHED: +Compilable Architecture (WHY collective = requirement, 4 reasons)
-    → §2.5 ★★ NEW: "Cá Nhân Detect Collective Gap" (~120L)
-    → §3.1: +By-product match at collective scale
-    → §5.1: +PFC=Lawyer at collective scale
-    → §9: +8🟡 new + 1🔴 new. §10: ALL version numbers updated.
-    → Backup: backup/Collective-Body-v1.2-backup.md
-  v2.1 — 2026-05-23 (By-Product-Scale v1.0 integration):
-    → §3.1 ENRICHED: By-product match Scale-Institutional framing
-      3-level model table (Scale-Pair / Scale-Hub / Scale-Institutional)
-      4 khác biệt Scale-Institutional so với Scale-Pair/Scale-Hub
-    → §8.5 ★ NEW: Technology × Scale interaction (~50L)
-      Technology fills ROUTINE → frontier shifts to GENUINE
-      Income plateau as evidence, 3-level technology fill table
-      AI enrichment: fills Trust Compile but NOT body compile
-    → §9: +3 🟡 items (Scale-Institutional framing, technology×scale, income plateau)
-    → §10: ALL version numbers updated (Valence-Propagation v3.0, Body-Coupling v3.0, Connection v5.0,
-      Self-Pattern-Modeling v3.1, Agent-Mechanism v2.1, By-Product-Gap-Resonance v1.4, +By-Product-Scale v1.0, +Gap-Distribution-Profile v1.1, +Coordination-Node v1.2, Empathy v4.0)
-    → +Kahneman & Deaton 2010 citation
-    → GLOBAL: Self-Pattern-Modeling rename Match→Modeling (2 occurrences)
-    → PRESERVED: all 10 sections, all 19+ research citations, all v2.0 content
-    → Backup: backup/Collective-Body-v2.0-backup.md
+  v1.0 — 2026-06-11 — English translation from source v2.2 (2026-06-02)
+    → Full translation of §0–§10 (all subsections including §2.5, §3.1-§3.5, §5.1-§5.4, §6.1-§6.3)
+    → Complete TOC added
+    → "Bóc phốt" = "public callout / exposé" (collective defense mechanism)
+    → "Đổ xô" = "rush" (threshold rush)
+    → "Vô thức" = "unconscious" (body-level)
+    → All research citations preserved (30+ sources)
+    → §5.4 Compilation Source Match fully translated (v2.2 content)
+    → §8.5 Technology × Scale Interaction fully translated (v2.1 content)
+    → All 🟢/🟡/🔴 markers preserved
+    → Open Questions Q-E2-1 through Q-E2-5 preserved
 ```
 
 ---
 
-> **Collective-Body.md v2.1**
+> **Collective-Body.md v1.0 (English)**
 >
-> Model 3 cấp: Individual → Collective → Framework.
-> "Chain dài sống ở đâu?" = Cấp 2 (collective distributed infrastructure).
-> Cá nhân compile NGẮN (1-2 nodes). Trust = ONLY bridge.
+> 3-Level Model: Individual → Collective → Framework.
+> "Where do long chains live?" = Level 2 (collective distributed infrastructure).
+> Individuals compile SHORT (1-2 nodes). Trust = ONLY bridge.
 >
-> v2.1 KEY NEW:
->   §3.1: By-product match Scale-Institutional framing (By-Product-Scale v1.0 3-level model)
->   §8.5: Technology × Scale — fills ROUTINE, frontier shifts GENUINE
+> v2.2 KEY NEW (in this translation):
+>   §5.4: Compilation Source Match (Trust × Guilt Resolution)
+>         3-layer guilt model, trust ≠ valence in guilt,
+>         PFC cannot self-resolve, entity lost → unresolvable
+>   §3.1: By-product match Scale-Institutional framing (v2.1)
+>   §8.5: Technology × Scale — fills ROUTINE, frontier shifts GENUINE (v2.1)
 >
-> Core preserved: Model 3 Cấp, Trust bridge, System Compilation,
+> Core preserved: 3-Level Model, Trust bridge, System Compilation,
 > Global-Body analogy, Coupling proxy, AI era, Dual-Pull propagation.
 > Resolves: GAP 12 + GAP 9 + individual↔collective gap detection.
+
+---
+
+> **END OF Collective-Body.md v1.0 (English)**
+> Source: Human-Predictive-Drive/Core-Deep-Dive/Collective/Collective-Body.md v2.2 (2026-06-02)
+> Translated: v1.0 — 2026-06-11
+> Sections: §0–§10 (all subsections) + TOC + Changelog
+> Confidence: 🟢 30+ citations / 🟡 30+ framework synthesis claims / 🔴 5 hypotheses

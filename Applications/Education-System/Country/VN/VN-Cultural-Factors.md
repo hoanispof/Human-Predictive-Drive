@@ -1,116 +1,116 @@
-# Giáo Dục Việt Nam — Yếu Tố Văn Hóa
+# Vietnamese Education — Cultural Factors
 
-> **Phiên bản:** v2.2
-> **Ngày cập nhật:** 2026-06-03
-> **Mục đích:** Phân tích 8 đặc tính văn hóa VN ảnh hưởng education — cả positive + negative
-> = "Cùng 8 nguyên lý arc design, cách apply ở VN KHÁC vì văn hóa KHÁC"
-> **Vị trí:** TẦNG 5 — Country/VN (File 2/3)
-> **Phụ thuộc:**
->   TẦNG 5 VN:
+> **Version:** v2.2
+> **Last updated:** 2026-06-03
+> **Purpose:** Analysis of 8 Vietnamese cultural characteristics that influence education — both positive + negative
+> = "Same 8 arc design principles, but how they apply in VN differs because the CULTURE differs"
+> **Position:** TIER 5 — Country/VN (File 2/3)
+> **Dependencies:**
+>   TIER 5 VN:
 >     VN-Education-Status.md v2.1 (File 1 — data + Mechanism v2.1 evaluation)
->   EDUCATION-FOUNDATION (Tầng 3 "bộ 3"):
->     Education-Mechanism.md v2.2 (HOW — 8 nguyên lý + 12 new concepts),
+>   EDUCATION-FOUNDATION (Tier 3 "Trio"):
+>     Education-Mechanism.md v2.2 (HOW — 8 principles + 12 new concepts),
 >     Domain-Knowledge-Map.md v2.1 (WHAT — 3-tier taxonomy),
->     Connection-Education.md v1.1 (WHO — 5 khía cạnh social-emotional)
->   EDUCATION-SYSTEM (Tầng 4):
+>     Connection-Education.md v1.1 (WHO — 5 social-emotional dimensions)
+>   EDUCATION-SYSTEM (Tier 4):
 >     Education-System.md v3.2 §7-§8 (teacher + parent roles, ENGINE/ROAD/VEHICLE),
 >     Hardware-Calibration.md v1.2 (per-individual + Body-Feedback-Label)
 >   CORE-MECHANISM:
 >     Cortisol-Baseline.md v2.1 (amplifier, 3 ORIGIN threat),
->     Imagine-Final-Evaluation.md v1.1 (4 góc quality),
+>     Imagine-Final-Evaluation.md v1.1 (4 quality corners),
 >     Imagine-Final.md v3.0 (boundary reframe)
 >   PFC-BODY-FEEDBACK:
 >     Entity-Valence-Dynamics.md v1.0 (Hardware-Subsidy §5 — parent/teacher/AI spectrum),
 >     Dissonance-Signal-Architecture.md v1.0 (Evaluative vs Direct-State)
 >   AGENT-ENTITY:
 >     Entity-Compiled.md v1.0 (40→200h formation),
->     Entity-Access.md v1.2 (Mức 0-5 gradient)
+>     Entity-Access.md v1.2 (Level 0-5 gradient)
 >   NEW-CONCEPTS:
 >     Compiled-Fresh.md v2.0 (Compiled Quality Dimension — genuine/schema/threat),
->     Gap-Distribution-Profile.md v1.1 (4 trục gap landscape)
+>     Gap-Distribution-Profile.md v1.1 (4 axes of gap landscape)
 >   TRUST/SELF-OBSERVATION (v2.2):
 >     Trust.md v1.0 (compiled prediction about gap-fill reliability, 3 sub-dimensions),
->     Self-Observation.md v1.0 (PFC observe body-state, Mức 0-6 gradient)
-> **Bản trước:** backup/v2.0/Country/VN/VN-Cultural-Factors.md (1,143L, v2.0, 2026-05-11)
-> **Thay đổi chính v2.0:** (see backup header — re-base from "10 NL" to Mechanism v1.0)
-> **Thay đổi chính v2.1:**
->   - Re-base lens: Education-Mechanism v1.0 → v2.0 (8 nguyên lý + 12 new concepts)
+>     Self-Observation.md v1.0 (PFC observing body-state, Level 0-6 gradient)
+> **Prior version:** backup/v2.0/Country/VN/VN-Cultural-Factors.md (1,143L, v2.0, 2026-05-11)
+> **v2.0 key changes:** (see backup header — re-base from "10 principles" to Mechanism v1.0)
+> **v2.1 key changes:**
+>   - Re-base lens: Education-Mechanism v1.0 → v2.0 (8 principles + 12 new concepts)
 >   - Add: 5 new concept lenses per cultural factor (Hardware-Subsidy, Entity-Access,
 >     Compiled Quality Dimension, Connection-Education, Dissonance-Signal-Architecture)
->   - Update: all dep versions + cross-refs → current (20+ entries, 7 categories)
->   - Cultural data giữ nguyên (observations vẫn valid)
-> **Thay đổi chính v2.2:**
+>   - Update: all dependency versions + cross-refs → current (20+ entries, 7 categories)
+>   - Cultural data unchanged (observations still valid)
+> **v2.2 key changes:**
 >   - Add: Trust.md v1.0 lens per cultural factor (F1 Social Norm Install, F4 trust depth,
 >     F6 Trust Generalization chain, §2 INSIGHT, §3 Leverage 1)
 >   - Add: Self-Observation.md v1.0 lens (F3 vocabulary limit, F5 suppress observation,
 >     §2 INSIGHT)
->   - Update: all Tầng 3 + Tầng 4 stale refs → current versions
->   - Cultural data giữ nguyên (observations vẫn valid)
-> **⚠️ 🟡 Phần lớn file = cultural observation + framework analysis**
-> **⚠️ Cần chuyên gia local + GV + PH + HS validate — outsider bias risk**
-> **⚠️ Văn hóa = CONTEXT, không phải VERDICT. Mỗi factor có cả mặt mạnh + yếu.**
-> **Quy ước:** 🟢 Data/research (cited) | 🟡 Framework analysis | 🔴 Hypothesis
+>   - Update: all Tier 3 + Tier 4 stale refs → current versions
+>   - Cultural data unchanged (observations still valid)
+> **⚠️ 🟡 Most of this file = cultural observation + framework analysis**
+> **⚠️ Requires validation by local experts, teachers, parents, students — outsider bias risk**
+> **⚠️ Culture = CONTEXT, not VERDICT. Every factor has both strengths + weaknesses.**
+> **Convention:** 🟢 Data/research (cited) | 🟡 Framework analysis | 🔴 Hypothesis
 
 ---
 
-## Mục lục
+## Table of Contents
 
-0. Tại sao văn hóa quan trọng cho education
-1. 8 Cultural Factors — Phân tích chi tiết
-2. Map: Cultural Factor × Mechanism (bảng tổng hợp)
-3. Leverage Points — văn hóa là STRENGTH có thể dùng
-4. Risk Points — văn hóa đang CẢN TRỞ
+0. Why Culture Matters for Education
+1. 8 Cultural Factors — Detailed Analysis
+2. Map: Cultural Factor × Mechanism (summary table)
+3. Leverage Points — Culture as Usable Strength
+4. Risk Points — Where Culture Is Blocking Progress
 5. Honest Assessment
 
 ---
 
-## 0. TẠI SAO VĂN HÓA QUAN TRỌNG CHO EDUCATION
+## 0. WHY CULTURE MATTERS FOR EDUCATION
 
 ```
-CÂU HỎI CỐT LÕI:
+THE CORE QUESTION:
 
-  8 nguyên lý arc design (Education-Mechanism.md v2.2 §2) = UNIVERSAL
-    → Brain mechanisms = GIỐNG NHAU mọi nơi
-    → Direction > Level, prerequisite check, consolidation... = đúng mọi nước
-    → = ENGINE giáo dục không đổi (Gap-Body-Need.md v1.0 §9: Hardware = ENGINE)
+  The 8 arc design principles (Education-Mechanism.md v2.2 §2) = UNIVERSAL
+    → Brain mechanisms = THE SAME everywhere
+    → Direction > Level, prerequisite check, consolidation... = true for every country
+    → = The education ENGINE does not change (Gap-Body-Need.md v1.0 §9: Hardware = ENGINE)
 
-  NHƯNG:
-    → CÁCH APPLY 8 nguyên lý = KHÁC nhau per culture
-    → VÌ: văn hóa = ENVIRONMENT mà brain SỐNG TRONG
-    → Brain mechanism giống nhau → nhưng INPUTS khác nhau → OUTPUTS khác nhau
+  BUT:
+    → HOW the 8 principles are APPLIED = DIFFERS per culture
+    → BECAUSE: culture = the ENVIRONMENT the brain LIVES IN
+    → Same brain mechanisms → but different INPUTS → different OUTPUTS
 
-  VÍ DỤ:
-    Nguyên lý §2.6 (Imagine-Final before content) = universal
-    → Phần Lan: Imagine-Final = "tìm điều mình thích, sống balanced"
-    → VN: Imagine-Final = "học để đổi đời, thoát nghèo, báo hiếu"
-    → CẢ HAI đều = Imagine-Final → nhưng CONTENT + DRIVE khác hoàn toàn
-    → → Policy khác, approach khác, recommendations khác
+  EXAMPLE:
+    Principle §2.6 (Imagine-Final before content) = universal
+    → Finland: Imagine-Final = "find what you love, live a balanced life"
+    → VN: Imagine-Final = "study to transform your life, escape poverty, honor your family"
+    → BOTH = an Imagine-Final → but CONTENT + DRIVE are completely different
+    → → Different policies, different approaches, different recommendations
 
-    Nguyên lý §2.2 (Direction > Level) = universal mechanism
-    → Phần Lan: Imposed threats ít → risk = quá ít challenge (approach-dominant)
-    → VN: Imposed threats CHỒNG CHẤT → risk = chronic avoidance-tagging
-    → Cùng nguyên lý, khác problem → cần khác solution
+    Principle §2.2 (Direction > Level) = universal mechanism
+    → Finland: Imposed threats low → risk = too little challenge (approach-dominant)
+    → VN: Imposed threats PILING UP → risk = chronic avoidance-tagging
+    → Same principle, different problem → needs different solution
 
-  VÍ DỤ (3 ORIGIN — Mechanism v2.2 §3.3):
-    → Phần Lan: Domain + Peer exposure CAO, Imposed THẤP → healthy pattern
+  EXAMPLE (3 ORIGIN — Mechanism v2.2 §3.3):
+    → Finland: Domain + Peer exposure HIGH, Imposed LOW → healthy pattern
     → VN: Domain + Peer suppressed, Imposed DOMINANT → unhealthy pattern
-    → = Cùng brain, khác cultural environment → khác threat distribution
+    → = Same brain, different cultural environment → different threat distribution
 
 
-VĂN HÓA KHÔNG PHẢI PROBLEM — VĂN HÓA LÀ CONTEXT:
+CULTURE IS NOT THE PROBLEM — CULTURE IS THE CONTEXT:
 
-  ⚠️ QUAN TRỌNG — cách đọc file này:
-    → Mỗi cultural factor = TRUNG TÍNH
-    → Cùng 1 factor → có thể GIÚP hoặc CẢN education, TÙY interaction
-    → "Tôn sư trọng đạo" = giúp foundation → cản depth + per-individual
-    → KHÔNG CÓ văn hóa nào = "xấu" cho education
-    → CHỈ CÓ: interaction giữa culture × mechanism = align hay misalign
+  ⚠️ IMPORTANT — how to read this file:
+    → Each cultural factor = NEUTRAL
+    → The same factor → can either HELP or HINDER education, depending on the interaction
+    → "Honor the teacher" = helps foundation → hinders depth + per-individual
+    → There is NO culture that is "bad" for education
+    → ONLY: interactions between culture × mechanism = aligned or misaligned
 
-  FILE NÀY:
-    → Phân tích 8 cultural factors QUAN TRỌNG NHẤT ở VN
-    → Mỗi factor: gốc rễ + biểu hiện + positive + negative + đang đổi?
-    → Sau đó: MAP từng factor vào Mechanism lens → thấy leverage + risk
-    → Để VN-Recommendations.md (File 3) có thể DERIVE hướng đi phù hợp
+  THIS FILE:
+    → Analyzes the 8 MOST IMPORTANT cultural factors in VN
+    → Each factor: roots + manifestation + positive + negative + changing?
+    → Then: MAPS each factor to the Mechanism lens → reveals leverage + risk
+    → So that VN-Recommendations.md (File 3) can DERIVE culturally appropriate directions
 
 
 HOFSTEDE DIMENSIONS — VN: 🟢
@@ -118,131 +118,131 @@ HOFSTEDE DIMENSIONS — VN: 🟢
   ┌─────────────────────────┬───────┬──────────────────────────────────┐
   │ Dimension               │ Score │ Interpretation                   │
   ├─────────────────────────┼───────┼──────────────────────────────────┤
-  │ Power Distance          │ 70    │ CAO — chấp nhận hierarchy        │
-  │ Individualism           │ 30    │ THẤP — collectivist mạnh         │
-  │ Masculinity             │ 40    │ Thiên feminine — hướng wellbeing │
-  │ Uncertainty Avoidance   │ 36    │ THẤP — flexible, thực dụng      │
-  │ Long-Term Orientation   │ 47    │ Trung bình — balance truyền thống│
-  │ Indulgence              │ 35    │ Restrained — kiềm chế, tiết kiệm│
+  │ Power Distance          │ 70    │ HIGH — accepts hierarchy         │
+  │ Individualism           │ 30    │ LOW — strong collectivism        │
+  │ Masculinity             │ 40    │ Moderate feminine — wellbeing-oriented│
+  │ Uncertainty Avoidance   │ 36    │ LOW — flexible, pragmatic        │
+  │ Long-Term Orientation   │ 47    │ Moderate — balances tradition    │
+  │ Indulgence              │ 35    │ Restrained — self-controlled, frugal│
   └─────────────────────────┴───────┴──────────────────────────────────┘
 
   Sources: Hofstede Insights, Scribd comparative analysis
 
   → VN = HIGH power distance + LOW individualism + RESTRAINED
-  → = Hierarchy + collectivism + kiềm chế = BỐI CẢNH cho 8 factors bên dưới
+  → = Hierarchy + collectivism + restraint = BACKDROP for the 8 factors below
 ```
 
 ---
 
-## 1. 8 CULTURAL FACTORS — PHÂN TÍCH CHI TIẾT
+## 1. 8 CULTURAL FACTORS — DETAILED ANALYSIS
 
 ```
-CÁCH ĐỌC MỖI FACTOR:
+HOW TO READ EACH FACTOR:
 
-  [GỐC RỄ]      → Từ đâu mà đến? (lịch sử, tôn giáo, xã hội)
-  [BIỂU HIỆN]    → Trong giáo dục, nó TRÔNG thế nào?
-  [POSITIVE]     → Mặt MẠNH — giúp education thế nào?
-  [NEGATIVE]     → Mặt YẾU — cản trở education thế nào?
-  [MECHANISM MAP] → Interact với nguyên lý nào? (MỚI v2.0)
-  [ĐANG ĐỔI?]   → Trend hiện tại
+  [ROOTS]                → Where does it come from? (history, religion, society)
+  [MANIFESTATION]        → In education, what does it LOOK LIKE?
+  [POSITIVE]             → Strengths — how does it help education?
+  [NEGATIVE]             → Weaknesses — how does it hinder education?
+  [MECHANISM MAP]        → Which principles does it interact with? (NEW v2.0)
+  [CHANGING?]            → Current trend
 ```
 
 ### FACTOR 1: "TÔN SƯ TRỌNG ĐẠO" — Teacher Reverence
 
 ```
-GỐC RỄ: 🟢
+ROOTS: 🟢
 
-  → Nho giáo (Confucianism) — ảnh hưởng từ thời Lý-Trần (TK 11-14)
-  → Hệ thứ bậc Quân-Sư-Phụ (Vua-Thầy-Cha):
-    GV xếp TRÊN cha mẹ trong hierarchy → authority cực cao
-  → Khoa cử triều đình (1075-1919): 844 năm thi cử
-    → Thầy = người mở cánh cửa đổi đời
-    → "Không thầy đố mày làm nên" = proverb sâu gốc
-  → Ngày Nhà Giáo 20/11 = SỰ KIỆN QUỐC GIA → HS + PH + cựu HS
-    viếng thăm thầy cô → không phải chỉ truyền thống, mà ĐANG SỐNG
+  → Confucianism — influence since the Ly-Tran dynasties (11th-14th century)
+  → King-Teacher-Father hierarchy:
+    Teacher ranked ABOVE father in the hierarchy → extreme authority
+  → Imperial examination system (1075-1919): 844 years of competitive examinations
+    → Teacher = the person who opens the door to life transformation
+    → "Without a teacher, you cannot succeed" = a deeply rooted proverb
+  → Teachers' Day (November 20th) = NATIONAL EVENT → students, parents, and
+    alumni visit their teachers → not just tradition, but LIVED PRACTICE
 
   Sources: Vietcetera, MDPI Philosophy 2025, Wikipedia (VN court exam),
     PNU Research Portal
 
 
-BIỂU HIỆN TRONG GIÁO DỤC: 🟢
+MANIFESTATION IN EDUCATION: 🟢
 
-  → "GV là nguồn kiến thức → hỏi lại = BẤT KÍNH"
-  → HS đứng dậy khi trả lời câu hỏi → sign of respect
-  → Lớp học: im lặng, ghi chép, chú ý → passive by design
-  → GV mang "trách nhiệm đạo đức" — không chỉ dạy kiến thức
-    mà hướng dẫn đạo đức, nhân cách
+  → "Teacher is the source of knowledge → questioning = DISRESPECTFUL"
+  → Students stand up when answering questions → sign of respect
+  → Classroom: silent, note-taking, attentive → passive by design
+  → Teacher carries "moral responsibility" — not just teaching knowledge
+    but guiding ethics and character
 
-  TALIS 2024: 92% xã hội tôn trọng nghề GV (vs 22% OECD)
-    = Cultural factor này VẪN CỰC MẠNH, không suy giảm
+  TALIS 2024: 92% of society respects the teaching profession (vs 22% OECD)
+    = This cultural factor is STILL EXTREMELY STRONG, not diminishing
 
   Sources: MDPI, ResearchGate (passiveness study), SciePub (critical thinking)
 
 
 POSITIVE: 🟡
 
-  → Tạo môi trường TRẬT TỰ, kỷ luật → giúp foundation
-  → GV = high status → attract candidates (91% chọn GV là nghề đầu tiên)
-  → GV hài lòng 97% → NỀN TẢNG cho mọi cải cách
+  → Creates ORDERLY, disciplined environment → helps foundation
+  → Teacher = high status → attracts candidates (91% chose teaching as first career)
+  → Teachers 97% satisfied → PLATFORM for any reform
   → Cultural appreciation for education + knowledge = DRIVER
-  → PISA: VN outperform nhiều nước giàu → teacher reverence = 1 factor
+  → PISA: VN outperforms many wealthier countries → teacher reverence = 1 factor
 
-  → QUA MECHANISM LENS: nếu GV = CALIBRATOR (Education-System v3.2 §7),
-    thì "tôn sư" = HS TIN GV → accept observation + guidance
-    = PLATFORM tuyệt vời → chỉ cần GV shift ROLE, không cần build TRUST
+  → THROUGH THE MECHANISM LENS: if teacher = CALIBRATOR (Education-System v3.2 §7),
+    then "reverence" = students TRUST teacher → accept observation + guidance
+    = Excellent PLATFORM → teacher only needs to shift ROLE, no need to build TRUST
   → Hardware-Subsidy (Entity-Valence-Dynamics.md v1.0 §5):
-    "tôn sư trọng đạo" = cultural Hardware-Subsidy AMPLIFIER
-    92% xã hội tôn trọng → teacher subsidy QUALITY nền tảng CAO
-  → Entity-Access v1.2: teacher = Mức 3-4 by cultural DEFAULT
-    NHƯNG: Mức = FORMAL authority, chưa phải genuine mentoring Mức 4
-  → Trust.md v1.0: "tôn sư trọng đạo" = Trust §7 mechanism ⑥ Social Norm Install
-    collective install trust + valence CÙNG GÓI cho teacher CATEGORY
-    = Trust §5 Phase 1: trust installed per-CATEGORY ("tất cả thầy = đáng tin")
-    → Trust-authority = STRUCTURAL (có sẵn, không cần build)
-    → Trust-intention = INSTALLED ("thầy muốn tốt cho mình" = default)
-    → Trust §9: 4 mechanisms cộng dồn → VN teacher trust baseline = RẤT MẠNH
-    → = Trust infrastructure ĐÃ CÓ SẴN → skip bước khó nhất trong education
+    "Tôn sư trọng đạo" = cultural Hardware-Subsidy AMPLIFIER
+    92% societal respect → teacher subsidy QUALITY baseline HIGH
+  → Entity-Access v1.2: teacher = Level 3-4 by cultural DEFAULT
+    BUT: Level = FORMAL authority, not yet genuine Level 4 mentoring
+  → Trust.md v1.0: "teacher reverence" = Trust §7 mechanism ⑥ Social Norm Install
+    collective install trust + valence BUNDLED for the teacher CATEGORY
+    = Trust §5 Phase 1: trust installed per-CATEGORY ("all teachers = trustworthy")
+    → Trust-Authority = STRUCTURAL (already in place, no need to build)
+    → Trust-Intention = INSTALLED ("teacher wants what's best for me" = default)
+    → Trust §9: 4 mechanisms accumulating → VN teacher trust baseline = VERY STRONG
+    → = Trust infrastructure ALREADY EXISTS → skip the hardest step in education
 
 
 NEGATIVE: 🟡
 
-  → HS "thường rụt rè, ngại hỏi, không dám thắc mắc trong lớp"
-  → = PASSIVE learning: nghe → ghi → thuộc → thi
-  → "Văn hóa giữ thể diện → HS không dám nêu ý kiến riêng
-    hoặc phản biện trực tiếp" (57.8% sợ sai, 56.6% sợ ý tưởng kém)
-  → Suppress questioning → suppress meta-learning + depth thinking
+  → Students "typically shy, reluctant to ask, don't dare question in class"
+  → = PASSIVE learning: listen → write → memorize → test
+  → "Face-saving culture → students don't dare express personal opinions
+    or directly challenge ideas" (57.8% fear being wrong, 56.6% fear weak ideas)
+  → Suppresses questioning → suppresses meta-learning + deep thinking
 
-  → QUA MECHANISM LENS: teacher reverence + passive student
-    = lecture-dominant = chunks compile nhưng KHÔNG deep
-    → GV = "knowledge source" thay vì "calibrator"
-    → Feedback loop (§2.7) bị CHẶN chiều HS → GV
+  → THROUGH THE MECHANISM LENS: teacher reverence + passive student
+    = lecture-dominant = chunks compile but NOT deeply
+    → Teacher = "knowledge source" instead of "calibrator"
+    → Feedback loop (§2.7) BLOCKED in the student → teacher direction
   → Trust.md v1.0:
-    → Trust §7 ⑤ Trust Generalization: trust teacher PER-ENTITY → spill ALL domains
-      "thầy giỏi toán → thầy nói GÌ cũng đúng" = trust generalization unchecked
-    → Trust §5 Phase 3 Calibrate: VN culture DELAY phase này
-      hỏi lại GV = "bất kính" → suppress calibration signal
-      HS KHÔNG CÓ QUYỀN detect mismatch → Phase 3 bị chặn bởi văn hóa
-    → Trust-authority override Trust-competence → "thầy có quyền" > "thầy biết đúng?"
+    → Trust §7 ⑤ Trust Generalization: trust teacher PER-ENTITY → spills to ALL domains
+      "teacher is good at math → everything teacher says is right" = unchecked generalization
+    → Trust §5 Phase 3 Calibrate: VN culture DELAYS this phase
+      questioning the teacher = "disrespectful" → calibration signal suppressed
+      Students have NO RIGHT to detect mismatch → Phase 3 culturally blocked
+    → Trust-Authority overrides Trust-Competence → "teacher has the right" > "is teacher correct?"
 
 
 MECHANISM MAP: 🟡
-  → §2.2 Direction: (-) authority → suppress questioning → threat-path risk
-  → Foundation (Domain-Knowledge-Map v2.1 §1): (+) discipline → foundation strong
-  → §2.3 Per-hardware: (-) authority → suppress individual signal
-  → §3.1 Bridge: (+) trust = platform cho healthy bridge transition
+  → §2.2 Direction: (-) authority → suppresses questioning → threat-path risk
+  → Foundation (Domain-Knowledge-Map v2.1 §1): (+) discipline → strong foundation
+  → §2.3 Per-hardware: (-) authority → suppresses individual signals
+  → §3.1 Bridge: (+) trust = platform for healthy bridge transition
   → §3.3 3 ORIGIN: (-) reinforces Imposed threat pathway
-  → §2.9 Depth: (-) passive → suppress deep + meta-learning
+  → §2.9 Depth: (-) passive → suppresses deep + meta-learning
 
 
-ĐANG ĐỔI? 🟡
+CHANGING? 🟡
 
-  → GDPT 2018: shift từ content → competency-based
-  → Một số GV đã dùng "questioning, feedback, modeling"
-  → Research: "Confucian virtues có thể COEXIST với
+  → GDPT 2018: shift from content → competency-based
+  → Some teachers already using "questioning, feedback, modeling"
+  → Research: "Confucian virtues can COEXIST with
     critical thinking + creativity"
-  → = KHÔNG cần xóa "tôn sư" → cần CHUYỂN NGHĨA:
-    từ "thầy = authority ĐỌC cho nghe"
-    → "thầy = expert HƯỚNG DẪN cách think"
+  → = NO NEED to erase "teacher reverence" → need to REDEFINE IT:
+    from "teacher = authority who RECITES to us"
+    → "teacher = expert who GUIDES how to think"
 
   Sources: Springer, Taylor & Francis, MDPI 2025
 ```
@@ -250,251 +250,252 @@ MECHANISM MAP: 🟡
 ### FACTOR 2: "HỌC ĐỂ ĐỔI ĐỜI" — Education as Social Mobility
 
 ```
-GỐC RỄ: 🟢
+ROOTS: 🟢
 
-  → Lịch sử nghèo đói: post-war VN, poverty > 70%
-    → 1993: 58.1% dưới chuẩn nghèo → 2002: 28.9%
-    → Education = CON ĐƯỜNG CHÍNH thoát nghèo
-  → Đổi Mới (1986): kinh tế thị trường → education = TICKET
-  → Khoa cử (1075-1919): thường dân → thi đỗ → quan chức
+  → History of poverty: post-war VN, poverty >70%
+    → 1993: 58.1% below poverty line → 2002: 28.9%
+    → Education = the PRIMARY PATH out of poverty
+  → Doi Moi (1986): market economy → education = TICKET
+  → Imperial examinations (1075-1919): commoner → pass exam → official position
     → Deep cultural memory: education = upward mobility
-  → "Trụ cột mạnh nhất trong giảm nghèo VN = mở rộng tiếp cận
-    giáo dục trên toàn quốc" (IMF Working Paper)
+  → "The single strongest pillar of poverty reduction in VN = expanding
+    education access nationwide" (IMF Working Paper)
 
   Sources: IMF, Oxfam Vietnam, Borgen Project
 
 
-BIỂU HIỆN TRONG GIÁO DỤC: 🟢
+MANIFESTATION IN EDUCATION: 🟢
 
-  → Gia đình ĐẦU TƯ CỰC MẠNH:
-    → Mẹ đơn thân: 50-70% thu nhập cho GD con
-    → Urban chi gấp 3x rural cho GD
-    → Ethnic Kinh chi gấp 7x ethnic minority
-  → ĐH enrollment: 133,000 (1987) → 2,200,000 (2020) = 17x
-  → Intergenerational elasticity:
-    → < Tiểu học: 0.51 (con phụ thuộc cha) → ĐH/CĐ: 0.17 (education PHÁ vòng)
-    → = Education THỰC SỰ tạo social mobility ở VN
+  → Families INVEST EXTREMELY HEAVILY:
+    → Single mothers: 50-70% of income for children's education
+    → Urban families spend 3x more than rural on education
+    → Kinh majority spends 7x more than ethnic minorities
+  → University enrollment: 133,000 (1987) → 2,200,000 (2020) = 17x growth
+  → Intergenerational income elasticity:
+    → < Primary school: 0.51 (child depends on parent) → University: 0.17
+      (education BREAKS the cycle)
+    → = Education ACTUALLY creates social mobility in VN
 
   Sources: Oxfam, ScienceDirect, Sage Journals, PMC
 
 
 POSITIVE: 🟡
 
-  → DRIVE CỰC MẠNH — Imagine-Final rõ ràng: "học = thoát nghèo"
-  → Gia đình sacrifice = support system cho education
-  → Kết quả: PISA scores vượt GDP level → cultural drive = key factor
-  → Enrollment expansion ấn tượng → foundation literacy 96%+
+  → EXTREMELY STRONG DRIVE — clear Imagine-Final: "education = escaping poverty"
+  → Family sacrifice = support system for education
+  → Result: PISA scores exceed GDP level → cultural drive = key factor
+  → Impressive enrollment expansion → 96%+ foundation literacy
 
-  → MECHANISM LENS: "Học để đổi đời" = Imagine-Final (§2.6) dạng
-    "body simulation: tương lai KHÁC hiện tại" → rất POWERFUL
-    → Vấn đề không phải strength → vấn đề là NARROW + EXTERNAL
+  → MECHANISM LENS: "Study to transform life" = Imagine-Final (§2.6) in the form
+    of "body simulation: the future IS DIFFERENT from today" → very POWERFUL
+    → The problem is not the strength → the problem is NARROW + EXTERNAL
 
 
 NEGATIVE: 🟡
 
-  → Imagine-Final = NARROW: "thi đỗ → bằng → việc → tiền"
-    → Không = "tôi muốn trở thành gì? tôi phù hợp gì?"
-  → Imagine-Final = EXTERNAL: từ gia đình + xã hội, không từ bản thân
-    → = Nguồn ④ External Inject (Mechanism v2.2 §3.1) — không phải nguồn ① PFC
-    → 60% SV trái ngành = hướng SAI từ đầu
-  → Sacrifice tạo GUILT: "bố mẹ vất vả → con PHẢI giỏi"
+  → Imagine-Final = NARROW: "pass exam → degree → job → money"
+    → Not = "who do I want to become? what fits me?"
+  → Imagine-Final = EXTERNAL: from family + society, not from the learner
+    → = Source ④ External Inject (Mechanism v2.2 §3.1) — not Source ① PFC
+    → 60% of graduates work outside their field = wrong direction from the start
+  → Sacrifice creates GUILT: "we work so hard for you → you MUST excel"
     → = Imposed threat (3 ORIGIN Type 3 — Mechanism v2.2 §3.3)
-  → "Đổi đời" cho gia đình > phát triển bản thân → I×S nghiêng xã hội
+  → "Transform life" for the family > personal development → I×S tilts toward society
 
-  → MECHANISM LENS: Forced-Fit risk CAO khi Imagine-Final = gia đình gán
+  → MECHANISM LENS: High Forced-Fit risk when Imagine-Final = family-assigned
     → Imagine-Final-Evaluation.md: "Mismatch" quadrant (Domain ✓ + Hardware ✗)
-    → 60% trái ngành = evidence cho Mismatch at scale
+    → 60% working outside field = evidence of Mismatch at scale
   → Compiled Quality (Compiled-Fresh.md v2.0 §3):
-    narrow "đổi đời" → failure = shame → threat-compiled chunks
-    "giỏi nhưng ghét" = threat-compiled outcome at cultural scale
+    narrow "transform life" → failure = shame → threat-compiled chunks
+    "skilled but hates it" = threat-compiled outcome at cultural scale
 
 
 MECHANISM MAP: 🟡
-  → §2.2 Direction: (+/-) strong drive nhưng narrow → avoidance risk khi fail
+  → §2.2 Direction: (+/-) strong drive but narrow → avoidance risk when failing
   → Foundation: (+) drive → enrollment + investment
-  → §2.6 Imagine-Final: (+/-) strong nhưng narrow + external (nguồn ④ not ①)
+  → §2.6 Imagine-Final: (+/-) strong but narrow + external (Source ④ not ①)
   → §3.1 Bridge: (+) drive = motivation source
   → §3.3 3 ORIGIN: (-) guilt = Imposed threat → avoidance-tag
   → §1.3 I×S: (-) society >>> individual → Forced-Fit
 
 
-ĐANG ĐỔI? 🟡
+CHANGING? 🟡
 
-  → Gen Z: xu hướng "freelancing, entrepreneurship, social impact"
-  → Nhưng: 45% rural youth thiếu tiếp cận STEM → vẫn cần "đổi đời"
-  → "Học để đổi đời" = VẪN ĐÚNG cho tầng lớp nghèo
-    → Chỉ NARROW cho tầng lớp đã ổn định
+  → Gen Z: trend toward "freelancing, entrepreneurship, social impact"
+  → But: 45% of rural youth lack STEM access → still need "transform life"
+  → "Study to transform life" = STILL VALID for those in poverty
+    → Only NARROW for those who are already stable
 
   Sources: Oxfam, ScienceDirect, PMC, VnExpress
 ```
 
-### FACTOR 3: COLLECTIVISM — "Chúng Ta" > "Tôi"
+### FACTOR 3: COLLECTIVISM — "We" > "I"
 
 ```
-GỐC RỄ: 🟢
+ROOTS: 🟢
 
-  → Individualism score: 30/100 (Hofstede) = collectivist MẠNH
-  → Nho giáo + nông nghiệp lúa nước: cooperation = survival
-  → "Một cây làm chẳng nên non, ba cây chụm lại nên hòn núi cao"
-  → High-context culture: ý nghĩa NGẦM > ý nghĩa tường minh
-  → Face-saving ("sĩ diện / thể diện") = cultural feature CỐT LÕI
+  → Individualism score: 30/100 (Hofstede) = strong COLLECTIVISM
+  → Confucianism + wet rice agriculture: cooperation = survival
+  → "One tree cannot make a hill; three trees together make a mountain"
+  → High-context culture: implicit meaning > explicit meaning
+  → Face-saving ("sĩ diện / thể diện") = CORE cultural feature
 
   Sources: ERIC, Hofstede Insights, Malque Publishing, TESL-EJ
 
 
-BIỂU HIỆN TRONG GIÁO DỤC: 🟢
+MANIFESTATION IN EDUCATION: 🟢
 
-  → Trong gia đình + trường: "trẻ được kỳ vọng nghe theo ý kiến
-    người khác và đi theo cái TỐT CHO NHÓM"
-  → Career choice = QUYẾT ĐỊNH GIA ĐÌNH:
-    → "Ảnh hưởng MẠNH NHẤT lên career identity HS VN = gia đình"
-  → Face-saving → 57.8% sợ sai + 56.6% sợ ý tưởng kém
-  → "Sợ mất thể diện = rào cản CHÍNH ngăn interactive learning"
-  → VNU survey: 27% SV cảm thấy ngành không phù hợp mong muốn
+  → In family + school: "children are expected to follow others' views
+    and go along with what is GOOD FOR THE GROUP"
+  → Career choice = FAMILY DECISION:
+    → "The STRONGEST influence on career identity of VN students = family"
+  → Face-saving → 57.8% fear being wrong + 56.6% fear presenting weak ideas
+  → "Fear of losing face = PRIMARY BARRIER preventing interactive learning"
+  → VNU survey: 27% of university students feel their field doesn't match their wishes
 
   Sources: ERIC, PMC, VnExpress, THE, ResearchGate
 
 
 POSITIVE: 🟡
 
-  → Support network gia đình MẠNH
-  → Research: "collectivists có xu hướng chia sẻ nhiều hơn +
-    sáng tạo hơn individualists" (VN higher ed study)
+  → Strong family support network
+  → Research: "collectivists tend to share more +
+    be more creative than individualists" (VN higher ed study)
   → Group harmony → cooperative learning environments
-  → Sense of belonging → emotional safety (nếu group = supportive)
+  → Sense of belonging → emotional safety (if group = supportive)
 
   → MECHANISM LENS:
-    → Collectivism = strength cho I×S (xã hội contribution)
-    → Group learning có thể support per-hardware (peer-calibration)
+    → Collectivism = strength for I×S (society contribution)
+    → Group learning can support per-hardware (peer-calibration)
     → Community = potential ecosystem channel (Education-System v3.2 §9)
 
 
 NEGATIVE: 🟡
 
-  → Suppress individual expression + creativity
-  → Career = family decision → Imagine-Final sai (Mechanism v2.2 §2.6)
-  → HS không dám khác biệt → per-individual calibration khó (§2.3)
-  → = "Ai khác biệt = có vấn đề" thay vì "ai khác biệt = hardware khác"
+  → Suppresses individual expression + creativity
+  → Career = family decision → wrong Imagine-Final (Mechanism v2.2 §2.6)
+  → Students don't dare to be different → per-individual calibration harder (§2.3)
+  → = "Anyone who is different = has a problem" instead of "different = different hardware"
 
   → MECHANISM LENS:
     → Collectivism + per-hardware calibration = TENSION
-    → §2.3 đòi "mỗi người KHÁC" → collectivism đòi "mọi người GIỐNG"
-    → Feedback loop (§2.7) bị suppress: HS không dám nêu honest signal
-    → Connection-Education v1.1: face-saving = barrier cho 4/5 khía cạnh
-      (hiểu, chọn, duy trì, navigate groups — chỉ "xây bond" = có thể)
-    → = Conflict CỐT LÕI → cần giải quyết ở level sâu
+    → §2.3 requires "everyone is DIFFERENT" → collectivism requires "everyone is the SAME"
+    → Feedback loop (§2.7) suppressed: students don't dare give honest signals
+    → Connection-Education v1.1: face-saving = barrier to 4/5 dimensions
+      (understand, choose, maintain, navigate groups — only "build bond" = possible)
+    → = CORE CONFLICT → needs resolution at a deep level
   → Self-Observation.md v1.0:
-    → Face-saving → suppress honest body-state expression → Self-Observation vocabulary LIMITED
+    → Face-saving → suppresses honest body-state expression → Self-Observation VOCABULARY LIMITED
     → Collective identity emphasis → individual Self-Observation = culturally FOREIGN
-      "quan sát BẢN THÂN" ≠ collectivist norm "hòa nhập TẬP THỂ"
-    → Indirect communication → Self-Observation signals IMPLICIT, không practiced explicitly
-    → = Self-Observation capacity bị LIMIT bởi cultural barrier, không phải hardware barrier
+      "observing YOURSELF" ≠ collectivist norm "blending into the GROUP"
+    → Indirect communication → Self-Observation signals IMPLICIT, not practiced explicitly
+    → = Self-Observation capacity LIMITED by cultural barrier, not hardware barrier
 
 
 MECHANISM MAP: 🟡
-  → §2.3 Per-hardware: (-) suppress individual → one-size entrenched
+  → §2.3 Per-hardware: (-) suppresses individual → one-size entrenched
   → §2.6 Imagine-Final: (-) family decides → external inject
-  → §2.7 Feedback: (-) face-saving → suppress honest signal
-  → §2.9 Depth: (-) passive + harmony → suppress meta-learning
+  → §2.7 Feedback: (-) face-saving → suppresses honest signal
+  → §2.9 Depth: (-) passive + harmony → suppresses meta-learning
   → §1.3 I×S: (+/-) society strong, individual weak → imbalanced
-  → Ecosystem: (+) community = learning channel potential
+  → Ecosystem: (+) community = potential learning channel
 
 
-ĐANG ĐỔI? 🟡
+CHANGING? 🟡
 
-  → Gen Z: "ưu tiên individualism + giá trị hiện đại:
-    chủ động, trách nhiệm, tôn trọng đa dạng"
-  → = ĐANG SHIFT → nhưng chậm, đặc biệt ở rural + ethnic minority
+  → Gen Z: "prioritizing individualism + modern values:
+    initiative, responsibility, respect for diversity"
+  → = SHIFTING → but slowly, especially in rural + ethnic minority communities
 
   Sources: ERIC, PMC, ResearchGate, VnExpress
 ```
 
-### FACTOR 4: GIA ĐÌNH MỞ RỘNG — Intergenerational Expectations
+### FACTOR 4: EXTENDED FAMILY — Intergenerational Expectations
 
 ```
-GỐC RỄ: 🟢
+ROOTS: 🟢
 
-  → Nho giáo: "kính trọng người già, hiếu thảo, hierarchy gia đình"
-  → Gia đình VN = KHÔNG CHỈ nuclear → extended family = NORM
-  → Hiếu thảo = "một trong những giá trị ĐƯỢC TÔN KÍNH NHẤT"
-  → "PH VN KHÔNG CÓ 401(k) hay portfolio đầu tư → con cái = BẢO HIỂM
-    HƯU TRÍ DUY NHẤT" → tạo áp lực KHỔNG LỒ lên thành công GD
+  → Confucianism: "respect elders, filial piety, family hierarchy"
+  → Vietnamese family = NOT JUST nuclear → extended family = NORM
+  → Filial piety = "one of the MOST REVERED values"
+  → "VN parents do NOT have a 401(k) or investment portfolio → children ARE the
+    ONLY RETIREMENT INSURANCE" → creates ENORMOUS pressure on educational achievement
 
   Sources: OJED, PMC, LocalVietnam, e-Psycholog
 
 
-BIỂU HIỆN TRONG GIÁO DỤC: 🟢
+MANIFESTATION IN EDUCATION: 🟢
 
-  → "Kỳ vọng VỀ THÀNH TÍCH HỌC TẬP = PHỔ BIẾN NHẤT,
-    theo con từ nhỏ đến trưởng thành"
-  → "PH thường SO SÁNH con với anh chị em họ để con CỐ GẮNG HƠN"
-  → Extended kin tham gia nuôi dạy → thêm SUPPORT + thêm EXPECTATIONS
-  → 4 ĐỘNG CƠ PH (Đặng Hoàng Ngân): ① Connections ② "Hiểu con"
-    ③ Con = thiếu suy nghĩ ④ Chiếu giấc mơ chưa thực hiện
+  → "Expectations ABOUT ACADEMIC ACHIEVEMENT = most prevalent,
+    following children from childhood into adulthood"
+  → "Parents often COMPARE their children to cousins to push them HARDER"
+  → Extended kin involved in child-rearing → more SUPPORT + more EXPECTATIONS
+  → 4 PARENTAL MOTIVATIONS (Dang Hoang Ngan): ① Connections ② "Understanding the child"
+    ③ Child = lacking judgment ④ Projecting own unfulfilled dreams
 
   Sources: ResearchGate, PMC, VnExpress
 
 
 POSITIVE: 🟡
 
-  → Support network ĐA THẾ HỆ cho HS
-  → Đầu tư gia đình → thành tích học tập CAO
-  → Involvement CAO = PLATFORM → nếu redirect → impact CỰC LỚN
+  → MULTI-GENERATIONAL support network for students
+  → Family investment → HIGH academic achievement
+  → HIGH involvement = PLATFORM → if redirected → ENORMOUS impact
 
   → MECHANISM LENS:
-    → Family = 1 trong 4 kênh ecosystem (Education-System v3.2 §9)
-    → VN: family channel = MẠNH NHẤT trong 4 kênh
-    → = Asset hiếm có — nhiều nước ƯỚC CÓ level involvement này
+    → Family = 1 of the 4 ecosystem channels (Education-System v3.2 §9)
+    → VN: family channel = the STRONGEST of the 4 channels
+    → = A rare asset — many countries WISH they had this level of involvement
 
 
 NEGATIVE: 🟡
 
-  → So sánh với anh chị em họ → shame + competitive anxiety
-  → Gánh nặng: "con PHẢI giỏi vì bố mẹ VẤT VẢ"
-  → Career = quyết định GIA ĐÌNH, không phải cá nhân
-  → Chỉ 7% SV đánh giá tư vấn nghề nghiệp ĐH = hiệu quả
-  → "Rất ít PH HỎI CON về thế mạnh, khả năng nổi bật, nghề yêu thích"
+  → Comparison to cousins → shame + competitive anxiety
+  → Burden: "you MUST excel because your parents SACRIFICE"
+  → Career = FAMILY decision, not the individual's
+  → Only 7% of university students rate career counseling as effective
+  → "Very few parents ASK THEIR CHILD about strengths, talents, desired profession"
 
   → MECHANISM LENS:
-    → "Bố mẹ vất vả" = guilt bridge → Imposed threat (3 ORIGIN Type 3)
-    → = Nguồn ④ External Inject dominant → suppress nguồn ① PFC self-build
-    → Imagine-Final: PH inject CỦA HỌ vào con (§2.6 violate)
+    → "We sacrifice for you" = guilt bridge → Imposed threat (3 ORIGIN Type 3)
+    → = Source ④ External Inject dominant → suppresses Source ① PFC self-build
+    → Imagine-Final: parents inject THEIR OWN into child (§2.6 violated)
     → Hardware-Subsidy (Entity-Valence-Dynamics.md v1.0 §5):
-      parent = MAX subsidy potential — "cha mẹ hi sinh" = MAX involvement
-      NHƯNG: guilt-trip = subsidy channel CORRUPTED
-      subsidy + threat → approach-tag ghi đè bởi avoidance-tag
-    → Anchor legacy (Mechanism v2.2 §3.5): education không chỉ install chunks
-      — còn install anchor "tôi là loại người GÌ"
-    → Guilt-anchor = "tôi NỢ bố mẹ" → drive learning nhưng avoidance-tagged
-    → 66% HS nói PH = stress chính → Imposed dominant confirmed
+      parent = MAX subsidy potential — "parents sacrifice" = MAX involvement present
+      BUT: guilt-trip = subsidy channel CORRUPTED
+      subsidy + threat → approach-tag overwritten by avoidance-tag
+    → Anchor legacy (Mechanism v2.2 §3.5): education doesn't just install chunks
+      — it also installs the anchor "what kind of person I AM"
+    → Guilt-anchor = "I OWE my parents" → drives learning but avoidance-tagged
+    → 66% of students say parents = main source of stress → Imposed dominant confirmed
   → Trust.md v1.0:
-    → Parent trust = DEEPEST compiled (Trust §3: thường 5/5 nguồn active)
-      ①Routine (gặp mỗi ngày) ②Childhood (từ 0-7) ③Community (gia đình mở rộng)
-      ④Peak (crisis moments) ⑤Identity ("con của bố mẹ")
-    → Trust depth CAO → guilt pressure = RẤT hiệu quả vì trust sâu = resilient
-    → "Bố mẹ vất vả" = trust maintenance cost (Trust §3 nguồn ①: Routine Compile)
-      con = PHẢI respond → trust depth REQUIRE continued compliance
-    → NHƯNG: trust-intention ("bố mẹ muốn tốt") ≠ trust-competence ("bố mẹ biết đúng")
-      parent trust-intention = DEEP compiled → override trust-competence assessment
-      = Tại sao PH CÓ THỂ chọn SAI cho con mà con vẫn tuân theo
+    → Parent trust = DEEPEST compiled (Trust §3: usually 5/5 sources active)
+      ①Routine (meet daily) ②Childhood (from ages 0-7) ③Community (extended family)
+      ④Peak (crisis moments) ⑤Identity ("I am their child")
+    → Trust depth HIGH → guilt pressure = VERY effective because deep trust = resilient
+    → "We sacrifice for you" = trust maintenance cost (Trust §3 source ①: Routine Compile)
+      child = MUST respond → trust depth REQUIRES continued compliance
+    → BUT: trust-intention ("parents want what's best") ≠ trust-competence ("parents know best")
+      parent trust-intention = DEEPLY compiled → overrides trust-competence assessment
+      = Why parents CAN choose WRONG for child yet child still complies
 
 
 MECHANISM MAP: 🟡
   → §2.2 Direction: (-) guilt → threat-path → avoidance-tagged chunks
-  → §2.3 Per-hardware: (-) PH chọn hướng → hardware ignored
-  → §2.6 Imagine-Final: (-) PH inject → external, not self-built
-  → §3.1 Bridge: (-) guilt bridge = PERMANENT, không rút
-  → §3.3 3 ORIGIN: (--) Imposed: "bố mẹ vất vả" = chronic
-  → §3.5 Anchor: (-) guilt-anchor installed suốt 12 năm
-  → §1.3 I×S: (+/-) involvement = ecosystem (+), nhưng society direction (-)
+  → §2.3 Per-hardware: (-) parents choose direction → hardware ignored
+  → §2.6 Imagine-Final: (-) parents inject theirs → external, not self-built
+  → §3.1 Bridge: (-) guilt bridge = PERMANENT, never withdraws
+  → §3.3 3 ORIGIN: (--) Imposed: "we sacrifice for you" = chronic
+  → §3.5 Anchor: (-) guilt-anchor installed across 12 years
+  → §1.3 I×S: (+/-) involvement = ecosystem (+), but society direction (-)
 
 
-ĐANG ĐỔI? 🟡
+CHANGING? 🟡
 
-  → Nuclear family tăng → giảm extended pressure
-  → Shift: "báo hiếu = trở thành BEST VERSION CỦA MÌNH"
-    thay vì "báo hiếu = đạt kỳ vọng cụ thể của PH"
-  → Nhưng: filial piety = RẤT DEEP → thay đổi RẤT CHẬM
+  → Nuclear families increasing → reduces extended pressure
+  → Shift: "honoring parents = BECOMING YOUR BEST SELF"
+    instead of "honoring parents = meeting their specific expectations"
+  → But: filial piety = VERY DEEP → changes VERY SLOWLY
 
   Sources: e-Psycholog, PMC, VnExpress
 ```
@@ -502,89 +503,89 @@ MECHANISM MAP: 🟡
 ### FACTOR 5: "KHỔ TRƯỚC SƯỚNG SAU" — Delayed Gratification as Norm
 
 ```
-GỐC RỄ: 🟢
+ROOTS: 🟢
 
-  → Gốc kép: Phật giáo (chấp nhận khổ → giải thoát) + Nho giáo (kỷ luật)
-  → "Một điều nhịn, chín điều lành"
-  → PH dạy con từ nhỏ: chịu đựng = TỐT, thoải mái = LƯỜI
-  → = Framework văn hóa nơi CHỊU ĐỰNG KHÓ KHĂN = CHUẨN MỰC
+  → Dual roots: Buddhism (accept suffering → liberation) + Confucianism (discipline)
+  → "One act of patience avoids nine quarrels"
+  → Parents teach children from a young age: endurance = GOOD, comfort = LAZY
+  → = Cultural framework where ENDURING HARDSHIP = THE NORM
 
   Sources: HiNative, ERIC, IIAS
 
 
-BIỂU HIỆN TRONG GIÁO DỤC: 🟢
+MANIFESTATION IN EDUCATION: 🟢
 
-  → Giờ học CỰC CAO:
-    → Học thêm ~6h/tuần = 3x cao hơn trend quốc tế cho GDP VN
-    → HS lớp 9 TP.HCM: học thêm MỖI TỐI trừ Chủ nhật → xong 23h
-    → HS lớp 2: 5-7 trang bài tập/ngày → 19h-22h chưa xong
-  → 80% THPT ngủ <7h → 90% do ôn thi
-  → = "Khổ trước sướng sau" BIỆN MINH cho overwork
+  → EXTREMELY HIGH study hours:
+    → Private tutoring ~6h/week = 3x higher than international trend for VN's GDP level
+    → Grade 9 students in HCMC: tutoring EVERY EVENING except Sunday → finish at 11pm
+    → Grade 2 students: 5-7 pages of homework/day → still unfinished at 10pm
+  → 80% of upper secondary students sleep <7h → 90% due to exam preparation
+  → = "Suffer now, enjoy later" JUSTIFIES overwork
 
   Sources: IIAS, vietnam.vn, VnExpress
 
 
 POSITIVE: 🟡
 
-  → Xây resilience + work ethic
-  → Contribute to PISA performance vượt GDP level
+  → Builds resilience + work ethic
+  → Contributes to PISA performance exceeding GDP level
   → Delayed gratification = REAL brain skill (PFC function)
-  → VN: cultural embedded → children develop this EARLY = STRENGTH nếu MODERATE
+  → VN: culturally embedded → children develop this EARLY = STRENGTH if MODERATE
 
   → MECHANISM LENS:
-    → Delayed gratification = navigating "valley" giữa arc (Mechanism v2.2 §2.5)
-    → Cultural training cho skill này = ADVANTAGE
-    → VN children CÓ meta-skill "khó chịu = bình thường"
-    → = Nếu ở mức MODERATE → accelerate learning
+    → Delayed gratification = navigating the "valley" mid-arc (Mechanism v2.2 §2.5)
+    → Cultural training for this skill = ADVANTAGE
+    → VN children HAVE the meta-skill "discomfort = normal"
+    → = At MODERATE levels → accelerates learning
 
 
 NEGATIVE: 🟡
 
-  → BIỆN MINH overwork + bóc lột tuổi thơ
-  → Trẻ KHÔNG CÓ thời gian chơi, nghỉ, phát triển kỹ năng sống
-  → TRỰC TIẾP liên kết: 22.8% trầm cảm, 26.3% ý tưởng tự tử
-  → Tạo belief: "chịu đựng = CẦN THIẾT + CÓ GIÁ TRỊ"
-    thay vì "overwork = HARMFUL"
+  → JUSTIFIES overwork + exploitation of childhood
+  → Children have NO TIME to play, rest, develop life skills
+  → DIRECTLY LINKED: 22.8% depression, 26.3% suicidal ideation
+  → Creates the belief: "endurance = NECESSARY + VALUABLE"
+    instead of "overwork = HARMFUL"
 
   → MECHANISM LENS:
-    → §2.2 Direction: "khổ trước sướng sau" = cultural PERMISSION
-      cho threat-path learning → normalize avoidance-tagging
-    → §2.8 Consolidation: ngủ <7h = consolidation BỊ CẮT
-      → "Học mà không nhớ" → học THÊM → thiếu ngủ THÊM → vòng xoáy
-    → §3.3 3 ORIGIN: normalize Imposed chronic = cultural foundation
-      cho threat-dominant system
+    → §2.2 Direction: "suffer now, enjoy later" = cultural PERMISSION
+      for threat-path learning → normalizes avoidance-tagging
+    → §2.8 Consolidation: sleep <7h = consolidation CUT
+      → "Studying but not retaining" → study MORE → less sleep MORE → spiral
+    → §3.3 3 ORIGIN: normalizes chronic Imposed = cultural foundation
+      for a threat-dominant system
     → Compiled Quality (Compiled-Fresh.md v2.0 §3):
-      "khổ trước sướng sau" → threat-compiled dominant
-      chunks compile WITH avoidance-tag = "biết nhưng ghét"
+      "suffer now, enjoy later" → threat-compiled dominant
+      chunks compile WITH avoidance-tag = "knows but hates it"
     → Dissonance-Signal-Architecture v1.0:
-      chronic overwork = Direct-State Dissonance (hardware, cần rest)
-      culture nói "cố lên" = reframe Evaluative → NHƯNG Direct-State bị bỏ qua
+      chronic overwork = Direct-State Dissonance (hardware, needs rest)
+      culture says "push through" = reframing Evaluative → BUT Direct-State is ignored
     → Cortisol-Baseline.md v2.1: "moderate challenge" = good →
       "chronic suffering" = cortisol amplification shift
   → Self-Observation.md v1.0:
-    → "Khổ trước sướng sau" = cultural SUPPRESS cho body-state observation
+    → "Suffer now, enjoy later" = cultural SUPPRESSION of body-state observation
     → Self-Observation §9.6: threat-dominant life → observation = SURVIVAL mode
-      "observe để TRÁNH danger" thay vì "observe để HIỂU bản thân"
-    → "Chịu đựng = tốt" = cultural instruction to IGNORE body signals
-      → trực tiếp NGƯỢC Self-Observation cultivation (cần NOTICE, không IGNORE)
-    → Implication: Self-Observation training = NOVEL + COUNTER-CULTURAL ở VN
-      cần frame = TOOL (Self-Observation §9: Tool Not Virtue), không phải "yếu đuối"
+      "observe to AVOID danger" instead of "observe to UNDERSTAND oneself"
+    → "Endurance = good" = cultural instruction to IGNORE body signals
+      → directly OPPOSES Self-Observation cultivation (need to NOTICE, not IGNORE)
+    → Implication: Self-Observation training = NOVEL + COUNTER-CULTURAL in VN
+      needs framing as TOOL (Self-Observation §9: Tool Not Virtue), not "weakness"
 
 
 MECHANISM MAP: 🟡
-  → §2.2 Direction: (--) normalize threat-path → avoidance-tagged culture
-  → Foundation: (+) discipline → foundation basics strong
+  → §2.2 Direction: (--) normalizes threat-path → avoidance-tagged culture
+  → Foundation: (+) discipline → strong foundation basics
   → §2.5 Valley: (+) delayed gratification = valley navigation skill
-  → §2.8 Consolidation: (--) normalize sleep deprivation + overwork
-  → §3.3 3 ORIGIN: (--) cultural permission cho Imposed chronic
+  → §2.8 Consolidation: (--) normalizes sleep deprivation + overwork
+  → §3.3 3 ORIGIN: (--) cultural permission for chronic Imposed
 
 
-ĐANG ĐỔI? 🟡
+CHANGING? 🟡
 
-  → Nhận thức sức khỏe tâm thần TĂNG (chậm)
-  → Chính phủ siết học thêm (Circular 29/2024)
-  → NHƯNG: gốc rễ = thi cử + bằng cấp → chữa TRIỆU CHỨNG, chưa chữa NGUYÊN NHÂN
-  → Thay đổi VĂN HÓA = chậm hơn thay đổi chính sách RẤT NHIỀU
+  → Mental health awareness INCREASING (slowly)
+  → Government restricting private tutoring (Circular 29/2024)
+  → BUT: root cause = exams + credentials → treats SYMPTOMS, not CAUSE
+  → CULTURAL change = far slower than policy change
 
   Sources: PMC, vietnam.vn, ResearchGate
 ```
@@ -592,84 +593,85 @@ MECHANISM MAP: 🟡
 ### FACTOR 6: "BẰNG CẤP" — Credential Culture
 
 ```
-GỐC RỄ: 🟢
+ROOTS: 🟢
 
-  → Khoa cử triều đình (1075-1919): đỗ đạt → quan chức + địa vị
-  → "Mật độ elite từ thời khoa cử VẪN ảnh hưởng thành tích GD ngày nay"
-  → = Deep cultural DNA: BẰNG → STATUS → CƠ HỘI
-  → Nhiều con đường lấy bằng: chính quy, tại chức, mở rộng, từ xa
-  → Hierarchy giữa CÁC LOẠI BẰNG → cách lấy bằng QUAN TRỌNG bằng bằng đó
+  → Imperial examination system (1075-1919): pass exam → official position + status
+  → "Density of elite from the imperial era STILL influences VN educational achievement today"
+  → = Deep cultural DNA: DEGREE → STATUS → OPPORTUNITY
+  → Multiple pathways to get a degree: full-time, part-time, distance, extension
+  → Hierarchy among TYPES OF DEGREES → HOW you got the degree matters as much as the degree
 
   Sources: WENR 2017, ScienceDirect
 
 
-BIỂU HIỆN TRONG GIÁO DỤC: 🟢
+MANIFESTATION IN EDUCATION: 🟢
 
-  → "Mục đích chính của học chăm = ĐỂ THI ĐỖ" — learning = instrumental
+  → "Main purpose of studying hard = TO PASS THE EXAM" — learning = instrumental
   → DEGREE-COMPETENCE GAP:
-    → 61% SV thiếu kỹ năng làm việc
-    → 60% SV làm việc trái ngành
-    → 100K+ cử nhân thất nghiệp/năm
-  → "Siết [học thêm] vẫn nóng vì GỐC RỄ = THI CỬ + BẰNG CẤP"
+    → 61% of graduates lack work-ready skills
+    → 60% of graduates work outside their field
+    → 100K+ unemployed graduates/year
+  → "Cracking down [on private tutoring] remains contentious because
+    ROOT CAUSE = EXAMS + CREDENTIALS"
 
   Sources: PMC, British Council, WENR, ResearchGate
 
 
 POSITIVE: 🟡
 
-  → Drive enrollment CAO ở mọi cấp
-  → Credential = signal có giá trị khi chưa có cách khác đánh giá
+  → Drives HIGH enrollment at every level
+  → Credential = a valuable signal when no other evaluation mechanism exists
 
   → MECHANISM LENS:
-    → Credential = PROXY bridge cho depth (Mechanism v2.2 §2.9)
-    → Khi CHƯA CÓ depth assessment → credential = best available
-    → Vấn đề: credential = PROXY DUY NHẤT → replace actual depth
+    → Credential = PROXY bridge for depth (Mechanism v2.2 §2.9)
+    → When depth assessment is ABSENT → credential = best available
+    → Problem: credential becomes THE ONLY PROXY → replaces actual depth
 
 
 NEGATIVE: 🟡
 
   → Degree inflation + credential-chasing > genuine learning
-  → Skills gap KHỔNG LỒ giữa graduate output + employer needs
-  → "Sinh viên VN NHẬN THỨC mình thiếu kiến thức DÙ được dạy rất nhiều"
-  → Root cause của tutoring crisis: thi cử + bằng cấp
+  → MASSIVE skills gap between graduate output + employer needs
+  → "VN students PERCEIVE themselves as lacking knowledge DESPITE being taught a great deal"
+  → Root cause of the private tutoring crisis: exams + credentials
 
   → MECHANISM LENS:
     → §2.9 Depth: credential = surface proxy → ENTRENCHES surface learning
-    → §2.6 Imagine-Final: "lấy BẰNG" thay thế "trở thành AI?"
-    → §2.2 Direction: learning TO credential ≠ learning TO understand
-      → = Approach-path (understand) → avoidance-path (survive test)
+    → §2.6 Imagine-Final: "get a DEGREE" replaces "who am I becoming?"
+    → §2.2 Direction: learning TO get credentials ≠ learning TO understand
+      → = Approach-path (understand) → avoidance-path (survive the test)
     → Compiled Quality: credential culture → schema-compiled dominant
-      "thuộc bài để thi" = schema-compiled (neutral-tagged, không genuine)
+      "memorize lesson for the exam" = schema-compiled (neutral-tagged, not genuine)
     → Gap-Distribution-Profile v1.1:
-      millions chasing same credentials = gap HOMOGENIZATION
+      millions chasing the same credentials = gap HOMOGENIZATION
       → Expansion-Saturation-Crisis v1.3 pattern: credential inflation
-    → Mọi reform assessment sẽ BỊ CẢN bởi "cuối cùng vẫn cần BẰNG"
+    → All assessment reform will BE BLOCKED by "in the end you still need a DEGREE"
   → Trust.md v1.0 — TRUST GENERALIZATION CHAIN: 🟡
-    → Trust §7 ⑤: trust per-entity → spill across domains → apply AT SYSTEM SCALE:
-      trust GV → trust trường → trust HỆ THỐNG giáo dục → trust BẰNG CẤP
-    → Credential = compiled trust MARKER (proxy for "hệ thống đáng tin")
-    → Khi chain INTACT: bằng cấp = valid signal (trust system → trust output)
-    → Khi chain BROKEN (tham nhũng, bằng giả, dạy kém):
-      trust system COLLAPSE → credential trust COLLAPSE → "bằng = vô giá trị"
-    → VN hiện tại: chain ERODING (61% thiếu kỹ năng = evidence trust ≠ reality)
-      nhưng cultural inertia GIỮ trust pattern (844 năm khoa cử)
-    → = Factor ⑥ KHÔNG CHỈ credential culture → là TRUST SYSTEM culture
+    → Trust §7 ⑤: trust per-entity → spills across domains → applies AT SYSTEM SCALE:
+      trust teacher → trust school → trust EDUCATION SYSTEM → trust CREDENTIALS
+    → Credential = compiled trust MARKER (proxy for "system is trustworthy")
+    → When chain INTACT: credentials = valid signal (trust system → trust output)
+    → When chain BROKEN (corruption, fake degrees, poor teaching):
+      trust system COLLAPSE → credential trust COLLAPSE → "degree = worthless"
+    → VN currently: chain ERODING (61% lacking skills = evidence trust ≠ reality)
+      but cultural inertia HOLDS trust pattern (844 years of imperial examinations)
+    → = Factor ⑥ is NOT JUST credential culture → it is TRUST SYSTEM culture
 
 
 MECHANISM MAP: 🟡
   → §2.2 Direction: (-) learn-to-credential → avoidance-path
-  → §2.6 Imagine-Final: (-) "bằng" replaces genuine purpose
-  → §3.1 Bridge: (-) credential = permanent bridge (never phase out)
+  → §2.6 Imagine-Final: (-) "degree" replaces genuine purpose
+  → §3.1 Bridge: (-) credential = permanent bridge (never phases out)
   → §2.9 Depth: (--) surface enough for credential → entrenched
   → §2.8 Consolidation: (implicit) credential pressure → overwork
 
 
-ĐANG ĐỔI? 🟡
+CHANGING? 🟡
 
-  → Vietnamese Qualifications Framework → promote quality
-  → Employer demand tăng: analytical, digital, AI/ML
-  → NHƯNG: shift "bằng = giá trị" → "năng lực = giá trị" = RẤT CHẬM
-    → Vì gốc = 844 năm khoa cử
+  → Vietnamese Qualifications Framework → promotes quality
+  → Employer demand increasing: analytical, digital, AI/ML skills
+  → BUT: shift from "degree = value" → "competency = value" = VERY SLOW
+    → Because root = 844 years of imperial examinations
 
   Sources: UNESCO, World Bank, WENR
 ```
@@ -677,141 +679,144 @@ MECHANISM MAP: 🟡
 ### FACTOR 7: HIERARCHY + AGE-BASED RESPECT
 
 ```
-GỐC RỄ: 🟢
+ROOTS: 🟢
 
-  → Power Distance: 70/100 (Hofstede) = CAO
-  → Quân-Sư-Phụ: hierarchy RÕ RÀNG — ai trên, ai dưới
-  → Factor 7 CHỒNG LẤP với Factor 1 (teacher reverence) nhưng RỘNG hơn:
-    không chỉ GV mà MỌI MỐI QUAN HỆ
+  → Power Distance: 70/100 (Hofstede) = HIGH
+  → King-Teacher-Father: CLEAR hierarchy — who is above, who is below
+  → Factor 7 OVERLAPS with Factor 1 (teacher reverence) but BROADER:
+    not just teachers but ALL RELATIONSHIPS
 
   Sources: Racines Vietnam, ResearchGate, Taylor & Francis
 
 
-BIỂU HIỆN TRONG GIÁO DỤC: 🟢
+MANIFESTATION IN EDUCATION: 🟢
 
-  → Thắc mắc GV = KHÔNG PHÙ HỢP văn hóa
-  → "Truyền thống thứ bậc NGĂN CẢN văn hóa đặt câu hỏi"
-  → 57.8% HS sợ sai, 56.6% sợ trình bày ý tưởng kém
-  → Face-saving → HS không dám "phản biện trực tiếp"
+  → Questioning teachers = CULTURALLY INAPPROPRIATE
+  → "Hierarchical tradition PREVENTS a culture of questioning"
+  → 57.8% of students fear being wrong, 56.6% fear presenting weak ideas
+  → Face-saving → students don't dare to "directly challenge ideas"
 
   Sources: SciePub, PMC, Taylor & Francis, Springer
 
 
 POSITIVE: 🟡
 
-  → Lớp học trật tự, kỷ luật → giúp foundation
-  → Deep respect cho knowledge + learning
-  → Structure = bridge TYPE → phù hợp cho HS cần external bridge nhiều
+  → Orderly, disciplined classrooms → helps foundation
+  → Deep respect for knowledge + learning
+  → Structure = a type of bridge (Source ④) → useful for students needing more external bridge
 
   → MECHANISM LENS:
-    → Hierarchy = structure → useful bridge (nguồn ④) cho giai đoạn đầu
-    → NHƯNG: bridge CẦN rút dần (Mechanism v2.2 §3.1) → hierarchy không rút
+    → Hierarchy = structure → useful bridge (Source ④) in early stages
+    → BUT: bridge NEEDS to phase out (Mechanism v2.2 §3.1) → hierarchy doesn't phase out
 
 
 NEGATIVE: 🟡
 
-  → Suppress questioning, debate, intellectual challenge
-  → Tạo passive learners: reproduce > create
-  → "Chương trình nhấn mạnh rote memorization" > application
+  → Suppresses questioning, debate, intellectual challenge
+  → Creates passive learners: reproduce > create
+  → "Curriculum emphasizes rote memorization" > application
 
   → MECHANISM LENS:
-    → §2.7 Feedback: hierarchy → HS KHÔNG DÁM nêu "tôi khác" → calibration signal MUTED
-    → §2.2 Direction: authority → "thầy nói đúng" → không develop meta-learning
-    → §2.9 Depth: recognize + recall >> apply + create → stages ①② only
-    → §3.3 3 ORIGIN: hierarchy reinforces Imposed pathway → suppress Domain challenge
-    → Entity-Access v1.2: hierarchy ENTRENCHES Mức 2-3 formal access
-      HS không dám approach Mức 4 mentoring → calibration BỊ CẢN by culture
+    → §2.7 Feedback: hierarchy → students DON'T DARE say "I'm different" →
+      calibration signal MUTED
+    → §2.2 Direction: authority → "teacher is right" → meta-learning doesn't develop
+    → §2.9 Depth: recognize + recall >> apply + create → Stages ①② only
+    → §3.3 3 ORIGIN: hierarchy reinforces Imposed pathway → suppresses Domain challenge
+    → Entity-Access v1.2: hierarchy ENTRENCHES Level 2-3 formal access
+      Students don't dare approach Level 4 mentoring → calibration BLOCKED by culture
 
 
 MECHANISM MAP: 🟡
-  → §2.2 Direction: (-) authority → suppress questioning → threat-path
+  → §2.2 Direction: (-) authority → suppresses questioning → threat-path
   → Foundation: (+) structure + discipline → foundation
-  → §2.3 Per-hardware: (-) HS không dám nói "tôi khác" → signal muted
-  → §3.1 Bridge: (+) structure = useful bridge giai đoạn đầu
+  → §2.3 Per-hardware: (-) students don't dare say "I'm different" → signal muted
+  → §3.1 Bridge: (+) structure = useful bridge in early stages
   → §3.3 3 ORIGIN: (-) Imposed via authority reinforced
-  → §2.9 Depth: (--) passive → suppress deep + meta + creative
+  → §2.9 Depth: (--) passive → suppresses deep + meta + creative
 
 
-ĐANG ĐỔI? 🟡
+CHANGING? 🟡
 
-  → GDPT 2018: competence-based → student-centered
-  → "Thay đổi niềm tin + thực hành GV" = đang diễn ra
-  → NHƯNG: "Phong cách truyền thống VẪN DOMINANT"
+  → GDPT 2018: competency-based → student-centered
+  → "Changing teacher beliefs + practices" = underway
+  → BUT: "Traditional style is STILL DOMINANT"
 
   Sources: Taylor & Francis, Springer, PMC
 ```
 
-### FACTOR 8: ĐA DẠNG VÙNG MIỀN — Regional Diversity
+### FACTOR 8: REGIONAL DIVERSITY
 
 ```
-GỐC RỄ: 🟢
+ROOTS: 🟢
 
-  → 54 dân tộc, 3 vùng lớn, gradient đô thị-nông thôn
-  → BẮC (Hà Nội): Nho giáo, hierarchy, conservative
-  → NAM (TP.HCM): "không mang gánh nặng nghìn năm" → năng động, cởi mở
-  → TRUNG: nghèo nhất, thách thức hạ tầng + tiếp cận
-  → Chiến tranh VN: 2 hệ thống GD Bắc-Nam (1965-1975) → di sản khác biệt
+  → 54 ethnic groups, 3 major regions, urban-rural gradient
+  → NORTH (Hanoi): Confucianism, hierarchy, conservative
+  → SOUTH (HCMC): "doesn't carry the weight of a thousand years" → dynamic, open
+  → CENTRAL: poorest, infrastructure + access challenges
+  → Vietnam War: 2 North-South education systems (1965-1975) → different legacies
 
   Sources: Mekong Zigzag, MIT Press, Springer
 
 
-BIỂU HIỆN TRONG GIÁO DỤC: 🟢
+MANIFESTATION IN EDUCATION: 🟢
 
-  ĐÔ THỊ vs NÔNG THÔN:
-    → THPT enrollment: urban 82.4% vs rural 74.1%
-    → Chi GD gia đình urban = 3x rural
-    → Internet: richest 95% vs poorest 18%
+  URBAN vs RURAL:
+    → Upper secondary enrollment: urban 82.4% vs rural 74.1%
+    → Urban family education spending = 3x rural
+    → Internet at home: richest 95% vs poorest 18%
 
-  DÂN TỘC THIỂU SỐ (DTTS):
-    → 53 nhóm DTTS bên cạnh Kinh
-    → Dropout DTTS = 2x Kinh, late enrollment = 5x
-    → Literacy Hmong (15+): chỉ 54.3%
-    → Chỉ 5% DTTS dùng tiếng Việt ở nhà → rào cản ngôn ngữ
-    → 76% nói TẬP TỤC = factor mạnh nhất cản GD chính quy
+  ETHNIC MINORITIES:
+    → 53 ethnic minority groups alongside the Kinh majority
+    → Ethnic minority dropout = 2x Kinh, late enrollment = 5x
+    → Hmong literacy (15+): only 54.3%
+    → Only 5% of ethnic minorities use Vietnamese at home → language barrier
+    → 76% say CUSTOMS = strongest factor preventing formal education enrollment
 
-  BẮC vs NAM:
-    → Bắc: nhấn mạnh thành tích academic formal
-    → Nam: thực dụng hơn, hướng kinh doanh
+  NORTH vs SOUTH:
+    → North: emphasizes formal academic achievement
+    → South: more pragmatic, entrepreneurship-oriented
 
   Sources: Penn State, King's Think Tank, Borgen Project, Springer, PMC
 
 
 POSITIVE: 🟡
 
-  → Đa dạng = RICHNESS → nhiều cultural resources
-  → DTTS: kiến thức bản địa có giá trị
-  → VN = lab tự nhiên cho education → test nhiều method
+  → Diversity = RICHNESS → many cultural resources
+  → Ethnic minorities: indigenous knowledge has value
+  → VN = natural laboratory for education → can test many methods
 
   → MECHANISM LENS:
-    → Per-hardware (§2.3): diversity = CƠ HỘI calibrate per-group
-    → Mỗi vùng có hardware distribution KHÁC → cần approach KHÁC
+    → Per-hardware (§2.3): diversity = OPPORTUNITY to calibrate per-group
+    → Each region has a DIFFERENT hardware distribution → needs DIFFERENT approach
 
 
 NEGATIVE: 🟡
 
-  → Reform = ưu tiên urban → rural hưởng lợi SAU + ÍT
-  → DTTS: compound barriers (ngôn ngữ + khoảng cách + nghèo + tập tục)
-  → Reform CÓ THỂ TĂNG gap thay vì giảm
+  → Reforms prioritize urban → rural benefits LATER + LESS
+  → Ethnic minorities: compound barriers (language + distance + poverty + customs)
+  → Reform MAY WIDEN the gap instead of closing it
 
   → MECHANISM LENS:
-    → Foundation (Domain-Knowledge-Map v2.1 §1): 3M+ DTTS illiterate → foundation CHƯA CÓ
-    → §2.3: per-individual = IMPOSSIBLE khi chưa có language access
-    → = 2 VN education: (1) urban = "hệ thống có vấn đề"
-      (2) rural DTTS = "chưa có hệ thống đầy đủ"
+    → Foundation (Domain-Knowledge-Map v2.1 §1): 3M+ ethnic minority adults illiterate
+      → foundation NOT YET ESTABLISHED
+    → §2.3: per-individual = IMPOSSIBLE when language access isn't there yet
+    → = Two VN educations: (1) urban = "system with problems"
+      (2) rural ethnic minority = "no complete system yet"
 
 
 MECHANISM MAP: 🟡
-  → Foundation (Domain-Knowledge-Map v2.1 §1): (+/-) urban strong, DTTS = foundation chưa có
-  → §2.3 Per-hardware: (+/-) diversity = opportunity, nhưng one-size applied
+  → Foundation (Domain-Knowledge-Map v2.1 §1): (+/-) urban strong, ethnic minority =
+    foundation not yet established
+  → §2.3 Per-hardware: (+/-) diversity = opportunity, but one-size applied
   → §1.3 I×S: (-) gap widening → structural imbalance
 
 
-ĐANG ĐỔI? 🟡
+CHANGING? 🟡
 
-  → Chính sách ưu tiên DTTS (scholarship, boarding schools)
-  → Bilingual education cho một số nhóm
-  → Internet 79.1% toàn quốc → tăng dần ở rural
-  → NHƯNG: gap ĐANG MỞ RỘNG ở THPT
+  → Policies prioritizing ethnic minorities (scholarships, boarding schools)
+  → Bilingual education for some groups
+  → Internet 79.1% nationally → gradually increasing in rural areas
+  → BUT: gap IS WIDENING at the upper secondary level
 
   Sources: World Bank, PMC, King's Think Tank, Springer
 ```
@@ -821,207 +826,207 @@ MECHANISM MAP: 🟡
 ## 2. MAP: CULTURAL FACTOR × MECHANISM
 
 ```
-MỤC ĐÍCH:
-  → Mỗi factor interact với nguyên lý NÀO? Positive (+) hay negative (-)?
-  → = Bức tranh tổng thể: VĂN HÓA VN interact với Mechanism thế nào?
+PURPOSE:
+  → Which principles does each factor interact with? Positive (+) or negative (-)?
+  → = The big picture: how does VIETNAMESE CULTURE interact with the Mechanism?
   → 🟡 Framework analysis — mapping = derived judgment
 
-8 CỘT MECHANISM (consolidated từ §2 + §3 + §1):
+8 MECHANISM COLUMNS (consolidated from §2 + §3 + §1):
 
-  Dir   = Direction > Level (§2.2) — approach hay avoidance path?
-  Found = Foundation breadth (Domain-Knowledge-Map v2.1 §1) — giúp hay cản foundation?
-  Indiv = Per-hardware calibration (§2.3) — giúp hay cản per-individual?
-  ImgF  = Imagine-Final (§2.6) — giúp hay cản tự xây purpose?
-  Bridg = Bridge + 4 nguồn (§3.1-§3.4) — healthy hay unhealthy bridge?
-  3ORI  = 3 ORIGIN threat (§3.3) — Domain/Peer hay Imposed?
-  Depth = Depth assessment + meta-learning (§2.9) — deep hay surface?
+  Dir   = Direction > Level (§2.2) — approach or avoidance path?
+  Found = Foundation breadth (Domain-Knowledge-Map v2.1 §1) — helps or hinders foundation?
+  Indiv = Per-hardware calibration (§2.3) — helps or hinders per-individual?
+  ImgF  = Imagine-Final (§2.6) — helps or hinders self-building purpose?
+  Bridg = Bridge + 4 sources (§3.1-§3.4) — healthy or unhealthy bridge?
+  3ORI  = 3 ORIGIN threat (§3.3) — Domain/Peer or Imposed?
+  Depth = Depth assessment + meta-learning (§2.9) — deep or surface?
   I×S   = Individual × Society + ecosystem (§1.3+§1.4) — balanced?
 ```
 
 ```
-  (§refs = Education-Mechanism v2.2, trừ Found = Domain-Knowledge-Map v2.1 §1)
+  (§refs = Education-Mechanism v2.2, except Found = Domain-Knowledge-Map v2.1 §1)
   ┌───────────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐
   │ Factor    │ Dir │Found│Indiv│ImgF │Bridg│3ORI │Depth│ I×S │
   │           │§2.2 │ §1  │§2.3 │§2.6 │§3   │§3.3 │§2.9 │§1.3 │
   ├───────────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤
-  │①Tôn sư    │  -  │  +  │  -  │     │  +  │  -  │  -  │     │
-  │②Đổi đời   │ +/- │  +  │     │ +/- │  +  │  -  │     │  -  │
+  │①Reverence │  -  │  +  │  -  │     │  +  │  -  │  -  │     │
+  │②Transform │ +/- │  +  │     │ +/- │  +  │  -  │     │  -  │
   │③Collective│     │     │  -  │  -  │     │     │  -  │ +/- │
-  │④Gia đình   │  -  │     │  -  │  -  │  -  │ --  │     │ +/- │
-  │⑤Khổ/sướng │ --  │  +  │     │     │     │ --  │     │     │
-  │⑥Bằng cấp   │  -  │     │     │  -  │  -  │     │ --  │     │
+  │④Family    │  -  │     │  -  │  -  │  -  │ --  │     │ +/- │
+  │⑤Endurance │ --  │  +  │     │     │     │ --  │     │     │
+  │⑥Credential│  -  │     │     │  -  │  -  │     │ --  │     │
   │⑦Hierarchy │  -  │  +  │  -  │     │  +  │  -  │ --  │     │
-  │⑧Vùng miền │     │ +/- │ +/- │     │     │     │     │  -  │
+  │⑧Regional  │     │ +/- │ +/- │     │     │     │     │  -  │
   └───────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘
 
   LEGEND:
-    +   = factor GIÚP nguyên lý này (positive)
-    -   = factor CẢN TRỞ nguyên lý này (negative)
-    --  = factor CẢN TRỞ MẠNH (critical negative)
-    +/- = factor có cả 2 mặt
-    (blank) = ít ảnh hưởng trực tiếp
+    +   = factor HELPS this principle (positive)
+    -   = factor HINDERS this principle (negative)
+    --  = factor STRONGLY HINDERS (critical negative)
+    +/- = factor has both sides
+    (blank) = little direct influence
 
 
-ĐỌC THEO CỘT (per mechanism):
+READ BY COLUMN (per mechanism):
 
-  Direction (§2.2): 4 factors CẢN, 2 MẠNH (④⑤)
-    → VN culture NORMALIZE threat-path → avoidance-tagged learning
-    → = Mechanism v2.2 §2.2 violate ĐƯỢC VĂN HÓA SUPPORT
+  Direction (§2.2): 4 factors HINDER, 2 strongly (④⑤)
+    → VN culture NORMALIZES threat-path → avoidance-tagged learning
+    → = Mechanism v2.2 §2.2 violation IS CULTURALLY SUPPORTED
 
-  Found (Foundation): 4 factors GIÚP (①②⑤⑦)
-    → Discipline + drive + structure → foundation STRONG
+  Foundation: 4 factors HELP (①②⑤⑦)
+    → Discipline + drive + structure → STRONG foundation
     → = VN's GREATEST CULTURAL ASSET for education
 
-  Per-hardware calibration (§2.3): 4 factors CẢN (①③④⑦)
-    → Authority + collectivism + family + hierarchy → suppress individual
-    → = Per-hardware calibration KHÓ NHẤT cho VN (cultural barrier)
+  Per-hardware calibration (§2.3): 4 factors HINDER (①③④⑦)
+    → Authority + collectivism + family + hierarchy → suppresses the individual
+    → = Per-hardware calibration is the HARDEST for VN (cultural barrier)
 
-  Imagine-Final (§2.6): 3 factors CẢN (②③④)
-    → External + narrow + family-driven → Imagine-Final sai
-    → = 60% trái ngành = cultural-driven outcome
+  Imagine-Final (§2.6): 3 factors HINDER (②③④)
+    → External + narrow + family-driven → wrong Imagine-Final
+    → = 60% working outside field = culturally-driven outcome
 
-  Bridge (§3): MIXED — ①⑦ GIÚP structure, ②④⑥ CẢN = permanent
+  Bridge (§3): MIXED — ①⑦ HELP with structure, ②④⑥ HINDER = permanent
     → Trust + hierarchy = useful bridge platform
-    → NHƯNG: guilt + credential + drive = permanent bridge → never rút
+    → BUT: guilt + credential + drive = permanent bridge → never phases out
 
   3 ORIGIN (§3.3): 3 factors REINFORCE Imposed (④⑤⑦)
-    → Family guilt + "khổ trước sướng sau" + hierarchy
-    → = Culture creates PERMISSION STRUCTURE cho Imposed threat chronic
-    → = v7.8 INSIGHT: không chỉ "cortisol cao" → "Imposed dominant"
+    → Family guilt + "suffer now enjoy later" + hierarchy
+    → = Culture creates PERMISSION STRUCTURE for chronic Imposed threat
+    → = v7.8 INSIGHT: not just "high cortisol" → "Imposed dominant"
 
-  Depth (§2.9): 3 factors CẢN (③⑥⑦), 2 MẠNH (⑥⑦)
-    → Collectivism + credential + hierarchy → surface entrenched
-    → = System + Culture + Assessment ĐỀU reinforce surface learning
+  Depth (§2.9): 3 factors HINDER (③⑥⑦), 2 strongly (⑥⑦)
+    → Collectivism + credentials + hierarchy → surface entrenched
+    → = System + Culture + Assessment ALL reinforce surface learning
 
-  Individual × Society (§1.3): 3 factors CẢN (②④⑧)
-    → Drive + family + vùng miền → society >>> individual
+  Individual × Society (§1.3): 3 factors HINDER (②④⑧)
+    → Drive + family + regional → society >>> individual
     → = Structural imbalance
 
 
-ĐỌC THEO HÀNG (per factor):
+READ BY ROW (per factor):
 
-  Factor ĐA CHIỀU NHẤT: ②Đổi đời, ⑧Vùng miền — có cả + và -
-  Factor POSITIVE NHẤT: KHÔNG CÓ factor nào thuần positive
-  Factor NEGATIVE NHẤT: ⑥Bằng cấp (4 cột bị cản, 0 được giúp)
-  Factor MẠNH NHẤT: ⑤Khổ/sướng + ④Gia đình (critical negative cho Direction + 3 ORIGIN)
+  MOST MULTI-DIRECTIONAL factor: ②Transform life, ⑧Regional — has both + and -
+  MOST POSITIVE factor: NO single factor is purely positive
+  MOST NEGATIVE factor: ⑥Credential (4 columns hindered, 0 helped)
+  STRONGEST factor: ⑤Endurance + ④Family (critical negative for Direction + 3 ORIGIN)
 
 
 INSIGHT v2.0: 🟡
 
-  → VĂN HÓA VN = BẢO VỆ FOUNDATION + CẢN TRỞ DEPTH + PER-INDIVIDUAL
-  → = ĐÚNG với PISA data: Level 2+ (basics) VN > OECD,
+  → VIETNAMESE CULTURE = PROTECTS FOUNDATION + HINDERS DEPTH + PER-INDIVIDUAL
+  → = CONSISTENT with PISA data: Level 2+ (basics) VN > OECD,
     Level 5+ (depth) VN << OECD
 
-  → v7.8 INSIGHT MỚI: Culture × 3 ORIGIN:
-    → 3 factors (④⑤⑦) ACTIVELY tạo permission cho Imposed threat chronic
-    → = Không phải "áp lực xảy ra" → mà "văn hóa CHO PHÉP áp lực Imposed"
-    → = Root cause sâu hơn "cortisol cao": direction SAI + Imposed dominant
+  → v7.8 NEW INSIGHT: Culture × 3 ORIGIN:
+    → 3 factors (④⑤⑦) ACTIVELY create permission for chronic Imposed threat
+    → = Not "pressure just happens" → "culture PERMITS Imposed pressure"
+    → = Root cause deeper than "high cortisol": direction WRONG + Imposed dominant
 
-  → v7.8 INSIGHT MỚI: Culture × Direction:
-    → 4/8 factors CẢN approach-path (①④⑤⑦)
+  → v7.8 NEW INSIGHT: Culture × Direction:
+    → 4/8 factors HINDER approach-path (①④⑤⑦)
     → = Culture entrenches threat-path learning
-    → = "Biết nhưng ghét" = CULTURAL outcome, không chỉ systemic
+    → = "Knows but hates it" = CULTURAL outcome, not just systemic
 
-  → Nguyên lý bị CẢN NHIỀU NHẤT: Per-hardware (4 factors), Direction (4 factors)
-    → Per-individual + approach-path = 2 nguyên lý KHÓ NHẤT cho VN
-  → Nguyên lý được GIÚP NHIỀU NHẤT: Foundation (4 factors)
+  → Most HINDERED principle: Per-hardware (4 factors), Direction (4 factors)
+    → Per-individual + approach-path = the 2 HARDEST principles for VN
+  → Most HELPED principle: Foundation (4 factors)
     → Foundation = VN's greatest cultural asset
 
   NEW CONCEPT DIMENSIONS (v2.1): 🟡
     → Hardware-Subsidy × Culture:
-      ①Tôn sư = cultural AMPLIFIER (+), ④Gia đình = MAX but CORRUPTED (-),
-      ⑤Khổ/sướng = subsidy INVERTED to threat (-)
+      ①Reverence = cultural AMPLIFIER (+), ④Family = MAX but CORRUPTED (-),
+      ⑤Endurance = subsidy INVERTED to threat (-)
     → Entity-Access × Culture:
-      ①Tôn sư + ⑦Hierarchy = Mức 3-4 FORMAL by default
-      = Cultural barrier cho genuine Mức 4 mentoring
+      ①Reverence + ⑦Hierarchy = Level 3-4 FORMAL by default
+      = Cultural barrier to genuine Level 4 mentoring
     → Compiled Quality × Culture:
-      ⑤Khổ/sướng → threat-compiled, ⑥Bằng cấp → schema-compiled,
-      ②Đổi đời → threat risk. Genuine-compiled = culturally RARE
+      ⑤Endurance → threat-compiled, ⑥Credential → schema-compiled,
+      ②Transform → threat risk. Genuine-compiled = culturally RARE
     → Connection-Education × Culture:
-      ③Collectivism face-saving = barrier 4/5 connection khía cạnh
+      ③Collectivism face-saving = barrier to 4/5 connection dimensions
     → Gap-Distribution-Profile × Culture:
-      ⑥Bằng cấp = credential inflation → gap HOMOGENIZATION
+      ⑥Credential = credential inflation → gap HOMOGENIZATION
     → Trust × Culture (v2.2): 🟡
-      ①Tôn sư = Trust §7 ⑥ Social Norm Install → trust+valence CÙNG GÓI (+)
-      ⑥Bằng cấp = Trust Generalization chain → credential = trust marker (-)
-      ④Gia đình = Trust depth 5/5 nguồn → guilt = VERY effective (-)
-      ⑦Hierarchy = Trust-authority STRUCTURAL → suppress Phase 3 calibration (-)
+      ①Reverence = Trust §7 ⑥ Social Norm Install → trust+valence BUNDLED (+)
+      ⑥Credential = Trust Generalization chain → credential = trust marker (-)
+      ④Family = Trust depth 5/5 sources → guilt = VERY effective (-)
+      ⑦Hierarchy = Trust-Authority STRUCTURAL → suppresses Phase 3 calibration (-)
       → VN = HIGH trust DEFAULT + LOW trust CALIBRATION capacity
     → Self-Observation × Culture (v2.2): 🟡
       ③Collectivism = Self-Observation vocabulary LIMITED (face-saving)
-      ⑤Khổ/sướng = SUPPRESS body-state observation (counter-cultivation)
-      ①⑦ Authority/Hierarchy = suppress honest signal → observation MUTED
+      ⑤Endurance = SUPPRESSES body-state observation (counter-cultivation)
+      ①⑦ Authority/Hierarchy = suppresses honest signal → observation MUTED
       → Self-Observation = culturally NOVEL → needs sensitive framing as TOOL
 ```
 
 ---
 
-## 3. LEVERAGE POINTS — VĂN HÓA LÀ STRENGTH CÓ THỂ DÙNG
+## 3. LEVERAGE POINTS — CULTURE AS USABLE STRENGTH
 
 ```
-MỤC ĐÍCH:
-  → Văn hóa = KHÔNG THỂ XÓA (và KHÔNG NÊN xóa)
-  → CẦN: dùng cultural strengths làm PLATFORM cho cải thiện
-  → = "Chơi bài TỪ TAY MÌNH CÓ" thay vì "ước tay khác"
-  → 🟡 Framework analysis — strategic, chưa validated
+PURPOSE:
+  → Culture = CANNOT BE ERASED (and SHOULD NOT be erased)
+  → NEEDED: use cultural strengths as PLATFORM for improvement
+  → = "Play the hand you're DEALT" instead of "wish for a different hand"
+  → 🟡 Framework analysis — strategic, not yet validated
 ```
 
 ```
 LEVERAGE 1: TEACHER TRUST → TEACHER AS CALIBRATOR
 
-  Cultural asset: HS TIN GV (92% xã hội tôn trọng)
-  Barrier thường gặp: ở nhiều nước, GV phải BUILD trust trước
-  VN: trust ĐÃ CÓ SẴN → skip bước khó nhất
+  Cultural asset: Students TRUST teachers (92% societal respect)
+  Common barrier: in many countries, teachers must BUILD trust first
+  VN: trust ALREADY EXISTS → skip the hardest step
 
-  → Nếu GV shift từ "knowledge source" → "calibrator"
+  → If teacher shifts from "knowledge source" → "calibrator"
     (Education-System v3.2 §7):
-    → HS TIN → accept observation + guidance
-    → Per-hardware calibration (Mechanism v2.2 §2.3) CÓ THỂ work ở VN
-      NHƯNG cần GV BIẾT calibrate
+    → Students TRUST → accept observation + guidance
+    → Per-hardware calibration (Mechanism v2.2 §2.3) CAN work in VN
+      BUT teachers need to KNOW HOW to calibrate
   → Action: Teacher training → calibration skills
-    → 1.25M GV sẵn sàng (97% hài lòng + 91% chọn nghề)
-    → Chỉ cần add SKILLS, không cần build MOTIVATION
+    → 1.25M teachers ready (97% satisfied + 91% chose the profession)
+    → Only need to add SKILLS, no need to build MOTIVATION
 
   → Trust.md v1.0 formal lens: 🟡
-    → VN teacher trust = Trust §7 mechanism ⑥ (Social Norm Install) output
-    → 92% = trust-authority STRUCTURAL + trust-intention INSTALLED
-    → Calibration insight: trust PLATFORM đã có → chỉ cần shift CONTENT
-      (từ "trust teacher = listen passively" → "trust teacher = accept calibration")
+    → VN teacher trust = output of Trust §7 mechanism ⑥ (Social Norm Install)
+    → 92% = Trust-Authority STRUCTURAL + Trust-Intention INSTALLED
+    → Calibration insight: trust PLATFORM already exists → only need to shift CONTENT
+      (from "trust teacher = listen passively" → "trust teacher = accept calibration")
     → Trust §5 Phase 2: students in Default Operation → FUNCTIONAL for learning
-    → Risk: nếu trust collapse (GV abuse) → rebuild RẤT CHẬM (Trust §4 asymmetry)
+    → Risk: if trust collapses (teacher abuse) → rebuild IS VERY SLOW (Trust §4 asymmetry)
 
-  → Priority: ★★★★★ (cao nhất)
-    Feasibility: ★★★☆☆ (cần investment + time)
+  → Priority: ★★★★★ (highest)
+    Feasibility: ★★★☆☆ (requires investment + time)
 
 
-LEVERAGE 2: FAMILY INVOLVEMENT → REDIRECT, KHÔNG CẦN BUILD
+LEVERAGE 2: FAMILY INVOLVEMENT → REDIRECT, NO NEED TO BUILD
 
-  Cultural asset: Gia đình THAM GIA CỰC CAO
-  VN: involvement ĐÃ CÓ → chỉ cần REDIRECT
+  Cultural asset: Family involvement is EXTREMELY HIGH
+  VN: involvement ALREADY EXISTS → only need to REDIRECT
 
-  → Redirect nguồn ④ External Inject (Mechanism v2.2 §3.1):
-    → Từ: "ép con học" (Imposed threat) → "thiết kế environment" (safe base)
-    → Từ: "chọn ngành cho con" (inject Imagine-Final)
-      → "giúp con khám phá hardware" (support nguồn ① self-build)
-    → Từ: "so sánh con nhà người ta" (Imposed)
-      → "observe con MÌNH" (Domain exposure)
+  → Redirect Source ④ External Inject (Mechanism v2.2 §3.1):
+    → From: "forcing child to study" (Imposed threat) → "designing environment" (safe base)
+    → From: "choosing career for child" (injecting Imagine-Final)
+      → "helping child explore their hardware" (supporting Source ① self-build)
+    → From: "comparing to other people's children" (Imposed)
+      → "observing THIS child" (Domain exposure)
   → = Education-System v3.2 §8 (parent as environment designer)
 
-  → Priority: ★★★★★ (cao nhất)
-    Feasibility: ★★★★☆ (qua school-parent programs, media)
+  → Priority: ★★★★★ (highest)
+    Feasibility: ★★★★☆ (through school-parent programs, media)
 
 
-LEVERAGE 3: "ĐỔI ĐỜI" DRIVE → MỞ RỘNG IMAGINE-FINAL
+LEVERAGE 3: "TRANSFORM LIFE" DRIVE → EXPAND IMAGINE-FINAL
 
-  Cultural asset: Drive "đổi đời" = MẠNH
-  Problem: NARROW (chỉ = bằng + việc + tiền) + EXTERNAL (nguồn ④)
+  Cultural asset: "Transform life" drive = STRONG
+  Problem: NARROW (only = degree + job + money) + EXTERNAL (Source ④)
 
-  → Giữ ENERGY (drive), đổi DIRECTION (broader)
-  → Mở rộng Imagine-Final quality (Imagine-Final-Evaluation.md):
-    → Từ "Mismatch" (Domain ✓ + Hardware ✗) → "Sweet Spot" (Domain ✓ + Hardware ✓)
-    → "Đổi đời BẰNG CÁCH phù hợp hardware MÌNH"
-  → Transition nguồn: ④ (gia đình inject) → ① (PFC self-build)
-  → Không xóa "đổi đời" → REDEFINE "đổi đời"
+  → Keep the ENERGY (drive), change the DIRECTION (broaden)
+  → Expand Imagine-Final quality (Imagine-Final-Evaluation.md):
+    → From "Mismatch" (Domain ✓ + Hardware ✗) → "Sweet Spot" (Domain ✓ + Hardware ✓)
+    → "Transform your life BY fitting your hardware"
+  → Source transition: ④ (family inject) → ① (PFC self-build)
+  → Don't erase "transform life" → REDEFINE "transform life"
 
   → Priority: ★★★★☆
     Feasibility: ★★★☆☆ (cultural shift = slow)
@@ -1029,123 +1034,123 @@ LEVERAGE 3: "ĐỔI ĐỜI" DRIVE → MỞ RỘNG IMAGINE-FINAL
 
 LEVERAGE 4: DELAYED GRATIFICATION → REDIRECT APPLICATION
 
-  Cultural asset: VN children develop delayed gratification SỚM
-  = Valley navigation skill (Mechanism v2.2 §2.5) — VN có sẵn!
-  Problem: áp dụng QUÁ ĐÁNG (chronic, không balance)
+  Cultural asset: VN children develop delayed gratification EARLY
+  = Valley navigation skill (Mechanism v2.2 §2.5) — VN children already have it!
+  Problem: applied EXCESSIVELY (chronic, no balance)
 
-  → Giữ SKILL (navigate valley), đổi APPLICATION:
-    → Từ: "chịu khổ 12 năm → ĐH" (chronic threat-path)
-    → Tới: "chịu khó ĐÚNG LIỀU → deep learning" (approach-path with grit)
-  → Reframe qua Mechanism v2.2 §2.8: "nghỉ ngơi = PHẦN CỦA HỌC"
-    → Discipline = do the RIGHT THING ở right TIME
-    → Overwork = do MORE of whatever → diminishing returns + damage
+  → Keep the SKILL (navigate the valley), change the APPLICATION:
+    → From: "endure 12 years → university" (chronic threat-path)
+    → To: "work hard at THE RIGHT DOSE → deep learning" (approach-path with grit)
+  → Reframe through Mechanism v2.2 §2.8: "rest = PART OF LEARNING"
+    → Discipline = doing the RIGHT THING at the RIGHT TIME
+    → Overwork = doing MORE of whatever → diminishing returns + damage
 
   → Priority: ★★★☆☆
-    Feasibility: ★★☆☆☆ (cultural reframe = rất khó, rất chậm)
+    Feasibility: ★★☆☆☆ (cultural reframe = very hard, very slow)
 
 
 LEVERAGE 5: COLLECTIVISM → PEER LEARNING + COMMUNITY
 
-  Cultural asset: VN = collectivist → group dynamics MẠNH
-  Problem: collectivism = "mọi người giống nhau"
+  Cultural asset: VN = collectivist → strong group dynamics
+  Problem: collectivism = "everyone the same"
 
-  → Redirect: "mỗi người KHÁC + ĐÓNG GÓP KHÁC cho nhóm"
-  → Qua Mechanism v2.2 §2.3: mỗi HS đóng góp TỪ HARDWARE CỦA MÌNH
+  → Redirect: "each person IS DIFFERENT + CONTRIBUTES DIFFERENTLY to the group"
+  → Through Mechanism v2.2 §2.3: each student contributes FROM THEIR OWN HARDWARE
   → Community = ecosystem channel (Education-System v3.2 §9)
-  → Balance I×S (Mechanism v2.2 §1.3): "tôi đóng góp cho nhóm BẰNG THẾ MẠNH CỦA TÔI"
-  → 3 ORIGIN: peer learning = increase healthy Peer exposure (Type 2)
+  → Balance I×S (Mechanism v2.2 §1.3): "I contribute to the group FROM MY STRENGTHS"
+  → 3 ORIGIN: peer learning = increases healthy Peer exposure (Type 2)
 
   → Priority: ★★★☆☆
-    Feasibility: ★★★☆☆ (qua classroom practice, GV facilitate)
+    Feasibility: ★★★☆☆ (through classroom practice, teacher facilitation)
 ```
 
 ---
 
-## 4. RISK POINTS — VĂN HÓA ĐANG CẢN TRỞ
+## 4. RISK POINTS — WHERE CULTURE IS BLOCKING PROGRESS
 
 ```
-MỤC ĐÍCH:
-  → Nhận diện cultural factors đang GÂY DAMAGE lớn nhất
-  → ⚠️ "Cản trở" ≠ "xấu" → = cần REFRAME, không cần XÓA
+PURPOSE:
+  → Identify cultural factors causing the MOST DAMAGE
+  → ⚠️ "Blocking" ≠ "bad" → = needs REFRAMING, not ERASING
   → 🟡 Framework analysis
 ```
 
 ```
-RISK 1 [CRITICAL]: IMPOSED THREAT CHRONIC — VĂN HÓA CHO PHÉP
+RISK 1 [CRITICAL]: CHRONIC IMPOSED THREAT — CULTURE PERMITS IT
 
-  v7.8 REFRAME: không chỉ "cortisol chồng chất" → "Imposed ORIGIN dominant"
+  v7.8 REFRAME: not just "accumulated cortisol" → "Imposed ORIGIN dominant"
 
-  Cultural factors tham gia (3 ORIGIN §3.3 lens):
-    ④ Gia đình → guilt = Imposed threat chronic ("bố mẹ vất vả")
-    ⑤ "Khổ trước sướng sau" → normalize Imposed chronic = CULTURAL PERMISSION
-    ② "Đổi đời" → stakes CAO → failure = Imposed ("phản bội gia đình")
-    ③ Collectivism → so sánh = Imposed ("con nhà người ta")
-    ⑥ Bằng cấp → thi cử = mục tiêu duy nhất → Imposed stakes
+  Cultural factors involved (3 ORIGIN §3.3 lens):
+    ④ Family → guilt = chronic Imposed threat ("we sacrifice for you")
+    ⑤ "Suffer now enjoy later" → normalizes chronic Imposed = CULTURAL PERMISSION
+    ② "Transform life" → high stakes → failure = Imposed ("betraying the family")
+    ③ Collectivism → comparison = Imposed ("other people's children")
+    ⑥ Credential → exams = only goal → Imposed stakes
 
-  = 5/8 cultural factors CREATE PERMISSION cho Imposed threat chronic
-  = KHÔNG phải 1 source → MANY sources → CHỒNG CHẤT → chronic
+  = 5/8 cultural factors CREATE PERMISSION for chronic Imposed threat
+  = NOT 1 source → MANY sources → PILE UP → chronic
 
   v7.8 INSIGHT: 🟡
-    → TRƯỚC: "cần giảm cortisol" (level)
-    → SAU: "cần đổi ORIGIN" (direction)
-    → Cùng cortisol level: Domain moderate → resilience
+    → BEFORE: "need to reduce cortisol" (level)
+    → AFTER: "need to change ORIGIN" (direction)
+    → Same cortisol level: Domain moderate → resilience
       | Imposed moderate → learned helplessness
-    → VN: Imposed dominant → chunks compile AVOIDANCE-TAG
-    → + Sleep deprived → cortisol amplification không recovery
+    → VN: Imposed dominant → chunks compile with AVOIDANCE-TAGS
+    → + Sleep-deprived → cortisol amplification without recovery
     → Dissonance-Signal-Architecture v1.0:
-      cultural Imposed = Evaluative (compiled: "thi trượt = xấu hổ")
-      + Direct-State (hardware: sleep dep, cortisol chronic) = COMPOUND
-      culture cho phép COMPOUND → address Direct-State TRƯỚC (rest)
-    → → 22.8% trầm cảm, 26.3% ý tưởng tự tử = CONSEQUENCE
+      cultural Imposed = Evaluative (compiled: "failing exam = shame")
+      + Direct-State (hardware: sleep deprivation, chronic cortisol) = COMPOUND
+      culture permits COMPOUND → address Direct-State FIRST (rest)
+    → → 22.8% depression, 26.3% suicidal ideation = CONSEQUENCE
 
-  ⚠️ KHÔNG THỂ sửa chỉ bằng chính sách GD → CẦN CULTURAL NARRATIVE shift
+  ⚠️ CANNOT be fixed with education policy alone → NEEDS CULTURAL NARRATIVE shift
 
 
-RISK 2 [HIGH]: PASSIVE LEARNING — VĂN HÓA REINFORCES
+RISK 2 [HIGH]: PASSIVE LEARNING — CULTURE REINFORCES IT
 
   Cultural factors:
-    ① Tôn sư → HS không dám hỏi → suppress §2.7 Feedback loop
-    ⑦ Hierarchy → authority = unquestionable → suppress §2.2 approach-path
-    ③ Collectivism → face-saving → sợ sai → suppress honest signal
-    ⑥ Bằng cấp → learn TO TEST → suppress §2.9 Depth
+    ① Teacher reverence → students don't dare question → suppresses §2.7 Feedback loop
+    ⑦ Hierarchy → authority = unquestionable → suppresses §2.2 approach-path
+    ③ Collectivism → face-saving → fear of being wrong → suppresses honest signals
+    ⑥ Credential → learn TO TEST → suppresses §2.9 Depth
 
   = 4/8 factors REINFORCE passive learning
-  = Direction (§2.2) + Depth (§2.9) bị CẢN ĐỒNG THỜI
+  = Direction (§2.2) + Depth (§2.9) SIMULTANEOUSLY HINDERED
 
-  → 57.8% sợ sai + 56.6% sợ ý tưởng kém = MAJORITY passive
-  → PISA Level 5+: 1% Đọc hiểu (vs OECD 7%) = depth KHÔNG phát triển
+  → 57.8% fear being wrong + 56.6% fear weak ideas = MAJORITY passive
+  → PISA Level 5+: 1% Reading (vs OECD 7%) = depth NOT developing
 
-  → CONFLICT: Chính sách muốn active (GDPT 2018) ↔ Văn hóa muốn harmony
-  → Giải pháp: KHÔNG xóa hierarchy → REDEFINE: "tôn sư = tôn HƯỚNG DẪN"
+  → CONFLICT: Policy wants active learning (GDPT 2018) ↔ Culture wants harmony
+  → Solution: DON'T erase hierarchy → REDEFINE: "respect teacher = respect GUIDANCE"
 
 
-RISK 3 [HIGH]: FORCED-FIT AT SCALE — VĂN HÓA DRIVE
+RISK 3 [HIGH]: FORCED-FIT AT SCALE — CULTURE DRIVES IT
 
   Cultural factors:
-    ② "Đổi đời" → narrow Imagine-Final (chỉ = bằng + việc)
-    ③ Collectivism → career = family decision → nguồn ④ inject
-    ④ Gia đình → PH chọn hướng → hardware ignored
-    ⑥ Bằng cấp → chọn BẰNG, không chọn phù hợp
+    ② "Transform life" → narrow Imagine-Final (only = degree + job)
+    ③ Collectivism → career = family decision → Source ④ inject
+    ④ Family → parents choose direction → hardware ignored
+    ⑥ Credential → choose DEGREE, not fit
 
   = 4/8 factors CONTRIBUTE to Forced-Fit
-  = 60% SV trái ngành = EVIDENCE at population scale
+  = 60% of graduates working outside field = EVIDENCE at population scale
 
   → MECHANISM LENS: Forced-Fit = hardware ≠ direction
   → Imagine-Final-Evaluation.md: "Mismatch" quadrant dominant at scale
-  → Per-hardware calibration (§2.3) = ANTIDOTE → nhưng 4 cultural factors cản
+  → Per-hardware calibration (§2.3) = ANTIDOTE → but 4 cultural factors block it
 
 
-RISK 4 [STRUCTURAL]: WIDENING GAP — VĂN HÓA CHÊNH LỆCH
+RISK 4 [STRUCTURAL]: WIDENING GAP — CULTURAL DISPARITY
 
-  Cultural factor: ⑧ Vùng miền diversity
-  → DTTS: compound barriers không thể giải quyết bằng 1 policy
-  → Reform ưu tiên urban Kinh → gap MỞ RỘNG
-  → 3M+ illiterate → Foundation (Domain-Knowledge-Map v2.1 §1) CHƯA CÓ
+  Cultural factor: ⑧ Regional Diversity
+  → Ethnic minorities: compound barriers cannot be solved by a single policy
+  → Reforms prioritize urban Kinh → gap WIDENS
+  → 3M+ illiterate → Foundation (Domain-Knowledge-Map v2.1 §1) NOT YET ESTABLISHED
 
-  → = 2 VN education:
-    (1) Urban Kinh: "hệ thống có vấn đề nhưng functional"
-    (2) Rural DTTS: "chưa có hệ thống đầy đủ"
-  → Mọi phân tích trong file này CHỦ YẾU ÁP DỤNG cho (1)
+  → = Two VN educations:
+    (1) Urban Kinh: "system with problems but functional"
+    (2) Rural ethnic minority: "no complete system yet"
+  → All analysis in this file MAINLY APPLIES to (1)
 ```
 
 ---
@@ -1153,136 +1158,137 @@ RISK 4 [STRUCTURAL]: WIDENING GAP — VĂN HÓA CHÊNH LỆCH
 ## 5. HONEST ASSESSMENT
 
 ```
-GIỚI HẠN CỦA PHÂN TÍCH NÀY:
+LIMITATIONS OF THIS ANALYSIS:
 
   ① OUTSIDER PERSPECTIVE:
-    → Framework = built từ brain mechanism → ÁP DỤNG vào VN culture
-    → Risk: framework BIAS → thấy culture = "problem" thay vì CONTEXT
-    → Chưa validated bởi: GV VN, PH VN, HS VN, nhà văn hóa VN
+    → Framework = built from brain mechanisms → APPLIED to VN culture
+    → Risk: framework BIAS → sees culture as "problem" instead of CONTEXT
+    → Not yet validated by: VN teachers, VN parents, VN students, VN cultural scholars
 
   ② STEREOTYPING RISK:
-    → 8 factors = GENERALIZATIONS → thực tế phức tạp hơn RẤT NHIỀU
-    → Không phải MỌI gia đình VN đều "ép con"
-    → Không phải MỌI GV VN đều "lecture-dominant"
-    → File nói về PATTERNS, không phải INDIVIDUALS
+    → 8 factors = GENERALIZATIONS → reality is far more complex
+    → Not EVERY Vietnamese family "pushes their child"
+    → Not EVERY VN teacher is "lecture-dominant"
+    → This file speaks about PATTERNS, not INDIVIDUALS
 
   ③ URBAN KINH BIAS:
-    → Phần lớn research = urban, Kinh majority
-    → DTTS, rural = under-represented trong data
-    → Experience of 14% dân số (ethnic minorities) CÓ THỂ rất khác
+    → Most research = urban, Kinh majority
+    → Ethnic minorities, rural = under-represented in data
+    → Experience of 14% of the population (ethnic minorities) MAY be very different
 
   ④ POSITIVE FRAMING GAP:
-    → File có thể thiên NEGATIVE vì focus vào interaction với mechanism
-    → Cultural factors cũng LÀ NGUYÊN NHÂN VN succeeds:
-      → PISA cao hơn GDP level → CULTURE là key driver
-      → Literacy 96%+ → CULTURE pushed education access
-      → GV hài lòng 97% → CULTURE respects teachers
-    → ĐỌC LẠI §3 (Leverage Points) để balance negative impression
+    → File may skew NEGATIVE because it focuses on interaction with mechanism
+    → Cultural factors are ALSO THE REASON VN succeeds:
+      → PISA above GDP level → CULTURE is a key driver
+      → 96%+ literacy → CULTURE pushed education access
+      → Teachers 97% satisfied → CULTURE respects teachers
+    → RE-READ §3 (Leverage Points) to balance the negative impression
 
   ⑤ FRAMEWORK ≠ COMPLETE LENS:
-    → Education-Mechanism v2.2 focus on brain mechanism → education-centric
-    → Văn hóa ảnh hưởng NHIỀU hơn education: identity, belonging, spirituality
-    → File này CHỈ phân tích culture × education → hẹp hơn reality
+    → Education-Mechanism v2.2 focuses on brain mechanisms → education-centric
+    → Culture influences FAR MORE than education: identity, belonging, spirituality
+    → This file ONLY analyzes culture × education → narrower than reality
 
   ⑥ DYNAMIC vs STATIC:
-    → Văn hóa = LUÔN THAY ĐỔI → file này = snapshot
-    → Gen Z đang shift nhiều values → có thể outdated nhanh
+    → Culture = ALWAYS CHANGING → this file = a snapshot
+    → Gen Z is shifting many values → may become outdated quickly
 
 
 CONFIDENCE LEVELS:
 
   ┌──────────────────────────────────┬────────────┬─────────────────────┐
-  │ Phần                             │ Confidence │ Giải thích          │
+  │ Section                          │ Confidence │ Notes               │
   ├──────────────────────────────────┼────────────┼─────────────────────┤
-  │ §0 Hofstede dimensions          │ 🟢         │ Established data    │
-  │ §1 Cultural roots per factor    │ 🟢         │ Historical/sourced  │
-  │ §1 Manifestation in education   │ 🟢→🟡      │ Sourced + derived   │
-  │ §1 Positive/negative analysis   │ 🟡         │ Framework analysis  │
-  │ §1 Mechanism MAP per factor     │ 🟡         │ v2.0 derived mapping│
-  │ §2 Culture × Mechanism table    │ 🟡         │ Derived mapping     │
-  │ §3 Leverage points              │ 🟡→🔴      │ Strategic inference │
-  │ §4 Risk points                  │ 🟡         │ Pattern recognition │
-  │ §5 This section                 │ Meta       │                     │
+  │ §0 Hofstede dimensions           │ 🟢         │ Established data    │
+  │ §1 Cultural roots per factor     │ 🟢         │ Historical/sourced  │
+  │ §1 Manifestation in education    │ 🟢→🟡      │ Sourced + derived   │
+  │ §1 Positive/negative analysis    │ 🟡         │ Framework analysis  │
+  │ §1 Mechanism MAP per factor      │ 🟡         │ v2.0 derived mapping│
+  │ §2 Culture × Mechanism table     │ 🟡         │ Derived mapping     │
+  │ §3 Leverage points               │ 🟡→🔴      │ Strategic inference │
+  │ §4 Risk points                   │ 🟡         │ Pattern recognition │
+  │ §5 This section                  │ Meta       │                     │
   └──────────────────────────────────┴────────────┴─────────────────────┘
 
 
-THE VIETNAM PISA PARADOX — MỘT GHI CHÚ QUAN TRỌNG: 🟡
+THE VIETNAM PISA PARADOX — AN IMPORTANT NOTE: 🟡
 
-  Cùng cultural factors đang CẢN education (threat-path, hierarchy,
-  credential, pressure) CŨNG ĐỒNG THỜI DRIVE VN performance
-  vượt GDP level
+  The same cultural factors currently HINDERING education (threat-path, hierarchy,
+  credentials, pressure) SIMULTANEOUSLY DRIVE VN performance
+  above its GDP level
 
-  → "Khi control for socioeconomic background, HS VN perform
-    TƯƠNG ĐƯƠNG Hàn Quốc + Singapore" (ScienceDirect)
-  → = Cultural machinery driving ACHIEVEMENT = SAME machinery
-    driving MENTAL HEALTH CRISIS
+  → "When controlling for socioeconomic background, VN students perform
+    COMPARABLY to South Korea + Singapore" (ScienceDirect)
+  → = The cultural machinery driving ACHIEVEMENT = THE SAME machinery
+    driving the MENTAL HEALTH CRISIS
 
   → v7.8 REFRAME: machinery creates AVOIDANCE-TAGGED chunks at scale
     → PISA measures chunk EXISTENCE (Level 2+) → VN good
     → PISA measures chunk DEPTH (Level 5+) → VN poor
-    → = Chunks compile (foundation OK) nhưng compile với WRONG TAG
-    → = "Biết nhưng ghét" at population scale
+    → = Chunks compile (foundation OK) but compile with WRONG TAG
+    → = "Knows but hates it" at population scale
 
-  → KHÔNG THỂ xóa 1 mà giữ 1 → cần REFRAME + REBALANCE
-  → Core challenge: "Giữ DRIVE mà đổi DIRECTION"
+  → CANNOT erase one while keeping the other → need to REFRAME + REBALANCE
+  → Core challenge: "Keep the DRIVE while changing the DIRECTION"
 
   Sources: ScienceDirect, IZA Discussion Paper, CGDev
 
 
-KHUYẾN NGHỊ ĐỌC:
+READING RECOMMENDATION:
 
-  → ĐỌC NHƯ: "Văn hóa VN interact với education mechanism thế nào"
-  → KHÔNG ĐỌC NHƯ: "Văn hóa VN = vấn đề cần sửa"
-  → TIẾP THEO: VN-Recommendations.md → dùng leverage + address risk
+  → READ AS: "How Vietnamese culture interacts with education mechanisms"
+  → DO NOT READ AS: "Vietnamese culture = a problem to fix"
+  → NEXT: VN-Recommendations.md → use leverage + address risks
 ```
 
 ---
 
-## KẾT NỐI
+## CONNECTIONS
 
 ```
-FILE NÀY KẾT NỐI VỚI:
+THIS FILE CONNECTS TO:
 
-  ← INPUT (đã dùng):
+  ← INPUT (used in analysis):
 
-    TẦNG 3 — Research/Human-Learning/ ("bộ 3"):
-      Education-Mechanism.md v2.2 ⭐ — HOW: 8 nguyên lý + 12 new concepts (LENS §1)
+    TIER 3 — Research/Human-Learning/ ("Trio"):
+      Education-Mechanism.md v2.2 ⭐ — HOW: 8 principles + 12 new concepts (LENS §1)
       Domain-Knowledge-Map.md v2.1 — WHAT: 6 Foundation Domains (§1.3 breadth)
-      Connection-Education.md v1.1 ⭐NEW — WHO: 5 khía cạnh (§1 Factor 3)
+      Connection-Education.md v1.1 ⭐NEW — WHO: 5 dimensions (§1 Factor 3)
 
-    TẦNG 4 — Applications/Education-System/:
+    TIER 4 — Applications/Education-System/:
       Education-System.md v3.2 §7-§8 — teacher + parent roles (ENGINE/ROAD/VEHICLE)
       Hardware-Calibration.md v1.2 — per-individual calibration lens
 
-    TẦNG 5 — VN/:
+    TIER 5 — VN/:
       VN-Education-Status.md v2.1 §1 — Mechanism v2.1 evaluation → mapped to culture
 
     Core refs:
       Cortisol-Baseline.md v2.1 — amplifier reframe (§3.3 3 ORIGIN)
-      Imagine-Final-Evaluation.md v1.1 — 4 góc quality (Mismatch analysis)
+      Imagine-Final-Evaluation.md v1.1 — 4 quality corners (Mismatch analysis)
       Imagine-Final.md v3.0 — boundary reframe
-      Anchor-Schema.md — 4 nguồn fill (bridge analysis)
+      Anchor-Schema.md — 4 fill sources (bridge analysis)
 
     PFC-Body-Feedback:
       Entity-Valence-Dynamics.md v1.0 ⭐ — Hardware-Subsidy §5 (§1 F1,F4,F5)
       Dissonance-Signal-Architecture.md v1.0 ⭐NEW — Evaluative+Direct-State (§1 F5, §4)
 
     Agent-Entity:
-      Entity-Access.md v1.2 ⭐NEW — Mức 0-5 gradient (§1 F1,F7)
+      Entity-Access.md v1.2 ⭐NEW — Level 0-5 gradient (§1 F1,F7)
       Entity-Compiled.md v1.0 — 40→200h formation
 
     New-Concepts:
       Compiled-Fresh.md v2.0 — Compiled Quality Dimension (§1 F2,F5,F6)
       Gap-Distribution-Profile.md v1.1 — gap landscape (§1 F6)
 
-    v2.2 TRUST + SELF-OBSERVATION (Tầng 1):
+    v2.2 TRUST + SELF-OBSERVATION (Tier 1):
       Trust.md v1.0 ⭐NEW — §7 ⑥ Social Norm Install (F1), §3 trust depth (F4),
-        §7 ⑤ Trust Generalization chain (F6), §5 Default→Calibrated (F1), §9 power/status (§3 L1)
+        §7 ⑤ Trust Generalization chain (F6), §5 Default→Calibrated (F1),
+        §9 power/status (§3 L1)
       Self-Observation.md v1.0 ⭐NEW — §9 Tool Not Virtue (F5), §9.6 threat-dominant (F5),
         vocabulary + cultural barrier (F3), §2 INSIGHT
 
 
-  → OUTPUT (sẽ dùng file này):
+  → OUTPUT (files that use this one):
     VN-Recommendations.md:
       → §3 leverage points → priority actions
       → §4 risk points → barriers to address
@@ -1291,23 +1297,23 @@ FILE NÀY KẾT NỐI VỚI:
 
   KEY TAKEAWAYS TO CARRY FORWARD:
 
-    → VN culture = BẢO VỆ Foundation + CẢN Per-individual + Direction
-    → v7.8: culture creates PERMISSION STRUCTURE cho Imposed threat (5/8 factors)
+    → VN culture = PROTECTS Foundation + HINDERS Per-individual + Direction
+    → v7.8: culture creates PERMISSION STRUCTURE for Imposed threat (5/8 factors)
     → v7.8: culture NORMALIZES threat-path learning (4/8 factors Direction negative)
-    → PISA paradox: "biết nhưng ghét" = avoidance-tagged chunks at scale
+    → PISA paradox: "knows but hates it" = avoidance-tagged chunks at scale
     → NEW: Hardware-Subsidy × Culture: ①amplifier + ④corrupted + ⑤inverted
     → NEW: Compiled Quality × Culture: ⑤threat + ⑥schema + ②threat-risk → genuine RARE
     → NEW: Dissonance-Signal-Architecture: cultural Imposed = COMPOUND (Evaluative+Direct-State)
-    → Top leverage: teacher trust (①), family redirect (④), "đổi đời" expand (②)
-    → Top risk: Imposed chronic (5/8 factors), passive learning (4/8),
+    → Top leverage: teacher trust (①), family redirect (④), "transform life" expand (②)
+    → Top risk: chronic Imposed (5/8 factors), passive learning (4/8),
       Forced-Fit (4/8)
-    → Core challenge: "Giữ DRIVE mà đổi DIRECTION" — reframe, không xóa
-    → Factor ⑥ (bằng cấp) = ROOT CAUSE deepest → cản nhiều cột nhất,
-      giúp 0 + schema-compiled + gap homogenization → cần address nhưng RẤT KHÓ
+    → Core challenge: "Keep the DRIVE while changing the DIRECTION" — reframe, don't erase
+    → Factor ⑥ (credentials) = DEEPEST ROOT CAUSE → hinders the most columns,
+      helps 0 + schema-compiled + gap homogenization → needs addressing but VERY HARD
     → v2.2 Trust × Culture: HIGH trust DEFAULT + LOW trust CALIBRATION capacity
-      ①Tôn sư = Social Norm Install (+), ⑥Bằng cấp = Trust Generalization chain (-),
-      ④Gia đình = trust depth 5/5 nguồn (-), ⑦Hierarchy = suppress Phase 3 (-)
-    → v2.2 Self-Observation × Culture: culturally NOVEL → cần sensitive framing as TOOL
-      ③face-saving = vocabulary limited, ⑤khổ/sướng = SUPPRESS observation,
+      ①Reverence = Social Norm Install (+), ⑥Credential = Trust Generalization chain (-),
+      ④Family = trust depth 5/5 sources (-), ⑦Hierarchy = suppresses Phase 3 (-)
+    → v2.2 Self-Observation × Culture: culturally NOVEL → needs sensitive framing as TOOL
+      ③face-saving = vocabulary limited, ⑤endurance = SUPPRESSES observation,
       ①⑦ authority = observation MUTED
 ```

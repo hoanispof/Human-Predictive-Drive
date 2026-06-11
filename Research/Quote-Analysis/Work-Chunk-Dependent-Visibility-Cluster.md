@@ -4,12 +4,12 @@ version: 1.0
 created: 2026-05-23
 status: v1.0 COMPLETE
 scope: |
-  CLUSTER ANALYSIS: 3 quotes về knowledge, connection, và quality perception.
+  CLUSTER ANALYSIS: 3 quotes on knowledge, connection, and quality perception.
   "The more I know..." (Socrates) + "You can't connect the dots..." (Jobs 2005)
-  + "Mặt lưng cái tủ" (Paul Jobs / Steve Jobs).
-  = 3 CHIỀU của CÙNG 1 principle: "Chưa biết = không có gap" (Gap-Direction §3).
-  Framework giải mã: convergent concept "Chunk-Dependent Visibility" —
-  CÁI BẠN THẤY phụ thuộc HOÀN TOÀN vào CÁI BẠN ĐÃ COMPILE.
+  + "You'll know it's there" (Paul Jobs / Steve Jobs).
+  = 3 DIMENSIONS of the SAME 1 principle: "No knowledge = no gap" (Gap-Direction §3).
+  Framework decodes: convergent concept "Chunk-Dependent Visibility" —
+  WHAT YOU SEE depends ENTIRELY on WHAT YOU HAVE COMPILED.
   ① Intellectual: more chunks → more gaps visible → "know nothing" (Socrates)
   ② Temporal: no future chunks → connections invisible (Jobs)
   ③ Quality: quality chunks compiled → hidden quality visible (Paul Jobs)
@@ -17,26 +17,26 @@ scope: |
   + Series convergence: direction tag (Cluster 1) → quality gate (Cluster 2)
   → chunk-dependent visibility (Cluster 3).
 purpose: |
-  5 entries trước: Goal+Why, Hungry+Foolish, Move Fast,
+  Previous 5 entries: Goal+Why, Hungry+Foolish, Move Fast,
   Adversity/Fear cluster (direction tag), Think+Act+Become cluster (quality gate).
-  File NÀY: CLUSTER analysis — 3 quotes là 3 CHIỀU của CÙNG 1 principle.
+  THIS file: CLUSTER analysis — 3 quotes that are 3 DIMENSIONS of the SAME 1 principle.
   Unique: cluster reveals ONE FOUNDATIONAL PRINCIPLE underneath 3 surface wisdoms.
-  "Chưa biết = không có gap" → 4 applications (intellectual, temporal, quality, meta).
-  = Mỗi cluster thêm 1 "biến ẩn" → Cluster 3 thêm "visibility constraint."
+  "No knowledge = no gap" → 4 applications (intellectual, temporal, quality, meta).
+  = Each cluster adds 1 "hidden variable" → Cluster 3 adds "visibility constraint."
 position: |
-  Research/Quote-Analysis/ — ngang hàng Work-Adversity-Fear-Cluster.md,
+  Research/Quote-Analysis/ — parallel to Work-Adversity-Fear-Cluster.md,
   Work-Think-Act-Become-Cluster.md.
 dependencies:
   Gap-Direction:
-    - Gap-Direction.md v2.0 — §1 Definition, §2 Proof, §3 "Chưa biết = không có gap", §4 4 Properties, §7 Formation + §7.5 Oscillation, §9 Background-Pattern constraint, §10 Abstract×Body-Base
+    - Gap-Direction.md v2.0 — §1 Definition, §2 Proof, §3 "No knowledge = no gap", §4 4 Properties, §7 Formation + §7.5 Oscillation, §9 Background-Pattern constraint, §10 Abstract×Body-Base
   Background-Pattern:
-    - Background-Pattern.md v2.0 — §1 Definition, §3 Formation (tích lũy + gist extraction), §4 Sleep=Accelerator, §5 PFC invisible (7 reasons), §6 Triple Bias, §6.3 Self-fulfilling prophecy, §8 Cortisol self-reinforcing
+    - Background-Pattern.md v2.0 — §1 Definition, §3 Formation (accumulation + gist extraction), §4 Sleep=Accelerator, §5 PFC invisible (7 reasons), §6 Triple Bias, §6.3 Self-fulfilling prophecy, §8 Cortisol self-reinforcing
   Imagine-Final:
     - Imagine-Final.md v3.0 — §1 Hardware vs Constructive boundary, §3 PFC=Extension NOT source, §5 Lifecycle 5 Phases (Phase 3 Background Processing), §6 Gradient+Bootstrap, §9 Reflection vs Rumination
   Schema:
-    - Schema.md v2.0 — §4 Depth gradient, §6 PFC observe chunks → label, §6.3 Người khác thấy pattern, §8 Body baseline = ground truth
+    - Schema.md v2.0 — §4 Depth gradient, §6 PFC observe chunks → label, §6.3 Others see the pattern, §8 Body baseline = ground truth
   Hidden-Quality:
-    - Hidden-Quality-Perception.md v1.0 — §1 Core mechanism, §1.2 Gibson Differentiation, §1.3 3-Tầng, §1.5 Compiled/Fresh Double Blindness, §2 Type 1 Expert, §4 Copier vs Expert, §5 Dunning-Kruger
+    - Hidden-Quality-Perception.md v1.0 — §1 Core mechanism, §1.2 Gibson Differentiation, §1.3 3-Layer, §1.5 Compiled/Fresh Double Blindness, §2 Type 1 Expert, §4 Copier vs Expert, §5 Dunning-Kruger
   PFC:
     - PFC-Operations.md v1.0 — §5 Compiled Quality, §9 PFC Budget
   Body:
@@ -47,7 +47,7 @@ dependencies:
   Application:
     - Ask-AI.md v3.1 — §6.1 Dual Check (body + domain reality)
     - Gratitude.md v1.0 — appreciation of compiled base
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
@@ -57,26 +57,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 >
 > Socrates: "The more I know, the more I realize I know nothing"
 > Steve Jobs (2005): "You can't connect the dots looking forward"
-> Paul Jobs / Steve Jobs: "You'll know it's there" (mặt lưng cái tủ)
+> Paul Jobs / Steve Jobs: "You'll know it's there" (the back of the cabinet)
 >
-> Mainstream treats chúng như 3 wisdom nuggets ĐỘC LẬP.
-> Thực tế: cả 3 là 3 CHIỀU của CÙNG 1 principle.
+> Mainstream treats them as 3 independent wisdom nuggets.
+> Reality: all 3 are 3 DIMENSIONS of the SAME 1 principle.
 >
-> "Chưa biết = không có gap" (Gap-Direction §3):
-> — KHÔNG CÓ chunks → KHÔNG CÓ bờ → KHÔNG CÓ hole → body IM LẶNG.
+> "No knowledge = no gap" (Gap-Direction §3):
+> — NO chunks → NO borders → NO holes → body SILENT.
 >
-> Socrates: chunks TĂNG → bờ TĂNG → holes LỘ RA → "know nothing."
-> Jobs: chunks CHƯA TỒN TẠI → không có bờ → connections VÔ HÌNH.
-> Paul Jobs: chunks quality COMPILED → hidden quality VISIBLE → "you'll know."
+> Socrates: chunks INCREASE → borders INCREASE → holes EXPOSED → "know nothing."
+> Jobs: chunks DON'T YET EXIST → no borders → connections INVISIBLE.
+> Paul Jobs: quality chunks COMPILED → hidden quality VISIBLE → "you'll know."
 >
-> Dunning-Kruger = META-APPLICATION: ít chunks → ít gaps → overconfident.
+> Dunning-Kruger = META-APPLICATION: fewer chunks → fewer gaps → overconfident.
 >
-> CÁI BẠN THẤY = CÁI BẠN ĐÃ COMPILE.
-> Không hơn. Không kém.
+> WHAT YOU SEE = WHAT YOU HAVE COMPILED.
+> Nothing more. Nothing less.
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §0 — 3 QUOTES: SOURCE + VERIFICATION + OVERSIMPLIFICATION
 - §1 — LOGICAL RELATIONSHIP: 3 DIMENSIONS OF 1 PRINCIPLE
@@ -104,11 +104,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   QUOTE 1 — Socrates:
     Exact: "The more I know, the more I realize I know nothing"
     Source: FLOATING ATTRIBUTION.
-      Gần nhất: Plato, Apology 21d-23b — Socrates nói mình khôn hơn
-      người khác CHỈ VÌ biết mình không biết.
-      "Scio me nihil scire" = Latin paraphrase, KHÔNG phải Socratic Greek.
-      Câu chữ chính xác = modern interpretation.
-    Context: Socrates bị kết tội (399 BCE). Bào chữa.
+      Closest match: Plato, Apology 21d-23b — Socrates says he is wiser than others
+      ONLY BECAUSE he knows he does not know.
+      "Scio me nihil scire" = Latin paraphrase, NOT Socratic Greek.
+      Exact wording = modern interpretation.
+    Context: Socrates on trial (399 BCE). His defense speech.
     Attribution confidence: 🟡 Philosophy real, exact phrasing paraphrased.
 
   QUOTE 2 — Steve Jobs:
@@ -116,8 +116,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       connect them looking backwards. So you have to trust that the
       dots will somehow connect in your future."
     Source: VERIFIED. Stanford Commencement Address, June 12, 2005.
-      Story 1: Drop out Reed College → calligraphy class → Mac typography.
-    Context: Jobs 50 tuổi, đã được chẩn đoán ung thư, looking back on life.
+      Story 1: Dropped out of Reed College → calligraphy class → Mac typography.
+    Context: Jobs at 50, already diagnosed with cancer, looking back on life.
     Attribution confidence: 🟢 Verified, exact transcript available.
 
   QUOTE 3 — Paul Jobs / Steve Jobs:
@@ -126,35 +126,35 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       it faces the wall and nobody will ever see it. You'll know it's there,
       so you're going to use a beautiful piece of wood on the back."
     Source: SEMI-VERIFIED.
-      Steve Jobs kể lại lời cha nhiều lần.
+      Steve Jobs retold his father's words many times.
       Walter Isaacson biography (2011) + "Triumph of the Nerds" (1995).
-      Paul Jobs's exact words = likely paraphrased qua con trai.
-    Context: Paul Jobs dạy con trai khi cùng làm đồ gỗ.
+      Paul Jobs's exact words = likely paraphrased through his son.
+    Context: Paul Jobs teaching his son while building furniture together.
     Attribution confidence: 🟡 Jobs SAID it. Paul Jobs's exact words uncertain.
-    Deep analysis: Hidden-Quality-Perception.md v1.0 (1,738L).
+    Deep analysis: Hidden-Quality-Perception.md v1.0 (1,738 lines).
 
-  TỔNG: 1 verified, 1 semi-verified, 1 floating = 1-2/3.
+  TOTAL: 1 verified, 1 semi-verified, 1 floating = 1-2/3.
   Series: Cluster 1 (2/5), Cluster 2 (0/2), Cluster 3 (1-2/3).
 ```
 
-### §0.2 — Oversimplification khi dùng đơn lẻ
+### §0.2 — Oversimplification When Used in Isolation
 
 ```
-⭐ MỖI QUOTE BỊ OVERSIMPLIFY CÙNG KIỂU — CẮT MECHANISM:
+⭐ ALL 3 QUOTES ARE OVERSIMPLIFIED THE SAME WAY — THE MECHANISM IS CUT:
 
-  Quote 1 thường dùng: "Phải khiêm tốn."
-    Cắt mất: TẠI SAO biết nhiều → thấy mình không biết (mechanism)
-    Cắt mất: KHI NÀO humility → learned helplessness (failure mode)
+  Quote 1 commonly used as: "Be humble."
+    Cuts: WHY knowing more → feeling you know nothing (mechanism)
+    Cuts: WHEN humility → learned helplessness (failure mode)
 
-  Quote 2 thường dùng: "Đừng lo, đời sẽ tự sắp xếp."
-    Cắt mất: TẠI SAO không thể nhìn trước (chunk architecture)
-    Cắt mất: KHI NÀO trust → passivity (privilege + survivorship bias)
+  Quote 2 commonly used as: "Don't worry, life will work itself out."
+    Cuts: WHY you can't see forward (chunk architecture)
+    Cuts: WHEN trust → passivity (privilege + survivorship bias)
 
-  Quote 3 thường dùng: "Phải cẩn thận, chất lượng là số 1."
-    Cắt mất: TẠI SAO expert thấy mà copier không (chunks, not character)
-    Cắt mất: KHI NÀO chất lượng ẩn → perfectionism (cost blindness)
+  Quote 3 commonly used as: "Be careful, quality is everything."
+    Cuts: WHY the expert sees what the copier doesn't (chunks, not character)
+    Cuts: WHEN hidden quality → perfectionism (cost blindness)
 
-  = 3 quotes bị social compression CÙNG KIỂU:
+  = 3 quotes compressed by social media in the SAME WAY:
     Keep: observation (WHAT happens)
     Drop: mechanism (WHY), failure mode (WHEN WRONG)
   = Framework task: restore mechanism + identify failure modes
@@ -165,30 +165,31 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §1 — LOGICAL RELATIONSHIP: 3 DIMENSIONS OF 1 PRINCIPLE
 
 ```
-⭐⭐ CẢ 3 QUOTES = 3 APPLICATIONS CỦA "CHƯA BIẾT = KHÔNG CÓ GAP":
+⭐⭐ ALL 3 QUOTES = 3 APPLICATIONS OF "NO KNOWLEDGE = NO GAP":
 
   Gap-Direction §3.1 — Foundational Principle:
 
     Chunks_related_to_X = ∅ → Gap_about_X = IMPOSSIBLE
-    "Bạn KHÔNG THỂ thiếu thứ bạn không biết tồn tại."
+    "You CANNOT lack something you don't know exists."
 
   3 APPLICATIONS:
 
   ┌──────────────────────────────────────────────────────────────────┐
   │                                                                  │
-  │  ① INTELLECTUAL (Socrates) — chiều KHÔNG GIAN:                  │
+  │  ① INTELLECTUAL (Socrates) — SPATIAL dimension:                  │
   │                                                                  │
-  │     Chunks tăng → bờ tăng → holes LỘ RA → gaps visible          │
+  │     Chunks increase → borders increase → holes EXPOSED → gaps    │
+  │     visible                                                       │
   │     = Gap landscape EXPANDS with knowledge                       │
   │     = "The more I know, the more gaps I see"                     │
   │                                                                  │
-  │  ② TEMPORAL (Jobs 2005) — chiều THỜI GIAN:                      │
+  │  ② TEMPORAL (Jobs 2005) — TIME dimension:                        │
   │                                                                  │
-  │     Future chunks CHƯA TỒN TẠI → không bờ → không holes          │
+  │     Future chunks DON'T YET EXIST → no borders → no holes        │
   │     = Gap landscape has TEMPORAL ASYMMETRY                       │
   │     = "Can't see what hasn't been built yet"                     │
   │                                                                  │
-  │  ③ QUALITY (Paul Jobs) — chiều SÂU:                             │
+  │  ③ QUALITY (Paul Jobs) — DEPTH dimension:                        │
   │                                                                  │
   │     Quality chunks compiled → quality gaps VISIBLE → body signal │
   │     Quality chunks absent → gaps IMPOSSIBLE → body SILENT        │
@@ -197,36 +198,37 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                                                                  │
   │  DUNNING-KRUGER = META across all three:                         │
   │                                                                  │
-  │     Novice: gap landscape HẸP → sees little → overconfident      │
-  │     Expert: gap landscape RỘNG → sees much → humble              │
-  │     = "Chưa biết = không có gap" applied to SELF-ASSESSMENT      │
+  │     Novice: gap landscape NARROW → sees little → overconfident   │
+  │     Expert: gap landscape WIDE → sees much → humble              │
+  │     = "No knowledge = no gap" applied to SELF-ASSESSMENT         │
   │                                                                  │
   └──────────────────────────────────────────────────────────────────┘
 
   LOGICAL STRUCTURE:
 
-                  "Chưa biết = không có gap"
+                  "No knowledge = no gap"
                   (Gap-Direction §3.1)
                             │
         ┌───────────────────┼───────────────────┐
         │                   │                   │
    ① SPATIAL          ② TEMPORAL          ③ DEPTH
    (Socrates)         (Jobs 2005)         (Paul Jobs)
-   Chunks CÓ →        Chunks CHƯA CÓ →    Chunks quality →
-   gaps LỘ            connections ẨN       quality VISIBLE
+   Chunks EXIST →     Chunks DON'T EXIST  Chunks quality →
+   gaps EXPOSED       → connections       quality VISIBLE
+                        INVISIBLE
         │                   │                   │
         └───────────────────┼───────────────────┘
                             │
                    DUNNING-KRUGER
                    (META-LEVEL)
-                   Gap landscape hẹp → tưởng biết đủ
-                   Gap landscape rộng → biết chưa đủ
+                   Narrow gap landscape → think you know enough
+                   Wide gap landscape → know you don't
 
-  TẠI SAO 1 FILE CLUSTER (không 3 files riêng):
-    ① Cùng foundational principle — 3 files lặp lại mechanism
-    ② 2 quotes từ CÙNG NGƯỜI (Steve Jobs) — internal consistency
-    ③ Dunning-Kruger BRIDGE cả 3 — impossible to see in isolation
-    ④ Convergent concept "Chunk-Dependent Visibility" chỉ emerge khi nhìn 3 cùng lúc
+  WHY 1 CLUSTER FILE (not 3 separate files):
+    ① Same foundational principle — 3 files would repeat the mechanism
+    ② 2 quotes from the SAME PERSON (Steve Jobs) — internal consistency
+    ③ Dunning-Kruger BRIDGES all 3 — impossible to see in isolation
+    ④ Convergent concept "Chunk-Dependent Visibility" only emerges when viewing all 3 together
 
 🟡 3-dimension model = framework synthesis
 🟢 Individual quotes reference known phenomena
@@ -236,7 +238,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §2 — DECODE: SOCRATES — GAP LANDSCAPE EXPANSION
 
-### §2.1 — Mechanism: mỗi fill TẠO gaps mới
+### §2.1 — Mechanism: Each Fill CREATES New Gaps
 
 ```
 ⭐ GAP-DIRECTION §7.5 — OSCILLATION DYNAMICS:
@@ -245,58 +247,59 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   fill₂ → reward₂ + chunks₂ → detect new gap₃
   ...fillₙ → BREAKTHROUGH + detect NEXT-LEVEL gap
 
-  Mỗi "biết thêm" (fill gap) → chunks mới compile → network MỞ RỘNG
-  → detect inconsistencies CHƯA THẤY trước → gaps MỚI XUẤT HIỆN.
+  Each new thing learned (filling a gap) → new chunks compile → network EXPANDS
+  → detects inconsistencies NOT SEEN before → NEW gaps emerge.
 
-  Gap Direction §10.4 Einstein lifecycle = Socrates IN ACTION:
-    Phase 0: ít chunks → gap direction MỜ → "I know something"
-    Phase 1-3: mỗi mini-arc fill → new chunks → detect NEW gap
-    Phase 5: network CỰC LỚN → "unified field theory" → 30 năm unresolved
+  Gap-Direction §10.4 Einstein lifecycle = Socrates IN ACTION:
+    Phase 0: few chunks → gap direction VAGUE → "I know something"
+    Phase 1–3: each mini-arc fill → new chunks → detect NEW gap
+    Phase 5: network ENORMOUS → "unified field theory" → 30 years unresolved
 
-  = Knowledge LUÔN expand gap landscape NHANH HƠN fill rate.
-  = "Biết nhiều hơn" = "THẤY mình không biết nhiều hơn" = mathematical necessity.
+  = Knowledge ALWAYS expands the gap landscape FASTER than the fill rate.
+  = "Knowing more" = "SEEING more of what you don't know" = mathematical necessity.
 ```
 
-### §2.2 — Dunning-Kruger = framework prediction tự nhiên
+### §2.2 — Dunning-Kruger = Natural Framework Prediction
 
 ```
 ⭐ HIDDEN-QUALITY-PERCEPTION §5.2:
 
   ┌───────────────┬────────────┬──────────────┬──────────────────────┐
-  │ Chunk Level   │ Bờ (borders)│ Gaps visible │ Self-assessment      │
+  │ Chunk Level   │ Borders    │ Gaps visible │ Self-assessment      │
   ├───────────────┼────────────┼──────────────┼──────────────────────┤
-  │ Rất ít        │ Rất ít     │ ≈ 0          │ "Biết đủ" (62nd)    │
-  │ Trung bình    │ Trung bình │ Vừa          │ "Còn thiếu"         │
-  │ Nhiều         │ Rất nhiều  │ Rất nhiều    │ "Biết rất ít" (68th)│
-  │ Chuyên gia    │ Cực nhiều  │ Deep + wide  │ "Know almost nothing"│
+  │ Very few      │ Very few   │ ≈ 0          │ "Know enough" (62nd) │
+  │ Moderate      │ Moderate   │ Moderate     │ "Still missing"      │
+  │ Many          │ Very many  │ Many         │ "Know very little"   │
+  │               │            │              │ (68th)               │
+  │ Expert        │ Extensive  │ Deep + wide  │ "Know almost nothing"│
   └───────────────┴────────────┴──────────────┴──────────────────────┘
 
-  🟢 Kruger & Dunning 1999: bottom quartile (12th) → self-assess 62nd.
-     Top quartile (86th) → self-assess 68th. Asymmetry 3:1.
+  🟢 Kruger & Dunning 1999: bottom quartile (12th) → self-assess at 62nd.
+     Top quartile (86th) → self-assess at 68th. Asymmetry 3:1.
 
   Framework explanation:
-    Novice: territory nhìn thấy = NHỎ → biết hầu hết TRONG territory
-    → "tôi ok" (true locally, false globally).
-    Expert: territory nhìn thấy = LỚN → biết CHỈ 1 PHẦN territory
-    → "tôi chưa đủ" (true globally).
+    Novice: visible territory = SMALL → knows most WITHIN that territory
+    → "I'm fine" (true locally, false globally).
+    Expert: visible territory = LARGE → knows only A FRACTION of that territory
+    → "I'm not enough" (true globally).
 ```
 
-### §2.3 — Gap Direction §4: Specificity + Depth tăng theo knowledge
+### §2.3 — Gap-Direction §4: Specificity + Depth Increase with Knowledge
 
 ```
-🟡 SPECIFICITY TĂNG:
-  Beginner: "Tôi không biết gì về physics" → broad, vague ignorance
-  Expert: "Tôi không hiểu quantum gravity ở Planck scale" → precise ignorance
-  = Expert's ignorance CHÍNH XÁC HƠN beginner's ignorance.
+🟡 SPECIFICITY INCREASES:
+  Beginner: "I know nothing about physics" → broad, vague ignorance
+  Expert: "I don't understand quantum gravity at the Planck scale" → precise ignorance
+  = Expert's ignorance is MORE SPECIFIC than beginner's ignorance.
 
-🟡 DEPTH TĂNG:
-  Shallow gap: "something's off" → mild curiosity → dễ bỏ qua
+🟡 DEPTH INCREASES:
+  Shallow gap: "something's off" → mild curiosity → easy to dismiss
   Deep gap: Einstein's compound signal → CAN'T IGNORE → drives 30 years
-  = Expert's ignorance PAINFUL hơn (body signal stronger) → drives action.
+  = Expert's ignorance is MORE PAINFUL (body signal stronger) → drives action.
 
 🟡 DOUBLE IGNORANCE (Background-Pattern §5):
-  Tầng 1: gaps visible → "I see what I don't know"
-  Tầng 2: Background-Pattern invisible → "I don't know what I DO know"
+  Layer 1: gaps visible → "I see what I don't know"
+  Layer 2: Background-Pattern invisible → "I don't know what I DO know"
   = Socrates MORE right than he could realize:
     gaps EXPAND + articulated knowledge < actual knowledge.
 ```
@@ -305,21 +308,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §3 — DECODE: JOBS (2005) — TEMPORAL ASYMMETRY
 
-### §3.1 — Mechanism: Phase 3 Background Processing = "connecting dots"
+### §3.1 — Mechanism: Phase 3 Background Processing = "Connecting Dots"
 
 ```
 ⭐ IMAGINE-FINAL §5.2 — PHASE 3:
 
-  Khi PFC focus việc khác → vô thức KHÔNG dừng:
+  While PFC focuses on something else → the unconscious DOESN'T STOP:
     ① Sleep gist extraction (🟢 Payne 2009, Stickgold 2013)
     ② Spreading activation (🟢 Collins & Loftus 1975)
     ③ DMN processing (🟢 Raichle 2001, Buckner 2008)
-    ④ Body trigger random (đi tắm → eureka)
+    ④ Random body triggers (walking in the shower → eureka)
 
-  Jobs calligraphy → Mac typography:
-    Reed College 1973: chunks compile [serif, sans serif, kerning, beautiful typography]
+  Jobs's calligraphy → Mac typography:
+    Reed College 1973: chunks compile [serif, sans-serif, kerning, beautiful typography]
     Apple ~1984: chunks [computer interface] compile independently
-    Phase 3: typography chunks + interface chunks → LINK qua spreading activation
+    Phase 3: typography chunks + interface chunks → LINK via spreading activation
     Phase 4 Reload: Jobs "sees" connection → Mac typography
 
   Looking forward (1973 at Reed): typography chunks EXIST but Mac chunks DON'T
@@ -332,7 +335,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   = "Looking backward" = Phase 4 Reload (see what Phase 3 produced).
 ```
 
-### §3.2 — "Chưa biết = không có gap" × temporal dimension
+### §3.2 — "No Knowledge = No Gap" × Temporal Dimension
 
 ```
 ⭐ GAP-DIRECTION §3.1 APPLIED TEMPORALLY:
@@ -340,26 +343,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   FORWARD: future chunks = ∅ → no borders → no holes → no connections
   BACKWARD: past chunks EXIST → borders formed → connections TRACEABLE
 
-  = ASYMMETRY CƠ BẢN: chunk network chỉ visible cho CÁI ĐÃ COMPILE.
+  = FUNDAMENTAL ASYMMETRY: chunk network only visible for WHAT HAS ALREADY COMPILED.
 
-  Jobs nói "trust that dots will connect" — framework nói trust = JUSTIFIED:
+  Jobs says "trust that dots will connect" — framework says trust = JUSTIFIED:
     ① Gist extraction WILL process experiences (automatic, sleep-mediated)
     ② Spreading activation WILL find connections (automatic, energy-free)
     ③ DMN WILL run background simulations (~50% of waking time)
-    = "Connection" = default output of healthy chunk system → WILL happen.
+    = "Connection" = default output of a healthy chunk system → WILL happen.
     = Trust = RATIONAL, not mystical.
 
-  Imagine-Final §1.2 — constructive simulation CẦN chunks hiện có:
+  Imagine-Final §1.2 — constructive simulation REQUIRES existing chunks:
     → Hippocampus RETRIEVE + DMN RECOMBINE → novel scenario
     → Key constraint: can only RETRIEVE chunks that EXIST
     → Forward simulation = REMIX existing chunks → cannot predict NOVEL experiences
     = Like running a program before writing the code.
 
-  🟢 Hassabis et al. 2007: hippocampal amnesia → cannot imagine future
+  🟢 Hassabis et al. 2007: hippocampal amnesia → cannot imagine the future
   🟢 Schacter & Addis 2007: constructive episodic simulation
 ```
 
-### §3.3 — Background-Pattern creates probabilistic channels
+### §3.3 — Background-Pattern Creates Probabilistic Channels
 
 ```
 🟡 NUANCE JOBS MISSES — Background-Pattern §9.1:
@@ -367,7 +370,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Background-Pattern constrains WHICH dots "connect":
     Jobs's Background-Pattern: [technology + design + aesthetics + counterculture]
     → BIASED which experiences he sought → which chunks compiled
-    → Typography class KHÔNG random — PROBABILISTIC given his aesthetic Background-Pattern
+    → Calligraphy class was NOT random — PROBABILISTIC given his aesthetic Background-Pattern
 
   = "Dots connecting" is NOT purely random.
   = Background-Pattern creates channels → channels can be productive OR destructive.
@@ -377,7 +380,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Probabilistic channels = framework synthesis (Background-Pattern §9 + Gap-Direction §7)
 ```
 
-### §3.4 — Engine Use Quality: Jobs prescribes REFLECTION
+### §3.4 — Engine Use Quality: Jobs Prescribes REFLECTION
 
 ```
 🟡 IMAGINE-FINAL §9:
@@ -388,7 +391,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Opposite = RUMINATION mode:
     Threat direction → "what if nothing connects?" → CATASTROPHIZE → avoidance tag
 
-  = Cùng "can't see forward" + khác cortisol direction → khác outcome:
+  = Same "can't see forward" + different cortisol direction → different outcome:
     Reflection: uncertainty = ADVENTURE → acts → chunks compile → connections emerge
     Rumination: uncertainty = THREAT → freezes → fewer chunks → fewer connections
 
@@ -399,7 +402,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §4 — DECODE: PAUL JOBS — QUALITY VISIBILITY
 
-### §4.1 — Mechanism: "Chưa biết = không có gap" × quality
+### §4.1 — Mechanism: "No Knowledge = No Gap" × Quality
 
 ```
 ⭐ HIDDEN-QUALITY-PERCEPTION §1.1:
@@ -409,57 +412,57 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Body-feedback signal about X = DOES NOT FIRE
   → Quality aspect X = INVISIBLE to this person
 
-  Thợ mộc 15 năm (đi qua mọi layer):
-    Chunks: [gỗ cong 2mm/năm ở ẩm], [mối nối mộng đuôi én],
-            [keo PVA bong sau 5 năm], [mặt lưng → ẩm → mối mọt]
-    → Gap landscape RỘNG → body signal khi BẤT KỲ dimension lệch
-    → Body KHÔNG CHO PHÉP bỏ qua mặt lưng.
+  Carpenter with 15 years' experience (having moved through every layer):
+    Chunks: [wood warps 2mm/year in humidity], [dovetail joints],
+            [PVA glue delaminates after 5 years], [unfinished back → moisture → rot]
+    → Gap landscape WIDE → body signals when ANY dimension deviates
+    → Body DOES NOT ALLOW skipping the back panel.
 
-  Copier 6 tháng (theo manual):
-    Chunks: [bước 1 cắt], [bước 2 lắp], [bước 3 đánh bóng mặt trước]
-    → Gap landscape HẸP → body IM LẶNG khi mặt lưng kém
-    → VÌ chunks about back quality = ∅ → gap = IMPOSSIBLE.
+  Copier with 6 months' experience (following the manual):
+    Chunks: [step 1 cut], [step 2 assemble], [step 3 sand the front]
+    → Gap landscape NARROW → body SILENT when back panel quality is poor
+    → BECAUSE chunks about back quality = ∅ → gap = IMPOSSIBLE.
 
-  ⭐ KEY INSIGHT (§0.2): Đây KHÔNG phải "cẩn thận" vs "bất cẩn."
-  Đây là MECHANISM: CÓ chunks hay KHÔNG.
-  Người cẩn thận NHƯNG không có chunks → VẪN miss.
-  Người "bất cẩn" NHƯNG chunks phong phú → body VẪN signal.
+  ⭐ KEY INSIGHT (§0.2): This is NOT "careful" vs "careless."
+  This is a MECHANISM: having chunks or NOT.
+  A careful person WITHOUT chunks → STILL misses it.
+  A "careless" person WITH rich chunks → body STILL signals.
 ```
 
 ### §4.2 — Gibson Differentiation + Compiled/Fresh Double Blindness
 
 ```
 🟢 Gibson & Gibson 1955: perceptual learning = DIFFERENTIATION:
-  Stimulus LUÔN chứa ĐẦY ĐỦ information.
-  Experience làm perceiver TÁCH RA ĐƯỢC cái gì bên trong stimulus.
-  = "Mặt lưng cái tủ" LUÔN ở đó. Chunks QUYẾT ĐỊNH ai THẤY nó.
+  The stimulus ALWAYS contains COMPLETE information.
+  Experience allows the perceiver to DISTINGUISH what is inside the stimulus.
+  = "The back of the cabinet" is ALWAYS there. Chunks DETERMINE who SEES it.
 
 🟡 HIDDEN-QUALITY-PERCEPTION §1.5 — Compiled/Fresh DOUBLE BLINDNESS:
-  Expert: Compiled fires AUTOMATIC → "sai sai" → 200ms (🟢 Reingold 2001)
-  Copier: Compiled KHÔNG fire (no compiled patterns) + Fresh KHÔNG fire (PFC unaware)
-  = DOUBLE BLINDNESS: neither automatic NOR deliberate detect.
-  ≠ "biết nhưng chưa giỏi" (Compiled weak + Fresh compensate)
-  = "KHÔNG BIẾT CÓ GÌ ĐỂ BIẾT" (Compiled absent + Fresh absent)
+  Expert: Compiled fires AUTOMATICALLY → "something's wrong" → 200ms (🟢 Kundel & Nodine 1975)
+  Copier: Compiled DOESN'T FIRE (no compiled patterns) + Fresh DOESN'T FIRE (PFC unaware)
+  = DOUBLE BLINDNESS: neither automatic NOR deliberate detection.
+  ≠ "knows but not yet skilled" (Compiled weak + Fresh compensates)
+  = "DOESN'T KNOW THERE IS ANYTHING TO KNOW" (Compiled absent + Fresh absent)
 ```
 
-### §4.3 — "You'll know it's there" = Background-Pattern level
+### §4.3 — "You'll Know It's There" = Background-Pattern Level
 
 ```
 🟡 "YOU'LL KNOW" = Body KNOWS (Background-Pattern §2.2):
 
   Expert's quality standard = Background-Pattern:
-    → PFC KHÔNG articulate fully → "biết mà không nói được"
+    → PFC CANNOT fully articulate → "know but can't say why"
     → 🟢 Polanyi 1966: "We can know more than we can tell"
 
-  Body signal từ Background-Pattern → PFC receive nhưng KHÔNG access SOURCE.
-  VD: Thợ mộc: "Cái tủ này... không ổn." → "Tại sao?" → "Không biết."
-  → Kiểm tra: mối nối lỏng 0.5mm. Background-Pattern detected, PFC couldn't articulate.
+  Body signal from Background-Pattern → PFC receives but CANNOT access the SOURCE.
+  Example: Carpenter: "Something about this cabinet... isn't right." → "Why?" → "I don't know."
+  → Inspection: joint loose by 0.5mm. Background-Pattern detected it, PFC couldn't articulate.
 
   Quality Compounding (§4.2):
-    Hidden quality = LEADING indicator → detect TRƯỚC crisis.
-    Visible metrics = LAGGING indicator → detect SAU crisis.
-    Expert detect EARLY → fix nhỏ → maintained 20 năm.
-    Copier detect NEVER → compound → tủ B mối mọt năm 5.
+    Hidden quality = LEADING indicator → detects BEFORE crisis.
+    Visible metrics = LAGGING indicator → detects AFTER crisis.
+    Expert detects EARLY → small fix → maintained for 20 years.
+    Copier never detects → compounds → cabinet B has rot by year 5.
 ```
 
 ---
@@ -470,16 +473,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ CONVERGENT CONCEPT:
 
   "CHUNK-DEPENDENT VISIBILITY"
-  = CÁI BẠN THẤY ĐƯỢC phụ thuộc HOÀN TOÀN vào CÁI BẠN ĐÃ COMPILE.
+  = WHAT YOU CAN SEE depends ENTIRELY on WHAT YOU HAVE COMPILED.
 
   ROOT: gap direction = f(surrounding chunk network structure)
   → Visibility = f(compiled chunks)
-  → Không có chunks xung quanh = không có bờ = không có hole = body IM LẶNG.
+  → No surrounding chunks = no borders = no holes = body SILENT.
 
-  3 CHIỀU + META:
+  3 DIMENSIONS + META:
 
   ① More chunks → more gaps visible (Socrates)
-    = Knowledge EXPANDS frontier of ignorance.
+    = Knowledge EXPANDS the frontier of ignorance.
 
   ② No future chunks → connections invisible (Jobs)
     = Future gap landscape UNKNOWABLE.
@@ -488,12 +491,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = Perception depth = compilation depth.
 
   META: Dunning-Kruger across all three
-    = Gap landscape hẹp → tưởng biết đủ, thấy đủ, thấy đủ rõ.
+    = Narrow gap landscape → thinks it knows enough, sees enough, sees clearly enough.
 
   TEMPORAL VISIBILITY GRADIENT:
-    Past:    HIGH visibility → trace connections (Jobs backward)
+    Past:    HIGH visibility → trace connections (Jobs looking backward)
     Present: MODERATE → see current gaps (Socrates)
-    Future:  ZERO → can't predict gaps or connections (Jobs forward)
+    Future:  ZERO → can't predict gaps or connections (Jobs looking forward)
     Quality: PROPORTIONAL to compilation depth (Paul Jobs)
 
   SERIES CONVERGENCE (3 clusters):
@@ -516,7 +519,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ② You can't shortcut the quality gate (body must confirm)
     ③ You can only perceive what you've compiled to perceive
 
-  = 3 structural constraints of compilation architecture
+  = 3 structural constraints of the compilation architecture
     that surface-level wisdom misses.
 
 🟡 Convergent concept = framework synthesis across 3 quotes + 3 clusters
@@ -528,12 +531,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §6 — THE MISSING MIDDLE
 
 ```
-⭐ CÁI CẢ 3 QUOTES ĐỀU BỎ QUA:
+⭐ WHAT ALL 3 QUOTES OVERLOOK:
 
-  ① BODY'S ROLE:
+  ① THE BODY'S ROLE:
     Socrates: "realize" = PFC label → body FEELS gaps (Somatic-Articulation-Loop)
     Jobs: "trust" = attitude → body PROCESSES via sleep (gist extraction, PHYSICAL)
-    Paul Jobs: "know it's there" = closest to body → nhưng framed as "knowing" not "feeling"
+    Paul Jobs: "know it's there" = closest to body → but framed as "knowing" not "feeling"
     All 3 miss: gap awareness is FELT (body signals), not just KNOWN (PFC labels).
 
   ② DOMAIN FEEDBACK = ARBITER (Ask-AI §6.1):
@@ -567,33 +570,33 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §7.1 — Quote 1 Failure Modes (Socrates)
 
 ```
-  F1.1 LEARNED HELPLESSNESS: "know nothing" + threat → stop learning.
+  F1.1 LEARNED HELPLESSNESS: "know nothing" + threat direction → stop learning.
     Mechanism: threat cortisol → avoidance tag → compiled avoidance → STOP.
 
-  F1.2 PERFORMANCE HUMILITY: "tôi không biết gì" = social signal, not felt.
-    Test: sau khi nói → bạn có TÌM KIẾM answer không? Không → performance.
+  F1.2 PERFORMANCE HUMILITY: "I know nothing" = social signal, not felt.
+    Test: after saying it → do you SEEK the answer? No → performance.
 
-  F1.3 ANALYSIS PARALYSIS: quá nhiều gaps → PFC overloaded → can't choose.
+  F1.3 ANALYSIS PARALYSIS: too many gaps → PFC overloaded → can't choose.
     PFC serial processor ~4±1 (🟢 Cowan 2001) → 1000 gaps → paralysis.
 
   F1.4 WEAPONIZED IGNORANCE: "Nobody knows anything" → reject expertise.
-    Dunning-Kruger people dùng quote để equalize với experts.
+    Dunning-Kruger individuals use the quote to equalize themselves with experts.
 
-  F1.5 META-ARROGANCE: gap awareness trở thành status marker.
-    "Tôi biết mình không biết, BẠN thì không" = meta-superiority.
+  F1.5 META-ARROGANCE: gap awareness becomes a status marker.
+    "I know I don't know — you don't" = meta-superiority.
 
-  F1.6 CHRONIC DISSATISFACTION: chỉ thấy gaps, không appreciate compiled base.
-    Missing: Gratitude (Gratitude.md) → appreciate compiled base CŨNG quan trọng.
+  F1.6 CHRONIC DISSATISFACTION: only sees gaps, doesn't appreciate the compiled base.
+    Missing: Gratitude (Gratitude.md) → appreciating the compiled base IS ALSO IMPORTANT.
 
   F1.7 DOMAIN COLLAPSE: philosophical humility → practical incompetence.
-    Bác sĩ nói "tôi không biết gì" trước phẫu thuật = F1.7.
+    A surgeon saying "I know nothing" before the operation = F1.7.
 ```
 
 ### §7.2 — Quote 2 Failure Modes (Jobs)
 
 ```
   F2.1 FATALISM: "can't plan" → stop trying.
-    Jobs KHÔNG nói don't plan → nói can't predict WHICH connections.
+    Jobs did NOT say don't plan → said can't predict WHICH connections will form.
 
   F2.2 SURVIVORSHIP BIAS: Jobs's dots connected beautifully.
     Millions of people's dots don't connect productively.
@@ -603,11 +606,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Background-Pattern §6 Triple Bias → selectively retrieve dots that "connected."
     🟢 Kahneman: narrative fallacy.
 
-  F2.4 JUSTIFY AIMLESSNESS: "just live randomly, trust process."
+  F2.4 JUSTIFY AIMLESSNESS: "just live randomly, trust the process."
     Missing: Gap-Direction §8 → deliberate gap INSTALL matters.
 
-  F2.5 IGNORE DOMAIN FEEDBACK: "dots will connect" → persist destructive path.
-    Einstein 30 năm unified field theory → dots DIDN'T connect.
+  F2.5 IGNORE DOMAIN FEEDBACK: "dots will connect" → persist on a destructive path.
+    Einstein 30 years on unified field theory → dots DIDN'T connect.
 
   F2.6 PRIVILEGE BLINDNESS: access determines dot quality.
     "Trust dots" = easier when environment produces high-quality dots.
@@ -620,16 +623,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Without shipping → no domain feedback → no calibration.
 
   F3.2 COST BLINDNESS: hidden quality COSTS resources → not always justified.
-    Startup MVP ≠ medical device. Context determines which "mặt lưng" matters.
+    Startup MVP ≠ medical device. Context determines which "back panels" matter.
 
   F3.3 SOLO ARTISAN BIAS: works for 1 craftsman → breaks at scale.
-    1000 nhân viên needs SYSTEM, not just individual care.
+    1000 employees needs a SYSTEM, not just individual care.
 
-  F3.4 MORAL LOADING: mechanism treated as ethics → shame when miss.
+  F3.4 MORAL LOADING: mechanism treated as ethics → shame when you miss.
     Missing chunks = lacks CHUNKS, not CHARACTER → education, not blame.
 
-  F3.5 IRRELEVANT EXTENSION: not every domain has meaningful "mặt lưng."
-    Obsessing over hidden quality of throwaway prototype = misapplication.
+  F3.5 IRRELEVANT EXTENSION: not every domain has a meaningful "back panel."
+    Obsessing over hidden quality of a throwaway prototype = misapplication.
 ```
 
 ---
@@ -640,26 +643,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ AI × CHUNK-DEPENDENT VISIBILITY:
 
   QUOTE 1 × AI:
-    AI CÓ THỂ: map gap landscape → "Socrates at scale"
-    AI CÓ THỂ: act as external observer → see gaps you can't (Schema §6.3)
-    AI KHÔNG THỂ: compile chunks into YOUR body → gaps must be FELT, not listed.
+    AI CAN: map the gap landscape → "Socrates at scale"
+    AI CAN: act as external observer → see gaps you can't (Schema §6.3)
+    AI CANNOT: compile chunks into YOUR body → gaps must be FELT, not just listed.
     Risk: AI shows too many gaps → PFC overwhelmed → F1.3 amplified.
 
   QUOTE 2 × AI:
-    AI CÓ THỂ: suggest potential connections → "connect dots forward" PARTIALLY
-    AI CÓ THỂ: Phase 3 accelerator → find patterns DMN might miss.
-    AI KHÔNG THỂ: predict which chunks WILL compile in your future.
+    AI CAN: suggest potential connections → "connect dots forward" PARTIALLY
+    AI CAN: Phase 3 accelerator → find patterns DMN might miss.
+    AI CANNOT: predict which chunks WILL compile in your future.
     Limit: AI shifts "can't connect forward" from impossible to probabilistic.
 
   QUOTE 3 × AI:
     🟢 Hung et al. 2019: AI surgical quality detection AUC 0.85.
-    🟢 Tufano et al. 2019: AI code quality → surface bugs ✓, architectural ✗.
-    AI CÓ THỂ: detect SOME hidden quality dimensions (statistical patterns).
-    AI KHÔNG THỂ: architectural/compositional quality (needs body-compiled depth).
+    🟢 Tufano et al. 2019: AI code quality → surfaces bugs ✓, architectural ✗.
+    AI CAN: detect SOME hidden quality dimensions (statistical patterns).
+    AI CANNOT: architectural/compositional quality (needs body-compiled depth).
     = AI approaching expert IN SOME dimensions, NOT ALL.
 
   CONVERGENT AI INSIGHT:
-    AI = powerful EXTENSION of all 3 principles → doesn't REPLACE mechanism.
+    AI = powerful EXTENSION of all 3 principles → does NOT REPLACE the mechanism.
     Body remains: quality controller (gap feeling) + compilation engine (chunk compile).
     AI + human body = strongest combination → AI alone = Trust Compile on steroids
     (pattern recognition WITHOUT body compilation).
@@ -670,11 +673,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §9 — CALIBRATION
 
 ```
-⭐ 6 PRINCIPLES APPLY KHÔNG CỨNG NHẮC:
+⭐ 6 PRINCIPLES — APPLY WITHOUT RIGIDITY:
 
   ① GAP AWARENESS ≠ GAP OBSESSION.
-    See gaps → USE as compass → NOT as source of chronic dissatisfaction.
-    Appreciate compiled base (Gratitude) while acknowledging frontier.
+    See gaps → USE them as compass → NOT as source of chronic dissatisfaction.
+    Appreciate the compiled base (Gratitude) while acknowledging the frontier.
 
   ② TRUST PROCESS ≠ PASSIVITY.
     Jobs: "trust dots will connect" = KEEP ACTING + stay open.
@@ -682,13 +685,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Action → chunks compile → Phase 3 processes → connections emerge.
 
   ③ HIDDEN QUALITY MATTERS — CONTEXTUALLY.
-    Not every domain needs "mặt lưng" attention.
-    Ask: "Will hidden quality compound positively or be irrelevant?"
+    Not every domain needs "back panel" attention.
+    Ask: "Will hidden quality compound positively, or be irrelevant?"
     Medical device = yes. Throwaway prototype = no.
 
   ④ DIRECTION TAG DETERMINES OUTCOME.
-    Gap awareness + novelty = productive (all 3 quotes INTENDED meaning).
-    Gap awareness + threat = destructive (all 3 quotes FAILURE modes).
+    Gap awareness + novelty = productive (all 3 quotes' INTENDED meaning).
+    Gap awareness + threat = destructive (all 3 quotes' FAILURE modes).
     Monitor: "Am I exploring (curiosity) or catastrophizing (threat)?"
 
   ⑤ DOMAIN FEEDBACK = ARBITER, NOT INTERNAL FEELING ALONE.
@@ -711,25 +714,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ 4 META-OBSERVATIONS:
 
-  M1. "CHƯA BIẾT = KHÔNG CÓ GAP" = MOST LOAD-BEARING PRINCIPLE:
+  M1. "NO KNOWLEDGE = NO GAP" = MOST LOAD-BEARING PRINCIPLE:
     Socrates = DIRECT consequence (intellectual)
     Jobs = TEMPORAL application
     Paul Jobs = QUALITY application
     Dunning-Kruger = META application
     = 1 principle → 4 applications in 1 cluster.
-    = Most load-bearing principle encountered in Quote Analysis series.
+    = Most load-bearing principle encountered in the Quote Analysis series.
 
   M2. ATTRIBUTION PATTERN CONTINUES:
-    1 verified, 1 semi-verified, 1 floating = consistent with series.
+    1 verified, 1 semi-verified, 1 floating = consistent with the series.
     Cluster 1: 2/5 verified. Cluster 2: 0/2. Cluster 3: 1-2/3.
     More FAMOUS = more likely floating (Triple Bias: famous = widely shared
     → wording shifts → attribution drifts).
 
   M3. 2 STEVE JOBS QUOTES IN 1 CLUSTER:
     Jobs (Stanford 2005) + Paul Jobs/Jobs (biography) = internal consistency.
-    Same person, different decades → SAME mechanism → validates framework.
-    Jobs's calligraphy story (temporal) + mặt lưng tủ (quality)
-    = 2 applications of principle he learned from SAME family context.
+    Same person, different decades → SAME mechanism → validates the framework.
+    Jobs's calligraphy story (temporal) + back-of-cabinet (quality)
+    = 2 applications of a principle he learned from the SAME family context.
 
   M4. DIRECTION TAG = RECURRING HIDDEN VARIABLE:
     Cluster 1: direction tag × adversity → growth vs damage
@@ -745,7 +748,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 ESTABLISHED (🟢):
-  → "Chưa biết = không có gap" principle (Gap-Direction §3, logical necessity)
+  → "No knowledge = no gap" principle (Gap-Direction §3, logical necessity)
   → Dunning-Kruger effect (Kruger & Dunning 1999, Dunning 2011)
   → Gibson perceptual differentiation (Gibson & Gibson 1955)
   → Expert pattern recognition (Chase & Simon 1973, Klein 1998)
@@ -754,7 +757,7 @@ ESTABLISHED (🟢):
   → Sleep gist extraction (Payne 2009, Stickgold 2013)
   → DMN background processing (Raichle 2001, Buckner 2008)
   → Tacit knowledge (Polanyi 1966)
-  → Expert radiologist detection (Reingold et al. 2001)
+  → Expert radiologist detection (Kundel & Nodine 1975)
   → Surgical hidden quality (Birkmeyer et al. 2013)
   → AI surgical quality detection (Hung et al. 2019)
   → Reflection vs rumination (Trapnell & Campbell 1999)
@@ -768,7 +771,7 @@ FRAMEWORK SYNTHESIS (🟡):
   → Chunk-Dependent Visibility as convergent concept
   → Temporal Visibility Gradient (past HIGH → present MODERATE → future ZERO)
   → Gap landscape expansion = mathematical necessity
-  → Dunning-Kruger as meta-application of gap-direction principle
+  → Dunning-Kruger as meta-application of the gap-direction principle
   → Background-Pattern creates probabilistic channels (not random dot connection)
   → Compiled/Fresh Double Blindness for copier quality perception
   → Direction tag as recurring hidden variable across clusters
@@ -776,7 +779,7 @@ FRAMEWORK SYNTHESIS (🟡):
 
 HYPOTHESIS (🔴):
   → Gap landscape growth rate ALWAYS exceeds fill rate (mathematical claim, not proven)
-  → "Trust" in Jobs quote = EXACTLY engine use quality (analogy, not identity)
+  → "Trust" in Jobs's quote = EXACTLY engine use quality (analogy, not identity)
   → Paul Jobs's exact words paraphrased through Steve (no primary source)
   → AI "approaching expert" framing may overestimate current AI quality detection
 ```
@@ -814,7 +817,7 @@ HYPOTHESIS (🔴):
     🟢 Polanyi 1966 — tacit knowledge
     🟢 Chase & Simon 1973 — chess expert chunk patterns
     🟢 Klein 1998 — Recognition-Primed Decision
-    🟢 Reingold et al. 2001 — expert radiologist detection 200ms
+    🟢 Kundel & Nodine 1975 — expert radiologist detection 200ms (Radiology)
     🟢 Kruger & Dunning 1999 — metacognitive deficit
     🟢 Dunning 2011 — effect persists after corrections
     🟢 Birkmeyer et al. 2013 — surgical hidden quality
@@ -839,10 +842,10 @@ HYPOTHESIS (🔴):
 
 ---
 
-> *"Chưa biết = không có gap."*
+> *"No knowledge = no gap."*
 > *1 principle. 3 dimensions. 4 applications.*
-> *Socrates thấy mình không biết — VÌ biết nhiều (spatial).*
-> *Jobs không thấy connection — VÌ chưa compile (temporal).*
-> *Paul Jobs thấy mặt lưng — VÌ đã compile (quality).*
-> *Dunning-Kruger không thấy mình kém — VÌ chưa compile meta (meta).*
-> *CÁI BẠN THẤY = CÁI BẠN ĐÃ COMPILE. Không hơn. Không kém.*
+> *Socrates sees he knows nothing — BECAUSE he knows much (spatial).*
+> *Jobs can't see the connections — BECAUSE he hasn't compiled them yet (temporal).*
+> *Paul Jobs sees the back panel — BECAUSE he has compiled it (quality).*
+> *Dunning-Kruger can't see inadequacy — BECAUSE the meta hasn't compiled yet (meta).*
+> *WHAT YOU SEE = WHAT YOU HAVE COMPILED. Nothing more. Nothing less.*

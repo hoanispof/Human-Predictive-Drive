@@ -5,236 +5,245 @@ created: 2026-05-10
 refined: 2026-05-10 (v1.1 — §3.4 Premature Compilation, §5.4 Collective Calibration, §8.1③ Gap Shift + Schema Trust)
 status: OBSERVATION FILE v1.1
 scope: |
-  OBSERVATION FILE: BAO NHIÊU reward là ENOUGH cho gap NÀY,
-  người NÀY, context NÀY? Và chuyện gì xảy ra khi quá ít / quá nhiều?
-  Core thesis: Reward có Goldilocks per-gap, per-person, per-context.
-  KHÔNG THỂ prescribe — chỉ có thể OBSERVE + ADJUST (dynamic equilibrium).
+  OBSERVATION FILE: HOW MUCH reward is ENOUGH for THIS gap,
+  THIS person, THIS context? And what happens when too little / too much?
+  Core thesis: Reward has a Goldilocks zone per-gap, per-person, per-context.
+  CANNOT be prescribed — can only OBSERVE + ADJUST (dynamic equilibrium).
   3 Gap Types × Reward Match. Goldilocks Zone (Under/Match/Over).
-  6 Over-Reward Mechanisms (threshold adapt, overjustification, bridge dependency,
+  6 Over-Reward Mechanisms (threshold adaptation, overjustification, bridge dependency,
   baseline shift, competence-reward mismatch, Evaluative/Direct-State imbalance).
-  Dynamic equilibrium parallel Logic-Feeling-Balance.md.
-  Observable indicators qua giao tiếp + hành vi (xác suất, không chẩn đoán).
-  Evaluative/Direct-State × Calibration. Reward-Economics insights qua v7.8 lens.
+  Dynamic equilibrium parallel to Logic-Feeling-Balance.md.
+  Observable indicators through communication + behavior (probabilistic, not diagnostic).
+  Evaluative/Direct-State × Calibration. Reward-Economics insights through the framework lens.
 purpose: |
-  03-Reward.md answers: KHI NÀO reward fires (5 Body-Feedback-Preconditions, 7-step VTA)
-  Reward-Signal-Architecture answers: Reward fire CHẤT LƯỢNG thế nào (Evaluative/Direct-State, 5 Profiles, Evaluative Gates Direct-State)
-  Gap-Direction.md answers: TẠI SAO reward personal (gap có hướng)
-  Gratitude.md §3-4: Anti-habituation + baseline shift
-  Education-Mechanism.md §3: Bridge (external reward) trong giáo dục
-  File này answers: BAO NHIÊU reward là ENOUGH? Và khi sai lượng thì SAO?
-  = CALIBRATION question — tương tự Cortisol-Baseline.md
-  (cortisol = amplifier có Goldilocks; reward = signal có Goldilocks)
+  03-Reward.md answers: WHEN reward fires (5 Body-Feedback-Preconditions, 7-step VTA)
+  Reward-Signal-Architecture answers: WHAT QUALITY of reward fires (Evaluative/Direct-State, 5 Profiles, Evaluative Gates Direct-State)
+  Gap-Direction.md answers: WHY reward is personal (gap has direction)
+  Gratitude.md §3–4: Anti-habituation + baseline shift
+  Education-Mechanism.md §3: Bridge (external reward) in education
+  This file answers: HOW MUCH reward is ENOUGH? And what goes wrong when the amount is off?
+  = CALIBRATION question — parallel to Cortisol-Baseline.md
+  (cortisol = amplifier with Goldilocks; reward = signal with Goldilocks)
 position: |
-  Core-Deep-Dive/Body-Base/Body-Feedback/ — ngang hàng Reward-Signal-Architecture, Gap-Direction, Body-Feedback-Mechanism.
-  MECHANISM observation file. Calibration là property CỦEvaluative reward system,
-  không phải application bên ngoài.
+  Core-Deep-Dive/Body-Base/Body-Feedback/ — parallel to Reward-Signal-Architecture,
+  Gap-Direction, Body-Feedback-Mechanism.
+  MECHANISM observation file. Calibration is a property OF the Evaluative reward system,
+  not an external application.
 dependencies:
   - 03-Reward.md — 5 Body-Feedback-Preconditions, 7-step VTA, opioid vs dopamine, 7 cases
   - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, E₀→E₃, 5 Profiles, Evaluative Gates Direct-State
   - Body-Feedback-Mechanism.md v1.2 — 2 sources, 3 dynamics (Shift/Miss/Gap), compound
-  - Gap-Direction.md v1.0 — gap has direction, "chưa biết = không có gap", 2-layer
+  - Gap-Direction.md v1.0 — gap has direction, "unknown = no gap," 2-layer
   - Gratitude.md v1.1 — §3 anti-habituation 3 mechanisms, §4 baseline shift
-  - Education-Mechanism.md v1.0 — §3 bridge, 4 nguồn fill, overjustification
+  - Education-Mechanism.md v1.0 — §3 bridge, 4 fill sources, overjustification
   - Cortisol-Baseline.md v2.0 — §7.7 5 Roles (② Holding, ④ Inertia relevant)
   - Status.md v2.0 — §1 Resource Access Map, competence-reward mismatch
-  - Logic-Feeling-Balance.md v1.0 — §6-§7 infinite regress, cannot prescribe
+  - Logic-Feeling-Balance.md v1.0 — §6–§7 infinite regress, cannot prescribe
   - PFC-Hardware.md v1.1 — §3.4 COMT × Reward Pattern, §3.5 Childhood trajectories
   - Background-Pattern.md v1.0 — invisible bias on gap direction landscape
-  - Connection.md v3.1 — §9 calibration 2 bodies, dynamic equilibrium
-  - Reward-Economics.md v5.5 — 6 paths, tiền = proxy, habituation blindness (insights)
+  - Connection.md v3.1 — §9 calibration between 2 bodies, dynamic equilibrium
+  - Reward-Economics.md v5.5 — 6 paths, money = proxy, habituation blindness (insights)
   - Meaning.md v2.0 — IDENTITY anchor, life-level Anchor-Schema
   - Obligation.md v1.0 — cortisol holding (Role ②), 5-factor formula
-language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # Reward Calibration — Observation File for Reward Amount × Gap Match
 
-> **Lương 10 triệu. Pleasant.**
-> **Tăng lên 15 triệu. Pleasant hơn.**
-> **Tăng lên 20 triệu. Vẫn pleasant, nhưng ít hơn lần trước.**
-> **Tăng lên 50 triệu. Pleasant... rồi quen.**
-> **Tăng lên 100 triệu. "Đồng nghiệp có bao nhiêu?"**
+> **Salary of $50K. Pleasant.**
+> **Raised to $75K. More pleasant.**
+> **Raised to $100K. Still pleasant, but less so than last time.**
+> **Raised to $250K. Pleasant... then you get used to it.**
+> **Raised to $500K. "How much does my colleague make?"**
 >
-> Cùng 1 người. Cùng 1 cơ chế reward (Body-Feedback-Precondition, 03-Reward.md).
-> Nhưng LƯỢNG reward CẦN để tạo satisfaction = THAY ĐỔI LIÊN TỤC.
+> Same person. Same reward mechanism (Body-Feedback-Precondition, 03-Reward.md).
+> But the AMOUNT of reward needed to create satisfaction = KEEPS CHANGING.
 >
-> Đường ngọt: ít = nhạt, vừa = ngon, nhiều = ngấy.
-> Lương: thấp = đau, vừa = ổn, cao quá = vấn đề KHÁC.
-> Khen ngợi: thiếu = héo, vừa = tốt, quá nhiều = "khen vì gì?"
+> Sugar in food: too little = bland, just right = delicious, too much = sickening.
+> Salary: too low = painful, just right = fine, too high = different problems.
+> Praise: not enough = wilting, just right = good, too much = "what's the praise for?"
 >
-> MỌI loại reward đều có GOLDILOCKS — sweet spot.
-> VÀ sweet spot KHÔNG CỐ ĐỊNH: khác per-person, per-gap, per-context, per-time.
+> EVERY type of reward has a GOLDILOCKS zone — a sweet spot.
+> AND the sweet spot is NOT FIXED: it varies per-person, per-gap, per-context, per-time.
 >
-> File này KHÔNG nói "cho bao nhiêu reward."
-> File này giúp NHÌN THẤY: reward đang ở vùng nào (under / match / over),
-> VÀ chuyện gì xảy ra ở mỗi vùng,
-> VÀ tại sao KHÔNG THỂ prescribe "cho bao nhiêu."
+> This file does NOT say "how much reward to give."
+> This file helps you SEE: which zone the reward is in (under / match / over),
+> WHAT happens in each zone,
+> AND why it's IMPOSSIBLE to prescribe "how much reward."
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ TRONG FRAMEWORK
-- §1 — CORE: REWARD CÓ GOLDILOCKS PER-GAP
+- §0 — POSITION IN THE FRAMEWORK
+- §1 — CORE: REWARD HAS A GOLDILOCKS ZONE PER-GAP
 - §2 — 3 GAP TYPES × REWARD MATCH
-- §3 — GOLDILOCKS ZONE: 3 TRẠNG THÁI
-- §4 — OVER-REWARD: 6 CƠ CHẾ HẠI
-- §5 — DYNAMIC EQUILIBRIUM: TẠI SAO KHÔNG THỂ PRESCRIBE
+- §3 — GOLDILOCKS ZONE: 3 STATES
+- §4 — OVER-REWARD: 6 HARMFUL MECHANISMS
+- §5 — DYNAMIC EQUILIBRIUM: WHY YOU CANNOT PRESCRIBE
 - §6 — OBSERVABLE INDICATORS
 - §7 — EVALUATIVE/DIRECT-STATE × CALIBRATION
-- §8 — REWARD-ECONOMICS INSIGHTS QUA V7.8 LENS
+- §8 — REWARD-ECONOMICS INSIGHTS THROUGH THE FRAMEWORK LENS
 - §9 — HONEST ASSESSMENT
 - §10 — CROSS-REFERENCES
 
 ---
 
-## §0 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — POSITION IN THE FRAMEWORK
 
-### §0.1 — File này vs 5 file liên quan
+### §0.1 — This file vs 5 related files
 
 ```
-⭐ FILE NÀY TRẢ LỜI CÂU HỎI MỚI:
+⭐ THIS FILE ANSWERS A NEW QUESTION:
 
   ┌───────────────────────────┬─────────────────────────────────────────┐
-  │ File                      │ Câu hỏi                                │
+  │ File                      │ Question                                │
   ├───────────────────────────┼─────────────────────────────────────────┤
-  │ 03-Reward.md              │ KHI NÀO reward fires?                  │
-  │                           │ (5 Body-Feedback-Preconditions, 7-step VTA)      │
+  │ 03-Reward.md              │ WHEN does reward fire?                  │
+  │                           │ (5 Body-Feedback-Preconditions, 7-step  │
+  │                           │  VTA)                                   │
   ├───────────────────────────┼─────────────────────────────────────────┤
-  │ Reward-Signal-            │ Reward fire CHẤT LƯỢNG thế nào?        │
-  │ Architecture.md           │ (Evaluative/Direct-State, 5 Profiles, Evaluative Gates Direct-State)      │
+  │ Reward-Signal-            │ WHAT QUALITY of reward fires?           │
+  │ Architecture.md           │ (Evaluative/Direct-State, 5 Profiles,   │
+  │                           │  Evaluative Gates Direct-State)         │
   ├───────────────────────────┼─────────────────────────────────────────┤
-  │ Gap-Direction.md          │ TẠI SAO reward personal?               │
-  │                           │ (gap có hướng, f(surrounding chunks))  │
+  │ Gap-Direction.md          │ WHY is reward personal?                 │
+  │                           │ (gap has direction, f(surrounding       │
+  │                           │  chunks))                               │
   ├───────────────────────────┼─────────────────────────────────────────┤
-  │ Gratitude.md §3-4         │ TẠI SAO gift habituate?                │
+  │ Gratitude.md §3–4         │ WHY does a gift habituate?              │
   │                           │ (anti-habituation, baseline shift)      │
   ├───────────────────────────┼─────────────────────────────────────────┤
-  │ Education-Mechanism.md §3 │ Bridge reward trong giáo dục?          │
-  │                           │ (nguồn ④, overjustification)           │
+  │ Education-Mechanism.md §3 │ Bridge reward in education?             │
+  │                           │ (Source ④, overjustification)          │
   ├───────────────────────────┼─────────────────────────────────────────┤
-  │ Reward-Calibration.md     │ BAO NHIÊU reward là ENOUGH?            │
-  │ (FILE NÀY)               │ Sai lượng thì SAO?                     │
-  │                           │ Tại sao KHÔNG THỂ prescribe?           │
+  │ Reward-Calibration.md     │ HOW MUCH reward is ENOUGH?              │
+  │ (THIS FILE)               │ What goes wrong when the amount is off? │
+  │                           │ Why can't we prescribe?                 │
   └───────────────────────────┴─────────────────────────────────────────┘
 
-  File này = OBSERVATION SYNTHESIS:
-  → Tổng hợp insights từ ~15 files vào 1 góc nhìn CALIBRATION
-  → KHÔNG tạo mechanism mới — tổ chức lại qua lens "enough for this gap"
-  → Reader flow: đọc SAU 03-Reward + Reward-Signal-Architecture + Body-Feedback-Mechanism + Gap-Direction
+  This file = OBSERVATION SYNTHESIS:
+  → Synthesizes insights from ~15 files into 1 CALIBRATION lens
+  → Does NOT create new mechanisms — reorganizes through
+    the "enough for this gap" lens
+  → Reader flow: read AFTER 03-Reward + Reward-Signal-Architecture +
+    Body-Feedback-Mechanism + Gap-Direction
 ```
 
-### §0.2 — File này LÀ GÌ
+### §0.2 — What this file IS
 
 ```
-  ✓ Observation file — giúp NHÌN THẤY reward state
-  ✓ Giúp nhận diện: under / match / over
-  ✓ Giải thích 6 cơ chế over-reward (tổng hợp + MỚI)
-  ✓ Song song Cortisol-Baseline.md: cortisol có Goldilocks ↔ reward có Goldilocks
+  ✓ Observation file — helps you SEE reward state
+  ✓ Helps identify: under / match / over
+  ✓ Explains 6 over-reward mechanisms (synthesized + NEW)
+  ✓ Parallel to Cortisol-Baseline.md:
+    cortisol has Goldilocks ↔ reward has Goldilocks
 ```
 
-### §0.3 — File này KHÔNG PHẢI
+### §0.3 — What this file IS NOT
 
 ```
-  ✗ KHÔNG phải "cách thiết kế reward" (prescriptive)
-  ✗ KHÔNG phải economics file (Reward-Economics.md cũ = Applications layer)
-  ✗ KHÔNG lặp Body-Feedback-Precondition hay Reward-Signal-Architecture (reference only)
-  ✗ KHÔNG phải education file (Education-Mechanism.md §3 đã cover bridge)
-  ✗ KHÔNG phải HR file
-  ✗ KHÔNG nói "làm gì" — chỉ nói "đang ở đâu" và "tại sao khó"
+  ✗ NOT "how to design reward systems" (prescriptive)
+  ✗ NOT an economics file (Reward-Economics.md = Applications layer)
+  ✗ Does NOT repeat Body-Feedback-Precondition or
+    Reward-Signal-Architecture (reference only)
+  ✗ NOT an education file (Education-Mechanism.md §3 covers bridge)
+  ✗ NOT an HR file
+  ✗ Does NOT say "what to do" — only "where things stand" and "why it's hard"
 ```
 
 ---
 
-## §1 — CORE: REWARD CÓ GOLDILOCKS PER-GAP
+## §1 — CORE: REWARD HAS A GOLDILOCKS ZONE PER-GAP
 
 ### §1.1 — Thesis
 
 ```
-⭐ REWARD AMOUNT CÓ SWEET SPOT PER-GAP:
+⭐ REWARD AMOUNT HAS A SWEET SPOT PER-GAP:
 
   Gap (Body-Feedback-Mechanism §3: Chunk-Shift / Chunk-Miss / Chunk-Gap)
-  = hole trong chunk network cần fill.
+  = hole in the chunk network that needs filling.
 
-  Quá ít reward cho gap → gap chưa fill → dissonance KÉO DÀI
-  Vừa đủ reward cho gap → gap fill + approach tag + chunk compile
-  Quá nhiều reward cho gap → SURPLUS → nhiều cơ chế hại (§4)
+  Too little reward for the gap → gap unfilled → dissonance PERSISTS
+  Just enough reward for the gap → gap fills + approach tag + chunk compiles
+  Too much reward for the gap → SURPLUS → multiple harmful mechanisms (§4)
 
-  = Giống đường trong thức ăn:
-    Ít đường → nhạt → body "chưa đủ caloric signal"
-    Vừa đường → ngon → E₀ hardware opioid confirm (Reward-Signal-Architecture §2.1)
-    Nhiều đường → ngấy → body REJECT (ngưỡng bão hòa)
-    = E₀ = hardware Goldilocks ĐƠN GIẢN NHẤT
-    = Pattern GIỐNG NHƯ ở MỌI loại reward, chỉ PHỨC TẠP HƠN
+  = Like sugar in food:
+    Too little sugar → bland → body "insufficient caloric signal"
+    Just right sugar → delicious → E₀ hardware opioid confirm
+      (Reward-Signal-Architecture §2.1)
+    Too much sugar → sickening → body REJECTS (saturation threshold)
+    = E₀ = simplest hardware Goldilocks
+    = SAME PATTERN across ALL types of reward, just more COMPLEX
 
   🟢 Hedonic adaptation: Brickman & Campbell 1971
   🟢 Inverted-U: Yerkes-Dodson 1908 (performance ↔ arousal)
   🟡 Reward Goldilocks per-gap = framework synthesis
 ```
 
-### §1.2 — Goldilocks KHÔNG CỐ ĐỊNH
+### §1.2 — Goldilocks is NOT FIXED
 
 ```
-⭐ SWEET SPOT THAY ĐỔI LIÊN TỤC:
+⭐ SWEET SPOT KEEPS CHANGING:
 
-  → Khác PER-PERSON (hardware):
-    COMT Val/Val: many shallow rewards = MATCH hardware
-    COMT Met/Met: fewer deeper rewards = MATCH hardware
+  → Varies PER-PERSON (hardware):
+    COMT Val/Val: many shallow rewards = MATCH for this hardware
+    COMT Met/Met: fewer deeper rewards = MATCH for this hardware
     (PFC-Hardware.md §3.4)
-    DRD4 variant: chunk threshold khác → goldilocks khác
+    DRD4 variant: different chunk threshold → different Goldilocks
     (PFC-Hardware.md §4.3)
 
-  → Khác PER-GAP-TYPE:
-    Chunk-Shift: cần re-anchor → reward khác (§2)
-    Chunk-Miss: cần compensate HOẶC adjust → reward khác (§2)
-    Chunk-Gap: cần exploration → reward khác (§2)
+  → Varies PER-GAP-TYPE:
+    Chunk-Shift: needs re-anchoring → different reward (§2)
+    Chunk-Miss: needs compensating OR adjusting → different reward (§2)
+    Chunk-Gap: needs exploration → different reward (§2)
 
-  → Khác PER-CONTEXT:
-    Cortisol state: Role ② Holding → reward cần khác (Cortisol §7.7)
-    Existing chunks: expert vs novice → cùng input, khác reward
-    Relationship: bạn thân cho vs người lạ cho → khác valence
-    Background-Pattern: invisible bias → gap landscape lệch
-    (Background-Pattern.md §6)
+  → Varies PER-CONTEXT:
+    Cortisol state: Role ② Holding → different reward needed
+      (Cortisol §7.7)
+    Existing chunks: expert vs novice → same input, different reward
+    Relationship: close friend giving vs stranger giving → different valence
+    Background-Pattern: invisible bias → gap landscape skewed
+      (Background-Pattern.md §6)
 
-  → Khác PER-TIME:
-    Baseline shift: reward liên tục → baseline TĂNG → cần NHIỀU HƠN
-    (Gratitude.md §4)
-    Development stage: trẻ vs người lớn → threshold khác
-    Habituation: lần 1 vs lần 100 → prediction-delta khác hoàn toàn
+  → Varies PER-TIME:
+    Baseline shift: continuous reward → baseline RISES → MORE is needed
+      (Gratitude.md §4)
+    Development stage: child vs adult → different thresholds
+    Habituation: first vs hundredth time → completely different prediction-delta
 
-  → KHÔNG CÓ formula "cho X reward cho gap Y"
-  → Chỉ có OBSERVE + ADJUST liên tục (§5)
+  → NO formula "give X reward for gap Y"
+  → Only OBSERVE + ADJUST continuously (§5)
 
   🟡 Per-person × per-gap × per-context × per-time = framework synthesis
 ```
 
-### §1.3 — "Chưa biết = không có gap" → Reward cho thứ không có gap = WASTED
+### §1.3 — "Unknown = no gap" → Reward for something with no gap = WASTED
 
 ```
-⭐ NGUYÊN LÝ NỀN TẢNG (Gap-Direction.md §3):
+⭐ FOUNDATIONAL PRINCIPLE (Gap-Direction.md §3):
 
-  Gap = hole trong chunk network = BUỘC PHẢI có surrounding chunks tạo bờ.
-  Không có chunks xung quanh = không có bờ = KHÔNG CÓ HOLE.
+  Gap = hole in the chunk network = MUST have surrounding chunks to form its edges.
+  No surrounding chunks = no edges = NO HOLE.
 
-  "Chưa biết = không có gap":
-    → Bạn không biết cờ vua → không có gap về cờ vua
-    → Reward liên quan cờ vua = KHÔNG MATCH gap nào → WASTED
-    → Body receive stimulus → VTA check → NO matching gap → no opioid confirm
-    → = Reward "rơi vào khoảng trống"
+  "Unknown = no gap":
+    → You don't know chess → no gap about chess
+    → Chess-related reward = DOESN'T MATCH any gap → WASTED
+    → Body receives stimulus → VTA checks → NO matching gap → no opioid confirm
+    → = Reward "falling into empty space"
 
-  VÍ DỤ:
-    Con 5 tuổi nhận siêu xe (chưa có gap về xe hơi)
-      → Body: "đồ gì to to" → no gap match → no reward
-      → Bố mẹ: "tại sao con không sướng?" → vì con CHƯA CÓ GAP đó
+  EXAMPLES:
+    A 5-year-old receiving a supercar (no gap about cars yet)
+      → Body: "big thing" → no gap match → no reward
+      → Parents: "why isn't the child thrilled?" → because the child HAS NO GAP yet
 
-    Tặng E=mc² cho học sinh lớp 3
-      → Chưa có chunks vật lý → no gap → no reward
-      → Tặng cho Einstein → gap CỰC SÂU → reward CỰC MẠNH
+    Giving E=mc² to a third-grader
+      → No physics chunks → no gap → no reward
+      → Giving it to Einstein → EXTREMELY DEEP gap → EXTREMELY STRONG reward
 
-  HỆ QUẢ CHO CALIBRATION:
-    Bước 0 TRƯỚC KHI calibrate reward: xác nhận NGƯỜI NHẬN CÓ GAP KHÔNG.
-    Không có gap → mọi reward = wasted hoặc harmful (§4⑤ mismatch).
+  IMPLICATION FOR CALIBRATION:
+    Step 0 BEFORE calibrating reward: confirm the RECIPIENT HAS A GAP.
+    No gap → all reward = wasted or harmful (§4⑤ mismatch).
 
   🟡 "Reward for no-gap = wasted" = Gap-Direction.md core principle applied
 ```
@@ -244,265 +253,282 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §2 — 3 GAP TYPES × REWARD MATCH
 
 ```
-⭐ 3 CHUNK DYNAMICS (Body-Feedback-Mechanism.md §3) × REWARD PHÙ HỢP:
+⭐ 3 CHUNK DYNAMICS (Body-Feedback-Mechanism.md §3) × APPROPRIATE REWARD:
 
-  Mỗi gap type có nature KHÁC → reward match KHÁC:
+  Each gap type has a DIFFERENT nature → DIFFERENT reward match:
 
-  ┌──────────────┬──────────────────────────────┬──────────────────────────────┐
-  │ Gap Type     │ Nature                       │ Reward Match                 │
-  ├──────────────┼──────────────────────────────┼──────────────────────────────┤
-  │ CHUNK-SHIFT  │ Context thay đổi →           │ RE-ANCHOR reward:            │
-  │ (Body-Feedback-Mechanism §3.1)  │ baseline cũ không còn phù    │ giúp build baseline MỚI      │
-  │              │ hợp. "Chuyển nhà, đổi việc,  │ ở context MỚI.               │
-  │              │ mất người thân."             │                              │
-  │              │                              │ = Direct-State effective            │
-  │              │ Body đang RE-CALIBRATE       │ (body-state: touch, exercise,│
-  │              │ toàn bộ baseline → unstable  │ grounding, sleep, routine)   │
-  │              │                              │                              │
-  │              │                              │ ⚠️ Evaluative evaluative         │
-  │              │                              │ CÓ THỂ CHƯA WORK:           │
-  │              │                              │ chunks cũ không còn          │
-  │              │                              │ relevant → evaluation sai    │
-  ├──────────────┼──────────────────────────────┼──────────────────────────────┤
-  │ CHUNK-MISS   │ Expected X, got <X.          │ COMPENSATE reward:           │
-  │ (Body-Feedback-Mechanism §3.2)  │ "Kỳ vọng lương cao,         │ fill delta HOẶC adjust       │
-  │              │ được ít." "Tưởng sẽ được     │ expectation.                 │
-  │              │ khen, bị chê."               │                              │
-  │              │                              │ = Evaluative evaluative:         │
-  │              │ Body detect: actual <         │ PFC compare + evaluate →     │
-  │              │ compiled expectation          │ opioid khi delta fill        │
-  │              │ → SNC (Crespi 1942)          │                              │
-  │              │                              │ ⚠️ 2 PATHS (quan trọng):    │
-  │              │                              │ Path A: fill delta (tăng     │
-  │              │                              │ actual → match expectation)  │
-  │              │                              │ Path B: adjust expectation   │
-  │              │                              │ (hạ compiled → match actual) │
-  │              │                              │ BOTH có thể healthy          │
-  ├──────────────┼──────────────────────────────┼──────────────────────────────┤
-  │ CHUNK-GAP    │ Structure predict C          │ EXPLORATION reward:          │
-  │ (Body-Feedback-Mechanism §3.3)  │ should exist → C chưa        │ bridge qua exploration       │
-  │              │ compile → HOLE.              │ → chunk fill → opioid.       │
-  │              │ "Chưa biết, muốn biết."     │                              │
-  │              │ "Bài toán chưa giải được."   │ = prediction-delta (novelty) khi    │
-  │              │                              │ chunk MỚI match gap →        │
-  │              │ Body detect: surrounding     │ + opioid khi fill            │
-  │              │ chunks predict C but C       │ = Profile ② Coherence        │
-  │              │ is missing                   │ (Reward-Signal-Architecture §4)                     │
-  └──────────────┴──────────────────────────────┴──────────────────────────────┘
+  ┌──────────────┬──────────────────────────────┬────────────────────────────────┐
+  │ Gap Type     │ Nature                       │ Reward Match                   │
+  ├──────────────┼──────────────────────────────┼────────────────────────────────┤
+  │ CHUNK-SHIFT  │ Context changed →            │ RE-ANCHOR reward:              │
+  │              │ old baseline no longer fits. │ help build a NEW baseline      │
+  │              │ "Moving cities, changing     │ in the NEW context.            │
+  │              │ jobs, losing someone."       │                                │
+  │              │                              │ = Direct-State Reward          │
+  │              │ Body is RE-CALIBRATING       │ effective (body-state: touch,  │
+  │              │ the entire baseline →        │ exercise, warmth, grounding,   │
+  │              │ unstable                     │ sleep, routine)                │
+  │              │                              │                                │
+  │              │                              │ ⚠️ Evaluative Reward           │
+  │              │                              │ MAY NOT WORK YET:              │
+  │              │                              │ old chunks invalidating →      │
+  │              │                              │ evaluation misfires            │
+  ├──────────────┼──────────────────────────────┼────────────────────────────────┤
+  │ CHUNK-MISS   │ Expected X, got <X.          │ COMPENSATE reward:             │
+  │              │ "Expected a higher salary,   │ fill the delta OR adjust       │
+  │              │ got less." "Expected praise, │ the expectation.               │
+  │              │ got criticism."              │                                │
+  │              │                              │ = Evaluative Reward:           │
+  │              │ Body detects: actual <       │ PFC compares + evaluates →     │
+  │              │ compiled expectation         │ opioid when delta is filled    │
+  │              │ → SNC (Crespi 1942)          │                                │
+  │              │                              │ ⚠️ 2 PATHS (important):       │
+  │              │                              │ Path A: fill the delta         │
+  │              │                              │   (raise actual → match        │
+  │              │                              │   expectation)                 │
+  │              │                              │ Path B: adjust expectation     │
+  │              │                              │   (lower compiled →            │
+  │              │                              │   match actual)                │
+  │              │                              │ Both paths can be healthy      │
+  ├──────────────┼──────────────────────────────┼────────────────────────────────┤
+  │ CHUNK-GAP    │ Structure predicts C         │ EXPLORATION reward:            │
+  │              │ should exist → C not yet     │ bridge through exploration     │
+  │              │ compiled → HOLE.             │ → chunk fills → opioid.        │
+  │              │ "Don't know yet, want to     │                                │
+  │              │ know." "Problem unsolved."   │ = prediction-delta (novelty)   │
+  │              │                              │ when new chunk matches gap     │
+  │              │ Body detects: surrounding    │ + opioid when filled           │
+  │              │ chunks predict C but C       │ = Profile ② Coherence          │
+  │              │ is missing                   │ (Reward-Signal-Architecture §4)│
+  └──────────────┴──────────────────────────────┴────────────────────────────────┘
 
-  🟢 SNC: Crespi 1942, Flaherty 1996
+  🟢 SNC (Successive Negative Contrast): Crespi 1942, Flaherty 1996
   🟢 Dopamine prediction-delta: Schultz 1997
   🟡 Gap type × Reward match mapping = framework synthesis
 ```
 
-### §2.1 — Sai loại reward cho sai gap = WASTED hoặc HẠI
+### §2.1 — Wrong reward type for wrong gap = WASTED or HARMFUL
 
 ```
-⭐ REWARD CALIBRATION KHÔNG CHỈ VỀ LƯỢNG — MÀ CÒN VỀ LOẠI:
+⭐ REWARD CALIBRATION IS NOT JUST ABOUT AMOUNT — IT'S ALSO ABOUT TYPE:
 
-  VD 1: Chunk-Miss (kỳ vọng lương) mà cho Direct-State (massage, đi spa)
-    → Body đang "expected X, got <X" → cần evaluative resolution
-    → Massage = body-state improvement → ĐÚNG Direct-State, NHƯNG:
-    → Gap GỐC (lương < expectation) VẪN CÒN → dissonance VẪN CÒN
-    → = Reward ĐÚNG loại nhưng SAI gap → chỉ tạm thời
+  Example 1: Chunk-Miss (salary expectation gap) but given Direct-State Reward
+             (massage, spa)
+    → Body is "expected X, got <X" → needs evaluative resolution
+    → Massage = body-state improvement → correct Direct-State, BUT:
+    → The ROOT gap (salary < expectation) REMAINS → dissonance REMAINS
+    → = Correct type but WRONG gap → only temporary
 
-  VD 2: Chunk-Gap (muốn hiểu bài toán) mà cho tiền
-    → Body đang "C should exist but missing" → cần exploration fill
-    → Tiền = proxy token → KHÔNG match coherence gap
-    → Gap (chưa hiểu bài toán) VẪN CÒN → reward = empty
-    → ⚠️ CÓ THỂ HẠI: nếu tiền MẠNH HƠN exploration drive
-      → overjustification (§4②): chỉ giải bài vì tiền → hết tiền → dừng
+  Example 2: Chunk-Gap (wanting to understand a problem) but given money
+    → Body is "C should exist but missing" → needs exploration fill
+    → Money = proxy token → DOESN'T MATCH the coherence gap
+    → Gap (not understanding the problem) REMAINS → reward = empty
+    → ⚠️ CAN BE HARMFUL: if money is STRONGER than the exploration drive
+      → overjustification (§4②): now only solves problems for money →
+        no money → stops
 
-  VD 3: Chunk-Shift (mất người thân) mà cho lời khuyên logic
-    → Body đang RE-CALIBRATE toàn bộ baseline → unstable
-    → Logic = Evaluative evaluative → chunks cũ đang invalidate → evaluation SAI
-    → Body CẦN: Direct-State grounding (ôm, có mặt, routine)
-    → Lời khuyên = ĐÚNG loại nhưng SAI timing
-    → = "Người ta đang chới với mà bạn giảng đạo"
+  Example 3: Chunk-Shift (losing someone dear) but given logical advice
+    → Body is RE-CALIBRATING its entire baseline → unstable
+    → Logic = Evaluative Reward → old chunks invalidating → evaluation misfires
+    → Body NEEDS: Direct-State grounding (being held, presence, routine)
+    → Advice = correct type but WRONG timing
+    → = "Someone is drowning and you're lecturing them"
 
-  NGUYÊN TẮC:
-    → Match gap TYPE trước, rồi mới calibrate LƯỢNG
-    → Sai type → lượng bao nhiêu cũng = wasted
-    → Tương đương Gap-Direction.md: reward phải khớp HƯỚNG cụ thể
+  PRINCIPLE:
+    → Match gap TYPE first, then calibrate AMOUNT
+    → Wrong type → no amount is enough → always wasted
+    → Equivalent to Gap-Direction.md: reward must match the SPECIFIC DIRECTION
 
-  🟡 "Sai type = wasted" = logical consequence of Gap-Direction principle
+  🟡 "Wrong type = wasted" = logical consequence of Gap-Direction principle
 ```
 
 ---
 
-## §3 — GOLDILOCKS ZONE: 3 TRẠNG THÁI
+## §3 — GOLDILOCKS ZONE: 3 STATES
 
-### §3.1 — Under-reward (quá ít cho gap)
+### §3.1 — Under-reward (too little for the gap)
 
 ```
-⭐ UNDER-REWARD = GAP CHƯA FILL → DISSONANCE KÉO DÀI:
+⭐ UNDER-REWARD = GAP UNFILLED → DISSONANCE PERSISTS:
 
-  CƠ CHẾ:
-    Gap tồn tại → body detect → cortisol fire (amplifier)
-    Reward đến nhưng KHÔNG ĐỦ fill gap → gap VẪN CÒN
-    → Cortisol Role ② Holding: "chưa xong" → PFC tracking pending
-    (Cortisol-Baseline.md §7.7)
-    → Kéo dài → CÓ THỂ shift sang Role ③ Threat-sustained
-    (nếu gap liên quan survival hoặc social)
+  MECHANISM:
+    Gap exists → body detects → cortisol fires (amplifier)
+    Reward arrives but INSUFFICIENT to fill gap → gap REMAINS
+    → Cortisol Role ② Holding: "not done yet" → PFC tracking pending
+      (Cortisol-Baseline.md §7.7)
+    → Extended duration → CAN shift to Role ③ Threat-sustained
+      (if gap is survival- or socially-relevant)
 
   DIRECTION SHIFT:
-    Under-reward kéo dài → approach tag CÓ THỂ flip sang avoidance:
-    → "Tôi cố gắng → không đủ reward → cố thêm → vẫn không đủ"
-    → Chunk compile với avoidance tag: "domain này = effort > reward"
+    Prolonged under-reward → approach tag CAN flip to avoidance:
+    → "I try → insufficient reward → try more → still insufficient"
+    → Chunk compiles with avoidance tag:
+      "this domain = effort > reward"
     → = Learned helplessness pattern
-    (Cortisol-Baseline.md §7.7 Role ① Compile Direction)
+      (Cortisol-Baseline.md §7.7 Role ① Compile Direction)
 
-  VÍ DỤ:
-    Lương quá thấp vs năng lực:
-      → Gap: competence >> reward → Chunk-Miss liên tục
-      → Cortisol sustained → leave hoặc burnout
-      → Status.md §1: Resource Access Map lệch → "tôi ACCESS ít hơn xứng đáng"
+  EXAMPLES:
+    Salary far below competence level:
+      → Gap: competence >> reward → continuous Chunk-Miss
+      → Sustained cortisol → leave or burnout
+      → Status.md §1: Resource Access Map skewed →
+        "I am ACCESS-ing less than I deserve"
 
-    Trẻ không được khen dù cố gắng:
+    Child not acknowledged despite effort:
       → Gap: effort → no recognition → Chunk-Miss
-      → Kéo dài → avoidance compile: "cố gắng = vô ích"
-      → = Foundation cho Background-Pattern.md [effort → not enough]
+      → Extended → avoidance compiles: "trying is pointless"
+      → = Foundation for Background-Pattern.md [effort → not enough]
 
-    Mối quan hệ thiếu connection:
-      → Gap: ❶ hardware social drive fire → không đủ response
-      → Connection.md §9: calibration 1 chiều → dissonance
-      → Body "lonely" dù có người bên cạnh
+    Relationship lacking connection:
+      → Gap: ❶ hardware social drive fires → insufficient response
+      → Connection.md §9: one-way calibration → dissonance
+      → Body feels "lonely" even with people nearby
 
   🟢 Learned helplessness: Seligman 1967
   🟢 Cortisol sustained: McEwen 1998 (allostatic load)
   🟡 Under-reward → direction shift = framework synthesis
 ```
 
-### §3.2 — Match (vừa đủ cho gap)
+### §3.2 — Match (just right for the gap)
 
 ```
 ⭐ MATCH = SWEET SPOT → SUSTAINABLE:
 
-  CƠ CHẾ:
-    Reward match gap → prediction-delta → body-base reward → gap fill
-    → Chunk compile với approach tag
-    → Body state: brief positive → reset → sẵn sàng gap tiếp
+  MECHANISM:
+    Reward matches gap → prediction-delta → body-base reward → gap fills
+    → Chunk compiles with approach tag
+    → Body state: brief positive → resets → ready for next gap
     → = Healthy perception-action cycle
 
-  ĐẶC ĐIỂM NHẬN DIỆN:
-    → Drive TỰ DUY TRÌ: không cần external push liên tục
-    → Approach tags tích lũy: "domain này = effort → reward"
-    → Cortisol healthy: spike → resolve → return baseline
-    → Baseline ỔN ĐỊNH (không shift lên quá nhanh)
+  IDENTIFYING FEATURES:
+    → Drive SELF-SUSTAINING: no constant external push needed
+    → Approach tags accumulating: "this domain = effort → reward"
+    → Cortisol healthy: spike → resolve → return to baseline
+    → Baseline STABLE (not shifting up too quickly)
 
-  NHƯNG — MATCH KHÔNG CỐ ĐỊNH:
-    → Match hôm nay CÓ THỂ = under-reward ngày mai
-    (baseline shift: Gratitude.md §4 — reward habituate)
-    → Match cho người này ≠ match cho người kia
-    (hardware: PFC-Hardware.md §3.4 — COMT × Reward Pattern)
-    → Match trong context này ≠ match trong context khác
-    (cortisol state, relationship, Background-Pattern)
+  BUT — MATCH IS NOT FIXED:
+    → Today's match CAN become tomorrow's under-reward
+      (baseline shift: Gratitude.md §4 — reward habituates)
+    → Match for this person ≠ match for another person
+      (hardware: PFC-Hardware.md §3.4 — COMT × Reward Pattern)
+    → Match in this context ≠ match in another context
+      (cortisol state, relationship, Background-Pattern)
 
-  VÍ DỤ:
-    Lương match năng lực + recognition đúng lúc:
-      → Chunk-Miss minimized → drive ổn định
-      → Approach tags accumulate → loyalty emerge
-      → = "Không giàu nhưng vui đi làm"
+  EXAMPLES:
+    Salary matching competence + timely recognition:
+      → Chunk-Miss minimized → drive stable
+      → Approach tags accumulate → loyalty emerges
+      → = "Not wealthy but happy to go to work"
 
-    Trẻ học piano: chunks compile → opioid → "hay!":
-      → Gap fill → exploration continue → curiosity emerge
-      → Bridge (nguồn ④) DẦN DẦN rút → nguồn ①②③ take over
-      (Education-Mechanism.md §3.4)
+    Child learning piano: chunks compile → opioid → "beautiful!":
+      → Gap fills → exploration continues → curiosity emerges
+      → Bridge (Source ④) gradually withdrawn → Sources ①②③ take over
+        (Education-Mechanism.md §3.4)
 
   🟡 Match = sustainable = framework synthesis
 ```
 
-### §3.3 — Over-reward (quá nhiều cho gap → §4)
+### §3.3 — Over-reward (too much for the gap → §4)
 
 ```
-⭐ OVER-REWARD = SURPLUS REWARD KHÔNG CÓ GAP ĐỂ MATCH:
+⭐ OVER-REWARD = SURPLUS REWARD WITH NO MATCHING GAP:
 
-  CƠ CHẾ:
-    Gap fill → reward VẪN ĐẾN → surplus
-    Surplus reward = KHÔNG CÓ gap nào match → vào đâu?
+  MECHANISM:
+    Gap fills → reward KEEPS ARRIVING → surplus
+    Surplus reward = NO matching gap → where does it go?
 
-    3 HƯỚNG SURPLUS REWARD ĐI:
-    ① Threshold adaptation → cần NHIỀU HƠN lần sau (§4①)
-    ② Create dependency → mất reward = đau dù trước đó = bonus (§4③④)
-    ③ Imbalance → hệ thống lệch → vấn đề ở chỗ khác (§4⑤⑥)
+    3 DIRECTIONS SURPLUS REWARD FLOWS:
+    ① Threshold adaptation → needs MORE next time (§4①)
+    ② Creates dependency → losing the reward becomes painful
+      even though it was previously a bonus (§4③④)
+    ③ Imbalance → system tilts → problems emerge elsewhere (§4⑤⑥)
 
-  TẠI SAO OVER-REWARD NGUY HIỂM HƠN UNDER-REWARD:
-    → Under-reward: body biết "thiếu" → signal rõ → CÓ THỂ điều chỉnh
-    → Over-reward: body "pleasant" → KHÔNG signal "quá" → mù
-    → = Over-reward là invisible → khó nhận diện → khó sửa
-    → Giống Cortisol-Baseline.md Role ⑤ Silent:
-      cortisol CAO nhưng KHÔNG CẢM NHẬN → damage tích lũy
-    → Over-reward = "silent surplus" → damage tích lũy
+  WHY OVER-REWARD IS MORE DANGEROUS THAN UNDER-REWARD:
+    → Under-reward: body KNOWS "insufficient" → clear signal →
+      CAN adjust
+    → Over-reward: body feels "pleasant" → NO signal of "too much" → blind
+    → = Over-reward is invisible → hard to detect → hard to fix
+    → Like Cortisol-Baseline.md Role ⑤ Silent:
+      cortisol HIGH but NOT PERCEIVED → damage accumulates
+    → Over-reward = "silent surplus" → damage accumulates
 
-  → Chi tiết 6 cơ chế: §4
+  → Details of 6 mechanisms: §4
 
   🟡 Over-reward harder to detect = framework inference
 ```
 
-### §3.4 — Over-reward ở CHUNK LEVEL: premature compilation
+### §3.4 — Over-reward at CHUNK LEVEL: premature compilation
 
 ```
-⭐ META-PRINCIPLE: OVER-REWARD BUỘC COMPILE CHUNKS TRƯỚC KHI ĐỦ NỀN:
+⭐ META-PRINCIPLE: OVER-REWARD FORCES CHUNK COMPILATION BEFORE THE
+  FOUNDATION IS READY:
 
-  Body-base là bên HÀNH ĐỘNG + thu thập thông tin + tương tác domain real.
-  Body-base tích lũy chunks → hình thành chunk-gap → drive fill gap
-  = QUY TRÌNH TỰ NHIÊN.
+  Body-base is on the ACTION side — collecting information + interacting
+  with real domains. Body-base accumulates chunks → chunk-gap forms →
+  drive to fill the gap = NATURAL PROCESS.
 
-  Over-reward = reward VƯỢT chunk-gap HIỆN TẠI:
-    → Body nhận surplus → CHƯA CÓ ĐỦ chunks nền để evaluate/sử dụng
-    → Nhưng body BUỘC PHẢI compile chunks mới để XỬ LÝ surplus
-    → Compile TRONG CONTEXT thiếu nền tảng → chunks LỆCH ngay từ đầu
-    → Chunks lệch → THÀNH NỀN cho chunks tiếp theo → cascade
-    → = Background-Pattern.md: pattern lệch accumulate → pervasive bias
+  Over-reward = reward EXCEEDS CURRENT chunk-gap:
+    → Body receives surplus → INSUFFICIENT foundation chunks to evaluate/use
+      the reward properly
+    → But body IS FORCED to compile new chunks to PROCESS the surplus
+    → Compiling IN CONTEXT of insufficient foundation → chunks SKEWED
+      from the start
+    → Skewed chunks → BECOME FOUNDATION for subsequent chunks → cascade
+    → = Background-Pattern.md: skewed patterns accumulate → pervasive bias
 
-  3 CASES PHÂN TÁCH — KHÔNG PHẢI OVER-REWARD NÀO CŨNG HẠI:
+  3 CASES — NOT ALL OVER-REWARD IS HARMFUL:
 
-  CASE 1 — E₀ HARDWARE REJECT (VÔ HẠI):
-    Đường quá nhiều → ngấy → body reject NGAY → KHÔNG compile chunks sai
-    → E₀ = hardware Goldilocks (Reward-Signal-Architecture §2.1) → feedback NGAY LẬP TỨC
-    → Body biết "quá" ở tầng hardware → dừng → vô hại
+  CASE 1 — E₀ HARDWARE REJECT (HARMLESS):
+    Too much sugar → sickening → body rejects IMMEDIATELY →
+      DOESN'T compile wrong chunks
+    → E₀ = hardware Goldilocks (Reward-Signal-Architecture §2.1) →
+      IMMEDIATE feedback
+    → Body knows "too much" at the hardware level → stops → harmless
 
-  CASE 2 — KHÔNG CÓ GAP (VÔ HẠI):
-    Trẻ lớp 3 được tặng xe hơi → chưa có gap về xe → no gap match
-    → Body: "đồ gì to to" → không compile gì sâu → vô hại
-    → = Gap-Direction.md §3: "chưa biết = không có gap"
-    → Reward rơi vào khoảng trống → không tạo damage
+  CASE 2 — NO GAP (HARMLESS):
+    Third-grader receiving a car → no gap about cars → no gap match
+    → Body: "big thing" → doesn't compile anything deep → harmless
+    → = Gap-Direction.md §3: "unknown = no gap"
+    → Reward falls into empty space → creates no damage
 
-  CASE 3 — CÓ GAP NHƯNG DEPTH CHƯA ĐỦ (NGUY HIỂM ⚠️):
-    Schema drive CÓ (tiền = proxy, gap vô tận) + gap CÓ (muốn nhiều hơn)
-    NHƯNG chunks nền CHƯA ĐỦ để evaluate + sử dụng reward đúng cách.
+  CASE 3 — GAP EXISTS BUT DEPTH INSUFFICIENT (DANGEROUS ⚠️):
+    Schema drive EXISTS (money = proxy, infinite gap) + gap EXISTS
+    (wants more) BUT foundation chunks INSUFFICIENT to properly
+    evaluate + use the reward.
 
-    Trúng số:
-      → Gap [cần tiền] CÓ → reward match gap type
-      → NHƯNG: chunks "quản lý tài sản lớn" CHƯA CÓ
-      → Body BUỘC compile "wealth management" chunks từ scratch
-      → Compile TRONG context thiếu nền → chunks thường SAI:
-        [tiền dễ kiếm] [có thể mua mọi thứ] [không cần cẩn thận]
-      → Chunks sai → quyết định sai → mất tiền → SNC cực mạnh
-      → 🟢 ~70% lottery winners = worse off within years
+    Lottery winner:
+      → Gap [needs money] EXISTS → reward matches gap type
+      → BUT: chunks for "managing large wealth" NOT YET PRESENT
+      → Body FORCED to compile "wealth management" chunks from scratch
+      → Compiling IN CONTEXT of insufficient foundation → chunks often WRONG:
+        [money is easy to get] [can buy anything] [no need for caution]
+      → Wrong chunks → wrong decisions → lose money →
+        Successive Negative Contrast (SNC) extreme
+      → 🟢 ~70% of lottery winners are worse off within years
 
-    Lương vượt năng lực (§4⑤ chi tiết):
-      → Gap [cần tiền] CÓ → reward match gap type
-      → NHƯNG: chunks "năng lực ở level này" CHƯA ĐỦ
-      → Body compile: [access cao] nhưng THIẾU [tôi xứng đáng access này]
-      → = Imposter + xung quanh recalibrate → double pressure
-      → Chunks compile TRONG dissonance → approach/avoidance MIXED
+    Salary exceeding competence (§4⑤ detail):
+      → Gap [needs money] EXISTS → reward matches gap type
+      → BUT: chunks for "competence at this level" INSUFFICIENT
+      → Body compiles: [high access] but MISSING [I deserve this access]
+      → = Imposter syndrome + peers recalibrate → double pressure
+      → Chunks compile IN DISSONANCE → approach/avoidance MIXED
 
-    Thừa kế lớn:
-      → Transfer KHÔNG QUA effort → chunks "wealth" compile
-        KHÔNG CÓ effort chunks đi kèm
-      → = "Có tiền mà không biết tại sao có"
-      → Background-Pattern hình thành: [tiền = free]
-      → Bias mọi quyết định tài chính sau này
+    Large inheritance:
+      → Transfer WITHOUT effort → "wealth" chunks compile WITHOUT
+        accompanying effort chunks
+      → = "Wealthy but don't know why"
+      → Background-Pattern forms: [money = free]
+      → Biases every financial decision going forward
 
-  TẠI SAO CASE 3 NGUY HIỂM HƠN CASE 1+2:
-    → Case 1: hardware feedback NGAY → dừng → không compile sai
-    → Case 2: không có gap → không compile gì → không damage
-    → Case 3: gap CÓ + drive CÓ + nền THIẾU → BUỘC compile
-      → Compile xảy ra DÙ KHÔNG SẴN SÀNG
-      → Chunks sai → THÀNH foundation → cascade
-      → = "Con dao 2 lưỡi" — reward có thể LÀM TỐT body-base
-        (thật sự giàu hơn), nhưng ĐỒNG THỜI tạo chunks lệch
+  WHY CASE 3 IS MORE DANGEROUS THAN CASES 1+2:
+    → Case 1: hardware feedback IMMEDIATE → stops → no wrong compilation
+    → Case 2: no gap → nothing to compile → no damage
+    → Case 3: gap EXISTS + drive EXISTS + foundation INSUFFICIENT →
+      FORCED to compile
+      → Compilation happens WHETHER OR NOT ready
+      → Skewed chunks → BECOME FOUNDATION → cascade
+      → = "A double-edged sword" — reward CAN GENUINELY IMPROVE body-base
+        (actually wealthier), but SIMULTANEOUSLY creates skewed chunks
 
   🟢 Lottery winner outcomes: Brickman 1978, Hankins et al. 2011
   🟡 Premature compilation under over-reward = framework synthesis
@@ -511,38 +537,39 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §4 — OVER-REWARD: 6 CƠ CHẾ HẠI
+## §4 — OVER-REWARD: 6 HARMFUL MECHANISMS
 
 ```
-⭐ 6 CƠ CHẾ — mỗi cơ chế là 1 đường khác nhau surplus reward gây hại:
+⭐ 6 MECHANISMS — each is a DIFFERENT route through which surplus reward causes harm:
 
-  Không phải 6 cơ chế xảy ra cùng lúc.
-  Cũng không phải chỉ 1 cơ chế per case.
-  = Combination tùy case, tùy person, tùy context.
+  Not all 6 mechanisms occur simultaneously.
+  Nor is there only 1 mechanism per case.
+  = Combination varies by case, by person, by context.
 ```
 
 ### §4.1 — ① THRESHOLD ADAPTATION (hedonic treadmill)
 
 ```
-⭐ REWARD LIÊN TỤC → BASELINE TĂNG → CÙNG REWARD = PREDICTION-DELTA GIẢM:
+⭐ CONTINUOUS REWARD → BASELINE RISES → SAME REWARD = PREDICTION-DELTA DECREASES:
 
-  CƠ CHẾ (Gratitude.md §3.1 + §4):
-    Gift lần đầu → VTA fire delta → opioid → reward → "pleasant"
-    Gift lần 2-10 → VTA dần habituate → reward GIẢM
-    Gift lần 50-100+ → VTA habituate hoàn toàn → gift = INVISIBLE
-    → Cần reward MỚI, LỚN HƠN để tạo prediction-delta dương
-    → = Hedonic treadmill: chạy mãi, vị trí KHÔNG TIẾN
+  MECHANISM (Gratitude.md §3.1 + §4):
+    Gift the first time → VTA fires delta → opioid → reward → "pleasant"
+    Gift times 2–10 → VTA gradually habituates → reward DECREASES
+    Gift times 50–100+ → VTA fully habituated → gift = INVISIBLE
+    → Needs NEWER, BIGGER reward to create a positive prediction-delta
+    → = Hedonic treadmill: running constantly, position NEVER ADVANCES
 
-  VÍ DỤ:
-    Lương: $1M → adapt → $10M → adapt → $100M → "vẫn thiếu"
-    Đường: ngọt vừa → adapt → cần NGỌT HƠN → adapt → cần NGỌT HƠN NỮA
-    Khen: "giỏi" → adapt → "xuất sắc" → adapt → "thiên tài" → adapt
-    → Mỗi level trở thành "bình thường mới"
+  EXAMPLES:
+    Salary: $100K → adapt → $1M → adapt → $10M → "still not enough"
+    Sugar: just sweet → adapt → needs SWEETER → adapt → needs EVEN SWEETER
+    Praise: "great" → adapt → "excellent" → adapt → "genius" → adapt
+    → Each level becomes "the new normal"
 
-  TẠI SAO ĐANG "SƯỚNG" MÀ VẪN "THIẾU":
-    → Body THẬT SỰ thiếu — vì baseline ĐÃ SHIFT
-    → Không phải "tham" — là threshold SINH HỌC đã calibrate lên
-    → Dừng tại level hiện tại → actual < shifted baseline → prediction-delta âm → "thiếu"
+  WHY YOU'RE "COMFORTABLE" YET STILL "LACKING":
+    → Body is GENUINELY lacking — because the baseline HAS SHIFTED
+    → Not "greed" — it's the BIOLOGICAL threshold that recalibrated upward
+    → Staying at the current level → actual < shifted baseline →
+      prediction-delta negative → "lacking"
     → = Not greed, but threshold adaptation
 
   🟢 Hedonic treadmill: Brickman & Campbell 1971, Frederick & Loewenstein 1999
@@ -550,203 +577,222 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Hedonic adaptation: Brickman 1978 (lottery winners return to baseline)
 ```
 
-### §4.2 — ② OVERJUSTIFICATION (external kill internal)
+### §4.2 — ② OVERJUSTIFICATION (external kills internal)
 
 ```
-⭐ EXTERNAL REWARD MẠNH HƠN INTERNAL PREDICTION-DELTA → NÃO CHỈ TRACK EXTERNAL:
+⭐ EXTERNAL REWARD STRONGER THAN INTERNAL PREDICTION-DELTA → BRAIN TRACKS ONLY EXTERNAL:
 
-  CƠ CHẾ (Education-Mechanism.md §3.1):
-    Trước: hành vi có prediction-delta nội tại (internal drive) → TỰ LÀM vì THÍCH
-    Thêm external reward MẠNH → não switch track SANG external
-    (external > internal → VTA track source MẠNH HƠN)
-    Rút external → prediction-delta = 0 (internal đã bị suppress) → DỪNG hành vi
+  MECHANISM (Education-Mechanism.md §3.1):
+    Before: behavior has intrinsic prediction-delta (internal drive) →
+      DOES IT BECAUSE THEY ENJOY IT
+    Add STRONG external reward → brain switches to tracking EXTERNAL
+      (external > internal → VTA tracks the STRONGER source)
+    Remove external → prediction-delta = 0 (internal was suppressed) →
+      BEHAVIOR STOPS
 
-  VÍ DỤ:
-    Cho tiền vẽ → vẽ vì tiền → hết tiền → không vẽ nữa
-    (DÙ trước đó TỰ VẼ vì thích)
+  EXAMPLES:
+    Pay to draw → draws for money → no money → stops drawing
+      (even though they used to draw because they LIKED it)
 
-    Cho kẹo học bài → học vì kẹo → hết kẹo → không học nữa
-    (DÙ trước đó TÒ MÒ muốn biết)
+    Give candy to study → studies for candy → no candy → stops studying
+      (even though they were CURIOUS to know)
 
-    Bonus cho sáng tạo → sáng tạo vì bonus → cắt bonus → hết sáng tạo
-    (DÙ trước đó có internal creative drive)
+    Bonus for creativity → creates for bonus → cut bonus → creativity gone
+      (even though there was an internal creative drive before)
 
   BRIDGE PARALLEL (Education-Mechanism.md §3.1):
-    → Bridge = external inject (nguồn ④) GIỮ student ở lại
-    → Bridge ĐÚNG = nhỏ nhất có thể → đợi nguồn ①②③ emerge → phase out
-    → Bridge QUÁ MẠNH = overjustification → nguồn ④ dominate → ①②③ suppress
-    → = "Thuốc quá liều → ngộ độc" (Education-Mechanism.md §3.1)
+    → Bridge = external injection (Source ④) that KEEPS students engaged
+    → Correct bridge = smallest possible → wait for Sources ①②③ to emerge
+      → phase out
+    → Bridge TOO STRONG = overjustification → Source ④ dominates →
+      ①②③ suppressed
+    → = "Medicine overdosed → poisoning"
+      (Education-Mechanism.md §3.1)
 
   🟢 Overjustification effect: Deci 1971, Lepper et al. 1973
   🟢 Self-Determination Theory: Deci & Ryan 1985, 2000
 ```
 
-### §4.3 — ③ BRIDGE DEPENDENCY (rút bridge = anchor crash)
+### §4.3 — ③ BRIDGE DEPENDENCY (withdraw the bridge = anchor crash)
 
 ```
-⭐ NGUỒN ④ DOMINATE QUÁ LÂU → NGUỒN ①②③ KHÔNG EMERGE:
+⭐ SOURCE ④ DOMINATES TOO LONG → SOURCES ①②③ NEVER EMERGE:
 
-  CƠ CHẾ (Education-Mechanism.md §3.4):
-    4 nguồn fill anchor: ① PFC Imagine-Final, ② Hippocampus experience,
-    ③ Compiled schemas, ④ External inject (bridges).
-    Bridge ĐÚNG: ④ giữ → ①②③ grow → ④ rút dần → HEALTHY transition
-    Bridge dependency: ④ dominate 100% → ①②③ KHÔNG develop
-    → Rút ④ = anchor crash (Anchor-Schema.md: sync point mất)
-    → "Không ai bảo tôi phải làm gì → tôi không biết muốn gì"
+  MECHANISM (Education-Mechanism.md §3.4):
+    4 fill sources for anchor: ① PFC Imagine-Final, ② Hippocampus experience,
+    ③ Compiled schemas, ④ External injection (bridges).
+    Correct bridge: ④ holds → ①②③ grow → ④ withdraws gradually →
+      HEALTHY transition
+    Bridge dependency: ④ dominates 100% → ①②③ NEVER DEVELOP
+    → Remove ④ = anchor crash (Anchor-Schema.md: sync point lost)
+    → "No one tells me what to do → I don't know what I want"
 
-  KHÁC OVERJUSTIFICATION:
-    ② Overjustification: external KILL internal đã có
-    ③ Bridge dependency: external NGĂN internal HÌNH THÀNH
-    → ② = destroy existing. ③ = prevent emergence.
-    → ③ nghiêm trọng hơn: ② còn có thể restore (hồi phục internal đã bị suppress),
-    ③ phải BUILD TỪ ĐẦU (internal chưa bao giờ có)
+  DIFFERS FROM OVERJUSTIFICATION:
+    ② Overjustification: external KILLS internal that already existed
+    ③ Bridge dependency: external PREVENTS internal from FORMING
+    → ② = destroys existing. ③ = prevents emergence.
+    → ③ is more serious: ② can still restore (recover the suppressed internal),
+      ③ must BUILD FROM SCRATCH (internal never existed)
 
-  VÍ DỤ:
-    Trẻ chỉ học khi có kẹo → không kẹo = không học
-    → Kẹo 12 năm → nguồn ① (tự muốn gì) CHƯA BAO GIỜ develop
-    → Ra đời → "quarter-life crisis" → ~50-60% motivation biến mất
-    (Education-Mechanism.md §3.4 → mass schooling pattern)
+  EXAMPLES:
+    Child who only studies with candy → no candy = no studying
+    → Candy for 12 years → Source ① (knowing what they want) NEVER DEVELOPS
+    → Enters adult life → "quarter-life crisis" →
+      ~50–60% of motivation disappears
+      (Education-Mechanism.md §3.4 → mass schooling pattern)
 
-    Nhân viên chỉ làm vì bonus → không bonus = không effort
-    → Bonus 10 năm → internal drive CHƯA HÌNH THÀNH cho domain
-    → Cắt bonus = collapse → "tôi chỉ làm vì tiền"
+    Employee who only works for bonus → no bonus = no effort
+    → Bonus for 10 years → internal drive NEVER FORMED for this domain
+    → Cut bonus = collapse → "I only work for money"
 
   🟢 Extrinsic motivation crowding: Frey & Jegen 2001
   🟡 Bridge dependency vs overjustification distinction = framework synthesis
 ```
 
-### §4.4 — ④ BASELINE SHIFT (gift habituate → mất = đau)
+### §4.4 — ④ BASELINE SHIFT (gift habituates → losing it = pain)
 
 ```
-⭐ GIFT LIÊN TỤC → BASELINE SHIFT → CÙNG GIFT = prediction-delta ≈ 0:
+⭐ CONTINUOUS GIFT → BASELINE SHIFT → SAME GIFT = prediction-delta ≈ 0:
 
-  CƠ CHẾ (Gratitude.md §4):
-    Compile baseline formula:
-      compile_rate ≈ f(repetition × saliency × peak_valence × multi_modal × contingency)
-    Repetition CAO → baseline shift MẠNH → gift = baseline = INVISIBLE
-    Mất gift → actual < compiled baseline → SNC → "giận"
-    (dù trước đó gift = BONUS, không phải entitlement)
+  MECHANISM (Gratitude.md §4):
+    Baseline compilation formula:
+      compile_rate ≈ f(repetition × saliency × peak_valence × multi_modal ×
+        contingency)
+    HIGH repetition → STRONG baseline shift → gift = baseline = INVISIBLE
+    Losing the gift → actual < compiled baseline → SNC → "anger"
+    (even though the gift was previously a BONUS, not an entitlement)
 
-  KHÁC THRESHOLD ADAPTATION:
-    ① Threshold adapt: cần NHIỀU HƠN để có reward CÙNG LEVEL
-    ④ Baseline shift: cùng reward = prediction-delta ≈ 0 (invisible), MẤT = ĐAU
-    → ① = reward GIẢM dần. ④ = reward BIẾN MẤT + mất = NEGATIVE.
-    → ④ nguy hiểm hơn: không chỉ "cần thêm" mà "mất = crisis"
+  DIFFERS FROM THRESHOLD ADAPTATION:
+    ① Threshold adaptation: needs MORE to get the SAME LEVEL of reward
+    ④ Baseline shift: same reward = prediction-delta ≈ 0 (invisible),
+      LOSING IT = PAIN
+    → ① = reward DECREASES gradually. ④ = reward DISAPPEARS + loss = NEGATIVE.
+    → ④ is more dangerous: not just "need more" but "losing it = crisis"
 
-  VÍ DỤ:
-    Xe công ty → dùng 5 năm → quen → "bình thường"
-    → Mất xe = prediction-delta âm dù trước đó xe = thưởng thêm
-    → Giống SNC (Crespi 1942): downshift từ high baseline → anger, not sadness
+  EXAMPLES:
+    Company car → used for 5 years → habituated → "normal"
+    → Losing the car = negative prediction-delta even though the car was
+      originally a bonus
+    → Like SNC (Crespi 1942): downshift from high baseline → anger, not sadness
 
-    Bữa cơm mẹ nấu 10,000 lần → habituated → invisible
-    → Xa nhà 5 năm → VTA habituation DECAY → về ăn = "intensely pleasant"
-    → = Variation (Gratitude.md §3.2) reset baseline
+    Mother's cooking 10,000 times → habituated → invisible
+    → Away from home for 5 years → VTA habituation decays →
+      coming back to eat = "intensely pleasant"
+    → = Variation (Gratitude.md §3.2) resets the baseline
 
-    Mạng xã hội likes liên tục → baseline = "phải có likes"
-    → 1 post không ai like → SNC → "có gì sai?"
+    Social media likes continuously → baseline = "must have likes"
+    → One post with no likes → SNC → "something wrong with me?"
 
   🟢 SNC: Crespi 1942, Flaherty 1996
   🟢 Hedonic adaptation: Brickman 1978
-  🟡 Baseline shift → mất = negative = framework synthesis from Gratitude.md §4
+  🟡 Baseline shift → loss = negative = framework synthesis from Gratitude.md §4
 ```
 
-### §4.5 — ⑤ COMPETENCE-REWARD MISMATCH (2 hướng)
+### §4.5 — ⑤ COMPETENCE-REWARD MISMATCH (2 directions)
 
 ```
-⭐ REWARD VÀ COMPETENCE LỆCH → DISSONANCE:
+⭐ REWARD AND COMPETENCE MISALIGNED → DISSONANCE:
 
-  CƠ CHẾ:
+  MECHANISM:
 
-  HƯỚNG A — Reward > Competence (Imposter):
-    → Nhận reward VÀO CAO hơn năng lực thật → body detect mismatch
-    → Status.md §1: Resource Access Map = tôi ACCESS hơn xứng đáng
-    → Body: "access này không bền" → cortisol tăng (uncertainty)
-    → Xung quanh: detect mismatch → social recalibration
-    → "Trời không chịu đất thì đất phải chịu trời"
-      = Collective adjust để cân bằng access map
-    → VD: thăng chức quá nhanh → imposter feeling + team friction
+  DIRECTION A — Reward > Competence (Imposter):
+    → Receives reward HIGHER than actual competence → body detects mismatch
+    → Status.md §1: Resource Access Map = accessing MORE than deserved
+    → Body: "this access is not sustainable" → cortisol rises (uncertainty)
+    → Those around you: detect mismatch → social recalibration
+    → "If the sky won't yield to the earth, the earth must yield to the sky"
+      = Collective adjustment to rebalance the access map
+    → Example: promoted too quickly → imposter feeling + team friction
 
-  HƯỚNG B — Competence > Reward (Undervalued):
-    → Năng lực THẬT cao hơn reward nhận được → Chunk-Miss liên tục
-    → Body: "tôi CHO nhiều hơn tôi NHẬN" → resentment accumulate
-    → Kéo dài → leave hoặc quiet quitting
-    → VD: senior engineer lương ngang junior → "không xứng đáng"
+  DIRECTION B — Competence > Reward (Undervalued):
+    → Actual competence HIGHER than reward received → continuous Chunk-Miss
+    → Body: "I am GIVING more than I am RECEIVING" → resentment accumulates
+    → Extended → leave or quiet quitting
+    → Example: senior engineer earning a junior salary → "not deserved"
 
-  2 HƯỚNG ĐỀU LÀ DYNAMIC:
-    → Hướng A: xung quanh adjust ngược (giảm expectation, tăng scrutiny)
-    → Hướng B: người đó adjust (tìm chỗ khác, giảm effort)
-    → = Dynamic equilibrium: 2 bên liên tục adjust
-    → Connection.md §9: calibration = 2 bodies tune nhau
+  BOTH DIRECTIONS ARE DYNAMIC:
+    → Direction A: others adjust back (lower expectations, increase scrutiny)
+    → Direction B: the person adjusts (find somewhere else, reduce effort)
+    → = Dynamic equilibrium: both sides continuously adjust
+    → Connection.md §9: calibration = 2 bodies tuning to each other
 
   🟡 Competence-reward mismatch = Status.md Resource Access Map × Chunk-Miss
-  🟡 "Trời không chịu đất" = dynamic equilibrium = framework synthesis
+  🟡 Dynamic equilibrium = framework synthesis
 ```
 
-### §4.6 — ⑥ EVALUATIVE/DIRECT-STATE IMBALANCE (1 loại quá nhiều)
+### §4.6 — ⑥ EVALUATIVE/DIRECT-STATE IMBALANCE (one type too dominant)
 
 ```
-⭐ QUÁ NHIỀU EVALUATIVE HOẶC DIRECT-STATE → MẤT CÂN BẰNG:
+⭐ TOO MUCH EVALUATIVE OR TOO MUCH DIRECT-STATE → LOSS OF BALANCE:
 
-  CƠ CHẾ (Reward-Signal-Architecture §1-§3):
+  MECHANISM (Reward-Signal-Architecture §1–§3):
 
-  QUÁ NHIỀU EVALUATIVE:
-    → E₃ threshold CAO (Reward-Signal-Architecture §2.1: E₀→E₃ gradient)
-    → Simple pleasures KHÔNG ĐỦ prediction-delta vượt threshold
-    → Direct-State Reward VẪN work (hardware) nhưng PFC "dismiss" (đã quen E₃)
-    → = "Giàu nhưng không biết vui"
-    → E₃ evaluative = complex, conditional, DỄNG habituate
-    → Direct-State = hardware, simple, RELIABLE nhưng bị NEGLECT
+  TOO MUCH EVALUATIVE REWARD:
+    → E₃ threshold HIGH (Reward-Signal-Architecture §2.1: E₀→E₃ gradient)
+    → Simple pleasures INSUFFICIENT prediction-delta to clear threshold
+    → Direct-State Reward STILL works (hardware) but PFC "dismisses" it
+      (already calibrated to E₃)
+    → = "Wealthy but unable to feel joy"
+    → E₃ evaluative = complex, conditional, EASY TO habituate
+    → Direct-State = hardware, simple, RELIABLE but NEGLECTED
 
-  QUÁ NHIỀU DIRECT-STATE:
-    → Body-state comfort HIGH nhưng evaluative depth LOW
-    → No chunk compilation for E₂-E₃ → no coherence reward
-    → = "Vui nhưng emptiness" (fun without depth)
-    → Meaning.md: không có GOAL/STATE/IDENTITY anchor → no meaning
+  TOO MUCH DIRECT-STATE REWARD:
+    → Body-state comfort HIGH but evaluative depth LOW
+    → No chunk compilation for E₂–E₃ → no coherence reward
+    → = "Fun but empty"
+    → Meaning.md: no GOAL/STATE/IDENTITY anchor → no meaning
 
-  EVALUATIVE/DIRECT-STATE RATIO CẦN BALANCE:
+  EVALUATIVE/DIRECT-STATE RATIO NEEDS BALANCE:
     → Maximize Evaluative alone → lose Direct-State → lose safe baseline
     → Maximize Direct-State alone → lose Evaluative → lose depth + meaning
-    → = Evaluative/Direct-State ratio = calibration parameter CỦA CHÍNH NÓ
+    → = Evaluative/Direct-State ratio = calibration parameter IN ITSELF
 
-  EVALUATIVE GATES DIRECT-STATE IMPLICATION (Reward-Signal-Architecture §3):
-    → Evaluative calibration MẠNH → Direct-State experience TĂNG (E₃ anchor amplify)
-    → Evaluative calibration YẾU → Direct-State "flat" (no gate to amplify through)
-    → Over-calibrate A → BLOCK B → "hiểu hết mà không cảm được"
+  EVALUATIVE GATES DIRECT-STATE IMPLICATION
+  (Reward-Signal-Architecture §3):
+    → Strong Evaluative calibration → Direct-State experience AMPLIFIED
+      (E₃ anchor amplifies)
+    → Weak Evaluative calibration → Direct-State "flat" (no gate to amplify
+      through)
+    → Over-calibrate Evaluative → BLOCKS Direct-State → "understand everything
+      but can't feel it"
     → = "Expert wine taster no longer enjoys casual wine"
 
-  🟡 Evaluative/Direct-State imbalance = Reward-Signal-Architecture Evaluative/Direct-State + Meaning.md synthesis
-  🟡 Evaluative Gates Direct-State implication for calibration = framework inference
+  🟡 Evaluative/Direct-State imbalance = Reward-Signal-Architecture
+    Evaluative/Direct-State + Meaning.md synthesis
+  🟡 Evaluative Gates Direct-State implication for calibration =
+    framework inference
 ```
 
 ---
 
-## §5 — DYNAMIC EQUILIBRIUM: TẠI SAO KHÔNG THỂ PRESCRIBE
+## §5 — DYNAMIC EQUILIBRIUM: WHY YOU CANNOT PRESCRIBE
 
-### §5.1 — Parallel với Logic-Feeling-Balance.md
+### §5.1 — Parallel with Logic-Feeling-Balance.md
 
 ```
-⭐ REWARD CALIBRATION = KHÔNG THỂ PRESCRIBE — CÙNG LÝ DO:
+⭐ REWARD CALIBRATION = CANNOT BE PRESCRIBED — SAME REASON:
 
-  Logic-Feeling-Balance.md §6-§7:
-    → Thử tạo rule → mỗi rule có blind spot
-    → Thử meta-rule → meta-rule cũng có blind spot
-    → = Infinite regress → KHÔNG CÓ điểm dừng
-    → = Gödel-like incompleteness ở level cognitive
+  Logic-Feeling-Balance.md §6–§7:
+    → Try to create a rule → every rule has blind spots
+    → Try a meta-rule → the meta-rule also has blind spots
+    → = Infinite regress → NO stopping point
+    → = Gödel-like incompleteness at the cognitive level
 
-  Reward Calibration CÙNG PATTERN:
-    → Thử prescribe "cho X reward cho gap Y" → fail vì:
+  Reward Calibration FOLLOWS THE SAME PATTERN:
+    → Try to prescribe "give X reward for gap Y" → fails because:
 
-    ① Person khác → sweet spot KHÁC
-       (hardware: COMT, DRD4, receptor sensitivity — PFC-Hardware.md §3.4)
-    ② Context khác → sweet spot KHÁC
-       (cortisol state, relationship, Background-Pattern — dynamic)
-    ③ Time khác → sweet spot KHÁC
+    ① Different person → different sweet spot
+       (hardware: COMT, DRD4, receptor sensitivity —
+        PFC-Hardware.md §3.4)
+    ② Different context → different sweet spot
+       (cortisol state, relationship, Background-Pattern — all dynamic)
+    ③ Different time → different sweet spot
        (baseline shift, development stage, habituation — Gratitude.md §4)
-    ④ Gap khác → sweet spot KHÁC
+    ④ Different gap → different sweet spot
        (Shift/Miss/Gap, direction, depth — Gap-Direction.md)
 
-    → = 4 chiều ALL dynamic → fixed formula KHÔNG THỂ cover
-    → Thử meta-formula "adjust per person per context per time per gap"
+    → = 4 dimensions ALL dynamic → fixed formula CANNOT cover them
+    → Try meta-formula "adjust per person per context per time per gap"
     → Meta-formula = itself a fixed formula → SAME problem
     → = Infinite regress
 
@@ -754,135 +800,132 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Infinite regress = Gödel-like incompleteness applied to reward
 ```
 
-### §5.2 — Perception-action cycle: trọng tài duy nhất = domain feedback
+### §5.2 — Perception-action cycle: domain feedback = the only arbiter
 
 ```
 ⭐ REWARD CALIBRATION = PERCEPTION-ACTION CYCLE:
 
-  Sếp ↔ nhân viên:
-    → Sếp cho reward → nhân viên response → sếp observe → adjust
-    → Nhân viên cho effort → sếp response → nhân viên observe → adjust
-    → 2 BODIES tune nhau liên tục (Connection.md §9)
-    → KHÔNG CÓ điểm cố định — chỉ có equilibrium TẠM THỜI
+  Manager ↔ employee:
+    → Manager gives reward → employee responds → manager observes → adjusts
+    → Employee gives effort → manager responds → employee observes → adjusts
+    → 2 BODIES continuously tune to each other (Connection.md §9)
+    → NO fixed point — only TEMPORARY equilibrium
 
-  Bố mẹ ↔ con:
-    → Bridge (nguồn ④) → con response → observe → adjust bridge
-    → Con develop ①②③ → bridge rút DẦN → observe → adjust rút thêm
-    → = Calibration LIÊN TỤC, không phải "rút hết bridge ngày X"
+  Parent ↔ child:
+    → Bridge (Source ④) → child responds → observe → adjust bridge
+    → Child develops ①②③ → bridge gradually withdrawn → observe →
+      withdraw more
+    → = CONTINUOUS calibration, not "remove all bridge on day X"
 
-  Xã hội ↔ cá nhân:
-    → Obligation (xã hội expect) ↔ Autonomy (cá nhân want)
-    → 2 lực adjust liên tục → equilibrium shift theo context
-    → Obligation.md: 5-factor formula = observation, không prescribe
+  Society ↔ individual:
+    → Obligation (society expects) ↔ Autonomy (individual wants)
+    → 2 forces continuously adjust → equilibrium shifts with context
+    → Obligation.md: 5-factor formula = observation, not prescription
 
-  DOMAIN FEEDBACK = TRỌNG TÀI DUY NHẤT:
-    → Không ai NGOÀI có thể biết sweet spot của người TRONG
-    → Chỉ có: observe response → adjust → observe → adjust
-    → = Dynamic equilibrium, KHÔNG phải fixed formula
-    → Mỗi người TỰ CALIBRATE (Logic-Feeling-Balance.md §10)
+  DOMAIN FEEDBACK = THE ONLY ARBITER:
+    → No one OUTSIDE can know the sweet spot of the person INSIDE
+    → Only: observe response → adjust → observe → adjust
+    → = Dynamic equilibrium, NOT fixed formula
+    → Each person SELF-CALIBRATES (Logic-Feeling-Balance.md §10)
 
-  TẠI SAO FILE NÀY GIÚP (dù không prescribe):
-    → Giúp NHẬN DIỆN: "reward đang ở vùng nào" (under / match / over)
-    → Giúp HIỂU: "cơ chế nào đang chạy" (6 cơ chế §4)
-    → Giúp TRÁNH: common traps (sai type, sai lượng, sai timing)
-    → = Describe, KHÔNG prescribe (Logic-Feeling-Balance.md §8.1)
+  WHY THIS FILE HELPS (even though it doesn't prescribe):
+    → Helps IDENTIFY: "which zone is the reward in?" (under / match / over)
+    → Helps UNDERSTAND: "which mechanism is running?" (6 mechanisms §4)
+    → Helps AVOID: common traps (wrong type, wrong amount, wrong timing)
+    → = Describe, NOT prescribe (Logic-Feeling-Balance.md §8.1)
 
   🟡 Perception-action cycle for reward = dynamic equilibrium
   🟡 Domain feedback = only arbiter = Logic-Feeling-Balance.md core
 ```
 
-### §5.3 — Tại sao đây là điều BÌNH THƯỜNG
+### §5.3 — Why this is completely NORMAL
 
 ```
-  NẾU reward calibration CÓ THỂ prescribe hoàn hảo:
-    → Sẽ không cần observe response
-    → Sẽ không cần adjust
-    → Sẽ không cần relationship
-    → Sẽ không cần SỐNG qua trải nghiệm
+  IF reward calibration COULD be perfectly prescribed:
+    → No need to observe responses
+    → No need to adjust
+    → No need for relationship
+    → No need to LIVE through experience
 
-  = Prescribe hoàn hảo = omniscience
-  = Con người ≠ omniscient (Logic-Feeling-Balance.md §7.4)
-  = Vậy: không thể prescribe = ĐÚNG, BÌNH THƯỜNG, EXPECTED
+  = Perfect prescription = omniscience
+  = Humans ≠ omniscient (Logic-Feeling-Balance.md §7.4)
+  = Therefore: cannot prescribe = CORRECT, NORMAL, EXPECTED
 
-  Dynamic equilibrium giữa giver và receiver KHÔNG PHẢI vấn đề.
-  Nó LÀ CƠ CHẾ:
-    → Giver observe → adjust → receiver response → giver observe → ...
-    → LOOP VÔ TẬN = relationship, management, parenting, teaching
-    → Mọi attempt shortcut loop = fail (prescribe = shortcut)
+  Dynamic equilibrium between giver and receiver is NOT a problem.
+  It IS the mechanism:
+    → Giver observes → adjusts → receiver responds → giver observes → ...
+    → INFINITE LOOP = relationship, management, parenting, teaching
+    → Every attempt to shortcut the loop = fails (prescription = a shortcut)
 
   🟡 Cannot prescribe = expected = framework epistemological position
 ```
 
-### §5.4 — Collective Calibration: thị trường = anti-over-reward tự nhiên
+### §5.4 — Collective Calibration: the market = natural anti-over-reward
 
 ```
-⭐ DYNAMIC EQUILIBRIUM KHÔNG CHỈ 2-BODY — CÒN Ở SCALE XÃ HỘI:
+⭐ DYNAMIC EQUILIBRIUM NOT JUST 2-BODY — ALSO AT SOCIAL SCALE:
 
-  §5.2 mô tả calibration 2-body (sếp↔nhân viên, bố mẹ↔con).
-  Nhưng ở scale lớn hơn: THỊ TRƯỜNG = collective calibration
-  của TRIỆU deals đồng thời.
+  §5.2 describes 2-body calibration (manager↔employee, parent↔child).
+  But at larger scale: THE MARKET = collective calibration of
+  MILLIONS of deals simultaneously.
 
+  MECHANISM:
+    Each deal = 2+ parties, each party HAS THEIR OWN gap:
+      Manager: gap "needs someone to do the work" → willing to pay
+      Employee: gap "needs money + meaning" → willing to work
+      → Negotiation = 2 gaps INTERSECTING → equilibrium point
 
-  CƠ CHẾ:
-    Mỗi deal = 2+ bên, mỗi bên CÓ gap RIÊNG:
-      Sếp: gap "cần người làm" → willing to pay
-      Nhân viên: gap "cần tiền + meaning" → willing to work
-      → Negotiation = 2 gap GIAO NHAU → equilibrium point
+    "Everyone wants maximum" = each party pushes max per deal
+    "Everyone accepts some amount" = equilibrium after negotiation
+    = Status.md §5: exchange = the MOST COMMON mode in modern humans
 
-    "Ai cũng muốn nhiều nhất" = mỗi bên push max per deal
-    "Ai cũng nhận 1 số lượng nhất định" = equilibrium sau negotiation
-    = Status.md §5: trao đổi = mode PHỔ BIẾN NHẤT ở con người hiện đại
+    Market = collective equilibrium:
+      → Salary level = "the compromise point that currently works"
+      → No one prescribes → emerges from millions of negotiations
+      → = Dynamic equilibrium AT SOCIAL SCALE
 
-    Thị trường = collective equilibrium:
-      → Giá lương = "điểm thỏa hiệp" mà ĐANG HOẠT ĐỘNG
-      → Không ai prescribe → emerge từ triệu negotiation
-      → = Dynamic equilibrium ở SCALE xã hội
+  COLLECTIVE CALIBRATION = NATURAL ANTI-OVER-REWARD MECHANISM:
 
+    In a normal market:
+      → Side A wants to pay LEAST → Side B wants to receive MOST
+      → 2 forces PULLING IN OPPOSITE DIRECTIONS → equilibrium in MATCH zone
+      → = Over-reward PREVENTED by the other side of the deal
+      → = "If the sky won't yield to the earth, the earth must yield to the sky"
 
-  COLLECTIVE CALIBRATION = CƠ CHẾ ANTI-OVER-REWARD TỰ NHIÊN:
-
-    Trong thị trường bình thường:
-      → Bên A muốn trả ÍT nhất → bên B muốn nhận NHIỀU nhất
-      → 2 lực KÉO NGƯỢC → equilibrium ở vùng MATCH
-      → = Over-reward bị NGĂN bởi bên kia của deal
-      → = "Trời không chịu đất thì đất phải chịu trời"
-
-    Tại sao hoạt động:
-      → Mỗi bên có CONSTRAINT (budget, alternative options, market rate)
-      → Constraints → cap reward ở vùng reasonable
+    Why it works:
+      → Each side has CONSTRAINTS (budget, alternatives, market rate)
+      → Constraints → cap reward at a reasonable level
       → = Collective → equilibrium → match zone → sustainable
 
+  OVER-REWARD OCCURS WHEN COLLECTIVE CALIBRATION BREAKS DOWN:
 
-  OVER-REWARD XẢY RA KHI COLLECTIVE CALIBRATION BỊ PHÁ:
-
-    ① Lottery / trúng số:
-       → Reward RANDOM → không qua negotiation → không có calibration
-       → Surplus vô anchor → premature compilation (§3.4 Case 3)
+    ① Lottery / random windfall:
+       → Reward RANDOM → no negotiation → no calibration
+       → Surplus without anchor → premature compilation (§3.4 Case 3)
 
     ② Power imbalance:
-       → 1 bên có leverage BẤT THƯỜNG → push reward quá 1 phía
-       → VD: monopoly, corruption, nepotism
-       → Bên nhận over-reward → §4⑤ competence-reward mismatch
-       → NHƯNG: xung quanh sẽ RECALIBRATE
-         (Status.md §6: disruption → recalibrate → ổn định mới)
+       → One side has EXTRAORDINARY leverage → pushes reward too far to one side
+       → Examples: monopoly, corruption, nepotism
+       → Over-rewarded side → §4⑤ competence-reward mismatch
+       → BUT: those around will RECALIBRATE
+         (Status.md §6: disruption → recalibrate → new equilibrium)
 
-    ③ Inheritance / transfer không qua deal:
-       → Wealth transfer KHÔNG QUA effort → no calibration
-       → Chunks "wealth" compile KHÔNG CÓ deal experience đi kèm
-       → = §3.4 Case 3: có gap + drive, depth chưa đủ
+    ③ Inheritance / non-deal transfer:
+       → Wealth transferred WITHOUT effort → no calibration
+       → "Wealth" chunks compile WITHOUT accompanying deal experience
+       → = §3.4 Case 3: gap exists + drive exists, depth insufficient
 
-    ④ Schema [tiền = tốt nhất] + normal salary:
-       → Collective calibration HOẠT ĐỘNG → reward ở equilibrium
-       → Schema drive VẪN WORK → vì reward MATCH gap THẬT
-       → = KHÔNG over-reward → KHÔNG có vấn đề
-       → = Đa số người, đa số thời gian → STABLE
+    ④ Schema [money = best] + normal salary:
+       → Collective calibration WORKS → reward at equilibrium
+       → Schema drive STILL WORKS → because reward MATCHES real gap
+       → = NOT over-reward → NO problem
+       → = Most people, most of the time → STABLE
 
-
-  = Collective calibration giống IMMUNE SYSTEM cho over-reward:
-    → Bình thường: ngăn surplus tự nhiên (deal = equilibrium)
-    → Khi bị phá: over-reward xâm nhập → damage (§4)
-    → Cross-ref: Status.md §5 (trao đổi positive-sum),
-      Obligation.md §5.2 (tiền = obligation technology)
+  = Collective calibration is like an IMMUNE SYSTEM for over-reward:
+    → Normal: prevents surplus naturally (deal = equilibrium)
+    → When broken: over-reward penetrates → damage (§4)
+    → Cross-ref: Status.md §5 (exchange positive-sum),
+      Obligation.md §5.2 (money = obligation technology)
 
   🟡 Collective calibration as anti-over-reward = framework synthesis
   🟢 Market equilibrium: Adam Smith 1776, supply/demand
@@ -893,110 +936,115 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §6 — OBSERVABLE INDICATORS
 
-### §6.1 — Quan sát qua giao tiếp + hành vi
+### §6.1 — Observing through communication + behavior
 
 ```
-⭐ CÓ THỂ OBSERVE REWARD STATE — XÁC SUẤT, KHÔNG CHẮC CHẮN:
+⭐ CAN OBSERVE REWARD STATE — PROBABILISTIC, NOT CERTAIN:
 
-  ⚠️ QUAN TRỌNG:
-    → Observable = xác suất, KHÔNG phải chẩn đoán
-    → Cùng behavior CÓ THỂ = nhiều nguyên nhân khác nhau
-    → AI-Schema-Detection.md: 3-tầng model áp dụng
-      Tầng 1: AI observe patterns
-      Tầng 2: Expert verify mechanism
-      Tầng 3: Self confirm (body knows best)
-    → File này = Tầng 1 (observe) → CẦN Tầng 2+3 để confirm
+  ⚠️ IMPORTANT:
+    → Observable = probability, NOT diagnosis
+    → Same behavior CAN = many different underlying causes
+    → AI-Schema-Detection.md: 3-tier model applies
+      Tier 1: Observe patterns
+      Tier 2: Expert verifies mechanism
+      Tier 3: Self confirms (body knows best)
+    → This file = Tier 1 (observe) → Tiers 2+3 NEEDED to confirm
 ```
 
 ### §6.2 — Under-reward signals
 
 ```
-  VERBAL (qua giao tiếp):
-    → "Không xứng đáng" / "không ai đánh giá đúng"
-    → "Chán" (nhưng kiểu "chán vì không có gì quay lại", khác boredom)
-    → "Thiếu" / "cần thêm" (genuine, không phải threshold adapt)
-    → "Cố gắng mà không ai thấy"
-    → Implicit: nói ÍT về domain, energy thấp khi discuss
+  VERBAL (through communication):
+    → "Not appreciated" / "no one values me properly"
+    → "Bored" (the kind that means "nothing coming back," different
+      from boredom/Boredom.md)
+    → "Not enough" / "need more" (genuine, not threshold adaptation)
+    → "I try but no one sees it"
+    → Implicit: talks LESS about the domain, low energy when discussing it
 
-  BEHAVIORAL (qua hành vi):
-    → Effort giảm dần (diminishing input → diminishing reward expectation)
-    → Tìm nguồn khác (side job, new relationship, alternative domain)
-    → Avoidance tích lũy ("lười" = có thể là avoidance compiled)
-    → Withdrawal (rút khỏi social context liên quan)
+  BEHAVIORAL (through behavior):
+    → Effort gradually decreasing (diminishing input → diminishing reward
+      expectation)
+    → Seeking alternatives (side job, new relationship, different domain)
+    → Avoidance accumulating ("lazy" = can be compiled avoidance)
+    → Withdrawal (retreating from relevant social context)
 
-  BODY (qua quan sát):
-    → Cortisol sustained visible: mệt mỏi, ngủ kém, irritable
-    → Energy thấp chronic (khác boredom: boredom = high arousal)
+  BODY (through observation):
+    → Visible sustained cortisol: fatigue, poor sleep, irritable
+    → Chronically low energy (differs from boredom: boredom = high arousal)
     → Drive collapse signs (Cortisol-Baseline.md Role ② → ③)
 
-  ⚠️ "Chán" CÓ THỂ = Boredom.md (high arousal + unclear Imagine-Final)
-     hoặc = under-reward (low reward → avoidance). Phân biệt bằng context.
+  ⚠️ "Bored" CAN = Boredom.md (high arousal + unclear Imagine-Final)
+     OR = under-reward (low reward → avoidance). Distinguish by context.
 ```
 
 ### §6.3 — Match signals
 
 ```
-  VERBAL (qua giao tiếp):
-    → ÍT NÓI VỀ REWARD (habituated = invisible — Gratitude.md §4!)
-    → Nói về DOMAIN nhiều hơn nói về reward
-    → "Tôi thích cái này" (approach-directed, not reward-directed)
-    → Không complaint, nhưng cũng không enthusiastic praise
+  VERBAL (through communication):
+    → TALKS LITTLE ABOUT REWARD (habituated = invisible — Gratitude.md §4!)
+    → Talks about the DOMAIN more than the reward
+    → "I enjoy this" (approach-directed, not reward-directed)
+    → No complaints, but also no enthusiastic praise
 
-  BEHAVIORAL (qua hành vi):
-    → Ổn định: drive tự duy trì, không cần push liên tục
-    → Approach tags visible: tự quay lại domain
-    → Growth: chunks accumulate → skill tăng → natural progression
+  BEHAVIORAL (through behavior):
+    → Stable: drive self-sustaining, no constant external push needed
+    → Approach tags visible: returns to domain on their own
+    → Growth: chunks accumulate → skill increases → natural progression
     → Low maintenance: minimal external intervention needed
 
-  BODY (qua quan sát):
-    → Baseline stable (cortisol healthy cycle: spike → resolve → reset)
-    → Energy level adequate
-    → Sleep pattern normal
+  BODY (through observation):
+    → Stable baseline (cortisol healthy cycle: spike → resolve → reset)
+    → Adequate energy level
+    → Normal sleep pattern
 
-  ⚠️ MATCH TRÔNG NHƯ "BÌNH THƯỜNG" — DỄ BỎ QUA:
-    → Gratitude.md §3.1: gift habituate → invisible → "bình thường"
-    → Match = BEST STATE nhưng INVISIBLE vì prediction-delta ≈ 0
-    → Chỉ THẤY khi so sánh: "trước đó (under) vs bây giờ (match)"
+  ⚠️ MATCH LOOKS "NORMAL" — EASY TO OVERLOOK:
+    → Gratitude.md §3.1: gift habituates → invisible → "just normal"
+    → Match = BEST STATE but INVISIBLE because prediction-delta ≈ 0
+    → Only visible by COMPARISON: "before (under) vs now (match)"
     → = Paradox: best state = least visible
 ```
 
 ### §6.4 — Over-reward signals (per mechanism §4)
 
 ```
-  ① THRESHOLD ADAPT:
-    → "Chưa đủ" DÙ objective cao + peer comparison
-    → "Sao nó có mà tôi chưa?" — social comparison dominant
-    → Tốc độ "chán" TĂNG: reward mới → excited → adapt → "next" NHANH HƠN
-    → = "Chạy mà không tới" (treadmill behavior)
+  ① THRESHOLD ADAPTATION:
+    → "Not enough" DESPITE objectively high level + peer comparison
+    → "Why does he/she have that but I don't?" — social comparison dominant
+    → Speed of "getting bored" INCREASES: new reward → excited → adapt →
+      "next" FASTER
+    → = "Running but never arriving" (treadmill behavior)
 
   ② OVERJUSTIFICATION:
-    → "Không ai trả thì không làm" cho thứ TỪNG THÍCH
-    → Chỉ discuss reward (tiền, bonus) thay vì domain (skill, impact)
-    → Rút external reward → immediate behavior collapse
-    → = "Hết tiền hết nhạc" (dù trước đó có nhạc vì thích)
+    → "Won't do it if no one pays" for something they USED TO ENJOY
+    → Only discusses reward (money, bonus) instead of domain (skill, impact)
+    → Remove external reward → immediate behavior collapse
+    → = "No payment, no performance" (even though they used to do it
+      because they loved it)
 
   ③ BRIDGE DEPENDENCY:
-    → Panic khi bridge giảm: "không có X thì sao?"
-    → KHÔNG CÓ internal drive visible: "tôi muốn gì? không biết"
+    → Panic when bridge reduces: "what if I don't have X?"
+    → NO visible internal drive: "what do I want? I don't know"
     → Quarter-life crisis pattern (Education-Mechanism.md §3.4)
-    → = "Chỉ biết làm theo, không biết muốn gì"
+    → = "Only knew how to follow instructions, never learned what they want"
 
   ④ BASELINE SHIFT:
-    → "Quen rồi" — nói về reward like entitlement
-    → MẤT reward → reaction MẠNH BẤT THƯỜNG (anger, not sadness)
-    → "Tại sao thu hồi?" — dù reward = bonus, không phải contract
+    → "Used to it" — talks about reward like an entitlement
+    → LOSING reward → reaction DISPROPORTIONATELY STRONG (anger, not sadness)
+    → "Why is this being taken away?" — even though reward was a bonus,
+      not a contract
     → = SNC pattern (Crespi 1942)
 
   ⑤ COMPETENCE-REWARD MISMATCH:
-    → Hướng A (imposter): "tôi không xứng" + xung quanh friction
-    → Hướng B (undervalued): "không ai đánh giá đúng" + resentment
+    → Direction A (imposter): "I don't deserve this" + surrounding friction
+    → Direction B (undervalued): "no one values me properly" + resentment
     → Team dynamics shift: envy, scrutiny, passive resistance
-    → = Status.md Resource Access Map lệch visible qua social behavior
+    → = Status.md Resource Access Map skewed visible through social behavior
 
   ⑥ EVALUATIVE/DIRECT-STATE IMBALANCE:
-    → "Giàu nhưng buồn" (A excess, B neglect)
-    → "Vui nhưng trống" (B excess, A absent)
-    → Simple pleasures "flat" (Evaluative threshold quá cao)
+    → "Wealthy but sad" (Evaluative excess, Direct-State neglect)
+    → "Fun but empty" (Direct-State excess, Evaluative absent)
+    → Simple pleasures feel "flat" (Evaluative threshold too high)
     → Meaning void despite material comfort (Meaning.md anchor absent)
 ```
 
@@ -1004,186 +1052,215 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §7 — EVALUATIVE/DIRECT-STATE × CALIBRATION
 
-### §7.1 — Evaluative calibration = phức tạp
+### §7.1 — Evaluative calibration = complex
 
 ```
-⭐ EVALUATIVE (EVALUATIVE) — GOLDILOCKS PHỨC TẠP:
+⭐ EVALUATIVE REWARD — COMPLEX GOLDILOCKS:
 
-  Evaluative = conditional, all 5 Body-Feedback-Preconditions required (Reward-Signal-Architecture §1.3)
-  → Threshold ADAPT: E₀→E₃ gradient → threshold tăng với experience
-  → Habituation: VTA habituate → cùng stimulus = prediction-delta giảm → cần MỚI
-  → Context-dependent: body state, relationship, cortisol → ALL ảnh hưởng
+  Evaluative = conditional, all 5 Body-Feedback-Preconditions required
+  (Reward-Signal-Architecture §1.3)
+  → Threshold ADAPTS: E₀→E₃ gradient → threshold rises with experience
+  → Habituation: VTA habituates → same stimulus = lower prediction-delta →
+    needs NOVELTY
+  → Context-dependent: body state, relationship, cortisol → ALL affect it
   → Per-person: COMT × Childhood = 4 trajectories (PFC-Hardware.md §3.5)
 
-  EVALUATIVE CALIBRATION CẦN ANTI-HABITUATION:
+  EVALUATIVE CALIBRATION NEEDS ANTI-HABITUATION:
     → Gratitude.md §3: 3 mechanisms (Variation, Comparison, Ritual)
-    → Không có anti-habituation → Evaluative reward decay → anhedonia
-    → = "Mọi thứ ok mà không cảm gì" = Evaluative threshold CAO + no delta
+    → Without anti-habituation → Evaluative reward decays → anhedonia
+    → = "Everything is fine but I feel nothing" = Evaluative threshold
+      HIGH + no delta
 
-  E₃ = ĐỈNH PHỨC TẠP (Reward-Signal-Architecture §2.1):
+  E₃ = THE PEAK OF COMPLEXITY (Reward-Signal-Architecture §2.1):
     → Multi-domain coherence + compound insight + meta-evaluation
-    → Threshold RẤT CAO → E₃ reward = RARE
-    → Khi có: POWERFUL (opioid + dopamine + cortisol drop compound)
-    → Khi không có: "chán kinh niên" (baseline E₃ → everything below = "meh")
-    → = Expert/professional hazard: E₃ calibrated → simple pleasures insufficient
+    → Threshold VERY HIGH → E₃ reward = RARE
+    → When it arrives: POWERFUL (opioid + dopamine + cortisol drop
+      compound)
+    → When absent: "chronic boredom" (baseline at E₃ → everything below = "meh")
+    → = Expert/professional hazard: E₃ calibrated → simple pleasures
+      insufficient
 
-  🟡 Evaluative calibration complexity = Reward-Signal-Architecture + Gratitude synthesis
+  🟡 Evaluative calibration complexity = Reward-Signal-Architecture +
+    Gratitude synthesis
 ```
 
-### §7.2 — Direct-State calibration = đơn giản hơn nhưng quan trọng
+### §7.2 — Direct-State calibration = simpler but crucial
 
 ```
-⭐ DIRECT-STATE (DIRECT STATE) — GOLDILOCKS ĐƠN GIẢN HƠN:
+⭐ DIRECT-STATE REWARD — SIMPLER GOLDILOCKS:
 
-  Direct-State = hardware-based, Body-Feedback-Precondition simplified (Reward-Signal-Architecture §1.3)
-  → Threshold ÍT ADAPT: body-state sensors = stable
+  Direct-State = hardware-based, simplified Body-Feedback-Precondition
+  (Reward-Signal-Architecture §1.3)
+  → Threshold ADAPTS LESS: body-state sensors = stable
   → Habituation: MINIMAL (body-level adaptation only, not VTA)
-  → = RELIABLE baseline reward (Reward-Signal-Architecture §1.4: "evolutionary floor")
+  → = RELIABLE baseline reward (Reward-Signal-Architecture §1.4:
+    "evolutionary floor")
 
-  B = SAFE BASELINE KHI A EXHAUSTED:
-    → Burnout/anhedonia: Evaluative exhausted → Evaluative reward OFF
-    → Direct-State VẪN accessible: touch, exercise, warmth, stretching
-    → = "Backdoor" qua stuck A gate
+  DIRECT-STATE = SAFE BASELINE WHEN EVALUATIVE IS EXHAUSTED:
+    → Burnout/anhedonia: Evaluative exhausted → Evaluative Reward OFF
+    → Direct-State STILL accessible: touch, exercise, warmth, stretching
+    → = "Backdoor" past the stuck Evaluative gate
     → 🟢 Van der Kolk 2014: body-oriented therapy for trauma
 
-  B CALIBRATION:
-    → Goldilocks: body-state range (CT afferents ~1-10cm/s — Reward-Signal-Architecture §1.1)
-    → Under B: body neglected (no touch, no movement) → baseline LOW
-    → Match B: regular body-state engagement → stable baseline
-    → Over B: rare but possible (exercise addiction, sensory overload)
-    → = B calibration = GIỮ hardware channels active
+  DIRECT-STATE CALIBRATION:
+    → Goldilocks: body-state range (CT afferents ~1–10 cm/s —
+      Reward-Signal-Architecture §1.1)
+    → Under Direct-State: body neglected (no touch, no movement) →
+      baseline LOW
+    → Match Direct-State: regular body-state engagement → stable baseline
+    → Over Direct-State: rare but possible (exercise addiction,
+      sensory overload)
+    → = Direct-State calibration = KEEPING hardware channels active
 
-  🟡 Direct-State = reliable + simple calibration = Reward-Signal-Architecture §1.4 synthesis
+  🟡 Direct-State = reliable + simple calibration =
+    Reward-Signal-Architecture §1.4 synthesis
 ```
 
-### §7.3 — Evaluative Gates Direct-State: calibration tương tác
+### §7.3 — Evaluative Gates Direct-State: calibration interaction
 
 ```
-⭐ A CALIBRATION ẢNH HƯỞNG B EXPERIENCE (Reward-Signal-Architecture §3):
+⭐ EVALUATIVE CALIBRATION AFFECTS DIRECT-STATE EXPERIENCE
+   (Reward-Signal-Architecture §3):
 
   Evaluative Gates Direct-State mechanism (Reward-Signal-Architecture §3):
-    → E₃ anchor MẠNH → sensory experience CÒN MẠNH HƠN
-    → E₃ anchor YẾU → sensory experience "flat"
-    → = Evaluative calibration INDIRECT ảnh hưởng Direct-State quality
+    → Strong E₃ anchor → sensory experience EVEN MORE POWERFUL
+    → Weak E₃ anchor → sensory experience "flat"
+    → = Evaluative calibration INDIRECTLY affects Direct-State quality
 
   CALIBRATION IMPLICATIONS:
-    → Over-calibrate Evaluative → threshold CAO → block Direct-State gate
-    → = "Hiểu hết mà không cảm được"
-    → = Expert wine taster không enjoy casual wine
-    → = Musician không enjoy pop music
+    → Over-calibrate Evaluative → threshold HIGH → blocks Direct-State gate
+    → = "Understand everything but can't feel it"
+    → = Expert wine taster can't enjoy casual wine
+    → = Musician can't enjoy pop music
 
-    → Under-calibrate A → Evaluative threshold THẤP → Direct-State gate ineffective
-    → = "Cảm được mà không hiểu sâu"
-    → = Enjoy nhưng shallow
+    → Under-calibrate Evaluative → Evaluative threshold LOW →
+      Direct-State gate ineffective
+    → = "Can feel but can't go deep"
+    → = Enjoyable but shallow
 
-    → BALANCE A + B = cả hai feed nhau:
-    → A depth → B amplify → B experience → A new insight → ...
-    → = Virtuous cycle khi balanced
+    → BALANCE Evaluative + Direct-State = both feed each other:
+    → Evaluative depth → Direct-State amplified → Direct-State experience
+      → Evaluative new insight → ...
+    → = Virtuous cycle when balanced
 
-  🟡 Evaluative Gates Direct-State × Calibration = Reward-Signal-Architecture §3 inference
+  🟡 Evaluative Gates Direct-State × Calibration =
+    Reward-Signal-Architecture §3 inference
 ```
 
 ---
 
-## §8 — REWARD-ECONOMICS INSIGHTS QUA V7.8 LENS
+## §8 — REWARD-ECONOMICS INSIGHTS THROUGH THE FRAMEWORK LENS
 
-### §8.1 — 6 paths "giàu rồi vẫn đuổi tiền" (từ Reward-Economics.md)
+### §8.1 — 6 paths for "wealthy yet still chasing money"
 
 ```
-⭐ 6 PATHS → MAP SANG V7.8 MECHANISMS:
+⭐ 6 PATHS → MAPPED TO FRAMEWORK MECHANISMS:
 
-  Cùng behavior ("giàu rồi vẫn đuổi tiền"), 6 CƠ CHẾ KHÁC NHAU:
+  Same behavior ("wealthy yet still chasing money"),
+  6 DIFFERENT UNDERLYING MECHANISMS:
 
-  ① Schema chưa update = Background-Pattern.md:
-    → Lớn lên thiếu thốn → Background-Pattern [tiền = an toàn] compiled deep + high density
-    → Giàu rồi nhưng Background-Pattern CHƯA UPDATE → cortisol baseline vẫn cao
-    → = PFC biết "giàu" nhưng body VẪN feel "thiếu"
-    → Quadrant: Low Depth + High Density (Background-Pattern §2.2 → INVISIBLE nhưng PERVASIVE)
+  ① Background-Pattern not yet updated:
+    → Grew up in scarcity → Background-Pattern [money = safety] compiled
+      deep + high density
+    → Now wealthy but Background-Pattern NOT YET UPDATED →
+      cortisol baseline remains high
+    → = PFC knows "wealthy" but body STILL feels "lacking"
+    → Quadrant: Low Depth + High Density
+      (Background-Pattern §2.2 → INVISIBLE but PERVASIVE)
 
   ② Threshold adaptation = §4①:
-    → $1M → adapt → $10M → adapt → $100M → treadmill
+    → $100K → adapt → $1M → adapt → $10M → treadmill
     → Hedonic treadmill (Brickman 1971)
 
-  ③ Tiền = proxy cho tầng 2-3 = Reward-Signal-Architecture 5 Profiles + GAP SHIFT:
-    → Tiền ≠ mục đích → tiền = proxy cho:
+  ③ Money = proxy for Tier 2–3 = Reward-Signal-Architecture 5 Profiles
+     + GAP SHIFT:
+    → Money ≠ the goal → money = proxy for:
       Status (Profile ③ Social: serotonin ranking)
-      Impact (Profile ② Coherence: "tôi đúng, tôi thay đổi thế giới")
-      Score (Profile ④ Relief: "thắng cuộc chơi")
-    → Đuổi Profile ②③④ qua PROXY tiền, không phải đuổi Profile ①
+      Impact (Profile ② Coherence: "I was right, I changed the world")
+      Score (Profile ④ Relief: "winning the game")
+    → Chasing Profiles ②③④ via the PROXY of money,
+      not actually chasing Profile ①
 
-    GAP SHIFT — LABEL GIỮ, MECHANISM ĐỔI:
-      Giai đoạn đầu: schema [tiền = tốt nhất] → fill survival gap THẬT
-      Survival fill rồi: gap SHIFT sang coherence/status/relief
-      NHƯNG: LABEL vẫn = "kiếm tiền" (PFC chưa update label)
-      → Tỉ phú VẪN "kiếm tiền" nhưng reward thật từ:
-        sáng tạo (②), influence (③), thắng deal (④), legacy (⑤)
-      → Họ thường KHÔNG khổ sở — vì body ĐANG ĐƯỢC FEED
-        qua channels KHÁC, tiền = scorecard
+    GAP SHIFT — LABEL STAYS, MECHANISM CHANGES:
+      Early stage: schema [money = best] → fills REAL survival gap
+      Survival filled: gap SHIFTS to coherence/status/relief
+      BUT: the LABEL stays as "making money" (PFC hasn't updated the label)
+      → Billionaires STILL "make money" but real reward comes from:
+        creativity (Profile ②), influence (Profile ③), winning deals
+        (Profile ④), legacy (Profile ⑤)
+      → They are typically NOT suffering — because body IS BEING FED
+        through OTHER channels, money = just the scorecard
 
-    TẠI SAO SCHEMA [TIỀN = TỐT NHẤT] CÓ TRUST CAO:
-      → Nguồn ④ External Inject: collective validation liên tục
-        ("ai cũng cần tiền" → confirm hàng ngày)
-      → Nguồn ② Experience: thiếu tiền → có tiền → vấn đề giải
-        (trả học phí, mua nhà, chữa bệnh → THẬT)
-      → 2 nguồn trust MẠNH + lặp lại LIÊN TỤC → trust CAO
-      → Schema = FUNCTIONAL (hoạt động tốt ở tầng survival+social)
-      → NHƯNG INCOMPLETE: thiếu layer "tiền = proxy, body-base = endpoint"
-      → = Anchor-Schema.md: Trust CAO ≠ Quality CAO
-        (Trust = "tôi tin", Quality = "đúng toàn diện")
-      → Schema functional-incomplete = COMMON, không phải lỗi
-      → Chỉ trở thành vấn đề khi gap đã shift MÀ schema CHƯA update
+    WHY SCHEMA [MONEY = BEST] HAS HIGH TRUST:
+      → Source ④ External Injection: continuous collective validation
+        ("everyone needs money" → confirmed daily)
+      → Source ② Experience: lack money → have money → problem solved
+        (pay tuition, buy home, cover medical bills → REAL)
+      → 2 trust sources STRONG + repeated CONSTANTLY → HIGH trust
+      → Schema = FUNCTIONAL (works well at survival+social layers)
+      → BUT INCOMPLETE: missing layer "money = proxy,
+        body-base = endpoint"
+      → = Anchor-Schema.md: HIGH Trust ≠ HIGH Quality
+        (Trust = "I believe," Quality = "wholly correct")
+      → Functionally incomplete schema = COMMON, not a flaw
+      → Only becomes a problem when gap HAS SHIFTED but
+        schema has NOT UPDATED
 
-  ④ Prolactin thấp = PFC-Hardware.md receptor system:
-    → "Đủ rồi, dừng" signal YẾU → KHÔNG PHANH ĐƯỢC
-    → Không phải "muốn nhiều hơn" → là CƠ CHẾ PHANH yếu
+  ④ Weak prolactin = PFC-Hardware.md receptor system:
+    → "Enough, stop" signal WEAK → CANNOT BRAKE
+    → Not "wanting more" → it's a WEAK BRAKING MECHANISM
 
   ⑤ Identity lock = Meaning.md §3.3 IDENTITY type anchor:
-    → "Tôi = người kiếm tiền" = IDENTITY anchor compiled cứng
-    → Dừng kiếm tiền = identity crash = Meaning crisis
-    → "Nghỉ hưu rồi trầm cảm" = anchor sụp
+    → "I = a money-maker" = IDENTITY anchor compiled rigid
+    → Stop making money = identity crash = Meaning crisis
+    → "Retired but depressed" = anchor collapse
 
   ⑥ Cortisol treadmill = Cortisol-Baseline.md §7.7 Role ④ Inertia:
-    → Cortisol moderate liên tục → dopamine tăng → "productive"
-    → Dừng = cortisol DROP → body "khó chịu"
-    → Đuổi TRẠNG THÁI cortisol, không đuổi tiền
+    → Moderate cortisol continuously → dopamine increases → "productive"
+    → Stop = cortisol DROPS → body "uncomfortable"
+    → Chasing the CORTISOL STATE, not chasing money
 
-  NHẬN DIỆN (quan trọng vì can thiệp KHÁC NHAU):
-    ① Schema chưa update    → lo lắng dù giàu, tích trữ, phòng thủ
-    ② Threshold adapt       → "chán" nếu không tăng, so sánh với peer
-    ③ Proxy tầng 2-3        → nói về impact/vision, tiền là tool
-    ④ Prolactin thấp        → không dừng BẤT KỲ THỨ GÌ, không chỉ tiền
-    ⑤ Identity lock         → sợ nghỉ hưu, "không biết mình là ai nếu không làm"
-    ⑥ Cortisol treadmill    → "nghỉ = bồn chồn", cần busy để bình tĩnh
+  IDENTIFYING WHICH PATH (important because interventions differ):
+    ① Background-Pattern not updated → anxious despite wealth,
+      hoarding, defensive
+    ② Threshold adaptation → "bored" if no increase, compares with peers
+    ③ Money as proxy for tiers 2–3 → talks about impact/vision,
+      money = tool
+    ④ Weak prolactin → can't stop ANYTHING, not just money
+    ⑤ Identity lock → afraid to retire, "don't know who I am
+      if I stop working"
+    ⑥ Cortisol treadmill → "rest = restless," needs busyness to feel calm
 
-  → Cùng hành vi, 6 can thiệp KHÁC NHAU.
-  → Sai path → can thiệp VÔ HIỆU.
-  → = Observation quan trọng hơn prescription.
+  → Same behavior, 6 DIFFERENT interventions.
+  → Wrong path → intervention = INEFFECTIVE.
+  → = Observation is more important than prescription.
 
   🟢 Brickman 1978 (lottery), Kahneman & Deaton 2010 (income + well-being)
-  🟡 6-path mapping to v7.8 = framework synthesis
+  🟡 6-path mapping to framework = framework synthesis
 ```
 
-### §8.2 — Tiền = shared chunk prediction token
+### §8.2 — Money = shared chunk prediction token
 
 ```
-🟡 TIỀN LÀ GÌ QUA V7.8 LENS:
+🟡 WHAT MONEY IS THROUGH THE FRAMEWORK LENS:
 
-  Tiền = PROXY TOKEN cho prediction:
-    → "1 triệu" = shared chunk mà xã hội compile: "đổi được X"
-    → Tiền bản thân KHÔNG CÓ body-base value (giấy, số)
-    → Giá trị nằm ở prediction: "có tiền → body-base ĐƯỢC FEED"
+  Money = PROXY TOKEN for prediction:
+    → "$1,000" = shared chunk that society compiled: "can exchange for X"
+    → Money itself HAS NO body-base value (paper, digits)
+    → Value resides in prediction: "have money → body-base GETS FED"
 
   = Shared Chunk Prediction:
-    → Mọi người compile CÙNG chunk: "1 triệu ≈ X thức ăn ≈ Y dịch vụ"
-    → Chunk NÀY = shared across society → TIN ĐƯỢC
-    → Inflation = chunk prediction bị invalidate → SNC → anger
+    → Everyone compiles THE SAME chunk: "$1,000 ≈ X food ≈ Y services"
+    → THIS chunk = shared across society → TRUSTWORTHY
+    → Inflation = chunk prediction invalidated → SNC → anger
 
-  Tiền ≈ Status.md Resource Access Map extension:
-    → Có tiền = resource access MAP MỞ RỘNG
-    → Nhiều tiền = nhiều schema "accessible"
-    → Mất tiền = schema "block" → status DROP → cortisol
+  Money ≈ Status.md Resource Access Map extension:
+    → Have money = resource access MAP EXPANDS
+    → More money = more schemas "accessible"
+    → Lose money = schemas "blocked" → status DROP → cortisol
 
-  🟡 Tiền = proxy token = Reward-Economics.md insight + v7.8 chunk reframe
+  🟡 Money = proxy token = Reward-Economics.md insight + framework
+    chunk reframe
 ```
 
 ### §8.3 — Habituation Blindness × Economics
@@ -1191,25 +1268,32 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟡 prediction-delta = 0 ≠ VALUE = 0:
 
-  Oxy: prediction-delta = 0 (habituated hoàn toàn), VALUE = sống/chết
-  Cơm mỗi ngày: prediction-delta = 0 (baseline), VALUE = dinh dưỡng essential
-  Lương tháng: prediction-delta = 0 (compiled baseline), VALUE = survival
+  Oxygen: prediction-delta = 0 (completely habituated), VALUE = life/death
+  Daily meals: prediction-delta = 0 (baseline), VALUE = essential nutrition
+  Monthly salary: prediction-delta = 0 (compiled baseline), VALUE = survival
 
-  NHẦM LẪN PHỔ BIẾN:
-    → prediction-delta = 0 → "không có giá trị" → bỏ qua → mất → SNC → "hóa ra quan trọng"
-    → = Habituation Blindness: body THẤY nhưng KHÔNG REWARD → PFC tưởng "không cần"
-    → Gratitude.md §3: 3 anti-habituation = CHỐNG habituation blindness
+  COMMON CONFUSION:
+    → prediction-delta = 0 → "no value" → ignore it → lose it →
+      SNC → "turns out it was important"
+    → = Habituation Blindness: body SEES it but doesn't REWARD it →
+      PFC thinks "not needed"
+    → Gratitude.md §3: 3 anti-habituation mechanisms =
+      AGAINST habituation blindness
 
   ECONOMICS IMPLICATION:
-    → Điều quan trọng nhất = điều prediction-delta ≈ 0 nhất (habituated = invisible)
-    → Điều gây prediction-delta dương MẠNH = thường mới/hiếm nhưng có thể KHÔNG quan trọng
-    → = Novelty bias: brain track novelty > track importance
-    → = Tại sao giảm lương "đau" hơn tăng lương "pleasant" (loss aversion)
+    → What matters MOST = what has prediction-delta ≈ 0 (habituated =
+      invisible)
+    → What generates STRONG positive prediction-delta = often new/rare
+      but may NOT be important
+    → = Novelty bias: brain tracks novelty > tracks importance
+    → = Why a salary CUT "hurts" more than a salary RAISE "pleases"
+      (loss aversion)
     → Protect.md: loss aversion = f(replaceability × attachment)
 
   🟢 Loss aversion: Kahneman & Tversky 1979 (prospect theory)
   🟢 Endowment effect: Thaler 1980
-  🟡 prediction-delta = 0 ≠ Value = 0 = Gratitude.md + Reward-Economics insight
+  🟡 prediction-delta = 0 ≠ Value = 0 = Gratitude.md +
+    Reward-Economics insight
 ```
 
 ---
@@ -1222,69 +1306,76 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌──────────────────────────────┬──────────┬──────────────────────────┐
   │ Section                      │ Level    │ Notes                    │
   ├──────────────────────────────┼──────────┼──────────────────────────┤
-  │ §1 Goldilocks per-gap       │ 🟢       │ Well-documented:         │
+  │ §1 Goldilocks per-gap        │ 🟢       │ Well-documented:         │
   │                              │          │ Yerkes-Dodson, Brickman, │
   │                              │          │ Schultz                  │
   ├──────────────────────────────┼──────────┼──────────────────────────┤
-  │ §2 Gap types × reward match │ 🟡       │ Body-Feedback-Mechanism 3 dynamics = 🟢     │
+  │ §2 Gap types × reward match  │ 🟡       │ Body-Feedback-Mechanism  │
+  │                              │          │ 3 dynamics = 🟢          │
   │                              │          │ Mapping to reward type   │
   │                              │          │ = framework synthesis    │
   ├──────────────────────────────┼──────────┼──────────────────────────┤
-  │ §3 Goldilocks zones         │ 🟡       │ Under/over = well-known  │
+  │ §3 Goldilocks zones          │ 🟡       │ Under/over = well-known  │
   │                              │          │ Match description =      │
   │                              │          │ framework synthesis      │
   ├──────────────────────────────┼──────────┼──────────────────────────┤
-  │ §4 6 over-reward mechanisms │ 🟢→🟡   │ ①②④: strong research.   │
+  │ §4 6 over-reward mechanisms  │ 🟢→🟡   │ ①②④: strong research.   │
   │                              │          │ ③⑤⑥: framework synth    │
   ├──────────────────────────────┼──────────┼──────────────────────────┤
-  │ §5 Dynamic equilibrium      │ 🟡       │ Parallel Logic-Feeling-  │
-  │                              │          │ Balance = framework meta │
+  │ §5 Dynamic equilibrium       │ 🟡       │ Parallel Logic-Feeling-  │
+  │                              │          │ Balance = framework meta  │
   ├──────────────────────────────┼──────────┼──────────────────────────┤
-  │ §6 Observable indicators    │ 🟡       │ Probabilistic, not       │
+  │ §6 Observable indicators     │ 🟡       │ Probabilistic, not       │
   │                              │          │ diagnostic. Per-case     │
   │                              │          │ verification needed      │
   ├──────────────────────────────┼──────────┼──────────────────────────┤
-  │ §7 Evaluative/Direct-State calibration     │ 🟡       │ Reward-Signal-Architecture synthesis applied    │
-  │                              │          │ to calibration context   │
+  │ §7 Evaluative/Direct-State   │ 🟡       │ Reward-Signal-           │
+  │    calibration               │          │ Architecture synthesis   │
+  │                              │          │ applied to calibration   │
   ├──────────────────────────────┼──────────┼──────────────────────────┤
-  │ §8 RE insights              │ 🟡       │ v5.5 insights remapped   │
-  │                              │          │ to v7.8 mechanisms       │
+  │ §8 Economics insights        │ 🟡       │ v5.5 insights remapped   │
+  │                              │          │ to framework mechanisms  │
   └──────────────────────────────┴──────────┴──────────────────────────┘
 ```
 
-### §9.2 — Giá trị + Giới hạn
+### §9.2 — Value + Limitations
 
 ```
-  GIÁ TRỊ FILE NÀY:
-    → Tổng hợp insights từ ~15 files vào 1 góc nhìn CALIBRATION
-    → 6 cơ chế over-reward = organized cho lần đầu (scattered trước đó)
-    → Dynamic equilibrium thesis = explicit (ngầm trước đó)
+  VALUE OF THIS FILE:
+    → Synthesizes insights from ~15 files into 1 CALIBRATION lens
+    → 6 over-reward mechanisms = organized for the first time
+      (scattered previously)
+    → Dynamic equilibrium thesis = made explicit (implicit before)
     → Observable indicators = practical guide
     → Gap type × reward match = new mapping
 
-  GIỚI HẠN:
-    → File này = OBSERVATION SYNTHESIS, không tạo mechanism mới
-    → Reality = continuous, high-dimensional → file simplify
-    → Observable indicators = probabilistic, CẦN case-by-case verification
-    → 6 cơ chế có thể overlap trong practice (không luôn separable)
-    → Dynamic equilibrium = principled position but untestable in absolute terms
+  LIMITATIONS:
+    → This file = OBSERVATION SYNTHESIS, creates no new mechanisms
+    → Reality = continuous, high-dimensional → file simplifies
+    → Observable indicators = probabilistic, REQUIRES case-by-case
+      verification
+    → 6 mechanisms can overlap in practice (not always separable)
+    → Dynamic equilibrium = principled position but untestable
+      in absolute terms
 ```
 
 ### §9.3 — Predictions (testable)
 
 ```
-  P1: Over-reward group (high external reward, minimal gap) sẽ show
-      threshold adaptation nhanh hơn match group
-      → Measure: hedonic adaptation speed qua longitudinal survey
+  P1: Over-reward group (high external reward, minimal gap) will show
+      faster threshold adaptation than match group
+      → Measure: hedonic adaptation speed via longitudinal survey
 
-  P2: Direct-State reward khi A exhausted sẽ restore partial function
-      → Measure: body-oriented intervention cho burnout patients
+  P2: Direct-State reward when Evaluative is exhausted will restore
+      partial function
+      → Measure: body-oriented intervention for burnout patients
 
-  P3: Sai gap type × reward match sẽ produce LOWER satisfaction
+  P3: Wrong gap type × reward match will produce LOWER satisfaction
       than under-reward with CORRECT match
       → Measure: employee satisfaction per reward-fit survey
 
-  P4: Variation (Gratitude §3.2) inject sẽ slow threshold adaptation
+  P4: Variation (Gratitude §3.2) injection will slow threshold
+      adaptation
       → Measure: intermittent vs continuous reward schedule outcomes
 
   🟡 Predictions testable but not yet tested in this specific framework
@@ -1298,31 +1389,32 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌──────────────────────────────────┬──────────────────────────────────────┐
   │ File                             │ Connection                           │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ 03-Reward.md                     │ Body-Feedback-Preconditions, 7-step VTA,      │
-  │                                  │ 7 cases — §0 file vị trí            │
+  │ 03-Reward.md                     │ Body-Feedback-Preconditions, 7-step  │
+  │                                  │ VTA, 7 cases — §0 file position      │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Reward-Signal-Architecture.md    │ Evaluative/Direct-State, E₀→E₃, 5 Profiles,       │
-  │ v1.0                             │ Evaluative Gates Direct-State — §7 calibration          │
+  │ Reward-Signal-Architecture.md    │ Evaluative/Direct-State, E₀→E₃,     │
+  │ v1.0                             │ 5 Profiles, Evaluative Gates         │
+  │                                  │ Direct-State — §7 calibration        │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Body-Feedback-Mechanism.md v1.2  │ 3 dynamics (Shift/Miss/Gap),        │
-  │                                  │ compound — §2 gap types             │
+  │                                  │ compound — §2 gap types              │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Gap-Direction.md v1.0            │ Gap has direction, "chưa biết =     │
-  │                                  │ không có gap" — §1.3 foundation     │
+  │ Gap-Direction.md v1.0            │ Gap has direction, "unknown =       │
+  │                                  │ no gap" — §1.3 foundation           │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Gratitude.md v1.1                │ §3 anti-habituation, §4 baseline    │
   │                                  │ shift — §4①④ mechanisms             │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Education-Mechanism.md v1.0      │ §3 bridge, nguồn ④, overjust —     │
-  │                                  │ §4②③ mechanisms                     │
+  │ Education-Mechanism.md v1.0      │ §3 bridge, Source ④,                │
+  │                                  │ overjustification — §4②③            │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Cortisol-Baseline.md v2.0       │ §7.7 5 Roles (② Holding,           │
-  │                                  │ ④ Inertia) — §3.1 under-reward     │
+  │ Cortisol-Baseline.md v2.0        │ §7.7 5 Roles (② Holding,           │
+  │                                  │ ④ Inertia) — §3.1 under-reward      │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Status.md v2.0                   │ §1 Resource Access Map — §4⑤       │
   │                                  │ competence-reward mismatch          │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Logic-Feeling-Balance.md v1.0    │ §6-§7 infinite regress — §5        │
+  │ Logic-Feeling-Balance.md v1.0    │ §6–§7 infinite regress — §5         │
   │                                  │ dynamic equilibrium parallel        │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ PFC-Hardware.md v1.1             │ §3.4 COMT × Reward, §3.5           │
@@ -1331,26 +1423,27 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Background-Pattern.md v1.0       │ Invisible bias on gap landscape     │
   │                                  │ — §1.2 per-context                  │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Connection.md v3.1               │ §9 calibration 2 bodies — §5.2     │
-  │                                  │ perception-action cycle             │
+  │ Connection.md v3.1               │ §9 calibration between 2 bodies     │
+  │                                  │ — §5.2 perception-action cycle      │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Meaning.md v2.0                  │ IDENTITY anchor, life-level —      │
-  │                                  │ §4⑥ Evaluative/Direct-State imbalance, §8.1⑤ lock     │
+  │ Meaning.md v2.0                  │ IDENTITY anchor, life-level —       │
+  │                                  │ §4⑥ Evaluative/Direct-State         │
+  │                                  │ imbalance, §8.1⑤ identity lock      │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Obligation.md v1.0               │ Cortisol holding (Role ②),         │
-  │                                  │ 5-factor — §5.2 equilibrium        │
+  │                                  │ 5-factor — §5.2 equilibrium         │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ AI-Schema-Detection.md v2.0      │ 3-tầng model — §6.1 observe        │
+  │ AI-Schema-Detection.md v2.0      │ 3-tier model — §6.1 observe        │
   │                                  │ ≠ diagnose                          │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Reward-Economics.md v5.5         │ 6 paths, tiền = proxy — §8         │
-  │ (Applications/)                  │ insights remapped to v7.8           │
+  │ Reward-Economics.md v5.5         │ 6 paths, money = proxy — §8        │
+  │ (Applications/)                  │ insights remapped to framework      │
   └──────────────────────────────────┴──────────────────────────────────────┘
 ```
 
 ---
 
-> *Reward Calibration v1.0 — Observation File.*
-> *Reward có Goldilocks per-gap: không thể prescribe, chỉ có thể observe + adjust.*
-> *Dynamic equilibrium, không phải fixed formula.*
-> *Domain feedback = trọng tài duy nhất.*
+> *Reward Calibration v1.1 — Observation File.*
+> *Reward has a Goldilocks zone per-gap: cannot be prescribed, can only be observed + adjusted.*
+> *Dynamic equilibrium, not a fixed formula.*
+> *Domain feedback = the only arbiter.*

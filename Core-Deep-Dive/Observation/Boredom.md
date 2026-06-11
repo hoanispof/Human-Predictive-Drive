@@ -1,100 +1,64 @@
 ---
-title: Boredom — Observation Parameter
+title: "Boredom — Observation Parameter"
 version: 2.1
 created: 2026-04-20
-rewritten: 2026-05-29 (v2.1 — Resonance Decline reframe: M1-M4 → 2 Forces + 1 Fuel + Gap Drift)
+rewritten: "2026-05-29 (v2.1 — Resonance Decline reframe: M1-M4 → 2 Forces + 1 Fuel + Gap Drift)"
 status: OBSERVATION PARAMETER v2.1
-previous_versions:
-  - v1.1 (2026-05-17) → backup/Boredom-v1.1-backup.md
-  - v1.0 (2026-04-20) → backup/Boredom-v1.0-backup.md
-  - Boredom-Analysis.md (Research/, 722L, 2026-03-30) → _backup/Research-old/
-supersedes:
-  - Boredom.md v1.1 (597L)
 scope: |
-  OBSERVATION FILE: Boredom = named pattern khi body-feedback (dissonance)
-  + Imagine-Final clarity THIẾU. "Chán" = 1 từ cho NHIỀU trạng thái KHÁC NHAU.
-  v2.0 KEY CHANGES từ v1.1:
-    ① Source ⑥: by-product match dừng ("chán nhau") → unified formula
-    ② Resonance Decline: 2 Forces + 1 Fuel cho source ⑥
-    ③ "Chán 1 mình" vs "chán cùng nhau" = CÙNG formula, KHÁC source
-    ④ "Chán" vs "ghét" threshold model
-    ⑤ 3 điều kiện đồng thời cho boredom emerge
-    ⑥ 4 trục quan sát MỚI (Awareness + Social + Chronic/Acute + Abundance)
+  OBSERVATION FILE: Boredom = the named pattern when body-feedback (dissonance)
+  + Imagine-Final clarity IS ABSENT. "Bored" = 1 word for MANY DIFFERENT states.
+  v2.0 KEY CHANGES from v1.1:
+    ① Source ⑥: by-product match stops ("bored together") → unified formula
+    ② Resonance Decline: 2 Forces + 1 Fuel for source ⑥
+    ③ "Solo boredom" vs "relational boredom" = SAME formula, DIFFERENT source
+    ④ "Bored" vs "hate" threshold model
+    ⑤ 3 simultaneous conditions for boredom to emerge
+    ⑥ 4 NEW observation axes (Awareness + Social + Chronic/Acute + Abundance)
     ⑦ Abundance hypothesis + historical vs modern context
     ⑧ PFC-Operations + Entity-Compiled + Simulation-Engine integration
-  TÁCH RÕ: 6 nguồn, 3 loại, 6 trục, 2 hướng fix.
-  Refine mainstream (Eastwood 2012), KHÔNG phản đối.
 purpose: |
-  "Chán" được verbalize rất chính xác nhưng KHÔNG nói nguyên nhân.
-  Giống "đau" = chính xác nhưng không nói đau ĐÂU.
-  File này = CHẨN ĐOÁN: dissonance NÀO + Imagine-Final clarity NÀO.
-  v2.0: + "chán nhau" unified vào cùng formula, + boredom as abundance phenomenon.
+  "Bored" is verbalized very accurately but says nothing about the cause.
+  Like "pain" — precise, but doesn't say WHERE the pain is.
+  This file = DIAGNOSIS: WHICH dissonance + WHICH Imagine-Final clarity level.
+  v2.0: + "bored together" unified into same formula, + boredom as abundance phenomenon.
 position: |
-  Core-Deep-Dive/Observation/ — ngang hàng Novelty, Threat, Drive.
-  Boredom = "KHÔNG CÓ hướng" — trạng thái thứ 3 bên cạnh
-  Novelty (PULL toward) và Threat (PUSH away).
-dependencies:
-  - Core-v7.8-Draft.md §8 — observation parameters
-  - Body-Feedback-Mechanism.md v2.0 §3.2 — Chunk-Miss (ⓑ MISS MỜ = boredom substrate)
-  - Observation/Novelty.md v1.1 — PULL (contrast: boredom = thiếu pull)
-  - Observation/Threat.md v1.1 — PUSH (boredom ≠ threat)
-  - Observation/Drive.md v1.2 — Drive-PFC-Spinning ≈ boredom territory
-  - Observation/Meaning.md v2.1 — Loại 3 trống → meaning question gateway
-  - Cortisol-Baseline.md v2.1 — cortisol modes, baseline drift
-  - Imagine-Final-Evaluation.md — Imagine-Final clarity
-  - Feeling.md v3.0 — PFC observation interface
-  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture §1.2, Compiled/Fresh §3
-  - PFC-Operations.md v1.0 — Hold/Suppress, compiled suppress pathways §8, PFC budget §9
-  - Entity-Compiled.md v1.0 — Formation 40→200h, Entity-Compiled saturation (novelty threshold lens)
-  - Entity-Access.md v1.0 — Gradient Mức 0-5 (entity-level boredom)
-  - Simulation-Engine.md v1.0 — boredom = idle state khi engine không có target
-  - Bond-Architecture.md v2.0 §4 — Resonance Decline SOURCE (2 Forces + 1 Fuel + Gap Drift)
-  - By-Product-Gap-Resonance.md v1.1 — Resonance Decline §10 mirror, gap-clone §9
-  - Self-Pattern-Modeling.md v3.1 — Self-Pattern-Modeling-oversimplify-clone, prediction completion
-  - Gap-Direction.md v2.0 — gap = f(surrounding chunks), "chưa biết = không gap"
-  - Background-Pattern.md v1.1 — Background-Pattern resist gap shift
-  - Body-Coupling.md v2.0 — couple-level boredom dynamics
-  - Valence-Propagation.md v2.0 — valence during boredom
-  - Connection.md v4.0 — "cô đơn giữa đám đông" = source ⑥ territory
-  - Body-Feedback-Label.md v2.0 — vocabulary reference
-  - Body-Feedback-Label.md v2.0 — vocabulary consistency
-sources:
-  - Boredom.md v1.1 (597L) — previous version
-  - Drill-Boredom-Mechanism v2.0 (946L, 16 insights, 21 citations)
-research: See §15
-language: Tiếng Việt primary + English technical terms
+  Core-Deep-Dive/Observation/ — sibling of Novelty, Threat, Drive.
+  Boredom = "NO DIRECTION" — the third state alongside
+  Novelty (PULL toward) and Threat (PUSH away).
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+source_file: Core-Deep-Dive/Observation/Boredom.md
 ---
 
 # Boredom — Observation Parameter
 
-> "Chán quá, không biết làm gì."
-> "Chán công ty lắm rồi, nhưng lương nuôi gia đình."
-> "Nghỉ hưu rồi, chán, không biết sống để làm gì."
-> "Ở cùng partner mà cũng chán."
+> "So bored, don't know what to do."
+> "Tired of this company, but the salary feeds the family."
+> "Retired now — bored. Don't know what to live for."
+> "Living with a partner and still bored."
 >
-> Cùng 1 từ "chán." 4 trạng thái HOÀN TOÀN KHÁC.
-> Cùng 1 từ "chán." 4 root causes KHÁC. 4 cách fix KHÁC.
-> PFC ĐÚNG khi label cùng 1 từ — vì body-feedback pattern ĐẾN PFC = GIỐNG NHAU.
+> The same word: "bored." Four COMPLETELY DIFFERENT states.
+> Same word. Four different root causes. Four different fixes.
+> PFC is CORRECT to use the same word — because the body-feedback pattern
+> that reaches PFC IS THE SAME.
 >
-> File này tách rõ.
+> This file distinguishes them.
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §0 — POSITION + THESIS + CLAIMS
-- §1 — UNIFIED FORMULA: DISSONANCE + IMAGINE-FINAL CHƯA RÕ
-- §2 — 6 NGUỒN DISSONANCE
-- §3 — SOURCE ⑥: BY-PRODUCT MATCH DỪNG + 2 FORCES + 1 FUEL
-- §4 — 3 LOẠI "CHÁN" + "CHÁN NHAU" MAPPING
+- §1 — UNIFIED FORMULA: DISSONANCE + IMAGINE-FINAL UNCLEAR
+- §2 — 6 DISSONANCE SOURCES
+- §3 — SOURCE ⑥: BY-PRODUCT MATCH STOPS + 2 FORCES + 1 FUEL
+- §4 — 3 BOREDOM TYPES + RELATIONAL BOREDOM MAPPING
 - §5 — CONTENTMENT vs BOREDOM: COMPILED/FRESH LENS
-- §6 — "CHÁN" vs "GHÉT": THRESHOLD MODEL
-- §7 — 3 ĐIỀU KIỆN ĐỒNG THỜI ĐỂ "CHÁN" EMERGE
-- §8 — 6 TRỤC QUAN SÁT
+- §6 — "BORED" vs "HATE": THRESHOLD MODEL
+- §7 — 3 SIMULTANEOUS CONDITIONS FOR BOREDOM TO EMERGE
+- §8 — 6 OBSERVATION AXES
 - §9 — ABUNDANCE HYPOTHESIS + HISTORICAL vs MODERN
-- §10 — CHẨN ĐOÁN + FIX MỞ RỘNG
-- §11 — PHÂN BIỆT: CHÁN ≠ GHÉT ≠ BURNOUT ≠ DEPRESSION
+- §10 — DIAGNOSIS + EXTENDED FIXES
+- §11 — DISTINCTION: BOREDOM ≠ HATE ≠ BURNOUT ≠ DEPRESSION
 - §12 — FRAMEWORK INTEGRATION
 - §13 — CASES
 - §14 — HONEST ASSESSMENT
@@ -105,83 +69,83 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §0 — POSITION + THESIS + CLAIMS
 
 ```
-⭐ VỊ TRÍ TRONG FRAMEWORK:
+⭐ POSITION IN THE FRAMEWORK:
 
-  Boredom = OBSERVATION PARAMETER — tên gọi cho pattern khi:
-    ① Body-feedback detect dissonance (có gì đó unmet)
-    ② PFC scan Imagine-Final → KHÔNG đủ rõ để commit hướng giải quyết
-    ③ Signal DƯỚI threshold PFC → mờ, diffuse, không thành action
+  Boredom = OBSERVATION PARAMETER — a name for the pattern when:
+    ① Body-feedback detects dissonance (something unmet)
+    ② PFC scans Imagine-Final → NOT CLEAR ENOUGH to commit to a resolution
+    ③ Signal BELOW PFC threshold → diffuse, unclear, doesn't become action
 
-  Boredom KHÔNG PHẢI:
-    ✗ "Thiếu stimulation" (mainstream — ĐÚNG nhưng chung chung)
-    ✗ "VTA không fire" (VTA = salience signal, KHÔNG phải satisfaction)
-    ✗ Ngược của Novelty (có thể có novelty MÀ VẪN chán)
-    ✗ Bệnh hay nhược điểm
+  Boredom is NOT:
+    ✗ "Lack of stimulation" (mainstream — CORRECT but too vague)
+    ✗ "VTA not firing" (VTA = salience signal, NOT satisfaction)
+    ✗ The opposite of Novelty (you can have Novelty AND STILL be bored)
+    ✗ A flaw or weakness
 
-  Boredom LÀ:
-    ○ Observable state trong cycle: drive CÓ nhưng THIẾU direction
-    ○ "Body biết thiếu gì đó — PFC không biết làm gì"
+  Boredom IS:
+    ○ An observable state in the cycle: drive IS PRESENT but LACKS direction
+    ○ "Body knows something is missing — PFC doesn't know what to do"
     ○ Drive-PFC-Spinning territory (Drive.md §2)
 
-  3 TRẠNG THÁI CƠ BẢN khi observe drive patterns:
-    Novelty: PULL toward (có hướng, có reward)
-    Threat:  PUSH away (có hướng, có pressure)
-    Boredom: KHÔNG CÓ HƯỚNG (có dissonance, không có target)
+  3 BASIC STATES when observing drive patterns:
+    Novelty: PULL toward (has direction, has reward)
+    Threat:  PUSH away (has direction, has pressure)
+    Boredom: NO DIRECTION (has dissonance, no target)
 
 
-⭐ COMPILABLE ARCHITECTURE — TẠI SAO "BOREDOM" TỒN TẠI (Inter-Body-Mechanism §1.2):
+⭐ COMPILABLE ARCHITECTURE — WHY "BOREDOM" EXISTS (Inter-Body-Mechanism §1.2):
 
-  Hardwired Architecture (côn trùng): hardwired stimulus→response.
-  KHÔNG CÓ "boredom" — vì không có general-purpose system cần input.
-  Không stimulus = standby. Có stimulus = respond. Không "thiếu gì đó."
+  Hardwired Architecture (insects): hardwired stimulus→response.
+  NO "boredom" — because there is no general-purpose system that needs input.
+  No stimulus = standby. Has stimulus = respond. No "something's missing."
 
   Compilable Architecture (humans):
-  General-purpose system LUÔN CẦN input để process + compile →
-  khi KHÔNG CÓ active gap (mọi thứ compiled, channels tĩnh) →
-  system = IDLE → body signal "resources available but unused" →
-  = "Boredom" EMERGE.
+  General-purpose system ALWAYS NEEDS input to process + compile →
+  when there is NO active gap (everything compiled, channels quiet) →
+  system = IDLE → body signals "resources available but unused" →
+  = "Boredom" EMERGES.
 
-  → Boredom = ADAPTIVE: push organism tìm input mới → compile → grow.
-  → CHỈ Compilable Architecture organisms CÓ THỂ "chán."
+  → Boredom = ADAPTIVE: pushes the organism to seek new input → compile → grow.
+  → ONLY Compilable Architecture organisms CAN get "bored."
   🟡 Compilable Architecture boredom = framework synthesis (Inter-Body-Mechanism §1.2).
 
 
-⚠️ VTA / DOPAMINE KHÔNG LIÊN QUAN TRỰC TIẾP:
-  VTA fire = "CÓ GÌ ĐÓ ĐÁNG CHÚ Ý" (salience).
-  VTA im = "không có gì đáng chú ý" → BÌNH THƯỜNG (không = chán).
-  Có thể VTA fire (scroll MXH) MÀ VẪN chán (dissonance chưa resolve).
-  Có thể VTA im (nằm bãi biển) MÀ KHÔNG chán (channels đều met).
-  = "Chán" nằm ở body-feedback × Imagine-Final, không ở VTA/dopamine.
+⚠️ VTA / DOPAMINE NOT DIRECTLY INVOLVED:
+  VTA fires = "SOMETHING WORTH NOTICING" (salience).
+  VTA silent = "nothing worth noticing" → NORMAL (doesn't equal boredom).
+  VTA CAN fire (scrolling social media) AND still be bored (dissonance unresolved).
+  VTA CAN be silent (lying on the beach) AND NOT be bored (all channels met).
+  = "Boredom" lives at body-feedback × Imagine-Final, not at VTA/dopamine.
 
 
 ⭐ 8 CORE CLAIMS:
 
-  ① UNIFIED FORMULA: Dissonance + Imagine-Final mờ = "chán" MỌI TRƯỜNG HỢP.
-     "Chán 1 mình" vs "chán cùng nhau" = CÙNG formula, KHÁC source.
-     PFC ĐÚNG khi label cùng 1 từ (§1).
+  ① UNIFIED FORMULA: Dissonance + unclear Imagine-Final = "bored" IN ALL CASES.
+     "Solo boredom" vs "relational boredom" = SAME formula, DIFFERENT source.
+     PFC is CORRECT to use the same word (§1).
 
-  ② 6 NGUỒN DISSONANCE: ①-⑤ từ v1.1 + ⑥ by-product match dừng (§2-§3).
-     Source ⑥ = general (relationship + career + group), KHÔNG chỉ romantic.
+  ② 6 DISSONANCE SOURCES: ①-⑤ from v1.1 + ⑥ by-product match stops (§2-§3).
+     Source ⑥ = general (relationship + career + group), NOT only romantic.
 
-  ③ Source ⑥ do RESONANCE DECLINE: 2 forces (Compiled-Suppress + Reward-Habituated)
+  ③ Source ⑥ due to RESONANCE DECLINE: 2 forces (Compiled-Suppress + Reward-Habituated)
      + 1 fuel (novelty threshold) + gap drift (§3).
-     Gap-clone IMPOSSIBLE → "chán nhau" KHÔNG BAO GIỜ do "quá giống."
+     Gap-clone is IMPOSSIBLE → relational boredom is NEVER caused by "being too similar."
 
-  ④ "CHÁN" vs "GHÉT": cùng dissonance spectrum, khác threshold + Imagine-Final (§6).
-     "Chán" = mờ + below threshold. "Ghét" = rõ + above threshold.
-     "Chán" nguy hiểm hơn "ghét" (silent killer vs treatable).
+  ④ "BORED" vs "HATE": same dissonance spectrum, different threshold + Imagine-Final (§6).
+     "Bored" = diffuse + below threshold. "Hate" = clear + above threshold.
+     "Bored" is more dangerous than "hate" (silent killer vs treatable).
 
-  ⑤ 3 ĐIỀU KIỆN ĐỒNG THỜI: gap exists + unfilled + below threshold (§7).
-     Thiếu BẤT KỲ 1 → KHÔNG phải boredom.
+  ⑤ 3 SIMULTANEOUS CONDITIONS: gap exists + unfilled + below threshold (§7).
+     Missing ANY 1 → NOT boredom.
 
-  ⑥ "CHÁN" = HIỆN TƯỢNG CỦA DƯ THỪA (§9).
-     Abundance → higher gaps → harder fill → more boredom.
-     Boredom TĂNG theo civilization = STRUCTURAL, không phải individual failure.
+  ⑥ "BOREDOM" = AN ABUNDANCE PHENOMENON (§9).
+     Abundance → higher gaps → harder to fill → more boredom.
+     Boredom INCREASES with civilization = STRUCTURAL, not individual failure.
 
   ⑦ FIX ORDER: Compiled-Suppress = LEVERAGE POINT (§10).
-     Fix Compiled-Suppress → counter Reward-Habituated + restore novelty.
+     Fix Compiled-Suppress → counters Reward-Habituated + restores novelty.
 
-  ⑧ 6 TRỤC QUAN SÁT: Dissonance × Imagine-Final clarity × Awareness × Social
+  ⑧ 6 OBSERVATION AXES: Dissonance × Imagine-Final clarity × Awareness × Social
      × Chronic/Acute × Abundance (§8).
 
   🟢 Boredom = unfulfilled desire: Eastwood et al. 2012.
@@ -190,96 +154,96 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 CHANGELOG:
   v2.1 (2026-05-29): Resonance Decline reframe: M1-M4 → 2 Forces + 1 Fuel + Gap Drift.
-    Bond-Architecture v2.0 §4 consistency. All per-mechanism sections → 2 Forces + 1 Fuel model.
-  v2.0 (2026-05-22): REWRITE. +Source ⑥, +Resonance Decline, +Unified formula reframe,
-    +Threshold model, +3 conditions, +4 trục mới, +Abundance,
-    +Historical, +Phase A integration. Source: Drill-Boredom-Mechanism v2.0.
-  v1.1 (2026-05-17): +Compilable Architecture, +Compiled/Fresh lens, +Inter-Body-Mechanism refs.
-  v1.0 (2026-04-20): viết mới cho v7.8 cycle-based architecture.
-  Rewrite từ: Boredom-Analysis.md (Research/, 722L, 2026-03-30).
+    Bond-Architecture v2.0 §4 consistency.
+  v2.0 (2026-05-22): REWRITE. +Source ⑥, +Resonance Decline, +Unified formula,
+    +Threshold model, +3 conditions, +4 new axes, +Abundance, +Historical,
+    +Framework integration. Source: Drill-Boredom-Mechanism v2.0.
+  v1.1 (2026-05-17): +Compilable Architecture, +Compiled/Fresh lens.
+  v1.0 (2026-04-20): fresh write for v7.8 cycle-based architecture.
 ```
 
 ---
 
-## §1 — UNIFIED FORMULA: DISSONANCE + IMAGINE-FINAL CHƯA RÕ
+## §1 — UNIFIED FORMULA: DISSONANCE + IMAGINE-FINAL UNCLEAR
 
 ### §1.1 — Formula (VALIDATED + EXTENDED)
 
 ```
-⭐ "CHÁN" = Body-feedback dissonance + Imagine-Final CHƯA ĐỦ RÕ
+⭐ "BORED" = Body-feedback dissonance + Imagine-Final NOT SUFFICIENTLY CLEAR
 
-  CHIỀU 1 — Body-feedback (dissonance direction):
-    "Có gì đó chưa ổn" — body detect mismatch.
-    → Có thể NHẸ (uể oải, bứt rứt) hoặc NẶNG (ghét việc).
-    → Có thể MỜ (không biết thiếu gì) hoặc RÕ (biết chán cái gì).
-    → 6 nguồn khác nhau (§2).
+  DIMENSION 1 — Body-feedback (dissonance direction):
+    "Something is wrong" — body detects a mismatch.
+    → Can be MILD (listless, restless) or STRONG (hating a job).
+    → Can be DIFFUSE (doesn't know what's missing) or CLEAR (knows exactly what's boring).
+    → 6 different sources (§2).
 
-  CHIỀU 2 — Imagine-Final clarity:
-    Không có GIẢI PHÁP đủ rõ để body COMMIT.
-    → KHÔNG BIẾT muốn gì (mờ).
-    → BIẾT muốn gì nhưng chưa đủ rõ/dám (bị lock).
-    → KHÔNG CÓ gì để muốn (trống).
+  DIMENSION 2 — Imagine-Final clarity:
+    No solution is CLEAR ENOUGH for the body to COMMIT.
+    → DOESN'T KNOW what it wants (diffuse).
+    → KNOWS what it wants but not clearly enough / afraid (locked).
+    → NOTHING to want (void).
 
-  → CẢ HAI chiều CÙNG LÚC = "chán."
-  → THIẾU 1 chiều = KHÔNG phải "chán":
-    Dissonance CÓ + Imagine-Final RÕ = "drive" hoặc "ghét" (KHÔNG chán)
-    Dissonance KHÔNG + Imagine-Final mờ = "relax" / "ổn" (KHÔNG chán)
+  → BOTH dimensions SIMULTANEOUSLY = "bored."
+  → MISSING 1 dimension = NOT "bored":
+    Dissonance YES + Imagine-Final CLEAR = "drive" or "hate" (NOT boredom)
+    Dissonance NO + Imagine-Final diffuse = "relaxed" / "fine" (NOT boredom)
 
-  🟡 Công thức 2 chiều = framework synthesis.
-  🟢 "Unfulfilled desire for satisfying activity" (Eastwood 2012) ≈ chiều 1.
+  🟡 2-dimension formula = framework synthesis.
+  🟢 "Unfulfilled desire for satisfying activity" (Eastwood 2012) ≈ Dimension 1.
 ```
 
-### §1.2 — "Chán 1 mình" vs "Chán cùng nhau" = CÙNG FORMULA (★ v2.0)
+### §1.2 — "Solo boredom" vs "Relational boredom" = SAME FORMULA (★ v2.0)
 
 ```
-⭐⭐ PFC ĐÚNG KHI DÙNG CÙNG 1 TỪ:
+⭐⭐ PFC IS CORRECT TO USE THE SAME WORD:
 
-  "CHÁN 1 MÌNH":
-    Dissonance: ①② channels không feed (sensory/motor idle).
-    Imagine-Final: không biết làm gì.
-    PFC: "chán" ✅
+  "SOLO BOREDOM":
+    Dissonance: ①② channels not feeding (sensory/motor idle).
+    Imagine-Final: doesn't know what to do.
+    PFC: "bored" ✅
 
-  "CHÁN CÙNG NHAU":
-    Dissonance: ⑥ Entity-Compiled predict reward → KHÔNG nhận → mismatch.
-    Imagine-Final: không biết fix relationship CÁCH NÀO.
-    PFC: "chán" ✅
+  "RELATIONAL BOREDOM":
+    Dissonance: ⑥ Entity-Compiled predicts reward → NOT received → mismatch.
+    Imagine-Final: doesn't know HOW to fix the relationship.
+    PFC: "bored" ✅
 
-  → PFC observe CÙNG pattern → label CÙNG từ → PFC ĐÚNG.
-  → Khác nhau ở SOURCE dissonance, không phải ở formula.
-  → = 1 spectrum, không phải 2 hiện tượng riêng.
+  → PFC observes THE SAME pattern → labels with THE SAME WORD → PFC is CORRECT.
+  → Difference is in the SOURCE of dissonance, not in the formula.
+  → = 1 spectrum, not 2 separate phenomena.
 
-  BẰNG CHỨNG:
-    Người đã từng "chán 1 mình" → NHẬN RA cảm giác khi "chán cùng nhau."
-    → Vì body-feedback pattern ĐẾN PFC = GIỐNG NHAU:
-      "có gì đó unmet + không biết hướng nào."
+  EVIDENCE:
+    Someone who has experienced "solo boredom" → RECOGNIZES the feeling of
+    "relational boredom."
+    → Because the body-feedback pattern REACHING PFC IS THE SAME:
+      "something unmet + no direction."
 
-  THẬM CHÍ "CHÁN 1 MÌNH" CÓ THỂ PHA SOURCE ⑥:
-    "Ngồi 1 mình chán, nhớ bạn" = ① sensory + ② motor + ⑥ (by-product thiếu).
-    → Source MIX, không exclusive.
+  SOLO BOREDOM CAN EVEN BLEND SOURCE ⑥:
+    "Sitting alone, bored, missing someone" = ① sensory + ② motor + ⑥ (by-product absent).
+    → Sources MIX, not exclusive.
 
   🟡 Unified formula reframe = framework synthesis.
 ```
 
-### §1.3 — Bằng chứng: Imagine-Final chuyển → "chán" biến mất
+### §1.3 — Evidence: Imagine-Final shifts → "boredom" disappears
 
 ```
-  CÙNG dissonance. KHÁC Imagine-Final clarity. KHÁC trạng thái:
+  SAME dissonance. DIFFERENT Imagine-Final clarity. DIFFERENT state:
 
-    Ghét việc + chưa biết đi đâu (mờ)        = "chán việc"
-    Ghét việc + ĐÃ nhận offer mới (rõ)        = "đếm ngày" (KHÔNG chán)
+    Hate the job + no idea where to go (diffuse)          = "bored at work"
+    Hate the job + already has a new offer (clear)        = "counting the days" (NOT bored)
 
-    Ngồi nhà + không biết làm gì (mờ)         = "chán"
-    Ngồi nhà + biết 3h sẽ đi gặp bạn (rõ)    = "chờ" (KHÔNG chán)
+    Sitting at home + no idea what to do (diffuse)        = "bored"
+    Sitting at home + knows they'll meet a friend at 3pm  = "waiting" (NOT bored)
 
-    Rửa bát + "phải rửa mãi..." (mờ)          = "chán"
-    Rửa bát + rửa xong được chơi game (rõ)    = "chịu, nhanh thôi"
+    Washing dishes + "have to keep doing this..." (diffuse)= "bored"
+    Washing dishes + gets to play games after (clear)     = "fine, let's get it done"
 
-  → Dissonance KHÔNG ĐỔI. Imagine-Final clarity ĐỔI. "Chán" BIẾN MẤT.
-  → Imagine-Final KHÔNG xóa dissonance → body VẪN khó chịu.
-  → Imagine-Final THAY ĐỔI cách PFC XỬ LÝ dissonance:
-      Mờ: body khó chịu + PFC không giải quyết được = CHÁN
-      Rõ: body khó chịu + PFC biết sẽ giải quyết khi nào/cách nào = CHỊU
-  → Imagine-Final biến "chán" (stuck) thành "investment cost" (có hướng).
+  → Dissonance UNCHANGED. Imagine-Final clarity CHANGED. "Boredom" DISAPPEARS.
+  → Imagine-Final does NOT erase the dissonance → body is STILL uncomfortable.
+  → Imagine-Final CHANGES how PFC PROCESSES the dissonance:
+      Diffuse: body uncomfortable + PFC can't resolve it = BOREDOM
+      Clear: body uncomfortable + PFC knows when/how it will resolve = TOLERABLE
+  → Imagine-Final turns "boredom" (stuck) into "investment cost" (has direction).
 
   🟡 Framework synthesis.
   🟢 Prospection changes experience (Seligman 2013).
@@ -287,200 +251,206 @@ CHANGELOG:
 
 ---
 
-## §2 — 6 NGUỒN DISSONANCE
+## §2 — 6 DISSONANCE SOURCES
 
-### §2.1 — 5 nguồn từ v1.1 (VALIDATED)
+### §2.1 — 5 sources from v1.1 (VALIDATED)
 
 ```
-⭐ CHIỀU 1 = body-feedback (dissonance): channel NÀO đang unmet?
+⭐ DIMENSION 1 = body-feedback (dissonance): WHICH channel is unmet?
 
-① SENSORY CHANNELS NGHÈO (phổ biến NHẤT):
-  Input từ body-input channels quá ĐƠN ĐIỆU hoặc tĩnh.
+① SENSORY CHANNELS IMPOVERISHED (MOST COMMON):
+  Input from body-input channels is too MONOTONOUS or static.
   Chunk-Miss variant ⓑ (Body-Feedback-Mechanism §3.2):
-    delta MỖI NGÀY quá nhỏ → tích tụ silent.
-  ⚠️ "Mới" KHÔNG quan trọng — "feed ĐỦ channel" mới quan trọng:
-    Sóng biển: KHÔNG mới nhưng feed auditory+visual+somatic → KHÔNG chán.
-    Tường nhà: KHÔNG feed gì → CHÁN.
+    delta EACH DAY is too small → accumulates silently.
+  ⚠️ "Novelty" is NOT what matters — "SUFFICIENT channel feeding" matters:
+    Ocean waves: NOT new but feeds auditory+visual+somatic → NOT boring.
+    A blank wall: feeds NOTHING → BORING.
 
-② MOTOR / SOMATIC (body cần vận động):
-  Cơ bắp không dùng → body ứ → cortisol nhẹ → "cần ĐỘNG."
-  Đa số "chán" khi ngồi lâu = motor, KHÔNG phải "thiếu novelty."
+② MOTOR / SOMATIC (body needs movement):
+  Muscles unused → body backed up → mild cortisol → "need to MOVE."
+  Most "boredom" when sitting for long = motor, NOT "lack of novelty."
 
-③ CONNECTION (cần người):
-  Body cần social input (oxytocin pathway) → thiếu → dissonance.
-  PFC CÓ THỂ label sai: "chán" thay vì "cô đơn."
+③ CONNECTION (needs people):
+  Body needs social input (oxytocin pathway) → lacking → dissonance.
+  PFC CAN mislabel: "bored" instead of "lonely."
 
-④ FORCED MISMATCH (phải làm cái không match):
-  Hardware/interest ≠ task → micro-dissonance mỗi moment.
-  CÓ "cái mới" mà VẪN chán (mới nhưng KHÔNG MATCH).
-  = Mainstream KHÓ giải thích: "bài mới, sao vẫn chán?"
+④ FORCED MISMATCH (forced to do something that doesn't fit):
+  Hardware/interest ≠ task → micro-dissonance at every moment.
+  CAN have "something new" AND STILL be bored (new but DOESN'T FIT).
+  = Hard for mainstream to explain: "new material, why still bored?"
 
-⑤ DIRECTION THIẾU (có drive nhưng không biết hướng):
-  Cortisol hơi cao → NHƯNG PFC không có target.
-  "Muốn làm gì đó... nhưng CÁI GÌ?"
-  Dạng SÂU NHẤT — liên quan Imagine-Final existential.
-  KHÔNG fix bằng feed channels.
+⑤ DIRECTION MISSING (has drive but no direction):
+  Cortisol slightly elevated → BUT PFC has no target.
+  "Want to do something... but WHAT?"
+  DEEPEST type — related to existential Imagine-Final.
+  CANNOT be fixed by feeding channels.
 
-🟡 5 nguồn = framework classification.
+🟡 5 sources = framework classification.
 🟢 Multidimensional boredom (Fahlman et al. 2013: 5 types).
 ```
 
-### §2.2 — Source ⑥: BY-PRODUCT MATCH DỪNG (★ v2.0)
+### §2.2 — Source ⑥: BY-PRODUCT MATCH STOPS (★ v2.0)
 
 ```
-⭐⭐ NGUỒN THỨ 6 — BY-PRODUCT MATCH DỪNG:
+⭐⭐ THE SIXTH SOURCE — BY-PRODUCT MATCH STOPS:
 
-  Entity-Compiled predict reward từ specific entity → UNMET.
+  Entity-Compiled predicts reward from a specific entity → UNMET.
   = Expected reward from entity ≠ actual reward.
 
-  PHÂN BIỆT ⑥ vs ③:
-    ③ Connection thiếu = KHÔNG CÓ entity nào present → "cô đơn."
-    ⑥ By-product dừng = Entity CÓ present → nhưng match DỪNG → "chán cùng nhau."
+  DISTINGUISHING ⑥ vs ③:
+    ③ Connection lacking = NO entity present → "lonely."
+    ⑥ By-product stops = Entity IS present → but match STOPS → "bored together."
     ③ = absence. ⑥ = presence without reward.
-    "Cô đơn giữa đám đông" (Connection §16 Type 2) = ⑥, KHÔNG phải ③.
+    "Lonely in a crowd" (Connection §16 Type 2) = ⑥, NOT ③.
 
-  PHÂN BIỆT ⑥ vs ④:
-    ④ Forced mismatch = TASK không match person (activity level).
-    ⑥ By-product dừng = ENTITY's by-products không match nữa (entity level).
-    "Chán việc vì sai ngành" = ④. "Chán đồng nghiệp" = ⑥.
-    CÓ THỂ MIX: "chán việc" = ④ (task) + ⑥ (team by-product dừng).
+  DISTINGUISHING ⑥ vs ④:
+    ④ Forced mismatch = TASK doesn't fit the person (activity level).
+    ⑥ By-product stops = ENTITY's by-products no longer fit (entity level).
+    "Bored at work because wrong field" = ④. "Bored with colleagues" = ⑥.
+    CAN MIX: "bored at work" = ④ (task) + ⑥ (team by-product stops).
 
-  ⑥ KHÔNG EXCLUSIVE CHO RELATIONSHIP:
-    "Chán nhau" (romantic): ⑥ dominant.
-    "Chán nhóm bạn": ⑥ (group by-product match dừng).
-    "Chán đồng nghiệp": ⑥ (work interaction no reward).
-    "Chán 1 mình, nhớ người": ⑥ pha vào solo boredom.
-    → ⑥ = general source, relationship = strongest application
-      (vì Entity-Compiled SÂU NHẤT ở romantic → mismatch ĐAU NHẤT).
+  ⑥ IS NOT EXCLUSIVE TO ROMANTIC RELATIONSHIPS:
+    "Bored with a partner" (romantic): ⑥ dominant.
+    "Bored with the friend group": ⑥ (group by-product match stops).
+    "Bored with colleagues": ⑥ (work interaction yields no reward).
+    "Alone and bored, missing someone": ⑥ blends into solo boredom.
+    → ⑥ = general source; romantic relationships = strongest application
+      (because Entity-Compiled is DEEPEST in romantic → mismatch HURTS most).
 
-  Xem §3 cho Resonance Decline analysis + gap-clone impossibility.
+  See §3 for Resonance Decline analysis + gap-clone impossibility.
 
   🟡 Source ⑥ = framework synthesis from drill analysis.
 ```
 
-### §2.3 — Thực tế: hầu hết tình huống MIX
+### §2.3 — In practice: most situations are MIX
 
 ```
-  ⚠️ MIX 2-3+ sources là BÌNH THƯỜNG:
+  ⚠️ MIXING 2-3+ sources is NORMAL:
 
-    Ngồi nhà = ① sensory + ② motor + ③ connection + có thể ⑤.
-    Họp dài  = ② motor + ④ mismatch + ① auditory nghèo.
-    "Chán nhau" = ⑥ dominant + ① routine nhàm + ④ mismatch nhẹ.
-    "Chán việc" = ④ mismatch + ⑥ team by-product + ⑤ direction mờ.
+    Sitting at home = ① sensory + ② motor + ③ connection + possibly ⑤.
+    Long meeting   = ② motor + ④ mismatch + ① auditory impoverished.
+    "Bored together" = ⑥ dominant + ① routine monotony + ④ mild mismatch.
+    "Bored at work" = ④ mismatch + ⑥ team by-product + ⑤ direction diffuse.
 
-    → Weight KHÁC nhau trên 6 sources, CÙNG formula.
-    → FIX theo source DOMINANT, sau đó address sources phụ.
+    → DIFFERENT weight across 6 sources, SAME formula.
+    → FIX the DOMINANT source, then address secondary sources.
 
-  ⚠️ "NOVELTY" vs "FEED ĐỦ":
-    Mainstream: "cần novelty." Framework: "cần feed ĐỦ channel."
-    NHƯNG framework THÊM giá trị ở EDGE CASES:
-      Bài giảng MỚI nhưng mismatch → VẪN chán (novelty ≠ match).
-      Scroll MXH = novelty liên tục → VẪN chán (feed ① visual, đói ② ③).
-      → "Novelty" CHƯA ĐỦ giải thích → cần biết CHANNEL NÀO đang đói.
+  ⚠️ "NOVELTY" vs "SUFFICIENT FEEDING":
+    Mainstream: "needs novelty." Framework: "needs sufficient channel feeding."
+    BUT framework ADDS value at EDGE CASES:
+      New material but mismatched → STILL bored (novelty ≠ fit).
+      Scrolling social media = continuous novelty → STILL bored
+        (feeds ① visual, starves ② ③).
+      → "Novelty" is INSUFFICIENT explanation → need to know WHICH CHANNEL
+          is hungry.
 ```
 
 ---
 
-## §3 — SOURCE ⑥: BY-PRODUCT MATCH DỪNG + 2 FORCES + 1 FUEL
+## §3 — SOURCE ⑥: BY-PRODUCT MATCH STOPS + 2 FORCES + 1 FUEL
 
 ### §3.1 — 2 Decline Forces + 1 Fuel + Gap Drift
 
 ```
-⭐⭐ SOURCE ⑥ — TẠI SAO BY-PRODUCT MATCH DỪNG?
+⭐⭐ SOURCE ⑥ — WHY DOES BY-PRODUCT MATCH STOP?
 (Full source definition: Bond-Architecture v2.0 §4)
 
-2 DECLINE FORCES (observable, có thể diagnose cụ thể):
+2 DECLINE FORCES (observable, can be diagnosed specifically):
 
-  COMPILED-SUPPRESS (force — tấn công NGUỒN) ★ LEVERAGE POINT:
-    Schema "phải giống nhau" / sợ "theo gap riêng → mất partner."
-    → PFC suppress own unique gap directions → lâu dần compiled suppress.
-    → Meta-pattern: [thấy gap riêng] → [suppress] → [ignore].
-    → Flat affect, no drive riêng → no by-product riêng → match CHẾT.
-    → STRONGEST: tấn công NGUỒN + accelerate Reward-Habituated + drain novelty.
+  COMPILED-SUPPRESS (force — attacks the SOURCE) ★ LEVERAGE POINT:
+    Schema "must be similar" / fear "following own gap → losing the partner."
+    → PFC suppresses own unique gap directions → over time, compiled suppress.
+    → Meta-pattern: [notices own gap] → [suppresses] → [ignores].
+    → Flat affect, no personal drive → no personal by-products → match DIES.
+    → STRONGEST: attacks the SOURCE + accelerates Reward-Habituated + drains novelty.
     PFC-Operations §8: compiled suppress pathways + escalation.
     🟢 Muise & Goss 2024: closeness OK only WITH "otherness."
 
   REWARD-HABITUATED (force — hardware adaptation):
-    Hardware by-product habituates tự nhiên → reward giảm dần.
-    ĐỘC LẬP: xảy ra NGAY CẢ không Compiled-Suppress.
+    Hardware by-products naturally habituate → reward gradually decreases.
+    INDEPENDENT: happens EVEN WITHOUT Compiled-Suppress.
     🟢 Bao & Lyubomirsky 2013: hedonic adaptation in relationships.
 
-1 FUEL (calibration parameter — threshold-based, KHÔNG đo chính xác):
+1 FUEL (calibration parameter — threshold-based, NOT precisely measurable):
 
   NOVELTY THRESHOLD:
-    Novelty = nhiên liệu cho ①b growth (compiled by-product anti-habituates).
-    Dưới ngưỡng → ①b plateau + ①a dominates → resonance decline.
-    Trên ngưỡng → ①b tiếp tục grow → resonance sustained.
-    2 LENSES cùng 1 phenomenon:
-      Lens prediction: Self-Pattern-Modeling quá accurate → prediction-delta = 0 → no new reward.
-      Lens knowledge: Entity-Compiled 40→200h → diminishing returns → ít chunks mới.
-    → ~90%+ trường hợp cùng YES/NO → KHÔNG phân biệt được trong quan sát.
-    Probabilistic: threshold khác nhau mỗi người, KHÔNG đo chính xác.
+    Novelty = fuel for ①b growth (compiled by-product anti-habituates).
+    Below threshold → ①b plateaus + ①a dominates → resonance decline.
+    Above threshold → ①b continues growing → resonance sustained.
+    2 LENSES of the same phenomenon:
+      Prediction lens: Self-Pattern-Modeling too accurate → prediction-delta = 0 →
+        no new reward.
+      Knowledge lens: Entity-Compiled 40→200h → diminishing returns → fewer new chunks.
+    → ~90%+ of cases give the same YES/NO → cannot distinguish observationally.
+    Probabilistic: threshold varies per person, NOT precisely measurable.
     🟢 Baumeister & Bratslavsky 1999: passion = rate of change.
-    🟢 Aron & Aron 1996, 2000: self-expansion slows → satisfaction giảm.
+    🟢 Aron & Aron 1996, 2000: self-expansion slows → satisfaction decreases.
 
 CONTEXTUAL FACTOR:
 
-  GAP DRIFT — direction diverge:
-    Gap landscapes diverge theo thời gian → direction match ↓.
-    Khác novelty: ngay cả CÓ novelty, nếu hướng gap xa → không match.
-    PROXIMITY PARADOX: gần → Reward-Habituated ↑ + Compiled-Suppress risk ↑, xa → drift ↑.
+  GAP DRIFT — directions diverge:
+    Gap landscapes diverge over time → direction match ↓.
+    Different from novelty: even WITH novelty, if gap directions are far apart
+      → no match.
+    PROXIMITY PARADOX: closeness → Reward-Habituated ↑ + Compiled-Suppress risk ↑,
+      distance → drift ↑.
 
 
-TƯƠNG TÁC (Interaction Model):
-  Compiled-Suppress → xóa NGUỒN by-products riêng (source attack).
-  Reward-Habituated → giảm reward từ by-products CŨ (temporal decay).
-  Novelty dưới ngưỡng → by-products MỚI không emerge (fuel depleted).
-  Gap drift → hướng lệch → match less likely (context shift).
+INTERACTION MODEL:
+  Compiled-Suppress → eliminates SOURCE of personal by-products (source attack).
+  Reward-Habituated → reduces reward from OLD by-products (temporal decay).
+  Novelty below threshold → NEW by-products don't emerge (fuel depleted).
+  Gap drift → directions misalign → match less likely (context shift).
 
-  Compiled-Suppress ACCELERATE Reward-Habituated + DRAIN NOVELTY:
-    Compiled suppress → ít grow riêng → habituation NHANH HƠN.
-    Compiled suppress → ít novelty input → ①b plateau → fuel cạn.
+  Compiled-Suppress ACCELERATES Reward-Habituated + DRAINS NOVELTY:
+    Compiled suppress → less personal growth → habituation FASTER.
+    Compiled suppress → less novelty input → ①b plateau → fuel depletes.
     → FIX Compiled-Suppress = LEVERAGE POINT (§10).
 
   🟡 2 Forces + 1 Fuel model = framework synthesis.
   🟢 Individual components: established (per-section citations).
 ```
 
-### §3.2 — Gap-clone impossible → ⑥ do Resonance Decline, KHÔNG do "quá giống"
+### §3.2 — Gap-clone impossible → ⑥ is from Resonance Decline, NOT from "being too similar"
 
 ```
-⭐ GAP-CLONE = KIẾN TRÚC KHÔNG CHO PHÉP:
+⭐ GAP-CLONE = ARCHITECTURALLY IMPOSSIBLE:
 (Full proof: By-Product-Gap-Resonance v1.1 §9.1)
 
-  ① Gap = f(TOÀN BỘ chunk network) — Self-Pattern-Modeling chỉ thêm SUB-SET.
-  ② Hebbian: chunks cũ KHÔNG xóa → gap direction vẫn riêng.
-  ③ Background-Pattern RESIST (years, high density).
+  ① Gap = f(ENTIRE chunk network) — Self-Pattern-Modeling only adds a SUB-SET.
+  ② Hebbian: old chunks DO NOT DELETE → gap direction remains personal.
+  ③ Background-Pattern RESISTS (years, high density).
   ④ Hardware gaps IMMUTABLE (DNA).
-  ⑤ Twin test (DECISIVE): hardware gần giống hệt → gap VẪN khác.
+  ⑤ Twin test (DECISIVE): hardware nearly identical → gap is STILL different.
 
-  HỆ QUẢ:
-  → NẾU gap-clone impossible → "chán nhau" 100% DO Resonance Decline
+  IMPLICATIONS:
+  → IF gap-clone is impossible → relational boredom is 100% FROM Resonance Decline
     (Compiled-Suppress + Reward-Habituated + novelty depletion + gap drift).
-  → "Over-clone" = observation LABEL, KHÔNG phải mechanism thật.
-  → "Chán nhau" FIX bằng address decline mechanisms, KHÔNG bằng "tìm khác biệt."
-    (Vì gap VỐN ĐÃ khác → vấn đề = suppress + habituation + novelty depleted.)
+  → "Over-cloning" = observation LABEL, NOT the actual mechanism.
+  → Relational boredom is FIXED by addressing decline mechanisms, NOT by
+      "finding differences." (Because gaps are ALREADY different → the problem
+      is suppression + habituation + depleted novelty.)
 
   🟡 Architecture proof = framework synthesis.
   🟢 Bouchard 1990: twins similar but NOT identical.
 ```
 
-### §3.3 — Self-Pattern-Modeling-oversimplify-clone: tại sao PFC tưởng "giống nhau"
+### §3.3 — Self-Pattern-Modeling-oversimplify-clone: why PFC thinks "we're the same"
 
 ```
-  Self-Pattern-Modeling OBSERVE BEHAVIOR, KHÔNG OBSERVE GAP STRUCTURE:
+  Self-Pattern-Modeling OBSERVES BEHAVIOR, NOT GAP STRUCTURE:
 
-    Target behavior: "ăn phở, mặt vui."
-    Self-Pattern-Modeling retrieve own chunks: [phở → ngon → vui].
-    Template match: "chắc HỌ cũng cùng lý do."
-    PFC label: "chúng tôi giống nhau — cùng thích phở."
+    Target behavior: "eating pho, happy face."
+    Self-Pattern-Modeling retrieves own chunks: [pho → delicious → happy].
+    Template match: "they must share the same reason."
+    PFC labels: "we're the same — we both love pho."
 
-  THỰC TẾ:
-    A thích phở vì: thịt bò DAI → somatosensory gap.
-    B thích phở vì: nước phở NGON → gustatory gap.
-    → 2 gap directions KHÁC ở chunk level.
-    → NHƯNG resonance VẪN HOẠT ĐỘNG: cả 2 "vui khi ăn cùng."
-    → By-product match ở META-LEVEL, không cần match ở CONTENT level.
+  REALITY:
+    A loves pho because: CHEWY beef → somatosensory gap.
+    B loves pho because: FLAVORFUL broth → gustatory gap.
+    → 2 gap directions DIFFERENT at the chunk level.
+    → BUT resonance STILL WORKS: both "happy eating together."
+    → By-product match at the META-LEVEL, doesn't need to match at CONTENT level.
 
   🟡 Self-Pattern-Modeling-oversimplify-clone = framework synthesis.
   🟢 Projection bias (Krueger 2007). False consensus (Ross et al. 1977).
@@ -488,118 +458,119 @@ TƯƠNG TÁC (Interaction Model):
 
 ---
 
-## §4 — 3 LOẠI "CHÁN" + "CHÁN NHAU" MAPPING
+## §4 — 3 BOREDOM TYPES + RELATIONAL BOREDOM MAPPING
 
-### §4.1 — 3 loại (VALIDATED + EXTENDED)
+### §4.1 — 3 types (VALIDATED + EXTENDED)
 
 ```
-⭐ CÙNG DISSONANCE → "CHÁN" HAY KHÔNG → TÙY IMAGINE-FINAL:
+⭐ SAME DISSONANCE → "BORED" OR NOT → DEPENDS ON IMAGINE-FINAL:
 
 
-LOẠI 1 — MƠ HỒ (dissonance nhẹ + Imagine-Final mờ):
+TYPE 1 — VAGUE (mild dissonance + diffuse Imagine-Final):
 
-  "Ngồi nhà, chán quá, không biết làm gì."
-  → Body: khó chịu nhẹ (① ② ③ mix).
-  → PFC scan → không tìm được target cụ thể.
-  → = PHỔ BIẾN NHẤT hàng ngày.
-  Fix: Hướng A — feed channels đang đói (§10).
-
-
-LOẠI 2 — RÕ RÀNG (dissonance rõ + Imagine-Final có nhưng bị lock):
-
-  "Chán công ty, muốn đổi, nhưng lương nuôi gia đình."
-  → Body: ④ mismatch MÃN TÍNH — biết RÕ chán cái gì.
-  → Imagine-Final: CÓ hướng ("muốn đổi nghề") nhưng:
-    → Đổi sang gì cụ thể? → chưa rõ.
-    → Rủi ro? → threat lock (Threat.md §6).
-  → = BIẾT muốn gì + KHÔNG LÀM ĐƯỢC → stuck.
-  → Nếu nhận offer cụ thể → Imagine-Final rõ → "chán" → "đếm ngày."
-  Fix: Hướng B — làm rõ Imagine-Final (§10).
-
-  "Chán ngồi học, nhưng bố mẹ bắt."
-  → Imagine-Final CÓ rất rõ ("muốn ra chơi!").
-  → Nhưng bị LOCK bởi imposed threat (Threat.md §4 ③).
-  → = Biết muốn gì + thấy giải pháp + KHÔNG ĐƯỢC làm → KHÓ CHỊU nhất.
+  "Sitting at home, so bored, don't know what to do."
+  → Body: mild discomfort (① ② ③ mix).
+  → PFC scans → can't find a specific target.
+  → = MOST COMMON daily boredom.
+  Fix: Direction A — feed the hungry channels (§10).
 
 
-LOẠI 3 — TRỐNG (dissonance từ trống + Imagine-Final gần zero):
+TYPE 2 — CLEAR (clear dissonance + Imagine-Final present but locked):
 
-  "Nghỉ hưu, không biết sống để làm gì."
-  → ⑤ direction mất + ③ connection mất (đồng nghiệp).
-  → Imagine-Final: GẦN ZERO — không biết sống tiếp ĐỂ LÀM GÌ.
-  → ≠ fix bằng feed channels (feed xong VẪN trống).
-  → = EXISTENTIAL BOREDOM — khác hoàn toàn "chán hàng ngày."
-  Fix: Hướng B (khó) — tìm compass (§10).
+  "Tired of this company, want to change, but the salary feeds the family."
+  → Body: ④ CHRONIC mismatch — clearly knows what's boring.
+  → Imagine-Final: HAS direction ("want to change careers") but:
+    → Change to what specifically? → not yet clear.
+    → Risk? → threat lock (Threat.md §6).
+  → = KNOWS what's wanted + CANNOT DO IT → stuck.
+  → If given a specific offer → Imagine-Final clears → "bored" → "counting the days."
+  Fix: Direction B — clarify the Imagine-Final (§10).
+
+  "Bored sitting through lessons, but parents are forcing it."
+  → Imagine-Final is very CLEAR ("want to go play!").
+  → But LOCKED by imposed threat (Threat.md §4 ③).
+  → = Knows what's wanted + sees the solution + NOT ALLOWED to do it → most uncomfortable.
+
+
+TYPE 3 — VOID (dissonance from emptiness + Imagine-Final near zero):
+
+  "Retired. Don't know what to live for."
+  → ⑤ direction lost + ③ connection lost (colleagues gone).
+  → Imagine-Final: NEAR ZERO — doesn't know what to live FOR.
+  → ≠ fixed by feeding channels (feed completed → STILL VOID).
+  → = EXISTENTIAL BOREDOM — completely different from everyday boredom.
+  Fix: Direction B (hard) — find a compass (§10).
 
   ┌──────────────────────┬──────────────────────────┐
-  │ Chán hàng ngày       │ Chán existential          │
+  │ Everyday boredom     │ Existential boredom       │
   ├──────────────────────┼──────────────────────────┤
-  │ Body-input đói       │ Direction thiếu            │
-  │ Fix: feed channels   │ Fix: tìm compass           │
-  │ Đi dạo = hết chán    │ Đi dạo = VẪN chán         │
-  │ Tạm thời             │ Mãn tính                   │
+  │ Body-input starved   │ Direction missing         │
+  │ Fix: feed channels   │ Fix: find a compass       │
+  │ Go for a walk = done │ Go for a walk = STILL     │
+  │                      │ bored after               │
+  │ Temporary            │ Chronic                   │
   └──────────────────────┴──────────────────────────┘
 
-  DẤU HIỆU: thay đổi environment → hết chán? → loại 1.
-            Thay đổi environment → VẪN chán? → loại 2 hoặc 3.
+  DIAGNOSTIC: change environment → boredom ends? → Type 1.
+              Change environment → STILL bored? → Type 2 or 3.
 
-  🟡 3 loại "chán" = framework classification.
-  🟢 Existential vs everyday boredom: consistent với Frankl.
+  🟡 3 boredom types = framework classification.
+  🟢 Existential vs everyday boredom: consistent with Frankl.
 ```
 
-### §4.2 — "Chán nhau" map vào Loại nào? (★ v2.0)
+### §4.2 — Relational boredom: which type does it map to? (★ v2.0)
 
 ```
-⭐ "CHÁN NHAU" MAP VÀO 3 LOẠI:
+⭐ RELATIONAL BOREDOM MAPS ONTO 3 TYPES:
 
-  Thường LOẠI 2: biết "chán partner" nhưng Imagine-Final bị lock.
-    Schema "phải ở cùng" + exit cost + Entity-Compiled intact.
-    = BIẾT vấn đề + KHÔNG LÀM ĐƯỢC → stuck.
+  Usually TYPE 2: knows "bored with partner" but Imagine-Final is locked.
+    Schema "must stay together" + exit cost + Entity-Compiled intact.
+    = KNOWS the problem + CANNOT RESOLVE IT → stuck.
 
-  Có thể LOẠI 1: "nhạt nhẽo" mà không biết vì sao.
-    Compiled suppress = invisible → PFC KHÔNG detect source ⑥.
-    = Dangerous: không biết chán nên không seek fix.
-    = Trục Awareness (§8): tầng invisible.
+  Can be TYPE 1: "things feel flat" without knowing why.
+    Compiled suppress = invisible → PFC DOESN'T DETECT source ⑥.
+    = Dangerous: doesn't know they're bored so won't seek a fix.
+    = Awareness axis (§8): the invisible tier.
 
-  Hiếm khi LOẠI 3: relationship hiếm khi là toàn bộ direction.
-    TRỪ KHI: partner = TẤT CẢ identity → mất partner = trống.
+  Rarely TYPE 3: a relationship rarely constitutes one's entire direction.
+    UNLESS: partner = ALL of identity → losing partner = void.
     = Over-redirect gap (By-Product-Gap-Resonance v1.1 §9.2 ①).
 
-  ⚠️ "VẪN YÊU NHƯNG CHÁN":
-    "Vẫn yêu" = Entity-Compiled INTACT (structural valence).
-    "Chán" = by-product match dừng (source ⑥) + Imagine-Final mờ.
-    = 2 statements ĐỒNG THỜI ĐÚNG, KHÔNG mâu thuẫn.
-    🟢 Gottman Type 2 emotional disengagement (~16 năm).
+  ⚠️ "STILL LOVE BUT BORED":
+    "Still love" = Entity-Compiled INTACT (structural valence).
+    "Bored" = by-product match stops (source ⑥) + diffuse Imagine-Final.
+    = 2 statements TRUE SIMULTANEOUSLY, NOT contradictory.
+    🟢 Gottman Type 2 emotional disengagement (~16 years).
 ```
 
 ---
 
 ## §5 — CONTENTMENT vs BOREDOM: COMPILED/FRESH LENS
 
-### §5.1 — Tại sao bãi biển không chán
+### §5.1 — Why the beach isn't boring
 
 ```
-⭐ "SMOOTH" THẬT = CONTENT. "CHÁN" = KHÔNG THẬT SỰ SMOOTH.
+⭐ TRULY "SMOOTH" = CONTENTMENT. "BORED" = NOT TRULY SMOOTH.
 
-  BÃI BIỂN (contentment):
-    Visual: trời, biển, mây → liên tục thay đổi NHẸ.
-    Auditory: sóng biển → mỗi sóng HƠI khác.
-    Somatic: gió, nắng, cát → kích thích nhẹ LIÊN TỤC.
-    → TẤT CẢ channels fed → body-feedback reward → content.
-    → Nằm HÀNG GIỜ mà KHÔNG chán.
+  THE BEACH (contentment):
+    Visual: sky, sea, clouds → continuously changing MILDLY.
+    Auditory: waves → each wave SLIGHTLY different.
+    Somatic: breeze, sun, sand → CONTINUOUS mild stimulation.
+    → ALL channels fed → body-feedback reward → contentment.
+    → Can lie there for HOURS without boredom.
 
-  NGỒI NHÀ (boredom):
-    Visual: cùng 4 bức tường → KHÔNG thay đổi.
-    Auditory: im lặng hoặc tiếng nền quen → KHÔNG feed.
-    Somatic: cùng ghế, cùng nhiệt → KHÔNG kích thích.
-    Motor: ít vận động → body ứ.
-    → Channels KHÔNG FED → body-feedback dissonance nhẹ → "chán."
+  SITTING AT HOME (boredom):
+    Visual: same four walls → NO change.
+    Auditory: silence or familiar background sound → NOT feeding.
+    Somatic: same chair, same temperature → NOT stimulating.
+    Motor: little movement → body backed up.
+    → Channels NOT FED → mild body-feedback dissonance → "bored."
 
-  → "Mới" KHÔNG quyết định chán/không → "feed ĐỦ channels" quyết định.
+  → "Novelty" does NOT determine bored/not bored → "SUFFICIENT channel feeding" does.
 
-  MAP VÀO CORTISOL (Cortisol-Baseline.md v2.1):
-    CONTENT:  cortisol thấp → TẤT CẢ met → body reward.
-    BOREDOM:  cortisol HƠI CAO hơn content → CÓ GÌ ĐÓ unmet.
+  MAPPING ONTO CORTISOL (Cortisol-Baseline.md v2.1):
+    CONTENT:  low cortisol → ALL met → body reward.
+    BOREDOM:  SLIGHTLY HIGHER cortisol than content → SOMETHING unmet.
 
   🟡 Contentment vs boredom mapping = framework analysis.
   🟢 Below optimal arousal → bored (Berlyne 1960).
@@ -608,96 +579,99 @@ LOẠI 3 — TRỐNG (dissonance từ trống + Imagine-Final gần zero):
 ### §5.2 — Compiled/Fresh lens (Inter-Body-Mechanism integration)
 
 ```
-⭐ BOREDOM = THIẾU FRESH INPUT (Inter-Body-Mechanism §3):
+⭐ BOREDOM = LACKING FRESH INPUT (Inter-Body-Mechanism §3):
 
-  COMPILED ENVIRONMENT = environment ĐÃ compile HOÀN TOÀN:
-    Body đã "biết" mọi pattern → VTA habituated.
-    Input = "expected" (no prediction-delta) → KHÔNG cần process.
-    = "Quen hết rồi" = environment fully compiled = boredom territory.
+  COMPILED ENVIRONMENT = environment FULLY compiled:
+    Body already "knows" every pattern → VTA habituated.
+    Input = "expected" (no prediction-delta) → no processing needed.
+    = "Everything is familiar" = environment fully compiled = boredom territory.
 
-  FRESH ENVIRONMENT = environment CÓ patterns chưa compile:
-    Body detect "có gì MỚI" → VTA fire → attention allocate.
-    Input = fresh → cần process → general-purpose system ACTIVE.
-    = KHÔNG CHÁN dù có thể uncomfortable.
+  FRESH ENVIRONMENT = environment WITH uncompiled patterns:
+    Body detects "something NEW" → VTA fires → attention allocated.
+    Input = fresh → needs processing → general-purpose system ACTIVE.
+    = NOT BORING even if potentially uncomfortable.
 
-  → BOREDOM = COMPILATION CONSEQUENCE:
-    Compile MỌI pattern → compile hết → thiếu fresh input → idle.
-    Fix loại 1: INJECT fresh input (đổi environment, new activity).
-    Fix loại 3: CẦN fresh input ở LIFE-LEVEL (new anchor direction).
+  → BOREDOM = CONSEQUENCE OF COMPILATION:
+    Compile ALL patterns → compile everything → lack fresh input → idle.
+    Fix Type 1: INJECT fresh input (change environment, new activity).
+    Fix Type 3: NEEDS fresh input at LIFE-LEVEL (new anchor direction).
 
   EXPERT vs BEGINNER:
-    Expert compiled domain sâu → cần input TINH VI HƠN để fresh.
-    → Expert threshold chán CAO hơn trong domain đó.
-    → Beginner threshold chán THẤP hơn (mọi thứ đều fresh).
+    Expert has compiled the domain deeply → needs MORE SOPHISTICATED input to
+      feel fresh.
+    → Expert's boredom threshold in that domain is HIGHER.
+    → Beginner's boredom threshold is LOWER (everything is fresh).
 
   🟡 Compiled/Fresh boredom = framework synthesis (Inter-Body-Mechanism §3).
 ```
 
 ---
 
-## §6 — "CHÁN" vs "GHÉT": THRESHOLD MODEL (★ v2.0)
+## §6 — "BORED" vs "HATE": THRESHOLD MODEL (★ v2.0)
 
-### §6.1 — "Chán" = dissonance + Imagine-Final MỜ
-
-```
-⭐ "CHÁN" = BOREDOM TERRITORY:
-
-  Body signal: MỜ, nhẹ, diffuse.
-  → Compound micro-misses + habituation DƯỚI PFC threshold.
-  → PFC: "không biết vì sao, chỉ thấy... chán."
-  → KHÔNG có conflict rõ → KHÔNG có target để fix.
-
-  Imagine-Final: MỜ.
-  → "Muốn tốt hơn" → nhưng CỤ THỂ thế nào? → không biết.
-  → = Formula boredom: dissonance + Imagine-Final mờ ✅.
-
-  Verbal marker (relationship): "VẪN YÊU NHƯNG CHÁN."
-  🟢 Gottman Type 2: emotional disengagement (~16 năm).
-```
-
-### §6.2 — "Ghét" = dissonance + Imagine-Final RÕ → KHÔNG phải boredom
+### §6.1 — "Bored" = dissonance + DIFFUSE Imagine-Final
 
 ```
-⭐ "GHÉT" = KHÔNG PHẢI BOREDOM:
+⭐ "BORED" = BOREDOM TERRITORY:
 
-  Body signal: RÕ, mạnh, specific → TRÊN PFC threshold.
-  → PFC: "biết có conflict" → CÓ target → CÓ THỂ address.
+  Body signal: DIFFUSE, mild, diffuse.
+  → Compound micro-misses + habituation BELOW PFC threshold.
+  → PFC: "don't know why, just... bored."
+  → NO clear conflict → NO target to fix.
 
-  Imagine-Final: RÕ hoặc specific hơn.
-  → "Muốn partner NGỪNG LÀM X" / "Muốn thoát."
-  → = DRIVE (negative direction) hoặc THREAT territory.
-  → = KHÔNG phải boredom formula.
+  Imagine-Final: DIFFUSE.
+  → "Want things to be better" → but HOW SPECIFICALLY? → doesn't know.
+  → = Boredom formula: dissonance + diffuse Imagine-Final ✅.
 
-  Verbal marker: "KHÔNG THỂ SỐNG NỔI" / "PHẢI LY DỊ."
-  🟢 Gottman Type 1: active conflict (~5.6 năm).
+  Verbal marker (relationship): "STILL LOVE BUT BORED."
+  🟢 Gottman Type 2: emotional disengagement (~16 years).
+```
+
+### §6.2 — "Hate" = dissonance + CLEAR Imagine-Final → NOT boredom
+
+```
+⭐ "HATE" = NOT BOREDOM:
+
+  Body signal: CLEAR, strong, specific → ABOVE PFC threshold.
+  → PFC: "knows there is a conflict" → HAS a target → CAN address it.
+
+  Imagine-Final: CLEAR or more specific.
+  → "Want the partner to STOP doing X" / "Want out."
+  → = DRIVE (negative direction) or THREAT territory.
+  → = NOT the boredom formula.
+
+  Verbal marker: "CAN'T LIVE LIKE THIS" / "WE NEED TO DIVORCE."
+  🟢 Gottman Type 1: active conflict (~5.6 years).
 ```
 
 ### §6.3 — Threshold model + Transition
 
 ```
-⭐⭐ "CHÁN" vs "GHÉT" = CÙNG SPECTRUM, KHÁC THRESHOLD:
+⭐⭐ "BORED" vs "HATE" = SAME SPECTRUM, DIFFERENT THRESHOLD:
 
   ┌──────────────┬───────────────┬─────────────────────────────┐
   │ Dissonance   │ Imagine-Final │ Territory                   │
   ├──────────────┼───────────────┼─────────────────────────────┤
-  │ LOW + MỜ     │ MỜ            │ BOREDOM (Loại 1)            │
-  │ MODERATE     │ RÕ nhưng lock │ BOREDOM (Loại 2)            │
-  │ HIGH + RÕ    │ RÕ (target)   │ DRIVE/CONFLICT ("ghét")     │
-  │ BURST        │ N/A           │ BURST từ boredom tích lũy   │
+  │ LOW + DIFFUSE│ DIFFUSE       │ BOREDOM (Type 1)            │
+  │ MODERATE     │ CLEAR but     │ BOREDOM (Type 2)            │
+  │              │ locked        │                             │
+  │ HIGH + CLEAR │ CLEAR (target)│ DRIVE/CONFLICT ("hate")     │
+  │ BURST        │ N/A           │ BURST from accumulated      │
+  │              │               │ boredom                     │
   └──────────────┴───────────────┴─────────────────────────────┘
 
-  TRANSITION CÓ THỂ XẢY RA:
-    "Chán" tích lũy → compound → VƯỢT threshold → "ghét" (burst).
-    = Micro-misses compound → "giọt nước tràn ly."
+  TRANSITION CAN HAPPEN:
+    "Bored" accumulates → compounds → EXCEEDS threshold → "hate" (burst).
+    = Micro-misses compound → "the last straw."
 
-  NHƯNG "chán" KHÔNG NHẤT THIẾT thành "ghét":
-    Compiled suppress → flat → "chán" mãn tính mà KHÔNG burst.
-    = Gottman Type 2 (fade) vs Type 1 (conflict) = 2 trajectories KHÁC.
+  BUT "bored" DOES NOT NECESSARILY become "hate":
+    Compiled suppress → flat → CHRONIC "boredom" that NEVER bursts.
+    = Gottman Type 2 (fade) vs Type 1 (conflict) = 2 DIFFERENT trajectories.
 
-  ⭐ PARADOX: "CHÁN" NGUY HIỂM HƠN "GHÉT" TRONG RELATIONSHIP:
-    "Ghét": signal RÕ → biết vấn đề → address được → therapy works.
-    "Chán": signal MỜ → invisible → phát hiện MUỘN → harder to fix.
-    → "Chán" = SILENT KILLER. "Ghét" = loud but treatable.
+  ⭐ PARADOX: "BORED" IS MORE DANGEROUS THAN "HATE" IN RELATIONSHIPS:
+    "Hate": CLEAR signal → problem is known → can be addressed → therapy works.
+    "Bored": DIFFUSE signal → invisible → detected LATE → harder to fix.
+    → "Bored" = SILENT KILLER. "Hate" = loud but treatable.
 
   🟡 Threshold model = framework synthesis.
   🟢 Gottman Type 1 (~5.6yr) vs Type 2 (~16yr): longitudinal data.
@@ -705,36 +679,37 @@ LOẠI 3 — TRỐNG (dissonance từ trống + Imagine-Final gần zero):
 
 ---
 
-## §7 — 3 ĐIỀU KIỆN ĐỒNG THỜI ĐỂ "CHÁN" EMERGE (★ v2.0)
+## §7 — 3 SIMULTANEOUS CONDITIONS FOR BOREDOM TO EMERGE (★ v2.0)
 
 ```
-⭐⭐ "CHÁN" CHỈ EMERGE KHI CẢ 3 ĐỒNG THỜI:
+⭐⭐ "BOREDOM" ONLY EMERGES WHEN ALL 3 ARE PRESENT SIMULTANEOUSLY:
 
-  ① GAP TỒN TẠI (có thứ muốn nhưng chưa có):
-     "Chưa biết = không có gap" (Gap-Direction §3).
-     Ít chunks install → ít gap → ít potential boredom.
-     VD: em bé 3 tuổi không "chán" vì thiếu iPhone (gap chưa tồn tại).
+  ① GAP EXISTS (something wanted but not yet had):
+     "Don't know it yet = no gap" (Gap-Direction §3).
+     Few chunks installed → few gaps → less potential boredom.
+     Example: a 3-year-old doesn't get "bored" by not having a smartphone
+       (the gap doesn't exist yet).
 
-  ② GAP KHÔNG ĐƯỢC FILL (không có available fill):
-     Gap + available fill → "invest" / "drive" (KHÔNG chán).
-     Gap + KHÔNG fill → dissonance tích lũy → "chán."
-     VD: ghét việc + CÓ offer mới = "đếm ngày" ≠ chán.
-         Ghét việc + KHÔNG offer = "chán việc."
+  ② GAP IS NOT FILLED (no available fill):
+     Gap + available fill → "invest" / "drive" (NOT boredom).
+     Gap + NO fill → dissonance accumulates → "bored."
+     Example: hate the job + HAS a new offer = "counting the days" ≠ bored.
+              Hate the job + NO offer = "bored at work."
 
-  ③ SIGNAL DƯỚI PFC THRESHOLD (không đủ rõ thành action):
-     Dissonance RÕ + target RÕ = DRIVE (not boredom).
-     Dissonance MỜ + target MỜ = BOREDOM.
-     Nếu signal TRÊN threshold → "ghét" hoặc "muốn" (not "chán").
+  ③ SIGNAL BELOW PFC THRESHOLD (not clear enough to become action):
+     Dissonance CLEAR + target CLEAR = DRIVE (not boredom).
+     Dissonance DIFFUSE + target DIFFUSE = BOREDOM.
+     If signal IS ABOVE threshold → "hate" or "want" (not "bored").
 
-  THIẾU BẤT KỲ 1 → KHÔNG PHẢI "CHÁN":
-    Thiếu ① → contentment (bãi biển: gap met).
-    Thiếu ② → investment/drive (effort, not boredom).
-    Thiếu ③ → active emotion: "ghét" hoặc "hào hứng."
+  MISSING ANY 1 → NOT "BOREDOM":
+    Missing ① → contentment (beach: gaps met).
+    Missing ② → investment/drive (effort, not boredom).
+    Missing ③ → active emotion: "hate" or "excited."
 
-  CONNECT VỚI ABUNDANCE (§9):
-    Pre-modern: condition ① rarely met (ít complex gaps).
-               + condition ② rarely met (survival fill gaps liên tục).
-    → = Tại sao "chán" là hiện tượng abundance.
+  CONNECTION TO ABUNDANCE (§9):
+    Pre-modern: condition ① rarely met (few complex gaps).
+               + condition ② rarely met (survival fills gaps continuously).
+    → = Why "boredom" is an abundance phenomenon.
 
   🟡 3-condition model = framework synthesis.
   🟢 Boredom = unmet desire + unclear target: Eastwood 2012.
@@ -742,65 +717,68 @@ LOẠI 3 — TRỐNG (dissonance từ trống + Imagine-Final gần zero):
 
 ---
 
-## §8 — 6 TRỤC QUAN SÁT (★ v2.0)
+## §8 — 6 OBSERVATION AXES (★ v2.0)
 
 ```
-⭐ BOREDOM OBSERVATION SPACE = 6 TRỤC:
+⭐ BOREDOM OBSERVATION SPACE = 6 AXES:
 
 
-TRỤC 1+2 (v1.1): Dissonance source × Imagine-Final clarity
-  = 2 chiều GỐC, đã xác nhận, giữ nguyên.
+AXES 1+2 (v1.1): Dissonance source × Imagine-Final clarity
+  = 2 ORIGINAL dimensions, validated, retained unchanged.
 
 
-TRỤC 3 — AWARENESS LEVEL (★ NEW):
+AXIS 3 — AWARENESS LEVEL (★ NEW):
 
   ┌──────────────────┬──────────────────────────────────────────┐
-  │ BIẾT MÌNH CHÁN   │ PFC đã label: "tôi chán" → CÓ THỂ seek │
-  │ (PFC-labeled)    │ = 3 loại ở §4 đều ở tầng này            │
+  │ KNOWS THEY'RE    │ PFC has labeled: "I'm bored" → CAN seek  │
+  │ BORED            │ fix. All 3 types in §4 are at this tier. │
+  │ (PFC-labeled)    │                                          │
   ├──────────────────┼──────────────────────────────────────────┤
-  │ KHÔNG BIẾT       │ Compiled suppress → flat affect           │
-  │ MÌNH CHÁN        │ PFC label: "bình thường" hoặc "mệt"     │
-  │ (invisible)      │ = DANGEROUS nhất: không trigger seek fix  │
+  │ DOESN'T KNOW     │ Compiled suppress → flat affect           │
+  │ THEY'RE BORED    │ PFC labels: "normal" or "tired"          │
+  │ (invisible)      │ = MOST DANGEROUS: doesn't trigger seeking│
+  │                  │   a fix                                  │
   │                  │ PFC-Operations §8: compiled suppress      │
-  │                  │ Person CẦN external feedback để detect    │
+  │                  │ Person NEEDS external feedback to detect  │
   └──────────────────┴──────────────────────────────────────────┘
 
 
-TRỤC 4 — SOCIAL DIMENSION (★ NEW):
+AXIS 4 — SOCIAL DIMENSION (★ NEW):
 
   ┌──────────────────┬──────────────────────────────────────────┐
-  │ SOLO BOREDOM     │ "Chán 1 mình" — sources ①②③④⑤          │
+  │ SOLO BOREDOM     │ "Bored alone" — sources ①②③④⑤           │
   │                  │ Fix: feed channels, find activity         │
   ├──────────────────┼──────────────────────────────────────────┤
-  │ RELATIONAL       │ "Chán cùng nhau" — source ⑥ dominant     │
-  │ BOREDOM          │ Fix: unlock drives riêng (Compiled-      │
+  │ RELATIONAL       │ "Bored together" — source ⑥ dominant     │
+  │ BOREDOM          │ Fix: unlock personal drives (Compiled-   │
   │                  │ Suppress) + restore novelty              │
-  │                  │ ĐỘC LẬP: solo fine + relationship chán   │
+  │                  │ INDEPENDENT: can be fine alone but       │
+  │                  │ bored in the relationship                │
   └──────────────────┴──────────────────────────────────────────┘
 
 
-TRỤC 5 — CHRONIC vs ACUTE (★ NEW):
+AXIS 5 — CHRONIC vs ACUTE (★ NEW):
 
   ┌──────────────────┬──────────────────────────────────────────┐
-  │ ACUTE BOREDOM    │ "Chán chiều nay" — fix đổi activity      │
-  │ (phút → giờ)    │ = Loại 1 territory                       │
+  │ ACUTE BOREDOM    │ "Bored this afternoon" — fix by changing │
+  │ (minutes→hours)  │ activity. = Type 1 territory.            │
   ├──────────────────┼──────────────────────────────────────────┤
-  │ CHRONIC BOREDOM  │ "Chán relationship / cuộc sống"          │
-  │ (tháng → năm)   │ Đổi activity KHÔNG ĐỦ → cần structural   │
-  │                  │ = Loại 2+3 territory                     │
-  │                  │ Diagnostic: "ở đâu cũng chán" = chronic  │
+  │ CHRONIC BOREDOM  │ "Bored with the relationship / life"     │
+  │ (months→years)   │ Changing activity is NOT ENOUGH → needs  │
+  │                  │ structural change. = Type 2+3 territory. │
+  │                  │ Diagnostic: "bored everywhere" = chronic.│
   └──────────────────┴──────────────────────────────────────────┘
 
 
-TRỤC 6 — ABUNDANCE LEVEL (★ NEW):
+AXIS 6 — ABUNDANCE LEVEL (★ NEW):
 
   ┌──────────────────┬──────────────────────────────────────────┐
-  │ SURVIVAL MODE    │ Hardware gaps ACTIVE → fill liên tục      │
-  │ (low abundance)  │ Boredom HIẾM (condition ② rarely met)    │
+  │ SURVIVAL MODE    │ Hardware gaps ACTIVE → continuously filled│
+  │ (low abundance)  │ Boredom RARE (condition ② rarely met)    │
   ├──────────────────┼──────────────────────────────────────────┤
-  │ ABUNDANCE MODE   │ Hardware gaps mostly filled               │
-  │ (high abundance) │ Higher gaps emerge → harder fill → MORE   │
-  │                  │ boredom = signal of idle resources         │
+  │ ABUNDANCE MODE   │ Hardware gaps mostly filled              │
+  │ (high abundance) │ Higher gaps emerge → harder to fill →   │
+  │                  │ MORE boredom = signal of idle resources  │
   └──────────────────┴──────────────────────────────────────────┘
 
 
@@ -811,12 +789,12 @@ TRỤC 6 — ABUNDANCE LEVEL (★ NEW):
 
 ## §9 — ABUNDANCE HYPOTHESIS + HISTORICAL vs MODERN (★ v2.0)
 
-### §9.1 — "Chán" = hiện tượng của DƯ THỪA
+### §9.1 — "Boredom" = a phenomenon of SURPLUS
 
 ```
-⭐⭐ "CHÁN" CẦN ABUNDANCE MỚI EMERGE:
+⭐⭐ "BOREDOM" REQUIRES ABUNDANCE TO EMERGE:
 
-  ① Survival demands FILL hardware gaps liên tục:
+  ① Survival demands CONTINUOUSLY FILL hardware gaps:
      Food → farm/hunt. Safety → guard. = Hardware gap-fill LOOP.
 
   ② Abundance → hardware gaps mostly filled:
@@ -825,68 +803,69 @@ TRỤC 6 — ABUNDANCE LEVEL (★ NEW):
 
   ③ IDLE system → higher-level gaps EMERGE:
      More exposure → more chunks → more gaps.
-     Internet, travel, media → chunk installation MASSIVE → gap landscape EXPAND.
+     Internet, travel, media → chunk installation MASSIVE → gap landscape EXPANDS.
 
   ④ Higher-level gaps = HARDER to fill:
-     Hardware gap (đói): fill = ăn → simple, available.
+     Hardware gap (hungry): fill = eat → simple, available.
      Career gap (meaningful work): complex, requires years + alignment.
-     Meaning gap (sống để làm gì): HARDEST, may take decades.
-     Partner KHÔNG fill higher gaps → "chán nhau" structural.
+     Meaning gap (what to live for): HARDEST, may take decades.
+     Partner CANNOT fill higher gaps → "boredom in the relationship" becomes structural.
 
   BOREDOM SCALE × CIVILIZATION:
     Hunter-gatherer: ≈ 0 (constant survival loop).
-    Agricultural: LOW (seasonal, some idle).
+    Agricultural: LOW (seasonal, some idle time).
     Industrial: MODERATE (routine work + free time).
     Information age: HIGH (abundance + massive chunk install → many higher gaps).
-    → Boredom TĂNG theo civilization → STRUCTURAL, NOT individual failure.
+    → Boredom INCREASES with civilization → STRUCTURAL, NOT individual failure.
 
   🟡 Abundance hypothesis = framework synthesis.
   🟢 Maslow hierarchy: compatible framing.
 ```
 
-### §9.2 — Historical vs Modern: tại sao ngày xưa ít "chán"
+### §9.2 — Historical vs Modern: why there was less "boredom" in the past
 
 ```
 ⭐ PRE-MODERN × 3 CONDITIONS:
 
-  Condition ① GAP TỒN TẠI → ÍT gap phức tạp:
-    Thế giới nhỏ: cùng làng, cùng context suốt đời.
-    Chunks available = HẠN CHẾ → gap landscape = HẸP.
+  Condition ① GAP EXISTS → FEW complex gaps:
+    Small world: same village, same context for a whole life.
+    Available chunks = LIMITED → gap landscape = NARROW.
 
-  Condition ② GAP KHÔNG FILL → survival demands FILL liên tục:
-    Mỗi ngày: ruộng, nấu, chăm con, mùa vụ → condition ② RARELY MET.
+  Condition ② GAP NOT FILLED → survival demands fill continuously:
+    Each day: fields, cooking, caring for children, seasons →
+      condition ② RARELY MET.
 
-  Condition ③ SIGNAL DƯỚI THRESHOLD → override bởi survival:
-    Dù có higher gap → survival signal MẠNH HƠN → override.
+  Condition ③ SIGNAL BELOW THRESHOLD → overridden by survival:
+    Even if a higher gap exists → survival signal STRONGER → overrides it.
 
-  → PRE-MODERN HIẾM KHI ĐỦ 3 CONDITIONS → "CHÁN" HIẾM.
+  → PRE-MODERN RARELY HAD ALL 3 CONDITIONS → "BOREDOM" WAS RARE.
 ```
 
 ### §9.3 — Pre-modern marriage + modern structural change
 
 ```
-  VỢ CHỒNG NGÀY XƯA:
-    Cùng ruộng/cửa hàng → work domain SHARED → by-product match ở career.
-    Cùng cộng đồng → social domain OVERLAPPING.
-    → Partner cover NHIỀU domains hơn hiện đại.
-    NHƯNG "bền" KHÔNG vì "yêu hơn" →
-      vì: ít boredom potential + exit cost CỰC CAO + domain overlap.
+  SPOUSES IN PRE-MODERN TIMES:
+    Shared farm/business → work domain SHARED → by-product match on career.
+    Shared community → social domain OVERLAPPING.
+    → Partner covered MORE domains than in the modern era.
+    BUT durability was NOT because "they loved more" →
+      because: less boredom potential + EXIT COST EXTREME + domain overlap.
 
-  6 LAYERS CHỐNG LY DỊ PRE-MODERN:
-    ① Tôn giáo: "hôn nhân = thiêng liêng."
-    ② Kinh tế: vợ KHÔNG có income riêng → exit = survival threat.
-    ③ Danh dự: ly dị = "ô nhục gia đình."
-    ④ Legal: luật pháp CHỐNG ly dị.
-    ⑤ Con cái: con = collective property.
-    ⑥ Community: làng nhỏ → social pressure CỰC MẠNH.
-    → 6 layers → EXIT COST CỰC CAO.
+  6 LAYERS AGAINST DIVORCE IN PRE-MODERN TIMES:
+    ① Religion: "marriage = sacred."
+    ② Economics: wives had NO independent income → exit = survival threat.
+    ③ Honor: divorce = "family disgrace."
+    ④ Legal: laws AGAINST divorce.
+    ⑤ Children: children = collective property.
+    ⑥ Community: small village → social pressure EXTREME.
+    → 6 layers → EXIT COST EXTREME.
 
-  HIỆN ĐẠI:
-    6 layers ĐỀU YẾU HƠN (secular + economic independence + urban + legal).
-    Vợ chồng KHÁC NGHỀ → career domain SEPARATE.
-    Partner cover: hardware + emotional ≈ 2/5 domains.
+  MODERN ERA:
+    All 6 layers are WEAKER (secular + economic independence + urban + legal reform).
+    Spouses in DIFFERENT professions → career domain SEPARATE.
+    Partner covers: hardware + emotional ≈ 2/5 domains.
     → More boredom (abundance) + lower exit cost + more alternatives.
-    → Ly dị TĂNG = STRUCTURAL, KHÔNG phải "đạo đức suy thoái."
+    → Rising divorce rates = STRUCTURAL, NOT "moral decay."
 
   🟡 Structural analysis = framework synthesis.
   🟢 Finkel 2014: "suffocation model" of modern marriage.
@@ -895,175 +874,178 @@ TRỤC 6 — ABUNDANCE LEVEL (★ NEW):
 
 ---
 
-## §10 — CHẨN ĐOÁN + FIX MỞ RỘNG
+## §10 — DIAGNOSIS + EXTENDED FIXES
 
-### §10.1 — 3 câu hỏi chẩn đoán
-
-```
-⭐ 3 CÂU HỎI:
-
-  Câu 1: "Body đang thiếu GÌ?" (nguồn dissonance):
-    Muốn ĐỘNG? → ② motor → đi bộ, tập.
-    Muốn THẤY/NGHE gì khác? → ① sensory → ra ngoài, đổi environment.
-    Muốn GẶP AI? → ③ connection → gọi bạn, gặp người THẬT.
-    Đang PHẢI làm cái KHÔNG MUỐN? → ④ mismatch → negotiate hoặc đổi.
-    Không biết thiếu gì nhưng TRỐNG? → ⑤ direction → câu 2.
-    Ở cùng ai đó mà "nhạt"? → ⑥ by-product dừng → câu 3.
-
-  Câu 2: "Mình có biết MUỐN GÌ không?" (Imagine-Final clarity):
-    KHÔNG biết → Loại 1: Hướng A (feed channels).
-    BIẾT nhưng chưa dám/đủ rõ → Loại 2: Hướng B (cụ thể hóa plan).
-    Không có gì để muốn → Loại 3: tìm compass.
-
-  Câu 3 (★ v2.1): "Source ⑥ do Resonance Decline NÀO?"
-    Partner thay đổi nhưng vẫn chán? → Reward-Habituated (hardware adaptation).
-    Mình không còn sở thích riêng? → Compiled-Suppress (drive bị suppress).
-    "Biết hết / không gì mới"? → Novelty dưới ngưỡng (fuel depleted).
-    "Không còn chung sở thích/giá trị"? → Gap drift (direction diverge).
-    MIX nhiều decline factors = phổ biến nhất.
-```
-
-### §10.2 — 2 hướng fix + fix theo source ①-⑤
+### §10.1 — 3 diagnostic questions
 
 ```
-⭐ 2 HƯỚNG FIX — tương ứng 2 CHIỀU:
+⭐ 3 QUESTIONS:
 
-  HƯỚNG A — Giảm Dissonance (chiều 1): feed channel đang đói.
-  HƯỚNG B — Làm rõ Imagine-Final (chiều 2): tìm/làm rõ target.
+  Question 1: "What is the body MISSING?" (dissonance source):
+    Want to MOVE? → ② motor → walk, exercise.
+    Want to SEE/HEAR something different? → ① sensory → go outside, change environment.
+    Want to SEE SOMEONE? → ③ connection → call a friend, meet people IN PERSON.
+    FORCED to do something you don't want? → ④ mismatch → negotiate or change.
+    Don't know what's missing but feel EMPTY? → ⑤ direction → question 2.
+    WITH someone but things feel flat? → ⑥ by-product stops → question 3.
 
-  Loại 1 (mơ hồ): Hướng A hiệu quả nhất.
-  Loại 2 (rõ ràng): Hướng B hiệu quả nhất.
-  Loại 3 (trống): Hướng B nhưng KHÓ (phải tìm compass từ đầu).
+  Question 2: "Do I know what I WANT?" (Imagine-Final clarity):
+    NO idea → Type 1: Direction A (feed channels).
+    KNOW but not ready/clear enough → Type 2: Direction B (make a concrete plan).
+    Nothing to want → Type 3: find a compass.
+
+  Question 3 (★ v2.1): "Source ⑥ — which Resonance Decline factor?"
+    Partner changed but still bored? → Reward-Habituated (hardware adaptation).
+    No longer have personal interests? → Compiled-Suppress (drives suppressed).
+    "Know everything / nothing new"? → Novelty below threshold (fuel depleted).
+    "No longer share interests/values"? → Gap drift (directions diverged).
+    MIX of multiple decline factors = most common.
+```
+
+### §10.2 — 2 fix directions + source-by-source fixes
+
+```
+⭐ 2 FIX DIRECTIONS — corresponding to 2 DIMENSIONS:
+
+  DIRECTION A — Reduce Dissonance (Dimension 1): feed the hungry channel.
+  DIRECTION B — Clarify Imagine-Final (Dimension 2): find/clarify the target.
+
+  Type 1 (vague): Direction A is most effective.
+  Type 2 (clear): Direction B is most effective.
+  Type 3 (void): Direction B but HARD (must find a compass from scratch).
 
 
-FIX THEO SOURCE ①-⑤:
+SOURCE-BY-SOURCE FIXES FOR ①-⑤:
 
-  ① Sensory đói: thay đổi environment, feed specific channel.
-     Nhạc mới (auditory), nấu ăn (taste+smell), đi dạo (visual+somatic).
-     KHÔNG cần "cái mới" → cần "input ĐỦ cho channels đang đói."
+  ① Sensory starved: change environment, feed the specific channel.
+     New music (auditory), cook a meal (taste+smell), go for a walk (visual+somatic).
+     DON'T need "something new" → need "input SUFFICIENT for the hungry channels."
 
-  ② Motor: vận động — đi bộ, stretch, dọn nhà.
-     Fidgeting = motor discharge rẻ nhất.
+  ② Motor: move — walk, stretch, tidy the house.
+     Fidgeting = cheapest motor discharge.
 
-  ③ Connection: gặp người THẬT (không phải scroll MXH).
-     MXH feed ① visual nhưng KHÔNG feed ③ connection.
+  ③ Connection: meet people IN PERSON (not scrolling social media).
+     Social media feeds ① visual but DOES NOT feed ③ connection.
 
   ④ Forced mismatch:
-     Ngắn hạn: chấp nhận + micro-meaning.
-     Dài hạn: negotiate hoặc tìm domain match.
-     Nếu mismatch MÃN TÍNH → "chán" KHÔNG hết dù feed ① ② ③.
+     Short-term: accept + find micro-meaning.
+     Long-term: negotiate or find a domain fit.
+     If mismatch is CHRONIC → "boredom" DOESN'T RESOLVE even if ① ② ③ are fed.
 
-  ⑤ Direction thiếu:
-     KHÔNG fix bằng stimulation → cần tìm compass.
-     Lắng nghe body reward → thử nhiều domain → observe → dần thấy hướng.
+  ⑤ Direction missing:
+     CANNOT be fixed by stimulation → need to find a compass.
+     Listen to body reward → try domains → observe → gradually see direction.
 
-  NẾU Hướng A mà VẪN CHÁN → chuyển Hướng B.
-  NẾU cả A + B không work → có thể ⑤ existential hoặc cần chuyên gia.
+  IF Direction A and STILL BORED → switch to Direction B.
+  IF both A + B don't work → possible ⑤ existential or needs a specialist.
 
-  🟡 Fix theo root cause = framework synthesis.
+  🟡 Fix by root cause = framework synthesis.
   🟢 Goal-setting → pain tolerance (Locke & Latham).
 ```
 
-### §10.3 — Fix source ⑥ theo Resonance Decline (★ v2.1)
+### §10.3 — Fix source ⑥ by Resonance Decline (★ v2.1)
 
 ```
-⭐⭐ FIX SOURCE ⑥ THEO 2 FORCES + 1 FUEL + GAP DRIFT:
+⭐⭐ FIX SOURCE ⑥ BY 2 FORCES + 1 FUEL + GAP DRIFT:
 
-  COMPILED-SUPPRESS (force) → FIX: UNLOCK drives riêng.
-    Tìm lại sở thích riêng, career riêng, friends riêng.
-    CẦN AWARENESS trước: person phải BIẾT đang suppress.
-    Nếu invisible → cần external feedback (therapist, friend).
+  COMPILED-SUPPRESS (force) → FIX: UNLOCK personal drives.
+    Rediscover personal hobbies, personal career goals, separate friendships.
+    AWARENESS REQUIRED first: person must KNOW they're suppressing.
+    If invisible → needs external feedback (therapist, trusted friend).
     PFC-Operations §8.2: 6-step reversal process.
-    ⚠️ HARDEST to fix vì invisible + automated.
+    ⚠️ HARDEST to fix because invisible + automated.
     🟢 Schnarch: differentiation. Muise 2024: otherness.
 
   REWARD-HABITUATED (force) → FIX: INJECT variation.
     Shared NOVEL experiences (new + together).
-    ⚠️ Variation ALONE không đủ nếu Compiled-Suppress active.
-    🟢 Aron 2000: novel activities → satisfaction tăng.
+    ⚠️ Variation ALONE is insufficient if Compiled-Suppress is active.
+    🟢 Aron 2000: novel activities → satisfaction increases.
 
-  NOVELTY DƯỚI NGƯỠNG (fuel) → FIX: GROW RIÊNG + SHARED NEW CHUNKS.
-    Mỗi người grow ở domain riêng → new by-products → new match.
-    Try new activity TOGETHER → new Entity-Compiled chunks compile.
+  NOVELTY BELOW THRESHOLD (fuel) → FIX: GROW SEPARATELY + SHARE NEW CHUNKS.
+    Each person grows in their own domain → new by-products → new match.
+    Try new activities TOGETHER → new Entity-Compiled chunks compile.
     🟢 Baumeister & Bratslavsky 1999: passion = rate of change.
     🟢 Aron 2000: novel + challenging + shared → satisfaction.
 
-  GAP DRIFT (context) → FIX: SHARED NEW DIRECTIONS.
-    Find/create shared gap directions (new projects, shared goals).
-    PROXIMITY PARADOX: đủ gần để share, đủ xa để grow riêng.
+  GAP DRIFT (context) → FIX: FIND/CREATE SHARED NEW DIRECTIONS.
+    Find or create shared gap directions (new projects, shared goals).
+    PROXIMITY PARADOX: close enough to share, separate enough to grow individually.
 
 
-  ⭐ FIX ORDER: COMPILED-SUPPRESS TRƯỚC → rồi ② + novelty TỰ RESOLVE:
-    Fix Compiled-Suppress (unlock drives) → grow riêng → new by-products.
-    → Bring new energy → variation natural (counter Reward-Habituated).
-    → Growth riêng + shared → restore novelty fuel.
-    → Shared growth → maintain direction match (counter gap drift).
+  ⭐ FIX ORDER: COMPILED-SUPPRESS FIRST → then ② + novelty SELF-RESOLVE:
+    Fix Compiled-Suppress (unlock drives) → grow individually → new by-products.
+    → Brings new energy → natural variation (counters Reward-Habituated).
+    → Individual growth + shared → restores novelty fuel.
+    → Shared growth → maintains direction match (counters gap drift).
     → Compiled-Suppress FIX = LEVERAGE POINT.
 
   🟡 Fix by decline factor = framework synthesis.
 ```
 
-### §10.4 — Bù tạm vs bù thật
+### §10.4 — Temporary fix vs genuine fix
 
 ```
-  BÙ TẠM vs BÙ THẬT:
+  TEMPORARY vs GENUINE:
 
-  Đói bụng → ăn snack → tạm no → chưa ăn thật → đói lại.
-  "Chán"   → scroll phone → tạm bớt → chưa feed thật → chán lại.
+  Hungry → eat a snack → temporarily full → haven't eaten a real meal → hungry again.
+  "Bored" → scroll phone → temporarily less bored → haven't genuinely fed → bored again.
 
-  = CÙNG CƠ CHẾ: bù tạm ≠ đáp ứng thật.
+  = SAME MECHANISM: temporary fix ≠ genuine satisfaction.
 
-  Tại sao scroll phone KHÔNG hết chán:
+  Why scrolling your phone doesn't cure boredom:
     Phone: visual feed only = 1 channel.
-    ② motor + ③ connection + có thể ⑤ VẪN đói → vẫn chán sau.
+    ② motor + ③ connection + possibly ⑤ STILL starved → still bored after.
 
-  Tại sao chơi đồ chơi hết chán LÂU hơn:
-    Visual + motor + somatic + có thể connection = NHIỀU channels.
-    Nhiều channels fed = hết chán lâu hơn.
+  Why playing with a toy cures boredom LONGER:
+    Visual + motor + somatic + possibly connection = MANY channels.
+    More channels fed = boredom-free for longer.
 
   🟡 Framework synthesis.
 ```
 
 ---
 
-## §11 — PHÂN BIỆT: CHÁN ≠ GHÉT ≠ BURNOUT ≠ DEPRESSION
+## §11 — DISTINCTION: BOREDOM ≠ HATE ≠ BURNOUT ≠ DEPRESSION
 
 ```
-⭐ 4 TRẠNG THÁI KHÁC — THƯỜNG BỊ GỘP — CẦN TÁCH:
+⭐ 4 DIFFERENT STATES — OFTEN CONFLATED — NEED SEPARATING:
 
   ┌──────────────┬──────────────────────┬────────────────────────┐
-  │              │ GỐC                  │ Imagine-Final          │
+  │              │ ROOT                 │ Imagine-Final          │
   ├──────────────┼──────────────────────┼────────────────────────┤
-  │ CHÁN         │ Dissonance +         │ KHÔNG biết hướng       │
-  │              │ Imagine-Final MỜ     │                        │
-  │ (Boredom)    │ Sources ①-⑥          │ = Formula boredom      │
-  │              │ Cortisol: nhẹ        │                        │
+  │ BOREDOM      │ Dissonance +         │ DOESN'T KNOW direction │
+  │              │ diffuse Imagine-     │                        │
+  │              │ Final                │ = Boredom formula      │
+  │              │ Sources ①-⑥         │                        │
+  │              │ Cortisol: mild       │                        │
   ├──────────────┼──────────────────────┼────────────────────────┤
-  │ GHÉT         │ Dissonance +         │ BIẾT conflict          │
-  │              │ Imagine-Final RÕ     │                        │
-  │ (Conflict)   │ Active anti-match    │ = DRIVE/THREAT territory│
-  │              │ Cortisol: cao, acute │ = KHÔNG phải boredom   │
+  │ HATE         │ Dissonance +         │ KNOWS the conflict     │
+  │ (Conflict)   │ clear Imagine-Final  │                        │
+  │              │ Active anti-match    │ = DRIVE/THREAT         │
+  │              │ Cortisol: high,      │   territory            │
+  │              │ acute                │ = NOT boredom          │
   ├──────────────┼──────────────────────┼────────────────────────┤
-  │ KIỆT SỨC    │ QUÁ NHIỀU output     │ Imagine-Final CÓ nhưng CAN'T     │
-  │ (Burnout)    │ PFC suy kiệt         │ execute (depleted)     │
-  │              │ Cortisol: mãn tính   │ ≠ boredom              │
+  │ BURNOUT      │ TOO MUCH output      │ Imagine-Final PRESENT  │
+  │              │ PFC depleted         │ but CAN'T execute      │
+  │              │ Cortisol: chronic    │ (depleted) ≠ boredom   │
   ├──────────────┼──────────────────────┼────────────────────────┤
-  │ TRẦM CẢM    │ Nhiều nguồn          │ Imagine-Final collapse (numbness) │
-  │ (Depression) │ (sinh học, trauma)   │ CAN'T feel ≠ bored    │
-  │              │ Cortisol: dysregulated│ = Clinical             │
+  │ DEPRESSION   │ Multiple sources     │ Imagine-Final collapses│
+  │              │ (biological, trauma) │ (numbness)             │
+  │              │ Cortisol: dysreg.    │ CAN'T feel ≠ bored     │
+  │              │                      │ = Clinical             │
   └──────────────┴──────────────────────┴────────────────────────┘
 
-  Chán: THIẾU → fix: FEED/tìm direction → CÓ THỂ hết nhanh.
-  Burnout: QUÁ → fix: REST + reduce load → CẦN thời gian.
-  Depression: phức tạp → CẦN chuyên gia.
+  Boredom: LACKING → fix: FEED/find direction → CAN resolve quickly.
+  Burnout: TOO MUCH → fix: REST + reduce load → TAKES TIME.
+  Depression: complex → NEEDS a specialist.
 
-  ESCALATION POSSIBLE:
-    Chán mãn tính → ĐÔI KHI → burnout (cố fix bằng overwork).
-    Chán mãn tính → ĐÔI KHI → depression (compiled suppress lan rộng).
-    PFC-Operations §8.1: compiled suppress nhiều domains → escalation pathway.
-    NHƯNG: chán KHÔNG TỰ ĐỘNG thành depression. Khác mechanism.
+  ESCALATION IS POSSIBLE:
+    Chronic boredom → SOMETIMES → burnout (trying to fix via overwork).
+    Chronic boredom → SOMETIMES → depression (compiled suppress spreads).
+    PFC-Operations §8.1: compiled suppress across many domains → escalation pathway.
+    BUT: boredom does NOT AUTOMATICALLY become depression. Different mechanism.
 
-  → 4 cái KHÁC GỐC, KHÁC FIX — KHÔNG nên gộp.
+  → All 4 have DIFFERENT ROOTS, DIFFERENT FIXES — should NOT be conflated.
 
   🟢 Understimulation vs overwork vs mood disorder = clinical distinction.
 ```
@@ -1078,20 +1060,22 @@ FIX THEO SOURCE ①-⑤:
   BOREDOM × PFC-OPERATIONS:
 
   COMPILED SUPPRESS (PFC-Operations §8):
-    Compiled-Suppress = compiled suppress gap riêng → boredom source ⑥.
-    Compiled suppress → flat affect → PFC label "bình thường" → INVISIBLE boredom.
-    Escalation: compiled suppress nhiều domains → learned helplessness pathway.
-    6-step reversal: detect → safe env → uncompile → process → build new → compile.
+    Compiled-Suppress = compiled suppression of personal gaps → boredom source ⑥.
+    Compiled suppress → flat affect → PFC labels "normal" → INVISIBLE boredom.
+    Escalation: compiled suppress across many domains → learned helplessness pathway.
+    6-step reversal: detect → safe environment → uncompile → process →
+      build new → compile.
 
   PFC BUDGET (PFC-Operations §9):
     PFC budget = FINITE, SHARED.
-    Boredom + fix boredom = CẦN PFC budget.
-    PFC mệt (overwork) → scan Imagine-Final KÉM → dễ "chán" dù có options.
-    = Tại sao kiệt sức + chán CÓ THỂ xảy ra đồng thời (khác mechanism).
+    Boredom + fixing boredom = REQUIRES PFC budget.
+    PFC exhausted (overwork) → poor Imagine-Final scanning → easily "bored"
+      even with options available.
+    = Why exhaustion + boredom CAN occur simultaneously (different mechanisms).
 
   COMPILED QUALITY (PFC-Operations §5):
-    Schema-compiled "tôi không bao giờ chán" → block awareness → Trục 3 tầng 2.
-    Genuine-compiled contentment ≠ schema-compiled "bình thường" (khác tag).
+    Schema-compiled "I'm never bored" → blocks awareness → Axis 3 invisible tier.
+    Genuine-compiled contentment ≠ schema-compiled "normal" (different tag).
 ```
 
 ### §12.2 — Entity-Compiled + Entity-Access + Simulation-Engine
@@ -1099,21 +1083,24 @@ FIX THEO SOURCE ①-⑤:
 ```
   BOREDOM × ENTITY-COMPILED (Entity-Compiled v1.0):
     Entity-Compiled formation 40→80→200h diminishing returns → novelty threshold lens.
-    Entity-Compiled = brain compile agent vào body-base → predict reward → unmet = ⑥.
-    Hub-and-Spoke: partner = hub entity → boredom ĐAU NHẤT.
-    Grief A+B+C: mất entity → boredom END (but grief START).
+    Entity-Compiled = brain compiles agent into body-base → predicts reward →
+      unmet = source ⑥.
+    Hub-and-Spoke: partner = hub entity → relational boredom HURTS MOST.
+    Grief A+B+C: losing entity → boredom ENDS (but grief BEGINS).
 
   BOREDOM × ENTITY-ACCESS (Entity-Access v1.0):
-    Entity-Access Mức 0-5 gradient:
-      Mức 0-1: boredom unlikely (entity chưa significant).
-      Mức 3+: boredom potential TĂNG (Entity-Compiled predict reward → mismatch đau hơn).
-      Mức 5: boredom = existential threat (entity = core identity).
+    Entity-Access gradient Level 0-5:
+      Level 0-1: boredom unlikely (entity not yet significant).
+      Level 3+: boredom potential INCREASES (Entity-Compiled predicts reward →
+        mismatch hurts more).
+      Level 5: boredom = existential threat (entity = core identity).
 
   BOREDOM × SIMULATION-ENGINE (Simulation-Engine v1.0):
     Boredom = engine IDLE state: NO active target to simulate.
-    Simulation-Engine RUN → exploring Imagine-Final → NOT boredom.
-    Engine STUCK (no target, no direction) → boredom emerge.
-    = Compilable Architecture: general-purpose system cần input. No input → idle signal.
+    Simulation-Engine RUNNING → exploring Imagine-Final → NOT boredom.
+    Engine STUCK (no target, no direction) → boredom emerges.
+    = Compilable Architecture: general-purpose system needs input.
+      No input → idle signal.
 ```
 
 ---
@@ -1121,46 +1108,46 @@ FIX THEO SOURCE ①-⑤:
 ## §13 — CASES
 
 ```
-⭐ 5 CASES MINH HỌA:
+⭐ 5 ILLUSTRATIVE CASES:
 
 
-CASE 1 — "Chán chiều nay" (Loại 1, acute):
-  Source: ① sensory + ② motor (ngồi nhà, tĩnh).
-  Imagine-Final: mờ ("không biết làm gì").
-  Trục: aware + solo + acute + abundance.
-  Fix: Hướng A (đi dạo, gọi bạn, nấu ăn → feed channels).
-  = PHỔ BIẾN NHẤT. Fix NHANH NHẤT.
+CASE 1 — "Bored this afternoon" (Type 1, acute):
+  Source: ① sensory + ② motor (sitting at home, static).
+  Imagine-Final: diffuse ("don't know what to do").
+  Axes: aware + solo + acute + abundance.
+  Fix: Direction A (go for a walk, call a friend, cook → feed channels).
+  = MOST COMMON. FASTEST to fix.
 
 
-CASE 2 — "Chán công ty" (Loại 2, chronic):
-  Source: ④ mismatch MÃN TÍNH + ⑥ team by-product dừng.
-  Imagine-Final: CÓ ("muốn đổi nghề") nhưng bị lock (exit cost, rủi ro).
-  Trục: aware + relational (work) + chronic + abundance.
-  Fix: Hướng B (cụ thể hóa plan, giảm uncertainty, find alignment).
+CASE 2 — "Bored at this company" (Type 2, chronic):
+  Source: ④ CHRONIC mismatch + ⑥ team by-product stops.
+  Imagine-Final: HAS it ("want to change careers") but locked (exit cost, risk).
+  Axes: aware + relational (work) + chronic + abundance.
+  Fix: Direction B (make a concrete plan, reduce uncertainty, find alignment).
 
 
-CASE 3 — "Vẫn yêu nhưng chán" (source ⑥, chronic, partially invisible):
+CASE 3 — "Still love but bored" (source ⑥, chronic, partially invisible):
   Source: ⑥ dominant (Compiled-Suppress + Reward-Habituated).
-  Imagine-Final: mờ ("relationship tốt mà, sao vẫn...").
-  Trục: partially invisible + relational + chronic + abundance.
-  Fix: Compiled-Suppress first → unlock drives riêng → counter ② + restore novelty.
-  = HARDEST vì invisible + partner MAY RESIST unlock.
-  🟢 Gottman Type 2 (~16 năm).
+  Imagine-Final: diffuse ("the relationship is fine... but why still...").
+  Axes: partially invisible + relational + chronic + abundance.
+  Fix: Compiled-Suppress first → unlock personal drives → counter ② + restore novelty.
+  = HARDEST because invisible + partner MAY RESIST unlocking.
+  🟢 Gottman Type 2 (~16 years).
 
 
-CASE 4 — "Nghỉ hưu, không biết sống để làm gì" (Loại 3, existential):
-  Source: ⑤ direction mất + ③ connection mất (đồng nghiệp).
-  Imagine-Final: GẦN ZERO.
-  Trục: aware + solo + chronic + abundance.
-  Fix: tìm compass (HARDEST). Lắng nghe body → thử domain → observe.
-  = Transition: work fill gaps → retirement expose idle system.
+CASE 4 — "Retired. Don't know what to live for." (Type 3, existential):
+  Source: ⑤ direction lost + ③ connection lost (colleagues gone).
+  Imagine-Final: NEAR ZERO.
+  Axes: aware + solo + chronic + abundance.
+  Fix: find a compass (HARDEST). Listen to body → try domains → observe.
+  = Transition: work filled gaps → retirement exposes idle system.
 
 
-CASE 5 — "Scroll MXH mà vẫn chán" (Loại 1, bù tạm):
-  Source: ① visual fed + ② ③ ④ VẪN đói.
-  Imagine-Final: mờ.
-  = BÙ TẠM: feed 1 channel, đói 3-4.
-  Fix: feed channels THẬT (ra ngoài, vận động, gặp người thật).
+CASE 5 — "Scrolling social media and still bored" (Type 1, temporary fix):
+  Source: ① visual fed + ② ③ ④ STILL starved.
+  Imagine-Final: diffuse.
+  = TEMPORARY FIX: feeds 1 channel, starves 3-4.
+  Fix: feed channels GENUINELY (go outside, exercise, meet real people).
 ```
 
 ---
@@ -1175,16 +1162,16 @@ CASE 5 — "Scroll MXH mà vẫn chán" (Loại 1, bù tạm):
   Boredom = unfulfilled desire:              Eastwood et al. 2012
   Below optimal arousal:                     Berlyne 1960
   Multidimensional boredom (5 types):        Fahlman et al. 2013
-  Hedonic adaptation relationships:          Bao & Lyubomirsky 2013
+  Hedonic adaptation in relationships:       Bao & Lyubomirsky 2013
   Passion = rate of change:                  Baumeister & Bratslavsky 1999
   Self-expansion model:                      Aron & Aron 1996, 2000
   Novel activities → satisfaction:           Aron et al. 2000
-  Closeness × otherness:                     Muise & Goss 2024
+  Closeness + otherness:                     Muise & Goss 2024
   Gottman Type 1/2 divorce:                  Gottman longitudinal
   Twins similar but not identical:           Bouchard 1990
   Projection bias:                           Krueger 2007
   False consensus:                           Ross et al. 1977
-  Suffocation model marriage:                Finkel 2014
+  Suffocation model of marriage:             Finkel 2014
   Differentiation + passion:                 Schnarch
   Existential vs everyday boredom:           Frankl tradition
   Boredom ≠ burnout ≠ depression:            Clinical distinction
@@ -1192,30 +1179,31 @@ CASE 5 — "Scroll MXH mà vẫn chán" (Loại 1, bù tạm):
   Goal-setting → pain tolerance:             Locke & Latham
   Fidgeting = motor discharge:               Established
   Social rejection brain regions:            Eisenberger 2003
-  Boredom predicts satisfaction:             Tsapelas, Aron & Orbuch 2009
+  Boredom predicts relationship              Tsapelas, Aron & Orbuch 2009
+  dissatisfaction:
 
 ═══════════════════════════════════════
 🟡 FRAMEWORK SYNTHESIS (novel integration)
 ═══════════════════════════════════════
 
   Unified formula: dissonance × Imagine-Final clarity
-  "Chán 1 mình" vs "chán cùng nhau" = same formula, different source
-  Source ⑥ by-product match stopped
-  Resonance Decline (2 Forces + 1 Fuel) of source ⑥
+  "Solo boredom" vs "relational boredom" = same formula, different source
+  Source ⑥: by-product match stops
+  Resonance Decline (2 Forces + 1 Fuel) as source ⑥ explanation
   Compiled-Suppress as leverage point
   Gap-clone impossibility → Resonance Decline explanation
   Self-Pattern-Modeling-oversimplify-clone mechanism
-  "Chán" vs "ghét" threshold model
+  "Bored" vs "hate" threshold model
   3 conditions for boredom emergence
   4 new observation axes (Awareness, Social, Chronic/Acute, Abundance)
   Abundance hypothesis (boredom = phenomenon of surplus)
   Historical boredom × 3 conditions analysis
   6-layer pre-modern anti-divorce schema
-  Compiled/Fresh lens on boredom (compiled env → idle)
-  "Feed đủ channel" vs "novelty" reframe
+  Compiled/Fresh lens on boredom (compiled environment → idle)
+  "Sufficient channel feeding" vs "novelty" reframe
   Invisible boredom = compiled suppress
   Expert vs beginner boredom threshold
-  Bù tạm vs bù thật distinction
+  Temporary fix vs genuine fix distinction
   Contentment = truly smooth ≠ boredom = NOT smooth
   Compilable Architecture idle signal → boredom emergence
   Boredom × PFC budget interaction
@@ -1230,10 +1218,10 @@ CASE 5 — "Scroll MXH mà vẫn chán" (Loại 1, bù tạm):
   3-condition threshold exact values
   Source ⑥ vs ④ boundary precision
   Cross-cultural boredom × abundance correlation
-  3 loại có cortisol profile KHÁC nhau?
-  Boredom proneness map vào hardware (DRD4? COMT?)
-  Đo Imagine-Final clarity trực tiếp?
-  "Smooth thật = KHÔNG BAO GIỜ chán" — strong claim
+  Do 3 types have different cortisol profiles?
+  Boredom proneness maps onto hardware (DRD4? COMT?)
+  Direct measurement of Imagine-Final clarity?
+  "Truly smooth = NEVER bored" — strong claim
 ```
 
 ---
@@ -1244,45 +1232,46 @@ CASE 5 — "Scroll MXH mà vẫn chán" (Loại 1, bù tạm):
 
 ```
   ← FOUNDATION:
-    Core-v7.8-Draft.md §8 — observation parameters
+    Core-Software.md §8 — observation parameters
     Body-Feedback-Mechanism.md v2.0 §3.2 — Chunk-Miss ⓑ = boredom substrate
     Cortisol-Baseline.md v2.1 — cortisol modes, baseline drift
     Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture idle signal
-    Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh (compiled env → boredom)
+    Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh (compiled environment → boredom)
 
   ← MECHANISM:
     PFC-Operations.md v1.0 §8 — compiled suppress pathways, 6-step reversal
     PFC-Operations.md v1.0 §9 — PFC budget, shared resource
-    Entity-Compiled.md v1.0 — Formation 40→200h, Entity-Compiled saturation (novelty threshold lens)
-    Entity-Access.md v1.0 — Gradient Mức 0-5, entity-level boredom
+    Entity-Compiled.md v1.0 — Formation 40→200h, saturation (novelty threshold lens)
+    Entity-Access.md v1.0 — Gradient Level 0-5, entity-level boredom
     Simulation-Engine.md v1.0 — boredom = engine idle state
-    Bond-Architecture.md v2.0 §4 — Resonance Decline SOURCE DEFINITION (2 Forces + 1 Fuel)
-    By-Product-Gap-Resonance.md v1.1 §9 — gap-clone impossible proof
+    Bond-Architecture.md v2.0 §4 — Resonance Decline SOURCE DEFINITION
+      (2 Forces + 1 Fuel)
+    By-Product-Gap-Resonance.md v1.1 §9 — gap-clone impossibility proof
     By-Product-Gap-Resonance.md v1.1 §10 — Resonance Decline mirror
-    Self-Pattern-Modeling.md v3.1 — Self-Pattern-Modeling-oversimplify, prediction completion
+    Self-Pattern-Modeling.md v3.1 — Self-Pattern-Modeling-oversimplify, prediction
+      completion
 
   ← VOCABULARY:
-    Body-Feedback-Label.md v2.0 — prediction-delta, vocabulary
-    Body-Feedback-Label.md v2.0 — Compiled/Fresh, terminology
+    Body-Feedback-Label.md v2.0 — prediction-delta, vocabulary, Compiled/Fresh
 
-  ↔ SONG SONG (Observation/ folder):
-    Observation/Novelty.md v1.1 — PULL (boredom = thiếu pull + direction)
-    Observation/Threat.md v1.1 — PUSH (boredom ≠ threat, threat lock → loại 2)
+  ↔ PARALLEL (Observation/ folder):
+    Observation/Novelty.md v1.1 — PULL (boredom = lacking pull + direction)
+    Observation/Threat.md v1.1 — PUSH (boredom ≠ threat; threat lock → Type 2)
     Observation/Drive.md v1.2 §2 — Drive-PFC-Spinning ≈ boredom territory
-    Observation/Meaning.md v2.1 — Loại 3 trống → meaning question gateway
+    Observation/Meaning.md v2.1 — Type 3 void → meaning question gateway
 
   → DOWNSTREAM:
-    Gap-Direction.md v2.0 — gap immutability, "chưa biết = không gap"
-    Background-Pattern.md v1.1 — Background-Pattern resist gap shift
+    Gap-Direction.md v2.0 — gap immutability, "don't know yet = no gap"
+    Background-Pattern.md v1.1 — Background-Pattern resists gap shift
     Body-Coupling.md v2.0 — couple-level boredom dynamics
-    Connection.md v4.0 — "cô đơn giữa đám đông" = source ⑥ territory
+    Connection.md v4.0 — "lonely in a crowd" = source ⑥ territory
     Imagine-Final-Evaluation.md — Imagine-Final clarity dimensions
-    Feeling.md v3.0 — "chán" = PFC observation label
+    Feeling.md v3.0 — "bored" = PFC observation label
     Love-Romantic.md v2.3 — long-term bonding + boredom dynamics
     Valence-Propagation.md v2.0 — valence during boredom
 
-  → ỨNG DỤNG:
-    Domain-Mapping-Drive.md — boredom trong education
+  → APPLICATIONS:
+    Domain-Mapping-Drive.md — boredom in education
     Observation/Threat.md v1.1 §4 — boredom prevention: KEEP domain threats
 
   ← DRILL SOURCE:
@@ -1290,35 +1279,13 @@ CASE 5 — "Scroll MXH mà vẫn chán" (Loại 1, bù tạm):
 
   STATUS:
     v2.1 — 2026-05-29 — Resonance Decline reframe (M1-M4 → 2 Forces + 1 Fuel + Gap Drift).
-    v2.0 — 2026-05-22 — REWRITE từ v1.1 + Drill-Boredom-Mechanism v2.0.
+    v2.0 — 2026-05-22 — REWRITE from v1.1 + Drill-Boredom-Mechanism v2.0.
     v1.1 — 2026-05-17 — +Compilable Architecture, +Compiled/Fresh.
-    v1.0 — 2026-04-20 — viết mới cho v7.8.
-    Rewrite từ: Boredom-Analysis.md (Research/, 722L).
-    Backup: backup/Boredom-v1.1-backup.md.
+    v1.0 — 2026-04-20 — fresh write for v7.8.
 ```
 
-### §15.2 — Research citations
+---
 
-```
-  | # | Citation | Used in | Evidence |
-  |---|----------|---------|----------|
-  | R1 | Eastwood et al. 2012 — Boredom definition | §0, §1, §7 | 🟢 |
-  | R2 | Fahlman et al. 2013 — 5 boredom types | §2 | 🟢 |
-  | R3 | Berlyne 1960 — Below optimal arousal | §5 | 🟢 |
-  | R4 | Baumeister & Bratslavsky 1999 — Passion = rate of change | §3, §10 | 🟢 |
-  | R5 | Aron & Aron 1996, 2000 — Self-expansion model | §3, §10 | 🟢 |
-  | R6 | Bao & Lyubomirsky 2013 — Hedonic adaptation | §3 Reward-Habituated | 🟢 |
-  | R7 | Muise & Goss 2024 — Closeness × otherness | §3 Compiled-Suppress, §10 | 🟢 |
-  | R8 | Gottman — Type 1/2 divorce | §4, §6 | 🟢 |
-  | R9 | Bouchard et al. 1990 — Minnesota Twin Study | §3 | 🟢 |
-  | R10 | Krueger 2007 — Projection bias | §3 | 🟢 |
-  | R11 | Ross et al. 1977 — False consensus | §3 | 🟢 |
-  | R12 | Finkel 2014 — Suffocation model | §9 | 🟢 |
-  | R13 | Seligman 2013 — Prospection | §1 | 🟢 |
-  | R14 | Locke & Latham — Goal-setting | §10 | 🟢 |
-  | R15 | Eisenberger 2003 — Social rejection | §2 | 🟢 |
-  | R16 | Schnarch — Differentiation | §10 | 🟢 |
-  | R17 | Frankl — Existential meaning | §4 | 🟢 |
-  | R18 | Maslow — Hierarchy of needs | §9 | 🟢 |
-  | R19 | Tsapelas, Aron & Orbuch 2009 — Boredom predicts satisfaction | §3 | 🟢 |
-```
+*English translation of Boredom.md (Vietnamese source, v2.1)*
+*Translation target: English-speaking audience — rewritten for clarity and natural English expression.*
+*All framework vocabulary preserved exactly as defined in the Human Predictive Drive Framework.*

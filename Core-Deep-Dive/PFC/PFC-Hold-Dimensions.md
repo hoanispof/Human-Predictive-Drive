@@ -1,90 +1,90 @@
 ---
-title: PFC-Hold-Dimensions — Tại Sao ~4±1 Dimensions
+title: PFC-Hold-Dimensions — Why ~4±1 Dimensions
 version: 1.0
 created: 2026-04-19
-status: DRAFT v1.0
+status: REFERENCE v1.0
 scope: |
-  Phân tích đa góc: tại sao PFC hold ~4±1 dimensions, không phải 2 hay 8.
-  6 lực hội tụ độc lập cùng trỏ về ~4 = confidence cao đây là optimum.
-  Bổ sung cho PFC-Function.md §2 HOLD.
+  Multi-angle analysis: why PFC holds ~4±1 dimensions, not 2 or 8.
+  6 independent forces converge on ~4 = high confidence this is the optimum.
+  Supplement to PFC-Function.md §2 HOLD.
 supersedes: |
   PFC/Imagination/backup/PFC-4-Dimensions-v1.md (2026-03-27, 486L)
-  Insights giữ nguyên, framing updated to v7.8 cycle-based.
+  Insights preserved, framing updated to v7.8 cycle-based.
 related: |
   PFC-Function.md §2 — 4 Hold modes (slots, quick search, loose hold, active lock)
   PFC-Hardware.md §1 — Quality per-slot vs number of slots
   Chunk.md v2.0 — chunk substrate + activation dynamics
   Neural-Architecture.md §4.3.6 — oscillation mechanism
-  Core-v7.8-Draft.md §6 — PFC trong kiến trúc cycle
-language: Tiếng Việt primary + English technical terms
+  Core-Software.md §6 — PFC within cycle architecture
+language: English primary + technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Tại Sao PFC ~4±1 Dimensions?
+# Why PFC ~4±1 Dimensions?
 
-> **Cowan (2001): ~4±1 items. Miller (1956): 7±2 (đã refine xuống ~4 chunks).**
-> **Nhưng TẠI SAO ~4? Tại sao không 2? Tại sao không 8?**
+> **Cowan (2001): ~4±1 items. Miller (1956): 7±2 (refined down to ~4 chunks).**
+> **But WHY ~4? Why not 2? Why not 8?**
 >
-> Khoa học mô tả HIỆN TƯỢNG (4 items) + gợi ý "interference limit".
-> File này phân tích TẠI SAO con số này là ĐIỂM HỘI TỤ
-> của 6 lực KHÁC NHAU, ĐỘC LẬP NHAU.
+> Science describes THE PHENOMENON (4 items) + suggests "interference limit."
+> This file analyzes WHY this number is the CONVERGENCE POINT
+> of 6 DIFFERENT, INDEPENDENT forces.
 >
-> ⚠️ Toàn bộ file = 🟡 tổng hợp suy luận. KHÔNG phải kết luận proven.
-> Mỗi góc ghi rõ confidence level.
+> ⚠️ The entire file = 🟡 synthetic reasoning. NOT proven conclusions.
+> Each section states its confidence level explicitly.
 
 ---
 
-## Mục lục
+## TABLE OF CONTENTS
 
-- §1 — Reframe: 4 Dimensions, Không Phải 4 Items
-- §2 — 6 Lực Hội Tụ Tại ~4
-- §3 — Tại Sao Không 2-3?
-- §4 — Tại Sao Không 5+?
-- §5 — Phổ Động: Đôi Lúc 2, Đôi Lúc 5
+- §1 — Reframe: 4 Dimensions, Not 4 Items
+- §2 — 6 Forces Converging at ~4
+- §3 — Why Not 2-3?
+- §4 — Why Not 5+?
+- §5 — Dynamic Spectrum: Sometimes 2, Sometimes 5
 - §6 — Implications
 - §7 — Honest Assessment
 - §8 — Cross-References
 
 ---
 
-## §1 — Reframe: 4 Dimensions, Không Phải 4 Items
+## §1 — Reframe: 4 Dimensions, Not 4 Items
 
-> 🟡 Framework reinterpretation — consistent với data, chưa proven trực tiếp
+> 🟡 Framework reinterpretation — consistent with data, not yet directly proven
 
 ```
-TRUYỀN THỐNG:
-  "PFC hold 4 items" → 4 ô nhớ riêng biệt → nhét thứ vào
+TRADITIONAL VIEW:
+  "PFC holds 4 items" → 4 separate memory slots → fill them up
 
 REFRAME (HPD framework):
-  "PFC hold 4 DIMENSIONS" → 4 tham số dao động ĐỒNG THỜI
-  → Mỗi dimension = 1 nhóm chunks đang active
-  → PFC DUY TRÌ 4 tham số → B+C dao động TÌM:
-     ① Mâu thuẫn giữa dimensions (conflict detection)
-     ② Ghép nối mới giữa dimensions (pattern discovery)
-  → Body check kết quả → micro-reward nếu pattern có giá trị
+  "PFC holds 4 DIMENSIONS" → 4 parameters oscillating SIMULTANEOUSLY
+  → Each dimension = 1 group of chunks currently active
+  → PFC MAINTAINS 4 parameters → B+C oscillate SEARCHING:
+     ① Conflicts between dimensions (conflict detection)
+     ② New connections between dimensions (pattern discovery)
+  → Body checks the result → micro-reward if the pattern has value
 
-TẠI SAO REFRAME NÀY QUAN TRỌNG:
-  "4 items" → nghĩ "giới hạn storage" → "giá như nhiều hơn"
-  "4 dimensions" → nghĩ "4 trục tọa độ" → số trục = ảnh hưởng TOÀN BỘ
-  → Thêm 1 chiều = KHÔNG phải thêm 1 ô
-  → Mà thay đổi TOPOLOGY không gian so sánh
+WHY THIS REFRAME MATTERS:
+  "4 items" → think "storage limit" → "if only there were more"
+  "4 dimensions" → think "4 coordinate axes" → number of axes affects EVERYTHING
+  → Adding 1 axis = NOT adding 1 slot
+  → It changes the TOPOLOGY of the comparison space
 
-Tương tự:
-  2D = vẽ trên giấy phẳng → chỉ thấy quan hệ phẳng
-  3D = thêm chiều sâu → NHẢY chất lượng (thể tích, perspective)
-  4D = thêm chiều → thấy biến đổi, cause-effect
-  5D = phần lớn tình huống thực KHÔNG CÓ chiều thứ 5 quan trọng
+Analogy:
+  2D = drawing on flat paper → only see flat relationships
+  3D = add depth → QUALITY LEAP (volume, perspective)
+  4D = add another → see transformations, cause-effect
+  5D = most real situations DON'T have an important 5th dimension
 ```
 
 ---
 
-## §2 — 6 Lực Hội Tụ Tại ~4
+## §2 — 6 Forces Converging at ~4
 
-> Không có 1 nguyên nhân duy nhất. 6 lực ĐỘC LẬP nhưng TẤT CẢ trỏ về ~4.
+> No single cause. 6 INDEPENDENT forces but ALL point to ~4.
 
-### §2.1 — Toán Tổ Hợp: Marginal Gain Đạt Đỉnh Ở 3→4
+### §2.1 — Combinatorics: Marginal Gain Peaks at 3→4
 
-> 🟢 Pure math — không tranh cãi
+> 🟢 Pure math — not disputed
 
 ```
 Dimensions:    2       3       4       5       6       7
@@ -92,268 +92,273 @@ Pairs:         1       3       6      10      15      21
 Triples:       0       1       4      10      20      35
 Total combos:  1       7      15      31      63     127
 
-Khi +1 chiều:
-  2→3: pairs 1→3  (+200%)  ← nhảy LỚN
-  3→4: pairs 3→6  (+100%)  ← nhảy LỚN, tổng combos ×2
-  4→5: pairs 6→10 (+67%)   ← bắt đầu GIẢM relative gain
-  5→6: pairs 10→15 (+50%)  ← giảm tiếp
+When adding +1 dimension:
+  2→3: pairs 1→3  (+200%)  ← LARGE jump
+  3→4: pairs 3→6  (+100%)  ← LARGE jump, total combos ×2
+  4→5: pairs 6→10 (+67%)   ← relative gain begins DECREASING
+  5→6: pairs 10→15 (+50%)  ← continues declining
 
-→ 3→4 là bước cuối cùng mà thêm 1 chiều còn NHÂN ĐÔI tổng combinations.
-→ Sau đó = diminishing returns.
-→ Toán chỉ nói "4 hiệu quả" — phải có thêm lý do CHẶN việc tăng thêm.
+→ 3→4 is the last step where adding 1 dimension still DOUBLES total combinations.
+→ After that = diminishing returns.
+→ Math only says "4 is efficient" — there must be additional reasons BLOCKING further increase.
 ```
 
-### §2.2 — Cấu Trúc Thế Giới: ~2-4 Biến Nhân Quả Chính
+### §2.2 — World Structure: ~2-4 Primary Causal Variables
 
-> 🟡 Suy luận có cơ sở — consistent với quan sát, chưa proven formally
-
-```
-Phần lớn tình huống survival-relevant có ~2-4 biến nhân quả CHÍNH:
-
-  Săn mồi:        con mồi + khoảng cách + gió + vật cản          = 4
-  Xung đột xã hội: đối phương + đồng minh + resource + terrain    = 4
-  Tìm thức ăn:     loại + vị trí + risk + thời điểm               = 4
-  Giao tiếp:       người nói + ý định + context + trạng thái mình = 4
-
-Biến thứ 5, 6, 7 LUÔN TỒN TẠI — nhưng thường:
-  → Ảnh hưởng ÍT hơn nhiều so với 4 biến chính
-  → Hoặc = biến PHỤ THUỘC (derive từ 4 biến chính)
-
-Nếu thế giới THẬT SỰ cần track 8 biến để survive
-→ Evolution ĐÃ ép PFC lên 8 (áp lực chọn lọc ĐỦ MẠNH)
-→ Nhưng thế giới KHÔNG đòi hỏi ở mức "sống chết"
-→ 4 = KHỚP với mức phức tạp nhân quả thực tế
-
-Tương tự: mắt nhạy 3 loại cone (RGB) vì phổ ánh sáng hữu ích
-cho survival chỉ cần 3 trục. PFC ~4 dimensions có thể cùng logic.
-```
-
-### §2.3 — False Positive Explosion: Signal-to-Noise SỤP
-
-> 🟡 Suy luận logic mạnh — cơ chế hợp lý, chưa đo trực tiếp
+> 🟡 Reasoned inference — consistent with observation, not yet formally proven
 
 ```
-PFC hold N chiều → B+C tìm pattern trong combinations
-→ Mỗi combination = 1 candidate pattern
-→ Body check: "pattern này có giá trị không?"
+Most survival-relevant situations have ~2-4 PRIMARY causal variables:
 
-VẤN ĐỀ:
-  Số pattern THẬT ≈ CỐ ĐỊNH (thế giới có bao nhiêu nhân quả = không phụ thuộc PFC)
-  Số pattern GIẢ = TĂNG theo combinations
+  Hunting:          prey + distance + wind + obstacle          = 4
+  Social conflict:  opponent + ally + resource + terrain       = 4
+  Food finding:     type + location + risk + timing            = 4
+  Communication:    speaker + intent + context + my own state  = 4
 
-  4 chiều:  ~15 combos → giả sử 8-10 thật → tỉ lệ thật ~60%
-  6 chiều:  ~63 combos → vẫn ~8-10 thật    → tỉ lệ thật ~15%
-  8 chiều: ~255 combos → vẫn ~8-10 thật    → tỉ lệ thật ~4%
+Variables 5, 6, 7 ALWAYS EXIST — but typically:
+  → Contribute MUCH LESS than the 4 primary variables
+  → OR = DERIVED variables (follow from the 4 primary)
 
-  → Thêm chiều KHÔNG tăng pattern thật — chỉ tăng pattern giả.
-  → = GIỐNG "multiple comparisons" trong thống kê:
-    Test 15 hypotheses → vài false positive, chấp nhận được
-    Test 255 hypotheses → ~13 false positive → kết luận sai
+If the world ACTUALLY required tracking 8 variables to survive
+→ Evolution WOULD HAVE pushed PFC to 8 (selection pressure STRONG ENOUGH)
+→ But the world does NOT demand it at the "life or death" level
+→ 4 = MATCHES the real causal complexity of the world
 
-Đời thường:
-  4 manh mối vụ án → ghép → liên kết phần lớn có ý nghĩa
-  100 manh mối random → thấy "pattern" KHẮP NƠI → hầu hết ảo
-  Thám tử GIỎI = biết CHỌN 4 manh mối ĐÚNG, không phải thu thập TẤT CẢ
+Analogy: eyes sensitive to 3 cone types (RGB) because the spectrum
+of light useful for survival only requires 3 axes. PFC ~4 dimensions
+may follow the same logic.
 ```
 
-### §2.4 — Body-Check Bottleneck: Tốc Độ Downstream CỐ ĐỊNH
+### §2.3 — False Positive Explosion: Signal-to-Noise COLLAPSES
 
-> 🟡 Suy luận từ cơ chế đã biết
+> 🟡 Strong logical inference — plausible mechanism, not yet directly measured
+
+```
+PFC holds N dimensions → B+C search for patterns in combinations
+→ Each combination = 1 candidate pattern
+→ Body check: "does this pattern have value?"
+
+THE PROBLEM:
+  Number of REAL patterns ≈ FIXED (how many causal structures exist
+    in the world ≠ depends on PFC)
+  Number of FAKE patterns = GROWS with combinations
+
+  4 dimensions:  ~15 combos → suppose 8-10 are real → real ratio ~60%
+  6 dimensions:  ~63 combos → still ~8-10 real   → real ratio ~15%
+  8 dimensions: ~255 combos → still ~8-10 real   → real ratio ~4%
+
+  → Adding dimensions does NOT increase real patterns — only adds fake ones.
+  → = Like "multiple comparisons" in statistics:
+    Test 15 hypotheses → a few false positives, acceptable
+    Test 255 hypotheses → ~13 false positives → wrong conclusions
+
+In everyday life:
+  4 crime scene clues → connect them → most links are meaningful
+  100 random clues → "patterns" EVERYWHERE → mostly illusory
+  A SKILLED detective = knows how to CHOOSE the right 4 clues,
+    not collect ALL of them
+```
+
+### §2.4 — Body-Check Bottleneck: Downstream Speed IS FIXED
+
+> 🟡 Inference from known mechanisms
 
 ```
 Body check = simulate pattern + receptor respond + hormone signal
-→ Tốc độ: giây (KHÔNG phải millisecond)
-→ = CỐ ĐỊNH, không phụ thuộc kích thước PFC
+→ Speed: seconds (NOT milliseconds)
+→ = FIXED, independent of PFC size
 
-Dù PFC hold 100 chiều HOÀN HẢO (giả sử interference = 0):
-→ 2^100 combinations → body KHÔNG THỂ check hết
-→ Phải skip → quality GIẢM
-→ HOẶC check hết → TỐN HÀNG GIỜ → survival = chết trước khi xong
+Even if PFC holds 100 dimensions PERFECTLY (suppose interference = 0):
+→ 2^100 combinations → body CANNOT check them all
+→ Must skip → quality DECREASES
+→ OR check all → TAKES HOURS → survival = dead before done
 
-→ Giới hạn KHÔNG CHỈ ở PFC — mà ở TOÀN BỘ pipeline.
-→ 4 chiều × vài giây/check = vô thức sweep trong vài giây → ĐỦ NHANH
-→ 6 chiều (63 combos) = đã bắt đầu CHẬM cho survival
-→ Giống thêm làn đường trước 1 cái cầu 1 làn
+→ The constraint is NOT ONLY at PFC — but across the ENTIRE pipeline.
+→ 4 dimensions × a few seconds/check = unconscious sweep in seconds → FAST ENOUGH
+→ 6 dimensions (63 combos) = already beginning to SLOW for survival
+→ Like adding more lanes before a 1-lane bridge
 ```
 
-### §2.5 — Energy Trade-Off: PFC Đắt Nhất Trong Não
+### §2.5 — Energy Trade-Off: PFC Is the Most Expensive Region in the Brain
 
-> 🟢 Evidence vững cho chi phí PFC | 🟡 Trade-off cụ thể
+> 🟢 Strong evidence for PFC cost | 🟡 Specific trade-off
 
 ```
-Não: ~2% trọng lượng, ~20% energy                          🟢
-PFC: ~10% thể tích não, energy per volume CAO:
-  → Persistent firing (giữ representation liên tục)
-  → Inhibitory circuits (chống interference)
-  → Dopamine maintenance (signal ổn định)
+Brain: ~2% body weight, ~20% energy                                  🟢
+PFC: ~10% of brain volume, energy per volume HIGH:
+  → Persistent firing (maintaining representations continuously)
+  → Inhibitory circuits (guarding against interference)
+  → Dopamine maintenance (stable signaling)
 
-Mỗi dimension thêm CẦN:
+Each additional dimension REQUIRES:
   → Excitatory circuit (hold pattern)
-  → Inhibitory circuit (chống nhiễu với dimensions khác)
-  → = ~GẤP ĐÔI chi phí so với "chỉ thêm neurons"
+  → Inhibitory circuit (guard against interference with other dimensions)
+  → = ~DOUBLE the cost of "just adding neurons"
 
-Energy cho PFC = energy KHÔNG CHO: cơ bắp, miễn dịch, tiêu hóa
-  → 4D + chạy nhanh + miễn dịch tốt > 8D + chạy chậm + hay bệnh
+Energy for PFC = energy NOT FOR: muscles, immune system, digestion
+  → 4D + run fast + good immunity > 8D + slow running + frequent illness
 
-VÀ: PFC lớn hơn → hộp sọ lớn hơn → sinh KHÓ hơn
+AND: larger PFC → larger skull → harder childbirth
   → Obstetric dilemma = hard constraint 🟢 (Rosenberg & Trevathan 2002)
 
-→ Evolution phải "mua" mỗi chiều bằng CHI PHÍ ở chỗ khác.
-→ 4 chiều = benefit > cost. Chiều thứ 5 = benefit GIẢM + cost VẪN CAO → không đáng.
+→ Evolution must "purchase" each dimension at COST elsewhere.
+→ 4 dimensions: benefit > cost. 5th dimension: benefit DROPS + cost STAYS HIGH → not worth it.
 ```
 
-### §2.6 — Oscillation Phase Limit: Vật Lý Sóng
+### §2.6 — Oscillation Phase Limit: Physics of Waves
 
-> 🟢 Gamma oscillation = cơ chế đã biết | 🟡 Phase limit = suy luận hợp lý
+> 🟢 Gamma oscillation = known mechanism | 🟡 Phase limit = plausible inference
 
 ```
-PFC giữ mỗi dimension bằng neural oscillation ở PHA KHÁC NHAU
-trong cùng 1 chu kỳ gamma (~25-40ms)
+PFC maintains each dimension via neural oscillation at DIFFERENT PHASES
+within the same gamma cycle (~25-40ms)
 🟢 Lisman & Idiart 1995
 
-Mỗi pha = 1 "slot" → pattern active trong slot đó
-Giữa 2 pha = buffer zone (silence) → TÁCH BIỆT dimensions
+Each phase = 1 "slot" → pattern active during that slot
+Between 2 phases = buffer zone (silence) → SEPARATES dimensions
 
-1 chu kỳ gamma ≈ 30ms (physics neural, cố định):
+1 gamma cycle ≈ 30ms (neural physics, fixed):
 
-  4 pha:  ~7.5ms mỗi pha → buffer ĐỦ → interference THẤP
-  5 pha:  ~6ms mỗi pha   → buffer HẸP → interference bắt đầu
-  6 pha:  ~5ms mỗi pha   → buffer RẤT HẸP → rò giữa dimensions
-  8 pha:  ~3.75ms         → buffer GẦN KHÔNG → interference CAO
+  4 phases:  ~7.5ms each → buffer ADEQUATE → interference LOW
+  5 phases:  ~6ms each   → buffer NARROW → interference begins
+  6 phases:  ~5ms each   → buffer VERY NARROW → leakage between dimensions
+  8 phases:  ~3.75ms     → buffer NEAR ZERO → interference HIGH
 
 ⭐ Hard physics constraint:
-  → KHÔNG PHỤ THUỘC kích thước PFC
-  → PFC to gấp 10 → VẪN cùng chu kỳ gamma → VẪN ~4±1 pha tách biệt
-  → Giống: thêm LOA không thêm KÊNH RADIO
-  → Kênh = do BANDWIDTH quyết định, không do công suất phát
+  → DOES NOT DEPEND on PFC size
+  → PFC 10× larger → STILL same gamma cycle → STILL ~4±1 separable phases
+  → Like: more speakers don't add more RADIO CHANNELS
+  → Channels = determined by BANDWIDTH, not transmitter power
 
-→ = Tại sao "thêm neurons PFC không thêm dimensions"
-→ 10 tỉ vs 20 tỉ neurons → vẫn ~4±1 dimensions, chỉ khác QUALITY per-dimension
-→ Chi tiết quality: PFC-Hardware.md §1
+→ = Why "more PFC neurons don't add more dimensions"
+→ 10 billion vs 20 billion neurons → still ~4±1 dimensions,
+  only QUALITY per-dimension changes
+→ Detail on quality: PFC-Hardware.md §1
 ```
 
 ---
 
-## §3 — Tại Sao Không 2-3?
+## §3 — Why Not 2-3?
 
-> 🟡 Suy luận từ cấu trúc thế giới + framework
+> 🟡 Inference from world structure + framework
 
 ```
 2 DIMENSIONS:
-  Pairs = 1 → chỉ compare A vs B
-  → ĐỦ cho: phản xạ đơn giản (threat vs flight direction)
-  → THIẾU cho: tình huống xã hội (cần track ≥3 agents cùng lúc)
-  → THIẾU cho: planning (cần: mục tiêu + obstacle + resource + timing)
-  → = Côn trùng, cá: survival ĐƯỢC nhưng KHÔNG xã hội phức tạp
+  Pairs = 1 → only compare A vs B
+  → SUFFICIENT for: simple reflexes (threat vs flight direction)
+  → INSUFFICIENT for: social situations (need to track ≥3 agents simultaneously)
+  → INSUFFICIENT for: planning (need: goal + obstacle + resource + timing)
+  → = Insects, fish: CAN survive but CANNOT manage complex social interactions
 
 3 DIMENSIONS:
   Pairs = 3, total combos = 7
-  → ĐỦ cho: tình huống trung bình
-  → BẮT ĐẦU THIẾU khi: 4 biến quan trọng cùng lúc
-  → Ví dụ: chiến đấu nhóm cần đồng minh + kẻ thù + terrain + vũ khí
-    → 3D: phải DROP 1 biến → miss pattern quan trọng → thua
-    → 4D: hold cả 4 → "đồng minh + terrain = advantage" → thắng
+  → SUFFICIENT for: average situations
+  → BEGINS LACKING when: 4 important variables appear simultaneously
+  → Example: group fighting requires ally + enemy + terrain + weapon
+    → 3D: must DROP 1 variable → misses critical pattern → loses
+    → 4D: holds all 4 → "ally + terrain = advantage" → wins
 
-→ Evolution pressure: loài giữ 4D THẮNG loài giữ 3D trong social competition
-→ = Tại sao PRIMATES (xã hội phức tạp) có PFC lớn tỉ lệ
+→ Evolution pressure: species holding 4D BEATS species holding 3D in social competition
+→ = Why PRIMATES (complex social) have proportionally larger PFC
 → 🟢 Dunbar 1998: social brain hypothesis
 ```
 
 ---
 
-## §4 — Tại Sao Không 5+?
+## §4 — Why Not 5+?
 
-> 🟡 Tổng hợp từ 6 lực ở §2
+> 🟡 Synthesis from 6 forces in §2
 
 ```
-THÊM CHIỀU THỨ 5:
-  ✅ Benefit: +4 pairs (6→10), +6 triples → thêm combinations
-  ❌ Cost 1: False positive tăng ~gấp đôi (§2.3)
-  ❌ Cost 2: Body check queue dài hơn ~gấp đôi (§2.4)
-  ❌ Cost 3: Energy tăng đáng kể (§2.5)
-  ❌ Cost 4: Oscillation buffer hẹp → interference tăng (§2.6)
-  ❌ Cost 5: Benefit thêm NHỎ vì thế giới ~4 biến chính (§2.2)
-  → NET VALUE: benefit < cost → evolution KHÔNG mua
+ADDING A 5TH DIMENSION:
+  ✅ Benefit: +4 pairs (6→10), +6 triples → more combinations
+  ❌ Cost 1: False positives roughly double (§2.3)
+  ❌ Cost 2: Body check queue roughly doubles (§2.4)
+  ❌ Cost 3: Energy increases significantly (§2.5)
+  ❌ Cost 4: Oscillation buffer narrows → interference increases (§2.6)
+  ❌ Cost 5: Added benefit SMALL because the world has ~4 primary variables (§2.2)
+  → NET VALUE: benefit < cost → evolution didn't purchase it
 
-DÙ PFC VÔ HẠN (thought experiment):
-  Giả sử: PFC unlimited, interference = 0, energy = free
-  → VẪN gặp:
-    ① Body check bottleneck (§2.4) — speed CỐ ĐỊNH
-    ② False positive explosion (§2.3) — thế giới chỉ có X nhân quả thật
-    ③ Oscillation limit (§2.6) — physics, không depend PFC size
-  → = EVEN UNLIMITED PFC → optimal VẪN ~4-5 dimensions
-  → Constraint KHÔNG CHỈ ở PFC, mà ở toàn pipeline + cấu trúc thế giới
+EVEN IF PFC IS UNLIMITED (thought experiment):
+  Suppose: PFC unlimited, interference = 0, energy = free
+  → STILL encounters:
+    ① Body check bottleneck (§2.4) — speed IS FIXED
+    ② False positive explosion (§2.3) — world only has X real causal structures
+    ③ Oscillation limit (§2.6) — physics, doesn't depend on PFC size
+  → = EVEN UNLIMITED PFC → optimal IS STILL ~4-5 dimensions
+  → Constraint is NOT ONLY at PFC, but across the whole pipeline + world structure
 ```
 
 ---
 
-## §5 — Phổ Động: Đôi Lúc 2, Đôi Lúc 5
+## §5 — Dynamic Spectrum: Sometimes 2, Sometimes 5
 
-> 🟡 Consistent với WM research data
+> 🟡 Consistent with WM research data
 
 ```
-4±1 = KHÔNG CỐ ĐỊNH tại 4, mà DAO ĐỘNG:
+4±1 = NOT FIXED at 4, but FLUCTUATES:
 
-KHI GIẢM XUỐNG 2-3:
-  → Cortisol CAO → PFC overload signal
-  → PFC tự GIẢM dimensions → giữ QUALITY per-dimension
-  → = "Panic mode": chỉ thấy threat + escape route → 2D → ĐỦ cho survival
-  → Body ƯU TIÊN accuracy over breadth khi emergency
+WHEN IT DROPS TO 2-3:
+  → High cortisol → PFC overload signal
+  → PFC automatically REDUCES dimensions → preserves QUALITY per-dimension
+  → = "Panic mode": only sees threat + escape route → 2D → ENOUGH for survival
+  → Body PRIORITIZES accuracy over breadth in emergencies
 
-KHI TĂNG LÊN 5:
-  → Trạng thái tối ưu: nghỉ đủ, cortisol thấp, PFC sạch
-  → Oscillation buffer VẪN ĐỦ (hẹp hơn nhưng chưa rò)
-  → = "Peak performance": thấy nhiều hơn bình thường
-  → Nhưng KHÔNG BỀN — duy trì 5D tốn energy, dễ rơi về 4
+WHEN IT RISES TO 5:
+  → Optimal state: adequate rest, low cortisol, clean PFC
+  → Oscillation buffer STILL ADEQUATE (narrower but not yet leaking)
+  → = "Peak performance": sees more than usual
+  → But NOT SUSTAINABLE — maintaining 5D drains energy, easily falls back to 4
 
 PATTERN:
-  4 = baseline tối ưu (bền vững, đủ tốt cho hầu hết tình huống)
-  2-3 = emergency mode (sacrifice breadth cho accuracy + speed)
-  5 = peak mode (tạm thời, khi conditions lý tưởng)
-  = ADAPTIVE: body ĐIỀU CHỈNH dimensions theo tình huống
+  4 = optimal baseline (sustainable, good enough for most situations)
+  2-3 = emergency mode (sacrifice breadth for accuracy + speed)
+  5 = peak mode (temporary, when conditions are ideal)
+  = ADAPTIVE: body ADJUSTS dimensions to match the situation
 ```
 
 ---
 
 ## §6 — Implications
 
-### §6.1 — Cho framework HPD
+### §6.1 — For the HPD Framework
 
 ```
-PFC 4±1 dimensions = hardware constraint KHÔNG THỂ bypass
-  → ĐIỂM TỐI ƯU CỦA PIPELINE, không phải "giới hạn tạm"
-  → Bất kỳ sinh vật nào, dù tiến hóa thêm triệu năm,
-    với neural substrate tương tự → VẪN ~4±1
+PFC ~4±1 dimensions = hardware constraint THAT CANNOT be bypassed
+  → THE OPTIMAL POINT OF THE PIPELINE, not a "temporary limitation"
+  → Any creature, however many more millions of years of evolution,
+    with similar neural substrate → STILL ~4±1
+  → "Thinking smarter" = QUALITY per-dimension, not count
 
-Quality KHÁC NHAU ở CHẤT LƯỢNG, không SỐ LƯỢNG:
-  → Quality cao = 4 slots × high resolution × clean × fast
-  → Quality thấp = 4 slots × low resolution × noisy × slow
-  → = "Nhìn cùng 4 thứ nhưng THẤY khác nhau"
-  → Chi tiết: PFC-Hardware.md §1
+Quality differs in QUALITY, not QUANTITY:
+  → High quality = 4 slots × high resolution × clean × fast
+  → Low quality = 4 slots × low resolution × noisy × slow
+  → = "Looking at the same 4 things but SEEING differently"
+  → Detail: PFC-Hardware.md §1
 ```
 
-### §6.2 — Cho Human × AI
+### §6.2 — For Human × AI
 
 ```
-AI = KHÔNG dùng oscillation → không bị phase limit → hold HÀNG NGHÌN chiều
-  NHƯNG: không có body check → không biết pattern nào CÓ GIÁ TRỊ
+AI = doesn't use oscillation → not subject to phase limit → holds THOUSANDS of dimensions
+  BUT: no body check → doesn't know which patterns HAVE VALUE
 
-Con người = 4 chiều + body check CHÍNH XÁC
-  → Tìm ÍT pattern nhưng biết pattern nào ĐÁNG
+Human = 4 dimensions + ACCURATE body check
+  → Finds FEWER patterns but knows which ones MATTER
 
-Kết hợp tối ưu:
-  AI mở rộng KHÔNG GIAN tìm kiếm (nghìn chiều)
-  → Con người ĐÁNH GIÁ qua 4 chiều + body check
-  → = "Nhạc sĩ (4 chiều sâu) + nhạc cụ (nghìn chiều rộng)"
+Optimal combination:
+  AI expands the SEARCH SPACE (thousands of dimensions)
+  → Human EVALUATES through 4 dimensions + body check
+  → = "Musician (4 dimensions, depth) + instrument (thousands of dimensions, breadth)"
 ```
 
-### §6.3 — Cho giáo dục
+### §6.3 — For Education
 
 ```
-Dạy = KHÔNG cố nhồi 8 thứ cùng lúc → chắc chắn overload
-  → TỐI ĐA 4 concepts liên quan per bài → body tự tìm pattern
-  → Sau khi 4 concepts compile → dạy 4 concepts MỚI
-  → = Chunking chiến lược: 4 → compile → 4 mới → xây tầng
+Teaching = DON'T try to cram 8 things at once → guaranteed overload
+  → MAXIMUM 4 related concepts per lesson → body finds patterns naturally
+  → After 4 concepts compile → teach 4 NEW concepts
+  → = Strategic chunking: 4 → compile → 4 new → build the next floor
 ```
 
 ---
@@ -362,14 +367,14 @@ Dạy = KHÔNG cố nhồi 8 thứ cùng lúc → chắc chắn overload
 
 ```
 🟢 ESTABLISHED:
-  WM ~4±1 items (Cowan 2001 — replicated hàng trăm lần)
+  WM ~4±1 items (Cowan 2001 — replicated hundreds of times)
   Visual WM ~4 objects (Luck & Vogel 1997)
   fMRI ~4 object limit posterior parietal (Todd & Marois 2004)
   Precision drops with more items (Bays & Husain 2008)
   Gamma-theta oscillation WM mechanism (Lisman & Idiart 1995, Jensen 2005)
   Social brain hypothesis (Dunbar 1998)
   Obstetric dilemma (Rosenberg & Trevathan 2002)
-  Não 20% energy (established neuroscience)
+  Brain 20% energy (established neuroscience)
 
 🟡 FRAMEWORK SYNTHESIS:
   "4 dimensions" reframe (novel interpretation, consistent with data)
@@ -378,12 +383,12 @@ Dạy = KHÔNG cố nhồi 8 thứ cùng lúc → chắc chắn overload
   Body-check bottleneck as dimension limiter (novel, consistent with somatic markers)
 
 🔴 NEEDS MORE RESEARCH:
-  §2.2 (world structure ~4 variables) — cần formalize bằng information theory
-  §2.3 (false positive ratio) — cần thí nghiệm đo ở 4D vs 6D vs 8D
-  §2.4 (body check rate per combination) — chưa đo trực tiếp
-  §2.6 (phase limit numbers: 30ms, 7.5ms) = estimates, dao động thực tế
-  Loài nào có WM > 4? (quạ, bạch tuộc? data ít)
-  Cycle-swap: hold 4 → swap → hold 4 khác → swap → tốc độ swap = bottleneck mới?
+  §2.2 (world structure ~4 variables) — needs formalizing with information theory
+  §2.3 (false positive ratio) — needs experiments measuring at 4D vs 6D vs 8D
+  §2.4 (body check rate per combination) — not yet directly measured
+  §2.6 (phase limit numbers: 30ms, 7.5ms) = estimates, actual values vary
+  Which species have WM > 4? (crows, octopus? limited data)
+  Cycle-swap: hold 4 → swap → hold 4 different → swap → swap speed = new bottleneck?
 ```
 
 ---
@@ -396,7 +401,7 @@ PFC HARDWARE:        PFC-Hardware.md §1 — Quality per-slot (resolution, filte
 PFC DEVELOPMENT:     PFC-Development.md §6 — WM capacity training limits
 CHUNK SUBSTRATE:     Chunk.md v2.0 — chunk compilation + meta-chunks (pyramidal)
 OSCILLATION:         Neural-Architecture.md §4.3.6 — gamma-theta coupling
-CORE ARCHITECTURE:   Core-v7.8-Draft.md §6 — PFC position in cycle
+CORE ARCHITECTURE:   Core-Software.md §6 — PFC position in cycle
 
 OLD FILE (backup):
   PFC/Imagination/backup/PFC-4-Dimensions-v1.md — source content
@@ -404,12 +409,12 @@ OLD FILE (backup):
 
 ---
 
-> **PFC-Hold-Dimensions.md v1.0 DRAFT**
+> **PFC-Hold-Dimensions.md v1.0**
 >
-> ~4±1 = ĐIỂM DUY NHẤT nơi 6 lực độc lập ĐỀU ĐỒNG Ý:
-> toán tổ hợp, cấu trúc thế giới, signal-to-noise, body processing speed,
-> energy budget, vật lý sóng thần kinh.
-> KHÔNG phải accident — là optimum thực sự.
-> Thêm neurons PFC không thêm dimensions — chỉ thêm quality per-slot.
+> ~4±1 = THE ONLY POINT where 6 independent forces ALL AGREE:
+> combinatorics, world structure, signal-to-noise, body processing speed,
+> energy budget, physics of neural oscillation.
+> NOT an accident — a genuine optimum.
+> More PFC neurons don't add more dimensions — only better quality per-slot.
 >
-> Phiên bản: v1.0, 2026-04-19.
+> Version: v1.0, 2026-04-19.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Music Entrainment × Reward Dynamics — Neural Sync, Flow, Gap Formation
 version: 1.2
 created: 2026-05-29
@@ -9,13 +9,13 @@ scope: |
   ① Neural entrainment: BPM × distributed oscillators × phase-locking
   ② Reward dynamics: continuous prediction stream with phasic peaks vs discrete macro-rewards
   ③ Unified hierarchy: nested gap-fill = brain's general architecture (music = pure form)
-  ④ Gap-Direction × music: "chưa biết = không có gap" applied
+  ④ Gap-Direction × music: "no knowledge = no gap" applied
   ⑤ Music × Compiled vs Fresh tasks: when music helps, when it hurts
   Comparison: music listening vs math solving vs reading vs startup
   Transfer effects: music training → non-music domains
 purpose: |
-  06-Music-Architecture-Prediction.md mô tả STATIC architecture.
-  File NÀY drill DYNAMIC processes:
+  06-Music-Architecture-Prediction.md describes STATIC architecture.
+  THIS file drills DYNAMIC processes:
     HOW neural sync happens (mechanism)
     HOW reward unfolds over time (temporal dynamics)
     HOW gap forms through repeated exposure (formation trajectory)
@@ -23,11 +23,11 @@ purpose: |
   = "Architecture tells you WHAT. This file tells you HOW IT RUNS."
 position: |
   Research/Drill-Sound-Brain/ — drill file.
-  Đọc SAU 06 (architecture provides structural foundation).
+  Read AFTER 06 (architecture provides structural foundation).
   Builds on 02 (Background-Pattern), 03 (reward pipeline), 05 (multi-modal).
 dependencies:
   primary:
-    - Gap-Direction.md v2.0 — "chưa biết = không có gap", direction match
+    - Gap-Direction.md v2.0 — "no knowledge = no gap", direction match
     - Gap-Body-Need.md v1.0 — 3 Satiation, ENGINE/ROAD/VEHICLE, 5-Parameter
     - Reward-Calibration.md v1.1 — Goldilocks per-gap, 3 zones, 6 over-reward
     - Gap-Distribution-Profile.md v1.1 — PFC budget, per-person landscape
@@ -43,41 +43,43 @@ dependencies:
     - 02-Sound-Background-Pattern.md — gist, genre, satiation types
     - 03-Sound-Reward-Pipeline.md — 7-step, Cheung 2019
     - 05-Multi-Modal-Compound.md — coherence condition, Tonic↔Cyclic
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # Music Entrainment × Reward Dynamics — Neural Sync, Flow, Gap Formation
 
-> **BPM đều đặn → não PHASE-LOCK across regions.**
-> **Không phải não ĐẾM nhịp — não ĐỒNG BỘ VỚI nhịp.**
-> **Oscillators phân tán × cùng BPM = coherent processing.**
+> **Regular BPM → brain PHASE-LOCKS across regions.**
+> **Not that the brain COUNTS beats — the brain SYNCHRONIZES WITH beats.**
+> **Distributed oscillators × shared BPM = coherent processing.**
 >
 > **Music = continuous prediction stream with phasic reward peaks.**
 > **Math = delayed macro-reward (hours → 1 burst).**
-> **CÙNG 7-step mechanism, KHÁC temporal pattern.**
+> **SAME 7-step mechanism, DIFFERENT temporal pattern.**
 >
-> **Lần đầu: "chưa biết = không có gap" → no desire.**
-> **Vài lần: chunks built → gap formed → reward bắt đầu.**
-> **Nhiều lần: prediction complete → delta = 0 → boredom.**
+> **First exposure: "no knowledge = no gap" → no desire.**
+> **Several times: chunks build → gap forms → reward begins.**
+> **Many times: prediction complete → delta = 0 → boredom.**
 > **= Inverted-U trajectory across compile path.**
 >
 > **Familiar music + compiled task = OPTIMAL.**
 > **Unfamiliar music + fresh task = WORST.**
-> **Tại sao: PFC budget competition.**
+> **Why: PFC budget competition.**
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §0 — Position + Thesis
 - §1 — Neural Entrainment: Distributed Sync WITH Specialized Hub
 - §2 — BPM × Cross-Region Phase-Locking
 - §3 — Music Reward = Continuous Prediction Stream with Phasic Peaks
 - §4 — Comparison: Music vs Math vs Reading
+- §4b — Unified Hierarchy: Nested Gap-Fill = Brain's General Architecture
 - §5 — Gap-Direction × Music: The Full Trajectory
 - §6 — Reward-Calibration × Music: 3 Zones + Window Size
 - §7 — Music × Compiled vs Fresh Tasks
+- §7b — Attention × Music: Effort vs Knowledge
 - §8 — Transfer Effects: Music → Non-Music
 - §9 — ENGINE/ROAD/VEHICLE × Music
 - §10 — Honest Assessment
@@ -99,11 +101,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Each chord/phrase/beat = 1 prediction-delta cycle (continuous processing)
     → Continuous prediction stream × multi-modal = compound reward with phasic peaks
     → DIFFERENT temporal signature from insight/eureka (discrete macro-reward)
-    → CÙNG 7-step mechanism, KHÁC temporal pattern
+    → SAME 7-step mechanism, DIFFERENT temporal pattern
 
   CLAIM 3 — Gap formation trajectory = inverted-U:
-    → "Chưa biết = không có gap" → lần đầu = no desire, no reward
-    → Repeated exposure → chunks build → gap form → direction emerge → reward
+    → "No knowledge = no gap" → first time = no desire, no reward
+    → Repeated exposure → chunks build → gap forms → direction emerges → reward
     → Over-exposure → prediction complete → delta = 0 → boredom
     → = Gap-Direction applied to music listening trajectory
 
@@ -118,38 +120,38 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §1 — Neural Entrainment: Distributed Sync WITH Specialized Hub
 
 ```
-🟢 USER HYPOTHESIS: "Não không có bộ đếm nhịp trung tâm.
-    BPM giúp các vùng não fire cùng lúc."
+🟢 USER HYPOTHESIS: "The brain has no central beat counter.
+    BPM helps brain regions fire simultaneously."
 
-    VERDICT: GẦN ĐÚNG — cần 1 refinement.
+    VERDICT: MOSTLY CORRECT — needs 1 refinement.
 
 
-  CÓ circuit chuyên biệt (putamen + SMA):
+  THERE IS a specialized circuit (putamen + SMA):
     🟢 Grahn & Rowe 2009 (Journal of Neuroscience, N=36):
       Putamen active during beat perception ACROSS ALL conditions
       Putamen ↔ SMA functional connectivity HIGHER for beat vs non-beat
       → Basal ganglia + SMA = CORE beat-finding circuit
 
-  NHƯNG circuit này KHÔNG "đếm":
+  BUT this circuit does NOT "count":
     🟢 Large, Herrera & Velasco 2015 (Frontiers in Systems Neuroscience):
       Distributed oscillator model: self-organization of oscillations
       across interacting sensory-motor networks
       → NOT single central clock
       → Distributed oscillatory network WITH a hub
 
-  ⭐ CHÍNH XÁC:
-    → CÓ hub chuyên biệt (putamen + SMA) = "conductor" không phải "clock"
-    → Hub KHÔNG đếm — hub OSCILLATE + ENTRAIN
-    → Các vùng não khác CŨNG oscillate → BPM giúp PHASE-LOCK
+  ⭐ ACCURATE:
+    → THERE IS a specialized hub (putamen + SMA) = "conductor" not "clock"
+    → Hub does NOT count — hub OSCILLATES + ENTRAINS
+    → Other brain regions ALSO oscillate → BPM helps PHASE-LOCK
     → = Distributed oscillation WITH specialized hub
-    → ≠ "Central clock" (quá đơn giản)
-    → ≠ "No specialization" (quá phủ nhận)
+    → ≠ "Central clock" (oversimplified)
+    → ≠ "No specialization" (overdenied)
 
   ANALOGY:
-    → Orchestra: có conductor (hub), NHƯNG conductor không "chơi nhạc"
-    → Conductor set tempo → mỗi nhạc công tự chơi → conductor giữ sync
-    → Putamen/SMA = conductor. Cortical regions = nhạc công.
-    → BPM = external signal giúp conductor + nhạc công CÙNG sync
+    → Orchestra: has a conductor (hub), BUT the conductor doesn't "play music"
+    → Conductor sets tempo → each musician plays independently → conductor maintains sync
+    → Putamen/SMA = conductor. Cortical regions = musicians.
+    → BPM = external signal helping conductor + musicians sync TOGETHER
 ```
 
 ---
@@ -164,7 +166,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   LAYER 1 — BETA OSCILLATIONS (13-30 Hz):
     🟢 Snyder & Large 2005, replicated Fujioka 2009, 2012:
       → DECREASE right after beat → REBOUND before next beat
-      → = ANTICIPATORY: brain "prepare" cho beat tiếp
+      → = ANTICIPATORY: brain "prepares" for next beat
       → Beta rebound = "readiness signal" across sensorimotor regions
       → Regular BPM → regular beta cycle → PREDICTABLE readiness
 
@@ -180,7 +182,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → EEG shows power at EXACT beat frequency
       → When listeners imagine binary vs ternary meter on SAME beat:
         EEG enhanced at IMAGINED meter frequency
-      → = Brain IMPOSE structure on rhythmic input
+      → = Brain IMPOSES structure on rhythmic input
       → = TOP-DOWN × BOTTOM-UP converge
 
   ⭐ WHY BPM REGULAR = IMPORTANT:
@@ -198,7 +200,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ FRAMEWORK MAPPING:
     → BPM regular = EXTERNAL SYNCHRONIZATION SIGNAL
-    → Multiple layers in music (bass, drums, melody, vocal) cùng BPM
+    → Multiple layers in music (bass, drums, melody, vocal) at the SAME BPM
     → = Multiple neural populations entrain to SAME temporal grid
     → = Cross-region coherence → MORE prediction channels match simultaneously
     → = More simultaneous match = more compound reward (05 §2)
@@ -217,9 +219,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   TEMPORAL PATTERN — per-second breakdown:
 
-    t = 0.0s: Beat 1 arrives → VTA compare → PE fire → dopamine
+    t = 0.0s: Beat 1 arrives → VTA compares → PE fires → dopamine
     t = 0.1s: Chord recognized → spreading activation → chunk match
-    t = 0.2s: Body evaluate → Body-Feedback-Precondition check → coherent → micro-opioid
+    t = 0.2s: Body evaluates → Body-Feedback-Precondition check → coherent → micro-opioid
     t = 0.5s: Beat 2 arrives → new PE → new cycle begins
     t = 1.0s: Beat 3 → new PE → new cycle
     t = 2.0s: New measure → harmonic change → LARGER PE
@@ -246,7 +248,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ KEY: EACH LEVEL uses same 7-step mechanism (03 §1):
     VTA detect → dopamine → spreading activation →
     body evaluate → vote → opioid → PFC observe
-    → NHƯNG ở different timescales → compound across levels
+    → BUT at different timescales → compound across levels
 ```
 
 ---
@@ -254,7 +256,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §4 — Comparison: Music vs Math vs Reading
 
 ```
-🟡 CÙNG 7-STEP MECHANISM, KHÁC TEMPORAL PATTERN:
+🟡 SAME 7-STEP MECHANISM, DIFFERENT TEMPORAL PATTERN:
 
   ┌──────────────┬───────────────────┬───────────────────┬───────────────────┐
   │ Dimension    │ Music Listening    │ Math Problem      │ Reading Prose     │
@@ -307,19 +309,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Composer designs prediction-delta curve
     → Listener receives → minimal PFC effort
     → Reward = f(exposure history × current state)
-    → = "Sướng" kiểu "được cho"
+    → = pleasure of "being given"
 
   MATH: "Treasure hunt" — reward FOUND BY solver actively
     → Solver generates own prediction-delta through search
     → HIGH PFC engagement throughout
     → Reward = f(gap depth × solution quality × effort)
-    → = "Sướng" kiểu "tự tìm được"
+    → = pleasure of "finding it yourself"
 
   READING: "Guided tour" — reward CO-CREATED by author + reader
     → Author designs narrative arc (like music)
     → But reader processes at own pace (like math)
     → Moderate PFC engagement (follow + imagine)
-    → = "Sướng" kiểu "cùng đi"
+    → = pleasure of "the shared journey"
 
 
   🟡 COMPARISON = framework synthesis (logical, components validated individually)
@@ -332,65 +334,65 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §4b — Unified Hierarchy: Nested Gap-Fill = Brain's General Architecture
 
 ```
-⭐⭐⭐ INSIGHT: Music, toán, startup = CÙNG 1 KIẾN TRÚC NÃO.
+⭐⭐⭐ INSIGHT: Music, mathematics, and startups = THE SAME 1 BRAIN ARCHITECTURE.
 
-  §4 so sánh music vs math vs reading ở level TEMPORAL PATTERN.
-  Section này đi SÂU HƠN: tại sao chúng giống nhau?
+  §4 compares music vs math vs reading at the TEMPORAL PATTERN level.
+  This section goes DEEPER: why are they similar?
   
-  Vì brain BUỘC PHẢI hoạt động hierarchically ở MỌI domain.
+  Because the brain is FORCED TO operate hierarchically in EVERY domain.
 
 
-  ═══ TẠI SAO BUỘC PHẢI HIERARCHICAL ═══
+  ═══ WHY IT MUST BE HIERARCHICAL ═══
 
   Gap-Body-Need §5 (Mini-Arc Decomposition):
-    "Big gap → brain DECOMPOSE thành mini-gaps.
+    "Big gap → brain DECOMPOSES into mini-gaps.
     Each mini-gap fill = mini opioid reward.
     PhD thesis → chapters → experiments → each fill = mini reward.
     Without decomposition: one big gap → overwhelm → give up."
 
   PFC budget ~4±1 (Gap-Distribution-Profile §):
-    → PFC chỉ hold ~4 dimensions đồng thời
-    → 1 gap khổng lồ = KHÔNG THỂ hold cả cùng lúc
-    → = BUỘC PHẢI decompose thành nested levels
-    → Mỗi level = manageable cho PFC budget
+    → PFC can only hold ~4 dimensions simultaneously
+    → 1 massive gap = CANNOT hold it all at once
+    → = FORCED TO decompose into nested levels
+    → Each level = manageable for PFC budget
 
   01c-Chunk-Discovery-Lifecycle:
     Macro cycle: Accumulate → Vague → Curious → Clarify → Label → Plan → Repeat
-    → Cycle này lặp lại ở MỖI level of decomposition
+    → This cycle repeats at EACH level of decomposition
 
 
-  ═══ 3 DOMAIN — CÙNG ARCHITECTURE, KHÁC PARAMETERS ═══
+  ═══ 3 DOMAINS — SAME ARCHITECTURE, DIFFERENT PARAMETERS ═══
 
   MUSIC (seconds, imposed, passive):
-    Level 4 — Cả bài (3 min):    intro → build → peak → resolve
-    Level 3 — Section (30s):      harmony build → cadence resolve
-    Level 2 — Phrase (8s):        melody depart → arch → return
-    Level 1 — Beat (500ms):       strong beat → weak beat → strong
+    Level 4 — Full song (3 min):    intro → build → peak → resolve
+    Level 3 — Section (30s):        harmony build → cadence resolve
+    Level 2 — Phrase (8s):          melody depart → arch → return
+    Level 1 — Beat (500ms):         strong beat → weak beat → strong
     
-    → Composer THIẾT KẾ arc ở mỗi level
-    → All levels ĐỒNG BỘ (fractal: Voss & Clarke 1975)
-    → Listener NHẬN passively → reward DENSE + PREDICTABLE
+    → Composer DESIGNS the arc at each level
+    → All levels IN SYNC (fractal: Voss & Clarke 1975)
+    → Listener RECEIVES passively → reward DENSE + PREDICTABLE
 
   MATH SOLVING (hours-days, self-paced, active):
-    Level 4 — Cả bài (days):     đề bài → approach → sub-problems → solution
-    Level 3 — Section (hours):    1 approach → thử → breakthrough/stuck
-    Level 2 — Step (minutes):     1 phép biến đổi → kiểm tra → đúng/sai
-    Level 1 — Micro (seconds):    viết 1 dòng → body check "mượt ko"
+    Level 4 — Full problem (days):  problem statement → approach → sub-problems → solution
+    Level 3 — Approach (hours):     1 approach → attempt → breakthrough/stuck
+    Level 2 — Step (minutes):       1 transformation → check → correct/wrong
+    Level 1 — Micro (seconds):      write 1 line → body checks "smooth?"
     
-    → Problem STRUCTURE tạo level 4
-    → Solver TỰ decompose levels 3-1 (mini-arc decomposition)
-    → Levels CÓ THỂ không đồng bộ (stuck ở 1 level)
+    → Problem STRUCTURE creates level 4
+    → Solver SELF-decomposes levels 3-1 (mini-arc decomposition)
+    → Levels CAN be out of sync (stuck at 1 level)
     → Reward SPARSE + UNCERTAIN
 
   STARTUP (years, self-paced, active + uncertain):
-    Level 4 — Hành trình (years): idea → build → market → scale
-    Level 3 — Phase (months):     develop feature → launch → feedback
-    Level 2 — Sprint (weeks):     1 deliverable → deploy → measure
-    Level 1 — Task (hours-days):  code function → test → pass
+    Level 4 — Journey (years):      idea → build → market → scale
+    Level 3 — Phase (months):       develop feature → launch → feedback
+    Level 2 — Sprint (weeks):       1 deliverable → deploy → measure
+    Level 1 — Task (hours-days):    code function → test → pass
     
-    → Founder TỰ decompose TẤT CẢ levels
-    → Imagine-Final (v3.0 §5) = lifecycle management cho level 4
-    → Mini-arcs phải ALIGN across levels (tasks → sprints → phases → vision)
+    → Founder SELF-decomposes ALL levels
+    → Imagine-Final (v3.0 §5) = lifecycle management for level 4
+    → Mini-arcs must ALIGN across levels (tasks → sprints → phases → vision)
     → Reward VERY SPARSE + HIGH UNCERTAINTY
 
 
@@ -414,7 +416,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Pacing control       │ IMPOSED  │ Self     │ Self +   │
   │                      │          │          │ external │
   │                      │          │          │          │
-  │ Reward density       │ CỰC CAO │ MODERATE │ THẤP     │
+  │ Reward density       │ VERY HIGH│ MODERATE │ LOW      │
   │ (per hour)           │          │          │          │
   │                      │          │          │          │
   │ Failure cost         │ ~0       │ Low-mod  │ HIGH     │
@@ -430,48 +432,48 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ═══ QUALITY PREDICTION FROM ARCHITECTURE ═══
 
-  ⭐ CHẤT LƯỢNG output ở MỌI domain dự đoán bởi:
-    ① DECOMPOSITION QUALITY: mini-arcs phân chia TỐT không?
-    ② LEVEL ALIGNMENT: levels có đồng bộ không?
-    ③ GOLDILOCKS PER LEVEL: mỗi level có ở sweet spot không?
+  ⭐ OUTPUT QUALITY in EVERY domain is predicted by:
+    ① DECOMPOSITION QUALITY: are mini-arcs divided WELL?
+    ② LEVEL ALIGNMENT: are levels in sync?
+    ③ GOLDILOCKS PER LEVEL: is each level at the sweet spot?
 
-  MUSIC HAY:
+  MUSIC THAT IS GOOD:
     → Decomposition: beat→phrase→section→song all well-crafted
     → Alignment: fractal coherent (all levels sync — same emotional direction)
-    → Goldilocks: mỗi level vừa familiar vừa surprising
+    → Goldilocks: each level both familiar and surprising
     → = COMPOUND reward from ALL levels simultaneously
 
-  MUSIC DỞ:
-    → Beat ok nhưng phrase vô hướng (levels misaligned)
-    → HOẶC: catchy hook nhưng song structure incoherent
+  MUSIC THAT IS WEAK:
+    → Beat ok but phrase directionless (levels misaligned)
+    → OR: catchy hook but song structure incoherent
     → = Some levels reward, others dissonance → NET: mediocre
 
-  TOÁN GIẢI ĐƯỢC:
+  MATH SOLVED SUCCESSFULLY:
     → Sub-problems chain coherently (level alignment)
     → Each step buildable from previous (Goldilocks per level)
     → Insight moment = levels SUDDENLY align → compound burst
 
-  TOÁN STUCK:
+  MATH STUCK:
     → Sub-problems don't chain → level 3 blocked
     → Level 1-2 still work (write equations) but don't serve level 3
     → = Levels misaligned → frustration (effort without progress)
 
-  STARTUP THÀNH CÔNG:
+  SUCCESSFUL STARTUP:
     → Tasks align sprints align phases align vision (4-level sync)
     → Each level provides reward proportional to effort
     → 🟢 Amabile & Kramer 2011 (Progress Principle, Harvard):
       "Small wins" = STRONGEST predictor of sustained motivation
       → = Mini-arc reward at level 1-2 SUSTAINS drive for level 3-4
 
-  STARTUP FAIL:
+  STARTUP THAT FAILS:
     → Tasks done but don't serve sprints (busywork)
     → Sprints done but don't serve vision (pivot needed but not taken)
     → = Levels misaligned → effort without compound → burnout/give up
 
 
-  ═══ TẠI SAO MUSIC = "PURE FORM" ═══
+  ═══ WHY MUSIC = "PURE FORM" ═══
 
-  Music = dạng TINH KHIẾT NHẤT of hierarchical prediction architecture VÌ:
+  Music = the PUREST FORM of hierarchical prediction architecture BECAUSE:
     ① Composer PROFESSIONALLY optimizes all levels
     ② Fractal coherence DESIGNED (not emergent)
     ③ Reward dense + predictable + passive
@@ -505,36 +507,36 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §5 — Gap-Direction × Music: The Full Trajectory
 
 ```
-⭐⭐ "CHƯA BIẾT = KHÔNG CÓ GAP" — FULL APPLICATION:
+⭐⭐ "NO KNOWLEDGE = NO GAP" — FULL APPLICATION:
 
-  Gap-Direction.md §3: Gap CẦN surrounding chunks tạo border.
-  Không có chunks → không có border → KHÔNG CÓ GAP → KHÔNG CÓ DESIRE.
+  Gap-Direction.md §3: Gap REQUIRES surrounding chunks to create a border.
+  No chunks → no border → NO GAP → NO DESIRE.
 
 
-  TRAJECTORY — 1 NGƯỜI, 1 GENRE MỚI (VD: jazz):
+  TRAJECTORY — 1 PERSON, 1 NEW GENRE (e.g., jazz):
 
   ═══ PHASE 0: ZERO EXPOSURE ═══
-    Chunks: ∅ cho jazz
-    Gap: KHÔNG TỒN TẠI (no border possible)
-    Nghe jazz: VTA fire (prediction-delta — "có gì đó lạ")
-    Body: confused HOẶC neutral (no gap to match → no direction → no reward)
-    PFC: "nhạc gì?" → skip
-    = "CHƯA BIẾT = KHÔNG CÓ GAP" — desire CHƯA tồn tại
+    Chunks: ∅ for jazz
+    Gap: DOES NOT EXIST (no border possible)
+    Listen to jazz: VTA fires (prediction-delta — "something strange")
+    Body: confused OR neutral (no gap to match → no direction → no reward)
+    PFC: "what music is this?" → skip
+    = "NO KNOWLEDGE = NO GAP" — desire does NOT yet exist
 
   ═══ PHASE 1: EARLY EXPOSURE (first several listens) ═══
     Chunks: BUILDING (melody contour, swing rhythm, blue notes)
-    Gap: BARELY FORMING (border EMERGING nhưng vague)
-    Nghe jazz: VTA fire → partial match → partial reward
-    Body: "có gì đó interesting" (beginning of direction)
-    PFC: "nhạc này cũng hay hay"
+    Gap: BARELY FORMING (border EMERGING but vague)
+    Listen to jazz: VTA fires → partial match → partial reward
+    Body: "something interesting here" (beginning of direction)
+    PFC: "this music is actually pretty good"
     = Chunks building → gap BEGINNING to form → desire EMERGING
 
   ═══ PHASE 2: GOLDILOCKS ZONE (peak — timing depends on complexity, see §6) ═══
     Chunks: SUFFICIENT (genre gist compiled, specific artists known)
-    Gap: FORMED + DIRECTIONAL ("muốn nghe thêm kiểu này")
-    Nghe jazz: VTA fire → MATCH gap direction → reward STRONG
-    Body: "hay!" (prediction model good → PE in sweet spot)
-    PFC: "tôi thích jazz"
+    Gap: FORMED + DIRECTIONAL ("want to hear more like this")
+    Listen to jazz: VTA fires → MATCH gap direction → reward STRONG
+    Body: "beautiful!" (prediction model good → PE in sweet spot)
+    PFC: "I like jazz"
     = ⭐ PEAK ENJOYMENT — gap exists + direction specific + PE optimal
     ⚠️ Peak timing: ~2-8 exposures under focused listening (Schellenberg 2008),
        wider for complex music (§6: jazz ~10-50+). 87.7% of 57 studies confirm
@@ -542,10 +544,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ═══ PHASE 3: DEEPENING (post-peak — timeline varies by complexity) ═══
     Chunks: RICH (sub-genres, techniques, history, artists)
-    Gap: SPECIFIC ("muốn modal jazz > free jazz > bebop")
-    Nghe jazz: VTA fire cho SUBTLE details (Vuust 2018: precision weighting ↑)
-    Body: nuanced pleasure ("bass line NÀY hay vì...")
-    PFC: "gu" crystallized → identity label
+    Gap: SPECIFIC ("want modal jazz > free jazz > bebop")
+    Listen to jazz: VTA fires for SUBTLE details (Vuust 2018: precision weighting ↑)
+    Body: nuanced pleasure ("THIS bass line is good because...")
+    PFC: taste signature crystallized → identity label
     = Expert appreciation — deeper precision → deeper reward from subtlety
 
   ═══ PHASE 4: SATURATION / DIVERSIFICATION ═══
@@ -553,17 +555,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     PATH A — Saturation:
       Chunks: COMPLETE for familiar territory
-      Gap: prediction-delta → 0 cho familiar
-      Body: "chán" (Boredom formula: delta = 0 + Imagine-Final mờ)
-      PFC: "nghe cái gì mới đi"
-      = Need Generative injection (sub-genre MỚI, artist MỚI)
-      = HOẶC shift genre entirely (competing Background-Pattern build)
+      Gap: prediction-delta → 0 for familiar
+      Body: "bored" (Boredom formula: delta = 0 + Imagine-Final fades)
+      PFC: "time to listen to something new"
+      = Need Generative injection (NEW sub-genre, NEW artist)
+      = OR shift genre entirely (competing Background-Pattern build)
 
     PATH B — Tonic integration:
       Chunks: EMBEDDED in Background-Pattern
       Gap: no longer "gap" — becomes "baseline" (Tonic channel)
-      Body: "luôn có jazz nền" → invisible, comfortable
-      PFC: "tôi = jazz person"
+      Body: "jazz always in the background" → invisible, comfortable
+      PFC: "I am a jazz person"
       = Background-Pattern COMPLETE → music = part of identity
 
 
@@ -583,7 +585,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ├──────────────────────────────────→ Exposure
       P0    P1       P2        P3         P4
 
-    ⚠️ X-axis scale KHÁC nhau tùy complexity:
+    ⚠️ X-axis scale VARIES by complexity:
        Simple pop: peak ~3-10 listens (Schellenberg 2008: ~2-8 focused)
        Complex jazz: peak ~10-50+ listens (§6 Window Size model)
        Lab focused vs real-world incidental = different curves
@@ -603,7 +605,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟡 GOLDILOCKS APPLIED TO MUSIC ACROSS COMPLEXITY:
 
-  Reward-Calibration.md §1: reward có Goldilocks per-gap, per-person, per-context.
+  Reward-Calibration.md §1: reward has Goldilocks per-gap, per-person, per-context.
 
 
   3 ZONES FOR MUSIC LISTENING:
@@ -619,7 +621,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Phase 2 of §5 trajectory
 
   OVER-REWARD / SATURATION:
-    → Binge listening → threshold adapt → need MORE
+    → Binge listening → threshold adapts → need MORE
     → Prediction complete → delta = 0 → boredom
 
 
@@ -639,14 +641,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ Jazz/classical │ ~10-50+      │ Dense harmonic/melodic       │
     │ (high          │ WIDE         │ content → model takes MUCH   │
     │  complexity)   │              │ longer → window very wide    │
-    │                │              │ → "càng nghe càng hay"       │
+    │                │              │ → "gets better the more      │
+    │                │              │    you listen"               │
     ├────────────────┼──────────────┼──────────────────────────────┤
     │ Ambient/drone  │ ~1-∞         │ prediction-delta ≈ 0 by     │
     │ (minimal       │ N/A (Tonic)  │ design → Tonic channel, NOT │
     │  complexity)   │              │ Goldilocks model             │
     └────────────────┴──────────────┴──────────────────────────────┘
 
-    = "Bài dễ chán nhanh, bài khó nghe càng lâu càng hay"
+    = "Simple songs get boring fast; complex songs get better the longer you listen"
     = Framework mechanism: complexity → more chunks to compile
     → more chunks = wider Goldilocks window = longer peak enjoyment
 
@@ -754,7 +757,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   This section: PFC budget WITHIN music listening itself.
   = What happens when you CONSCIOUSLY ANALYZE the music you're hearing?
 
-  ⚠️ v1.1 CORRECTION: Original framing "phân tích → hết sướng" was OVERSTATED.
+  ⚠️ v1.1 CORRECTION: Original framing "analysis kills pleasure" was OVERSTATED.
   Hou et al. 2024 shows analytical KNOWLEDGE increases liking.
   Key distinction: real-time analytical EFFORT ≠ accumulated analytical KNOWLEDGE.
 
@@ -762,22 +765,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ═══ FOUNDATION: SINGLE-THREADED CONSCIOUSNESS ═══
 
   🟢 Global Workspace Theory (Baars 1988/1997):
-    Ý thức = single-threaded. Chỉ 1 "workspace" cho attention.
+    Consciousness = single-threaded. Only 1 "workspace" for attention.
     Multiple systems process IN PARALLEL unconsciously.
     But CONSCIOUS ATTENTION = serial, one thing at a time.
 
 
-  ═══ 2 LOẠI "PHÂN TÍCH" — KHÁC NHAU HOÀN TOÀN ═══
+  ═══ 2 TYPES OF "ANALYSIS" — COMPLETELY DIFFERENT ═══
 
-  LOẠI A — Real-time analytical EFFORT (phân tích ĐANG nghe):
-    → "Tại sao chord này hay? Đếm nhịp đi. BPM bao nhiêu?"
-    → PFC CHIẾM workspace → emotion/reward bị đẩy ra nền
+  TYPE A — Real-time analytical EFFORT (analyzing WHILE listening):
+    → "Why is this chord good? Let me count the beat. What's the BPM?"
+    → PFC OCCUPIES the workspace → emotion/reward gets pushed to background
     → Body-feedback channels: CONSTRAINED by PFC override
     → = PFC-Operations.md: Hold/Suppress tradeoff
     → CAN interfere with flow-state immersion
 
     🟡 Transient hypofrontality (Dietrich 2004):
-      Flow/relaxation → LATERAL PFC giảm → emotion/motor FREED
+      Flow/relaxation → LATERAL PFC decreases → emotion/motor FREED
       ⚠️ Limb & Braun 2008 (jazz improvisation):
         LATERAL PFC "extensive deactivation" (self-monitoring off)
         BUT MEDIAL PFC INCREASED → "PFC shutdown" = oversimplification
@@ -785,17 +788,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         = NOT "all PFC off"
 
     → Effortful real-time monitoring = CAN reduce immersive pleasure
-    → NHƯNG: KHÔNG phải "phân tích = hết sướng" tuyệt đối
+    → BUT: NOT absolutely "analysis = no more pleasure"
 
-  LOẠI B — Accumulated analytical KNOWLEDGE (hiểu biết tích lũy):
-    → Học nhạc lý, nghe nhiều genre, hiểu cấu trúc hòa âm
-    → Knowledge COMPILED vào chunks → recognition FASTER, RICHER
-    → = THÊM pleasure channels, KHÔNG bớt
+  TYPE B — Accumulated analytical KNOWLEDGE (built-up understanding):
+    → Learning music theory, listening to many genres, understanding harmonic structure
+    → Knowledge COMPILED into chunks → recognition FASTER, RICHER
+    → = ADDS pleasure channels, does NOT reduce
 
     ⭐ Hou et al. 2024 (PsyCh Journal):
       Acquiring analytical knowledge → INCREASED music liking
       MORE than historical knowledge alone
-      = TRỰC TIẾP BÁC BỎ "phân tích → hết sướng"
+      = DIRECTLY REFUTES "analysis kills pleasure"
 
     🟢 Brattico et al. 2016 (Frontiers in Neuroscience):
       Musicians: enhanced fronto-insular activity during liking
@@ -808,16 +811,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = WHY musicians enjoy music MORE, not less
 
 
-  ═══ TỔNG HỢP: 2 MODES OF ENJOYMENT ═══
+  ═══ SYNTHESIS: 2 MODES OF ENJOYMENT ═══
 
   MODE 1 — Immersive/Flow (PFC relaxed):
     → Body-feedback dominant, emotion/motor/reward systems active
-    → "Hay" mà không biết tại sao → typical casual listener
+    → "Beautiful" without knowing why → typical casual listener
     → Optimal for: familiar music, relaxation, Tonic channel
 
   MODE 2 — Analytical appreciation (PFC engaged):
-    → Cognitive appreciation THÊM VÀO body-feedback (not replace)
-    → "Hay VÌ chord progression bất ngờ ở bar 12" → expert listener
+    → Cognitive appreciation ADDS TO body-feedback (does not replace)
+    → "Beautiful BECAUSE the chord progression surprises at bar 12" → expert listener
     → Optimal for: complex music, active study, Generative channel
     → ⚠️ Requires COMPILED analytical knowledge (not real-time effort)
 
@@ -827,22 +830,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = Compiled vs Fresh distinction applies WITHIN analysis itself
 
 
-  ═══ HỆ QUẢ CHO DEPTH LAYERS ═══
+  ═══ IMPLICATIONS FOR DEPTH LAYERS ═══
 
   Depth layers (bass, harmony, dynamics, sound design)
-  hoạt động VÔ THỨC — người nghe KHÔNG ý thức về chúng:
+  operate UNCONSCIOUSLY — listeners are NOT aware of them:
 
-    → BỎ depth layers (chỉ giữ melody) → trải nghiệm GIẢM đáng kể
-    → DÙ người nghe KHÔNG BIẾT thiếu gì cụ thể
-    → Ví dụ: cùng melody, bản full production vs bản acoustic
-      → "Cảm giác khác rõ rệt" nhưng "không chỉ ra được CHÍNH XÁC cái gì"
+    → REMOVE depth layers (keep only melody) → experience DIMINISHES significantly
+    → EVEN THOUGH listeners don't know what's missing specifically
+    → Example: same melody, full production vs acoustic version
+      → "Feels noticeably different" but "can't point to EXACTLY what"
 
     Framework:
       Depth layers = UNCONSCIOUS prediction channels
-      Each layer runs prediction in PARALLEL → contributes to compound reward
-      PFC KHÔNG track từng layer → but body-feedback DOES
-      = Body-Feedback-Mechanism: evaluative signal TRƯỚC PFC label
-      = "Bịa" (Somatic-Articulation-Loop): body knows, words follow
+      Each layer runs prediction IN PARALLEL → contributes to compound reward
+      PFC does NOT track each layer → but body-feedback DOES
+      = Body-Feedback-Mechanism: evaluative signal BEFORE PFC label
+      = "Confabulation" (Somatic-Articulation-Loop): body knows, words follow
 
   🟢 Implicit processing of musical features: established
     (Koelsch et al. 2004 — ERAN/ELAN responses to syntactic violations
@@ -855,7 +858,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     §7 (Compiled vs Fresh): PFC budget BETWEEN music + task
     §7b (Attention × Music): PFC budget WITHIN music listening
 
-    Cả 2 = CÙNG mechanism: PFC = shared resource.
+    Both = SAME mechanism: PFC = shared resource.
       §7: unfamiliar music + fresh task → PFC overload → BOTH suffer
       §7b: real-time effortful analysis → CAN reduce flow immersion
            BUT compiled analytical knowledge → ADDS appreciation
@@ -869,11 +872,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → Knowledge automatic → cognitive appreciation ON TOP OF body-feedback
         → = Deeper Goldilocks for trained listeners (Brattico 2016)
 
-    Đây cũng giải thích "ineffability of music":
-      Nhạc khó diễn đạt bằng lời KHÔNG PHẢI vì nhạc huyền bí.
-      MÀ VÌ: processing chính = body-feedback (parallel, unconscious).
+    This also explains the "ineffability of music":
+      Music is hard to put into words NOT BECAUSE music is mysterious.
+      BUT BECAUSE: primary processing = body-feedback (parallel, unconscious).
       PFC label = secondary, serial, arrives AFTER experience.
-      Cố gắng verbalize = SWITCH channel → TEMPORARILY lose the experience.
+      Trying to verbalize = SWITCHES channel → TEMPORARILY lose the experience.
       = Somatic-Articulation-Loop: body-knowledge → explicit-knowledge
       ⚠️ Trained musicians CAN verbalize WITHOUT losing experience
          (compiled analytical vocabulary → automatic, not effortful)
@@ -915,23 +918,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🔴 USER HYPOTHESES — ASSESSMENT:
 
-    "Người nghe nhạc đủ nhiều → đếm nhịp chính xác hơn?"
+    "People who listen to music enough → more precise beat counting?"
       → PLAUSIBLE: sustained entrainment → motor cortex precision ↑
       → Evidence STRONG for musicians, MODERATE for listeners
       → Confidence: 🟡
 
-    "Nhịp thở đồng đều hơn?"
+    "More regular breathing?"
       → POSSIBLE: heart rate + breathing CAN sync with music tempo
       → But no study tests LONG-TERM effect on breathing regularity
       → Confidence: 🔴 (hypothesis)
 
-    "Vận động nhịp nhàng hơn (đi bộ, lái xe)?"
+    "More rhythmic movement (walking, driving)?"
       → Music DURING activity: established benefit 🟢
       → Music TRAINING → general motor improvement: some evidence 🟡
       → Passive listening HISTORY → general motor improvement: weak evidence
       → Confidence: 🟡 for during, 🔴 for lasting effect
 
-    "Dễ dàng vào flow trong công việc hơn?"
+    "Easier to enter flow while working?"
       → Music DURING work → mood + arousal modulation: established 🟢
       → Music HISTORY → easier flow WITHOUT music: no direct evidence
       → Confidence: 🔴 (hypothesis)
@@ -942,7 +945,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Strong transfer: music → speech, music → movement (shared circuits)
     → Weak transfer: music → abstract cognition (different circuits)
     → = Transfer strength ∝ neural circuit overlap
-    → Active music > passive listening cho transfer
+    → Active music > passive listening for transfer
       (efference copy → deeper chunk compilation → stronger links)
 ```
 
@@ -955,14 +958,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ENGINE = Hardware auditory-motor-emotional coupling:
     → Auditory cortex + motor cortex + VTA + NAcc + opioid system
-    → ALWAYS RUNNING — bé 6 tháng đã phản ứng rhythm
+    → ALWAYS RUNNING — infants at 6 months already respond to rhythm
     → Musical anhedonia = pathway broken (NOT engine broken)
-    → Engine DRIVES all music experience → KHÔNG AI thiếu engine
+    → Engine DRIVES all music experience → NO ONE lacks the engine
 
   ROAD = Music collective infrastructure:
     → Pre-streaming: radio, vinyl, live concerts (LIMITED access)
     → Post-streaming: Spotify, YouTube, Apple Music (UNLIMITED access)
-    → = Technology fill routine → frontier SHIFT:
+    → = Technology fills the routine → frontier SHIFTS:
 
       PRE-STREAMING:
         → Access = scarce → listening = special event
@@ -976,24 +979,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → = Frontier shifted from ACCESS to CURATION/DISCOVERY
 
   VEHICLE = Individual's compiled music chunks:
-    → 15-20 năm build (childhood → adult taste)
+    → Builds over 15-20 years (childhood → adult taste)
     → Background-Pattern = accumulated gist from thousands of songs
-    → "Gu" = vehicle's current configuration
+    → Taste signature = vehicle's current configuration
     → Vehicle determines WHICH songs match gap direction
     → Vehicle CHANGES slowly (years, not days)
 
   5-PARAMETER PER-GAP:
     Axis-1 — Hardware Source: auditory + motor + VTA + NAcc + opioid (multi)
-    Axis-2 — Satiation Profile: Cyclic (1 bài) / Tonic (nền) / Generative (khám phá)
+    Axis-2 — Satiation Profile: Cyclic (1 song) / Tonic (background) / Generative (exploration)
     Axis-3 — Reward Composition: ~90% Evaluative (passive) ↔ ~50/50 (active)
     Axis-4 — Chain Length: SHORT (hear → evaluate → reward = seconds)
           → SHORT chain = FAST feedback = addictive potential
     Axis-5 — Collective Dependency: LOW (headphones) → HIGH (group music)
 
   ⭐ SATIATION PROFILE TRANSITIONS (over lifetime):
-    → Teen: Generative dominant ("tìm nhạc mới liên tục")
-    → Young adult: Mixed Generative + Cyclic ("có playlist yêu thích")
-    → Adult: Tonic dominant ("luôn có nhạc nền, ít tìm mới")
+    → Teen: Generative dominant ("constantly searching for new music")
+    → Young adult: Mixed Generative + Cyclic ("has favorite playlists")
+    → Adult: Tonic dominant ("always music in the background, rarely seeks new")
     → = Common trajectory, NOT inevitable
     → Musicians / audiophiles: maintain Generative longer
     → = Profile transition = Background-Pattern solidification
@@ -1030,7 +1033,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Comparison table music/math/reading (logical, no direct comparison study)
 
   CORRECTED (v1.1):
-    → ❌ "Phân tích → hết sướng" → WRONG as absolute (Hou 2024 contradicts)
+    → ❌ "Analysis kills pleasure" → WRONG as absolute (Hou 2024 contradicts)
     → ✅ Distinction: real-time effort CAN interfere / compiled knowledge ADDS channels
     → ❌ "Optimal = PFC minimal" → WRONG as absolute
     → ✅ 2 types of optimal: flow (PFC relaxed) AND expert appreciation (PFC engaged)
@@ -1059,7 +1062,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 PRIMARY:
-  Gap-Direction.md v2.0 — §3 "chưa biết = không có gap", direction match
+  Gap-Direction.md v2.0 — §3 "no knowledge = no gap", direction match
   Gap-Body-Need.md v1.0 — 3 Satiation, ENGINE/ROAD/VEHICLE, 5-Parameter
   Reward-Calibration.md v1.1 — Goldilocks per-gap, 3 zones, 6 over-reward
   Gap-Distribution-Profile.md v1.1 — PFC budget, per-person landscape
@@ -1106,7 +1109,7 @@ RESEARCH CITATIONS:
 
 ---
 
-> *07-Music-Entrainment-Reward-Dynamics v1.1 — Neural sync, flow, gap formation.
+> *07-Music-Entrainment-Reward-Dynamics v1.2 — Neural sync, flow, gap formation.
 > v1.1: §7b REWRITTEN (effort vs knowledge distinction), §5 numbers corrected,
 > §3 "hundreds" → "continuous prediction with phasic peaks." +7 new citations.
 > Entrainment = distributed oscillator WITH specialized hub (putamen/SMA).

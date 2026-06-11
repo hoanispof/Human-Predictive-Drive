@@ -1,4 +1,4 @@
-﻿---
+---
 title: Verification Research — 10 Key Insights Evidence Check
 version: 2.0
 created: 2026-05-29
@@ -10,35 +10,35 @@ scope: |
   Total: 30 corrections, 35+ new citations, 13 insights directly verified + 10 spot-checked.
   Overall drill quality: GOOD → VERY GOOD after corrections.
 purpose: |
-  ① Xác nhận insight nào ĐÚNG (research supports)
-  ② Phát hiện insight nào OVERSTATED (cần sửa wording)
-  ③ Phát hiện insight nào SAI (cần loại bỏ hoặc đánh lại tag)
-  ④ Bổ sung citations MỚI strengthen/weaken existing claims
-  ⑤ Cơ sở đối chiếu cho future synthesis
+  ① Confirm which insights are CORRECT (research supports)
+  ② Identify which insights are OVERSTATED (wording needs revision)
+  ③ Identify which insights are WRONG (need removal or re-tagging)
+  ④ Add NEW citations that strengthen/weaken existing claims
+  ⑤ Provide reference basis for future synthesis
 position: |
   Research/Drill-Sound-Brain/ — verification file.
-  Đọc SAU tất cả drill files (01-08).
-  MỤC ĐÍCH: quality control, KHÔNG thêm insight mới.
-language: Tiếng Việt primary + English technical terms
+  Read AFTER all drill files (01-08).
+  PURPOSE: quality control, does NOT add new insights.
+language: English
 ---
 
 # Verification Research — 10 Key Insights Evidence Check
 
-> **44 insights. 10 đã verify bằng web research.**
-> **Kết quả: 4 CONFIRMED, 4 PARTIALLY SUPPORTED (cần sửa wording),**
-> **2 có sub-claims SAI (cần loại bỏ con số cụ thể).**
+> **44 insights. 10 verified via web research.**
+> **Results: 4 CONFIRMED, 4 PARTIALLY SUPPORTED (wording needs revision),**
+> **2 with sub-claims WRONG (specific numbers need removal).**
 >
-> **Phát hiện quan trọng nhất:**
-> **① "Analysis kills pleasure" OVERSTATED — analytical knowledge TĂNG liking (Hou 2024)**
-> **② I-IV-V ~62% KHÔNG CÓ NGUỒN — cần xóa**
-> **③ Peak exposure = 2-8 lần, KHÔNG PHẢI 5-30 (Schellenberg 2008)**
+> **Most important findings:**
+> **① "Analysis kills pleasure" OVERSTATED — analytical knowledge INCREASES liking (Hou 2024)**
+> **② I-IV-V ~62% HAS NO SOURCE — needs removal**
+> **③ Peak exposure = 2-8 times, NOT 5-30 (Schellenberg 2008)**
 > **④ "3 independent channels" → "3 partially separable streams"**
-> **⑤ "Melody = first locked" KHÔNG CÓ evidence**
-> **⑥ Selection 60-70% / Reinforcement 30-40% KHÔNG CÓ NGUỒN**
+> **⑤ "Melody = first locked" HAS NO evidence**
+> **⑥ Selection 60-70% / Reinforcement 30-40% HAS NO SOURCE**
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §1 — Summary Table (10 insights)
 - §2 — Phase 1: Voice, Melody, Attention (Insights 40-41, 42, 38b)
@@ -107,24 +107,24 @@ SCORECARD:
 
 ```
 ORIGINAL CLAIM:
-  Giọng hát xử lý qua 3 kênh TÁCH BIỆT:
-  ① Semantic (Broca/Wernicke, left) — cần hiểu ngôn ngữ
-  ② Prosody (right hemisphere + insula) — KHÔNG cần hiểu
-  ③ Voice-as-instrument (auditory cortex + reward) — KHÔNG cần hiểu
+  Vocal singing is processed through 3 SEPARATE channels:
+  ① Semantic (Broca/Wernicke, left) — requires language comprehension
+  ② Prosody (right hemisphere + insula) — NO comprehension required
+  ③ Voice-as-instrument (auditory cortex + reward) — NO comprehension required
   → 2/3 channels work without language → foreign music still moves us
   → Semantic OFF → PFC budget freed → purer emotion
 
 VERDICT: CONFIRMED (with refinement needed)
 
   ✅ Semantic left + Prosody right = TEXTBOOK NEUROSCIENCE
-     Kotz et al. fMRI: extensive left-lateralized network cho semantic,
-     right-lateralized cho emotional prosody.
+     Kotz et al. fMRI: extensive left-lateralized network for semantic,
+     right-lateralized for emotional prosody.
 
   ✅ Voice-as-instrument = SUPPORTED by NEW KEY EVIDENCE:
      ⭐ Norman-Haignere, Kanwisher et al. 2022 (Current Biology):
-     Phát hiện SONG-SELECTIVE NEURAL POPULATION trong auditory cortex
+     Discovered SONG-SELECTIVE NEURAL POPULATION in auditory cortex
      → respond to SINGING but NOT to instrumental music or speech alone
-     → anatomically near nhưng DISTINCT from speech-selective population
+     → anatomically near but DISTINCT from speech-selective population
      = STRONGER evidence than drill originally cited
 
   ✅ 2/3 channels without language = CONFIRMED:
@@ -225,8 +225,8 @@ NEW CITATIONS:
 
 ```
 ORIGINAL CLAIM:
-  PFC analysis chiếm workspace → emotion/reward bị đẩy ra nền.
-  Depth layers hoạt động vô thức. "Phân tích → hết sướng."
+  PFC analysis occupies the workspace → emotion/reward gets pushed to background.
+  Depth layers operate unconsciously. "Analysis kills pleasure."
   Optimal = PFC MINIMAL.
 
 VERDICT: ⚠️ OVERSTATED — key sub-claim CONTRADICTED
@@ -250,7 +250,7 @@ VERDICT: ⚠️ OVERSTATED — key sub-claim CONTRADICTED
   ❌ "Analysis kills pleasure" = CONTRADICTED by key evidence:
      ⭐ Hou et al. 2024 (PsyCh Journal): acquiring ANALYTICAL knowledge
      INCREASED music liking MORE than historical knowledge.
-     = Direct contradiction of "phân tích → hết sướng"
+     = Direct contradiction of "analysis kills pleasure"
 
      Brattico et al. 2016 (Frontiers in Neuroscience): enhanced fronto-insular
      activity in musicians during liking → experts access ADDITIONAL
@@ -262,7 +262,7 @@ VERDICT: ⚠️ OVERSTATED — key sub-claim CONTRADICTED
        Offline analytical KNOWLEDGE (accumulated understanding)
          → INCREASES appreciation and liking
 
-     = "Phân tích → hết sướng" WRONG as stated.
+     = "Analysis kills pleasure" WRONG as stated.
      = Correct version: "Effortful real-time monitoring → interfere with flow.
        BUT accumulated analytical understanding → enhance appreciation."
 
@@ -272,7 +272,7 @@ VERDICT: ⚠️ OVERSTATED — key sub-claim CONTRADICTED
      Expertise ADDS pleasure channels, does not remove them.
 
   ⚠️ REWRITE NEEDED:
-     Section §7b cần restructure:
+     Section §7b needs restructuring:
      ① Keep: ERAN unconscious processing (confirmed, valuable)
      ② Keep: Flow states reduce lateral PFC self-monitoring
      ③ REWRITE: "analysis kills pleasure" → distinction effort vs knowledge
@@ -442,7 +442,7 @@ ORIGINAL CLAIM:
   Only general μ-opioid (Mallik 2017).
   Frequency compensates (2-4h/day vs ~200h/year for friend, Hall 2018).
 
-VERDICT: PARTIALLY SUPPORTED ("NO" quá tuyệt đối)
+VERDICT: PARTIALLY SUPPORTED ("NO" too absolute)
 
   🟡 "No hardware-subsidy" = TOO ABSOLUTE:
      ⚠️ Oxytocin DOES increase from music in some studies:
@@ -479,9 +479,9 @@ VERDICT: PARTIALLY SUPPORTED ("NO" quá tuyệt đối)
      Bonding via ENDORPHIN (like primate grooming), NOT music-specific.
 
   ⚠️ CORRECTION NEEDED:
-     "KHÔNG có hardware-subsidy" → "không có DEDICATED bonding-specific
-     hardware-subsidy. Dựa vào general reward + borrowed social neurochemistry.
-     Oxytocin response có nhưng inconsistent và yếu hơn pair-bonding system."
+     "NO hardware-subsidy" → "no DEDICATED bonding-specific hardware-subsidy.
+     Relies on general reward + borrowed social neurochemistry.
+     Oxytocin response exists but is inconsistent and weaker than pair-bonding system."
 
 NEW CITATIONS:
   🟢 Kreutz 2014 — group singing oxytocin
@@ -515,7 +515,7 @@ VERDICT: DIRECTION CONFIRMED, SPECIFIC NUMBERS NOT SUPPORTED
   ❌ "~60-70% / ~30-40%" = NO SOURCE:
      No study found quantifying this specific split.
      Research confirms selection > influence DIRECTIONALLY,
-     nhưng exact effect sizes KHÁC nhau tùy genre + context.
+     but exact effect sizes VARY by genre + context.
      → Must REMOVE these specific numbers.
 
   🟡 Selfhout 2009 "niche genres predict friendship" = NUANCED:
@@ -523,7 +523,7 @@ VERDICT: DIRECTION CONFIRMED, SPECIFIC NUMBERS NOT SUPPORTED
      highbrow) predicted friendship formation, NOT exclusively niche.
      SNARE research: non-mainstream genres (rock, urban) particularly
      linked to friendship selection.
-     → "Niche > mainstream" direction supported nhưng original claim
+     → "Niche > mainstream" direction supported but original claim
        about Selfhout specifically needs correction.
 
   ⚠️ CORRECTIONS NEEDED:
@@ -567,7 +567,7 @@ VERDICT: PARTIALLY SUPPORTED ("multiplicative" overstated)
 
   ⚠️ CORRECTION NEEDED:
      "Multiplicative" → "potentially super-additive (sometimes > sum
-     of parts, nhưng also sometimes additive or sub-additive depending
+     of parts, but also sometimes additive or sub-additive depending
      on conditions)"
 
 NEW CITATIONS:
@@ -650,28 +650,28 @@ NEW CITATIONS:
 ## §5 — Full Corrections List
 
 ```
-PRIORITY 1 — PHẢI SỬA (dữ liệu sai hoặc claim bị contradict):
+PRIORITY 1 — MUST FIX (wrong data or contradicted claims):
 
   C1. [06 §3] I-IV-V ~62% → REMOVE (no source found)
   C2. [07 §5] Peak exposure 5-30 → FIX to "~2-8" (Schellenberg 2008)
-  C3. [07 §7b] "Phân tích → hết sướng" → REWRITE (Hou 2024 contradicts)
+  C3. [07 §7b] "Analysis kills pleasure" → REWRITE (Hou 2024 contradicts)
       Distinction: real-time effort ↔ accumulated knowledge
   C4. [04 §3] Selection 60-70% → REMOVE specific numbers (no source)
   C5. [08 §2.2] "Melody = first locked" → REMOVE or tag 🔴
 
-PRIORITY 2 — NÊN SỬA (wording quá mạnh):
+PRIORITY 2 — SHOULD FIX (wording too strong):
 
   C6. [08 §1] "3 independent channels" → "3 partially separable streams"
   C7. [08 §2.1] "Activation efficiency" → tag 🟡 framework concept
   C8. [08 §2.2] Alzheimer "melody specifically" → "musical memory broadly"
-  C9. [02 §7] "KHÔNG có hardware-subsidy" → "không có DEDICATED bonding-specific
+  C9. [02 §7] "NO hardware-subsidy" → "no DEDICATED bonding-specific
       hardware-subsidy; co-opts general reward + borrowed social neurochemistry"
   C10. [05 §2] "Multiplicative" → "potentially super-additive"
   C11. [07 §3] "Hundreds of micro-rewards" → "continuous prediction processing
        with phasic reward peaks"
   C12. [06 §0] Architecture = prediction ONLY → ADD social bonding co-equal
 
-PRIORITY 3 — BỔ SUNG (thêm attribution hoặc nuance):
+PRIORITY 3 — ADD (attribution or nuance):
 
   C13. [08 §3] Shape vs Content → ADD Langer 1953 attribution
   C14. [08 §3.2] 3 mechanisms → ADD BRECVEMA reference
@@ -777,27 +777,27 @@ PRIORITY 3 — BỔ SUNG (thêm attribution hoặc nuance):
 ## §7 — Overall Assessment
 
 ```
-⭐ VERDICT TỔNG THỂ:
+⭐ OVERALL VERDICT:
 
   DRILL QUALITY = GOOD.
-  Không có insight nào HOÀN TOÀN SAI.
-  Hầu hết claims đều đi đúng hướng.
+  No insight is COMPLETELY WRONG.
+  Most claims point in the right direction.
 
-  CẦN SỬA:
+  NEEDS FIXING:
     5 Priority 1 corrections (bad data or contradicted claims)
     7 Priority 2 corrections (overstated wording)
     6 Priority 3 corrections (add nuance/attribution)
     = 18 corrections total
 
-  PHÂN LOẠI 10 INSIGHTS SAU VERIFICATION:
+  CLASSIFICATION OF 10 INSIGHTS AFTER VERIFICATION:
 
     UPGRADE (stronger than before):
       I40-41 Voice 3-Channel → Norman-Haignere 2022 STRENGTHENS
       I38 Inverted-U shape → 87.7% of 57 studies STRENGTHENS
       I44 Shape vs Content → Langer attribution STRENGTHENS
 
-    GIỮ NGUYÊN (confirmed as stated):
-      I8 Hardware-subsidy → direction correct, wording needs soften
+    UNCHANGED (confirmed as stated):
+      I8 Hardware-subsidy → direction correct, wording needs softening
 
     DOWNGRADE (weaker than stated):
       I42 Melody efficiency → "first locked" + "efficiency metric" removed
@@ -808,14 +808,14 @@ PRIORITY 3 — BỔ SUNG (thêm attribution hoặc nuance):
       I29 Compound → "multiplicative" → "potentially super-additive"
 
   ⭐ MOST IMPORTANT FINDING:
-    Attention Paradox (I38b) cần REWRITE lớn nhất.
-    "Phân tích → hết sướng" = WRONG as absolute claim.
+    Attention Paradox (I38b) requires the LARGEST rewrite.
+    "Analysis kills pleasure" = WRONG as absolute claim.
     Evidence (Hou 2024): analytical KNOWLEDGE increases liking.
     This changes HOW the framework discusses PFC × music.
 
-  34 INSIGHTS CHƯA VERIFY (remaining):
-    Phần lớn là framework synthesis (🟡) — less likely to be wrong
-    vì chỉ là framework application, không claim neuroscience data cụ thể.
+  34 INSIGHTS NOT YET VERIFIED (remaining):
+    Most are framework synthesis (🟡) — less likely to be wrong
+    because they are framework applications, not claims about specific neuroscience data.
     Most vulnerable: those citing specific numbers or making causal claims.
 ```
 
@@ -836,8 +836,8 @@ FILES THAT NEED CORRECTIONS:
   00-Overview.md — update insight tags after corrections
 
 FRAMEWORK FILES POTENTIALLY AFFECTED:
-  PFC-Operations.md — nếu drill §7b references PFC budget claim
-  Body-Feedback-Mechanism.md — nếu "ineffability" claim references
+  PFC-Operations.md — if drill §7b references PFC budget claim
+  Body-Feedback-Mechanism.md — if "ineffability" claim references
   Boredom.md — unchanged (boredom formula application still valid)
 ```
 
@@ -862,7 +862,7 @@ C21. [04 §5] Ter Bogt 2017 integrated: only HIGHBROW consistently predicted
      → Verification Round 1 §4.2 note "ALL 4 genres predicted" = MISLEADING.
 
 C22. [02 §7b] Exposure numbers UNCORRECTED from Round 1:
-     "5-30 lần" / "30-200" / "200+" still in file 02 (fixed in file 07 only).
+     "5-30 times" / "30-200" / "200+" still in file 02 (fixed in file 07 only).
      → Aligned with qualitative descriptions + Schellenberg 2008 reference.
 
 C23. [02 §4] Alzheimer mechanism nuanced:

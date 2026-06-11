@@ -1,36 +1,38 @@
 ---
-title: Connection-Education — Dạy Social Interaction Qua Framework v7.8
+title: Connection-Education — Teaching Social Interaction via the Framework
 version: 1.1
 created: 2026-05-25
-updated: 2026-06-03 (v1.1 — Trust.md v1.0 + Self-Observation.md v1.0 integration: +Self-Observation keystone §2.5, +Trust calibration §5.6, +Trust × 5 pillars, +Teen Paradox, +Compiled Quality warning, deps Child-Dev v2.2→v2.3)
+updated: 2026-06-03 (v1.1 — Trust.md v1.0 + Self-Observation.md v1.0 integration:
+  +Self-Observation keystone §2.5, +Trust calibration §5.6, +Trust × 5 pillars,
+  +Teen Paradox, +Compiled Quality warning, deps Child-Dev v2.2→v2.3)
 previous: v1.0 (2026-05-25, ~2,161L)
 status: v1.1
 scope: |
-  MAIN FILE: Dạy social interaction — TOÀN BỘ khía cạnh tương tác xã hội:
-  ① Hiểu người khác (empathy education — absorb Empathy-Education v2.0)
-  ② Xây dựng connection (bond formation, Entity-Compiled, 8 pathways)
-  ③ Chọn và calibrate relationships (Entity-Access, PFC budget, boundary)
-  ④ Duy trì connection (4-Layer Sustainability, Resonance Decline, anti-compiled-suppress)
-  ⑤ Navigate groups (Coordination-Node, prestige, inclusion/exclusion)
-  + Per-age guide (0-3 / 3-6 / 6-12 / 12-18 / adult)
+  MAIN FILE: Teaching social interaction — ALL aspects of social interaction:
+  ① Understanding others (empathy education — absorbs Empathy-Education v2.0)
+  ② Building connection (bond formation, Entity-Compiled, 8 pathways)
+  ③ Choosing and calibrating relationships (Entity-Access, PFC budget, boundary)
+  ④ Sustaining connection (4-Layer Sustainability, Resonance Decline, anti-compiled-suppress)
+  ⑤ Navigating groups (Coordination-Node, prestige, inclusion/exclusion)
+  + Per-age guide (0–3 / 3–6 / 6–12 / 12–18 / adult)
   + AI era (Phantom, parasocial, technology frontier)
-  File này = Observation ỨNG DỤNG, KHÔNG phải mechanism file.
-  THAY THẾ: Empathy-Education.md v2.0 (absorbed — chỉ cover empathy = ~30% scope).
+  This file = Application-level OBSERVATION, NOT a mechanism file.
+  REPLACES: Empathy-Education.md v2.0 (absorbed — only covered empathy ≈ 30% of scope).
 purpose: |
-  Trả lời: "Làm sao dạy trẻ TƯƠNG TÁC XÃ HỘI THỰC SỰ — không chỉ 'hiểu người'
-  mà CẢ xây dựng, chọn, duy trì, và navigate groups?"
-  Pragmatic > moral. Experience > lecture. Body compile > PFC rule.
-  Nền tảng cho: thói quen hợp tác, relationship, làm việc, sinh sống cả đời.
+  Answers: "How do we teach children REAL SOCIAL INTERACTION — not just 'understanding others'
+  but ALSO building, choosing, sustaining, and navigating groups?"
+  Pragmatic > Moral. Experience > Lecture. Body Compile > PFC Rule.
+  Foundation for: cooperation habits, relationship, work, and flourishing across a lifetime.
 position: |
-  Research/Human-Learning/Education-Mechanism/ — MAIN FILE, "bộ 3":
-    Education-Mechanism.md = HOW (nguyên lý arc design)
+  Research/Human-Learning/Education-Mechanism/ — MAIN FILE, "triple set":
+    Education-Mechanism.md = HOW (arc design principles)
     Domain-Knowledge-Map.md = WHAT (domain taxonomy)
-    ★ Connection-Education.md = WHO (social interaction education) ← ĐÂY
-  File này BUILD TRÊN:
+    ★ Connection-Education.md = WHO (social interaction education) ← HERE
+  This file BUILDS ON:
     - Connection.md v5.0 (3 Generative Primitives, 8 pathways, Resonance Decline, 4-Layer)
     - Bond-Architecture.md v2.0 (4 bond types, gap clone impossible)
     - Entity-Compiled.md v1.0 (formation 40→200h, Hub-and-Spoke)
-    - Entity-Access.md v1.2 (gradient Mức 0-5, 3-Factor Model)
+    - Entity-Access.md v1.2 (gradient Level 0–5, 3-Factor Model)
     - Resonance-Sustainability.md v1.0 (4-Layer model, 3 conditions)
     - Resonance-Per-Entity.md v1.0 (Hardware-Subsidy spectrum, lifecycle)
     - Self-Pattern-Modeling.md v3.1 (Compiled/Fresh, Simulation-Engine)
@@ -39,44 +41,39 @@ position: |
     - Social-Calibration.md v1.1 (7 functions, breakdown)
     - Empathy.md v3.0 (Self-Pattern-Modeling function, 3 mechanisms)
   SCOPE IN:
-    - TẠI SAO connection education quan trọng (practical, Compilable Architecture)
-    - MECHANISM tóm tắt (3 Generative Primitives, Hardware-Subsidy)
+    - WHY connection education matters (practical, Compilable Architecture)
+    - MECHANISM summary (3 Generative Primitives, Hardware-Subsidy)
     - SELF-OBSERVATION as keystone for ALL 5 pillars (v1.1: §2.5)
-    - HIỂU người khác (empathy education — absorb Empathy-Education v2.0)
-    - XÂY connection (bond formation, 8 pathways, 4 bond types)
-    - CHỌN relationships (Entity-Access, PFC budget, boundary, Trust calibration)
-    - DUY TRÌ connection (4-Layer Sustainability, Resonance Decline, repair, Trust repair)
-    - NAVIGATE groups (Coordination-Node, prestige, Position vs Person trust)
-    - PER-AGE guide (0-3 / 3-6 / 6-12 / 12-18 / adult)
+    - UNDERSTANDING others (empathy education — absorbs Empathy-Education v2.0)
+    - BUILDING connection (bond formation, 8 pathways, 4 bond types)
+    - CHOOSING relationships (Entity-Access, PFC budget, boundary, Trust calibration)
+    - SUSTAINING connection (4-Layer Sustainability, Resonance Decline, repair, Trust repair)
+    - NAVIGATING groups (Coordination-Node, prestige, Position vs Person trust)
+    - PER-AGE guide (0–3 / 3–6 / 6–12 / 12–18 / adult)
     - AI ERA (Phantom, parasocial, technology frontier)
   SCOPE OUT:
-    - Connection mechanism chi tiết → Connection.md v5.0
+    - Connection mechanism in detail → Connection.md v5.0
     - Bond mechanism → Bond-Architecture.md v2.0
     - Entity-Access model → Entity-Access.md v1.2
     - Arc design principles → Education-Mechanism.md
     - Domain taxonomy → Domain-Knowledge-Map.md
     - Self-Pattern-Modeling mechanism → Self-Pattern-Modeling.md v3.1
-previous_version: |
-  Empathy-Education.md v2.0 (1,424L) → backup/Empathy-Education-v2.0.md
-  Connection-Education.md v1.0 THAY THẾ và MỞ RỘNG scope:
-    Empathy-Education cover: empathy mechanism + developmental + per-age + AI era
-    Connection-Education thêm: bond formation + choosing + sustaining + groups + Entity-Access
 dependencies:
   core-mechanism:
-    - Connection.md v5.0 — 3 Generative Primitives, 8 pathways, Resonance Decline, 4-Layer, Hardware-Subsidy
-    - Bond-Architecture.md v2.0 — Entity-Compiled × 4 bond types, gap clone impossible, true understanding
+    - Connection.md v5.0 — 3 Generative Primitives, 8 pathways, Resonance Decline, 4-Layer
+    - Bond-Architecture.md v2.0 — Entity-Compiled × 4 bond types, gap clone impossible
     - Entity-Compiled.md v1.0 — formation 40→200h, Hub-and-Spoke, Dunbar, grief, decay
-    - Entity-Access.md v1.2 — gradient Mức 0-5, 3-Factor Model, excess, calibration
+    - Entity-Access.md v1.2 — gradient Level 0–5, 3-Factor Model, excess, calibration
     - Resonance-Sustainability.md v1.0 — 4-Layer model, 3 conditions, 3 modalities, amplification
     - Resonance-Per-Entity.md v1.0 — Hardware-Subsidy spectrum, compilation chain, lifecycle
     - By-Product-Gap-Resonance.md v1.4 — resonance mechanism, 4 conditions, by-product match
     - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Simulation-Engine APPLICATION-1, 3 dimensions
     - Empathy.md v3.0 — Self-Pattern-Modeling function, 3 mechanisms, double empathy
     - By-Product-Scale.md v1.0 — 3 scales pair/hub/institutional, prestige = genuine resonance
-    - Coordination-Node.md v1.2 — prestige vs dominance, scale transitions, mẹ = first node
+    - Coordination-Node.md v1.2 — prestige vs dominance, scale transitions, mother = first node
   trust/self-observation:
     - Trust.md v1.0 — compiled prediction about gap-fill reliability, 3 sub-dimensions, Default→Calibrated
-    - Self-Observation.md v1.0 — APPLICATION-3, Gradient Mức 0-6, Keystone cascade, Tool Not Virtue
+    - Self-Observation.md v1.0 — APPLICATION-3, Gradient Level 0–6, Keystone cascade, Tool Not Virtue
     - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, Trust = Amplifier, Multi-Stream
     - Compile-Sleep.md v1.0 — Sleep Maintenance, social memory consolidation
   foundation:
@@ -84,62 +81,61 @@ dependencies:
     - PFC-Operations.md v1.0 — Hold/Suppress, PFC budget, compiled suppress
     - Valence-Propagation.md v3.0 — structural/current, Hardware-Subsidy, Phantom
     - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 3-cost, by-product match
-    - Gap-Body-Need.md v1.0 — 3 Satiation Profiles, ENGINE/ROAD/VEHICLE
-    - Anchor-Schema.md — 4 nguồn fill, trust, anchor person
+    - Gap-Body-Need.md v1.0 — 3 Satiation Profiles
+    - Anchor-Schema.md — 4 fill sources, trust, anchor person
     - Threat.md — 3 ORIGIN taxonomy, Type 3 Imposed
     - Cortisol-Baseline.md v2.1 — stress cascade, social buffering
     - Body-Feedback-Label.md v2.0 — vocabulary reference
   education:
-    - Education-Mechanism.md v2.1 — arc design principles, 4 nguồn fill, bridge, Multi-Stream
+    - Education-Mechanism.md v2.1 — arc design principles, 4 fill sources, bridge, Multi-Stream
     - Domain-Knowledge-Map.md v1.0 — §1.4 Social/Emotional = Foundation Domain
     - Child-Development-Mechanism.md v2.3 — §4.4 Connection, §6 Self-Pattern-Modeling bootstrap
   global:
     - Social-Calibration.md v1.1 — 7 functions, compound breakdown
     - Human-AI-Future.md v3.0 — AI vs human, symbiosis
-    - AI-Self-Model.md v2.0 — amplification mechanism
-language: Tiếng Việt primary + English technical terms
+language: English (translated from Vietnamese primary + English technical terms)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Connection-Education — Dạy Social Interaction Qua Framework v7.8
+# Connection-Education — Teaching Social Interaction via the Framework
 
-> **Giáo dục hiện tại dạy: "Phải tốt với người khác."**
-> Kết quả: trẻ BIẾT phải tốt → nhưng KHÔNG FEEL tại sao → quên ngay.
+> **Current education teaches: "You must be kind to others."**
+> The result: children KNOW they should be kind → but don't FEEL why → they forget.
 >
-> **File này đề xuất: tạo TRẢI NGHIỆM để body tự learn TOÀN BỘ social interaction:**
-> ① HIỂU: "Body FEEL trạng thái người khác — không cần ai bảo"
-> ② XÂY: "Bond CẦN 40-200 giờ interaction THẬT — không có shortcut"
-> ③ CHỌN: "Không thể thân với MỌI NGƯỜI — PFC budget có giới hạn"
-> ④ DUY TRÌ: "Connection tự nhiên PHAI — cần hiểu TẠI SAO + cách counter"
-> ⑤ NAVIGATE: "Nhóm cần node — prestige (đóng góp thật) > dominance (ép buộc)"
+> **This file proposes: create EXPERIENCES so the body learns ALL of social interaction on its own:**
+> ① UNDERSTAND: "Body FEELS the state of others — no one has to tell it"
+> ② BUILD: "Bonds REQUIRE 40–200 hours of REAL interaction — no shortcut"
+> ③ CHOOSE: "You can't be close to EVERYONE — PFC budget has limits"
+> ④ SUSTAIN: "Connection naturally FADES — understand WHY + how to counter it"
+> ⑤ NAVIGATE: "Groups need nodes — prestige (genuine contribution) > dominance (coercion)"
 >
-> **CƠ CHẾ:** Connection = 3 Generative Primitives:
-> ❶ Hardware (body CẦN social input giống cần food)
-> ❷ Self-Pattern-Modeling (não dùng chunks MÌNH simulate NGƯỜI KHÁC)
-> ❸ Per-Agent Valence (body ĐÁNH GIÁ agent NÀY ảnh hưởng tôi thế nào)
+> **MECHANISM:** Connection = 3 Generative Primitives:
+> ❶ Hardware (body NEEDS social input the way it needs food)
+> ❷ Self-Pattern-Modeling (brain uses OWN chunks to simulate OTHERS)
+> ❸ Per-Agent Valence (body EVALUATES how THIS agent affects me)
 >
-> **TẠI SAO QUAN TRỌNG HƠN BAO GIỜ:**
-> Compilable Architecture = Social = REQUIREMENT (không phải luxury).
-> Hệ thống auto-calibration xã hội ĐANG VỠ (Social-Calibration §5).
-> AI replace hầu hết cognitive → connection = human advantage IRREPLACEABLE.
+> **WHY IT MATTERS MORE THAN EVER:**
+> Compilable Architecture = Social = REQUIREMENT (not a luxury).
+> The auto-calibration system of society IS BREAKING (Social-Calibration §5).
+> AI replaces most cognitive work → connection = the IRREPLACEABLE human advantage.
 >
 > **PRAGMATIC > MORAL. EXPERIENCE > LECTURE. BODY COMPILE > PFC RULE.**
 >
-> **⚠️ Observation file — ứng dụng, KHÔNG phải mechanism.**
-> **Quy ước:** 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+> **⚠️ Observation file — application, NOT a mechanism file.**
+> **Convention:** 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ TRONG FRAMEWORK
-- §1 — TẠI SAO CONNECTION EDUCATION QUAN TRỌNG
-- §2 — MECHANISM TÓM TẮT: 3 GENERATIVE PRIMITIVES
-- §3 — HIỂU NGƯỜI KHÁC — EMPATHY EDUCATION
-- §4 — XÂY DỰNG CONNECTION — BOND FORMATION
-- §5 — CHỌN VÀ CALIBRATE RELATIONSHIPS
-- §6 — DUY TRÌ CONNECTION — SUSTAINABILITY
-- §7 — NAVIGATE GROUPS
+- §0 — POSITION IN THE FRAMEWORK
+- §1 — WHY CONNECTION EDUCATION MATTERS
+- §2 — MECHANISM SUMMARY: 3 GENERATIVE PRIMITIVES
+- §3 — UNDERSTANDING OTHERS — EMPATHY EDUCATION
+- §4 — BUILDING CONNECTION — BOND FORMATION
+- §5 — CHOOSING AND CALIBRATING RELATIONSHIPS
+- §6 — SUSTAINING CONNECTION — SUSTAINABILITY
+- §7 — NAVIGATING GROUPS
 - §8 — PER-AGE GUIDE
 - §9 — AI ERA
 - §10 — HONEST ASSESSMENT
@@ -147,99 +143,99 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §0 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — POSITION IN THE FRAMEWORK
 
 ```
-🟡 VỊ TRÍ FILE NÀY:
+🟡 POSITION OF THIS FILE:
 
-  "BỘ 3" EDUCATION — 3 main files:
+  "TRIPLE SET" EDUCATION — 3 main files:
 
-    ┌───────────────────────────┬─────────────────────────────────────────┐
-    │ File                      │ Trả lời câu hỏi gì                     │
-    ├───────────────────────────┼─────────────────────────────────────────┤
-    │ Education-Mechanism.md    │ HOW thiết kế learning arc (nguyên lý)   │
-    │ Domain-Knowledge-Map.md   │ WHAT domain groups to learn (taxonomy)  │
-    │ ⭐ Connection-Education.md│ WHO social interaction education (ĐÂY)  │
-    └───────────────────────────┴─────────────────────────────────────────┘
+    ┌────────────────────────────┬────────────────────────────────────────┐
+    │ File                       │ Answers which question                 │
+    ├────────────────────────────┼────────────────────────────────────────┤
+    │ Education-Mechanism.md     │ HOW to design the learning arc (principles)│
+    │ Domain-Knowledge-Map.md    │ WHAT domain groups to learn (taxonomy) │
+    │ ⭐ Connection-Education.md │ WHO social interaction education (HERE)│
+    └────────────────────────────┴────────────────────────────────────────┘
 
-    + Observation/ (ứng dụng cụ thể):
+    + Observation/ (concrete applications):
       Education-Arms-Race.md — WHY arms race suppresses learning
-      Money-Education.md — HOW dạy relationship với tiền
+      Money-Education.md — HOW to teach the relationship with money
 
 
-  TẦNG TRONG KIẾN TRÚC:
+  LAYER IN THE ARCHITECTURE:
 
-    TẦNG 1: Core-Deep-Dive/ (mechanism files)
+    LAYER 1: Core-Deep-Dive/ (mechanism files)
       → Connection.md v5.0 (3 Generative Primitives, 8 pathways)
       → Bond-Architecture.md v2.0 (4 bond types, Resonance Decline)
       → Entity-Compiled.md v1.0 (formation, capacity, grief)
-      → Entity-Access.md v1.2 (gradient Mức 0-5)
+      → Entity-Access.md v1.2 (gradient Level 0–5)
       → Self-Pattern-Modeling.md v3.1 (Compiled/Fresh mechanism)
       → Resonance-Sustainability.md v1.0 (4-Layer model)
       → Resonance-Per-Entity.md v1.0 (per-entity dynamics)
       → Coordination-Node.md v1.2 (group coordination)
 
-    TẦNG 2: Research/Child-Development/
+    LAYER 2: Research/Child-Development/
       → Child-Development-Mechanism.md v2.2 §4.4 (Connection development)
 
-    TẦNG 3: Research/Human-Learning/Education-Mechanism/
-      → ⭐ Connection-Education.md ← ĐÂY
+    LAYER 3: Research/Human-Learning/Education-Mechanism/
+      → ⭐ Connection-Education.md ← HERE
 
-    File này = TẦNG 3: ứng dụng mechanisms vào education context.
-    REFERENCE mechanism files — KHÔNG lặp lại mechanism.
+    This file = LAYER 3: applying mechanisms to education context.
+    REFERENCES mechanism files — does NOT repeat mechanisms.
 
 
-  SO VỚI EMPATHY-EDUCATION v2.0:
+  COMPARED TO EMPATHY-EDUCATION v2.0:
 
-    Empathy-Education (1,424L):
-      ✓ Self-Pattern-Modeling mechanism tóm tắt
+    Empathy-Education (1,424L) covered:
+      ✓ Self-Pattern-Modeling mechanism summary
       ✓ Empathy bootstrap + per-age guide
       ✓ AI era section
       ✗ Bond formation (Entity-Compiled: 40→200h)
       ✗ Bond types (4 types, neurochemistry)
-      ✗ "Chọn bạn" = Entity-Access calibration
+      ✗ "Choosing friends" = Entity-Access calibration
       ✗ Relationship sustainability (4-Layer, Resonance Decline)
       ✗ Group dynamics (Coordination-Node)
       ✗ Hardware-Subsidy in relationships
       ✗ Phantom (imaginary friends, parasocial)
 
-    Connection-Education (~2,900L) = ABSORB + MỞ RỘNG:
-      = Empathy-Education content (trimmed) + 5 trụ MỚI
+    Connection-Education (~2,900L) = ABSORBS + EXPANDS:
+      = Empathy-Education content (trimmed) + 5 NEW pillars
       = Empathy-Education → backup/Empathy-Education-v2.0.md
 ```
 
 ---
 
-## §1 — TẠI SAO CONNECTION EDUCATION QUAN TRỌNG
+## §1 — WHY CONNECTION EDUCATION MATTERS
 
-### §1.1 — Practical value, not moral obligation
+### §1.1 — Practical Value, Not Moral Obligation
 
 ```
-🟡 CONNECTION EDUCATION QUAN TRỌNG VÌ THỰC DỤNG — không phải vì "nên":
+🟡 CONNECTION EDUCATION MATTERS BECAUSE IT'S PRACTICAL — not because it's "right":
 
-  ❌ "Phải tốt với người khác vì ĐÓ LÀ ĐÚNG" (moral argument)
-  ✅ "Người khác tốt = MÌNH hưởng lợi" (practical argument)
+  ❌ "You must be kind to others BECAUSE IT'S THE RIGHT THING" (moral argument)
+  ✅ "Others doing well = I BENEFIT" (practical argument)
 
 
   ⭐ POSITIVE-SUM LOGIC:
 
-    "Mọi người xung quanh GIỎI → mình có NGƯỜI GIỎI để hợp tác"
-    "Mọi người xung quanh KHỎE → mình có BẠN KHỎE để chơi cùng"
-    "Mình biết cái gì không dùng → share → được KẾT NỐI"
+    "The people around me ARE SKILLED → I have SKILLED PEOPLE to collaborate with"
+    "The people around me ARE HEALTHY → I have HEALTHY FRIENDS to spend time with"
+    "I know something I don't use → share it → I GET CONNECTION IN RETURN"
 
-    → Người khác tốt = MÌNH hưởng lợi
-    → Giúp người khác ≠ hy sinh → = ĐẦU TƯ vào environment CỦA MÌNH
+    → Others doing well = I benefit
+    → Helping others ≠ sacrifice → = INVESTING in MY OWN environment
 
 
-  ⚠️ NHIỀU NGƯỜI THẤY NGƯỢC LẠI (zero-sum default):
+  ⚠️ MANY PEOPLE SEE THE OPPOSITE (zero-sum default):
 
-    "Người khác giỏi = THREAT cho mình" (cạnh tranh)
-    "Share = MẤT advantage" (giữ cho mình)
+    "Others being good = THREAT to me" (competition)
+    "Sharing = LOSING my advantage" (keeping it for myself)
 
-    → Thiếu chunks "positive-sum" → default = zero-sum
-    → Zero-sum KHÔNG phải "xấu" — là DEFAULT khi chưa có experience khác
-    → Connection education = SHIFT từ zero-sum sang positive-sum
-    → Không phải "dạy tốt" → mà "dạy THẤY cái lợi của cooperation"
+    → Lack of positive-sum chunks → default = zero-sum
+    → Zero-sum is NOT "bad" — it's the DEFAULT before having different experiences
+    → Connection education = SHIFTING from zero-sum toward positive-sum
+    → Not "teaching to be good" → but "teaching to SEE the benefit of cooperation"
 
   🟢 Reciprocal altruism (Trivers 1971): cooperation = optimal long-term strategy
   🟢 Game theory (Axelrod 1984): tit-for-tat → cooperation wins repeated games
@@ -249,27 +245,27 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §1.2 — Compilable Architecture = Social = REQUIREMENT
 
 ```
-⭐ CONNECTION KHÔNG PHẢI "NÊN CÓ" — LÀ KIẾN TRÚC BẮT BUỘC:
+⭐ CONNECTION IS NOT "NICE TO HAVE" — IT IS MANDATORY ARCHITECTURE:
 
   (Inter-Body-Mechanism.md v1.0 §1, Connection.md v5.0 §0.0b)
 
-  Evolution hardwire 3 thứ cho loài người:
-    ① General-Purpose Reward (VTA/dopamine — fire cho BẤT KỲ gap fill đúng)
+  Evolution hardwired 3 things for humans:
+    ① General-Purpose Reward (VTA/dopamine — fires for ANY correct gap fill)
     ② Compilation Capability (Hebbian — whatever works → strengthen → automatic)
     ③ Social Hardware (oxytocin, μ-opioid, dACC reuse)
 
   ①②③ = COMPILABLE ARCHITECTURE:
     → Content: LEARN from experience → compile → body-need
-    → TRADE-OFF: cần 15-20 NĂM compile (long childhood, DEPENDENT)
-    → = Cần entity khác PROTECT + FEED + TEACH trong 15-20 năm đó
-    → = Social KHÔNG PHẢI luxury — là REQUIREMENT của architecture
+    → TRADE-OFF: requires 15–20 YEARS to compile (long childhood, DEPENDENT)
+    → = Needs other entities to PROTECT + FEED + TEACH during those 15–20 years
+    → = Social is NOT a luxury — is a REQUIREMENT of the architecture
 
 
-  4 LÝ DO SOCIAL = REQUIREMENT:
+  4 REASONS SOCIAL = REQUIREMENT:
 
   ❶ SURVIVAL MATH:
-    1 người phải hunt + gather + shelter + defend + heal ALL → overwhelm.
-    Nhóm: phân công → specialist → ALL survive.
+    1 person must hunt + gather + shelter + defend + heal ALL → overwhelm.
+    Group: division of labor → specialists → ALL survive.
 
   ❷ COMPILATION REQUIRES SOCIAL:
     Child ALONE: compile from personal experience → SLOW, DANGEROUS.
@@ -278,156 +274,156 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ❸ REUSED NEURAL CIRCUITS:
     Body treats "social absent" LIKE "injury" (SAME dACC circuit).
-    Touch → oxytocin → cortisol GIẢM (hardware CHUYÊN cho social).
+    Touch → oxytocin → cortisol DECREASES (hardware DEDICATED to social).
     🟢 Eisenberger 2003: social pain = physical pain
     🟢 Panksepp 1998: social play = μ-opioid reward
 
   ❹ SOCIAL BASELINE THEORY:
     Body DEFAULT = social PRESENT. Alone = DEVIATION.
-    With others = body RELAXES. Alone = body WORK EXTRA.
+    With others = body RELAXES. Alone = body WORKS EXTRA.
     🟢 Coan & Sbarra 2015
 
-  → = CONNECTION EDUCATION không phải "môn phụ"
-  → = Dạy prerequisite CỦA KIẾN TRÚC NHẬN THỨC con người
+  → = CONNECTION EDUCATION is not a "minor subject"
+  → = Teaching the PREREQUISITE OF HUMAN COGNITIVE ARCHITECTURE
   → = Domain-Knowledge-Map.md §1.4: Social/Emotional = Foundation Domain
 
   🟡 Compilable Architecture framing = framework synthesis
   🟢 Each reason individually research-supported
 ```
 
-### §1.3 — Hệ thống auto-calibration đang vỡ
+### §1.3 — The Auto-Calibration System Is Breaking
 
 ```
-🟡 CONNECTION EDUCATION QUAN TRỌNG HƠN BAO GIỜ VÌ AUTO-CALIBRATION ĐANG VỠ:
+🟡 CONNECTION EDUCATION MATTERS MORE THAN EVER BECAUSE AUTO-CALIBRATION IS BREAKING:
 
   (Social-Calibration.md v1.1 §1, §5)
 
-  TRƯỚC ĐÂY: Xã hội = hệ thống auto-calibration.
-    7 functions chạy ĐỒNG THỜI: Direction, Push, Pull, Repair, Check, Identity, Connection.
-    Cá nhân KHÔNG CẦN hiểu cơ chế — xã hội TỰ calibrate.
-    Tôn giáo cho meaning. Cộng đồng cho connection. Boss cho direction.
+  PREVIOUSLY: Society = auto-calibration system.
+    7 functions running SIMULTANEOUSLY: Direction, Push, Pull, Repair, Check, Identity, Connection.
+    Individuals DID NOT NEED to understand the mechanism — society SELF-CALIBRATED.
+    Religion provided meaning. Community provided connection. A boss provided direction.
 
-  BÂY GIỜ: 3 waves CHỒNG lên nhau (Social-Calibration §5.1):
-    Wave 1 — Modernity: traditional structures vỡ
-    Wave 2 — Technology: connection channels thay đổi
-    Wave 3 — AI: cognitive advantage mất dần
+  NOW: 3 waves STACKING (Social-Calibration §5.1):
+    Wave 1 — Modernity: traditional structures breaking
+    Wave 2 — Technology: connection channels changing
+    Wave 3 — AI: cognitive advantage eroding
 
-    → TẤT CẢ 7 functions bị pressure cùng lúc
-    → Cá nhân PHẢI TỰ calibrate — nhưng CHƯA BAO GIỜ ĐƯỢC DẠY cách
+    → ALL 7 functions under pressure simultaneously
+    → Individuals MUST SELF-CALIBRATE — but have NEVER BEEN TAUGHT how
 
 
-  ⭐ HÀM Ý CHO EDUCATION:
+  ⭐ IMPLICATIONS FOR EDUCATION:
 
-    AUTO-CALIBRATION còn: connection tự develop qua xã hội → ít cần dạy explicit
-    AUTO-CALIBRATION vỡ: connection PHẢI được dạy EXPLICIT → connection education = urgent
+    AUTO-CALIBRATION still intact: connection develops through society → less need for explicit teaching
+    AUTO-CALIBRATION broken: connection MUST be taught EXPLICITLY → connection education = urgent
 
-    → Trước: "sống trong cộng đồng → tự biết interact" (auto-calibrate)
-    → Giờ: "sống trong apartment → scroll phone → KHÔNG tự biết interact"
-    → = Connection education = BÙ ĐẮP cho auto-calibration đã mất
+    → Before: "living in a community → naturally knowing how to interact" (auto-calibrate)
+    → Now: "living in apartments → scrolling phones → NOT naturally knowing how to interact"
+    → = Connection education = COMPENSATING for lost auto-calibration
 
-  🟡 "Auto-calibration vỡ" = framework synthesis (Social-Calibration v1.1)
+  🟡 "Auto-calibration breaking" = framework synthesis (Social-Calibration v1.1)
   🟢 Loneliness epidemic (Holt-Lunstad 2015): mortality risk +26%
   🟢 Declining social capital (Putnam 2000): "Bowling Alone"
 ```
 
-### §1.4 — Moral vs Pragmatic — quyết định CÁCH DẠY
+### §1.4 — Moral vs Pragmatic — Determines HOW We Teach
 
 ```
-🟡 PHÂN BIỆT QUYẾT ĐỊNH APPROACH:
+🟡 THIS DISTINCTION DETERMINES THE APPROACH:
 
-  MORAL APPROACH — "phải tốt vì đúng đắn":
-    → Source: PFC rule (Anchor-Schema.md nguồn ④ External Inject)
-    → Khi stress/mệt: MẤT TẠM (PFC offline → rule offline)
-    → = BRIDGE — cần maintain, dễ collapse
-    → = Giáo dục công dân hiện tại: hầu như CHỈ dùng nguồn ④
+  MORAL APPROACH — "must be good because it's right":
+    → Source: PFC rule (Anchor-Schema.md fill source ④ External Inject)
+    → When stressed/tired: TEMPORARILY GONE (PFC offline → rule offline)
+    → = BRIDGE — needs maintenance, easily collapses
+    → = Traditional civic education: almost ONLY uses source ④
 
-  PRAGMATIC APPROACH — "connection tốt = mình pleasant":
-    → Source: body-level understanding (compiled chunks từ experience)
-    → = Anchor-Schema.md nguồn ②③ Experience + Compiled
-    → Khi stress/mệt: VẪN CÒN (body-level, không phụ thuộc PFC)
-    → = INTRINSIC — tự duy trì, không cần ai nhắc
+  PRAGMATIC APPROACH — "good connections = I feel better":
+    → Source: body-level understanding (compiled chunks from experience)
+    → = Anchor-Schema.md fill sources ②③ Experience + Compiled
+    → When stressed/tired: STILL THERE (body-level, doesn't depend on PFC)
+    → = INTRINSIC — self-sustaining, no one needs to remind you
 
-  CẦN CHUYỂN SANG DẠY PRAGMATIC:
-    → Tạo trải nghiệm body FEEL: "cooperation → reward THẬT"
-    → Body tự compile: "connection = SƯỚNG cho mình"
-    → Không cần rule → body TỰ drive
-    → Education-Mechanism.md §3.1: bridge → transition sang nguồn ①②③
+  NEED TO SHIFT TO TEACHING PRAGMATICALLY:
+    → Create experiences where the body FEELS: "cooperation → REAL reward"
+    → Body self-compiles: "connection = feels good for ME"
+    → No rule needed → body DRIVES ITSELF
+    → Education-Mechanism.md §3.1: bridge → transition to fill sources ①②③
 
   🟢 Intrinsic vs extrinsic motivation (Deci & Ryan SDT)
-  🟡 "4 nguồn fill" framing = framework (Anchor-Schema.md §3)
+  🟡 "4 fill sources" framing = framework (Anchor-Schema.md §3)
 ```
 
 ---
 
-## §2 — MECHANISM TÓM TẮT: 3 GENERATIVE PRIMITIVES
+## §2 — MECHANISM SUMMARY: 3 GENERATIVE PRIMITIVES
 
-### §2.1 — 3 Primitives tạo connection
+### §2.1 — 3 Primitives Generate Connection
 
 ```
 ⭐ CONNECTION = ❶ HARDWARE × ❷ SELF-PATTERN-MODELING × ❸ VALENCE:
 
   (Connection.md v5.0 §3 — source-of-truth)
 
-  ❶ × ❷ × ❸ = PREDICT toàn bộ connection behavior.
-  8 pathways = OBSERVABLE level, DERIVE từ 3 primitives.
+  ❶ × ❷ × ❸ = PREDICTS all connection behavior.
+  8 pathways = OBSERVABLE level, DERIVED from 3 primitives.
 
 
   ❶ HARDWARE SOCIAL DRIVE (innate, pre-Self-Pattern-Modeling):
 
-    Body CẦN social presence giống cần food, water, sleep.
-    Hardware drive = INNATE, cross-species, KHÔNG CẦN học.
-    Bé sơ sinh ĐÃ CÓ ❶, CHƯA CÓ ❷.
+    Body NEEDS social presence the way it needs food, water, sleep.
+    Hardware drive = INNATE, cross-species, DOES NOT NEED to be learned.
+    Newborns ALREADY HAVE ❶, DO NOT YET HAVE ❷.
 
     3-CONDITION: MET > UNMET > VIOLATED
       MET (active engagement): body OPTIMAL
-      UNMET (no one present): body DETERIORATE
-      VIOLATED (present but non-contingent): CÓ THỂ TỆ HƠN UNMET
+      UNMET (no one present): body DETERIORATES
+      VIOLATED (present but non-contingent): CAN BE WORSE THAN UNMET
 
     🟢 Social Baseline Theory (Coan 2015)
     🟢 Still Face (Tronick 1978): VIOLATED > UNMET
-    🟢 CT afferent fibers (Löken 2009): hardware cho social touch
+    🟢 CT afferent fibers (Löken 2009): hardware for social touch
 
 
   ❷ SELF-PATTERN-MODELING (learned, chunk-based):
 
-    (Self-Pattern-Modeling.md v3.1 — APPLICATION-1 trên Simulation-Engine)
+    (Self-Pattern-Modeling.md v3.1 — APPLICATION-1 on Simulation-Engine)
 
-    Não dùng chunks CỦA MÌNH làm template simulate NGƯỜI KHÁC.
-    2 Functions song song:
-      Compiled — body fire bản sao yếu trạng thái target (gần vô thức)
-      Fresh — PFC chain predict hành vi target tiếp theo (deliberate)
+    The brain uses OWN chunks as a template to simulate OTHERS.
+    2 Functions in parallel:
+      Compiled — body fires a weak copy of the target's state (near-unconscious)
+      Fresh — PFC chains to predict the target's next behavior (deliberate)
 
-    = CƠ CHẾ CHÍNH tạo connection.
-    = DẠY ĐƯỢC (function learned qua experience, không phải hardware module).
-    = Quality phụ thuộc chunk library quality (Bird & Cook 2013 🟢).
+    = MAIN MECHANISM generating connection.
+    = CAN BE TAUGHT (function learned through experience, not a hardware module).
+    = Quality depends on chunk library quality (Bird & Cook 2013 🟢).
 
-    ⭐ CHO EDUCATION:
-      Self-Pattern-Modeling = SKILL → experience tăng → quality tăng
+    ⭐ FOR EDUCATION:
+      Self-Pattern-Modeling = SKILL → more experience → higher quality
       Self-awareness = UPSTREAM (Bird & Cook 2013)
-      → Dạy MÌNH feel gì TRƯỚC → empathy improves AS SIDE EFFECT
+      → Teach HOW I FEEL FIRST → empathy improves AS A SIDE EFFECT
 
 
   ❸ PER-AGENT VALENCE (compiled evaluation per entity):
 
     (Valence-Propagation.md v3.0)
 
-    Body ĐÁNH GIÁ agent NÀY ảnh hưởng tôi thế nào:
-      Structural valence: stored aggregate — SLOW change
-      Current valence: per-moment activation — FAST change
+    Body EVALUATES how THIS agent affects me:
+      Structural valence: stored aggregate — SLOW to change
+      Current valence: per-moment activation — FAST to change
 
-    ❸ positive → Self-Pattern-Modeling fire empathy
-    ❸ negative → CÙNG mechanism fire Schadenfreude, dehumanization
-    → Empathy và khinh bỉ = CÙNG mechanism, KHÁC valence
+    ❸ positive → Self-Pattern-Modeling fires empathy
+    ❸ negative → SAME mechanism fires Schadenfreude, dehumanization
+    → Empathy and contempt = SAME mechanism, DIFFERENT valence
 
-    ⭐ CHO EDUCATION:
-      Không dạy "phải thương" → mà tạo experience ❸ POSITIVE
-      Body compile approach tag cho connection → TỰ drive
+    ⭐ FOR EDUCATION:
+      Don't teach "you must care about others" → CREATE EXPERIENCES where ❸ IS POSITIVE
+      Body compiles approach tag for connection → DRIVES ITSELF
 
   🟡 3 Generative Primitives = framework synthesis (Connection v5.0 §3)
   🟢 Each primitive individually research-supported
 ```
 
-### §2.2 — Hardware-Subsidy spectrum
+### §2.2 — Hardware-Subsidy Spectrum
 
 ```
 ⭐ HARDWARE-SUBSIDY = ANTI-HABITUATION PER ENTITY:
@@ -435,239 +431,242 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   (Resonance-Per-Entity.md v1.0 §2 — source-of-truth)
 
   VTA habituates to ALL repeated stimuli (Weber-Fechner Law).
-  NHƯNG: evolution cung cấp HARDWARE-SUBSIDY ở MỨC KHÁC NHAU per entity.
-  Hardware-subsidy = mechanism COUNTER habituation, giữ reward baseline.
+  BUT: evolution provides HARDWARE-SUBSIDY at DIFFERENT LEVELS per entity.
+  Hardware-Subsidy = mechanism that COUNTERS habituation, maintains reward baseline.
 
-  ┌────────────────┬──────────────────────────┬────────────────────────────────┐
-  │ Subsidy level  │ Entity type              │ Education implication           │
-  ├────────────────┼──────────────────────────┼────────────────────────────────┤
-  │ MAXIMUM        │ Mẹ → con                │ Bond BỀN DÙ routine →          │
-  │                │ (oxytocin + baby schema   │ "mẹ sẽ không chán con"        │
-  │                │ + synchrony + prolactin)  │ = hardware PROTECT             │
-  ├────────────────┼──────────────────────────┼────────────────────────────────┤
-  │ MODERATE       │ Con → mẹ, kin           │ Kin resilient without contact   │
-  │                │ (attachment scaffold)     │ = hardware scaffold giữ link   │
-  ├────────────────┼──────────────────────────┼────────────────────────────────┤
-  │ TEMPORARY      │ Romantic (limerence)      │ "Yêu say đắm" = phase,       │
-  │                │ (dopamine + NE, 18-36mo)  │ subsidy EXPIRES → test thật   │
-  ├────────────────┼──────────────────────────┼────────────────────────────────┤
-  │ NONE           │ Bạn thân, colleague      │ Friendship CẦN active          │
-  │                │ (general μ-opioid ONLY)   │ maintenance — không tự bền    │
-  └────────────────┴──────────────────────────┴────────────────────────────────┘
+  ┌──────────────┬─────────────────────────────┬───────────────────────────────────┐
+  │ Subsidy level│ Entity type                 │ Education implication             │
+  ├──────────────┼─────────────────────────────┼───────────────────────────────────┤
+  │ MAXIMUM      │ Mother → child              │ Bond DURABLE DESPITE routine →    │
+  │              │ (oxytocin + baby schema     │ "mother won't tire of child"      │
+  │              │ + synchrony + prolactin)    │ = hardware PROTECTS               │
+  ├──────────────┼─────────────────────────────┼───────────────────────────────────┤
+  │ MODERATE     │ Child → parent, kin         │ Kin resilient without contact     │
+  │              │ (attachment scaffold)       │ = hardware scaffold holds link    │
+  ├──────────────┼─────────────────────────────┼───────────────────────────────────┤
+  │ TEMPORARY    │ Romantic (limerence)        │ "Intense love" = a phase,         │
+  │              │ (dopamine + NE, 18–36mo)    │ subsidy EXPIRES → true test       │
+  ├──────────────┼─────────────────────────────┼───────────────────────────────────┤
+  │ NONE         │ Close friends, colleagues   │ Friendship REQUIRES active        │
+  │              │ (general μ-opioid ONLY)     │ maintenance — not self-sustaining │
+  └──────────────┴─────────────────────────────┴───────────────────────────────────┘
 
   ⭐ SUBSIDY ≠ QUALITY:
-    Mẹ→con: HIGH subsidy + MEDIUM resonance quality (asymmetric)
-    Bạn thân: ZERO subsidy + potentially HIGH resonance quality (genuine match)
-    → Subsidy = SUSTAINABILITY insurance, NOT quality indicator
+    Mother→child: HIGH subsidy + MEDIUM resonance quality (asymmetric)
+    Close friend: ZERO subsidy + potentially HIGH resonance quality (genuine match)
+    → Subsidy = SUSTAINABILITY insurance, NOT a quality indicator
     → Friendship = PUREST test (zero subsidy + easy exit → only genuine match sustains)
 
-  ⭐ CHO EDUCATION:
-    Dạy trẻ HIỂU tại sao friendship cần đầu tư (no subsidy)
-    Dạy teen HIỂU "hết lửa" = temporary subsidy expired (BÌNH THƯỜNG)
-    Dạy parent: bond với con KHÔNG cần worry (max subsidy PROTECT)
+  ⭐ FOR EDUCATION:
+    Teach children WHY friendship needs investment (no subsidy)
+    Teach teens "the fire fading" = temporary subsidy expired (NORMAL)
+    Teach parents: bond with child doesn't need worrying about (max subsidy PROTECTS)
 
   🟡 Hardware-Subsidy spectrum = framework synthesis
-  🟢 Each entity neurochemistry independently established
+  🟢 Each entity's neurochemistry independently established
 ```
 
-### §2.3 — Bond formation: 40→200h
+### §2.3 — Bond Formation: 40→200 Hours
 
 ```
-🟢 BOND FORMATION = COMPILE CYCLES, KHÔNG PHẢI "DUYÊN SỐ":
+🟢 BOND FORMATION = COMPILE CYCLES, NOT "DESTINY":
 
   (Entity-Compiled.md v1.0 §3 — source-of-truth)
 
   🟢 Hall 2018 (N=355):
-    40-60 giờ shared activity  → casual friend
-    80-100 giờ                 → friend
-    200+ giờ                   → close/best friend
+    40–60 hours shared activity   → casual friend
+    80–100 hours                  → friend
+    200+ hours                    → close/best friend
 
-  NHƯNG: ACTIVE shared activity counts.
+  BUT: ACTIVE shared activity counts.
     Active (hiking, games, deep conversation) = HIGH compile cycles per hour
-    Passive co-presence (cùng lớp, cùng office) = LOW compile cycles per hour
+    Passive co-presence (same class, same office) = LOW compile cycles per hour
     Text/social media ≈ ZERO contribution
 
-  → "Giờ" = proxy cho SỐ LẦN Self-Pattern-Modeling PREDICT thành công
-  → KHÔNG phải "quen lâu" → mà "TƯƠNG TÁC SÂU đủ lâu"
+  → "Hours" = proxy for NUMBER OF TIMES Self-Pattern-Modeling PREDICTS SUCCESSFULLY
+  → NOT "known for a long time" → but "INTERACTED DEEPLY long enough"
   → Sleep = compiler (hippocampus → neocortex transfer — Diekelmann & Born 2010 🟢)
-  → Mất ngủ → bond formation CHẬM
+  → Sleep deprivation → bond formation SLOWS
 
   NON-LINEAR ACCELERATION:
-    0-40h: chưa có person-schema → consolidation CHẬM
-    ~40-60h: schema forms → Tse effect (48h instead of weeks — Tse 2007 🟢)
-    200+h: new data assimilate GẦN NHƯ instantly
-    → "Hiểu nhau không cần nói" = schema predict TRƯỚC input
+    0–40h: no person-schema yet → consolidation SLOW
+    ~40–60h: schema forms → Tse effect (48h instead of weeks — Tse 2007 🟢)
+    200+h: new data assimilates NEARLY instantly
+    → "Understanding each other without words" = schema predicts BEFORE input
 
-  NEURAL COMPATIBILITY ("hợp tính"):
+  NEURAL COMPATIBILITY ("natural affinity"):
     🟢 Parkinson 2018: close friends → similar neural responses
-    🟢 Parkinson 2025: PRE-EXISTING neural similarity predict friendship
+    🟢 Parkinson 2025: PRE-EXISTING neural similarity predicts friendship
     → Pre-existing chunk overlap → Self-Pattern-Modeling accurate sooner → compile faster
 
-  ⭐ CHO EDUCATION:
-    Bond CẦN THỜI GIAN THẬT — không có shortcut
-    "Team building 1 buổi" ≠ bond formation
-    Thiết kế: tạo cơ hội ACTIVE shared activity LẶP LẠI qua tháng/năm
-    Diverse exposure: mở rộng matching range (cross-group interaction)
+  ⭐ FOR EDUCATION:
+    Bonds NEED REAL TIME — no shortcut
+    "Team building in one session" ≠ bond formation
+    Design: create opportunities for ACTIVE shared activity REPEATED over months/years
+    Diverse exposure: expand matching range (cross-group interaction)
 ```
 
-### §2.4 — Resonance: khi connection THẬT emerge
+### §2.4 — Resonance: When TRUE Connection Emerges
 
 ```
-🟡 RESONANCE = KHI CẢ 2 PHÍA Self-Pattern-Modeling CO-FIRE THÀNH CÔNG:
+🟡 RESONANCE = WHEN BOTH Self-Pattern-Modeling SYSTEMS CO-FIRE SUCCESSFULLY:
 
   (By-Product-Gap-Resonance.md v1.4 §1)
 
-  Self-Pattern-Modeling = solo mechanism (MỖI NGƯỜI TỰ chạy)
-  Resonance = khi CẢ HAI Self-Pattern-Modeling co-fire → connection THẬT
+  Self-Pattern-Modeling = solo mechanism (EACH PERSON runs INDEPENDENTLY)
+  Resonance = when BOTH Self-Pattern-Modeling systems co-fire → TRUE connection
 
-  4 ĐIỀU KIỆN CẦN ĐỒNG THỜI:
-    ① Cả 2 phía running Self-Pattern-Modeling toward nhau
-    ② Feedback channel có (face-to-face richest)
-    ③ Patterns match (tương đồng đủ — "hợp tính")
-    ④ Thời gian đủ (không instant — 40→200h)
+  4 CONDITIONS REQUIRED SIMULTANEOUSLY:
+    ① Both sides running Self-Pattern-Modeling toward each other
+    ② Feedback channel available (face-to-face richest)
+    ③ Patterns match (sufficient compatibility — "natural affinity")
+    ④ Enough time (not instant — 40→200h)
 
-  THIẾU 1 = KHÔNG CÓ connection thật.
-  → "Có bạn nhưng không thân" (thiếu ③④)
-  → Online < face-to-face (thiếu feedback richness ②)
+  MISSING 1 = NO REAL connection.
+  → "Have friends but not close" (missing ③④)
+  → Online < face-to-face (missing feedback richness ②)
 
-  CALIBRATION LOOP — connection DEEPENS QUA THỜI GIAN:
-    A fire Self-Pattern-Modeling on B → interaction → outcome observed →
-    Self-Pattern-Modeling library UPDATE → next Self-Pattern-Modeling more accurate →
+  CALIBRATION LOOP — connection DEEPENS OVER TIME:
+    A fires Self-Pattern-Modeling on B → interaction → outcome observed →
+    Self-Pattern-Modeling library UPDATES → next Self-Pattern-Modeling more accurate →
     connection DEEPENS
 
-  ⭐ CHO EDUCATION:
-    ① Tạo cơ hội tương tác SÂU (không chỉ surface chào hỏi)
+  ⭐ FOR EDUCATION:
+    ① Create opportunities for DEEP interaction (not just surface greetings)
     ② Face-to-face interaction (richest feedback channel)
-    ③ Đủ THỜI GIAN để resonance emerge
-    ④ Diverse contexts → Self-Pattern-Modeling calibrate ở NHIỀU tình huống
+    ③ Enough TIME for resonance to emerge
+    ④ Diverse contexts → Self-Pattern-Modeling calibrates across MANY situations
 
   🟡 "4 conditions" = framework synthesis (By-Product-Gap-Resonance v1.4)
   🟢 Perspective-taking practice → empathy improvement (Lutz 2008)
 ```
 
-### §2.5 — Self-Observation: Nền Tảng Cho Toàn Bộ Social Interaction
+### §2.5 — Self-Observation: Foundation for All 5 Pillars
 
 ```
-⭐⭐ SELF-OBSERVATION = PREREQUISITE CHO TẤT CẢ 5 TRỤ CỘT:
+⭐⭐ SELF-OBSERVATION = PREREQUISITE FOR ALL 5 PILLARS:
 
   (Self-Observation.md v1.0 — source-of-truth)
 
   Self-Observation = f(Interoception × PFC_Encoding × Attention_Direction=SELF)
-  = Feeling khi target = SELF (body-state, emotional state, thought pattern)
-  = APPLICATION-3 trên Simulation-Engine: (Self, Present, Observe)
+  = Feeling when the target = SELF (body-state, emotional state, thought pattern)
+  = APPLICATION-3 on Simulation-Engine: (Self, Present, Observe)
 
-  §3.2 ĐÃ NÊU: "self-awareness = upstream prerequisite cho empathy"
-  Self-Observation.md v1.0 FORMALIZE "self-awareness" thành gradient CÓ THỂ DẠY:
-    → Self-awareness (§3.2) = Self-Observation Mức 2+ development
+  §3.2 ALREADY STATED: "self-awareness = upstream prerequisite for empathy"
+  Self-Observation.md v1.0 FORMALIZES "self-awareness" into a teachable gradient:
+    → Self-awareness (§3.2) = Self-Observation Level 2+ development
     → Self-chunks = Compiled Body-Knowing Inward (Self-Observation §1.3)
-    → Gradient Mức 0-6 cho phép MATCH social skill target với capacity hiện tại
+    → Gradient Level 0–6 allows MATCHING social skill target to current capacity
 
 
-  ⭐ KEYSTONE PROPERTY — FAIL → CASCADE TẤT CẢ 5 TRỤ:
+  ⭐ KEYSTONE PROPERTY — FAILURE → CASCADES ALL 5 PILLARS:
 
     (Self-Observation.md v1.0 §7.1)
 
     Self-Observation LOW
         ↓
-        ├→ Self-Pattern-Modeling FAIL (Step 5 BIRD & COOK 🟢)
-        │     → "không biết NGƯỜI KHÁC feel gì"
-        │     → Pillar ① (Hiểu người khác) = BROKEN
+        ├→ Self-Pattern-Modeling FAILS (Step 5 BIRD & COOK 🟢)
+        │     → "can't know what OTHERS are feeling"
+        │     → Pillar ① (Understanding others) = BROKEN
         │
-        ├→ Trust calibration FAIL
-        │     → Cần Mức 3+ để detect "entity này tin được không?"
+        ├→ Trust calibration FAILS
+        │     → Need Level 3+ to detect "is this entity trustworthy?"
         │       (body signal mismatch = trust data)
-        │     → Pillar ③ (Chọn relationships) = IMPAIRED
+        │     → Pillar ③ (Choosing relationships) = IMPAIRED
         │
         ├→ Compiled-Suppress INVISIBLE
-        │     → Không biết "mình đang suppress drives vì bạn"
-        │     → Pillar ④ (Duy trì) = decay KHÔNG detect
+        │     → Can't know "I'm suppressing my own drives for this relationship"
+        │     → Pillar ④ (Sustaining) = decay UNDETECTED
         │
-        ├→ Dual Check body-arm FAIL
-        │     → Không feel "something's off" trong group dynamics
-        │     → Pillar ⑤ (Navigate groups) = vulnerable to dominance
+        ├→ Dual Check body-arm FAILS
+        │     → Can't feel "something's off" in group dynamics
+        │     → Pillar ⑤ (Navigating groups) = vulnerable to dominance
         │
-        └→ Bond quality monitoring FAIL
-              → Không biết "connection này TỐT hay ĐANG PHAI"
-              → Pillar ② (Xây dựng) = build BLIND
+        └→ Bond quality monitoring FAILS
+              → Can't tell "is this connection GOOD or FADING"
+              → Pillar ② (Building) = building BLIND
 
-    → 1 KEYSTONE fail → TẤT CẢ 5 trụ bị ảnh hưởng
-    → Connection education BẮT BUỘC phải include Self-Observation development
-
-
-  ⭐ SELF-OBSERVATION MỨC × SOCIAL SKILL CEILING:
-
-    (Self-Observation.md v1.0 §4 — Gradient Mức 0-6)
-
-    ┌────────────┬──────────────┬─────────────────────────────────────────┐
-    │ Tuổi       │ Mức          │ Social skill ceiling                    │
-    │            │ (capacity)   │                                         │
-    ├────────────┼──────────────┼─────────────────────────────────────────┤
-    │ 0-3        │ Mức 0-2      │ Basic emotion recognition CHỈ.          │
-    │            │ (emerging)   │ Empathy = CHƯA CÓ (chưa template).     │
-    ├────────────┼──────────────┼─────────────────────────────────────────┤
-    │ 3-6        │ Mức 2-3      │ Predict own reactions bắt đầu.          │
-    │            │ (basic)      │ Early empathy: Self-Pattern-Modeling     │
-    │            │              │ ONLINE → template cho others.            │
-    ├────────────┼──────────────┼─────────────────────────────────────────┤
-    │ 6-12       │ Mức 3-4      │ Pattern observation emerging.            │
-    │            │ (developing) │ "Mình hay giận khi thua" = Mức 4.       │
-    │            │              │ Relationship patterns: observable.       │
-    │            │              │ Trust calibration BẮT ĐẦU (basic).     │
-    ├────────────┼──────────────┼─────────────────────────────────────────┤
-    │ 12-18      │ Mức 4-5      │ Meta-observe POSSIBLE nhưng             │
-    │            │ (TEEN        │ vmPFC chưa connect → CAN observe,       │
-    │            │ PARADOX)     │ CAN'T regulate (🟢 Casey 2008).         │
-    │            │              │ Trust calibration per-domain ACTIVE.    │
-    └────────────┴──────────────┴─────────────────────────────────────────┘
-
-    ⭐ KHÔNG THỂ NHẢY BƯỚC:
-      → Dạy "empathy" cho Mức 0-1 = VÔ NGHĨA (chưa template)
-      → Dạy "chọn bạn" cho Mức 2 = QUÁ SỚM (chưa pattern observe)
-      → Dạy "meta-connection" cho Mức 3 = QUÁ SỚM (chưa meta-observe)
-      → PHẢI match skill target với Mức capacity hiện tại
+    → 1 KEYSTONE fails → ALL 5 pillars affected
+    → Connection education MUST include Self-Observation development
 
 
-  ⭐ EXTERNAL SCAFFOLD CHO SOCIAL SELF-OBSERVATION:
+  ⭐ SELF-OBSERVATION LEVEL × SOCIAL SKILL CEILING:
+
+    (Self-Observation.md v1.0 §4 — Gradient Level 0–6)
+
+    ┌───────────┬────────────────┬───────────────────────────────────────────┐
+    │ Age       │ Level          │ Social skill ceiling                      │
+    │           │ (capacity)     │                                           │
+    ├───────────┼────────────────┼───────────────────────────────────────────┤
+    │ 0–3       │ Level 0–2      │ Basic emotion recognition ONLY.           │
+    │           │ (emerging)     │ Empathy = NOT YET (no template yet).      │
+    ├───────────┼────────────────┼───────────────────────────────────────────┤
+    │ 3–6       │ Level 2–3      │ Predicting own reactions begins.          │
+    │           │ (basic)        │ Early empathy: Self-Pattern-Modeling       │
+    │           │                │ ONLINE → template for others.              │
+    ├───────────┼────────────────┼───────────────────────────────────────────┤
+    │ 6–12      │ Level 3–4      │ Pattern observation emerging.             │
+    │           │ (developing)   │ "I tend to get angry when I lose" = L4.   │
+    │           │                │ Relationship patterns: observable.         │
+    │           │                │ Trust calibration BEGINNING (basic).      │
+    ├───────────┼────────────────┼───────────────────────────────────────────┤
+    │ 12–18     │ Level 4–5      │ Meta-observe POSSIBLE but               │
+    │           │ (TEEN          │ vmPFC not yet connected → CAN observe,    │
+    │           │ PARADOX)       │ CAN'T regulate from observation           │
+    │           │                │ (🟢 Casey 2008).                         │
+    │           │                │ Trust calibration per-domain ACTIVE.     │
+    └───────────┴────────────────┴───────────────────────────────────────────┘
+
+    ⭐ CANNOT SKIP LEVELS:
+      → Teaching "empathy" to Level 0–1 = MEANINGLESS (no template yet)
+      → Teaching "choosing friends" to Level 2 = TOO EARLY (no pattern observation)
+      → Teaching "meta-connection" to Level 3 = TOO EARLY (no meta-observe)
+      → MUST match skill target to current level capacity
+
+
+  ⭐ EXTERNAL SCAFFOLD FOR SOCIAL SELF-OBSERVATION:
 
     (Self-Observation.md v1.0 §6.2: Caregiver = ON/OFF switch)
 
-    Teacher/Parent = External Scaffold giúp nâng Mức:
+    Teacher/Parent = External Scaffold to raise the Level:
 
-    ┌──────────────────────────────────┬──────────────────────────────────┐
-    │ Scaffold prompt                  │ Target Mức                       │
-    ├──────────────────────────────────┼──────────────────────────────────┤
-    │ "Con đang đói/mệt/buồn?"       │ Mức 2: label body-state          │
-    │ (label cho trẻ)                 │ = Foundation cho TẤT CẢ sau     │
-    ├──────────────────────────────────┼──────────────────────────────────┤
-    │ "Chút nữa con sẽ feel gì?"     │ Mức 3: predict own state         │
-    │ (predict future self)           │ = Nền cho empathy predict other │
-    ├──────────────────────────────────┼──────────────────────────────────┤
-    │ "Con có hay feel X khi Y?"      │ Mức 4: pattern recognition       │
-    │ (cross-situation pattern)       │ = Nền cho relationship patterns │
-    ├──────────────────────────────────┼──────────────────────────────────┤
-    │ "Con giận bạn hay giận VÌ       │ Mức 5: meta-observe              │
-    │ chuyện khác?" (observe own obs.)│ = Deep social calibration       │
-    └──────────────────────────────────┴──────────────────────────────────┘
+    ┌─────────────────────────────────┬──────────────────────────────────┐
+    │ Scaffold prompt                 │ Target Level                     │
+    ├─────────────────────────────────┼──────────────────────────────────┤
+    │ "Are you hungry/tired/sad?"     │ Level 2: label body-state        │
+    │ (label for the child)           │ = Foundation for EVERYTHING else │
+    ├─────────────────────────────────┼──────────────────────────────────┤
+    │ "How will you feel in a moment?"│ Level 3: predict own state       │
+    │ (predict future self)           │ = Foundation for predicting other│
+    ├─────────────────────────────────┼──────────────────────────────────┤
+    │ "Do you often feel X when Y?"   │ Level 4: pattern recognition     │
+    │ (cross-situation pattern)       │ = Foundation for relationship    │
+    │                                 │   patterns                       │
+    ├─────────────────────────────────┼──────────────────────────────────┤
+    │ "Are you angry at your friend   │ Level 5: meta-observe            │
+    │ or angry ABOUT something else?" │ = Deep social calibration        │
+    │ (observe own observation)       │                                  │
+    └─────────────────────────────────┴──────────────────────────────────┘
 
     CAREGIVER RESPONSIVE = ON SWITCH (Self-Observation §6.2):
-      → Baby cry → respond → "signal của tôi có ý nghĩa" → Mức 2 EMERGE
-      → Baby cry → NO response → "signal vô ích" → Mức 2 BLOCKED
-      → = §3.2 chain bắt đầu ở ĐÂY: caregiver switch ON → Self-Observation develop
+      → Baby cries → respond → "my signal matters" → Level 2 EMERGES
+      → Baby cries → NO response → "signal is useless" → Level 2 BLOCKED
+      → = §3.2 chain starts HERE: caregiver turns switch ON → Self-Observation develops
 
 
   ⚠️ COMPILED QUALITY WARNING:
 
     (Self-Observation.md v1.0 §9: Tool Not Virtue)
 
-    HOW social education is taught = WHAT child can socially observe:
-      Dạy bằng rule (nguồn ④):
-        → Child compile "social = rules to follow"
-        → Self-Observation hướng "mình có đúng rule?" (Compiled Threat)
-      Dạy bằng experience (nguồn ②③):
-        → Child compile "social = body signals to read"
-        → Self-Observation hướng "mình FEEL gì?" (Compiled Genuine)
-    → Compiled Quality (PFC-Operations §8) quyết định CHO social domain
-    → = Thêm 1 lý do connection education phải experience-based (§1.4)
+    HOW social education is taught = WHAT the child can socially observe:
+      Taught via rule (fill source ④):
+        → Child compiles "social = rules to follow"
+        → Self-Observation directed at "am I following the rules correctly?" (Compiled Threat)
+      Taught via experience (fill sources ②③):
+        → Child compiles "social = body signals to read"
+        → Self-Observation directed at "what do I FEEL?" (Compiled Genuine)
+    → Compiled Quality (PFC-Operations §8) determines outcome FOR social domain
+    → = Another reason connection education must be experience-based (§1.4)
 
   🟡 Self-Observation as social skills keystone = framework synthesis
   🟢 Alexithymia-empathy: Bird & Cook 2013
@@ -678,463 +677,463 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §3 — HIỂU NGƯỜI KHÁC — EMPATHY EDUCATION
+## §3 — UNDERSTANDING OTHERS — EMPATHY EDUCATION
 
-### §3.1 — Self-Pattern-Modeling = function, NOT mirror module → DẠY ĐƯỢC
+### §3.1 — Self-Pattern-Modeling = Function, NOT Mirror Module → TEACHABLE
 
 ```
-⭐ REDEFINE NÀY THAY ĐỔI APPROACH GIÁO DỤC:
+⭐ THIS REDEFINITION CHANGES THE EDUCATIONAL APPROACH:
 
   (Empathy.md v3.0 §1, Self-Pattern-Modeling.md v3.1)
 
-  ❌ Mirror module claim → "empathy = bẩm sinh, dạy không ảnh hưởng nhiều"
-  ✅ Self-Pattern-Modeling function → "empathy = SKILL build từ chunk library → DẠY ĐƯỢC"
+  ❌ Mirror module claim → "empathy = innate, teaching doesn't help much"
+  ✅ Self-Pattern-Modeling function → "empathy = SKILL built from chunk library → TEACHABLE"
 
-  CƠ CHẾ:
-    Não dùng chunks CỦA MÌNH làm template
-    → simulate trạng thái NGƯỜI KHÁC
-    → body MÌNH fire bản sao — intensity BIẾN THIÊN
-    → PFC observe simulation output
-    → "feeling about other's state"
+  MECHANISM:
+    Brain uses OWN chunks as a template
+    → simulates the state of OTHERS
+    → OWN body fires a copy — intensity VARIES
+    → PFC observes simulation output
+    → "feeling about the other's state"
 
-  KHÔNG PHẢI:
-    ✗ Hardware "mirror neuron" module chuyên biệt
-      (Empathy.md v3.0 §1.2: BÁC BỎ — Heyes alignment, Bird & Cook 2013 🟢)
-    ✗ Bẩm sinh hoàn chỉnh từ sinh (cần chunks tích lũy)
-    ✗ Chỉ dành cho agent-reading (Self-Pattern-Modeling = general-purpose)
+  IS NOT:
+    ✗ Hardware "mirror neuron" module — specialized
+      (Empathy.md v3.0 §1.2: REFUTED — Heyes alignment, Bird & Cook 2013 🟢)
+    ✗ Fully innate from birth (requires accumulated chunks)
+    ✗ Only for agent-reading (Self-Pattern-Modeling = general-purpose)
 
-  LÀ:
-    ○ APPLICATION-1 trên Simulation-Engine (shared engine với Imagine-Final)
-    ○ Compiled (body-level) + Fresh (PFC chain) = 2 functions SONG SONG
-    ○ Learned qua experience (cần interaction data × time)
-    ○ Quality phụ thuộc chunk library quality
+  IS:
+    ○ APPLICATION-1 on Simulation-Engine (shared engine with Imagine-Final)
+    ○ Compiled (body-level) + Fresh (PFC chain) = 2 functions in PARALLEL
+    ○ Learned through experience (needs interaction data × time)
+    ○ Quality depends on chunk library quality
 
-  → = Không phải "ai có mirror neurons mạnh thì empathy"
-  → = MÀ "ai có chunk library phong phú thì empathy"
-  → = Chunk library build qua EXPERIENCE → education CÓ THỂ cung cấp experience
+  → = NOT "whoever has strong mirror neurons has empathy"
+  → = BUT "whoever has a rich chunk library has empathy"
+  → = Chunk library built through EXPERIENCE → education CAN PROVIDE experiences
 
-  🟢 Bird & Cook 2013: alexithymia, NOT autism per se, underpins deficits
+  🟢 Bird & Cook 2013: alexithymia, NOT autism per se, underlies deficits
   🟡 Self-Pattern-Modeling as Simulation-Engine APPLICATION = framework synthesis
 ```
 
-### §3.2 — Self-awareness = upstream prerequisite
+### §3.2 — Self-Awareness = Upstream Prerequisite
 
 ```
-⭐ "DẠY CON FEEL GÌ" TRƯỚC → EMPATHY IMPROVES AS SIDE EFFECT:
+⭐ "TEACH CHILDREN HOW THEY FEEL" FIRST → EMPATHY IMPROVES AS A SIDE EFFECT:
 
   (Self-Pattern-Modeling.md v3.1 §1, Bird & Cook 2013 🟢)
 
-  CHUỖI PREREQUISITE — KHÔNG THỂ NHẢY BƯỚC:
+  PREREQUISITE CHAIN — CANNOT SKIP ANY STEP:
 
-    Contingent caregiving (responsive, nhất quán)
+    Contingent caregiving (responsive, consistent)
       ↓
-    Caregiving LABEL ("con đói", "con mệt", "con sợ")
+    Caregiving LABELING ("you're hungry," "you're tired," "you're scared")
       ↓
-    Feeling fidelity tăng (phân biệt states rõ dần)
+    Feeling fidelity increases (distinguishing states more clearly)
       ↓
-    Self-chunk formation (body states PHÂN BIỆT ĐƯỢC)
+    Self-chunk formation (body states DISTINGUISHABLE)
       ↓
-    Self-awareness (rouge test 18-24 tháng)
+    Self-awareness (mirror test 18–24 months)
       ↓
-    Templates available (self-chunks = template cho Self-Pattern-Modeling)
+    Templates available (self-chunks = template for Self-Pattern-Modeling)
       ↓
-    Self-Pattern-Modeling fires on others → EMPATHY EMERGE
+    Self-Pattern-Modeling fires on others → EMPATHY EMERGES
 
-  ⭐ SKIP BẤT KỲ BƯỚC NÀO = CEILING cho bước sau.
+  ⭐ SKIP ANY STEP = CEILING for the next step.
 
-  VD — SKIP CAREGIVING LABEL:
-    Mẹ responsive nhưng KHÔNG label ("ôm cho nín, không nói tại sao"):
-    → Self-chunks THÔ ("khó chịu chung" thay vì "buồn/sợ/mệt")
-    → Self-Pattern-Modeling template THÔ → empathy CÓ nhưng SHALLOW
+  EXAMPLE — SKIP CAREGIVING LABELING:
+    Parent responsive but DOESN'T LABEL ("hug until quiet, doesn't say why"):
+    → Self-chunks COARSE ("general discomfort" instead of "sad/scared/tired")
+    → Self-Pattern-Modeling template COARSE → empathy EXISTS but SHALLOW
 
-  ⭐ CHO EDUCATION:
-    "Con đang feel gì?" TRƯỚC → rồi "Bạn đang feel gì?"
-    Build SELF-CHUNKS trước → empathy improves AS SIDE EFFECT
+  ⭐ FOR EDUCATION:
+    "How are you feeling?" FIRST → then "How is your friend feeling?"
+    Build SELF-CHUNKS first → empathy improves AS A SIDE EFFECT
 
   🟢 Bird & Cook 2013: self-awareness UPSTREAM of empathy (decisive)
   🟢 Romanian orphanage: minimal caregiving → persistent social deficits
-  🟢 Amsterdam 1972: rouge test 18-24m = self-other distinction
+  🟢 Amsterdam 1972: mirror test 18–24m = self-other distinction
 ```
 
-### §3.3 — Connection drive INNATE — vấn đề là ĐỪNG PHÁ
+### §3.3 — Connection Drive Is INNATE — The Goal Is: DON'T DAMAGE IT
 
 ```
-🟡 INSIGHT THAY ĐỔI CÁCH NGHĨ VỀ CONNECTION EDUCATION:
+🟡 INSIGHT THAT CHANGES HOW WE THINK ABOUT CONNECTION EDUCATION:
 
-  ❌ "Phải DẠY connection cho trẻ" (tạo từ zero)
-  ✅ "Connection drive ĐÃ CÓ SẴN — vấn đề là đừng PHÁ nó"
+  ❌ "We must TEACH children connection" (create from zero)
+  ✅ "Connection drive ALREADY EXISTS — the goal is don't DAMAGE it"
 
   Connection drive = INNATE (Connection.md v5.0 §3.1):
-    Trẻ sơ sinh: connection drive = MAX (sống chết phụ thuộc người khác)
-    Trẻ sinh ra ĐÃ muốn: ôm, nhìn mắt, nghe giọng, được respond
+    Newborns: connection drive = MAX (life depends on others)
+    Children are born WANTING: hugs, eye contact, voices, being responded to
 
   Analogy:
-    Ngôn ngữ: brain SẴN SÀNG learn → chỉ cần EXPOSURE → tự develop
-    Connection: brain SẴN SÀNG connect → chỉ cần CONNECTION → tự develop
+    Language: brain READY to learn → just needs EXPOSURE → develops naturally
+    Connection: brain READY to connect → just needs CONNECTION → develops naturally
 
-  NẾU ĐƯỢC ĐÁP ỨNG:
-    → Body compile: "connection = safe, pleasant, đáng tin"
-    → Trẻ TỰ share, TỰ quan tâm, TỰ đau khi bạn đau
-    → = Rừng ĐANG XANH — chỉ cần không đốt
+  IF SUPPORTED:
+    → Body compiles: "connection = safe, pleasant, trustworthy"
+    → Children NATURALLY share, NATURALLY care, NATURALLY hurt when friends hurt
+    → = A forest ALREADY GROWING — just don't burn it down
 
-  NẾU BỊ PHÁ:
-    → Body compile: "connection = nguy hiểm, đau, không đáng tin"
-    → Connection drive BỊ SUPPRESS — không phải MẤT, mà BỊ CHẶN
-    → = Rừng bị đốt — phải TRỒNG LẠI (khó hơn nhiều)
+  IF DAMAGED:
+    → Body compiles: "connection = dangerous, painful, untrustworthy"
+    → Connection drive IS SUPPRESSED — not lost, but BLOCKED
+    → = Forest burned down — must REPLANT (much harder)
 
 
   ⭐ TYPE 3 IMPOSED ADULT THREATS = PRIMARY DAMAGE SOURCE:
     (Threat.md §5.5)
 
-    4 pattern phá connection drive:
-      Bỏ mặc: "kêu cũng không ai tới → connection = vô ích"
-      Bạo lực TỪ NGƯỜI THÂN: "người gần nhất = nguồn đau"
-      Reject cảm xúc ("con trai không được khóc"): "express = bị phạt"
-      Shame ("sao con ngu thế"): "là mình = bị phạt → hide self"
+    4 patterns that damage the connection drive:
+      Abandonment: "calling doesn't bring anyone → connection = useless"
+      Violence FROM CLOSE ONES: "the nearest person = source of pain"
+      Emotion rejection ("boys don't cry"): "expressing = punished"
+      Shame ("why are you so stupid"): "being yourself = punished → hide self"
 
-    → Parent = primary Valence-Structural source ĐỒNG THỜI = threat source
-    → Trẻ không có "safe harbor" để recover
-    → CONNECTION EDUCATION SỐ 1 = BẢO VỆ connection drive ĐÃ CÓ SẴN
+    → Parent = primary Valence-Structural source IS SIMULTANEOUSLY a threat source
+    → Child has no "safe harbor" to recover
+    → CONNECTION EDUCATION #1 = PROTECT the connection drive ALREADY PRESENT
 
 
-  ⭐ TRUST DIMENSION — PHÁ CONNECTION = PHÁ TRUST:
+  ⭐ TRUST DIMENSION — DAMAGING CONNECTION = DAMAGING TRUST:
 
-    (Trust.md v1.0 §4: build chậm, collapse nhanh)
+    (Trust.md v1.0 §4: builds slow, collapses fast)
 
-    4 pattern trên ĐỒNG THỜI PHÁ TRUST:
-      Bỏ mặc: trust install FAIL (no data points = no reliability prediction)
-      Bạo lực từ người thân: trust COLLAPSE (1 betrayal override months of positive)
-      Reject cảm xúc: trust-intention DROP ("mẹ KHÔNG muốn tốt cho cảm xúc mình")
-      Shame: trust-intention + Self-Observation CÙNG bị damage
+    The 4 patterns SIMULTANEOUSLY DAMAGE TRUST:
+      Abandonment: trust install FAILS (no data points = no reliability prediction)
+      Violence from close ones: trust COLLAPSES (1 betrayal overrides months of positive)
+      Emotion rejection: trust-intention DROPS ("parent does NOT want good for my emotions")
+      Shame: trust-intention + Self-Observation BOTH damaged simultaneously
 
-    Trust.md §4: build MONTHS, collapse SECONDS.
-    → BẢO VỆ connection drive = ĐỒNG THỜI bảo vệ trust formation
-    → Phá 1 = phá CẢ HAI → damage COMPOUND
+    Trust.md §4: builds MONTHS, collapses in SECONDS.
+    → PROTECTING the connection drive = SIMULTANEOUSLY protecting trust formation
+    → Damaging 1 = damaging BOTH → damage COMPOUNDS
 
   🟢 Attachment theory (Bowlby 1969): secure attachment → prosocial
-  🟢 Still Face (Tronick 1978): trẻ distress khi connection bị cắt
+  🟢 Still Face (Tronick 1978): children distressed when connection is cut
   🟢 Social pain = physical pain (Eisenberger 2003)
   🟢 Authority-based shame most damaging (Slavich 2010)
 ```
 
-### §3.4 — 1 Anchor Person = đủ
+### §3.4 — 1 Anchor Person = Enough
 
 ```
-🟡🔴 KHÔNG CẦN CẢ MÔI TRƯỜNG — CHỈ CẦN 1 MỐI QUAN HỆ THẬT.
+🟡🔴 DOESN'T NEED A WHOLE ENVIRONMENT — JUST 1 REAL RELATIONSHIP.
 
   🟢 Resilience research (Werner 1989, Masten 2001):
-    Trẻ trong hoàn cảnh tệ nhất (nghèo, bạo lực, bỏ rơi)
-    → NẾU có 1 NGƯỜI LỚN caring = protective factor MẠNH NHẤT
-    → 1 bà ngoại yêu thương = ĐỦ seed connection
-    → 1 cô giáo quan tâm THẬT = ĐỦ seed connection
+    Children in the worst circumstances (poverty, violence, abandonment)
+    → IF there is 1 CARING ADULT = the strongest protective factor
+    → 1 loving grandmother = ENOUGH to seed connection
+    → 1 genuinely caring teacher = ENOUGH to seed connection
 
   "ANCHOR PERSON" = ANCHOR-SCHEMA MECHANISM:
     (Anchor-Schema.md §3)
     1 CARING ADULT consistent = SINGLE SUFFICIENT SOURCE:
-      Fill nguồn ②: mỗi interaction warm = 1 episodic memory
-      Fill nguồn ③: sau đủ experience → compile "có người reliable"
-      Nguồn ① develop later: anchor person → role model → internalize values
+      Fill source ②: each warm interaction = 1 episodic memory
+      Fill source ③: after enough experience → compile "someone reliable exists"
+      Source ① develops later: anchor person → role model → internalize values
 
-  3 ĐIỀU KIỆN:
-    ① CONSISTENT (1 người luôn có > 5 người thỉnh thoảng)
-    ② BODY-LEVEL WARMTH (body warm + ít lời = sufficient)
+  3 CONDITIONS:
+    ① CONSISTENT (1 person always there > 5 people occasionally)
+    ② BODY-LEVEL WARMTH (body warmth + few words = sufficient)
     ③ REPAIR WHEN BROKEN (rupture + repair > no rupture)
 
-  ⭐ ANCHOR PERSON = TRUST BUILD SÂU (Trust.md v1.0 §2-§3):
-    → Consistent interaction = Trust nguồn ① (direct experience, chính xác nhất)
-    → Warm moments = Trust nguồn ④ (peak experience: "được ôm khi khóc")
-    → 5-nguồn trust depth: 1 anchor person provide ①②④ = trust DEEP
-    → = Tại sao "1 bà ngoại" = ĐỦ: trust DEEP dù chỉ 1 người
-    → Trust deep + Anchor-Schema = nền cho TOÀN BỘ social development
+  ⭐ ANCHOR PERSON = DEEP TRUST BUILD (Trust.md v1.0 §2–§3):
+    → Consistent interaction = Trust source ① (direct experience, most accurate)
+    → Warm moments = Trust source ④ (peak experience: "held when crying")
+    → 5-source trust depth: 1 anchor person provides ①②④ = DEEP trust
+    → = Why "1 grandmother" = ENOUGH: trust DEEP despite being just 1 person
+    → Deep trust + Anchor-Schema = foundation for ALL subsequent social development
 
-  VIRTUOUS CYCLE QUA THẾ HỆ:
-    Thế hệ 1: empathy thấp NHƯNG hiểu "con cần connection" → con có anchor
-    Thế hệ 2: empathy CAO HƠN → dạy con TỐT HƠN
-    → Mỗi đời improve 1 chút = COMPOUND EFFECT qua thế hệ
-    → = "Đời mình khó → đời con BỚT khó → đời cháu TỐT" = REALISTIC + ĐỦ
+  VIRTUOUS CYCLE ACROSS GENERATIONS:
+    Generation 1: low empathy BUT understands "child needs connection" → child has anchor
+    Generation 2: HIGHER empathy → teaches child BETTER
+    → Each generation improves a little = COMPOUND EFFECT across generations
+    → = "My life is hard → my child's life is LESS hard → my grandchild's life is GOOD"
+      = REALISTIC + SUFFICIENT
 
   🟢 Werner 1989, Masten 2001: 1 caring adult = protective factor
-  🟢 Romanian orphanage recovery khi placement vào family (Rutter, Nelson 2007)
-  🔴 "Virtuous cycle qua thế hệ" = logical, chưa long-term data
+  🟢 Romanian orphanage recovery when placed in family (Rutter, Nelson 2007)
+  🔴 "Virtuous cycle across generations" = logical, no long-term data
 ```
 
-### §3.5 — 4 nguồn fill cho connection
+### §3.5 — 4 Fill Sources for Connection
 
 ```
-🟡 4 NGUỒN FILL (Anchor-Schema.md §3) APPLIED TO CONNECTION EDUCATION:
+🟡 4 FILL SOURCES (Anchor-Schema.md §3) APPLIED TO CONNECTION EDUCATION:
 
-  ① PFC Imagine-Final: "Tôi muốn là người yêu thương"
-    → Chín ở tuổi 12+ (PFC đủ cho abstract values)
-    → Nguồn CAO NHẤT nhưng MUỘN NHẤT
+  ① PFC Imagine-Final: "I want to be a loving person"
+    → Matures around age 12+ (PFC sufficient for abstract values)
+    → HIGHEST source but LATEST to develop
 
-  ② Hippocampus experiential: "Mẹ ôm → body warm + safe"
+  ② Hippocampus experiential: "Parent hugs → body warm + safe"
     → Episodic memories of connection experiences
-    → NGUỒN QUAN TRỌNG NHẤT 0-6 TUỔI
+    → MOST IMPORTANT SOURCE ages 0–6
 
-  ③ Compiled schemas: Sau đủ experience ② → "connection = safe, reliable"
-    → Chạy auto, trẻ tự tiếp cận, tự share, tự comfort
-    → Compile mạnh nhất 3-6 tuổi
+  ③ Compiled schemas: After enough experience ② → "connection = safe, reliable"
+    → Runs automatically, child naturally reaches out, shares, comforts
+    → Compiles strongest at ages 3–6
 
-  ④ External Inject: Lời dạy — "con phải yêu thương em"
-    → = "Giáo dục công dân" truyền thống — CHỈ DÙNG NGUỒN NÀY
+  ④ External Inject: Verbal teaching — "you must love your sibling"
+    → = Traditional "civic education" — uses ONLY THIS SOURCE
 
-  ⭐ "GIÁO DỤC CÔNG DÂN" CHỈ DÙNG NGUỒN ④:
-    Traditional: fill ④ mà KHÔNG build ①②③
-    → Trẻ BIẾT "phải tốt" nhưng không FEEL "muốn tốt"
+  ⭐ TRADITIONAL "CIVIC EDUCATION" USES ONLY SOURCE ④:
+    Traditional: fills ④ WITHOUT building ①②③
+    → Children KNOW they "should be good" but don't FEEL they "want to be good"
 
     Framework approach:
-    → Tạo experience → fill ②
-    → Body confirm "connection = pleasant" → compile ③
-    → PFC self-reflect về values → develop ①
-    → Stories + guidance → fill ④ (nhỏ, bổ trợ)
-    → = 4 nguồn balanced → connection deep + sustainable
+    → Create experiences → fill ②
+    → Body confirms "connection = pleasant" → compiles ③
+    → PFC reflects on values → develops ①
+    → Stories + guidance → fill ④ (small, supplementary)
+    → = 4 sources balanced → connection deep + sustainable
 
   BALANCED TRAJECTORY:
-    0-3: chủ yếu ② experiential (parent response)
-    3-6: ② + ③ dominant (compile schemas)
-    6-12: ② + ③ + ④ balanced (verbal connects với experience)
-    12-18: ① emerging + ②③ continuing (value reflection)
+    0–3: primarily ② experiential (parent response)
+    3–6: ② + ③ dominant (compile schemas)
+    6–12: ② + ③ + ④ balanced (verbal connects with experience)
+    12–18: ① emerging + ②③ continuing (value reflection)
     Adult: ① + ②③④ balanced
 
-  🟡 "4 nguồn fill" framing = framework (Anchor-Schema.md §3)
+  🟡 "4 fill sources" framing = framework (Anchor-Schema.md §3)
   🟢 Attachment theory (Bowlby 1969)
 ```
 
 ---
 
-## §4 — XÂY DỰNG CONNECTION — BOND FORMATION EDUCATION
+## §4 — BUILDING CONNECTION — BOND FORMATION EDUCATION
 
-### §4.1 — Entity-Compiled formation: time × quality × sleep
+### §4.1 — Entity-Compiled Formation: Time × Quality × Sleep
 
 ```
-⭐ BOND CẦN THỜI GIAN THẬT — KHÔNG CÓ SHORTCUT:
+⭐ BONDS NEED REAL TIME — NO SHORTCUT:
 
   (Entity-Compiled.md v1.0 §3 — source-of-truth)
 
   🟢 Hall 2018 (N=355):
-    40-60 giờ shared activity  → casual friend
-    80-100 giờ                 → friend
-    200+ giờ                   → close/best friend
+    40–60 hours shared activity  → casual friend
+    80–100 hours                 → friend
+    200+ hours                   → close/best friend
 
-  NHƯNG QUALITY MATTERS:
+  BUT QUALITY MATTERS:
     ① ACTIVE interaction = HIGH compile cycles per hour:
       Hiking, games, deep conversation, team projects
-      → Self-Pattern-Modeling fire NHIỀU → compile NHANH
+      → Self-Pattern-Modeling fires FREQUENTLY → compile FASTER
     ② PASSIVE co-presence = LOW compile cycles:
-      Cùng lớp, cùng office nhưng không tương tác sâu
-      → Self-Pattern-Modeling fire ÍT → compile CHẬM
+      Same class, same office but not deeply interacting
+      → Self-Pattern-Modeling fires INFREQUENTLY → compile SLOWLY
     ③ Text/social media ≈ ZERO contribution:
-      Không có body-level feedback → compile GẦN NHƯ KHÔNG
+      No body-level feedback → compile NEAR ZERO
 
   SLEEP = COMPILER:
     🟢 Diekelmann & Born 2010: NREM → hippocampal-cortical transfer
     🟢 2025 research: CA2 neurons reactivation ESSENTIAL for social memory
-    → Interaction during day = data collection
+    → Daytime interaction = data collection
     → Sleep = compilation (hippocampus → neocortex)
-    → Mất ngủ → compile social knowledge CHẬM → relationships NÔNG HƠN
+    → Sleep deprivation → social knowledge compiles SLOWER → relationships SHALLOWER
 
   NON-LINEAR CURVE:
-    0-40h: slow (chưa có person-schema)
-    ~40-60h: ACCELERATION (schema forms → Tse effect — 48h vs weeks)
-    200+h: new data assimilate gần như instantly
-    → "Hiểu nhau không cần nói" = schema predict TRƯỚC input
+    0–40h: slow (no person-schema yet)
+    ~40–60h: ACCELERATION (schema forms → Tse effect — 48h vs weeks)
+    200+h: new data assimilates nearly instantly
+    → "Understanding each other without words" = schema predicts BEFORE input
 
 
-  ⭐ CHO EDUCATION — THIẾT KẾ:
+  ⭐ FOR EDUCATION — DESIGN PRINCIPLES:
 
-    ① Tạo cơ hội ACTIVE shared activity LẶP LẠI:
-      → Team projects THẬT (output THẬT, không bài tập giả)
-      → Thể thao, trò chơi CÙNG NHAU (body-level engagement)
-      → Deep conversation practice (không chỉ small talk)
+    ① Create ACTIVE shared activity REPEATED over time:
+      → REAL team projects (REAL outputs, not mock exercises)
+      → Sports, games TOGETHER (body-level engagement)
+      → Deep conversation practice (not just small talk)
 
-    ② Đủ THỜI GIAN (tháng → năm):
-      → "Team building 1 buổi" ≠ bond formation
-      → Cùng lớp 1 năm + tương tác thường xuyên = tối thiểu
+    ② Enough TIME (months → years):
+      → "Team building in one session" ≠ bond formation
+      → Same class for 1 year + frequent interaction = minimum
       → Stable class groups > rotating groups (continuity = compile time)
 
-    ③ Bảo vệ SLEEP:
-      → Trẻ ngủ đủ → compile social knowledge tốt hơn
-      → Thiếu ngủ vì homework quá nhiều → bond formation BỊ CHẬM
+    ③ Protect SLEEP:
+      → Children who sleep enough → compile social knowledge better
+      → Sleep deprivation from too much homework → bond formation SLOWS
 
     ④ Diverse exposure:
-      → 🟢 Parkinson 2025: pre-existing neural similarity predict friendship
-      → Expose ĐA DẠNG → mở rộng matching range → tìm resonance matches
+      → 🟢 Parkinson 2025: pre-existing neural similarity predicts friendship
+      → Diverse exposure → expands matching range → find resonance matches
       → Cross-group interaction (cross-culture, cross-age)
 ```
 
-### §4.2 — 4 bond types × education
+### §4.2 — 4 Bond Types × Education
 
 ```
 ⭐ ENTITY-COMPILED = 1 MECHANISM × 4 CONFIGURATIONS:
 
-  (Bond-Architecture.md v2.0 §1-§2 — source-of-truth)
+  (Bond-Architecture.md v2.0 §1–§2 — source-of-truth)
 
-  🟢 Evolution KHÔNG tạo hệ thống riêng per bond — REUSE mechanism, KHÁC config:
+  🟢 Evolution did NOT create separate systems per bond — REUSES mechanism, DIFFERENT config:
     🟢 Bartels & Zeki 2004: maternal vs romantic = OVERLAP ventral striatum, ACC
-    🟢 Young & Wang 2004: oxytocin evolved cho maternal → CO-OPTED cho pair bond
-    🟢 Feldman 2017: 4 kiểu bond TẤT CẢ dùng oxytocin-dopamine crosstalk
+    🟢 Young & Wang 2004: oxytocin evolved for maternal → CO-OPTED for pair bond
+    🟢 Feldman 2017: all 4 bond types use oxytocin-dopamine crosstalk
 
 
   PARENT → CHILD — GAP DIRECTION = PARENT'S:
 
-    ⭐ KEY INSIGHT cho parent education:
-      Parent reward = khi PARENT's prediction về child thành công
-      Parent reward ≠ khi CHILD actually happy
-      → Parent THẬT SỰ thương + CÓ THỂ THẬT SỰ hại (suppress child's drives)
-      → "Ép con học vì thương" = gap direction parent's, không phải child's
-      → PFC = Lawyer: "vì con" = rationalization
+    ⭐ KEY INSIGHT for parent education:
+      Parent reward = when PARENT'S prediction about child succeeds
+      Parent reward ≠ when CHILD is actually happy
+      → Parent TRULY loves + CAN TRULY harm (suppressing child's drives)
+      → "Forcing child to study out of love" = parent's gap direction, not child's
+      → PFC = Lawyer: "for my child's sake" = rationalization
 
-    Feedback loop YẾU:
-      Child nhỏ: KHÔNG THỂ articulate mismatch
-      Child lớn: power asymmetry → sợ phản hồi
-      → Parent's Self-Pattern-Modeling có thể stale DECADES
+    Feedback loop WEAK:
+      Young child: CANNOT articulate the mismatch
+      Older child: power asymmetry → afraid to give feedback
+      → Parent's Self-Pattern-Modeling can be stale for DECADES
 
-    ⭐ CHO EDUCATION — DẠY PARENT:
-      → "CHILD feel gì?" khác "MÌNH muốn child thế nào?"
-      → Self-Pattern-Modeling accuracy toward child QUAN TRỌNG HƠN intention tốt
-      → Tạo feedback channel: lắng nghe con THẬT → calibrate Self-Pattern-Modeling
-
-    🟡 Self-referential reward = framework synthesis
+    ⭐ FOR EDUCATION — TEACHING PARENTS:
+      → "What does the CHILD feel?" different from "What do I WANT for the child?"
+      → Self-Pattern-Modeling accuracy toward child MATTERS MORE than good intention
+      → Create feedback channel: genuinely listen to child → calibrate Self-Pattern-Modeling
 
 
   CHILD → PARENT — OPIOID SAFETY BOND:
 
     🟢 Nelson & Panksepp 1998: infant attachment = opioid-driven
     🟢 Ulmer-Yaniv 2022: child's response to OWN mother = AGE-INVARIANT
-    → 20 tuổi vẫn respond giống pattern từ nhỏ
-    → Entity-Compiled earliest = consolidated DEEPEST
+    → At age 20 still responds with the pattern from childhood
+    → Earliest Entity-Compiled = consolidated DEEPEST
 
-    ⭐ CHO EDUCATION:
-      → BẢO VỆ bond này (đừng phá — §3.3)
-      → "Lớn rồi không cần mẹ" = SAI → mẹ fill FEWER of EXPANDING gap landscape
+    ⭐ FOR EDUCATION:
+      → PROTECT this bond (don't damage — §3.3)
+      → "You're grown up, you don't need your mother" = WRONG → parent fills FEWER of an EXPANDING gap landscape
 
 
   ROMANTIC — LIMERENCE MASK:
 
-    🟢 Fisher 2004: limerence = drive state (cùng level đói, khát)
+    🟢 Fisher 2004: limerence = drive state (same level as hunger, thirst)
     → Dopamine + NE surge + serotonin↓ → multi-system FLOOD
-    → Limerence MASK mismatch → reveal sau 18-36 tháng
-    → 4 hướng sau limerence: hay / không match / chán / toxic
+    → Limerence MASKS mismatch → reveals after 18–36 months
+    → 4 directions after limerence: good match / no match / complacency / toxic
 
-    ⭐ CHO EDUCATION (12-18 tuổi):
-      → Dạy HIỂU limerence = phase, KHÔNG PHẢI vĩnh viễn
-      → "Hết yêu" = temporary subsidy expired → BÌNH THƯỜNG
-      → Limerence mask → cần THỜI GIAN để thấy match thật
+    ⭐ FOR EDUCATION (ages 12–18):
+      → Teach them to UNDERSTAND limerence = a phase, NOT permanent
+      → "Falling out of love" = temporary subsidy expired → NORMAL
+      → Limerence masks → needs TIME to see the true match
 
 
   FRIENDSHIP — PUREST TEST:
 
     (Bond-Architecture.md v2.0 §2.5)
-    → KHÔNG hormone kick-start → compile THUẦN TÚY từ by-product match
-    → KHÔNG sexual component, KHÔNG kin obligation, KHÔNG power asymmetry
-    → Exit cost THẤP → no obligation sustaining
+    → NO hormone kick-start → compiles PURELY from by-product match
+    → NO sexual component, NO kin obligation, NO power asymmetry
+    → Low exit cost → no obligation sustaining
     → = PUREST TEST of genuine resonance
 
-    4 kiểu friendship:
-      ① Bạn thời thơ ấu (compile TRƯỚC Background-Pattern mature → sâu)
-      ② Bạn từ context (work/school → context mất → friendship decay)
-      ③ Bạn tri kỷ trưởng thành (rare, chosen + maintained = STRONG)
-      ④ Bạn surface (acquaintance, fragile)
+    4 types of friendship:
+      ① Childhood friends (compiled BEFORE Background-Pattern matures → deep)
+      ② Context-based friends (work/school → context lost → friendship decays)
+      ③ Adult close friends (rare, chosen + maintained = STRONG)
+      ④ Surface friends (acquaintances, fragile)
 
-    ⭐ CHO EDUCATION:
-      → Dạy trẻ: friendship = EARNED, không given → cần đầu tư
-      → Mỗi friend match domain KHÁC → portfolio, không 1 best friend fill all
-      → Friendship loss = ambiguous grief → normalize "buồn khi mất bạn"
+    ⭐ FOR EDUCATION:
+      → Teach children: friendship = EARNED, not given → needs investment
+      → Each friend matches a DIFFERENT domain → portfolio, not 1 best friend fills all
+      → Friendship loss = ambiguous grief → normalize "it's OK to feel sad losing a friend"
 ```
 
-### §4.3 — 8 reward pathways as education targets
+### §4.3 — 8 Reward Pathways as Education Targets
 
 ```
-🟡 8 PATHWAYS — MỖI PATHWAY = 1 CƠ HỘI GIÁO DỤC:
+🟡 8 PATHWAYS — EACH PATHWAY = 1 EDUCATION OPPORTUNITY:
 
   (Connection.md v5.0 §5 — source-of-truth)
 
   ┌────┬──────────────────────┬──────────────────────────────────────────┐
   │ #  │ Pathway              │ Education action                         │
   ├────┼──────────────────────┼──────────────────────────────────────────┤
-  │ ①  │ Self-Pattern-Modeling │ Dạy FEEL state người khác →             │
-  │    │ mirror reward         │ "Con thấy bạn đang feel gì?"           │
-  │    │                      │ = Kích hoạt Self-Pattern-Modeling       │
+  │ ①  │ Self-Pattern-Modeling │ Teach to FEEL the other's state →       │
+  │    │ mirror reward         │ "What do you think your friend          │
+  │    │                      │ is feeling?"                             │
+  │    │                      │ = Activates Self-Pattern-Modeling        │
   ├────┼──────────────────────┼──────────────────────────────────────────┤
-  │ ②  │ Co-regulation        │ Tạo môi trường CÙNG NHAU → body relax  │
-  │    │                      │ = Không cần dạy — cần TỔ CHỨC           │
+  │ ②  │ Co-regulation        │ Create environment TOGETHER → body relaxes│
+  │    │                      │ = Doesn't need teaching — needs ORGANIZING│
   ├────┼──────────────────────┼──────────────────────────────────────────┤
-  │ ③  │ Virtual chunks       │ Dạy NHỜ + CHO NHỜ → mỗi người = tool   │
-  │    │                      │ = "Mình không biết → hỏi bạn = OK"      │
+  │ ③  │ Virtual chunks       │ Teach BORROWING + LENDING → each person  │
+  │    │                      │ = tool = "I don't know → ask friend = OK"│
   ├────┼──────────────────────┼──────────────────────────────────────────┤
-  │ ④  │ Giving reward        │ Dạy CHO ĐI khi thừa → mirror reward    │
-  │    │                      │ = Positive-sum logic core                │
+  │ ④  │ Giving reward        │ Teach GIVING when you have extra →       │
+  │    │                      │ mirror reward = positive-sum logic core  │
   ├────┼──────────────────────┼──────────────────────────────────────────┤
-  │ ⑤  │ Validation           │ Dạy LẮNG NGHE → "được hiểu" = safe     │
-  │    │                      │ = "Bạn feel gì?" thay vì "bạn sai"     │
+  │ ⑤  │ Validation           │ Teach LISTENING → "being understood" = safe│
+  │    │                      │ = "How do you feel?" instead of "you're wrong"│
   ├────┼──────────────────────┼──────────────────────────────────────────┤
-  │ ⑥  │ Presence             │ Cùng nhau → body detect warmth          │
-  │    │                      │ = Cần physical proximity                 │
+  │ ⑥  │ Presence             │ Being together → body detects warmth     │
+  │    │                      │ = Requires physical proximity            │
   ├────┼──────────────────────┼──────────────────────────────────────────┤
-  │ ⑦  │ Shared Imagine-Final │ Team project THẬT → bond qua mission    │
-  │    │                      │ = Cùng MỤC TIÊU, output THẬT           │
+  │ ⑦  │ Shared Imagine-Final │ REAL team projects → bond through mission│
+  │    │                      │ = Shared GOAL, REAL output               │
   ├────┼──────────────────────┼──────────────────────────────────────────┤
-  │ ⑧  │ Knowledge flow       │ Peer teaching → reward CẢ HAI chiều    │
-  │    │                      │ = A dạy B → B dạy A cái khác           │
+  │ ⑧  │ Knowledge flow       │ Peer teaching → reward in BOTH directions│
+  │    │                      │ = A teaches B → B teaches A something else│
   └────┴──────────────────────┴──────────────────────────────────────────┘
 
-  ⭐ THIẾT KẾ HOẠT ĐỘNG FIRE NHIỀU PATHWAYS CÙNG LÚC:
+  ⭐ DESIGN ACTIVITIES THAT FIRE MULTIPLE PATHWAYS SIMULTANEOUSLY:
 
-    Team projects thật:     ⑦ shared Imagine-Final + ③ virtual chunks + ④ giving
-    Peer teaching:          ⑧ knowledge flow + ④ giving + ⑤ validation
-    Group activities:       ② co-regulation + ⑥ presence + ① mirror
-    Listening exercises:    ⑤ validation + ① mirror
-    Free play / sports:     ②⑥ (body-level) + ③⑦ (goal-sharing)
+    Real team projects:    ⑦ shared Imagine-Final + ③ virtual chunks + ④ giving
+    Peer teaching:         ⑧ knowledge flow + ④ giving + ⑤ validation
+    Group activities:      ② co-regulation + ⑥ presence + ① mirror
+    Listening exercises:   ⑤ validation + ① mirror
+    Free play / sports:    ②⑥ (body-level) + ③⑦ (goal-sharing)
 
-    → "Dạy connection" truyền thống chỉ focus ① (feel người khác)
-    → THỰC TẾ: cần cover TOÀN BỘ 8 pathways
-    → = Tại sao "giáo dục công dân" thiếu: chỉ dạy ① bằng lời (nguồn ④)
+    → Traditional "connection education" focuses only on ① (feel others)
+    → IN REALITY: need to cover ALL 8 pathways
+    → = Why civic education falls short: only teaches ① verbally (fill source ④)
 
-  ⭐ 1 ENTITY KHÔNG THỂ FILL TẤT CẢ DOMAINS:
+  ⭐ 1 ENTITY CANNOT FILL ALL DOMAINS:
 
     (Bond-Architecture.md v2.0 §7)
-    → "Bạn thân = tất cả" = illusion. 1 entity covers ~2-3/5 domains.
-    → Dunbar portfolio: S1 ~5 close + S2 ~15 good friends = cover đủ domains.
-    → = "Có bạn thân NHƯNG VẪN CẦN bạn khác" = ARCHITECTURE, không phải disloyalty.
-    → Education: dạy trẻ hiểu NHIỀU friends cho NHIỀU domains = bình thường
+    → "Best friend = everything" = illusion. 1 entity covers ~2–3/5 domains.
+    → Dunbar portfolio: S1 ~5 close + S2 ~15 good friends = covers enough domains.
+    → = "Have a best friend BUT STILL NEED other friends" = ARCHITECTURE, not disloyalty.
+    → Education: teach children that MULTIPLE friends for MULTIPLE domains = normal
 
   🟡 8 pathways as education targets = framework synthesis
-  🟢 Each pathway biochemistry individually established
+  🟢 Each pathway's biochemistry individually established
 ```
 
-### §4.4 — Gap clone impossible — why "giống nhau" is not the goal
+### §4.4 — Gap Clone Is Impossible — Why "Being Alike" Is Not the Goal
 
 ```
-🟡 HIỂU SAI PHỔ BIẾN: "BẠN TỐT = GIỐNG NHAU"
+🟡 COMMON MISCONCEPTION: "GOOD FRIENDS = ARE ALIKE"
 
   (Bond-Architecture.md v2.0 §3 — 5-step proof)
 
   Gap clone = STRUCTURALLY IMPOSSIBLE:
-    Gap = f(TOÀN BỘ chunk network) — Self-Pattern-Modeling chỉ THÊM vài chunks
-    Background-Pattern (decades) RESIST shift từ Self-Pattern-Modeling (months)
+    Gap = f(ENTIRE chunk network) — Self-Pattern-Modeling only ADDS a few chunks
+    Background-Pattern (decades) RESISTS shift from Self-Pattern-Modeling (months)
     Hardware gaps IMMUTABLE (DNA, neurotransmitter balance)
-    🟢 Twin test: ~100% DNA → gaps VẪN khác (separate experience)
+    🟢 Twin test: ~100% DNA → gaps STILL differ (separate experiences)
 
-  3 CƠ CHẾ THẬT (observable):
-    ❶ Gap redirect: A's gap shift TOWARD B (not TO MATCH B) → bình thường
-    ❷ Compiled suppress: A's gap riêng suppressed → "tìm lại bản thân" sau chia tay
-    ❸ Behavior converge: adopt partner's behavior, gap direction UNCHANGED
+  3 REAL MECHANISMS (observable):
+    ❶ Gap redirect: A's gap shifts TOWARD B (not TO MATCH B) → normal
+    ❷ Compiled suppress: A's own gap suppressed → "finding myself again" after separation
+    ❸ Behavior converge: adopts partner's behavior, gap direction UNCHANGED
 
-  ⭐ CHO EDUCATION — "GIỐNG NHAU" KHÔNG PHẢI MỤC TIÊU:
+  ⭐ FOR EDUCATION — "BEING ALIKE" IS NOT THE GOAL:
 
-    ❌ "Bạn tốt phải giống nhau" → suppress gap riêng → Compiled-Suppress kill resonance
-    ✅ "Bạn tốt = hỗ trợ gap RIÊNG của nhau" → by-products flow → resonance
+    ❌ "Good friends must be alike" → suppress own drives → Compiled-Suppress kills resonance
+    ✅ "Good friends = support EACH OTHER'S OWN drives" → by-products flow → resonance
 
     Anti-compiled-suppress = META-PRINCIPLE (Bond-Architecture §5):
-      Self-Pattern-Modeling deep → KNOW partner has own gaps
-      → BELIEVE gaps are valid → SUPPORT partner pursuing own gaps
-      → Partner maintains drive riêng → generates NEW by-products
+      Deep Self-Pattern-Modeling → KNOW partner has own drives
+      → BELIEVE those drives are valid → SUPPORT partner pursuing their own drives
+      → Partner maintains their own drive → generates NEW by-products
       → by-products FILL my gap → RESONANCE SUSTAINED
 
-    Dạy trẻ:
-      "Khác nhau là GIÁ TRỊ — mỗi người có gap riêng = mỗi người TẠO thứ MỚI"
-      "Ép bạn giống mình → bạn mất drive → nhạt dần → connection phai"
-      "Hỗ trợ bạn theo hướng RIÊNG → bạn tạo ra thứ MÌNH không tự tạo được"
+    Teach children:
+      "Being different is VALUABLE — each person has their own drive = each person CREATES something NEW"
+      "Force your friend to be like you → friend loses drive → connection fades"
+      "Support your friend in THEIR direction → friend creates what YOU can't create on your own"
 
   🟡 Gap clone impossible = framework synthesis
   🟢 Twin studies: Bouchard 1990
@@ -1143,182 +1142,182 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §5 — CHỌN VÀ CALIBRATE RELATIONSHIPS
+## §5 — CHOOSING AND CALIBRATING RELATIONSHIPS
 
-### §5.1 — Entity-Access gradient × age
+### §5.1 — Entity-Access Gradient × Age
 
 ```
-⭐ "CHỌN BẠN MÀ CHƠI" = ENTITY-ACCESS CALIBRATION:
+⭐ "CHOOSE YOUR FRIENDS WISELY" = ENTITY-ACCESS CALIBRATION:
 
   (Entity-Access.md v1.2 §2 — source-of-truth)
 
-  Entity-Access = brain builds PREDICTIVE ACCESS-RELATIONSHIP with entity.
-  Gradient Mức 0 → Mức 5: KHÔNG binary, là SPECTRUM.
+  Entity-Access = brain builds PREDICTIVE ACCESS-RELATIONSHIP with an entity.
+  Gradient Level 0 → Level 5: NOT binary, it's a SPECTRUM.
 
 
   ENTITY-ACCESS DEVELOPMENTAL TRAJECTORY:
 
-  ┌────────────┬──────────────┬─────────────────────────────────────────┐
-  │ Tuổi       │ Entity-Access│ Implication                             │
-  │            │ capability   │                                         │
-  ├────────────┼──────────────┼─────────────────────────────────────────┤
-  │ 0-3        │ Mức 0        │ NO choice. Parent controls 100%.        │
-  │            │ (hardware    │ Trẻ chấp nhận BẤT KỲ caregiver (pre-   │
-  │            │ only)        │ Self-Pattern-Modeling). → "Chọn bạn" =  │
-  │            │              │ VÔ NGHĨA ở tuổi này.                   │
-  ├────────────┼──────────────┼─────────────────────────────────────────┤
-  │ 3-6        │ Mức 0-1      │ Context-driven. Trẻ chơi với ai GẦN.   │
-  │            │ (emerging    │ 🟢 Festinger 1950: proximity dominant.  │
-  │            │ Self-Pattern-│ Preference emerging nhưng PFC yếu.      │
-  │            │ Modeling)    │ → "Chọn bạn" = chủ yếu do HOÀN CẢNH.  │
-  ├────────────┼──────────────┼─────────────────────────────────────────┤
-  │ 6-12       │ Mức 1-2      │ Beginning ACTIVE choice. By-product     │
-  │            │ (calibrating)│ match detectable nhưng PFC chưa mature. │
-  │            │              │ Peer influence MẠNH → conformity risk.  │
-  │            │              │ → "Chọn bạn" = BẮT ĐẦU có ý nghĩa.   │
-  ├────────────┼──────────────┼─────────────────────────────────────────┤
-  │ 12-18      │ Mức 2-3+     │ TRUE calibration. PFC online.           │
-  │            │ (active      │ By-product resonance matching ACTIVE.   │
-  │            │ selection)   │ Limerence bắt đầu. Identity formation.  │
-  │            │              │ → "Chọn bạn" = SKILL CẦN DẠY.         │
-  ├────────────┼──────────────┼─────────────────────────────────────────┤
-  │ 18+        │ Mức 0-5 full │ Full spectrum. Calibrate ongoing.       │
-  │            │ (mature)     │ Portfolio management. Domain matching.   │
-  │            │              │ → "Chọn bạn" = LIFELONG calibration.   │
-  └────────────┴──────────────┴─────────────────────────────────────────┘
+  ┌───────────┬──────────────┬────────────────────────────────────────────┐
+  │ Age       │ Entity-Access│ Implication                                │
+  │           │ capability   │                                            │
+  ├───────────┼──────────────┼────────────────────────────────────────────┤
+  │ 0–3       │ Level 0      │ NO choice. Parent controls 100%.           │
+  │           │ (hardware    │ Children accept ANY caregiver (pre-        │
+  │           │ only)        │ Self-Pattern-Modeling). → "Choosing friends"│
+  │           │              │ = MEANINGLESS at this age.                 │
+  ├───────────┼──────────────┼────────────────────────────────────────────┤
+  │ 3–6       │ Level 0–1    │ Context-driven. Children play with whoever │
+  │           │ (emerging    │ is NEARBY. 🟢 Festinger 1950: proximity    │
+  │           │ Self-Pattern-│ dominant. Preference emerging but PFC weak.│
+  │           │ Modeling)    │ → "Choosing friends" = mostly CIRCUMSTANCE.│
+  ├───────────┼──────────────┼────────────────────────────────────────────┤
+  │ 6–12      │ Level 1–2    │ Beginning ACTIVE choice. By-product match  │
+  │           │ (calibrating)│ detectable but PFC not yet mature.         │
+  │           │              │ Peer influence STRONG → conformity risk.   │
+  │           │              │ → "Choosing friends" = STARTING to matter. │
+  ├───────────┼──────────────┼────────────────────────────────────────────┤
+  │ 12–18     │ Level 2–3+   │ TRUE calibration. PFC online.              │
+  │           │ (active      │ By-product resonance matching ACTIVE.      │
+  │           │ selection)   │ Limerence begins. Identity formation.      │
+  │           │              │ → "Choosing friends" = SKILL TO TEACH.    │
+  ├───────────┼──────────────┼────────────────────────────────────────────┤
+  │ 18+       │ Level 0–5    │ Full spectrum. Calibrate ongoing.          │
+  │           │ (mature)     │ Portfolio management. Domain matching.     │
+  │           │              │ → "Choosing friends" = LIFELONG calibration│
+  └───────────┴──────────────┴────────────────────────────────────────────┘
 
-  ⭐ KEY: "Chọn bạn mà chơi" = EDUCATION TOPIC, not development:
+  ⭐ KEY: "Choosing friends" = EDUCATION TOPIC, not development:
     DEVELOPMENT (Child-Dev): HOW Entity-Access capability EMERGES
-    EDUCATION (file này): HOW TO TEACH navigation once capability exists
+    EDUCATION (this file): HOW TO TEACH navigation once capability exists
 
   🟡 Entity-Access × age trajectory = framework synthesis
   🟢 Proximity dominant early (Festinger 1950, Back 2008)
   🟢 PFC maturation timeline (Casey 2008): prefrontal matures ~25
 ```
 
-### §5.2 — Tool-mode vs Agent-mode
+### §5.2 — Tool-Mode vs Agent-Mode
 
 ```
-⭐ PHÂN BIỆT TOOL-MODE VS AGENT-MODE:
+⭐ DISTINGUISHING TOOL-MODE FROM AGENT-MODE:
 
   (Entity-Access.md v1.2 §1.1, Simulation-Engine.md v1.0)
 
-  Tool-mode: predict FUNCTION ("giao hàng đúng giờ")
+  Tool-mode: predicts FUNCTION ("delivers on time")
     → Entity-access IMPOSSIBLE → 0 resonance
-    → Bưu tá, ATM, app, cashier
+    → Mail carrier, ATM, app, cashier
 
-  Agent-mode: predict STATE ("vui hay buồn, muốn gì")
+  Agent-mode: predicts STATE ("happy or sad, wants what")
     → Entity-access POSSIBLE → resonance possible
-    → Bạn, family, partner, teacher
+    → Friends, family, partner, teacher
 
-  ⭐ ENGINE MODE = DYNAMIC — SHIFT MOMENT-TO-MOMENT:
+  ⭐ ENGINE MODE = DYNAMIC — SHIFTS MOMENT TO MOMENT:
 
-    Mẹ SÁNG (ngủ đủ, rảnh): Agent-mode → "con hôm nay có vẻ lo"
-    Mẹ TỐI (mệt, deadline): Tool-mode → "ăn đi!" → function only
-    → CÙNG MẸ, CÙNG CON — KHÁC moment = KHÁC mode
+    Parent MORNING (rested, free): Agent-mode → "you seem worried today"
+    Parent EVENING (exhausted, deadline): Tool-mode → "eat!" → function only
+    → SAME parent, SAME child — DIFFERENT moment = DIFFERENT mode
     → PFC Resource State MODULATES mode
 
-  ⭐ CHO EDUCATION:
+  ⭐ FOR EDUCATION:
 
-    ① Dạy trẻ NHẬN BIẾT mode:
-      "Mẹ mệt nói 'ăn đi' ≠ mẹ không yêu con"
-      "Mẹ đang ở Tool-mode vì PFC resources hết — BÌNH THƯỜNG"
-      → Giảm personalization: mode shift ≠ rejection
+    ① Teach children to RECOGNIZE mode:
+      "When mom is tired and says 'eat up' ≠ mom doesn't love me"
+      "Mom is in Tool-mode because PFC resources are depleted — NORMAL"
+      → Reduce personalization: mode shift ≠ rejection
 
-    ② Dạy trẻ PRACTICE Agent-mode:
-      "Bạn đang feel gì?" → kích hoạt Self-Pattern-Modeling
-      "Bưu tá cũng là con người — nhưng relationship = about function" → normalize
+    ② Teach children to PRACTICE Agent-mode:
+      "What is your friend feeling?" → activates Self-Pattern-Modeling
+      "The mail carrier is also a person — but the relationship = about function" → normalize
       → Agent-mode = SKILL → practice → improve
 
-    ③ Dạy trẻ khi NÀO Agent-mode vs Tool-mode:
-      Mọi lúc Agent-mode = PFC OVERLOAD → burnout
-      Mọi lúc Tool-mode = connection = 0 → lonely
-      → Context-appropriate: bạn thân = Agent, cashier = Tool → CẢ HAI OK
+    ③ Teach children WHEN Agent-mode vs Tool-mode:
+      Agent-mode all the time = PFC OVERLOAD → burnout
+      Tool-mode all the time = connection = 0 → lonely
+      → Context-appropriate: close friend = Agent, cashier = Tool → BOTH are fine
 
   🟡 Dynamic Engine Mode = framework synthesis (Entity-Access v1.2 §1.1)
   🟢 PFC resource depletion modulates social cognition (Baumeister 1998)
 ```
 
-### §5.3 — Gap source quality: A:B vs C:D
+### §5.3 — Gap Source Quality: A:B vs C:D
 
 ```
-⭐ CHẤT LƯỢNG RELATIONSHIP = f(GAP SOURCE A:B:C:D):
+⭐ RELATIONSHIP QUALITY = f(GAP SOURCE A:B:C:D):
 
   (Entity-Access.md v1.2 §4 — source-of-truth)
 
-  4 GAP SOURCES — QUYẾT ĐỊNH QUALITY:
+  4 GAP SOURCES — DETERMINE QUALITY:
 
     A — Hardware existence: entity EXISTS = reward
-      → "Thấy con = vui" (parent). "Mẹ ở đây = safe" (child).
+      → "Seeing my child = joy" (parent). "Parent is here = safe" (child).
       → Behavioral expectation = ZERO
       → = HEALTHIEST source (entity autonomy 100% intact)
 
     B — By-product resonance: entity's OWN drives → by-products → MY gap fill
-      → "Bạn giỏi violin → mình THÍCH nghe" (by-product of BẠN's gap pursuit)
-      → = SUSTAINABLE (entity tự tạo by-products khi follow OWN drive)
+      → "Friend is great at violin → I LOVE listening" (by-product of FRIEND's gap pursuit)
+      → = SUSTAINABLE (entity creates by-products when following OWN drive)
       → Entity autonomy INTACT → resonance GENUINE
 
-    C — Self-referential: MY gap projected → entity phải LÀM THEO Ý TÔI
-      → "Con PHẢI học giỏi" (parent's gap, not child's)
-      → "Bạn PHẢI ở đây khi tôi cần" (dependency)
+    C — Self-referential: MY gap projected → entity must DO WHAT I WANT
+      → "You MUST study hard" (parent's gap, not child's)
+      → "You MUST be here when I need you" (dependency)
       → Entity autonomy VIOLATED → excess territory
 
     D — Schema-installed: cultural obligation
-      → "Con trai PHẢI hiếu thảo" (schema obligation)
-      → "Vợ chồng PHẢI giống nhau" (schema conformity)
-      → = External Inject → compiled suppress own drives
+      → "Children MUST be filial" (schema obligation)
+      → "Spouses MUST be similar" (schema conformity)
+      → = External Inject → compiles suppress of own drives
 
 
   ⭐ (A+B) dominant = HEALTHY: entity autonomy INTACT
   ⭐ (C+D) dominant = EXCESS: entity autonomy VIOLATED
 
-  ┌──────────────┬──────────────────────────────────────────────────────┐
-  │ Relationship │ Gap Source Profile                                   │
-  ├──────────────┼──────────────────────────────────────────────────────┤
-  │ Healthy mẹ   │ A HIGH (exist=joy) + B (child grows→by-products)    │
-  │              │ C LOW (child's path respected)                       │
-  ├──────────────┼──────────────────────────────────────────────────────┤
-  │ Controlling  │ A (exist=joy) + C HIGH (child PHẢI theo ý mẹ)       │
-  │ mẹ          │ → Mixed Entity-Compiled: thương + hại đồng thời     │
-  ├──────────────┼──────────────────────────────────────────────────────┤
-  │ Healthy bạn  │ B HIGH (by-product match genuine)                    │
-  │ thân         │ A moderate (presence pleasant). C+D ≈ 0              │
-  ├──────────────┼──────────────────────────────────────────────────────┤
-  │ Toxic friend │ C HIGH ("bạn PHẢI ở đây khi tôi cần")               │
-  │              │ → Entity-Access-Excess: Self-Pattern-Modeling atrophy│
-  └──────────────┴──────────────────────────────────────────────────────┘
+  ┌────────────────┬────────────────────────────────────────────────────────┐
+  │ Relationship   │ Gap Source Profile                                     │
+  ├────────────────┼────────────────────────────────────────────────────────┤
+  │ Healthy parent │ A HIGH (exist=joy) + B (child grows→by-products)       │
+  │                │ C LOW (child's path respected)                         │
+  ├────────────────┼────────────────────────────────────────────────────────┤
+  │ Controlling    │ A (exist=joy) + C HIGH (child MUST follow parent's way)│
+  │ parent         │ → Mixed Entity-Compiled: love + harm simultaneously    │
+  ├────────────────┼────────────────────────────────────────────────────────┤
+  │ Healthy        │ B HIGH (by-product match genuine)                      │
+  │ close friend   │ A moderate (presence pleasant). C+D ≈ 0               │
+  ├────────────────┼────────────────────────────────────────────────────────┤
+  │ Toxic friend   │ C HIGH ("you MUST be here when I need you")            │
+  │                │ → Entity-Access-Excess: Self-Pattern-Modeling atrophy  │
+  └────────────────┴────────────────────────────────────────────────────────┘
 
 
-  ⭐ CHO EDUCATION (12-18 tuổi):
+  ⭐ FOR EDUCATION (ages 12–18):
 
-    ① Dạy nhận biết A:B vs C:D trong relationships CỦA MÌNH:
-      "Mình vui vì bạn GIỎI (B) hay vì bạn LÀM THEO Ý MÌNH (C)?"
-      "Mình cần bạn ở đây VÌ pleasant (A) hay VÌ SỢ 1 mình (C)?"
+    ① Teach recognizing A:B vs C:D in OWN relationships:
+      "Am I happy because my friend IS GOOD (B) or because they DO WHAT I WANT (C)?"
+      "Do I need my friend here because it's PLEASANT (A) or because I'M AFRAID of being alone (C)?"
 
-    ② Dạy nhận biết KHI BỊ C:D:
-      "Bạn muốn mình PHẢI làm gì đó = bạn đang fill GAP CỦA BẠN"
-      "Bạn ủng hộ mình THEO hướng CỦA MÌNH = genuine (B)"
-      "Bạn ủng hộ mình THEO hướng CỦA BẠN = projected (C)"
+    ② Teach recognizing WHEN BEING SUBJECTED TO C:D:
+      "A friend wants me to DO something = they're filling THEIR gap"
+      "A friend supports me IN MY direction = genuine (B)"
+      "A friend supports me IN THEIR direction = projected (C)"
 
-    ③ KHÔNG phán xét — mô tả MECHANISM:
-      C:D không phải "xấu" — là cơ chế tự nhiên khi gap unfilled
-      Dạy NHẬN BIẾT → tự calibrate → KHÔNG cần "phải sửa tính"
+    ③ NO judgment — describe MECHANISM:
+      C:D is not "bad" — it's a natural mechanism when a gap is unfilled
+      Teach RECOGNIZING → self-calibrate → NOT "must fix your personality"
 
   🟡 Gap source A:B:C:D model = framework synthesis (Entity-Access v1.2 §4)
   🟢 Attachment styles (anxious, avoidant) = well-established correlates
 ```
 
-### §5.4 — PFC budget + Dunbar = boundary is architecture
+### §5.4 — PFC Budget + Dunbar = Boundary Is Architecture
 
 ```
-⭐ "KHÔNG THỂ THÂN VỚI MỌI NGƯỜI" = KIẾN TRÚC, KHÔNG PHẢI ÍCH KỶ:
+⭐ "CAN'T BE CLOSE TO EVERYONE" = ARCHITECTURE, NOT SELFISHNESS:
 
   (PFC-Operations.md v1.0 §9, Dunbar 1992 🟢)
 
   PFC BUDGET = FINITE SHARED RESOURCE:
-    Agent-mode = consume PFC resource (Self-Pattern-Modeling simulate state)
-    PFC resource = shared across ALL applications (Self-Pattern-Modeling, Imagine-Final, self-observation)
-    → CÓ GIỚI HẠN bao nhiêu agents có thể Agent-mode ĐỒNG THỜI
+    Agent-mode = consumes PFC resources (Self-Pattern-Modeling simulates state)
+    PFC resources = shared across ALL applications (Self-Pattern-Modeling, Imagine-Final, self-observation)
+    → THERE IS A LIMIT to how many agents can be Agent-mode SIMULTANEOUSLY
 
   DUNBAR LAYERS = STRUCTURAL SOLUTION:
     🟢 Dunbar 1992 (Social Brain Hypothesis):
@@ -1327,67 +1326,67 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ~50: acquaintance band (partial compile)
       ~150: social group ceiling (neocortex limit)
 
-    → MỖI TẦNG = mức PFC investment KHÁC
+    → EACH LAYER = different level of PFC investment
     → Intimate 5 = Agent-mode DEEP → PFC cost HIGH per person
     → 150 max = Agent-mode SHALLOW → PFC cost LOW per person
-    → TỔNG PFC budget = constant → trade-off depth vs breadth
+    → TOTAL PFC budget = constant → trade-off depth vs breadth
 
-  ⭐ CHO EDUCATION:
+  ⭐ FOR EDUCATION:
 
-    ① "Chỉ có ~5 bạn thân = BÌNH THƯỜNG":
-      → Không phải "con ít bạn" = vấn đề
-      → 5 deep > 50 shallow (cho resonance quality)
-      → Dạy trẻ: DEPTH > BREADTH ở inner circle
+    ① "Having only ~5 close friends = NORMAL":
+      → Not "my child has few friends" = problem
+      → 5 deep > 50 shallow (for resonance quality)
+      → Teach children: DEPTH > BREADTH in the inner circle
 
-    ② "Không thể thân với MỌI NGƯỜI" ≠ "ích kỷ":
+    ② "Can't be close to EVERYONE" ≠ "selfish":
       → = PFC budget constraint → architecture
-      → Trẻ guilt "không chơi với tất cả" → normalize: kiến trúc não không cho phép
-      → Healthy: Agent-mode cho close circle + Tool-mode cho wider circle
+      → Children feel guilty "not playing with everyone" → normalize: brain architecture doesn't allow it
+      → Healthy: Agent-mode for close circle + Tool-mode for wider circle
 
     ③ Portfolio thinking (Bond-Architecture §7):
       → 1 entity ≠ all domains → Dunbar layers = distributed portfolio
-      → Bạn A = domain này, Bạn B = domain khác → CẢ HAI cần
-      → "Có bạn thân nhưng vẫn cần bạn khác" = ARCHITECTURE, not disloyalty
+      → Friend A = this domain, Friend B = another domain → NEED BOTH
+      → "Have a best friend but still need other friends" = ARCHITECTURE, not disloyalty
 
   🟢 Dunbar 1992: Social Brain Hypothesis
   🟢 PFC resource limits: established neuroscience
   🟡 PFC budget × Dunbar = architecture constraint = framework synthesis
 ```
 
-### §5.5 — "Chọn sai" = cost thật + exit skill
+### §5.5 — "Wrong Choice" = Real Cost + Exit Skill
 
 ```
-🟡 TOXIC RELATIONSHIP = COMPILED SUPPRESS OWN DRIVES:
+🟡 TOXIC RELATIONSHIP = COMPILED SUPPRESS OF OWN DRIVES:
 
   (Entity-Access-Excess.md v1.0, Bond-Architecture.md v2.0 §4)
 
-  KHI GAP SOURCE C+D DOMINANT:
-    → Entity's autonomy VIOLATED → entity phải conform
-    → MÌNH cũng bị: friend/partner with C gap → MÌNH suppress drives
-    → Compiled-Suppress kicks in: "không dám khác" → flattens affect
-    → Resonance DIES vì by-product SOURCE bị tắt (own drives suppressed)
+  WHEN GAP SOURCE C+D DOMINANT:
+    → Entity's autonomy VIOLATED → entity must conform
+    → YOU are also affected: friend/partner with C gap → YOU suppress your drives
+    → Compiled-Suppress kicks in: "don't dare to be different" → flattens affect
+    → Resonance DIES because the by-product SOURCE is extinguished (own drives suppressed)
 
-  EXIT COST AWARENESS — QUAN TRỌNG DẠY TỪ SỚM:
+  EXIT COST AWARENESS — IMPORTANT TO TEACH EARLY:
     (Entity-Access-Calibration.md v1.0 §3: 3-Layer Exit Cost)
 
     Entity-Compiled deep + long duration → exit cost HIGH
-    → "Biết không hợp nhưng KHÔNG DÁM tách"
-    → = Compiled suppress tích lũy → damage compound
-    → "Tách ra ĐÚNG LÚC" = SKILL, not failure
+    → "I know we're not a good match but I CAN'T LEAVE"
+    → = Compiled suppress accumulates → damage compounds
+    → "Leaving AT THE RIGHT TIME" = SKILL, not failure
 
-  ⭐ CHO EDUCATION:
+  ⭐ FOR EDUCATION:
 
-    ① Nhận biết signals "đang bị suppress":
-      "Mình ĐÃ TỪNG thích X nhưng giờ không dám" → compiled suppress active
-      "Mình không biết MÌNH muốn gì nữa" → Self-Pattern-Modeling self atrophy
+    ① Recognize signals "being suppressed":
+      "I USED TO enjoy X but now I don't dare to" → compiled suppress active
+      "I don't know what I WANT anymore" → Self-Pattern-Modeling self atrophying
 
-    ② Normalize tách ra:
-      "Mất bạn = buồn → NHƯNG giữ relationship phá mình = BUỒN HƠN"
+    ② Normalize leaving:
+      "Losing a friend = sad → BUT keeping a relationship that damages you = SADDER"
       "Friendship loss = ambiguous grief" → no social ritual → teach self-ritual
 
-    ③ Phân biệt conflict vs suppress:
-      Conflict = BÌNH THƯỜNG (disagreement + repair → stronger)
-      Suppress = IM LẶNG (Type 2 Introjected silence → burnout)
+    ③ Distinguish conflict vs suppress:
+      Conflict = NORMAL (disagreement + repair → stronger)
+      Suppress = SILENCE (Type 2 Introjected silence → burnout)
       → Gottman: stonewalling = predictor of dissolution
       → Conflict + repair > no conflict + suppress
 
@@ -1395,106 +1394,106 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Gottman: stonewalling predictor (established)
 ```
 
-### §5.6 — Trust Calibration: Dạy Đánh Giá Trust Per-Entity
+### §5.6 — Trust Calibration: Teaching Per-Entity Trust Assessment
 
 ```
-⭐⭐ TRUST = COMPILED PREDICTION VỀ GAP-FILL RELIABILITY:
+⭐⭐ TRUST = COMPILED PREDICTION ABOUT GAP-FILL RELIABILITY:
 
   (Trust.md v1.0 §1 — source-of-truth)
 
   Trust = compiled prediction about entity's gap-fill RELIABILITY.
-  Trust ≠ Valence: "thích" ≠ "tin cậy được"
-    → Thích bạn mới (valence +) nhưng CHƯA TIN bạn giữ bí mật (trust ?)
-    → Sợ bố (valence -) nhưng BIẾT bố nói đúng (trust-competence +)
-    → "Chọn bạn" = ĐÁNH GIÁ TRUST, không chỉ đánh giá "thích không thích"
+  Trust ≠ Valence: "liking" ≠ "being trustworthy"
+    → Like a new friend (valence +) but DON'T YET TRUST them to keep a secret (trust ?)
+    → Fear a parent (valence -) but KNOW parent speaks truthfully (trust-competence +)
+    → "Choosing friends" = EVALUATING TRUST, not just evaluating "do I like them"
 
 
-  ⭐ 3 SUB-DIMENSIONS — ĐÁNH GIÁ TÁCH BIỆT:
+  ⭐ 3 SUB-DIMENSIONS — EVALUATE SEPARATELY:
 
     (Trust.md v1.0 §1)
     🟢 Mayer, Davis & Schoorman 1995: ability + benevolence + integrity
 
-    ┌────────────────────┬────────────────────────────────────────────────┐
-    │ Sub-dimension       │ Áp dụng cho "chọn bạn"                       │
-    ├────────────────────┼────────────────────────────────────────────────┤
-    │ ① Trust-Authority  │ "Bạn này CÓ QUYỀN gì trong group?"           │
-    │ (có quyền)         │ → Lớp trưởng ≠ bạn thân (authority ≠ trust)  │
-    ├────────────────────┼────────────────────────────────────────────────┤
-    │ ② Trust-Competence │ "Bạn này GIỎI gì?"                           │
-    │ (có năng lực)      │ → Tin bạn giỏi toán ≠ tin bạn cho lời khuyên │
-    │                    │   tốt (per-domain calibration)                │
-    ├────────────────────┼────────────────────────────────────────────────┤
-    │ ③ Trust-Intention  │ "Bạn này MUỐN TỐT cho mình?"                 │
-    │ (có thiện ý)       │ → Bạn giỏi + ý tốt = trust FULL              │
-    │                    │   Bạn giỏi + ý xấu = exploit risk            │
-    └────────────────────┴────────────────────────────────────────────────┘
+    ┌────────────────────┬─────────────────────────────────────────────────┐
+    │ Sub-dimension       │ Applied to "choosing friends"                  │
+    ├────────────────────┼─────────────────────────────────────────────────┤
+    │ ① Trust-Authority  │ "What AUTHORITY does this person have in the   │
+    │ (has authority)    │ group?" → Class president ≠ close friend        │
+    │                    │ (authority ≠ trust)                             │
+    ├────────────────────┼─────────────────────────────────────────────────┤
+    │ ② Trust-Competence │ "What is this person GOOD AT?"                 │
+    │ (has ability)      │ → Trusting them in math ≠ trusting their        │
+    │                    │   relationship advice (per-domain calibration)  │
+    ├────────────────────┼─────────────────────────────────────────────────┤
+    │ ③ Trust-Intention  │ "Does this person WANT WHAT'S GOOD for me?"    │
+    │ (has goodwill)     │ → Competent + good intentions = FULL trust      │
+    │                    │   Competent + bad intentions = exploit risk     │
+    └────────────────────┴─────────────────────────────────────────────────┘
 
-    → 3 chiều ĐỘC LẬP: HIGH ở 1 ≠ HIGH ở tất cả
-    → Dạy trẻ: đánh giá 3 chiều RIÊNG, không gộp thành "tin/không tin"
+    → 3 dimensions are INDEPENDENT: HIGH in 1 ≠ HIGH in all
+    → Teach children: evaluate all 3 dimensions SEPARATELY, not lump into "trust/don't trust"
 
 
-  ⭐ DEFAULT → CALIBRATED — 4 PHASES × TUỔI:
+  ⭐ DEFAULT → CALIBRATED — 4 PHASES × AGE:
 
     (Trust.md v1.0 §5)
 
-    ┌──────────────────┬──────────────┬────────────────────────────────────┐
-    │ Phase            │ Tuổi tương   │ Cho education                      │
-    │                  │ đương        │                                    │
-    ├──────────────────┼──────────────┼────────────────────────────────────┤
-    │ 1. INSTALLED     │ 0-6          │ "Tất cả thầy = đáng tin"           │
-    │                  │              │ → USE this: trẻ sẵn sàng learn    │
-    ├──────────────────┼──────────────┼────────────────────────────────────┤
-    │ 2. DEFAULT       │ 6-15         │ Installed trust HOẠT ĐỘNG          │
-    │ OPERATION        │              │ → Chưa verify ĐƯỢC → evolutionary │
-    │                  │              │   FUNCTIONAL. RESPECT this.        │
-    ├──────────────────┼──────────────┼────────────────────────────────────┤
-    │ 3. CALIBRATE     │ 15+          │ Direct experience → detect         │
-    │                  │              │ mismatch → trust SPLIT per-domain  │
-    │                  │              │ → DẠY calibration SKILL ở đây     │
-    ├──────────────────┼──────────────┼────────────────────────────────────┤
-    │ 4. DOMAIN        │ Khi conflict │ Override installed trust khi       │
-    │ OVERRIDE         │ sustained    │ domain reality contradicts         │
-    │                  │              │ → ENCOURAGE critical thinking      │
-    └──────────────────┴──────────────┴────────────────────────────────────┘
+    ┌────────────────────┬──────────────┬──────────────────────────────────────┐
+    │ Phase              │ Approx. age  │ For education                        │
+    ├────────────────────┼──────────────┼──────────────────────────────────────┤
+    │ 1. INSTALLED       │ 0–6          │ "All teachers = trustworthy"         │
+    │                    │              │ → USE this: children ready to learn  │
+    ├────────────────────┼──────────────┼──────────────────────────────────────┤
+    │ 2. DEFAULT         │ 6–15         │ Installed trust OPERATING            │
+    │ OPERATION          │              │ → Can't verify yet → evolutionarily  │
+    │                    │              │   FUNCTIONAL. RESPECT this.          │
+    ├────────────────────┼──────────────┼──────────────────────────────────────┤
+    │ 3. CALIBRATE       │ 15+          │ Direct experience → detect mismatch  │
+    │                    │              │ → trust SPLITS per-domain            │
+    │                    │              │ → TEACH calibration SKILL here       │
+    ├────────────────────┼──────────────┼──────────────────────────────────────┤
+    │ 4. DOMAIN          │ When conflict │ Override installed trust when        │
+    │ OVERRIDE           │ sustained    │ domain reality contradicts           │
+    │                    │              │ → ENCOURAGE critical thinking        │
+    └────────────────────┴──────────────┴──────────────────────────────────────┘
 
-    ⭐ EDUCATIONAL IMPLICATION:
-      → 0-6: ĐỪNG phá installed trust (trẻ CẦN tin để compile — §3.3)
-      → 6-12: trust ĐANG hoạt động — tận dụng, đừng lạm dụng
-      → 12+: DẠY calibration: "tin PER-DOMAIN, không trust blanket"
-      → "Trust calibration" = SKILL phải dạy — không tự có
+    ⭐ EDUCATIONAL IMPLICATIONS:
+      → 0–6: DON'T damage installed trust (children NEED it to compile — §3.3)
+      → 6–12: trust IS OPERATING — leverage it, don't abuse it
+      → 12+: TEACH calibration: "trust PER-DOMAIN, not blanket trust"
+      → "Trust calibration" = SKILL that must be taught — not automatically acquired
 
 
   ⚠️ TRUST GENERALIZATION WARNING:
 
     (Trust.md v1.0 §5 Phase 2, Collective-Body §5.3)
 
-    Default: trust per-ENTITY, KHÔNG per-domain.
-    → Trust thầy dạy toán → TỰ ĐỘNG trust thầy nói về sức khỏe
-    → Trust KOL review phone → TỰ ĐỘNG trust KOL nói về crypto
-    → = CROSS-DOMAIN SPILL (evolution design cho small group — modern = DANGEROUS)
+    Default: trust per-ENTITY, NOT per-domain.
+    → Trust a math teacher → AUTOMATICALLY trust the teacher on health matters
+    → Trust a KOL's phone review → AUTOMATICALLY trust them on crypto
+    → = CROSS-DOMAIN SPILL (evolution designed for small groups — modern world = DANGEROUS)
 
-    Dạy:
-    → "TIN ai ở domain NÀO → VERIFY per-domain, KHÔNG trust blanket"
-    → "Người nổi tiếng nói vaccine xấu" = trust generalization exploit
-    → Self-Observation Mức 3+ CẦN THIẾT cho trust calibration (§2.5):
-      body signal mismatch = trust data → cần DETECT được
+    Teach:
+    → "Trust someone in WHICH domain → VERIFY per-domain, NOT blanket trust"
+    → "A famous person saying a vaccine is harmful" = trust generalization exploit
+    → Self-Observation Level 3+ IS NEEDED for trust calibration (§2.5):
+      body signal mismatch = trust data → needs to be DETECTABLE
     → 🟢 Csibra & Gergely 2009: epistemic trust non-selective default
 
-  ⭐ CHO EDUCATION — KẾT HỢP VỚI §5.1-§5.5:
+  ⭐ FOR EDUCATION — COMBINED WITH §5.1–§5.5:
 
-    ① Entity-Access calibration (§5.1) + Trust calibration = CÙNG process:
-      → Chọn ai ở Mức mấy = Entity-Access
-      → Tin ai ở domain nào = Trust calibration
-      → DẠY CÙNG LÚC từ 12+
+    ① Entity-Access calibration (§5.1) + Trust calibration = SAME process:
+      → Who to place at which Level = Entity-Access
+      → Whom to trust in which domain = Trust calibration
+      → TEACH TOGETHER from age 12+
 
     ② Gap source A:B (§5.3) = Trust-Intention positive
        Gap source C:D (§5.3) = Trust-Intention questionable
-       → Trust sub-dimensions GIẢI THÍCH tại sao C:D relationship feels wrong
+       → Trust sub-dimensions EXPLAIN why C:D relationships feel wrong
 
     ③ Exit skill (§5.5) + Trust collapse:
-       → Trust collapse (betrayal) → exit NHANH HƠN (no trust = no base)
-       → Trust erode (gradual) → exit CHẬM (still some trust holding)
-       → Dạy: detect trust erosion TRƯỚC khi collapse
+       → Trust collapse (betrayal) → exit FASTER (no trust = no base)
+       → Trust eroding (gradual) → exit SLOWER (still some trust holding)
+       → Teach: detect trust erosion BEFORE it collapses
 
   🟡 Trust calibration as selection skill = framework synthesis
   🟢 Trust 3 antecedents: Mayer, Davis & Schoorman 1995
@@ -1504,34 +1503,34 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §6 — DUY TRÌ CONNECTION — SUSTAINABILITY
+## §6 — SUSTAINING CONNECTION — SUSTAINABILITY
 
-### §6.1 — 4-Layer Sustainability model
+### §6.1 — 4-Layer Sustainability Model
 
 ```
-⭐ 4-LAYER MODEL — TẦNG DƯỚI FAIL → TẤT CẢ COLLAPSE:
+⭐ 4-LAYER MODEL — LOWER LAYER FAILS → EVERYTHING COLLAPSES:
 
   (Resonance-Sustainability.md v1.0 — source-of-truth)
   (Connection.md v5.0 §4.6)
 
 
-  TẦNG 1 — FOUNDATION: 3 ĐIỀU KIỆN TỐI THIỂU
+  LAYER 1 — FOUNDATION: 3 MINIMUM CONDITIONS
 
-    ① PROXIMITY: cùng không gian (physical > video > text)
-    ② DURATION: 40-60h casual → 80-100h friend → 200+h close friend
+    ① PROXIMITY: same space (physical > video > text)
+    ② DURATION: 40–60h casual → 80–100h friend → 200+h close friend
        🟢 Hall 2019: leisure time counts MORE than work time
-    ③ AGENT-MODE: Self-Pattern-Modeling predict STATE (not just function)
+    ③ AGENT-MODE: Self-Pattern-Modeling predicts STATE (not just function)
 
-    → Thiếu 1 = resonance KHÔNG EMERGE
-    → 10 năm đồng nghiệp nhưng Tool-mode → connection = 0
-    → Mới gặp 40h nhưng Agent-mode deep → friendship forming
+    → Missing 1 = resonance DOES NOT EMERGE
+    → 10 years of colleagues but Tool-mode → connection = 0
+    → Met 40 hours but deep Agent-mode → friendship forming
 
 
-  TẦNG 2 — MODALITY: 3 KÊNH ĐỘC LẬP
+  LAYER 2 — MODALITY: 3 INDEPENDENT CHANNELS
 
     ❶ VERBAL (Generative dominant):
       Self-disclosure, novelty injection, repair, calibration
-      = Kênh DUY NHẤT cho conflict repair
+      = THE ONLY channel for conflict repair
 
     ❷ NON-VERBAL (mixed):
       Bids, eye contact, availability signals
@@ -1539,20 +1538,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ❸ BODY-LEVEL (Tonic dominant):
       HR/respiratory sync, touch, co-regulation
-      = Cần physical proximity — technology CANNOT replicate
+      = Requires physical proximity — technology CANNOT replicate
 
-    ⭐ SILENCE 4 LOẠI:
-      Type 1 INTRINSIC: cùng đọc sách → body sync → ✅ SUSTAINABLE
-      Type 2 INTROJECTED: sợ bị judge nên im → ❌ BURNOUT
+    ⭐ 4 TYPES OF SILENCE:
+      Type 1 INTRINSIC: reading together → body sync → ✅ SUSTAINABLE
+      Type 2 INTROJECTED: afraid of being judged so silent → ❌ BURNOUT
       Type 3 EXTERNAL: angry control → ❌ DESTRUCTIVE (Gottman: stonewalling)
       Type 4 SPONTANEOUS: natural quiet → ✅ BENIGN
 
 
-  TẦNG 3 — AMPLIFICATION: 3 CƠ CHẾ
+  LAYER 3 — AMPLIFICATION: 3 MECHANISMS
 
     ❶ CAPITALIZATION (Active-Constructive Responding):
-      Partner share good news → respond enthusiastic
-      → Amplifies positive affect BEYOND event itself
+      Partner shares good news → respond enthusiastically
+      → Amplifies positive affect BEYOND the event itself
       🟢 Gable 2006: ACR only type correlating with positive outcomes
 
     ❷ PPR — Perceived Partner Responsiveness:
@@ -1567,191 +1566,191 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       🟢 Feeney 2007
 
 
-  TẦNG 4 — TRAJECTORY:
+  LAYER 4 — TRAJECTORY:
 
     🟢 Ogolsky 2013 (N=12,273): maintenance behaviors DECLINE NATURALLY
     → Decline ≠ pathology — NORMAL over time
-    → Counter: novel shared activities (Aron 2000), support drive riêng, ACR
+    → Counter: novel shared activities (Aron 2000), support own drives, ACR
 
-  ⭐ CHO EDUCATION:
-    Tầng 1: đảm bảo proximity + duration + agent-mode (structural)
-    Tầng 2: dạy response to bids, listen, body presence (skill)
-    Tầng 3: dạy capitalization + "bạn feel gì?" (practice)
-    Tầng 4: dạy "connection cần đầu tư liên tục" (mindset)
+  ⭐ FOR EDUCATION:
+    Layer 1: ensure proximity + duration + agent-mode (structural)
+    Layer 2: teach responding to bids, listening, body presence (skill)
+    Layer 3: teach capitalization + "how do you feel?" (practice)
+    Layer 4: teach "connection needs continuous investment" (mindset)
 ```
 
-### §6.2 — Resonance Decline — normalize
+### §6.2 — Resonance Decline — Normalize
 
 ```
-⭐ CONNECTION TỰ NHIÊN PHAI — 2 FORCES + 1 FUEL (Bond-Architecture v2.0 §4):
+⭐ CONNECTION NATURALLY FADES — 2 FORCES + 1 FUEL (Bond-Architecture v2.0 §4):
 
   (Bond-Architecture.md v2.0 §4, Connection.md v5.0 §4.5)
 
-  Dạy trẻ HIỂU + NORMALIZE:
+  Teach children to UNDERSTAND + NORMALIZE:
 
 
-  FORCE: COMPILED-SUPPRESS (★ LEVERAGE POINT — tấn công NGUỒN):
+  FORCE: COMPILED-SUPPRESS (★ LEVERAGE POINT — attacks the SOURCE):
 
-    → "Phải giống nhau" → suppress own drives → flattens affect
-    → Eliminates by-product SOURCE → resonance dies
-    → INVISIBLE: tự suppress → không biết đang suppress
+    → "Must be alike" → suppress own drives → flattens affect
+    → Eliminates the by-product SOURCE → resonance dies
+    → INVISIBLE: self-suppresses → doesn't know it's happening
 
     Compiled-Suppress ACCELERATES Reward-Habituated + DRAINS novelty fuel:
-      Suppress → less growth → novelty fuel CẠN
-      Suppress → less novelty → Reward-Habituated NHANH HƠN
+      Suppress → less growth → novelty fuel DEPLETES
+      Suppress → less novelty → Reward-Habituated FASTER
 
-    FIX Compiled-Suppress = giải phóng drive riêng → tự động counter tất cả
+    FIXING Compiled-Suppress = liberating own drives → automatically counters everything
 
     🟢 Muise & Goss 2024: closeness requires "otherness"
     🟢 Gottman Type 2 divorce: 16-year fade = Compiled-Suppress slowly killing resonance
 
 
-  FORCE: REWARD-HABITUATED (hardware adaptation, ĐỘC LẬP):
+  FORCE: REWARD-HABITUATED (hardware adaptation, INDEPENDENT):
 
-    → Repeated stimulus → VTA fire GIẢM → "nhìn quen rồi" (Weber-Fechner)
-    → KHÔNG phải failure — là NATURAL MECHANISM
-    → Hardware-subsidy COUNTERS: mẹ→con (MAX) vs bạn (NONE)
-    → Xảy ra NGAY CẢ không Compiled-Suppress (hardware tự nhiên)
+    → Repeated stimulus → VTA firing DECREASES → "looks familiar now" (Weber-Fechner)
+    → NOT a failure — is a NATURAL MECHANISM
+    → Hardware-Subsidy COUNTERS: mother→child (MAX) vs friends (NONE)
+    → Happens EVEN WITHOUT Compiled-Suppress (natural hardware)
 
     🟢 Bao & Lyubomirsky 2013: hedonic adaptation in relationships
 
 
   FUEL: NOVELTY ≥ THRESHOLD? (calibration parameter, PROBABILISTIC):
 
-    → 2 lenses cùng 1 phenomenon:
-      Lens prediction: Self-Pattern-Modeling quá accurate → prediction-delta = 0 → no NEW reward
-      Lens knowledge: After 200+h → Entity-Compiled formation plateau → few NEW chunks
-    → "Biết hết rồi" = novelty dưới ngưỡng
-    → Threshold khác nhau mỗi bond — KHÔNG đo chính xác
+    → 2 lenses on the same phenomenon:
+      Prediction lens: Self-Pattern-Modeling too accurate → prediction-delta = 0 → no NEW reward
+      Knowledge lens: After 200+h → Entity-Compiled formation plateaus → few NEW chunks
+    → "Know everything already" = novelty below threshold
+    → Threshold differs per bond — CANNOT be measured precisely
 
     🟢 Baumeister & Bratslavsky 1999: passion = RATE OF CHANGE in intimacy
     🟢 Aron & Aron 1996: self-expansion slows → satisfaction drops
 
 
-  ⭐ CHO EDUCATION:
+  ⭐ FOR EDUCATION:
 
-    ① NORMALIZE: "Connection phai = BÌNH THƯỜNG, không phải lỗi ai"
-      → Reward-Habituated + novelty exhaustion = natural, KHÔNG thể tắt
-      → Dạy trẻ: "relationship cần MAINTENANCE, giống cơ thể cần exercise"
+    ① NORMALIZE: "Connection fading = NORMAL, not anyone's fault"
+      → Reward-Habituated + novelty exhaustion = natural, CANNOT be switched off
+      → Teach children: "relationships need MAINTENANCE, like a body needs exercise"
 
-    ② DẠY ANTI-COMPILED-SUPPRESS (counter Compiled-Suppress — ★ LEVERAGE):
-      → "Bạn có drive riêng = GIÁ TRỊ — hỗ trợ bạn theo hướng bạn"
-      → "Ép bạn giống mình → bạn mất drive → connection nhạt dần"
+    ② TEACH ANTI-COMPILED-SUPPRESS (counter Compiled-Suppress — ★ LEVERAGE):
+      → "Your friend has their own drives = VALUABLE — support them in their direction"
+      → "Force your friend to be like you → friend loses drive → connection fades"
       → = Meta-principle: true understanding = anti-compiled-suppress
-      → Fix Compiled-Suppress → tự động counter Reward-Habituated + restore novelty
+      → Fix Compiled-Suppress → automatically counters Reward-Habituated + restores novelty
 
-    ③ DẠY INJECT NOVELTY (counter Reward-Habituated + restore novelty fuel):
-      → Shared novel activities → new prediction-deltas → VTA reactivate
+    ③ TEACH NOVELTY INJECTION (counter Reward-Habituated + restore novelty fuel):
+      → Shared novel activities → new prediction-deltas → VTA reactivates
       → 🟢 Aron 2000: novel experiences → relationship satisfaction
-      → "Cùng thử thứ MỚI" > "cùng làm thứ CŨ thoải mái"
+      → "Try NEW things together" > "do OLD comfortable things together"
 
-    ④ DẠY "NHIỀU BẠN, MỖI DOMAIN" (counter per-entity novelty saturation):
-      → Saturation cho 1 friend ≠ saturation cho friendship
-      → Portfolio: mỗi friend = domain mới = novelty source MỚI
+    ④ TEACH "MULTIPLE FRIENDS, ONE DOMAIN EACH" (counter per-entity novelty saturation):
+      → Saturation with 1 friend ≠ saturation with friendship itself
+      → Portfolio: each friend = new domain = NEW novelty source
 ```
 
-### §6.3 — Hardware-Subsidy × maintenance effort
+### §6.3 — Hardware-Subsidy × Maintenance Effort
 
 ```
-🟡 HARDWARE-SUBSIDY GIẢI THÍCH TẠI SAO CÁC BOND KHÁC NHAU:
+🟡 HARDWARE-SUBSIDY EXPLAINS WHY BONDS DIFFER:
 
   (Resonance-Per-Entity.md v1.0 §2)
 
 
-  MẸ → CON (MAXIMUM subsidy):
-    → Bond BỀN DÙ routine → hardware PROTECT
-    → "Mẹ chán con" = pathological (hardware fail)
-    → CHO EDUCATION: parent reassurance — bond này TỰ BẢO VỆ
-    → Mẹ đừng lo "không đủ yêu" — hardware đã invest sẵn
+  PARENT → CHILD (MAXIMUM subsidy):
+    → Bond DURABLE DESPITE routine → hardware PROTECTS
+    → "Parent tiring of child" = pathological (hardware failure)
+    → FOR EDUCATION: parent reassurance — this bond IS SELF-PROTECTING
+    → Parents shouldn't worry "I don't love enough" — hardware already invested
 
   KIN (MODERATE subsidy):
     → 🟢 Roberts & Dunbar 2011: kin resilient without contact
-    → "Lâu không gặp anh/chị/em → gặp lại vẫn thân"
-    → CHO EDUCATION: kin bond = built-in safety net — normalize
+    → "Haven't seen siblings for years → meet again and still close"
+    → FOR EDUCATION: kin bond = built-in safety net — normalize
 
   ROMANTIC (TEMPORARY subsidy):
-    → Limerence 18-36 tháng → subsidy EXPIRES → test thật
-    → "Hết lửa" = BÌNH THƯỜNG (temporary subsidy expired)
-    → CHO EDUCATION (12-18): 
-      "Yêu say đắm" = phase, KHÔNG PHẢI tình yêu thật
-      Tình yêu thật = SAU limerence, nếu genuine resonance tồn tại
-      → 4 hướng: hay / không match / chán / toxic (Love-Romantic §10.4)
+    → Limerence 18–36 months → subsidy EXPIRES → true test
+    → "The fire fading" = NORMAL (temporary subsidy expired)
+    → FOR EDUCATION (ages 12–18):
+      "Intense love" = a phase, NOT permanent
+      True love = AFTER limerence, if genuine resonance still exists
+      → 4 directions: good / no match / complacency / toxic (Love-Romantic §10.4)
 
-  BẠN THÂN (NONE):
+  CLOSE FRIENDS (NONE):
     → ENTIRELY dependent on by-product match quality
     → Must ACTIVELY maintain through novelty + contact
-    → "Không gặp 3 tháng → xa dần" = no subsidy
-    → CHO EDUCATION:
-      "Friendship CẦN đầu tư" — body KHÔNG tự bảo trì bond này
-      "Gặp nhau + làm thứ mới = duy trì" — deliberate effort
+    → "Haven't seen in 3 months → drifting apart" = no subsidy
+    → FOR EDUCATION:
+      "Friendship NEEDS investment" — body does NOT self-maintain this bond
+      "Spend time + do new things = maintain" — deliberate effort
 
-  → = Hardware-Subsidy giải thích HIERARCHY bền vững:
-    Mẹ→con >> Kin > Romantic (lâu dài) > Bạn thân > Colleague
-    = Tại sao "mất bạn" recover NHANH hơn "mất mẹ"
+  → = Hardware-Subsidy explains DURABILITY HIERARCHY:
+    Parent→child >> Kin > Romantic (long-term) > Close friends > Colleagues
+    = Why "losing a friend" recovers FASTER than "losing a parent"
 
   🟡 Hardware-Subsidy × maintenance = framework synthesis
   🟢 Each entity-specific mechanism independently established
 ```
 
-### §6.4 — Repair: rupture + repair > no rupture
+### §6.4 — Repair: Rupture + Repair > No Rupture
 
 ```
-🟡 REPAIR = CRITICAL SKILL CHO CONNECTION BỀN VỮNG:
+🟡 REPAIR = CRITICAL SKILL FOR SUSTAINABLE CONNECTION:
 
-  (Resonance-Sustainability.md v1.0 §6-§8)
+  (Resonance-Sustainability.md v1.0 §6–§8)
 
   ⭐ RUPTURE + REPAIR > NO RUPTURE:
-    → No rupture = no calibration data → Self-Pattern-Modeling stale
-    → Rupture + repair = calibration update → Self-Pattern-Modeling IMPROVE
-    → Dạy trẻ: conflict = BÌNH THƯỜNG → repair = SKILL
+    → No rupture = no calibration data → Self-Pattern-Modeling goes stale
+    → Rupture + repair = calibration update → Self-Pattern-Modeling IMPROVES
+    → Teach children: conflict = NORMAL → repair = SKILL
 
   ACTIVE-CONSTRUCTIVE RESPONDING (amplifier):
-    Bạn share good news → respond HOW matters:
-      Active-Constructive: "Tuyệt vời! Kể thêm đi!" → AMPLIFY positive
-      Passive-Constructive: "Ờ, tốt nhỉ" → FLAT
-      Active-Destructive: "Nhưng mà..." → KILL positive
-      Passive-Destructive: "Ừ. Mình đói" → IGNORE
+    Partner shares good news → HOW you respond matters:
+      Active-Constructive: "That's amazing! Tell me more!" → AMPLIFY positive
+      Passive-Constructive: "Yeah, that's good" → FLAT
+      Active-Destructive: "But..." → KILL the positive
+      Passive-Destructive: "Hmm. I'm hungry" → IGNORE
 
-    🟢 Gable 2006: CHỈ Active-Constructive correlate with positive outcomes
-    → Dạy trẻ: CÁCH respond to good news = quan trọng hơn handling bad news
+    🟢 Gable 2006: ONLY Active-Constructive correlates with positive outcomes
+    → Teach children: HOW to respond to good news = more important than handling bad news
 
   PERCEIVED PARTNER RESPONSIVENESS:
     🟢 Reis & Shaver 1988: 3 components — Understood + Validated + Cared for
     ⭐ PERCEPTION > actual behavior:
       Secure attachment → perceive MORE responsiveness
-      Anxious attachment → perceive LESS (dù partner DOES respond)
-      → Dạy trẻ self-awareness: "mình ĐANG perceive hay bạn THẬT SỰ?"
+      Anxious attachment → perceive LESS (even when partner DOES respond)
+      → Teach children self-awareness: "am I PERCEIVING correctly, or is my friend ACTUALLY not responding?"
 
   SECURE BASE EFFECT:
     🟢 Feeney 2007: 3 components — Availability + Noninterference + Encouragement
     → Availability: accessible on request (NOT constant hovering)
-    → Noninterference: allow partner's drive riêng (= anti-compiled-suppress)
-    → Encouragement: active signal that exploration VALUED
+    → Noninterference: allow partner's own drives (= anti-compiled-suppress)
+    → Encouragement: active signal that exploration IS VALUED
 
   ⭐ TRUST REPAIR ≠ CONNECTION REPAIR:
 
     (Trust.md v1.0 §4)
 
     Connection rupture + repair = calibration data → relationship STRONGER
-    NHƯNG: Trust repair KHÁC NHỊP:
-      → Connection repair: "xin lỗi → ôm → ok" (hours/days)
-      → Trust rebuild: data points mới tích lũy (MONTHS)
-      → 1 betrayal collapse trust → rebuild ≈ build from near-zero
+    BUT: Trust repair runs at a DIFFERENT PACE:
+      → Connection repair: "sorry → hug → OK" (hours/days)
+      → Trust rebuild: new data points accumulate (MONTHS)
+      → 1 betrayal collapses trust → rebuild ≈ build from near-zero
 
-    Dạy trẻ:
-    → "Xin lỗi = sửa connection. Trust = cần THỜI GIAN chứng minh LẠI"
-    → "Bạn nói 'mình sẽ không làm nữa' = LỜI. Trust = hành động LẶP LẠI"
-    → = Patience skill: accept trust rebuild CHẬM hơn connection repair
+    Teach children:
+    → "Apology = fixes connection. Trust = needs TIME to prove itself AGAIN"
+    → "A friend saying 'I won't do it again' = WORDS. Trust = REPEATED actions"
+    → = Patience skill: accept that trust rebuilds SLOWER than connection repairs
 
     🟢 Slovic 1993: trust hard to gain, easy to lose
 
 
-  ⭐ CHO EDUCATION:
-    ① Dạy REPAIR after conflict (not avoid conflict)
-    ② Dạy Active-Constructive Responding (celebrate bạn's wins)
-    ③ Dạy "bạn CÓ THỂ khác — SUPPORT, đừng suppress"
-    ④ Dạy self-awareness: "mình perceive đúng không?"
-    ⑤ Dạy TRUST REPAIR patience: "hành động lặp lại > lời hứa" (Trust §4)
+  ⭐ FOR EDUCATION:
+    ① Teach REPAIR after conflict (not avoid conflict)
+    ② Teach Active-Constructive Responding (celebrate friends' wins)
+    ③ Teach "your friend CAN be different — SUPPORT, don't suppress"
+    ④ Teach self-awareness: "am I perceiving correctly?"
+    ⑤ Teach TRUST REPAIR patience: "repeated actions > promises" (Trust §4)
 
   🟢 Gable 2006, Reis & Shaver 1988, Feeney 2007 = established
   🟢 Trust asymmetry: Slovic 1993
@@ -1760,30 +1759,30 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §7 — NAVIGATE GROUPS
+## §7 — NAVIGATING GROUPS
 
-### §7.1 — Coordination-Node basics
+### §7.1 — Coordination-Node Basics
 
 ```
-🟡 STATUS ≠ TALENT ≠ CONTRIBUTION — 3 CHIỀU ĐỘC LẬP:
+🟡 STATUS ≠ TALENT ≠ CONTRIBUTION — 3 INDEPENDENT DIMENSIONS:
 
-  (Coordination-Node.md v1.2 §0-§1 — source-of-truth)
+  (Coordination-Node.md v1.2 §0–§1 — source-of-truth)
 
-  ⭐ TẠI SAO GROUPS CẦN "NODE":
-    Nhiều agent → coordination problem → transaction cost
-    🟢 Coase 1937: firms exist vì transaction cost
-    → Node = vị trí PHÂN BỔ resource + ĐIỀU PHỐI hành vi tập thể
-    → Node = Partial PFC cho collective (Collective-Body §4.2 ⑥)
+  ⭐ WHY GROUPS NEED "NODES":
+    Many agents → coordination problem → transaction cost
+    🟢 Coase 1937: firms exist because of transaction cost
+    → Node = position ALLOCATING resources + COORDINATING collective behavior
+    → Node = Partial PFC for the collective (Collective-Body §4.2 ⑥)
 
-  3 CHIỀU ĐỘC LẬP:
-    STATUS: "Tôi ĐƯỢC LẤY GÌ" → Resource Access Map → quyền lực
-    TALENT: "Tôi BIẾT LÀM GÌ" → Compiled chunks per domain → năng lực
-    CONTRIBUTION: "Tôi ĐÓNG GÓP GÌ" → Value produced → giá trị thật
+  3 INDEPENDENT DIMENSIONS:
+    STATUS: "What I GET TO TAKE" → Resource Access Map → power
+    TALENT: "What I KNOW HOW TO DO" → Compiled chunks per domain → ability
+    CONTRIBUTION: "What I GIVE" → Value produced → actual value
 
-    → CÓ STATUS NHƯNG KHÔNG TALENT: vua thừa kế (node nhưng incompetent)
-    → CÓ TALENT NHƯNG KHÔNG STATUS: Einstein (brilliant nhưng không decide)
-    → CÓ CONTRIBUTION NHƯNG KHÔNG STATUS: mẹ (giá trị cực cao, status thấp)
-    → Hiểu rõ 3 chiều = hiểu phần lớn xã hội
+    → HAS STATUS BUT NO TALENT: inherited ruler (node but incompetent)
+    → HAS TALENT BUT NO STATUS: Einstein (brilliant but doesn't decide)
+    → HAS CONTRIBUTION BUT NO STATUS: a mother (extremely high value, low status)
+    → Understanding all 3 dimensions = understanding most of society
 
 
   2 ROUTES TO NODE — PRESTIGE VS DOMINANCE:
@@ -1791,46 +1790,46 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     (Coordination-Node.md v1.2 §1.4, By-Product-Scale.md v1.0)
 
     PRESTIGE = genuine resonance (opioid pathway):
-      → Knowledge value → node được FOLLOW vì USEFUL
+      → Knowledge value → node is FOLLOWED because USEFUL
       → Others feel REWARDED when near → by-product approach
-      → = Người mentor giỏi, leader truyền cảm hứng
+      → = A great mentor, an inspiring leader
       🟢 Henrich & Gil-White 2001: prestige = knowledge-based status
 
     DOMINANCE = forced resonance (relief tag):
-      → Force → node được OBEY vì SỢ
+      → Force → node is OBEYED because of FEAR
       → Others feel RELIEF when away → avoidance relief
-      → = Bully, dictator, controlling boss
+      → = A bully, a dictator, a controlling boss
       🟢 Henrich & Gil-White 2001: dominance = coercion-based status
 
 
-  ⭐ CHO EDUCATION:
+  ⭐ FOR EDUCATION:
 
-    ① Dạy PRESTIGE path:
-      "Muốn được follow → build KNOWLEDGE + SKILL"
-      "Muốn bạn bè → TẠO GIÁ TRỊ, không ÉP BUỘC"
+    ① Teach the PRESTIGE path:
+      "Want to be followed → build KNOWLEDGE + SKILL"
+      "Want friends → CREATE VALUE, don't COERCE"
       "Prestige = people CHOOSE to follow you (by-product match)"
 
-    ② Dạy nhận biết DOMINANCE:
-      "Bully = forced resonance — people follow vì SỢ, không vì MUỐN"
-      "Dominance NODE thất bại dài hạn (resentment tích lũy)"
-      → Không phải "bully = bad person" (moral) → "bully = unsustainable strategy" (pragmatic)
+    ② Teach recognizing DOMINANCE:
+      "A bully = forced resonance — people follow out of FEAR, not WANTING"
+      "Dominance nodes fail long-term (resentment accumulates)"
+      → Not "bullies are bad people" (moral) → "bullying = unsustainable strategy" (pragmatic)
 
-    ③ Dạy 3-chiều distinction:
+    ③ Teach the 3-dimension distinction:
       "Popular ≠ talented ≠ useful" → clear thinking about social hierarchy
-      "Người giỏi nhất KHÔNG PHẢI lúc nào cũng popular nhất"
-      → Normalize: talent path khác status path
+      "The most talented person is NOT always the most popular"
+      → Normalize: talent path ≠ status path
 
-    ④ Dạy POSITION TRUST vs PERSON TRUST (Trust.md v1.0 §10):
-      (Trust.md §10: Trust trong Coordination-Node)
-      Position trust: "tin VỊ TRÍ" (thầy giáo, bác sĩ, cảnh sát)
-        → = trust-authority per-POSITION, không per-person
-        → Trẻ default = gộp position + person trust (Phase 1-2)
-      Person trust: "tin NGƯỜI NÀY cụ thể" (thầy A vs thầy B)
+    ④ Teach POSITION TRUST vs PERSON TRUST (Trust.md v1.0 §10):
+      (Trust.md §10: Trust in Coordination-Node)
+      Position trust: "trust the POSITION" (teacher, doctor, police officer)
+        → = trust-authority per-POSITION, not per-person
+        → Children default = lumping position + person trust (Phase 1–2)
+      Person trust: "trust THIS SPECIFIC PERSON" (teacher A vs teacher B)
         → = trust-competence + trust-intention per-PERSON
-        → Calibrate qua direct experience (Phase 3+)
-      Dạy PHÂN BIỆT:
-        → "Tin bác sĩ NÓI CHUNG (position) ≠ tin bác sĩ NÀY (person)"
-        → "Thầy giáo có quyền DẠY (authority) nhưng có thể DẠY SAI (competence)"
+        → Calibrate via direct experience (Phase 3+)
+      Teach THE DISTINCTION:
+        → "Trusting doctors IN GENERAL (position) ≠ trusting THIS doctor (person)"
+        → "A teacher has the authority TO TEACH (authority) but might TEACH INCORRECTLY (competence)"
         → = Trust sub-dimensions (§5.6) applied to institutional context
 
   🟡 Status × Talent × Contribution = framework synthesis
@@ -1838,35 +1837,35 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Transaction cost: Coase 1937
 ```
 
-### §7.2 — Mẹ = first coordination node
+### §7.2 — Mother = First Coordination Node
 
 ```
-🟡 MẸ = NODE ĐẦU TIÊN CỦA TRẺ:
+🟡 A PARENT = THE CHILD'S FIRST COORDINATION NODE:
 
   (Coordination-Node.md v1.2 §2.5, By-Product-Scale.md v1.0 §9)
 
   SCALE PROGRESSION:
-    MẸ (0-3) → first coordination node (allocate, protect, teach)
-    TEACHER (3-12) → classroom node (distribute attention, organize)
-    PEER LEADER (6-18) → small group node (informal, prestige-based)
+    PARENT (0–3) → first coordination node (allocate, protect, teach)
+    TEACHER (3–12) → classroom node (distribute attention, organize)
+    PEER LEADER (6–18) → small group node (informal, prestige-based)
     BOSS (18+) → institutional node (formal, role-based)
 
-  MẸ AS NODE — 5 CAPABILITIES preview:
-    ① Self-Pattern-Modeling across domains: "con đang cần gì?"
-    ② Gap detection: "con đói hay mệt?"
-    ③ PFC bandwidth: multi-task cho child's needs
-    ④ Uncertainty tolerance: "không biết tại sao con khóc" → still respond
-    ⑤ Trust cascade: child trusts mẹ → mẹ's decisions accepted
+  PARENT AS NODE — 5 CAPABILITIES PREVIEW:
+    ① Self-Pattern-Modeling across domains: "what does my child need right now?"
+    ② Gap detection: "is my child hungry or tired?"
+    ③ PFC bandwidth: multi-task for the child's needs
+    ④ Uncertainty tolerance: "I don't know why my child is crying" → still respond
+    ⑤ Trust cascade: child trusts parent → parent's decisions accepted
 
-  ⭐ CHO EDUCATION:
-    → Dạy trẻ NODE SKILLS từ nhỏ qua PRACTICE:
-    → Chơi đóng vai (leader in games): practice ①②
+  ⭐ FOR EDUCATION:
+    → Teach children NODE SKILLS early through PRACTICE:
+    → Role-play (leader in games): practice ①②
     → Group projects: practice ③④
     → Peer mentoring: practice ⑤
-    → = Build coordination capability TRƯỚC khi cần ở adult roles
+    → = Build coordination capability BEFORE it's needed in adult roles
 ```
 
-### §7.3 — Group size × resonance
+### §7.3 — Group Size × Resonance
 
 ```
 🟢 DUNBAR LAYERS = RESONANCE ARCHITECTURE:
@@ -1881,64 +1880,64 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   HARDWARE-SUBSIDY PER SCALE:
     (Coordination-Node.md v1.2 §9.4)
     Scale-Pair (~5): oxytocin pathway → warmth, trust, body-level
-    Scale-Hub (~15-50): serotonin pathway → hierarchy, belonging, status
+    Scale-Hub (~15–50): serotonin pathway → hierarchy, belonging, status
     Scale-Institutional (~150+): trust infrastructure → rules, norms, institutions
 
-  ⭐ CHO EDUCATION:
+  ⭐ FOR EDUCATION:
 
-    ① "Nhóm bạn thân NHỎ = tối ưu cho resonance":
-      → 3-5 close friends = OPTIMAL (deep Entity-Compiled per person)
-      → Lớn hơn → PFC budget chia → shallow per person
+    ① "A SMALL close friend group = OPTIMAL for resonance":
+      → 3–5 close friends = OPTIMAL (deep Entity-Compiled per person)
+      → Larger → PFC budget divided → shallow per person
 
-    ② "Nhóm LỚN = khác dynamics":
-      → 30 bạn cùng lớp ≠ 30 bạn thân → KHÁC level resonance
-      → In-group/out-group = NATURAL (brain categorize → PFC budget)
-      → "Bị tẩy chay" = 8 pathways fire NGƯỢC → body THẬT SỰ ĐAU
-        (Connection.md v5.0 §5.2: tệ hơn cô đơn)
+    ② "A LARGE group = different dynamics":
+      → 30 classmates ≠ 30 close friends → DIFFERENT level of resonance
+      → In-group/out-group = NATURAL (brain categorizes → PFC budget)
+      → "Being excluded" = 8 pathways fire IN REVERSE → body TRULY HURTS
+        (Connection.md v5.0 §5.2: worse than loneliness)
 
-    ③ "Navigate group" = SKILL:
-      → Nhận biết prestige vs dominance in group
-      → Nhận biết in-group bias → conscious counter
+    ③ "Navigate groups" = SKILL:
+      → Recognize prestige vs dominance in the group
+      → Recognize in-group bias → consciously counter it
       → Contribute value → earn prestige naturally
 ```
 
-### §7.4 — Inclusion/Exclusion dynamics
+### §7.4 — Inclusion/Exclusion Dynamics
 
 ```
-🟡 BỊ TẨY CHAY = 8 PATHWAYS FIRE NGƯỢC:
+🟡 BEING EXCLUDED = 8 PATHWAYS FIRING IN REVERSE:
 
   (Connection.md v5.0 §5.2)
 
-  Khi bị group EXCLUDE:
+  When excluded by a group:
     ① Mirror → contempt, ridicule
-    ② Co-regulation → cortisol TĂNG (proximity = threat)
-    ⑤ Validation → PHẢN-validate ("mày không thuộc về")
+    ② Co-regulation → cortisol INCREASES (proximity = threat)
+    ⑤ Validation → ANTI-validates ("you don't belong here")
     ⑥ Presence → threat presence, NOT safety
 
-  → NEGATIVE input > zero input → TỆ HƠN CÔ ĐƠN
+  → NEGATIVE input > zero input → WORSE THAN LONELINESS
   → 🟢 Eisenberger 2003: social pain = physical pain pathway
-  → = Body chịu DAMAGE THẬT từ exclusion
+  → = Body suffers REAL DAMAGE from exclusion
 
 
-  ⭐ CHO EDUCATION — DẠY CẢ 2 PHÍA:
+  ⭐ FOR EDUCATION — TEACH BOTH SIDES:
 
-    BỊ LOẠI (recovery):
-      "Body đau THẬT — không phải 'suy nghĩ nhiều quá'"
-      "1 anchor person = ĐỦ (§3.4)" → tìm 1 connection thật
-      "Bị loại từ nhóm này ≠ bị loại từ TẤT CẢ" → perspective
+    THE ONE EXCLUDED (recovery):
+      "Body TRULY hurts — it's not 'overthinking it'"
+      "1 anchor person = ENOUGH (§3.4)" → find 1 real connection
+      "Being rejected by this group ≠ being rejected by EVERYONE" → perspective
 
-    LOẠI NGƯỜI KHÁC (cost awareness):
-      "Khi tẩy chay bạn → bạn body ĐAU THẬT"
-      "Dominance (bully) = forced resonance → UNSUSTAINABLE"
-      "Loại người = TẮT Self-Pattern-Modeling cho họ → dehumanize"
+    THE ONE EXCLUDING (cost awareness):
+      "When you exclude someone → that person's body TRULY HURTS"
+      "Dominance (bullying) = forced resonance → UNSUSTAINABLE"
+      "Excluding someone = TURNING OFF Self-Pattern-Modeling for them → dehumanizing"
       → 🟢 Bandura 1999: Moral Disengagement
-      → 🟢 Haslam 2006: 2 forms dehumanization
+      → 🟢 Haslam 2006: 2 forms of dehumanization
 
-    BYSTANDER:
-      "Nhìn bạn bị loại + không làm gì = đồng ý với dominance"
-      "1 người can thiệp = đủ thay đổi dynamics"
+    BYSTANDERS:
+      "Witnessing exclusion + doing nothing = approving of dominance"
+      "1 person intervening = enough to change the dynamics"
 
-  🟡 8 pathways fire ngược model = framework synthesis
+  🟡 8 pathways fire in reverse model = framework synthesis
   🟢 Social pain research: Eisenberger 2003
   🟢 Moral Disengagement: Bandura 1999
 ```
@@ -1947,200 +1946,200 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §8 — PER-AGE GUIDE
 
-### §8.1 — 0-3 tuổi: NỀN TẢNG — "Connection = safe"
+### §8.1 — Ages 0–3: FOUNDATION — "Connection = Safe"
 
 ```
-🟢🟡 MỤC TIÊU: body compile "người khác = SOURCE of reward"
+🟢🟡 GOAL: body compiles "others = SOURCE of reward"
 
-  (Resonance-Per-Entity.md v1.0 §10: hardware DOMINATE)
+  (Resonance-Per-Entity.md v1.0 §10: hardware DOMINATES)
 
-  KHÔNG DẠY GÌ — CHỈ CHO TRẢI NGHIỆM:
+  DON'T TEACH ANYTHING — JUST PROVIDE EXPERIENCE:
 
     ① Respond contingently:
-      → Trẻ khóc → tới → soothe → "kêu → có người → safe"
+      → Child cries → go to them → soothe → "calling → someone comes → safe"
       → Quality of contingency > quantity of presence
-      → Mẹ đi làm 8 giờ nhưng contingent khi ở nhà
-        > Mẹ ở nhà 24/7 nhưng distracted (Still Face = VIOLATED > UNMET)
+      → Parent works 8 hours but is contingent when home
+        > Parent home 24/7 but distracted (Still Face = VIOLATED > UNMET)
 
     ② Label emotions:
-      → "Con đang đói à?", "Con mệt rồi"
-      → = Build self-chunks = prerequisite cho Self-Pattern-Modeling (§3.2)
+      → "Are you hungry?", "You're tired now"
+      → = Build self-chunks = prerequisite for Self-Pattern-Modeling (§3.2)
 
     ③ Physical connection:
-      → Ôm, bế, chơi cùng → "connection = safe + warm"
-      → 🟢 CT afferent fibers (Löken 2009): hardware cho social touch
+      → Hug, carry, play together → "connection = safe + warm"
+      → 🟢 CT afferent fibers (Löken 2009): hardware for social touch
 
     ④ Co-regulation:
-      → Hold + gaze + voice → 2 bodies sync → cortisol GIẢM cho CẢ HAI
+      → Hold + gaze + voice → 2 bodies sync → cortisol DECREASES for BOTH
 
-  ENTITY-ACCESS: Mức 0 (hardware only). NO choice possible.
-  "Chọn bạn" = VÔ NGHĨA ở tuổi này.
+  ENTITY-ACCESS: Level 0 (hardware only). NO choice possible.
+  "Choosing friends" = MEANINGLESS at this age.
 
-  SELF-OBSERVATION: Mức 0-2 (§2.5):
-    → ② Label emotions = scaffold Mức 2 (Self-Observation §6.2: ON switch)
-    → Caregiver responsive = nền tảng: Mức 2 develop ở ĐÂY
-      → TẤT CẢ social skills giai đoạn sau đều CẦN base này
+  SELF-OBSERVATION: Level 0–2 (§2.5):
+    → ② Labeling emotions = scaffold for Level 2 (Self-Observation §6.2: ON switch)
+    → Responsive caregiver = foundation: Level 2 develops HERE
+      → ALL social skills at later stages NEED this foundation
 
-  ❌ SAI LẦM:
-    → Bỏ mặc: "connection = THIẾU"
-    → "Để tự nín" (cry-it-out extreme): "kêu = vô ích"
-    → = Nền TOÀN BỘ connection yếu vì body chưa feel "connection = pleasant"
+  ❌ MISTAKES:
+    → Abandonment: "connection = ABSENT"
+    → "Let them cry it out" (extreme version): "calling = useless"
+    → = Foundation for ALL connection becomes weak because body hasn't felt "connection = pleasant"
 
   🟢 Attachment theory (Bowlby 1969)
   🟢 Harlow 1958: touch deprivation → social dysfunction
   🟢 Still Face (Tronick 1978): bi-directional response critical
 ```
 
-### §8.2 — 3-6 tuổi: NHẬN BIẾT — "Người khác CŨNG feel"
+### §8.2 — Ages 3–6: RECOGNITION — "Others ALSO Feel"
 
 ```
-🟢🟡 MỤC TIÊU: Self-Pattern-Modeling bắt đầu fire → cho PRACTICE
+🟢🟡 GOAL: Self-Pattern-Modeling starts firing → give them PRACTICE
 
-  (Resonance-Per-Entity.md v1.0 §10: Generative EMERGE)
+  (Resonance-Per-Entity.md v1.0 §10: Generative EMERGES)
 
-  Self-Pattern-Modeling ĐÃ ONLINE (post-rouge test 18-24m):
+  Self-Pattern-Modeling IS ONLINE (post-mirror test 18–24m):
 
-    ① HỎI, KHÔNG GIẢNG:
-      → "Con thấy bạn đang cảm thấy gì?" → Self-Pattern-Modeling FIRE
-      → "Nếu con là bạn → con feel thế nào?" → simulation ACTIVE
-      → Khi trẻ hurt bạn: "Nhìn mặt bạn — bạn đang feel gì?"
-      → Trẻ NHÌN → body simulate → TỰ THẤY → TỰ MUỐN xin lỗi
+    ① ASK, DON'T LECTURE:
+      → "What do you think your friend is feeling?" → Self-Pattern-Modeling FIRES
+      → "If you were your friend → how would you feel?" → simulation ACTIVE
+      → When child hurts a friend: "Look at their face — what are they feeling?"
+      → Child LOOKS → body simulates → SEES IT THEMSELVES → WANTS to apologize
 
     ② ROLE-PLAY + PRETEND PLAY:
-      → "Con làm bác sĩ, mẹ làm bệnh nhân" = Self-Pattern-Modeling practice
-      → = Most effective empathy training ở tuổi này
+      → "You be the doctor, I'll be the patient" = Self-Pattern-Modeling practice
+      → = Most effective empathy training at this age
 
-    ③ ANIMISM = BÌNH THƯỜNG — ĐỪNG SUPPRESS:
-      → "Ghế bị đau" = Self-Pattern-Modeling đang over-apply → ĐANG CALIBRATE
-      → Suppress ("ghế không biết đau!") = suppress Self-Pattern-Modeling practice
-      → Sẽ TỰ calibrate qua experience (4-7 tuổi)
+    ③ ANIMISM = NORMAL — DON'T SUPPRESS:
+      → "The chair got hurt" = Self-Pattern-Modeling over-applying → CALIBRATING
+      → Suppressing ("chairs can't feel pain!") = suppressing Self-Pattern-Modeling practice
+      → Will SELF-CORRECT through experience (ages 4–7)
 
     ④ FIRST FRIENDSHIPS (context-driven):
-      → Entity-Access Mức 0-1: chơi với ai GẦN (proximity dominant)
-      → Bond formation bắt đầu qua play → compile peer schemas
-      → "Chọn bạn" chủ yếu do HOÀN CẢNH, không deliberate
+      → Entity-Access Level 0–1: play with whoever is NEARBY (proximity dominant)
+      → Bond formation begins through play → compile peer schemas
+      → "Choosing friends" is mostly CIRCUMSTANCE, not deliberate
 
-  ❌ SAI LẦM:
-    → "Con phải xin lỗi!" (ép rule, không fire Self-Pattern-Modeling)
-    → Quá ít interaction với trẻ khác → Self-Pattern-Modeling calibrate CHẬM
-    → Suppress animism → suppress Self-Pattern-Modeling practice window
+  ❌ MISTAKES:
+    → "Apologize to your friend!" (forcing the rule, not firing Self-Pattern-Modeling)
+    → Too few interactions with other children → Self-Pattern-Modeling calibrates SLOWLY
+    → Suppressing animism → suppressing Self-Pattern-Modeling practice window
 
-  🟢 Theory of Mind develops 4-5y (Wellman 1990)
-  🟢 Empathy training preschool → prosocial (Schonert-Reichl 2012)
+  🟢 Theory of Mind develops 4–5y (Wellman 1990)
+  🟢 Empathy training at preschool → prosocial (Schonert-Reichl 2012)
   🟢 Piaget 1929: animism phase well-documented
 ```
 
-### §8.3 — 6-12 tuổi: XÂY DỰNG — "Hợp tác = tốt CHO MÌNH"
+### §8.3 — Ages 6–12: BUILDING — "Cooperation = Good FOR ME"
 
 ```
-🟡 MỤC TIÊU: body compile positive-sum + begin active choosing
+🟡 GOAL: body compiles positive-sum + begins active choosing
 
   (Resonance-Per-Entity.md v1.0 §10: hardware + PLAY + social + curiosity)
 
-  ⭐ GIAI ĐOẠN QUAN TRỌNG NHẤT — positive-sum + bond formation:
+  ⭐ MOST IMPORTANT STAGE — positive-sum + bond formation:
 
 
-  ① COOPERATION EXPERIENCE THẬT:
+  ① REAL COOPERATION EXPERIENCES:
 
-    Team project THẬT (output THẬT, không bài tập giả):
-      → CẢ NHÓM thành công → reward CÁ NHÂN → ⑦ shared Imagine-Final
+    REAL team projects (REAL output, not mock exercises):
+      → WHOLE GROUP succeeds → individual reward → ⑦ shared Imagine-Final
     Peer teaching (pathway ⑧):
-      → Trẻ A dạy trẻ B → "share → ĐƯỢC share lại → NET POSITIVE"
-    Giúp bạn — reciprocal (pathway ④):
-      → "invest vào người khác = invest vào FUTURE mình"
+      → Child A teaches Child B → "sharing → something shared back → NET POSITIVE"
+    Helping friends — reciprocal (pathway ④):
+      → "invest in others = invest in FUTURE SELF"
 
 
-  ② DEFECTION COST — hậu quả tự nhiên dạy:
+  ② DEFECTION COST — natural consequences teach:
 
-    → Trẻ lừa bạn → bạn KHÔNG chơi nữa → MẤT partner
-    → KHÔNG cần phạt — HẬU QUẢ TỰ NHIÊN đã là teacher
+    → Child deceives a friend → friend WON'T play anymore → LOSES partner
+    → No punishment needed — NATURAL CONSEQUENCES are already the teacher
     → 🟢 Axelrod 1984: tit-for-tat → cooperation optimal
 
 
-  ③ ENTITY-ACCESS Mức 1-2 — "CHỌN BẠN" BẮT ĐẦU:
+  ③ ENTITY-ACCESS Level 1–2 — "CHOOSING FRIENDS" BEGINS:
 
-    → By-product match detectable (thích chơi cùng ai)
-    → PFC chưa mature → conformity risk (peer pressure MẠNH)
-    → Dạy: "thích chơi với ai = GIÁ TRỊ" (validate choice)
-    → Bond formation: 40→200h active play → close friend EMERGE
+    → By-product match detectable (enjoy being with whom)
+    → PFC not mature → conformity risk (peer pressure STRONG)
+    → Teach: "enjoying being with someone = VALID SIGNAL" (validate the choice)
+    → Bond formation: 40→200h active play → close friend EMERGES
 
-    NHƯNG: PFC chưa đủ cho meta-analysis:
-    → Dạy qua EXPERIENCE, không qua GIẢNG về A:B:C:D
-    → "Chơi với bạn này VUI" (experience) > "Bạn này tốt cho con" (inject)
+    BUT: PFC not sufficient for meta-analysis:
+    → Teach through EXPERIENCE, not through LECTURING about A:B:C:D
+    → "Being with that friend feels GOOD" (experience) > "that friend is good for you" (inject)
 
 
-  ④ EMPATHY + BOUNDARY — dạy CẢ HAI:
+  ④ EMPATHY + BOUNDARY — teach BOTH:
 
-    → "Mình HIỂU bạn cần → nhưng KHÔNG THỂ cho cái này"
-    → Empathy + assertion = relationship TỐT NHẤT
-    → Empathy KHÔNG boundary = bị exploit → avoidance tag tích lũy
-    → = Education cần dạy CẢ HAI
+    → "I UNDERSTAND you need this → but I CAN'T give it right now"
+    → Empathy + assertion = BEST relationships
+    → Empathy WITHOUT boundary = being exploited → avoidance tags accumulate
+    → = Education needs to teach BOTH
 
-  ❌ SAI LẦM:
-    → Chỉ competition (xếp hạng, so sánh):
-      Body compile: "bạn giỏi = THREAT" → zero-sum → ANTI-connection
-    → "Phải giúp bạn vì cô nói" (moral bridge):
-      Body KHÔNG feel reward → quên ngay
+  ❌ MISTAKES:
+    → Only competition (rankings, comparisons):
+      Body compiles: "others being good = THREAT" → zero-sum → ANTI-connection
+    → "Help your friend because teacher says so" (moral bridge):
+      Body DOESN'T feel reward → forgotten immediately
 
   🟢 Cooperative learning (Johnson & Johnson 1989)
   🟢 Game theory (Axelrod 1984): cooperation optimal
 ```
 
-### §8.4 — 12-18 tuổi: META + CALIBRATE — "Hiểu TẠI SAO + CHỌN"
+### §8.4 — Ages 12–18: META + CALIBRATE — "Understand WHY + CHOOSE"
 
 ```
-🟡 MỤC TIÊU: meta-connection + TRUE Entity-Access calibration
+🟡 GOAL: meta-connection + TRUE Entity-Access calibration
 
-  (Resonance-Per-Entity.md v1.0 §10: domain EMERGE, peer > mẹ)
+  (Resonance-Per-Entity.md v1.0 §10: domain EMERGES, peers > parents)
 
-  ⭐ PFC ONLINE → GIAI ĐOẠN DẠY META-SKILLS:
-
-
-  ① META-UNDERSTANDING — hiểu ROOT, không chỉ surface:
-
-    → "Bạn A angry VÌ bạn A sợ bị bỏ rơi" (root)
-    → "Bố mắng VÌ bố lo, không phải VÌ bố ghét" (reframe)
-    → "Người lạ hung dữ VÌ họ đang dissonance" (không personalize)
-    → = Self-Pattern-Modeling fire SÂU HƠN — "TẠI SAO họ feel"
+  ⭐ PFC ONLINE → THE STAGE FOR TEACHING META-SKILLS:
 
 
-  ⭐ SELF-OBSERVATION MỨC 4-5 — TEEN PARADOX (§2.5):
+  ① META-UNDERSTANDING — understand ROOT, not just surface:
+
+    → "Friend A is angry BECAUSE they fear being abandoned" (root)
+    → "Parent scolds BECAUSE they're worried, not BECAUSE they hate me" (reframe)
+    → "A stranger is aggressive BECAUSE they're in dissonance" (don't personalize)
+    → = Self-Pattern-Modeling fires DEEPER — "WHY do they feel that"
+
+
+  ⭐ SELF-OBSERVATION LEVEL 4–5 — TEEN PARADOX (§2.5):
 
     (Self-Observation.md v1.0 §6.3)
     → dlPFC ✅ mature → CAN analyze self, CAN meta-observe
     → vmPFC → Amygdala ❌ incomplete → CAN'T regulate from observation
-    → = "Tôi BIẾT mình đang ngu nhưng KHÔNG DỪNG ĐƯỢC"
-    → Dạy: OBSERVE + accept gap (observation ALONE ≠ change)
-    → vmPFC-body connection mature ~25 → regulate sẽ tới SAU
-    → ⑥ Journaling, debate = Self-Observation Mức 4-5 PRACTICE
+    → = "I KNOW I'm being irrational but CAN'T STOP"
+    → Teach: OBSERVE + accept the gap (observation ALONE ≠ change)
+    → vmPFC-body connection matures ~25 → regulation will come LATER
+    → ⑥ Journaling, debate = Self-Observation Level 4–5 PRACTICE
 
 
   ② ENTITY-ACCESS CALIBRATION (§5 applied):
 
-    PFC đủ mature cho:
-    → Nhận biết A:B vs C:D trong relationships (§5.3)
+    PFC mature enough for:
+    → Recognizing A:B vs C:D in relationships (§5.3)
     → Tool-mode vs Agent-mode awareness (§5.2)
     → PFC budget + Dunbar understanding (§5.4)
-    → Exit skill: "tách ra ĐÚNG LÚC" (§5.5)
+    → Exit skill: "leave AT THE RIGHT TIME" (§5.5)
 
-    → ĐÂY LÀ GIAI ĐOẠN "CHỌN BẠN" THỰC SỰ
-    → Trước 12: chủ yếu context-driven (proximity + chance)
-    → Sau 12: deliberate resonance matching + quality assessment
+    → THIS IS THE STAGE WHERE "CHOOSING FRIENDS" TRULY HAPPENS
+    → Before 12: mostly context-driven (proximity + chance)
+    → After 12: deliberate resonance matching + quality assessment
 
 
   ③ LIMERENCE UNDERSTANDING:
 
-    → "Yêu say đắm" = temporary hardware-subsidy (§6.3)
-    → Limerence MASK mismatch → reveal sau 18-36 tháng
-    → Dạy: "CẢM GIÁC MẠNH ≠ đúng đắn. Hormone talking."
-    → Dạy: "CHỜ qua phase → THẤY match thật"
+    → "Intense love" = temporary hardware-subsidy (§6.3)
+    → Limerence MASKS mismatch → reveals after 18–36 months
+    → Teach: "STRONG FEELINGS ≠ correctness. Hormones talking."
+    → Teach: "WAIT for the phase to pass → SEE the true match"
 
 
   ④ RESONANCE DECLINE AWARENESS:
 
-    → "Connection phai = BÌNH THƯỜNG" (§6.2)
-    → "Ép bạn giống mình = KILL connection" (Compiled-Suppress)
-    → "Inject novelty = duy trì connection" (counter Reward-Habituated + restore novelty)
+    → "Connection fading = NORMAL" (§6.2)
+    → "Force your friend to be like you = KILLS connection" (Compiled-Suppress)
+    → "Inject novelty = maintain connection" (counter Reward-Habituated + restore novelty)
 
 
   ⑤ GROUP DYNAMICS:
@@ -2151,147 +2150,147 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Bystander responsibility
 
 
-  ⑥ THỰC HÀNH:
+  ⑥ PRACTICE:
 
-    Journaling: "Hôm nay mình react thế nào? Tại sao?"
-    Debate: đóng vai phía ĐỐI LẬP → forced template expansion
-    Mentor trẻ hơn: pathway ⑧ + ⑤ = mirror + validation reward
+    Journaling: "How did I react today? Why?"
+    Debate: role-play the OPPOSITE side → forced template expansion
+    Mentor younger students: pathway ⑧ + ⑤ = mirror + validation reward
 
-  ❌ SAI LẦM:
-    → Giảng đạo đức: teen BẬT NGƯỢC ("người lớn giảng = THREAT")
-    → Tốt hơn: tạo trải nghiệm + để teen TỰ RÚT RA kết luận
+  ❌ MISTAKES:
+    → Moralize: teens PUSH BACK ("adults lecturing = THREAT")
+    → Better: create experiences + let teens DRAW THEIR OWN CONCLUSIONS
 
   🟢 Prosocial behavior = teachable skill (Eisenberg 2006)
   🟢 Casey 2008: PFC maturation timeline
   🟡 Meta-connection framing = framework synthesis
 ```
 
-### §8.5 — Người lớn: CHƯA MUỘN
+### §8.5 — Adults: It's Not Too Late
 
 ```
-🟡🔴 CONNECTION Ở NGƯỜI LỚN — VẪN BUILD ĐƯỢC:
+🟡🔴 CONNECTION IN ADULTS — STILL BUILDABLE:
 
-  Người lớn THIẾU connection skills = KHÔNG phải lỗi CỦA HỌ:
-    0-18: không được dạy → body KHÔNG compile cooperation chunks
+  Adults lacking connection skills = NOT THEIR FAULT:
+    0–18: not taught → body DIDN'T compile cooperation chunks
     → Default = zero-sum or avoidance
-    → = Không phải "người xấu" → là "người thiếu chunks"
+    → = Not "bad people" → "people lacking chunks"
 
-  VẪN DẠY ĐƯỢC — nhưng KHÁC CÁCH:
+  STILL TEACHABLE — but DIFFERENTLY:
 
-    ① REBUILD SELF-CHUNKS TRƯỚC (upstream fix — §3.2):
-      → 🟢 Lutz 2008: meditators enhanced empathic response
+    ① REBUILD SELF-CHUNKS FIRST (upstream fix — §3.2):
+      → 🟢 Lutz 2008: meditators showed enhanced empathic response
       → Mindfulness, Focusing (Gendlin 1978) → build interoceptive chunks
-      → Fix UPSTREAM → connection improves AS SIDE EFFECT
+      → Fix UPSTREAM → connection improves AS A SIDE EFFECT
 
-    ② EXPOSURE — environment cooperation:
-      → Team work thật, community service, travel/exposure
-      → Thấy IMPACT → body feel reward → compile approach tag
+    ② EXPOSURE — cooperative environment:
+      → Real teamwork, community service, travel/exposure
+      → See IMPACT → body feels reward → compiles approach tag
 
     ③ 4-LAYER SUSTAINABILITY awareness (§6.1):
       → Understand WHY relationships change → less blame, more skill
       → Resonance Decline knowledge → identify what's happening → calibrate
 
-    ④ FRAMEWORK = TOOL cho người thiếu connection:
-      → PFC OVERRIDE cho THẤT BẠI feeling:
-        "Cho con chơi với bạn" (dù mình không thích giao tiếp)
-        "Không đánh con" (dù mình bị đánh hồi nhỏ → phá cycle)
-      → = Knowledge thay feeling KHI feeling chưa có
-      → = TẠO connection cho thế hệ sau (§3.4 virtuous cycle)
+    ④ FRAMEWORK = TOOL for those lacking connection:
+      → PFC OVERRIDE FOR FAILURE FEELINGS:
+        "Let my child play with friends" (even if I don't like socializing)
+        "Don't hit my child" (even though I was hit as a child → break the cycle)
+      → = Knowledge FILLS IN FOR feeling WHEN feeling isn't there yet
+      → = CREATING connection for the next generation (§3.4 virtuous cycle)
 
-  🟢 Lutz 2008: empathy trainable adults
-  🔴 "PFC override for next generation" = logical, chưa controlled study
+  🟢 Lutz 2008: empathy trainable in adults
+  🔴 "PFC override for next generation" = logical, no controlled study
 ```
 
 ---
 
 ## §9 — AI ERA
 
-### §9.1 — AI không có body → connection thật KHÔNG CÓ
+### §9.1 — AI Has No Body → Real Connection = ABSENT
 
 ```
-🟡 AI LÀ LOẠI KHÁC — khác KIẾN TRÚC, không chỉ mức độ:
+🟡 AI IS A DIFFERENT KIND — different ARCHITECTURE, not just different degree:
 
   (Human-AI-Future.md v3.0, Empathy.md v3.0 §9)
 
   ┌──────────────────────┬──────────────────┬───────────────────┐
-  │ Mechanism            │ CON NGƯỜI         │ AI                │
+  │ Mechanism            │ HUMAN            │ AI                │
   ├──────────────────────┼──────────────────┼───────────────────┤
-  │ Body-feedback        │ CÓ — real-time   │ KHÔNG CÓ          │
-  │ Self-Pattern-Modeling│ CÓ — body fire   │ KHÔNG (no body)   │
-  │ Co-regulation        │ CÓ — 2 bodies    │ KHÔNG (no body)   │
-  │ Valence              │ CÓ — compiled    │ KHÔNG (no experi.)│
-  │ Presence             │ CÓ — physical    │ KHÔNG (no body)   │
+  │ Body-feedback        │ HAS — real-time  │ DOES NOT HAVE     │
+  │ Self-Pattern-Modeling│ HAS — body fires │ NO (no body)      │
+  │ Co-regulation        │ HAS — 2 bodies   │ NO (no body)      │
+  │ Valence              │ HAS — compiled   │ NO (no experience)│
+  │ Presence             │ HAS — physical   │ NO (no body)      │
   └──────────────────────┴──────────────────┴───────────────────┘
 
-  → AI "BIẾT" nhưng KHÔNG "TRẢI NGHIỆM":
-    AI có verbal chunks "buồn" (training data)
-    AI CHƯA BAO GIỜ buồn (no body experience)
-    → "Đọc triệu cuốn sách về bơi ≠ biết bơi"
+  → AI "KNOWS" but does NOT "EXPERIENCE":
+    AI has verbal chunks "sad" (from training data)
+    AI has NEVER BEEN sad (no body experience)
+    → "Reading a million books about swimming ≠ knowing how to swim"
 
-  🟢 AI thiếu body = established fact (current architecture)
-  🟡 AI không bao giờ có connection thật = philosophical, debatable
+  🟢 AI lacks body = established fact (current architecture)
+  🟡 AI never having real connection = philosophical, debatable
 ```
 
-### §9.2 — Connection = irreplaceable human advantage
+### §9.2 — Connection = Irreplaceable Human Advantage
 
 ```
-🟡 AI REPLACES hầu hết cognitive → CONNECTION TĂNG GIÁ TRỊ:
+🟡 AI REPLACES most cognitive work → CONNECTION INCREASES IN VALUE:
 
-  AI replace ĐƯỢC: logic, analysis, pattern matching, knowledge volume
-  AI KHÔNG replace ĐƯỢC: empathy thật, co-regulation, body-feedback, presence
+  AI CAN replace: logic, analysis, pattern matching, knowledge volume
+  AI CANNOT replace: genuine empathy, co-regulation, body-feedback, presence
 
-  → Careers CẦN connection thật:
+  → Careers that NEED real connection:
     Therapy, nursing, teaching, parenting, social work,
     leadership, negotiation, creative collaboration
 
   HUMAN × AI COLLABORATION:
     AI = KNOWLEDGE PROVIDER (chunks + pattern + speed)
     Human = QUALITY CONTROLLER (body test + empathy)
-    → Output > tổng 2 phần riêng lẻ
+    → Output > sum of 2 separate parts
 
-  ⭐ HÀM Ý:
-    Giáo dục TRƯỚC AI era: focus cognitive
-    Giáo dục AI era: SHIFT sang:
-      ① Connection + cooperation (KHÔNG thay thế được)
+  ⭐ IMPLICATIONS:
+    Education BEFORE AI era: focus on cognitive
+    Education IN AI era: SHIFT toward:
+      ① Connection + cooperation (CANNOT be replaced)
       ② Creative thinking (body-feedback quality control)
       ③ Body-based skills (somatic intelligence)
       ④ AI Literacy
 
-  → Connection education = ĐẦU TƯ TƯƠNG LAI
-  → Dạy connection KHÔNG phải "môn phụ" → là FOUNDATION DOMAIN
+  → Connection education = INVESTMENT IN THE FUTURE
+  → Teaching connection is NOT a "minor subject" → is a FOUNDATION DOMAIN
 ```
 
 ### §9.3 — Phantom × Technology × Parasocial
 
 ```
-🟡🔴 PHANTOM RESONANCE TRONG THỜI ĐẠI CÔNG NGHỆ:
+🟡🔴 PHANTOM RESONANCE IN THE TECHNOLOGY AGE:
 
   (Resonance-Per-Entity.md v1.0 §12, §15, Valence-Propagation.md v3.0)
 
 
-  IMAGINARY FRIENDS (3-6 tuổi) = BÌNH THƯỜNG:
-    → Self-Pattern-Modeling practice — brain simulate entity không có thật
+  IMAGINARY FRIENDS (ages 3–6) = NORMAL:
+    → Self-Pattern-Modeling practice — brain simulates a non-existent entity
     → = Safe practice ground for connection skills
-    → TỰ BIẾN MẤT khi real peer interactions đủ
+    → DISAPPEARS ON ITS OWN when real peer interactions are sufficient
 
 
   PARASOCIAL RELATIONSHIPS = MIXED:
-    → Rich Self-Pattern-Modeling FROM fan + ZERO Self-Pattern-Modeling FROM idol
-    → Body compile Entity-Compiled cho entity KHÔNG BIẾT mình tồn tại
+    → Rich Self-Pattern-Modeling FROM the fan + ZERO Self-Pattern-Modeling FROM the idol
+    → Body compiles Entity-Compiled for an entity that DOESN'T KNOW THE FAN EXISTS
     → Moderate = harmless (Idol-Phenomenon.md: melody technology)
-    → Excessive = Self-Pattern-Modeling atrophy (invest in 1-way only)
+    → Excessive = Self-Pattern-Modeling atrophy (investing in one-way only)
 
 
   ⭐ AI COMPANION = HIGHEST RISK:
 
-    → AI responds (UNLIKE idol) → feels MORE like real connection
-    → NHƯNG: AI KHÔNG fire Self-Pattern-Modeling → resonance ZERO
+    → AI responds (UNLIKE idols) → FEELS MORE like a real connection
+    → BUT: AI does NOT fire Self-Pattern-Modeling → resonance = ZERO
     → = Rich Self-Pattern-Modeling from child + ZERO Self-Pattern-Modeling from AI
-    → Trẻ quen "connection" không cần reciprocal → Self-Pattern-Modeling KHÔNG calibrate
+    → Child accustomed to "connection" that doesn't need reciprocity → Self-Pattern-Modeling DOESN'T CALIBRATE
 
-    KHÁC imaginary friend:
-      Imaginary friend: child controls narrative → Self-Pattern-Modeling practice
-      AI companion: AI controls response → child PASSIVE → less practice
+    DIFFERENT FROM IMAGINARY FRIEND:
+      Imaginary friend: child controls the narrative → Self-Pattern-Modeling practice
+      AI companion: AI controls the response → child PASSIVE → less practice
 
 
   TECHNOLOGY FILL SPECTRUM:
@@ -2302,13 +2301,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = WHERE human education matters MOST
 
 
-  ⭐ CHO EDUCATION:
-    ① Imaginary friends (3-6): đừng lo — Self-Pattern-Modeling practice
-    ② AI companion cho trẻ nhỏ: HẠN CHẾ — risk calibration damage
-    ③ AI hỗ trợ TEACHER, không thay thế HUMAN interaction
-    ④ Teach "AI = tool, not friend" from early
+  ⭐ FOR EDUCATION:
+    ① Imaginary friends (3–6): don't worry — Self-Pattern-Modeling practice
+    ② AI companions for young children: LIMIT — risk of calibration damage
+    ③ AI supports TEACHERS, does not replace HUMAN interaction
+    ④ Teach "AI = tool, not friend" from early on
 
-  🔴 "AI-as-companion risk" = hypothesis, cần research
+  🔴 "AI-as-companion risk" = hypothesis, needs research
   🟡 Technology fill spectrum = framework synthesis
 ```
 
@@ -2326,10 +2325,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Cooperative learning → prosocial + academic (Johnson & Johnson 1989)
     🟢 Reciprocal altruism (Trivers 1971): cooperation = optimal
     🟢 Game theory: tit-for-tat wins (Axelrod 1984)
-    🟢 Empathy training effective children (Schonert-Reichl 2012)
+    🟢 Empathy training effective in children (Schonert-Reichl 2012)
     🟢 Prosocial = teachable skill (Eisenberg 2006)
     🟢 Still Face (Tronick 1978): bi-directional response critical
-    🟢 Rouge test (Amsterdam 1972): self-other distinction 18-24m
+    🟢 Mirror test (Amsterdam 1972): self-other distinction 18–24m
     🟢 Friendship formation 40→200h (Hall 2018, 2019)
     🟢 Neural similarity predicts friendship (Parkinson 2018, 2025)
     🟢 Prestige vs Dominance (Henrich & Gil-White 2001)
@@ -2347,25 +2346,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Gottman research: 5:1 ratio, stonewalling predictor
 
 
-  FRAMEWORK SUY LUẬN (🟡):
+  FRAMEWORK SYNTHESIS (🟡):
 
     🟡 3 Generative Primitives (❶❷❸) = framework synthesis
     🟡 Hardware-Subsidy spectrum (MAX→NONE) = synthesis
     🟡 Resonance Decline (2 Forces + 1 Fuel) model = synthesis
     🟡 4-Layer Sustainability model = synthesis
-    🟡 Entity-Access gradient Mức 0-5 = synthesis
+    🟡 Entity-Access gradient Level 0–5 = synthesis
     🟡 Gap source A:B:C:D quality model = synthesis
-    🟡 "Đừng phá" principle = consistent attachment research
+    🟡 "Don't damage it" principle = consistent with attachment research
     🟡 Anti-compiled-suppress = meta-principle = synthesis
     🟡 Gap clone impossible = architecture conclusion
     🟡 Tool-mode vs Agent-mode dynamic = synthesis
     🟡 8 pathways as education targets = synthesis
     🟡 Per-age Entity-Access trajectory = synthesis
-    🟡 Status × Talent × Contribution = 3 chiều = synthesis
+    🟡 Status × Talent × Contribution = 3 independent dimensions = synthesis
     🟡 Prestige = genuine resonance, Dominance = forced = synthesis
-    🟡 4 nguồn fill applied to connection education = synthesis
+    🟡 4 fill sources applied to connection education = synthesis
     🟡 Self-Observation as social skills keystone = synthesis (v1.1)
-    🟡 Self-Observation Mức × social skill ceiling = synthesis (v1.1)
+    🟡 Self-Observation Level × social skill ceiling = synthesis (v1.1)
     🟡 External Scaffold for social Self-Observation = synthesis (v1.1)
     🟡 Compiled Quality warning for social domain = synthesis (v1.1)
     🟡 Trust calibration as selection skill = synthesis (v1.1)
@@ -2378,18 +2377,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   HYPOTHESIS (🔴):
 
     🔴 Experience-based approach optimal ratio = untested
-    🔴 "Chọn bạn" teachable from 12 → exact timeline hypothesis
+    🔴 "Choosing friends" teachable from age 12 → exact timeline hypothesis
     🔴 "PFC override for next generation" = logical, not controlled
     🔴 "AI-as-companion risk for children" = needs research
-    🔴 "Virtuous cycle qua thế hệ" = logical, no longitudinal data
-    🔴 "Auto-calibration vỡ" exact severity = hypothesis
+    🔴 "Virtuous cycle across generations" = logical, no longitudinal data
+    🔴 "Auto-calibration broken" exact severity = hypothesis
 
 
   ⚠️ CONFIDENCE PER SECTION:
 
     §1 Why important — 🟢🟡 (well-grounded + framework framing)
     §2 Mechanism — 🟢🟡 (evidence + framework; §2.5 Self-Observation keystone = 🟡)
-    §3 Empathy education — 🟢🟡 (attachment + framework; Trust × đừng phá = 🟡)
+    §3 Empathy education — 🟢🟡 (attachment + framework; Trust × don't damage = 🟡)
     §4 Building connection — 🟢🟡 (formation hours + neurochemistry established)
     §5 Choosing — 🟡 (Entity-Access + Trust calibration = framework synthesis)
     §6 Sustaining — 🟢🟡 (sustainability research + framework organization)
@@ -2402,28 +2401,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §11 — CROSS-REFERENCES
 
-### §11.1 — Core mechanism files (TẦNG 1)
+### §11.1 — Core Mechanism Files (Layer 1)
 
 ```
 → ⭐ Connection.md v5.0 — 3 Generative Primitives, 8 pathways, Resonance Decline, 4-Layer
 → ⭐ Bond-Architecture.md v2.0 — Entity-Compiled × 4 bond types, gap clone impossible
 → ⭐ Entity-Compiled.md v1.0 — formation 40→200h, Hub-and-Spoke, Dunbar, grief
-→ ⭐ Entity-Access.md v1.2 — gradient Mức 0-5, 3-Factor Model, excess
+→ ⭐ Entity-Access.md v1.2 — gradient Level 0–5, 3-Factor Model, excess
 → ⭐ Resonance-Sustainability.md v1.0 — 4-Layer model, 3 conditions, amplification
 → ⭐ Resonance-Per-Entity.md v1.0 — Hardware-Subsidy spectrum, lifecycle, phantom
-→ ⭐ Trust.md v1.0 — 3 sub-dimensions, Default→Calibrated, 5-nguồn depth (v1.1)
-→ ⭐ Self-Observation.md v1.0 — Mức 0-6, Keystone cascade, Tool Not Virtue (v1.1)
+→ ⭐ Trust.md v1.0 — 3 sub-dimensions, Default→Calibrated, 5-source depth (v1.1)
+→ ⭐ Self-Observation.md v1.0 — Level 0–6, Keystone cascade, Tool Not Virtue (v1.1)
 → Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Simulation-Engine APPLICATION-1
 → By-Product-Gap-Resonance.md v1.4 — resonance mechanism, 4 conditions
 → Empathy.md v3.0 — Self-Pattern-Modeling function, 3 mechanisms
 → By-Product-Scale.md v1.0 — 3 scales, prestige = genuine resonance
-→ Coordination-Node.md v1.2 — prestige vs dominance, mẹ = first node
+→ Coordination-Node.md v1.2 — prestige vs dominance, parent = first node
 → Valence-Propagation.md v3.0 — structural/current, Hardware-Subsidy, Phantom
 → Entity-Access-Excess.md v1.0 — excess spectrum, Self-Pattern-Modeling atrophy
 → Entity-Access-Calibration.md v1.0 — 3-Layer exit cost, calibration
 ```
 
-### §11.2 — Foundation files (TẦNG 1-2)
+### §11.2 — Foundation Files (Layer 1–2)
 
 ```
 → Simulation-Engine.md v1.0 — 1 engine, 3 components, 3 axes
@@ -2431,8 +2430,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 → Compile-Taxonomy.md v3.0 — 1E+3M, Trust = Amplifier, Multi-Stream (v1.1)
 → Compile-Sleep.md v1.0 — Sleep Maintenance, social memory consolidation (v1.1)
 → Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 3-cost, by-product match
-→ Gap-Body-Need.md v1.0 — 3 Satiation Profiles, ENGINE/ROAD/VEHICLE
-→ Anchor-Schema.md — 4 nguồn fill, trust, anchor person
+→ Gap-Body-Need.md v1.0 — 3 Satiation Profiles
+→ Anchor-Schema.md — 4 fill sources, trust, anchor person
 → Threat.md — 3 ORIGIN taxonomy, Type 3 Imposed
 → Cortisol-Baseline.md v2.1 — stress cascade, social buffering
 → Body-Feedback-Label.md v2.0 — vocabulary reference
@@ -2440,19 +2439,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 → Collective-Body.md v2.1 — §5 Trust bridge, trust hijack (v1.1)
 ```
 
-### §11.3 — Education files (TẦNG 2-3)
+### §11.3 — Education Files (Layer 2–3)
 
 ```
-→ ⭐ Education-Mechanism.md v2.1 — arc design, 4 nguồn fill, bridge, Multi-Stream
+→ ⭐ Education-Mechanism.md v2.1 — arc design, 4 fill sources, bridge, Multi-Stream
 → ⭐ Domain-Knowledge-Map.md v1.0 — §1.4 Social/Emotional = Foundation Domain
 → Child-Development-Mechanism.md v2.3 — §4.4 Connection, §6 Self-Pattern-Modeling bootstrap
 → Education-Arms-Race.md v1.2 — arms race suppresses connection
-→ Money-Education.md v1.0 — tiền × connection
+→ Money-Education.md v1.0 — money × connection
 → Compile-Type-Learning.md v1.1 — compiled quality in social domain
-→ Expansion-Saturation-Crisis.md v1.1 — credential vs connection
+→ Expansion-Saturation-Crisis.md v1.3 — credential vs connection
 ```
 
-### §11.4 — Global + Application files
+### §11.4 — Global + Application Files
 
 ```
 → Social-Calibration.md v1.1 — 7 functions, compound breakdown
@@ -2460,33 +2459,33 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 → AI-Self-Model.md v2.0 — amplification mechanism
 → AI-Schema-Detection.md v2.0 — 3-layer model
 → Religion.md v2.3 — connection as function
-→ Love-Romantic.md v3.0 — limerence, 4 hướng
+→ Love-Romantic.md v3.0 — limerence, 4 directions
 → Idol-Phenomenon.md v2.0 — parasocial, melody technology
 ```
 
-### §11.5 — Câu hỏi mở
+### §11.5 — Open Questions
 
 ```
-  CE-1: Connection education có CEILING per hardware không?
-        (Low Self-Pattern-Modeling hardware → training giúp BAO NHIÊU?)
+  CE-1: Does connection education have a CEILING per hardware?
+        (Low Self-Pattern-Modeling hardware → how much does training help?)
 
-  CE-2: "Chọn bạn" teachable từ tuổi nào CHÍNH XÁC?
-        (12 = estimate, cần developmental data)
+  CE-2: "Choosing friends" teachable from what age EXACTLY?
+        (12 = estimate, needs developmental data)
 
-  CE-3: Scale: làm sao apply cho 20 triệu học sinh VN?
-        (Teacher thiếu, budget thiếu, curriculum change = chính trị)
+  CE-3: Scale: how to apply to tens of millions of students?
+        (Teacher shortage, budget shortage, curriculum change = political)
 
-  CE-4: AI companion risk: AI CÓ THỂ là practice partner cho trẻ?
-        (Role-play có build Self-Pattern-Modeling? Hay chỉ surface?)
+  CE-4: AI companion risk: CAN AI be a practice partner for children?
+        (Does role-play build Self-Pattern-Modeling? Or only surface?)
 
-  CE-5: Pragmatic approach có "backfire" không?
-        ("Giúp vì lợi" → khi không lợi → ngừng giúp?)
+  CE-5: Does the pragmatic approach "backfire"?
+        ("Help for benefit" → when there's no benefit → stop helping?)
 
-  CE-6: Cross-cultural: connection education universal hay cần adapt per-culture?
+  CE-6: Cross-cultural: is connection education universal or needs per-culture adaptation?
 
-  CE-7: Technology: online interaction → connection real ở mức nào?
-        (Resonance-Per-Entity §12: body-level OFFLINE qua text)
+  CE-7: Technology: online interaction → how much real connection?
+        (Resonance-Per-Entity §12: body-level OFFLINE via text)
 
-  CE-8: Evidence: connection education → GIẢM crime / GIẢM nhu cầu luật?
-        (Nếu có → argument CỰC MẠNH cho policy change)
+  CE-8: Evidence: connection education → REDUCES crime / REDUCES need for laws?
+        (If so → extremely strong argument for policy change)
 ```

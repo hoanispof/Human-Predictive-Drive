@@ -1,17 +1,17 @@
-# Creator's Lens — Framework Bị Shape Bởi Người Tạo Ra Nó
+# Creator's Lens — How the Framework Is Shaped by Its Creator
 
-> Mọi framework đều mang lens của người tạo ra nó.
-> File này phân tích: lens nào built-in, bias nào cần cảnh giác,
-> và quá trình tạo framework diễn ra theo cơ chế nào.
+> Every framework carries the lens of its creator.
+> This file analyzes: which lenses are built-in, which biases need watching,
+> and the mechanism through which this framework was created.
 >
-> Biết lens KHÔNG loại bỏ bias — nhưng giúp người đọc calibrate.
+> Knowing the lens does NOT eliminate bias — but it helps readers calibrate.
 
 ---
 
-> **Trạng thái:** v2.1 (tone refine)
-> **Ngày:** 2026-05-13
-> **Vị trí:** Research/Meta-Impact/ (meta-analysis)
-> **Liên kết:**
+> **Status:** v2.1 (tone refined)
+> **Date:** 2026-05-13
+> **Location:** Research/Meta-Impact/ (meta-analysis)
+> **Related files:**
 >   Meta-Impact.md — impact predictions
 >   Epistemological-Position.md — framework vs conventional science
 >   Blackbox-Map.md (Core-Deep-Dive/) — 5 gaps + 2 complexity dimensions
@@ -21,22 +21,22 @@
 ## §1 — Creator Profile
 
 ```
-Framework này được tạo bởi 1 người, không phải nhóm nghiên cứu.
+This framework was created by 1 person, not a research team.
 
   Background:
-    Game developer — quen thiết kế hệ thống phức tạp tương tác
-    Somatic processor — cảm pattern trước khi verbalize được
-    Personal crisis drive — căng thẳng cá nhân buộc tìm cơ chế
-    AI-assisted synthesis — dùng AI formalize cảm nhận thành cấu trúc
+    Game developer — accustomed to designing complex interactive systems
+    Somatic processor — senses patterns before being able to verbalize them
+    Personal crisis drive — personal pressure forced a search for mechanisms
+    AI-assisted synthesis — used AI to formalize felt intuitions into structure
 
-  Hệ quả của "1 người":
-    → Bias cao hơn: chỉ 1 body check, không có peer challenge
-    → Depth cao hơn: không bị conform mainstream, đào sâu tự do
-    → Consistency cao hơn: 1 lens xuyên suốt, không compromise
-    → Blind spots sâu hơn: không có ai chỉ ra cái mình không thấy
-    → Xem Blackbox-Map.md — 5 gaps mà 1 người không đủ năng lực crack
+  Consequences of being "1 person":
+    → Higher bias: only 1 body check, no peer challenge
+    → Higher depth: not constrained by mainstream; free to dig in any direction
+    → Higher consistency: 1 lens throughout, no compromises needed
+    → Deeper blind spots: no one to point out what one cannot see
+    → See Blackbox-Map.md — 5 gaps that 1 person lacks the capacity to crack
 
-  Profile này SHAPE framework theo cách cụ thể (§2-§3).
+  This profile SHAPES the framework in specific ways (§2–§3).
 ```
 
 ---
@@ -45,341 +45,341 @@ Framework này được tạo bởi 1 người, không phải nhóm nghiên cứ
 
 ```
 GAME DEV SKILLS              →  FRAMEWORK OUTPUT
-─────────────────────────        ─────────────────────────────
+─────────────────────────        ─────────────────────────────────────
 Code (systems thinking)      →  Chunk-based architecture, observation parameters
-Art ("đủ dùng")              →  Biết khi nào DỪNG abstraction (không over-engineer)
+Art ("good enough")          →  Knowing when to STOP abstraction (no over-engineering)
 Gameplay feel (somatic)      →  Body-feedback first approach, feeling = ground truth
-Design cho "số đông"         →  Framework apply MỌI NGƯỜI, không chỉ niche
-Architecture tổng thể        →  Modular: Core → Deep-Dive → Research → Application
-Debug / iterate              →  Predict → test → refine → predict lại
+Designing for "everyone"     →  Framework applies to ALL PEOPLE, not just a niche
+Overall architecture         →  Modular: Core → Deep-Dive → Research → Application
+Debug / iterate              →  Predict → test → refine → predict again
 ```
 
-### §2.1 — Mapping Cụ Thể
+### §2.1 — Specific Mapping
 
 ```
-Framework TRÔNG giống game architecture — vì creator NGHĨ theo game architecture:
+The framework LOOKS like game architecture — because the creator THINKS in game architecture:
 
   Game Concept                ↔  Framework Concept
-  ────────────────────────        ────────────────────────────────────
-  Stats / Parameters          ↔  Observation parameters (Novelty, Status, Meaning,...)
+  ────────────────────────        ─────────────────────────────────────────
+  Stats / Parameters          ↔  Observation parameters (Novelty, Status, Meaning, ...)
   State Machine               ↔  Chunk lifecycle (Compile → Install → Process → Plan)
   Event-Driven System         ↔  Body-feedback loop (signal → chunk fire → feeling → action)
   Component Architecture      ↔  Chunk substrate + Body-Base + PFC
   Game Loop                   ↔  Interface Loop 6-step (01-Foundation.md)
   NPC AI (behavior tree)      ↔  Self-Pattern-Modeling Compiled/Fresh prediction functions
-  Save / Load                 ↔  Anchor-Schema — sync point cho hệ thống
+  Save / Load                 ↔  Anchor-Schema — sync point for the system
   Difficulty Curve            ↔  Melody-Arc — dissonance → compile → melody upgrade
-  Player Profile              ↔  Personal-Melody — emergent state toàn bộ chunk network
-  Multiplayer Sync            ↔  Resonance — 2+ agents co-fire thành công
-  Damage / Healing            ↔  Valence propagation — per-entity + chain qua schema
+  Player Profile              ↔  Personal-Melody — emergent state of the full chunk network
+  Multiplayer Sync            ↔  Resonance — 2+ agents co-firing successfully
+  Damage / Healing            ↔  Valence propagation — per-entity + chain through schema
 
-Đây KHÔNG phải coincidence ngẫu nhiên:
-  Game architecture ĐƯỢC THIẾT KẾ để mô phỏng hệ thống phức tạp tương tác.
-  Não = hệ thống phức tạp tương tác.
+This is NOT a random coincidence:
+  Game architecture IS DESIGNED to simulate complex interactive systems.
+  The brain = a complex interactive system.
   → Overlap = convergent design.
 
-  Neuroscience CHÍNH NÓ dùng ngôn ngữ tương tự:
+  Neuroscience ITSELF uses similar language:
     "neural computation", "prediction error signal", "hierarchical processing"
-  → Game dev lens KHÔNG xa hơn academic lens — chỉ KHÁC góc nhìn.
+  → Game dev lens is NOT further removed than academic lens — just a DIFFERENT angle.
 ```
 
-### §2.2 — Observation-First Methodology: tại sao "hỏi linh tinh thập cẩm" đi ra insight
+### §2.2 — Observation-First Methodology: Why "Scattershot Curiosity" Produces Insight
 
 ```
 ⭐ GAME DEV METHODOLOGY VS ACADEMIC METHODOLOGY:
 
   ACADEMIC (theory-first):
-    ① Đọc literature → biết theory hiện tại
-    ② Design experiment TEST theory
+    ① Read literature → learn current theory
+    ② Design experiments to TEST the theory
     ③ Collect data → analyze → publish
     ④ Repeat
 
-    Mạnh: rigorous, replicable, cumulative
-    Yếu: PARADIGM LOCK — câu hỏi bị GIỚI HẠN bởi theory đã biết
-    → Người biết OCD = human psychiatric condition → KHÔNG HỎI "khỉ có OCD không?"
-    → Vì: câu hỏi đó nằm NGOÀI paradigm → "không liên quan đến research của tôi"
+    Strong: rigorous, replicable, cumulative
+    Weak: PARADIGM LOCK — questions are BOUNDED by known theory
+    → Someone who knows OCD = human psychiatric condition → WILL NOT ASK "do monkeys get OCD?"
+    → Because: that question lies OUTSIDE the paradigm → "not relevant to my research"
 
   GAME DEV (observation-first):
-    ① OBSERVE behavior (player, người, bản thân, bất kỳ ai/gì)
-    ② HỎI "tại sao?" — không bị constraint bởi theory
-    ③ TÌM mechanism (dùng AI access domain knowledge)
-    ④ Body-check: "feel khớp hay không?"
-    ⑤ Verify: đối chiếu research
+    ① OBSERVE behavior (player, people, self, anyone/anything)
+    ② ASK "why?" — unconstrained by theory
+    ③ FIND mechanism (use AI to access domain knowledge)
+    ④ Body-check: "does this feel right or wrong?"
+    ⑤ Verify: cross-reference research
 
-    Mạnh: KHÔNG bị paradigm lock, câu hỏi TỰ DO, cross-domain
-    Yếu: không rigorous, dễ sai, cần external verify
+    Strong: NOT paradigm-locked, questions are FREE, cross-domain
+    Weak: not rigorous, error-prone, requires external verification
 
 
-  ⭐ CASE STUDY CỤ THỂ — "KHỈ CÓ OCD KHÔNG?":
+  ⭐ CONCRETE CASE STUDY — "DO MONKEYS GET OCD?":
 
-    Câu hỏi xuất phát: tò mò ngứa ngáy thuần túy, không có theory nào guide.
-    Hỏi linh tinh thập cẩm (scattershot curiosity) — hỏi vì KHÔNG CHỊU NỔI,
-    không dừng được, hỏi xong thấy sướng → hỏi tiếp.
-    Kiểu game dev: "player làm behavior lạ → tại sao?"
-    = Kiểu framework: "khỉ cũng bị giống người → tại sao?"
+    Question origin: pure idle curiosity, no theory guiding it.
+    Scattershot questioning — asked because it was irresistible to stop,
+    and asking felt satisfying → kept asking.
+    Game dev style: "player does strange behavior → why?"
+    = Framework style: "monkeys also get it → why?"
 
-    Chuỗi insight EMERGE:
-      "Khỉ có OCD không?"
-        → CÓ (+ chuột, chó)
-        → OCD = circuit CỔ (basal ganglia), KHÔNG phải PFC bug
-        → Tuyến 1+2 = cross-species. Tuyến 3 = chỉ người.
-        → Chuột OCD nhưng KHÔNG CÓ PFC phức tạp
-        → → Ở chuột: serotonin ↓ gần hardware cause
-        → → Ở người: serotonin ↓ gần consequence + amplifier
-        → → Serotonin = AMPLIFIER, parallel cortisol (đã established)
-        → → Giải thích SSRI relapse 80% vs CBT relapse 20-30%
+    Chain of insight EMERGES:
+      "Do monkeys get OCD?"
+        → YES (+ mice, dogs)
+        → OCD = ANCIENT circuit (basal ganglia), NOT a PFC bug
+        → Line 1+2 = cross-species. Line 3 = humans only.
+        → Mice get OCD but do NOT have a complex PFC
+        → → In mice: serotonin ↓ is closer to hardware cause
+        → → In humans: serotonin ↓ is closer to consequence + amplifier
+        → → Serotonin = AMPLIFIER, parallel to cortisol (already established)
+        → → Explains SSRI relapse 80% vs CBT relapse 20–30%
 
-    = 1 câu hỏi "linh tinh" → 1 PRINCIPLE MỚI (serotonin = amplifier)
-    = Principle này PREDICT pattern mà "serotonin = cause" không predict
+    = 1 "scattershot" question → 1 NEW PRINCIPLE (serotonin = amplifier)
+    = This principle PREDICTS patterns that "serotonin = cause" cannot predict
 
-    TẠI SAO CÂU HỎI NÀY KHÓ XUẤT HIỆN TRONG HỆ CHUYÊN NGÀNH:
-      → OCD researcher: focus OFC-caudate circuit ở NGƯỜI
-        → Cross-species data NẰM Ở domain KHÁC (animal behavior, veterinary)
+    WHY THIS QUESTION IS UNLIKELY TO EMERGE WITHIN SPECIALIZED FIELDS:
+      → OCD researcher: focuses on OFC-caudate circuit in HUMANS
+        → Cross-species data EXISTS IN A DIFFERENT domain (animal behavior, veterinary)
         → Silo: OCD journal ≠ animal behavior journal
-      → Serotonin researcher: focus mechanism ở molecular level
-        → "Cause vs amplifier" = SYSTEMS question, không phải molecular
-        → Không ai ĐẶT CÂU HỎI ở level NÀY vì methodology không fit
+      → Serotonin researcher: focuses on mechanism at the molecular level
+        → "Cause vs amplifier" = a SYSTEMS question, not molecular
+        → Nobody ASKS the question at THIS level because methodology doesn't fit
 
-    TẠI SAO OBSERVATION-FIRST CÓ THỂ THẤY GÓC KHÁC:
-      → Không bị silo → hỏi cross-domain tự do
-      → "Player behavior" training: observe TRƯỚC, explain SAU
-      → Systems thinking: "tại sao cùng mechanism, khác output?"
-        = ĐÚNG câu hỏi game dev hỏi mỗi ngày (cùng code, khác behavior)
-      → Body-check: "serotonin = cause" feel KHÔNG khớp
-        (nếu cause → sửa serotonin phải fix → nhưng SSRI bỏ = relapse)
-        → body signal: "có gì đó chưa đúng" → hỏi tiếp
+    WHY OBSERVATION-FIRST CAN SEE A DIFFERENT ANGLE:
+      → Not silo-bound → free to ask cross-domain
+      → "Player behavior" training: OBSERVE first, explain AFTER
+      → Systems thinking: "same mechanism, different output — why?"
+        = EXACTLY the question game devs ask daily (same code, different behavior)
+      → Body-check: "serotonin = cause" does NOT feel right
+        (if cause → fixing serotonin should fix it → but stopping SSRI = relapse)
+        → body signal: "something doesn't fit" → keep asking
 
 
-  ⭐ PATTERN TỔNG QUÁT:
+  ⭐ GENERAL PATTERN:
 
-    Game dev → "tại sao player làm vậy?"
-    Framework → "tại sao khỉ cũng bị?"
-    Cả hai = OBSERVATION-FIRST: xem HÀNH VI trước, tìm MECHANISM sau.
+    Game dev → "why does the player do that?"
+    Framework → "why do monkeys also get this?"
+    Both = OBSERVATION-FIRST: see BEHAVIOR first, find MECHANISM after.
 
-    Academic = THEORY-FIRST: biết MECHANISM trước, test HÀNH VI sau.
+    Academic = THEORY-FIRST: know MECHANISM first, test BEHAVIOR after.
 
-    KHÔNG có approach nào "đúng hơn."
-    Theory-first: precise, deep, replicable — nhưng paradigm-locked.
-    Observation-first: imprecise, broad, cross-domain — nhưng dễ sai.
+    NEITHER approach is "more correct."
+    Theory-first: precise, deep, replicable — but paradigm-locked.
+    Observation-first: imprecise, broad, cross-domain — but error-prone.
 
     Framework = observation-first + AI domain access + body-check filter.
-    = Bù đắp weakness của observation-first (imprecise)
-      bằng AI (domain depth) + body (somatic filter).
+    = Compensates for observation-first weakness (imprecision)
+      with AI (domain depth) + body (somatic filter).
 
-    Khoa học lý tưởng = CẢ HAI:
-      Observation-first → đặt câu hỏi MỚI
-      Theory-first → test câu hỏi CHẶT
+    Ideal science = BOTH:
+      Observation-first → generates NEW questions
+      Theory-first → tests those questions RIGOROUSLY
 
-    ⚠️ NHƯNG: framework KHÔNG "tự làm bước 1 từ hư không":
-      → Framework DỰA VÀO academic research làm chỗ dựa (qua AI deep domain access)
-      → Mỗi insight đều CHỐNG CHÂN bằng research đã có:
-        "Khỉ có OCD" = Novak, Korff, Welch, Dodman — TẤT CẢ là academic
+    ⚠️ HOWEVER: the framework does NOT "generate step 1 from scratch":
+      → Framework RELIES ON academic research as its foundation (via AI deep domain access)
+      → Every insight is GROUNDED in existing research:
+        "Monkeys get OCD" = Novak, Korff, Welch, Dodman — ALL academic
         "Serotonin ↓40%" = Marazziti 1999 — academic
         "SSRI relapse 80%" = meta-analyses — academic
-      → Framework CHỈ LÀM 1 VIỆC: kết nối các research RIÊNG LẺ
-        thành pattern MỚI mà từng domain riêng lẻ khó thấy (vì scope khác nhau)
-      → = Con gà hay quả trứng: academic tạo nodes → framework vẽ graph
-        → graph gợi ý nodes MỚI cần research → academic verify → loop
-      → = KHÔNG có bước nào "đi trước" — 2 approaches FEED nhau
-      → = Framework dựa vào academic làm NỀN.
-        Nếu có nhà nghiên cứu quan tâm, framework connections
-        có thể là GỢI Ý thú vị cho research mới — xác nhận hoặc bác bỏ đều có giá trị.
+      → Framework does ONLY 1 THING: connects SCATTERED research
+        into NEW patterns that individual domains struggle to see (different scopes)
+      → = Chicken and egg: academia creates nodes → framework draws graph
+        → graph suggests NEW nodes needing research → academia verifies → loop
+      → = Neither step "comes first" — 2 approaches FEED each other
+      → = Framework relies on academia as its FOUNDATION.
+        If researchers are interested, framework connections
+        could serve as interesting SUGGESTIONS for new research — confirmation or refutation both add value.
 
 
   ⚠️ CAVEAT:
-    Observation-first cũng CÓ bias riêng:
-      → Apophenia: thấy pattern ở chỗ KHÔNG CÓ pattern
-      → Confirmation: body "feel đúng" ≠ đúng (Feeling-Accuracy.md: 6 error modes)
-      → Dunning-Kruger: cross-domain freedom = không biết mình không biết gì
-    → Framework CẦN external verification
-    → "Hỏi linh tinh thập cẩm" TẠO insight MỚI — nhưng insight MỚI chưa chắc ĐÚNG
-    → Framework RẤT CẦN academic verify — nếu có nhà nghiên cứu nào
-      quan tâm xác nhận hoặc bác bỏ thì rất quý
-    → Bản thân việc "hỏi vì không chịu nổi" = Chunk-Gap detect (Body-Feedback-Mechanism §3.3):
-      body detect "thiếu gì đó" → bứt rứt → drive hỏi → fill gap → opioid
-      → = "Hỏi xong pleasant" = opioid reward khi gap filled
-      → = Framework TỰ GIẢI THÍCH được tại sao creator hỏi linh tinh thập cẩm
+    Observation-first also has ITS OWN biases:
+      → Apophenia: seeing patterns where there ARE NO patterns
+      → Confirmation: body "feels right" ≠ right (Feeling-Accuracy.md: 6 error modes)
+      → Dunning-Kruger: cross-domain freedom = not knowing what one doesn't know
+    → Framework NEEDS external verification
+    → "Scattershot questioning" CREATES new insight — but new insight ≠ correct insight
+    → Framework GREATLY NEEDS academic verification — any researcher
+      interested in confirming or refuting would be enormously valuable
+    → The act of "asking because you can't stop" = Chunk-Gap detection (Body-Feedback-Mechanism §3.3):
+      body detects "something missing" → restlessness → drive to ask → gap filled → opioid
+      → = "Pleasant after asking" = opioid reward when gap is filled
+      → = Framework SELF-EXPLAINS why the creator engages in scattershot curiosity
 ```
 
 ---
 
-## §3 — Nơi Lens KHÔNG Fit — Blind Spots
+## §3 — Where the Lens Does NOT Fit — Blind Spots
 
 ```
-CẦN CẢNH GIÁC ở điểm game architecture KHÔNG fit não thực tế:
+IMPORTANT TO WATCH where game architecture does NOT fit the actual brain:
 
-  GAME ARCHITECTURE:              NÃO THỰC TẾ:
-  ──────────────────────          ──────────────────────────────────
+  GAME ARCHITECTURE:              ACTUAL BRAIN:
+  ──────────────────────          ──────────────────────────────────────
   Discrete states (on/off)        Continuous spectrum (gradient)
-  Deterministic                   Stochastic (cùng input → khác output)
-  Designer biết toàn bộ           Emergent (không ai biết hết)
+  Deterministic                   Stochastic (same input → different outputs)
+  Designer knows everything       Emergent (nobody knows the full picture)
   Clean layer separation          Messy overlap (neural ≠ clean layers)
-  Parameters cố định              Parameters thay đổi theo thời gian
-  Bug = sai, cần fix              "Bug" = có thể là feature (evolution)
-  Save state hoàn chỉnh           Chunk = strength-weighted, mờ dần, không copy chính xác
+  Fixed parameters                Parameters shift over time
+  Bug = error, needs fixing       "Bug" = may be a feature (evolution)
+  Complete save state             Chunk = strength-weighted, fades, not exact copy
 
-→ Framework CÓ THỂ quá "clean" so với thực tế messy của não.
+→ The framework may be TOO "clean" compared to the messy reality of the brain.
 ```
 
-### §3.1 — Dấu Hiệu Cảnh Giác
+### §3.1 — Warning Signs
 
 ```
-Khi framework predict SAI → hỏi TRƯỚC:
-  "Game architecture assumption không fit ở chỗ này?"
-  trước khi nghi ngờ cơ chế.
+When the framework predicts WRONGLY → ask FIRST:
+  "Is there a game architecture assumption that doesn't fit here?"
+  BEFORE questioning the mechanism.
 
-Ví dụ framework ĐÃ TỰ SỬA:
+Examples where framework ALREADY CORRECTED ITSELF:
 
-  → Schema ban đầu (v6.0): thiết kế như "state" rời rạc — chuyển qua lại
-    → v7.8 refine: Schema = observation label, KHÔNG phải component kiến trúc
-    → Body chạy chunks, không chạy schemas
-    → = Đúng cái tendency "discrete states" của game architecture đã bias
+  → Schema in early versions (v6.0): designed as discrete "states" — switching between them
+    → v7.8 refinement: Schema = observation label, NOT an architectural component
+    → Body runs chunks, not schemas
+    → = Exactly the "discrete states" tendency of game architecture had introduced bias
 
-  → "Channels" ban đầu (v6.0): Novelty/Opioid/Oxytocin — trông như game stats
-    → v7.8 refine: Observation parameters = tên cho observable pattern,
-      không phải con số đo được chính xác
-    → = Nhận ra bias "quantifiable stats" rồi, nhưng có thể vẫn còn sót
+  → "Channels" in early versions (v6.0): Novelty/Opioid/Oxytocin — looked like game stats
+    → v7.8 refinement: Observation parameters = names for observable patterns,
+      not precisely measurable numbers
+    → = Recognized "quantifiable stats" bias, but may still have residual instances
 
-  → "Navigate Level" (v6.0): 0-1-2-3-4 — trông như game difficulty level
-    → v7.8 bỏ hẳn: chunk dynamics phức tạp hơn mức "level"
-    → = Over-structure cái vốn continuous
+  → "Navigate Level" (v6.0): 0-1-2-3-4 — looked like game difficulty levels
+    → v7.8 dropped entirely: chunk dynamics are more complex than a "level" implies
+    → = Over-structuring what is inherently continuous
 
-→ Framework đã tự sửa nhiều blind spots qua nhiều version.
-  Nhưng không có gì đảm bảo đã sửa HẾT.
-  Bias sâu nhất = bias chưa nhận ra.
+→ The framework has self-corrected many blind spots across versions.
+  But nothing guarantees ALL blind spots have been corrected.
+  The deepest biases = the ones not yet recognized.
 ```
 
 ---
 
-## §4 — So Sánh Lens — Nếu Người Khác Tạo Framework Tương Tự
+## §4 — Comparing Lenses — If Someone Else Built a Similar Framework
 
 ```
 Creator = academic neuroscientist:
-  → Framework trông như PAPER (equations, citations, p-values)
-  → Mạnh: methodology chặt chẽ, replicable
-  → Yếu: thiếu practical, paradigm-locked, silo per department
+  → Framework would look like a PAPER (equations, citations, p-values)
+  → Strong: rigorous methodology, replicable
+  → Weak: less practical, paradigm-locked, siloed by department
 
 Creator = philosopher:
-  → Framework trông như ONTOLOGY (categories, logic, first principles)
-  → Mạnh: conceptual clarity, logical consistency
-  → Yếu: thiếu empirical grounding, có thể quá abstract
+  → Framework would look like an ONTOLOGY (categories, logic, first principles)
+  → Strong: conceptual clarity, logical consistency
+  → Weak: insufficient empirical grounding, may be overly abstract
 
 Creator = clinician (therapist):
-  → Framework trông như TREATMENT PROTOCOL (cases, interventions)
-  → Mạnh: practical, patient-tested, real-world grounded
-  → Yếu: có thể quá case-specific, thiếu generalization
+  → Framework would look like a TREATMENT PROTOCOL (cases, interventions)
+  → Strong: practical, patient-tested, real-world grounded
+  → Weak: may be too case-specific, lacking generalization
 
-Creator = game dev (framework hiện tại):
-  → Framework trông như ARCHITECTURE (components, events, state, parameters)
-  → Mạnh: systems thinking, practical, debuggable, modular
-  → Yếu: có thể over-structure cái vốn messy (§3)
+Creator = game developer (current framework):
+  → Framework looks like an ARCHITECTURE (components, events, state, parameters)
+  → Strong: systems thinking, practical, debuggable, modular
+  → Weak: may over-structure what is inherently messy (§3)
 
-KHÔNG có lens nào "đúng tuyệt đối."
-Lens nào predict ĐÚNG NHẤT = lens TỐT NHẤT cho mục đích đó.
-→ Giữ lens, nhưng biết nó là lens — không phải sự thật tuyệt đối.
+NO lens is "absolutely correct."
+The lens that PREDICTS most accurately = the BEST lens for that purpose.
+→ Keep the lens, but know that it IS a lens — not absolute truth.
 ```
 
 ---
 
-## §5 — Quá Trình Tạo Framework — Cơ Chế Tự Giải Thích
+## §5 — The Framework Creation Process — The Mechanism That Explains Itself
 
 ```
-Framework tự giải thích được TẠI SAO nó trông như thế này.
-Đây vừa là strength (self-consistent) vừa là risk (circular argument).
+The framework can self-explain WHY it looks the way it does.
+This is both a strength (self-consistent) and a risk (circular argument).
 ```
 
 ### §5.1 — 3 Phases
 
 ```
-PHASE 1 — Thu thập (~2 năm, rải rác):
+PHASE 1 — Accumulation (~2 years, scattered):
 
-  Hỏi AI về tâm lý con người — rời rạc, không hệ thống.
-  Mỗi câu hỏi = 1 chunk mới. Mỗi chunk đối chiếu kỹ trước khi giữ.
-  Tránh nguồn sai số cao. Filter chặt.
-  = Chunk library lớn dần, accuracy tương đối cao.
+  Asked AI about human psychology — fragmented, unsystematic.
+  Each question = 1 new chunk. Each chunk carefully cross-checked before keeping.
+  Avoided high-error sources. Strict filtering.
+  = Chunk library grew, with relatively high accuracy.
 
-  Qua lens framework:
+  Through the framework's own lens:
     → Chunk-Discovery-Lifecycle: Accumulate → Vague → Curiosity
-    → Body-feedback liên tục: "cái này feel đúng/sai" = somatic filter
-    → Tôi KHÔNG biết điều này lúc đó — chỉ nhận ra retrospectively
+    → Continuous body-feedback: "this feels right/wrong" = somatic filter
+    → I did NOT know this at the time — only recognized it retrospectively
 
 
 PHASE 2 — Trigger:
 
-  AI model mới ra mắt: accuracy cao + context window lớn
-  → Lần đầu tiên đưa NHIỀU chunks rời rạc vào CÙNG LÚC
-  → Chunks bắt đầu connect cross-domain
+  A new AI model launched: high accuracy + large context window
+  → First time MANY scattered chunks were brought together SIMULTANEOUSLY
+  → Chunks began connecting cross-domain
 
-  Qua lens framework:
-    → Chunk-Connection-Logical: PFC hold 2+ chunks → body vote connection
-    → Threshold: đủ chunk density → connections EMERGE tự nhiên
+  Through the framework's own lens:
+    → Chunk-Connection-Logical: PFC holds 2+ chunks → body votes on connection
+    → Threshold: enough chunk density → connections EMERGE naturally
 
 
-PHASE 3 — Sprint (~1 tuần):
+PHASE 3 — Sprint (~1 week):
 
-  AI connect hàng loạt chunks rời rạc → prediction-delta cascade.
-  Mỗi connection = prediction-delta dương → mở loop mới → hỏi tiếp.
+  AI connected clusters of scattered chunks → prediction-delta cascade.
+  Each connection = positive prediction-delta → opens new loop → more questioning.
 
-  Phân vai:
-    Tôi cung cấp: câu hỏi + body check ("đúng/sai/chưa khớp")
-    AI cung cấp: context memory + cấu trúc + cross-reference + domain depth
+  Role division:
+    I provided: questions + body check ("right / wrong / doesn't fit yet")
+    AI provided: context memory + structure + cross-reference + domain depth
 
-  AI KHÔNG CHỈ "verbalize" (dịch cảm nhận ra lời):
-    → AI truy cập SÂU vào từng domain + lấy data cụ thể
-    → Tôi nói: "PFC có thể không tự tính toán..."
-    → AI truy cập: Libet 1983, Go/No-Go studies, spreading activation
-    → MAP tất cả vào hướng tôi chỉ
-    → = Multi-domain DEEP ACCESS theo hướng somatic chỉ
+  AI did NOT merely "verbalize" (translate felt sense into words):
+    → AI accessed DEEP into each domain + retrieved specific data
+    → I said: "PFC may not self-compute..."
+    → AI retrieved: Libet 1983, Go/No-Go studies, spreading activation
+    → MAPPED all of it onto the direction I was pointing
+    → = Multi-domain DEEP ACCESS guided by somatic direction
 
-  Qua lens framework:
-    → Somatic-Articulation-Loop: body biết trước, AI giúp tìm từ
-    → Self-Pattern-Modeling Compiled fire liên tục: "cái này khớp/không khớp" → accept/reject
-    → Imagine-Final dần hình thành: "framework tổng thể" = reference pattern
+  Through the framework's own lens:
+    → Somatic-Articulation-Loop: body knows first, AI helps find the words
+    → Self-Pattern-Modeling Compiled firing continuously: "this fits / doesn't fit" → accept/reject
+    → Imagine-Final gradually forming: "overall framework" = reference pattern
 ```
 
 ### §5.2 — Quality Control
 
 ```
-Input: somatic, rộng, nhanh
-  → Low precision → bắt NHIỀU signal kể cả noise
+Input: somatic, broad, fast
+  → Low precision → catches MANY signals including noise
 
-Filter: đối chiếu, loại nguồn sai, kiểm tra chéo
-  → High precision → chỉ giữ signal thật
+Filter: cross-referencing, excluding high-error sources, cross-checking
+  → High precision → keeps only real signal
 
-Ngay cả chunk "được giữ" cũng chỉ ở mức "tạm chấp nhận."
-= Why-Body-Knows.md: body evaluate coherence (FIT vs random), không phải truth.
+Even "retained" chunks are only at "provisionally accepted" level.
+= Why-Body-Knows.md: body evaluates coherence (FIT vs random), not truth.
 
-→ Framework = OUTPUT của chính cơ chế nó mô tả.
-  Self-consistent: explain được tại sao chính nó trông thế này.
+→ Framework = OUTPUT of the very mechanism it describes.
+  Self-consistent: can explain why it itself looks the way it does.
 
-⚠️ NHƯNG: self-consistent ≠ đúng.
-  Một hệ thống sai vẫn có thể self-consistent (mọi tôn giáo đều self-consistent).
-  Cần evidence NGOÀI framework để break circularity:
-    → Cross-domain prediction test (predict cái mới, không chỉ explain cái cũ)
-    → External challenge (người khác đọc + phản bác)
-    → Xem Epistemological-Position.md §3 — validation path
+⚠️ HOWEVER: self-consistent ≠ correct.
+  A wrong system can still be self-consistent (every religion is self-consistent).
+  Evidence OUTSIDE the framework is needed to break circularity:
+    → Cross-domain prediction test (predict something NEW, not just explain something old)
+    → External challenge (others read + refute)
+    → See Epistemological-Position.md §3 — validation path
 ```
 
-### §5.3 — Tại Sao Không AI Tự Làm Được
+### §5.3 — Why AI Alone Cannot Do This
 
 ```
-AI alone: có TẤT CẢ data → nhưng không có HƯỚNG
-  → Output = tổng hợp chung chung, không có focus
-  → Vì: AI không có body-feedback → không có somatic direction
+AI alone: has ALL the data → but has no DIRECTION
+  → Output = generic synthesis, no focus
+  → Because: AI has no body-feedback → no somatic direction
 
-Human alone: có HƯỚNG → nhưng không có domain depth
-  → Output = "feel đúng nhưng không diễn tả được"
-  → Vì: 1 người không đủ domain access cross-domain
+Human alone: has DIRECTION → but lacks domain depth
+  → Output = "feels right but can't articulate"
+  → Because: 1 person lacks cross-domain access depth
 
-Cả 2: HƯỚNG (body) + DATA (AI domain access) = insight có CẤU TRÚC
-  → = Somatic-Articulation-Loop.md: mechanism cơ bản
+Both together: DIRECTION (body) + DATA (AI domain access) = structured insight
+  → = Somatic-Articulation-Loop.md: the foundational mechanism
 
 ⚠️ Echo chamber risk:
-  Human feel → AI confirm + elaborate → human feel ĐÚNG HƠN → loop
-  → Mỗi loop TĂNG confidence → có thể confidence > accuracy
-  → Cần EXTERNAL challenge để break echo chamber
-  → Framework hiện ở: 1 human + 1 AI — rất mong có thêm peer review
-    (xác nhận hay bác bỏ đều giúp framework chính xác hơn)
+  Human feels → AI confirms + elaborates → human feels MORE CORRECT → loop
+  → Each loop INCREASES confidence → confidence may outpace accuracy
+  → External challenge is needed to break the echo chamber
+  → Current framework: 1 human + 1 AI — peer review would be greatly welcomed
+    (confirmation or refutation equally helps the framework become more accurate)
 ```
 
 ---
@@ -387,60 +387,41 @@ Cả 2: HƯỚNG (body) + DATA (AI domain access) = insight có CẤU TRÚC
 ## §6 — Honest Assessment
 
 ```
-🟢 Đủ tin cậy:
-  → Framework tự nhận diện lens (file này tồn tại = aware bias)
-  → Game architecture → brain architecture: convergent design có cơ sở
-  → Creation process self-consistent với chunk dynamics framework mô tả
-  → Blind spots được liệt kê cụ thể (§3)
-  → Đã tự sửa nhiều bias qua v6.0 → v7.8 (§3.1 ví dụ)
+🟢 Sufficiently reliable:
+  → Framework self-identifies its lens (this file existing = bias awareness)
+  → Game architecture → brain architecture: convergent design has a legitimate basis
+  → Creation process self-consistent with the chunk dynamics the framework describes
+  → Blind spots listed specifically (§3)
+  → Already self-corrected many biases from v6.0 → v7.8 (examples in §3.1)
 
-🟡 Cần kiểm chứng thêm:
-  → 1 người tạo = bias risk cao, chưa có peer challenge
-  → Game architecture bias có thể SÂU hơn tôi nhận ra (§3)
-  → Self-consistent ≠ đúng — rất cần external validation
-    (nếu ai quan tâm verify thì quý, dù kết quả là xác nhận hay bác bỏ)
-  → Quality control dựa body check — body check có 6 error modes
+🟡 Requires further verification:
+  → 1 creator = high bias risk, no peer challenge yet
+  → Game architecture bias may run DEEPER than recognized (§3)
+  → Self-consistent ≠ correct — external validation urgently needed
+    (anyone willing to verify is invaluable, whether results confirm or refute)
+  → Quality control relies on body check — body check has 6 error modes
     (Feeling-Accuracy.md)
-  → AI echo chamber risk: chưa có cách đo mức nghiêm trọng
+  → AI echo chamber risk: no way to measure its severity yet
 
-🔴 Thành thật thừa nhận:
-  → Tôi không có background academic, không có peer review
-  → Tôi không có cách chắc chắn phân biệt: đang rationalize hay đang thấy đúng
-  → Framework tự giải thích bản thân = circular argument risk
-    (cần evidence ngoài framework để break circularity)
-  → Mọi blind spot analysis chỉ thấy blind spots MÀ TÔI ĐÃ NHẬN RA
-    — blind spots chưa nhận ra thì vẫn nằm đó
+🔴 Honest admissions:
+  → I have no academic background, no peer review
+  → I have no reliable way to distinguish: am I rationalizing or am I seeing correctly
+  → Framework self-explaining itself = circular argument risk
+    (evidence outside the framework is needed to break circularity)
+  → Every blind spot analysis only catches the blind spots I HAVE ALREADY RECOGNIZED
+    — the unrecognized blind spots are still there
 ```
 
 ---
 
-## Cross-references
+## Cross-References
 
 ```
   Bias + Boundaries:
     → Blackbox-Map.md — 5 gaps + research roadmap (supersedes Framework-Boundaries.md)
-    → Feeling-Accuracy.md — 6 error modes trong body check
-    → Logic-Feeling-Balance.md — tại sao không thể prescribe balance
+    → Feeling-Accuracy.md — 6 error modes in body-checking
+    → Logic-Feeling-Balance.md — why balance cannot be prescribed
 
   Creation process:
     → Somatic-Articulation-Loop.md — body-knowledge → explicit mechanism
-    → Chunk-Discovery-Lifecycle.md — Accumulate → Vague → Curiosity → Clarify
-    → Chunk-Connection-Logical.md — PFC hold chunks → body vote connection
-    → Why-Body-Knows.md — tại sao body check có cơ sở
-
-  Architecture parallel:
-    → Chunk.md — chunk = sole substrate
-    → Body-Feedback.md — unified body signal model
-    → Self-Pattern-Modeling.md — Compiled/Fresh prediction functions
-    → Observation/ folder — "game stats" → observation labels
-
-  Meta-Impact context:
-    → Meta-Impact.md — impact predictions
-    → Epistemological-Position.md — framework vs conventional
 ```
-
----
-
-> *"Biết lens = không loại bỏ bias,*
-> *nhưng biết chỗ nào bản đồ CÓ THỂ bị méo.*
-> *Khi predict sai → hỏi: lens problem hay mechanism problem?"*

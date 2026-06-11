@@ -1,51 +1,51 @@
-﻿---
-title: Education-Mechanism — Nguyên Lý Thiết Kế Learning Arc v7.8
+---
+title: Education-Mechanism — Principles of Learning Arc Design v7.8
 version: 2.2
 created: 2026-04-21
-updated: 2026-06-03 (v2.2 — Trust + Self-Observation integration: +Nguyên lý 9 Trust Before Content (Trust.md v1.0: definition, 3 sub-dimensions × education, Default→Calibrated × stages, Virtuous/Vicious loop, collapse/repair), +Nguyên lý 10 Self-Observation Metacognitive Foundation (Self-Observation.md v1.0: Mức × strategy, External Scaffold, PFC budget competition, Keystone cascade, Teen Paradox), 8→10 nguyên lý, deps +Trust.md v1.0 + Self-Observation.md v1.0)
+updated: 2026-06-03 (v2.2 — Trust + Self-Observation integration: +Principle 9 Trust Before Content (Trust.md v1.0: definition, 3 sub-dimensions × education, Default→Calibrated × stages, Virtuous/Vicious loop, collapse/repair), +Principle 10 Self-Observation Metacognitive Foundation (Self-Observation.md v1.0: Level × strategy, External Scaffold, PFC budget competition, Keystone cascade, Teen Paradox), 8→10 principles, deps +Trust.md v1.0 + Self-Observation.md v1.0)
 previous: v2.1 (2026-06-01, 2,041L)
 status: v2.2
 scope: |
-  HOW thiết kế learning arc cho structured education (6+).
-  Build TRÊN Child-Development-Mechanism.md (nền tảng compile 0-6).
-  Brain-based principles — valid MỌI era, MỌI culture.
-  Framework = ENGINE cho AI optimize per student — không phải curriculum.
-  v2.2 KEY CHANGES: +Nguyên lý 9 Trust Before Content (Trust.md v1.0:
+  HOW to design learning arcs for structured education (age 6+).
+  Builds ON Child-Development-Mechanism.md (0–6 foundational compile).
+  Brain-based principles — valid across ALL eras, ALL cultures.
+  Framework = ENGINE for AI to optimize per student — not a curriculum.
+  v2.2 KEY CHANGES: +Principle 9 Trust Before Content (Trust.md v1.0:
   trust definition, 3 sub-dimensions × education, Default→Calibrated × education stages,
   Virtuous/Vicious loop, trust collapse/repair in education),
-  +Nguyên lý 10 Self-Observation Metacognitive Foundation (Self-Observation.md v1.0:
-  Mức × metacognitive strategy, Teacher as External Scaffold per Mức,
+  +Principle 10 Self-Observation Metacognitive Foundation (Self-Observation.md v1.0:
+  Level × metacognitive strategy, Teacher as External Scaffold per Level,
   PFC budget competition, Keystone cascade, Teen Paradox × education).
-  8 nguyên lý → 10 nguyên lý + 1 synthesis. Dependencies: +Trust.md v1.0, +Self-Observation.md v1.0.
-  v2.1 KEY CHANGES: "4+1 kênh compile" → "Compile Architecture (1E+3M)",
+  8 principles → 10 principles + 1 synthesis. Dependencies: +Trust.md v1.0, +Self-Observation.md v1.0.
+  v2.1 KEY CHANGES: "4+1 compile channels" → "Compile Architecture (1E+3M)",
   +Multi-Stream × Direction > Level, +Critical Asymmetry × Imagine-Final,
   +Sleep Maintenance (6 mechanisms, exposure vs optimization), +Trust/Experience/Expertise × Arc Design,
-  +Bridge × Critical Asymmetry. Dependencies: Child-Dev-Mechanism v2.0→v2.2, +CT v3.0, +CS v1.0.
+  +Bridge × Critical Asymmetry. Dependencies: Child-Dev-Mechanism v2.0→v2.2, +Compile-Taxonomy v3.0, +Compile-Sleep v1.0.
   v2.0 KEY CHANGES: +Hardware-Subsidy, +PFC Budget, +Imagine-Final v3.0,
   +Dissonance-Signal-Architecture, +Entity-Access gradient, +Simulation-Engine,
   +Structural/Current valence, +Coordination-Node, +Resonance Decline,
-  +Gap-Distribution-Profile, bộ 3 architecture.
+  +Gap-Distribution-Profile, triple architecture.
 purpose: |
-  File NÀY giải thích NGUYÊN LÝ arc design — không cho cách dạy cụ thể.
-  Vô vàn cách dạy 3+2=5. Vô vàn cách tập nhạc. Vô vàn cách học bơi.
-  Framework cung cấp nguyên lý brain-based ĐỂ AI generate arc phù hợp
+  THIS FILE explains the PRINCIPLES of arc design — not specific teaching methods.
+  There are infinite ways to teach 3+2=5. Infinite ways to practice music. Infinite ways to learn to swim.
+  The framework provides brain-based principles FOR AI to generate appropriate arcs
   per student, per topic, per era.
 position: |
-  Research/Education/ — TẦNG 3 trong kiến trúc.
-  TẦNG 1: Core-Deep-Dive/ (não hoạt động thế nào)
-  TẦNG 2: Research/Child-Development/ (con người phát triển 0-6)
-  TẦNG 3: Research/Education/ (nguyên lý giáo dục bất biến) ← ĐÂY
-  TẦNG 4: Applications/Education/ (ứng dụng per-era)
-  TẦNG 5: Country/ (per-country)
-  Bộ 3 files: Education-Mechanism (HOW) + Domain-Knowledge-Map (WHAT) + Connection-Education (WHO).
+  Research/Education/ — LAYER 3 in the architecture.
+  LAYER 1: Core-Deep-Dive/ (how the brain works)
+  LAYER 2: Research/Child-Development/ (human development 0–6)
+  LAYER 3: Research/Education/ (invariant principles of education) ← HERE
+  LAYER 4: Applications/Education/ (per-era applications)
+  LAYER 5: Country/ (per-country)
+  Triple file set: Education-Mechanism (HOW) + Domain-Knowledge-Map (WHAT) + Connection-Education (WHO).
 dependencies:
   core-foundation:
-    - Child-Development-Mechanism.md v2.2 — NỀN TẢNG (Compile Architecture, approach/avoidance, cortisol)
+    - Child-Development-Mechanism.md v2.2 — FOUNDATION (Compile Architecture, approach/avoidance, cortisol)
     - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, Multi-Stream, Trust = Amplifier
     - Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms, exposure vs optimization)
     - Trust.md v1.0 — Trust definition, 3 sub-dimensions, Default→Calibrated, Amplifier (⭐NEW v2.2)
-    - Self-Observation.md v1.0 — APPLICATION-3, Mức 0-6 gradient, Keystone cascade (⭐NEW v2.2)
-    - Core-v7.8-Draft.md — cycle architecture, observation parameters
+    - Self-Observation.md v1.0 — APPLICATION-3, Level 0–6 gradient, Keystone cascade (⭐NEW v2.2)
+    - Core-Software.md — cycle architecture, observation parameters
     - Chunk.md v2.2 — chunk substrate, compile, lifecycle, context-tag
     - Cortisol-Baseline.md v2.1 — amplifier reframe, direction > level
     - Body-Feedback-Mechanism.md v2.1 — 2 sources × 3 dynamics, Body-Feedback-Precondition
@@ -54,463 +54,463 @@ dependencies:
     - PFC-Operations.md v1.1 — Hold/Suppress, Compiled Quality, PFC Budget
     - Simulation-Engine.md v1.1 — 1 engine, 3 components, 3 axes
     - Imagine-Final.md v3.0 — constructive simulation, 3-Layer hierarchy, lifecycle
-    - Imagine-Final-Evaluation.md v1.1 — 4 góc quality (Domain × Hardware Fit)
+    - Imagine-Final-Evaluation.md v1.1 — 4-angle quality (Domain × Hardware Fit)
   valence-body:
     - Valence-Propagation.md v3.0 — structural/current, 3 firing modes, Hardware-Subsidy
     - Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State, valley vocabulary
-    - Gap-Distribution-Profile.md v1.1 — per-person gap landscape, 4 trục
+    - Gap-Distribution-Profile.md v1.1 — per-person gap landscape, 4 axes
     - Gap-Body-Need.md v1.0 — 3 Satiation Types, ENGINE/ROAD/VEHICLE
   agent-entity:
-    - Entity-Access.md v1.2 — gradient Mức 0-5, 3-Factor Model
-    - Entity-Compiled.md v1.0 — formation 40-200h, Hub-and-Spoke
+    - Entity-Access.md v1.2 — gradient Level 0–5, 3-Factor Model
+    - Entity-Compiled.md v1.0 — formation 40–200h, Hub-and-Spoke
     - Self-Pattern-Modeling.md v3.1 — 1 mechanism × 3 dimensions, Compiled/Fresh
     - Coordination-Node.md v1.2 — prestige vs dominance, teacher as node
     - Connection.md v5.0 — 3 Generative Primitives, Resonance Decline, Hardware-Subsidy
     - By-Product-Gap-Resonance.md v1.4 — resonance as by-product
   education-companion:
-    - Domain-Knowledge-Map.md v1.0 — WHAT domain groups (bộ 3)
-    - Connection-Education.md v1.1 — WHO social interaction (bộ 3), +Trust §5.6, +Self-Observation §2.5
-    - Anchor-Schema.md v1.2 — 4 nguồn fill, trust dimension
+    - Domain-Knowledge-Map.md v1.0 — WHAT domain groups (triple set)
+    - Connection-Education.md v1.1 — WHO social interaction (triple set), +Trust §5.6, +Self-Observation §2.5
+    - Anchor-Schema.md v1.2 — 4 fill sources, trust dimension
     - AI-Schema-Detection.md v2.0 — gateway model, 3-layer architecture
     - Domain-Mapping-Drive.md v1.0 — WHY humans drive map domain
     - Compiled-Fresh.md v2.0 — Compiled Quality Dimension
   child-dev:
-    - Natural-Development.md v2.2 — 0-6 tự nhiên
-    - Skill-Introduction.md v2.2 — 0-6 kỹ năng giới thiệu
+    - Natural-Development.md v2.2 — 0–6 natural development
+    - Skill-Introduction.md v2.2 — 0–6 skill introduction
     - Mother-Optimization.md v2.2 — prenatal hardware quality
-language: Tiếng Việt primary + English technical terms
+language: English (translated from Vietnamese primary + English technical terms)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Education-Mechanism — Nguyên Lý Thiết Kế Learning Arc v7.8
+# Education-Mechanism — Principles of Learning Arc Design v7.8
 
-> **Trẻ sơ sinh học bằng CURIOSITY — mọi thứ đều mới.**
-> **Học sinh 8 tuổi học bằng ARC — ai đó đã chọn "hôm nay học gì."**
+> **An infant learns through CURIOSITY — everything is new.**
+> **An 8-year-old learns through an ARC — someone has already chosen "what to learn today."**
 >
-> Cùng kiến trúc. Cùng chunks. Cùng Compile Engine.
-> Khác: ai thiết kế trải nghiệm, ở scale nào, với mục đích gì.
+> Same architecture. Same chunks. Same Compile Engine.
+> The difference: who designs the experience, at what scale, and for what purpose.
 >
-> Child-Development-Mechanism = cách NÃO compile chunks (0-6, tự nhiên).
-> File này = cách THIẾT KẾ learning arc để compile hiệu quả (6+, có cấu trúc).
+> Child-Development-Mechanism = how the BRAIN compiles chunks (0–6, natural).
+> This file = how to DESIGN a learning arc to compile effectively (6+, structured).
 >
-> 3+2=5 có vô vàn cách dạy. Tập nhạc có vô vàn cách luyện.
-> Bơi có vô vàn cách tiếp cận. AI Literacy có vô vàn cách hiểu.
+> There are infinite ways to teach 3+2=5. Infinite ways to practice music.
+> Infinite approaches to swimming. Infinite ways to understand AI Literacy.
 >
-> Framework KHÔNG prescribe cách dạy nào.
-> Framework cung cấp NGUYÊN LÝ brain-based để BẤT KỲ AI nào
-> có thể generate arc phù hợp cho BẤT KỲ học sinh nào, BẤT KỲ chủ đề nào.
+> The framework does NOT prescribe which method to use.
+> The framework provides BRAIN-BASED PRINCIPLES so that any AI
+> can generate arcs appropriate for ANY student, ANY topic.
 >
-> **"100 năm trước đúng, 100 năm sau vẫn đúng — vì não không đổi."**
+> **"True 100 years ago, still true 100 years from now — because the brain doesn't change."**
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ VÀ BỘ 3 FILES
-- §1 — CONTEXT SHIFT: TỪ TỰ NHIÊN (0-6) SANG CÓ CẤU TRÚC (6+)
-- §2 — ARC DESIGN PRINCIPLES: NGUYÊN LÝ THIẾT KẾ BÀI HỌC
-- §3 — BRIDGE + MOTIVATION: TỪ BÊN NGOÀI SANG BÊN TRONG
+- §0 — POSITION AND THE TRIPLE FILE SET
+- §1 — CONTEXT SHIFT: FROM NATURAL (0–6) TO STRUCTURED (6+)
+- §2 — ARC DESIGN PRINCIPLES: HOW TO DESIGN LEARNING ARCS
+- §3 — BRIDGE + MOTIVATION: FROM EXTERNAL TO INTERNAL
 - §4 — AI-ASSISTED EDUCATION MODEL
 - §5 — HONEST ASSESSMENT
 - §6 — CROSS-REFERENCES
 
 ---
 
-## §0 — VỊ TRÍ VÀ BỘ 3 FILES
+## §0 — POSITION AND THE TRIPLE FILE SET
 
-### §0.1 — Bộ 3: HOW + WHAT + WHO
+### §0.1 — The Triple Set: HOW + WHAT + WHO
 
 ```
-BỘ 3 EDUCATION — 3 FILES ĐỌC CÙNG NHAU:
+TRIPLE EDUCATION SET — 3 FILES READ TOGETHER:
 
-  Education-Mechanism.md  ← NGUYÊN LÝ (file này) — HOW
-    "Thiết kế learning arc thế nào cho hiệu quả?"
-    → Brain-based, valid mọi era, mọi culture
-    → Build trên Child-Development-Mechanism.md v2.2
+  Education-Mechanism.md  ← PRINCIPLES (this file) — HOW
+    "How do you design a learning arc effectively?"
+    → Brain-based, valid across all eras and cultures
+    → Builds on Child-Development-Mechanism.md v2.2
 
-  Domain-Knowledge-Map.md  ← BẢN ĐỒ (file 2) — WHAT
-    "Nhóm kiến thức/kỹ năng nào cần trong era hiện đại?"
-    → Era-dependent ở GROUP level, update khi era đổi
-    → Structure giữ nguyên, content groups thay đổi
+  Domain-Knowledge-Map.md  ← MAP (file 2) — WHAT
+    "Which knowledge/skill groups are needed in the modern era?"
+    → Era-dependent at the GROUP level, updates when eras shift
+    → Structure stays; content groups change
 
-  Connection-Education.md  ← TƯƠNG TÁC (file 3) — WHO
-    "Dạy social interaction thế nào qua framework?"
-    → 5 trụ: Hiểu + Xây dựng + Chọn + Duy trì + Navigate groups
-    → Build trên Connection v5.0 + Bond-Architecture + Entity-Access
+  Connection-Education.md  ← INTERACTION (file 3) — WHO
+    "How to teach social interaction through the framework?"
+    → 5 pillars: Understand + Build + Choose + Sustain + Navigate groups
+    → Builds on Connection v5.0 + Bond-Architecture + Entity-Access
 
   + Observation/
-    Education-Arms-Race.md   ← Quan sát vấn đề
-    Money-Education.md       ← Quan sát ứng dụng (tiền)
+    Education-Arms-Race.md   ← Observation of the problem
+    Money-Education.md       ← Observation of application (money)
 
 
 READER FLOW:
-  Muốn hiểu CƠ CHẾ NÃO (nền tảng)    → Child-Development-Mechanism.md v2.2
-  Muốn hiểu NGUYÊN LÝ ARC DESIGN      → Education-Mechanism.md (file này)
-  Muốn biết DẠY NHÓM GÌ               → Domain-Knowledge-Map.md
-  Muốn hiểu DẠY SOCIAL INTERACTION     → Connection-Education.md
-  Muốn AI GENERATE bài học              → bộ 3 + AI engine
+  Want to understand the BRAIN MECHANISM (foundation)  → Child-Development-Mechanism.md v2.2
+  Want to understand ARC DESIGN PRINCIPLES             → Education-Mechanism.md (this file)
+  Want to know WHAT TO TEACH                           → Domain-Knowledge-Map.md
+  Want to understand TEACHING SOCIAL INTERACTION       → Connection-Education.md
+  Want AI TO GENERATE LESSONS                          → triple set + AI engine
 ```
 
-### §0.2 — Nền tảng: Child-Development-Mechanism
+### §0.2 — Foundation: Child-Development-Mechanism
 
 ```
-⭐ FILE NÀY BUILD TRÊN, KHÔNG LẶP LẠI:
+⭐ THIS FILE BUILDS ON — DOES NOT REPEAT:
 
-  Child-Development-Mechanism.md v2.2 (~2,970 lines) ĐÃ giải thích:
+  Child-Development-Mechanism.md v2.2 (~2,970 lines) has ALREADY explained:
 
   ┌──────────────────────┬─────────────────────────────────────────┐
-  │ §1 PFC Reframe       │ Hardware online từ prenatal.             │
-  │                      │ Chunks missing = bottleneck thật.        │
+  │ §1 PFC Reframe       │ Hardware online from prenatal.          │
+  │                      │ Missing chunks = real bottleneck.       │
   ├──────────────────────┼─────────────────────────────────────────┤
-  │ §2 Compile           │ 1 Engine (Hebbian) + 3 Modulators:       │
-  │    Architecture      │ Entity-Valence Bias + PFC Modulation     │
-  │                      │ + Sleep Maintenance (6 mechanisms)        │
-  │                      │ + 3 Exposure Channels (External +        │
-  │                      │   Deliberate + Spontaneous)              │
-  │                      │ + Multi-Stream (Content/Value/Entity/    │
-  │                      │   Behavior) + 5-parameter formula        │
+  │ §2 Compile           │ 1 Engine (Hebbian) + 3 Modulators:      │
+  │    Architecture      │ Entity-Valence Bias + PFC Modulation    │
+  │                      │ + Sleep Maintenance (6 mechanisms)      │
+  │                      │ + 3 Exposure Channels (External +       │
+  │                      │   Deliberate + Spontaneous)             │
+  │                      │ + Multi-Stream (Content/Value/Entity/   │
+  │                      │   Behavior) + 5-parameter formula       │
   ├──────────────────────┼─────────────────────────────────────────┤
-  │ §3 Approach/         │ ⭐ "Cùng nội dung, khác cách dạy         │
-  │    Avoidance Tags    │ → khác tag → khác SUỐT ĐỜI"            │
-  │                      │ Direction > Level (novelty vs threat)    │
+  │ §3 Approach/         │ ⭐ "Same content, different teaching     │
+  │    Avoidance Tags    │ → different tag → different FOR LIFE"  │
+  │                      │ Direction > Level (novelty vs threat)   │
   ├──────────────────────┼─────────────────────────────────────────┤
   │ §4 Chunk Dynamics    │ Shift, miss, gap, compound dynamics     │
   ├──────────────────────┼─────────────────────────────────────────┤
-  │ §7 Autonomy          │ Efference copy → meta-chunk → agency    │
+  │ §7 Autonomy          │ Efference copy → meta-chunk → agency   │
   ├──────────────────────┼─────────────────────────────────────────┤
   │ §8 Cortisol          │ Amplifier, 4-threshold gradient,        │
-  │    Baseline          │ sleep = consolidation + repair           │
+  │    Baseline          │ sleep = consolidation + repair          │
   ├──────────────────────┼─────────────────────────────────────────┤
   │ §9 Observation       │ Imagine-Final emergence timeline,       │
-  │    Parameters        │ sensitive periods                        │
+  │    Parameters        │ sensitive periods                       │
   └──────────────────────┴─────────────────────────────────────────┘
 
-  TẤT CẢ mechanism trên VẪN ÁP DỤNG cho education 6+.
-  Cùng kiến trúc, cùng chunks, cùng perception-action cycle.
-  File này KHÔNG lặp lại — file này ADD cái MỚI:
+  ALL of those mechanisms STILL APPLY to education 6+.
+  Same architecture, same chunks, same perception-action cycle.
+  This file does NOT repeat — this file ADDS what is NEW:
 
   ┌──────────────────────┬─────────────────────────────────────────┐
-  │ §1 Context Shift     │ Cái gì THAY ĐỔI khi 0-6 → 6+?         │
+  │ §1 Context Shift     │ What CHANGES when 0–6 → 6+?            │
   ├──────────────────────┼─────────────────────────────────────────┤
-  │ §2 Arc Design        │ HOW thiết kế learning arc hiệu quả?    │
-  │    Principles        │ 10 nguyên lý + 1 synthesis.             │
+  │ §2 Arc Design        │ HOW to design effective learning arcs?  │
+  │    Principles        │ 10 principles + 1 synthesis.            │
   │                      │ v2.2: +Trust Before Content (§2.11),    │
   │                      │ +Self-Observation Metacognitive (§2.12) │
   ├──────────────────────┼─────────────────────────────────────────┤
-  │ §3 Bridge +          │ Bridge = nguồn ④ External Inject.       │
-  │    Motivation        │ Transition 4 nguồn fill. 3 ORIGIN.      │
+  │ §3 Bridge +          │ Bridge = External Inject source ④.      │
+  │    Motivation        │ Transition across 4 fill sources. 3 ORIGINS. │
   ├──────────────────────┼─────────────────────────────────────────┤
   │ §4 AI-Assisted       │ Framework = engine, AI = runtime.       │
-  │    Model             │ 3-layer: AI + Teacher + Student.         │
+  │    Model             │ 3-layer: AI + Teacher + Student.        │
   └──────────────────────┴─────────────────────────────────────────┘
 ```
 
-### §0.3 — Tại sao KHÔNG prescribe
+### §0.3 — Why NOT Prescribe
 
 ```
-INSIGHT CỐT LÕI:
+CORE INSIGHT:
 
-  Child-Development = HARDWARE (ổn định)
+  Child-Development = HARDWARE (stable)
     → PFC hardware, Compile Architecture (1E+3M), approach/avoidance, cortisol baseline
-    → Ổn định 100,000+ năm → framework MÔ TẢ chi tiết được
+    → Stable for 100,000+ years → framework CAN describe it in detail
 
   Education = SOFTWARE (era-dependent)
-    → Kiến thức cần học: THAY ĐỔI mỗi era
-    → Cách dạy hiệu quả: VÔ TẬN (tùy topic, tùy student, tùy context)
-    → Càng tạo khung prescriptive → càng TỰ GIỚI HẠN
+    → Knowledge needed: CHANGES with each era
+    → Effective teaching methods: INFINITE (varies by topic, student, context)
+    → The more prescriptive the framework → the more SELF-LIMITING
 
-  VÍ DỤ:
-    → 3+2=5: có thể dùng ngón tay, hạt đậu, hình vẽ, câu chuyện,
-      game, bài hát, VR, AI simulation... VÔ TẬN cách tiếp cận
-    → Tập piano: có thể Suzuki, Faber, ABRSM, tự học, AI guide,
-      theo bản năng, theo master class... VÔ TẬN phương pháp
-    → AI Literacy: có thể thực hành, lý thuyết, project, exploration,
-      collaboration, solo... VÔ TẬN cách hiểu
+  EXAMPLES:
+    → 3+2=5: can use fingers, beans, drawings, stories,
+      games, songs, VR, AI simulation... INFINITE approaches
+    → Piano practice: can use Suzuki, Faber, ABRSM, self-learning, AI guide,
+      following instinct, master class... INFINITE methods
+    → AI Literacy: can be practice-based, theory, project, exploration,
+      collaboration, solo... INFINITE ways to understand
 
-  MỌI cách dạy trên đều VALID — NẾU follow brain mechanism:
-    → Có dùng ≥1 dạng exposure? (repetition, peak, multi-modal, sleep)
-    → Approach-tagged hay avoidance-tagged? (direction > level)
-    → Có prerequisite chunks chưa? (Precondition-2 bottleneck)
-    → Cost có phù hợp student này? (per-hardware)
+  ALL of the above are VALID — IF they follow brain mechanisms:
+    → Uses ≥1 type of exposure? (repetition, peak, multi-modal, sleep)
+    → Approach-tagged or avoidance-tagged? (direction > level)
+    → Are prerequisite chunks present? (Precondition-2 bottleneck)
+    → Does the cost fit THIS student? (per-hardware)
 
-  → Framework KHÔNG nói "dạy CÁCH NÀY"
-  → Framework nói "dạy CÁCH NÀO cũng được, NẾU follow nguyên lý"
-  → = ENGINE cho AI generate arc phù hợp, không phải GPS chính xác
+  → Framework does NOT say "teach THIS WAY"
+  → Framework says "any way you teach is fine, IF it follows the principles"
+  → = ENGINE for AI to generate fitting arcs, not a precise GPS
 
-  🟡 Mô hình tương tự AI-Schema-Detection.md:
-     Schema vô tận → framework cho nguyên lý NHẬN DIỆN
-     Cách dạy vô tận → framework cho nguyên lý THIẾT KẾ ARC
-     = Navigate tool, không phải GPS
+  🟡 Similar model to AI-Schema-Detection.md:
+     Infinite schemas → framework provides principles for DETECTION
+     Infinite teaching methods → framework provides principles for ARC DESIGN
+     = Navigation tool, not a GPS
 ```
 
 ### §0.4 — Framework = Engine, AI = Runtime
 
 ```
-🟡 MÔ HÌNH ENGINE:
+🟡 THE ENGINE MODEL:
 
   ┌──────────────────────────────────────────────────────────────┐
   │                                                              │
   │  FILE 1 (Education-Mechanism) = ENGINE — HOW                  │
-  │    → Nguyên lý brain-based cho arc design                   │
-  │    → Valid mọi era, mọi topic, mọi student                 │
-  │    → KHÔNG generate arc cụ thể                              │
+  │    → Brain-based principles for arc design                  │
+  │    → Valid across all eras, topics, students                │
+  │    → Does NOT generate specific arcs                        │
   │                                                              │
   │  FILE 2 (Domain-Knowledge-Map) = DOMAIN CATALOG — WHAT       │
-  │    → Nhóm kiến thức cần trong era hiện đại                  │
-  │    → Update khi era đổi (structure giữ, content đổi)        │
+  │    → Knowledge groups needed in the modern era              │
+  │    → Updates when era shifts (structure stays, content changes) │
   │                                                              │
   │  FILE 3 (Connection-Education) = SOCIAL GUIDE — WHO          │
-  │    → 5 trụ social interaction education                     │
-  │    → Build trên Connection v5.0 + Entity-Access              │
+  │    → 5 pillars of social interaction in education           │
+  │    → Builds on Connection v5.0 + Entity-Access              │
   │                                                              │
   │  AI = RUNTIME OPTIMIZER                                      │
-  │    Input: topic + student profile + mechanism principles     │
-  │    Process: generate arc options phù hợp                     │
-  │    Output: learning arc(s) tailored per student              │
+  │    Input: topic + student profile + mechanism principles    │
+  │    Process: generate arc options fitting the student         │
+  │    Output: learning arc(s) tailored per student             │
   │                                                              │
   │  TEACHER/PARENT = CALIBRATOR                                 │
-  │    → Feel-check: "arc này có phù hợp student NÀY?"          │
-  │    → Adjust: based on experience + relationship              │
-  │    → Override: khi AI miss context thật                      │
+  │    → Feel-check: "does this arc fit THIS student?"           │
+  │    → Adjust: based on experience + relationship             │
+  │    → Override: when AI misses the real context              │
   │                                                              │
   │  STUDENT = VERIFIER                                          │
-  │    → Body feedback: approach hay avoidance?                  │
-  │    → Progress: chunks có compile không?                      │
-  │    → Direction: Imagine-Final có rõ hơn không?               │
+  │    → Body feedback: approach or avoidance?                  │
+  │    → Progress: are chunks compiling?                        │
+  │    → Direction: is Imagine-Final getting clearer?           │
   │                                                              │
   └──────────────────────────────────────────────────────────────┘
 
-  = GIỐNG AI-Schema-Detection.md:
-    AI detect + Expert verify + Client confirm = 3 tầng
-    AI generate arc + Teacher calibrate + Student verify = 3 tầng
+  = SIMILAR TO AI-Schema-Detection.md:
+    AI detects + Expert verifies + Client confirms = 3 layers
+    AI generates arc + Teacher calibrates + Student verifies = 3 layers
 
-  → Không AI layer nào ĐỦ một mình (AI-Schema §2)
-  → Không teacher layer nào ĐỦ một mình
-  → 3 tầng phối hợp = ENOUGH
+  → No single AI layer is SUFFICIENT alone (AI-Schema §2)
+  → No single teacher layer is SUFFICIENT alone
+  → 3 layers working together = ENOUGH
 ```
 
 ### §0.5 — Scope
 
 ```
-FILE NÀY LÀM:
-  ✓ 10 nguyên lý brain-based cho learning arc design (§2)
+THIS FILE DOES:
+  ✓ 10 brain-based principles for learning arc design (§2)
   ✓ Bridge mechanism + motivation transition (§3)
   ✓ AI-assisted education model architecture (§4)
-  ✓ Build trên Child-Dev-Mechanism (reference, không lặp)
+  ✓ Builds on Child-Dev-Mechanism (reference, not repeat)
 
-FILE NÀY KHÔNG LÀM:
-  ✗ Không prescribe cách dạy cụ thể (vô tận → AI handle)
-  ✗ Không liệt kê per-age tables (prescriptive → Child-Dev files)
-  ✗ Không liệt kê domain kiến thức (→ Domain-Knowledge-Map.md)
-  ✗ Không thay thế chuyên gia giáo dục
-  ✗ Không cover prenatal/0-6 chi tiết (→ Child-Dev bộ 4)
+THIS FILE DOES NOT:
+  ✗ Prescribe specific teaching methods (infinite → AI handles)
+  ✗ List per-age tables (prescriptive → Child-Dev files)
+  ✗ List domain knowledge (→ Domain-Knowledge-Map.md)
+  ✗ Replace educational specialists
+  ✗ Cover prenatal/0–6 in detail (→ Child-Dev set of 4)
 
-TEST CHO MỖI NGUYÊN LÝ TRONG FILE:
-  "100 năm trước đúng không?" → ĐÚNG → có thể là principle
-  "100 năm sau vẫn đúng không?" → ĐÚNG → likely principle
-  Nếu CẢ HAI đúng → brain-based principle, vào file
-  Nếu KHÔNG → era-specific, không vào file
+TEST FOR EACH PRINCIPLE IN THIS FILE:
+  "Was this true 100 years ago?" → YES → may be a principle
+  "Will it still be true 100 years from now?" → YES → likely a principle
+  If BOTH are yes → brain-based principle, goes in the file
+  If NOT → era-specific, does not go in the file
 ```
 
 ---
 
-## §1 — CONTEXT SHIFT: TỪ TỰ NHIÊN (0-6) SANG CÓ CẤU TRÚC (6+)
+## §1 — CONTEXT SHIFT: FROM NATURAL (0–6) TO STRUCTURED (6+)
 
-### §1.1 — Cùng kiến trúc, khác context
+### §1.1 — Same Architecture, Different Context
 
 ```
-⭐ PERCEPTION-ACTION CYCLE — GIỐNG HỆT:
+⭐ PERCEPTION-ACTION CYCLE — IDENTICAL:
 
   Domain → Body-Input → Unconscious(Chunks) → Feeling → PFC → Body-Output → Domain
-  (Core-v7.8-Draft.md §1)
+  (Core-Software.md §1)
 
-  Trẻ 2 tuổi chơi cát:
-    Cát (domain) → tay sờ (body) → mismatch (feedback) → compile chunk mới
-    → hành động (đổ cát) → cát rơi (domain phản hồi) → loop tiếp
+  A 2-year-old playing with sand:
+    Sand (domain) → hands touch (body) → mismatch (feedback) → compile new chunk
+    → action (pour sand) → sand falls (domain responds) → loop continues
 
-  Học sinh 10 tuổi học phân số:
-    "1/2 pizza" (domain) → nghe+nhìn (body) → mismatch (feedback)
-    → compile chunk mới → làm bài (hành động) → đúng/sai (domain) → loop tiếp
+  A 10-year-old learning fractions:
+    "1/2 pizza" (domain) → hear + see (body) → mismatch (feedback)
+    → compile new chunk → do the problem (action) → right/wrong (domain) → loop continues
 
-  = CÙNG LOOP. CÙNG COMPILE MECHANISM.
-  Khác: AI THIẾT KẾ loop — thay vì loop xảy ra TỰ NHIÊN.
-
-
-CHUNKS VẪN LÀ SOLE SUBSTRATE (Core-v7.8-Draft.md):
-  → Learning = compile new chunks vào existing network
-  → "Hiểu" = PFC hold chunk mới + link với chunks cũ
-  → "Biết làm" = chunk compiled đủ sâu → vô thức chạy
-  → "Giỏi" = meta-chunks (nhiều sub-chunks merge → 1 unit)
-  → = BẤT KỂ 2 tuổi hay 20 tuổi — cùng mechanism
+  = SAME LOOP. SAME COMPILE MECHANISM.
+  The difference: the AI DESIGNS the loop — instead of the loop happening NATURALLY.
 
 
-COMPILE ARCHITECTURE VẪN HOẠT ĐỘNG (Child-Dev-Mechanism §2):
-  → 1 ENGINE (Hebbian) — tất cả compile qua cùng 1 engine
+CHUNKS ARE STILL THE SOLE SUBSTRATE (Core-Software.md):
+  → Learning = compiling new chunks into the existing network
+  → "Understanding" = PFC holds new chunk + links with old chunks
+  → "Knowing how to do" = chunk compiled deep enough → unconscious runs it
+  → "Mastery" = meta-chunks (many sub-chunks merge → 1 unit)
+  → = Whether you are 2 or 20 — same mechanism
+
+
+COMPILE ARCHITECTURE STILL OPERATES (Child-Dev-Mechanism §2):
+  → 1 ENGINE (Hebbian) — all compiling runs through the same 1 engine
   → 3 MODULATORS: Entity-Valence Bias | PFC Modulation | Sleep Maintenance
   → 3 EXPOSURE CHANNELS: External | Deliberate | Spontaneous
   → Trust Compile (External Install) = Entity-Valence dominant pathway
-  → 4 dạng exposure: ① Repetition ② Emotional peak ③ Multi-modal ④ Sleep replay
-  → 5-parameter formula vẫn áp dụng:
+  → 4 types of exposure: ① Repetition ② Emotional peak ③ Multi-modal ④ Sleep replay
+  → 5-parameter formula still applies:
     compile_rate ≈ f(exposure × saliency × contingency
                      × peak_valence × multi_modal_richness)
-  → (Chi tiết: Compile-Taxonomy.md v3.0, Compile-Sleep.md v1.0)
+  → (Details: Compile-Taxonomy.md v3.0, Compile-Sleep.md v1.0)
 
 
-APPROACH/AVOIDANCE TAGS VẪN QUYẾT ĐỊNH (Child-Dev-Mechanism §3):
-  → "Cùng nội dung, khác cách dạy → khác tag → khác SUỐT ĐỜI"
+APPROACH/AVOIDANCE TAGS STILL DECIDE (Child-Dev-Mechanism §3):
+  → "Same content, different teaching → different tag → different FOR LIFE"
   → Direction > Level: novelty-path → approach, threat-path → avoidance
-  → ĐÂY LÀ NGUYÊN LÝ QUAN TRỌNG NHẤT CHO EDUCATION — §2.1 sẽ chi tiết
+  → THIS IS THE SINGLE MOST IMPORTANT PRINCIPLE FOR EDUCATION — §2.2 will detail
 ```
 
-### §1.2 — 3 thay đổi khi 0-6 → 6+
+### §1.2 — 3 Things That Change When 0–6 → 6+
 
 ```
-🟡 CÁI GÌ THỰC SỰ THAY ĐỔI — KHÔNG PHẢI MECHANISM, MÀ CONTEXT:
+🟡 WHAT ACTUALLY CHANGES — NOT THE MECHANISM, BUT THE CONTEXT:
 
 
-  ① SCALE — từ cá nhân sang hệ thống:
+  ① SCALE — from individual to system:
 
-    0-6: 1 gia đình, 1-vài trẻ
-      → Bố mẹ tự nhiên per-hardware calibrate (biết con mình)
-      → Loops xảy ra trong môi trường gia đình (an toàn, quen thuộc)
-      → Không cần "thiết kế bài" — trải nghiệm tự nhiên = đủ
+    0–6: 1 family, 1–few children
+      → Parents naturally per-hardware calibrate (they know their child)
+      → Loops happen in the home environment (safe, familiar)
+      → No need to "design lessons" — natural experience is enough
 
-    6+: 1 teacher, 30+ students (hoặc AI, 1-on-1)
-      → Per-hardware calibrate KHÔNG tự nhiên nữa → cần MECHANISM
-      → Loops xảy ra trong môi trường lớp học (xa nhà, xã hội phức tạp)
-      → CẦN "thiết kế" — kiến thức phức tạp, prerequisite chain dài
+    6+: 1 teacher, 30+ students (or AI, 1-on-1)
+      → Per-hardware calibration no longer natural → needs a MECHANISM
+      → Loops happen in the classroom (away from home, socially complex)
+      → MUST "design" — complex knowledge, long prerequisite chains
 
-    → Scale thay đổi = CẦN arc design + calibration mechanism
+    → Scale changes = NEED arc design + calibration mechanism
 
 
-  ② STRUCTURE — từ tự nhiên sang có hướng:
+  ② STRUCTURE — from natural to guided:
 
-    0-6: Curiosity-driven → VTA fire → explore → compile
-      → Trẻ TỰ CHỌN explore gì (theo body interest)
-      → Mọi thứ đều mới → prediction-delta CAO → dopamine tự nhiên
-      → Chunks foundation compile QUA TRẢI NGHIỆM, không cần push
+    0–6: Curiosity-driven → VTA fires → explore → compile
+      → Child CHOOSES what to explore (follows body interest)
+      → Everything is new → prediction-delta HIGH → dopamine naturally
+      → Foundation chunks compile THROUGH EXPERIENCE, no pushing needed
 
     6+: Curriculum-guided → arc designed → practice → compile
-      → Ai đó ĐÃ CHỌN "hôm nay học gì" (teacher, system, AI)
-      → Nhiều content KHÔNG tự nhiên thú vị → prediction-delta THẤP → cần bridge
-      → Prerequisite chains DÀI → cần sequencing chính xác
+      → Someone HAS CHOSEN "what to learn today" (teacher, system, AI)
+      → Much content NOT naturally interesting → prediction-delta LOW → needs bridge
+      → Prerequisite chains are LONG → precise sequencing needed
 
-    → Structure thay đổi = CẦN bridge mechanism + prerequisite check
+    → Structure changes = NEED bridge mechanism + prerequisite check
 
 
-  ③ PURPOSE — từ survival sang population-level:
+  ③ PURPOSE — from survival to population-level:
 
-    0-6: Compile chunks cho SURVIVAL + SOCIAL INTEGRATION
-      → Đi, nói, ăn, giao tiếp, cảm nhận
-      → Mục đích: cá nhân sống được, hòa nhập được
-      → Tension cá nhân × xã hội chưa xuất hiện rõ
+    0–6: Compile chunks for SURVIVAL + SOCIAL INTEGRATION
+      → Walk, talk, eat, communicate, feel
+      → Purpose: individual can live, integrate into society
+      → Individual × social tension not yet clearly present
 
-    6+: Compile chunks cho CÁ NHÂN + XÃ HỘI + LOÀI NGƯỜI
+    6+: Compile chunks for INDIVIDUAL + SOCIETY + HUMANITY
       → Literacy, numeracy, science, art, social skills, meta-learning
-      → Mục đích TRIPLE: cá nhân phát triển + xã hội vận hành
-        + loài người tích lũy knowledge cross-generational
-      → TENSION xuất hiện: cá nhân muốn gì ↔ xã hội cần gì (§1.3)
+      → TRIPLE purpose: individual flourishes + society functions
+        + humanity accumulates knowledge cross-generationally
+      → TENSION emerges: what the individual wants ↔ what society needs (§1.3)
 
-    → Purpose thay đổi = CẦN balance mechanism
+    → Purpose changes = NEED balance mechanism
 ```
 
-### §1.3 — Tension: cá nhân × xã hội
+### §1.3 — Tension: Individual × Society
 
 ```
-🟡 TENSION CẤU TRÚC — LUÔN TỒN TẠI, KHÔNG GIẢI ĐƯỢC:
+🟡 STRUCTURAL TENSION — ALWAYS EXISTS, CANNOT BE RESOLVED:
 
   ┌──────────────────────────────────────────────────────────────┐
-  │ CÁ NHÂN muốn:              │ XÃ HỘI cần:                   │
-  │ Chunks PHÙ HỢP hardware    │ Chunks PHÙ HỢP nhu cầu era    │
-  │ Per-dream, per-hardware     │ Standardized, scalable         │
-  │ "Tôi muốn học CÁI TÔI      │ "Cần bác sĩ, kỹ sư,          │
-  │  THÍCH + PHÙ HỢP"          │  nông dân, nghệ sĩ"           │
+  │ INDIVIDUAL wants:              │ SOCIETY needs:              │
+  │ Chunks FITTING hardware        │ Chunks FITTING era demands  │
+  │ Per-dream, per-hardware         │ Standardized, scalable      │
+  │ "I want to learn WHAT I        │ "Need doctors, engineers,   │
+  │  LIKE + WHAT FITS ME"          │  farmers, artists"          │
   └──────────────────────────────────────────────────────────────┘
 
-  → Tension = CẤU TRÚC, không giải được, chỉ BALANCE được
-  → Nghiêng quá xã hội → Forced-Fits → burnout, quarter-life crisis
-  → Nghiêng quá cá nhân → thiếu nhân lực critical cho xã hội
-  → KHÔNG CÓ perfect balance → chỉ có better / worse balance
+  → Tension = STRUCTURAL, cannot be resolved, can only be BALANCED
+  → Too far toward society → Forced-Fits → burnout, quarter-life crisis
+  → Too far toward individual → society lacks critical human capital
+  → NO perfect balance → only better / worse balance
 
-  MỌI era đều có tension này:
-    → Pre-industrial: thợ truyền nghề → per-individual nhưng hạn chế access
-    → Industrial: factory model → scalable nhưng one-size-fits-all
-    → AI era: potential per-individual AT SCALE? → chưa rõ, rất hứa hẹn
-    → = Tension = HẰNG SỐ, format balance = BIẾN SỐ per era
+  EVERY era has this tension:
+    → Pre-industrial: apprenticeship model → per-individual but limited access
+    → Industrial: factory model → scalable but one-size-fits-all
+    → AI era: potential per-individual AT SCALE? → unclear, very promising
+    → = Tension = CONSTANT, format of balance = VARIABLE per era
 
 
-  🟡 EDUCATION = HARDWARE-SUBSIDY HỆ THỐNG (Valence-Propagation v3.0 §7):
+  🟡 EDUCATION = SYSTEM-LEVEL HARDWARE-SUBSIDY (Valence-Propagation v3.0 §7):
 
     Hardware-Subsidy = anti-habituation mechanism — external system
-    COUNTER normal VTA habituation cho entity/domain cụ thể.
+    COUNTERS normal VTA habituation for a specific entity/domain.
 
-    Gia đình = hardware-subsidy CÁ NHÂN:
-      → Mẹ→con: MAX subsidy (oxytocin, baby schema, synchrony)
-      → Bố mẹ dạy con = subsidy cho learning cost
-      → "Có người bên cạnh" → cortisol thấp hơn → approach dễ hơn
+    Family = INDIVIDUAL hardware-subsidy:
+      → Mother→child: MAX subsidy (oxytocin, baby schema, synchrony)
+      → Parents teaching child = subsidy for learning cost
+      → "Someone beside you" → lower cortisol → approach easier
 
-    Education system = hardware-subsidy XÃ HỘI:
-      → Xã hội ĐẦU TƯ resources (trường, giáo viên, chương trình)
-      → ĐỂ student compile chunks MÀ TỰ HỌ chưa đủ drive
-      → = Subsidy HỆ THỐNG cho quá trình từ "chưa biết" đến "biết"
-      → Khi subsidy RÚT (tốt nghiệp) → quarter-life crisis =
-        gap landscape shift + subsidy end ĐỒNG THỜI
+    Education system = SOCIETAL hardware-subsidy:
+      → Society INVESTS resources (schools, teachers, curriculum)
+      → SO THAT students compile chunks THEY DON'T YET have the drive for themselves
+      → = SYSTEMIC subsidy for the process from "don't know yet" to "know"
+      → When subsidy is WITHDRAWN (graduation) → quarter-life crisis =
+        gap landscape shift + subsidy end SIMULTANEOUSLY
 
-    ⚠️ Tension qua lens Hardware-Subsidy:
-      → Xã hội provide subsidy → MUỐN nhân lực đúng nhu cầu era
-      → Cá nhân NHẬN subsidy → MUỐN phù hợp hardware riêng
-      → = Tension CŨ nhưng rõ hơn: ai TRẢ subsidy → muốn ĐỔI LẠI gì
+    ⚠️ Tension through Hardware-Subsidy lens:
+      → Society provides subsidy → WANTS workforce fitting era needs
+      → Individual RECEIVES subsidy → WANTS fit with own hardware
+      → = Old tension but clearer: who PAYS subsidy → what do they want IN RETURN
 
-  NGUYÊN LÝ: nhận diện tension + balance CÓ Ý THỨC > ignore tension
+  PRINCIPLE: recognize tension + balance CONSCIOUSLY > ignore tension
 ```
 
-### §1.4 — Education qua framework lens
+### §1.4 — Education Through the Framework Lens
 
 ```
-🟡 EDUCATION = GUIDED CHUNK CONFIG OPTIMIZATION:
+🟡 EDUCATION = GUIDED CHUNK CONFIGURATION OPTIMIZATION:
 
-  → Không guided: trải nghiệm tự nhiên → chunks compile tự do (0-6 dominant)
-  → Guided: ai đó thiết kế trải nghiệm → chunks compile CÓ HƯỚNG (6+ dominant)
-  → "Guided" = teacher, parent, system, AI, hoặc CHÍNH MÌNH (self-directed)
+  → Not guided: natural experience → chunks compile freely (0–6 dominant)
+  → Guided: someone designs the experience → chunks compile WITH DIRECTION (6+ dominant)
+  → "Guided" = teacher, parent, system, AI, or ONESELF (self-directed)
 
-  3 TẦNG PURPOSE:
+  3 LAYERS OF PURPOSE:
 
-    ① CHO CÁ NHÂN: build chunk config phù hợp hardware riêng
-       → Giúp fulfill Imagine-Final CỦA HỌ (không phải của bố mẹ/xã hội)
+    ① FOR THE INDIVIDUAL: build chunk config fitting their own hardware
+       → Helps fulfill THEIR Imagine-Final (not their parents'/society's)
        → Per-hardware: somatic-dominant ≠ verbal-dominant ≠ visual-dominant
 
-    ② CHO XÃ HỘI: đảm bảo đủ người có chunks ĐÚNG → xã hội VẬN HÀNH
-       → Mỗi era cần mix khác nhau (nông nghiệp ≠ công nghiệp ≠ AI)
+    ② FOR SOCIETY: ensure enough people have the RIGHT chunks → society FUNCTIONS
+       → Each era needs a different mix (agricultural ≠ industrial ≠ AI)
 
-    ③ CHO LOÀI NGƯỜI: truyền knowledge cross-generational
-       → Genetics truyền HARDWARE, education truyền CHUNKS
-       → Mỗi thế hệ KHÔNG bắt đầu từ 0 → tích lũy → advance
+    ③ FOR HUMANITY: transmit knowledge cross-generationally
+       → Genetics transmits HARDWARE, education transmits CHUNKS
+       → Each generation does NOT start from 0 → accumulates → advances
 
-  → 3 tầng này = CONTEXT cho arc design ở §2
-  → Arc design tốt = serve cả 3 tầng, không chỉ 1
+  → These 3 layers = CONTEXT for arc design in §2
+  → Good arc design = serves all 3 layers, not just 1
 
 
 🟡 EDUCATION = GAP LANDSCAPE SHAPING (Gap-Distribution-Profile v1.1):
 
-  Mỗi người có 1 Gap Distribution Profile riêng — tổng thể các gap
-  đang active, cluster ở domain nào, sâu hay rộng, ổn định hay đang shift.
+  Each person has their own Gap Distribution Profile — the totality of gaps
+  currently active, clustered in which domains, deep or broad, stable or shifting.
 
-  Education SHAPES gap landscape CÓ Ý THỨC:
-    → Curriculum = quyết định student TIẾP XÚC domain nào → gap XUẤT HIỆN ở đâu
-    → "Chưa biết = không có gap" (Gap-Direction v2.0) → exposure TRƯỚC, gap SAU
-    → Arc design = guide student QUA gap đã xuất hiện → compile chunks
-    → Tổng thể nhiều arcs = shape toàn bộ gap landscape CỦA student
+  Education CONSCIOUSLY shapes the gap landscape:
+    → Curriculum = decides which domains a student ENCOUNTERS → gaps EMERGE where
+    → "Not knowing = no gap" (Gap-Direction v2.0) → exposure FIRST, gap AFTER
+    → Arc design = guides student THROUGH already-emerged gaps → compile chunks
+    → Total of many arcs = shapes the student's entire gap landscape
 
   Healthy gap distribution:
-    → DIVERSE (nhiều domain, không locked vào 1)
-    → BALANCED origin (A+B dominant, không C+D from forced education)
-    → DEPTH phù hợp hardware (somatic-dominant → sâu ở physical, v.v.)
-    → FLEXIBLE (student CÓ THỂ shift khi Imagine-Final thay đổi)
+    → DIVERSE (many domains, not locked into 1)
+    → BALANCED origin (A+B dominant, not C+D from forced education)
+    → DEPTH fitting hardware (somatic-dominant → deep in physical, etc.)
+    → FLEXIBLE (student CAN shift when Imagine-Final changes)
 
-  Unhealthy gap distribution (education system gây ra):
-    → NARROW (chỉ academic domain → gap desert ở creative, somatic, social)
-    → C-DOMINANT origin (ép học → gaps from "bắt phải biết", not "muốn biết")
-    → RIGID (curriculum lock → student không shift được)
+  Unhealthy gap distribution (caused by education systems):
+    → NARROW (academic domain only → gap desert in creative, somatic, social)
+    → C-DOMINANT origin (forced learning → gaps from "must know," not "want to know")
+    → RIGID (curriculum lock → student cannot shift)
 
   🟡 Gap landscape shaping = framework application (Gap-Distribution-Profile v1.1 §7)
 
@@ -518,211 +518,211 @@ APPROACH/AVOIDANCE TAGS VẪN QUYẾT ĐỊNH (Child-Dev-Mechanism §3):
 EDUCATION ≠ SCHOOL:
 
   School = 1 FORMAT. Education = PROCESS.
-  → Apprenticeship = education (trước 1800)
+  → Apprenticeship = education (pre-1800)
   → School = education (1800+)
   → Online = education (2020+)
   → AI tutor = education (2025+)
-  → Não KHÔNG biết "đang ở trường" — não chỉ biết có compile chunks không
-  → = Nguyên lý trong file này áp dụng cho MỌI format, không chỉ school
+  → The brain does NOT know "I am in school" — the brain only knows whether chunks are compiling
+  → = Principles in this file apply to ALL formats, not just school
 ```
 
 ---
 
-## §2 — ARC DESIGN PRINCIPLES: NGUYÊN LÝ THIẾT KẾ BÀI HỌC
+## §2 — ARC DESIGN PRINCIPLES: HOW TO DESIGN LEARNING ARCS
 
-> **⭐ CORE CỦA FILE.**
-> §0-§1 đặt vị trí. Section này = NỘI DUNG CHÍNH.
-> 10 nguyên lý brain-based cho learning arc design + 1 synthesis.
-> Bất kỳ cách dạy nào follow 10 nguyên lý = VALID.
-> Cách dạy vi phạm ≥1 = GIẢM hiệu quả — bất kể era.
+> **⭐ CORE OF THIS FILE.**
+> §0–§1 set the position. This section = THE MAIN CONTENT.
+> 10 brain-based principles for learning arc design + 1 synthesis.
+> Any teaching method that follows the 10 principles = VALID.
+> Any method that violates ≥1 = REDUCES effectiveness — across all eras.
 
-### §2.1 — Arc = Đơn vị học
+### §2.1 — Arc = Unit of Learning
 
 ```
-⭐ ARC = 1 ĐƠN VỊ HỌC TỪ A → B:
+⭐ ARC = 1 UNIT OF LEARNING FROM A → B:
 
-  A = chunk config hiện tại của student
-  B = chunk config sau khi compile chunk(s) mới
-  Arc = trải nghiệm ĐƯỢC THIẾT KẾ để student đi từ A → B
+  A = student's current chunk configuration
+  B = chunk configuration after compiling new chunk(s)
+  Arc = experience DESIGNED so the student goes from A → B
 
-  VD: Student biết cộng (A) → học nhân (B)
-      Arc = chuỗi trải nghiệm giúp compile chunk "nhân"
+  Example: student knows addition (A) → learns multiplication (B)
+      Arc = sequence of experiences that help compile the "multiplication" chunk
 
-  VD: Student biết nốt nhạc (A) → chơi được bản nhạc đầu tiên (B)
-      Arc = chuỗi luyện tập giúp compile motor + auditory chunks
+  Example: student knows music notes (A) → can play their first piece (B)
+      Arc = sequence of practice that helps compile motor + auditory chunks
 
-  MỌI education = chuỗi arcs nối tiếp nhau:
+  ALL education = a chain of arcs in sequence:
     Arc 1 (A→B) → Arc 2 (B→C) → Arc 3 (C→D) → ...
-    = Prerequisite chain: mỗi arc build trên arc trước
+    = Prerequisite chain: each arc builds on the previous arc
 
-  Mỗi arc có thể chia thành MINI-ARCS (§2.5)
+  Each arc can be divided into MINI-ARCS (§2.5)
 
 
-  ARC KHÁC LOOP TỰ NHIÊN (0-6):
-    Loop 0-6: xảy ra TỰ NHIÊN → compile rộng, không có đích cụ thể
-    Arc 6+: THIẾT KẾ CÓ CHỦ ĐÍCH → compile có hướng, có đích
-    → Nhưng CẢ HAI đều chạy trên cùng perception-action cycle
-    → Cả hai đều dùng cùng Compile Architecture (1E+3M)
+  ARC ≠ NATURAL LOOP (0–6):
+    Natural loop 0–6: happens NATURALLY → compile broadly, no specific target
+    Arc 6+: DELIBERATELY DESIGNED → compile with direction, with a target
+    → But BOTH run on the same perception-action cycle
+    → Both use the same Compile Architecture (1E+3M)
     → = Arc = guided perception-action cycle loop
 ```
 
-### §2.2 — Nguyên lý 1: Direction > Level
+### §2.2 — Principle 1: Direction > Level
 
 ```
-⭐⭐ NGUYÊN LÝ QUAN TRỌNG NHẤT — KẾ THỪA TỪ CHILD-DEV-MECHANISM §3:
+⭐⭐ THE MOST IMPORTANT PRINCIPLE — INHERITED FROM CHILD-DEV-MECHANISM §3:
 
-  "Cùng nội dung, khác cách dạy → khác tag → khác SUỐT ĐỜI"
+  "Same content, different teaching → different tag → different FOR LIFE"
 
 
   NOVELTY-PATH (approach tag):
-    Student trải nghiệm arc trong trạng thái:
-    → Curiosity, hứng thú, dopamine → chunks compile với APPROACH tag
-    → Tương lai: gặp lại domain → body pull TOWARDS → "thích"
+    Student experiences the arc in a state of:
+    → Curiosity, interest, dopamine → chunks compile WITH APPROACH tag
+    → Future: encounters domain again → body pulls TOWARDS → "like it"
     → = Lifelong learning ENABLED
 
   THREAT-PATH (avoidance tag):
-    Student trải nghiệm arc trong trạng thái:
-    → Sợ, áp lực, NE/adrenaline → chunks compile với AVOIDANCE tag
-    → Tương lai: gặp lại domain → body pull AWAY → "ghét"
+    Student experiences the arc in a state of:
+    → Fear, pressure, norepinephrine/adrenaline → chunks compile WITH AVOIDANCE tag
+    → Future: encounters domain again → body pulls AWAY → "hate it"
     → = Lifelong learning SABOTAGED
 
 
-  → CÙNG KIẾN THỨC. CÙNG STUDENT. CÙNG HARDWARE.
-  → KHÁC DIRECTION → KHÁC TAG → KHÁC SUỐT ĐỜI.
+  → SAME KNOWLEDGE. SAME STUDENT. SAME HARDWARE.
+  → DIFFERENT DIRECTION → DIFFERENT TAG → DIFFERENT FOR LIFE.
 
 
   🟡 STRUCTURAL vs CURRENT VALENCE (Valence-Propagation v3.0 §3):
 
     Structural valence = aggregate approach/avoidance tags INSIDE Entity-Compiled
-      → Mỗi chunk compile VỚI tag → tag = PERMANENT (chỉ đổi khi recompile)
-      → "Ghét toán" = structural: nhiều toán-chunks CÓ avoidance tag
-      → = Thay đổi RẤT KHÓ (cần recompile từng chunk)
+      → Each chunk compiles WITH a tag → tag = PERMANENT (only changes on recompile)
+      → "Hates math" = structural: many math-chunks HAVE avoidance tags
+      → = Extremely HARD to change (requires recompiling each chunk)
 
     Current valence = what student FEELS AT THIS MOMENT
-      → Context-dependent, thay đổi per second
-      → "Hôm nay thích toán" (giáo viên vui) ≠ structural đã thay đổi
-      → = CAN be positive nhưng structural vẫn avoidance
+      → Context-dependent, changes per second
+      → "Likes math today" (teacher was in a good mood) ≠ structural has changed
+      → = CAN be positive but structural is still avoidance
 
-    → EDUCATION CARE ABOUT STRUCTURAL — tags compile SUỐT ĐỜI
-    → Current positive + structural avoidance = UNSTABLE (rút bridge → avoidance trở lại)
-    → Current negative + structural approach = OK (bad day, nhưng nền tảng solid)
-    → Arc design: không chỉ tạo current positive → phải compile STRUCTURAL approach
+    → EDUCATION CARES ABOUT STRUCTURAL — tags compile FOR LIFE
+    → Current positive + structural avoidance = UNSTABLE (remove bridge → avoidance returns)
+    → Current negative + structural approach = OK (bad day, but foundation is solid)
+    → Arc design: not just create current positive → must compile STRUCTURAL approach
 
 
-  HỆ QUẢ CHO ARC DESIGN:
-    → Arc PHẢI tạo novelty-path (approach) — KHÔNG threat-path
-    → Đây KHÔNG phải "dạy phải vui" — là "body state phải ở novelty-direction"
+  IMPLICATIONS FOR ARC DESIGN:
+    → Arc MUST create novelty-path (approach) — NOT threat-path
+    → This is NOT "teaching must be fun" — it is "body state must be in novelty-direction"
     → Moderate challenge + safe context = novelty-direction
     → Punishment + shame + forced = threat-direction
-    → Cost of threat-path KHÔNG CHỈ "student khó chịu"
-      — mà SABOTAGE relationship với domain ĐÓ suốt đời
-    → 🟡 Qua lens v3.0: sabotage = STRUCTURAL avoidance tags compiled permanently
+    → The cost of threat-path is NOT ONLY "student discomfort"
+      — it SABOTAGES the relationship with THAT domain for life
+    → 🟡 Through v3.0 lens: sabotage = STRUCTURAL avoidance tags compiled permanently
 
 
   ⭐ v2.1 MULTI-STREAM × DIRECTION > LEVEL (Compile-Taxonomy v3.0 §5):
 
-    4 COMPILE STREAMS chạy ĐỒNG THỜI — mỗi stream compile ĐỘC LẬP:
-      ① CONTENT stream — kiến thức, kỹ năng, facts
-      ② VALUE stream — đánh giá tốt/xấu, approach/avoidance tag
-      ③ ENTITY stream — trust weight cho teacher/domain
+    4 COMPILE STREAMS run SIMULTANEOUSLY — each stream compiles INDEPENDENTLY:
+      ① CONTENT stream — knowledge, skills, facts
+      ② VALUE stream — evaluation of good/bad, approach/avoidance tag
+      ③ ENTITY stream — trust weight for teacher/domain
       ④ BEHAVIOR stream — motor patterns, habits, approach/avoidance actions
 
     → Approach/avoidance tag = VALUE + BEHAVIOR stream
-    → Content compile KHÔNG phụ thuộc direction
-    → = "Ép vẫn học được NỘI DUNG — nhưng VALUE compile = avoidance"
+    → Content compile does NOT depend on direction
+    → = "Forced learning can still compile CONTENT — but VALUE stream compile = avoidance"
 
-    CHÍNH XÁC HOÁ "DIRECTION > LEVEL":
+    SHARPENING "DIRECTION > LEVEL":
       = "VALUE stream direction > content volume"
-      → CÙNG content volume, KHÁC value direction → KHÁC suốt đời
-      → Arc design cần optimize VALUE stream, không chỉ content delivery
+      → SAME content volume, DIFFERENT value direction → DIFFERENT for life
+      → Arc design needs to optimize VALUE stream, not just content delivery
 
-    VÍ DỤ CỤ THỂ — "GIỎI NHƯNG GHÉT HỌC":
-      Student bị ép → ngồi học 3 tiếng/ngày → content compile ✓
-      NHƯNG: context = threat direction → VALUE stream compile avoidance ✗
-      → 10 năm: kiến thức tốt + ghét domain = Content ✓ Value ✗
-      → Khi hết ép (ra đời) → body TỰ ĐỘNG tránh domain đó
-      → = 2 streams giải thích pattern PHỔ BIẾN NHẤT trong education
+    SPECIFIC EXAMPLE — "SKILLED BUT HATES STUDYING":
+      Student is forced → sits studying 3 hours/day → content compiles ✓
+      BUT: context = threat direction → VALUE stream compiles avoidance ✗
+      → 10 years: good knowledge + hates domain = Content ✓ Value ✗
+      → When force ends (adulthood) → body AUTOMATICALLY avoids that domain
+      → = 2 streams explain the MOST COMMON pattern in education
 
-    VÍ DỤ CỤ THỂ — "KÉM NHƯNG THÍCH":
-      Student tự khám phá → ít structured → content compile chậm
-      NHƯNG: context = novelty direction → VALUE stream compile approach ✓
-      → Content ít hơn + approach tag = FOUNDATION cho self-directed learning
-      → = Thiếu content CHỮA ĐƯỢC (thêm exposure). Avoidance tag KHÔNG chữa (cần recompile).
+    SPECIFIC EXAMPLE — "WEAK BUT ENJOYS IT":
+      Student self-explores → little structured time → content compiles slowly
+      BUT: context = novelty direction → VALUE stream compiles approach ✓
+      → Less content + approach tag = FOUNDATION for self-directed learning
+      → = Missing content CAN BE FIXED (add exposure). Avoidance tag CANNOT (requires recompile).
 
-    → ARC DESIGN v2.1: TARGET = Content ✓ + Value ✓ (CẢ 2 stream)
-      Chỉ optimize content delivery = miss VALUE stream = miss suốt đời
-      Chỉ optimize "vui" = miss CONTENT stream = miss kiến thức
-      CẢ HAI = arc design serve CẢ content + value + entity + behavior streams
+    → ARC DESIGN v2.1: TARGET = Content ✓ + Value ✓ (BOTH streams)
+      Optimize only content delivery = miss VALUE stream = miss for life
+      Optimize only "fun" = miss CONTENT stream = miss knowledge
+      BOTH = arc design serving CONTENT + VALUE + ENTITY + BEHAVIOR streams
 
-    🟡 Insight nguồn: Child-Dev-Mechanism v2.2 §2.6 Multi-Stream Compile
+    🟡 Insight source: Child-Dev-Mechanism v2.2 §2.6 Multi-Stream Compile
     🟡 4-stream model: Compile-Taxonomy v3.0 §5
 
   🟢 Approach/avoidance motivational systems: Lang & Bradley 2010
   🟢 Context-dependent memory: Godden & Baddeley 1975
   🟡 Structural/Current valence distinction: Valence-Propagation v3.0 §3
-  🟡 "Tag suốt đời" = structural valence tag = framework extension
+  🟡 "Tag for life" = structural valence tag = framework extension
 ```
 
-### §2.3 — Nguyên lý 2: Cost Formula
+### §2.3 — Principle 2: Cost Formula
 
 ```
-🟡 ARC COST = investment cost cho STUDENT NÀY:
+🟡 ARC COST = investment cost for THIS STUDENT:
 
   cost ≈ f(chunk_gap × hardware_mismatch × direction)
 
 
-  ① CHUNK GAP — khoảng cách giữa A và B:
-     → Biết cộng → học trừ = gap NHỎ (cùng domain, gần)
-     → Biết vẽ → học phối màu lý thuyết = gap VỪA (liên quan nhưng trừu tượng)
-     → Chưa đọc → học đọc = gap LỚN (skill mới từ đầu)
-     → Gap càng lớn → cost càng cao → cần bridge nhiều hơn (§3)
+  ① CHUNK GAP — the distance between A and B:
+     → Knows addition → learning subtraction = SMALL gap (same domain, close)
+     → Knows drawing → learning color theory = MEDIUM gap (related but abstract)
+     → Can't read → learning to read = LARGE gap (new skill from scratch)
+     → Larger gap → higher cost → more bridging needed (§3)
 
-  ② HARDWARE MISMATCH — student NÀY absorb kiểu nào:
-     → Somatic-dominant + motor skill = match → cost THẤP
-     → Somatic-dominant + abstract theory = mismatch → cost CAO
-     → CÙNG content + KHÁC hardware → KHÁC cost hoàn toàn
-     → = Đây là lý do "one-size-fits-all" LUÔN sub-optimal
+  ② HARDWARE MISMATCH — how THIS student absorbs:
+     → Somatic-dominant + motor skill = match → cost LOW
+     → Somatic-dominant + abstract theory = mismatch → cost HIGH
+     → SAME content + DIFFERENT hardware → COMPLETELY DIFFERENT cost
+     → = This is why "one-size-fits-all" is ALWAYS sub-optimal
 
-  ③ DIRECTION — arc tạo approach hay avoidance:
-     → Approach-direction: body muốn → cost CẢM NHẬN thấp hơn thực tế
-     → Avoidance-direction: body không muốn → cost CẢM NHẬN cao hơn thực tế
-     → CÙNG objective cost + KHÁC direction → KHÁC trải nghiệm hoàn toàn
+  ③ DIRECTION — does the arc create approach or avoidance:
+     → Approach-direction: body wants it → PERCEIVED cost lower than actual
+     → Avoidance-direction: body doesn't want it → PERCEIVED cost higher than actual
+     → SAME objective cost + DIFFERENT direction → COMPLETELY DIFFERENT experience
 
 
-  🟡 ④ HARDWARE-SUBSIDY — ai cạnh student khi học (Valence-Propagation v3.0 §7):
+  🟡 ④ HARDWARE-SUBSIDY — who is beside the student while learning (Valence-Propagation v3.0 §7):
      → Teacher present = partial hardware-subsidy (oxytocin, safety cues)
-       → Cortisol thấp hơn → approach threshold hạ → cost CẢM NHẬN giảm
+       → Cortisol lower → approach threshold drops → PERCEIVED cost decreases
      → Parent present = stronger subsidy (attachment hardware active)
-     → AI tutor = NO hardware-subsidy (Mức 0 Tool — Entity-Access v1.2)
-     → → CÙNG content, CÙNG student: với teacher = cost thấp hơn, với AI alone = cost cao hơn
-     → = Hardware-Subsidy = DIMENSION ẩN trong cost formula
+     → AI tutor = NO hardware-subsidy (Level 0 Tool — Entity-Access v1.2)
+     → → SAME content, SAME student: with teacher = lower cost, with AI alone = higher cost
+     → = Hardware-Subsidy = HIDDEN DIMENSION in the cost formula
 
   🟡 ⑤ PFC BUDGET — finite shared resource (PFC-Operations v1.1 §9):
-     → PFC budget = FINITE, SHARED giữa MỌI hoạt động
-     → Sáng (budget đầy) vs chiều (budget cạn) → CÙNG arc, KHÁC cost
-     → Sau stress event → PFC budget thấp → learning cost TĂNG
-     → Student nhiều môn/ngày → PFC budget CHIA cho mỗi môn
-     → = "Mệt" thường = PFC budget depleted, KHÔNG phải "lười"
+     → PFC budget = FINITE, SHARED among ALL activities
+     → Morning (budget full) vs evening (budget depleted) → SAME arc, DIFFERENT cost
+     → After a stress event → PFC budget low → learning cost INCREASES
+     → Student with many subjects/day → PFC budget SPLIT among each subject
+     → = "Tired" usually = PFC budget depleted, NOT "lazy"
 
 
-  ARC DESIGN TỐT = MINIMIZE cost cho STUDENT NÀY:
-    → Chọn path ngắn nhất (reduce gap — ①)
-    → Dùng kênh phù hợp hardware (reduce mismatch — ②)
-    → Tạo novelty-direction (reduce perceived cost — ③)
-    → Có mặt teacher/parent (hardware-subsidy — ④)
-    → Timing phù hợp PFC budget (sáng > chiều cho hard topics — ⑤)
-    → = "Vô vàn cách" nhưng mỗi student có optimal path RIÊNG
-    → = AI + teacher calibrate để tìm path phù hợp nhất
+  GOOD ARC DESIGN = MINIMIZE cost for THIS STUDENT:
+    → Choose the shortest path (reduce gap — ①)
+    → Use hardware-appropriate channels (reduce mismatch — ②)
+    → Create novelty-direction (reduce perceived cost — ③)
+    → Have teacher/parent present (hardware-subsidy — ④)
+    → Time appropriately for PFC budget (morning > evening for hard topics — ⑤)
+    → = "Infinite methods" but each student has their OWN optimal path
+    → = AI + teacher calibrate to find the most fitting path
 
-  v2.0 COST FORMULA MỞ RỘNG:
+  v2.0 EXPANDED COST FORMULA:
     cost ≈ f(chunk_gap × hardware_mismatch × direction × subsidy_inverse × pfc_budget_inverse)
-    → 5 factors thay vì 3 — nhưng logic GIỐNG: minimize per student
+    → 5 factors instead of 3 — but logic SAME: minimize per student
 
 
-  ⚠️ ZERO COST ≠ TỐT:
-    → No gap = no learning (đã biết rồi)
-    → No challenge = VTA không fire → no dopamine → no motivation
-    → Goldilocks: đủ challenge để VTA fire, đủ support để không overwhelm
+  ⚠️ ZERO COST ≠ GOOD:
+    → No gap = no learning (already knows it)
+    → No challenge = VTA doesn't fire → no dopamine → no motivation
+    → Goldilocks: enough challenge for VTA to fire, enough support to not overwhelm
     → 🟢 Yerkes-Dodson 1908, Flow: Csikszentmihalyi 1990
   🟢 PFC processing load: Kurzban 2013, Musslick & Cohen 2021 (shared resource, serial bottleneck)
   🟢 Oxytocin → trust → lower cortisol: Kosfeld et al. 2005
@@ -730,127 +730,128 @@ EDUCATION ≠ SCHOOL:
   🟡 PFC Budget in education = PFC-Operations v1.1 framework application
 ```
 
-### §2.4 — Nguyên lý 3: Prerequisite Check
+### §2.4 — Principle 3: Prerequisite Check
 
 ```
-🟡 TRƯỚC KHI BẮT ĐẦU ARC → CHECK PREREQUISITE CHUNKS:
+🟡 BEFORE STARTING AN ARC → CHECK PREREQUISITE CHUNKS:
 
-  Chunks compile TRÊN chunks đã có (Chunk.md v2.0 §2):
-    → Phân số CẦN: cộng, trừ, nhân, chia + "phần" concept
-    → Đại số CẦN: phân số + variables concept
-    → Calculus CẦN: đại số + limits concept
-    → = PREREQUISITE CHAIN: mỗi arc build trên arc trước
+  Chunks compile ON TOP OF chunks already present (Chunk.md v2.0 §2):
+    → Fractions REQUIRE: addition, subtraction, multiplication, division + "part" concept
+    → Algebra REQUIRES: fractions + variables concept
+    → Calculus REQUIRES: algebra + limits concept
+    → = PREREQUISITE CHAIN: each arc builds on the previous arc
 
 
-  THIẾU PREREQUISITE → ARC FAIL:
-    → Student KHÔNG có chunk nền → mismatch CỰC LỚN
+  MISSING PREREQUISITE → ARC FAILS:
+    → Student does NOT have the base chunk → mismatch is EXTREME
     → Body state: overwhelm → threat-direction → avoidance tag
-    → PFC: không link được (nothing to link TO)
-    → = "Không hiểu" thường = thiếu prerequisite, KHÔNG phải "kém"
+    → PFC: cannot link (nothing to link TO)
+    → = "Doesn't understand" usually = missing prerequisite, NOT "not smart"
 
 
-  VD: "Con ghét toán" — 3 NGUYÊN NHÂN KHÁC NHAU:
-    → Toán chunk bị avoidance-tagged (cách dạy sai direction — §2.2)
-    → Thiếu prerequisite → mỗi bài đều overwhelm → avoidance tích lũy
-    → Hardware mismatch (cần visual nhưng dạy toàn verbal — §2.3)
-    → = CÙNG "ghét toán" nhưng 3 nguyên nhân → 3 giải pháp KHÁC
+  EXAMPLE: "Hates math" — 3 DIFFERENT CAUSES:
+    → Math chunk avoidance-tagged (wrong teaching direction — §2.2)
+    → Missing prerequisite → every problem feels overwhelming → avoidance accumulates
+    → Hardware mismatch (needs visual but taught verbally — §2.3)
+    → = SAME "hates math" but 3 causes → 3 DIFFERENT solutions
 
 
   ARC DESIGN CHECK:
-    → TRƯỚC arc: verify chunks nền đã compiled
+    → BEFORE arc: verify base chunks are already compiled
       (Precondition-2 Chunk-Substrate Chunks Base Adequate — Body-Feedback.md Body-Feedback-Precondition)
-    → THIẾU: build prerequisite TRƯỚC (pre-arc)
-    → ĐỦ: bắt đầu arc → link chunk mới với chunks cũ
-    → = "Bắt đầu từ cái student ĐÃ BIẾT" — anchor point
+    → MISSING: build prerequisite FIRST (pre-arc)
+    → SUFFICIENT: start arc → link new chunk with old chunks
+    → = "Start from what the student ALREADY KNOWS" — anchor point
 
   🟢 Prerequisite learning: Gagné 1985 (conditions of learning)
   🟢 Prior knowledge = most important factor: Ausubel 1968
   🟡 Precondition-2 bottleneck mapping = framework application
 ```
 
-### §2.5 — Nguyên lý 4: Mini-Arcs + Valley
+### §2.5 — Principle 4: Mini-Arcs + Valley
 
 ```
-🟡 CHIA NHỎ — MỖI PHẦN CÓ "AHA":
+🟡 BREAK IT DOWN — EACH PART HAS AN "AHA":
 
-  Arc dài + không có reward giữa chừng = body CHỊU KHÔNG NỔI:
-    → Dissonance kéo dài → Chunk-Gap unresolved → threat body state
-      → chunks compile AVOIDANCE tag (cortisol = amplifier đồng hành)
-    → Body: "đã tốn nhiều + VẪN khó chịu + chưa thấy kết quả" → BỎ CUỘC
-
-
-  MINI-ARC = chia arc lớn thành phần nhỏ, mỗi phần có "aha":
-    [biết rồi] → [hơi khó] → [aha!] → [biết rồi ở level cao hơn]
-    → Nhiều mini-arcs NỐI thành arc lớn
-    → Mỗi "aha" = opioid micro-reward → body reset → sẵn sàng tiếp
+  Long arc + no reward along the way = body CANNOT SUSTAIN it:
+    → Prolonged dissonance → Chunk-Gap unresolved → threat body state
+      → chunks compile AVOIDANCE tag (cortisol = amplifier riding along)
+    → Body: "spent a lot + STILL uncomfortable + haven't seen results" → GIVES UP
 
 
-  VD: Học nấu ăn
-    ❌ Arc lớn: "học 50 công thức → cuối năm nấu tiệc" → quá xa
-    ✅ Mini-arc 1: chiên trứng (3 bước → ĂN ĐƯỢC!) → aha
-    ✅ Mini-arc 2: luộc mì (→ tự ăn sáng!) → aha
-    ✅ Mini-arc 3: xào rau (→ bữa cơm đơn giản!) → aha
-    → Mỗi mini-arc: body confirm "ĐÁNG" → approach tag → motivation cho arc tiếp
+  MINI-ARC = break the large arc into smaller parts, each part has an "aha":
+    [already knew this] → [a bit challenging] → [aha!] → [knows it at a higher level]
+    → Many mini-arcs CHAINED into a large arc
+    → Each "aha" = opioid micro-reward → body resets → ready for more
+
+
+  EXAMPLE: Learning to cook
+    ❌ Large arc: "learn 50 recipes → dinner party at year-end" → too far away
+    ✅ Mini-arc 1: fried egg (3 steps → EDIBLE!) → aha
+    ✅ Mini-arc 2: boil noodles (→ make own breakfast!) → aha
+    ✅ Mini-arc 3: stir-fry vegetables (→ simple meal!) → aha
+    → Each mini-arc: body confirms "WORTH IT" → approach tag → motivation for next arc
 
 
   🟡 MINI-ARC × PFC BUDGET (PFC-Operations v1.1 §9):
-    → PFC budget giảm trong ngày → mini-arcs NGẮN HƠN vào chiều
-    → Sau môn khó (PFC drain) → mini-arc tiếp NÊN nhẹ hơn hoặc khác kênh
-    → Alternating modality (verbal → somatic → visual) = distribute PFC load
-    → = Scheduling = PHẦN CỦA ARC DESIGN, không chỉ content design
+    → PFC budget decreases through the day → mini-arcs SHORTER in the afternoon
+    → After a hard subject (PFC drain) → next mini-arc SHOULD be lighter or different channel
+    → Alternating modality (verbal → somatic → visual) = distributes PFC load
+    → = Scheduling = PART OF ARC DESIGN, not just content design
 
 
-  VALLEY — GIỮA ARC LÀ KHÓ NHẤT:
+  VALLEY — THE MIDDLE IS HARDEST:
 
-    → Đầu: hào hứng (novelty → VTA fire)
-    → GIỮA: đã tốn công + VẪN khó + CHƯA thấy kết quả → DỄ BỎ NHẤT
-    → Cuối: bắt đầu thấy kết quả → tự động muốn tiếp
-    → = Bridge MẠNH NHẤT cần ở GIỮA, không phải đầu (§3)
-    → = Teacher/AI biết valley SẼ đến → chuẩn bị trước
+    → Start: excited (novelty → VTA fires)
+    → MIDDLE: already invested + STILL hard + HAVEN'T seen results yet → EASIEST TO QUIT
+    → End: results beginning to show → naturally wants to continue
+    → = Strongest BRIDGE needed in the MIDDLE, not the beginning (§3)
+    → = Teacher/AI know valley IS COMING → prepare in advance
 
   🟡 VALLEY = EVALUATIVE DISSONANCE (Dissonance-Signal-Architecture v1.0):
 
-    Valley dissonance = Evaluative type (compiled gap between "biết phải đạt" và "chưa đạt")
+    Valley dissonance = Evaluative type (compiled gap between "know I should reach" and "haven't reached")
     ≠ Direct-State dissonance (physical pain, sensory overload)
 
     Evaluative Dissonance:
-      → "Bạn bè biết rồi, tôi chưa" — COMPILED comparison gap
-      → "Thầy kỳ vọng, tôi chưa đạt" — compiled social gap
-      → WORKABLE: PFC can reframe ("đang tiến bộ, chưa tới thôi")
-      → = Valley THƯỜNG = Evaluative → NORMALIZE + REFRAME = effective
+      → "Friends already know, I don't" — COMPILED comparison gap
+      → "Teacher expects more, I haven't reached it" — compiled social gap
+      → WORKABLE: PFC can reframe ("making progress, not there yet")
+      → = Valley USUALLY = Evaluative → NORMALIZE + REFRAME = effective
 
     Direct-State Dissonance:
-      → Quá mệt, đau đầu, đói — HARDWARE signal
-      → NOT WORKABLE by reframe → cần REST, not push through
-      → = Valley ĐÔI KHI = Direct-State → dừng, không ép
+      → Too tired, headache, hungry — HARDWARE signal
+      → NOT WORKABLE by reframe → needs REST, not pushing through
+      → = Valley SOMETIMES = Direct-State → stop, don't force
 
-    ⚠️ "Normalize dissonance" CHÍNH XÁC HƠN:
-      → Normalize Evaluative Dissonance from LEARNING GAP = đúng
-      → Normalize Evaluative Dissonance from COMPARISON = sai hướng
-      → Do NOT normalize Direct-State overwhelm = body cần nghỉ
+    ⚠️ "Normalize dissonance" MORE PRECISELY:
+      → Normalize Evaluative Dissonance from LEARNING GAP = correct
+      → Normalize Evaluative Dissonance from COMPARISON = wrong direction
+      → Do NOT normalize Direct-State overwhelm = body needs rest
 
   🟡 RESONANCE DECLINE × EDUCATION (Bond-Architecture v2.0 §4, Connection v5.0 §4.5):
 
-    Engagement decay CÙNG CƠ CHẾ với resonance decline trong relationship:
-      Compiled-Suppress (★ LEVERAGE): teacher SUPPRESS student's natural drive
-        → "Ngồi im" = suppress approach → FASTEST engagement kill
-      Reward-Habituated: same teaching style → VTA habituate → "chán" (Weber-Fechner)
-        → Antidote: variety, novelty, surprise trong arc design
-      Novelty threshold: student "đã biết" + teacher fully compiled → no new input
-        → Antidote: teacher grows + changes + đổi teacher per stage → fresh entity
+    Engagement decay runs on the SAME MECHANISM as resonance decline in relationships:
+      Compiled-Suppress (★ LEVERAGE): teacher SUPPRESSES student's natural drive
+        → "Sit still" = suppress approach → FASTEST engagement kill
+      Reward-Habituated: same teaching style → VTA habituates → "bored" (Weber-Fechner)
+        → Antidote: variety, novelty, surprise in arc design
+      Novelty threshold: student "already knows" + teacher fully compiled → no new input
+        → Antidote: teacher grows + changes + change teacher per stage → fresh entity
 
-    → Compiled-Suppress = THẦY GÂY RA (suppress) — avoid at all cost
-    → Reward-Habituated + novelty exhaustion = TỰ NHIÊN — manage, not prevent
-    → AI CÓ THỂ counter Reward-Habituated + restore novelty nhưng KHÔNG counter Compiled-Suppress (suppress = human choice)
+    → Compiled-Suppress = CAUSED BY TEACHER (suppress) — avoid at all cost
+    → Reward-Habituated + novelty exhaustion = NATURAL — manage, don't prevent
+    → AI CAN counter Reward-Habituated + restore novelty but CANNOT counter Compiled-Suppress
+      (suppress = human choice)
 
 
-  NORMALIZE DISSONANCE — META-SKILL QUÝ NHẤT:
+  NORMALIZE DISSONANCE — THE MOST VALUABLE META-SKILL:
 
-    → Nói cho student: "đoạn này khó nhất — BÌNH THƯỜNG — sẽ qua"
-    → Body student: "à, expected" → chịu được LÂU hơn
-    → Nhiều mini-arcs thành công liên tiếp → student compile META-SKILL:
-      "khó chịu = BÌNH THƯỜNG, sẽ qua" → transferable to ALL domains
-    → 🟡 Chính xác hơn: "Evaluative Dissonance from gap = bình thường, sẽ qua"
+    → Tell the student: "this part is the hardest — NORMAL — it will pass"
+    → Student's body: "oh, expected" → can sustain it LONGER
+    → Many successful mini-arcs in succession → student compiles META-SKILL:
+      "discomfort = NORMAL, will pass" → transferable to ALL domains
+    → 🟡 More precisely: "Evaluative Dissonance from gap = normal, will pass"
 
   🟢 Chunking in learning: Miller 1956 (applied)
   🟢 Flow channel: Csikszentmihalyi 1990
@@ -859,124 +860,124 @@ EDUCATION ≠ SCHOOL:
   🟡 Mini-arc × PFC budget timing = framework application
 ```
 
-### §2.6 — Nguyên lý 5: Imagine-Final Before Content
+### §2.6 — Principle 5: Imagine-Final Before Content
 
 ```
-🟡 STUDENT CẦN THẤY "TẠI SAO" TRƯỚC "CÁI GÌ":
+🟡 STUDENT NEEDS TO SEE "WHY" BEFORE "WHAT":
 
   ⭐ v3.0 REFRAME (Imagine-Final v3.0 §1):
-    Imagine-Final = CONSTRUCTIVE future simulation trên Simulation-Engine
-    = APPLICATION (Self, Future, Simulate+Construct) — KHÔNG PHẢI mọi body prediction
+    Imagine-Final = CONSTRUCTIVE future simulation on the Simulation-Engine
+    = APPLICATION (Self, Future, Simulate+Construct) — NOT every body prediction
 
-    Hardware prediction (khát→uống): subcortical, hardwired → KHÔNG CẦN simulation
-    Imagine-Final ("NVIDIA phải thành công"): constructive, chunk-based → CẦN Simulation-Engine
+    Hardware prediction (thirsty→drink): subcortical, hardwired → DOES NOT NEED simulation
+    Imagine-Final ("NVIDIA must succeed"): constructive, chunk-based → NEEDS Simulation-Engine
 
   3-LAYER HIERARCHY:
-    ① Body-Need = TẠI SAO (hardware + chunk-based, luôn tồn tại)
-    ② Imagine-Final = VỀ ĐÂU (khi constructive simulation CẦN THIẾT)
-    ③ Plan = BẰNG CÁCH NÀO (PFC strategy, thay đổi linh hoạt)
-    → ⚠️ Hardware drives CÓ THỂ bypass ②③ hoàn toàn (đói→ăn = no Imagine-Final needed)
+    ① Body-Need = WHY (hardware + chunk-based, always exists)
+    ② Imagine-Final = WHERE TO (when constructive simulation IS NEEDED)
+    ③ Plan = HOW (PFC strategy, changes flexibly)
+    → ⚠️ Hardware drives CAN bypass ②③ completely (hungry→eat = no Imagine-Final needed)
 
-  HỆ QUẢ CHO EDUCATION:
-    → "Có mục tiêu" CHƯA ĐỦ — phải biết mục tiêu ĐÓ là tầng nào
-    → Body-Need ("muốn được chấp nhận") ≠ Imagine-Final ("thành bác sĩ")
-    → Education GIÚP student CONSTRUCT Imagine-Final từ Body-Need
-    → = Không phải "inject mục tiêu" → là FACILITATE constructive simulation
+  IMPLICATIONS FOR EDUCATION:
+    → "Having a goal" NOT ENOUGH — must know which layer that goal is at
+    → Body-Need ("want to be accepted") ≠ Imagine-Final ("become a doctor")
+    → Education HELPS students CONSTRUCT Imagine-Final from Body-Need
+    → = Not "inject a goal" → but FACILITATE constructive simulation
 
-  Imagine-Final = APPLICATION trên Simulation-Engine (Simulation-Engine v1.1):
-    → Luyện Simulation-Engine = luyện TẤT CẢ applications
-      (Self-Pattern-Modeling + Imagine-Final + Self-Observation cùng substrate)
-    → Education luyện Imagine-Final = ĐỒNG THỜI luyện Self-Pattern-Modeling + meta-cognition
-    → = Meta-skill: training Simulation-Engine qua education = giá trị NGOÀI content
+  Imagine-Final = APPLICATION on Simulation-Engine (Simulation-Engine v1.1):
+    → Training Simulation-Engine = training ALL applications
+      (Self-Pattern-Modeling + Imagine-Final + Self-Observation share the same substrate)
+    → Education trains Imagine-Final = SIMULTANEOUSLY trains Self-Pattern-Modeling + meta-cognition
+    → = Meta-skill: training Simulation-Engine through education = value BEYOND content
 
-  "Khi biết cái này → cuộc sống tôi thế nào?"
-  (Chi tiết mechanism: Imagine-Final.md v3.0 §5 Lifecycle)
+  "When I know this → what will my life be like?"
+  (Detailed mechanism: Imagine-Final.md v3.0 §5 Lifecycle)
 
 
-  CÓ Imagine-Final + Arc:
-    → Student MUỐN tới đích → body đầu tư → dissonance = investment cost
-    → Chunks compile CÓ HƯỚNG → approach-tagged
+  WITH Imagine-Final + Arc:
+    → Student WANTS to reach the destination → body invests → dissonance = investment cost
+    → Chunks compile WITH DIRECTION → approach-tagged
 
-  KHÔNG CÓ Imagine-Final + Arc:
-    → Student không biết TẠI SAO → body không đầu tư → dissonance = pain
-    → Cần bridge NẶNG (điểm, phạt, khen) → avoidance risk
+  WITHOUT Imagine-Final + Arc:
+    → Student doesn't know WHY → body doesn't invest → dissonance = pain
+    → Needs HEAVY bridge (grades, punishment, praise) → avoidance risk
 
 
   ARC DESIGN:
-    → TRƯỚC arc: giúp student THẤY đích CỤ THỂ + NGẮN HẠN
-    → ✅ "Khi con biết đếm → con TỰ đi mua kẹo" (body simulate được)
-    → ❌ "Học cho giỏi" (quá mờ → body không simulate)
-    → ❌ "Học để thành công" (quá trừu tượng → PFC hiểu nhưng body không feel)
+    → BEFORE arc: help student SEE the destination CONCRETELY + SHORT-TERM
+    → ✅ "When you can count → you can buy candy on your own" (body can simulate this)
+    → ❌ "Study hard" (too vague → body can't simulate)
+    → ❌ "Study to be successful" (too abstract → PFC understands but body doesn't feel it)
 
 
-⭐ IMAGINE-FINAL CÓ LIFECYCLE (Imagine-Final.md v3.0 §5):
+⭐ IMAGINE-FINAL HAS A LIFECYCLE (Imagine-Final.md v3.0 §5):
 
   5 phases: BUILD → SAVE → BACKGROUND → RELOAD → REFINE → loop
 
-  HỆ QUẢ QUAN TRỌNG:
-    → Imagine-Final THAY ĐỔI theo thời gian — NATURAL, không phải "flaky"
-    → Cần respect Phase 2-3 (rest, play, sleep) → cho vô thức consolidate
-    → Đừng lock Imagine-Final sớm ("con phải quyết nghề từ 12 tuổi")
-    → Đừng inject Imagine-Final CỦA BỐ MẸ → facilitate student TỰ TÌM
+  IMPORTANT IMPLICATIONS:
+    → Imagine-Final CHANGES over time — NATURAL, not "flaky"
+    → Need to respect Phase 2–3 (rest, play, sleep) → let unconscious consolidate
+    → Don't lock Imagine-Final early ("child must decide on a career at 12")
+    → Don't inject YOUR OWN Imagine-Final → facilitate the student to FIND THEIR OWN
 
-  3 OUTCOMES (tất cả bình thường):
-    → COMPILE: lặp nhiều vòng → deep mastery
-    → ACHIEVE & FORGET: đạt mục tiêu → move on
-    → ABANDON: cost > benefit → bỏ (KHÔNG phải failure)
+  3 OUTCOMES (all normal):
+    → COMPILE: many cycles → deep mastery
+    → ACHIEVE & FORGET: reach goal → move on
+    → ABANDON: cost > benefit → quit (NOT failure)
 
 
-⭐ QUALITY — 4 GÓC (Imagine-Final-Evaluation.md):
+⭐ QUALITY — 4 ANGLES (Imagine-Final-Evaluation.md):
 
-  Imagine-Final không chỉ cần RÕ — cần ĐÚNG HƯỚNG:
+  Imagine-Final not only needs to be CLEAR — it needs to be in the RIGHT DIRECTION:
     Sweet Spot (Domain ✓ + Hardware ✓) — target
-    Mismatch (Domain ✓ + Hardware ✗) — cạm bẫy phổ biến nhất
-    Delusion (Domain ✗ + Hardware ✓) — nguy hiểm nhất
-    Fantasy (Domain ✗ + Hardware ✗) — thường vô hại
+    Mismatch (Domain ✓ + Hardware ✗) — most common trap
+    Delusion (Domain ✗ + Hardware ✓) — most dangerous
+    Fantasy (Domain ✗ + Hardware ✗) — usually harmless
 
-  → Education TỐT = giúp student NAVIGATE 4 góc, không dictate góc nào
-  → 4 câu hỏi guide:
-    "Cái con muốn có THẬT không?" (Domain Fit)
-    "Con CÓ THỂ tới được không?" (Hardware Capacity)
-    "Tới rồi con CÓ MUỐN không?" (Hardware Compatibility)
-    "Làm sao con biết chắc?" (real-check)
+  → Good education = helps students NAVIGATE the 4 angles, not dictate any one
+  → 4 guiding questions:
+    "Is what you want REAL?" (Domain Fit)
+    "CAN you get there?" (Hardware Capacity)
+    "Once there, will you STILL WANT it?" (Hardware Compatibility)
+    "How do you know for sure?" (real-check)
 
 
   ⭐ v2.1 CRITICAL ASYMMETRY × IMAGINE-FINAL (Compile-Taxonomy v3.0 §7):
 
-    2 CON ĐƯỜNG TẠO IMAGINE-FINAL CHO STUDENT:
+    2 PATHS TO CREATE IMAGINE-FINAL FOR STUDENTS — DIFFERENT EFFECTIVENESS:
 
-    ① PFC PATH (giải thích):
-       Teacher GIẢI THÍCH tại sao domain quan trọng
-       → PFC process → PFC hold → PFC simulate → Imagine-Final construct
-       → Cost: CAO (PFC budget, time, abstract processing)
-       → Speed: CHẬM (weeks/months cho compile)
+    ① PFC PATH (explanation):
+       Teacher EXPLAINS why the domain is important
+       → PFC processes → PFC holds → PFC simulates → Imagine-Final constructs
+       → Cost: HIGH (PFC budget, time, abstract processing)
+       → Speed: SLOW (weeks/months to compile)
        → Path: INDIRECT — PFC → Exposure → Engine → Entity-Valence
 
-    ② ENTITY-VALENCE PATH (sống mẫu):
-       Teacher TỰ MÌNH sống với passion → student THẤY teacher thích domain
-       → Entity-Valence propagate: [teacher → positive] → [domain → positive]
-       → Student MUỐN domain → Imagine-Final emerge TỰ NHIÊN
-       → Cost: THẤP (compiled Entity-Valence = cost ≈ 0)
-       → Speed: NHANH (milliseconds cho mỗi interaction)
+    ② ENTITY-VALENCE PATH (living the example):
+       Teacher THEMSELVES lives with passion → student SEES teacher enjoys the domain
+       → Entity-Valence propagates: [teacher → positive] → [domain → positive]
+       → Student WANTS the domain → Imagine-Final emerges NATURALLY
+       → Cost: LOW (compiled Entity-Valence = cost ≈ 0)
+       → Speed: FAST (milliseconds per interaction)
        → Path: DIRECT — Entity-Valence → PFC
 
     ASYMMETRY:
-      PFC→Entity-Valence = weeks/months (INDIRECT, COSTLY — "tên lửa")
-      Entity-Valence→PFC = milliseconds (DIRECT, FREE — "trọng trường")
-      → Teacher giải thích = PFC path = RẤT TỐN → và có thể hết "fuel" trước khi compile
-      → Teacher SỐNG = Entity-Valence path = GẦN NHƯ FREE → và bền vì compiled
+      PFC→Entity-Valence = weeks/months (INDIRECT, COSTLY — "rocket")
+      Entity-Valence→PFC = milliseconds (DIRECT, FREE — "gravity")
+      → Teacher explains = PFC path = VERY EXPENSIVE → and may run out of "fuel" before compiling
+      → Teacher LIVES IT = Entity-Valence path = NEAR FREE → and durable because compiled
 
-    HỆ QUẢ:
-      → "Show, don't tell" có CƠ SỞ CƠ CHẾ: Entity-Valence path > PFC path
-      → Entity-Access Mức 2-3 + positive Entity-Valence → student AUTO-RECEPTIVE
-        → Imagine-Final emerge từ MUỐN GIỐNG teacher, không phải từ ĐƯỢC GIẢI THÍCH
-      → = "Muốn con thích đọc sách → bố mẹ SỐNG thích đọc sách"
+    IMPLICATIONS:
+      → "Show, don't tell" has a MECHANISM BASIS: Entity-Valence path > PFC path
+      → Entity-Access Level 2–3 + positive Entity-Valence → student AUTO-RECEPTIVE
+        → Imagine-Final emerges from WANTING TO BE LIKE teacher, not from BEING EXPLAINED
+      → = "Want child to love reading → parents LIVE loving reading"
         (Child-Dev-Mechanism v2.2 §2.6, Skill-Introduction v2.2 §2.7)
 
-    → ARC DESIGN: invest vào teacher's Entity-Valence path TRƯỚC
-      → Nếu Entity-Valence positive → PFC explanation AMPLIFIED
-      → Nếu Entity-Valence negative → PFC explanation SUPPRESSED
-      → = Sequence matters: Entity-Valence TRƯỚC, content SAU
+    → ARC DESIGN: invest in teacher's Entity-Valence path FIRST
+      → If Entity-Valence positive → PFC explanation AMPLIFIED
+      → If Entity-Valence negative → PFC explanation SUPPRESSED
+      → = Sequence matters: Entity-Valence FIRST, content AFTER
 
     🟡 Critical Asymmetry: Compile-Taxonomy v3.0 §7.2
     🟡 "Show, don't tell" = mechanism-based: framework synthesis
@@ -988,52 +989,52 @@ EDUCATION ≠ SCHOOL:
   🟢 Homeostatic drives subcortical: Zimmerman et al. 2016
   🟡 Imagine-Final v3.0 boundary: hardware ≠ constructive = framework synthesis
   🟡 Simulation-Engine shared substrate: Simulation-Engine v1.1
-  🟡 Lifecycle, 4 góc Quality = framework formulation
+  🟡 Lifecycle, 4-angle Quality = framework formulation
 ```
 
-### §2.7 — Nguyên lý 6: Feedback Loop
+### §2.7 — Principle 6: Feedback Loop
 
 ```
-🟡 ARC KHÔNG PHẢI SET-AND-FORGET:
+🟡 ARC IS NOT SET-AND-FORGET:
 
-  MỖI ARC CẦN FEEDBACK LIÊN TỤC:
+  EVERY ARC NEEDS CONTINUOUS FEEDBACK:
 
   Student → Teacher/AI:
-    → Body response: approach hay avoidance? (observe, không chỉ hỏi)
-    → Progress: mini-arc goals đạt chưa?
-    → Direction: Imagine-Final có rõ hơn không?
+    → Body response: approach or avoidance? (observe, don't just ask)
+    → Progress: mini-arc goals achieved?
+    → Direction: is Imagine-Final getting clearer?
 
   Teacher/AI → Student:
-    → Sau "aha nhỏ": khen CỤ THỂ ("con giải ĐÚNG kiểu này")
-    → Lệch nhẹ: sửa nhẹ ("thử cách khác xem")
-    → Sai hướng: đổi arc ("cách này không phù hợp → thử cách mới")
+    → After "small aha": specific praise ("you solved it CORRECTLY in this way")
+    → Slight deviation: gentle correction ("try a different approach")
+    → Wrong direction: change arc ("this method doesn't fit → try something new")
 
 
-  ADJUST LIÊN TỤC:
-    → Arc quá dễ: VTA không fire → boring → tăng challenge
-    → Arc quá khó: overwhelm → threat-direction → giảm, chia nhỏ hơn
-    → Arc sai kênh: hardware mismatch → đổi modality
-    → Arc sai direction: avoidance signal → đổi approach
+  ADJUST CONTINUOUSLY:
+    → Arc too easy: VTA doesn't fire → boring → increase challenge
+    → Arc too hard: overwhelm → threat-direction → reduce, break into smaller pieces
+    → Arc using wrong channel: hardware mismatch → change modality
+    → Arc using wrong direction: avoidance signal → change approach
 
   🟡 FEEDBACK × DISSONANCE TYPE (Dissonance-Signal-Architecture v1.0):
 
-    Teacher/AI cần phân biệt student đang trải LOẠI dissonance nào:
+    Teacher/AI must distinguish which TYPE of dissonance the student is experiencing:
 
     Evaluative Dissonance (from learning gap):
-      → "Biết phải hiểu nhưng chưa hiểu" — compiled gap
-      → WORKABLE: reframe, encouragement, mini-arc chia nhỏ
-      → = Valley BÌNH THƯỜNG → push through VỚI support
+      → "Know I should understand but don't yet" — compiled gap
+      → WORKABLE: reframe, encouragement, break into smaller mini-arcs
+      → = Normal VALLEY → push through WITH support
 
     Direct-State Dissonance (from body state):
-      → Mệt, đói, đau, quá tải cảm giác — hardware signal
-      → NOT WORKABLE by reframe → cần REST
-      → = Ép qua Direct-State = compile avoidance tags
+      → Tired, hungry, headache, sensory overload — hardware signal
+      → NOT WORKABLE by reframe → needs REST
+      → = Forcing through Direct-State = compiles avoidance tags
 
-    Teacher/AI signal: student nào đang Evaluative (workable)
-    vs student nào đang Direct-State (cần nghỉ) → KHÁC action hoàn toàn
+    Teacher/AI signals: which students are experiencing Evaluative (workable)
+    vs which are experiencing Direct-State (need rest) → COMPLETELY DIFFERENT action
 
-  = CALIBRATION ITERATIVE
-  → Giống bác sĩ: kê thuốc → theo dõi → tăng/giảm → ngưng khi khỏi
+  = ITERATIVE CALIBRATION
+  → Like a doctor: prescribe medication → monitor → increase/decrease → stop when healed
   → Design arc → observe → adjust → achieve → next arc
 
   🟢 Formative assessment: Black & Wiliam 1998 (Inside the Black Box)
@@ -1041,110 +1042,111 @@ EDUCATION ≠ SCHOOL:
   🟡 Feedback loop = perception-action cycle applied to education
 ```
 
-### §2.8 — Nguyên lý 7: Sleep Maintenance + Recovery = Phần Của Education
+### §2.8 — Principle 7: Sleep Maintenance + Recovery = Part of Education
 
 ```
-🟢 SLEEP + RECOVERY + SPACING = PHẦN CỦA HỌC, KHÔNG PHẢI NGƯỢC:
+🟢 SLEEP + RECOVERY + SPACING = PART OF LEARNING, NOT THE OPPOSITE:
 
 
   ⭐ v2.1 REFRAME: SLEEP = OFFLINE MAINTENANCE SYSTEM (Compile-Sleep.md v1.0):
 
-    Sleep KHÔNG ĐƠN THUẦN là "kênh compile thứ 4."
-    Sleep có 6 mechanisms — chỉ ~1.5 exposure-based, ~4.5 OPTIMIZATION:
+    Sleep is NOT simply "compile channel #4."
+    Sleep has 6 mechanisms — only ~1.5 exposure-based, ~4.5 OPTIMIZATION:
 
     ┌────┬─────────────────────┬─────────────┬──────────────────────────┐
-    │ #  │ Mechanism           │ Exposure?   │ Vai trò cho Education    │
+    │ #  │ Mechanism           │ Exposure?   │ Role for Education       │
     ├────┼─────────────────────┼─────────────┼──────────────────────────┤
     │  1 │ SHY Homeostasis     │ ❌ NOT      │ Prune weak connections   │
-    │    │ (Tononi & Cirelli   │             │ → sáng rõ hơn chiều     │
-    │    │  2003, 2014)        │             │ (noise giảm, signal giữ) │
+    │    │ (Tononi & Cirelli   │             │ → morning clearer than  │
+    │    │  2003, 2014)        │             │ evening (noise ↓, signal │
+    │    │                     │             │ preserved)               │
     ├────┼─────────────────────┼─────────────┼──────────────────────────┤
-    │  2 │ Hippocampal Replay  │ ✅ YES      │ Re-fire bài hôm nay     │
-    │    │ (Wilson &           │ (internal)  │ ở 10-20x speed           │
-    │    │  McNaughton 1994)   │             │ → strengthen compiled    │
+    │  2 │ Hippocampal Replay  │ ✅ YES      │ Re-fires today's lesson │
+    │    │ (Wilson &           │ (internal)  │ at 10–20x speed          │
+    │    │  McNaughton 1994)   │             │ → strengthens compiled   │
     ├────┼─────────────────────┼─────────────┼──────────────────────────┤
     │  3 │ Active Consolidation│ ❌ NOT      │ Transfer hippocampus     │
     │    │ (Born & Wilhelm     │             │ → cortex (RAM→ROM)       │
     │    │  2012)              │             │ → long-term memory       │
     ├────┼─────────────────────┼─────────────┼──────────────────────────┤
-    │  4 │ Creative Linking    │ 🟡 PARTIAL  │ Tạo liên kết xa giữa    │
-    │    │ (Cai 2009,          │ (new links) │ domains → "aha" sáng     │
-    │    │  Wagner 2004)       │             │ hôm sau                  │
+    │  4 │ Creative Linking    │ 🟡 PARTIAL  │ Creates distant links   │
+    │    │ (Cai 2009,          │ (new links) │ between domains → "aha" │
+    │    │  Wagner 2004)       │             │ next morning             │
     ├────┼─────────────────────┼─────────────┼──────────────────────────┤
-    │  5 │ Emotional           │ ❌ NOT      │ Bóc emotional tag quá    │
-    │    │ Decoupling          │             │ mạnh → giữ content,      │
-    │    │ (Walker 2017,       │             │ giảm cường độ cảm xúc    │
-    │    │  van der Helm 2011) │             │                          │
+    │  5 │ Emotional           │ ❌ NOT      │ Strips overly strong     │
+    │    │ Decoupling          │             │ emotional tags → keeps   │
+    │    │ (Walker 2017,       │             │ content, reduces emotion │
+    │    │  van der Helm 2011) │             │ intensity                │
     ├────┼─────────────────────┼─────────────┼──────────────────────────┤
-    │  6 │ Gist Extraction     │ 🟡 PARTIAL  │ Trừu tượng hoá: specific │
-    │    │ (Payne 2009,        │ (abstract)  │ → general pattern        │
-    │    │  Stickgold 2013)    │             │ → hiểu NGUYÊN LÝ         │
+    │  6 │ Gist Extraction     │ 🟡 PARTIAL  │ Abstracts: specific →   │
+    │    │ (Payne 2009,        │ (abstract)  │ general pattern          │
+    │    │  Stickgold 2013)    │             │ → understand PRINCIPLES  │
     └────┴─────────────────────┴─────────────┴──────────────────────────┘
 
     EXPOSURE: ~1.5 (Replay full + Creative Linking partial + Gist partial)
     OPTIMIZATION: ~4.5 (SHY + Consolidation + Decoupling full + partials)
-    → PHẦN LỚN sleep = tối ưu compile HIỆN CÓ, không tạo compile MỚI
+    → MOST of sleep = optimizing EXISTING compile, not creating NEW compile
 
-    SWS (nửa đầu đêm): SHY + Replay + Consolidation + Gist Extraction
-    REM (nửa sau đêm): Creative Linking + Emotional Decoupling
-    → Ngủ ĐỦ (cả SWS + REM) = CẢ 6 mechanisms chạy
-    → Thiếu ngủ = CẮT REM (nửa sau) → MẤT Creative Linking + Emotional Decoupling
+    SWS (first half of night): SHY + Replay + Consolidation + Gist Extraction
+    REM (second half of night): Creative Linking + Emotional Decoupling
+    → ENOUGH sleep (both SWS + REM) = ALL 6 mechanisms running
+    → Sleep deprivation = CUTS REM (second half) → LOSES Creative Linking + Emotional Decoupling
 
-    KẾT LUẬN VẪN ĐÚNG: "Ngủ đủ = phần của học."
-    Nhưng v2.1 CHÍNH XÁC HƠN: "Ngủ đủ = 6 offline maintenance mechanisms
-    chạy đủ — KHÔNG CHỈ consolidation."
+    CONCLUSION STILL HOLDS: "Enough sleep = part of learning."
+    But v2.1 IS MORE PRECISE: "Enough sleep = 6 offline maintenance mechanisms
+    all running — NOT JUST consolidation."
 
 
   ⭐ v2.1 SLEEP DEPRIVATION = PFC DEGRADES FIRST:
 
-    Sleep deprivation → PFC catecholamine depletion → PFC offline ĐẦU TIÊN
-    → Emotional reactivity tăng (amygdala unchecked)
-    → Decision quality giảm, impulse control giảm
-    → Memory consolidation bị block (Active Consolidation ❌)
-    → Creative linking mất (REM cut → no novel associations)
-    → = Student thiếu ngủ = PFC budget ≈ 0 → mọi arc design = ineffective
-    → = Homework NHIỀU → thiếu ngủ → NGƯỢC mục đích hoàn toàn
+    Sleep deprivation → PFC catecholamine depletion → PFC goes offline FIRST
+    → Emotional reactivity increases (amygdala unchecked)
+    → Decision quality decreases, impulse control decreases
+    → Memory consolidation blocked (Active Consolidation ❌)
+    → Creative linking lost (REM cut → no novel associations)
+    → = Sleep-deprived student = PFC budget ≈ 0 → any arc design = ineffective
+    → = Heavy homework → sleep deprivation → COMPLETELY DEFEATS the purpose
 
 
   ⭐ v2.1 WAKING REST ≈ 30% (Compile-Sleep.md v1.0 §6):
 
-    DMN hoạt động khi nghỉ, mơ mộng, mind-wander:
-    → Replay nhẹ (NOT industrial-grade như sleep replay)
+    Default Mode Network active during rest, daydreaming, mind-wandering:
+    → Light replay (NOT industrial-grade like sleep replay)
     → Incubation (implicit processing)
-    → Gist extraction nhẹ
-    → ≈ 30% hiệu quả so với sleep cho CONSOLIDATION
+    → Light gist extraction
+    → ≈ 30% as effective as sleep for CONSOLIDATION
 
-    HỆ QUẢ CHO ARC DESIGN:
-      → Giữa 2 mini-arcs: REST (5-10 min) = cho DMN consolidate
-      → "Nghỉ giải lao" = PHẦN CỦA HỌC, không phải break HỌC
-      → Nhưng waking rest KHÔNG thay thế sleep (SHY, Emotional Decoupling
-        gần như KHÔNG xảy ra khi thức)
+    IMPLICATIONS FOR ARC DESIGN:
+      → Between 2 mini-arcs: REST (5–10 min) = let DMN consolidate
+      → "Break time" = PART OF LEARNING, not a break FROM learning
+      → But waking rest does NOT replace sleep (SHY, Emotional Decoupling
+        nearly DO NOT happen while awake)
 
 
   SPACED REPETITION:
     → 🟢 Spacing > massing (Ebbinghaus 1885, Cepeda et al. 2006)
-    → Học rải → consolidate → recall → strengthen
-    → Nhồi nhét → short-term → quên nhanh
-    → = 5 lần × 5 ngày > 25 lần × 1 ngày
-    → v2.1: spacing WORK vì SLEEP MECHANISMS giữa sessions:
+    → Distributed learning → consolidate → recall → strengthen
+    → Cramming → short-term → forgets quickly
+    → = 5 times × 5 days > 25 times × 1 day
+    → v2.1: spacing WORKS because SLEEP MECHANISMS between sessions:
       Night 1: Replay + Consolidation + SHY → chunks stronger
       Night 2: same → even stronger + Gist Extraction → generalize
-      Night 3: Creative Linking → connect với other domains
-      → = Spacing = LEVERAGE sleep maintenance, KHÔNG CHỈ "nghỉ giữa"
+      Night 3: Creative Linking → connects to other domains
+      → = Spacing = LEVERAGES sleep maintenance, NOT JUST "taking a break between"
 
 
   RECOVERY:
     → Cortisol accumulation → neural wear (Cortisol-Baseline.md v2.0 §5)
     → Rest = repair mechanism
-    → Play, downtime, day-dream = Phase 2-3 Imagine-Final lifecycle
-    → = "Cho nghỉ" ≠ "lười" → = cho não REPAIR + CONSOLIDATE + PROCESS
+    → Play, downtime, daydreaming = Phase 2–3 Imagine-Final lifecycle
+    → = "Giving rest" ≠ "being lazy" → = letting the brain REPAIR + CONSOLIDATE + PROCESS
 
 
   INVERTED-U:
-    → Quá ít practice = no compile (VTA không fire)
-    → Vừa đủ practice + rest = OPTIMAL compile
-    → Quá nhiều practice = diminishing returns + damage
-    → = "Chăm hơn" TỐT — đến 1 điểm. Qua điểm đó = NGƯỢC
+    → Too little practice = no compile (VTA doesn't fire)
+    → Right amount of practice + rest = OPTIMAL compile
+    → Too much practice = diminishing returns + damage
+    → = "Studying harder" IS GOOD — up to a point. Past that point = COUNTERPRODUCTIVE
 
   🟢 Sleep consolidation: Walker 2017 (Why We Sleep)
   🟢 6 mechanisms: Tononi & Cirelli 2003; Wilson & McNaughton 1994;
@@ -1153,390 +1155,395 @@ EDUCATION ≠ SCHOOL:
   🟢 DMN rest consolidation: Tambini et al. 2010
   🟢 Spacing effect: Ebbinghaus 1885, Cepeda et al. 2006
   🟢 Yerkes-Dodson 1908 (inverted-U)
-  🟡 Sleep = offline maintenance (NOT kênh compile): Compile-Sleep.md v1.0
+  🟡 Sleep = offline maintenance (NOT compile channel): Compile-Sleep.md v1.0
   🟡 Waking rest ≈ 30%: framework estimate
 ```
 
-### §2.9 — v2.1 SYNTHESIS: 3 Compile Types × Arc Design
+### §2.9 — v2.1 Synthesis: 3 Compile Types × Arc Design
 
 ```
-🟡 v2.1 NEW — 3 COMPILE TYPES = 3 PHASES CỦA ARC DESIGN:
+🟡 v2.1 NEW — 3 COMPILE TYPES = 3 PHASES OF ARC DESIGN:
 
   (Compile-Taxonomy v3.0 §4 — 3 Compile Types = dominant modulator configurations)
 
 
   PHASE 1 — TRUST COMPILE (BOOTSTRAP):
     Modulator: Entity-Valence Bias DOMINANT
-    = Fast install qua trusted source (teacher, parent)
-    Arc design: teacher TẠO TRUST → student NHẬN value install nhanh
-    → "Thầy nói quan trọng → tôi tin → compile [domain → tốt]"
-    → Bootstrap giai đoạn đầu: student chưa có experience → cần trust
-    → ⚠️ Trust install VALUE, KHÔNG install CONTENT (§2.2 Multi-Stream)
+    = Fast install via trusted source (teacher, parent)
+    Arc design: teacher BUILDS TRUST → student RECEIVES value install quickly
+    → "Teacher says it's important → I believe → compile [domain → good]"
+    → Bootstrap the early phase: student doesn't yet have experience → needs trust
+    → ⚠️ Trust installs VALUE, does NOT install CONTENT (§2.2 Multi-Stream)
 
   PHASE 2 — EXPERIENCE COMPILE (DEPTH):
-    Modulator: Minimal (Engine thuần — direct exposure)
-    = Slow verify qua body trải nghiệm trực tiếp
-    Arc design: student TỰ LÀM → body confirm/reject trust install
-    → "Tôi TỰ THỬ → body confirm → compile [domain → thực sự tốt]"
-    → Depth: Trust install + Experience confirm = CỰC BỀN (compound)
+    Modulator: Minimal (pure Engine — direct exposure)
+    = Slow verification through direct body experience
+    Arc design: student DOES IT THEMSELVES → body confirms/rejects trust install
+    → "I TRY IT MYSELF → body confirms → compile [domain → genuinely good]"
+    → Depth: Trust install + Experience confirm = EXTREMELY DURABLE (compound)
     → = Hands-on, project-based, real-world application
 
   PHASE 3 — EXPERTISE COMPILE (MASTERY):
     Modulator: PFC Modulation DOMINANT
-    = Years of sustained PFC-directed compile trong 1 domain
-    Arc design: student DRIVE OWN learning, teacher = consultant
-    → "Tôi MUỐN sâu hơn → PFC direct → meta-chunks form → expert"
+    = Years of sustained PFC-directed compile within 1 domain
+    Arc design: student DRIVES OWN learning, teacher = consultant
+    → "I WANT to go deeper → PFC directs → meta-chunks form → expert"
     → Mastery: ~10 years (Chase & Simon 1973, Ericsson 1993)
-    → ⚠️ Chỉ ~5% behavior = expert-level (Compile-Taxonomy v3.0 §4.3)
+    → ⚠️ Only ~5% of behavior = expert-level (Compile-Taxonomy v3.0 §4.3)
 
 
   ARC DESIGN = OPTIMIZE TRANSITIONS:
 
-    Trust → Experience: QUAN TRỌNG NHẤT
-      → KHÔNG dừng ở Trust → student chỉ có VALUE install, chưa verify
-      → Bridge (§3) = giữ student ĐỦ LÂU → Experience confirm
-      → Khi Experience confirm Trust → compound = BỀN VỮNG nhất
+    Trust → Experience: MOST IMPORTANT
+      → DON'T stop at Trust → student only has VALUE install, not yet verified
+      → Bridge (§3) = keeps student long ENOUGH → Experience confirms
+      → When Experience confirms Trust → compound = MOST DURABLE
 
-    Experience → Expertise: TỰ NHIÊN nếu Imagine-Final rõ
-      → Không force → follow student's Imagine-Final (§2.6)
-      → AI + teacher = support, không push
+    Experience → Expertise: NATURAL if Imagine-Final is clear
+      → Don't force → follow student's Imagine-Final (§2.6)
+      → AI + teacher = support, don't push
 
-    ⭐ EDUCATION HIỆN TẠI: dừng Phase 1 (Trust only)
-      → 12 năm = Trust install liên tục (teacher nói, student ghi nhớ)
-      → Experience verify THIẾU (ít hands-on, ít real-world)
-      → Expertise phase GẦN NHƯ KHÔNG CÓ trong school (chưa đủ sâu)
-      → = Gap giữa "biết" (Trust) và "làm được" (Experience) = STRUCTURAL
+    ⭐ CURRENT EDUCATION: stops at Phase 1 (Trust only)
+      → 12 years = continuous Trust installs (teacher says, student memorizes)
+      → Experience verification MISSING (little hands-on, little real-world)
+      → Expertise phase ALMOST NONEXISTENT in school (not deep enough)
+      → = Gap between "knowing" (Trust) and "being able to do" (Experience) = STRUCTURAL
 
-    Cross-ref: Compile-Type-Learning.md §3 (chi tiết per-domain mapping)
+    Cross-ref: Compile-Type-Learning.md §3 (detailed per-domain mapping)
 
   🟡 3 Compile Types × Arc phases: framework synthesis
   🟢 Expert ~10 years: Chase & Simon 1973, Ericsson et al. 1993
   🟡 Compound (Trust + Experience): framework insight
 ```
 
-### §2.10 — Nguyên lý 8: Assess Depth, Not Surface
+### §2.10 — Principle 8: Assess Depth, Not Surface
 
 ```
-🟡 "ĐÚNG/SAI" = BỀ MẶT. DEPTH = ĐO LƯỜNG THẬT:
+🟡 "RIGHT/WRONG" = SURFACE. DEPTH = THE REAL MEASUREMENT:
 
 
-  CHUNK COMPILATION CÓ LEVELS (Chunk.md v2.0 §1):
-    Proto-chunk: yếu → fire sometimes, partial match
-    Compiled: medium-strong → fire reliably, holdable in PFC
+  CHUNK COMPILATION HAS LEVELS (Chunk.md v2.0 §1):
+    Proto-chunk: weak → fires sometimes, partial match
+    Compiled: medium-strong → fires reliably, holdable in PFC
     Meta-chunk: strong → many sub-chunks merged → 1 unit
 
 
-  4 STAGES ĐO DEPTH:
-    ① RECOGNIZE → "nghe quen" (proto-chunk)
-    ② EXPLAIN → "nói lại được" (compiled, PFC hold)
-    ③ APPLY → "dùng được trong context mới" (compiled + linked)
-    ④ CREATE/TRANSFER → "kết hợp tạo cái mới" (meta-chunk)
+  4 STAGES TO MEASURE DEPTH:
+    ① RECOGNIZE → "sounds familiar" (proto-chunk)
+    ② EXPLAIN → "can state it back" (compiled, PFC hold)
+    ③ APPLY → "can use it in a new context" (compiled + linked)
+    ④ CREATE/TRANSFER → "combine to create something new" (meta-chunk)
 
-  "Đúng đáp án" có thể = stage ① (memorize) → KHÔNG = understand
-  "Apply được" = stage ③ → THỰC SỰ compiled
-  "Sáng tạo được" = stage ④ → meta-chunk → expert level
+  "Getting the right answer" can = stage ① (memorized) → NOT = understanding
+  "Can apply it" = stage ③ → TRULY compiled
+  "Can create" = stage ④ → meta-chunk → expert level
 
 
-  HỆ QUẢ:
-    → Test multiple choice = đo stage ① → miss ②③④
-    → Project-based = đo stage ③④ → meaningful nhưng khó scale
-    → AI-assisted assessment CÓ THỂ đo depth qua conversation → potential
-    → = Nguyên lý ĐÚNG (assess depth) → implementation per era
+  IMPLICATIONS:
+    → Multiple choice tests = measure stage ① → miss ②③④
+    → Project-based = measures stage ③④ → meaningful but hard to scale
+    → AI-assisted assessment CAN measure depth through conversation → potential
+    → = Principle CORRECT (assess depth) → implementation per era
 
   🟢 Bloom's Taxonomy (1956, revised Anderson & Krathwohl 2001)
   🟢 Expert-novice differences: Chase & Simon 1973
   🟡 4-stage mapping to chunk levels = framework synthesis
 ```
 
-### §2.11 — Nguyên lý 9: Build Trust Before Content
+### §2.11 — Principle 9: Build Trust Before Content
 
 ```
-⭐⭐ v2.2 NEW — TRUST = NỀN TẢNG ĐỂ ARC HOẠT ĐỘNG (Trust.md v1.0):
+⭐⭐ v2.2 NEW — TRUST = THE FOUNDATION FOR AN ARC TO FUNCTION (Trust.md v1.0):
 
   Trust = COMPILED PREDICTION about entity's gap-fill RELIABILITY.
-  ≠ Valence ("thích/ghét") — Trust = "tin cậy được" (Trust.md §1).
+  ≠ Valence ("like/dislike") — Trust = "can be relied upon" (Trust.md §1).
 
-  PHÂN BIỆT QUAN TRỌNG CHO EDUCATION:
+  IMPORTANT DISTINCTION FOR EDUCATION:
 
-    "THÍCH THẦY" = valence positive (current/structural)
-      → Phản ứng cảm xúc per-moment hoặc aggregate
-      → CÓ THỂ thích nhưng KHÔNG tin (fun teacher, not competent)
+    "LIKES THE TEACHER" = positive valence (current/structural)
+      → Emotional reaction per-moment or aggregate
+      → CAN like but NOT trust (fun teacher, not competent)
 
-    "TIN THẦY" = trust positive (compiled prediction)
-      → Prediction: "thầy sẽ fill gap TỐT và ỔN ĐỊNH"
-      → CÓ THỂ tin nhưng KHÔNG thích (strict teacher, very competent)
+    "TRUSTS THE TEACHER" = positive trust (compiled prediction)
+      → Prediction: "teacher will fill my gaps WELL and CONSISTENTLY"
+      → CAN trust but NOT like (strict teacher, very competent)
 
-    → "Love the teacher → learn the lesson" (§3.1) CHÍNH XÁC HƠN:
+    → "Love the teacher → learn the lesson" (§3.1) MORE PRECISELY:
       = TRUST teacher → VALUE stream AMPLIFIED → compile approach tags
-      → "Like" giúp nhưng KHÔNG ĐỦ. "Trust" là cần thiết.
+      → "Like" helps but is NOT ENOUGH. "Trust" is necessary.
       → 🟢 Colquitt et al. 2007: trust separable from liking
 
 
   ⭐ 3 SUB-DIMENSIONS × EDUCATION (Trust.md §1):
 
     ┌───────────────────┬─────────────────────────────────────────────────┐
-    │ Sub-dimension     │ Trong education context                         │
+    │ Sub-dimension     │ In education context                            │
     ├───────────────────┼─────────────────────────────────────────────────┤
-    │ ① AUTHORITY       │ Teacher CÓ QUYỀN cho điểm, đánh giá.          │
-    │ (có quyền)        │ = Structural fact, KHÔNG cần build.            │
-    │                   │ ⚠️ Authority HIGH + Competence LOW = NGUY HIỂM │
-    │                   │ (student buộc nghe nhưng nội dung sai)         │
+    │ ① AUTHORITY       │ Teacher HAS THE RIGHT to grade, evaluate.      │
+    │ (has standing)    │ = Structural fact, does NOT need to be built.   │
+    │                   │ ⚠️ Authority HIGH + Competence LOW = DANGEROUS  │
+    │                   │ (student must listen but content is wrong)      │
     ├───────────────────┼─────────────────────────────────────────────────┤
-    │ ② COMPETENCE      │ Teacher BIẾT domain? Dạy ĐÚNG?                 │
-    │ (có năng lực)     │ = CẦN BUILD qua demonstration + experience.    │
-    │                   │ Student calibrate qua time (Trust.md §5 Phase 3)│
+    │ ② COMPETENCE      │ Does teacher KNOW the domain? Teach CORRECTLY?  │
+    │ (has capability)  │ = MUST BUILD through demonstration + experience. │
+    │                   │ Student calibrates over time (Trust.md §5 Phase 3) │
     ├───────────────────┼─────────────────────────────────────────────────┤
-    │ ③ INTENTION       │ Teacher MUỐN TỐT cho student?                  │
-    │ (có thiện ý)      │ = CRITICAL nhất cho VALUE stream.              │
-    │                   │ "Thầy quan tâm tôi" → approach → trust deepen │
-    │                   │ "Thầy không care" → avoidance → trust erode   │
+    │ ③ INTENTION       │ Does teacher WANT WHAT'S BEST for the student?  │
+    │ (good faith)      │ = MOST CRITICAL for VALUE stream.               │
+    │                   │ "Teacher cares about me" → approach → trust deepens│
+    │                   │ "Teacher doesn't care" → avoidance → trust erodes│
     └───────────────────┴─────────────────────────────────────────────────┘
 
-    → ARC DESIGN: build ③ Intention TRƯỚC (first weeks = relationship)
-      → Intention trust → student receptive → Competence trust verify SAU
-      → Authority trust = given (institutional) — KHÔNG cần build
+    → ARC DESIGN: build ③ Intention FIRST (first weeks = relationship)
+      → Intention trust → student receptive → Competence trust verified LATER
+      → Authority trust = given (institutional) — does NOT need to be built
 
 
   ⭐ TRUST AS AMPLIFIER FOR VALUE STREAM (Compile-Taxonomy v3.0 §3):
 
     Trust = Amplifier, NOT Gate:
-      → Trust cao → VALUE stream compile MẠNH (approach tags amplified)
-      → Trust thấp → VALUE stream compile YẾU (dampened, not blocked)
+      → Trust high → VALUE stream compiles STRONGLY (approach tags amplified)
+      → Trust low → VALUE stream compiles WEAKLY (dampened, not blocked)
       → Trust zero → VALUE stream = Content ONLY, Value = near-zero
 
     → ARC DESIGN IMPLICATION:
-      → Week 1-4: BUILD TRUST (relationship, safety, demonstrate intention)
-      → Week 5+: LEVERAGE trust cho content delivery
-      → Trust ĐÃ CÓ → content compile NHANH + approach-tagged
-      → Trust CHƯA CÓ → content compile CHẬM + mixed tags
+      → Week 1–4: BUILD TRUST (relationship, safety, demonstrate intention)
+      → Week 5+: LEVERAGE trust for content delivery
+      → Trust ALREADY BUILT → content compiles FASTER + approach-tagged
+      → Trust NOT YET BUILT → content compiles SLOWLY + mixed tags
 
-    → GIẢI THÍCH "First weeks matter":
-      Trust formation cần consistency × time (Trust.md §4)
-      → Build chậm (months) — KHÔNG thể skip.
-      → Collapse nhanh (1 betrayal) — CẦN bảo vệ.
+    → EXPLAINS "First weeks matter":
+      Trust formation needs consistency × time (Trust.md §4)
+      → Builds slowly (months) — CANNOT be skipped.
+      → Collapses quickly (1 betrayal) — NEEDS to be protected.
       → = First impression × consistent follow-through = FOUNDATION
 
 
   ⭐ TRUST DEFAULT → CALIBRATED × EDUCATION STAGES (Trust.md §5):
 
-    Trust mặc định = per-ENTITY (không per-domain):
-    → Student trust "thầy" = trust MỌI THỨ thầy nói (evolution design).
-    → Per-domain calibration = PFC-intensive, xảy ra SAU.
+    Trust default = per-ENTITY (not per-domain):
+    → Student trusts "teacher" = trusts EVERYTHING the teacher says (evolutionary design).
+    → Per-domain calibration = PFC-intensive, happens LATER.
 
     ┌─────────────────┬────────────────┬────────────────────────────────────┐
-    │ Education Stage  │ Trust Phase    │ ARC DESIGN ĐÁP ỨNG                │
+    │ Education Stage  │ Trust Phase    │ ARC DESIGN RESPONSE                │
     ├─────────────────┼────────────────┼────────────────────────────────────┤
-    │ Early (6-10)    │ Phase 1-2      │ Student DEFAULT trust teacher.     │
-    │                 │ (Installed →   │ → USE cửa sổ này: bootstrap qua   │
-    │                 │  Default)      │   Trust Compile NHANH (§2.9)       │
-    │                 │                │ → ⚠️ Trust ĐI KÈM TRÁCH NHIỆM:   │
-    │                 │                │   install VALUE đúng, vì student   │
-    │                 │                │   CHƯA verify được.               │
+    │ Early (6–10)    │ Phase 1–2      │ Student DEFAULT-trusts teacher.    │
+    │                 │ (Installed →   │ → USE this window: bootstrap via   │
+    │                 │  Default)      │   Trust Compile QUICKLY (§2.9)     │
+    │                 │                │ → ⚠️ Trust COMES WITH              │
+    │                 │                │   RESPONSIBILITY: install VALUE    │
+    │                 │                │   correctly, because student       │
+    │                 │                │   CAN'T YET verify.               │
     ├─────────────────┼────────────────┼────────────────────────────────────┤
-    │ Secondary       │ Phase 2-3      │ Student BẮT ĐẦU calibrate.        │
-    │ (12-15)         │ (Default →     │ → RESPECT process: student hỏi    │
-    │                 │  Calibrate)    │   "thầy có đúng không?" = HEALTHY. │
-    │                 │                │ → KHÔNG coi là "thiếu tôn trọng"  │
-    │                 │                │   — là Phase 3 trust development.  │
+    │ Secondary       │ Phase 2–3      │ Student BEGINS to calibrate.       │
+    │ (12–15)         │ (Default →     │ → RESPECT the process: student     │
+    │                 │  Calibrate)    │   asking "is the teacher right?"   │
+    │                 │                │   = HEALTHY.                       │
+    │                 │                │ → Do NOT treat this as "disrespect"│
+    │                 │                │   — it is Phase 3 trust development│
     ├─────────────────┼────────────────┼────────────────────────────────────┤
-    │ Late secondary  │ Phase 3-4      │ Domain override CÓ THỂ xảy ra.    │
+    │ Late secondary  │ Phase 3–4      │ Domain override CAN occur.         │
     │ + University    │ (Calibrate →   │ → EXPECT critical thinking.        │
-    │ (16+)           │  Domain        │ → Teacher CHỨNG MINH competence   │
-    │                 │  Override)     │   (không chỉ claim authority).     │
+    │ (16+)           │  Domain        │ → Teacher must DEMONSTRATE         │
+    │                 │  Override)     │   competence (not just claim       │
+    │                 │                │   authority).                      │
     │                 │                │ → Arc design: evidence-based,      │
     │                 │                │   not authority-based.             │
     └─────────────────┴────────────────┴────────────────────────────────────┘
 
 
-  ⭐ VIRTUOUS/VICIOUS LOOP (Compile-Taxonomy v3.0 §7.3-7.4):
+  ⭐ VIRTUOUS/VICIOUS LOOP (Compile-Taxonomy v3.0 §7.3–7.4):
 
     VIRTUOUS:
-      Trust teacher (intention ③) → auto-receptive (Entity-Valence propagate)
-      → VALUE stream compile approach → learning positive → trust DEEPEN
-      → → PFC freed (less suppress needed) → learning cost GIẢM
-      → = Cycle tự reinforcing: INVEST ở first weeks → COMPOUND over months
+      Trust teacher (intention ③) → auto-receptive (Entity-Valence propagates)
+      → VALUE stream compiles approach → learning positive → trust DEEPENS
+      → → PFC freed (less suppressing needed) → learning cost DECREASES
+      → = Self-reinforcing cycle: INVEST in first weeks → COMPOUND over months
 
     VICIOUS:
-      Distrust teacher → auto-reject (Entity-Valence block/dampen)
-      → VALUE stream compile avoidance → learning negative → trust ERODE
-      → → PFC must suppress (cost TĂNG) → exhaustion → avoidance DEEPER
-      → = Cycle tự reinforcing: MISS first weeks → COMPOUND negative over months
+      Distrust teacher → auto-reject (Entity-Valence blocks/dampens)
+      → VALUE stream compiles avoidance → learning negative → trust ERODES
+      → → PFC must suppress (cost INCREASES) → exhaustion → avoidance DEEPENS
+      → = Self-reinforcing cycle: MISS first weeks → COMPOUND negative over months
 
-    → ASYMMETRY: Virtuous CHẬM khởi tạo (trust build chậm).
-      Vicious NHANH khởi tạo (trust collapse nhanh).
-      → = First impression KHÔNG CÔNG BẰNG nhưng là MECHANISM.
+    → ASYMMETRY: Virtuous SLOW to start (trust builds slowly).
+      Vicious FAST to start (trust collapses quickly).
+      → = First impression is UNFAIR but it IS THE MECHANISM.
 
 
   ⭐ TRUST COLLAPSE × EDUCATION:
 
-    Trust build = months. Trust collapse = 1 betrayal (Trust.md §4).
-    → Teacher shaming student publicly → trust collapse per-student → ALL đã build = MẤT.
-    → Teacher unfair grading → trust-intention collapse → VALUE stream = avoidance.
-    → Teacher lying → trust-competence + trust-intention collapse → TOTAL RESET.
+    Trust builds = months. Trust collapses = 1 betrayal (Trust.md §4).
+    → Teacher publicly shaming a student → trust collapse per-student → ALL previously built = LOST.
+    → Teacher grades unfairly → trust-intention collapse → VALUE stream = avoidance.
+    → Teacher lies → trust-competence + trust-intention collapse → TOTAL RESET.
 
     REPAIR = MONTHS, NOT HOURS:
-      → "Xin lỗi" = current valence shift (nhanh) ≠ trust rebuild (chậm).
-      → Trust repair cần: acknowledge + consistent behavior change × time.
-      → CONNECTION-EDUCATION.md v1.1 §6.4: repair relationship ≠ repair trust.
+      → "I'm sorry" = current valence shift (quick) ≠ trust rebuild (slow).
+      → Trust repair requires: acknowledgment + consistent behavior change × time.
+      → Connection-Education.md v1.1 §6.4: repairing the relationship ≠ repairing trust.
 
-    → ARC DESIGN: ĐẦU TƯ BẢO VỆ trust > sửa chữa trust.
+    → ARC DESIGN: INVEST IN PROTECTING trust > repairing trust.
       Prevention >> Repair (asymmetry = mechanism-based).
 
   🟢 Trust = prediction about reliability: Trust.md v1.0 §1
   🟢 3 sub-dimensions (ability, benevolence, integrity): Mayer, Davis & Schoorman 1995
   🟢 Trust ≠ liking: Colquitt et al. 2007
-  🟢 Trust build slow / collapse fast: Slovic 1993; Baumeister et al. 2001
+  🟢 Trust builds slow / collapses fast: Slovic 1993; Baumeister et al. 2001
   🟢 Epistemic trust in children: Csibra & Gergely 2009
   🟡 Trust × education stages mapping = framework application (Trust.md §5)
-  🟡 Virtuous/Vicious loop = Compile-Taxonomy v3.0 §7.3-7.4 applied
+  🟡 Virtuous/Vicious loop = Compile-Taxonomy v3.0 §7.3–7.4 applied
   🟡 Trust as Amplifier = Compile-Taxonomy v3.0 §3 formal integration
 ```
 
-### §2.12 — Nguyên lý 10: Self-Observation = Metacognitive Foundation
+### §2.12 — Principle 10: Self-Observation = Metacognitive Foundation
 
 ```
-⭐⭐ v2.2 NEW — SELF-OBSERVATION QUYẾT ĐỊNH METACOGNITION HIỆU QUẢ (Self-Observation.md v1.0):
+⭐⭐ v2.2 NEW — SELF-OBSERVATION DETERMINES METACOGNITION EFFECTIVENESS (Self-Observation.md v1.0):
 
   Self-Observation = f(Interoception × PFC_Encoding × Attention_Direction=SELF)
-  = APPLICATION-3 trên Simulation-Engine (Self, Present, Observe)
-  = Student observe CHÍNH MÌNH đang học — body state, emotional state, pattern.
+  = APPLICATION-3 on the Simulation-Engine (Self, Present, Observe)
+  = Student observing THEMSELVES while learning — body state, emotional state, pattern.
 
-  TẠI SAO QUAN TRỌNG CHO ARC DESIGN:
-    → "Metacognition" (biết về cách mình học) = PHÁT TRIỂN.
-    → Self-Observation MỨC quyết định STRATEGY NÀO hiệu quả.
-    → Arc design phải MATCH strategy với student's Self-Observation Mức.
+  WHY CRITICAL FOR ARC DESIGN:
+    → "Metacognition" (knowing about how you learn) = DEVELOPS over time.
+    → Self-Observation Level determines WHICH STRATEGIES are effective.
+    → Arc design must MATCH strategy to student's Self-Observation Level.
 
 
-  ⭐ MỨC SELF-OBSERVATION × METACOGNITIVE STRATEGY (Self-Observation.md §4):
+  ⭐ SELF-OBSERVATION LEVEL × METACOGNITIVE STRATEGY (Self-Observation.md §4):
 
     ┌──────────────────┬──────────────────────────┬──────────────────────────┐
-    │ Mức              │ Student CÓ THỂ           │ Metacognitive Strategy    │
+    │ Level            │ Student CAN              │ Metacognitive Strategy   │
     ├──────────────────┼──────────────────────────┼──────────────────────────┤
-    │ Mức 2            │ "Tôi biết tôi mệt"      │ Body-based feedback ĐỦ.  │
-    │ (Body-Recognize) │ "Tôi biết tôi chán"      │ Verbal reflection GIỚI   │
-    │ (hầu hết student)│ Compiled, cost ≈ 0       │ HẠN (biết state, chưa    │
-    │                  │                          │ biết TẠI SAO).           │
+    │ Level 2          │ "I know I'm tired"       │ Body-based feedback      │
+    │ (Body-Recognize) │ "I know I'm bored"       │ SUFFICIENT.              │
+    │ (most students)  │ Compiled, cost ≈ 0       │ Verbal reflection LIMITED │
+    │                  │                          │ (knows state, not yet WHY)│
     ├──────────────────┼──────────────────────────┼──────────────────────────┤
-    │ Mức 3            │ "Chút nữa tôi sẽ lo"    │ CÓ THỂ predict reaction  │
-    │ (Body-Predict)   │ "Nếu làm X thì tôi      │ → pre-plan strategy.     │
-    │ (trained)        │  sẽ feel Y"              │ "Biết mình sẽ chán →    │
-    │                  │                          │  chuẩn bị thay đổi."    │
+    │ Level 3          │ "Soon I'll feel anxious" │ CAN predict own reaction │
+    │ (Body-Predict)   │ "If I do X then I'll     │ → pre-plan strategy.     │
+    │ (trained)        │  feel Y"                 │ "Know I'll get bored →  │
+    │                  │                          │  prepare a change."      │
     ├──────────────────┼──────────────────────────┼──────────────────────────┤
-    │ Mức 4            │ "Tôi HAY stuck khi       │ CAN analyze own learning │
-    │ (Pattern-Observe)│  gặp dạng bài này"       │ patterns → adjust.       │
-    │ (trained + time) │ "Dạo này tôi né domain X"│ "Biết pattern → đổi     │
-    │                  │                          │  approach."              │
+    │ Level 4          │ "I tend to get stuck     │ CAN analyze own learning │
+    │ (Pattern-Observe)│  on this type of problem"│ patterns → adjust.       │
+    │ (trained + time) │ "Lately I'm avoiding     │ "Know pattern → change  │
+    │                  │  domain X"               │  approach."              │
     ├──────────────────┼──────────────────────────┼──────────────────────────┤
-    │ Mức 5            │ "Explanation tôi đang     │ Meta-learning: evaluate  │
-    │ (Meta-Observe)   │  tạo có đúng không?"     │ OWN evaluation process.  │
-    │ (rare, 15+)      │ "Tôi đang rationalize   │ → Self-directed learning │
-    │                  │  hay thật sự hiểu?"      │   THẬT (not just claimed)│
+    │ Level 5          │ "Is the explanation I'm  │ Meta-learning: evaluate  │
+    │ (Meta-Observe)   │  making correct?"        │ OWN evaluation process.  │
+    │ (rare, 15+)      │ "Am I rationalizing or   │ → Self-directed learning │
+    │                  │  do I genuinely         │   TRULY (not just claimed)│
+    │                  │  understand?"            │                          │
     └──────────────────┴──────────────────────────┴──────────────────────────┘
 
-    → Student Mức 2: "study journal" = KHÔNG hiệu quả (chưa BIẾT pattern)
-    → Student Mức 3-4: "study journal" = CÓ THỂ hiệu quả (biết pattern → ghi → track)
-    → Student Mức 5: tự evaluate learning strategy quality (hiếm, don't assume)
-    → = "Metacognitive strategies" KHÔNG universal — effective PER MỨC.
+    → Level 2 student: "study journal" = NOT EFFECTIVE (doesn't yet KNOW patterns)
+    → Level 3–4 student: "study journal" = CAN BE EFFECTIVE (knows patterns → writes → tracks)
+    → Level 5 student: can self-evaluate learning strategy quality (rare, don't assume)
+    → = "Metacognitive strategies" are NOT universal — effective PER LEVEL.
 
 
-  ⭐ TEACHER AS EXTERNAL SCAFFOLD PER MỨC (Self-Observation.md §2.4 Pathway 2):
+  ⭐ TEACHER AS EXTERNAL SCAFFOLD PER LEVEL (Self-Observation.md §2.4 Pathway 2):
 
-    Self-Observation có 2 pathways:
-      ① Internal: student TỰ nhận ra (delta vượt threshold)
-      ② External: teacher DIRECT attention → amplify signal → student nhận ra
+    Self-Observation has 2 pathways:
+      ① Internal: student notices ON THEIR OWN (delta exceeds threshold)
+      ② External: teacher DIRECTS attention → amplifies signal → student notices
 
     Pathway 2 = TEACHER SCAFFOLD:
 
-      Scaffold Mức 3: "Con cảm thấy thế nào về bài này?"
-        → Direct attention inward → student TRẢ LỜI body state
-        → = Prompt Self-Observation khi student chưa tự trigger
+      Scaffold Level 3: "How do you feel about this problem?"
+        → Directs attention inward → student ANSWERS their body state
+        → = Prompts Self-Observation when student hasn't triggered it themselves
 
-      Scaffold Mức 4: "Con có thấy pattern khi nào con hay bị stuck?"
-        → Direct attention to PATTERN → student bắt đầu observe pattern
-        → = Guide Self-Observation từ state → pattern
+      Scaffold Level 4: "Do you notice a pattern about when you tend to get stuck?"
+        → Directs attention to PATTERN → student begins observing the pattern
+        → = Guides Self-Observation from state → pattern
 
-      Scaffold Mức 5: "Frustration con đang cảm là về BÀI hay về CÁI KHÁC?"
-        → Prompt META-observation (observe OBSERVATION)
-        → = Guide Self-Observation từ pattern → meta
+      Scaffold Level 5: "Is the frustration you're feeling about THE PROBLEM or about SOMETHING ELSE?"
+        → Prompts META-observation (observe the OBSERVATION)
+        → = Guides Self-Observation from pattern → meta
 
-    → Teacher = External Scaffold cho Self-Observation NHƯ scaffolding cho learning.
-    → Scaffold ĐÚNG Mức → development. Scaffold QUÁ CAO → miss. Scaffold QUÁ THẤP → boring.
+    → Teacher = External Scaffold for Self-Observation JUST LIKE scaffolding for learning.
+    → Scaffold at RIGHT Level → development. Scaffold TOO HIGH → misses. Scaffold TOO LOW → boring.
 
 
   ⭐ SELF-OBSERVATION × PFC BUDGET — COMPETITION:
 
     Learning = PFC consumer (§2.3 ⑤).
-    Self-Observation = CŨNG PFC consumer (PFC HOLD open, encode, compare).
-    CẢ HAI dùng CÙNG PFC budget → CẠNH TRANH.
+    Self-Observation = ALSO PFC consumer (PFC must HOLD open, encode, compare).
+    BOTH use the SAME PFC budget → THEY COMPETE.
 
-    → Student đang học bài khó (PFC budget → learning) →
+    → Student working on a hard problem (PFC budget → learning) →
       Self-Observation = FIRST TO GO (Self-Observation.md §5.2)
-      → "Không biết mình mệt" vì PFC đang XỬ LÝ content.
+      → "Doesn't know they're tired" because PFC is PROCESSING content.
 
-    HỆ QUẢ CHO ARC DESIGN:
-      → Self-Observation training NGOÀI content learning time.
-        "Dừng 5 phút — body check: mệt không? Lo không? Chán không?"
-      → HOẶC: built vào arc design AS SEPARATE MINI-ARC:
+    IMPLICATIONS FOR ARC DESIGN:
+      → Self-Observation training OUTSIDE content learning time.
+        "Stop 5 minutes — body check: tired? anxious? bored?"
+      → OR: built into arc design AS A SEPARATE MINI-ARC:
         Content mini-arc → Self-Observation mini-arc (body check) → Content mini-arc
-      → KHÔNG đòi hỏi self-reflect GIỮA LÚC content khó → PFC impossible.
-      → = "Reflect on your learning" chỉ work KHI PFC budget available.
+      → Do NOT require self-reflection IN THE MIDDLE OF hard content → PFC impossible.
+      → = "Reflect on your learning" only works WHEN PFC budget is available.
 
 
-  ⭐ KEYSTONE PROPERTY — TẠI SAO EDUCATION PHẢI DEVELOP (Self-Observation.md §7):
+  ⭐ KEYSTONE PROPERTY — WHY EDUCATION MUST DEVELOP IT (Self-Observation.md §7):
 
-    Self-Observation fail → CASCADE 5+ systems:
-      ├→ Self-Pattern-Modeling FAIL → teacher-student calibration BROKEN
-      │    (Bird & Cook 2013: self-awareness = prerequisite cho empathy)
-      ├→ Imagine-Final quality DROP → motivation UNCLEAR
+    Self-Observation fails → CASCADE across 5+ systems:
+      ├→ Self-Pattern-Modeling FAILS → teacher-student calibration BROKEN
+      │    (Bird & Cook 2013: self-awareness = prerequisite for empathy)
+      ├→ Imagine-Final quality DROPS → motivation UNCLEAR
       │    (Damasio 1994: vmPFC patients = logic intact, decisions paralyzed)
-      ├→ Dual Check FAIL → manipulation vulnerability
-      └→ Moral judgment DEGRADE → rule-following without moral sense
+      ├→ Dual Check FAILS → vulnerability to manipulation
+      └→ Moral judgment DEGRADES → rule-following without moral sense
 
-    → Education KHÔNG CHỈ dùng Self-Observation — phải DEVELOP nó.
+    → Education does NOT ONLY USE Self-Observation — it must DEVELOP it.
     → Self-Observation = meta-skill transferable to ALL domains.
-    → Student với Self-Observation Mức 3+ → TƯƠNG TÁC VỚI ARC TỐT HƠN:
-      Biết khi mình overwhelm → signal teacher/AI → arc adjust.
-      Biết khi mình bored → signal → arc tăng challenge.
-      = Student as ACTIVE VERIFIER (§4 Layer 3) CẦN Self-Observation.
+    → Students with Self-Observation Level 3+ → INTERACT WITH ARC BETTER:
+      Knows when overwhelmed → signals teacher/AI → arc adjusts.
+      Knows when bored → signals → arc increases challenge.
+      = Student as ACTIVE VERIFIER (§4 Layer 3) REQUIRES Self-Observation.
 
 
   ⭐ TEEN PARADOX × EDUCATION (Self-Observation.md §6.3):
 
-    Teen (13-18): CAN meta-observe, CAN'T regulate.
-    dlPFC ✅ → CAN analyze: "tôi biết tôi đang trì hoãn."
-    vmPFC↔body ❌ → CAN'T use analysis to change: VẪN trì hoãn.
+    Teen (13–18): CAN meta-observe, CAN'T regulate.
+    dlPFC ✅ → CAN analyze: "I know I'm procrastinating."
+    vmPFC↔body ❌ → CAN'T use analysis to change: STILL procrastinates.
 
-    → "Tại sao con biết mà vẫn làm?" = SAI CÂU HỎI.
-    → Đúng câu hỏi: "Con đã observe được — connection vmPFC↔body chưa mature."
-    → Education strategy cho teen:
-      ✅ Acknowledge observation: "tốt, con nhận ra rồi."
-      ✅ External scaffold (cấu trúc, routine) thay cho regulation.
-      ❌ KHÔNG ĐÒI regulation từ observation (hardware chưa đủ).
-      → = Self-Observation ≠ Self-Regulation. Observation TRƯỚC, regulation SAU (years).
+    → "Why does my child know but still do it?" = WRONG QUESTION.
+    → Right question: "They have already observed — vmPFC↔body connection isn't mature yet."
+    → Education strategy for teens:
+      ✅ Acknowledge observation: "good, you've noticed."
+      ✅ External scaffold (structure, routine) instead of expecting regulation.
+      ❌ Do NOT demand regulation from observation (hardware not yet sufficient).
+      → = Self-Observation ≠ Self-Regulation. Observation FIRST, regulation AFTER (years).
 
   🟢 Interoception foundation: Craig 2002, 2009
-  🟢 Self-awareness prerequisite cho empathy: Bird & Cook 2013
+  🟢 Self-awareness prerequisite for empathy: Bird & Cook 2013
   🟢 vmPFC patients decision paralysis: Damasio 1994
   🟢 Teen vmPFC-amygdala mismatch: Casey 2008; Steinberg 2005
-  🟡 Mức × Metacognitive strategy mapping = framework application (Self-Observation.md §4)
-  🟡 External scaffold per Mức = Self-Observation.md §2.4 applied
+  🟡 Level × Metacognitive strategy mapping = framework application (Self-Observation.md §4)
+  🟡 External scaffold per Level = Self-Observation.md §2.4 applied
   🟡 PFC budget competition = PFC-Operations.md §9 + Self-Observation.md §5.2 combined
   🟡 Education must develop Self-Observation = framework synthesis
 ```
 
-### §2.13 — Tổng hợp 10 nguyên lý + 1 synthesis
+### §2.13 — Summary: 10 Principles + 1 Synthesis
 
 ```
   ┌────┬─────────────────────────────────┬──────────────────────────────────┐
-  │ #  │ Nguyên lý                       │ Brain basis                      │
+  │ #  │ Principle                       │ Brain basis                      │
   ├────┼─────────────────────────────────┼──────────────────────────────────┤
   │ 1  │ Direction > Level               │ Structural valence tags          │
-  │    │ (v2.1: +Multi-Stream 4 streams) │ + Multi-Stream (CT v3.0 §5)     │
+  │    │ (v2.1: +Multi-Stream 4 streams) │ + Multi-Stream (Compile-Taxonomy v3.0 §5)     │
   │ 2  │ Minimize cost per student       │ Chunk gap + hardware + subsidy   │
   │    │ (v2.0: +subsidy +PFC budget)    │ + PFC budget (5-factor formula)  │
-  │ 3  │ Check prerequisite              │ Chunk hierarchy (Precondition-2)  │
+  │ 3  │ Check prerequisite              │ Chunk hierarchy (Precondition-2) │
   │ 4  │ Mini-arcs + valley awareness    │ Opioid reward reset +            │
-  │    │ (v2.0: +Dissonance-Signal-Architecture +Resonance Decline +PFC)       │ Evaluative Dissonance + Resonance Decline   │
+  │    │ (v2.0: +Dissonance-Signal-Arch  │ Evaluative Dissonance            │
+  │    │  +Resonance Decline +PFC)       │ + Resonance Decline              │
   │ 5  │ Imagine-Final before content    │ Constructive simulation on       │
   │    │ (v2.1: +Critical Asymmetry)     │ Simulation-Engine + Asymmetry    │
   │ 6  │ Feedback loop                   │ Perception-action cycle +        │
@@ -1546,7 +1553,7 @@ EDUCATION ≠ SCHOOL:
   │ 8  │ Assess depth, not surface       │ Chunk compilation levels         │
   │ 9  │ Build trust before content      │ Trust = compiled prediction ×    │
   │    │ (v2.2: Trust.md v1.0)           │ 3 sub-dimensions × Amplifier     │
-  │ 10 │ Self-Observation = metacognitive│ Mức gradient × PFC budget        │
+  │ 10 │ Self-Observation = metacognitive│ Level gradient × PFC budget      │
   │    │ foundation (v2.2: v1.0)         │ competition × Keystone cascade   │
   ├────┼─────────────────────────────────┼──────────────────────────────────┤
   │ S  │ 3 Compile Types × Arc Design   │ Trust (bootstrap) → Experience   │
@@ -1554,156 +1561,156 @@ EDUCATION ≠ SCHOOL:
   └────┴─────────────────────────────────┴──────────────────────────────────┘
 
 
-  TEST: Mỗi nguyên lý:
-    → 100 năm trước đúng? → ĐÚNG (check ví dụ: apprenticeship follow tất cả)
-    → 100 năm sau vẫn đúng? → CÓ KHẢ NĂNG CAO (vì não không đổi)
+  TEST: Each principle:
+    → True 100 years ago? → YES (check example: apprenticeship follows all of them)
+    → Still true 100 years from now? → HIGH PROBABILITY (because the brain doesn't change)
     → = Brain-based principles
 
 
-  ⭐ "VÔ VÀN CÁCH DẠY" — FRAMEWORK KHÔNG PRESCRIBE:
+  ⭐ "INFINITE WAYS TO TEACH" — FRAMEWORK DOES NOT PRESCRIBE:
 
-    → Bất kỳ cách dạy nào follow 10 nguyên lý = VALID
-    → Cách dạy vi phạm ≥1 nguyên lý = GIẢM hiệu quả
-    → AI + 10 nguyên lý → generate arc PHÙ HỢP per student per topic
+    → Any teaching method that follows the 10 principles = VALID
+    → Any method that violates ≥1 principle = REDUCES effectiveness
+    → AI + 10 principles → generate arc FITTING per student per topic
     → Teacher verify + Student feedback = calibrate
-    → = Engine, không phải GPS
+    → = Engine, not a GPS
 
 
-  ĐỘ TIN CẬY: 🟡 (derived from 🟢 mechanisms)
-    → Logic mạnh + historical evidence consistent
-    → Chưa proven "10 nguyên lý = optimal set" trong controlled study
-    → Có thể thiếu, có thể thừa → OPEN to revision
-    → = Khung tham chiếu tốt nhất hiện tại, không phải chân lý cuối cùng
+  CONFIDENCE LEVEL: 🟡 (derived from 🟢 mechanisms)
+    → Strong logic + historical evidence consistent
+    → Not yet proven "10 principles = optimal set" in controlled study
+    → May be missing some, may have extras → OPEN to revision
+    → = Best current reference framework, not a final truth
 ```
 
 ---
 
-## §3 — BRIDGE + MOTIVATION: TỪ BÊN NGOÀI SANG BÊN TRONG
+## §3 — BRIDGE + MOTIVATION: FROM EXTERNAL TO INTERNAL
 
-### §3.1 — Bridge = Nguồn ④ External Inject
+### §3.1 — Bridge = External Inject Source ④
 
 ```
-🟡 KHI ARC CẦN HỖ TRỢ:
+🟡 WHEN AN ARC NEEDS SUPPORT:
 
-  Trong 0-6: curiosity TỰ NHIÊN đủ — mọi thứ đều mới → VTA fire liên tục.
-  Trong 6+: nhiều content KHÔNG tự nhiên thú vị → prediction-delta thấp → cần BRIDGE.
+  In 0–6: curiosity is NATURALLY sufficient — everything is new → VTA fires continuously.
+  In 6+: much content NOT naturally interesting → prediction-delta low → needs BRIDGE.
 
-  BRIDGE = thứ giữ student ở lại ĐỦ LÂU để chunks compile.
+  BRIDGE = what keeps the student present LONG ENOUGH for chunks to compile.
 
-  Qua lens Anchor-Schema.md §3, anchor (sync point cho hệ vô thức)
-  được FILL từ 4 nguồn:
+  Through the lens of Anchor-Schema.md §3, anchors (sync points for the unconscious)
+  are FILLED from 4 sources:
 
-    ① PFC Imagine-Final — self-directed ("tôi muốn gì?")
-    ② Hippocampus — experiential memory ("tôi ĐÃ LÀM, tôi biết feel thế nào")
-    ③ Compiled schemas — habits, routines (chạy auto)
-    ④ External Inject — bridges, authority, culture, lời người khác
+    ① PFC Imagine-Final — self-directed ("what do I want?")
+    ② Hippocampus — experiential memory ("I HAVE DONE this, I know how it feels")
+    ③ Compiled schemas — habits, routines (runs automatically)
+    ④ External Inject — bridges, authority, culture, words from others
 
-  → BRIDGE = NGUỒN ④. Tất cả bridges đều là external inject:
+  → BRIDGE = SOURCE ④. All bridges are external inject:
 
-  4 LOẠI BRIDGE (tất cả là nguồn ④):
-    ① Carrot — external reward (kẹo, điểm, lời khen, privilege)
-    ② Identity inject — label từ ngoài ("con là học sinh giỏi")
-    ③ Social expectation — relational pressure ("bố mẹ kỳ vọng")
-    ④ Threat — negative consequence ("không học thì bị phạt")
+  4 TYPES OF BRIDGE (all are source ④):
+    ① Carrot — external reward (candy, grades, praise, privilege)
+    ② Identity inject — label from outside ("you're a good student")
+    ③ Social expectation — relational pressure ("parents expect it of you")
+    ④ Threat — negative consequence ("if you don't study you'll be punished")
 
 
-  NGUYÊN TẮC VÀNG:
-    → Bridge NHỎ NHẤT có thể → đợi nguồn ①②③ take over → phase out
-    → Bridge TOO MUCH = nguồn ④ dominate → anchor crash khi rút (§3.4)
-    → Bridge TOO LITTLE = chunks không đủ → student bỏ cuộc giữa chừng
-    → = Goldilocks: vừa đủ giữ, không tạo dependency
+  THE GOLDEN RULE:
+    → SMALLEST POSSIBLE bridge → wait for sources ①②③ to take over → phase out
+    → TOO MUCH bridge = source ④ dominates → anchor crashes when withdrawn (§3.4)
+    → TOO LITTLE bridge = chunks don't compile enough → student quits mid-way
+    → = Goldilocks: just enough to keep them in, not enough to create dependency
 
 
   🟡 BRIDGE × HARDWARE-SUBSIDY (Valence-Propagation v3.0 §7):
 
-    Hardware-Subsidy = NGẦM, KHÔNG PHẢI bridge nguồn ④:
-      → Mẹ ngồi cạnh con học → oxytocin → cortisol thấp → approach dễ
-      → Teacher quen thuộc → Entity-Compiled → safety cues → cost giảm
-      → = KHÔNG PHẢI "khen" hay "thưởng" — là PRESENCE đã đủ
+    Hardware-Subsidy = IMPLICIT, NOT a bridge source ④:
+      → Mother sitting with child while studying → oxytocin → cortisol lower → approach easier
+      → Familiar teacher → Entity-Compiled → safety cues → cost decreases
+      → = NOT "praise" or "reward" — PRESENCE alone is sufficient
 
     Subsidy ≠ Bridge:
-      → Bridge = nguồn ④ (external inject: kẹo, điểm, kỳ vọng)
+      → Bridge = source ④ (external inject: candy, grades, expectations)
       → Subsidy = HARDWARE layer underneath (cortisol modulation, safety)
-      → Bridge PHASE OUT khi ①②③ emerge
-      → Subsidy GIẢM TỰ NHIÊN (mẹ: MAX → teacher: moderate → AI: none)
+      → Bridge PHASES OUT when ①②③ emerge
+      → Subsidy NATURALLY DECREASES (mother: MAX → teacher: moderate → AI: none)
 
     AI ERA INSIGHT:
-      → AI tutor = NO hardware-subsidy (entity-access Mức 0 — Tool/Service)
-      → = Content delivery excellent nhưng SUBSIDY = 0
-      → → AI alone NEVER replace teacher/parent ở dimension này
+      → AI tutor = NO hardware-subsidy (entity-access Level 0 — Tool/Service)
+      → = Content delivery excellent but SUBSIDY = 0
+      → → AI alone NEVER replaces teacher/parent in this dimension
       → → Best: AI content + human subsidy (teacher/parent present)
 
 
-  BRIDGE = THUỐC:
-    → Đúng liều = chữa bệnh (giữ student qua dissonance)
-    → Quá liều = ngộ độc (kill intrinsic, anchor dependency)
-    → Thiếu liều = không tác dụng (student bỏ cuộc)
+  BRIDGE = MEDICINE:
+    → Right dose = heals (keeps student through dissonance)
+    → Overdose = toxicity (kills intrinsic motivation, anchor dependency)
+    → Underdose = no effect (student quits)
 
 
   ⭐ v2.1 BRIDGE × CRITICAL ASYMMETRY (Compile-Taxonomy v3.0 §7):
 
-    BRIDGE QUA 2 PATHS — HIỆU QUẢ KHÁC NHAU:
+    BRIDGE THROUGH 2 PATHS — DIFFERENT EFFECTIVENESS:
 
-    ① PFC-BASED BRIDGE (giải thích, thuyết phục):
-       → "Môn này quan trọng vì..." / "Học để..." / "Cần cho tương lai..."
+    ① PFC-BASED BRIDGE (explanation, persuasion):
+       → "This subject is important because..." / "Study to..." / "Need it for the future..."
        → Path: PFC → Exposure → Engine → Entity-Valence (INDIRECT)
-       → Cost: CAO — student cần PFC budget ĐỂ XỬ LÝ giải thích
-       → Duration: weeks/months cho Entity-Valence shift
-       → Risk: PFC budget hết → bridge sập → avoidance trở lại
+       → Cost: HIGH — student needs PFC budget TO PROCESS the explanation
+       → Duration: weeks/months for Entity-Valence shift
+       → Risk: PFC budget runs out → bridge collapses → avoidance returns
 
-    ② ENTITY-VALENCE BRIDGE (quan hệ, role model):
-       → Teacher yêu domain → student thấy → Entity-Valence propagate
-       → "Thầy thích toán → tôi thích thầy → tôi thích toán" (Compile-Taxonomy v3.0 §7.3)
+    ② ENTITY-VALENCE BRIDGE (relationship, role model):
+       → Teacher loves the domain → student sees → Entity-Valence propagates
+       → "Teacher loves math → I love the teacher → I love math" (Compile-Taxonomy v3.0 §7.3)
        → Path: Entity-Valence → PFC (DIRECT)
-       → Cost: THẤP — compiled Entity-Valence run free
-       → Duration: milliseconds per interaction, accumulate over weeks
+       → Cost: LOW — compiled Entity-Valence runs freely
+       → Duration: milliseconds per interaction, accumulates over weeks
        → = "Love the teacher → learn the lesson"
 
     → ENTITY-VALENCE BRIDGE >> PFC-BASED BRIDGE:
-      → Bền hơn (compiled, cost ≈ 0)
-      → Nhanh hơn (direct path, milliseconds)
-      → Không tốn student's PFC budget
+      → More durable (compiled, cost ≈ 0)
+      → Faster (direct path, milliseconds)
+      → Doesn't consume student's PFC budget
 
-    → = "BRIDGE TỐT NHẤT = KHÔNG CẢM GIÁC LÀ BRIDGE"
-      Khi teacher SỐNG passion → student ABSORB qua Entity-Valence path
-      → Không cần "thuyết phục" → body TỰ MUỐN
-      → Bridge nguồn ④ (external) → CHUYỂN thành ①②③ NHANH nhất
+    → = "THE BEST BRIDGE = DOESN'T FEEL LIKE A BRIDGE"
+      When teacher LIVES their passion → student ABSORBS via Entity-Valence path
+      → No need to "persuade" → body NATURALLY WANTS it
+      → Bridge source ④ (external) → CONVERTS to ①②③ FASTEST
 
-    🟡 Critical Asymmetry × Bridge: Compile-Taxonomy v3.0 §7.2-§7.4
+    🟡 Critical Asymmetry × Bridge: Compile-Taxonomy v3.0 §7.2–§7.4
     🟡 "Love the teacher" proverb = architecture illustration
 
   🟢 Intrinsic vs extrinsic: Deci & Ryan SDT
   🟢 Overjustification effect: Deci 1971, Lepper 1973
   🟢 Positive teacher-student relationship → learning: Immordino-Yang & Damasio 2007
-  🟡 "Bridge = nguồn ④" = Anchor-Schema.md framework integration
+  🟡 "Bridge = source ④" = Anchor-Schema.md framework integration
   🟡 Hardware-Subsidy ≠ Bridge = Valence-Propagation v3.0 §7
 ```
 
-### §3.2 — Curiosity KHÔNG phải Bridge
+### §3.2 — Curiosity Is NOT a Bridge
 
 ```
-⭐ INSIGHT QUAN TRỌNG:
+⭐ IMPORTANT INSIGHT:
 
-  Curiosity KHÔNG phải bridge — curiosity là TARGET của bridge transition.
+  Curiosity is NOT a bridge — curiosity is the TARGET of the bridge transition.
 
   Curiosity = body-intrinsic drive:
-    → Từ nguồn ① PFC Imagine-Final: "tôi MUỐN biết" (self-directed)
-    → Từ nguồn ② Hippocampus: "lần trước làm X thì pleasant" (experience)
-    → Từ nguồn ③ Compiled: habits chạy auto (không cần ngoại lực)
-    → = Curiosity = OUTCOME khi ①②③ active
+    → From source ① PFC Imagine-Final: "I WANT to know" (self-directed)
+    → From source ② Hippocampus: "last time I did X it was pleasant" (experience)
+    → From source ③ Compiled: habits run automatically (no external force needed)
+    → = Curiosity = OUTCOME when ①②③ are active
 
-  Bridge (nguồn ④) = TOOL TẠM THỜI:
-    → Giữ student ở lại → chunks compile → ①②③ emerge → curiosity TỰ xuất hiện
-    → = Bridge task: HELP student build ①②③ → curiosity tự emerge
+  Bridge (source ④) = TEMPORARY TOOL:
+    → Keeps student present → chunks compile → ①②③ emerge → curiosity emerges NATURALLY
+    → = Bridge's task: HELP the student build ①②③ → curiosity self-emerges
 
 
-  VD: Student mới học piano
-    → Tuần 1-4: chưa biết gì → cần bridge (khen, schedule, social)
-    → Tuần 8: chơi được giai điệu → opioid reward → "hay!"
-    → Tuần 16: tự ngồi tập không cần nhắc → curiosity ĐÃ EMERGE
-    → = Bridge rút dần khi curiosity take over
-    → ⚠️ Nếu bridge KHÔNG rút → student compile "piano = vì khen"
-      thay vì "piano = vì hay" → rút khen → dừng chơi
+  EXAMPLE: Student just starting piano
+    → Weeks 1–4: knows nothing → needs bridge (praise, schedule, social expectations)
+    → Week 8: can play a melody → opioid reward → "that's nice!"
+    → Week 16: sits down to practice without being told → curiosity HAS EMERGED
+    → = Bridge gradually withdrawn as curiosity takes over
+    → ⚠️ If bridge is NOT withdrawn → student compiles "piano = because of praise"
+      instead of "piano = because it's beautiful" → remove praise → stops playing
 
   🟢 Intrinsic motivation emergence: Deci & Ryan SDT
   🟡 "Curiosity ≠ bridge" = framework clarification
@@ -1712,88 +1719,88 @@ EDUCATION ≠ SCHOOL:
 ### §3.3 — 3 ORIGIN Threat Taxonomy Applied to Education
 
 ```
-🟡 KHÔNG PHẢI "BAO NHIÊU PRESSURE" — MÀ "PRESSURE TỪ ĐÂU":
+🟡 NOT "HOW MUCH PRESSURE" — BUT "WHERE DOES THE PRESSURE COME FROM":
 
-  (Threat.md §5.5 — applied cho education context)
+  (Threat.md §5.5 — applied to education context)
 
 
-  TYPE 1 — DOMAIN THREATS (từ reality):
-    → Bài toán khó, thí nghiệm fail, code crash, cây héo
-    → REAL, body-confirmable, agency cao
-    → Chunks compile: "problem → tôi solve được" → self-efficacy
+  TYPE 1 — DOMAIN THREATS (from reality):
+    → Hard math problem, failed experiment, code crash, wilting plant
+    → REAL, body-confirmable, high agency
+    → Chunks compile: "problem → I can solve it" → self-efficacy
     → Education action: KEEP + enable exposure
 
 
-  TYPE 2 — PEER SOCIAL THREATS (từ bạn bè):
-    → Tranh luận, thua game, bị từ chối nhẹ
+  TYPE 2 — PEER SOCIAL THREATS (from peers):
+    → Arguments, losing a game, mild rejection
     → REAL, symmetric power, complex
-    → Chunks compile: "conflict solvable" → social skills
+    → Chunks compile: "conflict is solvable" → social skills
     → Education action: KEEP + monitor bullying
 
 
-  TYPE 3 — IMPOSED ADULT THREATS (từ authority):
-    → Thầy mắng, bố mẹ dọa, điểm kém shame, so sánh với bạn
+  TYPE 3 — IMPOSED ADULT THREATS (from authority):
+    → Teacher scolds, parent threatens, low grade + shame, compared to classmates
     → ARTIFICIAL, asymmetric power, often chronic
-    → Chunks compile: "authority dangerous, học = shame risk" → avoidance
+    → Chunks compile: "authority is dangerous, studying = shame risk" → avoidance
     → Education action: REDUCE gradually
 
 
-  ⭐ KEY: CÙNG CORTISOL LEVEL, KHÁC ORIGIN → KHÁC HOÀN TOÀN:
+  ⭐ KEY: SAME CORTISOL LEVEL, DIFFERENT ORIGIN → COMPLETELY DIFFERENT:
 
     Domain moderate → resilience + competence
     Peer moderate → social skill + emotional intelligence
     Imposed moderate → anxiety + learned helplessness
 
-    → "Moderate pressure" CHƯA ĐỦ — phải hỏi "moderate TỪ ĐÂU?"
+    → "Moderate pressure" NOT ENOUGH — must ask "moderate FROM WHERE?"
 
 
-  ⚠️ NGHỊCH LÝ HIỆN ĐẠI:
-    → Shield trẻ khỏi Domain + Peer threats (helicopter parenting)
-    → TĂNG Imposed adult threats (ép học, điểm, so sánh)
-    → = NGƯỢC hoàn toàn với healthy pattern
-    → Healthy: Domain + Peer exposure CAO, Imposed THẤP
+  ⚠️ MODERN PARADOX:
+    → Shield children from Domain + Peer threats (helicopter parenting)
+    → INCREASE imposed adult threats (forced study, grades, comparison)
+    → = COMPLETELY OPPOSITE of the healthy pattern
+    → Healthy: Domain + Peer exposure HIGH, Imposed LOW
 
   🟢 Yerkes-Dodson 1908; Sapolsky 2004 (chronic stress)
   🟢 Authority-based shame most damaging: Slavich 2010
   🟡 3 ORIGIN taxonomy = framework formulation (Threat.md §5.5)
 ```
 
-### §3.4 — Transition: 4 Nguồn Fill
+### §3.4 — Transition: 4 Fill Sources
 
 ```
-🟡 "RÚT BRIDGE" = TRANSITION TỈ LỆ 4 NGUỒN — KHÔNG PHẢI BINARY:
+🟡 "WITHDRAWING THE BRIDGE" = TRANSITIONING THE RATIO OF 4 SOURCES — NOT BINARY:
 
   HEALTHY TRAJECTORY (ideal):
 
-    Trẻ nhỏ (0-6): nguồn ②④ dominant
-      → ② Body experience (tự khám phá) + ④ Parent guidance (tự nhiên)
+    Young child (0–6): sources ②④ dominant
+      → ② Body experience (self-exploration) + ④ Parent guidance (natural)
 
-    Thiếu niên (6-12): nguồn ②③④, ① emerging
-      → ③ Compiled routines build + ④ Teacher guidance
-      → ① PFC Imagine-Final bắt đầu hình thành
+    Child (6–12): sources ②③④, ① emerging
+      → ③ Compiled routines building + ④ Teacher guidance
+      → ① PFC Imagine-Final begins forming
 
-    Thanh thiếu niên (12-18): nguồn ①② mạnh, ③ stable, ④ giảm
-      → ① Self-directed emerge + ② Deep experience trong domain fit
-      → ④ Bắt đầu rút dần
+    Adolescent (12–18): sources ①② strong, ③ stable, ④ decreasing
+      → ① Self-direction emerging + ② Deep experience in fitting domain
+      → ④ Gradually withdrawing
 
-    Trưởng thành (18+): nguồn ①②③ dominant, ④ minor
-      → Self-directed mature → bridge gần như không cần
+    Adult (18+): sources ①②③ dominant, ④ minor
+      → Self-direction mature → bridge barely needed
 
 
-  → "Rút bridge" KHÔNG binary (có/không)
-  → Transition = tỉ lệ 4 nguồn thay đổi LIÊN TỤC
-  → Bridge (④) giảm DẦN khi ①②③ ĐỦ take over
-  → Education = environment cho ①②③ grow, ④ chỉ là catalyst
+  → "Withdrawing bridge" NOT binary (yes/no)
+  → Transition = the ratio of 4 sources CONTINUOUSLY CHANGES
+  → Bridge (④) decreases GRADUALLY as ①②③ SUFFICIENTLY take over
+  → Education = environment for ①②③ to grow, ④ is only a catalyst
 
 
   MASS SCHOOLING PATTERN (unhealthy):
 
-    → Nguồn ④ dominate 12+ năm (test, grades, expectations, authority)
-    → Nguồn ① suppressed (không tự chọn, không tự direct)
-    → Nguồn ② yếu (ít hands-on experience sâu)
-    → Khi ra đời 18+ → nguồn ④ rút đột ngột → anchor crash
-    → = QUARTER-LIFE CRISIS mechanism: ~50-60% motivation biến mất
-    → 🟡 Qua lens Hardware-Subsidy: education subsidy RÚT + nguồn ④ RÚT = double shock
+    → Source ④ dominates 12+ years (tests, grades, expectations, authority)
+    → Source ① suppressed (can't choose, can't self-direct)
+    → Source ② weak (little deep hands-on experience)
+    → Upon entering the world at 18+ → source ④ abruptly withdrawn → anchor crash
+    → = QUARTER-LIFE CRISIS mechanism: ~50–60% of motivation disappears
+    → 🟡 Through Hardware-Subsidy lens: education subsidy WITHDRAWN + source ④ WITHDRAWN = double shock
 
 
   🟡 ENTITY-ACCESS GRADIENT × EDUCATION (Entity-Access v1.2 §2):
@@ -1803,91 +1810,91 @@ EDUCATION ≠ SCHOOL:
     ┌──────────────┬───────────────────────┬──────────────────────────────┐
     │ Entity       │ Entity-Access Level   │ Influence Pathway            │
     ├──────────────┼───────────────────────┼──────────────────────────────┤
-    │ AI tutor     │ Mức 0 (Tool/Service)  │ Content only, no subsidy    │
-    │ New teacher  │ Mức 0c-1 (Agent gate) │ Authority mode, bridge-heavy│
-    │ Good teacher │ Mức 2-3 (Compiled)    │ Valence propagation: thích  │
-    │              │                       │ teacher → thích domain       │
-    │ Parent       │ Mức 4+ (Entity-Owned) │ MAX subsidy + MAX influence │
+    │ AI tutor     │ Level 0 (Tool/Service)│ Content only, no subsidy    │
+    │ New teacher  │ Level 0c–1 (Agent gate)│ Authority mode, bridge-heavy│
+    │ Good teacher │ Level 2–3 (Compiled)  │ Valence propagation: like   │
+    │              │                       │ teacher → like domain        │
+    │ Parent       │ Level 4+ (Entity-Owned)│ MAX subsidy + MAX influence │
     │              │                       │ (approach OR avoidance)      │
     └──────────────┴───────────────────────┴──────────────────────────────┘
 
-    ⭐ VALENCE PROPAGATION QUA ENTITY-ACCESS:
-      → Student compile teacher at Mức 2-3 (thích teacher)
-      → Teacher DẠY domain X → domain X chunks compile WITH teacher's approach tag
-      → = "Thích thầy → thích môn" = valence propagation qua Entity-Access
-      → = "Ghét thầy → ghét môn" = CÙNG mechanism, ngược chiều
+    ⭐ VALENCE PROPAGATION VIA ENTITY-ACCESS:
+      → Student compiles teacher at Level 2–3 (likes teacher)
+      → Teacher TEACHES domain X → domain X chunks compile WITH teacher's approach tag
+      → = "Like teacher → like subject" = valence propagation via Entity-Access
+      → = "Hate teacher → hate subject" = SAME mechanism, opposite direction
 
     Entity-Compiled formation (Entity-Compiled v1.0 §3):
-      → 40-200h active interaction → teacher compiled vào student body-base
-      → "Nhớ giáo viên cũ" = Entity-Compiled patterns VẪN fire
+      → 40–200h of active interaction → teacher compiled into student body-base
+      → "Remembering old teachers" = Entity-Compiled patterns STILL FIRING
       → Great teacher = compiled with approach → domain approach PROPAGATES
-      → = Legacy: teacher's influence KÉO DÀI sau khi hết dạy
+      → = Legacy: teacher's influence EXTENDS BEYOND the time they taught
 
     🟡 PFC BUDGET × TEACHER (PFC-Operations v1.1 §9):
       → Teacher: 30 students × Self-Pattern-Modeling = enormous PFC drain
-      → Teacher's PFC budget depleted → Self-Pattern-Modeling cho mỗi student YẾU
-      → "Giáo viên không hiểu con tôi" thường = PFC budget issue, NOT indifference
-      → AI CÓ THỂ giảm PFC load cho teacher (per-student tracking, arc generation)
+      → Teacher's PFC budget depleted → Self-Pattern-Modeling per student WEAKENS
+      → "The teacher doesn't understand my child" often = PFC budget issue, NOT indifference
+      → AI CAN reduce PFC load for teacher (per-student tracking, arc generation)
 
 
   🟡 TEACHER = COORDINATION NODE (Coordination-Node v1.2):
 
-    Teacher trong classroom = coordination node — vị trí phân bổ resources.
+    Teacher in the classroom = coordination node — position that allocates resources.
 
     2 ROUTES (Coordination-Node v1.2 §1.4):
       Prestige (genuine resonance, opioid):
-        → Knowledge value → student TỰ NGUYỆN follow
+        → Knowledge value → student VOLUNTARILY follows
         → Approach tag → learning = positive structural valence
-        → = "Thầy giỏi" = student muốn GIỐNG → domain approach
+        → = "Good teacher" = student wants to BE LIKE → domain approach
 
       Dominance (forced resonance, relief tag):
-        → Grade power + punishment → student BUỘC follow
+        → Grading power + punishment → student is FORCED to follow
         → Avoidance tag → learning = negative structural valence
-        → = "Thầy nghiêm" = student muốn TRÁNH → domain avoidance
+        → = "Strict teacher" = student wants to AVOID → domain avoidance
 
-    → CÙNG content, CÙNG student: Prestige teacher → approach, Dominance teacher → avoidance
-    → = Bản chất §2.2 (Direction > Level) nhưng SOURCE = teacher's node type
+    → SAME content, SAME student: Prestige teacher → approach, Dominance teacher → avoidance
+    → = The essence of §2.2 (Direction > Level) but SOURCE = teacher's node type
 
 
-  ⚠️ KHÔNG ELIMINATE BRIDGE:
-    Bridge nhẹ CẦN THIẾT vì PFC trẻ chưa đủ cho nguồn ① mạnh.
-    Cần: bridge NHẸ + build ①②③ song song + gradual withdrawal ④.
+  ⚠️ DO NOT ELIMINATE BRIDGE:
+    Light bridge IS NECESSARY because young PFC is not yet sufficient for strong source ①.
+    Need: LIGHT bridge + build ①②③ in parallel + gradually withdraw ④.
 
-  🟡 4 nguồn fill = Anchor-Schema.md framework
+  🟡 4 fill sources = Anchor-Schema.md framework
   🟡 Entity-Access gradient = Entity-Access v1.2 §2
   🟡 Teacher as coordination node = Coordination-Node v1.2
   🟡 Entity-Compiled formation = Entity-Compiled v1.0 §3
   🟡 Transition trajectory = framework application
 ```
 
-### §3.5 — Anchor = Legacy Dài Hạn
+### §3.5 — Anchor = Long-Term Legacy
 
 ```
-🟡 EDUCATION KHÔNG CHỈ INSTALL CHUNKS — CÒN INSTALL ANCHOR:
+🟡 EDUCATION DOES NOT ONLY INSTALL CHUNKS — IT ALSO INSTALLS ANCHORS:
 
   (Anchor-Schema.md + Child-Dev-Mechanism §3 extended)
 
-  Mỗi tương tác teacher-student / parent-child fills anchor:
-    → Bằng lời: "con giỏi" / "con chậm quá" → fill nguồn ④
-    → Bằng hành động: phạt, khen, ignore → fill nguồn ④
-    → Bằng trải nghiệm: student TỰ LÀM → fill nguồn ②
-    → Bằng routine: habits học tập → fill nguồn ③
+  Every teacher-student / parent-child interaction fills anchors:
+    → Through words: "you're smart" / "you're so slow" → fills source ④
+    → Through actions: punishment, praise, ignoring → fills source ④
+    → Through experience: student DOES IT THEMSELVES → fills source ②
+    → Through routine: study habits → fills source ③
 
 
-  Trẻ có thể QUÊN phần lớn kiến thức học 12 năm.
-  Nhưng:
-    → Anchor "tôi là LOẠI NGƯỜI GÌ" — giữ cả đời
-    → Anchor "thế giới HOẠT ĐỘNG thế nào" — giữ cả đời
-    → Anchor "tương lai CỦA TÔI thế nào" — giữ cả đời
+  Children may FORGET most of the knowledge learned across 12 years.
+  But:
+    → Anchor "what KIND OF PERSON I am" — stays for life
+    → Anchor "how THE WORLD WORKS" — stays for life
+    → Anchor "what MY FUTURE looks like" — stays for life
 
-  → Kiến thức = chunks (có thể quên nếu không dùng)
-  → Anchor = identity + worldview (compiled deep, rất khó đổi)
-  → = Đây là tại sao "trẻ quên kiến thức nhưng NHỚ cảm giác học"
+  → Knowledge = chunks (can be forgotten if unused)
+  → Anchor = identity + worldview (compiled deep, very hard to change)
+  → = This is why "children forget knowledge but REMEMBER how studying felt"
 
 
-  → Education tốt = quan tâm anchor ÍT NHẤT ngang với chunks
-  → Education hiện tại = chỉ optimize chunks, BỎ QUA anchor
-  → = Gap LỚN NHẤT của education hiện đại
+  → Good education = cares about anchors AT LEAST AS MUCH as chunks
+  → Current education = only optimizes chunks, IGNORES anchors
+  → = THE BIGGEST GAP in modern education
 
   🟢 Schema-based identity (cognitive psychology established)
   🟢 Implicit learning > explicit (Reber research, replicated)
@@ -1901,127 +1908,127 @@ EDUCATION ≠ SCHOOL:
 ### §4.1 — 3-Layer Architecture
 
 ```
-🔴 HYPOTHESIS — application model, logic consistent, chưa test systematic
+🔴 HYPOTHESIS — application model, logic consistent, not yet systematically tested
 
-  ⭐ MÔ HÌNH 3 TẦNG (song song AI-Schema-Detection.md §2):
+  ⭐ 3-LAYER MODEL (parallel to AI-Schema-Detection.md §2):
 
   ┌──────────────────────────────────────────────────────────────┐
   │                                                              │
   │  LAYER 1: AI ARC GENERATOR                                  │
-  │    Input: topic + student profile + mechanism principles     │
-  │    Process: generate arc options (multiple paths A→B)        │
-  │    Output: arc options với cost estimate per path            │
-  │    Strength: NHANH, per-student, per-topic, explore đa dạng │
-  │    Weakness: KHÔNG feel student → cost estimate approximate  │
+  │    Input: topic + student profile + mechanism principles    │
+  │    Process: generate arc options (multiple paths A→B)       │
+  │    Output: arc options with cost estimate per path          │
+  │    Strength: FAST, per-student, per-topic, explores widely  │
+  │    Weakness: CANNOT feel the student → cost estimate approx │
   │                                                              │
   │         │ arc options + estimates                            │
   │         ▼                                                    │
   │                                                              │
   │  LAYER 2: TEACHER/PARENT CALIBRATOR                          │
-  │    Input: AI arc options + kinh nghiệm + quan hệ            │
-  │    Process: feel-check — "arc này phù hợp student NÀY?"     │
-  │    Output: selected arc + adjustments                        │
-  │    Strength: BIẾT student thật → body-check realistic        │
-  │    Weakness: limited attention (30 students), own biases     │
+  │    Input: AI arc options + experience + relationship        │
+  │    Process: feel-check — "does this arc fit THIS student?"  │
+  │    Output: selected arc + adjustments                       │
+  │    Strength: KNOWS the real student → realistic body-check  │
+  │    Weakness: limited attention (30 students), own biases    │
   │                                                              │
   │         │ calibrated arc                                     │
   │         ▼                                                    │
   │                                                              │
   │  LAYER 3: STUDENT VERIFIER                                   │
-  │    Input: arc đang chạy                                      │
-  │    Process: body feedback — approach hay avoidance?           │
-  │    Output: engagement, progress, hoặc resistance             │
-  │    Strength: AUTHENTIC nhất — body student = ultimate judge   │
-  │    Weakness: chưa articulate được (body biết, PFC chưa)      │
+  │    Input: arc currently running                             │
+  │    Process: body feedback — approach or avoidance?          │
+  │    Output: engagement, progress, or resistance              │
+  │    Strength: MOST AUTHENTIC — student's body = ultimate judge│
+  │    Weakness: cannot yet articulate (body knows, PFC hasn't) │
   │                                                              │
-  │  LOOP: Student feedback → AI adjust → Teacher verify → ...   │
+  │  LOOP: Student feedback → AI adjusts → Teacher verifies → ...│
   │                                                              │
   └──────────────────────────────────────────────────────────────┘
 
-  TẠI SAO 3 LAYERS, KHÔNG PHẢI 1 HAY 2:
-    → CHỈ AI: generate nhưng không feel student → miss context thật
-    → CHỈ Teacher: feel nhưng limited time, bỏ sót options
-    → CHỈ Student: body biết nhưng chưa articulate + chưa biết alternatives
-    → 3 tầng phối hợp = ENOUGH (approximate + verified + confirmed)
+  WHY 3 LAYERS, NOT 1 OR 2:
+    → AI ONLY: generates but doesn't feel student → misses real context
+    → Teacher ONLY: feels but has limited time, misses options
+    → Student ONLY: body knows but can't articulate + doesn't know alternatives
+    → 3 layers working together = ENOUGH (approximate + verified + confirmed)
 
-  🟡 QUA LENS ENTITY-ACCESS (Entity-Access v1.2):
+  🟡 THROUGH ENTITY-ACCESS LENS (Entity-Access v1.2):
 
-    AI = Mức 0 (Tool/Service):
+    AI = Level 0 (Tool/Service):
       → Content excellent, personalization potential
       → NO hardware-subsidy, NO Entity-Compiled, NO valence propagation
-      → Student KHÔNG "thích AI" theo cách "thích teacher" → domain approach KHÔNG propagate
+      → Student does NOT "like AI" the way they "like a teacher" → domain approach does NOT propagate
 
-    Teacher = Mức 1-3 (Agent → Compiled):
+    Teacher = Level 1–3 (Agent → Compiled):
       → Hardware-subsidy MODERATE (presence, safety, social cues)
-      → Entity-Compiled formation (40-200h) → valence propagation có thể
-      → PFC Budget LIMITED (30 students → Self-Pattern-Modeling per student yếu)
+      → Entity-Compiled formation (40–200h) → valence propagation possible
+      → PFC Budget LIMITED (30 students → Self-Pattern-Modeling per student weakens)
 
-    Parent = Mức 4+ (Entity-Owned):
+    Parent = Level 4+ (Entity-Owned):
       → Hardware-subsidy MAX (oxytocin, attachment)
       → Entity-Compiled DEEPEST → valence propagation STRONGEST
-      → PFC Budget HIGHEST per child (1-3 children vs 30 students)
-      → ⚠️ NHƯNG: "thích mẹ → thích domain" CÓ THỂ lẫn với "ép → avoidance"
+      → PFC Budget HIGHEST per child (1–3 children vs 30 students)
+      → ⚠️ BUT: "like mother → like domain" CAN be mixed with "forced → avoidance"
 
     OPTIMAL = combine: AI (content + scale) + Teacher (subsidy + node)
-    + Parent (MAX subsidy + guidance) → mỗi layer bổ trợ layer khác
+    + Parent (MAX subsidy + guidance) → each layer supplements the others
 
-  🟡 QUA LENS SIMULATION-ENGINE (Simulation-Engine v1.1):
+  🟡 THROUGH SIMULATION-ENGINE LENS (Simulation-Engine v1.1):
 
     AI = Simulation-Engine ANALOG (computational):
       → Generate arcs = constructive simulation by MACHINE
-      → Explore NHIỀU options hơn human brain (breadth)
-      → THIẾU: body-feedback, interoception, real Self-Pattern-Modeling
+      → Explores MORE options than the human brain (breadth)
+      → LACKS: body-feedback, interoception, real Self-Pattern-Modeling
 
     Teacher = Simulation-Engine APPLICATION (biological):
-      → Self-Pattern-Modeling per student = Application-1 trên Simulation-Engine
+      → Self-Pattern-Modeling per student = Application-1 on the Simulation-Engine
       → Experience + intuition = COMPILED simulation (fast, often accurate)
       → LIMITED: PFC budget, 30 students, own biases
 
-    → AI + Teacher = 2 SIMULATION SYSTEMS complement:
+    → AI + Teacher = 2 SIMULATION SYSTEMS complementing each other:
       AI = breadth (computational). Teacher = depth (biological).
-      NẾU chỉ 1 → miss dimension. CẢ 2 → approximate enough.
+      IF only 1 → misses a dimension. BOTH → approximate enough.
 ```
 
-### §4.2 — AI biết THÊM gì nhờ framework
+### §4.2 — What AI Knows Better Thanks to the Framework
 
 ```
-🟡 FRAMEWORK LÀM AI MẠNH HƠN "MÀ KHÔNG CÓ FRAMEWORK":
+🟡 FRAMEWORK MAKES AI STRONGER THAN "WITHOUT THE FRAMEWORK":
 
-  KHÔNG CÓ framework, AI dạy bằng training data:
+  WITHOUT framework, AI teaches from training data:
     → Average approach → one-size-fits-most
-    → Không biết approach/avoidance tag mechanism
-    → Không biết prerequisite check depth
-    → Không biết valley timing hay bridge dosage
+    → Doesn't know approach/avoidance tag mechanism
+    → Doesn't know prerequisite check depth
+    → Doesn't know valley timing or bridge dosage
 
-  CÓ framework, AI dạy bằng mechanism principles:
+  WITH framework, AI teaches from mechanism principles:
     → Check prerequisite chunks (§2.4)
-    → Design approach-direction (§2.2) — KHÔNG threat-direction
+    → Design approach-direction (§2.2) — NOT threat-direction
     → Estimate cost per student hardware (§2.3)
-    → Plan mini-arcs với "aha" spacing (§2.5)
-    → Place Imagine-Final trước content (§2.6)
+    → Plan mini-arcs with "aha" spacing (§2.5)
+    → Place Imagine-Final before content (§2.6)
     → Schedule consolidation windows (§2.8)
     → Calibrate bridge dosage (§3.1)
-    → Monitor: approach hay avoidance? (§2.7)
+    → Monitor: approach or avoidance? (§2.7)
 
-  = Framework = OPERATING SYSTEM cho AI tutor
-  = Có framework → AI tutor brain-aligned, không chỉ content-aligned
+  = Framework = OPERATING SYSTEM for the AI tutor
+  = With framework → AI tutor brain-aligned, not just content-aligned
 
 
-  TỪ CƠ BẢN → NÂNG CAO MÃI MÃI:
+  FROM BASICS → ADVANCED INDEFINITELY:
 
     Framework + AI = scalable per-student personalization:
-    → Level 1: basic literacy → AI adjust per student speed + modality
-    → Level 5: intermediate → AI adjust per interest + hardware
-    → Level 20: advanced → AI adjust per Imagine-Final + depth
-    → Level ∞: lifelong learning → AI + framework = companion suốt đời
+    → Level 1: basic literacy → AI adjusts per student speed + modality
+    → Level 5: intermediate → AI adjusts per interest + hardware
+    → Level 20: advanced → AI adjusts per Imagine-Final + depth
+    → Level ∞: lifelong learning → AI + framework = companion for life
 
-    Mỗi level = 1 arc (hoặc chuỗi arcs).
-    AI + 8 nguyên lý → generate arc PHÙ HỢP per level per student.
-    Teacher VERIFY. Student body CONFIRM.
-    → Từ cơ bản → nâng cao mãi mãi — WITH HUMAN VERIFICATION.
+    Each level = 1 arc (or chain of arcs).
+    AI + 10 principles → generate arc FITTING per level per student.
+    Teacher VERIFIES. Student body CONFIRMS.
+    → From basics → advanced indefinitely — WITH HUMAN VERIFICATION.
 
-  🔴 AI-assisted model chưa proven ở scale
-  🟡 Parallel với AI-Schema-Detection 3-layer: logic consistent
+  🔴 AI-assisted model not yet proven at scale
+  🟡 Parallel with AI-Schema-Detection 3-layer: logic consistent
   🟢 Personalized learning: Bloom 1984 (2-sigma problem)
 ```
 
@@ -2030,100 +2037,100 @@ EDUCATION ≠ SCHOOL:
 ## §5 — HONEST ASSESSMENT
 
 ```
-⭐ CÁI FILE NÀY CÓ THỂ LÀM:
+⭐ WHAT THIS FILE CAN DO:
 
-  ✅ Cung cấp nguyên lý brain-based cho learning arc design
-     → 10 nguyên lý + 1 synthesis derived từ established neuroscience mechanisms
+  ✅ Provides brain-based principles for learning arc design
+     → 10 principles + 1 synthesis derived from established neuroscience mechanisms
      → v2.0: enriched with Hardware-Subsidy, PFC Budget, Dissonance-Signal-Architecture, Entity-Access
      → v2.1: +Multi-Stream × Direction (4 streams), +Critical Asymmetry × Imagine-Final,
        +Sleep Maintenance (6 mechanisms), +3 Compile Types × Arc Design
      → v2.2: +Trust Before Content (Trust.md v1.0: definition, 3 sub-dimensions,
        Default→Calibrated × education stages, Virtuous/Vicious loop, collapse/repair),
-       +Self-Observation Metacognitive Foundation (Self-Observation.md v1.0: Mức × strategy,
+       +Self-Observation Metacognitive Foundation (Self-Observation.md v1.0: Level × strategy,
        External Scaffold, PFC budget competition, Keystone cascade, Teen Paradox)
-  ✅ Kết nối Child-Dev-Mechanism (0-6) với structured education (6+)
-     → Clear handoff: cùng architecture, khác context
-  ✅ Cung cấp bridge/motivation framework
-     → 4 nguồn fill, 3 ORIGIN, transition trajectory
+  ✅ Connects Child-Dev-Mechanism (0–6) with structured education (6+)
+     → Clear handoff: same architecture, different context
+  ✅ Provides bridge/motivation framework
+     → 4 fill sources, 3 ORIGINS, transition trajectory
      → v2.0: + Entity-Access gradient, Coordination-Node, Entity-Compiled
      → v2.1: + Bridge × Critical Asymmetry (Entity-Valence path >> PFC path)
-  ✅ Propose AI-assisted education model
+  ✅ Proposes AI-assisted education model
      → 3-layer architecture, engine framing
      → v2.0: + Entity-Access per layer, Simulation-Engine lens
-  ✅ Nằm trong bộ 3 (HOW + WHAT + WHO)
+  ✅ Positioned within the triple set (HOW + WHAT + WHO)
      → v2.0: + Connection-Education.md (WHO social interaction)
 
 
-⭐ CÁI FILE NÀY KHÔNG THỂ LÀM:
+⭐ WHAT THIS FILE CANNOT DO:
 
-  ❌ Prescribe cách dạy CỤ THỂ
-     → "Vô vàn cách dạy" = AI + teacher handle per context
-  ❌ Cho biết CHÍNH XÁC dạy gì, khi nào, cho ai
-     → Principles set DIRECTION → implementation tùy era + culture
-  ❌ Thay thế education research
-     → File = framework interpretation, không phải systematic review
-  ❌ Apply cho mọi culture không cần adjust
+  ❌ Prescribe SPECIFIC teaching methods
+     → "Infinite ways to teach" = AI + teacher handle per context
+  ❌ Tell you EXACTLY what to teach, when, or for whom
+     → Principles set DIRECTION → implementation varies by era + culture
+  ❌ Replace education research
+     → File = framework interpretation, not a systematic review
+  ❌ Apply across all cultures without adjustment
      → Principles = brain-based → LIKELY universal
-     → Nhưng: cultural context ảnh hưởng CÁCH apply
+     → But: cultural context influences HOW they are applied
 
 
-⭐ ĐỘ TIN CẬY PER SECTION:
+⭐ CONFIDENCE BY SECTION:
 
-  CAO — Nền tảng (reference Child-Dev-Mechanism):
+  HIGH — Foundation (referencing Child-Dev-Mechanism):
     🟢 Chunk compilation, Compile Architecture (§1.1, referenced)
     🟢 Approach/avoidance tags (§2.2, referenced)
     🟢 Cortisol inverted-U, Sleep Maintenance 6 mechanisms (§2.8)
     🟢 Spacing effect, prior knowledge effect (§2.4, §2.8)
     🟢 Intrinsic vs extrinsic motivation (§3.1)
 
-  TRUNG BÌNH — Derived principles:
-    🟡 10 nguyên lý + 1 synthesis arc design (derived từ 🟢 mechanisms)
-    🟡 Bridge = nguồn ④ (Anchor-Schema synthesis)
-    🟡 4 nguồn fill trajectory (framework application)
+  MEDIUM — Derived principles:
+    🟡 10 principles + 1 synthesis arc design (derived from 🟢 mechanisms)
+    🟡 Bridge = source ④ (Anchor-Schema synthesis)
+    🟡 4 fill source trajectory (framework application)
     🟡 3 ORIGIN applied to education (framework formulation)
     🟡 Trust × education stages mapping (Trust.md §5 applied — v2.2)
-    🟡 Self-Observation Mức × metacognitive strategy mapping (Self-Observation.md §4 applied — v2.2)
-    🟡 Teacher as External Scaffold per Mức (Self-Observation.md §2.4 applied — v2.2)
+    🟡 Self-Observation Level × metacognitive strategy mapping (Self-Observation.md §4 applied — v2.2)
+    🟡 Teacher as External Scaffold per Level (Self-Observation.md §2.4 applied — v2.2)
 
-  THẤP — Hypotheses:
-    🔴 AI-assisted 3-layer model (chưa test systematic)
-    🔴 "Framework = engine" approach (chưa validated ở scale)
+  LOW — Hypotheses:
+    🔴 AI-assisted 3-layer model (not yet systematically tested)
+    🔴 "Framework = engine" approach (not yet validated at scale)
 
 
-⭐ RỦI RO:
+⭐ RISKS:
 
   ⚠️ OVER-SIMPLIFICATION:
-     8 nguyên lý cho TOÀN BỘ education = đơn giản hóa.
-     Reality phức tạp hơn. Dùng as LENS, không phải RULEBOOK.
+     10 principles for ALL of education = a simplification.
+     Reality is more complex. Use as a LENS, not a RULEBOOK.
 
   ⚠️ ARMCHAIR THEORIZING:
-     Derive principles từ neuroscience ≠ test principles trong classroom.
-     "Logical" ≠ "proven in practice".
+     Deriving principles from neuroscience ≠ testing principles in classrooms.
+     "Logical" ≠ "proven in practice."
 
   ⚠️ WESTERN/FINNISH BIAS:
-     Examples thiên Western. Cần validate cross-cultural.
+     Examples lean Western. Needs cross-cultural validation.
 
   ⚠️ FALSE CONFIDENCE:
-     Brain mechanism 🟢 → derive principle 🟡 CẢM GIÁC chắc.
-     Nhưng "moderate" = bao nhiêu? "Optimal" = cho ai? Context-dependent.
+     Brain mechanism 🟢 → derived principle 🟡 FEELS solid.
+     But "moderate" = how much? "Optimal" = for whom? Context-dependent.
 
-  ⚠️ IGNORE ECONOMIC REALITY:
-     "Per-hardware calibration" = ĐÚNG → nhưng 1 teacher, 40 students,
-     budget thấp? Principles = ideal → implementation = money + logistics.
+  ⚠️ IGNORES ECONOMIC REALITY:
+     "Per-hardware calibration" = CORRECT → but 1 teacher, 40 students,
+     low budget? Principles = ideal → implementation = money + logistics.
 
   ⚠️ NEW v2.0 — CONCEPT INTEGRATION RISK:
      20+ new concepts integrated (Hardware-Subsidy, PFC Budget, Dissonance-Signal-Architecture,
      Entity-Access, Simulation-Engine, Resonance Decline, etc.)
-     Mỗi concept = pointer + brief integration, KHÔNG phải full treatment.
-     Reader CẦN đọc source files cho depth.
-     Risk: file trở thành "catalog of pointers" thay vì "principles file."
-     Mitigation: 8 nguyên lý VẪN LÀ core. New concepts ENRICH, không replace.
+     Each concept = pointer + brief integration, NOT a full treatment.
+     Reader MUST read source files for depth.
+     Risk: file becomes a "catalog of pointers" rather than a "principles file."
+     Mitigation: 10 principles ARE STILL the core. New concepts ENRICH, don't replace.
 
   ⚠️ NEW v2.0 — ENTITY-ACCESS × EDUCATION SPECULATIVE:
-     Teacher entity-access gradient mapping (Mức 0-3) = logical
-     nhưng chưa có research trực tiếp measure teacher Entity-Access.
-     "Thích thầy → thích môn" = widely observed nhưng mechanism
-     attribution = framework synthesis, chưa proven qua Entity-Access pathway.
+     Teacher entity-access gradient mapping (Level 0–3) = logical
+     but no direct research measuring teacher Entity-Access yet.
+     "Like teacher → like subject" = widely observed but mechanism
+     attribution = framework synthesis, not yet proven via Entity-Access pathway.
 ```
 
 ---
@@ -2132,48 +2139,48 @@ EDUCATION ≠ SCHOOL:
 
 ```
 ═══════════════════════════════════════════════════════
-NỀN TẢNG TRỰC TIẾP (Core-Deep-Dive/)
+DIRECT FOUNDATION (Core-Deep-Dive/)
 ═══════════════════════════════════════════════════════
 
-→ Child-Development-Mechanism.md v2.2 — ⭐ NỀN TẢNG CỐT LÕI
+→ Child-Development-Mechanism.md v2.2 — ⭐ CORE FOUNDATION
   §1 PFC Reframe, §2 Compile Architecture (1E+3M) + formula,
   §2.6 Multi-Stream Compile (Content/Value/Entity/Behavior),
   §3 Approach/Avoidance Tags, §4 Chunk Dynamics, §7 Autonomy,
   §8 Cortisol, §9 Observation Parameters.
-  File NÀY build trên tất cả sections trên — reference, không lặp.
+  THIS FILE builds on all sections above — references, does not repeat.
 
 → Compile-Taxonomy.md v3.0 — ⭐ COMPILE ARCHITECTURE ⭐NEW v2.1
   1 Engine (Hebbian) + 3 Modulators + 3 Exposure Channels.
   §3 Trust = Amplifier (NOT Gate). §5 Multi-Stream Compile.
   §7 Feedback Loop + Critical Asymmetry.
-  Kết nối: §1.1 (architecture), §2.2 (Multi-Stream), §2.6 (Critical Asymmetry),
+  Connected to: §1.1 (architecture), §2.2 (Multi-Stream), §2.6 (Critical Asymmetry),
   §2.8 (Sleep Maintenance), §2.9 (3 Compile Types × Arc Design).
 
 → Compile-Sleep.md v1.0 — SLEEP MAINTENANCE (6 mechanisms) ⭐NEW v2.1
   6 mechanisms: SHY + Replay + Active Consolidation +
   Creative Linking + Emotional Decoupling + Gist Extraction.
   ~1.5 exposure-based, ~4.5 optimization-based.
-  Kết nối: §2.8 (Nguyên lý 7 enriched).
+  Connected to: §2.8 (Principle 7 enriched).
 
 → Trust.md v1.0 — TRUST MECHANISM ⭐NEW v2.2
   Trust = compiled prediction about gap-fill RELIABILITY.
   3 sub-dimensions (Authority/Competence/Intention).
-  Default→Calibrated 4 phases. Build slow / collapse fast.
+  Default→Calibrated 4 phases. Builds slow / collapses fast.
   Trust = Amplifier for VALUE stream (NOT Gate).
-  Kết nối: §2.11 (Nguyên lý 9 — Trust Before Content), §2.9 (Trust Compile backing).
+  Connected to: §2.11 (Principle 9 — Trust Before Content), §2.9 (Trust Compile backing).
 
 → Self-Observation.md v1.0 — SELF-OBSERVATION MECHANISM ⭐NEW v2.2
-  APPLICATION-3 trên Simulation-Engine (Self, Present, Observe).
-  Gradient Mức 0-6. Keystone cascade (5+ systems).
+  APPLICATION-3 on Simulation-Engine (Self, Present, Observe).
+  Gradient Level 0–6. Keystone cascade (5+ systems).
   2-Axis Model: Capacity × Activation. External Scaffold Pathway 2.
   Teen Paradox: CAN observe, CAN'T regulate.
-  Kết nối: §2.12 (Nguyên lý 10 — Metacognitive Foundation).
+  Connected to: §2.12 (Principle 10 — Metacognitive Foundation).
 
-→ Core-v7.8-Draft.md — Kiến trúc cycle-based
+→ Core-Software.md — Cycle-based architecture
   Perception-Action Cycle, Chunk-System = sole substrate.
 
-→ Chunk.md v2.2 — Chunk substrate chi tiết
-  §1 Định nghĩa (strength levels), §2 Compile, §4 Activation, context-tag.
+→ Chunk.md v2.2 — Chunk substrate in detail
+  §1 Definition (strength levels), §2 Compile, §4 Activation, context-tag.
 
 → Cortisol-Baseline.md v2.1 — Amplifier reframe
   Direction > level, 4-threshold gradient, sleep = consolidation + repair.
@@ -2190,24 +2197,24 @@ PFC + SIMULATION (Core-Deep-Dive/PFC/)
 
 → PFC-Operations.md v1.1 — Hold/Suppress, PFC Budget ⭐NEW v2.0
   §2 Hold/Suppress, §7 Compiled Quality, §9 PFC Budget (universal shared resource).
-  Kết nối: §2.3 (cost formula — ⑤ PFC budget), §3.4 (teacher PFC load).
+  Connected to: §2.3 (cost formula — ⑤ PFC budget), §3.4 (teacher PFC load).
 
 → Simulation-Engine.md v1.1 — 1 Engine, 3 Components ⭐NEW v2.0
   Interoception × Constructive Simulation × Self/Other Model.
-  Kết nối: §2.6 (Imagine-Final = APPLICATION on Simulation-Engine), §4 (AI = Simulation-Engine analog).
+  Connected to: §2.6 (Imagine-Final = APPLICATION on Simulation-Engine), §4 (AI = Simulation-Engine analog).
 
 → Imagine-Final.md v3.0 — Constructive Future Simulation ⭐REFRAMED v2.0
   v3.0 boundary: hardware prediction ≠ Imagine-Final.
   3-Layer: Body-Need → Imagine-Final → Plan. §5 Lifecycle, §6 Gradient.
-  Kết nối: §2.6 (Nguyên lý 5 — reframed).
+  Connected to: §2.6 (Principle 5 — reframed).
 
-→ Imagine-Final-Evaluation.md v1.1 — QUALITY (4 góc)
-  2 trục × 4 góc (Sweet Spot / Mismatch / Delusion / Fantasy).
-  Kết nối: §2.6 (4 câu hỏi guide).
+→ Imagine-Final-Evaluation.md v1.1 — QUALITY (4 angles)
+  2 axes × 4 angles (Sweet Spot / Mismatch / Delusion / Fantasy).
+  Connected to: §2.6 (4 guiding questions).
 
-→ Anchor-Schema.md v1.2 — TRUST + 4 NGUỒN FILL
-  4 nguồn: ① PFC Imagine-Final, ② Hippocampus, ③ Compiled, ④ External.
-  Kết nối: §3 toàn bộ (bridge = ④, transition, anchor legacy).
+→ Anchor-Schema.md v1.2 — TRUST + 4 FILL SOURCES
+  4 sources: ① PFC Imagine-Final, ② Hippocampus, ③ Compiled, ④ External.
+  Connected to: §3 entire (bridge = ④, transition, anchor legacy).
 
 
 ═══════════════════════════════════════════════════════
@@ -2217,49 +2224,49 @@ VALENCE + DISSONANCE (Core-Deep-Dive/Body-Base/)
 → Valence-Propagation.md v3.0 — Structural/Current + Hardware-Subsidy ⭐NEW v2.0
   §3 Structural vs Current valence. §7 Hardware-Subsidy = anti-habituation.
   3 Firing Modes. 3 Satiation Types.
-  Kết nối: §2.2 (structural tags), §2.3 (subsidy in cost), §3.1 (subsidy ≠ bridge).
+  Connected to: §2.2 (structural tags), §2.3 (subsidy in cost), §3.1 (subsidy ≠ bridge).
 
 → Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State ⭐NEW v2.0
   Valley = Evaluative Dissonance. Direct-State = hardware, not workable by reframe.
-  Kết nối: §2.5 (valley vocabulary), §2.7 (feedback × dissonance type).
+  Connected to: §2.5 (valley vocabulary), §2.7 (feedback × dissonance type).
 
 → Gap-Distribution-Profile.md v1.1 — Per-person gap landscape ⭐NEW v2.0
-  4 trục: Domain Center × Origin Balance × Depth × Stability.
-  Kết nối: §1.4 (education = gap landscape shaping).
+  4 axes: Domain Center × Origin Balance × Depth × Stability.
+  Connected to: §1.4 (education = gap landscape shaping).
 
 → Gap-Body-Need.md v1.0 — 3 Satiation Types, ENGINE/ROAD/VEHICLE
-  Cyclic / Tonic / Generative satiation. Kết nối: §2 (domain satiation).
+  Cyclic / Tonic / Generative satiation. Connected to: §2 (domain satiation).
 
 
 ═══════════════════════════════════════════════════════
 AGENT + ENTITY (Core-Deep-Dive/Agent-Mechanism/)
 ═══════════════════════════════════════════════════════
 
-→ Entity-Access.md v1.2 — Gradient Mức 0-5 ⭐NEW v2.0
+→ Entity-Access.md v1.2 — Gradient Level 0–5 ⭐NEW v2.0
   Tool → Agent → Compiled → Entity-Owned → Excess.
-  Kết nối: §3.4 (teacher Mức 1-3, AI Mức 0, parent Mức 4+), §4 (3-layer Entity-Access).
+  Connected to: §3.4 (teacher Level 1–3, AI Level 0, parent Level 4+), §4 (3-layer Entity-Access).
 
-→ Entity-Compiled.md v1.0 — Formation 40-200h ⭐NEW v2.0
+→ Entity-Compiled.md v1.0 — Formation 40–200h ⭐NEW v2.0
   Hub-and-Spoke, Entity-Compiled = structural body-base extension.
-  Kết nối: §3.4 (teacher compiled, "nhớ giáo viên cũ").
+  Connected to: §3.4 (teacher compiled, "remembering old teachers").
 
 → Self-Pattern-Modeling.md v3.1 — 1 mechanism × 3 dimensions
   Compiled/Fresh, APPLICATION-1 on Simulation-Engine.
-  Kết nối: §3.4 (teacher Self-Pattern-Modeling per student), §4 (AI as Self-Pattern-Modeling).
+  Connected to: §3.4 (teacher Self-Pattern-Modeling per student), §4 (AI as Self-Pattern-Modeling).
 
 → Connection.md v5.0 — Resonance Decline ⭐NEW v2.0
   3 Generative Primitives, Resonance Decline, 4-Layer Sustainability, Hardware-Subsidy.
-  Kết nối: §2.5 (Resonance Decline × engagement decay).
+  Connected to: §2.5 (Resonance Decline × engagement decay).
 
 → Coordination-Node.md v1.2 — Prestige vs Dominance ⭐NEW v2.0
   Teacher = coordination node. 2 routes: prestige (approach) vs dominance (avoidance).
-  Kết nối: §3.4 (teacher node type → student direction).
+  Connected to: §3.4 (teacher node type → student direction).
 
 → By-Product-Gap-Resonance.md v1.4 — Resonance as by-product
-  Kết nối: §3 (teacher-student resonance), §4 (AI resonance limitation).
+  Connected to: §3 (teacher-student resonance), §4 (AI resonance limitation).
 
 → Compiled-Fresh.md v2.0 — Compiled Quality Dimension
-  Genuine / Schema / Threat compiled. Kết nối: §2.2, §3.5.
+  Genuine / Schema / Threat compiled. Connected to: §2.2, §3.5.
 
 
 ═══════════════════════════════════════════════════════
@@ -2267,45 +2274,54 @@ THREAT + MOTIVATION
 ═══════════════════════════════════════════════════════
 
 → Threat.md §5.5 — 3 ORIGIN taxonomy
-  Domain / Peer / Imposed. Kết nối: §3.3.
+  Domain / Peer / Imposed. Connected to: §3.3.
 
 → Domain-Mapping-Drive.md v1.0 (Core-Deep-Dive/Domain/)
   WHY humans drive map domain. Education implications.
 
-→ Boredom.md v2.0 — Source ⑥ by-product match dừng
-  Resonance Decline, Imagine-Final modifier. Kết nối: §2.5 (valley + boredom overlap).
+→ Boredom.md v2.0 — Source ⑥ by-product match stops
+  Resonance Decline, Imagine-Final modifier. Connected to: §2.5 (valley + boredom overlap).
 
 
 ═══════════════════════════════════════════════════════
-CHILD-DEVELOPMENT BỘ 4 (TẦNG 2 — foundation)
+CHILD-DEVELOPMENT SET OF 4 (LAYER 2 — foundation)
 ═══════════════════════════════════════════════════════
 
-→ Child-Development-Mechanism.md v2.2 — Khung nguyên lý (referenced §0-§2)
+→ Child-Development-Mechanism.md v2.2 — Principle framework (referenced §0–§2)
 → Mother-Optimization.md v2.2 — Prenatal hardware quality
-→ Natural-Development.md v2.2 — 0-6 tự nhiên
-→ Skill-Introduction.md v2.2 — 0-6 kỹ năng giới thiệu
+→ Natural-Development.md v2.2 — 0–6 natural development
+→ Skill-Introduction.md v2.2 — 0–6 skill introduction
 
 
 ═══════════════════════════════════════════════════════
-BỘ 3 EDUCATION + OBSERVATION (Research/Education/)
+TRIPLE EDUCATION SET + OBSERVATION (Research/Education/)
 ═══════════════════════════════════════════════════════
 
-→ Domain-Knowledge-Map.md v1.0 — FILE 2: WHAT nhóm kiến thức (bộ 3)
-→ Connection-Education.md v1.1 — FILE 3: WHO social interaction (bộ 3)
-  5 trụ: Hiểu + Xây dựng + Chọn + Duy trì + Navigate groups.
+→ Domain-Knowledge-Map.md v1.0 — FILE 2: WHAT knowledge groups (triple set)
+→ Connection-Education.md v1.1 — FILE 3: WHO social interaction (triple set)
+  5 pillars: Understand + Build + Choose + Sustain + Navigate groups.
   v1.1: +Trust Calibration §5.6, +Self-Observation Keystone §2.5.
 
 → Observation/ folder:
-  Education-Arms-Race.md v1.2 — Quan sát vấn đề (arms race)
-  Money-Education.md v1.0 — Quan sát ứng dụng (tiền)
+  Education-Arms-Race.md v1.2 — Observation of the problem (arms race)
+  Money-Education.md v1.0 — Observation of application (money)
 
 → AI-Schema-Detection.md v2.0 — Gateway model, 3-layer parallel
-  Kết nối: §0.4 (engine model), §4 (3-layer education parallel).
+  Connected to: §0.4 (engine model), §4 (3-layer education parallel).
 ```
 
 ---
 
-## CHANGELOG
+> *Education-Mechanism v2.2 — "Same architecture. Same chunks. Same Compile Engine.
+> What changes at 6+: someone designs the loop.
+> 10 brain-based principles, valid across all eras.
+> True 100 years ago, still true 100 years from now — because the brain doesn't change.
+> Framework = ENGINE. Any teaching method that follows the 10 principles = VALID.
+> Arc design serves Content ✓ + Value ✓ — not just content delivery."*
+
+---
+
+### Changelog
 
 ```
 v2.2 (2026-06-03) — Trust + Self-Observation Integration:
@@ -2313,65 +2329,26 @@ v2.2 (2026-06-03) — Trust + Self-Observation Integration:
     +Trust.md v1.0, +Self-Observation.md v1.0
     Connection-Education.md v1.0→v1.1
   NEW CONTENT:
-    §2.11 NEW Nguyên lý 9: Build Trust Before Content (~95L):
+    §2.11 NEW Principle 9: Build Trust Before Content (~95L):
       Trust = compiled prediction × RELIABILITY (Trust.md §1 formal definition).
       3 sub-dimensions × education (Authority/Competence/Intention — Mayer 1995).
-      Trust ≠ Valence: "thích thầy" ≠ "tin thầy" (Colquitt 2007).
-      Trust as Amplifier for VALUE stream (CT v3.0 §3 integrated).
+      Trust ≠ Valence: "like teacher" ≠ "trust teacher" (Colquitt 2007).
+      Trust as Amplifier for VALUE stream (Compile-Taxonomy v3.0 §3 integrated).
       Trust Default→Calibrated × education stages table (Trust.md §5).
-      Virtuous/Vicious loop (CT §7.3-7.4 applied to education).
+      Virtuous/Vicious loop (Compile-Taxonomy §7.3-7.4 applied to education).
       Trust collapse × education + repair asymmetry.
-    §2.12 NEW Nguyên lý 10: Self-Observation = Metacognitive Foundation (~85L):
-      Mức × metacognitive strategy effectiveness table (Self-Observation §4).
-      Teacher as External Scaffold per Mức (Self-Observation §2.4 Pathway 2).
+    §2.12 NEW Principle 10: Self-Observation = Metacognitive Foundation (~85L):
+      Level × metacognitive strategy effectiveness table (Self-Observation §4).
+      Teacher as External Scaffold per Level (Self-Observation §2.4 Pathway 2).
       Self-Observation × PFC Budget competition (PFC-Ops §9 + Self-Observation §5.2).
       Keystone cascade for education (Self-Observation §7 — 5+ systems).
       Teen Paradox × education strategy (Self-Observation §6.3 — CAN observe, CAN'T regulate).
   RENUMBER: §2.11→§2.13
-  8 nguyên lý + 1 synthesis → 10 nguyên lý + 1 synthesis
-  §2.13: summary table +2 rows (nguyên lý 9 + 10), "8"→"10" throughout
+  8 principles + 1 synthesis → 10 principles + 1 synthesis
+  §2.13: summary table +2 rows (principles 9 + 10), "8"→"10" throughout
   §0.2: +Trust/Self-Observation annotations
-  §0.5: 8→10 nguyên lý
+  §0.5: 8→10 principles
   §5: Honest Assessment updated (v2.2 entries, confidence per section +3 entries)
   §6: +Trust.md v1.0, +Self-Observation.md v1.0 cross-refs, Connection-Ed v1.0→v1.1
   Total: ~200L net addition
-
-v2.1 (2026-06-01) — Compile Architecture Refine:
-  TERMINOLOGY (11 vị trí):
-    "4+1 kênh compile" → "Compile Architecture (1 Engine + 3 Modulators)"
-    "kênh compile" → "dạng exposure" / "Compile Architecture"
-    §0.2 table: reframe hoàn toàn (1E+3M + Multi-Stream + 3 Exposure)
-    §1.1: "4+1 KÊNH COMPILE" → "COMPILE ARCHITECTURE" (1E+3M + 3EC)
-  DEPENDENCIES:
-    Child-Dev-Mechanism v2.0→v2.2, +Compile-Taxonomy v3.0, +Compile-Sleep v1.0
-    Natural-Dev/Skill-Intro/Mother-Opt v2.1→v2.2
-  NEW CONTENT:
-    §2.2 +Multi-Stream × Direction > Level (~40L):
-      4 streams chạy đồng thời. "Ép vẫn học NỘI DUNG — VALUE = avoidance."
-      "Giỏi nhưng ghét" = Content ✓ Value ✗.
-    §2.6 +Critical Asymmetry × Imagine-Final (~35L):
-      PFC path slow/costly vs Entity-Valence path fast/free.
-      "Show, don't tell" = mechanism-based. Sequence: Entity-Valence TRƯỚC, content SAU.
-    §2.8 Sleep Maintenance ENRICHED (~90L):
-      6 mechanisms table (exposure vs optimization classification).
-      SWS/REM split. PFC degrades FIRST. Waking rest ≈ 30%.
-      Spacing = leverage sleep maintenance.
-    §2.9 NEW 3 Compile Types × Arc Design (~45L):
-      Trust (bootstrap Phase 1) → Experience (depth Phase 2) → Expertise (mastery Phase 3).
-      Optimize Trust→Experience transition. Education hiện tại dừng Phase 1.
-    §3.1 +Bridge × Critical Asymmetry (~25L):
-      Entity-Valence bridge >> PFC-based bridge. "Love the teacher" = fastest bridge.
-  RENUMBER: §2.9→§2.10, §2.10→§2.11
-  §2.11: summary table updated (v2.1 annotations + Synthesis row)
-  §5: Honest Assessment updated
-  §6: +Compile-Taxonomy v3.0, +Compile-Sleep v1.0, version updates
-  Total: ~235L net addition
-
-v2.0 (2026-05-25) — DEEP REFINE:
-  +Imagine-Final v3.0, +Hardware-Subsidy, +PFC Budget, +Dissonance-Signal-Architecture,
-  +Entity-Access gradient, +Simulation-Engine, +VP v3.0, +Coordination-Node,
-  +Entity-Compiled, +Resonance Decline, +Gap-Distribution-Profile, bộ 3.
-  1,280L → 1,713L.
-
-v1.0 (2026-04-21) — Initial creation: 1,280L.
 ```

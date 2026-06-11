@@ -1,36 +1,36 @@
-﻿# Auditory-Hardware — Kênh Hardware Duy Nhất Ảnh Hưởng Mọi Tham Số
+# Auditory-Hardware — The Only Hardware Channel Affecting All Observation Parameters
 
-> **Trạng thái:** COMPLETE v1.0
-> **Ngày:** 2026-05-30
-> **Mục đích:** Auditory = kênh hardware T1 DUY NHẤT có 6 đặc tính mà
->   KHÔNG modality nào khác sở hữu. Vì 6 đặc tính này, sound ảnh hưởng
->   TẤT CẢ observation parameters — từ Threat tới Boredom.
->   File này trả lời: WHY auditory khác biệt ở mức ARCHITECTURE
->   + HOW sound tác động cross-parameter.
-> **Vị trí trong v7.8:** Modality = T1 hardware property (brain-wide).
->   Auditory = 1 trong 5 experience modalities (Modality.md §1).
->   File này = deep dive hardware properties cho auditory riêng.
+> **Status:** COMPLETE v1.0
+> **Date:** 2026-05-30
+> **Purpose:** Auditory = the ONLY T1 hardware channel with 6 properties that
+>   NO other modality possesses. Because of these 6 properties, sound affects
+>   ALL observation parameters — from Threat to Boredom.
+>   This file answers: WHY auditory is different at the ARCHITECTURE level
+>   + HOW sound acts cross-parameter.
+> **Position in v7.8:** Modality = T1 hardware property (brain-wide).
+>   Auditory = 1 of 5 experience modalities (Modality.md §1).
+>   This file = deep dive hardware properties for auditory specifically.
 > **Scope boundaries:**
 >   ✅ IN: 6 unique hardware properties + cross-parameter mapping + evolution
->   ❌ OUT: Music neuroscience cụ thể (= Drill-Sound-Brain/ territory)
+>   ❌ OUT: Specific music neuroscience (= Drill-Sound-Brain/ territory)
 >   ❌ OUT: Auditory development timeline (= 04-Auditory-System-Arc.md)
 >   ❌ OUT: Therapy/education applications (= Modality.md territory)
->   ❌ OUT: New mechanism — KHÔNG thêm mechanism mới
-> **4 files, 4 scopes khác nhau:**
->   Modality.md = WHERE (6 modalities cân bằng)
->   04-Auditory-System-Arc.md = WHEN (prenatal → 24 tháng)
+>   ❌ OUT: New mechanisms — does NOT add new mechanisms
+> **4 files, 4 different scopes:**
+>   Modality.md = WHERE (6 modalities in balance)
+>   04-Auditory-System-Arc.md = WHEN (prenatal → 24 months)
 >   Drill-Sound-Brain/ = WHAT (music × brain, 12 files, ~6,600L)
 >   Auditory-Hardware.md = WHY unique + HOW cross-parameter (THIS FILE)
-> **Tiền đề:**
+> **Prerequisites:**
 >   Modality.md v1.0 (6 modalities, interaction types)
 >   Neural-Processing-Flow.md v2.0 (sensor → cortex flow)
->   Core-v7.8-Draft.md (cycle-based architecture)
+>   Core-Software.md (cycle-based architecture)
 > **Confidence:** 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
-> **Language:** Tiếng Việt primary + English technical terms
+> **Language:** English
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §0 — POSITION + THESIS
 - §1 — 6 UNIQUE HARDWARE PROPERTIES
@@ -47,27 +47,27 @@
 ⭐ THESIS:
 
   Sound = T1 hardware channel (Modality.md §1 ②).
-  KHÔNG PHẢI observation parameter (Threat, Reward, Boredom...).
-  MÀ LÀ kênh hardware MÀ QUA ĐÓ các observation parameters hoạt động.
+  NOT an observation parameter (Threat, Reward, Boredom...).
+  BUT the hardware channel THROUGH WHICH observation parameters operate.
 
-  PHÂN BIỆT:
-    Observation parameter = CÁI ĐƯỢC quan sát (Threat, Reward, Gap, Boredom...)
-    Hardware channel = KÊNH mang tín hiệu TỚI observation
-    → Sound = kênh. Tiger roar = tín hiệu. Threat = parameter được observe.
+  DISTINCTION:
+    Observation parameter = WHAT IS OBSERVED (Threat, Reward, Gap, Boredom...)
+    Hardware channel = the CHANNEL carrying signals TO observation
+    → Sound = channel. Tiger roar = signal. Threat = the observed parameter.
 
   ANALOGY:
-    Visual = camera: cần ánh sáng, cần hướng nhìn, cần MỞ mắt.
-    Auditory = microphone always-on: không tắt, xuyên tường, 360°.
-    → Camera = spatial tool (chụp KHÔNG GIAN).
-    → Microphone = temporal sentinel (ghi THỜI GIAN).
-    → Đây KHÔNG phải "sound quan trọng hơn visual."
-    → Mà "sound ĐẶC BIỆT KHÁC" — unique hardware architecture.
+    Visual = camera: requires light, a direction to look, and OPEN eyes.
+    Auditory = microphone always-on: never off, passes through walls, 360°.
+    → Camera = spatial tool (captures SPACE).
+    → Microphone = temporal sentinel (records TIME).
+    → This is NOT "sound is more important than visual."
+    → But "sound is DISTINCTLY DIFFERENT" — unique hardware architecture.
 
   6 UNIQUE PROPERTIES:
-    Auditory có 6 đặc tính hardware mà KHÔNG experience modality nào khác có.
-    Mỗi property = established neuroscience (4 🟢 + 2 🟡).
-    VÌ 6 properties này → sound ảnh hưởng ALL observation parameters.
-    = Hardware-level explanation cho WHY sound đặc biệt.
+    Auditory has 6 hardware properties that NO other experience modality possesses.
+    Each property = established neuroscience (4 🟢 + 2 🟡).
+    BECAUSE of these 6 properties → sound affects ALL observation parameters.
+    = Hardware-level explanation for WHY sound is special.
 ```
 
 ---
@@ -79,138 +79,138 @@
 §1.1 — ALWAYS-ON (Sentinel Function)
 ═══════════════════════════════════════════════════════
 
-  CLAIM: Auditory = DUY NHẤT experience modality always-on ở mức hardware.
+  CLAIM: Auditory = the ONLY experience modality that is always-on at the hardware level.
 
   EVIDENCE:
-    🟢 Anatomy: con người KHÔNG CÓ "eyelid" cho tai.
-      Mắt có cơ vòng mắt (orbicularis oculi) → nhắm mắt = TẮT visual.
-      Tai KHÔNG có cơ tương đương → KHÔNG THỂ đóng tai tự nhiên.
-      = Hardware-level always-on, không phải software choice.
+    🟢 Anatomy: humans have NO "eyelid" for the ear.
+      Eyes have the orbicularis oculi muscle → closing eyes = OFF visual.
+      Ears have NO equivalent muscle → CANNOT close the ear naturally.
+      = Hardware-level always-on, not a software choice.
 
-    🟢 Giấc ngủ: auditory brainstem response (ABR) VẪN hoạt động.
-      Noise wakes sleepers → auditory → thalamus → arousal network VẪN active.
-      = Monitoring 24/7, kể cả khi ý thức tắt.
+    🟢 Sleep: auditory brainstem response (ABR) remains active.
+      Noise wakes sleepers → auditory → thalamus → arousal network remains active.
+      = Monitoring 24/7, even when consciousness is off.
 
-  SO SÁNH:
-    Visual:   mắt nhắm → OFF. Cần ánh sáng + hướng nhìn → NOT always-on.
-    Somatic:  body cảm nhận luôn → PARTIAL always-on.
-              NHƯNG: internal-facing (cảm nhận BÊN TRONG cơ thể).
-              Auditory: EXTERNAL-facing (cảm nhận MÔI TRƯỜNG BÊN NGOÀI).
-    Motor:    OUTPUT channel, không phải INPUT → not comparable.
-    Emotional: RESPONSE, không phải SENSOR → not comparable.
+  COMPARISON:
+    Visual:   eyes closed → OFF. Requires light + a direction to look → NOT always-on.
+    Somatic:  body always sensing → PARTIAL always-on.
+              BUT: internal-facing (senses INSIDE the body).
+              Auditory: EXTERNAL-facing (senses the OUTSIDE ENVIRONMENT).
+    Motor:    OUTPUT channel, not INPUT → not comparable.
+    Emotional: RESPONSE, not SENSOR → not comparable.
 
     → Auditory = external-facing + always-on + 360° = UNIQUE combination.
 
   FRAMEWORK MAPPING:
-    → Always-on = WHY sound là first-alert cho Threat (tiger roar lúc ngủ).
-    → Always-on = WHY background sound → Background-Pattern formation liên tục.
-    → = "Microphone luôn bật" → mọi thứ đi qua kênh này
-      TRƯỚC KHI PFC aware.
+    → Always-on = WHY sound is the first alert for Threat (tiger roar while asleep).
+    → Always-on = WHY background sound → continuous Background-Pattern formation.
+    → = "Microphone always on" → everything passes through this channel
+      BEFORE PFC awareness.
 
 
 ═══════════════════════════════════════════════════════
-§1.2 — CROSS-BARRIER (Xuyên Vật Cản)
+§1.2 — CROSS-BARRIER (Penetrates Obstacles)
 ═══════════════════════════════════════════════════════
 
-  CLAIM: Sound xuyên vật cản mà visual KHÔNG thể.
+  CLAIM: Sound penetrates obstacles that visual CANNOT.
 
   EVIDENCE:
-    🟢 Physics: sóng âm diffraction quanh vật cản + transmission qua vật rắn.
-      → Qua tường, quanh góc, trong bóng tối, qua vegetation.
-      → Mở rộng perimeter cảnh giác VƯỢT line-of-sight.
+    🟢 Physics: sound wave diffraction around obstacles + transmission through solid objects.
+      → Through walls, around corners, in darkness, through vegetation.
+      → Extends the alert perimeter BEYOND line-of-sight.
 
-    🟢 Directional: binaural localization cho phép xác định HƯỚNG.
+    🟢 Directional: binaural localization allows determining DIRECTION.
       Interaural time difference (~10μs resolution) + level difference.
-      → Nghe bước chân bên kia tường → biết có người + biết HƯỚNG.
+      → Hearing footsteps through a wall → know someone is there + know DIRECTION.
 
-  SO SÁNH:
-    Visual:    cần line-of-sight + photon → bị chặn bởi tường, bóng tối.
-    Olfactory: cross-barrier (mùi bay qua), NHƯNG chậm + diffuse + low precision.
-    Somatic:   detect vibration qua mặt đất (partial), nhưng range ngắn + low info.
+  COMPARISON:
+    Visual:    requires line-of-sight + photons → blocked by walls, darkness.
+    Olfactory: cross-barrier (scent travels), BUT slow + diffuse + low precision.
+    Somatic:   detects vibration through the ground (partial), but short range + low information.
 
     → Auditory = cross-barrier + FAST + directional → UNIQUE combination.
 
   FRAMEWORK MAPPING:
-    → Cross-barrier = WHY auditory cho Prediction TRƯỚC visual confirmation.
-    → "Nghe bước chân → biết có người" = spatial prediction MÀ KHÔNG cần mắt.
+    → Cross-barrier = WHY auditory provides Prediction BEFORE visual confirmation.
+    → "Hearing footsteps → knowing someone is there" = spatial prediction WITHOUT needing eyes.
     → = WHY threat detection works in darkness / behind shelter.
 
 
 ═══════════════════════════════════════════════════════
-§1.3 — PRE-BIRTH COMPILATION (Duy Nhất Trước Sinh)
+§1.3 — PRE-BIRTH COMPILATION (Uniquely Prenatal)
 ═══════════════════════════════════════════════════════
 
-  CLAIM: Auditory = DUY NHẤT modality bắt đầu compile chunks TRƯỚC KHI SINH.
+  CLAIM: Auditory = the ONLY modality that begins compiling chunks BEFORE BIRTH.
 
   EVIDENCE:
-    🟢 Cochlea functional từ ~25 tuần thai (developmental biology).
-      Structural maturation bắt đầu sớm hơn (~20 tuần).
-      Neurosensory functional ~25 tuần → fetus BẮT ĐẦU NGHE.
+    🟢 Cochlea functional from ~25 weeks gestation (developmental biology).
+      Structural maturation begins earlier (~20 weeks).
+      Neurosensory functional ~25 weeks → fetus BEGINS HEARING.
 
     🟢 DeCasper & Fifer 1980 (Science 208:1174-1176):
-      Newborn (2-3 ngày tuổi) prefer giọng mẹ hơn stranger.
-      Sucking pattern thay đổi để CHỌN giọng mẹ.
-      = Trẻ sinh ra ĐÃ CÓ compiled chunk cho giọng mẹ.
+      Newborn (2-3 days old) prefer mother's voice over a stranger's.
+      Sucking pattern changes to SELECT mother's voice.
+      = Newborn ALREADY HAS a compiled chunk for the mother's voice.
 
     🟢 DeCasper & Spence 1986:
-      Newborn prefer TRUYỆN mà mẹ đọc lúc mang thai.
-      = Complex auditory patterns compiled TRƯỚC sinh.
+      Newborn prefer the STORY that the mother read during pregnancy.
+      = Complex auditory patterns compiled BEFORE birth.
 
     🟢 Moon, Cooper & Fifer 1993:
       Newborn discriminate native vs foreign language rhythm.
       = Language rhythm patterns compiled prenatally.
 
-  SO SÁNH:
-    Visual:   ~0 prenatal (tử cung tối). Starts effectively at birth.
+  COMPARISON:
+    Visual:   ~0 prenatal (womb is dark). Starts effectively at birth.
     Motor:    reflex only prenatal. Voluntary movement from birth onward.
-    Somatic:  partial prenatal (touch, temperature). Nhưng KHÔNG compile
+    Somatic:  partial prenatal (touch, temperature). But does NOT compile
               COMPLEX patterns (voice, rhythm, language).
-    Emotional: partial prenatal (stress hormones cross placenta). Nhưng
-              KHÔNG domain-specific patterns.
+    Emotional: partial prenatal (stress hormones cross placenta). But
+              NO domain-specific patterns.
 
     → Auditory = compile COMPLEX patterns prenatal → UNIQUE.
 
   FRAMEWORK MAPPING:
     → Pre-birth = first chunks EVER compiled = auditory.
-    → Giọng mẹ = earliest compiled chunk → powerful emotional trigger suốt đời.
-    → = Foundational substrate: attachment chunks có auditory component TỪ ĐẦU.
-    → Chi tiết: 04-Auditory-System-Arc.md (911L, developmental timeline).
+    → Mother's voice = earliest compiled chunk → powerful emotional trigger throughout life.
+    → = Foundational substrate: attachment chunks have an auditory component FROM THE START.
+    → Detail: 04-Auditory-System-Arc.md (911L, developmental timeline).
 
 
 ═══════════════════════════════════════════════════════
 §1.4 — TEMPORAL > SPATIAL ENCODING
 ═══════════════════════════════════════════════════════
 
-  CLAIM: Auditory encode TIME patterns, Visual encode SPACE patterns.
+  CLAIM: Auditory encodes TIME patterns, Visual encodes SPACE patterns.
     2 modalities = complementary prediction system.
 
   EVIDENCE:
     🟢 Auditory temporal resolution: ~2-5ms (gap detection, broadband noise).
     🟢 Visual temporal resolution: ~15-30ms (temporal order judgment).
-    🟢 Visual spatial resolution: foveal acuity ~1 arcminute (CỰC CAO).
+    🟢 Visual spatial resolution: foveal acuity ~1 arcminute (EXTREMELY HIGH).
     🟢 Auditory spatial resolution: ~1-2° azimuth (binaural, coarser than visual).
 
-    → Auditory: temporal PRECISION cao, spatial PRECISION thấp.
-    → Visual: spatial PRECISION cao, temporal PRECISION thấp.
-    → = Complementary, không competing.
+    → Auditory: temporal PRECISION high, spatial PRECISION low.
+    → Visual: spatial PRECISION high, temporal PRECISION low.
+    → = Complementary, not competing.
 
     🟢 Modality appropriateness hypothesis (Welch & Warren 1980):
-      Khi 2 modalities conflict, modality PHÙ HỢP HƠN với task "thắng."
+      When 2 modalities conflict, the modality MORE APPROPRIATE for the task "wins."
       Temporal task (rhythm) → auditory dominates.
       Spatial task (location) → visual dominates.
 
-  SO SÁNH:
-    Motor:   temporal (action sequence), nhưng OUTPUT channel, không INPUT.
-    Somatic: continuous field (không đặc biệt temporal hay spatial).
+  COMPARISON:
+    Motor:   temporal (action sequence), but OUTPUT channel, not INPUT.
+    Somatic: continuous field (not particularly temporal or spatial).
 
     → Auditory + Visual = temporal + spatial = COMPLETE prediction coverage.
 
   FRAMEWORK MAPPING:
     → Temporal encoding = WHY language = auditory channel.
-      Speech = temporal sequence → auditory encodes NHANH + CHÍNH XÁC nhất.
+      Speech = temporal sequence → auditory encodes FASTEST + MOST ACCURATELY.
     → Temporal encoding = WHY music = auditory channel.
-      Rhythm, melody = temporal patterns → auditory domain tự nhiên.
-    → Chunks compiled qua auditory TEND TO BE sequential/temporal.
+      Rhythm, melody = temporal patterns → natural auditory domain.
+    → Chunks compiled via auditory TEND TO BE sequential/temporal.
     → Complements visual spatial chunks → multi-modal = deeper chunks.
 
 
@@ -218,28 +218,28 @@
 §1.5 — DISPROPORTIONATE ACTIVATION EFFICIENCY
 ═══════════════════════════════════════════════════════
 
-  CLAIM: Auditory input kích hoạt NHIỀU hệ thống não hơn bất kỳ
-    single-modality input nào khác, từ PASSIVE exposure.
+  CLAIM: Auditory input activates MORE brain systems than any other
+    single-modality input, from PASSIVE exposure alone.
 
   EVIDENCE:
     🟢 Grahn & Brett 2007 (Journal of Cognitive Neuroscience):
       Motor areas (supplementary motor area, premotor, putamen) active during PASSIVE rhythm listening.
-      = Nghe rhythm → motor system tự fire → KHÔNG cần action.
-      KHÔNG modality nào khác trigger motor TỰ ĐỘNG từ passive input.
+      = Hearing rhythm → motor system fires automatically → NO action required.
+      NO other modality triggers motor systems AUTOMATICALLY from passive input.
 
     🟢 Salimpoor et al. 2011 (Nature Neuroscience 14:257-262):
       Caudate (anticipation) + Nucleus Accumbens (experience) active during music.
-      = Reward system active từ passive listening.
+      = Reward system active from passive listening.
 
     🟢 Blood & Zatorre 2001 (PNAS):
       Music → amygdala, insula, orbitofrontal cortex.
-      = Emotion system active từ passive listening.
+      = Emotion system active from passive listening.
 
     🟢 Koelsch 2014 (review):
       Music activates: auditory, motor, limbic, frontal, parietal, reward.
-      = Multiple systems ĐỒNG THỜI từ 1 input stream.
+      = Multiple systems SIMULTANEOUSLY from 1 input stream.
 
-  CÁC HỆ THỐNG ĐƯỢC KÍCH HOẠT TỪ 1 DÒNG MELODY:
+  SYSTEMS ACTIVATED FROM 1 MELODIC STREAM:
     ① Auditory cortex (processing)
     ② Motor system (entrainment — Grahn 2007)
     ③ Emotion system (amygdala, insula — Blood & Zatorre 2001)
@@ -247,57 +247,57 @@
     ⑤ Memory system (hippocampus — familiar melodies)
     ⑥ Reward system (VTA/NAcc — Salimpoor 2011)
 
-  SO SÁNH:
-    Visual:  1 hình ảnh tĩnh → visual cortex + some emotion.
-             KHÔNG tự động trigger motor, reward, prediction từ passive.
-    Somatic: kích hoạt insula + somatosensory + emotion.
-             Ít activate motor/reward systems từ passive input.
+  COMPARISON:
+    Visual:  1 static image → visual cortex + some emotion.
+             Does NOT automatically trigger motor, reward, prediction from passive input.
+    Somatic: activates insula + somatosensory + emotion.
+             Rarely activates motor/reward systems from passive input.
 
-    → Auditory = DUY NHẤT trigger automatic motor + reward + prediction
-      TỪ PASSIVE input. Combination = unique.
+    → Auditory = the ONLY modality to trigger automatic motor + reward + prediction
+      FROM PASSIVE input. Combination = unique.
 
   ⚠️ CAVEAT:
-    "~5-6 hệ thống" = ESTIMATE dựa trên review papers (Koelsch 2014).
-    Exact number phụ thuộc cách count systems + loại stimulus.
-    Claim = "disproportionately many" chứ KHÔNG phải "exactly 6."
+    "~5-6 systems" = ESTIMATE based on review papers (Koelsch 2014).
+    Exact number depends on how systems are counted + type of stimulus.
+    Claim = "disproportionately many" NOT "exactly 6."
 
   🟡 "Activation efficiency" as COMPARATIVE metric = framework concept.
     Individual activations = 🟢 established per study.
-    So sánh ACROSS modalities = 🟡 framework synthesis (chưa ai measure directly).
+    Comparison ACROSS modalities = 🟡 framework synthesis (no one has measured this directly).
 
   FRAMEWORK MAPPING:
-    → Activation efficiency = WHY 1 bài hát thay đổi mood nhanh hơn 1 bức ảnh.
-    → = WHY music therapy effective across nhiều conditions.
+    → Activation efficiency = WHY 1 song shifts mood faster than 1 photograph.
+    → = WHY music therapy is effective across many conditions.
     → = WHY sound = powerful emotional tool cross-culturally.
-    → Chi tiết: Drill-Sound-Brain/08 §2 (melody multi-system activator).
+    → Detail: Drill-Sound-Brain/08 §2 (melody multi-system activator).
 
 
 ═══════════════════════════════════════════════════════
 §1.6 — DUAL TONIC/CYCLIC FUNCTION
 ═══════════════════════════════════════════════════════
 
-  CLAIM: Auditory hoạt động ở CẢ 2 chế độ ĐỒNG THỜI:
-    Tonic = background awareness luôn bật (sentinel, ambient monitoring).
+  CLAIM: Auditory operates in BOTH modes SIMULTANEOUSLY:
+    Tonic = background awareness always on (sentinel, ambient monitoring).
     Cyclic = foreground attention peaks (alerting sounds, speech, music).
 
   EVIDENCE:
     🟢 Mismatch negativity (MMN) — Näätänen 1995 (Int J Neuroscience 80:317-337):
-      Deviant sound giữa standard sounds → MMN response.
-      MMN elicited EVEN khi attention hướng elsewhere.
-      = Auditory cortex MONITOR changes trong unattended stream.
-      = Tonic monitoring = hardware-level, không cần ý thức.
+      Deviant sound among standard sounds → MMN response.
+      MMN elicited EVEN when attention is directed elsewhere.
+      = Auditory cortex MONITORS changes in the unattended stream.
+      = Tonic monitoring = hardware-level, does not require consciousness.
 
     🟢 Cocktail party effect — Cherry 1953:
-      Trong phòng đông: theo dõi 1 conversation (Cyclic foreground)
-      ĐỒNG THỜI detect tên mình ở conversation khác (Tonic background).
+      In a crowded room: following 1 conversation (Cyclic foreground)
+      SIMULTANEOUSLY detecting your own name in another conversation (Tonic background).
       = 2 streams processed SIMULTANEOUSLY: 1 attended + 1 monitored.
 
-  SO SÁNH:
+  COMPARISON:
     Visual:  primarily Cyclic (foveal attention shifts via saccades).
              Peripheral vision = weak background monitoring.
-             KHÔNG có equivalent of cocktail party (cannot "see" 2 scenes simultaneously).
-    Somatic: primarily Tonic (body state monitoring liên tục).
-             Ít Cyclic (body KHÔNG "peak" attention giống auditory alerting).
+             NO equivalent of the cocktail party effect (cannot "see" 2 scenes simultaneously).
+    Somatic: primarily Tonic (continuous body state monitoring).
+             Less Cyclic (body does NOT "peak" attention the way auditory alerting does).
 
     → Auditory = STRONG at BOTH Tonic + Cyclic SIMULTANEOUSLY → unique.
 
@@ -308,10 +308,10 @@
   FRAMEWORK MAPPING:
     → Dual function = WHY background music → Background-Pattern formation (Tonic)
       WHILE foreground conversation → Chunk formation (Cyclic).
-    → = WHY sound environment affects processing EVEN khi không chú ý.
-    → = WHY noise pollution → ảnh hưởng cognitive performance
+    → = WHY sound environment affects processing EVEN when not attending.
+    → = WHY noise pollution → affects cognitive performance
       (Tonic channel overloaded → less capacity for Cyclic foreground).
-    → Chi tiết: Drill-Sound-Brain/05 §7 (sound oscillates Tonic ↔ Cyclic).
+    → Detail: Drill-Sound-Brain/05 §7 (sound oscillates Tonic ↔ Cyclic).
 ```
 
 ---
@@ -319,11 +319,11 @@
 ## §2 — CROSS-PARAMETER MAPPING
 
 ```
-⭐ SOUND ẢNH HƯỞNG MỌI OBSERVATION PARAMETER:
+⭐ SOUND AFFECTS ALL OBSERVATION PARAMETERS:
 
-  Mỗi parameter: stimulus → property nào enable → framework file reference.
-  Đây KHÔNG phải claim mới — mỗi connection ĐÃ CÓ trong framework.
-  File này THỐNG NHẤT chúng thành 1 bức tranh: WHY sound cross-parameter.
+  Each parameter: stimulus → which property enables it → framework file reference.
+  This is NOT a new claim — each connection ALREADY EXISTS in the framework.
+  This file UNIFIES them into 1 picture: WHY sound is cross-parameter.
 
 
 ═══════════════════════════════════════════════════════
@@ -333,14 +333,14 @@
   STIMULUS: Tiger roar, scream, crash, alarm, thunder, growling.
 
   PROPERTIES ENABLE:
-    #1 Always-on → threat detected LÚC NGỦ (tiếng động → wake up).
-    #2 Cross-barrier → threat detected TRƯỚC visual (behind wall, in darkness).
+    #1 Always-on → threat detected WHILE ASLEEP (sound → wake up).
+    #2 Cross-barrier → threat detected BEFORE visual (behind wall, in darkness).
 
   MECHANISM:
-    🟢 Amygdala subcortical pathway (~12ms cho threatening sounds).
-    Sound → thalamus (medial geniculate nucleus) → amygdala TRƯỚC cortical processing.
-    = Body-feedback TRƯỚC PFC awareness.
-    → "Giật mình" khi nghe tiếng lớn = amygdala fire TRƯỚC conscious.
+    🟢 Amygdala subcortical pathway (~12ms for threatening sounds).
+    Sound → thalamus (medial geniculate nucleus) → amygdala BEFORE cortical processing.
+    = Body-feedback BEFORE PFC awareness.
+    → "Startling" when hearing a loud sound = amygdala fires BEFORE conscious awareness.
 
   → Neural-Processing-Flow.md §3.3 (many-to-many mapping, subcortical path).
 
@@ -352,16 +352,16 @@
   STIMULUS: Music, pleasant voice, laughter, nature sounds (rain, birds).
 
   PROPERTY ENABLE:
-    #5 Activation efficiency → 1 melody → multiple reward sources ĐỒNG THỜI.
+    #5 Activation efficiency → 1 melody → multiple reward sources SIMULTANEOUSLY.
 
   MECHANISM:
     🟢 7-step reward pipeline (Salimpoor 2011: caudate → NAcc).
     Prediction → prediction-delta → salience → Body-Feedback-Precondition check
     → coherence → opioid → subjective pleasure.
-    Music = 1 trong những case CLEAREST cho 7-step pipeline.
+    Music = one of the CLEAREST cases for the 7-step pipeline.
 
   → Dopamine-Is-Not-Reward.md, Prediction-Error-Is-Not-Reward.md.
-  → Chi tiết: Drill-Sound-Brain/03 (7-step validation).
+  → Detail: Drill-Sound-Brain/03 (7-step validation).
 
 
 ═══════════════════════════════════════════════════════
@@ -371,16 +371,16 @@
   STIMULUS: Speech, verbal instruction, language, stories, podcasts.
 
   PROPERTIES ENABLE:
-    #4 Temporal encoding → language = temporal sequence → auditory channel tự nhiên.
-    #3 Pre-birth → language rhythm compiled TRƯỚC sinh (Moon et al. 1993).
+    #4 Temporal encoding → language = temporal sequence → natural auditory channel.
+    #3 Pre-birth → language rhythm compiled BEFORE birth (Moon et al. 1993).
 
   MECHANISM:
     Verbal input → Wernicke's area (comprehension) → chunk formation.
     Broca's area: sequential/hierarchical structure processing.
-    = Phần lớn formal knowledge transfer qua auditory channel (lecture, conversation).
+    = Most formal knowledge transfer occurs via the auditory channel (lecture, conversation).
 
   → Chunk.md, Modality.md §1 ⑥ Communication.
-  → Chi tiết: 04-Auditory-System-Arc.md (development timeline).
+  → Detail: 04-Auditory-System-Arc.md (development timeline).
 
 
 ═══════════════════════════════════════════════════════
@@ -395,9 +395,9 @@
     #4 Temporal encoding → temporal patterns → predict WHAT COMES NEXT.
 
   MECHANISM:
-    Nghe bước chân bên kia tường → predict: "có người → sắp vào."
-    Nghe engine sound → predict: "xe tải, tốc độ trung bình, đang đến gần."
-    Nghe tone of voice → predict: intention TRƯỚC content processed.
+    Hearing footsteps through a wall → predict: "someone is there → about to enter."
+    Hearing engine sound → predict: "truck, medium speed, approaching."
+    Hearing tone of voice → predict: intention BEFORE content is processed.
     → Sound often = FIRST signal → shapes prediction BEFORE other modalities.
 
   → Prediction-Error-Is-Not-Reward.md (prediction cycle).
@@ -411,16 +411,16 @@
 
   PROPERTIES ENABLE:
     #4 Temporal encoding → real-time gap exchange in conversation.
-    #5 Activation efficiency → playing music cùng nhau = Tier 3 compound.
+    #5 Activation efficiency → playing music together = Tier 3 compound.
 
   MECHANISM:
-    Conversation: 2 người exchange gaps qua auditory channel → real-time resonance.
+    Conversation: 2 people exchange gaps via auditory channel → real-time resonance.
     Active music (singing/playing together): motor + auditory + emotional sync
     → compound resonance exceeding passive shared experience.
-    Music taste similarity: enhancer cho resonance probability (Boer 2011).
+    Music taste similarity: enhancer for resonance probability (Boer 2011).
 
   → By-Product-Gap-Resonance.md.
-  → Chi tiết: Drill-Sound-Brain/04 (5-step social mechanism chain).
+  → Detail: Drill-Sound-Brain/04 (5-step social mechanism chain).
 
 
 ═══════════════════════════════════════════════════════
@@ -431,17 +431,17 @@
     repeated music listening, workplace noise.
 
   PROPERTIES ENABLE:
-    #1 Always-on → continuous formation (sound environment luôn có).
+    #1 Always-on → continuous formation (sound environment is always present).
     #6 Dual Tonic/Cyclic → Tonic channel → invisible pattern accumulation.
 
   MECHANISM:
-    10 năm nghe jazz → gist extraction → abstract aesthetic pattern.
-    PFC label: "gu" → substitutes investigation → identity.
-    Tonic listeners (luôn có nhạc nền) = STRONGEST Background-Pattern.
+    10 years of listening to jazz → gist extraction → abstract aesthetic pattern.
+    PFC label: "taste" → substitutes investigation → identity.
+    Tonic listeners (always have background music) = STRONGEST Background-Pattern.
     Always-on → sound environment AFFECTs processing EVEN without attention.
 
   → Background-Pattern.md (2D model, Triple Bias).
-  → Chi tiết: Drill-Sound-Brain/02 (8 insights, Low Depth + HIGH Density).
+  → Detail: Drill-Sound-Brain/02 (8 insights, Low Depth + HIGH Density).
 
 
 ═══════════════════════════════════════════════════════
@@ -451,65 +451,65 @@
   STIMULUS: Voice, music taste, lullaby, phone call, behind-wall recognition.
 
   PROPERTIES ENABLE:
-    #3 Pre-birth → giọng mẹ = FIRST entity identifier (before face recognition).
+    #3 Pre-birth → mother's voice = FIRST entity identifier (before face recognition).
     #4 Temporal encoding → voice unique per person (fundamental frequency + formants).
-    #2 Cross-barrier → identify entity qua tường (phone call, adjacent room).
+    #2 Cross-barrier → identify entity through walls (phone call, adjacent room).
 
   MECHANISM:
-    Voice = entity identifier TRƯỚC visual trong nhiều context:
+    Voice = entity identifier BEFORE visual in many contexts:
       Phone call: voice ONLY → entity recognized.
-      Adjacent room: "Ai nói vậy?" → voice → identify WITHOUT seeing.
-      Newborn: prefer giọng mẹ 2-3 ngày tuổi (DeCasper 1980).
-    Music taste = compatibility signal cho Entity-Compiled formation.
+      Adjacent room: "Who said that?" → voice → identify WITHOUT seeing.
+      Newborn: prefers mother's voice at 2-3 days old (DeCasper 1980).
+    Music taste = compatibility signal for Entity-Compiled formation.
 
   → Entity-Compiled.md, Connection.md.
-  → Chi tiết: Drill-Sound-Brain/04 §3 (taste → resonance chain).
+  → Detail: Drill-Sound-Brain/04 §3 (taste → resonance chain).
 
 
 ═══════════════════════════════════════════════════════
 §2.8 — Sound → Boredom
 ═══════════════════════════════════════════════════════
 
-  STIMULUS: Silence (đột ngột), repetitive sound, prediction complete.
+  STIMULUS: Silence (sudden), repetitive sound, prediction complete.
 
   PROPERTIES ENABLE:
-    #1 Always-on → silence NOTICEABLE (vs darkness khi mắt nhắm = bình thường).
-    #6 Dual Tonic/Cyclic → khi cả 2 channel prediction-delta = 0 → boredom.
+    #1 Always-on → silence NOTICEABLE (vs darkness when eyes are closed = normal).
+    #6 Dual Tonic/Cyclic → when both channel prediction-delta = 0 → boredom.
 
   MECHANISM:
     Repetitive sound → prediction complete → delta = 0 → search behavior.
-    "Chán 1 bài nhạc" = VTA habituation + prediction completion.
-    Silence sau noise → sudden delta (từ expected-noise sang actual-silence)
-    → CÓ THỂ = alerting (silence = threat?) hoặc relief (noise stops).
+    "Getting bored of a song" = VTA habituation + prediction completion.
+    Silence after noise → sudden delta (from expected-noise to actual-silence)
+    → MAY BE alerting (silence = threat?) or relief (noise stops).
 
   → Boredom.md (prediction-delta = 0 formula).
-  → Chi tiết: Drill-Sound-Brain/02 §5 (3 Satiation Types × music).
+  → Detail: Drill-Sound-Brain/02 §5 (3 Satiation Types × music).
 
 
 ═══════════════════════════════════════════════════════
 ⭐ CROSS-PARAMETER SUMMARY
 ═══════════════════════════════════════════════════════
 
-  ┌──────────────────┬──────────────────────────────────────────┐
-  │ Parameter        │ Properties Enable                        │
-  ├──────────────────┼──────────────────────────────────────────┤
-  │ Threat           │ #1 Always-on + #2 Cross-barrier          │
-  │ Reward           │ #5 Activation efficiency                 │
-  │ Chunks/Knowledge │ #4 Temporal + #3 Pre-birth               │
-  │ Prediction       │ #2 Cross-barrier + #4 Temporal           │
-  │ Resonance        │ #4 Temporal + #5 Activation efficiency   │
-  │ Background-Pattern│ #1 Always-on + #6 Dual Tonic/Cyclic    │
-  │ Entity/Connection│ #3 Pre-birth + #4 Temporal + #2 Barrier  │
-  │ Boredom          │ #1 Always-on + #6 Dual Tonic/Cyclic      │
-  └──────────────────┴──────────────────────────────────────────┘
+  ┌──────────────────────┬──────────────────────────────────────────┐
+  │ Parameter            │ Properties Enable                        │
+  ├──────────────────────┼──────────────────────────────────────────┤
+  │ Threat               │ #1 Always-on + #2 Cross-barrier          │
+  │ Reward               │ #5 Activation efficiency                 │
+  │ Chunks/Knowledge     │ #4 Temporal + #3 Pre-birth               │
+  │ Prediction           │ #2 Cross-barrier + #4 Temporal           │
+  │ Resonance            │ #4 Temporal + #5 Activation efficiency   │
+  │ Background-Pattern   │ #1 Always-on + #6 Dual Tonic/Cyclic      │
+  │ Entity/Connection    │ #3 Pre-birth + #4 Temporal + #2 Barrier  │
+  │ Boredom              │ #1 Always-on + #6 Dual Tonic/Cyclic      │
+  └──────────────────────┴──────────────────────────────────────────┘
 
-  → Mỗi property xuất hiện ≥ 2 lần trong bảng.
-  → 6 properties CÙNG NHAU → cover ALL parameters.
+  → Each property appears ≥ 2 times in the table.
+  → 6 properties TOGETHER → cover ALL parameters.
   → = Hardware architecture → cross-parameter influence.
 
   🟡 Cross-parameter mapping as UNIFIED analysis = framework synthesis.
-    Mỗi connection riêng lẻ = established hoặc supported.
-    Bức tranh THỐNG NHẤT = framework contribution.
+    Each individual connection = established or supported.
+    The UNIFIED picture = framework contribution.
 ```
 
 ---
@@ -524,23 +524,23 @@
 
   ① NOCTURNAL SURVIVAL:
     Properties #1 Always-on + #2 Cross-barrier = night sentinel.
-    Primates: gốc nocturnal (early primates = đêm hoạt động).
-    Predator detection in darkness → survival advantage CỰC LỚN.
-    → Nghe > Nhìn vào ban đêm → evolution favor auditory sentinel.
-    → = WHY con người VẪN giật mình khi nghe tiếng lạ ban đêm
-      (hardware CŨ, environment MỚI).
+    Primates: nocturnal origins (early primates = active at night).
+    Predator detection in darkness → ENORMOUS survival advantage.
+    → Hearing > Seeing at night → evolution favors auditory sentinel.
+    → = WHY humans STILL startle at unfamiliar sounds at night
+      (OLD hardware, NEW environment).
 
   ② SOCIAL COORDINATION:
     Property #4 Temporal encoding → language = temporal sequence.
     → Language evolved ON TOP OF auditory channel (not visual).
     Group warning calls → shared threat detection (multi-individual survival).
     Music/rhythm → group synchronization (Savage 2021 Music as Social Bonding).
-    → = WHY human society PHỤTHUỘC sound communication.
+    → = WHY human society DEPENDS ON sound communication.
 
   ③ MOTHER-INFANT BOND:
-    Property #3 Pre-birth compilation → giọng mẹ = first entity.
-    → Infant recognizes caregiver VÀO NGÀY ĐẦU TIÊN → proximity seeking.
-    → Lullaby = universal across cultures → auditory bonding tool.
+    Property #3 Pre-birth compilation → mother's voice = first entity.
+    → Infant recognizes caregiver ON THE FIRST DAY → proximity seeking.
+    → Lullaby = universal across cultures → an auditory bonding tool.
     → = First attachment chunks = auditory → survival via caregiver.
 
   ④ VISUAL COMPLEMENT:
@@ -620,19 +620,19 @@ CAVEATS
 ═══════════════════════════════════════════════════════
 
   ① SOMATIC OVERLAP:
-    Somatic CŨNG partial always-on (body state monitoring).
-    Phân biệt: somatic = INTERNAL, auditory = EXTERNAL.
-    Nếu tính internal monitoring → somatic CŨNG always-on.
+    Somatic is ALSO partially always-on (body state monitoring).
+    Distinction: somatic = INTERNAL, auditory = EXTERNAL.
+    If counting internal monitoring → somatic is ALSO always-on.
     Claim auditory unique = specifically EXTERNAL always-on.
 
   ② OLFACTORY OVERLAP:
-    Olfaction CŨNG cross-barrier (mùi xuyên qua không gian).
-    Phân biệt: olfactory = SLOW + DIFFUSE + low precision.
+    Olfaction is ALSO cross-barrier (scent travels through space).
+    Distinction: olfactory = SLOW + DIFFUSE + low precision.
     Auditory = FAST + DIRECTIONAL + high temporal precision.
     Claim auditory unique = cross-barrier WITH precision + speed.
 
   ③ "~5-6 SYSTEMS" = ESTIMATE:
-    Không claim exact number. "Disproportionately many" = core claim.
+    No claim of exact number. "Disproportionately many" = core claim.
     Exact count depends on granularity of system definition.
 
   ④ CULTURAL VARIATION:
@@ -640,11 +640,11 @@ CAVEATS
     Cross-parameter effects (music→reward) = varies by musical system.
     Western music neuroscience bias acknowledged (drill §9 Limitations).
 
-  ⑤ KHÔNG PHẢI "SOUND QUAN TRỌNG HƠN":
-    File này KHÔNG claim auditory > visual hay bất kỳ modality nào.
-    Claim = auditory ĐẶC BIỆT KHÁC (unique architecture, different role).
-    Visual, somatic, motor, emotional đều QUAN TRỌNG theo cách riêng.
-    Framework value = HIỂU sự khác biệt, không xếp hạng.
+  ⑤ NOT "SOUND IS MORE IMPORTANT":
+    This file does NOT claim auditory > visual or any other modality.
+    Claim = auditory is DISTINCTLY DIFFERENT (unique architecture, different role).
+    Visual, somatic, motor, emotional are all IMPORTANT in their own way.
+    Framework value = UNDERSTANDING the difference, not ranking.
 ```
 
 ---
@@ -662,13 +662,14 @@ CORE ARCHITECTURE
    §4 Modality interaction (3 types: reinforcement, conflict, compensation)
 
 → Neural-Processing-Flow.md v2.0
-   §1 Body sensors (audition: hair cells → cochlear nerve → medial geniculate nucleus → primary auditory cortex)
-   §3.3 Many-to-many mapping (Tai → A1 + Amygdala + Wernicke + Motor cortex)
+   §1 Body sensors (audition: hair cells → cochlear nerve → medial geniculate nucleus
+     → primary auditory cortex)
+   §3.3 Many-to-many mapping (Ear → A1 + Amygdala + Wernicke + Motor cortex)
 
 → Neural-Architecture.md
    Zone B = cortical modality (auditory cortex = Zone B)
 
-→ Core-v7.8-Draft.md
+→ Core-Software.md
    §6.3 Modality Balance = brain-wide hardware property
 
 

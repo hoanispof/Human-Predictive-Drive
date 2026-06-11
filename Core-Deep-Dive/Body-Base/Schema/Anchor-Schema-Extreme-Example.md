@@ -1,101 +1,101 @@
-# Anchor-Schema Extreme Examples — Khi Anchor Quá Mức Gây Hại
+# Anchor-Schema Extreme Examples — When Anchors Go Too Far and Cause Harm
 
-> **Anchor-Schema có 2 failure modes ĐỐI XỨNG:**
-> - **UNDER**: thiếu sync point → cacophony → "chán/lost" (Anchor-Schema.md §5.5)
-> - **OVER**: thừa sync point + skip domain → harm THẬT mà KHÔNG THẤY
+> **Anchor-Schema has 2 SYMMETRICAL failure modes:**
+> - **UNDER**: missing sync point → cacophony → "boredom/lost" (Anchor-Schema.md §5.5)
+> - **OVER**: excess sync point + domain skipped → REAL harm that goes UNNOTICED
 >
-> File này: chuyên về OVER — anchor MẠNH + hardware SMOOTH + domain ✗
-> → Self-reinforcing harm loop, KHÔNG có warning signal từ body
+> This file: specialized on OVER — anchor STRONG + hardware SMOOTH + domain ✗
+> → Self-reinforcing harm loop, NO warning signal from the body
 >
-> = "Body nói ĐÚNG + Domain nói SAI → body THẮNG → harm"
+> = "Body says CORRECT + Domain says WRONG → body WINS → harm"
 
 ---
 
-> **Trạng thái:** COMPLETE — v1.0
-> **Ngày:** 2026-04-10
-> **Vị trí:** Core-Deep-Dive/ (extreme example file cho Anchor-Schema.md)
-> **Flow đọc:**
+> **Status:** COMPLETE — v1.0
+> **Date:** 2026-04-10
+> **Location:** Core-Deep-Dive/ (extreme example file for Anchor-Schema.md)
+> **Reading flow:**
 >   Anchor-Schema.md (concept) →
->   Anchor-Schema-Example.md (ví dụ HEALTHY trên phổ M-S-D-L-X) →
->   **FILE NÀY (ví dụ EXTREME — anchor quá mức gây hại)**
-> **Tiền đề:**
->   Anchor-Schema.md (§1 flow, §2 Trust + Strength + Cost, §3 nguồn, §5.5 cacophony)
->   Anchor-Schema-Example.md (cùng annotation format)
->   Imagine-Final-Evaluation.md §4 (4 góc, đặc biệt Mismatch để contrast)
->   OCD-Analysis.md §4 (love circuit ↔ OCD circuit, applied tới Y4 limerence)
-> **Annotation key:** giống Anchor-Schema-Example.md
+>   Anchor-Schema-Example.md (HEALTHY examples on the M-S-D-L-X spectrum) →
+>   **THIS FILE (EXTREME examples — anchors that go too far and cause harm)**
+> **Prerequisites:**
+>   Anchor-Schema.md (§1 flow, §2 Trust + Strength + Cost, §3 sources, §5.5 cacophony)
+>   Anchor-Schema-Example.md (same annotation format)
+>   Imagine-Final-Evaluation.md §4 (4 corners, especially Mismatch for contrast)
+>   OCD-Analysis.md §4 (love circuit ↔ OCD circuit, applied to Y4 limerence)
+> **Annotation key:** same as Anchor-Schema-Example.md
 >   Anchor / Trust / Strength / Cost / Domain / Source / Outcome
-> **⚠️ 🟡 Framework analysis — patterns observed nhưng cần research validation**
-> **⚠️ Framework cung cấp GÓC NHÌN — không thay thế clinical assessment hoặc therapy**
+> **⚠️ 🟡 Framework analysis — patterns observed but require research validation**
+> **⚠️ Framework provides AN ANGLE OF VIEW — does not replace clinical assessment or therapy**
 
 ---
 
-## §0 — VỊ TRÍ + TÍNH ĐỐI XỨNG
+## §0 — POSITION + SYMMETRY
 
 ```
-ANCHOR-SCHEMA = OPTIMAL ZONE — KHÔNG quá ít, KHÔNG quá nhiều:
+ANCHOR-SCHEMA = OPTIMAL ZONE — not too little, not too much:
 
   ┌─────────────────────────────────────────────────────────────┐
   │                                                             │
   │  UNDER ←———————————— SWEET ZONE ————————————→ OVER         │
   │                                                             │
-  │  Thiếu anchor       Anchor vừa đủ           Anchor quá mức │
-  │  → cacophony       → healthy melody         → Hardware-First│
-  │  → "chán/lost"     → productive drive       → Harm THẬT     │
-  │  → no drive        → sustainable            → KHÔNG thấy    │
+  │  Anchor missing    Anchor just right       Anchor over-zone│
+  │  → cacophony       → healthy melody        → Hardware-First│
+  │  → "boredom/lost"  → productive drive      → REAL Harm     │
+  │  → no drive        → sustainable           → UNDETECTED    │
   │                                                             │
-  │  Anchor-Schema.md  Anchor-Schema-           FILE NÀY       │
+  │  Anchor-Schema.md  Anchor-Schema-          THIS FILE       │
   │  §5.5              Example.md (M-S-D-L-X)                   │
-  │  (Mức 1-3:         (24 ví dụ healthy)                      │
-  │   yếu/thiếu/       trên phổ                                 │
+  │  (Levels 1-3:      (20 healthy examples)                   │
+  │   weak/missing/    across spectrum                          │
   │   conflict)                                                 │
   │                                                             │
   └─────────────────────────────────────────────────────────────┘
 
-  → 2 FAILURE MODES, ĐỐI XỨNG VỀ MẶT CƠ CHẾ:
-    Under: anchor strength < dissonance → KHÔNG sync → tan
-    Over: anchor strength >> dissonance → sync QUÁ MẠNH → override domain
+  → 2 FAILURE MODES, MECHANISTICALLY SYMMETRICAL:
+    Under: anchor strength < dissonance → CANNOT sync → dissolves
+    Over: anchor strength >> dissonance → syncs TOO STRONGLY → overrides domain
 
-  → Cùng concept (Trust ≥ Cost → hold), khác chiều:
-    Under: Trust < Cost → collapse early
-    Over: Trust >> Cost → maintain dù domain ✗ → harm
+  → Same concept (Trust ≥ Cost → holds), different direction:
+    Under: Trust < Cost → collapses early
+    Over: Trust >> Cost → maintains even when domain ✗ → harm
 
 
 YERKES-DODSON ANALOG:
 
   Yerkes-Dodson law (1908 — established 🟢):
-    Performance ≈ inverted-U của arousal
-    → Quá thấp: không động lực, không làm
-    → Vừa: tối ưu performance
-    → Quá cao: anxiety, panic, performance giảm
+    Performance ≈ inverted-U of arousal
+    → Too low: no motivation, no action
+    → Moderate: optimal performance
+    → Too high: anxiety, panic, performance drops
 
-  Anchor-Schema có pattern TƯƠNG TỰ:
-    → Quá yếu: cacophony, không drive, không làm
-    → Vừa đủ: melody smooth, drive có hướng, sustainable
-    → Quá mạnh + skip domain check: harm tự duy trì, không thấy
+  Anchor-Schema has a SIMILAR pattern:
+    → Too weak: cacophony, no drive, no action
+    → Just right: melody smooth, directional drive, sustainable
+    → Too strong + domain check skipped: self-sustaining harm, undetected
 
-  → = Anchor strength có OPTIMAL ZONE
-  → = Goldilocks principle áp dụng cho anchor
+  → = Anchor strength has an OPTIMAL ZONE
+  → = Goldilocks principle applied to anchor
 
 
-HEALTHY SPECTRUM vs EXTREME — KHÁC GÌ:
+HEALTHY SPECTRUM vs EXTREME — WHAT'S DIFFERENT:
 
   Healthy (Anchor-Schema-Example.md):
-    → Anchor strength PHÙ HỢP với cost
-    → Domain check ACTIVE — body ↔ domain feedback liên tục
-    → PFC capacity AVAILABLE — có thể adjust khi cần
-    → Body-base WARNING SIGNAL hoạt động (mệt, stress → notice)
-    → Exit POSSIBLE khi cần (cost ≤ benefit)
+    → Anchor strength PROPORTIONAL to real cost
+    → Domain check ACTIVE — body ↔ domain feedback continuous
+    → PFC capacity AVAILABLE — can adjust when needed
+    → Body-base WARNING SIGNAL functions (tired, stressed → noticed)
+    → Exit POSSIBLE when needed (cost ≤ benefit)
 
-  Extreme (FILE NÀY):
-    → Anchor strength VƯỢT QUÁ cost thật
-    → Domain check SKIP hoặc REFRAME (tự bóp méo)
-    → PFC HIJACKED bởi compiled anchor (hoặc cấu trúc xã hội)
-    → Body-base WARNING bị OVERRIDE (smooth > warning)
-    → Exit GẦN NHƯ IMPOSSIBLE (withdrawal multi-channel)
+  Extreme (THIS FILE):
+    → Anchor strength EXCEEDS real cost
+    → Domain check SKIPPED or REFRAMED (distorted)
+    → PFC HIJACKED by compiled anchor (or social structure)
+    → Body-base WARNING OVERRIDDEN (smooth > warning)
+    → Exit NEARLY IMPOSSIBLE (multi-channel withdrawal)
 
-  → = Healthy CÓ feedback loop. Extreme MẤT feedback loop.
-  → = Extreme = healthy mechanism BỊ BREAK FEEDBACK
+  → = Healthy HAS a feedback loop. Extreme LOSES the feedback loop.
+  → = Extreme = healthy mechanism WITH BROKEN FEEDBACK
 ```
 
 ---
@@ -103,489 +103,502 @@ HEALTHY SPECTRUM vs EXTREME — KHÁC GÌ:
 ## §1 — CONCEPT: HARDWARE-FIRST HARM
 
 ```
-HARDWARE-FIRST HARM = anchor PRIORITIZE hardware smoothness OVER domain reality
+HARDWARE-FIRST HARM = anchor PRIORITIZES hardware smoothness OVER domain reality
 
-  CƠ CHẾ CỐT LÕI:
+  CORE MECHANISM:
 
-    ① Anchor compiled CỰC SÂU (qua repeat / reward / community / emotional peak)
-    ② Hardware = SMOOTH liên tục KHI trong anchor (multi-kênh body reward)
-    ③ Domain feedback ✗ XUẤT HIỆN nhưng bị REFRAME hoặc DISMISS
-    ④ Body signal "đúng đường" override Body signal "có gì đó sai"
-    ⑤ Exit = mất multi-kênh reward cùng lúc → withdrawal CỰC MẠNH
-    ⑥ Self-reinforcing loop KHÔNG có exit condition tự nhiên
+    ① Anchor compiled EXTREMELY DEEP (via repeat / reward / community / emotional peak)
+    ② Hardware = CONTINUOUSLY SMOOTH while inside the anchor (multi-channel body reward)
+    ③ Domain feedback ✗ APPEARS but is REFRAMED or DISMISSED
+    ④ Body signal "on the right path" overrides body signal "something is wrong"
+    ⑤ Exit = losing multi-channel reward simultaneously → EXTREMELY strong withdrawal
+    ⑥ Self-reinforcing loop with NO natural exit condition
 
 
-PHÂN BIỆT VỚI MISMATCH (Imagine-Final-Evaluation.md §4):
+DISTINCTION FROM MISMATCH (Imagine-Final-Evaluation.md §4):
 
   ┌─────────────────────┬──────────────────────┬──────────────────────┐
   │                     │ MISMATCH             │ HARDWARE-FIRST HARM  │
   ├─────────────────────┼──────────────────────┼──────────────────────┤
-  │ Domain              │ ✓ (real path)        │ ✗ (skip/reframe)     │
-  │ Hardware            │ ✗ (body khó chịu)    │ ✓ (body smooth)      │
-  │ Body signal         │ "Mệt, không đúng"    │ "Đang đúng đường"    │
-  │ Self-aware          │ CAO (biết khó chịu)  │ THẤP (không thấy)    │
-  │ Warning signal      │ CÓ (body báo)        │ KHÔNG (body OK)      │
-  │ Exit possible       │ Khả thi (biết khổ)   │ Cực khó (withdrawal) │
-  │ Vị dụ điển hình     │ "Bố mẹ ép bác sĩ"    │ Cult, gaming, cult,  │
-  │                     │ → con biết KHÔNG     │ workaholism → KHÔNG  │
-  │                     │ thích                │ thấy hại             │
+  │ Domain              │ ✓ (real path)        │ ✗ (skipped/reframed) │
+  │ Hardware            │ ✗ (body discomfort)  │ ✓ (body smooth)      │
+  │ Body signal         │ "Tired, feels wrong" │ "On the right path"  │
+  │ Self-awareness      │ HIGH (knows discomf.)│ LOW (can't see it)   │
+  │ Warning signal      │ YES (body warns)     │ NO (body is OK)      │
+  │ Exit possible       │ Feasible (knows hurt)│ Extremely hard       │
+  │                     │                      │  (withdrawal)        │
+  │ Typical example     │ "Parents force child │ Cult, gaming,        │
+  │                     │ to be a doctor" →    │ workaholism → CANNOT │
+  │                     │ child KNOWS they     │ see the harm         │
+  │                     │ don't like it        │                      │
   ├─────────────────────┼──────────────────────┼──────────────────────┤
-  │ Anchor formed?      │ KHÔNG hoặc YẾU       │ CÓ + CỰC MẠNH        │
-  │                     │ (body không accept)  │ (anchor compiled deep│
+  │ Anchor formed?      │ NO or WEAK           │ YES + EXTREMELY STRONG│
+  │                     │ (body doesn't accept)│ (anchor compiled deep│
   ├─────────────────────┼──────────────────────┼──────────────────────┤
-  │ Cách phát hiện      │ Hỏi body: "có       │ Hỏi domain: "kết quả │
-  │                     │ thoải mái không?"    │ thật là gì?"         │
-  │                     │ Body sẽ NÓI thật     │ Self-report KHÔNG    │
-  │                     │                      │ đáng tin → cần bằng  │
-  │                     │                      │ chứng external       │
+  │ How to detect       │ Ask body: "do you    │ Ask domain: "what    │
+  │                     │ feel comfortable?"   │ are the real results?"│
+  │                     │ Body WILL tell truth │ Self-report NOT      │
+  │                     │                      │ reliable → need      │
+  │                     │                      │ external evidence    │
   └─────────────────────┴──────────────────────┴──────────────────────┘
 
-  ⭐ NGHỊCH ĐẢO HOÀN TOÀN:
-    → Mismatch: body NÓI sai → có cảnh báo → CÓ cơ hội nhận ra
-    → Hardware-First: body NÓI đúng → KHÔNG cảnh báo → kéo dài hơn
-    → = Hardware-First NGUY HIỂM HƠN ở 1 điểm cốt lõi: KHÔNG có warning
+  ⭐ COMPLETE INVERSE:
+    → Mismatch: body SPEAKS wrong → there ARE warnings → CHANCE of recognizing
+    → Hardware-First: body SPEAKS right → NO warnings → persists longer
+    → = Hardware-First is UNIQUELY DANGEROUS at 1 core point: NO warnings
 
 
-5 CƠ CHẾ FAIL CỦA DOMAIN CHECK:
+5 DOMAIN CHECK FAILURE MECHANISMS:
 
-  Trong Hardware-First Harm, domain check FAIL theo 5 cách:
+  In Hardware-First Harm, domain check FAILS in 5 ways:
 
-  ① REFRAME (bóp méo nghĩa):
-    → Domain feedback ✗ → diễn giải lại thành "thử thách" / "ý nghĩa khác"
-    → VD: cult phá sản → "Chúa thử thách đức tin"
-    → VD: workaholism + bệnh → "đau là cái giá của thành công"
+  ① REFRAME (distort meaning):
+    → Domain feedback ✗ → reinterpreted as "a challenge" / "different meaning"
+    → Ex: cult bankruptcy → "God is testing your faith"
+    → Ex: workaholism + illness → "pain is the price of success"
 
-  ② DISMISS (gạt bỏ):
-    → Domain feedback ✗ → "không quan trọng" / "tạm thời"
-    → VD: gaming + grades giảm → "thi sau làm lại"
-    → VD: limerence + bạn bè cảnh báo → "họ không hiểu"
+  ② DISMISS (discard):
+    → Domain feedback ✗ → "doesn't matter" / "temporary"
+    → Ex: gaming + grades drop → "I'll retake it next time"
+    → Ex: limerence + friends warn → "they don't understand"
 
-  ③ ISOLATE (cắt input):
-    → Tránh nguồn feedback có thể phản bác
-    → VD: cult cắt liên lạc gia đình → không còn ai nói "sai"
-    → VD: addiction + tránh bác sĩ → không đo health metric
+  ③ ISOLATE (cut input):
+    → Avoid sources of feedback that could refute the anchor
+    → Ex: cult cuts off family contact → no one left to say "you're wrong"
+    → Ex: addiction + avoiding doctors → health metrics not measured
 
-  ④ POSTPONE (hoãn vô hạn):
-    → "Sẽ check sau" → never actually check
-    → VD: workaholism "tuần sau nghỉ" → 10 năm vẫn chưa nghỉ
-    → VD: substance "mai bỏ" → mai vẫn vậy
+  ④ POSTPONE (delay indefinitely):
+    → "Will check later" → never actually checks
+    → Ex: workaholism "I'll rest next week" → 10 years and still no rest
+    → Ex: substance "I'll quit tomorrow" → tomorrow is the same
 
-  ⑤ COUNTER-EVIDENCE BIAS (chỉ thấy bằng chứng ủng hộ):
-    → Cherry-pick evidence supporting anchor
-    → Ignore evidence contradicting
-    → VD: limerence "anh ấy nhắn tin lúc 2h" (positive) → ignore "bỏ rơi 1 tuần"
-    → VD: cult thấy 1 người "được chữa lành" → ignore 100 người không
+  ⑤ COUNTER-EVIDENCE BIAS (only sees supporting evidence):
+    → Cherry-picks evidence supporting the anchor
+    → Ignores contradicting evidence
+    → Ex: limerence "he texted at 2am" (positive) → ignore "he ignored me
+      for a whole week"
+    → Ex: cult sees 1 person "healed" → ignores 100 people who weren't
 
-  → = 5 cơ chế NÀY thường XUẤT HIỆN CÙNG LÚC trong extreme cases
-  → = Mỗi cơ chế = 1 lớp protection cho anchor → khó break
+  → = These 5 mechanisms usually APPEAR SIMULTANEOUSLY in extreme cases
+  → = Each mechanism = 1 layer of protection for the anchor → hard to break
 
 
-CONDITIONS CHO HARDWARE-FIRST HARM HÌNH THÀNH:
+CONDITIONS FOR HARDWARE-FIRST HARM TO FORM:
 
-  Không phải mọi anchor mạnh đều thành Hardware-First Harm.
-  Cần CONDITIONS đặc biệt:
+  Not every strong anchor becomes Hardware-First Harm.
+  Special CONDITIONS are required:
 
-  ① MULTI-CHANNEL REWARD (anchor feed nhiều body channels cùng lúc):
-    → 1 channel: dễ break (chỉ cần channel khác mạnh hơn)
-    → 4+ channels: gần như IMPOSSIBLE break
-    → VD: cult = community + meaning + identity + faith + ritual reward
-    → VD: gaming = novelty + mastery + connection + status
+  ① MULTI-CHANNEL REWARD (anchor feeds multiple body channels simultaneously):
+    → 1 channel: easy to break (just need another channel to be stronger)
+    → 4+ channels: NEARLY IMPOSSIBLE to break
+    → Ex: cult = community + meaning + identity + faith + ritual reward
+    → Ex: gaming = novelty + mastery + connection + status
 
-  ② COMPILED DEEP (qua thời gian + repetition + emotional peak):
-    → Anchor mới: PFC có thể override
-    → Anchor compiled deep: PFC bị override BỞI anchor
-    → Cần: nhiều năm hoặc emotional peak mạnh
+  ② COMPILED DEEP (via time + repetition + emotional peak):
+    → New anchor: PFC can override
+    → Anchor compiled deep: PFC IS OVERRIDDEN by the anchor
+    → Requires: many years OR a strong emotional peak
 
-  ③ DOMAIN BÁN-REAL hoặc UNFALSIFIABLE:
-    → Domain real ✓ → feedback rõ → khó skip
-    → Domain bán-real → feedback ambiguous → dễ reframe
-    → Domain unfalsifiable → KHÔNG CÓ feedback → trust ∞
+  ③ DOMAIN SEMI-REAL OR UNFALSIFIABLE:
+    → Domain real ✓ → feedback clear → hard to skip
+    → Domain semi-real → feedback ambiguous → easy to reframe
+    → Domain unfalsifiable → NO feedback → trust ∞
 
-  ④ EXIT COST CỰC CAO (multi-channel withdrawal):
-    → Exit = mất 1 thứ → có thể chịu
-    → Exit = mất 4+ thứ cùng lúc → cực khó (withdrawal stacks)
+  ④ EXIT COST EXTREMELY HIGH (multi-channel withdrawal):
+    → Exit = losing 1 thing → bearable
+    → Exit = losing 4+ things simultaneously → extremely difficult
+      (withdrawal stacks)
 
-  ⑤ EXTERNAL REINFORCEMENT (xã hội/community ủng hộ HOẶC enable):
-    → Solo anchor: không ai reinforce → dễ doubt
-    → Social reinforcement: cộng đồng confirm → trust amplify
-    → VD: cult community / gaming community / workaholic culture
+  ⑤ EXTERNAL REINFORCEMENT (social/community supports OR enables):
+    → Solo anchor: no one reinforces → easy to doubt
+    → Social reinforcement: community confirms → trust amplifies
+    → Ex: cult community / gaming community / workaholic culture
 
-  → = Khi NHIỀU conditions ĐỒNG THỜI → Hardware-First Harm gần như UNAVOIDABLE
-  → = Vì sao 4 ví dụ Y1-Y4 đều có CẢ 5 conditions
+  → = When MANY conditions COINCIDE → Hardware-First Harm is nearly UNAVOIDABLE
+  → = Why all 4 examples Y1-Y4 have ALL 5 conditions
 ```
 
 ---
 
-## §2 — VÍ DỤ CHI TIẾT (Y1-Y6)
+## §2 — DETAILED EXAMPLES (Y1-Y6)
 
-> Mỗi ví dụ annotate đầy đủ: anchor, trust, strength, cost, domain, source,
-> + 5 conditions (multi-channel / compiled deep / domain / exit cost / external reinforce)
-> + 5 fail mechanisms (reframe / dismiss / isolate / postpone / counter-evidence)
+> Each example annotated fully: anchor, trust, strength, cost, domain, source,
+> + 5 conditions (multi-channel / compiled deep / domain / exit cost /
+>   external reinforce)
+> + 5 fail mechanisms (reframe / dismiss / isolate / postpone /
+>   counter-evidence)
 
 ```
 ═══════════════════════════════════════════════════════════════════
 Y1 — CULT DEPENDENCY (extreme religious/ideological)
 ═══════════════════════════════════════════════════════════════════
 
-  Situation: Bị dẫn dắt vào "hội thánh" cực đoan. Nộp tiền tích đức.
-  Dành toàn bộ thời gian rảnh cầu nguyện. Lôi kéo gia đình tham gia.
-  Cắt liên lạc với bạn bè "không hiểu". Tài sản dần chuyển cho cult.
+  Situation: Drawn into an extremist "church." Donating money to accumulate merit.
+  Spending all free time in prayer. Recruiting family members.
+  Cutting off friends who "don't understand." Assets gradually transferred to the cult.
 
-  ── ANNOTATION CƠ BẢN ──
+  ── CORE ANNOTATION ──
 
-  Anchor: schema "tích đức + cộng đồng = thiên đàng + cứu rỗi"
+  Anchor: schema "accumulate merit + community = heaven + salvation"
   Trust: ∞ (unfalsifiable + community + emotional peak + authority)
-  Strength: COMPILED CỰC SÂU (Nguồn ④ Full Combo)
-  Cost: CỰC CAO
-    → Tài chính: nộp hết tài sản
-    → Thời gian: hết thời gian rảnh
-    → Relationship: gia đình xa lánh
-    → Identity: hòa tan vào nhóm
-  Domain: ✗ — domain feedback NÓI hại RÕ:
-    → Tài chính: phá sản (real, measurable)
-    → Gia đình: tan vỡ (real)
-    → Sức khỏe: kiệt sức ritual (real)
-  Source: ④ External Inject (cult organization) → ③ Compile deep
-  Outcome: harm leo thang dần, exit gần như impossible
+  Strength: COMPILED EXTREMELY DEEP (Source ④ Full Combo)
+  Cost: EXTREME
+    → Financial: donated all assets
+    → Time: all free time consumed
+    → Relationships: family estranged
+    → Identity: dissolved into the group
+  Domain: ✗ — domain feedback CLEARLY indicates harm:
+    → Financial: bankruptcy (real, measurable)
+    → Family: breakdown (real)
+    → Health: ritual exhaustion (real)
+  Source: ④ External Inject (cult organization) → ③ Compiled deep
+  Outcome: harm escalates gradually, exit nearly impossible
 
-  ── 5 CONDITIONS (tất cả ✓) ──
+  ── 5 CONDITIONS (all ✓) ──
 
-  ① Multi-channel reward: ✓✓✓ (CỰC MẠNH)
+  ① Multi-channel reward: ✓✓✓ (EXTREMELY STRONG)
     → Community → oxytocin (belonging)
     → Ritual → repeat reward (predictable)
-    → Meaning → "tôi đang làm điều cao cả" (purpose)
-    → Identity → "tôi LÀ con của Chúa/Đấng X" (self-concept)
-    → Faith → cortisol giảm (anxiety buffer)
-    → Status (trong nhóm) → recognition
-    → = 6 KÊNH CÙNG LÚC — gần như KHÔNG có hoạt động khác match được
+    → Meaning → "I am doing something profound" (purpose)
+    → Identity → "I AM a child of God/Being X" (self-concept)
+    → Faith → cortisol decreases (anxiety buffer)
+    → Status (within the group) → recognition
+    → = 6 CHANNELS SIMULTANEOUSLY — almost no other activity can match it
 
   ② Compiled deep: ✓
-    → Ritual hàng tuần × hàng năm
-    → Emotional peak (lễ lớn, "cứu rỗi" experience, group prayer)
-    → Repetition + emotion = compile NHANH + SÂU
+    → Weekly rituals × years
+    → Emotional peak (major ceremonies, "salvation" experience, group prayer)
+    → Repetition + emotion = compile FAST + DEEP
 
   ③ Domain unfalsifiable: ✓
-    → "Thiên đàng" = không thể test
-    → "Tích đức" = không thể đo
-    → Mọi outcome reframe được ("Chúa thử thách" / "phước lành")
+    → "Heaven" = cannot be tested
+    → "Accumulating merit" = cannot be measured
+    → Every outcome can be reframed ("God's test" / "a blessing")
 
-  ④ Exit cost cực cao: ✓
-    → Mất 6 channels cùng lúc
-    → + Mất identity ("tôi LÀ ai nếu rời cult?")
-    → + Mất community (cult tách khỏi outside)
-    → + Mất narrative (sống vì cái gì giờ?)
-    → = Withdrawal CỰC mạnh
+  ④ Exit cost extremely high: ✓
+    → Loses 6 channels simultaneously
+    → + Loses identity ("who am I if I leave the cult?")
+    → + Loses community (cult has isolated from the outside world)
+    → + Loses narrative (what am I living for now?)
+    → = EXTREMELY strong withdrawal
 
   ⑤ External reinforcement: ✓✓✓
-    → Cult community ACTIVELY reinforce
-    → Cult ISOLATE khỏi outside (us vs them narrative)
-    → Authority figures (leader, elders) confirm liên tục
-    → = Reinforcement không bao giờ ngừng
+    → Cult community ACTIVELY reinforces
+    → Cult ISOLATES from outside (us vs them narrative)
+    → Authority figures (leader, elders) confirm continuously
+    → = Reinforcement never stops
 
-  → = 5/5 conditions ĐỀU MẠNH → Hardware-First Harm CỰC ĐOAN
+  → = 5/5 conditions ALL STRONG → Hardware-First Harm EXTREME
 
-  ── 5 FAIL MECHANISMS (tất cả ACTIVE) ──
+  ── 5 FAIL MECHANISMS (all ACTIVE) ──
 
-  ① Reframe: "phá sản = thử thách Chúa" / "đức tin được test"
-  ② Dismiss: "vật chất là phù du, tâm linh mới quan trọng"
-  ③ Isolate: cult cắt liên lạc với gia đình "không hiểu"
-  ④ Postpone: "sẽ giải quyết sau khi đạt cấp X" (không bao giờ đạt)
-  ⑤ Counter-evidence bias: chỉ kể chuyện "phép lạ", ignore failures
+  ① Reframe: "bankruptcy = God's test" / "faith is being tested"
+  ② Dismiss: "material things are transient, only the spiritual matters"
+  ③ Isolate: cult cuts off family who "don't understand"
+  ④ Postpone: "will deal with it after reaching level X" (never reached)
+  ⑤ Counter-evidence bias: only shares "miracle" stories, ignores failures
 
-  → = TẤT CẢ 5 mechanism active → domain check HOÀN TOÀN bị khoá
+  → = ALL 5 mechanisms active → domain check COMPLETELY BLOCKED
 
   ── EXIT MECHANISM ──
 
-  Cách thoát (rất hiếm):
-    → External intervention (gia đình rút bằng force)
-    → Cult sụp đổ (leader exposed → community tan)
-    → Domain feedback CỰC RÕ không thể reframe (chết người trong cult)
-    → Slow deprogramming (cult expert + therapy nhiều năm)
+  Ways out (very rare):
+    → External intervention (family removes by force)
+    → Cult collapses (leader exposed → community dissolves)
+    → Domain feedback SO CLEAR it cannot be reframed (deaths inside the cult)
+    → Slow deprogramming (cult expert + therapy over many years)
 
-  Sau khi thoát:
-    → Identity vacuum CỰC LỚN
+  After leaving:
+    → ENORMOUS identity vacuum
     → PTSD common
-    → Phải rebuild MỌI reward channel
+    → Must rebuild EVERY reward channel
     → 🟢 Cult recovery research: Singer & Lalich 1995, Lifton 1961
 
-  ⭐ NOTE: Y1 = Hardware-First đầu bảng — vì 5/5 conditions ĐỀU MẠNH NHẤT
-    → Cult là 1 trong những cấu trúc xã hội ENGINEER hardware-first harm
-      (intentionally hoặc evolved)
-    → Tại sao tồn tại nghìn năm qua nhiều dạng (religion, ideology, MLM, ...)
+  ⭐ NOTE: Y1 = Hardware-First at the very top — because 5/5 conditions are
+    ALL AT MAXIMUM STRENGTH
+    → Cult is one of the social structures that ENGINEERS hardware-first harm
+      (intentionally or evolved)
+    → Why it has persisted for thousands of years in many forms (religion,
+      ideology, MLM, ...)
 
 
 ═══════════════════════════════════════════════════════════════════
-Y2 — THREAT LOOP (mẹ-con, 2 anchors feed nhau)
+Y2 — THREAT LOOP (mother-child, 2 anchors feeding each other)
 ═══════════════════════════════════════════════════════════════════
 
-  Situation: Mẹ ép con học thêm. "Không học → ăn đòn."
-  Mẹ cũng bị install: "Con phải bằng bạn → MẸ không xấu hổ."
-  Loop kéo dài nhiều năm — cả 2 đều stuck.
+  Situation: Mother pressures child into extra tutoring. "No studying → you'll be beaten."
+  Mother herself was also installed: "My child must keep up with others →
+  I won't be able to show my face."
+  Loop persists for years — both are stuck.
 
-  ── ANNOTATION 2 ANCHORS ──
+  ── ANNOTATION FOR 2 ANCHORS ──
 
-  ANCHOR MẸ: "con học thêm → KHÔNG bị thua kém → mẹ KHÔNG xấu hổ"
+  MOTHER'S ANCHOR: "child does extra tutoring → NOT falling behind → I am NOT shamed"
     Trust: negative (threat-based, social comparison)
-    Strength: COMPILED (④ install từ xã hội VN)
-    Cost: vừa (đưa đón, học phí, cãi nhau)
-    Domain: BÁN-REAL (học thêm CÓ THỂ giúp, KHÔNG guarantee)
-    Hardware mẹ: SMOOTH khi con đi học (anxiety "thua kém" GIẢM)
+    Strength: COMPILED (④ installed by Vietnamese society)
+    Cost: moderate (driving, tuition, arguments)
+    Domain: SEMI-REAL (extra tutoring MAY help, NOT guaranteed)
+    Mother's hardware: SMOOTH when child is studying (anxiety of "falling behind" DECREASES)
 
-  ANCHOR CON: "học → KHÔNG bị mẹ đánh"
+  CHILD'S ANCHOR: "study → NOT beaten by mother"
     Trust: negative (pure survival threat)
-    Strength: COMPILED qua repeat đòn
-    Cost: cao (dissonance hàng ngày, không thích, mệt)
-    Domain: BÁN-REAL
-    Hardware con: KHÔNG smooth — nhưng threat > dissonance → CHỊU
+    Strength: COMPILED through repeated hitting
+    Cost: high (daily dissonance, dislike, fatigue)
+    Domain: SEMI-REAL
+    Child's hardware: NOT smooth — but threat > dissonance → endures
 
   ── LOOP DYNAMICS ──
 
-  → Mẹ ép → con học → mẹ BỚT anxiety → mẹ thấy "work" → ép TIẾP
-  → Con chịu → mẹ confirm → mẹ ép NHIỀU HƠN
-  → = Hardware MẸ smooth dần (anxiety giảm)
-  → = Hardware CON CHRONIC dissonance — nhưng compiled quen → "bình thường"
+  → Mother pressures → child studies → mother's anxiety DECREASES → mother sees
+    "it works" → keeps pressuring
+  → Child complies → mother confirms → mother pressures MORE
+  → = Mother's hardware gradually smooth (anxiety decreases)
+  → = Child's hardware CHRONIC DISSONANCE — but compiled into "normal"
   → = SELF-REINFORCING LOOP
 
-  ⚠️ ĐẶC BIỆT: Đây KHÔNG phải Hardware-First THUẦN CHỦ THỂ
-  → Mẹ: Hardware-First HARM (mẹ smooth nhưng con bị hại)
-  → Con: Mismatch + threat override (con biết khó chịu nhưng không thoát được)
-  → = Hybrid: Hardware-First Y BÊN MẸ + Mismatch BÊN CON
-  → = "Anchor cho NGƯỜI KHÁC" (empathy-driven nhưng MISDIRECTED)
+  ⚠️ NOTE: This is NOT a pure Hardware-First Harm TO ONE SUBJECT
+  → Mother: Hardware-First HARM (mother is smooth but child is harmed)
+  → Child: Mismatch + threat override (child knows it's uncomfortable but cannot escape)
+  → = Hybrid: Hardware-First ON THE MOTHER'S SIDE + Mismatch ON THE CHILD'S SIDE
+  → = "Anchor for ANOTHER PERSON" (empathy-driven but MISDIRECTED)
 
-  ── 5 CONDITIONS (mẹ-side) ──
+  ── 5 CONDITIONS (mother-side) ──
 
-  ① Multi-channel reward (mẹ): ✓✓
-    → Anxiety relief (giảm "sợ thua kém")
-    → Identity ("tôi LÀ mẹ tốt")
-    → Social status (con học giỏi → mẹ có face)
-    → Control feel (mình đang làm gì đó để fix)
+  ① Multi-channel reward (mother): ✓✓
+    → Anxiety relief (reduces fear of "falling behind")
+    → Identity ("I AM a good mother")
+    → Social status (child does well in school → mother has face)
+    → Control feeling (I'm doing something to fix it)
 
-  ② Compiled deep: ✓ (cả đời mẹ install từ xã hội VN)
+  ② Compiled deep: ✓ (mother was installed by Vietnamese society her whole life)
 
-  ③ Domain bán-real: ✓
-    → "Học thêm → bằng bạn" = partially true
-    → "Bằng bạn = thành công" = bán-real
-    → Reframe được nhiều cách
+  ③ Domain semi-real: ✓
+    → "Extra tutoring → keep up with others" = partially true
+    → "Keep up = success" = semi-real
+    → Can be reframed in many ways
 
-  ④ Exit cost cao: ✓
-    → Bỏ ép = anxiety mẹ tăng vọt
-    → Bỏ ép = "thua kém" feel real
-    → Bỏ ép = identity "mẹ tốt" bị threat
+  ④ Exit cost high: ✓
+    → Stop pressuring = mother's anxiety spikes
+    → Stop pressuring = "falling behind" feels real
+    → Stop pressuring = identity "good mother" is threatened
 
   ⑤ External reinforcement: ✓✓✓
-    → CẢ XÃ HỘI VN reinforce ("nhà bác X cũng cho con học thêm")
-    → Comparison liên tục (Facebook, họ hàng, giáo viên)
-    → KHÔNG có ai phản đối
+    → THE ENTIRE Vietnamese SOCIETY reinforces ("the X family also sends their
+      child to extra tutoring")
+    → Continuous comparison (social media, relatives, teachers)
+    → No one objects
 
-  → = 5/5 conditions ✓ → mẹ stuck trong hardware-first
+  → = 5/5 conditions ✓ → mother stuck in hardware-first
 
   ── 5 FAIL MECHANISMS ──
 
-  ① Reframe: "tôi ép con vì YÊU con" (love narrative)
-  ② Dismiss: "con không hiểu, nó còn nhỏ" (ignore con's distress)
-  ③ Isolate: chỉ nghe ý kiến đồng ý ("bố nó cũng vậy")
-  ④ Postpone: "sau này con cảm ơn mẹ" (kick down road)
-  ⑤ Counter-evidence bias: nhớ điểm cao, quên những lần con khóc
+  ① Reframe: "I pressure my child because I LOVE them" (love narrative)
+  ② Dismiss: "the child doesn't understand, they're still young" (ignore child's distress)
+  ③ Isolate: only listens to agreeing opinions ("their father is the same")
+  ④ Postpone: "someday the child will thank me" (kick it down the road)
+  ⑤ Counter-evidence bias: remembers high scores, forgets times child cried
 
   ── EXIT MECHANISM ──
 
-  Cực khó vì:
-    → Mẹ KHÔNG THẤY hại (mẹ feel đang đúng)
-    → Con KHÔNG THOÁT được (không có power, threat-locked)
-    → Xã hội KHÔNG support exit (ai cũng làm vậy)
+  Extremely difficult because:
+    → Mother DOES NOT SEE the harm (mother feels she is doing the right thing)
+    → Child CANNOT ESCAPE (has no power, threat-locked)
+    → Society DOES NOT SUPPORT exit (everyone does it this way)
 
-  Cách break (hiếm):
+  Ways to break it (rare):
     → External: school counselor, therapist
-    → Crisis: con suy sụp nặng, suicidal → wake-up call
-    → Education: mẹ học về child psychology / parenting research
-    → Generation shift: thế hệ sau ít làm vậy hơn
+    → Crisis: child has serious breakdown, suicidal ideation → wake-up call
+    → Education: mother learns about child psychology / parenting research
+    → Generational shift: the next generation does it less
 
-  ⭐ NOTE: Y2 = Hardware-First DẠNG ẨN — vì:
-    → Mẹ "đang làm điều tốt" theo chuẩn xã hội
-    → Con là người chịu hại, không phải mẹ
-    → = "Empathy-driven anchor" bị MISDIRECTED → harm người mình muốn bảo vệ
-    → = 1 trong những patterns PHỔ BIẾN NHẤT ở VN/Asia
+  ⭐ NOTE: Y2 = HIDDEN Hardware-First Harm — because:
+    → Mother is "doing the right thing" by social norms
+    → Child is the one absorbing the harm, not the mother
+    → = "Empathy-driven anchor" MISDIRECTED → harms the person you want to protect
+    → = One of the MOST COMMON patterns in Vietnam/Asia
 
 
 ═══════════════════════════════════════════════════════════════════
-Y3 — GAMING ADDICTION (multi-channel reward override L1-L2)
+Y3 — GAMING ADDICTION (multi-channel reward overrides L1-L2)
 ═══════════════════════════════════════════════════════════════════
 
-  Situation: Chơi game 12-16 tiếng/ngày. Quên ăn, thiếu ngủ.
-  Bỏ học/việc. Body atrophy. Eyes hại. Relationship bỏ bê.
+  Situation: Gaming 12-16 hours/day. Forgetting to eat, sleep-deprived.
+  Dropping school/work. Body atrophy. Eye damage. Relationships neglected.
 
-  ── ANNOTATION CƠ BẢN ──
+  ── CORE ANNOTATION ──
 
-  Anchor: schema "chơi game → reward" (compiled qua hàng nghìn giờ)
-  Trust: positive CỰC CAO (mỗi session reward THẬT)
-  Strength: COMPILED CỰC SÂU
-  Cost: CỰC CAO nhưng KHÔNG FEEL cao
-    → Time: 12-16 tiếng/ngày
-    → Health: thiếu ngủ, thiếu ăn, mắt, body atrophy
-    → Career: bỏ học/việc
-    → Relationship: bỏ bê
-  Domain: ✗ ở bên ngoài game (L1-L2 thiếu, career ✗, relationship ✗)
-  Source: ③ Compiled (hàng nghìn giờ) + ④ External (game design exploit)
-  Outcome: kiệt sức, depression, social isolation, có thể death (cực hiếm)
+  Anchor: schema "play game → reward" (compiled through thousands of hours)
+  Trust: positive EXTREMELY HIGH (every session delivers REAL reward)
+  Strength: COMPILED EXTREMELY DEEP
+  Cost: EXTREME but DOESN'T FEEL extreme
+    → Time: 12-16 hours/day
+    → Health: sleep deprivation, malnutrition, eye damage, body atrophy
+    → Career: dropping school/work
+    → Relationships: neglected
+  Domain: ✗ outside the game (L1-L2 deficient, career ✗, relationships ✗)
+  Source: ③ Compiled (thousands of hours) + ④ External (game design exploitation)
+  Outcome: exhaustion, depression, social isolation, potentially death (extremely rare)
 
-  ── 5 CONDITIONS (tất cả ✓) ──
+  ── 5 CONDITIONS (all ✓) ──
 
-  ① Multi-channel reward: ✓✓✓ (4 KÊNH CỦA BODY-BASE CÙNG LÚC)
-    → Novelty (level mới, loot box, RNG) → dopamine
+  ① Multi-channel reward: ✓✓✓ (4 BODY-BASE CHANNELS SIMULTANEOUSLY)
+    → Novelty (new level, loot box, RNG) → dopamine
     → Mastery (skill up, achievement) → opioid
     → Connection (guild, team voice chat) → oxytocin
     → Status (ranking, leaderboard) → serotonin
-    → = ENGINEERED to feed 4 kênh — không hoạt động truyền thống nào match được
+    → = ENGINEERED to feed 4 channels — no traditional activity can match it
 
   ② Compiled deep: ✓
-    → Hàng nghìn giờ play
-    → Variable reward = compile FASTER (Skinner box mechanism)
+    → Thousands of hours played
+    → Variable reward = compiles FASTER (Skinner box mechanism)
     → Emotional peak (epic moments, clutch wins) = compile
 
-  ③ Domain bán-real (in-game) + skip real-world domain:
-    → IN game: domain ✓ (skill thật, ranking thật, achievement thật)
-    → OUTSIDE game: domain ✗ (career, health, relationship ✗)
-    → → Skip real-world bằng cách FOCUS in-game domain (real but irrelevant)
+  ③ Domain semi-real (in-game) + skips real-world domain:
+    → IN game: domain ✓ (skill is real, ranking is real, achievement is real)
+    → OUTSIDE game: domain ✗ (career, health, relationships ✗)
+    → → Skips real-world by FOCUSING on in-game domain (real but irrelevant)
 
-  ④ Exit cost CỰC CAO: ✓✓
-    → Mất 4 channels CÙNG LÚC
-    → Real-world rewards CHẬM HƠN, KHÓ HƠN game
-    → → "Quit game" = chuyển sang sa mạc reward (so với game)
-    → Withdrawal real (giống addiction)
+  ④ Exit cost EXTREME: ✓✓
+    → Loses 4 channels SIMULTANEOUSLY
+    → Real-world rewards SLOWER, HARDER than game
+    → → "Quit gaming" = switch to a reward desert (compared to gaming)
+    → Withdrawal is real (resembles addiction)
 
   ⑤ External reinforcement: ✓✓
     → Gaming community (toxic positivity)
-    → Game design (engineered for addiction)
+    → Game design (engineered for engagement)
     → Streaming culture (success stories)
-    → → KHÔNG ai trong community nói "dừng đi"
+    → → No one in the community says "you should stop"
 
   ── 5 FAIL MECHANISMS ──
 
-  ① Reframe: "tôi đang phát triển skill" / "esports là career"
-  ② Dismiss: "ăn sau, 1 trận nữa" (L1 signal ignored)
-  ③ Isolate: "không ai hiểu mình ngoài guild" (cắt outside relationship)
-  ④ Postpone: "tuần sau giảm" / "thi xong sẽ dừng"
-  ⑤ Counter-evidence bias: nhớ epic wins, quên hours wasted + life damage
+  ① Reframe: "I'm developing skills" / "esports is a career"
+  ② Dismiss: "eat later, just one more match" (L1 signal ignored)
+  ③ Isolate: "no one outside my guild understands me" (cuts outside relationships)
+  ④ Postpone: "I'll cut back next week" / "I'll stop after exams"
+  ⑤ Counter-evidence bias: remembers epic wins, forgets hours wasted + life damage
 
   ── EXIT MECHANISM ──
 
-  Cách thoát:
-    → External: parents force unplug (trẻ em)
-    → Crisis: health collapse, fail subject, lose job
-    → Slow rebuild: thay thế từng channel bằng activity khác
-      (gym thay mastery, meetup thay connection, work project thay status)
-    → ⚠️ "Cold turkey" hiếm khi work — quá nhiều withdrawal
+  Ways out:
+    → External: parents force unplug (for children)
+    → Crisis: health collapse, failing a subject, losing a job
+    → Slow rebuild: replace each channel with another activity
+      (gym replaces mastery, meetups replace connection, work projects replace status)
+    → ⚠️ "Cold turkey" rarely works — too much withdrawal
 
-  🟢 Game design exploit: variable reward, social binding, status systems
+  🟢 Game design exploitation: variable reward, social binding, status systems
     (Hooked: Eyal 2014; Behavior addiction: Griffiths 2005)
   🟢 Gaming disorder = WHO recognized condition (ICD-11, 2018)
 
-  ⭐ NOTE: Y3 = HARDWARE-FIRST ENGINEERED:
-    → Game design INTENTIONALLY exploit hardware-first mechanism
-    → 4 kênh body reward stack = không phải accident → designed
-    → = Modern phenomenon: technology can ENGINEER extreme anchor
-    → = Cảnh báo cho: short video, slot machine, dating app — cùng pattern
+  ⭐ NOTE: Y3 = ENGINEERED HARDWARE-FIRST:
+    → Game design INTENTIONALLY exploits the hardware-first mechanism
+    → 4 body reward channels stacked = not an accident → designed
+    → = Modern phenomenon: technology can ENGINEER an extreme anchor
+    → = Warning for: short-form videos, slot machines, dating apps — same pattern
 
 
 ═══════════════════════════════════════════════════════════════════
-Y4 — LIMERENCE EXTREME (lụy tình mê muội, toxic relationship)
+Y4 — LIMERENCE EXTREME (toxic relationship, obsessive love)
 ═══════════════════════════════════════════════════════════════════
 
-  Situation: Yêu say đắm 1 người. Toxic relationship (cheating,
-  manipulation, có thể bạo lực). "Biết hại nhưng KHÔNG bỏ được."
-  Bỏ bê career, gia đình, bạn bè. Identity hòa tan vào partner.
+  Situation: Deeply in love with someone. Toxic relationship (cheating,
+  manipulation, possibly violence). "Knows it's harmful but CANNOT leave."
+  Neglecting career, family, friends. Identity dissolved into the partner.
 
-  ── ANNOTATION CƠ BẢN ──
+  ── CORE ANNOTATION ──
 
-  Anchor: schema "người này = TẤT CẢ" (compiled qua bond + serotonin shift)
-  Trust: positive CỰC CAO + ego-dystonic (biết sai mà vẫn tin)
+  Anchor: schema "this person = EVERYTHING" (compiled via bond + serotonin shift)
+  Trust: positive EXTREMELY HIGH + ego-dystonic (knows it's wrong but still believes)
   Strength: COMPILED DEEP
-    → Bond schema (evolved cho mate)
+    → Bond schema (evolved for mate)
     → Attachment compiled
-    → Identity hòa tan ("không có anh ấy tôi chẳng là gì")
-  Cost: CỰC CAO
-    → Time: tất cả
+    → Identity dissolved ("without them I am nothing")
+  Cost: EXTREME
+    → Time: everything
     → Energy: emotional drain
-    → Other relationships: bỏ bê
-    → Self: lose identity, lose career focus
-    → CÓ THỂ: physical safety
+    → Other relationships: neglected
+    → Self: loss of identity, career focus gone
+    → POSSIBLY: physical safety
   Domain: ✗
-    → Partner toxic / manipulative / có thể bạo lực
+    → Partner is toxic / manipulative / possibly violent
     → Pattern: on-off, gaslighting, intermittent reinforcement
   Source: ③ Compiled (bond) + serotonin shift (OCD-like state)
-  Outcome: depression, PTSD, có thể chết người (extreme cases)
+  Outcome: depression, PTSD, possibly death (extreme cases)
 
-  ── 5 CONDITIONS (tất cả ✓) ──
+  ── 5 CONDITIONS (all ✓) ──
 
   ① Multi-channel reward: ✓✓✓
     → Dopamine (novelty per interaction — UNPREDICTABLE = MORE dopamine)
     → Oxytocin (bond, physical proximity)
-    → Opioid (body reward khi cùng nhau)
+    → Opioid (body reward when together)
     → Possibly status (partner attractive/successful → social proof)
-    → = INTERMITTENT REINFORCEMENT = mạnh nhất theo Skinner research
+    → = INTERMITTENT REINFORCEMENT = strongest per Skinner research
     → 🟢 Variable ratio reinforcement = strongest learning schedule
 
   ② Compiled deep: ✓
-    → Bond schema = evolved (hardwired cho mate selection)
-    → + Emotional peak (huge highs trong on-off relationship)
-    → = compile EXTRA fast
+    → Bond schema = evolved (hardwired for mate selection)
+    → + Emotional peak (huge highs in on-off relationship)
+    → = compiles EXTRA fast
 
-  ③ Domain bán-real:
-    → Partner CÓ THẬT, relationship CÓ THẬT
-    → NHƯNG: toxic pattern = domain ✗ ở mức relationship quality
-    → Reframe: "anh ấy chỉ nóng tính" / "lần này sẽ khác"
+  ③ Domain semi-real:
+    → Partner IS REAL, relationship IS REAL
+    → BUT: toxic pattern = domain ✗ at the relationship quality level
+    → Reframe: "he's just hot-tempered" / "this time will be different"
 
-  ④ Exit cost CỰC CAO: ✓✓✓
+  ④ Exit cost EXTREME: ✓✓✓
     → Withdrawal = physical pain (Eisenberger 2003 🟢)
-    → Mất 4 channels cùng lúc
-    → Identity collapse ("tôi LÀ ai nếu không có anh ấy?")
-    → Future uncertainty ("không bao giờ tìm được người khác")
-    → = One of HIGHEST exit costs
+    → Loses 4 channels simultaneously
+    → Identity collapse ("who am I without them?")
+    → Future uncertainty ("I'll never find anyone else")
+    → = One of the HIGHEST exit costs
 
   ⑤ External reinforcement: VARIES
-    → Social: bạn bè cảnh báo (ngược → trong limerence: ignore)
-    → Partner: gaslighting, intermittent positive (reinforce inside)
-    → → External reinforcement INSIDE relationship (manipulator)
-    → Outside: usually NEGATIVE (bạn bè concerned)
+    → Social: friends warn (which in limerence: ignored)
+    → Partner: gaslighting, intermittent positives (reinforces inside)
+    → → External reinforcement INSIDE the relationship (from the manipulator)
+    → Outside: usually NEGATIVE (friends concerned)
 
   ── 5 FAIL MECHANISMS ──
 
-  ① Reframe: "anh ấy chỉ nóng tính thôi" / "tình yêu cần hi sinh"
-  ② Dismiss: "lần này sẽ khác" / "anh ấy đang stress"
-  ③ Isolate: cắt bạn bè "không ủng hộ" → chỉ còn partner
-  ④ Postpone: "đợi anh ấy thay đổi"
+  ① Reframe: "he's just hot-tempered" / "love requires sacrifice"
+  ② Dismiss: "this time will be different" / "he's under stress"
+  ③ Isolate: cuts off friends who "don't support" → only the partner remains
+  ④ Postpone: "waiting for him to change"
   ⑤ Counter-evidence bias:
-    → Nhớ moments tốt (highs)
-    → Quên/minimize moments xấu (abuse)
+    → Remembers good moments (the highs)
+    → Forgets/minimizes bad moments (the abuse)
     → = Trauma bonding mechanism
 
   ── EGO-DYSTONIC COMPONENT ──
 
-  → "Biết sai mà không bỏ được" — KHÁC Y1-Y3:
-    → Y1 cult: tin TOÀN TÂM (ego-syntonic)
-    → Y3 gaming: thích game (ego-syntonic)
-    → Y4 limerence: BIẾT toxic NHƯNG vẫn không thoát (ego-dystonic)
-    → = PFC nói "rời" + Body compiled "stay" → BODY THẮNG
-    → = Giống OCD pattern (OCD-Analysis.md §4)
+  → "Knows it's wrong but can't leave" — DIFFERENT from Y1-Y3:
+    → Y1 cult: believes WHOLEHEARTEDLY (ego-syntonic)
+    → Y3 gaming: enjoys gaming (ego-syntonic)
+    → Y4 limerence: KNOWS it's toxic BUT still can't escape (ego-dystonic)
+    → = PFC says "leave" + Body compiled "stay" → BODY WINS
+    → = Resembles OCD pattern (OCD-Analysis.md §4)
 
   ── EXIT MECHANISM ──
 
-  Cách thoát (cực khó):
-    → No-contact rule (cắt input → schema decay)
-    → External support (gia đình, bạn bè, therapist)
-    → Crisis: bạo lực leo thang đến mức đe dọa mạng
-    → Time + distance (withdrawal phải go through)
-    → ⚠️ Average: 7+ attempts trước khi thoát toxic relationship (DV research 🟢)
+  Ways out (extremely difficult):
+    → No-contact rule (cuts input → schema decays)
+    → External support (family, friends, therapist)
+    → Crisis: violence escalates to life-threatening level
+    → Time + distance (withdrawal must be gone through)
+    → ⚠️ Average: 7+ attempts before escaping a toxic relationship
+      (DV research 🟢)
 
   🟢 Limerence research: Tennov 1979
-  🟢 OCD-love circuit overlap: Marazziti 1999 (serotonin transporter giảm 40%)
+  🟢 OCD-love circuit overlap: Marazziti 1999 (serotonin transporter ↓40%)
   🟢 Trauma bonding: Carnes 1997
-  🟢 Domestic violence exit research: Walker 1979 (cycle of abuse)
+  🟢 Cycle of abuse: Walker 1979
+  🟢 Domestic violence exit research: average 7+ attempts
 
   ⭐ NOTE: Y4 = HARDWARE-FIRST + EGO-DYSTONIC HYBRID:
-    → Hardware-First (body smooth khi together) + OCD-like (intrusive obsession)
-    → = Phức tạp nhất trong 4 cases vì BOTH mechanisms
-    → = Tại sao "logic không giúp" (PFC biết sai → không matter)
+    → Hardware-First (body smooth when together) + OCD-like (intrusive obsession)
+    → = Most complex of the 4 cases because BOTH mechanisms are present
+    → = Why "logic doesn't help" (PFC knows it's wrong → doesn't matter)
 ```
 
 ```
@@ -593,38 +606,38 @@ Y4 — LIMERENCE EXTREME (lụy tình mê muội, toxic relationship)
 Y5 — WORKAHOLISM (extreme work, socially approved harm)
 ═══════════════════════════════════════════════════════════════════
 
-  Situation: 35 tuổi. Senior position. Làm 14-16 giờ/ngày, weekend cũng làm.
-  Email lúc 11h tối. Bỏ bữa, ngủ 4-5 tiếng. Không có hobby. Gia đình "đợi
-  tôi xong project này". Sức khỏe đang giảm. Nhưng "làm tốt cho gia đình"
-  và "công ty cần tôi". Mọi người KHEN là chăm chỉ.
+  Situation: Age 35. Senior position. Works 14-16 hours/day, including weekends.
+  Emails at 11pm. Skipping meals, sleeping 4-5 hours. No hobbies. Family "waiting
+  for me to finish this project." Health declining. But "doing it for the family"
+  and "the company needs me." Everyone PRAISES them for being hardworking.
 
-  ── ANNOTATION CƠ BẢN ──
+  ── CORE ANNOTATION ──
 
-  Anchor: schema "làm việc nhiều hơn = thành công + bảo vệ gia đình + có ích"
-  Trust: positive CỰC CAO + identity-merged
-    → Trust positive: "cố hơn → thành quả" (career narrative)
-    → Trust empathy: "vì gia đình" (love narrative)
-    → Trust threat: "nếu dừng → mất cơ hội / bị thay thế" (insecurity)
-    → = MULTI-LAYER trust → cực bền
+  Anchor: schema "work more = success + protecting the family + being useful"
+  Trust: positive EXTREMELY HIGH + identity-merged
+    → Trust positive: "work harder → results" (career narrative)
+    → Trust empathy: "for the family" (love narrative)
+    → Trust threat: "if I stop → lose opportunities / be replaced" (insecurity)
+    → = MULTI-LAYER trust → extremely durable
   Strength: COMPILED DEEP + IDENTITY MERGED
-    → "Tôi LÀ người làm việc chăm chỉ" → identity level
+    → "I AM a hardworking person" → identity level
     → Career = self-worth
-    → Daily routine compiled qua nhiều năm
-  Cost: CỰC CAO nhưng MỜ ĐI bởi narrative
-    → Time: 14-16h/ngày, weekend, holiday
-    → Health: thiếu ngủ, sedentary, stress chronic, diet kém
-    → Relationship: vợ/chồng emotional distance, con không gần
-    → Personal: không hobby, không identity ngoài work
-    → Body-base L1-L2: bỏ qua liên tục
-  Domain: BÁN-REAL → harm
-    → "Làm nhiều = thành công" = bán-real (correlation, NOT causation)
-    → "Làm nhiều = bảo vệ gia đình" = bán-real (efficient > volume)
-    → "Cơ thể chịu được" = ✗ (chronic stress damage)
+    → Daily routine compiled over many years
+  Cost: EXTREME but OBSCURED by the narrative
+    → Time: 14-16h/day, weekends, holidays
+    → Health: sleep deprivation, sedentary, chronic stress, poor diet
+    → Relationships: spouse emotionally distant, children not close
+    → Personal: no hobbies, no identity outside of work
+    → Body-base L1-L2: continuously ignored
+  Domain: SEMI-REAL → harm
+    → "Work more = success" = semi-real (correlation, NOT causation)
+    → "Work more = protect the family" = semi-real (efficient > volume)
+    → "The body can handle it" = ✗ (chronic stress damage)
   Source:
     → ① PFC (rational career planning)
     → ③ Compiled (years of routine)
-    → ④ External (workplace culture, society "chăm chỉ = đức tính")
-    → empathy (cho gia đình)
+    → ④ External (workplace culture, society "hard work = virtue")
+    → Empathy (for the family)
     → = ALL 4 sources reinforcing
   Outcome: burnout, health collapse, relationship breakdown — eventually
 
@@ -634,326 +647,329 @@ Y5 — WORKAHOLISM (extreme work, socially approved harm)
     → Status (career advancement, recognition) → serotonin
     → Mastery (problem-solving, expertise) → opioid
     → Identity (self-worth merged) → meaning
-    → Control (làm gì đó = giảm anxiety) → threat-cessation relief (cortisol rút)
-    → ⚠️ ÍT HƠN gaming (4) hoặc cult (6) — nhưng ĐỦ cho hardware-first
+    → Control (doing something = reduces anxiety) → threat-cessation relief
+      (cortisol recedes)
+    → ⚠️ FEWER THAN gaming (4) or cult (6) — but ENOUGH for hardware-first
 
   ② Compiled deep: ✓
     → Years/decades of routine
-    → Promoted = positive feedback → reinforce
-    → Identity merged ("tôi LÀ X position")
+    → Promoted = positive feedback → reinforces
+    → Identity merged ("I AM a [position]")
 
-  ③ Domain bán-real: ✓
+  ③ Domain semi-real: ✓
     → "Hard work → success" = partial truth
-    → "Long hours → output" = partially true (diminishing returns sau 8h)
-    → "Tôi không thể thay thế" = bán-real (ai cũng thay thế được)
-    → → Reframe được nhiều cách
+    → "Long hours → output" = partially true (diminishing returns after 8h)
+    → "I'm irreplaceable" = semi-real (everyone is replaceable)
+    → → Can be reframed in many ways
 
-  ④ Exit cost CAO: ✓
-    → Mất identity ("tôi LÀ ai nếu không làm?")
-    → Mất status (recognition, salary)
-    → Mất control feel
-    → Existential anxiety ("tôi đã sống vì cái gì?")
+  ④ Exit cost HIGH: ✓
+    → Loses identity ("who am I if I don't work?")
+    → Loses status (recognition, salary)
+    → Loses control feeling
+    → Existential anxiety ("what have I been living for?")
     → Family financial concerns (real)
-    → Boredom + thiếu structure (đặc biệt ở weekend, holiday)
+    → Boredom + lack of structure (especially on weekends, holidays)
 
-  ⑤ External reinforcement: ✓✓✓ (CỰC MẠNH — đặc trưng Y5)
-    → ⭐ XÃ HỘI KHEN: "chăm chỉ", "tận tụy", "trách nhiệm", "đáng học hỏi"
+  ⑤ External reinforcement: ✓✓✓ (EXTREMELY STRONG — distinctive to Y5)
+    → ⭐ SOCIETY PRAISES: "hardworking", "dedicated", "responsible", "exemplary"
     → Boss approves: "you're the MVP"
     → Colleagues envy: "wish I could work like you"
-    → Family ban đầu cũng confirm: "papa làm việc cho gia đình"
-    → → KHÔNG ai nói "you're harming yourself"
-    → → Cảnh báo (nếu có) bị reframe thành "ghen tỵ"
+    → Family initially confirms too: "daddy works hard for us"
+    → → NO ONE says "you're harming yourself"
+    → → Warnings (if any) are reframed as "jealousy"
 
-  → = 4-5/5 conditions ✓ → Hardware-First Harm thật
-  → = NHƯNG ngụy trang HOÀN HẢO bởi social approval
+  → = 4-5/5 conditions ✓ → real Hardware-First Harm
+  → = BUT PERFECTLY DISGUISED by social approval
 
   ── 5 FAIL MECHANISMS ──
 
   ① Reframe:
-    → "Tôi làm vì gia đình" (love narrative)
-    → "Đây là giai đoạn cần cố gắng" (temporary narrative)
-    → "Người thành công đều thế" (universal narrative)
-    → "Đau là cái giá của thành công" (price narrative)
+    → "I work for my family" (love narrative)
+    → "This is a period when you have to push hard" (temporary narrative)
+    → "All successful people are like this" (universal narrative)
+    → "Pain is the price of success" (price narrative)
 
   ② Dismiss:
-    → Body signal "mệt" → "uống cà phê"
-    → Wife says "anh ít ở nhà" → "sau project này"
-    → Doctor says "huyết áp cao" → "không có thời gian khám lại"
+    → Body signal "tired" → "have a coffee"
+    → Wife says "you're rarely home" → "after this project"
+    → Doctor says "your blood pressure is high" → "no time to go back for a checkup"
 
   ③ Isolate:
-    → Bạn bè non-workaholic → "không hiểu áp lực của tôi"
-    → Family time → "có ý nghĩa hơn khi tôi success"
-    → Hobby → "lãng phí thời gian"
-    → → Chỉ còn workplace people (cùng workaholic)
+    → Non-workaholic friends → "they don't understand the pressure I'm under"
+    → Family time → "will be more meaningful when I'm successful"
+    → Hobbies → "waste of time"
+    → → Only workplace people remain (all fellow workaholics)
 
   ④ Postpone:
-    → "Sau project này sẽ nghỉ" — never happens
-    → "Đợi promotion xong" — promotion → next promotion
-    → "Khi con vào đại học" — moving target
-    → "Khi đủ tiền" — definition of "đủ" keeps moving
+    → "After this project I'll rest" — never happens
+    → "Wait until after the promotion" — promotion → next promotion
+    → "When the kids get into university" — moving target
+    → "When I have enough money" — definition of "enough" keeps moving
 
   ⑤ Counter-evidence bias:
-    → Notice: career wins, recognitions
-    → Ignore: health metrics declining, family disconnection
-    → Notice: "ai làm ít hơn cũng kém hơn"
-    → Ignore: balanced people CŨNG thành công
+    → Notices: career wins, recognition
+    → Ignores: declining health metrics, family disconnection
+    → Notices: "people who work less are also less capable"
+    → Ignores: balanced people ALSO succeed
 
-  ── ĐIỂM ĐẶC BIỆT — SOCIALLY APPROVED BLIND SPOT ──
+  ── DISTINCTIVE FEATURE — SOCIALLY APPROVED BLIND SPOT ──
 
-  Y5 KHÁC TẤT CẢ Y1-Y4 ở 1 điểm CỰC QUAN TRỌNG:
+  Y5 DIFFERS FROM ALL Y1-Y4 on 1 EXTREMELY IMPORTANT POINT:
 
   ┌─────────────────┬──────────────┬──────────────────────┐
   │                 │ Stigma?      │ External warning?    │
   ├─────────────────┼──────────────┼──────────────────────┤
-  │ Y1 Cult         │ CÓ           │ CÓ (bạn bè cảnh báo) │
-  │ Y2 Threat loop  │ CÓ phần      │ CÓ (school, therapy) │
-  │ Y3 Gaming       │ CÓ           │ CÓ (parents, society)│
-  │ Y4 Limerence    │ CÓ phần      │ CÓ (friends concerned)│
-  │ Y5 Workaholism  │ ✗ KHÔNG      │ ✗ NGƯỢC LẠI: praised │
+  │ Y1 Cult         │ YES          │ YES (friends warn)   │
+  │ Y2 Threat loop  │ Partially    │ YES (school, therapy)│
+  │ Y3 Gaming       │ YES          │ YES (parents, society)│
+  │ Y4 Limerence    │ Partially    │ YES (friends concern)│
+  │ Y5 Workaholism  │ ✗ NO         │ ✗ OPPOSITE: praised  │
   └─────────────────┴──────────────┴──────────────────────┘
 
-  → Workaholism = HARDWARE-FIRST HARM mà CẢ XÃ HỘI ENABLE
-  → KHÔNG có warning từ:
-    → Body (smooth vì status reward + control feel)
-    → Self (rationalize "vì gia đình")
-    → Society (KHEN — opposite of warning)
-    → Workplace (reward, promote)
-    → Even family (initially confirm "vì chúng ta")
-  → = ZERO warning sources → harm leo thang đến crisis point
+  → Workaholism = HARDWARE-FIRST HARM that SOCIETY ENABLES
+  → NO warnings from:
+    → Body (smooth because of status reward + control feeling)
+    → Self (rationalizes "for my family")
+    → Society (PRAISES — opposite of warning)
+    → Workplace (rewards, promotes)
+    → Even family (initially confirms "for us")
+  → = ZERO warning sources → harm escalates silently → to the crisis point
 
-  → = NGUY HIỂM HƠN nhiều dạng khác ở 1 điểm:
-    KHÔNG CÓ external feedback để wake up
-    Cho tới khi: heart attack, divorce, breakdown, burnout collapse
+  → = MORE DANGEROUS than many other forms in 1 way:
+    NO external feedback to trigger a wake-up
+    Until: heart attack, divorce, breakdown, burnout collapse
 
   ── EXIT MECHANISM ──
 
-  Cách phát hiện (rất khó vì zero warning):
+  How to detect (very hard because zero warning):
     → Crisis (health collapse, divorce papers) — wake-up call
-    → Significant other CỨNG RẮN ("tôi không thể tiếp tục thế này")
-    → Mid-life reflection (40-50 tuổi: "tôi đã sống vì cái gì?")
-    → Therapy (nếu kèm anxiety/depression)
-    → Read về burnout (cognitive recognition)
+    → Significant other being firm ("I can't continue like this")
+    → Mid-life reflection (40-50s: "what have I been living for?")
+    → Therapy (if combined with anxiety/depression)
+    → Reading about burnout (cognitive recognition)
 
-  Cách thoát:
-    → Recognition (hardest step — vì hardware smooth)
-    → Identity work (xây identity ngoài work — slow)
-    → Boundary setting (cứng rắn về working hours)
-    → Hobby rebuild (slow, không tự nhiên cho workaholic)
-    → ⚠️ Often requires CRISIS để start
-    → ⚠️ Relapse common (return to workaholism khi stress)
+  How to exit:
+    → Recognition (hardest step — because hardware is smooth)
+    → Identity work (building identity outside of work — slow)
+    → Boundary setting (firm about working hours)
+    → Hobby rebuilding (slow, unnatural for a workaholic)
+    → ⚠️ Often requires CRISIS to start
+    → ⚠️ Relapse common (return to workaholism under stress)
 
-  🟢 Workaholism research: Oates 1971 (coined term)
+  🟢 Workaholism research: Oates 1971 (coined the term)
   🟢 Burnout: Maslach 1981, WHO recognized 2019
   🟢 Karoshi (death from overwork): Japanese research, documented since 1969
   🟢 Long working hours → cardiovascular disease (Kivimäki 2015 meta-analysis)
   🟢 Hard work culture in Asia (VN, JP, KR, CN): cultural workaholism normalized
 
-  ⭐ NOTE: Y5 = HARDWARE-FIRST DẠNG NGỤY TRANG TỐT NHẤT
+  ⭐ NOTE: Y5 = THE BEST-DISGUISED HARDWARE-FIRST HARM
 
-    Tại sao đặc biệt nguy hiểm:
-      → CÙNG mechanism như cult/gaming/limerence
-      → NHƯNG XÃ HỘI ENABLE thay vì warn
-      → → Zero feedback loop → harm âm thầm → crisis point
+    Why it's especially dangerous:
+      → SAME mechanism as cult/gaming/limerence
+      → BUT SOCIETY ENABLES instead of warning
+      → → Zero feedback loop → harm is silent → reaches crisis point
 
-    Phổ biến CỰC CAO:
+    Extremely prevalent:
       → US: "hustle culture", "rise and grind"
-      → JP: salaryman, karoshi
-      → KR: 996 culture (9am-9pm, 6 days/week)
-      → VN: "chăm chỉ = đức tính", "không sợ khổ"
-      → CN: 996 movement, "neijuan" (involution)
+      → Japan: salaryman, karoshi
+      → Korea: 9-9-6 culture (9am-9pm, 6 days/week)
+      → Vietnam: "hard work = virtue", "never fear hardship"
+      → China: 996 movement, neijuan (involution)
 
-    Tại sao đáng note:
-      → 4 ví dụ Y1-Y4 đều có stigma → có warning
-      → Y5 không có stigma → KHÔNG warning
-      → = Người đọc có thể NHẬN RA mình hoặc người thân
-      → = Practical value cao nhất trong 6 ví dụ
+    Why it's worth noting:
+      → All 4 examples Y1-Y4 have stigma → there ARE warnings
+      → Y5 has no stigma → NO warnings
+      → = Readers may recognize themselves or someone close
+      → = Highest practical value among the 6 examples
 ```
 
 ```
 ═══════════════════════════════════════════════════════════════════
-Y6 — SUBSTANCE ADDICTION (chemical pathway, fundamentally khác)
+Y6 — SUBSTANCE ADDICTION (chemical pathway, fundamentally different)
 ═══════════════════════════════════════════════════════════════════
 
-  Situation: Nghiện rượu (alcoholism). Uống hàng ngày. Sáng dậy đã muốn uống.
-  Không uống → run tay, lo, không ngủ được. Job ảnh hưởng. Liver damage.
-  Gia đình lo. "Tôi kiểm soát được" — nhưng không thể bỏ.
-  (Áp dụng tương tự: opioids, nicotine, cocaine, meth — chỉ khác chi tiết)
+  Situation: Alcoholism. Drinking daily. Craving it first thing in the morning.
+  Not drinking → hand tremors, anxiety, can't sleep. Job impacted. Liver damage.
+  Family worried. "I can control it" — but cannot stop.
+  (Applies similarly to: opioids, nicotine, cocaine, meth — differs only in details)
 
-  ── ANNOTATION CƠ BẢN ──
+  ── CORE ANNOTATION ──
 
-  Anchor: schema "uống → relief + smooth body" (compiled + chemical)
-  Trust: positive CỰC CAO + PHYSICAL CONFIRM
-    → Trust = body THẬT SỰ feel relief mỗi lần uống (chemical guaranteed)
-    → Khác behavioral addiction: chemical reward DIRECT, không qua schema
+  Anchor: schema "drink → relief + smooth body" (compiled + chemical)
+  Trust: positive EXTREMELY HIGH + PHYSICAL CONFIRMATION
+    → Trust = body TRULY feels relief with every drink (chemical guaranteed)
+    → Unlike behavioral addiction: chemical reward is DIRECT, not via schema
   Strength: COMPILED + RECEPTOR-LEVEL CHANGES
-    → Schema compiled qua repeat
+    → Schema compiled through repetition
     → + Receptor downregulation (D2, μ-opioid)
     → + Homeostatic neuroadaptation (CRF, dynorphin upregulate)
-    → = Anchor "vật lý hóa" — không chỉ neural pattern mà physical changes
-  Cost: CỰC CAO
+    → = Anchor "physicalized" — not just a neural pattern but physical changes
+  Cost: EXTREME
     → Health: liver, brain, cardiovascular damage (real, measurable)
-    → Tài chính: chi phí substance + lost income
-    → Relationship: family disconnection
+    → Financial: substance cost + lost income
+    → Relationships: family disconnection
     → Career: performance decline → job loss
-    → Legal: nếu illegal substance
-  Domain: ✗ — domain feedback CỰC RÕ:
-    → Liver enzymes ↑ (đo được)
-    → Hangover hàng ngày
-    → Withdrawal khi không uống
-    → → NHƯNG: domain feedback ✗ bị bypass bởi chemical relief
+    → Legal: if illegal substance
+  Domain: ✗ — domain feedback EXTREMELY CLEAR:
+    → Liver enzymes ↑ (measurable)
+    → Daily hangovers
+    → Withdrawal when not drinking
+    → → BUT: domain feedback ✗ is bypassed by chemical relief
   Source:
     → ③ Compiled (drinking schema)
-    → + CHEMICAL pathway (KHÁC 3 nguồn còn lại — đặc biệt Y6)
-    → ④ Có thể: social drinking culture
-  Outcome: progressive harm, dependency, có thể chết (alcohol withdrawal có thể fatal)
+    → + CHEMICAL pathway (DIFFERENT from the other 3 sources — unique to Y6)
+    → ④ Possibly: social drinking culture
+  Outcome: progressive harm, dependency, possibly death (alcohol withdrawal can
+    be fatal)
 
-  ── ⭐ ĐIỂM KHÁC BIỆT CỐT LÕI: CHEMICAL PATHWAY ──
+  ── ⭐ CORE DISTINGUISHING POINT: CHEMICAL PATHWAY ──
 
-  Y1-Y5: anchor formed qua SCHEMA + CONDITIONING
-    → Body reward đến TỪ schema match (predictive learning)
+  Y1-Y5: anchor formed via SCHEMA + CONDITIONING
+    → Body reward comes FROM schema match (predictive learning)
     → Mechanism: prediction-delta → dopamine → learning
     → = Behavioral pathway
 
-  Y6: anchor formed qua CHEMICAL DIRECT
-    → Substance HIT receptors trực tiếp → dopamine flood
-    → Skip prediction-delta → reward UNCOUPLED with utility
-    → 🟢 Stimulants: block DAT → flood synapse với dopamine
+  Y6: anchor formed via CHEMICAL DIRECT
+    → Substance HITS receptors directly → dopamine flood
+    → Skips prediction-delta → reward UNCOUPLED from utility
+    → 🟢 Stimulants: block DAT → flood synapse with dopamine
     → 🟢 Opioids: μ-receptor → disinhibit VTA GABA → dopamine surge
-    → 🟢 Nicotine: nAChRs trực tiếp trên VTA dopamine neurons
+    → 🟢 Nicotine: nAChRs directly on VTA dopamine neurons
     → 🟢 Alcohol: GABA-A potentiation + NMDA antagonism + indirect dopamine
-    → = SUPRAPHYSIOLOGICAL signal — natural reward không thể match được
+    → = SUPRAPHYSIOLOGICAL signal — natural reward cannot match it
     → 🟢 Volkow, Koob: drugs produce "unearned dopamine signals"
 
-  → = Y6 ở 1 LEVEL khác về mặt mechanism:
+  → = Y6 is at a DIFFERENT LEVEL mechanistically:
     Y1-Y5: schema-mediated reward
-    Y6: chemical-direct reward (bypass prediction-delta)
-    → → Anchor có 1 layer mới: PHYSICAL DEPENDENCY (không chỉ psychological)
+    Y6: chemical-direct reward (bypasses prediction-delta)
+    → → Anchor gains 1 new layer: PHYSICAL DEPENDENCY (not just psychological)
 
-  ── 5 CONDITIONS (đặc biệt mạnh) ──
+  ── 5 CONDITIONS (especially strong) ──
 
   ① Multi-channel reward: ✓ (CHEMICAL stack)
-    → Dopamine surge (mọi substance)
+    → Dopamine surge (all substances)
     → Opioid analog (opioids direct, others indirect)
     → GABA relief (alcohol, benzo) → anxiety drop INSTANT
     → Negative reward removal (withdrawal relief)
-    → ⚠️ KHÁC behavioral: chemical = guaranteed, không phụ thuộc context
-    → = Reward predictability CỰC CAO → compile FAST
+    → ⚠️ DIFFERENT from behavioral: chemical = guaranteed, not context-dependent
+    → = Reward predictability EXTREMELY HIGH → compiles FAST
 
   ② Compiled deep + RECEPTOR CHANGES: ✓✓✓
-    → Schema compile như behavioral
-    → + Physical receptor downregulation (D2, μ-opioid internalize)
+    → Schema compiles as in behavioral
+    → + Physical receptor downregulation (D2, μ-opioid internalization)
     → + Homeostatic upregulation (CRF, dynorphin = "anti-reward state")
-    → = Compiled ở mức HARDWARE THẬT (không chỉ software)
+    → = Compiled at the REAL HARDWARE LEVEL (not just software)
     → 🟢 Koob & Le Moal: allostatic load → permanent baseline shift
 
-  ③ Domain real ✗ + bypass:
-    → Domain feedback CỰC RÕ (liver, hangover, withdrawal)
-    → NHƯNG: chemical relief INSTANT > domain feedback DELAYED
-    → "Uống bây giờ → smooth ngay" > "stop → khoẻ trong tháng"
-    → = Time discounting CỰC MẠNH
+  ③ Domain clearly ✗ + bypassed:
+    → Domain feedback EXTREMELY CLEAR (liver damage, hangovers, withdrawal)
+    → BUT: chemical relief INSTANT > domain feedback DELAYED
+    → "Drink now → smooth immediately" > "stop → healthier in a month"
+    → = Time discounting EXTREMELY STRONG
 
-  ④ Exit cost CỰC CAO + PHYSICAL: ✓✓✓
-    → Withdrawal = PHYSICAL pain (không chỉ emotional)
-    → Alcohol/benzo: có thể FATAL (delirium tremens, seizures)
-    → Opioids: severe nhưng rarely fatal
+  ④ Exit cost EXTREME + PHYSICAL: ✓✓✓
+    → Withdrawal = PHYSICAL pain (not just emotional)
+    → Alcohol/benzo: can be FATAL (delirium tremens, seizures)
+    → Opioids: severe but rarely fatal
     → Stimulants: crash, anhedonia, dysphoria
-    → + Protracted withdrawal: months (vs days behavioral)
-    → 🟢 Receptor upregulation slow (months để recovery)
-    → → Exit = bịt mặt vào physical pain wall
+    → + Protracted withdrawal: months (vs days for behavioral)
+    → 🟢 Receptor upregulation slow (months to recovery)
+    → → Exit = running face-first into a wall of physical pain
 
-  ⑤ External reinforcement: VARIES theo substance
-    → Alcohol: SOCIALLY APPROVED (như Y5) — "1 ly bia với bạn"
-    → Nicotine: ngày càng stigma nhưng vẫn social
-    → Opioids: medical context bắt đầu (prescribed), sau bị stigma
-    → Illegal drugs: stigma cao, isolation
-    → → Alcohol đặc biệt nguy hiểm: BOTH chemical strong + social approved
+  ⑤ External reinforcement: VARIES by substance
+    → Alcohol: SOCIALLY APPROVED (like Y5) — "one beer with friends"
+    → Nicotine: increasingly stigmatized but still social
+    → Opioids: medical context initially (prescribed), then stigmatized
+    → Illegal drugs: high stigma, isolation
+    → → Alcohol especially dangerous: BOTH chemical strong + socially approved
 
-  → = TẤT CẢ 5 conditions ✓ + PHYSICAL DEPENDENCY layer
+  → = ALL 5 conditions ✓ + PHYSICAL DEPENDENCY layer
 
   ── 5 FAIL MECHANISMS ──
 
   ① Reframe:
-    → "Tôi cần để relax sau công việc"
-    → "Mọi người đều uống"
-    → "Tôi kiểm soát được" (denial classic)
-    → "Chỉ là bia, không phải rượu mạnh"
+    → "I need it to relax after work"
+    → "Everyone drinks"
+    → "I can control it" (classic denial)
+    → "It's just beer, not hard liquor"
 
   ② Dismiss:
-    → Body warning (run, lo, ngủ kém) → "stress công việc thôi"
-    → Wife concerns → "em làm to chuyện"
-    → Doctor warnings → "bác sĩ phóng đại"
-    → Liver test ✗ → "bao giờ tệ hơn mới lo"
+    → Body warning (tremors, anxiety, insomnia) → "just work stress"
+    → Wife's concerns → "you're making a big deal out of nothing"
+    → Doctor's warnings → "doctors exaggerate"
+    → Liver test ✗ → "I'll worry when it gets worse"
 
   ③ Isolate:
-    → Bạn không uống → "không vui"
-    → Chỉ chơi với drinking buddies
-    → Tránh activities không có drinking
-    → Avoid family events (vì không được uống)
+    → Friends who don't drink → "not fun to be around"
+    → Only socializes with drinking buddies
+    → Avoids activities without drinking
+    → Avoids family events (because no drinking allowed)
 
   ④ Postpone:
-    → "Năm sau sẽ giảm"
-    → "Tết xong sẽ bỏ"
-    → "Khi nào đủ tiền nghỉ đi rehab"
+    → "I'll cut back next year"
+    → "After the holiday season I'll quit"
+    → "When I have enough money to go to rehab"
     → → Goalposts move forever
 
   ⑤ Counter-evidence bias:
-    → Notice: relaxed feeling, social bonding moments
-    → Ignore: hangover, fight với vợ, performance giảm
-    → Notice: "X uống nhiều mà vẫn ổn" (cherry-pick)
-    → Ignore: "Y nghiện rượu chết sớm" (dismiss)
+    → Notices: relaxed feeling, social bonding moments
+    → Ignores: hangovers, fights with spouse, performance drops
+    → Notices: "X drinks a lot and he's fine" (cherry-pick)
+    → Ignores: "Y became an alcoholic and died young" (dismiss)
 
   ── EGO-DYSTONIC + EGO-SYNTONIC HYBRID ──
 
-  Substance addiction phức tạp ở chỗ ego state THAY ĐỔI:
+  Substance addiction is complex in that the ego state CHANGES:
 
-    Lúc craving (trước uống):
-      → Ego-syntonic: "tôi MUỐN uống" (anchor thắng)
-      → Body push mạnh, PFC theo
-    Lúc uống:
-      → Ego-syntonic: "đúng rồi, đây là điều tôi cần"
+    During craving (before drinking):
+      → Ego-syntonic: "I WANT to drink" (anchor wins)
+      → Body push strong, PFC follows
+    While drinking:
+      → Ego-syntonic: "yes, this is what I needed"
       → Smooth, no doubt
-    Lúc hangover/sober:
-      → Ego-DYSTONIC: "tại sao mình lại uống nữa?" (regret)
-      → PFC override vô tác dụng (vì sober → tỉnh nhưng craving sẽ trở lại)
-      → "Lần này sẽ là lần cuối" → 1 ngày sau lại uống
-    → = Ego state DAO ĐỘNG theo chemical level
-    → Khác Y4 limerence (luôn ego-dystonic khi sober)
-    → Khác Y3 gaming (thường ego-syntonic)
+    During hangover/sober:
+      → Ego-DYSTONIC: "why did I drink again?" (regret)
+      → PFC override has no effect (because sober → clear-headed but craving
+        will return)
+      → "This time will be the last" → drinking again 1 day later
+    → = Ego state OSCILLATES with the chemical level
+    → Unlike Y4 limerence (always ego-dystonic when sober)
+    → Unlike Y3 gaming (usually ego-syntonic)
 
   ── EXIT MECHANISM ──
 
-  Cách thoát (cần nhiều layer):
+  Ways out (require multiple layers):
 
   Layer 1 — DETOX (physical):
-    → Cần MEDICAL supervision (alcohol/benzo có thể fatal nếu cold turkey)
+    → Requires MEDICAL supervision (alcohol/benzo can be fatal if cold turkey)
     → Manage withdrawal symptoms
     → Days-weeks
     → 🟢 Detox alone insufficient — relapse rate ~90%
 
   Layer 2 — MAT (Medication-Assisted Treatment):
-    → Methadone/buprenorphine cho opioids (giảm tử vong ~50% 🟢)
-    → Naltrexone/acamprosate cho alcohol
-    → Varenicline/NRT cho nicotine
-    → = Pharmacology giảm withdrawal + reduce craving
-    → 🟢 Strongest evidence cho recovery
+    → Methadone/buprenorphine for opioids (reduces mortality ~50% 🟢)
+    → Naltrexone/acamprosate for alcohol
+    → Varenicline/NRT for nicotine
+    → = Pharmacology reduces withdrawal + reduces cravings
+    → 🟢 Strongest evidence for recovery
 
   Layer 3 — CBT / Contingency Management:
     → Identify triggers
     → Build alternative coping
-    → 🟢 Strong evidence, đặc biệt cho stimulants (no MAT available)
+    → 🟢 Strong evidence, especially for stimulants (no MAT available)
 
   Layer 4 — Social Support:
-    → 12-step (AA, NA) — works for some
+    → 12-step programs (AA, NA) — works for some
     → Therapy
     → Sober community
-    → 🟢 Cochrane 2020: AA ≈ CBT cho engaged participants
+    → 🟢 Cochrane 2020: AA ≈ CBT for engaged participants
 
   Layer 5 — Long-term context change:
     → Avoid triggers
     → Rebuild life meaning (replace anchor)
     → Years of maintenance
 
-  → ⚠️ "Cold turkey willpower" THƯỜNG FAIL — vì physical dependency thật
+  → ⚠️ "Cold turkey willpower" USUALLY FAILS — because physical dependency is real
   → Combined approach (MAT + therapy + social) = strongest
 
   🟢 Volkow et al. addiction neuroscience (multiple papers)
@@ -964,197 +980,200 @@ Y6 — SUBSTANCE ADDICTION (chemical pathway, fundamentally khác)
 
   ⭐ NOTE: Y6 = HARDWARE-FIRST + PHYSICAL DEPENDENCY LAYER
 
-    Tại sao đặc biệt:
-      → 5 ví dụ Y1-Y5 = anchor mạnh ở schema/psychological level
-      → Y6 = anchor mạnh ở schema + RECEPTOR level
-      → = Body literally THAY ĐỔI cấu trúc → exit = vượt qua physical wall
-      → = Tại sao "willpower" alone thường KHÔNG ĐỦ
-      → = Tại sao addiction = medical condition (not moral failing)
+    Why it's distinctive:
+      → 5 examples Y1-Y5 = anchor strong at the schema/psychological level
+      → Y6 = anchor strong at the schema level + RECEPTOR level
+      → = Body literally CHANGES ITS STRUCTURE → exit = overcoming a physical wall
+      → = Why "willpower" alone is usually NOT ENOUGH
+      → = Why addiction = a medical condition (not a moral failing)
 
-    Ý nghĩa cho framework:
-      → Anchor-Schema framework cover được CẢ schema-level lẫn chemical-level
-      → Schema-level = adjustable bằng experience + insight
-      → Chemical-level = cần medical intervention
-      → → Framework PHỐI HỢP với neuroscience — không thay thế
+    Significance for the framework:
+      → Anchor-Schema framework covers BOTH schema-level AND chemical-level
+      → Schema-level = adjustable through experience + insight
+      → Chemical-level = requires medical intervention
+      → → Framework COMPLEMENTS neuroscience — does not replace it
 
-    Đây là 1 ví dụ EDGE — framework đi xa nhất có thể:
-      → Anchor concept vẫn áp dụng
-      → Nhưng cần thêm layer "physical dependency"
-      → = Framework có giới hạn rõ — trên giới hạn này = neuroscience/medicine
+    This is an EDGE example — framework stretches as far as it can:
+      → Anchor concept still applies
+      → But requires an additional "physical dependency" layer
+      → = Framework has clear limits — beyond this limit = neuroscience/medicine
 ```
 
 ---
 
-## §3 — DOSE-DEPENDENT HARM (cùng hành vi, dose khác → outcome khác)
+## §3 — DOSE-DEPENDENT HARM (same behavior, different dose → different outcome)
 
 ```
-Y1-Y6 đa số = OBVIOUSLY EXTREME từ đầu (cult, addiction, workaholism nặng).
-Section này: pattern KHÁC — hành vi BẢN CHẤT trung tính, harm phụ thuộc DOSE.
+Y1-Y6 are mostly OBVIOUSLY EXTREME from the start (cult, addiction, severe workaholism).
+This section: a DIFFERENT pattern — behavior that is INTRINSICALLY neutral, harm
+depends on DOSE.
 
-KHÁC BIỆT với Y1-Y6:
-  Y1-Y6: anchor pathological by nature → harm dù dose nào
-  §3:    anchor neutral by nature → harm CHỈ khi dose vượt threshold
-  → = Dose-dependent harm KHÓ NHẬN RA HƠN — vì "healthy version" tồn tại
+DIFFERENCE FROM Y1-Y6:
+  Y1-Y6: anchor is pathological by nature → harm regardless of dose
+  §3:    anchor is neutral by nature → harm ONLY when dose exceeds threshold
+  → = Dose-dependent harm is HARDER TO RECOGNIZE — because a "healthy version" exists
 
 
 CONCEPT:
 
-  Cùng hành vi → 2 outcomes tùy DOSE:
-    Dose ≤ threshold: anchor healthy → contribute to melody
+  Same behavior → 2 outcomes depending on DOSE:
+    Dose ≤ threshold: anchor healthy → contributes to melody
     Dose > threshold: anchor extreme → Hardware-First Harm
 
-  Threshold KHÁC NHAU per:
-    → Cá nhân (hardware, tolerance)
+  Threshold DIFFERS per:
+    → Individual (hardware, tolerance)
     → Context (life stage, support system)
     → Substance/activity (chemical strength, reward intensity)
 
-  → Không có "1 con số chung" — mỗi người tự tìm threshold của mình
+  → No "single number" — each person finds their own threshold
 
 
-VÍ DỤ DOSE-DEPENDENT:
+DOSE-DEPENDENT EXAMPLES:
 
   ── ALCOHOL ──
-    Dose thấp: 1 ly rượu/tuần với bạn → social bonding, oxytocin → POSITIVE
-    Dose vừa: vài ly cuối tuần → relax, không impact health → BORDERLINE
-    Dose cao: hàng ngày, nhiều ly → liver damage, dependency → Y6 territory
-    Threshold: tùy người (gen, weight, history) — không có universal
+    Low dose: 1 glass/week with friends → social bonding, oxytocin → POSITIVE
+    Moderate dose: a few glasses on weekends → relax, no health impact → BORDERLINE
+    High dose: daily, multiple glasses → liver damage, dependency → Y6 territory
+    Threshold: varies per person (genes, weight, history) — no universal threshold
 
-  ── SOCIAL MEDIA / SCROLL ──
-    Dose thấp: 15-30 phút/ngày → micro relax, stay informed → POSITIVE
-    Dose vừa: 1-2 giờ/ngày → time waste nhẹ, comparison nhẹ → BORDERLINE
-    Dose cao: 4-8 giờ/ngày → addiction-like, anxiety, sleep ✗ → Y3-like
-    Threshold: khi scroll thay thế meaningful activities
+  ── SOCIAL MEDIA / SCROLLING ──
+    Low dose: 15-30 min/day → micro relax, stay informed → POSITIVE
+    Moderate dose: 1-2 hours/day → mild time waste, mild social comparison → BORDERLINE
+    High dose: 4-8 hours/day → addiction-like, anxiety, sleep impaired → Y3-like
+    Threshold: when scrolling replaces meaningful activities
 
   ── CASUAL GAMING ──
-    Dose thấp: 2-4 giờ/tuần → entertainment, social → POSITIVE
-    Dose vừa: 1-2 giờ/ngày → hobby, không impact major → BORDERLINE
-    Dose cao: 8+ giờ/ngày → Y3 territory (gaming addiction)
-    Threshold: khi game thay thế career, relationship, health
+    Low dose: 2-4 hours/week → entertainment, social → POSITIVE
+    Moderate dose: 1-2 hours/day → hobby, no major impact → BORDERLINE
+    High dose: 8+ hours/day → Y3 territory (gaming addiction)
+    Threshold: when gaming replaces career, relationships, health
 
   ── WORK ──
-    Dose thấp: 30-40 giờ/tuần → productive, có balance → POSITIVE
-    Dose vừa: 50-60 giờ/tuần → busy, manageable nếu temporary → BORDERLINE
-    Dose cao: 70+ giờ/tuần chronic → Y5 workaholism territory
-    Threshold: khi work eat into sleep, relationship, health
+    Low dose: 30-40 hours/week → productive, has balance → POSITIVE
+    Moderate dose: 50-60 hours/week → busy, manageable if temporary → BORDERLINE
+    High dose: 70+ hours/week chronically → Y5 workaholism territory
+    Threshold: when work eats into sleep, relationships, health
 
   ── EXERCISE ──
-    Dose thấp: 3-5 giờ/tuần → cardiovascular ↑, mood ↑ → POSITIVE
-    Dose vừa: 10-15 giờ/tuần (athlete) → high performance → BORDERLINE
-    Dose cao: 30+ giờ/tuần (compulsive) → injury, hormone disruption → HARM
-    Threshold: khi exercise INSTEAD of rest, food, social
+    Low dose: 3-5 hours/week → cardiovascular ↑, mood ↑ → POSITIVE
+    Moderate dose: 10-15 hours/week (athlete) → high performance → BORDERLINE
+    High dose: 30+ hours/week (compulsive) → injury, hormone disruption → HARM
+    Threshold: when exercise replaces rest, food, social
 
   ── SHOPPING ──
-    Dose thấp: monthly groceries + occasional treats → NORMAL
-    Dose vừa: weekly retail browse → mild dopamine hit → BORDERLINE
-    Dose cao: compulsive buying, hoarding, debt → HARM
-    Threshold: khi shopping thành coping mechanism
+    Low dose: monthly groceries + occasional treats → NORMAL
+    Moderate dose: weekly retail browsing → mild dopamine hit → BORDERLINE
+    High dose: compulsive buying, hoarding, debt → HARM
+    Threshold: when shopping becomes a coping mechanism
 
-  ── DỤC VỌNG (food, sweets, comfort eating) ──
-    Dose thấp: occasional treats → enjoyment → POSITIVE
-    Dose vừa: regular comfort food khi stress → BORDERLINE
-    Dose cao: compulsive eating, binge → eating disorder territory
-    Threshold: khi food = primary coping
+  ── COMFORT EATING ──
+    Low dose: occasional treats → enjoyment → POSITIVE
+    Moderate dose: regular comfort food when stressed → BORDERLINE
+    High dose: compulsive eating, bingeing → eating disorder territory
+    Threshold: when food = primary coping
 
 
-CƠ CHẾ DOSE-DEPENDENT:
+DOSE-DEPENDENT MECHANISM:
 
-  Tại sao dose tăng → harm tăng theo CURVE (not linear)?
+  Why does increasing dose → harm increases on a CURVE (not linearly)?
 
   ① TOLERANCE BUILD-UP:
-    → Repeat exposure → receptor downregulate
-    → Cùng dose → ít reward dần
-    → Cần dose CAO HƠN cho cùng feeling
-    → = Escalation forced bởi neuroadaptation
+    → Repeat exposure → receptors downregulate
+    → Same dose → less reward over time
+    → Need HIGHER dose for the same feeling
+    → = Escalation forced by neuroadaptation
 
   ② OPPORTUNITY COST COMPOUNDS:
-    → Dose thấp: thay thế ít → cost thấp
-    → Dose cao: thay thế NHIỀU → cost compound
-    → VD: 30 phút scroll = không match được 30 phút khác
-      4 giờ scroll = thay thế 4 giờ ý nghĩa khác
-    → = Cost không linear — exponential khi dose cao
+    → Low dose: replaces little → low cost
+    → High dose: replaces A LOT → cost compounds
+    → Ex: 30 min scrolling = sacrifices 30 min of something else
+      4 hours scrolling = sacrifices 4 hours of something meaningful
+    → = Cost is not linear — exponential at high dose
 
-  ③ DOMAIN FEEDBACK ACCUMULATE:
-    → Dose thấp: domain feedback ✗ nhỏ, recover được
-    → Dose cao: damage tích lũy, recover khó/không được
-    → VD: 1 đêm thiếu ngủ = ok / 6 tháng thiếu ngủ chronic = neural wear
+  ③ DOMAIN FEEDBACK ACCUMULATES:
+    → Low dose: domain feedback ✗ small, recoverable
+    → High dose: damage accumulates, hard/impossible to recover
+    → Ex: 1 night of missed sleep = OK / 6 months of chronic sleep deprivation =
+      neural wear
 
-  ④ SCHEMA COMPILE PROGRESSIVELY:
-    → Repeat → schema compile sâu hơn
-    → Compiled deep → exit cost tăng
-    → → Trapped progressively (frog in boiling water)
+  ④ SCHEMA COMPILES PROGRESSIVELY:
+    → Repeat → schema compiles deeper
+    → Compiled deeper → exit cost increases
+    → → Progressively trapped (frog in boiling water)
 
-  ⑤ SOCIAL/ENVIRONMENTAL ENABLE:
-    → Dose tăng → tìm cộng đồng cùng dose tăng
-    → Cộng đồng REINFORCE dose cao
-    → Bạn bè dose thấp drift away
-    → = Self-selection vào extreme community
+  ⑤ SOCIAL/ENVIRONMENTAL ENABLING:
+    → Dose increases → seeks community with similarly high dose
+    → Community REINFORCES high dose
+    → Low-dose friends drift away
+    → = Self-selection into an extreme community
 
 
-CÁCH NHẬN BIẾT THRESHOLD:
+HOW TO RECOGNIZE THE THRESHOLD:
 
-  KHÔNG có universal threshold. NHƯNG có 4 SIGNALS:
+  No universal threshold. BUT there are 4 SIGNALS:
 
-  SIGNAL 1 — REPLACEMENT (thay thế):
-    "Hành vi này đang THAY THẾ cái gì khác?"
-    → Healthy: complement (game + work + family)
-    → Extreme: replace (game thay work + thay family)
-    → Test: nếu bỏ → còn lại gì?
+  SIGNAL 1 — REPLACEMENT:
+    "What is this behavior REPLACING?"
+    → Healthy: complement (gaming + work + family)
+    → Extreme: replace (gaming instead of work + instead of family)
+    → Test: if you stopped → what would be left?
 
   SIGNAL 2 — BODY SIGNAL OVERRIDE:
-    "Body có báo gì không? Có ignore không?"
-    → Healthy: body signal đến → adjust (ngủ khi mệt, ăn khi đói)
-    → Extreme: body signal bị OVERRIDE liên tục
-    → Test: lần cuối nghỉ ngơi vì body bảo "đủ rồi"?
+    "Is the body sending any signals? Are they being ignored?"
+    → Healthy: body signal arrives → adjust (sleep when tired, eat when hungry)
+    → Extreme: body signals OVERRIDDEN continuously
+    → Test: when was the last time you rested because your body said "that's enough"?
 
   SIGNAL 3 — SOCIAL CONCERN:
-    "Người thân có cảnh báo không?"
-    → Healthy: không ai nói gì hoặc khen
-    → Extreme: gần gũi nhất bắt đầu lo lắng
-    → ⚠️ Workaholism (Y5): social KHEN — signal này bị ngụy trang
-    → → Phải hỏi specific: "anh/em thấy tôi có healthy không?"
+    "Are close ones expressing concern?"
+    → Healthy: no one says anything or praises
+    → Extreme: closest people start to worry
+    → ⚠️ Workaholism (Y5): society PRAISES — this signal is masked
+    → → Must ask specifically: "do you think I'm being healthy?"
 
   SIGNAL 4 — REFLECTION ABILITY:
-    "Có thể nghĩ về behavior này CALMLY không?"
-    → Healthy: yes, có thể discuss objectively
+    "Can you think about this behavior CALMLY?"
+    → Healthy: yes, can discuss objectively
     → Extreme: defensive, rationalize, dismiss
-    → Test: bạn thân hỏi "anh có nghĩ là quá nhiều không?" — phản ứng?
+    → Test: close friend asks "do you think it might be too much?" — what's
+      your reaction?
 
-  4 SIGNALS NÀY = "early warning system" cho dose-dependent
-  → Trước khi vào territory Y1-Y6, signals này thường XUẤT HIỆN
-  → Catch sớm = dễ điều chỉnh
-  → Catch muộn = đã ở Y1-Y6 → exit khó hơn nhiều
+  THESE 4 SIGNALS = "early warning system" for dose-dependent harm
+  → Before entering Y1-Y6 territory, these signals usually APPEAR
+  → Catch early = easy to adjust
+  → Catch late = already in Y1-Y6 → much harder to exit
 
 
 PRACTICAL — 4 ZONES OF DOSE-DEPENDENT:
 
   ┌──────────────────┬────────────────────────────────────────┐
-  │ Zone             │ Đặc điểm                               │
+  │ Zone             │ Characteristics                        │
   ├──────────────────┼────────────────────────────────────────┤
-  │ HEALTHY          │ Complement other activities             │
-  │ (Anchor-Schema-  │ Body báo + adjust được                 │
-  │ Example.md)      │ Social không lo                        │
-  │                  │ Có thể bỏ tạm không stress            │
+  │ HEALTHY          │ Complements other activities           │
+  │ (Anchor-Schema-  │ Body signals → can adjust             │
+  │ Example.md)      │ Social circle not concerned           │
+  │                  │ Can stop temporarily without stress   │
   ├──────────────────┼────────────────────────────────────────┤
-  │ BORDERLINE       │ Bắt đầu thay thế nhẹ                   │
-  │ (transition)     │ Body signal đôi lúc bị ignore         │
-  │                  │ Social bắt đầu nhận xét                │
-  │                  │ Bỏ tạm = mild discomfort               │
+  │ BORDERLINE       │ Starting to mildly replace things     │
+  │ (transition)     │ Body signals occasionally ignored     │
+  │                  │ Social circle starting to comment     │
+  │                  │ Stopping temporarily → mild discomfort│
   ├──────────────────┼────────────────────────────────────────┤
-  │ DEPENDENT        │ Replace nhiều activities                │
-  │ (entering Y      │ Body signal regularly overridden       │
-  │ territory)       │ Social concerns clear                  │
-  │                  │ Bỏ = noticeable distress               │
+  │ DEPENDENT        │ Replaces many activities              │
+  │ (entering Y      │ Body signals regularly overridden     │
+  │ territory)       │ Social concerns clear                 │
+  │                  │ Stopping → noticeable distress        │
   ├──────────────────┼────────────────────────────────────────┤
-  │ EXTREME          │ Y1-Y6 territory                         │
-  │ (Hardware-First  │ Self-aware THẤP                        │
-  │ Harm)            │ Exit cực khó                           │
-  │                  │ External intervention needed            │
+  │ EXTREME          │ Y1-Y6 territory                       │
+  │ (Hardware-First  │ Self-awareness LOW                    │
+  │ Harm)            │ Exit extremely difficult              │
+  │                  │ External intervention needed          │
   └──────────────────┴────────────────────────────────────────┘
 
-  → MOVE FORWARD trên 4 zones = trajectory NGUY HIỂM
-  → Catch ở BORDERLINE = dễ adjust
-  → Catch ở DEPENDENT = khó hơn nhưng còn có thể
-  → Catch ở EXTREME = cần help ngoài
+  → MOVING FORWARD through the 4 zones = a DANGEROUS trajectory
+  → Catching at BORDERLINE = easy to adjust
+  → Catching at DEPENDENT = harder but still possible
+  → Catching at EXTREME = external help needed
 ```
 
 ```
@@ -1163,19 +1182,19 @@ DOSE-DEPENDENT — KEY INSIGHT
 ═══════════════════════════════════════════════════════
 
   ⭐ DOSE-DEPENDENT HARM = "frog in boiling water" pattern:
-    → Tăng dần → không nhận ra threshold
-    → Mỗi step nhỏ feel "không khác hôm qua"
-    → Đột nhiên → đã ở Y territory → exit khó
+    → Increases gradually → threshold goes unnoticed
+    → Each step feels "not different from yesterday"
+    → Suddenly → already in Y territory → hard to exit
 
-  ⭐ KHÁC Y1-Y6 (obviously extreme):
-    → Y1-Y6: pathological from start, dễ recognize (dù khó exit)
-    → Dose-dependent: BẮT ĐẦU healthy, slowly drift
-    → = Catch sớm khó hơn, catch muộn = đã ở Y territory
+  ⭐ DIFFERENT from Y1-Y6 (obviously extreme):
+    → Y1-Y6: pathological from the start, easy to recognize (though hard to exit)
+    → Dose-dependent: STARTS healthy, slowly drifts
+    → = Catching early is harder, catching late = already in Y territory
 
-  ⭐ TẠI SAO ĐÁNG NOTE:
-    → Phần lớn người KHÔNG ở Y1-Y6 (cult, gaming addiction extreme)
-    → NHƯNG NHIỀU người ở borderline/dependent zones
-    → → Section này = practical cảnh báo cho NHIỀU NGƯỜI HƠN
+  ⭐ WHY THIS MATTERS:
+    → Most people are NOT in Y1-Y6 (extreme cult, gaming addiction)
+    → BUT MANY people are in borderline/dependent zones
+    → → This section = practical warning for MANY MORE PEOPLE
     → = Higher practical value than pure extreme cases
 
   🟡 4-zone framework = framework analysis
@@ -1190,14 +1209,14 @@ DOSE-DEPENDENT — KEY INSIGHT
 
 ```
 ═══════════════════════════════════════════════════════
-PATTERN A: 5 CONDITIONS — TẦN SUẤT XUẤT HIỆN
+PATTERN A: 5 CONDITIONS — FREQUENCY OF APPEARANCE
 ═══════════════════════════════════════════════════════
 
-  Bao nhiêu condition mỗi ví dụ có?
+  How many conditions does each example have?
 
   ┌──────────────────┬──────────┬──────────┬──────────┬──────────┬──────────┐
   │                  │ Multi-ch │ Compiled │ Domain   │ Exit cost│ External │
-  │                  │ reward   │ deep     │ unfalse  │ cao      │ reinforce│
+  │                  │ reward   │ deep     │ unfalse  │ high     │ reinforce│
   ├──────────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
   │ Y1 Cult          │ ✓✓✓ (6)  │ ✓✓       │ ✓✓✓      │ ✓✓✓      │ ✓✓✓      │
   │ Y2 Threat loop   │ ✓✓       │ ✓        │ ✓        │ ✓        │ ✓✓✓      │
@@ -1208,36 +1227,36 @@ PATTERN A: 5 CONDITIONS — TẦN SUẤT XUẤT HIỆN
   └──────────────────┴──────────┴──────────┴──────────┴──────────┴──────────┘
 
   OBSERVATIONS:
-    → Multi-channel reward: TẤT CẢ có (mức ≥ ✓✓)
-    → Compiled deep: TẤT CẢ có
-    → Exit cost cao: hầu hết ✓✓✓
-    → External reinforcement: VARIES (Y5 có nhất, Y4 ít nhất)
-    → Domain unfalsifiable: Y1 cao nhất, Y6 thấp nhất
+    → Multi-channel reward: ALL present (level ≥ ✓✓)
+    → Compiled deep: ALL present
+    → Exit cost high: most ✓✓✓
+    → External reinforcement: VARIES (Y5 has most, Y4 has least)
+    → Domain unfalsifiable: Y1 highest, Y6 lowest
 
-  → = Multi-channel reward + Compiled + Exit cost = 3 conditions THEN CHỐT
-  → = Nếu MISS 1 trong 3 → Hardware-First Harm KHÓ HÌNH THÀNH
-  → = Y1 (cult) đáng sợ vì 5/5 conditions ĐỀU MẠNH NHẤT
+  → = Multi-channel reward + Compiled + Exit cost = THE 3 ESSENTIAL CONDITIONS
+  → = If ANY of the 3 is MISSING → Hardware-First Harm IS UNLIKELY TO FORM
+  → = Y1 (cult) is most extreme because 5/5 conditions ARE ALL AT MAXIMUM
 
 
 ═══════════════════════════════════════════════════════
 PATTERN B: 5 FAIL MECHANISMS — APPEAR TOGETHER
 ═══════════════════════════════════════════════════════
 
-  Pattern: 5 fail mechanisms thường XUẤT HIỆN CÙNG LÚC trong extreme cases.
-  KHÔNG ai chỉ dùng 1 fail mechanism — luôn là combo.
+  Pattern: 5 fail mechanisms usually APPEAR SIMULTANEOUSLY in extreme cases.
+  NO ONE uses only 1 fail mechanism — it's always a combo.
 
-  TẠI SAO:
-    → 1 mechanism alone → dễ challenge
-    → Multiple mechanisms → tạo "defense system" cho anchor
-    → Mỗi cái BACK UP cái khác:
-      → Reframe fail → Dismiss kicks in
-      → Dismiss fail → Isolate kicks in
-      → Isolate fail → Postpone kicks in
+  WHY:
+    → 1 mechanism alone → easy to challenge
+    → Multiple mechanisms → creates a "defense system" for the anchor
+    → Each one BACKS UP the others:
+      → Reframe fails → Dismiss kicks in
+      → Dismiss fails → Isolate kicks in
+      → Isolate fails → Postpone kicks in
       → Etc.
 
-  → = "Layered defense" of anchor
-  → = Tại sao single intervention KHÔNG đủ
-  → = Tại sao recovery cần MULTI-pronged approach
+  → = "Layered defense" of the anchor
+  → = Why a single intervention IS NOT ENOUGH
+  → = Why recovery requires a MULTI-PRONGED approach
 
 
 ═══════════════════════════════════════════════════════
@@ -1245,68 +1264,68 @@ PATTERN C: SCHEMA-LEVEL vs CHEMICAL-LEVEL ANCHOR
 ═══════════════════════════════════════════════════════
 
   Y1-Y5: SCHEMA-LEVEL anchor
-    → Anchor formed qua learning + reward + community + identity
+    → Anchor formed via learning + reward + community + identity
     → Mechanism: prediction-delta → dopamine → schema compile
-    → Exit: rebuild schema (khó nhưng possible bằng experience)
+    → Exit: rebuild schema (hard but possible through experience)
 
   Y6: CHEMICAL-LEVEL anchor
-    → Anchor formed qua DIRECT receptor activation
-    → Mechanism: substance hit → unearned dopamine → physical adaptation
-    → Exit: cần MEDICAL approach (MAT) + schema work
-    → = 1 layer extra: PHYSICAL DEPENDENCY
+    → Anchor formed via DIRECT receptor activation
+    → Mechanism: substance hits → unearned dopamine → physical adaptation
+    → Exit: requires MEDICAL approach (MAT) + schema work
+    → = 1 extra layer: PHYSICAL DEPENDENCY
 
-  → Framework cover được CẢ HAI level
-  → Schema-level: framework MẠNH (toàn bộ Anchor-Schema.md áp dụng)
-  → Chemical-level: framework PHỐI HỢP với neuroscience (không thay thế)
-  → Y6 = ranh giới framework — vượt qua = vào medicine territory
+  → Framework covers BOTH levels
+  → Schema-level: framework is STRONG (all of Anchor-Schema.md applies)
+  → Chemical-level: framework COMPLEMENTS neuroscience (does not replace)
+  → Y6 = the boundary of the framework — beyond it = medicine territory
 
 
 ═══════════════════════════════════════════════════════
 PATTERN D: STIGMA vs APPROVAL (warning availability)
 ═══════════════════════════════════════════════════════
 
-  Y1 Cult: STIGMA cao → external warning AVAILABLE
-  Y2 Threat loop (mẹ-con): STIGMA THẤP (xã hội thường accept) → ÍT warning
-  Y3 Gaming: STIGMA cao → warning AVAILABLE
-  Y4 Limerence: STIGMA varies (bạn bè concerned, romance romanticized)
-  Y5 Workaholism: ⭐ KHÔNG stigma → ZERO warning (xã hội KHEN)
-  Y6 Substance: STIGMA varies (alcohol approved socially, drugs stigmatized)
+  Y1 Cult: HIGH stigma → external warning AVAILABLE
+  Y2 Threat loop (mother-child): LOW stigma (society usually accepts) → FEW warnings
+  Y3 Gaming: HIGH stigma → warnings AVAILABLE
+  Y4 Limerence: stigma varies (friends concerned, romance romanticized)
+  Y5 Workaholism: ⭐ NO stigma → ZERO warnings (society PRAISES)
+  Y6 Substance: stigma varies (alcohol socially approved, drugs stigmatized)
 
-  → Y5 ĐẶC BIỆT NGUY HIỂM ở 1 điểm:
-    Cùng harm mechanism + ZERO external warning = catch CỰC MUỘN
+  → Y5 is ESPECIALLY DANGEROUS on 1 point:
+    Same harm mechanism + ZERO external warning = caught EXTREMELY LATE
 
-  → Y2 mẹ-ép-con TƯƠNG TỰ ở Asian context:
-    "ép con học" → SOCIAL APPROVED → mẹ KHÔNG nhận ra harm
+  → Y2 mother-child SIMILAR in Asian context:
+    "Pressuring child to study" → SOCIALLY APPROVED → mother DOESN'T RECOGNIZE harm
 
-  → Pattern: SOCIAL APPROVAL = MASKING của Hardware-First Harm
-    = Người ngoài KHÔNG warn → người trong KHÔNG self-aware
-    = Crisis only stops it
+  → Pattern: SOCIAL APPROVAL = MASKING of Hardware-First Harm
+    = Outsiders WON'T warn → person inside WON'T be self-aware
+    = Only a crisis stops it
 
 
 ═══════════════════════════════════════════════════════
 PATTERN E: EGO STATE — SYNTONIC vs DYSTONIC
 ═══════════════════════════════════════════════════════
 
-  Y1 Cult: EGO-SYNTONIC (tin toàn tâm)
-  Y2 Mẹ ép con: EGO-SYNTONIC (mẹ feel "đang đúng")
-  Y3 Gaming: EGO-SYNTONIC (thích game)
-  Y4 Limerence: EGO-DYSTONIC khi sober ("biết sai mà...")
-  Y5 Workaholism: EGO-SYNTONIC ("tôi cố vì gia đình")
-  Y6 Substance: HYBRID (syntonic khi craving, dystonic khi sober)
+  Y1 Cult: EGO-SYNTONIC (believes wholeheartedly)
+  Y2 Mother-child: EGO-SYNTONIC (mother feels she is doing the right thing)
+  Y3 Gaming: EGO-SYNTONIC (enjoys gaming)
+  Y4 Limerence: EGO-DYSTONIC when sober ("knows it's wrong but...")
+  Y5 Workaholism: EGO-SYNTONIC ("I work hard for my family")
+  Y6 Substance: HYBRID (syntonic when craving, dystonic when sober)
 
   OBSERVATIONS:
     → EGO-SYNTONIC dominates extreme cases
-    → = Người trong cuộc CẢM THẤY ĐÚNG → KHÔNG seek help
-    → = Tại sao external intervention thường THẤT BẠI
-      ("tôi không có vấn đề gì cả!")
+    → = People inside FEEL CORRECT → DON'T seek help
+    → = Why external intervention usually FAILS
+      ("I don't have any problem!")
 
   → EGO-DYSTONIC (Y4, Y6 sober moments) = OPENING for help
-    → Nếu catch lúc dystonic → recovery có thể start
-    → Nếu chỉ catch lúc syntonic → reject help
+    → If caught during dystonic moment → recovery can start
+    → If only caught during syntonic moment → reject help
 
 
 ═══════════════════════════════════════════════════════
-TỔNG HỢP — BẢNG 6 EXAMPLES + DOSE-DEPENDENT
+SUMMARY — TABLE OF 6 EXAMPLES + DOSE-DEPENDENT
 ═══════════════════════════════════════════════════════
 
   ┌──────────┬──────┬──────┬──────┬──────┬──────┬──────┬──────┐
@@ -1316,9 +1335,9 @@ TỔNG HỢP — BẢNG 6 EXAMPLES + DOSE-DEPENDENT
   │ Mechanism│ Sch  │ Sch  │ Sch  │ Sch  │ Sch  │ Chem │ Both │
   │          │      │      │      │      │      │ +Sch │      │
   ├──────────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┤
-  │ Stigma   │ Cao  │ Thấp │ Cao  │ Var  │ ✗    │ Var  │ Var  │
+  │ Stigma   │ High │ Low  │ High │ Var  │ None │ Var  │ Var  │
   ├──────────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┤
-  │ Warning  │ CÓ   │ Ít   │ CÓ   │ Có   │ ZERO │ Var  │ Late │
+  │ Warning  │ YES  │ Few  │ YES  │ Yes  │ ZERO │ Var  │ Late │
   │ available│      │      │      │      │      │      │      │
   ├──────────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┤
   │ Ego state│ Synt │ Synt │ Synt │ Dyst │ Synt │ Hyb  │ Synt │
@@ -1326,24 +1345,24 @@ TỔNG HỢP — BẢNG 6 EXAMPLES + DOSE-DEPENDENT
   │ Exit     │ ✗✗✗  │ ✗✗   │ ✗✗   │ ✗✗✗  │ ✗✗   │ ✗✗✗  │ ✓→✗✗ │
   │ ease     │      │      │      │      │      │      │      │
   ├──────────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┤
-  │ Frequency│ Med  │ Cao  │ Cao  │ Med  │ ⭐CỰC │ Cao  │ ⭐CỰC│
-  │ in life  │      │ (VN) │      │      │ CAO  │      │ CAO  │
+  │ Frequency│ Med  │ High │ High │ Med  │ ⭐EXT │ High │ ⭐EXT│
+  │ in life  │      │ (VN) │      │      │ HIGH │      │ HIGH │
   └──────────┴──────┴──────┴──────┴──────┴──────┴──────┴──────┘
 
   KEY TAKEAWAYS:
-    → Phần lớn người KHÔNG ở Y1-Y4 extreme
-    → NHIỀU người ở Y5 workaholism (xã hội masked)
-    → NHIỀU người ở Y6 substance (alcohol đặc biệt phổ biến)
-    → CỰC NHIỀU người ở dose-dependent borderline/dependent
-    → → File này có practical value HIGH cho dose-dependent + Y5
+    → Most people are NOT in Y1-Y4 extreme
+    → MANY people are in Y5 workaholism (masked by society)
+    → MANY people are in Y6 substance (alcohol especially common)
+    → VERY MANY people are in dose-dependent borderline/dependent zones
+    → → This file has HIGH practical value for dose-dependent + Y5
 
-  Ý NGHĨA cho framework:
-    → Hardware-First Harm KHÔNG hiếm như nghĩ
-    → Thực ra PHỔ BIẾN dưới nhiều dạng masked
-    → "I'm fine" feeling = body smooth từ anchor
-    → Cần external check thay vì self-report
+  Implications for the framework:
+    → Hardware-First Harm is NOT as rare as we think
+    → Actually COMMON in many masked forms
+    → "I'm fine" feeling = body smooth from anchor
+    → Needs external check rather than self-report
     → = Domain feedback (real consequences) > Body feedback (smooth)
-      khi đánh giá Hardware-First territory
+      when assessing Hardware-First territory
 ```
 
 ---
@@ -1351,7 +1370,7 @@ TỔNG HỢP — BẢNG 6 EXAMPLES + DOSE-DEPENDENT
 ## §5 — HONEST ASSESSMENT
 
 ```
-TOÀN FILE — ĐÁNH GIÁ TRUNG THỰC:
+ENTIRE FILE — HONEST EVALUATION:
 
 
 🟢 VERIFIED (research support):
@@ -1359,58 +1378,58 @@ TOÀN FILE — ĐÁNH GIÁ TRUNG THỰC:
   ┌────────────────────────────────────────────────────────────────┐
   │ NEUROSCIENCE OF ADDICTION:                                     │
   │   Mesolimbic dopamine system (VTA → NAc) — established        │
-  │   Substances bypass prediction-delta (Volkow, Koob)             │
-  │   Stimulants block DAT — pharmacology                          │
-  │   Opioids → μ-receptor → VTA disinhibition                     │
-  │   Alcohol: GABA-A potentiation + NMDA antagonism               │
-  │   Tolerance: receptor downregulation (D2, μ-opioid)            │
-  │   Allostatic neuroadaptation (Koob & Le Moal)                  │
-  │   Withdrawal physical: alcohol/benzo (DT seizures fatal),      │
-  │     opioids severe                                              │
-  │   Heritability ~50% (twin studies)                             │
-  │   Gaming disorder = WHO/ICD-11 recognized (2018)              │
-  │                                                                │
-  │ TREATMENT:                                                     │
-  │   MAT effectiveness: opioid mortality reduction ~50%           │
-  │     (methadone, buprenorphine)                                 │
-  │   Naltrexone, acamprosate for alcohol                          │
-  │   CBT + contingency management for stimulants                  │
-  │   Cochrane 2020: AA ≈ CBT for engaged participants             │
-  │                                                                │
-  │ CULT / EXTREME GROUPS:                                         │
-  │   Cult psychology (Singer & Lalich 1995, Lifton 1961)         │
-  │   Thought reform / coercive persuasion documented              │
-  │   Cult recovery requires deprogramming (multiple years)        │
-  │                                                                │
-  │ WORKAHOLISM:                                                   │
-  │   Term coined Oates 1971                                       │
-  │   Burnout (Maslach 1981, WHO 2019)                            │
-  │   Karoshi documented in Japan (1969+)                          │
-  │   Long hours → CVD (Kivimäki 2015 meta-analysis)              │
-  │                                                                │
-  │ LIMERENCE / TOXIC RELATIONSHIPS:                               │
-  │   Limerence (Tennov 1979)                                      │
-  │   Marazziti 1999: serotonin transporter ↓40% in love ≈ OCD    │
-  │   Trauma bonding (Carnes 1997)                                 │
-  │   Cycle of abuse (Walker 1979)                                 │
-  │   DV exit: average 7+ attempts                                 │
-  │   Eisenberger 2003: social pain = physical pain neurally       │
-  │                                                                │
-  │ BEHAVIORAL ADDICTION:                                          │
-  │   Variable ratio reinforcement strongest (Skinner)             │
-  │   Game design exploit: Hooked (Eyal 2014)                      │
-  │   Behavior addiction theory (Griffiths 2005)                   │
-  │                                                                │
-  │ THREAT-BASED PARENTING:                                        │
-  │   Authoritarian parenting outcomes (Baumrind 1967+)           │
-  │   Self-Determination Theory: extrinsic motivation costs        │
-  │     (Deci & Ryan)                                              │
-  │   Asian context cultural pressure documented                   │
-  │                                                                │
-  │ DOSE-DEPENDENT NEUROADAPTATION:                                │
-  │   Tolerance mechanism (substance + behavioral)                 │
-  │   Time discounting bias (behavioral economics)                 │
-  │   Hedonic adaptation (Brickman 1971)                           │
+  │   Substances bypass prediction-delta (Volkow, Koob)           │
+  │   Stimulants block DAT — pharmacology                         │
+  │   Opioids → μ-receptor → VTA disinhibition                   │
+  │   Alcohol: GABA-A potentiation + NMDA antagonism              │
+  │   Tolerance: receptor downregulation (D2, μ-opioid)           │
+  │   Allostatic neuroadaptation (Koob & Le Moal)                 │
+  │   Withdrawal physical: alcohol/benzo (DT seizures fatal),     │
+  │     opioids severe                                             │
+  │   Heritability ~50% (twin studies)                            │
+  │   Gaming disorder = WHO/ICD-11 recognized (2018)             │
+  │                                                               │
+  │ TREATMENT:                                                    │
+  │   MAT effectiveness: opioid mortality reduction ~50%          │
+  │     (methadone, buprenorphine)                                │
+  │   Naltrexone, acamprosate for alcohol                         │
+  │   CBT + contingency management for stimulants                 │
+  │   Cochrane 2020: AA ≈ CBT for engaged participants            │
+  │                                                               │
+  │ CULT / EXTREME GROUPS:                                        │
+  │   Cult psychology (Singer & Lalich 1995, Lifton 1961)        │
+  │   Thought reform / coercive persuasion documented             │
+  │   Cult recovery requires deprogramming (multiple years)       │
+  │                                                               │
+  │ WORKAHOLISM:                                                  │
+  │   Term coined: Oates 1971                                     │
+  │   Burnout (Maslach 1981, WHO 2019)                           │
+  │   Karoshi documented in Japan (1969+)                         │
+  │   Long hours → CVD (Kivimäki 2015 meta-analysis)             │
+  │                                                               │
+  │ LIMERENCE / TOXIC RELATIONSHIPS:                              │
+  │   Limerence (Tennov 1979)                                     │
+  │   Marazziti 1999: serotonin transporter ↓40% in love ≈ OCD   │
+  │   Trauma bonding (Carnes 1997)                                │
+  │   Cycle of abuse (Walker 1979)                                │
+  │   DV exit: average 7+ attempts                                │
+  │   Eisenberger 2003: social pain = physical pain neurally      │
+  │                                                               │
+  │ BEHAVIORAL ADDICTION:                                         │
+  │   Variable ratio reinforcement strongest (Skinner)            │
+  │   Game design exploitation: Hooked (Eyal 2014)               │
+  │   Behavior addiction theory (Griffiths 2005)                  │
+  │                                                               │
+  │ THREAT-BASED PARENTING:                                       │
+  │   Authoritarian parenting outcomes (Baumrind 1967+)          │
+  │   Self-Determination Theory: extrinsic motivation costs       │
+  │     (Deci & Ryan)                                             │
+  │   Asian context cultural pressure documented                  │
+  │                                                               │
+  │ DOSE-DEPENDENT NEUROADAPTATION:                               │
+  │   Tolerance mechanism (substance + behavioral)                │
+  │   Time discounting bias (behavioral economics)                │
+  │   Hedonic adaptation (Brickman 1971)                          │
   └────────────────────────────────────────────────────────────────┘
 
 
@@ -1418,43 +1437,43 @@ TOÀN FILE — ĐÁNH GIÁ TRUNG THỰC:
 
   ┌────────────────────────────────────────────────────────────────┐
   │ FOUNDATIONAL:                                                  │
-  │   "Hardware-First Harm" = framework concept mới               │
-  │   Nghịch đảo Mismatch (Imagine-Final-Evaluation §4)            │
-  │   2 failure modes đối xứng (under vs over anchor)              │
-  │   Yerkes-Dodson analog cho anchor strength                     │
-  │                                                                │
-  │ 5 CONDITIONS framework:                                        │
-  │   Multi-channel reward / Compiled deep / Domain (un)falsifiable│
-  │     / Exit cost / External reinforcement                       │
-  │   Tần suất across Y1-Y6 = derived observation                  │
-  │   "3 conditions then chốt" (multi-ch + compiled + exit) =     │
-  │     framework analysis                                         │
-  │                                                                │
-  │ 5 FAIL MECHANISMS framework:                                   │
-  │   Reframe / Dismiss / Isolate / Postpone / Counter-evidence    │
-  │   "Layered defense" pattern = framework analysis               │
-  │   Mỗi mechanism back up cái khác = derived                     │
-  │                                                                │
-  │ Y1-Y6 ANNOTATIONS:                                             │
-  │   Anchor + Trust + Strength + Cost + Domain + Source format    │
-  │   Per-example interpretation = framework lens                  │
-  │   Có thể interpret KHÁC bằng lens khác                         │
-  │                                                                │
-  │ HYBRID CASES:                                                  │
-  │   Y2 = Hardware-First (mẹ) + Mismatch (con) hybrid             │
-  │   Y4 = Hardware-First + ego-dystonic (OCD-like)                │
-  │   Y6 = Schema-level + Chemical-level                           │
-  │                                                                │
-  │ DOSE-DEPENDENT:                                                │
-  │   4 zones (Healthy/Borderline/Dependent/Extreme) = framework   │
-  │   4 signals nhận biết threshold = framework heuristic          │
-  │   "Frog in boiling water" pattern = analogy, not measurement   │
-  │                                                                │
-  │ CROSS-PATTERN INSIGHTS:                                        │
-  │   Stigma vs Warning availability = framework observation       │
-  │   "Y5 zero warning" = key insight, observed cross-culturally  │
-  │   Ego-syntonic vs dystonic = clinical concept applied          │
-  │   "Schema-level vs Chemical-level" = framework distinction     │
+  │   "Hardware-First Harm" = new framework concept               │
+  │   Inverse of Mismatch (Imagine-Final-Evaluation §4)           │
+  │   2 symmetrical failure modes (under vs over anchor)          │
+  │   Yerkes-Dodson analog for anchor strength                    │
+  │                                                               │
+  │ 5 CONDITIONS framework:                                       │
+  │   Multi-channel reward / Compiled deep / Domain               │
+  │     (un)falsifiable / Exit cost / External reinforcement      │
+  │   Frequency across Y1-Y6 = derived observation               │
+  │   "3 essential conditions" (multi-ch + compiled + exit) =    │
+  │     framework analysis                                        │
+  │                                                               │
+  │ 5 FAIL MECHANISMS framework:                                  │
+  │   Reframe / Dismiss / Isolate / Postpone / Counter-evidence   │
+  │   "Layered defense" pattern = framework analysis              │
+  │   Each mechanism backs up the others = derived                │
+  │                                                               │
+  │ Y1-Y6 ANNOTATIONS:                                            │
+  │   Anchor + Trust + Strength + Cost + Domain + Source format   │
+  │   Per-example interpretation = framework lens                 │
+  │   Can be interpreted differently through other lenses         │
+  │                                                               │
+  │ HYBRID CASES:                                                 │
+  │   Y2 = Hardware-First (mother) + Mismatch (child) hybrid      │
+  │   Y4 = Hardware-First + ego-dystonic (OCD-like)               │
+  │   Y6 = Schema-level + Chemical-level                          │
+  │                                                               │
+  │ DOSE-DEPENDENT:                                               │
+  │   4 zones (Healthy/Borderline/Dependent/Extreme) = framework  │
+  │   4 threshold signals = framework heuristic                   │
+  │   "Frog in boiling water" pattern = analogy, not measurement  │
+  │                                                               │
+  │ CROSS-PATTERN INSIGHTS:                                       │
+  │   Stigma vs Warning availability = framework observation      │
+  │   "Y5 zero warning" = key insight, observed cross-culturally │
+  │   Ego-syntonic vs dystonic = clinical concept applied         │
+  │   "Schema-level vs Chemical-level" = framework distinction    │
   └────────────────────────────────────────────────────────────────┘
 
 
@@ -1462,185 +1481,188 @@ TOÀN FILE — ĐÁNH GIÁ TRUNG THỰC:
 
   ┌────────────────────────────────────────────────────────────────┐
   │ Anchor strength inverted-U (Yerkes-Dodson analog):             │
-  │   → Logic OK, NHƯNG: chưa có direct measurement                │
-  │   → Yerkes-Dodson original = arousal, not anchor               │
-  │   → Analog hợp lý nhưng chưa formal test                       │
-  │                                                                │
-  │ "5 conditions phải đồng thời" cho Hardware-First Harm:         │
-  │   → Pattern observed across Y1-Y6                              │
-  │   → NHƯNG: KHÔNG đo được "bao nhiêu conditions"               │
-  │   → Có thể có cases VỚI ÍT conditions vẫn extreme             │
-  │                                                                │
-  │ Threshold dose-dependent:                                      │
-  │   → "4 zones" = framework heuristic, không phải clinical       │
-  │   → KHÔNG có universal threshold                               │
-  │   → Per-person varies → khó đo objectively                     │
-  │                                                                │
-  │ "Hardware nói ĐÚNG → KHÔNG warning" claim:                    │
-  │   → Logic: extreme cases body smooth → no internal alarm       │
-  │   → NHƯNG: nhiều người trong Y1-Y6 vẫn occasional doubt        │
-  │   → Doubt MOMENTS có thể bị suppressed bởi mechanism khác      │
-  │   → Need more research                                         │
-  │                                                                │
+  │   → Logic OK, BUT: no direct measurement yet                  │
+  │   → Yerkes-Dodson original = arousal, not anchor              │
+  │   → Analogy is reasonable but not formally tested              │
+  │                                                               │
+  │ "5 conditions must co-occur" for Hardware-First Harm:          │
+  │   → Pattern observed across Y1-Y6                             │
+  │   → BUT: CANNOT measure "how many conditions"                 │
+  │   → There may be cases WITH FEWER conditions that are still   │
+  │     extreme                                                    │
+  │                                                               │
+  │ Dose-dependent threshold:                                      │
+  │   → "4 zones" = framework heuristic, not clinical             │
+  │   → NO universal threshold                                    │
+  │   → Per-person varies → hard to measure objectively           │
+  │                                                               │
+  │ "Hardware says CORRECT → NO warning" claim:                   │
+  │   → Logic: extreme cases body smooth → no internal alarm      │
+  │   → BUT: many people in Y1-Y6 still have occasional doubt     │
+  │   → Doubt MOMENTS may be suppressed by other mechanisms       │
+  │   → Needs more research                                       │
+  │                                                               │
   │ Schema-level vs Chemical-level distinction:                    │
-  │   → Logical based on neuroscience                              │
-  │   → NHƯNG: real cases là spectrum, không binary                │
-  │   → Y5 workaholism CÓ thể có chemical component (cortisol      │
-  │     adaptation) — không pure schema                             │
-  │                                                                │
-  │ "External warning availability" prediction:                    │
-  │   → Y5 zero warning = framework prediction                     │
-  │   → Có thể có individual differences (some workaholic được     │
-  │     warned bởi family)                                          │
-  │   → Cross-cultural variation chưa systematic                   │
+  │   → Logical based on neuroscience                             │
+  │   → BUT: real cases are a spectrum, not binary                │
+  │   → Y5 workaholism MAY have a chemical component (cortisol    │
+  │     adaptation) — not purely schema                            │
+  │                                                               │
+  │ "External warning availability" prediction:                   │
+  │   → Y5 zero warning = framework prediction                    │
+  │   → May have individual differences (some workaholics ARE     │
+  │     warned by family)                                         │
+  │   → Cross-cultural variation not yet systematic               │
   └────────────────────────────────────────────────────────────────┘
 
 
-⚠️ DISCLAIMERS QUAN TRỌNG:
+⚠️ IMPORTANT DISCLAIMERS:
 
-  → Framework cung cấp GÓC NHÌN, KHÔNG thay thế:
+  → Framework provides AN ANGLE OF VIEW, does NOT replace:
     → Clinical assessment (psychiatrist, psychologist)
-    → Addiction medicine (đặc biệt Y6)
+    → Addiction medicine (especially Y6)
     → Therapy (CBT, family therapy, etc.)
-    → Legal protection (đặc biệt Y4 abuse, Y2 child welfare)
+    → Legal protection (especially Y4 abuse, Y2 child welfare)
 
-  → Y1-Y6 = ILLUSTRATIVE patterns, KHÔNG diagnostic:
-    → Người đọc thấy mình giống không = không phải diagnosis
-    → Cần professional assessment cho clinical decisions
-    → Framework giúp NHÌN, không giúp DIAGNOSE
+  → Y1-Y6 = ILLUSTRATIVE patterns, NOT diagnostic:
+    → Readers seeing similarities in themselves = NOT a diagnosis
+    → Professional assessment needed for clinical decisions
+    → Framework helps you SEE, not DIAGNOSE
 
   → Patterns observed ≠ causes proven:
     → Cross-pattern observations = framework analysis
-    → Chưa có controlled study về Anchor-Schema model trực tiếp
-    → Validity = consistency với established research, không phải proof
+    → No controlled study of the Anchor-Schema model directly exists yet
+    → Validity = consistency with established research, not proof
 
-  → Self-application có RISK:
-    → Recognition của Hardware-First trong bản thân = đau (ego-dystonic moment)
-    → KHÔNG cố force insight cho người trong Y1-Y6 — họ defensive
-    → Best use: NHÌN người khác để hiểu, NHÌN mình để adjust trước khi quá
+  → Self-application has RISKS:
+    → Recognizing Hardware-First in oneself = painful (ego-dystonic moment)
+    → Do NOT force insight on someone in Y1-Y6 — they will be defensive
+    → Best use: SEE others to understand, SEE yourself to adjust
+      BEFORE it goes too far
 
 
-THIẾU SÓT (MISSING — cần phát triển):
+MISSING (needs development):
 
   → Cross-cultural variations:
-    → Y2 mẹ-con threat loop ở VN/Asia khác ở phương Tây?
-    → Y5 workaholism: 996 vs hustle culture vs salaryman — cùng pattern?
+    → Y2 mother-child threat loop in Vietnam/Asia vs the West — differences?
+    → Y5 workaholism: 9-9-6 vs hustle culture vs salaryman — same pattern?
     → Y1 cult: religious vs ideological vs MLM — variations?
-    → Need: cross-cultural ethnographic data
+    → Needs: cross-cultural ethnographic data
 
   → Developmental patterns:
-    → Hardware-First Harm khi nào dễ hình thành?
+    → When is Hardware-First Harm easiest to form?
       (childhood trauma → adult addiction?)
     → Adolescent vulnerability patterns
     → Old age: hoarding, isolation as Hardware-First?
-    → Need: developmental analysis
+    → Needs: developmental analysis
 
-  → Intersection với mental health:
+  → Intersection with mental health:
     → Y4 limerence × BPD?
     → Y3 gaming × ADHD?
     → Y6 substance × trauma?
-    → Need: clinical literature integration
+    → Needs: clinical literature integration
 
   → Recovery patterns formalized:
-    → 5 conditions phải break theo thứ tự nào?
-    → Catalysts thường là gì? (crisis types)
+    → In what order should the 5 conditions be broken?
+    → What are the typical catalysts? (crisis types)
     → Relapse patterns
-    → Need: recovery research integration
+    → Needs: recovery research integration
 
   → Prevention:
-    → Làm sao tránh dose-dependent escalation?
-    → Education về Hardware-First Harm
+    → How to avoid dose-dependent escalation?
+    → Education about Hardware-First Harm
     → System-level prevention (regulation, design)
-    → Need: prevention framework
+    → Needs: prevention framework
 ```
 
 ---
 
-## §6 — KẾT NỐI
+## §6 — CONNECTIONS
 
 ```
-← INPUT (files cần đọc TRƯỚC):
+← INPUT (files to read BEFORE this):
 
   Anchor-Schema.md:
-    → §1 flow 6 bước (mechanism cốt lõi)
-    → §2 Trust + Anchor Strength + Cost (concepts dùng trong annotations)
-    → §3 4 nguồn fill (đặc biệt nguồn ④ External Inject cho cult, threat loop)
-    → §5.5 Cacophony (under-anchor — đối xứng với file này = over-anchor)
+    → §1 6-step flow (core mechanism)
+    → §2 Trust + Anchor Strength + Cost (concepts used in annotations)
+    → §3 4 sources that fill anchor (especially Source ④ External Inject for
+      cult, threat loop)
+    → §5.5 Cacophony (under-anchor — symmetrical with this file = over-anchor)
 
   Anchor-Schema-Example.md:
-    → 20 ví dụ healthy spectrum (M-S-D-L-X)
-    → Annotation format (giống file này)
-    → Pattern Analysis (6 patterns cross-spectrum)
-    → File NÀY = extension cho extreme zone (đối xứng cacophony)
+    → 20 healthy spectrum examples (M-S-D-L-X)
+    → Annotation format (same as this file)
+    → Pattern Analysis (6 cross-spectrum patterns)
+    → THIS FILE = extension for the extreme zone (symmetrical with cacophony)
 
   Imagine-Final-Evaluation.md:
-    → §4 4 góc (Sweet Spot/Mismatch/Delusion/Fantasy)
-    → Mismatch = nghịch đảo với Hardware-First Harm
-    → File NÀY tham chiếu liên tục để contrast
+    → §4 4 corners (Sweet Spot/Mismatch/Delusion/Fantasy)
+    → Mismatch = inverse of Hardware-First Harm
+    → THIS FILE references it continuously for contrast
 
 
-→ OUTPUT (files đọc SAU / files THAM CHIẾU file này):
+→ OUTPUT (files to read AFTER / files that reference this file):
 
   OCD-Analysis.md:
     → §4 Love ↔ OCD circuit
-    → Y4 Limerence trong file NÀY = mở rộng OCD-Analysis applied
+    → Y4 Limerence in THIS FILE = extension of OCD-Analysis applied
     → Marazziti 1999 reference shared
 
   Threat.md:
-    → §3 Negative trust (relief reward) = mechanism trong Y2, Y6
+    → §3 Negative trust (relief reward) = mechanism in Y2, Y6
     → §5.5 Threat exploitation = related to Y2 threat loop
 
 
-SONG SONG:
+PARALLEL:
 
   Boredom-Analysis.md:
-    → §1 "Chán" = under-anchor
-    → File NÀY = over-anchor
-    → 2 file mô tả 2 failure modes đối xứng
+    → §1 "Boredom" = under-anchor
+    → THIS FILE = over-anchor
+    → 2 files describe 2 symmetrical failure modes
 
   Domain.md:
-    → Domain reality (cố định, không bao giờ thay đổi)
-    → Hardware-First Harm = SKIP domain check → harm thật
+    → Domain reality (fixed, never changes)
+    → Hardware-First Harm = SKIPS domain check → real harm
 
   Empathy-Mirror.md:
-    → Y2 mẹ ép con = misdirected empathy
+    → Y2 mother-child = misdirected empathy
     → Y4 limerence = bond mechanism
-    → Y5 workaholism "vì gia đình" = empathy reframe
+    → Y5 workaholism "for the family" = empathy reframe
 
 
-→ ỨNG DỤNG (Application layer):
+→ APPLICATIONS (Application layer):
 
   Education-Bridge.md:
-    → Y2 mẹ-con threat loop = cảnh báo cho parenting
-    → Dose-dependent zones = practical guide cho healthy parenting
+    → Y2 mother-child threat loop = warning for parenting
+    → Dose-dependent zones = practical guide for healthy parenting
 
   VN-Cultural-Factors.md:
-    → Y2 ép học, Y5 workaholism = đặc biệt phổ biến VN
-    → Domain check = "đo bằng kết quả con thực sự, không phải bằng comparison"
+    → Y2 pressuring to study, Y5 workaholism = especially common in Vietnam
+    → Domain check = "measure by the child's actual outcomes, not by comparison"
 
   Hardware-Calibration.md:
-    → Tránh Hardware-First Harm = identify true hardware fit
-    → Self-aware về dose-dependent zones
+    → Avoiding Hardware-First Harm = identify true hardware fit
+    → Self-awareness of dose-dependent zones
 
 
-→ PHÁT TRIỂN TƯƠNG LAI (từ §5 MISSING):
+→ FUTURE DEVELOPMENT (from §5 MISSING):
 
   Cross-cultural Anchor-Schema patterns
-  Developmental pathway tới Hardware-First Harm
-  Intersection với clinical mental health
+  Developmental pathway to Hardware-First Harm
+  Intersection with clinical mental health
   Recovery protocols formalized
   Prevention framework
 ```
 
 ---
 
-> *Anchor-Schema Extreme — "Anchor có optimal zone — quá ít = chán/lost,
-> quá nhiều + skip domain = harm.
-> Hardware-First Harm = body nói ĐÚNG + domain nói SAI → body THẮNG.
-> 6 ví dụ từ cult tới substance: cùng cơ chế, khác content.
-> Y5 Workaholism = đặc biệt nguy hiểm — xã hội KHEN thay vì warn.
-> Y6 Substance = ranh giới framework — chemical-level cần medicine.
-> Dose-dependent = frog in boiling water — phổ biến hơn extreme cases.
-> 5 conditions phải đồng thời. 5 fail mechanisms layered defense.
-> 'I'm fine' khi anchor strong = không có warning system.
-> Cần external check thay vì self-report khi đánh giá Hardware-First."*
+> *Anchor-Schema Extreme — "Anchors have an optimal zone — too little = boredom/lost,
+> too much + domain skipped = harm.
+> Hardware-First Harm = body says CORRECT + domain says WRONG → body WINS.
+> 6 examples from cult to substance: same mechanism, different content.
+> Y5 Workaholism = especially dangerous — society PRAISES instead of warning.
+> Y6 Substance = boundary of the framework — chemical-level requires medicine.
+> Dose-dependent = frog in boiling water — more common than extreme cases.
+> 5 conditions must co-occur. 5 fail mechanisms form a layered defense.
+> 'I'm fine' when anchor is strong = no internal warning system.
+> External check needed rather than self-report when assessing Hardware-First territory."*

@@ -10,7 +10,7 @@ scope: |
   WHAT KINDS of reward signals exist + HOW they interact.
   Evaluative Reward (opioid) vs Direct-State Reward (non-opioid).
   E₀→E₃ Complexity Gradient. Evaluative Gates Direct-State mechanism.
-  5 Reward Profiles (hương vị reward). Temporal Stack Model.
+  5 Reward Profiles (reward "flavors"). Temporal Stack Model.
   Conditional Interaction Model (replaces simple additive).
   Development lifecycle + Individual differences overview.
   5 Forces Holding Model for sustained creative arcs.
@@ -18,14 +18,14 @@ scope: |
   v2.0: Development = Direct-State Reward dominant → Evaluative Reward compiles. Domain verify → accuracy.
 purpose: |
   03-Reward.md answers: WHEN reward fires (5 Body-Feedback-Preconditions) + HOW mechanism works (7-step VTA).
-  File này answers: WHAT KINDS of reward exist + HOW they interact.
+  This file answers: WHAT KINDS of reward exist + HOW they interact.
   Complement, not replacement. Different questions → different files.
-  Source: Distilled from Drill-Reward-Feeling-Main.md v1.2 (~6,700L, ALL 20 GAPs COMPLETE).
+  Source: Distilled from Drill-Reward-Feeling-Main.md v1.2 (~6,700L, ALL 20 GAPS COMPLETE).
   v2.0: Connects to Inter-Body drill insights (Compilable Architecture, Compiled/Fresh axis).
 position: |
-  Body-Feedback/ folder — ngang hàng với Body-Feedback-Mechanism.md + Gap-Direction.md.
-  KHÔNG nằm trong chuỗi P1→P4 (01-Foundation → 02-Dissonance → 03-Reward → 04-Integration).
-  Reading order: SAU 03-Reward.md (cần Body-Feedback-Precondition foundation).
+  Body-Feedback/ folder — alongside Body-Feedback-Mechanism.md + Gap-Direction.md.
+  NOT inside the P1→P4 chain (01-Foundation → 02-Dissonance → 03-Reward → 04-Integration).
+  Reading order: AFTER 03-Reward.md (Body-Feedback-Precondition foundation required).
 dependencies:
   - 03-Reward.md — 5 Body-Feedback-Preconditions, 7-step VTA mechanism
   - Body-Feedback-Precondition.md v1.0 — 5 preconditions formal definitions (§1.3 mapping)
@@ -43,30 +43,30 @@ dependencies:
   - Meaning.md v2.0 — life-level Anchor-Schema
   - Connection.md v3.1 — 3 Generative Primitives, Valence-Structural smoothing
 drill_source: Drill-Reward-Feeling-Main.md v1.2 + Drill-Reward-Feeling-Cases.md v1.0
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # Reward-Signal-Architecture — Evaluative/Direct-State + 5 Profiles + Interaction Model
 
-> **03-Reward.md: KHI NÀO reward fire? (Body-Feedback-Preconditions, 7-step VTA)**
-> **File này: reward fire CHẤT LƯỢNG THẾ NÀO? (Types, Profiles, Interaction)**
+> **03-Reward.md: WHEN does reward fire? (Body-Feedback-Preconditions, 7-step VTA)**
+> **This file: WHAT QUALITY does reward fire with? (Types, Profiles, Interaction)**
 >
-> Ăn ngon → "pleasant." Hiểu bài toán → "pleasant." Nghe nhạc hay → "pleasant."
-> Cùng 1 từ. Cùng 1 hệ opioid. Nhưng cảm giác KHÁC NHAU.
+> Eating something delicious → "pleasant." Solving a problem → "pleasant." Hearing beautiful music → "pleasant."
+> Same word. Same opioid system. But the experience is DIFFERENT.
 >
-> Framework nói: Reward = body-base confirm signal (Body-Feedback-Precondition, 03-Reward.md).
-> File này drill: **"Hương vị" reward đến từ đâu?**
-> Và: tại sao cùng hệ thống mà 3 cái "pleasant" trên KHÁC NHAU?
+> The framework says: Reward = body-base confirm signal (Body-Feedback-Precondition, 03-Reward.md).
+> This file drills deeper: **Where does reward's "flavor" come from?**
+> And: why does the SAME system produce 3 distinct versions of "pleasant"?
 >
-> **Source**: Distilled từ Drill-Reward-Feeling-Main.md v1.2
-> (~6,700L, ALL 20 GAPs COMPLETE, 115+ research sources).
+> **Source**: Distilled from Drill-Reward-Feeling-Main.md v1.2
+> (~6,700L, ALL 20 GAPS COMPLETE, 115+ research sources).
 
 ---
 
 ## §0 — POSITION + SCOPE + READING GUIDE
 
-### §0.1 — Vị trí trong framework
+### §0.1 — Position in the framework
 
 ```
 03-Reward.md (P3):
@@ -74,7 +74,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → HOW mechanism works: 7-step VTA → opioid pipeline
   → 7 reward cases (C1.1-C1.7)
 
-Reward-Signal-Architecture.md (file này):
+Reward-Signal-Architecture.md (this file):
   → WHAT KINDS of reward: Evaluative Reward vs Direct-State Reward
   → HOW COMPLEX: E₀→E₃ gradient
   → HOW INTERACT: Evaluative Gates Direct-State, Conditional Interaction
@@ -82,15 +82,15 @@ Reward-Signal-Architecture.md (file này):
   → HOW CHANGE: Development lifecycle, Individual differences
   → WHAT SUSTAINS: 5 Forces Holding Model
 
-→ 2 files = COMPLEMENT, không overlap.
-→ Đọc 03-Reward TRƯỚC file này.
+→ 2 files = COMPLEMENT, no overlap.
+→ Read 03-Reward BEFORE this file.
 ```
 
-### §0.2 — Cấu trúc file
+### §0.2 — File structure
 
 ```
 §1-§3:  ARCHITECTURE — Evaluative/Direct-State, E₀→E₃, Evaluative Gates Direct-State
-§4:     PROFILES — 5 "hương vị" reward
+§4:     PROFILES — 5 reward "flavors"
 §5-§6:  DYNAMICS — Temporal Stack, Conditional Interaction
 §7:     STATE DEPENDENCE — 3 types (Cabanac refined)
 §8:     DEVELOPMENT — Lifecycle + Individual differences
@@ -103,42 +103,42 @@ Reward-Signal-Architecture.md (file này):
 ### §0.3 — Compilable Architecture Connection
 
 ```
-🟡 TẠI SAO LOÀI NGƯỜI CÓ EVALUATIVE REWARD PHỨC TẠP?
+🟡 WHY DO HUMANS HAVE SUCH COMPLEX EVALUATIVE REWARD?
 
   Compilable Architecture (Inter-Body-Mechanism.md §1):
-    ① General-Purpose Reward — fire cho BẤT KỲ gap fill đúng direction
+    ① General-Purpose Reward — fires for ANY gap fill in the right direction
     ② Compilation — Hebbian: repeat + verify → automatic
     ③ Social Hardware — oxytocin, μ-opioid, dACC reuse
 
   Evaluative Reward = CONSEQUENCE of Compilable Architecture:
-    General-purpose reward → body CAN evaluate BẤT KỲ pattern
+    General-purpose reward → body CAN evaluate ANY pattern
     Compilation → evaluation CAN become increasingly complex
     → E₀→E₃ gradient = compilation DEPTH applied to evaluation
-    → Côn trùng (Hardwired Architecture): chỉ có hardwired reward circuits
+    → Insects (Hardwired Architecture): only hardwired reward circuits
     → Humans (Compilable Architecture): reward system COMPILES novel evaluations
 
   Direct-State Reward = FOUNDATION shared across architectures:
     Hardware-based, non-evaluative, present from birth
-    → Mọi sinh vật có nervous system đều có Direct-State Reward equivalent
-    → Evaluative Reward = "thêm vào" qua compilation capability
+    → All organisms with a nervous system have a Direct-State Reward equivalent
+    → Evaluative Reward = "added on top" via compilation capability
 
-  Trade-off: Compilable Architecture cần 15-20 năm compile
+  Trade-off: Compilable Architecture requires 15-20 years of compilation
     → Evaluative Reward GROWS with compilation (§8.1 lifecycle)
-    → Infant = nearly pure Direct-State (chưa compile)
+    → Infant = nearly pure Direct-State (not yet compiled)
     → Expert = rich E₃ (decades of compilation)
-    → = WHY "reward capacity" DEVELOPS, not fixed at birth
+    → = WHY "reward capacity" DEVELOPS rather than being fixed at birth
 
   Cross-ref: Inter-Body-Mechanism.md §1 (Compilable Architecture full detail).
 ```
 
 ---
 
-## §1 — EVALUATIVE/DIRECT-STATE: 2 LOẠI BODY-BASE CONFIRM SIGNAL
+## §1 — EVALUATIVE/DIRECT-STATE: 2 TYPES OF BODY-BASE CONFIRM SIGNAL
 
 ### §1.1 — Core distinction
 
 ```
-🟡 REWARD SIGNAL CÓ 2 LOẠI — ORTHOGONAL DIMENSION:
+🟡 REWARD SIGNALS COME IN 2 TYPES — ORTHOGONAL DIMENSION:
 
   ┌──────────────────────────────────────────────────────────────────┐
   │                                                                  │
@@ -146,9 +146,10 @@ Reward-Signal-Architecture.md (file này):
   │                                                                  │
   │  Circuit: Hedonic hotspot (NAcc shell, VP, mOFC)                │
   │  Primary signal: μ-opioid                                       │
-  │  Amplifier: Endocannabinoid (dependent on opioid — Stacey 2018) │
+  │  Amplifier: Endocannabinoid (opioid-dependent — Stacey 2018)    │
   │  Body-Feedback-Precondition: Full 5 preconditions required       │
-  │  Requires: Compiled chunks (Precondition-2) + body-need gap (Precondition-1) │
+  │  Requires: Compiled chunks (Precondition-2) + body-need gap      │
+  │    (Precondition-1)                                              │
   │  Learned: YES — quality depends on chunk library                │
   │  Modulated by: Alliesthesia (body state changes evaluation)     │
   │  Examples: Food, music, insight, visual beauty, social praise   │
@@ -163,7 +164,8 @@ Reward-Signal-Architecture.md (file này):
   │    Touch: CT afferents → posterior insula (🟢 Löken 2009)       │
   │    Exercise: Endocannabinoid CB1 (🟢 Fuss 2015 PNAS)           │
   │    Temperature: thermoreceptor → hypothalamus                    │
-  │  Body-Feedback-Precondition: Simplified (Precondition-1 basic, Precondition-2–Precondition-5 reduced/N/A) │
+  │  Body-Feedback-Precondition: Simplified (Precondition-1 basic,   │
+  │    Precondition-2–Precondition-5 reduced/N/A)                   │
   │  Requires: Hardware pathways (minimal compiled chunks)          │
   │  Learned: MINIMAL — hardware from birth                         │
   │  Modulated by: Less — sensor-level adaptation only              │
@@ -173,75 +175,79 @@ Reward-Signal-Architecture.md (file này):
   └──────────────────────────────────────────────────────────────────┘
 
   COMMON ELEMENT (framework level):
-  "Reward = body-base confirm signal" — cả Evaluative VÀ Direct-State.
-  Framework ĐÚNG ở abstraction level. Evaluative/Direct-State = mechanism detail bên dưới.
+  "Reward = body-base confirm signal" — applies to BOTH Evaluative AND Direct-State.
+  Framework is CORRECT at the abstraction level. Evaluative/Direct-State = mechanism
+  detail underneath.
 
   GENERAL ARCHITECTURE — APPLIES TO BOTH DIRECTIONS:
-  Evaluative/Direct-State = GENERAL body-feedback dimension, không chỉ reward.
-  Dissonance CŨNG CÓ Evaluative Dissonance (compiled) + Direct-State Dissonance (hardware).
-  Cùng architecture, cùng insula gradient. Khác neurochemistry, khác direction.
+  Evaluative/Direct-State = GENERAL body-feedback dimension, not just reward.
+  Dissonance ALSO has Evaluative Dissonance (compiled) + Direct-State Dissonance (hardware).
+  Same architecture, same insula gradient. Different neurochemistry, different direction.
   → Dissonance-Signal-Architecture.md v1.0 = COUNTERPART file.
 
   Source: Drill §3.5, §3.7 (R1+R13).
   🟢 Berridge & Robinson 1998, 2003. 🟢 Loseth 2019. 🟢 Fuss 2015.
 ```
 
-### §1.2 — Tại sao Evaluative/Direct-State ORTHOGONAL (không phải 6th profile)
+### §1.2 — Why Evaluative/Direct-State is ORTHOGONAL (not a 6th profile)
 
 ```
-🟡 3 KHẢ NĂNG ĐÃ CÂN NHẮC — CHỈ (b) ĐÚNG:
+🟡 3 OPTIONS CONSIDERED — ONLY (b) IS CORRECT:
 
-  (a) Thêm Profile ⑥ "Homeostatic" cho Direct-State Reward → REJECTED
-      Lý do: Direct-State CẮT NGANG tất cả profiles, không chỉ ①
-  (b) Evaluative/Direct-State = meta-dimension ORTHOGONAL lên tất cả profiles → ✅ ACCEPTED
-  (c) Split Profile ① thành ①a/①b → REJECTED
-      Lý do: phải split ③, ④ nữa → redundant
+  (a) Add Profile ⑥ "Homeostatic" for Direct-State Reward → REJECTED
+      Reason: Direct-State CUTS ACROSS all profiles, not just ①
+  (b) Evaluative/Direct-State = meta-dimension ORTHOGONAL across all profiles → ✅ ACCEPTED
+  (c) Split Profile ① into ①a/①b → REJECTED
+      Reason: would require splitting ③ and ④ too → redundant
 
-  Evaluative/Direct-State cắt NGANG mọi profile:
+  Evaluative/Direct-State cuts ACROSS every profile:
     Profile ① Sensory:  food = Evaluative, touch = Direct-State
     Profile ③ Social:   praise = Evaluative, physical proximity = Direct-State
     Profile ④ Relief:   solved problem = Evaluative, pain stops = Direct-State
 
   → Evaluative/Direct-State = ORTHOGONAL DIMENSION × 5 Profiles
-  → Mỗi profile có Evaluative/Direct-State RATIO riêng (xem §4)
+  → Each profile has its own Evaluative/Direct-State RATIO (see §4)
   → Evaluative/Direct-State = spectrum, NOT binary
 ```
 
 ### §1.3 — Body-Feedback-Precondition × Evaluative/Direct-State
 
 ```
-🟡 BODY-FEEDBACK-PRECONDITIONS — KHÁC NHAU CHO 2 LOẠI:
+🟡 BODY-FEEDBACK-PRECONDITIONS — DIFFER FOR THE 2 TYPES:
 
-  ┌────────────────────────────────┬─────────────────┬────────────────┐
-  │ Body-Feedback-Precondition     │ Evaluative Reward          │ Direct-State Reward         │
-  ├────────────────────────────────┼─────────────────┼────────────────┤
-  │ Precondition-1 Directed-Gap   │ REQUIRED —      │ SIMPLIFIED —   │
-  │   (schema pending)            │ specific gap    │ body-need      │
-  │                                │                 │ always present │
-  ├────────────────────────────────┼─────────────────┼────────────────┤
-  │ Precondition-2 Chunk-Substrate│ REQUIRED —      │ MINIMAL —      │
-  │                                │ compiled for    │ hardware paths │
-  │                                │ evaluation      │ from birth     │
-  ├────────────────────────────────┼─────────────────┼────────────────┤
-  │ Precondition-3 Delta-Gate     │ REQUIRED —      │ UNCERTAIN —    │
-  │   (prediction-delta)          │ novelty/change  │ may bypass VTA │
-  │                                │                 │ (posterior     │
-  │                                │                 │  insula path)  │
-  ├────────────────────────────────┼─────────────────┼────────────────┤
-  │ Precondition-4 Match-Range    │ REQUIRED —      │ HARDWARE —     │
-  │   (Goldilocks zone — dynamic) │ dynamic zone    │ CT ~1-10cm/s   │
-  │                                │                 │ = fixed range  │
-  ├────────────────────────────────┼─────────────────┼────────────────┤
-  │ Precondition-5 Compile-Gate   │ REQUIRED —      │ N/A —          │
-  │   (chunk tag)                 │ opioid/cortisol │ hardware, no   │
-  │                                │ tag direction   │ tag needed     │
-  └────────────────────────────────┴─────────────────┴────────────────┘
+  ┌───────────────────────────┬──────────────────────┬────────────────────┐
+  │ Body-Feedback-Precondition│ Evaluative Reward    │ Direct-State Reward│
+  ├───────────────────────────┼──────────────────────┼────────────────────┤
+  │ Precondition-1            │ REQUIRED —           │ SIMPLIFIED —       │
+  │ Directed-Gap (schema      │ specific gap needed  │ body-need always   │
+  │ pending)                  │                      │ present            │
+  ├───────────────────────────┼──────────────────────┼────────────────────┤
+  │ Precondition-2            │ REQUIRED —           │ MINIMAL —          │
+  │ Chunk-Substrate           │ compiled for         │ hardware paths     │
+  │                           │ evaluation           │ from birth         │
+  ├───────────────────────────┼──────────────────────┼────────────────────┤
+  │ Precondition-3            │ REQUIRED —           │ UNCERTAIN —        │
+  │ Delta-Gate                │ novelty/change       │ may bypass VTA     │
+  │ (prediction-delta)        │                      │ (posterior insula  │
+  │                           │                      │ path)              │
+  ├───────────────────────────┼──────────────────────┼────────────────────┤
+  │ Precondition-4            │ REQUIRED —           │ HARDWARE —         │
+  │ Match-Range               │ dynamic zone         │ CT ~1-10cm/s       │
+  │ (Goldilocks zone)         │                      │ = fixed range      │
+  ├───────────────────────────┼──────────────────────┼────────────────────┤
+  │ Precondition-5            │ REQUIRED —           │ N/A —              │
+  │ Compile-Gate (chunk tag)  │ opioid/cortisol      │ hardware, no       │
+  │                           │ tag direction        │ tag needed         │
+  └───────────────────────────┴──────────────────────┴────────────────────┘
 
-  → Direct-State Reward KHÔNG bị block bởi Precondition-2, Precondition-3, Precondition-5 failures
+  → Direct-State Reward is NOT blocked by Precondition-2, Precondition-3,
+    or Precondition-5 failures
   → Direct-State Reward = RELIABLE, ALWAYS-AVAILABLE baseline reward
   → Evaluative Reward = RICH, VARIABLE, but CONDITIONAL on Precondition-1–Precondition-5
-  → Loss of Evaluative (burnout, anhedonia) → Direct-State remains ("touch still good")
-  → Loss of Direct-State (neuropathy) → Evaluative remains ("can still enjoy music")
+  → Loss of Evaluative (burnout, anhedonia) → Direct-State remains
+    ("touch still feels good")
+  → Loss of Direct-State (neuropathy) → Evaluative remains
+    ("can still enjoy music")
   → Loss of BOTH → severe anhedonia (rare, devastating)
 
   Source: Drill §3.7.
@@ -252,26 +258,26 @@ Reward-Signal-Architecture.md (file này):
 ```
 🟡 DIRECT-STATE = EVOLUTIONARY FLOOR:
 
-  Direct-State Reward KHÔNG bị ảnh hưởng bởi:
-  → Precondition-2 failure (chưa compile) — infant CAN experience
-  → Precondition-5 cortisol tag — KHÔNG associated với threat
-  → VTA habituation — Direct-State bypass VTA (🔴 prediction, §5)
+  Direct-State Reward is NOT affected by:
+  → Precondition-2 failure (not yet compiled) — infants CAN experience it
+  → Precondition-5 cortisol tag — NOT associated with threat
+  → VTA habituation — Direct-State bypasses VTA (🔴 prediction, §5)
 
-  → Direct-State = reward CỔ HƠN Evaluative Reward:
-    Touch comfort: mọi sinh vật có da → benefit từ contact
+  → Direct-State = MORE ANCIENT than Evaluative Reward:
+    Touch comfort: every organism with skin benefits from contact
     Exercise: body movement → homeostatic regulation
-    → KHÔNG CẦN circuit đánh giá phức tạp
-    → Evaluative Reward evolved SAU, CHO đánh giá phức tạp hơn
-    → "Cái này ăn được không? Dinh dưỡng? Độc?"
+    → NO complex evaluation circuit needed
+    → Evaluative Reward evolved LATER, FOR more complex evaluation:
+      "Is this edible? Nutritious? Toxic?"
 
-  → Trẻ sơ sinh: Direct-State Reward đã có NGAY (touch, warmth)
+  → Infants: Direct-State Reward is present IMMEDIATELY (touch, warmth)
   → Evaluative Reward: develops with chunk compilation
 
   Therapeutic implication:
   → Burnout/anhedonia: Evaluative rewards exhausted
-  → Direct-State Reward VẪN accessible vì hardware-based
+  → Direct-State Reward STILL accessible because hardware-based
   → Body-oriented therapy = deliberately activate Direct-State pathways
-  → Direct-State = "backdoor" qua stuck Evaluative gate (dissociation)
+  → Direct-State = "backdoor" past a stuck Evaluative gate (dissociation)
   → 🟢 Van der Kolk 2014: body-oriented approaches for trauma
 
   Source: Drill §3.5, §3.7, §3.11.
@@ -282,7 +288,7 @@ Reward-Signal-Architecture.md (file này):
 ```
 🟡 FUNCTION = f(CIRCUIT × CONTEXT) — NOT f(MOLECULE ALONE):
 
-  Cùng molecule, KHÁC circuit, KHÁC function:
+  Same molecule, DIFFERENT circuit, DIFFERENT function:
 
   ┌─────────────────┬──────────────────────────────────────────────┐
   │ Neurochemical   │ Multiple Roles                                │
@@ -294,16 +300,20 @@ Reward-Signal-Architecture.md (file này):
   │                 │ Hedonic evaluation (recruited) /              │
   │                 │ Social bonding (extended)                     │
   ├─────────────────┼──────────────────────────────────────────────┤
-  │ Endocannabinoid │ Body-state regulation (original, Direct-State Reward) /   │
-  │                 │ Hedonic amplifier (recruited into Evaluative Reward) /   │
+  │ Endocannabinoid │ Body-state regulation (original,              │
+  │                 │   Direct-State Reward) /                      │
+  │                 │ Hedonic amplifier (recruited into             │
+  │                 │   Evaluative Reward) /                        │
   │                 │ Stress modulation (amygdala CB1)              │
   └─────────────────┴──────────────────────────────────────────────┘
 
   🟢 Anderson 2010: Neural Reuse — old systems get RECRUITED into new circuits.
-  🟢 Stacey 2018: eCB in NAcc hotspot DEPENDS on opioid (Evaluative Reward amplifier).
-  🟢 Fuss 2015: eCB in exercise INDEPENDENT of opioid (Direct-State Reward primary).
+  🟢 Stacey 2018: eCB in NAcc hotspot DEPENDS on opioid
+    (Evaluative Reward amplifier).
+  🟢 Fuss 2015: eCB in exercise INDEPENDENT of opioid
+    (Direct-State Reward primary).
 
-  Framework ĐÚNG khi abstract trên hormone level.
+  The framework is CORRECT when abstracted above the hormone level.
   "Reward = body-base confirm signal" — hormone = implementation detail.
 
   Source: Drill §3.6.
@@ -314,17 +324,18 @@ Reward-Signal-Architecture.md (file này):
 ```
 🟡 EVALUATIVE/DIRECT-STATE × SENSORY-DRIVEN / PATTERN-DRIVEN:
 
-  ┌──────────────────┬──────────────────┬──────────────────┐
-  │ Body-Feedback-Mechanism Source       │ Evaluative Reward possible? │ Direct-State Reward possible? │
-  ├──────────────────┼──────────────────┼──────────────────┤
-  │ Sensory-Driven   │ ✅ YES           │ ✅ YES           │
-  │ (domain → body)  │ Food, music,     │ Touch, warmth,   │
-  │                  │ visual beauty    │ exercise         │
-  ├──────────────────┼──────────────────┼──────────────────┤
-  │ Pattern-Driven   │ ✅ YES           │ ⚠️ VERY LIMITED  │
-  │ (chunks → body)  │ Insight, preview,│ Preview possible │
-  │                  │ comparison       │ but LOW fidelity │
-  └──────────────────┴──────────────────┴──────────────────┘
+  ┌──────────────────┬──────────────────────┬────────────────────────┐
+  │ Body-Feedback-   │ Evaluative Reward    │ Direct-State Reward    │
+  │ Mechanism Source │ possible?            │ possible?              │
+  ├──────────────────┼──────────────────────┼────────────────────────┤
+  │ Sensory-Driven   │ ✅ YES               │ ✅ YES                 │
+  │ (domain → body)  │ Food, music,         │ Touch, warmth,         │
+  │                  │ visual beauty        │ exercise               │
+  ├──────────────────┼──────────────────────┼────────────────────────┤
+  │ Pattern-Driven   │ ✅ YES               │ ⚠️ VERY LIMITED        │
+  │ (chunks → body)  │ Insight, preview,    │ Preview possible       │
+  │                  │ comparison           │ but LOW fidelity       │
+  └──────────────────┴──────────────────────┴────────────────────────┘
 
   → Direct-State Reward ≈ ALWAYS Sensory-Driven (requires actual hardware activation)
   → Evaluative Reward = Sensory-Driven OR Pattern-Driven (evaluation either way)
@@ -339,20 +350,20 @@ Reward-Signal-Architecture.md (file này):
 ```
 🟡 E₀→E₃ = COMPILED/FRESH SPECTRUM APPLIED TO REWARD EVALUATION:
 
-  Inter-Body-Mechanism.md §3: Compiled vs Fresh = trục thật.
+  Inter-Body-Mechanism.md §3: Compiled vs Fresh = the real axis.
   "Logic" vs "Feeling" = observer labels, NOT mechanism description.
-  Inside body: chỉ có spectrum compiled ←→ fresh.
+  Inside the body: only the compiled ←→ fresh spectrum exists.
 
   MAPPING TO EVALUATIVE/DIRECT-STATE:
 
   ┌──────────────────┬──────────────────────────────────────┐
   │ Reward Type      │ Compiled/Fresh Position              │
   ├──────────────────┼──────────────────────────────────────┤
-  │ Direct-State Reward           │ HARDWARE — below compiled/fresh axis │
-  │                  │ (no evaluation = no compilation)     │
+  │ Direct-State     │ HARDWARE — below compiled/fresh axis │
+  │ Reward           │ (no evaluation = no compilation)     │
   ├──────────────────┼──────────────────────────────────────┤
-  │ E₀ (hardware-install)  │ PRE-COMPILED by evolution            │
-  │                  │ (compiled, but NOT by individual)    │
+  │ E₀ (hardware-    │ PRE-COMPILED by evolution            │
+  │ installed)       │ (compiled, but NOT by the individual)│
   ├──────────────────┼──────────────────────────────────────┤
   │ E₁ (basic)       │ COMPILED by individual (shallow)     │
   │                  │ (food preferences, familiar music)   │
@@ -369,11 +380,12 @@ Reward-Signal-Architecture.md (file này):
   → E₃ expert evaluation FEELS like "intuition" (non-shareable compiled)
   → E₁ food preference FEELS like "automatic" (shareable compiled)
   → Both = COMPILED — differ in depth + shareability
-  → "Expert Self-Pattern-Modeling thấy pattern" = E₂-E₃ compiled firing
-  → "Mới học chưa thấy" = evaluation still FRESH (PFC active, costly)
+  → "Expert Self-Pattern-Modeling sees a pattern" = E₂-E₃ compiled firing
+  → "Beginner doesn't see it yet" = evaluation still FRESH (PFC active, costly)
 
   FRESH EVALUATION = high cost (3-cost model: PFC draft + uncertainty):
-  → Beginner evaluating wine = PFC working hard → Evaluative Reward POSSIBLE but costly
+  → Beginner evaluating wine = PFC working hard → Evaluative Reward POSSIBLE
+    but costly
   → Expert evaluating wine = compiled → Evaluative Reward EASY, automatic
   → = WHY reward capacity GROWS with compilation depth
 
@@ -389,12 +401,12 @@ Reward-Signal-Architecture.md (file này):
 ```
 ⭐ E₀→E₃ = EVALUATION COMPLEXITY GRADIENT — APPLIES TO BOTH DIRECTIONS:
 
-  File này: E₀→E₃ applied to REWARD direction.
+  This file: E₀→E₃ applied to REWARD direction.
   Dissonance-Signal-Architecture.md §2: E₀→E₃ applied to DISSONANCE direction.
-  E₀→E₃ = evaluation complexity, không phải reward-specific.
-  VD: E₀ reward = sweet taste. E₀ dissonance = bitter aversion. CÙNG Steiner 1973.
+  E₀→E₃ = evaluation complexity, not reward-specific.
+  E.g.: E₀ reward = sweet taste. E₀ dissonance = bitter aversion. SAME Steiner 1973.
 
-  EVALUATIVE REWARD CÓ SPECTRUM OF EVALUATION COMPLEXITY:
+  EVALUATIVE REWARD HAS A SPECTRUM OF EVALUATION COMPLEXITY:
 
   ┌──────────────────────────────────────────────────────────────────┐
   │                                                                  │
@@ -405,7 +417,7 @@ Reward-Signal-Architecture.md (file này):
   │    From birth: YES                                               │
   │    Examples: Sweet taste, bitter aversion, (possibly umami 🔴)   │
   │    Naltrexone: BLOCKS ✅                                         │
-  │    = "Evolution đã compile sẵn evaluation đơn giản nhất"         │
+  │    = "Evolution pre-compiled the simplest possible evaluation"   │
   │                                                                  │
   │  E₁ — BASIC COMPILED EVALUATION:                                │
   │    Mechanism: Sensory → compiled chunks → hedonic hotspot        │
@@ -413,21 +425,21 @@ Reward-Signal-Architecture.md (file này):
   │    Evaluation: MULTI-FACTOR (taste + texture + memory + social)   │
   │    From birth: NO — develops with chunk compilation               │
   │    Examples: Learned food preferences, familiar music             │
-  │    = "Food pickiness ở trẻ 3 tuổi"                               │
+  │    = "Food pickiness in 3-year-olds"                             │
   │                                                                  │
   │  E₂ — COMPLEX COMPILED EVALUATION:                              │
   │    Mechanism: Rich pattern matching → multi-chunk → opioid       │
   │    Chunks needed: RICH library (years of exposure)               │
   │    Evaluation: RICH (pattern matching + emotional history)        │
   │    Examples: Music appreciation, aesthetic judgment, wine tasting │
-  │    = "Phân biệt Beethoven hay hơn background music"              │
+  │    = "Distinguishing Beethoven from background music"            │
   │                                                                  │
   │  E₃ — DEEP COMPILED EVALUATION:                                 │
   │    Mechanism: Abstract schema fit → coherence → opioid           │
   │    Chunks needed: EXPERT-LEVEL (years/decades)                   │
   │    Evaluation: ABSTRACT (schema fit + coherence + elegance)      │
   │    Examples: Mathematical beauty, expert insight, scientific fit  │
-  │    = "Einstein thấy equations fit → heart palpitations"           │
+  │    = "Einstein saw equations fit → heart palpitations"           │
   │                                                                  │
   └──────────────────────────────────────────────────────────────────┘
 
@@ -440,32 +452,34 @@ Reward-Signal-Architecture.md (file này):
   Source: Drill §3.10 (R19).
 ```
 
-### §2.2 — Tại sao E₀ VẪN là Evaluative Reward (không phải Direct-State Reward)
+### §2.2 — Why E₀ is STILL Evaluative Reward (not Direct-State Reward)
 
 ```
-🟡 E₀ CROSS-CUTS Evaluative/Direct-State BINARY — nhưng VẪN LÀ EVALUATIVE REWARD:
+🟡 E₀ CROSS-CUTS THE Evaluative/Direct-State BINARY —
+   BUT IS STILL EVALUATIVE REWARD:
 
-  ┌──────────────────┬──────────────────┬──────────────────┬─────────────────────────┐
-  │ Đặc tính         │ Evaluative       │ Direct-State     │ Neonate Sweet           │
-  ├──────────────────┼──────────────────┼──────────────────┼─────────────────────────┤
-  │ Neurochemical    │ Opioid           │ Non-opioid       │ OPIOID ✅Evaluative     │
-  │ Learning req.    │ Compiled         │ Hardware         │ HARDWARE ✅Direct-State │
-  │ PFC needed?      │ Yes              │ No               │ NO ✅Direct-State       │
-  │ Naltrexone       │ Blocks           │ No effect        │ BLOCKS ✅Evaluative     │
-  │ From birth?      │ No               │ Yes              │ YES ✅Direct-State      │
-  │ Evaluation?      │ Yes (complex)    │ None             │ YES (binary) ✅Evaluative│
-  └──────────────────┴──────────────────┴──────────────────┴─────────────────────────┘
+  ┌──────────────────┬──────────────┬──────────────┬──────────────────────┐
+  │ Property         │ Evaluative   │ Direct-State │ Neonate Sweet        │
+  ├──────────────────┼──────────────┼──────────────┼──────────────────────┤
+  │ Neurochemical    │ Opioid       │ Non-opioid   │ OPIOID ✅Evaluative  │
+  │ Learning req.    │ Compiled     │ Hardware     │ HARDWARE ✅D-S       │
+  │ PFC needed?      │ Yes          │ No           │ NO ✅Direct-State    │
+  │ Naltrexone       │ Blocks       │ No effect    │ BLOCKS ✅Evaluative  │
+  │ From birth?      │ No           │ Yes          │ YES ✅Direct-State   │
+  │ Evaluation?      │ Yes (complex)│ None         │ YES (binary)         │
+  │                  │              │              │ ✅Evaluative         │
+  └──────────────────┴──────────────┴──────────────┴──────────────────────┘
 
-  Resolution: E₀ VẪN Evaluative Reward vì:
-  ① Opioid pathway: CÙNG pathway với adult food/music reward.
-  ② Evaluation EXISTS — dù binary. Direct-State Reward = NO evaluation at all.
+  Resolution: E₀ is STILL Evaluative Reward because:
+  ① Opioid pathway: SAME pathway as adult food/music reward.
+  ② Evaluation EXISTS — even if binary. Direct-State Reward = NO evaluation at all.
   ③ Contrast: Touch (Direct-State) = CT → state change, no matching.
      Sweet (E₀) = taste receptor → template match → opioid.
      → Qualitatively DIFFERENT pathways.
 
   E₀ = EVOLUTIONARY SHORTCUT:
-  → Infant CŨNG needs to EVALUATE food — LIFE OR DEATH
-  → CANNOT wait for compiled chunks — infant starves/poisons
+  → Infants ALSO need to EVALUATE food — LIFE OR DEATH
+  → CANNOT wait for compiled chunks — infant starves/gets poisoned
   → Solution: PRE-INSTALL binary evaluation for taste
   → Sweet → opioid → approach → survive
   → Bitter → aversion → reject → survive
@@ -473,7 +487,7 @@ Reward-Signal-Architecture.md (file này):
   Source: Drill §3.10 (R19).
 ```
 
-### §2.3 — Development: layers BUILD on E₀ foundation
+### §2.3 — Development: layers BUILD on the E₀ foundation
 
 ```
 🟡 E₀→E₃ = LAYERS — STACKING, NOT REPLACING:
@@ -487,20 +501,21 @@ Reward-Signal-Architecture.md (file này):
   │     ↓                                                        │
   │  Expert:  E₀ + E₁ + E₂ + E₃ (abstract beauty, coherence)    │
   │                                                              │
-  │  Direct-State = parallel track, independent, ALWAYS present   │
+  │  Direct-State = parallel track, independent, ALWAYS present  │
   │  E₀ = foundation, NEVER lost, layers BUILD on top            │
   └──────────────────────────────────────────────────────────────┘
 
-  → Adult still likes sweet = E₀ + compiled layers on top
+  → Adults still enjoy sweet = E₀ + compiled layers on top
   → Expert wine tasting = E₀ + E₁ + E₂ (STACKING)
   → E₀ = FOUNDATION. E₁-E₃ = LAYERS built on foundation.
-  → Each layer ADDS evaluation complexity, opioid pathway shared.
+  → Each layer ADDS evaluation complexity, shared opioid pathway.
   → Direct-State = SEPARATE system. Non-opioid. No evaluation at all.
 
   Compiled/Fresh connection:
   → E₀→E₃ stacking = compilation DEPTH increasing
   → Each layer = MORE chunks compiled → richer evaluation possible
-  → "Compilation capability" (Compilable Architecture ②) = engine driving Evaluative growth
+  → "Compilation capability" (Compilable Architecture ②) = engine
+    driving Evaluative growth
   → E₃ "deep" = decades of compilation → evaluation automatic = COMPILED
 
   Source: Drill §3.10 (R19).
@@ -508,19 +523,20 @@ Reward-Signal-Architecture.md (file này):
 
 ---
 
-## §3 — EVALUATIVE GATES DIRECT-STATE: EVALUATION MODULATES HARDWARE SIGNAL
+## §3 — EVALUATIVE GATES DIRECT-STATE: EVALUATION MODULATES THE HARDWARE SIGNAL
 
-### §3.1 — NOT single locus — INSULA GRADIENT PROCESS
+### §3.1 — NOT a single locus — INSULA GRADIENT PROCESS
 
 ```
 ⭐ EVALUATIVE GATES DIRECT-STATE = POSTERIOR-TO-ANTERIOR INSULA GRADIENT:
 
   GENERAL MECHANISM — APPLIES TO BOTH DIRECTIONS:
-  File này: Evaluative Gates applied to REWARD (evaluation modulates reward experience).
-  Dissonance-Signal-Architecture.md §3: CÙNG mechanism applied to DISSONANCE.
+  This file: Evaluative Gates applied to REWARD (evaluation modulates reward experience).
+  Dissonance-Signal-Architecture.md §3: SAME mechanism applied to DISSONANCE.
   PROOF: Placebo = Evaluative suppresses Direct-State Dissonance (Wager 2004).
-         Nocebo = Evaluative amplifies Direct-State Dissonance (Colloca & Benedetti 2005).
-  Insula gradient = GENERAL interoceptive processing, không chỉ reward.
+         Nocebo = Evaluative amplifies Direct-State Dissonance
+           (Colloca & Benedetti 2005).
+  Insula gradient = GENERAL interoceptive processing, not just reward.
 
   🟢 Craig 2002, 2013: posterior insula → mid-insula → anterior insula
   = progressively context-enriched interoceptive representation.
@@ -571,7 +587,7 @@ Reward-Signal-Architecture.md (file này):
 ### §3.2 — 4 Modulation Outcomes
 
 ```
-🟡 EVALUATIVE → 4 POSSIBLE EFFECTS ON DIRECT-STATE SIGNAL:
+🟡 EVALUATIVE → 4 POSSIBLE EFFECTS ON THE DIRECT-STATE SIGNAL:
 
   ┌─────────────────────────┬──────────────────────────────────────────┐
   │ Evaluative Result       │ Effect on Direct-State Signal             │
@@ -583,7 +599,7 @@ Reward-Signal-Architecture.md (file này):
   │ (stranger, threat)      │ Net unpleasant despite Direct-State pos. │
   ├─────────────────────────┼──────────────────────────────────────────┤
   │ Evaluative absent       │ Direct-State RAW (unmodulated)           │
-  │ (infant, dissociation   │ Basic pleasant from hardware             │
+  │ (infant, dissociation,  │ Basic pleasant from hardware             │
   │  PFC offline)           │ = "pure Direct-State experience"         │
   ├─────────────────────────┼──────────────────────────────────────────┤
   │ Evaluative conflicted   │ AMBIGUOUS signal                         │
@@ -621,14 +637,17 @@ Reward-Signal-Architecture.md (file này):
     → Touch experience highly context-dependent
 
   Elderly (cognitive decline): anterior may SIMPLIFY
-    → Evaluative gate LOOSENS → touch more valued in simpler way
-    → = "Bà chỉ cần nắm tay" = Direct-State re-emerging
+    → Evaluative gate LOOSENS → touch valued in a simpler way again
+    → = "Grandma just needs someone to hold her hand"
+      = Direct-State re-emerging
 
-  → Insula maturation curve MIRRORS Evaluative/Direct-State development gradient (§8.1)
+  → Insula maturation curve MIRRORS the Evaluative/Direct-State
+    development gradient (§8.1)
   → NOT coincidence — insula gradient IS the Evaluative gate mechanism
 
   ⚠️ FRAMEWORK SCOPE BOUNDARY:
-  Mechanism at CONCEPT level: "Evaluative assessment modulates Direct-State hardware signal."
+  Mechanism at CONCEPT level: "Evaluative assessment modulates
+    Direct-State hardware signal."
   Neural mapping: "via posterior-to-anterior insula gradient."
   Framework NOTES mapping for verification anchors.
   Framework does NOT commit to sub-region claims as FRAMEWORK claims.
@@ -639,68 +658,79 @@ Reward-Signal-Architecture.md (file này):
 ### §3.4 — 6 Edge Cases: Evaluative/Direct-State Boundary
 
 ```
-🟡 6 EDGE CASES — EVALUATIVE/DIRECT-STATE THỰC TẾ LÀ SPECTRUM:
+🟡 6 EDGE CASES — Evaluative/Direct-State IS ACTUALLY A SPECTRUM:
 
-  ① SPICY FOOD: Direct-State INPUT (pain) → Evaluative REWARD (compensatory endorphin)
+  ① SPICY FOOD: Direct-State INPUT (pain) → Evaluative REWARD
+       (compensatory endorphin)
      → Input pathway ≠ Reward pathway
-     → "Acquired taste" = compile transforms Direct-State input → Evaluative reward
+     → "Acquired taste" = compilation transforms Direct-State input
+       → Evaluative reward
 
-  ② SOCIAL TOUCH: Direct-State component (CT afferents) + Evaluative component (social eval)
+  ② SOCIAL TOUCH: Direct-State component (CT afferents) +
+       Evaluative component (social evaluation)
      → Friend: Evaluative amplifies Direct-State → compound pleasant
      → Stranger: Evaluative overrides Direct-State → unpleasant despite CT
-     → Infant: Evaluative minimal → Direct-State raw → basic comfort (design feature)
-     → Dissociation: Evaluative suppressed → Direct-State may get through → "backdoor"
+     → Infant: Evaluative minimal → Direct-State raw → basic comfort
+       (design feature)
+     → Dissociation: Evaluative suppressed → Direct-State may get through
+       → "backdoor"
 
-  ③ MUSIC + MOVEMENT: Evaluative (music evaluation) + Direct-State (body rhythm) + ③ Social
+  ③ MUSIC + MOVEMENT: Evaluative (music evaluation) +
+       Direct-State (body rhythm) + Social
      → Dancing = Evaluative + Direct-State + Social = compound across 3+ channels
-     → Cultural universality: mọi nền văn hóa có dance
+     → Cultural universality: every culture has dance
 
-  ④ MASSAGE: Direct-State (CT) + Evaluative (technique evaluation) + ④ Relief
-     → Bad massage: Evaluative negative → override Direct-State → unpleasant
+  ④ MASSAGE: Direct-State (CT) + Evaluative (technique evaluation) +
+       Relief
+     → Bad massage: Evaluative negative → overrides Direct-State → unpleasant
 
-  ⑤ SEXUAL PLEASURE: Direct-State (physical) + Evaluative (attractiveness eval)
-     + ③ Social (bonding) + ④ Relief (tension release)
-     → Có thể là reward COMPOUND NHẤT trong repertoire
+  ⑤ SEXUAL PLEASURE: Direct-State (physical) + Evaluative (attractiveness
+       evaluation) + Social (bonding) + Relief (tension release)
+     → Potentially the MOST compound reward in the human repertoire
 
   ⑥ ASMR: EVALUATIVE GATE decides WHETHER Direct-State-like response fires
      → NOT everyone experiences → genetic variation
 
   5 INSIGHTS:
-  1. Evaluative/Direct-State = orthogonal DIMENSIONS, not binary (most rewards = compound)
-  2. Input pathway ≠ Reward pathway (spicy: Direct-State input → Evaluative reward)
-  3. EVALUATIVE GATES DIRECT-STATE — evaluation CAN amplify OR suppress hardware
+  1. Evaluative/Direct-State = orthogonal DIMENSIONS, not binary
+     (most rewards = compound)
+  2. Input pathway ≠ Reward pathway (spicy: Direct-State input →
+     Evaluative reward)
+  3. EVALUATIVE GATES DIRECT-STATE — evaluation CAN amplify OR suppress
+     hardware
   4. Evaluative/Direct-State ratio SHIFTS across development (§8.1)
-  5. "Modulation gradient" — Direct-State not modulated, Evaluative fully modulated, mixed varies
+  5. "Modulation gradient" — Direct-State not modulated, Evaluative fully
+     modulated, mixed varies
 
   Source: Drill §3.7 (R13 edge cases).
 ```
 
 ---
 
-## §4 — 5 REWARD PROFILES: "HƯƠNG VỊ" REWARD
+## §4 — 5 REWARD PROFILES: REWARD "FLAVORS"
 
 ### §4.1 — Neuroscience foundation
 
 ```
-🟢 CÙNG HỆ THỐNG, KHÁC "HƯƠNG VỊ":
+🟢 SAME SYSTEM, DIFFERENT "FLAVOR":
 
   Tik, Soreq, Kounios et al. 2020 (NeuroImage):
-    → Insight activates CÙNG NAcc/VTA/dopaminergic circuitry
-      như food, sex, drugs
-    → = CÙNG reward hardware
+    → Insight activates the SAME NAcc/VTA/dopaminergic circuitry
+      as food, sex, drugs
+    → = SAME reward hardware
 
   Kounios & Beeman 2009:
-    → Aha moment: gamma burst ở right aSTG (unique cho insight)
-    → ~100ms sau: reward signal ở orbitofrontal cortex
-    → NHƯNG chỉ ở participants with HIGH reward sensitivity
+    → Aha moment: gamma burst in right aSTG (unique to insight)
+    → ~100ms later: reward signal in orbitofrontal cortex
+    → BUT only in participants with HIGH reward sensitivity
 
   Ultra-high-field fMRI 2018:
     → "Aha!" = qualitatively DISTINCT from pride/satisfaction
 
   → CONVERGENCE:
-    Cùng NAcc/VTA (hardware) + khác activation pattern (context)
-    = Cùng opioid + khác concurrent body signals
-    = Cùng "ngọt" + khác "hương vị"
+    Same NAcc/VTA (hardware) + different activation pattern (context)
+    = Same opioid + different concurrent body signals
+    = Same "sweetness" + different "flavor"
 
   Source: Drill §2.1.
 ```
@@ -715,40 +745,43 @@ Reward-Signal-Architecture.md (file này):
   ├────────────────────────┼──────────────────────────────────────────────┤
   │                        │                                              │
   │ ① SENSORY REWARD       │ Opioid + specific receptor pathway           │
-  │   (ăn ngon, mùi hương, │ Body LOCATION rõ (miệng, mũi, da, tai)     │
-  │    nhạc hay, tranh đẹp)│ Duration: WHILE experiencing                │
-  │                        │ Replay fidelity: ~20-60% (§5.3)            │
-  │                        │ Input: Sensory-Driven (Body-Feedback-Mechanism §2.2)           │
+  │   (delicious food,     │ Clear body LOCATION (mouth, nose, skin, ear)│
+  │    pleasant scents,    │ Duration: WHILE experiencing                │
+  │    beautiful music,    │ Replay fidelity: ~20-60% (§5.3)            │
+  │    visual art)         │ Input: Sensory-Driven                        │
+  │                        │   (Body-Feedback-Mechanism §2.2)            │
   │                        │ Motor: SAVORING — slow, enjoy, linger       │
   │                        │                                              │
   ├────────────────────────┼──────────────────────────────────────────────┤
   │                        │                                              │
   │ ② COHERENCE REWARD     │ Opioid + ACC coherence resolve              │
   │   (insight, eureka,    │   + right aSTG (unique, 🟢 Kounios 2009)   │
-  │    "hiểu rồi!", beauty)│ Body LOCATION mơ hồ ("ngực", "đầu")        │
-  │                        │ Duration: BURST then GLOW (§5.4)           │
+  │    "I got it!",        │ Vague body LOCATION ("chest", "head")       │
+  │    beauty)             │ Duration: BURST then GLOW (§5.4)           │
   │                        │ Unique behavior: compulsive recheck         │
   │                        │ Poincaré Equivalence: math=art=music beauty │
   │                        │   (🟢 Zeki 2014: mOFC convergence)          │
   │                        │ Motor urgency = 3-component compound:       │
   │                        │   fragility + arousal + verification (§4.4) │
-  │                        │ Input: Pattern-Driven (Body-Feedback-Mechanism §2.3 ⓓ gap fill)│
+  │                        │ Input: Pattern-Driven                        │
+  │                        │   (Body-Feedback-Mechanism §2.3 ⓓ gap fill)│
   │                        │                                              │
   ├────────────────────────┼──────────────────────────────────────────────┤
   │                        │                                              │
   │ ③ SOCIAL REWARD        │ Opioid + mirror signals + status update      │
-  │   (khen, connection,   │ Body: chest warmth, oxytocin contribution   │
+  │   (praise, connection, │ Body: chest warmth, oxytocin contribution   │
   │    approval, belonging)│ Duration: DURING + AFTERGLOW                │
   │                        │ Input: Sensory-Driven (agent input)         │
   │                        │   + Pattern-Driven (schema match)           │
-  │                        │ Connection.md: Valence-Momentary (Self-Pattern-Modeling-owned) │
+  │                        │ Connection.md: Valence-Momentary            │
+  │                        │   (Self-Pattern-Modeling-owned)             │
   │                        │                                              │
   ├────────────────────────┼──────────────────────────────────────────────┤
   │                        │                                              │
   │ ④ RELIEF REWARD        │ Cortisol DROP dominant (NOT opioid-led)      │
   │   (threat resolved,    │ Body: muscle relax, breathing ease,         │
-  │    "xong rồi",        │   shoulder drop                              │
-  │    "thoát rồi")       │ Duration: IMMEDIATE then FADE               │
+  │    "it's done",        │   shoulder drop                              │
+  │    "I escaped")        │ Duration: IMMEDIATE then FADE               │
   │                        │ ≠ pleasure — = ABSENCE of pain/threat       │
   │                        │ Eureka compounds: ② + ④ = double reward     │
   │                        │ Cross-ref: Cortisol-Baseline.md             │
@@ -756,19 +789,20 @@ Reward-Signal-Architecture.md (file này):
   ├────────────────────────┼──────────────────────────────────────────────┤
   │                        │                                              │
   │ ⑤ PREVIEW REWARD       │ Opioid REDUCED (fidelity follows E₀→E₃)     │
-  │   (tưởng tượng, nhớ   │ = Replay/preview of ①②③④                    │
-  │    lại, anticipation)  │ Same quality, lower intensity                │
-  │                        │ Body-Feedback-Mechanism §2.3: ⓐ REPLAY + ⓑ PREVIEW             │
-  │                        │ Cần compiled chunks (prerequisite)           │
+  │   (imagination,        │ = Replay/preview of ①②③④                    │
+  │    memory,             │ Same quality, lower intensity                │
+  │    anticipation)       │ Body-Feedback-Mechanism §2.3: ⓐ REPLAY      │
+  │                        │   + ⓑ PREVIEW                               │
+  │                        │ Compiled chunks required (prerequisite)      │
   │                        │                                              │
   └────────────────────────┴──────────────────────────────────────────────┘
 
-  ⚠️ PROFILES KHÔNG LOẠI TRỪ — có thể COMPOUND:
-    Eureka sau struggle: ② coherence + ④ relief = DOUBLE
-    Ăn cùng bạn bè: ① sensory + ③ social = COMPOUND
-    Được khen vì giải bài: ② coherence + ③ social = COMPOUND
-    Tưởng tượng ăn ngon: ⑤ preview OF ① sensory
-    → Compound = NORM, not exception (chi tiết §6)
+  ⚠️ PROFILES DO NOT EXCLUDE EACH OTHER — they can COMPOUND:
+    Eureka after struggle: ② coherence + ④ relief = DOUBLE
+    Eating with friends: ① sensory + ③ social = COMPOUND
+    Praised for solving a problem: ② coherence + ③ social = COMPOUND
+    Imagining a great meal: ⑤ preview OF ① sensory
+    → Compound = NORM, not exception (see §6 for detail)
 
   Source: Drill §2.2, §7.3 (R4).
 ```
@@ -776,11 +810,11 @@ Reward-Signal-Architecture.md (file này):
 ### §4.3 — Profiles × Evaluative/Direct-State Ratio
 
 ```
-🟡 MỖI PROFILE CÓ Evaluative/Direct-State RATIO RIÊNG:
+🟡 EACH PROFILE HAS ITS OWN Evaluative/Direct-State RATIO:
 
   ┌────────────────┬───────────────┬──────────────┬────────────────────────┐
   │ Profile        │ Evaluative    │ Direct-State │ Typical Ratio          │
-  │                │               │              │ (Eval/Direct-State)    │
+  │                │               │              │ (Eval/D-S)             │
   ├────────────────┼───────────────┼──────────────┼────────────────────────┤
   │ ① SENSORY      │ Food, music,  │ Touch, warmth│ VARIES by modality     │
   │                │ visual beauty │ stretching   │ Food: ~80/20           │
@@ -792,7 +826,7 @@ Reward-Signal-Architecture.md (file này):
   │                │ beauty        │ component    │                        │
   ├────────────────┼───────────────┼──────────────┼────────────────────────┤
   │ ③ SOCIAL       │ Praise eval,  │ Physical     │ Online praise: ~90/10  │
-  │                │ status, belong│ proximity,   │ Mother hug: ~40/60     │
+  │                │ status, belong│ proximity,   │ Mother's hug: ~40/60   │
   │                │               │ co-regulation│                        │
   ├────────────────┼───────────────┼──────────────┼────────────────────────┤
   │ ④ RELIEF       │ Evaluated     │ Physical     │ Problem solved: ~70/30 │
@@ -813,26 +847,27 @@ Reward-Signal-Architecture.md (file này):
 ### §4.4 — Motor Urgency: Profile ② Specific Marker
 
 ```
-🟡 MOTOR URGENCY = COMPOUND 3 COMPONENTS (exclusively Profile ②):
+🟡 MOTOR URGENCY = 3-COMPONENT COMPOUND (exclusive to Profile ②):
 
-  ❶ FRAGILITY URGENCY: insight = new pattern, chưa compiled
+  ❶ FRAGILITY URGENCY: insight = new pattern, not yet compiled
      → Working memory ~4 items (🟢 Cowan 2001) → interruption = LOST
-     → Motor response: EXTERNALIZE content (Hamilton carved on bridge)
+     → Motor response: EXTERNALIZE content (Hamilton carved on a bridge)
 
   ❷ AROUSAL OVERFLOW: extreme dopamine + opioid + relief
-     → Body CAN'T be still (Heisenberg climbed rock at dawn)
+     → Body CANNOT stay still (Heisenberg climbed a rock at dawn)
      → Content-general (jumping, pacing)
 
   ❸ VERIFICATION URGENCY: "is the pattern ACTUALLY coherent?"
      → Coherence CAN be wrong (false insight exists)
-     → Wiles: "kept coming back to desk to see if it was still there"
+     → Wiles: "kept coming back to the desk to see if it was still there"
 
   3 components fire SIMULTANEOUSLY → PFC observes as 1 "urgency" feeling.
 
   SAVORING vs URGENCY:
   → Direct-State rewards: NO motor urgency (touch → relax, melt into it)
   → Evaluative Reward sensory (①): LOW urgency (stimulus external + persistent)
-  → Evaluative Reward coherence (②): HIGH urgency (internal + transient + CAN be wrong)
+  → Evaluative Reward coherence (②): HIGH urgency
+    (internal + transient + CAN be wrong)
   → = Motor urgency = EXCLUSIVELY Evaluative Reward + Pattern-Driven + Coherence
   → = Profile ② SPECIFIC behavioral marker
 
@@ -861,17 +896,18 @@ Reward-Signal-Architecture.md (file này):
 
   3 simultaneous conditions:
     ① Sufficient COMPLEXITY (Precondition-4 floor): 1+1=2 → no beauty (trivial)
-    ② Sufficient SURPRISE (Precondition-3 delta): known proof 100th time → no beauty
+    ② Sufficient SURPRISE (Precondition-3 delta): known proof 100th time →
+       no beauty
     ③ Sufficient COHERENCE (Precondition-4 ceiling): random → no beauty
 
   Beauty = OPTIMAL coherence-to-complexity ratio = Goldilocks for patterns.
 
   Precondition-2 = BEAUTY GATE:
-    No chunks in domain → Precondition-4 CANNOT fire → no beauty experience.
+    No chunks in a domain → Precondition-4 CANNOT fire → no beauty experience.
     → Visual beauty: MOST ACCESSIBLE (hardware-aided Precondition-2)
     → Math beauty: LEAST ACCESSIBLE (expert E₃ chunks required)
-    → = "Tại sao không phải ai cũng thấy toán đẹp"
-      = Precondition-2 gate highest for math, not lack of aesthetic sense
+    → = "Why not everyone finds math beautiful"
+      = Precondition-2 gate is highest for math, not a lack of aesthetic sense
 
   ② cross-domain priming (Einstein's music mechanism):
     → Music ② active → ACC coherence detection WARM
@@ -882,10 +918,10 @@ Reward-Signal-Architecture.md (file này):
   Source: Drill §3.19 (R3). Cross-ref: PFC-Hardware.md (COMT/DRD4 for ②).
 ```
 
-### §4.6 — Temporal Profile mỗi Profile khác nhau
+### §4.6 — Temporal Profile differs across Profiles
 
 ```
-🟡 TEMPORAL PROFILE = THÊM 1 CHIỀU PHÂN BIỆT:
+🟡 TEMPORAL PROFILE = ONE MORE DISTINGUISHING DIMENSION:
 
   ① SENSORY:   ─────████████─────  (during stimulus)
   ② COHERENCE: ─────██▓▓▒▒░░────  (burst → glow → fade)
@@ -899,7 +935,7 @@ Reward-Signal-Architecture.md (file này):
   ░░   = trace
   ──   = baseline
 
-  → Chi tiết temporal dynamics: §5
+  → Temporal dynamics in detail: §5
 
   Source: Drill §2.3.
 ```
@@ -913,32 +949,32 @@ Reward-Signal-Architecture.md (file này):
 ```
 🟡 ONSET = f(EVALUATION COMPLEXITY):
 
-  ┌──────────────────┬─────────────┬──────────────────────────────────┐
-  │ Type             │ Onset       │ WHY                              │
-  ├──────────────────┼─────────────┼──────────────────────────────────┤
-  │ Direct-State     │ ~20-100ms   │ Peripheral → posterior insula.   │
-  │ (hardware)       │             │ NO evaluation. Shortest path.    │
-  ├──────────────────┼─────────────┼──────────────────────────────────┤
-  │ E₀ (hardware-installed)│ ~100-300ms  │ Taste receptor → brainstem →     │
-  │                  │             │ opioid. Pre-compiled binary eval.│
-  ├──────────────────┼─────────────┼──────────────────────────────────┤
-  │ E₁ (basic comp.) │ ~200ms-1s   │ Sensory → compiled chunks →     │
-  │                  │             │ simple matching → opioid.        │
-  ├──────────────────┼─────────────┼──────────────────────────────────┤
-  │ E₂ (complex comp)│ ~500ms-2s   │ Multi-chunk evaluation.         │
-  │                  │             │ Context-dependent matching.       │
-  ├──────────────────┼─────────────┼──────────────────────────────────┤
-  │ E₃ (deep comp.)  │ ~1-5s       │ Abstract schema fit. ACC         │
-  │                  │             │ coherence → opioid pipeline.     │
-  └──────────────────┴─────────────┴──────────────────────────────────┘
+  ┌──────────────────┬─────────────┬────────────────────────────────────┐
+  │ Type             │ Onset       │ WHY                                │
+  ├──────────────────┼─────────────┼────────────────────────────────────┤
+  │ Direct-State     │ ~20-100ms   │ Peripheral → posterior insula.     │
+  │ (hardware)       │             │ NO evaluation. Shortest path.      │
+  ├──────────────────┼─────────────┼────────────────────────────────────┤
+  │ E₀ (hardware-    │ ~100-300ms  │ Taste receptor → brainstem →       │
+  │ installed)       │             │ opioid. Pre-compiled binary eval.  │
+  ├──────────────────┼─────────────┼────────────────────────────────────┤
+  │ E₁ (basic comp.) │ ~200ms-1s   │ Sensory → compiled chunks →        │
+  │                  │             │ simple matching → opioid.          │
+  ├──────────────────┼─────────────┼────────────────────────────────────┤
+  │ E₂ (complex comp)│ ~500ms-2s   │ Multi-chunk evaluation.           │
+  │                  │             │ Context-dependent matching.         │
+  ├──────────────────┼─────────────┼────────────────────────────────────┤
+  │ E₃ (deep comp.)  │ ~1-5s       │ Abstract schema fit. ACC           │
+  │                  │             │ coherence → opioid pipeline.       │
+  └──────────────────┴─────────────┴────────────────────────────────────┘
 
   ⚠️ Timing ranges = ESTIMATES from processing depth, not measured.
   GRADIENT direction = strong framework prediction.
 
-  KEY: "First feel" of any experience = Direct-State or E₀.
+  KEY: The "first feel" of any experience = Direct-State or E₀.
   E₁-E₃ layers arrive LATER → experience BUILDS over time.
-  → Ăn chocolate: vị ngọt (E₀ ~100ms) → "ngon" (E₁ ~500ms)
-    → "ngon như lần ở Paris" (E₃ compare, ~2-5s)
+  → Eating chocolate: sweetness (E₀ ~100ms) → "delicious" (E₁ ~500ms)
+    → "delicious like that time in Paris" (E₃ compare, ~2-5s)
   → Each layer ADDS to subjective richness.
 
   Source: Drill §3.14 (R5).
@@ -947,7 +983,8 @@ Reward-Signal-Architecture.md (file này):
 ### §5.2 — Decay: 2 fundamentally different mechanisms
 
 ```
-🟡 EVALUATIVE HABITUATES VIA VTA (central). DIRECT-STATE VIA RECEPTOR (peripheral):
+🟡 EVALUATIVE HABITUATES VIA VTA (central).
+   DIRECT-STATE VIA RECEPTOR (peripheral):
 
   EVALUATIVE REWARD = VTA HABITUATION:
     → VTA detects prediction-delta → habituates → delta → 0
@@ -959,24 +996,24 @@ Reward-Signal-Architecture.md (file này):
     → Direct-State likely bypasses VTA → NOT "baseline-adjusted"
     → Each modality has ITS OWN adaptation curve:
 
-    ┌──────────────────┬─────────────┬──────────────────────────────────┐
-    │ Direct-State     │ Adaptation  │ WHY                              │
-    ├──────────────────┼─────────────┼──────────────────────────────────┤
-    │ CT touch         │ SLOW        │ CT DESIGNED for sustained contact│
-    │ (dynamic stroke) │ (dynamic)   │ (~1-10 cm/s) 🟢 Löken 2009     │
-    ├──────────────────┼─────────────┼──────────────────────────────────┤
-    │ CT touch         │ FAST        │ CT responds to MOVEMENT, not     │
-    │ (static pressure)│ (static)    │ sustained position               │
-    ├──────────────────┼─────────────┼──────────────────────────────────┤
-    │ Temperature      │ FAST        │ Thermoreceptor adaptation =      │
-    │                  │ (~5-10 min) │ physics (🟢 well-established)    │
-    ├──────────────────┼─────────────┼──────────────────────────────────┤
-    │ Exercise eCB     │ SLOW        │ Metabolic process, CB1 receptor  │
-    │                  │ (weeks/mos) │ desensitization possible but slow│
-    └──────────────────┴─────────────┴──────────────────────────────────┘
+    ┌──────────────────┬─────────────┬────────────────────────────────────┐
+    │ Direct-State     │ Adaptation  │ WHY                                │
+    ├──────────────────┼─────────────┼────────────────────────────────────┤
+    │ CT touch         │ SLOW        │ CT DESIGNED for sustained contact  │
+    │ (dynamic stroke) │ (dynamic)   │ (~1-10 cm/s) 🟢 Löken 2009        │
+    ├──────────────────┼─────────────┼────────────────────────────────────┤
+    │ CT touch         │ FAST        │ CT responds to MOVEMENT, not       │
+    │ (static pressure)│ (static)    │ sustained position                 │
+    ├──────────────────┼─────────────┼────────────────────────────────────┤
+    │ Temperature      │ FAST        │ Thermoreceptor adaptation =        │
+    │                  │ (~5-10 min) │ physics (🟢 well-established)      │
+    ├──────────────────┼─────────────┼────────────────────────────────────┤
+    │ Exercise eCB     │ SLOW        │ Metabolic process, CB1 receptor    │
+    │                  │ (weeks/mos) │ desensitization possible but slow  │
+    └──────────────────┴─────────────┴────────────────────────────────────┘
 
-  → KHÔNG CÓ "Direct-State habituation rate" chung
-  → "Which Direct-State modalities habituate at what rate?" = right question
+  → There is NO single "Direct-State habituation rate"
+  → "Which Direct-State modalities habituate at what rate?" = the right question
 
   HEDONIC TREADMILL (🟢 Brickman & Campbell 1971):
     → = PRIMARILY Evaluative Reward phenomenon (VTA habituation)
@@ -985,7 +1022,8 @@ Reward-Signal-Architecture.md (file này):
 
   COMFORT OBJECTS:
     Direct-State components (PERSIST): CT afferents fire during handling
-    Evaluative components (habituated but gate intact): "safe" schema → amplifies Direct-State
+    Evaluative components (habituated but gate intact): "safe" schema →
+      amplifies Direct-State
     → "Boring but comforting" = VTA: "nothing new", body: "still good"
     → Spousal touch 20 years: ZERO novelty, STILL comforting
 
@@ -1001,25 +1039,26 @@ Reward-Signal-Architecture.md (file này):
   Cannot activate PERIPHERAL hardware (receptors, afferents).
   → More cortical pathway = higher preview fidelity.
 
-  ┌──────────────────┬─────────────┬──────────────────────────────────┐
-  │ Type             │ Est. Fidelity│ WHY                             │
-  ├──────────────────┼─────────────┼──────────────────────────────────┤
-  │ Direct-State     │ ~5-15%      │ Peripheral only. CT, eCB,       │
-  │ Touch, exercise  │             │ thermoreceptors unreachable.     │
-  ├──────────────────┼─────────────┼──────────────────────────────────┤
-  │ E₀ (hardware-installed)│ ~15-25%     │ Brainstem opioid partially      │
-  │ Sweet taste      │             │ simulable via gustatory cortex.  │
-  ├──────────────────┼─────────────┼──────────────────────────────────┤
-  │ E₁ (basic comp.) │ ~25-40%     │ Compiled food/music chunks fire.│
-  │ Food preferences │             │ Actual sensory component missing.│
-  ├──────────────────┼─────────────┼──────────────────────────────────┤
-  │ E₂ (complex comp)│ ~40-60%     │ Rich compiled chunks fire.      │
-  │ Music, aesthetics│             │ Pattern matching mostly cortical.│
-  ├──────────────────┼─────────────┼──────────────────────────────────┤
-  │ E₃ (deep comp.)  │ ~60-80%     │ PURELY cortical. Abstract schema│
-  │ Math beauty,     │             │ = fully simulable internally.    │
-  │ expert coherence │             │ No peripheral component needed.  │
-  └──────────────────┴─────────────┴──────────────────────────────────┘
+  ┌──────────────────┬─────────────┬────────────────────────────────────┐
+  │ Type             │ Est. Fidelity│ WHY                               │
+  ├──────────────────┼─────────────┼────────────────────────────────────┤
+  │ Direct-State     │ ~5-15%      │ Peripheral only. CT, eCB,          │
+  │ Touch, exercise  │             │ thermoreceptors unreachable.        │
+  ├──────────────────┼─────────────┼────────────────────────────────────┤
+  │ E₀ (hardware-    │ ~15-25%     │ Brainstem opioid partially         │
+  │ installed)       │             │ simulable via gustatory cortex.    │
+  │ Sweet taste      │             │                                    │
+  ├──────────────────┼─────────────┼────────────────────────────────────┤
+  │ E₁ (basic comp.) │ ~25-40%     │ Compiled food/music chunks fire.   │
+  │ Food preferences │             │ Actual sensory component missing.  │
+  ├──────────────────┼─────────────┼────────────────────────────────────┤
+  │ E₂ (complex comp)│ ~40-60%     │ Rich compiled chunks fire.         │
+  │ Music, aesthetics│             │ Pattern matching mostly cortical.  │
+  ├──────────────────┼─────────────┼────────────────────────────────────┤
+  │ E₃ (deep comp.)  │ ~60-80%     │ PURELY cortical. Abstract schema   │
+  │ Math beauty,     │             │ = fully simulable internally.      │
+  │ expert coherence │             │ No peripheral component needed.    │
+  └──────────────────┴─────────────┴────────────────────────────────────┘
 
   ⚠️ Percentages = ILLUSTRATIVE, not measured.
 
@@ -1027,10 +1066,11 @@ Reward-Signal-Architecture.md (file này):
   🟢 Jeannerod 1995: motor imagery uses motor cortex.
   🟢 Damasio 1994: somatic marker = body responds to simulation "as if" real.
 
-  "Nhớ vị chocolate RÕ HƠN nhớ cảm giác massage":
+  "Remembering the taste of chocolate is clearer than remembering
+   how a massage felt":
   → Chocolate (E₁, ~30-40%) → compiled taste chunks fire
   → Massage (mostly Direct-State, ~10-15%) → CT sensation COMPLETELY ABSENT
-  → "Nhớ rõ hơn" = higher cortical proportion = more simulable
+  → "Clearer" = higher cortical proportion = more simulable
 
   WANTING × PREVIEW — CRAVING VULNERABILITY:
   → High preview fidelity → strong wanting → drive to seek (Evaluative Reward)
@@ -1038,8 +1078,9 @@ Reward-Signal-Architecture.md (file này):
   → Direct-State Reward resistant to craving (needs actual experience)
 
   ⚠️ "APPARENT DIRECT-STATE PREVIEW" CAVEAT:
-  → "Remember massage → body relaxes" = NOT Direct-State preview
-  → = Preview of Direct-State CONTEXT through Evaluative pathway (schema activation)
+  → "Remembering a massage → body relaxes" = NOT Direct-State preview
+  → = Preview of Direct-State CONTEXT through Evaluative pathway
+    (schema activation)
 
   Source: Drill §3.12 (R17).
 ```
@@ -1063,19 +1104,19 @@ Reward-Signal-Architecture.md (file này):
 
   CURVE 3 — BACKGROUND PROCESSING CASCADE:
     New chunks → network reorganizes → RELATED micro-insights.
-    "À, nó CŨNG có nghĩa..." = secondary discoveries.
+    "Ah, it ALSO means..." = secondary discoveries.
     Duration: hours → days. 🟢 Collins & Loftus 1975.
 
   CURVE 4 — VERIFICATION LOOP (R4):
-    Each recheck → "vẫn đúng" → ANOTHER opioid pulse.
+    Each recheck → "still correct" → ANOTHER opioid pulse.
     Duration: minutes → hours (until compiled as "confirmed").
 
   ┌──────────────────────────────────────────────────────────────┐
-  │  t=0:      ████ opioid burst (curve 1)                       │
-  │  t=1min:   ████▓▓▓ + relief (curve 2) + recheck (curve 4)  │
-  │  t=1h:     ▓▓▓▓▓▓ consolidation + relief + background      │
-  │  t=next day: ▓▓▓ relief + "new implications!" (curves 2+3) │
-  │  t=2-3 days: ░░░ relief fading + occasional insight         │
+  │  t=0:       ████ opioid burst (curve 1)                      │
+  │  t=1min:    ████▓▓▓ + relief (curve 2) + recheck (curve 4)  │
+  │  t=1h:      ▓▓▓▓▓▓ consolidation + relief + background      │
+  │  t=next day:▓▓▓ relief + "new implications!" (curves 2+3)   │
+  │  t=2-3 days:░░░ relief fading + occasional insight           │
   └──────────────────────────────────────────────────────────────┘
 
   → E₃ afterglow LONG: ALL 4 mechanisms active.
@@ -1092,26 +1133,27 @@ Reward-Signal-Architecture.md (file này):
   Any experience = SUM of overlapping temporal profiles.
   "Richness" = number of active layers + overlap quality.
 
-  VÍ DỤ: Ăn cùng bạn bè:
+  EXAMPLE: Eating with friends:
 
     Time→   0ms    200ms   500ms   1s     5s    30s   5min   1h
             ├──────┼───────┼──────┼──────┼─────┼─────┼──────┤
     Direct-State(touch): ░░░░░  (background, very slow decay)
     E₀(taste):      ████████████████████████░░░░
-    E₁(food):                ████████████████████████░░░░░░░
-    E₂(eval):                        ███████████████████░░░░░░
-    ③Social:                                ████████████████████████████
-    ④Relief:                                     ████████████████████████
-    ⑤Preview:                                                    ▓▓▓▓▓▓▓▓
+    E₁(food):               ████████████████████████░░░░░░░
+    E₂(eval):                       ███████████████████░░░░░░
+    ③Social:                               ████████████████████████████
+    ④Relief:                                    ████████████████████████
+    ⑤Preview:                                                   ▓▓▓▓▓▓▓▓
 
     Total:   ░      ██      ████    █████ █████ █████  ███   ▓▓
              barely sweet   compound peak  rich  fading glow  memory
 
   → Compound experiences BUILD: layers arrive at different times
   → Rush (drugs, gambling) = "shallow": 1-2 layers, fast decay
-  → Deep compound = "rich": nhiều layers, build dần, decay chậm
+  → Deep compound = "rich": many layers, build gradually, decay slowly
 
-  Duration = f(source_type × Evaluative/Direct-State_type × compound_layers × pending)
+  Duration = f(source_type × Evaluative/Direct-State_type ×
+               compound_layers × pending)
 
   Source: Drill §3.14 (R5).
 ```
@@ -1124,7 +1166,8 @@ Reward-Signal-Architecture.md (file này):
 
 ```
 ⭐ COMPOUND = NORM, NOT EXCEPTION.
-  Body-Feedback-Mechanism §4: Signal_total = Σ (dynamics × intensity × network_size).
+  Body-Feedback-Mechanism §4: Signal_total = Σ (dynamics × intensity ×
+    network_size).
   REFINED: Interaction type DEPENDS ON 4 variables.
   → CONDITIONAL INTERACTION MODEL.
 
@@ -1158,26 +1201,28 @@ Reward-Signal-Architecture.md (file này):
 🟡 EVALUATIVE + DIRECT-STATE = MODULATION, NOT ARITHMETIC:
 
   This is EVALUATIVE GATE MODULATION (§3):
-  Direct-State signal fires → Evaluative assessment fires → anterior insula integrates.
+  Direct-State signal fires → Evaluative assessment fires →
+    anterior insula integrates.
 
-  ┌─────────────────────────┬──────────────────────────────────────────────────┐
-  │ Evaluative Gate Setting │ Compound Result                                  │
-  ├─────────────────────────┼──────────────────────────────────────────────────┤
-  │ Evaluative positive     │ SUPERADDITIVE: Evaluative amplifies Direct-State │
-  │ (trusted person)        │ Compound > Evaluative_alone + Direct-State_alone │
-  ├─────────────────────────┼──────────────────────────────────────────────────┤
-  │ Evaluative negative     │ SUBTRACTIVE: Evaluative suppresses Direct-State  │
-  │ (stranger)              │ NEGATIVE despite Direct-State positive           │
-  ├─────────────────────────┼──────────────────────────────────────────────────┤
-  │ Evaluative absent       │ RAW Direct-State: no modulation                  │
-  │ (infant, PFC off)       │ = "Pure Direct-State experience"                 │
-  ├─────────────────────────┼──────────────────────────────────────────────────┤
-  │ Evaluative conflicted   │ NON-LINEAR: qualitatively NEW                    │
-  │ (attracted stranger)    │ Arousal + caution = ambiguous                    │
-  │                         │ 🟢 Botvinick 2004: ACC conflict                  │
-  └─────────────────────────┴──────────────────────────────────────────────────┘
+  ┌─────────────────────────┬────────────────────────────────────────────────┐
+  │ Evaluative Gate Setting │ Compound Result                                │
+  ├─────────────────────────┼────────────────────────────────────────────────┤
+  │ Evaluative positive     │ SUPERADDITIVE: Evaluative amplifies Direct-    │
+  │ (trusted person)        │ State. Compound > Evaluative_alone +           │
+  │                         │ Direct-State_alone.                            │
+  ├─────────────────────────┼────────────────────────────────────────────────┤
+  │ Evaluative negative     │ SUBTRACTIVE: Evaluative suppresses Direct-     │
+  │ (stranger)              │ State. NEGATIVE despite Direct-State positive. │
+  ├─────────────────────────┼────────────────────────────────────────────────┤
+  │ Evaluative absent       │ RAW Direct-State: no modulation                │
+  │ (infant, PFC off)       │ = "Pure Direct-State experience"               │
+  ├─────────────────────────┼────────────────────────────────────────────────┤
+  │ Evaluative conflicted   │ NON-LINEAR: qualitatively NEW                  │
+  │ (attracted stranger)    │ Arousal + caution = ambiguous                  │
+  │                         │ 🟢 Botvinick 2004: ACC conflict                │
+  └─────────────────────────┴────────────────────────────────────────────────┘
 
-  → Evaluative controls the GAIN of Direct-State, does not add to Direct-State.
+  → Evaluative controls the GAIN of Direct-State; it does not add to Direct-State.
 
   Source: Drill §3.15 (R7), §3.7 (R13).
 ```
@@ -1199,11 +1244,11 @@ Reward-Signal-Architecture.md (file này):
     Medium pending (days): ~1.5-3x
     Long pending (years): ~3-10x
 
-  → Einstein years → "DAYS ecstasy" (large multiplier)
-  → Student 5 min → "oh, cool" (small multiplier)
+  → Einstein: years pending → "DAYS of ecstasy" (large multiplier)
+  → Student: 5-minute pending → "oh, cool" (small multiplier)
   → Same coherence type (E₃). VASTLY different magnitude.
 
-  "Comfort food" = food whose reward MULTIPLIED by relief.
+  "Comfort food" = food whose reward is MULTIPLIED by relief.
   🟢 Brickman & Campbell 1971: contrast effect — framework:
   cortisol relief = MECHANISM behind contrast.
 
@@ -1216,8 +1261,8 @@ Reward-Signal-Architecture.md (file này):
 🟡 3 TEMPORAL PATTERNS:
 
   SIMULTANEOUS PEAK (rare, maximum density):
-    All channels peak ~ same time → MAXIMUM compound.
-    Example: orgasm = physical Direct-State + evaluation Evaluative + social + relief.
+    All channels peak at ~the same time → MAXIMUM compound.
+    Example: orgasm = physical Direct-State + Evaluative + social + relief.
 
   SEQUENTIAL PEAK (common, building):
     Channels peak one after another → experience "builds."
@@ -1242,9 +1287,9 @@ Reward-Signal-Architecture.md (file này):
   │                     │ Different (Evaluative+Direct-State,       │
   │                     │   Direct-State+Direct-State): ADDITIVE    │
   ├─────────────────────┼──────────────────────────────────────────┤
-  │ ② Evaluative gate direction  │ Positive: SUPERADDITIVE. Negative:       │
-  │                     │ SUBTRACTIVE. Absent: RAW. Conflicted:    │
-  │                     │ NON-LINEAR.                              │
+  │ ② Evaluative gate   │ Positive: SUPERADDITIVE. Negative:       │
+  │   direction         │ SUBTRACTIVE. Absent: RAW.                │
+  │                     │ Conflicted: NON-LINEAR.                  │
   ├─────────────────────┼──────────────────────────────────────────┤
   │ ③ Relief presence   │ With relief: MULTIPLICATIVE              │
   │                     │ Without: base interaction only            │
@@ -1262,22 +1307,23 @@ Reward-Signal-Architecture.md (file này):
 
   ⚠️ QUALITATIVE model — captures TYPES and DIRECTIONS, not magnitudes.
 
-  Cross-ref: Body-Feedback-Mechanism §4 additive model → REFINED here to conditional.
+  Cross-ref: Body-Feedback-Mechanism §4 additive model → REFINED here
+    to conditional.
 
   Source: Drill §3.15 (R7).
 ```
 
 ---
 
-## §7 — 3 TYPES STATE DEPENDENCE (Cabanac Refined)
+## §7 — 3 TYPES OF STATE DEPENDENCE (Cabanac Refined)
 
 ### §7.1 — Cabanac conflated 3 mechanisms
 
 ```
 🟢🟡 ALLIESTHESIA (Cabanac 1971) = ACTUALLY 3 LEVELS:
 
-  Cabanac 🟢: cùng stimulus, khác hedonic value tùy body state.
-  Framework REFINES: Cabanac GỘP ít nhất 3 mechanisms khác nhau.
+  Cabanac 🟢: same stimulus, different hedonic value depending on body state.
+  Framework REFINES: Cabanac CONFLATED at least 3 different mechanisms.
 
 
   ❶ SENSOR-LEVEL STATE DEPENDENCE (hardware / physics):
@@ -1288,7 +1334,7 @@ Reward-Signal-Architecture.md (file này):
     → Exercise eCB: release = f(duration, intensity) = metabolic
 
     Characteristics:
-    → CANNOT override by PFC (physics, not opinion)
+    → CANNOT be overridden by PFC (physics, not opinion)
     → Present from BIRTH (hardware)
     → Direct-State Reward territory primarily
     → DETERMINISTIC: same physical input = same output
@@ -1297,25 +1343,27 @@ Reward-Signal-Architecture.md (file này):
   ❷ EVALUATION-LEVEL STATE DEPENDENCE (classical alliesthesia):
 
     Definition: Body-need state changes EVALUATION OUTCOME.
-    → Đói → chocolate = "fit body-need" → opioid → pleasant
-    → No → chocolate = "no body-need" → no opioid → neutral
+    → Hungry → chocolate = "fits body-need" → opioid → pleasant
+    → Not hungry → chocolate = "no body-need" → no opioid → neutral
     → Mechanism: Precondition-1 (schema pending) modulates evaluation result
     → 🟢 Cabanac 1971: gustatory alliesthesia
 
     Characteristics:
-    → CAN partially override by PFC (force-eat when full = possible)
+    → CAN be partially overridden by PFC (force-eating when full = possible)
     → Develops with CHUNK COMPILATION (needs chunks)
     → Evaluative Reward territory primarily
     → = Precondition-1 Directed-Gap mechanism
 
 
-  ❸ GATE-LEVEL STATE DEPENDENCE (Evaluative modulates Direct-State experience):
+  ❸ GATE-LEVEL STATE DEPENDENCE
+     (Evaluative modulates Direct-State experience):
 
     Definition: Social/emotional context modulates EXPERIENCE of
     hardware signal — Direct-State signal constant, Evaluative gate varies.
     → Lonely → Evaluative gate AMPLIFIES Direct-State → touch more valued
     → Touch-saturated → Evaluative gate NEUTRAL → touch baseline
-    → Stranger → Evaluative gate SUPPRESSES Direct-State → touch uncomfortable
+    → Stranger → Evaluative gate SUPPRESSES Direct-State →
+      touch uncomfortable
     → Dissociation → Evaluative gate BLOCKS → touch may not register
 
     Characteristics:
@@ -1329,21 +1377,23 @@ Reward-Signal-Architecture.md (file này):
   ┌──────────────────┬──────────────────┬──────────────┬─────────────────┐
   │ Dimension        │ ❶ Sensor-level   │ ❷ Evaluation │ ❸ Gate-level    │
   ├──────────────────┼──────────────────┼──────────────┼─────────────────┤
-  │ What changes     │ Sensor output    │ Eval result  │ Evaluative modulation    │
-  │                  │ itself           │              │ of Direct-State signal     │
+  │ What changes     │ Sensor output    │ Eval result  │ Evaluative      │
+  │                  │ itself           │              │ modulation of   │
+  │                  │                  │              │ Direct-State    │
   ├──────────────────┼──────────────────┼──────────────┼─────────────────┤
   │ PFC override?    │ NO (physics)     │ PARTIAL      │ PARTIAL         │
   │                  │                  │ (can force)  │ (therapy)       │
   ├──────────────────┼──────────────────┼──────────────┼─────────────────┤
-  │ From birth?      │ YES              │ NO (needs    │ NO (needs       │
-  │                  │ (hardware)       │ chunks)      │ Evaluative gate)         │
+  │ From birth?      │ YES (hardware)   │ NO (needs    │ NO (needs       │
+  │                  │                  │ chunks)      │ Evaluative gate)│
   ├──────────────────┼──────────────────┼──────────────┼─────────────────┤
   │ Type territory   │ Direct-State     │ Evaluative   │ Evaluative ×    │
   │                  │                  │              │ Direct-State    │
   ├──────────────────┼──────────────────┼──────────────┼─────────────────┤
-  │ Examples         │ Temp setpoint,   │ Food hunger, │ Touch lonely    │
-  │                  │ CT speed range,  │ music mood,  │ vs stranger,    │
-  │                  │ exercise fatigue │ insight gap  │ dissociation    │
+  │ Examples         │ Temp setpoint,   │ Food hunger, │ Touch when      │
+  │                  │ CT speed range,  │ music mood,  │ lonely vs with  │
+  │                  │ exercise fatigue │ insight gap  │ stranger;       │
+  │                  │                  │              │ dissociation    │
   ├──────────────────┼──────────────────┼──────────────┼─────────────────┤
   │ Intervention     │ Change PHYSICAL  │ Change BODY- │ Change SOCIAL/  │
   │                  │ state            │ NEED state   │ EMOTIONAL       │
@@ -1368,8 +1418,9 @@ Reward-Signal-Architecture.md (file này):
   Actually is: sensor-level (thermoreceptor delta from setpoint)
 
   Proof:
-  → PFC CANNOT override: "WANT to enjoy hot bath" when overheated = FAILS
-  → Evaluation-level CAN be partially overridden: force-eat when full = POSSIBLE
+  → PFC CANNOT override: "WANT to enjoy a hot bath" when overheated = FAILS
+  → Evaluation-level CAN be partially overridden: force-eating when full =
+    POSSIBLE
   → Temperature = ABSOLUTE, non-negotiable
   → Food = PARTIAL, overridable
 
@@ -1397,50 +1448,61 @@ Reward-Signal-Architecture.md (file này):
     → Neonatal care = primarily physical contact
 
   STAGE 2 — Infant (3-18 months): Evaluative/Direct-State ≈ 20/80
-    Direct-State Reward still dominant. Evaluative growing (food preferences, familiar faces)
+    Direct-State Reward still dominant. Evaluative growing
+      (food preferences, familiar faces)
     → Stranger anxiety (~8 months) = Evaluative gate starts evaluating
 
   STAGE 3 — Child (2-7 years): Evaluative/Direct-State ≈ 40/60
-    Evaluative expanding: music preference, food pickiness, coherence (puzzles)
+    Evaluative expanding: music preference, food pickiness,
+      coherence (puzzles)
     Direct-State maintained: still NEEDS touch, warmth, physical comfort
-    → Evaluative can now OVERRIDE Direct-State: "don't touch me!" (stranger eval)
+    → Evaluative can now OVERRIDE Direct-State: "don't touch me!"
+      (stranger evaluation)
 
   STAGE 4 — Adolescent (12-18): Evaluative/Direct-State ≈ 60/40
-    Evaluative dominant: social evaluation INTENSE, aesthetic developing
+    Evaluative dominant: social evaluation INTENSE, aesthetics developing
     Direct-State maintained but SOCIALLY CONSTRAINED:
     → "Embarrassed by parent hug" = social Evaluative gate VERY strong
 
-  STAGE 5 — Adult (25+): Evaluative/Direct-State ≈ 70/30 (varies enormously)
+  STAGE 5 — Adult (25+): Evaluative/Direct-State ≈ 70/30
+    (varies enormously)
     Evaluative Reward: full range (mastery, aesthetic, social, coherence)
     Direct-State Reward: persists but often NEGLECTED:
-    → "Quá bận để tập" (exercise Direct-State neglected)
-    → "Không ai ôm" (touch Direct-State neglected)
-    → Body-Base deficit ACCUMULATES silently
-    → Expert in domain: Evaluative SO compiled → feels automatic like Direct-State
+    → "Too busy to exercise" (exercise Direct-State neglected)
+    → "No one to hold me" (touch Direct-State neglected)
+    → Body-base deficit ACCUMULATES silently
+    → Expert in domain: Evaluative SO compiled → feels automatic
+      like Direct-State
 
-  STAGE 6 — Elderly: Evaluative/Direct-State potentially shifts BACK toward Direct-State
+  STAGE 6 — Elderly: Evaluative/Direct-State potentially shifts BACK
+    toward Direct-State
     → Cognitive decline reduces Evaluative capacity
     → Physical touch becomes MORE valuable again
     → = Evolutionary CIRCLE: hardware first and last
 
   LIFECYCLE ARC:
-    Direct-State dominant → Evaluative builds → Evaluative peaks → may decline → Direct-State persists
+    Direct-State dominant → Evaluative builds → Evaluative peaks
+    → may decline → Direct-State persists
     Direct-State NEVER reaches zero — hardware PERSISTS
 
   DOMAIN VERIFICATION (Drill Principle ⑧):
   → Evaluative Reward compiles correctly WHEN domain reality confirms
-  → "Đúng hướng?" → domain feedback = final arbiter
-  → Evaluative Reward compiled WRONG = "false expertise" (confident but inaccurate)
+  → "On the right track?" → domain feedback = final arbiter
+  → Evaluative Reward compiled WRONG = "false expertise"
+    (confident but inaccurate)
   → Domain verification mechanism:
     Body compiles evaluation → applies → domain outcome confirms/rejects
     Confirm → strengthen compilation (Hebbian)
     Reject → prediction-delta → re-evaluate → potentially reconsolidate
-  → WITHOUT domain feedback: Evaluative compilation DRIFTS (no correction signal)
-  → = WHY isolated experts can develop "expert bias" (E₃ compiled wrong)
-  → = WHY diverse domain exposure improves Evaluative accuracy over lifetime
+  → WITHOUT domain feedback: Evaluative compilation DRIFTS
+    (no correction signal)
+  → = WHY isolated experts can develop "expert bias"
+    (E₃ compiled incorrectly)
+  → = WHY diverse domain exposure improves Evaluative accuracy over a lifetime
 
   Cross-ref: Inter-Body-Mechanism.md §1 (domain = final arbiter).
-  Cross-ref: Ask-AI.md §6.1 (Dual Check: body=quality controller, domain=arbiter).
+  Cross-ref: Ask-AI.md §6.1 (Dual Check: body=quality controller,
+    domain=arbiter).
 
   Source: Drill §3.8, §3.10 (R19).
 ```
@@ -1450,29 +1512,34 @@ Reward-Signal-Architecture.md (file này):
 ```
 🟡 WINDOWS WHERE Precondition-5 TAGS COMPILE MORE READILY:
 
-  WINDOW 1 — Foundation (0-3 tuổi):
-    Evaluative/Direct-State ≈ 5-20% / 95-80%. Precondition-5 tags from BODY experience.
-    → Attachment quality = Precondition-5 FOUNDATION tag (🟢 Sroufe 2005).
-    → [người → safe] vs [người → unsafe] — PERSISTS deepest.
+  WINDOW 1 — Foundation (0-3 years):
+    Evaluative/Direct-State ≈ 5-20% / 95-80%.
+    Precondition-5 tags from BODY experience.
+    → Attachment quality = Precondition-5 FOUNDATION tag
+      (🟢 Sroufe 2005).
+    → [person → safe] vs [person → unsafe] — PERSISTS deepest.
 
-  WINDOW 2 — Exploration (3-7 tuổi):
-    Evaluative/Direct-State ≈ 40/60. Precondition-5 tags from PLAY + exploration.
+  WINDOW 2 — Exploration (3-7 years):
+    Evaluative/Direct-State ≈ 40/60.
+    Precondition-5 tags from PLAY + exploration.
     THE WINDOW where approach/avoidance tags for DOMAINS compile.
     → 1 STRONG avoidance tag can override many mild approach tags.
 
-  WINDOW 3 — Deepening (7-12 tuổi):
-    Evaluative/Direct-State ≈ 50/50. School begins → threat vs novelty DIVERGES.
-    → "Ghét toán" or "thích toán" compiled here → persists decades.
+  WINDOW 3 — Deepening (7-12 years):
+    Evaluative/Direct-State ≈ 50/50.
+    School begins → threat vs novelty DIVERGES.
+    → "Hates math" or "loves math" compiled here → persists decades.
     → Education system = MASS Precondition-5 TAG INSTALLATION mechanism.
 
-  WINDOW 4 — Identity (12-18 tuổi):
-    Evaluative/Direct-State ≈ 60/40. Precondition-5 tags COMPOUND with social (③) tags.
-    → "Tôi là người thích X" = accumulated approach → identity chunk.
+  WINDOW 4 — Identity (12-18 years):
+    Evaluative/Direct-State ≈ 60/40.
+    Precondition-5 tags COMPOUND with social (③) tags.
+    → "I am someone who likes X" = accumulated approach → identity chunk.
     → Reconsolidation still possible but HARDER.
 
   🟡 NOT "critical period" (Lorenz binary):
     Sensitive = compile EASIER, tag ATTACHES STRONGER.
-    Later reconsolidation possible (but requires destabilization).
+    Later reconsolidation is possible (but requires destabilization).
 
   Source: Drill §3.21 (R6). 🟢 Sroufe 2005, Bowlby 1969, Ainsworth 1978.
 ```
@@ -1482,40 +1549,46 @@ Reward-Signal-Architecture.md (file này):
 ```
 🟡 COMPILE PATHWAY → DIFFERENT Precondition-5 TAGS → DIFFERENT ADULT REWARD:
 
-  ┌────────────────────────┬──────────────────────┬──────────────────────┐
-  │ Pathway                │ Body State at Compile│ Adult Reward Profile  │
-  ├────────────────────────┼──────────────────────┼──────────────────────┤
-  │ ① Hardware Fit         │ Dopamine/opioid      │ ② coherence natural  │
-  │   (body tự reward)     │ (APPROACH tag)       │ flow ACCESSIBLE      │
-  │                        │                      │ sustainable decades  │
-  ├────────────────────────┼──────────────────────┼──────────────────────┤
-  │ ② Trust Install        │ Trust-warmth         │ Depends on collective│
-  │   (nghe mẹ → compile)  │ (moderate APPROACH)  │ chain holding        │
-  ├────────────────────────┼──────────────────────┼──────────────────────┤
-  │ ③ Social Default       │ Neutral-conformity   │ ④ relief dominant    │
-  │   (mọi người đều đi)   │ (weak/NEUTRAL tag)   │ "xong rồi" > "hay"  │
-  ├────────────────────────┼──────────────────────┼──────────────────────┤
-  │ ④ Threat Avoidance     │ Cortisol-NE          │ ④ relief ONLY        │
-  │   (sợ bị mắng)         │ (AVOIDANCE tag)      │ burnout trajectory   │
-  │                        │                      │ "giỏi MÀ không thích"│
-  └────────────────────────┴──────────────────────┴──────────────────────┘
+  ┌────────────────────────┬──────────────────────┬─────────────────────┐
+  │ Pathway                │ Body State at Compile│ Adult Reward Profile│
+  ├────────────────────────┼──────────────────────┼─────────────────────┤
+  │ ① Hardware Fit         │ Dopamine/opioid      │ ② coherence natural │
+  │   (body self-rewards)  │ (APPROACH tag)       │ flow ACCESSIBLE     │
+  │                        │                      │ sustainable decades │
+  ├────────────────────────┼──────────────────────┼─────────────────────┤
+  │ ② Trust Install        │ Trust-warmth         │ Depends on          │
+  │   (listening to mom    │ (moderate APPROACH)  │ collective chain    │
+  │    → compile)          │                      │ holding             │
+  ├────────────────────────┼──────────────────────┼─────────────────────┤
+  │ ③ Social Default       │ Neutral-conformity   │ ④ relief dominant   │
+  │   (everyone does it)   │ (weak/NEUTRAL tag)   │ "it's done" > "I   │
+  │                        │                      │ love this"          │
+  ├────────────────────────┼──────────────────────┼─────────────────────┤
+  │ ④ Threat Avoidance     │ Cortisol-NE          │ ④ relief ONLY       │
+  │   (fear of being       │ (AVOIDANCE tag)      │ burnout trajectory  │
+  │    scolded)            │                      │ "skilled BUT        │
+  │                        │                      │ doesn't like it"    │
+  └────────────────────────┴──────────────────────┴─────────────────────┘
 
-  KEY: Adult reward capacity = NOT random trait.
+  KEY: Adult reward capacity = NOT a random trait.
   = Accumulated Precondition-5 tags through childhood × pathway used.
   = "Talent" = early opioid-tagged exposure + hardware fit + years
 
   COMPOUND TAG ACCUMULATION:
   → Each domain accumulates tags over years
   → Peak negative > peak positive per event (evolutionary asymmetry)
-  → "1 lần bị mắng khi giải toán sai > 20 lần giải toán êm ả"
+  → "1 time scolded for a wrong answer in math > 20 times solving
+     quietly"
   → Approach snowball: approach → seek → compile → more approach
   → Avoidance snowball: avoid → no compile → tag stays → avoid more
-  → BOTH self-reinforcing. Breaking avoidance = EXTERNAL intervention needed.
+  → BOTH self-reinforcing. Breaking avoidance = EXTERNAL intervention
+    needed.
 
   OVERJUSTIFICATION = Precondition-5 TAG OVERWRITE:
   → 🟢 Lepper, Greene & Nisbitt 1973:
     Free drawing → expected reward → drawing DROPS
-  → Framework: extrinsic reward OVERWRITES Precondition-5 from approach to instrumental
+  → Framework: extrinsic reward OVERWRITES Precondition-5 from
+    approach to instrumental
   → Pathway ① → ④ shift = DESTRUCTIVE (intrinsic → extrinsic)
 
   Source: Drill §3.21 (R6). Cross-ref: Compile-Taxonomy.md §3.
@@ -1535,8 +1608,8 @@ Reward-Signal-Architecture.md (file này):
   │                      │                      │ NE, opioid density   │
   ├──────────────────────┼──────────────────────┼─────────────────────┤
   │ ② Childhood          │ Reward DIRECTION +   │ VERY HARD (deepest   │
-  │   Compilation        │ Precondition-5 tags  │ chunks, reconsolid.  │
-  │                      │ (§8.3)               │                      │
+  │   Compilation        │ Precondition-5 tags  │ chunks;              │
+  │                      │ (§8.3)               │ reconsolidation      │
   │                      │                      │ possible but costly) │
   ├──────────────────────┼──────────────────────┼─────────────────────┤
   │ ③ Domain Exposure    │ WHERE reward         │ YES (education +     │
@@ -1574,11 +1647,11 @@ Reward-Signal-Architecture.md (file này):
   │ Combination        │ Reward Pattern       │ Popular Label        │
   ├────────────────────┼──────────────────────┼──────────────────────┤
   │ Val/Val + 7R       │ Clear fast + high    │ "Thrill seeker"      │
-  │                    │ threshold → NEED     │ Big novel experiences │
+  │                    │ threshold → NEEDS    │ Big novel experiences │
   │                    │ novel BIG experiences│                      │
   ├────────────────────┼──────────────────────┼──────────────────────┤
   │ Met/Met + 4R       │ Clear slow + low     │ "Obsessive expert"   │
-  │                    │ threshold → SATISFY  │ Deep single domain   │
+  │                    │ threshold → SATISFIES│ Deep single domain   │
   │                    │ within single domain │                      │
   ├────────────────────┼──────────────────────┼──────────────────────┤
   │ Val/Val + 4R       │ Clear fast + low     │ "Social butterfly"   │
@@ -1588,7 +1661,7 @@ Reward-Signal-Architecture.md (file này):
   │ Met/Met + 7R       │ Clear slow + high    │ "Frustrated genius   │
   │                    │ threshold → draft    │  or true genius"     │
   │                    │ stuck + needs BIG    │ BIMODAL outcome      │
-  │                    │ chunks              │                      │
+  │                    │ chunks               │                      │
   └────────────────────┴──────────────────────┴──────────────────────┘
 
   COMT × CHILDHOOD COMPILATION:
@@ -1620,7 +1693,7 @@ Reward-Signal-Architecture.md (file này):
 ### §8.6 — 4 Departure Patterns + 3-Variable Shorthand
 
 ```
-🟡 INDIVIDUAL DEPARTURES FROM AVERAGE GRADIENT:
+🟡 INDIVIDUAL DEPARTURES FROM THE AVERAGE GRADIENT:
 
   ┌──────────────────┬──────────────────────┬──────────────────────────┐
   │ Pattern          │ Description          │ Mechanism                │
@@ -1629,7 +1702,7 @@ Reward-Signal-Architecture.md (file này):
   │   Evaluative     │ EARLY (child prodigy)│ + early approach tags    │
   ├──────────────────┼──────────────────────┼──────────────────────────┤
   │ ② Extended       │ Direct-State stays   │ Touch-rich culture       │
-  │   Direct-State   │ dominant longer      │ (athletes, craftsmen)    │
+  │   Direct-State   │ dominant longer      │ (athletes, craftspeople) │
   ├──────────────────┼──────────────────────┼──────────────────────────┤
   │ ③ Arrested       │ Evaluative STOPS     │ Threat-path education →  │
   │   Evaluative     │ developing at 3-4    │ avoidance tags BLOCK     │
@@ -1652,7 +1725,8 @@ Reward-Signal-Architecture.md (file này):
 
   3-VARIABLE SHORTHAND (practical compression):
 
-    ① Evaluative/Direct-State Ratio: where on spectrum (pure Evaluative → balanced → pure Direct-State)
+    ① Evaluative/Direct-State Ratio: where on spectrum
+      (pure Evaluative → balanced → pure Direct-State)
     ② Dominant Profile: which of 5 is STRONGEST (①②③④⑤)
     ③ Breadth: how many profiles ACTIVE (narrow → broad)
 
@@ -1660,7 +1734,8 @@ Reward-Signal-Architecture.md (file này):
   → "Compatibility" in relationships = OVERLAP (not identity)
   → Simple "extrovert/introvert" fails to predict reward behavior
 
-  ⚠️ 3-Variable Shorthand = practical compression, loses interaction detail.
+  ⚠️ 3-Variable Shorthand = practical compression, loses interaction
+    detail.
   Cannot MEASURE precisely yet — organizing framework.
 
   Source: Drill §3.22 (R8).
@@ -1675,21 +1750,24 @@ Reward-Signal-Architecture.md (file này):
 ```
 🟢🟡 NALTREXONE (OPIOID BLOCKER) = KEY DISCRIMINATOR:
 
-  ┌──────────────┬─────────────┬──────────────┬──────────────────────────┐
-  │ Modality     │ Naltrexone  │ Type         │ Source                    │
-  ├──────────────┼─────────────┼──────────────┼──────────────────────────┤
-  │ Food/sweet   │ BLOCKS ✅    │ Evaluative Reward       │ 🟢 Smith & Berridge 2007 │
-  │ Music        │ BLOCKS ✅    │ Evaluative Reward       │ 🟢 Mallik 2017           │
-  │ Sex          │ BLOCKS ✅    │ Evaluative Reward       │ 🟢 Sex Med Rev 2025      │
-  │ Insight      │ (untested)  │ Evaluative Reward (pred)│ 🔴 Framework prediction  │
-  │ Touch        │ NO EFFECT ⚠️│ Direct-State Reward       │ 🟢 Loseth 2019           │
-  │ Exercise     │ NO EFFECT ⚠️│ Direct-State Reward       │ 🟢 Fuss 2015, Siebers 21│
-  │ Temperature  │ (untested)  │ Direct-State Reward (pred)│ 🔴 Framework prediction  │
-  │ Spicy food   │ BLOCKS      │ Evaluative   │ 🟡 Via pain → endorphin  │
-  └──────────────┴─────────────┴──────────────┴──────────────────────────┘
+  ┌──────────────┬─────────────┬────────────────┬──────────────────────────┐
+  │ Modality     │ Naltrexone  │ Type           │ Source                    │
+  ├──────────────┼─────────────┼────────────────┼──────────────────────────┤
+  │ Food/sweet   │ BLOCKS ✅   │ Evaluative     │ 🟢 Smith & Berridge 2007  │
+  │ Music        │ BLOCKS ✅   │ Evaluative     │ 🟢 Mallik 2017            │
+  │ Sex          │ BLOCKS ✅   │ Evaluative     │ 🟢 Sex Med Rev 2025       │
+  │ Insight      │ (untested)  │ Evaluative     │ 🔴 Framework prediction   │
+  │              │             │ (predicted)    │                           │
+  │ Touch        │ NO EFFECT ⚠️│ Direct-State   │ 🟢 Loseth 2019            │
+  │ Exercise     │ NO EFFECT ⚠️│ Direct-State   │ 🟢 Fuss 2015,             │
+  │              │             │                │ Siebers 2021              │
+  │ Temperature  │ (untested)  │ Direct-State   │ 🔴 Framework prediction   │
+  │              │             │ (predicted)    │                           │
+  │ Spicy food   │ BLOCKS      │ Evaluative     │ 🟡 Via pain → endorphin   │
+  └──────────────┴─────────────┴────────────────┴──────────────────────────┘
 
   → Naltrexone = "litmus test" for Evaluative Reward vs Direct-State Reward
-  → NOT yet tested: insight, temperature (framework predictions)
+  → Not yet tested: insight, temperature (framework predictions)
 
   Source: Drill-Reward-Feeling-Cases.md §9.1.
 ```
@@ -1728,34 +1806,38 @@ Reward-Signal-Architecture.md (file này):
   │ Force               │ Mechanism                                   │
   ├─────────────────────┼────────────────────────────────────────────┤
   │ F1: MEANING         │ Life-level Anchor-Schema (Meaning.md §1)   │
-  │ (Life Anchor)       │ = "Tôi LÀ physicist" compiled deep         │
+  │ (Life Anchor)       │ = "I AM a physicist" compiled deep          │
   │                     │ → CONTINUOUS background identity-coherence  │
-  │                     │ → Absent: "để làm gì?" → break dễ          │
+  │                     │ → Absent: "what's the point?" → breaks      │
+  │                     │   easily                                    │
   ├─────────────────────┼────────────────────────────────────────────┤
   │ F2: GAP-DIRECTION   │ Persistent Precondition-1 at life scale    │
   │ (Zeigarnik life)    │ = Specific research question / project     │
-  │                     │ → PFC ⑧ Active Lock — CANNOT release       │
-  │                     │ → Absent: có meaning nhưng không biết hướng │
+  │                     │ → PFC ⑧ Active Lock — CANNOT release        │
+  │                     │ → Absent: has meaning but doesn't know the  │
+  │                     │   direction                                 │
   ├─────────────────────┼────────────────────────────────────────────┤
   │ F3: ② MICRO-REWARDS │ Intermittent reinforcement                 │
-  │ (Intermittent ②)    │ = Mỗi sub-insight → opioid → "đúng hướng" │
+  │ (Intermittent ②)    │ = Each sub-insight → opioid →              │
+  │                     │   "on the right track"                      │
   │                     │ → Intermittent = STRONGEST schedule         │
   │                     │   (🟢 Skinner variable ratio)               │
   │                     │ → ALONE insufficient for years-long arcs    │
   ├─────────────────────┼────────────────────────────────────────────┤
-  │ F4: TRUST THÁI ĐỘ   │ Body-base smooth with collective           │
-  │ (Collective trust)  │ = DEFAULT valence toward humanity = APPROACH│
+  │ F4: DISPOSITIONAL   │ Body-base smooth with collective            │
+  │ TRUST               │ = DEFAULT valence toward humanity =         │
+  │ (Collective trust)  │   APPROACH                                  │
   │                     │ → GATE deciding WHO benefits from ②         │
   │                     │ → Absent: solve for self only               │
-  │                     │ → Inverted: use intelligence AGAINST        │
+  │                     │ → Inverted: use intelligence AGAINST         │
   ├─────────────────────┼────────────────────────────────────────────┤
   │ F5: RECOGNITION     │ Status/peer acknowledgment                  │
-  │ (Social ③)          │ = "Được công nhận" = resource access map    │
+  │ (Social ③)          │ = "Being recognized" = resource access map  │
   │                     │ → CAN override material deficit             │
   │                     │ → Paradox: pre-fame = most creative         │
   └─────────────────────┴────────────────────────────────────────────┘
 
-  5 FORCES = COMPOUND — mỗi force hold 1 tầng:
+  5 FORCES = COMPOUND — each force holds 1 layer:
     F1 = WHY. F2 = WHERE. F3 = CONFIRMATION.
     F4 = FOR WHOM. F5 = VALIDATION.
 
@@ -1769,28 +1851,34 @@ Reward-Signal-Architecture.md (file này):
   Source: Drill §3.20 (R3 extended).
 ```
 
-### §10.2 — Trust Thái Độ vs Trust Nội Dung
+### §10.2 — Dispositional Trust vs Cognitive Trust
 
 ```
-🟡 2 LOẠI TRUST — INDEPENDENT, DIFFERENT SOURCE:
+🟡 2 TYPES OF TRUST — INDEPENDENT, DIFFERENT SOURCE:
 
   ┌──────────────────────┬──────────────────────────────────────────┐
-  │ TRUST NỘI DUNG       │ TRUST THÁI ĐỘ                            │
+  │ COGNITIVE TRUST      │ DISPOSITIONAL TRUST                      │
   ├──────────────────────┼──────────────────────────────────────────┤
-  │ "Chain dài collective │ "Con người NÓI CHUNG là tích cực"        │
-  │  hold HOẠT ĐỘNG"     │ = Body-base DEFAULT = APPROACH            │
-  │ = COGNITIVE trust    │ = BODY-BASE trust                         │
-  │ = Tin hệ thống      │ = CẢM THẤY smooth với mọi người          │
-  │ Source: evidence,    │ Source: CHILDHOOD COMPILATION              │
-  │ institution track    │ = Attachment pattern (🟢 Bowlby/Ainsworth) │
+  │ "The collective's    │ "People in general are trustworthy"       │
+  │  long chain is       │ = Body-base DEFAULT = APPROACH            │
+  │  still holding"      │ = BODY-BASE trust                         │
+  │ = COGNITIVE trust    │ = FEELS smooth with everyone              │
+  │ = Trust in the       │ Source: CHILDHOOD COMPILATION              │
+  │   system             │ = Attachment pattern                      │
+  │ Source: evidence,    │   (🟢 Bowlby/Ainsworth)                   │
+  │ institutional track  │                                           │
+  │ record               │                                           │
   └──────────────────────┴──────────────────────────────────────────┘
 
-  → CÓ THỂ có 1 mà không có 2:
-    Trust nội dung without thái độ: "biết hệ thống ok, ghét mọi người"
-    Trust thái độ without nội dung: "yêu mọi người, không tin hệ thống"
+  → CAN have one without the other:
+    Cognitive Trust without Dispositional: "knows the system is fine,
+      dislikes people"
+    Dispositional Trust without Cognitive: "loves people,
+      doesn't trust institutions"
 
   → F4 = GATE deciding WHERE intelligence POINTS
-  → Reward mechanism = AMORAL — Body-Feedback-Precondition fires for coherence bất kể moral
+  → Reward mechanism = AMORAL — Body-Feedback-Precondition fires for
+    coherence regardless of moral direction
   → Precondition-5 tag determines direction: childhood compilation decides
 
   Source: Drill §3.20 (R3 extended).
@@ -1803,19 +1891,19 @@ Reward-Signal-Architecture.md (file này):
 🟡 RECOGNITION > MATERIAL: RATIONAL AT BODY-BASE:
 
   ① Status.md: recognition = RESOURCE ACCESS MAP node
-     → "Được công nhận" = predict FUTURE resource access
+     → "Being recognized" = predicting FUTURE resource access
      → Body: [recognized → future safe → approach]
-  ② Collective-Body.md: chain dài sống ở collective
-     → "Ăn ngon" = short chain (immediate)
-     → "Được công nhận" = long chain (aggregate HIGHER expected value)
+  ② Collective-Body.md: long chain lives in the collective
+     → "Eating well" = short chain (immediate)
+     → "Being recognized" = long chain (aggregate HIGHER expected value)
   ③ Meaning.md: Life-level anchor > daily anchor
      → Life-level OVERRIDE daily-level discomfort
 
-  PFC KHÔNG CẦN check — body-base ALREADY evaluated.
+  PFC does NOT need to check — body-base HAS ALREADY evaluated.
   = RATIONAL at body-base, not "hijack" or "delusion."
 
-  GIỚI HẠN: L0 survival FLOOR (Body-Base.md)
-  → Malnutrition → L0 signal OVERRIDE status reward
+  LIMITS: L0 survival FLOOR (Body-Base.md)
+  → Malnutrition → L0 signal OVERRIDES status reward
 
   RECOGNITION PARADOX:
   → Pre-fame: F1+F2+F3 = pure ② → maximum creativity
@@ -1876,10 +1964,10 @@ Reward-Signal-Architecture.md (file này):
 🟡 CONSISTENT BUT FRAMEWORK-SPECIFIC (60+ items):
 
   Core architecture:
-  → Evaluative/Direct-State distinction (evaluative vs direct state)
+  → Evaluative/Direct-State distinction
   → Evaluative/Direct-State = ORTHOGONAL dimension (not 6th profile)
   → E₀→E₃ complexity gradient
-  → Evaluative Gates Direct-State mechanism (3 bước → 5-step insula process)
+  → Evaluative Gates Direct-State mechanism (3 steps → 5-step insula process)
   → Direct-State = "safe baseline reward" (evolutionary floor)
   → 5 Reward Profiles (framework organizing)
 
@@ -1887,7 +1975,7 @@ Reward-Signal-Architecture.md (file này):
   → Temporal Stack Model (onset follows E₀→E₃)
   → Conditional Interaction Model (4 variables)
   → Relief = system-state multiplier
-  → 3 types state dependence (refining Cabanac)
+  → 3 types of state dependence (refining Cabanac)
   → Motor urgency = 3-component compound
 
   Development:
@@ -1900,14 +1988,16 @@ Reward-Signal-Architecture.md (file này):
 
   Sustained arcs:
   → 5 Forces Holding Model
-  → Trust thái độ vs nội dung distinction
+  → Dispositional vs Cognitive Trust distinction
   → Recognition paradox (pre-fame = most creative)
 
   v2.0 additions:
-  → Compilable Architecture = WHY Evaluative Reward possible (general-purpose + compilation)
+  → Compilable Architecture = WHY Evaluative Reward possible
+    (general-purpose + compilation)
   → E₀→E₃ = Compiled/Fresh spectrum applied to reward evaluation
   → Domain verification = final arbiter for Evaluative compilation accuracy
-  → Direct-State Reward = foundation shared across architectures (not just humans)
+  → Direct-State Reward = foundation shared across architectures
+    (not just humans)
 
   All items = consistent with 🟢 research but not directly tested
   as framework claims. Framework ADDS organizing structure.
@@ -1920,8 +2010,10 @@ Reward-Signal-Architecture.md (file này):
 
   Core architecture:
   → Preview fidelity Evaluative > Direct-State (P-R17a through P-R17d)
-  → Direct-State habituation rates modality-specific (P-R20a through P-R20d)
-  → Evaluative Gates Direct-State = insula gradient (P-R18a through P-R18d)
+  → Direct-State habituation rates modality-specific
+    (P-R20a through P-R20d)
+  → Evaluative Gates Direct-State = insula gradient
+    (P-R18a through P-R18d)
   → E₀ complexity gradient (P-R19a through P-R19d)
   → 3-type state dependence (P-R14a through P-R14d)
   → Motor urgency 3-component (P-R4a through P-R4d)
@@ -1959,7 +2051,7 @@ Reward-Signal-Architecture.md (file này):
   → COMT × DRD4 interaction = framework synthesis, not tested
   → 4 Departure Patterns = framework organizing from clinical observation
   → 3-Variable Shorthand = cannot measure precisely yet
-  → Biographical data (8 figures) = retrospective, selection bias
+  → Biographical data = retrospective, selection bias
   → Compound Tag Accumulation = qualitative, weights not measured
 ```
 
@@ -1968,22 +2060,27 @@ Reward-Signal-Architecture.md (file này):
 ## §12 — CROSS-REFERENCES
 
 ```
-FRAMEWORK FILES LIÊN QUAN:
+RELATED FRAMEWORK FILES:
 
   COMPLEMENT FILE:
-  → 03-Reward.md — HOW reward fires (Body-Feedback-Preconditions) → file này WHAT KINDS
+  → 03-Reward.md — HOW reward fires (Body-Feedback-Preconditions)
+    → this file covers WHAT KINDS
 
   COUNTERPART FILE:
-  → Dissonance-Signal-Architecture.md v1.0 — COUNTERPART: Evaluative/Direct-State Dissonance,
-    E₀→E₃ dissonance, Evaluative Gates dissonance, Mismatch Splitting, Clinical Implications.
-    Cùng architecture (Evaluative/Direct-State, insula gradient). Khác direction + neurochemistry.
+  → Dissonance-Signal-Architecture.md v1.0 — COUNTERPART: Evaluative/Direct-State
+    Dissonance, E₀→E₃ dissonance, Evaluative Gates dissonance, Mismatch Splitting,
+    Clinical Implications.
+    Same architecture (Evaluative/Direct-State, insula gradient).
+    Different direction + neurochemistry.
 
   INTER-BODY DRILL (v2.0 additions):
-  → Inter-Body-Mechanism.md v1.0 — Compilable Architecture, Compiled/Fresh, 3-cost, domain arbiter
+  → Inter-Body-Mechanism.md v1.0 — Compilable Architecture, Compiled/Fresh,
+    3-cost, domain arbiter
   → Body-Feedback-Label.md v2.0 — vocabulary reference, 3-tier labels
 
   MECHANISM:
-  → Body-Feedback-Mechanism.md v2.0 — chunk dynamics + Evaluative/Direct-State × source mapping
+  → Body-Feedback-Mechanism.md v2.0 — chunk dynamics + Evaluative/Direct-State
+    × source mapping
   → Feeling.md v2.0 — feeling = PFC observation of reward signal
   → Feeling-Mechanism-Deep.md — §4 reward mechanism detail
 
@@ -1994,23 +2091,12 @@ FRAMEWORK FILES LIÊN QUAN:
 
   RELATED SYSTEMS:
   → Compile-Taxonomy.md v3.0 — 4 pathways × Precondition-5 tag
-  → Dopamine-Is-Not-Reward.md v1.0 — dopamine = alert, Evaluative Reward opioid = reward
+  → Dopamine-Is-Not-Reward.md v1.0 — dopamine = alert, Evaluative Reward
+    opioid = reward
   → Liking-Wanting.md v1.0 — bridge Berridge, wanting mechanisms
-  → Cortisol-Baseline.md v2.0 — relief profile ④
-  → Gap-Direction.md v2.0 — gap direction = F2 in 5 Forces, by-product match
-  → Meaning.md v2.0 — life-level Anchor-Schema = F1
-  → Status.md v2.0 — Resource Access Map = F5
-  → Connection.md v3.1 — Valence-Momentary (Self-Pattern-Modeling-owned), 3 Generative Primitives
-  → Ask-AI.md v3.1 — Dual Check (body=quality controller, domain=arbiter)
-
-  PHASE 1-9 FILES (updated versions):
-  → Body-Base.md v3.3 — entry point, Compilable Architecture, L3→observation parameters
-  → Body-Coupling.md v2.0 — Entity-Compiled subtypes, mixed coupling
-  → Self-Pattern-Modeling.md v3.0 — Compiled/Fresh reframe
-  → By-Product-Gap-Resonance.md v1.0 — 2-Stream, by-product match
-  → Valence-Propagation.md v2.0 — Entity-Compiled, Valence-Momentary/Valence-Structural
-
-  DRILL SOURCE:
-  → Drill-Reward-Feeling-Main.md v1.2 — full drill source (~6,700L)
-  → Drill-Reward-Feeling-Cases.md v1.0 — data + cases (~2,015L)
+  → Cortisol-Baseline.md v2.0 — cortisol × reward interaction
+  → Gap-Direction.md v2.0 — gap direction × reward evaluation
+  → Status.md v2.0 — social reward mechanics
+  → Meaning.md v2.0 — life-level anchor (F1)
+  → Connection.md v3.1 — Valence-Momentary (③ social reward)
 ```

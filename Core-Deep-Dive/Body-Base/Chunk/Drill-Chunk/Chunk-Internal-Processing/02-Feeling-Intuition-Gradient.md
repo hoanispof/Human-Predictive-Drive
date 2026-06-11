@@ -16,62 +16,68 @@ dependencies:
   - Klein 1998, Kahneman & Klein 2009 (expert intuition)
   - Gendlin 1978 (Focusing + felt sense)
 test_hypothesis: H5
-language: Tiếng Việt primary + English technical
+language: English
 ---
 
 # 02 — Feeling-Intuition Gradient
 
-> **File này drill**: Spectrum từ clear body signal → feeling → intuition → hunch.
-> Thread 3 từ Feeling Deep Analysis. H5 test: "vague" = multi-weak-signal convergence?
-> Trực tiếp core framework value: FEELING LITERACY.
+> **This file drills**: Spectrum from clear body signal → feeling → intuition → hunch.
+> Thread 3 from Feeling Deep Analysis. H5 test: "vague" = multi-weak-signal convergence?
+> Directly addresses core framework value: FEELING LITERACY.
 
 ---
 
-## §1 — Vấn đề trung tâm
+## §1 — The Central Problem
 
-### §1.1 — Câu hỏi
+### §1.1 — The Question
 
 ```
-FEELING VÀ INTUITION: CÙNG MECHANISM HAY KHÁC MECHANISM?
+FEELING AND INTUITION: SAME MECHANISM OR DIFFERENT?
 
-User's formulation (verbatim):
+User's formulations (verbatim):
   "Feeling = cảm nhận vật lý body-base, intuition = cảm nhận imagine?"
+  [English: "Feeling = physical body-base sensation, intuition = imagined sensation?"]
   "Thật ra 2 cái này không rõ ràng"
+  [English: "Actually these two aren't clearly distinct"]
 
-Câu hỏi cụ thể:
-  ① Feeling và intuition có CÙNG cơ chế neural hay KHÁC?
-  ② Tại sao feeling rõ ràng hơn intuition?
+Specific questions:
+  ① Does feeling and intuition share the SAME neural mechanism or are they DIFFERENT?
+  ② Why is feeling clearer than intuition?
   ③ H5: "Vague" = multi-weak-signal convergence?
-  ④ Expert intuition reliable hơn beginner vì SAO?
-  ⑤ Gradient này train được không?
+  ④ Why is expert intuition more reliable than beginner intuition?
+  ⑤ Can this gradient be trained?
 
-⭐ TẠI SAO THREAD 3 LÀ CORE:
-  → "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng"
-  → FEEL = bao gồm CẢ clear feelings + vague intuitions
-  → Hiểu gradient này = hiểu KHI NÀO trust feeling, khi nào verify
-  → = FEELING LITERACY nền tảng
+⭐ WHY THREAD 3 IS CORE:
+  → "Humans need to FEEL correctly → AI will help PLAN correctly"
+  → FEEL = includes BOTH clear feelings + vague intuitions
+  → Understanding this gradient = knowing WHEN to trust feeling, when to verify
+  → = foundational FEELING LITERACY
 ```
 
-### §1.2 — Vị trí trong 7-layer Feeling model
+### §1.2 — Position in the 7-Layer Feeling Model
 
 ```
-Feeling/ folder đã committed 7-layer model:
+Feeling/ folder has committed to 7-layer model:
 
-  Feel-RawSignals — Body-input raw signal (đau, nóng, đói)
-  Feel-Integration — Novelty detection (VTA signal: mới/quen)
+  Feel-RawSignals — Body-input raw signal (pain, heat, hunger)
+  Feel-Integration — Novelty detection (VTA signal: new/familiar)
   Feel-Consciousification — Schema-matching (familiar? threatening? rewarding?)
   Feel-Observation — PFC-observation (aware of own body state)
-  Feel-Location — Verbal labeling ("tôi buồn", "tôi sợ")
-  Feel-Labeling — Contextual understanding ("tôi buồn VÌ X")
-  Feel-Explanation — Meta-feeling ("tôi nhận ra mình buồn và chấp nhận")
+  Feel-Location — Verbal labeling ("I'm sad", "I'm afraid")
+  Feel-Labeling — Contextual understanding ("I'm sad BECAUSE X")
+  Feel-Explanation — Meta-feeling ("I recognize I'm sad and accept it")
 
 Thread 3 OPERATES ACROSS layers:
 
-  CLEAR FEELING = strong signal at Feel-RawSignals — Feel-Consciousification, captured at Feel-Observation — Feel-Location
-  → "Tôi đau" = Feel-RawSignals strong → Feel-Observation aware → Feel-Location labeled → CLEAR
+  CLEAR FEELING = strong signal at Feel-RawSignals — Feel-Consciousification,
+  captured at Feel-Observation — Feel-Location
+  → "I'm in pain" = Feel-RawSignals strong → Feel-Observation aware
+    → Feel-Location labeled → CLEAR
 
-  VAGUE INTUITION = weak signals at Feel-RawSignals — Feel-Consciousification, partially captured at Feel-Observation
-  → "Có gì đó sao sao" = Feel-RawSignals — Feel-Consciousification weak → Feel-Observation partial → Feel-Location missing → VAGUE
+  VAGUE INTUITION = weak signals at Feel-RawSignals — Feel-Consciousification,
+  partially captured at Feel-Observation
+  → "Something feels off" = Feel-RawSignals — Feel-Consciousification weak
+    → Feel-Observation partial → Feel-Location missing → VAGUE
 
   → Gradient = signal STRENGTH × signal COUNT × PFC capture capacity
 ```
@@ -91,28 +97,29 @@ Thread 3 OPERATES ACROSS layers:
   │                                                                  │
   │ ①         ②          ③          ④         ⑤          ⑥          │
   │ Body      Emotion    Gut        Intuition  Hunch      Pre-       │
-  │ Signal    (named)    Feeling    (linh cảm) (ngờ ngợ)  monition   │
+  │ Signal    (named)    Feeling               (half-     monition   │
+  │                                            sensed)               │
   │                                                                  │
-  │ đau       buồn       "bụng      "có gì    "ko biết   "sao sao   │
-  │ nóng      vui        nói ko"    đó ko     nữa..."    ấy..."     │
-  │ đói       sợ         "trống     đúng"     "hình                  │
-  │ mệt       giận       trống"                như..."               │
+  │ pain      sad        "gut       "something "can't     "something │
+  │ heat      happy      says no"   feels off" say..."    strange    │
+  │ hunger    afraid     "hollow"               "like      about     │
+  │ tired     angry                             maybe..."  this..."  │
   │                                                                  │
   │ SOURCE:   BODY       BODY+PFC   MULTI-CHUNK WEAK-CHUNK PRE-      │
-  │           1 strong   few strong  many weak   very weak  VERBAL    │
-  │           signal     signals     signals     signals    SENSE     │
+  │           1 strong   few strong  many weak   very weak  VERBAL   │
+  │           signal     signals     signals     signals    SENSE    │
   │                                                                  │
-  │ SPEED:    <100ms     100-500ms   500ms-3s    3-30s      hours     │
+  │ SPEED:    <100ms     100-500ms   500ms-3s    3-30s      hours    │
   │                                                                  │
   │ LABEL:    Easy       Medium     Hard        Very Hard  Impossible│
-  │           "đau"      "buồn"     "ko biết    "linh      "......"  │
-  │                                  gọi là gì"  cảm"                │
+  │           "pain"     "sad"      "can't      "gut feel  "......"  │
+  │                                  name it"   it"                  │
   │                                                                  │
   │ TRUST:    Very high  High       Medium      Variable   Low/High  │
   │ (valid?)  (body)     (match)    (maybe)     (expert?)  (depends) │
   │                                                                  │
   │ LAYER:    RawSig—    Consc—     Obs—       Obs        Consc—    │
-  │          Integr     Location   Location              Obs       │
+  │          Integr     Location   Location              Obs        │
   │           (raw)      (matched)  (partial)  (vague)    (pre-PFC) │
   │                                                                  │
   └──────────────────────────────────────────────────────────────────┘
@@ -155,13 +162,13 @@ WHAT MAKES FEELING CLEAR vs VAGUE?
 ⭐ THE 3 VARIABLES INTERACT:
 
   Clear feeling = FEW signals × STRONG × LABELED
-    → "Tôi đau chân" = 1 signal × strong nociception × labeled "đau"
+    → "My foot hurts" = 1 signal × strong nociception × labeled "pain"
     
   Vague intuition = MANY signals × WEAK × UNLABELED
-    → "Có gì đó sao sao" = 12 signals × each weak × no label fits
+    → "Something feels off" = 12 signals × each weak × no label fits
 
   Middle ground = SOME signals × MODERATE × PARTIALLY LABELED
-    → "Tôi hơi lo" = 3-4 signals × moderate × partial label "lo"
+    → "I feel a bit uneasy" = 3-4 signals × moderate × partial label "uneasy"
 ```
 
 ---
@@ -175,11 +182,12 @@ H5 CLAIM:
   "Vague" (vague feeling / intuition / gut feeling) = 
   MULTI-WEAK-SIGNAL CONVERGENCE:
   
-  Nhiều chunks fire YẾU cùng lúc → tín hiệu đơn lẻ KHÔNG đủ mạnh
-  để PFC detect → nhưng TỔNG HỢP nhiều tín hiệu yếu → body signal
-  coherent → PFC detect AS "có gì đó" → VAGUE nhưng DIRECTIONALLY correct.
+  Many chunks fire WEAKLY at the same time → individual signals NOT STRONG ENOUGH
+  for PFC to detect → but AGGREGATE of many weak signals → coherent body signal
+  → PFC detects AS "something is here" → VAGUE but DIRECTIONALLY correct.
 
-  = "Mỗi bằng chứng yếu → nhưng 10 bằng chứng yếu cùng hướng = mạnh"
+  = "Each piece of evidence is weak → but 10 weak pieces pointing the same
+    direction = strong"
   = Statistical convergence at body level
 ```
 
@@ -191,17 +199,17 @@ H5 CLAIM:
 STEP 1 — CHUNK LIBRARY ACTIVATION:
   PFC hold current situation/question in WM
   → Spreading activation (🟢 Collins & Loftus 1975) propagates
-  → Nhiều chunks fire ở MỨC ĐỘ KHÁC NHAU:
-     - Some chunks fire MẠNH (high overlap with current situation)
-     - Some chunks fire NHẸ (partial overlap)
-     - Some chunks fire RẤT NHẸ (distant association)
+  → Many chunks fire at DIFFERENT LEVELS:
+     - Some chunks fire STRONGLY (high overlap with current situation)
+     - Some chunks fire WEAKLY (partial overlap)
+     - Some chunks fire VERY WEAKLY (distant association)
   
-  → Clear feeling case: 1-3 strong fires → PFC THẤY RÕ source
-  → Vague intuition case: 10-20 weak fires → PFC KHÔNG thấy từng source
+  → Clear feeling case: 1-3 strong fires → PFC CLEARLY SEES source
+  → Vague intuition case: 10-20 weak fires → PFC CANNOT see each source
 
 STEP 2 — BODY INTEGRATION:
-  Body KHÔNG process từng chunk riêng lẻ.
-  Body INTEGRATES tất cả signals thành 1 state:
+  Body does NOT process each chunk individually.
+  Body INTEGRATES all signals into 1 state:
   
   → Think of body as ANALOG COMPUTER:
     → Digital (PFC): process individual items sequentially
@@ -210,22 +218,22 @@ STEP 2 — BODY INTEGRATION:
   
   → Many weak signals all pointing SAME DIRECTION:
     → Body state SHIFTS in that direction
-    → = "Nhiều gợn sóng nhỏ cùng hướng → 1 sóng lớn"
+    → = "Many small ripples in the same direction → 1 large wave"
     → PFC detect the aggregate wave, NOT individual ripples
     
   → Many weak signals pointing DIFFERENT DIRECTIONS:
     → Body state NOISY → no clear direction
     → PFC detect: "confused, mixed" → not useful
-    → = "Nhiều gợn sóng ngược nhau → hỗn loạn"
+    → = "Many ripples in opposite directions → chaos"
 
 STEP 3 — PFC DETECTION:
   PFC has THRESHOLD for detection:
-  → Signal above threshold → "có gì đó" (detected, vague)
-  → Signal well above threshold → "rõ ràng" (detected, clear)
+  → Signal above threshold → "something is here" (detected, vague)
+  → Signal well above threshold → "clearly" (detected, clear)
   → Signal below threshold → "nothing" (not detected)
   
   → Converging weak signals CAN cross threshold → vague detection
-  → = "Cảm thấy sao sao" = body signals crossed threshold but barely
+  → = "Something feels off" = body signals crossed threshold but barely
   → = PFC knows SOMETHING but not WHAT specifically
 
 STEP 4 — DIRECTIONAL ACCURACY:
@@ -297,7 +305,7 @@ STEP 4 — DIRECTIONAL ACCURACY:
     → Body signals present BUT accuracy mixed
     → Person FEELS confident (some signal) but accuracy not yet reliable
     → = Dunning-Kruger at intuition level
-    → = "Tôi có linh cảm" (confident) but linh cảm is wrong (insufficient chunks)
+    → = "I have an intuition" (confident) but the intuition is wrong (insufficient chunks)
     → Most dangerous: enough experience to FEEL sure, not enough for ACCURACY
 ```
 
@@ -426,8 +434,8 @@ GENDLIN'S 6 STEPS (framework-interpreted):
       → Not all "gut feeling" is multi-signal convergence
       → Some = strong single chunk contamination (Type 1)
       → Distinguishing H5 (multi-weak) from Type 1 (single-strong) empirically difficult
-      → Framework: Type 1 feels MORE SPECIFIC ("tôi sợ cái này")
-      → H5 feels LESS SPECIFIC ("có gì đó sao sao" — cannot name what)
+      → Framework: Type 1 feels MORE SPECIFIC ("I'm afraid of this")
+      → H5 feels LESS SPECIFIC ("something feels off" — cannot name what)
 ```
 
 ### §5.2 — Falsifiable predictions
@@ -497,7 +505,7 @@ BOTH (FEEL + VERIFY):
   → Most real-world decisions fall HERE
   → Feel first → verify with logic/data/AI → integrate
   → = Direction A + Direction B combined
-  → = "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng"
+  → = "Humans need to FEEL correctly → AI will help PLAN correctly"
 
   ⚠️ NEVER:
   → Dismiss vague feelings as "just feelings" — they may be valid convergence
@@ -543,7 +551,7 @@ STAGE 5 — INTEGRATION (position ②→①):
 
   → Stages 1-5 are YEARS of practice, not a workshop
   → BUT: Stage 1-2 alone already improves decision quality significantly
-  → = "Cảm thấy sao sao" → NOTICE instead of dismiss → better outcomes
+  → = "Something feels off" → NOTICE instead of dismiss → better outcomes
 ```
 
 ### §6.3 — AI era variation
@@ -556,20 +564,20 @@ AI AS GRADIENT NAVIGATOR:
   Position ⑥ (pre-verbal): AI cannot help (body-only, pre-PFC)
   
   Position ⑤ (hunch): AI can ASK → trigger articulation
-    → "Bạn có cảm thấy gì về option A?"
+    → "Do you have any feeling about option A?"
     → = Catalyst for Somatic-Articulation Loop
 
   Position ④ (intuition): AI can SUGGEST LABELS → body vote
-    → "Có thể bạn đang lo về deadline?"
-    → Body: smooth → "đúng!" or resist → "không, không phải vậy"
+    → "Maybe you're worried about the deadline?"
+    → Body: smooth → "yes!" or resist → "no, that's not it"
     → = Direction B applied to feelings (F3 education parallel)
 
   Position ③ (gut feeling): AI can VERIFY → cross-check with data
-    → "Gut feeling nói A nguy hiểm → data nói A actually safe → investigate"
+    → "Gut feeling says A is dangerous → data says A is actually safe → investigate"
     → = Logic check on feeling signal
 
   Position ②-① (clear feeling): AI can EXTEND → plan next steps
-    → "Tôi rõ ràng muốn X → AI giúp plan HOW"
+    → "I clearly want X → AI helps plan HOW"
     → = Standard AI-assisted planning
 
   ⭐ AI LIMITATION:
@@ -606,15 +614,15 @@ Type 4 body vote (01-Chunk-Connection) = APPLICATION of H5:
 ```
 Right-Wrong Vague (04-Right-Wrong-Vague.md, to drill):
 
-  "PFC biết right-wrong vague" = H5 applied to EVALUATIVE domain:
+  "PFC knows right-wrong vague" = H5 applied to EVALUATIVE domain:
   
-  → Clear right-wrong: strong chunks → clear body signal → "ĐÚNG" / "SAI"
-  → Vague right-wrong: weak chunks → vague body signal → "sao sao ấy"
+  → Clear right-wrong: strong chunks → clear body signal → "RIGHT" / "WRONG"
+  → Vague right-wrong: weak chunks → vague body signal → "something feels off"
   → = Same gradient (§2.1) but applied specifically to moral/evaluative judgment
   
   → H5 PREDICTS:
-    Expert in domain → "sao sao" = likely correct (multi-signal convergence)
-    Beginner in domain → "sao sao" = unreliable (noise)
+    Expert in domain → "something feels off" = likely correct (multi-signal convergence)
+    Beginner in domain → "something feels off" = unreliable (noise)
     Morally experienced person → moral intuition more reliable
     Morally inexperienced → moral intuition unreliable
   
@@ -699,7 +707,7 @@ WITHIN F4:
   → 06-Internal-Synthesis.md (H5 verdict aggregation)
 
 WITHIN CHUNK-ANALYSIS:
-  → F1 10-F1-Synthesis.md §6.4 (Feeling Feel-Consciousification output contracts)
+  → F1 10-F1-Synthesis.md §6.4 (Feeling output contracts)
   → F3 01-External-Synthesis.md §3.1 (F3 output contracts)
   → Body-Feedback-Draft/04-Integration.md §1.3 (unified body-feedback cycle)
   → Learning-Cycle.md §3 (learning mechanism stages)
@@ -753,7 +761,7 @@ ACADEMIC REFERENCES:
     → 6 predictions
     → Training implications
 
-  Line count: ~830L (within ~900-1200L target)
+  Line count: ~770L
 ```
 
 ---
@@ -765,4 +773,4 @@ ACADEMIC REFERENCES:
 > Feeling literacy training program outlined.
 > Next: 03-Chain-Anchor-Decay.md (Thread 8 + H6).
 >
-> Phiên bản: v1.0, 2026-04-17.
+> Version: v1.0, 2026-04-17.

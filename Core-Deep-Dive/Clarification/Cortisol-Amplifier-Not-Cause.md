@@ -1,205 +1,201 @@
 ---
 title: Cortisol — Amplifier, Not Cause
-version: 1.1
-created: 2026-04-21
-refined: 2026-04-21 (v1.1 — thêm Repair×Damage balance, vicious cycle, rename)
-status: v1.1 — CLARIFICATION FILE
+version: v1.1
+source: Core-Deep-Dive/Clarification/Cortisol-Amplifier-Not-Cause.md v1.1
+translated: 2026-06-09
+status: COMPLETE
 scope: |
   Cortisol ≠ "stress hormone." Cortisol = change-readiness amplifier.
-  Cortisol KHÔNG gây đau — 3 nguồn khác gây. Cortisol = sustainer.
-  NHƯNG: chronic cortisol + KHÔNG repair = DAMAGE THẬT (PFC dendrite retraction).
-  Key variable = REPAIR capability (sleep), không phải cortisol level.
-  File này clarify bức tranh ĐẦY ĐỦ — không chỉ "cortisol tốt" hay "cortisol xấu."
-purpose: |
-  AI models, pop science, textbook cũ đều default "cortisol = stress."
-  Misconception này DẪN TỚI sai hướng: "giảm cortisol = khỏe mạnh."
-  Framework clarify: cortisol = amplifier CẦN THIẾT, vấn đề nằm ở
-  DIRECTION (novelty vs threat) và DURATION (acute vs chronic), KHÔNG ở cortisol bản thân.
-dependencies:
-  - Cortisol-Baseline.md v2.0 — comprehensive reference (3,059 dòng)
-  - Body-Feedback.md — 3 Genuine Discomfort Sources
-  - Core-v7.8-Draft.md §4.3 — cortisol trong cycle architecture
-language: Tiếng Việt primary + English technical terms
+  Cortisol does NOT cause pain — 3 other sources do. Cortisol = sustainer.
+  BUT: chronic cortisol + no repair (sleep) = REAL damage (PFC dendrite retraction).
+  Key variable = REPAIR capability (sleep), not cortisol level.
+  This file presents the COMPLETE picture — not just "cortisol good" or "cortisol bad."
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # Cortisol — Amplifier, Not Cause
 
-> **Pop science:** "Cortisol = stress hormone = xấu = cần giảm."
-> **Framework:** "Cortisol = change-readiness amplifier. CẦN THIẾT."
+> **Pop science:** "Cortisol = stress hormone = bad = must be lowered."
+> **Framework:** "Cortisol = change-readiness amplifier. NECESSARY."
 >
-> Lính cứu hỏa LUÔN có mặt khi cháy nhà.
-> Nhưng lính cứu hỏa KHÔNG GÂY cháy.
+> A firefighter is ALWAYS present at a fire.
+> But the firefighter does NOT start the fire.
 >
-> Cortisol LUÔN có mặt khi discomfort.
-> Nhưng cortisol KHÔNG GÂY discomfort.
+> Cortisol is ALWAYS present when there is discomfort.
+> But cortisol does NOT CAUSE discomfort.
 >
-> **NHƯNG:** Lính cứu hỏa làm việc 24/7 không nghỉ → kiệt sức → gây thêm vấn đề.
-> Cortisol cao mãn tính + KHÔNG repair (sleep) → neural wear → PFC damage THẬT.
-> Vấn đề = DURATION + thiếu REPAIR, không phải cortisol tồn tại.
+> **BUT:** A firefighter working 24/7 without rest → exhaustion → creates more problems.
+> Chronic cortisol + NO repair (sleep) → neural wear → REAL PFC damage.
+> The problem = DURATION + insufficient REPAIR, not cortisol existing.
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §1 — MAINSTREAM MISCONCEPTION
-- §2 — 3 BẰNG CHỨNG CHỐNG "CORTISOL = STRESS"
-- §3 — CORTISOL THẬT SỰ LÀ GÌ
-- §4 — 3 NGUỒN ĐAU THẬT (KHÔNG PHẢI CORTISOL)
+- §1 — THE MAINSTREAM MISCONCEPTION
+- §2 — 3 PIECES OF EVIDENCE AGAINST "CORTISOL = STRESS"
+- §3 — WHAT CORTISOL ACTUALLY IS
+- §4 — 3 REAL SOURCES OF PAIN (NOT CORTISOL)
 - §5 — DIRECTION > LEVEL: NOVELTY vs THREAT
-- §5b — REPAIR × DAMAGE: KHI NÀO CORTISOL TRỞ THÀNH VẤN ĐỀ
-- §6 — TẠI SAO "GIẢM CORTISOL" THƯỜNG SAI HƯỚNG
+- §5b — REPAIR × DAMAGE: WHEN CORTISOL BECOMES A PROBLEM
+- §6 — WHY "LOWER CORTISOL" IS USUALLY THE WRONG DIRECTION
 - §7 — HONEST ASSESSMENT
 - §8 — CROSS-REFERENCES
 
 ---
 
-## §1 — MAINSTREAM MISCONCEPTION
+## §1 — THE MAINSTREAM MISCONCEPTION
 
 ```
-⭐ "CORTISOL = STRESS HORMONE" — NGUỒN GỐC VÀ LAN TRUYỀN:
+⭐ "CORTISOL = STRESS HORMONE" — ORIGIN AND SPREAD:
 
-  NGUỒN:
-    → Selye 1936: "stress response" concept — cortisol tham gia
-    → HPA axis research: threat → cortisol tăng → gọi "stress hormone"
-    → Textbook giữ label "stress hormone" suốt 80+ năm
-    → Pop science amplify: "cortisol face", "cortisol detox", "cortisol diet"
+  ORIGIN:
+    → Selye 1936: "stress response" concept — cortisol participates
+    → HPA axis research: threat → cortisol rises → labeled "stress hormone"
+    → Textbooks kept the "stress hormone" label for 80+ years
+    → Pop science amplified: "cortisol face", "cortisol detox", "cortisol diet"
 
-  VẤN ĐỀ LOGIC:
-    → Quan sát: "cortisol cao = người khó chịu" ← ĐÚNG (correlation)
-    → Kết luận: "cortisol GÂY discomfort" ← SAI (causation)
+  THE LOGIC PROBLEM:
+    → Observation: "high cortisol = person is uncomfortable" ← TRUE (correlation)
+    → Conclusion: "cortisol CAUSES discomfort" ← FALSE (causation)
     → = Correlation ≠ Causation
 
-  ANALOGY:
-    → "Lính cứu hỏa luôn có mặt khi cháy" ← ĐÚNG
-    → "Lính cứu hỏa gây cháy" ← SAI
-    → Cortisol = lính cứu hỏa. Đau/stress = đám cháy.
-    → Cortisol XUẤT HIỆN để giúp body RESPOND, KHÔNG phải để GÂY đau.
+  THE ANALOGY:
+    → "Firefighters are always present at fires" ← TRUE
+    → "Firefighters cause fires" ← FALSE
+    → Cortisol = the firefighter. Pain/stress = the fire.
+    → Cortisol APPEARS to help the body RESPOND — it does not CAUSE the pain.
 
   AI BIAS:
-    → AI được train trên text chứa "cortisol = stress hormone" cực nhiều
-    → → AI default associate cortisol = xấu, cần giảm
-    → → Reinforcement loop: AI nói → người tin → viết thêm → AI train thêm
-    → Framework PHẢI clarify: cortisol ≠ stress, cortisol = amplifier
+    → AI models trained on text that heavily associates "cortisol = stress hormone"
+    → → AI defaults: cortisol = bad, should be lowered
+    → → Reinforcement loop: AI says it → people believe it → write more of it →
+          AI trains on it again
+    → Framework MUST clarify: cortisol ≠ stress, cortisol = amplifier
 ```
 
 ---
 
-## §2 — 3 BẰNG CHỨNG CHỐNG "CORTISOL = STRESS"
+## §2 — 3 PIECES OF EVIDENCE AGAINST "CORTISOL = STRESS"
 
 ```
-🟢 BẰNG CHỨNG 1 — CORTISOL INJECTION (người khỏe mạnh):
+🟢 EVIDENCE 1 — CORTISOL INJECTION (in healthy people):
 
-  Setup: tiêm cortisol vào người bình thường, khỏe mạnh
-  NẾU cortisol = stress → phải "khó chịu, đau, stress" ngay
-  THỰC TẾ: có thể hơi tỉnh táo, hơi alert → KHÔNG "đau" hay "stress"
-  → = Cortisol tự thân KHÔNG tạo ra trải nghiệm "stress"
-
-
-🟢 BẰNG CHỨNG 2 — ADDISON'S DISEASE (cortisol ≈ zero):
-
-  Bệnh: tuyến thượng thận không sản xuất cortisol
-  NẾU cortisol = nguồn stress → zero cortisol = siêu thoải mái?
-  THỰC TẾ: mệt cực, yếu, chóng mặt, mờ mắt, có thể tử vong
-  → = Cortisol ZERO = CŨNG khó chịu, thậm chí NGUY HIỂM
-  → = Cortisol KHÔNG phải Genuine Discomfort source — là CHẤT CẦN THIẾT
+  Setup: inject cortisol into a healthy person
+  IF cortisol = stress → should produce immediate "discomfort, pain, stress"
+  REALITY: may feel slightly alert, slightly activated → NOT "pain" or "stress"
+  → = Cortisol by itself does NOT create the experience of "stress"
 
 
-🟢 BẰNG CHỨNG 3 — CORTISOL CAO KHI VUI:
+🟢 EVIDENCE 2 — ADDISON'S DISEASE (cortisol ≈ zero):
 
-  Tình huống cortisol CAO mà KHÔNG stress:
-    → Tập gym intense → cortisol tăng → CẢM THẤY TUYỆT VỜI
-    → Sáng sớm thức dậy → cortisol PEAK tự nhiên (CAR) → tỉnh táo, sẵn sàng
-    → Sex → cortisol tăng → rõ ràng KHÔNG "stress"
-    → Giải bài toán khó → cortisol tăng (novelty direction) → HƯNG PHẤN
-    → Xem phim kinh dị tự nguyện → cortisol tăng → THÍCH THÚ
+  Condition: adrenal glands fail to produce cortisol
+  IF cortisol = source of stress → zero cortisol = supremely comfortable?
+  REALITY: extreme fatigue, weakness, dizziness, blurred vision, potentially fatal
+  → = Cortisol ZERO = also extremely uncomfortable, even DANGEROUS
+  → = Cortisol is NOT a Genuine Discomfort source — it is a NECESSARY substance
 
-  NẾU cortisol = stress → TẤT CẢ tình huống trên phải "khó chịu"
-  THỰC TẾ: cortisol cao + DIRECTION ĐÚNG = trải nghiệm TÍCH CỰC
-  → = Cortisol level KHÔNG quyết định. DIRECTION mới quyết định.
+
+🟢 EVIDENCE 3 — CORTISOL HIGH WHEN FEELING GOOD:
+
+  Situations where cortisol is HIGH but there is NO stress:
+    → Intense exercise → cortisol rises → feels GREAT
+    → Waking in the morning → natural cortisol PEAK (cortisol awakening response)
+         → alert, ready, energized
+    → Sex → cortisol rises → clearly NOT "stress"
+    → Solving a difficult problem → cortisol rises (novelty direction) → EXCITEMENT
+    → Watching a horror film by choice → cortisol rises → ENJOYMENT
+
+  IF cortisol = stress → ALL the above should feel "uncomfortable"
+  REALITY: high cortisol + RIGHT DIRECTION = POSITIVE experience
+  → = Cortisol level does NOT determine the outcome. DIRECTION does.
 ```
 
 ---
 
-## §3 — CORTISOL THẬT SỰ LÀ GÌ
+## §3 — WHAT CORTISOL ACTUALLY IS
 
 ```
 🟡 FRAMEWORK DEFINITION:
 
   Cortisol = CHANGE-READINESS AMPLIFIER
-  = Hormone kích thích neurons THAY ĐỔI PATTERN để thích ứng
+  = The hormone that prompts neurons to CHANGE PATTERNS in order to adapt
 
-  3 THỨ CORTISOL MODULATE:
-    ① SENSITIVITY: body-input signals register MẠNH hơn
-    ② ENERGY: sustained action KÉO DÀI hơn
-    ③ DIRECTION: approach (novelty) hoặc avoid (threat) — tại compile time
+  3 THINGS CORTISOL MODULATES:
+    ① SENSITIVITY: body-input signals register MORE STRONGLY
+    ② ENERGY: sustained action LASTS LONGER
+    ③ DIRECTION: approach (novelty) or avoid (threat) — set at compile time
 
-  ANALOGY — ĐIỆN CHO MÁY TÍNH:
-    → Không có điện = máy tắt (Addison's — quá thấp)
-    → Điện vừa = máy chạy tốt (FOCUSED mode — optimal)
-    → Quá nhiều điện = cháy mạch (CRASH — quá cao mãn tính)
-    → Điện tự thân KHÔNG tốt KHÔNG xấu — là NĂNG LƯỢNG CẦN THIẾT
+  ANALOGY — ELECTRICITY FOR A COMPUTER:
+    → No electricity = machine off (Addison's — too low)
+    → Right voltage = machine runs well (FOCUSED mode — optimal)
+    → Too much voltage = circuits blow (CRASH — chronically too high)
+    → Electricity itself is not "good" or "bad" — it is NECESSARY ENERGY
 
-  ANALOGY — GYM CHO NEURONS:
-    → Không tập = thoái hóa (stagnation)
-    → Tập vừa + nghỉ đủ = mạnh hơn (hormesis — growth)
-    → Tập quá + không nghỉ = chấn thương (chronic overload — damage)
+  ANALOGY — GYM FOR NEURONS:
+    → No training = atrophy (stagnation)
+    → Moderate training + adequate rest = stronger (hormesis — growth)
+    → Overtraining + no rest = injury (chronic overload — damage)
 
   INVERTED-U — 7 MODES:
-    IDLE (quá thấp) → LAZY → ACTIVE → FOCUSED (optimal) →
-    PUSH → FREEZE → CRASH (quá cao)
-    → Optimal = FOCUSED. Không phải "thấp nhất có thể."
+    IDLE (too low) → LAZY → ACTIVE → FOCUSED (optimal) →
+    PUSH → FREEZE → CRASH (too high)
+    → Optimal = FOCUSED. Not "as low as possible."
 
-  ⭐ CORTISOL = SUSTAINER, KHÔNG PHẢI TRIGGER:
+  ⭐ CORTISOL = SUSTAINER, NOT TRIGGER:
 
-    Timeline khi threat xuất hiện:
-      0ms      Schema fire (chunk detect threat) ← TRIGGER
+    Timeline when a threat appears:
+      0ms      Schema fires (chunk detects threat) ← TRIGGER
       500ms    NE spike (norepinephrine — acute alert)
-      1-2s     Adrenaline (body mobilize — tim đập, cơ căng)
-      2-5s     Hành vi bắt đầu (run, fight, freeze)
-      5-20min  Cortisol peak ← SUSTAINER (đến SAU 5-20 phút!)
-      20min+   Cortisol sustain → merge baseline
+      1-2s     Adrenaline (body mobilizes — heart rate, muscle tension)
+      2-5s     Behavior begins (run, fight, freeze)
+      5-20min  Cortisol peaks ← SUSTAINER (arrives AFTER 5-20 minutes!)
+      20min+   Cortisol sustains → merges into baseline
 
-    → Cortisol ĐẾN SAU hành vi đã bắt đầu
-    → Cortisol KHÔNG khởi động phản ứng — schema + NE + adrenaline đã làm
-    → Cortisol = duy trì trạng thái ALERT → cho phép sustained response
-    → = "Lính cứu hỏa đến SAU khi lửa đã bùng — để DUY TRÌ việc chữa cháy"
+    → Cortisol ARRIVES AFTER behavior has already begun
+    → Cortisol does NOT initiate the response — schema + NE + adrenaline do
+    → Cortisol = maintains the ALERT state → enables sustained response
+    → = "The firefighter arrives AFTER the fire is already burning —
+         to SUSTAIN the firefighting effort"
 ```
 
 ---
 
-## §4 — 3 NGUỒN ĐAU THẬT (KHÔNG PHẢI CORTISOL)
+## §4 — 3 REAL SOURCES OF PAIN (NOT CORTISOL)
 
 ```
-🟡 CÁI GÌ THẬT SỰ GÂY ĐAU / DISCOMFORT:
+🟡 WHAT ACTUALLY CAUSES PAIN / DISCOMFORT:
 
-  ① NOCICEPTION — tổn thương vật lý:
-    → Tissue damage → nociceptors fire → đau
-    → A-delta (nhanh, nhói) + C-fiber (chậm, âm ỉ)
-    → = Nguồn đau VẬT LÝ thật
-    → Cortisol KHÔNG gây tissue damage
+  ① NOCICEPTION — physical tissue damage:
+    → Tissue damage → nociceptors fire → pain
+    → A-delta fibers (fast, sharp) + C-fibers (slow, aching)
+    → = PHYSICAL source of real pain
+    → Cortisol does NOT cause tissue damage
 
-  ② MISMATCH — prediction-delta ở chunk network:
-    → Schema predict X, reality = Y → mismatch → "có gì đó sai"
-    → "Bị phản bội" = chunks về người yêu mismatch reality
-    → "Kế hoạch fail" = Imagine-Final mismatch outcome
-    → = Nguồn đau COGNITIVE/SOCIAL thật
-    → Cortisol KHÔNG gây mismatch — cortisol TỚI SAU mismatch
+  ② MISMATCH — prediction-delta at the chunk network:
+    → Schema predicts X, reality = Y → mismatch → "something is wrong"
+    → "Being betrayed" = chunks about a loved one mismatch reality
+    → "Plan fails" = Imagine-Final mismatches outcome
+    → = COGNITIVE/SOCIAL source of real pain
+    → Cortisol does NOT cause the mismatch — cortisol ARRIVES AFTER the mismatch
 
-  ③ RECALIBRATION — neurons đang restructure:
-    → Học cái mới → neurons re-wire → "căng đầu khi học"
-    → Thay đổi thói quen → compiled chunks conflict với new pattern
-    → = Nguồn đau THAY ĐỔI thật (wiring change)
-    → Cortisol HỖ TRỢ recalibration (amplify) → NHƯNG không GÂY đau
+  ③ RECALIBRATION — neurons in the process of restructuring:
+    → Learning something new → neurons re-wire → "mental strain when learning"
+    → Breaking a habit → compiled chunks conflict with the new pattern
+    → = CHANGE source of real pain (wiring change)
+    → Cortisol SUPPORTS recalibration (amplifies it) → but does NOT cause the pain
 
-  → 3 NGUỒN = CÁI GÂY ĐAU
-  → CORTISOL = CÁI CÓ MẶT KHI ĐAU (sustainer, amplifier)
-  → GIỐNG: lính cứu hỏa có mặt khi cháy, KHÔNG gây cháy
+  → 3 SOURCES = WHAT CAUSES PAIN
+  → CORTISOL = WHAT IS PRESENT WHEN THERE IS PAIN (sustainer, amplifier)
+  → SAME AS: firefighter present at the fire, not causing it
 
-  ⭐ HÀM Ý THỰC TIỄN:
-    → "Giảm cortisol" = tắt lính cứu hỏa = KHÔNG dập lửa
-    → ĐÚNG: fix NGUỒN đau (giải quyết mismatch, heal tissue, cho phép recalibrate)
-    → Khi nguồn đau resolved → cortisol TỰ GIẢM (không cần "detox")
+  ⭐ PRACTICAL IMPLICATION:
+    → "Lower cortisol" = switch off the firefighter = does NOT put out the fire
+    → CORRECT: fix the SOURCE of pain
+         (resolve the mismatch, heal the tissue, allow recalibration)
+    → When the source resolves → cortisol NATURALLY DECREASES
+         (no "detox" needed)
 ```
 
 ---
@@ -207,179 +203,197 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §5 — DIRECTION > LEVEL: NOVELTY vs THREAT
 
 ```
-⭐ CÙNG CORTISOL LEVEL — KHÁC DIRECTION — KHÁC OUTCOME HOÀN TOÀN:
+⭐ SAME CORTISOL LEVEL — DIFFERENT DIRECTION — COMPLETELY DIFFERENT OUTCOME:
 
   CORTISOL DIRECTION = NOVELTY:
-    → Explore cái mới, học cái mới, gym, sáng tạo
-    → Cortisol tăng → neurons thay đổi pattern → chunks tag APPROACH
-    → Trải nghiệm: hưng phấn, tò mò, "flow", challenge vui
-    → Kết quả: growth, learning, mastery
+    → Exploring something new, learning, exercising, creating
+    → Cortisol rises → neurons change pattern → chunks tagged APPROACH
+    → Experience: excitement, curiosity, "flow," enjoyable challenge
+    → Result: growth, learning, mastery
 
   CORTISOL DIRECTION = THREAT:
-    → Bị mắng, bị đe dọa, lo lắng, deadline ép buộc
-    → Cortisol tăng → neurons thay đổi pattern → chunks tag AVOIDANCE
-    → Trải nghiệm: sợ, lo, "stress", muốn thoát
-    → Kết quả: defense, avoidance, nếu mãn tính → damage
+    → Being criticized, threatened, anxious, deadline-under-coercion
+    → Cortisol rises → neurons change pattern → chunks tagged AVOIDANCE
+    → Experience: fear, anxiety, "stress," wanting to escape
+    → Result: defense, avoidance; if chronic → damage
 
   ┌────────────────────┬─────────────────────┬──────────────────────┐
-  │                    │ NOVELTY direction   │ THREAT direction      │
+  │                    │ NOVELTY direction   │ THREAT direction     │
   ├────────────────────┼─────────────────────┼──────────────────────┤
-  │ Cortisol level     │ CAO                 │ CAO                   │
-  │ Chunk tag          │ APPROACH            │ AVOIDANCE             │
-  │ Trải nghiệm       │ Hưng phấn, flow     │ Sợ, lo, "stress"     │
-  │ Kết quả dài hạn   │ Growth              │ Damage (nếu chronic)  │
-  │ Ví dụ             │ Gym, sáng tạo,      │ Bị mắng, deadline    │
-  │                    │ giải toán, leo núi  │ ép buộc, đe dọa     │
+  │ Cortisol level     │ HIGH                │ HIGH                 │
+  │ Chunk tag          │ APPROACH            │ AVOIDANCE            │
+  │ Experience         │ Excitement, flow    │ Fear, anxiety,       │
+  │                    │                     │ "stress"             │
+  │ Long-term result   │ Growth              │ Damage (if chronic)  │
+  │ Examples           │ Exercise, creative  │ Being criticized,    │
+  │                    │ work, problem-      │ coercive deadlines,  │
+  │                    │ solving, climbing   │ threats              │
   └────────────────────┴─────────────────────┴──────────────────────┘
 
-  → CÙNG cortisol level. KHÁC direction. KHÁC hoàn toàn.
-  → = "Cortisol cao = xấu" là SAI — cortisol cao + novelty = TUYỆT VỜI
-  → = Vấn đề KHÔNG ở cortisol level — ở DIRECTION + DURATION
+  → SAME cortisol level. DIFFERENT direction. COMPLETELY different outcome.
+  → = "High cortisol = bad" is FALSE — high cortisol + novelty = EXCELLENT
+  → = The problem is NOT the cortisol level — it is DIRECTION + DURATION
 
   DIRECTION GATE (Chunk.md §2.4 Direction-At-Compile):
-    → Cortisol TẠI THỜI ĐIỂM compile = quyết định chunk tag
-    → Novelty-direction compile → chunks tag APPROACH → future: seek repeat
-    → Threat-direction compile → chunks tag AVOIDANCE → future: avoid
-    → = Cortisol tại compile time SHAPE tương lai → DIRECTION matters
+    → Cortisol AT THE MOMENT OF COMPILE = determines the chunk tag
+    → Novelty-direction compile → chunks tagged APPROACH →
+         future: seek repeat
+    → Threat-direction compile → chunks tagged AVOIDANCE →
+         future: avoid
+    → = Cortisol at compile time SHAPES the future → DIRECTION matters
 ```
 
 ---
 
-## §5b — REPAIR × DAMAGE: KHI NÀO CORTISOL TRỞ THÀNH VẤN ĐỀ
+## §5b — REPAIR × DAMAGE: WHEN CORTISOL BECOMES A PROBLEM
 
 ```
-⭐ CORTISOL KHÔNG GÂY ĐAU — NHƯNG CORTISOL MÃN TÍNH GÂY DAMAGE:
+⭐ CORTISOL DOES NOT CAUSE PAIN — BUT CHRONIC CORTISOL CAUSES REAL DAMAGE:
 
   GYM ANALOGY (Cortisol-Baseline.md §6):
-    → Tập gym → cơ mệt → NGỦ → cơ MẠNH HƠN = hormesis ✅
-    → Tập gym 72h không ngủ → cơ CHẤN THƯƠNG ❌
-    → Vấn đề KHÔNG phải tập gym. Vấn đề = KHÔNG NGHỈ.
+    → Exercise → muscles exhausted → SLEEP → muscles GROW STRONGER = hormesis ✅
+    → Exercise 72 hours without sleep → muscles INJURED ❌
+    → The problem is NOT exercising. The problem = NOT RESTING.
 
-  TƯƠNG TỰ VỚI CORTISOL:
-    → Cortisol cao (ngày) → neurons fire mạnh → NGỦ → BDNF repair → MẠNH HƠN ✅
-    → Cortisol cao mãn tính + KHÔNG NGỦ ĐỦ → repair < damage → DAMAGE ❌
+  THE SAME APPLIES TO CORTISOL:
+    → Cortisol high (daytime) → neurons fire strongly → SLEEP →
+         BDNF repair → STRONGER ✅
+    → Cortisol chronically high + INSUFFICIENT SLEEP →
+         repair < damage → REAL DAMAGE ❌
 
   NET HEALTH = REPAIR − DAMAGE:
 
-  ┌────────────────────────┬──────────────────┬──────────────────────┐
-  │ Tình huống             │ Repair vs Damage │ Kết quả              │
-  ├────────────────────────┼──────────────────┼──────────────────────┤
-  │ Cortisol vừa + ngủ đủ │ Repair > Damage  │ MẠNH HƠN (hormesis)  │
-  │ Cortisol cao + ngủ đủ  │ Repair ≈ Damage  │ MAINTAIN             │
-  │ Cortisol vừa + ngủ kém│ Repair < Damage  │ YẾU DẦN              │
-  │ Cortisol cao + ngủ kém │ Repair << Damage │ BURNOUT / SỤP        │
-  │ Cortisol zero          │ Nothing to repair│ THOÁI HÓA            │
-  └────────────────────────┴──────────────────┴──────────────────────┘
+  ┌──────────────────────────┬──────────────────┬────────────────────────┐
+  │ Situation                │ Repair vs Damage │ Outcome                │
+  ├──────────────────────────┼──────────────────┼────────────────────────┤
+  │ Moderate cortisol +      │ Repair > Damage  │ STRONGER (hormesis)    │
+  │ adequate sleep           │                  │                        │
+  │ High cortisol +          │ Repair ≈ Damage  │ MAINTAIN               │
+  │ adequate sleep           │                  │                        │
+  │ Moderate cortisol +      │ Repair < Damage  │ GRADUAL WEAKENING      │
+  │ poor sleep               │                  │                        │
+  │ High cortisol +          │ Repair << Damage │ BURNOUT / COLLAPSE     │
+  │ poor sleep               │                  │                        │
+  │ Cortisol ≈ zero          │ Nothing to repair│ ATROPHY                │
+  └──────────────────────────┴──────────────────┴────────────────────────┘
 
-  → Key variable = SLEEP QUALITY, không phải cortisol level
-  → Cortisol cao + ngủ ngon = OK (gym analogy)
-  → Cortisol vừa + ngủ kém = VẪN yếu dần (dù cortisol không cao!)
+  → Key variable = SLEEP QUALITY, not cortisol level per se
+  → High cortisol + good sleep = OK (gym analogy)
+  → Moderate cortisol + poor sleep = STILL deteriorates (even without high cortisol!)
 
 
-⭐ NEURAL WEAR — DAMAGE THẬT KHI REPAIR THIẾU:
+⭐ NEURAL WEAR — REAL DAMAGE WHEN REPAIR IS INSUFFICIENT:
 
-  PFC (yếu nhất — synapses linh hoạt nhất):
+  PFC (most vulnerable — most flexible synapses):
     → 🟢 McEwen 2007: chronic cortisol → PFC dendrite retraction
-    → PFC = "lá ngoài cùng cây" → cuống mỏng → rung = rụng trước
-    → Mất PFC = mất planning, inhibition, thinking
+    → PFC = "outermost leaves on the tree" →
+         thin stalks → vibration = falls first
+    → Loss of PFC = loss of planning, inhibition, thinking
 
-  Amygdala (mạnh nhất — compiled cực sâu):
-    → 🟢 Vyas 2002: chronic stress → amygdala dendrites MỌC THÊM
-    → Amygdala = "gốc cây" → rung = càng mạnh hơn
-    → Mạnh amygdala = threat detect NHẠY HƠN
+  Amygdala (most durable — most deeply compiled):
+    → 🟢 Vyas 2002: chronic stress → amygdala dendrites GROW MORE
+    → Amygdala = "tree roots" → vibration = grows stronger
+    → Stronger amygdala = MORE SENSITIVE threat detection
 
-  → Kết quả: chronic stress → PFC YẾU ĐI + amygdala MẠNH LÊN
-  → = "Càng stress → càng SỢ + càng KÉM nghĩ"
-  → = KHÔNG phải "yếu đuối" → HARDWARE đã shift
+  → Result: chronic stress → PFC WEAKENS + amygdala STRENGTHENS
+  → = "The more stressed → the MORE FEARFUL + the LESS capable of thinking"
+  → = NOT "weakness" → HARDWARE has shifted
 
 
-⭐ VICIOUS CYCLE — KHI LOOP TỰ DUY TRÌ:
+⭐ VICIOUS CYCLE — WHEN THE LOOP SELF-SUSTAINS:
 
-  ┌────────────────────────────────────────────┐
-  │                                            │
-  │  Nguồn đau (mismatch/threat) không resolve │
-  │       ↓                                    │
-  │  Cortisol cao mãn tính (sustainer)         │
-  │       ↓                                    │
-  │  Cortisol cao → KHÓ NGỦ (body vẫn alert)  │
-  │       ↓                                    │
-  │  Khó ngủ → PFC KHÔNG repair               │
-  │       ↓                                    │
-  │  PFC yếu → KHÔNG brake threat thoughts     │
-  │       ↓                                    │
-  │  Threat thoughts → cortisol CAO HƠN        │
-  │       ↓                                    │
-  │  → LOOP (cortisol bây giờ LÀ phần của vấn đề) │
-  │                                            │
-  └────────────────────────────────────────────┘
+  ┌──────────────────────────────────────────────────┐
+  │                                                  │
+  │  Source of pain (mismatch/threat) unresolved     │
+  │       ↓                                          │
+  │  Chronically elevated cortisol (sustainer)       │
+  │       ↓                                          │
+  │  High cortisol → DIFFICULTY SLEEPING             │
+  │       (body still on alert)                      │
+  │       ↓                                          │
+  │  Poor sleep → PFC does NOT repair                │
+  │       ↓                                          │
+  │  Weakened PFC → CANNOT brake threat thoughts     │
+  │       ↓                                          │
+  │  Threat thoughts → cortisol RISES HIGHER         │
+  │       ↓                                          │
+  │  → LOOP (cortisol is now PART OF THE PROBLEM)    │
+  │                                                  │
+  └──────────────────────────────────────────────────┘
 
-  → Ban đầu: cortisol = sustainer (lính cứu hỏa)
-  → Khi loop hình thành: cortisol = PHẦN CỦA VẤN ĐỀ (lính cứu hỏa kiệt sức → gây thêm vấn đề)
-  → = "Cortisol không gây đau" VẪN ĐÚNG cho ACUTE
-  → = "Cortisol gây damage" ĐÚNG cho CHRONIC + thiếu repair
+  → Initially: cortisol = sustainer (the firefighter)
+  → Once the loop forms: cortisol = PART OF THE PROBLEM
+       (the firefighter is exhausted → creating additional problems)
+  → = "Cortisol does not cause pain" STILL TRUE for ACUTE cortisol
+  → = "Cortisol causes damage" TRUE for CHRONIC + insufficient repair
 
-  → Đây là trauma loop (Cortisol-Baseline.md §10 — 4 stages):
-    Stage 1: Acute spike (bình thường, design feature)
-    Stage 2: Sustained elevation (nguồn chưa resolve)
+  → This is the trauma loop (Cortisol-Baseline.md §10 — 4 stages):
+    Stage 1: Acute spike (normal, design feature)
+    Stage 2: Sustained elevation (source unresolved)
     Stage 3: PFC degradation begins (repair < damage)
-    Stage 4: Self-perpetuating loop (cortisol IS part of problem now)
+    Stage 4: Self-perpetuating loop (cortisol IS part of the problem now)
 
 
-⭐ TÓM TẮT:
+⭐ SUMMARY:
 
-  ACUTE cortisol = amplifier CẦN THIẾT, KHÔNG gây hại ✅
-  CHRONIC cortisol + sleep repair ĐỦ = MAINTAIN, vẫn OK ⚠️
-  CHRONIC cortisol + sleep repair THIẾU = DAMAGE THẬT ❌
+  ACUTE cortisol = NECESSARY amplifier, not harmful ✅
+  CHRONIC cortisol + ADEQUATE sleep repair = MAINTAIN, still OK ⚠️
+  CHRONIC cortisol + INSUFFICIENT sleep repair = REAL DAMAGE ❌
     → PFC dendrite retraction (🟢 McEwen 2007)
     → Amygdala hypertrophy (🟢 Vyas 2002)
     → Vicious cycle (🟢 Shin 2006: PTSD = PFC↓ + amygdala↑)
 
-  → Framework position: cortisol = amplifier (đúng)
-  → NHƯNG: amplifier chạy không nghỉ = damage (CŨNG đúng)
-  → = Bức tranh ĐẦY ĐỦ, không chỉ "cortisol tốt" hay "cortisol xấu"
+  → Framework position: cortisol = amplifier (correct)
+  → BUT: amplifier running non-stop = damage (ALSO correct)
+  → = COMPLETE picture — not just "cortisol good" or "cortisol bad"
 ```
 
 ---
 
-## §6 — TẠI SAO "GIẢM CORTISOL" THƯỜNG SAI HƯỚNG
+## §6 — WHY "LOWER CORTISOL" IS USUALLY THE WRONG DIRECTION
 
 ```
-🟡 POP SCIENCE NÓI: "giảm cortisol = khỏe mạnh."
-   FRAMEWORK NÓI: "fix nguồn, cortisol tự giảm."
+🟡 POP SCIENCE SAYS: "lower cortisol = healthier."
+   FRAMEWORK SAYS: "fix the source — cortisol will lower itself."
 
-  "GIẢM CORTISOL" = TẮT LÍNH CỨU HỎA:
-    → Lửa vẫn cháy (nguồn đau vẫn còn)
-    → Nhưng không ai dập nữa (cortisol suppressed)
-    → = Tệ HƠN, không tốt hơn
+  "LOWER CORTISOL" = SWITCHING OFF THE FIREFIGHTER:
+    → Fire still burning (source of pain still present)
+    → But no one fighting it anymore (cortisol suppressed)
+    → = WORSE, not better
 
-  ĐÚNG HƯỚNG:
+  THE RIGHT DIRECTIONS:
 
-    ① FIX NGUỒN ĐAU:
-      → Mismatch? → resolve mismatch (thay đổi tình huống, reframe)
-      → Nociception? → heal tissue, giảm exposure
-      → Recalibration? → cho THỜI GIAN + nghỉ ngơi để neurons settle
-      → Khi nguồn resolved → cortisol TỰ GIẢM
+    ① FIX THE SOURCE OF PAIN:
+      → Mismatch? → resolve the mismatch
+           (change the situation, reframe, reconcile expectations)
+      → Nociception? → heal the tissue, reduce exposure
+      → Recalibration? → give TIME + rest for neurons to settle
+      → When the source resolves → cortisol NATURALLY DECREASES
 
-    ② FIX DIRECTION:
-      → Threat-direction chronic? → thay đổi environment / relationship
-      → Chuyển từ threat → novelty direction khi có thể
+    ② FIX THE DIRECTION:
+      → Chronic threat-direction? → change environment or relationship
+      → Shift from threat direction toward novelty direction where possible
       → Exercise = novelty-direction cortisol → "healthy stress"
 
-    ③ FIX DURATION:
-      → Acute cortisol spike = bình thường, thậm chí có ích (hormesis)
-      → CHRONIC cortisol elevation = vấn đề (PFC dendrite retraction §9)
-      → Fix: ensure RECOVERY cycles (sleep, rest, safe environment)
-      → = Vấn đề KHÔNG phải cortisol exists — mà cortisol KHÔNG ĐƯỢC GIẢM
+    ③ FIX THE DURATION:
+      → Acute cortisol spikes = normal, even beneficial (hormesis)
+      → CHRONIC cortisol elevation = the problem
+           (PFC dendrite retraction §5b)
+      → Fix: ensure RECOVERY CYCLES (sleep, rest, safe environment)
+      → = The problem is NOT that cortisol exists —
+           it is that cortisol IS NOT ALLOWED TO DECREASE
 
-    ④ FIX BASELINE (nếu chronically elevated):
-      → Developmental trauma → therapy (rebuild safety — Tầng 2)
-      → Toxic environment → change environment (Tầng 3)
-      → Overload → AI/tool support (Tầng 4)
-      → Evolution → không đổi được (Tầng 1)
+    ④ FIX THE BASELINE (if chronically elevated):
+      → Developmental trauma → therapy
+           (rebuild safety — Layer 2)
+      → Toxic environment → change environment (Layer 3)
+      → Overload → AI/tool support (Layer 4)
+      → Evolutionary calibration → cannot be changed (Layer 1)
 
-  → "Cortisol detox" = marketing, KHÔNG khoa học
-  → "Cortisol management" = gần hơn nhưng vẫn miss direction
-  → FRAMEWORK: fix source, fix direction, fix duration → cortisol NATURALLY calibrates
+  → "Cortisol detox" = marketing, NOT science
+  → "Cortisol management" = closer, but still misses direction
+  → FRAMEWORK: fix source + fix direction + fix duration →
+       cortisol NATURALLY CALIBRATES
 ```
 
 ---
@@ -390,32 +404,35 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟢 ESTABLISHED:
   → Cortisol = glucocorticoid, HPA axis mechanism (endocrinology) ✅
   → Addison's disease = cortisol deficiency = dangerous ✅
-  → Cortisol tăng khi exercise, sex, waking (not just stress) ✅
+  → Cortisol rises during exercise, sex, and waking — not just stress ✅
   → Chronic cortisol elevation → PFC dendrite retraction (McEwen 2007) ✅
-  → NE α1 acute PFC disconnect ≠ cortisol damage (Arnsten 2009) ✅
+  → NE α1 acute PFC disconnection ≠ cortisol damage (Arnsten 2009) ✅
   → "Stress hormone" label = historical, not mechanistically accurate ✅
 
 🟡 FRAMEWORK SYNTHESIS:
   → "Change-readiness amplifier" = novel framing, consistent with research
-  → 3 nguồn đau thật (nociception/mismatch/recalibration) = framework organizing
+  → 3 real sources of pain (nociception / mismatch / recalibration) =
+       framework organizing construct
   → Direction > Level principle = consistent with Chunk.md Direction-At-Compile
-  → Cortisol = sustainer not trigger = consistent with HPA timeline
-  → "Lính cứu hỏa" analogy = framework communication tool
+  → Cortisol = sustainer not trigger = consistent with HPA axis timeline
+  → "Firefighter" analogy = framework communication tool
 
 🔴 HYPOTHESIS:
-  → Exact boundary "novelty-direction" vs "threat-direction" cortisol
-  → Whether direction is binary or spectrum
-  → Quantitative threshold giữa acute (healthy) và chronic (damage)
+  → Exact boundary between "novelty-direction" vs "threat-direction" cortisol
+  → Whether direction is binary or a spectrum
+  → Quantitative threshold between acute (healthy) and chronic (damaging)
 
-⚠️ IMPORTANT — BỨC TRANH ĐẦY ĐỦ:
-  → Cortisol ACUTE = amplifier CẦN THIẾT → ĐÚNG ✅
-  → Cortisol CHRONIC + sleep đủ = maintain → OK ⚠️
-  → Cortisol CHRONIC + sleep thiếu = damage THẬT → ĐÚNG ✅
-  → Key variable = REPAIR (sleep), không phải cortisol level per se
-  → "Giảm cortisol" = thường sai hướng (fix nguồn + fix sleep mới đúng)
-  → NHƯNG: trong vicious cycle (Stage 4), cortisol IS part of problem
-    → Lúc đó intervention cortisol CÓ THỂ cần thiết (medical context)
-  → = Không đơn giản "tốt" hay "xấu" — phụ thuộc CONTEXT (acute/chronic, repair/no repair)
+⚠️ IMPORTANT — THE COMPLETE PICTURE:
+  → Acute cortisol = NECESSARY amplifier → CORRECT ✅
+  → Chronic cortisol + adequate sleep = maintain → OK ⚠️
+  → Chronic cortisol + insufficient sleep = REAL damage → CORRECT ✅
+  → Key variable = REPAIR (sleep), not cortisol level per se
+  → "Lower cortisol" = usually the wrong direction
+       (fix source + fix sleep is correct)
+  → BUT: in a vicious cycle (Stage 4), cortisol IS part of the problem
+    → In that case, cortisol intervention MAY be necessary (medical context)
+  → = Not simply "good" or "bad" — depends on CONTEXT
+       (acute/chronic, with/without adequate repair)
 ```
 
 ---
@@ -423,10 +440,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §8 — CROSS-REFERENCES
 
 ```
-DETAIL:
-  Cortisol-Baseline.md v2.0 (3,059 dòng) — comprehensive reference
-    §1: Redefine + 3 bằng chứng
-    §4: 3 nguồn đau thật
+FULL DETAIL:
+  Cortisol-Baseline.md v2.0 (3,059 lines) — comprehensive reference
+    §1: Redefine + 3 pieces of evidence
+    §4: 3 real sources of pain
     §5: Neuron-level mechanism
     §7: Novelty vs Threat direction
     §8: Inverted-U + 7 modes
@@ -435,24 +452,25 @@ DETAIL:
 
 WITHIN FRAMEWORK:
   Body-Feedback-Label.md v2.0 — VOCABULARY REFERENCE. 3-tier label system.
-    Framework dùng "prediction-delta" / "body-base reward" / "dissonance".
+    Framework uses "prediction-delta" / "body-base reward" / "dissonance."
   Body-Feedback.md — dual-pull, 3 Genuine Discomfort Sources
   Chunk.md §2.4 Direction-At-Compile
-  Core-v7.8-Draft.md §4.3 — cortisol trong cycle architecture
+  Core-Software.md §4.3 — cortisol in cycle architecture
   Dopamine-Is-Not-Reward.md — companion clarification file
   Prediction-Error-Is-Not-Reward.md — companion clarification file
 
 KEY RESEARCH:
   Sapolsky 2004 — "Why Zebras Don't Get Ulcers"
   McEwen 2007 — chronic cortisol → PFC dendrite retraction
-  Arnsten 2009, 2015 — NE α1 PFC disconnect (acute, NOT cortisol)
-  Selye 1936 — original "stress response" (historical origin)
+  Arnsten 2009, 2015 — NE α1 PFC disconnection (acute, NOT cortisol-mediated)
+  Selye 1936 — original "stress response" concept (historical origin of misconception)
 ```
 
 ---
 
-> *Cortisol — Amplifier, Not Cause. "Cortisol = change-readiness amplifier.
-> KHÔNG gây đau — 3 nguồn khác gây. NHƯNG: chronic + thiếu repair = damage THẬT
-> (PFC dendrite retraction, vicious cycle). Key = REPAIR (sleep), không phải
-> cortisol level. Acute = cần thiết. Chronic + ngủ đủ = OK. Chronic + ngủ kém = sụp.
-> Fix nguồn + fix sleep → cortisol tự calibrate. 'Giảm cortisol' = thường sai hướng."*
+> *"Cortisol = change-readiness amplifier. Does not cause pain — 3 other sources do.
+> BUT: chronic + insufficient repair = REAL damage (PFC dendrite retraction, vicious cycle).
+> Key variable = REPAIR (sleep), not cortisol level.
+> Acute = necessary. Chronic + adequate sleep = OK. Chronic + poor sleep = collapse.
+> Fix the source + fix sleep → cortisol calibrates naturally.
+> 'Lower cortisol' = usually the wrong direction."*

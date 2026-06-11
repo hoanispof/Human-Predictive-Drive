@@ -1,157 +1,145 @@
-﻿---
-title: Threat — Observation Parameter
+---
+title: "Threat — Observation Parameter"
 version: 1.3
 created: 2026-04-20
-updated: 2026-05-25 (v1.3 — §3 +Evaluative/Direct-State × 3 nguồn mechanism mapping, Dissonance-Signal-Architecture v1.0 integration)
-refined: 2026-05-23 (v1.2 — Concept Cascade: +Simulation-Engine, +Entity-Access, +Bond-Architecture. Updated versions + cross-refs)
+updated: "2026-05-25 (v1.3 — §3 +Evaluative/Direct-State × 3 mechanism sources, Dissonance-Signal-Architecture v1.0 integration)"
+refined: "2026-05-23 (v1.2 — Concept Cascade: +Simulation-Engine, +Entity-Access, +Bond-Architecture)"
 status: OBSERVATION PARAMETER v1.3
 scope: |
-  OBSERVATION FILE: Threat = named pattern khi quan sát body-feedback
-  (dissonance direction) + prediction of harm. Không phải component.
-  File này mô tả: mechanism, spectrum, 3 nguồn mechanism, 3 nguồn origin,
-  Threat × Imagine-Final, anticipation loop, khi nào có lợi/hại.
+  OBSERVATION FILE: Threat = the named pattern observed when watching body-feedback
+  (dissonance direction) + prediction of harm. Not a component.
+  This file covers: mechanism, spectrum, 3 mechanism sources, 3 origin sources,
+  Threat × Imagine-Final, anticipation loop, when helpful/harmful.
   v1.1 KEY CHANGES:
-    ⑪ +Compilable Architecture: threat = general-purpose system detect GAP TOWARD LOSS
+    ⑪ +Compilable Architecture: threat = general-purpose system detecting GAP TOWARD LOSS
     ⑫ +Compiled/Fresh: compiled threat (phobia, auto) vs fresh (novel danger, costly)
     ⑬ +PFC=Lawyer in threat: suppress / amplify / fabricate threat
-    ⑭ Version refs synced (Valence-Propagation v2.0, Body-Feedback-Mechanism v2.0)
+    ⑭ Version refs synced
     ⑮ +Cross-refs: Inter-Body-Mechanism.md v1.0, Body-Feedback-Label.md v2.0
 purpose: |
-  Core v7.8 §8 define Threat ngắn gọn ("Dissonance from predicted harm").
-  File này DEEP-DIVE: neuroscience, practical patterns, education implications.
-  Đặc biệt: 3 origin sources (Domain/Peer/Imposed) = education cornerstone.
+  Core-Software.md §8 defines Threat briefly ("Dissonance from predicted harm").
+  This file DEEP-DIVES: neuroscience, practical patterns, education implications.
+  Especially: 3 origin sources (Domain/Peer/Imposed) = education cornerstone.
 position: |
-  Core-Deep-Dive/Observation/ — ngang hàng Novelty.md, Schema.md, Empathy.md.
-dependencies:
-  - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
-  - Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap, 2 nguồn input
-  - Cortisol-Baseline.md v2.0 — amplifier, chronic vs acute
-  - Chunk.md v2.0 — chunk substrate, compilation under emotional peak
-  - Valence-Propagation.md v2.0 — body evaluation, chain propagation
-  - Observation/Novelty.md v1.0 — parallel structure (PULL vs PUSH)
-  - Imagine-Final-Evaluation.md — 2 trục × 4 góc, Domain Fit × Hardware Fit
-  - Anchor-Schema.md — Trust binding, sync point
-  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, Compiled/Fresh, PFC=Lawyer
-  - Body-Feedback-Label.md v2.0 — vocabulary reference
-  - PFC/Simulation-Engine.md v1.0 — simulated threat (Imagine-Final v3.0 boundary)
-  - Chunk/Agent-Mechanism/Entity-Access.md v1.2 — threat FROM entities (access-based)
-  - Chunk/Agent-Mechanism/Bond-Architecture.md v2.0 — threat to bond → protect response
-sources_backup: |
-  Gộp + rewrite từ: Threat.md v1.1 (1,936L) + Threat-Drive-Analysis.md (700L)
-  Backup: _backup/Drive-v75-era/
-language: Tiếng Việt primary + English technical terms
+  Core-Deep-Dive/Observation/ — sibling of Novelty.md, Schema.md, Empathy.md.
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+source_file: Core-Deep-Dive/Observation/Threat.md
 ---
 
 # Threat — Observation Parameter
 
-> Bị hổ rượt → chạy. Sợ mất việc → mất ngủ. Lo con thi trượt → quát con.
-> Tất cả gọi là "Threat" — nhưng cơ chế KHÁC NHAU hoàn toàn.
+> Being chased by a tiger → run.
+> Fear of losing your job → can't sleep.
+> Worrying your child will fail an exam → snapping at them.
 >
-> Hổ: physical, bounded, có endorphin buffer, hết trong phút.
-> Mất việc: anticipation, unbounded, không buffer, kéo dài tháng.
-> Lo con: imposed, truyền qua thế hệ, compile schema "authority = nguy hiểm."
+> We call all of these "Threat" — but the mechanisms are COMPLETELY DIFFERENT.
 >
-> Hiểu sự khác biệt đó = hiểu phần lớn anxiety hiện đại.
+> Tiger: physical, bounded, has an endorphin buffer, over in minutes.
+> Job loss: anticipatory, unbounded, no buffer, lasts for months.
+> Parental worry: imposed, transmitted across generations, compiles a schema:
+>   "authority = danger."
 >
-> File này phân tích: Threat trông thế nào, mechanism bên dưới,
-> phổ từ micro tới emergency, 2 taxonomy (mechanism + origin),
-> tại sao modern life = threat-dominant, và khi nào threat thực sự có lợi.
+> Understanding that difference = understanding most of modern anxiety.
+>
+> This file analyzes: what Threat looks like, the mechanism underneath,
+> the spectrum from micro to emergency, 2 taxonomies (mechanism + origin),
+> why modern life is threat-dominant, and when threat is actually useful.
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — THREAT LÀ OBSERVATION PARAMETER
+- §0 — THREAT AS OBSERVATION PARAMETER
 - §1 — MECHANISM: BODY-FEEDBACK + PREDICTION OF HARM
-- §2 — SPECTRUM: 5 MỨC × 3 TRỤC
-- §3 — 3 NGUỒN MECHANISM: Physical / Social / Anticipation
-- §4 — 3 NGUỒN ORIGIN: Domain / Peer / Imposed
+- §2 — SPECTRUM: 5 LEVELS × 3 AXES
+- §3 — 3 MECHANISM SOURCES: Physical / Social / Anticipation
+- §4 — 3 ORIGIN SOURCES: Domain / Peer / Imposed
 - §5 — THREAT × IMAGINE-FINAL: 3 CASES
-- §6 — KHI CÓ LỢI vs KHI CÓ HẠI
+- §6 — BENEFICIAL vs HARMFUL
 - §7 — HONEST ASSESSMENT
 - §8 — CROSS-REFERENCES
 
 ---
 
-## §0 — THREAT LÀ OBSERVATION PARAMETER
+## §0 — THREAT AS OBSERVATION PARAMETER
 
 ```
 ⭐ REFRAME V7.8:
 
-  Core v7.5 (cũ): Threat emerge ở từng layer (L0→L4), Protect = L3 drive
-  Core v7.8 (mới): Threat = observation parameter — tên gọi cho pattern
+  Core v7.5 (old): Threat emerges at each layer (L0→L4), Protect = L3 drive
+  Core v7.8 (new): Threat = observation parameter — a name for a pattern
 
-  Threat KHÔNG PHẢI:
-    ✗ Channel riêng (không có "threat channel" trong não)
-    ✗ Layer-specific (không nằm ở 1 vị trí cố định)
-    ✗ Chỉ ở "L3 Protect" (pattern đó đã bỏ — observation parameter thay thế)
-    ✗ Lúc nào cũng xấu (mechanism TRUNG TÍNH)
+  Threat is NOT:
+    ✗ A separate channel (no "threat channel" in the brain)
+    ✗ Layer-specific (not fixed to one position)
+    ✗ Only in "L3 Protect" (that pattern has been retired — observation parameter
+        replaces it)
+    ✗ Always harmful (the mechanism is NEUTRAL)
 
-  Threat LÀ:
-    ○ Tên gọi cho pattern: body-feedback (dissonance) + prediction of harm
-    ○ Emergent từ chunk dynamics — đặc biệt Chunk-Shift + Chunk-Miss
-    ○ Xuất hiện ở BẤT KỲ đâu trong cycle khi body detect nguy cơ
-    ○ Giá trị: predict, communicate, diagnose — KHÔNG phải mechanism
+  Threat IS:
+    ○ A name for the pattern: body-feedback (dissonance) + prediction of harm
+    ○ Emergent from chunk dynamics — especially Chunk-Shift + Chunk-Miss
+    ○ Appears ANYWHERE in the cycle when the body detects danger
+    ○ Useful for: predicting, communicating, diagnosing — NOT a mechanism
 
-  SO SÁNH VỚI NOVELTY (parallel structure):
+  COMPARISON WITH NOVELTY (parallel structure):
 
     ┌──────────────────┬──────────────────────────┬──────────────────────────┐
-    │                  │ NOVELTY                  │ THREAT                    │
+    │                  │ NOVELTY                  │ THREAT                   │
     ├──────────────────┼──────────────────────────┼──────────────────────────┤
-    │ Signal gốc       │ Positive prediction delta│ Body-feedback dissonance  │
-    │ Interpretation   │ Opportunity              │ Harm                      │
-    │ Direction        │ PULL (toward)            │ PUSH (away)               │
-    │ Neurochemistry   │ Dopamine                 │ NE → Cortisol             │
-    │ Natural brake    │ Habituation              │ Resolution of threat      │
-    │ Khi loop         │ Novelty Loop             │ Anxiety Loop              │
-    │ Deep dive        │ Novelty.md               │ File NÀY                  │
+    │ Root signal      │ Positive prediction delta│ Body-feedback dissonance │
+    │ Interpretation   │ Opportunity              │ Harm                     │
+    │ Direction        │ PULL (toward)            │ PUSH (away)              │
+    │ Neurochemistry   │ Dopamine                 │ NE → Cortisol            │
+    │ Natural brake    │ Habituation              │ Resolution of threat     │
+    │ When it loops    │ Novelty Loop             │ Anxiety Loop             │
+    │ Deep dive        │ Novelty.md               │ This file                │
     └──────────────────┴──────────────────────────┴──────────────────────────┘
 
-  ⚠️ Novelty và Threat CÓ THỂ chạy ĐỒNG THỜI:
-    → "Muốn explore" (Novelty) + "Sợ thất bại" (Threat) = cùng lúc
-    → Tỉ lệ quyết định trải nghiệm (Novelty.md §4.3: mixed loop)
-    → Xem Observation/Drive.md cho integration
+  ⚠️ Novelty and Threat CAN run SIMULTANEOUSLY:
+    → "Want to explore" (Novelty) + "Fear of failure" (Threat) = at the same time
+    → The ratio determines the experience (Novelty.md §4.3: mixed loop)
+    → See Observation/Drive.md for integration
 
 
-⭐ COMPILABLE ARCHITECTURE → THREAT MỞ RỘNG (Inter-Body-Mechanism.md §1.2):
+⭐ COMPILABLE ARCHITECTURE → THREAT EXPANDS (Inter-Body-Mechanism.md §1.2):
 
-  HARDWIRED ARCHITECTURE (côn trùng, động vật đơn giản):
+  HARDWIRED ARCHITECTURE (insects, simple animals):
     Threat = HARDWIRED escape circuits: predator→flee, pain→withdraw.
-    CHỈ detect threats ĐÃ BIẾT (evolutionary coded).
-    Threat MỚI mà evolution chưa code → KHÔNG detect → chết.
+    ONLY detects threats that are ALREADY KNOWN (evolutionarily coded).
+    A NEW threat that evolution hasn't coded → NOT detected → fatal.
 
   COMPILABLE ARCHITECTURE (humans):
-    General-purpose system: LEARN threats from experience + culture.
-    → Detect threats MỚI (social rejection, job loss, anticipation)
-      mà evolution KHÔNG THỂ hardwire (vì context thay đổi liên tục).
-    → PFC simulate future → predict threats CHƯA XẢY RA.
-    → Culture transmit threats qua ngôn ngữ (không cần trải nghiệm trực tiếp).
+    General-purpose system: LEARNS threats from experience + culture.
+    → Detects NEW threats (social rejection, job loss, anticipation)
+      that evolution CANNOT hardwire (because context changes continuously).
+    → PFC simulates the future → predicts threats BEFORE THEY HAPPEN.
+    → Culture transmits threats through language (no direct experience required).
 
-  → Compilable Architecture = tại sao humans có PHONG PHÚ threat types hơn:
+  → Compilable Architecture = why humans have a FAR RICHER set of threat types:
     Physical (hardwired) + Social (learned) + Anticipation (PFC simulate).
-  → Hardwired Architecture CHỈ CÓ Physical (hardwired escape).
-  → = Power CỦA Compilable Architecture VÀ curse: detect NHIỀU threats hơn
-    → anxiety NHIỀU hơn → nhưng adapt TỐT hơn.
+  → Hardwired Architecture HAS ONLY Physical (hardwired escape).
+  → = The POWER of Compilable Architecture AND its curse: detects MORE threats
+    → more anxiety → but also BETTER adaptation.
 
   🟡 Compilable Architecture threat expansion = framework synthesis.
 
 
-THREAT TRONG CYCLE (Core v7.8 §1):
+THREAT IN THE CYCLE (Core-Software.md §1):
 
   Domain → Body-Input → Unconscious(Chunks) → Feeling → PFC → Body-Output → Domain
                               ↑
                     Body-feedback fires dissonance
                     + chunks predict harm
-                    = "Threat" được quan sát
+                    = "Threat" observed
 
-  Threat xuất hiện khi:
-  → Body-feedback fire dissonance direction (Chunk-Shift, Chunk-Miss)
-  → VÀ: chunks predict "nếu không hành động → hậu quả xấu"
-  → = 2 thành phần CÙNG LÚC → Threat pattern emerge
-  → Thiếu 1 thành phần:
-    → Dissonance KHÔNG CÓ prediction = chỉ "khó chịu" (boredom territory)
-    → Prediction KHÔNG CÓ dissonance = chỉ "biết" (neutral knowledge)
+  Threat appears when:
+  → Body-feedback fires in the dissonance direction (Chunk-Shift, Chunk-Miss)
+  → AND: chunks predict "if no action → bad consequences"
+  → = 2 components SIMULTANEOUSLY → Threat pattern emerges
+  → Missing 1 component:
+    → Dissonance WITHOUT prediction = just "discomfort" (boredom territory)
+    → Prediction WITHOUT dissonance = just "knowing" (neutral knowledge)
 ```
 
 ---
@@ -159,120 +147,125 @@ THREAT TRONG CYCLE (Core v7.8 §1):
 ## §1 — MECHANISM: BODY-FEEDBACK + PREDICTION OF HARM
 
 ```
-⭐ THREAT = 2 THÀNH PHẦN CÙNG LÚC:
+⭐ THREAT = 2 COMPONENTS SIMULTANEOUSLY:
 
-  ① BODY-FEEDBACK (dissonance direction) — SIGNAL:
-    → "Có gì đó không ổn" — body detect mismatch
-    → Spectrum: nagging unease → bứt rứt → lo → sợ → panic → shutdown
-    → = TÍN HIỆU THUẦN (chưa biết TẠI SAO, chỉ biết "không ổn")
-    → Chunk dynamics nền:
-      → Chunk-Shift: valence chunks thay đổi → dissonance
-      → Chunk-Miss: pattern quen absent → dissonance
+  ① BODY-FEEDBACK (dissonance direction) — the SIGNAL:
+    → "Something is wrong" — body detects a mismatch
+    → Spectrum: nagging unease → restlessness → worry → fear → panic → shutdown
+    → = PURE SIGNAL (doesn't know WHY yet — only knows "something's wrong")
+    → Underlying chunk dynamics:
+      → Chunk-Shift: valence chunks change → dissonance
+      → Chunk-Miss: familiar pattern absent → dissonance
       → Body-Feedback-Mechanism.md §3.1, §3.2
 
-  ② PREDICTION OF HARM — INTERPRETATION:
-    → Vô thức HOẶC PFC predict: "nếu không thay đổi → HẬU QUẢ XẤU"
-    → Vô thức: reflex-level (hổ → chạy, KHÔNG CẦN PFC)
-    → PFC: simulate future (deadline → "nếu trễ → bị đuổi việc")
-    → = DIỄN GIẢI signal → quyết định response
+  ② PREDICTION OF HARM — the INTERPRETATION:
+    → Unconscious OR PFC predicts: "if this doesn't change → BAD CONSEQUENCES"
+    → Unconscious: reflex-level (tiger → run, NO PFC NEEDED)
+    → PFC: simulate future (deadline → "if I'm late → I'll get fired")
+    → = INTERPRETS the signal → determines the response
 
-  → Cùng body-feedback signal → KHÁC interpretation → KHÁC output:
+  → Same body-feedback signal → DIFFERENT interpretation → DIFFERENT output:
     → Dissonance + predict harm = THREAT
     → Dissonance + detect opportunity = NOVELTY
-    → Dissonance + predict nothing = "khó chịu" (boredom)
+    → Dissonance + predict nothing = "discomfort" (boredom)
 
 
 §1.1 — SCHEMA = TRIGGER, HORMONE = SUSTAIN
 
-  ⚠️ REFINE QUAN TRỌNG — thứ tự chính xác:
+  ⚠️ IMPORTANT REFINEMENT — correct order:
 
-  CŨ (ngụ ý): hormone KHỞI ĐỘNG threat
-  MỚI (chính xác): schema fire → hormone đến SAU
+  OLD (implied): hormone INITIATES threat
+  NEW (accurate): schema fires → hormone arrives AFTER
 
   Timeline:
-    Schema fire          → NE spike      → Adrenaline    → Cortisol peak
-    0ms                   500ms           1-2s             5-20 phút
-    ("nguy hiểm!")        (energy tức thì) (fight/flight)   (sustain alert)
+    Schema fires     → NE spike       → Adrenaline    → Cortisol peak
+    0ms               500ms             1-2s             5-20 minutes
+    ("danger!")       (instant energy)  (fight/flight)   (sustain alert)
 
-  Ví dụ:
-    → Đang chơi vui → nhớ "HÔM NAY THI!"
-    → Schema fire NGAY: "thi = quan trọng + trễ = hậu quả"
-    → Lúc này cortisol VẪN THẤP (chưa kịp tăng)
-    → NHƯNG body ĐÃ BIẾT phải chạy → SCHEMA biết, không phải cortisol
-    → NE spike (0.5-2s): energy tức thì → bắt đầu chạy
-    → Cortisol peak (5-20 min): DUY TRÌ alert → tới trường vẫn run
+  Example:
+    → Playing happily → suddenly remembers "EXAM TODAY!"
+    → Schema fires IMMEDIATELY: "exam = high stakes + late = consequences"
+    → Cortisol is STILL LOW at this moment (hasn't risen yet)
+    → BUT body ALREADY KNOWS to respond → the SCHEMA knows, not the cortisol
+    → NE spike (0.5-2s): instant energy → starts moving
+    → Cortisol peak (5-20 min): SUSTAINS alertness → still trembling on arrival
 
-  → Schema = TRIGGER (luôn đi trước)
-  → NE + Adrenaline = energy tức thì
-  → Cortisol = SUSTAINER (duy trì, không khởi động)
+  → Schema = TRIGGER (always first)
+  → NE + Adrenaline = instant energy
+  → Cortisol = SUSTAINER (maintains, does not initiate)
 
-§1.2 — PFC = LAWYER TRONG THREAT (Inter-Body-Mechanism.md §7)
 
-  ⭐ PFC KHÔNG phải neutral judge — là LAWYER cho body-base.
-  Trong threat domain, PFC "biện hộ" theo 3 hướng:
+§1.2 — PFC = LAWYER IN THREAT (Inter-Body-Mechanism.md §7)
 
-  ① SUPPRESS (phủ nhận threat khi body ĐANG báo):
-    → Body: cortisol, bứt rứt, "có gì đó không ổn."
-    → PFC: "Không sao đâu." / "Mình nghĩ nhiều quá." / "Bình thường thôi."
-    → = PFC suppress body signal → KHÔNG hành động → threat TÍCH LŨY.
-    → Ví dụ: triệu chứng bệnh → PFC: "chắc không sao" → trì hoãn khám.
-    → Ví dụ: mối quan hệ toxic → PFC: "ai cũng vậy" → ở lại.
+  ⭐ PFC is NOT a neutral judge — it is a LAWYER for the body-base.
+  In the threat domain, PFC "argues" in 3 directions:
 
-  ② AMPLIFY (phóng đại threat vượt thực tế):
-    → Body: micro-dissonance (nhẹ, context-appropriate).
-    → PFC: "CHẮC CHẮN SẼ TỆ LẮM!" — catastrophize vượt signal thật.
-    → = PFC amplify → cortisol TĂNG → anticipation loop (§3③) → anxiety.
-    → Ví dụ: sếp nói "cần gặp" (micro) → PFC: "chắc bị sa thải" (mạnh).
-    → Ví dụ: con sốt 38° → PFC bố mẹ: "bệnh nặng!" (chunks y khoa thiếu).
+  ① SUPPRESS (denying threat when body IS signaling one):
+    → Body: cortisol, restlessness, "something is wrong."
+    → PFC: "It's fine." / "I'm overthinking this." / "This is normal."
+    → = PFC suppresses the body signal → NO action → threat ACCUMULATES.
+    → Example: symptoms of illness → PFC: "probably nothing" → delays seeing a doctor.
+    → Example: a toxic relationship → PFC: "everyone's like this" → stays.
 
-  ③ FABRICATE (tạo threat không tồn tại):
-    → Body: trung tính hoặc yên ổn.
-    → PFC: "Nhưng NẾU... thì sao?" — tạo threat TỪ KHÔNG.
-    → = PFC generate threat → body respond (cortisol) → PFC: "thấy chưa!"
-    → = Self-fulfilling: PFC tạo threat → body confirm → PFC tin hơn.
-    → Ví dụ: 3 giờ sáng, mọi thứ OK → PFC: "nếu công ty phá sản thì sao?"
+  ② AMPLIFY (exaggerating threat beyond reality):
+    → Body: micro-dissonance (mild, context-appropriate).
+    → PFC: "IT'S DEFINITELY GOING TO BE TERRIBLE!" — catastrophizes beyond actual signal.
+    → = PFC amplifies → cortisol RISES → Anticipation Loop (§3③) → anxiety.
+    → Example: boss says "we need to talk" (micro) → PFC: "I'm going to get fired" (strong).
+    → Example: child has a 38°C fever → parent's PFC: "serious illness!" (few medical chunks).
 
-  ⚠️ DOMAIN = ARBITER — kiểm tra PFC narrative:
-    → PFC suppress → domain feedback cho biết threat CÓ THẬT.
-    → PFC amplify → domain feedback cho biết threat NHỎ hơn tưởng.
-    → PFC fabricate → domain feedback cho biết KHÔNG CÓ threat.
-    → "Cảm thấy nguy hiểm" ≠ "Nguy hiểm thật" — cần domain verify.
+  ③ FABRICATE (creating a threat that doesn't exist):
+    → Body: neutral or settled.
+    → PFC: "But WHAT IF... ?" — creates threat FROM NOTHING.
+    → = PFC generates threat → body responds (cortisol) → PFC: "See! I was right!"
+    → = Self-fulfilling: PFC creates threat → body confirms → PFC believes it more.
+    → Example: 3am, everything is fine → PFC: "what if the company goes bankrupt?"
 
-  🟢 Gazzaniga split-brain: PFC confabulate reasons (literal lawyer).
+  ⚠️ DOMAIN = ARBITER — verifies the PFC narrative:
+    → PFC suppresses → domain feedback reveals the threat IS REAL.
+    → PFC amplifies → domain feedback reveals the threat is SMALLER than imagined.
+    → PFC fabricates → domain feedback reveals NO threat exists.
+    → "Feeling danger" ≠ "Actually dangerous" — domain verification required.
+
+  🟢 Gazzaniga split-brain: PFC confabulates reasons (literal lawyer).
   🟢 Haidt 2001: moral judgment = intuition → reasoning = post-hoc.
   🟡 3 distortion modes in threat = framework classification.
 
 
   EXCEPTION:
-    Hormone baseline LỆch (mãn tính) → hormone CÓ THỂ drive trực tiếp:
-    → Cortisol baseline cao → lo không rõ lý do (generalized anxiety)
-    → = Bất thường, không phải quy trình chuẩn
-    → Cortisol-Baseline.md v2.0: chi tiết
+    Chronically shifted hormone baseline → hormone CAN drive directly:
+    → High cortisol baseline → anxiety without clear cause (generalized anxiety)
+    → = Pathological, not the standard process
+    → Cortisol-Baseline.md v2.0: detail
 
   ⭐ COMPILED vs FRESH THREAT (Inter-Body-Mechanism.md §3):
 
-    Compiled/Fresh = trục thật — áp dụng cho threat:
+    Compiled/Fresh = the real axis — applied to threat:
 
     COMPILED THREAT (Compiled — automatic, cost ≈ 0):
-      → Schema ĐÃ compile: pattern → body-feedback NGAY → response auto.
-      → Ví dụ: phobia (nhện → sợ → chạy, KHÔNG CẦN PFC evaluate).
-      → Ví dụ: người quen mà ĐÃ compile "nguy hiểm" → body tense NGAY khi thấy.
-      → Ví dụ: tiếng quát GIỐNG bố/mẹ → compiled schema fire → sợ dù người lạ.
+      → Schema ALREADY compiled: pattern → body-feedback IMMEDIATELY → auto response.
+      → Example: phobia (spider → fear → flee, NO PFC evaluation needed).
+      → Example: someone already compiled as "dangerous" → body tenses the INSTANT
+          they appear.
+      → Example: a raised voice RESEMBLING a parent's → compiled schema fires →
+          afraid even though it's a stranger.
       → = Trauma responses = COMPILED threat (extreme compilation under emotional peak).
-      → NHANH, chi phí thấp, NHƯNG có thể SAI (overgeneralize).
+      → FAST, low cost, BUT can be WRONG (overgeneralize).
 
-    FRESH THREAT (Fresh — PFC draft, cost > 0):
-      → Tình huống MỚI chưa có schema → PFC phải evaluate:
-        "Đây có nguy hiểm không? Mức nào? Hành động gì?"
-      → Ví dụ: email lạ từ boss mới → PFC draft: "praise hay warning?"
-      → Ví dụ: triệu chứng body lạ → PFC draft: "bệnh hay bình thường?"
-      → CHẬM, chi phí cao, NHƯNG chính xác hơn (evaluate context).
+    FRESH THREAT (Fresh — PFC drafting, cost > 0):
+      → NEW situation with no schema → PFC must evaluate:
+        "Is this dangerous? How dangerous? What should I do?"
+      → Example: strange email from a new boss → PFC drafts: "praise or warning?"
+      → Example: unfamiliar body symptom → PFC drafts: "illness or normal?"
+      → SLOW, high cost, BUT more accurate (evaluates context).
 
     TRANSITION Fresh→Compiled:
-      → Fresh threat lặp lại + confirm → compile → compiled threat.
-      → = "Lần đầu sợ: phải suy nghĩ" → "Lần thứ 10: tự động."
-      → Có thể UNLEARN (exposure therapy = ép Compiled re-evaluate → Fresh → recompile).
-      → Kahneman: compiled threat ≈ System 1 fear, fresh threat ≈ System 2 risk assessment.
+      → Fresh threat repeated + confirmed → compiles → becomes a compiled threat.
+      → = "First time afraid: must think" → "Tenth time: automatic."
+      → CAN be unlearned (exposure therapy = forces Compiled to re-evaluate →
+          Fresh → recompile).
+      → Kahneman: compiled threat ≈ System 1 fear, fresh threat ≈ System 2
+          risk assessment.
 
   🟢 NE → adrenaline → cortisol cascade = neuroscience verified
   🟡 Schema = trigger, hormone = sustain = framework emphasis (consistent with timeline)
@@ -281,148 +274,154 @@ THREAT TRONG CYCLE (Core v7.8 §1):
 
 ---
 
-## §2 — SPECTRUM: 5 MỨC × 3 TRỤC
+## §2 — SPECTRUM: 5 LEVELS × 3 AXES
 
 ```
-⭐ THREAT KHÔNG PHẢI ON/OFF — LÀ PHỔ LIÊN TỤC
+⭐ THREAT IS NOT ON/OFF — IT IS A CONTINUOUS SPECTRUM
 
-  Pop psychology: "stress" = 1 trạng thái (có hoặc không)
-  Framework: Threat = PHỔ từ micro-dissonance tới shutdown
+  Pop psychology: "stress" = 1 state (present or absent)
+  Framework: Threat = SPECTRUM from micro-dissonance to shutdown
 
-  3 TRỤC ĐỒNG THỜI (không gian 3 chiều):
-    ① INTENSITY: nhẹ → extreme (neurochemical escalation)
+  3 SIMULTANEOUS AXES (a 3-dimensional space):
+    ① INTENSITY: mild → extreme (neurochemical escalation)
     ② SOURCE: external-input → internal-predict → mixed
-    ③ DURATION: acute (giây) → chronic (năm)
+    ③ DURATION: acute (seconds) → chronic (years)
 
 
 ═══════════════════════════════════════════════════════
-TRỤC 1: INTENSITY — Neurochemical Escalation
+AXIS 1: INTENSITY — Neurochemical Escalation
 ═══════════════════════════════════════════════════════
 
-  MỨC 1 — MICRO (5-15% body resource):
-    NE trace. Nagging unease, hơi không yên.
-    PFC vẫn bình thường. Response: scan, check.
-    → Email sếp "cần gặp" → micro-threat. Duration: giây → phút.
-    → Cost: GẦN KHÔNG. Adaptive, có lợi.
+  LEVEL 1 — MICRO (5-15% body resources):
+    Trace NE. Nagging unease, slight restlessness.
+    PFC fully functional. Response: scan, check.
+    → Boss emails "need to talk" → micro-threat. Duration: seconds → minutes.
+    → Cost: NEAR ZERO. Adaptive, beneficial.
 
-  MỨC 2 — NHẸ (15-30% body resource):
-    NE rõ + adrenaline nhẹ. Băn khoăn, lo nhẹ.
-    PFC hoạt động TỐI ƯU — sweet spot cho problem-solving.
-    → Deadline 3 ngày, chưa bắt đầu → lo nhẹ → bắt đầu làm.
-    → Cost: THẤP. Yerkes-Dodson optimal.
+  LEVEL 2 — MILD (15-30% body resources):
+    Clear NE + mild adrenaline. Mild concern, slight worry.
+    PFC operating OPTIMALLY — the sweet spot for problem-solving.
+    → Deadline in 3 days, not started yet → mild worry → starts working.
+    → Cost: LOW. Yerkes-Dodson optimal.
 
-  MỨC 3 — TRUNG BÌNH (30-60% body resource):
-    NE cao + adrenaline + cortisol BẮT ĐẦU.
-    PFC vẫn hoạt động nhưng tunnel vision (focus hẹp, giảm creativity).
-    → Deadline NGÀY MAI → cortisol → làm thâu đêm.
-    → Cost: TRUNG BÌNH. Productive ngắn hạn, hại nếu kéo dài.
+  LEVEL 3 — MODERATE (30-60% body resources):
+    High NE + adrenaline + cortisol BEGINNING.
+    PFC still functional but tunnel vision (narrow focus, reduced creativity).
+    → Deadline TOMORROW → cortisol → works through the night.
+    → Cost: MODERATE. Productive short-term, harmful if prolonged.
 
-  MỨC 4 — MẠNH (60-90% body resource):
-    NE cao + adrenaline MẠNH + cortisol CAO.
-    PFC BỊ GIẢM MẠNH — amygdala bắt đầu override.
-    → Bị đe dọa → fight hoặc flight. Quyết định đơn giản, không nuance.
-    → Cost: CAO. Cứu mạng (acute) hoặc gây hại (chronic).
+  LEVEL 4 — STRONG (60-90% body resources):
+    High NE + STRONG adrenaline + HIGH cortisol.
+    PFC STRONGLY IMPAIRED — amygdala begins to override.
+    → Threatened → fight or flight. Simple decisions, no nuance.
+    → Cost: HIGH. Life-saving (acute) or damaging (chronic).
 
-  MỨC 5 — EMERGENCY (90-100% body resource):
-    TOÀN BỘ mobilize. PFC GẦN NHƯ TẮT — amygdala kiểm soát.
+  LEVEL 5 — EMERGENCY (90-100% body resources):
+    FULL mobilization. PFC NEARLY SHUT DOWN — amygdala in control.
     → 3 modes: Fight / Flight / Freeze
-    → Shutdown (overload): vagal syncope — circuit breaker, không phải signal
-    → Cost: CỰC CAO. PTSD risk nếu prolonged.
+    → Shutdown (overload): vagal syncope — Circuit Breaker, not a signal
+    → Cost: EXTREME. PTSD risk if prolonged.
 
   SUMMARY:
     ┌──────────┬──────────┬────────────────┬─────────────┬──────────────┐
-    │ Mức      │ Resource │ Neurochemistry │ PFC status  │ Response     │
+    │ Level    │ Resource │ Neurochemistry │ PFC status  │ Response     │
     ├──────────┼──────────┼────────────────┼─────────────┼──────────────┤
-    │ Micro    │  5-15%   │ NE trace       │ Bình thường│ Scan, check  │
-    │ Nhẹ      │ 15-30%   │ NE + adrenaline│ TỐI ƯU     │ Plan, prepare│
-    │ TB       │ 30-60%   │ + cortisol     │ Tunnel      │ Act, focus   │
-    │ Mạnh     │ 60-90%   │ + amygdala     │ GIẢM MẠNH  │ Fight/flight │
-    │ Emergency│ 90-100%  │ FULL mobilize  │ GẦN TẮT    │ F/F/F/Shut   │
+    │ Micro    │  5-15%   │ NE trace       │ Normal      │ Scan, check  │
+    │ Mild     │ 15-30%   │ NE + adrenaline│ OPTIMAL     │ Plan, prepare│
+    │ Moderate │ 30-60%   │ + cortisol     │ Tunnel      │ Act, focus   │
+    │ Strong   │ 60-90%   │ + amygdala     │ IMPAIRED    │ Fight/flight │
+    │ Emergency│ 90-100%  │ FULL mobilize  │ NEAR OFF    │ F/F/F/Shut   │
     └──────────┴──────────┴────────────────┴─────────────┴──────────────┘
 
-  → Mức NHẸ (15-30%) = SWEET SPOT cho productivity
-  → = Yerkes-Dodson law: performance optimal ở arousal TRUNG BÌNH
+  → MILD level (15-30%) = SWEET SPOT for productivity
+  → = Yerkes-Dodson law: performance optimal at MODERATE arousal
 
   🟢 NE → adrenaline → cortisol cascade = verified
-  🟢 Amygdala override PFC (Arnsten 2009, LeDoux)
+  🟢 Amygdala overrides PFC (Arnsten 2009, LeDoux)
   🟢 Yerkes-Dodson law (1908, replicated)
-  🟡 % body resource per level = framework approximation
+  🟡 % body resources per level = framework approximation
 
 
 ═══════════════════════════════════════════════════════
-TRỤC 2: SOURCE — External vs Internal vs Mixed
+AXIS 2: SOURCE — External vs Internal vs Mixed
 ═══════════════════════════════════════════════════════
 
   EXTERNAL-INPUT:
-    → Signal từ GIÁC QUAN — đang xảy ra BÊN NGOÀI
-    → Speed: ms (reflex) → giây. Vô thức phản ứng TRƯỚC PFC.
-    → Endorphin buffer CÓ (physical threat) → recovery nhanh
-    → DỪNG khi external threat BIẾN MẤT
-    → Ví dụ: hổ, người nhảy ra, đau vật lý
+    → Signal from SENSES — happening RIGHT NOW in the environment
+    → Speed: ms (reflex) → seconds. Unconscious reacts BEFORE PFC.
+    → Endorphin buffer PRESENT (physical threat) → quick recovery
+    → STOPS when external threat DISAPPEARS
+    → Examples: tiger, someone jumping out, physical pain
 
   INTERNAL-PREDICT:
-    → Threat từ NÃO TỰ TẠO — PFC hoặc vô thức imagine harm
-    → Body KHÔNG PHÂN BIỆT imagine vs real (~20-60% fidelity)
-    → KHÔNG CÓ endorphin buffer (không physical pain)
-    → KHÔNG CÓ endpoint rõ ("khi nào hết tưởng tượng?")
-    → = NGUỒN CHÍNH anxiety hiện đại
-    → Ví dụ: 3 giờ sáng lo mất việc, sinh viên lo thi trượt
+    → Threat CREATED BY THE BRAIN — PFC or unconscious imagines harm
+    → Body CANNOT DISTINGUISH imagined vs real (~20-60% fidelity)
+    → NO endorphin buffer (no physical pain)
+    → NO clear endpoint ("when does the imagining stop?")
+    → = PRIMARY SOURCE of modern anxiety
+    → Examples: 3am worry about job loss, student worrying about failing exams
 
-  MIXED (External feed Internal):
-    → External event (có thật) → trigger schema → PFC imagine WORST CASE
-    → = Event nhỏ + imagination lớn = threat VƯỢT thực tế
-    → Ví dụ: sếp nói "cần gặp" (micro) → PFC "chắc bị đuổi" (mạnh)
-    → = Typical parenting anxiety: con sốt 38° → PFC "bệnh nặng?"
-    → Threat level = f(external input × internal imagination × chunks tích lũy)
+  MIXED (External feeds Internal):
+    → External event (real) → triggers schema → PFC imagines WORST CASE
+    → = Small event + large imagination = threat EXCEEDING reality
+    → Example: boss says "need to talk" (micro) → PFC "I'm getting fired" (strong)
+    → = Typical parenting anxiety: child has 38°C fever → PFC "serious illness?"
+    → Threat level = f(external input × internal imagination × accumulated chunks)
 
-  ⭐ TẠI SAO KIẾN THỨC GIẢM THREAT:
-    → Bác sĩ thấy con sốt 38°: "bình thường" → threat MICRO (chunks y khoa đủ)
-    → Bố mẹ lần đầu thấy con sốt 38°: "chết mất!" → threat MẠNH (ít chunks)
-    → = Cùng external input → KHÁC chunks → KHÁC threat level
-    → = Education GIẢM threat (thêm chunks → predict chính xác hơn)
+  ⭐ WHY KNOWLEDGE REDUCES THREAT:
+    → A doctor seeing a child with 38°C fever: "normal" → MICRO threat (sufficient
+        medical chunks)
+    → First-time parents seeing a child with 38°C fever: "disaster!" → STRONG threat
+        (few chunks)
+    → = Same external input → DIFFERENT chunks → DIFFERENT threat level
+    → = Education REDUCES threat (adding chunks → more accurate predictions)
 
   SUMMARY:
     ┌──────────────┬────────────────┬────────────────┬────────────────┐
     │              │ External       │ Internal       │ Mixed          │
     ├──────────────┼────────────────┼────────────────┼────────────────┤
-    │ Speed        │ ms (reflex)    │ Chậm (imagine)│ Nhanh trigger  │
-    │ Duration     │ Ngắn (threat   │ DÀI (không    │ DÀI (amplify)  │
-    │              │ biến mất=dừng) │ endpoint rõ)   │                │
-    │ Endorphin    │ CÓ (physical)  │ KHÔNG          │ Tùy mix       │
-    │ PFC role     │ Assess SAU     │ GENERATE threat│ AMPLIFY threat │
-    │ Modern risk  │ THẤP (ít hổ)  │ CAO (anxiety)  │ CAO (tin tức) │
+    │ Speed        │ ms (reflex)    │ Slow (imagine) │ Fast trigger   │
+    │ Duration     │ Short (ends    │ LONG (no clear │ LONG (amplify) │
+    │              │ when threat    │ endpoint)      │                │
+    │              │ disappears)    │                │                │
+    │ Endorphin    │ YES (physical) │ NO             │ Depends on mix │
+    │ PFC role     │ Assess AFTER   │ GENERATES      │ AMPLIFIES      │
+    │              │                │ threat         │ threat         │
+    │ Modern risk  │ LOW (few       │ HIGH (anxiety) │ HIGH (news)    │
+    │              │ tigers)        │                │                │
     └──────────────┴────────────────┴────────────────┴────────────────┘
 
-  → Modern life: external threat GIẢM (an toàn vật lý nhất lịch sử)
-  → NHƯNG: internal + mixed TĂNG (MXH, tin tức, comparison, anticipation)
-  → = PARADOX: an toàn vật lý nhất — anxiety CAO NHẤT
+  → Modern life: external threats DECREASE (most physically safe era in history)
+  → BUT: internal + mixed INCREASE (social media, news, comparison, anticipation)
+  → = PARADOX: physically safest era — anxiety at its HIGHEST
 
   🟢 Nocebo effect, stress response to imagined threat = verified
   🟢 Anticipatory anxiety → cortisol (Gaab et al. 2005)
-  🟢 Catastrophizing = CBT research, knowledge reduces anxiety = verified
+  🟢 Catastrophizing = CBT research; knowledge reduces anxiety = verified
 
 
 ═══════════════════════════════════════════════════════
-TRỤC 3: DURATION — Acute vs Chronic
+AXIS 3: DURATION — Acute vs Chronic
 ═══════════════════════════════════════════════════════
 
-  ACUTE (giây → giờ):
-    → Event rõ → response → event kết thúc → cortisol drop → repair
-    → Body THIẾT KẾ cho acute. Cost THẤP nếu recovery đầy đủ.
+  ACUTE (seconds → hours):
+    → Clear event → response → event ends → cortisol drops → repair
+    → Body DESIGNED for acute. Low cost if recovery is adequate.
 
-  CHRONIC (ngày → tháng → năm):
-    → KHÔNG CÓ event kết thúc rõ → cortisol KHÔNG DROP
-    → Body KHÔNG THIẾT KẾ cho chronic → systems chạy emergency liên tục
-    → Cortisol baseline tăng → new normal = stressed
-    → Repair BỊ CẮT (body ưu tiên threat response)
+  CHRONIC (days → months → years):
+    → NO clear ending event → cortisol DOES NOT DROP
+    → Body NOT DESIGNED for chronic → systems run on emergency mode continuously
+    → Cortisol baseline rises → new normal = stressed
+    → Repair is CUT (body prioritizes threat response)
     → Neural wear: PFC dendrite retraction, hippocampus damage,
-      immune suppression, sleep quality giảm (Cortisol-Baseline.md v2.0)
+      immune suppression, sleep quality drops (Cortisol-Baseline.md v2.0)
 
-  ⭐ DURATION QUAN TRỌNG HƠN INTENSITY:
-    → Mức 3 (trung bình) + acute (1 đêm) = OK, body repair được
-    → Mức 3 (trung bình) + chronic (6 tháng) = BURNOUT
-    → Mức 2 (nhẹ) + chronic = TỆ HƠN mức 4 (mạnh) + acute
-    → = "Sống chung với lo lắng nhẹ MỖI NGÀY" > "1 lần sợ hãi rồi hết"
+  ⭐ DURATION MATTERS MORE THAN INTENSITY:
+    → Level 3 (moderate) + acute (one night) = OK, body can repair
+    → Level 3 (moderate) + chronic (6 months) = BURNOUT
+    → Level 2 (mild) + chronic = WORSE than Level 4 (strong) + acute
+    → = "Living with mild daily worry EVERY DAY" >
+        "One intense scare and then it's over"
 
   🟢 Chronic cortisol → neural damage (McEwen 1998, 2007)
   🟢 Cortisol → hippocampus neurotoxicity (Sapolsky)
@@ -432,205 +431,215 @@ TRỤC 3: DURATION — Acute vs Chronic
 
 ---
 
-## §3 — 3 NGUỒN MECHANISM: Physical / Social / Anticipation
+## §3 — 3 MECHANISM SOURCES: Physical / Social / Anticipation
 
 ```
-⭐ CÙNG OUTPUT CORTISOL — KHÁC CƠ CHẾ ACTIVATE, KHÁC RECOVERY
+⭐ SAME CORTISOL OUTPUT — DIFFERENT ACTIVATION MECHANISM, DIFFERENT RECOVERY
 
-  §3 = MECHANISM taxonomy: "Body phản ứng THẾ NÀO?"
-  §4 = ORIGIN taxonomy: "Threat đến TỪ ĐÂU?"
-  2 taxonomies ORTHOGONAL — bổ sung nhau, không trùng lặp.
-  1 threat event có thể ánh xạ lên CẢ HAI trục:
-    → Bố quát "không học sẽ bị đánh" (Imposed origin)
-      → trigger Social mechanism (quát) + Anticipation mechanism (imagine bị đánh)
+  §3 = MECHANISM taxonomy: "HOW does the body respond?"
+  §4 = ORIGIN taxonomy: "WHERE does the threat come from?"
+  2 taxonomies ORTHOGONAL — complementary, not overlapping.
+  1 threat event can map onto BOTH axes:
+    → A parent threatening "you'll fail without studying" (Imposed origin)
+      → triggers Social mechanism (the tone/words) + Anticipation mechanism
+        (imagining the punishment)
 
 
 ═══════════════════════════════════════════════════════
-① PHYSICAL — Đau / Nguy hiểm vật lý
+① PHYSICAL — Pain / Physical Danger
 ═══════════════════════════════════════════════════════
 
-  Trigger: Nociceptors (đau) hoặc sensory detect nguy hiểm
-  Timeline: 50ms reflex (tủy sống) → 200ms brain → 500ms NE → 5-20min cortisol
+  Trigger: Nociceptors (pain) or senses detecting physical danger
+  Timeline: 50ms reflex (spinal cord) → 200ms brain → 500ms NE →
+    5-20min cortisol
 
-  ĐẶC ĐIỂM:
-    → CÓ REFLEX (tủy sống → rút tay TRƯỚC KHI não biết)
-    → CÓ ENDORPHIN buffer (giảm đau tự nhiên sau vài phút)
-    → Duration NGẮN (threat qua → cortisol drop nhanh)
-    → Recovery NHANH
-    → Mọi loài có ✅
+  CHARACTERISTICS:
+    → HAS REFLEX (spinal cord → withdraws hand BEFORE the brain is aware)
+    → HAS ENDORPHIN BUFFER (natural pain reduction within minutes)
+    → SHORT duration (threat passes → cortisol drops quickly)
+    → FAST recovery
+    → Present in all animals ✅
 
-  → Body THIẾT KẾ cho loại này. Cost thấp nếu acute.
-  → Modern life: HIẾM (ít hổ, ít chiến tranh trực tiếp)
+  → Body DESIGNED for this type. Low cost when acute.
+  → Modern life: RARE (few tigers, little direct warfare)
 
   🟢 Nociception, reflex arc, endorphin system = neuroscience verified
 
 
 ═══════════════════════════════════════════════════════
-② SOCIAL — Bị quát / từ chối / mất status
+② SOCIAL — Being Yelled At / Rejected / Losing Status
 ═══════════════════════════════════════════════════════
 
-  Trigger: Auditory/visual input → schema decode "nguy hiểm xã hội"
-  Timeline: 200ms decode → 500ms amygdala + schema → 1-2s NE → 5-20min cortisol
+  Trigger: Auditory/visual input → schema decodes "social danger"
+  Timeline: 200ms decode → 500ms amygdala + schema → 1-2s NE →
+    5-20min cortisol
 
-  ĐẶC ĐIỂM:
-    → KHÔNG CÓ reflex buffer (phải qua não xử lý)
-    → KHÔNG CÓ endorphin buffer (không physical pain trigger)
-    → Oxytocin GIẢM (connection bị đe dọa)
-    → Serotonin CÓ THỂ giảm (status bị đe dọa)
-    → Duration DÀI hơn physical
-    → Recovery CHẬM (không có pain-killer tự nhiên cho social pain)
-    → Chỉ loài xã hội có (khỉ, người) ✅
+  CHARACTERISTICS:
+    → NO reflex buffer (must go through brain processing)
+    → NO endorphin buffer (no physical pain trigger)
+    → Oxytocin DROPS (connection threatened)
+    → Serotonin MAY DROP (status threatened)
+    → LONGER duration than physical
+    → SLOWER recovery (no natural painkiller for social pain)
+    → Only social species have this (primates, humans) ✅
 
-  ⭐ ĐAU THỂ XÁC vs ĐAU TÂM LÝ:
+  ⭐ PHYSICAL PAIN vs PSYCHOLOGICAL PAIN:
 
-    ĐAU THỂ XÁC:
-      Reflex ✅ + Endorphin ✅ + Thường NGẮN ✅
-      → Recovery nhanh
+    PHYSICAL PAIN:
+      Reflex ✅ + Endorphin ✅ + Usually SHORT ✅
+      → Fast recovery
 
-    ĐAU TÂM LÝ (social):
-      Reflex ❌ + Endorphin ❌ + Có thể DÀI ❌
-      → Recovery CHẬM
+    PSYCHOLOGICAL PAIN (social):
+      Reflex ❌ + Endorphin ❌ + Can be PROLONGED ❌
+      → SLOW recovery
 
-    → IRONY: đánh (physical) có endorphin → hồi phục nhanh hơn
-    → Quát mắng MÃN TÍNH (social) không buffer → damage SÂU hơn
-    → ⚠️ KHÔNG phải "nên đánh" — mà "quát mắng liên tục CŨNG là bạo lực"
+    → IRONY: physical hitting has endorphins → recovers faster
+    → CHRONIC yelling and shaming (social) has no buffer → DEEPER damage
+    → ⚠️ NOT "physical hitting is acceptable" — but "chronic yelling is also
+        a form of violence"
 
-  🟢 Eisenberger et al. 2003: social rejection activate CÙNG vùng não
-     với physical pain (dACC + Insula) — social pain = ĐAU THẬT
+  🟢 Eisenberger et al. 2003: social rejection activates THE SAME brain regions
+     as physical pain (dACC + Insula) — social pain = REAL PAIN
   🟢 Social pain lacks opioid buffering → longer recovery
 
 
 ═══════════════════════════════════════════════════════
-③ ANTICIPATION — Imagine hậu quả tương lai
+③ ANTICIPATION — Imagining Future Consequences
 ═══════════════════════════════════════════════════════
 
-  Trigger: PFC hoặc schema predict "nếu không làm X → sẽ xảy ra Y (xấu)"
-  Timeline: schema fire 0ms → PFC draft 500ms → body simulate → cortisol NHẸ
+  Trigger: PFC or schema predicts "if X is not done → Y (bad) will happen"
+  Timeline: schema fires 0ms → PFC drafts 500ms → body simulates →
+    mild cortisol
 
-  ĐẶC ĐIỂM:
-    → Threat CHƯA xảy ra (chỉ IMAGINE)
-    → Cortisol NHẸ mỗi lần — nhưng LẶP LẠI → tích lũy
-    → PFC có thể LOOP vô hạn (imagine → stress → imagine lại)
-    → = NGUỒN #1 CỦA ANXIETY HIỆN ĐẠI
-    → Chỉ loài có PFC mạnh (chủ yếu người) ✅
+  CHARACTERISTICS:
+    → Threat has NOT happened yet (only IMAGINED)
+    → Cortisol is MILD each time — but REPEATS → accumulates
+    → PFC can LOOP indefinitely (imagine → stress → imagine again)
+    → = SOURCE #1 OF MODERN ANXIETY
+    → Only species with strong PFC (primarily humans) ✅
 
   ⭐ ANTICIPATION LOOP (anxiety mechanism):
 
-    ┌──────────────────────────────────────┐
-    │ PFC imagine: "nếu không xong...?"    │
-    │           ↓                          │
-    │ Body: cortisol nhẹ → "lo"           │
-    │           ↓                          │
-    │ PFC detect "lo": "đúng rồi, nguy!"  │
-    │           ↓                          │
-    │ PFC imagine thêm: "nếu thất bại..." │
-    │           ↓                          │
-    │ Body: cortisol thêm → "lo hơn"      │
-    │           ↓                          │
-    │ PFC: "CÒN TỆ HƠN NỮA..."           │
-    │           ↓                          │
-    │         LOOP ↻                       │
-    └──────────────────────────────────────┘
+    ┌──────────────────────────────────────────┐
+    │ PFC imagines: "what if I don't finish...?"│
+    │           ↓                              │
+    │ Body: mild cortisol → "worried"          │
+    │           ↓                              │
+    │ PFC detects "worried": "See! Danger!"    │
+    │           ↓                              │
+    │ PFC imagines more: "what if I fail..."   │
+    │           ↓                              │
+    │ Body: more cortisol → "more worried"     │
+    │           ↓                              │
+    │ PFC: "AND IT COULD GET EVEN WORSE..."    │
+    │           ↓                              │
+    │         LOOP ↻                           │
+    └──────────────────────────────────────────┘
 
-    → SELF-AMPLIFYING: lo → imagine threat → lo hơn → imagine hơn
-    → KHÔNG TỰ DỪNG (không có body satisfaction fire)
-    → Chỉ dừng khi: PFC kiệt / external interrupt /
-      threat giải quyết / schema mới override
+    → SELF-AMPLIFYING: worry → imagine threat → more worry → more imagining
+    → DOES NOT SELF-STOP (no body satisfaction signal fires)
+    → Only stops when: PFC exhausts / external interrupt /
+      threat resolved / new schema overrides
 
-    → Anxiety = Anticipation loop KHÔNG BỊ PHÁ
-    → Depression = loop + body KIỆT (cortisol exhaustion)
+    → Anxiety = Anticipation Loop that is NOT broken
+    → Depression = loop + body EXHAUSTED (cortisol exhaustion)
 
-  ⭐ TẠI SAO ANTICIPATION THỐNG TRỊ HIỆN ĐẠI:
+  ⭐ WHY ANTICIPATION DOMINATES MODERN LIFE:
 
-    ① Anticipation chain VÔ HẠN:
-      "Không học giỏi → không vào ĐH tốt → không có việc tốt → không có tiền
-       → không có nhà → con cái khổ → ..."
-      → Chuỗi KHÔNG KẾT THÚC. PFC imagine threat VÔ HẠN.
+    ① Anticipation chain is INFINITE:
+      "If I don't do well academically → can't get into a good university
+       → can't get a good job → no financial security → no housing
+       → children suffer → ..."
+      → Chain NEVER ENDS. PFC can imagine threat INDEFINITELY.
 
-    ② MXH = social threat 24/7:
-      → Trước: so sánh với 50 người trong làng
-      → Giờ: so sánh với 1 TỶ người trên internet
-      → Status aspiration gap = LUÔN CAO
+    ② Social media = social threat 24/7:
+      → Before: compared with 50 people in a village
+      → Now: compared with 1 BILLION people on the internet
+      → Status aspiration gap = ALWAYS HIGH
 
     ③ Always-on culture:
-      → 50 notifications/ngày = 50 micro-threat spikes
-      → Không spike nào ĐỦ LỚN để nhận ra → nhưng TÍCH LŨY
+      → 50 notifications per day = 50 micro-threat spikes
+      → No single spike is LARGE ENOUGH to notice → but they ACCUMULATE
 
-    ④ Threat-drive qua thế hệ:
-      → Bố mẹ lo → ép con → con lo → ép cháu → ...
-      → Schema truyền, không phải gene
+    ④ Threat transmitted across generations:
+      → Parents worry → pressure children → children worry → pressure grandchildren
+      → Schema is transmitted, not genetics
 
-  → KẾT QUẢ: đa số người hiện đại drive bởi Threat PHẦN LỚN thời gian
-  → KHÔNG phải "yếu đuối" — vì MÔI TRƯỜNG tạo threat liên tục
+  → RESULT: most modern people are driven by Threat MOST of the time
+  → NOT "weakness" — the ENVIRONMENT creates continuous threat
 
-  🟡 Body không phân biệt imagine vs real = framework claim
+  🟡 Body cannot distinguish imagined vs real = framework claim
   🟢 Nocebo effect + stress to imagined threat = verified
   🟢 Anticipatory anxiety → cortisol = Gaab et al. 2005
   🟢 CBT targets anticipation loop = established effectiveness
 
 
-SUMMARY 3 NGUỒN:
+SUMMARY OF 3 MECHANISM SOURCES:
 
   ┌──────────────────┬──────────────┬──────────────┬──────────────────┐
   │                  │ PHYSICAL     │ SOCIAL       │ ANTICIPATION     │
   ├──────────────────┼──────────────┼──────────────┼──────────────────┤
   │ Speed            │ 50ms reflex  │ 200ms decode │ 500ms+ imagine   │
-  │ Endorphin buffer │ CÓ          │ KHÔNG        │ KHÔNG            │
-  │ Duration natural │ Ngắn        │ Trung bình   │ CÓ THỂ VÔ HẠN  │
-  │ Recovery         │ Nhanh       │ Chậm         │ Cần break loop   │
-  │ Modern frequency │ Thấp        │ Cao          │ CỰC CAO         │
-  │ Species          │ Mọi loài    │ Loài xã hội  │ Chủ yếu người   │
+  │ Endorphin buffer │ YES          │ NO           │ NO               │
+  │ Natural duration │ Short        │ Medium       │ CAN BE INFINITE  │
+  │ Recovery         │ Fast         │ Slow         │ Requires breaking │
+  │                  │              │              │ the loop         │
+  │ Modern frequency │ Low          │ High         │ VERY HIGH        │
+  │ Species          │ All animals  │ Social       │ Primarily humans │
+  │                  │              │ species      │                  │
   └──────────────────┴──────────────┴──────────────┴──────────────────┘
 
 
 EVALUATIVE/DIRECT-STATE × THREAT (Dissonance-Signal-Architecture.md v1.0 §1):
 
-  3 NGUỒN MECHANISM ÁNH XẠ LÊN 2 TYPES DISSONANCE:
+  3 MECHANISM SOURCES MAPPED ONTO 2 DISSONANCE TYPES:
 
     ① Physical threat ≈ DIRECT-STATE DISSONANCE territory:
       → Nociception, hardware pathways, endorphin buffer
-      → Body từ birth ĐÃ xử lý được, PFC minimal
-      → Numbness-proof: Direct-State vẫn fire dù Evaluative tê liệt
+      → Body handles this from birth, PFC is minimal
+      → Numbness-proof: Direct-State still fires even when Evaluative is paralyzed
 
     ② Social threat ≈ EVALUATIVE DISSONANCE territory:
-      → dACC + anterior insula (Eisenberger 2003), KHÔNG endorphin
+      → dACC + anterior insula (Eisenberger 2003), NO endorphin
       → Compiled chunks required (social schema ≠ reality)
-      → PFC can modulate (reframe → giảm, nocebo → tăng)
+      → PFC can modulate (reframe → reduces it, nocebo → increases it)
 
     ③ Anticipation threat ≈ EVALUATIVE DISSONANCE territory:
       → Simulation-Engine generates dissonance WITHOUT external input
-      → CRH → amygdala, PFC loop, cortisol tích lũy
+      → CRH → amygdala, PFC loop, cortisol accumulates
       → Direct-State CANNOT create anticipation (hardware = NOW only)
 
-  → Physical NGẮN + có buffer. Social/Anticipation DÀI + không buffer.
-  → Dissonance-Signal-Architecture giải thích: vì Direct-State có endorphin, Evaluative KHÔNG.
+  → Physical: SHORT + has buffer. Social/Anticipation: LONG + no buffer.
+  → Dissonance-Signal-Architecture explains this: because Direct-State has endorphin,
+    Evaluative does NOT.
 
 
-THREAT × NEW CONCEPTS (28-session Drill Propagation):
+THREAT × NEW CONCEPTS:
 
   SIMULATION-ENGINE × THREAT (Simulation-Engine.md v1.0):
-    → Anticipation (③ above) = Simulation-Engine draft outcome → body evaluate as THREAT
-    → Imagine-Final v3.0 KEY BOUNDARY: hardware prediction (automatic) ≠ Imagine-Final
-    → Simulated threat = Simulation-Engine running threat scenario
+    → Anticipation (③ above) = Simulation-Engine drafts an outcome → body evaluates
+        as THREAT
+    → Simulated threat = Simulation-Engine running a threat scenario
     → PFC budget: prolonged simulation COSTS processing capacity
-    → = Anticipation loop = Simulation-Engine STUCK on threat scenario
+    → = Anticipation Loop = Simulation-Engine STUCK on a threat scenario
 
   ENTITY-ACCESS × THREAT (Entity-Access.md v1.2):
     → Threat FROM entities = function of Entity-Access gradient:
-      Mức 5 (con/self) threat = CỰC MẠNH (hardware-subsidy amplify)
-      Mức 3 (bạn thân) threat = MẠNH
-      Mức 1 (acquaintance) threat = NHẸHƠN nhiều
+      Level 5 (child/self) threat = EXTREME (Hardware-Subsidy amplifies)
+      Level 3 (close friend) threat = STRONG
+      Level 1 (acquaintance) threat = MUCH MILDER
     → LOSING access = threat direction (Entity-Access-Excess.md v1.0)
-    → Threat of access DROP = anticipation source thường gặp
+    → Threat of access DROP = common anticipation source
 
   BOND-ARCHITECTURE × THREAT (Bond-Architecture.md v2.0):
     → Threat TO bond = protect response (Protect.md)
     → 4 bond types → 4 threat profiles:
-      Proximity bond threat: physical separation (MẤT vùng an toàn)
-      Shared-Experience threat: divergent paths (KHÁC nhau dần)
-      Reciprocal threat: imbalance (CHO nhiều hơn NHẬN)
-      Identity threat: values clash (BỊ thay đổi bản sắc)
-    → Bond type determines WHAT COUNTS as threat — cùng event, khác bond, khác threat
+      Proximity bond threat: physical separation (LOSING safety zone)
+      Shared-Experience threat: divergent paths (GROWING APART)
+      Reciprocal threat: imbalance (GIVING more than RECEIVING)
+      Identity threat: values clash (CORE SELF being changed)
+    → Bond type determines WHAT COUNTS as threat — same event, different bond,
+        different threat
 
   🟡 Simulation-Engine × threat = framework formalization
   🟡 Entity-Access × threat = framework application (consistent with attachment theory)
@@ -639,160 +648,163 @@ THREAT × NEW CONCEPTS (28-session Drill Propagation):
 
 ---
 
-## §4 — 3 NGUỒN ORIGIN: Domain / Peer / Imposed
+## §4 — 3 ORIGIN SOURCES: Domain / Peer / Imposed
 
 ```
-⭐ §4 = ORIGIN taxonomy: "Threat đến TỪ ĐÂU trong môi trường?"
-  Giúp hiểu INTERVENTION + PREVENTION (khác §3 giúp hiểu BIOLOGY + RECOVERY)
+⭐ §4 = ORIGIN taxonomy: "WHERE does the threat come from in the environment?"
+  Helps understand INTERVENTION + PREVENTION
+  (different from §3, which helps understand BIOLOGY + RECOVERY)
 
-  2 taxonomies cần dùng KẾT HỢP:
-    → Hiểu mechanism (§3) → biết cách recover
-    → Hiểu origin (§4) → biết nên để threat fire hay prevent
+  Both taxonomies should be used TOGETHER:
+    → Understand mechanism (§3) → know how to recover
+    → Understand origin (§4) → know whether to let threat fire or prevent it
 
 
 ═══════════════════════════════════════════════════════
-① DOMAIN THREATS (từ physical reality)
+① DOMAIN THREATS (from physical reality)
 ═══════════════════════════════════════════════════════
 
-  ĐỊNH NGHĨA: Threats từ chính physical reality — không ai tạo ra.
+  DEFINITION: Threats from physical reality itself — not created by anyone.
 
-  Ví dụ:
-    → Xe đạp đứt xích → cần fix
-    → Mưa bất ngờ → tìm shelter
-    → Đèn tắt khi đang đọc → fix đèn
-    → Giày hỏng → thay hoặc sửa
+  Examples:
+    → Bicycle chain breaks → needs fixing
+    → Unexpected rain → find shelter
+    → Light goes out while reading → fix the light
+    → Shoes break → replace or repair
 
-  ĐẶC ĐIỂM:
+  CHARACTERISTICS:
     → Real, body-confirmable
-    → Scale thường nhỏ — mini-dissonance hằng ngày
-    → Temporary — solve được thì hết
-    → Agency-supporting — hầu hết solvable bởi chủ thể
+    → Usually small scale — daily mini-dissonances
+    → Temporary — solvable, then gone
+    → Agency-supporting — most can be solved by the individual themselves
 
-  GIÁ TRỊ:
-    → Mỗi solve = mini-opioid + chunk mới
-    → Build competence chunks ("tôi CÓ THỂ fix problems")
-    → Calibrate realistic expectations về uncertainty
+  VALUE:
+    → Each solve = mini-opioid + new chunk
+    → Builds competence chunks ("I CAN fix problems")
+    → Calibrates realistic expectations about uncertainty
 
-  Ví dụ — Trẻ gặp domain threat:
-    Reaction A (oversheltering): bố mẹ lập tức fix
-    → Trẻ không face dissonance → không chunks mới → thiếu resilience
+  Example — a child encountering a domain threat:
+    Reaction A (oversheltering): parents immediately fix it
+    → Child doesn't face the dissonance → no new chunks → lacks resilience
 
-    Reaction B (trust child): "Bút hết rồi, con nghĩ cách nào?"
-    → BUILD phase → solve → opioid → "tôi gặp problem → tôi solve được"
+    Reaction B (trust the child): "The pen ran out — how do you think we can fix it?"
+    → BUILD phase → solve → opioid → "I encounter a problem → I can solve it"
 
-  → ACTION: KEEP — không eliminate. Preserve exposure phù hợp tuổi.
+  → ACTION: KEEP — do not eliminate. Preserve age-appropriate exposure.
 
 
 ═══════════════════════════════════════════════════════
-② PEER SOCIAL THREATS (từ hệ xã hội ngang hàng)
+② PEER SOCIAL THREATS (from peer social dynamics)
 ═══════════════════════════════════════════════════════
 
-  ĐỊNH NGHĨA: Threats từ social dynamics giữa peers (bạn bè, đồng nghiệp).
+  DEFINITION: Threats from social dynamics between peers (friends, colleagues).
 
-  Ví dụ:
-    → Bị bạn trêu chọc nhẹ
-    → Tranh giành đồ chơi
-    → Cãi vã với bạn thân
-    → Feedback tiêu cực từ colleague
+  Examples:
+    → Being teased mildly by a friend
+    → Competing over toys
+    → Arguments with a close friend
+    → Critical feedback from a colleague
 
-  ĐẶC ĐIỂM:
-    → Symmetric power — không có side nào authority tuyệt đối
-    → Complex — nhiều factors, không có single correct answer
+  CHARACTERISTICS:
+    → Symmetric power — neither side has absolute authority
+    → Complex — many factors, no single correct answer
     → Negotiable — outcomes shaped by participant skill
 
-  GIÁ TRỊ:
-    → Core training cho social navigation
-    → Dạy empathy, conflict resolution, social reading
-    → Build chunks về human behavior from experience
+  VALUE:
+    → Core training for social navigation
+    → Teaches empathy, conflict resolution, social reading
+    → Builds chunks about human behavior through direct experience
 
-  GIỚI HẠN:
+  LIMITS:
     → Mild-moderate peer threats = KEEP (training opportunity)
     → BULLYING (chronic + severe + asymmetric power) = INTERVENE
-    → Phân biệt: "conflict có thể resolve với skill" vs "victim không có power"
+    → Distinction: "conflict resolvable with skill" vs "victim has no power"
 
-  → ACTION: KEEP + MONITOR. Intervene khi chronic asymmetric harm.
+  → ACTION: KEEP + MONITOR. Intervene when there is chronic asymmetric harm.
 
 
 ═══════════════════════════════════════════════════════
-③ IMPOSED ADULT THREATS (từ authority áp xuống)
+③ IMPOSED ADULT THREATS (from authority figures)
 ═══════════════════════════════════════════════════════
 
-  ĐỊNH NGHĨA: Threats do authority figures (bố mẹ, thầy cô, bosses) chủ động
-  TẠO RA để control behavior. Artificial pressure từ position of power.
+  DEFINITION: Threats deliberately CREATED by authority figures (parents, teachers,
+  bosses) to control behavior. Artificial pressure from a position of power.
 
-  Ví dụ:
-    → "Nếu không học sẽ đánh"
-    → "Nhìn bạn A học giỏi kìa" (so sánh shame)
-    → "Nếu không vào ĐH tốt, cuộc đời hỏng"
-    → Boss: "nếu không OT → không thăng tiến"
+  Examples:
+    → "If you don't study, I'll punish you"
+    → "Look how well the other student is doing" (shame comparison)
+    → "If you don't get into a good university, your life is ruined"
+    → Boss: "If you don't work overtime, you won't get promoted"
 
-  ĐẶC ĐIỂM:
-    → Artificial — do authority tạo ra
-    → Asymmetric power — người bị threat không có choice
-    → Often chronic — authority lặp lại indefinitely
-    → Often internalized — compile vào schema → tự fire khi authority absent
-    → CỰC KỲ DAMAGING khi authority = connection source (bố mẹ)
-      → Connection source = threat source → CONFLICT SÂU
-      → = Insecure attachment mechanism
+  CHARACTERISTICS:
+    → Artificial — created by an authority figure
+    → Asymmetric power — the person threatened has no real choice
+    → Often chronic — authority repeats it indefinitely
+    → Often internalized — compiles into schema → fires when authority is absent
+    → EXTREMELY DAMAGING when authority = source of connection (parents)
+      → Connection source = threat source → DEEP CONFLICT
+      → = The mechanism behind insecure attachment
 
-  ⭐ SPECTRUM IMPOSED — TỪ TOXIC TỚI REASONABLE:
+  ⭐ SPECTRUM OF IMPOSED THREATS — FROM TOXIC TO REASONABLE:
 
-    ❌❌ TOXIC: "Dốt thế! Bạn A giỏi kìa!" / đánh / shame
-      → Physical + Social + Anticipation mechanisms fire CẢ 3
-      → Schema compile: "học = pain", "authority = dangerous"
-      → Long-term: trauma, anxiety nền, ghét học cả đời
+    ❌❌ TOXIC: "You're so stupid! Look how the other student performs!"
+               / physical punishment / shame
+      → Physical + Social + Anticipation mechanisms fire ALL 3
+      → Schema compiles: "learning = pain", "authority = dangerous"
+      → Long-term: trauma, persistent anxiety baseline, lifelong aversion to learning
 
-    ❌ SHAME-BASED: "Bạn cười cho nếu không học"
-      → Social mechanism. Schema: "học = tránh xấu hổ"
-      → External validation dependent
+    ❌ SHAME-BASED: "Your peers will laugh at you if you don't study"
+      → Social mechanism. Schema: "learning = avoiding shame"
+      → Dependent on external validation
 
-    ⚠️ REASONABLE (bridge acceptable): "Bài tập xong rồi mới chơi game"
-      → Anticipation nhẹ. Schema: "effort → reward"
-      → Technically imposed nhưng mild + explained + fair
+    ⚠️ REASONABLE (bridge acceptable): "Finish your homework before playing games"
+      → Mild anticipation. Schema: "effort → reward"
+      → Technically imposed but mild + explained + fair
 
-    ✅ NOVELTY PATH (ideal): "Cái này hay lắm, thử xem"
-      → KHÔNG phải threat — là Novelty pull
-      → Schema: "kiến thức = CÔNG CỤ mở rộng"
+    ✅ NOVELTY PATH (ideal): "This is really interesting — give it a try"
+      → NOT threat — this is Novelty pull
+      → Schema: "knowledge = a TOOL for expansion"
       → Intrinsic motivation
 
     SPECTRUM:
-    TỆ ←─────────────────────────────────────────────→ TỐT
+    BAD ←───────────────────────────────────────────→ GOOD
     Toxic    Shame     Reasonable    Reward     Novelty path
     PUSH ←───────────────────────────────────────────→ PULL
 
-  → ACTION: REDUCE gradually. Replace với reasonable → novelty path.
+  → ACTION: REDUCE gradually. Replace with reasonable → novelty path.
 
 
-⭐ MATRIX: ORIGIN × MECHANISM (2 taxonomy kết hợp)
+⭐ MATRIX: ORIGIN × MECHANISM (2 taxonomies combined)
 
-  ┌────────────────┬──────────────┬──────────────┬──────────────┐
-  │                │ PHYSICAL     │ SOCIAL       │ ANTICIPATION │
-  ├────────────────┼──────────────┼──────────────┼──────────────┤
-  │ DOMAIN         │ Ngã xe,     │ (rare)       │ "Code crash  │
-  │ (reality)      │ bỏng, cắt   │              │ → sếp giận"  │
-  ├────────────────┼──────────────┼──────────────┼──────────────┤
-  │ PEER SOCIAL    │ (ít)         │ Bạn trêu,   │ "Bạn sẽ      │
-  │ (equal power)  │              │ cãi nhau     │ không chơi"  │
-  ├────────────────┼──────────────┼──────────────┼──────────────┤
-  │ IMPOSED ADULT  │ Đánh con,   │ Quát, shame, │ "Không học → │
-  │ (authority)    │ punishment   │ so sánh      │ tương lai ↓" │
-  └────────────────┴──────────────┴──────────────┴──────────────┘
+  ┌────────────────┬──────────────┬──────────────┬──────────────────┐
+  │                │ PHYSICAL     │ SOCIAL       │ ANTICIPATION     │
+  ├────────────────┼──────────────┼──────────────┼──────────────────┤
+  │ DOMAIN         │ Bike crash,  │ (rare)       │ "Code crashes →  │
+  │ (reality)      │ burn, cut    │              │ boss upset"      │
+  ├────────────────┼──────────────┼──────────────┼──────────────────┤
+  │ PEER SOCIAL    │ (rare)       │ Teasing,     │ "They won't      │
+  │ (equal power)  │              │ arguments    │ play with me"    │
+  ├────────────────┼──────────────┼──────────────┼──────────────────┤
+  │ IMPOSED ADULT  │ Physical     │ Yelling,     │ "If you don't    │
+  │ (authority)    │ punishment   │ shame,       │ study → ruined   │
+  │                │              │ comparison   │ future"          │
+  └────────────────┴──────────────┴──────────────┴──────────────────┘
 
-  → Imposed threats có thể fire ALL 3 mechanisms → destructive power cao nhất
+  → Imposed threats can fire ALL 3 mechanisms → highest destructive power
 
   KEY GUIDANCE: KEEP / KEEP / REDUCE
     ┌────────────────┬──────────┬────────────┬──────────────────┐
     │                │ DOMAIN   │ PEER SOCIAL│ IMPOSED ADULT    │
     ├────────────────┼──────────┼────────────┼──────────────────┤
-    │ Body-confirm   │ Yes      │ Yes, messy │ No (artificial)  │
+    │ Body-confirmed │ Yes      │ Yes, messy │ No (artificial)  │
     │ Agency         │ High     │ Medium     │ Low              │
     │ Long-term value│ High     │ High       │ Low (chronic)    │
     │ Action         │ KEEP     │ KEEP +     │ REDUCE gradually │
     │                │ + enable │ monitor    │ (transition)     │
     └────────────────┴──────────┴────────────┴──────────────────┘
 
-  → "Eliminate all threat" = sai target
-  → "Right type at right dose" = đúng target
+  → "Eliminate all threat" = wrong target
+  → "Right type at right dose" = correct target
 
   🟡 Origin taxonomy = framework formulation
   🟢 Social rejection damage (Eisenberger 2003)
@@ -805,91 +817,95 @@ THREAT × NEW CONCEPTS (28-session Drill Propagation):
 ## §5 — THREAT × IMAGINE-FINAL: 3 CASES
 
 ```
-⭐ THREAT + IMAGINE-FINAL INTERACT → PATTERNS PHỨc TẠP NHẤT
+⭐ THREAT + IMAGINE-FINAL INTERACT → THE MOST COMPLEX PATTERNS
 
-  Cross-ref: Imagine-Final-Evaluation.md (2 trục × 4 góc)
+  Cross-ref: Imagine-Final-Evaluation.md (2 axes × 4 corners)
   Cross-ref: Anchor-Schema.md (Trust binding)
 
-  CẤU TRÚC:
-    → Imagine-Final ĐÚNG + Threat = PRODUCTIVE
-    → Imagine-Final LỆCH + Threat = DESTRUCTIVE
-    → KHÔNG CÓ Imagine-Final + Threat = LOST
+  STRUCTURE:
+    → Imagine-Final ALIGNED + Threat = PRODUCTIVE
+    → Imagine-Final MISALIGNED + Threat = DESTRUCTIVE
+    → NO Imagine-Final + Threat = LOST
 
 
 ═══════════════════════════════════════════════════════
-CASE 1: Imagine-Final ĐÚNG + Threat = PRODUCTIVE
+CASE 1: Imagine-Final ALIGNED + Threat = PRODUCTIVE
 ═══════════════════════════════════════════════════════
 
-  = "Biết mình muốn gì + biết rủi ro nếu không làm"
-  = Threat PUSH + Imagine-Final PULL = 2 lực CÙNG HƯỚNG
+  = "Know what you want + know the risk of not pursuing it"
+  = Threat PUSH + Imagine-Final PULL = 2 forces PULLING THE SAME WAY
 
-  → Mỗi bước tiến → gần Imagine-Final → body-feedback reward
-  → Threat GIẢM DẦN theo progress
-  → = Self-resolving: progress → reward + threat giảm → sustainable
+  → Each step forward → closer to Imagine-Final → body-feedback reward
+  → Threat GRADUALLY DECREASES as progress is made
+  → = Self-resolving: progress → reward + threat drops → sustainable
 
-  Ví dụ: bác sĩ trẻ, Imagine-Final "cứu người" (đúng hardware)
-    + Threat "nếu không học → bệnh nhân chịu hậu quả"
-    → Drive: học cật lực → mỗi ca thành công → reward + threat giảm
+  Example: a young doctor with Imagine-Final "saving lives" (hardware-aligned)
+    + Threat "if I don't learn → patients will suffer"
+    → Drive: study intensely → each successful case → reward + threat drops
 
 
 ═══════════════════════════════════════════════════════
-CASE 2: Imagine-Final LỆCH + Threat = DESTRUCTIVE SPIRAL
+CASE 2: Imagine-Final MISALIGNED + Threat = DESTRUCTIVE SPIRAL
 ═══════════════════════════════════════════════════════
 
-  = "Tưởng mình muốn X, thực ra hardware/domain ≠ X"
-  ⚠️ PATTERN NGUY HIỂM NHẤT — rất phổ biến, rất khó nhận ra
+  = "Thinks they want X, but hardware/domain ≠ X"
+  ⚠️ THE MOST DANGEROUS PATTERN — very common, very hard to recognize
 
-  4 GIAI ĐOẠN:
+  4 STAGES:
 
-    GĐ 1 — DRIVE MẠNH (tháng 1-6):
-      → Chưa biết lệch → threat + novelty cùng kéo → "nhiệt huyết"
-      → TRÔNG GIỐNG Case 1 — khó phân biệt
+    STAGE 1 — STRONG DRIVE (months 1-6):
+      → Misalignment not yet detected → threat + novelty both pulling →
+          "enthusiasm"
+      → LOOKS LIKE Case 1 — hard to distinguish
 
-    GĐ 2 — DISSONANCE TÍCH LŨY (tháng 6-18):
-      → Body-feedback reward ÍT hơn expected (hướng sai)
-      → Dissonance tăng + reward giảm = khoảng cách WIDENING
+    STAGE 2 — DISSONANCE ACCUMULATES (months 6-18):
+      → Body-feedback reward LESS than expected (wrong direction)
+      → Dissonance increases + reward decreases = gap WIDENING
 
-    GĐ 3 — TIPPING POINT (tháng 18+):
-      → Dissonance tích lũy > Imagine-Final pull
-      → Body: "nên dừng" — NHƯNG threat vẫn push: "nếu dừng → thất bại"
-      → = BỊ KẸT: muốn dừng + không dám → classic burnout precursor
+    STAGE 3 — TIPPING POINT (months 18+):
+      → Accumulated dissonance > Imagine-Final pull
+      → Body: "should stop" — BUT threat still pushes: "if you stop → failure"
+      → = TRAPPED: want to stop + afraid to → classic burnout precursor
 
-    GĐ 4 — COLLAPSE hoặc CHRONIC:
-      → Nhánh A (may): collapse → đau → nhận ra lệch → rebuild
-      → Nhánh B (không may): threat override → tiếp → chronic → health issues
+    STAGE 4 — COLLAPSE or CHRONIC:
+      → Branch A (fortunate): collapse → pain → recognizes misalignment → rebuilds
+      → Branch B (unfortunate): threat overrides → continues → chronic →
+          health issues
 
-  ⭐ TIPPING POINT — concept cần formalize:
+  ⭐ TIPPING POINT — concept to formalize:
 
     Imagine-Final pull ────────────
                         ╲
-                         ╲  ← drive dương (tiếp tục)
+                         ╲  ← positive drive (continue)
                           ╲
     ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─╳─ ─ ─ ─ TIPPING POINT
                           ╱
-                         ╱  ← drive âm (nên dừng)
+                         ╱  ← negative drive (should stop)
                         ╱
-    Dissonance tích lũy ────────────
-                                      → time
+    Accumulated dissonance ────────
+                                    → time
 
-    Trước tipping: tiếp tục. Sau tipping: NÊN dừng.
-    Nếu threat override → chronic → burnout path.
+    Before tipping: continue. After tipping: SHOULD STOP.
+    If threat overrides → chronic → burnout path.
 
 
 ═══════════════════════════════════════════════════════
-CASE 3: KHÔNG CÓ Imagine-Final + Threat = LOST
+CASE 3: NO Imagine-Final + Threat = LOST
 ═══════════════════════════════════════════════════════
 
-  = "Không biết mình muốn gì, nhưng biết PHẢI LÀM GÌ ĐÓ"
-  = Threat PUSH nhưng KHÔNG CÓ direction
+  = "Don't know what you want, but know you HAVE TO DO SOMETHING"
+  = Threat PUSHES but there is NO DIRECTION
 
-  → Anxiety cao + direction thấp = FREEZE hoặc SCATTER
-  → Ví dụ: lớp 12 "phải chọn nghề" + "không biết thích gì"
-  → Ví dụ: mất việc + "không biết muốn làm gì"
+  → High anxiety + low direction = FREEZE or SCATTER
+  → Example: final year of high school "must choose a career" +
+      "don't know what I like"
+  → Example: job loss + "don't know what I want to do"
 
-  Tại sao phổ biến:
-    → Education system ép chọn SỚM (chưa đủ chunks)
-    → Threat-based parenting: "phải thế này" nhưng không guide "muốn gì?"
-    → = Trẻ BIẾT SỢ nhưng KHÔNG BIẾT MUỐN
+  Why this is common:
+    → Education system forces early choices (before enough chunks)
+    → Threat-based parenting: "you must do this" but no guidance on "what do
+        you want?"
+    → = Children KNOW HOW TO FEAR but DON'T KNOW HOW TO WANT
 
   🟡 3 Cases = framework analysis
   🟢 Burnout phases (Maslach)
@@ -898,64 +914,67 @@ CASE 3: KHÔNG CÓ Imagine-Final + Threat = LOST
 
 ---
 
-## §6 — KHI CÓ LỢI vs KHI CÓ HẠI
+## §6 — BENEFICIAL vs HARMFUL
 
 ```
-⭐ THREAT = TRUNG TÍNH — mechanism, không phải bệnh
+⭐ THREAT = NEUTRAL — a mechanism, not a disease
 
 
-KHI CÓ LỢI:
+WHEN THREAT IS BENEFICIAL:
 
-  ① EMERGENCY RESPONSE — cứu mạng (acute, bounded)
-  ② DEADLINE MOTIVATION — Yerkes-Dodson sweet spot (nhẹ, có endpoint)
-  ③ BOUNDARY DEFENSE — bảo vệ giá trị (assertive behavior)
-  ④ GROWTH CATALYST — Threat + Imagine-Final đúng = productive drive (Case 1)
-  ⑤ INVESTMENT BRIDGE — threat giữ qua giai đoạn "chưa đủ chunks"
-    → Khi chunks ĐỦ → intrinsic reward take over → RÚT sàn threat
+  ① EMERGENCY RESPONSE — life-saving (acute, bounded)
+  ② DEADLINE MOTIVATION — Yerkes-Dodson sweet spot (mild, has endpoint)
+  ③ BOUNDARY DEFENSE — protecting values (assertive behavior)
+  ④ GROWTH CATALYST — Threat + aligned Imagine-Final = productive drive (Case 1)
+  ⑤ INVESTMENT BRIDGE — threat sustains effort through "not enough chunks yet"
+    phase → when chunks ARE sufficient → intrinsic reward takes over →
+    WITHDRAW the threat floor
 
-  ĐIỀU KIỆN TỐT:
-    ✅ Cụ thể (không abstract vô hạn)
-    ✅ Có endpoint rõ
-    ✅ Có action giải quyết được
-    ✅ Ngắn hạn hoặc bật/tắt được
-    ✅ Cortisol vừa đủ
+  CONDITIONS FOR BENEFICIAL:
+    ✅ Specific (not infinite and abstract)
+    ✅ Has a clear endpoint
+    ✅ Has an action that can resolve it
+    ✅ Short-term or can be turned on/off
+    ✅ Cortisol just sufficient
 
 
-KHI CÓ HẠI:
+WHEN THREAT IS HARMFUL:
 
-  ① CHRONIC — kéo dài không resolve → Neural Wear
-  ② ABSTRACT — không target cụ thể → energy mobilize không dùng → damage
-  ③ SELF-AMPLIFYING — anticipation loop (§3 ③)
-  ④ OVERRIDE BODY WARNING — ép tiếp khi body nói "dừng" → burnout
-  ⑤ EXPLOIT — threat được tạo ra để kiểm soát
+  ① CHRONIC — prolonged without resolution → Neural Wear
+  ② ABSTRACT — no specific target → energy mobilizes with nowhere to go → damage
+  ③ SELF-AMPLIFYING — Anticipation Loop (§3③)
+  ④ OVERRIDES BODY WARNING — forcing continuation when body says "stop" → burnout
+  ⑤ EXPLOIT — threat artificially created to control behavior
     → Guilt-based parenting, FOMO, political fear
 
-  ⭐ THREAT-DRIVE TRONG ĐỜI SỐNG:
+  ⭐ THREAT-DRIVEN LIVES:
 
     PULL drives (novelty, connection, experience):
-      → "Muốn" → enjoy process → sustainable
+      → "Want to" → enjoy the process → sustainable
 
     PUSH drive (threat):
-      → "Phải" → endure process → tốn cortisol → not sustainable
+      → "Have to" → endure the process → consumes cortisol → not sustainable
 
-    Cùng hành vi (đi làm, học, tập) → khác drive → khác sustainability:
-      → Học vì thú vị (novelty pull) = schema "học = hay"
-      → Học vì sợ (threat push) = schema "học = stress"
-      → = Cùng hành vi → KHÁC drive → KHÁC schema compiled → KHÁC CẢ ĐỜI
+    Same behavior (going to work, studying, exercising) → different drive →
+      different sustainability:
+      → Studying because it's interesting (Novelty pull) = schema "learning = joy"
+      → Studying because afraid (Threat push) = schema "learning = stress"
+      → = Same behavior → DIFFERENT drive → DIFFERENT compiled schema →
+          DIFFERENT life trajectory
 
 
-TÓM TẮT:
+SUMMARY:
 
   ┌────────────────────────────────────────────────────────────┐
   │                                                            │
-  │  THREAT + acute + bounded + resolve = TỐT                 │
+  │  THREAT + acute + bounded + resolvable = BENEFICIAL        │
   │  = Emergency, deadline, growth, boundary                   │
   │                                                            │
-  │  THREAT + chronic + unbounded + no resolve = HẠI           │
+  │  THREAT + chronic + unbounded + unresolvable = HARMFUL     │
   │  = Neural Wear, anxiety, burnout, override, exploit        │
   │                                                            │
   │  → KEY VARIABLE: DURATION + RESOLUTION                     │
-  │  → "Dừng được" = healthy | "Không dừng được" = toxic       │
+  │  → "Can be stopped" = healthy | "Cannot be stopped" = toxic│
   │                                                            │
   └────────────────────────────────────────────────────────────┘
 
@@ -970,53 +989,53 @@ TÓM TẮT:
 ## §7 — HONEST ASSESSMENT
 
 ```
-  TOÀN FILE — ĐÁNH GIÁ TRUNG THỰC:
+  FULL FILE — HONEST EVALUATION:
 
   🟢 VERIFIED (neuroscience / established research):
     ┌────────────────────────────────────────────────────────────┐
     │ NE → adrenaline → cortisol cascade (stress physiology)    │
-    │ Fight/flight/freeze responses (LeDoux, Cannon)            │
-    │ Amygdala override PFC at high stress (Arnsten 2009)       │
-    │ Yerkes-Dodson law (1908, replicated)                       │
-    │ Chronic cortisol → neural damage (McEwen 1998, 2007)      │
-    │ Cortisol → PFC dendrite retraction (Arnsten)              │
-    │ Cortisol → hippocampus neurotoxicity (Sapolsky)           │
-    │ Chronic stress → immune suppression                        │
+    │ Fight/flight/freeze responses (LeDoux, Cannon)             │
+    │ Amygdala overrides PFC at high stress (Arnsten 2009)       │
+    │ Yerkes-Dodson law (1908, replicated)                        │
+    │ Chronic cortisol → neural damage (McEwen 1998, 2007)       │
+    │ Cortisol → PFC dendrite retraction (Arnsten)               │
+    │ Cortisol → hippocampus neurotoxicity (Sapolsky)            │
+    │ Chronic stress → immune suppression                         │
     │ Social rejection = physical pain regions (Eisenberger 2003)│
-    │ Social pain lacks opioid buffer                            │
-    │ Authority shame most damaging (Slavich 2010)               │
-    │ Anticipatory anxiety → cortisol (Gaab 2005)               │
-    │ Vagal syncope mechanism (documented)                       │
-    │ Burnout phases (Maslach)                                   │
-    │ Authoritative parenting (Baumrind 1967)                    │
-    │ CBT effectiveness for anxiety                              │
-    │ Knowledge reduces anxiety (health literacy research)       │
+    │ Social pain lacks opioid buffer                             │
+    │ Authority shame most damaging (Slavich 2010)                │
+    │ Anticipatory anxiety → cortisol (Gaab 2005)                │
+    │ Vagal syncope mechanism (documented)                        │
+    │ Burnout phases (Maslach)                                    │
+    │ Authoritative parenting (Baumrind 1967)                     │
+    │ CBT effectiveness for anxiety                               │
+    │ Knowledge reduces anxiety (health literacy research)        │
     └────────────────────────────────────────────────────────────┘
 
   🟡 FRAMEWORK SYNTHESIS (consistent logic, derived from 🟢):
     ┌────────────────────────────────────────────────────────────┐
     │ Threat = observation parameter (not component)             │
-    │ 2 thành phần (body-feedback + prediction of harm)         │
+    │ 2 components (body-feedback + prediction of harm)          │
     │ Schema = trigger, hormone = sustain                        │
-    │ 5 mức intensity spectrum                                   │
+    │ 5-level intensity spectrum                                  │
     │ Duration > intensity for long-term damage                  │
     │ 3 mechanism sources (Physical/Social/Anticipation)         │
     │ 3 origin sources (Domain/Peer/Imposed)                     │
     │ Origin × Mechanism matrix                                  │
     │ KEEP/KEEP/REDUCE guidance                                  │
-    │ Anticipation loop = anxiety mechanism                      │
-    │ Modern anxiety paradox (safe but anxious)                  │
+    │ Anticipation Loop = anxiety mechanism                      │
+    │ Modern anxiety paradox (safest era, most anxious)          │
     │ Threat × Imagine-Final 3 Cases                             │
     │ Tipping point model                                        │
     │ Pull vs Push sustainability difference                     │
-    │ Compilable Architecture → threat type expansion (v1.1)              │
+    │ Compilable Architecture → threat type expansion (v1.1)     │
     │ Compiled/Fresh threat (phobia vs novel danger) (v1.1)      │
     │ PFC=Lawyer: suppress/amplify/fabricate threat (v1.1)       │
     └────────────────────────────────────────────────────────────┘
 
   🔴 HYPOTHESIS (logical but unverified):
     ┌────────────────────────────────────────────────────────────┐
-    │ % body resource per intensity level — approximation        │
+    │ % body resources per intensity level — approximation       │
     │ Exact tipping point measurement — undefined                │
     │ Optimal threat:novelty ratio — unknown                     │
     │ Imposed→internalized timeline per individual — variable    │
@@ -1029,45 +1048,19 @@ TÓM TẮT:
 ## §8 — CROSS-REFERENCES
 
 ```
-  ← FOUNDATION (đọc trước hoặc cùng):
-    Core-v7.8-Draft.md §8 — Threat = observation parameter definition
+  ← FOUNDATION (read first or in parallel):
+    Core-Software.md §8 — Threat = observation parameter definition
     Body-Feedback-Mechanism.md v2.0 §3.1-§3.2 — Chunk-Shift/Miss = Threat substrate
     Cortisol-Baseline.md v2.0 — amplifier, chronic vs acute dynamics
     Chunk.md v2.0 — chunk compilation under emotional peak
     Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture (threat type expansion)
-    Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh (compiled threat vs fresh)
+    Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh (compiled vs fresh threat)
     Inter-Body-Mechanism.md v1.0 §7 — PFC=Lawyer (suppress/amplify/fabricate threat)
-    PFC-Configuration.md v1.0 — Strategy A→config④, Strategy B→config⑤ (2026-05-10)
-
-  ← MECHANISM MỚI (28-session Drill):
-    Simulation-Engine.md v1.0 — simulated threat = Simulation-Engine draft outcome
-    Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State × 3 nguồn mechanism mapping
-    Entity-Access.md v1.2 — threat FROM entities along gradient
-    Bond-Architecture.md v2.0 — threat to bond → protect response (4 types)
-    Imagine-Final.md v3.0 — hardware prediction ≠ Imagine-Final boundary
-
-  ↔ SONG SONG (cùng Observation/ folder):
-    Observation/Novelty.md v1.2 — PULL toward opportunity (parallel với Threat PUSH)
-    Observation/Drive.md v1.2 — HOW Threat + Novelty + other patterns → action
-    Observation/Empathy.md v4.0 — Self-Pattern-Modeling detect threat in others
-    Observation/Liking-Wanting.md — Wanting under threat conditions
-
-  → DOWNSTREAM:
-    Imagine-Final-Evaluation.md — 2 trục × 4 góc (§5 3 Cases reference)
-    Anchor-Schema.md — Trust binding, negative trust from threat
-    Feeling.md v3.0 — PFC observation of threat signals (lo, sợ, panic)
-    Valence-Propagation.md v3.0 — threat valence propagation, 3 firing modes
-    Body-Feedback-Label.md v2.0 — vocabulary reference
-
-  → ỨNG DỤNG:
-    Domain-Mapping-Drive.md — 3 loại threat + transition reality
-    AI-Schema-Detection.md — detect threat patterns in clients
-
-  STATUS:
-    v1.0 — 2026-04-20 — viết mới cho v7.8 cycle-based architecture
-    v1.1 — 2026-05-17 — +Compilable Architecture, +Compiled/Fresh, +PFC=Lawyer, version sync
-    v1.2 — 2026-05-23 — Concept Cascade: +Simulation-Engine, +Entity-Access gradient, +Bond-Architecture 4 bond types, version updates
-    v1.3 — 2026-05-25 — §3 +Evaluative/Direct-State × 3 nguồn mechanism mapping (Dissonance-Signal-Architecture v1.0)
-    Gộp từ: Threat.md v1.1-old + Threat-Drive-Analysis.md (backup: _backup/Drive-v75-era/)
-    Aligned: Core v7.8, Inter-Body-Mechanism v1.0, prediction-delta terminology
+    PFC-Configuration.md v1.0 — Strategy A→config④, Strategy B→config⑤
 ```
+
+---
+
+*English translation of Threat.md (Vietnamese source, v1.3)*
+*Translation target: English-speaking audience — rewritten for clarity and natural English expression.*
+*All framework vocabulary preserved exactly as defined in the Human Predictive Drive Framework.*

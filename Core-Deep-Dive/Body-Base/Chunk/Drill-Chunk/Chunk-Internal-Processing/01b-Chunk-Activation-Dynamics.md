@@ -19,26 +19,26 @@ dependencies:
   - F1 NT7 (body-state-at-compile, 3 update paths)
   - Neural-Processing-Flow.md (hardware substrate)
 plan_note: |
-  File thêm vào F4 do plan adjustment (domain real > plan).
-  User insight identified gap: probability mechanism chưa formalize.
+  File added to F4 due to plan adjustment (real domain > plan).
+  User insight identified gap: probability mechanism not yet formalized.
   Content = CHUNK CORE, cross-cutting. Target for Chunk.md v2.0 rewrite after 99-Master.
-language: Tiếng Việt primary + English technical
+language: English
 ---
 
 # 01b — Chunk Activation Dynamics
 
-> **File này formalize 3 cơ chế CORE** mà chunk system vận hành.
-> Không thuộc riêng thread nào — cross-cutting cho toàn bộ framework.
-> Emerged từ user insight: "chunk không bị xóa, chỉ có thể suy thoái,
-> hoặc bị override, hoặc trigger lại chunk sau đó tạo pattern link mới."
+> **This file formalizes 3 CORE mechanisms** by which the chunk system operates.
+> Not specific to any one thread — cross-cutting for the entire framework.
+> Emerged from user insight: "chunks are not deleted, they can only degrade,
+> or be overridden, or be re-triggered to create new pattern links."
 
 ---
 
-## §1 — Tại sao file này cần thiết
+## §1 — Why This File Is Needed
 
 ```
-FRAMEWORK HIỆN TẠI ĐÃ CÓ:
-  ✅ Chunks không bị xóa (Chunk.md §2, F1 NT1)
+FRAMEWORK ALREADY HAS:
+  ✅ Chunks are not deleted (Chunk.md §2, F1 NT1)
   ✅ Reconsolidation window (Chunk.md §2, Nader 2000)
   ✅ 3 update paths (F1 NT7: re-associate / novelty hijack / therapy)
   ✅ 4 compile mechanisms (F1 NT2)
@@ -46,15 +46,16 @@ FRAMEWORK HIỆN TẠI ĐÃ CÓ:
   ✅ 4 connection types (F4 01)
   ✅ Anchor = retrieval path (F4 03)
 
-FRAMEWORK CHƯA FORMALIZE:
+FRAMEWORK HAS NOT FORMALIZED:
   ❌ HOW activation distributes across multiple links (probability)
   ❌ HOW new links COMPETE with old links (mechanism)
   ❌ WHY some chunks have higher random trigger rates (trigger surface)
   ❌ HOW probability shifts over time (dynamics)
 
-  → Thiếu phần này = thiếu cơ chế VẬN HÀNH cơ bản nhất
-  → = Biết chunks connect (01), biết chunks decay (03)
-  → = Nhưng CHƯA biết: khi trigger → activation đi ĐÂU, bao NHIÊU, tại SAO
+  → Missing this = missing the most fundamental OPERATIONAL mechanism
+  → = We know chunks connect (01), we know chunks decay (03)
+  → = But we DON'T YET KNOW: when triggered → where activation goes,
+      how much, and why
 ```
 
 ---
@@ -66,23 +67,24 @@ FRAMEWORK CHƯA FORMALIZE:
 ```
 🟡 FRAMEWORK SYNTHESIS from established neuroscience:
 
-KHI CHUNK X ĐƯỢC TRIGGER (bởi PFC hold hoặc sensory input):
+WHEN CHUNK X IS TRIGGERED (by PFC hold or sensory input):
 
-  ① Chunk X fires → neurons trong pattern X activate
-  ② Spreading activation propagates OUTWARD theo TẤT CẢ links
-  ③ Mỗi link có STRENGTH khác nhau (Hebbian: dùng nhiều = mạnh)
-  ④ Activation PHÂN BỔ theo strength:
+  ① Chunk X fires → neurons in pattern X activate
+  ② Spreading activation propagates OUTWARD along ALL links
+  ③ Each link has DIFFERENT STRENGTH (Hebbian: more use = stronger)
+  ④ Activation DISTRIBUTES according to strength:
 
   ┌─────────────────────────────────────────────────────────────┐
   │                                                             │
   │  Chunk X fires                                              │
   │     │                                                       │
-  │     ├── 40% activation → Chunk A (link mạnh: nhiều lần,     │
-  │     │                              gần đây, multi-modal)    │
-  │     ├── 25% activation → Chunk B (link trung bình)          │
-  │     ├── 15% activation → Chunk C (link trung bình)          │
-  │     ├── 10% activation → Chunk D (link yếu: cũ, ít dùng)   │
-  │     ├──  5% activation → Chunk E (link rất yếu)             │
+  │     ├── 40% activation → Chunk A (strong link: many times,  │
+  │     │                              recent, multi-modal)     │
+  │     ├── 25% activation → Chunk B (moderate link)            │
+  │     ├── 15% activation → Chunk C (moderate link)            │
+  │     ├── 10% activation → Chunk D (weak link: old, rarely    │
+  │     │                              used)                    │
+  │     ├──  5% activation → Chunk E (very weak link)           │
   │     └──  5% activation → scattered (noise, sub-threshold)   │
   │                                                             │
   │  → Chunk A: most likely to fire (highest activation)        │
@@ -91,15 +93,15 @@ KHI CHUNK X ĐƯỢC TRIGGER (bởi PFC hold hoặc sensory input):
   │                                                             │
   └─────────────────────────────────────────────────────────────┘
 
-  ⭐ KHÔNG PHẢI BINARY (fire / not fire):
-  → Mỗi connected chunk nhận MỘT LƯỢNG activation
-  → Chunk nào nhận ĐỦ activation (vượt threshold) → fires
-  → Chunk nào nhận KHÔNG ĐỦ → partial activation (có thể contribute to H5
-    multi-weak-signal convergence nhưng không fire riêng lẻ)
+  ⭐ NOT BINARY (fire / not fire):
+  → Each connected chunk receives SOME activation
+  → Chunks that receive ENOUGH activation (exceed threshold) → fire
+  → Chunks that receive TOO LITTLE → partial activation (can contribute
+    to H5 multi-weak-signal convergence but do not fire independently)
 
-  → = "Khi nghĩ về X, hầu hết tôi nghĩ đến A"
-  → = Không phải X→A là link DUY NHẤT
-  → = Mà X→A là link MẠNH NHẤT → most probable activation
+  → = "When I think of X, I almost always think of A"
+  → = Not because X→A is the ONLY link
+  → = But because X→A is the STRONGEST link → most probable activation
 
   🟢 EVIDENCE BASE:
   → Spreading activation = probability-weighted (Collins & Loftus 1975)
@@ -115,12 +117,12 @@ KHI CHUNK X ĐƯỢC TRIGGER (bởi PFC hold hoặc sensory input):
 LINK STRENGTH = f(7 factors):
 
   ① REPETITION COUNT:
-     → Bao nhiêu lần X và A fire cùng nhau
+     → How many times X and A fired together
      → 🟢 Hebbian learning (Hebb 1949): "fire together, wire together"
      → More repetitions → stronger link → higher activation probability
 
   ② RECENCY:
-     → Lần cuối X→A fire là bao lâu trước
+     → When X→A last fired
      → Recent use → temporarily BOOSTED (🟢 recency effect)
      → Long unused → WEAKENED (but not deleted)
      → = Ebbinghaus decay applied to LINK STRENGTH (F4 03 §4.1)
@@ -129,10 +131,10 @@ LINK STRENGTH = f(7 factors):
      → Link compiled under emotional peak → EXTRA STRONG
      → Amygdala tagging → accelerated Hebbian binding
      → = F1 NT2 channel 2: emotional peak compile
-     → 1 lần trauma CÓ THỂ tạo link mạnh hơn 100 lần repetition neutral
+     → A single trauma CAN create a stronger link than 100 neutral repetitions
 
   ④ MULTI-MODAL RICHNESS:
-     → Link spanning nhiều modalities → more neurons involved → stronger
+     → Link spanning multiple modalities → more neurons involved → stronger
      → Visual + auditory + somatic + emotional → maximally strong
      → = F1 NT2 channel 3: multi-modal compile
 
@@ -145,7 +147,7 @@ LINK STRENGTH = f(7 factors):
   ⑥ EMOTIONAL STATE MATCH:
      → Current emotional state similar to compile state → link BOOSTED
      → 🟢 Mood-congruent memory (Bower 1981)
-     → = Đang sợ → fear-compiled links boosted → "thấy nguy hiểm khắp nơi"
+     → = Currently afraid → fear-compiled links boosted → "danger everywhere"
      → = Emotional state = temporary probability modifier (bias)
 
   ⑦ ANCHOR STRENGTH:
@@ -158,15 +160,15 @@ LINK STRENGTH = f(7 factors):
 
   → High repetition + high emotion + multi-modal + anchored
     = EXTREMELY strong link (nearly permanent)
-    = Ví dụ: tên mẹ, địa chỉ nhà, skill lái xe
+    = Examples: mother's name, home address, driving skill
 
   → Low repetition + no emotion + single modal + no anchor
     = EXTREMELY weak link (rapid decay)
-    = Ví dụ: số điện thoại nghe 1 lần rồi quên
+    = Example: a phone number heard once and then forgotten
 
   → High emotion + low repetition + no anchor
     = STRONG initially but DECAYING (trauma without processing)
-    = Chunk tồn tại lâu dài, link cụ thể dần yếu nhưng rất chậm
+    = Chunk persists long-term; specific links weaken gradually but very slowly
 ```
 
 ### §2.3 — Probability is DYNAMIC (not static)
@@ -174,31 +176,31 @@ LINK STRENGTH = f(7 factors):
 ```
 ⭐ CRITICAL INSIGHT: Distribution shifts over time
 
-PROBABILITY DISTRIBUTION THAY ĐỔI LIÊN TỤC:
+PROBABILITY DISTRIBUTION CHANGES CONTINUOUSLY:
 
-  T=0 (just after trauma event):
-    Chunk [chó] fires →
-      85% → [cắn, đau, sợ] (just compiled, emotional peak, multi-modal)
-      10% → [lông, mềm] (neutral associations from before)
+  T=0 (immediately after trauma event — dog bite):
+    Chunk [dog] fires →
+      85% → [bite, pain, fear] (just compiled, emotional peak, multi-modal)
+      10% → [fur, soft] (neutral associations from before)
        5% → [scattered noise]
 
   T=1 year (avoidance, no new experience):
-    Chunk [chó] fires →
-      70% → [cắn, đau, sợ] (slightly decayed but no competition)
-      15% → [lông, mềm] (relatively stronger now)
+    Chunk [dog] fires →
+      70% → [bite, pain, fear] (slightly decayed but no competition)
+      15% → [fur, soft] (relatively stronger now)
       15% → [scattered + new weak associations]
 
   T=2 years (after exposure therapy + positive dog experiences):
-    Chunk [chó] fires →
-      30% → [cắn, đau, sợ] (old links still exist but relatively weaker)
-      45% → [vuốt ve, ấm, an toàn] (NEW links, recent, repeated, multi-modal)
-      15% → [lông, mềm] (neutral, stable)
+    Chunk [dog] fires →
+      30% → [bite, pain, fear] (old links still exist but relatively weaker)
+      45% → [petting, warmth, safety] (NEW links, recent, repeated, multi-modal)
+      15% → [fur, soft] (neutral, stable)
       10% → [scattered]
 
-  → OLD LINKS NEVER DELETED — chỉ TƯƠNG ĐỐI yếu hơn
-  → NEW LINKS GROW → chiếm ngày càng nhiều probability share
+  → OLD LINKS NEVER DELETED — only RELATIVELY weaker
+  → NEW LINKS GROW → take over a growing share of probability
   → = PROBABILITY SHIFT, not replacement
-  → = Cơ chế nền tảng của: learning, therapy, adaptation, growth
+  → = The foundational mechanism of: learning, therapy, adaptation, growth
 ```
 
 ---
@@ -210,12 +212,12 @@ PROBABILITY DISTRIBUTION THAY ĐỔI LIÊN TỤC:
 ```
 🟡 FRAMEWORK SYNTHESIS — how new links COMPETE with old links:
 
-KHÔNG PHẢI "XÓA LINK CŨ, THAY LINK MỚI":
-  → Neural substrate KHÔNG có mechanism "unwire on demand"
-  → Chunk.md §2: "Không ai xóa được chunk"
+NOT "DELETE OLD LINK, REPLACE WITH NEW ONE":
+  → Neural substrate has NO "unwire on demand" mechanism
+  → Chunk.md §2: "No one can delete a chunk"
   → F1 NT1: chunks only strengthen/weaken, never delete
 
-MÀ LÀ "LINK MỚI CẠNH TRANH VỚI LINK CŨ":
+INSTEAD: "NEW LINK COMPETES WITH OLD LINK":
 
   MECHANISM:
 
@@ -249,14 +251,14 @@ MÀ LÀ "LINK MỚI CẠNH TRANH VỚI LINK CŨ":
      At some point: P(X→F) > P(X→A)
      → New pathway DOMINATES body signal
      → Old pathway still fires but MINORITY signal
-     → PFC experience: "bình thường / tích cực" (dominant) với "hơi sợ" (minority)
-     → = "Vẫn hơi sợ chó nhưng không panic nữa"
+     → PFC experience: "mostly calm / positive" (dominant) with "slight fear" (minority)
+     → = "Still slightly afraid of dogs but no longer panic"
 
   ⑤ STABILIZATION:
      New pathway continues strengthening → old pathway continues weakening
      → Eventually: old pathway fires so weakly → mostly sub-threshold
      → But NEVER fully gone → stress/fatigue/context can REACTIVATE
-     → = "Tái phát khi mệt" = PFC weakened → old pathway temporarily wins
+     → = "Relapse when tired" = PFC weakened → old pathway temporarily wins
      → 🟢 Stress-induced relapse (Sinha 2001): stress reactivates old patterns
 ```
 
@@ -300,7 +302,7 @@ WHY THIS MATTERS FOR COMPETITIVE RE-LINKING:
   → 🟢 More effective than extinction without reconsolidation trigger
 
   ⚠️ CRITICAL WARNING (from Chunk.md):
-  "Recall MÀ KHÔNG modify → chunk STRENGTHEN → TỆ HƠN"
+  "Recall WITHOUT modifying → chunk STRENGTHENS → WORSENS"
   → Trigger old chunk WITHOUT new positive experience
   → = Rehearsal of old links → old links STRENGTHEN
   → = Re-traumatization, not therapy
@@ -317,16 +319,17 @@ STRATEGY 1 — RE-ASSOCIATE (gradual probability shift):
   = Use chunk in positive contexts REPEATEDLY → build new links → shift probability
   
   Mechanism:
-    Chunk [chó] + positive experience [vuốt ve, an toàn] → new link forms
-    Repeat nhiều lần → new link strengthens → probability shifts
-    Old link [chó → sợ] → relatively weaker (not rehearsed + competition)
+    Chunk [dog] + positive experience [petting, safety] → new link forms
+    Repeat many times → new link strengthens → probability shifts
+    Old link [dog → fear] → relatively weaker (not rehearsed + competition)
     
   Speed: SLOW (months-years)
   Depth: MODERATE (new links compete but old links intact)
   Risk: LOW (no direct trigger of old trauma)
   Best for: mild associations, preference changes, habit modification
 
-  → = "Sống tích cực ở context mới" (user's formulation)
+  → "Sống tích cực ở context mới" (user's formulation)
+    [English: "Living positively in a new context"]
   → Each positive experience = one more link pulling probability toward positive
   → Accumulation over time → significant shift
 
@@ -345,9 +348,9 @@ STRATEGY 2 — NOVELTY HIJACK (context-driven probability jump):
   Risk: MODERATE (requires right conditions, cannot force)
   Best for: strong associations, redirecting obsessive patterns
 
-  → Example: "ghét toán" chunk → game development interest activates
+  → Example: "I hate math" (ghét toán) chunk → game development interest activates
   → Math chunks re-linked to [game, fun, creative] via novelty
-  → Old link [toán → boring/threatening] → relatively weaker
+  → Old link [math → boring/threatening] → relatively weaker
 
 
 STRATEGY 3 — THERAPY-ASSISTED (reconsolidation-based):
@@ -397,11 +400,11 @@ DEFINITION:
 
   → More entry points = higher probability of RANDOM activation
   → Fewer entry points = lower probability of random activation
-  → = "Bao nhiều cửa vào chunk này?"
+  → = "How many entry points does this chunk have?"
 
 ANALOGY:
-  Small house (1 door, 2 windows) = few entry points → rarely enters uninvited
-  Large building (20 doors, 100 windows) = many entry points → frequently enters
+  Small house (1 door, 2 windows) = few entry points → rarely entered uninvited
+  Large building (20 doors, 100 windows) = many entry points → frequently entered
   
   Similarly:
   Simple chunk (1 modality, 1 context) = small trigger surface
@@ -414,7 +417,7 @@ ANALOGY:
 TRIGGER SURFACE SIZE = f(4 factors):
 
   ① NUMBER OF MODALITIES in chunk:
-     → Visual + auditory + somatic + motor + emotional = 5 "cửa vào"
+     → Visual + auditory + somatic + motor + emotional = 5 entry points
      → Each modality = independent entry point
      → Any matching sensory input in ANY modality → can trigger
      → Multi-modal chunks = LARGE trigger surface
@@ -448,8 +451,8 @@ TRIGGER SURFACE SIZE = f(4 factors):
 TRAUMA COMPILE CREATES MAXIMUM TRIGGER SURFACE:
 
   ① MULTI-MODAL: visual + auditory + somatic + olfactory + emotional
-     → Bị chó cắn: thấy chó (visual), nghe sủa (auditory), cảm giác đau (somatic),
-       mùi (olfactory), sợ (emotional)
+     Dog bite: saw the dog (visual), heard barking (auditory), felt the pain (somatic),
+       smelled it (olfactory), felt fear (emotional)
      → = 5+ independent entry points
 
   ② EMOTIONAL PEAK: amygdala fires maximally → BROAD cortical activation
@@ -467,12 +470,13 @@ TRAUMA COMPILE CREATES MAXIMUM TRIGGER SURFACE:
      → During trauma: ENTIRE SCENE compiled as interconnected chunks
      → Person, place, time, smell, sound, body state, emotional state
      → = Many chunks created → many cross-links → many entry points
-     → = "Ngửi mùi tương tự → toàn bộ trauma scene fires"
+     → = "Smelling something similar → the entire trauma scene fires"
 
   RESULT:
     Trauma multi-chunk = DOZENS of entry points
     → Random daily input → HIGH probability of matching at least 1 entry point
-    → = "Lờ mờ sợ cái gì đó mặc dù không biết rõ" (user's formulation)
+    → "Lờ mờ sợ cái gì đó mặc dù không biết rõ" (user's formulation)
+      [English: "Vaguely afraid of something without knowing exactly what"]
     → PFC doesn't know WHICH entry point triggered
     → Body just feels: fear/tension/alert
     → = H5 multi-weak-signal in THREAT direction
@@ -491,7 +495,7 @@ TRAUMA COMPILE CREATES MAXIMUM TRIGGER SURFACE:
   → = H5 multi-weak-signal convergence → "gut feeling" about situation
   → = Klein 1998 firefighter: large trigger surface → many chunks fire → accurate intuition
 
-  → TRAUMA VÀ EXPERTISE = CÙNG CƠ CHẾ, KHÁC HƯỚNG:
+  → TRAUMA AND EXPERTISE = SAME MECHANISM, DIFFERENT DIRECTION:
     Trauma: large trigger surface + threat direction → fear/avoidance
     Expertise: large trigger surface + novelty direction → insight/competence
     → = F1 NT7 confirmed: novelty vs threat DIRECTION matters, not mechanism
@@ -502,14 +506,15 @@ TRAUMA COMPILE CREATES MAXIMUM TRIGGER SURFACE:
 ```
 TRIGGER SURFACE CAN SHRINK OVER TIME:
 
-  NATURAL REDUCTION ("sống tích cực ở context mới"):
+  NATURAL REDUCTION ("living positively in a new context"):
     → Move to new environment → old context entry points less matched
     → New positive chunks accumulate → compete for activation (§3)
     → Generalization NARROWS with safe experiences
       (🟢 Discriminative learning: safe experiences narrow fear generalization)
     → Some entry points DECAY (Ebbinghaus — unused retrieval paths weaken)
     → = Trigger surface gradually SHRINKS
-    → = "Giảm dần theo thời gian sống tích cực" (user's formulation, confirmed)
+    → "Giảm dần theo thời gian sống tích cực" (user's formulation, confirmed)
+      [English: "Gradually decreases over time spent living positively"]
 
   THERAPEUTIC REDUCTION:
     → Exposure therapy: systematic safe experience at each entry point
@@ -522,8 +527,8 @@ TRIGGER SURFACE CAN SHRINK OVER TIME:
     → Some entry points too deep (body-level, emotional peak compiled)
     → Complete elimination NOT possible (chunk not deletable)
     → Goal is SUFFICIENT probability shift, not elimination
-    → = "Vẫn hơi khó chịu nhưng handle được" = success
-    → = "Hoàn toàn quên" = unrealistic expectation
+    → = "Still slightly uncomfortable but manageable" = success
+    → = "Completely forget" = unrealistic expectation
 ```
 
 ---
@@ -558,23 +563,23 @@ TRIGGER SURFACE CAN SHRINK OVER TIME:
 
 EXAMPLE — Full lifecycle:
 
-  Event: Bị chó cắn lúc 5 tuổi
+  Event: Dog bite at age 5
 
   COMPILE:
     → Emotional peak → large trigger surface (many entry points)
-    → Strong links: [chó] → [đau, sợ, chạy] (dominant pathway)
+    → Strong links: [dog] → [pain, fear, run away] (dominant pathway)
     → Probability: 85% threat, 10% neutral, 5% noise
 
   YEARS 5-10 (avoidance):
     → No new dog experience → no new links
     → Old links decay slightly (Ebbinghaus) but slowly (emotional peak = durable)
     → Trigger surface: still large (generalized to dog sounds, images, similar animals)
-    → Random triggers: frequent → "sợ chó" identity consolidated
+    → Random triggers: frequent → "fear of dogs" identity consolidated
     → Probability: 75% threat, 15% neutral, 10% scattered
 
   YEARS 10-15 (gradual positive exposure):
     → Friend has gentle dog → positive experiences begin
-    → New links: [chó] → [hiền, an toàn, vui] (initially weak)
+    → New links: [dog] → [gentle, safe, fun] (initially weak)
     → Reconsolidation: each positive encounter → window → new link integrates
     → Probability shifting: 50% threat, 30% positive, 20% other
 
@@ -582,7 +587,7 @@ EXAMPLE — Full lifecycle:
     → Many positive dog experiences accumulated
     → Trigger surface: still exists but each entry point has competing safe link
     → Probability: 20% old threat (still there), 55% positive, 25% other
-    → PFC: "à, hồi nhỏ mình sợ chó, giờ ok rồi, cẩn thận thôi"
+    → PFC: "Oh right, I was afraid of dogs as a kid — I'm fine now, just stay aware"
     → Body: mostly calm, slight alertness (old link fires weakly)
     → = FUNCTIONAL RESOLUTION (not deletion)
 ```
@@ -617,7 +622,7 @@ SAME 3 MECHANISMS EXPLAIN:
 
   IDENTITY / SELF:
     → Self-related chunks have LARGEST trigger surface (compiled across ALL experience)
-    → "Tôi là người X" = dominant pathway from self-chunk to X-chunks
+    → "I am an X person" = dominant pathway from self-chunk to X-chunks
     → Identity change = competitive re-linking of self-chunk associations
     → = SLOW (self = most connected, most reinforced chunk network)
 
@@ -791,7 +796,7 @@ ACADEMIC REFERENCES:
   TARGET: Chunk.md v2.0 rewrite after 99-Master-Synthesis will incorporate
   this file as CORE mechanism chapter.
 
-  Line count: ~850L
+  Line count: ~810L
 ```
 
 ---
@@ -801,6 +806,6 @@ ACADEMIC REFERENCES:
 > 3 core chunk mechanisms formalized: probability distribution,
 > competitive re-linking, trigger surface.
 > Trauma = expertise = same mechanism, different direction.
-> "Domain real không theo chúng ta" — plan adjusted to capture core insight.
+> "The real domain doesn't follow our plans" — plan adjusted to capture core insight.
 >
-> Phiên bản: v1.0, 2026-04-17.
+> Version: v1.0, 2026-04-17.

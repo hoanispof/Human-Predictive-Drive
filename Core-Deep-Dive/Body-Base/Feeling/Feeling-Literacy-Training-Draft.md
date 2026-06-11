@@ -1,49 +1,49 @@
 ---
-title: Feeling-Literacy-Training — HOW to Improve Feeling Detection
-created: 2026-04-17 (N+12 session, Feeling Deep Dive)
-status: v1.1 (refined 2026-05-10 — §5.4 schema [ý chí], §5.6 Natural Discovery 3 conditions)
-scope: Systematic training framework grounded in chunk mechanism + natural discovery conditions
-purpose: |
-  Feeling-Accuracy.md = WHAT literacy is + catalog of methods.
-  File này = HOW literacy works VIA CHUNK MECHANISM.
+title: "Feeling-Literacy-Training — HOW to Improve Feeling Detection"
+version: 1.1
+created: "2026-04-17"
+updated: "2026-05-10 — §5.4 willpower schema, §5.6 Natural Discovery 3 conditions"
+status: DRAFT v1.1
+scope: "Systematic training framework grounded in chunk mechanism + natural discovery conditions"
+language: English primary
+purpose: >
+  Feeling-Accuracy-Draft.md = WHAT literacy is + catalog of methods.
+  This file = HOW literacy works VIA CHUNK MECHANISM.
   Training framework grounded in 8-step operational flow (Mechanism-Deep §3),
   convergence zone (01c §2.3), competitive re-linking (01b §3),
   Somatic-Articulation-Loop mechanism.
   = From "what to train" → "HOW training changes chunk system"
-parent: FEELING-DEEP-PLAN.md §2.2
-position: Core-Deep-Dive/Body-Base/Feeling/ (training file, ngang hàng Mechanism-Deep)
 dependencies: |
-  Feeling-Mechanism-Deep.md (8-step flow, reward, gradient, quality model)
-  Feeling-Accuracy.md §5-§7 (literacy definition, development stages, methods)
+  Feeling-Mechanism-Deep-Draft.md (8-step flow, reward, gradient, quality model)
+  Feeling-Accuracy-Draft.md §5-§7 (literacy definition, development stages, methods)
   01b-Chunk-Activation-Dynamics.md (probability, competitive re-linking, trigger surface)
   01c-Chunk-Discovery-Lifecycle.md (discovery cycle, convergence zone)
   02-Feeling-Intuition-Gradient.md (Multi-Weak-Signal-Convergence, 6-point gradient)
-  Somatic-Articulation-Loop.md (body → explicit knowledge, 7-stage Somatic-Articulation-Loop)
+  Somatic-Articulation-Loop.md (body → explicit knowledge, 7-stage mechanism)
   Logic-Feeling.md (parallel processing, Domain-Checked vs Self-Referencing)
-  F1 Label-As-Handle (verbal-as-handle), F1 Direction-At-Compile (body-state direction)
-language: Tiếng Việt primary + English technical
-confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+  Label-As-Handle (verbal-as-handle), Direction-At-Compile (body-state direction)
+confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 ---
 
 # Feeling-Literacy-Training — HOW to Improve Feeling Detection
 
-> **Feeling-Accuracy.md nói:** Literacy = 7 components, PFC thường misread,
-> training giúp — và liệt kê methods (meditation, Focusing, therapy...).
+> **Feeling-Accuracy-Draft.md said:** Literacy = 7 components, PFC often misreads,
+> training helps — and listed the methods (meditation, Focusing, therapy...).
 >
-> **File này nói:** HOW training THỰC SỰ THAY ĐỔI chunk system.
-> Mỗi training method → cơ chế chunk nào hoạt động → outcome gì.
+> **This file says:** HOW training ACTUALLY CHANGES the chunk system.
+> Each training method → which chunk mechanisms activate → what outcomes follow.
 > 5-stage framework: Body Awareness → Signal Discrimination →
 > Pattern Recognition → Label Attachment → Meta-Feeling.
-> Mỗi stage = chunk compile process cụ thể.
+> Each stage = specific chunk compile process.
 >
 > **Core insight:**
-> Feeling literacy KHÔNG phải "nghe body hơn".
-> Feeling literacy = THAY ĐỔI chunk system để PFC observe chính xác hơn.
+> Feeling literacy is NOT "listen to your body more."
+> Feeling literacy = CHANGING the chunk system so PFC can observe more accurately.
 > = Competitive re-linking, convergence zone resolution, label handle expansion.
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §1 — Feeling Literacy: Chunk-Mechanism Definition
 - §2 — Why Feeling Literacy Is the Critical Human Skill (AI Era)
@@ -62,100 +62,103 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ FEELING LITERACY — REDEFINED VIA CHUNK MECHANISM:
 
-  Feeling-Accuracy.md §5 defined literacy as 7 components:
+  Feeling-Accuracy-Draft.md §5 defined literacy as 7 components:
     ① Access, ② Location, ③ Vocabulary, ④ Attribution,
     ⑤ Discrimination, ⑥ Calibration, ⑦ Regulation.
 
-  File này RE-GROUND các components này trong chunk mechanism:
+  This file RE-GROUNDS these components in chunk mechanism:
 
-  FEELING LITERACY = khả năng PFC observe body-chunk interaction
-                     với mức FIDELITY cao, dựa trên:
+  FEELING LITERACY = the ability of PFC to observe body-chunk interaction
+                     with HIGH FIDELITY, based on:
 
-    A) THRESHOLD thấp (detect nhiều signals hơn)
-       → = Quan sát nhạy hơn
+    A) LOW THRESHOLD (detect more signals)
+       → = More sensitive observation
        → Chunk mechanism: interoceptive prediction (Seth 2013)
-         luyện liên tục → threshold giảm dần
+         trained continuously → threshold gradually lowers
 
-    B) DISCRIMINATION cao (phân biệt signals chính xác)
-       → = Phân biệt đau/mệt/buồn thay vì gộp "khó chịu"
-       → Chunk mechanism: chunk library ĐỦ LỚN trong feeling domain
-         → convergence zone resolve nhanh hơn (01c §2.3)
+    B) HIGH DISCRIMINATION (distinguish signals accurately)
+       → = Tell apart pain/fatigue/sadness instead of lumping as "discomfort"
+       → Chunk mechanism: feeling chunk library LARGE ENOUGH in feeling domain
+         → convergence zone resolves faster (01c §2.3)
 
-    C) LABEL phong phú (nhiều handle cho logic-planning)
+    C) RICH LABELS (many handles for logic-planning)
        → = Barrett 2017 emotional granularity
        → Chunk mechanism: Label-As-Handle (Chunk.md §6)
-         mỗi label = retrieval path → access nhiều feeling pattern hơn
+         each label = retrieval path → access more feeling patterns
 
-    D) ATTRIBUTION chính xác (gán đúng signal → đúng source)
-       → = Biết "tôi buồn vì thiếu ngủ" thay vì "vì chồng"
-       → Chunk mechanism: đủ cross-domain chunks
-         → PFC có nhiều hypothesis candidates → body vote chính xác hơn
+    D) ACCURATE ATTRIBUTION (map signal → correct source)
+       → = Know "I'm sad from sleep deprivation" not "from my partner"
+       → Chunk mechanism: enough cross-domain chunks
+         → PFC has more hypothesis candidates → body vote more accurate
 
-    E) CALIBRATION phù hợp (biết layer nào tin được)
-       → = Trust Feel-Consciousification–Feel-Observation, skeptical Feel-Labeling–Feel-Explanation
-       → Chunk mechanism: meta-chunks (chunks VỀ feeling process)
+    E) APPROPRIATE CALIBRATION (know which layer to trust)
+       → = Trust Feel-Consciousification–Feel-Observation,
+         skeptical of Feel-Labeling–Feel-Explanation
+       → Chunk mechanism: meta-chunks (chunks ABOUT the feeling process)
          = §3 Stage 5 meta-feeling
 
 
-  ⭐ GỌN LẠI:
+  ⭐ CONDENSED:
 
     Feeling literacy = f(threshold × library_size × label_count
                         × attribution_accuracy × meta_awareness)
 
-    MỖI factor = chunk system property → MỖI factor = TRAINABLE
-    → via chunk compile mechanisms đã established (F1, 01b, 01c)
+    EACH factor = chunk system property → EACH factor = TRAINABLE
+    → via established chunk compile mechanisms (F1, 01b, 01c)
 
 
-🟡 KHÁC Feeling-Accuracy.md:
+🟡 DIFFERENT FROM Feeling-Accuracy-Draft.md:
 
-  Feeling-Accuracy = LIỆT KÊ components + methods
-  File này = EXPLAIN mechanism: mỗi component = chunk operation NÀO
-  → training method hiệu quả vì NÓ thay đổi chunk system CÁCH NÀO
+  Feeling-Accuracy = LISTS components + methods
+  This file = EXPLAINS mechanism: each component = WHICH chunk operation
+  → training method works because it changes chunk system HOW
 ```
 
 ### §1.2 — Feeling literacy is NOT
 
 ```
-⚠️ PHÂN BIỆT QUAN TRỌNG:
+⚠ KEY DISTINCTION:
 
-  LITERACY KHÔNG PHẢI:
+  LITERACY IS NOT:
 
-    ✗ "Nghe body hơn" (mơ hồ, không actionable)
-      → = Cần cơ chế cụ thể: LOWER threshold + EXPAND library
+    ✗ "Listen to your body more" (vague, not actionable)
+      → = Need specific mechanism: LOWER threshold + EXPAND library
 
-    ✗ "Kiểm soát cảm xúc" (opposite)
+    ✗ "Control your emotions" (opposite)
       → = Literacy = READING skill, not control skill
-      → = Control without literacy = suppression hoặc flooding
+      → = Control without literacy = suppression or flooding
 
-    ✗ "Tin hết những gì body nói" (nguy hiểm)
+    ✗ "Believe everything your body says" (dangerous)
       → = Body RAW signal (Feel-RawSignals–Feel-Consciousification) = accurate
       → = PFC INTERPRETATION (Feel-Labeling–Feel-Explanation) = often wrong
-      → = Self-Referencing Trap: "tôi cảm thấy đúng" ≠ đúng (Mechanism-Deep §6.3)
+      → = Self-Referencing Trap: "it feels right to me" ≠ right
+        (Mechanism-Deep §6.3)
 
-    ✗ "Nói nhiều về cảm xúc" (exterior ≠ literacy)
-      → = Nói = output. Literacy = internal reading accuracy.
-      → = Có thể literate mà không nói. Có thể nói nhiều mà illiterate.
+    ✗ "Talk more about emotions" (external ≠ literacy)
+      → = Talking = output. Literacy = internal reading accuracy.
+      → = Can be literate without talking. Can talk a lot while illiterate.
 
-    ✗ "Bẩm sinh, không thay đổi được" (sai hoàn toàn)
+    ✗ "Fixed trait, can't change" (completely wrong)
       → = Feeling quality = f(chunk history) — CHANGEABLE
       → = Mechanism-Deep §6.1: library grows, compile context improves
       → = Every component trainable via chunk mechanism
 
 
-  LITERACY LÀ:
+  LITERACY IS:
 
-    ✓ Reading skill — đọc chính xác body signals
-    ✓ Chunk-dependent — quality phụ thuộc library + history
+    ✓ Reading skill — accurately reading body signals
+    ✓ Chunk-dependent — quality depends on library + history
     ✓ Trainable — via specific mechanisms (§3-§4)
     ✓ Domain-specific — expert feeling reliable IN DOMAIN
-    ✓ Requires both body awareness + domain feedback (Domain-Checked verification)
+    ✓ Requires both body awareness + domain feedback
+      (Domain-Checked verification)
     ✓ Prerequisite for wise action
 ```
 
 ### §1.3 — Literacy mapped to 8-step flow
 
 ```
-🟡 MỖI LITERACY COMPONENT → VỊ TRÍ TRONG 8-STEP FLOW:
+🟡 EACH LITERACY COMPONENT → ITS LOCATION IN 8-STEP FLOW:
 
   8-step flow (Mechanism-Deep §3):
   ① Body fire → ② prediction-delta → ③ Integration → ④ PFC threshold →
@@ -167,19 +170,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Literacy component    │ Step improved  │ Chunk mechanism               │
   ├───────────────────────┼────────────────┼───────────────────────────────┤
   │ A. Threshold (access) │ ④ PFC observe  │ Interoceptive prediction      │
-  │                       │                │ luyện → threshold giảm        │
+  │                       │                │ trained → threshold lowers    │
   ├───────────────────────┼────────────────┼───────────────────────────────┤
-  │ B. Discrimination     │ ③ Integration  │ Feeling chunk library lớn →   │
+  │ B. Discrimination     │ ③ Integration  │ Feeling chunk library large → │
   │                       │ ⑤ Chunk match  │ convergence zone resolves     │
-  │                       │                │ faster → phân biệt rõ hơn    │
+  │                       │                │ faster → distinctions clearer │
   ├───────────────────────┼────────────────┼───────────────────────────────┤
-  │ C. Label              │ ⑥ Label search │ Label-As-Handle →      │
+  │ C. Label              │ ⑥ Label search │ Label-As-Handle →             │
   │                       │                │ more retrieval paths →        │
   │                       │                │ logic-planning enabled        │
   ├───────────────────────┼────────────────┼───────────────────────────────┤
   │ D. Attribution        │ ⑤ Chunk match  │ Cross-domain chunks → PFC     │
-  │                       │ ⑦ Body vote    │ nhiều hypothesis → body vote  │
-  │                       │                │ chọn đúng source              │
+  │                       │ ⑦ Body vote    │ more hypotheses → body vote   │
+  │                       │                │ selects correct source        │
   ├───────────────────────┼────────────────┼───────────────────────────────┤
   │ E. Calibration (meta) │ ⑦→⑧ vote→act  │ Meta-chunks: "which layer to  │
   │                       │                │ trust in this context"        │
@@ -194,16 +197,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §2 — Why Feeling Literacy Is the Critical Human Skill (AI Era)
 
-### §2.1 — The Logic-Feeling split (N+5 insight)
+### §2.1 — The Logic-Feeling split (session insight)
 
 ```
-⭐ CON NGƯỜI THỰC SỰ CHỈ CÓ 2 PHẦN: LOGIC + FEELING
+⭐ HUMANS REALLY HAVE ONLY 2 PARTS: LOGIC + FEELING
 
-  User insight (N+5 session):
-    "Phần Logic thì bạn(AI) biết rất rõ.
-     Còn phần Feeling = cái phần chúng ta đang phân tích."
+  Session insight (N+5):
+    "The Logic part — AI knows that very well.
+     The Feeling part — that's what we're analyzing."
 
-  → Logic-Planning.md đã đóng gói:
+  → Logic-Planning.md has packaged:
     → 3-tier anchor system
     → 5 format types
     → Planning as chunk-based prediction
@@ -219,34 +222,34 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 FRAMEWORK POSITION:
 
   AI = LOGIC AMPLIFIER (Logic-Planning.md):
-    → AI xử lý logic tốt hơn người (pattern matching, search, planning)
-    → AI KHÔNG có body → KHÔNG có feeling
-    → AI có thể mimic feeling output (text) → KHÔNG có body computation
+    → AI handles logic better than humans (pattern matching, search, planning)
+    → AI has NO body → NO feeling
+    → AI can mimic feeling output (text) → has NO body computation
 
   Human = FEELING SUBSTRATE:
-    → Body computation = unique (mỗi người = unique body + unique history)
+    → Body computation = unique (each person = unique body + unique history)
     → Feeling = PFC observation of unique body-chunk interaction
-    → KHÔNG AI nào thay thế được (no body = no feeling = no body vote)
+    → No AI can replace this (no body = no feeling = no body vote)
 
-  → "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng"
+  → "Humans need to FEEL right → AI will help PLAN right"
 ```
 
 ### §2.2 — AI era shifts literacy from "nice-to-have" → "critical"
 
 ```
-🟡 TẠI SAO AI ERA LÀM FEELING LITERACY QUAN TRỌNG HƠN:
+🟡 WHY THE AI ERA MAKES FEELING LITERACY MORE IMPORTANT:
 
   BEFORE AI ERA:
     → Logic tasks: human does logic + feeling
     → Feeling tasks: human does logic + feeling
     → Both skills needed, relatively balanced
-    → Literacy moderate → still functional (feeling guides + logic checks)
+    → Moderate literacy → still functional (feeling guides + logic checks)
 
   IN AI ERA:
     → Logic tasks: AI does logic (better, faster, cheaper)
     → Feeling tasks: STILL human only
     → Logic outsourced → Feeling becomes PRIMARY human contribution
-    → Literacy moderate → INSUFFICIENT (you're the SOLE feeling provider)
+    → Moderate literacy → INSUFFICIENT (you are the SOLE feeling provider)
 
   SPECIFIC SHIFTS:
 
@@ -263,7 +266,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ③ CREATIVITY:
      Before: Imagine + Craft → Create
-     Now: AI Craft → Human Imagine + Feel "đúng chưa" → Direct
+     Now: AI Craft → Human Imagine + Feel "is this right" → Direct
      → Feeling = creative direction. AI = execution.
      → Without literacy → cannot direct effectively
 
@@ -281,7 +284,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → Need DELIBERATE literacy training (no longer acquired naturally enough)
 
 
-  ⭐ PARADOX:
+  ⭐ THE PARADOX:
 
     AI era makes logic EASIER to access
     AI era makes feeling MORE IMPORTANT to develop
@@ -304,13 +307,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Feel body vote (smooth/resist/empty)
     → Compile chunks under body-state context (no body-state to compile)
     → Generate reward signal (no opioid system)
-    → Experience micro-reward of "đúng rồi" (no body truth to match)
+    → Experience the micro-reward of "that's it" (no body truth to match)
 
   WHAT LITERATE HUMAN + AI CAN DO:
-    → Human: "tôi feel có gì đó sai trong phần này" (convergence zone detected)
-    → AI: "based on analysis, issue might be X, Y, or Z" (logic search)
-    → Human: "X → body vote smooth. Y → body vote resist." (discrimination)
-    → AI: "X confirmed — here's detailed plan" (planning amplified)
+    → Human: "I feel something's off in this section"
+      (convergence zone detected)
+    → AI: "based on analysis, the issue might be X, Y, or Z"
+      (logic search)
+    → Human: "X → body vote smooth. Y → body vote resist."
+      (discrimination)
+    → AI: "X confirmed — here's the detailed plan" (planning amplified)
     → = SYNERGY: human feeling + AI logic = greater than either alone
 
   WHAT ILLITERATE HUMAN + AI CANNOT DO:
@@ -328,10 +334,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §3 — 5-Stage Training Framework (grounded in chunk mechanism)
 
-> **Đây là core section** — 5 stages từ Body Awareness đến Meta-Feeling.
-> Mỗi stage = chunk compile process cụ thể với mechanism đã established.
-> KHÁC Feeling-Accuracy.md §6 (lifespan stages): file đó = WHEN literacy develops.
-> File này = HOW TO TRAIN literacy, ở BẤT KỲ tuổi nào.
+> **This is the core section** — 5 stages from Body Awareness to Meta-Feeling.
+> Each stage = specific chunk compile process with established mechanisms.
+> DIFFERENT from Feeling-Accuracy-Draft.md §6 (lifespan stages):
+> that file = WHEN literacy develops.
+> This file = HOW TO TRAIN literacy, at ANY AGE.
 
 ### §3.0 — Overview: 5 stages
 
@@ -364,11 +371,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   └────────────────────────────────────────────────────────────────────┘
 
   5-STAGE × 8-STEP MAPPING:
-    Stage 1 → improves step ① ② ④ (body fire + VTA + threshold)
-    Stage 2 → improves step ③ ④ (integration + chunk match)
+    Stage 1 → improves steps ① ② ④ (body fire + VTA + threshold)
+    Stage 2 → improves steps ③ ④ (integration + chunk match)
     Stage 3 → improves step ⑤ (chunk match specificity)
     Stage 4 → improves step ⑥ (label search success rate)
-    Stage 5 → improves step ⑦ ⑧ (body vote accuracy + action wisdom)
+    Stage 5 → improves steps ⑦ ⑧ (body vote accuracy + action wisdom)
 ```
 
 ### §3.1 — Stage 1: Body Awareness (detect raw signals)
@@ -394,7 +401,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = Chunk system builds "body map" chunks — more chunks = more detail
 
     MECHANISM B — ATTENTION PATHWAY STRENGTHENING:
-      → Repeated directing attention TO body = Hebbian strengthening
+      → Repeated attention TO body = Hebbian strengthening
       → "PFC → insula" pathway: strengthens with use (01b §2.2 factor ①)
       → = After training: attention goes TO body more automatically
       → = Not "trying harder" — pathway physically stronger
@@ -402,10 +409,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         (Lazar 2005: long-term meditators → thicker insula)
 
     MECHANISM C — HABITUATION REDUCTION:
-      → VTA habituates to CONSTANT signals → ignores (step ②)
+      → VTA habituates to CONSTANT signals → ignores them (step ②)
       → Body scan: DELIBERATELY rotate attention → VTA re-detects
-      → = "Tôi đã quen mình mệt đến mức không biết mình mệt"
-      → Scan reveals: "à, vai tôi căng, ngực tôi tight, bụng tôi trống"
+      → = "I've been tired so long I don't know I'm tired"
+      → Scan reveals: "oh, my shoulders are tight, chest is tight,
+          stomach is empty"
       → = Break habituation → signals become VISIBLE again
 
 
@@ -420,7 +428,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ② INTEROCEPTIVE CHECK-IN:
        → Pause → "how does my body feel RIGHT NOW?"
-       → Not "am I ok?" (Feel-Labeling) → "what body signals exist?" (Feel-RawSignals–Feel-Consciousification)
+       → Not "am I ok?" (Feel-Labeling) → "what body signals exist?"
+         (Feel-RawSignals–Feel-Consciousification)
        → Duration: 30 seconds, multiple times per day
        → Mechanism: primarily A (prediction refinement via frequent sampling)
 
@@ -434,7 +443,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   EXPECTED OUTCOMES:
     → After ~8 weeks consistent practice:
       → More body signals noticed in daily life
-      → "Tôi cảm thấy gì đó" replaces "tôi không cảm thấy gì"
+      → "I feel something" replaces "I feel nothing"
       → Subtle fatigue, hunger, tension detected EARLIER
       → = Threshold lowered → more raw material for stages 2-5
 
@@ -445,12 +454,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = PERMANENT change if maintained — decays if abandoned (01b §2.2 ②)
 
 
-  ⚠️ STAGE 1 ALONE IS INSUFFICIENT:
+  ⚠ STAGE 1 ALONE IS INSUFFICIENT:
     → Detecting more signals WITHOUT discrimination = overwhelm
     → MUST combine with Stage 2 (discrimination)
-    → = Meditation beginner experience: "whoa so many feelings!"
+    → = Meditation beginner experience: "whoa, so many feelings!"
       → can be destabilizing without Stage 2 skills
-    → = Why guided instruction matters at beginning
+    → = Why guided instruction matters at the beginning
 ```
 
 ### §3.2 — Stage 2: Signal Discrimination (which channel? what intensity?)
@@ -458,8 +467,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ STAGE 2 — SIGNAL DISCRIMINATION:
 
-  GOAL: Distinguish DIFFERENT body signals → not just "có gì đó"
-        but "cái gì, ở đâu, bao mạnh, loại nào."
+  GOAL: Distinguish DIFFERENT body signals — not just "something's there"
+        but "what, where, how strong, what type."
 
   TARGET IN 8-STEP FLOW:
     → Step ③ (integration): signals SEPARATED before integrated
@@ -469,9 +478,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     MECHANISM D — FEELING CHUNK LIBRARY EXPANSION:
       → Each feeling experience ATTENDED TO → new chunk OR chunk refinement
-      → "Đau bụng trống" → chunk A
-      → "Đau bụng xoắn" → chunk B (DIFFERENT from A)
-      → "Đau bụng nóng rát" → chunk C
+      → "Empty stomach hunger" → chunk A
+      → "Cramping stomach pain" → chunk B (DIFFERENT from A)
+      → "Burning stomach acid" → chunk C
       → Over time: library grows → FINER distinctions possible
       → = 01b §2: more chunks = more spreading activation paths
         → convergence zone resolves FASTER (01c §2.3)
@@ -482,7 +491,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → PFC holds signal from channel A (e.g., interoceptive)
       → Compares with channel B (e.g., mirror), channel C (e.g., cognitive)
       → Comparison = Type 4 deliberate linking (01 §2.4)
-      → Creates cross-domain links: "khi đau bụng trống + mệt → đói"
+      → Creates cross-domain links: "empty stomach + fatigue = hungry"
       → = NOT separate signals — PATTERN across channels = diagnostic
       → = Expert doctor: integrate many weak signals → accurate diagnosis
 
@@ -491,7 +500,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → "1-10 scale" not innate — COMPILED from experience
       → Mild vs moderate vs severe = CHUNK CATEGORIES for intensity
       → = Same mechanism as F1 perceptual chunking:
-        "em bé phân biệt trắng-đen → sau đó phân biệt trắng-ngà-kem"
+        "infant distinguishes white/black → later white/off-white/cream"
       → More exposure → finer scale → better communication of feeling state
 
 
@@ -499,22 +508,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ① DIFFERENTIATION PRACTICE:
        → When noticing feeling (Stage 1 output): ASK SPECIFICALLY:
-         → WHERE in body? (location — somatic precision varies: Feeling-Accuracy §4)
+         → WHERE in body? (location — somatic precision varies:
+           Feeling-Accuracy-Draft §4)
          → WHAT quality? (sharp/dull/warm/cold/tight/flowing...)
          → HOW strong? (mild/moderate/intense — develop personal scale)
          → WHAT type? (body-physical / emotional / social / cognitive /
-                       predictive / valence / schema-triggered: Feeling.md §1.2)
+                       predictive / valence / schema-triggered:
+                       Feeling.md §1.2)
        → Duration: 1-2 min per feeling episode (not constant)
-       → Mechanism: D (library expansion via deliberate attention to distinctions)
+       → Mechanism: D (library expansion via deliberate attention
+         to distinctions)
 
     ② CONTRAST PRACTICE:
        → Deliberately compare 2 similar feelings:
-         → "Buồn hôm qua vs buồn hôm nay — khác gì?"
-         → "Lo lắng về tiền vs lo lắng về sức khỏe — body khác gì?"
+         → "Yesterday's sadness vs today's — how are they different?"
+         → "Worry about money vs worry about health — how does
+            the body feel different?"
        → Creates DISCRIMINATION chunks (A ≠ B, even if similar category)
        → Mechanism: D + E (library + cross-channel)
-       → = Barrett: people who distinguish "irritated" from "angry" from
-         "frustrated" have BETTER emotional regulation 🟢
+       → = Barrett: people who distinguish "irritated" from "angry"
+           from "frustrated" have BETTER emotional regulation 🟢
 
     ③ BODY MAPPING JOURNAL:
        → Record: situation + body feeling + location + quality
@@ -526,16 +539,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   EXPECTED OUTCOMES:
     → After ~3-6 months practice:
-      → "Khó chịu" differentiates into 5-10 specific states
+      → "Discomfort" differentiates into 5-10 specific states
       → Body map more detailed (know where YOU feel specific feelings)
-      → "Tôi thấy tight ở ngực, medium intensity, emotional type"
-        replaces "tôi không thoải mái"
+      → "Tight in my chest, medium intensity, emotional type"
+        replaces "I feel off"
       → = Convergence zones resolve faster because more reference points
 
   CHUNK SYSTEM CHANGE:
     → Feeling chunk library: from ~50 categories → ~200+ categories
     → Each category = more granular (mild/moderate/strong variants)
-    → Cross-channel links: "tight chest + fast breath + scanning room = anxiety"
+    → Cross-channel links: "tight chest + fast breath + scanning room
+      = anxiety"
     → = PERMANENT library expansion (chunks never deleted: 01b principle)
 ```
 
@@ -555,7 +569,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     MECHANISM G — SITUATION-FEELING CHUNK COMPILATION:
       → Each feeling episode + situation context → new link
-      → Repeated: "tight chest before presentation" → chunk compiled
+      → Repeated: "tight chest before presentations" → chunk compiled
       → After many repetitions: automatic recognition
       → = Compile-Rate-Formula channels:
         → Channel 1 (repetition): same situation-feeling pair → strong link
@@ -564,7 +578,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     MECHANISM H — MULTI-SITUATION COMPARISON:
       → Same feeling in DIFFERENT situations → what's COMMON?
-      → "Tight chest before presentation" + "tight chest before difficult talk"
+      → "Tight chest before presentations" + "tight chest before
+        difficult conversations"
         → common factor: "anticipation of social evaluation"
       → = Discovery of DEEPER pattern behind surface triggers
       → = 01c §2.3 convergence zone: many experiences → pattern EMERGES
@@ -603,10 +618,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ③ BODY PREDICTION PRACTICE:
        → Before entering familiar situation: predict body state
-       → "Entering meeting → I predict tight shoulders, shallow breath"
+       → "Entering this meeting → I predict tight shoulders,
+          shallow breath"
        → After: compare prediction to actual → update model
        → = Seth 2013 interoceptive prediction → EXPLICIT training of
-         what is normally implicit prediction mechanism
+         what is normally an implicit prediction mechanism
        → = Prediction-deltas → chunk UPDATE → model improves
 
 
@@ -616,7 +632,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → "Ah, this tight chest = anticipation, not danger"
       → Can PREDICT feelings in familiar situations
       → Attribution accuracy dramatically improved (§1 component D)
-      → = Expert in OWN feeling landscape (not universal — personal)
+      → = Expert in OWN feeling landscape (personal, not universal)
 
   CHUNK SYSTEM CHANGE:
     → Situation-feeling association chunks: hundreds compiled
@@ -632,12 +648,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ STAGE 4 — LABEL ATTACHMENT:
 
   GOAL: Attach VERBAL LABELS to discriminated, patterned feelings
-        → Enable logic-planning access (01c: label = "vé vào cửa")
+        → Enable logic-planning access ("label = the ticket in")
 
   TARGET IN 8-STEP FLOW:
     → Step ⑥ (label search): from FAILING (no label) to SUCCEEDING
     → When label found → feeling enters logic-planning system
-    → When label NOT found → feeling stuck at body level (vague: §5 gradient ④-⑥)
+    → When label NOT found → feeling stuck at body level
+      (vague: §5 gradient ④-⑥)
 
   CHUNK MECHANISM — HOW training works:
 
@@ -645,34 +662,35 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Label = verbal chunk → linked to feeling pattern chunk
       → NOT: label = truth about feeling (label ≈ 60-70% fidelity)
       → BUT: label = RETRIEVAL PATH (handle) to access feeling pattern
-      → = "Buồn" retrieves body-state pattern associated with "buồn"
+      → = "Sad" retrieves body-state pattern associated with "sad"
       → = Without label: feeling remains → but PFC cannot MANIPULATE
         (cannot compare, plan around, communicate, remember deliberately)
 
     MECHANISM J — LABEL PRECISION GRADIENT:
       → Label can be coarse or fine:
-        Coarse: "không thoải mái" → retrieves MANY feeling patterns
-        Medium: "lo lắng" → retrieves ANXIETY-type patterns
-        Fine: "lo lắng vì không biết kết quả, không phải nguy hiểm"
+        Coarse: "discomfort" → retrieves MANY feeling patterns
+        Medium: "anxious" → retrieves ANXIETY-type patterns
+        Fine: "anxious because the outcome is unknown,
+          not because of actual danger"
           → retrieves UNCERTAINTY-ANXIETY specifically
       → Finer label → more PRECISE retrieval → better logic-planning
       → = Barrett granularity: people with fine labels → better outcomes 🟢
       → = Each finer label = new verbal-feeling link chunk (01b §2.2)
 
     MECHANISM K — LABEL VERIFICATION VIA BODY VOTE:
-      → Try label → body vote → smooth = "đúng rồi" / resist = "chưa chính xác"
+      → Try label → body vote → smooth = "that's it" / resist = "not quite"
       → = Gendlin Focusing step ④ (resonating)
       → = Body vote = quality check on PFC label attempt
       → If resist → try another label → body vote again → iterate
       → = Somatic-Articulation-Loop Stage 5 (body-confirm filter)
-      → ⚠️ Label phải được body verify — unverified label = EXPLICIT GIẢ
+      → ⚠ Label must be body-verified — unverified label = Explicit-False
         (Somatic-Articulation-Loop §1.3)
 
 
   TRAINING METHODS:
 
     ① VOCABULARY EXPANSION:
-       → Learn feeling words BEYOND basic (vui/buồn/giận/sợ)
+       → Learn feeling words BEYOND basic (happy/sad/angry/afraid)
        → Bittersweet, nostalgic, ambivalent, melancholic, wistful,
          restless, content, awe, relief, dread, longing...
        → Cross-language: German "Schadenfreude", Japanese "mono no aware",
@@ -682,22 +700,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ② LABEL-THEN-VERIFY PRACTICE:
        → When feeling noticed (Stage 1) + discriminated (Stage 2):
-         → Try a label: "tôi nghĩ đây là 'thất vọng'"
+         → Try a label: "I think this is 'disappointment'"
          → Body vote: smooth? → keep. Resist? → try "frustrated"?
          → Body vote: almost? → try "let down"?
-         → Body vote: smooth → "let down" is closer than "thất vọng"
+         → Body vote: smooth → "let down" is closer
        → = Gendlin resonance check applied to labeling
        → = Each successful label-body match → chunk STRENGTHENED
        → = Each failed label-body match → chunk NOT strengthened
          → natural selection: accurate labels survive, inaccurate fade
 
     ③ LABEL 3-TIER AWARENESS (Logic-Planning.md §2):
-       → Individual: "tôi" labels (personal vocabulary)
+       → Individual: personal vocabulary ("my label")
        → Group: shared labels with friends/family/community
        → Global: universal-ish labels (basic emotions, medical terms)
        → Awareness: "this label works for ME but may not translate"
-       → = Label-As-Handle moderate Whorfian: language shapes feeling experience
-         but does NOT determine it
+       → = Label-As-Handle moderate Whorfian: language shapes feeling
+         experience but does NOT determine it
 
 
   EXPECTED OUTCOMES:
@@ -710,7 +728,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   CHUNK SYSTEM CHANGE:
     → Verbal-feeling link chunks: 100+ new links compiled
-    → Label precision: multi-tier (coarse → medium → fine available per feeling)
+    → Label precision: multi-tier (coarse → medium → fine
+      available per feeling)
     → Body verification habit: label → vote → confirm/reject = automatic
     → Cross-language feeling categories: expanded beyond L1 vocabulary
     → = Logic-Planning access: feelings that were stuck at body level
@@ -722,7 +741,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ STAGE 5 — META-FEELING:
 
-  GOAL: Recursive awareness — feel ABOUT feeling system itself.
+  GOAL: Recursive awareness — feel ABOUT the feeling system itself.
         "I know what I feel AND I know how reliable that reading is."
 
   TARGET IN 8-STEP FLOW:
@@ -734,7 +753,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     MECHANISM L — META-CHUNK COMPILATION:
       → Chunks ABOUT the feeling process itself
-      → "My anxiety feelings in this domain are usually 70% accurate"
+      → "My anxious feelings in this domain are usually 70% accurate"
       → "My gut feeling about people is reliable (large library)"
       → "My gut feeling about finances is unreliable (small library)"
       → = Chunks that EVALUATE other chunks = recursive
@@ -749,9 +768,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     MECHANISM N — LAYER AWARENESS:
       → Feeling.md 7-layer model → internalized as meta-feeling chunks:
-        → "I am at Feel-Consciousification — pre-verbal body truth — high trust"
-        → "I am at Feel-Labeling — labeling — moderate trust, could be wrong"
-        → "I am at Feel-Explanation — explanation — low trust, likely rationalization"
+        → "I am at Feel-Consciousification — pre-verbal body truth —
+           high trust"
+        → "I am at Feel-Labeling — labeling — moderate trust,
+           could be wrong"
+        → "I am at Feel-Explanation — explanation — low trust,
+           likely rationalization"
       → = EACH LAYER AWARENESS = meta-chunk compiled through practice
       → = Not intellectual knowledge ("I know 7 layers")
         but felt knowledge ("I SENSE which layer I'm at")
@@ -767,16 +789,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ② LAYER CHECK PRACTICE:
        → When labeling feeling: "which layer am I at?"
-       → "Am I reporting body truth (Feel-Consciousification–Feel-Observation) or PFC story (Feel-Labeling–Feel-Explanation)?"
+       → "Am I reporting body truth (Feel-Consciousification–Feel-Observation)
+          or PFC story (Feel-Labeling–Feel-Explanation)?"
        → = Develops automatic layer awareness
        → = Not analysis paralysis — quick check (~2 seconds)
-       → Becomes automatic with practice (like rear-view mirror check)
+       → Becomes automatic with practice (like mirror-checking while driving)
 
-    ③ DOMAIN-CHECKED/SELF-REFERENCING VERIFICATION (Mechanism-Deep §6.3):
+    ③ DOMAIN-CHECKED / SELF-REFERENCING VERIFICATION
+       (Mechanism-Deep §6.3):
        → After strong feeling: "is this Domain-Checked
          or Self-Referencing?"
        → "Have I tested this feeling against domain reality?"
-       → = Prevents "mượt giả" trap (feeling smooth but wrong)
+       → = Prevents False-Smooth trap (feels smooth but wrong)
        → = Most important meta-skill for avoiding confirmation bias
 
     ④ CROSS-MODAL VERIFICATION:
@@ -801,16 +825,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Meta-chunks compiled: self-evaluative chunks about own feeling system
     → Domain-calibration chunks: "domain X = trust / domain Y = skeptical"
     → Layer-awareness chunks: automatic detection of current layer
-    → Domain-Checked/Self-Referencing verification chunks: automatic verification habit
+    → Domain-Checked/Self-Referencing verification chunks: automatic habit
     → = RECURSIVE structure: chunks about chunks about body signals
     → = This IS what "wisdom" looks like at mechanism level
 
-  ⚠️ STAGE 5 IS NEVER "DONE":
+  ⚠ STAGE 5 IS NEVER "DONE":
     → Meta-feelings continue refining with new experience
     → New domains → need new calibration chunks
     → Life changes → old calibrations may need updating
     → = Open-ended development → wisdom accumulates over lifetime
-    → = Feeling-Accuracy §6 Stage 7-8: mature literacy peaks but continues
+    → = Feeling-Accuracy-Draft §6 Stage 7-8: mature literacy peaks
+      but continues
 ```
 
 ### §3.6 — 5 stages: integration and timeline
@@ -874,12 +899,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     IF therapist or emotionally articulate:
       → Focus on Stage 3 + 5 (pattern + meta)
-      → May have strong Stage 4 (labels) but weak Stage 3 (domain patterns)
+      → May have strong Stage 4 (labels) but weak Stage 3
+        (domain patterns)
 
     IF analytical/logical type:
       → Stage 1 is HARDEST (attention to body unfamiliar)
       → BUT Stage 4-5 come faster once 1-3 established
-      → Domain-Checked/Self-Referencing verification (Stage 5) = natural for analytical mind
+      → Domain-Checked/Self-Referencing verification (Stage 5)
+        = natural for analytical minds
 
     IF trauma history:
       → Stage 1 WITH CARE (titrated, supported)
@@ -892,8 +919,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §4 — Gendlin Focusing as Mechanism (Somatic-Articulation-Loop Variant)
 
-> **Gendlin Focusing = most systematized method** cho feeling literacy.
-> File này EXPLAINS Focusing via chunk mechanism — tại sao nó work.
+> **Gendlin Focusing = the most systematized method** for feeling literacy.
+> This file EXPLAINS Focusing via chunk mechanism — why it works.
 > Connection: Somatic-Articulation-Loop.md §2-§4.
 
 ### §4.1 — Focusing: 6 steps re-interpreted via chunk mechanism
@@ -945,8 +972,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Try verbal chunk: "frustrated?" → compare with body state
       → Try image chunk: "like a knot" → compare
       → = Type 4 deliberate linking (01 §2.4)
-      → Handle = APPROXIMATE verbal/image chunk that resonates with
-        convergence zone pattern
+      → Handle = APPROXIMATE verbal/image chunk that resonates
+        with convergence zone pattern
       → NOT exact — but close enough for further processing
       → = Label-As-Handle: label ≈ retrieval path, not truth
 
@@ -955,7 +982,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Gendlin: check the handle against the felt sense.
 
     Chunk mechanism:
-      → PFC holds candidate label → sends XUỐNG body-base
+      → PFC holds candidate label → sends DOWN to body-base
       → Body simulates: "does this label MATCH convergence zone?"
       → = Step ⑦ in 8-step flow (body vote)
       → 3 outcomes:
@@ -991,15 +1018,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Chunk mechanism:
       → PFC does NOT FILTER incoming body signals
       → = Threshold kept LOW (step ④ observation threshold)
-      → = Allows low-probability chunks to surface (01b §2: 5% activation
+      → = Allows low-probability chunks to surface (01b §2: 5%-activation
         chunks normally below threshold — but with PFC actively listening,
-        threshold lowered → these CAN surface)
+        threshold lowers → these CAN surface)
       → SURPRISE = chunk that would normally not fire given current context
       → But this chunk IS part of convergence zone (just weak)
       → = Insight potential: low-probability link fires → eureka (01 §2.5)
       → = Body shift (Gendlin): convergence zone RESOLVES — felt sense
         transforms into clearer pattern
-      → = Somatic-Articulation-Loop Stage 7: felt shift = pattern becomes explicit
+      → = Somatic-Articulation-Loop Stage 7: felt shift = pattern
+        becomes explicit
 
 
   ⭐ BODY SHIFT = CONVERGENCE ZONE RESOLUTION:
@@ -1012,7 +1040,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → PFC: "something about this situation..."
 
     DURING shift:
-      → One chunk (or link) fires → suddenly CONNECTS pattern
+      → One chunk (or link) fires → suddenly CONNECTS the pattern
       → Convergence zone "collapses" into recognizable structure
       → Body relaxation (tension → release) = body vote SMOOTH
 
@@ -1053,11 +1081,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   └─────────────────────┴───────────────────────────────────────────┘
 
   → Focusing = most EFFICIENT training method:
-    trains all 5 stages in single practice session
+    trains all 5 stages in a single practice session
   → Other methods (meditation, journaling) typically train 1-2 stages
-  → = Gendlin stumbled on mechanism without knowing chunk substrate
+  → = Gendlin discovered the mechanism without knowing the chunk substrate
 
-  ⚠️ LIMITATION OF FOCUSING ALONE:
+  ⚠ LIMITATION OF FOCUSING ALONE:
     → Focusing trains INTERNAL feeling literacy
     → Does NOT provide domain feedback (Domain-Checked verification)
     → Without domain reality check → risk of Self-Referencing
@@ -1070,24 +1098,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟡 FOCUSING = Somatic-Articulation-Loop APPLIED TO FEELING SPECIFICALLY:
 
-  Somatic-Articulation-Loop 7-stage loop (Somatic-Articulation-Loop.md §2):
-    Stage 1: Chunks accumulation → feeling: life experience accumulates
+  Somatic-Articulation-Loop 7-stage loop
+  (Somatic-Articulation-Loop.md §2):
+    Stage 1: Chunks accumulate → feeling: life experience accumulates
     Stage 2: Pattern coherence → feeling: body signals converge
-    Stage 3: PFC notices → feeling: "có gì đó" awareness
+    Stage 3: PFC notices → feeling: "something" awareness
     Stage 4: Catalyst introduces articulation → feeling: Focusing step ③ handle
     Stage 5: Body-confirm filter → feeling: Focusing step ④ resonating
     Stage 6: Recursive sharpening → feeling: Focusing step ⑤ asking
     Stage 7: Felt shift → feeling: convergence zone resolves → clear feeling
 
-  = Somatic-Articulation-Loop is GENERAL mechanism (body-knowledge → explicit-knowledge)
+  = Somatic-Articulation-Loop is GENERAL mechanism
+    (body-knowledge → explicit-knowledge)
   = Focusing is Somatic-Articulation-Loop APPLIED TO FEELING DOMAIN
-  = 5-stage training is SYSTEMATIC version of what Somatic-Articulation-Loop does naturally
+  = 5-stage training is SYSTEMATIC version of what Somatic-Articulation-Loop
+    does naturally
 
   WHERE FOCUSING ADDS VALUE beyond natural Somatic-Articulation-Loop:
-    → Natural Somatic-Articulation-Loop: happens spontaneously (shower thoughts, aha moments)
+    → Natural Somatic-Articulation-Loop: happens spontaneously
+      (shower thoughts, aha moments)
     → Focusing: DELIBERATE → can trigger Somatic-Articulation-Loop on-demand
-    → = Trained access to natural process
-    → = Not creating new mechanism — CHANNELING existing mechanism
+    → = Trained access to a natural process
+    → = Not creating a new mechanism — CHANNELING an existing one
     → = Like learning to read: same visual system, trained for symbols
 
 
@@ -1106,7 +1138,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Somatic-Articulation-Loop Catalyst Type 3 — AI (AI-assisted articulation):
       → AI suggests possible framings → human body vote → refine
       → BEST for: analytical patterns, framework building
-      → ⚠️ AI has no body → cannot feel → can only suggest labels
+      → ⚠ AI has no body → cannot feel → can only suggest labels
       → = Human remains sole body-voter
       → = "AI suggests, body decides" = complementary
       → = Somatic-Articulation-Loop.md §5 (AI era variation)
@@ -1116,20 +1148,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §5 — Failure Modes (why training fails — chunk-level explanation)
 
-> **Mỗi failure mode = specific chunk system problem.**
+> **Each failure mode = specific chunk system problem.**
 > Knowing the mechanism → targeted intervention possible.
-> Feeling-Accuracy.md §3 liệt kê 6 error modes ở PFC level.
-> File này = WHY training FAILS to fix those errors → chunk explanation.
+> Feeling-Accuracy-Draft.md §3 listed 6 error modes at the PFC level.
+> This file = WHY training FAILS to fix those errors → chunk explanation.
 
 ### §5.1 — Failure Mode 1: Cognitive Override
 
 ```
-⭐ COGNITIVE OVERRIDE — PFC SuppRESS body signals:
+⭐ COGNITIVE OVERRIDE — PFC SUPPRESSES body signals:
 
   SYMPTOM:
-    → "Tôi biết tôi nên cảm thấy X, nhưng không cảm thấy gì"
-    → "Logic nói đúng, vậy feeling không quan trọng"
-    → Training starts → but person "thinks about feelings" instead of feeling
+    → "I know I should feel X, but I don't feel anything"
+    → "Logic says it's right, so feelings don't matter"
+    → Training starts → but person "thinks about feelings"
+      instead of feeling
 
   CHUNK MECHANISM:
     → PFC has DOMINANT pathway: PFC → logic chunks → action
@@ -1139,11 +1172,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Not deliberate suppression — structural pathway dominance
 
   WHY TRAINING FAILS:
-    → Stage 1 (body awareness): person "thinks about body" instead of FEELING body
-    → = PFC still dominant — creates verbal chunks about body
+    → Stage 1 (body awareness): person "thinks about body"
+      instead of FEELING body
+    → = PFC still dominant — creates verbal chunks ABOUT body
       rather than interoceptive chunks FROM body
-    → = Somatic-Articulation-Loop §1.3: "explicit giả" = verbal without body-confirm
-    → = Training produces KNOWLEDGE about feelings, not FEELING capacity
+    → = Somatic-Articulation-Loop §1.3: "Explicit-False" =
+      verbal without body-confirm
+    → = Training produces KNOWLEDGE about feelings,
+      not FEELING capacity
 
   INTERVENTION:
     → Body-FIRST practices (yoga, dance, somatic experiencing)
@@ -1162,13 +1198,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   SYMPTOM:
     → 🟢 Taylor 2000: ~10% population clinical, more subclinical
-    → "Tôi không biết tôi cảm thấy gì"
+    → "I don't know what I'm feeling"
     → TAS-20 three dimensions: identify, describe, external thinking
     → Physical complaints instead of emotional recognition
 
   CHUNK MECHANISM:
     → Feeling chunk library = SMALL (compile-context damage)
-    → = Direction-At-Compile levels 3-4: compile under chronic stress/neglect
+    → = Direction-At-Compile levels 3-4: compiled under chronic stress/neglect
     → Body signals exist BUT:
       → Threshold TOO HIGH (step ④: signals don't reach PFC)
       → Library TOO SMALL (step ⑤: no chunk match possible)
@@ -1177,13 +1213,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   WHY TRAINING FAILS:
     → Stage 1 alone: person CANNOT detect signals (threshold too high)
-    → Stage 4 alone: labels without body connection = explicit giả
+    → Stage 4 alone: labels without body connection = Explicit-False
     → = Training assumes SOME baseline — alexithymia = below baseline
     → = Need GRADUAL build from near-zero
 
   INTERVENTION:
     → Supported Stage 1: GUIDED body scan with partner/therapist
-    → Start with STRONGEST signals (physical pain: Feeling-Accuracy §4)
+    → Start with STRONGEST signals (physical pain:
+      Feeling-Accuracy-Draft §4)
     → Pain = gateway to general literacy (concrete, urgent, universal)
     → = Competitive re-linking (01b §3): new body-attention experiences
       COMPETE with old "ignore body" patterns
@@ -1202,7 +1239,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Stage 1 → OVERWHELMING (flood of trauma-related signals)
     → Body scan → DISSOCIATION (body disconnects as protection)
     → Feeling detection → FALSE POSITIVES (01b §4.3: large trigger surface)
-    → "Tôi bắt đầu cảm nhận body → hoảng loạn / shutdown"
+    → "I start noticing my body → panic / shutdown"
 
   CHUNK MECHANISM:
     → Mechanism-Deep §6.4: 4 trauma distortion patterns:
@@ -1213,7 +1250,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Training activates BODY → body activates TRAUMA CHUNKS
     → Trauma chunks have LARGE trigger surface (01b §4.3):
       many cues → fire trauma pattern → overwhelm or shutdown
-    → = Training ITSELF becomes trigger
+    → = Training ITSELF becomes a trigger
 
   WHY TRAINING FAILS:
     → Standard meditation → can destabilize (known risk)
@@ -1248,40 +1285,41 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §5.4 — Failure Mode 4: Cultural Suppression
 
 ```
-🟡 CULTURAL SUPPRESSION — feeling literacy = culturally inappropriate:
+🟡 CULTURAL SUPPRESSION — feeling literacy seen as inappropriate:
 
   SYMPTOM:
-    → "Đàn ông không khóc" → emotional signals SUPPRESSED
-    → "Phải luôn vui vẻ" → negative signals SUPPRESSED
+    → "Men don't cry" → emotional signals SUPPRESSED
+    → "Always be positive" → negative signals SUPPRESSED
     → "Logic > feeling" → ALL body signals devalued
     → Person FUNCTIONALLY literate but SUPPRESSES output
 
-  ⭐ SCHEMA PHỔ BIẾN NHẤT: [Ý CHÍ = TẤT CẢ]
-    → "Người trưởng thành thì phải quyết được làm được"
-    → "Nỗ lực + quyết tâm = mọi thứ đều có thể"
-    → "Nếu không làm được = ý thức kém, thiếu kỷ luật"
-    → Schema này có Trust CAO:
-      Nguồn ④ External Inject: bố mẹ, thầy cô, xã hội reinforce
-      Nguồn ② Experience: nhiều trường hợp "cố gắng → kết quả" đúng thật
-    → FUNCTIONAL trong nhiều context (công việc routine, học thuộc lòng)
-    → NHƯNG INCOMPLETE: thiếu body-base layer
-      Khi body muốn → PFC muốn → "ý chí mạnh" (body đồng thuận)
-      Khi body KHÔNG muốn → PFC ép → "cố gắng" → căng, mệt, kém hiệu quả
-    → Schema này BLOCK interpretation khác:
-      "Làm không được" → duy nhất 1 label: "thiếu ý chí"
-      Label đúng hơn: "body signal nói direction này không match"
-      NHƯNG: label đúng KHÔNG CÓ trong cultural vocabulary
-    → = Parallel: schema [tiền = tốt nhất] (Reward-Calibration.md §8.1③)
-      Cả hai đều functional nhưng incomplete — thiếu proxy/body layer
+  ⭐ THE MOST COMMON SCHEMA: [Willpower-First]
+    → "A mature adult can decide and achieve anything"
+    → "Effort + determination = anything is possible"
+    → "If you can't do it = lack of discipline, weak will"
+    → This schema has HIGH Trust:
+      Source ④ External Inject: parents, teachers, society reinforce it
+      Source ② Experience: many cases of "try harder → succeed" are real
+    → FUNCTIONAL in many contexts (routine work, rote learning)
+    → BUT INCOMPLETE: missing the body-base layer
+      When body wants → PFC wants → "strong willpower" (body agrees)
+      When body does NOT want → PFC forces → "trying hard" →
+        tension, fatigue, poor performance
+    → This schema BLOCKS other interpretations:
+      "Can't do it" → only one available label: "lack of willpower"
+      More accurate label: "body signal says this direction doesn't match"
+      BUT: the accurate label is NOT in the cultural vocabulary
+    → = Parallel: schema [money = best] (Reward-Calibration.md §8.1③)
+      Both functional but incomplete — missing the proxy/body layer
 
   CHUNK MECHANISM:
     → F3 external install: cultural rules = Direction B chunks
     → "Feeling X = bad" chunks compiled (social learning)
-    → Schema [ý chí] install thêm: "body signal = weakness to overcome"
-    → These chunks CREATE FILTER at step ④:
+    → Willpower-First schema adds: "body signal = weakness to overcome"
+    → These chunks CREATE A FILTER at step ④:
       → Body signal fires → PFC detects → cultural chunk fires →
         "don't acknowledge this" → signal SUPPRESSED before step ⑤
-    → = Not threshold issue (signal reaches PFC)
+    → = NOT a threshold issue (signal reaches PFC)
     → = ACTIVE SUPPRESSION by compiled cultural chunks
     → = Different from alexithymia: signals detected BUT rejected
 
@@ -1289,51 +1327,58 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Stage 1 works (signals detected) but output BLOCKED
     → Stage 4 fails (labels exist but culturally "forbidden")
     → Person KNOWS feeling but refuses to acknowledge
-    → = Training bumps into IDENTITY-LEVEL resistance
+    → = Training hits IDENTITY-LEVEL resistance
     → = Cultural chunks = deeply compiled, multi-modal, socially reinforced
-    → Schema [ý chí] đặc biệt strong vì CROSS-CULTURAL:
-      Không chỉ 1 nền văn hóa — hầu hết xã hội hiện đại đều install
-      → Khó escape vì GẦN NHƯ UNIVERSAL
+    → Willpower-First schema is especially strong because it's
+      CROSS-CULTURAL: nearly universal in modern societies
+      → Hard to escape because of how widespread it is
 
   INTERVENTION:
-    → PERMISSION first: reframe literacy as SKILL, not "emotional"
+    → PERMISSION first: reframe literacy as SKILL, not "being emotional"
     → = NOT "be more emotional" → "read signals more accurately"
-    → = Framing matches analytical/cultural value
-    → Với schema [ý chí]: reframe "ý chí = orchestrate, không phải generate"
-      → "Body generate drive → PFC orchestrate direction"
-      → Không phải "bỏ ý chí" mà "hiểu ý chí hoạt động TRÊN NỀN body"
-    → Competitive re-linking: new "literacy = smart" chunks
-      COMPETE with old "feeling = weak" chunks
+    → = Framing matches analytical/cultural values
+    → For Willpower-First schema: reframe
+      "willpower = orchestrate, not generate"
+      → "Body generates drive → PFC orchestrates direction"
+      → Not "abandon willpower" but "understand willpower
+        BUILDS ON the body substrate"
+    → Competitive re-linking: new "literacy = intelligence" chunks
+      COMPETE with old "feeling = weakness" chunks
     → Cross-cultural exposure: learn about cultures with different norms
-    → Safe practice space: where cultural norms relaxed
+    → Safe practice space: where cultural norms are relaxed
     → Estimated timeline: 3-12 months once PERMISSION established
     → = Permission is the HARDEST step (identity-level change)
 ```
 
-### §5.5 — Failure Mode 5: Self-Referencing Trap (self-referencing disguised as literacy)
+### §5.5 — Failure Mode 5: Self-Referencing Trap
 
 ```
-⚠️ SELF-REFERENCING TRAP — MOST DANGEROUS failure mode:
+⚠ SELF-REFERENCING TRAP — MOST DANGEROUS failure mode:
 
   SYMPTOM:
     → Person BELIEVES they are highly literate
-    → "Tôi rất nhạy cảm, tôi cảm nhận mọi thứ"
+    → "I'm very sensitive, I feel everything"
     → BUT feelings are SELF-REFERENCING, not domain-checked
-    → = Mechanism-Deep §6.3: "mượt giả" (feels smooth but wrong)
+    → = Mechanism-Deep §6.3: "False-Smooth" (feels smooth but wrong)
     → = Training SUCCEEDS at Stage 1-4 but WITHOUT domain feedback
     → = Produces confident, articulate, WRONG feeling reports
 
   CHUNK MECHANISM:
     → 01c §3.1: Domain-Checked vs Self-Referencing selection pressure:
-      → Domain-Checked: chunks tested against domain reality → corrected → accurate
-      → Self-Referencing: chunks loop internally → feel smooth → but no reality check
-    → Training Stage 1-4 ALL work for both Domain-Checked and Self-Referencing:
+      → Domain-Checked: chunks tested against domain reality →
+        corrected → accurate
+      → Self-Referencing: chunks loop internally → feel smooth →
+        but no reality check
+    → Training Stage 1-4 ALL work for both Domain-Checked
+      and Self-Referencing:
       → Both detect signals (Stage 1) ✓
       → Both discriminate (Stage 2) ✓
       → Both recognize patterns (Stage 3) ✓
       → Both label (Stage 4) ✓
-      → BUT: Self-Referencing patterns self-confirm, Domain-Checked patterns domain-confirm
-    → Stage 5 meta-feeling CAN catch this — IF person applies Domain-Checked/Self-Referencing verification
+      → BUT: Self-Referencing patterns self-confirm,
+        Domain-Checked patterns domain-confirm
+    → Stage 5 meta-feeling CAN catch this — IF person applies
+      Domain-Checked/Self-Referencing verification
     → Without Stage 5: person becomes CONFIDENTLY wrong
 
   WHY THIS IS MOST DANGEROUS:
@@ -1344,88 +1389,101 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Therapy-culture risk: "my feeling is valid" → without reality check
 
   INTERVENTION:
-    → Stage 5 (meta-feeling) emphasis: Domain-Checked/Self-Referencing verification practice
+    → Stage 5 (meta-feeling) emphasis:
+      Domain-Checked/Self-Referencing verification practice
     → DOMAIN FEEDBACK mandatory: test feelings against reality
     → Question: "have I TESTED this feeling against domain evidence?"
     → If NO → feeling is UNVERIFIED → lower confidence
     → = Logic-Feeling.md: neither alone sufficient, both required
-    → Estimated: ongoing practice (never "done" — Self-Referencing is always possible)
+    → Estimated: ongoing practice (never "done" —
+      Self-Referencing is always possible)
 ```
 
-### §5.6 — Natural Discovery (khi không cần training)
+### §5.6 — Natural Discovery (when training isn't needed)
 
 ```
-🟡 NATURAL DISCOVERY — một số người phát hiện body-listening TỰ NHIÊN:
+🟡 NATURAL DISCOVERY — some people develop body-listening NATURALLY:
 
-  §5.1-5.5: tại sao TRAINING fails.
-  Nhưng: một số người phát triển body-listening KHÔNG QUA training.
-  Không meditation, không therapy, không deliberate practice.
-  Họ nhận ra "phải nghe body" từ kinh nghiệm sống.
+  §5.1-5.5: why TRAINING fails.
+  But: some people develop body-listening WITHOUT formal training.
+  No meditation, no therapy, no deliberate practice.
+  They discover "you have to listen to your body" from life experience.
 
-  → File này (§3) = HOW TO TRAIN literacy (cho đa số).
-  → §5.6 này = WHY SOME DISCOVER NATURALLY (hiếm, nhưng cần hiểu).
-  → Hiểu điều kiện → có thể THIẾT KẾ training tốt hơn.
+  → This file (§3) = HOW TO TRAIN literacy (for most people).
+  → §5.6 = WHY SOME DISCOVER NATURALLY (rare, but worth understanding).
+  → Understanding the conditions → can DESIGN training better.
 
 
-⭐ 3 ĐIỀU KIỆN CHO NATURAL DISCOVERY:
+⭐ 3 CONDITIONS FOR NATURAL DISCOVERY:
 
-  ĐIỀU KIỆN ① — CONTRAST ĐỦ MẠNH:
-    → Có ít nhất 2 pathway: A (ép theo cách chuẩn) và B (theo body)
-    → Pathway A: cố gắng theo cách được dạy → FAIL rõ ràng dù cố hết sức
-    → Pathway B: làm theo cảm hứng/body → SUCCEED dù không cố
-    → Contrast này buộc body nhận ra PATTERN:
-      "Ép = fail. Theo hứng = ngon. Tại sao?"
-    → NẾU pathway A "cũng tạm ok" → không có contrast → không nhận ra
+  CONDITION ① — STRONG ENOUGH CONTRAST:
+    → At least 2 pathways exist: A (forced/expected approach) and
+      B (body-guided approach)
+    → Pathway A: try hard the prescribed way → CLEAR FAILURE despite effort
+    → Pathway B: follow impulse/body → SUCCEED without effort
+    → Contrast forces the pattern-recognition:
+      "Force = fail. Follow body = works. Why?"
+    → IF pathway A "kinda works" → no contrast → pattern not detected
 
-    General case:
-      → Học sinh: ép học → điểm thấp, nghịch → chế được đồ
-      → Nhân viên: ép làm task ghét → kém, task thích → xuất sắc
-      → Vận động viên: ép tập kiểu A → chấn thương, kiểu B → vào flow
-    → Contrast phải ĐỦ RÕ. "Hơi kém" vs "hơi tốt" = không đủ detect.
+    General examples:
+      → Student: forced to study → low grades;
+        follows curiosity → builds things naturally
+      → Worker: forced to do tasks they hate → poor performance;
+        tasks they enjoy → excellent performance
+      → Athlete: forced method A → injury; method B → enters flow
+    → Contrast must be CLEAR ENOUGH.
+      "Slightly worse" vs "slightly better" = not enough to detect.
 
-  ĐIỀU KIỆN ② — URGENCY (buộc phải tìm hiểu):
-    → Environmental pressure tạo NECESSITY để hiểu "tại sao mình khác"
-    → Consequence đủ lớn → không thể "kệ, sống tiếp"
-    → Urgency = cortisol amplifier cho signal detection
-      (Cortisol-Baseline.md: cortisol TĂNG attention + hypervigilance)
+  CONDITION ② — URGENCY (must understand why):
+    → Environmental pressure creates NECESSITY to understand
+      "why I respond differently"
+    → Consequence large enough → cannot "just let it go and move on"
+    → Urgency = cortisol amplifier for signal detection
+      (Cortisol-Baseline.md: cortisol INCREASES attention + hypervigilance)
 
-    General case:
-      → Bị phạt/mắng vì fail pathway A → buộc tìm nguyên nhân
-      → Bị đuổi việc → buộc re-evaluate cách approach
-      → Sức khỏe suy giảm → buộc lắng nghe body
+    General examples:
+      → Punished/criticized for pathway A failures →
+        forced to find the root cause
+      → Lost a job → must re-evaluate approach
+      → Health declining → forced to listen to body
 
-    ⚠️ QUAN TRỌNG:
-      Urgency KHÔNG TẠO RA body-listening.
-      Urgency TẠO ĐỘNG LỰC để TÌM HIỂU tại sao body nói gì.
-      = Scolding as amplifier, not cause.
-      = Nếu urgency QUÁ CAO → shutdown/trauma (§5.3) thay vì discovery.
-      = Goldilocks: đủ pressure để tìm hiểu, không quá mức gây shutdown.
+    ⚠ IMPORTANT:
+      Urgency does NOT CREATE body-listening.
+      Urgency CREATES MOTIVATION to FIND OUT what body is saying.
+      = Pressure as amplifier, not cause.
+      = If urgency TOO HIGH → shutdown/trauma (§5.3) instead of discovery.
+      = Goldilocks: enough pressure to investigate,
+        not so much it causes shutdown.
 
-  ĐIỀU KIỆN ③ — SIGNAL ĐỦ LOUD (hardware-dependent):
-    → Body signal phải đến PFC đủ mạnh để PFC "nghe thấy"
-    → PFC-Hardware.md §3.4: COMT variant ảnh hưởng dopamine clearance
-    → Interoceptive sensitivity: mỗi người khác nhau (bẩm sinh + phát triển)
-    → Signal loud → contrast RÕ HƠN (ép = đau RÕ, hứng = pleasant RÕ)
-    → Signal nhẹ → contrast MỜ → cùng experience nhưng không detect pattern
+  CONDITION ③ — SIGNAL LOUD ENOUGH (hardware-dependent):
+    → Body signal must reach PFC strongly enough for PFC to "hear" it
+    → PFC-Hardware.md §3.4: COMT variant affects dopamine clearance
+    → Interoceptive sensitivity: varies per person (innate + developmental)
+    → Loud signal → contrast is CLEARER (force = clearly unpleasant,
+      body-guided = clearly pleasant)
+    → Quiet signal → contrast BLURRY → same experience but
+      pattern not detectable
 
     Evidence:
-      → Cùng gia đình, cùng áp lực:
-        Người A: "khó chịu không chịu nổi, bật lại ngay" (signal loud)
-        Người B: "im đi là xong, vô tư" (signal nhẹ hơn)
-      → Cùng stimulus, khác response = hardware khác
+      → Same family, same pressures:
+        Person A: "too uncomfortable to bear, push back immediately"
+          (loud signal)
+        Person B: "just go quiet, no big deal"
+          (quieter signal)
+      → Same stimulus, different response = different hardware
       → 🟢 Craig 2009: interoceptive accuracy varies significantly
         across individuals (measurable via heartbeat detection task)
 
 
-⭐ CẢ 3 PHẢI ĐỦ. THIẾU 1 = NATURAL DISCOVERY KHÔNG XẢY RA:
+⭐ ALL 3 MUST BE SUFFICIENT. MISSING ONE = NATURAL DISCOVERY DOESN'T HAPPEN:
 
-  Thiếu contrast → không có data so sánh → không thấy pattern
-  Thiếu urgency → có data nhưng không có động lực tìm hiểu → "kệ"
-  Thiếu signal → có data + động lực nhưng signal quá nhỏ → PFC miss
+  No contrast → no comparative data → no pattern visible
+  No urgency → data exists but no motivation to investigate → "whatever"
+  No signal → data + motivation but signal too small → PFC misses it
 
-  → Xác suất cả 3 ĐỦ = THẤP → natural discovery HIẾM
-  → Đa số người CẦN training (§3) → đây là lý do §3 tồn tại
-  → Natural discovery = lucky convergence, không phải "giỏi hơn"
+  → Probability of all 3 sufficient = LOW → natural discovery is RARE
+  → Most people NEED training (§3) → this is why §3 exists
+  → Natural discovery = lucky convergence, not "smarter" or "better"
 
 
 NATURAL DISCOVERY vs TRAINING — COMPLEMENTARY:
@@ -1433,7 +1491,7 @@ NATURAL DISCOVERY vs TRAINING — COMPLEMENTARY:
   ┌────────────────────────────────┬──────────────────────────────┐
   │ NATURAL DISCOVERY              │ TRAINING (§3)                │
   ├────────────────────────────────┼──────────────────────────────┤
-  │ Stage 1-3 develop through     │ Stage 1-5 develop through    │
+  │ Stages 1-3 develop through    │ Stages 1-5 develop through   │
   │ necessity-driven experience   │ deliberate practice          │
   │                                │                              │
   │ STRONG: body awareness,       │ STRONG: label, vocabulary,   │
@@ -1441,62 +1499,65 @@ NATURAL DISCOVERY vs TRAINING — COMPLEMENTARY:
   │                                │                              │
   │ WEAK: vocabulary (Stage 4),   │ WEAK: may lack urgency-      │
   │ meta-awareness (Stage 5)      │ driven depth of Stage 1-3    │
-  │ "Biết nhưng không nói được"   │ "Nói được nhưng chưa sâu"   │
+  │ "Body-knows but can't         │ "Can articulate but lacks    │
+  │  articulate"                  │  depth"                      │
   │                                │                              │
-  │ = Somatic-Articulation-Loop §1: body-knowledge      │ = Somatic-Articulation-Loop §4: explicit-knowledge │
-  │ without vocabulary yet        │ but may lack body-grounding  │
+  │ = Somatic-Articulation-Loop §1:│= Somatic-Articulation-Loop §4:│
+  │ body-knowledge without        │ explicit-knowledge but may   │
+  │ vocabulary yet                │ lack body-grounding          │
   └────────────────────────────────┴──────────────────────────────┘
 
-  → Natural discoverer CẦN training Stage 4-5 để articulate
-  → Trained person CẦN experience depth để ground Stage 1-3
+  → Natural discoverer NEEDS training Stage 4-5 to articulate
+  → Trained person NEEDS experience depth to ground Stage 1-3
   → BOTH pathways incomplete alone
   → COMBINATION = most complete literacy
 
 
-SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
+SCHEMA BARRIER — FOURTH FACTOR (cuts across all 3 conditions):
 
-  → Dù có đủ 3 điều kiện, schema [ý chí = tất cả] (§5.4) có thể BLOCK
-  → Contrast có → nhưng label "mình thiếu ý chí" (chỉ 1 interpretation)
-  → Urgency có → nhưng response "phải cố hơn nữa" (schema dictate)
-  → Signal loud → nhưng suppress "phải vượt qua, không chiều hư body"
-  → Schema phải LOOSEN trước khi 3 conditions có thể work
-  → Loosening cần NHIỀU contrary evidence + thời gian dài
-  → = Anchor-Schema.md: Trust cao = khó thay đổi
+  → Even with all 3 conditions, Willpower-First schema (§5.4)
+    can BLOCK discovery
+  → Contrast present → but label "I lack willpower" (only interpretation)
+  → Urgency present → but response "must try harder" (schema dictates)
+  → Signal loud → but suppressed: "must push through, don't coddle the body"
+  → Schema must LOOSEN before 3 conditions can work
+  → Loosening requires SUBSTANTIAL contrary evidence + long time
+  → = Anchor-Schema.md: High Trust = hard to change
 
 
 ⭐ TRAINING DESIGN INSIGHT — MIMIC NATURAL DISCOVERY:
 
-  Hiểu 3 conditions → thiết kế training MÔ PHỎNG:
+  Understanding 3 conditions → design training to REPLICATE:
 
-  ① TẠO CONTRAST an toàn:
-    → Cho learner THỬ CẢ HAI approach (ép vs theo body)
-    → Đo kết quả CẢ HAI → tự nhận ra pattern
-    → = Stage 3 training (§3.3) nhưng WITH BUILT-IN contrast
+  ① CREATE SAFE CONTRAST:
+    → Let learner TRY BOTH approaches (forced vs body-guided)
+    → Measure outcomes from BOTH → let them see the pattern themselves
+    → = Stage 3 training (§3.3) WITH BUILT-IN contrast
 
-  ② TẠO URGENCY an toàn (không phải qua pain):
-    → Feedback rõ ràng: "approach A kém hiệu quả 40%"
-    → Mục tiêu có ý nghĩa cá nhân → tạo MOTIVATION tìm hiểu
+  ② CREATE SAFE URGENCY (not through punishment):
+    → Clear feedback: "approach A is 40% less effective"
+    → Personally meaningful goals → create MOTIVATION to investigate
     → ≠ punishment/shame → = curiosity + relevance
     → = Safe urgency, not threat urgency
 
-  ③ BẮT ĐẦU VỚI STRONG SIGNALS:
+  ③ START WITH STRONG SIGNALS:
     → Stage 1 training (§3.1): start with physical sensations
     → Physical signals = loudest → easiest to detect
-    → Sau khi detect strong signals → mở rộng sang subtler signals
-    → = Already recommended in §3.1 — 3 conditions CONFIRM approach
+    → After detecting strong signals → extend to subtler ones
+    → = Already recommended in §3.1 — 3 conditions CONFIRM this approach
 
-  → 3 conditions model = EMPIRICAL VALIDATION cho §3 training design
-  → Natural discovery works VÌ nó có 3 conditions
-  → Good training CŨNG NÊN có 3 conditions (in safe form)
+  → 3 conditions model = EMPIRICAL VALIDATION for §3 training design
+  → Natural discovery works BECAUSE it has 3 conditions
+  → Good training SHOULD ALSO have 3 conditions (in safe form)
 
 
 🟡 CONFIDENCE:
-  → 3 conditions model = framework synthesis từ multiple observations
-  → Mỗi condition có research support riêng:
+  → 3 conditions model = framework synthesis from multiple observations
+  → Each condition has independent research support:
     ① Contrast = learning via comparison (🟢 well-established)
     ② Urgency = motivation × attention (🟢 well-established)
     ③ Signal = interoceptive sensitivity variation (🟢 Craig 2009)
-  → Integration của 3 thành model = 🟡 framework synthesis
+  → Integration of 3 into model = 🟡 framework synthesis
   → "All 3 necessary" claim = 🟡 logical but not directly tested
 ```
 
@@ -1521,10 +1582,11 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
      → Some languages have feeling words others lack:
        → German "Schadenfreude" (pleasure at other's misfortune)
        → Japanese "mono no aware" (bittersweet awareness of impermanence)
-       → Portuguese "saudade" (deep longing for absent something)
+       → Portuguese "saudade" (deep longing for the absent)
        → Danish "hygge" (cozy contentment in simple pleasures)
      → Each word = compiled chunk category in that culture
-     → People WITHOUT word: CAN feel it, but harder to IDENTIFY + COMMUNICATE
+     → People WITHOUT the word: CAN feel it, but harder to
+       IDENTIFY + COMMUNICATE
      → = Label-As-Handle: label = handle for retrieval, not creation of feeling
      → = Barrett 2017: emotional granularity varies across cultures 🟢
 
@@ -1536,7 +1598,8 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
      → = Feeling detection (internal) vs feeling expression (external) = DIFFERENT
 
   ③ BODY ATTENTION NORMS:
-     → Some cultures: body signals valued (traditional medicine, somatic practices)
+     → Some cultures: body signals valued
+       (traditional medicine, somatic practices)
      → Some cultures: body signals devalued ("mind over matter")
      → = Stage 1 (body awareness) baseline varies by culture
      → = Not biological difference — TRAINING difference
@@ -1563,7 +1626,8 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
 
   ① INFANCY (0-18 months):
      → Caregiver co-regulation = FOUNDATION for Stage 1
-     → Mother mirrors feelings: "Oh bạn đói" → first label-body links
+     → Caregiver mirrors feelings: "Oh, you're hungry" →
+       first label-body links
      → = F1: body-input compile begins, caregiver = external regulator
      → Damage here → alexithymia risk (§5.2)
      → 🟢 Attachment research: secure attachment → better interoception
@@ -1593,8 +1657,10 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
      → = Critical for Stage 3 (pattern) and Stage 5 (meta)
 
   ⑥ ADULT (30+):
-     → Literacy DIVERGES: reflective → grows. Non-reflective → calcifies.
-     → = 01b §2.3: probability is DYNAMIC — but only shifts with NEW experience
+     → Literacy DIVERGES: reflective → grows.
+       Non-reflective → calcifies.
+     → = 01b §2.3: probability is DYNAMIC — but only shifts with
+       NEW experience
      → Without new experience → old patterns lock in
      → With deliberate practice → wisdom accumulates
 
@@ -1603,7 +1669,8 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
     → Earlier = easier (fewer competing chunks to override)
     → Later = harder but NOT impossible (competitive re-linking: 01b §3)
     → NEVER too late — but effort scales with existing patterns
-    → = "An 80-year-old CAN develop feeling literacy — just slower than 8-year-old"
+    → = "An 80-year-old CAN develop feeling literacy —
+         just slower than an 8-year-old"
 ```
 
 ---
@@ -1622,12 +1689,15 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
   ✓ Felt shift measurable (galvanic skin response during Focusing)
   ✓ Alexithymia prevalence ~10% (Taylor 2000 TAS-20)
   ✓ Spreading activation probability-weighted (Collins & Loftus 1975)
-  ✓ Hebbian learning strengthens used pathways (Hebb 1949, modern confirmation)
+  ✓ Hebbian learning strengthens used pathways
+    (Hebb 1949, modern confirmation)
   ✓ Trauma disrupts body awareness (van der Kolk 2014, Levine 2010)
-  ✓ Titrated exposure effective for trauma (Levine 2010, Simulation-Engine validation)
+  ✓ Titrated exposure effective for trauma (Levine 2010)
   ✓ Attachment quality → interoceptive development (attachment research)
-  ✓ Cultural variation in emotional vocabulary (Barrett, Lindquist research)
-  ✓ Body shift predicts therapy outcome across modalities (Gendlin lineage)
+  ✓ Cultural variation in emotional vocabulary
+    (Barrett, Lindquist research)
+  ✓ Body shift predicts therapy outcome across modalities
+    (Gendlin lineage)
 
 
 🟡 MEDIUM CONFIDENCE — framework synthesis:
@@ -1643,12 +1713,12 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
     of Gendlin observation — mechanism claim not tested)
   ⚠ AI era → feeling literacy critical (logical argument from logic/feeling
     split — prediction about future, not current measurement)
-  ⚠ Self-Referencing Trap as "most dangerous" failure mode (logical from chunk model,
-    clinical observation supports, formal comparison lacking)
+  ⚠ Self-Referencing Trap as "most dangerous" failure mode (logical
+    from chunk model, clinical observation supports, formal comparison lacking)
   ⚠ Cultural suppression as chunk-level filter (consistent with social
     learning research, specific mechanism = framework proposal)
-  ⚠ Schema [ý chí = tất cả] as cross-cultural barrier (§5.4 enrichment:
-    logical from Anchor-Schema Trust model, parallel Reward-Calibration §8.1③)
+  ⚠ Willpower-First schema as cross-cultural barrier (§5.4: logical from
+    Anchor-Schema Trust model, parallel with Reward-Calibration §8.1③)
   ⚠ 3 conditions for natural discovery (§5.6: contrast + urgency + signal.
     Each condition research-grounded, integration = framework synthesis)
 
@@ -1661,8 +1731,8 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
     not measured
   ⚠ Meta-chunk recursive structure (chunks about chunks) — conceptually
     sound, neural implementation = frontier
-  ⚠ AI-as-catalyst for Focusing (Somatic-Articulation-Loop Type 3) — emerging practice,
-    not yet validated
+  ⚠ AI-as-catalyst for Focusing (Somatic-Articulation-Loop Type 3) —
+    emerging practice, not yet validated
 ```
 
 ### §7.2 — Falsifiable predictions
@@ -1672,7 +1742,7 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
 
   P-LT1: 5-stage sequential dependency
     → Prediction: Stage 1 training WITHOUT Stage 2 → overwhelm risk.
-      Stage 4 WITHOUT Stage 1-2 → "explicit giả" (verbal without body).
+      Stage 4 WITHOUT Stage 1-2 → Explicit-False (verbal without body).
     → Test: Compare training sequences: 1→2→3→4 vs 4→1 vs random.
       Sequential group should show better outcomes.
     → Status: 🟡 Consistent with clinical wisdom, no formal test
@@ -1681,19 +1751,19 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
     → Prediction: Focusing practitioners improve across ALL 5 measures
       (threshold, discrimination, pattern, label, meta) not just 1-2.
     → Test: Multi-dimensional assessment pre/post Focusing training.
-    → Status: 🟡 Gendlin research supports therapy outcome; 5-dimension
-      measurement = new
+    → Status: 🟡 Gendlin research supports therapy outcome;
+      5-dimension measurement = new
 
   P-LT3: Domain feedback prevents Self-Referencing Trap
     → Prediction: People who train feeling literacy WITH domain reality
       checks → more accurate feelings than those training WITHOUT.
-    → Test: Two groups: Focusing+domain vs Focusing-only. Compare
-      feeling accuracy against domain outcomes over 6 months.
+    → Test: Two groups: Focusing+domain vs Focusing-only.
+      Compare feeling accuracy against domain outcomes over 6 months.
     → Status: 🔴 Framework-specific prediction, not yet tested
 
   P-LT4: Cultural vocabulary → literacy
-    → Prediction: Learning emotion words from other languages → improved
-      feeling discrimination (not just labeling — ACTUAL detection).
+    → Prediction: Learning emotion words from other languages →
+      improved feeling discrimination (not just labeling — ACTUAL detection).
     → Test: Cross-language vocabulary training → measure interoceptive
       accuracy + discrimination tasks pre/post.
     → Status: 🟡 Barrett granularity research supports indirectly;
@@ -1717,15 +1787,14 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
   P-LT7: 3 conditions predict natural body-listening discovery (§5.6)
     → Prediction: People who developed body-listening NATURALLY (without
       training) will retrospectively report ALL 3 conditions:
-      ① strong contrast (forced path fail + natural path succeed)
+      ① strong contrast (forced path fails, natural path succeeds)
       ② urgency (environmental pressure to understand why different)
       ③ loud body signals (strong interoceptive sensitivity)
     → Test: Interview self-reported "body-listeners" (artists, athletes,
       therapists who describe intuitive body-guidance WITHOUT formal
       training). Assess 3 conditions via structured interview.
       Control: compare with trained body-listeners (meditation, therapy).
-    → Status: 🟡 Each condition well-established individually
-      (contrast learning, motivation research, interoceptive variation).
+    → Status: 🟡 Each condition well-established individually.
       Integration as 3-condition model = framework synthesis.
 
   P-LT8: Contrast-based training > standard training (§5.6 design insight)
@@ -1740,19 +1809,19 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
 ### §7.3 — Honest limits
 
 ```
-⚠️ WHAT THIS FILE DOES NOT CLAIM:
+⚠ WHAT THIS FILE DOES NOT CLAIM:
 
   ✗ "5-stage is the ONLY valid training framework"
     → Framework organizing. Other structures may capture same dynamics.
 
   ✗ "Everyone should train in this exact sequence"
-    → Individual variation massive. Entry point depends on baseline.
+    → Individual variation is massive. Entry point depends on baseline.
     → Trauma requires modified approach (§5.3).
 
   ✗ "Focusing is the only effective method"
     → Focusing is most integrated (trains all 5 stages).
     → But meditation, therapy, body practices all contribute.
-    → Best approach = combination suited to individual.
+    → Best approach = combination suited to the individual.
 
   ✗ "AI era makes feeling training urgent for everyone"
     → Framework argument, not empirical claim.
@@ -1778,38 +1847,43 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
 ```
 📚 WITHIN FEELING/ FOLDER:
 
-  Feeling.md               → 7-layer model (structure)
-  Feeling-Mechanism-Deep.md → 8-step flow, reward, gradient, quality (HOW)
-  Feeling-Accuracy.md §5-§7 → Literacy definition, stages, methods (WHAT)
-  Feeling-Sources.md       → WHERE feelings come from
-  Feeling-Research.md      → Research streams
-  FEELING-DEEP-PLAN.md     → Master plan for Feeling Deep Dive
+  Feeling.md                      → 7-layer model (structure)
+  Feeling-Mechanism-Deep-Draft.md → 8-step flow, reward, gradient,
+                                    quality (HOW)
+  Feeling-Accuracy-Draft.md §5-§7 → Literacy definition, stages,
+                                    methods (WHAT)
+  Feeling-Sources-Draft.md        → WHERE feelings come from
+  Feeling-Research.md             → Research streams
 
 
 📚 CHUNK-ANALYSIS DEPENDENCIES:
 
-  01b-Chunk-Activation-Dynamics  → §2 (probability), §3 (competitive re-linking)
-  01c-Chunk-Discovery-Lifecycle  → §2.3 (convergence zone), §2.5 (clarify)
-  02-Feeling-Intuition-Gradient  → Multi-Weak-Signal-Convergence
-  01-Chunk-Connection-Logical    → §2.4 (Type 4 deliberate linking)
-  04-Right-Wrong-Vague           → ACC detection (vague spectrum)
-  05-Insight-Tacit-Upgrade       → §2 (self-model as chunk system)
-  F1 Label-As-Handle              → Verbal-as-handle (Chunk.md §6)
-  F1 Direction-At-Compile         → Body-state direction, 3 update paths
-  F3                             → External install, social referencing
+  01b-Chunk-Activation-Dynamics.md → §2 (probability),
+                                      §3 (competitive re-linking)
+  01c-Chunk-Discovery-Lifecycle.md → §2.3 (convergence zone), §2.5 (clarify)
+  02-Feeling-Intuition-Gradient.md → Multi-Weak-Signal-Convergence
+  01-Chunk-Connection-Logical.md   → §2.4 (Type 4 deliberate linking)
+  04-Right-Wrong-Vague.md          → ACC detection (vague spectrum)
+  05-Insight-Tacit-Upgrade.md      → §2 (self-model as chunk system)
+  F1 Label-As-Handle               → Verbal-as-handle (Chunk.md §6)
+  F1 Direction-At-Compile          → Body-state direction, 3 update paths
+  F3                               → External install, social referencing
 
 
 📚 OTHER FRAMEWORK FILES:
 
-  Somatic-Articulation-Loop.md   → §2 (7-stage Somatic-Articulation-Loop mechanism), §4 (Gendlin),
-                                    §5 (AI era catalyst)
-  Logic-Feeling.md               → Parallel processing, Domain-Checked vs Self-Referencing
-  Logic-Feeling-Balance.md       → §6-§7 (cannot prescribe balance — parallel §5.6)
-  Logic-Planning.md              → AI = logic amplifier, Label 3-tier
-  Reward-Calibration.md          → §8.1③ schema [tiền = tốt nhất] (parallel §5.4 ý chí)
-  PFC-Hardware.md                → §3.4 COMT variant (§5.6 condition ③ hardware)
-  Neural-Processing-Flow.md      → Hardware pathway (integration hubs)
-  Body-Input-Enumeration.md §4.9 → Self-signal interoception keystone
+  Somatic-Articulation-Loop.md  → §2 (7-stage mechanism), §4 (Gendlin),
+                                   §5 (AI era catalyst)
+  Logic-Feeling.md              → Parallel processing,
+                                   Domain-Checked vs Self-Referencing
+  Logic-Feeling-Balance.md      → §6-§7 (cannot prescribe balance —
+                                   parallel §5.6)
+  Logic-Planning.md             → AI = logic amplifier, Label 3-tier
+  Reward-Calibration.md         → §8.1③ money-schema (parallel §5.4
+                                   willpower-schema)
+  PFC-Hardware.md               → §3.4 COMT variant (§5.6 condition ③
+                                   hardware)
+  Neural-Processing-Flow.md     → Hardware pathway (integration hubs)
 
 
 📚 KEY RESEARCH REFERENCES:
@@ -1838,28 +1912,34 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
     Chase H. & Simon H. (1973) — chess expertise patterns
 
   Cultural + developmental:
-    van der Kolk B. (2014) — "The Body Keeps the Score" (trauma + body)
+    van der Kolk B. (2014) — "The Body Keeps the Score"
+      (trauma + body)
     Grabe H.J. et al. (2008) — alexithymia improvement with intervention
-    Bowlby J. — attachment theory (foundation for developmental perspective)
+    Bowlby J. — attachment theory
+      (foundation for developmental perspective)
 ```
 
 ---
 
-> **END OF Feeling-Literacy-Training.md v1.0**
+> **END OF Feeling-Literacy-Training-Draft.md v1.1**
 >
 > **Summary:** HOW to improve feeling detection via chunk mechanism:
 >   §1: Literacy = f(threshold × library × labels × attribution × meta)
 >   §2: AI era → feeling = critical human skill (logic outsourced)
 >   §3: 5-stage training: Awareness → Discrimination → Pattern → Label → Meta
->   §4: Gendlin Focusing = Somatic-Articulation-Loop applied to feeling, trains all 5 stages
->   §5: 5 failure modes: cognitive override, alexithymia, trauma, cultural, Self-Referencing Trap
+>   §4: Gendlin Focusing = Somatic-Articulation-Loop applied to feeling,
+>       trains all 5 stages
+>   §5: 5 failure modes + natural discovery: cognitive override / alexithymia /
+>       trauma / cultural (Willpower-First schema) / Self-Referencing Trap;
+>       3 conditions for natural discovery
 >   §6: Cultural variation + developmental windows
->   §7: 13 🟢 + 8 🟡 + 3 🔴. 6 predictions. Honest limits.
+>   §7: 13 🟢 + 10 🟡 + 4 🔴. 8 predictions. Honest limits.
 >
 > **Companion files:**
 >   Feeling.md = WHAT feeling is (7-layer)
->   Feeling-Mechanism-Deep.md = HOW feeling works (mechanism)
+>   Feeling-Mechanism-Deep-Draft.md = HOW feeling works (mechanism)
 >   This file = HOW TO IMPROVE feeling (training)
->   Feeling-Chunk-Bridge.md (next) = HOW chunk system PRODUCES feeling
+>   Feeling-Chunk-Bridge-Draft.md = HOW chunk system PRODUCES feeling
 >
-> **Phiên bản:** v1.0, 2026-04-17.
+> **Version:** v1.1, 2026-04-17 (updated 2026-05-10).
+> English translation: 2026-06-09.

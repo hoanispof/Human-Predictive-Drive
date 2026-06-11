@@ -1,45 +1,46 @@
 ---
-title: Drill — Body-Base Boundary Spectrum × Compilation Defines Ownership × PFC Access 2D
+title: "Drill — Body-Base Boundary Spectrum × Compilation Defines Ownership × PFC Access 2D"
 version: 1.2
 created: 2026-06-04
 status: v1.2 REFINED
 scope: |
-  Phiên thảo luận phân tích: body-base boundary được DEFINE bởi compilation,
-  KHÔNG PHẢI bởi neural connection. 9 positions từ Entity-Owned → PFC Direct.
-  Insight mới: spectrum là 2D (compilation × connectivity), KHÔNG phải 1D (distance).
-  Viscera PHƠI BÀY: proximity ≠ access. Rubber hand: 120s = đủ cho body-schema update.
-  "Tay thật" cũng chỉ qua 5-7 relays — KHÔNG có neuron PFC nào tới tận tay.
-  CHAIN MECHANISM: mọi control đều indirect — thêm tool/prosthetic = thêm link.
-  Móng tay = BRIDGE tự nhiên (body part, 0 neural connection, compiled từ sinh).
-  LOSS MECHANISM: Chunk-Miss × unfillability — unified từ đũa tới con.
+  Analysis drill session: the body-base boundary is DEFINED by compilation,
+  NOT by neural connection. 9 positions from Entity-Owned → PFC Direct.
+  New insight: the spectrum is 2D (compilation × connectivity), NOT 1D (distance).
+  Viscera REVEALS: proximity ≠ access. Rubber hand: 120s = enough for body-schema update.
+  Even a "real hand" only reaches PFC through 5-7 relays — no PFC neuron reaches the hand directly.
+  CHAIN MECHANISM: all control is indirect — adding a tool/prosthetic = adding one more link.
+  Fingernail = natural BRIDGE (a body part, 0 neural connection, compiled from birth).
+  LOSS MECHANISM: Chunk-Miss × unfillability — unified from chopsticks to losing a child.
   "Entity's state = my state" = compressed prediction, NOT state-sharing.
-  "Xa mẹ" = proof: mẹ ổn, mình đau → baseline violation = mechanism.
-  PFC ACCESS (Bilateral Drill) = chiều ORTHOGONAL với body-base boundary.
+  "Missing your mother when away" = proof: mother is fine, I'm in pain → baseline violation = mechanism.
+  PFC ACCESS (Bilateral Drill) = ORTHOGONAL dimension to body-base boundary.
 source: Drill session 2026-06-04 (Body-base boundary analysis)
 output: Drill file (standalone, no formal file modified)
 related_output: Drill-Neural-Bilateral-Architecture.md v1.0 (PFC ACCESS spectrum)
-language: Tiếng Việt primary + English technical terms
+language: English translation of Vietnamese source (v1.2)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+source_file: Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Drill-Body-Base-Boundary-Spectrum.md
 ---
 
 # Drill — Body-Base Boundary Spectrum × Compilation Defines Ownership × PFC Access 2D
 
-> **Câu hỏi khởi đầu:** Entity-Owned, tay giả, PFC ACCESS spectrum —
-> cùng cơ chế hay khác?
+> **Opening question:** Entity-Owned, prosthetic hand, PFC ACCESS spectrum —
+> same mechanism or different?
 >
-> **Kết luận:** CÙNG NGUYÊN TẮC GỐC, KHÁC LEVEL.
-> Nguyên tắc: **Compilation, not connection, defines body-base boundary.**
-> Neural connection = chỉ 1 input pathway cho compilation.
+> **Conclusion:** THE SAME UNDERLYING PRINCIPLE, DIFFERENT LEVELS.
+> Principle: **Compilation, not connection, defines body-base boundary.**
+> Neural connection = only ONE input pathway for compilation.
 > Compilation CAN happen WITHOUT neural connection (entity, prosthetic, rubber hand).
 > Compilation CAN FAIL despite neural proximity (viscera, subcortical).
-> PFC ACCESS = chiều ORTHOGONAL — về visibility, không về boundary.
+> PFC ACCESS = ORTHOGONAL dimension — about visibility, not about boundary.
 >
-> **Spectrum không phải 1D (distance) mà 2D (compilation × connectivity).**
-> Viscera = proof: gần hơn tay VẬT LÝ, nhưng PFC access ÍT HƠN tay.
+> **The spectrum is not 1D (distance) but 2D (compilation × connectivity).**
+> Viscera = proof: physically closer than the hand, but LESS PFC access than the hand.
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §1 — FOUNDATION: "Body Evaluates Patterns, Not Reality"
 - §2 — SPECTRUM OVERVIEW: 9 POSITIONS
@@ -64,37 +65,39 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §1 — FOUNDATION: "Body Evaluates Patterns, Not Reality"
 
 ```
-⭐ NGUYÊN TẮC GỐC (Body-Base.md §2):
+⭐ ROOT PRINCIPLE (Body-Base.md §2):
 
-  Body respond to COMPILED PATTERN FIRE, not to INPUT CAUSE.
+  Body responds to COMPILED PATTERN FIRE, not to INPUT CAUSE.
 
   6 SUPPORTING CASES (Body-Base.md §2):
-    ① Phantom limb pain: KHÔNG có chân → pattern VẪN fire → đau thật
-    ② Placebo nausea: đường → installed pattern fire → nôn thật
-    ③ Moral disgust: KHÔNG có độc → same insula fire → "buồn nôn" thật
-    ④ Anxiety nausea: KHÔNG có chất độc → fear pattern → nôn thật
-    ⑤ Vicarious nausea: empathy pattern → nôn thật khi NHÌN người khác nôn
-    ⑥ Morning sickness: PREDICTIVE pattern fire TRƯỚC actual toxin
+    ① Phantom limb pain: NO limb present → pattern STILL fires → real pain
+    ② Placebo nausea: sugar pill → installed pattern fires → real vomiting
+    ③ Moral disgust: NO toxin → same insula fires → real "nausea"
+    ④ Anxiety nausea: NO toxin → fear pattern → real vomiting
+    ⑤ Vicarious nausea: empathy pattern → real nausea watching someone else vomit
+    ⑥ Morning sickness: PREDICTIVE pattern fires BEFORE actual toxin
 
-  HỆ QUẢ CHO BODY-BASE BOUNDARY:
-    Nếu body respond to PATTERNS, không phải REALITY:
+  IMPLICATION FOR BODY-BASE BOUNDARY:
+    If body responds to PATTERNS, not REALITY:
     → Body-base boundary = COMPILED PATTERN boundary
-    → KHÔNG PHẢI physical/neural boundary
-    → Bất kỳ thứ gì COMPILED vào body-schema = body treat AS PART OF ME
-    → Bất kỳ thứ gì KHÔNG compiled = body treat AS EXTERNAL
+    → NOT a physical/neural boundary
+    → Anything COMPILED into body-schema = body treats AS PART OF ME
+    → Anything NOT compiled = body treats AS EXTERNAL
     → Neural connection = just ONE INPUT PATHWAY for compilation
     → Compilation CAN happen WITHOUT neural connection
     → Compilation CAN FAIL despite neural proximity
 
-  ĐÂY LÀ INSIGHT GỐC CỦA DRILL NÀY:
+  THIS IS THE CORE INSIGHT OF THIS DRILL:
     → Body-base membership = f(compilation), NOT f(neural wiring)
-    → "Tay tôi" = compiled representation, KHÔNG PHẢI "neuron tới tận tay"
-    → "Mẹ tôi" = compiled representation, KHÔNG PHẢI physical connection
-    → "Ruột tôi" = physically INSIDE nhưng PFC access hạn chế
-    → "Móng tay tôi" = body part thật, 0 neuron trong móng, compiled qua nail bed
-    → "Đũa trong tay" = 0 neural, compiled tạm khi dùng, retract khi buông
-    → = CÙNG nguyên tắc, KHÁC parameters
-    → = Body-base ĐÃ bao gồm non-neural parts TỪ ĐẦU (móng, tóc, da ngoài)
+    → "My hand" = a compiled representation, NOT "neurons reaching the hand"
+    → "My mother" = a compiled representation, NOT a physical connection
+    → "My gut" = physically INSIDE but PFC access is limited
+    → "My fingernail" = a real body part, 0 neurons inside the nail, compiled
+        via nail bed
+    → "Chopsticks in my hand" = 0 neural connection, compiled temporarily while
+        in use, retracted when put down
+    → = THE SAME principle, DIFFERENT parameters
+    → = Body-base HAS ALWAYS included non-neural parts (nails, hair, outer skin)
 
   🟢 Body-Base.md §2: "body evaluates patterns, not reality" (7 converging cases)
   🟢 Ramachandran & Rogers-Ramachandran 1996 (phantom limb)
@@ -111,8 +114,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Pos │ Case                     │ Neural    │ Channels compiled │ Key insight             │
   │     │                          │ connection│                  │                         │
   ├─────┼──────────────────────────┼───────────┼──────────────────┼────────────────────────┤
-  │  0  │ Entity-Owned             │ 0         │ Agent-specific    │ Body-BASE extension     │
-  │     │ (another person)         │ (2 brains)│ (Self-Pattern-    │ across nervous systems  │
+  │  0  │ Entity-Owned             │ 0         │ Agent-specific    │ Body-BASE extension    │
+  │     │ (another person)         │ (2 brains)│ (Self-Pattern-   │ across nervous systems  │
   │     │                          │           │  Modeling)        │                         │
   ├─────┼──────────────────────────┼───────────┼──────────────────┼────────────────────────┤
   │  1  │ Rubber Hand Illusion     │ 0         │ Visual + tactile │ ~120s = enough.         │
@@ -140,23 +143,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │     │                          │ SELF      │                  │ loses to compiled.      │
   └─────┴──────────────────────────┴───────────┴──────────────────┴────────────────────────┘
 
-  ⭐ Position 7 (Viscera) = PHÁ VỠ naive model
-    Physically gần hơn tay, nhưng PFC access ÍT HƠN tay.
-    → Spectrum KHÔNG phải 1D (distance → access).
+  ⭐ Position 7 (Viscera) = BREAKS THE NAIVE MODEL
+    Physically closer than the hand, but LESS PFC access than the hand.
+    → Spectrum is NOT 1D (distance → access).
     → Spectrum = 2D (compilation channels × connectivity architecture).
 
-  ⭐ CHAIN MECHANISM (§9): MỌI control đều qua chain, KHÔNG BAO GIỜ direct.
-    → PFC → [5-7 relays] → tay. Thêm đũa/prosthetic = thêm 1 link.
-    → Móng tay = body part THẬT, 0 neuron → body ĐÃ bao gồm non-neural.
-    → = KHÔNG CÓ qualitative jump giữa "body part" và "tool extension."
+  ⭐ CHAIN MECHANISM (§9): ALL control goes through a chain, NEVER direct.
+    → PFC → [5-7 relays] → hand. Adding chopsticks/prosthetic = adding 1 link.
+    → Fingernail = a REAL body part, 0 neurons inside → body HAS ALWAYS included
+        non-neural parts.
+    → = NO qualitative jump between "body part" and "tool extension."
 
-  ⭐⭐ LOSS MECHANISM (§12): TẠI SAO KHÁC VỊ TRÍ = KHÁC MỨC ĐAU?
+  ⭐⭐ LOSS MECHANISM (§12): WHY DIFFERENT POSITIONS = DIFFERENT LEVELS OF PAIN?
     Loss pain = Chunk-Miss on compiled baseline × predicted unfillability
-    → Đũa: shallow baseline, instant replace → pain ≈ 0
-    → Con mất: deepest baseline, permanent unfillable → max grief
-    → CÙNG mechanism, khác parameters.
+    → Chopsticks: shallow baseline, instant replacement → pain ≈ 0
+    → Losing a child: deepest baseline, permanently unfillable → maximum grief
+    → THE SAME mechanism, different parameters.
     → "Entity's state = my state" = compressed prediction, NOT state-sharing.
-    → "Xa mẹ" = proof: mẹ ổn, mình đau → baseline violated.
+    → "Missing your mother when you leave home" = proof: mother is fine, I'm
+        in pain → baseline violated.
 ```
 
 ---
@@ -164,51 +169,60 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §3 — POS 0: ENTITY-OWNED (Agent Extension)
 
 ```
-⭐ BODY-BASE EXTENSION QUA AGENT COMPILATION (0 neural connection):
+⭐ BODY-BASE EXTENSION VIA AGENT COMPILATION (0 neural connection):
 
-  NEURAL CONNECTION: 0 — hai nervous systems hoàn toàn riêng biệt.
-  COMPILATION INPUT: Self-Pattern-Modeling interactions, multi-gap fill episodes, valence compilation
-  CHANNELS COMPILED: Agent-specific (Self-Pattern-Modeling, valence, multi-gap) — KHÔNG có somatosensory
+  NEURAL CONNECTION: 0 — two nervous systems completely separate.
+  COMPILATION INPUT: Self-Pattern-Modeling interactions, multi-gap fill episodes,
+    valence compilation
+  CHANNELS COMPILED: Agent-specific (Self-Pattern-Modeling, valence, multi-gap)
+    — NO somatosensory
 
   MECHANISM (Entity-Valence-Dynamics §2):
-    Per-agent valence compile ĐỦ SÂU:
-    → Body chuyển từ "agent X ảnh hưởng tôi" → "agent X's state = MY state"
-    → Agent TRỞ THÀNH phần mở rộng body-base
-    → = STRUCTURAL, SUSTAINED — không phụ thuộc từng episode
+    Per-agent valence compiled DEEPLY ENOUGH:
+    → Body shifts from "agent X affects me" → "agent X's state = MY state"
+    → Agent BECOMES a body-base extension
+    → = STRUCTURAL, SUSTAINED — not dependent on individual episodes
 
   EVIDENCE THAT PAIN IS SHARED (no neural connection):
     🟢 Singer et al. 2004 (Science):
-       Watching partner receive pain → ACC + anterior insula fire
-       = CÙNG pain matrix components fire trong OBSERVER
-       = Body respond to PREDICTED entity-pain, not actual own-pain
+       Watching a partner receive pain → ACC + anterior insula fire
+       = THE SAME pain matrix components fire in the OBSERVER
+       = Body responds to PREDICTED entity-pain, not actual own-pain
     🟢 Eisenberger 2003:
-       Social pain (rejection) activate CÙNG neural pathways (dACC)
-       = Social pain = physical pain ở substrate level
+       Social pain (rejection) activates THE SAME neural pathways (dACC)
+       = Social pain = physical pain at the substrate level
     🟢 Mitchell 2006, Tamir & Mitchell 2010:
-       Close others processed in CÙNG vmPFC circuits với SELF
-       = Brain represent close entity SIMILAR TO representing self
+       Close others processed in THE SAME vmPFC circuits as SELF
+       = Brain represents a close entity SIMILARLY to how it represents the self
 
   ENTITY-OWNED UNIQUE PROPERTIES (Drill-Entity-Owned §2):
-    → 5-factor model: Agent-mode × multi-gap × quality × access × Entity-Compiled depth
-    → REQUIRES agent (Self-Pattern-Modeling predict internal STATE, not just function)
-    → Object CANNOT → no bidirectional Self-Pattern-Modeling, no internal state to predict
+    → 5-factor model: Agent-mode × multi-gap × quality × access ×
+        Entity-Compiled depth
+    → REQUIRES an agent (Self-Pattern-Modeling predicts internal STATE,
+        not just function)
+    → Object CANNOT → no bidirectional Self-Pattern-Modeling, no internal
+        state to predict
     → Loss = body-base AMPUTATION (Eisenberger: social pain = physical pain)
-    → "Mất nhà = stress tài chính. Mất con = mất phần cơ thể." (Entity-Valence-Dynamics §2)
+    → "Losing a house = financial stress. Losing a child = losing a body part."
+        (Entity-Valence-Dynamics §2)
 
   THREAT TO ENTITY = THREAT TO SELF:
-    → Ai đe dọa con → body response: cortisol ↑, sympathetic ↑, protective drive
+    → Someone threatens a child → body response: cortisol ↑, sympathetic ↑,
+        protective drive
     → = Compiled pattern: "entity's threat = MY threat"
-    → Body fire defensive response cho entity NGOÀI body-base vật lý
-    → NHƯNG: không đau ở TAY MÌNH khi con gẫy tay
-    → = EMOTIONAL channel, không map lên somatosensory topography
+    → Body fires defensive response for an entity OUTSIDE the physical body-base
+    → BUT: the child breaking a limb does NOT cause pain in MY limb
+    → = EMOTIONAL channel, does NOT map onto somatosensory topography
 
-  MECHANISM GỐC (→ §12 Loss Mechanism):
-    Entity compiled deep → fills NHIỀU gaps uniquely → part of baseline
-    Entity threatened → gap-fillability THREATENED → body respond
+  ROOT MECHANISM (→ §12 Loss Mechanism):
+    Entity compiled deep → fills MANY gaps uniquely → part of baseline
+    Entity threatened → gap-fillability THREATENED → body responds
     "Entity's state = my state" = compressed prediction over gap-fillability
-    Self-Pattern-Modeling predict entity state → predict gap-fillability change → body respond
-    Yếu tố chính: total gap body-need being fed, KHÔNG PHẢI state-sharing
-    "Xa mẹ" = proof: mẹ ổn, MÌNH đau → baseline violated, KHÔNG phải state transfer
+    Self-Pattern-Modeling predicts entity state → predicts gap-fillability change
+      → body responds
+    Key factor: total gap Body-Need being fed, NOT state-sharing
+    "Missing your mother when away" = proof: mother is fine, I'M in pain →
+      baseline violated, NOT state transfer
 
   🟢 Singer 2004, Eisenberger 2003, Mitchell 2006
   🟡 Entity-Owned 5-factor, body-base extension = framework synthesis
@@ -220,61 +234,66 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §4 — POS 1: RUBBER HAND ILLUSION (~120s Bayesian Update)
 
 ```
-⭐⭐ BODY-SCHEMA EXTENSION TRONG ~120 GIÂY (0 neural connection):
+⭐⭐ BODY-SCHEMA EXTENSION IN ~120 SECONDS (0 neural connection):
 
-  NEURAL CONNECTION: 0 — tay cao su = object, không có neural wiring
-  COMPILATION INPUT: Visual (nhìn tay cao su) + Tactile (cọ tay thật + tay cao su đồng bộ)
-  DURATION: ~120 giây synchronous stroking → illusion emerge
+  NEURAL CONNECTION: 0 — rubber hand = object, no neural wiring
+  COMPILATION INPUT: Visual (watching the rubber hand) + Tactile (stroking real
+    hand + rubber hand simultaneously)
+  DURATION: ~120 seconds synchronous stroking → illusion emerges
   CHANNELS: Visual + tactile proxy → body-schema UPDATE
 
-  THÍ NGHIỆM KINH ĐIỂN:
+  CLASSIC EXPERIMENT:
     🟢 Botvinick & Cohen 1998 (Nature):
-      Setup: tay thật giấu sau tấm che. Tay cao su đặt trước mặt.
-      Manipulation: cọ tay thật + tay cao su ĐỒNG THỜI (~2 phút)
-      Result ①: Proprioceptive drift — cảm giác tay thật "dịch" về phía tay cao su
-        = Brain đã UPDATE vị trí tay trong body-schema
-      Result ②: Ownership illusion — "tay cao su = tay tôi"
+      Setup: real hand hidden behind a screen. Rubber hand placed in front.
+      Manipulation: stroke real hand + rubber hand SIMULTANEOUSLY (~2 minutes)
+      Result ①: Proprioceptive drift — sense that real hand "shifts" toward
+        the rubber hand
+        = Brain has UPDATED the hand's position in body-schema
+      Result ②: Ownership illusion — "the rubber hand = my hand"
 
-  PHƠI BÀY MECHANISM: BAYESIAN INFERENCE
+  REVEALS THE MECHANISM: BAYESIAN INFERENCE
     🟢 Tsakiris & Haggard 2005:
-      CHỈ synchronous stroking → illusion ✓
-      Asynchronous stroking → KHÔNG có illusion ✗
-      → Brain dùng TEMPORAL CORRELATION để INFER ownership
-      → = Statistical inference: "visual + tactile correlate → PROBABLY same body part"
-      → = KHÔNG phải conscious belief. KHÔNG phải PFC decision.
-      → = Body-schema update = AUTOMATIC Bayesian update trên sensory input
+      ONLY synchronous stroking → illusion ✓
+      Asynchronous stroking → NO illusion ✗
+      → Brain uses TEMPORAL CORRELATION to INFER ownership
+      → = Statistical inference: "visual + tactile correlate → PROBABLY same
+          body part"
+      → = NOT a conscious belief. NOT a PFC decision.
+      → = Body-schema update = AUTOMATIC Bayesian update on sensory input
 
   THREAT RESPONSE (key evidence):
     🟢 Armel & Ramachandran 2003:
-      Sau illusion: đe dọa tay cao su bằng kim
-      → Skin Conductance Response (SCR) TĂNG MẠNH
-      → = Body phản ứng phòng vệ cho cái KHÔNG PHẢI tay mình
-      → = Brain ĐÃ UPDATE body-schema → rubber hand = "tay tôi" → threat = real
+      After illusion: threaten rubber hand with a needle
+      → Skin Conductance Response (SCR) INCREASES STRONGLY
+      → = Body fires a defensive response for something that is NOT my hand
+      → = Brain HAS UPDATED body-schema → rubber hand = "my hand" →
+          threat is real
 
     🟢 Ehrsson et al. 2004 (Science):
       fMRI during rubber hand illusion:
       → Premotor cortex + intraparietal sulcus ACTIVATE
-      → = CÙNG vùng xử lý body ownership cho tay thật
-      → = Brain process rubber hand QUA CÙNG CIRCUITS với real hand
+      → = THE SAME regions that process body ownership for the real hand
+      → = Brain processes rubber hand THROUGH THE SAME CIRCUITS as real hand
 
-  TẠI SAO POSITION NÀY QUAN TRỌNG:
-    → Basic prosthetic: cần MONTHS/YEARS of use → deep compilation
-    → Rubber hand: cần ~120 SECONDS → SHALLOW nhưng ĐỦ cho defensive response
-    → = Shows MINIMUM CONDITIONS cho body-schema extension:
-      ① Visual input (nhìn thấy)
-      ② Temporal correlation (đồng bộ visual + tactile)
+  WHY THIS POSITION MATTERS:
+    → Basic prosthetic: needs MONTHS/YEARS of use → deep compilation
+    → Rubber hand: needs ~120 SECONDS → SHALLOW but ENOUGH for defensive response
+    → = Shows MINIMUM CONDITIONS for body-schema extension:
+      ① Visual input (visible)
+      ② Temporal correlation (synchronized visual + tactile)
       ③ ~120 seconds (compilation time)
-      ④ = ENOUGH cho body-schema update + threat response
-    → Phơi bày: ownership = INFERENCE from sensory correlation, not fact
+      ④ = ENOUGH for body-schema update + threat response
+    → Reveals: ownership = INFERENCE from sensory correlation, not fact
 
   FRAMEWORK FIT:
     "Body evaluates PATTERNS, not reality" (Body-Base.md §2):
     → Pattern: "visual + tactile correlate → same body part" (Bayesian prior)
-    → Reality: tay cao su, không phải tay tôi
-    → Body follow: PATTERN → update body-schema → respond to threat
+    → Reality: rubber hand, not my hand
+    → Body follows: PATTERN → updates body-schema → responds to threat
     → = Body-schema update = COMPILATION (fast, shallow, but REAL)
 
-  🟢 Botvinick & Cohen 1998, Armel & Ramachandran 2003, Ehrsson 2004, Tsakiris & Haggard 2005
+  🟢 Botvinick & Cohen 1998, Armel & Ramachandran 2003, Ehrsson 2004,
+     Tsakiris & Haggard 2005
   🟡 Bayesian body-schema inference mapping to compilation = framework synthesis
 ```
 
@@ -283,56 +302,59 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §5 — POS 2: TOOL-IN-HAND (Dynamic + Reversible)
 
 ```
-⭐ BODY-SCHEMA EXTENSION — DYNAMIC VÀ REVERSIBLE:
+⭐ BODY-SCHEMA EXTENSION — DYNAMIC AND REVERSIBLE:
 
   NEURAL CONNECTION: 0 — tool = object
-  COMPILATION INPUT: Visual + motor feedback (cầm tool, dùng tool)
+  COMPILATION INPUT: Visual + motor feedback (grasping tool, using tool)
   DURATION: within minutes of use
-  KEY DIFFERENCE: đặt tool xuống → extension RETRACT
+  KEY DIFFERENCE: put the tool down → extension RETRACTS
 
   🟢 Iriki, Tanaka & Iwamura 1996 (NeuroReport):
-    Macaques dùng que gắp thức ăn
+    Macaques using a rake to retrieve food
     → Bimodal neurons (parietal intraparietal sulcus):
-      TRƯỚC khi dùng: receptive field = chỉ quanh tay
-      TRONG KHI dùng: receptive field EXTEND → bao gồm toàn bộ cái que
-      SAU KHI đặt xuống: receptive field RETRACT → về kích thước cũ
-    → = Body-schema extension DYNAMIC — gắn liền với ACTIVE USE
+      BEFORE using: receptive field = only around the hand
+      WHILE using: receptive field EXTENDS → covers the entire rake
+      AFTER putting down: receptive field RETRACTS → returns to original size
+    → = Body-schema extension is DYNAMIC — tied to ACTIVE USE
 
   🟢 Cardinali et al. 2009 (Current Biology):
-    Sau khi dùng tool:
-    → Arm kinematics THAY ĐỔI (reaches longer, grasp adjusted)
-    → = Body-schema update KHÔNG CHỈ "representation" — thay đổi MOTOR PLANNING
-    → Body THỰC SỰ treat tool-extended arm AS LONGER ARM
+    After using a tool:
+    → Arm kinematics CHANGE (reaches longer, grasp adjusted)
+    → = Body-schema update is NOT only "representation" — changes MOTOR PLANNING
+    → Body ACTUALLY treats the tool-extended arm AS A LONGER ARM
 
   🟢 Farnè & Làdavas 2000:
     Tool-use → peripersonal space EXTENDS to tool tip
     → Objects near tool tip trigger SAME defensive neurons as objects near hand
-    → = "Vùng an toàn" mở rộng theo tool
+    → = "Safety zone" expands with the tool
 
   🟢 Maravita & Iriki 2004 (review, Trends in Cognitive Sciences):
     Cross-modal body-schema integration:
     → Visual + proprioceptive + motor signals integrated → body-schema update
-    → Tool = body extension khi active use
-    → = Brain KHÔNG phân biệt "biological vs tool" — chỉ check sensory correlation
+    → Tool = body extension during active use
+    → = Brain does NOT distinguish "biological vs tool" — only checks sensory
+        correlation
 
   SPECTRUM POSITION — WHY SEPARATE FROM RUBBER HAND:
-    Rubber hand (Pos 1): PASSIVE (được cọ) → Bayesian update từ CORRELATION
-    Tool-in-hand (Pos 2): ACTIVE (dùng tool) → update từ MOTOR + VISUAL feedback
-    → Active use = stronger compilation signal (efference copy confirm)
-    → NHƯNG: vẫn REVERSIBLE (đặt xuống → retract)
+    Rubber hand (Pos 1): PASSIVE (being stroked) → Bayesian update from CORRELATION
+    Tool-in-Hand (Pos 2): ACTIVE (using tool) → update from MOTOR + VISUAL feedback
+    → Active use = stronger compilation signal (efference copy confirms)
+    → BUT: still REVERSIBLE (put down → retracts)
 
   FRAMEWORK FIT:
     1 Engine = Hebbian (Compile-Taxonomy v3.0):
-    → Tool-use: repeated motor-visual correlation → Hebbian strengthen → body-schema extend
-    → Stop: no more correlation → Hebbian weaken → retract
+    → Tool-use: repeated motor-visual correlation → Hebbian strengthening →
+        body-schema extends
+    → Stop: no more correlation → Hebbian weakens → retracts
     → = SAME compilation engine, DYNAMIC application
 
   CHAIN INSIGHT (→ §9 Chain Mechanism):
-    PFC → [5-7 relays] → tay → [cầm] → đũa
-    → PFC đã KHÔNG trực tiếp control tay (5-7 relays)
-    → Thêm đũa = thêm 1 link vào chain ĐÃ indirect sẵn
-    → = KHÔNG có qualitative jump giữa "dùng tay" và "dùng đũa"
-    → Tương tự: cạy đồ bằng móng tay (0 neuron trong móng) = cùng pattern
+    PFC → [5-7 relays] → hand → [holds] → chopsticks
+    → PFC already does NOT directly control the hand (5-7 relays)
+    → Adding chopsticks = adding 1 link to a chain that is ALREADY indirect
+    → = NO qualitative jump between "using a hand" and "using chopsticks"
+    → Similar: prying things with fingernails (0 neurons inside the nail) =
+        same pattern
 
   🟢 Iriki 1996, Cardinali 2009, Farnè & Làdavas 2000, Maravita & Iriki 2004
 ```
@@ -344,23 +366,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ BODY-SCHEMA EXTENSION — CHRONIC, PERSISTENT:
 
-  NEURAL CONNECTION: 0 — prosthetic = object gắn vào body surface
-  COMPILATION INPUT: Visual (nhìn thấy mỗi ngày) + Motor (điều khiển dù cơ học)
+  NEURAL CONNECTION: 0 — prosthetic = object attached to body surface
+  COMPILATION INPUT: Visual (seen every day) + Motor (controlling it even
+    if mechanical)
   DURATION: months-years of daily use
-  KEY DIFFERENCE từ tool: CHRONIC use → DEEPER compilation → more persistent
+  KEY DIFFERENCE from tool: CHRONIC use → DEEPER compilation → more persistent
 
   CHANNELS COMPILED:
-    ✓ Visual (nhìn thấy prosthetic mỗi ngày — STRONG)
-    ✓ Motor-feedback (ý định cử động → prosthetic cử động — MODERATE)
-    ✓ Proprioceptive-proxy (vị trí prosthetic → visual estimation — PARTIAL)
-    ✗ Somatosensory (không feel touch — MISSING)
-    ✗ Thermal (không feel nóng lạnh — MISSING)
-    ✗ Nociceptive (không feel pain trực tiếp — MISSING)
+    ✓ Visual (seeing prosthetic every day — STRONG)
+    ✓ Motor-feedback (intention to move → prosthetic moves — MODERATE)
+    ✓ Proprioceptive-proxy (prosthetic position → visual estimation — PARTIAL)
+    ✗ Somatosensory (no touch sensation — MISSING)
+    ✗ Thermal (no sensing hot/cold — MISSING)
+    ✗ Nociceptive (no direct pain sensation — MISSING)
 
   🟢 Murray 2004:
     Prosthetic limb users report genuine body-schema integration
-    → Prosthetic "cảm thấy" là phần cơ thể
-    → NHƯNG: degree varies with use time, type, fit quality
+    → Prosthetic "feels like" a body part
+    → BUT: degree varies with use time, type, fit quality
 
   🟢 De Preester & Tsakiris 2009:
     Prosthetic embodiment depends on SENSORY FEEDBACK LOOP:
@@ -368,32 +391,35 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → More sensory channels → deeper embodiment
     → = Compilation depth = f(number of channels × use duration)
 
-  BẤT NGỜ GẪY TAY GIẢ — PREDICTION:
-    → Visual: "TAY TÔI gẫy" → body-image violation → startle + distress ✓
-    → Functional loss: "không cầm được nữa" → gap-miss → frustration ✓
-    → Identity disruption: "phần cơ thể tôi bị hỏng" → distress ✓
-    → Somatosensory pain: ✗ UNLIKELY (channel không compiled)
+  THE PROSTHETIC SUDDENLY BREAKS — PREDICTIONS:
+    → Visual: "MY HAND breaks" → body-image violation → startle + distress ✓
+    → Functional loss: "can't hold things anymore" → gap-miss → frustration ✓
+    → Identity disruption: "part of my body is broken" → distress ✓
+    → Somatosensory pain: ✗ UNLIKELY (channel not compiled)
 
-    TỔNG: DISTRESS (real, body-level) nhưng KHÔNG phải somatic pain.
-    MỨC ĐỘ: > mất đồ vật thường (vì body-schema compiled) < mất tay thật (ít channels)
+    TOTAL: REAL distress (body-level) but NOT somatic pain.
+    DEGREE: > losing a regular object (because body-schema compiled)
+             < losing the real hand (fewer channels)
 
-    ⭐ SO SÁNH mất prosthetic vs mất đồ vật vs mất tay thật:
+    ⭐ COMPARISON — losing prosthetic vs losing an object vs losing the real hand:
 
-    ┌──────────────────┬──────────────────┬────────────────────────────────┐
-    │ Mất đồ vật       │ Mất prosthetic   │ Mất tay thật                  │
-    │ (cốc, bàn)       │ (dùng 10 năm)    │                               │
-    ├──────────────────┼──────────────────┼────────────────────────────────┤
-    │ Visual only       │ Visual + motor   │ ALL channels                  │
-    │ NOT body-schema   │ IN body-schema   │ DEEP body-schema              │
-    │ "Tiếc" (schema)   │ "Mất phần thân"  │ "Body-base amputation"        │
-    │ Replace: easy     │ Replace: hard    │ Replace: impossible           │
-    └──────────────────┴──────────────────┴────────────────────────────────┘
+    ┌────────────────────┬──────────────────┬────────────────────────────────┐
+    │ Losing an object   │ Losing prosthetic│ Losing the real hand           │
+    │ (a cup, a table)   │ (used 10 years)  │                                │
+    ├────────────────────┼──────────────────┼────────────────────────────────┤
+    │ Visual only        │ Visual + motor   │ ALL channels                   │
+    │ NOT body-schema    │ IN body-schema   │ DEEP body-schema               │
+    │ "Regret" (schema)  │ "Lost a body     │ "Body-base amputation"         │
+    │                    │  part"           │                                │
+    │ Replace: easy      │ Replace: hard    │ Replace: impossible            │
+    └────────────────────┴──────────────────┴────────────────────────────────┘
 
   CHAIN INSIGHT (→ §9 Chain Mechanism):
-    PFC → [5-7 relays] → cánh tay cụt → [socket] → tay giả
-    → Cùng pattern với đũa: PFC → relays → body part → extension
-    → Khác đũa CHỈ Ở: duration (chronic vs temporary), attachment (fixed vs held)
-    → Tay thật cũng đã 5-7 relays — prosthetic chỉ thêm 1 link
+    PFC → [5-7 relays] → residual limb → [socket] → prosthetic hand
+    → Same pattern as chopsticks: PFC → relays → body part → extension
+    → Differs from chopsticks ONLY IN: duration (chronic vs temporary),
+        attachment (fixed vs held)
+    → Real hand is also 5-7 relays — prosthetic just adds 1 link
 
   🟢 Murray 2004, De Preester & Tsakiris 2009
   🟡 Distress prediction on prosthetic break = framework synthesis
@@ -404,30 +430,30 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §7 — POS 4: PROSTHETIC + PHANTOM (Residual Map Merge)
 
 ```
-⭐⭐ CASE THÚ VỊ NHẤT: 2 REPRESENTATIONS MERGE:
+⭐⭐ MOST INTERESTING CASE: 2 REPRESENTATIONS MERGE:
 
-  NEURAL CONNECTION: 0 tới prosthetic — NHƯNG stump VẪN CÓ nerves
-    + PHANTOM MAP vẫn tồn tại trong somatosensory cortex (S1)
+  NEURAL CONNECTION: 0 to prosthetic — BUT stump STILL HAS nerves
+    + PHANTOM MAP still exists in somatosensory cortex (S1)
   COMPILATION: Visual(prosthetic) + Motor + RESIDUAL somatosensory(phantom)
 
   MECHANISM — 2 REPRESENTATIONS:
-    ① PHANTOM: body-schema map compiled TRƯỚC amputation → PERSISTS sau cắt
-       → Penfield homunculus: vùng S1 cho tay VẪN CÒN dù tay đã mất
-       → Phantom limb: brain fire compiled map → sensation KHÔNG CÓ input
-       → = Body evaluates PATTERN (compiled map fire), not reality (tay đã mất)
+    ① PHANTOM: body-schema map compiled BEFORE amputation → PERSISTS after cutting
+       → Penfield homunculus: S1 region for the hand REMAINS even after hand is lost
+       → Phantom limb: brain fires compiled map → sensation WITHOUT INPUT
+       → = Body evaluates PATTERN (compiled map fires), not reality (hand is gone)
 
-    ② PROSTHETIC: visual + motor compile qua years of use
-       → Prosthetic visual position MATCH phantom expected position
-       → Brain BẮT ĐẦU MAP visual(prosthetic) lên somatosensory(phantom)
-       → = 2 representations MERGE thành 1 unified body-schema entry
+    ② PROSTHETIC: visual + motor compiled over years of use
+       → Prosthetic visual position MATCHES phantom expected position
+       → Brain BEGINS MAPPING visual(prosthetic) onto somatosensory(phantom)
+       → = 2 representations MERGE into 1 unified body-schema entry
 
   EVIDENCE — MIRROR BOX:
     🟢 Ramachandran & Rogers-Ramachandran 1996:
-      Mirror reflects good hand → brain "thấy" phantom hand cử động
-      → Phantom pain GIẢM
+      Mirror reflects the intact hand → brain "sees" phantom hand moving
+      → Phantom pain DECREASES
       → WHY: visual input CORRECTS phantom mismatch
-      → Phantom pattern: "tay kẹt, không cử động" → pain
-      → Mirror visual: "tay cử động bình thường" → pain resolves
+      → Phantom pattern: "hand is stuck, cannot move" → pain
+      → Mirror visual: "hand moves normally" → pain resolves
       → = Visual CAN OVERRIDE somatosensory compiled map
 
     🟢 Flor et al. 2006:
@@ -436,20 +462,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → More reorganization → more phantom pain
       → Prosthetic use → REDUCES reorganization → less pain
 
-    IMPLICATION CHO PROSTHETIC:
-      Prosthetic dùng hàng ngày → visual input ANCHORS phantom map
-      → Visual: "tay tôi ở đây, đang cử động" → phantom map STABILIZED
-      → = Prosthetic SERVE AS ANCHOR cho phantom representation
+    IMPLICATION FOR PROSTHETIC:
+      Daily prosthetic use → visual input ANCHORS phantom map
+      → Visual: "my hand is here, moving" → phantom map STABILIZED
+      → = Prosthetic SERVES AS ANCHOR for phantom representation
 
-  BẤT NGỜ GẪY PROSTHETIC (+PHANTOM):
-    → Tất cả responses của Pos 3 (distress, functional loss, identity) +
-    → THÊM: phantom map mất visual anchor → phantom pain có thể FLARE
-    → Visual "tay tôi gẫy" fire QUA phantom circuit → CÓ THỂ referred somatic sensation
-    → = Body-schema violation MẠNH HƠN (vì phantom + visual merge đã deep)
+  THE PROSTHETIC BREAKS (WITH PHANTOM):
+    → All responses of Pos 3 (distress, functional loss, identity) +
+    → ADDITIONAL: phantom map loses visual anchor → phantom pain may FLARE
+    → Visual "my hand breaks" fires THROUGH phantom circuit →
+        MAY PRODUCE referred somatic sensation
+    → = Body-schema violation STRONGER (because phantom + visual merge is deep)
 
   🟢 Ramachandran 1996, Flor et al. 2006
-  🟡 Prosthetic-phantom merge + visual break → phantom flare = hypothesis
-     (logic consistent, specific experiment chưa thấy published)
+  🔴 Prosthetic-phantom merge + visual break → phantom flare = hypothesis
+     (logic consistent, specific experiment not yet found in literature)
 ```
 
 ---
@@ -457,18 +484,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §8 — POS 5: NEURAL INTERFACE PROSTHETIC (Artificial Channels)
 
 ```
-⭐ ARTIFICIAL NEURAL CONNECTION — RESTORE MISSING CHANNELS:
+⭐ ARTIFICIAL NEURAL CONNECTION — RESTORING MISSING CHANNELS:
 
-  NEURAL CONNECTION: ARTIFICIAL — electrodes gắn vào peripheral nerves hoặc cortex
+  NEURAL CONNECTION: ARTIFICIAL — electrodes attached to peripheral nerves
+    or cortex
   COMPILATION INPUT: Visual + motor + ARTIFICIAL somatosensory feedback
-  KEY DIFFERENCE: THÊM channels mà basic prosthetic thiếu
+  KEY DIFFERENCE: ADDS channels that the basic prosthetic lacks
 
   🟢 Marasco et al. 2011 (Science Translational Medicine):
     Targeted Sensory Reinnervation (TSR):
-    → Peripheral nerves từ tay cụt → chuyển hướng tới da ngực
-    → Touch chest → brain interpret AS touch on phantom hand
-    → Users report: "cảm thấy prosthetic LÀ tay mình"
-    → = Brain re-map sensory channel → compilation restored
+    → Peripheral nerves from the residual limb → redirected to chest skin
+    → Touch chest → brain interprets AS touch on phantom hand
+    → Users report: "the prosthetic FEELS like my hand"
+    → = Brain re-maps sensory channel → compilation restored
 
   🟢 Raspopovic et al. 2014 (Science Translational Medicine):
     Bidirectional neural interface:
@@ -483,19 +511,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Can adjust grip force based on FEEL (not just visual)
     → = Motor + sensory feedback loop CLOSED
 
-  POSITION TRONG SPECTRUM:
+  POSITION IN THE SPECTRUM:
     Basic prosthetic (Pos 3): visual + motor only → partial body-schema
-    Neural interface (Pos 5): visual + motor + artificial sensory → approaching full body-schema
+    Neural interface (Pos 5): visual + motor + artificial sensory →
+      approaching full body-schema
     Real hand (Pos 6): ALL channels → full body-schema
 
     Pos 5 BRIDGES the gap:
-    → Thêm channels → deeper compilation → stronger body-schema
-    → Approaching real hand experience nhưng artificial signal ≠ natural signal
-    → Resolution, bandwidth, latency vẫn inferior to biological
-    → NHƯNG: compilation engine KHÔNG CARE "biological hay artificial"
-    → Compilation engine chỉ care: "correlated sensory input? → yes → compile"
+    → More channels → deeper compilation → stronger body-schema
+    → Approaching real hand experience but artificial signal ≠ natural signal
+    → Resolution, bandwidth, latency still inferior to biological
+    → BUT: the compilation engine does NOT CARE "biological or artificial"
+    → Compilation engine only cares: "correlated sensory input? → yes → compile"
 
-  BẤT NGỜ GẪY NEURAL INTERFACE PROSTHETIC:
+  THE NEURAL INTERFACE PROSTHETIC SUDDENLY BREAKS:
     → Responses approach real hand: distress + possible somatic component
     → If sensory channels deeply compiled → breaking may trigger pain-LIKE response
     → Intermediate between Pos 3 (distress only) and Pos 6 (full pain)
@@ -509,161 +538,169 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §9 — POS 6: REAL HAND + FAKE THREAT (Prediction > Reality)
 
 ```
-⭐⭐⭐ KEY INSIGHT: NGAY CẢ TAY THẬT CŨNG QUA 5-7 RELAYS:
+⭐⭐⭐ KEY INSIGHT: EVEN THE REAL HAND GOES THROUGH 5-7 RELAYS:
 
-  XÁC NHẬN: PFC KHÔNG CÓ NEURON NÀO KÉO TỚI TẬN TAY.
+  CONFIRMED: NO PFC NEURON REACHES ALL THE WAY TO THE HAND.
 
-  MOTOR pathway (PFC → tay):
+  MOTOR pathway (PFC → hand):
     PFC (intention) → Premotor cortex → Primary Motor cortex (M1)
       → Corticospinal tract → Spinal cord (anterior horn)
-        → Lower motor neuron → Neuromuscular junction → TAY
-    = TỐI THIỂU 5-6 RELAY STEPS
-    (Neural-Architecture §3: "PFC hold intention → premotor plan → M1 execute → spinal")
+        → Lower motor neuron → Neuromuscular junction → HAND
+    = MINIMUM 5-6 RELAY STEPS
+    (Neural-Architecture §3: "PFC holds intention → premotor plans →
+      M1 executes → spinal")
 
-  SENSORY pathway (tay → PFC):
-    Receptors ở tay → Peripheral nerve → Dorsal root ganglion
+  SENSORY pathway (hand → PFC):
+    Receptors in hand → Peripheral nerve → Dorsal root ganglion
       → Spinal cord → Medulla (gracile nucleus) → Thalamus (VPL)
         → Primary Somatosensory cortex (S1) → Association cortex → PFC
-    = TỐI THIỂU 6-7 RELAY STEPS
+    = MINIMUM 6-7 RELAY STEPS
 
   INSIGHT:
-    → Từ PFC's perspective: tay thật = COMPILED REPRESENTATION
-    → PFC KHÔNG "chạm" tay — PFC access tay qua COMPILED BODY-SCHEMA
-    → Khác prosthetic ở CHỖ NÀO? Ở SỐ CHANNELS + DEPTH. Không phải ở "loại."
-    → Tay thật: 7+ channels compiled từ birth (somatosensory, motor, proprioceptive,
-      thermal, nociceptive, visual, interoceptive)
+    → From PFC's perspective: the real hand = COMPILED REPRESENTATION
+    → PFC does NOT "touch" the hand — PFC accesses the hand through the
+        COMPILED BODY-SCHEMA
+    → Where does prosthetic differ? IN NUMBER OF CHANNELS + DEPTH. Not in "type."
+    → Real hand: 7+ channels compiled from birth (somatosensory, motor,
+        proprioceptive, thermal, nociceptive, visual, interoceptive)
     → = QUANTITATIVE difference, NOT qualitative
 
 
-  ⭐⭐ CHAIN MECHANISM — PFC LUÔN CONTROL QUA CHAIN:
+  ⭐⭐ CHAIN MECHANISM — PFC ALWAYS CONTROLS VIA A CHAIN:
 
-    3 ví dụ CÙNG PATTERN:
-    ┌─────────────┬──────────────────────────────────────────────────────────┐
-    │ Tay giả     │ PFC → [5-7 relays] → cánh tay cụt → [socket] → tay giả│
-    │ Đũa         │ PFC → [5-7 relays] → tay          → [cầm]   → đũa    │
-    │ Móng tay    │ PFC → [5-7 relays] → ngón tay     → [gắn]   → móng   │
-    └─────────────┴──────────────────────────────────────────────────────────┘
+    3 examples — THE SAME PATTERN:
+    ┌─────────────────┬──────────────────────────────────────────────────────────┐
+    │ Prosthetic hand │ PFC → [5-7 relays] → residual limb → [socket] → prosth. │
+    │ Chopsticks      │ PFC → [5-7 relays] → hand           → [held]  → chopst. │
+    │ Fingernail      │ PFC → [5-7 relays] → fingertip      → [fixed] → nail    │
+    └─────────────────┴──────────────────────────────────────────────────────────┘
 
     OBSERVATION:
-    → PFC KHÔNG BAO GIỜ control trực tiếp bất kỳ thứ gì ngoài PFC.
-    → Ngay cả "tay tôi" cũng qua 5-7 relays (motor chain + sensory chain).
-    → Thêm tool/prosthetic = thêm 1 LINK vào chain ĐÃ indirect sẵn.
-    → = QUANTITATIVE extension (thêm link), NOT qualitative change (loại khác).
+    → PFC NEVER directly controls anything outside of the PFC itself.
+    → Even "my hand" goes through 5-7 relays (motor chain + sensory chain).
+    → Adding a tool/prosthetic = adding 1 LINK to an ALREADY indirect chain.
+    → = QUANTITATIVE extension (adding a link), NOT qualitative change
+        (a different type of thing).
 
-    SO SÁNH PARAMETERS:
+    COMPARISON OF PARAMETERS:
     ┌──────────────────┬────────────────┬──────────────┬──────────────────┐
-    │                  │ Móng tay       │ Đũa          │ Tay giả          │
+    │                  │ Fingernail     │ Chopsticks   │ Prosthetic hand  │
     ├──────────────────┼────────────────┼──────────────┼──────────────────┤
-    │ Neural trong     │ 0 (keratin,    │ 0 (gỗ/kim   │ 0 (vật liệu     │
-    │ extension        │ dead cells)    │ loại)        │ nhân tạo)        │
+    │ Neural inside    │ 0 (keratin,    │ 0 (wood/     │ 0 (artificial    │
+    │ extension        │ dead cells)    │ metal)       │ material)        │
     ├──────────────────┼────────────────┼──────────────┼──────────────────┤
-    │ Gắn liền         │ Always         │ Khi cầm     │ Daily wear       │
-    │ (duration)       │ (từ sinh)      │ (phút)       │ (years)          │
+    │ Attached         │ Always         │ While held   │ Daily wear       │
+    │ (duration)       │ (from birth)   │ (minutes)    │ (years)          │
     ├──────────────────┼────────────────┼──────────────┼──────────────────┤
-    │ Feedback         │ Áp lực qua     │ Áp lực + rung│ Áp lực qua     │
-    │ mechanism        │ nail → nail    │ qua tay      │ socket → stump  │
-    │                  │ bed (nerves)   │ (nerves)     │ (nerves)         │
+    │ Feedback         │ Pressure via   │ Pressure +   │ Pressure via     │
+    │ mechanism        │ nail → nail    │ vibration    │ socket → stump   │
+    │                  │ bed (nerves)   │ via hand     │ nerves           │
+    │                  │                │ (nerves)     │                  │
     ├──────────────────┼────────────────┼──────────────┼──────────────────┤
     │ Compilation      │ Lifetime       │ Within mins  │ Months-years     │
     │ depth            │ (DEEP)         │ (SHALLOW)    │ (MODERATE-DEEP)  │
     ├──────────────────┼────────────────┼──────────────┼──────────────────┤
-    │ "Của tôi"?       │ Luôn luôn      │ Khi dùng    │ Ngày càng        │
+    │ "Mine"?          │ Always         │ While in use │ Increasingly     │
     │                  │ (body part)    │ (temporary)  │ (chronic)        │
     └──────────────────┴────────────────┴──────────────┴──────────────────┘
 
 
-  ⭐ FINGERNAIL = BRIDGE TỰ NHIÊN GIỮA "BODY" VÀ "TOOL":
+  ⭐ FINGERNAIL = NATURAL BRIDGE BETWEEN "BODY" AND "TOOL":
 
-    Móng tay (nail plate):
-    → Keratin = tế bào chết. KHÔNG CÓ neuron nào trong móng tay.
-    → Cạy đồ bằng móng → cảm nhận áp lực RÕ RÀNG.
-    → WHY: lực truyền cơ học qua nail plate → nail bed
-      (CÓ Meissner's corpuscles + free nerve endings) → peripheral nerve → brain.
-    → = CƠ CHẾ Y HỆT tay giả: lực qua prosthetic → socket → stump nerves → brain.
-    → = CƠ CHẾ Y HỆT đũa: lực qua đũa → tay (mechanoreceptors) → brain.
+    Nail plate:
+    → Keratin = dead cells. NO neurons inside the nail plate.
+    → Prying something with a fingernail → sense the pressure CLEARLY.
+    → WHY: force transmits mechanically via nail plate → nail bed
+      (HAS Meissner's corpuscles + free nerve endings) → peripheral nerve
+      → brain.
+    → = THE SAME MECHANISM as a prosthetic: force through prosthetic → socket
+        → stump nerves → brain.
+    → = THE SAME MECHANISM as chopsticks: force through chopsticks → hand
+        (mechanoreceptors) → brain.
 
-    Tóc (hair) = parallel case:
-    → Sợi tóc = keratin (dead cells), KHÔNG CÓ neuron trong sợi tóc.
-    → NHƯNG: gió thổi tóc → hair follicle mechanoreceptors FIRE → "cảm thấy" gió.
-    → Hair follicle = among most sensitive mechanoreceptors in body.
-    → = Dead extension + living base with nerve endings → "CỦA TÔI."
+    Hair = parallel case:
+    → A hair strand = keratin (dead cells), NO neurons inside the hair strand.
+    → BUT: wind moves hair → hair follicle mechanoreceptors FIRE → "feel" the wind.
+    → Hair follicles = among the most sensitive mechanoreceptors in the body.
+    → = Dead extension + living base with nerve endings → "MINE."
 
-    Lớp ngoài da (stratum corneum) = parallel nữa:
-    → Stratum corneum = dead keratinized cells (lớp ngoài cùng da).
-    → "Chạm da" = pressing on dead cells → force transmit → live receptors ở dermis.
-    → = Ngay cả "chạm da" cũng KHÔNG phải chạm live cells trực tiếp.
+    Stratum corneum (outer skin layer) = another parallel:
+    → Stratum corneum = dead keratinized cells (outermost layer of skin).
+    → "Touching skin" = pressing on dead cells → force transmits → live receptors
+        in dermis.
+    → = Even "touching skin" does NOT directly contact live cells.
 
     IMPLICATION:
-    → "Cơ thể tôi" ĐÃ BAO GỒM các phần KHÔNG CÓ neural connection TỪ ĐẦU.
-    → Móng tay, tóc, stratum corneum = dead keratin = 0 neuron.
-    → Brain treat chúng AS "phần cơ thể" vì: always attached + compiled from birth.
-    → = Body-base membership CHƯA BAO GIỜ là "có neuron hay không."
-    → Prosthetic, tool = tiếp tục CÙNG pattern mà body ĐÃ có sẵn.
-    → = Compilation defines membership — KHÔNG PHẢI biological substrate.
+    → "My body" HAS ALWAYS INCLUDED parts WITH NO NEURAL CONNECTION from the start.
+    → Nails, hair, stratum corneum = dead keratin = 0 neurons.
+    → Brain treats them AS "body parts" because: always attached + compiled from birth.
+    → = Body-base membership has NEVER been about "having neurons or not."
+    → Prosthetic, tool = continuing THE SAME PATTERN that the body already has.
+    → = Compilation defines membership — NOT biological substrate.
 
     🟢 Nail anatomy: keratin, no neural connection in nail plate (textbook anatomy)
     🟢 Johnson 2001 (Cur. Opin. Neurobiol.): nail bed + fingertip mechanoreceptors
     🟢 Abraira & Ginty 2013 (Neuron): hair follicle mechanoreceptors, tactile afferents
 
 
-  FAKE THREAT — "NGƯỜI CẦM KIẾM GIẢ CHÉM VÀO TAY, KHÔNG CHẠM":
+  FAKE THREAT — "SOMEONE SWINGS A FAKE SWORD AT YOUR HAND WITHOUT MAKING CONTACT":
 
-  CÓ THÍ NGHIỆM TƯƠNG TỰ — VÀ RẤT NHIỀU:
+  THERE ARE ANALOGOUS EXPERIMENTS — AND MANY OF THEM:
 
   PARADIGM 1 — Peripersonal Space Defense:
     🟢 Graziano, Reiss & Gross 1999 (Journal of Neurophysiology):
-       Bimodal neurons (ventral premotor + parietal): fire khi object
-       TIẾN GẦN hand — TRƯỚC KHI CHẠM.
-       Firing rate TĂNG khi object GẦN HƠN.
-       = Brain respond to PROXIMITY, not contact.
-       = Compiled prediction: "object trong vùng nguy hiểm" → fire.
+       Bimodal neurons (ventral premotor + parietal): fire when object
+       APPROACHES the hand — BEFORE CONTACT.
+       Firing rate INCREASES as object GETS CLOSER.
+       = Brain responds to PROXIMITY, not contact.
+       = Compiled prediction: "object in danger zone" → fires.
 
     🟢 Graziano & Cooke 2006 (Annual Review of Neuroscience):
-       Stimulate polysensory zone → DEFENSIVE MOVEMENTS tự động
+       Stimulate polysensory zone → DEFENSIVE MOVEMENTS automatically
        (block, withdraw, duck, squint)
        = Defensive behavior is COMPILED, fires from prediction.
-       = Không cần actual contact để trigger motor response.
+       = No actual contact needed to trigger motor response.
 
   PARADIGM 2 — Anticipatory Pain:
     🟢 Ploghaus et al. 1999 (Science):
-       Visual cue báo "sắp đau" → fMRI:
+       Visual cue signals "pain coming" → fMRI:
        ACC + anterior insula + cerebellum ACTIVATE
-       = CÙNG pain matrix fire DÙ CHƯA CÓ pain stimulus
-       = Brain fire pain PREDICTION, not pain reality.
+       = THE SAME pain matrix fires DESPITE NO PAIN STIMULUS YET
+       = Brain fires pain PREDICTION, not pain reality.
 
     🟢 Koyama et al. 2005 (PNAS):
-       Nói trước "sẽ đau nhiều" vs "sẽ đau ít" → CÙNG stimulus
-       → Expected pain intensity MODULATE actual pain experience
-       → = Prediction SHAPES reality, not just anticipates.
+       Told in advance "it will hurt a lot" vs "it will hurt a little" → SAME stimulus
+       → Expected pain intensity MODULATES actual pain experience
+       → = Prediction SHAPES reality, not just anticipates it.
 
   PARADIGM 3 — Threat to Body Part WITHOUT Contact:
     🟢 Sambo & Iannetti 2013 (PNAS):
        Hand-Blink Reflex (HBR):
-       Object approach hand → blink reflex TĂNG
-       Object KHÔNG chạm hand, KHÔNG chạm mắt.
+       Object approaches hand → blink reflex INCREASES
+       Object does NOT touch hand, does NOT touch eyes.
        = Body-schema spatial representation of hand
-         → modulate defensive reflex ở MẮT (distant body part)
-       = Body treat PREDICTED threat to ANY body part as REAL.
+         → modulates defensive reflex in THE EYES (a distant body part)
+       = Body treats PREDICTED threat to ANY body part as REAL.
 
     🟢 Slater et al. 2008, 2010:
-       VR: virtual hand bị threatened → REAL physiological response
-       (HR↑, SCR↑) — dù người BIẾT đó là virtual.
+       VR: virtual hand threatened → REAL physiological response
+       (HR↑, SCR↑) — even though the person KNOWS it's virtual.
 
-  CHÍNH XÁC SCENARIO "FAKE SWORD":
-    Thanh kiếm giả → chém giả vào tay thật → KHÔNG CHẠM DA:
+  THE "FAKE SWORD" SCENARIO EXACTLY:
+    Fake sword → fake swing at real hand → NO CONTACT:
     → Peripersonal neurons FIRE (object in danger zone) ✓
-    → Anticipatory pain matrix ACTIVATE ✓
+    → Anticipatory pain matrix ACTIVATES ✓
     → Withdrawal reflex / flinch ✓
     → Cortisol + adrenaline spike ✓
     → Muscle tension in threatened hand ✓
-    → ALL of this TRƯỚC và WITHOUT actual contact
+    → ALL of this BEFORE AND WITHOUT actual contact
 
-    TẠI SAO:
+    WHY:
     → Body-schema = COMPILED PREDICTION about "what will happen to my hand"
     → Visual: sword approaching → PREDICT contact + damage
-    → Compiled pattern fire → body respond TO THE PREDICTION
-    → = "Body evaluates PATTERNS, not reality" — TRỰC TIẾP
-    → Reality: không có contact. Pattern: "sắp bị chém." Body follow: PATTERN.
+    → Compiled pattern fires → body responds TO THE PREDICTION
+    → = "Body evaluates PATTERNS, not reality" — DIRECTLY DEMONSTRATED
+    → Reality: no contact. Pattern: "about to be struck." Body follows: PATTERN.
 
   🟢 Graziano 1999, 2006; Ploghaus 1999; Koyama 2005; Sambo & Iannetti 2013; Slater 2008
 ```
@@ -673,56 +710,56 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §10 — POS 7: VISCERA / INTERNAL ORGANS (Proximity ≠ Access)
 
 ```
-⭐⭐⭐ POSITION QUAN TRỌNG NHẤT — PHÁ VỠ NAIVE MODEL:
+⭐⭐⭐ MOST IMPORTANT POSITION — BREAKS THE NAIVE MODEL:
 
-  NEURAL CONNECTION: CÓ — nhưng INDIRECT (2+ synaptic relays)
-  VỊ TRÍ VẬT LÝ: INSIDE the body — GẦN HƠN tay
-  PFC ACCESS: ÍT HƠN tay
+  NEURAL CONNECTION: YES — but INDIRECT (2+ synaptic relays)
+  PHYSICAL POSITION: INSIDE the body — physically CLOSER than the hand
+  PFC ACCESS: LESS THAN the hand
 
-  → = INVERTS "closer = more access" assumption
-  → = PROVES spectrum is NOT about physical distance
+  → = INVERTS the "closer = more access" assumption
+  → = PROVES the spectrum is NOT about physical distance
 
 
   ENS (Enteric Nervous System — "Second Brain"):
     🟢 Gershon 1998 ("The Second Brain"):
-      ~100-500 triệu neurons (= hoặc > spinal cord)
+      ~100-500 million neurons (= or > spinal cord)
       Location: wall of GI tract (esophagus → rectum)
-      CAN operate INDEPENDENTLY: cắt vagus → ruột VẪN tiêu hóa
-      = Local processing KHÔNG CẦN brain permission
+      CAN operate INDEPENDENTLY: sever the vagus → gut STILL digests
+      = Local processing WITHOUT needing brain permission
 
     🟢 Neural-Architecture §5 (framework established):
-      PFC → ENS: TỐI THIỂU 2 synaptic relays
+      PFC → ENS: MINIMUM 2 synaptic relays
         (PFC → brainstem → vagus → ENS)
-      Vagus nerve: 80% AFFERENT (gut → brain), chỉ 20% brain → gut
-      = Gut SEND information TO brain nhiều hơn brain SEND TO gut
+      Vagus nerve: 80% AFFERENT (gut → brain), only 20% brain → gut
+      = Gut SENDS information TO brain far more than brain SENDS TO gut
 
     PFC access to gut STATE:
-      PFC KHÔNG BIẾT: pH dạ dày, peristalsis speed, microbiome composition,
+      PFC does NOT KNOW: stomach pH, peristalsis speed, microbiome composition,
         individual enzyme levels, villus absorption rate
-      PFC CHỈ BIẾT: "đau bụng" hoặc "đói" hoặc "buồn nôn"
-      = AGGREGATE signals only — KHÔNG BIẾT specifics
+      PFC ONLY KNOWS: "stomach ache" or "hungry" or "nauseous"
+      = AGGREGATE signals only — does NOT know specifics
 
 
   CARDIAC NEURAL SYSTEM:
     🟢 Neural-Architecture §5:
       ~40,000 intrinsic cardiac neurons
       Local heart rhythm regulation
-      PFC reach: KHÔNG direct
-    PFC KHÔNG THỂ: trực tiếp tăng/giảm heart rate
-    PFC CÓ THỂ: gián tiếp qua HPA axis, breathing (voluntary bridge)
+      PFC reach: NOT direct
+    PFC CANNOT: directly increase/decrease heart rate
+    PFC CAN: indirectly via HPA axis, breathing (voluntary bridge)
 
 
   INTEROCEPTION — PFC'S FILTERED WINDOW:
     🟢 Craig 2002, 2009 (Nature Reviews Neuroscience):
-      Internal body signals → posterior insula (raw) → mid insula (re-represent)
-        → anterior insula (integrated subjective feeling)
-      = PFC access interoception qua INSULAR CORTEX filter
-      = KHÔNG trực tiếp — qua NHIỀU layers of integration
+      Internal body signals → posterior insula (raw) → mid insula
+        (re-represent) → anterior insula (integrated subjective feeling)
+      = PFC accesses interoception through the INSULAR CORTEX filter
+      = NOT direct — through MANY layers of integration
 
     🟢 Critchley et al. 2004:
       Interoceptive accuracy varies WIDELY across individuals
-      Some people: rất rõ heartbeat awareness
-      Most people: KHÔNG biết heart rate chính xác
+      Some people: very clear heartbeat awareness
+      Most people: do NOT know heart rate accurately
       = PFC access to OWN BODY varies per-person
       = Physical proximity GUARANTEED — PFC access NOT guaranteed
 
@@ -731,34 +768,35 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Neural-Architecture §5:
       Breathing = UNIQUE: voluntary + involuntary bridge
       PFC CAN directly control breathing rate (voluntary)
-      NHƯNG: stop paying attention → brainstem resumes automatic control
-      = Duy nhất 1 function có VOLUNTARY BRIDGE giữa PFC và ANS
-      = Evidence: mọi thứ KHÁC trong ANS → PFC gần không reach
+      BUT: stop paying attention → brainstem resumes automatic control
+      = The only 1 function with a VOLUNTARY BRIDGE between PFC and ANS
+      = Evidence: everything ELSE in the ANS → PFC barely reaches
 
 
-  TẠI SAO VỊ TRÍ NÀY CRITICAL CHO SPECTRUM:
+  WHY THIS POSITION IS CRITICAL FOR THE SPECTRUM:
 
-    TRỰC GIÁC NAIVE:
-      "Gần PFC hơn = PFC access nhiều hơn"
-      "Tay = xa → ít access. Ruột = gần → nhiều access."
+    NAIVE INTUITION:
+      "Closer to PFC physically = more PFC access"
+      "Hand = far away → less access. Gut = closer → more access."
 
-    THỰC TẾ:
-      Tay: 5-7 relays nhưng ALL CHANNELS compiled (somatosensory, motor,
+    REALITY:
+      Hand: 5-7 relays but ALL CHANNELS compiled (somatosensory, motor,
         proprioceptive, visual, thermal, nociceptive)
-        → PFC access: RICH (nhiều channels, deep compilation)
-      Ruột: 2+ relays, physically CLOSER, nhưng AGGREGATE-only interoception
-        → PFC access: POOR (ít channels reaching PFC, chỉ aggregate)
+        → PFC access: RICH (many channels, deep compilation)
+      Gut: 2+ relays, physically CLOSER, but AGGREGATE-only interoception
+        → PFC access: POOR (few channels reaching PFC, aggregate only)
 
     → Access = f(compilation channels × connectivity quality)
     → Access ≠ f(physical distance)
 
-    → CÙNG nguyên tắc:
-      Prosthetic (0 connection) CÓ THỂ có body-schema compiled (visual + motor)
-      Gut (internal, physically inside) CÓ THỂ KHÔNG compiled đủ cho PFC access
+    → THE SAME PRINCIPLE:
+      Prosthetic (0 connection) CAN have body-schema compiled (visual + motor)
+      Gut (internal, physically inside) CAN fail to have sufficient compilation
+        for PFC access
       = Compilation defines access, not proximity.
 
   🟢 Gershon 1998, Craig 2002/2009, Critchley 2004, Neural-Architecture §5
-  🟡 Viscera as counter-example to distance model = framework synthesis
+  🟡 Viscera as counter-example to the distance model = framework synthesis
 ```
 
 ---
@@ -766,49 +804,52 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §11 — POS 8-9: NEAR-CORTICAL + PFC DIRECT
 
 ```
-⭐ 2 VỊ TRÍ GẦN PFC NHẤT:
+⭐ THE 2 POSITIONS CLOSEST TO PFC:
 
   POS 8 — NEAR-CORTICAL (Zone B: Cortical Modality Areas):
-    NEURAL CONNECTION: Direct cortical-cortical (1-2 synapses từ PFC)
-    VD: Visual cortex, auditory cortex, somatosensory cortex, language areas
+    NEURAL CONNECTION: Direct cortical-cortical (1-2 synapses from PFC)
+    Examples: Visual cortex, auditory cortex, somatosensory cortex, language areas
 
     PFC CAN:
-      → Bias via top-down attention (PFC hold → amplify target modality)
-      → Gate via TRN (thalamic reticular nucleus → filter input)
-      → Inhibit competing representations (dlPFC suppress)
+      → Bias via top-down attention (PFC holds → amplifies target modality)
+      → Gate via TRN (thalamic reticular nucleus → filters input)
+      → Inhibit competing representations (dlPFC suppresses)
     PFC CANNOT:
-      → Tắt hearing (nghe nhạc ghét → PFC shift attention, KHÔNG tắt auditory)
-      → Control V1 processing (PFC đọc IT output, KHÔNG đọc V1 raw pixels)
+      → Turn off hearing (disliking music → PFC shifts attention, does NOT turn
+          off auditory processing)
+      → Control V1 processing (PFC reads IT output, does NOT read V1 raw pixels)
       → = MODULATION, not control
 
-    🟢 Neural-Architecture §3: "PFC CÓ THỂ interact qua Layer 2/3 + TRN gating"
-    🟢 Fedorenko et al. 2024: language network = dissociable từ PFC reasoning
-       → Language areas = Zone B AUTONOMOUS from PFC (say rượu VẪN nói)
+    🟢 Neural-Architecture §3: "PFC CAN interact via Layer 2/3 + TRN gating"
+    🟢 Fedorenko et al. 2024: language network = dissociable from PFC reasoning
+       → Language areas = Zone B AUTONOMOUS from PFC (still speaking even while
+           intoxicated)
 
 
-  POS 9 — PFC DIRECT (Zone A: 0 relay):
+  POS 9 — PFC DIRECT (Zone A: 0 relays):
     NEURAL CONNECTION: SELF — PFC IS the substrate
-    VD: Working memory, inner speech, deliberate simulation
+    Examples: Working memory, inner speech, deliberate simulation
 
     PFC CAN:
       → Hold content (4±1 items — 🟢 Cowan 2001)
       → Suppress content (inhibit competing representations — 🟢 Aron 2004)
       → Simulate (Simulation-Engine: draft, run, evaluate)
-      → = MAXIMUM CONTROL. "Sân nhà" của PFC.
+      → = MAXIMUM CONTROL. PFC's "home turf."
 
     PFC STILL CANNOT:
-      → Stop intrusive thoughts: compiled pattern fire XUYÊN vào PFC workspace
-      → Break rumination loop: compiled loop PFC KHÔNG thể suppress
-      → Override body signal quá mạnh: "biết sai nhưng drive quá mạnh"
+      → Stop intrusive thoughts: compiled pattern fires INTO PFC workspace
+      → Break rumination loop: compiled loop PFC CANNOT suppress
+      → Override sufficiently strong body signal: "knowing it's wrong but the
+          drive is too strong"
         (PFC ACCESS spectrum Pos "Hijack" — Bilateral Drill §5)
       → = Compiled patterns CAN INVADE even PFC's own territory
 
     IMPLICATION:
-      Ngay cả ở Level GẦN NHẤT (0 relay, PFC = substrate):
-      → Compiled patterns VẪN CÓ THỂ thắng PFC
+      Even at the CLOSEST LEVEL (0 relays, PFC = substrate):
+      → Compiled patterns CAN STILL WIN over PFC
       → = PFC-Operations v1.3: PFC budget LIMITED
       → = Body evaluates patterns > PFC evaluates logic
-      → = Consistent across TOÀN BỘ spectrum
+      → = Consistent across the ENTIRE spectrum
 
   🟢 Cowan 2001, Aron 2004, Fedorenko 2024, Neural-Architecture §2-§3
 ```
@@ -818,49 +859,50 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §12 — SYNTHESIS: 2D, NOT 1D
 
 ```
-⭐⭐⭐ SPECTRUM KHÔNG PHẢI 1 CHIỀU MÀ 2 CHIỀU:
+⭐⭐⭐ THE SPECTRUM IS NOT 1-DIMENSIONAL BUT 2-DIMENSIONAL:
 
-  GIẢI SỬ NAIVE (1D):
-    "Càng xa PFC vật lý → càng ít access"
+  NAIVE ASSUMPTION (1D):
+    "The further from PFC physically → the less access"
     Entity → Prosthetic → Real hand → Cortical → PFC
     = LINEAR relationship: distance ↑ → access ↓
 
-  THỰC TẾ (2D):
-    2 TRỤC ĐỘC LẬP:
+  REALITY (2D):
+    2 INDEPENDENT AXES:
 
-    TRỤC 1 — PHYSICAL CONNECTION:
-      Có neural wiring hay không? Bao nhiêu relays?
+    AXIS 1 — PHYSICAL CONNECTION:
+      Neural wiring or not? How many relays?
       0 (entity/prosthetic) → indirect (hand) → direct (cortical) → self (PFC)
 
-    TRỤC 2 — COMPILATION RICHNESS:
-      Bao nhiêu channels compiled? Sâu bao nhiêu?
-      Ít (rubber hand: 2 channels, 120s) → nhiều (real hand: 7+ channels, lifetime)
+    AXIS 2 — COMPILATION RICHNESS:
+      How many channels compiled? How deeply?
+      Little (rubber hand: 2 channels, 120s) → much (real hand: 7+ channels,
+        lifetime)
 
-    PFC ACCESS = f(Trục 1 × Trục 2):
-      Access KHÔNG chỉ phụ thuộc connection
-      Access KHÔNG chỉ phụ thuộc compilation
+    PFC ACCESS = f(Axis 1 × Axis 2):
+      Access does NOT depend only on connection
+      Access does NOT depend only on compilation
       Access = BOTH
 
-  VISCERA LÀ PROOF:
-    Trục 1: internal (indirect, 2+ relays) — NOT far
-    Trục 2: aggregate-only interoception — ÍT CHANNELS compiled cho PFC
-    → PFC access: THẤP dù proximity CAO
-    → = Trục 1 (connection) KHÔNG đảm bảo Trục 2 (compilation richness)
+  VISCERA IS THE PROOF:
+    Axis 1: internal (indirect, 2+ relays) — NOT far
+    Axis 2: aggregate-only interoception — FEW CHANNELS compiled for PFC
+    → PFC access: LOW despite HIGH proximity
+    → = Axis 1 (connection) does NOT guarantee Axis 2 (compilation richness)
 
-  CHAIN MECHANISM LÀ PROOF THỨ 2 (§9):
-    → Mọi PFC control = indirect chain (5-7+ relays tới tay)
-    → Móng tay = body part THẬT với 0 neural connection trong móng
-    → Tóc, stratum corneum = cùng pattern (dead keratin, 0 neuron)
-    → = Body-base ĐÃ bao gồm non-neural parts TỪ ĐẦU
-    → Thêm tool/prosthetic = thêm link vào chain ĐÃ indirect
-    → KHÔNG CÓ qualitative boundary giữa "body" và "non-body"
+  CHAIN MECHANISM IS THE SECOND PROOF (§9):
+    → All PFC control = indirect chain (5-7+ relays to the hand)
+    → Fingernail = a REAL body part with 0 neural connection inside the nail
+    → Hair, stratum corneum = same pattern (dead keratin, 0 neurons)
+    → = Body-base HAS ALWAYS included non-neural parts
+    → Adding a tool/prosthetic = adding a link to an already indirect chain
+    → NO qualitative boundary between "body" and "non-body"
     → = 2D model confirmed: membership = f(compilation), NOT f(neural wiring)
 
-  3 BẰNG CHỨNG HỘI TỤ:
-    ① Viscera: gần hơn → ÍT access hơn → proximity ≠ access
-    ② Chain: body ĐÃ bao gồm non-neural → neural ≠ membership
-    ③ Rubber hand: 120s = đủ cho ownership update → compilation = fast + automatic
-    → = CẢ 3 converge: COMPILATION, not connection/proximity, defines boundary
+  3 CONVERGING PROOFS:
+    ① Viscera: closer → LESS access → proximity ≠ access
+    ② Chain: body HAS ALWAYS included non-neural → neural ≠ membership
+    ③ Rubber hand: 120s = enough for ownership update → compilation = fast + automatic
+    → = ALL 3 converge: COMPILATION, not connection/proximity, defines boundary
 
 
   VISUAL MAP:
@@ -881,138 +923,146 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
                     no connection            full connection
                                 PHYSICAL CONNECTION
 
-  GHI CHÚ:
+  NOTES:
     Entity-Owned (⓪) = low physical connection + agent-specific channels
-      → PFC access: MODERATE (PFC CAN articulate "mẹ ở đây" — Drill-Entity-Owned §5)
-      → Agent-level body-base extension (khác body-schema extension)
+      → PFC access: MODERATE (PFC CAN articulate "my mother is here" —
+          Drill-Entity-Owned §5)
+      → Agent-level body-base extension (distinct from body-schema extension)
 
     Viscera (⑦) = HIGHER physical connection than hand BUT lower PFC access
       → BREAKS the monotonic assumption
 
-    Real hand (⑥) = indirect (5-7 relays) nhưng MAX compiled channels
-      → HIGH PFC access vì COMPILATION RICHNESS, không phải vì "direct"
+    Real hand (⑥) = indirect (5-7 relays) but MAX compiled channels
+      → HIGH PFC access because of COMPILATION RICHNESS, not because "direct"
 
 
-  NGUYÊN TẮC THỐNG NHẤT:
+  UNIFIED PRINCIPLE:
 
     Body-base membership = f(compilation)
     PFC access = f(compilation richness × connectivity architecture)
     NEITHER is determined by physical proximity alone.
 
-    Neural connection = 1 input pathway cho compilation.
-    NHƯNG: compilation CÓ THỂ xảy ra WITHOUT neural connection (entity, prosthetic)
-    VÀ: neural connection KHÔNG ĐẢM BẢO compilation richness (viscera)
+    Neural connection = 1 input pathway for compilation.
+    BUT: compilation CAN occur WITHOUT neural connection (entity, prosthetic)
+    AND: neural connection does NOT GUARANTEE compilation richness (viscera)
 
 
-  ⭐⭐⭐ LOSS MECHANISM — TẠI SAO KHÁC VỊ TRÍ = KHÁC MỨC ĐAU?
+  ⭐⭐⭐ LOSS MECHANISM — WHY DIFFERENT POSITIONS = DIFFERENT LEVELS OF PAIN?
 
     UNIFIED: Loss pain = Chunk-Miss on compiled baseline × predicted unfillability.
 
-    "Thuộc về cơ thể" = compiled into baseline (Body-Base §2: body evaluates patterns)
-    "Bỗng mất" = baseline violated → Chunk-Miss (Body-Feedback-Mechanism §3)
-    "Không thay thế được" = predicted unfillability (Gap-Body-Need §11: entity-gap matching)
+    "Part of the body" = compiled into baseline (Body-Base §2: body evaluates patterns)
+    "Suddenly lost" = baseline violated → Chunk-Miss (Body-Feedback-Mechanism §3)
+    "Cannot be replaced" = predicted unfillability (Gap-Body-Need §11:
+      entity-gap matching)
 
-    = CÙNG mechanism cho MỌI position trong spectrum. Khác parameters → khác mức đau.
+    = THE SAME mechanism for ALL positions in the spectrum. Different parameters
+      → different degree of pain.
 
     Pain = Σ (baseline_depth × gap_breadth × Δfillability × predicted_duration)
 
 
-  PROOF 1 — "XA MẸ MỚI BIẾT THƯƠNG" (Entity-Valence-Dynamics §8):
+  PROOF 1 — "YOU ONLY MISS YOUR MOTHER ONCE YOU LEAVE HOME"
+  (Entity-Valence-Dynamics §8):
 
-    Ở với mẹ 20 năm:
-      Mẹ fill NHIỀU gaps (comfort, food, emotional support, safety...)
-      → Compiled thành BASELINE → VTA habituated → INVISIBLE
-      → PFC: "bình thường, không gì đặc biệt"
+    After 20 years living with one's mother:
+      Mother fills MANY gaps (comfort, food, emotional support, safety...)
+      → Compiled into BASELINE → VTA habituated → INVISIBLE
+      → PFC: "normal, nothing special"
 
-    Xa mẹ lên đại học:
+    Leaving home for college:
       SUDDENLY gaps unfilled → Chunk-Miss ACROSS MULTIPLE compiled channels
-      → Body: "baseline bị VIOLATED" → pain → "nhớ mẹ"
-      → PFC (LẦN ĐẦU observe): "hóa ra mẹ quan trọng"
+      → Body: "baseline VIOLATED" → pain → "I miss my mother"
+      → PFC (for the FIRST TIME observing): "so mother was important after all"
 
-    ⭐ KEY: Mẹ's state KHÔNG ĐỔI (mẹ vẫn ở nhà, khỏe mạnh).
-      Cái đổi = gap-fillability baseline CỦA MÌNH bị violated.
-      → Nếu "entity's state = my state" là mechanism:
-        mẹ ổn → mình nên ổn → NHƯNG MÌNH KHÔNG ỔN → ??? 
-      → Nếu "baseline violated" là mechanism:
-        gaps unfilled → Chunk-Miss → pain → "nhớ mẹ" → ĐÚNG ✓
-      → = PROOF: mechanism = baseline violation, KHÔNG PHẢI state-sharing.
+    ⭐ KEY: Mother's state HAS NOT CHANGED (mother is still at home, in good health).
+      What changed = gap-fillability baseline IN ONESELF has been violated.
+      → If "entity's state = my state" were the mechanism:
+        mother is fine → I should be fine → BUT I'M NOT FINE → ???
+      → If "baseline violated" is the mechanism:
+        gaps unfilled → Chunk-Miss → pain → "missing mother" → CORRECT ✓
+      → = PROOF: mechanism = baseline violation, NOT state-sharing.
 
 
-  PROOF 2 — BOSS MẤT ĐỒNG NGHIỆP GIỎI (KHÔNG entity-owned):
+  PROOF 2 — A BOSS LOSES AN IRREPLACEABLE COLLEAGUE (NOT entity-owned):
 
-    Boss: Mức 1-2 với đồng nghiệp (professional, KHÔNG "entity's state = my state")
-    NHƯNG: đồng nghiệp đang fill gaps quan trọng:
-      → Gap "project hoàn thành" (high urgency, deadline)
-      → Gap "expertise cần thiết" (no alternative source)
-      → Gap "workflow ổn định" (compiled team dynamics)
-    Đồng nghiệp rời: 3 gaps BẤT NGỜ unfillable
+    Boss: Level 1-2 relationship with colleague (professional, NOT "entity's state
+      = my state")
+    BUT: colleague is currently filling important gaps:
+      → Gap "project completion" (high urgency, deadline)
+      → Gap "required expertise" (no alternative source)
+      → Gap "stable workflow" (compiled team dynamics)
+    Colleague leaves: 3 gaps SUDDENLY unfillable
     → Boss: stress, anxiety, frustration = REAL pain
-    → DÙ KHÔNG CÓ entity-owned relationship
-    → = PROOF: mechanism = gap-fillability change, KHÔNG CẦN entity-owned.
+    → DESPITE NO entity-owned relationship
+    → = PROOF: mechanism = gap-fillability change, does NOT require entity-owned.
 
 
-  ÁP DỤNG CHO TOÀN BỘ SPECTRUM:
+  APPLIED ACROSS THE ENTIRE SPECTRUM:
 
-    ┌──────────────────────┬──────────────────┬──────────────────┬───────────────┐
-    │ Case                 │ Baseline         │ Chunk-Miss       │ Fillability   │
-    │                      │ (compiled depth) │ (violation)      │ (restore?)    │
-    ├──────────────────────┼──────────────────┼──────────────────┼───────────────┤
-    │ Đũa gãy             │ Shallow (phút)   │ Tiny             │ Instant       │
-    │                      │                  │                  │ → pain ≈ 0    │
-    ├──────────────────────┼──────────────────┼──────────────────┼───────────────┤
-    │ PC mất (có tiền)     │ Moderate (daily) │ Workflow         │ Days          │
-    │                      │                  │ disrupted        │ → annoyance   │
-    ├──────────────────────┼──────────────────┼──────────────────┼───────────────┤
-    │ PC mất (ko tiền+data)│ Moderate (daily) │ Workflow +       │ INDEFINITE    │
-    │                      │                  │ data LOST        │ → real distress│
-    ├──────────────────────┼──────────────────┼──────────────────┼───────────────┤
-    │ Tay giả gãy         │ Deep (years)     │ Body-schema      │ Weeks-months  │
-    │                      │ body-schema      │ VIOLATION        │ → distress    │
-    ├──────────────────────┼──────────────────┼──────────────────┼───────────────┤
-    │ Boss mất đ.nghiệp   │ Project baseline │ Expertise gap    │ Hard          │
-    │ (irreplaceable)      │ (months)         │ UNFILLABLE       │ → stress      │
-    ├──────────────────────┼──────────────────┼──────────────────┼───────────────┤
-    │ Xa mẹ (đại học)     │ 20yr baseline    │ MULTIPLE channels│ Partial       │
-    │                      │ INVISIBLE        │ simultaneously   │ → "nhớ mẹ"   │
-    ├──────────────────────┼──────────────────┼──────────────────┼───────────────┤
-    │ Bạn thân mất        │ Very deep        │ NHIỀU gaps       │ PERMANENT     │
-    │                      │ (years, Self-    │ unique filler    │ → grief       │
-    │                      │ Pattern-Modeling)│                  │               │
-    ├──────────────────────┼──────────────────┼──────────────────┼───────────────┤
-    │ Con mất             │ DEEPEST          │ Existence-based  │ PERMANENT     │
-    │                      │ (lifetime+HW)    │ PHANTOM GAP      │ UNFILLABLE    │
-    │                      │                  │ (Gap-Body-Need)  │ → max grief   │
-    └──────────────────────┴──────────────────┴──────────────────┴───────────────┘
+    ┌────────────────────────┬──────────────────┬──────────────────┬──────────────────┐
+    │ Case                   │ Baseline         │ Chunk-Miss       │ Fillability      │
+    │                        │ (compiled depth) │ (violation)      │ (restore?)       │
+    ├────────────────────────┼──────────────────┼──────────────────┼──────────────────┤
+    │ Chopstick breaks       │ Shallow (mins)   │ Tiny             │ Instant          │
+    │                        │                  │                  │ → pain ≈ 0       │
+    ├────────────────────────┼──────────────────┼──────────────────┼──────────────────┤
+    │ PC lost (with money)   │ Moderate (daily) │ Workflow         │ Days             │
+    │                        │                  │ disrupted        │ → annoyance      │
+    ├────────────────────────┼──────────────────┼──────────────────┼──────────────────┤
+    │ PC lost (no money +    │ Moderate (daily) │ Workflow +       │ INDEFINITE       │
+    │ data lost)             │                  │ data LOST        │ → real distress  │
+    ├────────────────────────┼──────────────────┼──────────────────┼──────────────────┤
+    │ Prosthetic breaks      │ Deep (years)     │ Body-schema      │ Weeks-months     │
+    │                        │ body-schema      │ VIOLATION        │ → distress       │
+    ├────────────────────────┼──────────────────┼──────────────────┼──────────────────┤
+    │ Boss loses irreplaceable│ Project baseline│ Expertise gap    │ Hard             │
+    │ colleague              │ (months)         │ UNFILLABLE       │ → stress         │
+    ├────────────────────────┼──────────────────┼──────────────────┼──────────────────┤
+    │ Away from mother       │ 20yr baseline    │ MULTIPLE channels│ Partial          │
+    │ (at college)           │ INVISIBLE        │ simultaneously   │ → missing mother │
+    ├────────────────────────┼──────────────────┼──────────────────┼──────────────────┤
+    │ Losing a close friend  │ Very deep        │ MANY gaps        │ PERMANENT        │
+    │                        │ (years, Self-    │ unique filler    │ → grief          │
+    │                        │ Pattern-Modeling)│                  │                  │
+    ├────────────────────────┼──────────────────┼──────────────────┼──────────────────┤
+    │ Losing a child         │ DEEPEST          │ Existence-based  │ PERMANENT        │
+    │                        │ (lifetime+HW)    │ PHANTOM GAP      │ UNFILLABLE       │
+    │                        │                  │ (Gap-Body-Need)  │ → maximum grief  │
+    └────────────────────────┴──────────────────┴──────────────────┴──────────────────┘
 
-  ⭐ CÙNG OBJECT, KHÁC CONTEXT → KHÁC MỨC ĐAU:
-    PC mất (có tiền) vs PC mất (không tiền + data)
-    = Compilation depth GIỐNG. Fillability KHÁC.
-    → PROOF: pain KHÔNG CHỈ DO compilation depth.
-    → Fillability (replaceability × dependency) = yếu tố quyết định.
+  ⭐ THE SAME OBJECT, DIFFERENT CONTEXT → DIFFERENT LEVEL OF PAIN:
+    PC lost (with money) vs PC lost (no money + data lost)
+    = Compilation depth THE SAME. Fillability DIFFERENT.
+    → PROOF: pain is NOT determined only by compilation depth.
+    → Fillability (replaceability × dependency) = the determining factor.
 
   "ENTITY'S STATE = MY STATE" — REFRAME:
 
-    DESCRIPTION (what it looks like): entity buồn → tôi buồn
+    DESCRIPTION (what it looks like): entity is sad → I'm sad
     MECHANISM (what actually happens):
-      ① Self-Pattern-Modeling predict entity state (agent buồn, vui, giận...)
-      ② Self-Pattern-Modeling predict: state này → entity fill gaps THẾ NÀO?
-         (mẹ buồn → ít available → gaps filled kém hơn)
-      ③ Gap-fillability prediction THAY ĐỔI → body respond
+      ① Self-Pattern-Modeling predicts entity state (the agent is sad, happy,
+          angry...)
+      ② Self-Pattern-Modeling predicts: this state → how will entity fill gaps?
+         (mother is sad → less available → gaps filled less well)
+      ③ Gap-fillability prediction CHANGES → body responds
 
-    = Self-Pattern-Modeling predict agent state = 1 INPUT cho gap-fillability prediction
-    = KHÔNG PHẢI "state transfer" trực tiếp
-    = Yếu tố chính: TOTAL gap body-need being fed
+    = Self-Pattern-Modeling predicting agent state = 1 INPUT for gap-fillability
+      prediction
+    = NOT "state transfer" directly
+    = Key factor: TOTAL gap Body-Need being fed
     = "Entity's state = my state" = observation. Gap-fillability = mechanism.
 
     ⭐ ENTITY-OWNED REFRAME:
-      Entity compiled deep → fills NHIỀU gaps uniquely → part of baseline
-      → Brain compile SHORTCUT: "entity's state ≈ proxy cho gap-fillability CỦA TÔI"
+      Entity compiled deep → fills MANY gaps uniquely → part of baseline
+      → Brain compiles SHORTCUT: "entity's state ≈ proxy for MY gap-fillability"
       → Entity OK → gaps fillable → I'm OK
       → Entity NOT OK → gaps threatened → I'm NOT OK
-      → = Compressed prediction, KHÔNG PHẢI state-sharing mechanism
-      → = EMERGES TỪ compilation depth + gap-fillability dependency
+      → = Compressed prediction, NOT a state-sharing mechanism
+      → = EMERGES FROM compilation depth + gap-fillability dependency
 
-  🟢 "Xa mẹ mới biết thương": Entity-Valence-Dynamics §8 (3 cơ chế cộng dồn)
+  🟢 "Only miss mother when away": Entity-Valence-Dynamics §8 (3 compounding
+     mechanisms)
   🟢 Phantom gap: Gap-Body-Need §12 (existence-based gap, phantom)
   🟢 Entity-gap matching: Gap-Body-Need §11 (5-step, fill quality × access)
   🟢 Body evaluates patterns, not reality: Body-Base §2 (foundation)
@@ -1026,52 +1076,54 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §13 — PFC ACCESS × BODY BOUNDARY = 2 ORTHOGONAL DIMENSIONS
 
 ```
-⭐ CONNECT TO BILATERAL DRILL:
+⭐ CONNECTING TO THE BILATERAL DRILL:
 
-  Drill-Neural-Bilateral-Architecture §5 define PFC ACCESS spectrum:
-    7 cases từ Smooth → Functional Split-Brain → Physical Split-Brain
-    = Spectrum về PFC CÓ THẤY source hay không
+  Drill-Neural-Bilateral-Architecture §5 defines the PFC ACCESS spectrum:
+    7 cases from Smooth → Functional Split-Brain → Physical Split-Brain
+    = A spectrum about whether PFC CAN SEE the source
 
-  Drill NÀY define Body-Base Boundary spectrum:
-    9 positions từ Entity-Owned → PFC Direct
-    = Spectrum về CÁI GÌ thuộc body-base
+  THIS DRILL defines the Body-Base Boundary spectrum:
+    9 positions from Entity-Owned → PFC Direct
+    = A spectrum about WHAT belongs to body-base
 
-  2 DIMENSIONS ORTHOGONAL (vuông góc — ĐỘC LẬP):
+  2 DIMENSIONS ORTHOGONAL (perpendicular — INDEPENDENT):
 
     ┌────────────────────────────────────┬───────────────────────────────┐
     │ BODY-BASE BOUNDARY                 │ PFC ACCESS                    │
-    │ (Drill này)                        │ (Bilateral Drill)             │
+    │ (This drill)                       │ (Bilateral Drill)             │
     ├────────────────────────────────────┼───────────────────────────────┤
-    │ CÁI GÌ thuộc body-base?           │ PFC CÓ THẤY source không?    │
-    │ → Xác định bởi COMPILATION        │ → Xác định bởi PFC VISIBILITY│
+    │ WHAT belongs to body-base?         │ Does PFC SEE the source?      │
+    │ → Determined by COMPILATION        │ → Determined by PFC VISIBILITY│
     │ → Entity? Prosthetic? Hand? Gut?  │ → Smooth? Suppress? Hijack?  │
     │                                    │   Background-Pattern? Split?  │
     ├────────────────────────────────────┼───────────────────────────────┤
-    │ Trả lời: "cái này CỦA TÔI không?" │ Trả lời: "tôi BIẾT tại sao  │
-    │                                    │  mình phản ứng không?"       │
+    │ Answers: "Is this MINE?"           │ Answers: "Do I KNOW why       │
+    │                                    │  I'm reacting?"              │
     └────────────────────────────────────┴───────────────────────────────┘
 
-  CÓ THỂ COMBINE:
+  CAN COMBINE FREELY:
 
   ① Entity-Owned + PFC full access (secure):
-     → "Mẹ luôn ở đây" — body-base extension + PFC articulate rõ
+     → "My mother is always here" — body-base extension + PFC can articulate clearly
 
-  ② Entity-Owned + PFC no access (anxious background-pattern):
-     → Body bám víu nhưng PFC không biết tại sao
+  ② Entity-Owned + PFC no access (anxious Background-Pattern):
+     → Body clings without PFC knowing why
 
   ③ Prosthetic + PFC access:
-     → "Tay giả của tôi" — body-schema extension + PFC aware
+     → "My prosthetic hand" — body-schema extension + PFC aware
 
   ④ Viscera + PFC no access:
-     → Gut distress → PFC: "không biết sao khó chịu" (interoception poor)
+     → Gut distress → PFC: "I don't know why I feel discomfort"
+         (poor interoception)
 
   ⑤ Real hand + PFC full access:
-     → "Tay tôi đau vì chạm lửa" — full channels + PFC access source
+     → "My hand hurts because I touched fire" — full channels + PFC accesses source
 
-  ⑥ Real hand + PFC no access (background-pattern):
-     → Flinch when parent raises hand (compiled PTSD) — PFC không biết source
+  ⑥ Real hand + PFC no access (Background-Pattern):
+     → Flinch when a parent raises their hand (compiled PTSD) —
+         PFC doesn't know the source
 
-  → 2 chiều COMBINE tự do — KHÔNG phụ thuộc nhau.
+  → 2 dimensions COMBINE freely — NOT dependent on each other.
 
   🟡 2 orthogonal dimensions = core synthesis connecting 2 drills
 ```
@@ -1081,21 +1133,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §14 — GAP ANALYSIS: Entity-Valence §2 Clarification
 
 ```
-⭐ ENTITY-VALENCE-DYNAMICS §2 NÓI:
+⭐ ENTITY-VALENCE-DYNAMICS §2 STATES:
 
-  "Body-base extension = EMERGENT property CHỈ CÓ ở agent valence"
-  "Object KHÔNG fire Self-Pattern-Modeling → không có body-base extension"
-  "Mất nhà = stress tài chính. Mất con = body-base amputation."
+  "Body-base extension = EMERGENT property that ONLY EXISTS in agent valence"
+  "Object does NOT fire Self-Pattern-Modeling → no body-base extension"
+  "Losing a house = financial stress. Losing a child = body-base amputation."
 
-  ĐÁNH GIÁ: ĐÚNG ở ENTITY-LEVEL. CHƯA address BODY-SCHEMA level.
+  ASSESSMENT: CORRECT at the ENTITY LEVEL. Has NOT yet addressed the BODY-SCHEMA level.
 
-  2 LEVELS body-base extension (drill discovery):
+  2 LEVELS of body-base extension (drill discovery):
 
   ┌─────────────────────────────────────────────────────────────────────┐
   │ LEVEL 1: BODY-SCHEMA EXTENSION (L1 substrate)                       │
   │                                                                     │
-  │   CÁI GÌ: Parietal/premotor extend body representation             │
-  │   AI CAN: Objects (tools, prosthetics, rubber hand)                 │
+  │   WHAT: Parietal/premotor extends body representation               │
+  │   WHO CAN: Objects (tools, prosthetics, rubber hand)                │
   │   MECHANISM: Repeated motor + visual + (optional) sensory           │
   │     → bimodal neurons extend receptive field (Iriki 1996)           │
   │   LOSS: Body-schema violation (distress, functional loss)           │
@@ -1104,56 +1156,61 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├─────────────────────────────────────────────────────────────────────┤
   │ LEVEL 2: ENTITY BODY-BASE EXTENSION (Agent-Mechanism)               │
   │                                                                     │
-  │   CÁI GÌ: "Entity's state = MY state"                              │
-  │   AI CAN: ONLY agents                                              │
+  │   WHAT: "Entity's state = MY state"                                 │
+  │   WHO CAN: ONLY agents                                              │
   │     (requires Self-Pattern-Modeling + multi-gap + bidirectional)    │
   │   MECHANISM: Self-Pattern-Modeling + valence compilation            │
   │     → entity = body-base part                                      │
   │   LOSS: Body-base AMPUTATION (grief, social pain = physical pain)   │
   │   RESEARCH: 🟢 Eisenberger 2003, Bowlby 1969, Singer 2004          │
-  │   FRAMEWORK: ĐÃ address (Entity-Valence-Dynamics §2, Entity-Owned) │
+  │   FRAMEWORK: ALREADY addressed (Entity-Valence-Dynamics §2,         │
+  │     Entity-Owned)                                                   │
   └─────────────────────────────────────────────────────────────────────┘
 
-  Entity-Valence-Dynamics §2 ĐÚNG: "mất nhà ≠ mất con"
-    → Nhà: KHÔNG body-schema extension (không dùng nhà như dùng tay)
-    → Con: entity body-base extension (agent, Self-Pattern-Modeling, multi-gap)
-    → = Claim giữ nguyên
+  Entity-Valence-Dynamics §2 CORRECT: "losing a house ≠ losing a child"
+    → House: NO body-schema extension (not used like the hand)
+    → Child: entity body-base extension (agent, Self-Pattern-Modeling, multi-gap)
+    → = Claim holds
 
-  NHƯNG: "mất tay giả dùng 20 năm" ≠ "mất nhà"
-    → Tay giả: CÓ body-schema extension (Level 1)
-    → Mất tay giả > mất đồ vật thường vì body-schema compiled
-    → Mất tay giả < mất con vì chỉ Level 1 (schema), không có Level 2 (entity)
-    → = Entity-Valence §2 cần 1 NOTE clarify:
+  BUT: "losing a prosthetic used for 20 years" ≠ "losing a house"
+    → Prosthetic: HAS body-schema extension (Level 1)
+    → Losing a prosthetic > losing a regular object because body-schema compiled
+    → Losing a prosthetic < losing a child because only Level 1 (schema),
+        no Level 2 (entity)
+    → = Entity-Valence §2 needs 1 NOTE to clarify:
       "Object cannot extend Level 2 (entity body-base).
        Object CAN extend Level 1 (body-schema) through motor-visual compilation."
 
-  SCOPE OF GAP: NHỎ. Claim gốc ĐÚNG. Chỉ cần clarify 2 levels.
+  SCOPE OF THE GAP: SMALL. Original claim is CORRECT. Only needs clarification of
+    2 levels.
 
-  THÊM TỪ §12 LOSS MECHANISM:
+  ADDITION FROM §12 LOSS MECHANISM:
 
-    Entity-Valence §2 nói: "entity's state = MY state"
-    → ĐÚNG như DESCRIPTION (what it looks like)
-    → MECHANISM gốc hơn: gap-fillability baseline violated (§12)
+    Entity-Valence §2 states: "entity's state = MY state"
+    → CORRECT as DESCRIPTION (what it looks like)
+    → DEEPER mechanism: gap-fillability baseline violated (§12)
     → "Entity's state = my state" = compressed prediction:
-      entity state → Self-Pattern-Modeling predict → gap-fillability change → body respond
-    → "Xa mẹ" = proof: mẹ ổn, MÌNH đau → baseline violation, KHÔNG state transfer
+      entity state → Self-Pattern-Modeling predicts → gap-fillability change
+        → body responds
+    → "Missing mother when away" = proof: mother is fine, I'M in pain →
+        baseline violation, NOT state transfer
 
-    LEVEL 1 + LEVEL 2 CẢ HAI dùng CÙNG loss mechanism:
+    LEVEL 1 + LEVEL 2 BOTH use THE SAME loss mechanism:
       Level 1 loss (prosthetic): body-schema baseline violated × unfillable for weeks
       Level 2 loss (entity): body-base baseline violated × unfillable PERMANENTLY
-      = CÙNG formula: Chunk-Miss × predicted unfillability
-      = Khác PARAMETERS (depth, breadth, duration, replaceability)
+      = THE SAME formula: Chunk-Miss × predicted unfillability
+      = Different PARAMETERS (depth, breadth, duration, replaceability)
 
-    Entity-Valence §2 cần THÊM NOTE:
-      ① "Object CAN extend Level 1 (body-schema)" (đã identify ở trên)
+    Entity-Valence §2 needs ADDITIONAL NOTES:
+      ① "Object CAN extend Level 1 (body-schema)" (identified above)
       ② "Entity's state = my state = compressed prediction over gap-fillability"
       ③ Loss mechanism = Chunk-Miss on compiled baseline × predicted unfillability
-         (cùng cho cả Level 1 và Level 2, khác parameters)
+         (same for both Level 1 and Level 2, different parameters)
 
   🟡 2-level body-base extension distinction = drill synthesis
   🟡 Gap-fillability as underlying mechanism = drill reframe
-  🟢 Research support cho Level 1: solid (Iriki 1996 foundational)
-  🟢 "Xa mẹ mới biết thương" as proof: Entity-Valence-Dynamics §8
+  🟢 Research support for Level 1: solid (Iriki 1996 foundational)
+  🟢 "Missing mother when away" as proof: Entity-Valence-Dynamics §8
 ```
 
 ---
@@ -1165,7 +1222,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟢 ESTABLISHED (research-supported)
 ═══════════════════════════════════════
 
-  Phantom limb pain: compiled body-schema fire without input
+  Phantom limb pain: compiled body-schema fires without input
     → Ramachandran & Rogers-Ramachandran 1996
   Rubber hand illusion: body-schema extension in ~120s
     → Botvinick & Cohen 1998, Armel & Ramachandran 2003
@@ -1224,7 +1281,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = Novel unifying principle from drill analysis
   2D model (compilation richness × connectivity architecture)
     = Novel reframe of spectrum as 2D
-  Viscera as counter-example to naive distance model
+  Viscera as counter-example to the naive distance model
     = Novel application of existing data
   2-level body-base extension (Level 1 schema + Level 2 entity)
     = Novel distinction synthesized from drill
@@ -1235,16 +1292,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Prosthetic break distress prediction (> object, < limb)
     = Novel prediction from framework
   Chain mechanism: all PFC control is indirect chain (5-7+ relays)
-    = Novel unifying observation — thêm tool/prosthetic = thêm link
+    = Novel unifying observation — adding tool/prosthetic = adding a link
   Fingernail/hair/stratum corneum as bridge: body already includes non-neural
     = Novel application connecting anatomy to compilation theory
   3 converging proofs (viscera + chain + rubber hand)
     = Novel convergence argument for compilation > connection
   Loss mechanism unified: Chunk-Miss × unfillability across ALL positions
-    = Novel unification of loss-pain from đũa to con under 1 formula
+    = Novel unification of loss-pain from chopsticks to losing a child under
+      1 formula
   "Entity's state = my state" reframe: compressed prediction over gap-fillability
     = Novel reframe — state-sharing = observation, gap-fillability = mechanism
-  "Xa mẹ" as proof: baseline violation, NOT state-sharing
+  "Missing mother when away" as proof: baseline violation, NOT state-sharing
     = Novel application of Entity-Valence-Dynamics §8 as proof for mechanism
   Boss + irreplaceable colleague: gap-fillability without entity-owned
     = Novel case showing mechanism operates WITHOUT entity-owned
@@ -1268,7 +1326,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §16 — CROSS-REFERENCES
 
 ```
-FILES ĐÃ ĐỌC TRONG DRILL:
+FILES READ DURING DRILL:
 
   Body-Base.md v4.0 — §2 "body evaluates patterns, not reality" (FOUNDATION)
   Neural-Architecture.md v1.2 — §1-§7: 4-zone model, connectivity, bilateral
@@ -1277,14 +1335,14 @@ FILES ĐÃ ĐỌC TRONG DRILL:
   Drill-Neural-Bilateral-Architecture.md v1.0 — PFC ACCESS spectrum (orthogonal)
   01-File-Index.md — context for file organization
 
-FILES LIÊN QUAN (confirmed consistent, KHÔNG đọc full trong drill):
+RELATED FILES (confirmed consistent, NOT fully read during drill):
 
   PFC-Operations.md v1.3 — Hold/Suppress, PFC budget (Pos 8-9)
   Background-Pattern.md v2.0 — invisible to PFC (§13 combination examples)
   Compile-Taxonomy.md v3.0 — 1 Engine = Hebbian (compilation mechanism)
   Simulation-Engine.md v1.2 — Self-Pattern-Modeling = APPLICATION-1 (Pos 0 mechanism)
   Entity-Compiled.md v1.0 — formation, grief (Pos 0 loss response)
-  Entity-Access.md v1.2 — gradient Mức 0-5 (Pos 0 detailed)
+  Entity-Access.md v1.2 — gradient Level 0-5 (Pos 0 detailed)
   Body-Coupling.md v3.0 — per-agent coupling (Pos 0 extended)
 ```
 
@@ -1345,7 +1403,7 @@ FILES LIÊN QUAN (confirmed consistent, KHÔNG đọc full trong drill):
 │    │ Bimodal neurons fire on object approach           │         │          │
 ├────┼──────────────────────────────────────────────────┼─────────┼──────────┤
 │ R17│ Graziano & Cooke 2006 (Ann. Rev. Neurosci.)      │ §9      │ 🟢      │
-│    │ Polysensory zone → defensive movements           │         │          │
+│    │ Polysensory zone → defensive movements            │         │          │
 ├────┼──────────────────────────────────────────────────┼─────────┼──────────┤
 │ R18│ Ploghaus et al. 1999 (Science)                    │ §9      │ 🟢      │
 │    │ Anticipatory pain → pain matrix activation        │         │          │
@@ -1404,18 +1462,25 @@ FILES LIÊN QUAN (confirmed consistent, KHÔNG đọc full trong drill):
 
 > **Drill-Body-Base-Boundary-Spectrum.md v1.2**
 >
-> Phiên drill: Body-base boundary × compilation ≠ connection × PFC access 2D.
+> Drill session: Body-base boundary × compilation ≠ connection × PFC access 2D.
 > 9 positions: Entity-Owned → Rubber Hand → Tool → Prosthetic → Phantom+Prosthetic
 >   → Neural Interface → Real Hand → Viscera → Near-Cortical + PFC Direct.
-> Kết quả: Compilation defines body-base boundary, NOT neural connection.
-> Viscera = proof: gần hơn tay nhưng PFC access ít hơn → spectrum = 2D.
-> Chain mechanism: mọi control qua indirect chain — thêm tool = thêm link.
-> Fingernail bridge: body part thật, 0 neuron — body đã bao gồm non-neural từ đầu.
-> Loss mechanism: Chunk-Miss × unfillability — unified từ đũa tới con cái.
+> Result: Compilation defines body-base boundary, NOT neural connection.
+> Viscera = proof: physically closer than hand but less PFC access → spectrum = 2D.
+> Chain mechanism: all control goes through indirect chain — adding a tool = adding a link.
+> Fingernail bridge: a real body part with 0 neurons — body has always included non-neural parts.
+> Loss mechanism: Chunk-Miss × unfillability — unified from chopsticks to losing a child.
 > "Entity's state = my state" reframe: compressed prediction over gap-fillability.
-> "Xa mẹ" = proof: mẹ ổn, mình đau → baseline violation = mechanism.
+> "Missing mother when away" = proof: mother is fine, I'm in pain →
+>   baseline violation = mechanism.
 > PFC ACCESS (Bilateral Drill) = orthogonal dimension.
-> Entity-Valence §2: 3 notes cần thêm (Level 1, reframe, loss mechanism).
+> Entity-Valence §2: 3 notes to add (Level 1, reframe, loss mechanism).
 > 34 citations. 15 framework syntheses. 4 testable hypotheses.
 >
-> Phiên bản: v1.2, 2026-06-04.
+> Version: v1.2, 2026-06-04.
+
+---
+
+*English translation of Drill-Body-Base-Boundary-Spectrum.md (Vietnamese source, v1.2)*
+*Translation target: English-speaking audience — rewritten for clarity and natural English expression.*
+*All framework vocabulary preserved exactly as defined in the Human Predictive Drive Framework.*

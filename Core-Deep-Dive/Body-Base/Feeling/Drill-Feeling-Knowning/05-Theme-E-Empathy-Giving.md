@@ -1,70 +1,72 @@
 ---
-title: Theme E — Empathy + Thiện Cảm + Giving Dynamics
+title: Theme E — Empathy + Affinity + Giving Dynamics
 created: 2026-04-14
+translated: 2026-06-09
 status: DRAFT (Phase P-9)
-scope: Empathy reframe (Resonance), thiện cảm mechanism, giving dynamics (joy + discomfort)
+scope: Empathy reframe (Resonance), affinity mechanism, giving dynamics (joy + discomfort)
 dependency: Themes A, B, C, D complete
-language: Tiếng Việt primary, English technical terms
+language: English
 confidence_target: HIGH for core mechanism (framework rich), MEDIUM for edge cases
 warning: Largest theme — user emphasized importance
 ---
 
-# Theme E — Empathy + Thiện Cảm + Giving Dynamics
+# Theme E — Empathy + Affinity + Giving Dynamics
 
-> **Most complex theme**. User dedicated most words to this. Framework has rich coverage across multiple files. Theme E synthesizes + extends.
-
----
-
-## §0 — Câu hỏi gốc (verbatim từ plan.md §2.6)
-
-> Empathy là gì?
-> bạn đọc lại các file Feeling có chứa empathy đã nhỉ, tôi ko nhớ rõ là ở file nào nữa
->
-> khi nào thì người ta muốn cho đi => có thể rất đơn giản: không định làm việc đó nhưng thấy mọi người cần thì vẫn làm và vẫn thấy vui hơn
-> nhà có sẵn cây xoài đã chín quả ăn không hết thì cho hàng xóm
-> nhà có cây chuối chín quả (để thì cũng tự ăn hết, vẫn cần) nhưng vì thói quen cộng đồng phải chia sẻ, không chia sẻ thì áy náy, vì cây chuối trồng ở ngoài vườn ai đi qua cũng biết, vẫn chia sẻ một phần cho hàng xóm <= case rất phổ biến ở Việt Nam
->
-> khi nào thì giúp mà thấy vui? => mọi người ăn và thấy vui vẻ, mình giúp xong được nghe lời cảm ơn, khi mình có thiện cảm với người mình muốn giúp
-> tại sao lại "phải có thiện cảm" thì mới giúp, mới share được
-> "có thiện cảm" là cái gì? <= khi nào thì một agent kích hoạt điều này
->
-> Bác Hồ sống đạo đức, Đảng Cộng Sản giúp chống lại quân thù => có thiện cảm với mọi chú bộ đội cá nhân đi ngang qua, mẹ Việt Nam cho đồ ăn dù khó khăn
-> hàng xóm vui vẻ với mình, an toàn => có thiện cảm
-> người khác cho đồ mình => có thiện cảm
-> cuộc sống ngày xưa khó khăn, lên thành phố đi làm, lâu ngày không gặp mẹ, thấy người phụ nữ già đang nhặt rác, người phụ nữ đó dáng giống mẹ, nhớ tới mẹ ngày xưa vất vả, thấy người phụ nữ kia vất vả, đến nói chuyện và thấy đúng như cảm nhận, người phụ nữ đó cũng hiền lành giống như mẹ => xúc động, có thiện cảm
->
-> khi nào thì giúp mà thấy khó chịu?
-> khi không muốn làm việc đó (quá chán, quá khó chịu, cost quá cao), khi không có thiện cảm hoặc rất ghét người khác?
-> khi cho nhưng người ta chê.
-> khi cho nhưng người ta phản ứng quá thấp so với kỳ vọng (họ không cười không cảm ơn khi trước đó nghĩ cho xong người ta sẽ vui)
-> khi giúp xong nhưng sau đó phát hiện ra là bị lợi dụng
->
-> cho đi vô tư, người ta thích thì vui, không thích thì thôi, cho người khác khi khác <= đây là kỹ năng luyện tập, hay mặc định vẫn có tình huống xác xuất tự cho đi vô tư như vậy. hay người đó đã có một schema nào đó rộng hơn mà không thể bị vi phạm dễ dàng bởi 1 cá nhân riêng lẻ
-
-**10+ sub-questions**:
-1. Empathy là gì (framework đã reframe)?
-2. Khi nào muốn cho đi (3 sub-cases: cây xoài, cây chuối, đơn giản)?
-3. Khi nào giúp mà thấy vui?
-4. "Thiện cảm" là gì?
-5. Tại sao "phải có thiện cảm" mới giúp?
-6. Khi nào activate thiện cảm?
-7. Examples: Bác Hồ, hàng xóm, cho đồ, mẹ-resemblance
-8. Khi nào giúp mà thấy khó chịu (4 sub-cases)?
-9. "Cho đi vô tư" — trained, default, hay broader schema?
+> **Most complex theme.** User dedicated most words to this. Framework has rich coverage across multiple files. Theme E synthesizes + extends.
 
 ---
 
-## §1 — Files đã đọc liên quan
+## §0 — Original Questions (from plan.md §2.6)
+
+> What is empathy?
+> (Re-read all Feeling files that mention empathy — the exact file is hard to recall)
+>
+> When does someone want to give? → Can be very simple: you weren't planning to do it but people needed it so you did it, and you felt better for it
+> - The mango tree has ripe fruit more than enough to eat, so you give some to your neighbor
+> - The banana tree has ripe fruit (you'd eat it all yourself, you still need it), but because of community custom you "have to" share — not sharing feels wrong, the tree is visible to everyone who passes — so you share a portion with your neighbor ← very common case in Vietnamese communities
+>
+> When is helping enjoyable? → When people eat it and are happy, when you help and get thanked, when you have affinity (*thiện cảm*) for the person you want to help
+> - Why does "having affinity" seem necessary before you'll help or share?
+> - What IS "having affinity"? ← When does an agent activate this?
+>
+> Example cases for affinity activation:
+> - Uncle Ho lived ethically, the Communist Party helped fight the enemy → you feel affinity for every individual soldier you pass; Vietnamese mothers gave food even in hardship
+> - A neighbor is warm and safe → affinity
+> - Another person gives you something → affinity
+> - Life was hard in the old days; you've moved to the city to work, haven't seen your mother in a long time; you see an elderly woman rummaging through garbage, and her silhouette resembles your mother; you remember your mother's hardship; you see this woman's hardship; you approach and talk and it matches your feeling — she is also kind like your mother → deeply moved, affinity
+>
+> When is giving uncomfortable?
+> - When you don't want to do it (too tedious, too unpleasant, cost too high)
+> - When you give and the person criticizes the gift
+> - When you give and the person's reaction is much lower than expected (they don't smile or thank you when you expected they'd be happy)
+> - When you help and then discover you were being exploited
+>
+> Giving freely — if they like it, good; if not, that's fine, give to someone else another time ← Is this a trained skill, a probabilistic default behavior, or does the person have a broader schema that can't easily be violated by any single individual?
+
+**10+ sub-questions distilled:**
+1. What is empathy (framework's reframe)?
+2. When do you want to give (3 sub-cases: mango surplus, banana sharing, simple)?
+3. When is giving enjoyable?
+4. What IS affinity?
+5. Why does affinity seem necessary before you'll help?
+6. When does affinity activate?
+7. Examples: Uncle Ho, neighbor, reciprocal gift, mother-resemblance
+8. When is giving uncomfortable (4 sub-cases)?
+9. "Giving freely" — trained, default, or broader schema?
+
+---
+
+## §1 — Related Files Read
 
 ### §1.1 — Empathy mechanism files (CORE)
 - [Empathy-Mirror.md](../../../Empathy-Mirror.md) — Full file, 1055 lines
   - §1 Mechanism, not channel
-  - §2 2 tầng (unconscious + PFC)
+  - §2 2-layer structure (unconscious + PFC)
   - §4 Vulnerability cues
   - §5 Perceived ability
   - **§6.5 Evolutionary function = Resource distribution** ← CRITICAL for giving
   - §8 Empathy fatigue
-  - **§8.5 Mirror reward override** ← CRITICAL for "cho đi vô tư"
+  - **§8.5 Mirror reward override** ← CRITICAL for "giving freely"
 - [By-Product-Gap-Resonance.md](../By-Product-Gap-Resonance.md) — Outline, 399 lines
   - §2 Mechanism (simulator)
   - **§4 Four key cases** ← CRITICAL for joy vs discomfort
@@ -74,7 +76,7 @@ warning: Largest theme — user emphasized importance
 
 ### §1.2 — Trust + anchor files
 - [Anchor-Schema.md §2](../../../Schema/Anchor-Schema.md) — **Positive vs Negative trust**
-- [Anchor-Schema.md §3 Nguồn ④](../../../Schema/Anchor-Schema.md) — External inject (community norms)
+- [Anchor-Schema.md §3 Source ④](../../../Schema/Anchor-Schema.md) — External inject (community norms)
 
 ### §1.3 — Feeling files (background)
 - [Feeling-Sources.md §5 Agent Input](../Feeling-Sources.md) — Biological need
@@ -86,7 +88,7 @@ warning: Largest theme — user emphasized importance
 - Eisenberger 2003 Social pain = physical pain 🟢
 - Gallese 2007 Embodied simulation 🟢
 - Bird & Cook 2013 Alexithymia drives empathy deficits (not autism) 🟢
-- Hoffman 2000 empathy developmental stages 🟢
+- Hoffman 2000 Empathy developmental stages 🟢
 - Trivers 1971 Reciprocal altruism 🟢
 - Hamilton 1964 Kin selection 🟢
 - Durkheim 1912 Collective effervescence 🟢
@@ -96,47 +98,47 @@ warning: Largest theme — user emphasized importance
 
 ## §2 — Analysis
 
-### §2.1 — Empathy redefined: Framework's reframe
+### §2.1 — Empathy redefined: The framework's reframe
 
-**Traditional view**: Empathy = a separate emotion / a separate cognitive system / "hardware mirror neuron module".
+**Traditional view**: Empathy = a separate emotion / a separate cognitive system / "hardware mirror neuron module."
 
 **Framework's reframe** (evolved across files, converging):
 
 **Empathy-Mirror.md §1** (older, 2026-04-06):
-> "Empathy-Mirror = MECHANISM, không phải Channel. Empathy-Mirror KHÔNG thêm need mới. Empathy-Mirror CHUYỂN ĐỔI state người khác → thành signal CỦA MÌNH. Rồi signal đó chạy qua channels ĐÃ CÓ."
+> "Empathy-Mirror = MECHANISM, not a Channel. Empathy-Mirror does NOT add a new need. Empathy-Mirror CONVERTS another's state → into a signal OF MY OWN. Then that signal runs through EXISTING channels."
 
 **By-Product-Gap-Resonance.md** (newer, 2026-04-14 outline):
-> "Resonance replaces 'Mirror Channel' concept with its mainstream hardware baggage. Resonance is learning-based, NOT hardware module."
+> "Resonance replaces the 'Mirror Channel' concept with its mainstream hardware baggage. Resonance is learning-based, NOT a hardware module."
 >
-> "Interpersonal mechanism by which Self-Pattern Match library is used as a SIMULATOR to model and infer other entity's state, outputting fit-judgment (match/mismatch) between self state and inferred other state."
+> "Interpersonal mechanism by which the Self-Pattern Match library is used as a SIMULATOR to model and infer another entity's state, outputting a fit-judgment (match/mismatch) between self-state and inferred other-state."
 
 **Mirror-Neuron-Analysis.md** (deep analysis):
-> "KHÔNG CÓ 'mirror neuron' chuyên biệt. CÓ 3 mechanisms KHÁC NHAU mà mainstream GỘP thành 'mirror':
+> "There are NO dedicated 'mirror neurons.' There ARE 3 DIFFERENT mechanisms that mainstream lumps together as 'mirror':
 > ① PATTERN MATCHING (limbic, near-innate)
-> ② AGENT MODELING (learned, 6m-24m+)
+> ② AGENT MODELING (learned, 6m–24m+)
 > ③ SCHEMA SIMULATION (compiled, mature)"
 
-**Theme E's synthesis**:
+**Theme E's synthesis:**
 
-**Empathy = Resonance output when applied to another agent**.
+**Empathy = Resonance output when applied to another agent.**
 
 More precisely:
 - **Empathy is NOT a separate feeling or module**
-- **Empathy IS the process of**: own Self-Pattern Match library running simulation with other's body as input → producing own body-state as approximate copy → PFC observing own body's fit-judgment as "feeling"
+- **Empathy IS the process of**: own Self-Pattern Match library running simulation with the other's body as input → producing own body-state as an approximate copy → PFC observing own body's fit-judgment as "feeling"
 - **Result**: "I feel what they feel (weakly)"
 
-**Why this reframe matters**:
-1. **Explains alexithymia-empathy link** (Bird & Cook 2013 🟢): if you can't read your own feelings well (weak Self-Pattern Match), you can't simulate others' feelings well → empathy deficit
+**Why this reframe matters:**
+1. **Explains the alexithymia-empathy link** (Bird & Cook 2013 🟢): if you can't read your own feelings well (weak Self-Pattern Match), you can't simulate others' feelings well → empathy deficit
 2. **Explains cultivation**: empathy improves with self-awareness training
-3. **Explains limits**: empathy accuracy bounded by self-library quality
-4. **Rejects hardware mirror module**: no dedicated "empathy circuit" needed
+3. **Explains limits**: empathy accuracy is bounded by the quality of your own self-library
+4. **Rejects a dedicated hardware mirror module**: no specialized "empathy circuit" required
 5. **Still explains phenomena**: pain empathy (Singer 2004), emotional contagion (Hatfield 1994), etc.
 
-**→ Answer Q1 "Empathy là gì?"**:
+**→ Answer to Q1 "What is empathy?":**
 
-> **Empathy = body simulation output (Resonance) producing own body-state as weak copy of inferred other-state, which PFC observes as feeling. NOT a separate system. IS a byproduct of how brain processes agents via own-template simulation.**
+> **Empathy = body simulation output (Resonance) producing one's own body-state as a weak copy of the inferred other-state, which PFC then observes as a feeling. NOT a separate system. IS a byproduct of how the brain processes agents via own-template simulation.**
 
-**Confidence: HIGH** — Bird & Cook 2013 is decisive evidence, framework coverage converges, cross-species behavior confirmed.
+**Confidence: HIGH** — Bird & Cook 2013 is decisive evidence; framework coverage converges; cross-species behavior confirmed.
 
 ### §2.2 — The 3 mechanisms merged as "mirror/empathy"
 
@@ -145,591 +147,591 @@ Mirror-Neuron-Analysis.md §"Refined Hypothesis" decomposes:
 **① PATTERN MATCHING** (limbic, near-innate, from birth):
 - Detects acoustic/visual patterns matching own experience
 - Example: contagious crying in newborns
-- Mechanism: "tiếng khóc → giống khi mình khóc → body react"
+- Mechanism: hearing crying → matches the pattern of when I cry myself → body reacts
 - **NOT agent awareness** — arousal contagion, not empathy
 - Evidence: Dondi 1999 newborn cry discrimination 🟢
 
-**② AGENT MODELING** (learned, emerges 14-24 months):
-- Brain builds prediction model for unpredictable agents
-- Own-state mapping onto other
-- "Mẹ có state riêng, state đó GIỐNG cách mình có state"
+**② AGENT MODELING** (learned, emerges 14–24 months):
+- Brain builds a prediction model for unpredictable agents
+- Own-state mapped onto other
+- "Mother has her own state, and that state RESEMBLES how I have states"
 - **TRUE empathy begins here**
-- Evidence: Warneken 2006-2007 helping, rouge test 18-24m, Svetlova 2010 🟢
+- Evidence: Warneken 2006–2007 instrumental helping, rouge test 18–24m, Svetlova 2010 🟢
 
 **③ SCHEMA SIMULATION** (compiled, mature adult):
 - Compiled agent model fires WITHOUT real input
-- PFC creates virtual agents (deities, departed loved ones, "inner voice")
-- Explains: religion, statues, placebo, mẫu ảnh cổ, locket
+- PFC creates virtual agents (deities, departed loved ones, an "inner voice")
+- Explains: religion, sacred statues, placebo effects, a loved one's photograph
 - Evidence: Piaget animism, religious neuroscience, placebo research
 
-**→ "Empathy" in everyday language merges all 3**. Framework's Theme E uses Resonance (mechanism ② primarily) as the core.
+**→ "Empathy" in everyday language merges all 3.** Framework's Theme E uses Resonance (mechanism ② primarily) as the core.
 
-**Developmental trajectory**:
-- 0-6m: Pattern matching only (arousal contagion, NOT empathy)
-- 6-12m: Social referencing, early agent detection
-- **14-24m**: AGENT MODELING emerges (TRUE empathy begins with rouge test + empathic helping)
-- 2-7y: Over-apply agent model (animism)
+**Developmental trajectory:**
+- 0–6m: Pattern matching only (arousal contagion, NOT empathy)
+- 6–12m: Social referencing, early agent detection
+- **14–24m**: AGENT MODELING emerges (TRUE empathy begins with rouge test + empathic helping)
+- 2–7y: Over-apply agent model (animism phase)
 - 7y+: Refine + mature empathy
 
-**Evidence support**:
-- Svetlova 2010: instrumental helping at 14m, empathic helping at 18-24m 🟢
+**Evidence support:**
+- Svetlova 2010: instrumental helping at 14m, empathic helping at 18–24m 🟢
 - Meltzoff "Like Me" hypothesis: own template applied outward 🟢
-- Rouge test: self-recognition 18-24m → enables self-other mapping 🟢
+- Rouge test: self-recognition 18–24m → enables self-other mapping 🟢
 
-### §2.3 — "Thiện cảm" — Framework construction
+### §2.3 — *Thiện cảm* (Affinity) — Framework construction
 
-User asks: "có thiện cảm là cái gì? khi nào thì một agent kích hoạt điều này?"
+User asks: "What is *thiện cảm*? When does an agent activate this?"
 
-**Framework does NOT have "thiện cảm" as explicit term**. Theme E **constructs** it from framework vocabulary.
+**The framework does NOT have *thiện cảm* as an explicit term.** Theme E **constructs** it from framework vocabulary.
 
-**"Thiện cảm" = compound positive valence toward an agent**
+**"*Thiện cảm*" = compound positive valence toward an agent**
+
+In English: ***thiện cảm* = affinity** — the Vietnamese term names a felt warmth or positive regard toward another person that arises from multiple signals converging. This document uses **"affinity"** to render it throughout.
 
 **Proposed decomposition** (Theme E synthesis):
 
-**Thiện cảm = convergence of multiple positive signals**:
+**Affinity = convergence of multiple positive signals:**
 
-1. **L0 safety** (threat minimal): agent doesn't trigger threat alarms — no danger signals
-2. **Mirror reward positive**: Resonance simulation returns positive fit-judgment (they seem well, good state)
-3. **Valence compiled positive** (Feeling-Sources §9): prior interactions compiled into positive valence chunk
-4. **Schema match positive**: agent fits "safe/good person" schema
-5. **Agent input fulfilled** (Feeling-Sources §5): person provides co-regulation, warmth, or social benefit
+1. **L0 safety** (threat minimal): the agent doesn't trigger threat alarms — no danger signals
+2. **Mirror reward positive**: Resonance simulation returns a positive fit-judgment (they seem well, in a good state)
+3. **Valence compiled positive** (Feeling-Sources §9): prior interactions compiled into a positive valence chunk
+4. **Schema match positive**: agent fits a "safe/good person" schema
+5. **Agent input fulfilled** (Feeling-Sources §5): the person provides co-regulation, warmth, or social benefit
 
-**When ANY subset of above fires POSITIVE, body generates "thiện cảm" feeling**.
+**When ANY subset of the above fires POSITIVE, the body generates an "affinity" feeling.**
 
-**Contrast with negative feelings**:
-- Antipathy / "ghét" = L0 threat + mirror negative + valence compiled negative
+**Contrast with negative feelings:**
+- Antipathy / aversion = L0 threat + mirror negative + valence compiled negative
 - Neutral = no strong signals either way
-- Thiện cảm = positive convergence
+- Affinity = positive convergence
 
-**→ Answer Q4 "thiện cảm là gì?"**: Compound positive valence toward an agent, arising from multiple positive signals converging (safety + mirror + valence + schema match + agent input). NOT a single dedicated feeling, but a **label for positive convergence**.
+**→ Answer to Q4 "What IS affinity?":** Compound positive valence toward an agent, arising from multiple positive signals converging (safety + mirror + valence + schema match + agent input). NOT a single dedicated feeling — **a label for positive convergence.**
 
-**When does thiện cảm activate?** (user's Q5):
+**When does affinity activate?** (user's Q5):
 
-Framework answer — **when any of these conditions fire**:
+Framework answer — **when any of these conditions fire:**
 
 1. **Safe agent signals**: calm body language, smiling, open posture → Resonance returns "not threatening"
 2. **Previous positive interactions**: compiled valence chunks fire positive
-3. **Moral alignment** (schema match): agent's actions match one's value schema ("đạo đức", "hiền lành")
-4. **Resemblance to loved one**: triggers relationship schema activation (mẹ resemblance case — see §2.10)
-5. **Reciprocal gift** ("người khác cho đồ mình"): triggers fairness schema + reciprocal altruism
-6. **Community belonging cue**: agent shares group identity (Bác Hồ + bộ đội case — see §2.9)
+3. **Moral alignment** (schema match): agent's actions match one's value schema ("ethical," "kind-hearted")
+4. **Resemblance to a loved one**: triggers relationship schema activation (mother-resemblance case — see §2.10)
+5. **Reciprocal gift** ("someone gave me something"): triggers fairness schema + reciprocal altruism
+6. **Community belonging cue**: agent shares group identity (Uncle Ho + soldiers case — see §2.9)
 7. **Vulnerability cue** (Empathy-Mirror §4): agent is weak/young → Empathy-Mirror fires stronger
-8. **Competence cue**: agent shows skill/kindness that signals trustworthiness
+8. **Competence cue**: agent shows skill or kindness that signals trustworthiness
 
-**Why "phải có thiện cảm" thì mới giúp**?
+**Why does affinity seem necessary before you'll help?**
 
-Because **giving is driven by positive body-level signal, not abstract duty alone**.
+Because **giving is driven by a positive body-level signal, not abstract duty alone.**
 
 Framework evidence (Empathy-Mirror §6.5):
-> "Share > keep BECAUSE mirror reward is biochemistry thật. Body TỰ drive share khi thấy thừa — vì mirror reward > giữ reward."
+> "Share > keep BECAUSE mirror reward is real biochemistry. The body NATURALLY drives sharing when there is surplus — because mirror reward > keep reward."
 
-**If no thiện cảm** → no mirror reward anticipation → body doesn't drive giving → "I could help but don't feel like it".
+**If no affinity** → no anticipation of mirror reward → body doesn't drive giving → "I could help but I don't feel like it."
 
-**If thiện cảm present** → mirror reward anticipation → body drives giving → "I want to help".
+**If affinity is present** → mirror reward anticipated → body drives giving → "I want to help."
 
-**→ "Phải có thiện cảm"** is framework's **positive trust precondition** (Anchor-Schema §2). Without positive valence, giving becomes forced/unsustainable.
+**→ "Affinity seems necessary"** is the framework's **positive trust precondition** (Anchor-Schema §2). Without positive valence, giving becomes forced and unsustainable.
 
-### §2.4 — Cây xoài dư case: Natural resource distribution
+### §2.4 — Mango surplus case: Natural resource distribution
 
-**User's case A**: "nhà có sẵn cây xoài đã chín quả ăn không hết thì cho hàng xóm"
+**User's case A**: "The mango tree has ripe fruit more than enough to eat, so you give some to your neighbor."
 
 **Framework's DIRECT coverage** — [Empathy-Mirror.md §6.5 Evolutionary Function](../../../Empathy-Mirror.md):
 
-> "EMPATHY-MIRROR = CƠ CHẾ PHÂN PHỐI TÀI NGUYÊN TỰ NHIÊN. Không cần luật. Không cần đạo đức. Body TỰ drive share khi THỪA — vì mirror reward > giữ reward."
+> "EMPATHY-MIRROR = NATURAL RESOURCE DISTRIBUTION MECHANISM. No law required. No moral code required. The body NATURALLY drives sharing when there is SURPLUS — because mirror reward > keep reward."
 
-**Mechanism breakdown**:
+**Mechanism breakdown:**
 
 ```
-Step 1: Body-base đủ (L1 met, xoài đã đủ ăn)
-         → Thêm xoài cho mình: reward ≈ 0 (already satisfied)
+Step 1: Body-base is met (L1 satisfied — enough mangoes for oneself)
+         → One more mango for self: reward ≈ 0 (already satisfied)
 
 Step 2: See neighbors (potential recipients)
          → Resonance simulator runs
-         → Visualize: "họ ăn xoài → họ vui"
-         → Mirror fire: own body pre-experiences neighbor's pleasure (weakly)
+         → Visualize: "they eat the mango → they're happy"
+         → Mirror fires: own body pre-experiences neighbor's pleasure (weakly)
 
 Step 3: Body-level calculation (unconscious)
-         → Keep 1 more xoài: reward ≈ 0
-         → Give 1 xoài → mirror reward: weak positive
-         → **Mirror reward > keep reward** (since keep is already satiated)
+         → Keep 1 more mango: reward ≈ 0
+         → Give 1 mango → mirror reward: weak positive
+         → **Mirror reward > keep reward** (since keeping is already satiated)
 
 Step 4: Drive emerges naturally
-         → "Cho hàng xóm" action arises from body positive calculation
+         → "Give to neighbor" action arises from the body's positive calculation
          → NOT conscious "moral duty" deliberation
-         → Body TỰ drives
+         → Body NATURALLY drives the action
 
-Step 5: Give → see neighbor receive → real mirror fire
-         → Resonance: neighbor happy
-         → Own body: genuine mirror reward (stronger than preview)
-         → Closes loop: body confirms "this was worth it"
+Step 5: Give → see neighbor receive → real mirror fires
+         → Resonance: neighbor is happy
+         → Own body: genuine mirror reward (stronger than the preview)
+         → Loop closes: body confirms "this was worth it"
 ```
 
 **Optimal conditions** (Empathy-Mirror §6.5):
-> "Empathy-mirror OPTIMIZE khi: ① Body-base CỦA MÌNH đã đủ, ② Perceived ability cao, ③ Mirror input có."
+> "Empathy-Mirror OPTIMIZES when: ① My own body-base is already MET, ② Perceived ability is high, ③ Mirror input is present."
 
-Cây xoài case fits all 3:
-- ① Body-base đủ ✓ (xoài dư, đã đủ ăn)
-- ② Ability ✓ (easy to give — no cost)
-- ③ Mirror input ✓ (see neighbor receive)
+The mango surplus case fits all 3:
+- ① Body-base met ✓ (mangoes are surplus, needs already satisfied)
+- ② Ability ✓ (easy to give — no real cost)
+- ③ Mirror input ✓ (can see neighbor receive)
 
-**Result**: **Pure positive reward**, no cost. This is "healthy giving" in framework's §8.5 spectrum:
-> "Lành mạnh (cost ≈ 0): Nhà thừa quả → cho hàng xóm → mirror vui → cost ≈ 0. → Body-base MÌNH không bị ảnh hưởng → PURE reward."
+**Result**: **Pure positive reward**, no cost. This is "healthy giving" in framework §8.5 spectrum:
+> "Healthy (cost ≈ 0): Surplus at home → give to neighbor → mirror joy → cost ≈ 0. → Own body-base unaffected → PURE reward."
 
-**→ Cây xoài case = framework's paradigm healthy giving**. Body naturally drives via mirror reward > keep reward. **Positive trust** (Anchor-Schema §2) — trust in reward ahead, sustainable.
+**→ The mango surplus case = the framework's paradigm case of healthy giving.** Body naturally drives it via mirror reward > keep reward. **Positive trust** (Anchor-Schema §2) — trust in the reward ahead, sustainable.
 
 **Evolutionary logic** (§6.5):
-> "Gene 'share khi thừa' THẮNG gene 'giữ hết cho mình' vì nhóm share > nhóm giữ (ở PHẦN LỚN tình huống). Empathy-mirror ≠ 'lòng tốt' hay 'đạo đức'. = CHIẾN LƯỢC TỐI ƯU ở level gene."
+> "The gene 'share when surplus' BEATS the gene 'keep everything for yourself' because sharing groups outperform hoarding groups (in MOST situations). Empathy-Mirror ≠ 'kindness' or 'morality.' = OPTIMAL STRATEGY at the gene level."
 
-### §2.5 — Cây chuối communal norm case: Schema-driven giving
+### §2.5 — Banana sharing case: Schema-driven giving
 
-**User's case B**: "nhà có cây chuối chín quả (để thì cũng tự ăn hết, vẫn cần) nhưng vì thói quen cộng đồng phải chia sẻ, không chia sẻ thì áy náy, vì cây chuối trồng ở ngoài vườn ai đi qua cũng biết, vẫn chia sẻ một phần cho hàng xóm"
+**User's case B**: "The banana tree has ripe fruit — you'd eat it all yourself, you still need it — but because of community custom you 'have to' share. Not sharing feels wrong (*áy náy*). The tree is in the front garden where everyone who passes can see it. So you share a portion with your neighbor."
 
-**Key difference from cây xoài**: body-base NOT satiated (chuối cần cho mình), but still gives due to **community norm** + **áy náy** (guilt).
+**Key difference from the mango case**: body-base is NOT satiated (bananas are needed for yourself), but you still give due to **community norm** + ***áy náy*** (a nagging sense of social guilt or unease when a norm is violated).
 
 **Framework's analysis** — **mixed trust case**, requires decomposition:
 
-**Mechanism breakdown**:
+**Mechanism breakdown:**
 
 ```
-Step 1: Body-base not satiated
-         → Keeping chuối: positive reward (needed for self)
-         → Giving chuối: SOME cost to self
+Step 1: Body-base is NOT fully satiated
+         → Keeping the bananas: positive reward (needed for self)
+         → Giving bananas: SOME cost to self
 
 Step 2: Community visibility factor
-         → "Cây chuối trồng ở ngoài vườn ai đi qua cũng biết"
+         → "The banana tree is in the front garden — everyone who passes can see it"
          → Social proof active: neighbors see what you have
-         → External inject (Anchor-Schema §3 Nguồn ④ Social pressure)
+         → External inject (Anchor-Schema §3 Source ④ Social pressure)
 
 Step 3: Community norm schema fires
          → Compiled chunk: "community expects sharing"
          → Schema activates automatically
-         → Violates norm → schema triggers "áy náy" (guilt)
+         → Violating norm → schema triggers social guilt (áy náy)
 
 Step 4: Trust evaluation
          → Keep all → positive body reward (L1 need met)
-         → Keep all → NEGATIVE schema trust violation (áy náy)
+         → Keep all → NEGATIVE schema trust violation (social guilt)
          → Give some → moderate body cost + mirror reward + schema compliance
          → Balance: schema compliance outweighs body cost
 
 Step 5: Resolve via partial share
-         → "Chia sẻ MỘT PHẦN" (not all)
+         → Share SOME (not all)
          → Maintains community schema compliance
          → Reduces body cost (still keeps some for self)
          → Balances positive + negative trust
 ```
 
-**Framework's trust analysis**:
+**Framework's trust analysis:**
 
 This is **NEGATIVE TRUST dominant** (Anchor-Schema §2):
-- User's verbal: "không chia sẻ thì áy náy" = **avoidance of guilt/shame**
-- Motivation: avoid schema violation → cortisol drop relief ("phù, tránh được áy náy")
+- User's framing: "not sharing feels wrong (áy náy)" = **avoidance of guilt/shame**
+- Motivation: avoid schema violation → cortisol-drop relief ("phew, avoided the discomfort")
 - NOT: positive anticipation of mirror reward
 
-**Contrast with cây xoài**:
-- Cây xoài: POSITIVE trust (reward ahead) → opioid-type reward ("pleasant")
-- Cây chuối: NEGATIVE trust (avoid harm) → cortisol drop relief ("phù, thoát")
+**Contrast with mango case:**
+- Mango case: POSITIVE trust (reward ahead) → opioid-type reward ("pleasant")
+- Banana case: NEGATIVE trust (avoid harm) → cortisol-drop relief ("phew, escaped it")
 
 **Sustainable?** Mixed:
 - In traditional community: sustainable via community reinforcement
-- In modern breakdown: becomes burdensome ("tại sao phải?")
+- In modern breakdown: becomes burdensome ("Why do I even have to?")
 - Framework warning (§8.5): "Schema hijack override" if body-base suffers significantly
 
-**→ Cây chuối case = schema-driven giving with mixed trust**. Framework recognizes this as:
+**→ The banana sharing case = schema-driven giving with mixed trust.** Framework recognizes this as:
 - Community-typical (not pathological)
-- Driven by social schema + external inject (Nguồn ④)
-- NEGATIVE trust component (avoiding guilt)
+- Driven by social schema + external inject (Source ④)
+- Negative trust component (avoiding social guilt)
 - Sustainable WITH community reinforcement
-- Can become burdensome WITHOUT
+- Can become burdensome WITHOUT it
 
-**→ Answer Q2 (case B)**: Sharing even when body doesn't benefit = social schema (community norm) + guilt avoidance (negative trust). Framework labels this distinctly from pure mirror reward (cây xoài case).
+**→ Answer to Q2 (case B):** Sharing even when the body doesn't benefit = social schema (community norm) + guilt avoidance (negative trust). Framework labels this distinctly from pure mirror reward (mango case).
 
 ### §2.6 — Joy from giving: Mechanism
 
-**User's Q3**: "khi nào thì giúp mà thấy vui?"
+**User's Q3**: "When is helping enjoyable?"
 
-**User's examples**:
-- Mọi người ăn và thấy vui vẻ
-- Mình giúp xong được nghe lời cảm ơn
-- Khi mình có thiện cảm với người muốn giúp
+**User's examples:**
+- People eat it and are happy
+- You help and get thanked
+- When you have affinity for the person you want to help
 
 **Framework's mechanism** (synthesis):
 
-**Joy from giving** = **positive fit-judgment from Resonance** + **trust confirmation**.
+**Joy from giving** = **positive fit-judgment from Resonance** + **trust confirmation.**
 
-**Specific triggers**:
+**Specific triggers:**
 
-**Trigger 1: Visible reward in recipient** ("mọi người ăn và thấy vui vẻ")
+**Trigger 1: Visible reward in recipient** ("people eat and are happy")
 - Mirror input: recipient's positive state directly observed
 - Resonance fit-judgment: "Case 1 Aligned positive" (Resonance §4)
-- "Tôi vui + thấy mọi người vui → càng vui hơn"
+- "I'm happy + I see everyone happy → even happier"
 - Mechanism: matching chunks amplify, feedback loop
 - Own body fires: positive mirror
 
-**Trigger 2: Gratitude received** ("nghe lời cảm ơn")
-- Status signal positive: being valued by recipient (observation parameter — Core v7.8 §8)
-- Signals: "effort was recognized and appreciated"
-- Valence compiled positive about this interaction
+**Trigger 2: Gratitude received** ("hearing thank-you")
+- Positive status signal: being valued by the recipient (observation parameter — Core-Software.md §8)
+- Signals: "the effort was recognized and appreciated"
+- Valence compiles positive about this interaction
 - Self-Pattern-Modeling: recipient's warmth → own body warmth
 - **Double reward**: mirror (positive Self-Pattern-Modeling fire) + status (recognition)
 
-**Trigger 3: Thiện cảm precondition** (user's Q5)
-- Positive valence toward recipient already present
+**Trigger 3: Affinity precondition** (user's Q5)
+- Positive valence toward the recipient already present
 - Resonance simulator already running positive
 - Body anticipates mirror reward BEFORE actual giving
-- Positive trust (Anchor-Schema §2) → giving feels like investment toward shared good
+- Positive trust (Anchor-Schema §2) → giving feels like an investment toward a shared good
 
-**Framework's Resonance §2.4 output categories**:
+**Framework's Resonance §2.4 output categories:**
 > "Match positive → connection, joy, belonging
 > Match negative → solidarity, shared struggle
 > Mismatch → discomfort, distance
 > Anti-match → conflict, irritation
 > Inferred distress → concern, comforting urge"
 
-**Joy from giving** = "match positive" or "inferred distress → comforting urge + resolve".
+**Joy from giving** = "match positive" or "inferred distress → comforting urge + resolved."
 
-**Why "cảm ơn" matters specifically**:
-- Gratitude is an EXPLICIT signal of acknowledgment
-- Closes the mirror loop with certainty
-- Without gratitude, Resonance has to INFER recipient state
-- With gratitude, it's confirmed
+**Why gratitude matters specifically:**
+- Gratitude is an EXPLICIT acknowledgment signal
+- It closes the mirror loop with certainty
+- Without gratitude, Resonance has to INFER the recipient's state
+- With gratitude, the state is confirmed
 - Removes ambiguity about "was it worth it?"
 
-**→ Answer Q3**: Joy from giving comes from:
+**→ Answer to Q3:** Joy from giving comes from:
 1. Mirror reward visible (recipient happiness)
 2. Status/acknowledgment (gratitude)
 3. Positive Resonance fit
-4. Positive trust foundation (thiện cảm precondition)
+4. Positive trust foundation (affinity precondition)
 
-**All 4 can compound — strongest joy when all present**.
+**All 4 can compound — strongest joy when all are present.**
 
 ### §2.7 — Discomfort from giving: 4 sub-cases
 
-**User's Q8**: "khi nào thì giúp mà thấy khó chịu?"
+**User's Q8**: "When is helping uncomfortable?"
 
-**User's 4 sub-cases**:
-A. Không muốn làm việc đó (quá chán, quá khó chịu, cost quá cao)
-B. Khi cho nhưng người ta chê
-C. Khi cho nhưng người ta phản ứng quá thấp so với kỳ vọng
-D. Khi giúp xong phát hiện ra bị lợi dụng
+**User's 4 sub-cases:**
+A. Don't want to do it (too tedious, too unpleasant, cost too high)
+B. You give but the person criticizes the gift
+C. You give but the person's reaction is much lower than expected
+D. You help and then discover you were being exploited
 
-**Framework decomposes each**:
+**Framework decomposes each:**
 
 #### Case A — Cost too high / task unpleasant
 
-**Mechanism**:
+**Mechanism:**
 - Body-base cost > anticipated mirror reward
-- Either: task itself generates dissonance (bored, tired, unpleasant)
-- Or: recipient not triggering thiện cảm → no mirror reward anticipation
-- **Net body calculation**: NEGATIVE → don't want to do
-- If forced to do anyway: dissonance accumulates
+- Either: the task itself generates dissonance (bored, tired, unpleasant)
+- Or: recipient not triggering affinity → no mirror reward anticipated
+- **Net body calculation:** NEGATIVE → don't want to do it
+- If forced to do it anyway: dissonance accumulates
 
-**Framework's Resonance §4 "Case 2 State-gated mismatch"**:
-> "Tôi buồn + thấy mọi người vui → không quan tâm"
+**Framework's Resonance §4 "Case 2 State-gated mismatch":**
+> "I'm sad + I see everyone happy → I don't care"
 
-Generalized: "Own body drained + task cost high → can't summon mirror reward → giving feels like burden"
+Generalized: "Own body drained + task cost high → can't summon mirror reward → giving feels like a burden."
 
 **Sustainable?** No — cost > reward over time = resentment.
 
-#### Case B — Recipient rejects gift ("người ta chê")
+#### Case B — Recipient rejects gift
 
-**Mechanism**:
-- Expected Self-Pattern-Modeling output: "recipient happy → mirror positive"
-- Actual output: "recipient dissatisfied → mirror negative"
-- **Negative prediction-delta** (Schultz 🟢) — VTA: actual < expected
-- Trust violation (Anchor-Schema §2): "I expected positive response, got negative"
+**Mechanism:**
+- Expected Resonance output: "recipient is happy → mirror positive"
+- Actual output: "recipient is dissatisfied → mirror negative"
+- **Negative prediction delta** (Schultz 🟢) — VTA: actual < expected
+- Trust violation (Anchor-Schema §2): "I expected a positive response, I got a negative one"
 - **Negative feelings**: disappointment + hurt + possibly anger
 
 **Chunk dynamics** (Body-Feedback-Mechanism.md §3):
-- **Chunk-Shift**: valence of "giving to this person" SHIFTS negative
-- **Chunk-Miss**: expected mirror reward ABSENT (compiled preview ≠ reality)
+- **Chunk-Shift**: the valence of "giving to this person" SHIFTS negative
+- **Chunk-Miss**: the expected mirror reward is ABSENT (compiled preview ≠ reality)
 - = Compound: Shift + Miss → stronger dissonance than either alone
 
-**Worse**: rejection signals low valuation by recipient:
-- Implicit: "your gift wasn't good enough"
-- Status signal hit: being valued low (observation parameter)
-- Compounds negative feeling
+**Worse**: rejection signals low valuation by the recipient:
+- Implicit signal: "your gift wasn't good enough"
+- Status signal hit: being rated low by the recipient (observation parameter)
+- Compounds the negative feeling
 
-**Framework evidence**:
-- Eisenberger 2003 social rejection = physical pain circuits 🟢
-- Rejection + gift = rejection of your effort/care
+**Framework evidence:**
+- Eisenberger 2003: social rejection = physical pain circuits 🟢
+- Rejection of a gift = rejection of your effort and care
 
 #### Case C — Low reaction vs high expectation
 
-**Mechanism**:
+**Mechanism:**
 - Expected mirror reward: high (anticipated strong gratitude, visible joy)
 - Actual: low (polite acknowledgment, muted response)
-- **Prediction delta magnitude = expectation - reality**
-- If expectation was high → delta large → dissonance large
+- **Prediction delta magnitude = expectation − reality**
+- If expectation was high → delta is large → dissonance is large
 - Framework: **same mechanism as Case B** but weaker (polite ≠ rejection)
 
-**Why expectation matters — Gap→Miss transition micro-scale**
+**Why expectation matters — Gap→Miss transition at micro-scale**
 (Body-Feedback-Mechanism.md §3.3):
-- PFC preview "cho → họ vui → mình vui" (Imagine-Final preview)
-- Preview lặp (trong lúc chuẩn bị cho) → body compile thành baseline
-- Baseline = "mirror reward CAO" = expected
-- Reality: phản ứng thấp → actual < compiled baseline
-- = **Chunk-Miss** (preview đã compile thành expectation, reality miss)
-- Dissonance proportional to delta (kỳ vọng cao → thất vọng lớn)
-- = Micro-scale version của Gap→Miss transition (phút thay vì tháng/năm)
-- Body feels "lỗ vốn" (investment without return)
+- PFC preview: "I give → they're happy → I'm happy" (Imagine-Final preview)
+- Preview repeats (while preparing the gift) → body compiles it as a baseline
+- Baseline = "mirror reward HIGH" = what is now expected
+- Reality: low reaction → actual < compiled baseline
+- = **Chunk-Miss** (preview compiled into expectation, reality misses)
+- Dissonance is proportional to the delta (higher expectation → greater disappointment)
+- = Micro-scale version of the Gap→Miss transition (minutes rather than months/years)
+- Body feels "an investment without return"
 
-**User's own words**: "họ không cười không cảm ơn khi trước đó nghĩ cho xong người ta sẽ vui"
+**User's own words**: "they don't smile or thank you when you expected they'd be happy after you helped"
 
-**"Kỳ vọng càng cao, thất vọng càng lớn"** = chính xác mechanism này
+**"The higher the expectation, the greater the disappointment"** = exactly this mechanism
 (Body-Feedback-Mechanism.md §3.3 ⑦).
 
-#### Case D — Discovery of exploitation ("bị lợi dụng")
+#### Case D — Discovery of exploitation
 
 **Mechanism** (most complex):
-- Past action: gave based on positive trust ("tôi tin họ xứng đáng")
-- New information: recipient was manipulating/exploiting
+- Past action: gave based on positive trust ("I trusted them as deserving")
+- New information: recipient was manipulating or exploiting
 - Trust violation (Anchor-Schema §2):
-  > "Trust violation → RIPPLE EFFECT lên related schemas. Schema 'X đáng tin' BỊ DAMAGE."
-- Retroactive reinterpretation: past giving actions now tagged as "wasted"
+  > "Trust violation → RIPPLE EFFECT on related schemas. Schema 'X is trustworthy' IS DAMAGED."
+- Retroactive reinterpretation: past giving actions are now tagged as "wasted"
 - Valence compiled about this person FLIPS from positive to negative
 - Anger + betrayal + self-blame compound
 
 **Chunk dynamics** (Body-Feedback-Mechanism.md §3 + §4 Compound):
-- **Chunk-Shift**: valence FLIP toàn bộ relationship chunks (content giữ, đánh giá đổi)
-- **Chunk-Miss**: positive connection MẤT (compiled relationship baseline bị cắt)
-- **Chunk-Gap**: identity gap "tôi là ai mà bị lừa?" (network inconsistency)
-- = **Triple compound** — tương tự "bạn thân lừa 100k" (Body-Feedback-Mechanism §4 ví dụ)
+- **Chunk-Shift**: valence of the ENTIRE relationship FLIPS (content preserved, evaluation reversed)
+- **Chunk-Miss**: positive connection is LOST (compiled relationship baseline severed)
+- **Chunk-Gap**: identity gap — "who am I that I got fooled?" (network inconsistency)
+- = **Triple compound** — comparable to the "best friend cheats you" example (Body-Feedback-Mechanism §4)
 
-**Feelings produced**:
+**Feelings produced:**
 - **Anger** at recipient (betrayal) — Chunk-Shift primary
 - **Shame** at self (for being fooled) — Chunk-Gap (identity)
 - **Hypervigilance** going forward (harder to trust again) — compiled threat chunks
 - **Mourning** the lost positive relationship — Chunk-Miss
 
 **Framework quote** (Anchor-Schema §2 Build/Break):
-> "Trust violation → ripple effect. 'Đã bị phản bội 1 lần' → threshold HIGHER cho trust lại. Cần: domain feedback ✓ NHIỀU LẦN + body confirm NHIỀU LẦN."
+> "Trust violation → ripple effect. 'Having been betrayed once' → threshold HIGHER for trusting again. Recovery requires: domain feedback ✓ MANY TIMES + body confirm MANY TIMES."
 
-**Recovery** is slow: Anchor-Schema §2 Rebuild section.
-Negativity bias (🟢 Baumeister 2001): threat chunks compile NHANH, reward chunks compile CHẬM → recovery ASYMMETRIC.
+**Recovery is slow:** Anchor-Schema §2 Rebuild section.
+Negativity bias (🟢 Baumeister 2001): threat chunks compile FAST, reward chunks compile SLOW → recovery is ASYMMETRIC.
 
 #### Summary table
 
-| Case | Chunk dynamics (Body-Feedback-Mechanism §3-§4) | Trust violation? | Sustainable? |
+| Case | Chunk dynamics | Trust violation? | Sustainable? |
 |---|---|---|---|
-| A. Cost too high | Body-base cost > mirror reward (no chunk dynamics — pure resource calc) | No | No — resentment |
+| A. Cost too high | Body-base cost > mirror reward (pure resource calculation, no chunk dynamics) | No | No — resentment accumulates |
 | B. Recipient rejects | Chunk-Shift + Chunk-Miss (compound) + status hit | Yes | No — avoidance |
-| C. Low reaction | Chunk-Miss (Gap→Miss micro: preview compiled → reality miss) | Mild | Yes if infrequent |
-| D. Exploitation | Chunk-Shift + Chunk-Miss + Chunk-Gap (triple compound) | MAJOR | No — rebuild needed |
+| C. Low reaction | Chunk-Miss (Gap→Miss micro: preview compiled → reality misses) | Mild | Yes if infrequent |
+| D. Exploitation | Chunk-Shift + Chunk-Miss + Chunk-Gap (triple compound) | MAJOR | No — rebuild required |
 
-**Common pattern**: Cases B/C/D all involve **Imagine-Final preview compiled thành baseline → reality < baseline → Chunk-Miss**. Intensity tăng theo compound level (C < B < D).
+**Common pattern**: Cases B/C/D all involve **Imagine-Final preview compiled into a baseline → reality falls below baseline → Chunk-Miss**. Intensity increases with compound level (C < B < D).
 
-**Link Body-Feedback-Mechanism**: "Kỳ vọng càng cao, thất vọng càng lớn" (Body-Feedback-Mechanism.md §3.3 ⑦) = chính xác mechanism cho cả 3 cases.
+**Link to Body-Feedback-Mechanism**: "The higher the expectation, the greater the disappointment" (Body-Feedback-Mechanism.md §3.3 ⑦) = exactly the mechanism in all 3 cases.
 
-### §2.8 — "Cho đi vô tư" decomposed
+### §2.8 — "Giving freely" (without expectation) decomposed
 
-**User's final question**: "cho đi vô tư, người ta thích thì vui, không thích thì thôi — đây là kỹ năng luyện tập, hay mặc định vẫn có tình huống xác xuất tự cho đi vô tư như vậy. hay người đó đã có một schema nào đó rộng hơn mà không thể bị vi phạm dễ dàng bởi 1 cá nhân riêng lẻ"
+**User's final question**: "Giving freely — if they like it, good; if not, that's fine, give to someone else another time. Is this a trained skill, a probabilistic default behavior, or does the person have a broader schema that can't easily be violated by any single individual?"
 
-**Three hypotheses from user**:
+**Three hypotheses from the user:**
 1. Trained skill (learned via practice)
 2. Default probabilistic behavior (random occurrence)
 3. Broader schema not easily violated by individuals
 
-**Framework's answer**: **Primarily option 3 with elements of 1**. Not option 2.
+**Framework's answer**: **Primarily option 3 with elements of option 1.** Not option 2.
 
-**Decomposition of "cho đi vô tư"**:
-
-**What it means phenomenologically**:
-- Give freely
-- Recipient's response doesn't strongly affect giver's state
-- If they like: mild positive
+**What "giving freely" means phenomenologically:**
+- Give without attachment
+- Recipient's response does not strongly affect the giver's state
+- If they like it: mild positive
 - If they don't: mild neutral or mild disappointment, but NOT deep hurt
-- Overall: stable giving disposition
+- Overall: a stable giving disposition
 
 **Mechanism for stability** (framework synthesis):
 
-**Option 3 elaborated — Broader schema**:
+**Option 3 elaborated — Broader schema:**
 
 The giver has anchored positive trust in a **broader schema** such as:
-- **Religious/spiritual schema**: "I give as practice, not for recipient reaction" (Buddhist dana, Christian charity)
-- **Community schema**: "I give because that's who we are, regardless of individual response"
-- **Personal values schema**: "I give because it reflects MY values, independent of recipient"
-- **Abundance schema**: "I have enough, giving doesn't deplete me"
+- **Religious/spiritual schema**: "I give as a practice, not for the recipient's reaction" (Buddhist *dāna*, Christian charity, Sufi generosity)
+- **Community schema**: "I give because that's who we are, regardless of individual responses"
+- **Personal values schema**: "I give because it reflects MY values, independent of the recipient"
+- **Abundance schema**: "I have enough — giving doesn't deplete me"
 
-**Why this stabilizes against individual rejection**:
-- Positive trust isn't in RECIPIENT specifically
-- Positive trust is in the SCHEMA/FRAMEWORK of giving
-- Individual recipient response is small input to large anchor
-- Framework analogy: Anchor-Schema §2 "Positive trust in schema > dependence on single event"
+**Why this stabilizes against individual rejection:**
+- Positive trust is NOT anchored in the SPECIFIC RECIPIENT
+- Positive trust is anchored in the SCHEMA/FRAMEWORK of giving itself
+- Any individual recipient's response is a small input to a large anchor
+- Framework analogy: Anchor-Schema §2 "Positive trust in schema > dependence on any single event"
 
-**Option 1 complement — Trained skill**:
-- Practice helps: repeated giving without strong expectations → compile chunks that don't anticipate specific response
+**Option 1 complement — Trained skill:**
+- Practice helps: repeated giving without strong expectations → compiles chunks that don't anticipate a specific response
 - Meditation: non-attachment practice (Buddhist mental training)
-- Therapy: examining why we expect reciprocation → release expectation
+- Therapy: examining why we expect reciprocation → releasing the expectation
 
-**Option 2 rejection**:
+**Option 2 rejected:**
 - NOT random/probabilistic — framework rejects pure randomness (Theme D §2.7)
-- If someone "accidentally" gives without expectation, there's still an underlying mechanism (compiled chunks or broad schema)
+- If someone "accidentally" gives without expectation, there is still an underlying mechanism (compiled chunks or a broad schema)
 
-**Framework evidence**:
+**Framework evidence:**
 
-From **Anchor-Schema §2 Trust**:
-> "Trust = Mức độ hệ thống COMMIT vào Anchor-Schema, đủ để MAINTAIN sync qua dissonance."
+From **Anchor-Schema §2 Trust:**
+> "Trust = The degree to which the system COMMITS to an Anchor-Schema, enough to MAINTAIN sync through dissonance."
 
-"Cho đi vô tư" = high trust in BROAD schema that persists through individual dissonance (rejection, no response).
+"Giving freely" = high trust in a BROAD schema that persists through individual dissonance (rejection, no response).
 
-From **Empathy-Mirror §6.5 Optimal conditions**:
-> "① Body-base CỦA MÌNH ĐÃ ĐỦ, ② Perceived ability CAO, ③ Mirror input CÓ."
+From **Empathy-Mirror §6.5 Optimal conditions:**
+> "① My own body-base is already MET, ② Perceived ability is HIGH, ③ Mirror input is PRESENT."
 
-Plus Theme E adds:
+Theme E adds a fourth:
 > "④ Broader schema trust > dependence on specific recipient response"
 
-**→ Answer Q9**: "Cho đi vô tư" = positive trust anchored in BROAD schema (religious/spiritual/values/abundance), so individual responses don't dominate body-level evaluation. Trained via practice (meditation, therapy, exposure). NOT random. NOT pure default.
+**→ Answer to Q9:** "Giving freely (without expectation)" = positive trust anchored in a BROAD schema (religious/values/abundance), so individual responses don't dominate body-level evaluation. Trained via practice (meditation, therapy). NOT random. NOT pure default.
 
-**Prevalence**: Rare at high level (requires developed trust anchor). Some versions widely distributed (parental love for young children often has this quality — unconditional).
+**Prevalence**: Rare at the highest level (requires a developed trust anchor). Some versions are widely distributed — parental love for young children often has this quality (unconditional).
 
-### §2.9 — Bác Hồ + bộ đội community case
+### §2.9 — Uncle Ho + soldiers: Community shared anchor case
 
-**User's case**: "Bác Hồ sống đạo đức, Đảng Cộng Sản giúp chống lại quân thù => có thiện cảm với mọi chú bộ đội cá nhân đi ngang qua, mẹ Việt Nam cho đồ ăn dù khó khăn"
+**User's case**: "Uncle Ho lived ethically, the Communist Party helped fight the enemy → there is affinity for every individual soldier who passes; Vietnamese mothers gave food even in hardship."
 
-**Framework analysis** — **community schema + shared anchor case**.
+**Framework analysis** — **community schema + shared anchor case.**
 
-**Mechanism**:
+**Mechanism:**
 
 **Step 1: Shared Anchor-Schema compiled** (Anchor-Schema §5):
-- Moral figure (Bác Hồ) as schema exemplar
-- Collective narrative (party as protector)
+- Moral figure (Uncle Ho) as schema exemplar
+- Collective narrative (the party as protector of the people)
 - Ritual reinforcement (historical stories, public ceremonies)
-- All 4 inject mechanisms (Nguồn ④) active: repetition + ritual + emotional peak + social
+- All 4 inject mechanisms (Source ④) active: repetition + ritual + emotional peak + social
 - Result: deep Anchor-Schema about "good/honorable = this community"
 
-**Step 2: Individual bộ đội triggers category schema**:
+**Step 2: Individual soldier triggers category schema:**
 - Uniform = category marker
-- Associated with shared anchor (protectors of community)
+- Associated with shared anchor (protectors of the community)
 - Mirror simulator activates positive template
-- Resonance fit-judgment: "these are 'us', positive"
+- Resonance fit-judgment: "these are 'us,' positive"
 
-**Step 3: Thiện cảm activates automatically**:
+**Step 3: Affinity activates automatically:**
 - Safe agent ✓ (shared category)
-- Positive valence compiled ✓ (community narrative)
+- Compiled positive valence ✓ (community narrative)
 - Schema match ✓ (fits protector role)
-- Multiple sources converge → strong thiện cảm
+- Multiple sources converge → strong affinity
 
-**Step 4: Mẹ Việt Nam giving food**:
-- Body-base cost high (khó khăn — food scarce)
-- BUT: shared schema trust HIGH (community protection schema)
-- Mirror reward: seeing protector get food → satisfaction
+**Step 4: Vietnamese mother giving food:**
+- Body-base cost is HIGH (hardship — food is scarce)
+- BUT: shared schema trust is HIGH (community protection schema)
+- Mirror reward: seeing a protector receive food → satisfaction
 - Schema compliance: "we help our protectors"
-- **Mixed positive + negative trust**:
+- **Mixed positive + negative trust:**
   - Positive: community anchor reinforcement
-  - Negative: "không cho thì sẽ hổ thẹn với lý tưởng"
-- BUT: community support makes it sustainable (social reward from other Việt mothers doing same)
+  - Negative: "not giving would be a shame before the ideal"
+- BUT: community support makes it sustainable (social reward from other Vietnamese mothers doing the same)
 
-**This is community-level empathy-mirror reward**:
-- Not individual-to-individual calculation
-- Group-level anchor dominates individual body-base calculation
+**This is community-level Empathy-Mirror reward:**
+- Not an individual-to-individual calculation
+- Group-level anchor dominates the individual body-base calculation
 - Framework parallel: Anchor-Schema §5 Religion + community shared anchor
 
-**→ Framework's view**: This is **shared Anchor-Schema override** of individual body cost. Community rituals and narratives compile the anchor so deep that individual giving becomes expression of group belonging rather than individual calculation.
+**→ Framework's view:** This is **shared Anchor-Schema override** of individual body cost. Community rituals and narratives compile the anchor so deep that individual giving becomes an expression of group belonging rather than an individual calculation.
 
-**Healthy or pathological?**:
-- In genuine protective context (actual threat, mutual benefit): HEALTHY community mechanism
-- When schema becomes exploitation (protectors actually harming): MOVES toward §8.5 pathological
-- Framework's evolutionary view: this mechanism exists because groups with shared anchors outcompeted groups without
+**Healthy or pathological?**
+- In a genuine protective context (real threat, mutual benefit): HEALTHY community mechanism
+- When the schema becomes exploitative (the "protectors" actually causing harm): MOVES toward §8.5 pathological
+- Framework's evolutionary view: this mechanism exists because groups with shared anchors outcompeted groups without them
 
 ### §2.10 — Mother-resemblance case
 
-**User's case**: "cuộc sống ngày xưa khó khăn, lên thành phố đi làm, lâu ngày không gặp mẹ, thấy người phụ nữ già đang nhặt rác, người phụ nữ đó dáng giống mẹ, nhớ tới mẹ ngày xưa vất vả, thấy người phụ nữ kia vất vả, đến nói chuyện và thấy đúng như cảm nhận, người phụ nữ đó cũng hiền lành giống như mẹ => xúc động, có thiện cảm"
+**User's case**: "Life was hard in the old days. You've moved to the city to work, haven't seen your mother in a long time. You see an elderly woman rummaging through garbage — her silhouette resembles your mother. You remember your mother's hardship in the past. You see this woman's hardship. You approach and talk, and it matches your feeling — she is also kind-hearted like your mother → deeply moved, affinity."
 
 **Framework analysis** — **schema activation via resemblance** case.
 
-**Mechanism** (decomposed):
+**Mechanism (decomposed):**
 
-**Step 1: Current emotional context**:
-- Man is away from mother for long time
-- Missing mother (compiled relationship chunks firing without fulfillment)
-- Agent input deficit for specific mother-agent
-- Baseline longing body state
+**Step 1: Current emotional context:**
+- Man has been away from his mother for a long time
+- Missing his mother (compiled relationship chunks firing without fulfillment)
+- Agent-input deficit for the specific mother-agent
+- Background longing body state
 
-**Step 2: Visual trigger — physical resemblance**:
-- Sees old woman collecting trash
-- Physical features match "mother" template in compiled memory
-- Pattern match fires: "mẹ-like"
+**Step 2: Visual trigger — physical resemblance:**
+- Sees an elderly woman collecting trash
+- Physical features match the "mother" template in compiled memory
+- Pattern match fires: "mother-like"
 - Similarity triggers schema activation
 
-**Step 3: Schema firing cascade**:
-- "Mother" schema activates (deep compiled)
-- Memory retrieval: "mẹ ngày xưa vất vả" (past hardship memories)
-- Current observation: "woman also vất vả"
+**Step 3: Schema firing cascade:**
+- "Mother" schema activates (deeply compiled)
+- Memory retrieval: "my mother toiling hard in the old days" (past hardship memories)
+- Current observation: "this woman also toils hard"
 - Parallel structure detected: both hardworking/struggling elderly women
 
-**Step 4: Resonance + CARE system activation**:
-- Simulator runs on perceived struggling person
+**Step 4: Resonance + CARE system activation:**
+- Simulator runs on the perceived struggling person
 - Own body fires CARE system (Panksepp 🟢)
 - Body state: warmth + tenderness (maternal mirroring)
 - NOT "this IS my mother" but "this person is WORTHY like my mother"
 
-**Step 5: Investigation → confirmation**:
+**Step 5: Investigation → confirmation:**
 - Approaches, talks
-- Gets MORE data: "hiền lành giống như mẹ"
-- Pattern match confirms at deeper level (personality, not just appearance)
-- Valence compiles positive for THIS specific person (new chunk)
+- Gets MORE data: "kind-hearted, just like my mother"
+- Pattern match confirms at a deeper level (personality, not just appearance)
+- Valence compiles positive for THIS specific person (new chunk forming)
 
-**Step 6: Emotional response**:
-- Xúc động = deep body activation
+**Step 6: Emotional response:**
+- Being deeply moved (*xúc động*) = deep body activation
 - Mirror + CARE + schema + memory all firing simultaneously
 - Multi-channel positive feeling
-- Thiện cảm = product of this convergence
+- Affinity = product of this convergence
 
-**Framework elements involved**:
+**Framework elements involved:**
 
 1. **Compiled mother schema** fires via resemblance (Self-Pattern Match library)
 2. **Schema-triggered feelings** (Feeling-Sources §7): memory + emotional weight
 3. **Resonance** simulator running on perceived struggle
 4. **CARE system** (Panksepp 7 primary affect systems 🟢)
-5. **Valence compilation** about this specific person starting new
-6. **Agent input** (Feeling-Sources §5): some fulfillment of maternal connection deficit
+5. **Valence compilation** about this specific person beginning anew
+6. **Agent input** (Feeling-Sources §5): some fulfillment of the maternal connection deficit
 
-**→ Theme E's richest single case**: Shows how **multiple framework mechanisms converge** to generate thiện cảm:
+**→ Theme E's richest single case:** Shows how **multiple framework mechanisms converge** to generate affinity:
 - Memory + schema + simulator + CARE + mirror + valence
 
-**Why this case is emotionally intense** ("xúc động"):
+**Why this case is so emotionally intense:**
 - Not just one feeling channel
 - Multi-channel convergence
-- Schema firing from deep compiled memory
-- Echoes of unfulfilled mother connection
-- Compression phenomenon: multiple channels → single "xúc động" label (similar to "yêu em" 9-channel case in Feeling-Sources §12)
+- Schema firing from deeply compiled memory
+- Echoes of an unfulfilled maternal connection
+- Compression phenomenon: multiple channels → single "being deeply moved" label (similar to the "I love you" 9-channel case in Feeling-Sources §12)
 
-**This is the strongest form of thiện cảm in user's examples** — mother-resemblance triggers deepest compiled schemas.
+**This is the strongest form of affinity in the user's examples** — mother-resemblance triggers the deepest compiled schemas.
 
 ### §2.11 — Positive vs Negative Trust applied to giving
 
-Synthesizing framework's [Anchor-Schema §2 Positive vs Negative Trust](../../../Schema/Anchor-Schema.md) with all user cases:
+Synthesizing the framework's [Anchor-Schema §2 Positive vs Negative Trust](../../../Schema/Anchor-Schema.md) with all user cases:
 
-**Positive trust giving**:
+**Positive trust giving:**
 - Anchor: "giving leads to something good" (reward ahead)
-- Feeling: "khó nhưng xứng đáng" or simply "want to give"
+- Feeling: "hard but worth it" or simply "I want to give"
 - Reward type: opioid, mirror reward, satisfaction
 - Sustainable: YES
-- Examples: cây xoài dư, joy at recipient happiness, mother-resemblance case
+- Examples: mango surplus case, joy at recipient happiness, mother-resemblance case
 
-**Negative trust giving**:
+**Negative trust giving:**
 - Anchor: "NOT giving leads to something bad" (avoid harm)
-- Feeling: "if I don't, I'll feel áy náy / shamed / excluded"
-- Reward type: cortisol drop relief
+- Feeling: "if I don't, I'll feel social guilt / shame / excluded"
+- Reward type: cortisol-drop relief
 - Sustainable: NO (long-term neural wear)
-- Examples: cây chuối communal pressure, guilt-based charity
+- Examples: banana sharing with community pressure, guilt-based charity
 
-**Mixed trust**:
+**Mixed trust:**
 - Most real-world giving has BOTH
-- Bác Hồ case: community positive anchor + some negative pressure
-- Traditional community norms: both reinforcing
+- Uncle Ho case: community positive anchor + some negative pressure
+- Traditional community norms: both mechanisms reinforcing each other
 
 **Framework's claim** (Anchor-Schema §2):
-> "Positive trust > Negative trust for sustainability. Negative trust = diminishing reward (relief), cần threat tăng dần → neural wear."
+> "Positive trust > Negative trust for sustainability. Negative trust = diminishing reward (relief), requires escalating threat → neural wear."
 
-**"Cho đi vô tư"** = maximally positive trust + broad schema + low specific expectation = optimal giving anchor.
+**"Giving freely (without expectation)"** = maximally positive trust + broad schema + low specific expectation = optimal giving anchor.
 
-**Healthy progression**:
+**Healthy progression:**
 - Early stage: negative trust common (guilt, duty)
-- Maturity: positive trust develops (reward in giving itself)
+- Maturity: positive trust develops (reward in the giving itself)
 - Master stage: broad schema anchor (give regardless of individual response)
 
-This is consistent with spiritual traditions' emphasis on cultivating non-attached giving (Buddhist dana pāramitā, Christian agape).
+This is consistent with spiritual traditions' emphasis on cultivating non-attached giving (Buddhist *dāna pāramitā*, Christian *agape*).
 
 ---
 
@@ -737,36 +739,36 @@ This is consistent with spiritual traditions' emphasis on cultivating non-attach
 
 ### §3.1 — Direct answers to user's questions
 
-**Q1: Empathy là gì?**
-→ **NOT a separate system**. Empathy = Resonance output applied to another agent. Own Self-Pattern Match library runs simulation with other's body as input → own body produces weak copy → PFC observes fit-judgment as feeling. Bird & Cook 2013 decisive evidence for this learning-based model.
+**Q1: What is empathy?**
+→ **NOT a separate system.** Empathy = Resonance output applied to another agent. Own Self-Pattern Match library runs simulation with the other's body as input → own body produces a weak copy → PFC observes the fit-judgment as a feeling. Bird & Cook 2013 is decisive evidence for this learning-based model.
 
-**Q2a: Khi nào muốn cho đi (cây xoài case)?**
-→ When body-base đủ + see someone who needs + Resonance fires positive reward preview. Natural resource distribution mechanism (Empathy-Mirror §6.5). Mirror reward > keep reward when already satiated.
+**Q2a: When do you want to give (mango surplus case)?**
+→ When your own body-base is met + you see someone who needs + Resonance fires a positive reward preview. Natural resource distribution mechanism (Empathy-Mirror §6.5). Mirror reward > keep reward when already satiated.
 
-**Q2b: Khi nào muốn cho đi (cây chuối communal case)?**
-→ When community schema fires + social visibility triggers norm compliance. Negative trust dominant (avoid áy náy). Sustainable WITH community support, burdensome WITHOUT. Different mechanism from cây xoài (schema-driven, not mirror-driven).
+**Q2b: When do you want to give (banana sharing case)?**
+→ When community schema fires + social visibility triggers norm compliance. Negative trust dominant (avoid social guilt). Sustainable WITH community support, burdensome WITHOUT. Different mechanism from the mango case (schema-driven, not mirror-driven).
 
-**Q3: Khi nào giúp mà thấy vui?**
-→ 4 triggers can compound:
+**Q3: When is helping enjoyable?**
+→ 4 triggers that can compound:
 1. Mirror reward visible (recipient happiness)
 2. Gratitude received (status, evaluative)
 3. Positive Resonance fit
-4. Positive trust foundation (thiện cảm present)
+4. Positive trust foundation (affinity present)
 
-Strongest joy when all 4 present.
+Strongest joy when all 4 are present.
 
-**Q4: Thiện cảm là gì?**
-→ Compound positive valence toward agent from convergence of: L0 safety + positive mirror + compiled valence + schema match + possibly agent input. NOT a single dedicated feeling — label for positive convergence.
+**Q4: What IS affinity?**
+→ Compound positive valence toward an agent arising from convergence of: L0 safety + positive mirror + compiled valence + schema match + possibly agent input. NOT a single dedicated feeling — a label for positive convergence.
 
-**Q5: Tại sao phải có thiện cảm thì mới giúp?**
-→ Because giving driven by body-level positive signal, not abstract duty alone. Without positive valence → no mirror reward anticipation → body doesn't drive action. Positive trust precondition.
+**Q5: Why does affinity seem necessary before you'll help?**
+→ Because giving is driven by a body-level positive signal, not abstract duty alone. Without positive valence → no anticipation of mirror reward → body doesn't drive the action. Positive trust precondition.
 
-**Q6: Khi nào activate thiện cảm?**
-→ Any of: safe agent signals, prior positive interactions, moral alignment (schema), resemblance to loved one, reciprocal gift, community belonging, vulnerability, competence/kindness shown.
+**Q6: When does affinity activate?**
+→ Any of: safe agent signals, prior positive interactions, moral alignment (schema), resemblance to a loved one, reciprocal gift, community belonging, vulnerability, competence/kindness shown.
 
-**Q7: Specific cases** — Analyzed §2.9 (Bác Hồ + community shared anchor), §2.10 (mother-resemblance schema activation).
+**Q7: Specific cases** — Analyzed §2.9 (Uncle Ho + community shared anchor), §2.10 (mother-resemblance schema activation).
 
-**Q8: Khi nào giúp mà thấy khó chịu?**
+**Q8: When is helping uncomfortable?**
 → 4 cases:
 - A. Body cost > mirror reward
 - B. Recipient rejection (prediction error + status hit)
@@ -775,12 +777,12 @@ Strongest joy when all 4 present.
 
 Common pattern: Resonance negative fit OR positive trust violated.
 
-**Q9: Cho đi vô tư?**
+**Q9: Giving freely (without expectation)?**
 → Primarily OPTION 3 (broader schema) with elements of OPTION 1 (trained). NOT option 2 (random). Trust anchored in broad schema (religious/values/abundance), so individual responses don't dominate body-level evaluation. Trained via practice.
 
 ### §3.2 — Core mechanism (unified)
 
-**Theme E's unified claim**:
+**Theme E's unified claim:**
 
 All giving dynamics (joy, discomfort, unconditional) decompose through the same mechanism:
 
@@ -790,113 +792,113 @@ All giving dynamics (joy, discomfort, unconditional) decompose through the same 
 4. **Schema match** (community norm, moral framework, relationship)
 5. **Trust balance** (positive anticipation vs negative avoidance)
 6. **Mirror reward calculation** (anticipated + actual)
-7. **PFC observation** of integrated signal as feeling
+7. **PFC observation** of the integrated signal as feeling
 
 **Joy arises** when: positive convergence across these layers.
 **Discomfort arises** when: negative signals or violated expectations.
-**Unconditional giving arises** when: broad schema trust dominates specific recipient calculation.
+**Unconditional giving arises** when: broad schema trust dominates the specific recipient calculation.
 
 ### §3.3 — Confidence breakdown
 
-**HIGH confidence**:
+**HIGH confidence:**
 - Empathy = Resonance (Bird & Cook 2013 decisive)
 - Mirror reward = resource distribution mechanism (evolutionary logic robust)
 - Positive vs negative trust distinction (framework explicit)
 - 4 discomfort sub-cases all fit framework mechanisms
-- "Thiện cảm" as compound convergence (constructable from framework)
+- Affinity as compound convergence (constructable from framework)
 
-**MEDIUM confidence**:
-- "Cho đi vô tư" mechanism specifics
-- Exact weighting of community vs individual calculation (Bác Hồ case)
-- Layer count in "thiện cảm" decomposition
+**MEDIUM confidence:**
+- "Giving freely" mechanism specifics
+- Exact weighting of community vs individual calculation (Uncle Ho case)
+- Layer count in affinity decomposition
 
-**LOW confidence**:
+**LOW confidence:**
 - Cross-cultural variation in giving mechanisms
 - Individual differences in baseline mirror reward sensitivity
-- Modern specific cases (digital giving, anonymous donation)
+- Modern cases (digital giving, anonymous donation)
 
 ---
 
-## §4 — Connection với other themes
+## §4 — Connections to Other Themes
 
 ### §4.1 — Theme A (Architecture)
 
-Theme E is a **test case for Theme A architecture**:
+Theme E is a **test case for Theme A architecture:**
 - All giving dynamics run through PFC observing integrated unconscious processing
-- Resonance = one source feeding into integration hub
-- Body-first: body calculates, PFC observes as "thiện cảm" or "khó chịu"
-- Bidirectional: Bottom-up (mirror signals) + Top-down (schema retrieval via PFC)
+- Resonance = one source feeding into the integration hub
+- Body-First: the body calculates, PFC observes the result as "affinity" or "discomfort"
+- Bidirectional: bottom-up (mirror signals) + top-down (schema retrieval via PFC)
 
-**→ Theme A architecture handles Theme E without modification**.
+**→ Theme A architecture handles Theme E without modification.**
 
 ### §4.2 — Theme B (Verbal × Chain)
 
-Theme E cases often **pre-verbal**:
-- Thiện cảm is felt BEFORE labeling
-- Mother-resemblance case: emotion emerges before "why"
-- Framework: verbal is Feel-Labeling downstream of body integration
+Theme E cases are often **pre-verbal:**
+- Affinity is felt BEFORE it is labeled
+- Mother-resemblance case: emotion emerges before the "why"
+- Framework: verbal is Feel-Labeling — downstream of body integration
 - Confirms Theme B's "body-first, verbal-anchor" pattern
 
 ### §4.3 — Theme C (Ritual)
 
-**Ritual creates shared Anchor-Schemas for giving**:
-- Bác Hồ case uses community ritual reinforcement
-- Religious dana/charity: ritualized giving practices
+**Ritual creates shared Anchor-Schemas for giving:**
+- Uncle Ho case uses community ritual reinforcement
+- Religious dāna/charity: ritualized giving practices
 - Modern equivalents: charity galas, community service traditions
 - **Ritual → shared anchor → positive trust for giving**
 - Theme C provides the mechanism by which community giving norms compile
 
 ### §4.4 — Theme D (Right/Wrong Feeling)
 
-Partner cases (§2.5 of Theme D) used **same mechanism**:
+Partner cases (§2.5 of Theme D) used the **same mechanism:**
 - Resonance mismatch → wrongness feeling
-- Theme D showed it for partner behavior
-- Theme E extends to giving contexts:
+- Theme D showed this for partner behavior
+- Theme E extends it to giving contexts:
   - Recipient rejection = mismatch → wrongness
-  - Unexpected positive reaction = mismatch (positive) → suspicion
+  - Unexpected positive reaction = mismatch (positive direction) → mild suspicion
 - **Same underlying mechanism across both themes**
 
 ### §4.5 — Theme F (Logic-Feeling)
 
 Giving is heavily feeling-biased:
 - Mirror reward = body signal
-- Thiện cảm = compound valence
+- Affinity = compound valence
 - Trust = binding force
-- Logic plays role only in PFC deliberation about individual cases
-- **Feeling dominant, logic secondary** — consistent with Logic-Feeling framework
+- Logic plays a role only in PFC deliberation about individual cases
+- **Feeling dominant, logic secondary** — consistent with the Logic-Feeling framework
 
 ---
 
-## §5 — Open questions for Overview
+## §5 — Open Questions for Overview
 
 | # | Question | Priority | Notes |
 |---|---|---|---|
-| E-Q1 | Empathy-Mirror.md vs By-Product-Gap-Resonance.md: both exist, terminology overlap. Need reconciliation post-Phase 3 fill. | HIGH | Framework file coordination |
-| E-Q2 | "Thiện cảm" — Theme E constructed this term. Should framework add as formal concept? | MEDIUM | Framework extension |
-| E-Q3 | Layer count for giving decomposition (Theme E proposes 7) — right number? | LOW | Validation needed |
+| E-Q1 | Empathy-Mirror.md vs By-Product-Gap-Resonance.md: both exist with overlapping terminology. Need reconciliation post-Phase 3 fill. | HIGH | Framework file coordination |
+| E-Q2 | "Affinity" (*thiện cảm*) — Theme E constructed this concept. Should the framework add it as a formal concept? | MEDIUM | Framework extension |
+| E-Q3 | Layer count for the giving decomposition (Theme E proposes 7) — is this the right number? | LOW | Validation needed |
 | E-Q4 | Cross-cultural validity — Vietnamese community cases feature prominently. Do mechanisms apply equally in individualist cultures? | MEDIUM | Framework has WEIRD bias flag |
-| E-Q5 | Parasocial giving (to online creators, strangers on internet) — framework extension? | LOW | Modern case |
-| E-Q6 | Compassion fatigue (Empathy-Mirror §8) — how interact with "cho đi vô tư" (trained resilience)? | MEDIUM | Important for professionals |
-| E-Q7 | Children's prosocial development (E26-E27 toddler sharing): at what age does "broad schema cho đi vô tư" become possible? | LOW | Developmental question |
+| E-Q5 | Parasocial giving (to online creators, strangers on the internet) — framework extension? | LOW | Modern case |
+| E-Q6 | Compassion fatigue (Empathy-Mirror §8) — how does it interact with "giving freely" (trained resilience)? | MEDIUM | Important for helping professionals |
+| E-Q7 | Children's prosocial development (Feel-Example-Draft E26-E27 toddler sharing): at what age does "broad schema giving freely" become possible? | LOW | Developmental question |
 
 ---
 
 ## §6 — Summary
 
-**Theme E answer in 6 sentences**:
+**Theme E in 6 sentences:**
 
-1. **Empathy = Resonance output** (NOT separate system). Own Self-Pattern Match library simulates other agent → own body produces weak copy → PFC observes as feeling. Bird & Cook 2013 decisive: alexithymia drives empathy deficits, not autism.
+1. **Empathy = Resonance output** (NOT a separate system). Own Self-Pattern Match library simulates another agent → own body produces a weak copy → PFC observes the result as a feeling. Bird & Cook 2013 decisive: alexithymia drives empathy deficits, not autism.
 
-2. **Thiện cảm = compound positive valence** from convergence of safety + positive mirror + compiled valence + schema match + agent input. NOT a single feeling — label for positive convergence. Activates when multiple positive signals align.
+2. **Affinity (*thiện cảm*) = compound positive valence** from convergence of safety + positive mirror + compiled valence + schema match + agent input. NOT a single feeling — a label for positive convergence. Activates when multiple positive signals align simultaneously.
 
 3. **Joy from giving** = 4 compounding triggers: visible recipient reward + gratitude (status, evaluative) + positive Resonance fit + positive trust foundation. All 4 together = strongest joy.
 
-4. **Cây xoài vs cây chuối cases = DIFFERENT mechanisms**: Cây xoài = positive trust + body satiated + natural resource distribution (Empathy-Mirror §6.5). Cây chuối = negative trust (avoid áy náy) + community schema + social visibility. First is sustainable, second depends on community support.
+4. **Mango case vs banana case = DIFFERENT mechanisms**: Mango case = positive trust + body satiated + natural resource distribution (Empathy-Mirror §6.5). Banana case = negative trust (avoid social guilt) + community schema + social visibility. First is inherently sustainable; second depends on community reinforcement.
 
-5. **Discomfort from giving has 4 sub-cases**, all involving Resonance negative fit or trust violation: cost > reward, rejection, expectation mismatch, exploitation discovered. Exploitation is most severe (major trust break).
+5. **Discomfort from giving has 4 sub-cases**, all involving Resonance negative fit or trust violation: cost > reward, rejection, expectation mismatch, exploitation discovered. Exploitation is most severe (major trust break + triple compound chunk dynamics).
 
-6. **"Cho đi vô tư" = broader schema trust** (option 3 from user's hypothesis), possibly with trained skill component. NOT random. Trust anchored in broad schema (religious/values/abundance) so individual responses don't dominate. Rare at high level, developed via practice (meditation, therapy, spiritual traditions).
+6. **"Giving freely (without expectation)" = broader schema trust** (option 3 from user's hypothesis), possibly with a trained skill component. NOT random. Trust anchored in a broad schema (religious/values/abundance) so individual responses don't dominate body evaluation. Rare at the highest level, developed via practice (meditation, therapy, spiritual traditions).
 
-**Confidence**: HIGH on core mechanism (Bird & Cook + Anchor-Schema §2 + Empathy-Mirror §6.5 converge). MEDIUM on "thiện cảm" as framework concept. LOW on cross-cultural universality.
+**Confidence:** HIGH on core mechanism (Bird & Cook + Anchor-Schema §2 + Empathy-Mirror §6.5 converge). MEDIUM on affinity as a framework concept. LOW on cross-cultural universality.
 
-**→ User's empathy/giving questions DECOMPOSE FULLY through framework mechanisms**. No new mechanism needed — just synthesis across Empathy-Mirror + Resonance + Anchor-Schema + Feel-Example-Draft.
+**→ All of the user's empathy and giving questions DECOMPOSE FULLY through existing framework mechanisms.** No new mechanism required — only synthesis across Empathy-Mirror + Resonance + Anchor-Schema + Feel-Example-Draft.

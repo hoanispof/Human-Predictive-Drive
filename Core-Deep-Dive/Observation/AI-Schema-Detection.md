@@ -1,91 +1,52 @@
 ---
-title: AI-Schema-Detection — AI Hỗ Trợ Nhận Diện Schema + Compile Type + Collective Context
+title: "AI-Schema-Detection — AI-Assisted Schema Pattern + Compile Type + Collective Context Detection"
 version: 2.1
-created: 2026-04-18
-updated: 2026-05-30 (v2.1 — companion ref AI-Collective-Detection.md v1.0, collective ⑩-⑭)
-previous_updates:
-  - 2026-05-08 (v2.0 — compile type detection, collective chain, self-drill mode, AI trust guardrails)
-status: v2.1 — GATEWAY FILE (cửa ngõ tiếp cận framework qua ứng dụng thực hành)
-scope: |
-  HOW AI có thể hỗ trợ nhận diện schema patterns + compile type + collective context.
-  INDIVIDUAL capabilities ①-⑨ (file này).
-  COLLECTIVE capabilities ⑩-⑭ → AI-Collective-Detection.md v1.0 (companion).
-  3-layer model: AI detect → Chuyên gia feel-check → Client self-verify.
-  2-layer simplified: AI detect → Client self-verify (cho mild cases).
-  9 AI capabilities: ①-④⑥⑦ (giữ v1.1) + ⑤ compile type (upgrade) + ⑧⑨ (mới).
-  Self-Drill Mode: user + AI, không cần expert cho một số case.
-  AI Trust Guardrails: tool chính nó có thể install patterns → cần guardrails.
-  Fundamental limits: approximate, KHÔNG chính xác tuyệt đối.
-  GATEWAY: file này = entry point cho practical use of framework.
-purpose: |
-  Cầu nối framework lý thuyết → thực hành hỗ trợ.
-  Ứng dụng trực tiếp từ Valence-Propagation.md v1.4 §8 ("Mở cửa cho AI-Schema-Detection").
-  Không phải tool AI cụ thể — mà là KIẾN TRÚC cho AI-assisted schema navigation.
-  GATEWAY ROLE: người đọc không cần hiểu toàn bộ framework trước — file này
-  dẫn dắt từ ứng dụng thực tế → hiểu framework tự nhiên.
-  v2.0 KEY UPGRADES (DỰA TRÊN Drill S1-S12 findings):
-    ⑤ Compile Type Detection (Experience/Expertise/Trust) — detect SOURCE of pattern
-    ⑧ Collective Chain Break Detection — individual vs collective
-    ⑨ 3 Cấp Detection — tag mỗi finding: Cấp 1/2/3
-    §7 Self-Drill Mode — user + AI, không cần expert cho mild cases
-    §8 AI Trust Guardrails — AI output = Trust Compile install → paradox
-sources: |
-  Valence-Propagation.md v1.4 §4 — clarification: Valence-Propagation chains = explanatory (Cấp 3)
-  Valence-Propagation.md v1.4 §8 — fundamental limits + 3 nguyên tắc + mở cửa ứng dụng
-  Schema.md v2.0 §2 (software analogy), §6.3 ("KHÔNG THỂ phân tích chính xác")
-  Compile-Taxonomy.md v3.0 §6 — 4 compile pathways (source for ⑤ upgrade)
-  Collective-Body.md v1.1 §5.2 — chain break (source for ⑧)
-  Collective-Body.md v1.1 §8.4 — AI trust entity (source for §8 guardrails)
-  Collective-Body.md v1.1 §1 — Model 3 cấp (source for ⑨)
-  Body-Base.md v2.0 §6 — 2-tầng calibration (Darwinian + Hebbian), domain feedback = final arbiter
-  Body-Base.md v2.0 §7 — circuit breaker mechanism
-  PFC-Function.md v1.1 §6 — confabulation = rule not exception (GAP 10)
-  Feeling.md v2.0 §10 — Feeling Literacy 5-stage (client prerequisite)
-  Agent-Mechanism.md §0 — Self-Pattern-Modeling (chuyên gia simulate client)
-  Somatic-Articulation-Loop.md — body-knowledge → explicit (Focusing, AI catalyst §5)
-  Modality.md v1.0 §3 — chunk depth = modality count (★1-★5)
-  Chunk.md v2.3 §2.3 — trust amplifier, external install mechanisms
-  Drill E5 Q-S2-5 — AI trust insights (E5-16→E5-20)
-language: Tiếng Việt primary + English technical terms
-confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+scope: "Human Predictive Drive Framework v7.8 — Gateway File (practical entry point)"
+confidence: "Mixed: 🟢 research-backed / 🟡 framework synthesis / 🔴 speculative"
+source_file: "Core-Deep-Dive/Observation/AI-Schema-Detection.md"
 ---
 
-# AI-Schema-Detection — AI Hỗ Trợ Nhận Diện Schema + Compile Type + Collective Context
+# AI-Schema-Detection — AI-Assisted Schema Pattern + Compile Type + Collective Context Detection
 
-> **Bạn nói: "Tôi thích từ thiện."**
-> **AI nghe 100 giờ nói chuyện của bạn.**
-> **AI thấy: mỗi khi nói "giúp đỡ", bạn cũng nói "mẹ", "tuổi thơ", "bị bỏ rơi".**
-> **AI gợi ý: "giúp đỡ" có thể link với "chứng minh tôi cần thiết".**
-> **AI thêm: compile source có thể = Trust Compile (mẹ install "con phải giúp người").**
+**Framework**: Human Predictive Drive v7.8
+**Version**: 2.1
+**Status**: GATEWAY FILE — entry point for practical framework application
+**Individual capabilities**: ①–⑨ (this file). Collective capabilities ⑩–⑭ → AI-Collective-Detection.md v1.0 (companion).
+
+> **You say: "I love charity work."**
+> **AI listens to 100 hours of your conversations.**
+> **AI notices: every time you say "help," you also say "mother," "childhood," "being abandoned."**
+> **AI suggests: "helping" may link to "proving I'm needed."**
+> **AI adds: compile source may be Trust Compile (mother installed "you must help people").**
 >
-> **Chuyên gia tâm lý nghe AI.**
-> **Chuyên gia simulate trong body MÌNH: "nếu tôi sợ bị bỏ rơi, tôi SẼ..."**
-> **Body chuyên gia: "đúng, feel hợp lý."**
-> **Chuyên gia hỏi bạn: "Khi nghĩ về giúp đỡ, body bạn cảm gì?"**
+> **A therapist listens to the AI.**
+> **The therapist simulates in their OWN body: "If I had abandonment fear, I WOULD..."**
+> **Therapist's body: "Yes — that feels coherent."**
+> **Therapist asks you: "When you think about helping people, what does your body feel?"**
 >
-> **Bạn dừng lại. Lắng nghe body.**
-> **"Ngực hơi nặng. Như sợ mất gì đó."**
+> **You pause. You listen to your body.**
+> **"A slight heaviness in my chest. Like I'm afraid of losing something."**
 > **→ Body vote: hypothesis CONFIRMED.**
 >
-> **AI detect. Chuyên gia feel-check. Bạn self-verify.**
-> **3 tầng. Không ai đủ một mình. Cùng nhau: ENOUGH.**
+> **AI detects. Expert feel-checks. You self-verify.**
+> **3 layers. No single layer is enough. Together: ENOUGH.**
 >
-> **NHƯNG: chính AI cũng có thể install patterns vào bạn qua trust.**
-> **→ Body-check AI output = CÙNG nguyên tắc body-check mọi thứ.**
+> **BUT: the AI itself can install patterns in you through trust.**
+> **→ Body-checking AI output = THE SAME PRINCIPLE as body-checking everything else.**
 >
-> **"Công cụ NAVIGATE, không phải GPS chính xác."**
+> **"A navigation tool — not a precise GPS."**
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ TRONG FRAMEWORK
-- §1 — GIỚI HẠN NỀN TẢNG
+- §0 — POSITION IN FRAMEWORK
+- §1 — FOUNDATIONAL LIMITS
 - §2 — 3-LAYER MODEL + 2-LAYER SIMPLIFIED
 - §3 — AI LAYER: 9 Capabilities
-- §4 — CHUYÊN GIA LAYER: Self-Pattern-Modeling + Body Vote
+- §4 — EXPERT LAYER: Self-Pattern-Modeling + Body Vote
 - §5 — CLIENT LAYER: Focusing + Self-Verify
-- §6 — QUY TRÌNH THỰC HÀNH (Upgraded v2.0)
+- §6 — PRACTICAL PROCESS (Upgraded v2.0)
 - §7 — SELF-DRILL MODE (User + AI)
 - §8 — AI TRUST GUARDRAILS
 - §9 — HONEST ASSESSMENT
@@ -93,144 +54,144 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §0 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — POSITION IN FRAMEWORK
 
 ```
-🟡 AI-SCHEMA-DETECTION TRONG KIẾN TRÚC:
+🟡 AI-SCHEMA-DETECTION IN THE FRAMEWORK ARCHITECTURE:
 
-  Framework đã xác lập (Valence-Propagation.md v1.4 §8):
-    → Schema vô tận, chain không thể map chính xác
-    → NHƯNG: KHÔNG CẦN chính xác tuyệt đối
-    → CÓ THỂ: nhận diện PATTERN, ước lượng NHÓM, suggest HƯỚNG
-    → = "Công cụ NAVIGATE, không phải GPS chính xác"
+  Framework principle (Valence-Propagation.md v1.4 §8):
+    → Schemas are infinite, chains cannot be mapped precisely
+    → BUT: absolute precision is NOT NEEDED
+    → POSSIBLE: recognize PATTERNS, estimate CLUSTERS, suggest DIRECTIONS
+    → = "Navigation tool — not a precise GPS"
 
-  File NÀY = ỨNG DỤNG nguyên tắc đó:
-    → HOW nhận diện patterns trong thực tế?
-    → AI role + Chuyên gia role + Client role = gì?
-    → Quy trình THỰC HÀNH upgraded từ Schema-Diagnostic.md
+  THIS FILE = APPLICATION of that principle:
+    → HOW to identify patterns in practice?
+    → What is the AI role + Expert role + Client role?
+    → Practical PROCESS upgraded from Schema-Diagnostic.md
     → v2.0: + Compile Type Detection + Collective Context + Self-Drill Mode
 
   ⭐ GATEWAY ROLE:
-    File này = CỬA NGÕ để tiếp cận framework.
-    Người đọc KHÔNG CẦN hiểu toàn bộ framework trước.
-    Đọc file này → thấy ứng dụng thực tế → TỰ NHIÊN muốn hiểu sâu hơn.
-    = Từ "AI có thể giúp gì?" → dẫn vào schema → chunks → body-base → cycle.
-    = Entry point cho practical use.
+    This file = ENTRY POINT for accessing the framework.
+    The reader does NOT need to understand the full framework first.
+    Read this file → see real-world application → NATURALLY want to go deeper.
+    = From "what can AI help with?" → leads into schemas → chunks → body-base → cycle.
+    = Entry point for practical use.
 
-  ⭐ CẤP PHÂN TÍCH (Valence-Propagation v1.4 §4 clarification, Drill §6):
-    Valence-Propagation §4 chains = GIẢI THÍCH (Cấp 3), không phải cách brain PROCESS.
-    File này hoạt động ở 2 cấp:
-      CẤP 1 (Detect): AI observe behavioral patterns → infer schema clusters
-      CẤP 3 (Analyze): AI + Expert phân tích tại sao patterns hoạt động
-    KHÔNG claim phát hiện "cách brain process bên trong" (Cấp 1 internal).
-    = Đặt kỳ vọng ĐÚNG cho cả AI lẫn người dùng.
+  ⭐ LEVELS OF ANALYSIS (Valence-Propagation v1.4 §4 clarification):
+    Valence-Propagation §4 chains = EXPLANATORY (Level 3), not how the brain PROCESSES.
+    This file operates at 2 levels:
+      LEVEL 1 (Detect): AI observes behavioral patterns → infers schema clusters
+      LEVEL 3 (Analyze): AI + Expert analyzes WHY patterns operate
+    Does NOT claim to discover "how the brain processes internally" (Level 1 internal).
+    = Sets the RIGHT expectations for both AI and users.
 
-  INSIGHT NỀN TẢNG (Schema.md v2.0 §2):
-    Phần mềm: không ai biết bên trong chứa hàm gì.
-    Nhưng người đủ kinh nghiệm observe phần mềm chạy → biết kỹ thuật viết.
-    Não: không ai biết bên trong chứa chunks gì.
-    Nhưng AI + chuyên gia observe behavior → CÓ THỂ infer chunk composition.
-    = Cùng nguyên lý: INFER internal structure từ external behavior.
-    (Chi tiết: §3 Software Analogy Bridge)
+  FOUNDATIONAL INSIGHT (Schema.md v2.0 §2):
+    Software: no one knows what functions are inside.
+    But someone with enough experience observing software run → knows the technique.
+    Brain: no one knows what chunks are inside.
+    But AI + Expert observing behavior → CAN infer chunk composition.
+    = Same principle: INFER internal structure from external behavior.
+    (Detail: §3 Software Analogy Bridge)
 
   Flow:
-    Valence-Propagation.md v1.4 §8 (lý thuyết: giới hạn + mở cửa)
+    Valence-Propagation.md v1.4 §8 (theory: limits + opening)
          │
          ▼
     ┌─────────────────────────────────────────────────────────┐
-    │ AI-SCHEMA-DETECTION.MD (FILE NÀY) — GATEWAY             │
+    │ AI-SCHEMA-DETECTION.MD (THIS FILE) — GATEWAY             │
     │                                                          │
-    │   §1: Giới hạn (đặt kỳ vọng ĐÚNG)                      │
+    │   §1: Limits (sets RIGHT expectations)                  │
     │   §2: 3-Layer Model + 2-Layer Simplified                │
-    │   §3-§5: Chi tiết mỗi layer (⑨ khả năng AI)            │
-    │   §6: Quy trình thực hành (upgraded v2.0)               │
+    │   §3–§5: Details of each layer (9 AI capabilities)      │
+    │   §6: Practical process (upgraded v2.0)                  │
     │   §7: Self-Drill Mode (user + AI)                       │
     │   §8: AI Trust Guardrails                               │
     └─────────────────────────────────────────────────────────┘
          │
          ▼
-    Ứng dụng cụ thể:
-      → Therapy (chuyên gia tâm lý + AI) — 3-layer mode
-      → Self-development (tự calibrate + AI) — 2-layer mode (§7)
-      → Education (giáo viên + AI detect learning patterns)
+    Specific applications:
+      → Therapy (therapist + AI) — 3-layer mode
+      → Self-development (self-calibrate + AI) — 2-layer mode (§7)
+      → Education (teacher + AI detecting learning patterns)
       → Workplace (coaching + AI behavioral analysis)
 ```
 
 ---
 
-## §1 — GIỚI HẠN NỀN TẢNG
+## §1 — FOUNDATIONAL LIMITS
 
 ```
-🟡 NHẮC LẠI — TẠI SAO KHÔNG THỂ CHÍNH XÁC:
+🟡 REMINDER — WHY PRECISION IS IMPOSSIBLE:
 
-  Schema.md v2.0 §6.3 đã xác lập:
-    ① 86 tỷ neurons × ~100 nghìn tỷ connections = quá lớn để đọc
-    ② Schema = multi-modal (verbal chỉ ~1/6 schema thật)
-    ③ Schema SÂU = body adaptation (cortisol, muscle tension, gut state)
-       → Chính người đó CŨNG không biết
-    ④ Schema thay đổi liên tục
-    ⑤ Khoa học chưa đủ công cụ
+  Schema.md v2.0 §6.3 established:
+    ① 86 billion neurons × ~100 trillion connections = too large to read
+    ② Schema = multi-modal (verbal = only ~1/6 of the actual schema)
+    ③ DEEP schemas = body adaptation (cortisol, muscle tension, gut state)
+       → Even the person themselves DOESN'T KNOW
+    ④ Schemas change constantly
+    ⑤ Science doesn't yet have the tools
 
-  Valence-Propagation.md v1.4 §8 thêm:
-    ⑥ Valence chain = schema × schema × links = vô tận × vô tận
-    ⑦ PFC accuracy giảm theo chain length (confabulation)
-    ⑧ Body check OUTPUT, không check TRUTH
+  Valence-Propagation.md v1.4 §8 adds:
+    ⑥ Valence chain = schema × schema × links = infinite × infinite
+    ⑦ PFC accuracy decreases with chain length (confabulation)
+    ⑧ Body-check checks OUTPUT, not TRUTH
 
-  v2.0 thêm (DỰA TRÊN Drill S1-S12):
+  v2.0 adds (from Drill S1–S12 findings):
 
-    ⑨ Valence-Propagation §4 CHAINS = EXPLANATORY, KHÔNG PHẢI PROCESSING:
-       Valence-Propagation §4 chain analysis [toán → điểm → đại học → việc → lương → body-base]
-       = Cấp 3 (framework giải thích tại sao behavior hoạt động).
-       KHÔNG phải cách brain PROCESS ở Cấp 1 — cá nhân compile SHORT (1-2 nodes).
-       Chain dài SỐNG ở Cấp 2 (collective infrastructure hold cho cá nhân).
-       → AI detect BEHAVIOR PATTERNS (Cấp 1 detect), không detect "cách brain process"
-       → Chain analysis CÓ GIÁ TRỊ: chẩn đoán chain gãy, thiết kế collective, verify trust
-       → NHƯNG chain analysis ≠ mô tả processing thật của brain
-       → = Đặt kỳ vọng ĐÚNG: AI + Expert PHÂN TÍCH chains, KHÔNG phải THẤY chains
-       (Source: Valence-Propagation v1.4 §4 clarification, Drill §6 + §22, Collective-Body.md §1)
+    ⑨ Valence-Propagation §4 CHAINS = EXPLANATORY, NOT PROCESSING:
+       The chain analysis in Valence-Propagation §4 [math → grade → college → job → salary → body-base]
+       = Level 3 (framework explains WHY behavior operates).
+       NOT how the brain PROCESSES at Level 1 — individuals compile SHORT (1–2 nodes).
+       Long chains LIVE at Level 2 (collective infrastructure holds them for individuals).
+       → AI detects BEHAVIOR PATTERNS (Level 1 detect), NOT "how the brain processes"
+       → Chain analysis HAS VALUE: diagnosing chain breaks, designing collectives, verifying trust
+       → BUT chain analysis ≠ describing the brain's actual processing
+       → = Sets RIGHT expectations: AI + Expert ANALYZE chains, they don't OBSERVE them
+       (Source: Valence-Propagation v1.4 §4 clarification, Collective-Body.md §1)
 
-    ⑩ AI OUTPUT = TRUST COMPILE INSTALL VÀO USER QUA TRUST:
-       AI suggest "bạn có pattern X" → user trust AI → PFC accept → body compile
-       = CÙNG CƠ CHẾ bố mẹ install "con phải ngoan" (Chunk.md §2.3)
-       Vừa detect schema VỪA CÓ THỂ install schema → paradox
-       "Navigate, not GPS" áp dụng cho CHÍNH AI output
-       → Body-check AI output = BẮT BUỘC (chi tiết: §8 AI Trust Guardrails)
-       (Source: Collective-Body.md v1.1 §8.4, Drill E5 E5-16→E5-20)
+    ⑩ AI OUTPUT = TRUST COMPILE INSTALL INTO USER VIA TRUST:
+       AI suggests "you have pattern X" → user trusts AI → PFC accepts → body compiles
+       = THE SAME MECHANISM as parents installing "be good" (Chunk.md §2.3)
+       Both detecting schema AND potentially INSTALLING schema → paradox
+       "Navigate, not GPS" applies to AI's OWN output
+       → Body-checking AI output = MANDATORY (detail: §8 AI Trust Guardrails)
+       (Source: Collective-Body.md v1.1 §8.4)
 
-  → TỔNG: schema network KHÔNG THỂ map chính xác từ bên ngoài.
-    + AI CÓ THỂ install pattern MỚI → cần cẩn thận GẤP ĐÔI.
+  → SUMMARY: schema network CANNOT be mapped precisely from outside.
+    + AI CAN install NEW patterns → extra caution required.
 
 
-  NHƯNG — ĐẶT KỲ VỌNG ĐÚNG:
+  BUT — SETTING RIGHT EXPECTATIONS:
 
-  KHÔNG CẦN chính xác tuyệt đối. Con người chỉ cần:
-    ① Biết PATTERN nào đang drive mình (nhận diện)
-    ② Biết pattern đó SERVE body-base hay KHÔNG (check output)
-    ③ Biết khi nào cần THAY ĐỔI (detect dissonance)
+  Absolute precision is NOT NEEDED. People only need:
+    ① Know WHICH PATTERN is driving them (recognition)
+    ② Know whether that pattern SERVES body-base or NOT (check output)
+    ③ Know when to CHANGE (detect dissonance)
 
   METAPHOR:
-    → Bác sĩ KHÔNG cần biết chính xác TỪNG tế bào
-    → Bác sĩ cần: triệu chứng → cluster → diagnosis → treatment → verify
-    → = Approximate + verify + adjust = ĐỦ để chữa bệnh
-    → = AI-Schema-Detection CÙNG NGUYÊN LÝ
+    → A doctor does NOT need to know exactly EVERY CELL
+    → A doctor needs: symptoms → cluster → diagnosis → treatment → verify
+    → = Approximate + verify + adjust = ENOUGH to treat disease
+    → = AI-Schema-Detection SAME PRINCIPLE
 
 
-  3 CÁI CÓ THỂ:
+  3 WHAT'S POSSIBLE:
 
-    ① NHẬN DIỆN PATTERN (hành vi lặp lại = schema biểu hiện)
-      → "Bạn luôn tránh conflict" = pattern observable
+    ① PATTERN RECOGNITION (repeated behavior = schema manifesting)
+      → "You always avoid conflict" = observable pattern
       → Pattern ≠ schema (pattern = OUTPUT, schema = MECHANISM)
-      → NHƯNG: pattern → INFER schema cluster (ước lượng)
+      → BUT: pattern → INFER schema cluster (estimate)
 
-    ② ƯỚC LƯỢNG NHÓM (schema thuộc cluster nào)
-      → "Tránh conflict" + "hay chiều người khác" + "sợ bị bỏ"
-      → Cluster: có thể liên quan "abandonment fear" schema
-      → = Cluster ≠ chẩn đoán. Cluster = hypothesis để verify.
+    ② CLUSTER ESTIMATION (which cluster does the schema belong to?)
+      → "Avoid conflict" + "often appease others" + "fear of being left"
+      → Cluster: may relate to "abandonment fear" schema
+      → = Cluster ≠ diagnosis. Cluster = hypothesis to verify.
 
-    ③ SUGGEST HƯỚNG (chain NÀY có vẻ link tới body-base CHANNEL kia)
-      → "Abandonment fear" → có thể link tới connection drive deficit
-      → Suggest: strengthen connection TRƯỚC, conflict skill SAU
-      → = Hướng ≠ đáp án. Cần verify qua body-check.
+    ③ DIRECTION SUGGESTION (this chain seems to link to that body-base channel)
+      → "Abandonment fear" → may link to connection drive deficit
+      → Suggest: strengthen connection FIRST, conflict skills SECOND
+      → = Direction ≠ answer. Needs verification through body-check.
 
   🟡 3-capability model = derived from Schema.md + Valence-Propagation.md
   🟢 "Navigate, not GPS" = consistent with bounded rationality (Simon 1955)
@@ -241,78 +202,78 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §2 — 3-LAYER MODEL + 2-LAYER SIMPLIFIED
 
 ```
-🔴 HYPOTHESIS — application architecture, logic consistent, chưa test systematic
+🔴 HYPOTHESIS — application architecture, logic consistent, not yet systematically tested
 
-  ⭐ KHÔNG AI LAYER NÀO ĐỦ MỘT MÌNH:
+  ⭐ NO SINGLE LAYER IS SUFFICIENT:
 
   ┌──────────────────────────────────────────────────────────────┐
   │                                                              │
   │  LAYER 1: AI PATTERN DETECTOR                               │
   │    Input: verbal data, behavioral patterns, (optional) bio   │
   │    Process: NLP, clustering, contradiction detection         │
-  │    Output: schema map SƠ LƯỢC + hypotheses                  │
-  │         + compile type classification (Experience/Expertise/Trust) ← v2.0        │
-  │         + collective context flag ← v2.0                     │
-  │    Strength: NHANH, RỘNG, không bỏ sót pattern              │
-  │    Weakness: KHÔNG CÓ BODY → KHÔNG feel-check               │
-  │    Confidence: LOW-MEDIUM (pattern ≠ causation)              │
+  │    Output: rough schema map + hypotheses                    │
+  │         + compile type classification (Experience/Expertise/Trust) ← v2.0    │
+  │         + collective context flag ← v2.0                    │
+  │    Strength: FAST, BROAD, misses no patterns                │
+  │    Weakness: NO BODY → cannot feel-check                    │
+  │    Confidence: LOW–MEDIUM (pattern ≠ causation)             │
   │                                                              │
-  │         │ hypotheses + patterns + compile type                │
+  │         │ hypotheses + patterns + compile type              │
   │         ▼                                                    │
   │                                                              │
-  │  LAYER 2: CHUYÊN GIA FEEL-CHECKER                           │
-  │    Input: AI suggestions + clinical experience               │
-  │    Process: Self-Pattern-Modeling (simulate client in own body) │
-  │    Output: verified / rejected hypotheses                    │
-  │    Strength: CÓ BODY → feel-check → SÂU                     │
-  │    Weakness: biased by own schemas, limited by own chunks    │
-  │    Confidence: MEDIUM-HIGH (body-checked)                    │
+  │  LAYER 2: EXPERT FEEL-CHECKER                               │
+  │    Input: AI suggestions + clinical experience              │
+  │    Process: Self-Pattern-Modeling (simulates client in own body) │
+  │    Output: verified / rejected hypotheses                   │
+  │    Strength: HAS BODY → feel-check → DEEP                   │
+  │    Weakness: biased by own schemas, limited by own chunks   │
+  │    Confidence: MEDIUM–HIGH (body-checked)                   │
   │                                                              │
-  │         │ verified hypotheses + questions                    │
+  │         │ verified hypotheses + questions                   │
   │         ▼                                                    │
   │                                                              │
-  │  LAYER 3: CLIENT SELF-VERIFIER                               │
-  │    Input: verified hypotheses from expert                    │
-  │    Process: Focusing (body listen) + PFC articulate          │
-  │    Output: confirmed / denied + self-knowledge increase      │
-  │    Strength: AUTHENTIC nhất — body CỦA HỌ là ultimate judge │
-  │    Weakness: có thể suppress, deny, chưa đủ Feeling Literacy │
-  │    Confidence: HIGHEST khi client có body-awareness skill    │
+  │  LAYER 3: CLIENT SELF-VERIFIER                              │
+  │    Input: verified hypotheses from expert                   │
+  │    Process: Focusing (listen to body) + PFC articulates     │
+  │    Output: confirmed / denied + increased self-knowledge    │
+  │    Strength: MOST AUTHENTIC — THEIR body is the ultimate judge │
+  │    Weakness: may suppress, deny, insufficient Feeling Literacy │
+  │    Confidence: HIGHEST when client has body-awareness skill │
   │                                                              │
-  │  KẾT QUẢ:                                                    │
-  │    AI detect (NHANH, RỘNG) + Expert verify (SÂU, CẢM NHẬN)  │
-  │    + Client confirm (AUTHENTIC) = 3 TẦNG verification        │
-  │    → Confidence TĂNG DẦN qua mỗi layer                      │
-  │    → Approximate + verified + confirmed = ENOUGH             │
+  │  RESULT:                                                     │
+  │    AI detects (FAST, BROAD) + Expert verifies (DEEP, FELT)  │
+  │    + Client confirms (AUTHENTIC) = 3-LAYER verification     │
+  │    → Confidence BUILDS through each layer                   │
+  │    → Approximate + verified + confirmed = ENOUGH            │
   │                                                              │
   └──────────────────────────────────────────────────────────────┘
 
 
-  TẠI SAO 3 LAYERS, KHÔNG PHẢI 1 HAY 2:
+  WHY 3 LAYERS, NOT 1 OR 2:
 
-    CHỈ AI (Layer 1):
-      → Detect pattern nhưng KHÔNG feel-check
-      → Có thể HOÀN TOÀN SAI về causation
-      → VD: AI thấy "luôn nói về mẹ khi stress" → infer "mẹ = source"
-        → NHƯNG: có thể mẹ = SAFE PLACE, không phải source
-      → = Pattern ≠ Mechanism. AI thấy correlation, không thấy causation.
+    AI ONLY (Layer 1):
+      → Detects patterns but CANNOT feel-check
+      → May be COMPLETELY WRONG about causation
+      → Example: AI sees "always mentions mother when stressed" → infers "mother = source"
+        → BUT: mother may be a SAFE PLACE, not the source
+      → = Pattern ≠ Mechanism. AI sees correlation, not causation.
 
-    CHỈ CHUYÊN GIA (Layer 2):
-      → Feel-check TỐT nhưng BỎ SÓT patterns dài hạn
-      → Chuyên gia nghe 1 giờ/tuần → miss patterns across 100 giờ
-      → Chuyên gia cũng có OWN schemas → bias simulation
-      → = Sâu nhưng hẹp. Cần AI mở rộng scope.
+    EXPERT ONLY (Layer 2):
+      → Good feel-check but MISSES long-term patterns
+      → Expert hears 1 hour/week → misses patterns across 100 hours
+      → Expert has OWN schemas → biased simulation
+      → = Deep but narrow. Needs AI to broaden scope.
 
-    CHỈ CLIENT (Layer 3):
-      → Body BIẾT nhưng KHÔNG biết cách LẮNG NGHE
-      → PFC confabulate (PFC-Function.md v1.1 §6)
-      → Suppress + deny = common defense
-      → = Authentic nhưng cần GUIDE. Cần AI + Expert mở đường.
+    CLIENT ONLY (Layer 3):
+      → Body KNOWS but doesn't know how to LISTEN
+      → PFC confabulates (PFC-Function.md v1.1 §6)
+      → Suppression + denial = common defenses
+      → = Authentic but needs GUIDANCE. Needs AI + Expert to open the path.
 
-    3 LAYERS BỔ SUNG:
-      → AI mở RỘNG (scope) → Expert đào SÂU (verify) → Client xác THẬT (confirm)
-      → Mỗi layer bù weakness của layer khác
-      → = Không ai ĐỦ → nhưng cùng nhau = ENOUGH
+    3 LAYERS COMPLEMENT EACH OTHER:
+      → AI broadens SCOPE → Expert digs DEEP (verify) → Client confirms AUTHENTICALLY
+      → Each layer compensates the other's weakness
+      → = None sufficient alone → together = ENOUGH
 
   🟢 Multi-method assessment improves validity (Campbell & Fiske 1959)
   🟢 Therapeutic alliance + client self-report = best outcomes (Lambert 2013)
@@ -322,45 +283,45 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
   ⭐ 2-LAYER SIMPLIFIED MODE: AI + SELF (v2.0 NEW):
 
-  3-layer model = LÝ TƯỞNG. NHƯNG không phải lúc nào cũng CẦN chuyên gia.
+  3-layer model = IDEAL. BUT not always needed.
 
   ┌──────────────────────────────────────────────────────────────┐
   │                                                              │
-  │  LAYER 1: AI PATTERN DETECTOR (giữ nguyên)                  │
+  │  LAYER 1: AI PATTERN DETECTOR (unchanged)                   │
   │         │                                                    │
-  │         ▼ (bỏ qua Layer 2 — không có chuyên gia)            │
+  │         ▼ (skip Layer 2 — no expert available)              │
   │                                                              │
   │  LAYER 3: USER SELF-VERIFIER                                │
-  │    Process: Body listen + PFC articulate (self-guided)       │
-  │    = User TỰ body-check AI suggestions                      │
+  │    Process: Body listening + PFC articulates (self-guided)  │
+  │    = User SELF body-checks AI suggestions                   │
   │                                                              │
   └──────────────────────────────────────────────────────────────┘
 
-  KHI NÀO AN TOÀN (2-layer OK):
-    → Mild exploration: "tại sao tôi chán công việc?"
-    → General patterns: "tôi hay trì hoãn, tại sao?"
-    → Self-development: "tôi muốn hiểu bản thân hơn"
+  WHEN IT'S SAFE (2-layer OK):
+    → Mild exploration: "why do I find my job boring?"
+    → General patterns: "I procrastinate a lot, why?"
+    → Self-development: "I want to understand myself better"
     → Feeling Literacy ≥ Stage 3 (Feeling.md v2.0 §10):
-      user CÓ KHẢ NĂNG tự body-check cơ bản
-    → Không có crisis, không có trauma active
+      user CAN do basic body-checking independently
+    → No active crisis, no active trauma
 
-  KHI NÀO PHẢI CÓ CHUYÊN GIA (3-layer bắt buộc):
+  WHEN AN EXPERT IS REQUIRED (3-layer mandatory):
     → Trauma: PTSD, abuse, neglect, violent events
     → Crisis: suicidal ideation, self-harm, acute breakdown
     → Deep pathology: severe depression, psychosis, addiction
-    → Feeling Literacy < Stage 2: user KHÔNG THỂ tự body-check
-    → AI detect RED FLAGS: language suggesting danger → NGAY LẬP TỨC refer
+    → Feeling Literacy < Stage 2: user CANNOT distinguish body signals
+    → AI detects RED FLAGS: language suggesting danger → IMMEDIATELY refer
 
-  TẠI SAO MỞ RỘNG:
-    → KHÔNG PHẢI ai cũng access chuyên gia (cost, geography, stigma)
-    → Mild cases = phần lớn nhu cầu self-understanding
+  WHY EXPAND TO 2-LAYER:
+    → NOT everyone has access to an expert (cost, geography, stigma)
+    → Mild cases = the majority of self-understanding needs
     → AI + body-check = BETTER than nothing, WORSE than full 3-layer
-    → = Mở rộng accessibility NHƯNG với ranh giới RÕ RÀNG
-    → Chi tiết: §7 — Self-Drill Mode
+    → = Expands accessibility WITH CLEAR BOUNDARIES
+    → Detail: §7 — Self-Drill Mode
 
   🟡 2-layer simplified = framework extension
   🟢 Self-help with guided reflection = established (bibliotherapy research)
-  🔴 Safety boundaries for AI self-help: chưa test systematic
+  🔴 Safety boundaries for AI self-help: not yet systematically tested
 ```
 
 ---
@@ -368,61 +329,61 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §3 — AI LAYER: 9 Capabilities
 
 ```
-🟡 ANALOGY PHẦN MỀM — TẠI SAO AI CÓ THỂ INFER CHUNKS TỪ SCHEMA:
+🟡 SOFTWARE ANALOGY — WHY AI CAN INFER CHUNKS FROM SCHEMAS:
 
-  Schema.md v2.0 §2 xác lập:
-    → Phần mềm: "hàm" = đơn vị tính toán thật. "Tính năng" = cách mô tả từ bên ngoài.
-    → Não: chunks = đơn vị tính toán thật. Schema = cách mô tả chunk networks từ bên ngoài.
+  Schema.md v2.0 §2 established:
+    → Software: "function" = actual computational unit. "Feature" = outside description.
+    → Brain: chunks = actual computational unit. Schema = description of chunk networks from outside.
 
-  MỞ RỘNG CHO AI-SCHEMA-DETECTION:
+  EXTENDING TO AI-SCHEMA-DETECTION:
 
-    PHẦN MỀM — người ĐỦ KINH NGHIỆM observe:
-      → Nhìn game chạy → user bình thường chỉ thấy "tính năng"
-      → NHƯNG dev 10 năm observe game → biết:
-        "Dùng physics engine XYZ" (từ cách vật thể rơi)
-        "Dùng pathfinding A*" (từ cách NPC di chuyển)
-        "Dùng ECS architecture" (từ performance pattern)
-      → Dev KHÔNG thấy source code → nhưng INFER internal structure từ BEHAVIOR
-      → Cùng 1 game: user thấy "tính năng shop" → dev thấy "database + API + cache"
+    SOFTWARE — someone EXPERIENCED observing:
+      → Watching a game run → a regular user only sees "features"
+      → BUT a developer with 10 years experience observing the game → knows:
+        "Uses physics engine XYZ" (from how objects fall)
+        "Uses A* pathfinding" (from how NPCs move)
+        "Uses ECS architecture" (from performance patterns)
+      → Developer doesn't see the source code → but INFERS internal structure from BEHAVIOR
+      → Same game: user sees "shop feature" → developer sees "database + API + cache"
 
-    NÃO — AI + chuyên gia observe:
-      → Nghe client nói → user bình thường chỉ thấy "tính cách"
-      → NHƯNG AI + chuyên gia observe behavior → biết:
-        "Schema abandonment" (từ cách react khi bị từ chối)
-        "Chunks relationship NÔNG" (từ verbal complexity thấp về domain này)
-        "Prerequisite chain toán SÂU" (từ việc client giải thích được cơ học lượng tử
-          → CHẮC CHẮN đã compile chunks: đếm → đại số → giải tích → số ảo → ...)
-      → AI KHÔNG thấy chunks → nhưng INFER chunk composition từ SCHEMA BEHAVIOR
+    BRAIN — AI + Expert observing:
+      → Listening to a client → a regular person only sees "personality"
+      → BUT AI + Expert observing behavior → knows:
+        "Abandonment schema" (from how they react when rejected)
+        "Shallow relationship chunks" (from low verbal complexity in this domain)
+        "Deep math prerequisite chain" (from client being able to explain quantum mechanics
+          → CERTAINLY already compiled: counting → algebra → calculus → complex numbers → ...)
+      → AI doesn't see chunks → but INFERS chunk composition from SCHEMA BEHAVIOR
 
-    ⭐ NGUYÊN LÝ CHUNG:
-      → Observer KHÔNG CẦN thấy internal structure
-      → Observer CHỈ CẦN: ① đủ kinh nghiệm ② observe behavior đủ lâu
-      → → CÓ THỂ infer internal structure từ external behavior
-      → AI = observer có ① vô hạn knowledge ② vô hạn patience ③ perfect memory
-      → → AI = IDEAL candidate cho inference NÀY
+    ⭐ SHARED PRINCIPLE:
+      → Observer does NOT need to see internal structure
+      → Observer only needs: ① enough experience ② observe behavior long enough
+      → → CAN infer internal structure from external behavior
+      → AI = observer with ① infinite knowledge ② infinite patience ③ perfect memory
+      → → AI = IDEAL candidate for this type of inference
 
-    ⚠️ NHƯNG: inference ≠ certainty
-      → Dev GIỎI cũng SAI (nghĩ dùng Unity hóa ra dùng Godot)
-      → AI inference cũng CÓ THỂ SAI
-      → → Cần Layer 2 + Layer 3 verify
+    ⚠️ BUT: inference ≠ certainty
+      → Even a skilled developer can be WRONG (thought it used Unity — actually Godot)
+      → AI inference can also be WRONG
+      → → Needs Layer 2 + Layer 3 to verify
 
   🟡 Software analogy = Schema.md v2.0 §2 applied to AI detection
   🟢 Reverse engineering from behavior = established (software engineering, clinical psych)
 
 
-🟡 AI CÓ THỂ LÀM GÌ — 9 KHẢ NĂNG CỤ THỂ:
+🟡 WHAT AI CAN DO — 9 SPECIFIC CAPABILITIES:
 
 
   ① VERBAL PATTERN TRACKING (across sessions):
 
-    → Client nói 100 giờ → AI track TOÀN BỘ verbal patterns
-    → Phát hiện: "mỗi khi nói về công việc, client dùng 'phải', 'nên', 'sợ'"
-    → Phát hiện: "mỗi khi nói về bạn bè, client dùng 'vui', 'thoải mái'"
-    → → Gợi ý: valence "công việc" = negative (threat-based language)
-    → → Gợi ý: valence "bạn bè" = positive
+    → Client speaks for 100 hours → AI tracks ALL verbal patterns
+    → Discovers: "every time client talks about work, they use 'must,' 'should,' 'afraid'"
+    → Discovers: "every time client talks about friends, they use 'fun,' 'comfortable'"
+    → → Suggests: valence of "work" = negative (threat-based language)
+    → → Suggests: valence of "friends" = positive
 
-    Chuyên gia nghe 1 giờ/tuần → CÓ THỂ BỎ SÓT pattern lặp qua nhiều tháng
-    AI KHÔNG bỏ sót (memory + pattern match trên full corpus)
+    Expert hears 1 hour/week → CAN MISS patterns repeating over many months
+    AI misses nothing (memory + pattern match over full corpus)
 
     🟢 NLP sentiment analysis = existing technology
     🟢 Topic modeling = established (LDA, BERT embeddings)
@@ -430,204 +391,204 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ② SCHEMA CLUSTER SUGGESTION:
 
-    → AI thấy: khi nói "công việc" → language tense
-    → AI thấy: khi nói "sếp" → CŨNG tense, CÙNG từ ngữ
-    → AI thấy: khi nói "bố" → CŨNG CÙNG pattern
-    → → Gợi ý: "công việc", "sếp", "bố" có thể thuộc CÙNG schema cluster
-    → → Possible chain: bố (authority) → sếp (authority) → công việc (authority context)
-    → = AI detect LATERAL links mà chuyên gia chưa thấy
+    → AI sees: when talking about "work" → language tenses
+    → AI sees: when talking about "boss" → ALSO tenses, SAME words
+    → AI sees: when talking about "father" → ALSO SAME pattern
+    → → Suggests: "work," "boss," "father" may belong to the SAME schema cluster
+    → → Possible chain: father (authority) → boss (authority) → work (authority context)
+    → = AI detects LATERAL LINKS that the expert hasn't seen
 
-    VD mạnh hơn:
-    → Client: "Tôi thích giúp đỡ mọi người" (positive, session 5)
-    → Client: "Hồi nhỏ tôi hay bị bỏ một mình" (neutral tone, session 12)
-    → Client: "Tôi rất khó chịu khi người ta từ chối giúp đỡ của tôi" (session 23)
-    → AI cluster: "giúp đỡ" + "bị bỏ" + "từ chối" = possible chain:
-      "giúp đỡ" = chứng minh "tôi cần thiết" = resolve "bị bỏ rơi" fear
-    → Chuyên gia CHƯA THẤY vì 3 data points cách nhau 18 sessions
+    Stronger example:
+    → Client: "I love helping people" (positive, session 5)
+    → Client: "When I was little I was often left alone" (neutral tone, session 12)
+    → Client: "I get really uncomfortable when people turn down my help" (session 23)
+    → AI cluster: "helping" + "being left alone" + "being turned down" = possible chain:
+      "helping" = proving "I'm needed" = resolving "abandonment" fear
+    → Expert HADN'T SEEN this because the 3 data points were 18 sessions apart
 
     🟡 Schema clustering from verbal data = framework application of NLP
 
 
   ③ CONTRADICTION DETECTION (verbal vs behavioral):
 
-    → Client nói: "Tôi không care về tiền" (verbal)
-    → NHƯNG AI track: 70% quyết định client kể = optimize tiền
-    → → Flag: possible disconnect giữa verbal schema và behavioral schema
-    → = "PFC nói một đằng, body làm một nẻo" — AI detect MISMATCH
+    → Client says: "I don't care about money" (verbal)
+    → BUT AI tracks: 70% of decisions client describes = optimize for money
+    → → Flags: possible disconnect between verbal schema and behavioral schema
+    → = "PFC says one thing, body does another" — AI detects the MISMATCH
 
-    → Client nói: "Tôi đã tha thứ cho bố" (verbal)
-    → NHƯNG: mỗi lần nhắc "bố" → ngôn ngữ shift sang defensive
-    → → Flag: verbal forgiveness vs body-level resentment still active
+    → Client says: "I've forgiven my father" (verbal)
+    → BUT: every time "father" comes up → language shifts to defensive
+    → → Flags: verbal forgiveness vs body-level resentment still active
 
-    → = Feeling.md v2.0 §2: Feel-Explanation (Explanation) = 20-70% accuracy
-    → = AI detect khi Feel-Explanation CONFLICT với Feel-RawSignals—Feel-Location behavioral output
+    → = Feeling.md v2.0 §2: Feel-Explanation = 20–70% accuracy
+    → = AI detects when Feel-Explanation CONFLICTS with behavioral Feel-RawSignals output
 
     🟢 Discrepancy detection = computational linguistics capability
 
 
   ④ SCHEMA CHAIN HYPOTHESIS GENERATION:
 
-    → AI thấy pattern: client giúp đỡ compulsively
-    → AI thấy pattern: client kể tuổi thơ bị bỏ rơi
-    → AI thấy pattern: client rất negative khi "bị từ chối giúp"
-    → → Hypothesis: "giúp đỡ" chain =
-      help others → they need me → I am valuable → resolve "bị bỏ rơi"
-    → → = Valence chain: help → identity ("needed") → abandonment schema resolve
-    → = AI generate HYPOTHESIS cho chuyên gia VERIFY
-    → = AI KHÔNG chẩn đoán — AI GỢI Ý
+    → AI sees pattern: client helps others compulsively
+    → AI sees pattern: client mentions childhood abandonment
+    → AI sees pattern: client reacts very negatively when "rejected while helping"
+    → → Hypothesis: "helping" chain =
+      help others → they need me → I am valuable → resolves "abandonment"
+    → → = Valence chain: help → identity ("needed") → abandonment schema resolved
+    → = AI generates HYPOTHESIS for expert to VERIFY
+    → = AI does NOT diagnose — AI SUGGESTS
 
-    ⚠️ Hypothesis CÓ THỂ SAI:
-    → "Giúp đỡ" có thể KHÔNG link tới "bị bỏ rơi"
-    → Có thể: đơn giản là mirror reward + positive childhood
-    → = AI generate MULTIPLE hypotheses → chuyên gia chọn cái nào feel-check đúng
+    ⚠️ Hypothesis CAN BE WRONG:
+    → "Helping" may NOT link to "abandonment"
+    → Could be: simply mirror reward + positive childhood
+    → = AI generates MULTIPLE hypotheses → expert chooses which feels right
 
-    ⚠️ Chain hypothesis = CẤP 3 analysis (explanatory):
-    → AI generate chain DÀI = mô tả tại sao pattern TỒN TẠI
-    → KHÔNG phải claim brain process chain đó (Valence-Propagation v1.4 §4 clarification)
-    → GIÁ TRỊ: chẩn đoán + hướng can thiệp. KHÔNG phải "đây là cách não nghĩ."
+    ⚠️ Chain hypothesis = LEVEL 3 analysis (explanatory):
+    → AI generates LONG chain = describes WHY the pattern EXISTS
+    → NOT a claim that the brain processes that chain (Valence-Propagation v1.4 §4 clarification)
+    → VALUE: diagnosis + intervention direction. NOT "this is how the brain thinks."
 
     🟡 Chain hypothesis from behavioral patterns = framework application
 
 
   ⑤ ⭐ COMPILE TYPE DETECTION — Experience/Expertise/Trust (v2.0 UPGRADE):
 
-    v1.1: "Valence Propagation Pattern Detection" — detect positive/negative/installed
-    v2.0: UPGRADE → detect COMPILE SOURCE (WHY pattern tồn tại)
+    v1.1: "Valence Propagation Pattern Detection" — detected positive/negative/installed
+    v2.0: UPGRADE → detects COMPILE SOURCE (WHY the pattern exists)
 
-    NGUYÊN LÝ (Compile-Taxonomy.md v3.0 §6):
-      Cùng output ("đi học toán") nhưng 4 COMPILE PATHWAYS khác nhau:
-        ① Hardware Fit (Experience Compile — direct): body tự reward
-        ② Trust + Moderate Fit (Trust+Experience Compile — compound): trust install + verify
-        ③ Social Default (Trust Compile — installed pure): "ai cũng làm"
-        ④ Threat Avoidance (Experience Compile — threat): avoid negative
-      = CÙNG HÀNH VI, KHÁC CƠ CHẾ → khác hướng can thiệp HOÀN TOÀN.
+    PRINCIPLE (Compile-Taxonomy.md v3.0 §6):
+    Same output ("studying math") but 4 DIFFERENT COMPILE PATHWAYS:
+      ① Hardware Fit (Experience Compile — direct): body self-rewards
+      ② Trust + Moderate Fit (Trust+Experience Compile — compound): trust install + verify
+      ③ Social Default (Trust Compile — installed pure): "everyone does it"
+      ④ Threat Avoidance (Experience Compile — threat): avoid negative
+      = SAME BEHAVIOR, DIFFERENT MECHANISM → completely DIFFERENT interventions.
 
-    AI DETECT COMPILE TYPE TỪ VERBAL SIGNALS:
+    AI DETECTS COMPILE TYPE FROM VERBAL SIGNALS:
 
       Experience Compile — Hardware Fit (direct experience):
-        Signal: "tôi thích X", "vui khi làm X", "tự nhiên muốn"
-        + body language match (relaxed, engaged khi nói về X)
-        + verbal DETAIL cao về X (chunks SÂU = multi-modal compile)
+        Signal: "I like X," "happy doing X," "naturally want to"
+        + body language matches (relaxed, engaged when talking about X)
+        + HIGH verbal DETAIL about X (deep chunks = multi-modal compile)
         = Genuine direct experience → body-compiled
-        PFC accuracy ~90%: "tôi thích toán" = ĐỦ TIN
+        PFC accuracy ~90%: "I like math" = TRUSTWORTHY
 
       Experience Compile — Threat (direct avoidance):
-        Signal: "phải/sợ/tránh/không thể", "nếu không... thì..."
-        + body tense khi nói về topic
-        + language focused on AVOIDING negative, không PURSUING positive
+        Signal: "must / afraid / avoid / can't," "if not... then..."
+        + body tenses when talking about topic
+        + language focused on AVOIDING negative, not PURSUING positive
         = Threat-driven pattern → cortisol-tagged compile
-        PFC accuracy ~90%: "tôi sợ bị mắng" = ĐỦ TIN
+        PFC accuracy ~90%: "I'm afraid of being scolded" = TRUSTWORTHY
 
       Trust Compile — Trust Install:
-        Signal: "bố mẹ nói/thầy bảo/mọi người đều"
-        + "đương nhiên/bình thường/ai cũng biết"
-        + verbal NÔNG về X (nhận từ trust, chưa compile deep)
-        + HOẶC: client KHÔNG BIẾT tại sao mình tin (post-hoc confabulate)
+        Signal: "parents said / teacher told / everyone knows"
+        + "of course / normal / everyone knows"
+        + SHALLOW verbal about X (received through trust, not deeply compiled)
+        + OR: client DOESN'T KNOW why they believe it (post-hoc confabulation)
         = Installed via trust source → may or may not match body
-        PFC accuracy ~30-60%: confabulation PHỔ BIẾN NHẤT
+        PFC accuracy ~30–60%: confabulation MOST COMMON
 
       Trust Compile — Social Default:
-        Signal: "mọi người đều... nên tôi cũng..."
-        + "bình thường/đương nhiên/tự nhiên vậy"
-        + KHÔNG kèm personal experience mạnh
-        + Trust source = QUANTITY (social proof) thay vì QUALITY (specific person)
+        Signal: "everyone does... so I do too..."
+        + "normal / of course / naturally"
+        + NO strong personal experience attached
+        + Trust source = QUANTITY (social proof) not QUALITY (specific person)
         = Social environment → auto-conform, minimal body experience
-        PFC accuracy: THẤP NHẤT (~30%) — "tôi thích X" có thể = "xã hội nói X tốt"
+        PFC accuracy: LOWEST (~30%) — "I like X" may = "society says X is good"
 
       Expertise Compile — Compiled Expertise:
-        Signal: chi tiết SÂU + nhiều domain-specific terms
-        + logical structure phức tạp + cross-references between concepts
-        + "tôi ĐÃ THỬ/ĐÃ KIỂM TRA/ĐÃ KINH NGHIỆM" + kết quả cụ thể
-        = Expertise compile (repetition + PFC-directed + verify qua domain feedback)
+        Signal: deep DETAIL + many domain-specific terms
+        + complex logical structure + cross-references between concepts
+        + "I TRIED / TESTED / HAVE EXPERIENCE WITH" + specific results
+        = Expertise compile (repetition + PFC-directed + verified through domain feedback)
 
-    ⭐ TẠI SAO QUAN TRỌNG:
-      Cùng output "tôi thích toán" nhưng 4 pathways:
-        ① Hardware Fit → toán fit brain → genuine → NÊN khuyến khích
-        ② Trust Install → mẹ nói học toán tốt → installed → cần CHECK body confirm
-        ③ Social Default → ai cũng học toán → auto → có thể KHÔNG fit
-        ④ Threat → sợ bị mắng nếu không học → avoidance → CẦN remove threat
-      → KHÁC HƯỚNG CAN THIỆP cho từng compile type:
-        ① → Nurture, không cần can thiệp
-        ② → Verify: body có confirm không? Nếu có → ①② compound (lý tưởng)
-        ③ → Explore: thật sự fit không? Hay chỉ follow xã hội?
-        ④ → Address threat source, không fix "sự quan tâm tới toán"
+    ⭐ WHY THIS MATTERS:
+    Same output "I like math" but 4 pathways:
+      ① Hardware Fit → math fits the brain → genuine → SHOULD encourage
+      ② Trust Install → mother said study math is good → installed → needs body CONFIRM
+      ③ Social Default → everyone studies math → auto → may NOT fit
+      ④ Threat → afraid of being scolded if not studying → avoidance → NEED to remove threat
+      → DIFFERENT intervention directions for each compile type:
+        ① → Nurture, no intervention needed
+        ② → Verify: does body confirm? If yes → ①② compound (ideal)
+        ③ → Explore: does it actually fit? Or just following society?
+        ④ → Address threat source, don't fix "interest in math"
 
-    ⚠️ MIXED TYPE PHỔ BIẾN:
-      Phần lớn adult behavior = Experience × Trust overlap (Compile-Taxonomy.md §7.1)
-      VD: [ăn ngon → ấm] = Experience Compile, NHƯNG "ngon" = partially Trust Compile (cultural)
-      → AI classify DOMINANT type, not absolute
-      → Chuyên gia verify mix nào đang active
+    ⚠️ MIXED TYPE IS COMMON:
+      Most adult behavior = Experience × Trust overlap (Compile-Taxonomy.md §7.1)
+      Example: [eating good food → warmth] = Experience Compile, BUT "good food" = partially Trust Compile (cultural)
+      → AI classifies DOMINANT type, not absolute
+      → Expert verifies which mix is currently active
 
-    Source: Compile-Taxonomy.md v3.0 §6 (4 compile pathways, Drill §22A)
+    Source: Compile-Taxonomy.md v3.0 §6
     🟡 Compile type detection = novel framework application
     🟢 Approach vs avoidance motivation: Elliot 2006
     🟢 Social proof: Cialdini 1984
 
 
-  ⑥ ⭐ CHUNK DEPTH INFERENCE (insight từ session N+16, enriched N+19):
+  ⑥ ⭐ CHUNK DEPTH INFERENCE:
 
-    NGUYÊN LÝ:
-      Schema verbalize được → IMPLY chunks đã tích lũy bên dưới.
-      Chunks build TUẦN TỰ — KHÔNG skip tầng.
-      → Biết OUTPUT (verbal complexity) → INFER INPUT (chunk depth)
+    PRINCIPLE:
+      An articulated schema → IMPLIES chunks have been accumulated beneath it.
+      Chunks build SEQUENTIALLY — you cannot skip tiers.
+      → Know OUTPUT (verbal complexity) → INFER INPUT (chunk depth)
 
-    CÁCH LÀM:
+    HOW IT WORKS:
       a) Verbal complexity → chunk depth estimation:
-        → Client nói CHI TIẾT về domain X
-          ("bức tranh đẹp ở composition, tone lạnh, nét cọ mạnh ở góc này")
-          → Chunks hội họa = SÂU (color theory + technique + composition)
-        → Client nói MƠ HỒ về domain Y
-          ("bức tranh đẹp, tôi thích")
-          → Chunks hội họa = NÔNG (body feel nhưng PFC chưa label)
-        → = AI estimate chunk depth PER DOMAIN từ verbal complexity
+        → Client talks in DETAIL about domain X
+          ("the painting is beautiful in composition, cold tone, strong brushwork at this corner")
+          → Art chunks = DEEP (color theory + technique + composition)
+        → Client talks VAGUELY about domain Y
+          ("the painting is beautiful, I like it")
+          → Art chunks = SHALLOW (body feels but PFC hasn't labeled)
+        → = AI estimates chunk depth PER DOMAIN from verbal complexity
 
-      b) Prerequisite inference (CHAIN SÂU):
-        → Client biết "lượng tử" → CHẮC CHẮN đã qua: đếm → số thực → số ảo → ...
-        → = AI infer CHUNK TREE mà không cần hỏi từng cái
-        → = Tiết kiệm thời gian, focus vào GAPS
+      b) Prerequisite inference (DEEP CHAIN):
+        → Client knows "quantum mechanics" → CERTAINLY has been through: counting → algebra → calculus → complex numbers → ...
+        → = AI infers CHUNK TREE without needing to ask each one
+        → = Saves time, focuses on GAPS
 
-        VD — prerequisite chain DEPTH:
-          Học sinh biết cộng trừ nhân chia
-            → CHẮC CHẮN đã có chunks đếm 1-10
-            → Prerequisite chain: đếm → cộng → trừ → nhân → chia
-            → AI infer: ít nhất 5 tầng chunks toán cơ bản
+        Example — prerequisite chain DEPTH:
+          Student who knows addition, subtraction, multiplication, division
+            → CERTAINLY has chunks: counting 1–10
+            → Prerequisite chain: count → add → subtract → multiply → divide
+            → AI infers: at least 5 tiers of basic math chunks
 
-          Sinh viên biết lượng tử
-            → CHẮC CHẮN thành thạo: số thực, số ảo, đại số tuyến tính, giải tích
-            → Prerequisite chain: đếm → algebra → calculus → linear algebra → quantum
-            → AI infer: ít nhất 10+ tầng chunks toán + physics
-            → DEPTH = rất sâu trong domain này
+          University student who knows quantum mechanics
+            → CERTAINLY proficient in: real numbers, complex numbers, linear algebra, calculus
+            → Prerequisite chain: count → algebra → calculus → linear algebra → quantum
+            → AI infers: at least 10+ tiers of math + physics chunks
+            → DEPTH = very deep in this domain
 
       c) ⚠️ DOMAIN-SPECIFIC LIMIT:
-        → Chuyên gia toán xuất sắc ≠ biết bơi
-        → Chunks toán SÂU → KHÔNG predict chunks thể thao
+        → Expert mathematician ≠ can swim
+        → Deep math chunks → DOES NOT predict deep athletic chunks
         → Chunks compile DOMAIN-SPECIFIC (Modality.md §3: depth = modality count)
-        → Verbal modality SÂU (toán) ≠ motor modality SÂU (bơi)
-        → = AI PHẢI infer PER DOMAIN, KHÔNG generalize across domains
-        → = Nguyên lý: chunk depth = vertical (trong 1 domain), KHÔNG horizontal
+        → Deep verbal modality (math) ≠ deep motor modality (swimming)
+        → = AI MUST infer PER DOMAIN, NOT generalize across domains
+        → = Principle: chunk depth = vertical (within 1 domain), NOT horizontal
 
       d) Gap detection:
-        → Client biết X (complex) nhưng KHÔNG biết B (prerequisite OF X)
-        → RED FLAG: schema có thể INSTALLED (verbal only) chứ không phải BUILT
-        → VD: "Tôi biết phải tha thứ" (verbal) nhưng body VẪN giận
-          → = Verbal schema WITHOUT chunk depth = shallow, dễ collapse
-          → = Somatic-Articulation-Loop §1.3: "Explicit giả" — verbal chunks without body-confirm
-        → = Detect "biết bằng đầu" vs "biết bằng body"
+        → Client knows X (complex) but DOESN'T know B (prerequisite OF X)
+        → RED FLAG: schema may be INSTALLED (verbal only) not truly BUILT
+        → Example: "I know I need to forgive" (verbal) but body is STILL angry
+          → = Verbal schema WITHOUT chunk depth = shallow, easily collapses
+          → = Somatic-Articulation-Loop §1.3: "False explicit" — verbal chunks without body-confirm
+        → = Detect "knowing with your head" vs "knowing with your body"
 
       e) Body-verbal mismatch:
-        → Client nói CHI TIẾT (verbal depth cao)
-        → NHƯNG body language tense / defensive / flat
-        → = Verbal chunks ĐỦ nhưng body schema CONFLICT
-        → Flag cho chuyên gia: "check body response khi nói về X"
+        → Client speaks in DETAIL (high verbal depth)
+        → BUT body language tense / defensive / flat
+        → = Verbal chunks SUFFICIENT but body schema CONFLICTS
+        → Flag for expert: "check body response when talking about X"
 
       f) Modality depth profile:
-        → Modality.md §3: chunk depth = số modalities encode
+        → Modality.md §3: chunk depth = number of modalities encoded
         → ★1 (verbal only) → ★5 (visual + auditory + somatic + motor + emotional)
-        → AI CÓ THỂ estimate modality profile từ HOW client mô tả:
-          "Tôi biết tha thứ là đúng" → ★1 verbal only
-          "Khi nghĩ tới tha thứ, ngực tôi nhẹ hơn" → ★2-3 verbal + somatic
-          "Tôi thấy mặt mẹ, nghe giọng bà, tim đập nhẹ" → ★4-5 multi-modal
-        → Modality profile = proxy cho chunk depth THẬT
+        → AI CAN estimate modality profile from HOW client describes:
+          "I know forgiveness is right" → ★1 verbal only
+          "When I think about forgiveness, my chest feels lighter" → ★2–3 verbal + somatic
+          "I see mother's face, hear her voice, my heart beats gently" → ★4–5 multi-modal
+        → Modality profile = proxy for TRUE chunk depth
 
     🟡 Chunk depth inference = novel framework application
     🟢 Prerequisite knowledge structures = educational psychology (Ausubel 1968)
@@ -636,61 +597,61 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟡 Modality depth profile = novel estimation method
 
 
-  ⑦ ⭐ AI KHƠI GỢI SCHEMA ẨN (insight từ session N+19):
+  ⑦ ⭐ AI ELICITING HIDDEN SCHEMAS:
 
-    VẤN ĐỀ:
-      → Người dùng KHÔNG THỂ verbalize hết schema của mình
-      → Thậm chí KHÔNG BIẾT họ có schema rất sâu
+    THE PROBLEM:
+      → The user CANNOT verbalize all their schemas
+      → May not even KNOW they have very deep schemas
       → Somatic-Articulation-Loop §1.4: "We can know more than we can tell" (Polanyi 1958)
-      → Implicit knowledge >> explicit knowledge (tỷ lệ ~100:1 hoặc hơn)
-      → = HẦU HẾT schema nằm DƯỚI ngưỡng conscious awareness
+      → Implicit knowledge >> explicit knowledge (ratio ~100:1 or more)
+      → = MOST schemas lie BELOW the threshold of conscious awareness
 
-    TẠI SAO XẢY RA:
-      → Schema SÂU = body adaptation (cortisol, muscle patterns, gut state)
-      → Chạy VÔ THỨC → PFC không observe → KHÔNG có label
-      → Schema quá quen → habituation → VTA không fire → "invisible"
-      → Giống NƯỚC với CÁ: cá không biết mình đang ở trong nước
-      → = Schema càng sâu, càng pervasive → càng invisible với chủ nhân
+    WHY THIS HAPPENS:
+      → DEEP schemas = body adaptation (cortisol, muscle patterns, gut state)
+      → Runs UNCONSCIOUSLY → PFC doesn't observe → NO label
+      → Schema too familiar → habituation → VTA doesn't fire → "invisible"
+      → Like WATER for a FISH: the fish doesn't know it's in water
+      → = The deeper the schema, the more pervasive → the more invisible to its owner
 
-    AI KHƠI GỢI NHƯ THẾ NÀO:
+    HOW AI ELICITS:
 
-      a) Pattern surfacing (từ data lớn):
-        → AI track 100+ giờ conversation
-        → AI phát hiện patterns MÀ CLIENT VÀ CHUYÊN GIA ĐỀU KHÔNG THẤY
-        → VD: "Mỗi khi nói về tương lai, client dùng giọng NHẸ HƠN"
-          → Client không biết (quá quen)
-          → Chuyên gia miss (chỉ nghe 1 giờ/tuần)
-          → AI: "pattern NÀY consistent 47/50 sessions" → surface!
+      a) Pattern surfacing (from large data):
+        → AI tracks 100+ hours of conversation
+        → AI finds patterns THAT NEITHER CLIENT NOR EXPERT SAW
+        → Example: "Every time client talks about the future, their tone is LIGHTER"
+          → Client doesn't know (too familiar)
+          → Expert missed it (only listened 1 hour/week)
+          → AI: "this pattern is consistent across 47/50 sessions" → surfaces it!
 
       b) Cross-domain connection:
-        → AI detect: client nói "sợ thử cái mới" ở WORK, COOKING, DATING
-        → 3 domains KHÁC NHAU, CÙNG 1 pattern = likely DEEP schema
-        → Client nghĩ đây là 3 vấn đề riêng biệt
-        → AI gợi ý: "có thể có 1 schema chung bên dưới"
-        → = AI connect dots mà PFC client không self-connect
+        → AI detects: client says "afraid to try new things" at WORK, COOKING, DATING
+        → 3 DIFFERENT domains, SAME 1 pattern = likely DEEP schema
+        → Client thinks these are 3 separate problems
+        → AI suggests: "there may be 1 common schema underneath"
+        → = AI connects dots that client's PFC hasn't self-connected
 
       c) Articulation catalyst (Somatic-Articulation-Loop §5):
-        → Somatic-Articulation-Loop: body biết TRƯỚC, PFC tìm từ SAU
-        → AI offer articulation candidates → client body-check
-        → Client: "Ờ... đúng! Tôi chưa nghĩ tới nhưng body feel đúng!"
-        → = AI KHÔNG TẠO schema mới → AI KHƠI GỢI schema ĐÃ CÓ
-        → = Catalyst làm tăng xác suất phát hiện, KHÔNG phải nguồn
+        → Somatic-Articulation-Loop: body knows FIRST, PFC finds words AFTER
+        → AI offers articulation candidates → client body-checks
+        → Client: "Oh... yes! I hadn't thought of it but the body feels right!"
+        → = AI does NOT CREATE a new schema → AI ELICITS an already-existing one
+        → = Catalyst that increases discovery probability, NOT the source
 
       d) Prerequisite probing:
-        → AI biết client có schema X (từ verbal)
-        → AI hỏi ngược: "prerequisite của X là A, B, C — bạn biết A không?"
-        → Client: "A thì... ờ... tôi không chắc"
-        → → AI KHƠI GỢI: client nhận ra mình THIẾU prerequisite
-        → → HOẶC: client "Ờ, A thì tôi biết từ nhỏ!" → khơi gợi schema ẨN
+        → AI knows client has schema X (from verbal)
+        → AI asks backwards: "prerequisite of X is A, B, C — do you know A?"
+        → Client: "A... hmm... I'm not sure"
+        → → AI ELICITS: client realizes they LACK the prerequisite
+        → → OR: client "Oh, I've known A since childhood!" → elicits HIDDEN schema
 
-    ⭐ KHÁC BIỆT VỚI ①-⑥:
-      → ①-⑥ = AI DETECT patterns đã biểu hiện
-      → ⑦ = AI KHƠI GỢI schema chưa biểu hiện (ẩn, chưa verbalize)
-      → ①-⑥ = passive detection (observe output)
-      → ⑦ = active surfacing (trigger implicit → transitional → explicit)
-      → = Somatic-Articulation-Loop §2: AI push từ Stage 1 (implicit) → Stage 3 (PFC notices)
+    ⭐ DIFFERENT FROM ①–⑥:
+      → ①–⑥ = AI DETECTS patterns that have already manifested
+      → ⑦ = AI ELICITS schemas that haven't manifested yet (hidden, not yet verbalized)
+      → ①–⑥ = passive detection (observes output)
+      → ⑦ = active surfacing (triggers implicit → transitional → explicit)
+      → = Somatic-Articulation-Loop §2: AI pushes from Stage 1 (implicit) → Stage 3 (PFC notices)
 
-    🟡 AI khơi gợi = Somatic-Articulation-Loop §5 applied to schema detection (novel synthesis)
+    🟡 AI eliciting = Somatic-Articulation-Loop §5 applied to schema detection (novel synthesis)
     🟢 Implicit >> explicit knowledge (Polanyi 1958, Reber 1967)
     🟢 Expertise = mostly implicit patterns (Chase & Simon 1973)
     🟡 Active surfacing vs passive detection distinction = framework contribution
@@ -698,224 +659,224 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⑧ ⭐ COLLECTIVE CHAIN BREAK DETECTION (v2.0 NEW):
 
-    VẤN ĐỀ CỐT LÕI:
-      Client than phiền → vấn đề ở CÁ NHÂN hay ở COLLECTIVE chain gãy?
-      NHẦM = fix SAI HƯỚNG → client tự blame hoặc therapy fail.
+    CORE PROBLEM:
+      Client complains → is the problem INDIVIDUAL or a COLLECTIVE chain break?
+      Getting it wrong = fixing the WRONG DIRECTION → client self-blames or therapy fails.
 
-    NGUYÊN LÝ (Collective-Body.md v1.1 §5.2):
-      Collective chain: [học → đại học → việc → lương → body-base feed]
-      Individual compile: [học → tốt] (trust-amplified SHORT — Trust Compile)
-      Chain collective GÃY → individual body circuit-break → PFC engage
-      PFC thường blame MÌNH thay vì detect collective chain break.
-      = "Học làm gì" KHÔNG PHẢI PFC tự suy nghĩ triết học.
-      = Body circuit-break (Body-Base.md §7) TRƯỚC → PFC wake → PFC TÌM lý do.
+    PRINCIPLE (Collective-Body.md v1.1 §5.2):
+      Collective chain: [study → college → job → salary → body-base feeds]
+      Individual compile: [study → good] (trust-amplified SHORT — Trust Compile)
+      Collective chain BREAKS → individual body circuit-break → PFC engages
+      PFC usually blames SELF instead of detecting the collective chain break.
+      = "What's the point of studying" is NOT PFC philosophizing on its own.
+      = Body circuit-break (Body-Base.md §7) FIRST → PFC wakes → PFC FINDS A REASON.
 
-    AI DETECT — SIGNALS:
+    AI DETECTION — SIGNALS:
 
       INDIVIDUAL schema problem:
-        → Pattern UNIQUE to client (người khác CÙNG context KHÔNG có)
-        → Pattern có PERSONAL HISTORY (tuổi thơ, trauma, specific events)
-        → Pattern ACROSS domains (sợ thử cái mới ở work + dating + cooking)
-        → = Schema CỦA CÁ NHÂN cần exploration + possible intervention
+        → Pattern UNIQUE to client (others in SAME context DON'T have it)
+        → Pattern has PERSONAL HISTORY (childhood, trauma, specific events)
+        → Pattern ACROSS domains (afraid to try new things at work + dating + cooking)
+        → = Schema of the INDIVIDUAL — needs exploration + possible intervention
 
       COLLECTIVE chain break:
-        → NHIỀU NGƯỜI cùng ngành/context than CÙNG THỨ
-        → Pattern có STRUCTURAL cause (market shift, policy change, industry disruption)
-        → Client KHÔNG có personal trauma liên quan
-        → AI check: ngành/industry context → collective chain CÓ ĐANG GÃY?
+        → MANY PEOPLE in the same field/context complaining about the SAME THING
+        → Pattern has STRUCTURAL CAUSE (market shift, policy change, industry disruption)
+        → Client has NO personal trauma related to it
+        → AI checks: field/industry context → is the collective chain CURRENTLY BREAKING?
 
-    VÍ DỤ:
-      "Tôi thấy học vô ích"
-        → AI check context: sinh viên ngành X ở VN
-        → AI check: link [đại học → việc TỐT] ở ngành X đang gãy? (thất nghiệp cao?)
-        → Nếu CÓ → collective chain break → KHÔNG phải "lỗi" của client
-        → Hướng: adaptation (chuyển ngành, kỹ năng mới), KHÔNG therapy cá nhân
+    EXAMPLES:
+      "I feel like studying is pointless"
+        → AI checks context: student in field X in the country
+        → AI checks: is the [college → good job] link in field X breaking? (high unemployment?)
+        → If YES → collective chain break → NOT "the client's fault"
+        → Direction: adaptation (career change, new skills), NOT individual therapy
 
-      "Tôi ghét học vì bị ép"
-        → AI check: personal history with authority + coercion
+      "I hate studying because I was forced to"
+        → AI checks: personal history with authority + coercion
         → = Individual schema (Experience Compile threat — ④ avoidance pathway)
-        → Hướng: explore relationship with authority, KHÔNG phải "ngành gãy"
+        → Direction: explore relationship with authority, NOT "the field is broken"
 
-    3 LOẠI CHAIN BREAK (Collective-Body.md §5.2):
-      ① COST TĂNG: "mệt hơn trước" → cost >> baseline compiled
-      ② LINK GÃY: [đại học → việc tốt] trust collapse → chain đứt
-      ③ COMPOUND: cost + link + trust collapse đồng thời
+    3 TYPES OF CHAIN BREAK (Collective-Body.md §5.2):
+      ① COST INCREASES: "more exhausting than before" → cost >> compiled baseline
+      ② LINK BREAKS: [college → good job] trust collapses → chain severs
+      ③ COMPOUND: cost + link + trust collapse all simultaneously
 
-    ⭐ TẠI SAO QUAN TRỌNG:
+    ⭐ WHY THIS MATTERS:
       Individual problem → therapy fix (change individual schema)
       Collective problem → adaptation fix (change strategy, not self)
-      NHẦM individual → collective: therapy VÔ HIỆU (vấn đề ở system)
-      NHẦM collective → individual: client TỰ BLAME (vấn đề không phải của họ)
-      → AI CÓ THỂ check context data → assist phân biệt
+      Wrong direction: individual → collective: therapy INEFFECTIVE (problem is the system)
+      Wrong direction: collective → individual: client SELF-BLAMES (not their problem)
+      → AI CAN check context data → assist in distinguishing
 
-    Source: Collective-Body.md v1.1 §5.2 (chain break), Compile-Taxonomy.md §7.2
+    Source: Collective-Body.md v1.1 §5.2
     🟡 Collective chain break detection = novel framework application
     🟢 Structural unemployment: established economics
     🟢 Attribution error (self vs system blame): social psychology
 
 
-  ⑨ ⭐ 3 CẤP DETECTION — AI TAG CẤP NÀO (v2.0 NEW):
+  ⑨ ⭐ 3-LEVEL DETECTION — AI TAGS WHICH LEVEL (v2.0 NEW):
 
-    MODEL 3 CẤP (Collective-Body.md v1.1 §1):
-      Cấp 1: Individual short compile → body-level patterns
-      Cấp 2: Collective distributed → collective infrastructure + context
-      Cấp 3: Framework explanatory → analysis + decomposition
+    3-LEVEL MODEL (Collective-Body.md v1.1 §1):
+      Level 1: Individual short compile → body-level patterns
+      Level 2: Collective distributed → collective infrastructure + context
+      Level 3: Framework explanatory → analysis + decomposition
 
-    AI NÊN TAG MỖI FINDING — "CẤP NÀO?":
+    AI SHOULD TAG EACH FINDING — "WHICH LEVEL?":
 
-      CẤP 1 TAG:
-        [client chán toán] → Cấp 1 (individual body experience)
-        [client sợ bị bỏ rơi] → Cấp 1 (personal schema)
-        [client tránh conflict] → Cấp 1 (compiled pattern from experience)
-        → AI detect TỪ: verbal patterns, body-verbal mismatch, personal history
+      LEVEL 1 TAG:
+        [client is bored with math] → Level 1 (individual body experience)
+        [client fears abandonment] → Level 1 (personal schema)
+        [client avoids conflict] → Level 1 (compiled pattern from experience)
+        → AI detects FROM: verbal patterns, body-verbal mismatch, personal history
 
-      CẤP 2 TAG:
-        [ngành client đang bị AI disrupt] → Cấp 2 (collective chain shift)
-        [nhiều người cùng ngành than tương tự] → Cấp 2 (collective pattern)
-        [institution trust đang collapse] → Cấp 2 (collective trust break)
-        → AI detect TỪ: context data, industry trends, shared complaints
+      LEVEL 2 TAG:
+        [client's field being disrupted by AI] → Level 2 (collective chain shift)
+        [many people in same field complaining similarly] → Level 2 (collective pattern)
+        [institutional trust collapsing] → Level 2 (collective trust break)
+        → AI detects FROM: context data, industry trends, shared complaints
 
-      CẤP 3 TAG:
-        [cơ chế chán = VTA habituate ở Goldilocks zone] → Cấp 3 (explanatory)
-        [chain gãy do brain compile short] → Cấp 3 (framework analysis)
-        → AI generate CHO: chuyên gia + advanced user understand mechanism
+      LEVEL 3 TAG:
+        [boredom mechanism = VTA habituating in Goldilocks zone] → Level 3 (explanatory)
+        [chain breaks because brain compiles short] → Level 3 (framework analysis)
+        → AI generates FOR: expert + advanced user understanding mechanisms
 
-    GIÁ TRỊ:
-      → Chuyên gia/client CẦN biết cấp nào để chọn hướng ĐÚNG:
-        Cấp 1 finding → individual intervention (therapy, skill training)
-        Cấp 2 finding → collective adaptation (career change, strategy shift)
-        Cấp 3 finding → deeper understanding (not directly actionable, inform strategy)
-      → KHÔNG tag = risk nhầm cấp → nhầm hướng can thiệp
+    VALUE:
+      → Expert/client NEEDS to know which level in order to choose the RIGHT direction:
+        Level 1 finding → individual intervention (therapy, skill training)
+        Level 2 finding → collective adaptation (career change, strategy shift)
+        Level 3 finding → deeper understanding (not directly actionable, informs strategy)
+      → NOT tagging = risk of confusing levels → wrong intervention direction
 
-    VÍ DỤ TÍCH HỢP:
-      Client: "Tôi chán công việc, muốn nghỉ"
+    INTEGRATED EXAMPLE:
+      Client: "I'm bored with my job, want to quit"
       AI analysis:
-        [chán công việc] → Cấp 1 (individual experience) — investigate source
-        [ngành đang restructure] → Cấp 2 (collective) — context check
-        [chán = prediction-delta giảm, Boredom Loại 1/2] → Cấp 3 (explanatory)
-      → Chuyên gia nhận CẢ 3 tags → quyết định explore ở cấp nào trước
+        [bored with job] → Level 1 (individual experience) — investigate source
+        [field currently restructuring] → Level 2 (collective) — context check
+        [boredom = prediction-delta declining, Boredom Type 1/2] → Level 3 (explanatory)
+      → Expert receives ALL 3 tags → decides which level to explore first
 
-    Source: Collective-Body.md v1.1 §1 (Model 3 cấp)
-    🟡 3-cấp detection tagging = novel framework application
+    Source: Collective-Body.md v1.1 §1
+    🟡 3-level detection tagging = novel framework application
     🟡 Multi-level analysis for therapy = framework contribution
 
 
-  ⑩-⑭ COLLECTIVE-LEVEL CAPABILITIES → AI-Collective-Detection.md v1.0
+  ⑩–⑭ COLLECTIVE-LEVEL CAPABILITIES → AI-Collective-Detection.md v1.0
 
-    ⑧⑨ ở trên = collective BASICS (chain break + 3-cấp tagging).
-    Full collective detection (5 capabilities mới):
-      ⑩ Arc Shift + Scale Diagnosis (3 nguồn "expired" × 4-level scale)
-      ⑪ Coordination Node Assessment (node fail / authority schema / mismatch)
+    ⑧⑨ above = collective BASICS (chain break + 3-level tagging).
+    Full collective detection (5 new capabilities):
+      ⑩ Arc Shift + Scale Diagnosis (3 sources of "expired" × 4-level scale)
+      ⑪ Coordination Node Assessment (node failure / authority schema / mismatch)
       ⑫ Collective Schema Pressure Detection (compound + culture-aware)
       ⑬ Gap Distribution × Collective Matching (observation tool)
       ⑭ Collective-Level Verification (scale-dependent, 4 approaches)
     → AI-Collective-Detection.md v1.0 for details.
-    → File NÀY (individual ①-⑨) + file ĐÓ (collective ⑩-⑭) = complete AI capability set.
+    → THIS FILE (individual ①–⑨) + THAT FILE (collective ⑩–⑭) = complete AI capability set.
 
 
-  AI LAYER — GIỚI HẠN:
+  AI LAYER — LIMITS:
 
-    ✗ AI KHÔNG có body → KHÔNG feel-check
-    ✗ AI KHÔNG biết body-base state → chỉ infer từ verbal/behavioral
-    ✗ AI detect CORRELATION, không detect CAUSATION
-    ✗ AI hypothesis CÓ THỂ HOÀN TOÀN SAI
-    ✗ AI compile type classification = APPROXIMATE (mixed types phổ biến)
-    ✗ AI collective chain detection = CẦN context data đủ (không có = không detect)
-    ✗ AI output = Trust Compile install (§8 guardrails) → AI CHÍNH NÓ cũng là risk
+    ✗ AI has NO body → CANNOT feel-check
+    ✗ AI doesn't know body-base state → only infers from verbal/behavioral
+    ✗ AI detects CORRELATION, not CAUSATION
+    ✗ AI hypothesis CAN BE COMPLETELY WRONG
+    ✗ AI compile type classification = APPROXIMATE (mixed types are common)
+    ✗ AI collective chain detection = NEEDS sufficient context data (without it = cannot detect)
+    ✗ AI output = Trust Compile install (§8 guardrails) → AI ITSELF is also a risk
     → = Output = APPROXIMATE MAP + HYPOTHESES
-    → = CẦN Layer 2 (chuyên gia) HOẶC Layer 3 (self body-check) để verify
-    → = AI = CÔNG CỤ, KHÔNG THAY THẾ body verification
+    → = NEEDS Layer 2 (expert) OR Layer 3 (self body-check) to verify
+    → = AI = TOOL, does NOT replace body verification
 ```
 
 ---
 
-## §4 — CHUYÊN GIA LAYER: Self-Pattern-Modeling + Body Vote
+## §4 — EXPERT LAYER: Self-Pattern-Modeling + Body Vote
 
 ```
-🟡 CHUYÊN GIA LÀM GÌ MÀ AI KHÔNG LÀM ĐƯỢC:
+🟡 WHAT EXPERTS DO THAT AI CANNOT:
 
   ⭐ CORE MECHANISM: Self-Pattern-Modeling (Agent-Mechanism.md §0)
 
-    Chuyên gia nhận hypothesis từ AI:
-      "Client có thể có abandonment schema linking giúp đỡ → identity"
-      + "Compile type: likely Trust Compile (trust install từ mẹ)" ← v2.0
+    Expert receives hypothesis from AI:
+      "Client may have abandonment schema linking helping → identity"
+      + "Compile type: likely Trust Compile (trust install from mother)" ← v2.0
 
-    Chuyên gia Self-Pattern-Modeling:
-      → PFC retrieve SELF chunks matching client's described situation
-      → Apply làm template: "nếu TÔI có abandonment fear, TÔI sẽ..."
-      → Body CỦA CHUYÊN GIA simulate: feeling gì? drive gì? tránh gì?
-      → Body vote: "hypothesis NÀY feel ĐÚNG không?"
+    Expert Self-Pattern-Modeling:
+      → PFC retrieves SELF chunks matching client's described situation
+      → Applies as template: "If I had abandonment fear, I WOULD..."
+      → Expert's OWN body simulates: what does it feel? what does it drive? what does it avoid?
+      → Body vote: does THIS hypothesis FEEL RIGHT?
 
     Output:
-      → Body feel coherent → "có vẻ đúng, explore thêm"
-      → Body feel incongruent → "không đúng, AI hypothesis sai"
-      → Body feel ambiguous → "chưa rõ, cần thêm data từ client"
+      → Body feels coherent → "seems right, explore further"
+      → Body feels incoherent → "wrong, AI hypothesis incorrect"
+      → Body feels ambiguous → "not clear yet, need more data from client"
 
 
-  TẠI SAO CHUYÊN GIA CÓ THỂ LÀM:
+  WHY EXPERTS CAN DO THIS:
 
-    ① CHUNKS TỪ NHIỀU CLIENTS:
-      → Chuyên gia 10 năm → hàng nghìn cases → chunk library RẤT SÂU
-      → Pattern recognition: "client NÀY giống client kia ở điểm..."
+    ① CHUNKS FROM MANY CLIENTS:
+      → Expert with 10 years → thousands of cases → VERY DEEP chunk library
+      → Pattern recognition: "THIS client is similar to that other client in..."
       → = Expertise = large trigger surface + many cross-links (Chunk.md v2.1 §4.4)
       → 🟢 Clinical expertise: pattern recognition across cases (Klein 1998)
 
-    ② BODY CÓ THỂ SIMULATE:
-      → Chuyên gia CÓ body → CÓ THỂ feel-check
-      → AI KHÔNG CÓ body → KHÔNG thể feel
-      → = Sự khác biệt CỐT LÕI giữa AI và chuyên gia
-      → = Chuyên gia = body-checker, AI = pattern-detector
+    ② BODY CAN SIMULATE:
+      → Expert HAS a body → CAN feel-check
+      → AI HAS NO body → CANNOT feel
+      → = The CORE DIFFERENCE between AI and expert
+      → = Expert = body-checker, AI = pattern-detector
 
-    ③ TRAINING QUAN SÁT:
-      → Chuyên gia train: đọc body language, micro-expression, voice tone
-      → = Thêm data NGOÀI verbal mà AI text-only KHÔNG CÓ
-      → = Nếu AI có video/audio → CÓ THỂ supplement (tương lai)
+    ③ OBSERVATIONAL TRAINING:
+      → Expert trained: reads body language, micro-expressions, voice tone
+      → = Additional data BEYOND verbal that text-only AI lacks
+      → = If AI has video/audio → CAN supplement (future)
 
 
-  v2.0 — CHUYÊN GIA CŨNG CẦN BIẾT:
+  v2.0 — WHAT EXPERTS ALSO NEED TO KNOW:
 
     COMPILE TYPE AWARENESS:
-      → Chuyên gia nhận AI compile type classification (Experience/Expertise/Trust)
-      → Feel-check: "pattern NÀY feel như installed (Trust) hay direct (Experience)?"
-      → Chuyên gia CÓ THỂ verify compile type QUA body simulation
-        → Simulate "nếu tôi bị ép" → body feel KHÁC "nếu tôi thật sự thích"
-      → = Chuyên gia ADD body-level verify mà AI KHÔNG THỂ
+      → Expert receives AI compile type classification (Experience/Expertise/Trust)
+      → Feel-check: "does THIS pattern feel INSTALLED (Trust) or direct (Experience)?"
+      → Expert CAN verify compile type THROUGH body simulation
+        → Simulate "if I were forced" → body feels DIFFERENT from "if I genuinely liked it"
+      → = Expert ADDS body-level verification that AI CANNOT DO
 
     COLLECTIVE vs INDIVIDUAL CHECK:
-      → Chuyên gia verify: "đây là individual schema hay collective chain break?"
-      → Chuyên gia CÓ context: kinh nghiệm với nhiều client CÙNG NGÀNH
-      → VD: 5 client cùng ngành IT đều "chán" → collective pattern?
-      → = Chuyên gia cross-reference ACROSS clients, AI cross-reference WITHIN client
+      → Expert verifies: "is this an individual schema or a collective chain break?"
+      → Expert HAS context: experience with many clients IN THE SAME FIELD
+      → Example: 5 clients all in IT who are all "bored" → collective pattern?
+      → = Expert cross-references ACROSS clients, AI cross-references WITHIN client
 
 
-  CHUYÊN GIA LÀM GÌ VỚI AI HYPOTHESIS:
+  WHAT EXPERTS DO WITH AI HYPOTHESES:
 
-    BƯỚC 1: Nhận AI patterns + hypotheses + compile type + cấp tag
-    BƯỚC 2: Self-Pattern-Modeling từng hypothesis
-    BƯỚC 3: CHỌN hypothesis feel most coherent
-    BƯỚC 4: Design câu hỏi cho client để VERIFY:
-      → "Khi nghĩ về [topic], bạn cảm thấy gì trong cơ thể?"
-      → "Nếu [scenario], bạn TƯỞNG TƯỢNG mình sẽ..."
-      → = Câu hỏi trigger body response CỦA CLIENT
-      → = KHÔNG hỏi "tại sao" (PFC confabulate) → hỏi "cảm gì" (body report)
-    BƯỚC 5: Observe client body response → confirm/deny
+    STEP 1: Receive AI patterns + hypotheses + compile type + level tags
+    STEP 2: Self-Pattern-Modeling each hypothesis
+    STEP 3: SELECT the hypothesis that feels most coherent
+    STEP 4: Design questions for client to VERIFY:
+      → "When you think about [topic], what do you feel in your body?"
+      → "If [scenario], you IMAGINE you would..."
+      → = Questions that trigger the CLIENT'S body response
+      → = Do NOT ask "why" (PFC confabulates) → ask "what do you feel" (body reports)
+    STEP 5: Observe client body response → confirm/deny
 
 
-  CHUYÊN GIA — GIỚI HẠN:
+  EXPERT — LIMITS:
 
-    ✗ Chuyên gia CŨNG có schemas CỦA MÌNH → BIAS simulation
-      → VD: chuyên gia có abandonment fear → OVER-detect abandonment ở client
-    ✗ Chuyên gia chunk library CÓ HẠN → miss unusual patterns
-      → Client từ culture KHÁC → chunks không match → simulation kém
-    ✗ Chuyên gia chỉ nghe 1 giờ/tuần → miss long-term patterns
-      → = AI BỔ SUNG ở đây (track patterns across sessions)
-    ✗ Chuyên gia fatigue → quality GIẢM cuối ngày
-      → AI KHÔNG fatigue → consistent
+    ✗ Expert ALSO has OWN schemas → BIAS in simulation
+      → Example: expert has abandonment fear → OVER-detects abandonment in client
+    ✗ Expert chunk library IS LIMITED → misses unusual patterns
+      → Client from a DIFFERENT culture → chunks don't match → simulation poor
+    ✗ Expert only hears 1 hour/week → misses long-term patterns
+      → = AI SUPPLEMENTS here (tracks patterns across sessions)
+    ✗ Expert fatigue → quality DROPS at end of day
+      → AI doesn't fatigue → consistent
 
-    → = Chuyên gia GIỎI nhưng KHÔNG hoàn hảo
-    → = AI BỔ SUNG weakness của chuyên gia
-    → = Chuyên gia BỔ SUNG weakness của AI
-    → = 2 layers CẦN nhau
+    → = Expert SKILLED but NOT perfect
+    → = AI SUPPLEMENTS expert's weaknesses
+    → = Expert SUPPLEMENTS AI's weaknesses
+    → = 2 layers NEED each other
 
   🟢 Therapist empathy = Self-Pattern-Modeling (Goldman simulation theory)
   🟢 Therapist bias = established concern in clinical psychology
@@ -928,93 +889,93 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §5 — CLIENT LAYER: Focusing + Self-Verify
 
 ```
-🟡 CLIENT LÀ ULTIMATE VERIFIER:
+🟡 CLIENT IS THE ULTIMATE VERIFIER:
 
-  ⭐ CORE: Body CỦA CLIENT là thước đo CUỐI CÙNG.
+  ⭐ CORE: The CLIENT'S body is the FINAL measure.
 
-  AI detect patterns → chuyên gia feel-check → NHƯNG:
-    → AI KHÔNG phải client → có thể sai
-    → Chuyên gia KHÔNG phải client → simulation approximate
-    → CHỈ client CÓ body CỦA MÌNH → CHỈ client verify AUTHENTIC
+  AI detects patterns → expert feel-checks → BUT:
+    → AI is NOT the client → may be wrong
+    → Expert is NOT the client → simulation is approximate
+    → ONLY the client HAS their OWN body → ONLY the client verifies AUTHENTICALLY
 
   = Somatic-Articulation-Loop.md core insight:
-    "Body biết trước khi PFC có từ.
-     Articulation là PROCESS, không phải retrieval."
+    "Body knows before PFC has words.
+     Articulation is a PROCESS, not a retrieval."
 
 
-  CLIENT LÀM GÌ:
+  WHAT THE CLIENT DOES:
 
-    ① NGHE hypothesis đã verify (từ chuyên gia HOẶC từ AI — §7 self-drill):
-      → "Có thể bạn giúp đỡ người khác liên quan tới sợ bị bỏ rơi"
-      → Client NGHE → body PHẢN ỨNG NGAY (trước PFC process)
+    ① HEAR the verified hypothesis (from expert OR from AI — §7 self-drill):
+      → "You may help others because of fear of abandonment"
+      → Client HEARS → body RESPONDS IMMEDIATELY (before PFC processes)
 
-    ② BODY LISTEN (Focusing — Gendlin 1981):
-      → Dừng lại. Lắng nghe body.
-      → "Khi nghe câu đó, body tôi cảm gì?"
-      → "Ngực nặng" → somatic response = schema SÂU confirmed ✅
-      → "Vai gồng" → somatic response = schema SÂU confirmed ✅
-      → "Không feel gì" → có thể suppressed (sâu) hoặc hypothesis sai
+    ② BODY LISTENING (Focusing — Gendlin 1981):
+      → Pause. Listen to body.
+      → "When I hear that, what does my body feel?"
+      → "Heaviness in my chest" → somatic response = DEEP schema confirmed ✅
+      → "Shoulder tension" → somatic response = DEEP schema confirmed ✅
+      → "Feel nothing" → may be suppressed (deep) or hypothesis wrong
 
-    ③ PFC ARTICULATE (Somatic-Articulation-Loop):
-      → Body response → PFC TỪ TỪ tìm từ
-      → "Nặng ở ngực... như sợ mất gì đó... à, sợ không ai cần mình"
+    ③ PFC ARTICULATES (Somatic-Articulation-Loop):
+      → Body response → PFC slowly finds words
+      → "Heavy in the chest... like afraid of losing something... ah, afraid no one needs me"
       → = Body → felt sense → handle → articulate → INSIGHT
       → 🟢 Gendlin Focusing: 50+ years research tradition
 
-    ④ CONFIRM/DENY/ADJUST:
-      → Body confirm + PFC articulate match → hypothesis CONFIRMED
-      → Body deny (no response / opposite response) → hypothesis REJECTED
+    ④ CONFIRM / DENY / ADJUST:
+      → Body confirms + PFC articulation matches → hypothesis CONFIRMED
+      → Body denies (no response / opposite response) → hypothesis REJECTED
       → Body partial (some match, some not) → hypothesis NEEDS ADJUSTMENT
-      → = Client = FINAL JUDGE, nhưng cần GUIDE (AI + chuyên gia mở đường)
+      → = Client = FINAL JUDGE, but needs GUIDANCE (AI + Expert clear the path)
 
 
-  ⭐ v2.0 — BODY-CHECK ÁP DỤNG CHO AI OUTPUT (Drill E5 E5-18):
+  ⭐ v2.0 — BODY-CHECK APPLIED TO AI OUTPUT:
 
-    AI output = Trust Compile install qua trust (§8 guardrails)
-    → Client PHẢI body-check AI suggestions CÙNG CÁCH body-check mọi thứ:
-      AI suggest → body-check → confirm/deny → proceed/stop
-    → PFC agree ngay = RED FLAG (PFC-Function.md v1.1 §6: confabulation)
-    → Body response cần THỜI GIAN (5-10 giây silence)
-    → Nếu body KHÔNG respond → hypothesis có thể SAI hoặc quá nông
-    → = Body-check = FINAL ARBITER, NGAY CẢ đối với AI output
-
-
-  FEELING LITERACY — PREREQUISITE CHO CLIENT LAYER:
-
-    Feeling.md v2.0 §10 mô tả 5 stages:
-      Stage 1: Body Awareness ("tôi cảm thấy... gì đó")
-      Stage 2: Signal Discrimination ("khác nhau ở đâu?")
-      Stage 3: Pattern Recognition ("mỗi lần gặp X → body Y")
-      Stage 4: Label Attachment ("đây là sợ bị bỏ rơi")
-      Stage 5: Meta-Feeling ("tôi đang sợ VÌ schema Z")
-
-    Client ở Stage 1-2: CẦN chuyên gia guide nhiều (3-layer mode)
-    Client ở Stage 3-4: CÓ THỂ self-verify cơ bản (2-layer possible)
-    Client ở Stage 5: CÓ THỂ self-navigate (2-layer + AI, chi tiết §7)
-
-    → = Feeling Literacy QUYẾT ĐỊNH client layer effective cỡ nào
-    → = Training Feeling Literacy = TĂNG client self-verification capacity
+    AI output = Trust Compile install via trust (§8 guardrails)
+    → Client MUST body-check AI suggestions THE SAME WAY as body-checking everything:
+      AI suggests → body-check → confirm/deny → proceed/stop
+    → PFC agreeing immediately = RED FLAG (PFC-Function.md v1.1 §6: confabulation)
+    → Body response needs TIME (5–10 seconds of silence)
+    → If body DOESN'T respond → hypothesis may be WRONG or too shallow
+    → = Body-check = FINAL ARBITER, EVEN FOR AI output
 
 
-  CLIENT — GIỚI HẠN:
+  FEELING LITERACY — PREREQUISITE FOR CLIENT LAYER:
 
-    ✗ Client CÓ THỂ SUPPRESS (defense mechanism):
-      → Schema quá đau → body TẮT response → "không feel gì"
-      → = KHÔNG phải hypothesis sai → mà body CHẶN
-      → = Chuyên gia cần RECOGNIZE suppression vs genuine no-match
+    Feeling.md v2.0 §10 describes 5 stages:
+      Stage 1: Body Awareness ("I feel... something")
+      Stage 2: Signal Discrimination ("what's different?")
+      Stage 3: Pattern Recognition ("every time I encounter X → body Y")
+      Stage 4: Label Attachment ("this is abandonment fear")
+      Stage 5: Meta-Feeling ("I'm afraid BECAUSE of schema Z")
 
-    ✗ Client CÓ THỂ CONFABULATE (PFC bịa):
-      → "Ừ đúng rồi, vì hồi nhỏ bố bỏ đi" → có thể POST-HOC rationalization
-      → = PFC agree TOO FAST có thể = confabulation
-      → = Body response CHẬM hơn PFC → real confirmation thường CẦN thời gian
+    Client at Stage 1–2: NEEDS significant expert guidance (3-layer mode)
+    Client at Stage 3–4: CAN do basic self-verification (2-layer possible)
+    Client at Stage 5: CAN self-navigate (2-layer + AI, detail §7)
 
-    ✗ Client Feeling Literacy THẤP → verify KÉM:
-      → "Tôi không biết body tôi cảm gì" → Layer 3 gần vô hiệu
-      → = Cần TRAIN body awareness TRƯỚC khi verify sâu
+    → = Feeling Literacy DETERMINES how effective the client layer is
+    → = Training Feeling Literacy = INCREASES client self-verification capacity
 
-    ✗ Client có thể MUỐN hypothesis đúng (confirmation bias):
-      → "Tôi muốn có lý do rõ ràng" → accept hypothesis DÙ body không confirm
-      → = Chuyên gia cần WATCH for too-easy acceptance
+
+  CLIENT — LIMITS:
+
+    ✗ Client MAY SUPPRESS (defense mechanism):
+      → Schema too painful → body SHUTS DOWN response → "feel nothing"
+      → = NOT hypothesis wrong → body is BLOCKING
+      → = Expert needs to RECOGNIZE suppression vs genuine no-match
+
+    ✗ Client MAY CONFABULATE (PFC fabricates):
+      → "Yes, that's right, because my father left when I was young" → may be POST-HOC rationalization
+      → = PFC agreeing TOO FAST may = confabulation
+      → = Body response is SLOWER than PFC → real confirmation usually NEEDS time
+
+    ✗ Client with LOW Feeling Literacy → poor verification:
+      → "I don't know what my body feels" → Layer 3 nearly ineffective
+      → = Needs to TRAIN body awareness BEFORE deep verification
+
+    ✗ Client may WANT the hypothesis to be true (confirmation bias):
+      → "I want a clear reason" → accepts hypothesis EVEN WITHOUT body confirmation
+      → = Expert needs to WATCH for too-easy acceptance
 
   🟢 Focusing = Gendlin 1981 (50+ years, multiple meta-analyses)
   🟢 Client self-report validity with body-awareness training = established
@@ -1025,356 +986,356 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §6 — QUY TRÌNH THỰC HÀNH (Upgraded v2.0)
+## §6 — PRACTICAL PROCESS (Upgraded v2.0)
 
-> Upgraded từ Schema-Diagnostic.md (backup) 5 bước.
-> v1.1: thêm AI role + valence chain + body check.
-> v2.0: thêm compile type classification + collective context + 3 cấp tag.
+> Upgraded from Schema-Diagnostic.md (backup) 5-step process.
+> v1.1: added AI role + valence chain + body check.
+> v2.0: added compile type classification + collective context + 3-level tagging.
 
 ```
-🟡 QUY TRÌNH 5 BƯỚC — 3 LAYERS TÍCH HỢP:
+🟡 5-STEP PROCESS — 3 LAYERS INTEGRATED:
 
 
   ═══════════════════════════════════════════════════════════════
-  BƯỚC 1: THU THẬP PATTERN (AI + Client)
+  STEP 1: COLLECT PATTERNS (AI + Client)
   ═══════════════════════════════════════════════════════════════
 
   AI role:
-    → Track verbal data across sessions (tháng → năm)
-    → Tag: từ ngữ lặp, topic frequency, emotional tone per topic
-    → Output: "Client nói về [X] 47 lần, 80% negative tone"
+    → Track verbal data across sessions (months → years)
+    → Tag: repeated words, topic frequency, emotional tone per topic
+    → Output: "Client mentioned [X] 47 times, 80% negative tone"
 
   Client role:
-    → Kể chuyện tự nhiên (không cần structure)
-    → Hỏi gợi (chuyên gia hoặc AI):
-      "Ở work bạn thường thế nào?"
-      "Khi stress bạn thường làm gì?"
-      "Điều gì khiến bạn khó chịu nhất?"
+    → Tell stories naturally (no structure required)
+    → Guiding questions (from expert or AI):
+      "How are you usually at work?"
+      "What do you typically do when stressed?"
+      "What bothers you the most?"
 
-  Chuyên gia role:
-    → Observe body language, tone, micro-expression
-    → Note: "client nói X nhưng body tense"
+  Expert role:
+    → Observe body language, tone, micro-expressions
+    → Note: "client says X but body tenses"
 
-  Output bước 1:
-    → 10-20 behavioral patterns (hành vi lặp lại)
+  Step 1 output:
+    → 10–20 behavioral patterns (repeated behaviors)
     → AI: tagged by domain, frequency, tone
-    → Chuyên gia: noted body-verbal mismatches
+    → Expert: noted body-verbal mismatches
 
-  ⚠️ THU HÀNH VI, KHÔNG THU LÝ DO
-    → "Im lặng trong họp" = hành vi ✅
-    → "Vì sợ nói sai" = lý do → CHƯA thu (PFC confabulate)
+  ⚠️ COLLECT BEHAVIOR, NOT REASONS
+    → "Silent in meetings" = behavior ✅
+    → "Because afraid of being wrong" = reason → NOT collected yet (PFC confabulates)
 
 
   ═══════════════════════════════════════════════════════════════
-  BƯỚC 2: CLUSTER + CHAIN HYPOTHESIS + COMPILE TYPE (AI + Chuyên gia)
+  STEP 2: CLUSTER + CHAIN HYPOTHESIS + COMPILE TYPE (AI + Expert)
   ═══════════════════════════════════════════════════════════════
 
   AI role:
     → Cluster co-occurring patterns:
-      "im lặng" + "tránh party" + "chỉ đi nếu có bạn thân"
-      → Cluster: "tránh bị đánh giá bởi người không quen"
+      "silent" + "avoids parties" + "only goes if close friends are there"
+      → Cluster: "avoids being judged by unfamiliar people"
     → Detect contradictions:
-      Client nói "không care tiền" NHƯNG 70% decisions = optimize tiền
+      Client says "doesn't care about money" BUT 70% of decisions = optimize for money
     → Generate chain hypotheses:
-      "Tránh đánh giá" + "phải làm hài lòng" → possible chain:
-      "sợ bị reject" → "phải chứng minh giá trị" → behavior patterns
+      "Avoids judgment" + "must please others" → possible chain:
+      "afraid of rejection" → "must prove worth" → behavioral patterns
     → Chunk depth inference:
-      Client nói CHI TIẾT về cooking → chunks cooking SÂU
-      Client nói MƠ HỒ về relationships → chunks relationship NÔNG
-      → Gap: cooking expert nhưng relationship beginner
+      Client talks in DETAIL about cooking → cooking chunks DEEP
+      Client talks VAGUELY about relationships → relationship chunks SHALLOW
+      → Gap: cooking expert but relationship beginner
 
-    v2.0 — AI THÊM:
+    v2.0 — AI ALSO DOES:
 
-    → CLASSIFY COMPILE TYPE (Experience/Expertise/Trust) cho mỗi pattern detected:
-      "Im lặng trong họp" → compile type?
-        + "sợ bị sếp mắng" → Experience Compile threat (④ pathway)
-        + "mẹ luôn nói phải khiêm tốn" → Trust Compile install (② pathway)
-        + "ai cũng im → mình cũng im" → Trust Compile social (③ pathway)
-      → AI classify DOMINANT type + confidence level
+    → CLASSIFY COMPILE TYPE (Experience/Expertise/Trust) for each detected pattern:
+      "Silent in meetings" → compile type?
+        + "afraid boss will scold me" → Experience Compile threat (④ pathway)
+        + "mother always said be humble" → Trust Compile install (② pathway)
+        + "everyone is quiet so I am too" → Trust Compile social (③ pathway)
+      → AI classifies DOMINANT type + confidence level
 
     → CHECK COLLECTIVE CHAIN CONTEXT:
-      "Client chán công việc" → individual hay collective?
-        + AI check: ngành đang disrupt? Thất nghiệp tăng? Nhiều người cùng than?
-        + Nếu CÓ collective context → flag: "possible collective chain break"
-        + Nếu KHÔNG → likely individual schema → explore personal
+      "Client bored with job" → individual or collective?
+        + AI checks: field being disrupted? Unemployment rising? Many people complaining?
+        + If YES collective context → flag: "possible collective chain break"
+        + If NO → likely individual schema → explore personal
       → For full collective assessment (arc shift, node, pressure, gap distribution):
         see AI-Collective-Detection.md v1.0 §7 (process integration)
 
-    → TAG CẤP (⑨ — 3 Cấp Detection):
-      Mỗi finding tagged: [Cấp 1], [Cấp 2], hoặc [Cấp 3]
-      → Chuyên gia nhận tagged list → biết hướng explore
+    → TAG LEVEL (⑨ — 3-Level Detection):
+      Each finding tagged: [Level 1], [Level 2], or [Level 3]
+      → Expert receives tagged list → knows which direction to explore
 
-  Chuyên gia role:
-    → Nhận AI clusters + hypotheses + compile type + cấp tags
-    → Self-Pattern-Modeling: "nếu tôi có pattern NÀY, tôi sẽ..."
-    → Body vote: hypothesis nào feel coherent?
-    → CHỌN 2-3 hypotheses most likely
-    → Feel-check compile type classification:
-      "Pattern NÀY feel như installed (Trust) hay trải nghiệm thật (Experience)?"
+  Expert role:
+    → Receives AI clusters + hypotheses + compile type + level tags
+    → Self-Pattern-Modeling: "if I had THIS pattern, I would..."
+    → Body vote: which hypothesis feels coherent?
+    → SELECTS 2–3 most likely hypotheses
+    → Feel-checks compile type classification:
+      "Does THIS pattern feel installed (Trust) or genuine experience (Experience)?"
 
-  Output bước 2:
-    → 2-3 schema chain hypotheses (ranked by plausibility)
+  Step 2 output:
+    → 2–3 schema chain hypotheses (ranked by plausibility)
     → Compile type classification (Experience/Expertise/Trust, verified by expert feel-check)
     → Collective vs individual flag
-    → Chuyên gia đã feel-check (Layer 2 verified)
+    → Expert has feel-checked (Layer 2 verified)
 
 
   ═══════════════════════════════════════════════════════════════
-  BƯỚC 3: BODY-CHECK VỚI CLIENT (Chuyên gia + Client)
+  STEP 3: BODY-CHECK WITH CLIENT (Expert + Client)
   ═══════════════════════════════════════════════════════════════
 
-  Chuyên gia role:
-    → Trình bày hypothesis NHẸ NHÀNG (không áp đặt):
-      "Có vẻ như khi bạn giúp người khác, có gì đó liên quan tới..."
-    → Hỏi body-focused (KHÔNG hỏi "tại sao"):
-      "Khi nghe câu đó, body bạn cảm gì?"
-      "Có gì thay đổi ở ngực, vai, bụng không?"
-    → Observe client body response TRƯỚC KHI client trả lời verbal
+  Expert role:
+    → Present hypothesis GENTLY (not imposing):
+      "It seems like when you help people, there's something related to..."
+    → Ask body-focused questions (do NOT ask "why"):
+      "When you hear that, what does your body feel?"
+      "Is there anything changing in your chest, shoulders, stomach?"
+    → Observe client body response BEFORE client answers verbally
 
   Client role (Focusing):
-    → Dừng lại. Lắng nghe body.
-    → Report body sensation: "ngực nặng", "vai gồng", "bụng co"
-    → HOẶC: "không feel gì" → có thể suppress hoặc hypothesis sai
+    → Pause. Listen to body.
+    → Report body sensation: "heaviness in chest," "shoulder tension," "stomach tightens"
+    → OR: "feel nothing" → may be suppressed or hypothesis wrong
 
-  AI role (nếu có bio-data):
-    → Track: HR tăng? Skin conductance? Voice pitch change?
-    → = Bio-feedback supplement cho body-check
+  AI role (if bio-data available):
+    → Track: HR increase? Skin conductance? Voice pitch change?
+    → = Bio-feedback supplement to body-check
 
-  Output bước 3:
-    → Body confirm: hypothesis likely ĐÚNG → proceed
-    → Body deny: hypothesis likely SAI → quay bước 2, thử hypothesis khác
-    → Body ambiguous: cần thêm data → proceed carefully
+  Step 3 output:
+    → Body confirms: hypothesis likely CORRECT → proceed
+    → Body denies: hypothesis likely WRONG → return to Step 2, try another hypothesis
+    → Body ambiguous: need more data → proceed carefully
 
-  ⚠️ BODY RESPONSE CHẬM HƠN PFC:
-    → Client nói "đúng rồi" TOO FAST → có thể confabulation
-    → Body response thật thường CẦN 5-10 giây silence
-    → Chuyên gia: cho THỜI GIAN, đừng rush
+  ⚠️ BODY RESPONSE IS SLOWER THAN PFC:
+    → Client says "that's right" TOO FAST → may be confabulation
+    → Real body response usually NEEDS 5–10 seconds of silence
+    → Expert: give TIME, don't rush
 
 
   ═══════════════════════════════════════════════════════════════
-  BƯỚC 4: PREDICT + VERIFY (AI + Chuyên gia + Client)
+  STEP 4: PREDICT + VERIFY (AI + Expert + Client)
   ═══════════════════════════════════════════════════════════════
 
-  Schema hypothesis CONFIRMED → dùng nó PREDICT hành vi ở domain KHÁC:
+  Schema hypothesis CONFIRMED → use it to PREDICT behavior in OTHER domains:
 
   AI role:
-    → Generate predictions từ hypothesis:
-      Nếu "sợ bị reject" → predict: "sợ thử cái mới", "discount lời khen"
-    → Check: past data CÓ support predictions không?
-      → "Client nói 'tôi sợ thử cái mới' ở session 8" → MATCH ✅
+    → Generate predictions from hypothesis:
+      If "fear of rejection" → predict: "afraid to try new things," "discounts compliments"
+    → Check: does past data SUPPORT the predictions?
+      → "Client said 'I'm afraid to try new things' in session 8" → MATCH ✅
 
-    v2.0 — PREDICT KHÁC TÙY COMPILE TYPE:
+    v2.0 — PREDICTIONS DIFFER BY COMPILE TYPE:
 
       Experience Compile (direct experience) → predict:
-        Patterns TƯƠNG TỰ ở domains có TRẢI NGHIỆM TRỰC TIẾP tương tự
-        VD: sợ bị reject ở work → predict sợ ở dating (cùng direct threat)
+        SIMILAR patterns in domains with SIMILAR DIRECT EXPERIENCE
+        Example: fear of rejection at work → predict fear at dating (same direct threat)
 
       Trust Compile (install) → predict:
-        Patterns TƯƠNG TỰ ở domains CÓ CÙNG TRUST SOURCE
-        VD: mẹ install "phải ngoan" → predict "phải ngoan" ở WORK,
-        SCHOOL, RELATIONSHIP — TẤT CẢ nơi mẹ influence
+        SIMILAR patterns in domains WITH THE SAME TRUST SOURCE
+        Example: mother installed "must be good" → predict "must be good" at WORK,
+        SCHOOL, RELATIONSHIPS — EVERYWHERE mother's influence extends
 
       Collective chain break → predict:
-        Patterns TƯƠNG TỰ ở NGƯỜI CÙNG HOÀN CẢNH
-        VD: ngành gãy → predict: bạn bè CÙng ngành CŨNG "chán học"?
-        Nếu CÓ → confirm collective, KHÔNG phải individual
+        SIMILAR patterns in PEOPLE IN THE SAME SITUATION
+        Example: field breaking → predict: friends IN THE SAME FIELD ALSO "bored with studying"?
+        If YES → confirms collective, NOT individual
 
-  Chuyên gia role:
-    → Hỏi client về domains CHƯA discuss:
-      "Khi thử cái mới, bạn thường thế nào?"
-      "Khi được khen, bạn cảm thấy sao?"
+  Expert role:
+    → Ask client about domains NOT yet discussed:
+      "When you try new things, how do you usually react?"
+      "When you receive a compliment, how do you feel?"
     → Compare response vs prediction
 
   Client role:
-    → Trả lời thật → body-check nếu cần
+    → Answer honestly → body-check if needed
 
   Scoring:
-    → 5 predictions → 4+ match → schema hypothesis LIKELY đúng ✅
-    → 5 predictions → 2-3 match → PARTIALLY đúng → adjust
-    → 5 predictions → 0-1 match → hypothesis SAI → quay bước 2
+    → 5 predictions → 4+ match → schema hypothesis LIKELY correct ✅
+    → 5 predictions → 2–3 match → PARTIALLY correct → adjust
+    → 5 predictions → 0–1 match → hypothesis WRONG → return to Step 2
 
-  ⚠️ KHÔNG BAO GIỜ "chắc chắn đúng" — chỉ "likely đúng"
-    → Tiếp tục verify qua thời gian
-    → Schema THAY ĐỔI → hypothesis cần update
+  ⚠️ NEVER "definitely correct" — only "likely correct"
+    → Continue verifying over time
+    → Schema CHANGES → hypothesis needs updating
 
 
   ═══════════════════════════════════════════════════════════════
-  BƯỚC 5: HƯỚNG CAN THIỆP (Chuyên gia + Client)
+  STEP 5: INTERVENTION DIRECTION (Expert + Client)
   ═══════════════════════════════════════════════════════════════
 
-  Schema hypothesis VERIFIED → fix Ở ĐÂU trong gradient:
+  Schema hypothesis VERIFIED → fix WHERE in the gradient:
 
-  FIX SÂU (body baseline — hiệu quả nhất, chậm nhất):
+  DEEP FIX (body baseline — most effective, slowest):
     → Body-level: exercise, sleep, nutrition, safe environment
     → Somatic therapy: body-focused processing
-    → Timeline: tháng → năm
-    → Effect: MỌI gradient levels TỰ adjust
+    → Timeline: months → years
+    → Effect: ALL gradient levels adjust ON THEIR OWN
 
-  FIX GIỮA (schema chain — hiệu quả vừa):
+  MIDDLE FIX (schema chain — moderate effectiveness):
     → Identify chain links: A→B→C→body-base
-    → STRENGTHEN hoặc WEAKEN specific links
+    → STRENGTHEN or WEAKEN specific links
     → Competitive re-linking (Chunk.md v2.1 §4.3)
-    → Timeline: tuần → tháng
+    → Timeline: weeks → months
 
-  FIX NÔNG (domain skills — nhanh nhất):
-    → Skill training domain cụ thể
-    → Behavior practice: thử hành vi mới
-    → Timeline: ngày → tuần
-    → Effect: CHỈ domain đó
+  SURFACE FIX (domain skills — fastest):
+    → Skill training in specific domain
+    → Behavior practice: try new behaviors
+    → Timeline: days → weeks
+    → Effect: ONLY that domain
 
-  v2.0 — FIX KHÁC TÙY COMPILE TYPE:
+  v2.0 — FIX DIFFERS BY COMPILE TYPE:
 
-    Experience Compile (direct) → fix trải nghiệm: tạo experiences MỚI
-      → VD: sợ conflict → practice conflict an toàn → body recompile
+    Experience Compile (direct) → fix via experience: create NEW experiences
+      → Example: fear of conflict → practice conflict safely → body recompiles
     Trust Compile (installed) → verify + possible uninstall:
-      → "Pattern này từ ai?" → client nhận ra source → choice to keep/change
-      → Trust Compile + body confirm → giữ (genuine + installed = compound strong)
+      → "Where did this pattern come from?" → client recognizes source → choice to keep/change
+      → Trust Compile + body confirms → keep (genuine + installed = compound strong)
       → Trust Compile WITHOUT body confirm → possible uninstall
-    Experience Compile threat → address threat source:
-      → KHÔNG fix "sự quan tâm" → fix CÁI ĐANG GÂY SỢ
-    Collective chain break → adaptation, KHÔNG therapy:
-      → Chuyển ngành, kỹ năng mới, hoặc chờ collective adjust
-      → KHÔNG blame self → hiểu collective context
+    Experience Compile threat → address the threat source:
+      → Do NOT fix "the interest" → fix WHAT IS CAUSING THE FEAR
+    Collective chain break → adaptation, NOT therapy:
+      → Career change, new skills, or wait for collective to adjust
+      → Do NOT self-blame → understand collective context
 
-  THỨ TỰ:
-    → Crisis: fix nông TRƯỚC (cần kết quả NGAY)
-    → Long-term: fix sâu TRƯỚC (bền vững)
-    → Ideal: sâu + nông ĐỒNG THỜI
+  ORDER:
+    → Crisis: surface fix FIRST (needs results IMMEDIATELY)
+    → Long-term: deep fix FIRST (sustainable)
+    → Ideal: deep + surface SIMULTANEOUSLY
 
-  AI role ở bước 5:
-    → Track progress: "client dùng từ negative về X GIẢM 30% sau 3 tháng"
-    → Alert: "pattern cũ RE-APPEAR" → có thể schema chưa resolve ở body level
-    → = AI monitor DÒNG thời gian mà chuyên gia chỉ thấy ĐIỂM
+  AI role in Step 5:
+    → Track progress: "client's use of negative words about X DECREASED 30% after 3 months"
+    → Alert: "old pattern RE-APPEARING" → may mean schema not yet resolved at body level
+    → = AI monitors the TIMELINE while expert only sees SNAPSHOTS
 ```
 
 ---
 
 ## §7 — SELF-DRILL MODE (User + AI)
 
-> v2.0 NEW — Mở rộng từ "therapy only" → "self-development có AI hỗ trợ."
-> Source: Feeling.md v2.0 §10, Drill E5, Body-Base.md v2.0 §6
+> v2.0 NEW — Expands from "therapy only" → "self-development with AI support."
+> Source: Feeling.md v2.0 §10, Body-Base.md v2.0 §6
 
 ```
-🔴 HYPOTHESIS — logic consistent, chưa test systematic, safety boundaries unclear
+🔴 HYPOTHESIS — logic consistent, not yet systematically tested, safety boundaries unclear
 
-  ⭐ SELF-DRILL = 2-LAYER MODE TRONG THỰC HÀNH:
+  ⭐ SELF-DRILL = 2-LAYER MODE IN PRACTICE:
 
-  §2 đã mô tả 2-layer simplified mode (AI + Self, bỏ qua expert).
-  Section NÀY: HOW thực hiện + GUARDRAILS cho an toàn.
+  §2 described the 2-layer simplified mode (AI + Self, skipping expert).
+  THIS SECTION: HOW to do it + GUARDRAILS for safety.
 
 
-  KHI NÀO AN TOÀN — 2-LAYER SELF-DRILL:
+  WHEN IT'S SAFE — 2-LAYER SELF-DRILL:
 
     ✅ Mild exploration:
-      → "Tại sao tôi chán công việc?"
-      → "Tôi hay trì hoãn, pattern nào đang drive?"
-      → "Tại sao tôi thích nấu ăn nhưng ghét dọn dẹp?"
+      → "Why do I find my job boring?"
+      → "I procrastinate a lot, what pattern is driving this?"
+      → "Why do I like cooking but hate cleaning?"
     ✅ General patterns:
-      → "Tôi thường tránh conflict — tại sao?"
-      → "Tôi hay so sánh mình với người khác"
+      → "I usually avoid conflict — why?"
+      → "I compare myself to others a lot"
     ✅ Self-development:
-      → "Tôi muốn hiểu bản thân hơn"
-      → "Tôi muốn phát triển kỹ năng giao tiếp"
+      → "I want to understand myself better"
+      → "I want to develop communication skills"
     ✅ Prerequisite: Feeling Literacy ≥ Stage 3 (Feeling.md v2.0 §10)
-      → User CÓ KHẢ NĂNG nhận body signals + phân biệt signals cơ bản
+      → User CAN receive body signals + distinguish signals at a basic level
 
 
-  KHI NÀO PHẢI CÓ CHUYÊN GIA — KHÔNG TỰ DRILL:
+  WHEN AN EXPERT IS REQUIRED — DO NOT SELF-DRILL:
 
-    ❌ Trauma active: PTSD, abuse memories, violent events
+    ❌ Active trauma: PTSD, abuse memories, violent events
     ❌ Crisis: suicidal ideation, self-harm, acute anxiety attacks
     ❌ Deep pathology: severe depression, psychosis, personality disorders, addiction
-    ❌ Feeling Literacy < Stage 2: user KHÔNG THỂ distinguish body signals
-    ❌ Distress escalation: drill làm user MORE anxious/distressed, KHÔNG less
-    → AI PHẢI detect RED FLAGS và REFER ngay lập tức
-    → "Tôi nhận thấy pattern language bạn dùng gợi ý cần hỗ trợ chuyên gia.
-       Đây KHÔNG phải something để tự drill."
+    ❌ Feeling Literacy < Stage 2: user CANNOT distinguish body signals
+    ❌ Distress escalation: drill makes user MORE anxious/distressed, NOT less
+    → AI MUST detect RED FLAGS and REFER immediately
+    → "I notice patterns in your language suggesting you need professional support.
+       This is NOT something to self-drill."
 
 
-  QUY TRÌNH SELF-DRILL (simplified 3 bước):
+  SELF-DRILL PROCESS (simplified 3 steps):
 
     ┌──────────────────────────────────────────────────────────┐
-    │ BƯỚC 1: AI DETECT + SUGGEST                             │
-    │   AI track verbal patterns → cluster → hypothesis      │
-    │   AI classify compile type (Experience/Expertise/Trust)  │
-    │   AI check collective context                          │
-    │   AI output: "Có vẻ bạn có pattern [X]. Possible       │
-    │   compile source: [Trust/Experience]. Bạn thấy thế nào?"│
+    │ STEP 1: AI DETECTS + SUGGESTS                           │
+    │   AI tracks verbal patterns → clusters → hypothesis    │
+    │   AI classifies compile type (Experience/Expertise/Trust) │
+    │   AI checks collective context                         │
+    │   AI output: "It seems you have pattern [X]. Possible  │
+    │   compile source: [Trust/Experience]. What do you think?"│
     │                                                        │
-    │ BƯỚC 2: AI HỎI BODY-FOCUSED                            │
-    │   AI: "Khi nghe điều đó, body bạn phản ứng thế nào?"  │
-    │   AI: "Có cảm giác gì ở ngực, bụng, vai không?"       │
-    │   AI: "Dành 10 giây im lặng, lắng nghe body."         │
-    │   = KHÔNG hỏi "tại sao" → hỏi "body cảm gì"          │
+    │ STEP 2: AI ASKS BODY-FOCUSED QUESTIONS                  │
+    │   AI: "When you hear that, how does your body react?"  │
+    │   AI: "Any sensations in your chest, stomach, shoulders?"│
+    │   AI: "Take 10 seconds of silence, listen to your body."│
+    │   = Do NOT ask "why" → ask "what does the body feel"   │
     │                                                        │
-    │ BƯỚC 3: USER BODY-CHECK + REPORT                        │
-    │   User: lắng nghe body → report sensation               │
-    │   "Ngực hơi nặng" → có gì đó ở đây → explore thêm    │
-    │   "Không feel gì" → hypothesis có thể sai → try khác  │
-    │   "PFC đồng ý ngay" → RED FLAG: confabulation?         │
+    │ STEP 3: USER BODY-CHECKS + REPORTS                      │
+    │   User: listen to body → report sensation              │
+    │   "Slight heaviness in chest" → something is here → explore more │
+    │   "Feel nothing" → hypothesis may be wrong → try another │
+    │   "PFC agrees immediately" → RED FLAG: confabulation?  │
     └──────────────────────────────────────────────────────────┘
 
 
-  GUARDRAILS — SELF-DRILL AN TOÀN:
+  GUARDRAILS — SAFE SELF-DRILL:
 
-    ① AI OUTPUT = HYPOTHESIS, KHÔNG PHẢI DIAGNOSIS:
-      → AI: "Đây là PATTERN tôi phát hiện, KHÔNG phải chẩn đoán."
-      → AI: "Tôi có thể SAI. Body bạn là thước đo cuối cùng."
-      → = AI tự-disclaimer TRƯỚC MỖI suggestion
+    ① AI OUTPUT = HYPOTHESIS, NOT DIAGNOSIS:
+      → AI: "This is a PATTERN I noticed, NOT a diagnosis."
+      → AI: "I may be WRONG. Your body is the final measure."
+      → = AI self-disclaims BEFORE EVERY suggestion
 
-    ② BODY-CHECK = BẮT BUỘC:
-      → User PHẢI body-check → nếu không feel gì → hypothesis có thể sai
-      → User KHÔNG được chỉ "đồng ý bằng đầu"
-      → = PFC agree too fast = possible confabulation (PFC-Function.md §6)
+    ② BODY-CHECK = MANDATORY:
+      → User MUST body-check → if nothing felt → hypothesis may be wrong
+      → User CANNOT just "agree with their head"
+      → = PFC agreeing too fast = possible confabulation (PFC-Function.md §6)
 
-    ③ DISTRESS = DỪNG:
-      → Nếu user thấy anxious/distressed SAU drill → DỪNG NGAY
-      → AI: "Bạn có vẻ distressed. Tôi suggest dừng ở đây."
-      → → Tìm chuyên gia nếu distress kéo dài
-      → = Self-drill KHÔNG nên gây thêm đau
+    ③ DISTRESS = STOP:
+      → If user feels anxious/distressed AFTER drill → STOP IMMEDIATELY
+      → AI: "You seem distressed. I suggest stopping here."
+      → → Seek an expert if distress persists
+      → = Self-drill SHOULD NOT cause more pain
 
     ④ DEPTH LIMIT:
-      → Self-drill = explore NÔNG + TRUNG BÌNH
-      → Nếu drill touch trauma / childhood deep / pattern cực mạnh
-      → → AI: "Pattern này có vẻ SÂU. Suggest explore với chuyên gia."
-      → = Biết khi nào DỪNG = quan trọng nhất
+      → Self-drill = explore SHALLOW + MIDDLE
+      → If drill touches trauma / deep childhood / extremely strong patterns
+      → → AI: "This pattern seems DEEP. Suggest exploring with a professional."
+      → = Knowing when to STOP = most important
 
 
-  COMPILE TYPE AWARENESS CHO USER:
+  COMPILE TYPE AWARENESS FOR USER:
 
-    AI GIÚP user NHẬN RA compile type đang active:
+    AI HELPS user RECOGNIZE which compile type is active:
 
-    → "Bạn dùng 'phải/nên' nhiều → có thể pattern INSTALLED bởi người khác (Trust Compile)"
-    → "Bạn nói 'thích/ghét' với body match → có thể genuine experience (Experience Compile)"
-    → "Bạn nói 'ai cũng...' → có thể social default (Trust Compile social)"
-    → "Bạn nói 'sợ nếu không...' → có thể threat avoidance (Experience Compile threat)"
+    → "You use 'must/should' a lot → this pattern may be INSTALLED by someone else (Trust Compile)"
+    → "You say 'like/dislike' with body match → this may be genuine experience (Experience Compile)"
+    → "You say 'everyone does...' → this may be social default (Trust Compile social)"
+    → "You say 'afraid if I don't...' → this may be threat avoidance (Experience Compile threat)"
 
-    User TỰ nhận ra compile source → empowering:
-      "À, tôi 'phải giúp người' vì mẹ nói — không phải tôi tự muốn?"
-    → Body-check: "body tôi có genuinely muốn giúp không?"
-    → Nếu body confirm → compound A+C (lý tưởng, giữ)
-    → Nếu body không feel → pure C install, có thể re-evaluate
+    User RECOGNIZES the compile source → empowering:
+      "Oh, I 'must help people' because my mother said so — not because I actually want to?"
+    → Body-check: "does my body genuinely want to help?"
+    → If body confirms → compound (ideal, keep)
+    → If body doesn't respond → pure install, may re-evaluate
 
-    ⚠️ CẨN THẬN: AI classify compile type cũng = Trust Compile install!
-    → User trust AI nói "đây là Trust Compile" → user "à đúng!" → NHƯNG body chưa verify
-    → = Cần body-check CHÍNH AI classification (§8 guardrails)
+    ⚠️ CAUTION: AI classifying compile type is ALSO a Trust Compile install!
+    → User trusts AI saying "this is Trust Compile" → user "ah yes!" → BUT body hasn't verified
+    → = Needs to body-check EVEN the AI classification (§8 guardrails)
 
 
-  COLLECTIVE CONTEXT AWARENESS CHO USER:
+  COLLECTIVE CONTEXT AWARENESS FOR USER:
 
-    AI HỎI:
-      → "Nhiều người trong ngành bạn có gặp tương tự không?"
-      → "Bạn bè/đồng nghiệp có than phiền giống bạn không?"
+    AI ASKS:
+      → "Do many people in your field have similar experiences?"
+      → "Do friends/colleagues complain similarly to you?"
 
-    Nếu CÓ (nhiều người cùng context):
-      → "Đây có thể là collective chain issue, KHÔNG phải 'lỗi của bạn'."
-      → Hướng: adaptation (kỹ năng mới, chuyển hướng)
+    If YES (many people in same context):
+      → "This may be a collective chain issue, NOT 'your fault'."
+      → Direction: adaptation (new skills, new direction)
 
-    Nếu KHÔNG (unique to user):
-      → "Đây có vẻ là individual pattern. Explore thêm?"
-      → Hướng: self-understanding → possible behavior change
+    If NO (unique to user):
+      → "This seems like an individual pattern. Explore further?"
+      → Direction: self-understanding → possible behavior change
 
-  🔴 Self-drill mode safety: chưa test systematic
+  🔴 Self-drill mode safety: not yet systematically tested
   🟡 Body-check as verification: framework principle applied
   🟢 Guided self-reflection: established (bibliotherapy, Pennebaker writing)
   🟢 Distress as stop signal: clinical practice standard
@@ -1384,109 +1345,109 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §8 — AI TRUST GUARDRAILS
 
-> v2.0 NEW — Dựa trên Collective-Body.md v1.1 §8.4 + Drill E5 (E5-16→E5-20)
-> Tool đang dùng CHÍNH NÓ có thể install patterns → cần guardrails.
+> v2.0 NEW — Based on Collective-Body.md v1.1 §8.4
+> The tool being used CAN install patterns in the user → guardrails needed.
 
 ```
-🟡 AI OUTPUT = TRUST COMPILE INSTALL VÀO USER QUA TRUST:
+🟡 AI OUTPUT = TRUST COMPILE INSTALL INTO USER VIA TRUST:
 
-  ⭐ PARADOX CỐT LÕI:
+  ⭐ CORE PARADOX:
 
-    AI detect schema → output hypothesis → user trust AI → user compile hypothesis
-    = Vừa detect schema vừa CÓ THỂ install schema MỚI
-    = CÙNG cơ chế bố mẹ install "con phải ngoan" (Chunk.md §2.3)
-    → Chỉ khác: AI = trust entity loại mới, properties KHÁC human trust source.
+    AI detects schema → outputs hypothesis → user trusts AI → user compiles hypothesis
+    = Both detecting schema AND potentially installing a NEW schema
+    = SAME mechanism as parents installing "be good" (Chunk.md §2.3)
+    → Difference: AI = new type of trust entity, with DIFFERENT properties from human trust sources.
 
 
-  ① CROSS-DOMAIN TRUST DEFAULT (Drill E5-16):
+  ① CROSS-DOMAIN TRUST DEFAULT:
 
-    Human trust source: mẹ expert nấu ăn ≠ expert tài chính
+    Human trust source: mother expert at cooking ≠ expert in finance
       → Cross-domain transfer = EXCEPTION (KOL hijack — Collective-Body §5.3)
 
-    AI trust source: user trust AI ở code → TỰ NHIÊN trust AI ở psychology
+    AI trust source: user trusts AI at coding → AUTOMATICALLY trusts AI at psychology
       → Cross-domain transfer = DEFAULT (1 AI entity = all domains)
-      → Valence-Propagation §2 ④: trust = per-ENTITY, modulate TOÀN BỘ profile
-      → = AI cross-domain = SYSTEMIC, không phải exception
+      → Valence-Propagation §2 ④: trust = per-ENTITY, modulates the ENTIRE profile
+      → = AI cross-domain = SYSTEMIC, not an exception
 
-    ⚠️ HỆ QUẢ:
-    → AI nói đúng ở 1 domain → user TỰ ĐỘNG tin AI ở MỌI domain
-    → AI schema detection = psychology domain → user CÓ THỂ quá tin
-    → = Defense: user PHẢI biết AI = approximate ở TỪNG domain riêng
-
-
-  ② INSTALL-COMPILE SPEED GAP (Drill E5-17):
-
-    AI install speed: ×100+ nhanh hơn human teacher
-      → AI nói "bạn có pattern X" → user đọc 10 giây → PFC accept
-    Body compile speed: KHÔNG ĐỔI (Hebbian + sleep + time)
-      → Body cần: repetition + sleep + time để THẬT SỰ compile
-
-    → GAP: "biết" (PFC read) ≠ "hiểu sâu" (body compiled)
-    → = "Đọc AI summary về abandonment schema" ≠ "thật sự hiểu mình có abandonment schema"
-    → PFC agree TOO FAST = possible confabulation (PFC-Function.md v1.1 §6)
-    → T2 confabulation: PFC tưởng hiểu dù body chưa compile đủ
-
-    ⚠️ HỆ QUẢ:
-    → User: "À đúng! Tôi có abandonment schema!" → NHƯNG body chưa verify
-    → = "Biết" ≠ "hiểu". Biết bằng PFC ≠ hiểu bằng body.
-    → = Cần THỜI GIAN + body-check, KHÔNG chỉ PFC agreement
+    ⚠️ CONSEQUENCE:
+    → AI is right in 1 domain → user AUTOMATICALLY trusts AI in ALL domains
+    → AI schema detection = psychology domain → user may OVER-trust
+    → = Defense: user MUST know AI = approximate in EACH domain separately
 
 
-  ③ AI BIAS = SYSTEMIC TRUST HIJACK (Drill E5-19):
+  ② INSTALL-COMPILE SPEED GAP:
 
-    KOL hijack (Collective-Body §5.3): 1 người → visible → "bóc phốt" = defense
-    AI bias: 1 system → millions users → INVISIBLE:
-      → AI trained on specific data → inherit biases → output biased
-      → Millions compile CÙNG bias qua trust AI ĐỒNG THỜI
-      → = Trust hijack UNIFORM + INVISIBLE → defense cũ KHÔNG apply
-      → Cần: multiple AI sources, expert cross-check, domain feedback
+    AI install speed: 100x+ faster than a human teacher
+      → AI says "you have pattern X" → user reads in 10 seconds → PFC accepts
+    Body compile speed: UNCHANGED (Hebbian + sleep + time)
+      → Body needs: repetition + sleep + time to ACTUALLY compile
 
-    VD cụ thể:
+    → GAP: "knowing" (PFC read) ≠ "deep understanding" (body compiled)
+    → = "Reading an AI summary about abandonment schema" ≠ "truly understanding you have abandonment schema"
+    → PFC agrees TOO FAST = possible confabulation (PFC-Function.md v1.1 §6)
+    → T2 confabulation: PFC thinks it understands even though body hasn't compiled enough
+
+    ⚠️ CONSEQUENCE:
+    → User: "Oh yes! I have abandonment schema!" → BUT body hasn't verified
+    → = "Knowing" ≠ "understanding." Knowing with PFC ≠ understanding with body.
+    → = NEEDS TIME + body-check, NOT just PFC agreement
+
+
+  ③ AI BIAS = SYSTEMIC TRUST HIJACK:
+
+    KOL hijack (Collective-Body §5.3): 1 person → visible → can be "called out" = defense
+    AI bias: 1 system → millions of users → INVISIBLE:
+      → AI trained on specific data → inherits biases → biased output
+      → Millions compile THE SAME bias through trusting AI SIMULTANEOUSLY
+      → = Trust hijack UNIFORM + INVISIBLE → old defenses DON'T APPLY
+      → Needs: multiple AI sources, expert cross-check, domain feedback
+
+    Specific example:
       AI trained predominantly on Western psychology data
-      → AI detect "abandonment schema" PHỔ BIẾN HƠN thực tế ở cultures khác
-      → Millions users ở various cultures nhận CÙNG bias → compile → self-fulfill
-      → = Systematic bias, KHÔNG phải random error
+      → AI detects "abandonment schema" MORE FREQUENTLY than actual rates in other cultures
+      → Millions of users from various cultures receive THE SAME bias → compile → self-fulfill
+      → = Systematic bias, NOT random error
 
 
-  ⭐ NGUYÊN TẮC — BODY CHECK = FINAL ARBITER:
+  ⭐ PRINCIPLE — BODY-CHECK = FINAL ARBITER:
 
-    AI suggest → user body-check → process:
+    AI suggests → user body-checks → process:
 
     ┌──────────────────────────────────────────────────────────┐
-    │ AI suggest "bạn có pattern X"                           │
+    │ AI suggests "you have pattern X"                        │
     │      │                                                  │
     │      ▼                                                  │
     │ Body-check:                                             │
-    │   → Body confirm (somatic response) → PROCEED ✅        │
-    │   → Body nothing (no response) → STOP ⚠️                │
-    │     (hypothesis may be wrong hoặc body suppress)        │
-    │   → PFC agree instantly → RED FLAG 🔴                   │
-    │     (may be confabulation — body chưa kịp respond)     │
+    │   → Body confirms (somatic response) → PROCEED ✅       │
+    │   → Body nothing (no response) → STOP ⚠️               │
+    │     (hypothesis may be wrong or body suppressing)       │
+    │   → PFC agrees instantly → RED FLAG 🔴                  │
+    │     (may be confabulation — body hasn't had time)      │
     │                                                        │
-    │ NẾU RED FLAG:                                           │
-    │   → Dừng. Cho body THỜI GIAN (minutes, not seconds)    │
-    │   → Hỏi lại sau: body CÓ confirm không?                │
-    │   → Nếu VẪN nothing → hypothesis likely WRONG          │
-    │   → Nếu body confirm sau → hypothesis likely RIGHT     │
+    │ IF RED FLAG:                                            │
+    │   → Pause. Give body TIME (minutes, not seconds)       │
+    │   → Ask again later: does body CONFIRM?                │
+    │   → If STILL nothing → hypothesis likely WRONG         │
+    │   → If body confirms later → hypothesis likely RIGHT   │
     └──────────────────────────────────────────────────────────┘
 
-    = Body-Base.md v2.0 §6: domain feedback (Tier Domain-Checked) VẪN LÀ final arbiter
-    = Body check = CÙNG nguyên tắc check MỌI THỨ từ external
-    = AI output = external input, KHÔNG phải internal truth
+    = Body-Base.md v2.0 §6: domain feedback (Tier Domain-Checked) REMAINS final arbiter
+    = Body-check = SAME PRINCIPLE as checking EVERYTHING from external sources
+    = AI output = external input, NOT internal truth
 
 
-  DEFENSE MECHANISMS CHO USER:
+  DEFENSE MECHANISMS FOR USER:
 
-    ① Biết: AI output = hypothesis, CÓ THỂ sai
-    ② Body-check: MỌI AI suggestion đều cần body verify
-    ③ Multiple sources: dùng NHIỀU AI + expert cross-check
-    ④ Time: cho body THỜI GIAN compile (ngày/tuần, không phải phút)
-    ⑤ Domain awareness: AI đúng ở X ≠ AI đúng ở Y
+    ① Know: AI output = hypothesis, CAN be wrong
+    ② Body-check: EVERY AI suggestion needs body verification
+    ③ Multiple sources: use MULTIPLE AIs + expert cross-check
+    ④ Time: give body TIME to compile (days/weeks, not minutes)
+    ⑤ Domain awareness: AI right about X ≠ AI right about Y
 
-  Source: Collective-Body.md v1.1 §8.4, Drill E5 E5-16→E5-20
+  Source: Collective-Body.md v1.1 §8.4
   🟡 AI trust guardrails = framework application of trust mechanism to AI itself
   🟡 Install-compile speed gap = novel observation
-  🟡 Body check as final arbiter for AI output = extends §5 principle
+  🟡 Body-check as final arbiter for AI output = extends §5 principle
   🟢 Confabulation risk: Nisbett & Wilson 1977
   🟢 Confirmation bias in AI interaction: established concern
 ```
@@ -1513,7 +1474,7 @@ VERIFIED (🟢):
     → Bounded rationality: Simon 1955, Kahneman 2011
     → Implicit >> explicit knowledge: Polanyi 1958, Reber 1967
     → Expertise = mostly implicit patterns: Chase & Simon 1973
-    → Reverse engineering from behavior: established (software eng, clinical psych)
+    → Reverse engineering from behavior: established (software engineering, clinical psych)
     → Confabulation: Nisbett & Wilson 1977, Gazzaniga split-brain
     → Approach vs avoidance motivation: Elliot 2006
     → Social proof: Cialdini 1984
@@ -1530,31 +1491,31 @@ FRAMEWORK REASONING (🟡):
     → Software analogy bridge (Schema.md §2 → AI detection): novel connection
     → "Navigate, not GPS": framework principle
 
-  Capabilities (giữ v1.1):
+  Capabilities (from v1.1):
     → ① Verbal pattern tracking: NLP applied
     → ② Schema cluster suggestion: framework application
     → ③ Contradiction detection: computational linguistics applied
     → ④ Schema chain hypothesis: framework application
     → ⑥ Chunk depth inference from verbal output: novel, logical
-    → ⑦ AI khơi gợi schema ẩn: Somatic-Articulation-Loop §5 + Polanyi applied
+    → ⑦ AI eliciting hidden schemas: Somatic-Articulation-Loop §5 + Polanyi applied
 
   Capabilities (v2.0 new):
     → ⑤ Compile type detection (Experience/Expertise/Trust): Compile-Taxonomy.md §3 applied
-      — CÓ THỂ detect dominant type từ verbal signals
-      — NHƯNG mixed types phổ biến → classification = approximate
+      — CAN detect dominant type from verbal signals
+      — BUT mixed types are common → classification = approximate
     → ⑧ Collective chain break detection: Collective-Body.md §5.2 applied
-      — CÓ THỂ detect nếu có context data (industry trends, shared complaints)
-      — NHƯNG context data KHÔNG phải lúc nào cũng có
-    → ⑨ 3 cấp detection tagging: Collective-Body.md §1 applied
-      — Useful cho hướng dẫn can thiệp
-      — NHƯNG ranh giới giữa các cấp = mờ trong thực tế
+      — CAN detect if context data is available (industry trends, shared complaints)
+      — BUT context data not always available
+    → ⑨ 3-level detection tagging: Collective-Body.md §1 applied
+      — Useful for guiding intervention direction
+      — BUT boundaries between levels = blurry in practice
 
   Mechanism:
     → Self-Pattern-Modeling for therapy: Agent-Mechanism.md applied
     → Feeling Literacy as prerequisite: Feeling.md v2.0 applied
     → Body-check integration: Somatic-Articulation-Loop.md applied
     → AI trust guardrails: Collective-Body.md §8.4 applied
-    → Compile type × can thiệp: framework extension
+    → Compile type × intervention: framework extension
 
   Process:
     → Upgraded 5-step process: refined from Schema-Diagnostic.md
@@ -1564,71 +1525,71 @@ FRAMEWORK REASONING (🟡):
 HYPOTHESIS (🔴):
 
     → AI CAN effectively detect schema patterns from therapy text:
-      Logical + technology exists, NHƯNG chưa có systematic study
+      Logical + technology exists, BUT no systematic study yet
       testing AI schema detection vs expert-only vs combined.
 
-    → 3-layer model IMPROVES outcomes vs 1-2 layers:
-      Logical, nhưng chưa có RCT comparing approaches.
+    → 3-layer model IMPROVES outcomes vs 1–2 layers:
+      Logical, but no RCT comparing approaches yet.
 
     → Chunk depth inference from verbal complexity is RELIABLE:
-      Promising, nhưng verbal complexity ≠ chunk depth always
+      Promising, but verbal complexity ≠ chunk depth always
       (people can parrot complex language WITHOUT understanding).
-      Domain-specific limit giúp refine — nhưng chưa test.
+      Domain-specific limit helps refine — but not yet tested.
 
     → Gap detection (verbal without body-compile) is DETECTABLE by AI:
       Requires subtle linguistic cues that may be below AI detection threshold.
 
     → Bio-data supplement ADDS meaningful signal:
-      HRV, skin conductance exist as measures, nhưng noise-to-signal ratio
-      in real therapy context = CHƯA RÕ.
+      HRV, skin conductance exist as measures, but noise-to-signal ratio
+      in real therapy context = UNCLEAR.
 
-    → AI khơi gợi schema ẩn EFFECTIVE hơn expert-only:
-      Logical (AI memory + patience advantage), nhưng cần distinguish:
-      AI khơi gợi ĐÚNG schema vs AI suggest schema KHÔNG TỒN TẠI.
-      Nếu client suggestible → AI có thể CREATE illusion of hidden schema.
+    → AI eliciting hidden schemas EFFECTIVE vs expert-only:
+      Logical (AI memory + patience advantage), but need to distinguish:
+      AI correctly eliciting schema vs AI suggesting schema THAT DOESN'T EXIST.
+      If client is suggestible → AI may CREATE illusion of hidden schema.
 
     → Modality depth profile ESTIMATABLE from verbal description:
       How client describes determines modality count → promising.
-      NHƯNG: verbal description itself = verbal modality filter.
+      BUT: verbal description itself = verbal modality filter.
 
     → Compile type detection ACCURACY:
-      AI classify Experience/Expertise/Trust từ verbal signals — logical nhưng:
-      Mixed types PHỔ BIẾN → dominant classification = APPROXIMATE.
-      Body-verbal mismatch = key clue, NHƯNG text-only AI miss body cues.
-      Chưa test: AI compile type classification vs expert classification accuracy.
+      AI classifies Experience/Expertise/Trust from verbal signals — logical but:
+      Mixed types COMMON → dominant classification = APPROXIMATE.
+      Body-verbal mismatch = key clue, BUT text-only AI misses body cues.
+      Not yet tested: AI compile type classification vs expert classification accuracy.
 
     → Collective chain break detection FEASIBILITY:
-      CẦN context data (industry, economy, social trends).
-      AI CÓ context access (internet, databases) → logical.
-      NHƯNG: distinguish "nhiều người than" (collective) vs "echo chamber" = HARD.
-      Individual × collective OVERLAP (cả 2 cùng lúc) = common.
+      NEEDS context data (industry, economy, social trends).
+      AI HAS context access (internet, databases) → logical.
+      BUT: distinguishing "many people complaining" (collective) vs "echo chamber" = HARD.
+      Individual × collective OVERLAP (both at once) = common.
 
     → Self-drill mode SAFETY:
       Mild cases: likely SAFE (bibliotherapy research supports).
-      Boundary "mild vs not-mild" = UNCLEAR.
-      Client Feeling Literacy THAY ĐỔI (high one day, low another).
+      Boundary between "mild" and "not mild" = UNCLEAR.
+      Client Feeling Literacy CHANGES (high one day, low another).
       RED FLAG detection by AI = CAN FAIL (false negative = danger).
-      → ĐÂY LÀ RISK LỚN NHẤT CỦA FILE NÀY.
+      → THIS IS THE BIGGEST RISK IN THIS FILE.
 
     → AI trust guardrails EFFECTIVENESS:
       Logical: body-check AS defense.
-      NHƯNG: user TIN AI → body-check ITSELF may be biased
-      (user MUỐN AI đúng → body "confirm" = confirmation bias)
+      BUT: user TRUSTS AI → body-check ITSELF may be biased
+      (user WANTS AI to be right → body "confirms" = confirmation bias)
       → Defense against defense failure = UNSOLVED.
 
 
-CÂU HỎI MỞ:
+OPEN QUESTIONS:
 
     → Privacy: therapy data + AI = sensitive. Security? Consent? Ownership?
     → Bias: AI trained on WHICH population? Western? Asian? Mixed?
-    → Cultural: schema patterns KHÁC across cultures → AI cần calibrate?
-    → Cost: AI infrastructure cho therapy = accessible? Affordable?
-    → Regulation: AI-assisted therapy = legal framework nào?
-    → Harm: AI wrong hypothesis → client trust AI quá → damage?
-    → Training: chuyên gia cần TRAIN gì để work with AI effectively?
-    → Self-drill boundary: "mild" vs "not mild" — ranh giới ở đâu?
-    → AI compile type accuracy: chưa có benchmark test
-    → Collective chain data: AI cần access data gì để detect?
+    → Cultural: schema patterns DIFFER across cultures → AI needs calibration?
+    → Cost: AI infrastructure for therapy = accessible? Affordable?
+    → Regulation: AI-assisted therapy = what legal framework?
+    → Harm: AI wrong hypothesis → client over-trusts AI → damage?
+    → Training: what do experts need to LEARN to work effectively with AI?
+    → Self-drill boundary: "mild" vs "not mild" — where is the line?
+    → AI compile type accuracy: no benchmark test yet
+    → Collective chain data: what data does AI need access to in order to detect?
 ```
 
 ---
@@ -1638,99 +1599,90 @@ CÂU HỎI MỞ:
 ```
 CROSS-REFERENCES:
 
-  NỀN TẢNG:
-    → Valence-Propagation.md v1.4 §4 — Valence-Propagation chains = explanatory (Cấp 3 clarification)
-    → Valence-Propagation.md v1.4 §8 — "Navigate, not GPS" + mở cửa ứng dụng
-    → Schema.md v2.0 §2 — software analogy (tính năng/hàm = schema/chunk)
-    → Schema.md v2.0 §6.3 — "KHÔNG THỂ phân tích chính xác"
-    → Feeling.md v2.0 §2 — 7-layer fidelity gradient (Feel-Explanation = 20-70%)
+  FOUNDATION:
+    → Valence-Propagation.md v1.4 §4 — chains = explanatory (Level 3 clarification)
+    → Valence-Propagation.md v1.4 §8 — "Navigate, not GPS" + opening to applications
+    → Schema.md v2.0 §2 — software analogy (feature/function = schema/chunk)
+    → Schema.md v2.0 §6.3 — "CANNOT analyze precisely"
+    → Feeling.md v2.0 §2 — 7-layer fidelity gradient (Feel-Explanation = 20–70%)
     → Feeling.md v2.0 §10 — Feeling Literacy 5-stage + AI era
     → Chunk.md v2.3 §2.3 — trust amplifier, 5 external install mechanisms
     → Chunk.md v2.1 §4 — activation dynamics, trigger surface, competitive re-linking
-    → Modality.md v1.0 §3 — chunk depth = modality count (★1-★5)
+    → Modality.md v1.0 §3 — chunk depth = modality count (★1–★5)
 
   MECHANISM:
-    → Agent-Mechanism.md §0 — Self-Pattern-Modeling (chuyên gia simulate)
+    → Agent-Mechanism.md §0 — Self-Pattern-Modeling (expert simulates)
     → Somatic-Articulation-Loop.md §1.4 — implicit >> explicit (Polanyi)
     → Somatic-Articulation-Loop.md §5 — AI as articulation catalyst
     → PFC-Function.md v1.1 §6 — confabulation = rule not exception
 
   COMPILE + COLLECTIVE (v2.0 NEW):
-    → Body-Base.md v2.0 §3 — Model 3+1 (Vô thức / PFC / Trust / Tools)
-    → Body-Base.md v2.0 §6 — 2-tầng calibration (Darwinian + Hebbian), domain feedback = final arbiter
+    → Body-Base.md v2.0 §3 — 3+1 Model (Unconscious / PFC / Trust / Tools)
+    → Body-Base.md v2.0 §6 — 2-tier calibration (Darwinian + Hebbian), domain feedback = final arbiter
     → Body-Base.md v2.0 §7 — circuit breaker mechanism
     → Compile-Taxonomy.md v3.0 §6 — 4 compile pathways (source for ⑤)
     → Compile-Taxonomy.md v3.0 §9 — Experience×Trust interactions, chain break
-    → Collective-Body.md v1.1 §1 — Model 3 cấp (source for ⑨)
+    → Collective-Body.md v1.1 §1 — 3-level model (source for ⑨)
     → Collective-Body.md v1.1 §5.2 — chain break (source for ⑧)
     → Collective-Body.md v1.1 §8.4 — AI trust entity (source for §8)
 
-  TIỀN THÂN (backup):
-    → Observation/backup/AI-Schema-Detection-v1.1-backup.md — v1.1 backup
-
-  LIÊN QUAN:
-    → Core-v7.8-Draft.md §3 — body-inputs (body-base targets)
+  RELATED:
+    → Core-Software.md §3 — body-inputs (body-base targets)
     → Anchor-Schema.md — anchor sync point (schema detection includes anchor identification)
-    → Drill-Emergent-Pattern.md §5 — "Cho đi" pattern (example of hidden valence chain)
 
   COMPANION (v2.1 NEW):
-    → AI-Collective-Detection.md v1.0 — Collective-level capabilities ⑩-⑭
-      File NÀY = individual (①-⑨). File ĐÓ = collective (⑩-⑭).
-      Continuous capability system: ①-⑭.
+    → AI-Collective-Detection.md v1.0 — Collective-level capabilities ⑩–⑭
+      THIS FILE = individual (①–⑨). THAT FILE = collective (⑩–⑭).
+      Continuous capability system: ①–⑭.
 
-  APPLICATION (2026-05-11 NEW):
+  APPLICATION:
     → Ask-AI.md v2.0 — GENERAL AI interaction gateway (any question about self/others)
-      File NÀY = SPECIALIZED (schema detection, therapy support)
+      THIS FILE = SPECIALIZED (schema detection, therapy support)
       Ask-AI.md = GENERAL (detect chunk landscape + adapt + present)
-      Ask-AI §5.3 references §8 guardrails of THIS file
-    → 02-Cross-Network-Transfer.md v1.0 — Mechanism truyền đạt cross-network
-      "Nói ≠ hiểu", analogy risks, mini-gap chain, audience detection
-      Relevant: HOW AI present schema hypotheses effectively to client
+    → 02-Cross-Network-Transfer.md v1.0 — mechanism of cross-network transmission
+      "Speaking ≠ understanding," analogy risks, mini-gap chain, audience detection
+      Relevant: HOW AI presents schema hypotheses effectively to clients
 
 
 STATUS:
 
   v2.1 — 2026-05-30 — Companion file AI-Collective-Detection.md v1.0
     → Added: COMPANION section in cross-references
-    → Added: ⑩-⑭ forward pointer block after ⑨ in §3
-    → Added: Collective assessment ref in §6 Bước 2
-    → YAML: version 2.0→2.1, scope updated with companion ref
-    → AI-Collective-Detection.md v1.0 = collective capabilities ⑩-⑭
+    → Added: ⑩–⑭ forward pointer block after ⑨ in §3
+    → Added: Collective assessment reference in §6 Step 2
 
-  v2.0 — 2026-05-08 — Major upgrade based on Drill S1-S12 findings
+  v2.0 — 2026-05-08 — Major upgrade based on Drill S1–S12 findings
 
   Changes v1.1 → v2.0:
-    → §0: Valence-Propagation §4 clarification (Cấp 1 detect + Cấp 3 analyze)
+    → §0: Valence-Propagation §4 clarification (Level 1 detect + Level 3 analyze)
     → §1: +⑨ Valence-Propagation chains = explanatory, +⑩ AI output = Trust Compile install
-    → §2: +2-layer simplified mode (AI + Self, cho mild cases)
+    → §2: +2-layer simplified mode (AI + Self, for mild cases)
     → §3 ⑤: REWRITE — "Valence Propagation Detection" → "Compile Type Detection (Experience/Expertise/Trust)"
     → §3 ⑧: NEW — Collective Chain Break Detection (individual vs collective)
-    → §3 ⑨: NEW — 3 Cấp Detection (AI tag mỗi finding Cấp 1/2/3)
+    → §3 ⑨: NEW — 3-Level Detection (AI tags each finding Level 1/2/3)
     → §4: Reference Agent-Mechanism.md + compile type + collective awareness
     → §5: Body-check AI output + self-drill reference (§7)
-    → §6 Bước 2: +compile type classification + collective context check + 3 cấp tag
-    → §6 Bước 4: +predict khác tùy compile type + collective predict
-    → §6 Bước 5: +fix khác tùy compile type + collective adaptation
-    → §7: NEW — Self-Drill Mode (simplified 3 bước + guardrails)
+    → §6 Step 2: +compile type classification + collective context check + 3-level tag
+    → §6 Step 4: +predict differs by compile type + collective predict
+    → §6 Step 5: +fix differs by compile type + collective adaptation
+    → §7: NEW — Self-Drill Mode (simplified 3 steps + guardrails)
     → §8: NEW — AI Trust Guardrails (cross-domain trust, speed gap, systemic bias)
     → §9: Updated — compile type feasibility, collective detection, self-drill safety
-    → §10: Updated cross-refs + status
 
   Sections:
     §0  Position + GATEWAY role + Valence-Propagation §4 clarification
-    §1  Giới hạn nền tảng (⑩ limits including Valence-Propagation reframe + AI install risk)
+    §1  Foundational limits (10 limits including AI install risk)
     §2  3-Layer Model + 2-Layer Simplified (AI + Self for mild cases)
     §3  AI Layer: 9 capabilities:
         ① verbal pattern tracking, ② schema clustering, ③ contradiction detection,
-        ④ chain hypothesis, ⑤ ⭐compile type detection (Experience/Expertise/Trust) — REWRITE,
-        ⑥ ⭐chunk depth inference, ⑦ ⭐AI khơi gợi schema ẩn,
-        ⑧ ⭐collective chain break detection — NEW,
-        ⑨ ⭐3 cấp detection tagging — NEW
-    §4  Chuyên gia Layer: Self-Pattern-Modeling + body vote + compile type + collective awareness
+        ④ chain hypothesis, ⑤ ⭐compile type detection (Experience/Expertise/Trust),
+        ⑥ ⭐chunk depth inference, ⑦ ⭐AI eliciting hidden schemas,
+        ⑧ ⭐collective chain break detection, ⑨ ⭐3-level detection tagging
+    §4  Expert Layer: Self-Pattern-Modeling + body vote + compile type + collective awareness
     §5  Client Layer: Focusing + self-verify + body-check AI output
-    §6  Quy trình 5 bước (v2.0: compile type + collective + 3 cấp)
-    §7  Self-Drill Mode (2-layer + guardrails) — NEW
-    §8  AI Trust Guardrails (install paradox, cross-domain, speed gap) — NEW
+    §6  5-step process (v2.0: compile type + collective + 3 levels)
+    §7  Self-Drill Mode (2-layer + guardrails)
+    §8  AI Trust Guardrails (install paradox, cross-domain, speed gap)
     §9  Honest assessment (🟢🟡🔴 + expanded v2.0)
     §10 Cross-references + Status
 
@@ -1740,10 +1692,8 @@ STATUS:
     🔴 AI schema detection effectiveness, compile type accuracy,
         collective chain detection feasibility, self-drill safety boundaries,
         AI trust guardrails effectiveness, defense against defense failure
-
-  Sources:
-    v1.1 base + Drill S1-S12 findings (70 insights + 22 collective Qs)
-    Compile-Taxonomy.md v3.0, Collective-Body.md v1.1, Body-Base.md v2.0
-    Valence-Propagation v1.4, PFC-Function.md v1.1, Feeling.md v2.0
-    Mỗi thay đổi DỰA TRÊN drill findings, KHÔNG suy đoán.
 ```
+
+---
+
+*Human Predictive Drive Framework v7.8 — AI-Schema-Detection.md v2.1 English translation*

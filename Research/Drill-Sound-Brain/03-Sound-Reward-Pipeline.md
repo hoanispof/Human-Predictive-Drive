@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sound × Reward Pipeline — 7-Step Mechanism Validated by Music Neuroscience
 version: 1.1
 created: 2026-05-29
@@ -11,13 +11,13 @@ scope: |
   Cheung 2019 = Goldilocks validated. Music × Evaluative/Direct-State.
 purpose: |
   Dopamine-Is-Not-Reward.md + Prediction-Error-Is-Not-Reward.md
-  describe GENERAL reward mechanism.
-  File này VALIDATE mechanism bằng music neuroscience data.
-  Music = domain hiếm hoi có CÙNG neuroscience evidence cho TỪNG step.
+  describe the GENERAL reward mechanism.
+  This file VALIDATES the mechanism using music neuroscience data.
+  Music = RARE domain with neuroscience evidence for EACH step.
 position: |
   Research/Drill-Sound-Brain/ — mechanism file #2.
-  Đọc SAU 01 (evidence) + 02 (Background-Pattern).
-  Đọc TRƯỚC 04 (social resonance).
+  Read AFTER 01 (evidence) + 02 (Background-Pattern).
+  Read BEFORE 04 (social resonance).
 dependencies:
   primary:
     - Dopamine-Is-Not-Reward.md v1.2 — 7-step mechanism
@@ -31,38 +31,39 @@ dependencies:
   evidence:
     - 01-Sound-Brain-Neuroscience.md — §2 (dopamine/opioid), §3 (prediction),
       §5 (anhedonia), §6 (entrainment)
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # Sound × Reward Pipeline — 7-Step Mechanism Validated by Music Neuroscience
 
-> **Schultz 1997 phát hiện: não DỰ ĐOÁN + SO SÁNH.**
-> **Framework mở rộng: PE = Step 1 of 7. Reward = Step 5-6.**
-> **Salimpoor 2011 VALIDATE: caudate (anticipation) ≠ NAcc (experience).**
-> **= 2 vùng não KHÁC NHAU, 2 thời điểm KHÁC NHAU, 2 STEPS KHÁC NHAU.**
+> **Schultz 1997 discovered: the brain PREDICTS + COMPARES.**
+> **Framework extension: PE = Step 1 of 7. Reward = Step 5-6.**
+> **Salimpoor 2011 VALIDATES: caudate (anticipation) ≠ NAcc (experience).**
+> **= 2 DIFFERENT brain regions, 2 DIFFERENT time points, 2 DIFFERENT STEPS.**
 >
-> **Musical anhedonia VALIDATE: pipeline CẦN intact pathway.**
-> **Auditory cortex ↔ NAcc disconnect → PE fire nhưng reward KHÔNG.**
+> **Musical anhedonia VALIDATES: the pipeline REQUIRES an intact pathway.**
+> **Auditory cortex ↔ NAcc disconnect → PE fires but reward does NOT.**
 >
-> **Cheung 2019 VALIDATE: pleasure MAX khi uncertainty CAO + outcome POSITIVE.**
-> **= PE + coherence model DIRECTLY supported bằng 80,000 chords.**
+> **Cheung 2019 VALIDATES: pleasure MAX when uncertainty HIGH + outcome POSITIVE.**
+> **= PE + coherence model DIRECTLY supported by 80,000 chords.**
 >
-> **Music = domain HIẾM HOI có neuroscience evidence cho TỪNG step.**
-> **File này: MAP evidence lên mechanism, step by step.**
+> **Music = RARE domain with neuroscience evidence for EACH step.**
+> **This file: MAPS evidence onto the mechanism, step by step.**
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §0 — Position + Thesis
-- §1 — Full 7-Step Walkthrough: Nghe 1 Bài Nhạc Mới
+- §1 — Full 7-Step Walkthrough: Listening to a New Piece of Music
 - §2 — ⭐ Salimpoor 2011 = Direct Validation
 - §3 — ⭐ Musical Anhedonia = Body-Feedback-Precondition Precondition-2 Chunk-Substrate Hardware Fail
 - §4 — ⭐ Cheung 2019 = Goldilocks Validated
 - §5 — Music × Evaluative/Direct-State
-- §6 — "Chán Nhạc" = Boredom Formula Applied
+- §6 — Music Boredom = Boredom Formula Applied
 - §7 — PCM Model: Compiled Chunks Change PE Evaluation
+- §7b — Reward-Calibration × Music: 3 Zones + Window
 - §8 — Honest Assessment
 - §9 — Cross-References
 
@@ -88,65 +89,65 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Gap 3-4: Musical anhedonia (pathway broken → Steps 1-3 ok, 4-6 fail)
     Body-Feedback-Precondition Precondition-4 Match-Range: Cheung 2019 (Goldilocks: uncertainty × positive outcome)
 
-  = KHÔNG add mechanism mới. VALIDATE existing mechanism with music data.
+  = Does NOT add new mechanisms. VALIDATES existing mechanism with music data.
 ```
 
 ---
 
-## §1 — Full 7-Step Walkthrough: Nghe 1 Bài Nhạc Mới
+## §1 — Full 7-Step Walkthrough: Listening to a New Piece of Music
 
 ```
-🟡 WALKTHROUGH — bài nhạc mới mà listener CÓ chunk library phù hợp:
+🟡 WALKTHROUGH — new piece of music where listener HAS adequate chunk library:
 
   STEP 1 — VTA DETECT DELTA:
-    → Nốt/chord mới xuất hiện → VTA compare với expected baseline
-    → Actual ≠ expected → VTA fire dopamine
-    → = "Có gì đó KHÁC" — prediction-delta detected
-    → 🟢 Schultz 1997: VTA encode prediction error
+    → New note/chord appears → VTA compares with expected baseline
+    → Actual ≠ expected → VTA fires dopamine
+    → = "Something is DIFFERENT" — prediction-delta detected
+    → 🟢 Schultz 1997: VTA encodes prediction error
 
   STEP 2 — DOPAMINE CASCADE (salience):
-    → Dopamine → attention heighten → auditory cortex process MẠNH HƠN
-    → Beat prediction strengthen → motor cortex entrain (Grahn 2007)
-    → Body prepare: arousal ↑, attention focus
-    → = "Tai vểnh lên" — salience signal
+    → Dopamine → attention heightens → auditory cortex processes MORE STRONGLY
+    → Beat prediction strengthens → motor cortex entrains (Grahn 2007)
+    → Body prepares: arousal ↑, attention focuses
+    → = "Ears perk up" — salience signal
 
   STEP 3 — SPREADING ACTIVATION (chunks fire):
-    → Pattern mới → search compiled chunk library cho MATCH
-    → Music Background-Pattern chunks fire: "chord progression NÀY giống..."
-    → Background-Pattern bias WHICH chunks fire (Triple Bias):
-      Retrieval: jazz Background-Pattern → jazz-related chunks fire TRƯỚC
-      Template: "nếu bài NÀY giống jazz → sẽ resolve thế NÀO"
-      Interpretation: ambiguous chord → interpret qua jazz lens
-    → = "Tìm trong thư viện" — spreading activation
+    → New pattern → searches compiled chunk library for MATCH
+    → Music Background-Pattern chunks fire: "this chord progression sounds like..."
+    → Background-Pattern biases WHICH chunks fire (Triple Bias):
+      Retrieval: jazz Background-Pattern → jazz-related chunks fire FIRST
+      Template: "if THIS piece is like jazz → how will it resolve?"
+      Interpretation: ambiguous chord → interpret through the jazz lens
+    → = "Searching the library" — spreading activation
 
   STEP 4 — BODY-BASE EVALUATE (coherence + Body-Feedback-Precondition):
-    → Precondition-1 Directed-Gap Body-need gap: có gap cho music experience? → usually YES
-    → Precondition-2 Chunk-Substrate Chunks adequate: đủ music chunks để evaluate pattern MỚI?
+    → Precondition-1 Directed-Gap Body-need gap: is there a gap for music experience? → usually YES
+    → Precondition-2 Chunk-Substrate Chunks adequate: enough music chunks to evaluate the NEW pattern?
       ⭐ Musical anhedonia = Precondition-2 FAIL at hardware level (§3)
-      Người không quen genre = Precondition-2 fail for THAT genre (§7)
-    → Precondition-3 Delta-Gate prediction-delta: MET (Step 1 đã fire)
-    → Precondition-4 Match-Range Goldilocks: vừa quen vừa lạ?
-      ⭐ Cheung 2019: MAX khi uncertainty CAO + outcome POSITIVE (§4)
-    → Precondition-5 Compile-Gate Association tag: chunk bị avoidance tag?
-      "Bài hay nhưng người hát GHÉT" = Precondition-5 BLOCK reward
+      Listener unfamiliar with genre = Precondition-2 fails for THAT genre (§7)
+    → Precondition-3 Delta-Gate prediction-delta: MET (Step 1 already fired)
+    → Precondition-4 Match-Range Goldilocks: familiar enough yet surprising enough?
+      ⭐ Cheung 2019: MAX when uncertainty HIGH + outcome POSITIVE (§4)
+    → Precondition-5 Compile-Gate Association tag: is the chunk tagged as avoidance?
+      "Great song but hate the artist" = Precondition-5 BLOCKS reward
 
   STEP 5 — BODY-BASE VOTE:
     → ALL 5 pass + coherent → body vote: REWARD pathway
-    → ANY fail hoặc incoherent → body vote: DISSONANCE hoặc neutral
-    → = "Cửa mở hoặc đóng" — binary gate sau multi-factor evaluation
+    → ANY fail or incoherent → body vote: DISSONANCE or neutral
+    → = "Gate open or closed" — binary gate after multi-factor evaluation
 
   STEP 6 — OPIOID RELEASE (if reward):
     → μ-opioid release → hedonic response
     → Body-level: chills, goosebumps, tears, body sway
-    → 🟢 Mallik 2017: naltrexone GIẢM pleasure → opioid involved
-    → ⚠️ Mas-Herrero 2023: opioid affect PHYSIOLOGY, subjective UNCLEAR
-    → = "Quà thật" — actual body-base reward signal
+    → 🟢 Mallik 2017: naltrexone REDUCES pleasure → opioid involved
+    → ⚠️ Mas-Herrero 2023: opioid affects PHYSIOLOGY, subjective UNCLEAR
+    → = "The real reward" — actual body-base reward signal
 
   STEP 7 — PFC OBSERVE (feeling):
-    → PFC observe body state → label: "hay!", "chills!", "tuyệt"
+    → PFC observes body state → labels: "beautiful!", "chills!", "amazing!"
     → = Conscious experience of music pleasure
     → = Feeling.md: PFC observation of body-feedback
-    → PFC CÓ THỂ label SAI (misattribute cause) nhưng body signal THẬT
+    → PFC CAN label incorrectly (misattribute cause) but body signal is REAL
 
 
   ⭐ CRITICAL DISTINCTION:
@@ -167,33 +168,33 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   METHOD:
     PET [11C]raclopride during peak emotional music listening
-    Measure dopamine release ở striatal regions
+    Measure dopamine release in striatal regions
 
   FINDING:
     CAUDATE active during ANTICIPATION of musical peak
     → = Steps 1-3: VTA detect → dopamine cascade → spreading activation
-    → Brain PREDICT đỉnh nhạc sắp tới → dopamine fire → "sắp tới!"
+    → Brain PREDICTS the climax approaching → dopamine fires → "it's coming!"
 
     NUCLEUS ACCUMBENS active during EXPERIENCE of peak
     → = Steps 5-6: body vote → opioid release → actual pleasure
-    → Brain TRẢI NGHIỆM đỉnh nhạc → reward fire → "ĐÚNG!"
+    → Brain EXPERIENCES the climax → reward fires → "BEAUTIFUL!"
 
-  TẠI SAO ĐÂY LÀ VALIDATION:
-    ① 2 vùng não KHÁC NHAU → prediction ≠ experience (DIFFERENT neural substrates)
-    ② 2 thời điểm KHÁC NHAU → anticipation ≠ pleasure (DIFFERENT temporal phases)
+  WHY THIS IS VALIDATION:
+    ① 2 DIFFERENT brain regions → prediction ≠ experience (DIFFERENT neural substrates)
+    ② 2 DIFFERENT time points → anticipation ≠ pleasure (DIFFERENT temporal phases)
     ③ = PE (prediction error, Steps 1-3) ≠ Reward (hedonic, Steps 5-6)
     ④ = Prediction-Error-Is-Not-Reward.md CONFIRMED by neuroscience data
 
   FRAMEWORK MAPPING:
     Caudate (anticipation) = framework Steps 1-3
-      VTA detect delta → dopamine → attention → "sắp tới!"
+      VTA detect delta → dopamine → attention → "it's coming!"
     [Steps 3-4 = GAP: spreading activation + evaluation]
     NAcc (experience) = framework Steps 5-6
-      Body evaluate → reward → opioid → "HAY!"
+      Body evaluates → reward → opioid → "BEAUTIFUL!"
 
-  ⭐ INSIGHT 9: Salimpoor 2011 = DIRECT validation cho multi-step mechanism.
-    PE ≠ reward KHÔNG CHỈ theoretical — có NEURAL SUBSTRATE evidence.
-    Caudate anticipate, NAcc experience. Different regions, different times.
+  ⭐ INSIGHT 9: Salimpoor 2011 = DIRECT validation of the multi-step mechanism.
+    PE ≠ reward is NOT merely theoretical — there is NEURAL SUBSTRATE evidence.
+    Caudate anticipates, NAcc experiences. Different regions, different times.
 
   🟢 Salimpoor 2011: ~1,600+ citations (Semantic Scholar 2026), replicated
   🟢 Ferreri 2019: bidirectional dopamine modulation confirms causal role
@@ -221,7 +222,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Step 4: Body-base evaluate → CANNOT reach reward system
       (connectivity auditory → NAcc = BROKEN)
     Steps 5-6: NEVER fire (signal doesn't arrive)
-    Step 7: PFC observe: "nhạc = neutral, không feel gì"
+    Step 7: PFC observes: "music = neutral, nothing felt"
 
   = Body-Feedback-Precondition Precondition-2 Chunk-Substrate (CHUNKS BASE ADEQUATE) FAIL AT HARDWARE LEVEL:
     Normal Precondition-2: compiled music chunks → pathway → evaluation → reward if pass
@@ -272,8 +273,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   DIRECTLY VALIDATES FRAMEWORK:
     Prediction-Error-Is-Not-Reward.md §3 "Spotify test":
-      Random note = PE CAO nhưng DỞ (high surprise, NO coherence)
-      Perfect prediction = PE ZERO nhưng nhạt (no surprise)
+      Random note = PE HIGH but UNPLEASANT (high surprise, NO coherence)
+      Perfect prediction = PE ZERO but bland (no surprise)
       Sweet spot = PE + coherence + Goldilocks (Body-Feedback-Precondition Precondition-4 Match-Range)
 
     Cheung 2019 quantifies this EXACT relationship:
@@ -287,9 +288,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Neither alone sufficient → INTERACTION required
     → = Body-Feedback-Precondition: ALL preconditions needed simultaneously
 
-  ⭐ INSIGHT 11 (renumbered): Cheung 2019 = QUANTITATIVE validation cho
+  ⭐ INSIGHT 11 (renumbered): Cheung 2019 = QUANTITATIVE validation of the
     "PE + coherence = reward" model. 80k chords from real music.
-    Random surprise = PE nhưng no coherence → no pleasure. CONFIRMED.
+    Random surprise = PE but no coherence → no pleasure. CONFIRMED.
     Framework "Spotify test" = validated by empirical data.
 
   🟢 Cheung 2019: information-theoretic approach, large-N
@@ -301,13 +302,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §5 — Music × Evaluative/Direct-State
 
 ```
-🟡 MUSIC TẠO CẢ 2 LOẠI REWARD — COMPOUND KHI ACTIVE:
+🟡 MUSIC GENERATES BOTH TYPES OF REWARD — COMPOUND WHEN ACTIVE:
 
-  Reward-Signal-Architecture.md §1 — 2 loại reward:
+  Reward-Signal-Architecture.md §1 — 2 types of reward:
 
   ┌───────────────────┬────────────────────────┬──────────────────┐
   │ Listening Mode     │ Evaluative Reward      │ Direct-State     │
-  │                    │ (opioid, Body-Feedback-Precondition required) │ (non-opioid)     │
+  │                    │ (opioid, Body-Feedback-│ (non-opioid)     │
+  │                    │  Precondition required)│                  │
   ├───────────────────┼────────────────────────┼──────────────────┤
   │ Passive listening  │ ✅ Primary             │ ❌ Minimal        │
   │ (sit + listen)     │ Music pleasure,        │ (no movement     │
@@ -327,49 +329,49 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                    │ (By-Product match)     │ (social bonding) │
   └───────────────────┴────────────────────────┴──────────────────┘
 
-  ⭐ COMPOUND: More active → more reward sources ĐỒNG THỜI:
+  ⭐ COMPOUND: More active → more reward sources SIMULTANEOUSLY:
     Passive: Evaluative only (1 source)
     Dancing: Evaluative + Direct-State (2 sources)
     Playing: Evaluative + Direct-State + Efference copy (3 sources)
     Group:   Evaluative + Direct-State + Efference copy + Social (4 sources)
 
-  🟢 Dunbar 2012: active music-making > passive listening cho endorphin release
+  🟢 Dunbar 2012: active music-making > passive listening for endorphin release
   🟡 Compound reward scaling = framework prediction (Evaluative + Direct-State)
-  → Chi tiết multi-modal compound: 05-Multi-Modal-Compound.md
+  → Details on multi-modal compound: 05-Multi-Modal-Compound.md
 ```
 
 ---
 
-## §6 — "Chán Nhạc" = Boredom Formula Applied
+## §6 — Music Boredom = Boredom Formula Applied
 
 ```
 🟡 BOREDOM FORMULA (Boredom.md §1) APPLIED:
 
-  "Chán" = Dissonance + Imagine-Final clarity THIẾU
+  Boredom = Dissonance + Imagine-Final clarity LACKING
 
   APPLIED TO MUSIC:
 
-  "CHÁN BÀI NÀY":
-    → Nghe quá nhiều lần → prediction COMPLETE (Precondition-3 Delta-Gate = 0)
-    → VTA KHÔNG fire (everything predicted → no delta)
+  "BORED OF THIS SONG":
+    → Heard too many times → prediction COMPLETE (Precondition-3 Delta-Gate = 0)
+    → VTA does NOT fire (everything predicted → no delta)
     → = Boredom source ①: prediction-delta = 0
     → = Mere exposure inverted-U: exposure → peak → decline (Zajonc 1968)
 
-  "CHÁN THỂ LOẠI NÀY":
-    → Gist QUÁ abstract → MỌI bài trong genre = "predict được"
-    → VTA fire yếu cho BẤT KỲ bài mới nào trong genre
+  "BORED OF THIS GENRE":
+    → Gist TOO abstract → ALL pieces in genre = "predictable"
+    → VTA fires weakly for ANY new piece in genre
     → = Generative channels EXHAUSTED (02-Sound-Background-Pattern §5)
-    → Imagine-Final cho genre = mờ ("nghe nữa thì sao?")
+    → Imagine-Final for genre = dim ("what's the point of listening more?")
 
-  "CHÁN NGHE NHẠC NÓI CHUNG":
-    → Tất cả genres đã familiar đủ → global prediction-delta thấp
-    → = "Saturated" — cần COMPLETELY NEW modality (visual, game, etc.)
-    → Hoặc: body-base issue (cortisol cao → reward suppressed)
+  "BORED OF MUSIC IN GENERAL":
+    → All genres already familiar enough → global prediction-delta low
+    → = "Saturated" — need COMPLETELY NEW modality (visual, games, etc.)
+    → Or: body-base issue (elevated cortisol → reward suppressed)
 
   FIX PER-LEVEL:
-    Bài: skip → bài MỚI → VTA fire lại (Cyclic reset)
-    Genre: inject NOVELTY (sub-genre, cross-genre) → Generative restart
-    Global: shift modality (video, game) hoặc address body-base
+    Song:   skip → NEW song → VTA fires again (Cyclic reset)
+    Genre:  inject NOVELTY (sub-genre, cross-genre) → Generative restart
+    Global: shift modality (video, games) or address body-base
 
   🟢 Zajonc 1968: mere exposure → peak → decline
   🟡 Boredom formula applied to music = framework application
@@ -389,7 +391,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ KEY FINDING:
     SAME rhythmic deviation → DIFFERENT prediction error
-    cho musician vs non-musician
+    for musician vs non-musician
 
     Musician: high precision weighting → STRONG PE for subtle deviations
     Non-musician: low precision weighting → WEAK PE for same deviations
@@ -398,20 +400,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Precision weighting = f(compiled chunk library depth)
     → Musician: RICH compiled chunks → PRECISE predictions → detect SUBTLE deviations
     → Non-musician: SPARSE chunks → VAGUE predictions → miss subtle deviations
-    → = Body-Feedback-Precondition Precondition-2 Chunk-Substrate (chunks base adequate): Precondition-2 level determines HOW PE is EVALUATED
+    → = Body-Feedback-Precondition Precondition-2 Chunk-Substrate (chunks base adequate):
+      Precondition-2 level determines HOW PE is EVALUATED
 
   CONSEQUENCE:
-    → Expert + novice nghe CÙNG bài → DIFFERENT body-feedback
-    → Expert: detect harmonic subtlety → PE fire → coherence check → reward
-    → Novice: miss subtlety → no PE → no evaluation → neutral
-    → = "Bài này hay" vs "bài này bình thường" = KHÁC Precondition-2 level
-    → = Tại sao music appreciation GROWS with exposure (chunks compile → precision ↑)
+    → Expert + novice listen to SAME piece → DIFFERENT body-feedback
+    → Expert: detects harmonic subtlety → PE fires → coherence check → reward
+    → Novice: misses subtlety → no PE → no evaluation → neutral
+    → = "This is beautiful" vs "this is average" = DIFFERENT Precondition-2 levels
+    → = Why music appreciation GROWS with exposure (chunks compile → precision ↑)
 
   CONNECTS TO BACKGROUND-PATTERN (02-Sound-Background-Pattern.md):
     → Music Background-Pattern = accumulated precision weighting
     → Deeper Background-Pattern → MORE precise predictions → detect MORE
-    → = Expert "nghe thấy" thứ mà novice không nghe thấy
-    → = "Tai nghe" = Background-Pattern-level precision
+    → = Expert "hears" what a novice cannot
+    → = "Trained ear" = Background-Pattern-level precision
 
   🟢 Vuust 2018: PCM model, precision weighting
   🟡 Precision = f(compiled chunks) = framework synthesis
@@ -422,7 +425,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §7b — Reward-Calibration × Music: 3 Zones + Window
 
 ```
-🟡 GOLDILOCKS ZONES CHO MUSIC (Reward-Calibration.md §1):
+🟡 GOLDILOCKS ZONES FOR MUSIC (Reward-Calibration.md §1):
 
   UNDER-REWARD:
     → First exposure to new genre → no gap → no reward (§5 + 07-file §5)
@@ -434,14 +437,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Peak enjoyment window
 
   OVER-REWARD / SATURATION:
-    → Binge listening → threshold adapt → boredom
+    → Binge listening → threshold adapts → boredom
     → Prediction complete → delta = 0
 
   WINDOW SIZE ∝ COMPLEXITY (🟡 ESTIMATES — no study compares genres directly):
-    Simple pop: narrow window (chán nhanh)
-    Rock/alt: medium
-    Jazz/classical: wide ("càng nghe càng hay")
-    Ambient/drone: N/A → Tonic channel (NOT Goldilocks model)
+    Simple pop:     narrow window (gets boring quickly)
+    Rock/alt:       medium
+    Jazz/classical: wide ("gets better the more you listen")
+    Ambient/drone:  N/A → Tonic channel (NOT Goldilocks model)
 
     ⚠️ Specific listen counts are FRAMEWORK ESTIMATES, NOT from published research.
     Research confirms DIRECTION: complex pieces peak LATER than simple (general finding).
@@ -449,9 +452,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     — but this was for single pieces, not genre-level windows.
 
   Framework: complexity → more chunks to compile → wider window
-  = Phức tạp hơn = Goldilocks kéo dài hơn
+  = More complex = Goldilocks window extends longer
 
-  Chi tiết tại 07-Music-Entrainment-Reward-Dynamics.md §6
+  Details at 07-Music-Entrainment-Reward-Dynamics.md §6
 ```
 
 ---
@@ -518,7 +521,7 @@ WITHIN DRILL:
 
 ---
 
-> *03-Sound-Reward-Pipeline v1.0 — 7-step mechanism VALIDATED by music neuroscience.
+> *03-Sound-Reward-Pipeline v1.1 — 7-step mechanism VALIDATED by music neuroscience.
 > Salimpoor 2011: caudate ≠ NAcc = PE ≠ reward. DIRECT validation.
 > Musical anhedonia: pipeline broken = PROOF of multi-step.
 > Cheung 2019: 80k chords = PE + coherence model CONFIRMED.

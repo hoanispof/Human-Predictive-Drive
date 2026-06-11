@@ -1,72 +1,46 @@
 ---
-title: Money-Education — Dạy Con Về Tiền Qua Lens Framework v7.8
+title: Money-Education — Teaching Children About Money Through the Framework
 version: 1.2
 created: 2026-05-12
-updated: 2026-06-03
+updated: 2026-06-03 (v1.2 — +Trust.md + Self-Observation.md integrations)
 previous: v1.1 (2026-05-25)
-status: v1.2 OBSERVATION FILE — +Trust.md + Self-Observation.md integrations
+status: v1.2 OBSERVATION FILE
 scope: |
-  OBSERVATION FILE: Money education — TẠI SAO quan trọng (schemas compile by age 7),
-  TẠI SAO current approaches fail (knowledge-behavior gap = PFC vs body-level),
+  OBSERVATION FILE: Money education — WHY it matters (schemas compile by age 7),
+  WHY current approaches fail (knowledge-behavior gap = PFC vs body-level),
   FRAMEWORK PRINCIPLES per-age (0-3 / 3-6 / 6-12 / 12-18),
-  5 schemas CẦN compile + 5 schemas KHÔNG NÊN compile,
-  COMMON MISTAKES × mechanism, Valence-Structural bonds boundary, cultural considerations, AI era.
+  5 schemas TO compile + 5 schemas NOT to compile,
+  COMMON MISTAKES × mechanism, Valence-Structural bonds boundary,
+  cultural considerations, AI era.
   v1.1: +Compiled Quality Dimension, +Hardware-Subsidy, +Entity-Access,
-  +Dissonance-Signal-Architecture, +PFC Budget. Cross-refs version bumps.
+  +Dissonance-Signal-Architecture, +PFC Budget.
   v1.2: +Trust.md (schema inheritance financial trust, Trust Generalization KOL exploit,
-  AI × Trust risk), +Self-Observation.md ("muốn mua" = body signal → Mức 3,
-  teen spending Mức 4, PFC Budget × impulse). Cross-refs version bumps.
-  File này = Observation ỨNG DỤNG, KHÔNG phải mechanism file.
+  AI × Trust risk), +Self-Observation.md ("wanting to buy" = body signal → Level 3,
+  teen spending Level 4, PFC Budget × impulse). Cross-ref version bumps.
+  This file = Observation APPLICATION, NOT a mechanism file.
 purpose: |
-  Trả lời: "Dạy con về tiền THẾ NÀO cho đúng — không phải 'dạy gì' mà
-  'compile chunks NÀO với direction NÀO'?"
-  Money-Analysis.md Q8 đặt câu hỏi: "Children's money schemas: critical period?"
-  File này = câu trả lời. Qua lens framework v7.8 + research evidence.
-  Giá trị: reframe money education từ "dạy kiến thức tài chính" sang
-  "compile money schemas đúng direction, đúng timing, đúng depth."
+  Answers: "HOW do we teach children about money — not 'teach what'
+  but 'compile WHICH chunks with WHICH direction'?"
+  Money-Analysis.md Q8 asks: "Children's money schemas: critical period?"
+  This file = the answer. Through framework v7.8 + research evidence.
+  Value: reframe money education from "teaching financial knowledge" to
+  "compiling money schemas with the right direction, right timing, right depth."
 position: |
   Research/Human-Learning/Education-Mechanism/Observation/ — observation-level analysis.
-  Thuộc Education-Mechanism/ folder cùng bộ 3 education:
-    Education-Mechanism.md v2.2 (HOW — 10 nguyên lý arc design)
+  Part of the Education-Mechanism/ folder and the education triple set:
+    Education-Mechanism.md v2.2 (HOW — 10 arc design principles)
     Domain-Knowledge-Map.md v2.1 (WHAT — 3-tier domain taxonomy)
     Connection-Education.md v1.1 (WHO — social interaction education)
-    Observation/ (ứng dụng quan sát cụ thể) ← ĐÂY
-  File này BUILD TRÊN:
-    - Money-Analysis.md v1.0 (SYNTHESIS tiền qua framework — 5 câu hỏi, 1,826L)
-    - Education-Mechanism.md v2.2 (10 nguyên lý arc design, bridge)
-    - Child-Development-Mechanism.md v2.2 (Compile Architecture, approach/avoidance tags)
-    - Background-Pattern.md v2.0 (2D model Depth×Density, invisible bias)
+    Observation/ (concrete application observations) ← HERE
 dependencies:
   primary:
-    - Money-Analysis.md v1.0 — 3-layer def, 5 functions, 6 paths, gap shift, Valence-Structural×tiền
-    - Education-Mechanism.md v2.2 — 10 nguyên lý, bridge, 4 nguồn fill, Multi-Stream
+    - Money-Analysis.md v1.0 — 3-layer def, 5 functions, 6 paths, gap shift, Valence-Structural × money
+    - Education-Mechanism.md v2.2 — 10 principles, bridge, 4 fill sources, Multi-Stream
     - Child-Development-Mechanism.md v2.2 — PFC reframe, Compile Architecture, approach/avoidance tags
     - Background-Pattern.md v1.0 — 2D model, sleep accelerator, invisible bias
-  secondary:
-    - Obligation.md v1.0 — §5.2 tiền = obligation technology, 6-type spectrum
-    - Reward-Calibration.md v1.1 — Goldilocks, overjustification, premature compilation
-    - Status.md v2.0 — Resource Access Map, exchange mode
-    - Skill-Introduction.md v2.0 — per-age exposure principles, withdrawal protocol
-    - Natural-Development.md v2.0 — 0-6 tự nhiên, autonomy emergence
-    - Domain-Knowledge-Map.md v2.1 — §1.2 Numeracy → financial literacy branch
-    - Connection-Education.md v1.1 — social interaction education (WHO trong bộ 3)
   trust/self-observation:
     - Trust.md v1.0 — §5 Default→Calibrated, §7 Trust Generalization, schema inheritance
-    - Self-Observation.md v1.0 — §4 Mức gradient, §5.2 PFC Budget, §2.4 External Scaffold
-  new-concepts:
-    - PFC-Operations.md v1.1 — §5 Compiled Quality Dimension
-    - Valence-Propagation.md v3.0 — §7 Hardware-Subsidy
-    - Entity-Access.md v1.2 — gradient Mức 0-5
-    - Dissonance-Signal-Architecture.md v1.0 — Evaluative vs Direct-State
-  mechanism:
-    - Body-Feedback-Mechanism.md v1.2 — Chunk-Shift/Miss/Gap
-    - Gap-Direction.md v1.0 — "chưa biết = không có gap"
-    - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, overjustification mechanism
-    - Compile-Taxonomy.md v3.0 — Trust Compile external install
-    - Cortisol-Baseline.md v2.0 — amplifier, direction > level
-    - Anchor-Schema.md v1.2 — 4 nguồn fill, trust
-    - Connection.md v5.0 — Valence-Structural bonds, 2-luồng, Hardware-Subsidy, Entity-Access
-    - Threat.md — 3 ORIGIN taxonomy
+    - Self-Observation.md v1.0 — §4 Level gradient, §5.2 PFC Budget, §2.4 External Scaffold
 research:
     - Whitebread & Bingham 2013 — money habits set by age 7 (UK Money Advice Service)
     - Amagir et al. 2018 — financial education programs review (knowledge ≠ behavior)
@@ -78,135 +52,135 @@ research:
     - Lusardi & Mitchell 2014 — financial literacy and economic outcomes
     - Michigan Ross — children form money attitudes at young age
     - Frontiers in Behavioral Economics 2023 — young children buying = feeling richer
-language: Tiếng Việt primary + English technical terms
+language: English (translated from Vietnamese primary + English technical terms)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Money-Education — Dạy Con Về Tiền Qua Lens Framework v7.8
+# Money-Education — Teaching Children About Money Through the Framework
 
-> **Mẹ nói: "Phải tiết kiệm!" PFC con ghi nhận. Body con: nothing.**
-> **3 tháng sau: vẫn tiêu hết tiền lì xì. Mẹ: "Sao không nghe lời?"**
+> **Parent says: "You must save!" PFC registers it. Body: nothing.**
+> **3 months later: still spent all the New Year gift money. Parent: "Why didn't you listen?"**
 >
-> **Bố nói: "Không học thì lớn lên nghèo!" Cortisol con fire.**
-> **Chunks compile: [học = tránh nghèo]. Avoidance tag. Suốt đời.**
+> **Parent says: "If you don't study, you'll grow up poor!" Cortisol fires in the child.**
+> **Chunks compile: [study = avoid poverty]. Avoidance tag. For life.**
 >
-> **Trẻ 5 tuổi tự mua kẹo bằng tiền riêng. Thiếu 2 đồng.**
-> **Body feel: "hết rồi = phải chờ." Chunk compile: [tiền = hữu hạn].**
-> **Approach tag. Không ai dạy. Body tự learn.**
+> **A 5-year-old buys candy with their own money. Two cents short.**
+> **Body feels: "it's gone = have to wait." Chunk compiles: [money = limited].**
+> **Approach tag. Nobody taught them. Body learned on its own.**
 >
-> **Cùng "dạy con về tiền". 3 cách. 3 direction. 3 kết quả suốt đời.**
+> **All three = "teaching children about money." 3 approaches. 3 directions. 3 lifelong outcomes.**
 >
-> **File này: dạy con về tiền ĐÚNG DIRECTION, ĐÚNG TIMING, ĐÚNG DEPTH.**
-> **Không phải "dạy gì" — mà "compile chunks NÀO với tag NÀO."**
+> **This file: teaching children about money with the RIGHT DIRECTION, RIGHT TIMING, RIGHT DEPTH.**
+> **Not "what to teach" — but "compile WHICH chunks with WHICH tag."**
 >
 > **Research: money habits compile by age 7 (Whitebread & Bingham 2013).**
-> **Framework: Background-Pattern hình thành = invisible bias suốt đời.**
+> **Framework: Background-Pattern forms = invisible bias for life.**
 > **Knowledge ≠ behavior (Mandell 2008). PFC ≠ body.**
 > **Direction > Level (Education-Mechanism §2.2).**
 >
-> **⚠️ Observation file — ứng dụng, KHÔNG phải mechanism.**
-> **Quy ước:** 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+> **⚠️ Observation file — application, NOT a mechanism file.**
+> **Convention:** 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ TRONG FRAMEWORK
-- §1 — TẠI SAO MONEY EDUCATION QUAN TRỌNG
-- §2 — TẠI SAO CURRENT APPROACHES FAIL
-- §3 — FRAMEWORK PRINCIPLES CHO MONEY EDUCATION
-- §4 — PER-AGE GUIDE: COMPILE GÌ, KHI NÀO
-- §5 — 5 SCHEMAS CẦN COMPILE + 5 SCHEMAS KHÔNG NÊN
+- §0 — POSITION IN THE FRAMEWORK
+- §1 — WHY MONEY EDUCATION MATTERS
+- §2 — WHY CURRENT APPROACHES FAIL
+- §3 — FRAMEWORK PRINCIPLES FOR MONEY EDUCATION
+- §4 — PER-AGE GUIDE: WHAT TO COMPILE, WHEN
+- §5 — 5 SCHEMAS TO COMPILE + 5 SCHEMAS TO AVOID
 - §6 — COMMON MISTAKES × FRAMEWORK MECHANISM
-- §7 — TIỀN × Valence-Structural BONDS: KHI NÀO KHÔNG DẠY VỀ TIỀN
+- §7 — MONEY × Valence-Structural BONDS: WHEN NOT TO USE MONEY
 - §8 — CULTURAL CONSIDERATIONS
-- §9 — AI ERA: MONEY EDUCATION KHI KINH TẾ THAY ĐỔI
+- §9 — AI ERA: MONEY EDUCATION AS THE ECONOMY CHANGES
 - §10 — HONEST ASSESSMENT
 - §11 — CROSS-REFERENCES
 
 ---
 
-## §0 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — POSITION IN THE FRAMEWORK
 
-### §0.1 — File này vs các file liên quan
+### §0.1 — This File vs Related Files
 
 ```
-⭐ BẢN ĐỒ:
+⭐ MAP:
 
   Money-Analysis.md (Research/)
-    = PHÂN TÍCH toàn diện tiền qua framework (~1,826L)
+    = COMPREHENSIVE ANALYSIS of money through the framework (~1,826L)
     = 3-layer definition, 5 functions, 6 paths, gap shift, Valence-Structural paradox
-    = GENERAL — áp dụng cho mọi người, mọi tuổi
+    = GENERAL — applies to everyone, all ages
 
-  Money-Education.md (Research/Education/Observation/) ← ĐÂY
-    = ỨNG DỤNG Money-Analysis vào EDUCATION context
-    = Per-age guide cho phụ huynh + giáo viên
-    = CỤ THỂ — áp dụng cho trẻ 0-18, compile-focused
+  Money-Education.md (Research/Education/Observation/) ← HERE
+    = APPLIES Money-Analysis to EDUCATION context
+    = Per-age guide for parents + teachers
+    = SPECIFIC — applies to children 0–18, compile-focused
 
-  QUAN HỆ:
-    Money-Analysis.md = "tiền LÀ GÌ, CƠ CHẾ gì" (mechanism-level)
-    Money-Education.md = "dạy con THẾ NÀO cho đúng" (application-level)
-    = Giống Connection.md (mechanism) → Connection-Education.md (application)
+  RELATIONSHIP:
+    Money-Analysis.md = "what IS money, WHAT MECHANISM" (mechanism-level)
+    Money-Education.md = "HOW to teach children correctly" (application-level)
+    = Like Connection.md (mechanism) → Connection-Education.md (application)
 
 
-  VỊ TRÍ TRONG BỘ EDUCATION:
+  POSITION IN THE EDUCATION STRUCTURE:
 
-    ┌──────────────────────────┬──────────────────────────────────────────┐
-    │ File                     │ Trả lời câu hỏi gì                      │
-    ├──────────────────────────┼──────────────────────────────────────────┤
-    │ Education-Mechanism.md   │ HOW thiết kế learning arc (nguyên lý)    │
-    │ Domain-Knowledge-Map.md  │ WHAT domain groups to learn (3-tier)     │
-    │ Observation/             │                                          │
-    │   Education-Arms-Race.md │ WHY arms race suppresses learning        │
-    │   Connection-Education.md │ WHO dạy social interaction (bộ 3)         │
-    │   ⭐ Money-Education.md  │ HOW dạy con về tiền (file này)           │
-    └──────────────────────────┴──────────────────────────────────────────┘
+    ┌──────────────────────────────┬─────────────────────────────────────────┐
+    │ File                         │ Answers which question                  │
+    ├──────────────────────────────┼─────────────────────────────────────────┤
+    │ Education-Mechanism.md       │ HOW to design the learning arc          │
+    │ Domain-Knowledge-Map.md      │ WHAT domain groups to learn (3-tier)    │
+    │ Observation/                 │                                         │
+    │   Education-Arms-Race.md     │ WHY arms race suppresses learning       │
+    │   Connection-Education.md    │ WHO social interaction education        │
+    │   ⭐ Money-Education.md      │ HOW to teach children about money (HERE)│
+    └──────────────────────────────┴─────────────────────────────────────────┘
 ```
 
 ### §0.2 — Scope
 
 ```
-FILE NÀY LÀM:
-  ✓ TẠI SAO money education quan trọng (research + framework)
-  ✓ TẠI SAO current approaches fail (knowledge-behavior gap mechanism)
-  ✓ Framework principles cho money education (derived, not new mechanism)
-  ✓ Per-age guide: compile GÌ, KHI NÀO, direction NÀO
-  ✓ Common mistakes × cơ chế framework
-  ✓ Valence-Structural bonds boundary: khi nào KHÔNG dùng tiền
+THIS FILE DOES:
+  ✓ WHY money education matters (research + framework)
+  ✓ WHY current approaches fail (knowledge-behavior gap mechanism)
+  ✓ Framework principles for money education (derived, not new mechanism)
+  ✓ Per-age guide: compile WHAT, WHEN, with which DIRECTION
+  ✓ Common mistakes × framework mechanism
+  ✓ Valence-Structural bonds boundary: when NOT to use money
   ✓ Cultural + AI era considerations
 
-FILE NÀY KHÔNG LÀM:
-  ✗ KHÔNG tạo mechanism MỚI (all derived từ existing files)
-  ✗ KHÔNG lặp Money-Analysis.md (reference, không copy)
-  ✗ KHÔNG lặp Education-Mechanism.md (reference 10 nguyên lý, không deep-dive)
-  ✗ KHÔNG phải financial literacy curriculum (= AI handle per student)
-  ✗ KHÔNG prescribe "cách dạy cụ thể" — dạy PRINCIPLES cho bố mẹ/giáo viên
-  ✗ KHÔNG phải financial advice
+THIS FILE DOES NOT:
+  ✗ Create NEW mechanisms (all derived from existing files)
+  ✗ Repeat Money-Analysis.md (references, not copies)
+  ✗ Repeat Education-Mechanism.md (references 10 principles, no deep dive)
+  ✗ Provide a financial literacy curriculum (= AI handles per student)
+  ✗ Prescribe "specific teaching methods" — gives PRINCIPLES for parents/teachers
+  ✗ Provide financial advice
 ```
 
-### §0.3 — Câu hỏi mở được trả lời
+### §0.3 — Question Being Answered
 
 ```
 Money-Analysis.md §10.4 Q8:
   "Children's money schemas: critical period for financial chunk compilation?"
 
-FILE NÀY TRẢ LỜI:
-  → Có critical period: Background-Pattern compile chính ở 0-7
-  → Nhưng KHÔNG phải "dạy tài chính từ 0 tuổi"
-  → Mà: DIRECTION of compilation matters most (approach vs avoidance)
-  → Và: BỐ MẸ đang compile money schemas cho con
-     DÙ KHÔNG CỐ Ý — qua hành vi, qua lời nói, qua cảm xúc
-  → = File này giúp BỐ MẸ BIẾT mình đang compile GÌ cho con
+THIS FILE ANSWERS:
+  → There IS a critical period: Background-Pattern primarily compiles in 0–7
+  → But it's NOT "teach finances from age 0"
+  → Rather: DIRECTION of compilation matters most (approach vs avoidance)
+  → And: PARENTS are already compiling money schemas for their children
+     EVEN WITHOUT INTENDING TO — through behavior, words, emotions
+  → = This file helps PARENTS KNOW what they're compiling for their children
 ```
 
 ---
 
-## §1 — TẠI SAO MONEY EDUCATION QUAN TRỌNG
+## §1 — WHY MONEY EDUCATION MATTERS
 
-### §1.1 — Money schemas compile by age 7
+### §1.1 — Money Schemas Compile by Age 7
 
 ```
-🟢 RESEARCH FINDING CỐT LÕI:
+🟢 CORE RESEARCH FINDING:
 
   Whitebread & Bingham (2013, UK Money Advice Service):
     "Children's money habits are largely SET by age 7."
@@ -215,150 +189,150 @@ FILE NÀY TRẢ LỜI:
 
   Michigan Ross (University of Michigan):
     → Children form distinct spendthrift vs tightwad TENDENCIES
-      by age 5-6, INDEPENDENT of parental behavior.
-    → 10% higher financial understanding khi parents regularly discuss spending.
+      by age 5–6, INDEPENDENT of parental behavior.
+    → 10% higher financial understanding when parents regularly discuss spending.
 
   Frontiers in Behavioral Economics (2023):
-    → Ages 3-4: grasp basic value/price concepts.
+    → Ages 3–4: grasp basic value/price concepts.
     → Associate buying with "feeling richer."
 
   Kalish (University of Wisconsin):
     → Age 12: economic understanding broadly comparable to adults.
 
 
-⭐ FRAMEWORK GIẢI THÍCH TẠI SAO:
+⭐ FRAMEWORK EXPLAINS WHY:
 
-  Research nói "habits set by age 7." Framework giải thích MECHANISM:
+  Research says "habits set by age 7." Framework explains the MECHANISM:
 
-  Background-Pattern.md §2-§3:
-    → Money schemas compile qua HÀNG NGHÌN micro-events (0-7)
-    → Mỗi event nhẹ: mẹ mua đồ, bố nói "đắt quá", xem quảng cáo
-    → NHƯNG: lặp lại HÀNG NGÀY × NHIỀU NĂM = Link Density CỰC CAO
-    → Trở thành BACKGROUND PATTERN: invisible to PFC, bias mọi thứ
+  Background-Pattern.md §2–§3:
+    → Money schemas compile through THOUSANDS of micro-events (0–7)
+    → Each event is light: parent buys something, says "that's expensive," an ad plays
+    → BUT: repeated DAILY × MANY YEARS = EXTREMELY HIGH Link Density
+    → Becomes a BACKGROUND PATTERN: invisible to PFC, biases everything
 
   2D Model (Compile Depth × Link Density):
-    → Mỗi micro-event: Compile Depth THẤP (nhẹ nhàng)
-    → NHƯNG: Link Density CỰC CAO (hàng nghìn events, multi-context)
-    → = Quadrant dưới phải: LOW DEPTH + HIGH DENSITY
+    → Each micro-event: Compile Depth LOW (light touch)
+    → BUT: Link Density EXTREMELY HIGH (thousands of events, multi-context)
+    → = Lower-right quadrant: LOW DEPTH + HIGH DENSITY
     → = INVISIBLE BUT PERVASIVE
-    → = "Tôi vốn vậy" — PFC label cho Background-Pattern
+    → = "That's just how I am" — the PFC label for Background-Pattern
 
-  HỆ QUẢ:
-    → Money schemas SAU age 7: phải build TRÊN nền này
-    → Nền lệch → mọi chunks tiếp theo lệch theo
-    → KHÔNG phải "không sửa được" — nhưng cost SỬA rất cao
-    → = Tại sao phòng ngừa > chữa trị
+  IMPLICATIONS:
+    → Money schemas AFTER age 7: must build ON TOP of this foundation
+    → If the foundation is skewed → all subsequent chunks skew accordingly
+    → NOT "impossible to fix" — but REPAIR cost is very high
+    → = Prevention > cure
 
   🟢 Whitebread & Bingham 2013: habit formation
   🟡 Background-Pattern mechanism = framework explains WHY habits set early
 ```
 
-### §1.2 — Bố mẹ ĐANG dạy — dù không cố ý
+### §1.2 — Parents Are ALREADY Teaching — Even Without Intending To
 
 ```
-⭐ COMPILE LIÊN TỤC, VÔ THỨC, TỪ NGÀY ĐẦU:
+⭐ COMPILING CONTINUOUSLY, UNCONSCIOUSLY, FROM DAY ONE:
 
-  COMPILE ARCHITECTURE ĐANG CHẠY cho money schemas:
+  COMPILE ARCHITECTURE RUNNING for money schemas:
 
-  4 dạng exposure qua cùng 1 Engine (Hebbian):
+  4 exposure modes through the same Engine (Hebbian):
 
-  Dạng ① REPETITION:
-    → Trẻ THẤY bố mẹ mua hàng hàng ngày → "tiền → đồ"
-    → Trẻ NGHE "đắt quá" hàng tuần → "chi tiêu = lo lắng"
-    → Trẻ THẤY bố mẹ cãi nhau về tiền → "tiền = conflict"
-    → Lặp lại 1,000+ lần → chunk MẠNH dù mỗi lần nhẹ
+  Mode ① REPETITION:
+    → Child SEES parents buying things daily → "money → goods"
+    → Child HEARS "that's too expensive" weekly → "spending = worry"
+    → Child SEES parents arguing about money → "money = conflict"
+    → Repeated 1,000+ times → chunk STRONG though each instance is light
 
-  Dạng ② EMOTIONAL PEAK:
-    → Bố mẹ stress về tiền → cortisol cao → trẻ detect qua body
-    → "Tháng này khó khăn" + mặt mẹ căng → chunk compile MẠNH
-    → Ngược lại: "Con được thưởng!" + mặt bố vui → approach tag
+  Mode ② EMOTIONAL PEAK:
+    → Parents stressed about money → high cortisol → child detects via body
+    → "This month is tough" + parent's tense face → chunk compiles STRONGLY
+    → Conversely: "You got a bonus!" + happy parent face → approach tag
 
-  Dạng ③ MULTI-MODAL:
-    → Trẻ SỜ tiền xu, THẤY tờ tiền, NGHE tiếng "keng keng"
-    → Vào siêu thị: MÙI, ÂM THANH, thấy bố mẹ SCAN thẻ
-    → Rich encoding → chunks compile sâu hơn lời dạy
+  Mode ③ MULTI-MODAL:
+    → Child TOUCHES coins, SEES paper money, HEARS "clink clink"
+    → At the grocery store: SMELLS, SOUNDS, sees parents SCAN card
+    → Rich encoding → chunks compile deeper than any verbal lesson
 
-  Dạng ④ SLEEP MAINTENANCE (Compile-Sleep.md v1.0):
-    → Hàng đêm: Gist Extraction → "tiền = IMPORTANT" abstract
+  Mode ④ SLEEP MAINTENANCE (Compile-Sleep.md v1.0):
+    → Each night: Gist Extraction → "money = IMPORTANT" abstract
     → Hippocampal Replay → strengthen money patterns
-    → Sleep Maintenance accelerate → Background-Pattern hình thành
+    → Sleep Maintenance accelerates → Background-Pattern forms
 
   + TRUST COMPILE PATHWAY (Entity-Valence dominant):
-    → Lời bố mẹ trực tiếp: "Phải tiết kiệm", "Tiền không mọc trên cây"
-    → Nhưng Trust Compile YẾU NHẤT nếu không có ①②③④ hỗ trợ
-    → = Đây là lý do "dạy bằng lời" KHÔNG ĐỦ
+    → Parent's direct words: "You must save," "Money doesn't grow on trees"
+    → But Trust Compile is WEAKEST alone without ①②③④ support
+    → = This is why "teaching with words" alone is NOT ENOUGH
 
 
-  ⚠️ INSIGHT QUAN TRỌNG:
-    → BỐ MẸ KHÔNG CẦN "DẠY VỀ TIỀN" ĐỂ CON LEARN VỀ TIỀN
-    → Con ĐANG learn từ: hành vi, cảm xúc, context XUNG QUANH
-    → Money education THẬT SỰ = ý thức về CÁI GÌ đang compile
-    → Không dạy = KHÔNG phải "không compile" — mà compile NGẪU NHIÊN
+  ⚠️ CRITICAL INSIGHT:
+    → PARENTS DON'T NEED TO "TEACH ABOUT MONEY" FOR CHILDREN TO LEARN ABOUT MONEY
+    → Children ARE learning from: behavior, emotions, SURROUNDING context
+    → Real money education = awareness of WHAT is being compiled
+    → Not teaching = NOT "not compiling" — it means compiling RANDOMLY
 
   🟡 Compile Architecture applied to money = framework synthesis
   🟢 Parental involvement = strongest predictor (CFPB literature review)
 ```
 
-### §1.3 — Approach/avoidance tags quyết định suốt đời
+### §1.3 — Approach/Avoidance Tags Determine Lifelong Outcomes
 
 ```
-⭐⭐ NGUYÊN LÝ QUAN TRỌNG NHẤT — DIRECTION > LEVEL:
+⭐⭐ THE MOST IMPORTANT PRINCIPLE — DIRECTION > LEVEL:
 
   Education-Mechanism §2.2:
-    "Cùng nội dung, khác cách dạy → khác tag → khác SUỐT ĐỜI"
+    "Same content, different teaching approach → different tag → different outcome FOR LIFE"
 
   APPLIED TO MONEY:
 
   APPROACH-TAGGED money chunks (novelty-path):
-    → "Tiền giúp mình LÀM ĐƯỢC nhiều thứ hay" → body pull TOWARDS
-    → "Hôm nay con tự mua được kem!" → achievement + approach
-    → "Tiết kiệm → SAU ĐÓ mua được thứ TO hơn" → delayed reward + approach
-    → Tương lai: relationship LÀNH MẠNH với tiền
-    → "Tiền = tool tôi dùng" — controllable, positive
+    → "Money helps me DO more interesting things" → body pull TOWARDS
+    → "Today I bought ice cream by myself!" → achievement + approach
+    → "Save now → get SOMETHING BIGGER later" → delayed reward + approach
+    → Future: HEALTHY relationship with money
+    → "Money = a tool I use" — controllable, positive
 
   AVOIDANCE-TAGGED money chunks (threat-path):
-    → "Không học → lớn lên NGHÈO KHỔ" → body pull AWAY
-    → "Mẹ không có tiền → mẹ buồn" → guilt + avoidance
-    → "Phải tiết kiệm TỪNG ĐỒNG" + mặt bố căng → threat + avoidance
-    → Tương lai: relationship ANXIETY với tiền
-    → "Tiền = mối đe dọa luôn rình rập" — uncontrollable, negative
+    → "Don't study → grow up POOR" → body pull AWAY
+    → "Mom doesn't have money → Mom is sad" → guilt + avoidance
+    → "Must save EVERY CENT" + parent's tense face → threat + avoidance
+    → Future: ANXIOUS relationship with money
+    → "Money = a threat always lurking" — uncontrollable, negative
 
 
-  CÙNG "TIẾT KIỆM" — 2 DIRECTION KHÁC NHAU:
+  SAME "SAVING" — 2 COMPLETELY DIFFERENT DIRECTIONS:
 
-    APPROACH: "Tiết kiệm = CON chọn cái TO hơn → pleasant hơn"
-      → Body: approach → "tiết kiệm = pleasant" → TỰ MUỐN
-      → Background-Pattern: [tiết kiệm = tôi kiểm soát, tôi chọn]
+    APPROACH: "Save = I CHOOSE the bigger thing → more pleasant"
+      → Body: approach → "saving = pleasant" → WANT TO ON OWN
+      → Background-Pattern: [saving = I control, I choose]
 
-    AVOIDANCE: "Phải tiết kiệm vì MẸ VẤT VẢ kiếm tiền!"
-      → Body: guilt → avoidance → "tiết kiệm = tránh xấu hổ"
-      → Background-Pattern: [tiết kiệm = tránh shame, anxiety]
+    AVOIDANCE: "Must save because MOM WORKS SO HARD!"
+      → Body: guilt → avoidance → "saving = avoid shame"
+      → Background-Pattern: [saving = avoid shame, anxiety]
 
-    → CẢ HAI dạy "tiết kiệm". KHÁC direction. KHÁC SUỐT ĐỜI.
+    → BOTH teach "saving." DIFFERENT direction. DIFFERENT FOR LIFE.
 
 
   ⭐ COMPILED QUALITY DIMENSION (PFC-Operations.md v1.1 §5):
 
-    Direction (approach/avoidance) = trục 1. COMPILE QUALITY = trục 2:
+    Direction (approach/avoidance) = Axis 1. COMPILE QUALITY = Axis 2:
 
-    ① GENUINE-COMPILED: trải nghiệm tự thân + approach
-      → "Con TỰ mua, TỰ tiết kiệm → body feel → opioid present"
-      → Chunks: self-reinforcing, không cần ai nhắc
-      → = Healthy money relationship suốt đời
+    ① GENUINE-COMPILED: direct experience + approach
+      → "Child THEMSELVES bought, THEMSELVES saved → body feels → opioid present"
+      → Chunks: self-reinforcing, doesn't need anyone's reminders
+      → = Healthy money relationship for life
 
-    ② SCHEMA-COMPILED: nghe lời dạy + neutral/obligation
-      → "Bố mẹ nói tiết kiệm quan trọng" → PFC ghi nhận, body chưa feel
-      → Chunks: fragile, cần bridge qua trải nghiệm
-      → = "Biết tiết kiệm tốt" nhưng KHÔNG TỰ LÀM
+    ② SCHEMA-COMPILED: heard teaching + neutral/obligation
+      → "Parents said saving is important" → PFC registers, body hasn't felt it
+      → Chunks: fragile, needs bridging through experience
+      → = "Knows saving is good" but DOESN'T DO IT ON OWN
 
-    ③ THREAT-COMPILED: bị dọa/phạt + avoidance
-      → "Không tiết kiệm → nghèo khổ!" → cortisol fire → compile MẠNH
-      → Chunks: avoidance locked, "GIỎI quản lý nhưng GHÉT nghĩ về tiền"
-      → = Functional nhưng ANXIETY relationship suốt đời
+    ③ THREAT-COMPILED: threatened/punished + avoidance
+      → "Don't save → poverty!" → cortisol fires → compiles STRONGLY
+      → Chunks: avoidance locked, "SKILLED at managing but HATES thinking about money"
+      → = Functional but ANXIOUS relationship for life
 
-    → COMPILE TYPE ≠ COMPILE QUALITY = 2 trục analysis
-    → "Giỏi quản lý tiền" có thể = genuine (healthy) HOẶC threat (anxious)
-    → = Phải hỏi: "con FEEL thế nào về tiền?" — không chỉ "con biết gì"
+    → COMPILE TYPE ≠ COMPILE QUALITY = 2-axis analysis
+    → "Good at managing money" can be genuine (healthy) OR threat (anxious)
+    → = Must ask: "How does the child FEEL about money?" — not just "what do they know"
 
 
   🟢 Approach/avoidance motivational systems: Lang & Bradley 2010
@@ -366,50 +340,50 @@ FILE NÀY TRẢ LỜI:
   🟡 Applied to money education = framework synthesis
 ```
 
-### §1.4 — Tại sao hầu hết phụ huynh "để tự nhiên"
+### §1.4 — Why Most Parents "Leave It to Nature"
 
 ```
-🟡 4 LÝ DO — QUA FRAMEWORK LENS:
+🟡 4 REASONS — THROUGH THE FRAMEWORK LENS:
 
-  ① THIẾU CHUNKS "DẠY CON VỀ TIỀN":
-    → Bố mẹ BẢN THÂN chưa bao giờ được dạy → chunks KHÔNG CÓ
-    → Gap-Direction.md: "Chưa biết = không có gap"
-    → Không feel gap → không feel cần dạy → để tự nhiên
+  ① MISSING CHUNKS "TEACH CHILDREN ABOUT MONEY":
+    → Parents THEMSELVES were never taught → chunks DON'T EXIST
+    → Gap-Direction.md: "Not yet knowing = no gap"
+    → Don't feel the gap → don't feel the need to teach → leave it to nature
 
-  ② BACKGROUND PATTERN [TIỀN = CHUYỆN NGƯỜI LỚN]:
-    → Compiled từ thế hệ trước: "con nít không cần biết chuyện tiền nong"
-    → Pattern CỰC MẠNH ở nhiều culture (đặc biệt châu Á — §8)
-    → PFC-invisible → "vốn vậy" → không question
+  ② BACKGROUND PATTERN [MONEY = ADULT MATTERS]:
+    → Compiled from previous generations: "children don't need to know about finances"
+    → Pattern EXTREMELY STRONG in many cultures (especially East Asian — §8)
+    → PFC-invisible → "just the way things are" → not questioned
 
-  ③ SỢ SAI DIRECTION (2 sợ kéo ngược):
-    → Dạy sớm → sợ "con tham tiền" → không dạy
-    → Không dạy → sợ "con không biết quản lý" → lo
-    → 2 sợ kéo ngược → ĐỨNG YÊN = path of least resistance
+  ③ AFRAID OF THE WRONG DIRECTION (2 fears pulling opposite ways):
+    → Teach early → afraid "child becomes greedy" → don't teach
+    → Don't teach → afraid "child doesn't know how to manage" → worry
+    → 2 opposite fears → FREEZE = path of least resistance
     → = Framework: approach-avoidance conflict → freeze
 
-  ④ BACKGROUND PATTERN CỦA BỐ MẸ → TRUYỀN SANG CON:
-    → Gia đình nghèo: Background-Pattern [tiền = khan hiếm, sinh tồn]
-      → Dạy con bằng THREAT: "không học → nghèo khổ"
-    → Gia đình giàu: Background-Pattern [tiền = dễ, có sẵn]
-      → Không dạy gì → premature compilation risk
-    → Gia đình trung lưu: Background-Pattern mixed
-      → Cách dạy tùy trải nghiệm bố mẹ → inconsistent
+  ④ PARENT'S OWN BACKGROUND PATTERN → TRANSMITTED TO CHILD:
+    → Low-income family: Background-Pattern [money = scarce, survival]
+      → Teaches child through THREAT: "don't study → poverty"
+    → Wealthy family: Background-Pattern [money = easy, available]
+      → Teaches nothing → premature compilation risk
+    → Middle-income family: Background-Pattern mixed
+      → Teaching approach varies by parent's own experience → inconsistent
 
-    → COMMON PATTERN: Background-Pattern CỦA BỐ MẸ = template cho Background-Pattern CON
-    → Không ý thức → cycle lặp lại cross-generational
+    → COMMON PATTERN: Parent's Background-Pattern = template for Child's Background-Pattern
+    → Without awareness → cycle repeats cross-generationally
 
-  🟡 4 lý do = framework analysis
+  🟡 4 reasons = framework analysis
   🟢 Parental financial socialization: Danes 1994, Gudmunson & Danes 2011
 ```
 
 ---
 
-## §2 — TẠI SAO CURRENT APPROACHES FAIL
+## §2 — WHY CURRENT APPROACHES FAIL
 
-### §2.1 — Knowledge-behavior gap: PFC ≠ body
+### §2.1 — Knowledge-Behavior Gap: PFC ≠ Body
 
 ```
-⭐ FINDING CỐT LÕI NHẤT TRONG MONEY EDUCATION RESEARCH:
+⭐ THE SINGLE MOST IMPORTANT FINDING IN MONEY EDUCATION RESEARCH:
 
   🟢 Mandell 2008:
     "Completion of a personal finance course in high school
@@ -425,649 +399,650 @@ FILE NÀY TRẢ LỜI:
     Classroom instruction alone = weakest.
 
 
-⭐ FRAMEWORK GIẢI THÍCH TẠI SAO:
+⭐ FRAMEWORK EXPLAINS WHY:
 
-  KIẾN THỨC ≠ CHUNKS COMPILED:
+  KNOWLEDGE ≠ COMPILED CHUNKS:
 
-    "Biết tiết kiệm quan trọng" = PFC hold explicit chunk
-      → YẾU: chưa compiled sâu, chưa approach-tagged
-      → Body KHÔNG feel "tiết kiệm = pleasant"
-      → = Lecture dạy PFC, body CHƯA compile
+    "Know saving is important" = PFC holds explicit chunk
+      → WEAK: not deeply compiled, not approach-tagged
+      → Body does NOT feel "saving = pleasant"
+      → = Lecture teaches PFC, body has NOT compiled
 
-    "Body FEEL tiết kiệm = pleasant" = compiled chunk + approach tag
-      → MẠNH: compiled qua experience, approach-tagged
-      → Body TỰ MUỐN tiết kiệm → không cần ai nhắc
-      → = Experience dạy body, PFC follows
+    "Body FEELS saving = pleasant" = compiled chunk + approach tag
+      → STRONG: compiled through experience, approach-tagged
+      → Body WANTS to save on its own → no one needs to remind
+      → = Experience teaches body, PFC follows
 
   = PFC-level instruction ≠ body-level compilation
   = Education-Mechanism §2.2: direction > level
-  = Giống "biết hút thuốc hại" (PFC) ≠ "bỏ được" (body chunks + Background-Pattern)
+  = Like "knowing smoking is harmful" (PFC) ≠ "being able to quit" (body chunks + Background-Pattern)
 
 
-  NGUYÊN NHÂN GỐC:
+  ROOT CAUSE:
 
-    Current money education = Trust Compile pathway (lời dạy)
-    → Trust Compile alone = YẾU NHẤT nếu không có ①②③④
-    → Thiếu: ② Emotional peak (trải nghiệm cảm xúc)
-    → Thiếu: ③ Multi-modal (sờ, nghe, thấy, làm)
-    → Thiếu: ① Repetition (chỉ dạy 1-2 buổi rồi thôi)
-    → = Compile failure: knowledge IN PFC nhưng NOT IN body
+    Current money education = Trust Compile pathway (verbal teaching)
+    → Trust Compile alone = WEAKEST if ①②③④ don't support it
+    → Missing: ② Emotional peak (experiential emotion)
+    → Missing: ③ Multi-modal (touch, hear, see, do)
+    → Missing: ① Repetition (taught in only 1–2 sessions then stopped)
+    → = Compile failure: knowledge IN PFC but NOT IN body
 
-    + TRUST MECHANISM: TẠI SAO "LỜI DẠY" PERSIST DÙ KHÔNG WORK (Trust.md v1.0):
-      → "Ngân hàng an toàn", "tiết kiệm quan trọng" = INSTALLED TRUST (Phase 1-2)
-      → Schema inheritance: bố mẹ nói → con install → CHƯA BAO GIỜ verify
-      → Trust.md §5: Default per-entity, chưa calibrated per-domain
-      → Người bình thường KHÔNG CÓ financial domain expertise để verify
-      → → Installed trust PERSIST vô thời hạn (absence of domain check ≠ trust correct)
-      → Financial literacy THẬT SỰ = learning to CALIBRATE financial trust (Phase 3-4)
-      → = Không chỉ "biết gì" mà "biết AI/NGUỒN NÀO đáng tin trong domain NÀO"
+    + TRUST MECHANISM: WHY "VERBAL TEACHING" PERSISTS DESPITE NOT WORKING (Trust.md v1.0):
+      → "Banks are safe," "saving is important" = INSTALLED TRUST (Phase 1–2)
+      → Schema inheritance: parents say it → child installs it → NEVER verified
+      → Trust.md §5: Default per-entity, not yet calibrated per-domain
+      → Average person LACKS financial domain expertise to verify
+      → → Installed trust PERSISTS indefinitely (absence of domain check ≠ trust correct)
+      → Real financial literacy = learning to CALIBRATE financial trust (Phase 3–4)
+      → = Not just "knowing what" but "knowing WHO/WHICH SOURCE to trust in WHICH domain"
 
   🟢 Mandell 2008: financial course = no measurable behavior impact
   🟢 Amagir et al. 2018: knowledge ↑ but behavior ≈ unchanged
   🟡 "PFC ≠ body compilation" = framework core insight
 ```
 
-### §2.2 — Overjustification: khi tiền phá hủy internal drive
+### §2.2 — Overjustification: When Money Destroys Internal Drive
 
 ```
-⭐ SAI LẦM PHỔ BIẾN NHẤT TRONG MONEY EDUCATION THỰC TẾ:
+⭐ THE MOST COMMON MISTAKE IN PRACTICE:
 
-  PATTERN PHỔ BIẾN:
-    → Cho tiền rửa bát → rửa bát vì tiền → hết tiền → không rửa
-    → Cho tiền học giỏi → học vì tiền → hết thưởng → không học
-    → Cho tiền đọc sách → đọc vì tiền → hết tiền → không đọc
+  COMMON PATTERN:
+    → Pay child to wash dishes → washes for money → no money → stops washing
+    → Pay child for good grades → studies for money → no reward → stops studying
+    → Pay child to read → reads for money → no money → stops reading
 
-  CƠ CHẾ (Reward-Signal-Architecture.md + Education-Mechanism §3.1):
-    Trước: hành vi có body-base reward NỘI TẠI → TỰ LÀM vì THÍCH
-    → Rửa bát giúp mẹ → mẹ vui → opioid từ connection → approach tag
-    Thêm tiền MẠNH → não switch track SANG tiền (external source MẠNH HƠN)
-    → Rửa bát = tiền → tiền = source mới
-    Rút tiền → reward = 0 (internal đã bị SUPPRESS) → DỪNG hành vi
-    → "Sao con không rửa bát nữa?" → "Mẹ có trả tiền đâu"
+  MECHANISM (Reward-Signal-Architecture.md + Education-Mechanism §3.1):
+    Before: behavior had INTRINSIC body-base reward → DID IT WILLINGLY because ENJOYED it
+    → Washing dishes helps parent → parent happy → opioid from connection → approach tag
+    Add strong external money → brain SWITCHES TRACK to money (external source STRONGER)
+    → Washing dishes = money → money = new reward source
+    Withdraw money → reward = 0 (internal already SUPPRESSED) → STOP behavior
+    → "Why doesn't the child wash dishes anymore?" → "You're not paying me"
 
-  ⚠️ NGHIÊM TRỌNG VÌ:
-    → Kill approach tag NỘI TẠI cho hành vi ĐÓ
-    → Thay bằng: [hành vi X = chỉ đáng khi có tiền]
-    → Background-Pattern compile: [giá trị = tiền, không tiền = không đáng]
-    → = Đây là lý do "trả tiền cho mọi thứ" = nguy hiểm
+  ⚠️ SERIOUS BECAUSE:
+    → Kills INTRINSIC approach tag for THAT behavior
+    → Replaces it with: [behavior X = only worthwhile when there's money]
+    → Background-Pattern compiles: [value = money, no money = not worth it]
+    → = This is why "paying for everything" is dangerous
 
-  PHÂN BIỆT OVERJUSTIFICATION VS BRIDGE:
-    Overjustification: external KILL internal ĐÃ CÓ
-    Bridge dependency: external NGĂN internal HÌNH THÀNH
-    → Cả 2 đều harmful — nhưng mechanisms KHÁC, solutions KHÁC
+  DISTINGUISH OVERJUSTIFICATION VS BRIDGE DEPENDENCY:
+    Overjustification: external KILLS internal that ALREADY EXISTS
+    Bridge dependency: external PREVENTS internal from FORMING
+    → Both are harmful — but DIFFERENT mechanisms, DIFFERENT solutions
 
   🟢 Overjustification: Deci 1971, Lepper et al. 1973
   🟢 Self-Determination Theory: Deci & Ryan 1985, 2000
   🟡 Kill approach tag = framework reframe of overjustification
 ```
 
-### §2.3 — Threat-path: "dọa nghèo" = avoidance tag suốt đời
+### §2.3 — Threat-Path: "Threatening Poverty" = Avoidance Tag for Life
 
 ```
-⭐ CẢ MỘT GENERATION COMPILED [TIỀN-WORK = AVOIDANCE]:
+⭐ AN ENTIRE GENERATION COMPILED [MONEY-WORK = AVOIDANCE]:
 
   3 ORIGIN TAXONOMY (Threat.md §5.5) APPLIED TO MONEY EDUCATION:
 
 
-  TYPE 1 — DOMAIN THREATS (từ reality):
-    → Mua kẹo hết tiền → hết = hết (reality phản hồi)
-    → Tiết kiệm → mua được → thành công (reality phản hồi)
-    → REAL, body-confirmable, agency cao
-    → Chunks compile: "tiền = hữu hạn, tôi QUẢN LÝ được"
-    → Education action: KEEP + enable trải nghiệm
+  TYPE 1 — DOMAIN THREATS (from reality):
+    → Buy candy, run out of money → gone = gone (reality responds)
+    → Save → buy something → success (reality responds)
+    → REAL, body-confirmable, high agency
+    → Chunks compile: "money = limited, I CAN MANAGE IT"
+    → Education action: KEEP + enable these experiences
 
-  TYPE 2 — PEER THREATS (từ bạn bè):
-    → "Bạn có iPhone, con không" → social comparison
+  TYPE 2 — PEER THREATS (from peers):
+    → "Friend has an iPhone, I don't" → social comparison
     → REAL, symmetric power, complex
-    → Chunks compile: "giàu ≠ giá trị, nhưng social reality"
-    → Education action: NAVIGATE — không phủ nhận, không khuếch đại
+    → Chunks compile: "wealthy ≠ better person, but social reality"
+    → Education action: NAVIGATE — don't deny, don't amplify
 
-  TYPE 3 — IMPOSED ADULT THREATS (từ authority):
-    → "Không học → lớn lên nghèo khổ!"
-    → "Bố mẹ vất vả KIẾM TIỀN nuôi con! Con phải biết ơn!"
-    → "Nhà mình NGHÈO, con đừng đòi hỏi!"
+  TYPE 3 — IMPOSED ADULT THREATS (from authority):
+    → "Don't study → grow up poor!"
+    → "Parents WORK HARD to raise you! You should be grateful!"
+    → "Our family is POOR, don't ask for things!"
     → ARTIFICIAL, asymmetric power, often CHRONIC
-    → Chunks compile: [tiền-work = tránh nghèo, tránh shame, tránh guilt]
-    → AVOIDANCE TAG → relationship ANXIETY với tiền SUỐT ĐỜI
+    → Chunks compile: [money-work = avoid poverty, avoid shame, avoid guilt]
+    → AVOIDANCE TAG → LIFELONG anxious relationship with money
 
 
-  ⭐ TẠI SAO TYPE 3 LÀ PHỔ BIẾN NHẤT:
+  ⭐ WHY TYPE 3 IS THE MOST COMMON:
 
-    Bố mẹ THẬT SỰ stress về tiền (Background-Pattern [tiền = survival])
-    → Cortisol cao → body state truyền sang con
-    → Dùng tiền như THREAT tool (vô thức, không cố ý)
-    → = Background-Pattern CỦA BỐ MẸ truyền sang con qua Type 3 mechanism
+    Parents ARE GENUINELY stressed about money (Background-Pattern [money = survival])
+    → High cortisol → body state transmits to child
+    → Use money as THREAT tool (unconscious, not intentional)
+    → = Parent's Background-Pattern transmits to child via Type 3 mechanism
 
-    → KHÔNG phải bố mẹ xấu — là Background-Pattern của BỐ MẸ chưa resolve
+    → NOT "bad parents" — it's the parents' own unresolved Background-Pattern
     → = Cross-generational pattern transmission
 
 
-  CÙNG CORTISOL LEVEL, KHÁC ORIGIN → KHÁC HOÀN TOÀN:
+  SAME CORTISOL LEVEL, DIFFERENT ORIGIN → COMPLETELY DIFFERENT OUTCOMES:
 
-    Type 1 (mua hết tiền): "à, hết rồi" → resilience + planning
-    Type 2 (bạn giàu hơn): "khác nhau" → social awareness
-    Type 3 (bố dọa nghèo): "phải tránh nghèo" → anxiety + avoidance
+    Type 1 (bought candy, ran out): "oh, it's gone" → resilience + planning
+    Type 2 (friend is richer): "we're different" → social awareness
+    Type 3 (parent threatens poverty): "must avoid being poor" → anxiety + avoidance
 
-    → "Moderate pressure" CHƯA ĐỦ — phải hỏi "pressure TỪ ĐÂU?"
+    → "Moderate pressure" is NOT ENOUGH — must ask "pressure FROM WHERE?"
 
-  🟡 DISSONANCE SIGNAL ARCHITECTURE LENS (Dissonance-Signal-Architecture.md v1.0):
-    → Type 3 "dọa nghèo" tạo Evaluative Dissonance (E₂-E₃ compiled):
-      "tôi = gánh nặng" / "tôi không xứng đáng" = compiled VÀO identity
-    → Khác stress tạm thời: Evaluative = workable (reframe), Direct-State = cần rest
-    → Nhưng Type 3 chronic → Evaluative compile DEEP → BẮT ĐẦU resist reframe
-    → Meta-skill cần dạy: nhận biết "tôi đang stress về tiền" = LOẠI NÀO
-    → = Body-check cho money feelings = high PFC cost nhưng ĐÁNG
+  🟡 DISSONANCE-SIGNAL-ARCHITECTURE LENS (Dissonance-Signal-Architecture.md v1.0):
+    → Type 3 "threatening poverty" creates Evaluative Dissonance (E₂-E₃ compiled):
+      "I = a burden" / "I don't deserve" = compiled INTO identity, not just temporary stress
+    → Different from temporary stress: Evaluative = workable (reframe), Direct-State = needs rest
+    → But Type 3 chronic → Evaluative compiles DEEP → starts to RESIST reframing
+    → Meta-skill to teach: recognizing "I'm stressed about money" = WHICH TYPE
+    → = Body-check for money feelings = high PFC cost but WORTH IT
 
   🟢 Authority-based shame most damaging: Slavich 2010
   🟡 3 ORIGIN applied to money education = framework synthesis
 ```
 
-### §2.4 — Premature compilation: cho quá nhiều, quá sớm
+### §2.4 — Premature Compilation: Too Much, Too Soon
 
 ```
-🟡 NGƯỢC VỚI THREAT-PATH — NHƯNG CŨNG HARMFUL:
+🟡 OPPOSITE OF THREAT-PATH — BUT ALSO HARMFUL:
 
   PATTERN:
-    → Gia đình giàu: con muốn gì → mua ngay
-    → Ông bà: cho cháu nhiều tiền "cho vui"
-    → Thưởng liên tục: mọi thành tích đều = tiền/quà lớn
+    → Wealthy family: child wants something → buy it immediately
+    → Grandparents: give grandchildren lots of money "for fun"
+    → Continuous rewards: every achievement = money/large gift
 
-  CƠ CHẾ (Reward-Calibration.md §3.4):
-    → Gap [cần tiền] CÓ → nhưng fill NGAY lập tức, không qua effort
-    → Chunks compile: [tiền = free, muốn = được, không cần đợi]
-    → Threshold adaptation: baseline shift LÊN rất nhanh
-    → Delayed gratification chunks KHÔNG BAO GIỜ compile
-    → = "Xây nhà trên cát" — nền lệch, mọi thứ sau lệch theo
+  MECHANISM (Reward-Calibration.md §3.4):
+    → Gap [need money] EXISTS → but filled IMMEDIATELY without effort
+    → Chunks compile: [money = free, want = get, no need to wait]
+    → Threshold adaptation: baseline shifts UP very quickly
+    → Delayed gratification chunks NEVER compile
+    → = "Building on sand" — foundation is skewed, everything after is skewed
 
-  HỆ QUẢ:
-    → Age 18: ra đời → lần đầu tiền KHÔNG free → chunk-miss CỰC LỚN
-    → Background-Pattern [tiền = có sẵn] × reality [tiền = phải kiếm]
-    → = MISMATCH → dissonance → có thể crisis
-    → Giống lottery winner effect (Brickman 1978): sudden wealth → worse off
-      nhưng NGƯỢC: từ "giàu" → "phải tự kiếm" = sudden poverty relative
+  IMPLICATIONS:
+    → Age 18: enters the world → first time money is NOT free → massive chunk-miss
+    → Background-Pattern [money = available] × reality [money = must earn]
+    → = MISMATCH → dissonance → possible crisis
+    → Like lottery winner effect (Brickman 1978): sudden wealth → worse off
+      but in REVERSE: from "rich" → "must earn own way" = sudden relative poverty
 
-  ⚠️ PREMATURE COMPILATION VÀ OVERJUSTIFICATION OVERLAP:
-    → Overjustification: tiền kill internal drive (cho tiền cho thứ đang thích)
-    → Premature compilation: tiền quá nhiều quá sớm (cho tiền không qua effort)
-    → Cả 2 có thể xảy ra ĐỒNG THỜI → compound damage
-    → VÀ thêm threshold adaptation → triple compound
+  ⚠️ PREMATURE COMPILATION AND OVERJUSTIFICATION CAN OVERLAP:
+    → Overjustification: money kills internal drive (pay money for something already enjoyed)
+    → Premature compilation: too much money too soon (give money without effort)
+    → Both can happen SIMULTANEOUSLY → compound damage
+    → AND add threshold adaptation → triple compound
 
   🟢 Hedonic adaptation: Brickman & Campbell 1971, Brickman 1978
   🟢 Delayed gratification: Mischel et al. 1989 (marshmallow)
   🟡 Premature compilation applied to children = framework synthesis
 ```
 
-### §2.5 — Tổng hợp: 4 failure modes
+### §2.5 — Summary: 4 Failure Modes
 
 ```
-  ┌───┬───────────────────────────┬────────────────────────────────────────┐
-  │ # │ Failure mode              │ Framework mechanism                    │
-  ├───┼───────────────────────────┼────────────────────────────────────────┤
-  │ ① │ Knowledge-behavior gap    │ Trust Compile only → PFC not body     │
-  │   │ (classroom instruction)   │ → chunks KHÔNG compile deep           │
-  ├───┼───────────────────────────┼────────────────────────────────────────┤
-  │ ② │ Overjustification         │ External reward source OVERRIDE        │
-  │   │ (trả tiền cho mọi thứ)   │ internal drive → rút = collapse        │
-  ├───┼───────────────────────────┼────────────────────────────────────────┤
-  │ ③ │ Threat-path               │ Type 3 Imposed → avoidance tag         │
-  │   │ (dọa nghèo, guilt)       │ → anxiety với tiền SUỐT ĐỜI           │
-  ├───┼───────────────────────────┼────────────────────────────────────────┤
-  │ ④ │ Premature compilation     │ Reward quá sớm/nhiều → threshold       │
-  │   │ (cho quá nhiều quá sớm)  │ shift + delayed gratification MISS     │
-  └───┴───────────────────────────┴────────────────────────────────────────┘
+  ┌───┬─────────────────────────────┬────────────────────────────────────────┐
+  │ # │ Failure mode                │ Framework mechanism                    │
+  ├───┼─────────────────────────────┼────────────────────────────────────────┤
+  │ ① │ Knowledge-behavior gap      │ Trust Compile only → PFC not body     │
+  │   │ (classroom instruction)     │ → chunks DO NOT compile deep           │
+  ├───┼─────────────────────────────┼────────────────────────────────────────┤
+  │ ② │ Overjustification           │ External reward source OVERRIDES       │
+  │   │ (paying for everything)     │ internal drive → withdraw = collapse   │
+  ├───┼─────────────────────────────┼────────────────────────────────────────┤
+  │ ③ │ Threat-path                 │ Type 3 Imposed → avoidance tag         │
+  │   │ (threatening poverty, guilt)│ → anxious relationship with money FOR LIFE│
+  ├───┼─────────────────────────────┼────────────────────────────────────────┤
+  │ ④ │ Premature compilation       │ Reward too early/too much → threshold  │
+  │   │ (too much too soon)         │ shift + delayed gratification MISSED   │
+  └───┴─────────────────────────────┴────────────────────────────────────────┘
 
   PATTERN:
-    → ① Dạy bằng lời = YẾU (PFC only)
-    → ② Dạy bằng tiền = NGUY HIỂM (kill internal drive)
-    → ③ Dạy bằng đe dọa = HẠI (avoidance tag)
-    → ④ Không dạy, cho nhiều = LỆCH (premature compilation)
+    → ① Teaching with words = WEAK (PFC only)
+    → ② Teaching with money = DANGEROUS (kills internal drive)
+    → ③ Teaching with threats = HARMFUL (avoidance tag)
+    → ④ Not teaching, giving lots = SKEWED (premature compilation)
 
-    → SÓT: DẠY BẰNG TRẢI NGHIỆM = ĐÚNG NHẤT
-    → = §3 sẽ giải thích HOW
+    → MISSING: TEACHING THROUGH EXPERIENCE = MOST CORRECT
+    → = §3 explains HOW
 ```
 
 ---
 
-## §3 — FRAMEWORK PRINCIPLES CHO MONEY EDUCATION
+## §3 — FRAMEWORK PRINCIPLES FOR MONEY EDUCATION
 
-> **⭐ CORE CỦA FILE.**
-> §0-§2 đặt vấn đề. Section này = GIẢI PHÁP.
-> 6 nguyên lý derived từ Education-Mechanism.md 10 nguyên lý
+> **⭐ CORE OF THIS FILE.**
+> §0–§2 frames the problem. This section = THE SOLUTION.
+> 6 principles derived from Education-Mechanism.md's 10 principles
 > + Money-Analysis.md insights + research evidence.
-> KHÔNG prescribe "dạy cách nào" — cho PRINCIPLES để navigate.
+> NOT prescribing "specific teaching methods" — provides PRINCIPLES to navigate.
 
-### §3.1 — Nguyên lý 1: Experience > Lecture (Compile qua trải nghiệm)
+### §3.1 — Principle 1: Experience > Lecture (Compile through experience)
 
 ```
-⭐ TRẢI NGHIỆM COMPILE, LỜI DẠY KHÔNG:
+⭐ EXPERIENCE COMPILES, LECTURES DON'T:
 
-  NGUYÊN LÝ:
-    → Cho con TRẢI NGHIỆM tiền → body compile chunks THẬT
-    → Nói về tiền = kênh ⑤ only → YẾU
-    → Trải nghiệm = kênh ①②③ → MẠNH
+  PRINCIPLE:
+    → Give children EXPERIENCES with money → body compiles REAL chunks
+    → Talking about money = channel ⑤ only → WEAK
+    → Experience = channels ①②③ → STRONG
 
   APPLICATION:
 
     ✅ APPROACH-DIRECTION experiences:
-      → Cho trẻ TỰ CẦM tiền mua kẹo (3-4 tuổi)
-        → Body feel: "tôi CHỌN, tôi ĐỔI, tôi NHẬN"
-        → Chunks: [tiền → lựa chọn → kết quả → approach]
-      → Cho trẻ TỰ TIẾT KIỆM cho thứ muốn (5-6 tuổi)
-        → Body feel: "chờ → nhận thứ TO hơn → pleasant!"
-        → Chunks: [tiết kiệm → delayed reward → approach]
-      → Cho trẻ TỰ SO SÁNH GIÁ khi mua đồ (7-9 tuổi)
-        → Body feel: "tôi tìm giá tốt → smart!"
-        → Chunks: [so sánh → tiết kiệm → competence → approach]
+      → Let children BUY CANDY ON THEIR OWN (3–4 years old)
+        → Body feels: "I CHOSE, I EXCHANGED, I RECEIVED"
+        → Chunks: [money → choice → outcome → approach]
+      → Let children SAVE FOR SOMETHING THEY WANT (5–6 years old)
+        → Body feels: "wait → get the BIGGER thing → pleasant!"
+        → Chunks: [saving → delayed reward → approach]
+      → Let children COMPARE PRICES when buying things (7–9 years old)
+        → Body feels: "I found a good price → smart!"
+        → Chunks: [comparing → saving → competence → approach]
 
     ❌ AVOIDANCE-DIRECTION lectures:
-      → "Phải tiết kiệm vì nhà mình nghèo!" (guilt + avoidance)
-      → "Tiền không mọc trên cây!" (threat + avoidance)
-      → "Con biết bố mẹ vất vả không?" (shame + avoidance)
+      → "Must save because our family is poor!" (guilt + avoidance)
+      → "Money doesn't grow on trees!" (threat + avoidance)
+      → "Do you know how hard your parents work?" (shame + avoidance)
 
   INSIGHT:
-    → Trải nghiệm NHỎHẾT TIỀN → body learn "hữu hạn"
-      BẤT KỲ bài giảng nào về "hữu hạn" KHÔNG MẠNH BẰNG
-    → 1 trải nghiệm tự mua → 10 bài giảng về tiền
-    → Vì: Experience Compile (②③) MẠNH HƠN Trust Compile về chunk depth
+    → 1 experience of RUNNING OUT OF MONEY → body learns "limited"
+      MORE THAN ANY lecture about "limited resources"
+    → 1 experience of buying something yourself > 10 money lessons
+    → Because: Experience Compile (②③) = STRONGER than Trust Compile in chunk depth
 
   🟢 Experiential learning > classroom: CFPB literature review
   🟡 Compile Architecture applied to money = framework synthesis
 ```
 
-### §3.2 — Nguyên lý 2: Approach direction LUÔN LUÔN (Direction > Level)
+### §3.2 — Principle 2: Approach Direction ALWAYS (Direction > Level)
 
 ```
-⭐ MỌI TƯƠNG TÁC VỀ TIỀN → CHECK DIRECTION:
+⭐ BEFORE EVERY MONEY INTERACTION → CHECK DIRECTION:
 
-  NGUYÊN LÝ:
-    → TRƯỚC KHI nói/dạy/cho bất cứ gì về tiền
-    → HỎI: "Cái này sẽ compile APPROACH hay AVOIDANCE tag?"
-    → Nếu approach → tiến hành
-    → Nếu avoidance → DỪNG LẠI, đổi cách
+  PRINCIPLE:
+    → BEFORE saying/teaching/giving anything about money
+    → ASK: "Will this compile an APPROACH or AVOIDANCE tag?"
+    → If approach → proceed
+    → If avoidance → STOP, change approach
 
-    + SELF-OBSERVATION CHO QUYẾT ĐỊNH TÀI CHÍNH (Self-Observation.md v1.0):
-      → "Muốn mua" = body signal (approach gap fire) → NHƯNG source NÀO?
-      → Mức 0-1: impulse buy — signal fire → hành động NGAY, không observe
-      → Mức 2: "tôi đang muốn mua" — nhận biết CÓ body signal
-      → Mức 3: "TẠI SAO tôi muốn mua?" — identify source:
-        stress? → mua = cortisol relief (tạm thời, không giải quyết gốc)
-        envy? → thấy bạn có → social comparison gap (Status.md)
-        genuine need? → body-base gap thật → approach (healthy)
+    + SELF-OBSERVATION FOR FINANCIAL DECISIONS (Self-Observation.md v1.0):
+      → "Wanting to buy" = body signal (approach gap fires) → BUT from WHICH source?
+      → Level 0–1: impulse buy — signal fires → act IMMEDIATELY, no observation
+      → Level 2: "I want to buy" — recognizes THAT there's a body signal
+      → Level 3: "WHY do I want to buy?" — identifies the source:
+        stress? → buying = temporary cortisol relief (doesn't address root)
+        envy? → saw friend has something → social comparison gap (Status.md)
+        genuine need? → body-base gap is real → approach (healthy)
       → = Financial self-awareness = Self-Observation applied to spending behavior
-      → BỐ MẸ scaffold: "Con muốn mua — thử DỪNG 1 ngày xem còn muốn?"
-        = External scaffold cho Self-Observation Mức 3 (Self-Observation.md §2.4)
+      → PARENT SCAFFOLD: "You want to buy it — try WAITING 1 day and see if you still want it?"
+        = External scaffold for Self-Observation Level 3 (Self-Observation.md §2.4)
 
-  REFRAME MỌI TÌNH HUỐNG VỀ APPROACH:
+  REFRAMING EVERY SITUATION TOWARD APPROACH:
 
-    ┌────────────────────────────────┬────────────────────────────────────┐
-    │ Avoidance (❌ TRÁNH)           │ Approach (✅ ĐỔI SANG)            │
-    ├────────────────────────────────┼────────────────────────────────────┤
-    │ "Phải tiết kiệm vì nhà        │ "Tiết kiệm → con CHỌN được       │
-    │  nghèo!"                      │  thứ CON muốn!"                   │
-    ├────────────────────────────────┼────────────────────────────────────┤
-    │ "Không học → nghèo!"          │ "Học → con BIẾT nhiều → LÀM được  │
-    │                                │  nhiều thứ hay!"                  │
-    ├────────────────────────────────┼────────────────────────────────────┤
-    │ "Bố mẹ vất vả kiếm tiền      │ "Bố mẹ LÀM VIỆC vì BỐ MẸ thích. │
-    │  nuôi con!"                    │  Con sẽ tìm VIỆC CON thích."     │
-    ├────────────────────────────────┼────────────────────────────────────┤
-    │ "Đắt quá, không mua được!"    │ "Thứ này NHIỀU tiền — con muốn   │
-    │                                │  thì mình TIẾT KIỆM cho!"       │
-    ├────────────────────────────────┼────────────────────────────────────┤
-    │ "Nhà mình không giàu như       │ "Mỗi nhà KHÁC NHAU — nhà mình   │
-    │  nhà bạn!"                    │  có CÁI KHÁC hay!"               │
-    └────────────────────────────────┴────────────────────────────────────┘
+    ┌─────────────────────────────────┬─────────────────────────────────────┐
+    │ Avoidance (❌ AVOID)            │ Approach (✅ REFRAME TO)            │
+    ├─────────────────────────────────┼─────────────────────────────────────┤
+    │ "Must save because we're poor!" │ "Save → you CHOOSE the             │
+    │                                 │  bigger thing you want!"           │
+    ├─────────────────────────────────┼─────────────────────────────────────┤
+    │ "Don't study → poverty!"        │ "Study → you'll KNOW more → DO     │
+    │                                 │  more interesting things!"         │
+    ├─────────────────────────────────┼─────────────────────────────────────┤
+    │ "Parents WORK HARD to raise     │ "Parents WORK because they ENJOY   │
+    │  you!"                          │  their work. You'll find work      │
+    │                                 │  YOU enjoy."                       │
+    ├─────────────────────────────────┼─────────────────────────────────────┤
+    │ "That's too expensive, can't    │ "This costs a lot — if you want    │
+    │  buy it!"                       │  it, let's SAVE for it!"           │
+    ├─────────────────────────────────┼─────────────────────────────────────┤
+    │ "Our family isn't as rich as    │ "Every family is DIFFERENT —       │
+    │  theirs!"                       │  our family has OTHER good things!"│
+    └─────────────────────────────────┴─────────────────────────────────────┘
 
 
-  ⚠️ KHÔNG PHẢI "NÓI DỐI" HAY "GIẤU NGHÈO":
-    → Approach direction ≠ phủ nhận reality
-    → "Nhà mình không có nhiều tiền" = THẬT → OK
-    → "Nhà mình không có nhiều tiền → nên mình CHỌN kỹ" = approach reframe
-    → "Nhà mình nghèo → CON PHẢI biết ơn" = avoidance (guilt inject)
-    → Khác biệt: AGENCY. Approach = con có thể LÀM GÌ ĐÓ.
-      Avoidance = con phải SỢ / XẤU HỔ.
+  ⚠️ NOT "LYING" OR "HIDING POVERTY":
+    → Approach direction ≠ denying reality
+    → "Our family doesn't have a lot of money" = TRUTH → OK
+    → "Our family doesn't have a lot of money → so we CHOOSE carefully" = approach reframe
+    → "Our family is poor → you MUST be grateful" = avoidance (guilt inject)
+    → The difference: AGENCY. Approach = the child can DO something.
+      Avoidance = child must FEAR / BE ASHAMED.
 
   🟡 Direction > Level applied to money = Education-Mechanism §2.2
 ```
 
-### §3.3 — Nguyên lý 3: Goldilocks — đủ để learn, không quá dư
+### §3.3 — Principle 3: Goldilocks — Enough to Learn, Not Too Much
 
 ```
-🟡 TIỀN NHƯ THUỐC: ĐÚNG LIỀU = CHỮA, QUÁ LIỀU = NGỘ ĐỘC:
+🟡 MONEY IS LIKE MEDICINE: RIGHT DOSE = HEALS, OVERDOSE = TOXIC:
 
-  NGUYÊN LÝ:
-    → Quá ít exposure → chunks KHÔNG compile (không có gì để learn)
-    → Đủ exposure → chunks compile healthy (trải nghiệm + learn)
-    → Quá nhiều → threshold shift + premature compilation (damage)
+  PRINCIPLE:
+    → Too little exposure → chunks DON'T compile (nothing to learn from)
+    → Enough exposure → chunks compile healthily (experience + learn)
+    → Too much → threshold shift + premature compilation (damage)
     → = Goldilocks (Reward-Calibration.md §1)
 
 
   APPLICATION PER-AGE:
 
-    0-3 tuổi: exposure RẤT ÍT — gần ZERO trực tiếp
-      → Chưa có prerequisite chunks (số đếm, khái niệm "đổi")
-      → NHƯNG: con ĐANG observe bố mẹ dùng tiền → compile gián tiếp
-      → Goldilocks = bố mẹ ý thức HÀNH VI MÌNH (vì con đang copy)
+    Ages 0–3: exposure VERY LITTLE — near ZERO direct
+      → No prerequisite chunks yet (counting, concept of "exchange")
+      → BUT: child IS observing parents using money → compiling indirectly
+      → Goldilocks = parents are aware of THEIR OWN BEHAVIOR (child is copying)
 
-    3-6 tuổi: exposure NHẸ — mini-experiences
-      → Cho cầm tiền xu, cho TỰ trả khi mua kẹo
-      → KHÔNG cho số tiền lớn → chỉ đủ để "feel" concept
-      → Goldilocks = đủ để compile [tiền = đổi được đồ]
-        KHÔNG đủ để compile [tiền = power]
+    Ages 3–6: exposure LIGHT — mini-experiences
+      → Let them hold coins, let them PAY when buying candy
+      → DON'T give large amounts → just enough to "feel" the concept
+      → Goldilocks = enough to compile [money = can exchange for things]
+        NOT enough to compile [money = power]
 
-    6-12 tuổi: exposure VỪA — tiêu vặt + tiết kiệm nhỏ
-      → Allowance nhỏ + tự quản lý + tự chịu hậu quả
-      → Goldilocks = đủ để compile management chunks
-        KHÔNG đủ để compile [tiền = quyền lực]
+    Ages 6–12: exposure MODERATE — small allowance + small savings
+      → Small allowance + self-manage + face natural consequences
+      → Goldilocks = enough to compile management chunks
+        NOT enough to compile [money = power]
 
-    12-18 tuổi: exposure MODERATE — kiếm tiền thật + budget thật
-      → Part-time work, budget cho nhu cầu riêng
-      → Goldilocks = đủ để compile [effort → reward]
-        KHÔNG đủ để quên education priority
+    Ages 12–18: exposure MODERATE-HIGH — real earnings + real budget
+      → Part-time work, budget for personal needs
+      → Goldilocks = enough to compile [effort → reward]
+        NOT enough to lose sight of education priority
 
   🟡 Goldilocks = Reward-Calibration §1 applied to money education
 ```
 
-### §3.4 — Nguyên lý 4: Natural consequences > Imposed consequences
+### §3.4 — Principle 4: Natural Consequences > Imposed Consequences
 
 ```
-⭐ ĐỂ DOMAIN PHẢN HỒI — ĐỪNG BỐ MẸ PHẢN HỒI THAY:
+⭐ LET THE DOMAIN RESPOND — DON'T HAVE PARENTS RESPOND INSTEAD:
 
-  NGUYÊN LÝ:
+  PRINCIPLE:
     → Type 1 Domain threats = HEALTHY (reality teaches)
     → Type 3 Imposed threats = HARMFUL (authority punishes)
-    → Cho con TRẢI NGHIỆM hậu quả tự nhiên của tiền
+    → Let children EXPERIENCE the natural consequences of money decisions
 
   APPLICATION:
 
     ✅ NATURAL CONSEQUENCES (Domain — Type 1):
-      → Tiêu hết tiền → KHÔNG CÒN → phải chờ → body learn "hữu hạn"
-      → Mua đồ dở → thất vọng → body learn "chọn kỹ"
-      → Tiết kiệm → mua được thứ to → body learn "đợi = đáng"
-      → = Reality TRỰC TIẾP dạy → chunks compile APPROACH (agency)
+      → Spend all money → NOTHING LEFT → must wait → body learns "limited"
+      → Buy a bad product → disappointment → body learns "choose carefully"
+      → Save → buy the bigger thing → body learns "waiting = worth it"
+      → = Reality DIRECTLY teaches → chunks compile APPROACH (agency)
 
     ❌ IMPOSED CONSEQUENCES (Authority — Type 3):
-      → Tiêu hết tiền → BỐ MẸ phạt → body learn "bố mẹ giận"
-      → Mua đồ dở → bố mẹ mắng "sao không nghe lời" → shame
-      → Không tiết kiệm → bố mẹ cắt quyền lợi → punishment
-      → = Authority GIÁN TIẾP dạy → chunks compile AVOIDANCE
+      → Spend all money → PARENT PUNISHES → body learns "parent is angry"
+      → Buy a bad product → parent scolds "why didn't you listen" → shame
+      → Don't save → parent cuts privileges → punishment
+      → = Authority INDIRECTLY teaches → chunks compile AVOIDANCE
 
   INSIGHT:
-    → "Hết tiền" = natural consequence → body learn hữu hạn
-    → Bố mẹ KHÔNG CẦN phạt thêm — domain ĐÃ phạt rồi
-    → "Bố mẹ mắng" TRÊN natural consequence = DOUBLE punishment
-    → = Thừa → chuyển từ Type 1 (healthy) sang Type 3 (harmful)
+    → "Ran out of money" = natural consequence → body learns about limits
+    → Parents do NOT need to punish additionally — the domain ALREADY punished
+    → "Parent scolding" ON TOP of natural consequence = DOUBLE punishment
+    → = Excessive → shifts from Type 1 (healthy) to Type 3 (harmful)
 
-  ⚠️ GIỚI HẠN:
-    → Natural consequences CHỈ AN TOÀN khi stakes THẤP
-    → Trẻ 6 tuổi mất 20,000đ tiêu vặt = an toàn (learn)
-    → Trẻ 16 tuổi mất 2 triệu = có thể quá nặng (trauma risk)
-    → = Goldilocks: stakes phải VỪA ĐỦ để learn, không overwhelm
+  ⚠️ LIMITS:
+    → Natural consequences are only SAFE when stakes are LOW
+    → 6-year-old loses small pocket money = safe (learns)
+    → 16-year-old loses significant money = may be too heavy (trauma risk)
+    → = Goldilocks: stakes must be JUST ENOUGH to learn, not overwhelm
 
   🟡 Type 1 vs Type 3 consequences = Threat.md §5.5 applied
 ```
 
-### §3.5 — Nguyên lý 5: Không monetize internal drive
+### §3.5 — Principle 5: Don't Monetize Internal Drive
 
 ```
-⭐ BẢO VỆ APPROACH TAG NỘI TẠI — KHÔNG DÙNG TIỀN PHÁ:
+⭐ PROTECT INTRINSIC APPROACH TAGS — DON'T USE MONEY TO DESTROY THEM:
 
-  NGUYÊN LÝ (Education-Mechanism §3.1 + Reward-Signal-Architecture):
-    → Nếu trẻ ĐÃ có internal drive cho hành vi X
-    → ĐỪNG dùng tiền cho X → sẽ kill internal drive
-    → Tiền CHỈ NÊN dùng cho việc trẻ CHƯA CÓ internal drive
-      VÀ có giới hạn thời gian (bridge, không permanent)
+  PRINCIPLE (Education-Mechanism §3.1 + Reward-Signal-Architecture):
+    → If a child ALREADY has internal drive for behavior X
+    → DO NOT pay for X → will kill the internal drive
+    → Money SHOULD ONLY be used for things the child DOESN'T have internal drive for
+      AND with a time limit (bridge, not permanent)
 
-  APPLICATION — PHÂN BIỆT RÕ:
+  APPLICATION — CLEAR DISTINCTION:
 
-    ❌ ĐỪNG monetize:
-      → Giúp việc nhà → "việc gia đình, mọi người cùng làm"
-        (internal drive = thuộc về, đóng góp → approach tag)
-      → Đọc sách → nếu trẻ ĐÃ thích đọc
+    ❌ DON'T monetize:
+      → Household chores → "it's family work, everyone contributes"
+        (internal drive = belonging, contributing → approach tag)
+      → Reading books → if the child ALREADY likes reading
         (internal drive = curiosity → overjustification risk)
-      → Chơi sport → nếu trẻ ĐÃ thích
+      → Playing sport → if the child ALREADY likes it
         (internal drive = body movement → overjustification risk)
 
-    ✅ CÓ THỂ monetize (CẨN THẬN):
-      → Việc NGOÀI gia đình: rửa xe hàng xóm, bán nước chanh
-        (= labour market THẬT → trải nghiệm effort → reward)
-      → Việc EXTRA (không phải trách nhiệm): dọn vườn cho ông bà
-        (= exchange mode thật → practice obligation)
-      → Nhưng LUÔN LÀM RÕ: "Đây là CÔNG VIỆC, khác giúp gia đình"
+    ✅ CAN monetize (CAREFULLY):
+      → WORK OUTSIDE THE FAMILY: washing neighbor's car, selling lemonade
+        (= REAL labor market → experience effort → reward)
+      → EXTRA work (not core responsibility): gardening for grandparents
+        (= real exchange mode → practice obligation)
+      → But ALWAYS CLARIFY: "This is WORK, different from helping family"
 
 
-  ⚠️ VẤN ĐỀ PHỨC TẠP — ALLOWANCE:
+  ⚠️ COMPLEX ISSUE — ALLOWANCE:
 
-    Allowance KHÔNG monetize hành vi cụ thể:
-      → Cho tiêu vặt cố định → KHÔNG gắn với hành vi nào
-      → = Trẻ PRACTICE quản lý tiền → approach (agency)
-      → KHÔNG kill internal drive cho bất kỳ hành vi nào
+    Allowance that does NOT monetize specific behaviors:
+      → Fixed pocket money → NOT tied to any specific behavior
+      → = Child PRACTICES managing money → approach (agency)
+      → Does NOT kill internal drive for any specific behavior
 
-    Allowance GẮN VỚI chores = RISKY:
-      → "Rửa bát = 5,000đ" → monetize việc nhà → kill contribution drive
-      → Nếu MUỐN gắn → gắn với EXTRA tasks, không core responsibilities
-      → Core responsibilities = "vì mình thuộc gia đình" (Valence-Structural, không monetize)
+    Allowance TIED TO chores = RISKY:
+      → "Wash dishes = $0.50" → monetizes household work → kills contribution drive
+      → If MUST tie → tie to EXTRA tasks, not core responsibilities
+      → Core responsibilities = "because I'm part of this family" (Valence-Structural, don't monetize)
 
   🟢 Overjustification: Deci 1971, Lepper et al. 1973
-  🟡 "Bảo vệ approach tag" = framework principle applied
+  🟡 "Protecting approach tag" = framework principle applied
 ```
 
-### §3.6 — Nguyên lý 6: Teach proxy nature — tiền là TOOL, không phải goal
+### §3.6 — Principle 6: Teach the Proxy Nature — Money Is a TOOL, Not a Goal
 
 ```
-🟡 INSIGHT QUAN TRỌNG NHẤT TỪ MONEY-ANALYSIS:
+🟡 THE MOST IMPORTANT INSIGHT FROM MONEY-ANALYSIS:
 
-  NGUYÊN LÝ:
-    → Money-Analysis §1.1: tiền = proxy token cho prediction
-    → Tiền BẢN THÂN = zero body-base value (giấy, số)
-    → Giá trị = PREDICTION: "tiền → body-base ĐƯỢC feed"
-    → Trẻ CẦN compile: [tiền = TOOL] chứ không phải [tiền = goal]
+  PRINCIPLE:
+    → Money-Analysis §1.1: money = proxy token for prediction
+    → Money IN ITSELF = zero body-base value (paper, numbers)
+    → Value = PREDICTION: "money → body-base needs get fed"
+    → Children NEED to compile: [money = TOOL] not [money = goal]
 
   APPLICATION PER-AGE:
 
-    3-6 tuổi: "Tiền GIÚP mình đổi lấy cái mình cần"
-      → Đơn giản: tiền = cánh cửa, cái cần = phòng phía sau
-      → Body experience: cầm tiền → đưa → nhận kẹo → "à, đổi!"
+    Ages 3–6: "Money HELPS you exchange it for what you need"
+      → Simple: money = a door, the thing you need = the room behind it
+      → Body experience: hold money → hand it over → receive candy → "oh, exchange!"
 
-    6-12 tuổi: "Tiền mua ĐƯỢC nhiều thứ, nhưng KHÔNG MUA ĐƯỢC tất cả"
-      → Money-Analysis §6: 7 trường hợp tiền vô dụng
-      → Đơn giản hóa: "Tiền mua kem, nhưng không mua BẠN THÂN"
-      → Body experience: có bạn → pleasant → "bạn ≠ tiền"
+    Ages 6–12: "Money CAN buy many things, but CAN'T buy everything"
+      → Money-Analysis §6: 7 cases where money is useless
+      → Simplified: "Money buys ice cream, but can't buy BEST FRIENDS"
+      → Body experience: have a close friend → pleasant → "friendship ≠ money"
 
-    12-18 tuổi: "Tiền = proxy, body-base = endpoint"
-      → Có thể dạy KHÁI NIỆM proxy trực tiếp
-      → "Tiền giúp giải quyết VẤN ĐỀ, nhưng không phải MỌI vấn đề"
-      → "Sau 1 mức → thêm tiền = thêm rất ít hạnh phúc"
-      → Body experience: so sánh trải nghiệm tiền vs trải nghiệm connection
+    Ages 12–18: "Money = proxy, body-base = endpoint"
+      → Can teach the CONCEPT of proxy directly
+      → "Money helps solve PROBLEMS, but not EVERY problem"
+      → "After a certain level → more money = very little more happiness"
+      → Body experience: compare money experiences vs connection experiences
 
-  TẠI SAO QUAN TRỌNG:
-    → Schema [tiền = tốt nhất] compile RẤT MẠNH (Money-Analysis §4.3)
-    → Nguồn ④ (xã hội nói) + Nguồn ② (experience confirm) → trust CAO
-    → NHƯNG: schema INCOMPLETE — chỉ đúng ở tầng 1
-    → Teach proxy nature = add MISSING PIECE vào schema
-    → = Không phải "tiền xấu" → mà "tiền = tool, có giới hạn"
+  WHY THIS MATTERS:
+    → Schema [money = the best thing] compiles VERY STRONGLY (Money-Analysis §4.3)
+    → Source ④ (society says) + Source ② (experience confirms) → trust HIGH
+    → BUT: schema is INCOMPLETE — only true at level 1
+    → Teaching proxy nature = adding the MISSING PIECE to the schema
+    → = Not "money is bad" → but "money = tool, with limits"
 
-  🟡 "Tiền = proxy" = Money-Analysis §1.1 applied to education
+  🟡 "Money = proxy" = Money-Analysis §1.1 applied to education
 
   🟡 PFC BUDGET CONSTRAINT (PFC-Operations.md v1.1):
-    → "Tiền = proxy" = ABSTRACT concept → HIGH PFC load
-    → Trẻ < 12: PFC bandwidth HẸP → chỉ grasp qua concrete experience
-    → Trẻ 12-18: PFC mature hơn → CÓ THỂ discuss abstract
-    → Session design: ngắn + cụ thể > dài + trừu tượng
-    → = Money education cần RESPECT PFC developmental timeline
+    → "Money = proxy" = ABSTRACT concept → HIGH PFC load
+    → Children < 12: PFC bandwidth NARROW → only grasps through concrete experience
+    → Children 12–18: PFC more mature → CAN discuss abstract
+    → Session design: short + concrete > long + abstract
+    → = Money education needs to RESPECT the PFC developmental timeline
 ```
 
-### §3.7 — Tổng hợp 6 nguyên lý
+### §3.7 — Summary of 6 Principles
 
 ```
-  ┌────┬──────────────────────────────────┬────────────────────────────────┐
-  │ #  │ Nguyên lý                        │ Framework basis                │
-  ├────┼──────────────────────────────────┼────────────────────────────────┤
-  │ 1  │ Experience > Lecture             │ Compile Architecture: ①②③ >    │
-  │    │                                │ Trust Compile alone             │
-  │ 2  │ Approach direction LUÔN LUÔN     │ Direction > Level (Ed-Mech §2) │
-  │ 3  │ Goldilocks: đủ, không quá dư    │ Reward-Calibration §1          │
-  │ 4  │ Natural > Imposed consequences   │ 3 ORIGIN (Threat §5.5)         │
-  │ 5  │ Không monetize internal drive    │ Overjustification (Deci 1971)  │
-  │ 6  │ Teach proxy nature (tool ≠ goal) │ Money-Analysis §1.1            │
-  └────┴──────────────────────────────────┴────────────────────────────────┘
+  ┌────┬──────────────────────────────────┬──────────────────────────────────┐
+  │ #  │ Principle                        │ Framework basis                  │
+  ├────┼──────────────────────────────────┼──────────────────────────────────┤
+  │ 1  │ Experience > Lecture             │ Compile Architecture: ①②③ >     │
+  │    │                                  │ Trust Compile alone              │
+  │ 2  │ Approach direction ALWAYS        │ Direction > Level (Ed-Mech §2)   │
+  │ 3  │ Goldilocks: enough, not too much │ Reward-Calibration §1            │
+  │ 4  │ Natural > Imposed consequences   │ 3 ORIGIN (Threat §5.5)           │
+  │ 5  │ Don't monetize internal drive    │ Overjustification (Deci 1971)    │
+  │ 6  │ Teach proxy nature (tool ≠ goal) │ Money-Analysis §1.1              │
+  └────┴──────────────────────────────────┴──────────────────────────────────┘
 
-  TEST: Mỗi nguyên lý:
-    → 100 năm trước đúng? → ĐÚNG
-    → 100 năm sau vẫn đúng? → CÓ KHẢ NĂNG CAO (vì não không đổi)
-    → = Brain-based principles, KHÔNG era-specific
+  TEST: For each principle:
+    → Was it valid 100 years ago? → YES
+    → Will it still be valid in 100 years? → HIGH PROBABILITY (brain doesn't change)
+    → = Brain-based principles, NOT era-specific
 ```
 
 ---
 
-## §4 — PER-AGE GUIDE: COMPILE GÌ, KHI NÀO
+## §4 — PER-AGE GUIDE: WHAT TO COMPILE, WHEN
 
-> **⭐ SECTION THỰC TẾ NHẤT.**
-> Per-age guide = WHAT compile, không prescribe HOW cụ thể.
-> "Vô vàn cách" dạy con về tiền — nhưng MỖI tuổi có prerequisite chunks khác.
-> Guide này follow Skill-Introduction.md pattern: exposure → structure → mastery.
+> **⭐ THE MOST PRACTICAL SECTION.**
+> Per-age guide = WHAT to compile, not prescribing specific HOW.
+> "Countless ways" to teach children about money — but each age has different prerequisite chunks.
+> This guide follows the Skill-Introduction.md pattern: exposure → structure → mastery.
 
-### §4.1 — 0-3 tuổi: OBSERVATION PHASE — con đang copy bố mẹ
+### §4.1 — Ages 0–3: OBSERVATION PHASE — Child Is Copying the Parents
 
 ```
-🟡 GIAI ĐOẠN NÀY: CON KHÔNG "HỌC VỀ TIỀN" — CON COPY PATTERN BỐ MẸ:
+🟡 AT THIS STAGE: CHILD IS NOT "LEARNING ABOUT MONEY" — CHILD IS COPYING THE PARENT'S PATTERN:
 
-  PREREQUISITE CHUNKS (chưa có):
-    → Chưa có: đếm số, khái niệm "đổi", "sở hữu" rõ
-    → Chưa có: delayed gratification (PFC bandwidth quá hẹp)
-    → Đang compile: object permanence, ownership basic, "mine/yours"
+  PREREQUISITE CHUNKS (not yet present):
+    → Not yet: counting, concept of "exchange," clear "ownership"
+    → Not yet: delayed gratification (PFC bandwidth too narrow)
+    → Currently compiling: object permanence, basic ownership, "mine/yours"
 
-  CÁI ĐANG COMPILE (GIÁN TIẾP):
-    → Dạng ① Repetition: THẤY bố mẹ mua hàng → "tiền → đồ"
-    → Dạng ② Emotional: FEEL stress/vui khi bố mẹ nói về tiền
-    → Dạng ③ Multi-modal: sờ tiền xu, nghe tiếng máy tính tiền
-    → = Background-Pattern NỀN TẢNG đang hình thành
+  WHAT IS COMPILING (INDIRECTLY):
+    → Mode ① Repetition: SEES parents buying → "money → goods"
+    → Mode ② Emotional: FEELS stress/happiness when parents talk about money
+    → Mode ③ Multi-modal: touches coins, hears cash register sounds
+    → = FOUNDATIONAL Background-Pattern forming
 
-  BỐ MẸ NÊN LÀM:
-    ✅ Ý thức cảm xúc CỦA MÌNH khi nói về tiền
-      → Con detect cortisol/opioid state → compile gián tiếp
-      → "Bố mẹ stress khi nói tiền" → con compile [tiền = stress]
-    ✅ Cho con CẦM tiền xu (motor + tactile experience)
-      → Rich multi-modal encoding: nặng, tròn, lạnh
-      → = Build sensory foundation cho concept "tiền" sau này
-    ✅ Cho con "trả tiền" khi mua đồ (ritual)
-      → Chưa hiểu mechanism — nhưng compile [tiền → đồ] prototype
+  WHAT PARENTS SHOULD DO:
+    ✅ Be aware of their OWN EMOTIONS when talking about money
+      → Child detects cortisol/opioid state → compiles indirectly
+      → "Parents stressed when talking about money" → child compiles [money = stress]
+    ✅ Let children HOLD COINS (motor + tactile experience)
+      → Rich multi-modal encoding: weight, round, cool
+      → = Builds sensory foundation for the "money" concept later
+    ✅ Let children "pay" when buying things (ritual)
+      → Not yet understanding the mechanism — but compiles [money → goods] prototype
 
-  BỐ MẸ TRÁNH:
-    ❌ CÃI NHAU về tiền trước mặt con
-      → Cortisol peak → emotional compile: [tiền = conflict = threat]
-    ❌ Nói "nhà mình nghèo" với voice căng thẳng
-      → Body state truyền → chunks compile avoidance
-    ❌ Kỳ vọng con "biết tiết kiệm" ở tuổi này
-      → Prerequisite chunks CHƯA CÓ → frustrated → avoidance
+  WHAT PARENTS SHOULD AVOID:
+    ❌ ARGUING about money in front of children
+      → Cortisol peak → emotional compile: [money = conflict = threat]
+    ❌ Saying "we're poor" with a stressed voice
+      → Body state transmits → chunks compile avoidance
+    ❌ Expecting children to "know how to save" at this age
+      → Prerequisite chunks NOT YET PRESENT → frustration → avoidance
 
-  🟢 Ages 3-4 grasp basic value/price concepts (Frontiers 2023)
+  🟢 Ages 3–4 grasp basic value/price concepts (Frontiers 2023)
   🟡 "Observation phase" = framework classification
 ```
 
-### §4.2 — 3-6 tuổi: FIRST EXPERIENCE PHASE — mini-transactions
+### §4.2 — Ages 3–6: FIRST EXPERIENCE PHASE — Mini-Transactions
 
 ```
-🟡 GIAI ĐOẠN NÀY: TRẢI NGHIỆM ĐẦU TIÊN VỚI TIỀN THẬT:
+🟡 AT THIS STAGE: FIRST REAL EXPERIENCES WITH MONEY:
 
-  PREREQUISITE CHUNKS (đang emerge):
-    → Đếm cơ bản (1-10 → 1-100)
-    → "Đổi": cho cái này → nhận cái kia
-    → "Hết": khi dùng hết → không còn (finite concept)
-    → "Chờ": delayed gratification primitive (2-3 phút → giờ → ngày)
+  PREREQUISITE CHUNKS (emerging):
+    → Basic counting (1–10 → 1–100)
+    → "Exchange": give this → receive that
+    → "Gone": when used up → nothing left (finite concept)
+    → "Wait": primitive delayed gratification (2–3 minutes → hours → days)
 
-  CÁI CẦN COMPILE:
-    → [Tiền = hữu hạn]: hết = hết, phải chờ
-    → [Tiền = lựa chọn]: muốn 2 thứ, chỉ đủ 1 → CHỌN
-    → [Tiền = đổi]: đưa tiền → nhận đồ (exchange concept)
-    → TẤT CẢ với APPROACH TAG
+  WHAT NEEDS TO COMPILE:
+    → [Money = limited]: gone = gone, must wait
+    → [Money = choice]: want 2 things, only have enough for 1 → CHOOSE
+    → [Money = exchange]: hand over money → receive goods (exchange concept)
+    → ALL with APPROACH TAGS
 
-  TRẢI NGHIỆM ĐỀ XUẤT:
+  SUGGESTED EXPERIENCES:
 
-    ① "TIỀN RIÊNG" nhỏ (tiêu vặt đầu tiên):
-      → Cho 1 số tiền NHỎ (vd: 10,000-20,000đ/tuần)
-      → Con TỰ QUYẾT dùng cho gì → body feel AGENCY
-      → Hết = hết, bố mẹ KHÔNG cho thêm giữa tuần
-      → Chunks: [tiền = hữu hạn + tôi chọn + hậu quả tự nhiên]
-      → Direction: APPROACH (tôi kiểm soát, tôi quyết định)
+    ① OWN "MONEY" (first pocket money):
+      → Give a SMALL amount (e.g., small weekly allowance)
+      → Child DECIDES what to use it for → body feels AGENCY
+      → Gone = gone, parents DON'T give more mid-week
+      → Chunks: [money = limited + I choose + natural consequences]
+      → Direction: APPROACH (I control, I decide)
 
-    ② "TỰ MUA":
-      → Đưa tiền riêng → dẫn vào tiệm → con TỰ trả
-      → Body experience: đếm tiền → đưa → nhận hàng → thay đổi
-      → Chunks: [exchange = real process, tôi làm được]
+    ② "BUY IT YOURSELF":
+      → Give their own money → take them into a store → child PAYS on their own
+      → Body experience: count money → hand it over → receive goods → change
+      → Chunks: [exchange = real process, I can do this]
       → Direction: APPROACH (competence, autonomy)
 
-    ③ "TIẾT KIỆM NHỎ" (Save-Spend split):
-      → Đơn giản: 2 hộp — "tiêu ngay" và "để dành"
-      → Sau 4-6 tuần "để dành" → mua thứ TO hơn
-      → Body feel: "chờ → thứ to hơn → SƯỚNG hơn!"
-      → Chunks: [tiết kiệm = tôi chọn cái to hơn → approach]
+    ③ "SMALL SAVINGS" (Save-Spend split):
+      → Simple: 2 jars — "spend now" and "save up"
+      → After 4–6 weeks of "saving" → buy the BIGGER thing
+      → Body feels: "wait → bigger thing → BETTER!"
+      → Chunks: [saving = I choose the bigger thing → approach]
 
-    ④ "CHỌN 1 TRONG 2":
-      → "Con muốn kem VÀ kẹo, nhưng chỉ đủ 1" → con chọn
-      → Body feel: trade-off → "chọn = mất 1 + được 1"
-      → Chunks: [lựa chọn = bình thường, not loss]
-      → Direction: APPROACH (agency, not deprivation)
+    ④ "CHOOSE 1 OF 2":
+      → "You want ice cream AND candy, but only have enough for 1" → child chooses
+      → Body feels: trade-off → "choose = lose 1 + gain 1"
+      → Chunks: [choosing = normal, not deprivation]
+      → Direction: APPROACH (agency, not being denied)
 
 
-  🟢 Ages 5-6: distinct spendthrift/tightwad tendencies (Michigan Ross)
+  🟢 Ages 5–6: distinct spendthrift/tightwad tendencies (Michigan Ross)
   🟢 "Feeling richer" when buying (Frontiers 2023)
   🟡 Mini-transaction approach = framework synthesis
 ```
 
-### §4.3 — 6-12 tuổi: MANAGEMENT PHASE — allowance + budget nhỏ
+### §4.3 — Ages 6–12: MANAGEMENT PHASE — Allowance + Small Budget
 
 ```
-🟡 GIAI ĐOẠN NÀY: PRACTICE QUẢN LÝ TIỀN THẬT:
+🟡 AT THIS STAGE: PRACTICE MANAGING REAL MONEY:
 
   PREREQUISITE CHUNKS (available):
-    → Số học cơ bản (cộng, trừ, nhân)
-    → Hữu hạn concept (đã compile từ phase trước)
-    → Lựa chọn concept (đã compile)
-    → Delayed gratification vài tuần → vài tháng
-    → Social comparison awareness ("bạn có, tôi không")
+    → Basic arithmetic (add, subtract, multiply)
+    → Finite concept (compiled from previous phase)
+    → Choice concept (compiled)
+    → Delayed gratification weeks → months
+    → Social comparison awareness ("friend has something I don't")
 
-  CÁI CẦN COMPILE:
-    → [Budget = plan TRƯỚC]: phân bổ tiền cho mục đích
-    → [Earning = effort → reward]: tiền không free, phải LÀM
-    → [Value ≠ price]: đắt ≠ tốt, rẻ ≠ dở
-    → [Tiền ≠ giá trị con người]: giàu ≠ tốt, nghèo ≠ dở
-    → TẤT CẢ với APPROACH TAG
+  WHAT NEEDS TO COMPILE:
+    → [Budget = plan AHEAD]: allocate money to purposes
+    → [Earning = effort → reward]: money isn't free, must WORK
+    → [Value ≠ price]: expensive ≠ good, cheap ≠ bad
+    → [Money ≠ human worth]: rich ≠ good person, poor ≠ bad person
+    → ALL with APPROACH TAGS
 
-  TRẢI NGHIỆM ĐỀ XUẤT:
+  SUGGESTED EXPERIENCES:
 
-    ① ALLOWANCE CỐ ĐỊNH + TỰ QUẢN:
-      → Tiêu vặt hàng tuần/tháng → con TỰ chia
-      → 3 categories: Tiêu ngay / Tiết kiệm / Cho đi (Share)
-      → "Cho đi" = compile [giúp người khác = approach, tôi CHỌN]
-      → Bố mẹ: KHÔNG can thiệp allocation → con TỰ learn
-      → Natural consequences: hết sớm = chờ → body learn budget
+    ① FIXED ALLOWANCE + SELF-MANAGEMENT:
+      → Weekly/monthly pocket money → child DIVIDES IT
+      → 3 categories: Spend Now / Save / Give (Share)
+      → "Give" = compile [helping others = approach, I CHOOSE]
+      → Parents: DO NOT interfere with allocation → child LEARNS on their own
+      → Natural consequences: runs out early = wait → body learns budgeting
 
     ② FIRST EARNING (outside family):
-      → Việc ngoài gia đình: giúp hàng xóm, bán hàng nhỏ
-      → Body feel: effort → reward → "tôi KIẾM ĐƯỢC"
-      → Chunks: [effort → tiền = bình thường, tôi làm được]
-      → ⚠️ KHÔNG monetize việc nhà (§3.5) — chỉ việc EXTRA/NGOÀI
+      → Work outside the family: help neighbors, sell small items
+      → Body feels: effort → reward → "I EARNED IT"
+      → Chunks: [effort → money = normal, I can do it]
+      → ⚠️ DON'T monetize household chores (§3.5) — only EXTRA/OUTSIDE work
 
-    ③ SAVINGS GOAL (mục tiêu trung hạn):
-      → "Con muốn X (đắt) → tiết kiệm bao lâu?"
-      → Tính toán CÙNG CON: bao nhiêu/tuần × bao nhiêu tuần
+    ③ SAVINGS GOAL (medium-term target):
+      → "You want X (expensive) → how long to save?"
+      → Calculate WITH THE CHILD: how much/week × how many weeks
       → Track progress (visual: chart, jar)
-      → Body feel: tiến triển → "gần tới!" → approach
-      → Compile: [mục tiêu dài hạn = khả thi, tôi kiểm soát]
+      → Body feels: progress → "getting closer!" → approach
+      → Compile: [long-term goal = achievable, I control it]
 
     ④ PRICE COMPARISON:
-      → Đi siêu thị → cho con so sánh giá 2-3 sản phẩm
-      → "Cái này 30K, cái kia 50K — khác gì?"
-      → Body feel: "tôi PHÁT HIỆN khác biệt → smart!"
-      → Chunks: [so sánh = competence → approach]
+      → At the grocery store → let child compare prices of 2–3 products
+      → "This one is $3, that one is $5 — what's the difference?"
+      → Body feels: "I DISCOVERED the difference → smart!"
+      → Chunks: [comparing = competence → approach]
 
     ⑤ SOCIAL COMPARISON NAVIGATION:
-      → "Bạn A có iPhone, con không" → SẼ XẢY RA
-      → Approach reframe: "Mỗi nhà chọn KHÁC NHAU"
-      → KHÔNG phủ nhận: "Đúng, bạn có → con chưa có → BÌNH THƯỜNG"
-      → KHÔNG shame: "Nhà mình nghèo" (avoidance)
-      → KHÔNG overcompensate: mua ngay cho con (premature compilation)
+      → "Friend has a new phone, I don't" → WILL HAPPEN
+      → Approach reframe: "Every family makes DIFFERENT CHOICES"
+      → DON'T deny: "That's right, friend has it → you don't yet → NORMAL"
+      → DON'T shame: "Our family is poor" (avoidance)
+      → DON'T overcompensate: immediately buy it (premature compilation)
       → = Navigate, not fix
 
 
@@ -1076,505 +1051,503 @@ FILE NÀY TRẢ LỜI:
   🟡 Management phase = framework-guided skill building
 ```
 
-### §4.4 — 12-18 tuổi: REAL WORLD PHASE — kiếm tiền + complexity
+### §4.4 — Ages 12–18: REAL WORLD PHASE — Real Earning + Complexity
 
 ```
-🟡 GIAI ĐOẠN NÀY: TRANSITION SANG ADULT MONEY RELATIONSHIP:
+🟡 AT THIS STAGE: TRANSITION TO ADULT MONEY RELATIONSHIP:
 
   PREREQUISITE CHUNKS (should be compiled):
-    → Budget management basic (từ 6-12)
-    → Earning basic (effort → reward)
-    → Tiết kiệm mục tiêu (delayed gratification weeks-months)
+    → Basic budget management (from 6–12)
+    → Basic earning (effort → reward)
+    → Savings goals (delayed gratification weeks-months)
     → Value vs price distinction
-    → Từ §1 Imagine-Final (Education-Mechanism §2.6) bắt đầu hình thành
+    → From §1 Imagine-Final (Education-Mechanism §2.6) beginning to form
 
-  CÁI CẦN COMPILE:
-    → [Kiếm tiền = effort thật trong market thật]
-    → [Budget lớn hơn: NEEDS vs WANTS distinction]
-    → [Tiền có GIỚI HẠN: 7 trường hợp vô dụng]
-    → [Financial decisions có CONSEQUENCES dài hạn]
-    → [Gap shift: tầng 1 vs tầng 2-3]
+  WHAT NEEDS TO COMPILE:
+    → [Earning money = real effort in a real market]
+    → [Larger budget: NEEDS vs WANTS distinction]
+    → [Money has LIMITS: 7 cases where it's useless]
+    → [Financial decisions have LONG-TERM CONSEQUENCES]
+    → [Gap shift: Level 1 vs Level 2–3]
 
-  TRẢI NGHIỆM ĐỀ XUẤT:
+  SUGGESTED EXPERIENCES:
 
     ① PART-TIME WORK / PROJECT:
-      → Kiếm tiền THẬT trong market THẬT
-      → Body feel: "8 giờ → 200,000đ → ôi, ít vậy!"
-      → Chunks: [effort → reward = THẬT, KHÔNG free]
-      → MẠNH HƠN mọi bài giảng về "kiếm tiền khó"
-      → ⚠️ Balance: không ảnh hưởng education priority
+      → Earn REAL money in a REAL market
+      → Body feels: "8 hours → small earnings → wow, that's not much!"
+      → Chunks: [effort → reward = REAL, NOT free]
+      → STRONGER than any lecture about "money is hard to earn"
+      → ⚠️ Balance: don't let it affect education priority
 
-    ② BUDGET THẬT cho nhu cầu riêng:
-      → Bố mẹ cho ngân sách cố định cho 1 category
-        (vd: quần áo, giải trí) → con TỰ quản lý
-      → Natural consequences: vượt ngân sách = chờ tháng sau
-      → Chunks: [budget = tool tôi dùng, không phải restriction]
+    ② REAL BUDGET for personal needs:
+      → Parents give a fixed budget for 1 category
+        (e.g., clothing, entertainment) → child SELF-MANAGES
+      → Natural consequences: over budget = wait until next month
+      → Chunks: [budget = tool I use, not a restriction]
 
-    ③ TEACH "KHI NÀO TIỀN VÔ DỤNG":
-      → Money-Analysis §6: 7 trường hợp
-      → Đơn giản hóa cho teens:
-        "Tiền mua kem, KHÔNG mua bạn thân"
-        "Tiền trả bác sĩ, KHÔNG trả lại sức khỏe đã mất"
-        "Tiền mua sách, KHÔNG mua hiểu biết"
-      → Body experience: nhìn quanh → confirm bằng observation
+    ③ TEACH "WHEN MONEY IS USELESS":
+      → Money-Analysis §6: 7 cases
+      → Simplified for teens:
+        "Money buys ice cream, CAN'T buy close friends"
+        "Money pays doctors, CAN'T give back lost health"
+        "Money buys books, CAN'T buy understanding"
+      → Body experience: look around → confirm through observation
 
     ④ GAP SHIFT AWARENESS:
-      → Money-Analysis §4.4: label giữ, mechanism đổi
-      → Giới thiệu concept: "Khi nào tiền GIẢI QUYẾT, khi nào KHÔNG"
-      → "Bây giờ con cần tiền cho survival basics → đúng"
-      → "Sau này con có đủ → gap SHIFT sang meaning, connection"
-      → "Biết trước → không bị STUCK ở 'kiếm tiền mãi'"
+      → Money-Analysis §4.4: label stays, mechanism changes
+      → Introduce concept: "When does money SOLVE things, when does it NOT?"
+      → "Right now you need money for survival basics → correct"
+      → "Later when you have enough → gap SHIFTS to meaning, connection"
+      → "Knowing this in advance → won't get STUCK in 'earning money forever'"
 
     ⑤ GENEROSITY PRACTICE:
-      → Cho đi 1 phần thu nhập → body feel "cho = pleasant"
+      → Give away a portion of income → body feels "giving = pleasant"
       → Gratitude.md §3: anti-habituation
-      → Chunks: [cho = approach, không phải mất]
-      → Counter threshold adaptation TRƯỚC KHI nó hình thành
+      → Chunks: [giving = approach, not loss]
+      → Counter threshold adaptation BEFORE it forms
 
-    ⑥ SELF-OBSERVATION CHO SPENDING PATTERNS (Self-Observation.md v1.0):
-      → Teen: dlPFC matures → CAN observe own spending patterns (Mức 4)
-      → "Tôi luôn mua đồ khi stress" = Pattern-Observe (Mức 4)
-      → "Tôi đang rationalize — body nói 'không cần' nhưng narrative nói 'cần'" = Mức 5
-      → PFC Budget: sau ngày mệt → Self-Observation GIẢM → impulse purchase risk ↑
-      → = Dạy teen: "quyết định tài chính KHI TỈNH TÁO, không khi mệt/buồn"
+    ⑥ SELF-OBSERVATION FOR SPENDING PATTERNS (Self-Observation.md v1.0):
+      → Teen: dlPFC matures → CAN observe own spending patterns (Level 4)
+      → "I always buy things when I'm stressed" = Pattern-Observe (Level 4)
+      → "I'm rationalizing — body says 'don't need it' but narrative says 'need it'" = Level 5
+      → PFC Budget: after a tiring day → Self-Observation DECREASES → impulse purchase risk ↑
+      → = Teach teens: "financial decisions when CLEAR-HEADED, not when tired/sad"
       → Self-Observation.md §5.2: PFC Budget exhausted → Self-Observation = first to go
 
   🟡 Real world phase = transition preparation
   🟢 PISA 2022: financial literacy of 15-year-olds varies by family socialization
 ```
 
-### §4.5 — Tổng hợp per-age
+### §4.5 — Summary: Per-Age Table
 
 ```
-  ┌──────────┬──────────────────┬───────────────────────┬────────────────────┐
-  │ Tuổi     │ Phase            │ Compile chính         │ Direction          │
-  ├──────────┼──────────────────┼───────────────────────┼────────────────────┤
-  │ 0-3      │ Observation      │ Pattern NỀN (gián     │ Bố mẹ ý thức      │
-  │          │                  │ tiếp từ bố mẹ)        │ body state mình    │
-  ├──────────┼──────────────────┼───────────────────────┼────────────────────┤
-  │ 3-6      │ First Experience │ [hữu hạn] [lựa chọn] │ Approach: "con     │
-  │          │                  │ [exchange] [tiết kiệm │ CHỌN, con quyết"  │
-  │          │                  │  = chọn cái to hơn]   │                    │
-  ├──────────┼──────────────────┼───────────────────────┼────────────────────┤
-  │ 6-12     │ Management       │ [budget] [earning =   │ Approach: "con     │
-  │          │                  │  effort] [value ≠     │ QUẢN LÝ, con      │
-  │          │                  │  price] [share]       │ competent"         │
-  ├──────────┼──────────────────┼───────────────────────┼────────────────────┤
-  │ 12-18    │ Real World       │ [kiếm tiền thật]      │ Approach: "con     │
-  │          │                  │ [needs vs wants]      │ CHUẨN BỊ,         │
-  │          │                  │ [tiền có giới hạn]    │ con ready"         │
-  │          │                  │ [gap shift awareness] │                    │
-  └──────────┴──────────────────┴───────────────────────┴────────────────────┘
+  ┌──────────┬──────────────────┬────────────────────────────────┬────────────────────┐
+  │ Age      │ Phase            │ Primary compile                │ Direction          │
+  ├──────────┼──────────────────┼────────────────────────────────┼────────────────────┤
+  │ 0–3      │ Observation      │ FOUNDATIONAL pattern           │ Parents aware of   │
+  │          │                  │ (indirect from parents)        │ their own body     │
+  │          │                  │                                │ state              │
+  ├──────────┼──────────────────┼────────────────────────────────┼────────────────────┤
+  │ 3–6      │ First Experience │ [limited] [choice] [exchange]  │ Approach: "YOU     │
+  │          │                  │ [saving = choosing             │ CHOOSE, you        │
+  │          │                  │  the bigger thing]             │ decide"            │
+  ├──────────┼──────────────────┼────────────────────────────────┼────────────────────┤
+  │ 6–12     │ Management       │ [budget] [earning = effort]    │ Approach: "YOU     │
+  │          │                  │ [value ≠ price] [share]        │ MANAGE, you're     │
+  │          │                  │                                │ competent"         │
+  ├──────────┼──────────────────┼────────────────────────────────┼────────────────────┤
+  │ 12–18    │ Real World       │ [real earning] [needs vs wants]│ Approach: "YOU     │
+  │          │                  │ [money has limits]             │ PREPARE, you're    │
+  │          │                  │ [gap shift awareness]          │ ready"             │
+  └──────────┴──────────────────┴────────────────────────────────┴────────────────────┘
 
   TRANSITION LOGIC:
-    → Mỗi phase BUILD TRÊN phase trước (prerequisite chain)
-    → Skip phase → chunks thiếu nền → lệch
+    → Each phase BUILDS ON the previous (prerequisite chain)
+    → Skip a phase → chunks lack foundation → skewed
     → = Education-Mechanism §2.4: prerequisite check
-    → NHƯNG: timeline là APPROXIMATE — mỗi trẻ khác nhau
-    → Body signal (approach/avoidance) = chỉ dấu readiness
+    → BUT: timeline is APPROXIMATE — every child is different
+    → Body signal (approach/avoidance) = indicator of readiness
 ```
 
 ---
 
-## §5 — 5 SCHEMAS CẦN COMPILE + 5 SCHEMAS KHÔNG NÊN
+## §5 — 5 SCHEMAS TO COMPILE + 5 SCHEMAS TO AVOID
 
-### §5.1 — 5 schemas CẦN compile (healthy money relationship)
+### §5.1 — 5 Schemas TO Compile (Healthy Money Relationship)
 
 ```
-⭐ 5 CHUNKS NỀN TẢNG — NẾU COMPILED ĐÚNG → HEALTHY SUỐT ĐỜI:
+⭐ 5 FOUNDATIONAL CHUNKS — IF COMPILED CORRECTLY → HEALTHY FOR LIFE:
 
-  ① [TIỀN = TOOL, KHÔNG PHẢI GOAL]:
-    → Money-Analysis §1: tiền = proxy token cho prediction
-    → Tiền mở cửa, KHÔNG PHẢI phòng
-    → Compile qua: trải nghiệm tiền GIẢI QUYẾT vấn đề (tool)
-      + trải nghiệm tiền KHÔNG giải quyết (limit)
-    → Age: 6-12 bắt đầu, 12-18 deepen
-    → Direction: approach ("tôi DÙNG tool này")
+  ① [MONEY = TOOL, NOT GOAL]:
+    → Money-Analysis §1: money = proxy token for prediction
+    → Money opens doors, is NOT the room itself
+    → Compile through: experiencing money SOLVING problems (tool)
+      + experiencing money NOT solving problems (limits)
+    → Age: 6–12 start, 12–18 deepen
+    → Direction: approach ("I USE this tool")
 
-  ② [TIỀN = HỮU HẠN → TÔI CHỌN]:
-    → Hữu hạn + lựa chọn = linked
-    → "Hết = hết" → "tôi CHỌN cái nào" → AGENCY
-    → Compile qua: trải nghiệm hết tiền + TỰ chọn
-    → Age: 3-6 (basic), 6-12 (complex choices)
-    → Direction: approach ("chọn = power, không phải restriction")
+  ② [MONEY = LIMITED → I CHOOSE]:
+    → Limited + choice = linked
+    → "Gone = gone" → "I CHOOSE which one" → AGENCY
+    → Compile through: experiencing running out of money + CHOOSING on own
+    → Age: 3–6 (basic), 6–12 (complex choices)
+    → Direction: approach ("choosing = power, not restriction")
 
-  ③ [EFFORT → REWARD = BÌNH THƯỜNG]:
-    → Làm → nhận tiền = process tự nhiên
-    → KHÔNG phải "phải gánh nặng" (avoidance)
-    → KHÔNG phải "tiền free" (premature compilation)
-    → Compile qua: first earning experiences (6-12)
-    → Age: 6-12 (mini), 12-18 (real market)
-    → Direction: approach ("tôi LÀM ĐƯỢC, tôi kiếm được")
+  ③ [EFFORT → REWARD = NORMAL]:
+    → Work → receive money = natural process
+    → NOT "must bear a heavy burden" (avoidance)
+    → NOT "money is free" (premature compilation)
+    → Compile through: first earning experiences (6–12)
+    → Age: 6–12 (mini), 12–18 (real market)
+    → Direction: approach ("I CAN DO THIS, I can earn")
 
-  ④ [TIỀN KHÔNG MUA ĐƯỢC MỌI THỨ]:
-    → Money-Analysis §6: 7 trường hợp vô dụng
-    → Đặc biệt: bạn thân, sức khỏe, hiểu biết, ý nghĩa
-    → Compile qua: trải nghiệm Valence-Structural bonds + meaning + health
-    → Age: 6-12 (intuitive), 12-18 (explicit)
-    → Direction: approach ("tôi biết ĐÚNG tool cho ĐÚNG gap")
+  ④ [MONEY CAN'T BUY EVERYTHING]:
+    → Money-Analysis §6: 7 cases where money is useless
+    → Especially: close friends, health, understanding, meaning
+    → Compile through: experiencing Valence-Structural bonds + meaning + health
+    → Age: 6–12 (intuitive), 12–18 (explicit)
+    → Direction: approach ("I know the RIGHT tool for the RIGHT gap")
 
-  ⑤ [CHO ĐI = APPROACH, KHÔNG PHẢI MẤT]:
+  ⑤ [GIVING = APPROACH, NOT LOSS]:
     → Gratitude.md §3: anti-habituation
-    → Cho 1 phần tiền → body feel giving reward
+    → Give a portion of money → body feels giving reward
     → Counter threshold adaptation + habituation blindness
-    → Compile qua: share category trong allowance
-    → Age: 6-12 (practice), 12-18 (meaningful amounts)
-    → Direction: approach ("cho = TÔI chọn chia sẻ → pleasant")
+    → Compile through: Share category in allowance
+    → Age: 6–12 (practice), 12–18 (meaningful amounts)
+    → Direction: approach ("giving = I CHOOSE to share → pleasant")
 ```
 
-### §5.2 — 5 schemas KHÔNG NÊN compile (toxic money relationship)
+### §5.2 — 5 Schemas to AVOID Compiling (Toxic Money Relationship)
 
 ```
-⚠️ 5 CHUNKS ĐỘC HẠI — NẾU COMPILED → DAMAGE DÀI HẠN:
+⚠️ 5 TOXIC CHUNKS — IF COMPILED → LONG-TERM DAMAGE:
 
-  ① [TIỀN = GIẢI PHÁP CHO MỌI THỨ]:
-    → Schema [tiền = tốt nhất] — trust CAO nhưng INCOMPLETE
-    → Dangerous vì: fail ở tầng 2-3 (meaning, connection, autonomy)
-    → Compiled khi: bố mẹ LUÔN giải quyết bằng tiền
-    → Avoid: cho con trải nghiệm things money CAN'T buy
+  ① [MONEY = THE SOLUTION TO EVERYTHING]:
+    → Schema [money = the best thing] — high trust but INCOMPLETE
+    → Dangerous because: fails at levels 2–3 (meaning, connection, autonomy)
+    → Compiles when: parents ALWAYS solve things with money
+    → Avoid: let children experience things money CAN'T buy
     + TRUST GENERALIZATION (Trust.md v1.0 §7 mechanism ⑤):
-      → Schema ① compile MẠNH vì: Trust Generalization = hardware default
-      → Trust per-ENTITY, không per-DOMAIN → "tin NGƯỜI này" = tin MỌI THỨ người này nói
-      → KOL giỏi entertainment → fan trust KOL về tài chính → CROSS-DOMAIN exploit
-      → "Expert game → tin expert crypto" = Trust Generalization (Hovland & Weiss 1951)
-      → Trẻ CẦN compile: "giỏi domain A ≠ đáng tin domain B"
-      → = Trust Calibration per-domain = meta-skill tài chính QUAN TRỌNG NHẤT
+      → Schema ① compiles STRONGLY because: Trust Generalization = hardware default
+      → Trust is per-ENTITY, not per-domain → "trust THIS PERSON" = trust EVERYTHING they say
+      → A KOL skilled at entertainment → fans trust that KOL about finances → CROSS-DOMAIN exploit
+      → "Expert at gaming → trust their crypto advice" = Trust Generalization (Hovland & Weiss 1951)
+      → Children NEED to compile: "skilled in domain A ≠ trustworthy in domain B"
+      → = Trust Calibration per-domain = THE MOST IMPORTANT financial meta-skill
 
-  ② [TIỀN = NGUY HIỂM / SỢ]:
+  ② [MONEY = DANGEROUS / SCARY]:
     → Avoidance-tagged money chunks
-    → "Tiền = stress, conflict, shame, guilt"
-    → Compiled khi: bố mẹ cãi nhau về tiền, dọa nghèo, guilt-trip
-    → Avoid: approach direction cho MỌI tương tác tiền (§3.2)
+    → "Money = stress, conflict, shame, guilt"
+    → Compiles when: parents argue about money, threaten poverty, guilt-trip
+    → Avoid: approach direction for ALL money interactions (§3.2)
 
-  ③ [TIỀN = FREE / KHÔNG CẦN EFFORT]:
-    → Premature compilation: reward không qua effort
-    → "Muốn = được" → delayed gratification KHÔNG compile
-    → Compiled khi: cho quá nhiều, không điều kiện, luôn bù khi hết
+  ③ [MONEY = FREE / NO EFFORT NEEDED]:
+    → Premature compilation: reward without effort
+    → "Want = get" → delayed gratification NEVER compiles
+    → Compiles when: given too much, unconditionally, always replenished when gone
     → Avoid: natural consequences + Goldilocks dosing (§3.3)
 
-  ④ [TIỀN = GIÁ TRỊ CON NGƯỜI]:
-    → "Giàu = tốt, nghèo = dở" (schema identity lock)
-    → Đặc biệt toxic: self-worth GẮN VỚI net worth
-    → Compiled khi: so sánh bằng tiền, khen/chê theo giàu nghèo
-    → Avoid: explicitly decouple money từ human value
+  ④ [MONEY = HUMAN WORTH]:
+    → "Rich = good person, poor = bad person" (schema identity lock)
+    → Especially toxic: self-worth TIED TO net worth
+    → Compiles when: comparing people by wealth, praising/criticizing by rich/poor
+    → Avoid: explicitly decouple money from human worth
 
-  ⑤ [CHO = MẤT / THIỆT]:
+  ⑤ [GIVING = LOSING / GETTING A BAD DEAL]:
     → Zero-sum default (Connection-Education §1)
-    → "Cho đi = tôi ít đi" → hoarder pattern
-    → Compiled khi: bố mẹ model scarcity mentality liên tục
-    → Avoid: Share category + body experience giving reward
-    → Counter: positive-sum logic — "cho = đầu tư vào environment"
+    → "Giving = I have less" → hoarding pattern
+    → Compiles when: parents model scarcity mentality continuously
+    → Avoid: Share category + body experience of giving reward
+    → Counter: positive-sum logic — "giving = investing in my environment"
 
 
-  ┌───┬─────────────────────────┬─────────────────────────┬──────────────┐
-  │ # │ Schema ĐỘC HẠI          │ Compiled KHI            │ AVOID bằng   │
-  ├───┼─────────────────────────┼─────────────────────────┼──────────────┤
-  │ ① │ Tiền = giải pháp MỌI   │ Luôn giải quyết bằng   │ Trải nghiệm  │
-  │   │ thứ                     │ tiền                    │ things money │
-  │   │                         │                         │ can't buy    │
-  ├───┼─────────────────────────┼─────────────────────────┼──────────────┤
-  │ ② │ Tiền = nguy hiểm/sợ    │ Conflict, guilt, shame  │ Approach     │
-  │   │                         │ về tiền                 │ direction    │
-  ├───┼─────────────────────────┼─────────────────────────┼──────────────┤
-  │ ③ │ Tiền = free             │ Cho quá nhiều, bù hết   │ Goldilocks + │
-  │   │                         │                         │ natural      │
-  │   │                         │                         │ consequences │
-  ├───┼─────────────────────────┼─────────────────────────┼──────────────┤
-  │ ④ │ Tiền = giá trị con     │ So sánh giàu/nghèo     │ Decouple     │
-  │   │ người                   │                         │ money from   │
-  │   │                         │                         │ human worth  │
-  ├───┼─────────────────────────┼─────────────────────────┼──────────────┤
-  │ ⑤ │ Cho = mất              │ Scarcity mentality      │ Share +      │
-  │   │                         │ modeling                │ positive-sum │
-  └───┴─────────────────────────┴─────────────────────────┴──────────────┘
+  ┌───┬────────────────────────────┬────────────────────────────┬────────────────────┐
+  │ # │ TOXIC schema               │ Compiles WHEN              │ AVOID by           │
+  ├───┼────────────────────────────┼────────────────────────────┼────────────────────┤
+  │ ① │ Money = solution to        │ Always solving with money   │ Experience things  │
+  │   │ everything                 │                            │ money can't buy    │
+  ├───┼────────────────────────────┼────────────────────────────┼────────────────────┤
+  │ ② │ Money = dangerous/scary    │ Conflict, guilt, shame      │ Approach direction │
+  │   │                            │ about money                │                    │
+  ├───┼────────────────────────────┼────────────────────────────┼────────────────────┤
+  │ ③ │ Money = free               │ Given too much, replenished│ Goldilocks +       │
+  │   │                            │ immediately                │ natural            │
+  │   │                            │                            │ consequences       │
+  ├───┼────────────────────────────┼────────────────────────────┼────────────────────┤
+  │ ④ │ Money = human worth        │ Comparing people by         │ Decouple money     │
+  │   │                            │ wealth                     │ from human worth   │
+  ├───┼────────────────────────────┼────────────────────────────┼────────────────────┤
+  │ ⑤ │ Giving = losing            │ Scarcity mentality          │ Share category +   │
+  │   │                            │ modeling                   │ positive-sum logic │
+  └───┴────────────────────────────┴────────────────────────────┴────────────────────┘
 ```
 
 ---
 
 ## §6 — COMMON MISTAKES × FRAMEWORK MECHANISM
 
-### §6.1 — "Phải biết ơn bố mẹ kiếm tiền nuôi con"
+### §6.1 — "You Must Be Grateful for All Your Parents' Hard Work"
 
 ```
-⭐ GUILT-TRIP PHỔ BIẾN NHẤT — VÀ HARMFUL NHẤT:
+⭐ THE MOST COMMON GUILT-TRIP — AND THE MOST HARMFUL:
 
   PATTERN:
-    → "Bố mẹ VẤT VẢ kiếm tiền nuôi con!"
-    → "Con biết BỐ MẸ hy sinh bao nhiêu không?"
-    → "Con PHẢI biết ơn!"
+    → "Your parents WORK SO HARD to raise you!"
+    → "Do you know HOW MUCH your parents sacrifice?"
+    → "You MUST be grateful!"
 
   FRAMEWORK ANALYSIS:
 
     Obligation.md §8: Parenting → obligation calibration
-    → Nuôi con = biological imperative, không phải "hy sinh" (framework lens)
-    → Gắn "hy sinh" vào → create TYPE 5 Identity obligation cho CON
+    → Raising a child = biological imperative, not "sacrifice" (framework lens)
+    → Attaching "sacrifice" to it → creates TYPE 5 Identity obligation FOR THE CHILD
     → TYPE 5 = implicit, unbounded, NO endpoint
-    → = Cortisol SUSTAINED vì obligation KHÔNG BAO GIỜ KẾT THÚC
+    → = Cortisol SUSTAINED because obligation NEVER ENDS
 
-    Approach/avoidance tag:
-    → "Biết ơn" qua GUILT = avoidance-tagged gratitude
-    → KHÔNG PHẢI gratitude thật (Gratitude.md: gratitude = observation,
-      không phải obligation)
-    → Chunks compile: [bố mẹ → nợ → guilt → avoidance]
-    → ≠ [bố mẹ → yêu thương → gratitude → approach]
+    Approach/avoidance tags:
+    → "Being grateful" through GUILT = avoidance-tagged gratitude
+    → NOT real gratitude (Gratitude.md: gratitude = observation, not obligation)
+    → Chunks compile: [parents → debt → guilt → avoidance]
+    → ≠ [parents → love → gratitude → approach]
 
     Background-Pattern:
-    → Lặp lại hàng năm → Background-Pattern [tiền = sacrifice, tôi = burden]
-    → Trẻ trưởng thành: "tôi NỢ bố mẹ → phải kiếm tiền trả"
-    → = Money-work gắn với guilt, không phải purpose
+    → Repeated for years → Background-Pattern [money = sacrifice, I = burden]
+    → Child grows up: "I OWE my parents → must earn money to repay"
+    → = Money-work tied to guilt, not purpose
     → = Cross-generational transmission: guilt → stress → guilt
 
-  GIẢI PHÁP:
-    → KHÔNG NÓI "bố mẹ hy sinh" → NÓI "bố mẹ làm việc vì bố mẹ CHỌN"
-    → KHÔNG ÉP biết ơn → TẠO ĐIỀU KIỆN con tự cảm nhận
-    → Gratitude emerge khi con THẤY (experience), không khi con bị ÉP
+  SOLUTION:
+    → DON'T SAY "parents sacrifice" → SAY "parents work because they CHOOSE to"
+    → DON'T FORCE gratitude → CREATE CONDITIONS for child to feel it naturally
+    → Gratitude emerges when child SEES (experience), not when forced
     → = Gratitude.md §1: gratitude = observation parameter, not command
 
   🟡 HARDWARE-SUBSIDY LENS (Valence-Propagation.md v3.0 §7):
     → Parent = Maximum Hardware-Subsidy (oxytocin, baby schema, synchrony)
-    → Guilt-trip CORRUPTS subsidy channel:
-      Parent ĐÁNG LẼ = subsidy (an toàn, explore money) → approach
-      Guilt-trip biến parent THÀNH threat source → avoidance
-    → = Cùng entity, ĐỔI CHIỀU: subsidy → threat
-    → Đặc biệt harmful VÌ parent = MẠNH NHẤT → damage cũng MẠNH NHẤT
-    → = Hardware-Subsidy cho money learning = parent CALM khi nói về tiền
+    → Guilt-trip CORRUPTS the subsidy channel:
+      Parent SHOULD = subsidy (safe, explore money) → approach
+      Guilt-trip converts parent INTO a threat source → avoidance
+    → = Same entity, INVERTED DIRECTION: subsidy → threat
+    → Especially harmful BECAUSE parent = STRONGEST → damage is also STRONGEST
+    → = Hardware-Subsidy for money learning = parent CALM when talking about money
 
   🟡 Guilt-trip × obligation × Background-Pattern = framework analysis
   🟢 Intrinsic gratitude vs obligatory gratitude: psychology established
 ```
 
-### §6.2 — "Nhà mình nghèo, con đừng đòi hỏi"
+### §6.2 — "We're Poor, Don't Ask for Things"
 
 ```
 🟡 SCARCITY MESSAGING + SHAME:
 
   PATTERN:
-    → "Nhà mình KHÔNG CÓ TIỀN" (voice căng thẳng, mặt buồn)
-    → "Con đừng đòi hỏi!" (reject needs)
-    → "Bạn con giàu, mình KHÔNG BẰNG" (social comparison + shame)
+    → "Our family DOESN'T HAVE MONEY" (tense voice, sad face)
+    → "Don't ask for things!" (rejecting needs)
+    → "Your friend is richer, WE CAN'T COMPARE" (social comparison + shame)
 
-  CƠ CHẾ GÂY HẠI:
+  MECHANISMS CAUSING HARM:
 
-    ① AVOIDANCE TAG cho "muốn" và "cần":
-      → "Đòi hỏi = xấu" → chunks compile: [muốn = shame]
-      → Trẻ trưởng thành: KHÓ identify needs, KHÓ ask for help
-      → = Self-care chunks bị suppress
+    ① AVOIDANCE TAG for "wanting" and "needing":
+      → "Asking = bad" → chunks compile: [wanting = shame]
+      → Child grows up: DIFFICULTY identifying needs, DIFFICULTY asking for help
+      → = Self-care chunks suppressed
 
     ② SCARCITY BACKGROUND PATTERN:
-      → Background-Pattern [tiền = khan hiếm, NGUY HIỂM] compile qua hàng năm
-      → Trưởng thành CÓ TIỀN nhưng body VẪN feel "thiếu"
-      → = Money-Analysis §4.2①: "nghèo trong đầu" — schema chưa update
-      → PFC biết "giàu" nhưng Background-Pattern vẫn fire [thiếu]
+      → Background-Pattern [money = scarce, DANGEROUS] compiles over years
+      → As an adult, HAS MONEY but body STILL feels "lacking"
+      → = Money-Analysis §4.2①: "poor in the mind" — schema not updated
+      → PFC knows "wealthy" but Background-Pattern still fires [lacking]
 
     ③ SOCIAL COMPARISON DAMAGE:
-      → "Mình KHÔNG BẰNG" = impose social hierarchy RANKING
-      → Chunks: [tôi = thấp hơn] → status-related avoidance
-      → KHÔNG phải "sự thật" harmful — mà DIRECTION harmful
-      → So sánh APPROACH: "mỗi nhà KHÁC nhau, nhà mình có CÁI KHÁC"
-      → So sánh AVOIDANCE: "mình không bằng" → [tôi = less than]
+      → "WE CAN'T COMPARE" = imposes social hierarchy RANKING
+      → Chunks: [I = lower than] → status-related avoidance
+      → NOT the truth that's harmful — but the DIRECTION that's harmful
+      → Approach comparison: "each family is DIFFERENT, ours has DIFFERENT things"
+      → Avoidance comparison: "we're not as good" → [I = less than]
 
-  GIẢI PHÁP:
-    → Acknowledge reality KHÔNG CÓ shame:
-      "Thứ này nhiều tiền — mình chưa mua được BÂY GIỜ"
-    → Reframe qua agency:
-      "Mình CHỌN dùng tiền cho X, nên Y phải CHỜ"
-    → KHÔNG phủ nhận cảm xúc con:
-      "Con muốn → BÌNH THƯỜNG. Mình tìm CÁCH khác nhé"
+  SOLUTION:
+    → Acknowledge reality WITHOUT shame:
+      "This costs a lot of money — we can't buy it RIGHT NOW"
+    → Reframe through agency:
+      "We CHOOSE to spend our money on X, so Y has to WAIT"
+    → DON'T deny child's feelings:
+      "You want it → THAT'S NORMAL. Let's find ANOTHER WAY together"
 
   🟡 Scarcity messaging × Background-Pattern = framework analysis
 ```
 
-### §6.3 — "Giỏi thì thưởng tiền, dở thì phạt"
+### §6.3 — "Good Grades Get Money, Bad Grades Get Punished"
 
 ```
-🟡 MONETIZE PERFORMANCE = DOUBLE HARM:
+🟡 MONETIZING PERFORMANCE = DOUBLE HARM:
 
   PATTERN:
-    → "Điểm 10 → thưởng 100K"
-    → "Thi đậu → thưởng iPhone"
-    → "Điểm kém → cắt tiêu vặt"
+    → "A on test → reward $10"
+    → "Pass the exam → reward iPhone"
+    → "Bad grade → no allowance"
 
-  CƠ CHẾ:
+  MECHANISM:
 
-    THƯỞNG TIỀN CHO HỌC:
-      → Overjustification: external reward → kill internal curiosity
-      → Chunks: [học = tiền, không tiền = không học]
-      → Background-Pattern: [giá trị hành vi = tiền thưởng]
-      → RÚT thưởng → motivation collapse
+    PAYING MONEY FOR STUDYING:
+      → Overjustification: external reward → kills internal curiosity
+      → Chunks: [study = money, no money = don't study]
+      → Background-Pattern: [value of behavior = reward money]
+      → WITHDRAW reward → motivation collapse
 
-    PHẠT TIỀN CHO KÉM:
-      → Type 3 Imposed threat → avoidance tag cho LEARNING
-      → Chunks: [học = tránh bị phạt] (avoidance)
+    PUNISHING MONEY FOR BAD PERFORMANCE:
+      → Type 3 Imposed threat → avoidance tag for LEARNING
+      → Chunks: [study = avoid punishment] (avoidance)
       → DOUBLE: money anxiety + learning anxiety = compound
-      → = Education-Mechanism §2.2: worst case = avoidance tag cho domain
+      → = Education-Mechanism §2.2: worst case = avoidance tag for the domain
 
-    PATTERN COMPOUND:
-      → Thưởng khi giỏi (overjustification) + phạt khi dở (threat-path)
+    COMPOUND PATTERN:
+      → Reward when good (overjustification) + punish when bad (threat-path)
       → = Dual mechanism damage: kill approach + add avoidance
-      → = "Học GIỎI = tiền" + "Học DỞ = mất tiền" = toàn avoidance
+      → = "Study WELL = money" + "Study BADLY = lose money" = all avoidance
 
-  GIẢI PHÁP:
-    → CELEBRATE thành tích bằng EXPERIENCE (không tiền):
-      "Con đạt điểm tốt → mình đi ĂN KEM cùng nhau!"
+  SOLUTION:
+    → CELEBRATE achievements through EXPERIENCE (not money):
+      "You did well → let's go get ICE CREAM together!"
       → Connection reward (Valence-Structural) > monetary reward (external)
-    → Không phạt tiền cho kém — INSTEAD: tìm root cause
-      (prerequisite thiếu? direction sai? hardware mismatch?)
-    → Tiền và học = 2 domain TÁCH BIỆT
-    → = Bảo vệ approach tag cho CẢ HAI domain
+    → Don't punish with money for poor performance — INSTEAD: find root cause
+      (missing prerequisites? wrong direction? hardware mismatch?)
+    → Money and studying = 2 SEPARATE domains
+    → = Protect approach tag for BOTH domains
 
   🟢 Overjustification: Deci 1971, Lepper et al. 1973
   🟡 Compound avoidance = framework mechanism analysis
 ```
 
-### §6.4 — So sánh con với "con nhà người ta"
+### §6.4 — Comparing Children to "The Perfect Child Next Door" Using Money
 
 ```
-🟡 SOCIAL COMPARISON DÙNG TIỀN = TOXIC:
+🟡 USING MONEY IN SOCIAL COMPARISONS = TOXIC:
 
   PATTERN:
-    → "Con nhà bác A giỏi → lương CAO"
-    → "Bạn con mua nhà rồi — con sao?"
-    → "Nhà đó giàu vì HỌC GIỎI"
+    → "The neighbor's kid is great → HIGH salary"
+    → "Your friend already bought a house — what about you?"
+    → "That family is rich BECAUSE THEY STUDIED HARD"
 
-  CƠ CHẾ:
+  MECHANISM:
     → Status.md §0: resource access comparison = body-level
     → Imposed comparison (Type 3) → avoidance
-    → Chunks: [giá trị tôi = ranking tiền so với peers]
+    → Chunks: [my worth = money ranking compared to peers]
     → Background-Pattern: [self-worth = net worth]
-    → = Schema ④ từ §5.2: tiền = giá trị con người
+    → = Schema ④ from §5.2: money = human worth
 
-  TẠI SAO ĐẶC BIỆT TOXIC:
-    → Link Density CAO: lặp lại ở nhiều context (nhà, họ hàng, Tết)
-    → Multi-source: bố + mẹ + ông bà + cô dì → confirm
-    → Emotional peak: shame khi bị so sánh trước mặt khách
-    → = 3 dạng exposure cùng fire → Background-Pattern compile CỰC MẠNH
+  WHY IT'S ESPECIALLY TOXIC:
+    → Link Density HIGH: repeated in many contexts (home, relatives, holidays)
+    → Multi-source: father + mother + grandparents + aunts/uncles → confirms
+    → Emotional peak: shame when compared in front of guests
+    → = 3 exposure modes firing together → Background-Pattern compiles EXTREMELY STRONGLY
 
-  GIẢI PHÁP:
-    → KHÔNG so sánh giàu/nghèo giữa các gia đình
-    → Nếu PHẢI so sánh → so sánh EFFORT, không outcome
-    → "Bạn con TẬP LUYỆN nhiều → GIỎI" (effort = approach)
-    → KHÔNG "Bạn con giàu → CON phải giỏi hơn" (pressure = avoidance)
+  SOLUTION:
+    → DON'T compare families by wealth
+    → If MUST compare → compare EFFORT, not outcome
+    → "Your friend TRAINS a lot → GETS GOOD" (effort = approach)
+    → NOT "Your friend is rich → YOU need to be better" (pressure = avoidance)
 
   🟡 Social comparison × Background-Pattern = framework analysis
 ```
 
 ---
 
-## §7 — TIỀN × Valence-Structural BONDS: KHI NÀO KHÔNG DẠY VỀ TIỀN
+## §7 — MONEY × Valence-Structural BONDS: WHEN NOT TO USE MONEY
 
-### §7.1 — Insight cốt lõi: nơi tiền bị cấm
+### §7.1 — Core Insight: Where Money Is Forbidden
 
 ```
-⭐ MONEY-ANALYSIS §5.5 + §6.3 — INSIGHT QUAN TRỌNG:
+⭐ MONEY-ANALYSIS §5.5 + §6.3 — CRITICAL INSIGHT:
 
-  Valence-Structural Depth × Tiền effectiveness = INVERSE RELATIONSHIP:
+  Valence-Structural Depth × Money effectiveness = INVERSE RELATIONSHIP:
 
-  ┌──────────────────────────────┬──────────────┬──────────────────────┐
-  │ Relationship                 │ Tiền role    │ Con CẦN hiểu          │
-  ├──────────────────────────────┼──────────────┼──────────────────────┤
-  │ Stranger                     │ MẠNH NHẤT    │ "Mua hàng → trả tiền │
-  │ (Valence-Structural = 0)     │ Exchange     │  → OK, BÌNH THƯỜNG"  │
-  ├──────────────────────────────┼──────────────┼──────────────────────┤
-  │ Bạn thường                   │ MỘT PHẦN    │ "Chia bill → OK,      │
-  │ (Valence-Structural thấp)    │              │  nhưng đừng tính     │
-  │                              │              │  từng đồng"          │
-  ├──────────────────────────────┼──────────────┼──────────────────────┤
-  │ Bạn thân                     │ GIỚI HẠN    │ "Trả tiền = awkward.  │
-  │ (Valence-Structural cao)     │              │  Giúp vì QUAN TÂM"   │
-  ├──────────────────────────────┼──────────────┼──────────────────────┤
-  │ Gia đình                     │ BỊ CẤM      │ "ĐỪNG tính tiền với   │
-  │ (Valence-Structural cực cao) │              │  bố mẹ, anh chị em" │
-  └──────────────────────────────┴──────────────┴──────────────────────┘
+  ┌────────────────────────────────┬───────────────┬───────────────────────────────┐
+  │ Relationship                   │ Money's role  │ Child NEEDS to understand     │
+  ├────────────────────────────────┼───────────────┼───────────────────────────────┤
+  │ Stranger                       │ STRONGEST     │ "Buying → paying → OK,        │
+  │ (Valence-Structural = 0)       │ Exchange      │  NORMAL"                      │
+  ├────────────────────────────────┼───────────────┼───────────────────────────────┤
+  │ Casual acquaintance            │ PARTIAL       │ "Splitting bills → OK, but    │
+  │ (Valence-Structural low)       │               │  don't count every cent"      │
+  ├────────────────────────────────┼───────────────┼───────────────────────────────┤
+  │ Close friend                   │ LIMITED       │ "Paying for it = awkward.     │
+  │ (Valence-Structural high)      │               │  Help because you CARE"       │
+  ├────────────────────────────────┼───────────────┼───────────────────────────────┤
+  │ Family                         │ FORBIDDEN     │ "DON'T calculate money with   │
+  │ (Valence-Structural very high) │               │  parents, siblings"           │
+  └────────────────────────────────┴───────────────┴───────────────────────────────┘
 
-  → Valence-Structural càng sâu → tiền càng bị cấm → obligation càng implicit
-  → "Ân tình tồn tại CHÍNH XÁC ở boundary tiền bị cấm"
+  → The deeper the Valence-Structural relationship → the more money is forbidden
+    → the more obligation is implicit
+  → "The depth of a relationship EXISTS EXACTLY at the boundary where money is forbidden"
 
 
-  TẠI SAO QUAN TRỌNG CHO EDUCATION:
-    → Trẻ cần compile: "CÓ NƠI tiền KHÔNG áp dụng"
-    → Không compile → trưởng thành monetize Valence-Structural → phá hủy relationships
-    → "Anh trả em 500K cho 18 năm nuôi em" = Valence-Structural destruction
-    → = Con cần BIẾT: tiền = tool cho exchange, KHÔNG cho love
+  WHY THIS MATTERS FOR EDUCATION:
+    → Children need to compile: "THERE ARE PLACES money DOESN'T APPLY"
+    → Not compiling this → as adults, they monetize Valence-Structural relationships → destroy them
+    → "I'll pay you $500 for raising me for 18 years" = Valence-Structural destruction
+    → = Child needs to KNOW: money = tool for exchange, NOT for love
 
-  🟡 Valence-Structural × tiền = inverse = Money-Analysis §5.5 + §6.3
+  🟡 Valence-Structural × money = inverse = Money-Analysis §5.5 + §6.3
 
   🟡 ENTITY-ACCESS LENS (Entity-Access.md v1.2):
-    → Tiền thay đổi WHO con access, không chỉ WHAT con mua:
-      Giàu → access mentors, networks, communities (Mức 3-4)
-      Nghèo → access restricted (Mức 1-2 only)
-    → Con CẦN hiểu: tiền = Entity-Access modulator
-    → NHƯNG: Valence-Structural bonds KHÔNG cần tiền để access (bạn thân ≠ tiền)
-    → = Tiền mở CÁNH CỬA, nhưng relationship quality = INSIDE the room
-    → Education: "tiền giúp con GẶP nhiều người — CHỌN ai ở lại = không tiền"
+    → Money changes WHO the child can access, not just WHAT they can buy:
+      Wealthy → access to mentors, networks, communities (Level 3–4)
+      Low-income → access restricted (Level 1–2 only)
+    → Children NEED to understand: money = Entity-Access modulator
+    → BUT: Valence-Structural bonds DON'T need money to access (close friend ≠ money)
+    → = Money opens DOORS, but relationship quality = INSIDE the room
+    → Education: "money helps you MEET more people — CHOOSING who stays = doesn't cost money"
 ```
 
-### §7.2 — Dạy con phân biệt: Exchange vs Valence-Structural
+### §7.2 — Teaching Children to Distinguish: Exchange vs Valence-Structural
 
 ```
-🟡 CHUNKS CẦN COMPILE:
+🟡 CHUNKS THAT NEED TO COMPILE:
 
-  ① "VIỆC GIA ĐÌNH ≠ CÔNG VIỆC":
-    → Rửa bát cho gia đình = Valence-Structural (thuộc về, đóng góp)
-    → Rửa bát cho nhà hàng = Exchange (effort → tiền)
-    → CÙNG hành vi, KHÁC relationship mode
-    → → Monetize việc gia đình = reclassify Valence-Structural → Exchange → phá Valence-Structural
+  ① "FAMILY WORK ≠ JOB":
+    → Washing dishes for family = Valence-Structural (belonging, contributing)
+    → Washing dishes at a restaurant = Exchange (effort → money)
+    → SAME action, DIFFERENT relationship mode
+    → → Monetizing family work = reclassifying Valence-Structural → Exchange
+       → destroys Valence-Structural
 
-  ② "GIÚP BẠN ≠ DỊCH VỤ":
-    → Giúp bạn dọn nhà = Valence-Structural (friendship)
-    → Thuê người dọn nhà = Exchange (tiền → service)
-    → Trẻ cần feel KHÁC BIỆT giữa 2 mode
-    → Compile qua: trải nghiệm GIÚP bạn → body feel connection reward
-      vs mua service → body feel tiện lợi nhưng KHÔNG có connection
+  ② "HELPING A FRIEND ≠ SERVICE":
+    → Helping a friend clean their room = Valence-Structural (friendship)
+    → Hiring someone to clean = Exchange (money → service)
+    → Children need to FEEL the DIFFERENCE between the 2 modes
+    → Compile through: experiencing HELPING a friend → body feels connection reward
+      vs buying a service → body feels convenience but NO connection
 
   ③ "GIFT ≠ PAYMENT":
-    → Gift = Valence-Structural signal ("tôi nghĩ về bạn")
-    → Payment = Exchange ("bạn làm → tôi trả")
-    → Trẻ compile qua: give gift → THẤY người nhận vui → body reward
-    → ≠ pay bill → relief (cortisol stop)
-    → = 2 reward channels KHÁC NHAU
+    → Gift = Valence-Structural signal ("I was thinking of you")
+    → Payment = Exchange ("you did something → I pay you")
+    → Children compile through: giving a gift → SEEING the recipient's joy → body reward
+    → ≠ paying a bill → relief (cortisol stops)
+    → = 2 DIFFERENT reward channels
 
   APPLICATION:
-    → 3-6: "Mình giúp ông bà vì MÌNH THƯƠNG → không cần tiền"
-    → 6-12: "Bạn giúp mình → mình giúp lại — không tính tiền"
-    → 12-18: explicit: "Có chỗ dùng tiền, có chỗ KHÔNG"
+    → Ages 3–6: "We help grandparents because WE LOVE THEM → no money needed"
+    → Ages 6–12: "Friend helped me → I help them back — no calculating money"
+    → Ages 12–18: explicit: "There are places to use money, and places NOT to"
 
   🟡 Exchange vs Valence-Structural distinction = Obligation §5 + Connection §3.3
 ```
 
-### §7.3 — Tại sao gia đình giàu có risk RIÊNG
+### §7.3 — Why Wealthy Families Have Their Own Specific Risk
 
 ```
-🟡 TIỀN THAY THẾ Valence-Structural = PATTERN PHỔ BIẾN Ở GIA ĐÌNH GIÀU:
+🟡 MONEY REPLACING Valence-Structural = COMMON PATTERN IN WEALTHY FAMILIES:
 
   PATTERN:
-    → Bố mẹ bận → cho tiền thay vì TIME
-    → "Con muốn gì bố mua" thay vì "bố chơi cùng con"
-    → Gifts thay thế presence → Valence-Structural bond YẾU dù material ĐẦY ĐỦ
+    → Busy parents → give money instead of TIME
+    → "What do you want, I'll buy it" instead of "let's play together"
+    → Gifts replace presence → Valence-Structural bond WEAK despite material ABUNDANCE
 
   FRAMEWORK MECHANISM:
-    → Connection.md §3.3: Valence-Structural bonds compile qua THỜI GIAN + EXPERIENCE
-    → Tiền mua Valence-Momentary (exposure quantity) nhưng KHÔNG mua Valence-Structural (bond depth)
-    → Trẻ compile: [bố mẹ = provider, không phải Valence-Structural bond]
-    → = Valence-Structural weakness dù resource access CỰC CAO
+    → Connection.md §3.3: Valence-Structural bonds compile through TIME + EXPERIENCE
+    → Money buys Valence-Momentary (exposure quantity) but CANNOT buy Valence-Structural (bond depth)
+    → Child compiles: [parents = providers, not Valence-Structural bonds]
+    → = Valence-Structural weakness despite VERY HIGH resource access
 
-  HỆ QUẢ:
-    → Trưởng thành: resource access cao + Valence-Structural bond yếu
-    → = Money-Analysis §6.5: "cô đơn giữa đám đông"
-    → = Status cao + connection thấp = imbalance
+  IMPLICATIONS:
+    → As adult: very high resource access + weak Valence-Structural bonds
+    → = Money-Analysis §6.5: "lonely in a crowd"
+    → = High status + low connection = imbalance
 
-  GIẢI PHÁP:
-    → TIME > MONEY cho relationship (body-coupling cần presence)
-    → Gift = BỔ SUNG, không THAY THẾ presence
-    → Explicitly: "Bố MUỐN chơi với con" > "Bố mua cho con"
+  SOLUTION:
+    → TIME > MONEY for relationships (body-coupling needs presence)
+    → Gift = SUPPLEMENT, not REPLACEMENT for presence
+    → Explicitly: "I WANT to play with you" > "I'll buy this for you"
 
-  🟡 Tiền thay thế Valence-Structural = Connection §3.3 + Money-Analysis §6
+  🟡 Money replacing Valence-Structural = Connection §3.3 + Money-Analysis §6
 ```
 
 ---
 
 ## §8 — CULTURAL CONSIDERATIONS
 
-### §8.1 — Asian Background-Pattern: tiền = family tool
+### §8.1 — East Asian Background-Pattern: Money = Family Tool
 
 ```
 🟡 EAST ASIAN MONEY SCHEMAS (Takahashi et al. 2016):
@@ -1582,179 +1555,180 @@ FILE NÀY TRẢ LỜI:
   RESEARCH:
     → Japan, Korea, China, Vietnam: money = "cultural tool"
     → Collective/family orientation > individual independence
-    → Parents demonstrate care qua instrumental/educational SUPPORT
+    → Parents demonstrate care through instrumental/educational SUPPORT
       → Rather than emotional expression
-    → "Cho tiền = quan tâm" → money = Valence-Structural signal (KHÁC Western)
+    → "Giving money = caring" → money = Valence-Structural signal (DIFFERENT from Western)
 
   FRAMEWORK ANALYSIS:
 
-    Background-Pattern CHÂU Á:
-      → [Tiền = filial duty] — kiếm tiền = trách nhiệm với gia đình
-      → [Tiền = chăm sóc] — cho tiền = thể hiện tình yêu
-      → [Tiền = status gia đình] — con giỏi = nhà có mặt
-      → Link Density CỰC CAO: từ Tết, giỗ, cưới, tang → multi-context
+    EAST ASIAN Background-Pattern:
+      → [Money = filial duty] — earning money = responsibility to family
+      → [Money = care] — giving money = expressing love
+      → [Money = family status] — child succeeds = family has face
+      → Link Density VERY HIGH: from Lunar New Year, ancestral ceremonies, weddings, funerals
+        → multi-context
 
-    HỆ QUẢ:
-      → Tiền GẮN VỚI Valence-Structural (không tách biệt như Western)
-      → → Monetize Valence-Structural = ACCEPTED trong culture → NHƯNG body vẫn detect mismatch
-      → "Cho tiền = quan tâm" → VỪA ĐÚNG (intention) VỪA SAI (mechanism)
-      → Đúng: intention = genuine care
-      → Sai: body cần TIME + PRESENCE, tiền là proxy → incomplete
+    IMPLICATIONS:
+      → Money TIED TO Valence-Structural (not separated like Western)
+      → → Monetizing Valence-Structural = ACCEPTED in culture → BUT body still detects mismatch
+      → "Giving money = caring" → BOTH RIGHT (intention) AND WRONG (mechanism)
+      → Right: intention = genuine care
+      → Wrong: body needs TIME + PRESENCE, money is a proxy → incomplete
 
-    VD VIETNAM:
-      → Tết: lì xì = ritual tiền → trẻ compile [tiền = vui, Tết, gia đình]
-        → APPROACH tag (nếu không gắn shame/obligation)
-      → "Con phải học giỏi để bố mẹ NỞ MẶT"
-        → [học = status gia đình] → Type 3 Imposed → avoidance
-      → "Bố mẹ cho tiền đi học → CON PHẢI biết ơn"
-        → Obligation TYPE 5 → cortisol sustained
+    EXAMPLE: LUCKY MONEY (traditional Lunar New Year gift):
+      → Lucky money: ritual money → child compiles [money = joy, New Year, family]
+        → APPROACH tag (if not tied to shame/obligation)
+      → "You must study hard to make the family proud"
+        → [study = family status] → Type 3 Imposed → avoidance
+      → "Parents give money for school → you MUST be grateful"
+        → TYPE 5 identity Obligation → sustained cortisol
 
-  ⚠️ KHÔNG PHẢI "CULTURE SAI":
-    → Framework KHÔNG judge culture
-    → Framework chỉ predict: direction NÀO → tag NÀO → outcome NÀO
-    → Cultural practices có THỂ approach HOẶC avoidance
-    → = Navigate per practice, không reject per culture
+  ⚠️ NOT "CULTURE IS WRONG":
+    → Framework does NOT judge culture
+    → Framework only predicts: which direction → which tag → which outcome
+    → Cultural practices CAN be approach OR avoidance
+    → = Navigate per practice, don't reject per culture
 
   🟢 Takahashi et al. 2016: East Asian money as cultural tool
   🟡 Cultural Background-Pattern × framework = analysis, not judgment
 ```
 
-### §8.2 — Western Background-Pattern: tiền = individual independence
+### §8.2 — Western Background-Pattern: Money = Individual Independence
 
 ```
 🟡 WESTERN MONEY SCHEMAS:
 
   PATTERN:
     → Individual financial independence = GOAL
-    → "Move out at 18" → tiền = independence tool
+    → "Move out at 18" → money = independence tool
     → Allowance system COMMON (practice independence)
     → Financial literacy = separate school subject
 
   FRAMEWORK ANALYSIS:
 
-    Background-Pattern WESTERN:
-      → [Tiền = independence] — kiếm tiền = tự do khỏi gia đình
-      → [Tiền = personal achievement] — net worth = self-worth (risk)
-      → [Tiền = privacy] — "không nói lương" = boundary
-      → Link Density MODERATE: reinforced qua media, career culture
+    WESTERN Background-Pattern:
+      → [Money = independence] — earning money = freedom from family
+      → [Money = personal achievement] — net worth = self-worth (risk)
+      → [Money = privacy] — "don't discuss salary" = boundary
+      → Link Density MODERATE: reinforced through media, career culture
 
-    HỆ QUẢ:
-      → Individual autonomy MẠNH → but Valence-Structural bonds có thể YẾU
+    IMPLICATIONS:
+      → Individual autonomy STRONG → but Valence-Structural bonds can be WEAK
       → "Self-made" = approach tag (positive)
-      → NHƯNG: "self-made" CÓ THỂ → isolation (mọi thứ tự mình)
-      → Financial literacy education NHIỀU nhưng knowledge-behavior gap LỚNHƠN
+      → BUT: "self-made" CAN → isolation (doing everything alone)
+      → More financial literacy education but knowledge-behavior gap STILL LARGE
 
     OECD PISA 2022:
       → Top performers: Flemish Belgium, Denmark, Netherlands, Poland
-      → = Countries với STRONG SCHOOL CURRICULA + HIGH SOCIETAL TRUST
-      → 18% OECD students lacked BASIC financial proficiency
-      → 87-point advantage cho wealthy students
+      → = Countries with STRONG SCHOOL CURRICULA + HIGH SOCIETAL TRUST
+      → 18% of OECD students lacked BASIC financial proficiency
+      → 87-point advantage for wealthy students
       → = Socioeconomic gap > education quality → structural issue
 
   🟢 OECD PISA 2022: financial literacy assessment
   🟡 Western Background-Pattern × framework = analysis
 ```
 
-### §8.3 — Cross-cultural principle: direction universally matters
+### §8.3 — Cross-Cultural Principle: Direction Universally Matters
 
 ```
-⭐ BRAIN-BASED → VALID CROSS-CULTURE:
+⭐ BRAIN-BASED → VALID ACROSS CULTURES:
 
   REGARDLESS of culture:
     → Approach tag → healthy relationship (universal brain mechanism)
-    → Avoidance tag → anxiety relationship (universal brain mechanism)
-    → = Direction > Level = valid MỌI culture
+    → Avoidance tag → anxious relationship (universal brain mechanism)
+    → = Direction > Level = valid in ALL cultures
 
-  CULTURAL PRACTICES khác nhau — nhưng DIRECTION vẫn quyết định:
+  CULTURAL PRACTICES differ — but DIRECTION still determines outcome:
 
-    Lì xì (Vietnamese):
-      → Approach: "Chúc con năm mới vui!" → [tiền = vui] → healthy
-      → Avoidance: "Con phải giữ cho bố mẹ!" → [tiền = obligation] → anxious
+    Lucky money (East Asian tradition):
+      → Approach: "Wishing you joy in the new year!" → [money = joy] → healthy
+      → Avoidance: "You must keep this for your parents!" → [money = obligation] → anxious
 
     Allowance (Western):
-      → Approach: "Con TỰ QUYẾT!" → [tiền = agency] → healthy
-      → Avoidance: "Phải TIẾT KIỆM hết!" → [tiền = restriction] → anxious
+      → Approach: "YOU DECIDE!" → [money = agency] → healthy
+      → Avoidance: "Must SAVE every penny!" → [money = restriction] → anxious
 
-    Filial money (Asian):
-      → Approach: "Mình GIÚP gia đình vì mình YÊU" → [care = approach]
-      → Avoidance: "Con PHẢI trả cho bố mẹ" → [duty = guilt] → anxious
+    Filial money (East Asian):
+      → Approach: "I help my family because I LOVE them" → [care = approach]
+      → Avoidance: "Child MUST repay parents" → [duty = guilt] → anxious
 
-  → = 6 nguyên lý ở §3 = VALID mọi culture
-  → Implementation KHÁC nhau (cultural tools khác)
-  → Nhưng DIRECTION principle = universal
+  → = The 6 principles in §3 are VALID across all cultures
+  → Implementation DIFFERS (different cultural tools)
+  → But the DIRECTION principle = universal
 
   🟡 Cross-cultural universality of direction = framework principle
 ```
 
 ---
 
-## §9 — AI ERA: MONEY EDUCATION KHI KINH TẾ THAY ĐỔI
+## §9 — AI ERA: MONEY EDUCATION AS THE ECONOMY CHANGES
 
-### §9.1 — AI thay đổi gì cho money education
+### §9.1 — What AI Changes for Money Education
 
 ```
 🟡 MONEY-ANALYSIS §9 APPLIED TO EDUCATION:
 
-  AI THAY ĐỔI CẤU TRÚC KINH TẾ:
-    → Cortisol path (routine work) → AI absorb DẦN
-    → Dopamine path (innovation) → AI assist nhưng chưa thay thế
-    → Convergence (cross-domain intersection) → human premium MỚI
-    → = "Kiếm tiền" trong AI era ≠ "kiếm tiền" pre-AI
+  AI IS CHANGING THE ECONOMIC STRUCTURE:
+    → Cortisol path (routine work) → AI gradually absorbs
+    → Dopamine path (innovation) → AI assists but hasn't replaced
+    → Convergence (cross-domain intersection) → NEW human premium
+    → = "Earning money" in the AI era ≠ "earning money" pre-AI
 
-  HỆ QUẢ CHO MONEY EDUCATION:
+  IMPLICATIONS FOR MONEY EDUCATION:
 
-    ① PHẢI DẠY: "tiền = tool" (§3.6) → CÒN QUAN TRỌNG HƠN:
-      → AI era: nhiều nghề MẤT → tiền từ nguồn cũ CÓ THỂ biến mất
-      → Schema [tiền từ JOB X = an toàn] → FRAGILE
-      → Cần: [tiền = tool tôi kiếm được bằng NHIỀU CÁCH]
+    ① STILL MUST TEACH: "money = tool" (§3.6) → EVEN MORE IMPORTANT:
+      → AI era: many careers DISAPPEAR → money from old sources CAN BECOME FRAGILE
+      → Schema [money from JOB X = secure] → FRAGILE
+      → Need: [money = a tool I can earn in MANY WAYS]
       → = Flexibility > specific career path
 
     ② SKILL COMPILE > KNOWLEDGE MEMORIZE:
-      → AI có knowledge → human cần SKILL (meta-learning, creativity)
-      → Money education: dạy "HOW to earn" > "WHAT job"
+      → AI has knowledge → humans need SKILL (meta-learning, creativity)
+      → Money education: teach "HOW to earn" > "WHAT job"
       → = Education-Mechanism §2.9: assess depth, not surface
 
-    ③ CONVERGENCE SKILL = PREMIUM MỚI:
+    ③ CONVERGENCE SKILL = NEW PREMIUM:
       → Money-Analysis §9.2: cross-domain intersection = human premium
-      → Teach children: "biết NHIỀU domain + kết hợp = giá trị CAO"
-      → ≠ "chuyên 1 domain → job ổn định" (pre-AI thinking)
+      → Teach children: "knowing MULTIPLE domains + combining them = HIGH VALUE"
+      → ≠ "specialize in 1 domain → stable job" (pre-AI thinking)
 
-    ④ AI CÓ THỂ HỖ TRỢ MONEY EDUCATION:
+    ④ AI CAN SUPPORT MONEY EDUCATION:
       → AI tutor per-student → calibrate money lessons per hardware
-      → AI track spending → real-time feedback (approach direction)
-      → AI simulate scenarios → "nếu tiêu hết → sao?" → safe exploration
-      → NHƯNG: AI = Layer 1 (Education-Mechanism §4.1)
+      → AI tracks spending → real-time feedback (approach direction)
+      → AI simulates scenarios → "if you spend it all → what happens?" → safe exploration
+      → BUT: AI = Layer 1 (Education-Mechanism §4.1)
         → Parent = Layer 2 (calibrate)
         → Child = Layer 3 (body verify)
 
-    ⑤ AI × TRUST GENERALIZATION: RỦI RO MỚI (Trust.md v1.0):
-      → AI generate "smooth" financial content (coherent, confident, professional)
-      → Installed trust: "nội dung hay = đáng tin" = CHƯA calibrated
+    ⑤ AI × TRUST GENERALIZATION: NEW RISK (Trust.md v1.0):
+      → AI generates "smooth" financial content (coherent, confident, professional)
+      → Installed trust: "quality content = trustworthy" = NOT YET calibrated
       → Trust.md §5 Phase 2: trust acts like truth WITHOUT verification
-      → AI era: financial scam content QUALITY ↑ → installed trust PERSIST lâu hơn
-      → Giải pháp: dạy "NGUỒN nào đáng tin" TRƯỚC "nội dung gì đúng"
-      → = Trust Calibration (Default→Calibrated) = kỹ năng CỐT LÕI trong AI era
+      → AI era: financial scam content QUALITY ↑ → installed trust PERSISTS longer
+      → Solution: teach "WHICH SOURCE is trustworthy" BEFORE "what content is correct"
+      → = Trust Calibration (Default→Calibrated) = THE CORE SKILL of the AI era
 
   🟡 AI era × money education = Money-Analysis §9 + Education-Mechanism §4
 ```
 
-### §9.2 — Cái KHÔNG đổi: brain mechanism
+### §9.2 — What Doesn't Change: Brain Mechanism
 
 ```
-⭐ BẤT KỂ AI ERA NÀO — NÃO VẪN:
+⭐ REGARDLESS OF WHICH AI ERA — THE BRAIN STILL:
 
-  → Compile chunks qua Compile Architecture (1E+3M)
-  → Tag approach/avoidance qua direction
-  → Background-Pattern invisible qua Link Density
-  → Overjustification khi external kill internal
-  → Threshold adapt khi reward habituate
-  → Valence-Structural bonds bị phá khi monetize
+  → Compiles chunks through Compile Architecture (1E+3M)
+  → Tags approach/avoidance through direction
+  → Forms invisible Background-Pattern through Link Density
+  → Experiences overjustification when external kills internal
+  → Adapts threshold when reward habituates
+  → Has Valence-Structural bonds destroyed when monetized
 
-  → = 6 NGUYÊN LÝ ở §3 vẫn VALID trong AI era
-  → Implementation THAY ĐỔI (AI tools mới, economy mới)
-  → Principles GIỮ NGUYÊN (brain không đổi)
+  → = THE 6 PRINCIPLES in §3 remain VALID in the AI era
+  → Implementation CHANGES (new AI tools, new economy)
+  → Principles STAY THE SAME (brain doesn't change)
 
-  = "100 năm trước đúng, 100 năm sau vẫn đúng — vì não không đổi."
+  = "Valid 100 years ago, will still be valid in 100 years — because the brain doesn't change."
   = Money education principles = brain-based, not era-specific
 ```
 
@@ -1762,154 +1736,158 @@ FILE NÀY TRẢ LỜI:
 
 ## §10 — HONEST ASSESSMENT
 
-### §10.1 — Giá trị file này
+### §10.1 — Value of This File
 
 ```
-⭐ GIÁ TRỊ:
+⭐ VALUE:
 
-  ✅ REFRAME money education:
-    Từ "dạy kiến thức tài chính" → "compile chunks đúng direction"
-    → Giải thích knowledge-behavior gap (PFC ≠ body)
-    → = Contribution mới so với mainstream
+  ✅ REFRAMES money education:
+    From "teaching financial knowledge" → "compiling chunks with the right direction"
+    → Explains the knowledge-behavior gap (PFC ≠ body)
+    → = New contribution compared to mainstream approaches
 
   ✅ MECHANISM-BASED per-age guide:
-    → 4 phases (0-3/3-6/6-12/12-18) với prerequisite logic
-    → Mỗi phase: cụ thể CẦN compile gì, direction nào
-    → = Practical cho phụ huynh + giáo viên
+    → 4 phases (0–3 / 3–6 / 6–12 / 12–18) with prerequisite logic
+    → Each phase: specific WHAT to compile, which direction
+    → = Practical for parents + teachers
 
   ✅ 5+5 schema framework:
-    → 5 schemas CẦN compile → target rõ
-    → 5 schemas KHÔNG NÊN → warning rõ
-    → = Checklist actionable
+    → 5 schemas TO compile → clear targets
+    → 5 schemas NOT to compile → clear warnings
+    → = Actionable checklist
 
   ✅ COMMON MISTAKES × mechanism:
-    → Guilt-trip, scarcity messaging, monetize performance, social comparison
-    → = Giải thích TẠI SAO harmful (không chỉ "tránh")
+    → Guilt-trip, scarcity messaging, monetizing performance, social comparisons
+    → = Explains WHY harmful (not just "avoid")
 
   ✅ Valence-Structural BONDS insight:
-    → Khi nào KHÔNG dùng tiền = unique framework contribution
-    → Trẻ cần compile boundary: exchange vs Valence-Structural
+    → When NOT to use money = unique framework contribution
+    → Children need to compile the boundary: exchange vs Valence-Structural
 
   ✅ CULTURAL × universal:
-    → Acknowledge cultural differences
+    → Acknowledges cultural differences
     → Direction principle = universal regardless of culture
 ```
 
-### §10.2 — Giới hạn
+### §10.2 — Limitations
 
 ```
-⚠️ GIỚI HẠN:
+⚠️ LIMITATIONS:
 
-  ① OBSERVATION FILE — KHÔNG PHẢI MECHANISM MỚI:
-    → Tất cả mechanisms derived từ existing files
-    → KHÔNG tạo concept mới → apply existing to money education
-    → = Giá trị = application, không phải discovery
+  ① OBSERVATION FILE — NOT NEW MECHANISM:
+    → All mechanisms derived from existing files
+    → Creates NO new concepts → applies existing to money education
+    → = Value = application, not discovery
 
-  ② CHƯA TESTED SYSTEMATIC:
-    → 6 nguyên lý = derived từ 🟢 mechanisms
-    → NHƯNG: chưa tested ĐẶC BIỆT cho money education context
+  ② NOT SYSTEMATICALLY TESTED:
+    → 6 principles = derived from 🟢 mechanisms
+    → BUT: not specifically tested in money education context
     → "Logical" ≠ "proven in practice"
-    → = 🟡 confidence cho application layer
+    → = 🟡 confidence for application layer
 
   ③ PER-AGE GUIDE = APPROXIMATE:
-    → Mỗi trẻ KHÁC timeline
-    → Age ranges = population average, KHÔNG phải prescription
-    → Body signal (approach/avoidance) = chỉ dấu readiness THẬT
-    → = Guide, không phải GPS
+    → Every child has a DIFFERENT timeline
+    → Age ranges = population average, NOT prescriptions
+    → Body signal (approach/avoidance) = the REAL indicator of readiness
+    → = Guide, not GPS
 
   ④ CULTURAL ANALYSIS = SURFACE:
-    → Asian vs Western = oversimplified
-    → Within-culture variation CÒN LỚN HƠN between-culture
-    → Cần deeper analysis per country, per socioeconomic
-    → = §8 = starting point, KHÔNG phải conclusion
+    → East Asian vs Western = oversimplified
+    → Within-culture variation IS LARGER than between-culture
+    → Deeper per-country, per-socioeconomic analysis needed
+    → = §8 = starting point, NOT conclusion
 
   ⑤ ECONOMIC REALITY:
-    → "Approach direction" = ĐÚNG — nhưng khi THẬT SỰ nghèo?
-    → Poverty = cortisol chronic → approach direction KHÓ HƠN
-    → = Principles valid, implementation HARDER khi resource scarce
+    → "Approach direction" = CORRECT — but when GENUINELY POOR?
+    → Poverty = chronic cortisol → approach direction IS HARDER
+    → = Principles valid, implementation HARDER when resources are scarce
     → = Structural inequality > individual education
 
   ⑥ STRUCTURAL CRITIQUE:
-    → Financial literacy education CÓ THỂ individualize systemic problems
-    → "Dạy con quản lý tiền" ≠ giải quyết inequality
-    → = File này KHÔNG thay thế structural change
-    → = Education = NECESSARY nhưng NOT SUFFICIENT
+    → Financial literacy education CAN individualize systemic problems
+    → "Teaching children to manage money" ≠ solving inequality
+    → = This file does NOT replace structural change
+    → = Education = NECESSARY but NOT SUFFICIENT
 ```
 
-### §10.3 — Confidence per section
+### §10.3 — Confidence Per Section
 
 ```
-  ┌──────────────────────────────┬──────────┬──────────────────────────────┐
-  │ Section                      │ Level    │ Notes                        │
-  ├──────────────────────────────┼──────────┼──────────────────────────────┤
-  │ §1 Why important            │ 🟢→🟡   │ Research: 🟢 (age 7, CFPB).  │
-  │                              │          │ Background-Pattern mechanism: 🟡 framework   │
-  ├──────────────────────────────┼──────────┼──────────────────────────────┤
-  │ §2 Why current fails        │ 🟢→🟡   │ K-B gap: 🟢 (Mandell 2008).  │
-  │                              │          │ PFC vs body: 🟡 framework    │
-  ├──────────────────────────────┼──────────┼──────────────────────────────┤
-  │ §3 Framework principles     │ 🟡       │ Derived from 🟢 mechanisms.  │
-  │                              │          │ Application untested.        │
-  ├──────────────────────────────┼──────────┼──────────────────────────────┤
-  │ §4 Per-age guide            │ 🟡       │ Prerequisite logic sound.     │
-  │                              │          │ Timing = approximate.        │
-  ├──────────────────────────────┼──────────┼──────────────────────────────┤
-  │ §5 5+5 schemas              │ 🟡       │ Framework synthesis.          │
-  │                              │          │ Checklist not validated.      │
-  ├──────────────────────────────┼──────────┼──────────────────────────────┤
-  │ §6 Common mistakes          │ 🟢→🟡   │ Overjustification: 🟢.        │
-  │                              │          │ Other: 🟡 framework applied  │
-  ├──────────────────────────────┼──────────┼──────────────────────────────┤
-  │ §7 Valence-Structural bonds  │ 🟡       │ Framework insight.            │
-  │                              │          │ Unique but untested.         │
-  ├──────────────────────────────┼──────────┼──────────────────────────────┤
-  │ §8 Cultural                 │ 🟡       │ Research 🟢 (Takahashi).      │
-  │                              │          │ Framework analysis: 🟡       │
-  ├──────────────────────────────┼──────────┼──────────────────────────────┤
-  │ §9 AI era                   │ 🟡→🔴   │ Prediction-level.             │
-  └──────────────────────────────┴──────────┴──────────────────────────────┘
+  ┌────────────────────────────────┬──────────┬──────────────────────────────────┐
+  │ Section                        │ Level    │ Notes                            │
+  ├────────────────────────────────┼──────────┼──────────────────────────────────┤
+  │ §1 Why important               │ 🟢→🟡   │ Research: 🟢 (age 7, CFPB).      │
+  │                                │          │ Background-Pattern mechanism: 🟡  │
+  ├────────────────────────────────┼──────────┼──────────────────────────────────┤
+  │ §2 Why current fails           │ 🟢→🟡   │ K-B gap: 🟢 (Mandell 2008).      │
+  │                                │          │ PFC vs body: 🟡 framework         │
+  ├────────────────────────────────┼──────────┼──────────────────────────────────┤
+  │ §3 Framework principles        │ 🟡       │ Derived from 🟢 mechanisms.       │
+  │                                │          │ Application untested.             │
+  ├────────────────────────────────┼──────────┼──────────────────────────────────┤
+  │ §4 Per-age guide               │ 🟡       │ Prerequisite logic sound.         │
+  │                                │          │ Timing = approximate.             │
+  ├────────────────────────────────┼──────────┼──────────────────────────────────┤
+  │ §5 5+5 schemas                 │ 🟡       │ Framework synthesis.              │
+  │                                │          │ Checklist not validated.          │
+  ├────────────────────────────────┼──────────┼──────────────────────────────────┤
+  │ §6 Common mistakes             │ 🟢→🟡   │ Overjustification: 🟢.            │
+  │                                │          │ Others: 🟡 framework applied      │
+  ├────────────────────────────────┼──────────┼──────────────────────────────────┤
+  │ §7 Valence-Structural bonds    │ 🟡       │ Framework insight.                │
+  │                                │          │ Unique but untested.              │
+  ├────────────────────────────────┼──────────┼──────────────────────────────────┤
+  │ §8 Cultural                    │ 🟡       │ Research 🟢 (Takahashi).          │
+  │                                │          │ Framework analysis: 🟡            │
+  ├────────────────────────────────┼──────────┼──────────────────────────────────┤
+  │ §9 AI era                      │ 🟡→🔴   │ Prediction-level.                 │
+  └────────────────────────────────┴──────────┴──────────────────────────────────┘
 
   v1.1 NEW CONCEPT INTEGRATIONS (all 🟡):
     🟡 Compiled Quality Dimension (§1.3) — genuine/schema/threat money chunks
     🟡 Hardware-Subsidy inversion (§6.1) — guilt-trip corrupts parent subsidy
-    🟡 Entity-Access modulation (§7.1) — tiền thay đổi WHO con access
+    🟡 Entity-Access modulation (§7.1) — money changes WHO child can access
     🟡 Dissonance-Signal-Architecture vocabulary for money threats (§2.3) — Evaluative vs Direct-State
     🟡 PFC Budget for abstract money concepts (§3.6) — session design constraint
 
   v1.2 TRUST + SELF-OBSERVATION INTEGRATIONS (all 🟡):
     🟡 Trust Mechanism for financial trust (§2.1) — installed trust, schema inheritance, persist
-    🟡 Self-Observation for spending (§3.2, §4.4) — "muốn mua" = body signal → Mức 3 observe
+    🟡 Self-Observation for spending (§3.2, §4.4) — "wanting to buy" = body signal → Level 3 observe
     🟡 Trust Generalization for KOL financial exploit (§5.2①) — per-entity ≠ per-domain
-    🟡 AI × Trust Generalization risk (§9.1⑤) — smooth content = unverified trust persist
+    🟡 AI × Trust Generalization risk (§9.1⑤) — smooth content = unverified trust persists
 ```
 
-### §10.4 — Câu hỏi mở
+### §10.4 — Open Questions
 
 ```
-  ┌───┬──────────────────────────────────────────┬──────────┬──────┐
-  │ # │ Câu hỏi                                  │ Priority │ Conf │
-  ├───┼──────────────────────────────────────────┼──────────┼──────┤
-  │ 1 │ Optimal allowance amount per age?         │ Cao      │ 🔴   │
-  │   │ Goldilocks point per culture?             │          │      │
-  ├───┼──────────────────────────────────────────┼──────────┼──────┤
-  │ 2 │ Can approach-reframing work under         │ Cao      │ 🔴   │
-  │   │ real poverty conditions? Limits?          │          │      │
-  ├───┼──────────────────────────────────────────┼──────────┼──────┤
-  │ 3 │ Monetize chores: is there a SAFE way?     │ TB       │ 🟡   │
-  │   │ (EXTRA tasks only? age-dependent?)        │          │      │
-  ├───┼──────────────────────────────────────────┼──────────┼──────┤
-  │ 4 │ Digital money = same chunks as physical?   │ TB       │ 🔴   │
-  │   │ Multi-modal richness khác?                │          │      │
-  ├───┼──────────────────────────────────────────┼──────────┼──────┤
-  │ 5 │ Critical period window: 0-7 fixed?         │ Cao      │ 🟡   │
-  │   │ Or can later experience override Background-Pattern?      │          │      │
-  ├───┼──────────────────────────────────────────┼──────────┼──────┤
-  │ 6 │ Cross-generational Background-Pattern transmission:       │ Cao      │ 🟡   │
-  │   │ can 1 generation break pattern?           │          │      │
-  ├───┼──────────────────────────────────────────┼──────────┼──────┤
-  │ 7 │ AI-assisted money education: what works?   │ TB       │ 🔴   │
-  │   │ Simulation? Gamification? Real-time?      │          │      │
-  └───┴──────────────────────────────────────────┴──────────┴──────┘
+  ┌───┬────────────────────────────────────────────┬──────────┬──────┐
+  │ # │ Question                                   │ Priority │ Conf │
+  ├───┼────────────────────────────────────────────┼──────────┼──────┤
+  │ 1 │ Optimal allowance amount per age?           │ High     │ 🔴   │
+  │   │ Goldilocks point per culture?              │          │      │
+  ├───┼────────────────────────────────────────────┼──────────┼──────┤
+  │ 2 │ Can approach-reframing work under           │ High     │ 🔴   │
+  │   │ real poverty conditions? What are the       │          │      │
+  │   │ limits?                                    │          │      │
+  ├───┼────────────────────────────────────────────┼──────────┼──────┤
+  │ 3 │ Monetizing chores: is there a SAFE way?     │ Medium   │ 🟡   │
+  │   │ (EXTRA tasks only? age-dependent?)         │          │      │
+  ├───┼────────────────────────────────────────────┼──────────┼──────┤
+  │ 4 │ Digital money = same chunks as physical?    │ Medium   │ 🔴   │
+  │   │ Different multi-modal richness?            │          │      │
+  ├───┼────────────────────────────────────────────┼──────────┼──────┤
+  │ 5 │ Critical period window: 0–7 fixed?          │ High     │ 🟡   │
+  │   │ Can later experience override Background-  │          │      │
+  │   │ Pattern?                                   │          │      │
+  ├───┼────────────────────────────────────────────┼──────────┼──────┤
+  │ 6 │ Cross-generational Background-Pattern       │ High     │ 🟡   │
+  │   │ transmission: can 1 generation break the   │          │      │
+  │   │ pattern?                                   │          │      │
+  ├───┼────────────────────────────────────────────┼──────────┼──────┤
+  │ 7 │ AI-assisted money education: what works?    │ Medium   │ 🔴   │
+  │   │ Simulation? Gamification? Real-time        │          │      │
+  │   │ feedback?                                  │          │      │
+  └───┴────────────────────────────────────────────┴──────────┴──────┘
 ```
 
 ---
@@ -1918,19 +1896,20 @@ FILE NÀY TRẢ LỜI:
 
 ```
 ═══════════════════════════════════════════════════════
-NỀN TẢNG TRỰC TIẾP
+DIRECT FOUNDATIONS
 ═══════════════════════════════════════════════════════
 
-→ Money-Analysis.md v1.0 — ⭐ NỀN TẢNG CỐT LÕI
+→ Money-Analysis.md v1.0 — ⭐ CORE FOUNDATION
   3-layer def (§1), 5 functions (§3), 6 paths (§4), gap shift (§4.4),
-  6 over-reward (§5), 7 useless cases (§6), Valence-Structural×tiền inverse (§6.3),
-  tiền ≈ ngôn ngữ (§1.4). Q8 = file này trả lời.
+  6 over-reward cases (§5), 7 useless cases (§6),
+  Valence-Structural × money inverse (§6.3), money ≈ language (§1.4).
+  Q8 = this file answers.
 
-→ Education-Mechanism.md v2.2 — NGUYÊN LÝ ARC DESIGN
-  10 nguyên lý (§2), bridge mechanism (§3), 4 nguồn fill (§3.4),
+→ Education-Mechanism.md v2.2 — ARC DESIGN PRINCIPLES
+  10 principles (§2), bridge mechanism (§3), 4 fill sources (§3.4),
   approach/avoidance (§2.2), prerequisite (§2.4), AI model (§4).
 
-→ Child-Development-Mechanism.md v2.2 — CƠ CHẾ PHÁT TRIỂN TRẺ
+→ Child-Development-Mechanism.md v2.2 — CHILD DEVELOPMENT MECHANISM
   PFC reframe (§1), Compile Architecture (§2), approach/avoidance tags (§3),
   chunk dynamics (§4), cortisol baseline (§8).
 
@@ -1942,21 +1921,21 @@ MECHANISM FILES
 → Background-Pattern.md v2.0 — INVISIBLE BIAS
   2D model Depth×Density (§2), sleep accelerator (§4),
   PFC invisible (§5), resolution pathways (§10).
-  Kết nối: §1.1 (money schemas = Background-Pattern).
+  Connection: §1.1 (money schemas = Background-Pattern).
 
 → Reward-Calibration.md v1.1 — GOLDILOCKS + OVER-REWARD
   Goldilocks per-gap (§1), premature compilation (§3.4),
   6 over-reward mechanisms (§4), collective calibration (§5.4).
-  Kết nối: §2.4 (premature compilation), §3.3 (Goldilocks).
+  Connection: §2.4 (premature compilation), §3.3 (Goldilocks).
 
-→ Obligation.md v1.0 — TIỀN = TECHNOLOGY
-  §5.2 tiền = obligation technology (4 functions),
+→ Obligation.md v1.0 — MONEY = TECHNOLOGY
+  §5.2 money = obligation technology (4 functions),
   §4 6-type spectrum, §8 parenting calibration.
-  Kết nối: §6.1 (guilt-trip = Type 5 identity obligation).
+  Connection: §6.1 (guilt-trip = Type 5 identity obligation).
 
 → Reward-Signal-Architecture.md v1.0 — EVALUATIVE/DIRECT-STATE
   Overjustification mechanism at signal level.
-  Kết nối: §2.2, §3.5 (overjustification).
+  Connection: §2.2, §3.5 (overjustification).
 
 
 ═══════════════════════════════════════════════════════
@@ -1964,35 +1943,35 @@ OBSERVATION PARAMETERS
 ═══════════════════════════════════════════════════════
 
 → Status.md v2.0 — Resource Access Map
-  Tiền mở rộng access (§1), exchange mode (§5).
+  Money expands access (§1), exchange mode (§5).
 
 → Gratitude.md v1.1 — Anti-habituation
-  3 mechanisms (§3), cho đi = approach (§5).
-  Kết nối: §5.1⑤ (share schema).
+  3 mechanisms (§3), giving = approach (§5).
+  Connection: §5.1⑤ (share schema).
 
 → Connection.md v5.0 — Valence-Structural Bonds + Hardware-Subsidy + Entity-Access
-  2-luồng (§3.3), Valence-Structural (§5), Hardware-Subsidy (§7), Resonance Decline (§8).
-  Kết nối: §7 (Valence-Structural × tiền).
+  2 streams (§3.3), Valence-Structural (§5), Hardware-Subsidy (§7), Resonance Decline (§8).
+  Connection: §7 (Valence-Structural × money).
 
 → Threat.md — 3 ORIGIN Taxonomy
   Domain/Peer/Imposed (§5.5).
-  Kết nối: §2.3, §3.4 (natural vs imposed consequences).
+  Connection: §2.3, §3.4 (natural vs imposed consequences).
 
 
 ═══════════════════════════════════════════════════════
-CHILD-DEVELOPMENT BỘ 4
+CHILD-DEVELOPMENT GROUP
 ═══════════════════════════════════════════════════════
 
-→ Natural-Development.md v2.0 — 0-6 tự nhiên
+→ Natural-Development.md v2.0 — Natural development ages 0–6
 → Skill-Introduction.md v2.0 — exposure → structure pattern
 → Mother-Optimization.md — prenatal hardware
 
 
 ═══════════════════════════════════════════════════════
-BỘ 3 EDUCATION
+EDUCATION TRIPLE SET
 ═══════════════════════════════════════════════════════
 
-→ Education-Mechanism.md v2.2 ⭐ (HOW — 10 nguyên lý arc design)
+→ Education-Mechanism.md v2.2 ⭐ (HOW — 10 arc design principles)
 → Domain-Knowledge-Map.md v2.1 (WHAT — §1.2 Numeracy → financial literacy branch)
 → Connection-Education.md v1.1 (WHO — social interaction education)
 
@@ -2000,16 +1979,16 @@ BỘ 3 EDUCATION
 EDUCATION OBSERVATION
 ═══════════════════════════════════════════════════════
 
-→ Education-Arms-Race.md v1.3 — Arms race context
-→ Expansion-Saturation-Crisis.md v1.2 — Credential inflation, tiền × giáo dục
+→ Education-Arms-Race.md v1.4 — Arms race context
+→ Expansion-Saturation-Crisis.md v1.3 — Credential inflation, money × education
 
 
 ═══════════════════════════════════════════════════════
 COMPANION
 ═══════════════════════════════════════════════════════
 
-→ Gap-Direction.md v1.0 — "Chưa biết = không gap"
-→ Anchor-Schema.md v1.2 — 4 nguồn fill, trust
+→ Gap-Direction.md v1.0 — "Not yet knowing = no gap"
+→ Anchor-Schema.md v1.2 — 4 fill sources, trust
 → Body-Feedback-Label.md v2.1 — Vocabulary reference
 
 
@@ -2020,7 +1999,7 @@ NEW CONCEPT INTEGRATIONS (v1.1)
 → PFC-Operations.md v1.1 §5 — Compiled Quality Dimension (§1.3)
 → Valence-Propagation.md v3.0 §7 — Hardware-Subsidy inversion (§6.1)
 → Entity-Access.md v1.2 — Entity-Access modulation (§7.1)
-→ Dissonance-Signal-Architecture.md v1.0 — Dissonance-Signal-Architecture vocabulary (§2.3)
+→ Dissonance-Signal-Architecture.md v1.0 — vocabulary for money threats (§2.3)
 → PFC-Operations.md v1.1 — PFC Budget constraint (§3.6)
 
 
@@ -2028,10 +2007,11 @@ NEW CONCEPT INTEGRATIONS (v1.1)
 TRUST + SELF-OBSERVATION INTEGRATIONS (v1.2)
 ═══════════════════════════════════════════════════════
 
-→ Trust.md v1.0 — Schema inheritance financial trust (§2.1), Trust Generalization KOL exploit (§5.2①),
-  AI × Trust risk (§9.1⑤). Trust Calibration Default→Calibrated = meta-skill tài chính.
-→ Self-Observation.md v1.0 — "Muốn mua" = body signal → Mức 3 observe source (§3.2),
-  Teen spending Pattern-Observe Mức 4 (§4.4), PFC Budget × impulse purchase risk.
+→ Trust.md v1.0 — Schema inheritance financial trust (§2.1),
+  Trust Generalization KOL exploit (§5.2①), AI × Trust risk (§9.1⑤).
+  Trust Calibration Default→Calibrated = financial meta-skill.
+→ Self-Observation.md v1.0 — "Wanting to buy" = body signal → Level 3 observe source (§3.2),
+  Teen spending Pattern-Observe Level 4 (§4.4), PFC Budget × impulse purchase risk.
 ```
 
 ---
@@ -2039,12 +2019,12 @@ TRUST + SELF-OBSERVATION INTEGRATIONS (v1.2)
 > *Money-Education v1.2 — Observation File.*
 > *Money schemas compile by age 7 (Whitebread 2013) = Background-Pattern invisible.*
 > *Knowledge ≠ behavior (Mandell 2008) = PFC ≠ body compilation.*
-> *6 nguyên lý: Experience > Lecture, Approach LUÔN, Goldilocks,*
-> *Natural consequences, Không monetize internal drive, Teach proxy nature.*
-> *4 phases: Observation (0-3) → First Experience (3-6) → Management (6-12) → Real World (12-18).*
+> *6 principles: Experience > Lecture, Approach direction ALWAYS, Goldilocks,*
+> *Natural consequences, Don't monetize internal drive, Teach proxy nature.*
+> *4 phases: Observation (0–3) → First Experience (3–6) → Management (6–12) → Real World (12–18).*
 > *5 healthy schemas + 5 toxic schemas.*
-> *Valence-Structural insight: nơi tiền bị cấm = nơi relationship sâu nhất.*
-> *Direction > Level = valid mọi culture, mọi era.*
-> *"Bố mẹ đang dạy con về tiền — dù không cố ý."*
-> *v1.2: +Trust.md (schema inheritance, Trust Generalization, AI×Trust risk),*
-> *+Self-Observation.md ("muốn mua" body signal, teen spending Mức 4, PFC Budget).*
+> *Valence-Structural insight: where money is forbidden = where relationships run deepest.*
+> *Direction > Level = valid in all cultures, all eras.*
+> *"Parents are already teaching children about money — even without intending to."*
+> *v1.2: +Trust.md (schema inheritance, Trust Generalization, AI × Trust risk),*
+> *+Self-Observation.md ("wanting to buy" body signal, teen spending Level 4, PFC Budget).*

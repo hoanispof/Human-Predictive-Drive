@@ -1,66 +1,58 @@
 ---
-title: Valence-Propagation — Hệ Thống Đánh Giá Của Body + Cơ Chế Truyền Qua Schema Network
-version: 4.1
-created: 2026-04-18
-rewritten: 2026-05-29 (v4.0 — SPLIT: entity-valence dynamics → Entity-Valence-Dynamics.md v1.0)
-refined: 2026-05-29 (v4.1 — L3 RETIRE: "L0-L1-L3 channels" → L0+L1 substrate + observation parameters. 2-dimension model aligned with Body-Base v3.3)
-previous_versions:
-  - v3.0 → backup/Valence-Propagation-v3.0-backup.md
-  - v2.0 → backup/Valence-Propagation-v2.0-backup.md
-  - v1.4 → backup/Valence-Propagation-v1.4-backup.md
-status: v4.1 — REFERENCE FILE (valence definition + propagation mechanism)
+title: Valence-Propagation — The Body's Evaluation System + Propagation Mechanism Through Schema Network
+version: 1.0 (English)
+source_version: 4.1 (Vietnamese, 2026-05-29)
+translated: 2026-06-11
+status: v1.0 — REFERENCE FILE (valence definition + propagation mechanism)
 scope: |
-  WHAT valence IS (definition, 4 đặc tính, valence profile per-entity) +
-  HOW valence FORMS (4 nguồn, 3 update types, bias) +
-  HOW valence PROPAGATES qua schema chain (4 cơ chế, 5 chain properties, 4-tầng chain dài) +
-  CASES phân tích (6 nhóm) + PFC BLINDNESS + 3 NGUYÊN TẮC + GIỚI HẠN.
-  v4.0 SPLIT: Per-entity valence dynamics (v3.0 §3-§13) → Entity-Valence-Dynamics.md v1.0.
+  WHAT valence IS (definition, 4 properties, valence profile per-entity) +
+  HOW valence FORMS (4 sources, 3 update types, bias) +
+  HOW valence PROPAGATES through schema chain (4 mechanisms, 5 chain properties, 4-layer long chain) +
+  CASES analysis (6 groups) + PFC BLINDNESS + 3 PRINCIPLES + LIMITS.
+  v4.0 SPLIT: Per-entity valence dynamics → Entity-Valence-Dynamics.md v1.0.
   Companion: Entity-Valence-Dynamics.md v1.0 = HOW valence BEHAVES per-entity over time.
-  File này = WHAT valence IS + HOW it FORMS + HOW it PROPAGATES.
+  This file = WHAT valence IS + HOW it FORMS + HOW it PROPAGATES.
 purpose: |
-  Central reference cho valence definition + formation + propagation mechanism.
-  2 trụ: WHAT valence IS (§1-§2) + HOW valence FORMS AND PROPAGATES (§3-§7).
+  Central reference for valence definition + formation + propagation mechanism.
+  2 pillars: WHAT valence IS (§1-§2) + HOW valence FORMS AND PROPAGATES (§3-§7).
   Per-entity dynamics → Entity-Valence-Dynamics.md v1.0 (companion file).
 dependencies:
   - Entity-Valence-Dynamics.md v1.0 — companion: HOW valence behaves per-entity over time
-  - Body-Base.md v3.3 — L0+L1 substrate + observation parameters mà valence đánh giá
+  - Body-Base.md v3.3 — L0+L1 substrate + observation parameters that valence evaluates
   - Body-Feedback-Mechanism.md v2.0 — Body-Need aggregate, 2 sources, 3 dynamics
   - Schema.md v2.0 — schema = chunks + links + purpose
   - Chunk.md v2.2 — chunk substrate, context-tag, 4 connection types
-  - Anchor-Schema.md v1.2 — anchor amplify propagation, trust binding
-  - Collective-Body.md v1.2 — Model 3 cấp (Clarification reference)
-  - Self-Pattern-Modeling.md v3.1 — observed experience (§3 nguồn ②)
+  - Anchor-Schema.md v1.2 — anchor amplifies propagation, trust binding
+  - Collective-Body.md v1.2 — 3-Level Model (Clarification reference)
+  - Self-Pattern-Modeling.md v3.1 — observed experience (§3 source ②)
   - Agent-Mechanism.md v2.1 — Schema-Imagined-Overlay (§2 abstract entities)
-  - Feeling.md v2.0 — PFC observation of body-feedback (khác tầng)
+  - Feeling.md v3.0 — PFC observation of body-feedback (different layer)
   - Reward-Signal-Architecture.md v2.1 — Evaluative/Direct-State × valence
-  - Drive.md — tổng hợp valences → action
-sources:
-  - Valence-Propagation v3.0 (2,001L) — content preserved (§1-§2 + §14-§18 → §3-§7)
-  - Entity-valence dynamics (v3.0 §3-§13) → Entity-Valence-Dynamics.md v1.0
-language: Tiếng Việt primary + English technical terms
+  - Drive.md — synthesizes valences → action
+language: English translation (Vietnamese primary + English technical terms in source)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Valence-Propagation — Hệ Thống Đánh Giá Của Body + Cơ Chế Truyền Qua Schema Network
+# Valence-Propagation — The Body's Evaluation System + Propagation Mechanism Through Schema Network
 
-> **Cái dao từng cắt tay bạn. Bạn SỢ nó.**
-> **Cùng cái dao đó, bạn học cách dùng. Bạn THÍCH nó.**
-> **Cùng cái dao đó, trong tay kẻ thù. Bạn SỢ nó LẠI.**
+> **The knife that once cut your hand. You FEAR it.**
+> **The same knife, once you learn to use it. You LIKE it.**
+> **The same knife, in an enemy's hand. You FEAR it AGAIN.**
 >
-> Cùng 1 entity — valence THAY ĐỔI tùy experience và context.
-> Đó là valence PER-ENTITY — cách body đánh giá 1 thứ cụ thể.
+> Same entity — valence CHANGES depending on experience and context.
+> That is per-entity valence — how the body evaluates one specific thing.
 >
-> Nhưng có thứ PHỨC TẠP hơn nhiều:
+> But there is something FAR MORE COMPLEX:
 >
-> **Toán có feed body-base trực tiếp không? KHÔNG.**
-> **Nhưng toán LINK tới chain: toán → điểm → đại học → job → lương → body feed.**
-> **Valence positive ở CUỐI chain TRUYỀN NGƯỢC → toán (+).**
-> **= Valence PROPAGATION qua schema network.**
+> **Does math directly feed body-base? NO.**
+> **But math LINKS to a chain: math → grades → university → job → salary → body feeds.**
+> **Positive valence at the END of the chain PROPAGATES BACKWARD → math (+).**
+> **= Valence PROPAGATION through schema network.**
 >
-> File này: Valence LÀ GÌ, cấu trúc per-entity,
-> cách valence HÌNH THÀNH từ 4 nguồn,
-> cách valence TRUYỀN qua schema chain,
-> TẠI SAO PFC không biết, và GIỚI HẠN nền tảng.
+> This file: WHAT valence IS, per-entity structure,
+> how valence FORMS from 4 sources,
+> how valence PROPAGATES through schema chains,
+> WHY PFC doesn't know, and the FUNDAMENTAL LIMITS.
 >
 > **Per-entity valence dynamics** (Structural vs Current, Hardware-Subsidy,
 > 3 Firing Modes, Satiation Type, Phantom resonance...)
@@ -68,61 +60,66 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ TRONG FRAMEWORK
-- §1 — VALENCE LÀ GÌ
-- §2 — VALENCE PROFILE: Cấu Trúc Per-Entity
-- §3 — CÁCH VALENCE HÌNH THÀNH + UPDATE
-- §4 — VALENCE PROPAGATION QUA SCHEMA CHAIN
-- §5 — CHAIN PROPERTIES + WHY CHAIN DÀI TỒN TẠI
-- §6 — CASES PHÂN TÍCH
-- §7 — PFC BLINDNESS + 3 NGUYÊN TẮC
-- §8 — HONEST ASSESSMENT
-- §9 — CROSS-REFERENCES + CITATIONS
+- [§0 — POSITION IN FRAMEWORK](#0)
+- [§1 — WHAT VALENCE IS](#1)
+- [§2 — VALENCE PROFILE: Per-Entity Structure](#2)
+- [§3 — HOW VALENCE FORMS + UPDATES](#3)
+- [§4 — VALENCE PROPAGATION THROUGH SCHEMA CHAIN](#4)
+- [§5 — CHAIN PROPERTIES + WHY LONG CHAINS PERSIST](#5)
+  - [§5.1 — 5 Properties](#51)
+  - [§5.2 — 4-Layer Mechanism for Creating + Maintaining Long Chains](#52)
+- [§6 — CASE ANALYSIS](#6)
+- [§7 — PFC BLINDNESS + 3 PRINCIPLES](#7)
+  - [§7.1 — PFC Blindness](#71)
+  - [§7.2 — 3 Principles](#72)
+  - [§7.3 — Fundamental Limits](#73)
+- [§8 — HONEST ASSESSMENT](#8)
+- [§9 — CROSS-REFERENCES + CITATIONS](#9)
 
 ---
 
-## §0 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — POSITION IN FRAMEWORK
 
 ```
-🟡 VALENCE TRONG KIẾN TRÚC FRAMEWORK:
+🟡 VALENCE IN THE FRAMEWORK ARCHITECTURE:
 
-  VALENCE = CÁCH BODY ĐÁNH GIÁ MỌI THỨ.
+  VALENCE = THE WAY THE BODY EVALUATES EVERYTHING.
 
-  Trước khi hành động, body phải ĐÁNH GIÁ:
-    "Entity này ảnh hưởng body-base CỦA TÔI thế nào?"
-    "Positive? Negative? Mixed? Qua channel nào?"
-  Kết quả đánh giá = VALENCE.
+  Before taking action, the body must EVALUATE:
+    "How does this entity affect MY body-base?"
+    "Positive? Negative? Mixed? Through which channel?"
+  The result of this evaluation = VALENCE.
 
-  Valence THUỘC VỀ Body-Base vì:
-    → Body là NƠI đánh giá xảy ra (amygdala, insula, body signals)
-    → Body-base substrate (L0+L1) là THƯỚC ĐO đánh giá
-    → Valence = body's ASSESSMENT, không phải PFC's judgment
-    → PFC có thể OBSERVE valence (thành feeling), nhưng KHÔNG tạo ra nó
-    → = Feeling.md v2.0: "Feeling = PFC observation of body"
+  Valence BELONGS TO Body-Base because:
+    → Body is WHERE the evaluation happens (amygdala, insula, body signals)
+    → Body-base substrate (L0+L1) is the MEASURING STANDARD of evaluation
+    → Valence = body's ASSESSMENT, not PFC's judgment
+    → PFC can OBSERVE valence (becoming feeling), but does NOT create it
+    → = Feeling.md v3.0: "Feeling = PFC observation of body"
     → = Valence = WHAT body computes. Feeling = WHAT PFC sees.
 
   VALENCE × BODY-NEED (Body-Feedback-Mechanism v2.0 §1):
-    Body-Need = aggregate OUTPUT của chunk dynamics (Body-Feedback-Mechanism v2.0).
+    Body-Need = aggregate OUTPUT of chunk dynamics.
     Valence = body's ASSESSMENT per-entity → feeds INTO body-need.
-    Entity có valence positive → body-need shift toward approach.
-    Entity có valence negative → body-need shift toward avoid.
-    Tổng hợp valences across entities + body state = body-need hiện tại.
+    Entity with positive valence → body-need shifts toward approach.
+    Entity with negative valence → body-need shifts toward avoidance.
+    Synthesis of valences across entities + body state = current body-need.
 
 
-  FILE NÀY TRONG FLOW:
+  THIS FILE IN THE FLOW:
 
-    Body-Base.md (L0+L1 substrate — NỀN TẢNG)
+    Body-Base.md (L0+L1 substrate — FOUNDATION)
          │
          ▼
     Body-Feedback-Mechanism.md v2.0 (Body-Need aggregate, chunk dynamics)
          │
          ▼
     ┌─────────────────────────────────────────────────────────────┐
-    │ VALENCE-PROPAGATION.MD v4.1 (FILE NÀY)                     │
+    │ VALENCE-PROPAGATION.MD v4.1 (THIS FILE)                     │
     │                                                              │
-    │  TRỤ 1: VALENCE LÀ GÌ (§1-§2)                              │
+    │  PILLAR 1: WHAT VALENCE IS (§1-§2)                          │
     │    Valence definition → valence profile per-entity           │
     │                                                              │
     │  → Entity-Valence-Dynamics.md v1.0 (COMPANION FILE)         │
@@ -131,202 +128,184 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │    Satiation Type, Mixed valence, Phantom resonance,         │
     │    Technology frontier                                       │
     │                                                              │
-    │  TRỤ 2: VALENCE FORMATION + PROPAGATION (§3-§7)             │
-    │    4 nguồn hình thành → 4 cơ chế propagation → Chain        │
-    │    properties → Cases phân tích → PFC Blindness              │
+    │  PILLAR 2: VALENCE FORMATION + PROPAGATION (§3-§7)          │
+    │    4 formation sources → 4 propagation mechanisms → Chain   │
+    │    properties → Case analysis → PFC Blindness               │
     └─────────────────────────────────────────────────────────────┘
          │
          ▼
-    Drive.md (TỔNG HỢP valences → action)
-    Feeling.md v2.0 (PFC OBSERVE valence → feeling)
-    Drill-Emergent-Pattern.md (valence TÍCH LŨY → patterns emerge)
-    Anchor-Schema.md (anchor AMPLIFY propagation)
+    Drive.md (SYNTHESIZES valences → action)
+    Feeling.md v3.0 (PFC OBSERVES valence → feeling)
+    Drill-Emergent-Pattern.md (valence ACCUMULATES → patterns emerge)
+    Anchor-Schema.md (anchor AMPLIFIES propagation)
 
 
-  PHÂN BIỆT 4 CONCEPTS GẦN NHAU:
+  DISTINGUISHING 4 CLOSELY RELATED CONCEPTS:
 
-    VALENCE (file NÀY):
-      "Entity X ảnh hưởng body-base CỦA TÔI thế nào?"
-      = ĐÁNH GIÁ — cả per-entity lẫn qua schema chain
+    VALENCE (this file):
+      "How does entity X affect MY body-base?"
+      = EVALUATION — both per-entity and through schema chain
       Input: entity + body-base state + context + compiled schemas
-      Output: valence profile + propagated valence qua network
+      Output: valence profile + propagated valence through network
 
     DRIVE (Drive.md):
-      "NHIỀU drives đang active → não CHỌN hành động NÀO?"
-      = TỔNG HỢP nhiều drives → action emerge
-      Input: tất cả valences + body-needs + context
-      Output: action cụ thể
+      "MANY drives are active → which ACTION does the brain CHOOSE?"
+      = SYNTHESIS of many drives → action emerges
+      Input: all valences + body-needs + context
+      Output: specific action
 
-    FEELING (Feeling.md v2.0):
-      "PFC THẤY GÌ khi observe body-chunk interaction?"
-      = PFC OBSERVATION — valence qua lens PFC
+    FEELING (Feeling.md v3.0):
+      "WHAT does PFC SEE when observing body-chunk interaction?"
+      = PFC OBSERVATION — valence through the PFC lens
       Input: body signals + chunk activation
       Output: conscious experience (7 layers, 20-100% fidelity)
 
     BODY SIGNALS (Body-Dissonance.md):
-      "Body PHẢN HỒI: đủ chưa? Hay chưa? Tiếp không?"
-      = FEEDBACK sau action
+      "Body RESPONDS: sufficient? Or not? Continue?"
+      = FEEDBACK after action
       3 signals: Satisfaction, Reward, Dissonance
 
     Flow: Valence → Drive → Action → Body Signals → Update Valence → Loop
-
-
-  v4.1 CHANGELOG:
-    v4.0 → v4.1: L3 RETIRE — "L0-L1-L3 channels" → L0+L1 substrate + observation parameters.
-    §1 def: 2-dimension model (Substrate L0+L1 × Processing Direct-State/Evaluative).
-    §2 table: "BODY-BASE CHANNELS" → "SUBSTRATE ASSESSMENT" + "EVALUATIVE ASSESSMENT".
-    +Social under L1 (hardware social need, Coan 2015).
-    Observation parameters (Novelty, Status, Protect, Mastery) = evaluative OUTPUT, not channels.
-    Aligned with Body-Base.md v3.3 §5.3 (L3 retired in v3.0).
-
-  v4.0 CHANGELOG:
-    v3.0 → v4.0: SPLIT — entity-valence dynamics (v3.0 §3-§13) → Entity-Valence-Dynamics.md v1.0.
-    File này giữ: TRỤ 1 (§1-§2 definition) + TRỤ 2 (§3-§7 formation + propagation).
-    Renumber: v3.0 §14→§3, §15→§4, §16→§5, §17→§6, §18→§7.
-    v3.0 → backup/Valence-Propagation-v3.0-backup.md.
-
-  v2.0 → v3.0: +TRỤ 2 (§5-§13) từ Drill-Entity-Valence-Dynamics v2.0 (28 insights).
-    §4 Entity-Compiled SLIM DOWN. §8+§9 v2.0 → §18 (merge PFC Blindness + 3 Nguyên tắc).
 ```
 
 ---
 
-## §1 — VALENCE LÀ GÌ
+## §1 — WHAT VALENCE IS
 
 ```
-🟡 ĐỊNH NGHĨA:
+🟡 DEFINITION:
 
-  Valence = ĐÁNH GIÁ CỦA BODY về cách 1 entity ảnh hưởng body-base.
+  Valence = THE BODY'S EVALUATION of how an entity affects body-base.
 
-  "Entity" = bất kỳ thứ gì body gặp trong domain:
-    → Object: dao, ghế, xe, sách, bom, gai, bật lửa...
-    → Agent: mẹ, bạn, sếp, chó, Thiên Chúa, Jensen Huang...
-    → Abstract: toán, vật lý, từ thiện, tương lai, Thiên Đàng...
-    → Action: giúp đỡ, kiện tụng, học bài, giết người...
-    → State: giàu, nghèo, cô đơn, nổi tiếng...
+  "Entity" = anything the body encounters in a domain:
+    → Object: knife, chair, car, book, bomb, thorn, lighter...
+    → Agent: mother, friend, boss, dog, God, Jensen Huang...
+    → Abstract: math, physics, charity, the future, Heaven...
+    → Action: helping, suing, studying, killing...
+    → State: rich, poor, lonely, famous...
 
-  Body-base có 2 CHIỀU ĐÁNH GIÁ (Body-Base.md v3.3):
+  Body-base has 2 EVALUATION DIMENSIONS (Body-Base.md v3.3):
 
-    CHIỀU 1 — SUBSTRATE (body monitors CÁI GÌ?):
+    DIMENSION 1 — SUBSTRATE (what the body monitors):
       → L0 Alive: safe ←→ dangerous (binary threshold)
       → L1 Body-inputs: useful ←→ harmful (nutrition, sleep, comfort, autonomy, social...)
 
-    CHIỀU 2 — SIGNAL PROCESSING (body tạo signal KIỂU GÌ?):
+    DIMENSION 2 — SIGNAL PROCESSING (what type of signal the body creates):
       → Direct-State: hardware pathways, from birth (Reward-Signal-Architecture.md)
       → Evaluative: compiled patterns, develops with age (E₀→E₃)
 
     OBSERVATION PARAMETERS (named patterns at evaluative output):
-      → Novelty, Status, Protect, Mastery = TÊN GỌI cho patterns PFC observe
-      → KHÔNG phải channels hay layers — là OUTPUT của evaluative processing trên L0+L1
+      → Novelty, Status, Protect, Mastery = NAMES for patterns PFC observes
+      → NOT channels or layers — they are OUTPUT of evaluative processing on L0+L1
 
 
-  ⭐ 4 ĐẶC TÍNH CỐT LÕI:
+  ⭐ 4 CORE PROPERTIES:
 
-  ① MULTI-CHANNEL — KHÔNG PHẢI 1 TRỤC TỐT/XẤU:
+  ① MULTI-CHANNEL — NOT A SINGLE GOOD/BAD AXIS:
 
-    SAI: "Mẹ = tốt" hoặc "Mẹ = xấu" (1 trục)
-    ĐÚNG: Mẹ = {
-      L1 nutrition: ++ (cho ăn)
-      L1 comfort: ++ (ôm, vỗ về)
-      L1 autonomy: -- (ép học, cấm chơi)
-      Mastery: + (dạy bài)
-      Novelty: - (bắt lặp lại bài khó)
+    WRONG: "Mother = good" or "Mother = bad" (1 axis)
+    RIGHT: Mother = {
+      L1 nutrition: ++ (feeds me)
+      L1 comfort: ++ (hugs, soothes)
+      L1 autonomy: -- (forces studying, forbids play)
+      Mastery: + (teaches)
+      Novelty: - (forces repetition of hard material)
     }
-    = Valence KHÁC NHAU trên TỪNG CHANNEL
-    = YÊU VÀ GHÉT CÙNG LÚC — không mâu thuẫn
+    = Valence DIFFERS on EACH CHANNEL
+    = LOVE AND DISLIKE SIMULTANEOUSLY — not contradictory
 
     🟢 Mixed feelings (ambivalence): well-documented phenomenon
-    🟢 Multi-dimensional emotion: không ai tranh cãi cảm xúc phức tạp
+    🟢 Multi-dimensional emotion: no dispute that emotions are complex
 
-  ② DYNAMIC — THAY ĐỔI THEO THỜI GIAN:
+  ② DYNAMIC — CHANGES OVER TIME:
 
-    Dao lần đầu: { L0 safety: -- }
-    Dao sau khi học: { L1 utility: ++, L0 safety: neutral }
-    = CÙNG entity, KHÁC valence — vì experience thay đổi
+    Knife the first time: { L0 safety: -- }
+    Knife after learning to use: { L1 utility: ++, L0 safety: neutral }
+    = SAME entity, DIFFERENT valence — because experience changed
 
   ③ CONTEXT-DEPENDENT:
 
-    Quả bom trong tay tôi: { L0: ++, L1: ++ } (vũ khí, bảo vệ)
-    Quả bom trong tay kẻ thù: { L0: --, L1: -- } (threat)
-    = CÙNG entity, CÙNG thời điểm, KHÁC CONTEXT → khác valence
+    Bomb in my ally's hand: { L0: ++, L1: ++ } (weapon, protection)
+    Bomb in an enemy's hand: { L0: --, L1: -- } (threat)
+    = SAME entity, SAME moment, DIFFERENT CONTEXT → different valence
 
   ④ STORED IN SCHEMA:
 
-    Valence profile được compiled vào schema qua experience
-    → Gặp lại entity → schema load valence → body respond NGAY
-    → Không cần re-evaluate từ đầu mỗi lần
-    → = Tại sao thấy con chó từng cắn → SỢ NGAY (compiled valence)
-    → = Schema.md §1: "Schema = PATTERN dao động neuron đã ổn định"
-    → Valence = 1 DIMENSION của schema (cùng với motor, visual, somatic...)
+    Valence profile compiled into schema through experience
+    → Entity encountered again → schema loads valence → body responds IMMEDIATELY
+    → No need to re-evaluate from scratch each time
+    → = Why seeing a dog that once bit you → INSTANT FEAR (compiled valence)
+    → = Schema.md §1: "Schema = stabilized pattern of neural oscillation"
+    → Valence = 1 DIMENSION of schema (alongside motor, visual, somatic...)
 
     ⚠️ NO SOURCE TAG (Drill §10 — GAP 8):
-    → Valence stored KHÔNG kèm field "nguồn gốc" (internal hay external?)
-    → Wire = wire. Body treat BÌNH ĐẲNG bất kể compiled từ đâu.
-    → PFC CŨNG không phân biệt (§7 confabulation)
-    → "Tôi thật sự muốn X hay xã hội nạp?" = câu hỏi VÔ NGHĨA ở body level
-    → "Tôi" = TỔNG HỢP internal + external compiled patterns
+    → Valence is stored WITHOUT a field for "source" (internal or external?)
+    → Wire = wire. Body treats EQUALLY regardless of where compiled.
+    → PFC ALSO cannot distinguish (§7 confabulation)
+    → "Do I truly want X or was it socially installed?" = a MEANINGLESS question at body level
+    → "I" = SYNTHESIS of internal + external compiled patterns
     → 🟢 Nisbett & Wilson 1977: PFC cannot access actual processing
 
     🟢 Fear conditioning: rapid, one-trial learning (LeDoux 1996)
-    🟢 Evaluative conditioning: valence transfer qua association (De Houwer 2007)
+    🟢 Evaluative conditioning: valence transfer through association (De Houwer 2007)
 ```
 
 ---
 
-## §2 — VALENCE PROFILE: Cấu Trúc Per-Entity
+## §2 — VALENCE PROFILE: Per-Entity Structure
 
 ```
-🟡 MỖI ENTITY TRONG DOMAIN CÓ 1 VALENCE PROFILE LƯU TRONG SCHEMA:
+🟡 EACH ENTITY IN A DOMAIN HAS A VALENCE PROFILE STORED IN SCHEMA:
 
   ┌─────────────────────────────────────────────────────────────┐
   │ VALENCE PROFILE: Entity X                                    │
   │                                                              │
   │ SUBSTRATE ASSESSMENT (L0 + L1):                               │
-  │   L0 Alive:     safe ←───────→ dangerous                    │
+  │   L0 Alive:      safe ←────────→ dangerous                  │
   │   L1 Body-inputs:                                            │
-  │     Nutrition:   useful ←─────→ harmful                      │
-  │     Comfort:     pleasant ←───→ unpleasant                   │
-  │     Sleep:       promoting ←──→ disrupting                   │
-  │     Autonomy:    enabling ←───→ constraining                 │
-  │     Social:      connecting ←─→ isolating                    │
+  │     Nutrition:    useful ←──────→ harmful                    │
+  │     Comfort:      pleasant ←────→ unpleasant                 │
+  │     Sleep:        promoting ←───→ disrupting                 │
+  │     Autonomy:     enabling ←────→ constraining               │
+  │     Social:       connecting ←──→ isolating                  │
   │                                                              │
   │ EVALUATIVE ASSESSMENT (compiled pattern evaluation):         │
-  │     Novelty:     interesting ←→ boring                       │
-  │     Mastery:     enabling ←───→ blocking                     │
-  │     Status:      elevating ←──→ diminishing                  │
-  │     Protect:     safe ←───────→ threatening (my resources)   │
+  │     Novelty:      interesting ←→ boring                      │
+  │     Mastery:      enabling ←────→ blocking                   │
+  │     Status:       elevating ←───→ diminishing                │
+  │     Protect:      safe ←─────────→ threatening (resources)   │
   │                                                              │
   │ META-DIMENSIONS:                                             │
-  │   Trust:           high ←─────→ low                          │
-  │   Predictability:  high ←─────→ low                          │
-  │   Replaceability:  easy ←─────→ hard                         │
-  │   Dependency:      none ←─────→ critical                     │
+  │   Trust:           high ←──────→ low                         │
+  │   Predictability:  high ←──────→ low                         │
+  │   Replaceability:  easy ←──────→ hard                        │
+  │   Dependency:      none ←──────→ critical                    │
   │                                                              │
-  │ NET: tổng hợp across channels → approach / avoid / mixed     │
+  │ NET: synthesis across channels → approach / avoid / mixed    │
   └─────────────────────────────────────────────────────────────┘
 
 
-  ĐẶC ĐIỂM PROFILE:
+  PROFILE CHARACTERISTICS:
 
-    ① Mỗi dimension có valence RIÊNG — không average
-      Mẹ: L1++ nhưng autonomy-- = KHÔNG phải "hơi positive"
-      = Positive ở dimensions này, Negative ở dimensions kia, CÙNG LÚC
+    ① Each dimension has its OWN valence — no averaging
+      Mother: L1++ but autonomy-- = NOT "slightly positive"
+      = Positive on some dimensions, Negative on others, SIMULTANEOUSLY
 
-    ② Không phải mọi dimension đều có valence cho mọi entity
-      Dao: L0, L1 rõ ràng. Status? Gần zero. Novelty? Chỉ lần đầu.
-      = Valence profile SPARSE cho objects, DENSE cho agents
+    ② Not every dimension has valence for every entity
+      Knife: L0, L1 clear. Status? Near zero. Novelty? Only the first time.
+      = Valence profile SPARSE for objects, DENSE for agents
 
-    ③ Intensity KHÁC NHAU
-      Dao cắt tay: L0 safety -2 (nhẹ)
-      Hổ đuổi: L0 safety -10 (cực mạnh)
-      = Cùng channel, cùng hướng, khác CƯỜNG ĐỘ
+    ③ Intensity VARIES
+      Knife cuts hand: L0 safety -2 (mild)
+      Tiger chasing: L0 safety -10 (extreme)
+      = Same channel, same direction, different INTENSITY
 
     ④ Meta-dimensions MODULATE body-base channels
-      Trust cao → valence AMPLIFIED (tin người bạn thân → valence mạnh hơn)
-      Trust thấp → valence DAMPENED (không tin người lạ → valence yếu)
-      Trust mechanism detail: Trust.md v1.0 (definition, formation, dynamics, 3 sub-dimensions)
-      Replaceability dễ → mất entity ÍT impact
-      Replaceability khó → mất entity IMPACT LỚN (grief)
+      High trust → valence AMPLIFIED (trust a close friend → valence stronger)
+      Low trust → valence DAMPENED (distrust a stranger → valence weaker)
+      Trust mechanism details: Trust.md v1.0
+      Easy replaceability → losing entity has LITTLE impact
+      Hard replaceability → losing entity has BIG IMPACT (grief)
 
 
   OBJECT VALENCE vs AGENT VALENCE:
@@ -334,39 +313,41 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌─────────────────────┬──────────────────────────────────────────┐
   │ OBJECT VALENCE      │ AGENT VALENCE                             │
   ├─────────────────────┼──────────────────────────────────────────┤
-  │ Ít channels active   │ NHIỀU channels active                    │
-  │ Dao: L0, L1          │ Mẹ: L0, L1, evaluative, trust, dependency │
+  │ Few channels active  │ MANY channels active                     │
+  │ Knife: L0, L1        │ Mother: L0, L1, evaluative, trust,       │
+  │                      │ dependency                               │
   ├─────────────────────┼──────────────────────────────────────────┤
-  │ Tương đối ỔN ĐỊNH   │ DYNAMIC — thay đổi liên tục              │
-  │ Dao vẫn là dao       │ Mẹ vui sáng, cáu chiều                  │
+  │ Relatively STABLE   │ DYNAMIC — changes continuously           │
+  │ Knife is still knife │ Mother happy in morning, irritable later │
   ├─────────────────────┼──────────────────────────────────────────┤
   │ ONE-WAY              │ BIDIRECTIONAL                             │
-  │ Tôi đánh giá dao     │ Tôi đánh giá mẹ VÀ mẹ đánh giá tôi    │
+  │ I evaluate knife     │ I evaluate mother AND mother evaluates me │
   ├─────────────────────┼──────────────────────────────────────────┤
-  │ DỄ thay thế          │ KHÓ thay thế                             │
-  │ Dao khác cũng cắt    │ Mẹ khác KHÔNG phải mẹ mình              │
+  │ EASY to replace      │ HARD to replace                          │
+  │ Another knife works  │ A different mother is NOT my mother      │
   ├─────────────────────┼──────────────────────────────────────────┤
   │ PREDICTABLE          │ UNPREDICTABLE                             │
-  │ Valence ít bất ngờ   │ Valence có thể FLIP bất ngờ              │
+  │ Valence rarely       │ Valence can FLIP unexpectedly            │
+  │ surprises            │                                           │
   └─────────────────────┴──────────────────────────────────────────┘
 
-  → Agent valence PHỨC TẠP hơn object vì 5 đặc điểm trên.
-  → Agent valence CÓ dimension mà object KHÔNG BAO GIỜ có:
+  → Agent valence MORE COMPLEX than object due to these 5 properties.
+  → Agent valence HAS dimensions that object valence NEVER has:
     BODY-BASE EXTENSION → Entity-Valence-Dynamics.md §2.
 
 
   ABSTRACT ENTITY VALENCE:
 
-    Ngoài Object và Agent, còn có abstract entities:
-      Toán, vật lý, từ thiện, Thiên Đàng, "tương lai tốt đẹp"...
+    Beyond Object and Agent, there are abstract entities:
+      Math, physics, charity, Heaven, "a bright future"...
     
-    Abstract entity valence ĐẶC BIỆT vì:
-      → Không có physical form → KHÔNG có L0 direct
-      → Valence HOÀN TOÀN qua schema link (§4 Propagation)
-      → Có thể UNFALSIFIABLE (Thiên Đàng, "ý nghĩa cuộc đời")
-      → → Không bao giờ nhận negative feedback → valence KHÔNG BAO GIỜ bị revise
-      → → = "Thiết kế" valence ổn định nhất có thể
-      → = Agent-Mechanism.md §10: Schema-Imagined-Overlay cho abstract agents
+    Abstract entity valence is SPECIAL because:
+      → No physical form → NO direct L0
+      → Valence ENTIRELY through schema links (§4 Propagation)
+      → Can be UNFALSIFIABLE (Heaven, "the meaning of life")
+      → → Never receives negative feedback → valence NEVER gets revised
+      → → = Designed for maximum valence stability
+      → = Agent-Mechanism.md §10: Schema-Imagined-Overlay for abstract agents
 
     🟡 Abstract entity valence = framework concept
     🟢 Unfalsifiable belief resilience = Popper + Festinger 1957 (cognitive dissonance)
@@ -376,152 +357,152 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 > **⭐ COMPANION FILE — Per-Entity Valence Dynamics:**
 >
-> Entity-Valence-Dynamics.md v1.0 chi tiết cách valence THAY ĐỔI per-entity over time:
-> Structural vs Current valence, 2-luồng/2-tầng × visibility,
+> Entity-Valence-Dynamics.md v1.0 details how valence CHANGES per-entity over time:
+> Structural vs Current valence, 2-stream/2-layer × visibility,
 > 3 Firing Modes, Hardware-Subsidy × VTA habituation,
-> Satiation Type × dynamics, Mixed valence, "Xa mẹ mới biết thương,"
+> Satiation Type × dynamics, Mixed valence, "absence makes the heart grow fonder,"
 > per-entity trajectory, extreme valence, phantom resonance, technology frontier.
 >
-> **Đọc:** §1-§2 trên (valence definition) → Entity-Valence-Dynamics.md → §3-§7 dưới (formation + propagation).
+> **Reading order:** §1-§2 above (valence definition) → Entity-Valence-Dynamics.md → §3-§7 below (formation + propagation).
 
 ---
 
-## §3 — CÁCH VALENCE HÌNH THÀNH + UPDATE
+## §3 — HOW VALENCE FORMS + UPDATES
 
 ```
-🟡 VALENCE ĐƯỢC BUILD TỪ 4 NGUỒN:
+🟡 VALENCE IS BUILT FROM 4 SOURCES:
 
-  ① DIRECT EXPERIENCE — trải nghiệm trực tiếp:
-    → Cầm dao → cắt tay → ĐAU → valence: { L0 safety: -- }
-    → Mẹ cho ăn → HẾT ĐÓI → valence: { L1 nutrition: ++ }
-    → = Nguồn CHÍNH XÁC NHẤT — body verify trực tiếp
-    → = NHƯNG chậm (phải trải nghiệm mới biết)
+  ① DIRECT EXPERIENCE:
+    → Hold knife → cut hand → PAIN → valence: { L0 safety: -- }
+    → Mother feeds you → HUNGER GONE → valence: { L1 nutrition: ++ }
+    → = MOST ACCURATE source — body verifies directly
+    → = BUT slow (must experience first to learn)
     → 🟢 Classical conditioning: Pavlov, LeDoux 1996
 
-  ② OBSERVED EXPERIENCE — quan sát người khác:
-    → Thấy bạn bị chó cắn → valence chó: { L0 safety: - }
-    → = Self-Pattern-Modeling đọc state người khác → infer valence
-    → = NHANH hơn direct experience, kém chính xác hơn
+  ② OBSERVED EXPERIENCE:
+    → Watch a friend get bitten by a dog → dog valence: { L0 safety: - }
+    → = Self-Pattern-Modeling reads another's state → infers valence
+    → = FASTER than direct experience, less accurate
     → 🟢 Observational learning: Bandura 1977
     → 🟢 Social referencing: Sorce 1985
 
-  ③ SCHEMA INHERITANCE — thừa kế từ cộng đồng:
-    → Mẹ nói "dao nguy hiểm" → valence: { L0 safety: - } (chưa cần bị cắt)
-    → Tôn giáo: "Thiên Chúa yêu thương" → valence God: { ALL: ++ }
-    → = NHANH NHẤT (không cần trải nghiệm hay quan sát)
-    → = NHƯNG có thể SAI (schema inherit ≠ reality verify)
-    → = TẠI SAO tuyên truyền WORK: install valence TRƯỚC khi verify
+  ③ SCHEMA INHERITANCE:
+    → Mother says "knives are dangerous" → valence: { L0 safety: - } (no cut needed)
+    → Religion: "God is love" → valence God: { ALL: ++ }
+    → = FASTEST (no experience or observation needed)
+    → = BUT can be WRONG (inherited schema ≠ verified reality)
+    → = WHY propaganda WORKS: installs valence BEFORE verification
     → 🟢 Cultural transmission of fear: Rachman 1977
     → 🟢 Evaluative conditioning via verbal instruction: De Houwer 2007
 
-  ④ CONTEXT INFERENCE — suy luận từ context:
-    → Quả bom trong tay đồng đội: { positive }
-    → Quả bom trong tay kẻ thù: { extreme negative }
-    → = Cùng entity, khác context → khác valence
+  ④ CONTEXT INFERENCE:
+    → Bomb in an ally's hand: { positive }
+    → Bomb in an enemy's hand: { extreme negative }
+    → = Same entity, different context → different valence
 
-  ĐỘ TIN CẬY vs TỐC ĐỘ — TRADE-OFF:
+  ACCURACY vs SPEED — TRADE-OFF:
     ┌──────────────────────────┬────────────────┬──────────────┐
-    │ Nguồn                     │ Tốc độ          │ Độ chính xác  │
+    │ Source                    │ Speed          │ Accuracy      │
     ├──────────────────────────┼────────────────┼──────────────┤
-    │ ① Direct experience       │ Chậm nhất      │ Cao nhất      │
-    │ ② Observed experience     │ Trung bình     │ Trung bình    │
-    │ ③ Schema inheritance      │ Nhanh nhất     │ Thấp nhất     │
-    │ ④ Context inference       │ Tùy context    │ Tùy chunks    │
+    │ ① Direct experience       │ Slowest        │ Highest       │
+    │ ② Observed experience     │ Medium         │ Medium        │
+    │ ③ Schema inheritance      │ Fastest        │ Lowest        │
+    │ ④ Context inference       │ Context-dep.   │ Chunk-dep.    │
     └──────────────────────────┴────────────────┴──────────────┘
-    → Evolutionary: "rắn nguy hiểm" inherit NHANH > tự bị cắn rồi biết
+    → Evolutionary: inheriting "snakes are dangerous" is FASTER than being bitten first
     → 🟢 Prepared learning: Seligman 1971
 
 
-VALENCE UPDATE — 3 LOẠI:
+VALENCE UPDATE — 3 TYPES:
 
-  ① REINFORCEMENT — valence MẠNH thêm:
-    → Mẹ cho ăn 1000 lần → valence { L1: ++ } compiled CỰC SÂU
-    → = Lặp lại consistent → valence COMPILE thành schema sâu
+  ① REINFORCEMENT — valence grows STRONGER:
+    → Mother feeds 1,000 times → valence { L1: ++ } compiled VERY DEEPLY
+    → = Consistent repetition → valence COMPILES into deep schema
 
-  ② REVISION — valence THAY ĐỔI DẦN:
-    → Dao: lần đầu cắt tay { L0: -- } → học cách dùng { L1: ++ dần override L0: -- }
-    → Tốc độ revision tùy: intensity × frequency × recency
+  ② REVISION — valence GRADUALLY CHANGES:
+    → Knife: first cut { L0: -- } → learn to use { L1: ++ gradually overrides L0: -- }
+    → Revision speed depends on: intensity × frequency × recency
 
-  ③ VIOLENT FLIP — valence BỊ ĐẢO NGƯỢC:
-    → Bạn thân phản bội: trust++++ → trust---- (FLIP)
-    → = CỰC HIẾM nhưng CỰC MẠNH — vì phá compiled schema
-    → = Anchor-Schema.md §2: flip phá anchor → cascade collapse
+  ③ VIOLENT FLIP — valence is REVERSED:
+    → Close friend betrays: trust++++ → trust---- (FLIP)
+    → = VERY RARE but VERY POWERFUL — destroys compiled schema
+    → = Anchor-Schema.md §2: flip destroys anchor → cascade collapse
     → 🟢 Betrayal trauma: Freyd 1996
 
-  ⚠️ BIAS TRONG UPDATE:
-    → Negativity bias: negative feedback → update NHANH hơn positive
-    → Confirmation bias: valence hiện tại → filter feedback cho match
+  ⚠️ BIASES IN UPDATE:
+    → Negativity bias: negative feedback → updates FASTER than positive
+    → Confirmation bias: current valence → filters feedback to match
     → 🟢 Negativity bias: Baumeister et al. 2001
     → 🟢 Confirmation bias: Nickerson 1998
 ```
 
 ---
 
-## §4 — VALENCE PROPAGATION QUA SCHEMA CHAIN
+## §4 — VALENCE PROPAGATION THROUGH SCHEMA CHAIN
 
-> ⚠️ **CLARIFICATION — Chain Analysis = EXPLANATORY, Không Phải Processing**
+> ⚠️ **CLARIFICATION — Chain Analysis = EXPLANATORY, Not Processing**
 > *(Drill §6, §22 — GAP 13 RESOLVED)*
 >
-> Chain analysis = **Cấp 3** (framework giải thích tại sao behavior hoạt động).
-> **KHÔNG phải** cách brain PROCESS ở **Cấp 1** — cá nhân compile SHORT (1-2 nodes).
-> Chain dài **SỐNG ở Cấp 2** (collective infrastructure hold cho cá nhân).
-> Vẫn CÓ GIÁ TRỊ: chẩn đoán chain gãy, thiết kế collective, phát hiện trust sai.
-> Chi tiết Model 3 cấp + 4 compile pathways: Collective-Body.md v1.2 §1-§2.
+> Chain analysis = **Level 3** (framework explains why behavior works).
+> **NOT** how the brain PROCESSES at **Level 1** — individuals compile SHORT (1-2 nodes).
+> Long chains **LIVE at Level 2** (collective infrastructure holds them for individuals).
+> Still VALUABLE: diagnose broken chains, design collectives, detect false trust.
+> Details on 3-Level Model + 4 compile pathways: Collective-Body.md v1.2 §1-§2.
 
 ```
-🔴 HYPOTHESIS — concept mới, logic consistent với established research,
-    chưa formalize trong literature dưới tên "valence propagation"
+🔴 HYPOTHESIS — new concept, logic consistent with established research,
+    not yet formalized in literature under the name "valence propagation"
 
 ⭐ CORE INSIGHT:
 
-  Framework đã có (Schema.md §1):
+  Already established in the framework (Schema.md §1):
     Schema = CHUNKS + LINKS + PURPOSE
 
-  Entities KHÔNG tồn tại cô lập.
-    Entities LINK VỚI NHAU qua schema network.
-    Và valence TRUYỀN qua những links đó.
+  Entities do NOT exist in isolation.
+    Entities LINK TO EACH OTHER through schema network.
+    And valence PROPAGATES through those links.
 
-  VÍ DỤ:
-    Entity "toán" — có feed body-base trực tiếp không? → KHÔNG.
-    NHƯNG "toán" LINK tới chain:
-      toán → điểm tốt → đại học → việc tốt → lương → body-base L1 feed
-    Valence positive từ CUỐI chain TRUYỀN NGƯỢC:
-      lương (+++) → việc tốt (++) → đại học (+) → điểm tốt (+) → toán (+)
-    = Toán có valence positive VÌ link tới chain kết thúc ở body-base feed
+  EXAMPLE:
+    Entity "math" — does it directly feed body-base? → NO.
+    BUT "math" LINKS to a chain:
+      math → good grades → university → good job → salary → body-base L1 feed
+    Positive valence from the END of the chain PROPAGATES BACKWARD:
+      salary (+++) → good job (++) → university (+) → good grades (+) → math (+)
+    = Math has positive valence BECAUSE it links to a chain ending in body-base feed
 
 
-⭐ 4 CƠ CHẾ PROPAGATION:
+⭐ 4 PROPAGATION MECHANISMS:
 
   ① FORWARD PROPAGATION (learning path):
-    Body-base need → tìm path → action → reward → path COMPILE
-    VD: Đói → tìm quán → ăn → hết đói → "quán này tốt" (compile)
+    Body-base need → find path → action → reward → path COMPILES
+    Example: Hungry → find restaurant → eat → no longer hungry → "this place is good" (compile)
     🟢 Operant conditioning: Thorndike's Law of Effect 1898
     🟢 Reinforcement learning: Sutton & Barto 1998
 
   ② BACKWARD PROPAGATION (reward spread):
-    Reward ở cuối chain → valence positive TRUYỀN NGƯỢC qua từng node
-    VD: Lương (reward) → job → đại học → toán (positive vì trên đường tới reward)
+    Reward at end of chain → positive valence PROPAGATES BACKWARD through each node
+    Example: Salary (reward) → job → university → math (positive because on the path to reward)
     🟢 Temporal difference learning: Schultz 1997 (dopamine prediction error)
     🟡 Explicit "valence backward propagation" = framework formalization
 
   ③ LATERAL PROPAGATION (generalization):
-    Entity tương tự CŨNG nhận valence — dù chưa trải nghiệm trực tiếp
-    VD: 1 con chó cắn → sợ TẤT CẢ chó → sợ NGƯỜI NUÔI chó
-    ⚠️ ASYMMETRY: Negative lateral NHANH + RỘNG. Positive lateral CHẬM + HẸP.
+    Similar entities ALSO receive valence — even without direct experience
+    Example: 1 dog bites → fear ALL dogs → fear PEOPLE WHO OWN dogs
+    ⚠️ ASYMMETRY: Negative lateral FASTER + WIDER. Positive lateral SLOWER + NARROWER.
     🟢 Stimulus generalization: Pavlov, Watson (Little Albert 1920)
     🟢 Overgeneralization in anxiety: Dunsmoor & Murphy 2015
 
   ④ INSTALL PROPAGATION (schema inheritance chain):
-    Cộng đồng install TOÀN BỘ CHAIN sẵn, KHÔNG cần trải nghiệm
-    VD: Bố mẹ install: "không học → vất vả → đau khổ"
-    VD: Tôn giáo: "sống đạo đức → Thiên Đàng → hạnh phúc vĩnh cửu"
-      = TOÀN BỘ chain installed, unfalsifiable → KHÔNG BAO GIỜ bị phá
+    Community installs an ENTIRE CHAIN upfront, without experience needed
+    Example: Parents install: "don't study → hard life → suffering"
+    Example: Religion: "live ethically → Heaven → eternal happiness"
+      = ENTIRE chain installed, unfalsifiable → NEVER gets broken
     🟢 Cultural transmission: Boyd & Richerson 1985
     🟡 "Install propagation" = framework term
 
-  4 cơ chế TƯƠNG TÁC:
-    Forward tìm path → Backward reinforce → Lateral expand → Install provide starting chains
-    Install chain CÓ THỂ bị Forward VERIFY hoặc REJECT
+  4 mechanisms INTERACT:
+    Forward finds path → Backward reinforces → Lateral expands → Install provides starting chains
+    Installed chain CAN be Forward-VERIFIED or REJECTED
 
   🟢 Spreading activation: Collins & Loftus 1975
   🟢 Associative network models: Anderson 1983
@@ -530,265 +511,266 @@ VALENCE UPDATE — 3 LOẠI:
 
 ---
 
-## §5 — CHAIN PROPERTIES + WHY CHAIN DÀI TỒN TẠI
+## §5 — CHAIN PROPERTIES + WHY LONG CHAINS PERSIST
 
-### §5.1 — 5 Đặc tính
+### §5.1 — 5 Properties
 
 ```
 🔴 HYPOTHESIS — framework formalization, logic consistent
-  ⚠️ % below = calibration anchor illustrating gradient, KHÔNG phải đo lường chính xác.
+  ⚠️ % below = calibration anchor illustrating gradient, NOT precise measurement.
 
-  ① CHAIN LENGTH → VALENCE DECAY + PFC ACCURACY DECREASE:
-    Chain NGẮN (gai → đau): Valence MẠNH. PFC trace 100%.
-    Chain TRUNG BÌNH (toán → ... → lương): Valence YẾU hơn. PFC ~70%.
-    Chain DÀI (multi-branch): Valence PHỨC TẠP. PFC ~30%.
-    Chain INVISIBLE (hardware): PFC ~10%. "Tôi thích toán" = label, not explanation.
+  ① CHAIN LENGTH → VALENCE DECAY + PFC ACCURACY DECREASES:
+    SHORT chain (thorn → pain): Valence STRONG. PFC traces 100%.
+    MEDIUM chain (math → ... → salary): Valence WEAKER. PFC ~70%.
+    LONG chain (multi-branch): Valence COMPLEX. PFC ~30%.
+    INVISIBLE chain (hardware): PFC ~10%. "I like math" = a label, not an explanation.
     🟢 Goal gradient: Hull 1932. Temporal discounting: Ainslie 1975.
 
   ② CHAIN TRUST → PROPAGATION STRENGTH:
-    Mỗi link có trust level riêng. Propagation ≈ PRODUCT of trusts.
-    Trust = 0 tại 1 link → CHAIN ĐỨT:
-      "4 năm đại học → thất nghiệp" → link collapse → "Học vô ích"
-    → Anchor-Schema.md §2: Trust ≥ Cost → hold; Trust < Cost → collapse.
+    Each link has its own trust level. Propagation ≈ PRODUCT of trusts.
+    Trust = 0 at 1 link → CHAIN BREAKS:
+      "4 years of university → unemployed" → link collapses → "Education is useless"
+    → Anchor-Schema.md §2: Trust ≥ Cost → holds; Trust < Cost → collapse.
 
   ③ PARALLEL CHAINS → ADDITIVE:
-    NHIỀU chains connect entity → body-base CÙNG LÚC → valence = TỔNG
-    Single chain YẾU → dễ bỏ. Multiple parallel → MẠNH → khó bỏ.
-    = Tại sao "đam mê" = nhiều chains converge vào 1 activity
+    MANY chains connect entity → body-base SIMULTANEOUSLY → valence = TOTAL
+    Single chain WEAK → easy to give up. Multiple parallel → STRONG → hard to give up.
+    = Why "passion" = many chains converging on 1 activity
 
   ④ CONFLICTING CHAINS → MIXED VALENCE:
-    Chain positive (mẹ cho ăn → L1++) + Chain negative (mẹ ép học → autonomy--)
-    → CÙNG entity, 2 chains ngược → YÊU + GHÉT cùng lúc (Entity-Valence-Dynamics.md §7)
+    Positive chain (mother feeds → L1++) + Negative chain (mother forces studying → autonomy--)
+    → SAME entity, 2 opposing chains → LOVE + DISLIKE simultaneously (Entity-Valence-Dynamics.md §7)
     
   ⑤ INVISIBLE CHAINS → PFC CONFABULATION:
-    Chain compiled SÂU / hardware-level / quá dài / multi-branch
-    → PFC KHÔNG access → phải explain → CONFABULATE
-    → Chi tiết: §7
+    Chain compiled DEEPLY / hardware-level / too long / multi-branch
+    → PFC CANNOT access → must explain → CONFABULATES
+    → Details: §7
 
   🟡 5 chain properties = framework formalization
 ```
 
-### §5.2 — 4 Tầng Cơ Chế Tạo + Giữ Chain Dài
+### §5.2 — 4-Layer Mechanism for Creating + Maintaining Long Chains
 
 ```
-🟡 CHAIN DÀI = EMERGENT, KHÔNG DESIGNED:
+🟡 LONG CHAINS = EMERGENT, NOT DESIGNED:
 
-  TẦNG 1 — EXIST: Chunk substrate tự nhiên tạo chain qua connections
-    → Spreading activation tự lan (Collins & Loftus 1975)
+  LAYER 1 — EXIST: Chunk substrate naturally creates chains through connections
+    → Spreading activation propagates naturally (Collins & Loftus 1975)
     → Chunks → meta-chunks → schemas → hierarchy (Hebb 1949)
     🟢 Established mechanisms
 
-  TẦNG 2 — EXTEND: 4 cơ chế valence propagation kéo dài chain (§4)
-    → Forward tìm path + Backward reinforce + Install cộng đồng
+  LAYER 2 — EXTEND: 4 valence propagation mechanisms lengthen the chain (§4)
+    → Forward finds path + Backward reinforces + Install by community
     🟢🟡 Mixed
 
-  TẦNG 3 — FIT: Pyramidal compression cho chain dài vào PFC 4±1
-    → 4×4×4 = 64 thông tin gốc compressed vào 1 slot
-    → Chain dài = sản phẩm VÔ THỨC, không phải PFC
-    ⚠️ ĐÍNH CHÍNH: "PFC lớn hơn → chain dài hơn" = SAI
+  LAYER 3 — FIT: Pyramidal compression fits long chain into PFC 4±1
+    → 4×4×4 = 64 original pieces of information compressed into 1 slot
+    → Long chain = UNCONSCIOUS product, not PFC output
+    ⚠️ CORRECTION: "Larger PFC → longer chain" = FALSE
     → 🟢 Brain size vs IQ: ~0.24 correlation (Pietschnig 2015)
-    → 🟢 Cowan 2001: PFC hold 4±1 dimensions
+    → 🟢 Cowan 2001: PFC holds 4±1 dimensions
     🟢🟡
 
-  TẦNG 4 — FILTER: Group selection giữ lại cá nhân có chain dài
-    → Tầng 1-3 ĐÃ ĐỦ → Tầng 4 = optional
+  LAYER 4 — FILTER: Group selection retains individuals with long chains
+    → Layers 1-3 ALREADY SUFFICIENT → Layer 4 = optional
     🟡🔴
 
-  TRADE-OFF: Chain dài = feature, NOT bug
-    → Hại (cá nhân): PFC blind, trauma chain, unfalsifiable sacrifice
-    → Lợi (tập thể): empathy, deferred investment, cooperation, knowledge transfer
-    → P(benefit nhóm) >> P(harm cá nhân) → evolution giữ lại
+  TRADE-OFF: Long chain = feature, NOT bug
+    → Harm (individual): PFC blind, trauma chain, unfalsifiable sacrifice
+    → Benefit (collective): empathy, deferred investment, cooperation, knowledge transfer
+    → P(group benefit) >> P(individual harm) → evolution retains it
 ```
 
 ---
 
-## §6 — CASES PHÂN TÍCH
+## §6 — CASE ANALYSIS
 
 ```
-🟡 CASES PHÂN LOẠI THEO 6 NHÓM — verify valence system:
+🟡 CASES GROUPED INTO 6 CATEGORIES — verifying the valence system:
 
 
   ═══════════════════════════════════════
-  NHÓM A — DIRECT CHAIN (ngắn, PFC trace được):
+  GROUP A — DIRECT CHAIN (short, PFC can trace):
   ═══════════════════════════════════════
 
-  A1) Dẫm gai → luôn đi dép:
-    Chain: gai → đau → L0 threat. Length 1. Direct. 1 lần ĐỦ.
-    PFC accuracy: ~100%. = Per-entity valence, không cần propagation.
+  A1) Step on thorn → always wear shoes:
+    Chain: thorn → pain → L0 threat. Length 1. Direct. 1 time SUFFICIENT.
+    PFC accuracy: ~100%. = Per-entity valence, no propagation needed.
 
-  A2) Bật lửa nổ → sợ bật lửa:
-    Chain: bật lửa → nổ → đau + shock → L0. Length 1. Direct.
+  A2) Lighter explodes → fear of lighters:
+    Chain: lighter → explosion → pain + shock → L0. Length 1. Direct.
 
 
   ═══════════════════════════════════════
-  NHÓM B — DEFERRED INVESTMENT (chain dài, trust):
+  GROUP B — DEFERRED INVESTMENT (long chain, trust):
   ═══════════════════════════════════════
 
-  B1) Học sinh làm toán (4 khả năng song song):
-    Chain a: toán → điểm → đại học → job → lương → L1 (install, length 4)
-    Chain b: không học → bị mắng → L0 threat (install, length 1-2)
+  B1) Student doing math (4 parallel possibilities):
+    Chain a: math → grades → university → job → salary → L1 (install, length 4)
+    Chain b: don't study → get scolded → L0 threat (install, length 1-2)
     Chain c: hardware fit → Goldilocks → VTA → reward (invisible, intrinsic)
-    Chain d: "toán thú vị" = PFC label SAU → reinforce chain c
-    → 4 chains PARALLEL, PFC biết a+b, KHÔNG biết c+d
+    Chain d: "math is interesting" = PFC label AFTER → reinforces chain c
+    → 4 PARALLEL chains, PFC knows a+b, does NOT know c+d
 
-  B2) Jensen Huang — 30 năm Imagine-Final (🟢 public record):
-    Giai đoạn 1: Anchor-Schema → NVIDIA startup. Chain LONG + DEFERRED.
-    Giai đoạn 2: GPU thành công → chain VERIFY → trust TĂNG.
-    Giai đoạn 3: Tỷ phú, 60+. Body-base ĐÃ đủ. Drive vẫn mạnh.
-      → Anchor-Schema EVOLVE + intrinsic mastery + novelty vẫn fire.
-    ⚠️ Internal schemas NÀO drive = CHỈ ÔNG ẤY BIẾT. Framework chỉ INFER.
+  B2) Jensen Huang — 30 years of Imagine-Final (🟢 public record):
+    Phase 1: Anchor-Schema → NVIDIA startup. LONG + DEFERRED chain.
+    Phase 2: GPU success → chain VERIFIED → trust INCREASES.
+    Phase 3: Billionaire, 60+. Body-base ALREADY sufficient. Drive still strong.
+      → Anchor-Schema EVOLVES + intrinsic mastery + novelty still fires.
+    ⚠️ Which internal schemas drive him = ONLY HE KNOWS. Framework only INFERS.
 
 
   ═══════════════════════════════════════
-  NHÓM C — MIRROR CHAIN ("cho đi", invisible):
+  GROUP C — MIRROR CHAIN ("giving," invisible):
   ═══════════════════════════════════════
 
-  C1) Trẻ con giúp mẹ:
-    Chain 1: compiled deep valence mẹ: {++}
-    Chain 2: Self-Pattern-Modeling → empathy dissonance. Chain 3: giúp → mẹ vui → opioid.
+  C1) Child helps mother:
+    Chain 1: deep compiled valence for mother: {++}
+    Chain 2: Self-Pattern-Modeling → empathy dissonance.
+    Chain 3: helping → mother happy → opioid.
     Chain 4: reciprocity schema → identity.
-    PFC: "Vì mẹ hay giúp tôi" — biết chain 4, KHÔNG biết chain 2+3.
+    PFC: "Because mother always helps me" — knows chain 4, does NOT know chains 2+3.
 
-  C2) "Vô tư" giúp người lạ:
-    Chain 1-5: lateral overgeneralize + empathy + status + identity + connection
-    PFC: "Vô tư thôi" — KHÔNG biết 5 chains. Feel-Explanation label.
+  C2) "Selflessly" helping a stranger:
+    Chains 1-5: lateral overgeneralization + empathy + status + identity + connection
+    PFC: "Just doing it" — does NOT know the 5 chains. Feel-Explanation label.
 
 
   ═══════════════════════════════════════
-  NHÓM D — SCHEMA INHERITANCE (installed, unfalsifiable):
+  GROUP D — SCHEMA INHERITANCE (installed, unfalsifiable):
   ═══════════════════════════════════════
 
-  D1) Gia đình Hà Lan giấu người Do Thái WWII (🟢 documented):
+  D1) Dutch family hiding Jews in WWII (🟢 documented):
     Schema inheritance + empathy + identity + anchor + connection = 5 chains
-    → 5 chains > L0 cost (tử hình!) → body drive "giấu"
+    → 5 chains > L0 cost (death penalty!) → body drives "hide them"
     🟢 Yad Vashem: ~28,000 "Righteous Among Nations"
 
-  D2) Tin Thiên Đàng → vượt khó:
-    Unfalsifiable chain. Body VẪN feed dù content chưa verify:
-    "Sống đạo đức" → community accept → connection feed.
+  D2) Believing in Heaven → overcoming hardship:
+    Unfalsifiable chain. Body STILL feeds even though content is unverified:
+    "Living ethically" → community acceptance → connection feed.
     = Schema effectiveness ≠ Schema truthfulness (§7)
 
-  D3) "Giàu mới hạnh phúc" → đạt rồi emptiness:
-    Installed chain promise ALL channels. Reality: L1 feed ONLY.
-    Đường đi sacrifice connection + health → đạt giàu → MISMATCH.
-    NHƯNG: giàu MÀ giữ relationship + health → KHÔNG emptiness.
+  D3) "Rich = happy" → achieving it then emptiness:
+    Installed chain promises ALL channels. Reality: L1 feed ONLY.
+    Path sacrifices connection + health → achieve wealth → MISMATCH.
+    BUT: wealth WHILE maintaining relationship + health → NO emptiness.
 
 
   ═══════════════════════════════════════
-  NHÓM E — MISLINK (cơ chế đúng, content sai):
+  GROUP E — MISLINK (mechanism correct, content wrong):
   ═══════════════════════════════════════
 
-  E1) Sát nhân máu lạnh:
-    Schema MISLINK: gây hại → CONTROL → mastery → reward.
-    Hardware typically NOT broken: IQ average+. Chunks OK. Chain sai.
+  E1) Cold-blooded murderer:
+    Schema MISLINK: causing harm → CONTROL → mastery → reward.
+    Hardware typically NOT broken: IQ average+. Chunks OK. Chain is wrong.
     🟢 Hickey 2013: serial killers report "power" and "control"
 
-  E2) Revenge phi lý (bỏ 200M kiện cho 100M):
-    L1 cost: -200M. NHƯNG chain 1-3: dissonance resolve + identity + Schadenfreude >> cost.
+  E2) Irrational revenge (spend $200K to win a $100K case):
+    L1 cost: -$200K. BUT chains 1-3: dissonance resolved + identity + Schadenfreude >> cost.
     🟢 Costly punishment: Fehr & Gächter 2002
     🟢 Schadenfreude: Takahashi et al. 2009
 
 
   ═══════════════════════════════════════
-  NHÓM F — OVERGENERALIZE (lateral propagation):
+  GROUP F — OVERGENERALIZE (lateral propagation):
   ═══════════════════════════════════════
 
-  F1) Bị chó cắn → sợ mọi chó → ghét người nuôi chó:
-    Direct → category → associated entity. Negative: NHANH + RỘNG.
+  F1) Bitten by dog → fear all dogs → dislike dog owners:
+    Direct → category → associated entity. Negative: FASTER + WIDER.
 
-  F2) Positive childhood → default trust người lạ:
-    CÙNG CƠ CHẾ, khác hướng. NHƯNG cần NHIỀU experience hơn (negativity bias).
+  F2) Positive childhood → default trust of strangers:
+    SAME MECHANISM, different direction. BUT requires MORE experience (negativity bias).
 ```
 
 ---
 
-## §7 — PFC BLINDNESS + 3 NGUYÊN TẮC
+## §7 — PFC BLINDNESS + 3 PRINCIPLES
 
 ### §7.1 — PFC Blindness
 
 ```
-🟡 TẠI SAO PFC THƯỜNG KHÔNG BIẾT VALENCE CHAIN:
+🟡 WHY PFC USUALLY DOESN'T KNOW THE VALENCE CHAIN:
 
-  Feeling.md v2.0 §2: 7 LAYERS — fidelity GIẢM DẦN:
-    Feel-RawSignals → Feel-Location: body → integration → chunk match (valence chain hoạt động ở đây)
+  Feeling.md v3.0 §2: 7 LAYERS — fidelity DECREASES upward:
+    Feel-RawSignals → Feel-Location: body → integration → chunk match (valence chain operates here)
     Feel-Labeling (40-80%). Feel-Explanation (20-70%)
-    PFC OBSERVE từ Feel-Labeling trở đi → thấy OUTPUT, KHÔNG thấy MECHANISM.
+    PFC OBSERVES from Feel-Labeling upward → sees OUTPUT, NOT the MECHANISM.
 
-  3 CẤP ĐỘ PFC AWARENESS:
+  3 LEVELS OF PFC AWARENESS:
 
-  ① PFC BIẾT (~80-100%): chain ngắn + direct + recent
-    "Tôi sợ gai vì bị ốm lần đó" — chain length 1
+  ① PFC KNOWS (~80-100%): short + direct + recent chain
+    "I'm afraid of thorns because I got hurt that one time" — chain length 1
 
-  ② PFC BIẾT MỘT PHẦN (~40-70%): chain trung bình + installed
-    "Tôi học vì tương lai" — đúng SURFACE, THIẾU detail
+  ② PFC KNOWS PARTIALLY (~40-70%): medium chain + installed
+    "I study because of the future" — correct at SURFACE, MISSING detail
 
-  ③ PFC KHÔNG BIẾT (~10-30%): chain invisible, hardware, compiled
-    "Tôi thích từ thiện" — PFC: "vô tư." Body: nhiều compiled chains fire.
-    "Tôi đam mê vật lý" — PFC: "vì nó hay." Body: hardware + Goldilocks.
-    → PFC CONFABULATE: tìm lý do PHÙ HỢP nhưng KHÔNG PHẢI mechanism
+  ③ PFC DOES NOT KNOW (~10-30%): invisible, hardware, compiled chain
+    "I like giving to charity" — PFC: "just doing it." Body: many compiled chains firing.
+    "I'm passionate about physics" — PFC: "because it's interesting." Body: hardware + Goldilocks.
+    → PFC CONFABULATES: finds reasons that FIT but are NOT the mechanism
 
-  ⭐ "VÔ TƯ" VÀ "ĐAM MÊ" — 2 CONFABULATION PHỔ BIẾN NHẤT:
+  ⭐ "SELFLESS GIVING" AND "PASSION" — 2 MOST COMMON CONFABULATIONS:
   
-    "CHO ĐI VÔ TƯ": PFC không thấy chains. Body: empathy + identity + status + reciprocal.
-    BẰNG CHỨNG "KHÔNG VÔ TƯ" — 3 violation tests:
-      Test 1: DỪNG khi body-base thiếu (đói → không cho cơm)
-      Test 2: DỪNG khi schema phản bội (từ thiện gian lận → dừng)
-      Test 3: DỪNG khi reciprocity = 0 kéo dài
-    → Nếu thật sự "vô tư" → sẽ KHÔNG DỪNG. Nhưng nó DỪNG → có điều kiện.
+    "GIVING SELFLESSLY": PFC doesn't see chains. Body: empathy + identity + status + reciprocal.
+    EVIDENCE IT IS NOT "SELFLESS" — 3 violation tests:
+      Test 1: STOPS when body-base is depleted (starving → won't give their own food)
+      Test 2: STOPS when schema betrays (charity fraud discovered → stops donating)
+      Test 3: STOPS when reciprocity = 0 sustained over time
+    → If truly "selfless" → would NOT stop. But it stops → there are conditions.
 
-    "ĐAM MÊ": PFC label cho "nhiều chains converge → strong sustained drive"
-    "Đam mê" KHÔNG PHẢI nguyên nhân hành vi — mà là MÔ TẢ kết quả
-    = Drive.md §0: "'Đam mê' = MÔ TẢ drive mạnh + sustained, KHÔNG PHẢI nguyên nhân"
+    "PASSION": PFC label for "many chains converging → strong sustained drive"
+    "Passion" is NOT the cause of behavior — it is a DESCRIPTION of the result
+    = Drive.md §0: "'Passion' = DESCRIPTION of strong + sustained drive, NOT the cause"
 
   🟢 Confabulation: Nisbett & Wilson 1977
   🟢 Readiness potential: Libet 1983
   🟢 Split-brain confabulation: Gazzaniga
 ```
 
-### §7.2 — 3 Nguyên Tắc
+### §7.2 — 3 Principles
 
 ```
-⭐ 3 NGUYÊN TẮC QUAN TRỌNG:
+⭐ 3 IMPORTANT PRINCIPLES:
 
-  NGUYÊN TẮC 1 — Schema Effectiveness ≠ Schema Truthfulness:
-    Schema CÓ THỂ sai hoàn toàn MÀ VẪN effective:
-      Tin Thiên Đàng → behavioral output (chăm chỉ + đạo đức) → body feed → EFFECTIVE
-    Schema CÓ THỂ true MÀ VẪN fail:
-      "Giàu = hạnh phúc" → đường đi sacrifice connection → FAIL
-    → 2 chiều KHÁC NHAU: true+effective, true+fail, false+effective, false+fail
+  PRINCIPLE 1 — Schema Effectiveness ≠ Schema Truthfulness:
+    A schema can be completely wrong AND STILL be effective:
+      Believing in Heaven → behavioral output (diligence + ethics) → body feeds → EFFECTIVE
+    A schema can be true AND STILL fail:
+      "Rich = happy" → path sacrifices connection → FAILS
+    → 2 SEPARATE dimensions: true+effective, true+fails, false+effective, false+fails
 
-  NGUYÊN TẮC 2 — Body Check OUTPUT, Không Check TRUTH:
-    Body KHÔNG verify chain content. Body CHỈ verify chain output.
-    → Body = PRAGMATIST, không phải SCIENTIST
-    → Schema sai TỒN TẠI LÂU nếu output vẫn feed body-base
-    → Schema đúng BỊ REJECT nếu output KHÔNG feed
-    → PFC CHỈ check truth khi TRIGGERED (dissonance, forced evaluation)
+  PRINCIPLE 2 — Body Checks OUTPUT, Not TRUTH:
+    Body does NOT verify chain content. Body ONLY verifies chain output.
+    → Body = PRAGMATIST, not SCIENTIST
+    → Wrong schema PERSISTS LONG if output still feeds body-base
+    → Right schema GETS REJECTED if output does NOT feed
+    → PFC ONLY checks truth when TRIGGERED (dissonance, forced evaluation)
 
-  NGUYÊN TẮC 3 — "Vô Tư" Đúng Ở Tầng PFC, Sai Ở Tầng Body:
-    TẦNG PFC: "Không mong gì" = MÔ TẢ ĐÚNG conscious experience
-    TẦNG BODY: Compiled patterns LUÔN fire, LUÔN có reward
-    CẢ HAI ĐÚNG — ở tầng riêng.
-    → Biết mechanism KHÔNG LÀM GIẢM giá trị "cho đi"
-    → Framework mục đích: HIỂU, không phải PHÁN XÉT
+  PRINCIPLE 3 — "Selfless" Is Correct at PFC Level, Wrong at Body Level:
+    PFC LEVEL: "I want nothing in return" = ACCURATE DESCRIPTION of conscious experience
+    BODY LEVEL: Compiled patterns ALWAYS fire, ALWAYS have reward
+    BOTH ARE CORRECT — at their respective levels.
+    → Knowing the mechanism does NOT REDUCE the value of "giving"
+    → Framework purpose: to UNDERSTAND, not to JUDGE
 ```
 
-### §7.3 — Giới Hạn Nền Tảng
+### §7.3 — Fundamental Limits
 
 ```
-🟡 SCHEMA VÔ TẬN → CHAIN KHÔNG THỂ MAP CHÍNH XÁC:
+🟡 INFINITE SCHEMAS → CHAIN CANNOT BE MAPPED PRECISELY:
 
-  86 tỷ neurons × ~100 nghìn tỷ connections = hệ thống quá lớn
-  Schema MULTI-MODAL (body + motor + visual + somatic + emotional + verbal)
-  → Chain A→B→C→...→body-base: biết nó TỒN TẠI, không thể vẽ bản đồ
+  86 billion neurons × ~100 trillion connections = system far too large
+  Schema is MULTI-MODAL (body + motor + visual + somatic + emotional + verbal)
+  → Chain A→B→C→...→body-base: we know it EXISTS, we cannot map it exactly
 
-  Con người KHÔNG CẦN map chính xác:
-    ① Biết PATTERN nào đang drive (nhận diện, không cần chính xác)
-    ② Biết pattern đó SERVE body-base hay KHÔNG (check output)
-    ③ Biết khi nào cần THAY ĐỔI (detect dissonance)
-  → Framework = "công cụ navigate, không phải GPS chính xác"
+  Humans do NOT NEED precise mapping:
+    ① Know WHICH PATTERN is driving (recognition, not precision needed)
+    ② Know whether pattern SERVES body-base OR NOT (check output)
+    ③ Know WHEN CHANGE IS NEEDED (detect dissonance)
+  → Framework = "navigation tool, not a precise GPS"
 
-  ⚠️ BLACKBOX 2: Valence complexity — chuỗi valence dài gần như incomputable.
-  Framework predict PATTERN, không predict INSTANCE. Chi tiết: Blackbox-Map.md §4+§7.
+  ⚠️ BLACKBOX 2: Valence complexity — long valence chains are nearly incomputable.
+  Framework predicts PATTERNS, not INSTANCES. Details: Blackbox-Map.md §4+§7.
 ```
 
 ---
@@ -807,8 +789,8 @@ VALENCE UPDATE — 3 LOẠI:
     Nisbett & Wilson 1977: PFC cannot access actual processing
     Unfalsifiable belief resilience: Popper + Festinger 1957
 
-  Valence hình thành + propagation evidence (§3-§5):
-    4 nguồn: classical conditioning, observational (Bandura), cultural (Rachman), context
+  Valence formation + propagation evidence (§3-§5):
+    4 sources: classical conditioning, observational (Bandura), cultural (Rachman), context
     Spreading activation: Collins & Loftus 1975
     Temporal difference learning: Schultz 1997
     Goal gradient: Hull 1932. Temporal discounting: Ainslie 1975
@@ -830,10 +812,10 @@ VALENCE UPDATE — 3 LOẠI:
 ═══════════════════════════════════════
 
   §1-§2: Valence as multi-channel PROFILE, Object vs Agent vs Abstract
-  §3: 4 nguồn as explicit model + 3 update types
+  §3: 4 sources as explicit model + 3 update types
   §4: 4 propagation mechanisms as explicit model
-  §5: 5 chain properties + 4-tầng chain dài
-  §7: 3 nguyên tắc (effectiveness≠truthfulness, output check, vô tư 2 levels)
+  §5: 5 chain properties + 4-layer long chain
+  §7: 3 principles (effectiveness≠truthfulness, output check, "selfless" at 2 levels)
 
   Per-entity dynamics synthesis → Entity-Valence-Dynamics.md v1.0 §14.
 
@@ -845,14 +827,14 @@ VALENCE UPDATE — 3 LOẠI:
   Valence propagation as EXPLICIT NAMED MODEL
   Backward propagation (abstract chain)
   Chain trust = product of link trusts (oversimplified)
-  Group selection cho chain dài (optional, Tầng 4)
+  Group selection for long chains (optional, Layer 4)
 
 
-CÂU HỎI MỞ:
-  → Cơ chế neural CỤ THỂ cho valence propagation? Brain regions?
+OPEN QUESTIONS:
+  → Specific neural mechanism for valence propagation? Brain regions?
   → Chain decay function: linear? exponential? step?
-  → Maximum chain length mà body vẫn trust?
-  → Positive overgeneralize: same mechanism nhưng KHÁC TỐC ĐỘ bao nhiêu?
+  → Maximum chain length that body still trusts?
+  → Positive overgeneralization: same mechanism but HOW MUCH DIFFERENT speed?
 ```
 
 ---
@@ -862,7 +844,7 @@ CÂU HỎI MỞ:
 ```
 CROSS-REFERENCES:
 
-  NỀN TẢNG:
+  FOUNDATIONS:
     → Body-Base.md v3.3 — L0+L1 substrate + observation parameters
     → Body-Feedback-Mechanism.md v2.0 — Body-Need aggregate, chunk dynamics
     → Schema.md v2.0 — schema = chunks + links + purpose
@@ -873,18 +855,18 @@ CROSS-REFERENCES:
   COMPANION FILE (per-entity valence dynamics):
     → Entity-Valence-Dynamics.md v1.0 — Structural/Current, 3 Firing Modes,
       Hardware-Subsidy, Satiation Type, Mixed valence, Phantom resonance,
-      Technology frontier. ĐỌC SAU §1-§2, TRƯỚC §3-§7.
+      Technology frontier. READ AFTER §1-§2, BEFORE §3-§7.
 
   PFC + OBSERVATION:
-    → Feeling.md v2.0 — PFC observation of body (7 layers)
-    → Drive.md — tổng hợp valences → action
-    → Self-Pattern-Modeling.md v3.1 — observed experience (§3 nguồn ②)
+    → Feeling.md v3.0 — PFC observation of body (7 layers)
+    → Drive.md — synthesizes valences → action
+    → Self-Pattern-Modeling.md v3.1 — observed experience (§3 source ②)
     → Agent-Mechanism.md v2.1 — Schema-Imagined-Overlay (§2 abstract entities)
 
   PROPAGATION CONTEXT:
-    → Collective-Body.md v1.2 — Model 3 cấp + trust bridge (§4)
-    → Anchor-Schema.md v1.2 — anchor amplify chain, trust ≥ cost (§3, §5)
-    → Drill-Emergent-Pattern.md §5 — "Cho đi" pattern (§6 cases)
+    → Collective-Body.md v1.2 — 3-Level Model + trust bridge (§4)
+    → Anchor-Schema.md v1.2 — anchor amplifies chain, trust ≥ cost (§3, §5)
+    → Drill-Emergent-Pattern.md §5 — "Giving" pattern (§6 cases)
     → Empathy.md v2.2 §6-§8 — empathy reward, burnout formula (§6 cases)
     → Somatic-Articulation-Loop.md — body → explicit knowledge
 
@@ -921,23 +903,26 @@ RESEARCH CITATIONS:
   | R21 | Takahashi et al. 2009 — Schadenfreude | §6 |
   | R22 | Hickey 2013 — Serial killers | §6 |
   | R23 | Libet 1983 — Readiness potential | §7 |
-
-
-STATUS:
-
-  v1.0 — 2026-04-18 — Initial version: per-entity + propagation + chain + cases
-  v1.1 — 2026-04-18 — +§5b chain dài. ĐÍNH CHÍNH PFC size.
-  v1.3 — 2026-04-28 — +Body-Coupling reference.
-  v1.4 — 2026-05-08 — +Clarification Explanatory vs Processing. GAP 13+8 RESOLVED.
-  v2.0 — 2026-05-16 — FULL REWRITE: Entity-Compiled reframe, 3 subtypes, merge §5+§5b.
-  v3.0 — 2026-05-22 — FULL REWRITE: +Drill-Entity-Valence-Dynamics v2.0 (28 insights).
-    +TRỤ 2 entity-valence dynamics. Phase A integration.
-    v2.0 → backup/Valence-Propagation-v2.0-backup.md.
-  v4.0 — 2026-05-29 — SPLIT: entity-valence dynamics (v3.0 §3-§13) → Entity-Valence-Dynamics.md v1.0.
-    File này giữ: definition (§1-§2) + formation/propagation (§3-§7).
-    Renumber: v3.0 §14→§3, §15→§4, §16→§5, §17→§6, §18→§7.
-    v3.0 → backup/Valence-Propagation-v3.0-backup.md.
-  v4.1 — 2026-05-29 — L3 RETIRE: "L0-L1-L3 channels" → L0+L1 substrate + observation parameters.
-    §1: 2-dimension model (Substrate × Processing). §2: table restructure SUBSTRATE + EVALUATIVE.
-    Aligned with Body-Base v3.3 §5.3.
 ```
+
+---
+
+## Changelog
+
+```
+v1.0 — 2026-06-11 — English translation from source v4.1 (2026-05-29)
+  → Full translation of §0–§9
+  → Complete TOC added
+  → All 4 propagation mechanisms translated
+  → PFC blindness + 3 principles + fundamental limits
+  → All 23 research citations preserved
+  → Companion file note (Entity-Valence-Dynamics.md v1.0) preserved
+```
+
+---
+
+> **END OF Valence-Propagation.md v1.0 (English)**
+> Source: Human-Predictive-Drive/Core-Deep-Dive/Body-Base/Valence-Propagation.md v4.1 (2026-05-29)
+> Translated: v1.0 — 2026-06-11
+> Sections: §0–§9 + TOC + Changelog
+> Confidence: 🟢 ~20 citations / 🟡 ~8 framework synthesis claims / 🔴 ~4 hypotheses

@@ -1,390 +1,390 @@
 ---
-title: Mathematical Language Architecture — Cấu trúc ngôn ngữ toán học
+title: Mathematical Language Architecture
 created: 2026-04-16 (N+5 exploration session)
-status: REFERENCE — tài liệu tham khảo, đọc nghiền ngẫm
-scope: Toán học như 1 hệ thống "ngôn ngữ" — ký hiệu, cú pháp, cấu trúc, so sánh với natural language
-purpose: Hiểu toán không phải để "giải bài" mà để thấy kiến trúc của nó như 1 communication format
+status: REFERENCE — reference document, read for deep understanding
+scope: Mathematics as a "language" system — notation, syntax, structure, compared to natural language
+purpose: Understand math not as "solving problems" but as seeing its architecture as a communication format
 parent: ../../plan.md (F3 Chunk-External-Development)
-language: Tiếng Việt primary + English technical + ký hiệu toán
-note: Viết cho người DÙNG toán hàng ngày nhưng chưa từng "mổ xẻ" cấu trúc của nó
+language: English primary + mathematical notation
+note: Written for people who USE math daily but have never "dissected" its structure
 ---
 
-# Mathematical Language Architecture — Cấu trúc ngôn ngữ toán học
+# Mathematical Language Architecture
 
-> **Mục đích**: Bạn dùng toán mỗi ngày (tính tiền, đo lường, code game physics,...) nhưng chưa bao giờ nhìn toán như 1 HỆ THỐNG NGÔN NGỮ. File này "mổ xẻ" cấu trúc toán — không phải để giải bài, mà để thấy toán là 1 communication format có "từ vựng", "ngữ pháp", "câu", "đoạn văn" riêng.
+> **Purpose**: You use math every day (calculating prices, measuring, game physics code...) but have never viewed math as a LANGUAGE SYSTEM. This file "dissects" math's structure — not to solve problems, but to see math as a communication format with its own "vocabulary", "grammar", "sentences", and "paragraphs".
 >
-> **So sánh với file 01**: File 01 phân tích natural language (Việt/Anh/Trung). File này phân tích mathematical language. Cả 2 đều là Communication Modality formats — nhưng kiến trúc RẤT KHÁC nhau.
+> **Comparison with file 01**: File 01 analyzed natural language (Vietnamese/English/Chinese). This file analyzes mathematical language. Both are Communication Modality formats — but the architectures are VERY DIFFERENT.
 >
-> **Cách đọc**: Đọc từng phần, nghiền ngẫm. Không cần biết giải toán cao cấp — file focus vào CẤU TRÚC, không focus vào KỸ NĂNG GIẢI.
+> **How to read**: Read each section, reflect. No need to know advanced math — this file focuses on STRUCTURE, not on SOLVING SKILLS.
 
 ---
 
-## MỤC LỤC
+## TABLE OF CONTENTS
 
-- §1 — "Từ vựng" toán: Các loại ký hiệu
-  - §1.1 Numbers — Hệ thống số
-  - §1.2 Variables — Biến
-  - §1.3 Operators — Phép toán
-  - §1.4 Relations — Quan hệ
-  - §1.5 Grouping — Dấu ngoặc
-  - §1.6 Functions — Hàm
-  - §1.7 Constants — Hằng số đặc biệt
-  - §1.8 Logic symbols — Ký hiệu logic
-  - §1.9 Set theory — Ký hiệu tập hợp
-  - §1.10 Calculus — Ký hiệu giải tích
-  - §1.11 Bảng tổng hợp "từ vựng" toán
-- §2 — "Ngữ pháp" toán: Cú pháp biểu thức
-  - §2.1 Biểu thức = "câu" toán
-  - §2.2 Thứ tự phép toán = "ngữ pháp" toán
-  - §2.3 Infix, Prefix, Postfix — 3 cách viết cùng 1 ý
-  - §2.4 Nesting — Lồng nhau (recursion)
-  - §2.5 Phương trình = "câu khẳng định"
-  - §2.6 Bất phương trình = "câu so sánh"
-  - §2.7 Hệ phương trình = "đoạn văn"
-- §3 — Hierarchy: Từ → Biểu thức → Phương trình → Chứng minh → Lý thuyết
-- §4 — Các "domain" toán và ký hiệu riêng
-  - §4.1 Số học (Arithmetic)
-  - §4.2 Đại số (Algebra)
-  - §4.3 Hình học (Geometry)
-  - §4.4 Giải tích (Calculus)
-  - §4.5 Xác suất & Thống kê
+- §1 — Math "Vocabulary": Types of Symbols
+  - §1.1 Numbers — Number System
+  - §1.2 Variables
+  - §1.3 Operators
+  - §1.4 Relations
+  - §1.5 Grouping — Brackets
+  - §1.6 Functions
+  - §1.7 Constants — Special Constants
+  - §1.8 Logic Symbols
+  - §1.9 Set Theory Symbols
+  - §1.10 Calculus Symbols
+  - §1.11 Summary Table: Math "Vocabulary"
+- §2 — Math "Grammar": Expression Syntax
+  - §2.1 Expression = Math's "Sentence"
+  - §2.2 Operator Precedence = Math's "Grammar"
+  - §2.3 Infix, Prefix, Postfix — 3 Ways to Write the Same Thing
+  - §2.4 Nesting — Recursion
+  - §2.5 Equation = "Declarative Sentence"
+  - §2.6 Inequality = "Comparative Sentence"
+  - §2.7 System of Equations = "Paragraph"
+- §3 — Hierarchy: Symbol → Expression → Equation → Proof → Theory
+- §4 — Math "Domains" and Their Notation
+  - §4.1 Arithmetic
+  - §4.2 Algebra
+  - §4.3 Geometry
+  - §4.4 Calculus
+  - §4.5 Probability & Statistics
   - §4.6 Logic
-  - §4.7 Đại số tuyến tính (Linear Algebra)
-- §5 — So sánh: Toán vs Natural Language
-- §6 — Toán trong thực tế: Cách expert THỰC SỰ dùng toán
-- §7 — Lịch sử phát triển ký hiệu toán
-- §8 — Framework lens + Câu hỏi mở
+  - §4.7 Linear Algebra
+- §5 — Comparison: Math vs Natural Language
+- §6 — Math in Practice: How Experts ACTUALLY Use Math
+- §7 — History of Mathematical Notation
+- §8 — Framework Lens + Open Questions
 
 ---
 
-## §1 — "Từ vựng" toán: Các loại ký hiệu
+## §1 — Math "Vocabulary": Types of Symbols
 
-Natural language có danh từ, động từ, tính từ,... Toán cũng có "từ loại" riêng:
+Natural language has nouns, verbs, adjectives... Math has its own "word types" too:
 
-### §1.1 — Numbers (Số) = "Danh từ" của toán
+### §1.1 — Numbers = Math's "Nouns"
 
-Số = đối tượng cơ bản nhất, tương đương danh từ trong natural language.
+Numbers = the most basic objects, equivalent to nouns in natural language.
 
 ```
-SỐ TỰ NHIÊN (Natural numbers — ℕ):
+NATURAL NUMBERS (ℕ):
   0, 1, 2, 3, 4, 5, ...
-  → Đếm vật: "có 3 con chó" → 3 ∈ ℕ
-  → Cổ nhất: từ khi con người biết đếm (~40,000 năm?)
+  → Counting objects: "there are 3 dogs" → 3 ∈ ℕ
+  → Oldest: since humans began counting (~40,000 years ago?)
 
-SỐ NGUYÊN (Integers — ℤ):
+INTEGERS (ℤ):
   ..., -3, -2, -1, 0, 1, 2, 3, ...
-  → Thêm số ÂM: "nợ 5 triệu" → -5
-  → ℤ từ tiếng Đức "Zahlen" = "số"
-  → Phát minh: ~600 CN (Ấn Độ, Brahmagupta)
+  → Adds NEGATIVE numbers: "owe 5 million" → -5
+  → ℤ from German "Zahlen" = "numbers"
+  → Invented: ~600 CE (India, Brahmagupta)
 
-SỐ HỮU TỈ (Rational numbers — ℚ):
+RATIONAL NUMBERS (ℚ):
   1/2, 3/4, -2/3, 0.75, 1.333...
-  → Mọi số viết được dạng p/q (phân số)
-  → ℚ từ "Quotient" = "thương"
-  → Phát minh: ~1500 TCN (Ai Cập, Rhind Papyrus)
+  → All numbers writable as p/q (fraction)
+  → ℚ from "Quotient"
+  → Developed: ~1500 BCE (Egypt, Rhind Papyrus)
 
-SỐ VÔ TỈ (Irrational numbers):
+IRRATIONAL NUMBERS:
   √2 = 1.41421356..., π = 3.14159265..., e = 2.71828182...
-  → KHÔNG viết được dạng phân số
-  → Số thập phân vô hạn KHÔNG tuần hoàn
-  → Phát minh √2 (shock!): ~500 TCN (Hy Lạp, Pythagoras)
-    → Truyền thuyết: Hippasus chứng minh √2 vô tỉ → bị ném xuống biển
-       vì phá vỡ niềm tin "mọi thứ là tỉ lệ số nguyên"
+  → CANNOT be written as a fraction
+  → Infinite decimal expansion, NON-REPEATING
+  → Discovery of √2 (shock!): ~500 BCE (Greece, Pythagoras)
+    → Legend: Hippasus proved √2 is irrational → thrown into the sea
+       for shattering the belief that "all things are ratios of integers"
 
-SỐ THỰC (Real numbers — ℝ):
-  Tất cả số trên trục số: ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ
-  → Gồm cả hữu tỉ + vô tỉ
-  → Hình dung: mỗi ĐIỂM trên đường thẳng = 1 số thực
+REAL NUMBERS (ℝ):
+  All numbers on the number line: ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ
+  → Includes both rational + irrational
+  → Visualize: every POINT on a straight line = 1 real number
 
-SỐ PHỨC (Complex numbers — ℂ):
-  a + bi, trong đó i = √(-1)
-  → Ví dụ: 3 + 2i, -1 + 0.5i
-  → i² = -1 (căn bậc 2 của -1 — "impossible" nhưng hữu ích!)
-  → Dùng nhiều trong: điện tử, vật lý lượng tử, game (quaternion cho 3D rotation!)
-  → Phát minh: ~1545 (Cardano, giải phương trình bậc 3)
+COMPLEX NUMBERS (ℂ):
+  a + bi, where i = √(-1)
+  → Example: 3 + 2i, -1 + 0.5i
+  → i² = -1 (square root of -1 — "impossible" but incredibly useful!)
+  → Used extensively in: electronics, quantum physics, games (quaternions for 3D rotation!)
+  → Invented: ~1545 (Cardano, solving cubic equations)
 
-HÌNH DUNG: Các tầng số lồng nhau
+VISUALIZING: Nested Number Layers
   ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ
   │    │    │    │    │
-  │    │    │    │    └── Số phức (thêm chiều "ảo")
-  │    │    │    └── Số thực (lấp đầy trục số)
-  │    │    └── Số hữu tỉ (phân số)
-  │    └── Số nguyên (thêm số âm)
-  └── Số tự nhiên (đếm)
+  │    │    │    │    └── Complex (adds imaginary dimension)
+  │    │    │    └── Reals (fill the number line)
+  │    │    └── Rationals (fractions)
+  │    └── Integers (adds negatives)
+  └── Naturals (counting)
 
-  → Mỗi tầng = MỞ RỘNG tầng trước để giải quyết vấn đề mới:
-    "3 - 5 = ?" → cần ℤ (số âm)
-    "1 ÷ 3 = ?" → cần ℚ (phân số)
-    "√2 = ?"    → cần ℝ (số vô tỉ)
-    "√(-1) = ?" → cần ℂ (số phức)
+  → Each layer = EXTENDS the previous to solve new problems:
+    "3 - 5 = ?" → need ℤ (negatives)
+    "1 ÷ 3 = ?" → need ℚ (fractions)
+    "√2 = ?"    → need ℝ (irrationals)
+    "√(-1) = ?" → need ℂ (complex)
 ```
 
-### §1.2 — Variables (Biến) = "Đại từ" của toán
+### §1.2 — Variables = Math's "Pronouns"
 
 ```
-BIẾN = ký hiệu đại diện cho số CHƯA BIẾT hoặc số BẤT KỲ
-  → Giống "đại từ" trong natural language: "nó" thay cho danh từ cụ thể
+VARIABLES = symbols standing for UNKNOWN or ARBITRARY numbers
+  → Like pronouns in natural language: "it" substitutes for a specific noun
 
-QUY ƯỚC THƯỜNG DÙNG:
-  x, y, z         = biến chưa biết (unknown) — giải phương trình để tìm
-  a, b, c         = hệ số / hằng số đã biết (parameters)
-  n, m, k         = số nguyên (thường dùng cho đếm, index)
-  i, j            = chỉ số vòng lặp (index) — game dev quen cái này!
-  t               = thời gian (time)
-  f, g, h         = hàm (function)
-  θ (theta)       = góc (angle)
-  Δ (delta)       = thay đổi / chênh lệch ("delta x" = x thay đổi bao nhiêu)
-  Σ (sigma)       = tổng (sum)
-  ε (epsilon)     = số rất nhỏ (gần 0)
-  ∞ (infinity)    = vô cùng
+COMMON CONVENTIONS:
+  x, y, z         = unknown variables — solve equations to find them
+  a, b, c         = known coefficients / constants (parameters)
+  n, m, k         = integers (often used for counting, index)
+  i, j            = loop index — game devs know this well!
+  t               = time
+  f, g, h         = functions
+  θ (theta)       = angle
+  Δ (delta)       = change / difference ("delta x" = how much x changes)
+  Σ (sigma)       = sum
+  ε (epsilon)     = very small number (near 0)
+  ∞ (infinity)    = infinity
 
-VÍ DỤ:
-  "x + 3 = 7"    → x = đại từ, thay cho số 4 (chưa biết, cần tìm)
-  "cho mọi n"    → n = đại từ, thay cho "số nguyên bất kỳ"
-  "f(x) = x²"   → x = input bất kỳ, f = hàm bình phương
+EXAMPLES:
+  "x + 3 = 7"    → x = pronoun, stands for number 4 (unknown, need to find)
+  "for all n"    → n = pronoun, stands for "any integer"
+  "f(x) = x²"   → x = any input, f = squaring function
 
-SO SÁNH VỚI NATURAL LANGUAGE:
-  Natural:  "NÓ ăn cơm"       → "nó" = đại diện cho ai đó (cần context)
-  Toán:     "x + 3 = 7"       → "x" = đại diện cho số nào đó (cần giải)
+COMPARISON WITH NATURAL LANGUAGE:
+  Natural:  "IT eats rice"       → "it" = represents someone/something (needs context)
+  Math:     "x + 3 = 7"         → "x" = represents some number (needs solving)
 
-  Natural:  "MỌI NGƯỜI đều ăn" → "mọi người" = tất cả
-  Toán:     "∀x: x + 0 = x"   → "∀x" = "cho mọi x" = tất cả số
+  Natural:  "EVERYONE eats"     → "everyone" = all
+  Math:     "∀x: x + 0 = x"    → "∀x" = "for all x" = all numbers
 ```
 
-### §1.3 — Operators (Phép toán) = "Động từ" của toán
+### §1.3 — Operators = Math's "Verbs"
 
 ```
-PHÉP TOÁN = hành động thực hiện lên số, tương đương ĐỘNG TỪ trong natural language
+OPERATORS = actions performed on numbers, equivalent to VERBS in natural language
 
-ARITHMETIC (Số học cơ bản):
-  +    cộng (addition)          3 + 2 = 5
-  -    trừ (subtraction)        7 - 4 = 3
-  ×    nhân (multiplication)    3 × 4 = 12    (cũng viết: 3·4 hoặc 3*4)
-  ÷    chia (division)          12 ÷ 3 = 4    (cũng viết: 12/3)
-  ^    lũy thừa (exponent)     2³ = 8         (2 mũ 3 = 2×2×2)
-  √    căn (root)              √9 = 3         (căn bậc 2 của 9)
-  !    giai thừa (factorial)   5! = 120        (5×4×3×2×1)
-  %    phần trăm (percent)     50% = 0.5
-  mod  phần dư (modulo)        7 mod 3 = 1    (7 chia 3 dư 1 — game dev dùng nhiều!)
+ARITHMETIC (Basic):
+  +    addition          3 + 2 = 5
+  -    subtraction       7 - 4 = 3
+  ×    multiplication    3 × 4 = 12    (also written: 3·4 or 3*4)
+  ÷    division          12 ÷ 3 = 4    (also written: 12/3)
+  ^    exponent          2³ = 8        (2 to the power 3 = 2×2×2)
+  √    root/square root  √9 = 3        (square root of 9)
+  !    factorial          5! = 120      (5×4×3×2×1)
+  %    percent           50% = 0.5
+  mod  modulo (remainder) 7 mod 3 = 1  (7 divided by 3, remainder 1 — game devs use this a lot!)
 
-ALGEBRA (Đại số):
-  Σ    tổng (summation)        Σᵢ₌₁ⁿ i = 1+2+3+...+n
-  Π    tích (product)          Πᵢ₌₁ⁿ i = 1×2×3×...×n = n!
-  |x|  giá trị tuyệt đối      |-5| = 5, |3| = 3
-  ⌊x⌋  floor (làm tròn xuống) ⌊3.7⌋ = 3
-  ⌈x⌉  ceiling (làm tròn lên) ⌈3.2⌉ = 4
+ALGEBRA:
+  Σ    summation         Σᵢ₌₁ⁿ i = 1+2+3+...+n
+  Π    product           Πᵢ₌₁ⁿ i = 1×2×3×...×n = n!
+  |x|  absolute value    |-5| = 5, |3| = 3
+  ⌊x⌋  floor (round down) ⌊3.7⌋ = 3
+  ⌈x⌉  ceiling (round up) ⌈3.2⌉ = 4
 
-SO SÁNH VỚI NATURAL LANGUAGE:
-  Natural:  "Tôi  ĂN   cơm"        → ĂN = động từ (hành động)
-  Toán:     "3    +     2    = 5"   → + = "động từ" (hành động cộng)
+COMPARISON WITH NATURAL LANGUAGE:
+  Natural:  "I EAT rice"              → EAT = verb (action)
+  Math:     "3  +  2  = 5"           → + = "verb" (action of adding)
 
-  Natural:  Có nhiều loại động từ (ăn, chạy, nghĩ, yêu, sợ,...)
-  Toán:     Có ít "động từ" hơn nhưng mỗi cái CỰC KỲ CHÍNH XÁC
-            (+ luôn nghĩa cộng, không bao giờ nghĩa khác)
+  Natural:  Many types of verbs (eat, run, think, love, fear...)
+  Math:     FEWER "verbs" but each one is EXTREMELY PRECISE
+            (+ always means addition, never anything else)
 ```
 
-### §1.4 — Relations (Quan hệ) = "Liên từ so sánh" của toán
+### §1.4 — Relations = Math's "Comparison Conjunctions"
 
 ```
-RELATIONS = ký hiệu thể hiện QUAN HỆ giữa 2 biểu thức
+RELATIONS = symbols expressing the RELATIONSHIP between 2 expressions
 
-  =     bằng (equal)              3 + 2 = 5
-  ≠     không bằng (not equal)    3 ≠ 4
-  <     nhỏ hơn (less than)       2 < 5
-  >     lớn hơn (greater than)    7 > 3
-  ≤     nhỏ hơn hoặc bằng        x ≤ 10
-  ≥     lớn hơn hoặc bằng        y ≥ 0
-  ≈     xấp xỉ (approximately)   π ≈ 3.14
-  ∝     tỉ lệ (proportional)     F ∝ ma (lực tỉ lệ khối lượng × gia tốc)
-  ≡     đồng nhất / đồng dư      a ≡ b (mod n)
-  ~     tương đương (varies)      f(x) ~ g(x)
+  =     equal                      3 + 2 = 5
+  ≠     not equal                  3 ≠ 4
+  <     less than                  2 < 5
+  >     greater than               7 > 3
+  ≤     less than or equal to      x ≤ 10
+  ≥     greater than or equal to   y ≥ 0
+  ≈     approximately              π ≈ 3.14
+  ∝     proportional to            F ∝ ma (force proportional to mass × acceleration)
+  ≡     identical / congruent      a ≡ b (mod n)
+  ~     approximately equivalent   f(x) ~ g(x)
 
-⭐ DẤU "=" TRONG TOÁN vs TRONG CODE:
-  Toán:  x = 5      → "x BẰNG 5" (khẳng định sự thật)
-  Code:  x = 5      → "GÁN 5 vào x" (hành động thay đổi)
-  Code:  x == 5     → "x CÓ BẰNG 5 KHÔNG?" (kiểm tra)
+⭐ THE "=" SIGN IN MATH vs IN CODE:
+  Math:  x = 5      → "x EQUALS 5" (statement of fact)
+  Code:  x = 5      → "ASSIGN 5 to x" (action that changes state)
+  Code:  x == 5     → "DOES x EQUAL 5?" (check/comparison)
 
-  → Game dev quen "=" là gán. Toán dùng "=" là khẳng định.
-  → Đây là nguồn confuse kinh điển giữa math và programming.
+  → Game devs know "=" as assignment. Math uses "=" as assertion.
+  → This is the classic source of confusion between math and programming.
 ```
 
-### §1.5 — Grouping (Nhóm) = "Dấu câu" của toán
+### §1.5 — Grouping = Math's "Punctuation"
 
 ```
-DẤU NGOẶC = kiểm soát THỨ TỰ xử lý, tương đương dấu câu trong natural language
+BRACKETS = control PROCESSING ORDER, equivalent to punctuation in natural language
 
-  ( )    ngoặc tròn (parentheses)       (3 + 2) × 4 = 20
-  [ ]    ngoặc vuông (brackets)          [a + b] × c
-  { }    ngoặc nhọn (braces)            {1, 2, 3} = tập hợp
-  | |    giá trị tuyệt đối / norm       |x| = absolute value
+  ( )    parentheses         (3 + 2) × 4 = 20
+  [ ]    square brackets     [a + b] × c
+  { }    curly braces        {1, 2, 3} = a set
+  | |    absolute value / norm  |x| = absolute value
 
-THỨ TỰ ƯU TIÊN (nếu KHÔNG có ngoặc):
-  1. ( ) ngoặc                         ← ưu tiên cao nhất
-  2. ^ lũy thừa
-  3. × ÷ nhân chia                     ← từ trái qua phải
-  4. + - cộng trừ                      ← từ trái qua phải, ưu tiên thấp nhất
+OPERATOR PRECEDENCE (when NO brackets):
+  1. ( ) brackets                  ← HIGHEST priority
+  2. ^ exponent
+  3. × ÷ multiplication, division  ← left to right
+  4. + - addition, subtraction     ← left to right, LOWEST priority
 
-VÍ DỤ — cùng 1 phép tính, KHÁC NGOẶC = KHÁC KẾT QUẢ:
-  3 + 2 × 4   = 3 + 8   = 11    (nhân trước)
-  (3 + 2) × 4 = 5 × 4   = 20    (ngoặc trước, rồi nhân)
+EXAMPLE — same operation, DIFFERENT BRACKETS = DIFFERENT RESULTS:
+  3 + 2 × 4   = 3 + 8   = 11    (multiply first)
+  (3 + 2) × 4 = 5 × 4   = 20    (brackets first, then multiply)
 
-SO SÁNH VỚI NATURAL LANGUAGE:
-  Natural:  Dấu phẩy, dấu chấm, ngoặc = kiểm soát cách HIỂU câu
-            "Ăn bạn ơi" vs "Ăn, bạn ơi!" ← dấu phẩy đổi nghĩa hoàn toàn!
-  Toán:     Dấu ngoặc = kiểm soát cách TÍNH biểu thức
-            3+2×4 vs (3+2)×4 ← ngoặc đổi kết quả hoàn toàn!
+COMPARISON WITH NATURAL LANGUAGE:
+  Natural: Commas, periods, brackets = control how sentences are UNDERSTOOD
+           "Let's eat, friend!" vs "Let's eat friend!" ← comma changes meaning completely!
+  Math:    Brackets = control how expressions are COMPUTED
+           3+2×4 vs (3+2)×4 ← brackets change the result completely!
 
-  → Cả 2 hệ thống: dấu câu/ngoặc = CONSTRAINT cách parser xử lý
+  → Both systems: punctuation/brackets = CONSTRAINT on how the parser processes
 ```
 
-### §1.6 — Functions (Hàm) = "Máy xử lý" — input vào, output ra
+### §1.6 — Functions = "Processing Machines" — Input In, Output Out
 
 ```
-HÀM = "máy" nhận INPUT, cho OUTPUT theo quy tắc cố định
+FUNCTION = a "machine" that receives INPUT and gives OUTPUT according to a fixed rule
 
-CÚ PHÁP: f(x) = biểu thức chứa x
-  → f = tên hàm
+SYNTAX: f(x) = expression containing x
+  → f = function name
   → x = input (argument)
-  → biểu thức = quy tắc xử lý
+  → expression = processing rule
   → f(x) = output
 
-HÀM CƠ BẢN:
+BASIC FUNCTIONS:
 
-  Hàm tuyến tính:    f(x) = 2x + 3
+  Linear function:       f(x) = 2x + 3
     f(0) = 3, f(1) = 5, f(10) = 23
-    → Input × 2, rồi cộng 3
+    → Input × 2, then add 3
 
-  Hàm bậc 2:         f(x) = x²
+  Quadratic function:    f(x) = x²
     f(0) = 0, f(2) = 4, f(-3) = 9
-    → Input nhân chính nó (bình phương)
+    → Input multiplied by itself (squared)
 
-  Hàm lượng giác:
-    sin(θ)   = đối / huyền     (tỉ lệ cạnh tam giác vuông — game dev dùng RẤT NHIỀU!)
-    cos(θ)   = kề / huyền
-    tan(θ)   = đối / kề = sin(θ)/cos(θ)
+  Trigonometric functions:
+    sin(θ)   = opposite / hypotenuse  (right triangle ratio — game devs use this A LOT!)
+    cos(θ)   = adjacent / hypotenuse
+    tan(θ)   = opposite / adjacent = sin(θ)/cos(θ)
 
-    Ví dụ game dev:
-      Nhân vật quay 45° và đi tới 10 đơn vị:
-      dx = 10 × cos(45°) ≈ 7.07    (dịch chuyển theo x)
-      dy = 10 × sin(45°) ≈ 7.07    (dịch chuyển theo y)
-      → sin/cos = "dịch angle thành tọa độ x,y"
+    Game dev example:
+      Character turns 45° and moves 10 units:
+      dx = 10 × cos(45°) ≈ 7.07    (displacement along x)
+      dy = 10 × sin(45°) ≈ 7.07    (displacement along y)
+      → sin/cos = "translate angle into x,y coordinates"
 
-  Hàm logarithm:
-    log₁₀(100) = 2    vì 10² = 100    ("10 mũ mấy = 100?" → 2)
-    log₂(8)    = 3    vì 2³ = 8       ("2 mũ mấy = 8?" → 3)
-    ln(e)      = 1    vì e¹ = e       (ln = log tự nhiên, cơ số e)
+  Logarithm:
+    log₁₀(100) = 2    because 10² = 100    ("10 to what power = 100?" → 2)
+    log₂(8)    = 3    because 2³ = 8       ("2 to what power = 8?" → 3)
+    ln(e)      = 1    because e¹ = e       (ln = natural log, base e)
 
-    → log = PHÉP NGƯỢC của lũy thừa
-    → Game dev dùng: log₂(n) = complexity thuật toán binary search
+    → log = INVERSE of exponentiation
+    → Game dev use: log₂(n) = complexity of binary search algorithm
 
-  Hàm mũ (exponential):
-    eˣ      (e ≈ 2.71828, "số Euler")
-    2ˣ      (tăng gấp đôi mỗi bước)
+  Exponential function:
+    eˣ      (e ≈ 2.71828, "Euler's number")
+    2ˣ      (doubles each step)
 
-    → Tăng trưởng mũ: 2⁰=1, 2¹=2, 2²=4, 2³=8, 2¹⁰=1024, 2²⁰=1,048,576
-    → Game dev: 2ⁿ = kích thước texture, memory allocation
+    → Exponential growth: 2⁰=1, 2¹=2, 2²=4, 2³=8, 2¹⁰=1024, 2²⁰=1,048,576
+    → Game dev: 2ⁿ = texture size, memory allocation
 
-SO SÁNH VỚI NATURAL LANGUAGE:
-  Natural:  Câu = Subject + Verb + Object
-  Toán:     Expression = Function(Argument) = Result
-            f(x) = y tương đương "hàm f XỬ LÝ input x, cho ra y"
+COMPARISON WITH NATURAL LANGUAGE:
+  Natural: Sentence = Subject + Verb + Object
+  Math:    Expression = Function(Argument) = Result
+           f(x) = y means "function f PROCESSES input x, yields y"
 
   Natural language functions (metaphor):
-    "dịch(câu tiếng Việt)" = câu tiếng Anh
-    "nấu(nguyên liệu)" = món ăn
-    → Mọi PROCESS có input + output = function!
+    "translate(Vietnamese sentence)" = English sentence
+    "cook(ingredients)" = dish
+    → Any PROCESS with input + output = a function!
 ```
 
-### §1.7 — Constants (Hằng số) = "Tên riêng" của toán
+### §1.7 — Constants = Math's "Proper Nouns"
 
 ```
-HẰNG SỐ = số CỤ THỂ có tên riêng vì quá quan trọng / xuất hiện quá nhiều
+CONSTANTS = SPECIFIC numbers with proper names because they are too important / appear too frequently
 
-  π (pi)     ≈ 3.14159265...    Tỉ lệ chu vi / đường kính hình tròn
-                                 → Xuất hiện KHẮP NƠI: tròn, sóng, dao động, xác suất
+  π (pi)     ≈ 3.14159265...    Ratio of circumference to diameter
+                                 → Appears EVERYWHERE: circles, waves, oscillations, probability
                                  → Game dev: rotation, circular motion, wave patterns
 
-  e (Euler)  ≈ 2.71828182...    Cơ số logarithm tự nhiên
-                                 → Tăng trưởng liên tục: lãi kép, phân rã phóng xạ
-                                 → eˣ = hàm DUY NHẤT mà đạo hàm = chính nó
+  e (Euler)  ≈ 2.71828182...    Base of the natural logarithm
+                                 → Continuous growth: compound interest, radioactive decay
+                                 → eˣ = the ONLY function whose derivative = itself
 
-  φ (phi)    ≈ 1.61803398...    Tỉ lệ vàng (golden ratio)
+  φ (phi)    ≈ 1.61803398...    Golden ratio
                                  → (1 + √5) / 2
-                                 → Xuất hiện trong: kiến trúc, nghệ thuật, tự nhiên (vỏ ốc, hoa)
+                                 → Appears in: architecture, art, nature (shells, flowers)
 
-  i          = √(-1)            Đơn vị ảo (imaginary unit)
+  i          = √(-1)            Imaginary unit
                                  → i² = -1
-                                 → Game dev: quaternion dùng i, j, k cho 3D rotation
+                                 → Game dev: quaternion uses i, j, k for 3D rotation
 
-  ∞          = vô cùng          Không phải số, mà là CONCEPT
-                                 → "lớn hơn mọi số"
-                                 → Dùng trong: giới hạn, tích phân, series
+  ∞          = infinity          Not a number, but a CONCEPT
+                                 → "larger than every number"
+                                 → Used in: limits, integrals, series
 
-SO SÁNH:
-  Natural language "tên riêng": Hà Nội, Einstein, Everest — tên CHO 1 THỨ CỤ THỂ
-  Math constants:               π, e, φ — tên CHO 1 SỐ CỤ THỂ xuất hiện khắp nơi
+COMPARISON:
+  Natural language "proper nouns": Hanoi, Einstein, Everest — names FOR SPECIFIC THINGS
+  Math constants:                  π, e, φ — names FOR SPECIFIC NUMBERS that appear everywhere
 ```
 
-### §1.8 — Logic symbols = "Liên từ" + "Phủ định" + "Lượng từ"
+### §1.8 — Logic Symbols = "Conjunctions" + "Negation" + "Quantifiers"
 
 ```
-LOGIC = hệ thống suy luận CHÍNH XÁC, nền tảng cho mọi chứng minh toán
+LOGIC = a system of PRECISE reasoning, foundation for all mathematical proof
 
-LIÊN TỪ LOGIC (Logical connectives):
-  ∧   AND (và)           p ∧ q = "p VÀ q đều đúng"
-  ∨   OR (hoặc)          p ∨ q = "p HOẶC q (hoặc cả 2) đúng"
-  ¬   NOT (phủ định)     ¬p = "p KHÔNG đúng"
-  →   IMPLIES (suy ra)   p → q = "NẾU p THÌ q"
-  ↔   IFF (khi và chỉ khi) p ↔ q = "p ĐÚNG khi và chỉ khi q ĐÚNG"
+LOGICAL CONNECTIVES:
+  ∧   AND          p ∧ q = "p AND q are both true"
+  ∨   OR           p ∨ q = "p OR q (or both) is true"
+  ¬   NOT          ¬p = "p is NOT true"
+  →   IMPLIES      p → q = "IF p THEN q"
+  ↔   IFF          p ↔ q = "p is TRUE if and only if q is TRUE"
 
-LƯỢNG TỪ (Quantifiers):
-  ∀   FOR ALL (cho mọi)       ∀x: x + 0 = x    "với MỌI x, x cộng 0 bằng x"
-  ∃   EXISTS (tồn tại)        ∃x: x² = 4        "TỒN TẠI x mà x² = 4" (x = 2 hoặc -2)
-  ∄   NOT EXISTS              ∄x: x² = -1 (∈ℝ)  "KHÔNG tồn tại x thực mà x² = -1"
+QUANTIFIERS:
+  ∀   FOR ALL       ∀x: x + 0 = x    "for ALL x, x plus 0 equals x"
+  ∃   EXISTS        ∃x: x² = 4       "there EXISTS x such that x² = 4" (x = 2 or -2)
+  ∄   DOES NOT EXIST  ∄x: x² = -1 (∈ℝ) "NO real x exists such that x² = -1"
 
-VÍ DỤ GHÉP:
+COMBINED EXAMPLE:
   ∀x ∈ ℝ: x² ≥ 0
-  = "Cho MỌI x thuộc số thực: x bình phương LỚN HƠN HOẶC BẰNG 0"
-  = "Bình phương số thực nào cũng không âm"
+  = "For ALL real x: x squared is GREATER THAN OR EQUAL TO 0"
+  = "The square of any real number is non-negative"
 
   ∃x ∈ ℤ: (x > 0) ∧ (x < 1)
-  = "Tồn tại x thuộc số nguyên mà: x > 0 VÀ x < 1"
-  = "Có số nguyên nào lớn hơn 0 và nhỏ hơn 1 không?"
-  → Câu trả lời: KHÔNG (∄) — vì không có số nguyên nào giữa 0 và 1
+  = "There EXISTS an integer x such that: x > 0 AND x < 1"
+  = "Is there any integer greater than 0 and less than 1?"
+  → Answer: NO (∄) — no integer exists between 0 and 1
 
-SO SÁNH VỚI NATURAL LANGUAGE:
-  Natural:  "nếu trời mưa THÌ tôi ở nhà"       → VÀ, HOẶC, NẾU...THÌ, KHÔNG
-  Toán:     "nếu p đúng THÌ q đúng" = p → q    → ∧, ∨, →, ¬
+COMPARISON WITH NATURAL LANGUAGE:
+  Natural:  "if it rains THEN I stay home"   → AND, OR, IF...THEN, NOT
+  Math:     "if p is true THEN q is true" = p → q    → ∧, ∨, →, ¬
 
-  Natural:  "MỌI NGƯỜI đều ăn" / "CÓ AI ĐÓ ăn"
-  Toán:     "∀x: f(x)" / "∃x: f(x)"
+  Natural:  "EVERYONE eats" / "SOMEONE eats"
+  Math:     "∀x: f(x)" / "∃x: f(x)"
 
-  → CÙNG loại concept (và, hoặc, không, mọi, tồn tại)
-  → Toán: CHÍNH XÁC (không mơ hồ)
-  → Natural: LINH HOẠT (có thể mơ hồ, đa nghĩa)
+  → SAME type of concept (and, or, not, all, exists)
+  → Math: PRECISE (unambiguous)
+  → Natural: FLEXIBLE (can be ambiguous, polysemous)
 
-  Ví dụ MƠ HỒ trong natural language:
-    "Tôi thấy ai đó" = ∃x: tôi thấy x (OK)
-    "Ai cũng thấy" = ∀x: x thấy (?) hay ∃x: mọi người thấy x (?)
-    → Tiếng Việt MƠ HỒ! Toán KHÔNG MƠ HỒ: phải viết rõ ∀ hay ∃
+  Ambiguity example in natural language:
+    "I see someone" = ∃x: I see x (OK)
+    "Everyone sees" = ∀x: x sees (?) or ∃x: everyone sees x (?)
+    → Natural language IS AMBIGUOUS! Math IS NOT: must write ∀ or ∃ explicitly
 ```
 
-### §1.9 — Set theory symbols = "Nhóm" + "Thuộc về"
+### §1.9 — Set Theory Symbols = "Groups" + "Membership"
 
 ```
-TẬP HỢP (Set) = nhóm các phần tử
+SET = a group of elements
 
-  {1, 2, 3}          tập hợp chứa 1, 2, 3
-  ∅ hoặc {}           tập rỗng (không chứa gì)
-  ∈                   thuộc (element of)        3 ∈ {1,2,3} = "3 THUỘC tập {1,2,3}"
-  ∉                   không thuộc               4 ∉ {1,2,3}
-  ⊂                   tập con (subset)          {1,2} ⊂ {1,2,3}
-  ∪                   hợp (union)               {1,2} ∪ {2,3} = {1,2,3}
-  ∩                   giao (intersection)       {1,2} ∩ {2,3} = {2}
-  \                   hiệu (difference)         {1,2,3} \ {2} = {1,3}
-  |A|                 lực lượng (cardinality)   |{1,2,3}| = 3 (có 3 phần tử)
+  {1, 2, 3}          set containing 1, 2, 3
+  ∅ or {}             empty set (containing nothing)
+  ∈                   element of         3 ∈ {1,2,3} = "3 IS IN {1,2,3}"
+  ∉                   not an element of  4 ∉ {1,2,3}
+  ⊂                   subset             {1,2} ⊂ {1,2,3}
+  ∪                   union              {1,2} ∪ {2,3} = {1,2,3}
+  ∩                   intersection       {1,2} ∩ {2,3} = {2}
+  \                   set difference     {1,2,3} \ {2} = {1,3}
+  |A|                 cardinality (size)  |{1,2,3}| = 3 (has 3 elements)
 
-SO SÁNH VỚI CODE (game dev quen):
+COMPARISON WITH CODE (game devs know this):
   Set   ↔ HashSet, Set, List (unique)
   ∈     ↔ contains(), includes(), in
   ∪     ↔ union(), concat() + unique
@@ -392,110 +392,110 @@ SO SÁNH VỚI CODE (game dev quen):
   |A|   ↔ .length, .count, .size
 ```
 
-### §1.10 — Calculus symbols = "Thay đổi" + "Tích lũy"
+### §1.10 — Calculus Symbols = "Change" + "Accumulation"
 
 ```
-GIẢI TÍCH (Calculus) = toán học về SỰ THAY ĐỔI và TÍCH LŨY
-  → Newton + Leibniz phát minh ~1687
-  → Nền tảng của: vật lý, kỹ thuật, kinh tế, machine learning
+CALCULUS = mathematics of CHANGE and ACCUMULATION
+  → Invented by Newton + Leibniz ~1687
+  → Foundation of: physics, engineering, economics, machine learning
 
-ĐẠO HÀM (Derivative) — "tốc độ thay đổi tại 1 điểm":
-  f'(x) hoặc df/dx hoặc dy/dx
+DERIVATIVE — "rate of change at a point":
+  f'(x) or df/dx or dy/dx
 
-  Ý nghĩa: nếu f(x) = vị trí xe tại thời điểm x
-    → f'(x) = VẬN TỐC xe tại thời điểm x (tốc độ thay đổi vị trí)
-    → f''(x) = GIA TỐC xe (tốc độ thay đổi vận tốc)
+  Meaning: if f(x) = vehicle position at time x
+    → f'(x) = vehicle VELOCITY at time x (rate of change of position)
+    → f''(x) = vehicle ACCELERATION (rate of change of velocity)
 
-  Ví dụ:
+  Examples:
     f(x) = x²          → f'(x) = 2x
-    (vị trí = x²)         (vận tốc = 2x: tăng dần)
+    (position = x²)       (velocity = 2x: increases steadily)
 
     f(x) = 3x + 5      → f'(x) = 3
-    (vị trí = 3x+5)       (vận tốc = 3: không đổi, đều)
+    (position = 3x+5)     (velocity = 3: constant, uniform)
 
-  Game dev dùng đạo hàm:
-    position' = velocity (vận tốc = đạo hàm vị trí)
-    velocity' = acceleration (gia tốc = đạo hàm vận tốc)
-    → Physics engine: mỗi frame tính position += velocity × dt
+  Game dev use of derivatives:
+    position' = velocity (velocity = derivative of position)
+    velocity' = acceleration (acceleration = derivative of velocity)
+    → Physics engine: each frame computes position += velocity × dt
 
-TÍCH PHÂN (Integral) — "tổng tích lũy":
-  ∫ f(x) dx = diện tích dưới đồ thị f(x)
+INTEGRAL — "accumulated sum":
+  ∫ f(x) dx = area under the graph of f(x)
 
-  Ý nghĩa: nếu f(x) = vận tốc xe
-    → ∫ f(x) dx = QUÃNG ĐƯỜNG đã đi (tích lũy vận tốc qua thời gian)
+  Meaning: if f(x) = vehicle velocity
+    → ∫ f(x) dx = DISTANCE TRAVELED (accumulated velocity over time)
 
-  Ký hiệu:
-    ∫₀¹⁰ v(t) dt = quãng đường từ t=0 đến t=10
-    (tích phân vận tốc từ 0 đến 10 giây = tổng quãng đường)
+  Notation:
+    ∫₀¹⁰ v(t) dt = distance traveled from t=0 to t=10
+    (integral of velocity from 0 to 10 seconds = total distance)
 
-  Game dev dùng tích phân (thường ẩn):
-    position = ∫ velocity dt     → mỗi frame: pos += vel × deltaTime
-    velocity = ∫ acceleration dt → mỗi frame: vel += acc × deltaTime
-    → Euler integration — chính là tích phân rời rạc!
+  Game dev use of integrals (often hidden):
+    position = ∫ velocity dt     → each frame: pos += vel × deltaTime
+    velocity = ∫ acceleration dt → each frame: vel += acc × deltaTime
+    → Euler integration — this IS discrete integration!
 
-GIỚI HẠN (Limit):
-  lim(x→a) f(x) = "f(x) tiến tới giá trị gì khi x TIẾN GẦN a"
+LIMIT:
+  lim(x→a) f(x) = "what value does f(x) approach as x APPROACHES a"
 
-  Ví dụ:
-    lim(x→0) sin(x)/x = 1    (khi x tiến gần 0, sin(x)/x tiến gần 1)
+  Example:
+    lim(x→0) sin(x)/x = 1    (as x approaches 0, sin(x)/x approaches 1)
 
-  → Giới hạn là NỀN TẢNG cho cả đạo hàm và tích phân
-  → Đạo hàm = giới hạn tỉ lệ thay đổi khi khoảng cách tiến về 0
-  → Tích phân = giới hạn tổng diện tích khi chia nhỏ vô hạn
+  → Limits are the FOUNDATION of both derivatives and integrals
+  → Derivative = limit of the ratio of change as the interval approaches 0
+  → Integral = limit of the sum of areas as divisions become infinitely small
 
-ĐẠO HÀM + TÍCH PHÂN = 2 MẶT CỦA 1 ĐỒNG XU:
-  Đạo hàm: biết TỔNG → tìm TỐC ĐỘ THAY ĐỔI tại mỗi điểm
-  Tích phân: biết TỐC ĐỘ THAY ĐỔI → tìm TỔNG tích lũy
+DERIVATIVE + INTEGRAL = 2 SIDES OF THE SAME COIN:
+  Derivative: know TOTAL → find RATE OF CHANGE at each point
+  Integral:   know RATE OF CHANGE → find accumulated TOTAL
   → Fundamental Theorem of Calculus: ∫ f'(x) dx = f(x) + C
-  → "Tích phân là phép ngược của đạo hàm"
+  → "Integration is the inverse of differentiation"
 ```
 
-### §1.11 — Bảng tổng hợp "từ vựng" toán
+### §1.11 — Summary Table: Math "Vocabulary"
 
-| Loại ký hiệu toán | Tương đương Natural Language | Ví dụ | Số lượng ước tính |
+| Math Symbol Type | Natural Language Equivalent | Example | Estimated Count |
 |---|---|---|---|
-| Numbers (số) | Danh từ cụ thể | 1, 2, π, e, √2 | ∞ (vô hạn loại số) |
-| Variables (biến) | Đại từ | x, y, n, θ | ~30 ký hiệu thường dùng |
-| Operators (phép toán) | Động từ | +, -, ×, ÷, ^, √, Σ, ∫ | ~30 phép toán thường dùng |
-| Relations (quan hệ) | Liên từ so sánh | =, <, >, ≤, ≈, ∈ | ~15 |
-| Grouping (ngoặc) | Dấu câu | (, ), [, ], {, } | 6 |
-| Functions (hàm) | Máy xử lý / Verb phrase | sin, cos, log, f(x) | ~20 cơ bản + vô hạn custom |
-| Constants (hằng số) | Tên riêng | π, e, φ, i, ∞ | ~10 quan trọng |
-| Logic (logic) | Liên từ + Phủ định + Lượng từ | ∧, ∨, ¬, →, ∀, ∃ | ~10 |
-| Set theory (tập hợp) | Nhóm + Thuộc về | ∈, ⊂, ∪, ∩, ∅ | ~10 |
-| Calculus (giải tích) | Thay đổi + Tích lũy | d/dx, ∫, lim | ~5 ký hiệu core |
-| **TỔNG** | | | **~150 ký hiệu thường dùng** |
+| Numbers | Specific nouns | 1, 2, π, e, √2 | ∞ (infinite number types) |
+| Variables | Pronouns | x, y, n, θ | ~30 commonly used |
+| Operators | Verbs | +, -, ×, ÷, ^, √, Σ, ∫ | ~30 commonly used |
+| Relations | Comparison conjunctions | =, <, >, ≤, ≈, ∈ | ~15 |
+| Grouping (brackets) | Punctuation | (, ), [, ], {, } | 6 |
+| Functions | Processing machine / Verb phrase | sin, cos, log, f(x) | ~20 standard + infinite custom |
+| Constants | Proper nouns | π, e, φ, i, ∞ | ~10 important ones |
+| Logic | Connectives + Negation + Quantifiers | ∧, ∨, ¬, →, ∀, ∃ | ~10 |
+| Set Theory | Groups + Membership | ∈, ⊂, ∪, ∩, ∅ | ~10 |
+| Calculus | Change + Accumulation | d/dx, ∫, lim | ~5 core symbols |
+| **TOTAL** | | | **~150 commonly used symbols** |
 
 ```
-So sánh:
-  Vietnamese vocabulary:  ~5,000-10,000 từ thường dùng (người trưởng thành)
-  English vocabulary:     ~5,000-10,000 từ thường dùng
-  Math "vocabulary":      ~150 ký hiệu thường dùng
+Comparison:
+  Vietnamese vocabulary:  ~5,000-10,000 commonly used words (adult)
+  English vocabulary:     ~5,000-10,000 commonly used words
+  Math "vocabulary":      ~150 commonly used symbols
 
-  → Math vocabulary NHỎ HƠN RẤT NHIỀU
-  → Nhưng mỗi ký hiệu CHÍNH XÁC HƠN RẤT NHIỀU
-  → Trade-off: BREADTH (nhỏ) vs PRECISION (cực cao)
+  → Math vocabulary is FAR SMALLER
+  → But each symbol is FAR MORE PRECISE
+  → Trade-off: BREADTH (small) vs PRECISION (extremely high)
 ```
 
 ---
 
-## §2 — "Ngữ pháp" toán: Cú pháp biểu thức
+## §2 — Math "Grammar": Expression Syntax
 
-### §2.1 — Biểu thức (Expression) = "Câu" toán
+### §2.1 — Expression = Math's "Sentence"
 
 ```
-BIỂU THỨC = tổ hợp numbers + variables + operators theo quy tắc
-  → Tương đương "câu" trong natural language
+EXPRESSION = combination of numbers + variables + operators according to rules
+  → Equivalent to a "sentence" in natural language
 
-Ví dụ biểu thức:
-  3 + 2                           = biểu thức đơn giản
-  x² + 2x + 1                    = biểu thức đại số
-  sin(θ) × cos(θ)                = biểu thức lượng giác
-  Σᵢ₌₁ⁿ (2i + 1)                = biểu thức tổng
-  ∫₀^π sin(x) dx                 = biểu thức tích phân
+Expression examples:
+  3 + 2                           = simple expression
+  x² + 2x + 1                    = algebraic expression
+  sin(θ) × cos(θ)                = trigonometric expression
+  Σᵢ₌₁ⁿ (2i + 1)                = summation expression
+  ∫₀^π sin(x) dx                 = integral expression
 
-CÂU TRÚC CÂY (giống natural language):
-  Biểu thức: (3 + 2) × (x - 1)
+TREE STRUCTURE (like natural language):
+  Expression: (3 + 2) × (x - 1)
 
       [×]
      /   \
@@ -503,617 +503,615 @@ CÂU TRÚC CÂY (giống natural language):
    / \   / \
   3   2 x   1
 
-  → Cây biểu thức = giống cây cú pháp trong natural language
-  → Node gốc = phép toán cuối cùng thực hiện
-  → Lá = numbers / variables
+  → Expression tree = like a syntax tree in natural language
+  → Root node = last operation performed
+  → Leaves = numbers / variables
 ```
 
-### §2.2 — Thứ tự phép toán = "Ngữ pháp" toán
+### §2.2 — Operator Precedence = Math's "Grammar"
 
 ```
-BODMAS / PEMDAS = "quy tắc ngữ pháp" toán cơ bản:
+BODMAS / PEMDAS = the basic "grammar rules" of math:
 
-  B/P — Brackets / Parentheses  ( )     ← ưu tiên CAO NHẤT
+  B/P — Brackets / Parentheses  ( )     ← HIGHEST priority
   O/E — Orders / Exponents      ^, √
-  DM  — Division, Multiplication ÷, ×   ← trái → phải
-  AS  — Addition, Subtraction    +, -   ← trái → phải, ưu tiên THẤP NHẤT
+  DM  — Division, Multiplication ÷, ×   ← left to right
+  AS  — Addition, Subtraction    +, -   ← left to right, LOWEST priority
 
-VÍ DỤ "SAI VÌ KHÔNG HIỂU NGỮ PHÁP":
+EXAMPLE: "WRONG DUE TO MISUNDERSTANDING GRAMMAR":
   2 + 3 × 4 = ?
 
-  ❌ Sai: (2 + 3) × 4 = 20     (tính trái→phải, bỏ qua ưu tiên)
-  ✅ Đúng: 2 + (3 × 4) = 14    (× trước +)
+  ❌ Wrong:   (2 + 3) × 4 = 20    (left to right, ignoring precedence)
+  ✅ Correct:  2 + (3 × 4) = 14   (× before +)
 
-  → Giống "Ăn bạn ơi" vs "Ăn, bạn ơi" trong tiếng Việt:
-    Bỏ qua quy tắc = hiểu SAI hoàn toàn
+  → Like "Let's eat, friend" vs "Let's eat friend" — ignoring rules = completely wrong interpretation
 
-SO SÁNH CHI TIẾT:
-  Natural language: word order + grammar rules → xác định nghĩa
-  Math:             operator precedence + brackets → xác định kết quả
+DETAILED COMPARISON:
+  Natural language: word order + grammar rules → determine meaning
+  Math:             operator precedence + brackets → determine result
 
-  Natural language: quy tắc CÓ NGOẠI LỆ (irregular verbs, idioms,...)
-  Math:             quy tắc KHÔNG CÓ NGOẠI LỆ (luôn nhất quán, 0 exceptions)
-  → Đây là lý do toán CHÍNH XÁC: 0 mơ hồ, 0 ngoại lệ
+  Natural language: rules HAVE EXCEPTIONS (irregular verbs, idioms...)
+  Math:             rules have NO EXCEPTIONS (always consistent, 0 exceptions)
+  → This is why math is PRECISE: 0 ambiguity, 0 exceptions
 ```
 
-### §2.3 — Infix, Prefix, Postfix — 3 cách viết cùng 1 ý
+### §2.3 — Infix, Prefix, Postfix — 3 Ways to Write the Same Thing
 
 ```
-Toán có thể viết cùng 1 phép tính theo 3 CÁCH KHÁC NHAU:
+Math can write the same operation in 3 DIFFERENT WAYS:
 
-INFIX (giữa) — cách THƯỜNG DÙNG:
-  3 + 2        (operator Ở GIỮA 2 operands)
+INFIX (middle) — the COMMON WAY:
+  3 + 2        (operator IN THE MIDDLE of 2 operands)
   x × y
   a - b
 
-PREFIX (trước) — còn gọi Polish notation:
-  + 3 2        (operator TRƯỚC operands)
+PREFIX (before) — also called Polish notation:
+  + 3 2        (operator BEFORE operands)
   × x y
   - a b
-  → Ưu điểm: KHÔNG CẦN NGOẶC!
+  → Advantage: NO BRACKETS NEEDED!
   → + × 3 2 5 = + (× 3 2) 5 = + 6 5 = 11
-  → Dùng trong: Lisp programming language
+  → Used in: Lisp programming language
 
-POSTFIX (sau) — còn gọi Reverse Polish:
-  3 2 +        (operator SAU operands)
+POSTFIX (after) — also called Reverse Polish:
+  3 2 +        (operator AFTER operands)
   x y ×
   a b -
-  → Ưu điểm: KHÔNG CẦN NGOẶC! + dễ cho stack machine
+  → Advantage: NO BRACKETS NEEDED! + easy for stack machines
   → 3 2 × 5 + = (3 × 2) + 5 = 6 + 5 = 11
-  → Dùng trong: HP calculator, Forth programming, stack-based VM
+  → Used in: HP calculators, Forth programming, stack-based VMs
 
-VÍ DỤ PHỨC TẠP HƠN: (3 + 2) × (7 - 4)
+MORE COMPLEX EXAMPLE: (3 + 2) × (7 - 4)
 
-  Infix:    (3 + 2) × (7 - 4)        = cần NGOẶC
-  Prefix:   × + 3 2 - 7 4            = KHÔNG cần ngoặc!
-  Postfix:  3 2 + 7 4 - ×            = KHÔNG cần ngoặc!
+  Infix:    (3 + 2) × (7 - 4)        = needs BRACKETS
+  Prefix:   × + 3 2 - 7 4            = NO brackets needed!
+  Postfix:  3 2 + 7 4 - ×            = NO brackets needed!
 
-⭐ GAME DEV BIẾT:
-  Shader language, stack VM: thường dùng postfix ngầm
+⭐ GAME DEVS KNOW:
+  Shader language, stack VM: often uses postfix implicitly
   Expression parser: convert infix → postfix (Shunting Yard algorithm)
-  Abstract Syntax Tree: biểu diễn expression dạng cây (cả 3 notation tương đương)
+  Abstract Syntax Tree: represents expressions as a tree (all 3 notations are equivalent)
 
-SO SÁNH VỚI NATURAL LANGUAGE:
-  Natural language cũng có "word order" khác nhau:
-    SVO (Việt/Anh/Trung): "Tôi ăn cơm"     = Subject Verb Object = kiểu INFIX
-    SOV (Nhật/Hàn):        "Tôi cơm ăn"     = Subject Object Verb = kiểu POSTFIX!
-    VSO (Ả Rập):           "Ăn tôi cơm"     = Verb Subject Object = kiểu PREFIX!
+COMPARISON WITH NATURAL LANGUAGE:
+  Natural language also has different "word orders":
+    SVO (Vietnamese/English/Chinese): "I eat rice"  = Subject Verb Object = INFIX style
+    SOV (Japanese/Korean):            "I rice eat"  = Subject Object Verb = POSTFIX style!
+    VSO (Arabic):                     "Eat I rice"  = Verb Subject Object = PREFIX style!
 
-  → CÙNG CẤU TRÚC, khác thứ tự!
+  → SAME STRUCTURE, different order!
 ```
 
-### §2.4 — Nesting — Lồng nhau (Recursion)
+### §2.4 — Nesting — Recursion
 
 ```
-TOÁN CHO PHÉP LỒNG VÔ HẠN (recursion):
+MATH ALLOWS INFINITE NESTING (recursion):
 
-  f(g(h(x)))           = hàm lồng hàm lồng hàm
-  ((a + b) × (c - d))  = ngoặc lồng ngoặc
-  Σᵢ₌₁ⁿ (Σⱼ₌₁ᵐ aᵢⱼ)  = tổng lồng tổng (matrix!)
+  f(g(h(x)))           = function inside function inside function
+  ((a + b) × (c - d))  = brackets inside brackets
+  Σᵢ₌₁ⁿ (Σⱼ₌₁ᵐ aᵢⱼ)  = sum inside sum (matrix!)
 
-  → GIỐNG natural language: câu lồng câu
-  Natural: "Tôi nghĩ [rằng bạn biết [rằng cô ấy nói [rằng...]]]"
-  Math:    f(g(h(x))) = f chứa g chứa h chứa x
+  → LIKE natural language: clauses inside clauses
+  Natural: "I think [that you know [that she said [that...]]]"
+  Math:    f(g(h(x))) = f contains g contains h contains x
 
 ⭐ RECURSION DEPTH:
-  Natural language: con người struggle sau ~3-4 lớp lồng nhau
-    "Cái nhà MÀ [cô gái MÀ [anh chàng MÀ [tôi quen] yêu] xây] đẹp"
-    → 3 lớp mệnh đề quan hệ = RẤT KHÓ hiểu khi nghe
+  Natural language: humans struggle after ~3-4 levels of nesting
+    "The house [THAT [the girl [THAT [the man THAT I know] loves] built]] is beautiful"
+    → 3 levels of relative clauses = VERY HARD to follow when heard
 
-  Toán: cũng struggle với nesting sâu, NHƯNG:
-    → Dùng BIẾN TRUNG GIAN để flatten:
-    Thay vì: f(g(h(x)))
-    Viết:    a = h(x), b = g(a), c = f(b)
-    → GIỐNG refactoring trong code!
+  Math: also struggles with deep nesting, BUT:
+    → Uses INTERMEDIATE VARIABLES to flatten:
+    Instead of: f(g(h(x)))
+    Write:      a = h(x), b = g(a), c = f(b)
+    → SAME as refactoring in code!
 
   Code: recursion depth = stack depth
-    → Quá sâu → stack overflow
-    → Flatten bằng intermediate variables = CÙNG kỹ thuật như toán
+    → Too deep → stack overflow
+    → Flatten with intermediate variables = SAME technique as in math
 ```
 
-### §2.5 — Phương trình (Equation) = "Câu khẳng định"
+### §2.5 — Equation = "Declarative Sentence"
 
 ```
-PHƯƠNG TRÌNH = biểu thức = biểu thức
-  → Khẳng định: "vế trái BẰNG vế phải"
+EQUATION = expression = expression
+  → Asserts: "left side EQUALS right side"
 
-  x + 3 = 7           → "x cộng 3 BẰNG 7" → giải: x = 4
-  x² - 4 = 0          → "x² trừ 4 BẰNG 0" → giải: x = ±2
-  y = 2x + 1          → "y BẰNG 2x cộng 1" → mô tả đường thẳng
+  x + 3 = 7           → "x plus 3 EQUALS 7" → solve: x = 4
+  x² - 4 = 0          → "x² minus 4 EQUALS 0" → solve: x = ±2
+  y = 2x + 1          → "y EQUALS 2x plus 1" → describes a straight line
 
-"GIẢI PHƯƠNG TRÌNH" = TÌM GIÁ TRỊ biến làm câu khẳng định ĐÚNG:
+"SOLVING AN EQUATION" = FINDING THE VALUE of the variable that makes the assertion TRUE:
   x + 3 = 7
-  x = 7 - 3           (chuyển vế, đổi dấu)
-  x = 4               (câu trả lời)
-  Kiểm tra: 4 + 3 = 7 ✅
+  x = 7 - 3           (move to other side, change sign)
+  x = 4               (the answer)
+  Check: 4 + 3 = 7 ✅
 
-SO SÁNH:
-  Natural:  "Ai ĐÓ ăn cơm" → tìm: AI? → "Tôi ăn cơm"
-  Toán:     "x + 3 = 7"     → tìm: x?  → "x = 4"
-  → CẢ 2 = tìm THÔNG TIN THIẾU để câu HOÀN CHỈNH
+COMPARISON:
+  Natural: "SOMEONE eats rice"  → find: WHO?  → "I eat rice"
+  Math:    "x + 3 = 7"          → find: x?    → "x = 4"
+  → BOTH = finding MISSING INFORMATION to make the sentence COMPLETE
 ```
 
-### §2.6 — Bất phương trình = "Câu so sánh"
+### §2.6 — Inequality = "Comparative Sentence"
 
 ```
-BẤT PHƯƠNG TRÌNH = biểu thức quan hệ biểu thức (dùng <, >, ≤, ≥)
-  → Khẳng định MỐI QUAN HỆ thay vì SỰ BẰNG NHAU
+INEQUALITY = expression related to expression (using <, >, ≤, ≥)
+  → Asserts a RELATIONSHIP rather than EQUALITY
 
-  x + 3 > 7           → "x cộng 3 LỚN HƠN 7"
-  x > 4               → mọi x lớn hơn 4 đều thỏa mãn
-  → Kết quả = TẬP HỢP (nhiều đáp án), không phải 1 số
+  x + 3 > 7           → "x plus 3 IS GREATER THAN 7"
+  x > 4               → any x greater than 4 satisfies it
+  → Result = a SET (many answers), not a single number
 
-  0 ≤ x ≤ 1           → "x nằm giữa 0 và 1" (bao gồm 0 và 1)
-  → Mô tả KHOẢNG (range) — game dev quen: clamp(x, 0, 1)
+  0 ≤ x ≤ 1           → "x lies between 0 and 1" (including 0 and 1)
+  → Describes a RANGE — game devs know: clamp(x, 0, 1)
 ```
 
-### §2.7 — Hệ phương trình = "Đoạn văn"
+### §2.7 — System of Equations = "Paragraph"
 
 ```
-HỆ PHƯƠNG TRÌNH = nhiều phương trình cùng lúc, cùng biến
-  → Tương đương "đoạn văn" (nhiều câu liên kết)
+SYSTEM OF EQUATIONS = multiple equations simultaneously, with shared variables
+  → Equivalent to a "paragraph" (multiple linked sentences)
 
-  ┌ x + y = 10         câu 1: x cộng y bằng 10
-  └ x - y = 4          câu 2: x trừ y bằng 4
+  ┌ x + y = 10         sentence 1: x plus y equals 10
+  └ x - y = 4          sentence 2: x minus y equals 4
 
-  Giải: từ 2 câu → tìm x VÀ y:
-    Cộng 2 vế: 2x = 14 → x = 7
-    Thay vào: 7 + y = 10 → y = 3
+  Solving: from 2 sentences → find x AND y:
+    Add the two equations: 2x = 14 → x = 7
+    Substitute: 7 + y = 10 → y = 3
     → x = 7, y = 3
 
-  → Giống natural language:
-    "Tôi và bạn có tổng cộng 10 quả táo.
-     Tôi nhiều hơn bạn 4 quả.
-     Hỏi: mỗi người có mấy quả?"
-    → CÙNG BÀI TOÁN, chỉ khác encoding (verbal vs math notation)
+  → Like natural language:
+    "You and I have 10 apples total.
+     I have 4 more than you.
+     How many does each person have?"
+    → SAME problem, different encoding (verbal vs math notation)
 ```
 
 ---
 
-## §3 — Hierarchy: Từ → Biểu thức → Phương trình → Chứng minh → Lý thuyết
+## §3 — Hierarchy: Symbol → Expression → Equation → Proof → Theory
 
 ```
-LEVEL 1 — KÝ HIỆU (Symbol) = "Từ"
+LEVEL 1 — SYMBOL = "Word"
   3, x, +, =, sin, π
-  → Atom nhỏ nhất, có nghĩa riêng
+  → Smallest atom, with independent meaning
 
-LEVEL 2 — BIỂU THỨC (Expression) = "Cụm từ"
+LEVEL 2 — EXPRESSION = "Phrase"
   3x + 2, sin(θ), x² - 4
-  → Kết hợp ký hiệu theo quy tắc
+  → Combines symbols according to rules
 
-LEVEL 3 — PHƯƠNG TRÌNH / MỆNH ĐỀ (Equation / Statement) = "Câu"
+LEVEL 3 — EQUATION / STATEMENT = "Sentence"
   x² - 4 = 0
   ∀x ∈ ℝ: x² ≥ 0
-  → Khẳng định điều gì đó (đúng hoặc sai)
+  → Asserts something (true or false)
 
-LEVEL 4 — CHỨNG MINH (Proof) = "Đoạn văn / Luận điểm"
-  "Cho x² = 4.
-   Vì x² = 4, nên x = √4 = ±2.
-   Kiểm tra: 2² = 4 ✅, (-2)² = 4 ✅.
-   Vậy x = 2 hoặc x = -2. QED."
-  → Chuỗi mệnh đề liên kết logic → dẫn đến kết luận
+LEVEL 4 — PROOF = "Paragraph / Argument"
+  "Let x² = 4.
+   Since x² = 4, then x = √4 = ±2.
+   Check: 2² = 4 ✅, (-2)² = 4 ✅.
+   Therefore x = 2 or x = -2. QED."
+  → Chain of logically linked statements → leads to conclusion
 
-LEVEL 5 — ĐỊNH LÝ (Theorem) = "Luận văn"
-  Pythagorean Theorem: a² + b² = c² (cho tam giác vuông)
-  → Mệnh đề ĐÃ ĐƯỢC CHỨNG MINH, dùng lại được mãi mãi
-  → Tương đương "knowledge chunk" đã compile — retrieve instant
+LEVEL 5 — THEOREM = "Paper"
+  Pythagorean Theorem: a² + b² = c² (for right triangles)
+  → Statement ALREADY PROVEN, reusable forever
+  → Equivalent to a compiled "knowledge chunk" — retrieve instantly
 
-LEVEL 6 — LÝ THUYẾT (Theory) = "Cuốn sách / Hệ thống"
-  Euclidean Geometry, Calculus, Linear Algebra, Group Theory,...
-  → Hệ thống NHIỀU định lý liên kết
-  → Tương đương "schema" / "domain knowledge" trong framework
+LEVEL 6 — THEORY = "Book / System"
+  Euclidean Geometry, Calculus, Linear Algebra, Group Theory...
+  → System of MANY linked theorems
+  → Equivalent to "schema" / "domain knowledge" in the framework
 
-MAPPING VÀO FRAMEWORK:
-  Level 1 Ký hiệu      ↔ Chunk (atom)
-  Level 2 Biểu thức     ↔ Chunk compound (small molecule)
-  Level 3 Phương trình   ↔ Chunk chain (statement)
-  Level 4 Chứng minh     ↔ Schema (organized argument with purpose)
-  Level 5 Định lý        ↔ Compiled meta-chunk (retrieve instant)
-  Level 6 Lý thuyết      ↔ Domain knowledge (full schema system)
+FRAMEWORK MAPPING:
+  Level 1 Symbol      ↔ Chunk (atom)
+  Level 2 Expression  ↔ Compound Chunk (small molecule)
+  Level 3 Equation    ↔ Chunk chain (statement)
+  Level 4 Proof       ↔ Schema (organized argument, purposeful)
+  Level 5 Theorem     ↔ Compiled meta-chunk (instant retrieval)
+  Level 6 Theory      ↔ Domain knowledge (full schema system)
 
 ⭐ EXPERT MATHEMATICIAN:
-  → Nhìn "x² + 2x + 1" → INSTANT nhận ra = (x+1)²
-  → Level 2 expression ĐÃ COMPILE thành Level 5 pattern (meta-chunk)
-  → Giống expert chess player nhìn bàn cờ → nhận ra pattern instant
-  → "Tính toán nhanh" = PATTERN MATCH compiled, không phải tính step-by-step
+  → Seeing "x² + 2x + 1" → INSTANTLY recognizes = (x+1)²
+  → Level 2 expression HAS BEEN COMPILED into a Level 5 pattern (meta-chunk)
+  → Like an expert chess player seeing the board → pattern recognized instantly
+  → "Computing quickly" = COMPILED PATTERN MATCH, not step-by-step calculation
 ```
 
 ---
 
-## §4 — Các "domain" toán và ký hiệu riêng
+## §4 — Math "Domains" and Their Notation
 
-Mỗi nhánh toán = 1 "phương ngữ" (dialect) với ký hiệu + quy ước riêng:
+Each branch of math = 1 "dialect" with its own notation + conventions:
 
-### §4.1 — Số học (Arithmetic) — nền tảng nhất
-
-```
-Ký hiệu: +, -, ×, ÷, =, <, >, ()
-Đối tượng: Số cụ thể (1, 2, 3, 0.5, -7,...)
-Ví dụ: 3 + 2 = 5, 12 ÷ 4 = 3, 7 × 8 = 56
-
-Tương đương: "ngôn ngữ hàng ngày" — ai cũng dùng
-Học từ: ~5-6 tuổi
-Ứng dụng: tính tiền, đo lường, đếm
-```
-
-### §4.2 — Đại số (Algebra) — thêm BIẾN
+### §4.1 — Arithmetic — The Most Fundamental
 
 ```
-Ký hiệu MỚI: x, y, z (biến), aₙ (dãy), Σ (tổng), Π (tích)
-Đối tượng: Biểu thức chứa biến, phương trình, hệ phương trình
-Ví dụ:
-  ax² + bx + c = 0 (phương trình bậc 2)
-  → Nghiệm: x = (-b ± √(b²-4ac)) / 2a (công thức nghiệm — 1 compiled meta-chunk!)
+Symbols: +, -, ×, ÷, =, <, >, ()
+Objects: Specific numbers (1, 2, 3, 0.5, -7...)
+Examples: 3 + 2 = 5, 12 ÷ 4 = 3, 7 × 8 = 56
 
-Tương đương: "ngôn ngữ trừu tượng hóa" — nói về PATTERN thay vì số cụ thể
-Học từ: ~11-12 tuổi
-Ứng dụng: mọi nơi — physics, engineering, economics, game programming
-
-⭐ Bước nhảy từ Arithmetic → Algebra:
-  Arithmetic: "3 + 2 = 5" (CỤ THỂ)
-  Algebra:    "a + b = b + a" (TỔNG QUÁT — đúng cho MỌI số)
-  → Đây là lần đầu toán nói về PATTERN thay vì instance
-  → Giống: "con chó cụ thể" → "MỌI con chó" (∀ dog)
+Equivalent: "everyday language" — everyone uses it
+Learned from: ~age 5-6
+Applications: calculating prices, measuring, counting
 ```
 
-### §4.3 — Hình học (Geometry) — thêm HÌNH + KHÔNG GIAN
+### §4.2 — Algebra — Adding VARIABLES
 
 ```
-Ký hiệu MỚI: ∠ (góc), ⊥ (vuông góc), ∥ (song song), △ (tam giác),
-             π (chu vi/bán kính), r (bán kính), A (diện tích), V (thể tích)
+NEW SYMBOLS: x, y, z (variables), aₙ (sequences), Σ (sum), Π (product)
+Objects: Expressions with variables, equations, systems of equations
+Example:
+  ax² + bx + c = 0 (quadratic equation)
+  → Solution: x = (-b ± √(b²-4ac)) / 2a (quadratic formula — 1 compiled meta-chunk!)
 
-Công thức quan trọng:
-  Chu vi tròn:    C = 2πr
-  Diện tích tròn: A = πr²
-  Pythagorean:    a² + b² = c² (tam giác vuông)
-  Diện tích tam giác: A = ½ × base × height
+Equivalent: "language of abstraction" — talks about PATTERNS instead of specific numbers
+Learned from: ~age 11-12
+Applications: everywhere — physics, engineering, economics, game programming
 
-Tương đương: "ngôn ngữ không gian" — mô tả hình dạng + vị trí
-Học từ: ~9-10 tuổi (cơ bản), ~14-15 (chứng minh)
-
-⭐ ĐẶC BIỆT: Geometry = VISUAL + SYMBOLIC kết hợp
-  → Phải nhìn HÌNH + đọc KÝ HIỆU đồng thời
-  → 2 encoding cùng lúc: L2 visual + L2 math notation
-  → Đây là lý do geometry "khác" algebra: cần spatial reasoning
-  → Game dev quen: collision detection, ray casting, mesh geometry
+⭐ The Jump from Arithmetic → Algebra:
+  Arithmetic: "3 + 2 = 5"           (SPECIFIC)
+  Algebra:    "a + b = b + a"        (GENERAL — true for ALL numbers)
+  → This is the first time math talks about PATTERN rather than instance
+  → Like: "a specific dog" → "ALL dogs" (∀ dog)
 ```
 
-### §4.4 — Giải tích (Calculus) — thêm VÔ CỰC + LIÊN TỤC
+### §4.3 — Geometry — Adding SHAPE + SPACE
 
 ```
-Ký hiệu MỚI: lim, dx, dy, d/dx, ∫, ∂ (đạo hàm riêng), ∞
+NEW SYMBOLS: ∠ (angle), ⊥ (perpendicular), ∥ (parallel), △ (triangle),
+             π (circumference/radius), r (radius), A (area), V (volume)
 
-Công thức quan trọng:
-  Đạo hàm: d/dx [xⁿ] = n·xⁿ⁻¹
-  Tích phân: ∫ xⁿ dx = xⁿ⁺¹/(n+1) + C
-  Chain rule: d/dx [f(g(x))] = f'(g(x)) · g'(x)
+Key formulas:
+  Circle circumference: C = 2πr
+  Circle area:          A = πr²
+  Pythagorean:          a² + b² = c² (right triangle)
+  Triangle area:        A = ½ × base × height
 
-Tương đương: "ngôn ngữ sự thay đổi" — mô tả biến đổi liên tục
-Học từ: ~17-18 tuổi (đại học)
+Equivalent: "language of space" — describes shape + position
+Learned from: ~age 9-10 (basic), ~14-15 (proofs)
 
-⭐ Calculus = BƯỚC NHẢY LỚN NHẤT trong toán:
-  Trước calculus: toán nói về SỐ CỤ THỂ + PATTERN CỐ ĐỊNH
-  Calculus: toán nói về SỰ THAY ĐỔI + TÍCH LŨY + VÔ CỰC
-  → Mở ra: physics (Newton), engineering, economics, ML
-  → Game dev dùng: physics integration, smooth animation, bezier curves
+⭐ SPECIAL: Geometry = VISUAL + SYMBOLIC combined
+  → Must see SHAPES + read NOTATION simultaneously
+  → 2 encodings at once: L2 visual + L2 math notation
+  → This is why geometry "feels different" from algebra: needs spatial reasoning
+  → Game dev: collision detection, ray casting, mesh geometry
 ```
 
-### §4.5 — Xác suất & Thống kê — thêm BẤT ĐỊNH
+### §4.4 — Calculus — Adding INFINITY + CONTINUITY
 
 ```
-Ký hiệu MỚI: P(A) (xác suất), E[X] (kỳ vọng), σ (độ lệch chuẩn),
-             μ (trung bình), Var(X) (phương sai), n! (giai thừa),
-             (n choose k) = C(n,k) (tổ hợp)
+NEW SYMBOLS: lim, dx, dy, d/dx, ∫, ∂ (partial derivative), ∞
 
-Công thức quan trọng:
-  P(A) = số kết quả thuận lợi / tổng số kết quả
-  P(A∩B) = P(A) × P(B)    (nếu A, B độc lập)
-  E[X] = Σ xᵢ × P(xᵢ)    (kỳ vọng = trung bình có trọng số)
+Key formulas:
+  Derivative:  d/dx [xⁿ] = n·xⁿ⁻¹
+  Integral:    ∫ xⁿ dx = xⁿ⁺¹/(n+1) + C
+  Chain rule:  d/dx [f(g(x))] = f'(g(x)) · g'(x)
 
-Tương đương: "ngôn ngữ bất định" — nói về CÁI CHƯA CHẮC CHẮN
-Học từ: ~15-16 tuổi (cơ bản), ~18+ (nâng cao)
+Equivalent: "language of change" — describes continuous variation
+Learned from: ~age 17-18 (university)
 
-⭐ Game dev dùng: random loot, damage variance, matchmaking, gacha probability
-  Ví dụ: P(legendary drop) = 0.01 = 1%
-  → Sau 100 lần mở: kỳ vọng E = 100 × 0.01 = 1 legendary
-  → Nhưng KHÔNG chắc — có thể 0, có thể 3 (variance!)
+⭐ Calculus = THE BIGGEST LEAP in math:
+  Before calculus: math talked about SPECIFIC NUMBERS + FIXED PATTERNS
+  Calculus:        math talks about CHANGE + ACCUMULATION + INFINITY
+  → Opened up: physics (Newton), engineering, economics, ML
+  → Game dev: physics integration, smooth animation, bezier curves
 ```
 
-### §4.6 — Logic — thêm CHỨNG MINH + SUY LUẬN
+### §4.5 — Probability & Statistics — Adding UNCERTAINTY
 
 ```
-Ký hiệu MỚI: ∧ (và), ∨ (hoặc), ¬ (không), → (suy ra), ↔ (tương đương),
-             ∀ (cho mọi), ∃ (tồn tại), ⊢ (chứng minh được), ⊨ (thỏa mãn)
+NEW SYMBOLS: P(A) (probability), E[X] (expected value), σ (standard deviation),
+             μ (mean), Var(X) (variance), n! (factorial), C(n,k) (combinations)
 
-Tương đương: "ngôn ngữ suy luận chặt chẽ" — nói về ĐÚNG/SAI
-Học từ: ~18+ (discrete math, philosophy)
+Key formulas:
+  P(A) = number of favorable outcomes / total outcomes
+  P(A∩B) = P(A) × P(B)    (if A, B are independent)
+  E[X] = Σ xᵢ × P(xᵢ)    (expected value = weighted average)
 
-⭐ Logic = NỀN TẢNG cho:
-  → Chứng minh toán: mọi chứng minh = chuỗi logic
+Equivalent: "language of uncertainty" — talks about the NOT-YET-CERTAIN
+Learned from: ~age 15-16 (basic), ~18+ (advanced)
+
+⭐ Game dev use: random loot, damage variance, matchmaking, gacha probability
+  Example: P(legendary drop) = 0.01 = 1%
+  → After 100 opens: expected value E = 100 × 0.01 = 1 legendary
+  → But NOT guaranteed — could be 0, could be 3 (variance!)
+```
+
+### §4.6 — Logic — Adding PROOF + REASONING
+
+```
+NEW SYMBOLS: ∧ (and), ∨ (or), ¬ (not), → (implies), ↔ (iff),
+             ∀ (for all), ∃ (exists), ⊢ (provable), ⊨ (satisfies)
+
+Equivalent: "language of rigorous reasoning" — talks about TRUE/FALSE
+Learned from: ~age 18+ (discrete math, philosophy)
+
+⭐ Logic = FOUNDATION for:
+  → Mathematical proof: every proof = a chain of logic
   → Programming: if/else, boolean, conditional = logic
   → AI: logical reasoning, constraint satisfaction
   → Database: SQL WHERE clause = logic predicate
 ```
 
-### §4.7 — Đại số tuyến tính (Linear Algebra) — thêm VECTOR + MATRIX
+### §4.7 — Linear Algebra — Adding VECTORS + MATRICES
 
 ```
-Ký hiệu MỚI: v⃗ (vector), A (matrix), det(A) (determinant),
+NEW SYMBOLS: v⃗ (vector), A (matrix), det(A) (determinant),
              A⁻¹ (inverse), Aᵀ (transpose), λ (eigenvalue)
 
-Ví dụ matrix:
+Matrix example:
   A = [1  2]    vector: v⃗ = [3]
       [3  4]              [5]
 
   A × v⃗ = [1×3 + 2×5] = [13]
            [3×3 + 4×5]   [29]
 
-Tương đương: "ngôn ngữ biến đổi không gian" — xoay, co, dãn, chiếu
-Học từ: ~18+ (đại học)
+Equivalent: "language of spatial transformation" — rotate, scale, stretch, project
+Learned from: ~age 18+ (university)
 
-⭐ GAME DEV DÙNG RẤT NHIỀU:
+⭐ GAME DEVS USE THIS A LOT:
   → Transform matrix: position, rotation, scale
   → Camera matrix: world → view → projection
-  → Shader: mọi vertex transform = matrix multiplication
+  → Shader: every vertex transform = matrix multiplication
   → Physics: inertia tensor = matrix
   → ML/AI: neural network = layers of matrix multiplication
 
-  Ví dụ game dev:
-  Xoay điểm (x,y) 1 góc θ:
+  Game dev example:
+  Rotating point (x,y) by angle θ:
   [x'] = [cos(θ)  -sin(θ)] [x]
   [y']   [sin(θ)   cos(θ)] [y]
 
-  → 1 matrix multiplication = 1 phép xoay
-  → Ghép nhiều matrix = ghép nhiều phép biến đổi
-  → Đây là lý do GPU sinh ra: hardware cho matrix multiplication nhanh
+  → 1 matrix multiplication = 1 rotation
+  → Stacking matrices = stacking multiple transformations
+  → This is why GPUs exist: hardware built for fast matrix multiplication
 ```
 
 ---
 
-## §5 — So sánh: Toán vs Natural Language
+## §5 — Comparison: Math vs Natural Language
 
-| Đặc điểm | Natural Language (Việt/Anh/Trung) | Mathematical Language |
+| Feature | Natural Language (Vietnamese/English/Chinese) | Mathematical Language |
 |---|---|---|
-| **"Từ vựng"** | ~5,000-10,000 từ thường dùng | ~150 ký hiệu thường dùng |
-| **Mơ hồ** | ⭐ CÓ (đa nghĩa, context-dependent) | ❌ KHÔNG (1 ký hiệu = 1 nghĩa chính xác) |
-| **Ngoại lệ** | ⭐ NHIỀU (irregular verbs, idioms,...) | ❌ KHÔNG CÓ (0 ngoại lệ) |
-| **Recursion** | 3-4 lớp max (con người struggle) | Vô hạn (lý thuyết), flatten bằng biến trung gian |
-| **Precision** | Thấp-Trung (mô tả gần đúng) | ⭐ CỰC CAO (chính xác tuyệt đối) |
-| **Breadth** | ⭐ CỰC RỘNG (mô tả mọi thứ) | HẸP (chỉ quantity + relation + structure) |
-| **Shareability** | Cần cùng ngôn ngữ | ⭐ GLOBAL (ký hiệu toán giống nhau toàn cầu) |
-| **Learning curve** | ~3-5 năm thành thạo L1 | ~12-15 năm (arithmetic → calculus) |
-| **Cultural variation** | ⭐ RẤT LỚN (Việt ≠ Anh ≠ Trung) | GẦN NHƯ KHÔNG (~quy ước nhỏ khác) |
-| **Emotional content** | ⭐ PHONG PHÚ (yêu, ghét, buồn,...) | ❌ KHÔNG CÓ |
-| **Social content** | ⭐ PHONG PHÚ (kính, thân, xa,...) | ❌ KHÔNG CÓ |
-| **Chủ đề** | Mọi thứ | Quantity, structure, space, change |
-| **Evolution speed** | Nhanh (từ mới mỗi năm) | Chậm (ký hiệu mới mỗi thập kỷ/thế kỷ) |
-| **"Native speaker"** | Mọi trẻ em | KHÔNG CÓ — phải học formal |
+| **"Vocabulary"** | ~5,000-10,000 common words | ~150 common symbols |
+| **Ambiguity** | ⭐ YES (polysemous, context-dependent) | ❌ NO (1 symbol = 1 precise meaning) |
+| **Exceptions** | ⭐ MANY (irregular verbs, idioms...) | ❌ NONE (0 exceptions) |
+| **Recursion** | 3-4 levels max (humans struggle) | Infinite (theoretical), flatten with intermediate variables |
+| **Precision** | Low-Medium (approximate description) | ⭐ EXTREMELY HIGH (absolute precision) |
+| **Breadth** | ⭐ EXTREMELY BROAD (can describe anything) | NARROW (only quantity + relation + structure) |
+| **Shareability** | Requires shared language | ⭐ GLOBAL (math notation identical worldwide) |
+| **Learning curve** | ~3-5 years to master L1 | ~12-15 years (arithmetic → calculus) |
+| **Cultural variation** | ⭐ VERY LARGE (Viet ≠ Eng ≠ Chinese) | ALMOST NONE (~minor notation differences) |
+| **Emotional content** | ⭐ RICH (love, hate, sadness...) | ❌ NONE |
+| **Social content** | ⭐ RICH (formal, intimate, distant...) | ❌ NONE |
+| **Topics** | Everything | Quantity, structure, space, change |
+| **Evolution speed** | Fast (new words every year) | Slow (new symbols every decade/century) |
+| **"Native speaker"** | All children | NONE — must be learned formally |
 
 ```
-TÓM LẠI:
+SUMMARY:
 
-Natural language:  RỘNG + LINH HOẠT + MƠ HỒ + CÓ CẢM XÚC
-                   → Tối ưu cho GIAO TIẾP XÃ HỘI + MỌI CHỦ ĐỀ
+Natural language:  BROAD + FLEXIBLE + AMBIGUOUS + EMOTIONAL
+                   → Optimal for SOCIAL COMMUNICATION + ALL TOPICS
 
-Math language:     HẸP + CỨNG NHẮC + CHÍNH XÁC + KHÔNG CẢM XÚC
-                   → Tối ưu cho QUANTITY + STRUCTURE + CHỨNG MINH
+Math language:     NARROW + RIGID + PRECISE + UNEMOTIONAL
+                   → Optimal for QUANTITY + STRUCTURE + PROOF
 
-→ Không cái nào "tốt hơn" — mỗi cái tối ưu cho MỤC ĐÍCH KHÁC
-→ Bác sĩ dùng CẢ HAI: natural language (nói với bệnh nhân) + math (tính liều thuốc)
-→ Game dev dùng CẢ HAI: natural language (design document) + math (physics, shaders)
+→ Neither is "better" — each is optimal for DIFFERENT PURPOSES
+→ A doctor uses BOTH: natural language (speaking to patients) + math (calculating dosages)
+→ A game dev uses BOTH: natural language (design documents) + math (physics, shaders)
 ```
 
 ---
 
-## §6 — Toán trong thực tế: Cách expert THỰC SỰ dùng toán
+## §6 — Math in Practice: How Experts ACTUALLY Use Math
 
-### §6.1 — Beginner vs Expert giải cùng 1 bài
+### §6.1 — Beginner vs Expert Solving the Same Problem
 
 ```
-BÀI TOÁN: Giải phương trình x² - 5x + 6 = 0
+PROBLEM: Solve the equation x² - 5x + 6 = 0
 
 BEGINNER (step by step, heavy L3 processing):
-  Bước 1: Nhớ công thức nghiệm: x = (-b ± √(b²-4ac)) / 2a     ← retrieve chunk
-  Bước 2: Xác định a=1, b=-5, c=6                                ← pattern match
-  Bước 3: Tính b² = (-5)² = 25                                   ← calculate
-  Bước 4: Tính 4ac = 4×1×6 = 24                                  ← calculate
-  Bước 5: Tính Δ = 25 - 24 = 1                                   ← calculate
-  Bước 6: Tính √Δ = √1 = 1                                       ← calculate
-  Bước 7: x₁ = (5+1)/2 = 3, x₂ = (5-1)/2 = 2                   ← calculate
-  Bước 8: Kiểm tra: 9-15+6=0 ✅, 4-10+6=0 ✅                    ← verify
+  Step 1: Recall the quadratic formula: x = (-b ± √(b²-4ac)) / 2a   ← retrieve chunk
+  Step 2: Identify a=1, b=-5, c=6                                    ← pattern match
+  Step 3: Calculate b² = (-5)² = 25                                  ← calculate
+  Step 4: Calculate 4ac = 4×1×6 = 24                                 ← calculate
+  Step 5: Calculate Δ = 25 - 24 = 1                                  ← calculate
+  Step 6: Calculate √Δ = √1 = 1                                      ← calculate
+  Step 7: x₁ = (5+1)/2 = 3, x₂ = (5-1)/2 = 2                      ← calculate
+  Step 8: Check: 9-15+6=0 ✅, 4-10+6=0 ✅                           ← verify
 
-  → 8 bước, mỗi bước = 1 chunk retrieve + apply
-  → Heavy L3 processing, PFC work hard
-  → Giống beginner pha cà phê: từng bước rõ ràng
+  → 8 steps, each = 1 chunk retrieve + apply
+  → Heavy L3 processing, PFC works hard
+  → Like a beginner making coffee: every step explicit
 
 EXPERT (pattern match, light L3):
-  Nhìn: x² - 5x + 6 = 0
-  → INSTANT: "tích 6, tổng 5 → (x-2)(x-3) = 0 → x=2 hoặc x=3"
-  → 1 bước duy nhất: pattern match → retrieve compiled solution
-  → L1 → L4 (skip L2+L3 gần như hoàn toàn)
-  → Giống expert pha cà phê: tay tự làm
+  Sees: x² - 5x + 6 = 0
+  → INSTANT: "product 6, sum 5 → (x-2)(x-3) = 0 → x=2 or x=3"
+  → 1 step only: pattern match → retrieve compiled solution
+  → L1 → L4 (skip L2+L3 almost entirely)
+  → Like an expert making coffee: hands work automatically
 
-  Expert compiled meta-chunk: "ax²+bx+c với Δ nhỏ → thử factoring trước"
-  → Đây là "kinh nghiệm" = compiled pattern từ hàng trăm bài tương tự
+  Expert compiled meta-chunk: "ax²+bx+c with small Δ → try factoring first"
+  → This is "experience" = compiled pattern from hundreds of similar problems
 ```
 
-### §6.2 — "Tính toán" vs "Nhớ pattern" — cả 2 cùng lúc
+### §6.2 — "Computing" vs "Recognizing Patterns" — Both at Once
 
 ```
-NHÀ KHOA HỌC THỰC SỰ LÀM GÌ khi "tính toán":
+WHAT SCIENTISTS ACTUALLY DO when "calculating":
 
-PHASE 1 — NHẬN DẠNG (Pattern Match):
-  Nhìn bài toán → nhận ra LOẠI bài → retrieve relevant schema
-  "À, đây là bài optimization" / "Đây là differential equation"
+PHASE 1 — RECOGNITION (Pattern Match):
+  Look at problem → recognize PROBLEM TYPE → retrieve relevant schema
+  "Ah, this is an optimization problem" / "This is a differential equation"
   → L1 Pattern Match: compiled chunks fire
 
-PHASE 2 — LÊN PLAN (Imagine-Final):
-  "Cần: tìm minimum → đạo hàm = 0 → giải → kiểm tra"
-  → L4 Plan: Imagine-Final hình thành (biết đáp án trông thế nào)
-  → Imagine-Final = "tìm được giá trị x mà f(x) nhỏ nhất"
+PHASE 2 — PLANNING (Imagine-Final):
+  "Need: find minimum → derivative = 0 → solve → check"
+  → L4 Plan: Imagine-Final forms (knows what the answer should look like)
+  → Imagine-Final = "find the value of x where f(x) is smallest"
 
 PHASE 3 — CHAIN STEPS (Build Arc):
-  Bước 1: tính f'(x)      → retrieve rule đạo hàm + apply
-  Bước 2: giải f'(x) = 0  → retrieve algebra technique + apply
-  Bước 3: kiểm tra f''(x) → retrieve rule đạo hàm bậc 2 + check sign
-  → L3 Sequential Chain: mỗi bước = retrieve chunk + apply
+  Step 1: compute f'(x)      → retrieve derivative rule + apply
+  Step 2: solve f'(x) = 0   → retrieve algebra technique + apply
+  Step 3: check f''(x)       → retrieve second derivative rule + check sign
+  → L3 Sequential Chain: each step = retrieve chunk + apply
 
-PHASE 4 — KIỂM TRA (Evaluate):
-  Thay ngược lại → body feedback "đúng rồi" / "sai rồi, quay lại"
+PHASE 4 — CHECKING (Evaluate):
+  Substitute back → body feedback "correct" / "wrong, go back"
   → L0 → L1 feedback loop
 
-→ "Tính toán" = MIX của:
-  • PATTERN MATCH (nhận dạng loại bài — compiled, instant)
-  • RETRIEVAL (nhớ công thức, quy tắc — compiled chunks)
-  • CHAIN (nối các bước logic — L3 processing)
-  • CALCULATE (tính số cụ thể — L3 nhưng thường compiled cho số nhỏ)
+→ "Computing" = MIX of:
+  • PATTERN MATCH (recognize problem type — compiled, instant)
+  • RETRIEVAL (recall formulas, rules — compiled chunks)
+  • CHAIN (connect logical steps — L3 processing)
+  • CALCULATE (compute specific numbers — L3 but often compiled for small numbers)
 
-→ Nhà khoa học "giỏi toán" = người có:
-  • NHIỀU compiled patterns (nhận dạng nhanh)
-  • NHIỀU compiled rules (retrieve instant)
-  • THÀNH THẠO chain (nối bước mượt)
-  → KHÔNG phải "tính nhanh hơn" — mà "NHẬN RA nhanh hơn" + "NỐI mượt hơn"
+→ A "good at math" scientist = someone who has:
+  • MANY compiled patterns (fast recognition)
+  • MANY compiled rules (instant retrieval)
+  • SMOOTH chain execution (steps connect fluidly)
+  → NOT "calculates faster" — but "RECOGNIZES faster" + "CONNECTS more smoothly"
 ```
 
-### §6.3 — Bản nháp vs Trình bày: 2 mode khác nhau
+### §6.3 — Draft vs Presentation: 2 Different Modes
 
 ```
-BẢN NHÁP (scratch work) — cách nhà khoa học THỰC SỰ giải:
-  → Viết lung tung, thử hướng này hướng kia
-  → Gạch bỏ, viết lại, vẽ hình bên cạnh
-  → Dùng "..." thay bước hiển nhiên
-  → MIX: math notation + natural language + hình vẽ + mũi tên
-  → = L3 PROCESSING đang diễn ra, messy, exploratory
+SCRATCH WORK (draft) — how scientists ACTUALLY solve:
+  → Write chaotically, try this direction then that
+  → Cross out, rewrite, sketch diagrams alongside
+  → Use "..." to skip obvious steps
+  → MIX: math notation + natural language + sketches + arrows
+  → = L3 PROCESSING in progress, messy, exploratory
 
-TRÌNH BÀY (formal presentation) — sau khi đã giải xong:
-  → Viết lại gọn gàng, từng bước rõ ràng
-  → "Cho... Ta có... Suy ra... Vậy..."
-  → KHÔNG có hướng sai, KHÔNG có gạch bỏ
+FORMAL PRESENTATION — after solving is done:
+  → Rewrite neatly, each step clear
+  → "Let... We have... Therefore... Thus..."
+  → NO wrong paths, NO crossings-out
   → = COMPILED RESULT, clean, communicative
 
-→ Giống: bản nháp email vs email gửi đi
-→ Giống: prototype code vs production code
+→ Like: email draft vs email sent
+→ Like: prototype code vs production code
 → Process (messy) ≠ Product (clean)
 
-⭐ INSIGHT: Khi đọc sách toán, bạn thấy PRODUCT (trình bày đẹp)
-  → Tưởng nhà toán học nghĩ cũng "thẳng tắp" như vậy
-  → KHÔNG! Họ cũng mò mẫm, thử sai, messy — chỉ TRÌNH BÀY đẹp sau
-  → Bản nháp Euler, Gauss, Ramanujan: đầy gạch xóa, thử sai, vẽ hình lung tung
+⭐ INSIGHT: When reading a math textbook, you see the PRODUCT (polished presentation)
+  → You assume mathematicians think in the same "straight line"
+  → NOT SO! They also grope around, make mistakes, mess around — only the PRESENTATION is polished
+  → The drafts of Euler, Gauss, Ramanujan: full of crossings-out, trial-and-error, sketches everywhere
 ```
 
 ---
 
-## §7 — Lịch sử phát triển ký hiệu toán
+## §7 — History of Mathematical Notation
 
 ```
-TIMELINE — ký hiệu toán KHÔNG luôn tồn tại. Phải PHÁT MINH qua hàng nghìn năm:
+TIMELINE — math notation did NOT always exist. It had to be INVENTED over thousands of years:
 
-~3000 TCN  Babylon: Hệ số đếm cơ số 60 (vì sao giờ có 60 phút, vòng tròn 360°)
-~1500 TCN  Ai Cập: Phân số, hình học cơ bản (xây kim tự tháp cần đo đạc)
-~500 TCN   Hy Lạp: Hình học chứng minh (Euclid), số vô tỉ (Pythagoras shock)
-~600 CN    Ấn Độ: SỐ 0 phát minh (Brahmagupta) → thay đổi MỌI THỨ
-                   Số âm, hệ thập phân
-~800 CN    Ả Rập: Al-Khwarizmi → "Algebra" (al-jabr = "phục hồi")
-                   → Từ "algorithm" cũng từ tên Al-Khwarizmi!
-~1200      Fibonacci: Đưa số Hindu-Arabic (0-9) vào châu Âu (thay Roman numerals)
-~1489      + và - : Lần đầu xuất hiện ký hiệu (Johannes Widmann, Đức)
-~1557      = : Robert Recorde phát minh dấu bằng (Anh)
-                "Không gì bằng nhau hơn 2 đường thẳng song song" — lý do ông chọn ==
-~1591      Viète: Dùng CHỮ CÁI cho biến (a, b, c cho known; x, y, z cho unknown)
-                → TRƯỚC ĐÓ: mọi phương trình viết bằng LỜI (natural language!)
-                   "Bình phương của ẩn số cộng với năm lần ẩn số bằng sáu"
-                → SAU ĐÓ: x² + 5x = 6
-                → ⭐ BƯỚC NHẢY LỚN: từ verbal → symbolic
-~1614      Logarithm: John Napier phát minh (Scotland)
-~1637      Descartes: Hệ tọa độ x,y (Cartesian coordinates) → HÌnh học + Đại số HỢP NHẤT
-~1655      ∞ : John Wallis phát minh ký hiệu vô cùng
-~1687      Newton + Leibniz: Calculus (đạo hàm, tích phân)
-                Leibniz: ký hiệu dx, dy, ∫ (integral = chữ S dài, "Summa")
-                Newton: ký hiệu ẋ (dot notation — vẫn dùng trong vật lý)
-~1734      Euler: e, i, f(x), Σ, π (nhiều ký hiệu quen thuộc nhất = Euler đặt!)
-~1821      Cauchy: ε-δ definition (giới hạn chặt chẽ)
-~1847      Boole: Đại số Boolean (AND, OR, NOT) → NỀN TẢNG cho computer!
-~1874      Cantor: Set theory {}, ∈, ⊂ → NỀN TẢNG cho modern math
-~1889      Peano: ∀, ∃ (lượng từ logic)
-~1931      Gödel: Incompleteness theorems → "có mệnh đề ĐÚNG nhưng KHÔNG chứng minh được"
-~1936      Turing: Turing machine → NỀN TẢNG cho computer science
+~3000 BCE  Babylon: Base-60 number system (why there are 60 minutes, 360° in a circle)
+~1500 BCE  Egypt: Fractions, basic geometry (needed to build pyramids)
+~500 BCE   Greece: Geometric proof (Euclid), irrational numbers (Pythagoras shock)
+~600 CE    India: ZERO invented (Brahmagupta) → changed EVERYTHING
+                   Negative numbers, decimal system
+~800 CE    Arabic: Al-Khwarizmi → "Algebra" (al-jabr = "restoration")
+                   → The word "algorithm" also comes from Al-Khwarizmi's name!
+~1200      Fibonacci: Introduced Hindu-Arabic numerals (0-9) to Europe (replacing Roman numerals)
+~1489      + and - : First appeared as symbols (Johannes Widmann, Germany)
+~1557      = : Robert Recorde invented the equals sign (England)
+                "No two things are more equal than two parallel lines" — his reason for the symbol
+~1591      Viète: Used LETTERS for variables (a, b, c for known; x, y, z for unknown)
+                → BEFORE THIS: all equations written in WORDS (natural language!)
+                   "The square of the unknown plus five times the unknown equals six"
+                → AFTER: x² + 5x = 6
+                → ⭐ THE BIG LEAP: from verbal → symbolic
+~1614      Logarithm: John Napier invented (Scotland)
+~1637      Descartes: x,y coordinate system (Cartesian coordinates) → Geometry + Algebra UNIFIED
+~1655      ∞ : John Wallis invented the infinity symbol
+~1687      Newton + Leibniz: Calculus (derivatives, integrals)
+                Leibniz: notation dx, dy, ∫ (integral = elongated S for "Summa")
+                Newton: ẋ notation (dot notation — still used in physics)
+~1734      Euler: e, i, f(x), Σ, π (most familiar symbols = introduced by Euler!)
+~1821      Cauchy: ε-δ definition (rigorous limits)
+~1847      Boole: Boolean algebra (AND, OR, NOT) → FOUNDATION of computers!
+~1874      Cantor: Set theory {}, ∈, ⊂ → FOUNDATION of modern math
+~1889      Peano: ∀, ∃ (logic quantifiers)
+~1931      Gödel: Incompleteness theorems → "there are TRUE statements that CANNOT be proven"
+~1936      Turing: Turing machine → FOUNDATION of computer science
 
-⭐ INSIGHT TỪ LỊCH SỬ:
-  1. Ký hiệu "+" chỉ mới ~500 năm. Trước đó viết "cộng" bằng LỜI.
-  2. Dấu "=" chỉ mới ~470 năm. Trước đó viết "bằng" bằng LỜI.
-  3. Dùng x, y cho biến chỉ mới ~430 năm. Trước đó viết "ẩn số" bằng LỜI.
-  4. TOÀN BỘ toán trước ~1500 được viết bằng NATURAL LANGUAGE!
-     → Math notation = PHÁT MINH để nén + chính xác hóa natural language
-     → Giống: programming language = phát minh để nén + chính xác hóa natural language cho máy
-  5. Mỗi ký hiệu mới = 1 chunk mới → cho phép COMPRESS + CHAIN phức tạp hơn
-     → "+" compress "phép cộng" thành 1 ký tự
-     → "∫" compress "tổng vô hạn các diện tích nhỏ" thành 1 ký tự
-     → MỖI KÝ HIỆU MỚI = 1 LEVEL ABSTRACTION MỚI
+⭐ INSIGHTS FROM HISTORY:
+  1. The "+" symbol is only ~500 years old. Before, "plus" was written in WORDS.
+  2. The "=" sign is only ~470 years old. Before, "equals" was written in WORDS.
+  3. Using x, y for variables is only ~430 years old. Before, "unknown" was written in WORDS.
+  4. ALL math before ~1500 was written in NATURAL LANGUAGE!
+     → Math notation = AN INVENTION to compress + make natural language precise
+     → Like: programming language = an invention to compress + formalize natural language for machines
+  5. Each new symbol = 1 new chunk → allows more complex COMPRESSION + CHAINING
+     → "+" compresses "the act of addition" into 1 character
+     → "∫" compresses "infinite sum of infinitely small areas" into 1 character
+     → EACH NEW SYMBOL = 1 NEW LEVEL OF ABSTRACTION
 ```
 
 ---
 
-## §8 — Framework lens + Câu hỏi mở
+## §8 — Framework Lens + Open Questions
 
-### §8.1 — Toán trong Processing Layers model
+### §8.1 — Math in the Processing Layers Model
 
 ```
-Toán sử dụng Processing Layers thế nào:
+How math uses the Processing Layers:
 
-L0 (Body Input):    Đọc ký hiệu trên giấy/màn hình (visual)
-L1 (Pattern Match): Nhận ra loại bài, pattern quen (compiled chunks)
-L2 (Encoding):      Math notation format (x, +, =, ∫, Σ,...)
+L0 (Body Input):    Reading symbols on paper/screen (visual)
+L1 (Pattern Match): Recognizing problem type, familiar patterns (compiled chunks)
+L2 (Encoding):      Math notation format (x, +, =, ∫, Σ...)
 L3 (Processing):    Chain logic steps, calculate, prove
 L4 (Plan/Execute):  Organize solution strategy, write result
 
-Beginner math:  Heavy L2 (vẫn đang học ký hiệu) + Heavy L3 (từng bước)
-Expert math:    Light L2 (notation tự động) + Light L3 (pattern match skip)
-                → L0 → L1 → L4 (giống routine, chỉ với bài quen!)
+Beginner math:  Heavy L2 (still learning notation) + Heavy L3 (step by step)
+Expert math:    Light L2 (notation automatic) + Light L3 (pattern match skip)
+                → L0 → L1 → L4 (like a routine, but only for familiar problems!)
 
-⭐ Math expertise = COMPILE L2+L3 thành L1 meta-chunks:
-  "x² - 5x + 6 = (x-2)(x-3)" đã compile → nhìn là BIẾT, không cần tính
-  Giống: "3 × 7 = 21" đã compile từ lúc 8 tuổi → nhìn là BIẾT
+⭐ Math expertise = COMPILE L2+L3 into L1 meta-chunks:
+  "x² - 5x + 6 = (x-2)(x-3)" already compiled → see it and KNOW, no calculation needed
+  Like: "3 × 7 = 21" compiled since age 8 → see it and KNOW
 ```
 
-### §8.2 — Toán vs Natural Language: Complementary formats
+### §8.2 — Math vs Natural Language: Complementary Formats
 
 ```
-CÙNG 1 Ý, 2 ENCODING:
+SAME IDEA, 2 ENCODINGS:
 
 Math:     F = ma
-Natural:  "Lực bằng khối lượng nhân gia tốc"
+Natural:  "Force equals mass times acceleration"
 
 Math:     E = mc²
-Natural:  "Năng lượng bằng khối lượng nhân bình phương vận tốc ánh sáng"
+Natural:  "Energy equals mass times the speed of light squared"
 
 Math:     ∫₀^∞ e^(-x²) dx = √π/2
-Natural:  "Tích phân từ 0 đến vô cùng của e mũ trừ x bình phương
-           bằng căn pi chia 2"
-           → 14 từ natural language = 1 dòng math notation
-           → Math COMPRESSION: 14 words → 1 line
+Natural:  "The integral from 0 to infinity of e to the power of negative x squared
+           equals the square root of pi divided by 2"
+           → ~14 words in natural language = 1 line of math notation
+           → Math COMPRESSION: ~14 words → 1 line
 
-→ Đây là lý do math notation TỒN TẠI:
-  COMPRESSION CỰC CAO cho quantity + relation
-  Nhưng CHỈ cho quantity + relation — không compress được cảm xúc, xã hội, narrative
+→ This is why math notation EXISTS:
+  EXTREME COMPRESSION for quantity + relation
+  But ONLY for quantity + relation — cannot compress emotion, social dynamics, narrative
 ```
 
-### §8.3 — Câu hỏi mở
+### §8.3 — Open Questions
 
-1. **Tại sao trẻ em MỌI NƠI đều học arithmetic sớm (~5-6 tuổi)?** Có phải number sense là "pre-verbal substrate" giống chunks pre-verbal trong F1? (Research: Dehaene 1997 "Number Sense" — có vùng não riêng cho số: Intraparietal sulcus.)
+1. **Why do children EVERYWHERE learn arithmetic early (~ages 5-6)?** Is number sense a "pre-verbal substrate" like pre-verbal chunks in F1? (Research: Dehaene 1997 "Number Sense" — dedicated brain area for numbers: Intraparietal sulcus.)
 
-2. **Algebra = lần đầu ABSTRACT OVER INSTANCES** (từ "3+2" sang "a+b"). Đây có phải PFC-dependent transition? (Prediction: algebra difficulty correlates với PFC maturation timeline.)
+2. **Algebra = the first time math ABSTRACTS OVER INSTANCES** (from "3+2" to "a+b"). Is this a PFC-dependent transition? (Prediction: algebra difficulty correlates with PFC maturation timeline.)
 
-3. **Tại sao proof/chứng minh KHÓ HƠN RẤT NHIỀU so với calculate?** Vì proof = GENERATIVE (phải TẠO argument mới), calculate = SEQUENTIAL (chain steps đã biết). Proof ≈ L3 Generative pattern, calculate ≈ L3 Sequential pattern.
+3. **Why is proof/proving SO MUCH HARDER than calculating?** Because proof = GENERATIVE (must CREATE new argument), calculate = SEQUENTIAL (chain known steps). Proof ≈ L3 Generative pattern, calculate ≈ L3 Sequential pattern.
 
-4. **Math anxiety = speech-act compile level?** (Per NT7 discussion earlier) Math anxiety ≠ "số 3 bị tag threat" → "số 3 dùng ở mọi context, recyclable". Math anxiety = "act of doing math in social context" bị tag threat (giống speech-act level). Prediction: math anxiety chỉ xuất hiện khi TÁC ĐỘNG XÃ HỘI (kiểm tra, bị gọi lên bảng), không khi giải toán 1 mình.
+4. **Math anxiety = speech-act compile level?** (Per NT7 discussion) Math anxiety ≠ "the number 3 is tagged as threat" → "3 is used in all contexts, recyclable". Math anxiety = "the act of doing math in a social context" is tagged as threat (like the speech-act level). Prediction: math anxiety only appears with SOCIAL STAKES (tests, called to the board), not when solving alone.
 
-5. **Ký hiệu mới = chunk compression mới** (§7 lịch sử). H12 language evolution driver áp dụng cho math notation? "Nhà toán học cảm thấy cần ký hiệu mới → coin ký hiệu → community adopt." Giống H12 word coining mechanism?
+5. **New symbol = new chunk compression** (§7 history). Does the H12 language evolution driver apply to math notation? "A mathematician feels the need for a new symbol → coins the symbol → community adopts." Like the H12 word coining mechanism?
 
-6. **Chinese math advantage?** Chinese number words ngắn hơn English (一二三四五六七八九十 = monosyllabic). Working memory for Chinese speakers giữ được NHIỀU SỐ hơn per slot. Evidence: Chinese children calculate faster (Miller & Stigler 1987). → Handle size matters!
+6. **Chinese math advantage?** Chinese number words are shorter than English (一二三四五六七八九十 = monosyllabic). Working memory for Chinese speakers holds MORE NUMBERS per slot. Evidence: Chinese children calculate faster (Miller & Stigler 1987). → Handle size matters!
 
 ### §8.4 — References
 
-| Tác giả | Năm | Công trình | Liên quan |
+| Author | Year | Work | Relevance |
 |---|---|---|---|
 | Dehaene, S. | 1997 | The Number Sense | Number cognition neuroscience |
 | Lakoff & Núñez | 2000 | Where Mathematics Comes From | Math as embodied cognition |
@@ -1128,6 +1126,6 @@ Natural:  "Tích phân từ 0 đến vô cùng của e mũ trừ x bình phươn
 
 > **02-Mathematical-Language-Architecture.md — End of file.**
 >
-> Tài liệu tham khảo cho exploration session N+5. Đọc nghiền ngẫm, đặc biệt §5 (so sánh) và §6 (expert thực sự dùng toán thế nào).
+> Reference document for exploration session N+5. Read for deep understanding, especially §5 (comparison table) and §6 (how experts actually use math).
 >
-> Phiên bản: v1.0, 2026-04-16.
+> Version: v1.0, 2026-04-16.

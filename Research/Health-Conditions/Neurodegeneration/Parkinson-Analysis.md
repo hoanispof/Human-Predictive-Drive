@@ -1,149 +1,112 @@
 ---
-title: Parkinson-Analysis — Cơ Chế Parkinson Qua Framework v7.8
-version: 1.2
-created: 2026-05-15
-refined: 2026-05-29 (v1.2 — L3 RETIRE: "L0→L1→L3→PFC"→"L0 substrate→L1 substrate→modulatory→PFC". Body-Base v3.3 aligned)
-updated: 2026-05-15 (v1.1 — FULL REWRITE: +Modulatory vs Processing neurons distinction, +Basal ganglia GATE mechanism, +α-synuclein physical transfer/seeding detail, +WHY SNc vulnerable consolidated, +Remaining neurons overwork→accelerate, +Levodopa efficacy timeline, +NIC-PD 2024 nicotine NOT protective)
-status: v1.1 — REFERENCE FILE
+title: Parkinson-Analysis — Parkinson's Disease Through the Framework
+version: v1.2
+source: Research/Health-Conditions/Neurodegeneration/Parkinson-Analysis.md v1.2
+translated: 2026-06-09
+status: COMPLETE
 scope: |
-  HOW Parkinson tác động lên kiến trúc não bộ: hardware THOÁI HÓA DẦN (progressive degeneration).
-  CORE DISTINCTION: 2 loại neurons — Modulatory (mạch phụ, điều chỉnh gain) vs Processing (mạch chính, xử lý+điều khiển).
-  Parkinson = modulatory neurons CHẾT → mạch chính CÒN nhưng GATE bị LOCKED.
-  Basal ganglia = GATE (default CLOSED). Dopamine = KEY mở gate. Parkinson = key destroyed → gate locked.
-  α-synuclein: normal protein misfold → prion-like physical spread (exosome/nanotube/synapse/lysis) → template seeding.
-  WHY SNc FIRST: self-toxic environment (dopamine metabolism + iron + calcium + massive axon arbor + aging quality control).
-  Braak 6 stages = bottom-up qua framework L0 substrate→L1 substrate→modulatory operators→PFC.
+  HOW Parkinson's disease affects brain architecture: hardware PROGRESSIVELY DEGRADES.
+  CORE DISTINCTION: 2 neuron types — Modulatory (secondary circuit, adjusts gain)
+  vs Processing (primary circuit, processes + commands).
+  Parkinson = modulatory neurons DIE → primary circuit survives but GATE is LOCKED.
+  Basal ganglia = GATE (default CLOSED). Dopamine = KEY that opens gate.
+  Parkinson = key destroyed → gate locked.
+  α-synuclein: normal protein misfolds → prion-like physical spread → template seeding.
+  WHY SNc dies first: self-toxic environment (dopamine metabolism + iron + calcium
+  + massive axon arbor + aging quality control).
+  Braak 6 stages = bottom-up through framework: L0 substrate→L1 substrate→modulatory→PFC.
   Wanting impaired / Liking preserved = 7-step mechanism confirmed (Sienkiewicz-Jarosz 2005).
-  Levodopa paradox: dopamine overdose hypothesis → ICDs 13.6%. Efficacy declines as converters die + cortex degrades.
-  NIC-PD 2024: nicotine KHÔNG phải chất bảo vệ → MAO-B/CO candidates.
+  Levodopa paradox: dopamine overdose hypothesis → ICDs 13.6%.
+  NIC-PD 2024: nicotine NOT protective → MAO-B/CO are candidates.
   "Parkinson Pandemic": aging 89% + declining smoking ~10% + pesticides.
   Addiction = SOFTWARE (re-compilable) vs Parkinson = HARDWARE (irreversible).
-purpose: |
-  File thứ 2 trong Dopamine Cluster (3 files):
-    Nicotine = SOURCE bị ÉP fire (VTA hijack qua nAChR)
-    Parkinson = SOURCE bị CHẾT (SNc neuron degeneration)
-    ADHD = CLEARANCE quá nhanh (DAT+COMT tại PFC)
-  Category: Hardware Degradation (Neurodegeneration/) — khác Hijack/ (external substance).
-  ⚠️ Framework KHÔNG thay thế y khoa. Observation lens only.
-position: Research/Health-Conditions/Neurodegeneration/ — cạnh Alzheimer-Analysis.md (File 4)
-previous_version: backup/Parkinson-Analysis-v1.0.md (1,847L)
-dependencies:
-  - Dopamine-Is-Not-Reward.md v1.1 — 7-step, wanting≠liking, 3 positions
-  - Core-Software.md v1.0 — cycle architecture, prediction cycle
-  - Body-Feedback-Mechanism.md v1.2 — Chunk-Shift/Miss/Gap, 4 axes
-  - Body-Base.md v3.3 — L0+L1 substrate, body evaluates patterns
-  - Reward-Calibration.md v1.1 — Goldilocks per-gap
-  - Cortisol-Baseline.md v2.0 — amplifier, 10 touchpoints
-  - Nicotine-Brain-Mechanism.md v1.1 — File 1, nicotine × Parkinson bridge
-  - Addiction-Analysis.md v3.0 — hijack mechanism overview
-  - Novelty.md v1.0 — VTA positive prediction-delta pattern
-  - PFC-Hardware.md v1.1 — COMT, NE α1/α2
-sources_academic: |
-  🟢 Braak et al. 2003 (Neurobiology of Aging) — α-synuclein 6 stages
-  🟢 Fearnley & Lees 1991 (Brain) — SNc neuron loss at onset
-  🟢 Kish, Shannak & Hornykiewicz 1988 (NEJM) — uneven striatal dopamine loss
-  🟢 Chaudhuri, Healy & Schapira 2006 (Lancet Neurology) — non-motor symptoms
-  🟢 Weintraub et al. 2010 (Arch Neurology) — ICDs (n=3,090)
-  🟢 Gotham et al. 1988 — dopamine overdose hypothesis
-  🟢 Hernán et al. 2002 (Ann Neurology) — smoking RR=0.59
-  🟢 Berridge & Robinson 1998, 2003, 2016 — wanting≠liking
-  🟢 Sienkiewicz-Jarosz et al. 2005 (JNNP) — taste pleasantness preserved
-  🟢 Loas et al. 2012 — anhedonia = motivational deficit
-  🟢 Benabid et al. 2009 (Lancet Neurology) — DBS STN
-  🟢 Nutt et al. 2011 (Lancet Neurology) — freezing of gait
-  🟢 Dorsey et al. 2018 (J Parkinsons Disease) — Parkinson Pandemic
-  🟢 Rossi et al. 2018 (Movement Disorders) — smoking decline → +10% Parkinson
-  🟢 NIC-PD Trial 2024 (NEJM Evidence) — nicotine patches NO benefit
-  🟢 Rose, Schwarzschild & Gomperts 2024 — nicotine hypothesis disproven
-  🟢 BMJ 2025 — GBD 2021 modelling, 25.2M by 2050
-  🟢 Danzer et al. 2012 — exosomal α-synuclein transmission
-  🟢 Rostami et al. 2017 — tunneling nanotubes transfer α-syn
-  🟢 Surmeier et al. 2017 — calcium channel vulnerability in SNc
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Parkinson-Analysis — Cơ Chế Parkinson Qua Framework v7.8
+# Parkinson-Analysis — Parkinson's Disease Through the Framework
 
-> **Bạn muốn bước đi. Não đã ra lệnh. Chân không nhúc nhích.**
-> **Bạn muốn cười với cháu. Mặt không biểu cảm.**
-> **Bạn muốn với cốc nước. Tay run không kiểm soát.**
+> **You want to walk. The brain has issued the command. Your legs don't move.**
+> **You want to smile at your grandchild. Your face shows nothing.**
+> **You want to reach for a glass of water. Your hand trembles uncontrollably.**
 >
-> Mạch thần kinh CHÍNH (xử lý + điều khiển) = CÒN NGUYÊN.
-> Mạch thần kinh PHỤ (điều chỉnh gain + mở gate) = ĐANG CHẾT.
+> The PRIMARY neural circuit (processing + commanding) = STILL INTACT.
+> The SECONDARY neural circuit (adjusting gain + opening the gate) = DYING.
 >
-> Parkinson = **neurons MODULATORY chết dần** → gate bị LOCKED
-> → mạch chính CÒN nhưng signal KHÔNG ĐI QUA ĐƯỢC.
+> Parkinson's = **MODULATORY neurons dying progressively** → gate LOCKED
+> → primary circuit survives but signal CANNOT GET THROUGH.
 >
-> Giống: dàn nhạc còn nguyên + amplifier chết → speakers không kêu.
-> Giống: nhà còn nguyên + chìa khóa mất → cửa không mở.
+> Like: the orchestra is intact + the amplifier dies → the speakers go silent.
+> Like: the house is intact + the key is lost → the door won't open.
 >
-> **α-synuclein**: protein BÌNH THƯỜNG trong TẤT CẢ neurons
-> → misfold TRƯỚC ở SNc (môi trường SELF-TOXIC nhất)
-> → LAN VẬT LÝ sang neurons khác qua synapse (giống lửa cháy lan)
-> → cascade IRREVERSIBLE — domino đã đổ không dựng lại được.
+> **α-synuclein**: a NORMAL protein present in ALL neurons
+> → misfolds FIRST in SNc (the most SELF-TOXIC environment)
+> → PHYSICALLY SPREADS to neighboring neurons via synapse (like fire spreading)
+> → IRREVERSIBLE cascade — a domino that cannot be stood back up.
 >
-> ⚠️ **DISCLAIMER**: Framework KHÔNG thay thế y khoa. KHÔNG chẩn đoán.
-> KHÔNG đề xuất điều trị. File này = observation lens qua kiến trúc v7.8.
+> ⚠️ **DISCLAIMER**: This framework does NOT replace medical care. Does NOT diagnose.
+> Does NOT recommend treatment. This file = an observation lens through architecture v7.8.
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ TRONG FRAMEWORK
-- §1 — BỨC TRANH TỔNG QUÁT
-- §2 — 2 LOẠI NEURONS: MODULATORY vs PROCESSING
-- §3 — α-SYNUCLEIN: TỪ PROTEIN BÌNH THƯỜNG TỚI SÁT THỦ
+- §0 — POSITION WITHIN THE FRAMEWORK
+- §1 — THE OVERALL PICTURE
+- §2 — 2 NEURON TYPES: MODULATORY vs PROCESSING
+- §3 — α-SYNUCLEIN: FROM NORMAL PROTEIN TO KILLER
 - §4 — BRAAK STAGING × FRAMEWORK ARCHITECTURE
-- §5 — PREDICTION INTACT + EXECUTION FAIL
+- §5 — PREDICTION INTACT + EXECUTION FAILS
 - §6 — 3 DOPAMINE PATHWAYS × DEPLETION
-- §7 — NON-MOTOR × FRAMEWORK
-- §8 — LEVODOPA PARADOX
+- §7 — NON-MOTOR SYMPTOMS × FRAMEWORK
+- §8 — THE LEVODOPA PARADOX
 - §9 — DBS: HARDWARE INTERVENTION
-- §10 — BODY-FEEDBACK TRONG PARKINSON
+- §10 — BODY-FEEDBACK IN PARKINSON'S
 - §11 — NICOTINE × PARKINSON BRIDGE
-- §12 — "PARKINSON PANDEMIC" + DECLINING SMOKING
-- §13 — SO SÁNH: HIJACK vs DEGRADATION
+- §12 — THE "PARKINSON PANDEMIC" + DECLINING SMOKING
+- §13 — COMPARISON: HIJACK vs DEGRADATION
 - §14 — HONEST ASSESSMENT
 - §15 — CROSS-REFERENCES
 
 ---
 
-## §0 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — POSITION WITHIN THE FRAMEWORK
 
 ### §0.1 — Category: Hardware Degradation
 
 ```
-⭐ PARKINSON = CATEGORY MỚI TRONG FRAMEWORK:
+⭐ PARKINSON'S = A NEW CATEGORY IN THE FRAMEWORK:
 
   ┌──────────────┬──────────────────────────────────────────────┐
-  │ Category     │ Cơ chế                                       │
+  │ Category     │ Mechanism                                     │
   ├──────────────┼──────────────────────────────────────────────┤
-  │ Hijack       │ External substance → reward loop BỊ CƯỚP     │
-  │              │ Hardware INTACT, software bị corrupt          │
-  │              │ REVERSIBLE (quit → re-compile)                │
+  │ Hijack       │ External substance → reward loop STOLEN      │
+  │              │ Hardware INTACT, software corrupted           │
+  │              │ REVERSIBLE (quit → re-compile)               │
   ├──────────────┼──────────────────────────────────────────────┤
-  │ Degradation  │ Internal hardware → neurons CHẾT DẦN          │
-  │              │ Modulatory neurons chết TRƯỚC                 │
-  │              │ IRREVERSIBLE (progressive, chưa có cure)      │
+  │ Degradation  │ Internal hardware → neurons DYING GRADUALLY  │
+  │              │ Modulatory neurons die FIRST                  │
+  │              │ IRREVERSIBLE (progressive, no cure yet)      │
   ├──────────────┼──────────────────────────────────────────────┤
-  │ Config       │ Hardware CẤU HÌNH KHÁC từ đầu (Autism, ADHD) │
-  │              │ Không phải hỏng — khác cách compile           │
-  │              │ STABLE (không thoái hóa)                      │
+  │ Configuration│ Hardware CONFIGURED DIFFERENTLY from birth   │
+  │              │ (Autism, ADHD)                               │
+  │              │ Not broken — different compilation mode       │
+  │              │ STABLE (no degeneration)                     │
   └──────────────┴──────────────────────────────────────────────┘
 ```
 
-### §0.2 — Dopamine Cluster (File 2/3)
+### §0.2 — Dopamine Cluster (File 2 of 3)
 
 ```
-🟢 3 CONDITIONS × CÙNG DOPAMINE × KHÁC CƠ CHẾ:
+🟢 3 CONDITIONS × SAME DOPAMINE × DIFFERENT MECHANISMS:
 
   ┌────────────┬─────────────────┬─────────────────┬──────────────────┐
   │            │ NICOTINE (1)    │ PARKINSON (2)   │ ADHD (3)         │
   ├────────────┼─────────────────┼─────────────────┼──────────────────┤
-  │ Cơ chế     │ SOURCE ÉP fire  │ SOURCE CHẾT     │ CLEARANCE nhanh  │
+  │ Mechanism  │ SOURCE forced   │ SOURCE dying    │ CLEARANCE too    │
+  │            │ to fire         │                 │ fast             │
   │ Pathway    │ Mesolimbic      │ Nigrostriatal   │ Mesocortical     │
-  │ Dopamine   │ QUÁ NHIỀU       │ QUÁ ÍT         │ QUÁ NGẮN         │
+  │ Dopamine   │ TOO MUCH        │ TOO LITTLE      │ TOO BRIEF        │
   │ External?  │ YES (substance) │ NO (internal)   │ NO (hardware)    │
   │ Reversible?│ YES (quit)      │ NO (progressive)│ MANAGE (not cure)│
   │ Core issue │ Reward loop     │ GATE locked     │ PFC under-fueled │
@@ -153,510 +116,520 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §1 — BỨC TRANH TỔNG QUÁT
+## §1 — THE OVERALL PICTURE
 
-### §1.1 — Tổng quan
+### §1.1 — Overview
 
 ```
 🟢 PARKINSON'S DISEASE:
 
-  Prevalence: ~8.5 triệu (2019), dự kiến 25.2 triệu (2050)
-  Tuổi khởi phát: trung bình ~60 tuổi
-  Young-onset (<50): 5-10% cases
-  Nam:Nữ ≈ 1.5:1
-  Survival: 10-20 năm sau chẩn đoán
+  Prevalence: ~8.5 million (2019), projected 25.2 million (2050)
+  Typical age of onset: ~60 years
+  Young-onset (<50): 5-10% of cases
+  Male:Female ≈ 1.5:1
+  Survival: 10-20 years after diagnosis
 
-  Đặc điểm bệnh lý:
-    → α-synuclein protein MISFOLD → tích tụ → Lewy bodies
-    → Substantia Nigra pars compacta (SNc) dopamine neurons CHẾT
-    → 50-80% striatal dopamine ĐÃ MẤT trước khi triệu chứng motor
-    → Progressive: KHÔNG dừng, KHÔNG đảo ngược (hiện tại)
+  Core pathology:
+    → α-synuclein protein MISFOLDS → accumulates → Lewy bodies
+    → Substantia Nigra pars compacta (SNc) dopamine neurons DIE
+    → 50-80% of striatal dopamine LOST before motor symptoms appear
+    → Progressive: DOES NOT stop, CANNOT be reversed (currently)
 ```
 
-### §1.2 — Motor symptoms: "đỉnh tảng băng"
+### §1.2 — Motor symptoms: "the tip of the iceberg"
 
 ```
-🟢 4 TRIỆU CHỨNG MOTOR CHÍNH:
+🟢 4 PRIMARY MOTOR SYMPTOMS:
 
-  ① TREMOR: run khi nghỉ, 4-6 Hz, thường 1 bên trước
-  ② BRADYKINESIA: tất cả movement CHẬM + YẾU + NHỎ DẦN
-  ③ RIGIDITY: cơ bắp KHÁNG khi di chuyển, "cogwheel"
-  ④ POSTURAL INSTABILITY: mất thăng bằng (muộn)
+  ① TREMOR: resting tremor, 4-6 Hz, usually one side first
+  ② BRADYKINESIA: all movement SLOWER + WEAKER + SMALLER over time
+  ③ RIGIDITY: muscles RESIST movement, "cogwheel" feel
+  ④ POSTURAL INSTABILITY: loss of balance (appears late)
 
-  ⚠️ Motor symptoms = TẢ BĂNG NỔI:
-    Non-motor đã có NHIỀU NĂM TRƯỚC (depression, RBD, constipation)
+  ⚠️ Motor symptoms = THE TIP OF THE ICEBERG:
+    Non-motor symptoms have been present FOR MANY YEARS BEFORE
+    (depression, RBD, constipation)
     → §4 Braak staging, §7 Non-motor
 ```
 
-### §1.3 — Non-motor TRƯỚC motor: paradigm shift
+### §1.3 — Non-motor precedes motor: a paradigm shift
 
 ```
 🟢 CHAUDHURI ET AL. 2006 (Lancet Neurology):
 
-  Prodromal symptoms (Braak Stage 1-2, YEARS-DECADES trước motor):
-    → Constipation (gut nervous system)
-    → Anosmia (mất mùi — olfactory bulb)
+  Prodromal symptoms (Braak Stage 1-2, YEARS TO DECADES before motor):
+    → Constipation (enteric nervous system)
+    → Anosmia (loss of smell — olfactory bulb)
     → REM Sleep Behavior Disorder (>80% convert to Parkinson)
     → Depression (raphe nuclei — serotonin)
     → Anxiety (locus coeruleus — NE)
 
-  = Body-base (L0/L1) substrate degrade TRƯỚC modulatory operators + execution
-  = Bệnh bắt đầu TỪ NỀN, leo LÊN ĐỈNH (§4 Braak)
+  = Body-base (L0/L1) substrate degrades BEFORE modulatory operators + execution
+  = The disease starts FROM THE FOUNDATION and climbs UPWARD (§4 Braak)
 ```
 
 ---
 
-## §2 — 2 LOẠI NEURONS: MODULATORY vs PROCESSING
+## §2 — 2 NEURON TYPES: MODULATORY vs PROCESSING
 
-### §2.1 — Não có 2 nhóm neurons KHÁC NHAU
+### §2.1 — The brain has 2 fundamentally different neuron groups
 
 ```
 🟡 FRAMEWORK-CRITICAL DISTINCTION:
 
   ┌─────────────────────────────────────────────────────────────────┐
-  │ NHÓM 1 — PROCESSING NEURONS (mạch CHÍNH)                       │
+  │ GROUP 1 — PROCESSING NEURONS (PRIMARY circuit)                  │
   │                                                                 │
-  │ Chức năng: Xử lý thông tin + điều khiển hành vi               │
-  │ Vị trí: PFC, motor cortex, sensory cortex, hippocampus...     │
-  │ Neurotransmitter: Glutamate (excitatory), GABA (inhibitory)    │
-  │ Vai trò trong Parkinson: MẠCH ĐANG HOẠT ĐỘNG — truyền lệnh, xử lý  │
-  │ = DÀN NHẠC (instruments)                                       │
+  │ Function: Process information + command behavior                │
+  │ Location: PFC, motor cortex, sensory cortex, hippocampus...    │
+  │ Neurotransmitters: Glutamate (excitatory), GABA (inhibitory)   │
+  │ Role in Parkinson: CIRCUIT STILL OPERATING — transmitting       │
+  │                    commands, processing                         │
+  │ = THE ORCHESTRA (the instruments)                              │
   ├─────────────────────────────────────────────────────────────────┤
-  │ NHÓM 2 — MODULATORY NEURONS (mạch PHỤ)                         │
+  │ GROUP 2 — MODULATORY NEURONS (SECONDARY circuit)               │
   │                                                                 │
-  │ Chức năng: ĐIỀU CHỈNH gain/speed/gate cho nhóm 1              │
-  │ Vị trí: SNc, VTA, raphe, locus coeruleus, basal forebrain     │
-  │ Neurotransmitter: Dopamine, Serotonin, NE, Acetylcholine      │
-  │ Vai trò trong Parkinson: ĐÂY LÀ CÁI CHẾT                            │
-  │ = AMPLIFIER + VOLUME CONTROL + NHẠC TRƯỞNG                    │
+  │ Function: ADJUST gain/speed/gate for Group 1                   │
+  │ Location: SNc, VTA, raphe, locus coeruleus, basal forebrain   │
+  │ Neurotransmitters: Dopamine, Serotonin, NE, Acetylcholine     │
+  │ Role in Parkinson: THIS IS WHAT DIES                          │
+  │ = AMPLIFIER + VOLUME CONTROL + THE CONDUCTOR                  │
   └─────────────────────────────────────────────────────────────────┘
 
-  PARKINSON = NHÓM 2 CHẾT DẦN
-  NHÓM 1 BAN ĐẦU CÒN NGUYÊN — nhưng chạy KHÔNG CÓ MODULATION
+  PARKINSON = GROUP 2 DYING PROGRESSIVELY
+  GROUP 1 IS INITIALLY INTACT — but running WITHOUT MODULATION
 ```
 
-### §2.2 — Basal ganglia = GATE: default ĐÓNG, dopamine = chìa khóa
+### §2.2 — Basal ganglia = GATE: default CLOSED, dopamine = the key
 
 ```
-🟢 MẠCH MOTOR BÌNH THƯỜNG:
+🟢 NORMAL MOTOR CIRCUIT:
 
-  PFC (ý định "bước đi")
-      ↓
-  Motor Cortex (gửi LỆNH)
-      ↓
-  Striatum (NHẬN LỆNH + nhận DOPAMINE từ SNc)
-      ↓
-  GPi (Global Pallidus internal — output nucleus)
-      ↓
-  Thalamus (relay tới motor cortex)
-      ↓
+  PFC (intention: "step forward")
+       ↓
+  Motor Cortex (sends COMMAND)
+       ↓
+  Striatum (RECEIVES command + RECEIVES DOPAMINE from SNc)
+       ↓
+  GPi (Globus Pallidus internus — output nucleus)
+       ↓
+  Thalamus (relay back to motor cortex)
+       ↓
   Motor Cortex → Spinal Cord → Muscles → MOVEMENT
 
   ⭐ CRITICAL: Basal Ganglia (Striatum → GPi) = GATE
 
-  DEFAULT STATE CỦA GATE = ĐÓNG (inhibit movement):
-    GPi luôn luôn INHIBIT thalamus (ức chế liên tục)
-    = Cửa LUÔN KHÓA nếu không ai mở
+  DEFAULT STATE OF THE GATE = CLOSED (movement inhibited):
+    GPi constantly INHIBITS the thalamus (continuous suppression)
+    = The door is ALWAYS LOCKED unless someone opens it
 
-  DOPAMINE = CHÌA KHÓA MỞ GATE:
-    SNc fire dopamine → vào Striatum → Striatum inhibit GPi
-    → GPi bớt inhibit thalamus → thalamus RELEASE
-    → Motor cortex NHẬN "GO" signal → movement EXECUTE
+  DOPAMINE = THE KEY THAT OPENS THE GATE:
+    SNc fires dopamine → into Striatum → Striatum inhibits GPi
+    → GPi reduces thalamus inhibition → thalamus RELEASED
+    → Motor cortex RECEIVES "GO" signal → movement EXECUTES
 
-  = Dopamine KHÔNG tạo movement
-  = Dopamine CHO PHÉP movement đi qua (mở cổng)
+  = Dopamine does NOT CREATE movement
+  = Dopamine PERMITS movement to pass through (opens the gate)
 ```
 
-### §2.3 — Parkinson = chìa khóa BỊ PHÁ HỦY
+### §2.3 — Parkinson = the key is DESTROYED
 
 ```
-🟡 KHI SNc NEURONS CHẾT:
+🟡 WHEN SNc NEURONS DIE:
 
   ┌─────────────────────────────────────────────────────┐
-  │ BÌNH THƯỜNG:                                         │
+  │ NORMAL:                                              │
   │                                                      │
-  │ PFC: "bước đi!" → Motor Cortex: lệnh ✓             │
-  │ SNc: fire dopamine → Striatum → inhibit GPi         │
-  │ GPi: giảm inhibition → Thalamus: RELEASE            │
-  │ Motor Cortex: execute → Muscles: MOVEMENT ✓         │
+  │ PFC: "step forward!" → Motor Cortex: command ✓      │
+  │ SNc: fires dopamine → Striatum → inhibits GPi       │
+  │ GPi: reduces inhibition → Thalamus: RELEASED        │
+  │ Motor Cortex: executes → Muscles: MOVEMENT ✓        │
   │                                                      │
-  │ = Chìa khóa CÓ → gate MỞ → signal ĐI QUA          │
+  │ = Key EXISTS → gate OPENS → signal PASSES THROUGH   │
   ├─────────────────────────────────────────────────────┤
   │ PARKINSON:                                           │
   │                                                      │
-  │ PFC: "bước đi!" → Motor Cortex: lệnh ✓ (VẪN CÓ)   │
-  │ SNc: ████ CHẾT ████ → KHÔNG có dopamine             │
-  │ Striatum: KHÔNG có key → KHÔNG inhibit GPi          │
-  │ GPi: inhibit MAX → Thalamus: LOCKED                 │
-  │ Motor Cortex: KHÔNG nhận "GO" → NO MOVEMENT ✗       │
+  │ PFC: "step forward!" → Motor Cortex: command ✓      │
+  │       (STILL WORKING)                               │
+  │ SNc: ████ DEAD ████ → NO dopamine                   │
+  │ Striatum: NO key → CANNOT inhibit GPi               │
+  │ GPi: inhibits at MAXIMUM → Thalamus: LOCKED         │
+  │ Motor Cortex: DOESN'T RECEIVE "GO" → NO MOVEMENT ✗  │
   │                                                      │
-  │ = Chìa khóa MẤT → gate LOCKED → signal BỊ CHẶN    │
-  │ = Mạch chính CÒN NGUYÊN — nhưng output = 0        │
+  │ = Key GONE → gate LOCKED → signal BLOCKED           │
+  │ = Primary circuit STILL INTACT — but output = 0    │
   └─────────────────────────────────────────────────────┘
 
-  ⭐ INSIGHT CỐT LÕI:
-    KHÔNG phải: mạch chính "yếu" hay "hỏng"
-    MÀ LÀ: cái GATE ở giữa bị LOCKED
-    → PFC predict ĐÚNG + Motor cortex gửi lệnh ĐÚNG
-    → Nhưng lệnh BỊ CHẶN tại basal ganglia
-    → = "BIẾT nhưng KHÔNG LÀM ĐƯỢC"
+  ⭐ CORE INSIGHT:
+    NOT: the primary circuit is "weak" or "broken"
+    BUT: the GATE in the middle is LOCKED
+    → PFC predicts CORRECTLY + Motor cortex sends command CORRECTLY
+    → But the command is BLOCKED at the basal ganglia
+    → = "KNOWS what to do but CANNOT DO IT"
 
-  Levodopa = CUNG CẤP chìa khóa từ bên ngoài
-    → Substitute cho SNc đã chết → gate MỞ LẠI → movement PHỤC HỒI
-    → Đó là tại sao levodopa WORKS (mạch chính vẫn nguyên, chỉ cần key)
+  Levodopa = SUPPLIES the key from outside
+    → Substitutes for the dead SNc → gate OPENS AGAIN → movement RESTORED
+    → That's why levodopa WORKS (primary circuit still intact, just needs the key)
 ```
 
-### §2.4 — Tại sao KHÔNG phải giảm "năng lượng chung"
+### §2.4 — Why this is NOT simply "low energy"
 
 ```
-🟡 PHÂN BIỆT QUAN TRỌNG:
+🟡 AN IMPORTANT DISTINCTION:
 
-  ❌ SAI: "Thiếu dopamine = thiếu năng lượng → cả hệ thống yếu dần"
-  ✓ ĐÚNG: "Thiếu dopamine = gate LOCKED → signal bị CHẶN tại 1 điểm cụ thể"
+  ❌ WRONG: "Low dopamine = low energy → whole system weakens"
+  ✓ RIGHT: "Low dopamine = gate LOCKED → signal BLOCKED at 1 specific point"
 
   Analogy:
-    ❌ SAI: pin hết → đèn tối dần (energy depletion)
-    ✓ ĐÚNG: cầu dao tắt → đèn tắt hẳn dù pin CÒN ĐẦY (gate locked)
+    ❌ WRONG: battery dead → lights dim gradually (energy depletion)
+    ✓ RIGHT: circuit breaker tripped → lights go off instantly despite FULL BATTERY
+              (gate locked)
 
   Evidence:
-    → PFC vẫn plan được (giai đoạn đầu)
-    → Bệnh nhân vẫn NGHĨ ra hành động
-    → Khi được LEVODOPA → movement phục hồi NGAY (mạch đã sẵn sàng)
-    → Nếu là "năng lượng" → phục hồi phải MẤT THỜI GIAN build lại
-    → Phục hồi NGAY = mạch CÒN NGUYÊN, chỉ gate đang locked
+    → PFC can still PLAN (in early stages)
+    → Patients still THINK of actions
+    → When given LEVODOPA → movement recovers IMMEDIATELY (circuit was ready)
+    → If it were "energy" → recovery would take TIME to rebuild
+    → Immediate recovery = circuit INTACT, only gate was locked
 
-  Bradykinesia (chậm) = gate MỞ MỘT PHẦN:
-    → Ít dopamine → gate hé mở → signal ĐI QUA nhưng YẾU
-    → Giống: cửa mở 10% → bạn phải ép qua → chậm + yếu
-    → Repetitive movements nhỏ dần: mỗi lần cần fuel → fuel GIẢM → signal YẾU hơn
+  Bradykinesia (slowness) = gate PARTIALLY OPEN:
+    → Less dopamine → gate barely opens → signal GETS THROUGH but WEAKLY
+    → Like: door opens 10% → you have to squeeze through → slow + effortful
+    → Repetitive movements get smaller: each needs fuel → fuel DECREASES →
+        signal WEAKER
 ```
 
 ---
 
-## §3 — α-SYNUCLEIN: TỪ PROTEIN BÌNH THƯỜNG TỚI SÁT THỦ
+## §3 — α-SYNUCLEIN: FROM NORMAL PROTEIN TO KILLER
 
-### §3.1 — α-synuclein bình thường: có trong TẤT CẢ neurons
+### §3.1 — Normal α-synuclein: present in ALL neurons
 
 ```
 🟢 ALPHA-SYNUCLEIN:
 
-  Loại: Protein (140 amino acids), encoded bởi SNCA gene
-  Vị trí: Presynaptic terminals (đầu synapse)
-  Lượng: ~1% tổng cytosolic protein trong neurons (NHIỀU)
-  Có ở: TẤT CẢ neurons — không riêng SNc
+  Type: Protein (140 amino acids), encoded by SNCA gene
+  Location: Presynaptic terminals
+  Quantity: ~1% of total cytosolic protein in neurons (ABUNDANT)
+  Found in: ALL neurons — not exclusive to SNc
 
-  Chức năng bình thường:
-    → PHANH NHẸ cho vesicle release (regulate SNARE complex)
-    → Modulate: bao nhiêu vesicle fire, speed, clustering
-    → = Quality control cho neurotransmitter release
+  Normal function:
+    → LIGHTLY BRAKES vesicle release (regulates SNARE complex)
+    → Modulates: how many vesicles fire, at what speed, in what clustering
+    → = Quality control for neurotransmitter release
 
-  Trạng thái bình thường:
-    → "Intrinsically disordered" (unfolded — KHÔNG có hình cố định)
-    → Linh hoạt, thay đổi hình dạng theo context
-    → Adopt alpha-helical khi bind lipid membrane
+  Normal state:
+    → "Intrinsically disordered" (unfolded — no fixed shape)
+    → Flexible, changes conformation based on context
+    → Adopts alpha-helical structure when bound to lipid membrane
 
-  ⭐ KEY: α-synuclein = protein BÌNH THƯỜNG, CÓ KHẮP NƠI
-    Bệnh = khi nó GẤP SAI (misfold) → toxic
+  ⭐ KEY: α-synuclein = a NORMAL protein, found EVERYWHERE
+    Disease = when it MISFOLDS → becomes toxic
 ```
 
-### §3.2 — Misfold: khi protein "hóa rác"
+### §3.2 — Misfold: when the protein "goes rogue"
 
 ```
-🟢 QUÁ TRÌNH MISFOLD:
+🟢 THE MISFOLDING PROCESS:
 
-  Bình thường: unfolded monomer (linh hoạt, functional)
-       ↓ MISFOLD xảy ra
-  Beta-sheet oligomers (vài protein dính nhau, SAI HÌNH DẠNG)
+  Normal: unfolded monomer (flexible, functional)
+       ↓ MISFOLD occurs
+  Beta-sheet oligomers (a few proteins stuck together, WRONG SHAPE)
        ↓
-  Protofibrils (chuỗi dài hơn)
+  Protofibrils (longer chains)
        ↓
-  Insoluble fibrils (KHÔNG tan — tích tụ)
+  Insoluble fibrils (CANNOT dissolve — accumulate)
        ↓
-  LEWY BODIES (khối lớn bên trong neuron = dấu hiệu Parkinson)
-  + LEWY NEURITES (tích tụ trong axon)
+  LEWY BODIES (large clumps inside the neuron = Parkinson's hallmark)
+  + LEWY NEURITES (accumulation in axons)
 
-  TẠI SAO TOXIC (khi misfolded):
-    ① Block SNARE complex → vesicle release HỎng → synapse FAIL
-    ② Phá mitochondria → Complex I impaired → energy CRISIS + oxidative stress
-    ③ Overwhelm autophagy + proteasome → cell KHÔNG thể dọn protein hỏng
-    ④ Form pore-like structures → calcium tràn vào → cell stress
-    ⑤ PRION-LIKE SPREAD → template misfolding ở neurons lân cận (§3.4)
+  WHY TOXIC (when misfolded):
+    ① Blocks SNARE complex → vesicle release FAILS → synapse FAILS
+    ② Damages mitochondria → Complex I impaired → energy CRISIS + oxidative stress
+    ③ Overwhelms autophagy + proteasome → cell CANNOT clear damaged protein
+    ④ Forms pore-like structures → calcium floods in → cell stress
+    ⑤ PRION-LIKE SPREAD → template misfolding in neighboring neurons (§3.4)
 ```
 
-### §3.3 — TẠI SAO SNc CHẾT TRƯỚC (4 lý do đồng thời)
+### §3.3 — WHY SNc dies first (4 simultaneous reasons)
 
 ```
-🟢 SNc = MÔI TRƯỜNG SELF-TOXIC NHẤT trong não:
+🟢 SNc = THE MOST SELF-TOXIC ENVIRONMENT in the brain:
 
-  α-synuclein CÓ TRONG TẤT CẢ neurons
-  Nhưng misfold TRƯỚC ở SNc vì SNc = "nhà máy toxic" cho chính mình:
+  α-synuclein IS PRESENT IN ALL neurons
+  But misfolds FIRST in SNc because SNc = a "toxic factory" for itself:
 
-  ① DOPAMINE METABOLISM TẠO CHẤT ĐỘC PHỤ:
-     SNc neurons SẢN XUẤT dopamine → MAO-B phân hủy dopamine
-     → Tạo H₂O₂ + reactive oxygen species (ROS)
-     → MỖI LẦN fire = tạo 1 ít oxidative stress
-     → Tích lũy CẢ ĐỜI (fire 24/7) = oxidative damage tích lũy
-     → Neurons KHÔNG sinh dopamine = KHÔNG có stress này
+  ① DOPAMINE METABOLISM CREATES TOXIC BYPRODUCTS:
+     SNc neurons PRODUCE dopamine → MAO-B breaks down dopamine
+     → Generates H₂O₂ + reactive oxygen species (ROS)
+     → EVERY TIME it fires = creates a little oxidative stress
+     → Accumulated OVER A LIFETIME (firing 24/7) = oxidative damage builds up
+     → Neurons that DON'T produce dopamine DON'T have this stress
 
   ② NEUROMELANIN + IRON:
-     SNc = "substantia NIGRA" (chất ĐEN) — đặt tên theo MÀU
-     Neuromelanin bên trong → BIND IRON (sắt)
-     Iron + dopamine oxidation = oxidative stress GẤP ĐÔI
-     → SNc = vừa SẢN XUẤT toxic, vừa CHỨA CHẤT KHUẾCH ĐẠI toxic
+     SNc = "substantia NIGRA" (BLACK substance) — named for its COLOR
+     Neuromelanin inside → BINDS IRON
+     Iron + dopamine oxidation = DOUBLED oxidative stress
+     → SNc BOTH PRODUCES toxic waste AND STORES an accelerant
 
   ③ CALCIUM PACEMAKING 24/7:
-     SNc neurons dùng L-type calcium channels (Surmeier 2017)
-     → Autonomous pacemaking: FIRE LIÊN TỤC 24/7 không cần input
-     → Calcium cao liên tục → THÊM oxidative stress
-     → Hầu hết neurons khác KHÔNG cần fire 24/7 như SNc
+     SNc neurons use L-type calcium channels (Surmeier 2017)
+     → Autonomous pacemaking: FIRES CONTINUOUSLY 24/7 without any input
+     → High calcium constantly → ADDITIONAL oxidative stress
+     → Most other neurons DON'T need to fire 24/7 like SNc
 
-  ④ AXON CỰC LỚN (75,000 connections):
-     1 neuron SNc → tiếp xúc ~75,000 striatal neurons
-     → Axonal arbor KHỔNG LỒ → cần NĂNG LƯỢNG CỰC LỚN
-     → Mitochondria phải chạy MAX → dễ bị α-syn phá
-     → Neurons nhỏ (ít nhánh): CHỊU ĐƯỢC lâu hơn
-     → SNc (75,000 nhánh): SỤP NHANH vì energy crisis
+  ④ MASSIVE AXON ARBOR (75,000 connections):
+     1 SNc neuron → contacts ~75,000 striatal neurons
+     → Enormous axonal arbor → requires EXTREME ENERGY
+     → Mitochondria must run at MAX → easily disrupted by misfolded α-syn
+     → Neurons with fewer branches: survive LONGER
+     → SNc (75,000 branches): COLLAPSES FAST due to energy crisis
 
-  TÓM LẠI:
+  SUMMARY:
     SNc = factory handling toxic waste (dopamine metabolism)
     + storing accelerants (iron/melanin)
     + running 24/7 without rest (calcium pacemaking)
     + serving 75,000 clients simultaneously (massive arbor)
-    → MÔI TRƯỜNG hostile → α-synuclein dễ misfold TRƯỚC ở đây
+    → Most hostile environment → α-synuclein misfolds FIRST here
 ```
 
-### §3.4 — Trigger: tích lũy decades → vượt ngưỡng
+### §3.4 — Trigger: decades of accumulation → crossing the threshold
 
 ```
-🟡 KHÔNG PHẢI "ĐỘT NGỘT OVERWORK":
+🟡 NOT "SUDDEN OVERWORK":
 
-  Hình dung: nhà máy xử lý chất độc + hệ thống DỌN DẸP
+  Picture: a toxic waste processing plant + a CLEANUP SYSTEM
 
-  Trẻ (20-40 tuổi):
-    → Sản xuất toxic: ĐỀU (dopamine metabolism 24/7)
-    → Hệ thống dọn dẹp: MẠNH (chaperone proteins + autophagy + proteasome)
-    → Dọn > Tích tụ → ỔN
+  Young age (20-40):
+    → Toxic production: STEADY (dopamine metabolism 24/7)
+    → Cleanup system: STRONG (chaperone proteins + autophagy + proteasome)
+    → Cleanup > Accumulation → STABLE
 
-  Trung niên (40-60 tuổi):
-    → Sản xuất toxic: VẪN ĐỀU (fire 24/7 cả đời)
-    → Hệ thống dọn dẹp: BẮT ĐẦU YẾU (aging = quality control decline)
-    → Dọn ≈ Tích tụ → NGƯỠNG gần
+  Middle age (40-60):
+    → Toxic production: STILL STEADY (firing 24/7 for life)
+    → Cleanup system: STARTING TO WEAKEN (aging = quality control declines)
+    → Cleanup ≈ Accumulation → APPROACHING THRESHOLD
 
-  Điểm khởi phát (~60 tuổi):
-    → Dọn < Tích tụ → α-synuclein BẮT ĐẦU tích tụ
-    → ĐẾN NGƯỠNG → misfold ĐẦU TIÊN xảy ra
-    → 1 "hạt giống" (seed) xuất hiện → CASCADE bắt đầu (§3.5)
+  Onset point (~60):
+    → Cleanup < Accumulation → α-synuclein STARTS TO BUILD UP
+    → REACHES THRESHOLD → first MISFOLD occurs
+    → 1 "seed" appears → CASCADE BEGINS (§3.5)
 
-  Yếu tố QUY ĐỊNH AI bị (tại sao ~1-2% chứ không phải 100%):
+  What determines WHO is affected (~1-2%, not 100%):
     → Genetics (~25% heritable): SNCA, GBA, LRRK2 gene variants
     → Environmental toxins: pesticides (paraquat 150% ↑), solvents (TCE 500% ↑)
-    → MAO-B protection: smokers có MAO-B inhibited → ít oxidative stress (§11)
-    → Aging speed: chất lượng protein maintenance khác mỗi người
-    → Exercise history: BDNF level → protect SNc (§3.8)
-    → Chronic stress: cortisol → AGGRAVATE α-syn spreading (§3.8)
-    → = MULTIFACTORIAL — ai vượt ngưỡng TRƯỚC thì bị TRƯỚC
+    → MAO-B protection: smokers have MAO-B inhibited → less oxidative stress (§11)
+    → Aging rate: protein maintenance quality differs between individuals
+    → Exercise history: BDNF levels → protect SNc (§3.8)
+    → Chronic stress: cortisol → AGGRAVATES α-syn spreading (§3.8)
+    → = MULTIFACTORIAL — whoever crosses the threshold FIRST is affected FIRST
 
-  ⭐ NGƯỠNG KHÔNG CỐ ĐỊNH — CÓ THỂ THAY ĐỔI:
-    Exercise ↑ → BDNF ↑ → ngưỡng CAO HƠN (khó vượt)
-    Stress chronic → cortisol ↑ → ngưỡng THẤP HƠN (dễ vượt)
-    → §3.8 phân tích chi tiết
+  ⭐ THE THRESHOLD IS NOT FIXED — IT CAN BE SHIFTED:
+    Exercise ↑ → BDNF ↑ → threshold HIGHER (harder to cross)
+    Chronic stress → cortisol ↑ → threshold LOWER (easier to cross)
+    → §3.8 details this
 ```
 
-### §3.5 — Template seeding: physical protein-protein contact
+### §3.5 — Template seeding: physical protein-to-protein contact
 
 ```
-🟢 KHI SEED ĐẦU TIÊN XUẤT HIỆN → IRREVERSIBLE CASCADE:
+🟢 ONCE THE FIRST SEED APPEARS → IRREVERSIBLE CASCADE:
 
-  α-synuclein misfolded (seed) + α-synuclein BÌNH THƯỜNG (cùng neuron)
+  Misfolded α-synuclein (seed) + NORMAL α-synuclein (same neuron)
         ↓
-  2 protein TIẾP XÚC VẬT LÝ (physical binding)
+  2 proteins MAKE PHYSICAL CONTACT
         ↓
-  Misfolded protein ÉP THAY ĐỔI HÌNH DẠNG 3D của protein bình thường
+  Misfolded protein FORCES a 3D SHAPE CHANGE on the normal protein
   (conformational change — NOT information transfer)
         ↓
-  Protein bình thường → GẤP SAI THEO (misfold)
+  Normal protein → MISFOLDS TO MATCH (adopts wrong shape)
         ↓
-  Giờ có 2 seed → mỗi cái template thêm → 2→4→8→16...
+  Now there are 2 seeds → each templates more → 2→4→8→16...
         ↓
-  EXPONENTIAL trong 1 neuron → Lewy body → CHẾT
+  EXPONENTIAL within 1 neuron → Lewy body → DEATH
 
-  ⭐ ĐÂY LÀ TƯƠNG TÁC VẬT LÝ, KHÔNG PHẢI "THÔNG TIN":
-    Giống: thả 1 tinh thể vào dung dịch bão hòa → TOÀN BỘ kết tinh
-    KHÔNG phải "gửi tin nhắn kết tinh" → mà là TINH THỂ VẬT LÝ ép đông
+  ⭐ THIS IS A PHYSICAL INTERACTION, NOT "INFORMATION":
+    Like: dropping 1 crystal into supersaturated solution →
+      EVERYTHING crystallizes
+    NOT "sending a crystallization message" →
+      the PHYSICAL CRYSTAL forces solidification
 
-  Hệ thống dọn (autophagy + proteasome) CỐ DỌN:
-    → Nhưng seed NHÂN BẢN NHANH HƠN dọn → THUA
-    → Giống: 1 người quét vs 10 người xả rác → thua
-    → IRREVERSIBLE: cascade TỰ DUY TRÌ từ đây
+  Cleanup systems (autophagy + proteasome) TRY to clear:
+    → But seeds REPLICATE FASTER than cleanup → LOSING
+    → Like: 1 person sweeping vs 10 people littering → can't keep up
+    → IRREVERSIBLE: cascade is SELF-SUSTAINING from this point
 ```
 
-### §3.6 — Physical transfer: α-syn CHUI VÀO neuron khác thật
+### §3.6 — Physical transfer: α-syn PHYSICALLY ENTERS neighboring neurons
 
 ```
-🟢 CƠ CHẾ LAN GIỮA NEURONS:
+🟢 SPREAD MECHANISM BETWEEN NEURONS:
 
-  ⭐ KHÔNG phải "gửi thông tin" → MÀ LÀ protein VẬT LÝ DI CHUYỂN:
+  ⭐ NOT "sending information" → protein PHYSICALLY MOVES:
 
-  5 con đường transfer (tất cả có evidence):
+  5 transfer routes (all have evidence):
 
   ① EXOSOMES (Danzer et al. 2012):
-     Neuron A đóng gói α-syn misfolded VÀO túi nhỏ (30-150nm)
-     → Phóng túi ra ngoài → túi TRÔI tới neuron B
-     → Neuron B "nuốt" túi (endocytosis)
-     → α-syn misfolded GIỜ BÊN TRONG neuron B
+     Neuron A packages misfolded α-syn INTO tiny vesicles (30-150nm)
+     → Releases vesicles into extracellular space → float to Neuron B
+     → Neuron B "ingests" the vesicle (endocytosis)
+     → Misfolded α-syn NOW INSIDE Neuron B
 
   ② TUNNELING NANOTUBES (Rostami et al. 2017):
-     2 neurons tạo ỐNG MÀNG NỐI TRỰC TIẾP (physical bridge)
-     → α-syn misfolded BÒ QUA ống → vào thẳng neuron B
-     → Như đường hầm giữa 2 nhà
+     2 neurons form a DIRECT MEMBRANE TUBE (physical bridge)
+     → Misfolded α-syn CRAWLS THROUGH the tube → enters Neuron B directly
+     → Like a tunnel between two houses
 
   ③ TRANS-SYNAPTIC:
-     Release ở synaptic terminal → uptake bởi neuron đối diện
-     → Đi theo ĐÚNG con đường neurotransmitter bình thường đi
-     → Retrograde (ngược) hoặc anterograde (xuôi)
+     Released at synaptic terminal → taken up by the opposing neuron
+     → Travels the SAME path that neurotransmitters normally travel
+     → Retrograde (backward) or anterograde (forward)
 
   ④ DIRECT SECRETION:
-     α-syn tiết trực tiếp ra khoảng ngoại bào
-     → Neurons lân cận HẤP THU (receptor-mediated)
+     α-syn secreted directly into extracellular space
+     → Neighboring neurons ABSORB it (receptor-mediated)
 
-  ⑤ CELL LYSIS (neuron chết):
-     Neuron chết → màng VỠ → nội dung TRÀN ra
-     → α-syn misfolded BƠI trong dịch ngoại bào
-     → Neurons xung quanh HẤP THU
+  ⑤ CELL LYSIS (neuron death):
+     Dying neuron → membrane RUPTURES → contents SPILL OUT
+     → Misfolded α-syn floats in extracellular fluid
+     → Surrounding neurons ABSORB it
 
-  ⭐ HƯỚNG LAN = THEO BẢN ĐỒ KẾT NỐI VẬT LÝ:
-    Neurons nào NỐI VỚI NHAU qua synapse → đó là đường lan
-    = Braak staging (§4) = BẢN ĐỒ kết nối vật lý = bản đồ lan
-    Giống: lửa cháy lan qua CÂY NỐI LIỀN (proximity), không qua "call"
+  ⭐ DIRECTION OF SPREAD = FOLLOWS PHYSICAL CONNECTIVITY MAP:
+    Whichever neurons ARE CONNECTED via synapse → that's the spread route
+    = Braak staging (§4) = PHYSICAL CONNECTION MAP = spread map
+    Like: fire spreads via ADJACENT TREES (proximity), not via "phone calls"
 ```
 
 ### §3.7 — Remaining neurons overwork → accelerating death
 
 ```
-🟢 "10 NGƯỜI GÁNH NƯỚC" → VÒNG XOÁY TỰ TĂNG TỐC:
+🟢 "10 CARRIERS REDUCED TO 7 → CARRYING 10 PEOPLE'S LOAD":
 
-  Ban đầu: 10 SNc neurons phục vụ striatum
-  → 3 neurons chết (α-syn) → 7 neurons còn lại
-  → 7 neurons phải GÁNHviệc của 10:
-    → Fire NHIỀU HƠN bình thường
-    → Sprout nhánh mới (axonal sprouting)
-    → Tăng dopamine turnover
-    → = Mỗi neuron TẠO NHIỀU OXIDATIVE STRESS HƠN
-    → = Môi trường CÒN TOXIC HƠN
-    → = α-syn dễ misfold HƠN ở neurons overworked
-    → → Chết NHANH HƠN
+  Initially: 10 SNc neurons serve the striatum
+  → 3 neurons die (α-syn) → 7 neurons remain
+  → Those 7 must CARRY the workload of 10:
+    → Fire MORE than normal
+    → Sprout new branches (axonal sprouting)
+    → Increase dopamine turnover
+    → = Each surviving neuron creates MORE OXIDATIVE STRESS
+    → = Environment becomes EVEN MORE TOXIC
+    → = α-syn misfolds MORE EASILY in overworked neurons
+    → → They die FASTER
 
-  → 4 neurons chết nữa → 3 neurons còn lại
-  → 3 neurons gánh việc 10 → overwork CỰC ĐIỂM → chết RẤT NHANH
+  → 4 more neurons die → 3 remain
+  → 3 carry the load of 10 → EXTREME OVERWORK → die VERY QUICKLY
 
   = ACCELERATING DECLINE:
-    Giai đoạn đầu: chậm (compensatory mechanisms mask, §1)
-    Giai đoạn giữa: vừa (symptoms appear, levodopa helps)
-    Giai đoạn muộn: NHANH (ít neurons còn, mỗi cái overload cực)
+    Early stage: slow (compensatory mechanisms mask the loss)
+    Middle stage: moderate (symptoms appear, levodopa helps)
+    Late stage: FAST (few neurons remain, each maximally overloaded)
 
-  Cross-ref Silent Degradation:
-    Fearnley & Lees 1991: ~31% cell bodies chết nhưng ~80% striatal dopamine mất
-    → "Dying back": axon terminals chết TRƯỚC cell bodies
-    → Compensation: neurons còn sống fire nhiều hơn, sprout
-    → Compensation MASK loss cho đến khi THUA → symptoms BURST
+  Silent compensation reference:
+    Fearnley & Lees 1991: ~31% cell bodies dead but ~80% striatal dopamine lost
+    → "Dying back": axon terminals die BEFORE cell bodies
+    → Compensation: surviving neurons fire more, sprout
+    → Compensation MASKS loss until OVERWHELMED → symptoms BURST THROUGH
 
   🟡 Framework parallel:
-    Giống nhưng KHÁC "cortisol neural wear" (Cortisol-Baseline.md §9):
+    Similar to but DIFFERENT from "cortisol neural wear" (Cortisol-Baseline.md §9):
       Cortisol wear: EXTERNAL stress → chronic cortisol → damage
       SNc death: INTERNAL protein cascade → self-accelerating → irreversible
-      Giống: cả 2 = progressive damage
-      Khác: cortisol wear = CÓ THỂ reversible (bỏ stress). Parkinson = KHÔNG THỂ.
+      Similar: both = progressive damage
+      Different: cortisol wear CAN BE reversed (remove stress). Parkinson = CANNOT.
 ```
 
-### §3.8 — Yếu tố BẢO VỆ vs THÚC ĐẨY: ngưỡng CÓ THỂ thay đổi
+### §3.8 — Protective vs Risk factors: the threshold CAN BE SHIFTED
 
 ```
-🟢 YẾU TỐ BẢO VỆ — NÂNG NGƯỠNG (khó vượt hơn):
+🟢 PROTECTIVE FACTORS — RAISE THE THRESHOLD (harder to cross):
 
-  ① VẬN ĐỘNG (strongest modifiable factor):
+  ① EXERCISE (strongest modifiable factor):
      JAMA Network Open 2018 meta-analysis:
-       Vận động nhiều vs ít: OR=0.67 (GIẢM 33% risk)
-     NIH-AARP: vigorous exercise ages 35-39 → OR=0.62 (GIẢM 38%)
-     Swedish cohort: >6h/tuần → GIẢM 43% risk
-     >10 tháng/năm strenuous: GIẢM 60% risk
+       High vs low physical activity: OR=0.67 (33% REDUCED risk)
+     NIH-AARP: vigorous exercise ages 35-39 → OR=0.62 (38% REDUCED)
+     Swedish cohort: >6h/week → 43% risk reduction
+     >10 months/year strenuous: 60% risk reduction
 
-     CƠ CHẾ — BDNF (Brain-Derived Neurotrophic Factor):
-       BDNF = growth factor CHO CHÍNH SNc dopamine neurons
-       → BDNF GIẢM trong não Parkinson patients (postmortem confirmed)
-       → Exercise → BDNF tăng 50-100% ở nigral area (animal)
-       → Meta-analysis 6 studies: ALL improved BDNF with exercise
-       → BDNF haploinsufficient mice: exercise KHÔNG protect
-         = CHỨNG MINH: BDNF là necessary mediator
+     MECHANISM — BDNF (Brain-Derived Neurotrophic Factor):
+       BDNF = growth factor FOR SNc dopamine neurons themselves
+       → BDNF REDUCED in Parkinson patients' brains (postmortem confirmed)
+       → Exercise → BDNF increases 50-100% in nigral area (animal studies)
+       → Meta-analysis 6 studies: ALL showed improved BDNF with exercise
+       → BDNF haploinsufficient mice: exercise does NOT protect
+         = CONFIRMS: BDNF is the necessary mediator
 
-       Exercise → BDNF ↑ → SNc neurons ĐƯỢC BẢO VỆ:
-         → Better mitochondrial function (tăng ATP trong striatum)
-         → Trophic support cho dopaminergic neurons
+       Exercise → BDNF ↑ → SNc neurons PROTECTED:
+         → Better mitochondrial function (increased ATP in striatum)
+         → Trophic support for dopaminergic neurons
          → Anti-oxidative environment
-         = NÂNG NGƯỠNG misfold — cần tích lũy NHIỀU HƠN mới vượt
+         = RAISES THE THRESHOLD for misfolding — needs more buildup to cross it
 
-  ② HÚT THUỐC (MAO-B + CO — §11):
-     RR=0.59 (giảm 41%). Nhưng harm >>> benefit.
-     Tương lai: isolated MAO-B inhibitors + CO donors.
+  ② SMOKING (MAO-B + CO — §11):
+     RR=0.59 (41% reduction). But harm >>> benefit.
+     Future direction: isolated MAO-B inhibitors + CO donors.
 
-🟢 YẾU TỐ THÚC ĐẨY — HẠ NGƯỠNG (dễ vượt hơn):
+🟢 RISK FACTORS — LOWER THE THRESHOLD (easier to cross):
 
-  ① STRESS TÂM LÝ CHRONIC:
+  ① CHRONIC PSYCHOLOGICAL STRESS:
      Sieurin et al. 2018 (n=2,544,748):
-       High job demands → tăng Parkinson risk (đặc biệt nam, high education)
+       High job demands → increased Parkinson risk (especially men, high education)
 
-     CƠ CHẾ — CORTISOL × α-SYNUCLEIN:
+     MECHANISM — CORTISOL × α-SYNUCLEIN:
        Bhatt et al. 2019 (Neurobiology of Aging):
          Chronic cortisol → AGGRAVATES α-syn brain spreading pathology
-         → Accelerate SNc neurodegeneration (direct evidence in animals)
+         → Accelerates SNc neurodegeneration (direct evidence in animals)
 
-       Chain: stress chronic → cortisol ↑ → oxidative damage ↑
+       Chain: chronic stress → cortisol ↑ → oxidative damage ↑
          → mitochondrial dysfunction ↑ → microglia activation
-         → α-syn MÔI TRƯỜNG dễ misfold HƠN
-         → = HẠ NGƯỠNG — ít tích lũy cũng đủ vượt
+         → α-syn environment becomes easier to misfold
+         → = LOWERS THRESHOLD — less accumulation needed to cross it
 
        DOUBLE HIT: cortisol ↑ → BDNF ↓ (inverse relationship)
-         = VỪA tăng toxic VỪA giảm protection = worst combination
+         = SIMULTANEOUSLY increases toxic AND reduces protection = worst combination
 
-  ② THUỐC TRỪ SÂU / DUNG MÔI:
+  ② PESTICIDES/SOLVENTS:
      Paraquat: 150% ↑ risk
      TCE: 500% ↑ risk
      Chlorpyrifos: >2.5× risk
-     Rotenone: trigger α-syn spreading + epigenetic changes
-     → TRỰC TIẾP phá mitochondria (Complex I inhibition)
+     Rotenone: triggers α-syn spreading + epigenetic changes
+     → DIRECTLY damages mitochondria (Complex I inhibition)
      → = Chemical attack ON TOP OF natural aging
 
-  ③ ÍT VẬN ĐỘNG (sedentary):
+  ③ SEDENTARY LIFESTYLE:
      UK Biobank 2025 (401,697 participants):
        Sedentary = independent risk factor
-       BDNF ↓ khi không vận động → SNc MẤT protection
-     → Không phải "gây bệnh" — mà "MẤT protective factor"
+       BDNF ↓ without exercise → SNc LOSES protection
+     → Not "causing disease" — but "LOSING a protective factor"
 
-🟡 NGHỊCH LÝ "LAO ĐỘNG NẶNG":
+🟡 THE "PHYSICAL LABOR" PARADOX:
 
   ┌─────────────────────────────────────────────────────────┐
-  │ Lao động CHÂN TAY (physical) = VẬN ĐỘNG = PROTECT?     │
-  │   → ĐÚNG: physical labor per se does NOT increase risk │
-  │   → Exercise component = PROTECTIVE (BDNF ↑)           │
-  │   → NHƯNG: nếu có pesticide exposure → overwhelm       │
-  │            protection (chemical > exercise benefit)     │
+  │ Physical work (manual labor) = EXERCISE = PROTECTIVE?  │
+  │   → CORRECT: physical labor per se does NOT increase   │
+  │     risk                                               │
+  │   → Exercise component = PROTECTIVE (BDNF ↑)          │
+  │   → BUT: if pesticide exposure → overwhelms protection │
+  │            (chemical > exercise benefit)               │
   │                                                         │
-  │ Lao động ÁP LỰC TÂM LÝ = STRESS = HARM?              │
-  │   → ĐÚNG: chronic psychological demands → cortisol ↑   │
+  │ Cognitive/pressure work = STRESS = HARMFUL?            │
+  │   → CORRECT: chronic psychological demands → cortisol ↑ │
   │   → Aggravate α-syn pathway                            │
-  │   → NHƯNG: nếu cũng vận động nhiều → BDNF counteract  │
+  │   → BUT: if also physically active → BDNF counteracts  │
   │                                                         │
-  │ NGƯỜI THOẢI MÁI + ÍT VẬN ĐỘNG:                         │
-  │   → Cortisol thấp (tốt) + BDNF thấp (xấu) = MIXED    │
-  │   → Thoải mái KHÔNG đủ — cần VẬN ĐỘNG để có BDNF      │
+  │ COMFORTABLE + SEDENTARY:                               │
+  │   → Low cortisol (good) + Low BDNF (bad) = MIXED      │
+  │   → Comfort alone is NOT enough — need EXERCISE for    │
+  │     BDNF                                               │
   │                                                         │
-  │ OPTIMAL: vận động ĐỀU + stress THẤP + tránh toxin     │
-  │   → BDNF cao + cortisol thấp + toxin thấp             │
-  │   → = NGƯỠNG CAO NHẤT có thể (khó vượt nhất)          │
-  │   → Vẫn KHÔNG guarantee (genetics + aging inevitable)  │
+  │ OPTIMAL: regular exercise + low stress + avoid toxins  │
+  │   → High BDNF + low cortisol + low toxin              │
+  │   → = HIGHEST POSSIBLE threshold (hardest to cross)   │
+  │   → Still NO guarantee (genetics + aging are           │
+  │     inevitable)                                        │
   └─────────────────────────────────────────────────────────┘
 
-  ⚠️ Framework observation — KHÔNG thay thế y khoa
-  Mọi quyết định lifestyle/prevention = tham vấn bác sĩ
+  ⚠️ Framework observation only — does NOT replace medical advice
+  All lifestyle/prevention decisions = consult a healthcare professional
 ```
 
 ---
@@ -666,39 +639,40 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §4.1 — 6 stages: α-synuclein ascending
 
 ```
-🟢 BRAAK ET AL. 2003 — 6 stages follow physical connectivity map:
+🟢 BRAAK ET AL. 2003 — 6 stages follow the physical connectivity map:
 
   ┌─────────────────────────────────────────────────────────────────┐
   │ STAGE 1 — Gut (enteric nervous system) + Olfactory bulb        │
-  │   → Constipation, anosmia = earliest signs                      │
-  │   → α-syn may START ở gut → ascend via vagus nerve             │
+  │   → Constipation, anosmia = earliest detectable signs          │
+  │   → α-syn may START in gut → ascend via vagus nerve            │
   ├─────────────────────────────────────────────────────────────────┤
-  │ STAGE 2 — Raphe (serotonin) + Locus coeruleus (NE)             │
+  │ STAGE 2 — Raphe (serotonin) + Locus coeruleus (NE)            │
   │   → Depression, anxiety, RBD, sleep disruption                  │
-  │   → Vẫn PRE-MOTOR — chưa tremor/cứng/chậm                     │
+  │   → Still PRE-MOTOR — no tremor/rigidity/slowness yet          │
   ├─────────────────────────────────────────────────────────────────┤
-  │ STAGE 3 — Substantia Nigra (SNc) + Amygdala                    │
-  │   → MOTOR SYMPTOMS xuất hiện (SNc = gate key)                  │
-  │   → Đây là lúc CHẨN ĐOÁN thường xảy ra                         │
+  │ STAGE 3 — Substantia Nigra (SNc) + Amygdala                   │
+  │   → MOTOR SYMPTOMS appear (SNc = gate key)                     │
+  │   → This is typically when DIAGNOSIS occurs                    │
   ├─────────────────────────────────────────────────────────────────┤
-  │ STAGE 4 — SNc severe + Mesocortex                               │
-  │   → Motor symptoms rõ ràng, medication fluctuations             │
-  │   → Mesolimbic bắt đầu bị → apathy                             │
+  │ STAGE 4 — SNc severely damaged + Mesocortex                    │
+  │   → Motor symptoms pronounced, medication fluctuations          │
+  │   → Mesolimbic beginning to be affected → apathy               │
   ├─────────────────────────────────────────────────────────────────┤
-  │ STAGE 5 — Neocortex (PFC + association areas)                   │
+  │ STAGE 5 — Neocortex (PFC + association areas)                  │
   │   → Executive function decline, MCI                             │
-  │   → Mạch CHÍNH bắt đầu bị (α-syn LAN TỚI cortex)             │
+  │   → PRIMARY CIRCUIT begins to be affected                      │
+  │     (α-syn REACHES the cortex)                                 │
   ├─────────────────────────────────────────────────────────────────┤
-  │ STAGE 6 — Primary sensory + Motor cortex                        │
-  │   → Dementia (PDD), full cortical involvement                   │
-  │   → Mạch chính HƯ NẶNG → levodopa ít tác dụng                 │
+  │ STAGE 6 — Primary sensory + Motor cortex                       │
+  │   → Dementia (PDD), full cortical involvement                  │
+  │   → Primary circuit SEVERELY DAMAGED → levodopa loses effect   │
   └─────────────────────────────────────────────────────────────────┘
 
-  ⚠️ Không phải 100% cases follow trật tự này (🟡 debated)
-  Nhưng PATTERN tổng quát = established
+  ⚠️ Not 100% of cases follow this exact order (🟡 debated)
+  But the overall PATTERN = established
 ```
 
-### §4.2 — Mapping: Braak = bottom-up qua framework architecture
+### §4.2 — Mapping: Braak = bottom-up through framework architecture
 
 ```
 🟡 BRAAK → FRAMEWORK LAYERS:
@@ -706,7 +680,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌───────────┬────────────────┬──────────────────────────────────┐
   │ Braak     │ Framework      │ Systems affected                  │
   ├───────────┼────────────────┼──────────────────────────────────┤
-  │ Stage 1   │ L0 body-base   │ Gut (enteric), olfactory         │
+  │ Stage 1   │ L0 body-base   │ Gut (enteric), olfactory          │
   │ Stage 2   │ L1 body-inputs │ Serotonin, NE, sleep, autonomic  │
   │ Stage 3-4 │ Modulatory +   │ Dopamine (gate key), motor,      │
   │           │ execution      │ mesolimbic (motivation)           │
@@ -717,43 +691,44 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Body-Base.md v3.3: L0 (Alive) + L1 (body-inputs) substrate + observation parameters
   Braak staging: gut/olfactory → brainstem → midbrain → cortex
-  = CÙNG HƯỚNG ĐI LÊN
+  = SAME UPWARD DIRECTION
 
   ⭐ Implication:
-    Tất cả Braak stages = MODULATORY NEURONS chết (Stages 1-4)
-    Stage 5-6 = lần đầu PROCESSING NEURONS (mạch chính) bị
-    = α-synuclein giết mạch PHỤ TRƯỚC (tất cả levels) → rồi lan sang mạch CHÍNH
+    ALL Braak stages 1-4 = MODULATORY NEURONS dying
+    Stages 5-6 = first time PROCESSING NEURONS (primary circuit) are reached
+    = α-synuclein kills SECONDARY CIRCUIT FIRST (all levels) → then spreads
+      to PRIMARY CIRCUIT
 ```
 
-### §4.3 — Gut-brain axis: bệnh bắt đầu từ L0?
+### §4.3 — Gut-brain axis: does the disease start at L0?
 
 ```
 🟡 DUAL-HIT HYPOTHESIS (debated):
 
-  Braak propose: α-syn bắt đầu ở ENTERIC NERVOUS SYSTEM (gut)
-  → Ascend qua vagus nerve → brainstem → midbrain → cortex
+  Braak proposes: α-syn starts in ENTERIC NERVOUS SYSTEM (gut)
+  → Ascends via vagus nerve → brainstem → midbrain → cortex
 
-  Evidence ủng hộ:
+  Supporting evidence:
     → α-syn deposits found in gut of Parkinson patients
     → Vagotomy → reduced Parkinson risk (some epidemiological studies)
     → Constipation = earliest symptom (years-decades before motor)
 
-  "Dual-hit": α-syn xâm nhập CẢ:
+  "Dual-hit": α-syn enters VIA BOTH:
     ① Olfactory bulb → anosmia
     ② Gut → constipation → vagus → brainstem
-    = 2 cửa vào song song
+    = 2 entry points in parallel
 
   Framework interpretation:
-    Nếu đúng → bệnh BẮT ĐẦU ở Body-Base L0 (body's most basic level)
-    → Ascending qua architecture = α-syn FOLLOWS FRAMEWORK STACK
-    ⚠→ Hypothesis — chưa confirmed. Nhiều cases không follow pattern.
+    If correct → disease BEGINS at Body-Base L0 (the body's most fundamental level)
+    → Ascending through the architecture = α-syn FOLLOWS THE FRAMEWORK STACK
+    ⚠ Hypothesis — not confirmed. Many cases don't follow this pattern.
 ```
 
 ---
 
-## §5 — PREDICTION INTACT + EXECUTION FAIL
+## §5 — PREDICTION INTACT + EXECUTION FAILS
 
-### §5.1 — Core: PFC predict ĐÚNG + Gate LOCKED → fail
+### §5.1 — Core: PFC predicts CORRECTLY + Gate LOCKED → fails
 
 ```
 🟡 FRAMEWORK UNIQUE CASE:
@@ -762,39 +737,40 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Domain → Body-Input → Unconscious → Feeling → PFC → Body-Output → Domain
 
   Parkinson (Stage 3-4):
-    → PFC → HOẠT ĐỘNG (prediction model intact)
-    → Body-Output → BỊ CHẶN tại gate (basal ganglia locked)
-    → = "BIẾT nhưng KHÔNG LÀM ĐƯỢC"
+    → PFC → FUNCTIONING (prediction model intact)
+    → Body-Output → BLOCKED at gate (basal ganglia locked)
+    → = "KNOWS what to do but CANNOT DO IT"
 
-  Chưa condition nào khác tạo case này RÕ bằng Parkinson:
-    Addiction: execution works, prediction bị hijack
-    Alzheimer: prediction model TỰ degrade (chunks mất)
-    ADHD: execution works, regulation TUNING khác
-    Depression: motivation depleted, nhưng nếu ĐƯỢC ép → CÓ THỂ execute
-    Parkinson: motivation CÓ THỂ có, prediction ĐÚNG, nhưng GATE LOCKED
+  No other condition creates this case as CLEARLY as Parkinson:
+    Addiction: execution works, prediction HIJACKED
+    Alzheimer: prediction model ITSELF degrades (chunks lost)
+    ADHD: execution works, regulation TUNED differently
+    Depression: motivation depleted, but if FORCED → CAN execute
+    Parkinson: motivation may be PRESENT, prediction CORRECT,
+                but GATE LOCKED
 ```
 
-### §5.2 — Prediction-delta LIÊN TỤC: chronic irresolvable mismatch
+### §5.2 — Continuous prediction-delta: chronic irresolvable mismatch
 
 ```
-🟡 MỖI LẦN CỐ HÀNH ĐỘNG = 1 PREDICTION-DELTA:
+🟡 EVERY MOVEMENT ATTEMPT = 1 PREDICTION-DELTA:
 
-  Normal: PFC predict "bước đi" → body bước đi → match → no delta
-  Parkinson: PFC predict "bước đi" → gate locked → body KHÔNG bước → MISMATCH
+  Normal: PFC predicts "step forward" → body steps → match → no delta
+  Parkinson: PFC predicts "step forward" → gate locked → body DOESN'T step → MISMATCH
 
   Body-Feedback-Mechanism.md: Chunk-Miss dynamics:
-    Expected: "cử động" → Actual: "không cử động"
-    = Chunk-Miss signal EVERY attempt
+    Expected: "movement" → Actual: "no movement"
+    = Chunk-Miss signal ON EVERY ATTEMPT
 
-  KHÁC normal Chunk-Miss:
-    Bình thường: miss → adjust → succeed (resolve in seconds)
-    Parkinson: miss → try harder → STILL fail → CANNOT resolve
+  DIFFERENT from normal Chunk-Miss:
+    Normally: miss → adjust → succeed (resolves in seconds)
+    Parkinson: miss → try harder → STILL fails → CANNOT resolve
     = Chronic IRRESOLVABLE prediction-delta
 
   Accumulation:
-    KHÔNG phải 1 lần shock → mà LIÊN TỤC, mọi lúc, mọi action
-    → Frustration + helplessness + "body phản bội mình"
-    → Cortisol chronic elevation → WORSE cascade (§10)
+    NOT a single shock → but CONTINUOUSLY, at every moment, with every action
+    → Frustration + helplessness + "my body has betrayed me"
+    → Chronically elevated cortisol → WORSENS the cascade (§10)
 ```
 
 ### §5.3 — Freezing of gait: gate overload
@@ -802,54 +778,57 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟢 NUTT ET AL. 2011 (Lancet Neurology):
 
-  FOG = paroxysmal cessation of stepping ("chân dán xuống sàn")
-  ~50% Parkinson patients giai đoạn muộn
-  Triggers: doorways, turning, dual-task, stress
+  Freezing of Gait (FOG) = paroxysmal cessation of stepping
+  ("feet glued to the floor")
+  ~50% of Parkinson patients in later stages
+  Triggers: doorways, turning, dual-task demands, stress
 
 🟡 FRAMEWORK — Gate overload interpretation:
 
-  Basal ganglia gate ALREADY depleted (ít key)
-  → Bình thường: 1 motor program = 1 key → MỞ gate → OK
+  Basal ganglia gate ALREADY depleted (few keys remaining)
+  → Normally: 1 motor program = 1 key → gate OPENS → OK
 
-  Doorway/turning = MULTIPLE motor programs ĐỒNG THỜI:
+  Doorway/turning = MULTIPLE motor programs SIMULTANEOUSLY:
     → Adjust step width + change direction + process spatial info
-    → Mỗi program CẦN key → nhưng KEY KHÔNG ĐỦ cho TẤT CẢ
+    → Each program NEEDS a key → but KEYS NOT SUFFICIENT for ALL
     → Gate CANNOT OPEN for multiple streams simultaneously
     → = SYSTEM FREEZE (no program wins → all blocked)
 
   Analogy:
-    Bình thường (đủ key): 3 cửa, 3 chìa → mở cả 3 → smooth
-    Parkinson (thiếu key): 3 cửa, 0.5 chìa → KHÔNG ĐỦ → tất cả locked → freeze
+    Normal (enough keys): 3 doors, 3 keys → open all 3 → smooth passage
+    Parkinson (few keys): 3 doors, 0.5 key → NOT ENOUGH → all locked → freeze
 
-  Tương tự autism meltdown (sensory overload → PFC offline)
-  nhưng ở MOTOR domain: multiple demands > depleted capacity → HALT
+  Similar to autism sensory meltdown (sensory overload → PFC offline)
+  but in the MOTOR domain: multiple demands > depleted capacity → HALT
 ```
 
-### §5.4 — Masked face + soft voice: social gate also locked
+### §5.4 — Masked face + soft voice: the social gate is also locked
 
 ```
 🟢 HYPOMIMIA + HYPOPHONIA:
 
-  Facial muscles CŨNG đi qua basal ganglia gate:
-    → Hypomimia: biểu cảm GIẢM → mặt "đeo mặt nạ"
-    → Bên trong CÓ CẢM XÚC — KHÔNG biểu đạt ĐƯỢC
+  Facial muscles ALSO pass through the basal ganglia gate:
+    → Hypomimia: reduced expressions → "mask-like face"
+    → The EMOTION IS PRESENT inside — just CANNOT be expressed
 
-  Vocal muscles cũng bị:
-    → Hypophonia: giọng NHỎ DẦN, monotone
-    → Patient KHÔNG nhận ra giọng nhỏ (body-feedback mismatch)
+  Vocal muscles also affected:
+    → Hypophonia: voice grows QUIETER, monotone
+    → Patients DON'T REALIZE their voice is quiet
+        (body-feedback mismatch)
 
   🟡 Social prediction-delta:
-    Người khác Self-Pattern-Modeling patient → "sao mặt lạnh?" → MISATTRIBUTE
-    Patient CẢM nhưng KHÔNG output → Connection DISRUPTED
-    = Prediction INTACT + Expression FAIL (cùng pattern, social domain)
-    = Social isolation CHỈ VÌ gate locked, không phải emotional fail
+    Others apply Self-Pattern-Modeling to the patient → "why so cold?" →
+      MISATTRIBUTE the cause
+    Patient FEELS but CANNOT output → Connection DISRUPTED
+    = Prediction INTACT + Expression FAILS (same pattern, social domain)
+    = Social isolation PURELY BECAUSE gate is locked, not emotional failure
 ```
 
 ---
 
 ## §6 — 3 DOPAMINE PATHWAYS × DEPLETION
 
-### §6.1 — Nigrostriatal (SNc→Striatum): MOTOR — bị TRƯỚC, NẶNG nhất
+### §6.1 — Nigrostriatal (SNc→Striatum): MOTOR — affected FIRST, MOST severely
 
 ```
 🟢 PATHWAY #1 — Motor gate key:
@@ -857,11 +836,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Origin: Substantia Nigra pars compacta (SNc)
   Target: Dorsal Striatum (putamen + caudate)
   Function: Gate key for motor execution
-  = CÁI CHẾT CHÍNH trong Parkinson
+  = THE PRIMARY SITE OF DESTRUCTION in Parkinson's
 
-  Putamen posterior bị TRƯỚC (caudal-to-rostral gradient)
-  = ~80% putamenal dopamine MẤT khi motor symptoms appear
-  Levodopa nhắm vào pathway NÀY
+  Posterior putamen affected FIRST (caudal-to-rostral gradient)
+  = ~80% of putamenal dopamine LOST when motor symptoms appear
+  Levodopa targets THIS pathway
 ```
 
 ### §6.2 — Mesolimbic (VTA→NAcc): MOTIVATION — relatively spared early
@@ -872,38 +851,39 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Origin: VTA (Ventral Tegmental Area)
   Target: NAcc (Nucleus Accumbens) + ventral striatum
   Function: Salience detection, wanting, motivation
-  = "CHUÔNG CỬA" (Dopamine-Is-Not-Reward.md)
+  = "THE DOORBELL" (Dopamine-Is-Not-Reward.md)
 
-  Trong Parkinson: VTA neurons SPARED nhiều hơn SNc (early-mid)
-  → NHƯNG affected LATER → apathy, anhedonia (motivational)
-  → ⚠️ Khi levodopa dose cho nigrostriatal → mesolimbic BỊ OVERDOSE (§8)
+  In Parkinson: VTA neurons SPARED more than SNc (early-to-mid stages)
+  → BUT affected LATER → apathy, motivational anhedonia
+  → ⚠️ When levodopa dose targets nigrostriatal → mesolimbic gets OVERDOSED (§8)
 
   🟡 Wanting/Liking dissociation:
-    VTA depleted → "chuông ít reo" → less seeking, less motivation
+    VTA depleted → "doorbell rings less" → less seeking, less motivation
     Opioid body-base INTACT → can still enjoy IF stimulus arrives
     = Sienkiewicz-Jarosz 2005: taste pleasantness UNCHANGED in Parkinson
-    = Loas 2012: anhedonia in Parkinson = MOTIVATIONAL (can't want), not hedonic (can enjoy)
+    = Loas 2012: anhedonia in Parkinson = MOTIVATIONAL (can't want), not
+      hedonic (can still enjoy)
     = 7-step: Steps 2-4 WEAKENED, Step 5 PRESERVED
 ```
 
 ### §6.3 — Mesocortical (VTA→PFC): COGNITION — affected latest
 
 ```
-🟢 PATHWAY #3 — PFC fuel:
+🟢 PATHWAY #3 — PFC fuel supply:
 
   Origin: VTA
   Target: Prefrontal Cortex
   Function: Executive function, working memory, attention
-  = "NHIÊN LIỆU" cho PFC
+  = "FUEL" for the PFC
 
-  Trong Parkinson: affected MUỘN NHẤT (Braak Stage 5)
-  → ~30% develop MCI trong 5 năm đầu
-  → ~75-80% develop dementia sau 10+ năm
+  In Parkinson: affected LATEST (Braak Stage 5)
+  → ~30% develop MCI within the first 5 years
+  → ~75-80% develop dementia after 10+ years
 
   🟡 Framework:
-    Mesocortical depletion = PFC's fuel supply cuts
-    → PFC capacity GIẢM → observation + orchestration WEAKEN
-    → ĐÂY là lúc MẠCH CHÍNH cũng bắt đầu fail
+    Mesocortical depletion = PFC's fuel supply cuts off
+    → PFC capacity DECLINES → observation + orchestration WEAKENS
+    → THIS is when PRIMARY CIRCUIT also begins to fail
       (not just gate locked → PFC ITSELF weakened)
 
   Timeline:
@@ -912,43 +892,45 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ③ Mesocortical: LATEST → cognition degrades (Stage 5)
 ```
 
-### §6.4 — Novelty detection impaired: world "goes flat"
+### §6.4 — Novelty detection impaired: the world "goes flat"
 
 ```
 🟡 FRAMEWORK SYNTHESIS:
 
-  Novelty.md §1: VTA detect positive prediction-delta → "something new"
-  Parkinson: VTA neurons GRADUALLY LOST → less detection
+  Novelty.md §1: VTA detects positive prediction-delta → "something new here"
+  Parkinson: VTA neurons GRADUALLY LOST → less and less detection
 
   Result: world becomes FLAT — less salient, less engaging
-  → "Tôi biết phim hay nhưng chẳng muốn xem" = wanting≠liking in action
+  → "I know the movie is good but I have no desire to watch it"
+      = wanting ≠ liking in action
   → When stimulus IS DELIVERED → response CAN BE appropriate
-  → Problem = INITIATION, not response
-  → = VTA "chuông" KHÔNG reo, nhưng nếu ai MỞ CỬA giúp → quà VẪN Ở ĐÓ
+  → Problem = INITIATION, not the response capacity itself
+  → = VTA "doorbell" DOESN'T RING, but if someone OPENS THE DOOR for you
+      → the gift is STILL THERE
 ```
 
 ---
 
-## §7 — NON-MOTOR × FRAMEWORK
+## §7 — NON-MOTOR SYMPTOMS × FRAMEWORK
 
-### §7.1 — Depression: HARDWARE, không phải "buồn vì bệnh"
+### §7.1 — Depression: HARDWARE failure, not "sadness about being ill"
 
 ```
-🟢 DEPRESSION IN Parkinson:
+🟢 DEPRESSION IN PARKINSON'S:
 
   Prevalence: ~38% (meta-analysis >38,000 patients)
-  CÓ THỂ xuất hiện TRƯỚC motor (Braak Stage 2)
+  CAN APPEAR BEFORE motor symptoms (Braak Stage 2)
 
-  3 hệ MODULATORY bị ĐỒNG THỜI:
+  3 MODULATORY SYSTEMS FAILING SIMULTANEOUSLY:
     ① Serotonin (raphe — Stage 2): stability ↓
     ② NE (locus coeruleus — Stage 2): arousal/energy ↓
     ③ Dopamine (VTA — Stage 3+): motivation/reward ↓
-    = Compound effect → depression NẶNG HƠN "reactive" alone
+    = Compound effect → depression HEAVIER than "reactive sadness" alone
 
   🟡 Framework: depression in Parkinson = HARDWARE depression
-    3 modulatory systems ĐANG CHẾT → không chỉ "tâm lý buồn vì bệnh"
-    Cross-ref Nicotine v1.1 §5: smoker restore depleted NT → "tưởng enhancement"
-    Parkinson: NT ĐANG depleted → depression = depletion manifestation
+    3 modulatory systems ARE DYING → not just "psychologically sad about the illness"
+    Cross-ref Nicotine v1.1 §5: smoker restores depleted NT → "feels like enhancement"
+    Parkinson: NT IS BEING depleted → depression = manifestation of depletion
 ```
 
 ### §7.2 — Apathy vs Depression: DRIVE vs MOOD (separate circuits)
@@ -956,18 +938,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟢 APATHY ≠ DEPRESSION:
 
-  Apathy prevalence: ~24% (CÓ THỂ không có depression)
+  Apathy prevalence: ~24% (CAN occur WITHOUT depression)
   = Loss of motivation, reduced goal-directed behavior
 
-  ┌──────────┬──────────────────────────────────────────────┐
-  │ Apathy   │ VTA/mesolimbic weakened → DRIVE system off   │
-  │          │ "Chuông không reo → không đi mở cửa"         │
-  │          │ = Anticipatory anhedonia (can't WANT)         │
-  ├──────────┼──────────────────────────────────────────────┤
-  │ Depression│ Serotonin + NE + compound                   │
-  │          │ = Mood stability impaired + energy LOW       │
-  │          │ = Imagine-Final collapsed (hopelessness)      │
-  └──────────┴──────────────────────────────────────────────┘
+  ┌──────────────┬──────────────────────────────────────────────┐
+  │ Apathy       │ VTA/mesolimbic weakened → DRIVE system off   │
+  │              │ "Doorbell doesn't ring → no reason to answer"│
+  │              │ = Anticipatory anhedonia (can't WANT)         │
+  ├──────────────┼──────────────────────────────────────────────┤
+  │ Depression   │ Serotonin + NE + compound depletion          │
+  │              │ = Mood stability impaired + energy LOW        │
+  │              │ = Imagine-Final collapsed (hopelessness)      │
+  └──────────────┴──────────────────────────────────────────────┘
 
   Separate neural circuits → treat differently
 ```
@@ -978,99 +960,100 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟢 REM SLEEP BEHAVIOR DISORDER:
 
   Normal REM: brainstem inhibits muscles → atonia (can't move while dreaming)
-  RBD: inhibitory pathway DAMAGED → act out dreams (kick, punch, yell)
-  >80% RBD → convert to Parkinson/synucleinopathy (8-15 years before motor)
+  RBD: inhibitory pathway DAMAGED → acts out dreams (kicks, punches, yells)
+  >80% of RBD cases → convert to Parkinson/synucleinopathy (8-15 years before motor)
 
   🟡 Framework: Body-Output gate (Core-Software §7) has INHIBITORY GATE during sleep
     Normally: gate LOCKED during REM (feature: don't act out dreams)
     RBD: α-syn damages gate mechanism → gate LEAKS → output fires during processing
-    = Gate problem DURING SLEEP (leaks open) vs Gate problem AWAKE (stuck closed)
+    = Gate problem DURING SLEEP (leaks open) vs gate problem AWAKE (stuck closed)
 ```
 
-### §7.4 — Pain (66-76%) + Autonomic (70-80%): body-base inputs NOISY
+### §7.4 — Pain (66-76%) + Autonomic (70-80%): body-base inputs become NOISY
 
 ```
 🟢 PAIN:
   Prevalence: 66-76%. Types: musculoskeletal/radicular/central/dystonic.
   Dopamine participates in pain modulation (descending inhibition)
-  → Depleted → pain threshold GIẢM → hyperalgesia
+  → Depleted → pain threshold FALLS → hyperalgesia
   = Body-feedback AMPLIFIED (broken modulator)
 
 🟢 AUTONOMIC:
-  GI dysfunction: 70-80% (constipation = earliest/most common)
+  GI dysfunction: 70-80% (constipation = earliest and most common)
   Orthostatic hypotension: 30-50%
   Urinary, thermoregulation, sexual dysfunction
 
   🟡 Framework: L1 body-inputs becoming NOISY
     Blood pressure oscillates → false "danger" signals
-    GI slowed → hunger/satiety DISTORTED
-    = Raw data FOR entire architecture → UNRELIABLE
+    GI slowed → hunger/satiety signals DISTORTED
+    = Raw data FOR the entire architecture → UNRELIABLE
     → All downstream processing (calibration, decision) runs on BAD DATA
 ```
 
-### §7.5 — Compound cascade: multiple systems → self-reinforcing
+### §7.5 — Compound cascade: multiple failing systems → self-reinforcing
 
 ```
-🟡 VÒNG XOÁY:
+🟡 THE VICIOUS CYCLE:
 
-  Depression → ÍT vận động → motor WORSE → more depression
+  Depression → LESS exercise → motor WORSE → more depression
   Pain → cortisol ↑ → worse symptoms → more pain
-  Sleep disrupted → cognitive WORSE → fatigue → rigidity ↑
-  Apathy → ít social → isolation → depression WORSE
-  Autonomic noisy → anxiety ↑ → cortisol ↑ → cascade ↑
+  Disrupted sleep → cognition WORSE → fatigue → rigidity ↑
+  Apathy → less social → isolation → depression WORSE
+  Autonomic noise → anxiety ↑ → cortisol ↑ → cascade ↑
 
-  = Mỗi system degrade AMPLIFY hệ khác
+  = Each failing system AMPLIFIES the others
   = NOT linear progression — accelerating cascade
   Framework CAN observe patterns. Framework CANNOT prescribe treatment order.
 ```
 
 ---
 
-## §8 — LEVODOPA PARADOX
+## §8 — THE LEVODOPA PARADOX
 
-### §8.1 — Levodopa = cung cấp key từ bên ngoài
+### §8.1 — Levodopa = supplying the key from outside
 
 ```
 🟢 MECHANISM:
 
   L-DOPA (levodopa) = precursor → crosses blood-brain barrier
   → Remaining SNc neurons CONVERT L-DOPA → dopamine
-  → Dopamine → vào Striatum → MỞ GATE → movement phục hồi
+  → Dopamine → into Striatum → OPENS GATE → movement restored
 
   Motor improvement: UPDRS ~30-50%
-  "Gold standard" treatment since 1960s
+  "Gold standard" treatment since the 1960s
 
-  TẠI SAO WORKS:
-    Mạch chính CÒN NGUYÊN (§2.3) → chỉ cần KEY → gate mở → execute
-    = Cung cấp chìa khóa thay thế cho chìa đã mất
+  WHY IT WORKS:
+    Primary circuit STILL INTACT (§2.3) → just needs the KEY → gate opens → executes
+    = Supplying a replacement key for the one that was lost
 ```
 
-### §8.2 — Dopamine Overdose Hypothesis
+### §8.2 — The Dopamine Overdose Hypothesis
 
 ```
 🟢 GOTHAM ET AL. 1988 + COOLS 2001/2003:
 
   ┌─────────────────────────────────────────────────────────────────┐
   │ NIGROSTRIATAL (dorsal striatum) — severely depleted (~20% left) │
-  │   → Levodopa dose nhắm ĐÂY → dopamine 20% → 60% → GATE OPENS │
-  │   → Motor IMPROVES ✓                                            │
+  │   → Levodopa dose targets HERE → dopamine 20% → 60% → GATE     │
+  │     OPENS → Motor IMPROVES ✓                                   │
   ├─────────────────────────────────────────────────────────────────┤
   │ MESOLIMBIC (ventral striatum) — relatively INTACT (~70% left)   │
-  │   → CÙNG levodopa dose → ventral 70% + thêm → 110%+ → OVER    │
-  │   → Reward evaluation IMPAIRED → impulse control MẤT ✗          │
+  │   → SAME levodopa dose → ventral 70% + more → 110%+ → OVER    │
+  │   → Reward evaluation IMPAIRED → impulse control LOST ✗         │
   └─────────────────────────────────────────────────────────────────┘
 
-  = Treat ONE pathway → OVERDOSE ANOTHER (Goldilocks violated across pathways)
-  = Không thể đạt Goldilocks cho CẢ HAI cùng lúc
-    vì 2 pathways ở 2 states KHÁC NHAU (1 depleted, 1 intact)
+  = Treating ONE pathway → OVERDOSING ANOTHER (Goldilocks violated across pathways)
+  = IMPOSSIBLE to achieve Goldilocks for BOTH simultaneously
+    because 2 pathways are in 2 DIFFERENT STATES
+    (one depleted, one intact)
 ```
 
-### §8.3 — ICDs: 13.6% (Weintraub 2010, n=3,090)
+### §8.3 — Impulse Control Disorders: 13.6% (Weintraub 2010, n=3,090)
 
 ```
 🟢 IMPULSE CONTROL DISORDERS:
 
-  Overall: 13.6% treated Parkinson patients
+  Overall: 13.6% of treated Parkinson patients
   On dopamine agonists: 17.1% (OR=2.72) vs no agonists: 6.9%
   3.9% had 2+ ICDs simultaneously
 
@@ -1078,36 +1061,36 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
          Binge eating (4.3%) | Hypersexuality (3.5%)
 
   D3 receptor agonists (pramipexole, ropinirole):
-    → D3 concentrated ở mesolimbic → trực tiếp hyperstimulate reward
-    → TỆ HƠN levodopa cho ICDs
+    → D3 concentrated in mesolimbic → directly hyperstimulates reward
+    → WORSE than levodopa for ICDs
 ```
 
 ### §8.4 — Levodopa efficacy DECLINES over time
 
 ```
-🟢 TIMELINE EFFICACY LOSS:
+🟢 EFFICACY TIMELINE:
 
-  Early (0-5 năm): "Honeymoon period"
+  Early (0-5 years): "Honeymoon period"
     → Levodopa works well, stable response
     → Enough converter neurons remain → smooth dopamine production
 
-  Mid (5-10 năm): "Wearing off" + Fluctuations
+  Mid (5-10 years): "Wearing off" + Fluctuations
     → Fewer converter neurons → less storage capacity
     → Half-life ~90 min → effect wears off FASTER
     → ON/OFF oscillations: medication works → suddenly doesn't
     → "Narrow therapeutic window" shrinks
 
-  Late (10+ năm): Declining efficacy
-    → Very few converters left → minimal conversion
-    → + α-syn HAS REACHED cortex (Stage 5-6) → mạch CHÍNH cũng hư
-    → = Even with key (levodopa) → the ROOM BEHIND the gate also damaged
+  Late (10+ years): Declining efficacy
+    → Very few converters remain → minimal conversion
+    → + α-syn HAS REACHED the cortex (Stage 5-6) → PRIMARY CIRCUIT also damaged
+    → = Even with the key (levodopa) → the ROOM BEHIND THE GATE is also collapsing
     → Non-dopaminergic symptoms dominate (don't respond to levodopa)
 
   🟡 Framework:
-    Early: gate locked + key provided → gate opens → execute ✓
+    Early: gate locked + key provided → gate opens → executes ✓
     Mid: key provided but FEWER LOCKSMITHS (converters) → intermittent
     Late: key provided + gate opens BUT room behind gate COLLAPSING → less benefit
-    = Levodopa treats GATE problem → CANNOT treat MẠCH CHÍNH degradation
+    = Levodopa treats the GATE problem → CANNOT treat PRIMARY CIRCUIT degradation
 ```
 
 ### §8.5 — ON/OFF: prediction model oscillates
@@ -1115,21 +1098,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟡 ON/OFF FLUCTUATIONS:
 
-  "ON": medication working → motor OK → "bình thường"
-  "OFF": medication wearing off → gate LOCKS AGAIN → freeze/slow
+  "ON": medication working → motor functional → "normal"
+  "OFF": medication wearing off → gate LOCKS AGAIN → freeze/slowness
 
   Framework:
-    Patient must maintain 2 "models": "tôi ON" vs "tôi OFF"
-    Transition SUDDEN (minutes) → unpredictable
+    Patient must maintain 2 "models": "I am ON" vs "I am OFF"
+    Transition is SUDDEN (minutes) → unpredictable
     → Planning IMPOSSIBLE → Imagine-Final DISRUPTED
-    → Chronic uncertainty = cortisol elevated
+    → Chronic uncertainty = chronically elevated cortisol
 ```
 
 ---
 
 ## §9 — DBS: HARDWARE INTERVENTION
 
-### §9.1 — Mechanism: disrupt pathological beta oscillations
+### §9.1 — Mechanism: disrupting pathological beta oscillations
 
 ```
 🟢 BENABID (1987 discovery, 2009 Lancet Neurology):
@@ -1137,70 +1120,70 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Target: Subthalamic Nucleus (STN)
   Method: implant electrode → chronic high-frequency stimulation (>100 Hz)
   Motor improvement: ~50.5% UPDRS-III
-  Allow medication reduction: ~50-60% levodopa dose giảm
+  Allows medication reduction: ~50-60% less levodopa required
 
 🟡 MECHANISM (leading theory, not fully proven):
-  Parkinson: exaggerated beta oscillations (13-30 Hz) trong basal ganglia
+  Parkinson: exaggerated beta oscillations (13-30 Hz) in basal ganglia
   = Gate STUCK in "locked" rhythm (pathological oscillation)
-  DBS: HIGH FREQUENCY → JAMS beta rhythm → gate can FLUCTUATE normally
-  = "Information lesion" — functionally overrides pathological pattern
+  DBS: HIGH FREQUENCY → JAMS the beta rhythm → gate can fluctuate normally again
+  = "Information lesion" — functionally overrides the pathological pattern
 ```
 
-### §9.2 — Framework: external signal REPLACES internal
+### §9.2 — Framework: external signal REPLACES the internal one
 
 ```
 🟡 FRAMEWORK INTERPRETATION:
 
-  Normal: SNc dopamine → modulate gate → smooth opening/closing
+  Normal: SNc dopamine → modulates gate → smooth opening/closing
   Parkinson: SNc dead → gate stuck locked (beta oscillation)
-  DBS: external electricity → OVERRIDE stuck pattern → gate unstuck
+  DBS: external electricity → OVERRIDES the stuck pattern → gate unstuck
 
-  KHÁC levodopa:
-    Levodopa: provide CHEMICAL key → gate opens via normal mechanism
-    DBS: provide ELECTRICAL override → gate unstuck via forced rhythm
+  DIFFERENT from levodopa:
+    Levodopa: provides CHEMICAL key → gate opens via normal mechanism
+    DBS: provides ELECTRICAL override → gate unstuck via forced rhythm
     = 2 approaches, same goal (unlock gate), different mechanism
 
-  NHƯNG DBS ≠ cure:
-    → Neurons vẫn đang chết → underlying disease PROGRESSES
+  BUT DBS ≠ cure:
+    → Neurons are still dying → underlying disease PROGRESSES
     → Fixed frequency → no nuance/flexibility
-    → = Bypass, không phải fix
+    → = Bypass, not a fix
 ```
 
-### §9.3 — Side effects: tradeoff
+### §9.3 — Side effects: the tradeoff
 
 ```
 🟢 DBS SIDE EFFECTS:
 
-  Speech: intelligibility ↓ ~14% (current spread to adjacent tracts)
-  Mood: hypomania 4-15%, depression 25%, apathy peaks ~4 months
-  Cognition: verbal fluency decline (most consistent)
+  Speech: intelligibility ↓ ~14% (current spreads to adjacent tracts)
+  Mood: hypomania 4-15%, depression 25%, apathy peaks ~4 months post-op
+  Cognition: verbal fluency decline (most consistent finding)
   Suicide: attempt 0.90%, completed 0.45% (higher than general Parkinson)
 
-  🟡 Framework: DBS = TRADEOFF (not cure)
+  🟡 Framework: DBS = TRADEOFF (not a cure)
     Motor GAIN × (speech + mood + cognition) COST
-    = Electricity leak to adjacent circuits → collateral damage
-    = Specificity problem: unlock motor gate → disturb neighbor circuits
+    = Electricity leaks into adjacent circuits → collateral damage
+    = Specificity problem: unlocking motor gate → disturbing neighboring circuits
 ```
 
 ---
 
-## §10 — BODY-FEEDBACK TRONG PARKINSON
+## §10 — BODY-FEEDBACK IN PARKINSON'S
 
-### §10.1 — Chronic prediction-delta: multiple sources simultaneously
+### §10.1 — Chronic prediction-delta: multiple concurrent sources
 
 ```
-🟡 PREDICTION-DELTA SOURCES (concurrent):
+🟡 PREDICTION-DELTA SOURCES (all concurrent):
 
-  ① Motor: "muốn đi" → "không đi được" (EVERY movement attempt)
-  ② Autonomic: BP drops → "chóng mặt" (unexpected)
+  ① Motor: "want to walk" → "can't walk" (EVERY movement attempt)
+  ② Autonomic: BP drops → "dizzy" (unexpected)
   ③ Pain: body-feedback AMPLIFIED (broken modulator)
-  ④ Social: "muốn cười" → "mặt không cử động" (expression fail)
-  ⑤ Cognitive (later): "muốn nhớ" → "không nhớ" (memory fail)
+  ④ Social: "want to smile" → "face doesn't move" (expression fails)
+  ⑤ Cognitive (later): "want to remember" → "can't recall" (memory fails)
 
   = MULTIPLE concurrent IRRESOLVABLE prediction-deltas
   → Body-feedback: chronic dissonance load
-  → Cortisol elevated chronically
-  → Cortisol → hippocampal damage → cognitive WORSE → more delta
+  → Cortisol chronically elevated
+  → Cortisol → hippocampal damage → cognition WORSE → more delta
   = Self-reinforcing degradation loop
 ```
 
@@ -1211,61 +1194,61 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   PRINCIPLE 1 — Reduce prediction-delta:
     → Predictable routine (reduce surprise)
-    → Adjust expectations (narrow model-reality gap)
+    → Adjust expectations (narrow the model-reality gap)
     → External execution support (cane, walker, caregiver)
     → Environment design (remove doorway triggers, reduce dual-task)
-    = REDUCE delta magnitude → reduce cortisol → slow cascade
+    = REDUCE delta magnitude → reduce cortisol → slow the cascade
 
   PRINCIPLE 2 — Maintain BDNF (§3.8):
     → Exercise maintains BDNF → SNc neurons PROTECTED
-    → BDNF ↑ → trophic support → slow neurodegeneration
+    → BDNF ↑ → trophic support → slows neurodegeneration
     → Yale 2025: high-intensity exercise can REVERSE some neurodegeneration
     → Exercise = ONLY intervention shown to BOTH reduce symptoms AND slow progression
     = MAINTAIN protection for remaining neurons
 
   PRINCIPLE 3 — Reduce chronic stress/cortisol:
-    → Cortisol chronic → aggravate α-syn (§3.8)
+    → Cortisol chronic → aggravates α-syn (§3.8)
     → Parkinson itself GENERATES chronic stress (prediction-delta → cortisol)
     → = Need to BREAK the loop: reduce delta → reduce cortisol → slow α-syn
     → Social support, routine, meaning → reduce cortisol
-    → Exercise → reduce cortisol + increase BDNF = double benefit
+    → Exercise → reduces cortisol + increases BDNF = double benefit
 
   ⚠️ Framework principles only — clinical implementation = healthcare professionals
 ```
 
 ---
 
-## §11 — NICOTINE × PARKINSON BRIDGE (File 1→2)
+## §11 — NICOTINE × PARKINSON BRIDGE (File 1 → File 2)
 
 ### §11.1 — Epidemiological association: RR=0.59
 
 ```
 🟢 HERNÁN ET AL. 2002 (meta-analysis, 48 studies):
 
-  Ever smokers: RR = 0.59 [95% CI: 0.54-0.63] (giảm 41% risk)
-  Current smokers: RR = 0.39 [0.32-0.47] (giảm 61% risk)
+  Ever-smokers: RR = 0.59 [95% CI: 0.54-0.63] (41% REDUCED risk)
+  Current smokers: RR = 0.39 [0.32-0.47] (61% REDUCED)
   Dose-response: more smoking = lower risk
   Effect wanes after quitting
 
-  ⚠️ KHÔNG ĐỀ XUẤT hút thuốc. Harm >>> potential benefit.
+  ⚠️ NOT advocating smoking. Harm >>> any potential benefit.
 ```
 
-### §11.2 — NIC-PD Trial 2024: nicotine KHÔNG phải chất bảo vệ
+### §11.2 — NIC-PD Trial 2024: nicotine is NOT the protective agent
 
 ```
 🟢 NIC-PD 2024 (NEJM Evidence, n=162):
 
   Nicotine patches 28mg/day × 1 year
   Result: NO BENEFIT. Trended WORSE.
-  Meta-analysis 2025 confirmed: nicotine patches không hiệu quả.
+  2025 meta-analysis confirmed: nicotine patches are ineffective.
 
   Rose, Schwarzschild & Gomperts 2024:
-  "Nicotine hypothesis is LARGELY DISPROVEN"
+  "The nicotine hypothesis is LARGELY DISPROVEN"
 
-  ⭐ CONNECTS TO NICOTINE v1.1:
-    Thuốc LÁ ≠ nicotine (MAO-I × AcH × CO = multiplicative)
+  ⭐ CONNECTS TO NICOTINE FILE v1.1:
+    CIGARETTES ≠ nicotine (MAO-I × AcH × CO = multiplicative)
     NIC-PD tested nicotine ALONE → failed
-    → Protective factor = OTHER smoke compounds
+    → Protective agent = OTHER compounds in cigarette smoke
 ```
 
 ### §11.3 — Candidate protective factors: MAO-B, CO, CYP450
@@ -1274,11 +1257,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 3 CANDIDATES (from tobacco smoke, NOT nicotine):
 
   ① MAO-B INHIBITORS:
-     Fowler 1996: smokers 40% MAO-B reduction
+     Fowler 1996: smokers have 40% MAO-B reduction
      MAO-B breaks down dopamine → produces OXIDATIVE STRESS on SNc
-     Inhibit MAO-B → LESS oxidative damage → α-syn slower to misfold
+     Inhibit MAO-B → LESS oxidative damage → α-syn misfolds more slowly
      ⭐ Selegiline/Rasagiline (MAO-B inhibitors) = ACTUAL Parkinson DRUGS
-     = Thuốc lá chứa compound mà THUỐC CHỮA Parkinson CŨNG DÙNG
+     = Cigarettes contain a compound that PARKINSON DRUGS ALSO USE
 
   ② CARBON MONOXIDE (CO):
      Low-dose CO → neuroprotective in MPTP + α-syn animal models
@@ -1287,28 +1270,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ③ CYP450 INDUCTION:
      Smoking → CYP1A2, CYP2E1 enzymes upregulated
-     → Better at DETOXIFYING pesticides/solvents that damage SNc
-     = Indirect protection: remove ATTACKERS rather than protect neurons
+     → Better at DETOXIFYING the pesticides/solvents that damage SNc
+     = Indirect protection: removing ATTACKERS rather than directly protecting neurons
 
-  🟡 DUAL ROLE insight (Nicotine v1.1 connection):
-    CÙNG compounds (MAO-I, CO):
-      → GÂY NGHIỆN mạnh hơn (amplify addiction architecture)
-      → BẢO VỆ NEURON khỏi oxidative damage
+  🟡 DUAL ROLE insight (connecting to Nicotine file):
+    THE SAME compounds (MAO-I, CO):
+      → STRENGTHEN ADDICTION (amplify addiction architecture)
+      → PROTECT NEURONS from oxidative damage
     = Harmful for addiction, potentially protective for neurodegeneration
     = Future: isolate protective compounds WITHOUT smoking
 ```
 
-### §11.4 — Reverse causation debate
+### §11.4 — The reverse causation debate
 
 ```
 🟡 3 POSITIONS:
 
   ① CAUSAL: smoking genuinely protects
-     → MR studies favor causality, dose-response, 65-year prospective data
+     → Mendelian randomization studies favor causality; dose-response;
+       65-year prospective data
 
-  ② REVERSE: Parkinson prodrome → less smoking
-     → Prodromal low novelty-seeking (decades before motor) → less likely to smoke
-     → Framework: VTA early depletion → less reward from smoking → quit easier
+  ② REVERSE CAUSATION: Parkinson prodrome → less smoking
+     → Prodromal low novelty-seeking (decades before motor) → less likely to start
+     → Framework: early VTA depletion → less reward from smoking → quit more easily
 
   ③ BOTH: partially causal + partially reverse (MOST LIKELY)
      British doctors data argues against PURE reverse causation
@@ -1318,50 +1302,52 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §12 — "PARKINSON PANDEMIC" + DECLINING SMOKING
+## §12 — THE "PARKINSON PANDEMIC" + DECLINING SMOKING
 
-### §12.1 — Parkinson đang tăng toàn cầu (age-adjusted)
+### §12.1 — Parkinson incidence is rising globally (age-adjusted)
 
 ```
 🟢 DORSEY ET AL. 2018 + GBD 2021 + BMJ 2025:
 
-  1990: ~2.5 triệu → 2015: >6 triệu (GẤP ĐÔI)
-  2050 projection: 25.2 triệu
+  1990: ~2.5 million → 2015: >6 million (DOUBLED)
+  2050 projection: 25.2 million
 
-  AGE-STANDARDIZED (không chỉ vì dân già):
-    Global ASIR: +1.11%/năm (1990-2021)
-    Young-onset (20-49): +1.40%/năm
-    USA: +2.87%/năm
+  AGE-STANDARDIZED (not just because of an aging population):
+    Global ASIR: +1.11%/year (1990-2021)
+    Young-onset (20-49): +1.40%/year
+    USA: +2.87%/year
 
   = GENUINE INCREASE, not just demographics
 ```
 
-### §12.2 — 3 drivers: aging + smoking decline + pesticides
+### §12.2 — 3 drivers: aging + declining smoking + pesticides
 
 ```
 🟢 DORSEY IDENTIFIED 3 DRIVERS:
 
   ① AGING (~89% of projected increase):
-     Parkinson risk exponential with age + global aging = more people in risk window
+     Parkinson risk increases exponentially with age + global aging =
+     more people in the risk window
 
   ② DECLINING SMOKING (~10% additional):
-     Rossi et al. 2018: modelled → +70,000 US cases by 2040 from smoking decline alone
+     Rossi et al. 2018: modeled → +70,000 US cases by 2040 from smoking
+       decline alone
      de Lau 2008: Parkinson gender ratio INVERSELY tracks smoking rates
      BMJ 2025: ecological correlation confirmed
 
   ③ PESTICIDES/SOLVENTS:
      Paraquat: 150% ↑ risk. TCE: 500% ↑ risk.
-     China: fastest Parkinson increase = largest pesticide consumer
+     China: fastest Parkinson increase = world's largest pesticide consumer
      EPA banned TCE December 2024
 
-  🟡 Framework: 3 attacks on SAME TARGET (SNc neurons):
+  🟡 Framework: 3 attacks on the SAME TARGET (SNc neurons):
     Aging: protein quality control ↓ → α-syn accumulates
-    Less smoking: loss MAO-B protection → more oxidative damage
+    Less smoking: loss of MAO-B protection → more oxidative damage
     Pesticides: DIRECT mitochondrial toxin (Complex I inhibition)
     = Convergent damage from 3 independent sources
 ```
 
-### §12.3 — "Kỳ lạ": thuốc lá VỪA hại VỪA bảo vệ
+### §12.3 — The paradox: tobacco BOTH harms AND may protect
 
 ```
 🟡 DUAL ROLE TABLE:
@@ -1370,31 +1356,31 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Component      │ Addiction role   │ Parkinson protection?│
   ├────────────────┼─────────────────┼──────────────────────┤
   │ Nicotine       │ PRIMARY driver  │ ✗ NIC-PD failed      │
-  │ MAO-B inhibitor│ AMPLIFIER       │ ✓ Reduce oxidation   │
-  │ CO             │ HARM (lungs)    │ ✓ Neuroprotective    │
-  │ CYP450 ↑       │ metabolism      │ ✓ Detoxify toxins    │
-  │ TAR            │ harm (cancer)   │ ✗ no evidence        │
+  │ MAO-B inhibitor│ AMPLIFIER       │ ✓ Reduces oxidation  │
+  │ CO             │ HARMFUL (lungs) │ ✓ Neuroprotective    │
+  │ CYP450 ↑       │ Metabolism      │ ✓ Detoxifies toxins  │
+  │ TAR            │ Harmful (cancer)│ ✗ No evidence        │
   └────────────────┴─────────────────┴──────────────────────┘
 
-  = Thuốc lá chứa compounds TÌNH CỜ neuroprotective
+  = Tobacco INCIDENTALLY contains neuroprotective compounds
   = Harm (cancer, COPD, CVD) >>> neuroprotection benefit
-  = Tương lai: isolate MAO-B inhibitors + CO donors WITHOUT smoking
-    (Selegiline/Rasagiline = ĐÃ LÀM cho MAO-B. CO donors = ongoing.)
+  = Future: isolate MAO-B inhibitors + CO donors WITHOUT smoking
+    (Selegiline/Rasagiline = ALREADY DONE for MAO-B. CO donors = ongoing.)
 ```
 
 ---
 
-## §13 — SO SÁNH: HIJACK vs DEGRADATION
+## §13 — COMPARISON: HIJACK vs DEGRADATION
 
 ### §13.1 — Comprehensive comparison
 
 ```
-🟡 NICOTINE (HIJACK) vs PARKINSON (DEGRADATION):
+🟡 NICOTINE (HIJACK) vs PARKINSON'S (DEGRADATION):
 
   ┌─────────────────┬────────────────────┬────────────────────┐
-  │ Aspect          │ NICOTINE           │ PARKINSON           │
+  │ Aspect          │ NICOTINE           │ PARKINSON'S         │
   ├─────────────────┼────────────────────┼────────────────────┤
-  │ Dopamine        │ QUÁ NHIỀU          │ QUÁ ÍT             │
+  │ Dopamine        │ TOO MUCH           │ TOO LITTLE          │
   │ Pathway         │ Mesolimbic         │ Nigrostriatal       │
   │ Source          │ EXTERNAL substance │ INTERNAL death      │
   │ Hardware        │ INTACT             │ DYING               │
@@ -1416,89 +1402,91 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ADDICTION = SOFTWARE PROBLEM:
     Hardware (neurons) INTACT → chunks/reward-loop CORRUPTED
     Fix: RE-COMPILE chunks + REWIRE habits + identity shift
-    = Computer infected by virus → wipe + reinstall → works
+    = Computer infected by virus → wipe + reinstall → works again
 
-  PARKINSON = HARDWARE PROBLEM:
-    Hardware (neurons) DYING → existing software CAN'T EXECUTE
-    Fix: CANNOT fix hardware (currently). MANAGE: replace signal externally.
-    = Computer's CPU physically degrading → no reinstall can fix
+  PARKINSON'S = HARDWARE PROBLEM:
+    Hardware (neurons) DYING → existing software CANNOT EXECUTE
+    Fix: CANNOT fix the hardware (currently). MANAGE: replace signal externally.
+    = Computer's CPU physically degrading → no reinstall can fix a dying CPU
 
-  Implication for framework:
+  Implication for the framework:
     Framework excels at SOFTWARE analysis (chunks, schemas, predictions)
-    Framework CAN OBSERVE hardware problems nhưng CANNOT fix them
+    Framework CAN OBSERVE hardware problems but CANNOT fix them
     = Strong lens for hijack, LIMITED lens for degradation
-    = Honest scope acknowledgment
+    = An honest acknowledgment of scope
 ```
 
 ---
 
 ## §14 — HONEST ASSESSMENT
 
-### §14.1 — 🟢 Established research supported
+### §14.1 — 🟢 Established research support
 
 ```
-  → α-synuclein + Lewy bodies: Braak 2003 🟢
-  → Prion-like spread: Danzer 2012, Rostami 2017 🟢
-  → SNc vulnerability (calcium, melanin, dopamine): Surmeier 2017 🟢
-  → 31% cell bodies / 80% putamenal dopamine at onset: Fearnley & Lees 1991 🟢
-  → 3 pathways differential: established neuroanatomy 🟢
-  → Non-motor before motor: Chaudhuri 2006 🟢
-  → RBD >80% convert: established longitudinal 🟢
-  → Wanting/liking in Parkinson: Berridge 2003, Sienkiewicz-Jarosz 2005 🟢
-  → Dopamine overdose hypothesis: Gotham 1988, Cools 2001/2003 🟢
-  → ICDs 13.6%: Weintraub 2010 (n=3,090) 🟢
-  → DBS ~50% improvement: multiple RCTs 🟢
-  → Smoking RR=0.59: Hernán 2002 meta-analysis 🟢
-  → NIC-PD 2024 failed: NEJM Evidence 🟢
-  → Parkinson incidence rising (age-adjusted): GBD 2021 🟢
-  → Depression ~38%: meta-analysis 🟢
-  → Pain 66-76%, Autonomic 70-80%: established 🟢
-  → Dementia 75-80% after 10+ years: longitudinal 🟢
-  → Exosomal transfer: Danzer et al. 2012 🟢
-  → Tunneling nanotubes: Rostami et al. 2017 🟢
-  → Exercise reduces Parkinson risk 33-60%: JAMA Network Open 2018 meta-analysis 🟢
-  → BDNF reduced in Parkinson substantia nigra: postmortem studies 🟢
-  → Exercise increases BDNF in Parkinson: meta-analysis 6 studies 🟢
-  → Chronic cortisol aggravates α-syn spreading: Bhatt et al. 2019 🟢
-  → High job demands × Parkinson risk: Sieurin et al. 2018 (n=2,544,748) 🟢
-  → Sedentary = independent risk factor: UK Biobank 2025 🟢
-  → Pesticides (paraquat, TCE, chlorpyrifos) × Parkinson: multiple studies 🟢
+  → α-synuclein + Lewy bodies: Braak 2003
+  → Prion-like spread: Danzer 2012, Rostami 2017
+  → SNc vulnerability (calcium, melanin, dopamine): Surmeier 2017
+  → 31% cell bodies / 80% putamenal dopamine at onset: Fearnley & Lees 1991
+  → 3 pathways differential depletion: established neuroanatomy
+  → Non-motor before motor: Chaudhuri 2006
+  → RBD >80% convert: established longitudinal data
+  → Wanting/liking in Parkinson: Berridge 2003, Sienkiewicz-Jarosz 2005
+  → Dopamine overdose hypothesis: Gotham 1988, Cools 2001/2003
+  → ICDs 13.6%: Weintraub 2010 (n=3,090)
+  → DBS ~50% improvement: multiple RCTs
+  → Smoking RR=0.59: Hernán 2002 meta-analysis
+  → NIC-PD 2024 failed: NEJM Evidence
+  → Parkinson incidence rising (age-adjusted): GBD 2021
+  → Depression ~38%: meta-analysis
+  → Pain 66-76%, Autonomic 70-80%: established
+  → Dementia 75-80% after 10+ years: longitudinal
+  → Exosomal transfer: Danzer et al. 2012
+  → Tunneling nanotubes: Rostami et al. 2017
+  → Exercise reduces Parkinson risk 33-60%: JAMA Network Open 2018 meta-analysis
+  → BDNF reduced in Parkinson SNc: postmortem studies
+  → Exercise increases BDNF in Parkinson: meta-analysis, 6 studies
+  → Chronic cortisol aggravates α-syn spreading: Bhatt et al. 2019
+  → High job demands × Parkinson risk: Sieurin et al. 2018 (n=2,544,748)
+  → Sedentary = independent risk factor: UK Biobank 2025 (n=401,697)
+  → Pesticides (paraquat, TCE, chlorpyrifos) × Parkinson: multiple studies
 ```
 
 ### §14.2 — 🟡 Framework synthesis
 
 ```
-  → "2 loại neurons (modulatory vs processing)" as framework distinction:
-    Neuroscience uses these categories. Framework APPLIES them to explain Parkinson structurally.
-    The distinction itself = established. Application to framework layers = synthesis.
+  → "2 neuron types (modulatory vs processing)" as a framework distinction:
+    Neuroscience uses these categories. Framework APPLIES them to explain
+    Parkinson's structurally. The distinction itself = established.
+    Application to framework layers = synthesis.
 
   → "Gate locked" as metaphor for basal ganglia dysfunction:
     Basal ganglia circuit (direct/indirect pathways) = established.
     "Gate" metaphor = simplification of complex circuit dynamics.
     USEFUL but not complete (actual circuit = more nuanced).
 
-  → Braak maps to L0 substrate→L1 substrate→modulatory→PFC:
-    Mapping COHERENT. Framework layers not independently validated — post-hoc fit.
+  → Braak maps to L0 substrate → L1 substrate → modulatory → PFC:
+    Mapping is COHERENT. Framework layers not independently validated —
+    post-hoc fit.
 
-  → FOG as "gate overload" (multiple demands > depleted key):
+  → Freezing of gait as "gate overload" (multiple demands > depleted keys):
     Multiple research models exist (overload/decoupling/conflict).
-    Framework unifies them. Unification = framework contribution.
+    Framework unifies them. That unification = framework contribution.
 
   → Levodopa paradox = Goldilocks violated across pathways:
     Overdose hypothesis = established. Goldilocks framing = framework vocabulary.
 
   → Remaining neurons overwork → accelerate decline:
-    Compensation mechanisms (sprouting, turnover) = established.
-    "Overwork → faster death in toxic environment" = logical + supported.
-    Explicit modeling as "10 people carrying water" = framework illustration.
+    Compensation mechanisms (sprouting, increased turnover) = established.
+    "Overwork → faster death in a toxic environment" = logical + supported.
+    Explicit modeling via the "10-carrier analogy" = framework illustration.
 
   → MAO-B/CO dual role (addiction amplifier + neuroprotector):
-    Each observation established. CONNECTING them = framework synthesis.
+    Each observation is established. CONNECTING them = framework synthesis.
 
   → Exercise/BDNF protective + Stress/cortisol aggravating:
-    Individual findings = all established (🟢).
-    Framing as "NGƯỠNG CÓ THỂ THAY ĐỔI" = framework vocabulary.
-    "Nghịch lý lao động nặng" synthesis = framework contribution.
+    Individual findings all established (🟢).
+    Framing as "THRESHOLD THAT CAN BE SHIFTED" = framework vocabulary.
+    The "physical labor paradox" synthesis = framework contribution.
 
   → 3 management principles (delta reduction + BDNF + cortisol):
     Each component has evidence. Combined as "principles" = framework synthesis.
@@ -1509,9 +1497,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
   ① Gut-brain L0 origin: Braak dual-hit = debated. Framework L0 mapping = contingent.
 
-  ② COMT × Parkinson cognitive decline speed: logical but NO direct Parkinson-specific research.
+  ② COMT × Parkinson cognitive decline speed: logical but NO direct
+     Parkinson-specific research.
 
-  ③ Prediction-delta reduction as clinical principle: untested specifically.
+  ③ Prediction-delta reduction as a clinical management principle: not specifically tested.
 
   ④ DBS mechanism fully explained: beta disruption = leading theory, NOT proven.
 
@@ -1520,39 +1509,39 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Surmeier 2017 provides partial answers. NOT fully resolved.
 
   ⑥ WHY male > female (1.5:1)?
-     Estrogen protective? Lifestyle? Genetic? Framework has NO mechanism for this.
+     Estrogen protective? Lifestyle differences? Genetic? Framework has NO mechanism.
 
   ⑦ CO donors as future treatment: animal data promising. Human trials = VERY EARLY.
 
   ⑧ Can early biomarker detection (RBD, anosmia) → intervention BEFORE Stage 3?
      Logical but no disease-modifying therapy exists yet.
 
-  ⑨ α-synuclein normal function fully understood?
+  ⑨ α-synuclein's normal function fully understood?
      "SNARE brake" = consensus. Details still debated.
      Loss-of-function vs gain-of-toxic-function: both may contribute.
 
-  ⑩ Tại sao ~1-2% dân số bị? (multifactorial threshold)
-     Each risk factor identified. Combined MODEL predicting who = CHƯA CÓ.
+  ⑩ Why ~1-2% of the population is affected (multifactorial threshold):
+     Each risk factor identified. A combined MODEL predicting who crosses = DOESN'T EXIST YET.
 ```
 
 ---
 
 ## §15 — CROSS-REFERENCES
 
-**Framework core**:
-- [Dopamine-Is-Not-Reward.md v1.1](../../Core-Deep-Dive/Clarification/Dopamine-Is-Not-Reward.md) — 7-step, wanting≠liking
-- [Core-Software.md v1.0](../../Core-Software.md) — cycle architecture, Body-Output stage
-- [Body-Base.md v3.3](../../Core-Deep-Dive/Body-Base/Body-Base.md) — L0+L1 substrate, body evaluates patterns
-- [Body-Feedback-Mechanism.md v1.2](../../Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback-Mechanism.md) — Chunk-Miss, 4 axes
-- [Reward-Calibration.md v1.1](../../Core-Deep-Dive/Body-Base/Body-Feedback/Reward-Calibration.md) — Goldilocks
-- [Cortisol-Baseline.md v2.0](../../Core-Deep-Dive/Body-Base/Cortisol-Baseline.md) — amplifier, cascade
-- [Novelty.md v1.0](../../Core-Deep-Dive/Observation/Novelty.md) — VTA prediction-delta pattern
-- [PFC-Hardware.md v1.1](../../Core-Deep-Dive/PFC/PFC-Hardware.md) — COMT, NE
-- [Status.md v2.0](../../Core-Deep-Dive/Observation/Status.md) — serotonin × stability
-- [Addiction-Analysis.md v3.0](../Hijack/Addiction-Analysis.md) — hijack mechanism
+**Framework core files**:
+- Dopamine-Is-Not-Reward.md v1.1 — 7-step model, wanting ≠ liking
+- Core-Software.md v1.0 — cycle architecture, Body-Output stage
+- Body-Base.md v3.3 — L0+L1 substrate, body evaluates patterns
+- Body-Feedback-Mechanism.md v1.2 — Chunk-Miss, 4 axes
+- Reward-Calibration.md v1.1 — Goldilocks
+- Cortisol-Baseline.md v2.0 — amplifier, cascade
+- Novelty.md v1.0 — VTA prediction-delta pattern
+- PFC-Hardware.md v1.1 — COMT, NE
+- Status.md v2.0 — serotonin × stability
+- Addiction-Analysis.md v3.0 — hijack mechanism overview
 
 **Dopamine Cluster companions**:
-- [Nicotine-Brain-Mechanism.md v1.1](../Hijack/Nicotine-Brain-Mechanism.md) — File 1, dopamine HIJACK
+- Nicotine-Brain-Mechanism.md v1.1 — File 1, dopamine HIJACK
 - ADHD-Observation.md (File 3) — dopamine CLEARANCE, 3-way table
 
 **Neurodegeneration companion**:
@@ -1561,25 +1550,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 **Academic citations** (primary):
 - 🟢 Braak et al. 2003 — α-synuclein 6 stages
 - 🟢 Fearnley & Lees 1991 — SNc neuron loss at onset
-- 🟢 Kish et al. 1988 (NEJM) — uneven striatal dopamine loss
-- 🟢 Surmeier et al. 2017 — calcium channel SNc vulnerability
+- 🟢 Kish, Shannak & Hornykiewicz 1988 (NEJM) — uneven striatal dopamine loss
+- 🟢 Surmeier et al. 2017 — calcium channel vulnerability in SNc
 - 🟢 Danzer et al. 2012 — exosomal α-syn transmission
 - 🟢 Rostami et al. 2017 — tunneling nanotubes α-syn transfer
-- 🟢 Chaudhuri et al. 2006 (Lancet Neurology) — non-motor symptoms
-- 🟢 Weintraub et al. 2010 — ICDs (n=3,090)
+- 🟢 Chaudhuri, Healy & Schapira 2006 (Lancet Neurology) — non-motor symptoms
+- 🟢 Weintraub et al. 2010 (Arch Neurology) — ICDs (n=3,090)
 - 🟢 Gotham et al. 1988 + Cools 2001/2003 — dopamine overdose hypothesis
-- 🟢 Hernán et al. 2002 — smoking RR=0.59
-- 🟢 Berridge & Robinson 1998, 2003, 2016 — wanting≠liking
-- 🟢 Sienkiewicz-Jarosz et al. 2005 — taste pleasantness preserved
-- 🟢 Loas et al. 2012 — anhedonia = motivational
+- 🟢 Hernán et al. 2002 (Ann Neurology) — smoking RR=0.59
+- 🟢 Berridge & Robinson 1998, 2003, 2016 — wanting ≠ liking
+- 🟢 Sienkiewicz-Jarosz et al. 2005 (JNNP) — taste pleasantness preserved
+- 🟢 Loas et al. 2012 — anhedonia = motivational deficit
 - 🟢 Benabid et al. 2009 (Lancet Neurology) — DBS STN
-- 🟢 Nutt et al. 2011 — freezing of gait
-- 🟢 Dorsey et al. 2018 — Parkinson Pandemic
-- 🟢 Rossi et al. 2018 — smoking decline → +10% Parkinson
-- 🟢 NIC-PD 2024 (NEJM Evidence) — nicotine patches failed
+- 🟢 Nutt et al. 2011 (Lancet Neurology) — freezing of gait
+- 🟢 Dorsey et al. 2018 (J Parkinsons Disease) — Parkinson Pandemic
+- 🟢 Rossi et al. 2018 (Movement Disorders) — smoking decline → +10% Parkinson
+- 🟢 NIC-PD Trial 2024 (NEJM Evidence) — nicotine patches: no benefit
 - 🟢 Rose, Schwarzschild & Gomperts 2024 — nicotine hypothesis disproven
-- 🟢 BMJ 2025 — GBD 2021 modelling
-- 🟢 Fowler et al. 1996 (Nature) — MAO-B 40% reduction
+- 🟢 BMJ 2025 — GBD 2021 modelling, 25.2M by 2050
+- 🟢 Fowler et al. 1996 (Nature) — MAO-B 40% reduction in smokers
 - 🟢 JAMA Network Open 2018 — exercise × Parkinson risk meta-analysis (OR=0.67)
 - 🟢 Sieurin et al. 2018 (Movement Disorders) — job demands × Parkinson (n=2.5M)
 - 🟢 Bhatt et al. 2019 (Neurobiology of Aging) — cortisol aggravates α-syn
@@ -1588,12 +1577,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-> *Parkinson-Analysis v1.1 — REFERENCE FILE*
-> *"2 loại neurons: Modulatory (mạch phụ, đang CHẾT) vs Processing (mạch chính, ban đầu CÒN)."*
-> *"Basal ganglia = GATE. Default = ĐÓNG. Dopamine = chìa khóa. Parkinson = chìa bị PHÁ HỦY."*
-> *"α-synuclein: protein bình thường → misfold ở SNc (self-toxic) → CHUI VẬT LÝ sang neurons khác → cascade."*
-> *"Braak staging = α-syn ascending L0 substrate→L1 substrate→modulatory→PFC. Bottom-up qua framework architecture."*
-> *"Wanting impaired, Liking preserved = 7-step mechanism xác nhận."*
-> *"NIC-PD 2024: nicotine KHÔNG bảo vệ. MAO-B/CO candidates. Thuốc LÁ ≠ nicotine."*
-> *"Addiction = SOFTWARE (chìa khóa bị copy sai). Parkinson = HARDWARE (chìa khóa bị PHÁ HỦY)."*
-> *Framework: Human Predictive Drive v7.8 + Academic citations 1988-2025*
+> *"2 neuron types: Modulatory (secondary — DYING) vs Processing (primary — initially INTACT)."*
+> *"Basal ganglia = GATE. Default = CLOSED. Dopamine = KEY. Parkinson = key DESTROYED → gate locked."*
+> *"α-synuclein: normal protein → misfolds at SNc (self-toxic) → PHYSICALLY CRAWLS into neighboring neurons → cascade."*
+> *"Braak staging = α-syn ascending: L0 substrate → L1 substrate → modulatory → PFC. Bottom-up through the framework."*
+> *"Wanting impaired, Liking preserved = 7-step mechanism confirmed."*
+> *"NIC-PD 2024: nicotine NOT protective. MAO-B/CO are candidates. CIGARETTES ≠ nicotine."*
+> *"Addiction = SOFTWARE (key copied wrong). Parkinson = HARDWARE (key physically destroyed)."*

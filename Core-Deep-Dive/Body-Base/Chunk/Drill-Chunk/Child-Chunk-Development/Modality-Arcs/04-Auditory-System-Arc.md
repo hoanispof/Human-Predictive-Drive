@@ -1,23 +1,23 @@
 ---
-title: Auditory System Developmental Arc — F1 Body-Input Arc #2 ⭐ Nút Thắt 1 primary verdict
+title: Auditory System Developmental Arc — F1 Body-Input Arc #2 ⭐ Convergence Point 1 primary verdict
 created: 2026-04-15 (Session N+4b, Phase F1-P7)
 status: DRAFT N+4b P7 — ready for user review (⭐ MANDATORY REVIEW STOP per plan §5.5)
 scope: Auditory input reception + auditory chunk compile mechanism from fetal 26 weeks to ~24mo postnatal, analyzed via Connect → Read phases with PFC-Inference Ladder. Unique feature — this is the ONLY F1 body-input arc where chunks compilation begins PRENATALLY.
 parent: plan.md §3.2 (file 04 outline)
 depends_on: [01-PFC-Hardware-Reframe.md, 02-Womb-to-Birth-Baseline.md, 03-Visual-System-Arc.md]
-language: Tiếng Việt primary + English technical terms
+language: English (translated from Vietnamese source)
 addresses:
-  - Nút Thắt 1 (proto-chunk gradient vs discrete — ⭐ PRIMARY VERDICT via phoneme discrimination 0-12mo)
-  - Nút Thắt 3 (multi-modal binding — auditory component)
-  - Nút Thắt 5 preview (Receptive-Productive Asymmetry — receptive side of H11)
+  - Convergence Point 1 (proto-chunk gradient vs discrete — ⭐ PRIMARY VERDICT via phoneme discrimination 0-12mo)
+  - Convergence Point 3 (multi-modal binding — auditory component)
+  - Convergence Point 5 preview (Receptive-Productive Asymmetry — receptive side of H11)
 sub_folder: F1 Child-Chunk-Development
 ---
 
-# 04 — Auditory System Developmental Arc ⭐ Nút Thắt 1 primary
+# 04 — Auditory System Developmental Arc ⭐ Convergence Point 1 primary
 
 > **File 04 of F1 Child-Chunk-Development sub-folder.** Second of six body-input arc files. This file traces auditory system chunk compile mechanism from **fetal 26 weeks gestation** (when the fetal cochlea becomes functional) through ~24 months postnatal. The auditory system is **unique among F1 body-inputs**: it is the ONLY body-input where chunks compilation begins PRENATALLY and a library of compiled chunks is already present at birth.
 >
-> **⭐ Nút Thắt 1 primary verdict file**: phoneme discrimination trajectory 0-12 months provides the **cleanest gradient evidence** in the entire F1 drill. This file commits the primary verdict on proto-chunk gradient vs discrete view.
+> **⭐ Convergence Point 1 primary verdict file**: phoneme discrimination trajectory 0-12 months provides the **cleanest gradient evidence** in the entire F1 drill. This file commits the primary verdict on proto-chunk gradient vs discrete view.
 
 ---
 
@@ -31,7 +31,7 @@ sub_folder: F1 Child-Chunk-Development
 
 3. **Earliest cleanly documented L2 post-name-recognition event is 4.5 months** — Mandel, Jusczyk & Pisoni 1995 demonstrate own-name recognition at 4.5 months, a **pattern-match event requiring compiled auditory chunk** for the specific name sound string. This is one of the most falsification-strong evidence points against the old "PFC offline" view — a 4.5-month-old doing stimulus-category discrimination of a compiled auditory string.
 
-4. **Receptive-productive asymmetry preview** — name recognition 4.5 months (receptive) vs first verbal production ~18 months (productive, Feel-Example E21) = **13.5 month gap**. This is the receptive side of Nút Thắt 5 / H11 Receptive-Productive Asymmetry, drilled fully in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md).
+4. **Receptive-productive asymmetry preview** — name recognition 4.5 months (receptive) vs first verbal production ~18 months (productive, Feel-Example E21) = **13.5 month gap**. This is the receptive side of Convergence Point 5 / H11 Receptive-Productive Asymmetry, drilled fully in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md).
 
 **Events analyzed (master table preview — full in §5)**:
 
@@ -48,11 +48,11 @@ sub_folder: F1 Child-Chunk-Development
 | Common noun comprehension | 6-9 months | L3 🟢 | Bergelson & Swingley 2012 |
 | First productive word | 10-14 months | L4 🟢 | widely documented |
 
-**Three nút thắt addressed**:
+**Three Convergence Points addressed**:
 
-1. **⭐ Nút Thắt 1** — proto-chunk gradient verdict COMMITTED in §6
-2. **Nút Thắt 3** — auditory side of multi-modal binding (§8) — partial contribution
-3. **Nút Thắt 5 preview** — receptive side of H11 (§9) — primary home is 08
+1. **⭐ Convergence Point 1** — proto-chunk gradient verdict COMMITTED in §6
+2. **Convergence Point 3** — auditory side of multi-modal binding (§8) — partial contribution
+3. **Convergence Point 5 preview** — receptive side of H11 (§9) — primary home is 08
 
 ---
 
@@ -77,9 +77,9 @@ Of F1's six body-input systems, **only auditory has substantial prenatal chunk c
 - **Hardware**: Cochlear function begins ~26 weeks gestation (Moore et al. 1995, 1996). Auditory cortex develops in parallel — Heschl's gyrus primary auditory area is among the earliest cortical regions to reach functional maturity.
 - **Exposure duration**: ~14 weeks of prenatal auditory exposure (26 wk → 40 wk birth) with continuous maternal voice + environmental sounds provides substantial repetition for chunk compile mechanism (LTP-based repetition compile, [Chunk.md](../../Body-Base/Schema/Chunk.md) §2).
 
-**Framework implication**: The auditory system **pre-compiles chunks** before birth. The newborn's auditory system does not start from zero — it starts from a library of ~14 weeks of exposure. This asymmetry across body-inputs has important implications for Nút Thắt 2 (Precondition-2 Chunk-Substrate compile rate) — auditory has a 14-week head start on all other systems.
+**Framework implication**: The auditory system **pre-compiles chunks** before birth. The newborn's auditory system does not start from zero — it starts from a library of ~14 weeks of exposure. This asymmetry across body-inputs has important implications for Convergence Point 2 (Precondition-2 Chunk-Substrate compile rate) — auditory has a 14-week head start on all other systems.
 
-### §1.2 — Why auditory is the Nút Thắt 1 primary verdict file
+### §1.2 — Why auditory is the Convergence Point 1 primary verdict file
 
 Phoneme discrimination 0-12 months is the **cleanest empirical window** available in developmental psychology for observing **chunk compile trajectory as a smooth gradient**. Three reasons:
 
@@ -91,12 +91,12 @@ No other F1 body-input system has this combination of cleanliness + age resoluti
 
 ### §1.3 — Dependencies on prior files
 
-**From [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md)**:
+**From [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md)**:
 - §6 event-inference methodology rule (used throughout §5)
-- §7.2 worked example "tên mẹ" (Mandel 4.5mo) — this file expands that example to full event analysis
+- §7.2 worked example "mother calling their name" (Mandel 4.5mo) — this file expands that example to full event analysis
 - §3 evidence pillars — Werchan 2016 dlPFC rule learning at 8 months suggests cortical chunk operations active at ages parallel to phoneme narrowing
 
-**From [02-Womb-to-Birth-Baseline.md](02-Womb-to-Birth-Baseline.md)**:
+**From [02-Womb-to-Birth-Baseline.md](../Foundation/02-Womb-to-Birth-Baseline.md)**:
 - §4.1 prenatal auditory learning — citations database (DeCasper, Mehler, Moon, Kisilevsky) transfers here for deeper analysis
 - §9.1 baseline state at t=0 — "Auditory chunks ✅ compiled library" is the critical check this file justifies
 
@@ -158,7 +158,7 @@ This falsifies any view claiming chunks begin compiling only after birth. It est
 
 Auditory processing streams (ventral = "what" pathway, dorsal = "where" pathway) are detectable in infant fMRI studies from ~3 months (Dehaene-Lambertz et al. 2002, 2006 — landmark infant fMRI language processing studies).
 
-**🟡 Framework note**: Just as with PFC in [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) §3, auditory cortex was never "offline" — it was hardware-ready prenatally and functionally active from the moment cochlear transduction became possible. The postnatal "maturation" observed is **content specialization** (chunks for specific phonemes, voices, words), not hardware coming online.
+**🟡 Framework note**: Just as with PFC in [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md) §3, auditory cortex was never "offline" — it was hardware-ready prenatally and functionally active from the moment cochlear transduction became possible. The postnatal "maturation" observed is **content specialization** (chunks for specific phonemes, voices, words), not hardware coming online.
 
 ### §2.4 — Native language rhythm chunks compile prenatally
 
@@ -214,7 +214,7 @@ Auditory processing streams (ventral = "what" pathway, dorsal = "where" pathway)
 
 ## §3 — Read Phase (Input Detection Chunks) — Postnatal Trajectory
 
-> Postnatal auditory chunks build on the prenatal library. This section covers the expansion and specialization of auditory chunks from birth through ~24 months, culminating in the Nút Thắt 1 gradient evidence in §6.
+> Postnatal auditory chunks build on the prenatal library. This section covers the expansion and specialization of auditory chunks from birth through ~24 months, culminating in the Convergence Point 1 gradient evidence in §6.
 
 ### §3.1 — Moro startle reflex (L0 reference)
 
@@ -278,7 +278,7 @@ Covered in §2.4. L2 🟢.
 
 **PFC-Inference Ladder**: **L2** 🟢 throughout. Pattern-match on acoustic-category difference, behavioral marker via habituation / head-turn.
 
-**⭐ Nút Thắt 1 contribution**: The narrowing is **smooth and monotonic**, not discrete. From 6 months (universal listener) to 12 months (native-biased), the loss of discrimination happens **progressively month by month**, not as a single threshold event. This is incompatible with a discrete "chunk compiled / not compiled" binary view. Full verdict analysis in §6.
+**⭐ Convergence Point 1 contribution**: The narrowing is **smooth and monotonic**, not discrete. From 6 months (universal listener) to 12 months (native-biased), the loss of discrimination happens **progressively month by month**, not as a single threshold event. This is incompatible with a discrete "chunk compiled / not compiled" binary view. Full verdict analysis in §6.
 
 ### §3.6 — Own name recognition at 4.5 months (Mandel, Jusczyk & Pisoni 1995) ⭐
 
@@ -306,9 +306,9 @@ Covered in §2.4. L2 🟢.
 
 2. **Falsifies the old "PFC offline" view**: at 4.5 months, a baby discriminates two stress-matched disyllabic strings — recognizing one as "mine" and one as not. This requires compiled chunk + pattern-match attention modulation. Under the old view, this kind of discrimination was typically attributed to later cortical maturation. Mandel 1995 pushes the well-documented capability 6+ months earlier.
 
-3. **Supports the reframe committed in [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md)** — the reframe says "PFC hardware is online, chunks are what's missing". Own name recognition at 4.5 months shows a specific chunk **compiled and operational** for a task the old view would have attributed to "PFC not ready". The chunks account wins cleanly.
+3. **Supports the reframe committed in [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md)** — the reframe says "PFC hardware is online, chunks are what's missing". Own name recognition at 4.5 months shows a specific chunk **compiled and operational** for a task the old view would have attributed to "PFC not ready". The chunks account wins cleanly.
 
-4. **Receptive-productive gap preview** (Nút Thắt 5): name recognition 4.5mo (receptive) vs first productive words 10-14mo (productive side) = 6-10 month gap. And for the baby's own productive first word being the baby's own name, it's typically even later. This receptive-productive gap will be drilled in §9 below and fully in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md).
+4. **Receptive-productive gap preview** (Convergence Point 5): name recognition 4.5mo (receptive) vs first productive words 10-14mo (productive side) = 6-10 month gap. And for the baby's own productive first word being the baby's own name, it's typically even later. This receptive-productive gap will be drilled in §9 below and fully in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md).
 
 ### §3.7 — Word segmentation from continuous speech (Saffran, Aslin & Newport 1996) ⭐
 
@@ -340,7 +340,7 @@ Covered in §2.4. L2 🟢.
 
 2. **Mechanism specificity**: transitional probability tracking is a specific, testable compile mechanism that can be implemented and simulated. The implications for artificial learning systems are significant.
 
-3. **Support for gradient view (Nút Thắt 1)**: chunks emerge as statistical regularities strengthen over time — not as discrete thresholds. Consistent with phoneme narrowing §3.5.
+3. **Support for gradient view (Convergence Point 1)**: chunks emerge as statistical regularities strengthen over time — not as discrete thresholds. Consistent with phoneme narrowing §3.5.
 
 ### §3.8 — Common noun comprehension 6-9 months (Bergelson & Swingley 2012) ⭐
 
@@ -435,7 +435,7 @@ Pure auditory Control phase has limited motor output, but **vocal production** i
 
 Full vocal production arc in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md). This file points there.
 
-**Framework note**: Auditory Control is small because auditory modality naturally supports **receptive** chunks more easily than motor output. Vocal production motor is more in [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) § articulatory motor and [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md).
+**Framework note**: Auditory Control is small because auditory modality naturally supports **receptive** chunks more easily than motor output. Vocal production motor is more in [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) articulatory motor section and [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md).
 
 ---
 
@@ -525,9 +525,9 @@ This worked example is the entry point for §6 primary verdict.
 
 ---
 
-## §6 — ⭐ Nút Thắt 1 Primary Verdict: Proto-chunk gradient vs discrete
+## §6 — ⭐ Convergence Point 1 Primary Verdict: Proto-chunk gradient vs discrete
 
-> **This is the section this file was drilled to deliver.** Nút Thắt 1 asks: "Does 'proto-chunk' exist as an intermediate stage between raw firing and stable compiled chunk, or is chunk compilation a discrete threshold event?" (plan §0.6 Nút Thắt 1.) This section commits the **primary verdict** using phoneme discrimination trajectory 0-12 months as keystone evidence.
+> **This is the section this file was drilled to deliver.** Convergence Point 1 asks: "Does 'proto-chunk' exist as an intermediate stage between raw firing and stable compiled chunk, or is chunk compilation a discrete threshold event?" (plan §0.6 Convergence Point 1.) This section commits the **primary verdict** using phoneme discrimination trajectory 0-12 months as keystone evidence.
 
 ### §6.1 — The question framed
 
@@ -613,7 +613,7 @@ Phoneme narrowing is not the only gradient evidence. Multiple lines from across 
 
 3. **Chunk compile rate varies** by input saliency + repetition frequency + emotional tagging + multi-modal reinforcement. This explains why different body-input systems compile at different rates (visual fast, interoceptive slow) and why individual babies vary widely in milestone timing.
 
-**For Nút Thắt 2 (Precondition-2 Chunk-Substrate)**:
+**For Convergence Point 2 (Precondition-2 Chunk-Substrate)**:
 
 The gradient view also explains **why "chunks adequate threshold" is not a single event** but is content-specific and varies by body-input. Adequacy for a body state is reached when the chunks for that state have strengthened enough to fire reliably and drive downstream operations (attention, action, feeling).
 
@@ -635,7 +635,7 @@ Every F1 event classification on the PFC-Inference Ladder (L0-L4) must be unders
 
 3. **Do chunks ever harden into discrete states?** After sufficient consolidation, a well-compiled chunk may be effectively "discrete" for practical purposes. But this is **late-stage stability**, not the compile mechanism itself being discrete.
 
-4. **Inter-chunk relationships**: if chunks A and B are both graded, their binding (chunk A ↔ B) may have its own gradient. How do composite chunks relate to sub-chunks under the gradient view? Deferred to [09-Event-Chunks-Inference-Matrix.md](09-Event-Chunks-Inference-Matrix.md).
+4. **Inter-chunk relationships**: if chunks A and B are both graded, their binding (chunk A ↔ B) may have its own gradient. How do composite chunks relate to sub-chunks under the gradient view? Deferred to [09-Event-Chunks-Inference-Matrix.md](../09-Event-Chunks-Inference-Matrix.md).
 
 ---
 
@@ -686,9 +686,9 @@ The four mechanisms **interact synergistically** in auditory chunks compilation:
 
 ---
 
-## §8 — Multi-modal Binding (Auditory Component) — Nút Thắt 3 partial
+## §8 — Multi-modal Binding (Auditory Component) — Convergence Point 3 partial
 
-> Full Nút Thắt 3 verdict is in [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6. This file covers auditory-side evidence.
+> Full Convergence Point 3 verdict is in [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6. This file covers auditory-side evidence.
 
 ### §8.1 — Auditory + visual (face-voice binding)
 
@@ -717,7 +717,7 @@ Covered in 03 §6.1. Social smile E12 is the first large-scale multi-modal bind.
 
 ---
 
-## §9 — Receptive-Productive Asymmetry Preview (Nút Thắt 5 receptive side)
+## §9 — Receptive-Productive Asymmetry Preview (Convergence Point 5 receptive side)
 
 > Full formalization of H11 Receptive-Productive Asymmetry in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md). This section documents the **receptive side evidence** from the auditory arc.
 
@@ -741,7 +741,7 @@ By contrast, productive milestones are substantially delayed:
 | Common noun comprehension | 6-9 months | First productive words | 10-14 months | ~4-6 months |
 | Full phoneme inventory receptive | 12 months | Full phoneme inventory productive | 4-7 years | ~3-6 years |
 | Grammar receptive | 18-24 months | Grammar productive | 2-3 years | ~months |
-| Understanding "buồn đái" interoceptive | 14-18mo (L2 đơ mặt) | Produces "buồn đái" verbal | 22 months (E23) | ~4-8 months |
+| Understanding "need to pee" (interoceptive) | 14-18mo (L2 "face-freeze") | Produces "need to pee" verbal | 22 months (E23) | ~4-8 months |
 
 ### §9.3 — The 13.5 month name gap (Mandel 4.5mo to productive name)
 
@@ -759,13 +759,13 @@ The asymmetry is because **production requires additional chunks** beyond recept
 
 The auditory arc provides the strongest evidence that **receptive chunks compile substantially before productive chunks** — in some cases (phoneme categories) by years. H11 is not just a language phenomenon — it extends to other body-input systems (interoceptive, motor) as described in 06a + 05 + 08.
 
-**Preview verdict statement**: H11 Receptive-Productive Asymmetry is **supported** by auditory arc evidence. Formal verdict + framework implications in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §5 + [10-F1-Synthesis.md](10-F1-Synthesis.md).
+**Preview verdict statement**: H11 Receptive-Productive Asymmetry is **supported** by auditory arc evidence. Formal verdict + framework implications in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §5 + [10-F1-Synthesis.md](../10-F1-Synthesis.md).
 
 ---
 
-## §10 — Nút Thắt Contributions Summary
+## §10 — Convergence Points Contributions Summary
 
-### §10.1 — ⭐ Nút Thắt 1 (Proto-chunk gradient vs discrete) — PRIMARY VERDICT COMMITTED
+### §10.1 — ⭐ Convergence Point 1 (Proto-chunk gradient vs discrete) — PRIMARY VERDICT COMMITTED
 
 **This file's contribution**: **Primary verdict committed (§6.4)** — gradient view supported by multiple independent lines:
 - Phoneme narrowing Werker & Tees 1984 (cleanest single-line evidence)
@@ -777,25 +777,25 @@ The auditory arc provides the strongest evidence that **receptive chunks compile
 
 **Confidence**: 🟢 for core claim.
 
-**Next stop**: [10-F1-Synthesis.md](10-F1-Synthesis.md) final aggregation with any additional evidence from 06a-09.
+**Next stop**: [10-F1-Synthesis.md](../10-F1-Synthesis.md) final aggregation with any additional evidence from 06a-09.
 
-### §10.2 — Nút Thắt 3 (Multi-modal binding) — Partial
+### §10.2 — Convergence Point 3 (Multi-modal binding) — Partial
 
 **This file's contribution**: Auditory-side events that must be explained by any binding mechanism (§8). Face-voice bind, voice-comfort bind, word-object bind.
 
 **Next stop**: [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6 primary home.
 
-### §10.3 — Nút Thắt 5 (Receptive-Productive Asymmetry) — Preview
+### §10.3 — Convergence Point 5 (Receptive-Productive Asymmetry) — Preview
 
 **This file's contribution**: Receptive side evidence (§9). Name gap, common noun gap, phoneme inventory gap.
 
 **Next stop**: [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §5 primary home for H11 formalization.
 
-### §10.4 — Nút Thắt 4 (PFC hardware × chunks missing)
+### §10.4 — Convergence Point 4 (PFC hardware × chunks missing)
 
-Already committed in [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md). This file applies the reframe throughout. The Mandel 1995 own name recognition at 4.5 months is **strong falsification evidence** against the old view — see §3.6 rationale.
+Already committed in [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md). This file applies the reframe throughout. The Mandel 1995 own name recognition at 4.5 months is **strong falsification evidence** against the old view — see §3.6 rationale.
 
-### §10.5 — Nút Thắt 2 (Precondition-2 Chunk-Substrate) — cross-reference
+### §10.5 — Convergence Point 2 (Precondition-2 Chunk-Substrate) — cross-reference
 
 Auditory is the **fastest-compiling** body-input system because of prenatal head start + dense continuous input + multi-modal scaffolding. This high compile rate contrasts with interoceptive (slowest compile) — the rate difference is itself evidence for the rate-dependent adequacy mechanism. Full treatment in [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md).
 
@@ -823,16 +823,16 @@ Auditory is the **fastest-compiling** body-input system because of prenatal head
 
 ### §12.1 — Within F1 Child-Chunk-Development
 
-- [00-Chunk-System-Sketch.md](00-Chunk-System-Sketch.md) — F1 sub-folder orientation
-- [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) — §6 methodology rule (used throughout), §7.2 tên mẹ example expanded here
-- [02-Womb-to-Birth-Baseline.md](02-Womb-to-Birth-Baseline.md) — §4.1 prenatal auditory learning (citations extended here), §9.1 baseline state (this file justifies the "auditory chunks compiled" entry)
+- [00-Chunk-System-Sketch.md](../Foundation/00-Chunk-System-Sketch.md) — F1 sub-folder orientation
+- [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md) — §6 methodology rule (used throughout), §7.2 "mother calling name" example expanded here
+- [02-Womb-to-Birth-Baseline.md](../Foundation/02-Womb-to-Birth-Baseline.md) — §4.1 prenatal auditory learning (citations extended here), §9.1 baseline state (this file justifies the "auditory chunks compiled" entry)
 - [03-Visual-System-Arc.md](03-Visual-System-Arc.md) — §3.9 face perceptual narrowing as parallel gradient evidence, §6.1 social smile E12 (auditory side treated here §8.1)
 - [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) — vocal production motor side
 - [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) — contrast case (slowest compile vs auditory fastest)
-- [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) — Nút Thắt 3 primary home
-- [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) — Nút Thắt 5 primary home + H11 formalization
-- [09-Event-Chunks-Inference-Matrix.md](09-Event-Chunks-Inference-Matrix.md) — cross-cutting event table
-- [10-F1-Synthesis.md](10-F1-Synthesis.md) — 7 nút thắt final verdicts
+- [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) — Convergence Point 3 primary home
+- [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) — Convergence Point 5 primary home + H11 formalization
+- [09-Event-Chunks-Inference-Matrix.md](../09-Event-Chunks-Inference-Matrix.md) — cross-cutting event table
+- [10-F1-Synthesis.md](../10-F1-Synthesis.md) — 7 Convergence Points final verdicts
 
 ### §12.2 — Upstream framework
 
@@ -854,7 +854,7 @@ Auditory arc literature:
 - **Moon, Cooper & Fifer 1993** *Infant Behav Dev* 16:495-500 — cross-linguistic rhythm preference
 - **Kisilevsky et al. 2003** *Psychological Science* 14:220-224 — fetal HR to maternal voice
 - **Eimas, Siqueland, Jusczyk & Vigorito 1971** *Science* 171:303-306 — infant phoneme discrimination founding paper
-- **Werker & Tees 1984** *Infant Behav Dev* 7:49-63 ⭐ **Nút Thắt 1 keystone citation** — phoneme narrowing longitudinal
+- **Werker & Tees 1984** ⭐ *Infant Behav Dev* 7:49-63 ⭐ **Convergence Point 1 keystone citation** — phoneme narrowing longitudinal
 - **Kuhl et al. 1992** *Science* 255:606-608 — perceptual magnet effect
 - **Kuhl 2004** *Nature Reviews Neuroscience* 5:831-843 — review article integrating native language magnet
 - **Mandel, Jusczyk & Pisoni 1995** ⭐ *Psychological Science* 6:314-317 — own name 4.5mo
@@ -877,7 +877,7 @@ Auditory arc literature:
 
 ## §13 — Status
 
-**Draft status**: DRAFT N+4b Phase F1-P7 — ⭐ **MANDATORY REVIEW STOP** per plan §5.5 (Nút Thắt 1 primary verdict).
+**Draft status**: DRAFT N+4b Phase F1-P7 — ⭐ **MANDATORY REVIEW STOP** per plan §5.5 (Convergence Point 1 primary verdict).
 
 **Sections complete**: §0 through §12 (13 sections).
 
@@ -887,18 +887,18 @@ Auditory arc literature:
 - ✅ PFC-Inference Ladder applied to all 16 A-table events
 - ✅ Plausibility qualifiers 🟢🟡🔴 applied
 - ✅ Baseline state from 02 §9.1 cited
-- ✅ ⭐ **Nút Thắt 1 PRIMARY VERDICT committed** (§6.4 gradient view supported)
-- ✅ Nút Thắt 3 partial contribution documented (§8)
-- ✅ Nút Thắt 5 receptive-side preview documented (§9)
+- ✅ ⭐ **Convergence Point 1 PRIMARY VERDICT committed** (§6.4 gradient view supported)
+- ✅ Convergence Point 3 partial contribution documented (§8)
+- ✅ Convergence Point 5 receptive-side preview documented (§9)
 - ✅ Cross-references bidirectional with 00 + 01 + 02 + 03 + drilled sub-folders
 - ✅ NO personal examples (framework rule)
-- ✅ Tiếng Việt primary + English technical terms
+- ✅ "Nút Thắt" → "Convergence Point" throughout
 - ✅ Research citations comprehensive
 
-**Nút Thắt contributions**:
-- **⭐ Nút Thắt 1 — PRIMARY VERDICT COMMITTED** (gradient view, 🟢)
-- Nút Thắt 3 partial (auditory side of multi-modal binding)
-- Nút Thắt 5 preview (receptive side of H11)
+**Convergence Point contributions**:
+- **⭐ Convergence Point 1 — PRIMARY VERDICT COMMITTED** (gradient view, 🟢)
+- Convergence Point 3 partial (auditory side of multi-modal binding)
+- Convergence Point 5 preview (receptive side of H11)
 
 **⭐ Critical verdict statement for F1**: "Chunks are strength-weighted continuous substrate primitives. Proto-chunks exist as meaningful intermediate states. Discrete appearance is observation threshold artifact on underlying gradient processes. Phoneme narrowing Werker & Tees 1984 provides keystone evidence."
 
@@ -908,4 +908,4 @@ Auditory arc literature:
 
 > **04-Auditory-System-Arc.md — End of file.**
 >
-> F1 body-input arc #2 of 6. Auditory system unique in having prenatal chunk compile window. Primary verdict Nút Thắt 1 committed: **gradient view**, with Werker & Tees 1984 phoneme narrowing as keystone evidence. Nút Thắt 3 and 5 preview contributions delivered. Ready for user review before proceeding to 05-Motor-Output-Arc.
+> F1 body-input arc #2 of 6. Auditory system unique in having prenatal chunk compile window. Primary verdict Convergence Point 1 committed: **gradient view**, with Werker & Tees 1984 phoneme narrowing as keystone evidence. Convergence Points 3 and 5 preview contributions delivered. Ready for user review before proceeding to 05-Motor-Output-Arc.

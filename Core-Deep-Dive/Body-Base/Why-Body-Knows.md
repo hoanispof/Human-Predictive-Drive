@@ -1,55 +1,54 @@
 ---
-title: Why Body Knows — Tại Sao Cơ Thể "Biết"
+title: Why Body Knows
 version: 1.2
 created: 2026-03-25
 rewritten: 2026-05-17 (v1.0 — FULL REWRITE from DRAFT. Compilable Architecture, Compiled/Fresh, Dual Check, 3-Layer reconcile)
-refined: 2026-05-17 (v1.1 — §3 MAJOR REWRITE: 4-tầng → 2-tầng + 2 đường. Recursive compile. Passive social compile. Culture/AI = input sources, not tiers)
+refined: 2026-05-17 (v1.1 — §3 MAJOR REWRITE: 4-layer → 2-layer + 2 pathways. Recursive compile. Passive social compile. Culture/AI = input sources, not tiers)
 refined: 2026-05-23 (v1.2 — Concept Cascade: +Simulation-Engine, +Entity-Access, +Hardware-Subsidy. Updated versions + cross-refs)
 previous: v1.1 (inline — additive changes only)
 status: META-FOUNDATION v1.2
 scope: |
-  META FILE: "Tại sao framework HOẠT ĐỘNG?"
-  Trả lời 3 câu hỏi MỌI NGƯỜI đặt ra sau khi hiểu framework:
-    ① Tại sao body "biết" nhạc mới hay? (coherence evaluation mechanism)
-    ② Tại sao body trả reward cho pattern mới? (evolution wired coherence = survival)
-    ③ Tại sao follow body reward → map đúng domain thật? (calibration)
+  META FILE: "Why does the framework WORK?"
+  Answers the 3 questions everyone asks after understanding the framework:
+    ① Why does the body "know" a new piece of music is beautiful? (coherence evaluation mechanism)
+    ② Why does the body reward new patterns? (evolution wired coherence = survival)
+    ③ Why does following body reward over a lifetime → map correctly to domain reality? (calibration)
   v1.1 KEY CHANGE — §3 REWRITE:
-    + 4-tầng → 2-tầng + 2 đường: chỉ 2 CƠ CHẾ (Darwinian + Hebbian)
+    + 4-layer → 2-layer + 2 pathways: only 2 MECHANISMS (Darwinian + Hebbian)
     + 2a Domain Contact (active + passive): multi-modal, self-verified
     + 2b Trust-Injected (external sources): trust-amplified, thinner, faster
-    + Passive social compile: absorb từ environment vô thức (giọng, norms, gu)
+    + Passive social compile: absorb from environment unconsciously (accent, norms, taste)
     + Recursive property: existing chunks filter/amplify domain contact
-    + Culture = tên gọi cho 2a passive + 2b, KHÔNG PHẢI tầng riêng
-    + AI = newest input source cho 2b (not separate tier)
+    + Culture = label for 2a passive + 2b, NOT a separate tier
+    + AI = newest input source for 2b (not a separate tier)
   v1.0 KEY CHANGES (preserved):
     + Compilable Architecture: WHY general-purpose reward NEEDS calibration
-    + Compiled/Fresh: "body biết" = chunks compiled fire automatic
-    + Vòng Tròn formalized: Domain → Body → Behavior → Domain (loop)
-    + Dual Check (Ask-AI v3.1): body=quality controller (~90%), domain=final arbiter
+    + Compiled/Fresh: "body knows" = compiled chunks fire automatically
+    + Calibration Loop formalized: Domain → Body → Behavior → Domain (loop)
+    + Dual Check (Ask-AI v3.1): body = quality controller (~90%), domain = final arbiter
     + PFC=Lawyer in coherence evaluation
     + Circuit Breaker: body self-detects calibration errors
 purpose: |
-  Body-Base.md §7 references calibration (ngắn gọn, 20L summary).
-  File này = DEEP VERSION — philosophical foundation CHO TOÀN BỘ FRAMEWORK.
-  "Nếu body check = đáng tin, TẠI SAO đáng tin?"
-  "Nếu domain = final arbiter, TẠI SAO body vẫn cần?"
-  "Nếu body sai 10%, làm sao BIẾT khi nào sai?"
-  = Câu hỏi cuối cùng MỌI NGƯỜI đặt ra.
-  = GPS analogy: body = GPS, domain = satellite. GPS đáng tin VÌ satellite đã calibrate.
-  v1.1: "4-tầng" → "2-tầng + 2 đường" (deeper reframe, same truth).
+  Body-Base.md §7 references calibration (brief, 20-line summary).
+  This file = DEEP VERSION — philosophical foundation FOR THE ENTIRE FRAMEWORK.
+  "If body check = trustworthy, WHY is it trustworthy?"
+  "If domain = final arbiter, WHY is body still needed?"
+  "If body is wrong 10% of the time, HOW do you know when it's wrong?"
+  = The final questions everyone asks.
+  = GPS analogy: body = GPS, domain = satellite. GPS is trustworthy BECAUSE satellite calibrated it.
+  v1.1: "4-layer" → "2-layer + 2 pathways" (deeper reframe, same truth).
 position: |
-  Core-Deep-Dive/Body-Base/ — cùng folder với Body-Base.md (entry point).
-  META file: không mô tả mechanism mới — giải thích TẠI SAO mechanisms ĐÃ MÔ TẢ = ĐÁNG TIN.
+  Core-Deep-Dive/Body-Base/ — same folder as Body-Base.md (entry point).
+  META file: describes no new mechanisms — explains WHY mechanisms ALREADY DESCRIBED = TRUSTWORTHY.
   Body-Base.md §7 → points here for detail.
   Ask-AI.md §6.1 → references calibration from this file.
 dependencies:
   - Body-Base.md v3.2 — §6 3-Layer Evolution, §7 calibration summary, §8 Circuit Breaker
-  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 3-Layer, Social=Requirement
   - Body-Feedback-Mechanism.md v2.0 — 2-source, chunk dynamics, Body-Need
   - Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, E₀→E₃ complexity gradient
   - Self-Pattern-Modeling.md v3.1 — solo simulation, Compiled/Fresh axis, per-domain
   - Logic-Feeling.md v2.1 — Compiled/Fresh primary axis, Shareable/Non-shareable
-  - Ask-AI.md v3.1 — Dual Check §6.1 (body=quality controller, domain=arbiter)
+  - Ask-AI.md v3.1 — Dual Check §6.1 (body = quality controller, domain = arbiter)
   - Feeling.md v3.0 — PFC observation interface, PFC=Lawyer
   - Gap-Direction.md v2.0 — gap has direction
   - Body-Feedback-Label.md v2.0 — vocabulary reference
@@ -57,113 +56,111 @@ dependencies:
   - Cortisol-Baseline.md v2.1 — amplifier, holding signal
   - AI-Schema-Detection.md v2.0 — AI Trust Guardrails
   - Research/Global/AI-Self-Model.md v2.0 — Dual Check, Stale Calibration
-language: Tiếng Việt primary + English technical terms
+language: English (translated from Vietnamese primary + English technical terms)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Why Body Knows — Tại Sao Cơ Thể "Biết"
+# Why Body Knows
 
-> **Tại sao GPS biết đường?**
-> Vì vệ tinh ĐÃ calibrate GPS qua triệu chuyến đi thật.
+> **Why does a GPS know the route?**
+> Because satellites HAVE calibrated the GPS through millions of real journeys.
 >
-> **Tại sao body "biết"?**
-> Vì domain ĐÃ calibrate body qua 2 cơ chế:
-> ① Evolution (triệu năm chọn lọc tự nhiên — gen wired)
-> ② Compilation suốt đời — từ domain trực tiếp VÀ từ entities khác qua trust
+> **Why does the body "know"?**
+> Because domain reality HAS calibrated the body through 2 mechanisms:
+> ① Evolution (millions of years of natural selection — genes wired)
+> ② Lifelong Compilation — from direct domain contact AND from other entities via trust
 >
-> Follow body = follow domain đã dạy. Đúng ~90%+.
-> Sai ở cái quá mới — khi domain ĐỔI nhanh hơn body UPDATE.
+> Following the body = following what domain reality has already taught. Correct ~90%+.
+> Wrong about what is too new — when domain CHANGES faster than body UPDATES.
 >
 > Compilable Architecture (general-purpose reward) = body CAN learn ANYTHING.
-> Nhưng "anything" = NO pre-wired content → NEEDS calibration.
-> 2 cơ chế calibration = HOW body BECOMES trustworthy.
+> But "anything" = NO pre-wired content → NEEDS calibration.
+> 2 calibration mechanisms = HOW body BECOMES trustworthy.
 >
-> **3 câu hỏi META file này trả lời:**
-> ① Tại sao nghe nhạc MỚI → body biết "hay"? (coherence evaluation)
-> ② Tại sao body BIẾT trả reward cho pattern mới? (evolution wired)
-> ③ Tại sao follow reward suốt đời → KẾT QUẢ map đúng thật? (calibration)
+> **3 meta-questions this file answers:**
+> ① Why does hearing NEW music → body knows "this is beautiful"? (coherence evaluation)
+> ② Why does the body KNOW to reward new patterns? (evolution wired)
+> ③ Why does following body reward over a lifetime → results map correctly to reality? (calibration)
 >
-> **Nếu không trả lời 3 câu này:**
-> Framework = "hãy nghe body" → NHƯNG tại sao body ĐÁNG TIN?
-> = Thiếu FOUNDATION → framework DỰA vào cái CHƯA giải thích.
+> **Without answering these 3 questions:**
+> Framework = "listen to your body" → BUT why is the body TRUSTWORTHY?
+> = Missing FOUNDATION → framework RESTS on something unexplained.
 >
-> **File này = foundation đó.**
+> **This file = that foundation.**
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — THESIS: TẠI SAO FRAMEWORK CÓ CƠ SỞ
+- §0 — THESIS: WHY THE FRAMEWORK HAS FOUNDATIONS
 - §1 — MECHANISM: COHERENCE EVALUATION
-- §2 — MUSIC EXAMPLE: SIGNATURE DEEP CASE
-- §3 — 2-TẦNG CALIBRATION + 2 ĐƯỜNG VÀO
-- §4 — COMPILED/FRESH: "BIẾT" = COMPILED
-- §5 — VÒNG TRÒN: DOMAIN DẠY BODY
-- §6 — KHI BODY SAI + DUAL CHECK
+- §2 — MUSIC EXAMPLE: THE SIGNATURE DEEP CASE
+- §3 — TWO-LAYER CALIBRATION + TWO INPUT PATHWAYS
+- §4 — COMPILED/FRESH: "KNOWING" = COMPILED
+- §5 — THE CALIBRATION LOOP: DOMAIN TEACHES BODY
+- §6 — WHEN BODY IS WRONG + DUAL CHECK
 - §7 — COMPILABLE ARCHITECTURE CONNECTION
 - §8 — HONEST ASSESSMENT
 - §9 — CROSS-REFERENCES
 
 ---
 
-## §0 — THESIS: TẠI SAO FRAMEWORK CÓ CƠ SỞ
+## §0 — THESIS: WHY THE FRAMEWORK HAS FOUNDATIONS
 
 ```
-⭐ FRAMEWORK NÓI: "Body-base evaluate → reward/pain → guide behavior."
+⭐ THE FRAMEWORK SAYS: "Body-base evaluates → reward/pain → guides behavior."
 
-  Ai hỏi: "TẠI SAO body evaluate ĐÁNG TIN?"
-  = Câu hỏi CUỐI CÙNG. Nếu không trả lời → framework = MÊ TÍN.
+  Anyone asks: "WHY is body evaluation TRUSTWORTHY?"
+  = THE FINAL QUESTION. Without an answer → framework = SUPERSTITION.
 
-  TRẢ LỜI NGẮN:
-    Body đáng tin VÌ DOMAIN ĐÃ DẠY BODY qua 2 cơ chế:
-      Tầng 1: Evolution (triệu năm chọn lọc — gen wired)
-      Tầng 2: Individual Compilation (suốt đời — Hebbian)
-        2a: Domain Contact (tự trải nghiệm + absorb từ environment)
-        2b: Trust-Injected (entities khác dạy/share — bố mẹ, culture, AI...)
+  SHORT ANSWER:
+    Body is trustworthy BECAUSE DOMAIN REALITY HAS TAUGHT THE BODY via 2 mechanisms:
+      Layer 1: Evolution (millions of years of selection — genes wired)
+      Layer 2: Individual Compilation (lifelong — Hebbian)
+        2a: Domain Contact (direct experience + unconscious absorption from environment)
+        2b: Trust-Injected (other entities teach/share — parents, culture, AI...)
 
-    → 2 cơ chế chồng lập = body CALIBRATED bởi domain
-    → Follow body = follow domain ĐÃ DẠY (qua proxy)
-    → GPS biết đường VÌ vệ tinh (domain) calibrate GPS (body)
-    → "Culture" và "AI" = INPUT SOURCES cho Tầng 2, không phải tầng riêng
+    → 2 overlapping mechanisms = body CALIBRATED by domain reality
+    → Following body = following what domain reality HAS TAUGHT (via proxy)
+    → GPS knows the route BECAUSE satellite (domain) calibrated GPS (body)
+    → "Culture" and "AI" = INPUT SOURCES for Layer 2, not separate tiers
 
-  NHƯNG: body evaluate COHERENCE, không evaluate TRUTH.
-    → Coherence ≈ truth PHẦN LỚN (vì 2 tầng calibrate chồng lập)
-    → Coherence ≠ truth KHI: evolution lag, chunks nền sai, schema override
-    → = Body đúng ~90%+. Sai ~10% ở cái domain thay đổi nhanh hơn body.
-    → ⚠️ ~90%/~10% = calibration anchor, KHÔNG phải đo lường chính xác. Xem §8 Honest Assessment.
-    → = CẦN external check (domain reality = final arbiter)
+  BUT: body evaluates COHERENCE, not TRUTH.
+    → Coherence ≈ truth MOST OF THE TIME (because 2 overlapping calibration layers)
+    → Coherence ≠ truth WHEN: evolution lag, flawed foundational chunks, schema override
+    → = Body correct ~90%+. Wrong ~10% about things domain changes faster than body updates.
+    → ⚠️ ~90%/~10% = calibration anchor, NOT a precise measurement. See §8 Honest Assessment.
+    → = NEEDS external check (domain reality = final arbiter)
 
 
-⭐ COMPILABLE ARCHITECTURE GIẢI THÍCH TẠI SAO CẦN CALIBRATION:
+⭐ COMPILABLE ARCHITECTURE EXPLAINS WHY CALIBRATION IS NEEDED:
 
-  (Inter-Body-Mechanism.md §1 — Compilable Architecture)
+  Hardwired Architecture (insects): hardwires WHAT to need → fast, no calibration needed
+    → Sweet = eat. Pain = flee. Mate = approach. Done.
+    → NO calibration needed — everything pre-wired.
 
-  Hardwired Architecture (côn trùng): hardwire WHAT to need → fast, no calibration needed
-    → Ngọt = eat. Pain = flee. Mate = approach. Done.
-    → KHÔNG CẦN calibration — everything pre-wired.
-
-  Compilable Architecture (người): hardwire HOW to need → adapt anything, but...
+  Compilable Architecture (humans): hardwires HOW to need → adapt anything, but...
     → Body CAN reward ANYTHING (general-purpose) → incredible flexibility
-    → NHƯNG: "anything" = NO pre-wired content → PHẢI LEARN gì reward
-    → = PHẢI CALIBRATE: domain phải DẠY body "reward CÁI GÌ?"
-    → = 2 cơ chế = HOW domain dạy body (evolution + compilation suốt đời)
-    → = Trade-off: 15-20 năm calibration period = vulnerable
+    → BUT: "anything" = NO pre-wired content → MUST LEARN what to reward
+    → = MUST CALIBRATE: domain must TEACH body "reward WHAT?"
+    → = 2 mechanisms = HOW domain teaches body (evolution + lifelong compilation)
+    → = Trade-off: 15-20 year calibration period = vulnerable
 
-  → File này = answer to: "WHY trust Compilable Architecture's output?"
-  → Answer: "Because domain feedback HAS calibrated it — qua evolution VÀ suốt đời compilation."
+  → This file = answer to: "WHY trust Compilable Architecture's output?"
+  → Answer: "Because domain feedback HAS calibrated it — via evolution AND lifelong compilation."
 
 
-⭐ CƠ CHẾ CỤ THỂ — "BODY BIẾT" = GÌ?
+⭐ CONCRETE MECHANISM — "BODY KNOWS" = WHAT?
 
-  "Body biết" = chunks COMPILED fire automatic → body-feedback direct.
-  (Logic-Feeling.md v2.1 §1: Compiled/Fresh = trục thật)
+  "Body knows" = compiled chunks fire automatically → body-feedback direct.
+  (Logic-Feeling.md v2.1 §1: Compiled/Fresh = the real axis)
 
-  Chef nếm → "thiếu muối" = compiled chunks fire → body-direct → BIẾT.
-  Einstein → "lời giải kia!" = compiled math chunks fire → BIẾT.
-  Nghe nhạc → "hay!" = compiled music chunks evaluate coherence → BIẾT.
+  Chef tastes → "needs more salt" = compiled chunks fire → body-direct → KNOWS.
+  Einstein → "that solution is right!" = compiled math chunks fire → KNOWS.
+  Hears music → "beautiful!" = compiled music chunks evaluate coherence → KNOWS.
 
-  BÊN TRONG: cùng cơ chế. BÊN NGOÀI: "gu", "trực giác", "cảm nhận."
-  = COMPILED chunks fire body-direct = tất cả những gì gọi là "body biết."
+  FROM OUTSIDE: "taste," "intuition," "feeling."
+  FROM INSIDE: compiled chunks firing body-direct = ALL of what's called "body knows."
 
 🟡 Compilable Architecture → calibration argument = framework meta-synthesis.
 🟢 Both mechanisms individually established (Darwinian selection, Hebbian learning).
@@ -174,17 +171,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §1 — MECHANISM: COHERENCE EVALUATION
 
 ```
-⭐ BODY KHÔNG CHECK "ĐÚNG/SAI" — BODY CHECK "KHỚP HAY KHÔNG KHỚP":
+⭐ BODY DOES NOT CHECK "RIGHT/WRONG" — BODY CHECKS "MATCHES OR DOESN'T MATCH":
 
-  CƠ CHẾ THẬT:
-    Pattern mới vào → body so sánh với patterns ĐÃ CÓ (compiled chunks)
-    → KHỚP (coherent): opioid → "SƯỚNG / HIỂU / HAY / ĐÚNG"
-    → KHÔNG KHỚP (conflict): cortisol nhẹ → "LẠ / KHÓ CHỊU / SAI"
-    → CHƯA BIẾT (không đủ data so sánh): dopamine → "TÒ MÒ / TÌM THÊM"
+  THE REAL MECHANISM:
+    New pattern enters → body compares with EXISTING patterns (compiled chunks)
+    → MATCHES (coherent): opioid → "BEAUTIFUL / UNDERSTAND / GOOD / RIGHT"
+    → DOESN'T MATCH (conflict): mild cortisol → "STRANGE / UNCOMFORTABLE / WRONG"
+    → UNKNOWN (not enough data to compare): dopamine → "CURIOUS / SEARCH MORE"
 
-  = Body evaluate COHERENCE WITH EXISTING CHUNKS, not correspondence with reality.
-  = "Khớp với cái đã biết" ≈ "đúng" (PHẦN LỚN — vì 2 tầng calibrate)
-  = NHƯNG: nếu "cái đã biết" SAI → "khớp" CŨNG SAI (§6 failure modes)
+  = Body evaluates COHERENCE WITH EXISTING CHUNKS, not correspondence with reality.
+  = "Matches what's already known" ≈ "correct" (MOST OF THE TIME — because 2 calibration layers)
+  = BUT: if "what's already known" IS WRONG → "matches" IS ALSO WRONG (§6 failure modes)
 
 
 ⭐ REWARD SIGNAL ARCHITECTURE — EVALUATIVE REWARD:
@@ -192,62 +189,62 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   (Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State + E₀→E₃)
 
   Evaluative Reward (opioid system):
-    Body ĐÁNH GIÁ pattern → coherent + match → opioid → reward signal.
+    Body EVALUATES pattern → coherent + match → opioid → reward signal.
 
-  E₀ — Simple sensory: ngọt, ấm, êm → trực tiếp, pre-chunk
-  E₁ — Pattern-based: nhạc hay, hiểu bài toán, joke → chunk coherence
-  E₂ — Complex social: được hiểu, Self-Pattern-Modeling match → multi-chunk evaluation
+  E₀ — Simple sensory: sweet, warm, smooth → direct, pre-chunk
+  E₁ — Pattern-based: beautiful music, solving a problem, getting a joke → chunk coherence
+  E₂ — Complex social: feeling understood, Self-Pattern-Modeling match → multi-chunk evaluation
   E₃ — Meta: meaning, purpose, identity coherence → deepest compilation
 
-  "Body biết nhạc hay" = E₁ (pattern coherence evaluation).
-  "Body biết bạn thân hiểu mình" = E₂ (social chunk matching).
-  "Body biết cuộc sống có nghĩa" = E₃ (meta-schema coherence).
-  → CÙNG mechanism (coherence evaluation) → KHÁC complexity level.
+  "Body knows music is beautiful" = E₁ (pattern coherence evaluation).
+  "Body knows a close friend truly understands you" = E₂ (social chunk matching).
+  "Body knows life has meaning" = E₃ (meta-schema coherence).
+  → SAME mechanism (coherence evaluation) → DIFFERENT complexity level.
 
 
-⭐ BODY-FEEDBACK-PRECONDITION — KHÔNG PHẢI pattern NÀO CŨNG REWARD:
+⭐ BODY-FEEDBACK-PRECONDITION — NOT EVERY PATTERN FIRES REWARD:
 
   (Body-Feedback.md — Body-Feedback-Precondition 5 preconditions)
 
-  Reward chỉ fire KHI:
-    Precondition-1 Directed-Gap: Body-need active (có gap đang fire)
-    Precondition-2 Chunk-Substrate: Chunks base adequate (có ĐỦ chunks để evaluate)
-    Precondition-3 Delta-Gate: Prediction-delta threshold (đủ MỚI — vượt ngưỡng)
-    Precondition-4 Match-Range: Goldilocks zone (dynamic — vừa quen vừa lạ)
-    Precondition-5 Compile-Gate: Association tag neutral/positive (không bị tagged negative)
+  Reward only fires WHEN:
+    Precondition-1 Directed-Gap: Body-need active (a gap is currently firing)
+    Precondition-2 Chunk-Substrate: Base chunks adequate (enough chunks to evaluate)
+    Precondition-3 Delta-Gate: Prediction-delta threshold (novel enough — crosses threshold)
+    Precondition-4 Match-Range: Goldilocks zone (dynamic — familiar enough AND novel enough)
+    Precondition-5 Compile-Gate: Association tag neutral/positive (not tagged negative)
 
-  Thiếu BẤT KỲ → reward KHÔNG fire:
-    → Precondition-2 fail: nghe nhạc cổ điển lần đầu = "không hiểu" (chunks thiếu)
-    → Precondition-3 fail: nghe bài quen lần 100 = "chán" (không đủ mới)
-    → Precondition-4 fail: nghe noise random = "khó chịu" (quá lạ, không Goldilocks)
-    → Precondition-5 fail: nhạc gắn ký ức đau = "không nghe nổi" (negative tag)
+  Missing ANY → reward DOES NOT fire:
+    → Precondition-2 fail: hearing classical music first time = "I don't get it" (chunks missing)
+    → Precondition-3 fail: hearing a familiar song for the 100th time = "boring" (not novel enough)
+    → Precondition-4 fail: hearing random noise = "unpleasant" (too unfamiliar, not Goldilocks)
+    → Precondition-5 fail: music associated with painful memory = "can't listen" (negative tag)
 
 
-⭐ COMPILED/FRESH TRONG COHERENCE EVALUATION:
+⭐ COMPILED/FRESH IN COHERENCE EVALUATION:
 
   Compiled chunks (expert):
-    → So sánh NHANH, CHI TIẾT, CHÍNH XÁC (compiled library sâu)
-    → "Biết" = tức thời, body-direct, không cần PFC draft
-    → VD: Chef nếm → body biết NGAY thiếu muối (chunks fire automatic)
+    → Compare FAST, IN DETAIL, PRECISELY (deep compiled library)
+    → "Knows" = immediate, body-direct, no PFC draft needed
+    → E.g.: Chef tastes → body knows INSTANTLY what's missing (chunks fire automatically)
 
   Fresh evaluation (beginner):
-    → So sánh CHẬM, THÔ, KÉM CHÍNH XÁC (library nông)
-    → "Chưa biết" = PFC phải draft, cost > 0, chưa chắc
-    → VD: Người thường nếm → "ngon hay dở?" (binary, thô)
+    → Compare SLOWLY, ROUGHLY, LESS PRECISELY (shallow library)
+    → "Doesn't know yet" = PFC must draft, cost > 0, uncertain
+    → E.g.: Non-chef tastes → "is this good or bad?" (binary, coarse)
 
-  → EXPERT "BIẾT" HƠN = compiled library DEEPER → evaluate CHÍNH XÁC hơn
-  → KHÔNG phải "thông minh hơn" → "body có NHIỀU thước đo hơn" (chunks nhiều)
+  → EXPERT "KNOWS MORE" = compiled library DEEPER → evaluate MORE ACCURATELY
+  → NOT "smarter" → "body has MORE measuring tools" (more chunks)
 
 
-⭐ PFC = LAWYER TRONG COHERENCE (Inter-Body §7):
+⭐ PFC = LAWYER IN COHERENCE EVALUATION:
 
-  Body evaluate → kết quả CÓ TRƯỚC PFC aware.
-  PFC observe kết quả → TẠO NARRATIVE cho body decision đã xảy ra.
-  "Bài này hay vì... giai điệu đẹp" = PFC confabulation (rationalize SAU).
-  Body ĐÃ BIẾT "hay" TRƯỚC — PFC chỉ nghĩ LÝ DO phù hợp.
+  Body evaluates → result EXISTS BEFORE PFC is aware.
+  PFC observes result → CREATES NARRATIVE for body decision that already happened.
+  "This song is beautiful because... the melody is lovely" = PFC confabulation (rationalize AFTER).
+  Body ALREADY KNEW "beautiful" BEFOREHAND — PFC only finds a FITTING REASON.
 
-  → "Tại sao thích?" = PFC often KHÔNG biết thật sự
-  → = Body evaluate ở chunks level (vô thức) → PFC observe → label
+  → "Why do you like it?" = PFC often DOESN'T actually know
+  → = Body evaluates at chunk level (unconscious) → PFC observes → labels
   🟢 Gazzaniga: split-brain → left hemisphere fabricates explanations
   🟢 Haidt 2001: moral intuition FIRST → reasoning follows (post-hoc)
   🟢 Nisbett & Wilson 1977: people cannot accurately report WHY they prefer
@@ -260,110 +257,110 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §2 — MUSIC EXAMPLE: SIGNATURE DEEP CASE
+## §2 — MUSIC EXAMPLE: THE SIGNATURE DEEP CASE
 
 ```
-⭐ TẠI SAO NHẠC = CASE ĐẶC BIỆT:
+⭐ WHY MUSIC = THE SPECIAL CASE:
 
-  Nghe bài nhạc MỚI (chưa bao giờ nghe) → body biết "hay" → TẠI SAO?
-  = Câu hỏi kinh điển. Không thể dùng "experience" (chưa nghe bao giờ).
-  = Không thể dùng "logic" (PFC thường KHÔNG articulate được tại sao hay).
-  = = Body "biết" ở level mà PFC không reach → perfect demonstration.
+  Hearing a NEW piece of music (never heard before) → body knows "beautiful" → WHY?
+  = The classic question. Can't explain with "experience" (never heard it before).
+  = Can't explain with "logic" (PFC usually CANNOT articulate why it's beautiful).
+  = = Body "knows" at a level PFC can't reach → perfect demonstration.
 
 
-⭐ CƠ CHẾ ĐÁNH GIÁ NHẠC (3 bước):
+⭐ THE MUSIC EVALUATION MECHANISM (3 steps):
 
-  BƯỚC 1 — VTA DETECT (prediction-delta = attention, CHƯA PHẢI reward):
-    → Bài nhạc mới → VTA so sánh với compiled patterns
-    → Có phần KHÁC → VTA fire dopamine → ATTENTION: "có gì đó mới!"
-    → = Chuông cửa. CHƯA biết quà hay rắn. KHÔNG phải reward per se.
+  STEP 1 — VTA DETECT (prediction-delta = attention, NOT YET reward):
+    → New music → VTA compares against compiled patterns
+    → Something DIFFERENT → VTA fires dopamine → ATTENTION: "something new here!"
+    → = The doorbell. Still don't know if it's a gift or a snake. NOT reward per se.
     🟢 Schultz 1997: VTA prediction error (= prediction-delta) = attention signal
 
-  BƯỚC 2 — BODY EVALUATE (coherence check):
-    → Phần mới có FIT vào cấu trúc nhạc đã compiled không?
-    → FIT (coherent + mới) → opioid → "HAY!"
-    → NOT FIT (random, phá structure) → cortisol nhẹ → "DỞ"
-    → = Quà hay rắn phụ thuộc COHERENCE, không phụ thuộc prediction-delta level
-    → = Spotify thêm note random → prediction-delta CAO nhưng coherence FAIL → DỞ
+  STEP 2 — BODY EVALUATE (coherence check):
+    → Does the new part FIT the musical structures already compiled?
+    → FITS (coherent + new) → opioid → "BEAUTIFUL!"
+    → DOESN'T FIT (random, breaks structure) → mild cortisol → "AWFUL"
+    → = Gift or snake depends on COHERENCE, not on the prediction-delta level
+    → = If Spotify added a random note → prediction-delta HIGH but coherence FAILS → BAD
 
-  BƯỚC 3 — BODY-FEEDBACK-PRECONDITION (ALL required):
-    → Precondition-2 Chunk-Substrate: Chunks nhạc adequate (có đủ music patterns để evaluate?)
-    → Precondition-3 Delta-Gate: Prediction-delta threshold (đủ mới?)
-    → Precondition-4 Match-Range: Goldilocks zone (dynamic — vừa quen vừa lạ?)
+  STEP 3 — BODY-FEEDBACK-PRECONDITION (ALL required):
+    → Precondition-2 Chunk-Substrate: Music chunks adequate (enough patterns to evaluate?)
+    → Precondition-3 Delta-Gate: Prediction-delta threshold (novel enough?)
+    → Precondition-4 Match-Range: Goldilocks zone (dynamic — familiar AND novel?)
     → Precondition-5 Compile-Gate: Association tag neutral/positive?
-    → Thiếu BẤT KỲ → reward không fire
+    → Missing ANY → reward doesn't fire
 
-  ⚠️ PREDICTION-DELTA ĐƠN THUẦN ≠ REWARD (Prediction-Error-Is-Not-Reward.md):
-    → Spotify random note test: prediction-delta TĂNG nhưng KHÔNG hay hơn
-    → Note random = prediction-delta pass, coherence FAIL
+  ⚠️ PREDICTION-DELTA ALONE ≠ REWARD (Prediction-Error-Is-Not-Reward.md):
+    → Random note test: prediction-delta INCREASES but does NOT make it more beautiful
+    → Random note = prediction-delta passes, coherence FAILS
     → = prediction-delta = attention (Step 1), coherence = evaluation (Step 2)
-    → = PHẢI CẢ HAI mới reward
+    → = BOTH required for reward
 
 
-⭐ GOLDILOCKS ZONE — 4 VÙNG:
+⭐ GOLDILOCKS ZONE — 4 REGIONS:
 
-  QUÁ QUEN → "CHÁN":
-    VTA habituate → dopamine THẤP → Precondition-3 fail → body: "biết rồi, nhàm"
-    🟢 Zajonc 1968: mere exposure → thích HƠN → plateau → habituate
+  TOO FAMILIAR → "BORING":
+    VTA habituates → dopamine LOW → Precondition-3 fails → body: "already know this, dull"
+    🟢 Zajonc 1968: mere exposure → like MORE → plateau → habituate
 
-  VỪA QUEN VỪA LẠ + COHERENT → "HAY!":
-    Prediction-delta fire (Precondition-3) + coherence pass + Goldilocks (Precondition-4) = ALL conditions met
-    → opioid → "HAY!" = E₁ reward fire
+  FAMILIAR AND NOVEL + COHERENT → "BEAUTIFUL!":
+    Prediction-delta fires (Precondition-3) + coherence passes + Goldilocks (Precondition-4)
+      = ALL conditions met → opioid → "BEAUTIFUL!" = E₁ reward fires
     🟢 Berlyne 1960: optimal novelty = max hedonic value (inverted-U)
     🟢 North & Hargreaves 1995: inverted-U musical preference × familiarity
 
-  VỪA QUEN VỪA LẠ + INCOHERENT → "lạ nhưng DỞ":
-    Prediction-delta fire (Precondition-3) + Goldilocks ok (Precondition-4) → NHƯNG coherence FAIL
-    → cortisol nhẹ → "interesting but don't like"
+  FAMILIAR AND NOVEL + INCOHERENT → "strange but AWFUL":
+    Prediction-delta fires (Precondition-3) + Goldilocks OK (Precondition-4) →
+      BUT coherence FAILS → mild cortisol → "interesting but don't like it"
     → = Experimental jazz: some fascinated (chunks match), some reject (chunks mismatch)
 
-  QUÁ LẠ → "KHÔNG HIỂU":
-    Precondition-2 fail (chunks không adequate) + Precondition-4 fail (ngoài Goldilocks)
-    → "Chả hiểu gì" → NHƯNG: người KHÁC (khác chunks) CÓ THỂ "hay"
-    → = Classical music cho người chỉ nghe pop: "boring/weird"
+  TOO UNFAMILIAR → "DON'T UNDERSTAND":
+    Precondition-2 fails (chunks not adequate) + Precondition-4 fails (outside Goldilocks)
+    → "Don't understand anything" → BUT: someone ELSE (different chunks) MIGHT hear "beautiful"
+    → = Classical music for someone who only listens to pop: "boring/weird"
 
 
-⭐ PFC = LAWYER TRONG NHẠC:
+⭐ PFC = LAWYER IN MUSIC:
 
-  Body evaluate nhạc ở body-base level:
-    → Chunks nhạc compile ở auditory cortex (temporal lobe)
-    → Coherence evaluation ở body-base level (vô thức)
-    → Kết quả: opioid fire → PFC observe: "hay!"
+  Body evaluates music at body-base level:
+    → Music chunks compiled in auditory cortex (temporal lobe)
+    → Coherence evaluation at body-base level (unconscious)
+    → Result: opioid fires → PFC observes: "beautiful!"
 
-  PFC thường KHÔNG explain được:
-    → "Tại sao bài này hay?" → PFC tìm label → KHÔNG CÓ TỪ chính xác
-    → Body biết ở body-level (đúng, chính xác)
-    → PFC explain ở observation level (sai, rationalize, confabulate)
-    → "Hay vì giai điệu đẹp" = PFC confabulation (Lawyer tạo narrative SAU)
+  PFC usually CANNOT explain it:
+    → "Why is this song beautiful?" → PFC searches for labels → NO precise words available
+    → Body knows at body-level (correctly, precisely)
+    → PFC explains at observation level (incorrectly, rationalizing, confabulating)
+    → "Beautiful because the melody is lovely" = PFC confabulation (Lawyer creates narrative AFTER)
     🟢 Gazzaniga: left hemisphere interpreter fabricates explanations
     🟢 Nisbett & Wilson 1977: people wrong about causes of preferences
 
-  SO SÁNH:
-    Einstein: chunk-gap → CÓ THỂ articulate ("vật lý mâu thuẫn ở ĐÂY")
-    Người nghe nhạc: coherence reward → KHÔNG articulate được WHY
-    → CÙNG body evaluate mechanism → KHÁC clarity ở PFC observation
-    → Einstein: high clarity (chunks verbal-linked → shareable)
-    → Nhạc: low clarity (chunks auditory, non-verbal → non-shareable)
-    → = "Gu nhạc" = non-shareable compiled chunks → body-direct → PFC chỉ "hay thôi"
+  COMPARISON:
+    Einstein: chunk-gap → CAN articulate ("physics contradicts itself HERE")
+    Music listener: coherence reward → CANNOT articulate WHY
+    → SAME body evaluation mechanism → DIFFERENT clarity at PFC observation
+    → Einstein: high clarity (chunks verbally-linked → shareable)
+    → Music: low clarity (chunks auditory, non-verbal → non-shareable)
+    → = "Musical taste" = non-shareable compiled chunks → body-direct → PFC only "beautiful"
     (Feeling.md v3.0 §2: magnitude × clarity)
 
 
-⭐ COMPILABLE ARCHITECTURE GIẢI THÍCH TẠI SAO NHẠC REWARD:
+⭐ COMPILABLE ARCHITECTURE EXPLAINS WHY MUSIC FIRES REWARD:
 
-  Hardwired Architecture (côn trùng): CHỈ reward survival-relevant (food, mate, safety)
-  → Nhạc = irrelevant → KHÔNG CÓ music reward.
+  Hardwired Architecture (insects): ONLY rewards survival-relevant patterns (food, mate, safety)
+  → Music = irrelevant → NO music reward.
 
-  Compilable Architecture (người): reward BẤT KỲ coherent pattern fill gap direction.
-  → Nhạc = coherent auditory patterns → body CAN reward → music pleasure EXISTS.
+  Compilable Architecture (humans): rewards ANY coherent pattern that fills a gap direction.
+  → Music = coherent auditory patterns → body CAN reward → music pleasure EXISTS.
   → = Music reward = PROOF of general-purpose reward system.
-  → = Không phải "evolution select cho nhạc" — mà "evolution select cho COHERENCE
-    evaluation" → nhạc HAPPENS TO trigger it.
+  → = NOT "evolution selected for music" — but "evolution selected for COHERENCE
+    evaluation" → music HAPPENS TO trigger it.
 
-  → = "GU NHẠC" = chunk library nhạc CỦA BẠN decide:
-    ① Goldilocks zone ở đâu (bao nhiêu mới đủ mới)
-    ② Coherence evaluate thế nào (pattern nào "fit")
-    ③ Clarity ở PFC (có explain được hay chỉ "thích thôi")
-    → Mỗi người chunks KHÁC → Goldilocks + coherence KHÁC → "gu" KHÁC
+  → = "MUSICAL TASTE" = your music chunk library decides:
+    ① Where your Goldilocks zone is (how much novelty is "novel enough")
+    ② How coherence evaluates (which patterns "fit")
+    ③ How much PFC clarity (can you explain it or just "like it")
+    → Each person's chunks are DIFFERENT → Goldilocks + coherence DIFFERENT → "taste" DIFFERENT
 
 🟢 Zajonc 1968: mere exposure effect
 🟢 Berlyne 1960: optimal novelty → inverted-U
@@ -376,192 +373,192 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §3 — 2-TẦNG CALIBRATION + 2 ĐƯỜNG VÀO
+## §3 — TWO-LAYER CALIBRATION + TWO INPUT PATHWAYS
 
-### §3.0 — Câu hỏi gốc: "Calibration" = cơ chế hay nguồn?
-
-```
-⭐ "FOLLOW BODY = FOLLOW DOMAIN ĐÃ DẠY" — tại sao?
-  Vì DOMAIN đã dạy body qua 2 cơ chế chồng lập.
-
-  NHƯNG TRƯỚC: câu hỏi ẩn mà framework chưa trả lời tường minh:
-    "Tầng calibration" = CƠ CHẾ body learns, hay NGUỒN input vào?
-
-  v1.0 dùng 4-tầng: Evolution → Development → Culture → AI.
-  Drill phát hiện: Culture và AI KHÔNG PHẢI cơ chế mới.
-    → Cha mẹ dạy "lửa nóng" → body compile qua Hebbian.
-    → Thầy dạy "F=mg" → body compile qua Hebbian.
-    → AI nói "X đúng" → body compile qua Hebbian.
-    → Culture share → body compile qua... CÙNG Hebbian.
-    → = Culture, AI, bố mẹ, sách = INPUT SOURCES cho cùng 1 cơ chế: Hebbian.
-
-  VẬY: chỉ có 2 CƠ CHẾ THẬT SỰ KHÁC NHAU:
-    ① Darwinian selection (gen-level, triệu năm)
-    ② Hebbian compilation (individual-level, suốt đời)
-
-  Nhưng Tầng 2 (Hebbian) có 2 ĐƯỜNG VÀO rất khác:
-    2a: Domain Contact — body tiếp xúc domain TRỰC TIẾP
-    2b: Trust-Injected — entities khác TRUYỀN chunks qua trust amplifier
-
-  → v1.1 reframe: 4-tầng → 2-tầng + 2 đường vào.
-  → Parsimony: ít hơn, giải thích NHIỀU HƠN.
-```
-
-
-### §3.1 — Tầng 1: EVOLUTION (gen calibrate, triệu năm)
+### §3.0 — The Core Question: "Calibration" = Mechanism or Source?
 
 ```
-⭐ CƠ CHẾ: DARWINIAN SELECTION — khác Hebbian hoàn toàn.
+⭐ "FOLLOWING BODY = FOLLOWING WHAT DOMAIN HAS TAUGHT" — why?
+  Because DOMAIN REALITY has taught the body through 2 overlapping mechanisms.
 
-  TRIỆU sinh vật × TRIỆU năm × TRIỆU thử nghiệm:
-    Gen A: body reward pattern X → thử trong domain → SỐNG → gen truyền ✅
-    Gen B: body reward pattern Y → thử trong domain → CHẾT → gen KHÔNG truyền ❌
-  → Qua triệu năm: CHỈ CÒN gen reward ĐÚNG patterns (giúp sống)
-  → Gen reward SAI → chủ nhân ĐÃ CHẾT → gen MẤT
-  → = Body HIỆN TẠI = "survivor's GPS" — chỉ giữ route ĐÚNG
+  BUT FIRST: the hidden question the framework hadn't made explicit:
+    "Calibration layer" = MECHANISM by which body learns, or SOURCE of input?
 
-  Ví dụ cụ thể:
-    Lửa nóng: chạm → ĐAU → tránh → SỐNG → gen "lửa=đau" truyền
-    Ngọt: ăn → NGON → có nutrition → SỐNG → gen "ngọt=reward" truyền
-    Rắn: thấy → SỢ → tránh → SỐNG → gen "rắn=sợ" truyền
-    Social: cùng nhóm → SỐNG → gen "social=reward" truyền (Inter-Body §1.3)
+  v1.0 used 4 layers: Evolution → Development → Culture → AI.
+  On closer inspection: Culture and AI are NOT separate mechanisms.
+    → Parents teach "fire is hot" → body compiles via Hebbian.
+    → Teacher teaches "F=mg" → body compiles via Hebbian.
+    → AI says "X is correct" → body compiles via Hebbian.
+    → Culture shares patterns → body compiles via... SAME Hebbian.
+    → = Culture, AI, parents, books = INPUT SOURCES for the same 1 mechanism: Hebbian.
 
-  TẠI SAO ĐÂY LÀ TẦNG RIÊNG (không gộp vào Hebbian):
-    → Operate ở GEN level, không ở NEURON level
-    → Speed: triệu năm (vs months-years cho Hebbian)
+  SO: only 2 GENUINELY DIFFERENT MECHANISMS:
+    ① Darwinian selection (gene-level, millions of years)
+    ② Hebbian compilation (individual-level, lifelong)
+
+  But Layer 2 (Hebbian) has 2 VERY DIFFERENT INPUT PATHWAYS:
+    2a: Domain Contact — body contacts domain DIRECTLY
+    2b: Trust-Injected — other entities TRANSMIT chunks via trust amplifier
+
+  → v1.1 reframe: 4-layer → 2-layer + 2 input pathways.
+  → Parsimony: fewer layers, explains MORE.
+```
+
+
+### §3.1 — Layer 1: EVOLUTION (gene-level calibration, millions of years)
+
+```
+⭐ MECHANISM: DARWINIAN SELECTION — completely different from Hebbian.
+
+  MILLIONS of organisms × MILLIONS of years × MILLIONS of trials:
+    Gene A: body rewards pattern X → trial in domain → SURVIVED → gene transmitted ✅
+    Gene B: body rewards pattern Y → trial in domain → DIED → gene NOT transmitted ❌
+  → Over millions of years: ONLY genes that reward CORRECT patterns (help survival) remain
+  → Genes rewarding WRONG things → owner ALREADY DIED → gene LOST
+  → = Present body = "survivor's GPS" — only keeps routes that WORK
+
+  Concrete examples:
+    Fire is hot: touch → PAIN → avoid → SURVIVED → "fire=pain" gene transmitted
+    Sweet: eat → GOOD → has nutrition → SURVIVED → "sweet=reward" gene transmitted
+    Snakes: see → FEAR → avoid → SURVIVED → "snake=fear" gene transmitted
+    Social: in a group → SURVIVED → "social=reward" gene transmitted
+
+  WHY THIS IS A SEPARATE LAYER (not merged into Hebbian):
+    → Operates at GENE level, not NEURON level
+    → Speed: millions of years (vs months-years for Hebbian)
     → Unit: SPECIES population (vs individual brain)
-    → = Cái bạn CÓ khi sinh ra, TRƯỚC mọi trải nghiệm
-    → = PLATFORM cho Tầng 2 operate on
+    → = What you HAVE at birth, BEFORE any experience
+    → = PLATFORM for Layer 2 to operate on
 
-  LIMIT: calibrate CHẬM (nghìn-triệu năm). Evolution lag (§6).
-  → Domain thay đổi NHANH (technology) → Tầng 1 CHẬM update → có thể SAI.
+  LIMIT: calibrates SLOWLY (thousands-millions of years). Evolution lag (§6).
+  → Domain changes FAST (technology) → Layer 1 SLOW to update → can be WRONG.
 
 🟢 Darwin established. Modern evolutionary psychology confirms.
 ```
 
 
-### §3.2 — Tầng 2: INDIVIDUAL COMPILATION (Hebbian, suốt đời)
+### §3.2 — Layer 2: INDIVIDUAL COMPILATION (Hebbian, lifelong)
 
 ```
-⭐ CƠ CHẾ: HEBBIAN — "repeat + verify → compile → automatic"
+⭐ MECHANISM: HEBBIAN — "repeat + verify → compile → automatic"
 
-  TẤT CẢ learning suốt đời = CƠ CHẾ NÀY.
-  BẤT KỂ input source (tự thử, được dạy, absorb vô thức).
+  ALL learning throughout life = THIS MECHANISM.
+  REGARDLESS of input source (self-trial, taught, unconscious absorption).
   Mechanism: experience → body-feedback → Hebbian strengthen → compiled
   = Fresh → Compiled trajectory (Logic-Feeling.md v4.0 §3)
   = Learning = body "knowing MORE" at body-direct level
 
-  NHƯNG: cùng cơ chế Hebbian → 2 ĐƯỜNG VÀO rất khác nhau:
+  BUT: same Hebbian mechanism → 2 VERY DIFFERENT INPUT PATHWAYS:
 
   ┌─────────────────────────────┬─────────────────────────────┐
   │ 2a DOMAIN CONTACT           │ 2b TRUST-INJECTED           │
   ├─────────────────────────────┼─────────────────────────────┤
-  │ Body tiếp xúc domain        │ Entity khác truyền chunks   │
-  │ trực tiếp                   │ qua trust amplifier         │
+  │ Body contacts domain        │ Another entity transmits    │
+  │ DIRECTLY                    │ chunks via trust amplifier  │
   │                             │                             │
-  │ Multi-modal (5 kênh)        │ Thường 1-2 kênh (verbal)   │
-  │ Domain verify MỖI lần       │ Verify: CHƯA (on trust)    │
-  │ KHÔNG cần trust amplifier   │ CẦN trust amplifier        │
-  │ Compile: THICK              │ Compile: THINNER           │
-  │ Speed: CHẬM                 │ Speed: NHANH               │
-  │ Risk: THẤP                  │ Risk: CAO hơn              │
+  │ Multi-modal (5 channels)    │ Usually 1-2 channels        │
+  │ Domain verify EACH time     │ Verify: NOT YET (on trust)  │
+  │ NO trust amplifier needed   │ NEEDS trust amplifier       │
+  │ Compile: THICK              │ Compile: THINNER            │
+  │ Speed: SLOW                 │ Speed: FAST                 │
+  │ Risk: LOW                   │ Risk: HIGHER                │
   └─────────────────────────────┴─────────────────────────────┘
 
-  → CÙNG cơ chế Hebbian.
-  → KHÁC ở: multi-modal richness × domain-verify count × trust amplifier.
-  → KHÔNG phải 2 "tầng" riêng — là 2 "đường vào" cho cùng 1 tầng.
+  → SAME Hebbian mechanism.
+  → DIFFERENT in: multi-modal richness × domain-verify count × trust amplifier.
+  → NOT 2 separate "tiers" — 2 "input pathways" into the same 1 tier.
 ```
 
 
 ### §3.2a — Domain Contact: Active + Passive
 
 ```
-⭐ 2a = BODY TIẾP XÚC DOMAIN TRỰC TIẾP → COMPILE:
+⭐ 2a = BODY CONTACTS DOMAIN DIRECTLY → COMPILES:
 
-  ACTIVE (chủ động thử, experiment, practice):
-    Chạm lửa → ĐAU → body compile "lửa=nguy hiểm" (5 kênh cùng lúc)
-    Lái xe ngày 1 → fresh → lái xe ngày 1,000 → compiled automatic
-    Therapist case 1 → fresh analysis → case 1,000 → "trực giác" compiled
+  ACTIVE (deliberate trial, experiment, practice):
+    Touch fire → PAIN → body compiles "fire=dangerous" (5 channels simultaneously)
+    Driving day 1 → fresh → driving day 1,000 → compiled automatic
+    Therapist case 1 → fresh analysis → case 1,000 → "intuition" compiled
     🟢 Kahneman 2011: System 1 in experts = compiled patterns
     🟢 Klein 1998: Recognition-Primed Decisions
 
-    Đặc điểm:
-      → 5 kênh đồng thời (visual + auditory + tactile + proprioception + body state)
-      → Mỗi lần = 1 domain verify loop (domain feedback trực tiếp)
+    Properties:
+      → 5 channels simultaneously (visual + auditory + tactile + proprioception + body state)
+      → Each time = 1 domain verify loop (direct domain feedback)
       → Compile THICK (multi-modal associative network)
-      → KHÔNG cần trust amplifier (domain nói TRỰC TIẾP qua sensory)
+      → NO trust amplifier needed (domain speaks DIRECTLY via sensory)
 
 
-  PASSIVE (absorb từ environment VÔ THỨC — ★ insight mới):
+  PASSIVE (absorb from environment UNCONSCIOUSLY — ★ key insight):
 
-    Body exist trong environment → patterns compile TỰ ĐỘNG.
-    KHÔNG AI DẠY. Không có ý thức "đang học." Body tự compile.
-    = "Auto compile" từ repeated observation (Zajonc mere exposure → compile).
+    Body exists in environment → patterns compile AUTOMATICALLY.
+    NOBODY TEACHES. No awareness of "learning." Body compiles on its own.
+    = "Auto compile" from repeated observation (Zajonc mere exposure → compile).
 
-    Social environment = DOMAIN (không chỉ vật lý):
-      Xung quanh mọi người nói giọng Nghệ An → bé compile giọng Nghệ An
-      Ở Nhật 5 năm → tự cúi chào, xếp hàng (KHÔNG AI DẠY tường minh)
-      1990 mọi người thích áo rộng → bạn CŨNG thấy "đẹp"
-      Startup mọi người làm 12h → bạn thấy "bình thường"
+    Social environment = DOMAIN (not just physical):
+      Living among people who speak a regional dialect → child compiles that dialect
+      Living in Japan 5 years → automatically bow, queue (NOBODY EXPLICITLY TAUGHT)
+      Surrounded by people who wear oversized clothing → "that looks normal and stylish"
+      In a startup culture where everyone works 12-hour days → body compiles "this is normal"
 
-    Đặc điểm:
+    Properties:
       → Multi-modal (see + hear + observe + interact)
-      → Domain "verify" = pattern CONSISTENT (mọi người VẪN làm vậy)
-      → KHÔNG CẦN trust amplifier (observed pattern, not claim cần evaluate)
-      → Compile vô thức (person KHÔNG BIẾT đang compile)
-      → = TẠI SAO "văn hóa thấm" mà không ai dạy
-      → = TẠI SAO "gu" thay đổi theo thời đại/môi trường
+      → Domain "verify" = pattern CONSISTENT (everyone STILL does it this way)
+      → NO trust amplifier needed (observed pattern, not a claim that needs evaluation)
+      → Compiles unconsciously (person DOESN'T KNOW they're compiling)
+      → = WHY "culture seeps in" without anyone explicitly teaching
+      → = WHY "taste" shifts with era/environment
 
     🟢 Zajonc 1968: mere exposure effect → repeated → positive valence
     🟡 Passive social compile as 2a variant = framework synthesis
 
-  ⭐ KEY: 2a (cả active và passive) = body contact domain TRỰC TIẾP.
-  "Domain" bao gồm CẢ physical domain VÀ social environment.
-  → NHIỀU nhất. DÀY nhất. NHƯNG CHẬM nhất (phải tự trải nghiệm/sống).
+  ⭐ KEY: 2a (both active and passive) = body contacts domain DIRECTLY.
+  "Domain" includes BOTH physical domain AND social environment.
+  → MOST input. THICKEST compile. BUT SLOWEST (must live/experience it directly).
 ```
 
 
 ### §3.2b — Trust-Injected: External Sources
 
 ```
-⭐ 2b = ENTITY KHÁC TRUYỀN CHUNKS → BODY COMPILE QUA TRUST AMPLIFIER:
+⭐ 2b = ANOTHER ENTITY TRANSMITS CHUNKS → BODY COMPILES VIA TRUST AMPLIFIER:
 
-  Ai đó EXPLICITLY communicate "X là Y" → body nhận → trust amplifier evaluate
-  → Trust đủ → chunks install → compile
-  → Trust thiếu → chunks reject → không compile
+  Someone EXPLICITLY communicates "X is Y" → body receives → trust amplifier evaluates
+  → Trust sufficient → chunks install → compile
+  → Trust insufficient → chunks rejected → no compile
 
-  CƠ CHẾ VẪN LÀ HEBBIAN:
-    External inject (Chunk.md §2.3) → PFC receive → body check → compile vào chunks
-    = Anchor-Schema §3 nguồn ④ (external inject)
+  MECHANISM IS STILL HEBBIAN:
+    External inject (Chunk.md §2.3) → PFC receives → body checks → compiles into chunks
+    = Anchor-Schema §3 Source ④ (external inject)
 
   5 EXTERNAL INSTALL MECHANISMS (Chunk.md §2.3):
     ① Co-attention — joint focus on same object/event
     ② Imitation — observe and reproduce
-    ③ Social referencing — "caregiver feels how about this?"
+    ③ Social referencing — "how does my caregiver feel about this?"
     ④ Label installation — verbal label attaches to existing chunk
     ⑤ Cultural transmission — vertical/horizontal/oblique
 
-  INPUT SOURCES (nhiều, parallel, suốt đời):
-    Bố mẹ:     earliest, highest trust, deepest compile (repetition + multi-modal)
-    Thầy cô:   trust delegated qua parent (inherited trust)
-    Bạn bè:    social proof, peer influence
-    Sách:      cultural transmission, accumulated knowledge
-    Tập thể:   institutional, organizational beliefs
-    Tôn giáo:  unfalsifiable → never challenged → deep compile
-    AI:        newest, fastest, broadest — TẤT CẢ nhân loại access ngay
+  INPUT SOURCES (many, parallel, lifelong):
+    Parents:        earliest, highest trust, deepest compile (repetition + multi-modal)
+    Teachers:       trust delegated via parent (inherited trust)
+    Peers:          social proof, peer influence
+    Books:          cultural transmission, accumulated knowledge
+    Institutions:   collective, organizational beliefs
+    Religion:       unfalsifiable → never challenged → deep compile
+    AI:             newest, fastest, broadest — ALL of humanity has access immediately
 
-  Đặc điểm:
-    → Thường 1-2 kênh (verbal, visual) → compile THINNER
-    → Domain verify: CHƯA (stored on trust cho đến khi ứng dụng thật)
-    → CẦN trust amplifier (Chunk.md §2.3: trust = amplifier cho external compile rate)
-    → Risk: trust source sai → chunks nền sai → §6 failure mode ②
-    → Speed: NHANH (skip personal trial-error) → = SHORTCUT
+  Properties:
+    → Usually 1-2 channels (verbal, visual) → compile THINNER
+    → Domain verify: NOT YET (stored on trust until real application)
+    → NEEDS trust amplifier (Chunk.md §2.3: trust = amplifier for external compile rate)
+    → Risk: if trust source is wrong → flawed foundational chunks → §6 failure mode ②
+    → Speed: FAST (skip personal trial-and-error) → = SHORTCUT
 
-  LIMIT quan trọng:
-    Culture transmit cả TRUTH và ERROR
-    ("Trái đất phẳng" = 2b truyền sai → chunks nền sai → §6)
-    AI confirm + body coherent → domain VẪN NO (AI-Self-Model.md v2.0)
-    → KHÔNG thể bỏ qua domain check SAU khi 2b install
+  IMPORTANT LIMIT:
+    Culture transmits both TRUTH AND ERROR
+    ("Flat Earth" = 2b transmitted wrong → flawed foundational chunks → §6)
+    AI confirms + body coherent → domain reality is STILL NO (AI-Self-Model.md v2.0)
+    → CANNOT skip domain check AFTER 2b install
 
 🟢 Boyd & Richerson 2005: dual inheritance (genes + culture)
 🟢 Tomasello 2009: cumulative cultural evolution uniquely human
@@ -572,205 +569,208 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §3.3 — 2b → 2a Trajectory: Inject → Verify → Deepen
 
 ```
-⭐ 2b INJECT SEED → 2a VERIFY + DEEPEN:
+⭐ 2b INJECTS SEED → 2a VERIFIES + DEEPENS:
 
-  Nghe "lửa nóng" (2b, thin) → chạm thật (2a, multi-modal) → chunk STRENGTHENED
-  Học "F=mg" (2b, verbal) → thí nghiệm thật (2a, full sensory) → chunk DEEPENED
-  Đọc về Trung Quốc (2b, text) → đi TQ (2a, 5 kênh) → chunk RICH
-  Mẹ nói "đừng tin người lạ" (2b) → bị lừa lần đầu (2a) → chunk CONFIRMED
+  Hear "fire is hot" (2b, thin) → actually touch (2a, multi-modal) → chunk STRENGTHENED
+  Learn "F=mg" (2b, verbal) → real experiment (2a, full sensory) → chunk DEEPENED
+  Read about a country (2b, text) → visit (2a, 5 channels) → chunk RICH
+  Mother says "don't trust strangers" (2b) → deceived for the first time (2a) → chunk CONFIRMED
 
   → 2b = SEED. 2a = GROW.
-  → 2b NHANH nhưng THIN. 2a CHẬM nhưng THICK.
+  → 2b FAST but THIN. 2a SLOW but THICK.
   → Ideal = 2b inject → 2a verify → compiled BOTH thick AND fast.
 
-  EDUCATION = DESIGNED để 2b + 2a combination:
-    Thầy dạy lý thuyết (2b inject) → Lab thực hành (2a verify) → compiled
-    = Chỉ 2b: "thuộc bài" (thin, chưa verify, dễ quên)
-    = Chỉ 2a: tự mò (chậm, nguy hiểm, reinvent wheel)
-    = 2b + 2a: hiểu + biết + compile = TỐI ƯU
+  EDUCATION = DESIGNED for 2b + 2a combination:
+    Teacher teaches theory (2b inject) → Lab practice (2a verify) → compiled
+    = Only 2b: "memorized" (thin, unverified, easy to forget)
+    = Only 2a: self-discover (slow, dangerous, reinvent the wheel)
+    = 2b + 2a: understand + know + compile = OPTIMAL
     (Education/Mechanism.md: inject + practice = deepest compile)
 
-  ⭐ TẦNG 1 (evolution) CŨNG feed vào trajectory này:
-    Gen wire "social=reward" (Tầng 1) → gặp bạn (2a active) → confirmed
-    Gen wire "đau=tránh" (Tầng 1) → mẹ dạy "nóng" (2b) → chạm thật (2a) → triple confirm
-    → = 3 nguồn (gen + 2b inject + 2a verify) CÓ THỂ CHỒNG LÊN = compiled CỰC SÂU
+  ⭐ LAYER 1 (evolution) ALSO feeds into this trajectory:
+    Gene wires "social=reward" (Layer 1) → meet a friend (2a active) → confirmed
+    Gene wires "pain=avoid" (Layer 1) → mother teaches "hot" (2b) → actually touch (2a) → triple confirm
+    → = 3 sources (gene + 2b inject + 2a verify) CAN STACK = compiled EXTREMELY DEEP
 ```
 
 
-### §3.4 — Recursive Property: Chunks filter Domain Contact
+### §3.4 — Recursive Property: Chunks Filter Domain Contact
 
 ```
-⭐ COMPILE TỪ DOMAIN = RECURSIVE FUNCTION:
+⭐ COMPILING FROM DOMAIN = A RECURSIVE FUNCTION:
 
   compile_output = f(domain_input, existing_chunks, attention_direction)
 
-  NHƯNG:
+  BUT:
     existing_chunks = Σ(all previous compile_output)
     attention_direction = f(gap_direction) = f(existing_chunks)
 
   → RECURSIVE: chunks → detect patterns → compile → detect MORE → compile MORE
-  → = POSITIVE SPIRAL (expertise) hoặc STAGNATION (nếu ko expose new domain)
+  → = POSITIVE SPIRAL (expertise) or STAGNATION (if not exposed to new domain)
 
 
-  CASE: 3 NGƯỜI ĐI TRUNG QUỐC (cùng domain input, khác compile output):
+  CASE: 3 PEOPLE VISITING CHINA (same domain input, different compile output):
 
-    Người bình thường (trúng giải, chunks TQ ≈ 0):
-      → Thấy: đông, ồn, ăn lạ → Compile: "TQ đông và lạ" (SURFACE)
-      → Không có chunks → KHÔNG detect cultural patterns
+    Lottery winner (China chunks ≈ 0):
+      → Sees: crowds, noise, unfamiliar food → Compiles: "China is crowded and strange" (SURFACE)
+      → No chunks → CANNOT detect cultural patterns
 
-    Người thích khám phá (chunks khám phá rich):
-      → Gap-direction "muốn hiểu khác biệt" → ACTIVELY scan
-      → Thấy: architecture, food culture, social behavior differences
-      → Compile: "TQ có X khác Y vì Z" (COMPARATIVE, deeper)
+    The curious explorer (rich "discovery" chunks):
+      → Gap-direction "want to understand differences" → ACTIVELY scans
+      → Sees: architecture, food culture, social behavior differences
+      → Compiles: "China has X different from Y because Z" (COMPARATIVE, deeper)
 
-    Người biết tiếng Trung (chunks TQ deep):
-      → Language chunks → ACCESS conversations, signs, jokes, nuance
-      → Compile: deep cultural understanding, social dynamics
-      → CÙNG 1 tuần ở TQ → compile GẤP BỘI vs 2 người kia
-
-
-  CASE: BÉ 1 TUỔI vs TRẺ 10 TUỔI vs NGƯỜI 20 TUỔI — cùng đi tàu hỏa:
-
-    Bé 1 tuổi (chunks ≈ minimal):
-      → Detect: motion, sound, visual raw → Compile: basic sensory patterns
-      → Về: KHÔNG nhớ (chunks quá thô, episodic chưa phát triển)
-
-    Trẻ 10 tuổi (chunks moderate):
-      → Detect: "nhanh hơn xe!", cảnh đẹp, "đi xa!" → Compile: comparison
-      → Về: "đi tàu vui lắm!" (chunked experience with context)
-
-    Người 20 tuổi lần đầu (chunks rich):
-      → Detect: comfort, efficiency, meaning, social context, comparison
-      → Compile: rich contextual understanding + future plan
-      → Về: nuanced story + comparison + reflection
+    The Mandarin speaker (deep China chunks):
+      → Language chunks → ACCESS to conversations, signs, jokes, nuance
+      → Compiles: deep cultural understanding, social dynamics
+      → SAME 1 week in China → compile MULTIPLY more vs the other two
 
 
-  ⭐ INSIGHT TỪ 2 CASES:
+  CASE: 1-YEAR-OLD vs 10-YEAR-OLD vs 20-YEAR-OLD — same train ride:
 
-    Existing chunks = BỘ LỌC + BỘ KHUẾCH ĐẠI:
-      ① LỌC: chỉ DETECT pattern mà existing chunks cho phép
-         Không biết tiếng → nghe = "ồn" (noise). Biết tiếng → nghe = meaning.
-         = "Chưa có chunks = chưa có gap = chưa detect" (Gap-Direction.md v2.0)
-      ② KHUẾCH ĐẠI: existing chunks LÀM GIÀU mỗi input
-         Người khám phá: attention HƯỚNG về novelty → detect MORE
-      ③ LIÊN KẾT: new input connect vào existing network
-         Biết tiếng → mỗi câu connect 1000 chunks → RICH compile
-         Không biết → mỗi câu = isolated sensory → THIN compile
+    1-year-old (chunks ≈ minimal):
+      → Detects: motion, sound, raw visual → Compiles: basic sensory patterns
+      → After: DOESN'T REMEMBER (chunks too coarse, episodic memory not yet developed)
 
-    → = "10 năm kinh nghiệm" ≠ "1 năm × 10" (nếu mỗi năm compile THÊM)
-    → = TẠI SAO expert thấy cái beginner KHÔNG thấy (cùng domain input)
-    → = 2b CÓ THỂ "MỞ KHÓA" 2a: inject seed → detect patterns bạn chưa thấy
-       (Thầy dạy "để ý X" → bạn bắt đầu THẤY X trong domain → compile X)
+    10-year-old (moderate chunks):
+      → Detects: "faster than a car!", beautiful scenery, "going far away!" → Compiles: comparisons
+      → After: "The train was so fun!" (chunked experience with context)
+
+    20-year-old, first time (rich chunks):
+      → Detects: comfort, efficiency, meaning, social context, comparative insights
+      → Compiles: rich contextual understanding + future plans
+      → After: nuanced story + comparison + reflection
+
+
+  ⭐ INSIGHT FROM BOTH CASES:
+
+    Existing chunks = BOTH A FILTER AND AN AMPLIFIER:
+      ① FILTER: only DETECTS patterns that existing chunks allow
+         Not knowing the language → hearing sounds = "noise." Knowing the language → hearing = meaning.
+         = "No chunks yet = no gap yet = can't detect" (Gap-Direction.md v2.0)
+      ② AMPLIFIER: existing chunks ENRICH each input
+         The explorer: attention DIRECTED toward novelty → detect MORE
+      ③ CONNECTOR: new input connects into existing network
+         Knowing the language → every sentence connects to 1,000 chunks → RICH compile
+         Not knowing → every sentence = isolated sensory → THIN compile
+
+    → = "10 years of experience" ≠ "1 year × 10" (if each year compiles MORE)
+    → = WHY experts see what beginners CANNOT (same domain input)
+    → = 2b CAN "UNLOCK" 2a: inject a seed → see patterns you didn't see before
+       (Teacher says "pay attention to X" → you start SEEING X in the domain → compile X)
 
 🟡 Recursive compile (chunks filter domain contact) = framework synthesis
-🟡 Consistent with Gap-Direction "chưa biết = không có gap" principle
+🟡 Consistent with Gap-Direction "no knowledge = no gap" principle
 ```
 
 
-### §3.5 — "Culture" và "AI" = tên gọi, không phải tầng
+### §3.5 — "Culture" and "AI" = Labels, Not Tiers
 
 ```
-⭐ CULTURE = TÊN GỌI cho 2 hiện tượng ĐÃ MÔ TẢ:
+⭐ CULTURE = A LABEL for 2 phenomena ALREADY DESCRIBED:
 
   ① Social environment AS domain (2a passive):
-     Mọi người xung quanh behave → body compile patterns vô thức
-     = Giọng vùng miền, norms, gu thẩm mỹ, "bình thường"
-     = KHÔNG ai dạy, body tự compile từ observation
+     People around you behave a certain way → body compiles patterns unconsciously
+     = Regional dialects, norms, aesthetic taste, sense of "normal"
+     = NOBODY teaches explicitly, body compiles automatically from observation
 
   ② Accumulated knowledge transmitted (2b):
-     Sách, trường, cha mẹ dạy, tôn giáo = inject chunks
+     Books, schools, parents, religion = inject chunks
      = Trust-amplified, explicit transmission
 
   → Culture = ① + ② operating simultaneously.
-  → MẠNH khi ①+② align: được dạy "cúi chào" + thấy mọi người cúi chào = double compile
-  → WEAK khi ① contradicts ②: dạy "trung thực" nhưng thấy mọi người nói dối = CONFLICT
-     → Conflict = body nhận 2 patterns mâu thuẫn → dissonance → compile CHẬM hoặc SAI
+  → STRONG when ①+② align: taught to bow + see everyone bowing = double compile
+  → WEAK when ① contradicts ②: taught "be honest" but see everyone lying = CONFLICT
+     → Conflict = body receives 2 contradicting patterns → dissonance →
+         compile SLOWER or FLAWED
 
 
-  AI = INPUT SOURCE MỚI NHẤT cho 2b:
-     AI: chứa tri thức TOÀN NHÂN LOẠI → access NGAY lập tức
-     Người: hỏi AI → nhận chunks (2b) → body check → compile
-     = 2b × 1000 (speed + breadth + access)
-     → NHƯNG: AI CHỈ cho CHUNKS → body VẪN PHẢI check (coherence)
-     → KHÔNG thể bỏ qua domain check (vì AI + body CÓ THỂ cùng sai)
-     (AI-Self-Model.md v2.0: AI amplify → body coherent hơn → domain VẪN NO)
+  AI = THE NEWEST INPUT SOURCE for 2b:
+     AI: contains ALL of humanity's knowledge → access IMMEDIATELY
+     Person: asks AI → receives chunks (2b) → body checks → compiles
+     = 2b × 1,000 (speed + breadth + access)
+     → BUT: AI ONLY provides CHUNKS → body STILL MUST check (coherence)
+     → CANNOT skip domain check (because AI + body CAN both be wrong simultaneously)
+     (AI-Self-Model.md v2.0: AI amplifies → body feels more coherent → domain reality STILL NO)
 
 
-  CUMULATIVE STACKING = EMERGENT PROPERTY (not separate tier):
-     A thử → compile → DẠY B (2b) → B compile + thử thêm → DẠY C
-     → Mỗi thế hệ START HIGHER (Newton "shoulders of giants")
-     → = CÙNG Hebbian nhưng SCALE qua thời gian
-     → = Không phải cơ chế MỚI ở neuron level
-     → = Nhưng emergent property CỰC MẠNH ở collective level
-     → 10,000 năm → MASSIVE accumulated stack
+  CUMULATIVE STACKING = EMERGENT PROPERTY (not a separate tier):
+     A tries → compiles → TEACHES B (2b) → B compiles + tries more → TEACHES C
+     → Each generation STARTS HIGHER (Newton "shoulders of giants")
+     → = SAME Hebbian but SCALES across time
+     → = NOT a new mechanism at the neuron level
+     → = But an ENORMOUSLY POWERFUL emergent property at the collective level
+     → 10,000 years → MASSIVE accumulated stack
      → Modern professions (doctor, engineer, artist) = NONE genetically encoded
      → ALL = accumulated 2b enabling deeper 2a
 
   🟢 Boyd & Richerson 2005: dual inheritance (genes + culture)
   🟢 Tomasello 2009: cumulative cultural evolution uniquely human
-  🟡 "Culture = 2a passive + 2b, not separate tier" = framework synthesis
+  🟡 "Culture = 2a passive + 2b, not a separate tier" = framework synthesis
 ```
 
 
-### §3.6 — Reconciliation: Old 4-tầng → New 2-tầng
+### §3.6 — Reconciliation: Old 4-Layer → New 2-Layer
 
 ```
-⭐ TẠI SAO REFRAME (v1.0 → v1.1):
+⭐ WHY THE REFRAME (v1.0 → v1.1):
 
-  v1.0 (4-tầng) = MÔ TẢ ĐÚNG. Nhưng nhầm INPUT SOURCE với CƠ CHẾ.
-  v1.1 (2-tầng + 2 đường) = SÂU HƠN. Phân biệt mechanism vs source.
+  v1.0 (4-layer) = CORRECTLY DESCRIBED the phenomenon. But confused INPUT SOURCE with MECHANISM.
+  v1.1 (2-layer + 2 pathways) = DEEPER. Distinguishes mechanism vs source.
 
   ┌──────────────────┬───────────────────────────────────────────┐
-  │ CŨ (4-TẦNG)     │ MỚI (2-TẦNG + 2 ĐƯỜNG)                   │
+  │ OLD (4-LAYER)    │ NEW (2-LAYER + 2 PATHWAYS)                │
   ├──────────────────┼───────────────────────────────────────────┤
-  │ Tier 1 Evolution │ → Tầng 1 Evolution (KEEP — cơ chế riêng) │
-  │ Tier 2 Develop   │ → Tầng 2: 2a active (tự trải nghiệm)    │
-  │ Tier 3 Culture   │ → Tầng 2: 2a passive + 2b (culture =     │
-  │                  │   social env + accumulated transmission)  │
-  │ Tier 4 AI        │ → Tầng 2: 2b (newest input source)       │
+  │ Tier 1 Evolution │ → Layer 1 Evolution (KEEP — separate mech)│
+  │ Tier 2 Develop   │ → Layer 2: 2a active (direct experience)  │
+  │ Tier 3 Culture   │ → Layer 2: 2a passive + 2b (culture =     │
+  │                  │   social environment + accumulated         │
+  │                  │   transmission)                           │
+  │ Tier 4 AI        │ → Layer 2: 2b (newest input source)       │
   └──────────────────┴───────────────────────────────────────────┘
 
-  CƠ CHẾ: chỉ 2 (Darwinian + Hebbian)
-  ĐƯỜNG VÀO: 2 (domain contact + trust-inject)
-  NGUỒN INPUT cho 2b: vô hạn (bố mẹ, thầy, sách, culture, AI, ...)
+  MECHANISMS: only 2 (Darwinian + Hebbian)
+  INPUT PATHWAYS: 2 (domain contact + trust-inject)
+  INPUT SOURCES for 2b: unlimited (parents, teachers, books, culture, AI, ...)
 
-  v1.0 ĐÚNG NHƯNG CHƯA SÂU:
-    "Culture calibrate" → đúng, nhưng HOW? = qua 2a passive + 2b
-    "AI calibrate" → đúng, nhưng HOW? = qua 2b (inject chunks, body check)
-    "Development calibrate" → đúng, nhưng MISSING: passive + recursive
-  v1.1 = deeper answer to SAME questions.
+  v1.0 CORRECT BUT NOT DEEP ENOUGH:
+    "Culture calibrates" → correct, but HOW? = via 2a passive + 2b
+    "AI calibrates" → correct, but HOW? = via 2b (inject chunks, body checks)
+    "Development calibrates" → correct, but MISSING: passive + recursive
+  v1.1 = deeper answer to the SAME questions.
 
 
-  3-LAYER EVOLUTION × 2-TẦNG CALIBRATION:
+  3-LAYER EVOLUTION × 2-LAYER CALIBRATION:
 
   (Body-Base.md v3.1 §6 — 3-Layer Evolution model)
 
   ┌──────────────────────┬──────────────────────────────────────┐
-  │ 3-LAYER EVOLUTION    │ 2-TẦNG CALIBRATION                   │
+  │ 3-LAYER EVOLUTION    │ 2-LAYER CALIBRATION                  │
   │ (what CHANGES)       │ (how body LEARNS)                    │
   ├──────────────────────┼──────────────────────────────────────┤
-  │ Layer 1: Hardware    │ Tầng 1: Evolution                     │
-  │ (genetic, triệu năm)│ (gen wired → body reward patterns)   │
+  │ Layer 1: Hardware    │ Cal. Layer 1: Evolution              │
+  │ (genetic, millions   │ (genes wired → body rewards patterns)│
+  │ of years)            │                                      │
   ├──────────────────────┼──────────────────────────────────────┤
-  │ Layer 2: Compiled    │ Tầng 2: Hebbian compilation           │
+  │ Layer 2: Compiled    │ Cal. Layer 2: Hebbian compilation    │
   │ (individual, years)  │ (2a domain + 2b inject → compile)    │
   ├──────────────────────┼──────────────────────────────────────┤
-  │ Layer 3: Cultural    │ = 2a passive + 2b × cumulative stack  │
+  │ Layer 3: Cultural    │ = 2a passive + 2b × cumulative stack │
   │ (collective, cumul.) │ (emergent property, not separate tier)│
   └──────────────────────┴──────────────────────────────────────┘
 
-  CÙNG hiện tượng, KHÁC góc nhìn:
-    3-Layer = WHAT thay đổi ở each level (hardware / chunks / tools)
-    2-Tầng = HOW body LEARNS (Darwinian / Hebbian)
-    → Không mâu thuẫn — bổ sung nhau.
+  SAME phenomenon, DIFFERENT lens:
+    3-Layer = WHAT changes at each level (hardware / chunks / tools)
+    2-Layer = HOW body LEARNS (Darwinian / Hebbian)
+    → Not contradictory — complementary.
 
 
-  SOCIAL = ACCELERATOR CHO CẢ 2 TẦNG (Inter-Body §1.3):
-    Tầng 2: 2a passive (social environment → compile norms, patterns, gu)
-    Tầng 2: 2b (learn từ người khác → NHANH hơn tự thử)
-    Cumulative: 2b × thế hệ = knowledge stack
-    → = 4 reasons Social = Architecture Requirement (Inter-Body §1.3):
-      ① Survival math (nhóm > cá nhân)
+  SOCIAL = ACCELERATOR FOR BOTH LAYERS:
+    Layer 2: 2a passive (social environment → compile norms, patterns, taste)
+    Layer 2: 2b (learn from others → FASTER than self-trial)
+    Cumulative: 2b × generations = knowledge stack
+    → = 4 reasons Social = Architecture Requirement:
+      ① Survival math (group > individual)
       ② Compilation requires social (imitate, teach = 2b mechanisms)
       ③ Reused neural circuits (social pain = physical pain hardware)
       ④ Social Baseline (alone = costly deviation)
@@ -778,147 +778,149 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟢 Evolution calibrate: Darwin, modern evolutionary psychology
 🟢 Hebbian compilation: established neuroscience (Kahneman 2011, Klein 1998)
 🟢 Culture calibrate: Boyd & Richerson 2005, Tomasello 2009
-🟡 2-tầng + 2 đường as deeper reframe of 4-tầng = framework synthesis
-🟡 3-Layer × 2-Tầng reconciliation = framework synthesis
+🟡 2-layer + 2 pathways as deeper reframe of 4-layer = framework synthesis
+🟡 3-Layer × 2-Layer reconciliation = framework synthesis
 🟡 Passive social compile as 2a variant = framework synthesis
 🟡 Recursive compile property = framework synthesis
 ```
 
 ---
 
-## §4 — COMPILED/FRESH: "BIẾT" = COMPILED
+## §4 — COMPILED/FRESH: "KNOWING" = COMPILED
 
 ```
-⭐ "BODY BIẾT" = CHUNKS COMPILED FIRE BODY-DIRECT:
+⭐ "BODY KNOWS" = COMPILED CHUNKS FIRE BODY-DIRECT:
 
-  (Logic-Feeling.md v2.1 §1 — Compiled/Fresh = trục thật)
+  (Logic-Feeling.md v2.1 §1 — Compiled/Fresh = the real axis)
 
-  COMPILED = body-direct, automatic, cost ≈ 0, "cảm thấy biết"
-  FRESH = PFC draft, deliberate, cost > 0, "phải nghĩ ra"
+  COMPILED = body-direct, automatic, cost ≈ 0, "feels like knowing"
+  FRESH = PFC drafts, deliberate, cost > 0, "have to think it through"
 
   ┌─────────────────┬──────────────────────┬──────────────────────┐
-  │                 │ COMPILED ("biết")     │ FRESH ("chưa biết")  │
+  │                 │ COMPILED ("knows")    │ FRESH ("doesn't know")│
   ├─────────────────┼──────────────────────┼──────────────────────┤
   │ Processing      │ Automatic            │ PFC must draft       │
-  │ Speed           │ Tức thời             │ Cần thời gian        │
+  │ Speed           │ Immediate            │ Requires time        │
   │ Cost            │ ≈ 0                  │ > 0 (processing load)│
   │ Body-feedback   │ Direct, clear        │ Delayed, unclear     │
-  │ Experience      │ "Cảm thấy biết"     │ "Phải suy nghĩ"     │
-  │ Accuracy        │ Domain-verified      │ Chưa verify          │
-  │ Example         │ Chef nếm → biết ngay │ Nấu lần đầu → đoán │
+  │ Experience      │ "Feels like knowing" │ "Have to think"      │
+  │ Accuracy        │ Domain-verified      │ Not yet verified     │
+  │ Example         │ Chef tastes → knows  │ Cook first time →    │
+  │                 │ instantly            │ guessing             │
   └─────────────────┴──────────────────────┴──────────────────────┘
 
 
 ⭐ LEARNING = FRESH → COMPILED TRAJECTORY:
 
-  Tất cả "body biết" BẮT ĐẦU là "body chưa biết":
-    → Lái xe ngày 1: fresh (PFC draft mỗi bước) → cost CAO
-    → Lái xe ngày 1,000: compiled (automatic) → cost ≈ 0 → "biết lái"
-    → Einstein tuổi nhỏ: toán FRESH → Einstein trưởng thành: toán COMPILED
-    → Therapist năm 1: case = FRESH → Therapist năm 20: case = COMPILED
+  All "body knows" STARTS as "body doesn't know yet":
+    → Driving day 1: fresh (PFC drafts every step) → cost HIGH
+    → Driving day 1,000: compiled (automatic) → cost ≈ 0 → "know how to drive"
+    → Young Einstein: math FRESH → Mature Einstein: math COMPILED
+    → Therapist year 1: case = FRESH → Therapist year 20: case = COMPILED
 
   MECHANISM: Repeat + domain verify OK → Hebbian strengthen → automatic
-    = "Logic → feeling" (CHO PERSON ĐÓ, ở DOMAIN ĐÓ)
-    = "Chưa biết → biết" = Fresh → Compiled
-    = "Đang học" = đang compile (somewhere on spectrum)
+    = "Logic → feeling" (FOR THAT PERSON, in THAT DOMAIN)
+    = "Don't know → know" = Fresh → Compiled
+    = "Currently learning" = currently compiling (somewhere on spectrum)
 
-  DOMAIN VERIFY ở MỖI BƯỚC = CALIBRATION:
-    → Lái xe: mỗi lần lái thành công = domain verify ✅ → compile thêm
-    → Therapist: mỗi case kết quả tốt = domain verify ✅ → compile thêm
-    → = Compilation ĐÃ ĐƯỢC domain calibrate (không phải compile "bừa")
-    → = "Body biết" = DOMAIN-VERIFIED compiled output (most of the time)
+  DOMAIN VERIFY AT EACH STEP = CALIBRATION:
+    → Driving: each successful drive = domain verify ✅ → compile more
+    → Therapist: each case with good outcome = domain verify ✅ → compile more
+    → = Compilation HAS BEEN domain-calibrated (not compiling "blindly")
+    → = "Body knows" = DOMAIN-VERIFIED compiled output (most of the time)
 
 
-⭐ EXPERT = COMPILED DEEP (không phải "giỏi logic hơn"):
+⭐ EXPERT = COMPILED DEEP (not "better at logic"):
 
-  Beginner (Tier 2 sớm):
-    → Ít chunks → evaluate thô ("tốt/xấu" binary)
-    → Fresh processing chủ đạo → cost CAO → chậm → "khó"
+  Beginner (early Layer 2):
+    → Few chunks → evaluates coarsely ("good/bad" binary)
+    → Fresh processing dominant → cost HIGH → slow → "difficult"
 
-  Expert (Tier 2 sâu):
-    → Nhiều chunks → evaluate chi tiết ("chỗ NÀY tốt, chỗ KIA cần sửa")
-    → Compiled processing chủ đạo → cost ≈ 0 → nhanh → "dễ" (cho họ)
-    → = "Trực giác chuyên gia" = compiled chunks fire automatic
+  Expert (deep Layer 2):
+    → Many chunks → evaluates in detail ("THIS part is good, THAT part needs work")
+    → Compiled processing dominant → cost ≈ 0 → fast → "easy" (for them)
+    → = "Expert intuition" = compiled chunks fire automatically
     🟢 Kahneman 2011: System 1 in experts = compiled patterns
-    🟢 Klein 1998: Recognition-Primed Decisions (experts recognize, not analyze)
+    🟢 Klein 1998: Recognition-Primed Decisions (experts recognize, don't analyze)
 
-  "SHAREABLE" vs "NON-SHAREABLE" COMPILED (Inter-Body §3.4):
-    Toán gia: compiled chunks CONVERGE (deterministic domain) → SHAREABLE → "logic"
+  "SHAREABLE" vs "NON-SHAREABLE" COMPILED:
+    Mathematician: compiled chunks CONVERGE (deterministic domain) → SHAREABLE → "logic"
     Therapist: compiled chunks DIVERGE (probabilistic domain) → NON-SHAREABLE → "intuition"
-    BÊN TRONG: CƠ CHẾ GIỐNG HỆT (compiled automatic)
-    KHÁC: domain deterministic hay probabilistic → chunks converge hay diverge
+    FROM INSIDE: EXACTLY THE SAME MECHANISM (compiled automatic)
+    DIFFERENT: domain deterministic or probabilistic → chunks converge or diverge
 
-  → = "Body biết" = compiled. "Logic" vs "Intuition" = observer labels.
+  → = "Body knows" = compiled. "Logic" vs "Intuition" = observer labels.
   → = WHY "experts disagree" ≠ "one is wrong" — different compiled libraries
   → = Domain reality = final arbiter (as always)
 
 🟢 Expert intuition = compiled patterns (Kahneman 2011, Klein 1998)
-🟡 "Body biết = compiled" as unified explanation = framework synthesis
-🟡 Shareable/non-shareable distinction (Inter-Body §3.4) = framework synthesis
+🟡 "Body knows = compiled" as unified explanation = framework synthesis
+🟡 Shareable/non-shareable distinction = framework synthesis
 ```
 
 ---
 
-## §5 — VÒNG TRÒN: DOMAIN DẠY BODY
+## §5 — THE CALIBRATION LOOP: DOMAIN TEACHES BODY
 
 ```
-⭐ VÒNG TRÒN HOÀN CHỈNH — TẠI SAO KHÔNG CIRCULAR REASONING:
+⭐ THE COMPLETE LOOP — WHY IT'S NOT CIRCULAR REASONING:
 
-  Ai phê bình: "Framework nói follow body → nhưng body calibrate bởi domain
-  → nhưng domain feedback qua body → = VÒNG TRÒN → circular reasoning!"
+  Critic: "Framework says follow body → but body is calibrated by domain
+  → but domain feedback comes through body → = CIRCULAR → circular reasoning!"
 
-  TRẢ LỜI: Vòng tròn NHƯNG KHÔNG circular reasoning.
-  Vì: mỗi vòng body CALIBRATE HƠN TRƯỚC.
+  ANSWER: It is a loop — but NOT circular reasoning.
+  Because: each pass CALIBRATES body BETTER THAN BEFORE.
 
 
-  VÒNG TRÒN SPIRAL — MỖI VÒNG TỐT HƠN:
+  THE SPIRAL LOOP — EACH PASS BETTER THAN LAST:
 
     ╔═══════════════════════════════════════════════╗
-    ║  DOMAIN (thực tế bên ngoài)                   ║
+    ║  DOMAIN REALITY (external reality)            ║
     ║     ↓                                         ║
-    ║  CALIBRATE body (qua 2 tầng + 2 đường)         ║
+    ║  CALIBRATES body (via 2 layers + 2 pathways)  ║
     ║     ↓                                         ║
-    ║  BODY evaluate (coherence check)              ║
+    ║  BODY evaluates (coherence check)             ║
     ║     ↓                                         ║
-    ║  GUIDE behavior (reward → approach, pain → avoid) ║
+    ║  GUIDES behavior (reward → approach,          ║
+    ║                   pain → avoid)               ║
     ║     ↓                                         ║
-    ║  BEHAVIOR tác động domain                     ║
+    ║  BEHAVIOR acts on domain                      ║
     ║     ↓                                         ║
-    ║  DOMAIN FEEDBACK (outcome → body recalibrate) ║
+    ║  DOMAIN FEEDBACK (outcome → body recalibrates)║
     ║     ↓                                         ║
-    ║  BODY UPDATED (chunks adjust, compile thêm)   ║
+    ║  BODY UPDATED (chunks adjust, compile more)   ║
     ║     ↓                                         ║
-    ║  ... loop (mỗi vòng CHÍNH XÁC hơn)           ║
+    ║  ... loop (each pass MORE ACCURATE)           ║
     ╚═══════════════════════════════════════════════╝
 
-    Vòng 1: body thô (Tầng 1 only) → behavior thô → domain feedback
-    Vòng 100: body tinh hơn (+ 2a active) → behavior tốt hơn
-    Vòng 1,000: body expert (2a deep + 2b enrich) → behavior CHÍNH XÁC
+    Pass 1: body coarse (Layer 1 only) → behavior coarse → domain feedback
+    Pass 100: body finer (+ 2a active) → better behavior
+    Pass 1,000: body expert (2a deep + 2b enriched) → ACCURATE behavior
 
-    = SPIRAL, không phải circle.
-    = Mỗi vòng = domain feedback IMPROVE body calibration.
-    = Giống GPS: mỗi chuyến đi = thêm data → GPS chính xác hơn.
+    = SPIRAL, not a circle.
+    = Each pass = domain feedback IMPROVES body calibration.
+    = Like GPS: each journey = more data → GPS more accurate.
 
 
-  TẠI SAO NÓ HOẠT ĐỘNG (không deadlock):
+  WHY IT WORKS (no deadlock):
 
-    ① Tầng 1 (evolution) = BOOTSTRAP — not from nothing.
-       Triệu năm chọn lọc = triệu "vòng" ĐÃ CHẠY trước bạn sinh ra.
-       Body bạn KHÔNG start from zero — start từ gen ĐÃ calibrate.
+    ① Layer 1 (evolution) = BOOTSTRAP — not starting from nothing.
+       Millions of years of selection = millions of "passes" ALREADY RUN before you were born.
+       Your body DOESN'T start from zero — starts from genes ALREADY calibrated.
 
-    ② Mỗi vòng = INDEPENDENT domain feedback.
-       Domain feedback KHÔNG qua body (trực tiếp):
-         Chạm lửa → BỎNG (domain nói THẲNG, body chỉ nhận)
-         Nhảy xuống → NGÃ (domain nói THẲNG)
-       → Domain feedback = GROUNDING — không phụ thuộc body accuracy.
+    ② Each pass = INDEPENDENT domain feedback.
+       Domain feedback does NOT go through body (it's direct):
+         Touch fire → BURNS (domain speaks DIRECTLY, body just receives)
+         Fall → HITS GROUND (domain speaks DIRECTLY)
+       → Domain feedback = GROUNDING — doesn't depend on body accuracy.
 
-    ③ Error CŨNG calibrate.
-       Body sai → behavior sai → domain feedback NEGATIVE → body ADJUST.
-       = Sai = also learning (negative calibration = VẪN calibration).
+    ③ Errors ALSO calibrate.
+       Body wrong → behavior wrong → domain feedback NEGATIVE → body ADJUSTS.
+       = Being wrong = also learning (negative calibration = STILL calibration).
 
-  → "Follow body = follow domain đã dạy" (hầu hết)
-  → = Framework CÓ CƠ SỞ: body check ≈ domain check (qua proxy)
-  → = "Tại sao body biết?" = "vì domain ĐÃ DẠY body, qua rất rất lâu"
+  → "Following body = following what domain taught" (most of the time)
+  → = Framework HAS FOUNDATIONS: body check ≈ domain check (via proxy)
+  → = "Why does body know?" = "because domain HAS TAUGHT body, for a very long time"
 
 🟡 Spiral model (not circular) = framework synthesis
 🟢 Bootstrap (evolution) = Darwin established
@@ -927,122 +929,123 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §6 — KHI BODY SAI + DUAL CHECK
+## §6 — WHEN BODY IS WRONG + DUAL CHECK
 
 ```
-⭐ BODY ĐÚNG ~90%+ — NHƯNG CÓ 3 LOẠI SAI:
+⭐ BODY CORRECT ~90%+ — BUT 3 TYPES OF WRONG:
 
 
-① EVOLUTION LAG — body reward ĐÚNG cho environment CŨ, SAI cho MỚI:
+① EVOLUTION LAG — body rewards CORRECTLY for OLD environment, WRONG for NEW:
 
-  Đường:
-    Evolution: đường HIẾM → body reward "ngọt=quý!" → tìm nhiều → SỐNG ✅
-    Hiện đại: đường DỄ → body VẪN reward "ngọt!" → ăn QUÁ → bệnh ❌
-    = Body reward CHƯA update cho "đường dễ kiếm"
-    = Evolution calibrate CHẬM (triệu năm) → environment đổi NHANH (ngàn năm)
+  Sugar:
+    Evolution: sugar SCARCE → body rewards "sweet=precious!" → find more → SURVIVED ✅
+    Modern: sugar EASY → body STILL rewards "sweet!" → eat TOO MUCH → illness ❌
+    = Body reward NOT YET updated for "sugar is easy to get"
+    = Evolution calibrates SLOWLY (millions of years) → environment changes FAST (thousands of years)
 
-  MXH:
-    Evolution: social approval HIẾM (nhóm nhỏ) → body reward "được like!" ✅
-    Hiện đại: likes UNLIMITED → body VẪN reward → scroll MÃI → nghiện ❌
-    = Body reward CHƯA update cho "likes vô hạn"
+  Social media:
+    Evolution: social approval RARE (small group) → body rewards "being liked!" ✅
+    Modern: likes UNLIMITED → body STILL rewards → scroll endlessly → addiction ❌
+    = Body reward NOT YET updated for "unlimited likes"
 
-  → = "Evolution lag" = Tier 1 outdated cho domain MỚI
+  → = "Evolution lag" = Layer 1 outdated for NEW domain
   🟢 Mismatch theory: established in evolutionary psychology
 
 
-② CHUNKS NỀN SAI — coherence KHỚP nhưng nền SAI:
+② FLAWED FOUNDATIONAL CHUNKS — coherence MATCHES but foundation IS WRONG:
 
-  Body check: "pattern mới KHỚP patterns đã biết?"
-  NẾU patterns đã biết = SAI → thì "khớp" CŨNG SAI.
+  Body check: "does new pattern MATCH patterns already known?"
+  IF patterns already known = WRONG → then "matches" IS ALSO WRONG.
 
-  Flat Earth: "nhìn thẳng = phẳng" → coherent VỚI trải nghiệm → body: "đúng!"
-  → NHƯNG: domain thật = TRÒN → body SAI vì chunks nền THIẾU
-  "Cortisol = stress hormone": coherent VỚI pop science → SAI actual mechanism
+  Flat Earth: "look straight ahead = flat" → coherent WITH experience → body: "correct!"
+  → BUT: actual domain = ROUND → body WRONG because foundational chunks were INCOMPLETE
+  "Cortisol = stress hormone": coherent WITH pop science → WRONG actual mechanism
 
   → = "Garbage in, garbage out"
-  → = Chunks đúng → body check ĐÚNG. Chunks sai → body check SAI.
-  → = Cần EXTERNAL sources (người khác, AI, experiment) bổ sung chunks
+  → = Correct chunks → body check CORRECT. Flawed chunks → body check WRONG.
+  → = Need EXTERNAL sources (other people, AI, experiments) to supplement chunks
 
 
-③ SCHEMA OVERRIDE — biết SAI mà VẪN follow:
+③ SCHEMA OVERRIDE — knows it's WRONG but STILL follows:
 
-  Nghiện: body "biết" đường KHÔNG tốt → schema "ngọt=reward" compiled quá mạnh → override
-  Procrastinate: body "biết" cần làm → schema "scroll=reward" override
-  = Body check ĐÚNG → NHƯNG compiled schema OVERRIDE body check
-  = "Biết sai mà vẫn làm" = compiled chunks override fresh evaluation
-  (Chi tiết: Research/Health-Conditions/Hijack/Addiction-Analysis-v2.md)
+  Addiction: body "knows" sugar isn't good → "sweet=reward" schema compiled too deep → overrides
+  Procrastination: body "knows" need to work → "scroll=reward" schema overrides
+  = Body check CORRECT → BUT compiled schema OVERRIDES body check
+  = "Know it's wrong but still do it" = compiled chunks override fresh evaluation
+  (Research/Health-Conditions/Hijack/Addiction-Analysis-v2.md)
 
 
-⭐ PFC = LAWYER TRONG FAILURE MODES:
+⭐ PFC = LAWYER IN FAILURE MODES:
 
-  PFC KHÔNG giúp detect failure — PFC RATIONALIZE failure:
-    ① Evolution lag: PFC tạo narrative "đường = năng lượng cần thiết" (justify craving)
-    ② Chunks sai: PFC tạo narrative "Flat Earth make sense" (confirm bias)
-    ③ Schema override: PFC tạo narrative "1 lần nữa thôi" (justify addiction)
+  PFC DOESN'T HELP detect failure — PFC RATIONALIZES failure:
+    ① Evolution lag: PFC creates narrative "sugar = needed energy" (justifies craving)
+    ② Flawed chunks: PFC creates narrative "Flat Earth makes sense" (confirmation bias)
+    ③ Schema override: PFC creates narrative "just one more time" (justifies addiction)
 
-  → PFC = Lawyer FOR body decision → KHÔNG phải neutral judge
-  → = TẠI SAO "tự nhìn nhận" KHÓ — PFC là luật sư, không phải thẩm phán
-  → = CẦN external check để bypass PFC rationalization
+  → PFC = Lawyer FOR body decision → NOT a neutral judge
+  → = WHY "self-awareness" is HARD — PFC is a lawyer, not a judge
+  → = Need external check to bypass PFC rationalization
   🟢 Gazzaniga: left hemisphere interpreter
   🟢 Haidt 2001: moral reasoning = post-hoc justification
 
 
-⭐ DUAL CHECK — GIẢI PHÁP CHO 10% SAI:
+⭐ DUAL CHECK — SOLUTION FOR THE 10% WRONG:
 
   (Ask-AI.md v3.1 §6.1 — formalized protocol)
 
   CHECK 1 — BODY (quality controller, ~90%):
-    "Body tôi cảm thấy sao?" → smooth hay resistance?
-    → Đúng ~90% (2 tầng calibrate)
-    → NHƯNG: evaluate COHERENCE, NOT TRUTH (§1)
+    "How does my body feel?" → smooth or resistance?
+    → Correct ~90% (2 calibration layers)
+    → BUT: evaluates COHERENCE, NOT TRUTH (§1)
 
   CHECK 2 — DOMAIN REALITY (final arbiter, ALWAYS):
-    "Dữ liệu thực tế nói gì?" → evidence, kết quả thật, experiment
-    → CHẬM hơn, cần effort → NHƯNG không bị amplify/smooth
-    → Domain feedback LUÔN ĐẾN — chỉ là sớm hay muộn
+    "What does actual data say?" → evidence, real outcomes, experiments
+    → Slower, requires effort → BUT NOT amplified or smoothed by prior chunks
+    → Domain feedback ALWAYS COMES — just sooner or later
 
   4-CASE MATRIX:
     ┌──────────────┬──────────────────────┬─────────────────────────┐
     │              │ Domain YES           │ Domain NO               │
     ├──────────────┼──────────────────────┼─────────────────────────┤
-    │ Body YES     │ ✅ HIGH confidence   │ ⚠️ NGUY HIỂM NHẤT     │
-    │              │ (cả 2 align)         │ (body coherent, domain  │
-    │              │                      │ reject → likely error)  │
+    │ Body YES     │ ✅ HIGH confidence   │ ⚠️ MOST DANGEROUS      │
+    │              │ (both align)         │ (body coherent, domain  │
+    │              │                      │ rejects → likely error) │
     ├──────────────┼──────────────────────┼─────────────────────────┤
     │ Body NO      │ 🔍 INVESTIGATE      │ ❌ Clear rejection      │
-    │              │ (body detect gì?     │ (both reject)           │
-    │              │ hay resist truth?)   │                         │
+    │              │ (what is body        │ (both reject)           │
+    │              │ detecting? or        │                         │
+    │              │ resisting truth?)    │                         │
     └──────────────┴──────────────────────┴─────────────────────────┘
 
-  BODY YES + DOMAIN NO = NGUY HIỂM NHẤT:
-    Body coherent → "cảm thấy đúng" → NHƯNG domain nói KHÔNG
-    → Likely: chunks nền sai HOẶC AI amplify pattern sai
+  BODY YES + DOMAIN NO = MOST DANGEROUS:
+    Body coherent → "feels correct" → BUT domain says NO
+    → Likely: flawed foundational chunks OR AI amplifying a wrong pattern
     → Fix: DOMAIN WINS (domain = ground truth, body = proxy)
 
   AI AMPLIFICATION RISK:
-    AI confirm → body coherence TĂNG → body YES mạnh hơn
-    → NHƯNG domain reality KHÔNG thay đổi
-    → = AI khuếch đại khoảng cách body ↔ domain
-    → = CẦN domain check SAU khi AI + body agree
-    (AI-Self-Model.md v2.0 §2.2: "AI confirm → body-feedback dismissed → domain crash delayed")
+    AI confirms → body coherence INCREASES → body YES becomes stronger
+    → BUT domain reality DOES NOT CHANGE
+    → = AI amplifies the gap between body ↔ domain reality
+    → = NEED domain check AFTER AI + body agree
+    (AI-Self-Model.md v2.0 §2.2: "AI confirms → body-feedback dismissed → domain crash delayed")
 
 
-⭐ CIRCUIT BREAKER — BODY TỰ DETECT KHI SAI:
+⭐ CIRCUIT BREAKER — BODY SELF-DETECTS WHEN IT'S WRONG:
 
   (Body-Base.md v3.1 §8 — Circuit Breaker Mechanism)
 
-  Body không chỉ evaluate — body CŨNG detect khi CHÍNH NÓ sai:
+  Body doesn't just evaluate — body ALSO detects when IT ITSELF is wrong:
 
   ① GRADUAL REVISION: output fails repeatedly → valence shifts slowly
-     → VD: công thức kinh doanh thất bại nhiều lần → body dần bỏ
-  ② VIOLENT FLIP: betrayal/extreme → valence FLIP immediately
-     → VD: bạn thân phản bội → compiled trust FLIP instant
+     E.g.: business formula fails many times → body gradually abandons it
+  ② VIOLENT FLIP: betrayal/extreme event → valence FLIPS immediately
+     E.g.: close friend betrays → compiled trust FLIPS instantly
   ③ BODY DEFENSE: detachment, numbness, avoidance
-     → VD: burnout = body tự protect khi override quá nhiều
+     E.g.: burnout = body self-protecting when overridden too many times
 
-  → Body = FIRST responder (trước PFC)
-  → PFC only engages SAU body signals dissonance
-  → = Body có built-in self-correction (although slow và imperfect)
+  → Body = FIRST responder (before PFC)
+  → PFC only engages AFTER body signals dissonance
+  → = Body has built-in self-correction (though slow and imperfect)
 
 🟢 Evolution lag: established mismatch theory
 🟢 Confirmation bias: Nickerson 1998
@@ -1056,82 +1059,80 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §7 — COMPILABLE ARCHITECTURE CONNECTION
 
 ```
-⭐ COMPILABLE ARCHITECTURE = META-EXPLANATION — TẠI SAO TOÀN BỘ HỆ THỐNG NÀY TỒN TẠI:
+⭐ COMPILABLE ARCHITECTURE = THE META-EXPLANATION — WHY THIS ENTIRE SYSTEM EXISTS:
 
-  (Inter-Body-Mechanism.md §1 — 3 foundations → Compilable Architecture)
+  HARDWIRED ARCHITECTURE (insects, simpler animals):
+    Hardwires WHAT to need: food circuit, mate circuit, escape circuit
+    → FAST, accurate for STABLE environments
+    → NO NEED for "body learns" — everything pre-wired
+    → NO NEED for calibration — already calibrated by evolution
+    → WEAKNESS: environment changes → species die (cannot adapt)
 
-  HARDWIRED ARCHITECTURE (côn trùng, động vật đơn giản):
-    Hardwire WHAT to need: food circuit, mate circuit, escape circuit
-    → NHANH, chính xác cho environment STABLE
-    → KHÔNG CẦN "body learns" — everything pre-wired
-    → KHÔNG CẦN calibration — already calibrated by evolution
-    → NHƯỢC: environment thay đổi → species die (không adapt)
+  COMPILABLE ARCHITECTURE (humans):
+    Hardwires ONLY the reward MECHANISM + compilation + social hardware
+    Content: LEARNED from environment/culture → compile → body-need
+    → ADAPTS to any environment (general-purpose)
+    → BUT: no pre-wired content → MUST LEARN everything
+    → = MUST BE CALIBRATED by domain (2 mechanisms: evolution + compilation)
+    → = 15-20 year compile period → needs others to protect (social = requirement)
 
-  COMPILABLE ARCHITECTURE (con người):
-    Hardwire CHỈ reward MECHANISM + compilation + social hardware
-    Content: LEARN from environment/culture → compile → body-need
-    → ADAPT bất kỳ environment (general-purpose)
-    → NHƯNG: no pre-wired content → MUST LEARN everything
-    → = MUST BE CALIBRATED by domain (2 cơ chế: evolution + compilation)
-    → = 15-20 năm compile → cần entities khác protect (social = requirement)
+  → Compilable Architecture = WHY body CAN "know" ANYTHING:
+    Body knows music is beautiful = Compilable Architecture allows it (general-purpose reward)
+    Body knows mathematics = Compilable Architecture allows it (same mechanism, different domain)
+    Body knows people = Compilable Architecture allows it (same mechanism, social domain)
+    → SAME reward mechanism → DIFFERENT domain → ALL = coherence evaluation
 
-  → Compilable Architecture = TẠI SAO body CAN "biết" ANYTHING:
-    Body biết nhạc hay = Compilable Architecture cho phép (general-purpose reward)
-    Body biết toán = Compilable Architecture cho phép (same mechanism, different domain)
-    Body biết người = Compilable Architecture cho phép (same mechanism, social domain)
-    → CÙNG reward mechanism → KHÁC domain → TẤT CẢ đều = coherence evaluation
-
-  → Compilable Architecture = TẠI SAO body CẦN CALIBRATION:
-    Không hardwire content → phải LEARN → learn = BE TAUGHT by domain
-    → 2 cơ chế (§3) = HOW domain teaches body over time
+  → Compilable Architecture = WHY body NEEDS CALIBRATION:
+    No hardwired content → must LEARN → learn = BE TAUGHT by domain
+    → 2 mechanisms (§3) = HOW domain teaches body over time
     → = Body trustworthy BECAUSE OF calibration, not DESPITE needing it
 
-  → Compilable Architecture = TẠI SAO VULNERABILITY:
-    15-20 năm compile = VULNERABLE (dependent on others)
-    Chunks nền sai possible (bad calibration input)
+  → Compilable Architecture = WHY there is VULNERABILITY:
+    15-20 year compile period = VULNERABLE (dependent on others)
+    Flawed foundational chunks possible (bad calibration input)
     Evolution lag possible (hardware not updated)
     → = Trade-off: flexibility for vulnerability
     → = WHY external check ALWAYS needed (domain = arbiter)
 
 
-⭐ FILE NÀY TRONG FRAMEWORK:
+⭐ THIS FILE IN THE FRAMEWORK:
 
   Body-Base.md: "WHAT body does" (mechanisms, principles)
   Body-Feedback-Mechanism.md: "HOW body-feedback arises" (chunk dynamics)
-  WHY-Body-Knows.md (file này): "WHY body IS TRUSTWORTHY" (meta-foundation)
+  Why-Body-Knows.md (this file): "WHY body IS TRUSTWORTHY" (meta-foundation)
 
-  → File này = PHILOSOPHICAL FOUNDATION
-  → Không tạo mechanism mới — giải thích TẠI SAO mechanisms ĐÃ MÔ TẢ = ĐÁNG TIN
-  → = "GPS biết đường VÌ vệ tinh đã calibrate" — file này giải thích VỆ TINH
-  → = Answer to last question anyone asks after understanding framework
+  → This file = PHILOSOPHICAL FOUNDATION
+  → Creates no new mechanism — explains WHY mechanisms ALREADY DESCRIBED = TRUSTWORTHY
+  → = "GPS knows the route BECAUSE satellite calibrated it" — this file explains THE SATELLITE
+  → = Answer to the last question anyone asks after understanding the framework
 
-🟡 Hardwired/Compilable Architecture framing = framework synthesis (Inter-Body §1)
+🟡 Hardwired/Compilable Architecture framing = framework synthesis
 🟢 General-purpose reward system: VTA/dopamine established (Schultz 1997)
 🟢 Hebbian compilation: established neuroscience
 ```
 
-### §7.1 — × New Concepts (28-session Drill Propagation)
+### §7.1 — × New Concepts (Concept Cascade)
 
 ```
 SIMULATION-ENGINE × CALIBRATION (Simulation-Engine.md v1.0):
   → Simulation-Engine = PFC's calibration TOOL:
-    PFC simulate outcome → body compare against domain feedback
-    Match → calibration CONFIRMED → "body biết"
-    Mismatch → calibration FAILED → need adjustment
-  → §3 (2-tầng): Tầng 2 Hebbian = Simulation-Engine running + body evaluating
-  → §5 (Vòng Tròn): Simulation-Engine DRIVES the loop
-    (Domain → Body → Simulation-Engine draft → Action → Domain feedback → Body learn)
+    PFC simulates outcome → body compares against domain feedback
+    Match → calibration CONFIRMED → "body knows"
+    Mismatch → calibration FAILED → needs adjustment
+  → §3 (2-layer): Layer 2 Hebbian = Simulation-Engine running + body evaluating
+  → §5 (Calibration Loop): Simulation-Engine DRIVES the loop
+    (Domain → Body → Simulation-Engine draft → Action → Domain feedback → Body learns)
 
 ENTITY-ACCESS × CALIBRATION (Entity-Access.md v1.2):
-  → Calibration = PER-ENTITY phenomenon:
-    Body calibrate SEPARATELY for each entity along Mức 0-5
-    Mức 5 (self): deepest calibration (most body feedback data)
-    Mức 0 (stranger): shallowest (few data points → rely on compiled patterns)
-  → §6 (Khi Body Sai): calibration ERROR varies by entity level
-    Mức 5 error = rare but devastating (self-deception)
-    Mức 1 error = common but low cost (stereotype, first impression wrong)
-  → Hardware-Subsidy: body INVESTS MORE calibration resource per Mức level
-    → = TẠI SAO calibration for family > calibration for stranger
+  → Calibration = a PER-ENTITY phenomenon:
+    Body calibrates SEPARATELY for each entity along Level 0-5
+    Level 5 (self): deepest calibration (most body feedback data)
+    Level 0 (stranger): shallowest (few data points → rely on compiled patterns)
+  → §6 (When Body Is Wrong): calibration ERROR varies by entity level
+    Level 5 error = rare but devastating (self-deception)
+    Level 1 error = common but low cost (stereotype, first impression wrong)
+  → Hardware-Subsidy: body INVESTS MORE calibration resources per entity level
+    → = WHY calibration for family > calibration for strangers
 
 🟡 Simulation-Engine × calibration = framework formalization
 🟡 Entity-Access × calibration = framework application (per-entity calibration depth)
@@ -1144,7 +1145,7 @@ ENTITY-ACCESS × CALIBRATION (Entity-Access.md v1.2):
 ```
   ESTABLISHED (🟢):
 
-    🟢 Natural selection calibrate body = Darwin, established
+    🟢 Natural selection calibrates body = Darwin, established
     🟢 Mere exposure effect → familiarity + preference (Zajonc 1968)
     🟢 Optimal novelty → inverted-U pleasure × novelty (Berlyne 1960)
     🟢 Musical preference × familiarity (North & Hargreaves 1995)
@@ -1164,39 +1165,39 @@ ENTITY-ACCESS × CALIBRATION (Entity-Access.md v1.2):
     🟢 General-purpose reward: VTA/dopamine (Schultz 1997)
     🟢 Hebbian learning: established neuroscience
 
-  FRAMEWORK SỰ LUẬN (🟡):
+  FRAMEWORK SYNTHESIS (🟡):
 
     🟡 "Body checks coherence, not truth" — logical, consistent with all evidence
-    🟡 "2-tầng + 2 đường" as deeper reframe of 4-tầng — framework synthesis (v1.1)
-    🟡 "Body đúng 90%, sai 10%" — estimate, not precisely measurable
-    🟡 "Vòng tròn spiral" (domain→body→behavior→domain) — logical structure
+    🟡 "2-layer + 2 pathways" as deeper reframe of 4-layer — framework synthesis (v1.1)
+    🟡 "Body correct 90%, wrong 10%" — estimate, not precisely measurable
+    🟡 "Calibration Spiral" (domain→body→behavior→domain) — logical structure
     🟡 Compilable Architecture → calibration → trust argument — meta-synthesis
-    🟡 "Body biết = compiled" — consistent with expertise research
+    🟡 "Body knows = compiled" — consistent with expertise research
     🟡 "Shareable vs non-shareable compiled" — framework distinction
-    🟡 3-Layer × 2-Tầng reconciliation — framework alignment (v1.1)
-    🟡 PFC=Lawyer in coherence domain — applied from Inter-Body §7
+    🟡 3-Layer × 2-Layer reconciliation — framework alignment (v1.1)
+    🟡 PFC=Lawyer in coherence domain — applied from framework
     🟡 Dual Check (body + domain) — framework protocol
     🟡 Circuit Breaker self-correction — framework synthesis (Body-Base §8)
     🟡 Music = Compilable Architecture consequence — logical derivation
     🟡 2a Domain Contact (active + passive) — 2 variants unified (v1.1)
     🟡 2b Trust-Injected as external install pathway — Chunk.md §2.3 (v1.1)
-    🟡 Passive social compile (giọng, norms, gu) = 2a variant (v1.1)
+    🟡 Passive social compile (accent, norms, taste) = 2a variant (v1.1)
     🟡 Recursive compile (existing chunks filter domain contact) (v1.1)
     🟡 2b→2a trajectory (inject seed → verify → deepen) (v1.1)
-    🟡 "Culture = 2a passive + 2b, not separate tier" (v1.1)
+    🟡 "Culture = 2a passive + 2b, not a separate tier" (v1.1)
     🟡 Cumulative stacking = emergent property of 2b × generations (v1.1)
 
   HYPOTHESIS (🔴):
 
-    🔴 "90%" number — not measurable precisely, estimated from calibration argument
-    🔴 Goldilocks zone — range approximate, dynamic per person/context (not fixed number)
-    🔴 E₁ coherence boundary — where "coherent enough" starts = fuzzy
+    🔴 "90%" number — not precisely measurable, estimated from calibration argument
+    🔴 Goldilocks zone — range approximate, dynamic per person/context (not a fixed number)
+    🔴 E₁ coherence boundary — where "coherent enough" begins = fuzzy
     🔴 AI amplification quantification — conceptual, not measured
-    🔴 2a/2b boundary precision — where exactly passive absorption ↔ trust-injection?
+    🔴 2a/2b boundary precision — exactly where does passive absorption ↔ trust-injection?
     🔴 Recursive compile rate — how much do existing chunks accelerate? not quantified
 
-  → File này = GOM research established + framework interpretation
-  → = "Giải thích TẠI SAO framework có cơ sở" → KHÔNG phải "chứng minh đúng"
+  → This file = synthesizes established research + framework interpretation
+  → = "Explains WHY the framework has foundations" → NOT "proves it's correct"
   → = Foundation argument, NOT proof
 ```
 
@@ -1207,76 +1208,73 @@ ENTITY-ACCESS × CALIBRATION (Entity-Access.md v1.2):
 ```
   CORE MECHANISM FILES:
     → Body-Base.md v3.2 — §6 3-Layer Evolution, §7 calibration summary,
-      §8 Circuit Breaker. File này = deep version of §7.
-    → Inter-Body-Mechanism.md v1.1 — Compilable Architecture (§1), 3-Layer (§9),
-      Compiled/Fresh (§3), PFC=Lawyer (§7), Social=Requirement (§1.3)
+      §8 Circuit Breaker. This file = deep version of §7.
     → Body-Feedback-Mechanism.md v2.0 — 2-source, chunk dynamics, compound
     → Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, E₀→E₃ gradient
     → Self-Pattern-Modeling.md v3.1 — solo simulation, Compiled/Fresh, per-domain
     → Logic-Feeling.md v2.1 — Compiled/Fresh primary axis, §1 spectrum
     → Body-Feedback-Label.md v2.0 — vocabulary reference
     → Chunk.md v2.3 — §2.3 5 external install mechanisms (2b pathway)
-    → Gap-Direction.md v2.0 — "chưa biết = không có gap" (recursive compile)
+    → Gap-Direction.md v2.0 — "no knowledge = no gap" (recursive compile)
     → Simulation-Engine.md v1.0 — PFC simulation = calibration tool
-    → Entity-Access.md v1.2 — trust = gradient Mức 0-5, calibration per-entity
+    → Entity-Access.md v1.2 — trust = gradient Level 0-5, calibration per-entity
     → Entity-Access-Calibration.md v1.0 — self-regulation, hardware-subsidy
 
   OBSERVATION + APPLICATION FILES:
     → Feeling.md v3.0 — PFC observation interface, §2 magnitude × clarity
     → Cortisol-Baseline.md v2.1 — amplifier, holding signal
     → Body-Feedback.md — Body-Feedback-Precondition 5 preconditions, dual-pull, interface loop
-    → Schema/Anchor-Schema.md — §3 nguồn ④ (external inject = 2b)
+    → Schema/Anchor-Schema.md — §3 Source ④ (external inject = 2b)
 
   AI + EXTERNAL CHECK:
-    → Ask-AI.md v3.1 — §6.1 Dual Check (body=quality controller, domain=arbiter)
+    → Ask-AI.md v3.1 — §6.1 Dual Check (body = quality controller, domain = arbiter)
     → AI-Schema-Detection.md v2.0 — AI Trust Guardrails, Self-Drill
     → AI-Self-Model.md v2.0 — Dual Check, Stale Calibration, Honest AI
 
   EDUCATION (2b+2a trajectory examples):
     → Education/Mechanism.md — inject + practice = deepest compile
-    → Education/Money-Education.md — domain contact per-age
+    → Education/Money-Education.md — domain contact per age
 
   SPECIALIZED:
-    → Prediction-Error-Is-Not-Reward.md — PE ≠ reward ở người
+    → Prediction-Error-Is-Not-Reward.md — prediction error ≠ reward in humans
     → Logic-Feeling-Balance.md v2.0 — META-PRINCIPLE companion
     → Research/Health-Conditions/Hijack/Addiction-Analysis-v2.md — schema override
 
   CHANGELOG:
 
-  DRAFT — 2026-03-25 (411L):
-    → 3 câu hỏi gốc, music example, 4-tầng, 3 failure modes
-    → Terminology cũ (Layer 1-4, Layer 6-7)
+  DRAFT — 2026-03-25:
+    → 3 original questions, music example, 4-layer, 3 failure modes
+    → Old terminology (Layer 1-4, Layer 6-7)
     → Backup: backup/Why-Body-Knows-DRAFT-backup.md
 
-  v1.0 — 2026-05-17 (958L, FULL REWRITE from DRAFT):
+  v1.0 — 2026-05-17 (FULL REWRITE from DRAFT):
     → §0: +Compilable Architecture meta-connection (WHY calibration needed)
     → §1: +E₀→E₃ gradient, +Compiled/Fresh, +PFC=Lawyer in coherence
     → §2: Music KEEP 90% + terminology fix + Compilable Architecture framing
-    → §3: 4-tầng + 3-Layer reconciliation + Social accelerator
-    → §4 NEW: Compiled/Fresh = "biết" (Shareable/Non-shareable)
-    → §5 NEW: Vòng Tròn formalized (spiral, not circular)
+    → §3: 4-layer + 3-Layer reconciliation + Social accelerator
+    → §4 NEW: Compiled/Fresh = "knowing" (Shareable/Non-shareable)
+    → §5 NEW: Calibration Loop formalized (spiral, not circular)
     → §6: 3 failure modes + PFC=Lawyer + Dual Check + Circuit Breaker
     → §7 NEW: Compilable Architecture connection (meta-explanation)
     → ALL citations preserved + 8 new added (19 total 🟢)
-    → Backup: backup/Why-Body-Knows-v1.0-backup.md
 
-  v1.1 — 2026-05-17 (§3 MAJOR REWRITE — 2-tầng + 2 đường):
-    → §3: ★ REWRITE 4-tầng → 2-tầng + 2 đường vào
-      §3.0 NEW: "Calibration = cơ chế hay nguồn?" — foundational question
-      §3.1: Evolution KEEP + explicit "đây là CƠ CHẾ KHÁC" framing
-      §3.2 NEW: Tầng 2 Individual Compilation (Hebbian, suốt đời)
+  v1.1 — 2026-05-17 (§3 MAJOR REWRITE — 2-layer + 2 pathways):
+    → §3: ★ REWRITE 4-layer → 2-layer + 2 input pathways
+      §3.0 NEW: "Calibration = mechanism or source?" — foundational question
+      §3.1: Evolution KEEP + explicit "this IS a separate MECHANISM" framing
+      §3.2 NEW: Layer 2 Individual Compilation (Hebbian, lifelong)
       §3.2a NEW: Domain Contact active + passive
-        + Passive social compile (giọng Nghệ An, norms Nhật, gu thẩm mỹ)
+        + Passive social compile (regional dialects, norms, aesthetic taste)
         + Social environment = domain (not just physical)
       §3.2b NEW: Trust-Injected (5 install mechanisms, multiple sources)
         + AI = newest input source for 2b
       §3.3 NEW: 2b→2a trajectory (inject seed → verify → deepen)
       §3.4 NEW: Recursive property (compile = f(existing_chunks))
-        + 3 người đi TQ case + bé/trẻ/người lớn tàu hỏa case
-      §3.5 NEW: "Culture = tên gọi, not tầng" + Cumulative stacking
-      §3.6: Reconciliation table (old 4-tầng → new 2-tầng)
-    → §0, §5, §6: references "4 tầng" → "2 tầng" updated
-    → §8: +7🟡 new (2-tầng, recursive, passive, 2b→2a, culture reframe)
+        + 3 people visiting China case + infant/child/adult train case
+      §3.5 NEW: "Culture = a label, not a tier" + Cumulative stacking
+      §3.6: Reconciliation table (old 4-layer → new 2-layer)
+    → §0, §5, §6: references "4 layers" → "2 layers" updated
+    → §8: +7🟡 new (2-layer, recursive, passive, 2b→2a, culture reframe)
            +2🔴 new (2a/2b boundary, recursive rate)
     → §9: +Chunk.md §2.3, +Gap-Direction, +Anchor-Schema §3,
            +Education refs. Changelog expanded.
@@ -1285,21 +1283,21 @@ ENTITY-ACCESS × CALIBRATION (Entity-Access.md v1.2):
 
 ---
 
-> *Tại sao body "biết"?*
-> *Vì domain ĐÃ DẠY body — qua 2 cơ chế:*
-> *triệu năm evolution (gen wired) + suốt đời compilation (Hebbian).*
+> *Why does the body "know"?*
+> *Because domain reality HAS TAUGHT the body — through 2 mechanisms:*
+> *millions of years of evolution (genes wired) + lifelong compilation (Hebbian).*
 >
-> *Compilation suốt đời có 2 đường: domain trực tiếp (2a) + inject qua trust (2b).*
-> *Culture, bố mẹ, AI = input sources cho 2b. Social environment = domain cho 2a passive.*
-> *Existing chunks filter domain → compile recursive → expert thấy cái beginner không thấy.*
+> *Lifelong compilation has 2 input pathways: direct domain contact (2a) + inject via trust (2b).*
+> *Culture, parents, AI = input sources for 2b. Social environment = domain for 2a passive.*
+> *Existing chunks filter domain contact → recursive compile → experts see what beginners cannot.*
 >
-> *"Biết" = compiled chunks fire body-direct. "Chưa biết" = PFC đang draft.*
-> *"Đang học" = đang compile. "Chuyên gia" = compiled rất sâu.*
+> *"Knows" = compiled chunks fire body-direct. "Doesn't know yet" = PFC drafting.*
+> *"Learning" = currently compiling. "Expert" = compiled very deep.*
 >
-> *Đúng ~90%+. Sai ở cái quá mới.*
-> *Coherence ≈ truth (phần lớn). Coherence ≠ truth (khi domain đổi nhanh hơn body update).*
+> *Correct ~90%+. Wrong about what is too new.*
+> *Coherence ≈ truth (most of the time). Coherence ≠ truth (when domain changes faster than body updates).*
 > *Dual Check: body = quality controller. Domain reality = final arbiter.*
 >
-> *"Follow body = follow domain đã dạy."*
-> *Đáng tin — VÌ 2 cơ chế calibrate. Không 100% — VÌ domain luôn thay đổi.*
-> *Và đó chính xác là lý do framework HOẠT ĐỘNG.*
+> *"Following body = following what domain taught."*
+> *Trustworthy — BECAUSE 2 calibration mechanisms. Not 100% — BECAUSE domain always changes.*
+> *And that is precisely why the framework WORKS.*

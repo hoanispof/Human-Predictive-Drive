@@ -1,47 +1,66 @@
-# Autism-Observation.md — Autism Qua Lens Framework v7.8
+---
+title: Autism-Observation — Autism Through Human Predictive Drive Framework v7.8
+version: v1.0
+created: 2026-05-15
+status: v1.0 — REFERENCE FILE
+file_type: OBSERVATION (framework OBSERVES, does not diagnose, does not "treat")
+confidence: 🟢 Research (sensory, TBW, double empathy, alexithymia, masking, genetics) | 🟡 Synthesis (framework mapping, cascade model) | 🔴 Hypothesis (predictive coding per-individual, TBW→social prediction, monotropic index)
+cluster: Neurodiversity Cluster File 2/2 (ADHD → Autism) | Health Conditions Drill File 5/6
+dependencies:
+  - Self-Pattern-Modeling.md v2.3
+  - Body-Feedback-Mechanism.md v1.2
+  - 07-Social-Recognition-Arc.md
+  - Sensitivity-Classification.md v1.0
+  - Gap-Direction.md v1.0
+  - Feeling.md v2.1
+  - Child-Development-Mechanism.md v1.0
+  - ADHD-Observation.md v1.1
+  - Empathy.md v2.0
+  - Connection.md v3.1
+  - OCD-Analysis.md v2.1
+  - Threat.md v1.0
+  - Cortisol-Baseline.md v2.0
+disclaimer: |
+  Framework does NOT replace medical diagnosis. Autism = neurodevelopmental condition.
+  This file provides an OBSERVATION LENS — does not diagnose, does not recommend treatment,
+  does not determine "right/wrong" ways of developing.
+planned_refine: ADHD v1.1 → v1.2 after this file (add Configuration vs Tuning 2D model detail)
+language: English
+---
 
-> **"Thiếu empathy" = SAI. "Không quan tâm người khác" = SAI.**
+# Autism-Observation — Autism Through Human Predictive Drive Framework v7.8
+
+> **"Lacks empathy" = WRONG. "Doesn't care about others" = WRONG.**
 >
-> Controlling alexithymia → KHÔNG CÒN independent autism effect
-> lên emotion recognition (Bird & Cook 2013).
-> Non-autistic CŨNG fail khi đọc autistic people (Milton 2012).
-> Neurotypical form negative impressions trong VÀI GIÂY — bias biến mất
-> khi chỉ đọc text (Sasson 2017).
+> Controlling for alexithymia → NO longer an independent autism effect
+> on emotion recognition (Bird & Cook 2013).
+> Non-autistic people ALSO fail when reading autistic people (Milton 2012).
+> Neurotypical people form negative impressions within SECONDS — bias disappears
+> when reading text only (Sasson 2017).
 >
-> Configuration KHÁC, không phải hỏng.
-> 95% có sensory processing differences → CASCADE lên toàn bộ chunk compilation.
-> Temporal binding window GẤP ĐÔI (~300ms → ~600ms) → social input integration KHÁC.
-> 3 predictive coding theories: cả 3 consistent với prediction-delta LARGER.
+> Configuration DIFFERENT, not broken.
+> 95% have sensory processing differences → CASCADE onto all chunk compilation.
+> Temporal Binding Window TWICE as wide (~300ms → ~600ms) → social input integration DIFFERENT.
+> 3 predictive coding theories: all 3 consistent with prediction-delta LARGER.
 >
-> Special interests = gap-direction CONCENTRATED → extreme depth → genuine reward.
-> Stimming = body-feedback REGULATION, không phải "hành vi bất thường."
+> Special Interests = gap-direction CONCENTRATED → extreme depth → genuine reward.
+> Stimming = body-feedback REGULATION, not "abnormal behavior."
 > Masking = chronic mismatch → cortisol cost → mental health cascade.
 >
-> 6 conditions. 6 góc nhìn KHÁC NHAU:
->   Nicotine = dopamine HIJACK (chất bên ngoài cướp reward loop)
->   Parkinson = dopamine LOSS (hardware thoái hóa dần)
->   ADHD = CLEARANCE quá nhanh + RECEPTOR kém nhạy (TUNING)
->   Alzheimer = chunk system LOSS (bộ nhớ/retrieval sụp)
->   **Autism = hardware CONFIGURATION KHÁC (không phải hỏng — khác cách compile)**
->   PTSD = chunk CONTEXT TAG MẤT (flashback = chunks fire sai context)
+> 6 conditions. 6 DIFFERENT angles:
+>   Nicotine = dopamine HIJACK (external substance seizes reward loop)
+>   Parkinson = dopamine LOSS (hardware degrades progressively)
+>   ADHD = CLEARANCE too fast + RECEPTOR less sensitive (TUNING)
+>   Alzheimer = chunk system LOSS (memory/retrieval collapses)
+>   **Autism = hardware CONFIGURATION DIFFERENT (not broken — different way to compile)**
+>   PTSD = chunk CONTEXT TAG LOST (flashback = chunks fire in wrong context)
 
 ---
 
-**File type**: OBSERVATION (framework OBSERVE, không chẩn đoán, không "chữa")
-**Version**: v1.0
-**Date**: 2026-05-15
-**Confidence**: 🟢 Research (sensory, TBW, double empathy, alexithymia, masking, genetics) | 🟡 Synthesis (framework mapping, cascade model) | 🔴 Hypothesis (predictive coding per-individual, TBW→social prediction, monotropic index)
-**Cluster**: Neurodiversity Cluster File 2/2 (ADHD → **Autism**) | Health Conditions Drill File 5/6
-**Dependencies**: Self-Pattern-Modeling.md v2.3, Body-Feedback-Mechanism.md v1.2, 07-Social-Recognition-Arc.md, Sensitivity-Classification.md v1.0, Gap-Direction.md v1.0, Feeling.md v2.1, Child-Development-Mechanism.md v1.0, ADHD-Observation.md v1.1, Empathy.md v2.0, Connection.md v3.1, OCD-Analysis.md v2.1, Threat.md v1.0, Cortisol-Baseline.md v2.0
-**Disclaimer**: Framework KHÔNG thay thế chẩn đoán y khoa. Autism = neurodevelopmental condition. File này cung cấp OBSERVATION LENS — không chẩn đoán, không đề xuất điều trị, không xác định "đúng/sai" cách phát triển.
-**Planned refine**: ADHD v1.1 → v1.2 sau file này (thêm Configuration vs Tuning 2D model chi tiết)
-
----
-
-## MỤC LỤC
+## TABLE OF CONTENTS
 
 ```
-§0  — VỊ TRÍ TRONG FRAMEWORK
+§0  — POSITION IN FRAMEWORK
 §1  — AUTISM: FRAMING + HETEROGENEITY
 §2  — SENSORY PROCESSING × CHUNK COMPILATION
 §3  — MULTISENSORY INTEGRATION
@@ -51,123 +70,124 @@
 §7  — ALEXITHYMIA: BODY-FEEDBACK READING vs HAVING
 §8  — SPECIAL INTERESTS × GAP-DIRECTION + MONOTROPISM
 §9  — STRENGTHS: ENHANCED PERCEPTUAL FUNCTIONING
-§10 — MELTDOWN/SHUTDOWN QUA BODY-FEEDBACK LENS
+§10 — MELTDOWN/SHUTDOWN THROUGH BODY-FEEDBACK LENS
 §11 — DEVELOPMENTAL TRAJECTORY
 §12 — ADHD × AUTISM: 2D MODEL
 §13 — CO-OCCURRING CONDITIONS
 §14 — FRAMEWORK PREDICTIONS (TESTABLE)
 §15 — HONEST ASSESSMENT
 §16 — CROSS-REFERENCES
+REFERENCES
 ```
 
 ---
 
-## §0 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — POSITION IN FRAMEWORK
 
-### §0.1 — Tại sao file này tồn tại
+### §0.1 — Why this file exists
 
 ```
-HEALTH CONDITIONS DRILL — 6 góc nhìn KHÁC NHAU trên cùng kiến trúc:
+HEALTH CONDITIONS DRILL — 6 DIFFERENT ANGLES on the same architecture:
 
   File 1: Nicotine-Brain-Mechanism.md    [Hijack/]
-    → SOURCE bị ÉP fire bởi chất bên ngoài
+    → SOURCE FORCED to fire by external substance
     → VTA forced → dopamine flood → hijack reward loop
 
   File 2: Parkinson-Analysis.md          [Neurodegeneration/]
-    → SOURCE bị CHẾT (neuron SNc thoái hóa dần)
-    → Hardware irreversible → execution fail
+    → SOURCE DIES (SNc neuron degenerates progressively)
+    → Hardware irreversible → execution fails
 
   File 3: ADHD-Observation.md            [Neurodiversity/]
-    → CLEARANCE quá nhanh (DAT) + RECEPTOR kém nhạy (DRD4)
-    → Neuron CÒN, regulation KHÁC → TUNING
+    → CLEARANCE too fast (DAT) + RECEPTOR less sensitive (DRD4)
+    → Neuron INTACT, regulation DIFFERENT → TUNING
 
   File 4: Alzheimer-Analysis.md          [Neurodegeneration/]
-    → SYNAPSE LOSS → chunk substrate phá → chunks TỰ MẤT
+    → SYNAPSE LOSS → chunk substrate destroyed → chunks SELF-LOST
     → Identity dissolution, "last in first out"
 
-  File 5: Autism-Observation.md          [Neurodiversity/]  ← FILE NÀY
-    → Hardware CONFIGURATION KHÁC từ đầu
-    → Sensory gain khác → chunk compilation khác → toàn bộ cascade khác
-    → KHÔNG phải hỏng — KHÁC CÁCH COMPILE
+  File 5: Autism-Observation.md          [Neurodiversity/]  ← THIS FILE
+    → Hardware CONFIGURATION DIFFERENT from the start
+    → Sensory gain different → chunk compilation different → entire cascade different
+    → NOT broken — DIFFERENT WAY TO COMPILE
 
   File 6: PTSD-Analysis.md              [Research/]
-    → Chunk CONTEXT TAG mất → flashback = chunks fire sai context
+    → Chunk CONTEXT TAG LOST → flashback = chunks fire in wrong context
 ```
 
-### §0.2 — Framing: Observation, KHÔNG Analysis
+### §0.2 — Framing: Observation, NOT Analysis
 
 ```
-Tại sao "Observation" không phải "Analysis":
+Why "Observation" not "Analysis":
 
-  → Autism ở Neurodiversity/ folder (KHÔNG phải bệnh cần "chữa")
-  → Framework OBSERVE qua lens kiến trúc não
-  → KHÔNG thay thế clinical assessment
-  → KHÔNG prescribe, KHÔNG diagnose
-  → CÓ THỂ: generate testable hypotheses + reframe mechanisms
-  → "Analysis" dùng cho conditions có trajectory rõ (Parkinson, Alzheimer, OCD)
+  → Autism is in Neurodiversity/ folder (NOT a disease to be "cured")
+  → Framework OBSERVES through the lens of brain architecture
+  → Does NOT replace clinical assessment
+  → Does NOT prescribe, does NOT diagnose
+  → CAN: generate testable hypotheses + reframe mechanisms
+  → "Analysis" is used for conditions with clear trajectory (Parkinson, Alzheimer, OCD)
   → Autism = heterogeneous configuration → observation per-individual
 
-Tại sao Neurodiversity/ (KHÔNG phải Neurodegeneration/):
-  → Parkinson/Alzheimer = hardware THOÁI HÓA DẦN (progressive, irreversible)
-  → Autism = hardware CONFIGURATION KHÁC TỪ ĐẦU (developmental, stable)
-  → Không "hỏng" — KHÁC
-  → Cùng folder với ADHD-Observation.md (Neurodiversity cluster)
+Why Neurodiversity/ (NOT Neurodegeneration/):
+  → Parkinson/Alzheimer = hardware DEGRADES PROGRESSIVELY (progressive, irreversible)
+  → Autism = hardware CONFIGURED DIFFERENTLY FROM THE START (developmental, stable)
+  → Not "broken" — DIFFERENT
+  → Same folder as ADHD-Observation.md (Neurodiversity cluster)
 ```
 
 ### §0.3 — Scope: Framework CAN vs CANNOT
 
 ```
-FRAMEWORK CÓ THỂ PHÂN TÍCH:
-  ✅ Sensory processing differences → cascading effect lên chunk compilation
-  ✅ Self-Pattern-Modeling Compiled/Fresh balance khác → social interaction khác
+FRAMEWORK CAN ANALYZE:
+  ✅ Sensory processing differences → cascading effect on chunk compilation
+  ✅ Self-Pattern-Modeling Compiled/Fresh balance different → social interaction different
   ✅ Multisensory integration differences → chunk compilation pathway
-  ✅ Special interests qua gap-direction + reward mechanism
-  ✅ Predictability preference qua prediction-delta lens
+  ✅ Special Interests through gap-direction + reward mechanism
+  ✅ Predictability preference through prediction-delta lens
   ✅ Alexithymia overlap: body-feedback reading vs having
-  ✅ Meltdown/shutdown qua body-feedback overload lens
-  ✅ Developmental trajectory qua child-dev mechanism
+  ✅ Meltdown/shutdown through body-feedback overload lens
+  ✅ Developmental trajectory through child-dev mechanism
   ✅ Masking = chronic mismatch → cortisol cost
-  ✅ Strengths qua enhanced perceptual functioning
+  ✅ Strengths through enhanced perceptual functioning
 
-FRAMEWORK KHÔNG THỂ:
-  ❌ Chẩn đoán (clinical, ngoài scope)
-  ❌ Xác định nguyên nhân gen/epigenetic cụ thể
-  ❌ Đề xuất "điều trị" (không phải bệnh để trị)
-  ❌ Predict per-individual presentation từ general mechanism
-  ❌ Thay thế clinical assessment
-  ❌ Xác định "đúng/sai" cách phát triển
+FRAMEWORK CANNOT:
+  ❌ Diagnose (clinical, outside scope)
+  ❌ Identify specific genetic/epigenetic causes
+  ❌ Recommend "treatment" (not a disease to treat)
+  ❌ Predict per-individual presentation from general mechanism
+  ❌ Replace clinical assessment
+  ❌ Determine "right/wrong" ways of developing
 ```
 
-### §0.4 — Build on 4 files trước
+### §0.4 — Builds on 4 prior files
 
 ```
-FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
+THIS FILE BENEFITS FROM ALL 4 PRIOR FILES:
 
   Nicotine (File 1):
-    → Serotonin bridge: 25-30% autistic có hyperserotonemia
+    → Serotonin bridge: 25-30% autistic people have hyperserotonemia
     → nAChR system overlap
 
   Parkinson (File 2):
-    → Degradation vs Configuration distinction rõ ràng
-    → Parkinson = hardware HƯ DẦN. Autism = hardware KHÁC TỪ ĐẦU.
+    → Degradation vs Configuration distinction made clear
+    → Parkinson = hardware FAILS PROGRESSIVELY. Autism = hardware DIFFERENT FROM START.
 
   ADHD (File 3):
     → Config (Autism) vs Tuning (ADHD) = 2D neurodiversity model
-    → Co-occurrence 30-80% → cùng folder, so sánh trực tiếp
-    → §12 ADHD×Autism đã preview model
+    → Co-occurrence 30-80% → same folder, direct comparison
+    → §12 ADHD×Autism previewed model
 
   Alzheimer (File 4):
     → Chunk compilation architecture: "last in first out" = compile DEPTH matters
-    → Autism: compile DIFFERENTLY, not LOSE
+    → Autism: compiles DIFFERENTLY, does not LOSE
 
-  = Autism là FILE DUY NHẤT quan sát CONFIGURATION (không phải hỏng, hijack, hay tuning)
+  = Autism is the ONLY FILE observing CONFIGURATION (not broken, hijacked, or mistuned)
 ```
 
 ---
 
 ## §1 — AUTISM: FRAMING + HETEROGENEITY
 
-### §1.1 — Spectrum, không phải binary
+### §1.1 — Spectrum, not binary
 
 ```
 🟢 DSM-5 ASD (APA 2013):
@@ -178,14 +198,14 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     A1: Deficits in social-emotional reciprocity
     A2: Deficits in nonverbal communicative behaviors
     A3: Deficits in developing, maintaining, and understanding relationships
-    → TẤT CẢ 3 criteria required
+    → ALL 3 criteria required
 
   Domain B — Restricted, Repetitive Behaviors (RRBs):
     B1: Stereotyped/repetitive motor movements, use of objects, or speech
     B2: Insistence on sameness, inflexible adherence to routines
     B3: Highly restricted, fixated interests
-    B4: Hyper- or hypo-reactivity to sensory input ← MỚI trong DSM-5
-    → ÍT NHẤT 2/4 criteria required
+    B4: Hyper- or hypo-reactivity to sensory input ← NEW in DSM-5
+    → AT LEAST 2/4 criteria required
 
   3 Levels (support needs):
     Level 1: "Requiring support"
@@ -193,8 +213,8 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     Level 3: "Requiring very substantial support"
 
   ⚠️ "Level" ≠ "severity" ≠ "functioning"
-  → Level phản ánh SUPPORT NEEDS, không phải intelligence hay capability
-  → Cùng 1 người có thể Level 1 ở Domain B, Level 2 ở Domain A
+  → Level reflects SUPPORT NEEDS, not intelligence or capability
+  → Same person may be Level 1 in Domain B, Level 2 in Domain A
 ```
 
 ### §1.2 — "Disorder" vs Configuration
@@ -202,24 +222,26 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 ```
 🟡 Framework position:
 
-  DSM-5 gọi "Autism Spectrum DISORDER" — disorder = rối loạn.
-  Framework NHÌN KHÁC:
+  DSM-5 calls it "Autism Spectrum DISORDER" — disorder = a disruption.
+  Framework SEES it differently:
 
   "Disorder" implies:
-    → Có 1 trạng thái "bình thường" → autism = deviation
-    → Cần "chữa" để trở về "bình thường"
-    → Vấn đề NẰM Ở cá nhân autistic
+    → There is 1 "normal" state → autism = deviation
+    → Needs to be "fixed" to return to "normal"
+    → Problem LIES IN the autistic individual
 
-  Framework OBSERVE:
-    → Autism = hardware CONFIGURATION khác TỪ ĐẦU
-    → Sensory gain settings khác → cascade KHÁC, không phải "sai"
-    → Difficulty phát sinh ở GIAO ĐIỂM giữa config khác × môi trường thiết kế cho neurotypical
-    → Double empathy (Milton 2012): non-autistic CŨNG fail khi tương tác autistic
-    → "Disorder" nếu dùng = dùng theo DSM-5 clinical definition, KHÔNG phải framework claim
+  Framework OBSERVES:
+    → Autism = hardware CONFIGURATION different FROM THE START
+    → Different sensory gain settings → different CASCADE, not "wrong"
+    → Difficulty arises at the INTERSECTION of different config × environment
+      designed for neurotypical people
+    → Double empathy (Milton 2012): non-autistic people ALSO fail when
+      interacting with autistic people
+    → "Disorder" if used = used per DSM-5 clinical definition, NOT a framework claim
 
-  File này dùng "autistic" (identity-first) HOẶC "autistic person/people"
-  theo preference phổ biến trong cộng đồng autistic.
-  Tránh "người mắc tự kỷ" / "bị tự kỷ" — framing không phù hợp cho configuration.
+  This file uses "autistic" (identity-first) OR "autistic person/people"
+  following the preference common in the autistic community.
+  Avoid "person with autism" framing — less preferred for configuration.
 ```
 
 ### §1.3 — Prevalence + Demographics
@@ -229,13 +251,13 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 
   US (CDC ADDM Network, gold-standard surveillance):
     → Shaw et al. 2025 (MMWR 74(SS-2):1-22): 2022 surveillance data
-    → 1 in 31 (32.2 per 1,000) trẻ 8 tuổi
+    → 1 in 31 (32.2 per 1,000) children age 8
     → Boys: 49.2/1,000. Girls: 14.3/1,000.
     → Male:female ratio: 3.4:1
 
   Global:
     → Zeidan et al. 2022 (Autism Research 15(5):778-790): systematic review
-    → Median: 1% (100/10,000). Range: rất rộng across studies.
+    → Median: 1% (100/10,000). Range: very wide across studies.
 
   Male:female ratio — revised down:
     → Historically: 4:1 (based on older studies biased toward male presentation)
@@ -245,10 +267,10 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → Difference vs historical = BETTER DETECTION in females, not fewer females
 
 🟡 "Increasing" prevalence?
-  → Cả 2: improved detection + broadened criteria (DSM-5 merged Asperger's/PDD-NOS)
+  → Both: improved detection + broadened criteria (DSM-5 merged Asperger's/PDD-NOS)
   → Increased awareness + diagnostic access
-  → TRUE increase khó tách rời — majority = detection improvement
-  → Framework: khong lấy lập trường về true vs apparent increase
+  → TRUE increase difficult to separate — majority = detection improvement
+  → Framework: takes no position on true vs apparent increase
 ```
 
 ### §1.4 — Genetics
@@ -268,17 +290,17 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
       102 RISK GENES at FDR ≤0.1 from 35,584 samples (11,986 ASD)
       3 functional clusters: gene expression regulation (58),
         neuronal communication (24), cytoskeletal (9)
-      49 overlap với severe neurodevelopmental delay, 53 more ASD-specific
+      49 overlap with severe neurodevelopmental delay, 53 more ASD-specific
 
   Common variation = primary driver:
     → Gaugler et al. 2014 (Nature Genetics 46:881-885):
-      Narrow-sense heritability ~52.4% từ COMMON INHERITED variation
+      Narrow-sense heritability ~52.4% from COMMON INHERITED variation
       De novo mutations = ~2.6% population variance (important per-individual,
-        nhưng KHÔNG phải driver chính ở population level)
+        but NOT the main driver at population level)
 
   → Genetics = POLYGENIC (1000+ common variants of small effect + 102+ rare variants)
-  → KHÔNG có "autism gene" — hundreds of genes × interaction × environment
-  → = CONSISTENT với framework: configuration KHÁC = many parameters differ SIMULTANEOUSLY
+  → No "autism gene" — hundreds of genes × interaction × environment
+  → = CONSISTENT with framework: configuration DIFFERENT = many parameters differ SIMULTANEOUSLY
 ```
 
 ### §1.5 — Brain: IDIOSYNCRATIC connectivity
@@ -303,13 +325,13 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
   → Current consensus:
     Simple "long-range under + local over" = OUTDATED
     Actual finding = EACH autistic brain = unique connectivity pattern
-    = CONSISTENT với framework: mỗi autistic person = unique configuration
+    = CONSISTENT with framework: each autistic person = unique configuration
 
 🟡 Early brain overgrowth:
   → Courchesne et al. 2001, 2003 (JAMA 290(3)):
     Brain enlargement 2-4 yo. Sudden increase 1-14 months.
     Cerebral white matter +18%, cerebellar +39%
-  → Current: real nhưng MORE NUANCED and SUBGROUP-SPECIFIC
+  → Current: real but MORE NUANCED and SUBGROUP-SPECIFIC
     Overgrowth ≠ universal to all autistic individuals
 
 🟡 Amygdala:
@@ -324,7 +346,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 🟢 Serotonin — OLDEST biomarker:
   → Schain & Freedman 1961 (Journal of Pediatrics 58:315-320):
     Elevated whole blood serotonin in autistic children
-    >25-30% có HYPERSEROTONEMIA
+    >25-30% have HYPERSEROTONEMIA
     = OLDEST and MOST REPLICATED biomarker in autism (~60+ years)
   → Cook & Leventhal 1996 (Current Opinion Pediatrics 8(4)):
     Converging genetic, imaging, treatment evidence
@@ -339,16 +361,16 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 🟡 E/I Balance:
   → Rubenstein & Merzenich 2003 (Genes, Brain & Behavior 2(5)):
     Increased excitation/inhibition ratio in key neural systems
-    Influential framework nhưng OVERSIMPLIFIED
+    Influential framework but OVERSIMPLIFIED
   → Nelson & Valakh 2015 (Neuron 87(4)):
-    Homeostatic compensation complicates — E/I imbalance KHÔNG linear
-    Increased E/I KHÔNG necessarily = increased firing
+    Homeostatic compensation complicates — E/I imbalance NOT linear
+    Increased E/I NOT necessarily = increased firing
   → 2025: mGlu5 receptor ~15% lower (AJP) — potential mechanism
 
 🔴 Oxytocin:
   → Meta-analysis 2024 (54 trials, N=2,593): INCONSISTENT effects
   → Intranasal oxytocin does NOT consistently improve core ASD symptoms
-  → = Hypothesis CHƯA supported as therapeutic target
+  → = Hypothesis NOT yet supported as therapeutic target
 ```
 
 ### §1.7 — RRB 2-Factor Model
@@ -373,141 +395,147 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → Framework: prediction-delta REDUCTION strategy (§4)
 
   WHY THIS MATTERS:
-    → "RRBs" gộp 2 thứ KHÁC CƠ CHẾ thành 1 nhóm
+    → "RRBs" groups 2 things with DIFFERENT MECHANISMS into 1 category
     → RSM = body-feedback regulation (sensory)
     → IS = prediction-delta management (cognitive)
-    → Framework tách rõ: §10 cho RSM mechanism, §4 cho IS mechanism
+    → Framework separates clearly: §10 for RSM mechanism, §4 for IS mechanism
 ```
 
-### §1.8 — "Nhiều thứ dưới 1 tên" — Parallel với Alzheimer
+### §1.8 — "Many Things Under One Name" — Parallel with Alzheimer
 
 ```
 🟡 FRAMEWORK OBSERVATION:
 
   Alzheimer v1.1 §17: "Architecture determines pattern, NOT cause."
-    → Nhiều nguyên nhân KHÁC NHAU (tau, amyloid, vascular, mixed...)
-    → Cùng dẫn tới: chunk system suy thoái → "mất trí nhớ"
-    → Mainstream gộp OUTPUT giống nhau → gọi chung "Alzheimer"
-    → Thực tế: 4-5 biological subtypes (Vogel 2021, Tijms 2024)
-    → AMARANTH 2025: TÁCH subtypes → treatment rescued (46% slowing)
+    → Many DIFFERENT causes (tau, amyloid, vascular, mixed...)
+    → All lead to: chunk system deteriorates → "memory loss"
+    → Mainstream groups SAME OUTPUT → calls it all "Alzheimer"
+    → Reality: 4-5 biological subtypes (Vogel 2021, Tijms 2024)
+    → AMARANTH 2025: SEPARATE subtypes → treatment rescued (46% slowing)
 
-  Autism = NGƯỢC HƯỚNG, CÙNG VẤN ĐỀ:
-    → Nhiều configuration KHÁC NHAU (102+ risk genes, 3 functional clusters)
-    → Cùng dẫn tới: kiến trúc não khác typical → "khó giao tiếp"
-    → Mainstream gộp OUTPUT giống nhau → gọi chung "Autism"
-    → Thực tế: mỗi autistic brain = IDIOSYNCRATIC (Hahamy 2015)
+  Autism = OPPOSITE DIRECTION, SAME PROBLEM:
+    → Many DIFFERENT configurations (102+ risk genes, 3 functional clusters)
+    → All lead to: brain architecture different from typical →
+      "difficulty with communication"
+    → Mainstream groups SAME OUTPUT → calls it all "Autism"
+    → Reality: each autistic brain = IDIOSYNCRATIC (Hahamy 2015)
     → Princeton 2025: 4+ biologically distinct subtypes
 
-  CẢ 2 = "mainstream gộp output giống nhau → mất thông tin mechanism bên dưới"
-    Alzheimer gộp ở output "mất trí nhớ"
-    Autism gộp ở output "khó giao tiếp"
+  BOTH = "mainstream groups same output → loses information about underlying mechanism"
+    Alzheimer groups at output: "memory loss"
+      (many paths → same destination)
+    Autism groups at output: "difficulty communicating"
+      (many configurations → same surface behavior)
 
   LABELING CASCADE (autism-specific):
-    ① Kiến trúc não khác (nhiều kiểu KHÁC NHAU)
-    ② → Sensory gain khác → chunks compile khác (§2)
-    ③ → Self-Pattern-Modeling build trên chunk library khác → social prediction khác (§5)
-    ④ → Social compilation CHẬM HƠN so với neurotypical timeline
-         (không phải chậm tuyệt đối — Crompton 2025: autistic↔autistic = effective)
-    ⑤ → Giai đoạn đầu: CHƯA đồng bộ Self-Pattern-Modeling với đa số xung quanh
-    ⑥ → Bị gán mác SỚM: "không giao tiếp được"
-    ⑦ → Từ đó: mọi người nhìn qua mác → coi TẤT CẢ autistic = giống nhau
-    ⑧ → Coi "khó giao tiếp" = 1 HÀNH VI duy nhất
-    ⑨ → Nhưng thực tế: mỗi người khó giao tiếp vì LÝ DO KHÁC
-         (sensory gain khác, TBW khác, Compiled/Fresh balance khác,
-          alexithymia có/không, predictive coding type khác...)
+    ① Brain architecture different (many DIFFERENT types)
+    ② → Sensory gain different → chunks compile differently (§2)
+    ③ → Self-Pattern-Modeling builds on different chunk library → social prediction different (§5)
+    ④ → Social compilation SLOWER than neurotypical timeline
+         (not absolutely slower — Crompton 2025: autistic↔autistic = effective)
+    ⑤ → Early stage: NOT yet synchronized Self-Pattern-Modeling with the majority around them
+    ⑥ → Labeled EARLY: "cannot communicate"
+    ⑦ → From then: people view through the label → see ALL autistic people as the SAME
+    ⑧ → See "difficulty communicating" as 1 SINGLE BEHAVIOR
+    ⑨ → But reality: each person has difficulty for DIFFERENT REASONS
+         (sensory gain different, TBW different, Compiled/Fresh balance different,
+          alexithymia present/absent, predictive coding type different...)
 
-  → Bước ⑥→⑦ = confirmation bias: mác "tự kỷ" → observer CHỈ THẤY
-    cái confirm mác → bỏ qua individuality
-  → Bước ⑦→⑧ = vì neurotypical là đa số nên mác gán cho phía thiểu số
-    (double empathy §5.4: neurotypical Self-Pattern-Modeling cũng fail, nhưng không bị gán mác)
+  → Step ⑥→⑦ = confirmation bias: label "autistic" → observer ONLY SEES
+    what confirms the label → ignores individuality
+  → Step ⑦→⑧ = because neurotypical is the majority, label is assigned to the minority
+    (double empathy §5.4: neurotypical Self-Pattern-Modeling also fails, but is not labeled)
 
   IMPLICATION:
-    → "Autism support" KHÔNG THỂ one-size-fits-all
+    → "Autism support" CANNOT be one-size-fits-all
     → PER-INDIVIDUAL: sensory profile + TBW + Compiled/Fresh + alexithymia + Special Interests pattern
-    → = Cùng insight với Alzheimer: TÁCH subtypes → support chính xác hơn
+    → = Same insight as Alzheimer: SEPARATE subtypes → more precise support
     → Cross-ref: Alzheimer-Analysis.md §17 (reverse-engineering lens)
 ```
 
-### §1.9 — Differential: 3 con đường → cùng output "khó giao tiếp"
+### §1.9 — Differential: 3 Paths → Same Output "Difficulty Communicating"
 
 ```
 🟡 FRAMEWORK OBSERVATION:
 
-  "Khó giao tiếp" = OUTPUT CHUNG của ÍT NHẤT 3 con đường KHÁC CƠ CHẾ:
+  "Difficulty communicating" = COMMON OUTPUT of AT LEAST 3 PATHS with DIFFERENT MECHANISMS:
 
-  ┌─────────────────┬───────────────────────┬────────────────────────────────┐
-  │ Con đường        │ Root cause             │ Tại sao Self-Pattern-Modeling build chậm/khác   │
-  ├─────────────────┼───────────────────────┼────────────────────────────────┤
-  │ ① CONFIGURATION │ Hardware khác từ đầu  │ Sensory gain khác → chunks     │
-  │ (Autism)        │ (102+ genes, polyge-  │ compile khác → Self-Pattern-Modeling build trên  │
-  │                 │ nic, idiosyncratic)   │ chunk library KHÁC typical     │
-  ├─────────────────┼───────────────────────┼────────────────────────────────┤
-  │ ② TUNING        │ Regulation parameters │ PFC under-fueled → social      │
-  │ (ADHD nặng)    │ ở extreme (DAT+DRD4)  │ chunks compile CHẬM HƠN       │
-  │                 │                       │ (miss cues vì distracted)      │
-  ├─────────────────┼───────────────────────┼────────────────────────────────┤
-  │ ③ DEPRIVATION   │ Hardware BÌNH THƯỜNG  │ Không có social INPUT đủ       │
-  │ (thiếu input)  │ nhưng thiếu input     │ → Self-Pattern-Modeling KHÔNG CÓ raw material   │
-  │                 │ social từ nhỏ         │ → chunks không compile được    │
-  └─────────────────┴───────────────────────┴────────────────────────────────┘
+  ┌──────────────────┬────────────────────────┬──────────────────────────────────────┐
+  │ Path             │ Root cause             │ Why Self-Pattern-Modeling builds       │
+  │                  │                        │ slowly/differently                    │
+  ├──────────────────┼────────────────────────┼──────────────────────────────────────┤
+  │ ① CONFIGURATION │ Hardware different from │ Sensory gain different → chunks       │
+  │ (Autism)         │ the start               │ compile differently → Self-Pattern-   │
+  │                  │ (102+ genes, polygenic, │ Modeling builds on DIFFERENT chunk    │
+  │                  │ idiosyncratic)          │ library than typical                 │
+  ├──────────────────┼────────────────────────┼──────────────────────────────────────┤
+  │ ② TUNING        │ Regulation parameters   │ PFC under-fueled → social             │
+  │ (Severe ADHD)    │ at extreme (DAT+DRD4)   │ chunks compile SLOWER                │
+  │                  │                         │ (miss cues because distracted)       │
+  ├──────────────────┼────────────────────────┼──────────────────────────────────────┤
+  │ ③ DEPRIVATION   │ Hardware TYPICAL         │ No sufficient social INPUT →          │
+  │ (input deficit)  │ but insufficient social │ Self-Pattern-Modeling has NO raw      │
+  │                  │ input from early on     │ material → chunks cannot compile     │
+  └──────────────────┴────────────────────────┴──────────────────────────────────────┘
 
-  Cả 3 → CÙNG OUTPUT nhìn từ bên ngoài: Self-Pattern-Modeling thiếu/khác → "khó giao tiếp"
-  Nhưng mechanism BÊN TRONG hoàn toàn KHÁC → cần approach KHÁC
+  All 3 → SAME OUTPUT seen from outside: Self-Pattern-Modeling insufficient/different
+    → "difficulty communicating"
+  But internal mechanism COMPLETELY DIFFERENT → needs DIFFERENT approach
 ```
 
 ```
-🟢 CON ĐƯỜNG ③: "Quasi-autism" — research evidence:
+🟢 PATH ③: "Quasi-autism" — research evidence:
 
   Rutter et al. 1999 (JCPP 40(4):537-549):
     → English and Romanian Adoptees (ERA) study
     → COINED term "quasi-autism"
-    → ~6% trẻ Romanian adoptees có autistic-like features
+    → ~6% Romanian adoptee children had autistic-like features
       (vs 0% UK-adopted controls)
-    → Features: giảm eye contact, repetitive behaviors, social communication khó
-    → Trẻ adopted TRƯỚC 6 tháng tuổi → near-COMPLETE recovery
-    → = Hardware bình thường + input thiếu → giống autism
-    → = Cung cấp input đủ sớm → RECOVER → confirm hardware bình thường
+    → Features: reduced eye contact, repetitive behaviors, social communication difficulty
+    → Children adopted BEFORE 6 months → near-COMPLETE recovery
+    → = Typical hardware + insufficient input → resembles autism
+    → = Providing sufficient input early → RECOVER → confirms typical hardware
 
   Rutter, Kreppner et al. 2007 (JCPP 48(12):1200-1207):
-    → Follow-up age 11: quasi-autistic features PERSIST ở nhiều trẻ adopted muộn
-    → NHƯNG phân biệt được vs idiopathic autism:
-      (a) Quasi-autism: more social APPROACH dù có deficits
-      (b) Quasi-autism: preoccupations UNUSUAL (đồng hồ, dây điện, công tắc)
-          vs autism: restricted interests theo pattern khác
-      (c) Quasi-autism: female ratio CAO HƠN
-      (d) Quasi-autism: GIẢM DẦN theo thời gian (partial remission)
+    → Follow-up age 11: quasi-autistic features PERSIST in many later-adopted children
+    → BUT distinguishable from idiopathic autism:
+      (a) Quasi-autism: more social APPROACH despite deficits
+      (b) Quasi-autism: preoccupations UNUSUAL (clocks, electrical wires, switches)
+          vs autism: restricted interests following different patterns
+      (c) Quasi-autism: HIGHER female ratio
+      (d) Quasi-autism: DECREASES over time (partial remission)
 
   Rodriguez-Perez et al. 2023 (JCPP 64(9):1292-1302):
-    → Follow-up THÀNH NIÊN: quasi-autism persist vào adulthood ở một số
-    → Overlaps với ADHD + disinhibited social engagement
-    → = Deprivation từ nhỏ → lasting nhưng trajectory KHÁC autism
+    → Adult follow-up: quasi-autism persists into adulthood for some
+    → Overlaps with ADHD + disinhibited social engagement
+    → = Early deprivation → lasting but DIFFERENT trajectory than autism
 
   Nelson et al. 2007 (Science 318(5858):1937-1940):
     → Bucharest Early Intervention Project (BEIP) — RCT
-    → 136 trẻ institutional, half randomized to foster care
-    → Foster care → IQ gains significant (73 → 81, vs never-institutional: 109)
-    → Placed TRƯỚC 24 tháng → recovery LỚN NHẤT
-    → = SENSITIVE PERIOD: hardware bình thường nhưng cần input ĐÚNG THỜI ĐIỂM
+    → 136 institutional children, half randomized to foster care
+    → Foster care → significant IQ gains (73 → 81, vs never-institutional: 109)
+    → Placed BEFORE 24 months → LARGEST recovery
+    → = SENSITIVE PERIOD: typical hardware but needs input AT THE RIGHT TIME
 ```
 
 ```
-🟡 CON ĐƯỜNG ② → ①: ADHD nặng + gán mác → self-fulfilling
+🟡 PATH ② → ①: Severe ADHD + labeling → self-fulfilling
 
   Miodovnik et al. 2015 (Journal of Pediatrics 166(6)):
-    → ~40% trẻ ban đầu chẩn đoán ADHD KHÔNG giữ diagnosis đó
-      khi ASD được xác định → initial MISDIAGNOSIS
-    → ASD diagnosis bị DELAY trung bình ~1.8 năm (2.6 năm cho nữ)
-    → = ADHD và ASD dễ nhầm ở giai đoạn đầu
+    → ~40% children initially diagnosed ADHD DID NOT retain that diagnosis
+      when ASD was identified → initial MISDIAGNOSIS
+    → ASD diagnosis delayed on average ~1.8 years (2.6 years for females)
+    → = ADHD and ASD easy to confuse in the early stages
 
-  Framework predict SELF-FULFILLING CYCLE cho ADHD nặng:
-    ① ADHD nặng → PFC under-fueled → social chunks compile chậm
-    ② → Giai đoạn đầu: trông giống "khó giao tiếp" (surface behavior)
-    ③ → Bị gán mác "tự kỷ" HOẶC bị đối xử NHƯ tự kỷ
-    ④ → Môi trường RESPOND theo mác: isolate, lower expectations, ít interaction
-    ⑤ → ÍT social input → ÍT raw material cho Self-Pattern-Modeling compile
-    ⑥ → Self-Pattern-Modeling compile CÒN CHẬM HƠN (vì thiếu input, KHÔNG phải thiếu hardware)
-    ⑦ → Behavior CONFIRM mác → vòng xoáy tự tăng cường
-    → = Self-fulfilling prophecy: mác TẠO RA condition mà nó "chẩn đoán"
+  Framework predicts SELF-FULFILLING CYCLE for severe ADHD:
+    ① Severe ADHD → PFC under-fueled → social chunks compile slowly
+    ② → Early stage: looks like "difficulty communicating" (surface behavior)
+    ③ → Labeled "autistic" OR treated AS IF autistic
+    ④ → Environment RESPONDS to label: isolate, lower expectations, fewer interactions
+    ⑤ → LESS social input → LESS raw material for Self-Pattern-Modeling to compile
+    ⑥ → Self-Pattern-Modeling compiles EVEN SLOWER (due to less input, NOT hardware deficit)
+    ⑦ → Behavior CONFIRMS label → self-reinforcing spiral
+    → = Self-fulfilling prophecy: label CREATES the condition it "diagnoses"
 
   Hornstra et al. 2023 (Educational Psychology Review): meta-analysis
     → "Golem effect": teacher expectations shaped by diagnostic labels
@@ -516,83 +544,83 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 ```
 
 ```
-🟡 FRAMEWORK: phân biệt 3 con đường
+🟡 FRAMEWORK: distinguishing 3 paths
 
-  MANH MỐI 1 — SENSORY RESPONSE (đo bằng fMRI/EEG):
+  CLUE 1 — SENSORY RESPONSE (measured via fMRI/EEG):
 
     ① Configuration (Autism):
-       → HARDWARE xử lý input khác ở mức neuron
-       → Cùng tiếng ồn → amygdala fire MẠNH HƠN typical (Green 2013 fMRI)
-       → VÀ: nghe tiếng đó 100 lần → VẪN fire mạnh (reduced habituation, Green 2015)
+       → HARDWARE processes input differently at the neuron level
+       → Same noise → amygdala fires STRONGER than typical (Green 2013 fMRI)
+       → AND: hear that sound 100 times → STILL fires strongly (reduced habituation, Green 2015)
        → Hyper/hypo MIXED per-modality. TBW wider (~600ms).
-       → = Đo fMRI → thấy PATTERN response khác typical NGAY LẬP TỨC
+       → = fMRI measurement → see DIFFERENT response pattern than typical IMMEDIATELY
 
-    ② Tuning (ADHD nặng):
-       → Hardware sensory BÌNH THƯỜNG
-       → Cùng tiếng ồn → response bình thường → CÓ habituation
-       → Nhưng ATTENTION regulation khác → miss input, not overloaded by input
-       → Sensory seeking ở ADHD = under-stimulated (cần MÔI TRƯỜNG stimulation),
-         KHÁC autism SOR (cần GIẢM stimulation vì gain cao)
+    ② Tuning (Severe ADHD):
+       → Sensory hardware TYPICAL
+       → Same noise → typical response → HAS habituation
+       → But ATTENTION regulation different → miss input, not overloaded by input
+       → Sensory seeking in ADHD = under-stimulated (needs ENVIRONMENTAL stimulation),
+         DIFFERENT from autism SOR (needs LESS stimulation because gain is high)
 
     ③ Deprivation:
-       → Hardware sensory BÌNH THƯỜNG
-       → Cùng tiếng ồn → raw neural response BÌNH THƯỜNG
-       → NHƯNG: thiếu chunks compiled từ trải nghiệm → không biết
-         PHÂN LOẠI input ("nguy hiểm hay bình thường?")
-       → Nên phản ứng SỢ (vì không có chunk "đây = an toàn")
-       → Nghe thêm vài lần trong môi trường an toàn → BẮT ĐẦU habituate
-         (hardware bình thường → CÓ THỂ learn + compile chunk "an toàn")
-       → = Hardware OK, software (chunks) CHƯA build đủ để interpret
+       → Sensory hardware TYPICAL
+       → Same noise → raw neural response TYPICAL
+       → BUT: missing compiled chunks from experience → does not know how to
+         CATEGORIZE input ("dangerous or safe?")
+       → So reacts with FEAR (no chunk "this = safe")
+       → Hear it a few times in a safe environment → BEGINS to habituate
+         (typical hardware → CAN learn + compile "safe" chunk)
+       → = Hardware OK, software (chunks) NOT YET sufficiently built to interpret
 
-    ⚠️ So sánh trực tiếp autism vs deprivation sensory response
-    chưa có study riêng — đây là 🟡 framework inference từ:
+    ⚠️ Direct autism vs deprivation sensory response comparison
+    does not yet have its own study — this is 🟡 framework inference from:
     Green 2013/2015 (autism fMRI) + Rutter 1999/2007 (deprivation recovery)
 
-  MANH MỐI 2 — RECOVERY TRAJECTORY khi cung cấp social input:
+  CLUE 2 — RECOVERY TRAJECTORY when social input is provided:
 
-    ① Configuration: compile CHẬM HƠN typical (hardware khác)
-       Nhưng COMPILE ĐƯỢC theo pathway riêng
+    ① Configuration: compiles SLOWER than typical (different hardware)
+       But CAN COMPILE through its own pathway
        Crompton 2025: autistic↔autistic communication = effective
-       → Self-Pattern-Modeling builds, nhưng trên chunk library KHÁC typical
+       → Self-Pattern-Modeling builds, but on DIFFERENT chunk library than typical
 
-    ② Tuning: compile NHANH HƠN ① nếu medication compensate regulation
-       PFC gets fuel → social chunks compile (hardware bình thường)
-       Nhưng CẦN medication + environment support ĐỒNG THỜI
+    ② Tuning: compiles FASTER than ① if medication compensates regulation
+       PFC gets fuel → social chunks compile (typical hardware)
+       But NEEDS medication + environmental support SIMULTANEOUSLY
 
-    ③ Deprivation: compile NHANH NHẤT nếu input đủ sớm
-       Hardware bình thường → bù input = catch up
-       Rutter 1999: adopted <6 tháng → near-complete recovery
-       Nelson 2007: foster care <24 tháng → significant IQ gains
-       → = SENSITIVE PERIOD: hardware OK nhưng cần input ĐÚNG THỜI ĐIỂM
+    ③ Deprivation: compiles FASTEST if input provided early enough
+       Typical hardware → adding input = catch up
+       Rutter 1999: adopted <6 months → near-complete recovery
+       Nelson 2007: foster care <24 months → significant IQ gains
+       → = SENSITIVE PERIOD: hardware OK but needs input AT THE RIGHT TIME
 
-  MANH MỐI 3 — THỜI ĐIỂM XUẤT HIỆN:
+  CLUE 3 — TIME OF ONSET:
 
-    ① Configuration: từ đầu (sensory differences present year 1 — Baranek 2006)
-       Không correlate với chất lượng chăm sóc
-    ② Tuning: từ đầu nhưng có thể subtle đến khi school demands increase
-       Không correlate với chất lượng chăm sóc
-    ③ Deprivation: CORRELATE với thời gian + mức độ thiếu input
-       6 tháng deprivation → mild. 3 năm → severe (Rutter 1999)
-       = Nếu biết lịch sử chăm sóc → phân biệt được
+    ① Configuration: from the start (sensory differences present year 1 — Baranek 2006)
+       Does not correlate with quality of care
+    ② Tuning: from the start but may be subtle until school demands increase
+       Does not correlate with quality of care
+    ③ Deprivation: CORRELATES with duration + degree of input deprivation
+       6 months deprivation → mild. 3 years → severe (Rutter 1999)
+       = If history of care is known → distinguishable
 
-  ⚠️ THỰC TẾ: 3 con đường CÓ THỂ OVERLAP
+  ⚠️ REALITY: 3 paths CAN OVERLAP
     → ADHD + autism co-occur 30-80% (§12)
     → Deprivation + underlying ADHD/autism = compound
-    → Deprivation có thể MASK underlying autism (cả 2 cùng lúc)
-    → = Per-individual assessment CẦN THIẾT, not category-based
+    → Deprivation may MASK underlying autism (both simultaneously)
+    → = Per-individual assessment IS NECESSARY, not category-based
 ```
 
 ---
 
 ## §2 — SENSORY PROCESSING × CHUNK COMPILATION
 
-### §2.1 — Prevalence: gần như universal
+### §2.1 — Prevalence: nearly universal
 
 ```
-🟢 RESEARCH — sensory processing differences cực phổ biến:
+🟢 RESEARCH — sensory processing differences extremely common:
 
   Tomchek & Dunn 2007 (AJOT 61(2):190-200):
-    → 95% trẻ ASD có sensory processing differences
+    → 95% children with ASD have sensory processing differences
     → (vs ~16% typically developing controls)
 
   Ben-Sasson et al. 2009 (JADD 39(1):1-11): meta-analysis
@@ -607,36 +635,36 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → Sensory features present from FIRST YEAR of life
     → BEFORE social/communication differences become obvious
 
-  → "95%" = gần UNIVERSAL — sensory processing khác
-    là ĐẶC ĐIỂM CƠ BẢN nhất, không phải "triệu chứng phụ"
-  → DSM-5 thêm B4 (sensory) vì lý do này — không có trong DSM-IV
+  → "95%" = nearly UNIVERSAL — sensory processing differences
+    are the MOST FUNDAMENTAL characteristic, not a "secondary symptom"
+  → DSM-5 added B4 (sensory) for this reason — not in DSM-IV
 ```
 
 ### §2.2 — MIXED pattern: hyper AND hypo per-modality
 
 ```
-🟢 KHÔNG phải "nhạy cảm hơn" hay "kém nhạy hơn" — mà MIXED:
+🟢 NOT "more sensitive" or "less sensitive" — MIXED:
 
   Tavassoli et al. 2014 (Autism 18(4):428-432):
     → Same individual: hyper-auditory + hypo-proprioceptive = possible
-    → Mỗi modality có gain setting RIÊNG
+    → Each modality has its OWN gain setting
     → CANNOT summarize as "more sensitive" or "less sensitive"
 
   3 distinct sensory patterns (Dunn 2007 framework):
-    SOR (Sensory Over-Responsivity): hyper — quá nhạy
-    SUR (Sensory Under-Responsivity): hypo — kém nhạy
-    SS (Sensory Seeking): tìm kiếm input cao hơn
+    SOR (Sensory Over-Responsivity): hyper — overly sensitive
+    SUR (Sensory Under-Responsivity): hypo — less sensitive
+    SS (Sensory Seeking): seeking higher input
 
-  → Cùng 1 người có thể:
-    SOR auditory (nhạy tiếng ồn CỰC MẠNH)
-    + SUR proprioceptive (cần ấn mạnh, ôm chặt)
-    + SS vestibular (thích xoay, nhảy)
-    = 3 patterns ĐỒNG THỜI ở 3 modalities KHÁC NHAU
+  → Same person may have:
+    SOR auditory (EXTREMELY sensitive to noise)
+    + SUR proprioceptive (needs firm pressure, tight hug)
+    + SS vestibular (likes spinning, jumping)
+    = 3 patterns SIMULTANEOUSLY in 3 DIFFERENT modalities
 
-  → Framework: Sensitivity-Classification.md 2-tầng (Sensor × Processing)
-    Tầng 1: Sensor (receptor gain per-channel) — PHYSICAL sensitivity
-    Tầng 2: Processing (neuron processing depth) — NEURAL sensitivity
-    Autism: cả 2 tầng có thể KHÁC — per-modality, per-individual
+  → Framework: Sensitivity-Classification.md 2-tier (Sensor × Processing)
+    Tier 1: Sensor (receptor gain per-channel) — PHYSICAL sensitivity
+    Tier 2: Processing (neuron processing depth) — NEURAL sensitivity
+    Autism: both tiers can be DIFFERENT — per-modality, per-individual
 ```
 
 ### §2.3 — Reduced HABITUATION = key mechanism
@@ -649,10 +677,10 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     in sensory cortices AND amygdala
 
   WHAT THIS MEANS:
-    → Typical brain: repeated stimulus → response GIẢM DẦN (habituation)
-    → Tiếng máy lạnh: first 10 seconds = notice. 5 minutes = gone.
+    → Typical brain: repeated stimulus → response GRADUALLY DECREASES (habituation)
+    → Sound of air conditioner: first 10 seconds = notice. 5 minutes = gone.
     → Autistic brain (with SOR): response DOES NOT DECREASE
-    → Tiếng máy lạnh: 5 minutes = STILL firing. 30 minutes = STILL FIRING.
+    → Sound of air conditioner: 5 minutes = STILL firing. 30 minutes = STILL FIRING.
 
   FRAMEWORK MAPPING:
     Body-Feedback-Mechanism.md §2: Sensory-Driven input
@@ -661,10 +689,10 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → Each additional input ADDS to cumulative load
     → Over time: body-feedback OVERLOAD → PFC capacity exhausted → meltdown/shutdown
 
-  → Giảm habituation = cơ chế ĐƠN GIẢN NHẤT giải thích sensory overload
-  → Không cần "quá nhạy" (hyper) — chỉ cần body KHÔNG GIẢM response
-  → = Cumulative, NOT threshold — mỗi giây thêm input = thêm load
-  → = TẠI SAO "fine in the morning, meltdown by afternoon" = ACCUMULATION
+  → Reduced habituation = SIMPLEST mechanism explaining sensory overload
+  → No need for "overly sensitive" (hyper) — just need body to NOT REDUCE response
+  → = Cumulative, NOT threshold — each additional second of input = additional load
+  → = WHY "fine in the morning, meltdown by afternoon" = ACCUMULATION
 ```
 
 ### §2.4 — fMRI evidence: amygdala overactivation
@@ -687,74 +715,74 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
   → Amygdala = threat/salience detection → hyperactivation = brain treating
     NEUTRAL sensory input as SALIENT/THREATENING
   → OFC involvement = valuation/evaluation circuits engaged
-  → Hippocampus = context encoding disrupted by sensory overload?
+  → Hippocampus = context encoding disrupted by sensory overload
 ```
 
 ### §2.5 — Framework: Sensory → Chunk CASCADE model
 
 ```
-🟡 FRAMEWORK SYNTHESIS — cascade từ INPUT:
+🟡 FRAMEWORK SYNTHESIS — cascade from INPUT:
 
-  BƯỚC 1: Sensory gain KHÁC per-modality
-    → Mỗi kênh input (visual, auditory, tactile, proprioceptive, interoceptive)
-       có gain setting RIÊNG (Sensitivity-Classification.md 2-tầng)
+  STEP 1: Sensory gain DIFFERENT per-modality
+    → Each input channel (visual, auditory, tactile, proprioceptive, interoceptive)
+       has its OWN gain setting (Sensitivity-Classification.md 2-tier)
     → Autism: gain profile UNIQUE per-individual
 
-  BƯỚC 2: Raw material KHÁC → compiled chunks KHÁC
-    → Chunk.md v2.1: chunks = compiled từ sensory input + body-feedback
-    → KHÁC raw material = KHÁC compiled chunks
-    → VD: hyper-auditory → richer auditory details in chunks
+  STEP 2: Different raw material → different compiled chunks
+    → Chunk.md v2.1: chunks = compiled from sensory input + body-feedback
+    → DIFFERENT raw material = DIFFERENT compiled chunks
+    → Example: hyper-auditory → richer auditory details in chunks
          hypo-proprioceptive → sparser body-position data in chunks
-    → Chunk network structure FUNDAMENTALLY DIFFERENT từ gốc
+    → Chunk network structure FUNDAMENTALLY DIFFERENT from the start
 
-  BƯỚC 3: Khác chunks → khác TOÀN BỘ downstream
-    → Self-Pattern-Modeling (§5): Self-Pattern-Modeling fire dựa trên OWN chunk library
-      → khác chunks = khác social prediction
+  STEP 3: Different chunks → ENTIRELY different downstream
+    → Self-Pattern-Modeling (§5): fires based on OWN chunk library
+      → different chunks = different social prediction
     → Gap-Direction (§8): gap = f(surrounding chunks)
-      → khác chunks = khác gaps = khác interests
+      → different chunks = different gaps = different interests
     → Prediction model (§4): prediction = compiled expectations
-      → khác chunks = khác predictions = khác prediction-delta patterns
+      → different chunks = different predictions = different prediction-delta patterns
     → Feeling (§7): feeling = PFC observation of body-chunk interaction
-      → khác chunks = khác observation patterns
+      → different chunks = different observation patterns
 
   → CASCADE from SENSORY INPUT, not "deficit" at OUTPUT
-  → "Social difficulty" KHÔNG phải root — là DOWNSTREAM of sensory + integration cascade
+  → "Social difficulty" is NOT the root — it is DOWNSTREAM of sensory + integration cascade
   → Intervention implication: support SENSORY environment → reduce CASCADE load
 ```
 
 ### §2.6 — Sensory seeking vs sensory avoidance
 
 ```
-🟡 2 faces cùng mechanism:
+🟡 2 faces of the same mechanism:
 
   SENSORY AVOIDANCE (SOR):
-    → Gain CAO ở modality → input OVERWHELMING
+    → GAIN HIGH in modality → input OVERWHELMING
     → Body-feedback: "too much" → avoid
-    → VD: che tai khi ồn, tránh ánh sáng mạnh, không chạm texture nhất định
+    → Examples: covering ears when loud, avoiding bright lights, refusing certain textures
     → = Body PROTECTION response — LOGICAL given high gain
 
   SENSORY SEEKING (SS):
-    → Gain THẤP ở modality → input INSUFFICIENT
+    → GAIN LOW in modality → input INSUFFICIENT
     → Body-feedback: "not enough" → seek MORE
-    → VD: spinning, rocking, deep pressure, loud music on headphones
+    → Examples: spinning, rocking, deep pressure, loud music on headphones
     → = Body REGULATION response — LOGICAL given low gain
     → Cross-ref: Fidgeting-Analysis.md — fidgeting = similar but milder
 
-  CÙNG NGƯỜI, KHÁC MODALITY:
-    → Avoid sounds (gain cao auditory) + Seek pressure (gain thấp proprioceptive)
-    → KHÔNG contradictory — per-modality gain settings independent
+  SAME PERSON, DIFFERENT MODALITY:
+    → Avoids sounds (high auditory gain) + Seeks pressure (low proprioceptive gain)
+    → NOT contradictory — per-modality gain settings independent
 
   FRAMEWORK:
     → Body-Feedback-Mechanism.md: Sensory-Driven pathway
     → Body detects "too much" or "not enough" → body-feedback fires → behavior ADJUSTS
     → Avoidance = reduce overload. Seeking = increase input to threshold.
-    → = SELF-REGULATION, không phải "hành vi bất thường"
+    → = SELF-REGULATION, not "abnormal behavior"
 ```
 
 ### §2.7 — Cross-references
 
 ```
-  → Sensitivity-Classification.md v1.0: 2-tầng model (Sensor × Processing)
+  → Sensitivity-Classification.md v1.0: 2-tier model (Sensor × Processing)
      per-modality gain classification
   → Body-Feedback-Mechanism.md v1.2: §2 Sensory-Driven pathway,
      §5 Quality Baseline Shift (accumulation)
@@ -764,76 +792,76 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
      Sensory profile → shapes WHICH channels compile rich vs sparse
 ```
 
-### §2.8 — Phổ liên tục: mọi người đều ở đâu đó
+### §2.8 — Continuous spectrum: everyone is somewhere on it
 
 ```
 🟡 FRAMEWORK OBSERVATION:
 
-  AUDITORY chỉ là 1 trong 7+ kênh sensory.
-  "Nhạy âm thanh" = 1 biến thể PHỔ BIẾN nhưng KHÔNG phải universal trong autism.
-  Có thể gain ở BẤT KỲ kênh nào, HOẶC multi-channel cùng lúc:
+  AUDITORY is only 1 of 7+ sensory channels.
+  "Sound sensitivity" = 1 common variation but NOT universal in autism.
+  Gain may be in ANY channel, OR multi-channel simultaneously:
 
-  7+ kênh sensory INDEPENDENT:
-    → Auditory (thính giác)
-    → Visual (thị giác)
-    → Tactile (xúc giác)
-    → Proprioceptive (vị trí cơ thể)
-    → Vestibular (thăng bằng, chuyển động)
-    → Interoceptive (nội tạng: đói, đau, nhịp tim)
-    → Olfactory (khứu giác)
-    → Gustatory (vị giác)
+  7+ INDEPENDENT sensory channels:
+    → Auditory (hearing)
+    → Visual (sight)
+    → Tactile (touch)
+    → Proprioceptive (body position)
+    → Vestibular (balance, movement)
+    → Interoceptive (internal: hunger, pain, heart rate)
+    → Olfactory (smell)
+    → Gustatory (taste)
 
-  MỖI kênh có gain riêng → mỗi người autistic = UNIQUE sensory profile
-  Số tổ hợp = gần VÔ HẠN (mỗi kênh × 3 mức hyper/typical/hypo)
-  = Đây là lý do Hahamy 2015 tìm thấy IDIOSYNCRATIC brain connectivity
+  EACH channel has its own gain → each autistic person = UNIQUE sensory profile
+  Number of combinations = near INFINITE (each channel × 3 levels hyper/typical/hypo)
+  = This is why Hahamy 2015 found IDIOSYNCRATIC brain connectivity
 
-  ĐÂY KHÔNG PHẢI "KHÁC LOẠI NGƯỜI":
+  THIS IS NOT "A DIFFERENT KIND OF PERSON":
 
-  TOÀN BỘ dân số = phổ liên tục ở MỖI kênh sensory:
+  THE ENTIRE POPULATION = continuous spectrum in EACH sensory channel:
 
-  VD AUDITORY (thính giác):
-    Tầng 1 — Sensor (tai vật lý):
+  EXAMPLE AUDITORY (hearing):
+    Tier 1 — Sensor (physical ear):
       → Hearing threshold: -10 dB HL (exceptional) → 0 (typical) → 25+ (loss)
-      → Frequency: 20Hz-20kHz (trẻ) → mất high freq dần theo tuổi
-      → Musicians: pitch discrimination tốt hơn (training effect)
+      → Frequency: 20Hz-20kHz (young) → loses high freq gradually with age
+      → Musicians: pitch discrimination better (training effect)
 
-    Tầng 2 — Processing (não xử lý):
-      → Cùng 80 dB → người này "vừa", người kia "to"
-      → Hyperacusis (KHÔNG liên quan autism): ~6-17% general population
-        (Andersson 2002) — loudness perception mạnh hơn typical
+    Tier 2 — Processing (brain):
+      → Same 80 dB → one person "moderate," another "loud"
+      → Hyperacusis (NOT autism-related): ~6-17% general population
+        (Andersson 2002) — loudness perception stronger than typical
       → Misophonia: specific sounds → strong emotional response
         (~18% UK adults, Vink 2023)
 
-  = KHÔNG AI nghe giống ai 100%
-  = Phổ liên tục: khó nghe ←── typical (range rộng) ──→ nghe quá to
+  = NO ONE hears identically to anyone else
+  = Continuous spectrum: hard to hear ←── typical (wide range) ──→ hears too loud
 
-  AUTISM trên phổ này:
-    → Ở EXTREME END, NHIỀU kênh cùng lúc
-    → VÀ: REDUCED HABITUATION (Green 2015) = yếu tố cộng dồn quan trọng nhất
-    → = Không chỉ gain cao → mà gain cao + KHÔNG GIẢM theo thời gian
-    → = 2 yếu tố CỘNG DỒN: gain extreme + no habituation = overload
-    → = "Khác vị trí trên cùng phổ, ở nhiều kênh cùng lúc"
-         KHÔNG phải "khác loại người"
+  AUTISM on this spectrum:
+    → At EXTREME END, MANY channels simultaneously
+    → AND: REDUCED HABITUATION (Green 2015) = the most important compounding factor
+    → = Not just high gain → but high gain + DOES NOT DECREASE over time
+    → = 2 COMPOUNDING factors: extreme gain + no habituation = overload
+    → = "Different position on the same spectrum, in many channels simultaneously"
+         NOT "a different kind of person"
 ```
 
 ---
 
 ## §3 — MULTISENSORY INTEGRATION
 
-### §3.1 — Temporal Binding Window: gấp đôi
+### §3.1 — Temporal Binding Window: twice as wide
 
 ```
 🟢 Foss-Feig et al. 2010 (Experimental Brain Research 203(2):381-389):
 
   FLASH-BEEP ILLUSION paradigm:
-    → Ánh sáng flash + beep sound presented at varying time intervals
-    → Brain "binds" chúng thành 1 event nếu within temporal window
+    → Light flash + beep sound presented at varying time intervals
+    → Brain "binds" them as 1 event if within temporal window
 
   Result:
     Typical development: TBW ≈ 300ms
     Autism: TBW ≈ 600ms
 
-    = GẤP ĐÔI temporal window
+    = TWICE AS WIDE temporal window
 
   WHAT THIS MEANS:
     → ASD brain treats 2 separate events as "together" even when
@@ -848,10 +876,10 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 ```
 🟢 Stevenson et al. 2014 (Journal of Neuroscience 34(3):691-697):
 
-  KEY FINDING: TBW enlargement KHÔNG uniform across all stimuli:
+  KEY FINDING: TBW enlargement NOT uniform across all stimuli:
     → Simple stimuli (flash-beep): moderate enlargement
     → SPEECH stimuli: LARGEST enlargement
-    → = Complex, social-relevant stimuli suffer MOST
+    → = Complex, socially-relevant stimuli suffer MOST
 
   Perceptual binding strength correlated with:
     → Low-level temporal processing abilities
@@ -890,7 +918,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     ③ Default Mode Network scaffolding
     ④ Amygdala emotional tag as binding cue
 
-  NẾU 1+ mechanism DIFFERENT (not absent — DIFFERENT):
+  IF 1+ mechanism DIFFERENT (not absent — DIFFERENT):
     → Social chunk compilation CASCADE different
     → Social chunks compile with DIFFERENT temporal resolution
     → = "Social difficulty" = DOWNSTREAM of integration difference
@@ -921,7 +949,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → Self-Pattern-Modeling runs on OWN chunk library
     → Different social chunks → different predictions about others
     → Neurotypical predicts using neurotypical social chunks → fails for autistic person
-    → Autistic predicts using own social chunks → fails for neurotypical
+    → Autistic person predicts using own social chunks → fails for neurotypical
     → = BIDIRECTIONAL failure (double empathy, §5.4)
 
   → "Social deficit" reframe: INTEGRATION DIFFERENCE → COMPILATION DIFFERENCE
@@ -993,12 +1021,12 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → Detail focus (§9): high precision on sensory errors → notice fine details
     → Difficulty with ambiguity: ambiguous situations = many prediction errors
       → all treated as important → OVERWHELMING
-    → Skill with rule-based systems: clear rules → few prediction errors → comfortable
+    → Comfort with rule-based systems: clear rules → few prediction errors → comfortable
 
   FRAMEWORK MAPPING:
     → prediction-delta AMPLIFIED
     → Same mismatch → LARGER body-feedback response in autism
-    → = Consistent with insistence on sameness (IS factor from §1.7)
+    → = Consistent with Insistence on Sameness (IS factor from §1.7)
     → = IS = strategy to REDUCE prediction errors (control environment → predictable)
 ```
 
@@ -1022,40 +1050,40 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → = NOT paradox — DIFFERENT levels of hierarchy
 
   FRAMEWORK MAPPING:
-    → Prediction model operates at multiple levels (Core-v7.8-Draft.md)
+    → Prediction model operates at multiple levels
     → Autism: low-level prediction (sensory) = overweighted
     → High-level prediction (social, abstract) = underweighted
     → = Consistent with cascade model (§2.5):
         sensory → rich/detailed chunks | social → sparser chunks
 ```
 
-### §4.4 — Framework position: cả 3 consistent
+### §4.4 — Framework position: all 3 consistent
 
 ```
 🟡 FRAMEWORK SYNTHESIS:
 
-  Plan gốc question: "prediction-delta threshold LOWER vs AMPLIFIED?"
-  Answer sau research: CẢ 3 theories consistent với framework:
+  Original question: "prediction-delta threshold LOWER vs AMPLIFIED?"
+  Answer after research: ALL 3 theories consistent with framework:
 
-  ┌────────────────────┬──────────────────────────┬───────────────────────┐
-  │ Theory             │ Mechanism                │ Framework mapping     │
-  ├────────────────────┼──────────────────────────┼───────────────────────┤
-  │ Hypo-priors        │ Weak predictions →       │ prediction-delta      │
-  │ (Pellicano 2012)   │ more surprise per event  │ FIRES MORE OFTEN     │
-  ├────────────────────┼──────────────────────────┼───────────────────────┤
-  │ HIPPEA             │ Inflexible high-precision │ prediction-delta     │
-  │ (Van de Cruys 2014)│ → every mismatch large   │ AMPLIFIED per event  │
-  ├────────────────────┼──────────────────────────┼───────────────────────┤
-  │ Aberrant Precision │ Precision atypical across │ prediction-delta     │
-  │ (Lawson 2014)      │ hierarchy levels         │ DIFFERS by level     │
-  └────────────────────┴──────────────────────────┴───────────────────────┘
+  ┌──────────────────────┬──────────────────────────┬─────────────────────────┐
+  │ Theory               │ Mechanism                │ Framework mapping       │
+  ├──────────────────────┼──────────────────────────┼─────────────────────────┤
+  │ Hypo-priors          │ Weak predictions →       │ prediction-delta        │
+  │ (Pellicano 2012)     │ more surprise per event  │ FIRES MORE OFTEN        │
+  ├──────────────────────┼──────────────────────────┼─────────────────────────┤
+  │ HIPPEA               │ Inflexible high-precision│ prediction-delta        │
+  │ (Van de Cruys 2014)  │ → every mismatch large   │ AMPLIFIED per event     │
+  ├──────────────────────┼──────────────────────────┼─────────────────────────┤
+  │ Aberrant Precision   │ Precision atypical across│ prediction-delta        │
+  │ (Lawson 2014)        │ hierarchy levels         │ DIFFERS by level        │
+  └──────────────────────┴──────────────────────────┴─────────────────────────┘
 
   ALL 3 → prediction-delta LARGER than typical → larger body-feedback
   → consistent with sensory overload, insistence on sameness, meltdown
 
-  Framework KHÔNG CẦN CHỌN 1:
-    → Ở population level: cả 3 predict cùng behavioral pattern
-    → Ở individual level: WHICH mechanism → DIFFERENT for each person
+  Framework DOES NOT NEED TO CHOOSE 1:
+    → At population level: all 3 predict the same behavioral pattern
+    → At individual level: WHICH mechanism → DIFFERENT for each person
     → = Per-individual measurement needed (EEG/fMRI) to distinguish
     → = Framework can OBSERVE without committing to 1 mechanism
 ```
@@ -1067,23 +1095,23 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 
   IS (Insistence on Sameness) = LOGICAL response to prediction-delta LARGER:
 
-  NẾU prediction-delta lớn hơn typical per-event:
+  IF prediction-delta is larger than typical per-event:
     → STRATEGY 1: reduce NUMBER of unexpected events → ROUTINE
     → STRATEGY 2: control WHICH events occur → SAMENESS
     → STRATEGY 3: prepare prediction in advance → TRANSITION WARNINGS
     → STRATEGY 4: avoid unpredictable environments → AVOIDANCE
 
   → ALL 4 strategies = REDUCE prediction-delta load on body-feedback system
-  → = SELF-REGULATION (giống cortisol-baseline management)
+  → = SELF-REGULATION (like cortisol-baseline management)
   → = NOT "rigid" for no reason — FUNCTIONAL response to architecture
 
   Cross-ref: Cortisol-Baseline.md v2.0:
     → Cortisol = amplifier. Prediction-delta = input to amplifier.
     → Larger input × same amplifier = larger cortisol response
-    → = Double whammy if ALSO cortisol-sensitive
+    → = Double impact if ALSO cortisol-sensitive
 
   → Disrupting routine = removing REGULATORY strategy
-  → = Like removing wheelchair from person who can't walk
+  → = Like removing wheelchair from person who cannot walk
   → Support: PROVIDE routine + PREPARE for transitions
     (not "teach to be flexible" — address ROOT: prediction-delta load)
 ```
@@ -1092,57 +1120,58 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 
 ## §5 — Self-Pattern-Modeling DEVELOPMENT: Compiled/Fresh + DOUBLE EMPATHY
 
-### §5.1 — Compiled (feeling) vs Fresh (logic): 2 functions của Self-Pattern-Modeling
+### §5.1 — Compiled (feeling) vs Fresh (logic): 2 functions of Self-Pattern-Modeling
 
 ```
 🟡 Self-Pattern-Modeling.md v2.3:
 
   Self-Pattern-Modeling = solo forward simulation mechanism
-  2 FUNCTIONS chạy SONG SONG:
+  2 FUNCTIONS running IN PARALLEL:
 
-  Compiled — FEELING: body simulate trạng thái TARGET agent
-    → Body fire bản sao YẾU trạng thái người khác
-    → "Bạn thấy bạn khóc → body bạn buồn nhẹ" = Compiled
+  Compiled — FEELING: body simulates the state of TARGET agent
+    → Body fires a WEAK copy of another person's state
+    → "You see your friend crying → your body feels slightly sad" = Compiled
 
-  Fresh — LOGIC: PFC chain predict BEHAVIOR target agent
-    → Logic predict: "bạn buồn vì chia tay → chắc muốn ai đó lắng nghe" = Fresh
+  Fresh — LOGIC: PFC chains predict TARGET agent's BEHAVIOR
+    → Logic predicts: "your friend is sad because of a breakup →
+      probably wants someone to listen" = Fresh
 
-  Per-Agent Valence (❸) quyết định HƯỚNG:
+  Per-Agent Valence (❸) determines DIRECTION:
     → ❸ positive: Compiled = empathy, Fresh = help
     → ❸ negative: Compiled = reversed (Schadenfreude), Fresh = attack
-    → ❸ extreme negative: Compiled TẮT = dehumanization
+    → ❸ extreme negative: Compiled TURNS OFF = dehumanization
 
-  → CÙNG mechanism tạo empathy, strategic prediction, VÀ Schadenfreude
-  → KHÔNG phải 4 hệ thống khác nhau — 1 mechanism × 2 functions × valence spectrum
+  → SAME mechanism creates empathy, strategic prediction, AND Schadenfreude
+  → NOT 4 different systems — 1 mechanism × 2 functions × valence spectrum
 ```
 
-### §5.2 — Observation: Compiled pathway KHÁC, not absent
+### §5.2 — Observation: Compiled pathway DIFFERENT, not absent
 
 ```
 🟡 FRAMEWORK OBSERVATION:
 
   Common narrative: "autistic people lack empathy"
-  Framework OBSERVE khác:
+  Framework OBSERVES differently:
 
   Fresh (Logic prediction):
-    → Nhiều autistic people có Fresh STRONG
+    → Many autistic people have STRONG Fresh
     → Systematic pattern detection, logical prediction = strength
-    → VD: predict people's behavior dựa trên RULES → có thể CHÍNH XÁC
-       nhưng KHÁC cách neurotypical predict (neurotypical dùng Compiled body-intuition nhiều hơn)
+    → Example: predict people's behavior based on RULES → can be ACCURATE
+       but DIFFERENT from how neurotypical predicts (neurotypical uses Compiled body-intuition more)
 
   Compiled (Feeling simulation):
     → Compiled pathway DIFFERENT, not ABSENT
-    → Evidence: nhiều autistic people REPORT strong emotional responses
-    → "Quá nhiều feeling, không phải quá ít" — common self-report
+    → Evidence: many autistic people REPORT strong emotional responses
+    → "Too much feeling, not too little" — common self-report
     → BUT: difficulty LABELING (§7 alexithymia) → looks like "no empathy" from outside
     → AND: difficulty EXPRESSING conventionally → neurotypical observers misread
 
-  → "Thiếu empathy" = OBSERVATION ERROR by outsiders
+  → "Lacks empathy" = OBSERVATION ERROR by outsiders
   → = Compiled fires DIFFERENTLY + expression DIFFERENTLY
   → ≠ Compiled ABSENT
 ```
 
-### §5.3 — "Thiếu empathy" = BUSTED by research
+### §5.3 — "Lacks empathy" = BUSTED by research
 
 ```
 🟢 Bird & Cook 2013 (Translational Psychiatry 3:e285):
@@ -1173,7 +1202,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → = 2 INDEPENDENT constructs that happen to co-occur at high rate
 ```
 
-### §5.4 — Double empathy problem
+### §5.4 — Double Empathy Problem
 
 ```
 🟢 Milton 2012 (Disability & Society 27(6):883-887):
@@ -1181,13 +1210,14 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
   CORE INSIGHT:
     → Traditional: "autistic people fail to understand non-autistic"
     → Milton: communication breakdown is BIDIRECTIONAL
-    → Non-autistic ALSO fail to understand autistic people
-    → = "Double empathy PROBLEM" — not one-sided deficit
+    → Non-autistic people ALSO fail to understand autistic people
+    → = "Double Empathy PROBLEM" — not one-sided deficit
 
 🟢 Crompton et al. 2020 (Autism 24(7):1704-1712):
   → "Telephone game" experiment:
     → Information chains: Autistic↔Autistic, Neurotypical↔Neurotypical, Mixed
-    → Autistic↔Autistic chains = SAME information transfer quality as Neurotypical↔Neurotypical
+    → Autistic↔Autistic chains = SAME information transfer quality
+      as Neurotypical↔Neurotypical
     → Mixed chains = DEGRADED
     → = Problem is at INTERFACE, not in either group
 
@@ -1200,9 +1230,12 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
   FRAMEWORK MAPPING:
     → Self-Pattern-Modeling runs on OWN chunk library (Self-Pattern-Modeling.md v2.3 §4)
     → Neurotypical chunks ≠ autistic chunks (different sensory → different compilation)
-    → Neurotypical Self-Pattern-Modeling applied to autistic person → poor prediction (wrong template)
-    → Autistic Self-Pattern-Modeling applied to neurotypical → poor prediction (wrong template)
-    → Autistic Self-Pattern-Modeling applied to autistic → GOOD prediction (matching template)
+    → Neurotypical Self-Pattern-Modeling applied to autistic person →
+      poor prediction (wrong template)
+    → Autistic Self-Pattern-Modeling applied to neurotypical →
+      poor prediction (wrong template)
+    → Autistic Self-Pattern-Modeling applied to autistic person →
+      GOOD prediction (matching template)
     → = CHUNK LIBRARY MISMATCH, not ability deficit
 
   → Solution ≠ "teach autistic people to understand neurotypical"
@@ -1265,17 +1298,17 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → Eye contact = INTENSE multi-modal social input
       (face + eye direction + emotional state + prediction demands)
     → Autistic brain: this input → LARGER body-feedback response
-    → Avoidance = REGULATION, same as covering ears in loud environment
+    → Avoidance = REGULATION, same as covering ears in a loud environment
     → Forcing eye contact = forcing body-feedback OVERLOAD
 ```
 
-### §5.7 — ToM critique
+### §5.7 — Theory of Mind critique
 
 ```
 🟢 Gernsbacher & Yergeau 2019 (Archives of Scientific Psychology 7(1):102-118):
 
   KEY FINDINGS:
-    → Theory of Mind "deficit" in autism = NOT supported by evidence consistently
+    → Theory of Mind "deficit" in autism = NOT consistently supported by evidence
     → HALF the variance in ToM performance predicted by LANGUAGE ability
     → Many original studies FAILED TO REPLICATE
     → False-belief task performance varies ENORMOUSLY within ASD
@@ -1299,7 +1332,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 ```
 🟡 Chevallier et al. 2012 (TiCS 16(4):231-239):
   → Social motivation theory: reduced social orienting + social seeking + social maintaining
-  → INFLUENTIAL nhưng contested
+  → INFLUENTIAL but contested
 
   Current status: likely BOTH motivation AND ability AND context:
     → Some autistic people: HIGH social motivation + difficulty with neurotypical social norms
@@ -1310,7 +1343,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
   Crompton 2020/2025: autistic-autistic social interaction = EFFECTIVE
     → = Social motivation exists, CONTEXT matters
     → Reduced motivation for neurotypical social interaction ≠ reduced social motivation GENERALLY
-    → = May be LEARNED response to repeated social failure in neurotypical-dominant environments
+    → May be LEARNED response to repeated social failure in neurotypical-dominant environments
 
   FRAMEWORK:
     → Connection.md v3.1: ❶ Hardware social drive = body-level NEED
@@ -1367,7 +1400,8 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → Identity confusion: "I don't know who I really am anymore"
     → Late/missed diagnosis: "I seemed fine so no one noticed"
     → Mental health decline: anxiety, depression, burnout
-    → Loss of sense of self: Self-Pattern-Modeling self-chunks = compiled PERFORMANCE, not authentic self
+    → Loss of sense of self: Self-Pattern-Modeling self-chunks = compiled PERFORMANCE,
+      not authentic self
 ```
 
 ### §6.3 — Gender differences: women mask MORE
@@ -1436,10 +1470,17 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
       ⑤ All of above SIMULTANEOUSLY = compound on compound
 
   Cortisol-Baseline.md v2.0:
-    → Chronic mismatch → cortisol accumulates
+    → Chronic mismatch → cortisol accumulates (AMPLIFIER role)
     → Cortisol = amplifier → amplifies ALL body-feedback
     → = VICIOUS CYCLE: masking → cortisol → more sensitive → need MORE masking
     → Explains burnout: cycle eventually EXCEEDS capacity → collapse
+
+  ⚠️ Cortisol role here = AMPLIFIER of masking cascade:
+    → Cortisol does NOT cause autism
+    → Cortisol does NOT cause masking
+    → Cortisol AMPLIFIES the cost of masking by heightening body-feedback sensitivity
+    → Primary cause of mental health cascade = chronic prediction-delta mismatch
+      (masking mechanism) → cortisol = amplifier of this cascade
 
   → Masking = compensation strategy compiled at BODY COST
   → Short-term: functional (survive the meeting, get through school)
@@ -1459,7 +1500,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → = Current diagnostic tools biased toward MALE presentation
 
   Late diagnosis → identity re-compile:
-    → "Ah, tất cả explained" → Self-Pattern-Modeling self-chunks SHIFT
+    → "Ah, everything explained" → Self-Pattern-Modeling self-chunks SHIFT
     → Can be RELIEF: "I'm not broken, I'm configured differently"
     → Can be CRISIS: "I've been performing someone else my whole life"
     → Can be BOTH simultaneously
@@ -1550,20 +1591,20 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 🟡 FRAMEWORK SYNTHESIS:
 
   Feeling.md v2.1:
-    → Feeling = WHAT PFC SEES khi observe body-chunk interaction
-    → Body xử lý TRƯỚC. Feeling xuất hiện. PFC observe SAU.
-    → Thứ tự KHÔNG bao giờ đảo ngược.
+    → Feeling = WHAT PFC SEES when observing body-chunk interaction
+    → Body processes FIRST. Feeling emerges. PFC observes AFTER.
+    → Order NEVER reverses.
 
   Alexithymia = difficulty at OBSERVATION stage:
-    → Body-feedback signals VẪN FIRE (body-base alive, responsive)
+    → Body-feedback signals STILL FIRE (body-base alive, responsive)
     → Sensory input → body-feedback → signals EXIST
     → PFC observation: "something happening in body" = VAGUE, undifferentiated
     → Cannot chunk body-feedback into LABELS (sad, angry, tired, anxious)
     → = Somatic-Articulation-Loop.md: body knowledge without words
 
   Somatic-Articulation-Loop.md:
-    → "Bịa" = body KNOWS without words (Gendlin Focusing terminology)
-    → Alexithymia = EXTREME case of this:
+    → "Felt sense" = body KNOWS without words (Gendlin Focusing terminology)
+    → Alexithymia = EXTREME case:
       body KNOWS (signals fire) but PFC CANNOT articulate
     → NOT "no feelings" — "no LABELS for feelings"
     → = CAN feel distressed without knowing WHY or being able to SAY
@@ -1610,7 +1651,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 ### §8.1 — Prevalence + positive framing
 
 ```
-🟢 Special interests (Special Interests) — near-universal and POSITIVE:
+🟢 Special Interests — near-universal and POSITIVE:
 
   Prevalence:
     → Klin et al. 2007: 75% preschool, 88% elementary, 90%+ adults
@@ -1641,9 +1682,9 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 
   Gap = f(surrounding chunk network structure)
   → Gap has DIRECTION — depends on what chunks already exist around it
-  → "Chưa biết = không có gap" — cannot miss what you don't know exists
+  → "Not yet known = no gap yet" — cannot miss what you don't know exists
 
-  AUTISTIC SPECIAL INTERESTS qua Gap-Direction:
+  AUTISTIC SPECIAL INTERESTS through Gap-Direction:
     → Typical: gap-direction DISTRIBUTED across many domains
     → = Many shallow gaps → attention distributed → breadth
     → Autistic Special Interests: gap-direction CONCENTRATED into narrow domain
@@ -1658,7 +1699,8 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 
   REWARD:
     → 03-Reward.md: Body-Feedback-Precondition 5 preconditions for reward
-    → Special Interests domain: all Body-Feedback-Precondition met (gap exists, direction clear, stimulus matches)
+    → Special Interests domain: all preconditions met (gap exists, direction clear,
+      stimulus matches)
     → = GENUINE REWARD fires (opioid, endorphin) — not illusory
     → = Autistic person in Special Interests domain = body experiencing real reward
     → = "Obsessive" framing misses: this is architecture WORKING, not failing
@@ -1675,9 +1717,10 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → Autism = monotropic tendency on attention allocation spectrum
 
   EXPLAINS:
-    → Special interests: attention CONCENTRATED (monotropic)
+    → Special Interests: attention CONCENTRATED (monotropic)
     → Sensory sensitivity: attention deeply focused → sensory RICH in focused area
-    → Social difficulty: social requires RAPID polytropism (switch between many streams)
+    → Social difficulty: social requires RAPID polytropism
+      (switch between many streams)
     → Distress at interruption: redirecting from deep focus = EFFORTFUL + painful
     → Inertia: difficulty SWITCHING between attention foci
 
@@ -1695,28 +1738,28 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → Both point to: attention concentrated → depth at cost of breadth
 ```
 
-### §8.4 — KHÁC OCD: cùng "intense focus" nhưng khác mechanism
+### §8.4 — DIFFERENT from OCD: same "intense focus" but different mechanism
 
 ```
 🟡 FRAMEWORK DISTINCTION (OCD-Analysis.md v2.1):
 
   OCD = "done" pipeline FAILURE:
-    → Action completed → "done" signal NOISY → body: "CHƯA CHẮC"
-    → Repeat → still noisy → repeat → loop INFINITE
-    → = Body says "CHƯA XONG" khi ĐÃ XONG
+    → Action completed → "done" signal NOISY → body: "NOT SURE"
+    → Repeat → still noisy → repeat → INFINITE loop
+    → = Body says "NOT DONE" when it IS DONE
     → = FAILURE in completion detection
 
   Special Interest = genuine gap FILL:
     → Gap exists in chunk network → stimulus matches direction → fill
     → Reward fires → satisfaction → continue to NEXT gap
-    → = Body says "CHƯA XONG" vì THẬT SỰ CHƯA XONG (gap còn)
+    → = Body says "NOT DONE" because it GENUINELY IS NOT DONE (gap still there)
     → = SUCCESS in gap detection + reward mechanism
 
   COMPARISON:
   ┌─────────────────┬──────────────────────┬──────────────────────┐
   │                 │ OCD                  │ Special Interest     │
   ├─────────────────┼──────────────────────┼──────────────────────┤
-  │ Core mechanism  │ "Done" signal fail   │ Gap-direction fill   │
+  │ Core mechanism  │ "Done" signal fails  │ Gap-direction fill   │
   │ Feeling         │ Anxiety (must redo)  │ Engagement (want to) │
   │ Completion      │ NEVER feels done     │ Feels done per-step  │
   │ Reward          │ Temporary RELIEF     │ Genuine REWARD       │
@@ -1725,8 +1768,9 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
   │ Intervention    │ ERP, medication      │ SUPPORT, not suppress│
   └─────────────────┴──────────────────────┴──────────────────────┘
 
-  → Cùng "intense, repeated engagement" nhưng mechanism HOÀN TOÀN KHÁC
-  → Conflating them = harmful: suppressing Special Interests like treating OCD = removing REWARD + COPING
+  → Same "intense, repeated engagement" but mechanism COMPLETELY DIFFERENT
+  → Conflating them = harmful: suppressing Special Interests like treating OCD =
+    removing REWARD + COPING
 ```
 
 ### §8.5 — Employment + life integration
@@ -1741,8 +1785,9 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → More sustainable employment
 
   SUPPRESSING Special Interests:
-    → Removes calming mechanism (92% report Special Interests calming — Patten Koenig 2017)
-    → Removes reward source (genuine Body-Feedback-Precondition reward fires in Special Interests domain)
+    → Removes calming mechanism (92% report Special Interests calming
+      — Patten Koenig 2017)
+    → Removes reward source (genuine reward fires in Special Interests domain)
     → Removes identity anchor (Special Interests = core part of self-chunks)
     → = TRIPLE loss: coping + reward + identity
 
@@ -1823,7 +1868,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → = Enhancement in local processing, not deficit in global
 
   FRAMEWORK:
-    → Sensitivity-Classification.md: Processing tầng 2 = DOMINANT per-modality
+    → Sensitivity-Classification.md: Processing tier 2 = DOMINANT per-modality
     → Detail-focused = processing depth HIGH for local features
     → = Sensory gain HIGH (§2) → more raw detail → processing ENGAGES detail
     → When task REQUIRES global → CAN shift (but less default, more effortful)
@@ -1834,15 +1879,15 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 ```
 🟡 FRAMEWORK SYNTHESIS:
 
-  Strengths KHÔNG PHẢI "despite autism" — mà BECAUSE OF configuration:
+  Strengths NOT "despite autism" — but BECAUSE OF configuration:
 
   GAIN HIGH (§2) → MORE raw perceptual data → enhanced low-level processing
     → Superior pitch discrimination, visual search, texture detection
-    → = Mottron principle ①③
+    → = Mottron principles ①③
 
   MONOTROPISM (§8.3) → CONCENTRATED attention → deep compile
     → Expert-level knowledge in Special Interests domain
-    → = Mottron principle ⑥⑦
+    → = Mottron principles ⑥⑦
 
   Fresh STRONG (§5.2) → systematic PATTERN DETECTION
     → Rule discovery, logical analysis, mathematical thinking
@@ -1865,7 +1910,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 
 ---
 
-## §10 — MELTDOWN/SHUTDOWN QUA BODY-FEEDBACK LENS
+## §10 — MELTDOWN/SHUTDOWN THROUGH BODY-FEEDBACK LENS
 
 ### §10.1 — Meltdown: OVERFLOW, not tantrum
 
@@ -1975,7 +2020,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 ```
 🟡 FRAMEWORK ANALYSIS:
 
-  Body-feedback must DRAIN before PFC re-engage:
+  Body-feedback must DRAIN before PFC re-engages:
     → After meltdown: cortisol + NE + body-feedback ELEVATED
     → PFC recovery = not instant (needs body-feedback to DECREASE first)
     → Body-first invariant (Feeling.md): body state → PFC capacity
@@ -2006,18 +2051,19 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 ```
 🟡 Child-Development-Mechanism.md v1.0:
 
-  → CÙNG kiến trúc với người lớn
-  → Cùng Perception-Action Cycle. Cùng chunk substrate.
-  → Chỉ KHÁC: chunk density
-  → Trẻ sơ sinh: gần zero chunks → MỌI THỨ là mới → mọi loop = learning
+  → SAME architecture as adults
+  → Same Perception-Action Cycle. Same chunk substrate.
+  → Only DIFFERENT: chunk density
+  → Newborn: near-zero chunks → EVERYTHING is new → every loop = learning
 
   AUTISTIC DEVELOPMENT:
-    → CÙNG framework applies — same architecture, same cycle
-    → KHÁC: sensory gain settings từ đầu → cascade từ birth
+    → SAME framework applies — same architecture, same cycle
+    → DIFFERENT: sensory gain settings from the start → cascade from birth
     → 4+1 channel compile: Visual / Auditory / Motor / Interoceptive / Social
     → Autistic: channels compile at DIFFERENT RATES, different DEPTH
-    → KHÔNG "delayed" — DIFFERENT PATHWAY, different timeline
-    → VD: visual compile RICHER (gain high) + social compile SLOWER (integration different)
+    → NOT "delayed" — DIFFERENT PATHWAY, different timeline
+    → Example: visual compile RICHER (high gain) + social compile SLOWER
+      (integration different)
 ```
 
 ### §11.2 — Early signs (12-18 months)
@@ -2089,10 +2135,10 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → Masking demands INCREASE (fitting in becomes higher stakes)
     → Self-awareness INCREASES → comparison with neurotypical peers → gap VISIBLE
     → Identity formation period → "Why am I different?" → can be crisis
-    → Accumulated masking cost (§6.5) → cortisol chronic → mental health cascade
+    → Accumulated masking cost (§6.5) → chronic cortisol → mental health cascade
 
   → Adolescence = CONVERGENCE of multiple risk factors simultaneously
-  → NOT "autism gets worse" — DEMANDS increase while resources remain same
+  → NOT "autism gets worse" — DEMANDS increase while resources remain the same
 ```
 
 ### §11.5 — Adult outcomes + aging
@@ -2141,7 +2187,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 
   PARALLEL with ADHD (ADHD-Observation.md §10.4):
     → Same mechanism: late diagnosis → identity chunk shift
-    → "Ah, tất cả explained" → relief + grief + anger (compound)
+    → "Ah, everything explained" → relief + grief + anger (compound)
     → Relief: "I'm not broken"
     → Grief: "All those years of struggling without understanding"
     → Anger: "Why did no one catch this?"
@@ -2156,84 +2202,84 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 ```
 🟢 Fein et al. 2013 (JCPP):
 
-  "OPTIMAL OUTCOME" — autism diagnosis MẤT:
-    → 34 người chẩn đoán autism trước 5 tuổi
-    → Lớn lên KHÔNG CÒN meet diagnostic criteria
-    → Match typical peers trên socialization, communication, face recognition
+  "OPTIMAL OUTCOME" — autism diagnosis LOST:
+    → 34 people diagnosed with autism before age 5
+    → Grown up NO LONGER meeting diagnostic criteria
+    → Match typical peers on socialization, communication, face recognition
     → Prevalence across studies: 4-13%
 
-  PREDICTORS (ai likely "optimal outcome"):
-    → Chẩn đoán SỚM (<31 tháng)
-    → Cognitive ability cao hơn
-    → Social symptoms nhẹ hơn lúc đầu
-    → Giảm repetitive behaviors sớm (2-3 tuổi)
-    → Intervention SỚM + INTENSIVE
+  PREDICTORS (who is likely "optimal outcome"):
+    → Early diagnosis (<31 months)
+    → Higher cognitive ability
+    → Milder social symptoms at onset
+    → Reduced repetitive behaviors early (ages 2-3)
+    → EARLY + INTENSIVE intervention
 
   ⚠️ CAVEAT:
-    → "Optimal outcome" ≠ "hết autism"
-    → Vẫn còn executive function weakness + anxiety/depression vulnerability
-    → Có thể = MASKING very effectively (§6) thay vì thật sự thay đổi
-    → Hoặc = configuration nhẹ + support tốt → compile đủ social chunks
+    → "Optimal outcome" ≠ "autism is gone"
+    → Executive function weakness + anxiety/depression vulnerability still present
+    → May = MASKING very effectively (§6) rather than genuine change
+    → OR = mild configuration + good support → compile sufficient social chunks
 ```
 
 ```
 🟢 CASE TEMPLE GRANDIN — label + protection:
 
-  1947: sinh ra. Không nói đến ~4 tuổi.
-  1949: chẩn đoán "brain damage" (term thời 1950s cho autism)
+  1947: born. Did not speak until ~age 4.
+  1949: diagnosed "brain damage" (term used in the 1950s for autism)
 
-  BÁC SĨ + BỐ: khuyên ĐƯA VÀO VIỆN (institutional care)
-    → Standard practice thập niên 50
-    → = Deprivation pathway (§1.9 ③) TRÊN NỀN configuration autism
+  DOCTOR + FATHER: recommended INSTITUTIONAL CARE
+    → Standard practice in the 1950s
+    → = Deprivation pathway (§1.9 ③) ON TOP OF autism configuration
 
-  MẸ (Eustacia Cutler): TỪ CHỐI.
-    → Tìm neurologist khác → speech therapy 3x/tuần từ 2.5 tuổi
-    → Dạy social skills thủ công (manners, turn-taking, ăn mặc, đúng giờ)
-    → Vào mainstream kindergarten ~4 tuổi
-    → Bố mẹ ly hôn vì bất đồng quyết định này
+  MOTHER (Eustacia Cutler): REFUSED.
+    → Found different neurologist → speech therapy 3x/week from age 2.5
+    → Manually taught social skills (manners, turn-taking, dress, punctuality)
+    → Entered mainstream kindergarten ~age 4
+    → Parents divorced over disagreement on this decision
 
-  KẾT QUẢ: Professor, cách mạng hóa ngành chăn nuôi,
+  OUTCOME: Professor, revolutionized the livestock industry,
     TED speaker, Time 100 Most Influential (2010)
 
   FRAMEWORK INSIGHT:
-    → Grandin CÓ label nhưng mẹ BẢO VỆ khỏi hệ quả label
-    → Label → viện = label + deprivation = compound (§1.9)
-    → Label → support đúng cách = label + INPUT = configuration phát triển
-    → = MÁC không quyết định — CÁCH ĐỐI XỬ sau khi có mác mới quyết định
+    → Grandin HAD label but mother PROTECTED from label's consequences
+    → Label → institution = label + deprivation = compound (§1.9)
+    → Label → correct support = label + INPUT = configuration develops
+    → = LABEL does not determine — HOW TO RESPOND after the label does
 ```
 
 ```
 🟡 THE LABELING PARADOX:
 
-  POSITIVE (có label):
-    → Hiểu bản thân → identity formation → community belonging
+  POSITIVE (having label):
+    → Understanding oneself → identity formation → community belonging
     → Cooper et al. 2023 (PMC): autistic identity → LOWER depression
     → Access support, accommodation, resources
     → "I'm not broken — I'm configured differently"
 
-  NEGATIVE (có label):
-    → Lowered expectations từ người xung quanh
+  NEGATIVE (having label):
+    → Lowered expectations from those around
     → Hornstra 2023: "Golem effect" — teacher expectations shaped by label
-    → Self-fulfilling: "I can't because autism" → giảm effort → confirm label
+    → Self-fulfilling: "I can't because autism" → reduced effort → confirms label
     → AMA Journal of Ethics 2015: "The Autism Paradox"
 
-  LATE-DIAGNOSED SUCCESSFUL ADULTS (phát triển KHÔNG CÓ label):
-    → Anthony Hopkins: diagnosed ~80 tuổi (2017). Career already legendary.
-    → Susan Boyle: diagnosed 61 tuổi (2022). Global fame từ 2009.
+  LATE-DIAGNOSED SUCCESSFUL ADULTS (developed WITHOUT label):
+    → Anthony Hopkins: diagnosed ~age 80 (2017). Career already legendary.
+    → Susan Boyle: diagnosed age 61 (2022). Global fame since 2009.
     → Wentworth Miller: adult diagnosis (2021). Actor, writer.
-    → = Tất cả phát triển KHÔNG bị label constrain → build career →
-      diagnosis SAU = identity enrichment, not limitation
+    → = All developed WITHOUT label constraining them → built career →
+      diagnosis LATER = identity enrichment, not limitation
 
-  FRAMEWORK SYNTHESIS — KHÔNG CÓ answer đúng cho tất cả:
-    → Label SỚM + support TỐT = best case (Grandin model)
-    → Label SỚM + support KÉM = worst case (institutional, self-fulfilling)
-    → Không label + develop freely = some thành công (Hopkins model)
-    → Không label + struggle alone = accumulated damage + late diagnosis grief
+  FRAMEWORK SYNTHESIS — NO one answer fits all:
+    → Label EARLY + support GOOD = best case (Grandin model)
+    → Label EARLY + support POOR = worst case (institutional, self-fulfilling)
+    → No label + develop freely = some succeed (Hopkins model)
+    → No label + struggle alone = accumulated damage + late diagnosis grief
 
-    → QUẾ ĐỊNH KHÔNG PHẢI "có label hay không"
-    → QUYẾT ĐỊNH = "sau label (hoặc không label), ENVIRONMENT thế nào?"
-    → = Cùng insight §1.9: OUTPUT phụ thuộc vào INPUT (support, environment)
-      nhiều hơn phụ thuộc vào label
+    → THE DECISION IS NOT "label or no label"
+    → THE DECISION = "after label (or no label), what is the ENVIRONMENT like?"
+    → = Same insight as §1.9: OUTPUT depends on INPUT (support, environment)
+      more than it depends on the label
 ```
 
 ---
@@ -2246,14 +2292,14 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 🟢 Rommelse et al. 2010 (Eur Child Adolesc Psychiatry 19(3):281-295):
 
   Co-occurrence rates:
-    → 20-50% trẻ ADHD đáp ứng criteria cho ASD
-    → 30-80% trẻ ASD đáp ứng criteria cho ADHD
+    → 20-50% children with ADHD meet criteria for ASD
+    → 30-80% children with ASD meet criteria for ADHD
     → Genetic overlap: 50-72% shared contributing genetic factors
     → = NOT coincidence — shared genetic architecture
 
   Historical:
-    → DSM-IV (1994): KHÔNG THỂ chẩn đoán cả hai simultaneously
-    → DSM-5 (2013): exclusion BỎ → dual diagnosis allowed
+    → DSM-IV (1994): COULD NOT diagnose both simultaneously
+    → DSM-5 (2013): exclusion REMOVED → dual diagnosis allowed
     → = Before 2013, co-occurring ADHD+Autism was INVISIBLE in clinical data
 ```
 
@@ -2263,10 +2309,10 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 🟡 FRAMEWORK SYNTHESIS — 2-DIMENSIONAL MODEL:
 
   DIMENSION 1: CONFIGURATION (Autism spectrum)
-    → Sensory processing GAIN settings khác
-    → Self-Pattern-Modeling Compiled/Fresh balance khác
-    → Multisensory integration khác
-    → TBW parameters khác
+    → Sensory processing GAIN settings different
+    → Self-Pattern-Modeling Compiled/Fresh balance different
+    → Multisensory integration different
+    → TBW parameters different
     → = HOW the system is WIRED (structural, from birth)
 
   DIMENSION 2: TUNING (ADHD spectrum)
@@ -2276,7 +2322,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → NE sensitivity balance
     → = HOW FAST/SLOW the system PROCESSES (regulatory)
 
-  2 dimensions INDEPENDENT → có thể OVERLAP:
+  2 dimensions INDEPENDENT → can OVERLAP:
 
   ┌─────────────────┬───────────────────┬──────────────────────┐
   │                 │ Config typical    │ Config different     │
@@ -2290,7 +2336,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
   └─────────────────┴───────────────────┴──────────────────────┘
 
   = 4 quadrants — SIMPLIFIED model. Reality = higher-dimensional.
-  ADHD v1.2 sẽ refine model này sau file này.
+  ADHD v1.2 will refine this model after this file.
 ```
 
 ### §12.3 — Overlap vs Distinction
@@ -2298,23 +2344,23 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 ```
 🟡 FRAMEWORK COMPARISON TABLE:
 
-  Feature           │ ADHD                    │ Autism
-  ──────────────────│─────────────────────────│──────────────────────────
-  Social difficulty  │ IMPULSIVE (nói sai lúc, │ PROCESSING (đọc signal
-                    │ ngắt lời, miss cues     │ khác biệt, chunk mismatch)
-                    │ vì distracted)          │
-  Focus             │ THRESHOLD-gated         │ INTEREST-deep (monotropic,
-                    │ (novelty-dependent)     │ Special Interests = concentrated)
-  Routine           │ KHÓ maintain            │ ƯU TIÊN (prediction-delta
-                    │ (boring = can't sustain)│ reduction strategy)
-  Sensory           │ TÌM KIẾM stimulation   │ QUẢN LÝ stimulation
-                    │ (under-stimulated)      │ (gain mixed, habituation reduced)
-  Emotional         │ PFC regulation CHẬM     │ Alexithymia ~50% (đọc
-                    │ (feel, regulate khó)    │ body signal khó)
-  Time              │ TIME BLIND (không track) │ Time RIGID (cần predict)
-  Core mechanism    │ Dopamine signal SHORT   │ Sensory gain + integration DIFFERENT
-  Treatment         │ Medication COMPENSATES   │ Support + environment + acceptance
-                    │ regulation tuning       │ (no medication for "core" autism)
+  Feature             │ ADHD                        │ Autism
+  ────────────────────│─────────────────────────────│─────────────────────────────
+  Social difficulty   │ IMPULSIVE (says wrong thing, │ PROCESSING (reads signals
+                      │ interrupts, misses cues      │ differently, chunk mismatch)
+                      │ because distracted)          │
+  Focus               │ THRESHOLD-gated              │ INTEREST-deep (monotropic,
+                      │ (novelty-dependent)          │ Special Interests = concentrated)
+  Routine             │ HARD to maintain             │ PREFERRED (prediction-delta
+                      │ (boring = cannot sustain)    │ reduction strategy)
+  Sensory             │ SEEKING stimulation          │ MANAGING stimulation
+                      │ (under-stimulated)           │ (gain mixed, habituation reduced)
+  Emotional           │ PFC regulation SLOW          │ Alexithymia ~50% (reading
+                      │ (feel, regulate difficult)   │ body signals difficult)
+  Time                │ TIME BLIND (cannot track)    │ Time RIGID (needs prediction)
+  Core mechanism      │ Dopamine signal SHORT        │ Sensory gain + integration DIFFERENT
+  Treatment           │ Medication COMPENSATES       │ Support + environment + acceptance
+                      │ regulation tuning            │ (no medication for "core" autism)
 
   BOTH have co-occurring:
     → Executive function differences (though different mechanism)
@@ -2398,7 +2444,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
   │    ↓                                                       │
   │ Body-feedback LOAD higher (§2, §3, §4)                    │
   │    ↓                                                       │
-  │ Masking to cope (§6) → chronic cortisol                   │
+  │ Masking to cope (§6) → chronic cortisol (AMPLIFIER)       │
   │    ↓                                                       │
   │ Anxiety (prediction-delta) + Depression (withdrawal)       │
   │    ↓                                                       │
@@ -2425,7 +2471,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 P1: SENSORY → CHUNK (§2)
   Sensory profile → predict chunk compilation bias
   Gain pattern → predict which domains compile deep vs sparse
-  🔴 Hypothesis — cần longitudinal study per-individual
+  🔴 Hypothesis — needs longitudinal study per-individual
 
 P2: TBW → SOCIAL (§3)
   TBW magnitude → predict social difficulty magnitude
@@ -2435,7 +2481,7 @@ P2: TBW → SOCIAL (§3)
 P3: PREDICTIVE CODING (§4)
   Predictive coding type → predict environmental sensitivity pattern
   Hypo-priors vs HIPPEA → different accommodation needs
-  🔴 Hypothesis — cần per-individual fMRI + behavioral testing
+  🔴 Hypothesis — needs per-individual fMRI + behavioral testing
 
 P4: Compiled/Fresh → SOCIAL STYLE (§5)
   Compiled/Fresh balance → predict social interaction style
@@ -2454,7 +2500,7 @@ P6: Special Interests → REWARD (§8)
 
 P7: MASKING → MENTAL HEALTH (§6)
   Masking level → predict mental health cost (inverse)
-  Higher masking → higher cortisol chronic → worse outcomes
+  Higher masking → higher chronic cortisol → worse outcomes
   🟡 Supported cross-sectionally (Cook 2021, Cage 2019)
 
 P8: MONOTROPISM → Special Interests + OVERWHELM (§8.3)
@@ -2499,7 +2545,7 @@ Framework generates predictions — DOES NOT confirm them.
   → Predictive coding → prediction-delta LARGER (3 theories consistent)
   → Compiled/Fresh balance reframe (not deficit — different pathway)
   → Meltdown/shutdown as body-feedback OVERLOAD + PFC offline
-  → Masking = chronic prediction-delta mismatch → cortisol → burnout
+  → Masking = chronic prediction-delta mismatch → cortisol (AMPLIFIER) → burnout
   → Co-occurring conditions = CASCADE from architecture under load
   → Special Interests = gap-direction CONCENTRATED → architecture feature
   → Stimming = body-feedback DRAIN mechanism
@@ -2520,23 +2566,24 @@ Framework generates predictions — DOES NOT confirm them.
 ### §15.2 — Limitations
 
 ```
-Framework CÓ THỂ:
-  + Cung cấp observation lens (reframe "deficit" → "configuration")
-  + Map mechanisms lên kiến trúc đã có
+Framework CAN:
+  + Provide observation lens (reframe "deficit" → "configuration")
+  + Map mechanisms onto existing architecture
   + Generate testable hypotheses (P1-P8)
-  + Giải thích paradoxes (sensory strength + social difficulty = same config)
-  + Connect autism to broader framework (chunk, Self-Pattern-Modeling, body-feedback, prediction)
+  + Explain paradoxes (sensory strength + social difficulty = same config)
+  + Connect autism to broader framework (chunk, Self-Pattern-Modeling,
+    body-feedback, prediction)
   + Identify WHERE to support (sensory environment, not "fix" person)
 
-Framework KHÔNG THỂ:
-  - Chẩn đoán autism (clinical, cần professional assessment)
-  - Thay thế therapeutic intervention
+Framework CANNOT:
+  - Diagnose autism (clinical, needs professional assessment)
+  - Replace therapeutic intervention
   - Predict per-individual presentation (too heterogeneous)
-  - Xác định genetic/epigenetic causation
+  - Identify genetic/epigenetic causation
   - Determine which predictive coding mechanism per-individual
   - Replace lived experience and self-knowledge
 
-Framework CÓ THỂ SAI về:
+Framework MAY BE WRONG about:
   ? Cascade model (sensory → social — could be more complex/bidirectional)
   ? 2D model simplification (reality = higher-dimensional)
   ? Predictive coding framework mapping (all 3 theories = active debate)
@@ -2585,12 +2632,12 @@ Q8: Masking → burnout causal chain?
 Q9: Autism as "reverse-engineering lens" for body-input → brain pattern pipeline?
     → Parallel Alzheimer §17: Alzheimer reveals compilation architecture via degradation order
     → Autism COULD reveal input→pattern pipeline via variation:
-      "input KHÁC → pattern KHÁC → output KHÁC → infer mechanism bình thường"
-    → Research ĐÃ bắt đầu: Pellicano 2012 (priors), Stevenson 2014 (TBW),
-      Green 2015 (habituation) — dùng autism data để hiểu typical brain
-    → CHƯA ĐỦ: per-individual × per-channel systematic mapping chưa có
-    → Chờ fMRI/EEG technology + longitudinal studies đủ resolution
-    → 🔴 Hypothesis — ghi nhận insight, chưa formalize
+      "input DIFFERENT → pattern DIFFERENT → output DIFFERENT → infer normal mechanism"
+    → Research has begun: Pellicano 2012 (priors), Stevenson 2014 (TBW),
+      Green 2015 (habituation) — using autism data to understand typical brain
+    → NOT YET SUFFICIENT: per-individual × per-channel systematic mapping not yet available
+    → Awaiting fMRI/EEG technology + longitudinal studies with sufficient resolution
+    → 🔴 Hypothesis — insight recorded, not yet formalized
 ```
 
 ---
@@ -2601,9 +2648,9 @@ Q9: Autism as "reverse-engineering lens" for body-input → brain pattern pipeli
 
 ```
   → ADHD-Observation.md v1.1 — TUNING (Dopamine Cluster 3/3)
-     §12 ADHD × Autism 2D model (cross-reference đây)
-     Planned: v1.2 sẽ refine 2D model sau file này
-  → Autism-Observation.md v1.0 — CONFIGURATION ← FILE NÀY
+     §12 ADHD × Autism 2D model (cross-reference here)
+     Planned: v1.2 will refine 2D model after this file
+  → Autism-Observation.md v1.0 — CONFIGURATION ← THIS FILE
      Neurodiversity Cluster: ADHD (Tuning) + Autism (Config)
 ```
 
@@ -2611,17 +2658,17 @@ Q9: Autism as "reverse-engineering lens" for body-input → brain pattern pipeli
 
 ```
   → Alzheimer-Analysis.md v1.1 — chunk substrate LOSS (progressive)
-     Autism KHÁC: chunks compile DIFFERENTLY, not LOSE
+     Autism DIFFERENT: chunks compile DIFFERENTLY, not LOST
      §17 Alzheimer as reverse-engineering lens parallels §9.4 here
   → Parkinson-Analysis.md v1.1 — modulatory neuron LOSS (progressive)
-     Autism KHÁC: hardware CONFIGURATION khác từ đầu, not degrading
+     Autism DIFFERENT: hardware CONFIGURATION different from the start, not degrading
 ```
 
 ### §16.3 — Self-Pattern-Modeling + Agent mechanism
 
 ```
   → Self-Pattern-Modeling.md v2.3 — Compiled/Fresh mechanism, context-dependent, valence
-     §5 Self-Pattern-Modeling in autism: Compiled khác pathway, Fresh có thể strong
+     §5 Self-Pattern-Modeling in autism: Compiled different pathway, Fresh can be strong
      §5.4 Double empathy = chunk library mismatch
   → By-Product-Gap-Resonance.md — chunk-based simulation (NOT hardware mirror)
      07-Social-Recognition-Arc uses this: social development = compilation
@@ -2636,7 +2683,7 @@ Q9: Autism as "reverse-engineering lens" for body-input → brain pattern pipeli
 ```
   → Body-Feedback-Mechanism.md v1.2 — 4 axes, Sensory-Driven, overload
      §2.3 Reduced habituation, §10 meltdown/shutdown
-  → Sensitivity-Classification.md v1.0 — 2-tầng model (Sensor × Processing)
+  → Sensitivity-Classification.md v1.0 — 2-tier model (Sensor × Processing)
      §2.2 per-modality gain classification
   → Gap-Direction.md v1.0 — gap = f(surrounding chunks)
      §8 Special Interests = concentrated gap-direction
@@ -2654,7 +2701,7 @@ Q9: Autism as "reverse-engineering lens" for body-input → brain pattern pipeli
   → 07-Social-Recognition-Arc.md — multi-modal binding, 4 mechanisms
      §3.3 Social = inherently multi-modal
   → Cortisol-Baseline.md v2.0 — amplifier, chronic stress
-     §6.5 Masking → chronic cortisol → burnout
+     §6.5 Masking → chronic cortisol (amplifier) → burnout
   → Threat.md v1.0 — NE cascade, PFC disconnect
      §10 Meltdown trigger (sensory, not necessarily threat)
   → OCD-Analysis.md v2.1 — "done" pipeline failure
@@ -2669,7 +2716,7 @@ Q9: Autism as "reverse-engineering lens" for body-input → brain pattern pipeli
   → Nicotine-Brain-Mechanism.md v1.1 — nAChR system
      §1.6 Serotonin: hyperserotonemia >25% + 5-HT system overlap
   → Addiction-Analysis.md v3.0 — reward loop hijack
-     Autism KHÁC: reward system INTACT, Special Interests = genuine reward
+     Autism DIFFERENT: reward system INTACT, Special Interests = genuine reward
 ```
 
 ---
@@ -2739,7 +2786,7 @@ Q9: Autism as "reverse-engineering lens" for body-input → brain pattern pipeli
   Loomes R et al. (2017) JAACAP 56(6):466-474. Sex ratio meta-analysis.
   Lai MC et al. (2015) JAACAP 54(1):11-24. Female phenotype.
 
-🟢 Special interests + strengths:
+🟢 Special Interests + strengths:
   Patten Koenig K, Williams LT. (2017) OTMH 33(2):129-140. Special Interests calming 92%.
   Grove R et al. (2018) Autism Research 11(5):766-775. Special Interests wellbeing.
   Bross LA et al. (2022) J Vocational Rehab 57(2):121-140. Special Interests employment.
@@ -2783,7 +2830,7 @@ Q9: Autism as "reverse-engineering lens" for body-input → brain pattern pipeli
 
 ---
 
-*Autism-Observation.md v1.0 — Neurodiversity Cluster File 2/2 — Health Conditions Drill File 5/6 — 2026-05-15*
-*Framework v7.8 | Observation file — KHÔNG thay thế chẩn đoán y khoa*
-*Research: 6 agents, ~170+ web searches, ~78 verified citations*
-*Planned refine: ADHD v1.1 → v1.2 sau file này (Configuration vs Tuning 2D model chi tiết)*
+> *Autism-Observation.md v1.0 — Neurodiversity Cluster File 2/2 — Health Conditions Drill File 5/6 — 2026-05-15*
+> *Framework v7.8 | Observation file — does NOT replace medical diagnosis*
+> *Research: 6 agents, ~170+ web searches, ~78 verified citations*
+> *Planned refine: ADHD v1.1 → v1.2 after this file (Configuration vs Tuning 2D model detail)*

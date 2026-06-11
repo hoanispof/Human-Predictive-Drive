@@ -1,34 +1,34 @@
 ---
 title: 00 — Internal Processing Mechanism Overview (F4 Sketch)
 created: 2026-04-17 (N+6 session)
-status: SKETCH v1.0 — overview trước khi drill chi tiết từng file
+status: SKETCH v1.0 — overview before drilling individual detail files
 scope: F4 — Internal novel chunk formation + transformation mechanism
 purpose: |
-  Sketch toàn cảnh F4 TRƯỚC KHI drill F3.
-  → Xác định rõ BOUNDARY giữa F3 (external install) và F4 (internal transform)
-  → F3 viết SAU file này → biết chính xác cần hand-off gì
-  → F4 drill chi tiết SAU KHI F3 hoàn thiện
+  Sketch of the full F4 landscape BEFORE drilling F3.
+  → Define the BOUNDARY clearly between F3 (external install) and F4 (internal transform)
+  → F3 written AFTER this file → knows exactly what to hand off
+  → F4 drilled in detail AFTER F3 is complete
 parent: ../plan.md §3.3
 dependencies:
   - F1 Child-Chunk-Development (substrate mechanism — COMPLETE)
   - F3 Chunk-External-Development (external install — PENDING)
-  - Logic-Planning.md (Logic side đóng gói — COMPLETE)
+  - Logic-Planning.md (Logic side packaged — COMPLETE)
   - Neural-Processing-Flow.md (hardware foundation — COMPLETE)
 test_hypotheses: H2, H5, H6, H12
-language: Tiếng Việt primary + English technical
+language: English
 ---
 
 # 00 — Internal Processing Mechanism Overview (F4 Sketch)
 
-> **File này = SKETCH**, không phải drill chi tiết. Mục đích:
-> 1. Map toàn bộ F4 territory
-> 2. Xác định rõ boundary F3 ↔ F4
-> 3. Chuẩn bị cho F3 biết cần hand-off gì
-> 4. Chuẩn bị cho F4 drill sessions sau
+> **This file = SKETCH**, not a detailed drill. Purpose:
+> 1. Map the full F4 territory
+> 2. Define the F3 ↔ F4 boundary clearly
+> 3. Prepare F3 to know exactly what to hand off
+> 4. Prepare the ground for F4 drill sessions later
 
 ---
 
-## §0 — Vị trí trong framework
+## §0 — Position in Framework
 
 ### §0.1 — 4-Folder Architecture
 
@@ -36,56 +36,56 @@ language: Tiếng Việt primary + English technical
   ┌──────────────────────────────────────────────────────────────┐
   │ F1 Child-Chunk-Development ✅ COMPLETE                       │
   │ = HOW biology compiles raw input → chunks (substrate)        │
-  │ = 12 files, ~11,596L, 7 Nút Thắt committed                  │
+  │ = 12 files, ~11,596L, 7 Convergence Points committed         │
   ├──────────────────────────────────────────────────────────────┤
-  │ F3 Chunk-External-Development ⏳ (thu gọn post-N+5 pivot)   │
+  │ F3 Chunk-External-Development ⏳ (condensed post-N+5 pivot)  │
   │ = HOW external source INSTALLS chunks (top-down)             │
   │ = co-attention, imitation, language, cultural transmission   │
   ├──────────────────────────────────────────────────────────────┤
-  │ F4 Chunk-Internal-Processing 🎯 (file này = sketch)         │
+  │ F4 Chunk-Internal-Processing 🎯 (this file = sketch)        │
   │ = HOW internal processing TRANSFORMS existing chunks         │
   │ = logical connection, feeling-intuition, decay, insight      │
   ├──────────────────────────────────────────────────────────────┤
-  │ 99-Master-Synthesis (tích hợp tất cả)                        │
+  │ 99-Master-Synthesis (integrates everything)                   │
   └──────────────────────────────────────────────────────────────┘
 ```
 
-### §0.2 — F4 trong 2-part model (Logic-Feeling)
+### §0.2 — F4 in the 2-part model (Logic-Feeling)
 
 ```
-⭐ N+5 PIVOT INSIGHT: "Con người thực sự chỉ có 2 phần: Logic và Feeling"
+⭐ N+5 PIVOT INSIGHT: "Humans really have only 2 parts: Logic and Feeling"
 
-  F4 = NƠI LOGIC VÀ FEELING GẶP NHAU:
+  F4 = WHERE LOGIC AND FEELING MEET:
 
-  LOGIC TERRITORY (trong F4):
+  LOGIC TERRITORY (in F4):
     • Chunk-chunk logical connection (Thread 2)
     • Chain formation + anchor management (Thread 8)
     • Cognition upgrade via accumulated chunks (Thread 9)
 
-  FEELING TERRITORY (trong F4):
+  FEELING TERRITORY (in F4):
     • Feeling-intuition gradient (Thread 3)
     • Right-wrong vague detection (Thread 10)
-    • Insight emergence = body signal TRƯỚC logic (Thread mới)
+    • Insight emergence = body signal BEFORE logic (new Thread)
 
   BRIDGE:
-    • Logical connection cần body "vote" (feel "nối được" hay "không")
-    • Insight = feel-first → logic sau
-    • Vague = body biết nhưng logic chưa biết
-    
-  → F4 = territory quan trọng nhất cho CORE FRAMEWORK VALUE (hiểu Feeling)
-  → Logic side đã đóng gói (Logic-Planning.md) → AI hỗ trợ
-  → Feeling side CẦN hiểu sâu → F4 + Feeling deep dive
+    • Logical connection needs body "vote" (feel "connects" or "doesn't")
+    • Insight = feel-first → logic after
+    • Vague = body knows but logic doesn't yet
+
+  → F4 = most important territory for CORE FRAMEWORK VALUE (understanding Feeling)
+  → Logic side already packaged (Logic-Planning.md) → AI assists
+  → Feeling side NEEDS deep understanding → F4 + Feeling deep dive
 ```
 
-### §0.3 — F4 trong kiến trúc layer
+### §0.3 — F4 in the layer architecture
 
 ```
   ┌─────────────────────────────────────────────────┐
   │  PLAN (chain labeled chunks → execute)           │  ← Logic-Planning.md ✅
   ├─────────────────────────────────────────────────┤
-  │  LABEL (anchor cho chunk)                        │  ← F3 External ⏳
+  │  LABEL (anchor for chunk)                        │  ← F3 External ⏳
   ├─────────────────────────────────────────────────┤
-  │  ⭐ CHUNK PROCESSING (transform existing chunks) │  ← F4 (file này) 🎯
+  │  ⭐ CHUNK PROCESSING (transform existing chunks) │  ← F4 (this file) 🎯
   │    connect / decay / insight / vague / upgrade   │
   ├─────────────────────────────────────────────────┤
   │  CHUNK (compiled pattern)                        │  ← F1 ✅
@@ -95,14 +95,14 @@ language: Tiếng Việt primary + English technical
   │  BODY-INPUT (raw sensory data)                   │  ← Neural-Processing-Flow ✅
   └─────────────────────────────────────────────────┘
 
-  F4 = PROCESSING layer giữa compiled chunks và plan output.
-  = Cái gì XẢY RA với chunks sau khi đã compile (F1) + đã install label (F3)?
+  F4 = PROCESSING layer between compiled chunks and plan output.
+  = What HAPPENS to chunks after compile (F1) + label install (F3)?
   = Connect / Decay / Transform / Generate novel / Upgrade
 ```
 
 ---
 
-## §1 — F4 là gì: Internal Processing definition
+## §1 — What is F4: Internal Processing Definition
 
 ### §1.1 — Core definition
 
@@ -111,159 +111,168 @@ F4 = HOW INTERNAL PROCESSING TRANSFORMS EXISTING CHUNKS INTO NOVEL CHUNKS
      — without direct external shared template
      — using PFC hold + body feedback + chunk association
 
-Mechanism chính:
-  ① PFC hold 2+ chunks trong Working Memory (~3-5 slots)
+Primary mechanism:
+  ① PFC hold 2+ chunks in Working Memory (~3-5 slots)
   ② Check relationships: overlap? conflict? complement?
-  ③ Body feedback: "nối được" / "sai sai" / "aha!"
+  ③ Body feedback: "connects" / "something's off" / "aha!"
   ④ Novel chunk emerges: new pattern compiled from combination
-  ⑤ Seek label: articulate → anchor → dùng trong plan
+  ⑤ Seek label: articulate → anchor → use in plan
 ```
 
-### §1.2 — Phân biệt F3 vs F4
+### §1.2 — F3 vs F4 distinction
 
 ```
 F3 (EXTERNAL INSTALL):
-  Source:    người/sách/văn hóa/giáo dục cung cấp
-  Direction: TOP-DOWN (nhận label → compile chunk)
-  Example:   học label "gravity" → thả vật → thấy rơi → chunk compile
-  Key:       chunk template có sẵn ở NGOÀI
+  Source:    another person / book / culture / education provides
+  Direction: TOP-DOWN (receive label → compile chunk)
+  Example:   learn label "gravity" → drop object → see fall → chunk compiles
+  Key:       chunk template exists OUTSIDE first
   = Direction B (Logic-Planning.md §7.4)
 
 F4 (INTERNAL TRANSFORM):
-  Source:    bản thân tạo ra, không có template từ ngoài
-  Direction: BOTTOM-UP (feel gì đó → tìm label)
-  Example:   "sao sao ấy" về code → articulate → "à, God Object!"
-  Key:       chunk MỚI sinh ra TRONG ĐẦU
+  Source:    generated from within, no external template
+  Direction: BOTTOM-UP (feel something → find label)
+  Example:   "something off" about the code → articulate → "ah, God Object!"
+  Key:       NEW chunk is born INSIDE the mind
   = Direction A (Logic-Planning.md §7.4)
 
 OVERLAP:
-  Cùng 1 case có thể là CẢ F3 lẫn F4:
-  Einstein ĐỌC Newton (F3: external install Newtonian chunks)
-  → NHIỀU NĂM suy nghĩ (F4: internal transform → aha relativity)
-  → F3 cung cấp NGUYÊN LIỆU, F4 BIẾN ĐỔI nguyên liệu
+  A single case can be BOTH F3 and F4:
+  Einstein READ Newton (F3: external install Newtonian chunks)
+  → YEARS of thinking (F4: internal transform → aha relativity)
+  → F3 provides RAW MATERIAL, F4 TRANSFORMS that material
 
-⭐ F4 KHÔNG THỂ XẢY RA NẾU KHÔNG CÓ F1 + F3:
-  → F1 compile raw chunks (substrate)
-  → F3 install labels + external knowledge (library)
-  → F4 transform library thành novel insights
+⭐ F4 CANNOT HAPPEN WITHOUT F1 + F3:
+  → F1 compiles raw chunks (substrate)
+  → F3 installs labels + external knowledge (library)
+  → F4 transforms library into novel insights
   → "Creativity = novel recombination of existing chunks"
-    (nothing comes from nothing — mọi insight build on existing chunks)
+    (nothing comes from nothing — every insight builds on existing chunks)
 ```
 
 ### §1.3 — Age-independence
 
 ```
-F4 mechanism GIỐNG NHAU ở mọi lứa tuổi:
+F4 mechanism is THE SAME at every age:
 
-  Trẻ 2 tuổi: 2 chunks "con chó" + "cắn" → novel chunk "chó nguy hiểm"
-  Học sinh:    "tam giác" + "Pytago" → novel chunk "tính cạnh huyền"
+  2-year-old:  2 chunks "dog" + "bites" → novel chunk "dog is dangerous"
+  Student:     "triangle" + "Pythagorean" → novel chunk "calculate hypotenuse"
   Einstein:    "Maxwell" + "Galilean transform" → "conflict!" → novel chunk "spacetime"
-  Nhạc sĩ:     melody A + harmony B → novel chunk "bài mới"
+  Musician:    melody A + harmony B → novel chunk "new piece"
 
-  = CÙNG mechanism: PFC hold → check → body vote → novel emerge
-  = KHÁC: number of chunks + depth + domain sophistication
+  = SAME mechanism: PFC hold → check → body vote → novel emerge
+  = DIFFERENT: number of chunks + depth + domain sophistication
   = "Intelligence" ≠ better mechanism — "Intelligence" = more + deeper chunks
 ```
 
 ---
 
-## §2 — 6 Processing Modes (toàn bộ threads trong F4)
+## §2 — 6 Processing Modes (all threads in F4)
 
 ### §2.1 — Logical Connection (Thread 2, H2 test)
 
 ```
-QUESTION: Khi PFC hold chunk A + chunk B, cái gì xảy ra?
+QUESTION: When PFC holds chunk A + chunk B, what happens?
 
 USER'S FORMULATION (verbatim):
-  "2 chunk sẽ cho cảm giác chúng nối với nhau, PFC hold và chúng có nối 
-   được với nhau không, nhưng não bộ không phải là 2 cục noron nối với nhau, 
+  "2 chunk sẽ cho cảm giác chúng nối với nhau, PFC hold và chúng có nối
+   được với nhau không, nhưng não bộ không phải là 2 cục noron nối với nhau,
    mà là pattern fire ở nhiều vùng não, và pattern nào đó được coi là 1 chunk"
+  [English: "2 chunks will give the feeling of connecting to each other, PFC holds
+   them and checks whether they can connect, but the brain is not 2 neurons wired
+   together — it's patterns firing across many brain regions, and some pattern
+   is treated as 1 chunk"]
 
 MECHANISM (to drill):
-  ① PFC hold chunk A (pattern fire in WM)
-  ② PFC hold chunk B (pattern fire in WM)
-  ③ OVERLAP CHECK: A và B share neurons/areas?
-     → Nhiều overlap = "liên quan" (spreading activation — Collins & Loftus 1975)
-     → Ít overlap = "không liên quan"
-     → Conflict overlap = "mâu thuẫn"
-  ④ BODY VOTE: "nối được" feel (smooth) vs "không" feel (resistance)
-  ⑤ OUTPUT: verbal articulation "A liên quan B qua X"
+  ① PFC hold chunk A (pattern fires in WM)
+  ② PFC hold chunk B (pattern fires in WM)
+  ③ OVERLAP CHECK: A and B share neurons/areas?
+     → Much overlap = "related" (spreading activation — Collins & Loftus 1975)
+     → Little overlap = "unrelated"
+     → Conflict overlap = "contradictory"
+  ④ BODY VOTE: "connects" feel (smooth) vs "doesn't" feel (resistance)
+  ⑤ OUTPUT: verbal articulation "A relates to B via X"
 
 H2 TEST: Thread 2 = 4th connection type?
-  Type 1: Shared contamination (Schema.md §2 — A contaminate B qua shared context)
+  Type 1: Shared contamination (Schema.md §2 — A contaminates B via shared context)
   Type 2: Aha moment (Chunk-Search-Advanced §2 — sudden strong link)
-  Type 3: Compile meta-chunk (Chunk.md §2 — A+B compile thành AB)
+  Type 3: Compile meta-chunk (Chunk.md §2 — A+B compile into AB)
   Type 4 (H2): Static logical linking (PFC intentional — hold A+B, check link)
 
   → H2 claim: Type 4 is DISTINCT mechanism
-  → Drill cần: formalize mechanism, test against other 3 types
+  → Drill needs: formalize mechanism, test against other 3 types
 
 EXAMPLES (from user):
-  • Nhà thờ ↔ bạn (bạn đi lễ cùng mình) = shared context → type 1 or 4?
-  • Mẹ ↔ cô giáo (mẹ gọi điện mắng vì điểm thấp) = multiple connection types
+  • Church ↔ friend (friend went to mass together) = shared context → type 1 or 4?
+  • Mother ↔ teacher (mother called to scold for low grade) = multiple connection types
 ```
 
 ### §2.2 — Feeling-Intuition Gradient (Thread 3, H5 test)
 
 ```
-QUESTION: Feeling và intuition CÙNG mechanism hay KHÁC mechanism?
+QUESTION: Are Feeling and intuition the SAME mechanism or DIFFERENT?
 
 USER'S FORMULATION:
-  "Feeling = cảm nhận vật lý body-base, intuition = cảm nhận imagine?"
-  "Thật ra 2 cái này không rõ ràng"
+  "Feeling = physical body-base sensation, intuition = imagined sensation?"
+  "Actually these 2 aren't clear"
 
 SPECTRUM (to drill):
 
   ┌─────────────────────────────────────────────────────────────────┐
-  │  CLEAR                                                   VAGUE │
+  │  CLEAR                                                   VAGUE  │
   │  ←─────────────────────────────────────────────────────────→   │
-  │                                                                │
-  │  Body signal     Feeling    Gut     Intuition   Hunch  Premon- │
-  │  (đau, đói)      (buồn)   feeling   (linh     (ngờ   ition    │
-  │                            (bụng)    cảm)      ngợ)           │
-  │                                                                │
-  │  Source: BODY    Source: BODY+PFC    Source: PFC+WEAK BODY     │
-  │  Speed: FAST     Speed: MEDIUM      Speed: SLOW (search)      │
-  │  Label: EASY     Label: MEDIUM      Label: HARD (articulable?)│
-  │  Trust: HIGH     Trust: MEDIUM      Trust: VARIABLE           │
+  │                                                                 │
+  │  Body signal    Feeling    Gut       Intuition  Hunch  Premon-  │
+  │  (pain,         (sad)    feeling     (sixth    (odd   ition     │
+  │   hungry)                (stomach)   sense)    hunch)           │
+  │                                                                 │
+  │  Source: BODY   Source: BODY+PFC    Source: PFC+WEAK BODY      │
+  │  Speed: FAST    Speed: MEDIUM      Speed: SLOW (search)        │
+  │  Label: EASY    Label: MEDIUM      Label: HARD (articulable?)  │
+  │  Trust: HIGH    Trust: MEDIUM      Trust: VARIABLE             │
   └─────────────────────────────────────────────────────────────────┘
 
 H5 TEST: "Vague = multi-weak-signal convergence"
-  → Intuition = NHIỀU weak signals cùng converge → body sense "gì đó"
-  → Feeling = FEW strong signals → body sense RÕ
-  → CÙNG mechanism (PFC observe body-base), KHÁC signal profile
+  → Intuition = MANY weak signals converge at once → body senses "something"
+  → Feeling = FEW strong signals → body senses CLEARLY
+  → SAME mechanism (PFC observes body-base), DIFFERENT signal profile
 
 EXPERT VS BEGINNER (Klein 1998):
-  Expert: "gut feeling" → ĐÚNG (many compiled chunks fire weakly in parallel)
+  Expert: "gut feeling" → CORRECT (many compiled chunks fire weakly in parallel)
   Beginner: "gut feeling" → OFTEN WRONG (few chunks, confabulation)
   → Expertise = more chunks → better multi-signal convergence → better intuition
 
 CONNECTION TO FEELING SIDE:
-  ⭐ Thread 3 = TRỰC TIẾP core framework value
-  → Hiểu gradient này = hiểu KHI NÀO trust feeling, khi nào verify
-  → AI era: AI verify logic, human trust feeling → complementary
-  → Gendlin Focusing: TRAINING ở lại vùng "vague" → dần rõ (Feel-Consciousification → Feel-Labeling)
+  ⭐ Thread 3 = DIRECTLY serves core framework value
+  → Understanding this gradient = knowing WHEN to trust feeling, when to verify
+  → AI era: AI verifies logic, human trusts feeling → complementary
+  → Gendlin Focusing: TRAINING to stay in "vague" zone → gradually clarifies
+    (Feel-Consciousification → Feel-Labeling)
 ```
 
 ### §2.3 — Chain + Anchor Dynamics (Thread 8, H6 test)
 
 ```
-QUESTION: Tại sao chunk cần anchor? Decay thế nào không có anchor?
+QUESTION: Why does a chunk need an anchor? How does it decay without one?
 
 USER'S FORMULATION (verbatim):
-  "Tại sao phải có anchor verbal, hoặc hình ảnh, hoặc đồ vật, hoặc context, 
+  "Tại sao phải có anchor verbal, hoặc hình ảnh, hoặc đồ vật, hoặc context,
    ritual, để giữ chunk trong chuỗi chain"
-  "Nếu chunk không thể gán anchor thì sẽ duy trì được dài không hay sẽ 
+  [English: "Why must there be a verbal anchor, or image, or object, or context,
+   ritual, to keep the chunk in the chain"]
+  "Nếu chunk không thể gán anchor thì sẽ duy trì được dài không hay sẽ
    dễ suy thoái và quên"
+  [English: "If a chunk cannot be assigned an anchor, will it persist long
+   or will it easily degrade and be forgotten"]
 
 MECHANISM (to drill):
   ① CHAIN FORMATION: 2 chunks A→B fire together → strengthen A→B link
   ② ANCHOR = high-activation retrieval path:
-     → Verbal label: "nhớ lại từ X" → chain fires → recall
-     → Ritual action: "bắt tay" → social chunk fires
-     → Visual cue: "biển hiệu" → location chunk fires
-     → Object: "cái ly đó" → event chunk fires
-     → Context: "căn phòng này" → memory chunk fires
+     → Verbal label: "recall from word X" → chain fires → recall
+     → Ritual action: "handshake" → social chunk fires
+     → Visual cue: "that sign" → location chunk fires
+     → Object: "that cup" → event chunk fires
+     → Context: "this room" → memory chunk fires
   ③ WITHOUT ANCHOR: chunk still exists but NO retrieval path
      → Decay = NOT deletion — decay = WEAKENING of fire probability
      → Ebbinghaus 1885: exponential decay without rehearsal
@@ -274,88 +283,89 @@ H6 TEST: Decay follows Ebbinghaus without anchor?
   → Anchor type ranking (to test): verbal > ritual > visual > object > context
 
 ANCHOR-SCHEMA SYSTEM CONNECTION:
-  → Anchor-Schema.md: 4 nguồn anchor (Trust, Sync, Schema, Verbal)
-  → Logic-Planning.md §2: 3 tầng anchor (Individual / Group / Global)
-  → F4 formalizes: anchor = RETRIEVAL PATH, không phải chunk content
-  → Chunk vẫn TỒN TẠI khi mất anchor — chỉ KHÔNG TRUY CẬP ĐƯỢC
-  → = "Cái tôi biết nhưng không nhớ ra" = chunk without active anchor
+  → Anchor-Schema.md: 4 anchor sources (Trust, Sync, Schema, Verbal)
+  → Logic-Planning.md §2: 3 anchor levels (Individual / Group / Global)
+  → F4 formalizes: anchor = RETRIEVAL PATH, not chunk content
+  → Chunk still EXISTS when anchor is lost — just NOT ACCESSIBLE
+  → = "Something I know but can't recall" = chunk without active anchor
   → = Tip-of-tongue phenomenon (Brown & McNeill 1966)
 ```
 
 ### §2.4 — Right-Wrong Vague Detection (Thread 10, H5 support)
 
 ```
-QUESTION: "PFC biết right-wrong vague" — mechanism CỤ THỂ là gì?
+QUESTION: "PFC knows right-wrong vague" — what is the SPECIFIC mechanism?
 
 USER'S FORMULATION (from Feeling session):
-  "PFC biết right-wrong vague" — vague detection
+  "PFC knows right-wrong vague" — vague detection
 
 MECHANISM (to drill):
-  ① CLEAR RIGHT-WRONG (đã cover Feeling Theme D):
-     → Strong chunks fire → body signal rõ → "ĐÚNG" hoặc "SAI"
-     → ACC detect NO conflict → "đúng" / ACC detect STRONG conflict → "sai"
+  ① CLEAR RIGHT-WRONG (covered in Feeling Theme D):
+     → Strong chunks fire → body signal clear → "RIGHT" or "WRONG"
+     → ACC detects NO conflict → "right" / ACC detects STRONG conflict → "wrong"
 
   ② VAGUE RIGHT-WRONG (F4 territory):
-     → Weak/partial chunks fire → body signal MỜ → "sao sao ấy"
-     → ACC detect MILD conflict → alert nhưng KHÔNG rõ source
-     → = "Có gì đó sai nhưng không biết cái gì"
+     → Weak/partial chunks fire → body signal DIM → "something feels off"
+     → ACC detects MILD conflict → alert but source NOT CLEAR
+     → = "Something is wrong but I don't know what"
 
   TWO POSSIBILITIES (H5):
-     (a) Single weak signal: 1 chunk fire yếu → vague signal
-     (b) Multi-weak-signal convergence: NHIỀU chunks fire yếu cùng lúc
+     (a) Single weak signal: 1 chunk fires weakly → vague signal
+     (b) Multi-weak-signal convergence: MANY chunks fire weakly at once
          → converge → vague but DIRECTIONALLY correct
      → H5 claims (b) is primary mechanism for expert intuition
 
   TRAINING:
-     → Gendlin Focusing: ở lại với "sao sao" → dần rõ
-     → = PFC maintain attention on ACC mild alert → more chunks fire → clearer
+     → Gendlin Focusing: stay with "something feels off" → gradually clarifies
+     → = PFC maintains attention on ACC mild alert → more chunks fire → clearer
      → = Somatic-Articulation Loop applied to vague detection
      → Expert: CAN dwell → signals clarify → ACCURATE gut feeling
      → Beginner: CANNOT dwell → jump to label too fast → INACCURATE
 
 CONNECTION TO FRAMEWORK:
   ⭐ Vague detection = FEELING LITERACY core skill
-  → Người có high vague detection skill → make better decisions
-  → AI era: AI check logic (clear domain), human detect vague (body domain)
-  → "Con người cần FEEL đúng" = INCLUDES vague detection
+  → People with high vague detection skill → make better decisions
+  → AI era: AI checks logic (clear domain), human detects vague (body domain)
+  → "Humans need to FEEL correctly" = INCLUDES vague detection
 ```
 
 ### §2.5 — Insight + Tacit Knowledge (H12 bridge)
 
 ```
-QUESTION: Aha moment, tacit knowledge, và gap 2 liên quan thế nào?
+QUESTION: How are aha moments, tacit knowledge, and gap 2 related?
 
 AHA MOMENT (Chunk-Search-Advanced §2 + body-feedback):
   ① Chunks simmering in background (DMN active)
   ② Suddenly: strong connection fires → BURST of activation
-  ③ VTA fires dopamine (SALIENCE ALERT — "biến động lớn!")
+  ③ VTA fires dopamine (SALIENCE ALERT — "major shift!")
   ④ Schemas/dissonance resolved → body-need match → OPIOID = actual reward
-     + if threat present: threat resolved → cortisol rút dần (additional relief)
+     + if threat present: threat resolved → cortisol withdraws gradually (additional relief)
      (⚠️ N+10 correction: dopamine ≠ reward. Opioid = reward. See 01 §1.2)
-  ⑤ PFC observe: "à, A liên quan B qua C!"
+  ⑤ PFC observes: "ah, A relates to B via C!"
   ⑥ Novel chunk compiles (emotional peak mechanism)
   
   → Aha = Type 2 connection (sudden strong link)
-  → KHÁC Type 4 logical connection (intentional, gradual)
+  → DIFFERENT from Type 4 logical connection (intentional, gradual)
   → Aha cannot be forced — can only create CONDITIONS (incubation)
 
 TACIT KNOWLEDGE (Polanyi 1966):
   "We can know more than we can tell"
   
-  = Chunks compiled DEEP (nhiều modalities, nhiều repetitions)
-  → Fire AS ONE → PFC observe KẾT QUẢ, không observe PROCESS
-  → Expert "biết" answer → nhưng KHÔNG articulate được tại sao
+  = Chunks compiled DEEP (many modalities, many repetitions)
+  → Fire AS ONE → PFC observes RESULT, not PROCESS
+  → Expert "knows" answer → but CANNOT articulate why
   → = Klein 1998: firefighters "just know" which roof will collapse
   
-  Mechanism: meta-chunks compiled so deep → PFC chỉ thấy output
+  Mechanism: meta-chunks compiled so deep → PFC only sees output
   → Process INVISIBLE to PFC (runs in substrate, below observation)
-  → = Feel-RawSignals — Feel-Consciousification feeling territory (body biết, PFC chưa biết rõ)
+  → = Feel-RawSignals — Feel-Consciousification feeling territory
+    (body knows, PFC doesn't yet know clearly)
 
 GAP 2 — POST-VERBAL BYPASS (H12):
-  ① Adult có label library (extensive vocabulary)
+  ① Adult has label library (extensive vocabulary)
   ② Internal processing creates NOVEL chunk
-  ③ PFC search library → NO fitting label exists
-  ④ = "Gần đúng / hơi mâu thuẫn / concept mới chưa có từ"
+  ③ PFC searches library → NO fitting label exists
+  ④ = "Almost right / slightly contradictory / new concept with no word yet"
   ⑤ Chunk persists via felt sense, description, metaphor
   ⑥ If shared → cultural pressure to coin new word
   ⑦ Language evolves
@@ -379,12 +389,12 @@ CONNECTION TO FRAMEWORK:
 ### §2.6 — Cognition Upgrade (Thread 9)
 
 ```
-QUESTION: Có phải "nâng cấp nhận thức" là discrete jump hay gradient?
+QUESTION: Is "cognition upgrade" a discrete jump or a gradient?
 
 USER'S FORMULATION:
-  "Lúc nào mình vui, lúc nào mình buồn → self-awareness"
-  "Khi chunk tích lũy đủ lớn, chúng có thể đoán được chuyển động quả bóng, 
-   nhưng tính cách của mẹ thì chuỗi chunk không đủ để đoán"
+  "Sometimes I'm happy, sometimes I'm sad → self-awareness"
+  "When chunks accumulate large enough, they can predict a ball's trajectory,
+   but for the mother's personality the chunk chain isn't enough to predict"
 
 MECHANISM (to drill):
   ① Chunks accumulate (F1 + F3) → database grows
@@ -394,7 +404,7 @@ MECHANISM (to drill):
 
 PIAGET RECONCILIATION:
   Piaget stages (sensorimotor → preoperational → concrete → formal):
-  → Framework: KHÔNG phải hardware stages
+  → Framework: NOT hardware stages
   → = Chunk database size thresholds:
     Sensorimotor: body-input chunks compiling (F1 territory)
     Preoperational: enough labeled chunks for symbolic play
@@ -406,22 +416,22 @@ SELF-PATTERN-MATCH UPGRADE (cross-ref Agent/):
   → Self-Pattern-Modeling §5: 8 stages of self-model development
   → Each "upgrade" = accumulated self-related chunks reach new threshold
   → → meta-cognition = chunks ABOUT OWN CHUNKS (recursive)
-  → → "Biết mình biết gì" = PFC observe own chunk library
+  → → "Knowing what you know" = PFC observes own chunk library
 
 WHY "UPGRADE" FEELS DISCRETE:
-  → = Same as Nút Thắt 1 gradient verdict
+  → = Same as Convergence Point 1 gradient verdict
   → Gradient accumulation → cross behavioral threshold → appears "sudden"
-  → Parent observes: "hôm nay con HIỂU" → actually: gradient crossed threshold today
+  → Parent observes: "today the child UNDERSTANDS" → actually: gradient crossed threshold today
   → = "Aha" at individual level, "stage transition" at population level
 
 STUCK COGNITION:
   → Some adults "stuck" at concrete operational
   → Framework: NOT hardware limit — CHUNKS MISSING in relevant domains
   → Remedy: install chunks (education, experience, exposure)
-  → = "Nâng cấp nhận thức" = install more chunks + connect existing ones
+  → = "Cognition upgrade" = install more chunks + connect existing ones
   → ⭐ AI ERA: AI can help install chunks FASTER → cognition upgrade FASTER
      → But: upgrade PERCEPTION (body-base feel) still requires REAL EXPERIENCE
-     → AI install labels (Direction B) → human must still FEEL (Direction A)
+     → AI installs labels (Direction B) → human must still FEEL (Direction A)
 ```
 
 ---
@@ -468,64 +478,64 @@ CONNECTION LOGIC:
 ### §3.2 — F4 ↔ Feeling connection
 
 ```
-⭐ F4 = NƠI FRAMEWORK CORE VALUE THỂ HIỆN RÕ NHẤT:
+⭐ F4 = WHERE FRAMEWORK CORE VALUE IS MOST CLEARLY EXPRESSED:
 
-  "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng"
+  "Humans need to FEEL correctly → AI will help PLAN correctly"
 
-  F4 threads CHỨNG MINH tại sao feeling literacy QUAN TRỌNG:
+  F4 threads DEMONSTRATE why feeling literacy MATTERS:
 
-  1. LOGICAL CONNECTION: body vote "nối được" hay "không"
-     → Nếu feeling literacy thấp → accept wrong connections
-     → Nếu feeling literacy cao → detect "sai sai" sớm
+  1. LOGICAL CONNECTION: body vote "connects" or "doesn't"
+     → If feeling literacy is low → accept wrong connections
+     → If feeling literacy is high → detect "something's off" early
 
   2. INTUITION: multi-weak-signal convergence
-     → Nếu feeling literacy thấp → bỏ qua gut feeling → miss insight
-     → Nếu feeling literacy cao → dwell với signal → insight emerge
+     → If feeling literacy is low → ignore gut feeling → miss insight
+     → If feeling literacy is high → dwell with signal → insight emerges
 
   3. VAGUE DETECTION: ACC mild conflict
-     → Nếu feeling literacy thấp → "mọi thứ ok" (false ok)
-     → Nếu feeling literacy cao → "có gì đó sai" → investigate
+     → If feeling literacy is low → "everything is ok" (false ok)
+     → If feeling literacy is high → "something is wrong" → investigate
 
   4. INSIGHT: aha moment from body
-     → Nếu feeling literacy thấp → aha nhưng không articulate được
-     → Nếu feeling literacy cao → aha → articulate → dùng trong plan
+     → If feeling literacy is low → aha but cannot articulate
+     → If feeling literacy is high → aha → articulate → use in plan
 
-  5. TACIT KNOWLEDGE: body biết, PFC chưa biết
-     → Nếu feeling literacy thấp → body biết nhưng bỏ qua
-     → Nếu feeling literacy cao → body biết → trust → act on it
+  5. TACIT KNOWLEDGE: body knows, PFC doesn't yet
+     → If feeling literacy is low → body knows but is ignored
+     → If feeling literacy is high → body knows → trust → act on it
 
-  → FEELING LITERACY = skill set cho TẤT CẢ 5 internal processing modes
+  → FEELING LITERACY = skill set for ALL 5 internal processing modes
   → Training feeling literacy = training F4 capability
-  → = Đây là lý do framework PHẢI hiểu Feeling sâu
+  → = This is why the framework MUST understand Feeling deeply
 ```
 
 ---
 
 ## §4 — Dependencies + Input Contracts
 
-### §4.1 — Từ F1 Child-Chunk-Development (COMPLETE)
+### §4.1 — From F1 Child-Chunk-Development (COMPLETE)
 
 ```
-F4 NHẬN từ F1:
+F4 RECEIVES from F1:
   ① Chunk compile mechanism: 4 mechanisms + 5-parameter rate formula
   ② Proto-chunk gradient: strength-weighted, not discrete
-  ③ H11: receptive trước productive (~6-12mo gap, ~1:3 ratio)
+  ③ H11: receptive before productive (~6-12mo gap, ~1:3 ratio)
   ④ NT6: verbal-as-handle hybrid (not 5th modality, not constitutive)
   ⑤ NT3: multi-modal binding (4 concurrent mechanisms)
   ⑥ PFC-Inference Ladder: 5 levels + 10-marker catalog
   ⑦ Non-uniform progression: different arcs compile at different rates
   ⑧ NT7: body-state-at-compile determines chunk association
 
-F4 KHÔNG re-derive:
+F4 does NOT re-derive:
   → Chunk compilation mechanism (F1 committed)
   → PFC hardware reframe (F1 committed)
   → Pre-verbal substrate (F1 committed)
 ```
 
-### §4.2 — Từ F3 External-Development (PENDING → F4 waits)
+### §4.2 — From F3 External-Development (PENDING → F4 waits)
 
 ```
-F4 NHẬN từ F3:
+F4 RECEIVES from F3:
   ① External install mechanism: how labels arrive on chunks
   ② H3 verdict: grammar = most optimized external anchor
   ③ H7 verdict: valence = chunk × schema interaction
@@ -538,11 +548,11 @@ F4 EXTENDS:
   → F3 Direction B (top-down) → F4 Direction A (bottom-up)
 ```
 
-### §4.3 — Từ đã-drill sub-folders
+### §4.3 — From already-drilled sub-folders
 
 ```
   Learning-Cycle/ (N+1):
-    → Learning mechanism = INPUT cho F4 (chunk formation incl. dissonance cycle)
+    → Learning mechanism = INPUT for F4 (chunk formation incl. dissonance cycle)
     → Sleep consolidation details
   
   Agent/ (N+2):
@@ -550,11 +560,11 @@ F4 EXTENDS:
     → Resonance: emergent mutual mechanism = social internal processing
   
   Body-Feedback-Draft/ (N+3):
-    → Body-Feedback-Precondition (5-precondition model) = EVALUATION framework cho F4 body votes
-    → Dissonance-reward signal = FEEDBACK mechanism cho internal processing
+    → Body-Feedback-Precondition (5-precondition model) = EVALUATION framework for F4 body votes
+    → Dissonance-reward signal = FEEDBACK mechanism for internal processing
 ```
 
-### §4.4 — Từ Core framework files
+### §4.4 — From Core framework files
 
 ```
   Logic-Feeling.md:       2 processing modes — F4 bridges both
@@ -577,7 +587,7 @@ F4 EXTENDS:
 │ H2  │ Thread 2 = 4th connection type (static logical      │ ⏳ F4     │
 │     │ linking, distinct from contamination/aha/meta-chunk) │ drill     │
 ├─────────────────────────────────────────────────────────────────────────┤
-│ H5  │ "Vague" = multi-weak-signal convergence            │ ⏳ F4     │
+│ H5  │ "Vague" = multi-weak-signal convergence             │ ⏳ F4     │
 │     │ (Thread 3 + 10 overlap)                              │ drill     │
 ├─────────────────────────────────────────────────────────────────────────┤
 │ H6  │ Chunk decay without anchor follows Ebbinghaus.       │ ⏳ F4     │
@@ -588,18 +598,18 @@ F4 EXTENDS:
 │     │ bypass pressure (bridge F3↔F4)                       │ drill     │
 └─────────────────────────────────────────────────────────────────────────┘
 
-Từ parent plan: H2 + H5 + H6 assigned F4. H12 bridge F3↔F4.
-H3 + H4 + H7 assigned F3 (with brief F4 cross-ref where relevant).
+From parent plan: H2 + H5 + H6 assigned to F4. H12 bridges F3↔F4.
+H3 + H4 + H7 assigned to F3 (with brief F4 cross-ref where relevant).
 ```
 
 ---
 
-## §6 — Drill File Sequence (plan cho sessions sau)
+## §6 — Drill File Sequence (plan for later sessions)
 
 ```
 Chunk-Internal-Processing/
-├── plan.md (existing stub → expand khi drill bắt đầu)
-├── 00-Internal-Mechanism-Overview.md ✅ (file này — SKETCH)
+├── plan.md (existing stub → expand when drill begins)
+├── 00-Internal-Mechanism-Overview.md ✅ (this file — SKETCH)
 │
 │  [TO DRILL — 6 files]
 ├── 01-Chunk-Connection-Logical.md (~900-1200L)
@@ -628,7 +638,7 @@ Chunk-Internal-Processing/
 │   — ACC mechanism for vague detection
 │   — Clear vs vague cases (bridge Feeling Theme D)
 │   — Training vague detection
-│   — Grammatical support ("hình như", "có vẻ")
+│   — Grammatical support ("seems like", "kind of")
 │
 ├── 05-Insight-Tacit-Upgrade.md (~900-1200L)
 │   — Aha mechanism + Polanyi tacit knowledge
@@ -640,17 +650,17 @@ Chunk-Internal-Processing/
 └── 06-Internal-Synthesis.md (~500-700L)
     — H2 + H5 + H6 + H12 verdicts
     — F4 framework contributions
-    — Output contracts cho 99-Master-Synthesis
+    — Output contracts for 99-Master-Synthesis
     — Bridge to Feeling deep dive
 ```
 
-**Thay đổi từ stub plan:**
+**Changes from stub plan:**
 - Merged Thread 9 (Cognition Upgrade) + Insight + Tacit → 1 file `05-Insight-Tacit-Upgrade.md`
-  (vì upgrade = accumulated chunks → threshold, cùng mechanism với insight)
+  (because upgrade = accumulated chunks → threshold, same mechanism as insight)
 - Old: 7 files. New: 6 files (merged 05+Thread 9)
-- Tổng estimate: ~4800-6400L across 6 files
+- Total estimate: ~4800-6400L across 6 files
 
-**Drill sessions**: 2 sessions (N+7, N+8 hoặc tùy tiến độ F3)
+**Drill sessions**: 2 sessions (N+7, N+8 or per F3 progress)
 - Session A: 01 + 02 + 03 (logical + feeling + chain)
 - Session B: 04 + 05 + 06 (vague + insight-upgrade + synthesis)
 
@@ -701,7 +711,7 @@ Chunk-Internal-Processing/
 ## §8 — What F3 Needs to Hand Off to F4
 
 ```
-⭐ F3 MUST DELIVER these as OUTPUT CONTRACTS cho F4:
+⭐ F3 MUST DELIVER these as OUTPUT CONTRACTS for F4:
 
   ① EXTERNAL INSTALL MECHANISM formalized:
      → How co-attention, imitation, label install works
@@ -734,4 +744,4 @@ Chunk-Internal-Processing/
 > This file will be UPDATED (not rewritten) when F4 drill begins.
 > F3 files write NEXT, informed by this sketch.
 >
-> Phiên bản: Sketch v1.0, 2026-04-17.
+> Version: Sketch v1.0, 2026-04-17.

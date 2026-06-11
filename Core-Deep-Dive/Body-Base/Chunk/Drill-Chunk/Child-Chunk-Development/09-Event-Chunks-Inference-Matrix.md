@@ -4,8 +4,9 @@ parent: Child-Chunk-Development
 session: N+4c2
 status: DRILLED
 last_updated: 2026-04-16
+language: English
 drill_phase: F1-P14
-addresses_nut_that: ["cross-cutting — contributes to all 7 Nút Thắt verdict readiness"]
+addresses_nut_that: ["cross-cutting — contributes to all 7 Convergence Point verdict readiness"]
 hypotheses: ["H1 cross-cutting evidence aggregation", "PFC-Inference Ladder empirical grip demonstration"]
 scope: Aggregation — no new analysis; organizes events from arcs 03-08 into unified matrix tables for readers + synthesis
 ---
@@ -14,26 +15,26 @@ scope: Aggregation — no new analysis; organizes events from arcs 03-08 into un
 
 ## §0 — Abstract + reader guide
 
-File này là **aggregation file** cho F1 drill. Không chứa phân tích mới. Tổng hợp tất cả events đã phân tích trong arcs [03](03-Visual-System-Arc.md)-[08](08-Verbal-Production-Arc.md) thành **master matrix tables** organized by body-input system, plus **cross-cutting analyses** by ladder level + nút thắt coverage + compile mechanism.
+This file is the **aggregation file** for the F1 drill. It contains no new analysis. It synthesizes all events analyzed across arcs [03](03-Visual-System-Arc.md)–[08](08-Verbal-Production-Arc.md) into **master matrix tables** organized by body-input system, plus **cross-cutting analyses** by ladder level, Convergence Point coverage, and compile mechanism.
 
-**Mục đích**:
+**Purpose**:
 1. **Reader reference** — at-a-glance view of all F1 event-inference classifications
-2. **Verdict readiness check** — aggregate evidence for each Nút Thắt to assess commitment readiness
+2. **Verdict readiness check** — aggregate evidence for each Convergence Point to assess commitment readiness
 3. **Distribution visualization** — ladder levels, compile mechanisms, body-input systems
 4. **Open questions collection** — aggregated from all arc files for 10-Synthesis closeout
 5. **R-F1-* recommendations preliminary list** — finalized in 10
 
-**Cách đọc file**:
+**How to read this file**:
 - §2 is the central deliverable — 7 body-input arc tables
 - §3-§6 are cross-cuts providing different views of the same data
 - §7-§8 aggregate open questions + framework recommendations
 - §9 is cross-references
 
-**Cách dùng**:
-- Cần tra cứu một event cụ thể? → §2 tables by arc, Ctrl+F event name
-- Cần xem tất cả L2 events? → §3.3 Ladder distribution
-- Cần đánh giá evidence cho một Nút Thắt? → §4 Nút Thắt coverage
-- Cần hiểu compile mechanism distribution? → §5
+**How to use this file**:
+- Need to look up a specific event? → §2 tables by arc, Ctrl+F event name
+- Need to see all L2 events? → §3.3 Ladder distribution
+- Need to evaluate evidence for a Convergence Point? → §4 Convergence Point coverage
+- Need to understand compile mechanism distribution? → §5
 
 **Scope boundary**: 09 does not re-analyze events. If you need mechanism analysis for an event, go to its home arc file (specified in each table row).
 
@@ -167,7 +168,7 @@ Each row format:
 
 **Arc notes**:
 - A2/A3 (prenatal-compiled L2 events) are the earliest demonstrable L2 events in F1 catalog — compile begins before t=0
-- A5 (phoneme narrowing) is the primary evidence for [04 §6.4](04-Auditory-System-Arc.md#§6.4) Nút Thắt 1 gradient verdict
+- A5 (phoneme narrowing) is the primary evidence for [04 §6.4](04-Auditory-System-Arc.md#§6.4) Convergence Point 1 gradient verdict
 - A6-A8 are the 3 critical receptive-side events providing H11 line 1 (13.5mo name gap)
 
 ### §2.3 — Motor arc events (from [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md))
@@ -210,16 +211,16 @@ Each row format:
 | B1 | E3 newborn wet diaper cry | 3wk | L0-L1 | Discomfort signal only, no anticipation | — (reflexive) | Wolff 1969 | 🟢 |
 | B2 | Stage A unaware bladder | 0-6mo | L0 | No bladder signal chunks | — | Brazelton 1962 clinical | 🟢 |
 | B3 | Repetition compile phase | 6-12mo | L0-L1 | Proto-chunks accumulating | Rep | — (inferred from B4 onset) | 🟡 |
-| B4 | Stage B đơ mặt L2 ⭐ | 12-18mo | **L2** ⭐ | Antecedent bladder signal chunk | Rep + contingency | Brazelton 1962, Bakker 2000 | 🟢 |
+| B4 | Stage B face-freeze L2 ⭐ | 12-18mo | **L2** ⭐ | Antecedent bladder signal chunk | Rep + contingency | Brazelton 1962, Bakker 2000 | 🟢 |
 | B5 | Stage C crude response | 14-20mo | L3 | Signal + proto-motor response | Rep + Peak | Brazelton 1962 | 🟢 |
-| B6 | Stage D "buồn đái" E23 ⭐ | 22mo | **L4** | Predictive + verbal + plan + motor | Rep + contingency + caregiver labeling | Feel-Example E23 + clinical | 🟢 |
-| B7 | E24 "buồn ỉa" transfer | 24mo | L4 | Template transfer from B6 | Template reuse | Feel-Example E24 | 🟢 |
+| B6 | Stage D "need to pee" (buồn đái) E23 ⭐ | 22mo | **L4** | Predictive + verbal + plan + motor | Rep + contingency + caregiver labeling | Feel-Example E23 + clinical | 🟢 |
+| B7 | E24 "need to poop" (buồn ỉa) transfer | 24mo | L4 | Template transfer from B6 | Template reuse | Feel-Example E24 | 🟢 |
 
 **Home**: All rows → [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md).
 
 **Arc notes**:
 - B1-B7 is the **only full L0→L4 ladder traversal within a single body state** in F1 catalog — cleanest single-state evidence of non-uniform ladder progression
-- B4 đơ mặt is ⭐ **the cleanest L2 marker** in F1 (neutral valence, passive freeze, clearest behavioral signature)
+- B4 face-freeze is ⭐ **the cleanest L2 marker** in F1 (neutral valence, passive freeze, clearest behavioral signature)
 - Full formalization in [06a §5](06a-Interoceptive-Bladder-Keystone.md#§5) with 4 falsifiable predictions
 
 ### §2.5 — Other interoceptive arc events (from [06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md))
@@ -232,7 +233,7 @@ Each row format:
 | H2 | E11 differentiated hunger cry | 3-5mo | L1 | Hunger vs other distress distinct cry | Rep + parent response | Wasz-Höckert 1968 | 🟢 |
 | H3 | Anticipatory feeding response ⭐ L2 | 3-4mo | **L2** | Bottle-sight → anticipatory quieting | Rep + Peak + contingency | Gewirtz 1977 | 🟢 |
 | H4 | Crude reach for food | 8-12mo | L3 | Hunger + motor reach + food target | Rep + Multi-mod | Feeding observations | 🟢 |
-| H5 | E21 "đói" verbal ⭐ | 18mo | **L4** | Hunger + verbal handle + plan + motor + social | Rep + contingency + labeling | Fenson CDI + Feel-Example | 🟢 |
+| H5 | E21 "hungry" (đói) verbal ⭐ | 18mo | **L4** | Hunger + verbal handle + plan + motor + social | Rep + contingency + labeling | Fenson CDI + Feel-Example | 🟢 |
 
 #### §2.5.2 — Pain sub-arc
 
@@ -241,7 +242,7 @@ Each row format:
 | P1 | E2 pain cry newborn | 0-3mo | L0-L1 | Nociceptive → reflexive cry | — | Anand & Craig 1996 | 🟢 |
 | P2 | Differentiated pain cry | 3-5mo | L1 | Pain vs hunger distinct cry | Rep | Wasz-Höckert 1968 | 🟢 |
 | P3 | Vaccination pre-cry ⭐ L2 | 9-12mo | **L2** | Visit context → anticipatory distress | Rep + **Peak-negative valence** | Pierce & Rodrigues 1996 | 🟢 |
-| P4 | E22 "đau chân" + body part ⭐ | 18-20mo | **L4** | Pain + body schema + verbal + gesture | Rep + Peak + labeling | Feel-Example E22 | 🟢 |
+| P4 | E22 "hurts" (đau chân) + body part ⭐ | 18-20mo | **L4** | Pain + body schema + verbal + gesture | Rep + Peak + labeling | Feel-Example E22 | 🟢 |
 
 #### §2.5.3 — Thermal sub-arc (truncated)
 
@@ -292,13 +293,13 @@ Each row format:
 | S16 | Proto-declarative pointing (= M9) | 12-14mo | L4 | Joint attention + showing intent | Multi-mod + Social | Liszkowski 2004 | 🟢 |
 | S17 | E29 delayed imitation (= M12) | 14-16mo | L4 | Memory + social + motor planning | Sleep + Rep | Meltzoff 1988 | 🟢 |
 | S18 | E26 egocentric empathy (= Em4) | 18mo | L4 | Other-distress + Resonance + own comfort template | Multi-mod + Self chunks | Hoffman 2000 | 🟢 |
-| S19 | E31 "không" autonomy (= Ve13) | 18-24mo | L4 | Self-as-agent + negation + verbal assertion | Self chunks + Social + Rep | Erikson 1963, Feel-Example E31 | 🟢 |
+| S19 | E31 "no" (không) autonomy (= Ve13) | 18-24mo | L4 | Self-as-agent + negation + verbal assertion | Self chunks + Social + Rep | Erikson 1963, Feel-Example E31 | 🟢 |
 
 **Home**: All rows → [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md).
 
 **Arc notes**:
 - Social events reach L2 earliest (S4 at 6-8wk) because multi-modal richness is highest — 5th implicit compile modulator
-- S4 E12 is ⭐ keystone for [07 §6](07-Social-Recognition-Arc.md#§6) Nút Thắt 3 multi-mechanism verdict
+- S4 E12 is ⭐ keystone for [07 §6](07-Social-Recognition-Arc.md#§6) Convergence Point 3 multi-mechanism verdict
 - S3 E9 cry contagion is decisive anti-hardware-mirror evidence (asymmetric timing vs E12 and E13)
 - 4 L2 markers from social arc (S4 + S8 + S11 + S13) added to catalog during N+4c1
 
@@ -313,12 +314,12 @@ Each row format:
 | Ve5 | "Mama" pre-referential ⭐ new L2 | 10-12mo | **L2** | Phonological pattern (no semantic binding) | Rep + Social reinforcement | Jakobson 1941 | 🟡 |
 | Ve6 | "Mama" referential | 12-14mo | L3 | Phonological + referent + word-referent binding | Multi-mod + contingency | Nelson 1973, Bloom 1973 | 🟢 |
 | Ve7 | First 10 words | 12-18mo | L3 | ~10 word chunks + retrieval paths | Rep + Multi-mod + contingency | Fenson 1994 | 🟢 |
-| Ve8 | E21 "đói" (= H5) | 18mo | L4 | (see H5) | — | Fenson + Feel-Example | 🟢 |
-| Ve9 | E22 "đau chân" (= P4) | 18-20mo | L4 | (see P4) | — | Feel-Example E22 | 🟢 |
-| Ve10 | E23 "buồn đái" (= B6) | 22mo | L4 | (see B6) | — | Feel-Example E23 | 🟢 |
+| Ve8 | E21 "hungry" (đói) (= H5) | 18mo | L4 | (see H5) | — | Fenson + Feel-Example | 🟢 |
+| Ve9 | E22 "hurts" (đau chân) (= P4) | 18-20mo | L4 | (see P4) | — | Feel-Example E22 | 🟢 |
+| Ve10 | E23 "need to pee" (buồn đái) (= B6) | 22mo | L4 | (see B6) | — | Feel-Example E23 | 🟢 |
 | Ve11 | Vocabulary spurt | 18-24mo | L3-L4 | Rapid word chunks accumulating + meta-chunk | Accumulated + parallel compile | Goldfield & Reznick 1990 | 🟢 |
 | Ve12 | Two-word combinations | 18-24mo | L4 | Words + combinatorial + semantic relation | Usage-based + imitation | Brown 1973, Tomasello 2003 | 🟢 |
-| Ve13 | E31 "không" (= S19) | 18-24mo | L4 | Self-as-agent + negation + verbal | Self + Social + Rep | Erikson 1963 | 🟢 |
+| Ve13 | E31 "no" (không) (= S19) | 18-24mo | L4 | Self-as-agent + negation + verbal | Self + Social + Rep | Erikson 1963 | 🟢 |
 
 **Home**: All rows → [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md).
 
@@ -343,12 +344,12 @@ Each row format:
 | Proto-imperative pointing | M8 motor | S15 social | — |
 | Proto-declarative pointing | M9 motor | S16 social | — |
 | E25 gesture 14mo | M11 motor | (H11 line 2) | — |
-| E21 "đói" 18mo | H5 interoceptive | Ve8 verbal | (H11 line 4) |
-| E22 "đau" 20mo | P4 interoceptive | Ve9 verbal | (H11 line 5) |
-| E23 "buồn đái" 22mo | B6 interoceptive | Ve10 verbal | (H11 line 3) |
+| E21 "hungry" (đói) 18mo | H5 interoceptive | Ve8 verbal | (H11 line 4) |
+| E22 "hurts" (đau) 20mo | P4 interoceptive | Ve9 verbal | (H11 line 5) |
+| E23 "need to pee" (buồn đái) 22mo | B6 interoceptive | Ve10 verbal | (H11 line 3) |
 | E26 egocentric empathy | Em4 interoceptive | S18 social | — |
 | E29 delayed imitation | M12 motor | S17 social | — |
-| E31 "không" | S19 social | Ve13 verbal | — |
+| E31 "no" (không) | S19 social | Ve13 verbal | — |
 
 **Observation**: ~14 events are cross-referenced across 2-3 arc files. The cross-references reflect the fact that body-input systems are not cleanly separable — most developmental events involve multi-system coordination. The arc organization is an **analytical tool**, not a claim of neural separation.
 
@@ -390,13 +391,13 @@ Each row format:
 
 **Pattern**: L0 events concentrate at birth and reflect hardwired brainstem/midbrain circuitry without cortical chunks. By 3 months most L0 events have transitioned to L1 (reflex + state modulation) or higher.
 
-### §3.3 — L2 events — 10-marker catalog for Nút Thắt 4
+### §3.3 — L2 events — 10-marker catalog for Convergence Point 4
 
 Per plan §0.8 L2 observable markers (used as reframe evidence for PFC hardware × chunks missing reconciliation):
 
 | # | Marker | Age | Arc | Valence | Home |
 |---|---|---|---|---|---|
-| 1 | ⭐ Bladder đơ mặt | 12-18mo | B4 | Neutral-negative (passive freeze) | [06a §3.3](06a-Interoceptive-Bladder-Keystone.md#§3.3) |
+| 1 | ⭐ Bladder face-freeze | 12-18mo | B4 | Neutral-negative (passive freeze) | [06a §3.3](06a-Interoceptive-Bladder-Keystone.md#§3.3) |
 | 2 | Vaccination pre-cry | 9-12mo | P3 | **Peak-negative** (active distress) | [06b §3.3](06b-Interoceptive-Other-States.md#§3.3) |
 | 3 | Anticipatory feeding response | 3-4mo | H3 | **Peak-positive** (active quieting) | [06b §2.4](06b-Interoceptive-Other-States.md#§2.4) |
 | 4 | Farroni direct gaze | 2-5d | V2 | Neutral (attention orientation) | [03 §3.2](03-Visual-System-Arc.md#§3.2) |
@@ -417,7 +418,7 @@ Per plan §0.8 L2 observable markers (used as reframe evidence for PFC hardware 
 
 Different L2 events produce different observable bodily manifestations, but the underlying **pattern-match chunk firing before overt action** is the same mechanism.
 
-**Implication for Nút Thắt 4**: 10 L2 markers across all arcs, with diverse valence profiles and mechanisms, are **overwhelming evidence** that the baby has functional pattern-match capability (L2 = chunks firing on pattern recognition) well before age timelines that would be consistent with the old "PFC offline" view. Reframe (chunks-missing, not hardware-immature) is strongly supported.
+**Implication for Convergence Point 4**: 10 L2 markers across all arcs, with diverse valence profiles and mechanisms, are **overwhelming evidence** that the baby has functional pattern-match capability (L2 = chunks firing on pattern recognition) well before age timelines that would be consistent with the old "PFC offline" view. Reframe (chunks-missing, not hardware-immature) is strongly supported.
 
 ### §3.4 — L3-L4 transitional events
 
@@ -470,11 +471,11 @@ Approximate ages at which each arc reaches each ladder level:
 
 ---
 
-## §4 — Nút Thắt coverage table
+## §4 — Convergence Point coverage table
 
-### §4.1 — Aggregated evidence per Nút Thắt
+### §4.1 — Aggregated evidence per Convergence Point
 
-| Nút Thắt | Primary home | Supporting events | Verdict readiness |
+| Convergence Point | Primary home | Supporting events | Verdict readiness |
 |---|---|---|---|
 | **1 Proto-chunk gradient** | [04 §6.4](04-Auditory-System-Arc.md#§6.4) | A5 phoneme narrowing (primary), V5-V9 visual gradient, M14-M21 motor gradient, B3-B4 bladder gradient, Ve2-Ve6 verbal gradient | ⭐ **PRIMARY VERDICT COMMITTED** N+4b |
 | **2 Precondition-2 Chunk-Substrate** | [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) + [06b §6.2](06b-Interoceptive-Other-States.md#§6.2) | B1-B7 full ladder traversal (primary), H1-H5 hunger (validation), P1-P4 pain, T1-T4 thermal, Em1-Em5 emotional (5-for-5 ordinal ranking) | ⭐ **PRIMARY VERDICT COMMITTED** N+4c1 (4-channel compile × 4-parameter formula) |
@@ -484,15 +485,15 @@ Approximate ages at which each arc reaches each ladder level:
 | **6 Alternative labeling handles** | [08 §5](08-Verbal-Production-Arc.md#§5) | Pre-verbal chunks evidence (9 chunk types), M11 E25 gesture (alternative handle), multi-channel output evidence (Feel-Example), Whorfian moderate (E22) | ⭐ **PRIMARY VERDICT COMMITTED** N+4c2 (Hybrid = retrieval + compression) |
 | **7 Body state at compile (refined N+4c2-REV1, formerly "cortisol tagging")** | [06a §7](06a-Interoceptive-Bladder-Keystone.md#§7) + [06b §6.3](06b-Interoceptive-Other-States.md#§6.3) | B (bladder profile), H (hunger profile, feeding-connection entanglement), P (pain profile, endorphin-buffered), T (thermal edge case, chunks-absent failure), Em (emotional ⭐ imposed-parent dual-source primary case) | ⭐ **PRIMARY VERDICT COMMITTED** N+4c1 + **REFINED N+4c2-REV1** (novelty vs threat direction + 4-threshold gradient + 3 mechanism × 3 origin taxonomy + neural wear dimension) |
 
-**Observation**: **All 7 Nút Thắt have primary verdicts committed** before reaching 10-Synthesis. 10 will aggregate + finalize for 99-Master-Synthesis integration, not drill new verdicts. **NT7 was substantially refined in N+4c2-REV1** after audit against upstream framework files ([Cortisol-Baseline.md](../../Cortisol-Baseline.md) + [Drive/Threat.md](../../Drive/Threat.md) + [Drive/Threat-Drive-Analysis.md](../../Drive/Threat-Drive-Analysis.md)) — earlier "cortisol tagging" framing was incomplete and misleading; the refinement is architectural, not just scope expansion. See [06a §7.0](06a-Interoceptive-Bladder-Keystone.md#§7.0) for upstream framework commitments inherited, and [10 §1.7](10-F1-Synthesis.md#§1.7) for the refined final verdict.
+**Observation**: **All 7 Convergence Points have primary verdicts committed** before reaching 10-Synthesis. 10 will aggregate + finalize for 99-Master-Synthesis integration, not drill new verdicts. **CP7 was substantially refined in N+4c2-REV1** after audit against upstream framework files ([Cortisol-Baseline.md](../../Cortisol-Baseline.md) + [Drive/Threat.md](../../Drive/Threat.md) + [Drive/Threat-Drive-Analysis.md](../../Drive/Threat-Drive-Analysis.md)) — earlier "cortisol tagging" framing was incomplete and misleading; the refinement is architectural, not just scope expansion. See [06a §7.0](06a-Interoceptive-Bladder-Keystone.md#§7.0) for upstream framework commitments inherited, and [10 §1.7](10-F1-Synthesis.md#§1.7) for the refined final verdict.
 
 ### §4.2 — Cross-cutting evidence observations
 
-Some events contribute to multiple Nút Thắt simultaneously:
+Some events contribute to multiple Convergence Points simultaneously:
 
-- **B4 Bladder đơ mặt L2** contributes to Nút Thắt 1 (gradient evidence), 2 (Precondition-2 compile mechanism anchor), 4 (⭐ cleanest L2 marker), 7 (body-state-at-compile test case, 4-threshold gradient keystone), 5 (H11 line 3), reinforcing multiple verdicts with one event.
-- **S4 E12 social smile L2** contributes to Nút Thắt 1 (gradient), 2 (Precondition-2 compile mechanism via multi-mod richness), 3 (⭐ keystone), 4 (L2 marker via Em3/S4), showing the interconnected nature of the framework commitments.
-- **A5 Phoneme narrowing** contributes to Nút Thắt 1 (⭐ primary gradient evidence) + 4 (pattern-match L2 without PFC maturation).
+- **B4 Bladder face-freeze L2** contributes to Convergence Points 1 (gradient evidence), 2 (Precondition-2 compile mechanism anchor), 4 (⭐ cleanest L2 marker), 7 (body-state-at-compile test case, 4-threshold gradient keystone), 5 (H11 line 3), reinforcing multiple verdicts with one event.
+- **S4 E12 social smile L2** contributes to Convergence Points 1 (gradient), 2 (Precondition-2 compile mechanism via multi-mod richness), 3 (⭐ keystone), 4 (L2 marker via Em3/S4), showing the interconnected nature of the framework commitments.
+- **A5 Phoneme narrowing** contributes to Convergence Points 1 (⭐ primary gradient evidence) + 4 (pattern-match L2 without PFC maturation).
 
 This interconnection is not a design flaw — it reflects the fact that developmental events have multiple interpretive angles.
 
@@ -531,7 +532,7 @@ Most F1 events are driven by **multiple mechanisms simultaneously**. The "domina
 
 - **V2 Farroni direct gaze**: Rep (seeing faces repeatedly) + Multi-mod (face + gaze + affective context)
 - **S4 E12 social smile**: Rep (repeated caregiving) + Peak (high-affect moments) + Multi-mod (4-mechanism per [07 §6](07-Social-Recognition-Arc.md#§6))
-- **B4 bladder đơ mặt**: Rep (bladder cycles) + contingency (caregiver reactions) + Peak (discomfort valence)
+- **B4 bladder face-freeze**: Rep (bladder cycles) + contingency (caregiver reactions) + Peak (discomfort valence)
 - **Ve6 "mama" referential**: Rep (hearing "mama" repeatedly) + Multi-mod (hearing while seeing mother) + contingency (caregiver reinforcement) + Peak (affective moments with mother)
 
 **Framework implication**: The compile formula should be parametrized as **combinatorial**, not single-mechanism. Per [06a §6.2](06a-Interoceptive-Bladder-Keystone.md#§6.2) 4-parameter rate formula:
@@ -663,7 +664,7 @@ Aggregated from §12 sections of 03-08. Ordered by theme.
 
 ### §7.5 — Multi-mechanism binding questions
 
-17. **Relative contributions of 4 binding mechanisms**: Nút Thắt 3 commits 4 concurrent mechanisms without weighting. Selective disruption not ethically possible in infants. Animal models? ([07 §6.6](07-Social-Recognition-Arc.md#§6.6))
+17. **Relative contributions of 4 binding mechanisms**: Convergence Point 3 commits 4 concurrent mechanisms without weighting. Selective disruption not ethically possible in infants. Animal models? ([07 §6.6](07-Social-Recognition-Arc.md#§6.6))
 
 18. **Dissociation evidence for binding**: Are there pathological cases where one binding mechanism intact but another disrupted? Autism literature suggests multisensory integration differences. ([07 §6.6](07-Social-Recognition-Arc.md#§6.6))
 
@@ -687,7 +688,7 @@ Aggregated from arc files. Finalized in [10-F1-Synthesis.md](10-F1-Synthesis.md)
 
 - **R-F1-1**: Rewrite [Imagination/PFC-Analysis.md](../../Imagination/PFC-Analysis.md) §4 timeline with reframe. **Partially completed** in N+4 prep via §4.0 REFRAME block + §4.1 corrections. Final integration in 10.
 
-- **R-F1-2**: Propose "đơ mặt" as developmental marker with operational definition + 4 falsifiable predictions + 2 counter-hypothesis rejections. **Fully formalized** in [06a §5](06a-Interoceptive-Bladder-Keystone.md#§5). Ready for framework contribution.
+- **R-F1-2**: Propose face-freeze ("đơ mặt") as developmental marker with operational definition + 4 falsifiable predictions + 2 counter-hypothesis rejections. **Fully formalized** in [06a §5](06a-Interoceptive-Bladder-Keystone.md#§5). Ready for framework contribution.
 
 - **R-F1-3**: Commit multi-mechanism cross-modal binding (4 concurrent mechanisms) architectural commitment in [Body-Base/Schema/Chunk.md](../../Body-Base/Schema/Chunk.md) §2. **Fully formalized** in [07 §6](07-Social-Recognition-Arc.md#§6). Ready for Schema/Chunk update.
 
@@ -697,11 +698,11 @@ Aggregated from arc files. Finalized in [10-F1-Synthesis.md](10-F1-Synthesis.md)
 
 - **R-F1-6**: Propose H11 + PFC-Inference Ladder as framework contributions in 99-Master-Synthesis. **H11 fully formalized** in [08 §6](08-Verbal-Production-Arc.md#§6); **Ladder** applied across all arcs + 10-marker catalog.
 
-- **R-F1-7** (expanded N+4c2-REV1): Update [Body-Base/Body-Parenting-Optimization.md](../../Body-Base/Body-Parenting-Optimization.md) with refined NT7 framework — novelty vs threat cortisol direction, 4-threshold gradient (nhẹ/vừa/nặng/cực đoan), 3 mechanism × 3 origin taxonomy, imposed-parent dual-source damage, neural wear dimension (ACE), 3 update paths for already-damaged chunks, "cortisol is not the enemy" public-health framing. Apply across 5 body states (bladder, hunger, pain, thermal, emotional attachment). Scope is substantially larger than earlier draft. See [10 §5.7](10-F1-Synthesis.md#§5.7) for full integration content.
+- **R-F1-7** (expanded N+4c2-REV1): Update [Body-Base/Body-Parenting-Optimization.md](../../Body-Base/Body-Parenting-Optimization.md) with refined CP7 framework — novelty vs threat cortisol direction, 4-threshold gradient (Light/Moderate/Heavy/Extreme), 3 mechanism × 3 origin taxonomy, imposed-parent dual-source damage, neural wear dimension (ACE), 3 update paths for already-damaged chunks, "cortisol is not the enemy" public-health framing. Apply across 5 body states (bladder, hunger, pain, thermal, emotional attachment). Scope is substantially larger than earlier draft. See [10 §5.7](10-F1-Synthesis.md#§5.7) for full integration content.
 
 - **R-F1-8**: Cross-reference [Agent/](../Agent/) sub-folder files (Resonance, Self-Pattern-Modeling) with F1 developmental evidence for E9/E10/E12/E26/E31 cross-arc events. Particularly Resonance framework anchors in E9+E10+E12 (from [07 §7](07-Social-Recognition-Arc.md#§7)).
 
-- **R-F1-9** (emerging): Update [Modality-Analysis.md](../../Modality-Analysis.md) with commitment that verbal is NOT 5th modality but distinct architectural layer (per [08 §5.4](08-Verbal-Production-Arc.md#§5.4) Nút Thắt 6 verdict).
+- **R-F1-9** (emerging): Update [Modality-Analysis.md](../../Modality-Analysis.md) with commitment that verbal is NOT 5th modality but distinct architectural layer (per [08 §5.4](08-Verbal-Production-Arc.md#§5.4) Convergence Point 6 verdict).
 
 - **R-F1-10** (emerging): Add non-uniform ladder progression table (§3.6 this file) to Schema/Chunk.md as empirical evidence for body-input-specific compile trajectories.
 
@@ -714,15 +715,15 @@ Aggregated from arc files. Finalized in [10-F1-Synthesis.md](10-F1-Synthesis.md)
 ### §9.1 — Within F1 Child-Chunk-Development
 
 - [00-Chunk-System-Sketch.md](00-Chunk-System-Sketch.md) — F1 sub-folder orientation
-- [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) — §6.3 methodology rule + Nút Thắt 4 primary home
+- [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) — §6.3 methodology rule + Convergence Point 4 primary home
 - [02-Womb-to-Birth-Baseline.md](02-Womb-to-Birth-Baseline.md) — §9.1 baseline state at t=0
 - [03-Visual-System-Arc.md](03-Visual-System-Arc.md) — §2.1 source for V1-V16
-- [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) — §2.2 source for A1-A11; Nút Thắt 1 ⭐ verdict
-- [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) — §2.3 source for M1-M21; Nút Thắt 5+6 preview
-- [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) — §2.4 source for B1-B7; Nút Thắt 2 ⭐ + 5 ⭐ + 7 ⭐ + 4 reinforcement
-- [06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md) — §2.5 source for H/P/T/Em events; Nút Thắt 2 cross-state validation
-- [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) — §2.6 source for S1-S19; Nút Thắt 3 ⭐ primary verdict
-- [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) — §2.7 source for Ve1-Ve13; Nút Thắt 5 ⭐ + 6 ⭐ primary verdicts + H11 full formalization
+- [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) — §2.2 source for A1-A11; Convergence Point 1 ⭐ verdict
+- [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) — §2.3 source for M1-M21; Convergence Points 5+6 preview
+- [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) — §2.4 source for B1-B7; Convergence Points 2 ⭐ + 5 ⭐ + 7 ⭐ + 4 reinforcement
+- [06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md) — §2.5 source for H/P/T/Em events; Convergence Point 2 cross-state validation
+- [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) — §2.6 source for S1-S19; Convergence Point 3 ⭐ primary verdict
+- [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) — §2.7 source for Ve1-Ve13; Convergence Points 5 ⭐ + 6 ⭐ primary verdicts + H11 full formalization
 - [10-F1-Synthesis.md](10-F1-Synthesis.md) — final verdicts aggregation + R-F1-* finalization
 
 ### §9.2 — Upstream framework files
@@ -751,7 +752,7 @@ Aggregated from arc files. Finalized in [10-F1-Synthesis.md](10-F1-Synthesis.md)
 - ⭐ **Master event matrix**: ~80 events across 7 body-input arcs organized into 7 sub-tables (§2.1-§2.7)
 - Cross-reference table (§2.8) — 14 events spanning 2-3 arc files
 - Ladder distribution analysis (§3) — counts + 10-marker L2 catalog + L0/L4 catalogs + valence taxonomy refinement
-- Nút Thắt coverage table (§4) — **all 7 Nút Thắt have primary verdicts committed** before 10
+- Convergence Point coverage table (§4) — **all 7 Convergence Points have primary verdicts committed** before 10
 - Compile mechanism distribution (§5) — 4 mechanisms + 2 secondary + per-arc profiles
 - Non-uniform ladder progression synthesis (§6) — 5-parameter modulator model + prediction fit
 - 23 aggregated open questions (§7)
@@ -759,10 +760,8 @@ Aggregated from arc files. Finalized in [10-F1-Synthesis.md](10-F1-Synthesis.md)
 
 **Line count**: ~890 lines (within ~700-900 target, slight over — acceptable for aggregation scope).
 
-**Next file**: [10-F1-Synthesis.md](10-F1-Synthesis.md) ⭐ — 7 Nút Thắt final verdicts + H1 + H11 + Ladder framework contribution + R-F1-1 through R-F1-10 recommendations + output contracts for F3/F4/99-Master/Feeling L3.
-
-**No review stop required** per NEXT-DIRECTIONS — 09 is aggregation, not new claims. Proceeding to 10 drill.
+**Next file**: [10-F1-Synthesis.md](10-F1-Synthesis.md) ⭐ — 7 Convergence Point final verdicts + H1 + H11 + Ladder framework contribution + R-F1-1 through R-F1-10 recommendations + output contracts for F3/F4/99-Master/Feeling L3.
 
 ---
 
-**End of 09-Event-Chunks-Inference-Matrix.md (N+4c2 drill).**
+**End of 09-Event-Chunks-Inference-Matrix.md (English translation — N+4c2 drill).**

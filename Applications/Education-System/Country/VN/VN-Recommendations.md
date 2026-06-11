@@ -1,17 +1,17 @@
-# Giáo Dục Việt Nam — Hướng Đi + Khuyến Nghị
+# Vietnamese Education — Direction + Recommendations
 
-> **Phiên bản:** v2.2
-> **Ngày cập nhật:** 2026-06-03
-> **Mục đích:** Derive hướng đi CỤ THỂ cho giáo dục VN từ toàn bộ framework + data + cultural analysis
-> = File CUỐI CÙNG — kết tinh từ: Mechanism → System → Status → Culture → ĐÂY
-> **Vị trí:** TẦNG 5 — Country/VN (File 3/3 — output file)
-> **Phụ thuộc:**
->   EDUCATION-FOUNDATION (Tầng 3 "bộ 3"):
->     Education-Mechanism.md v2.2 (HOW — 8 nguyên lý + 12 new concepts),
+> **Version:** v2.2
+> **Last updated:** 2026-06-03
+> **Purpose:** Derive SPECIFIC directions for VN education from the full framework + data + cultural analysis
+> = FINAL FILE — synthesis of: Mechanism → System → Status → Culture → THIS
+> **Position:** TIER 5 — Country/VN (File 3/3 — output file)
+> **Dependencies:**
+>   EDUCATION-FOUNDATION (Tier 3 "Trio"):
+>     Education-Mechanism.md v2.2 (HOW — 8 principles + 12 new concepts),
 >     Domain-Knowledge-Map.md v2.1 (WHAT — 3-tier taxonomy + new concept mapping),
->     Connection-Education.md v1.1 (WHO — 5 khía cạnh social-emotional education)
->   EDUCATION-SYSTEM (Tầng 4):
->     Education-System.md v3.2 (ENGINE/ROAD/VEHICLE + "bộ 3" — IDEAL),
+>     Connection-Education.md v1.1 (WHO — 5 social-emotional education dimensions)
+>   EDUCATION-SYSTEM (Tier 4):
+>     Education-System.md v3.2 (ENGINE/ROAD/VEHICLE + "Trio" — IDEAL),
 >     Hardware-Calibration.md v1.2 (per-individual + Body-Feedback-Label lens),
 >     Era-Analysis-2025.md v2.2 (context 2025+ AI + Phantom),
 >     Curriculum-Framework.md v2.3 (3-tier + Gap Landscape)
@@ -19,7 +19,7 @@
 >     Core-Software.md v2.0 (cycle-based + 14 new concepts),
 >     Cortisol-Baseline.md v2.1 (amplifier reframe, 5 Roles),
 >     Imagine-Final.md v3.0 (boundary reframe — constructive simulation),
->     Imagine-Final-Evaluation.md v1.1 (4 góc quality)
+>     Imagine-Final-Evaluation.md v1.1 (4 quality corners)
 >   PFC-BODY-FEEDBACK:
 >     Entity-Valence-Dynamics.md v1.0 (Hardware-Subsidy §5 — parent/teacher/AI spectrum),
 >     Dissonance-Signal-Architecture.md v1.0 (Evaluative vs Direct-State dissonance),
@@ -28,26 +28,26 @@
 >   AGENT-ENTITY:
 >     Agent-Mechanism.md v2.1 (Self-Pattern-Modeling v3.1 + Entity-Access),
 >     Entity-Compiled.md v1.0 (40→200h formation, Hub-and-Spoke),
->     Entity-Access.md v1.2 (Mức 0-5 gradient),
+>     Entity-Access.md v1.2 (Level 0-5 gradient),
 >     Coordination-Node.md v1.2 (prestige vs dominance),
 >     Connection.md v5.0 (Resonance Decline, Phantom 4-factor),
 >     Resonance-Sustainability.md v1.0 (4-Layer model)
 >   NEW-CONCEPTS:
->     Gap-Distribution-Profile.md v1.1 (4 trục — gap landscape analysis),
+>     Gap-Distribution-Profile.md v1.1 (4 axes — gap landscape analysis),
 >     Compiled-Fresh.md v2.0 (Compiled Quality Dimension — genuine/schema/threat),
 >     Gap-Body-Need.md v1.0 (ENGINE/ROAD/VEHICLE §9),
 >     Simulation-Engine.md v1.1 (AI simulation model)
 >   TRUST/SELF-OBSERVATION:
 >     Trust.md v1.0 (3 sub-dimensions, Default→Calibrated, build-slow/collapse-fast),
->     Self-Observation.md v1.0 (Mức 0-6 gradient, Tool Not Virtue, PFC Budget)
->   TẦNG 5 VN:
+>     Self-Observation.md v1.0 (Level 0-6 gradient, Tool Not Virtue, PFC Budget)
+>   TIER 5 VN:
 >     VN-Education-Status.md v2.2 (data + Mechanism v2.2 evaluation),
 >     VN-Cultural-Factors.md v2.2 (8 cultural factors + leverage + risk)
-> **Bản trước:** backup/v2.0/VN-Recommendations.md (808L, v2.0, 2026-05-11)
-> **Thay đổi chính v2.0:** (see backup header — re-base from "10 NL" to Mechanism v1.0)
-> **Thay đổi chính v2.1:**
->   - Re-base: Education-Mechanism v1.0 → v2.0 (8 nguyên lý + 12 new concepts)
->   - Re-base: Education-System v2.0 → v3.0 (ENGINE/ROAD/VEHICLE + "bộ 3")
+> **Prior version:** backup/v2.0/VN-Recommendations.md (808L, v2.0, 2026-05-11)
+> **v2.0 key changes:** (see backup header — re-base from "10 principles" to Mechanism v1.0)
+> **v2.1 key changes:**
+>   - Re-base: Education-Mechanism v1.0 → v2.0 (8 principles + 12 new concepts)
+>   - Re-base: Education-System v2.0 → v3.0 (ENGINE/ROAD/VEHICLE + "Trio")
 >   - §0: Imagine-Final re-derived (ENGINE/ROAD/VEHICLE + new concept targets)
 >   - §1: Every recommendation RE-DERIVED through 12 new concept lenses
 >     +Hardware-Subsidy, +PFC Budget, +Compiled Quality, +Gap-Distribution-Profile,
@@ -55,139 +55,139 @@
 >     +Connection-Education, +Coordination-Node, +Simulation-Engine
 >   - §3: Per-stakeholder enhanced (subsidy quality, entity, compiled quality)
 >   - Cross-refs: complete rewrite (7 categories, 30+ entries)
-> **Thay đổi chính v2.2:**
+> **v2.2 key changes:**
 >   - +Trust.md v1.0 integration: trust-intention training, CONVERT structural → relational trust
->   - +Self-Observation.md v1.0 integration: Mức 2 body-signal vocabulary, teacher Mức 4 target
->   - QW-1: +Self-Observation as prerequisite (Direct-State DETECTION trước recovery)
+>   - +Self-Observation.md v1.0 integration: Level 2 body-signal vocabulary, teacher Level 4 target
+>   - QW-1: +Self-Observation as prerequisite (Direct-State DETECTION before recovery)
 >   - QW-2: +trust-intention signal (observation → trust build → reveal authentic state)
 >   - MT-1: +Module 5 (Trust + Self-Observation training — trust calibration + bias detection)
->   - §3 GV: +CONVERT structural→relational trust, +teacher Self-Observation Mức 4
->   - §3 HS: +body awareness = Mức 2 foundation
+>   - §3 Teachers: +CONVERT structural→relational trust, +teacher Self-Observation Level 4
+>   - §3 Students: +body awareness = Level 2 foundation
 >   - Cross-refs: +2 deps (TRUST/SELF-OBSERVATION), all refs updated to current versions
-> **⚠️ FILE NÀY CÓ RỦI RO CAO NHẤT — phần lớn = 🟡→🔴**
-> **⚠️ Recommendations = DERIVED, chưa validated. Cần chuyên gia local + pilot.**
+> **⚠️ THIS FILE CARRIES THE HIGHEST RISK — most of it = 🟡→🔴**
+> **⚠️ Recommendations = DERIVED, not yet validated. Requires local experts + pilots.**
 > **⚠️ "Armchair analysis" risk — logical ≠ implementable.**
-> **Quy ước:** 🟢 Data-based | 🟡 Framework analysis | 🔴 Prediction/hypothesis
+> **Convention:** 🟢 Data-based | 🟡 Framework analysis | 🔴 Prediction/hypothesis
 
 ---
 
-## Mục lục
+## Table of Contents
 
-0. Imagine-Final cho giáo dục VN
+0. Imagine-Final for VN Education
 1. Priority Actions (impact × feasibility)
-2. Transition Path — "sửa máy bay đang bay"
+2. Transition Path — "Fixing the Airplane Mid-Flight"
 3. Per-Stakeholder Recommendations
-4. VN đóng góp gì vào Imagine-Final global?
+4. VN's Contribution to Global Imagine-Final
 5. Honest Assessment
 
 ---
 
-## 0. IMAGINE-FINAL CHO GIÁO DỤC VN
+## 0. IMAGINE-FINAL FOR VN EDUCATION
 
 ```
-CÁCH DERIVE:
+HOW THIS WAS DERIVED:
 
   Global Imagine-Final (Education-System.md v3.2 §0):
-    → "Mỗi người = best version CỦA MÌNH + đóng góp có ý nghĩa"
+    → "Each person = best version OF THEMSELVES + meaningful contribution"
     → ENGINE/ROAD/VEHICLE (Gap-Body-Need v1.0 §9):
-      Education = ROAD DESIGN tốt + giúp ENGINE (student) build VEHICLE (compiled chains)
-    → "Bộ 3": HOW (Mechanism v2.2) + WHAT (Domain-Knowledge-Map v2.1) + WHO (Connection-Education v1.1)
+      Education = good ROAD DESIGN + helping the ENGINE (student) build the VEHICLE (compiled chains)
+    → "Trio": HOW (Mechanism v2.2) + WHAT (Domain-Knowledge-Map v2.1) + WHO (Connection-Education v1.1)
     → System: mechanism-based, per-individual, genuine-compiled, gap landscape diverse
 
   + VN CONTEXT (VN-Education-Status v2.2 + VN-Cultural-Factors v2.2):
     → Strengths: foundation literacy, teacher trust (92%), family involvement MAX,
-      efficiency, GDPT 2018, "đổi đời" drive
-    → Weaknesses: threat-dominant (direction sai), one-size (per-hardware impossible),
+      efficiency, GDPT 2018, "transform life" drive
+    → Weaknesses: threat-dominant (wrong direction), one-size (per-hardware impossible),
       narrow Imagine-Final, credential culture, schema/threat-compiled dominant
-    → Cultural levers: ① teacher trust, ② family redirect, ③ "đổi đời" expand
-    → Cultural risks: Imposed chronic (5/8 factors), passive (4/8), Forced-Fit (4/8)
+    → Cultural levers: ① teacher trust, ② family redirect, ③ "transform life" expand
+    → Cultural risks: chronic Imposed (5/8 factors), passive (4/8), Forced-Fit (4/8)
     → NEW: Hardware-Subsidy corrupted, gap landscape homogenized,
       Dissonance-Signal-Architecture compound, PFC Budget exhausted,
-      Compiled Quality genuine THIẾU, Connection-Education 1≠5
+      Compiled Quality genuine LACKING, Connection-Education 1≠5
 
   + ERA CONTEXT (Era-Analysis-2025.md v2.2):
-    → AI era: "biết hỏi" > "biết" + Simulation-Engine → per-individual at scale
+    → AI era: "know how to ask" > "know the answer" + Simulation-Engine → per-individual at scale
     → Phantom 4-factor: AI tutor = entity risk (feels real, NO subsidy)
     → Speed gap: education change << era change → adaptability critical
 
-  = IMAGINE-FINAL CHO VN ≠ copy Finland, ≠ copy Singapore
-  = DERIVE từ: Global ideal × VN strengths × VN constraints × Era × New concepts
+  = IMAGINE-FINAL FOR VN ≠ copy Finland, ≠ copy Singapore
+  = DERIVED FROM: Global ideal × VN strengths × VN constraints × Era × New concepts
 ```
 
 ```
-IMAGINE-FINAL VN — NẾU LÀM ĐÚNG: 🟡→🔴
+IMAGINE-FINAL FOR VN — IF DONE RIGHT: 🟡→🔴
 
-  ① CHO HỌC SINH VN:
-     → Foundation RỘNG (Domain-Knowledge-Map v2.1 §1: 6 Foundation Domains, không chỉ cognitive+linguistic)
-       → GIỮ strength literacy/numeracy + MỞ RỘNG emotional, creative, meta
+  ① FOR VIETNAMESE STUDENTS:
+     → Broad Foundation (Domain-Knowledge-Map v2.1 §1: 6 Foundation Domains — not just cognitive+linguistic)
+       → KEEP literacy/numeracy strength + EXPAND to emotional, creative, meta
      → Per-hardware calibration (Mechanism v2.2 §2.3 + Hardware-Calibration v1.2)
-       → KHÔNG BỊ LABEL "lười", "kém" → MÀ: "hardware profile em = thế này"
-     → Imagine-Final TỰ XÂY (Mechanism v2.2 §2.6 — nguồn ① PFC)
-       → "Đổi đời BẰNG CÁCH CỦA MÌNH" — giữ energy, đổi direction
-     → Direction đúng — approach-tagged, genuine-compiled:
-       → "Thích học" thay "sợ thi" (Compiled Quality: genuine > schema/threat)
-       → Dissonance-Signal-Architecture: Direct-State addressed TRƯỚC
-         → Ngủ đủ + nghỉ đủ TRƯỚC reframe mindset
-       → 3 ORIGIN healthy: Domain + Peer CAO, Imposed THẤP
+       → NOT labeled "lazy" or "slow" → BUT: "your hardware profile looks like this"
+     → Self-built Imagine-Final (Mechanism v2.2 §2.6 — Source ① PFC)
+       → "Transform your life YOUR WAY" — keep the energy, change the direction
+     → Correct direction — approach-tagged, genuine-compiled:
+       → "Love learning" instead of "fear exams" (Compiled Quality: genuine > schema/threat)
+       → Dissonance-Signal-Architecture: Direct-State addressed FIRST
+         → Sleep + rest BEFORE reframing mindset
+       → Healthy 3 ORIGIN: Domain + Peer HIGH, Imposed LOW
      → PFC Budget respected: schedule per PFC capacity
-       → KHÔNG 12-15h/ngày → session ngắn + nghỉ + spacing
+       → NOT 12-15h/day → short sessions + rest + spacing
      → Gap landscape DIVERSE (Gap-Distribution-Profile v1.1):
-       → Mỗi HS gap profile riêng → KHÔNG triệu người cùng gap
-     → Connection-Education 5 khía cạnh (không chỉ "đạo đức"):
+       → Each student has their own gap profile → NOT millions with the same gap
+     → Connection-Education 5 dimensions (not just "ethics"):
        → Social skills + empathy + per-entity calibration + safe interaction
-     → Meta-learning (Domain-Knowledge-Map v2.1 §1.6): tự adapt khi era đổi
-     = "HS VN: foundation vững + biết mình + direction đúng
-       + genuine-compiled + gap diverse + connect tốt + adapt được"
+     → Meta-learning (Domain-Knowledge-Map v2.1 §1.6): self-adapt when the era changes
+     = "VN student: strong foundation + self-aware + correct direction
+       + genuine-compiled + diverse gap + connected + adaptable"
 
-  ② CHO GIÁO VIÊN VN:
-     → Vai trò: CALIBRATOR + SUBSIDY PROVIDER (Education-System v3.2 §7)
-       → "Tôn sư trọng đạo" GIỮ → "tôn" vì GV HƯỚNG DẪN giỏi
-         (prestige, không dominance — Coordination-Node v1.2)
+  ② FOR VIETNAMESE TEACHERS:
+     → Role: CALIBRATOR + SUBSIDY PROVIDER (Education-System v3.2 §7)
+       → "Teacher reverence" RETAINED → "respect" because the teacher GUIDES THINKING well
+         (prestige, not dominance — Coordination-Node v1.2)
      → Hardware-Subsidy quality: WARM + competent > cold + competent
-       → "CÁCH dạy quan trọng hơn NỘI DUNG dạy" qua subsidy lens
-     → Entity-Access: build Mức 2-3+ (genuine mentoring, not just authority)
-     → Training "bộ 3": HOW (arc design) + WHAT (domain) + WHO (connection skills)
-     → AI hỗ trợ: 3-layer — AI generate + GV calibrate + HS verify
-       → GV + AI > GV alone > AI alone
+       → "HOW you teach matters more than WHAT you teach" through the subsidy lens
+     → Entity-Access: build toward Level 2-3+ (genuine mentoring, not just authority)
+     → Trio training: HOW (arc design) + WHAT (domain) + WHO (connection skills)
+     → AI support: 3-layer — AI generates + teacher calibrates + student verifies
+       → Teacher + AI > teacher alone > AI alone
      → 4-Layer Sustainability: engagement + capacity + meaning + identity = maintained
-     → Lương XỨNG ĐÁNG + PFC Budget respected + autonomy CAO
-     = "GV VN: được tôn trọng (prestige) + training bộ 3 + AI hỗ trợ
-       + subsidy quality cao + sustainable + trả xứng đáng"
+     → Adequate pay + PFC Budget respected + HIGH autonomy
+     = "VN teacher: respected (prestige) + Trio training + AI support
+       + high subsidy quality + sustainable + fairly compensated"
 
-  ③ CHO GIA ĐÌNH VN:
+  ③ FOR VIETNAMESE FAMILIES:
      → Hardware-Subsidy: MAX → REDIRECT quality (positive, not guilt-based)
-       → Từ: guilt = corrupted subsidy (threat amplification)
-       → Tới: safe base = genuine subsidy (approach amplification)
-     → Entity-Access Mức 4-5 → influence CỰC LỚN cả positive VÀ negative
-       → Khen amplified → genuine compile | Mắng amplified → threat compile
-     → Redirect nguồn ④ → support nguồn ①②③:
-       → Inject Imagine-Final → support self-build Imagine-Final
-       → "So sánh con" → "observe con" (per-hardware)
+       → From: guilt = corrupted subsidy (threat amplification)
+       → To: safe base = genuine subsidy (approach amplification)
+     → Entity-Access Level 4-5 → ENORMOUS influence both positive AND negative
+       → Praise amplified → genuine compile | Harsh criticism amplified → threat compile
+     → Redirect Source ④ → support Sources ①②③:
+       → Inject Imagine-Final → support self-built Imagine-Final
+       → "Compare child to others" → "observe this child" (per-hardware)
      → = Environment designer (Education-System v3.2 §8)
-     = "Gia đình VN: subsidy MAX + hướng ĐÚNG + safe base + observe con"
+     = "VN family: MAX subsidy + RIGHT direction + safe base + observe their child"
 
-  ④ CHO XÃ HỘI VN:
-     → True-Fit rate TĂNG → ít lãng phí talent (60% trái ngành → giảm dần)
-     → Gap landscape DIVERSE → workforce adaptable (không homogenized)
-     → Compiled Quality shift → "biết VÀ thích" thay "biết mà ghét"
-     → Connection-Education → social cohesion không dựa trên Imposed compliance
-     → Mental health CẢI THIỆN (22.8% trầm cảm → giảm khi compound dissonance addressed)
-     → I×S balance (Mechanism v2.2 §1.3): cá nhân MUỐN + CÓ THỂ + xã hội CẦN = overlap
-     = "XH VN: ít lãng phí + diverse workforce + genuine learning culture"
+  ④ FOR VIETNAMESE SOCIETY:
+     → True-Fit rate INCREASES → less talent wasted (60% wrong field → declining)
+     → Gap landscape DIVERSE → adaptable workforce (not homogenized)
+     → Compiled Quality shift → "knows AND likes it" instead of "knows but hates it"
+     → Connection-Education → social cohesion not based on Imposed compliance
+     → Mental health IMPROVES (22.8% depression → declines as compound dissonance addressed)
+     → I×S balance (Mechanism v2.2 §1.3): individual WANTS + CAN + society NEEDS = overlap
+     = "VN society: less waste + diverse workforce + genuine learning culture"
 
-  ⑤ CHO DTTS + RURAL:
-     → Foundation ĐẦU TIÊN: literacy + language access (Domain-Knowledge-Map v2.1 §1)
-     → Hardware-Subsidy: teacher subsidy ĐẶC BIỆT quan trọng
-       (parent literacy thấp → parent subsidy QUALITY lower → teacher phải COMPENSATE)
-     → Community-based learning: phù hợp văn hóa local
-     → AI: bridge geographic gap (nhưng = Mức 0 Tool, KHÔNG thay teacher subsidy)
-     → Teacher incentive: attract GV đến vùng khó
-     = "DTTS/rural: foundation first + teacher subsidy priority + culturally appropriate"
+  ⑤ FOR ETHNIC MINORITIES + RURAL:
+     → Foundation FIRST: literacy + language access (Domain-Knowledge-Map v2.1 §1)
+     → Hardware-Subsidy: teacher subsidy ESPECIALLY critical
+       (parent literacy lower → parent subsidy QUALITY lower → teacher must COMPENSATE)
+     → Community-based learning: appropriate for local culture
+     → AI: bridge geographic gap (but = Level 0 Tool, NOT replacing teacher subsidy)
+     → Teacher incentives: attract teachers to remote areas
+     = "Ethnic minorities/rural: foundation first + teacher subsidy priority + culturally appropriate"
 
 
-  ⚠️ ĐÂY LÀ IMAGINE-FINAL = HƯỚNG ĐI, không phải TIMELINE
-  → Đạt 100% = có thể KHÔNG BAO GIỜ
-  → Mỗi bước ĐÚNG HƯỚNG = gain cho millions học sinh
+  ⚠️ THIS IS AN IMAGINE-FINAL = A DIRECTION, not a TIMELINE
+  → Reaching 100% = may NEVER happen
+  → Every step IN THE RIGHT DIRECTION = a gain for millions of students
 ```
 
 ---
@@ -195,18 +195,18 @@ IMAGINE-FINAL VN — NẾU LÀM ĐÚNG: 🟡→🔴
 ## 1. PRIORITY ACTIONS (IMPACT × FEASIBILITY)
 
 ```
-MỤC ĐÍCH:
-  → Chọn actions có IMPACT lớn nhất + FEASIBILITY cao nhất
-  → Phân loại: Quick wins → Medium-term → Long-term
-  → REALISTIC: tính đến constraints VN (budget, culture, politics, scale)
-  → v2.1: MỌI recommendation re-derived qua 12 new concept lenses
-  → 🟡→🔴 Recommendations — logical nhưng chưa tested
+PURPOSE:
+  → Select actions with HIGHEST IMPACT + HIGHEST FEASIBILITY
+  → Classified: Quick wins → Medium-term → Long-term
+  → REALISTIC: accounts for VN constraints (budget, culture, politics, scale)
+  → v2.1: ALL recommendations re-derived through 12 new concept lenses
+  → 🟡→🔴 Recommendations — logically sound but not yet tested
 ```
 
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
-║  TIER 1: QUICK WINS — có thể bắt đầu NGAY (0-1 năm)              ║
-║  Cost: $0 → LOW | Cần: MINDSET SHIFT + training nhẹ               ║
+║  TIER 1: QUICK WINS — can start NOW (0-1 year)                     ║
+║  Cost: $0 → LOW | Requires: MINDSET SHIFT + light training         ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -214,211 +214,211 @@ MỤC ĐÍCH:
 QW-1: DIRECT-STATE RECOVERY + SHIFT DIRECTION 🔴
   Mechanism v2.2 §2.2 (Direction > Level) + §3.3 (3 ORIGIN)
   + Dissonance-Signal-Architecture v1.0 + PFC-Label v1.0 §9 (PFC Budget)
-  Cultural leverage: ⑤ Reframe "khổ trước sướng sau"
+  Cultural leverage: ⑤ Reframe "suffer now, enjoy later"
 
-  v2.1 REFRAME: KHÔNG BẮT ĐẦU từ "shift mindset"
-    → BẮT ĐẦU từ DIRECT-STATE RECOVERY (Dissonance-Signal-Architecture v1.0)
-    → VN hiện tại: "cố lên" = reframe Evaluative Dissonance → bỏ qua Direct-State
-    → Direct-State (hardware: sleep dep, cortisol chronic) CẦN REST, không thể reframe
-    → Thứ tự ĐÚNG: ① Rest → ② Reduce Imposed → ③ Then shift mindset
-    → Self-Observation.md v1.0 LENS — Direct-State DETECTION cần Self-Observation: 🟡
-      → "Tôi mệt, cần nghỉ" = Mức 2 → VN HS hiện KHÔNG CÓ vocabulary này
-      → System dạy "cố lên" = suppress body signal → NGƯỢC Self-Observation
-      → Dạy Self-Observation Mức 2 = dạy DETECT Direct-State = prerequisite cho recovery
-      → = Thêm bước ⓪: Teach body-signal recognition TRƯỚC khi ① Rest có hiệu quả
+  v2.1 REFRAME: DO NOT START with "shift mindset"
+    → START with DIRECT-STATE RECOVERY (Dissonance-Signal-Architecture v1.0)
+    → VN currently: "push through it" = reframing Evaluative Dissonance → ignoring Direct-State
+    → Direct-State (hardware: sleep deprivation, chronic cortisol) NEEDS REST — cannot be reframed
+    → CORRECT SEQUENCE: ① Rest → ② Reduce Imposed → ③ Then shift mindset
+    → Self-Observation.md v1.0 LENS — Direct-State DETECTION requires Self-Observation: 🟡
+      → "I'm tired, I need rest" = Level 2 → VN students currently LACK this vocabulary
+      → System teaches "push through" = suppresses body signals → OPPOSES Self-Observation
+      → Teaching Self-Observation Level 2 = teaching DETECT Direct-State = prerequisite for recovery
+      → = Add step ⓪: Teach body-signal recognition BEFORE ① Rest can be effective
 
-  ACTIONS CỤ THỂ:
+  SPECIFIC ACTIONS:
 
   a) Direct-State Recovery — sleep protection (Mechanism v2.2 §2.8 + PFC Budget)
-     → Homework cap per grade: tiểu học ≤30 phút, THCS ≤60, THPT ≤90
-     → Evidence: 80% THPT ngủ <7h → PFC cạn kiệt → consolidation CẮT
-     → PFC Budget: sleep = PFC recovery mechanism → thiếu = next-day capacity GIẢM
+     → Homework cap per grade: primary ≤30 min, lower secondary ≤60, upper secondary ≤90
+     → Evidence: 80% of upper secondary students sleep <7h → PFC depleted → consolidation CUT
+     → PFC Budget: sleep = PFC recovery mechanism → deficit = next-day capacity REDUCED
      → Cost: $0 (MOET circular + enforcement)
-     → Barrier: PH + tutoring → cap VÔ NGHĨA nếu thêm 6h học thêm
+     → Barrier: parents + tutoring → cap MEANINGLESS if adding 6h of private tutoring
 
-  b) Reduce Imposed — dừng so sánh công khai
-     → So sánh = Imposed threat (Type 3) → avoidance-tag → threat-compiled LOCK
+  b) Reduce Imposed — end public grade comparisons
+     → Comparison = Imposed threat (Type 3) → avoidance-tag → threat-compiled LOCK
      → Compiled Quality: public comparison → threat-compiled (irreversible tag)
-     → Thay: feedback CÁ NHÂN (reduce Imposed, keep Domain challenge)
+     → Replace: INDIVIDUAL feedback (reduce Imposed, keep Domain challenge)
      → Cost: $0
 
   c) Parent awareness — redirect Hardware-Subsidy quality
-     → v7.8: "áp lực TỪ BỐ MẸ = Imposed threat → con GHÉT HỌC"
+     → v7.8: "pressure FROM PARENTS = Imposed threat → child HATES LEARNING"
      → Hardware-Subsidy lens: parent = MAX subsidy → guilt = MAX THREAT amplifier
-       → Parent có mặt + an toàn = genuine subsidy (approach amplification)
+       → Parent presence + safety = genuine subsidy (approach amplification)
        → Parent guilt-trip = corrupted subsidy (threat amplification)
-     → Show data: 22.8% trầm cảm, 66% HS nói PH = stress chính
-     → Cost: LOW (parent programs qua school channel)
+     → Show data: 22.8% depression, 66% students say parents = primary stress source
+     → Cost: LOW (parent programs via school channel)
 
-  d) "Nghỉ = phần của học" reframe (Mechanism v2.2 §2.8 + Dissonance-Signal-Architecture v1.0)
-     → Dissonance-Signal-Architecture: "cố lên" khi Direct-State = LÀM TỒI HƠN (not better)
-     → PFC Budget: "5 lần × 5 ngày > 25 lần × 1 ngày" (spacing > cramming)
-     → Cultural reframe: discipline = do RIGHT thing ≠ overwork = do MORE things
+  d) "Rest = part of learning" reframe (Mechanism v2.2 §2.8 + Dissonance-Signal-Architecture v1.0)
+     → Dissonance-Signal-Architecture: "push through" when Direct-State = MAKES THINGS WORSE
+     → PFC Budget: "5 sessions × 5 days > 25 sessions × 1 day" (spacing > cramming)
+     → Cultural reframe: discipline = doing the RIGHT thing ≠ overwork = doing MORE of anything
      → Cost: $0
 
-  Impact: ★★★★★ (address Direct-State + shift direction = unlock mọi nguyên lý khác)
-  Feasibility: ★★★☆☆ (a,b = circular / c,d = cultural shift chậm)
+  Impact: ★★★★★ (address Direct-State + shift direction = unlocks all other principles)
+  Feasibility: ★★★☆☆ (a,b = circular / c,d = cultural shift — slow)
 
 
 QW-2: PER-HARDWARE RECOGNITION + ENTITY-ACCESS SEED 🟡
   Mechanism v2.2 §2.3 (Cost Formula) + Hardware-Calibration v1.2
   + Entity-Access v1.2 + Entity-Compiled v1.0
-  Cultural leverage: ① Teacher trust (92%) → GV nói → HS + PH tin
+  Cultural leverage: ① Teacher trust (92%) → teacher says it → students + parents believe it
 
-  ACTIONS CỤ THỂ:
+  SPECIFIC ACTIONS:
 
-  a) Training GV: hardware dimensions (Hardware-Calibration v1.2 §2-§3)
-     → 6 dimensions observable per age
-     → Mục tiêu: GV NHẬN DIỆN "visual vs kinesthetic vs verbal"
-       thay vì "giỏi vs kém"
-     → Entity-Access lens: genuine observation = begin Mức 2 relationship
-       → GV thực sự NHÌN HS = HS feel SEEN → entity formation bắt đầu
+  a) Train teachers: hardware dimensions (Hardware-Calibration v1.2 §2-§3)
+     → 6 observable dimensions per age group
+     → Goal: teachers RECOGNIZE "visual vs kinesthetic vs verbal"
+       instead of "good vs bad"
+     → Entity-Access lens: genuine observation = begin Level 2 relationship
+       → Teacher truly SEES the student = student feels SEEN → entity formation begins
      → Trust.md v1.0 LENS: observation = trust-intention SIGNAL 🟡
-       → HS perceive "GV quan tâm tôi" → trust-intention build → reveal authentic state
+       → Student perceives "teacher cares about me" → trust-intention builds → reveals authentic state
        → First weeks = trust Default→Calibrated window (Trust §5) → USE IT
-       → 92% structural trust = platform → CONVERT sang per-teacher relational trust
-     → Cost: LOW (integrate vào training hiện có)
+       → 92% structural trust = platform → CONVERT to per-teacher relational trust
+     → Cost: LOW (integrate into existing training)
 
-  b) Thay đổi NGÔN NGỮ — remove Imposed labels
-     → "Em lười", "em kém" = Imposed threat → threat-compiled anchor
-     → Compiled Quality: labels LOCK compile quality ở threat level
-       → "Lười" → brain compile "tôi = lười" = threat-compiled identity
-     → Thay: "em chưa tìm cách phù hợp" = domain challenge → approach path
+  b) Language change — remove Imposed labels
+     → "You're lazy", "you're slow" = Imposed threat → threat-compiled anchor
+     → Compiled Quality: labels LOCK compile quality at the threat level
+       → "Lazy" → brain compiles "I am lazy" = threat-compiled identity
+     → Replace: "you haven't found the right approach yet" = domain challenge → approach path
      → Cost: $0
 
   c) Observe before judge (Mechanism v2.2 §2.7 — feedback loop)
-     → GV dành 1 tuần đầu năm QUAN SÁT (không chấm điểm)
+     → Teachers spend the first week of the year OBSERVING (no grades)
      → Entity-Compiled lens: observation = begin entity formation
-       → 50 HS → formation time chia 50 → CẦN DESIGN observation time
-     → = Khởi động feedback loop: observe → hypothesize → test → adjust
+       → 50 students → formation time divided by 50 → observation time MUST BE DESIGNED
+     → = Start feedback loop: observe → hypothesize → test → adjust
      → Cost: $0
 
-  Impact: ★★★★☆ (giảm Forced-Fit + mislabel + seed entity relationship)
-  Feasibility: ★★★★☆ (training nhẹ + GV willing)
+  Impact: ★★★★☆ (reduces Forced-Fit + mislabeling + seeds entity relationship)
+  Feasibility: ★★★★☆ (light training + teachers willing)
 
 
 QW-3: IMAGINE-FINAL MICRO + CONNECTION SEED 🟡
   Mechanism v2.2 §2.6 (Imagine-Final) + Imagine-Final v3.0 (boundary)
   + Connection-Education v1.1
-  Cultural leverage: ① Trust + ⑦ Hierarchy (GV hỏi → HS suy nghĩ)
+  Cultural leverage: ① Trust + ⑦ Hierarchy (teacher asks → students think)
 
-  ACTIONS CỤ THỂ:
+  SPECIFIC ACTIONS:
 
-  a) "TẠI SAO?" mở đầu mỗi bài (Imagine-Final v3.0 — constructive simulation)
-     → Trước: "Hôm nay học phân số"
-     → Sau: "Phân số dùng ở đâu? Em nghĩ khi nào cần chia nhỏ?"
-     → Imagine-Final v3.0: dạy student TO SIMULATE (constructive, không passive receive)
-     → = Imagine-Final mini per lesson → shift body state sang approach
-     → Cost: $0 (30 giây đầu mỗi bài)
+  a) "WHY?" to open every lesson (Imagine-Final v3.0 — constructive simulation)
+     → Before: "Today we study fractions"
+     → After: "Where are fractions used? When do you think you need to divide things smaller?"
+     → Imagine-Final v3.0: teaches students TO SIMULATE (constructive, not passive receive)
+     → = Imagine-Final mini per lesson → shifts body state to approach
+     → Cost: $0 (30 seconds at the start of each lesson)
 
-  b) "Tại sao?" thay "Cái gì?" trong kiểm tra (Mechanism v2.2 §2.9)
-     → "1+1 = 2" = schema-compiled (nhớ, không hiểu)
-     → "TẠI SAO 1+1 = 2? Giải thích cho bạn nhỏ hơn" = genuine-compiled
-     → Compiled Quality: shift assessment signal từ schema → genuine compile
+  b) "Why?" instead of "What?" in assessments (Mechanism v2.2 §2.9)
+     → "1+1 = 2" = schema-compiled (memorized, not understood)
+     → "WHY does 1+1 = 2? Explain it to a younger student" = genuine-compiled
+     → Compiled Quality: shifts assessment signal from schema → genuine compile
      → Cost: $0
 
-  c) "Em hỏi thầy 1 câu" — 5 phút cuối (Connection-Education seed)
-     → Connection-Education v1.1: safe questioning = khía cạnh ② (empathy)
-     → Hiện tại: "hỏi = bất kính" → 57.8% HS sợ sai → passive
-     → 5 phút cuối = SAFE SPACE → seed connection practice
-     → = Increase Domain (Type 1) + reduce Imposed (Type 3) + connection seed
+  c) "One question for the teacher" — final 5 minutes (Connection-Education seed)
+     → Connection-Education v1.1: safe questioning = dimension ② (empathy)
+     → Currently: "asking = disrespectful" → 57.8% of students fear being wrong → passive
+     → Final 5 minutes = SAFE SPACE → seeds connection practice
+     → = Increases Domain (Type 1) + reduces Imposed (Type 3) + connection seed
      → Cost: $0
 
-  Impact: ★★★★☆ (seed approach-path + genuine compile + connection)
-  Feasibility: ★★★★★ (zero cost, GV bắt đầu ngay ngày mai)
+  Impact: ★★★★☆ (seeds approach-path + genuine compile + connection)
+  Feasibility: ★★★★★ (zero cost, teachers can start tomorrow)
 ```
 
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
-║  TIER 2: MEDIUM-TERM — 2-5 năm                                     ║
-║  Cost: MODERATE | Cần: Investment + system change                   ║
+║  TIER 2: MEDIUM-TERM — 2-5 years                                    ║
+║  Cost: MODERATE | Requires: Investment + system change              ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
 ```
-MT-1: TEACHER TRAINING — "BỘ 3" CALIBRATOR 🟡
+MT-1: TEACHER TRAINING — "TRIO" CALIBRATOR 🟡
   Mechanism v2.2 §2.3, §2.7, §2.9 + Education-System v3.2 §7
   + Coordination-Node v1.2 + Entity-Compiled v1.0 + Hardware-Subsidy
-  Cultural leverage: ① Trust = PLATFORM (92% tôn trọng, 97% hài lòng)
+  Cultural leverage: ① Trust = PLATFORM (92% respect, 97% satisfied)
 
-  ACTIONS CỤ THỂ:
+  SPECIFIC ACTIONS:
 
-  a) Chương trình "GV Calibrator" — training "bộ 3"
-     Module 1 — HOW: 8 nguyên lý arc design (Mechanism v2.2 §2)
-       → "Tại sao spacing > cramming?" "Tại sao approach > avoidance?"
-       + PFC Budget: session timing design (ngắn+nghỉ > dài liên tục)
-       + Dissonance-Signal-Architecture: nhận diện Evaluative vs Direct-State ở HS
-         → "Em này cần NGHỈ (Direct-State)" ≠ "Em này cần REFRAME (Evaluative)"
+  a) "Teacher Calibrator" Program — Trio training
+     Module 1 — HOW: 8 arc design principles (Mechanism v2.2 §2)
+       → "Why does spacing > cramming?" "Why does approach > avoidance?"
+       + PFC Budget: session timing design (short+rest > long uninterrupted)
+       + Dissonance-Signal-Architecture: recognize Evaluative vs Direct-State in students
+         → "This student needs REST (Direct-State)" ≠ "This student needs REFRAMING (Evaluative)"
      Module 2 — WHAT: per-hardware observation (Hardware-Calibration v1.2)
        → 6 dimensions + Body-Feedback-Label 3-tier observation
-       + Compiled Quality: observe compile QUALITY, không chỉ compile existence
-         → "Em thuộc bài (schema)" ≠ "Em hiểu sâu (genuine)"
+       + Compiled Quality: observe compile QUALITY, not just compile existence
+         → "Student memorized the lesson (schema)" ≠ "Student deeply understood (genuine)"
      Module 3 — WHO: connection skills (Connection-Education v1.1)
-       → 5 khía cạnh social interaction → GV facilitate, không chỉ lecture
-       + Coordination-Node: prestige (genuine resonance) > dominance (ép buộc)
-       + Entity-Access: build toward Mức 2-3 genuine mentoring
-     Module 4 — BRIDGE: 4 nguồn fill (Mechanism v2.2 §3.1)
+       → 5 social interaction dimensions → teacher facilitates, not just lectures
+       + Coordination-Node: prestige (genuine resonance) > dominance (coercion)
+       + Entity-Access: build toward Level 2-3 genuine mentoring
+     Module 4 — BRIDGE: 4 fill sources (Mechanism v2.2 §3.1)
        → Hardware-Subsidy quality: warm teacher > cold teacher
-       → "CÁCH dạy quan trọng hơn NỘI DUNG dạy" qua subsidy lens
+       → "HOW you teach matters more than WHAT you teach" through the subsidy lens
      Module 5 — TRUST + SELF-OBSERVATION (Trust.md v1.0 + Self-Observation.md v1.0): 🟡
-       → Trust: trust-intention training — "GV care as PERSON" (không chỉ truyền kiến thức)
-         → CONVERT structural trust (92%) sang relational trust per-HS
+       → Trust: trust-intention training — "teacher cares as a PERSON" (not just transmitting knowledge)
+         → CONVERT structural trust (92%) to per-student relational trust
          → Trust §4: PROTECT trust (1 public criticism → trust collapse → calibration BROKEN)
-         → Trust calibration: dạy HS evaluate sources (begin Stage 2, deepen Stage 3)
-       → Self-Observation: teacher minimum Mức 4 (aspirational target)
+         → Trust calibration: teach students to evaluate sources (begin Stage 2, deepen Stage 3)
+       → Self-Observation: teacher minimum Level 4 (aspirational target)
          → "Am I biased?" = meta-observation (detect own threat-compiled patterns)
-         → PFC Budget: recognize khi Self-Observation drops → STOP calibrating, NGHỈ
-         → Teach HS Self-Observation Mức 2: "tôi cảm thấy gì?" = body-signal vocabulary
-       → VN-appropriate framing: "hiểu bản thân để DẠY TỐT hơn" (practical, not therapeutic)
-     → Format: 5 ngày intensive + follow-up hàng tháng
-     → Cost: ~$500-1,000 per GV / pilot 1,000 GV → ~$500K-1M
+         → PFC Budget: recognize when Self-Observation drops → STOP calibrating, REST
+         → Teach students Self-Observation Level 2: "what am I feeling?" = body-signal vocabulary
+       → VN-appropriate framing: "understand yourself to TEACH BETTER" (practical, not therapeutic)
+     → Format: 5-day intensive + monthly follow-up
+     → Cost: ~$500-1,000 per teacher / pilot 1,000 teachers → ~$500K-1M
 
-  b) AI tools hỗ trợ GV — 3-layer + Simulation-Engine
-     → Layer 1: AI = Simulation-Engine generate arc per student
-     → Layer 2: GV calibrate (select + adjust + add subsidy)
-     → Layer 3: HS verify (approach hay avoidance? genuine hay schema?)
-     → Dashboard: "Em A: hardware profile + gap landscape + compile quality pattern"
-     → ⚠️ Phantom 4-factor (Connection v5.0): HS CÓ THỂ form entity với AI tutor
-       → AI feels real nhưng = Mức 0 Tool (NO Hardware-Subsidy)
-       → Cần design: AI = tool, GV = relationship
-     → Cost: MODERATE (71% GV thiếu hạ tầng → pilot urban trước)
+  b) AI tools supporting teachers — 3-layer + Simulation-Engine
+     → Layer 1: AI = Simulation-Engine generates arc per student
+     → Layer 2: teacher calibrates (select + adjust + add subsidy)
+     → Layer 3: student verifies (approach or avoidance? genuine or schema?)
+     → Dashboard: "Student A: hardware profile + gap landscape + compile quality pattern"
+     → ⚠️ Phantom 4-factor (Connection v5.0): students CAN form entities with AI tutors
+       → AI feels real but = Level 0 Tool (NO Hardware-Subsidy)
+       → Design required: AI = tool, teacher = relationship
+     → Cost: MODERATE (71% of teachers lack infrastructure → pilot urban first)
 
   c) 4-Layer Sustainability protection (Resonance-Sustainability v1.0)
-     → GV burnout = 4-Layer collapse: engagement → capacity → meaning → identity
-     → = HỆ THỐNG vấn đề, không phải CÁ NHÂN yếu
-     → GV stress chỉ 4% → GIỮ, ĐỪNG tăng bằng overload reform
-     → Hỗ trợ: training + AI tools + giảm admin + lương tốt hơn
+     → Teacher burnout = 4-Layer collapse: engagement → capacity → meaning → identity
+     → = SYSTEMIC problem, not individual weakness
+     → Teacher stress currently 4% → PRESERVE THIS, don't increase via reform overload
+     → Support: training + AI tools + reduced admin + better pay
      → Cost: LOW-MODERATE
 
   Impact: ★★★★★ (teacher = key lever + subsidy provider + entity)
-  Feasibility: ★★★☆☆ (cost + logistics + 1.25M GV)
+  Feasibility: ★★★☆☆ (cost + logistics + 1.25M teachers)
 
 
 MT-2: ASSESSMENT REFORM — QUALITY > SURFACE 🟡
   Mechanism v2.2 §2.9 + Compiled-Fresh v2.0 §5 (Compiled Quality Dimension)
   + Gap-Distribution-Profile v1.1 + Dissonance-Signal-Architecture v1.0
 
-  ACTIONS CỤ THỂ:
+  SPECIFIC ACTIONS:
 
   a) Compiled Quality assessment (build on GDPT 2018)
-     → HIỆN TẠI: assess "biết hay không" → schema-compiled = ĐẠT
-     → CẦN: assess "biết CÁCH NÀO" → genuine (hiểu sâu) vs schema (thuộc) vs threat (sợ)
-     → Process 50% (2025) → 60-70% by 2030
-     → KEY: process assessment = ĐỘ SÂU, không phải "surface nhiều lần"
-     → Cost: MODERATE (training GV đánh giá quality dimension)
+     → CURRENTLY: assess "knows or doesn't know" → schema-compiled = PASS
+     → NEEDED: assess "knows HOW" → genuine (deep understanding) vs schema (memorized) vs threat (fear-driven)
+     → Process assessment 50% (2025) → 60-70% by 2030
+     → KEY: process assessment = DEPTH, not "more surface-level repetitions"
+     → Cost: MODERATE (training teachers to assess quality dimension)
 
   b) Gap landscape diversification (Gap-Distribution-Profile v1.1)
-     → HIỆN TẠI: 1 bài thi → triệu HS cùng gap profile → credential inflation
+     → CURRENTLY: 1 exam → millions of students with the same gap profile → credential inflation
      → Gap-Distribution-Profile lens: DIVERSE assessment → diverse gap landscape → diverse workforce
-     → Portfolio + project = assess MỖI HS gap RIÊNG (thay vì homogenize)
+     → Portfolio + project = assesses EACH STUDENT'S OWN gap (instead of homogenizing)
      → Cost: MODERATE (training + infrastructure)
-     → Cultural barrier: ⑥ Credential → "portfolio có công nhận không?"
+     → Cultural barrier: ⑥ Credential → "does a portfolio get recognized anywhere?"
 
   c) Exam reform — reduce compound dissonance
-     → Thi tốt nghiệp + thi ĐH = COMPOUND dissonance
-       (Evaluative: "trượt = xấu hổ" + Direct-State: mất ngủ, cortisol chronic)
-     → Dissonance-Signal-Architecture: tách nguồn dissonance → address TỪNG loại
-     → Tách: thi tốt nghiệp ≠ thi ĐH → giảm stake concentration
+     → Graduation exam + university entrance exam = COMPOUND dissonance
+       (Evaluative: "failing = shame" + Direct-State: sleep deprivation, chronic cortisol)
+     → Dissonance-Signal-Architecture: separate the dissonance sources → address EACH type
+     → Separate: graduation exam ≠ university entrance exam → reduce stake concentration
      → Cost: HIGH (political resistance)
 
   Impact: ★★★★★ (assessment drives learning + compile quality + gap landscape)
@@ -429,49 +429,49 @@ MT-3: IMAGINE-FINAL PROGRAM + ENTITY-ACCESS 🟡
   Mechanism v2.2 §2.6 + Imagine-Final v3.0 + Entity-Access v1.2
   + Simulation-Engine v1.1
 
-  ACTIONS CỤ THỂ:
+  SPECIFIC ACTIONS:
 
-  a) Hardware Discovery (THCS — lớp 7-9)
-     → Trải nghiệm nhiều domains → observe body reaction (approach/avoidance)
-     → Entity-Access: domain exposure = Mức 0→1 với nhiều lĩnh vực
-       → Biết domain TRƯỚC khi chọn = INFORMED choice (thay chọn mù)
-     → Output: "Gap Landscape Profile sơ bộ" — compass, không label
+  a) Hardware Discovery (Lower Secondary — Grade 7-9)
+     → Experience many domains → observe body reaction (approach/avoidance)
+     → Entity-Access: domain exposure = Level 0→1 with many fields
+       → Know the domain BEFORE choosing = INFORMED choice (instead of choosing blind)
+     → Output: preliminary Gap Landscape Profile — a compass, not a label
      → Cost: LOW
 
-  b) Imagine-Final Workshop (THPT — lớp 10-11)
-     → Simulation-Engine practice: HS TẬP simulate tương lai
-       → Imagine-Final v3.0: constructive simulation = SKILL, không chỉ "dream"
-       → "Nếu chọn X, 5 năm sau TRÔNG thế nào?" = simulation exercise
-     → Navigate 4 góc quality (Imagine-Final-Evaluation v1.1):
-       "Cái con muốn có THẬT?" (Domain Fit × Hardware Capacity)
-     → Entity-Access lens: career = "con sẽ TƯƠNG TÁC với AI ở Mức nào?"
-       → Era 2025+: Mức 3-4 entity-access skills = competitive advantage
-     → = Build nguồn ① PFC Imagine-Final (thay ④ gia đình inject)
+  b) Imagine-Final Workshop (Upper Secondary — Grade 10-11)
+     → Simulation-Engine practice: students PRACTICE simulating the future
+       → Imagine-Final v3.0: constructive simulation = SKILL, not just "dreaming"
+       → "If you choose X, what does 5 years from now look like?" = simulation exercise
+     → Navigate 4 quality corners (Imagine-Final-Evaluation v1.1):
+       "Is what I want REAL?" (Domain Fit × Hardware Capacity)
+     → Entity-Access lens: career = "what Level will I INTERACT with in the AI era?"
+       → Era 2025+: Level 3-4 entity-access skills = competitive advantage
+     → = Build Source ① PFC Imagine-Final (replacing ④ family-injected)
      → Cost: LOW
 
   c) Parent workshop — redirect subsidy direction
-     → Show: 60% trái ngành, 100K+ SV thất nghiệp mỗi năm
-     → Hardware-Subsidy: "PH chọn HỘ = inject nguồn ④ + subsidy MAX → amplify SAI HƯỚNG"
-       → = "Yêu thương CỰC LỚN → đi SAI hướng CỰC XA" (subsidy × wrong direction)
-     → Reframe: "chọn đúng = HIẾU THẢO" (không lãng phí 4-6 năm ĐH)
+     → Show: 60% working outside their field, 100K+ unemployed graduates per year
+     → Hardware-Subsidy: "parents choose FOR the child = inject Source ④ + subsidy MAX → amplifies WRONG DIRECTION"
+       → = "Enormous love → going enormously in the wrong direction" (subsidy × wrong direction)
+     → Reframe: "choosing correctly = filial piety" (not wasting 4-6 years of university)
      → Cost: LOW
 
-  Impact: ★★★★☆ (giảm Forced-Fit + develop simulation skill)
-  Feasibility: ★★★★☆ (low cost + integrate existing channels)
+  Impact: ★★★★☆ (reduces Forced-Fit + develops simulation skill)
+  Feasibility: ★★★★☆ (low cost + integrate into existing channels)
 
 
 MT-4: HARDWARE-SUBSIDY OPTIMIZATION PER ROLE 🟡
   Entity-Valence-Dynamics.md v1.0 §5 + Entity-Access v1.2
 
-  ACTIONS CỤ THỂ:
+  SPECIFIC ACTIONS:
 
   a) Teacher subsidy quality protection
-     → Class size 50 → subsidy chia 50 → near-zero per student
-     → INTERIM (class size chưa giảm được): AI tools + group design
+     → Class size of 50 → subsidy divided by 50 → near-zero per student
+     → INTERIM (while class size cannot yet be reduced): AI tools + group design
        + prioritize vulnerable students (highest subsidy need)
-     → Training: warm > cold (CÁCH DẠY = subsidy quality)
-       → Cold + competent: student compile KNOWLEDGE nhưng domain AVOIDANCE
-       → Warm + competent: student compile KNOWLEDGE + domain APPROACH
+     → Training: warm > cold (HOW YOU TEACH = subsidy quality)
+       → Cold + competent: student compiles KNOWLEDGE but domain AVOIDANCE
+       → Warm + competent: student compiles KNOWLEDGE + domain APPROACH
      → Cost: LOW-MODERATE
 
   b) Parent subsidy redirect (VN-Cultural-Factors v2.2 §1 Factor 4)
@@ -485,183 +485,183 @@ MT-4: HARDWARE-SUBSIDY OPTIMIZATION PER ROLE 🟡
      → Tutoring = additional subsidy source → QUALITY matters, not just quantity
      → Bad tutoring = bridge overdose + PFC exhaustion + no subsidy
      → Enforce Circular 29/2024 + quality standard (subsidy-aware)
-     → Giảm NHU CẦU (root cause): exam stakes giảm (MT-2c) → tutoring = optional
+     → Reduce DEMAND (root cause): lower exam stakes (MT-2c) → tutoring becomes optional
      → Cost: LOW (enforcement)
 
   Impact: ★★★★☆ (subsidy quality improvement across all channels)
-  Feasibility: ★★★☆☆ (a,b = training / c = enforcement khó)
+  Feasibility: ★★★☆☆ (a,b = training / c = enforcement difficult)
 ```
 
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
-║  TIER 3: LONG-TERM — 5-15 năm                                      ║
-║  Cost: HIGH | Cần: Systemic transformation                          ║
+║  TIER 3: LONG-TERM — 5-15 years                                     ║
+║  Cost: HIGH | Requires: Systemic transformation                     ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
 ```
 LT-1: CLASS SIZE REDUCTION — PFC + SUBSIDY + ENTITY 🟡→🔴
-  → 40-69 HS/lớp → 25-30 (target)
-  → PFC Budget: 1 GV × 50 HS × 40 phút = 48 giây per HS/tiết
-    → Per-individual calibration IMPOSSIBLE ở 50 → possible ở 25
+  → 40-69 students/class → 25-30 (target)
+  → PFC Budget: 1 teacher × 50 students × 40 min = 48 seconds per student/lesson
+    → Per-individual calibration IMPOSSIBLE at 50 → possible at 25
   → Hardware-Subsidy: subsidy ÷ 50 = near-zero per student
-    → Warm presence DILUTED → approach threshold không hạ đủ
-  → Entity-Compiled: 40→200h formation ÷ 50 = weak compiled entity
-    → GV không BIẾT HS → Mức 1 forever → no influence depth
-  → Entity-Access: Mức 2-3 possible ở 25, near-impossible ở 50
-  → Cost: CỰC CAO (cần ~2x GV + 2x phòng học)
-  → Timeline: 10-15 năm
-  → Interim: AI tools (Mechanism v2.2 §4) giúp per-individual TRONG lớp lớn
+    → Warm presence DILUTED → approach threshold not lowered enough
+  → Entity-Compiled: 40→200h formation ÷ 50 = weakly compiled entity
+    → Teacher doesn't KNOW the student → Level 1 forever → no depth of influence
+  → Entity-Access: Level 2-3 possible at 25, near-impossible at 50
+  → Cost: VERY HIGH (requires ~2x teachers + 2x classrooms)
+  → Timeline: 10-15 years
+  → Interim: AI tools (Mechanism v2.2 §4) support per-individual IN large classes
 
-LT-2: "BỘ 3" CURRICULUM 🔴
-  → GDPT 2018 = competency-based (bước 1 — đang triển khai)
-  → Bước 2: "bộ 3" curriculum = HOW + WHAT + WHO integrated
-    → HOW: mechanism-based design per lesson (hiểu TẠI SAO não cần method X)
+LT-2: "TRIO" CURRICULUM 🔴
+  → GDPT 2018 = competency-based (step 1 — currently rolling out)
+  → Step 2: "Trio" curriculum = HOW + WHAT + WHO integrated
+    → HOW: mechanism-based design per lesson (understand WHY the brain needs method X)
     → WHAT: gap landscape shaping (Domain-Knowledge-Map v2.1 + Gap-Distribution-Profile v1.1 — diverse, not homogenized)
-    → WHO: Connection-Education v1.1 as REQUIRED component (không chỉ "đạo đức" 1/5)
-  → Timeline: 5-10 năm
+    → WHO: Connection-Education v1.1 as REQUIRED component (not just "ethics" 1/5)
+  → Timeline: 5-10 years
 
 LT-3: PER-INDIVIDUAL TRACKING — SIMULATION ENGINE 🔴
-  → Simulation-Engine v1.1 at scale: AI generate arc per student
-  → Track per-HS: Gap-Distribution-Profile + Compiled Quality Pattern + Hardware Profile
-  → Dashboard GV: gap landscape per HS + compile quality trend + entity-access level
-  → Privacy: CẦN strong data protection
-  → ⚠️ Phantom risk: student-AI entity formation → cần human check + design
-  → Timeline: 10+ năm
+  → Simulation-Engine v1.1 at scale: AI generates arc per student
+  → Track per student: Gap-Distribution-Profile + Compiled Quality Pattern + Hardware Profile
+  → Teacher dashboard: gap landscape per student + compile quality trend + entity-access level
+  → Privacy: REQUIRES strong data protection
+  → ⚠️ Phantom risk: student-AI entity formation → requires human check + design
+  → Timeline: 10+ years
 
-LT-4: DTTS FOUNDATION + SUBSIDY PRIORITY 🟡
+LT-4: ETHNIC MINORITY FOUNDATION + SUBSIDY PRIORITY 🟡
   → Priority: 3M+ illiterate → Foundation Domains (Domain-Knowledge-Map v2.1 §1) FIRST
-  → Hardware-Subsidy: teacher subsidy ĐẶC BIỆT quan trọng
-    (parent literacy thấp → parent subsidy QUALITY lower → teacher COMPENSATE)
+  → Hardware-Subsidy: teacher subsidy ESPECIALLY critical
+    (parent literacy lower → parent subsidy QUALITY lower → teacher must COMPENSATE)
   → Bilingual education mandatory + community-based learning
-  → Teacher incentive: lương +50-100% cho vùng khó
+  → Teacher incentives: +50-100% pay for remote areas
   → = ETHICAL IMPERATIVE
-  → Timeline: 5-10 năm
+  → Timeline: 5-10 years
 
 LT-5: CULTURAL NARRATIVE SHIFT — COMPILED QUALITY + Dissonance-Signal-Architecture 🔴
-  → Compiled Quality narrative: "biết" → "biết ĐÚNG CÁCH"
-    → "Bằng cấp" → "năng lực genuine" (schema-compiled → genuine-compiled)
-    → "Giỏi" = approach-tagged + genuine-compiled, không chỉ điểm cao
-  → Dissonance-Signal-Architecture narrative: "cố lên" → "nghỉ trước, cố sau"
-    → Address Direct-State TRƯỚC Evaluative = new cultural framing
-  → "Khổ trước sướng sau" → "học đúng cách" (approach, không chronic threat)
-  → "Con phải giỏi vì bố mẹ" → "con là best version" (subsidy redirect)
-  → Timeline: 15-30 năm (1-2 thế hệ)
-  → NHƯNG: bắt đầu NGAY (QW-1 → MT-3c → LT-5)
+  → Compiled Quality narrative: "knowing" → "knowing the RIGHT WAY"
+    → "Credentials" → "genuine competency" (schema-compiled → genuine-compiled)
+    → "Excellent" = approach-tagged + genuine-compiled, not just high scores
+  → Dissonance-Signal-Architecture narrative: "push through" → "rest first, then push"
+    → Address Direct-State BEFORE Evaluative = new cultural framing
+  → "Suffer now, enjoy later" → "learn correctly" (approach, not chronic threat)
+  → "You must excel for us" → "become your best version" (subsidy redirect)
+  → Timeline: 15-30 years (1-2 generations)
+  → BUT: start NOW (QW-1 → MT-3c → LT-5)
 ```
 
 ```
-TỔNG KẾT PRIORITY: 🟡
+PRIORITY SUMMARY: 🟡
 
-  ┌──────┬──────────────────────────────────┬────────┬──────────┬──────────┐
-  │ Code │ Action                           │ Impact │ Feasible │ Timeline │
-  ├──────┼──────────────────────────────────┼────────┼──────────┼──────────┤
-  │      │ TIER 1: QUICK WINS              │        │          │          │
-  │ QW-1 │ Direct-State Recovery + Shift   │ ★★★★★  │ ★★★☆☆   │ 0-1 năm  │
-  │ QW-2 │ Per-hardware + Entity-Access    │ ★★★★☆  │ ★★★★☆   │ 0-1 năm  │
-  │ QW-3 │ Imagine-Final micro + Connection seed     │ ★★★★☆  │ ★★★★★   │ Immediate│
-  ├──────┼──────────────────────────────────┼────────┼──────────┼──────────┤
-  │      │ TIER 2: MEDIUM-TERM             │        │          │          │
-  │ MT-1 │ Teacher "bộ 3" Calibrator      │ ★★★★★  │ ★★★☆☆   │ 2-5 năm  │
-  │ MT-2 │ Assessment: quality > surface   │ ★★★★★  │ ★★☆☆☆   │ 3-10 năm │
-  │ MT-3 │ Imagine-Final program + Entity-Access     │ ★★★★☆  │ ★★★★☆   │ 2-5 năm  │
-  │ MT-4 │ Hardware-Subsidy optimization   │ ★★★★☆  │ ★★★☆☆   │ 2-5 năm  │
-  ├──────┼──────────────────────────────────┼────────┼──────────┼──────────┤
-  │      │ TIER 3: LONG-TERM               │        │          │          │
-  │ LT-1 │ Class size (PFC+Subsidy+Entity)│ ★★★★★  │ ★☆☆☆☆   │ 10-15 năm│
-  │ LT-2 │ "Bộ 3" curriculum             │ ★★★★☆  │ ★★☆☆☆   │ 5-10 năm │
-  │ LT-3 │ Per-individual + Simulation    │ ★★★★★  │ ★☆☆☆☆   │ 10+ năm  │
-  │ LT-4 │ DTTS foundation + Subsidy     │ ★★★★☆  │ ★★☆☆☆   │ 5-10 năm │
-  │ LT-5 │ Cultural + Compiled Quality    │ ★★★★★  │ ★☆☆☆☆   │ 15-30 năm│
-  └──────┴──────────────────────────────────┴────────┴──────────┴──────────┘
+  ┌──────┬────────────────────────────────────┬────────┬──────────┬───────────┐
+  │ Code │ Action                             │ Impact │ Feasible │ Timeline  │
+  ├──────┼────────────────────────────────────┼────────┼──────────┼───────────┤
+  │      │ TIER 1: QUICK WINS                │        │          │           │
+  │ QW-1 │ Direct-State Recovery + Shift     │ ★★★★★  │ ★★★☆☆   │ 0-1 yr    │
+  │ QW-2 │ Per-hardware + Entity-Access      │ ★★★★☆  │ ★★★★☆   │ 0-1 yr    │
+  │ QW-3 │ Imagine-Final micro + Connection  │ ★★★★☆  │ ★★★★★   │ Immediate │
+  ├──────┼────────────────────────────────────┼────────┼──────────┼───────────┤
+  │      │ TIER 2: MEDIUM-TERM               │        │          │           │
+  │ MT-1 │ Teacher "Trio" Calibrator         │ ★★★★★  │ ★★★☆☆   │ 2-5 yrs   │
+  │ MT-2 │ Assessment: quality > surface     │ ★★★★★  │ ★★☆☆☆   │ 3-10 yrs  │
+  │ MT-3 │ Imagine-Final program + Entity    │ ★★★★☆  │ ★★★★☆   │ 2-5 yrs   │
+  │ MT-4 │ Hardware-Subsidy optimization     │ ★★★★☆  │ ★★★☆☆   │ 2-5 yrs   │
+  ├──────┼────────────────────────────────────┼────────┼──────────┼───────────┤
+  │      │ TIER 3: LONG-TERM                 │        │          │           │
+  │ LT-1 │ Class size (PFC+Subsidy+Entity)   │ ★★★★★  │ ★☆☆☆☆   │ 10-15 yrs │
+  │ LT-2 │ "Trio" curriculum                 │ ★★★★☆  │ ★★☆☆☆   │ 5-10 yrs  │
+  │ LT-3 │ Per-individual + Simulation       │ ★★★★★  │ ★☆☆☆☆   │ 10+ yrs   │
+  │ LT-4 │ Ethnic minority foundation        │ ★★★★☆  │ ★★☆☆☆   │ 5-10 yrs  │
+  │ LT-5 │ Cultural + Compiled Quality       │ ★★★★★  │ ★☆☆☆☆   │ 15-30 yrs │
+  └──────┴────────────────────────────────────┴────────┴──────────┴───────────┘
 
-  BẮT ĐẦU TỪ ĐÂU:
-    → QW-3 (Imagine-Final micro + Connection) = feasibility CAO NHẤT → NGÀY MAI
-    → QW-1 (Direct-State + Direction) = impact CAO NHẤT + Dissonance-Signal-Architecture deepest → NGAY
-    → QW-2 (Per-hardware + Entity) = foundation cho calibration → NGAY
-    → MT-1 (Teacher "bộ 3") = KEY LEVER → pilot khi có resource
+  WHERE TO START:
+    → QW-3 (Imagine-Final micro + Connection) = HIGHEST feasibility → TOMORROW
+    → QW-1 (Direct-State + Direction) = HIGHEST impact + deepest Dissonance-Signal-Architecture → NOW
+    → QW-2 (Per-hardware + Entity) = foundation for calibration → NOW
+    → MT-1 (Teacher "Trio") = KEY LEVER → pilot when resources are available
 ```
 
 ---
 
-## 2. TRANSITION PATH — "SỬA MÁY BAY ĐANG BAY"
+## 2. TRANSITION PATH — "FIXING THE AIRPLANE MID-FLIGHT"
 
 ```
-NGUYÊN TẮC TRANSITION: 🟡
+TRANSITION PRINCIPLES: 🟡
 
-  ① DIRECT-STATE TRƯỚC (Dissonance-Signal-Architecture lens)
-     → Address Direct-State TRƯỚC (rest, sleep, physical recovery)
+  ① DIRECT-STATE FIRST (Dissonance-Signal-Architecture lens)
+     → Address Direct-State FIRST (rest, sleep, physical recovery)
      → THEN Evaluative (reframe mindset, narrative shift)
-     → VN hiện tại: address NGƯỢC → sửa ở đây TRƯỚC TIÊN
+     → VN currently: addresses in REVERSE ORDER → fix THIS first
 
-  ② KHÔNG GÂY HẠI THÊM (First, do no harm)
-     → Quick wins = an toàn (thêm approach-path, không bỏ structure)
-     → System change = pilot TRƯỚC khi scale
+  ② FIRST, DO NO HARM
+     → Quick wins = safe (add approach-path, don't remove structure)
+     → System change = pilot BEFORE scaling
 
   ③ PHASED: zero-cost → low → medium → high
-     → $0 changes (mindset shift) BẮT ĐẦU NGAY
-     → Mỗi phase = measurable TRƯỚC khi tiến tiếp
+     → $0 changes (mindset shift) START NOW
+     → Each phase = measurable BEFORE advancing
 
-  ④ SUBSIDY QUALITY TRƯỚC QUANTITY
-     → Improve teacher subsidy quality (warm > cold) TRƯỚC tăng số GV
-     → Redirect parent subsidy TRƯỚC build new programs
+  ④ SUBSIDY QUALITY BEFORE QUANTITY
+     → Improve teacher subsidy quality (warm > cold) BEFORE increasing teacher numbers
+     → Redirect parent subsidy BEFORE building new programs
      → = Work WITH existing resources FIRST
 
-  ⑤ CALIBRATE SYSTEM NHƯ CALIBRATE STUDENT (Mechanism v2.2 §2.7)
+  ⑤ CALIBRATE THE SYSTEM LIKE CALIBRATING A STUDENT (Mechanism v2.2 §2.7)
      → Observe → Hypothesize → Test → Evaluate → Adjust
-     → = Cùng feedback loop — áp dụng cho system level
+     → = Same feedback loop — applied at the system level
 ```
 
 ```
 TRANSITION ROADMAP: 🔴
 
-  PHASE 1: FOUNDATION (năm 1-2) — "Direct-State + Direction"
-    → QW-1: Direct-State recovery + reduce Imposed (rest TRƯỚC reframe)
+  PHASE 1: FOUNDATION (Year 1-2) — "Direct-State + Direction"
+    → QW-1: Direct-State recovery + reduce Imposed (rest BEFORE reframing)
     → QW-2: Per-hardware recognition + Entity-Access seed
     → QW-3: Imagine-Final micro + Connection-Education seed
     → MEASURE: sleep hours, Dissonance-Signal-Architecture prevalence, approach/avoidance proxy, compile quality
-    → Đồng thời CHUẨN BỊ: MT-1 "bộ 3" teacher training design + MT-3 pilot
+    → In parallel PREPARE: MT-1 "Trio" teacher training design + MT-3 pilot
 
-  PHASE 2: BUILD (năm 2-5) — "Training + System pilot"
-    → MT-1: Teacher "bộ 3" Calibrator pilot 1,000 GV
+  PHASE 2: BUILD (Year 2-5) — "Training + System pilot"
+    → MT-1: Teacher "Trio" Calibrator pilot with 1,000 teachers
     → MT-2: Assessment reform — Compiled Quality + gap diversification
-    → MT-3: Imagine-Final program + Entity-Access awareness scale THCS+THPT
+    → MT-3: Imagine-Final program + Entity-Access awareness scaled to lower+upper secondary
     → MT-4: Hardware-Subsidy optimization per role
-    → MEASURE: PISA depth, mental health, % trái ngành, compile quality proxy
-    → Đồng thời CHUẨN BỊ: LT-1 GV tuyển + lương, LT-4 DTTS pilot
+    → MEASURE: PISA depth, mental health, % wrong-field graduates, compile quality proxy
+    → In parallel PREPARE: LT-1 teacher recruitment + pay, LT-4 ethnic minority pilot
 
-  PHASE 3: SCALE (năm 5-10) — "System transformation"
-    → MT scale toàn quốc + LT begin (class size, "bộ 3" curriculum, AI tracking)
-    → LT-4: DTTS foundation scale
+  PHASE 3: SCALE (Year 5-10) — "System transformation"
+    → Scale MT nationwide + begin LT (class size, "Trio" curriculum, AI tracking)
+    → LT-4: Ethnic minority foundation scale
     → MEASURE: full outcome data + compiled quality trend
 
-  PHASE 4: MATURE (năm 10-20) — "New normal"
-    → LT complete + cultural narrative shift bắt đầu thấy
+  PHASE 4: MATURE (Year 10-20) — "New Normal"
+    → LT complete + cultural narrative shift begins to show
     → True-Fit >> Forced-Fit
     → Compiled Quality: genuine >> schema + threat at population scale
 
   ⚠️ ROADMAP = ROUGH DIRECTION → reality WILL differ
 
 
-CONSTRAINTS REALISTIC: 🟡
+REALISTIC CONSTRAINTS: 🟡
 
-  BUDGET: 2.89% GDP giảm → QW (Phase 1) = $0 → KHÔNG phụ thuộc budget
-  POLITICS: GDPT 2018 = evidence VN CÓ political will → can build on top
-  CULTURE: barrier CHẬM NHẤT → QW = work WITHIN culture (leverage, không fight)
-  SCALE: 25M+ HS × 1.25M GV → pilot → scale = cách duy nhất an toàn
+  BUDGET: 2.89% GDP declining → QW (Phase 1) = $0 → NOT budget-dependent
+  POLITICS: GDPT 2018 = evidence VN HAS political will → can build on top
+  CULTURE: slowest barrier → QW = work WITHIN culture (leverage, don't fight)
+  SCALE: 25M+ students × 1.25M teachers → pilot → scale = only safe path
 
   GDPT 2018 SYNERGY: 🟡
-    GDPT 2018 ĐÃ address:
-      → Feedback (§2.7), Depth (§2.9), Adaptability ("tự chủ + tự học"),
-        Ecosystem (tăng tự chủ trường)
-    Roadmap NÀY thêm (v2.1 dimensions):
-      → Direct-State Recovery (Dissonance-Signal-Architecture) — MỚI
-      → Compiled Quality Dimension — MỚI
-      → Hardware-Subsidy optimization — MỚI
-      → "Bộ 3" training (HOW+WHAT+WHO) — MỚI
-      → Gap landscape diversification — MỚI
-      → Entity-Access gradient — MỚI
-    = Complementary, không contradictory
+    GDPT 2018 ALREADY addresses:
+      → Feedback (§2.7), Depth (§2.9), Adaptability ("self-directed + self-learning"),
+        Ecosystem (increased school autonomy)
+    THIS ROADMAP ADDS (v2.1 dimensions):
+      → Direct-State Recovery (Dissonance-Signal-Architecture) — NEW
+      → Compiled Quality Dimension — NEW
+      → Hardware-Subsidy optimization — NEW
+      → "Trio" training (HOW+WHAT+WHO) — NEW
+      → Gap landscape diversification — NEW
+      → Entity-Access gradient — NEW
+    = Complementary, not contradictory
 ```
 
 ---
@@ -669,170 +669,170 @@ CONSTRAINTS REALISTIC: 🟡
 ## 3. PER-STAKEHOLDER RECOMMENDATIONS
 
 ```
-CHÍNH PHỦ / BỘ GD&ĐT:
+GOVERNMENT / MOET:
 
-  CÓ THỂ LÀM NGAY (Circular):
+  CAN DO NOW (via Circular):
     □ Homework cap per grade (QW-1a — PFC Budget + consolidation)
-    □ Cấm đọc điểm/xếp hạng công khai (QW-1b — reduce Imposed → reduce threat-compiled)
-    □ Circular: ngôn ngữ tích cực (QW-2b — Compiled Quality: labels lock threat)
+    □ Ban public grade announcements/rankings (QW-1b — reduce Imposed → reduce threat-compiled)
+    □ Circular: positive language standard (QW-2b — Compiled Quality: labels lock threat)
     □ Enforce Circular 29/2024 (MT-4c — subsidy calibration)
 
-  CẦN ĐẦU TƯ:
-    □ Teacher "bộ 3" Calibrator training (MT-1 — HOW+WHAT+WHO) — PRIORITY
+  REQUIRES INVESTMENT:
+    □ Teacher "Trio" Calibrator training (MT-1 — HOW+WHAT+WHO) — PRIORITY
     □ Imagine-Final program pilot (MT-3 — Imagine-Final v3.0 + Entity-Access)
     □ Assessment reform: Compiled Quality + gap diversification (MT-2)
     □ AI tools 3-layer pilot (MT-1b — Simulation-Engine + Phantom awareness)
-    □ Connection-Education as required component (LT-2 — thay "đạo đức" 1/5 → 5/5)
-    □ Tăng ngân sách GD + lương GV (4-Layer Sustainability)
+    □ Connection-Education as required component (LT-2 — replace "ethics" 1/5 → 5/5)
+    □ Increase education budget + teacher pay (4-Layer Sustainability)
 
   MEASURE:
     → Mental health survey (Dissonance-Signal-Architecture: Evaluative vs Direct-State prevalence)
     → PISA depth + Compiled Quality proxy (Level 5+ %)
     → Gap-Distribution-Profile diversity (vs credential homogenization)
-    → Sleep hours HS per grade (Direct-State recovery indicator)
+    → Student sleep hours per grade (Direct-State recovery indicator)
     → Teacher sustainability (4-Layer: engagement, capacity, meaning, identity)
-    → % SV đúng ngành (vs 40% hiện tại)
+    → % graduates working in their field (vs current 40%)
 
 
-TRƯỜNG / HIỆU TRƯỞNG:
+SCHOOLS / PRINCIPALS:
 
-  LÀM NGAY:
-    □ Dừng đọc điểm/xếp hạng (reduce Imposed → reduce threat-compiled)
-    □ Họp PH đầu năm: Hardware-Subsidy awareness (guilt = corrupted subsidy)
-    □ "5 phút cuối": HS hỏi bất cứ gì (Connection-Education seed)
-    □ Tuần đầu năm: GV observe (Entity-Access: begin Mức 2)
-    □ Homework cap ở cấp trường (PFC Budget protection)
+  DO NOW:
+    □ Stop announcing grades/rankings (reduce Imposed → reduce threat-compiled)
+    □ Year-opening parent meeting: Hardware-Subsidy awareness (guilt = corrupted subsidy)
+    □ "5 final minutes": students ask anything (Connection-Education seed)
+    □ First week of school: teachers observe (Entity-Access: begin Level 2)
+    □ Homework cap at school level (PFC Budget protection)
 
-  TẠO VĂN HÓA:
-    □ Compiled Quality: khen "hiểu sâu" > khen "thuộc bài"
-    □ Coordination-Node: GV = prestige (vì GIỎI), không dominance (vì SỢ)
-    □ Connection-Education: "hôm nay em thế nào?" (khía cạnh ② empathy)
+  BUILD CULTURE:
+    □ Compiled Quality: praise "deep understanding" > praise "memorization"
+    □ Coordination-Node: teachers = prestige (because they are SKILLED), not dominance (because of FEAR)
+    □ Connection-Education: "how are you today?" (dimension ② empathy)
     □ Rest = learning (PFC Budget + Dissonance-Signal-Architecture: Direct-State recovery)
-    □ "Sai = HỌC" — Compiled Quality: sai + sửa = genuine compile
+    □ "Mistakes = LEARNING" — Compiled Quality: mistake + correction = genuine compile
 
 
-GIÁO VIÊN:
+TEACHERS:
 
-  LÀM NGAY (ngày mai):
-    □ "TẠI SAO?" mở đầu bài (Imagine-Final v3.0 — teach simulation)
-    □ Dừng "em lười/kém" (Compiled Quality — labels LOCK threat-compiled)
-    □ Feedback cá nhân thay công khai (reduce Imposed)
-    □ "Em hỏi thầy 1 câu" (Connection-Education + Domain increase)
-    □ Observe hardware: visual? kinesthetic? verbal? (Entity-Access: Mức 2 begin)
+  DO NOW (starting tomorrow):
+    □ "WHY?" to open lessons (Imagine-Final v3.0 — teach simulation)
+    □ Stop "you're lazy/slow" (Compiled Quality — labels LOCK threat-compiled)
+    □ Individual feedback instead of public (reduce Imposed)
+    □ "One question for the teacher" (Connection-Education + increase Domain)
+    □ Observe hardware: visual? kinesthetic? verbal? (Entity-Access: begin Level 2)
 
-  HỌC ("bộ 3"):
-    □ HOW: 8 nguyên lý + PFC Budget + Dissonance-Signal-Architecture nhận diện
-    □ WHAT: 6 domains + per-HS gap landscape (Gap-Distribution-Profile)
-    □ WHO: 5 khía cạnh Connection-Education + Entity-Access gradient
-    □ BRIDGE: 4 nguồn fill + Hardware-Subsidy quality (warm > cold)
+  LEARN ("Trio"):
+    □ HOW: 8 principles + PFC Budget + recognize Dissonance-Signal-Architecture
+    □ WHAT: 6 domains + per-student gap landscape (Gap-Distribution-Profile)
+    □ WHO: 5 dimensions Connection-Education + Entity-Access gradient
+    □ BRIDGE: 4 fill sources + Hardware-Subsidy quality (warm > cold)
     □ COORDINATION: prestige > dominance (Coordination-Node v1.2)
 
-  VAI TRÒ: CALIBRATOR + SUBSIDY PROVIDER (Education-System v3.2 §7)
-    → "Tôn sư" = VẪN GIỮ → "trọng" vì GV calibrate GIỎI (prestige)
-    → Hardware-Subsidy: CÁCH DẠY = subsidy quality
+  ROLE: CALIBRATOR + SUBSIDY PROVIDER (Education-System v3.2 §7)
+    → "Teacher reverence" = RETAINED → respected because teachers CALIBRATE WELL (prestige)
+    → Hardware-Subsidy: HOW YOU TEACH = subsidy quality
       → Warm + competent: genuine compile | Cold + competent: threat compile
-    → Entity-Access: build toward Mức 2-3 (genuine mentoring over time)
-    → Trust ĐÃ CÓ (92%) → shift ROLE, không cần build trust
+    → Entity-Access: build toward Level 2-3 (genuine mentoring over time)
+    → Trust ALREADY EXISTS (92%) → shift ROLE, no need to build trust
     → Trust.md v1.0: CONVERT structural → RELATIONAL trust 🟡
-      → 92% authority trust → NOW add trust-intention depth (care per-HS)
+      → 92% authority trust → NOW add trust-intention depth (care per student)
       → Trust §4: PROTECT — 1 harsh moment → trust collapse → calibration impossible
-      → First weeks: trust-building TRƯỚC content depth (trust = amplifier)
-    → Self-Observation.md v1.0: teacher Self-Observation minimum Mức 4 🟡
-      → "Tôi mệt → calibration quality GIẢM → cần nghỉ" (Mức 3)
-      → "Tôi hay biased với HS giỏi" = Mức 4 (pattern observation)
-      → PFC Budget: recognize khi Self-Observation drops → STOP calibrating
+      → First weeks: trust-building BEFORE content depth (trust = amplifier)
+    → Self-Observation.md v1.0: teacher Self-Observation minimum Level 4 🟡
+      → "I'm tired → calibration quality DROPS → need rest" (Level 3)
+      → "I tend to favor high-performing students" = Level 4 (pattern observation)
+      → PFC Budget: recognize when Self-Observation drops → STOP calibrating
 
-  ⚠️ GV CẦN HỖ TRỢ (4-Layer Sustainability):
-    → Thiếu 102K, lương thấp, lớp 50+
-    → Reform = THÊM skills → phải ĐI KÈM reduce burden
-    → GV stress 4% → GIỮ bằng: training + AI + giảm admin + lương tốt hơn
-
-
-PHỤ HUYNH:
-
-  NHẬN THỨC (Hardware-Subsidy + Dissonance-Signal-Architecture lens):
-    □ "Bố mẹ = MAX subsidy → ĐI ĐÚNG HƯỚNG = TỐT NHẤT thế giới
-      | ĐI SAI HƯỚNG = DAMAGE MẠNH NHẤT thế giới" (Entity-Valence-Dynamics.md v1.0 §5)
-    □ "Guilt = corrupted subsidy → amplify THREAT, not approach"
-    □ "Nghỉ ngơi = Direct-State recovery → PHẢI có TRƯỚC reframe"
-    □ "60% trái ngành = subsidy MAX nhưng direction SAI → waste 4-6 năm ĐH"
-    □ "So sánh con = install anchor threat-compiled SUỐT ĐỜI"
-
-  THAY ĐỔI HÀNH VI:
-    □ DỪNG: so sánh (Imposed → threat-compiled lock)
-      → THÊM: observe con (Entity-Access begin + per-hardware awareness)
-    □ DỪNG: chọn ngành CHO con (inject nguồn ④ + subsidy amplify SAI)
-      → THÊM: giúp con khám phá (support nguồn ① + subsidy amplify ĐÚNG)
-    □ DỪNG: kiểm tra điểm MỖI NGÀY → THÊM: "hôm nay em HỌC GÌ?"
-    □ THÊM: cho con NGỦ ĐỦ (Direct-State recovery TRƯỚC mọi thứ)
-    □ THÊM: thời gian CHƠI + EXPLORE (gap landscape exposure)
-
-  REFRAME "ĐỔI ĐỜI":
-    → Giữ ENERGY → đổi DIRECTION:
-    → "Đổi đời = con THRIVING + đóng góp + khỏe mạnh" (Sweet Spot)
-    → Không phải: "đổi đời = con CÓ BẰNG" (Mismatch + schema-compiled)
-
-  ⚠️ NHẠY CẢM: PH VN = QUAN TÂM SÂU → nói "PH sai" = OFFENSIVE
-    → Approach: "PH đang làm TỐT → subsidy MAX = TỐT NHẤT → chỉ cần redirect hướng"
+  ⚠️ TEACHERS NEED SUPPORT (4-Layer Sustainability):
+    → 102K shortage, low pay, classes of 50+
+    → Reform = ADDS skills → MUST be accompanied by reduced burden
+    → Teacher stress currently 4% → PRESERVE IT through: training + AI + less admin + better pay
 
 
-HỌC SINH (Stage 3+, THPT — 15+):
+PARENTS:
 
-  TỰ NHẬN THỨC:
-    □ "Tôi học KIỂU NÀO?" → hardware awareness (per-individual calibration)
-    □ "Tôi hứng thú GÌ?" → body approach signal (genuine-compiled domains)
-    □ "Tôi stress vì ĐÂU?" → Dissonance-Signal-Architecture: Evaluative (reframeable) vs Direct-State (cần nghỉ)
-    □ "Tôi ngủ ĐỦ chưa?" → Direct-State check TRƯỚC mọi reframe
-    □ Self-Observation.md v1.0 LENS — body awareness = Mức 2 foundation: 🟡
-      → "Tôi cảm thấy gì trong người?" = Mức 2 (body-recognize)
-      → "Khi nào tôi tập trung nhất?" = Mức 3 (body-predict → optimize learning)
-      → Frame: practical — "hiểu body → học hiệu quả hơn" (not therapeutic)
+  AWARENESS (Hardware-Subsidy + Dissonance-Signal-Architecture lens):
+    □ "Parents = MAX subsidy → going in the RIGHT DIRECTION = BEST IN THE WORLD
+      | going in the WRONG DIRECTION = MOST DAMAGING IN THE WORLD" (Entity-Valence-Dynamics.md v1.0 §5)
+    □ "Guilt = corrupted subsidy → amplifies THREAT, not approach"
+    □ "Rest = Direct-State recovery → MUST COME BEFORE reframing"
+    □ "60% working outside their field = MAX subsidy but WRONG direction → wastes 4-6 years of university"
+    □ "Comparing your child to others = installs a threat-compiled anchor FOR LIFE"
+
+  BEHAVIOR CHANGE:
+    □ STOP: comparison (Imposed → threat-compiled lock)
+      → ADD: observe your child (Entity-Access begins + per-hardware awareness)
+    □ STOP: choosing the major FOR the child (injects Source ④ + subsidy amplifies WRONG)
+      → ADD: help the child explore (supports Source ① + subsidy amplifies RIGHT)
+    □ STOP: checking grades EVERY DAY → ADD: "what did you LEARN today?"
+    □ ADD: let child SLEEP ENOUGH (Direct-State recovery BEFORE everything else)
+    □ ADD: time for PLAY + EXPLORATION (gap landscape exposure)
+
+  REFRAME "TRANSFORM LIFE":
+    → Keep the ENERGY → change the DIRECTION:
+    → "Transform life = child THRIVING + contributing + healthy" (Sweet Spot)
+    → Not: "transform life = child HAS A DEGREE" (Mismatch + schema-compiled)
+
+  ⚠️ SENSITIVE: VN PARENTS CARE DEEPLY → saying "parents are wrong" = OFFENSIVE
+    → Approach: "parents are doing GREAT → MAX subsidy = THE BEST → just need to redirect the direction"
+
+
+STUDENTS (Stage 3+, Upper Secondary — 15+):
+
+  SELF-AWARENESS:
+    □ "How do I learn best?" → hardware awareness (per-individual calibration)
+    □ "What am I interested in?" → body approach signal (genuine-compiled domains)
+    □ "What am I stressed about?" → Dissonance-Signal-Architecture: Evaluative (reframeable) vs Direct-State (need rest)
+    □ "Am I sleeping enough?" → Direct-State check BEFORE any reframing
+    □ Self-Observation.md v1.0 LENS — body awareness = Level 2 foundation: 🟡
+      → "What am I feeling in my body?" = Level 2 (body-recognize)
+      → "When am I most focused?" = Level 3 (body-predict → optimize learning)
+      → Frame: practical — "understand your body → learn more effectively" (not therapeutic)
 
   META-LEARNING + SIMULATION:
     □ Spacing > cramming (PFC Budget: 5×5 > 25×1)
-    □ Explain lại cho bạn = genuine compile (vs schema compile "thuộc bài")
-    □ Tập SIMULATE: "Nếu chọn X, 5 năm sau?" (Imagine-Final v3.0 — constructive simulation skill)
-    □ AI tools: "giải thích KHÁC ĐI" → depth + gap exploration (nhưng AI = tool, Mức 0)
+    □ Explain it back to a friend = genuine compile (vs schema compile "memorized it")
+    □ Practice SIMULATE: "If I choose X, what does 5 years from now look like?" (Imagine-Final v3.0 — constructive simulation skill)
+    □ AI tools: "explain it differently" → depth + gap exploration (but AI = tool, Level 0)
 
-  ⚠️ HS KHÔNG PHẢI "LỖI" CỦA HỆ THỐNG:
-    → "Học để thi" = RATIONAL response cho system hiện tại
-    → File nói "HS CÓ THỂ" → không nói "HS PHẢI"
+  ⚠️ STUDENTS ARE NOT THE "FAULT" OF THE SYSTEM:
+    → "Study to pass tests" = RATIONAL response to the current system
+    → This file says "students CAN" → not "students MUST"
 ```
 
 ---
 
-## 4. VN ĐÓNG GÓP GÌ VÀO IMAGINE-FINAL GLOBAL?
+## 4. VN'S CONTRIBUTION TO GLOBAL IMAGINE-FINAL
 
 ```
 CONTRIBUTION 1: SUBSIDY PLATFORM MODEL 🟡
-  → GDP thấp, outcomes CAO → Hardware-Subsidy quality = key variable
-  → VN teacher trust 92% = subsidy PLATFORM mà nhiều nước ĐÃ MẤT
-  → NẾU VN optimize subsidy quality (warm > cold, redirect parent guilt)
-    → = Model cho mọi nước có cultural teacher respect
+  → Low GDP, HIGH outcomes → Hardware-Subsidy quality = key variable
+  → VN teacher trust 92% = subsidy PLATFORM that many countries HAVE ALREADY LOST
+  → IF VN optimizes subsidy quality (warm > cold, redirect parent guilt)
+    → = Model for every country with a cultural tradition of teacher respect
 
 CONTRIBUTION 2: COMPILED QUALITY RESEARCH — PISA PARADOX 🟡
-  → "Cùng machinery → ACHIEVEMENT + MENTAL HEALTH CRISIS"
+  → "Same machinery → ACHIEVEMENT + MENTAL HEALTH CRISIS"
   → v2.1 reframe: VN = massive dataset of schema + threat-compiled at scale
-    → "Biết nhưng ghét" = COMPILED QUALITY problem, not volume problem
-  → Core question: "Shift compile QUALITY mà giữ compile QUANTITY?"
-  → Nếu VN solve → contribution cho mọi high-pressure system (2+ tỷ người)
+    → "Knows but hates it" = COMPILED QUALITY problem, not volume problem
+  → Core question: "Shift compile QUALITY while keeping compile QUANTITY?"
+  → If VN solves this → contribution for every high-pressure system (2+ billion people)
 
 CONTRIBUTION 3: Dissonance-Signal-Architecture IN EDUCATION — FIRST MOVER 🟡→🔴
-  → NẾU VN pilot "Direct-State trước, Evaluative sau" ở population scale
+  → IF VN pilots "Direct-State first, then Evaluative" at population scale
   → = Test case: Dissonance-Signal-Architecture applied to education reform
-  → = Model mới cho mental health + education integration
+  → = New model for mental health + education integration
 
-CONTRIBUTION 4: "BỘ 3" CURRICULUM INTEGRATION 🟡
-  → GDPT 2018 = competency-based → NẾU thêm "bộ 3" (HOW+WHAT+WHO)
+CONTRIBUTION 4: "TRIO" CURRICULUM INTEGRATION 🟡
+  → GDPT 2018 = competency-based → IF "Trio" (HOW+WHAT+WHO) is added
   → = First developing country with mechanism-based + connection curriculum
-  → Phased rollout (2020-2025) = replicable model cho developing countries
+  → Phased rollout (2020-2025) = replicable model for developing countries
 
-CONTRIBUTION 5: "GIỮ DRIVE, ĐỔI DIRECTION" MODEL 🟡→🔴
-  → VN + East Asia: DRIVE cực mạnh (cultural machinery)
-  → = NẾU VN thành công shift DIRECTION mà giữ DRIVE
+CONTRIBUTION 5: "KEEP DRIVE, CHANGE DIRECTION" MODEL 🟡→🔴
+  → VN + East Asia: EXTREMELY STRONG DRIVE (cultural machinery)
+  → = IF VN successfully shifts DIRECTION while keeping DRIVE
     → + Compiled Quality shift (threat→genuine) + Dissonance-Signal-Architecture (rest before reframe)
-    → = Evidence: culture CÓ THỂ evolve mà KHÔNG mất identity
-    → = Universal model cho 2+ tỷ người trong high-pressure systems
+    → = Evidence: culture CAN evolve WITHOUT losing identity
+    → = Universal model for 2+ billion people in high-pressure systems
 ```
 
 ---
@@ -840,95 +840,95 @@ CONTRIBUTION 5: "GIỮ DRIVE, ĐỔI DIRECTION" MODEL 🟡→🔴
 ## 5. HONEST ASSESSMENT
 
 ```
-⭐ CÁI FILE NÀY CÓ THỂ LÀM:
+WHAT THIS FILE CAN DO:
 
-  ✅ Derive hướng đi từ Mechanism v2.2 lens + 12 new concepts + data + culture
-  ✅ Dissonance-Signal-Architecture depth: "Direct-State TRƯỚC" > "giảm cortisol" — DEEPER intervention
-  ✅ Hardware-Subsidy depth: "subsidy quality" > "thêm resources" — CỤ THỂ hơn
-  ✅ Compiled Quality: "genuine compile" > "biết nhiều" — CHẤT hơn
-  ✅ Gap-Distribution-Profile: "gap diversification" > "credential reform" — SYSTEMIC hơn
-  ✅ Show: Quick wins = $0 → bắt đầu NGAY
-  ✅ Respect culture: leverage + redirect, không fight + xóa
+  ✅ Derive direction from Mechanism v2.2 lens + 12 new concepts + data + culture
+  ✅ Dissonance-Signal-Architecture depth: "Direct-State FIRST" > "reduce cortisol" — DEEPER intervention
+  ✅ Hardware-Subsidy depth: "subsidy quality" > "add more resources" — MORE SPECIFIC
+  ✅ Compiled Quality: "genuine compile" > "know more" — HIGHER QUALITY
+  ✅ Gap-Distribution-Profile: "gap diversification" > "credential reform" — MORE SYSTEMIC
+  ✅ Show: Quick wins = $0 → can start NOW
+  ✅ Respect culture: leverage + redirect, don't fight + erase
 
 
-⭐ CÁI FILE NÀY KHÔNG THỂ LÀM:
+WHAT THIS FILE CANNOT DO:
 
-  ❌ ĐẢM BẢO recommendations SẼ WORK
-     → 12 new concepts THÊM depth → cũng thêm COMPLEXITY
-     → "Dissonance-Signal-Architecture in education" = CHƯA AI thử ở system level → 🔴 territory
-  ❌ PREDICT timeline chính xác
+  ❌ GUARANTEE that recommendations WILL WORK
+     → 12 new concepts ADD depth → also ADD complexity
+     → "Dissonance-Signal-Architecture in education" = NO ONE has tried at system level → 🔴 territory
+  ❌ PREDICT an accurate timeline
      → Political changes, budget shifts, AI leaps = unpredictable
-  ❌ THAY THẾ chuyên gia local
-     → Framework = 1 perspective → cần NHIỀU perspectives
-     → Chuyên gia VN CÓ THỂ bác bỏ toàn bộ → và CÓ THỂ ĐÚNG
-  ❌ GIẢI QUYẾT structural issues
-     → Budget giảm, teacher shortage, digital divide
-     → "Tăng lương GV" = đúng → WHERE'S THE MONEY?
+  ❌ REPLACE local experts
+     → Framework = 1 perspective → needs MANY perspectives
+     → VN experts COULD refute everything here → and COULD BE RIGHT
+  ❌ RESOLVE structural issues
+     → Declining budget, teacher shortage, digital divide
+     → "Increase teacher pay" = correct → WHERE'S THE MONEY?
   ❌ VALIDATE new concepts at scale
      → Hardware-Subsidy, Dissonance-Signal-Architecture, Compiled Quality = framework concepts
-     → Chưa tested as intervention framework
+     → Not yet tested as an intervention framework
 
 
-⭐ RỦI RO CỤ THỂ:
+SPECIFIC RISKS:
 
-  ⚠️ ARMCHAIR ANALYSIS (rủi ro CAO NHẤT):
-     → Author = researcher, không phải GV/hiệu trưởng/policy maker
+  ⚠️ ARMCHAIR ANALYSIS (HIGHEST risk):
+     → Author = researcher, not a teacher/principal/policy maker
      → MITIGATION: pilot SMALL → measure → adjust → scale
 
   ⚠️ v2.1 COMPLEXITY RISK:
-     → 12 new concepts → chuyên gia GD KHÔNG quen vocabulary
-     → MITIGATION: "bộ 3" framing = simpler entry point
+     → 12 new concepts → education specialists unfamiliar with the vocabulary
+     → MITIGATION: "Trio" framing = simpler entry point
      → "HOW (arc design) + WHAT (domain) + WHO (connection)" = accessible
 
   ⚠️ CULTURAL REFRAME DIFFICULTY:
-     → "Đổi ORIGIN threat" = 1 dòng → 844 năm cultural inertia
+     → "Change threat ORIGIN" = one sentence → 844 years of cultural inertia
      → MITIGATION: start small, build evidence, be patient
 
-  ⚠️ DTTS/RURAL UNDER-ADDRESSED:
-     → File chủ yếu address mainstream (urban Kinh)
-     → DTTS cần analysis RIÊNG (language, culture, geography, poverty)
+  ⚠️ ETHNIC MINORITY/RURAL UNDER-ADDRESSED:
+     → This file primarily addresses the mainstream (urban Kinh)
+     → Ethnic minorities need a SEPARATE analysis (language, culture, geography, poverty)
 
-  ⚠️ PHANTOM RISK (MỚI v2.1):
+  ⚠️ PHANTOM RISK (NEW v2.1):
      → AI recommendations → student-AI entity formation
-     → AI = Mức 0 Tool (NO subsidy) nhưng brain TREATS as entity
+     → AI = Level 0 Tool (NO subsidy) but brain TREATS it as an entity
      → = UNINTENDED CONSEQUENCE of AI-in-education recommendations
 
 
-⭐ ĐỘ TIN CẬY:
+CONFIDENCE LEVELS:
 
-  ┌──────────────────────────────────────┬────────────┬──────────────────┐
-  │ Phần                                 │ Confidence │ Giải thích       │
-  ├──────────────────────────────────────┼────────────┼──────────────────┤
-  │ §0 Imagine-Final VN                  │ 🟡         │ Derived well     │
-  │ §1 Quick wins (QW 1-3)              │ 🟡         │ Low risk + deep  │
-  │ §1 Medium-term (MT 1-4)             │ 🟡→🔴      │ Requires pilot   │
-  │ §1 Long-term (LT 1-5)              │ 🔴         │ Speculative      │
-  │ §2 Transition roadmap               │ 🔴         │ Rough direction  │
-  │ §3 Per-stakeholder                   │ 🟡         │ Practical        │
-  │ §4 VN global contribution           │ 🟡→🔴      │ Speculative      │
-  │ §5 Honest Assessment                 │ Meta       │ Self-aware       │
-  └──────────────────────────────────────┴────────────┴──────────────────┘
+  ┌──────────────────────────────────────┬────────────┬──────────────────────┐
+  │ Section                              │ Confidence │ Notes                │
+  ├──────────────────────────────────────┼────────────┼──────────────────────┤
+  │ §0 Imagine-Final VN                  │ 🟡         │ Well-derived         │
+  │ §1 Quick wins (QW 1-3)              │ 🟡         │ Low risk + deep      │
+  │ §1 Medium-term (MT 1-4)             │ 🟡→🔴      │ Requires piloting    │
+  │ §1 Long-term (LT 1-5)              │ 🔴         │ Speculative          │
+  │ §2 Transition roadmap               │ 🔴         │ Rough direction      │
+  │ §3 Per-stakeholder                   │ 🟡         │ Practical            │
+  │ §4 VN global contribution           │ 🟡→🔴      │ Speculative          │
+  │ §5 Honest Assessment                 │ Meta       │ Self-aware           │
+  └──────────────────────────────────────┴────────────┴──────────────────────┘
 
 
-KHUYẾN NGHỊ ĐỌC TOÀN BỘ 3 FILES:
+READING ALL 3 FILES — RECOMMENDATION:
 
-  → ĐỌC NHƯ: "1 framework's perspective on VN education"
-  → KHÔNG ĐỌC NHƯ: "THE answer cho VN education"
-  → CẦN BỔ SUNG: chuyên gia GD VN, GV thực tế, PH, HS, policy makers
-  → CẦN CẬP NHẬT: khi GDPT 2018 có outcome data (~2027-2028)
-  → BEST USE: conversation starter + deeper lens, không phải final conclusion
+  → READ AS: "one framework's perspective on VN education"
+  → DO NOT READ AS: "THE answer for VN education"
+  → MUST SUPPLEMENT WITH: VN education specialists, practicing teachers, parents, students, policy makers
+  → MUST UPDATE: when GDPT 2018 has outcome data (~2027-2028)
+  → BEST USE: conversation starter + deeper analytical lens, not a final conclusion
 ```
 
 ---
 
-## KẾT NỐI
+## CONNECTIONS
 
 ```
-FILE NÀY KẾT NỐI VỚI:
+THIS FILE CONNECTS TO:
 
-  ← TOÀN BỘ CHAIN (input — 5 tầng):
+  ← FULL CHAIN (input — 5 tiers):
 
-    TẦNG 1 — Core-Deep-Dive/:
+    TIER 1 — Core-Deep-Dive/:
       Core-Software.md v2.0 — cycle-based architecture
       Cortisol-Baseline.md v2.1 — amplifier reframe, 5 Roles
       Imagine-Final.md v3.0 — boundary reframe, constructive simulation
@@ -936,7 +936,7 @@ FILE NÀY KẾT NỐI VỚI:
       Dissonance-Signal-Architecture.md v1.0 ⭐NEW — Evaluative vs Direct-State dissonance
       Entity-Valence-Dynamics.md v1.0 ⭐ — Hardware-Subsidy §5
       Trust.md v1.0 ⭐NEW — 3 sub-dimensions, Default→Calibrated, trust-intention training
-      Self-Observation.md v1.0 ⭐NEW — Mức 0-6, Tool Not Virtue, teacher Mức 4 target
+      Self-Observation.md v1.0 ⭐NEW — Level 0-6, Tool Not Virtue, teacher Level 4 target
 
     PFC-BODY-FEEDBACK:
       PFC-Label.md v1.0 ⭐NEW — vocabulary standard
@@ -946,64 +946,64 @@ FILE NÀY KẾT NỐI VỚI:
     AGENT-ENTITY:
       Agent-Mechanism.md v2.1 — Self-Pattern-Modeling v3.1
       Entity-Compiled.md v1.0 ⭐NEW — 40→200h formation
-      Entity-Access.md v1.2 ⭐NEW — Mức 0-5 gradient
+      Entity-Access.md v1.2 ⭐NEW — Level 0-5 gradient
       Coordination-Node.md v1.2 ⭐NEW — prestige vs dominance
       Connection.md v5.0 — Resonance Decline, Phantom 4-factor
       Resonance-Sustainability.md v1.0 ⭐NEW — 4-Layer model
 
     NEW-CONCEPTS:
-      Gap-Distribution-Profile.md v1.1 ⭐NEW — 4 trục gap landscape
+      Gap-Distribution-Profile.md v1.1 ⭐NEW — 4-axis gap landscape
       Compiled-Fresh.md v2.0 — Compiled Quality Dimension (genuine/schema/threat)
       Gap-Body-Need.md v1.0 ⭐NEW — ENGINE/ROAD/VEHICLE §9
 
-    TẦNG 2 — Research/Child-Development/:
+    TIER 2 — Research/Child-Development/:
       Child-Development-Mechanism.md v2.3 — Compile Architecture, approach/avoidance
 
-    TẦNG 3 — Research/Human-Learning/ ("bộ 3"):
-      Education-Mechanism.md v2.2 ⭐ — HOW: 8 nguyên lý + 12 new concepts
+    TIER 3 — Research/Human-Learning/ ("Trio"):
+      Education-Mechanism.md v2.2 ⭐ — HOW: 8 principles + 12 new concepts
       Domain-Knowledge-Map.md v2.1 — WHAT: 3-tier taxonomy
-      Connection-Education.md v1.1 ⭐NEW — WHO: 5 khía cạnh social-emotional
+      Connection-Education.md v1.1 ⭐NEW — WHO: 5 social-emotional dimensions
       Compile-Type-Learning.md v1.3 — compile types + quality in education
-      Expansion-Saturation-Crisis.md v1.2 — grad unemployment, credential inflation
-      Money-Education.md v1.1 — tiền × education observation
-      Education-Arms-Race.md v1.3 — cạnh tranh giáo dục
+      Expansion-Saturation-Crisis.md v1.2 — graduate unemployment, credential inflation
+      Money-Education.md v1.1 — money × education observation
+      Education-Arms-Race.md v1.3 — educational competition
 
-    TẦNG 4 — Applications/Education-System/:
-      Education-System.md v3.2 — ENGINE/ROAD/VEHICLE + "bộ 3" architecture
+    TIER 4 — Applications/Education-System/:
+      Education-System.md v3.2 — ENGINE/ROAD/VEHICLE + "Trio" architecture
       Hardware-Calibration.md v1.2 — per-individual + Body-Feedback-Label lens
       Era-Analysis-2025.md v2.2 — context 2025+ AI + Phantom
       Curriculum-Framework.md v2.3 — 3-tier + Gap Landscape
 
-    TẦNG 5 — VN/:
+    TIER 5 — VN/:
       VN-Education-Status.md v2.2 — data + Mechanism v2.2 evaluation
       VN-Cultural-Factors.md v2.2 — 8 cultural factors + leverage + risk
-      VN-Recommendations.md v2.2 ← FILE NÀY = output cuối cùng
+      VN-Recommendations.md v2.2 ← THIS FILE = final output
 
 
   → OUTPUT:
 
-    FLOW ĐỌC:
-      Core (brain) → Child-Dev (0-6) → "Bộ 3" (HOW+WHAT+WHO)
+    READING FLOW:
+      Core (brain) → Child-Dev (0-6) → "Trio" (HOW+WHAT+WHO)
       → System (ideal, ENGINE/ROAD/VEHICLE) + Era + Hardware
-      → VN Status (data) → VN Culture (context) → VN Recommendations (ĐÂY)
+      → VN Status (data) → VN Culture (context) → VN Recommendations (THIS)
 
-      = 5 tầng × 30+ files → converge vào 12 ACTIONS cụ thể cho VN
-      = Framework HOÀN THÀNH 1 CYCLE: mechanism → analysis → application
+      = 5 tiers × 30+ files → converge into 12 specific ACTIONS for VN
+      = Framework COMPLETES 1 CYCLE: mechanism → analysis → application
 
-    KEY v2.1 ADDITIONS so với v2.0:
-      → "Direct-State Recovery TRƯỚC" > "giảm cortisol" (Dissonance-Signal-Architecture)
-      → "Subsidy quality per role" > "thêm resources" (Hardware-Subsidy)
-      → "Genuine compile" > "compile nhiều" (Compiled Quality)
+    KEY v2.1 ADDITIONS vs v2.0:
+      → "Direct-State Recovery FIRST" > "reduce cortisol" (Dissonance-Signal-Architecture)
+      → "Subsidy quality per role" > "add resources" (Hardware-Subsidy)
+      → "Genuine compile" > "compile more" (Compiled Quality)
       → "Gap landscape diversification" > "credential reform" (Gap-Distribution-Profile)
-      → "Bộ 3 training" > "mechanism training" (Connection-Education)
+      → "Trio training" > "mechanism training" (Connection-Education)
       → "Entity-Access gradient" > "teacher role" (Entity-Access)
       → "Simulation practice" > "career exploration" (Simulation-Engine)
       → = v2.1 makes recommendations DEEPER + MECHANISM-SPECIFIC + NEW CONCEPT GROUNDED
 
-    KEY v2.2 ADDITIONS so với v2.1:
-      → "Trust-intention training" > "trust ĐÃ CÓ" (Trust.md v1.0 — CONVERT structural → relational)
-      → "Self-Observation Mức 2 = body signal vocabulary" > implicit (Self-Observation.md v1.0)
-      → "Teacher Self-Observation Mức 4" = teacher detect own bias (aspirational)
-      → "Direct-State DETECTION prerequisite" > chỉ "rest" (Self-Observation × Dissonance-Signal-Architecture)
+    KEY v2.2 ADDITIONS vs v2.1:
+      → "Trust-intention training" > "trust ALREADY EXISTS" (Trust.md v1.0 — CONVERT structural → relational)
+      → "Self-Observation Level 2 = body signal vocabulary" > implicit (Self-Observation.md v1.0)
+      → "Teacher Self-Observation Level 4" = teacher detects own bias (aspirational)
+      → "Direct-State DETECTION prerequisite" > just "rest" (Self-Observation × Dissonance-Signal-Architecture)
       → = v2.2 adds Trust + Self-Observation dimensions to ALL recommendation tiers
 ```

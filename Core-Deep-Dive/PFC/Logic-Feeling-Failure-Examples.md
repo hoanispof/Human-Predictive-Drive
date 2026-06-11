@@ -1,800 +1,802 @@
-title: Logic-Feeling Fail Examples — Khi Logic Sai, Khi Feeling Sai, Khi Cả Hai Sai
+---
+title: "Logic-Feeling Fail Examples — When Logic Fails, When Feeling Fails, When Both Fail"
 version: 1.0
 created: 2026-04-21
 status: v1.0
 scope: |
-  Tập hợp ví dụ THỰC TẾ (lịch sử + đời thường) cho thấy:
-  Logic sai mà tưởng đúng. Feeling sai mà tưởng đúng. Cả hai cùng sai.
-  KHÔNG prescribe — chỉ present evidence để reader tự nhận diện.
+  A collection of REAL examples (historical + everyday) showing:
+  Logic wrong while thought correct. Feeling wrong while thought correct. Both wrong simultaneously.
+  NOT prescribing — only presenting evidence for readers to recognize for themselves.
 purpose: |
-  Evidence companion cho Logic-Feeling-Balance.md (nguyên lý).
-  Balance.md giải thích TẠI SAO không thể prescribe.
-  File này cho thấy THỰC TẾ cả hai đều sai — qua examples verifiable.
-  Reader nhận diện → tự tìm balance cho mình.
+  Evidence companion for Logic-Feeling-Balance.md (the principle).
+  Balance.md explains WHY balance cannot be prescribed.
+  This file shows IN PRACTICE that both can fail — through verifiable examples.
+  Reader recognizes → finds balance in their OWN WAY.
 sources: |
-  Logic-Feeling-Balance.md (nguyên lý meta)
+  Logic-Feeling-Balance.md (meta-principle)
   Logic-Feeling.md §5 (6 cases)
   Why-Body-Knows.md §6 (3 error types)
   Feeling-Accuracy.md §3 (6 PFC error modes)
-  Historical sources: verified qua research (citations inline)
-language: Tiếng Việt primary + English technical terms
+  Historical sources: verified through research (citations inline)
+language: English primary
 confidence: 🟢 all examples historically verified | 🟡 framework interpretation of examples | 🔴 none
+---
+
+> *"History is full of moments when humans were ABSOLUTELY CERTAIN — and then turned out to be wrong.*
+> *Not because they were foolish. But because domain is always wider than what was known."*
 
 ---
 
-> *"Lịch sử không thiếu những lần con người TỰ TIN TUYỆT ĐỐI — rồi sai.*
-> *Không phải vì họ dốt. Mà vì domain luôn rộng hơn cái đã biết."*
+## TABLE OF CONTENTS
 
----
-
-## MỤC LỤC
-
-§0 — VỊ TRÍ TRONG FRAMEWORK
-§1 — CÁCH ĐỌC FILE NÀY
-§2 — LOGIC SAI: PARADIGM SHIFTS TRONG LỊCH SỬ
-§3 — FEELING SAI: CỰC ĐOAN
-§4 — FEELING SAI: TINH TẾ
-§5 — FEELING SAI: CÁC GÓC ĐỘ BỔ SUNG
-§6 — CẢ HAI CÙNG SAI: KHI LOGIC + FEELING ĐỒNG Ý MÀ VẪN SAI
-§7 — PATTERN CHUNG: TẠI SAO MỌI CASE ĐỀU XẢY RA
-§8 — KẾT NỐI
+§0 — POSITION IN FRAMEWORK
+§1 — HOW TO READ THIS FILE
+§2 — LOGIC FAILS: PARADIGM SHIFTS IN HISTORY
+§3 — FEELING FAILS: EXTREME CASES
+§4 — FEELING FAILS: SUBTLE CASES
+§5 — FEELING FAILS: ADDITIONAL PERSPECTIVES
+§6 — BOTH FAIL: WHEN LOGIC + FEELING AGREE AND BOTH ARE WRONG
+§7 — THE COMMON PATTERN: WHY EVERY CASE OCCURS
+§8 — CONNECTIONS
 §9 — STATUS
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## §0 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — POSITION IN FRAMEWORK
 
 ```
-Logic-Feeling-Balance.md          Logic-Feeling-Fail-Example.md
-(NGUYÊN LÝ)                      (EVIDENCE)
-"Tại sao không thể prescribe"  ←  "Đây là bằng chứng thực tế"
+Logic-Feeling-Balance.md              Logic-Feeling-Fail-Examples.md
+(PRINCIPLE)                           (EVIDENCE)
+"Why balance cannot be prescribed" ←  "Here is real-world evidence"
                                    
-        ↑                                  ↑
-Logic-Feeling.md §5              Why-Body-Knows.md §6
-(6 cases phân tích cơ chế)       (3 error types cơ chế)
+        ↑                                      ↑
+Logic-Feeling.md §5               Why-Body-Knows.md §6
+(6 cases analyzing mechanism)     (3 error types — mechanism)
 ```
 
-**File này KHÔNG phân tích cơ chế** (đã có ở các file khác).
-File này **trình bày ví dụ thực tế** — đủ để reader tự nhận diện:
-"À, chuyện này có thật. Logic/Feeling có thể sai thật."
+**This file does NOT analyze mechanisms** (covered in other files).
+This file **presents real-world examples** — enough for readers to recognize:
+"Ah, this is real. Logic/Feeling can genuinely be wrong."
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## §1 — CÁCH ĐỌC FILE NÀY
+## §1 — HOW TO READ THIS FILE
 
-### 1.1 File này KHÔNG PHẢI
+### 1.1 This file IS NOT
 
-- ✗ Danh sách "cái nào đúng cái nào sai"
-- ✗ Hướng dẫn "khi nào tin Logic, khi nào tin Feeling"
-- ✗ Bộ sưu tập lỗi để sợ hãi
+- ✗ A list of "which is right and which is wrong"
+- ✗ A guide on "when to trust Logic, when to trust Feeling"
+- ✗ A collection of errors meant to frighten
 
-### 1.2 File này LÀ
+### 1.2 This file IS
 
-- ✓ Evidence rằng Logic sai — có thật, lặp đi lặp lại trong lịch sử
-- ✓ Evidence rằng Feeling sai — có thật, xảy ra hàng ngày
-- ✓ Cơ sở để reader NHẬN DIỆN: "Tôi cũng có thể đang ở tình huống tương tự"
-- ✓ Từ nhận diện → tự balance theo cách CỦA MÌNH
+- ✓ Evidence that Logic fails — real, repeated across history
+- ✓ Evidence that Feeling fails — real, occurring daily
+- ✓ A basis for readers to RECOGNIZE: "I might be in a similar situation right now"
+- ✓ From recognition → each person balances in their OWN WAY
 
-### 1.3 Format mỗi example
+### 1.3 Format of each example
 
 ```
-Mỗi ví dụ sẽ trình bày:
-  ① BỐI CẢNH — chuyện gì xảy ra
-  ② LOGIC/FEELING NÓI GÌ — tại sao tưởng đúng
-  ③ THỰC TẾ — domain feedback cho thấy gì
-  ④ PATTERN — thuộc loại sai nào (link về cơ chế)
+Each example presents:
+  ① CONTEXT — what happened
+  ② WHAT LOGIC/FEELING SAID — why it seemed correct
+  ③ REALITY — what domain feedback revealed
+  ④ PATTERN — which error type this belongs to (link to mechanism)
   
-  🟢 = Fact verified (có source)
+  🟢 = Fact verified (has source)
   🟡 = Framework interpretation
 ```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## §2 — LOGIC SAI: PARADIGM SHIFTS TRONG LỊCH SỬ
+## §2 — LOGIC FAILS: PARADIGM SHIFTS IN HISTORY
 
-Mỗi case dưới đây có chung 1 pattern:
-- Logic chain **coherent** tại thời điểm đó
-- Evidence **supporting** có thật (correlation)
-- Cộng đồng **đồng thuận** (social validation)
-- **VẪN SAI** — vì scope chưa đủ rộng
+Each case below shares 1 pattern:
+- Logic chain **coherent** at that point in time
+- **Supporting** evidence real (correlation)
+- Community **consensus** (social validation)
+- **STILL WRONG** — because scope was not yet wide enough
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE L1: MẶT TRỜI QUAY QUANH TRÁI ĐẤT
+### CASE L1: THE SUN ORBITS THE EARTH
 ### (Geocentric → Heliocentric)
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-① BỐI CẢNH:
-  Ptolemy (thế kỷ 2) xây dựng mô hình geocentric.
-  Mô hình này thống trị ~1,400 năm.
+① CONTEXT:
+  Ptolemy (2nd century) constructed the geocentric model.
+  This model dominated for ~1,400 years.
 
-② LOGIC NÓI GÌ:
-  → Nhìn lên trời: mặt trời DI CHUYỂN từ đông sang tây (observation ĐÚNG)
-  → Trái đất: KHÔNG CẢM THẤY di chuyển (observation ĐÚNG)
-  → Ptolemy thêm epicycles → predict vị trí hành tinh CHÍNH XÁC
-  → Logic chain: observation + math model + prediction accuracy = "đúng"
+② WHAT LOGIC SAID:
+  → Looking at the sky: the sun MOVES from east to west (observation CORRECT)
+  → The Earth: does NOT FEEL like it is moving (observation CORRECT)
+  → Ptolemy added epicycles → predicted planetary positions ACCURATELY
+  → Logic chain: observation + math model + prediction accuracy = "correct"
 
-③ THỰC TẾ:
-  Copernicus (1543): heliocentric model — đơn giản hơn, giải thích tốt hơn
-  Galileo (1610): kính viễn vọng → thấy mặt trăng Jupiter quay quanh Jupiter
-  Kepler: elliptical orbits → predict CHÍNH XÁC HƠN
-  Newton: gravity → MECHANISM giải thích tại sao
+③ REALITY:
+  Copernicus (1543): heliocentric model — simpler, explains better
+  Galileo (1610): telescope → saw Jupiter's moons orbiting Jupiter
+  Kepler: elliptical orbits → predicted MORE ACCURATELY
+  Newton: gravity → MECHANISM explaining why
 
 ④ PATTERN:
-  → Logic đúng TRONG scope quan sát bằng mắt thường
-  → Sai khi scope MỞ RỘNG (kính viễn vọng, phép đo chính xác hơn)
-  → 1,400 năm coherent + wrong
-  (Logic-Feeling-Balance.md §3.1: "Logic chỉ thấy TRONG scope hiện có")
+  → Logic correct WITHIN scope of naked-eye observation
+  → Wrong when scope EXPANDED (telescope, more precise measurements)
+  → 1,400 years coherent + wrong
+  (Logic-Feeling-Balance.md §5.1: "Fresh processing can only see WITHIN current scope")
 
   🟢 Kuhn 1962: Structure of Scientific Revolutions — paradigm shift archetype
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE L2: BỆNH DO KHÔNG KHÍ ĐỘC
+### CASE L2: DISEASE FROM FOUL AIR
 ### (Miasma → Germ Theory)
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-① BỐI CẢNH:
-  Từ Hippocrates (thế kỷ 5 TCN) đến cuối thế kỷ 19.
-  Miasma theory: bệnh do "không khí xấu" từ chất hữu cơ phân hủy.
-  Thống trị ~2,300 năm.
+① CONTEXT:
+  From Hippocrates (5th century BCE) to the late 19th century.
+  Miasma theory: disease from "bad air" from decaying organic matter.
+  Dominated for ~2,300 years.
 
-② LOGIC NÓI GÌ:
-  → Nơi hôi thối = nhiều bệnh (correlation ĐÚNG — vì nơi bẩn có cả germs)
-  → Đầm lầy → sốt rét (malaria = "mal aria" = "không khí xấu" — tên bệnh
-    LƯU GIỮ logic sai trong ngôn ngữ)
-  → Tránh nơi hôi → ít bệnh (hoạt động — vì tránh hôi = tránh nơi nhiều germs)
-  → Logic chain: observation + correlation + practical result = "đúng"
+② WHAT LOGIC SAID:
+  → Foul-smelling places = more disease (correlation CORRECT — dirty places also have germs)
+  → Swamps → malaria ("malaria" = "bad air" — the name preserved the wrong logic in language)
+  → Avoiding foul places → less disease (works — because avoiding foul = avoiding germ-dense areas)
+  → Logic chain: observation + correlation + practical result = "correct"
 
-③ THỰC TẾ:
-  Pasteur (1860s): vi khuẩn gây bệnh, không phải không khí
-  Koch (1876): chứng minh Bacillus anthracis gây anthrax — kết thúc miasma
-  Semmelweis (1847): rửa tay giảm tử vong từ ~18% xuống ~2%
-    → Bị đồng nghiệp reject, bị đuổi việc
-    → Chết trong bệnh viện tâm thần (1865)
-    → Decades sau mới được công nhận đúng
+③ REALITY:
+  Pasteur (1860s): bacteria cause disease, not air
+  Koch (1876): proved Bacillus anthracis causes anthrax — ended miasma
+  Semmelweis (1847): handwashing reduced deaths from ~18% to ~2%
+    → Rejected by colleagues, fired from his position
+    → Died in a mental asylum (1865)
+    → Vindicated decades later
 
 ④ PATTERN:
-  → Correlation (hôi → bệnh) ĐÚNG — nhưng mechanism SAI
-  → Logic sai vì confuse correlation với causation
-  → Semmelweis: evidence RÕ RÀNG (tử vong giảm 9×) nhưng VẪN BỊ REJECT
-    vì không fit vào framework hiện tại
-  (Logic-Feeling-Balance.md §3.2: "Correlation ≠ Mechanism")
+  → Correlation (foul smell → disease) CORRECT — but mechanism WRONG
+  → Logic failed by confusing correlation with causation
+  → Semmelweis: evidence CLEAR (death rate fell 9×) but STILL REJECTED
+    because it didn't fit the existing framework
+  (Logic-Feeling-Balance.md §5.2: "Correlation ≠ Mechanism")
 
   🟢 Pasteur 1860s: germ theory experiments
   🟢 Semmelweis 1847: handwashing data (mortality 18% → 2%)
   🟢 Koch 1876: anthrax proof — definitive end of miasma
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE L3: VẬT CHÁY VÌ GIẢI PHÓNG "PHLOGISTON"
+### CASE L3: THINGS BURN BY RELEASING "PHLOGISTON"
 ### (Phlogiston → Oxygen)
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-① BỐI CẢNH:
-  Stahl (1697) đề xuất: vật cháy vì giải phóng "phlogiston" (chất lửa).
-  Thống trị hóa học ~100 năm.
+① CONTEXT:
+  Stahl (1697) proposed: things burn by releasing "phlogiston" (fire-substance).
+  Dominated chemistry for ~100 years.
 
-② LOGIC NÓI GÌ:
-  → Gỗ cháy → tro nhẹ hơn gỗ → "đã giải phóng phlogiston" (observation fit)
-  → Kim loại nung → calx (oxide) → "phlogiston thoát ra" (consistent)
-  → Giải thích được HẦU HẾT hiện tượng cháy quan sát được
-  → Cộng đồng hóa học đồng thuận ~100 năm
+② WHAT LOGIC SAID:
+  → Wood burns → ash weighs less than wood → "phlogiston has been released" (observation fits)
+  → Metal heated → calx (oxide) → "phlogiston escaped" (consistent)
+  → Explained MOST combustion phenomena observed
+  → Chemistry community consensus for ~100 years
 
-③ THỰC TẾ:
-  Lavoisier (1770s): CÂN kim loại trước và sau khi nung
-  → Kim loại TĂNG khối lượng sau khi cháy — ngược với "mất phlogiston"
-  → Phát hiện oxygen: cháy = kết hợp với oxygen, không phải giải phóng gì
-  1783: Lavoisier tuyên bố "phlogiston là tưởng tượng"
-  ~1800: hầu hết nhà hóa học chấp nhận oxygen theory
+③ REALITY:
+  Lavoisier (1770s): WEIGHED metal before and after heating
+  → Metal GAINED mass after burning — opposite of "losing phlogiston"
+  → Discovered oxygen: combustion = combining with oxygen, not releasing anything
+  1783: Lavoisier declared "phlogiston is fiction"
+  ~1800: most chemists accepted oxygen theory
 
 ④ PATTERN:
-  → Logic giải thích ĐƯỢC phenomena (gỗ nhẹ hơn) nhưng MISS phenomena khác
-    (kim loại nặng hơn)
-  → 100 năm không ai ĐO CHÍNH XÁC → không phát hiện mâu thuẫn
-  → 1 phép đo đơn giản (cân trước/sau) → lật đổ toàn bộ theory
-  (Logic-Feeling-Balance.md §3.1: scope limit — không thấy ngoài scope)
+  → Logic EXPLAINED certain phenomena (wood lighter) but MISSED others (metal heavier)
+  → 100 years without anyone MEASURING PRECISELY → contradiction not discovered
+  → 1 simple measurement (weigh before/after) → overturned the entire theory
+  (Logic-Feeling-Balance.md §5.1: scope limit — cannot see outside scope)
 
   🟢 Lavoisier 1770s-1783: oxygen theory
   🟢 Stahl 1697: phlogiston theory (dominated ~100 years)
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE L4: LOÉT DẠ DÀY DO STRESS
+### CASE L4: STOMACH ULCERS CAUSED BY STRESS
 ### (Stress → H. pylori)
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-① BỐI CẢNH:
-  Suốt phần lớn thế kỷ 20: consensus y khoa là loét dạ dày do stress + acid.
-  Điều trị: giảm stress, thuốc giảm acid, phẫu thuật cắt dạ dày.
+① CONTEXT:
+  Throughout most of the 20th century: medical consensus was that stomach ulcers
+  are caused by stress + acid.
+  Treatment: reduce stress, acid-suppressing drugs, surgery to cut the stomach.
 
-② LOGIC NÓI GÌ:
-  → Người stress → hay bị loét (correlation ĐÚNG — stress làm nặng thêm)
-  → Acid cao → tổn thương niêm mạc (mechanism ĐÚNG MỘT PHẦN)
-  → Giảm acid → triệu chứng giảm (clinical result = confirming)
-  → "Không vi khuẩn nào sống được trong acid dạ dày" (logic chain coherent)
+② WHAT LOGIC SAID:
+  → Stressed people → often get ulcers (correlation CORRECT — stress worsens them)
+  → High acid → damages mucosal lining (mechanism PARTLY CORRECT)
+  → Reducing acid → symptoms improve (clinical result = confirming)
+  → "No bacteria can survive in stomach acid" (logic chain coherent)
 
-③ THỰC TẾ:
-  Marshall & Warren (Perth, Australia, 1982): phát hiện vi khuẩn H. pylori
-  Cộng đồng y khoa reject: "vi khuẩn không thể sống trong acid"
-  Marshall (1984): TỰ UỐNG vi khuẩn → bị viêm dạ dày sau 3 ngày
-    → Nội soi ngày 8: viêm nặng, H. pylori colonize
-  2005: Marshall & Warren nhận Nobel Prize
-  → Điều trị: kháng sinh 1-2 tuần — thay vì phẫu thuật cắt dạ dày
+③ REALITY:
+  Marshall & Warren (Perth, Australia, 1982): discovered the bacterium H. pylori
+  Medical community rejected: "bacteria cannot survive in acid"
+  Marshall (1984): DRANK the bacteria himself → developed gastritis after 3 days
+    → Endoscopy day 8: severe inflammation, H. pylori colonized
+  2005: Marshall & Warren received the Nobel Prize
+  → Treatment: antibiotics for 1-2 weeks — instead of surgery to cut the stomach
 
 ④ PATTERN:
-  → "Vi khuẩn không sống được trong acid" = logic đúng TRONG scope hiểu biết lúc đó
-  → Thực tế: H. pylori CÓ cơ chế trung hòa acid (logic không biết)
-  → Decades bệnh nhân bị phẫu thuật không cần thiết
-  → 1 thí nghiệm (tự uống vi khuẩn) → lật đổ consensus
-  (Logic-Feeling-Balance.md §3.2: correlation ≠ mechanism)
+  → "Bacteria cannot survive in acid" = logic correct WITHIN scope of knowledge at the time
+  → Reality: H. pylori HAS a mechanism to neutralize acid (logic didn't know this)
+  → Decades of patients underwent unnecessary surgery
+  → 1 experiment (drinking the bacteria) → overturned consensus
+  (Logic-Feeling-Balance.md §5.2: correlation ≠ mechanism)
 
   🟢 Marshall & Warren 1982-1984: H. pylori discovery
   🟢 Nobel Prize 2005: "for discovery of bacterium H. pylori and its role in gastritis and peptic ulcer disease"
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE L5: RÚT MÁU CHỮA BỆNH
+### CASE L5: BLOODLETTING CURES DISEASE
 ### (Bloodletting — Humoral Theory)
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-① BỐI CẢNH:
-  Từ thời Hy Lạp cổ đại đến thế kỷ 19.
-  Humoral theory: bệnh do mất cân bằng 4 dịch (máu, mật vàng, mật đen, đờm).
-  Rút máu = "cân bằng lại" → thực hành y khoa phổ biến ~2,000 năm.
+① CONTEXT:
+  From ancient Greece to the 19th century.
+  Humoral theory: disease from imbalance of 4 humors (blood, yellow bile, black bile, phlegm).
+  Bloodletting = "rebalancing" → common medical practice for ~2,000 years.
 
-② LOGIC NÓI GÌ:
-  → Sốt → mặt đỏ → "quá nhiều máu" → rút bớt (logic chain fit observation)
-  → Sau rút máu: bệnh nhân yếu đi → "bình tĩnh hơn" → "cải thiện"
-    (thực tế: yếu vì mất máu, nhầm thành "bình tĩnh")
-  → 2,000 năm thực hành → "tradition proves it works"
+② WHAT LOGIC SAID:
+  → Fever → flushed face → "too much blood" → drain some (logic chain fits observation)
+  → After bloodletting: patient weakens → "calmer" → "improvement"
+    (reality: weak from blood loss, mistaken for "calm")
+  → "Tradition proves it works"
 
-③ THỰC TẾ:
-  George Washington (1799): bị viêm họng nặng
-  → Bác sĩ rút ~80 ounces máu (~2.4 lít) trong 12 giờ
-  → = ~40% tổng lượng máu cơ thể
-  → Washington chết — largely vì mất máu quá nhiều
-  → Y học hiện đại: rút máu GÂY HẠI, không chữa bệnh
-    (ngoại trừ vài trường hợp hiếm như hemochromatosis)
+③ REALITY:
+  George Washington (1799): developed severe throat inflammation
+  → Doctors drained ~80 ounces of blood (~2.4 liters) over 12 hours
+  → = ~40% of total blood volume
+  → Washington died — largely from excessive blood loss
+  → Modern medicine: bloodletting is HARMFUL, not curative
+    (except rare conditions like hemochromatosis)
 
 ④ PATTERN:
-  → 2,000 năm practice = evidence "hoạt động" (survivorship bias: chỉ nhớ người sống)
-  → Logic fit observation (mặt đỏ → quá nhiều máu) nhưng mechanism HOÀN TOÀN SAI
-  → Hệ quả: vô số người chết vì "điều trị"
-  → Case mạnh nhất cho: logic coherent + practiced lâu ≠ đúng
+  → 2,000 years of practice = evidence it "works" (survivorship bias: only remember survivors)
+  → Logic fit observation (flushed face → too much blood) but mechanism COMPLETELY WRONG
+  → Result: countless people died from the "treatment"
+  → The strongest case for: logic coherent + practiced long ≠ correct
 
   🟢 Washington's death 1799: ~80 oz blood removed, ~40% total blood volume
   🟢 Humoral theory: dominated Western medicine ~2,000 years
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE L6: CẮT THÙY NÃO CHỮA TÂM THẦN
+### CASE L6: CUTTING BRAIN LOBES CURES MENTAL ILLNESS
 ### (Lobotomy — Nobel Prize 1949)
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-① BỐI CẢNH:
-  Egas Moniz (Bồ Đào Nha) đề xuất leucotomy (lobotomy) cho bệnh tâm thần.
-  Nhận Nobel Prize Y học 1949.
+① CONTEXT:
+  Egas Moniz (Portugal) proposed leucotomy (lobotomy) for mental illness.
+  Received the Nobel Prize in Medicine 1949.
 
-② LOGIC NÓI GÌ:
-  → Vùng não gây vấn đề → cắt/phá hủy → hết vấn đề (logic chain đơn giản)
-  → Bệnh nhân sau lobotomy: "bình tĩnh hơn" (observation đúng — vì não bị tổn thương)
-  → Nobel Prize = validation cao nhất trong khoa học
-  → Moniz report: kết quả "acceptable" trên 40 bệnh nhân đầu tiên
+② WHAT LOGIC SAID:
+  → Brain region causing problem → cut/destroy → problem gone (simple logic chain)
+  → Post-lobotomy patients: "calmer" (observation correct — because brain is damaged)
+  → Nobel Prize = highest validation in science
+  → Moniz reported: "acceptable" results on the first 40 patients
 
-③ THỰC TẾ:
-  ~20,000 lobotomies ở Mỹ (tính đến 1951), nhiều hơn tỷ lệ ở Anh
-  Bệnh nhân: mất khả năng tập trung, mất cảm xúc, mất nhân cách
-  Moniz bị phê phán: understate complications, không follow up bệnh nhân
-  Decades sau: recognized as harmful — lobotomy gần như bị cấm hoàn toàn
-  Nhiều gia đình bệnh nhân yêu cầu thu hồi Nobel Prize
+③ REALITY:
+  ~20,000 lobotomies in the US (as of 1951), higher rate than in Britain
+  Patients: lost ability to concentrate, lost emotions, lost personality
+  Moniz criticized: understated complications, didn't follow up on patients
+  Decades later: recognized as harmful — lobotomy is now nearly universally banned
+  Many patient families have called for the Nobel Prize to be revoked
 
 ④ PATTERN:
-  → Logic đúng ở level THẤP: cắt neural connections = giảm signal (mechanism đúng)
-  → Logic sai ở level CAO: não không phải máy — cắt 1 phần ≠ "sửa"
-  → Nobel Prize = social validation CỰC MẠNH → reinforce sai
-  → "Bình tĩnh hơn" = observation đúng nhưng interpretation sai
-    (bình tĩnh vì tổn thương, không phải vì "chữa được")
+  → Logic correct at the LOW level: cut neural connections = reduce signal (mechanism correct)
+  → Logic wrong at the HIGH level: brain ≠ machine — cut 1 part ≠ "fix"
+  → Nobel Prize = EXTREMELY STRONG social validation → reinforced the error
+  → "Calmer" = correct observation but wrong interpretation
+    (calmer because of damage, not because it was "cured")
 
   🟢 Moniz 1949: Nobel Prize for leucotomy
   🟢 ~20,000 lobotomies in US by 1951
   🟢 Now recognized as harmful; calls to revoke Nobel Prize
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE L7: LỤC ĐỊA KHÔNG THỂ DI CHUYỂN
+### CASE L7: CONTINENTS CANNOT MOVE
 ### (Reject Continental Drift → Plate Tectonics)
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-① BỐI CẢNH:
-  Wegener (1912): đề xuất các lục địa từng dính nhau rồi trôi dạt.
-  Evidence: hình dạng bờ biển khớp nhau, hóa thạch giống nhau ở các lục địa xa.
-  Bị reject bởi cộng đồng địa chất — đặc biệt ở Bắc Mỹ.
+① CONTEXT:
+  Wegener (1912): proposed that continents were once joined and then drifted apart.
+  Evidence: coastline shapes fit together, same fossils found on distant continents.
+  Rejected by the geology community — especially in North America.
 
-② LOGIC CỦA NGƯỜI REJECT NÓI GÌ:
-  → "Đá không di chuyển được" (đúng trong scope hiểu biết lúc đó)
-  → "Không có mechanism nào đủ mạnh để đẩy lục địa" (đúng — chưa biết convection)
-  → "Wegener là nhà khí tượng, không phải nhà địa chất" (ad hominem nhưng powerful)
-  → Một nhà cổ sinh vật học gọi đây là "German pseudo-science"
+② WHAT LOGIC (OF THE REJECTORS) SAID:
+  → "Rocks cannot move" (correct within scope of knowledge at the time)
+  → "No mechanism strong enough to push continents" (correct — mantle convection not yet known)
+  → "Wegener is a meteorologist, not a geologist" (ad hominem but powerful)
+  → A paleontologist called it "German pseudo-science"
 
-③ THỰC TẾ:
-  1950s: paleomagnetism data → support Wegener
-  1953: mẫu từ Ấn Độ → confirm từng ở Nam bán cầu (đúng như Wegener predict)
-  1960s: plate tectonics theory — mechanism (mantle convection) được tìm ra
-  Wegener: chết năm 1930 trong chuyến thám hiểm Greenland, không sống để thấy mình đúng
+③ REALITY:
+  1950s: paleomagnetism data → supported Wegener
+  1953: samples from India → confirmed it was once in the Southern Hemisphere (as Wegener predicted)
+  1960s: plate tectonics theory — mechanism (mantle convection) discovered
+  Wegener: died in 1930 on a Greenland expedition, never lived to see himself vindicated
 
 ④ PATTERN:
-  → Logic reject vì "không có mechanism" — đúng rằng chưa có, nhưng SAI khi kết luận
-    "không có mechanism = không xảy ra"
-  → Evidence (hình dạng khớp, hóa thạch) BỊ BỎ QUA vì không fit framework
-  → 50 năm delay vì logic-of-the-time chưa đủ scope
-  (Logic-Feeling-Balance.md §3.1: logic chỉ thấy trong scope hiện có)
+  → Logic rejected because "no mechanism" — correct that none was known, but WRONG to conclude
+    "no known mechanism = doesn't happen"
+  → Evidence (fitting shapes, fossils) IGNORED because it didn't fit the framework
+  → 50-year delay because the logic-of-the-time didn't have wide enough scope
+  (Logic-Feeling-Balance.md §5.1: logic can only see within current scope)
 
   🟢 Wegener 1912: continental drift hypothesis
   🟢 1960s: plate tectonics confirmed
   🟢 Wegener died 1930: never saw vindication
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE L8: VẬT TỰ SINH TỪ VẬT CHẾT
+### CASE L8: LIFE SPONTANEOUSLY GENERATES FROM MATTER
 ### (Spontaneous Generation → Biogenesis)
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-① BỐI CẢNH:
-  Từ Aristotle: sự sống có thể tự sinh từ vật chất không sống.
-  "Thịt để lâu → sinh ruồi." Đây là "scientific fact" ~2,000 năm.
+① CONTEXT:
+  Since Aristotle: life can spontaneously generate from non-living matter.
+  "Meat left out → maggots appear." This was "scientific fact" for ~2,000 years.
 
-② LOGIC NÓI GÌ:
-  → Thịt để lâu → CÓ ruồi xuất hiện (observation ĐÚNG)
-  → Không thấy ruồi đến đẻ trứng (observation ĐÚNG — trứng nhỏ, khó thấy)
-  → Kết luận: ruồi tự sinh từ thịt (logic chain: A → B, no C observed → A causes B)
+② WHAT LOGIC SAID:
+  → Meat left out → flies DO appear (observation CORRECT)
+  → Cannot see flies laying eggs (observation CORRECT — eggs are tiny, hard to see)
+  → Conclusion: flies spontaneously generate from meat
+    (logic chain: A → B, no C observed → A causes B)
 
-③ THỰC TẾ:
-  Redi (1668): đậy thịt bằng vải mỏng → không có dòi
-  → Ruồi đẻ trứng TRÊN vải, không lọt vào → dòi trên vải, không trên thịt
-  Pasteur (1859): bình cổ ngỗng → nước luộc KHÔNG bị nhiễm
-  → Bẻ cổ bình → vi khuẩn lọt vào → nước đục
-  → Chứng minh: sinh vật đến từ BÊN NGOÀI, không tự sinh
+③ REALITY:
+  Redi (1668): covered meat with gauze → no maggots
+  → Flies laid eggs ON the gauze, couldn't get through → maggots on gauze, not on meat
+  Pasteur (1859): swan-neck flask → boiled broth did NOT get contaminated
+  → Break the neck → bacteria enter → broth goes cloudy
+  → Proved: organisms come from OUTSIDE, do not spontaneously generate
 
 ④ PATTERN:
-  → Observation đúng (thịt → dòi) nhưng MISS biến ẩn (ruồi đẻ trứng)
-  → 2,000 năm không ai THỬ đậy thịt lại — vì "đã biết rồi"
-  → 1 thí nghiệm đơn giản (đậy vải) → lật đổ 2 millennia logic
+  → Observation correct (meat → maggots) but MISSED the hidden variable (flies laying eggs)
+  → 2,000 years without anyone TRYING to cover the meat — because "already knew"
+  → 1 simple experiment (covering with gauze) → overturned 2 millennia of logic
 
   🟢 Redi 1668: meat experiment with gauze
   🟢 Pasteur 1859: swan-neck flask experiment
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE L9: ÁNH SÁNG CẦN MÔI TRƯỜNG TRUYỀN
-### (Luminiferous Ether → Không Cần Medium)
+### CASE L9: LIGHT REQUIRES A TRANSMISSION MEDIUM
+### (Luminiferous Ether → No Medium Needed)
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-① BỐI CẢNH:
-  Thế kỷ 19: ánh sáng được chứng minh là sóng.
-  Logic: sóng cần môi trường (âm thanh cần không khí, sóng nước cần nước).
-  → "Luminiferous ether" phải tồn tại — môi trường cho ánh sáng.
+① CONTEXT:
+  19th century: light was proven to be a wave.
+  Logic: waves need a medium (sound needs air, water waves need water).
+  → "Luminiferous ether" must exist — the medium for light.
 
-② LOGIC NÓI GÌ:
-  → Sóng âm cần không khí (ĐÚNG)
-  → Sóng nước cần nước (ĐÚNG)
-  → Ánh sáng = sóng → cần medium = ether (analogy logic SOUND)
-  → Ether phải tràn ngập vũ trụ, không trọng lượng, không nhìn thấy
+② WHAT LOGIC SAID:
+  → Sound waves need air (CORRECT)
+  → Water waves need water (CORRECT)
+  → Light = wave → needs medium = ether (analogy logic SOUND)
+  → Ether must fill the universe, massless, invisible
 
-③ THỰC TẾ:
-  Michelson-Morley (1887): thí nghiệm đo tốc độ ánh sáng theo 2 hướng
-  → Nếu ether tồn tại → tốc độ ánh sáng phải KHÁC nhau theo hướng
-  → Kết quả: KHÔNG CÓ sai khác → ether không tồn tại
-  Einstein (1905): special relativity — ánh sáng không cần medium
-  1920s: cộng đồng vật lý chấp nhận — ether bị bỏ
+③ REALITY:
+  Michelson-Morley (1887): experiment measuring the speed of light in 2 directions
+  → If ether exists → speed of light should DIFFER by direction
+  → Result: NO DIFFERENCE → ether doesn't exist
+  Einstein (1905): special relativity — light needs no medium
+  1920s: physics community accepted — ether discarded
 
 ④ PATTERN:
-  → Logic bằng analogy: "A cần medium, B cần medium, C giống A và B → C cần medium"
-  → Analogy = powerful tool NHƯNG không guarantee truth
-  → Ánh sáng ≠ sóng cơ học → analogy BREAK ở fundamental level
-  → 1 thí nghiệm (Michelson-Morley) → phá vỡ assumption nền
+  → Logic by analogy: "A needs medium, B needs medium, C resembles A and B → C needs medium"
+  → Analogy = powerful tool BUT does not guarantee truth
+  → Light ≠ mechanical wave → analogy BREAKS at the fundamental level
+  → 1 experiment (Michelson-Morley) → shattered the foundational assumption
 
   🟢 Michelson-Morley 1887: null result for ether
   🟢 Einstein 1905: special relativity — no medium needed
 
-### 2.10 Pattern tổng hợp tất cả cases Logic
+### 2.10 Combined pattern across all Logic cases
 
 ```
-┌──────────────┬──────────────────────┬───────────────────┬──────────────┐
-│ Case         │ Logic sai kiểu       │ Thời gian sai     │ Fix bằng     │
-├──────────────┼──────────────────────┼───────────────────┼──────────────┤
-│ L1 Geocentric│ Scope limit          │ ~1,400 năm        │ Better tools │
-│ L2 Miasma    │ Correlation≠Cause    │ ~2,300 năm        │ Experiment   │
-│ L3 Phlogiston│ Miss measurement     │ ~100 năm          │ Weighing     │
-│ L4 Ulcer     │ Correlation≠Cause    │ ~decades          │ Self-test    │
-│ L5 Bloodlet  │ Wrong framework      │ ~2,000 năm        │ Evidence     │
-│ L6 Lobotomy  │ Oversimplify system  │ ~decades          │ Follow-up    │
-│ L7 Continents│ "No mechanism"≠false │ ~50 năm           │ New data     │
-│ L8 Spontan.  │ Miss hidden variable │ ~2,000 năm        │ Simple test  │
-│ L9 Ether     │ False analogy        │ ~decades          │ Experiment   │
-└──────────────┴──────────────────────┴───────────────────┴──────────────┘
+┌──────────────┬─────────────────────────────┬─────────────────┬──────────────┐
+│ Case         │ How Logic Failed             │ Duration        │ Fixed By     │
+├──────────────┼─────────────────────────────┼─────────────────┼──────────────┤
+│ L1 Geocentric│ Scope limit                  │ ~1,400 years    │ Better tools │
+│ L2 Miasma    │ Correlation ≠ Causation      │ ~2,300 years    │ Experiment   │
+│ L3 Phlogiston│ Missed measurement           │ ~100 years      │ Weighing     │
+│ L4 Ulcer     │ Correlation ≠ Causation      │ ~decades        │ Self-test    │
+│ L5 Bloodlet  │ Wrong framework              │ ~2,000 years    │ Evidence     │
+│ L6 Lobotomy  │ Oversimplified system        │ ~decades        │ Follow-up    │
+│ L7 Continents│ "No mechanism" ≠ false       │ ~50 years       │ New data     │
+│ L8 Spontan.  │ Missed hidden variable       │ ~2,000 years    │ Simple test  │
+│ L9 Ether     │ False analogy                │ ~decades        │ Experiment   │
+└──────────────┴─────────────────────────────┴─────────────────┴──────────────┘
 
-PATTERN: KHÔNG CÓ loại sai nào chỉ xảy ra 1 lần.
-Mỗi loại lặp đi lặp lại xuyên suốt lịch sử.
-= Logic ĐANG sai ở đâu đó NGAY BÂY GIỜ — chỉ là chưa biết ở đâu.
+PATTERN: NO error type occurred only once.
+Each type repeats throughout history.
+= Logic IS wrong somewhere RIGHT NOW — we just don't know where yet.
 ```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## §3 — FEELING SAI: CỰC ĐOAN
+## §3 — FEELING FAILS: EXTREME CASES
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE F1: ĂN ĐƯỜNG — BODY REWARD MẠNH, DOMAIN SAI
+### CASE F1: EATING SWEET FOOD — STRONG BODY REWARD, WRONG FOR DOMAIN
 ### (Evolution Lag — Intensely pleasant)
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-① BỐI CẢNH:
-  Con người ăn đồ ngọt → body reward rõ ràng: "ngon", "sướng", "muốn thêm".
-  Đây là trải nghiệm phổ quát, mọi văn hóa, mọi thời đại.
+① CONTEXT:
+  Humans eat sweet food → clear body reward: "delicious," "pleasurable," "want more."
+  This is a universal experience, across all cultures, all eras.
 
-② FEELING NÓI GÌ:
-  → VTA fire positive delta khi đường chạm taste receptors
-  → Opioid release → "pleasant thật" (liking signal MẠNH)
-  → Dopamine → "tìm thêm" (wanting signal MẠNH)
-  → Body nói: "CÁI NÀY TỐT. LẤY THÊM."
+② WHAT FEELING SAID:
+  → VTA fires positive delta when sugar contacts taste receptors
+  → Opioid release → "genuinely pleasant" (liking signal STRONG)
+  → Dopamine → "seek more" (wanting signal STRONG)
+  → Body says: "THIS IS GOOD. GET MORE."
 
-③ THỰC TẾ:
-  Ancestral environment: đường CỰC HIẾM (chỉ có trái cây mùa, mật ong)
-  → Body reward "tìm đường" = survival advantage THẬT
-  Modern environment: đường CỰC DỄ (có ở mọi nơi, giá rẻ)
-  → Body VẪN reward như thể đường hiếm → overconsume → béo phì, tiểu đường
+③ REALITY:
+  Ancestral environment: sugar EXTREMELY RARE (only seasonal fruit, honey)
+  → Body reward "seek sugar" = real survival advantage
+  Modern environment: sugar EXTREMELY AVAILABLE (everywhere, cheap)
+  → Body STILL rewards as if sugar were scarce → overconsume → obesity, diabetes
   
-  Con người đang chạy firmware reward system ~200,000 năm tuổi
-  trong environment mới ~200 năm tuổi.
-  = Body chưa kịp update.
+  Humans are running a reward system firmware ~200,000 years old
+  in an environment only ~200 years old.
+  = Body hasn't updated yet.
 
 ④ PATTERN:
-  → Feeling ĐÚNG về mechanism (body cần năng lượng → đường = năng lượng nhanh)
-  → Feeling SAI về context (đường giờ không hiếm → reward quá mức)
-  → Body KHÔNG CÓ cơ chế tự detect "environment đã thay đổi"
+  → Feeling CORRECT about mechanism (body needs energy → sugar = fast energy)
+  → Feeling WRONG about context (sugar is no longer scarce → reward is excessive)
+  → Body HAS NO mechanism to auto-detect "environment has changed"
   (Why-Body-Knows.md §6: Evolution Lag)
 
   🟢 Evolutionary mismatch: PMC (Frontiers in Psychiatry 2018) — sugar addiction
-      from evolution to revolution
+     from evolution to revolution
   🟢 5/11 substance use disorder criteria met for sugar
   🟢 Berridge: opioid system responds to sugar similarly to drugs
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE F2: BỊ CHỌC GIẬN — BODY FIRE ĐÚNG HƯỚNG, SAI MỨC
-### (Magnitude Mismatch — Giận cực đoan)
+### CASE F2: BEING PROVOKED — BODY FIRES CORRECT DIRECTION, WRONG MAGNITUDE
+### (Magnitude Mismatch — Extreme anger)
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-① BỐI CẢNH:
-  Ai đó cố ý chọc tức bạn → body phản ứng ngay: tim đập nhanh, mặt nóng,
-  cơ căng, muốn phản ứng lại.
+① CONTEXT:
+  Someone deliberately provokes you → body reacts immediately: heart races, face flushes,
+  muscles tense, urge to respond.
 
-② FEELING NÓI GÌ:
+② WHAT FEELING SAID:
   → Amygdala: THREAT detected → cortisol + norepinephrine
-  → Body: "NGUY HIỂM. PHẢN ỨNG NGAY."
-  → Cường độ: MẠNH — tương xứng với ancestral threat level
-  → Muốn: đáp trả, phản công, bảo vệ vị trí
+  → Body: "DANGER. REACT NOW."
+  → Intensity: STRONG — proportional to ancestral threat level
+  → Urge to: retaliate, counter-attack, defend position
 
-③ THỰC TẾ:
-  Ancestral environment: bị chọc giận = thách thức vị trí xã hội
-  → Mất vị trí = mất access resource = nguy hiểm SỐNG CÒN
-  → Body fire MẠNH = hợp lý (proportional response cho survival)
+③ REALITY:
+  Ancestral environment: being provoked = challenge to social position
+  → Losing position = losing access to resources = SURVIVAL danger
+  → Body fires STRONGLY = appropriate (proportional response for survival)
   
-  Modern environment: bị chọc giận = khó chịu
-  → Chỉ cần tránh xa = đủ (không ai chết vì bị trêu)
-  → Body VẪN fire mức "sống còn" cho tình huống "khó chịu"
-  → Phản ứng mạnh → hối hận → social cost không cần thiết
+  Modern environment: being provoked = discomfort
+  → Just walking away = sufficient (no one dies from being teased)
+  → Body STILL fires at "survival" level for a "discomfort" situation
+  → Overreacting → regret → unnecessary social cost
 
 ④ PATTERN:
-  → Feeling ĐÚNG hướng (có threat thật — ai đó cố ý gây harm)
-  → Feeling SAI mức (cường độ ancestral cho context modern)
-  → Body KHÔNG CÓ cơ chế tự scale magnitude theo context
-  → PFC đến SAU body ~200ms → window phản ứng quá mức
-  (Logic-Feeling-Balance.md §2.5: magnitude mismatch)
+  → Feeling CORRECT direction (real threat — someone deliberately causing harm)
+  → Feeling WRONG magnitude (ancestral intensity for modern context)
+  → Body HAS NO mechanism to auto-scale magnitude to context
+  → PFC arrives AFTER body ~200ms → window for overreaction
+  (Logic-Feeling-Balance.md §3.5: magnitude mismatch)
 
   🟢 Damasio: body fires T=0ms, PFC observes T=200ms+
   🟢 Amygdala response: ~12ms (LeDoux 1996) — faster than PFC
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## §4 — FEELING SAI: TINH TẾ
+## §4 — FEELING FAILS: SUBTLE CASES
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE F3: NGHE CÂU CHUYỆN THÀNH CÔNG CỦA NGƯỜI KHÁC
-### (External Inject — Pleasant tinh tế)
+### CASE F3: HEARING SOMEONE ELSE'S SUCCESS STORY
+### (External Inject — Subtly pleasant)
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-① BỐI CẢNH:
-  Bạn gặp ai đó kể về công việc, cuộc sống tuyệt vời của họ.
-  Có thể là bạn bè, đồng nghiệp, người trên mạng xã hội.
-  Câu chuyện hay, authentic, inspiring.
+① CONTEXT:
+  You encounter someone talking about their wonderful work and life.
+  This could be a friend, a colleague, or someone on social media.
+  The story is compelling, authentic, inspiring.
 
-② FEELING NÓI GÌ:
-  → Mirror: body simulate trạng thái NGƯỜI KỂ → "cảm thấy hay"
-  → Imagine-Final: PFC preview "nếu mình cũng thế..." → body pre-feel positive
-  → Schema: liên kết với aspirations sẵn có → "khớp với ước mơ"
-  → Valence: tổng hợp → positive → "mình muốn cái này"
-  → Nhiều channels cùng fire → cảm giác MẠNH, CONVINCING
+② WHAT FEELING SAID:
+  → Mirror: body simulates the STORYTELLER'S state → "feels good"
+  → Imagine-Final: PFC previews "what if I were the same..." → body pre-feels positive
+  → Schema: connects with existing aspirations → "fits my dreams"
+  → Valence: combines → positive → "I want this"
+  → Many channels fire together → feeling STRONG, CONVINCING
 
-③ THỰC TẾ:
-  → Câu chuyện của HỌ ≠ domain của MÌNH
-  → Họ có context, chunks, history KHÁC → path của họ ĐÃ ĐƯỢC calibrate CHO HỌ
-  → Body mình check coherence với CÂU CHUYỆN (coherent!) 
-    nhưng KHÔNG check với DOMAIN CỦA MÌNH
-  → Imagine-Final hình thành từ Self-Referencing — body check internal loop
-  → Anchor-Schema lock → PFC spotlight thu hẹp → không scan alternatives
-  → Có thể: path KHÁC hợp hơn — nhưng đã bị bỏ qua
+③ REALITY:
+  → THEIR story ≠ YOUR domain
+  → They have DIFFERENT context, chunks, history → their path has ALREADY BEEN calibrated FOR THEM
+  → Your body checks coherence with THE STORY (coherent!)
+    but does NOT check against YOUR OWN DOMAIN
+  → Imagine-Final formed from Self-Referencing — body checks internal loop
+  → Anchor-Schema locks → PFC spotlight narrows → stops scanning alternatives
+  → Possible: a DIFFERENT path suits you better — but has been missed
 
 ④ PATTERN:
-  → Đây KHÔNG có gì "sai rõ ràng":
-    câu chuyện hay, cảm xúc thật, logic hợp lý, nhiều channels confirm
-  → Chỉ có 1 vấn đề: CHƯA CHẮC HỢP VỚI MÌNH
-  → Tinh tế vì: không có red flag, không có dissonance
-  → Chỉ domain feedback (THỬ → kết quả) mới cho biết
-  (Anchor-Schema.md §3 ④: External Inject bypass PFC)
+  → Nothing here is "obviously wrong":
+    the story is compelling, emotions real, logic coherent, many channels confirm
+  → Only 1 problem: NOT CERTAIN IT SUITS YOU
+  → Subtle because: no red flags, no dissonance
+  → Only domain feedback (TRY → result) can tell you
+  (Anchor-Schema.md §3 ④: External Inject bypasses PFC)
   (Feeling.md §8: Domain-Checked vs Self-Referencing)
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE F4: KHÓ CHỊU KHI NHẬN FEEDBACK TỪ NGƯỜI CÓ EXPERTISE
-### (Recalibration Discomfort — Khó chịu tinh tế)
+### CASE F4: DISCOMFORT WHEN RECEIVING FEEDBACK FROM SOMEONE WITH EXPERTISE
+### (Recalibration Discomfort — Subtly uncomfortable)
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-① BỐI CẢNH:
-  Bạn đang làm việc gì đó — có thể là công việc, sáng tạo, học tập.
-  Người có expertise (mentor, senior, chuyên gia) cho feedback tiêu cực:
-  "Cách này chưa đúng." "Phần này cần sửa lại." "Bạn đang đi sai hướng."
+① CONTEXT:
+  You are doing something — perhaps work, creative practice, or studying.
+  Someone with expertise (mentor, senior, expert) gives negative feedback:
+  "This approach isn't right." "This part needs to be redone." "You're going in the wrong direction."
 
-② FEELING NÓI GÌ:
-  → Amygdala: threat to self-schema → cortisol nhẹ
-  → Status shift: "vị trí của mình bị challenge" → discomfort
-  → Body: "KHÔNG THÍCH. MUỐN PHẢN BÁC. HOẶC RÚT LUI."
-  → PFC Feel-Labeling—Feel-Explanation có thể:
-    - Rationalize: "họ không hiểu context của mình"
-    - Displacement: "họ chỉ muốn thể hiện"
-    - Denial: "feedback không quan trọng"
-  → Cảm giác: khó chịu nhẹ, muốn dismiss, muốn bảo vệ cái đang làm
+② WHAT FEELING SAID:
+  → Amygdala: threat to self-schema → mild cortisol
+  → Status shift: "my position is being challenged" → discomfort
+  → Body: "DON'T LIKE THIS. WANT TO PUSH BACK. OR WITHDRAW."
+  → PFC Feel-Labeling→Feel-Explanation may:
+    - Rationalize: "they don't understand my context"
+    - Displacement: "they just want to show off"
+    - Denial: "the feedback doesn't matter"
+  → Feeling: mild discomfort, urge to dismiss, urge to defend what you're doing
 
-③ THỰC TẾ:
-  → Nếu dismiss ngay theo feeling → bỏ lỡ information CÓ GIÁ TRỊ
-  → Người có expertise = chunk library rộng hơn trong domain đó
-  → Feedback của họ CÓ THỂ đúng — dựa trên patterns mà mình CHƯA CÓ
+③ REALITY:
+  → If you dismiss immediately by following the feeling → you miss VALUABLE information
+  → Someone with expertise = wider chunk library in that domain
+  → Their feedback CAN BE correct — based on patterns you DON'T YET HAVE
   
-  NHƯNG (complexity thật):
-  → Feedback CŨNG CÓ THỂ sai — expertise ≠ infallible
-  → Hoặc đúng cho domain chung nhưng sai cho context cụ thể của mình
-  → KHÔNG CÓ cách biết chắc ngay lập tức
+  BUT (real complexity):
+  → Feedback CAN ALSO BE wrong — expertise ≠ infallible
+  → Or correct for the domain generally but wrong for your specific context
+  → NO way to know for certain immediately
   
-  Nếu đủ chunk tích lũy (experience trong domain):
-  → Body dần shift từ "threat" sang "recalibration"
-  → Nhận ra: khó chịu BAN ĐẦU là Chunk-Shift (valence flip)
-  → Feedback tốt → schema mới form → hướng đi tốt hơn emerges
-  → Body-Feedback.md: recalibration = nguồn discomfort thứ 3 (tạm thời, như đau cơ sau gym)
+  With enough chunks accumulated (experience in the domain):
+  → Body gradually shifts from "threat" to "recalibration"
+  → Recognize: initial discomfort is Chunk-Shift (valence flip)
+  → Good feedback → new schema forms → better direction emerges
+  → Body-Feedback.md: recalibration = the 3rd discomfort source
+    (temporary, like muscle soreness after the gym)
 
 ④ PATTERN:
-  → Feeling ban đầu: "threat" → muốn reject
-  → Thực tế: CÓ THỂ là recalibration → hướng tốt hơn
-  → Tinh tế vì: feeling khó chịu = ĐÚNG (đang bị challenge thật)
-    NHƯNG hành vi theo feeling (reject) CÓ THỂ bỏ lỡ giá trị
-  → Cần domain feedback (THỬ apply feedback → xem kết quả)
-  (Body-Feedback.md §1: 3 real sources of discomfort — recalibration = thứ 3)
+  → Initial feeling: "threat" → urge to reject
+  → Reality: MIGHT BE recalibration → better direction
+  → Subtle because: discomfort feeling = CORRECT (genuinely being challenged)
+    BUT acting on the feeling (reject) CAN MISS the value
+  → Needs domain feedback (TRY applying the feedback → see the result)
+  (Body-Feedback.md §1: 3 real sources of discomfort — recalibration = the 3rd)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## §5 — FEELING SAI: CÁC GÓC ĐỘ BỔ SUNG
+## §5 — FEELING FAILS: ADDITIONAL PERSPECTIVES
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE F5: BODY NEUTRAL — HABITUATE TÌNH HUỐNG XẤU
+### CASE F5: BODY NEUTRAL — HABITUATED TO A WORSENING SITUATION
 ### (Baseline Shift — Feeling ABSENT)
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-① BỐI CẢNH:
-  Bạn ở trong một mối quan hệ, công việc, hoặc hoàn cảnh
-  đã DẦN DẦN trở nên không tốt — nhưng thay đổi quá chậm để nhận ra.
+① CONTEXT:
+  You are in a relationship, job, or circumstance that has GRADUALLY become bad —
+  but the change was too slow to notice.
 
-② FEELING NÓI GÌ:
-  → Body: ... (im lặng. không có signal rõ.)
-  → "Bình thường mà." "Ai chả thế." "Không có gì đặc biệt."
-  → Không dissonance. Không alarm. Không motivation thay đổi.
+② WHAT FEELING SAID:
+  → Body: ... (silent. no clear signal.)
+  → "This is normal." "Everyone is like this." "Nothing unusual."
+  → No dissonance. No alarm. No motivation to change.
 
-③ THỰC TẾ:
-  Cơ chế: VTA habituate → quality X compile thành BASELINE
-  → Khi quality giảm DẦN (rất chậm, ngày qua ngày):
-    → Mỗi lần giảm nhỏ → delta DƯỚI threshold → VTA không fire
-    → Baseline tự hạ theo → "bình thường mới" = thấp hơn "bình thường cũ"
-    → Sau 1 năm: quality giảm 50% nhưng body nói "bình thường"
-      (⚠️ 50% = illustrative, không đo lường chính xác)
+③ REALITY:
+  Mechanism: VTA habituates → quality X compiles into BASELINE
+  → When quality declines GRADUALLY (very slowly, day by day):
+    → Each small decline → delta BELOW threshold → VTA doesn't fire
+    → Baseline self-adjusts downward → "new normal" = lower than "old normal"
+    → After 1 year: quality drops 50% but body says "normal"
+      (⚠️ 50% = illustrative, not precisely measurable)
   
-  Khi nào NHẬN RA:
-  → Gặp lại environment CŨ (về quê, gặp bạn cũ, thay đổi context)
-  → Body so sánh current vs reference CŨ → delta VƯỢT threshold → "sao khác quá"
-  → Hoặc: ai đó NGOÀI tình huống nhận xét → external mirror
+  When you notice:
+  → Returning to OLD environment (going home, meeting old friends, changing context)
+  → Body compares current vs OLD reference → delta EXCEEDS threshold → "this feels so different"
+  → Or: someone OUTSIDE the situation comments → external mirror
 
 ④ PATTERN:
-  → Feeling không SAI — feeling ABSENT
-  → Body hoạt động đúng cơ chế (habituate, baseline shift)
-  → Nhưng cơ chế này KHÔNG PHÂN BIỆT "habituate cái tốt" vs "habituate cái xấu"
-  → Khác với F1-F4: ở đây feeling không nói gì → MỚI nguy hiểm
-  → Cần external reference (người khác, environment khác) để detect
-  (Body-Feedback-Mechanism.md: Quality Baseline Shift + Chunk-Miss variant 2 "mờ")
+  → Feeling not WRONG — feeling ABSENT
+  → Body is working correctly mechanistically (habituate, baseline shift)
+  → But this mechanism DOES NOT DISTINGUISH "habituating to good" vs "habituating to bad"
+  → Different from F1-F4: here feeling says nothing → WHICH IS the danger
+  → Needs an external reference (other people, different environment) to detect
+  (Body-Feedback-Mechanism.md: Quality Baseline Shift + Chunk-Miss variant 2 "faded")
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE F6: BODY MIXED — APPROACH + AVOIDANCE CÙNG LÚC
+### CASE F6: BODY MIXED — APPROACH + AVOIDANCE SIMULTANEOUSLY
 ### (Conflict Signal — Feeling CONFUSED)
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-① BỐI CẢNH:
-  Cơ hội mới xuất hiện: việc mới, dự án mới, quan hệ mới, quyết định lớn.
-  Vừa hấp dẫn vừa đáng sợ. Body fire CẢ HAI hướng cùng lúc.
+① CONTEXT:
+  A new opportunity appears: new job, new project, new relationship, major decision.
+  Simultaneously appealing and frightening. Body fires in BOTH directions at once.
 
-② FEELING NÓI GÌ:
-  → Approach signal: "Hay quá! Muốn thử!" (novelty + imagine-final positive)
-  → Avoidance signal: "Rủi ro! Sợ thất bại!" (threat + loss aversion)
-  → Tổng hợp: CONFUSED. "Muốn mà sợ." "Thích mà không dám."
-  → Con người KHÔNG THÍCH trạng thái này → muốn resolve NHANH
-  → Thường: ép chọn 1 hướng → mất information từ hướng kia
+② WHAT FEELING SAID:
+  → Approach signal: "This looks great! Want to try!" (novelty + imagine-final positive)
+  → Avoidance signal: "Risky! Afraid to fail!" (threat + loss aversion)
+  → Combined: CONFUSED. "Want to but afraid." "Like it but can't commit."
+  → Humans do NOT like this state → want to resolve it FAST
+  → Usually: force-choose 1 direction → lose information from the other
 
-③ THỰC TẾ:
-  → Mixed signal = body đang PHẢN ÁNH ĐÚNG sự phức tạp
-  → Tình huống THẬT SỰ vừa có opportunity vừa có risk
-  → Body fire cả hai = HONEST response
-  → Nhưng con người interpret "confused = sai" → ép simplify
+③ REALITY:
+  → Mixed signal = body is ACCURATELY REFLECTING the complexity
+  → Situation TRULY has both opportunity and risk
+  → Body fires both = HONEST response
+  → But humans interpret "confused = wrong" → force simplification
   
-  Hai kiểu ép sai:
-    → Ép theo approach: bỏ qua risk → có thể gặp vấn đề sau
-    → Ép theo avoidance: bỏ qua opportunity → có thể hối tiếc sau
-    → CẢ HAI kiểu ép đều MẤT INFORMATION
+  Two types of wrong forcing:
+    → Force toward approach: ignores risk → problems may arise later
+    → Force toward avoidance: ignores opportunity → possible regret later
+    → BOTH types of forcing LOSE INFORMATION
 
 ④ PATTERN:
-  → Feeling không SAI — feeling phản ánh ĐÚNG complexity
-  → Sai ở chỗ: interpret "confused = bad" → force resolution
-  → Thực tế: confused = body đang nói "phức tạp thật, cần thêm information"
-  → Cần: domain feedback (explore thêm, thử nhỏ, thu thập data)
-    thay vì ép quyết định ngay
-  (Drive.md §4: 4 loại drive conflict)
+  → Feeling not WRONG — feeling ACCURATELY reflects complexity
+  → The error is: interpreting "confused = bad" → forcing resolution
+  → Reality: confused = body is saying "genuinely complex, need more information"
+  → Need: domain feedback (explore more, small test, gather data)
+    instead of forcing a decision immediately
+  (Drive.md §4: 4 types of drive conflict)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## §6 — CẢ HAI CÙNG SAI: KHI LOGIC + FEELING ĐỒNG Ý MÀ VẪN SAI
+## §6 — BOTH FAIL: WHEN LOGIC + FEELING AGREE AND BOTH ARE WRONG
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE B1: RÚT MÁU — LOGIC + FEELING ĐỀU NÓI ĐÚNG
+### CASE B1: BLOODLETTING — LOGIC + FEELING BOTH SAID CORRECT
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  Logic: "Bệnh do mất cân bằng dịch → rút máu = cân bằng lại"
-  Feeling bác sĩ: "Bệnh nhân bình tĩnh hơn sau rút máu" (body observe: ĐÚNG — vì yếu)
-  Feeling bệnh nhân: "Bác sĩ nói vậy + tradition + mọi người đều làm" 
-    → social validation → body: "an tâm"
+  Logic: "Disease from humor imbalance → bloodletting = rebalancing"
+  Doctor's feeling: "Patient is calmer after bloodletting"
+    (body observes: CORRECT — because weak)
+  Patient's feeling: "Doctor says so + tradition + everyone does it"
+    → social validation → body: "at ease"
   
-  Cả hai ĐỒNG Ý: "rút máu = chữa bệnh"
-  Cả hai SAI: rút máu GÂY HẠI
+  Both AGREE: "bloodletting = cure"
+  Both WRONG: bloodletting is HARMFUL
   
-  Tại sao cả hai cùng sai:
+  Why both are wrong:
   → Logic: wrong framework (humoral theory)
   → Feeling: social validation + authority + tradition = powerful inject
-  → Logic confirm feeling, feeling confirm logic = mutual reinforcement
-  → KHÔNG CÓ ai check domain feedback (mấy người chết vì rút máu?)
-  → Survivorship bias: chỉ nhớ người sống (= "rút máu hiệu quả")
+  → Logic confirms feeling, feeling confirms logic = mutual reinforcement
+  → NOBODY checked domain feedback (how many died from bloodletting?)
+  → Survivorship bias: only remember survivors (= "bloodletting works")
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE B2: LOBOTOMY — NOBEL PRIZE + "BỆNH NHÂN CẢI THIỆN"
+### CASE B2: LOBOTOMY — NOBEL PRIZE + "PATIENTS IMPROVED"
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  Logic: "Vùng não gây vấn đề → cắt → hết vấn đề. Nobel Prize confirm."
-  Feeling bác sĩ: "Bệnh nhân bình tĩnh hơn." (body observe: ĐÚNG)
-  Feeling cộng đồng: "Nobel Prize = đỉnh cao khoa học → phải đúng"
+  Logic: "Brain region causing problem → cut → problem gone. Nobel Prize confirms."
+  Doctor's feeling: "Patient is calmer." (body observes: CORRECT)
+  Community feeling: "Nobel Prize = pinnacle of science → must be correct"
   
-  Cả hai ĐỒNG Ý: "lobotomy = breakthrough"
-  Cả hai SAI: lobotomy phá hủy nhân cách
+  Both AGREE: "lobotomy = breakthrough"
+  Both WRONG: lobotomy destroys personality
   
-  Tại sao:
-  → Logic oversimplify: não ≠ máy (cắt 1 phần ≠ sửa)
-  → Feeling: "bình tĩnh" = observation đúng, interpretation sai (bình tĩnh vì tổn thương)
-  → Nobel Prize = ultimate social validation → cả logic lẫn feeling bị amplify
-  → Thiếu follow-up (domain feedback) → không thấy hậu quả lâu dài
+  Why:
+  → Logic oversimplified: brain ≠ machine (cut 1 part ≠ fix)
+  → Feeling: "calm" = correct observation, wrong interpretation (calm because of damage)
+  → Nobel Prize = ultimate social validation → both logic and feeling amplified
+  → Lack of follow-up (domain feedback) → long-term consequences not seen
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-### CASE B3: ĐỜI THƯỜNG — "MỌI NGƯỜI ĐỀU LÀM VẬY"
+### CASE B3: EVERYDAY — "EVERYONE DOES IT THIS WAY"
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  Tình huống: Một quyết định mà "mọi người xung quanh đều đồng ý" —
-  có thể là career path, cách sống, giá trị, investment, etc.
+  Situation: A decision where "everyone around agrees" —
+  could be a career path, lifestyle, values, investment, etc.
   
-  Logic: "Nhiều người làm → chắc đúng. Evidence: họ đang ổn."
-  Feeling: "Mọi người đều vậy → body an tâm (social validation). Tôi cũng muốn."
+  Logic: "Many people do it → must be right. Evidence: they seem fine."
+  Feeling: "Everyone does this → body at ease (social validation). I want it too."
   
-  CẢ HAI CÓ THỂ SAI vì:
-  → "Nhiều người làm" = social proof, KHÔNG phải domain truth
-  → "Họ đang ổn" = snapshot hiện tại, KHÔNG phải trajectory
-  → Logic: survivorship bias (chỉ thấy người thành công, không thấy người thất bại)
-  → Feeling: mirror + external inject (body simulate trạng thái NGƯỜI KHÁC)
-  → Mutual reinforcement: logic confirm feeling → "chắc chắn đúng"
+  BOTH CAN BE WRONG because:
+  → "Many people do it" = social proof, NOT domain truth
+  → "They seem fine" = current snapshot, NOT trajectory
+  → Logic: survivorship bias (only sees successes, not failures)
+  → Feeling: mirror + external inject (body simulates OTHERS' state)
+  → Mutual reinforcement: logic confirms feeling → "definitely right"
   
-  KHÔNG phải lúc nào cũng sai:
-  → Social proof SOMETIMES đúng (đa số đúng trong nhiều contexts)
-  → Nhưng KHÔNG PHẢI always → đây là case tinh tế nhất
-  → Chỉ domain feedback CỦA MÌNH mới cho biết CÓ HỢP KHÔNG
+  NOT always wrong:
+  → Social proof SOMETIMES correct (majority right in many contexts)
+  → But NOT ALWAYS → this is the most subtle case
+  → Only YOUR OWN domain feedback can tell you WHETHER IT FITS
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## §7 — PATTERN CHUNG: TẠI SAO MỌI CASE ĐỀU XẢY RA
+## §7 — THE COMMON PATTERN: WHY EVERY CASE OCCURS
 
-### 7.1 Tổng hợp ma trận
+### 7.1 Combined matrix
 
 ```
                     FEELING
               ┌─────────────────────────────────────────────┐
-              │        ĐÚNG                  SAI            │
+              │        CORRECT               WRONG          │
          ┌────┼──────────────────────┬──────────────────────┤
-         │ Đ  │                      │                      │
-  LOGIC  │ Ú  │  Cả hai đúng        │  Logic đúng,         │
-         │ N  │  (ideal — nhưng      │  Feeling sai         │
-         │ G  │   vẫn partial)      │  (F1-F6)             │
+         │ C  │                      │                      │
+  LOGIC  │ O  │  Both correct        │  Logic correct,      │
+         │ R  │  (ideal — but        │  Feeling wrong       │
+         │ R  │   still partial)     │  (F1-F6)             │
          ├────┼──────────────────────┼──────────────────────┤
-         │ S  │                      │                      │
-         │ A  │  Logic sai,          │  Cả hai sai          │
-         │ I  │  Feeling đúng        │  (B1, B2, B3)        │
-         │    │  (L1-L9 nhiều case   │  = NGUY HIỂM NHẤT   │
-         │    │   feeling detect     │  vì không ai cảnh    │
-         │    │   trước logic)       │  báo                 │
+         │ W  │                      │                      │
+         │ R  │  Logic wrong,        │  Both wrong          │
+         │ O  │  Feeling correct     │  (B1, B2, B3)        │
+         │ N  │  (L1-L9, many cases  │  = MOST DANGEROUS    │
+         │ G  │   Feeling detects    │  because no one      │
+         │    │   before Logic)      │  warns               │
          └────┴──────────────────────┴──────────────────────┘
          
-  ⚠️ "Cả hai đúng" VẪN partial — vì domain vô tận
-  ⚠️ "Cả hai sai" = không có internal warning → CHỈ domain feedback detect
+  ⚠️ "Both correct" is STILL partial — because domain is infinite
+  ⚠️ "Both wrong" = no internal warning → ONLY domain feedback can detect
 ```
 
-### 7.2 Tại sao pattern này KHÔNG THỂ loại bỏ
+### 7.2 Why this pattern CANNOT be eliminated
 
 ```
-4 lý do structural:
+4 structural reasons:
 
-  ① Domain vô tận → luôn có cái chưa biết
-     → Logic scope luôn < domain → luôn có blind spot
-     → Feeling calibration luôn < domain → luôn có lag
+  ① Domain is infinite → there is always something unknown
+     → Logic scope always < domain → there is always a blind spot
+     → Feeling calibration always < domain → there is always a lag
      
-  ② Mỗi người khác chunks → khác blind spots
-     → Không có "universal warning system"
-     → Cái sai của TÔI ≠ cái sai CỦA BẠN
+  ② Each person has different chunks → different blind spots
+     → No "universal warning system"
+     → My error ≠ your error
      
-  ③ Cả hai check COHERENCE, không check TRUTH
-     → Logic: rules coherent ≠ rules đúng (Case L1-L9)
-     → Feeling: body coherent ≠ body đúng (Case F1-F6)
+  ③ Both check COHERENCE, not TRUTH
+     → Logic: rules coherent ≠ rules correct (Cases L1-L9)
+     → Feeling: body coherent ≠ body correct (Cases F1-F6)
      → Coherence = necessary, not sufficient
      
-  ④ Mutual reinforcement tạo false confidence
-     → Logic confirm feeling + feeling confirm logic
-     → = Cảm giác "chắc chắn" TĂNG nhưng accuracy KHÔNG tăng
-     → Case B1-B3: cả hai đồng ý = TỰ TIN NHẤT + SAI NHẤT
+  ④ Mutual reinforcement creates false confidence
+     → Logic confirms feeling + feeling confirms logic
+     → = Feeling of "certainty" INCREASES but accuracy does NOT increase
+     → Cases B1-B3: both agree = MOST CONFIDENT + MOST WRONG
 ```
 
-### 7.3 Điều duy nhất có thể
+### 7.3 What IS possible
 
 ```
-KHÔNG THỂ: loại bỏ sai
-KHÔNG THỂ: biết trước cái nào sai
-KHÔNG THỂ: tạo rules tránh sai
+CANNOT: eliminate error
+CANNOT: know in advance which is wrong
+CANNOT: create rules to avoid error
 
-CÓ THỂ:
-  → NHẬN DIỆN rằng pattern này tồn tại (file này giúp điều đó)
-  → GIẢM TỰ TIN TUYỆT ĐỐI (awareness → humble)
-  → TĂNG DOMAIN FEEDBACK (thử → observe → adjust)
-  → CHẤP NHẬN THỬ-SAI (không phải weakness, là cơ chế duy nhất)
-  → MỖI NGƯỜI TỰ CÂN BẰNG (không ai làm thay được)
+CAN:
+  → RECOGNIZE that this pattern exists (this file helps with that)
+  → REDUCE ABSOLUTE CERTAINTY (awareness → humble)
+  → INCREASE DOMAIN FEEDBACK (try → observe → adjust)
+  → ACCEPT TRIAL-AND-ERROR (not weakness, it is the only mechanism)
+  → EACH PERSON BALANCES FOR THEMSELVES (no one can do it for you)
   
-  (Chi tiết: Logic-Feeling-Balance.md §6-§8)
+  (Detail: Logic-Feeling-Balance.md §6-§8)
 ```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## §8 — KẾT NỐI
+## §8 — CONNECTIONS
 
-### 8.1 Files trực tiếp liên quan
+### 8.1 Directly related files
 
 ```
 📚 Companion:
-  → Logic-Feeling-Balance.md — NGUYÊN LÝ (tại sao không thể prescribe)
-  → File này — EVIDENCE (thực tế cho thấy cả hai đều sai)
+  → Logic-Feeling-Balance.md — PRINCIPLE (why balance cannot be prescribed)
+  → This file — EVIDENCE (real-world cases showing both can fail)
 
-📚 Cơ chế:
-  → Logic-Feeling.md §5 — 6 cases phân tích cơ chế Body-Knowing ↔ Fresh interaction
-  → Why-Body-Knows.md §6 — 3 error types (evolution lag, chunks nền sai, schema override)
+📚 Mechanism:
+  → Logic-Feeling.md §5 — 6 cases analyzing Body-Knowing ↔ Fresh interaction
+  → Why-Body-Knows.md §6 — 3 error types (evolution lag, wrong foundation chunks, schema override)
   → Feeling-Accuracy.md §3 — 6 PFC error modes
-  → Body-Feedback.md — Dual-Pull + 3 nguồn discomfort (nociception, mismatch, recalibration)
+  → Body-Feedback.md — Dual-Pull + 3 discomfort sources (nociception, mismatch, recalibration)
   → Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap + Quality Baseline Shift
 
 📚 Context:
   → Anchor-Schema.md §3 ④ — External Inject mechanism
   → Feeling.md §8 — Domain-Checked vs Self-Referencing
-  → Conflict-Dynamics.md §7 — Scarcity → Expansion (tại sao thử-sai = engine)
+  → Conflict-Dynamics.md §7 — Scarcity → Expansion (why trial-and-error = engine)
 ```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -802,22 +804,21 @@ CÓ THỂ:
 ## §9 — STATUS
 
 ```
-File: Logic-Feeling-Fail-Example.md
+File: Logic-Feeling-Failure-Examples.md
 Version: 1.0
 Created: 2026-04-21
-Lines: ~950
 Status: v1.0
 
 Examples:
   Logic: 9 cases (L1-L9) — all historically verified
-  Feeling cực đoan: 2 cases (F1-F2)
-  Feeling tinh tế: 2 cases (F3-F4) 
-  Feeling bổ sung: 2 cases (F5-F6) — neutral + mixed
-  Cả hai sai: 3 cases (B1-B3) — historical + everyday
+  Feeling extreme: 2 cases (F1-F2)
+  Feeling subtle: 2 cases (F3-F4)
+  Feeling supplementary: 2 cases (F5-F6) — neutral + mixed
+  Both wrong: 3 cases (B1-B3) — historical + everyday
   Total: 18 examples
 
 Dependencies:
-  → Logic-Feeling-Balance.md (companion — nguyên lý)
+  → Logic-Feeling-Balance.md (companion — principle)
   → Logic-Feeling.md (Body-Knowing + observer labels + Compiled/Fresh spectrum)
   → Why-Body-Knows.md (mechanism — body error types)
   → Feeling-Accuracy.md (mechanism — PFC error modes)
@@ -826,6 +827,6 @@ Dependencies:
 
 ---
 
-> *"Không phải vì họ dốt. Không phải vì bạn dốt.*
-> *Mà vì domain luôn rộng hơn cái bất kỳ ai đã biết.*
-> *Và chính vì thế — bạn tiếp tục thử."*
+> *"Not because they were foolish. Not because you are foolish.*
+> *But because domain is always wider than what anyone has ever known.*
+> *And that is precisely why — you keep trying."*

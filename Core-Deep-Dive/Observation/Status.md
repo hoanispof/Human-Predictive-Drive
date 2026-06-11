@@ -1,451 +1,414 @@
-﻿---
-title: Status — Observation Parameter
+---
+title: "Status — Observation Parameter"
 version: 2.2
 created: 2026-04-20
 rewritten: 2026-04-21
-updated: 2026-05-17 v2.1 — +Compilable Architecture, +Compiled/Fresh explicit, +PFC=Lawyer, cross-refs updated
-refined: 2026-05-23 (v2.2 — Concept Cascade: +Entity-Access gradient, +Hardware-Subsidy, +By-Product-Scale, +Firing Modes. Updated versions + cross-refs)
+updated: "2026-05-17 v2.1 — +Compilable Architecture, +Compiled/Fresh explicit, +PFC=Lawyer, cross-refs updated"
+refined: "2026-05-23 v2.2 — Concept Cascade: +Entity-Access gradient, +Hardware-Subsidy, +By-Product-Scale, +Firing Modes"
 status: OBSERVATION PARAMETER v2.2
 scope: |
-  OBSERVATION FILE: Status = named pattern khi quan sát resource access
-  calibration giữa social agents. Body cho REWARD THẬT khi status tăng
-  vì status tăng = resource access tăng = body-base được feed tốt hơn.
-  File này mô tả: evolutionary WHY, Resource Access Map (core redefine),
-  body scan mechanism, animal→human spectrum, 3 modes tương tác,
+  OBSERVATION FILE: Status = the named pattern when observing resource access
+  calibration between social agents. The body gives REAL REWARD when status rises
+  because status rising = resource access rising = body-base fed better.
+  This file describes: evolutionary WHY, Resource Access Map (core redefine),
+  body scan mechanism, animal→human spectrum, 3 interaction modes,
   cooperation as dominant mode, disruption→recalibrate cycle,
   position vs aspiration, serotonin = certainty bias,
   chunk dynamics, cortisol interaction, conflict at scale.
   v2.1 KEY CHANGES:
-    ⑪ +Compilable Architecture: status = emergent từ general-purpose system (§0)
+    ⑪ +Compilable Architecture: status = emergent from general-purpose system (§0)
     ⑫ +Compiled/Fresh explicit: Compiled maps vs Fresh PFC draft (§2.1)
     ⑬ +PFC=Lawyer: status self-deception, 3 distortion modes (§9.5)
     ⑭ +Honest Assessment 🟡 items for new concepts (§16)
     ⑮ +Cross-refs: Inter-Body-Mechanism.md v1.0, Body-Feedback-Label.md v2.0
-    ⑯ Version refs updated: Connection v4.0, Valence-Propagation v2.0
-purpose: |
-  Core v7.8 §8 define Status ngắn gọn ("Self-assessment chunk patterns
-  + hormonal baseline"). File này DEEP-DIVE toàn bộ:
-  ① TẠI SAO evolution select cho status (resource access = body-base reward)
-  ② Status = Resource Access Map (nhiều chiều, per-person, per-context)
-  ③ Mechanism: body scan vô thức → calibrate access
-  ④ Spectrum: solitary animal → hierarchy → multi-dimensional (người)
-  ⑤ 3 modes + cooperation dominance + disruption cycle
-  ⑥ Serotonin, chunk dynamics, cortisol, conflict at scale
-position: |
-  Core-Deep-Dive/Observation/ — ngang hàng Novelty.md, Threat.md, Drive.md,
-  Boredom.md, Empathy.md, Connection.md, Protect.md, Meaning.md,
-  Autonomy-Hardware.md, Autonomy.md, Liking-Wanting.md, AI-Schema-Detection.md.
-  Tất cả = observation parameter deep-dives.
-dependencies:
-  - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
-  - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, compound mechanism
-  - Body-Feedback/03-Reward.md — VTA alert + opioid reward 2-level, Body-Feedback-Precondition
-  - Chunk.md v2.0 — chunk substrate, compilation, hierarchy
-  - Agent-Mechanism.md v2.1 — Self-Pattern-Modeling mechanism, §12 body-need feeder, 10 dimensions
-  - Connection.md v5.0 — overlap analysis, 4-Layer Sustainability, Resonance Decline
-  - Threat.md v1.2 — social threat, imposed threat, anticipation loop
-  - Protect.md v1.0 — ownership chunks, loss aversion, f(repl×attach)
-  - Cortisol-Baseline.md v2.0 — amplifier, vicious cycle, direction tag
-  - Feeling.md v2.0 — PFC observation interface
-  - Valence-Propagation.md v3.0 — body evaluation, 3 firing modes, hardware-subsidy
-  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, PFC=Lawyer, Compiled/Fresh
-  - Body-Feedback-Label.md v2.0 — framework vocabulary reference
-  - Chunk/Agent-Mechanism/Entity-Access.md v1.2 — status = access gradient reframe
-  - Chunk/Agent-Mechanism/By-Product-Scale.md v1.0 — status across 3 scales
-  - Chunk/Agent-Mechanism/Bond-Architecture.md v2.0 — Resonance Decline, firing modes per status display
-  - Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT
-  - Knowledge-Flow.md — status enables/blocks knowledge transmission
-  - Autonomy-Hardware.md — efference copy, self-action = reward
-sources_backup: |
-  v1.0: Status.md (1,301L, 2026-04-20) → backup/Status-v1.0-backup.md
-  v0: Status-Analysis-v2.md (656L, 2026-03-23) → backup/Status-Analysis-v2-v75-era.md
-language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+source_file: Core-Deep-Dive/Observation/Status.md
 ---
 
 # Status — Observation Parameter
 
-> 20 con khỉ sống chung. Mỗi lần muốn ăn quả → phải đánh nhau.
-> 20 lần ăn × 20 con = 400 lần đánh nhau MỖI NGÀY.
-> Thương tích, mất máu, nhiễm trùng, chết. Cost CỰC CAO.
+> Twenty monkeys living together. Each time any one wants a piece of fruit — they fight for it.
+> Twenty feeding rounds × twenty animals = 400 fights EVERY DAY.
+> Injuries, blood loss, infection, death. The cost is ENORMOUS.
 >
-> Evolution tìm cách RẺ hơn: đánh 1 lần → nhớ kết quả → dùng lại.
-> Alpha thắng → ăn trước, ngủ chỗ tốt, bạn tình nhiều.
-> Tất cả KHÔNG CẦN đánh lại mỗi lần.
+> Evolution finds a cheaper solution: fight once → remember the result → reuse it.
+> The alpha wins → eats first, sleeps in the best spot, mates freely.
+> Nobody needs to fight again every single time.
 >
-> Đó là STATUS.
-> Không phải "ai cao hơn ai" — mà là "AI ĐƯỢC LẤY GÌ MÀ KHÔNG CẦN ĐÁNH."
+> That is STATUS.
+> Not "who is higher than whom" — but "WHO GETS WHAT WITHOUT HAVING TO FIGHT."
 >
-> Body cho REWARD THẬT khi status tăng — vì status tăng = ĂN NGON HƠN,
-> NGỦ YÊN HƠN, AN TOÀN HƠN. Không phải cảm giác trừu tượng.
+> The body gives REAL REWARD when status rises — because rising status = EATING BETTER,
+> SLEEPING MORE SAFELY, BEING MORE SECURE. Not an abstract feeling.
 >
-> Ở khỉ: 1 chiều (mạnh/yếu), 1 hierarchy.
-> Ở người: NHIỀU chiều (skill, knowledge, network, tình cảm,...),
-> PER-PERSON, PER-CONTEXT. Nhưng NGUYÊN LÝ KHÔNG ĐỔI:
-> status = TÔI ĐƯỢC ACCESS GÌ từ AGENT NÀY.
+> In monkeys: 1 dimension (strong/weak), 1 hierarchy.
+> In humans: MANY dimensions (skill, knowledge, network, emotional connection...),
+> PER-PERSON, PER-CONTEXT. But THE PRINCIPLE DOESN'T CHANGE:
+> status = WHAT I CAN ACCESS from THIS AGENT.
 >
-> File này: TẠI SAO status tồn tại, CƠ CHẾ thế nào,
-> từ động vật đơn giản → xã hội phức tạp,
-> và tại sao hiểu status = hiểu phần lớn hành vi xã hội con người.
+> This file: WHY status exists, HOW the mechanism works,
+> from simple animals → complex societies,
+> and why understanding status = understanding most human social behavior.
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — TẠI SAO STATUS TỒN TẠI: EVOLUTIONARY FOUNDATION
-- §1 — STATUS LÀ GÌ: RESOURCE ACCESS MAP
-- §2 — CƠ CHẾ SCAN: BODY VÔ THỨC
-- §3 — SPECTRUM: TỪ ĐỘNG VẬT ĐƠN LẺ → XÃ HỘI PHỨC TẠP
-- §4 — 3 MODES TƯƠNG TÁC: LẤY / TRAO ĐỔI / COMPLY
-- §5 — TRAO ĐỔI: MODE PHỔ BIẾN NHẤT
-- §6 — XÁO TRỘN → RE-CALIBRATE → ỔN ĐỊNH MỚI
-- §7 — POSITION VS ASPIRATION: 2 THAM SỐ
+- §0 — WHY STATUS EXISTS: EVOLUTIONARY FOUNDATION
+- §1 — WHAT STATUS IS: THE RESOURCE ACCESS MAP
+- §2 — THE SCAN MECHANISM: UNCONSCIOUS BODY PROCESSING
+- §3 — SPECTRUM: FROM SOLITARY ANIMALS → COMPLEX SOCIETIES
+- §4 — 3 INTERACTION MODES: TAKE / EXCHANGE / COMPLY
+- §5 — EXCHANGE: THE DOMINANT MODE
+- §6 — DISRUPTION → RE-CALIBRATE → NEW STABILITY
+- §7 — POSITION VS ASPIRATION: 2 PARAMETERS
 - §8 — BEING SEEN + BELONGING: 2 CALIBRATION FUNCTIONS
-- §9 — SEROTONIN: CERTAINTY BIAS NỀN
+- §9 — SEROTONIN: THE CERTAINTY BIAS BASELINE
 - §10 — STATUS × CHUNK DYNAMICS
 - §11 — STATUS × CORTISOL
 - §12 — STATUS × OTHER OBSERVATION PARAMETERS
 - §13 — STATUS × CONFLICT AT SCALE
-- §14 — QUÂN ĐỘI: STATUS OPTIMIZATION CASE STUDY
-- §15 — STATUS TRONG TẬP THỂ
-- §16 — HONEST ASSESSMENT + CÂU HỎI MỞ
+- §14 — THE MILITARY: A STATUS OPTIMIZATION CASE STUDY
+- §15 — STATUS IN COLLECTIVES
+- §16 — HONEST ASSESSMENT + OPEN QUESTIONS
 - §17 — CROSS-REFERENCES
 
 ---
 
-## §0 — TẠI SAO STATUS TỒN TẠI: EVOLUTIONARY FOUNDATION
+## §0 — WHY STATUS EXISTS: EVOLUTIONARY FOUNDATION
 
 ```
-⭐ CÂU HỎI GỐC: Tại sao evolution select cho status assessment?
+⭐ THE ROOT QUESTION: Why does evolution select for status assessment?
 
-  NGUYÊN LÝ: Status tồn tại vì nó GIẢM COST phân bổ resource
-  trong nhóm xã hội, đồng thời body cho REWARD THẬT khi status tăng
-  vì status tăng = resource access tăng = body-base được feed tốt hơn.
+  PRINCIPLE: Status exists because it REDUCES THE COST of resource
+  allocation within a social group, while the body gives REAL REWARD
+  when status rises because rising status = rising resource access =
+  body-base fed better.
 
-  CHUỖI NHÂN QUẢ:
+  CAUSAL CHAIN:
 
-    Động vật sống bầy đàn → chia sẻ resource (thức ăn, chỗ ngủ, bạn tình)
-      → Mỗi lần phân bổ nếu phải đánh nhau → cost CỰC CAO
-        → Evolution select cho cơ chế rẻ hơn:
-          → Đánh 1 lần → nhớ kết quả → dùng lại nhiều lần
+    Social animals live together → share resources (food, shelter, mates)
+      → Every allocation requiring a fight → cost ENORMOUS
+        → Evolution selects for a cheaper mechanism:
+          → Fight once → remember the result → reuse it many times
             → = PRE-CALIBRATED RESOURCE ALLOCATION
               → = STATUS
 
-    Status cao hơn → access nhiều resource hơn
-      → Body-base được feed tốt hơn (ăn ngon, ngủ yên, an toàn, bạn tình)
-        → Body cho REWARD THẬT cho status upgrade (opioid, serotonin tăng)
-          → Con vật có status assessment mechanism → survival advantage
-            → Evolution select → mechanism phổ biến ở MỌI loài xã hội
+    Higher status → more resource access
+      → Body-base fed better (better food, safer sleep, more mates)
+        → Body gives REAL REWARD for status upgrade (opioid, serotonin rise)
+          → Animals with status assessment → survival advantage
+            → Evolution selects → mechanism universal in ALL social species
 
 
   🟢 EVIDENCE:
 
-    ① Sapolsky (30+ năm nghiên cứu đàn khỉ baboon):
-       → Alpha: cortisol thấp, serotonin cao, testosterone cao
-       → Subordinate: cortisol cao, serotonin thấp
-       → Alpha chết → beta serotonin TĂNG NGAY (chưa cần đánh)
-       → = Body PRE-REWARD cho cơ hội status upgrade
+    ① Sapolsky (30+ years studying baboon troops):
+       → Alpha: cortisol low, serotonin high, testosterone high
+       → Subordinate: cortisol higher, serotonin lower
+       → Alpha dies → beta serotonin RISES IMMEDIATELY (before fighting)
+       → = Body PRE-REWARDS for the opportunity of status upgrade
 
-    ② Pecking order (gà, 1920s, Schjelderup-Ebbe):
-       → Gà mới vào → đánh vài lần → xác định rank → sau đó STABLE
-       → Cost: vài lần đánh. Benefit: hàng nghìn lần ăn không cần đánh
-       → = Cost-benefit ratio CỰC CAO cho pre-calibration
+    ② Pecking order (chickens, 1920s, Schjelderup-Ebbe):
+       → New bird enters → few fights → rank established → STABLE
+       → Cost: a few fights. Benefit: thousands of feeding rounds without fighting
+       → = Cost-benefit ratio EXTREMELY HIGH for pre-calibration
 
     ③ Lobster serotonin (Huber & Kravitz 2005):
-       → Lobster thắng → serotonin tăng → tư thế mở rộng → behavior tự tin
-       → Lobster thua → serotonin giảm → tư thế co lại → behavior rụt rè
-       → = CƠ CHẾ CƠ BẢN, tồn tại ngay ở loài cách xa 350 triệu năm
+       → Winner lobster → serotonin rises → open posture → confident behavior
+       → Loser lobster → serotonin drops → contracted posture → timid behavior
+       → = BASIC MECHANISM, exists in a species 350 million years removed from us
 
     ④ 🟢 Social Baseline Theory (Coan 2015):
-       → Proximity to allies → metabolic cost GIẢM
-       → Có allies = có backing = status maps mở rộng hơn
-       → = Status system TÍCH HỢP vào energy management
+       → Proximity to allies → metabolic cost DECREASES
+       → Having allies = having backing = status maps expand
+       → = Status system INTEGRATED into energy management
 
-    → Cross-species: gà, lobster, cá, sói, khỉ, người — TẤT CẢ có status
-    → = Cơ chế CỔ XƯA, tối thiểu 350 triệu năm evolution
-
-
-  ⭐ BODY REWARD THẬT — KHÔNG PHẢI TRỪU TƯỢNG:
-
-    Alpha khỉ:
-      → Ăn GÌ CŨNG ĐƯỢC (quả ngon nhất, thịt tốt nhất)
-      → Đi ĐÂU CŨNG ĐƯỢC (vị trí tốt nhất để ngủ, an toàn nhất)
-      → Giao phối TỰ DO (bạn tình nhiều nhất)
-      → Mọi con khác NHƯỜNG (không cần đánh)
-      → = TOÀN BỘ body-base needs met ở mức CAO NHẤT
-
-    Con khỉ thấp nhất:
-      → Ăn THỪA (quả còn sót, phần còn lại)
-      → Đi HẠN CHẾ (không dám vào vùng gần alpha)
-      → Giao phối HẠN CHẾ (phải lén lút)
-      → Luôn phải NHƯỜNG (cho mọi con rank cao hơn)
-      → = Body-base needs met ở mức THẤP NHẤT
-
-    → Status cao = resource access rộng = body-base reward THẬT
-    → Body cho reward cho upgrade = ĐÚNG, vì upgrade = có lợi THẬT
-    → Body kháng status decrease = ĐÚNG, vì decrease = mất resource THẬT
-    → = Reward mechanism CHÍNH XÁC — không phải illusion
+    → Cross-species: chickens, lobsters, fish, wolves, primates, humans — ALL have status
+    → = ANCIENT mechanism, minimum 350 million years of evolution
 
 
-  ⭐ COMPILABLE ARCHITECTURE — TẠI SAO STATUS EMERGENT (Inter-Body-Mechanism.md §1.2):
+  ⭐ REAL BODY REWARD — NOT ABSTRACT:
 
-    HARDWIRED ARCHITECTURE (côn trùng, động vật đơn giản):
-      Mỗi social behavior = 1 hardwired circuit riêng
-      → Status? KHÔNG CẦN — response hardwired: gặp kẻ mạnh → co lại, kẻ yếu → tấn công
-      → Hormone drive TRỰC TIẾP: testosterone → approach, cortisol → retreat
-      → = Không có "status tracking" — chỉ có stimulus → response
+    Alpha monkey:
+      → Eats WHATEVER (best fruit, best meat)
+      → Goes ANYWHERE (best sleeping position, safest spot)
+      → Mates FREELY (most partners)
+      → Everyone YIELDS (no fighting needed)
+      → = ALL body-base needs met at the HIGHEST LEVEL
 
-    COMPILABLE ARCHITECTURE (mammals phức tạp, con người):
-      Hardwired: CHỈ reward mechanism + compilation + social hardware + PFC
+    Lowest-rank monkey:
+      → Eats LEFTOVERS (remaining fruit, scraps)
+      → Goes LIMITED places (can't approach the alpha's territory)
+      → Mates RARELY (must do it secretly)
+      → Always YIELDING (to every higher-rank animal)
+      → = Body-base needs met at the LOWEST LEVEL
+
+    → High status = wide resource access = REAL body-base reward
+    → Body rewards for upgrading = CORRECT, because upgrading = truly beneficial
+    → Body resists status decrease = CORRECT, because decrease = real resource loss
+    → = Reward mechanism ACCURATE — not an illusion
+
+
+  ⭐ COMPILABLE ARCHITECTURE — WHY STATUS IS EMERGENT (Inter-Body-Mechanism.md §1.2):
+
+    HARDWIRED ARCHITECTURE (insects, simple animals):
+      Each social behavior = 1 dedicated hardwired circuit
+      → Status? NOT NEEDED — response hardwired: face the strong → retreat, face the weak → attack
+      → Hormone directly drives behavior: testosterone → approach, cortisol → retreat
+      → = No "status tracking" — just stimulus → response
+
+    COMPILABLE ARCHITECTURE (complex mammals, humans):
+      Hardwired: ONLY reward mechanism + compilation + social hardware + PFC
       Content: LEARN from environment → compile → body-need
-      → Status = EMERGENT khi general-purpose system TRACK resource access:
-        ① Body CẦN resources (food, mate, safety) → universal
-        ② Body LEARNS "agent nào cho access gì" → compilation
-        ③ Compiled maps = STATUS SYSTEM (không cần module riêng)
-      → = Status KHÔNG có "status module" trong não
-      → = Status = tên gọi cho output CỦA general-purpose learning system
-        khi applied vào social resource tracking
+      → Status = EMERGENT when general-purpose system TRACKS resource access:
+        ① Body NEEDS resources (food, mate, safety) → universal
+        ② Body LEARNS "which agent gives access to what" → compilation
+        ③ Compiled maps = STATUS SYSTEM (no separate module needed)
+      → = Status does NOT have a "status module" in the brain
+      → = Status = the name for the OUTPUT OF the general-purpose learning system
+        when applied to social resource tracking
 
     🟡 Hardwired/Compilable Architecture naming = framework synthesis.
        Status = emergent from Compilable Architecture = consistent with no dedicated
        "status module" found in neuroscience (unlike, e.g., FFA for faces).
 
 
-    🟡 Đây là lý do serotonin Ratchet tồn tại (§9.2):
-       Sẵn sàng tăng khi có cơ hội (grab resource nhanh)
-       Kháng giảm khi bị threat (giữ resource đã có)
-       = Body OPTIMIZE resource access qua status marker
+    🟡 This is why the Serotonin Ratchet exists (§9.2):
+       Ready to rise when opportunity appears (grab resource quickly)
+       Resists declining when threatened (protect resource already held)
+       = Body OPTIMIZES resource access through the status marker
 ```
 
-### §0.1 — Cost of status calibration
+### §0.1 — The cost of status calibration
 
 ```
-🟡 CALIBRATE STATUS = TỐN KÉM, NHƯNG RẺ HƠN ĐÁNH NHAU MỖI LẦN:
+🟡 CALIBRATING STATUS = COSTLY, BUT CHEAPER THAN FIGHTING EVERY TIME:
 
-  COST CỦA ĐÁNH NHAU MỖI LẦN (không có status):
-    → Thương tích (mất máu, gãy xương, nhiễm trùng)
-    → Chết (mất hoàn toàn)
-    → Energy tiêu tốn (mỗi lần fight = cortisol spike + muscle drain)
-    → Thời gian (fight = không ăn, không ngủ, không giao phối)
-    → = Cost PER INTERACTION = RẤT CAO
+  COST OF FIGHTING EVERY TIME (no status):
+    → Injuries (blood loss, broken bones, infection)
+    → Death (total loss)
+    → Energy expenditure (each fight = cortisol spike + muscle drain)
+    → Time lost (fighting = not eating, not sleeping, not mating)
+    → = Cost PER INTERACTION = VERY HIGH
 
-  COST CỦA STATUS CALIBRATION (1 lần, dùng nhiều lần):
-    → Đánh vài lần ban đầu (hoặc display + posture competition)
-    → PFC draft status maps cho mọi member (tốn bandwidth)
-    → Cortisol tăng tạm (uncertainty phase)
-    → = Cost UP-FRONT = VỪA PHẢI
+  COST OF STATUS CALIBRATION (once, used many times):
+    → A few fights upfront (or display + posture competition)
+    → PFC drafts status maps for all members (bandwidth cost)
+    → Cortisol rises temporarily (uncertainty phase)
+    → = Up-front cost = MODERATE
 
-  BENEFIT CỦA STATUS ĐÃ CALIBRATE:
-    → Mỗi lần phân bổ resource = ZERO fighting cost
-    → PFC cost ≈ 0 (map đã compiled)
-    → Hàng nghìn interactions/năm × zero cost = TIẾT KIỆM CỰC LỚN
+  BENEFIT OF CALIBRATED STATUS:
+    → Every resource allocation = ZERO fighting cost
+    → PFC cost ≈ 0 (maps already compiled)
+    → Thousands of interactions/year × zero cost = ENORMOUS SAVINGS
     → = Cost-benefit ratio >> 1
 
-  → = Evolution select vì: up-front cost NHỎ × long-term benefit LỚN
-  → = Giống "mua bảo hiểm" — trả 1 lần, dùng nhiều lần
-  → = Giải thích tại sao MỌI loài xã hội đều có status system
+  → = Evolution selects because: up-front cost SMALL × long-term benefit LARGE
+  → = Like "buying insurance" — pay once, use many times
+  → = Explains why ALL social species have a status system
 ```
 
-### §0.2 — Agents = external tools cho body-base
+### §0.2 — Agents = external tools for body-base
 
 ```
-🟡 STATUS CALIBRATE "TÔI NHẬN ĐƯỢC GÌ TỪ AGENT NÀY":
+🟡 STATUS CALIBRATES "WHAT I RECEIVE FROM THIS AGENT":
 
-  Agent.md §12: Body CẦN social presence giống cần thức ăn, nước.
-  Agents = EXTERNAL TOOLS giúp body-base meet needs:
+  Agent-Mechanism.md §12: The body NEEDS social presence the way it needs food and water.
+  Agents = EXTERNAL TOOLS that help body-base meet needs:
 
-    Mẹ → cho ăn, chăm sóc → body-base trực tiếp (survival)
-    Bạn → chơi cùng, chia sẻ → novelty + social presence
-    Đồng nghiệp → hợp tác → sản phẩm mà 1 mình không làm nổi
-    Vợ/chồng → intimacy + co-regulation → cortisol giảm, oxytocin tăng
-    Sếp → công nhận → status maps mở rộng → access thêm resource
+    Mother → feeds, cares for → body-base directly (survival)
+    Friend → play together, share → novelty + social presence
+    Colleague → cooperate → a product neither could build alone
+    Partner → intimacy + co-regulation → cortisol drops, oxytocin rises
+    Boss → recognition → status maps expand → access more resource
 
-  Mỗi agent = 1 SOURCE of body-base feeding, qua các channels khác nhau.
+  Each agent = 1 SOURCE of body-base feeding, through different channels.
 
-  STATUS CALIBRATE:
-    → "Với AGENT NÀY, tôi NHẬN ĐƯỢC GÌ?"
-    → "Tôi CẦN TRẢ GÌ để nhận?"
-    → "Tôi CÓ THỂ TỪ CHỐI không?"
+  STATUS CALIBRATES:
+    → "With THIS AGENT, WHAT DO I GET?"
+    → "WHAT DO I NEED TO GIVE to receive?"
+    → "CAN I REFUSE?"
     → = RESOURCE ACCESS MAP per agent
 
-  Lãnh chúa → lấy BẤT CỨ GÌ từ nô lệ (không cần trả)
-  Nô lệ → không dám phản kháng (biết rõ gap quá lớn)
-  = EXTREME case: status gap CỰC LỚN = resource access 1 chiều
+  Lord → takes ANYTHING from serf (no need to give back)
+  Serf → doesn't dare resist (knows the gap is too large)
+  = EXTREME case: status gap ENORMOUS = one-directional resource access
 
-  Bạn bè → trao đổi kiến thức, cảm xúc, thời gian (mutual)
-  = COMMON case: status gap NHỎ = resource access 2 chiều
+  Friends → exchange knowledge, emotion, time (mutual)
+  = COMMON case: status gap SMALL = two-directional resource access
 
-  → Status KHÔNG phải abstract "ai cao hơn ai"
-  → Status = "TÔI ACCESS ĐƯỢC GÌ từ AI" = cụ thể, measurable, body-real
+  → Status is NOT abstract "who is higher than whom"
+  → Status = "WHAT I CAN ACCESS FROM WHOM" = concrete, measurable, body-real
 ```
 
 ---
 
-## §1 — STATUS LÀ GÌ: RESOURCE ACCESS MAP
+## §1 — WHAT STATUS IS: THE RESOURCE ACCESS MAP
 
 ```
 ⭐ OBSERVATION PARAMETER (v7.8 reframe):
 
-  Status KHÔNG PHẢI:
-    ✗ Component kiến trúc (không có "Status module" trong não)
-    ✗ Drive operator (không có "Status engine" bật/tắt)
-    ✗ 1 con số cố định (cao/thấp)
-    ✗ Vị trí trong hierarchy (CEO > Manager > Staff)
-    ✗ Personality trait "tự tin" (mô tả, không giải thích)
+  Status is NOT:
+    ✗ An architectural component (no "Status module" in the brain)
+    ✗ A drive operator (no "Status engine" that switches on/off)
+    ✗ A single fixed number (high/low)
+    ✗ A position in a hierarchy (CEO > Manager > Staff)
+    ✗ A personality trait "confidence" (description, not explanation)
 
-  Status LÀ:
-    ○ Tên gọi cho PATTERN observable: khi body calibrate
-      resource access giữa mình và agent khác
-    ○ Emergent từ body-level social scan + compiled access maps
-    ○ Body cho REWARD THẬT khi status tăng (§0)
-    ○ Mechanism nằm ở chunks + body-feedback — status chỉ là TÊN GỌI
+  Status IS:
+    ○ The name for an OBSERVABLE PATTERN: when the body calibrates
+      resource access between itself and another agent
+    ○ Emergent from body-level social scanning + compiled access maps
+    ○ The body gives REAL REWARD when status rises (§0)
+    ○ The mechanism lives in chunks + body-feedback — status is just THE NAME
 
 
-  VỊ TRÍ TRONG CYCLE (Core-v7.8-Draft.md §1):
+  POSITION IN THE CYCLE (Core-Software.md §1):
 
-    Domain (social context: gặp agent)
+    Domain (social context: encounter an agent)
       → Body-Input (visual/auditory/context cues)
         → Unconscious (status chunks activate, access maps load)
-          → Feeling (tự tin / rụt rè / bất an)
-            → PFC (evaluate: dám thử không? access được không?)
-              → Body-Output (behavior: comply / trao đổi / lấy)
+          → Feeling (confident / hesitant / uneasy)
+            → PFC (evaluate: dare I try? can I access this?)
+              → Body-Output (behavior: comply / exchange / take)
                 → Domain (social outcome → update status chunks)
 
-    → Status = observation parameter trên TOÀN cycle
-    → Không nằm ở 1 step — observe ACROSS cycle
+    → Status = observation parameter ACROSS THE ENTIRE CYCLE
+    → It does not sit at one step — it observes ACROSS the cycle
 
 
   CROSS-SPECIES:
-    Ở động vật: hormone → status behavior trực tiếp (khỉ: serotonin ↔ rank)
-    Ở con người: hormone → chunk processing → status behavior
-    = Cùng function, nhưng chunk system phức tạp → OVERRIDE hormone đáng kể
-    = Giải thích chi tiết ở §3.3 ⑤
+    In animals: hormone → status behavior directly (monkeys: serotonin ↔ rank)
+    In humans: hormone → chunk processing → status behavior
+    = Same function, but the chunk system is complex → OVERRIDE of hormones is significant
+    = Detailed explanation in §3.3 ⑤
 ```
 
-### §1.1 — Resource Access Map: cụ thể, không trừu tượng
+### §1.1 — Resource Access Map: concrete, not abstract
 
 ```
 ⭐ STATUS = RESOURCE ACCESS MAP:
 
-  NÓI GỌN NHẤT:
-    Status = "Với NGƯỜI NÀY, trong CONTEXT NÀY:
-    tôi ACCESS ĐƯỢC GÌ, và phải TRẢ GÌ?"
+  IN THE SIMPLEST TERMS:
+    Status = "With THIS PERSON, in THIS CONTEXT:
+    what can I ACCESS, and what must I GIVE IN RETURN?"
 
-  "Access" ở đây = CỤ THỂ:
-    → Được ăn trước hay ăn sau? (food access)
-    → Được nói hay phải im? (voice access)
-    → Được đề xuất hay phải chờ chỉ đạo? (initiative access)
-    → Được ôm hay phải giữ khoảng cách? (intimacy access)
-    → Được nhờ giúp hay phải tự làm? (support access)
-    → Được từ chối hay phải tuân theo? (refusal access)
+  "Access" here = CONCRETE:
+    → Eat first or last? (food access)
+    → Speak or stay silent? (voice access)
+    → Propose ideas or wait for instructions? (initiative access)
+    → Hug or maintain distance? (intimacy access)
+    → Ask for help or figure it out alone? (support access)
+    → Refuse or comply? (refusal access)
 
-  VÍ DỤ — cùng 1 người, 3 agents KHÁC NHAU:
+  EXAMPLE — same person, 3 DIFFERENT agents:
 
-    Với VỢ:
-      → Voice: nói thẳng, đề xuất thoải mái ✅
-      → Intimacy: ôm, hôn, thân mật ✅
-      → Initiative: đề xuất đi chơi, mua sắm ✅
-      → Refusal: từ chối yêu cầu (nhẹ nhàng) ✅
-      → = Map MỞ RỘNG, nhiều resources accessible
+    With a PARTNER:
+      → Voice: speak directly, propose freely ✅
+      → Intimacy: embrace, physical closeness ✅
+      → Initiative: suggest going out, making decisions ✅
+      → Refusal: decline a request (gently) ✅
+      → = MAP WIDE, many resources accessible
 
-    Với SẾP:
-      → Voice: cân nhắc trước khi nói, chọn lời 🟡
-      → Intimacy: giữ khoảng cách chuyên nghiệp ❌
-      → Initiative: đề xuất có, nhưng cần frame đúng 🟡
-      → Refusal: từ chối khó, phải có lý do tốt 🟡
-      → = Map HẸP HƠN, nhiều resources restricted
+    With a BOSS:
+      → Voice: consider before speaking, choose words carefully 🟡
+      → Intimacy: maintain professional distance ❌
+      → Initiative: can propose, but must frame it correctly 🟡
+      → Refusal: hard to decline, needs a good reason 🟡
+      → = MAP NARROWER, many resources restricted
 
-    Với NGƯỜI LẠ:
-      → Voice: lịch sự, dè dặt ❌
-      → Intimacy: không ❌
-      → Initiative: hạn chế ❌
-      → Refusal: dễ (không có obligation) ✅
-      → = Map HẸP NHẤT nhưng refusal access CAO (không có commitment)
+    With a STRANGER:
+      → Voice: polite, cautious ❌
+      → Intimacy: none ❌
+      → Initiative: limited ❌
+      → Refusal: easy (no obligation) ✅
+      → = MAP NARROWEST but refusal access HIGH (no commitment)
 
-  → CÙNG NGƯỜI, KHÁC AGENT → KHÁC MAP HOÀN TOÀN
-  → Mỗi agent = 1 map RIÊNG
-  → Status KHÔNG phải 1 con số — là BẢN ĐỒ nhiều chiều per-agent
+  → SAME PERSON, DIFFERENT AGENT → COMPLETELY DIFFERENT MAP
+  → Each agent = 1 SEPARATE map
+  → Status is NOT a single number — it is a MULTI-DIMENSIONAL MAP per-agent
 
 
-  TẠI SAO "RESOURCE ACCESS MAP" CHỨ KHÔNG PHẢI "HIERARCHY":
+  WHY "RESOURCE ACCESS MAP" RATHER THAN "HIERARCHY":
 
-    Hierarchy = chỉ 1 CHIỀU: cao/thấp
-      "Tôi rank 5, họ rank 8 → tôi thấp hơn → comply"
-      → Giải thích: quân đội, công ty (rank rõ ràng)
-      → KHÔNG giải thích: gia đình, người yêu, bạn bè, context switch
+    Hierarchy = only 1 DIMENSION: high/low
+      "I rank 5, they rank 8 → I'm lower → comply"
+      → Explains: military, corporations (clear rank)
+      → DOESN'T EXPLAIN: family, romantic partners, friends, context switching
 
-    Resource Access Map = NHIỀU CHIỀU:
-      "Kỹ thuật tôi >> họ (access: đề xuất, dẫn dắt)
-       Xã hội họ >> tôi (access hạn chế: nghe theo họ)
-       Thể chất ngang nhau (access đối xứng)"
-      → Giải thích: MỌI tương tác
+    Resource Access Map = MANY DIMENSIONS:
+      "Technical skill: I >> them (access: propose, lead)
+       Social skill: they >> me (access limited: defer to them)
+       Physical ability: equal (access symmetric)"
+      → Explains: ALL interactions
 
-    → Hierarchy = trường hợp ĐẶC BIỆT ĐƠN GIẢN NHẤT
-      (khi context flatten thành 1 chiều: rank)
-    → Resource Access Map = trường hợp TỔNG QUÁT
+    → Hierarchy = the SIMPLEST SPECIAL CASE
+      (when context flattens to 1 dimension: rank)
+    → Resource Access Map = the GENERAL CASE
 ```
 
-### §1.2 — "Schema nào được phép chạy" = resource access cụ thể
+### §1.2 — "Which schemas are allowed to run" = specific resource access
 
 ```
-🟡 BRIDGE: "SCHEMA MỞ/ĐÓNG" = "RESOURCE ACCESSIBLE/BLOCKED":
+🟡 BRIDGE: "SCHEMA OPEN/CLOSED" = "RESOURCE ACCESSIBLE/BLOCKED":
 
-  File v1.0 (cũ) dùng "schemas nào SẴN SÀNG, schemas nào BỊ BLOCK"
-  = Đúng về mechanism, nhưng TRỪU TƯỢNG.
+  The v1.0 file used "which schemas are READY vs which are BLOCKED"
+  = Correct mechanically, but ABSTRACT.
 
-  Ground nó:
-    Schema "ôm" SẴN SÀNG = tôi CÓ THỂ ôm người này = intimacy ACCESS
-    Schema "ôm" BỊ BLOCK = tôi KHÔNG THỂ ôm = intimacy BLOCKED
-    Schema "đề xuất" SẴN SÀNG = tôi DÁM đề xuất = initiative ACCESS
-    Schema "đề xuất" BỊ BLOCK = tôi KHÔNG DÁM = initiative BLOCKED
+  Grounding it:
+    Schema "hug" READY = I CAN hug this person = intimacy ACCESS
+    Schema "hug" BLOCKED = I CANNOT hug = intimacy BLOCKED
+    Schema "propose" READY = I DARE TO propose = initiative ACCESS
+    Schema "propose" BLOCKED = I DON'T DARE = initiative BLOCKED
 
-  → "Schema mở" = resource accessible → body-base CÓ THỂ feed qua channel đó
-  → "Schema đóng" = resource blocked → body-base KHÔNG THỂ feed qua channel đó
-  → = Status CAO (maps mở rộng) = nhiều channels feed body-base = REWARD
-  → = Status THẤP (maps hẹp) = ít channels = body-base underserved = DISCOMFORT
+  → "Schema open" = resource accessible → body-base CAN feed through that channel
+  → "Schema closed" = resource blocked → body-base CANNOT feed through that channel
+  → = High status (maps wide) = many channels feeding body-base = REWARD
+  → = Low status (maps narrow) = few channels = body-base underserved = DISCOMFORT
 
-  Đây là lý do body REWARD cho status upgrade (§0):
-    Mỗi schema MỞ THÊM = 1 channel feed body-base THÊM
-    = Resource access tăng = body-base satisfaction tăng = reward THẬT
+  This is why the body REWARDS status upgrade (§0):
+    Each schema that OPENS = 1 more channel feeding body-base
+    = Resource access increases = body-base satisfaction increases = real reward
 ```
 
-### §1.3 — STATUS × NEW CONCEPTS (28-session Drill Propagation)
+### §1.3 — STATUS × NEW CONCEPTS (Concept Cascade)
 
 ```
 ENTITY-ACCESS GRADIENT = STATUS GRADIENT (Entity-Access.md v1.2):
 
   Resource Access Map (§1.1) = Entity-Access gradient per-entity:
-    Mức 0 (stranger): access maps HẸP nhất — ít schema sẵn sàng
-    Mức 1 (acquaintance): một số schema mở
-    Mức 2 (friend): nhiều schema mở — voice, support, initiative
-    Mức 3 (close): hầu hết mở — intimacy, deep support
-    Mức 4 (family): gần như tất cả mở + obligation
-    Mức 5 (self/child): TOÀN BỘ mở + hardware-subsidy amplify
+    Level 0 (stranger): access maps NARROWEST — fewest schemas ready
+    Level 1 (acquaintance): some schemas open
+    Level 2 (friend): many schemas open — voice, support, initiative
+    Level 3 (close friend): most open — intimacy, deep support
+    Level 4 (family): nearly all open + obligation
+    Level 5 (self/child): ALL open + Hardware-Subsidy amplifies
 
-  → STATUS = Entity-Access nhìn từ GÓC RESOURCE
-  → Entity-Access = STATUS nhìn từ GÓC RELATIONSHIP DEPTH
-  → = CÙNG 1 gradient, 2 observation perspectives
+  → STATUS = Entity-Access viewed from the RESOURCE ANGLE
+  → Entity-Access = STATUS viewed from the RELATIONSHIP DEPTH ANGLE
+  → = SAME gradient, 2 observation perspectives
 
 HARDWARE-SUBSIDY × STATUS (Entity-Valence-Dynamics.md v1.0 §5):
-  → Body hardware cung cấp baseline status reward "miễn phí" per entity level
-  → Mức 5 entity (con): oxytocin/opioid fire TỰ ĐỘNG khi gần → status "tốt" mặc định
-  → Mức 1 entity (stranger): KHÔNG có hardware-subsidy → status phải EARN
-  → = TẠI SAO status với gia đình KHÁC CHẤT với status công việc
+  → Body hardware provides baseline status reward "for free" per entity level
+  → Level 5 entity (child): oxytocin/opioid fires AUTOMATICALLY when close → status "good" by default
+  → Level 1 entity (stranger): NO hardware-subsidy → status must be EARNED
+  → = WHY status with family is QUALITATIVELY DIFFERENT from status at work
 
 BY-PRODUCT-SCALE (By-Product-Scale.md v1.0):
-  → Status operates ở 3 SCALES khác nhau:
-    PAIR (cặp đôi): status = per-dyad access map → intimate, detailed
-    HUB (nhóm): status = position trong network → role-based
-    INSTITUTIONAL (tổ chức): status = formal rank → abstract, rule-based
-  → Cùng người → khác scale → khác status dynamics
-  → VD: cha = Mức 5 ở PAIR scale, nhưng status thấp ở INSTITUTIONAL scale
+  → Status operates at 3 DIFFERENT SCALES:
+    PAIR (dyad): status = per-dyad access map → intimate, detailed
+    HUB (group): status = position in network → role-based
+    INSTITUTIONAL (organization): status = formal rank → abstract, rule-based
+  → Same person → different scale → different status dynamics
+  → Example: a father = Level 5 at PAIR scale, but low status at INSTITUTIONAL scale
 
 FIRING MODES × STATUS (Entity-Valence-Dynamics.md v1.0 §4):
-  → Status display KHÁC NHAU theo firing mode:
-    Tonic: duy trì status baseline liên tục (posture, gaze, voice tone)
-    Phasic: status event cụ thể (được khen, bị phê bình)
-    Compound: nhiều hệ fire đồng thời (được thăng chức = dopamine+serotonin+social)
-    Cascade: chain status events (thắng giải → được invite → network mở → opportunities)
+  → Status display DIFFERS by firing mode:
+    Tonic: maintains status baseline continuously (posture, gaze, voice tone)
+    Phasic: specific status event (being praised, being criticized)
+    Compound: multiple systems fire simultaneously (promotion = dopamine+serotonin+social)
+    Cascade: chain of status events (winning award → getting invited → network opens → opportunities)
 
 🟡 Entity-Access × status = framework convergence (2 perspectives, 1 gradient)
 🟡 Hardware-Subsidy × status = framework application
@@ -455,936 +418,932 @@ FIRING MODES × STATUS (Entity-Valence-Dynamics.md v1.0 §4):
 
 ---
 
-## §2 — CƠ CHẾ SCAN: BODY VÔ THỨC
+## §2 — THE SCAN MECHANISM: UNCONSCIOUS BODY PROCESSING
 
 ```
-🟢 KHI GẶP 1 AGENT, BODY VÔ THỨC SCAN (milliseconds → seconds):
+🟢 WHEN MEETING AN AGENT, THE BODY SCANS UNCONSCIOUSLY (milliseconds → seconds):
 
-  EVOLUTIONARY FUNCTION CỦA SCAN:
-    → Xác định nhanh: tôi ACCESS ĐƯỢC GÌ từ agent này
-    → Để: KHÔNG CẦN đánh nhau mỗi lần → tiết kiệm cost (§0.1)
-    → Speed quan trọng: slow scan = tốn PFC = tốn energy = disadvantage
+  EVOLUTIONARY FUNCTION OF THE SCAN:
+    → Determine quickly: what can I ACCESS from this agent
+    → In order to: NOT HAVE TO FIGHT every time → save cost (§0.1)
+    → Speed matters: slow scan = consumes PFC = consumes energy = disadvantage
 
-  5 BƯỚC SCAN:
+  5 STEPS OF THE SCAN:
 
-  ① HỌ HƠN TÔI CÁI GÌ?
-     → Sức mạnh? Skill? Kiến thức? Resource? Network?
-     → = "Họ CÓ GÌ mà tôi cần/muốn"
+  ① WHERE ARE THEY BETTER THAN ME?
+     → Strength? Skill? Knowledge? Resources? Network?
+     → = "What do THEY HAVE that I need/want"
      → Input: visual cues (posture, clothing, gaze), auditory (voice tone),
-       context (setting, role), compiled chunks (nếu quen)
+       context (setting, role), compiled chunks (if familiar)
 
-  ② TÔI HƠN HỌ CÁI GÌ?
-     → = "Tôi CÓ GÌ mà họ cần/muốn"
+  ② WHERE AM I BETTER THAN THEM?
+     → = "What do I HAVE that they need/want"
      → Input: compiled self-assessment chunks + domain chunks
 
-  ③ TÔI CÓ THỂ NHẬN GÌ TỪ HỌ?
-     → Không cần trả gì? (tôi >> họ → "lấy" mode)
-     → Phải trao đổi? (ngang → "trao đổi" mode)
-     → Phải xin? (tôi << họ → "comply" mode)
+  ③ WHAT CAN I RECEIVE FROM THEM?
+     → Without giving anything? (I >> them → "take" mode)
+     → Must exchange? (equal → "exchange" mode)
+     → Must ask? (I << them → "comply" mode)
 
-  ④ HỌ CÓ THỂ NHẬN GÌ TỪ TÔI?
-     → Tôi có thể từ chối? (ngang/trên)
-     → Tôi không thể từ chối? (dưới)
+  ④ WHAT CAN THEY RECEIVE FROM ME?
+     → Can I refuse? (equal/above)
+     → Can I not refuse? (below)
 
-  ⑤ CÓ THỂ TRAO ĐỔI KHÔNG?
-     → "Tôi muốn ôm, họ cũng muốn" → schema "ôm" ACCESSIBLE
-     → "Tôi muốn ôm, họ không muốn" → schema "ôm" BLOCKED
+  ⑤ IS EXCHANGE POSSIBLE?
+     → "I want to hug them, they also want to" → schema "hug" ACCESSIBLE
+     → "I want to hug them, they don't want to" → schema "hug" BLOCKED
 
-  KẾT QUẢ SCAN = Resource Access Map cho AGENT NÀY:
-    → Danh sách resources ACCESSIBLE
-    → Danh sách resources BLOCKED
-    → = Status position VỚI AGENT NÀY (không phải chung chung)
+  RESULT OF SCAN = Resource Access Map FOR THIS AGENT:
+    → List of resources ACCESSIBLE
+    → List of resources BLOCKED
+    → = Status position WITH THIS AGENT (not in general)
 ```
 
-### §2.1 — Scan mechanism: chunk-based, không phải "tính toán"
+### §2.1 — Scan mechanism: chunk-based, not "calculation"
 
 ```
-🟡 SCAN = CHUNK PATTERN MATCHING (nhanh, rẻ, vô thức):
+🟡 SCAN = CHUNK PATTERN MATCHING (fast, cheap, unconscious):
 
-  Gặp agent → visual/auditory/context inputs fire
-    → Spreading activation qua compiled status chunks
-      → Chunks match → map LOAD nhanh (quen: milliseconds)
-      → Chunks không match → PFC draft new map (lạ: seconds → minutes)
+  Encounter an agent → visual/auditory/context inputs fire
+    → Spreading activation through compiled status chunks
+      → Chunks match → map LOADS quickly (familiar: milliseconds)
+      → Chunks don't match → PFC drafts new map (unfamiliar: seconds → minutes)
 
-  AGENT QUEN (compiled maps):
-    Gặp vợ → map VỢ compiled → load → vô thức biết access gì
-    → PFC cost ≈ zero (giống lái xe đường quen)
-    → = Giải thích tại sao ở cạnh người quen = THOẢI MÁI (PFC freed)
+  FAMILIAR AGENT (compiled maps):
+    Meeting a partner → PARTNER map compiled → loads → unconsciously knows access
+    → PFC cost ≈ zero (like driving on a familiar road)
+    → = Explains why being with familiar people = COMFORTABLE (PFC freed)
 
-  AGENT LẠ (chưa compiled):
-    Gặp sếp mới → không có map → PFC scan:
+  UNFAMILIAR AGENT (not yet compiled):
+    Meeting a new boss → no map → PFC scans:
       Visual cues → estimate domain expertise
       Voice cues → estimate confidence
       Context → estimate authority
-    → PFC DRAFT temporary map → cortisol tăng nhẹ (uncertainty)
-    → Qua vài lần gặp → map COMPILE → lần sau = vô thức
-    → = Giải thích "ngày đầu đi làm mệt" = PFC drafting maps liên tục
+    → PFC DRAFTS temporary map → cortisol rises slightly (uncertainty)
+    → After a few encounters → map COMPILES → next time = unconscious
+    → = Explains "exhausted on the first day at work" = PFC drafting maps continuously
 
-  NHIỀU AGENTS CÙNG LÚC:
-    Party 20 người lạ → 20 maps cần draft → PFC OVERLOAD
-    → Cortisol tăng → mệt → muốn về
-    → Party bạn quen → maps compiled → PFC cost thấp → thoải mái
-    → ⚠️ "Introvert sợ party" = MULTI-CAUSAL, không chỉ PFC cost:
-      Status scan cost chỉ là 1 trong 6 trục quyết định.
-      Chi tiết: Connection.md §9.2 — Momentary Capacity (6 trục:
-      hardware arousal × cortisol × Self-Pattern-Modeling library × environment match
+  MANY AGENTS AT ONCE:
+    Party with 20 strangers → 20 maps need drafting → PFC OVERLOAD
+    → Cortisol rises → tired → want to leave
+    → Party with familiar friends → maps compiled → PFC cost low → comfortable
+    → ⚠️ "Introverts dislike parties" = MULTI-CAUSAL, not just PFC scan cost:
+      Status scan cost is only 1 of 6 axes. See Connection.md §10 — Momentary Capacity
+      (6 axes: hardware arousal × cortisol × Self-Pattern-Modeling library × environment match
       × 8-pathway reward ratio × threat level)
 
-  → Speed scan = survival advantage (biết nhanh → react đúng → sống sót)
-  → Compiled maps = energy saving (dùng lại → không tốn PFC)
-  → = Evolution optimize cho: NHANH + RẺ khi đã quen, TỐN nhưng ĐÚNG khi lạ
+  → Speed of scan = survival advantage (fast knowing → correct reaction → survival)
+  → Compiled maps = energy saving (reuse → no PFC needed)
+  → = Evolution optimizes: FAST + CHEAP when familiar, COSTLY but ACCURATE when unfamiliar
 
 
-  ⭐ Compiled COMPILED / Fresh FRESH TRONG STATUS SCAN
+  ⭐ COMPILED vs FRESH IN STATUS SCANNING
      (Inter-Body-Mechanism.md §3, Self-Pattern-Modeling.md v3.0):
 
-  Compiled COMPILED STATUS (agent QUEN):
-    → Maps ĐÃ compile qua nhiều lần tương tác → body-direct
-    → Gặp vợ → map LOAD tức thì → BIẾT access gì → cost ≈ 0
-    → "Tôi = leader trong domain X" → compiled → TỰ TIN automatic
+  COMPILED STATUS SCAN (familiar agent):
+    → Maps ALREADY compiled through many interactions → body-direct
+    → Meet a partner → map LOADS instantly → KNOWS access → cost ≈ 0
+    → "I'm the leader in domain X" → compiled → AUTOMATIC CONFIDENCE
     → = Kahneman System 1: fast, automatic, effortless
-    → Compilation level quyết định, KHÔNG PHẢI content type
+    → Compilation level determines it, NOT content type
 
-  Fresh FRESH STATUS (agent LẠ / context MỚI):
-    → Chưa có compiled map → PFC DRAFT temporary map → COSTLY
-    → Gặp sếp mới → PFC scan visual/auditory/context → draft access map
-    → "Tôi ở đâu trong nhóm mới này?" → fresh → TỐN PFC bandwidth
+  FRESH STATUS SCAN (unfamiliar agent / new context):
+    → No compiled map → PFC DRAFTS temporary map → COSTLY
+    → Meet new boss → PFC scans visual/auditory/context → drafts access map
+    → "Where do I stand in this new group?" → fresh → CONSUMES PFC bandwidth
     → = Kahneman System 2: slow, deliberate, effortful
-    → PFC draft CHƯA qua body verify → accuracy thấp hơn compiled
+    → PFC draft NOT yet verified by body → lower accuracy than compiled
 
   TRANSITION — Fresh → Compiled (status compilation):
-    → Tương tác lặp + verify OK → Hebbian strengthen → compile
-    → "Ngày đầu đi làm" = Fresh (mỗi interaction tốn PFC)
-    → "Sau 3 tháng" = Compiled (maps compiled, vô thức biết access gì)
-    → = Giải thích "dần quen" = Fresh→Compiled transition ở status domain
-    → = §2.1 "agent quen" vs "agent lạ" = Compiled vs Fresh PRECISELY
+    → Repeated interactions + verify OK → Hebbian strengthen → compile
+    → "First day at work" = Fresh (each interaction costs PFC)
+    → "After 3 months" = Compiled (maps compiled, unconsciously knows access)
+    → = Explains "gradually getting comfortable" = Fresh→Compiled transition in the status domain
+    → = §2 "familiar agent" vs "unfamiliar agent" = Compiled vs Fresh PRECISELY
 ```
 
 ---
 
-## §3 — SPECTRUM: TỪ ĐỘNG VẬT ĐƠN LẺ → XÃ HỘI PHỨC TẠP
+## §3 — SPECTRUM: FROM SOLITARY ANIMALS → COMPLEX SOCIETIES
 
 ```
-⭐ CÙNG NGUYÊN LÝ, KHÁC COMPLEXITY:
+⭐ SAME PRINCIPLE — DIFFERENT COMPLEXITY:
 
   Status = resource access calibration.
-  Nguyên lý KHÔNG đổi. Complexity TĂNG theo:
-    ① Số chiều resource
-    ② Số agents trong nhóm
-    ③ Chunk system complexity
+  Principle DOESN'T CHANGE. Complexity INCREASES with:
+    ① Number of resource dimensions
+    ② Number of agents in the group
+    ③ Complexity of the chunk system
     ④ Context switching capability
 ```
 
-### §3.1 — Tầng 1: Động vật đơn lẻ (không cần status)
+### §3.1 — Level 1: Solitary animals (no status needed)
 
 ```
-  CON HỔ GIỮ LÃNH THỔ:
+  A TIGER HOLDING TERRITORY:
 
-    Lãnh thổ = vùng đất có con mồi = resource access trực tiếp
-    → Hổ mạnh hơn → giữ được → ăn đủ
-    → Hổ yếu hơn → mất → phải tìm vùng khác hoặc chết
+    Territory = land with prey = direct resource access
+    → Stronger tiger → holds territory → eats well
+    → Weaker tiger → loses territory → must find elsewhere or die
 
-    Calibrate: 1 lần đối đầu → biết ai mạnh hơn → xong
-    Dimensions: 1 (sức mạnh vật lý)
-    Agents: 1 vs 1 (hiếm khi hơn)
-    Durability: cho tới khi 1 bên thay đổi (lớn hơn/già đi)
+    Calibration: 1 confrontation → know who is stronger → done
+    Dimensions: 1 (physical strength)
+    Agents: 1 vs 1 (rarely more)
+    Durability: until one side changes (grows bigger/ages)
 
-    → KHÔNG CẦN status system phức tạp
-    → Chỉ cần: "mạnh hơn → giữ, yếu hơn → bỏ"
-    → Hormone drive trực tiếp: testosterone + cortisol → fight/flight
+    → No complex status system needed
+    → Only needs: "stronger → hold, weaker → leave"
+    → Hormone drives directly: testosterone + cortisol → fight/flight
 
-    NHƯNG: chính việc giữ lãnh thổ = GIỮ RESOURCE ACCESS
-    → Hổ không "biết" lãnh thổ = thức ăn
-    → Hormone drive nó giữ, và KẾT QUẢ = body-base fed
-    → = Proto-status: resource access qua physical dominance
+    BUT: the act of holding territory itself = HOLDING RESOURCE ACCESS
+    → The tiger doesn't "know" territory = food
+    → Hormone drives it to hold, and THE RESULT = body-base fed
+    → = Proto-status: resource access through physical dominance
 ```
 
-### §3.2 — Tầng 2: Bầy đàn đơn giản (hierarchy 1 chiều)
+### §3.2 — Level 2: Simple social groups (1-dimensional hierarchy)
 
 ```
-  ĐÀN KHỈ (20-50 CON):
+  A MONKEY TROOP (20-50 ANIMALS):
 
-    Sống chung → chia sẻ resource → CẦN status system
-    → Alpha: access toàn bộ (ăn, ngủ, bạn tình, di chuyển)
-    → Beta: access nhiều nhưng nhường alpha
+    Living together → sharing resources → NEEDS a status system
+    → Alpha: access to everything (eating, sleeping, mating, moving)
+    → Beta: much access but yields to the alpha
     → ...
-    → Omega: access ít nhất, ăn thừa, ngủ chỗ kém
+    → Omega: least access, eats leftovers, sleeps in worst spot
 
-    Calibrate: đánh nhau ban đầu → hierarchy ỔN ĐỊNH
-    Dimensions: chủ yếu 1 (sức mạnh + liên minh)
-    Agents: 20-50 (mỗi con biết rank MỌI con khác)
-    Durability: tháng → năm (cho tới disruption — §6)
+    Calibration: initial fighting → hierarchy STABLE
+    Dimensions: mainly 1 (strength + alliances)
+    Agents: 20-50 (each animal knows the rank of EVERY other)
+    Durability: months → years (until disruption — §6)
 
     🟢 Sapolsky data:
-      → Alpha: cortisol thấp lúc ổn định, serotonin cao
-      → Subordinate: cortisol cao hơn, serotonin thấp hơn
-      → = Body ĐÁNH DẤU rank bằng biochemistry THẬT
+      → Alpha: cortisol low when stable, serotonin high
+      → Subordinate: cortisol higher, serotonin lower
+      → = Body MARKS rank with REAL biochemistry
 
-    ĐẶC ĐIỂM QUAN TRỌNG:
-      → Sau calibration: behavior PREDICTABLE
-      → Mỗi con BIẾT vị trí mình → BIẾT access gì → PFC cost ≈ 0
-      → = "Biết rõ ở đâu" = THOẢI MÁI hơn "không biết"
-      → = Certainty (tiết kiệm) > uncertainty (tốn kém)
+    IMPORTANT CHARACTERISTICS:
+      → After calibration: behavior PREDICTABLE
+      → Each animal KNOWS its position → KNOWS what it can access → PFC cost ≈ 0
+      → = "Knowing where you stand" = MORE COMFORTABLE than "not knowing"
+      → = Certainty (cheap) > uncertainty (costly)
 
-    → Cost of hierarchy = vài lần đánh ban đầu
-    → Benefit = hàng nghìn lần phân bổ không đánh
-    → = Giải thích tại sao hierarchy TỰ HÌNH THÀNH ở mọi nhóm xã hội
+    → Cost of hierarchy = a few initial fights
+    → Benefit = thousands of allocation rounds without fighting
+    → = Explains why hierarchy FORMS NATURALLY in every social group
 ```
 
-### §3.3 — Tầng 3: Con người (multi-dimensional)
+### §3.3 — Level 3: Humans (multi-dimensional)
 
 ```
-  CON NGƯỜI — NHẢY VỌT COMPLEXITY:
+  HUMANS — A LEAP IN COMPLEXITY:
 
-    ① NHIỀU CHIỀU resource:
-       Không chỉ sức mạnh vật lý.
-       Kiến thức, kỹ năng, network, tình cảm, tiền, uy tín, trải nghiệm,...
-       → 1 người có thể: giỏi kỹ thuật (access cao) + kém xã hội (access thấp)
-       → = Mỗi chiều = 1 resource dimension RIÊNG
+    ① MANY RESOURCE DIMENSIONS:
+       Not just physical strength.
+       Knowledge, skills, network, emotional bonds, money, reputation, experience...
+       → 1 person can: be technically excellent (high access) + poor socially (low access)
+       → = Each dimension = 1 SEPARATE resource dimension
 
     ② PER-PERSON, PER-CONTEXT:
-       Cùng người, khác agent → khác map:
-         Với vợ: intimate + initiative + voice → RỘNG
-         Với sếp: voice limited + initiative limited → HẸP
-         Với bạn thân: trao đổi đa chiều → RỘNG nhưng khác vợ
-       Cùng người, khác context → khác map:
-         Ở nhà: thoải mái
-         Ở cty: professional
-         Ở nhà thờ: khiêm nhường
+       Same person, different agent → different map:
+         With a partner: intimate + initiative + voice → WIDE
+         With a boss: voice limited + initiative limited → NARROW
+         With a close friend: multi-directional exchange → WIDE but different from partner
+       Same person, different context → different map:
+         At home: relaxed
+         At work: professional
+         At a formal gathering: deferential
 
-    ③ CHUNK SYSTEM PHỨC TẠP:
-       Khỉ: rank compiled đơn giản (mạnh/yếu)
-       Người: hàng nghìn compiled schemas per-agent:
-         "Anh A giỏi code nhưng kém giao tiếp,
-          hay giúp đỡ nhưng hay quên lời hứa,
-          đáng tin ở kỹ thuật nhưng không tin ở hẹn giờ"
-       → = Map per-agent = PHỨC TẠP hơn khỉ gấp bội
+    ③ COMPLEX CHUNK SYSTEM:
+       Monkey: rank compiled simply (strong/weak)
+       Human: thousands of compiled schemas per-agent:
+         "Person A is great technically but poor at communication,
+          generally helpful but forgets promises,
+          trustworthy on technical matters but not on being on time"
+       → = Per-agent map = EXPONENTIALLY MORE COMPLEX than monkeys
 
     ④ CONTEXT SWITCHING:
-       Khỉ: 1 hierarchy, 1 context (đàn)
-       Người: NHIỀU contexts CHỒNG LÊN:
-         Context gia đình (map A) | Context cty (map B) |
-         Context nhà thờ (map C) | Context bạn bè (map D)
-       → PFC switch maps khi switch context
-       → = Tốn hơn nhưng linh hoạt hơn
+       Monkey: 1 hierarchy, 1 context (the troop)
+       Human: MANY contexts LAYERED:
+         Family context (map A) | Work context (map B) |
+         Religious context (map C) | Friend context (map D)
+       → PFC switches maps when switching context
+       → = More costly but more flexible
 
-    ⑤ OVERRIDE HORMONE + STATUS CẢM NHẬN = TỪ NHÓM THÂN:
+    ⑤ HORMONE OVERRIDE + PERCEIVED STATUS = FROM THE CLOSE GROUP:
 
-       Khỉ: serotonin thấp → rụt rè → gần như tuyệt đối
-       Người: phức tạp hơn nhiều — 2 cơ chế ĐỒNG THỜI:
+       Monkeys: low serotonin → timid → almost absolute
+       Humans: much more complex — 2 SIMULTANEOUS mechanisms:
 
-       CƠ CHẾ A — PFC override (per-context):
-         PFC + compiled chunks override certainty bias khi có data đủ mạnh:
-         "Tôi biết mình giỏi cái này → dám làm dù bias rụt rè"
-         → = Override per-context, không phải global
+       MECHANISM A — PFC override (per-context):
+         PFC + compiled chunks override the certainty bias when data is strong enough:
+         "I know I'm good at this → I dare to do it despite the timid bias"
+         → = Override per-context, not global
 
-       CƠ CHẾ B — Status thật = từ nhóm 5-20 người thân (QUAN TRỌNG HƠN):
-         Body đo status từ INTERACTIONS THẬT HÀNG NGÀY,
-         KHÔNG từ so sánh thu nhập hay xã hội rộng.
+       MECHANISM B — Real perceived status = from the 5-20 close people (MORE IMPORTANT):
+         Body measures status from REAL DAILY INTERACTIONS,
+         NOT from comparing income or broad social standing.
 
-         Người nghèo nhưng trong nhóm thân:
-           → Với vợ: nói thẳng, đề xuất, thân mật → access MỞ ✅
-           → Với con: dẫn dắt, bảo vệ, được kính trọng → access MỞ ✅
-           → Với vài bạn: trao đổi ngang hàng, tin cậy → access MỞ ✅
-           → = Maps MỞ RỘNG trong dải connection quen
-           → = Serotonin baseline KHÔNG nhất thiết thấp
-             (body đo từ daily interactions, không từ Gap-Distribution-Profile per capita)
+         A poor person within their close group:
+           → With a partner: speak directly, propose, be intimate → access OPEN ✅
+           → With children: lead, protect, be respected → access OPEN ✅
+           → With a few friends: exchange as equals, trust each other → access OPEN ✅
+           → = Maps WIDE within the familiar connection range
+           → = Serotonin baseline NOT necessarily low
+             (body measures from daily interactions, not from per-capita comparisons)
 
-         "Nghèo" = thước đo xã hội rộng (so với triệu người lạ)
-         Status cảm nhận = từ 5-20 người tương tác daily
-         → = 2 THƯỚC ĐO RẤT KHÁC NHAU
+         "Being poor" = a broad social measure (compared to millions of strangers)
+         Perceived status = from 5-20 people interacted with daily
+         → = TWO VERY DIFFERENT MEASURES
 
-       → Giải thích chính xác:
-         "Người nghèo tự tin" =
-           ① Maps MỞ trong nhóm thân (status cảm nhận CAO)
-           ② PFC override per-context khi có compiled data
-           ③ Serotonin có thể BÌNH THƯỜNG (vì body đo từ nhóm thân)
-           → KHÔNG phải "override serotonin thấp" — mà serotonin CÓ THỂ KHÔNG THẤP
+       → Precise explanation:
+         "A poor person with real confidence" =
+           ① Maps OPEN within the close group (perceived status HIGH)
+           ② PFC override per-context when compiled data is strong
+           ③ Serotonin can be NORMAL (because body measures from close group)
+           → NOT "overriding low serotonin" — serotonin may NOT BE LOW
 
-         "Người giàu bất an" =
-           ① Maps HẸP dù tài sản rộng (nhóm thân toxic/absent)
-           ② Cortisol ongoing (threat anticipation)
-           ③ Serotonin có thể THẤP (nếu daily interactions = threat)
-           → Tiền KHÔNG = status cảm nhận (§5.3)
+         "A wealthy person with anxiety" =
+           ① Maps NARROW despite broad wealth (close group toxic/absent)
+           ② Ongoing cortisol (threat anticipation)
+           ③ Serotonin can be LOW (if daily interactions = threat)
+           → Money ≠ perceived status (§5.3)
 
 
-  NHƯNG NGUYÊN LÝ GỐC KHÔNG ĐỔI:
+  BUT THE CORE PRINCIPLE DOESN'T CHANGE:
 
-    Khỉ: status = resource access map (1 chiều)
-    Người: status = resource access map (nhiều chiều)
-    Cả hai: body REWARD cho status upgrade vì = real access upgrade
+    Monkey: status = resource access map (1 dimension)
+    Human: status = resource access map (many dimensions)
+    Both: body REWARDS for status upgrade because = real access upgrade
 
-    ┌──────────────┬────────────────────┬───────────────────────┐
-    │              │ Khỉ                │ Người                  │
-    ├──────────────┼────────────────────┼───────────────────────┤
-    │ Dimensions   │ 1 (sức mạnh)       │ Nhiều (skill, $, ...)  │
-    │ Per-agent    │ Có (biết rank)     │ Có (map per-agent)     │
-    │ Per-context  │ 1 context          │ Nhiều contexts         │
-    │ Override     │ Hormone trực tiếp  │ PFC + chunks override  │
-    │ Calibrate    │ Đánh nhau          │ Social interaction     │
-    │ Body reward  │ Serotonin ↑        │ Serotonin + chunks ↑  │
-    │ NGUYÊN LÝ   │ Resource access    │ Resource access        │
-    └──────────────┴────────────────────┴───────────────────────┘
+    ┌──────────────┬──────────────────────┬─────────────────────────┐
+    │              │ Monkeys              │ Humans                  │
+    ├──────────────┼──────────────────────┼─────────────────────────┤
+    │ Dimensions   │ 1 (strength)         │ Many (skill, money,...) │
+    │ Per-agent    │ Yes (knows rank)     │ Yes (per-agent map)     │
+    │ Per-context  │ 1 context            │ Many contexts           │
+    │ Override     │ Hormone directly     │ PFC + chunks override   │
+    │ Calibrate    │ Fighting             │ Social interaction      │
+    │ Body reward  │ Serotonin ↑          │ Serotonin + chunks ↑   │
+    │ PRINCIPLE    │ Resource access      │ Resource access         │
+    └──────────────┴──────────────────────┴─────────────────────────┘
 ```
 
-### §3.4 — Tại sao hiểu spectrum này quan trọng
+### §3.4 — Why understanding this spectrum matters
 
 ```
-🟡 HIỂU SPECTRUM → HIỂU NHIỀU HIỆN TƯỢNG:
+🟡 UNDERSTANDING THE SPECTRUM → UNDERSTANDING MANY PHENOMENA:
 
-  ① "Tại sao cứ có chiến tranh?":
-     → Tranh giành resource access ở scale lớn (§13)
-     → Cùng mechanism khỉ đánh nhau, khác scale
-     → Không phải "con người xấu" — là resource access calibration
+  ① "Why is there constant war?":
+     → Competition for resource access at large scale (§13)
+     → Same mechanism as monkeys fighting, different scale
+     → Not "humans are bad" — it's resource access calibration
 
-  ② "Tại sao thích được tôn trọng?":
-     → Tôn trọng = maps MỞ RỘNG = access nhiều hơn
-     → Body reward cho "được tôn trọng" vì = real access upgrade
-     → Không phải vanity — là body-base need
+  ② "Why do we want to be respected?":
+     → Respect = maps WIDENING = more access
+     → Body rewards "being respected" because = real access upgrade
+     → Not vanity — it's a body-base need
 
-  ③ "Tại sao sợ bị coi thường?":
-     → Coi thường = maps THU HẸP = access giảm
-     → Body threat signal vì = real resource loss potential
-     → = Loss aversion ở status domain (Protect.md overlap)
+  ③ "Why do we fear being looked down on?":
+     → Being looked down on = maps NARROWING = access decreasing
+     → Body threat signal because = real potential resource loss
+     → = Loss aversion in the status domain (Protect.md overlap)
 
-  ④ "Tại sao hợp tác nhóm cảm thấy tốt?":
-     → Hợp tác = mutual access expansion = cả 2 body reward
-     → Agent.md §12: agents = external tools, hợp tác = combine tools
-     → = Trao đổi status mode = BOTH parties benefit (§5)
+  ④ "Why does working as a team feel good?":
+     → Cooperation = mutual access expansion = body rewards both
+     → Agent-Mechanism.md §12: agents = external tools, cooperation = combining tools
+     → = Exchange mode = BOTH parties benefit (§5)
 
-  ⑤ "Tại sao phân biệt giai cấp tồn tại?":
-     → Status system TÍCH HỢP vào biology → sẽ luôn có hierarchy tendency
-     → Modern society: flatten gap (pháp luật, dân chủ) nhưng KHÔNG XÓA
-     → = Hiểu mechanism → thiết kế xã hội tốt hơn (giảm harm, giữ benefit)
-```
-
----
-
-## §4 — 3 MODES TƯƠNG TÁC: LẤY / TRAO ĐỔI / COMPLY
-
-```
-⭐ TỪ RESOURCE ACCESS MAP → 3 MODES TƯƠNG TÁC TỰ NHIÊN:
-
-  Khi body scan xong (§2), kết quả = resource access gap giữa tôi và agent.
-  Gap đó TỰ NHIÊN dẫn tới 1 trong 3 modes:
-
-  ┌──────────────────────────────────────────────────────────────────┐
-  │ Access gap             │ Mode         │ Resources flow           │
-  ├────────────────────────┼──────────────┼──────────────────────────┤
-  │ TÔI >> HỌ (gap lớn)   │ LẤY          │ Tôi → lấy từ họ         │
-  │                        │              │ Không cần trả lại        │
-  │                        │              │ Họ không dám từ chối     │
-  ├────────────────────────┼──────────────┼──────────────────────────┤
-  │ TÔI ≈ HỌ (ngang)      │ TRAO ĐỔI     │ Tôi ←→ họ               │
-  │                        │              │ Cho nhau, nhận từ nhau   │
-  │                        │              │ Negotiate, mutual benefit│
-  ├────────────────────────┼──────────────┼──────────────────────────┤
-  │ TÔI << HỌ (gap lớn)   │ COMPLY       │ Họ → lấy từ tôi         │
-  │                        │              │ Tôi tuân theo, nhường    │
-  │                        │              │ Tôi không dám từ chối   │
-  └────────────────────────┴──────────────┴──────────────────────────┘
-
-  3 MODES = SPECTRUM LIÊN TỤC, KHÔNG PHẢI 3 HỘP:
-    Lấy ←←←←← Trao đổi →→→→→ Comply
-    → Mỗi domain có thể nằm KHÁC CHỖ trên phổ
-    → Ví dụ cùng 2 người:
-      "Kỹ thuật tôi >> họ (lấy/dẫn dắt)
-       + xã hội họ >> tôi (comply/học)
-       + thể thao ngang nhau (trao đổi/chơi cùng)"
-    → = 3 modes CHỒNG LÊN NHAU per-domain
-
-
-  TẠI SAO 3 MODES TỒN TẠI (evolutionary logic):
-
-    MODE LẤY (status >> other):
-      → Evolutionary function: alpha access resource NHANH, không cần negotiate
-      → Cost-saving: negotiate TỐN thời gian, lấy thì NHANH
-      → NHƯNG: chỉ bền khi gap THỰC SỰ lớn
-      → Nếu gap không thực sự lớn → agent kia PHẢN KHÁNG → conflict
-
-    MODE TRAO ĐỔI (status ≈ other):
-      → Evolutionary function: cả 2 access resources CỦA NHAU
-      → POSITIVE-SUM: tổng resource access TĂNG cho cả 2
-      → = MODE PHỔ BIẾN NHẤT ở con người hiện đại (§5)
-      → Cần: negotiate, communicate, calibrate chính xác
-
-    MODE COMPLY (status << other):
-      → Evolutionary function: tránh conflict không thể thắng
-      → Cost-saving: đánh khi chắc thua = lãng phí + nguy hiểm
-      → Body kháng comply (serotonin ratchet §9.2) → nhưng chấp nhận khi gap quá rõ
-      → NHƯNG: body cũng seek CƠ HỘI thoát comply (upgrade status)
-```
-
-### §4.1 — "Tấn công" không phải drive riêng
-
-```
-🟡 "TẤN CÔNG" = EXTREME CASE CỦA MODE LẤY:
-
-  Con hổ đuổi nai:
-    → Hổ KHÔNG "tấn công" — hổ "ĂN"
-    → Status: nai << hổ → schema "lấy (ăn)" sẵn sàng
-    → Giống người hái quả — không ai gọi "tấn công cây"
-    → = Resource access gap CỰC LỚN → lấy mà KHÔNG cần negotiate
-
-  2 đội quân đánh nhau:
-    → Cả 2 NGHĨ mình >> → cả 2 ở mode LẤY
-    → NHƯNG gap KHÔNG RÕ → CALIBRATE bằng conflict
-    → Kẻ thắng: maps MỞ TOÀN BỘ | Kẻ thua: maps ĐÓNG TOÀN BỘ
-    → = Conflict = calibration process khi cả 2 bên claim mode LẤY
-
-  Thế giới hiện đại:
-    → Tranh giành bằng RULES (kiện tụng, cạnh tranh thương mại)
-    → Thay vì bạo lực → cùng function, khác method
-    → Kiện tụng = calibrate status bằng hệ thống pháp luật
-    → Cạnh tranh thị trường = calibrate bằng sản phẩm
-
-  → "Tấn công" = khi agent NGHĨ mình >> và LẤY mà không đợi consent
-  → KHÔNG cần "attack drive" riêng — Mode LẤY COVER toàn bộ
-  → Conflict xảy ra khi 2 agents cùng claim mode LẤY → Conflict-Dynamics.md
-```
-
-### §4.2 — 3 Modes trong đời thường
-
-```
-🟡 ĐỜI THƯỜNG KHÔNG EXTREME — PHẦN LỚN Ở VÙNG TRAO ĐỔI (§5):
-
-  Vợ chồng (ngang):
-    → Map: trao đổi sự quan tâm, chia sẻ trách nhiệm
-    → Access đối xứng: cả 2 dám đề xuất, dám từ chối nhẹ, negotiate
-    → Khi 1 người dominant → map SHIFT → stress cho cả 2
-    → Khỏe mạnh: trao đổi ĐA CHIỀU (anh giỏi A, em giỏi B → bổ sung)
-
-  Sếp - nhân viên (gap vừa):
-    → Default: comply đa số (nghe chỉ đạo)
-    → NHƯNG KHÔNG hoàn toàn comply:
-      → Đề xuất ý kiến (nếu culture cho phép) = trao đổi nhỏ
-      → Từ chối việc quá sức (tùy compiled map) = refusal access có giới hạn
-      → Xin support = access qua comply mode
-    → Modern workplace: gap ĐANG flatten → gần trao đổi hơn comply
-
-  Bạn bè (ngang + domain-specific gap):
-    → Trao đổi ĐA CHIỀU là chính
-    → Domain X bạn A >> tôi (tech) → tôi learn/comply
-    → Domain Y tôi >> bạn A (music) → tôi share/lấy
-    → = Multi-domain maps CHỒNG LÊN → relationship phong phú
-    → = Mỗi domain = 1 phổ riêng, tổng hợp = balanced
-
-  Người lạ (chưa có map):
-    → Default: thận trọng (body bias toward safety)
-    → PFC draft temporary map dựa trên visual/context cues
-    → Qua vài tương tác → maps compile → settle vào 1 trong 3 zones
-    → = Giải thích "dần quen" = maps dần compile → PFC freed
+  ⑤ "Why does class distinction persist?":
+     → Status system INTEGRATED into biology → hierarchy tendency will always exist
+     → Modern society: flatten gaps (laws, democracy) but DOESN'T ELIMINATE
+     → = Understanding the mechanism → designing better societies (reduce harm, keep benefit)
 ```
 
 ---
 
-## §5 — TRAO ĐỔI: MODE PHỔ BIẾN NHẤT
+## §4 — 3 INTERACTION MODES: TAKE / EXCHANGE / COMPLY
 
 ```
-⭐ MỚI (v2.0): TẠI SAO TRAO ĐỔI THỐNG TRỊ Ở CON NGƯỜI HIỆN ĐẠI
+⭐ FROM RESOURCE ACCESS MAP → 3 NATURAL INTERACTION MODES:
 
-  Ở đàn khỉ: phần lớn interaction = LẤY/COMPLY (hierarchy rõ)
-  Ở con người hiện đại: phần lớn interaction = TRAO ĐỔI
+  When the body scan is complete (§2), the result = resource access gap between self and agent.
+  That gap NATURALLY leads to 1 of 3 modes:
 
-  TẠI SAO SHIFT NÀY XẢY RA:
+  ┌────────────────────────────────────────────────────────────────────┐
+  │ Access gap                │ Mode          │ Resources flow          │
+  ├───────────────────────────┼───────────────┼─────────────────────────┤
+  │ I >> THEM (large gap)     │ TAKE          │ I → take from them      │
+  │                           │               │ No need to give back    │
+  │                           │               │ They dare not refuse    │
+  ├───────────────────────────┼───────────────┼─────────────────────────┤
+  │ I ≈ THEM (equal)          │ EXCHANGE      │ I ←→ them               │
+  │                           │               │ Give and receive        │
+  │                           │               │ Negotiate, mutual benefit│
+  ├───────────────────────────┼───────────────┼─────────────────────────┤
+  │ I << THEM (large gap)     │ COMPLY        │ They → take from me     │
+  │                           │               │ I follow, yield         │
+  │                           │               │ I dare not refuse       │
+  └────────────────────────────────────────────────────────────────────┘
+
+  3 MODES = CONTINUOUS SPECTRUM, NOT 3 BOXES:
+    Take ←←←←← Exchange →→→→→ Comply
+    → Each domain can sit DIFFERENT PLACES on the spectrum
+    → Example with the same 2 people:
+      "Technical skill: I >> them (take/lead)
+       + Social skill: they >> me (comply/learn)
+       + Physical sports: equal (exchange/play together)"
+    → = 3 modes LAYERED per-domain
+
+
+  WHY 3 MODES EXIST (evolutionary logic):
+
+    TAKE mode (status >> other):
+      → Evolutionary function: alpha accesses resources FAST, no need to negotiate
+      → Cost-saving: negotiating TAKES TIME, taking is FAST
+      → BUT: only stable when the gap is GENUINELY large
+      → If the gap is not genuinely large → the other agent RESISTS → conflict
+
+    EXCHANGE mode (status ≈ other):
+      → Evolutionary function: both access EACH OTHER'S resources
+      → POSITIVE-SUM: total resource access INCREASES for both
+      → = MOST COMMON MODE in modern humans (§5)
+      → Requires: negotiation, communication, accurate calibration
+
+    COMPLY mode (status << other):
+      → Evolutionary function: avoid conflict you cannot win
+      → Cost-saving: fighting when certain to lose = wasteful + dangerous
+      → Body resists complying (Serotonin Ratchet §9.2) → but accepts when gap is obvious
+      → BUT: body also seeks OPPORTUNITIES to exit comply (upgrade status)
 ```
 
-### §5.1 — Chuyên môn hóa tạo non-overlapping domains
+### §4.1 — "Attack" is not a separate drive
 
 ```
-🟡 CHUYÊN MÔN HÓA = GIẢM OVERLAP → GIẢM CONFLICT → TĂNG TRAO ĐỔI:
+🟡 "ATTACK" = EXTREME CASE OF THE TAKE MODE:
 
-  Đàn khỉ: mọi con CÙNG SKILL SET (leo cây, tìm quả, đánh nhau)
-    → Overlap domain = GẦN NHƯ 100%
-    → Resource access = ZERO-SUM (tôi ăn quả → bạn không có quả)
-    → → Hierarchy = cách DUY NHẤT phân bổ
+  A tiger chasing a deer:
+    → Tiger is NOT "attacking" — tiger is "EATING"
+    → Status: deer << tiger → schema "take (eat)" ready
+    → Same as a person picking fruit from a tree — nobody calls it "attacking the tree"
+    → = Resource access gap ENORMOUS → take WITHOUT needing to negotiate
 
-  Con người: mỗi người KHÁC SKILL SET (chunk system đa dạng)
-    → Bác sĩ giỏi y, kỹ sư giỏi kỹ thuật, nông dân giỏi trồng trọt
-    → Overlap domain = THẤP (mỗi người 1 niche)
-    → Resource access = POSITIVE-SUM (bác sĩ chữa bệnh cho kỹ sư,
-      kỹ sư xây nhà cho bác sĩ → CẢ HAI lợi)
+  Two armies fighting:
+    → Both THINK they >> → both in TAKE mode
+    → BUT gap is NOT CLEAR → CALIBRATE through conflict
+    → Winner: maps OPEN COMPLETELY | Loser: maps CLOSE COMPLETELY
+    → = Conflict = calibration process when both sides claim TAKE mode
 
-  → Chuyên môn hóa = PHÁ OVERLAP (Conflict-Dynamics.md §6 ①)
-  → Phá overlap → KHÔNG CẦN hierarchy rõ → trao đổi TỰ NHIÊN
-  → = Mỗi người có UNIQUE VALUE → status ở domain riêng
+  The modern world:
+    → Compete through RULES (lawsuits, commercial competition)
+    → Instead of violence → same function, different method
+    → Lawsuits = calibrate status through the legal system
+    → Market competition = calibrate through products
+
+  → "Attack" = when an agent THINKS they >> and TAKES without waiting for consent
+  → No separate "attack drive" needed — TAKE mode COVERS everything
+  → Conflict happens when 2 agents both claim TAKE mode → Conflict-Dynamics.md
+```
+
+### §4.2 — 3 Modes in everyday life
+
+```
+🟡 EVERYDAY LIFE IS NOT EXTREME — MOST INTERACTIONS ARE IN THE EXCHANGE ZONE (§5):
+
+  Partners (equal):
+    → Map: exchange care, share responsibilities
+    → Access symmetric: both dare to propose, dare to decline gently, negotiate
+    → When 1 person dominates → map SHIFTS → stress for both
+    → Healthy: MULTI-DIRECTIONAL exchange (you're good at A, I'm good at B → complement each other)
+
+  Boss - employee (moderate gap):
+    → Default: mostly comply (follow instructions)
+    → BUT NOT completely comply:
+      → Offer suggestions (if culture allows) = small exchange
+      → Decline tasks beyond capacity (depending on compiled map) = limited refusal access
+      → Ask for support = access through comply mode
+    → Modern workplace: gap IS NARROWING → closer to exchange than comply
+
+  Friends (equal + domain-specific gaps):
+    → Multi-directional EXCHANGE is the norm
+    → Domain X: my friend >> me (tech) → I learn/comply
+    → Domain Y: I >> my friend (music) → I share/lead
+    → = Multi-domain maps LAYERED → rich relationship
+    → = Each domain = its own spectrum position, combined = balanced
+
+  Strangers (no map yet):
+    → Default: cautious (body biases toward safety)
+    → PFC drafts temporary map based on visual/context cues
+    → After a few interactions → maps compile → settle into 1 of 3 zones
+    → = Explains "gradually warming up" = maps gradually compiling → PFC freed
+```
+
+---
+
+## §5 — EXCHANGE: THE DOMINANT MODE
+
+```
+⭐ WHY EXCHANGE DOMINATES IN MODERN HUMANS:
+
+  In monkey troops: most interactions = TAKE/COMPLY (hierarchy clear)
+  In modern humans: most interactions = EXCHANGE
+
+  WHY THIS SHIFT HAPPENED:
+```
+
+### §5.1 — Specialization creates non-overlapping domains
+
+```
+🟡 SPECIALIZATION = REDUCING OVERLAP → REDUCING CONFLICT → INCREASING EXCHANGE:
+
+  Monkey troop: every animal has THE SAME SKILL SET (climb trees, find fruit, fight)
+    → Domain overlap = NEARLY 100%
+    → Resource access = ZERO-SUM (I eat the fruit → you don't have the fruit)
+    → → Hierarchy = the ONLY WAY to allocate
+
+  Humans: each person has DIFFERENT SKILL SET (diverse chunk systems)
+    → Doctors are skilled in medicine, engineers in technology, farmers in cultivation
+    → Domain overlap = LOW (each person has a niche)
+    → Resource access = POSITIVE-SUM (doctor heals the engineer,
+      engineer builds housing for the doctor → BOTH benefit)
+
+  → Specialization = BREAKING OVERLAP (Conflict-Dynamics.md §6 ①)
+  → Breaking overlap → HIERARCHY NOT NEEDED → exchange NATURALLY follows
+  → = Each person has UNIQUE VALUE → status in their own domain
 
   Conflict-Dynamics.md §2:
-    "Khác melody + cùng Imagine-Final = BỔ SUNG, KHÔNG xung đột."
-    → Vợ chồng: 1 người dạy con học, 1 người chăm con khỏe
-    → Công ty: CEO vision, engineer build, designer UX
-    → = Diverse team = mạnh nhất VÌ overlap resource THẤP
+    "Different melody + same Imagine-Final = COMPLEMENTARY, NOT conflicting."
+    → Partners: one teaches the child, one keeps the child healthy
+    → Company: CEO vision, engineer builds, designer handles UX
+    → = Diverse team = STRONGEST because resource overlap is LOW
 ```
 
-### §5.2 — Trao đổi = positive-sum → body reward CẢ HAI bên
+### §5.2 — Exchange = positive-sum → body rewards BOTH sides
 
 ```
-🟡 TRAO ĐỔI TẠO RESOURCE MỚI (không chỉ chia resource cũ):
+🟡 EXCHANGE CREATES NEW RESOURCES (not just divides existing ones):
 
-  ZERO-SUM (mode Lấy/Comply):
-    Tôi lấy 1 quả → bạn mất 1 quả
-    Tổng resource = KHÔNG ĐỔI
-    → Chỉ 1 bên body reward
+  ZERO-SUM (Take/Comply mode):
+    I take 1 piece of fruit → you lose 1 piece
+    Total resources = UNCHANGED
+    → Only 1 side body-rewarded
 
-  POSITIVE-SUM (mode Trao đổi):
-    Tôi dạy bạn code → bạn vẫn biết code, TÔI VẪN BIẾT code
-    Bạn dạy tôi nấu ăn → tôi vẫn biết nấu, BẠN VẪN BIẾT NẤU
-    Tổng knowledge = TĂNG
-    → CẢ HAI bên body reward
+  POSITIVE-SUM (Exchange mode):
+    I teach you to code → you still know how to code, I STILL KNOW too
+    You teach me to cook → I still know how, YOU STILL KNOW too
+    Total knowledge = INCREASES
+    → BOTH sides body-rewarded
 
-  → Knowledge-Flow.md §1: Output tách ra → share → không mất
-  → = Knowledge = resource KHÔNG HẾT khi share
-  → = Trao đổi knowledge = POSITIVE-SUM thuần túy
-  → = Giải thích tại sao hợp tác CẢM THẤY TỐT: body reward cả 2
+  → Knowledge-Flow.md §1: Output separates → shares → doesn't diminish
+  → = Knowledge = resource that DOESN'T RUN OUT when shared
+  → = Exchanging knowledge = PURELY POSITIVE-SUM
+  → = Explains why cooperation FEELS GOOD: body rewards both
 
-  Agent.md §12.3: Mirror reward override
-    → Khi đã đủ (direct reward ≈ 0), share tạo mirror reward > keep
-    → Body TỰ drive share khi surplus → amplify trao đổi
-    → = Biology tự có mechanism drive cooperation
+  Agent-Mechanism.md §12.3: Mirror reward override
+    → When already satisfied (direct reward ≈ 0), sharing creates mirror reward > keeping
+    → Body AUTOMATICALLY DRIVES sharing when there is surplus → amplifies exchange
+    → = Biology already has a mechanism driving cooperation
 
-  BODY REWARD CHO COOPERATION:
-    → Giúp ai → mirror reward (Self-Pattern-Modeling simulate niềm vui họ → body nhận echo)
-    → Được giúp → direct reward (body-base fed by agent input)
-    → = CẢ NGƯỜI CHO VÀ NGƯỜI NHẬN đều body reward
-    → = Tại sao trao đổi = DOMINANT mode: reward cả 2 phía
+  BODY REWARDS COOPERATION:
+    → Helping someone → mirror reward (Self-Pattern-Modeling simulates their joy → body receives echo)
+    → Being helped → direct reward (body-base fed by agent input)
+    → = BOTH GIVER AND RECEIVER get body reward
+    → = Why exchange = DOMINANT mode: rewards both sides
 ```
 
-### §5.3 — Xã hội hiện đại flatten gap
+### §5.3 — Modern society flattens the gap
 
 ```
-🟡 XÃ HỘI HIỆN ĐẠI SHIFT MẠNH VỀ TRAO ĐỔI:
+🟡 MODERN SOCIETY SHIFTS STRONGLY TOWARD EXCHANGE:
 
-  Pháp luật:
-    → CEO không đánh nhân viên → mode LẤY bị BLOCK bởi rules
-    → Tổng thống không lấy nhà bạn → mode LẤY bị BLOCK
-    → = Gap TRÊN GIẤY > gap CẢM NHẬN (pháp luật flatten)
+  Law:
+    → A CEO can't hit employees → TAKE mode BLOCKED by rules
+    → A president can't take your house → TAKE mode BLOCKED
+    → = On-paper gap > perceived gap (law flattens)
 
-  Dân chủ:
-    → Mọi người có QUYỀN BÌNH ĐẲNG trên giấy
-    → Status gap bị flatten ở nhiều chiều
-    → = Shift từ comply → trao đổi
+  Democracy:
+    → Everyone has EQUAL RIGHTS on paper
+    → Status gap flattened in many dimensions
+    → = Shift from comply → exchange
 
-  Thị trường:
-    → Mua/bán = trao đổi thuần túy (tiền ↔ hàng)
-    → Ai cũng CÓ THỂ mua/bán → access RỘNG
-    → = Market economy = trao đổi mode ở scale lớn
+  Markets:
+    → Buying/selling = pure exchange (money ↔ goods)
+    → Anyone CAN buy/sell → access WIDE
+    → = Market economy = exchange mode at large scale
 
-  Kết quả:
-    → Status THẬT SỰ CẢM NHẬN = từ NHÓM 5-20 NGƯỜI QUEN:
-      Vợ/chồng, con, sếp trực tiếp, đồng nghiệp, bạn thân
-    → Bị vợ coi thường → status baseline GIẢM thật
-    → Được sếp công nhận → status baseline TĂNG thật
-    → Thu nhập KHÔNG = status thực tế cảm nhận
-    → "Giàu nhưng vợ coi thường" = status THẤP (within nhóm thân)
-    → "Nghèo nhưng gia đình tôn trọng" = status ỔN
+  Result:
+    → GENUINELY PERCEIVED STATUS = from THE GROUP OF 5-20 CLOSE PEOPLE:
+      Partner, children, direct boss, colleagues, close friends
+    → Being looked down on by a partner → status baseline ACTUALLY decreases
+    → Being recognized by a boss → status baseline ACTUALLY increases
+    → Income ≠ actually perceived status
+    → "Wealthy but partner looks down on you" = status LOW (within close group)
+    → "Poor but family respects you" = status STABLE
 
-  NHƯNG: LẤY/COMPLY vẫn TỒN TẠI:
-    → Cha mẹ → con nhỏ: LẤY (cha mẹ quyết hết) — nhưng vì CON CHƯA ĐỦ chunks
-    → Tội phạm → nạn nhân: LẤY — bất chấp rules
-    → Quốc gia mạnh → quốc gia yếu: vẫn có elements LẤY (dù có UN)
-    → = Evolution không XÓA 3 modes — chỉ SHIFT proportion
-    → = Modern society: ~70% trao đổi, ~20% comply nhẹ, ~10% lấy/lấy ngược
-      (🔴 con số ước lượng, không phải measurement)
+  BUT: TAKE/COMPLY still EXIST:
+    → Parents → small children: TAKE (parents decide everything) — but because CHILD LACKS CHUNKS
+    → Criminal → victim: TAKE — despite rules
+    → Strong nation → weak nation: TAKE elements still present (despite international institutions)
+    → = Evolution doesn't ERASE 3 modes — only SHIFTS proportion
+    → = Modern society: ~70% exchange, ~20% mild comply, ~10% take/take reversed
+      (🔴 rough estimates, not measurements)
 ```
 
 ---
 
-## §6 — XÁO TRỘN → RE-CALIBRATE → ỔN ĐỊNH MỚI
+## §6 — DISRUPTION → RE-CALIBRATE → NEW STABILITY
 
 ```
-⭐ MỚI (v2.0): DISRUPTION CYCLE — pattern PHỔ BIẾN và QUAN TRỌNG
+⭐ DISRUPTION CYCLE — A UNIVERSAL AND IMPORTANT PATTERN:
 
-  Mọi status system ỔN ĐỊNH → cho tới khi bị DISRUPTION.
-  Disruption → toàn bộ maps INVALID → re-calibrate → ổn định mới.
-  Chu kỳ này lặp lại ở MỌI SCALE — từ đàn khỉ tới quốc gia.
+  Every status system is STABLE → until it faces DISRUPTION.
+  Disruption → all maps become INVALID → re-calibrate → new stability.
+  This cycle repeats at ALL SCALES — from a monkey troop to a nation.
 ```
 
-### §6.1 — Đàn khỉ: alpha chết → chaos → ổn định mới
+### §6.1 — Monkey troop: alpha dies → chaos → new stability
 
 ```
-🟢 SAPOLSKY DATA — CƠ CHẾ CƠ BẢN:
+🟢 SAPOLSKY DATA — THE BASIC MECHANISM:
 
-  TRƯỚC DISRUPTION (ổn định):
-    → Alpha ăn trước, ngủ chỗ tốt, mọi con nhường
-    → Mỗi con BIẾT rank → maps compiled → PFC cost ≈ 0
-    → Serotonin: alpha CAO, subordinates THẤP HƠN
-    → Cortisol: alpha THẤP (lúc ổn định), subordinates CAO hơn
-    → = Hệ thống ỔN ĐỊNH, predictable, energy-efficient
+  BEFORE DISRUPTION (stable):
+    → Alpha eats first, sleeps in the best spot, everyone yields
+    → Each animal KNOWS their rank → maps compiled → PFC cost ≈ 0
+    → Serotonin: alpha HIGH, subordinates LOWER
+    → Cortisol: alpha LOW (when stable), subordinates HIGHER
+    → = System STABLE, predictable, energy-efficient
 
-  DISRUPTION (alpha chết hoặc bị loại bỏ):
-    → TOÀN BỘ maps trở nên INVALID
-    → "Ai sẽ ăn trước? Ai ngủ chỗ tốt? Ai giao phối?"
-    → = UNCERTAINTY CỰC CAO → cortisol SPIKE cho toàn đàn
+  DISRUPTION (alpha dies or is removed):
+    → ALL maps become INVALID
+    → "Who eats first? Who sleeps in the best spot? Who mates?"
+    → = EXTREME UNCERTAINTY → cortisol SPIKES across the whole troop
 
-  RE-CALIBRATION (tranh giành):
-    → Beta, gamma,... cùng CLAIM mode LẤY
-    → Đánh nhau, display, liên minh → XÁC ĐỊNH ai >> ai
-    → Cost CAO: thương tích, energy, cortisol kéo dài
-    → Duration: ngày → tuần (tùy size đàn + clarity gap)
-    → 🟢 Sapolsky: beta serotonin TĂNG NGAY khi alpha bị loại
-      → Body PRE-REWARD cho cơ hội upgrade (trước khi thắng)
+  RE-CALIBRATION (competition):
+    → Beta, gamma,... all CLAIM take mode
+    → Fighting, displays, alliances → DETERMINE who >> who
+    → Cost HIGH: injuries, energy, prolonged cortisol
+    → Duration: days → weeks (depending on troop size + clarity of gap)
+    → 🟢 Sapolsky: beta serotonin RISES IMMEDIATELY when alpha is removed
+      → Body PRE-REWARDS for the upgrade opportunity (before winning)
 
-  ỔN ĐỊNH MỚI:
-    → Winner = new alpha → maps RESET cho toàn đàn
-    → Mỗi con compile maps MỚI → PFC cost giảm dần
-    → Cortisol giảm → serotonin settle → behavior predictable lại
-    → = Hệ thống MỚI, có thể KHÁC cũ, nhưng STABLE
+  NEW STABILITY:
+    → Winner = new alpha → maps RESET for the whole troop
+    → Each animal compiles NEW maps → PFC cost gradually decreases
+    → Cortisol decreases → serotonin settles → behavior predictable again
+    → = NEW system, may be DIFFERENT from old, but STABLE
 
   CYCLE:
-    Ổn định → Disruption → Re-calibrate → Ổn định mới → ...
-    → Lặp lại mỗi khi: alpha chết, bị bệnh, bị thách thức thành công
+    Stable → Disruption → Re-calibrate → New stability → ...
+    → Repeats whenever: alpha dies, gets sick, is successfully challenged
 ```
 
-### §6.2 — Con người: cùng pattern, phức tạp hơn
+### §6.2 — Humans: same pattern, greater complexity
 
 ```
-🟡 CÙNG CHU KỲ, KHÁC COMPLEXITY:
+🟡 SAME CYCLE, DIFFERENT COMPLEXITY:
 
-  ① CÔNG TY — CEO bị thay thế:
-     Ổn định: mọi người biết hierarchy, maps compiled, PFC freed cho task
-     Disruption: CEO mới → "sếp mới thế nào? Ai được tin? Ai mất việc?"
-       → Toàn bộ status maps INVALID
-       → Cortisol tăng toàn công ty
-       → PFC bandwidth chuyển từ TASK → SOCIAL SCAN
-       → Productivity GIẢM (PFC bận re-calibrate)
+  ① COMPANY — CEO replaced:
+     Stable: everyone knows hierarchy, maps compiled, PFC freed for tasks
+     Disruption: new CEO → "What's the new boss like? Who's trusted? Who's at risk?"
+       → All status maps INVALID
+       → Cortisol rises company-wide
+       → PFC bandwidth shifts from TASK → SOCIAL SCANNING
+       → Productivity DROPS (PFC busy re-calibrating)
      Re-calibrate:
-       → Các cấp phó: tranh giành vị trí gần CEO mới
-       → Nhân viên: observe + draft maps mới
-       → Duration: tuần → tháng
-     Ổn định mới:
-       → Maps compiled → PFC freed → productivity hồi phục
-       → Có thể KHÁC cũ (team A lên, team B xuống)
+       → Vice presidents compete for proximity to the new CEO
+       → Employees observe + draft new maps
+       → Duration: weeks → months
+     New stability:
+       → Maps compiled → PFC freed → productivity recovers
+       → May be DIFFERENT from before (team A rises, team B falls)
 
-  ② GIA ĐÌNH — Bố mẹ ly hôn:
-     Ổn định: con biết "bố quyết X, mẹ quyết Y" → maps rõ
-     Disruption: ly hôn → "ai quyết gì? Ở với ai? Rules mới là gì?"
-       → Maps gia đình TOÀN BỘ invalid
-       → Con: cortisol spike + Chunk-Miss (nhà cũ absent) + Chunk-Gap (nhà mới)
-     Re-calibrate: tháng → năm (trẻ em compile CHẬM hơn)
-     Ổn định mới: khi maps mới compiled (ở với mẹ = map A, thăm bố = map B)
+  ② FAMILY — Parents divorce:
+     Stable: children know "dad decides X, mom decides Y" → maps clear
+     Disruption: divorce → "who decides what? Who do I live with? What are the new rules?"
+       → Family maps ALL invalid
+       → Children: cortisol spike + Chunk-Miss (old home absent) + Chunk-Gap (new home)
+     Re-calibrate: months → years (children compile SLOWER)
+     New stability: when new maps compiled (with mom = map A, visiting dad = map B)
 
-  ③ QUỐC GIA — Lãnh đạo bị chết/lật đổ:
-     Ổn định: hierarchy rõ, pháp luật ổn, mọi người biết "ai quyết gì"
-     Disruption: lãnh đạo chết → khoảng trống quyền lực
-       → CÁC CẤP PHÓ tranh giành vị trí:
-         → Liên minh, phản bội, đảo chính, bầu cử khẩn cấp
-         → Có thể ĐỔ MÁU (khi rules không đủ mạnh để regulate)
-       → DÂN CHÚNG: bất an, tích trữ, protest hoặc im lặng
-       → = Toàn quốc gia re-calibrate status maps
+  ③ NATION — Leader dies/overthrown:
+     Stable: clear hierarchy, stable laws, everyone knows "who decides what"
+     Disruption: leader dies → power vacuum
+       → ALL SECOND-TIER LEADERS compete for position:
+         → Alliances, betrayals, coups, emergency elections
+         → Can result in BLOODSHED (when rules aren't strong enough to regulate)
+       → POPULATION: anxious, stockpiling, protesting or staying silent
+       → = The entire nation re-calibrating status maps
 
-     Re-calibrate — 3 KỊCH BẢN:
+     Re-calibrate — 3 SCENARIOS:
 
-       A. NHANH — transition smooth (institutions mạnh):
-          → Dân chủ có rules: bầu cử → lãnh đạo mới → maps compile
-          → Chuỗi command rõ: phó lên thay → ít xáo trộn
-          → Duration: tuần → tháng
+       A. FAST — smooth transition (strong institutions):
+          → Democracy with rules: election → new leader → maps compile
+          → Clear chain of command: vice takes over → minimal disruption
+          → Duration: weeks → months
 
-       B. THÀNH CÔNG SAU XÁO TRỘN — thống nhất:
-          → Nhiều nhóm tranh giành, chưa nhóm nào đủ mạnh
-          → Mỗi nhóm calibrate ỔN ĐỊNH NỘI BỘ (hierarchy riêng bên trong)
-          → Nhưng TỔNG THỂ chưa rõ ai >> ai → stuck kéo dài
-          → Kết thúc bằng: 1 cuộc xung đột dứt khoát (1 bên thắng rõ)
-            hoặc negotiate thành công (power-sharing, liên minh)
-          → → Thống nhất = 1 hierarchy mới → maps compile toàn quốc
-          → Duration: năm → chục năm
+       B. SUCCESSFUL AFTER DISRUPTION — unification:
+          → Multiple groups competing, none strong enough yet
+          → Each group calibrates INTERNAL STABILITY (its own hierarchy)
+          → But OVERALL unclear who >> who → stuck for an extended period
+          → Ends with: 1 decisive conflict (1 side wins clearly)
+            or successful negotiation (power-sharing, coalition)
+          → → Unification = 1 new hierarchy → maps compile nation-wide
+          → Duration: years → decades
 
-       C. TÁCH HẲN — quốc gia mới (= Conflict-Dynamics resolution):
+       C. FULL SEPARATION — new nation (= Conflict-Dynamics resolution):
 
-          PROCESS (map chính xác vào Conflict-Dynamics.md §1 + §6):
+          PROCESS (maps precisely to Conflict-Dynamics.md §1 + §6):
 
-          Bước 1 — Conflict calibrate sức mạnh:
-            → Cả 2+ nhóm ban đầu claim mode LẤY (nghĩ mình >>)
-            → Đánh nhau 1 hoặc nhiều trận → calibrate sức mạnh THẬT
-            → Kết quả: "không nhóm nào >> rõ ràng"
-            → = Status calibration qua conflict → biết RÕ gap thật
+          Step 1 — Conflict calibrates actual strength:
+            → Both/all groups initially claim take mode (think they >>)
+            → Fight 1 or more battles → calibrate actual strength
+            → Result: "no group is clearly >>"
+            → = Status calibration through conflict → know the REAL gap
 
-          Bước 2 — Stuck (khi chưa ai đủ mạnh):
-            → Mỗi nhóm calibrate ỔN ĐỊNH NỘI BỘ (hierarchy riêng trong nhóm)
-            → NHƯNG tổng thể chưa rõ ai >> ai → stuck kéo dài
-            → Có thể ÂM Ỉ nhiều chục năm (chưa bên nào dám dồn sức tấn công)
-            → Cost ongoing: cortisol chronic toàn dân, PFC bận threat scan
+          Step 2 — Stuck (when no one is strong enough yet):
+            → Each group calibrates INTERNAL STABILITY (its own hierarchy)
+            → BUT overall unclear who >> who → stuck for a long time
+            → Can SMOLDER for many decades (neither side dares to commit to an all-out attack)
+            → Ongoing cost: chronic cortisol in the population, PFC busy threat-scanning
 
-          Bước 3 — Đồng thuận tách = PHÁ OVERLAP:
-            → Cả 2 nhận ra: cost tiếp tục > benefit thắng
-            → Đạt CAM KẾT ĐỒNG THUẬN phân tách lợi ích rõ ràng
-            → = Conflict-Dynamics §6 ①: PHÁ OVERLAP (bền nhất)
-              Nhóm A access territory/resource X
-              Nhóm B access territory/resource Y
+          Step 3 — Consensus to separate = BREAKING OVERLAP:
+            → Both recognize: cost of continuing > benefit of winning
+            → Reach MUTUAL CONSENSUS on clearly dividing interests
+            → = Conflict-Dynamics §6 ①: BREAK OVERLAP (most durable)
+              Group A accesses territory/resource X
+              Group B accesses territory/resource Y
               Overlap → 0 → Conflict → 0
 
-          Bước 4 — Ổn định mới:
-            → Mỗi entity = hierarchy riêng → maps compile RIÊNG
-            → Maps rõ → certainty restore → cortisol giảm
-            → = Re-calibration THÀNH CÔNG — chỉ là kết quả = 2 entity
+          Step 4 — New stability:
+            → Each entity = its own hierarchy → maps compile SEPARATELY
+            → Maps clear → certainty restored → cortisol drops
+            → = Re-calibration SUCCESSFUL — the result is just 2 entities
 
-          ⭐ TÁCH KHÔNG PHẢI "THẤT BẠI CALIBRATE":
-            → Tách = calibration thành công qua conflict + negotiation
-            → Body cả 2 bên biết: "chúng ta NGANG nhau, KHÁC domain"
-            → = Cùng mechanism với bạn bè phân domain (§5.1):
-              "anh giỏi tech, tôi giỏi music → mỗi người 1 niche"
-            → Khác scale, cùng principle: PHÁ OVERLAP → hòa bình
+          ⭐ SEPARATION IS NOT "FAILED CALIBRATION":
+            → Separation = successful calibration through conflict + negotiation
+            → Body on both sides knows: "we are EQUAL, have DIFFERENT domains"
+            → = Same mechanism as friends dividing domains (§5.1):
+              "You're good at tech, I'm good at music → each in their own niche"
+            → Different scale, same principle: BREAK OVERLAP → peace
 
-          Ví dụ:
-            → Yugoslavia → 7 quốc gia (sau conflict, biết rõ gap, tách)
-            → Sudan → Sudan + Nam Sudan (referendum = formal đồng thuận)
-            → Bắc-Nam Triều Tiên (tách nhưng chưa đồng thuận SÂU → vẫn tension)
-            → Tiệp Khắc → Séc + Slovakia ("Velvet Divorce" — tách KHÔNG conflict)
-          → Duration: năm → chục năm (process calibrate + negotiate)
+          Examples:
+            → Yugoslavia → 7 nations (after conflict, clear gap established, separated)
+            → Sudan → Sudan + South Sudan (referendum = formal consensus)
+            → North/South Korea (separated but no deep consensus → tension remains)
+            → Czechoslovakia → Czech Republic + Slovakia ("Velvet Divorce" — separation without conflict)
+          → Duration: years → decades (calibration + negotiation process)
 
-     ⭐ QUY LUẬT: MỌI disruption quốc gia LUÔN kết thúc bằng A, B, hoặc C.
-        Không có "chaos vĩnh viễn" — vì:
-          → Body CẦN certainty (§9) → drive re-calibrate
-          → Uncertainty = cortisol chronic → KHÔNG sustainable
-          → Cuối cùng PHẢI settle: thống nhất HOẶC tách hẳn
-        Câu hỏi chỉ là: bao lâu + bao nhiêu cost trước khi settle
+     ⭐ RULE: ALL national disruptions ALWAYS end in A, B, or C.
+        There is no "permanent chaos" — because:
+          → Body NEEDS certainty (§9) → drives re-calibration
+          → Uncertainty = chronic cortisol → NOT SUSTAINABLE
+          → Eventually MUST settle: unification OR full separation
+        The only question is: how long + how much cost before settling
 
-  ④ LỚP HỌC — Bạn học chuyển đi/đến:
-     Nhẹ nhất nhưng VẪN cùng pattern:
-     → "Đứa mới" vào → ai cũng scan → maps shift nhẹ
-     → "Đứa popular nhất" chuyển đi → maps restructure đáng kể
-     → Duration: ngày → tuần (trẻ con calibrate NHANH hơn ở context này)
+  ④ CLASSROOM — A student transfers in or out:
+     Lightest but SAME PATTERN:
+     → "The new kid" enters → everyone scans → maps shift slightly
+     → "The most popular kid" transfers out → maps restructure significantly
+     → Duration: days → weeks (children calibrate FASTER in this context)
 ```
 
-### §6.3 — Tại sao disruption cycle TỐN KÉM nhưng CẦN THIẾT
+### §6.3 — Why the disruption cycle is COSTLY but NECESSARY
 
 ```
-🟡 DISRUPTION = CẦN THIẾT ĐỂ UPDATE HỆ THỐNG:
+🟡 DISRUPTION = NECESSARY TO UPDATE THE SYSTEM:
 
-  COST CỦA DISRUPTION:
-    → Cortisol spike toàn nhóm (§11 chi tiết)
-    → PFC bandwidth chuyển từ task → social scan
-    → Productivity/wellbeing GIẢM tạm thời
-    → Conflict: tranh giành, có thể thương tích/đổ máu
-    → Uncertainty: ai cũng bất an, maps invalid
+  COST OF DISRUPTION:
+    → Cortisol spike group-wide (§11 details)
+    → PFC bandwidth shifts from task → social scanning
+    → Productivity/wellbeing DROPS temporarily
+    → Conflict: competition, possible injuries/bloodshed
+    → Uncertainty: everyone anxious, maps invalid
 
-  TẠI SAO VẪN CẦN:
-    → Status maps CẦN phản ánh REALITY hiện tại
-    → Alpha bệnh nhưng vẫn được nhường = maps SAI → nhóm KHÔNG optimal
-    → CEO kém nhưng không ai dám nói = maps SAI → công ty KHÔNG optimal
-    → Disruption = FORCE update maps cho khớp reality mới
+  WHY IT'S STILL NECESSARY:
+    → Status maps NEED to reflect current REALITY
+    → Alpha is sick but everyone still yields = maps WRONG → group NOT optimal
+    → CEO is poor but nobody dares say it = maps WRONG → company NOT optimal
+    → Disruption = FORCES maps to update to match new reality
 
-  NẾU KHÔNG CHO PHÉP DISRUPTION:
-    → Maps cũ giữ nguyên dù reality ĐÃ THAY ĐỔI
-    → Resource access KHÔNG phản ánh thực tế
-    → Hiệu quả nhóm GIẢM DẦN
-    → Cho tới khi: disruption BUỘC xảy ra (tích lũy → bùng nổ)
-    → = "Nén lò xo quá lâu → bung mạnh hơn"
+  IF DISRUPTION IS SUPPRESSED:
+    → Old maps stay intact despite reality HAVING CHANGED
+    → Resource access DOESN'T reflect actuality
+    → Group effectiveness GRADUALLY DECLINES
+    → Until: disruption IS FORCED to happen (accumulated tension → explosion)
+    → = "Compress the spring too long → it springs back harder"
 
-  INSTITUTIONS = GIẢM COST DISRUPTION:
-    → Đàn khỉ: disruption = đánh nhau → cost CAO
-    → Dân chủ: disruption = bầu cử → cost THẤP hơn nhiều
-    → Công ty: disruption = thay CEO qua board → có rules
-    → Quân đội: disruption = thay chỉ huy qua chuỗi command → smooth nhất
-    → = Institutions KHÔNG ngăn disruption — GIẢM COST của disruption
-    → = Xã hội tiến bộ = tìm cách re-calibrate RẺ HƠN (không phải TRÁNH)
+  INSTITUTIONS = REDUCE THE COST OF DISRUPTION:
+    → Monkey troop: disruption = fighting → cost HIGH
+    → Democracy: disruption = elections → cost MUCH LOWER
+    → Company: disruption = replacing CEO through the board → has rules
+    → Military: disruption = replacing commander through chain of command → smoothest
+    → = Institutions DON'T PREVENT disruption — they REDUCE ITS COST
+    → = Social progress = finding ways to re-calibrate MORE CHEAPLY (not AVOIDING it)
 
 
-  CHUNK DYNAMICS TRONG DISRUPTION (Body-Feedback-Mechanism mapping):
+  CHUNK DYNAMICS DURING DISRUPTION (Body-Feedback-Mechanism mapping):
 
-    ① Chunk-Miss: maps CŨ compiled nhưng ABSENT
-       → "Tôi quen sếp cũ, biết access gì" → sếp cũ GONE
-       → VTA: actual (không fire) < baseline (fire daily) → negative delta
-       → = "Nhớ sếp cũ" dù có thể không thích sếp cũ
+    ① Chunk-Miss: OLD maps compiled but ABSENT
+       → "I was used to the old boss, knew what I could access" → old boss GONE
+       → VTA: actual (not firing) < baseline (fired daily) → negative delta
+       → = "Missing the old boss" even if you didn't particularly like them
 
-    ② Chunk-Gap: maps MỚI chưa compiled
-       → "Sếp mới thế nào? Access gì?" → CHƯA BIẾT
-       → Network detect hole → PFC phải draft → cortisol
+    ② Chunk-Gap: NEW maps not yet compiled
+       → "What's the new boss like? What can I access?" → DON'T YET KNOW
+       → Network detects the hole → PFC must draft → cortisol rises
 
-    ③ Chunk-Shift: maps CŨ bị re-evaluate
-       → "Đồng nghiệp A trước đây ngang hàng → giờ thăng chức → access KHÁC"
-       → Valence shift: từ "ngang" → "phải comply nhẹ"
-       → = Maps cùng agent nhưng ĐÁNH GIÁ khác
+    ③ Chunk-Shift: OLD maps being re-evaluated
+       → "Colleague A was my equal → now promoted → access DIFFERENT"
+       → Valence shift: from "equal" → "need to comply slightly"
+       → = Same agent but DIFFERENTLY EVALUATED
 
-    → COMPOUND: thường là cả 3 dynamics cùng lúc
-    → = Giải thích tại sao major transitions = CỰC stress
+    → COMPOUND: usually all 3 dynamics simultaneously
+    → = Explains why major transitions = EXTREMELY stressful
     → Cross-ref: Body-Feedback-Mechanism §4 Compound Mechanism
 ```
 
-### §6.4 — Serotonin dynamics trong disruption
+### §6.4 — Serotonin dynamics during disruption
 
 ```
-🟡 SEROTONIN PHẢN ỨNG NHANH VỚI DISRUPTION:
+🟡 SEROTONIN RESPONDS QUICKLY TO DISRUPTION:
 
-  🟢 Sapolsky: khi alpha bị loại → beta serotonin TĂNG NGAY
-  → Body PRE-REWARD cho CƠ HỘI upgrade
-  → TRƯỚC KHI thực sự thắng → body đã prepare cho "lên"
-  → = Sẵn sàng GRAB vị trí trống (evolutionary advantage)
+  🟢 Sapolsky: when alpha is removed → beta serotonin RISES IMMEDIATELY
+  → Body PRE-REWARDS for the UPGRADE OPPORTUNITY
+  → BEFORE actually winning → body is already preparing to "move up"
+  → = Ready to GRAB the vacant position (evolutionary advantage)
 
-  Cùng lúc, con thấp hơn beta: serotonin CŨNG shift nhẹ
-  → Vì: alpha absent → "vị trí trống" → body detect cơ hội
-  → Toàn đàn trong trạng thái "sẵn sàng re-calibrate"
-  → = KHÔNG phải chaos vô tổ chức — là organized competition
+  Simultaneously, animals below beta: serotonin ALSO shifts slightly
+  → Because: alpha absent → "vacant position" → body detects opportunity
+  → Whole troop in a state of "ready to re-calibrate"
+  → = NOT chaotic and disorganized — it's organized competition
 
-  Ở con người — ví dụ CEO bị sa thải:
-    → CÁC PHÓ GIÁM ĐỐC: body detect "vị trí trống"
-    → Người có ambition: energy tăng, confidence tăng (serotonin shift)
-    → Người không có ambition: anxiety tăng (uncertainty, cortisol)
-    → = KHÁC NHAU tùy: compiled aspiration chunks + serotonin baseline
-    → = Giải thích tại sao cùng disruption → người hưng phấn, người lo sợ
+  In humans — example of CEO being fired:
+    → ALL VICE PRESIDENTS: body detects "vacant position"
+    → Those with ambition: energy rises, confidence rises (serotonin shift)
+    → Those without ambition: anxiety rises (uncertainty, cortisol)
+    → = DIFFERS depending on: compiled aspiration chunks + serotonin baseline
+    → = Explains why the same disruption → one person excited, another fearful
 
-  → Disruption = MIXED for group: cost (instability) + opportunity (upgrade)
-  → Body response = MIXED tương ứng: cortisol (threat) + serotonin shift (opportunity)
+  → Disruption = MIXED for the group: cost (instability) + opportunity (upgrade)
+  → Body response = CORRESPONDINGLY MIXED: cortisol (threat) + serotonin shift (opportunity)
 ```
 
 ---
 
-## §7 — POSITION VS ASPIRATION: 2 THAM SỐ
+## §7 — POSITION VS ASPIRATION: 2 PARAMETERS
 
 ```
-🟡 STATUS CÓ 2 THAM SỐ ĐỘC LẬP (không phải 1):
+🟡 STATUS HAS 2 INDEPENDENT PARAMETERS (not 1):
 
-  ① POSITION — "tôi ĐANG access được gì" (cảm nhận hiện tại):
+  ① POSITION — "what I CAN ACCESS right now" (current perception):
 
-     = Resource access MAP HIỆN TẠI đã compiled
-     → Body-level: serotonin baseline đánh dấu (§9)
-     → Ổn định, thay đổi chậm (tuần → tháng)
-     → Vô thức biết: "nhìn chung tôi access được bao nhiêu"
-     → Carry across contexts (serotonin không reset khi switch context)
-     → = "ĐƯỜNG CƠ SỞ" — mức access mà body đã quen
+     = The CURRENTLY COMPILED Resource Access Map
+     → Body-level: serotonin baseline marks it (§9)
+     → Stable, changes slowly (weeks → months)
+     → Unconsciously known: "generally, how much access do I have"
+     → Carries across contexts (serotonin doesn't reset when switching context)
+     → = THE BASELINE — the level of access the body is used to
 
-     Cụ thể: position CAO = nhiều schemas MỞ compiled
-       → Dám đề xuất (initiative access ✅)
-       → Dám nói thẳng (voice access ✅)
-       → Dám thử mới (novelty access ✅)
-       → = Body CẢM NHẬN "tôi access được nhiều" = tự tin
+     Specifically: HIGH position = many schemas OPEN compiled
+       → Dares to propose (initiative access ✅)
+       → Dares to speak directly (voice access ✅)
+       → Dares to try new things (novelty access ✅)
+       → = Body FEELS "I can access a lot" = confidence
 
-     Position THẤP = ít schemas MỞ compiled
-       → Ngại đề xuất (initiative limited)
-       → Cân nhắc trước khi nói (voice restricted)
-       → Sợ thử (novelty blocked)
-       → = Body CẢM NHẬN "tôi access ít" = rụt rè
+     LOW position = few schemas OPEN compiled
+       → Hesitant to propose (initiative limited)
+       → Considers carefully before speaking (voice restricted)
+       → Afraid to try (novelty blocked)
+       → = Body FEELS "I can access little" = timid
 
 
-  ② ASPIRATION — "tôi MUỐN access gì" (mong muốn):
+  ② ASPIRATION — "what I WANT to access" (desire):
 
-     = Imagine-Final preview cho resource access TƯƠNG LAI
+     = Imagine-Final preview for FUTURE resource access
      → PFC-level: imagine + compare + social input
-     → Có thể thay đổi NHANH (MXH → aspiration tăng vọt)
-     → = "ĐÍCH ĐẾN" — mức access mà body MUỐN
+     → Can change RAPIDLY (social media → aspiration suddenly inflates)
+     → = THE DESTINATION — the level of access the body WANTS
 
-     Imagine-Final.md: aspiration = Imagine-Final applied to status domain
-       → Body ĐÃ PRE-FEEL trạng thái access rộng hơn
-       → Mỗi chunk mới reflect: "đúng hướng" hay "chưa đủ"
-       → = Không phải abstract "muốn hơn" — body đã SIMULATE access rộng hơn
+     Imagine-Final.md: aspiration = Imagine-Final applied to the status domain
+       → Body has ALREADY PRE-FELT the state of wider access
+       → Each new chunk reflects: "is this the right direction" or "not enough yet"
+       → = Not abstract "wanting more" — body has already SIMULATED broader access
 
 
   GAP = Aspiration - Position:
 
-    Gap > 0: có thể → drive (tích cực) hoặc → threat (tiêu cực)
-      → Drive: "tôi muốn lên VÀ có plan + capacity"
+    Gap > 0: can be → drive (positive) or → threat (negative)
+      → Drive: "I want to rise AND have a plan + capacity"
         = Productive cortisol + novelty direction
-      → Threat: "tôi muốn lên NHƯNG sợ không bao giờ được"
+      → Threat: "I want to rise BUT afraid I never will"
         = Chronic cortisol + threat direction (§11)
-    Gap ≈ 0: content (satisfied với access hiện tại)
-    Gap < 0: "quá nhiều" → có thể CHO BỚT
-      (Protect.md §7: mirror reward > keep reward khi surplus)
+    Gap ≈ 0: content (satisfied with current access)
+    Gap < 0: "too much" → may want to GIVE AWAY
+      (Protect.md §7: mirror reward > keep reward when surplus)
 ```
 
-### §7.1 — Verify bằng 6 cases
+### §7.1 — Verified through 6 cases
 
 ```
-  ┌─────────────────────────────┬──────────────────────────────────┐
-  │ Case                        │ Analysis                          │
-  ├─────────────────────────────┼──────────────────────────────────┤
-  │ CEO chase thêm              │ Pos CAO + Asp CAO HƠN → gap > 0 │
-  │                             │ → drive tiếp tục ✅               │
-  ├─────────────────────────────┼──────────────────────────────────┤
-  │ Người nghèo satisfied       │ Pos THẤP + Asp THẤP → gap ≈ 0   │
-  │                             │ → content ✅                      │
-  ├─────────────────────────────┼──────────────────────────────────┤
-  │ Khoe MXH                    │ Pos VỪA + Asp CAO → gap > 0      │
-  │                             │ → compensate bằng khoe ✅         │
-  ├─────────────────────────────┼──────────────────────────────────┤
-  │ Tỷ phú cho hết              │ Pos CAO + Asp THẤP → gap < 0     │
-  │                             │ → mirror reward > keep → cho ✅   │
-  ├─────────────────────────────┼──────────────────────────────────┤
-  │ Tự tin nội tại              │ Pos VỪA + Asp = Pos → gap = 0    │
-  │                             │ → stable ✅                       │
-  ├─────────────────────────────┼──────────────────────────────────┤
-  │ Công nhân vui vẻ            │ Pos THẤP + Asp THẤP → gap ≈ 0   │
-  │                             │ → content ✅                      │
-  └─────────────────────────────┴──────────────────────────────────┘
+  ┌──────────────────────────────────┬─────────────────────────────────────┐
+  │ Case                             │ Analysis                             │
+  ├──────────────────────────────────┼─────────────────────────────────────┤
+  │ CEO chasing more                 │ Pos HIGH + Asp HIGHER → gap > 0     │
+  │                                  │ → continued drive ✅                 │
+  ├──────────────────────────────────┼─────────────────────────────────────┤
+  │ Contented person of modest means │ Pos LOW + Asp LOW → gap ≈ 0         │
+  │                                  │ → content ✅                         │
+  ├──────────────────────────────────┼─────────────────────────────────────┤
+  │ Social media brag                │ Pos MEDIUM + Asp HIGH → gap > 0     │
+  │                                  │ → compensating by showing off ✅     │
+  ├──────────────────────────────────┼─────────────────────────────────────┤
+  │ Billionaire giving it all away   │ Pos HIGH + Asp LOW → gap < 0        │
+  │                                  │ → mirror reward > keeping → give ✅  │
+  ├──────────────────────────────────┼─────────────────────────────────────┤
+  │ Internally grounded person       │ Pos MEDIUM + Asp = Pos → gap = 0    │
+  │                                  │ → stable ✅                          │
+  ├──────────────────────────────────┼─────────────────────────────────────┤
+  │ Happy worker                     │ Pos LOW + Asp LOW → gap ≈ 0         │
+  │                                  │ → content ✅                         │
+  └──────────────────────────────────┴─────────────────────────────────────┘
 
   → Position = body-level (serotonin baseline + compiled access maps)
   → Aspiration = PFC-level (Imagine-Final preview + social comparison)
   → Gap = driver of behavior
-  → DIRECTION phụ thuộc: capacity + Imagine-Final quality
+  → DIRECTION depends on: capacity + quality of the Imagine-Final
 ```
 
-### §7.2 — MXH và Aspiration Inflation
+### §7.2 — Social media and Aspiration Inflation
 
 ```
-🟡 MXH EXPLOIT cơ chế Aspiration:
+🟡 SOCIAL MEDIA EXPLOITS THE ASPIRATION MECHANISM:
 
-  Trước MXH: so sánh với 5-20 người quen → aspiration REALISTIC
-  Sau MXH: so sánh với HÀNG NGHÌN curated highlights → aspiration INFLATE
+  Before social media: compare with 5-20 familiar people → aspiration REALISTIC
+  After social media: compare with THOUSANDS of curated highlights → aspiration INFLATED
 
-  Cơ chế chuỗi:
-    MXH feed → visual success of others
-      → Self-Pattern-Modeling fires: "họ có access X, tôi cũng muốn X"
-        → Aspiration TĂNG (PFC imagine access rộng hơn)
-          → Gap tăng → body-feedback dissonance
-            → Cortisol tăng nhẹ (uncertainty cho gap)
-              → Cortisol suppress → position CẢM NHẬN giảm
-                → Gap tăng THÊM → vicious cycle
+  Chain mechanism:
+    Social media feed → visual display of others' success
+      → Self-Pattern-Modeling fires: "they have access X, I want X too"
+        → Aspiration RISES (PFC imagines broader access)
+          → Gap increases → body-feedback dissonance
+            → Cortisol rises slightly (uncertainty for the gap)
+              → Cortisol suppresses → perceived position DECREASES
+                → Gap increases FURTHER → vicious cycle
 
-  → MXH không hạ status TRỰC TIẾP
-  → MXH hạ status GIÁN TIẾP: inflate aspiration → gap → cortisol → suppress
-  → = 1 trong các sources của "trầm cảm MXH" (mechanism, not opinion)
-  → Giải pháp ở mechanism level: giảm aspiration input (giảm MXH)
-    hoặc tăng position thật (experience thật, không phải compare)
+  → Social media doesn't lower status DIRECTLY
+  → Social media lowers status INDIRECTLY: inflate aspiration → gap → cortisol → suppress
+  → = 1 of several sources of "social media depression" (mechanism, not opinion)
+  → Solution at mechanism level: reduce aspiration input (reduce social media use)
+    or genuinely increase position (real experience, not comparison)
 ```
 
-### §7.3 — "Thành công nhưng emptiness" — multi-causal
+### §7.3 — "Successful but empty" — multi-causal analysis
 
 ```
-🟡 CASE STUDY ĐẶC BIỆT — phân tích kỹ hơn v1.0:
+🟡 SPECIAL CASE STUDY — analyzed more deeply:
 
-  Hiện tượng: CEO/celebrity "có mọi thứ" nhưng "không enjoy"
+  Phenomenon: A CEO/celebrity "has everything" but "can't enjoy it"
 
-  V1.0 GIẢI THÍCH: cortisol cao → suppress status maps → "có nhưng không dùng được"
-  → Đúng 1 PHẦN. Nhưng oversimplify.
+  MULTI-CAUSAL ANALYSIS (v2.0):
 
-  PHÂN TÍCH MULTI-CAUSAL (v2.0):
+  ① IMAGINE-FINAL EXHAUSTED (THE PRIMARY CAUSE):
+     → Imagine-Final "earning money = happiness" → earned it
+     → Body-base NOT as happy as Imagine-Final preview suggested
+       (because: preview = simulation at 20-60% fidelity, Imagine-Final.md §3)
+     → Imagine-Final ACHIEVED but body response DOESN'T MATCH the preview
+     → AND: the NEXT Imagine-Final doesn't exist yet → EMPTINESS
+     → = Boredom.md territory: Imagine-Final unclear → existential boredom
 
-  ① IMAGINE-FINAL HẾT (nguyên nhân CHÍNH):
-     → Imagine-Final "kiếm tiền = hạnh phúc" → kiếm ĐƯỢC rồi
-     → Body-base KHÔNG hạnh phúc như Imagine-Final preview
-       (vì: preview = simulation 20-60% fidelity, Imagination.md §3)
-     → Imagine-Final ĐÃ ĐẠT nhưng body response KHÔNG match preview
-     → VÀ: Imagine-Final TIẾP THEO chưa có → EMPTINESS
-     → = Boredom.md territory: Imagine-Final chưa rõ → existential boredom
+  ② CONNECTION DAMAGED in the process of building success:
+     → 100% dedicated to career → connection with family/friends DECLINES
+     → Agent-Mechanism.md §12: body NEEDS social presence like it needs food
+     → Connection absent → Chunk-Miss → ongoing dissonance
+     → = Body-base channel "connection" has been starved for a long time
 
-  ② CONNECTION BỊ PHÁ trong quá trình build:
-     → Dành 100% cho career → connection với gia đình/bạn bè GIẢM
-     → Agent.md §12: body CẦN social presence như cần thức ăn
-     → Connection absent → Chunk-Miss → dissonance ongoing
-     → = Body-base channel "connection" bị đói lâu ngày
+  ③ POOR HEALTH (neural wear):
+     → Chronic cortisol (from career pressure) → PFC dendrite retraction
+       (cortisol = amplifier, not cause — direction + duration are what matter)
+     → Sleep deprivation → poor consolidation → chunks compile at lower quality
+     → Body-base health channels (sleep, exercise, nutrition) neglected
+     → = Neural system hasn't had time to recover
 
-  ③ SỨC KHỎE KÉM (neural wear):
-     → Chronic cortisol (từ career pressure) → PFC dendrite retraction
-       (Cortisol-Amplifier-Not-Cause.md: direction + duration mới quan trọng)
-     → Thiếu ngủ → consolidation kém → chunks compile chất lượng thấp
-     → Body-base channels sức khỏe (sleep, exercise, nutrition) bị bỏ bê
-     → = Neural system chưa kịp hồi phục
+  ④ MANY BODY-BASE CHANNELS STARVED:
+     → Focusing on career = focusing on 1-2 channels (status + novelty)
+     → Other channels neglected: connection, autonomy in other domains, meaning
+     → Each starved channel = 1 dissonance signal
+     → Combined = "emptiness" despite HIGH status position
 
-  ④ NHIỀU BODY-BASE CHANNELS BỊ ĐÓI:
-     → Focus career = focus 1-2 channels (status + novelty)
-     → Các channels khác bị neglect: connection, autonomy vùng khác, meaning
-     → Mỗi channel đói = 1 dissonance signal
-     → Tổng hợp = "emptiness" dù status position CAO
+  ⑤ ONGOING CORTISOL (continuous threat):
+     → Fear of losing what has been gained (Protect.md: loss aversion at high status)
+     → Fear of not maintaining performance → cortisol sustained
+     → Cortisol suppresses maps → "have power but body FEELS restricted"
+     → = Maps open on paper, body perceives them as narrow
 
-  ⑤ CORTISOL ONGOING (continuous threat):
-     → Sợ mất những gì đã có (Protect.md: loss aversion ở high status)
-     → Sợ không maintain performance → cortisol sustained
-     → Cortisol suppress maps → "có quyền nhưng body CẢM NHẬN restricted"
-     → = Trên giấy maps mở, body cảm nhận maps hẹp
-
-  → "Emptiness" = COMPOUND nhiều nguyên nhân đồng thời
-  → Fix KHÔNG phải "thêm thành công" (thêm status không fix connection/health)
-  → Fix phải multi-channel: Imagine-Final mới + restore connection
-    + sức khỏe hồi phục + giảm threat sources
-  → = Case này KHÔNG purely về status — nó cross nhiều observation parameters
+  → "Emptiness" = COMPOUND of multiple simultaneous causes
+  → Fix is NOT "more success" (more status doesn't fix connection/health)
+  → Fix must be multi-channel: new Imagine-Final + restore connection
+    + recover health + reduce threat sources
+  → = This case is NOT purely about status — it crosses many observation parameters
 ```
 
 ---
@@ -1392,317 +1351,317 @@ FIRING MODES × STATUS (Entity-Valence-Dynamics.md v1.0 §4):
 ## §8 — BEING SEEN + BELONGING: 2 CALIBRATION FUNCTIONS
 
 ```
-⭐ 2 FUNCTIONS LIÊN QUAN STATUS, KHÁC NHAU VỀ CƠ CHẾ:
+⭐ 2 FUNCTIONS RELATED TO STATUS, DIFFERENT IN MECHANISM:
 ```
 
-### §8.1 — Being Seen: muốn map ĐÚNG
+### §8.1 — Being Seen: wanting the map to be ACCURATE
 
 ```
-🟡 "BEING SEEN" = MUỐN AGENT KHÁC CÓ MAP CHÍNH XÁC VỀ TÔI:
+🟡 "BEING SEEN" = WANTING ANOTHER AGENT TO HAVE AN ACCURATE MAP OF ME:
 
-  ĐỊNH NGHĨA:
-    Being Seen = người khác có Resource Access Map ĐÚNG về tôi
-    = "Họ biết tôi access được gì, không access được gì — CHÍNH XÁC"
+  DEFINITION:
+    Being Seen = another person has the CORRECT Resource Access Map of me
+    = "They know what I can access, what I can't — ACCURATELY"
 
   EVOLUTIONARY FUNCTION:
-    Map chính xác → hợp tác HIỆU QUẢ (§5)
-      → Biết ai access gì → phân công tối ưu → cả 2 lợi
-    Map sai → thiệt CẢ HAI bên:
-      → Đánh giá thấp: "anh không biết gì" → block access SAI → mất cơ hội hợp tác
-      → Đánh giá cao: "anh chắc biết" → giao quá sức → fail → stress
+    Accurate map → effective cooperation (§5)
+      → Knowing who can access what → optimal task assignment → both benefit
+    Wrong map → costs BOTH sides:
+      → Underestimated: "you don't know anything" → access wrongly blocked → missed cooperation opportunity
+      → Overestimated: "you must know this" → given too much → fails → stress
 
-  VÍ DỤ:
-    "Anh làm được, chỉ chưa phải bây giờ, em hiểu cho"
-    = Muốn map ĐÚNG: "anh CÓ capacity, đang bận"
-    = Nếu map sai: "anh không làm được" → schema access bị block sai
-    = Em rời đi → mất cơ hội trao đổi tương lai → thiệt CẢ HAI
+  EXAMPLE:
+    "I can do it, just not right now — I appreciate your understanding"
+    = Wanting the map ACCURATE: "I HAVE the capacity, I'm busy"
+    = If map is wrong: "they can't do it" → schema for that access wrongly blocked
+    = They leave → missed future exchange opportunity → costs BOTH
 
   BEING SEEN ≠ CONNECTION:
-    Being Seen = calibrate map ĐÚNG → chỉ cần "biết đúng" (đồng nghiệp đủ)
-    Connection = body reward từ multi-input aggregate (Connection.md §0)
-    → Sếp biết đúng năng lực tôi = Being Seen (không cần thân)
-    → Bạn thân ôm = Connection (không liên quan đánh giá đúng/sai)
-    → Có thể CẢ HAI (bạn thân + biết đúng) nhưng 2 functions KHÁC NHAU
+    Being Seen = calibrating the map accurately → only needs "known correctly" (a colleague is enough)
+    Connection = body reward from multi-input aggregate (Connection.md §0)
+    → A boss correctly knowing my capabilities = Being Seen (doesn't need closeness)
+    → A close friend hugging you = Connection (unrelated to correct/incorrect assessment)
+    → Can be BOTH (close friend + known accurately) but they are 2 DIFFERENT functions
 
-  TRONG NHÓM:
-    Mọi người BIẾT nhau chính xác → maps ĐÚNG → hợp tác TỐT
-    1 người bị hiểu sai → hợp tác KÉM + frustrate (cho cả 2 phía)
-    → Being Seen = social EFFICIENCY function (giảm friction trong trao đổi)
+  IN A GROUP:
+    Everyone KNOWS each other accurately → maps CORRECT → cooperation GOOD
+    1 person misunderstood → cooperation POOR + frustrating (for both sides)
+    → Being Seen = social EFFICIENCY function (reduces friction in exchange)
 ```
 
 ### §8.2 — Belonging: cached maps + backing
 
 ```
-🟡 BELONGING = STATUS MAPS ĐÃ CALIBRATE SẴN CHO NHÓM:
+🟡 BELONGING = STATUS MAPS ALREADY CALIBRATED FOR THE GROUP:
 
   2 FUNCTIONS:
 
-  ① CACHE — giảm scan cost:
-     Gặp người trong nhóm: map CÓ SẴN → không scan → THOẢI MÁI
-     Gặp người ngoài nhóm: phải scan → TỐN PFC → MỆT
-     → Belonging = "tiết kiệm PFC cost cho status calibration"
+  ① CACHE — reduces scan cost:
+     Encountering someone from the group: map AVAILABLE → no scanning → COMFORTABLE
+     Encountering someone outside the group: must scan → COSTS PFC → TIRING
+     → Belonging = "saving PFC cost for status calibration"
 
-     Hệ quả:
-       Mất belonging = mất cache → phải scan MỌI NGƯỜI → kiệt sức
-       Người mới chuyển trường/cty = MỆT (scan liên tục 2-4 tuần)
-       Settle xong = cache compiled → "cảm thấy thuộc về" = maps ổn định
+     Consequences:
+       Losing belonging = losing cache → must scan EVERYONE → exhausted
+       A person who transfers schools/companies = TIRED (continuous scanning for 2-4 weeks)
+       Once settled = cache compiled → "feeling of belonging" = maps stable
 
-  ② BACKING — tăng resource access:
-     Thuộc nhóm = có thế lực hỗ trợ → status maps MỞ RỘNG hơn
-     → "Tôi có nhóm hỗ trợ" → dám mở schema → access RỘNG hơn
-     → Mất nhóm → mất backing → access thu hẹp → mất tự tin
+  ② BACKING — increases resource access:
+     Belonging to a group = having backing behind you → status maps EXPAND
+     → "I have a supportive group" → dare to open schemas → access BROADER
+     → Losing the group → losing backing → access narrows → confidence drops
 
      🟢 Social Baseline Theory (Coan 2015):
-       Proximity to trusted others → metabolic cost GIẢM
-       → Brain literally uses LESS energy khi "có đồng minh"
-       → = Backing effect có neural basis thật
+       Proximity to trusted others → metabolic cost DECREASES
+       → Brain literally uses LESS energy when "allies present"
+       → = Backing effect has a real neural basis
 
   BELONGING ≠ CONNECTION:
     Belonging = cached maps + backing → EFFICIENCY + CONFIDENCE
-    Connection = body reward từ multi-input aggregate (Connection.md)
-    → Có thể belong nhóm mà KHÔNG connection sâu (đồng nghiệp quen)
-    → Có thể connection sâu mà KHÔNG belong nhóm (bạn ở xa)
-    → CẢ HAI đều giá trị — satisfy KHÁC body-need
+    Connection = body reward from multi-input aggregate (Connection.md)
+    → Can belong to a group WITHOUT deep connection (familiar colleagues)
+    → Can have deep connection WITHOUT belonging to a group (a friend far away)
+    → BOTH are valuable — satisfying DIFFERENT body needs
 
-  VÍ DỤ — NHÀ THỜ:
-    Cha Sứ > Ông Trùm > tín hữu ngang nhau
-    → Status maps DEFINED SẴN → vào nhà thờ = không scan → thoải mái
-    → Belonging = cache (biết ai ở đâu) + backing (cộng đồng hỗ trợ)
-    → NGOÀI nhà thờ: maps KHÁC (context switch, §9.3)
+  EXAMPLE — A CHURCH:
+    Pastor > Church Elder > congregants at the same level
+    → Status maps PRE-DEFINED → entering = no scanning needed → comfortable
+    → Belonging = cache (knows who is where) + backing (community support)
+    → OUTSIDE the church: maps DIFFERENT (context switch, §9.3)
 
-  VÍ DỤ — ĐỒNG NGHIỆP:
-    Quen 3 năm → maps compiled cho mỗi người → PFC cost ≈ 0
-    → Belonging = biết chính xác: "nhờ A việc X, hỏi B việc Y"
-    → Chuyển cty mới = MẤT belonging = phải re-compile toàn bộ
-    → = "Nhớ cty cũ" có thể không phải nhớ công việc, mà nhớ CACHED MAPS
+  EXAMPLE — COLLEAGUES:
+    Familiar for 3 years → maps compiled for each person → PFC cost ≈ 0
+    → Belonging = knowing precisely: "ask A for task X, ask B for task Y"
+    → Changing companies = LOSING belonging = must re-compile everything
+    → = "Missing the old company" may not be missing the work, but missing CACHED MAPS
 ```
 
-### §8.3 — Belonging × Agent.md Self-Pattern-Modeling
+### §8.3 — Belonging × Self-Pattern-Modeling
 
 ```
-🟡 BELONGING CÓ COMPONENT Self-Pattern-Modeling:
+🟡 BELONGING HAS A Self-Pattern-Modeling COMPONENT:
 
-  Khi thuộc nhóm:
-    → Self-Pattern-Modeling fires liên tục lên members (background)
-    → = "Tôi hiểu họ, họ hiểu tôi" = cached mutual Self-Pattern-Modeling
-    → Body nhận social presence signal liên tục (Agent.md §12.1-12.2)
-    → = Baseline comfort từ nhóm (không cần tương tác active)
+  When belonging to a group:
+    → Self-Pattern-Modeling fires continuously toward members (background)
+    → = "I understand them, they understand me" = cached mutual Self-Pattern-Modeling
+    → Body receives social presence signal continuously (Agent-Mechanism.md §12.1-12.2)
+    → = Baseline comfort from the group (without needing active interaction)
 
-  Khi MẤT nhóm:
-    → Self-Pattern-Modeling firing lên absent members = Chunk-Miss (Body-Feedback-Mechanism §3.2)
+  When LOSING the group:
+    → Self-Pattern-Modeling firing toward absent members = Chunk-Miss (Body-Feedback-Mechanism §3.2)
     → Body expects social presence → absent → negative delta
-    → = "Nhớ nhóm cũ" = Self-Pattern-Modeling firing nhưng không có feedback
-    → Duration: tùy compiled depth × alternative source availability
+    → = "Missing the old group" = Self-Pattern-Modeling firing but no feedback
+    → Duration: depends on compiled depth × alternative source availability
 
   → Belonging = STATUS function (cached maps + backing)
      + CONNECTION component (Self-Pattern-Modeling-based social presence)
-  → 2 functions overlap TRONG belonging — nhưng CÓ THỂ TÁCH
+  → 2 functions OVERLAP in belonging — but CAN be separated
 ```
 
 ---
 
-## §9 — SEROTONIN: CERTAINTY BIAS NỀN
+## §9 — SEROTONIN: THE CERTAINTY BIAS BASELINE
 
 ```
-⚠️ SECTION NÀY TÁCH RÕ: FUNCTION (chắc chắn) vs HORMONE (candidate).
+⚠️ THIS SECTION CLEARLY SEPARATES: FUNCTION (certainty) vs HORMONE (candidate).
 
-  FUNCTION "certainty bias nền" = CHẮC CHẮN CÓ:
-    ✅ Mọi người trải nghiệm "nhìn chung tự tin / không tự tin"
-    ✅ Baseline ỔN ĐỊNH, carry across contexts
-    ✅ Thay đổi CHẬM (tuần → tháng) theo experience tích lũy
-    ✅ BIAS, không phải QUYẾT ĐỊNH (PFC có thể override — §9.1)
+  FUNCTION "certainty bias baseline" = CERTAINLY EXISTS:
+    ✅ Everyone experiences "generally confident / not confident"
+    ✅ Baseline STABLE, carries across contexts
+    ✅ Changes SLOWLY (weeks → months) following accumulated experience
+    ✅ A BIAS, not a DECISION (PFC can override — §9.1)
 
-  HORMONE "serotonin = chemical carrier" = CHỈ LÀ CANDIDATE:
-    → Evidence CÓ nhưng GIÁN TIẾP (§9.3)
-    → Framework bind vào FUNCTION, không bind vào hormone
-    → Nếu research chứng minh hormone khác → function KHÔNG ĐỔI
+  HORMONE "serotonin = chemical carrier" = ONLY A CANDIDATE:
+    → Evidence EXISTS but is INDIRECT (§9.3)
+    → Framework binds to the FUNCTION, not to the hormone
+    → If research proves another hormone → function UNCHANGED
 ```
 
-### §9.1 — 2 tầng: Bias nền + PFC quyết định
+### §9.1 — 2 layers: Bias baseline + PFC decides
 
 ```
-🟡 SEROTONIN KHÔNG "QUYẾT ĐỊNH" — PFC QUYẾT ĐỊNH:
+🟡 SEROTONIN DOESN'T "DECIDE" — PFC DECIDES:
 
-  TẦNG 1 — Certainty bias nền (body-level, chậm, vô thức):
-    = MỨC CHẮC CHẮN NỀN cho toàn hệ thống
-    → Cao: body CẢM THẤY "nhìn chung ok" → BIAS schemas mở rộng hơn
-    → Thấp: body CẢM THẤY "nhìn chung không chắc" → BIAS schemas hẹp hơn
-    → Thay đổi CHẬM (tuần → tháng) theo experience tích lũy
-    → = BIAS nền — khung mặc định khi KHÔNG CÓ data cụ thể
+  LAYER 1 — Certainty bias baseline (body-level, slow, unconscious):
+    = THE CERTAINTY LEVEL for the entire system
+    → High: body FEELS "generally OK" → BIASES schemas toward broader opening
+    → Low: body FEELS "generally uncertain" → BIASES schemas toward narrowing
+    → Changes SLOWLY (weeks → months) following accumulated experience
+    → = BASELINE BIAS — the default frame when SPECIFIC DATA IS ABSENT
 
-  TẦNG 2 — PFC + Compiled chunks (per-context, nhanh):
-    = QUYẾT ĐỊNH THỰC SỰ schema nào triển khai
-    → PFC evaluate: "CỤ THỂ việc này, mình access được không?"
-    → Schema compiled: "đã làm 100 lần → chắc chắn" → auto execute
-    → = OVERRIDE certainty bias nền KHI CÓ data đủ mạnh
+  LAYER 2 — PFC + Compiled chunks (per-context, fast):
+    = THE ACTUAL DECISION about which schemas deploy
+    → PFC evaluates: "THIS specific task, can I access it?"
+    → Compiled schema: "done 100 times → certain" → auto-execute
+    → = OVERRIDES certainty bias baseline WHEN DATA IS STRONG ENOUGH
 
-  TƯƠNG TÁC:
-    Bias CAO + PFC chắc  → ✅✅ rất tự tin (bias + data align)
-    Bias CAO + PFC ko chắc → 🟡 dám thử (bias push, data thiếu)
-    Bias THẤP + PFC chắc → ✅ vẫn làm (data override bias)
-    Bias THẤP + PFC ko chắc → ❌ rụt rè (bias + data đều block)
+  INTERACTION:
+    Bias HIGH + PFC certain  → ✅✅ very confident (bias + data align)
+    Bias HIGH + PFC uncertain → 🟡 dares to try (bias pushes, data lacking)
+    Bias LOW  + PFC certain  → ✅ still does it (data overrides bias)
+    Bias LOW  + PFC uncertain → ❌ hesitant (bias + data both block)
 
-  → Khi data CỤ THỂ mạnh → certainty bias GẦN NHƯ KHÔNG MATTER
-  → Chỉ khi KHÔNG CÓ data (mới, lạ, mơ hồ) → bias QUYẾT ĐỊNH
-  → = Giải thích: cùng người, serotonin thấp:
-    Ở cty (compiled data mạnh) → vẫn tự tin
-    Với crush (không có data) → rụt rè
-    → CÙNG certainty bias, KHÁC kết quả per-context → vì PFC data khác
+  → When specific DATA IS STRONG → certainty bias BARELY MATTERS
+  → Only when data IS ABSENT (new, unfamiliar, ambiguous) → bias DETERMINES
+  → = Explains: same person, low serotonin:
+    At work (strong compiled data) → still confident
+    With a crush (no data) → hesitant
+    → SAME certainty bias, DIFFERENT per-context result → because PFC data differs
 ```
 
-### §9.2 — Serotonin Ratchet: dễ lên, khó xuống
+### §9.2 — Serotonin Ratchet: easy up, hard down
 
 ```
-🟡 GROUNDED TRONG EVOLUTIONARY LOGIC (§0):
+🟡 GROUNDED IN EVOLUTIONARY LOGIC (§0):
 
-  Body OPTIMIZE resource access qua certainty bias:
+  Body OPTIMIZES resource access through certainty bias:
 
-  ① ỔN ĐỊNH (mặc định):
-     Certainty bias CỐ GIỮ mức hiện tại
-     → Tránh dao động → tránh tốn PFC recalibrate toàn bộ maps
-     → = Energy efficient: "tôi biết mình ở đâu, giữ nguyên"
+  ① STABILITY (default):
+     Certainty bias HOLDS its current level
+     → Avoids fluctuation → avoids costly PFC recalibrating all maps
+     → = Energy efficient: "I know where I stand, hold steady"
 
-  ② SẴN SÀNG TĂNG (khi có cơ hội):
-     Cơ hội → bias TĂNG nhanh:
-       Được khen → tăng
-       Đối thủ mất → "vị trí trống" → tăng
-       Thắng competition → tăng
-     → 🟢 Sapolsky: khỉ beta serotonin TĂNG NGAY khi alpha bị loại
-     → = Body sẵn sàng GRAB resource access rộng hơn (§6.4)
-     → Evolutionary logic: nhanh grab = advantage
+  ② READY TO RISE (when opportunity appears):
+     Opportunity → bias RISES QUICKLY:
+       Being praised → rises
+       Rival loses → "vacant position" → rises
+       Winning a competition → rises
+     → 🟢 Sapolsky: beta monkey serotonin RISES IMMEDIATELY when alpha is removed
+     → = Body ready to GRAB broader resource access (§6.4)
+     → Evolutionary logic: fast grabbing = advantage
 
-  ③ KHÁNG GIẢM (khi bị threat):
-     Bị hạ status → body KHÁNG trước khi chấp nhận:
-       Phase 1 — Denial: "không, tôi vẫn giỏi" (bias hold)
-       Phase 2 — Rationalize: "họ không hiểu tôi" (PFC explain away)
-       Phase 3 — Fight back: "tôi sẽ chứng minh" (behavioral resist)
-       Phase 4 — Accept: bias DROP khi evidence QUÁ NHIỀU
-     → Evolutionary logic: giữ access rộng = giữ resource = survival
+  ③ RESISTS DECLINING (when threatened):
+     Being demoted → body RESISTS before accepting:
+       Phase 1 — Denial: "no, I'm still good" (bias holds)
+       Phase 2 — Rationalize: "they don't understand me" (PFC explains away)
+       Phase 3 — Fight back: "I'll prove myself" (behavioral resistance)
+       Phase 4 — Accept: bias DROPS when evidence is OVERWHELMING
+     → Evolutionary logic: maintaining broad access = maintaining resources = survival
 
-  → = RATCHET EFFECT: dễ lên, khó xuống
-  → Giải thích:
-    CEO bị sa thải: denial kéo dài (ratchet kháng) → đau khổ dài
-    Người mới giàu: adjust NHANH (ratchet sẵn sàng tăng)
-    Người mới nghèo: adjust CHẬM (ratchet kháng giảm) → khổ kéo dài
+  → = RATCHET EFFECT: easy up, hard down
+  → Explains:
+    An executive who gets fired: denial persists (ratchet resists) → prolonged suffering
+    A newly wealthy person: adjusts QUICKLY (ratchet ready to rise)
+    A newly impoverished person: adjusts SLOWLY (ratchet resists decline) → prolonged suffering
 ```
 
 ### §9.3 — Evidence limitations: honest assessment
 
 ```
-⚠️ FRAMEWORK HONEST VỀ GIỚI HẠN EVIDENCE:
+⚠️ FRAMEWORK IS HONEST ABOUT THE LIMITS OF EVIDENCE:
 
-  EVIDENCE CÓ (nhưng gián tiếp):
-    🟢 Khỉ: rank correlate serotonin MÁU (Raleigh 1991)
-       → NHƯNG: serotonin máu ≠ serotonin não
-       → 95% serotonin ở RUỘT → đo máu ≈ đo ruột chủ yếu
-    🟢 Khỉ: rank change → cortisol + behavior change (Sapolsky 30+ năm)
-       → NHƯNG: đàn khỉ = 20-50 con, 1 hierarchy ĐƠN GIẢN
-       → Người = triệu, NHIỀU hierarchies → không tương đương trực tiếp
-    🟢 Người: rank công việc → health change (Whitehall Studies)
-       → NHƯNG: KHÔNG đo serotonin — chỉ đo cortisol + health outcomes
-    🟢 Người: SSRI (tăng serotonin) → tự tin hơn, social behavior đổi
-       → Support serotonin liên quan → nhưng SSRI affect NHIỀU system
+  EVIDENCE EXISTS (but indirect):
+    🟢 Monkeys: rank correlates with blood serotonin (Raleigh 1991)
+       → BUT: blood serotonin ≠ brain serotonin
+       → 95% of serotonin is in THE GUT → blood measurement ≈ mainly measuring gut
+    🟢 Monkeys: rank change → cortisol + behavior change (Sapolsky 30+ years)
+       → BUT: monkey troops = 20-50 animals, SIMPLE 1-hierarchy
+       → Humans = millions, MANY hierarchies → not directly equivalent
+    🟢 Humans: occupational rank → health change (Whitehall Studies)
+       → BUT: serotonin NOT measured — only cortisol + health outcomes
+    🟢 Humans: SSRI (increases serotonin) → more confidence, social behavior changes
+       → Supports serotonin involvement → but SSRI affects MANY systems
 
-  EVIDENCE THIẾU:
-    ❌ Chưa có study đo serotonin NÃO trực tiếp ở người theo status
-    ❌ Chưa có study so sánh serotonin: CEO vs nhân viên
-    ❌ Serotonin máu ≈ serotonin não = chưa confirm
-    ❌ Khỉ (20 con) ≠ người (triệu, nhiều hierarchies)
+  EVIDENCE MISSING:
+    ❌ No study yet directly measuring BRAIN serotonin in humans by status
+    ❌ No study comparing serotonin: CEO vs employee
+    ❌ Blood serotonin ≈ brain serotonin = not yet confirmed
+    ❌ Monkeys (20 animals) ≠ humans (millions, many hierarchies)
 
   FRAMEWORK POSITION:
-    "Certainty bias FUNCTION = chắc chắn có (quan sát + somatic confirm)
-     Serotonin = CANDIDATE hormone (evidence gián tiếp từ khỉ + SSRI)
-     Có thể serotonin + hormone khác kết hợp
-     Framework bind FUNCTION — không assert hormone"
+    "Certainty bias FUNCTION = certainly exists (observable + somatic confirmation)
+     Serotonin = CANDIDATE hormone (indirect evidence from monkeys + SSRI)
+     May be serotonin + other hormones combined
+     Framework binds to FUNCTION — does not assert the hormone"
 
-  SEROTONIN CÓ NHIỀU FUNCTION:
-    Function 1 — Certainty bias nền: status-related
+  SEROTONIN HAS MANY FUNCTIONS:
+    Function 1 — Certainty bias baseline: status-related
     Function 2 — Mood regulation: irritable / calm / patient
-    Function 3 — OCD link: uncertainty → compulsive check loop
+    Function 3 — OCD link: uncertainty → compulsive checking loop
     Function 4 — Sleep regulation: serotonin → melatonin pathway
-    Function 5 — Gut signaling: 95% serotonin ở ruột
-    → 1 hormone, 5+ functions → THÊM lý do chỉ là CANDIDATE
+    Function 5 — Gut signaling: 95% of serotonin in the gut
+    → 1 hormone, 5+ functions → additional reason it's only a CANDIDATE
 ```
 
-### §9.4 — Flexibility + context switch
+### §9.4 — Flexibility + context switching
 
 ```
-🟡 3 THỨ KHÁC NHAU DỄ NHẦM:
+🟡 3 THINGS EASILY CONFUSED:
 
-  ① CERTAINTY BIAS NỀN (carry across ALL contexts):
-     → Ổn định, KHÔNG tốn PFC
-     → = "Nhìn chung tôi tự tin thế nào"
-     → Thay đổi CHẬM (tuần → tháng)
-     → Ví dụ: được khen ở cty → về nhà VẪN tự tin (carry)
+  ① CERTAINTY BIAS BASELINE (carries across ALL contexts):
+     → Stable, DOESN'T cost PFC
+     → = "Generally how confident am I"
+     → Changes SLOWLY (weeks → months)
+     → Example: being praised at work → still confident when arriving home (carries)
 
-  ② STATUS PER-CONTEXT (compiled maps cho context quen):
-     → Mỗi context quen = 1 compiled map
-     → Switch maps quen = PFC load → TỐN ÍT (compiled)
-     → Ở cty: map A | ở nhà: map B | ở nhà thờ: map C
-     → Ví dụ: từ cty về nhà → PFC switch nhanh (cả 2 compiled)
+  ② STATUS PER-CONTEXT (compiled maps for familiar contexts):
+     → Each familiar context = 1 compiled map
+     → Switching between familiar maps = low PFC load → LOW COST (compiled)
+     → At work: map A | at home: map B | at a formal gathering: map C
+     → Example: coming home from work → PFC switches quickly (both are compiled)
 
-  ③ STATUS CONTEXT MỚI (chưa có map):
-     → Gặp nhóm mới, job mới → PFC DRAFT map mới → TỐN NHIỀU
-     → Cortisol tăng (uncertainty) cho tới khi map compiled
-     → = "Mệt khi đi chỗ mới" = PFC drafting maps liên tục
+  ③ STATUS IN NEW CONTEXT (no map yet):
+     → Meeting a new group, a new job → PFC DRAFTS a new map → HIGH COST
+     → Cortisol rises (uncertainty) until the map is compiled
+     → = "Exhausted when going somewhere new" = PFC drafting maps continuously
 
-  WORST CASE — chồng lên nhau:
-    Switch context (load map khác): nhanh nếu quen
-    + Certainty bias: carry theo (có thể thấp)
-    + Calibrate mới: nếu context mới → PFC heavy
+  WORST CASE — layered on each other:
+    Switch context (load a different map): fast if familiar
+    + Certainty bias: carries with (can be low)
+    + Calibrating new: if new context → PFC heavy
 
-    → Người chuyển trường: switch context
-      + calibrate TOÀN BỘ maps mới (PFC heavy)
-      + certainty bias carry (có thể thấp nếu bị bully trước)
-      = TRIPLE cost → giải thích "trầm cảm khi chuyển trường"
+    → Person who transfers schools: switch context
+      + calibrate ALL NEW maps (PFC heavy)
+      + certainty bias carries (can be low if bullied before)
+      = TRIPLE cost → explains "depression when changing schools"
 
-  GIỮA 2 CỰC:
-    Ổn định cao (cùng bias mọi nơi): predictable, ít stress switch, có thể không adapt đủ
-    Dao động mạnh (khác biệt lớn per-context): adapt tốt, energy tốn nhiều
-    Phổ biến: somewhere in between — có baseline + calibrate VỪA per-context
+  BETWEEN THE 2 EXTREMES:
+    High stability (same bias everywhere): predictable, less switching stress, may not adapt sufficiently
+    Strong fluctuation (large per-context difference): adapts well, high energy cost
+    Most common: somewhere in between — has a baseline + calibrates MODERATELY per-context
 ```
 
 ### §9.5 — PFC=Lawyer distorts status assessment
 
 ```
-⭐ PFC KHÔNG PHẢI neutral judge — PFC = LAWYER cho body-base
+⭐ PFC IS NOT A NEUTRAL JUDGE — PFC = LAWYER FOR BODY-BASE
    (Inter-Body-Mechanism.md §7):
 
-  Body-need fires TRƯỚC → PFC creates NARRATIVE ("lý do") cho action
-  body ĐÃ muốn → person BELIEVES narrative.
+  Body-need fires FIRST → PFC creates a NARRATIVE ("the reason") for the action
+  body ALREADY WANTED → the person BELIEVES the narrative.
 
-  TRONG STATUS DOMAIN — 3 CHẾ ĐỘ DISTORTION:
+  IN THE STATUS DOMAIN — 3 DISTORTION MODES:
 
   ① FABRICATE (inflate status):
-     Body muốn access rộng → PFC tạo narrative "tôi xứng đáng"
-     → "Tôi giỏi hơn họ" (dù evidence không đủ)
-     → "Mọi người nể tôi" (dù body chỉ muốn được nể)
-     → = §9.2 Ratchet Phase 2: "Rationalize: họ không hiểu tôi"
-       — đây CHÍNH LÀ PFC lawyering cho body kháng status decrease
+     Body wants broad access → PFC creates narrative "I deserve this"
+     → "I'm better than them" (though evidence is insufficient)
+     → "Everyone respects me" (though body just wants to be respected)
+     → = §9.2 Ratchet Phase 2: "Rationalize: they don't understand me"
+       — this IS EXACTLY PFC lawyering for the body's resistance to status decrease
 
   ② SUPPRESS (deny status need):
-     Body CẦN social recognition → PFC deny: "tôi không quan tâm"
-     → "Status không quan trọng với tôi" (nhưng body vẫn track)
-     → "Tôi thích ở 1 mình" (nhưng body vẫn Chunk-Miss nhóm cũ)
-     → Shameful body-need → PFC hide → self-deception
+     Body NEEDS social recognition → PFC denies: "I don't care about this"
+     → "Status isn't important to me" (but body still tracks it)
+     → "I like being alone" (but body still has Chunk-Miss for old groups)
+     → Shameful body-need → PFC hides it → self-deception
      → PFC accuracy ≈ 0.1-0.2 (Inter-Body-Mechanism.md §7.2)
 
   ③ AMPLIFY (catastrophize status threat):
-     Body detect status threat → PFC KHUẾCH ĐẠI quá mức
-     → "Tôi quá kém, không ai cần tôi" (PFC amplify for avoidance)
-     → "Chắc chắn sẽ bị sa thải" (PFC draft worst-case)
-     → Cortisol tăng → maps thu hẹp (§11.2) → PFC amplify thêm
-     → = Vicious cycle: threat → PFC amplify → cortisol → more threat
+     Body detects status threat → PFC MAGNIFIES it excessively
+     → "I'm terrible, nobody needs me" (PFC amplifies for avoidance)
+     → "I'll definitely get fired" (PFC drafts worst-case scenario)
+     → Cortisol rises → maps narrow (§11.2) → PFC amplifies more
+     → = Vicious cycle: threat → PFC amplifies → cortisol → more threat
 
   DOMAIN = ARBITER (correction):
-     PFC lawyer → narrative SAI → NHƯNG domain reality check:
-     → "Tôi giỏi nhất" (fabricate) → domain: fail liên tục → reality correct
-     → "Tôi không cần ai" (suppress) → domain: lonely, health decline
-     → "Tôi vô dụng" (amplify) → domain: thực tế được khen → evidence correct
+     PFC lawyer → narrative WRONG → BUT domain reality checks:
+     → "I'm the best" (fabricate) → domain: continuous failures → reality corrects
+     → "I don't need anyone" (suppress) → domain: lonely, health declines
+     → "I'm useless" (amplify) → domain: actually gets praised → evidence corrects
      → Domain feedback = ONLY reliable arbiter, PFC narrative ≠ truth
 
-  🟢 Split-brain: left hemisphere CONFABULATE reasons cho actions
-     initiated by right hemisphere (Gazzaniga) → literal lawyer function.
+  🟢 Split-brain: left hemisphere CONFABULATES reasons for actions
+     initiated by the right hemisphere (Gazzaniga) → literal lawyer function.
   🟢 Moral intuition (Haidt 2001): judgment = intuition first,
      reasoning = post-hoc justification.
   🟡 "PFC=Lawyer" as general principle applied to status = framework synthesis.
@@ -1713,159 +1672,159 @@ FIRING MODES × STATUS (Entity-Valence-Dynamics.md v1.0 §4):
 ## §10 — STATUS × CHUNK DYNAMICS
 
 ```
-⭐ KHI STATUS THAY ĐỔI, CHUNK NETWORK XẢY RA GÌ?
+⭐ WHEN STATUS CHANGES, WHAT HAPPENS IN THE CHUNK NETWORK?
 
-  Body-Feedback-Mechanism.md define 3 chunk dynamics:
-    ① Chunk-Shift: same chunks, DIFFERENT valence (đánh giá đổi)
+  Body-Feedback-Mechanism.md defines 3 chunk dynamics:
+    ① Chunk-Shift: same chunks, DIFFERENT valence (evaluation changes)
     ② Chunk-Miss: compiled pattern ABSENT (negative prediction-delta)
-    ③ Chunk-Gap: pattern CHƯA CÓ nhưng network detect hole
+    ③ Chunk-Gap: pattern DOESN'T YET EXIST but network detects the hole
 
-  Status changes MAP TRỰC TIẾP vào 3 dynamics này.
-  Hiểu mapping = hiểu TẠI SAO status changes CẢM THẤY thế nào.
+  Status changes MAP DIRECTLY onto these 3 dynamics.
+  Understanding the mapping = understanding WHY status changes FEEL the way they do.
 ```
 
-### §10.1 — Chunk-Shift: status re-evaluate
+### §10.1 — Chunk-Shift: status re-evaluation
 
 ```
-🟡 CHUNK-SHIFT = CÙNG CHUNKS, KHÁC ĐÁNH GIÁ:
+🟡 CHUNK-SHIFT = SAME CHUNKS, DIFFERENT EVALUATION:
 
-  ĐỊNH NGHĨA: Chunks về BẢN THÂN hoặc AGENT vẫn y nguyên
-  — ĐÁNH GIÁ (valence) thay đổi.
-  = Access map KHÔNG thay đổi structure, nhưng valence SHIFT.
+  DEFINITION: Chunks about ONESELF or the AGENT remain unchanged
+  — the EVALUATION (valence) changes.
+  = Access map doesn't change in structure, but valence SHIFTS.
 
   CASES:
 
-  ① Bị phản bội (social):
-     Chunks "bạn A tin tưởng tôi" → phản bội xảy ra
-     → Valence SHIFT: "an toàn" → "bị lừa"
-     → Access map VỚI NGƯỜI ĐÓ restructure toàn bộ
-     → Body-feedback: dissonance mạnh (Body-Feedback-Mechanism §3.1)
+  ① Betrayed (social):
+     Chunks "friend A trusts me" → betrayal occurs
+     → Valence SHIFTS: "safe" → "deceived"
+     → Access map WITH THAT PERSON restructures entirely
+     → Body-feedback: strong dissonance (Body-Feedback-Mechanism §3.1)
 
-  ② Phát hiện mình kém hơn tưởng:
-     Tưởng mình giỏi domain X → feedback thật: kém
-     → Chunks "tôi giỏi X" vẫn đó, valence SHIFT negative
-     → Position GIẢM trong domain đó → access maps hẹp lại
-     → Body: dissonance ("tôi không như tôi tưởng")
+  ② Discovering you're less skilled than thought:
+     Thought you were skilled in domain X → real feedback: not skilled
+     → Chunks "I'm good at X" still there, valence SHIFTS negative
+     → Position DROPS in that domain → access maps narrow
+     → Body: dissonance ("I'm not who I thought I was")
 
-  ③ Được công nhận bất ngờ (positive shift):
-     Không biết mình giỏi → sếp khen trước mọi người
-     → Chunks "tôi làm X" vẫn đó, valence SHIFT positive
-     → Position TĂNG → access maps mở rộng
+  ③ Unexpectedly recognized (positive shift):
+     Didn't know you were good → boss praises you in front of everyone
+     → Chunks "I do X" still there, valence SHIFTS positive
+     → Position RISES → access maps expand
      → Body: reward (surprise + validation)
 
-  ĐẶC ĐIỂM:
-    → Content unchanged (tôi VẪN LÀ tôi)
-    → Evaluation changed (đánh giá VỀ TÔI khác)
-    → Speed: có thể rất nhanh (1 event đủ)
-    → NHƯNG: certainty bias (serotonin) adjust CHẬM → lag → stress
-    → = Chunk valence shift NHANH, serotonin adjust CHẬM = mismatch period
+  CHARACTERISTICS:
+    → Content unchanged (you ARE still you)
+    → Evaluation changed (assessment OF YOU is different)
+    → Speed: can be very fast (1 event sufficient)
+    → BUT: certainty bias (serotonin) adjusts SLOWLY → lag → stress
+    → = Chunk valence shifts QUICKLY, serotonin adjusts SLOWLY = mismatch period
 ```
 
 ### §10.2 — Chunk-Miss: status absent
 
 ```
-🟡 CHUNK-MISS = COMPILED MAP KHÔNG ĐƯỢC FIRE:
+🟡 CHUNK-MISS = COMPILED MAP NOT FIRING:
 
-  ĐỊNH NGHĨA: Status maps compiled sẵn nhưng KHÔNG ĐƯỢC ACTIVATE.
-  = Từng có access → MẤT (hoặc rời bỏ context).
-
-  CASES:
-
-  ① Rời nhóm quen:
-     Compiled maps cho nhóm A → rời nhóm → maps ABSENT
-     → VTA: actual (không fire) < baseline (fire daily) → negative delta
-     → = "Nhớ nhóm cũ" = Chunk-Miss (maps compiled nhưng không fire)
-
-  ② CEO bị sa thải:
-     Compiled maps: "mọi người comply, tôi ra lệnh, access MỞ TOÀN BỘ"
-     → Sa thải → maps ABSENT (không ai comply nữa)
-     → VTA: massive negative delta (hàng chục maps mất cùng lúc)
-     → + Serotonin Ratchet KHÁNG (§9.2) → denial kéo dài
-     → = Mất ACCESS THẬT → body response CỰC MẠNH (tương xứng mất thật)
-
-  ③ Chuyển trường:
-     Maps nhóm cũ → MẤT TOÀN BỘ (Chunk-Miss)
-     + Context mới chưa có maps → phải draft (Chunk-Gap)
-     → = COMPOUND: Miss (cũ absent) + Gap (mới chưa có) — §10.4
-
-  ĐẶC ĐIỂM:
-    → Duration tùy: compiled depth × thời gian có × alternative source
-    → Deep compiled (10 năm ở nhóm) → Miss kéo dài (tháng → năm)
-    → Shallow compiled (3 tháng) → Miss ngắn (tuần)
-    → CAN fade: khi maps mới compile đủ → old maps deactivate dần
-```
-
-### §10.3 — Chunk-Gap: status chưa từng có
-
-```
-🟡 CHUNK-GAP = CHƯA TỪNG CÓ ACCESS, NHƯNG NETWORK DETECT THIẾU:
-
-  ĐỊNH NGHĨA: CHƯA TỪNG compile access X, nhưng network BIẾT X tồn tại.
-  = Muốn access chưa từng trải nghiệm (aspiration without experience).
+  DEFINITION: Status maps compiled but NOT BEING ACTIVATED.
+  = Once had access → LOST IT (or left the context).
 
   CASES:
 
-  ① Muốn được tôn trọng (chưa từng):
-     Lớn lên bị coi thường → compiled maps toàn "comply"
-     → Network detect: "người khác có maps MỞ, tôi không"
-     → Chunk-Gap: muốn access chưa từng compile
-     → = "Khao khát được tôn trọng" = Gap cho status access
+  ① Leaving a familiar group:
+     Compiled maps for group A → leaves group → maps ABSENT
+     → VTA: actual (not firing) < baseline (fired daily) → negative delta
+     → = "Missing the old group" = Chunk-Miss (maps compiled but not firing)
 
-  ② Aspiration từ MXH:
-     Chưa từng là influencer → thấy người khác có
-     → Network detect: "pattern đó tồn tại nhưng tôi chưa có"
-     → Chunk-Gap: aspiration KHÔNG dựa trên experience
+  ② Executive loses their position:
+     Compiled maps: "everyone complies, I give orders, access FULLY OPEN"
+     → Removed → maps ABSENT (nobody complies anymore)
+     → VTA: massive negative delta (dozens of maps lost simultaneously)
+     → + Serotonin Ratchet RESISTS (§9.2) → prolonged denial
+     → = Losing REAL ACCESS → body response EXTREMELY STRONG (proportional to real loss)
+
+  ③ Changing schools:
+     Maps for old group → ALL LOST (Chunk-Miss)
+     + New context has no maps yet → must draft (Chunk-Gap)
+     → = COMPOUND: Miss (old absent) + Gap (new not yet there) — §10.4
+
+  CHARACTERISTICS:
+    → Duration depends on: compiled depth × time had × alternative source availability
+    → Deeply compiled (10 years in a group) → Miss lasts a long time (months → years)
+    → Shallowly compiled (3 months) → Miss short (weeks)
+    → CAN fade: when new maps compile sufficiently → old maps deactivate gradually
+```
+
+### §10.3 — Chunk-Gap: status never existed
+
+```
+🟡 CHUNK-GAP = NEVER HAD THE ACCESS, BUT NETWORK DETECTS IT'S MISSING:
+
+  DEFINITION: NEVER compiled access X, but the network KNOWS X exists.
+  = Wanting access never yet experienced (aspiration without experience).
+
+  CASES:
+
+  ① Wanting to be respected (never experienced):
+     Grew up being looked down on → compiled maps all "comply"
+     → Network detects: "other people have OPEN maps, I don't"
+     → Chunk-Gap: wanting access never yet compiled
+     → = "Craving to be respected" = Gap for status access
+
+  ② Aspiration from social media:
+     Never been an influencer → sees others being one
+     → Network detects: "that pattern exists but I don't have it"
+     → Chunk-Gap: aspiration NOT based on experience
      → Body: dissonance (want without compiled basis)
 
-  ③ Trẻ em muốn "lớn":
-     Thấy người lớn có access rộng → muốn
-     → Chưa compiled maps cho adult context
-     → = "Muốn lớn nhanh" = Gap detection cho access maps
+  ③ Children who want to "grow up":
+     Sees adults with broader access → wants it
+     → Haven't compiled maps for adult context
+     → = "Wanting to grow up fast" = Gap detection for access maps
 
-  ĐẶC ĐIỂM:
-    → Gap ≠ Miss: Miss = TỪNG CÓ rồi mất, Gap = CHƯA BAO GIỜ CÓ
-    → Gap → có thể transition thành Miss (Body-Feedback-Mechanism §3.3):
-      khi Imagine-Final preview lặp + ổn định → compile baseline →
-      reality không match baseline → Miss
-    → Gap MORE durable (không fade vì không có gì replace)
-    → Gap CAN resolve: khi compile maps thật (experience, không imagine)
+  CHARACTERISTICS:
+    → Gap ≠ Miss: Miss = ONCE HAD then lost, Gap = NEVER HAD
+    → Gap → can transition into Miss (Body-Feedback-Mechanism §3.3):
+      when Imagine-Final preview repeats + stabilizes → compiles a baseline →
+      reality doesn't match the baseline → Miss
+    → Gap MORE durable (doesn't fade because nothing replaces it)
+    → Gap CAN resolve: when real maps compile (through real experience, not imagination)
 ```
 
-### §10.4 — Compound: khi nhiều dynamics cùng lúc
+### §10.4 — Compound: when many dynamics occur simultaneously
 
 ```
-🟡 STATUS CHANGES THƯỜNG LÀ COMPOUND (2-3 dynamics đồng thời):
+🟡 STATUS CHANGES ARE USUALLY COMPOUND (2-3 dynamics simultaneously):
 
-  ┌─────────────────────────┬────────────────────────────────────────────┐
-  │ Tình huống              │ Compound dynamics                           │
-  ├─────────────────────────┼────────────────────────────────────────────┤
-  │ CEO bị sa thải          │ Shift (identity re-evaluate)               │
-  │                         │ + Miss (daily access maps absent)           │
-  │                         │ + Gap (what now? future unclear)            │
-  │                         │ = TRIPLE → giải thích severity              │
-  ├─────────────────────────┼────────────────────────────────────────────┤
-  │ Chuyển trường           │ Miss (old maps absent)                     │
-  │                         │ + Gap (new maps chưa compiled)             │
-  │                         │ = DOUBLE → giải thích "mệt + buồn"        │
-  ├─────────────────────────┼────────────────────────────────────────────┤
-  │ Bị bạn thân phản bội   │ Shift (valence flip: trust → betray)       │
-  │                         │ + Miss (trust-based access absent)          │
-  │                         │ = DOUBLE → giải thích "cay đắng"          │
-  ├─────────────────────────┼────────────────────────────────────────────┤
-  │ Thăng chức bất ngờ     │ Shift (positive: access wider)             │
-  │                         │ + Gap (new role maps chưa compiled)         │
-  │                         │ = MIXED (reward + stress đồng thời)        │
-  ├─────────────────────────┼────────────────────────────────────────────┤
-  │ Ly hôn                  │ Shift (partner re-evaluate)                │
-  │                         │ + Miss (daily intimate maps absent)         │
-  │                         │ + Gap (single life maps chưa có)           │
-  │                         │ = TRIPLE → giải thích severity kéo dài     │
-  └─────────────────────────┴────────────────────────────────────────────┘
+  ┌────────────────────────────────┬──────────────────────────────────────────┐
+  │ Situation                      │ Compound dynamics                        │
+  ├────────────────────────────────┼──────────────────────────────────────────┤
+  │ Executive loses position       │ Shift (identity re-evaluated)            │
+  │                                │ + Miss (daily access maps absent)        │
+  │                                │ + Gap (what now? future unclear)         │
+  │                                │ = TRIPLE → explains severity             │
+  ├────────────────────────────────┼──────────────────────────────────────────┤
+  │ Changing schools               │ Miss (old maps absent)                   │
+  │                                │ + Gap (new maps not yet compiled)        │
+  │                                │ = DOUBLE → explains "tired + sad"        │
+  ├────────────────────────────────┼──────────────────────────────────────────┤
+  │ Betrayed by a close friend     │ Shift (valence flip: trust → betrayal)   │
+  │                                │ + Miss (trust-based access absent)       │
+  │                                │ = DOUBLE → explains "bitterness"         │
+  ├────────────────────────────────┼──────────────────────────────────────────┤
+  │ Unexpected promotion           │ Shift (positive: access wider)           │
+  │                                │ + Gap (new role maps not yet compiled)   │
+  │                                │ = MIXED (reward + stress simultaneously) │
+  ├────────────────────────────────┼──────────────────────────────────────────┤
+  │ Divorce                        │ Shift (partner re-evaluated)             │
+  │                                │ + Miss (daily intimate maps absent)      │
+  │                                │ + Gap (single life maps don't exist yet) │
+  │                                │ = TRIPLE → explains prolonged severity   │
+  └────────────────────────────────┴──────────────────────────────────────────┘
 
-  → Compound MẠNH hơn single (mỗi dynamic = 1 signal, chồng = amplify)
-  → Giải thích tại sao major life transitions = CỰC stress
-  → Recovery time tùy: bao nhiêu dynamics đồng thời × depth mỗi dynamic
-  → Cross-ref: Body-Feedback-Mechanism §4, Connection.md §1.3 (4 Cases)
+  → Compound STRONGER than single (each dynamic = 1 signal, stacked = amplified)
+  → Explains why major life transitions = EXTREMELY stressful
+  → Recovery time depends on: how many dynamics simultaneously × depth of each dynamic
+  → Cross-ref: Body-Feedback-Mechanism §4, Connection.md §7 (4 Cases)
 ```
 
 ---
@@ -1873,28 +1832,28 @@ FIRING MODES × STATUS (Entity-Valence-Dynamics.md v1.0 §4):
 ## §11 — STATUS × CORTISOL
 
 ```
-🟡 CORTISOL = AMPLIFIER, KHÔNG PHẢI CAUSE (Cortisol-Baseline.md §1):
+🟡 CORTISOL = AMPLIFIER, NOT CAUSE (Cortisol-Baseline.md §1):
 
-  Status changes = uncertain → cortisol tăng (change-readiness).
-  Cortisol không GÂY status thay đổi — nó AMPLIFY phản ứng đang có.
+  Status changes = uncertainty → cortisol rises (change-readiness).
+  Cortisol doesn't CAUSE status changes — it AMPLIFIES existing responses.
 ```
 
-### §11.1 — Spectrum cortisol × status
+### §11.1 — Cortisol × status spectrum
 
 ```
   Cortisol      Status effect
-  ───────────── ──────────────────────────────────────────────
-  Thấp          Maps ỔN → body-need dễ meet → calm
-  Vừa           Maps ỔN + ACTIVE calibrate tốt (optimal zone)
-  Cao           Maps THU HẸP → body restrict access → rụt rè
-  Rất cao       Maps GẦN ĐÓNG → "vô giá trị" → isolate
+  ───────────── ────────────────────────────────────────────────
+  Low           Maps STABLE → body-need easily met → calm
+  Moderate      Maps STABLE + ACTIVELY calibrating well (optimal zone)
+  High          Maps NARROW → body restricts access → hesitant
+  Very high     Maps NEARLY CLOSED → "worthless" → isolate
 
-  TẠI SAO CORTISOL THU HẸP MAPS:
-    → Cortisol cao = body signal "nguy hiểm, tiết kiệm resource"
-    → Tiết kiệm resource = ĐÓNG access (không mở rộng khi danger)
-    → = Giống: động vật bị threat → co lại, không explore
-    → Adaptive khi threat thật (short-term: survive first)
-    → Maladaptive khi chronic (long-term: maps hẹp mãi → isolate)
+  WHY CORTISOL NARROWS MAPS:
+    → High cortisol = body signal "danger, conserve resources"
+    → Conserving resources = CLOSE access (don't open wide when in danger)
+    → = Like: an animal under threat → contracts, doesn't explore
+    → Adaptive when threat is real (short-term: survive first)
+    → Maladaptive when chronic (long-term: maps narrow permanently → isolate)
 ```
 
 ### §11.2 — Vicious cycle
@@ -1902,42 +1861,42 @@ FIRING MODES × STATUS (Entity-Valence-Dynamics.md v1.0 §4):
 ```
 🟡 STATUS THREAT → CORTISOL → SUPPRESS → MORE THREAT:
 
-  Status threat (bị coi thường, mất nhóm, fail)
-    → Cortisol tăng (change-readiness cho threat)
-      → Cortisol thu hẹp access maps
-        → Ít access → body-need KHÓ meet (§0: access = resource)
-          → Body-need unmet → cortisol tăng thêm
-            → Maps thu hẹp thêm → isolate
+  Status threat (being looked down on, losing group, failing)
+    → Cortisol rises (change-readiness for threat)
+      → Cortisol narrows access maps
+        → Less access → body-need HARD TO MEET (§0: access = resource)
+          → Body-need unmet → cortisol rises further
+            → Maps narrow more → isolate
               → SPIRAL (depression pathway)
 
-  PHÁ VICIOUS CYCLE:
-    → Cortisol tự nó KHÔNG GIẢM chỉ vì "nghỉ ngơi"
-      (Cortisol-Baseline.md: inertia → cortisol hold mức cao)
-    → Cần EXTERNAL input: social contact, small success experience
-    → Cần ACTION (dù nhỏ) → success → map expand → cortisol giảm
-    → = Giải thích tại sao "ở nhà nghỉ" KHÔNG fix depression
-    → = Cần: hành động nhỏ + social support + thời gian compile maps mới
+  BREAKING THE VICIOUS CYCLE:
+    → Cortisol on its own WON'T DECREASE just from "resting"
+      (Cortisol-Baseline.md: inertia → cortisol holds at high level)
+    → Needs EXTERNAL input: social contact, small success experiences
+    → Needs ACTION (even small) → success → map expands → cortisol decreases
+    → = Explains why "staying home to rest" DOESN'T FIX DEPRESSION
+    → = Needs: small actions + social support + time to compile new maps
 ```
 
 ### §11.3 — Direction matters: threat cortisol vs novelty cortisol
 
 ```
-🟡 CÙNG CORTISOL, KHÁC DIRECTION → KHÁC KẾT QUẢ:
+🟡 SAME CORTISOL, DIFFERENT DIRECTION → DIFFERENT RESULT:
 
-  Cortisol-Baseline.md §7: cortisol có DIRECTION TAG:
+  Cortisol-Baseline.md §7: cortisol has a DIRECTION TAG:
     → Novelty direction: cortisol + approach → explore → potential reward
     → Threat direction: cortisol + avoidance → withdraw → potential loss
 
   Status contexts:
-    → "Tôi muốn thăng chức và đang có plan" = novelty cortisol
-      → Maps MỞ + energy → productive → status CÓ THỂ tăng
-    → "Tôi sợ bị sa thải" = threat cortisol
-      → Maps THU HẸP + anxiety → unproductive → status CÓ THỂ giảm
+    → "I want a promotion and I have a plan" = novelty cortisol
+      → Maps OPEN + energy → productive → status CAN rise
+    → "I'm afraid of getting fired" = threat cortisol
+      → Maps NARROW + anxiety → unproductive → status CAN fall
 
-  → Cùng cortisol level, khác direction → KHÁC outcome cho status
-  → Direction phụ thuộc: Imagine-Final quality + compiled chunks + domain feedback
-  → = Giải thích tại sao "stress tốt" vs "stress xấu"
-    = Cùng hormone, khác hướng chunk tagging
+  → Same cortisol level, different direction → DIFFERENT outcome for status
+  → Direction depends on: quality of Imagine-Final + compiled chunks + domain feedback
+  → = Explains "good stress" vs "bad stress"
+    = Same hormone, different chunk tagging direction
 ```
 
 ---
@@ -1945,99 +1904,99 @@ FIRING MODES × STATUS (Entity-Valence-Dynamics.md v1.0 §4):
 ## §12 — STATUS × OTHER OBSERVATION PARAMETERS
 
 ```
-⭐ STATUS = META-PARAMETER: GATE ACCESS CHO CÁC PARAMETERS KHÁC.
+⭐ STATUS = META-PARAMETER: GATES ACCESS TO OTHER PARAMETERS.
 
-  Không phải "layer cao hơn" — mà: maps rộng/hẹp AFFECT mọi parameter.
-  Vì: mỗi parameter CẦN access nào đó → status maps quyết định access.
+  Not "a higher layer" — but: wide/narrow maps AFFECT every parameter.
+  Because: each parameter NEEDS certain access → status maps determine that access.
 ```
 
 ### §12.1 — Status gates access
 
 ```
-  STATUS CAO (maps MỞ RỘNG) — access CÁC PARAMETERS:
-    Novelty: dám thử mới (không sợ fail) → novelty accessible
-    Connection: dám approach, intimate → connection possible
-    Autonomy: "tôi quyết được" → prediction accuracy cao
-    Meaning: dare to explore schema coherence → meaning EMERGE
-    → = Maps MỞ → body-need DỄ meet → positive feedback loop
+  HIGH STATUS (maps WIDE) — access to OTHER PARAMETERS:
+    Novelty: dares to try new things (not afraid of failure) → novelty accessible
+    Connection: dares to approach, to be intimate → connection possible
+    Autonomy: "I can decide" → prediction accuracy high
+    Meaning: dares to explore schema coherence → meaning EMERGES
+    → = Maps WIDE → body-need EASY to meet → positive feedback loop
 
-  STATUS THẤP (maps HẸP) — block CÁC PARAMETERS:
-    Novelty: sợ fail → avoid new → novelty blocked
-    Connection: rụt rè → avoid approach → connection limited
-    Autonomy: "tôi không dám" → prediction overridden → dissonance
-    Meaning: survive mode → schema coherence luxury → meaning absent
-    → = Maps HẸP → body-need KHÓ meet → vicious cycle potential
+  LOW STATUS (maps NARROW) — blocks OTHER PARAMETERS:
+    Novelty: afraid to fail → avoids new → novelty blocked
+    Connection: hesitant → avoids approaching → connection limited
+    Autonomy: "I don't dare" → prediction overridden → dissonance
+    Meaning: survival mode → schema coherence is a luxury → meaning absent
+    → = Maps NARROW → body-need HARD to meet → potential vicious cycle
 ```
 
 ### §12.2 — Status × Connection
 
 ```
-🟡 KHÁC NHAU NHƯNG INTERACT STRONG:
+🟡 DIFFERENT BUT STRONGLY INTERACTING:
 
-  Connection.md: body reward từ multi-input aggregate GIỮA 2+ agents
+  Connection.md: body reward from multi-input aggregate BETWEEN 2+ agents
   Status: self-assessment + access maps per-person per-context
 
   INTERACTION:
-    → Status CAO với agent X → dám approach → connection POSSIBLE
-    → Status THẤP với agent X → rụt rè → connection BLOCKED
-    → Connection SÂU với agent X → maps CALIBRATE chính xác (Being Seen §8.1)
+    → High status with agent X → dares to approach → connection POSSIBLE
+    → Low status with agent X → hesitant → connection BLOCKED
+    → Deep connection with agent X → maps CALIBRATE accurately (Being Seen §8.1)
     → = Status GATES connection, Connection CALIBRATES status
 
-  TÁCH BIỆT:
-    → Status cao mà KHÔNG connection (sếp: respected nhưng alone)
-    → Connection sâu mà status đối xứng (bạn thân: ngang hàng)
+  SEPARATION:
+    → High status without connection (a respected boss: respected but alone)
+    → Deep connection with symmetric status (close friends: equals)
     → Belonging = status function (cached maps) + connection component (Self-Pattern-Modeling)
 ```
 
 ### §12.3 — Status × Threat
 
 ```
-🟡 STATUS THREAT = THREAT PARAMETER APPLIED TO STATUS DOMAIN:
+🟡 STATUS THREAT = THREAT PARAMETER APPLIED TO THE STATUS DOMAIN:
 
   Threat.md §origin 2 (Peer-Threat):
-    → Social comparison → "tôi kém hơn" → threat signal
-    → = Chunk-Shift (valence shift negative) trong status domain
+    → Social comparison → "I'm worse" → threat signal
+    → = Chunk-Shift (negative valence shift) in the status domain
 
-  Status threat KHÁC physical threat:
-    Physical: bounded, có endorphin buffer, hết nhanh
-    Status: anticipatory, unbounded, KHÔNG buffer, kéo dài
-    → = Status threat CÓ THỂ chronic → cortisol sustained → vicious cycle (§11.2)
+  Status threat DIFFERS from physical threat:
+    Physical: bounded, has endorphin buffer, ends quickly
+    Status: anticipatory, unbounded, NO buffer, persists
+    → = Status threat CAN be chronic → cortisol sustained → vicious cycle (§11.2)
 
-  MXH = chronic low-level status threat:
-    → Liên tục so sánh → liên tục threat → liên tục cortisol
-    → Không acute (không "bị đánh") → KHÔNG có endorphin buffer
-    → = "Death by thousand cuts" — mỗi lần nhỏ, tích lũy lớn
+  Social media = chronic low-level status threat:
+    → Continuous comparison → continuous threat → continuous cortisol
+    → Not acute (not "being hit") → NO endorphin buffer
+    → = "Death by a thousand cuts" — each instance small, accumulated effect large
 ```
 
 ### §12.4 — Status × Protect
 
 ```
-🟡 STATUS POSITION = RESOURCE ĐÃ CÓ → PROTECT ACTIVATE:
+🟡 STATUS POSITION = RESOURCE ALREADY HELD → PROTECT ACTIVATES:
 
   Protect.md: f(perceived replaceability × attachment chunks)
-  Status position cao = resource access rộng = "của tôi"
-  → Protect fires khi status bị THREAT (sợ mất access)
+  High status position = wide resource access = "mine"
+  → Protect fires when status is THREATENED (fear of losing access)
 
-  Endowment effect trong status:
-    → "Tôi đã quen access rộng" → baseline compiled
-    → Mất access = Chunk-Miss → loss aversion amplify
-    → = Tại sao CEO cố giữ vị trí = Protect × Status compound
-    → = Serotonin Ratchet (§9.2) + Loss Aversion (Protect.md §1.2) cùng direction
+  Endowment effect in the status domain:
+    → "I'm used to having broad access" → baseline compiled
+    → Losing access = Chunk-Miss → loss aversion amplifies
+    → = Why executives fight to keep their position = Protect × Status compound
+    → = Serotonin Ratchet (§9.2) + Loss Aversion (Protect.md §1.2) pointing in the same direction
 ```
 
 ### §12.5 — Status × Autonomy
 
 ```
-🟡 STATUS VÀ AUTONOMY CÓ CHIỀU CHUNG:
+🟡 STATUS AND AUTONOMY SHARE A DIMENSION:
 
   Autonomy-Hardware.md: self-action = better prediction = more reward
-  Status cao → "tôi QUYẾT ĐỊNH" → efference copy → prediction accuracy CAO → reward
-  Status thấp → "bị ép" → no efference copy → prediction overridden → dissonance
+  High status → "I DECIDE" → efference copy → prediction accuracy HIGH → reward
+  Low status → "forced by others" → no efference copy → prediction overridden → dissonance
 
-  → Status enable autonomy: maps mở → dám tự quyết → autonomy reward
-  → Autonomy enable status: self-determined actions → success → status tăng
-  → = 2 parameters AMPLIFY lẫn nhau (positive feedback khi cùng hướng)
-  → = Bị ép + status thấp = DOUBLE suppression (autonomy loss + access loss)
+  → Status enables autonomy: maps wide → dare to self-determine → autonomy reward
+  → Autonomy enables status: self-determined actions → success → status rises
+  → = 2 parameters AMPLIFY each other (positive feedback when pointing the same direction)
+  → = Being coerced + low status = DOUBLE SUPPRESSION (autonomy loss + access loss)
 ```
 
 ---
@@ -2045,299 +2004,308 @@ FIRING MODES × STATUS (Entity-Valence-Dynamics.md v1.0 §4):
 ## §13 — STATUS × CONFLICT AT SCALE
 
 ```
-⭐ MỚI (v2.0): STATUS POSITION BẢN THÂN LÀ RESOURCE → TRANH GIÀNH
+⭐ STATUS POSITION ITSELF IS A RESOURCE → COMPETITION:
 
   Conflict-Dynamics.md: CONFLICT = OVERLAP × SCARCITY × COMMITMENT
 
   Status position = resource access map → access = RESOURCE
-  → Status position BẢN THÂN là thứ có thể TRANH GIÀNH
-  → Khi 2+ agents muốn CÙNG status position → conflict
+  → Status position ITSELF is something that CAN BE COMPETED FOR
+  → When 2+ agents want THE SAME status position → conflict
 
-  Đây là nguyên lý nền tảng giải thích:
-    → Tại sao chiến tranh liên miên qua lịch sử
-    → Tại sao tranh giành quyền lực phổ biến
-    → Tại sao "lên chức" = competition
+  This is the foundational principle explaining:
+    → Why war has been constant throughout history
+    → Why power struggles are universal
+    → Why "getting promoted" = competition
 ```
 
-### §13.1 — Cùng mechanism, khác scale
+### §13.1 — Same mechanism, different scale
 
 ```
-🟡 TỪ ĐÀN KHỈ → QUỐC GIA: CÙNG CÔNG THỨC:
+🟡 FROM A MONKEY TROOP → NATIONS: THE SAME FORMULA:
 
-  ┌──────────────────┬───────────────────┬────────────────────────────┐
-  │ Scale            │ Resource          │ Conflict form               │
-  ├──────────────────┼───────────────────┼────────────────────────────┤
-  │ 2 con khỉ       │ Quả chuối (1)     │ Đánh nhau → mạnh hơn lấy  │
-  │ 2 nhân viên     │ Vị trí thăng chức │ Cạnh tranh → performance   │
-  │ 2 phó GĐ        │ Ghế CEO           │ Political → liên minh      │
-  │ 2 công ty       │ Thị phần          │ Cạnh tranh SP + marketing  │
-  │ 2 quốc gia      │ Lãnh thổ / TN     │ Ngoại giao → chiến tranh   │
-  └──────────────────┴───────────────────┴────────────────────────────┘
+  ┌──────────────────┬────────────────────┬────────────────────────────────┐
+  │ Scale            │ Resource           │ Form of conflict               │
+  ├──────────────────┼────────────────────┼────────────────────────────────┤
+  │ 2 monkeys        │ Banana (1)         │ Fight → stronger one takes     │
+  │ 2 employees      │ Promotion slot     │ Compete → performance          │
+  │ 2 vice presidents│ CEO seat           │ Political → alliances          │
+  │ 2 companies      │ Market share       │ Compete on product + marketing │
+  │ 2 nations        │ Territory/resources│ Diplomacy → war                │
+  └──────────────────┴────────────────────┴────────────────────────────────┘
 
-  Cùng 3 điều kiện:
-    ① OVERLAP: cả 2 muốn CÙNG position (1 vị trí, 1 lãnh thổ)
-    ② SCARCITY: position CHỈ CHO 1 (ghế CEO chỉ 1, lãnh thổ có giới hạn)
-    ③ COMMITMENT: cả 2 ĐÃ compile position vào Imagine-Final
-    → = Conflict khi 3 điều kiện đồng thời
+  Same 3 conditions:
+    ① OVERLAP: both want THE SAME position (1 slot, 1 territory)
+    ② SCARCITY: position is FOR ONLY 1 (CEO seat is 1 slot, territory is limited)
+    ③ COMMITMENT: both have ALREADY compiled that position into their Imagine-Final
+    → = Conflict when all 3 conditions are met simultaneously
 
 
-  TẠI SAO STATUS CONFLICT ĐẶC BIỆT DAI DẲNG:
+  WHY STATUS CONFLICT IS ESPECIALLY PERSISTENT:
 
-    So với resource vật chất (thức ăn, đất):
-      → Thức ăn: ăn xong hết → scarcity giảm → conflict giảm
-      → Status position: KHÔNG "hết" — position TỒN TẠI liên tục
-      → → Conflict có thể KÉO DÀI vì resource không tiêu hao
+    Compared to physical resources (food, land):
+      → Food: eating depletes it → scarcity decreases → conflict decreases
+      → Status position: doesn't "deplete" — the position EXISTS CONTINUOUSLY
+      → → Conflict can PERSIST INDEFINITELY because the resource doesn't diminish
 
-    Commitment cực cao:
-      → Status position compiled SÂU vào identity (Protect.md §3.4)
-      → De-commit = mất identity = existential threat
-      → → Commitment LOCK → khó nhượng bộ → conflict leo thang
+    Commitment is extremely high:
+      → Status position compiled DEEPLY into identity (Protect.md §3.4)
+      → De-committing = losing identity = existential threat
+      → → Commitment LOCKED → hard to concede → conflict escalates
 
-    Perceived scarcity thường CAO HƠN actual:
-      → 2 phó GĐ: "chỉ 1 ghế CEO" (perceived)
-      → Thực tế: có thể tạo 2 vai trò ngang = phá scarcity
-      → NHƯNG: perceived scarcity = cả 2 nghĩ chỉ có 1 → conflict
+    Perceived scarcity is often HIGHER than actual:
+      → 2 vice presidents: "only 1 CEO seat" (perceived)
+      → Reality: could create 2 equal roles = break the scarcity
+      → BUT: perceived scarcity = both believe there's only 1 → conflict
 ```
 
-### §13.2 — Disruption at scale = pattern phổ biến nhất lịch sử
+### §13.2 — Disruption at scale = the most common historical pattern
 
 ```
-🟡 §6 DISRUPTION CYCLE ÁP DỤNG Ở SCALE QUỐC GIA:
+🟡 §6 DISRUPTION CYCLE APPLIED AT THE NATIONAL SCALE:
 
-  Lãnh đạo chết / bị lật đổ → khoảng trống quyền lực:
-    → CÁC CẤP PHÓ (hoặc tướng lĩnh, hoàng tử) claim mode LẤY
-    → Mỗi người cho rằng MÌNH >> → cùng claim → conflict
-    → Liên minh hình thành (backing — §8.2 ②)
-    → Liên minh vs liên minh → re-calibrate bằng conflict
-    → Có thể ĐỔ MÁU (khi rules yếu) hoặc BẦU CỬ (khi rules mạnh)
-    → → Cuối cùng: new leader → new hierarchy → ổn định mới
+  Leader dies / is overthrown → power vacuum:
+    → ALL SECOND-TIER (or generals, princes) claim take mode
+    → Each believes THEY >> → multiple claims → conflict
+    → Alliances form (backing — §8.2 ②)
+    → Alliance vs alliance → re-calibrate through conflict
+    → Can result in BLOODSHED (when rules are weak) or ELECTIONS (when rules are strong)
+    → → Eventually: new leader → new hierarchy → new stability
 
-  LỊCH SỬ ĐẦY disruption cycles:
-    → Chiến Quốc (Trung Quốc): 7 nước tranh 1 thiên hạ → Tần thắng
-    → La Mã: Caesar chết → nội chiến → Augustus
-    → Succession wars (châu Âu): vua chết → con tranh nhau
-    → Modern: bầu cử = CIVILIZED disruption cycle
-    → = Cùng pattern, khác method (bạo lực → rules → bầu cử)
+  HISTORY IS FULL of disruption cycles:
+    → Warring States (China): 7 states compete for the realm → the Qin wins
+    → Rome: Caesar dies → civil war → Augustus
+    → Succession wars (Europe): king dies → sons compete
+    → Modern: elections = CIVILIZED disruption cycle
+    → = Same pattern, different method (violence → rules → voting)
 
-  DÂN CHỦ = GIẢM COST DISRUPTION (§6.3):
-    → Thay vì đổ máu: bỏ phiếu
-    → Thay vì nội chiến: nhiệm kỳ có giới hạn (built-in disruption)
-    → Thay vì chaos: transition rules rõ ràng
-    → = Dân chủ KHÔNG loại bỏ status competition
-    → = Dân chủ GIẢM COST re-calibration từ "máu" xuống "phiếu"
+  DEMOCRACY = REDUCING THE COST OF DISRUPTION (§6.3):
+    → Instead of bloodshed: cast a ballot
+    → Instead of civil war: term limits (built-in disruption)
+    → Instead of chaos: clear transition rules
+    → = Democracy DOESN'T ELIMINATE status competition
+    → = Democracy REDUCES THE COST of re-calibration from "blood" to "votes"
 ```
 
 ### §13.3 — Resolution strategies (Conflict-Dynamics.md §6)
 
 ```
-🟡 PHÁ 1 TRONG 3 ĐIỀU KIỆN → HẾT CONFLICT:
+🟡 BREAK 1 OF 3 CONDITIONS → CONFLICT ENDS:
 
-  ① PHÁ OVERLAP — mỗi bên target KHÁC:
-     → 2 phó GĐ: tạo 2 vai trò khác nhau (CTO + COO)
-     → 2 quốc gia: mỗi nước focus domain khác (công nghệ vs nông nghiệp)
-     → = Chuyên môn hóa (§5.1) → giảm overlap → giảm conflict
+  ① BREAK OVERLAP — each side targets SOMETHING DIFFERENT:
+     → 2 vice presidents: create 2 different roles (CTO + COO)
+     → 2 nations: each focuses on a different domain (technology vs agriculture)
+     → = Specialization (§5.1) → reduces overlap → reduces conflict
 
-  ② PHÁ SCARCITY — tăng tổng resource:
-     → Tạo thêm vị trí (mở rộng cty → thêm ghế)
-     → Tạo thêm domain (digital economy → access mới)
-     → Knowledge sharing (knowledge KHÔNG hết khi share)
+  ② BREAK SCARCITY — expand total resources:
+     → Create more positions (expand the company → more seats)
+     → Create new domains (digital economy → new access)
+     → Knowledge sharing (knowledge DOESN'T RUN OUT when shared)
      → = Conflict-Dynamics.md §7: scarcity = engine for expansion
 
-  ③ PHÁ COMMITMENT — giảm bám víu:
-     → Re-evaluate: "position này CÓ THẬT SỰ cần cho Imagine-Final?"
-     → Đổi Imagine-Final → tự động de-commit position cũ
-     → Khó nhất vì: identity-level chunks (Protect.md §3.4)
+  ③ BREAK COMMITMENT — reduce attachment:
+     → Re-evaluate: "does this position ACTUALLY contribute to my Imagine-Final?"
+     → Change the Imagine-Final → automatically de-commit from the old position
+     → Hardest because: identity-level chunks (Protect.md §3.4)
 
-  → Strategy hiệu quả nhất: PHÁ OVERLAP (§5.1 chuyên môn hóa)
-  → Strategy nhanh nhất: PHÁ SCARCITY (mở rộng resource)
-  → Strategy khó nhất: PHÁ COMMITMENT (identity restructure)
+  → Most effective strategy: BREAK OVERLAP (§5.1 specialization)
+  → Fastest strategy: BREAK SCARCITY (expand resources)
+  → Hardest strategy: BREAK COMMITMENT (identity restructure)
 ```
 
 ---
 
-## §14 — QUÂN ĐỘI: STATUS OPTIMIZATION CASE STUDY
+## §14 — THE MILITARY: A STATUS OPTIMIZATION CASE STUDY
 
 ```
-🟡 QUÂN ĐỘI = THIẾT KẾ STATUS HIỆU QUẢ NHẤT LOÀI NGƯỜI TẠO RA:
+🟡 THE MILITARY = THE MOST EFFICIENT STATUS DESIGN HUMANS HAVE CREATED:
 
-  VẤN ĐỀ QUÂN ĐỘI GIẢI QUYẾT (grounded trong §0):
-    → 1000 người lạ cần hợp tác ngay lập tức
-    → Nếu mỗi người scan mỗi người → PFC OVERLOAD → mất thời gian
-    → Thời gian = mạng sống (battlefield)
-    → → CẦN: status system CỰC NHANH, CỰC RÕ, CỰC RẺ PFC cost
+  THE PROBLEM THE MILITARY SOLVES (grounded in §0):
+    → 1,000 strangers need to cooperate immediately
+    → If each person scans each other → PFC OVERLOADED → time wasted
+    → Time = lives (on a battlefield)
+    → → NEEDS: a status system that is EXTREMELY FAST, EXTREMELY CLEAR, EXTREMELY LOW PFC COST
 
-  4 NGUYÊN TẮC:
+  4 PRINCIPLES:
 
-  ① PHÂN CẤP RÕ RÀNG (quân hàm = visual symbol):
-     → NHÌN là biết status → PFC cost ≈ ZERO (§2: scan compiled ngay)
-     → Đời thường: gặp lạ → 5-30 giây scan
-     → Quân đội: nhìn quân hàm → 0.5 giây → map LOADED
+  ① CLEAR RANK STRUCTURE (rank insignia = visual symbol):
+     → LOOK and know status → PFC cost ≈ ZERO (§2: compiled immediately)
+     → Civilian life: meeting a stranger → 5-30 second scan
+     → Military: see the insignia → 0.5 seconds → map LOADED
      → = Pre-compiled maps for EVERY rank → no drafting needed
 
-  ② TUÂN THỦ TUYỆT ĐỐI (schema FIXED per rank):
-     → Cấp dưới: comply → luôn đúng → PFC không cần evaluate
-     → Cấp trên: ra lệnh → luôn đúng → PFC không cần negotiate
-     → = Schemas pre-assigned → vô thức execute
+  ② ABSOLUTE COMPLIANCE (schemas FIXED per rank):
+     → Lower rank: comply → always correct → PFC doesn't need to evaluate
+     → Higher rank: give orders → always correct → PFC doesn't need to negotiate
+     → = Schemas pre-assigned → execute unconsciously
 
-  ③ TÔN TRỌNG TUYỆT ĐỐI (certainty, không challenge):
-     → Rank cao: certainty bias stable → assured
-     → Rank thấp: BIẾT RÕ vị trí → certainty! → THOẢI MÁI hơn "không biết"
-     → = Uncertainty (§9.4 tốn PFC + cortisol) → Certainty (tiết kiệm)
+  ③ ABSOLUTE RESPECT (certainty, no challenging):
+     → High rank: certainty bias stable → assured
+     → Low rank: CLEARLY KNOWS their position → certainty! → MORE COMFORTABLE than "not knowing"
+     → = Uncertainty (§9.4 costs PFC + cortisol) → Certainty (saves cost)
 
-  ④ LÝ DO RÕ RÀNG (coherence satisfied):
-     → Rank cao vì kinh nghiệm + training → hiểu được → chấp nhận dễ
-     → = Coherence signal: "hệ thống hợp lý" → less resistance
+  ④ CLEAR RATIONALE (coherence satisfied):
+     → High rank because of experience + training → understandable → easier to accept
+     → = Coherence signal: "the system makes sense" → less resistance
 
-  KẾT QUẢ:
-    Đời thường: significant PFC bandwidth cho social status calibration
-    Quân đội: minimal PFC cho status → PHẦN LỚN cho TASK
-    → = PFC FREED UP cho chiến thuật, chiến lược, problem-solve
-    → = Đây là lý do quân đội HIỆU QUẢ trong crisis
+  RESULT:
+    Civilian life: significant PFC bandwidth dedicated to social status calibration
+    Military: minimal PFC for status → MOST of it goes to TASKS
+    → = PFC FREED UP for tactics, strategy, problem-solving
+    → = This is why the military is EFFICIENT in crises
 ```
 
-### §14.1 — Cùng principle ở nơi khác
+### §14.1 — Same principle elsewhere
 
 ```
-🟡 QUÂN ĐỘI KHÔNG UNIQUE — CÙNG PRINCIPLE, KHÁC MỨC ĐỘ:
+🟡 THE MILITARY IS NOT UNIQUE — SAME PRINCIPLE, DIFFERENT INTENSITY:
 
-  Đồng phục trường học: giảm status noise (giàu/nghèo → visual flatten)
-  Dress code công ty: giảm visual status competition
-  Áo lễ nhà thờ: flatten status (ngang nhau trước Chúa)
-  Hierarchy rõ (CEO→VP→Manager→IC): pre-define maps
-  Titles + business cards: visual cue cho nhanh scan
+  School uniforms: reduce status noise (wealthy/poor → visual leveling)
+  Company dress codes: reduce visual status competition
+  Religious vestments: flatten status (equals before the divine)
+  Clear hierarchy (CEO→VP→Manager→IC): pre-defines maps
+  Titles + business cards: visual cue for quick scanning
 
-  → TẤT CẢ nhằm: GIẢM PFC cost cho status calibration
+  → ALL aimed at: REDUCING PFC COST for status calibration
   → = Design principle: CLARITY reduces cognitive load
 
   TRADE-OFF:
-    → Hierarchy rõ = PFC saved + creativity restricted
+    → Clear hierarchy = PFC saved + creativity restricted
     → Flat organization = PFC overhead + creativity enabled
-    → = Clarity vs flexibility — mỗi context cần balance khác
-    → Quân đội: clarity >> flexibility (survival stakes)
+    → = Clarity vs flexibility — different contexts need different balance
+    → Military: clarity >> flexibility (survival stakes)
     → Startup: flexibility >> clarity (innovation stakes)
-    → = Không có "đúng sai" — có "phù hợp context"
+    → = Not "right or wrong" — there's "appropriate for the context"
 ```
 
 ---
 
-## §15 — STATUS TRONG TẬP THỂ
+## §15 — STATUS IN COLLECTIVES
 
 ```
-🟡 STATUS KHÔNG CHỈ CÁ NHÂN — CẤU TRÚC TỔ CHỨC TẬP THỂ:
+🟡 STATUS IS NOT JUST INDIVIDUAL — IT STRUCTURES COLLECTIVE ORGANIZATION:
 
-  BẦY ĐÀN ĐỘNG VẬT:
-    → Status hierarchy = "phần mềm tổ chức" tự nhiên
-    → Mỗi con biết vị trí → behavior predictable → nhóm STABLE
-    → Alpha bệnh/chết → hierarchy sụp → chaos → re-calibrate → stable lại
-    → = Status = cách tập thể TỰ TỔ CHỨC mà không cần ai thiết kế
+  ANIMAL GROUPS:
+    → Status hierarchy = natural "organizational software"
+    → Each animal knows its position → behavior predictable → group STABLE
+    → Alpha sick/dead → hierarchy collapses → chaos → re-calibrates → stable again
+    → = Status = how a collective ORGANIZES ITSELF without anyone designing it
 
-  XÃ HỘI LOÀI NGƯỜI:
-    → Multi-context, multi-dimension (phức tạp hơn đàn khỉ)
-    → CÙNG function: status maps → organize collective behavior
-    → Pháp luật = FORMALIZE status maps ("ai access gì, phải gì")
-    → Dân chủ = FLATTEN gap (trao đổi > lấy/comply)
-    → Độc tài = WIDEN gap (lãnh đạo >> dân → lấy dominant)
+  HUMAN SOCIETY:
+    → Multi-context, multi-dimension (more complex than a monkey troop)
+    → SAME function: status maps → organize collective behavior
+    → Law = FORMALIZES status maps ("who can access what, must give what")
+    → Democracy = FLATTENS gaps (exchange > take/comply)
+    → Autocracy = WIDENS gaps (leader >> population → take dominant)
 
   SCALE EFFECT:
-    Nhóm nhỏ (5-20): maps = personal (biết từng người, nhiều chiều)
-    Nhóm vừa (20-150): maps = role-based (chức danh, team)
-    Nhóm lớn (150+): maps = symbolic (quân hàm, bằng cấp, title)
-    → Càng lớn → càng cần SYMBOL → càng flatten thành hierarchy đơn giản
-    → = Hierarchy là COMPRESSION ALGORITHM cho status ở scale lớn
-    → Nhỏ: full Resource Access Map (nhiều chiều) | Lớn: hierarchy (1 chiều)
+    Small group (5-20): maps = personal (knows each individual, many dimensions)
+    Medium group (20-150): maps = role-based (job title, team)
+    Large group (150+): maps = symbolic (military rank, academic credentials, professional title)
+    → Larger group → greater need for SYMBOLS → flattens toward simple hierarchy
+    → = Hierarchy is a COMPRESSION ALGORITHM for status at large scale
+    → Small: full Resource Access Map (many dimensions) | Large: hierarchy (1 dimension)
 
-  COLLECTIVE-PURPOSE (Collective-Purpose.md) LINK:
-    → Status system organize WHO does WHAT
-    → Knowledge-Flow.md: output A → baseline B
-    → Status calibrate: ai ACCESS knowledge nào → ai produce output nào
-    → = Status = organizational layer cho cosmic loop
-    → Suppress status system (forced uniformity) → loop slow down
-    → Enable healthy status (clarity + fairness) → loop accelerate
+  COLLECTIVE-PURPOSE LINK (Collective-Purpose.md):
+    → Status system organizes WHO does WHAT
+    → Knowledge-Flow.md: A's output → B's baseline
+    → Status calibrates: who CAN ACCESS which knowledge → who produces which output
+    → = Status = organizational layer for the collective loop
+    → Suppress status system (forced uniformity) → the loop slows down
+    → Enable healthy status (clarity + fairness) → the loop accelerates
+
+  8 PATHWAYS AT COLLECTIVE SCALE — different FIDELITY + DEPTH:
+    → Intimate (5 people): 8 pathways DEEP
+    → Collective (millions of people): 8 pathways SURFACE but WIDE
+    → Body NEEDS BOTH: deep (5 intimate) + wide (collective belonging)
 ```
 
 ---
 
-## §16 — HONEST ASSESSMENT + CÂU HỎI MỞ
+## §16 — HONEST ASSESSMENT + OPEN QUESTIONS
 
 ```
-⚠️ WHAT WE'RE CONFIDENT ABOUT:
+  ESTABLISHED (🟢):
 
-  ✅ Status FUNCTION exists
-     (quan sát được ở mọi người, mọi động vật xã hội — cross-species)
-  ✅ Evolutionary WHY: resource access = body-base reward
-     (Sapolsky 🟢, Huber & Kravitz lobster 🟢, pecking order 🟢)
-  ✅ Body REWARD THẬT cho status upgrade
-     (serotonin shift 🟢, cortisol change 🟢, behavior change 🟢)
-  ✅ Resource Access Map model giải thích MORE cases than hierarchy
-     (gia đình, bạn bè, context switch — hierarchy fails, RAM explains)
-  ✅ Per-person × per-context nature (mọi người somatic confirm)
-  ✅ 5-step body scan mechanism (body-level, observable)
-  ✅ Position vs Aspiration distinction (6 cases verify)
-  ✅ Being Seen = calibration function (functional, observable)
-  ✅ Belonging = cached maps + backing (Social Baseline Theory 🟢)
-  ✅ Cortisol × Status interaction (Whitehall Studies 🟢, Sapolsky 🟢)
-  ✅ Disruption → re-calibrate cycle (Sapolsky data 🟢, observable cross-species)
-  ✅ Ratchet effect (khỉ: Sapolsky 🟢, người: observable patterns)
+    🟢 Status FUNCTION exists
+       (observable in all people, all social animals — cross-species)
+    🟢 Evolutionary WHY: resource access = body-base reward
+       (Sapolsky 🟢, Huber & Kravitz lobster 🟢, pecking order 🟢)
+    🟢 Body gives REAL REWARD for status upgrade
+       (serotonin shift 🟢, cortisol change 🟢, behavior change 🟢)
+    🟢 Resource Access Map model explains MORE cases than hierarchy
+       (family, friends, context switching — hierarchy fails, RAM explains)
+    🟢 Per-person × per-context nature (universally somatic-confirmed)
+    🟢 5-step body scan mechanism (body-level, observable)
+    🟢 Position vs Aspiration distinction (6 cases verified)
+    🟢 Being Seen = calibration function (functional, observable)
+    🟢 Belonging = cached maps + backing (Social Baseline Theory 🟢)
+    🟢 Cortisol × Status interaction (Whitehall Studies 🟢, Sapolsky 🟢)
+    🟢 Disruption → re-calibrate cycle (Sapolsky data 🟢, observable cross-species)
+    🟢 Ratchet effect (monkeys: Sapolsky 🟢, humans: observable patterns)
 
-  🟡 FRAMEWORK SYNTHESIS (logical, chưa direct test):
+  FRAMEWORK SYNTHESIS (🟡) — logical, not yet directly tested:
 
-  🟡 Compilable Architecture: status = emergent từ general-purpose system (§0)
-  🟡 Compiled / Fresh explicit framing cho status scan (§2.1)
-  🟡 PFC=Lawyer 3 distortion modes trong status domain (§9.5)
-  🟡 Resource Access Map as COMPLETE model (framework synthesis)
-  🟡 3 Modes (Lấy/Trao đổi/Comply) as exhaustive spectrum
-  🟡 Cooperation as dominant mode in modern society (observable, not quantified)
-  🟡 Chunk Dynamics mapping (§10) — Body-Feedback-Mechanism extension, not direct study
-  🟡 Status as meta-parameter gating other params (§12)
-  🟡 MXH mechanism chain (aspiration → gap → cortisol → suppress)
-  🟡 Military as "status optimization" framing
-  🟡 "Thành công nhưng emptiness" multi-causal analysis (§7.3)
-  🟡 Agents as external tools for body-base (Agent.md §12 extension)
+    🟡 Compilable Architecture: status = emergent from general-purpose system (§0)
+    🟡 Compiled / Fresh explicit framing for status scan (§2.1)
+    🟡 PFC=Lawyer 3 distortion modes in the status domain (§9.5)
+    🟡 Resource Access Map as COMPLETE model (framework synthesis)
+    🟡 3 Modes (Take/Exchange/Comply) as exhaustive spectrum
+    🟡 Exchange as dominant mode in modern society (observable, not quantified)
+    🟡 Chunk Dynamics mapping (§10) — Body-Feedback-Mechanism extension, not a direct study
+    🟡 Status as meta-parameter gating other parameters (§12)
+    🟡 Social media mechanism chain (aspiration → gap → cortisol → suppress)
+    🟡 Military as "status optimization" framing
+    🟡 "Successful but empty" multi-causal analysis (§7.3)
+    🟡 Agents as external tools for body-base (Agent-Mechanism.md §12 extension)
+    🟡 Entity-Access gradient = status gradient (2 perspectives, 1 mechanism) (§1.3)
+    🟡 Hardware-Subsidy × status (§1.3) — framework application
+    🟡 By-Product-Scale × status (§1.3) — 3 scales
+    🟡 Firing Modes × status display (§1.3) — 4 modes
 
-  ❌ WHAT WE DON'T KNOW:
+  HYPOTHESIS (🔴):
 
-  ❌ Serotonin = carrier hormone (candidate only, evidence gián tiếp §9.3)
-  ❌ Exact neural circuit cho body scan (amygdala? STS? FFA?)
-  ❌ Status flexibility: hardware (receptor variants) vs training (experience)?
-  ❌ Online status (MXH) = cùng mechanism hay weakened version?
-  ❌ Quantitative: maps mở bao nhiêu % per context?
-  ❌ Disruption recovery time: what predicts duration?
+    🔴 Serotonin = carrier hormone (candidate only, indirect evidence §9.3)
+    🔴 Exact neural circuit for body scan (amygdala? STS? FFA?)
+    🔴 Status flexibility: hardware (receptor variants) vs training (experience)?
+    🔴 Online status (social media) = same mechanism or weakened version?
+    🔴 Quantitative: how much % maps open per context?
+    🔴 Disruption recovery time: what predicts duration?
 ```
 
-### §16.1 — Câu hỏi mở
+### §16.1 — Open questions
 
 ```
-  Q1: Status scan VÔ THỨC — neural circuit chính xác?
-      → Candidate: amygdala, STS (Superior Temporal Sulcus), FFA
-      → Research có nhưng chưa integrate đầy đủ
+  Q1: Status scan UNCONSCIOUS — exact neural circuit?
+      → Candidates: amygdala, STS (Superior Temporal Sulcus), FFA
+      → Research exists but not yet fully integrated
 
-  Q2: Status Flexibility — hardware hay training?
+  Q2: Status Flexibility — hardware or training?
       → Serotonin receptor variants (5-HT1A, 5-HT2A) → hardware range?
-      → Childhood experience → training within range?
-      → Likely cả 2: hardware set range, experience chọn vị trí
+      → Childhood experience → training within the range?
+      → Likely both: hardware sets the range, experience chooses position within it
 
-  Q3: Online Status (MXH) — same or different mechanism?
-      → Likes = status signal? Body respond tương tự face-to-face?
+  Q3: Online Status (social media) — same or different mechanism?
+      → Likes = status signal? Does the body respond as it does face-to-face?
       → Hypothesis: WEAKER per-signal (no body presence)
-        nhưng VOLUME compensation (nhiều signals tích lũy)
-      → Net effect có thể MẠNH hơn face-to-face (ironic)
+        but VOLUME compensation (many signals accumulate)
+      → Net effect may be STRONGER than face-to-face (ironic)
 
   Q4: Disruption recovery — predicting factors?
       → Compiled depth of old maps
       → Availability of alternative access sources
-      → Institutional support (rules for transition)
+      → Institutional support (transition rules)
       → Certainty bias baseline (§9)
-      → Cần: formal model cho recovery trajectory
+      → Needs: formal model for recovery trajectory
 
-  Q5: Status × Imagine-Final → aspiration compile?
-      → Aspiration lặp đủ lâu → compile thành baseline?
+  Q5: Status × Imagine-Final → aspiration compiles?
+      → Aspiration repeated long enough → compiles into a baseline?
       → = Gap→Miss Transition (Body-Feedback-Mechanism §3.3) applied to aspiration
       → If yes: chronic high aspiration → eventual Miss
-      → = "Kỳ vọng cao → thất vọng lớn" = mechanism-level truth
+      → = "High expectations → deep disappointment" = mechanism-level truth
 
-  Q6: Cross-cultural status — universal hay culture-shaped?
-      → §0 evolutionary argument: universal ở foundation level
-      → Culture shapes: WHICH dimensions matter, HOW gap expressed
+  Q6: Cross-cultural status — universal or culture-shaped?
+      → §0 evolutionary argument: universal at the foundational level
+      → Culture shapes: WHICH dimensions matter, HOW gap is expressed
       → Egalitarian cultures: gap EXISTS but expressed subtly
       → Hierarchical cultures: gap EXISTS and expressed explicitly
       → → Foundation universal, expression cultural
@@ -2349,8 +2317,8 @@ FIRING MODES × STATUS (Entity-Valence-Dynamics.md v1.0 §4):
 
 ```
   CORE:
-    → Core-v7.8-Draft.md §8 — Status observation parameter definition
-    → Core-v7.8-Draft.md §9 — Development trajectory
+    → Core-Software.md §8 — Status observation parameter definition
+    → Core-Software.md §9 — Development trajectory
     → Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture (§0 framing)
     → Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh axis (§2.1 Compiled/Fresh)
     → Inter-Body-Mechanism.md v1.0 §7 — PFC=Lawyer (§9.5 distortion)
@@ -2361,17 +2329,17 @@ FIRING MODES × STATUS (Entity-Valence-Dynamics.md v1.0 §4):
     → Body-Feedback-Mechanism.md §4 — Compound mechanism
     → Body-Feedback/03-Reward.md — VTA + opioid 2-level reward
     → Cortisol-Baseline.md v2.0 §3 — 10 touchpoints
-    → Cortisol-Baseline.md v2.0 §4 — Silent cortisol (MXH pathway)
+    → Cortisol-Baseline.md v2.0 §4 — Silent cortisol (social media pathway)
     → Chunk.md v2.3 — Chunk substrate, compilation, hierarchy
-    → Valence-Propagation.md v3.0 — Valence shift, 3 firing modes, hardware-subsidy
+    → Valence-Propagation.md v3.0 — Valence shift, 3 firing modes, Hardware-Subsidy
 
-  NEW CONCEPT FILES (28-session Drill — §1.3):
+  NEW CONCEPT FILES (Concept Cascade — §1.3):
     → Entity-Access.md v1.2 — status = Entity-Access gradient per-entity
     → By-Product-Scale.md v1.0 — status across 3 scales (pair/hub/institutional)
     → Bond-Architecture.md v2.0 — Resonance Decline, firing modes × status display
 
   OBSERVATION PARAMETER FILES:
-    → Observation/Connection.md — §1.3 (4 Cases), §3 (Calibration)
+    → Observation/Connection.md — §7 (4 Cases), §9 (Calibration)
     → Observation/Threat.md — Social threat origin, anticipation loop
     → Observation/Novelty.md — Status gates novelty access (§12.1)
     → Observation/Empathy.md — Self-Pattern-Modeling applied to status reading
@@ -2381,7 +2349,6 @@ FIRING MODES × STATUS (Entity-Valence-Dynamics.md v1.0 §4):
     → Observation/Meaning.md — Status gates meaning access (§12.1)
     → Observation/Autonomy-Hardware.md — Efference copy × status (§12.5)
     → Observation/Autonomy.md — Self-determination × status access
-    → Observation/Liking-Wanting.md — Wanting vs liking in status context
 
   AGENT + SOCIAL FILES:
     → Agent-Mechanism.md v2.1 §12 — Body-need feeder, agents as tools (§0.2)
@@ -2394,77 +2361,15 @@ FIRING MODES × STATUS (Entity-Valence-Dynamics.md v1.0 §4):
     → Feeling.md v2.0 — PFC observation interface
     → Anchor-Schema.md — Trust binding (trust = status stability)
     → Imagine-Final.md — Aspiration as Imagine-Final preview (§7)
-    → Imagine-Final-Evaluation.md — Quality assessment
-    → Somatic-Articulation-Loop.md — Felt sense of status
 
-  BACKUP:
-    → backup/Status-v1.0-backup.md — v1.0 (1,301L, 2026-04-20)
-    → backup/Status-Analysis-v2-v75-era.md — v0 (656L, 2026-03-23)
+  BACKUP (source files):
+    → backup/Status-v1.0-backup.md — v1.0 (1,301 lines, 2026-04-20)
+    → backup/Status-Analysis-v2-v75-era.md — v0 (656 lines, 2026-03-23)
 ```
 
 ---
 
-## Summary
-
-```
-Status = observation parameter: resource access calibration giữa social agents.
-
-⭐ EVOLUTIONARY FOUNDATION:
-  → Social animals chia sẻ resource → cần calibrate ai access gì
-  → Đánh nhau mỗi lần = cost CỰC CAO → pre-calibrate = RẺ hơn nhiều
-  → Body cho REWARD THẬT cho status upgrade vì = real resource access tăng
-  → Cross-species: 350+ triệu năm evolution (lobster → khỉ → người)
-
-⭐ CORE INSIGHT:
-  Status = Resource Access Map (NOT hierarchy rank)
-  → Per-person × per-context: "tôi ACCESS ĐƯỢC GÌ từ AGENT NÀY"
-  → Hierarchy = simplest special case (1 dimension only)
-  → Agents = external tools cho body-base (Agent.md §12)
-
-⭐ MECHANISM:
-  Body scan vô thức (5 bước) → Resource Access Map → 3 modes (Lấy/Trao đổi/Comply)
-  Spectrum: solitary (hổ, 1D) → hierarchy (khỉ, 1D) → multi-dimensional (người)
-  Trao đổi = mode PHỔ BIẾN NHẤT ở người (chuyên môn hóa + positive-sum + flatten)
-
-⭐ DYNAMICS:
-  2 params: Position (body-level, chậm) vs Aspiration (PFC-level, nhanh)
-  Certainty bias nền (serotonin = candidate) — PFC QUYẾT ĐỊNH thực sự
-  Ratchet: dễ lên, khó xuống (evolutionary: grab resource nhanh, giữ resource đã có)
-  Disruption → re-calibrate → ổn định mới (từ đàn khỉ tới quốc gia)
-
-⭐ INTERACTIONS:
-  Chunk dynamics: Shift (re-evaluate) / Miss (absent) / Gap (never had)
-  Cortisol vicious cycle: threat → cortisol → suppress maps → more unmet → spiral
-  Meta-parameter: status GATES access cho Novelty, Connection, Autonomy, Meaning
-  Conflict at scale: status position = resource → overlap → conflict (§13)
-
-⭐ HONEST:
-  Function = proven (cross-species). Hormone = candidate. Exact circuit = unknown.
-  Resource Access Map = framework synthesis (more explanatory than hierarchy).
-  "Thành công nhưng emptiness" = multi-causal (NOT just cortisol suppress).
-
-⭐ v2.1 ADDITIONS:
-  Compilable Architecture: status = emergent từ general-purpose system (§0)
-  Compiled / Fresh: explicit framing cho status scan (§2.1)
-  PFC=Lawyer: 3 distortion modes (fabricate/suppress/amplify) + Domain=Arbiter (§9.5)
-
-⭐ v2.2 ADDITIONS (Concept Cascade):
-  §1.3 NEW: Entity-Access gradient = status gradient (2 perspectives, 1 mechanism)
-  +Hardware-Subsidy × status (Entity-Valence-Dynamics.md v1.0 §5)
-  +By-Product-Scale × status (3 scales: pair/hub/institutional)
-  +Firing Modes × status display (4 modes)
-  Cross-refs: +Entity-Access v1.2, +By-Product-Scale v1.0, +Bond-Architecture v2.0, Valence-Propagation v2.0→v3.0, Agent→Agent-Mechanism v2.1
-```
-
----
-
-> **Version:** 2.2
-> **Lines:** ~2,500
-> **Created:** 2026-04-20
-> **Rewritten:** 2026-04-21
-> **Updated:** 2026-05-17 v2.1
-> **Refined:** 2026-05-23 v2.2 (Concept Cascade)
-> **v1.0 backup:** backup/Status-v1.0-backup.md (1,301L)
-> **v0 backup:** backup/Status-Analysis-v2-v75-era.md (656L)
-> **v7.8 aligned:** ✅ observation parameter, cycle-based, chunk dynamics, evolutionary grounded
-> **v2.2:** ⑰ Entity-Access gradient, ⑱ Hardware-Subsidy, ⑲ By-Product-Scale, ⑳ Firing Modes
+*English translation of Status.md (Vietnamese source, v2.2)*
+*Translation target: English-speaking audience — rewritten for clarity and natural English expression.*
+*All framework vocabulary preserved exactly as defined in the Human Predictive Drive Framework.*
+*"Core-v7.8-Draft.md" references replaced with "Core-Software.md" per translation policy.*

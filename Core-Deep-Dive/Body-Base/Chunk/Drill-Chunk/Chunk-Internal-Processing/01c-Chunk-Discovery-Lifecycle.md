@@ -22,34 +22,34 @@ dependencies:
   - 05-Insight-Tacit-Upgrade.md (insight, Gap 2, H12)
   - Learning-Cycle.md (3 concurrent signals, consolidation)
   - F1 NT6 (verbal-as-handle, label = retrieval path)
-  - Logic-Planning.md (logic đóng gói, AI-assisted planning)
+  - Logic-Planning.md (logic packaging, AI-assisted planning)
   - Somatic-Articulation-Loop.md (body-knowledge → explicit-knowledge)
-  - Chunk.md §5 ("feel mượt ≠ đúng")
+  - Chunk.md §5 ("true smooth ≠ correct")
 plan_note: |
-  File thêm vào F4 do user insight during N+9.
+  File added to F4 due to user insight during N+9.
   User observed: framework building process itself IS the mechanism described.
   Fills gap: framework has ALL pieces (01b, H5, 04, 05, NT6, H12) but
   NO FILE links them into complete macro lifecycle.
   01b (micro) + 01c (macro) = complementary pair.
-language: Tiếng Việt primary + English technical
+language: English
 ---
 
 # 01c — Chunk Discovery Lifecycle
 
-> **File này formalize cơ chế MACRO** — chunk system vận hành thế nào
-> từ tích lũy → vague emergence → label → logic-planning enablement.
-> Companion cho 01b (micro mechanism).
-> 01b: khi 1 chunk fire → chuyện gì xảy ra ở level link.
-> 01c: chunk system runs → chuyện gì emerge ở level hệ thống.
+> **This file formalizes the MACRO mechanism** — how the chunk system operates
+> from accumulation → vague emergence → label → logic-planning enablement.
+> Companion to 01b (micro mechanism).
+> 01b: when 1 chunk fires → what happens at the link level.
+> 01c: chunk system runs → what emerges at the system level.
 
 ---
 
-## §1 — Tại sao file này cần thiết
+## §1 — Why This File Is Needed
 
-### §1.1 — Gap trong framework hiện tại
+### §1.1 — Gap in the current framework
 
 ```
-FRAMEWORK ĐÃ CÓ TẤT CẢ CÁC MẢNH:
+FRAMEWORK ALREADY HAS ALL THE PIECES:
 
   01b §2: Activation probability distribution
   01b §3: Competitive re-linking
@@ -62,41 +62,41 @@ FRAMEWORK ĐÃ CÓ TẤT CẢ CÁC MẢNH:
   F1 NT6: Verbal-as-handle = label is retrieval path, not content
   03 §4:  Anchor prevents decay, label = most versatile anchor
   Learning-Cycle: 3 concurrent signals (reward + fatigue + dissonance)
-  Logic-Planning.md: AI = logic amplifier, "feel đúng → plan đúng"
+  Logic-Planning.md: AI = logic amplifier, "FEEL correctly → PLAN correctly"
   Somatic-Articulation-Loop: body-knowledge → explicit-knowledge
 
-FRAMEWORK CHƯA CÓ:
+FRAMEWORK DOES NOT YET HAVE:
 
-  ❌ MACRO LIFECYCLE linking tất cả mảnh thành 1 model:
+  ❌ MACRO LIFECYCLE linking all pieces into 1 model:
      → Accumulate → Vague → Curious → Clarify → Label → Plan → Repeat
-     → Mỗi bước CÓ mechanism — nhưng chưa ai link chúng
+     → Each step HAS a mechanism — but no file links them together
 
   ❌ CONVERGENCE ZONE concept:
-     → "Vague" ở level mechanism = GÌ?
-     → = Intersection of many activation paths — chưa có node riêng
+     → "Vague" at mechanism level = WHAT exactly?
+     → = Intersection of many activation paths — no dedicated node yet
 
   ❌ LABEL → LOGIC-PLANNING ENABLEMENT:
-     → Label biến chunk từ body-only → body + logic
-     → = "Vé vào cửa" cho planning system — CHƯA formalize rõ
+     → Label transforms chunk from body-only → body + logic
+     → = "Admission ticket" to the planning system — not yet clearly formalized
 
   ❌ Domain-Checked vs Self-Referencing SELECTION PRESSURE:
-     → Chunk.md §5 "mượt giả vs mượt thật" ở individual level
-     → CHƯA nâng lên SYSTEM LEVEL: selection pressure determines outcome
+     → Chunk.md §5 "false smooth vs true smooth" at individual level
+     → NOT YET elevated to SYSTEM LEVEL: selection pressure determines outcome
 
   ❌ DISSONANCE TOLERANCE mechanism:
-     → WHY Domain-Checked chịu dissonance hơn Self-Referencing — CHƯA formalize
+     → WHY Domain-Checked tolerates more dissonance than Self-Referencing — not yet formalized
 
   ❌ POST-DISCOVERY CLEANUP (parsimony gain):
-     → Sau Imagine-Final → simplify → melody smooth hơn — CHƯA formalize
+     → After Imagine-Final → simplify → melody smoother — not yet formalized
 ```
 
-### §1.2 — Vị trí trong F4
+### §1.2 — Position in F4
 
 ```
-01b + 01c = CẶP BỔ SUNG (complementary pair):
+01b + 01c = COMPLEMENTARY PAIR:
 
   01b MICRO:
-    → Zoom IN → 1 chunk fires → activation đi đâu
+    → Zoom IN → 1 chunk fires → activation goes where
     → 3 mechanisms: probability, re-linking, trigger surface
     → = "Engine parts" — how pistons and gears work
 
@@ -105,16 +105,16 @@ FRAMEWORK CHƯA CÓ:
     → 7-step lifecycle + convergence zone + selection pressure
     → = "Engine cycle" — how the car actually drives
 
-  KHÁC FILE 05 §5.1 ("unified cycle"):
+  DISTINCT FROM FILE 05 §5.1 ("unified cycle"):
     → 05 §5.1: accumulate → deepen → generate → share → repeat
-    → = Đúng nhưng THIẾU: convergence zone, label step,
+    → = Correct but MISSING: convergence zone, label step,
         logic-planning enablement, selection pressure, tolerance
     → 01c = FULL lifecycle, 05 §5.1 = abbreviated version
 ```
 
 ---
 
-## §2 — Chunk Discovery Cycle (7 bước)
+## §2 — Chunk Discovery Cycle (7 steps)
 
 ### §2.1 — Full lifecycle model
 
@@ -134,15 +134,15 @@ FRAMEWORK CHƯA CÓ:
   │        │                ↓                                      │
   │        └────────── ⑥ LOGIC-PLANNING ENABLEMENT                │
   │                                                                │
-  │   Cycle tự cường hóa: mỗi vòng = deeper + wider               │
+  │   Self-reinforcing cycle: each iteration = deeper + wider      │
   │   Same mechanism at ALL scales: child, scientist, civilization │
   └────────────────────────────────────────────────────────────────┘
 ```
 
-### §2.2 — Bước ① ACCUMULATE
+### §2.2 — Step ① ACCUMULATE
 
 ```
-STEP 1 — TÍCH LŨY CHUNKS:
+STEP 1 — ACCUMULATE CHUNKS:
 
   MECHANISM:
     → F1: body-input compile raw experience → chunks
@@ -151,60 +151,60 @@ STEP 1 — TÍCH LŨY CHUNKS:
     → Library GROWS over time
 
   KEY PROPERTIES:
-    → Mỗi chunk mới = new node trong network
-    → Mỗi node mới = new potential links (01b: spreading activation)
+    → Each new chunk = new node in the network
+    → Each new node = new potential links (01b: spreading activation)
     → Links = probability-weighted (01b §2)
-    → = Database expand → MORE possible connections
+    → = Database expands → MORE possible connections
 
   PRECONDITION FOR CYCLE:
-    → ĐỦ chunks → trigger surface đủ lớn (01b §4)
-    → ĐỦ links → activation CAN converge
-    → KHÔNG ĐỦ chunks → no convergence → no vague detection → no cycle
-    → = "Trẻ sơ sinh không có vague sensing" — vì database chưa đủ
+    → ENOUGH chunks → trigger surface large enough (01b §4)
+    → ENOUGH links → activation CAN converge
+    → INSUFFICIENT chunks → no convergence → no vague detection → no cycle
+    → = "Newborns have no vague sensing" — because database not yet large enough
 
-  → = Step ① cung cấp RAW MATERIAL cho step ②
+  → = Step ① provides RAW MATERIAL for step ②
 ```
 
-### §2.3 — Bước ② VAGUE EMERGENCE (Convergence Zone)
+### §2.3 — Step ② VAGUE EMERGENCE (Convergence Zone)
 
 ```
-STEP 2 — CÁI LỜ MỜ XUẤT HIỆN:
+STEP 2 — VAGUE SENSE EMERGES:
 
-  ⭐ CONVERGENCE ZONE = cái mà PFC detect là "vague":
+  ⭐ CONVERGENCE ZONE = what PFC detects as "vague":
 
   MECHANISM:
-    → Nhiều chunks fire (via Type 1 contamination, hoặc PFC hold context)
-    → Spreading activation (01b §2) propagate OUTWARD từ mỗi chunk
-    → Activation từ NHIỀU chunks OVERLAP ở một "vùng"
-    → Vùng này:
-      → KHÔNG PHẢI 1 chunk đã compiled
-      → MÀ LÀ intersection of many activation paths
-      → = "Giao lộ" nơi nhiều đường gặp nhau — chưa có tên đường
+    → Multiple chunks fire (via Type 1 contamination, or PFC holding context)
+    → Spreading activation (01b §2) propagates OUTWARD from each chunk
+    → Activation from MANY chunks OVERLAPS in one "zone"
+    → This zone:
+      → IS NOT 1 compiled chunk
+      → IS the intersection of many activation paths
+      → = "Crossroads" where many paths meet — no street name yet
 
   PFC EXPERIENCE:
-    → PFC detect: "có gì đó ở đây" (activation exceeds threshold)
-    → PFC KHÔNG thể identify: "cái gì cụ thể" (no single source)
+    → PFC detects: "something is here" (activation exceeds threshold)
+    → PFC CANNOT identify: "what specifically" (no single source)
     → = H5 multi-weak-signal convergence (02 §2.2):
       → Many weak signals → PFC cannot isolate individual source
       → But AGGREGATE signal exceeds awareness threshold
     → Body: vague feeling — "dimly sensing", "something feels off", "there's something"
 
-  CẢM NHẬN TỪ BÊN TRONG (first-person phenomenology):
-    → "Thấy nó ở hướng đó" — visual-spatial approximation
-    → "Gần như hình ảnh đó" — visual chunk approximate match
-    → "Gần như cái cảm giác đó" — somatic approximate match
-    → = PFC thử TẤT CẢ modalities để "nhìn" convergence zone
-    → Mỗi modality cho 1 GÓC NHÌN GẦN ĐÚNG — không cái nào chính xác
-    → Nhưng TẤT CẢ cùng trỏ về cùng 1 vùng
-    → = TRIANGULATION: nhiều approximate → xác định vị trí
+  FIRST-PERSON EXPERIENCE:
+    → "See it in that direction" — visual-spatial approximation
+    → "Almost like that image" — visual chunk approximate match
+    → "Almost like that feeling" — somatic approximate match
+    → = PFC tries ALL modalities to "look at" the convergence zone
+    → Each modality gives 1 APPROXIMATE PERSPECTIVE — none is exact
+    → But ALL point to the same zone
+    → = TRIANGULATION: many approximates → locate the zone
 
   CONVERGENCE ZONE PROPERTIES:
-    ① KHÔNG CÓ label → PFC không "nắm" được rõ ràng
-    ② KHÔNG CÓ single source → cannot point to specific chunk
-    ③ CÓ "vị trí" trong semantic space (intersection of paths)
-    ④ CÓ "intensity" (how many paths converge, how strong each)
-    ⑤ CÓ "clarity gradient" — rõ dần khi more chunks fire coherently
-    ⑥ CÓ "direction" — approximate sense of where it "is"
+    ① NO label → PFC cannot grasp clearly
+    ② NO single source → cannot point to specific chunk
+    ③ HAS a "location" in semantic space (intersection of paths)
+    ④ HAS "intensity" (how many paths converge, how strong each)
+    ⑤ HAS "clarity gradient" — becomes clearer as more chunks fire coherently
+    ⑥ HAS "direction" — approximate sense of where it "is"
 
   ⭐ CONVERGENCE ZONE vs EXISTING CONCEPTS:
     → Gendlin "felt sense" = phenomenological description of convergence zone
@@ -214,7 +214,7 @@ STEP 2 — CÁI LỜ MỜ XUẤT HIỆN:
       = the PLACE in semantic space where activation converges
         before a dedicated chunk/label exists for it
 
-  → = Step ② cung cấp TARGET cho step ③
+  → = Step ② provides TARGET for step ③
 
 
 🟢 EVIDENCE SUPPORT:
@@ -227,77 +227,77 @@ STEP 2 — CÁI LỜ MỜ XUẤT HIỆN:
     (Brown & McNeill 1966 🟢: "know I know it but can't say it")
 ```
 
-### §2.4 — Bước ③ CURIOSITY DRIVE
+### §2.4 — Step ③ CURIOSITY DRIVE
 
 ```
-STEP 3 — TÒ MÒ TỰ NHIÊN:
+STEP 3 — NATURAL CURIOSITY:
 
   MECHANISM:
     → Convergence zone detected → NOVELTY signal (VTA fires)
-    → VTA measure DELTA (Novelty.md): "something new in database"
-    → Dopamine release → approach motivation → "muốn biết!"
+    → VTA measures DELTA (Novelty.md): "something new in database"
+    → Dopamine release → approach motivation → "want to know!"
     → = Novelty-drive PULLS toward convergence zone
 
-  ⭐ CRITICAL CONDITION — TÍCH CỰC vs TIÊU CỰC:
+  ⭐ CRITICAL CONDITION — POSITIVE vs NEGATIVE:
 
-    IF tích lũy TÍCH CỰC (không bị ép, Direction A natural):
+    IF accumulated POSITIVELY (not forced, Direction A natural):
       → Novelty-drive DOMINANT → approach → explore → clarify
       → Body: excited, curious, energized
-      → = Trẻ con tích cực: "thấy gì cũng an toàn và thú vị"
-      → = Nhà khoa học đam mê: "vào rừng thấy sinh vật gì cũng thú vị"
-      → = Framework builder: "thấy điểm hội tụ → MUỐN tìm hiểu"
+      → = Children in positive environment: "everything feels safe and interesting"
+      → = Passionate scientist: "walk into the forest and every creature is fascinating"
+      → = Framework builder: "sees a convergence zone → WANTS to explore"
 
-    IF tích lũy TIÊU CỰC (bị ép, Direction B forced under threat):
+    IF accumulated NEGATIVELY (forced, Direction B under threat):
       → Threat-drive CAN OVERRIDE novelty
-      → Body: anxious, avoidant, "không muốn nghĩ về nó"
-      → = Học sinh bị ép: "thấy toán vague → SỢ, không phải TÒ MÒ"
+      → Body: anxious, avoidant, "don't want to think about it"
+      → = Students under pressure: "sees math-vague → AFRAID, not CURIOUS"
       → = F1 NT7: threat-compiled chunks → threat direction → avoid
-      → = Cycle CHẶN ở step ③ — vague detected but NOT pursued
+      → = Cycle BLOCKED at step ③ — vague detected but NOT pursued
 
-    → = Novelty vs Threat DIRECTION (01b §4.3, F1 NT7) xác định
-        cycle TIẾP hay DỪNG
+    → = Novelty vs Threat DIRECTION (01b §4.3, F1 NT7) determines
+        whether cycle CONTINUES or STOPS
 
   3 SCALES OF CURIOSITY:
 
-    MICRO (trẻ con, phút-giờ):
-      → Thấy con bọ → vague "khác cái mình biết" → tò mò
-      → Chạm, nhìn, hỏi "con gì?" → clarify → "bọ rùa!" → label
+    MICRO (children, minutes-hours):
+      → Sees a bug → vague "different from what I know" → curious
+      → Touch, look, ask "what is this?" → clarify → "ladybug!" → label
       → Cycle: minutes to hours
 
-    MESO (nhà khoa học, tháng-năm):
-      → Thấy anomaly trong data → vague "cái gì đó không đúng"
+    MESO (scientist, months-years):
+      → Sees anomaly in data → vague "something isn't right"
       → Investigate, design experiments → clarify → publish
       → Cycle: months to years
 
-    EXTREME (Einstein, thập kỷ):
-      → Thấy Newton physics vague sai → dissonance TÍCH LŨY
+    EXTREME (Einstein, decades):
+      → Sees Newton physics as vaguely wrong → dissonance ACCUMULATES
       → Decades of body simulation + deliberate search
-      → Grossmann share math tools (F3 external catalyst)
+      → Grossmann shares math tools (F3 external catalyst)
       → Insight → E=mc² → self-verify → peer verify → community verify
       → Cycle: decades. Reward: paradigm shift.
 
-  → = Step ③ cung cấp MOTIVATION cho step ④
+  → = Step ③ provides MOTIVATION for step ④
 ```
 
-### §2.5 — Bước ④ CLARIFY
+### §2.5 — Step ④ CLARIFY
 
 ```
-STEP 4 — LÀM RÕ:
+STEP 4 — CLARIFY:
 
   MECHANISM — 3 strategies (often combined):
 
     STRATEGY A — DELIBERATE SEARCH (Type 4):
-      → PFC hold convergence zone (approximate) + search terms
+      → PFC holds convergence zone (approximate) + search terms
       → Type 4 deliberate linking: try A+B → body vote → try A+C → body vote
       → Each body vote = information: closer / further from convergence zone
-      → = "Thử từng hướng, xem hướng nào body thấy gần hơn"
-      → = Einstein: body simulation wrongness → try solutions → body check
+      → = "Try each direction, see which direction the body feels is closer"
+      → = Einstein: body simulation of wrongness → try solutions → body check
 
     STRATEGY B — DESCRIBE BOUNDARIES (triangulation):
       → CANNOT describe convergence zone directly (no label yet)
-      → CAN describe chunks XUNG QUANH nó
+      → CAN describe chunks AROUND it
       → = Describe trigger surface from OUTSIDE
-      → = "Vẽ biên của cái mà chưa vẽ được bên trong"
+      → = "Draw the boundary of what cannot yet be drawn inside"
 
       ┌──────────────────────────────────────────────────┐
       │                                                  │
@@ -307,169 +307,170 @@ STEP 4 — LÀM RÕ:
       │                ║   ZONE   ║                       │
       │   chunk C ──→  ╚══════════╝  ←── chunk F         │
       │                                                  │
-      │   Mô tả A, B, C, D, E, F từ MỌI GÓC ĐỘ         │
-      │   → Suy ra trung tâm từ biên                     │
-      │   = Giống mô tả hố đen: không nhìn trực tiếp,   │
-      │     nhìn hiệu ứng xung quanh → suy ra trung tâm │
+      │   Describe A, B, C, D, E, F from ALL ANGLES      │
+      │   → Infer the center from the boundary           │
+      │   = Like describing a black hole: cannot look    │
+      │     directly; observe surrounding effects        │
+      │     → infer the center                           │
       └──────────────────────────────────────────────────┘
 
-      → Mô tả rời rạc ban đầu là BÌNH THƯỜNG
-      → "Nghĩ gì nói đấy, không có điểm chính giữa"
-      → = Đang describe biên, chưa CÓ trung tâm để describe
+      → Initially scattered description is NORMAL
+      → "Say whatever comes to mind, no center point yet"
+      → = Describing the boundary; the center does not yet EXIST to describe
       → = Direction A: body leads, articulation follows
 
     STRATEGY C — EXTERNAL CATALYST (AI or collaborator):
-      → Share fragmented descriptions → external processor tổng hợp
-      → External processor: tìm logical structure GIỮA các fragments
-      → Present structured output → human READ → body CHECK
+      → Share fragmented descriptions → external processor synthesizes
+      → External processor: finds logical structure BETWEEN fragments
+      → Presents structured output → human READS → body CHECKS
 
-      MECHANISM chi tiết:
-        ① Human mô tả chunks A,B,C,D,E,F (rời rạc)
-        ② External (AI/collaborator) detect:
-           → A+B+C cùng nói về property X
-           → D+E+F cùng nói về property Y
-           → "Có vẻ X và Y là 2 mặt của concept Z"
+      Detailed mechanism:
+        ① Human describes chunks A, B, C, D, E, F (fragmented)
+        ② External (AI/collaborator) detects:
+           → A+B+C all say something about property X
+           → D+E+F all say something about property Y
+           → "It seems X and Y are 2 sides of concept Z"
            → = Type 4 deliberate linking at high speed
-        ③ Human ĐỌC output → spreading activation:
-           → Chunks re-activated CÙNG LÚC trong structured order
+        ③ Human READS output → spreading activation:
+           → Chunks re-activated SIMULTANEOUSLY in structured order
            → Label candidate "Z" = new activation path
-           → Convergence zone nhận STRONGER signal (coherent firing)
-           → Body vote: smooth → "đúng!" / resist → "gần nhưng chưa"
+           → Convergence zone receives STRONGER signal (coherent firing)
+           → Body vote: smooth → "yes!" / resist → "close but not quite"
         ④ Iterate: refine → body check → refine → body check...
         ⑤ UNTIL: label STABLE (body smooth + logic check + no better alternative)
 
-      → = Somatic-Articulation Loop (Somatic-Articulation-Loop) WITH EXTERNAL AMPLIFIER
-      → AI era: AI = logic amplifier cho process này
+      → = Somatic-Articulation Loop WITH EXTERNAL AMPLIFIER
+      → AI era: AI = logic amplifier for this process
       → Pre-AI: collaborator, mentor, writing = same function, slower
       → 🟢 Consistent with: Vygotsky Zone of Proximal Development (1978)
         → External support enables what individual cannot yet do alone
 
-  ⭐ TẠI SAO ĐỌC LẠI THẤY RÕ HƠN:
+  ⭐ WHY RE-READING MAKES IT CLEARER:
 
-    Khi đọc structured text:
-      → Chunks re-fire CÙNG LÚC (thay vì rời rạc)
-      → Re-fire trong STRUCTURED ORDER (thay vì random)
+    When reading structured text:
+      → Chunks re-fire SIMULTANEOUSLY (instead of scattered)
+      → Re-fire in STRUCTURED ORDER (instead of random)
       → + Label candidate added = new activation path
-      → = Coherent firing → convergence zone nhận aggregated signal
+      → = Coherent firing → convergence zone receives aggregated signal
       → = Signal EXCEEDS PFC observation threshold
-      → = "Rõ hơn" = not new information — same chunks, better organized
+      → = "Clearer" = not new information — same chunks, better organized
 
     → = H5 applied: signal COUNT same, signal COHERENCE increased
     → = Why writing clarifies thinking (not just for others — for writer too)
     → 🟢 Writing-to-learn effect (Bangert-Drowns et al. 2004)
 
 
-  → = Step ④ cung cấp DEFINITION cho step ⑤
+  → = Step ④ provides DEFINITION for step ⑤
 ```
 
-### §2.6 — Bước ⑤ LABEL / ANCHOR
+### §2.6 — Step ⑤ LABEL / ANCHOR
 
 ```
-STEP 5 — GÁN TÊN:
+STEP 5 — ASSIGN LABEL:
 
   MECHANISM:
 
-  KHI convergence zone ĐỦ CLEAR → PFC search verbal library (H12 Gap 2):
+  WHEN convergence zone SUFFICIENTLY CLEAR → PFC searches verbal library (H12 Gap 2):
 
     OUTCOME A — APPROXIMATE MATCH (metaphor):
-      → PFC tìm label gần: "nó giống như X"
+      → PFC finds closest label: "it's like X"
       → = Metaphor = best available approximation
       → = Lakoff & Johnson 1980: abstract concepts via concrete metaphor
-      → Label GẦN ĐÚNG nhưng KHÔNG CHÍNH XÁC → có thể mislead
+      → Label APPROXIMATELY RIGHT but NOT EXACT → can mislead
 
     OUTCOME B — DESCRIPTION:
-      → PFC compose: "nó là cái mà khi A thì B xảy ra"
-      → = Dài, nhưng chính xác hơn metaphor
+      → PFC composes: "it is what happens when A causes B"
+      → = Long, but more accurate than metaphor
       → = Description = verbose but accurate
 
     OUTCOME C — NEW TERM (coin word):
-      → Khi metaphor mislead + description quá dài → TẠO TỪ MỚI
-      → = H12: "gaslight", "doomscroll", "ghosting" = experiences trước khi có từ
-      → = Framework: "Imagine-Final", "Body-Base", "Domain" = concepts trước khi có label
+      → When metaphor misleads + description too long → COIN NEW TERM
+      → = H12: "gaslight", "doomscroll", "ghosting" = experiences that existed before the words
+      → = Framework: "Imagine-Final", "Body-Base", "Domain" = concepts that existed before the labels
 
   LABEL SELECTION PROCESS (iterative):
 
-    ① First attempt: thường metaphor hoặc description ("cái hướng đi ấy")
-    ② Body check: "từ này đủ capture ý nghĩa không?"
+    ① First attempt: usually metaphor or description ("that direction there")
+    ② Body check: "does this word capture the meaning?"
        → Smooth → keep
-       → Resist → "gần nhưng thiếu cái gì đó"
+       → Resist → "close but missing something"
     ③ Iterate: try different labels → body check each
-    ④ Sometimes RENAME: "từ cũ gây hiểu lầm, đổi tên"
-       → = Framework experience: nhiều lần thay tên trước khi ổn định
-    ⑤ STABILIZE: khi body smooth + logic check + no better alternative
-       → Label = DONE. Không cần đổi nữa.
+    ④ Sometimes RENAME: "old word was misleading, rename"
+       → = Framework experience: renamed multiple times before stabilizing
+    ⑤ STABILIZE: when body smooth + logic check + no better alternative
+       → Label = DONE. No need to change.
 
-  ⭐ VÌ SAO LABEL CẦN "ĐÚNG" (không phải label nào cũng được):
+  ⭐ WHY THE LABEL MUST BE "RIGHT" (not just any label):
 
-    Label SAI → link SAI → mislead future reasoning:
-      → Ví dụ: gọi "cortisol" = "stress hormone"
-      → = Tạo link [cortisol] → [xấu, giảm đi]
-      → = WRONG: cortisol là sustainer, có cả novelty-cortisol tích cực
-      → = Label mislead → framework-level error
+    WRONG label → WRONG links → misleads future reasoning:
+      → Example: calling "cortisol" = "stress hormone"
+      → = Creates link [cortisol] → [bad, reduce it]
+      → = WRONG: cortisol is a sustainer; positive novelty-cortisol also exists
+      → = Label misleads → framework-level error
 
-    Label ĐÚNG → link ĐÚNG → support future reasoning:
-      → Ví dụ: "Imagine-Final" captures: tưởng tượng (imagine) + điểm cuối (final)
-      → = Tạo link [Imagine-Final] → [hướng đi, đích, không phải quá trình]
-      → = ĐÚNG: concept IS about the end-point of imagination
+    RIGHT label → RIGHT links → supports future reasoning:
+      → Example: "Imagine-Final" captures: imagine (imagine) + endpoint (final)
+      → = Creates link [Imagine-Final] → [direction, endpoint, not process]
+      → = CORRECT: concept IS about the end-point of imagination
       → = Label SUPPORTS correct reasoning about concept
 
     → = Label = not just anchor — label SHAPES future chunk connections
     → = Moderate Whorfian (F1 NT6 §5.6): label DOES NOT change content
-        nhưng DOES shape access patterns + reasoning paths
+        but DOES shape access patterns + reasoning paths
     → = Choosing right label = critical for framework quality
 
 
-  → = Step ⑤ cung cấp TOOL cho step ⑥
+  → = Step ⑤ provides TOOL for step ⑥
 ```
 
-### §2.7 — Bước ⑥ LOGIC-PLANNING ENABLEMENT
+### §2.7 — Step ⑥ LOGIC-PLANNING ENABLEMENT
 
 ```
-STEP 6 — CHUNK THAM GIA LOGIC-PLANNING:
+STEP 6 — CHUNK PARTICIPATES IN LOGIC-PLANNING:
 
-  ⭐ ĐÂY LÀ TRANSITION MÀ FRAMEWORK CHƯA FORMALIZE RÕ:
+  ⭐ THIS IS THE TRANSITION THE FRAMEWORK HAS NOT YET CLEARLY FORMALIZED:
 
-  CHUNK TRƯỚC KHI CÓ LABEL:
-    → Exists ở convergence zone level
-    → CÓ THỂ:
+  CHUNK BEFORE LABELING:
+    → Exists at convergence zone level
+    → CAN:
       → Influence body vote (Direction A: body feels convergence)
-      → Fire weakly khi surrounding chunks active
+      → Fire weakly when surrounding chunks active
       → Produce vague feeling ("dimly sensing", "something feels off")
-    → KHÔNG THỂ:
-      → Hold rõ ràng trong WM (vague = hard to hold, slip away)
+    → CANNOT:
+      → Be held clearly in WM (vague = hard to hold, slips away)
       → Type 4 deliberate chain ("connect this vague sense with that" = impossible)
-      → Communicate cho người khác ("tôi thấy cái gì đó nhưng...")
-      → Cross-reference ổn định với concepts khác
-    → = Chunk tồn tại nhưng KHÔNG tham gia logic-planning
+      → Be communicated to others ("I sense something but...")
+      → Cross-reference stably with other concepts
+    → = Chunk exists but DOES NOT participate in logic-planning
 
-  CHUNK SAU KHI CÓ LABEL:
+  CHUNK AFTER LABELING:
     → Label = compact token (Miller 1956 chunking)
-    → CÓ THỂ:
+    → CAN:
       → WM hold: "Imagine-Final" = 1 slot = entire concept + properties
-      → Type 4 chain: "Imagine-Final + Body-Base + Domain → suy ra..."
-      → Communicate: "tôi nói Imagine-Final, bạn hiểu tôi nói gì"
-      → Cross-reference: stable link với labels khác → network grows
+      → Type 4 chain: "Imagine-Final + Body-Base + Domain → therefore..."
+      → Communicate: "I say Imagine-Final, you know what I mean"
+      → Cross-reference: stable link with other labels → network grows
       → PFC manipulate: compare, contrast, combine, decompose
-    → = Chunk THAM GIA logic-planning
+    → = Chunk PARTICIPATES IN logic-planning
 
-  ⭐ LABEL = "VÉ VÀO CỬA" cho planning system:
+  ⭐ LABEL = "ADMISSION TICKET" to the planning system:
 
-    TRƯỚC label: chunk influence via body ONLY (Direction A)
-      → "Tôi cảm thấy có cái gì đó nhưng không nói được"
+    BEFORE label: chunk influences via body ONLY (Direction A)
+      → "I feel there's something but cannot articulate it"
       → Body knows → PFC cannot USE it deliberately
 
-    SAU label: chunk influence via body + logic (Direction A + B)
-      → "Imagine-Final → có nghĩa là X → kết hợp với Y → suy ra Z"
+    AFTER label: chunk influences via body + logic (Direction A + B)
+      → "Imagine-Final → means X → combined with Y → therefore Z"
       → Body still knows + PFC can now REASON about it
 
-    → = Label KHÔNG thay đổi content (NT6: label ≠ content)
-    → = Label THAY ĐỔI accessibility:
+    → = Label DOES NOT change content (NT6: label ≠ content)
+    → = Label CHANGES accessibility:
         → Body access: same (always had it)
         → PFC access: UNLOCKED (verbal handle enables hold + chain + share)
         → Logic-planning access: UNLOCKED (can participate in Type 4 chains)
 
   AI ERA IMPLICATION:
-    → Logic-Planning.md: "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng"
+    → Logic-Planning.md: "Humans need to FEEL correctly → AI will help PLAN correctly"
     → Step ⑥ = WHERE AI BECOMES MOST USEFUL:
       → Human labels concept → AI can now REASON about it
       → AI extends Type 4 chains FAR beyond human WM capacity
@@ -481,44 +482,44 @@ STEP 6 — CHUNK THAM GIA LOGIC-PLANNING:
       → = AI: step ⑥ amplification (plan with labeled chunks)
 
 
-  → = Step ⑥ cung cấp NEW CHUNKS cho step ⑦
+  → = Step ⑥ provides NEW CHUNKS for step ⑦
 ```
 
-### §2.8 — Bước ⑦ REPEAT (deeper)
+### §2.8 — Step ⑦ REPEAT (deeper)
 
 ```
-STEP 7 — VÒNG TIẾP (deeper + wider):
+STEP 7 — NEXT ITERATION (deeper + wider):
 
   MECHANISM:
-    → Label mới = new chunk in library (back to step ①)
+    → New label = new chunk in library (back to step ①)
     → New chunk → new trigger surface (01b §4)
     → New links possible → new convergence zones CAN emerge
-    → = Cycle REPEAT
+    → = Cycle REPEATS
 
   SELF-REINFORCING PROPERTIES:
 
-    ① MẠNH HƠN mỗi vòng:
+    ① STRONGER with each cycle:
        → More chunks → more potential convergence zones
        → More labels → more logic-planning capability
        → More logic-planning → more structured exploration
        → = Exponential growth potential
 
-    ② SÂU HƠN mỗi vòng:
+    ② DEEPER with each cycle:
        → Each cycle: convergence zone was AT current frontier
        → After label: frontier MOVES FORWARD
        → Next convergence zone: at NEW frontier (deeper)
-       → = "Hiểu A → thấy B vague → hiểu B → thấy C vague..."
+       → = "Understand A → see B as vague → understand B → see C as vague..."
 
-    ③ RỘNG HƠN mỗi vòng:
+    ③ WIDER with each cycle:
        → Cross-domain chunks → cross-domain convergence zones
-       → = "Hiểu physics + hiểu philosophy → thấy vague ở GIAO ĐIỂM"
+       → = "Understand physics + understand philosophy → see something vague at the INTERSECTION"
        → = Einstein: physics + math + philosophy → spacetime insight
 
   CIVILIZATION-LEVEL CYCLE:
     → Individual insight → label → publish (F3 Direction B)
-    → Community receive → install → THEIR chunks grow
+    → Community receives → installs → THEIR chunks grow
     → Community members detect NEW convergence zones
-    → = "Đứng trên vai người khổng lồ" = inherit labeled chunks → extend frontier
+    → = "Standing on the shoulders of giants" = inherit labeled chunks → extend frontier
     → = H12: language GROWS because internal processing outpaces vocabulary
     → = Culture = accumulated labeled chunks → shared logic-planning substrate
 
@@ -560,29 +561,29 @@ STEP 7 — VÒNG TIẾP (deeper + wider):
   → = With label: concept can influence via BOTH
 ```
 
-### §3.2 — Tại sao điều này quan trọng cho framework
+### §3.2 — Why This Matters for the Framework
 
 ```
 FRAMEWORK-LEVEL IMPORTANCE:
 
-  ① GIẢI THÍCH GAP GIỮA "BIẾT" VÀ "DÙNG ĐƯỢC":
-     → Expert "biết" many things tacitly (05 §2: compiled below PFC)
+  ① EXPLAINS THE GAP BETWEEN "KNOWING" AND "BEING ABLE TO USE":
+     → Expert "knows" many things tacitly (05 §2: compiled below PFC)
      → Expert CANNOT use tacit knowledge in deliberate planning
      → UNTIL: tacit knowledge gets labeled → enters planning system
-     → = "Biết mà không dùng được" = knows body-level, lacks label
+     → = "Knowing but unable to use" = knows at body level, lacks label
 
-  ② GIẢI THÍCH TẠI SAO FEELING LITERACY QUAN TRỌNG:
+  ② EXPLAINS WHY FEELING LITERACY MATTERS:
      → Feelings = body signals (convergence zones activated)
      → WITHOUT label: feelings influence decisions unconsciously
-     → WITH label ("lo lắng", "tò mò", "bất an"):
+     → WITH label ("anxiety", "curiosity", "unease"):
        → PFC CAN hold → CAN reason about → CAN manage
      → = Feeling literacy = LABELING feelings → entering planning system
-     → = "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng"
+     → = "Humans need to FEEL correctly → AI will help PLAN correctly"
        → FEEL = detect convergence zones
        → Label = transform into plannable concepts
        → PLAN = AI amplify logic on labeled concepts
 
-  ③ GIẢI THÍCH TẠI SAO FRAMEWORK CẦN PRECISE LABELS:
+  ③ EXPLAINS WHY THE FRAMEWORK NEEDS PRECISE LABELS:
      → Framework label "Imagine-Final" captures concept precisely
      → Once labeled: CAN chain with Body-Base, Domain, Novelty, Threat...
      → = Each framework term = labeled convergence zone
@@ -594,23 +595,23 @@ FRAMEWORK-LEVEL IMPORTANCE:
 ### §3.3 — 2 fates of UNLABELED convergence zone
 
 ```
-⭐ IF CONVERGENCE ZONE KHÔNG ĐƯỢC LABEL:
+⭐ IF CONVERGENCE ZONE IS NOT LABELED:
 
-  FATE A — PERSISTENT VAGUE (nếu surrounding chunks vẫn active):
+  FATE A — PERSISTENT VAGUE (if surrounding chunks remain active):
 
     → Surrounding chunks still being used (working on related problems)
     → Convergence zone keeps getting activation
     → PFC: persistent vague signal → "vague discomfort"
     → = 04 Thread 10: persistent signal = HIGH ACCURACY
-    → Body INSISTS "có gì đó ở đây" → will NOT let go
-    → = Dissonance duy trì → motivate to KEEP SEARCHING for label
-    → = "Khó chịu" = body's way of saying "LABEL THIS — it's important"
+    → Body INSISTS "something is here" → will NOT let go
+    → = Dissonance persists → motivates to KEEP SEARCHING for label
+    → = "Uncomfortable" = body's way of saying "LABEL THIS — it's important"
 
     → POSITIVE: drives discovery (if tolerance sufficient)
     → NEGATIVE: drains cognitive resources (if label not found)
     → = Einstein's YEARS of vague wrongness → eventually labeled as "spacetime"
 
-  FATE B — FORGOTTEN (nếu surrounding chunks deactivate):
+  FATE B — FORGOTTEN (if surrounding chunks deactivate):
 
     → Switch to different work → surrounding chunks deactivate
     → Convergence zone no longer receiving activation
@@ -618,9 +619,9 @@ FRAMEWORK-LEVEL IMPORTANCE:
     → Convergence zone "dissolves":
       → NOT deleted — underlying chunks still exist
       → Activation too weak to reach PFC threshold
-      → = "Quên" = retrieval paths decay (Chunk.md: quên ≠ mất)
+      → = "Forgotten" = retrieval paths decay (Chunk.md: forgetting ≠ deleted)
     → CAN return later: if surrounding chunks reactivated
-      → "Ồ! Nhớ rồi! Hôm đó mình đã nghĩ tới cái gì đó..."
+      → "Oh! Now I remember! That day I was thinking about something..."
       → = Tip-of-concept phenomenon (similar to tip-of-tongue)
     → 🟢 Consistent with: context-dependent memory (Godden & Baddeley 1975)
 
@@ -629,10 +630,10 @@ FRAMEWORK-LEVEL IMPORTANCE:
     → Label = INDEPENDENT retrieval path to convergence zone
     → Even if surrounding chunks deactivate:
       → Label "Imagine-Final" remains accessible via verbal system
-      → Speaking/reading label → reactivate convergence zone
-      → = "Gọi tới Imagine-Final là hiểu rõ ý nghĩa và các thuộc tính"
+      → Speaking/reading label → reactivates convergence zone
+      → = "Calling up Imagine-Final immediately activates the full concept and its properties"
     → = Anchor TYPE: verbal = most versatile (H3)
-    → = "Không sợ mất, không sợ quên"
+    → = "No fear of losing it, no fear of forgetting"
     → = Label = insurance against Fate B
 
     → Label also RESOLVES Fate A:
@@ -644,40 +645,42 @@ FRAMEWORK-LEVEL IMPORTANCE:
 ### §3.4 — Logic as domain real property
 
 ```
-⭐ TẠI SAO AI + HUMAN CÓ THỂ CÙNG TÌM LABEL:
+⭐ WHY AI + HUMAN CAN FIND LABELS TOGETHER:
 
   USER INSIGHT:
-    "logic là cơ chế của domain real, nên có thể có 
+    "logic là cơ chế của domain real, nên có thể có
      những hành vi triển khai tương tự"
+    [English: "logic is the mechanism of the real domain, so there can be
+     similar implementation behaviors"]
 
   FRAMEWORK ANALYSIS:
 
-    Logic = STRUCTURAL RELATIONSHIPS trong domain real:
-      → "Nếu A → B, và B → C, thì A → C" = đúng BẤT KỂ substrate
-      → = Logic KHÔNG thuộc về brain hay AI
-      → = Logic THUỘC VỀ domain real → ai cũng phải tuân theo
-      → = "2+2=4" đúng cho neurons, transistors, bàn tính, ngón tay
+    Logic = STRUCTURAL RELATIONSHIPS in the real domain:
+      → "If A → B, and B → C, then A → C" = true REGARDLESS OF substrate
+      → = Logic does NOT belong to brain or AI
+      → = Logic BELONGS TO the real domain → everyone must follow it
+      → = "2+2=4" is true for neurons, transistors, abacus, fingers
 
-    Human brain + AI = KHÁC substrate HOÀN TOÀN:
+    Human brain + AI = COMPLETELY DIFFERENT substrate:
       → Human: biological neurons, Hebbian LTP, body signals, embodied
       → AI: transformer weights, attention mechanism, token prediction
-      → = Khác "hardware", khác "cơ chế vận hành"
+      → = Different "hardware", different "operating mechanism"
 
-    NHƯNG CẢ HAI ĐỀU OPERATE ON CÙNG DOMAIN REAL:
-      → Human detect convergence zone → discover logical structure
-      → AI process token patterns → discover logical structure
-      → CẢ HAI converge on SAME logical structure
-      → BECAUSE logic REFLECTS domain real, not substrate
+    BUT BOTH OPERATE ON THE SAME REAL DOMAIN:
+      → Human detects convergence zone → discovers logical structure
+      → AI processes token patterns → discovers logical structure
+      → BOTH converge on SAME logical structure
+      → BECAUSE logic REFLECTS real domain, not substrate
 
     → = WHY AI CAN HELP HUMAN LABEL:
-      → AI detect logical structure in fragmented descriptions
-      → AI present structure BACK
+      → AI detects logical structure in fragmented descriptions
+      → AI presents structure BACK
       → Human body CHECKS against own convergence zone
-      → WORKS because both mapping SAME domain real
-      → = Khác tool (neuron vs silicon), cùng target (domain real)
+      → WORKS because both mapping SAME real domain
+      → = Different tool (neuron vs silicon), same target (real domain)
 
     → = Logic-Planning.md core statement EXPLAINED AT MECHANISM LEVEL:
-      → "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng"
+      → "Humans need to FEEL correctly → AI will help PLAN correctly"
       → Human FEEL = detect convergence zone (substrate-dependent, body-only)
       → AI PLAN = organize fragments logically (substrate-independent, logic)
       → TOGETHER: feel + plan = discover + label + anchor
@@ -733,11 +736,11 @@ FRAMEWORK-LEVEL IMPORTANCE:
 ### §4.2 — Domain-Checked selection → accuracy convergence
 
 ```
-DOMAIN-CHECKED — TÍCH LŨY + CHECK REAL THƯỜNG XUYÊN:
+DOMAIN-CHECKED — ACCUMULATE + REGULARLY CHECK AGAINST REALITY:
 
   MECHANISM:
     → Accumulate chunks from DIVERSE sources
-    → Regularly CHECK chunks against domain real:
+    → Regularly CHECK chunks against real domain:
       → "Chunk says X → go observe → X confirmed or falsified?"
     → Confirmed → chunk strengthened → RELIABLE anchor point
     → Falsified → DISSONANCE → investigate → correct → better chunk
@@ -759,7 +762,7 @@ DOMAIN-CHECKED — TÍCH LŨY + CHECK REAL THƯỜNG XUYÊN:
     → Body vote ACCURATE: smooth = actually correct (most of time)
     → H5 convergence → RELIABLE intuition
     → = Klein 1998 expert firefighter: calibrated against real fires
-    → = "Mượt THẬT" (Chunk.md §5): body smooth BECAUSE domain aligned
+    → = "True smooth" (Chunk.md §5): body smooth BECAUSE domain aligned
 
   EXAMPLES:
     → Scientist: hypothesis → experiment → confirm/falsify → iterate
@@ -771,13 +774,13 @@ DOMAIN-CHECKED — TÍCH LŨY + CHECK REAL THƯỜNG XUYÊN:
 ### §4.3 — Self-Referencing selection → coherence convergence
 
 ```
-SELF-REFERENCING — TÍCH LŨY NHƯNG KHÔNG CHECK REAL:
+SELF-REFERENCING — ACCUMULATE WITHOUT CHECKING REALITY:
 
   MECHANISM:
     → Accumulate chunks from FILTERED sources:
-      → "Chỉ đọc sách phù hợp"
-      → "Chỉ nghe thông tin vừa tai"
-      → "Loại bỏ thông tin có thật nhưng không đúng ý"
+      → "Only read agreeable books"
+      → "Only listen to comfortable information"
+      → "Discard true but unwelcome information"
     → New chunk arrives → body vote:
       → Compatible with existing database → smooth → ACCEPT
       → Incompatible → dissonance → REJECT (instead of investigate)
@@ -796,19 +799,19 @@ SELF-REFERENCING — TÍCH LŨY NHƯNG KHÔNG CHECK REAL:
     → H5 convergence → CONFIDENT intuition (but potentially wrong)
     → = Kahneman & Klein 2009: "wicked environments" →
         experience doesn't improve if feedback absent/misleading
-    → = "Mượt GIẢ" (Chunk.md §5): body smooth BECAUSE self-consistent
+    → = "False smooth" (Chunk.md §5): body smooth BECAUSE self-consistent
 
   WHY Self-Referencing CAN STILL "SUCCEED":
     → IF domain SIMPLE or STABLE → existing chunks may suffice
     → IF social environment REWARDS coherence → success by social metrics
     → IF never encounter HARD TESTS → wrong chunks never exposed
-    → = "Thành công trong bubble"
+    → = "Success within the bubble"
 
   BUT FUNDAMENTALLY FRAGILE:
     → Domain CHANGES (AI era, market shift, paradigm shift)
     → Old chunks NO LONGER map reality
     → Self-Referencing has NO MECHANISM to detect this (no real-checking habit)
-    → = "Đang sai mà không biết đang sai"
+    → = "Being wrong without knowing you're wrong"
     → Body still says smooth → checking against wrong chunks
     → = Circular validation: A validates B validates A → feels OK → is wrong
     → 🟢 Belief perseverance (Anderson et al. 1980)
@@ -824,8 +827,8 @@ SELF-REFERENCING — TÍCH LŨY NHƯNG KHÔNG CHECK REAL:
 ```
 ⭐ Domain-Checked vs Self-Referencing = SAME ENGINE, DIFFERENT FUEL:
 
-  ┌──────────────────────┬──────────────────────────────────────────┐
-  │ Dimension            │ Domain-Checked   │ Self-Referencing │
+  ┌──────────────────────┬────────────────────┬─────────────────────┐
+  │ Dimension            │ Domain-Checked     │ Self-Referencing    │
   ├──────────────────────┼────────────────────┼─────────────────────┤
   │ Selection pressure   │ External reality   │ Internal coherence  │
   │ Fitness function     │ Domain accuracy    │ Chunk compatibility │
@@ -836,12 +839,12 @@ SELF-REFERENCING — TÍCH LŨY NHƯNG KHÔNG CHECK REAL:
   │ Logic-planning       │ Maps domain        │ Maps internal model │
   │ Failure mode         │ Slow (costly)      │ Brittle (sudden)    │
   │ Recovery from error  │ Correct + continue │ Collapse or deny    │
-  │ Feel                 │ "Mượt thật"        │ "Mượt giả"          │
+  │ Feel (Chunk.md §5)   │ "True smooth"      │ "False smooth"      │
   │ Example              │ Scientist          │ Ideologue           │
   │ AI era adaptation    │ High (chunks ≈ real)│ Low (chunks ≠ real) │
   └──────────────────────┴────────────────────┴─────────────────────┘
 
-  ⚠️ NUANCE — KHÔNG binary:
+  ⚠️ NUANCE — NOT binary:
     → Most people = MIX of Domain-Checked and Self-Referencing across different domains
     → Same person: Domain-Checked in profession + Self-Referencing in relationships (or vice versa)
     → = Domain-specific, not person-level trait
@@ -855,7 +858,7 @@ SELF-REFERENCING — TÍCH LŨY NHƯNG KHÔNG CHECK REAL:
 ### §5.1 — Why Domain-Checked tolerates more dissonance
 
 ```
-⭐ Domain-Checked: HIGH TOLERANCE — vì foundation EXTERNAL:
+⭐ Domain-Checked: HIGH TOLERANCE — foundation is EXTERNAL:
 
   MECHANISM:
     → Chunk library built via domain-real checking
@@ -872,9 +875,9 @@ SELF-REFERENCING — TÍCH LŨY NHƯNG KHÔNG CHECK REAL:
       → = CAN HOLD dissonance WHILE investigating
 
   WHY Domain-Checked CAN PURSUE EXTREME IMAGINE-FINAL:
-    → Melody đuổi theo domain real → accepts temporary hardware discomfort
-    → "Chưa mượt trên hardware nhưng ĐÚNG với domain real"
-    → KNOWS: consolidation will process → "sáng mai rõ hơn"
+    → Melody pursues domain real → accepts temporary hardware discomfort
+    → "Not yet smooth on hardware but ALIGNED with domain real"
+    → KNOWS: consolidation will process → "clearer in the morning"
     → KNOWS: process has WORKED before (past cycles confirmed)
     → = Learning-Cycle §2: fatigue + dissonance = NORMAL cost of learning
     → = Trust in process BECAUSE process has delivered before
@@ -893,7 +896,7 @@ SELF-REFERENCING — TÍCH LŨY NHƯNG KHÔNG CHECK REAL:
 ### §5.2 — Why Self-Referencing has low tolerance
 
 ```
-⭐ Self-Referencing: LOW TOLERANCE — vì foundation INTERNAL:
+⭐ Self-Referencing: LOW TOLERANCE — foundation is INTERNAL:
 
   MECHANISM:
     → Chunk library built via self-referencing
@@ -904,7 +907,7 @@ SELF-REFERENCING — TÍCH LŨY NHƯNG KHÔNG CHECK REAL:
   WHEN DISSONANCE ARRIVES:
     → Self-Referencing response:
       → ANY dissonance = threatens WHOLE STRUCTURE
-      → Vì: A validates B validates C → shake A → shake ALL
+      → Because: A validates B validates C → shake A → shake ALL
       → = "House of cards" — remove 1 card → collapse risk
       → Body: EXTREME discomfort → REJECT immediately
       → = CANNOT hold dissonance — too threatening
@@ -920,20 +923,20 @@ SELF-REFERENCING — TÍCH LŨY NHƯNG KHÔNG CHECK REAL:
 
   WHY Self-Referencing CANNOT PURSUE EXTREME IMAGINE-FINAL:
     → Extreme Imagine-Final REQUIRES tolerance for:
-      → "Chưa mượt nhưng đang đúng hướng"
-      → "Hardware khó chịu nhưng domain real đang converge"
+      → "Not yet smooth but heading in the right direction"
+      → "Hardware uncomfortable but real domain is converging"
     → Self-Referencing CANNOT distinguish:
-      → "Khó chịu vì đang ĐÚNG nhưng chưa consolidate" (growth)
-      → "Khó chịu vì đang SAI" (error)
+      → "Uncomfortable because CORRECT but not yet consolidated" (growth)
+      → "Uncomfortable because WRONG" (error)
     → BECAUSE: Self-Referencing's only reference = internal coherence
     → = All discomfort feels like "wrong" → reject → cycle stops
-    → = Discovery cycle CHẶN ở step ③ (curiosity → fear → avoid)
+    → = Discovery cycle BLOCKED at step ③ (curiosity → fear → avoid)
 ```
 
 ### §5.3 — Post-discovery cleanup (parsimony gain)
 
 ```
-⭐ SAU KHI ĐẠT IMAGINE-FINAL → CLEANUP:
+⭐ AFTER REACHING IMAGINE-FINAL → CLEANUP:
 
   MECHANISM (only available to Domain-Checked who reached Imagine-Final):
 
@@ -941,13 +944,13 @@ SELF-REFERENCING — TÍCH LŨY NHƯNG KHÔNG CHECK REAL:
        → Some chunks = essential (core insight)
        → Some chunks = scaffolding (helped get there but not essential)
        → Some chunks = wrong turns (explored but dead ends)
-       → = "Xưởng chế tạo lộn xộn"
+       → = "Cluttered workshop"
 
     ② AFTER Imagine-Final reached: CAN NOW distinguish:
        → Essential: keep + strengthen
        → Scaffolding: can release (not needed anymore)
        → Wrong turns: can let decay (not rehearsed)
-       → = "Dọn dẹp xưởng, giữ bản thiết kế"
+       → = "Clean the workshop, keep the blueprint"
 
     ③ CLEANUP produces PARSIMONY GAIN:
        → Fewer chunks → simpler structure → less hardware dissonance
@@ -958,11 +961,11 @@ SELF-REFERENCING — TÍCH LŨY NHƯNG KHÔNG CHECK REAL:
     ④ MELODY SMOOTHS:
        → During discovery: hardware dissonance HIGH (many unresolved chunks)
        → After cleanup: hardware dissonance LOW (clean, organized)
-       → = "Đuổi theo domain real → chấp nhận dissonance → reach goal →
-           dọn dẹp → melody smooth HƠN mà vẫn có Imagine-Final"
+       → = "Pursuing domain real → accepting dissonance → reaching goal →
+           cleanup → melody SMOOTHER while still having Imagine-Final"
        → = Long-term: Domain-Checked melody SMOOTHER than Self-Referencing
-         (Self-Referencing smooth from start nhưng shallow + fragile)
-         (Domain-Checked rough during discovery nhưng deep + smooth after cleanup)
+         (Self-Referencing smooth from start but shallow + fragile)
+         (Domain-Checked rough during discovery but deep + smooth after cleanup)
 
   LEARNING-CYCLE CONNECTION:
     → Cleanup = multiple Learning-Cycle iterations (§8 baseline shift)
@@ -1010,7 +1013,7 @@ SELF-REFERENCING — TÍCH LŨY NHƯNG KHÔNG CHECK REAL:
                                                phenomenon, different level description
   Label = logic-planning prerequisite:         Novel formalization — consistent with NT6
   2 fates of unlabeled convergence:            Novel distinction — consistent with memory
-  Domain-Checked vs Self-Referencing selection pressure model:           Novel framing — components established
+  Domain-Checked vs Self-Referencing selection pressure model: Novel framing — components established
   Dissonance tolerance = f(anchor type):       Novel — consistent with cognitive dissonance
   Post-discovery cleanup / parsimony:          Novel formalization — Learning-Cycle extends
   AI as external crystallization catalyst:     Novel — consistent with ZPD + Somatic-Articulation-Loop
@@ -1024,9 +1027,9 @@ SELF-REFERENCING — TÍCH LŨY NHƯNG KHÔNG CHECK REAL:
 
   Convergence zone as LITERAL neural intersection:  Plausible but not measured
   7 steps always in this order:                     Likely variable in practice
-  "Vé vào cửa" as binary transition:               Probably gradient (partial label
+  "Admission ticket" as binary transition:          Probably gradient (partial label
                                                     = partial access)
-  Domain-Checked/Self-Referencing as systematic comparison:                   Framework-level, needs empirical
+  Domain-Checked/Self-Referencing as systematic comparison: Framework-level, needs empirical
   Post-discovery cleanup mechanism specifics:       Plausible, timing speculative
   AI crystallization mechanism details:             Reasonable inference, not tested
 ```
@@ -1101,8 +1104,8 @@ WITHIN CHUNK-ANALYSIS:
   → Learning-Cycle.md: 3 signals → step ①-② consolidation between cycles
 
 CORE FRAMEWORK:
-  → Schema/Chunk.md §5: "mượt giả vs mượt thật" → §4 Domain-Checked vs Self-Referencing (system level)
-  → Logic-Planning.md: "feel đúng → plan đúng" → §3.4 logic = domain real property
+  → Schema/Chunk.md §5: "false smooth vs true smooth" → §4 Domain-Checked vs Self-Referencing (system level)
+  → Logic-Planning.md: "FEEL correctly → PLAN correctly" → §3.4 logic = domain real property
   → Somatic-Articulation-Loop.md: body→explicit → §2.5 Strategy B+C (articulation)
   → Drive/Novelty.md: prediction-delta detection → §2.4 step ③ curiosity drive
   → Drive/Threat.md: threat override → §2.4 step ③ cycle block condition
@@ -1143,7 +1146,7 @@ ACADEMIC REFERENCES:
     ③ Curiosity Drive (novelty vs threat → cycle continues or blocks)
     ④ Clarify (Type 4 + triangulation + external catalyst)
     ⑤ Label / Anchor (H12 Gap 2 → coin term → attach handle)
-    ⑥ Logic-Planning Enablement (label = vé vào cửa)
+    ⑥ Logic-Planning Enablement (label = admission ticket)
     ⑦ Repeat (deeper + wider → self-reinforcing spiral)
 
   NEW FRAMEWORK CONTRIBUTIONS:
@@ -1176,6 +1179,6 @@ ACADEMIC REFERENCES:
 > Convergence Zone = where activation paths intersect before label exists.
 > Label = prerequisite for logic-planning participation.
 > Domain-Checked vs Self-Referencing = same engine, different fitness function.
-> "Chậm mà chắc" — companion to 01b, filling the macro lifecycle gap.
+> "Slow and steady" — companion to 01b, filling the macro lifecycle gap.
 >
-> Phiên bản: v1.0, 2026-04-17.
+> Version: v1.0, 2026-04-17.

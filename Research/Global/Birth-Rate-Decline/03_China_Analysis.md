@@ -1,702 +1,710 @@
-# 🇨🇳 Trung Quốc — THÍ NGHIỆM ÉP SCHEMA LỚN NHẤT LỊCH SỬ
+# 🇨🇳 China — The Largest Forced Schema Compilation in History
 
-> **35 năm ÉP 1.4 tỷ người chỉ sinh 1 con.**
-> **324 triệu IUD. 108 triệu triệt sản. 14.4 triệu phá thai riêng năm 1983.**
-> **Kết quả: schema "1 con = bình thường" compiled VÀO VĂN HÓA.**
+> **35 years of forcing 1.4 billion people to have one child.**
+> **324 million IUD insertions. 108 million sterilizations. 14.4 million abortions in 1983 alone.**
+> **Result: the schema "one child = normal" was compiled into the culture.**
 >
-> Bỏ chính sách (2016) → behaviour KHÔNG đổi.
-> 3-child policy (2021) → BỊ CHẾ GIỄU.
-> 2025: 7.92 triệu births — THẤP NHẤT TỪ 1949.
-> Dân số giảm 3.39 triệu — MẠNH NHẤT TỪ NẠN ĐÓI LỚN.
+> Policy removed (2016) → behavior UNCHANGED.
+> Three-child policy (2021) → MOCKED.
+> 2025: 7.92 million births — LOWEST SINCE 1949.
+> Population shrank by 3.39 million — STEEPEST DECLINE SINCE THE GREAT FAMINE.
 >
-> Bài học: chính sách CÓ THỂ compile schema trong 35 năm.
-> Nhưng ĐỎ schema ĐÃ compiled? Chưa ai làm được.
+> The lesson: policy CAN compile schemas in 35 years.
+> But UNDO schemas already compiled? No one has managed it.
 
 ---
 
-> **Trạng thái:** DRAFT — framework analysis + validated data
-> **Ngày:** 2026-03-31
-> **Mục đích:** Phân tích chuyên sâu Trung Quốc qua 5 trục framework.
-> One-child policy = forced schema compilation. Tại sao reversal thất bại?
-> So sánh Hàn (tự nhiên) vs TQ (ép buộc) — cùng kết quả.
-> **Reference:** 00_Overview.md (5 trục), 01_South-Korea.md (5/5 trục ÂM),
+> **Status:** DRAFT — framework analysis + validated data
+> **Date:** 2026-03-31
+> **Purpose:** Deep-dive analysis of China through the 5-axis framework.
+> The one-child policy = forced schema compilation. Why did reversal fail?
+> Comparing South Korea (organic decline) vs China (coercive decline) — same outcome.
+> **References:** 00_Overview.md (5 axes), 01_South-Korea.md (all 5 axes negative),
 > 06_Israel.md (shared Imagine-Final override), 04_France.md (policy ceiling),
-> Imagine-Final.md §1 (2 tầng, compiled schemas),
+> Imagine-Final.md §1 (2-layer structure, compiled schemas),
 > Chunk.md v2.1 (chunk substrate, compile mechanism),
 > Collective-Body.md v1.1 §2 (collective-level schema compile — forced policy = Trust Compile install),
-> Education-Mechanism.md §3.1 (bridge = nguồn ④ External Inject)
-> **⚠️ Data thực + framework interpretation — PHÂN BIỆT RÕ 🟢/🟡/🔴**
-> **Quy ước:** 🟢 Research/data support | 🟡 Suy luận từ framework | 🔴 Hypothesis
+> Education-Mechanism.md §3.1 (bridge = source ④ External Inject)
+> **⚠️ Real data + framework interpretation — clearly distinguish 🟢/🟡/🔴**
+> **Convention:** 🟢 Research/data support | 🟡 Framework inference | 🔴 Hypothesis
 
 ---
 
-## Mục Lục
+## Table of Contents
 
 ```
-  §1   DATA TỔNG QUAN — Scale + Timeline + Key Stats
-  §2   ONE-CHILD = FORCED SCHEMA COMPILATION — 3 Pha
-  §3   5 TRỤC ÁP DỤNG — Cùng Pattern Hàn + Thêm Legacy
-  §4   COMPOUNDING — One-Child × Mọi Yếu Tố = Nhân Lên
-  §5   REVERSAL THẤT BẠI — Proves Schemas > Policy
+  §1   DATA OVERVIEW — Scale + Timeline + Key Stats
+  §2   ONE-CHILD = FORCED SCHEMA COMPILATION — 3 Phases
+  §3   FIVE AXES APPLIED — Same Pattern as Korea, Plus One-Child Legacy
+  §4   COMPOUNDING — One-Child × Every Factor = Multiplicative
+  §5   REVERSAL FAILURES — Proves Schemas Outlast Policy
   §6   TANG PING / BAI LAN — Imagine-Final Collapse
-  §7   GENDER IMBALANCE — Thiệt Hại Vĩnh Viễn
-  §8   CHÍNH PHỦ ĐÁP ỨNG — Sai Channel
-  §9   DỰ BÁO + HỆ QUẢ
-  §10  SO SÁNH HÀN/NHẬT — Cùng Văn Hóa, Khác Biến Số
+  §7   GENDER IMBALANCE — Permanent Structural Damage
+  §8   GOVERNMENT RESPONSE — Wrong Channel
+  §9   PROJECTIONS + CONSEQUENCES
+  §10  COMPARISON: CHINA / KOREA / JAPAN — Same Culture, Different Variables
   §11  HONEST ASSESSMENT
-  §12  CÂU HỎI MỞ
-  §13  KẾT NỐI VỚI CÁC FILE KHÁC
+  §12  OPEN QUESTIONS
+  §13  CONNECTIONS TO OTHER FILES
 ```
 
 ---
 
-## 1. Data Tổng Quan
+## 1. Data Overview
 
 ```
-🟢 SCALE — QUY MÔ CHƯA TỪNG CÓ TRONG LỊCH SỬ LOÀI NGƯỜI:
+🟢 SCALE — UNPRECEDENTED IN HUMAN HISTORY:
 
-  Dân số: 1.4 tỷ (đã đạt đỉnh 2021 → đang GIẢM)
-  Policy: 35 năm ÉP 1 con (1980-2015)
-  Enforcement: 324 triệu IUD + 108 triệu triệt sản
-  1983 riêng: 14.4 triệu phá thai + 20.7 triệu triệt sản + 17.8 triệu IUD
-  Births prevented (chính phủ claim): 400 triệu
-  Births prevented (independent est.): 100-200 triệu
+  Population: 1.4 billion (peaked 2021 → now DECLINING)
+  Policy duration: 35 years of forced one-child (1980–2015)
+  Enforcement: 324 million IUD insertions + 108 million sterilizations
+  1983 alone: 14.4 million abortions + 20.7 million sterilizations + 17.8 million IUD insertions
+  Births prevented (government claim): 400 million
+  Births prevented (independent estimate): 100–200 million
 
-  → Không có quốc gia nào TỪNG can thiệp vào sinh sản ở quy mô này
-  → = THÍ NGHIỆM "ép thay đổi hành vi" LỚN NHẤT lịch sử nhân loại
+  → No country has EVER intervened in reproduction at this scale
+  → = THE LARGEST "forced behavior modification" EXPERIMENT in human history
 
 
-🟢 TIMELINE — TỪ 7.51 → 0.93 TRONG 62 NĂM:
+🟢 TIMELINE — FROM 7.51 TO 0.93 IN 62 YEARS:
 
   ┌───────────┬───────┬──────────────────────────────────────────────┐
-  │ Giai đoạn │ TFR   │ Sự kiện                                      │
+  │ Period    │ TFR   │ Event                                        │
   ├───────────┼───────┼──────────────────────────────────────────────┤
-  │ 1963      │ 7.51  │ ĐỈNH — post-famine baby boom                 │
-  │ 1970      │ 6.09  │ Trước "Later, Longer, Fewer"                 │
-  │ 1971-79   │ 6.09→ │ "Later, Longer, Fewer" = KHÔNG ÉP            │
-  │           │ 2.75  │ → TFR giảm 55% TRƯỚC one-child policy!       │
-  │ 1980      │ 2.74  │ One-child policy BẮT ĐẦU                     │
-  │ 1983      │ 2.56  │ Năm enforcement KHẮC NGHIỆT nhất             │
-  │ 1991      │ 1.93  │ DƯỚI replacement LẦN ĐẦU                     │
-  │ 2000-2015 │ ~1.6  │ Ổn định thấp suốt cuối one-child             │
-  │ 2016      │ 1.77  │ Two-child policy: bump TẠM THỜI              │
+  │ 1963      │ 7.51  │ PEAK — post-famine baby boom                 │
+  │ 1970      │ 6.09  │ Before "Later, Longer, Fewer" campaign       │
+  │ 1971–79   │ 6.09→ │ "Later, Longer, Fewer" = NO COERCION         │
+  │           │ 2.75  │ → TFR dropped 55% BEFORE one-child policy!  │
+  │ 1980      │ 2.74  │ One-child policy BEGINS                      │
+  │ 1983      │ 2.56  │ Most aggressive enforcement year             │
+  │ 1991      │ 1.93  │ FIRST TIME below replacement                 │
+  │ 2000–2015 │ ~1.6  │ Sustained low throughout late one-child era  │
+  │ 2016      │ 1.77  │ Two-child policy: TEMPORARY bump             │
   │ 2017      │ 1.80  │ Peak of two-child effect                     │
-  │ 2018      │ 1.54  │ Bump ĐÃ HẾT — giảm nhanh                   │
-  │ 2020      │ 1.24  │ COVID + structural decline                    │
-  │ 2021      │ 1.12  │ Three-child policy: BỊ CHẾ GIỄU             │
-  │ 2022      │ 1.03  │ DÂN SỐ BẮT ĐẦU GIẢM (−0.85 triệu)        │
-  │ 2023      │ 1.00  │ TFR = 1.0 — đúng 1 con/phụ nữ              │
-  │ 2025      │ ~0.93 │ THẤP NHẤT TỪNG GHI NHẬN                     │
+  │ 2018      │ 1.54  │ Bump EXHAUSTED — rapid decline               │
+  │ 2020      │ 1.24  │ COVID + structural decline                   │
+  │ 2021      │ 1.12  │ Three-child policy: MOCKED                   │
+  │ 2022      │ 1.03  │ POPULATION BEGINS SHRINKING (−0.85 million)  │
+  │ 2023      │ 1.00  │ TFR = 1.0 — exactly one child per woman      │
+  │ 2025      │ ~0.93 │ LOWEST EVER RECORDED                         │
   └───────────┴───────┴──────────────────────────────────────────────┘
 
 
   ⭐ KEY INSIGHT — "Later, Longer, Fewer" vs ONE-CHILD:
-    → 1971-79: chiến dịch THUYẾT PHỤC (không ép) → giảm 55% (6.09 → 2.75)
-    → 1980-2015: one-child ÉP BUỘC → giảm thêm từ 2.75 → ~1.6
-    → Thái Lan, Iran, Brazil: đạt giảm TƯƠNG TỰ MÀ KHÔNG ÉP
-    → = Harvard: vai trò one-child "ít quan trọng hơn claim"
-    → = NHƯNG: one-child tạo SCHEMAS cực sâu → effect KHÁC hoàn toàn
+    → 1971–79: PERSUASION campaign (no coercion) → 55% drop (6.09 → 2.75)
+    → 1980–2015: one-child COERCION → further drop from 2.75 → ~1.6
+    → Thailand, Iran, Brazil: achieved SIMILAR drops WITHOUT coercion
+    → = Harvard analysis: one-child's role "less important than claimed"
+    → = BUT: one-child created DEEPLY EMBEDDED schemas → entirely different long-term effect
 
 
-🟢 KEY STATS — HIỆN TẠI:
+🟢 KEY STATS — CURRENT STATE:
 
   Births + Deaths (2025):
-    → 7.92 triệu births (thấp nhất từ 1949, −17% từ 2024)
-    → 11.31 triệu deaths
-    → −3.39 triệu (giảm mạnh nhất từ Nạn Đói Lớn 1959-61)
-    → Dân số giảm 4 năm liên tiếp (2022-2025)
+    → 7.92 million births (lowest since 1949, −17% from 2024)
+    → 11.31 million deaths
+    → −3.39 million (steepest decline since the Great Famine of 1959–61)
+    → Population declined 4 consecutive years (2022–2025)
 
   Marriage:
-    → Peak: 13 triệu cặp (2013) → 6.1 triệu (2024) = GIẢM 53%
-    → 2024: thấp nhất từ 1980
-    → = Ít cưới = ít sinh (với lag 1-2 năm)
+    → Peak: 13 million couples (2013) → 6.1 million (2024) = DOWN 53%
+    → 2024: lowest since 1980
+    → = Fewer marriages = fewer births (with a 1–2 year lag)
 
-  Cost:
-    → ĐẮT THỨ 2 THẾ GIỚI: 6.3× GDP/capita (~$75-95K)
-    → (chỉ sau Hàn Quốc: 7.79×)
-    → Education: 17.1% thu nhập hộ gia đình
-    → Housing Shenzhen: 43× thu nhập trung bình/năm
+  Child-Rearing Cost:
+    → 2ND MOST EXPENSIVE IN THE WORLD: 6.3× GDP per capita (~$75–95K through university)
+    → (Only behind South Korea: 7.79×)
+    → Education: 17.1% of household income
+    → Housing in Shenzhen: 43× median annual income
+    → 70% of home buyers REQUIRE PARENTAL FINANCIAL SUPPORT
+    → Tutoring (pre-2021 ban): 564 billion yuan/year
 
-  Regional:
-    → Shanghai trung tâm: TFR < 0.5
-    → Shanghai tổng: ~0.6
-    → Bắc Kinh: ~0.7
-    → Nông thôn: 1.54 (2020 census) → cũng DƯỚI replacement
-    → KHÔNG vùng nào ở TQ ĐẠT replacement rate
+  Regional Breakdown:
+    → Shanghai city center: TFR < 0.5
+    → Shanghai overall: ~0.6
+    → Beijing: ~0.7
+    → Rural areas: 1.54 (2020 census) → STILL below replacement
+    → NO region in China reaches replacement rate
 
   Attitudes:
-    → Negative toward fertility: 56.79% (2021) → 79.78% (2024)
-    → = TĂNG 23 điểm % trong 3 NĂM
-    → Intended children: trung bình 1.54 → thực tế ~1.0
-    → Only children: +20% khả năng muốn 0-1 con
+    → Negative toward having children: 56.79% (2021) → 79.78% (2024)
+    → = INCREASED 23 percentage points in just 3 YEARS
+    → Intended children: average 1.54 → actual ~1.0
+    → Only-children: +20% more likely to want 0–1 children
 ```
 
 ---
 
-## 2. One-Child = Forced Schema Compilation — 3 Pha
+## 2. One-Child Policy: Three-Phase Forced Schema Compilation
 
 ```
-🟡 ĐÂY LÀ PHẦN QUAN TRỌNG NHẤT — FRAMEWORK LENS:
+🟡 THIS IS THE MOST IMPORTANT SECTION — FRAMEWORK LENS:
 
-  ⭐ 3 PHA CỦA FORCED SCHEMA COMPILATION:
-
-
-  PHA 1 — ÉP BUỘC HÀNH VI (1980-~1995):
-
-    🟢 Cơ chế ép:
-      → Phạt: 3-10× thu nhập/năm
-      → IUD bắt buộc sau con đầu
-      → Triệt sản bắt buộc sau con thứ 2
-      → Phá thai ép (documented: kể cả 7+ tháng — vụ Feng Jianmei 2012)
-      → Ủy ban khu phố theo dõi: "menstrual monitors"
-      → Đơn vị công tác (danwei): mất việc, mất nhà, mất thưởng
-      → Khẩu hiệu: "Thêm 1 con = thêm 1 mộ", "Nuôi ít con, nuôi nhiều heo"
-
-    🟡 Framework: Pha 1 = ÉP body-level compliance:
-      → Body VẪN MUỐN nhiều con (desire chưa thay đổi)
-      → Nhưng COST BỊ ÉP LÊN CỰC CAO (phạt, mất việc, ép phá thai)
-      → = PFC tính: cost of violating >> cost of complying
-      → = HÀNH VI thay đổi → nhưng MONG MUỐN chưa thay đổi
-      → Nông thôn: vẫn kháng cự → "du kích siêu sinh" (超生游击队)
-      → = Bằng chứng: desire VẪN CÒN ở giai đoạn này
+  ⭐ THE 3 PHASES OF FORCED SCHEMA COMPILATION:
 
 
-  PHA 2 — INTERNALIZATION (1995-~2015):
+  PHASE 1 — BEHAVIORAL COERCION (1980–~1995):
 
-    🟢 Thế hệ only-child LỚN LÊN:
-      → TOÀN BỘ bạn bè = con một → "1 con = bình thường"
-      → Gia đình 4-2-1 = mọi tài nguyên vào 1 đứa trẻ
-      → Tiêu chuẩn nuôi con TĂNG: "đầu tư tối đa vào con duy nhất"
-      → Nhiều con = "nghèo, nông thôn, lạc hậu"
-      → 1 con = "hiện đại, có trách nhiệm, yêu nước"
+    🟢 Enforcement mechanisms:
+      → Fines: 3–10× annual income per violation
+      → Mandatory IUD insertion after first child
+      → Mandatory sterilization after second child
+      → Forced abortions (documented including at 7+ months — the Feng Jianmei case, 2012)
+      → Neighborhood committee surveillance: "menstrual monitors"
+      → Work unit (danwei) sanctions: job loss, housing loss, bonus forfeiture
+      → Slogans: "One more child = one more grave" / "Raise fewer children, raise more pigs"
 
-    🟡 Framework: Pha 2 = chunks compile vô thức:
-      → Thế hệ con một: TRẢI NGHIỆM "1 con = bình thường" HÀNG NGÀY
-      → = Chunks compile ở tầng 1 (vô thức) → KHÔNG CẦN PFC
-      → = Schema "1 con = mặc định" trở thành AUTOMATIC
-      → = Constraint (ép) DẦN CHUYỂN thành preference (thích)
-      → = Desire THAY ĐỔI — không chỉ hành vi
-
-    🟢 Infrastructure EMBED:
-      → Căn hộ thiết kế cho gia đình nhỏ
-      → Trường học xây cho cohort nhỏ
-      → Kinh tế quy hoạch cho đơn vị gia đình nhỏ
-      → = TOÀN BỘ môi trường REINFORCE schema "1 con"
+    🟡 Framework: Phase 1 = body-level compliance FORCED:
+      → Body STILL WANTS more children (desire unchanged)
+      → But COST has been FORCED EXTREMELY HIGH (fines, job loss, forced abortion)
+      → = Prefrontal Cortex calculates: cost of violating >> cost of complying
+      → = BEHAVIOR changes → but DESIRE does not yet change
+      → Rural areas: ongoing resistance → "guerrilla over-births" (超生游击队)
+      → = Evidence: desire STILL ALIVE in this phase
 
 
-  PHA 3 — SCHEMA LOCK-IN (2015-nay):
+  PHASE 2 — INTERNALIZATION (~1995–~2015):
 
-    🟢 Bỏ chính sách → hành vi KHÔNG ĐỔI:
-      → 2013 selective two-child: chỉ 10% eligible đăng ký
-      → 2016 universal two-child: bump ngắn → collapse ngay
-      → 2021 three-child: bị chế giễu trên Weibo
-      → 2025: TFR ~0.93 DÙ KHÔNG CÒN GIỚI HẠN
-      → = CHÍNH SÁCH ĐÃ ĐI. SCHEMA VẪN Ở.
+    🟢 The only-child generation grows up:
+      → ALL classmates = only children → "one child = normal"
+      → 4-2-1 family structure: ALL resources channeled into one child
+      → Child-rearing standards RISE: "maximum investment in the only child"
+      → Multiple children = "poor, rural, backward"
+      → One child = "modern, responsible, patriotic"
 
-    🟡 Framework: Schema lock-in = tầng 1 tự duy trì:
-      → Schemas hoạt động ở VÔ THỨC (tầng 1) → không cần policy
-      → Mỗi thế hệ TRUYỀN schema cho thế hệ sau (qua trải nghiệm)
-      → Schema "1 con = bình thường" TỰ NHÂN BẢN
-      → = Giống Israel: "sinh = tốt" tự nhân bản qua millennia
-      → = TQ: "1 con = bình thường" tự nhân bản qua decades
-      → = CƠ CHẾ GIỐNG NHAU, HƯỚNG NGƯỢC NHAU
+    🟡 Framework: Phase 2 = chunks compile unconsciously:
+      → The only-child generation EXPERIENCES "one child = normal" DAILY
+      → = Chunks compile at Layer 1 (unconscious) → NO Prefrontal Cortex needed
+      → = Schema "one child = default" becomes AUTOMATIC
+      → = Constraint (imposed from outside) GRADUALLY SHIFTS to preference (internally chosen)
+      → = Desire CHANGES — not just behavior
+
+    🟢 Infrastructure EMBEDS the schema:
+      → Apartments designed for small families
+      → Schools built for smaller cohort sizes
+      → Economy planned around small family units
+      → = THE ENTIRE ENVIRONMENT REINFORCES the "one child" schema
 
 
-  ⭐ INSIGHT CỰC KỲ QUAN TRỌNG:
+  PHASE 3 — SCHEMA LOCK-IN (2015–present):
 
-    → MẤT ~15 năm để ÉP hành vi (Pha 1)
-    → MẤT ~15 năm để hành vi thành PREFERENCE (Pha 2)
-    → Khi đã lock-in → BỎ nguyên nhân gốc → KHÔNG effect (Pha 3)
-    → = Schema compilation = ONE-WAY PROCESS ở quy mô này
-    → = "Dễ compile, CỰC KHÓ decompile"
+    🟢 Policy removed → behavior UNCHANGED:
+      → 2013 selective two-child: only 10% of eligible couples registered
+      → 2016 universal two-child: brief bump → immediate collapse
+      → 2021 three-child policy: mocked on Weibo
+      → 2025: TFR ~0.93 WITH NO LIMIT REMAINING
+      → = POLICY IS GONE. SCHEMA REMAINS.
 
-    So sánh:
-    → Israel: 3000+ năm compile "sinh = tốt" → bền CỰC KỲ
-    → TQ: 35 năm compile "1 con = đủ" → ĐÃ lock-in
-    → Hàn: 34 năm anti-natalist + 3 thế hệ compiled → ĐÃ lock-in
-    → Pháp: 150 năm pronatalist → ĐANG bị override bởi global shift
-    → = Experiential schemas (Israel, TQ) > institutional schemas (Pháp)
-    → = Ép bằng TRẢI NGHIỆM > ép bằng POLICY/PROPAGANDA
+    🟡 Framework: Schema lock-in = Layer 1 sustains itself:
+      → Schemas operate at the UNCONSCIOUS level (Layer 1) → no policy needed to maintain them
+      → Each generation TRANSMITS schemas to the next (through lived experience)
+      → Schema "one child = normal" SELF-REPLICATES
+      → = Like Israel: "having children = good" self-replicates across millennia
+      → = China: "one child = normal" self-replicates across decades
+      → = SAME MECHANISM, OPPOSITE DIRECTION
+
+
+  ⭐ CRITICALLY IMPORTANT INSIGHT:
+
+    → ~15 years to FORCE behavior change (Phase 1)
+    → ~15 years for behavior to become GENUINE PREFERENCE (Phase 2)
+    → Once locked in → remove the original cause → NO EFFECT (Phase 3)
+    → = Schema compilation = ONE-WAY PROCESS at this scale
+    → = "Easy to compile, EXTREMELY HARD to decompile"
+
+    Comparison:
+    → Israel: 3,000+ years compiling "childbirth = good" → extraordinarily durable
+    → China: 35 years compiling "one child = enough" → ALREADY locked in
+    → South Korea: 34 years anti-natalist + 3 compiled generations → ALREADY locked in
+    → France: 150 years pronatalist → CURRENTLY being overridden by global shift
+    → = Experiential schemas (Israel, China) > institutional schemas (France)
+    → = Compiling through LIVED EXPERIENCE > compiling through POLICY/PROPAGANDA
 ```
 
 ---
 
-## 3. Năm Trục Áp Dụng — Cùng Pattern Hàn + Thêm Legacy
+## 3. The Five Axes Applied — Same Pattern as Korea, Plus One-Child Legacy
 
 ```
-🟡 TQ = HÀN QUỐC + ONE-CHILD LEGACY — MỌI TRỤC ÂM + THÊM:
+🟡 CHINA = SOUTH KOREA + ONE-CHILD LEGACY — ALL AXES NEGATIVE, PLUS MORE:
 
-  ① COST — ĐẮT THỨ 2 THẾ GIỚI:
-    → 6.3× GDP/capita ($75-95K đến ĐH)
-    → Education: 17.1% thu nhập (vs Pháp ~2%)
-    → Housing: Shenzhen 43× thu nhập → phải MUA NHÀ mới cưới
-    → 70% người mua nhà CẦN BỐ MẸ HỖ TRỢ tài chính
-    → Tutoring (trước 2021): 564 tỷ yuan/năm
-    → Tutoring (sau ban): chuyển ngầm, ĐẮT HƠN
+  ① COST — 2ND MOST EXPENSIVE IN THE WORLD:
+    → 6.3× GDP per capita ($75–95K through university)
+    → Education: 17.1% of household income (vs France ~2%)
+    → Housing: Shenzhen 43× income → must BUY property before marrying
+    → 70% of home buyers REQUIRE PARENTAL FINANCIAL SUPPORT
+    → Tutoring (pre-2021): 564 billion yuan/year
+    → Tutoring (post-ban): moved underground, EVEN MORE EXPENSIVE
 
   ② COMPETING IMAGINE-FINALS:
-    → Career + tự do + travel + self-development
-    → Pet economy BÙNG NỔ (thú cưng thay con)
-    → Social media: "childfree = happy" content viral
-    → Tang ping / Bai lan: TỪ BỎ mọi life milestone
+    → Career + freedom + travel + self-development
+    → Pet economy BOOMING (pets replacing children)
+    → Social media: "childfree = happy" content goes viral
+    → Tang Ping / Bai Lan: abandoning all life milestones
 
-  ③ REPAIR CYCLE BỊ PHÁ:
-    → 996 culture: 9am-9pm, 6 ngày/tuần = 72 giờ/tuần
-    → Luật 44 giờ/tuần → HIẾM KHI enforce
-    → Youth unemployment: đỉnh 21.3% (nghiêm trọng đến mức NGỪNG báo cáo)
+  ③ REPAIR CYCLE DISRUPTED:
+    → 996 culture: 9am–9pm, 6 days/week = 72 hours/week
+    → Legal 44-hour week → RARELY enforced
+    → Youth unemployment: peak 21.3% (so severe the government STOPPED REPORTING it)
     → = Body chronically depleted
 
-  ④ COMPILED SCHEMAS — MẠNH NHẤT TRONG MỌI CASE:
-    → 35 năm forced compilation "1 con = bình thường"
-    → Only-child generation: +20% khả năng muốn 0-1 con
-    → "Bố mẹ đầu tư HẾT vào tôi" → "tôi phải đầu tư HẾT vào con"
-    → → "Không đủ để đầu tư HẾT vào 2 con" → "1 hoặc 0"
-    → Negative attitudes: 56.79% → 79.78% trong 3 năm
-    → = Schemas ĐANG TĂNG TỐC, không chỉ lock-in mà INTENSIFY
+  ④ COMPILED SCHEMAS — STRONGEST OF ALL CASES STUDIED:
+    → 35 years of forced compilation: "one child = normal"
+    → Only-children: +20% more likely to want 0–1 children
+    → "My parents invested EVERYTHING in me" → "I must invest EVERYTHING in my child"
+    → → "I can't invest EVERYTHING in two children" → "one or zero"
+    → Negative attitudes: 56.79% → 79.78% in just 3 years
+    → = Schemas ACCELERATING — not just locked in but INTENSIFYING
 
-  ⑤ CONNECTION SUY GIẢM:
-    → Urbanization cực nhanh (đô thị hóa ~65%)
-    → Xa quê → ông bà KHÔNG giúp được (hoặc không muốn nữa)
-    → Only-child = KHÔNG CÓ anh chị em giúp đỡ
-    → 4-2-1: 1 cặp vợ chồng nuôi 4 bố mẹ già + 1 con = OVERWHELM
-    → Childcare <3 tuổi: THIẾU nghiêm trọng
-    → = Nuôi con = solo task, thậm chí tệ hơn Hàn
+  ⑤ CONNECTION DECLINING:
+    → Extremely rapid urbanization (~65% urban)
+    → Away from hometown → grandparents CANNOT help (or no longer willing)
+    → Only-child = NO siblings to share caregiving
+    → 4-2-1 burden: 1 couple raising 4 elderly parents + 1 child = OVERWHELM
+    → Childcare under age 3: severe shortage
+    → = Raising children = solo task, even worse than Korea in some respects
 
 
-  ⭐ SO SÁNH VỚI HÀN — CÙNG + KHÁC:
+  ⭐ COMPARISON WITH KOREA — SHARED AND DISTINCT:
 
-    GIỐNG HÀN:
-      → Confucian, gaokao, education arms race, housing crisis
-      → Overwork, gender inequality, nuclear family
-      → = 5 trục ĐỀU ÂM
+    SHARED WITH KOREA:
+      → Confucian values, gaokao/suneung, education arms race, housing crisis
+      → Overwork culture, gender inequality, nuclear family isolation
+      → = ALL 5 AXES NEGATIVE
 
-    KHÁC HÀN — TQ CÓ THÊM:
-      → 35 năm one-child legacy (Hàn: 34 năm anti-natalist nhưng KHÔNG ÉP cơ thể)
-      → 30+ triệu nam thừa (gender imbalance từ policy)
-      → Only-child psychology (less trusting, more risk-averse)
-      → Infrastructure embed cho gia đình nhỏ
-      → 996 culture CỰC ĐOAN (Hàn đã reform phần nào)
-      → = TQ = Hàn + one-child compounding
-      → = TFR TQ sẽ TIẾP TỤC GIẢM khi phát triển hơn
+    DISTINCT — CHINA HAS ADDITIONALLY:
+      → 35 years of one-child legacy (Korea: 34 years anti-natalist but NO bodily coercion)
+      → 30+ million surplus males (gender imbalance created by the policy itself)
+      → Only-child psychology (less trusting, more risk-averse — Cameron et al. 2013)
+      → Infrastructure embedded for small families
+      → 996 culture MORE EXTREME (Korea has partially reformed working hours)
+      → = China = Korea + one-child compounding
+      → = China's TFR will CONTINUE DECLINING as the country develops further
 ```
 
 ---
 
-## 4. Compounding — One-Child × Mọi Yếu Tố = Nhân Lên
+## 4. Compounding — One-Child × Every Factor = Multiplicative
 
 ```
-🟡 ONE-CHILD KHÔNG CHỈ CỘNG VỚI — MÀ NHÂN VỚI CÁC YẾU TỐ KHÁC:
+🟡 ONE-CHILD DOESN'T JUST ADD TO OTHER FACTORS — IT MULTIPLIES THEM:
 
   ⭐ × Education pressure:
-    → 4-2-1: MỌI kỳ vọng giáo dục vào 1 đứa trẻ
-    → Gaokao = "cả gia đình chỉ có 1 cơ hội"
-    → → Tiêu chuẩn đầu tư TĂNG lên mức "maximum"
-    → → Hỏi "có 2 con không?" → "Không đủ đầu tư maximum cho 2"
-    → = One-child NÂNG CHUẨN nuôi con → MỌI con tiếp theo = "thiếu đầu tư"
+    → 4-2-1: ALL educational expectations concentrated on 1 child
+    → Gaokao = "the family has only one shot"
+    → → Parenting investment standard RISES to "maximum"
+    → → Asked: "will you have two children?" → "Can't invest maximum in two"
+    → = One-child RAISES the parenting standard → EVERY subsequent child = "under-invested"
 
   ⭐ × Housing:
-    → 1 con: gia đình tiết kiệm mua 1 căn hộ
-    → 2 con: bố mẹ phải GIÚP TÀI CHÍNH 2 căn hộ (vì phải mua nhà mới cưới)
-    → Housing ĐÃ đắt (43× thu nhập Shenzhen) → NHÂN ĐÔI = bất khả
-    → = One-child × housing = cost NHÂN LÊN, không chỉ cộng
+    → 1 child: family saves to buy one apartment
+    → 2 children: parents must financially support TWO apartment purchases
+      (property ownership required before marriage)
+    → Housing ALREADY unaffordable (43× income in Shenzhen) → DOUBLING = impossible
+    → = One-child × housing = cost MULTIPLIES, doesn't just add
 
   ⭐ × 996 work culture:
-    → Only-child: lớn lên với SỰ CHÚ Ý TRỌN VẸN của bố mẹ
-    → Kỳ vọng: "con tôi cũng phải được chú ý trọn vẹn"
-    → 996: KHÔNG CÓ thời gian cho SỰ CHÚ Ý trọn vẹn
-    → → "Có con = không cho con đủ" → "tốt hơn không có"
-    → = One-child × 996 = standard KHÔNG ĐẠT ĐƯỢC = từ bỏ
+    → Only-children: grew up with UNDIVIDED PARENTAL ATTENTION
+    → Expectation: "my children must also have undivided attention"
+    → 996 schedule: NO TIME for undivided attention
+    → → "Having children = failing them" → "better not to have any"
+    → = One-child × 996 = unachievable standard = abandonment of the goal
 
   ⭐ × Gender imbalance:
-    → 30+ triệu nam KHÔNG TÌM ĐƯỢC vợ → 30 triệu GIA ĐÌNH KHÔNG THÀNH
-    → Bride price: đến 380,000+ yuan (Giang Tây) → CHƯA KỂ nhà + xe
-    → Nữ đô thị: chọn ĐỘC THÂN thay vì chấp nhận (胜女 thay 剩女)
-    → = Imbalance từ one-child → marriage market KHỦNG HOẢNG → ít gia đình
+    → 30+ million men WHO CANNOT FIND A WIFE → 30 million FAMILIES NEVER FORMED
+    → Bride price: up to 380,000+ yuan in Jiangxi province → BEFORE housing and cars
+    → Urban women choosing INDEPENDENCE over marriage
+      (胜女 "victorious women" replacing 剩女 "leftover women")
+    → = Imbalance from one-child → marriage market CRISIS → fewer families formed
 
   ⭐ × Psychological effects (Cameron et al. 2013, Science):
-    → Only-children: ÍT TIN TƯỞNG, ÍT CẠNH TRANH, NGẠI RỦI RO hơn
-    → Ngại rủi ro → "sinh con = rủi ro lớn" → KHÔNG dám
-    → Ít tin tưởng → ít dựa vào partner/ông bà → nuôi con = solo
-    → = One-child tạo TÍNH CÁCH ngại sinh con → compound MỌI yếu tố
+    → Only-children: LESS TRUSTING, LESS COMPETITIVE, MORE RISK-AVERSE
+    → Risk-aversion → "having children = major risk" → WON'T take it
+    → Less trusting → less reliance on partner/grandparents → child-rearing = solo burden
+    → = One-child shaped a PERSONALITY that resists having children → compounds EVERY factor
 
   ⭐ × 4-2-1 burden:
-    → THẾ HỆ only-child thấy: TÔI gánh 4 bố mẹ già ALONE
-    → "Nếu sinh 1 con → con tôi CŨNG gánh tôi + vợ/chồng tôi ALONE"
-    → "Tôi KHÔNG MUỐN con chịu cảnh giống tôi"
-    → → "Tốt hơn KHÔNG sinh" → để con KHÔNG phải gánh
-    → = One-child tạo VÒNG XOÁY: burden → schema "đừng sinh" → burden lớn hơn
+    → The only-child generation sees: I carry 4 elderly parents ALONE
+    → "If I have 1 child → my child will ALSO carry me + my spouse ALONE"
+    → "I DON'T WANT my child to endure what I endure"
+    → → "Better NOT to have children" → so the child won't carry the burden
+    → = One-child creates a SPIRAL: burden → schema "don't have children" → greater burden next generation
 ```
 
 ---
 
-## 5. Reversal Thất Bại — Proves Schemas > Policy
+## 5. Reversal Failures — Proves Schemas Outlast Policy
 
 ```
-🟢 DATA — MỖI REVERSAL ĐỀU THẤT BẠI:
+🟢 DATA — EVERY REVERSAL HAS FAILED:
 
   ┌─────────────────────────────┬──────────────────────────────────────┐
-  │ Policy change               │ Kết quả                              │
+  │ Policy Change               │ Outcome                              │
   ├─────────────────────────────┼──────────────────────────────────────┤
-  │ 2013: Selective 2-child     │ CHỈ 10% eligible đăng ký              │
-  │ (1 bố/mẹ là con một)       │ → Signal: desire ĐÃ BIẾN MẤT        │
+  │ 2013: Selective 2-child     │ ONLY 10% of eligible couples         │
+  │ (1 parent is only-child)   │ registered                           │
+  │                             │ → Signal: desire HAD ALREADY VANISHED│
   ├─────────────────────────────┼──────────────────────────────────────┤
   │ 2016: Universal 2-child     │ Bump: 17.9M (2016) → 15.2M (2018)   │
-  │                             │ → "Pent-up demand" hết → collapse     │
-  │                             │ → Phần lớn là nữ 35+ CHẠY ĐUA       │
+  │                             │ → "Pent-up demand" exhausted →       │
+  │                             │   collapse                           │
+  │                             │ → Majority were women 35+ rushing    │
   ├─────────────────────────────┼──────────────────────────────────────┤
-  │ 2021: 3-child policy        │ BỊ CHẾ GIỄU. Top comment Weibo:      │
-  │                             │ "1 đứa tôi còn không đẻ"             │
-  │                             │ (đã bị kiểm duyệt)                   │
+  │ 2021: 3-child policy        │ MOCKED. Top Weibo comment:           │
+  │                             │ "I'm not even having 1 child"        │
+  │                             │ (subsequently censored)              │
   │                             │ → Births: 10.6M → 9.0M → 7.9M       │
-  │                             │ → Child thứ 3 = chỉ 15% births (2022)│
+  │                             │ → Third children: only 15% of births │
+  │                             │   (2022)                             │
   ├─────────────────────────────┼──────────────────────────────────────┤
-  │ 2025: De facto no limit     │ 7.92M births — THẤP NHẤT TỪ 1949   │
-  │                             │ → KHÔNG CÒN giới hạn → VẪN KHÔNG sinh│
+  │ 2025: De facto no limit     │ 7.92M births — LOWEST SINCE 1949     │
+  │                             │ → No restriction → STILL not having  │
+  │                             │   children                           │
   └─────────────────────────────┴──────────────────────────────────────┘
 
 
-🟡 FRAMEWORK GIẢI THÍCH — TẠI SAO REVERSAL THẤT BẠI:
+🟡 FRAMEWORK EXPLANATION — WHY REVERSAL FAILED:
 
-  ⭐ VẤN ĐỀ KHÔNG PHẢI GIỚI HẠN — MÀ MONG MUỐN:
+  ⭐ THE PROBLEM IS NOT THE LIMIT — IT'S THE DESIRE:
 
-    "Bỏ đập ở con sông ĐÃ CẠN"
-    → Giới hạn = đập
-    → Mong muốn = nước
-    → Bỏ đập khi nước đã cạn → KHÔNG CÓ nước chảy
+    "Removing the dam from a river that has already dried up"
+    → The limit = the dam
+    → Desire = the water
+    → Remove the dam when the water has already dried up → NOTHING FLOWS
 
-    Policy address: "được phép sinh bao nhiêu" (constraint)
-    Nhưng vấn đề: "MUỐN sinh bao nhiêu" (desire)
-    → Constraint đã ĐI → desire VẪN THẤP → births VẪN THẤP
+    Policy addresses: "how many children you're ALLOWED to have" (constraint)
+    But the actual problem: "how many children you WANT to have" (desire)
+    → Constraint is GONE → desire REMAINS LOW → births REMAIN LOW
 
-    = GIỐNG Pháp: policy fix infrastructure → KHÔNG fix desire
-    = GIỐNG Hàn: tiền fix cost → KHÔNG fix schemas
-    = TQ: bỏ giới hạn fix constraint → KHÔNG fix schemas ĐÃ compiled
-
-
-  ⭐ SO SÁNH 2013 vs 2016 vs 2021 — DIMINISHING RETURNS:
-
-    2013: 10% eligible → 90% KHÔNG MUỐN dù ĐƯỢC PHÉP
-    2016: bump NHỎ → rồi collapse → "pent-up demand" HẾT
-    2021: CHẾ GIỄU → gần KHÔNG effect
-    → = Mỗi reversal CÓ ÍT effect HƠN reversal trước
-    → = Schemas KHÔNG suy yếu theo thời gian → MÀ MẠNH HƠN
-    → = 56.79% negative (2021) → 79.78% (2024) = TĂNG TỐC
+    = Like France: policy fixes infrastructure → DOESN'T fix desire
+    = Like Korea: money fixes cost → DOESN'T fix compiled schemas
+    = China: removing limit fixes constraint → DOESN'T fix ALREADY-COMPILED schemas
 
 
-  ⭐ "POLICY TẠO SCHEMA. BỎ POLICY KHÔNG BỎ SCHEMA."
+  ⭐ COMPARISON: 2013 vs 2016 vs 2021 — DIMINISHING RETURNS:
+
+    2013: 10% registered → 90% WON'T even though ALLOWED TO
+    2016: SMALL bump → then collapse → "pent-up demand" EXHAUSTED
+    2021: MOCKED → near-ZERO effect
+    → = Each reversal has LESS effect than the one before
+    → = Schemas do NOT weaken over time → they INTENSIFY
+    → = 56.79% negative (2021) → 79.78% (2024) = ACCELERATING
+
+
+  ⭐ "POLICY CAN COMPILE SCHEMAS. REMOVING POLICY CANNOT UNDO SCHEMAS."
 
     This is the most dramatic demonstration in human history:
     → Government CAN permanently alter cultural norms through coercion
     → BUT: once altered, removing the coercion does NOT restore the norms
     → The scaffolding was removed. The building stands on its own.
-    → = One-way process ở quy mô quốc gia
+    → = One-way process at a national scale
 
-    → Israel: 3000 năm "sinh = tốt" → vẫn đứng dù modernization
-    → TQ: 35 năm "1 con = đủ" → vẫn đứng dù bỏ policy
-    → = CƠ CHẾ GIỐNG NHAU — hướng ngược nhau
+    → Israel: 3,000 years of "having children = good" → still standing despite modernization
+    → China: 35 years of "one child = enough" → still standing despite policy removal
+    → = SAME MECHANISM — opposite directions
 ```
 
 ---
 
-## 6. Tang Ping / Bai Lan — Imagine-Final Collapse
+## 6. Tang Ping and Bai Lan — Imagine-Final Collapse
 
 ```
-🟡 TANG PING + BAI LAN = N-PO CỦA TRUNG QUỐC:
+🟡 TANG PING + BAI LAN = CHINA'S VERSION OF N-PO:
 
-  🟢 Tang Ping (躺平 — "Nằm Phẳng", 4/2021):
-    → Khởi nguồn: Luo Huazhong đăng trên Baidu Tieba
-    → Triết lý: "làm tối thiểu để sống sót, từ chối rat race"
-    → Phản ứng trước: nhà không mua nổi, 996, cố gắng = vô ích
-    → Chính phủ KIỂM DUYỆT thuật ngữ + phản tuyên truyền "chăm chỉ"
+  🟢 Tang Ping (躺平 — "Lying Flat," April 2021):
+    → Origin: Luo Huazhong posted on Baidu Tieba
+    → Philosophy: "do the minimum to survive, refuse the rat race"
+    → Context: unaffordable housing, 996 grind, effort perceived as futile
+    → Government CENSORED the term + ran counter-propaganda promoting hard work
 
-  🟢 Bai Lan (摆烂 — "Để Nó Thối", 2022):
-    → Escalation từ tang ping
-    → Tang ping = thụ động rút lui | Bai lan = chủ động không quan tâm
-    → "Thà để thối còn hơn cố gắng trong tình huống bất khả"
-    → = Nihilism sâu hơn tang ping
+  🟢 Bai Lan (摆烂 — "Let It Rot," 2022):
+    → Escalation from Tang Ping
+    → Tang Ping = passive withdrawal | Bai Lan = active indifference
+    → "Better to let it rot than struggle in an impossible situation"
+    → = Deeper nihilism than Tang Ping
 
   🟡 Framework: Tang Ping / Bai Lan = IMAGINE-FINAL COLLAPSE:
 
-    So sánh với Hàn Quốc:
-    ┌──────────────────┬──────────────────┬──────────────────┐
-    │ Stage            │ 🇰🇷 Hàn          │ 🇨🇳 TQ            │
-    ├──────────────────┼──────────────────┼──────────────────┤
-    │ Drop gia đình    │ Sampo (từ bỏ 3) │ Tang ping (nằm)  │
-    │ Drop career      │ Opo (từ bỏ 5)   │ —                │
-    │ Drop hope        │ N-po (từ bỏ N)  │ Bai lan (thối)   │
-    └──────────────────┴──────────────────┴──────────────────┘
+    Comparison with South Korea:
+    ┌──────────────────┬──────────────────────┬──────────────────────┐
+    │ Stage            │ 🇰🇷 South Korea       │ 🇨🇳 China             │
+    ├──────────────────┼──────────────────────┼──────────────────────┤
+    │ Drop family      │ Sampo (give up 3)    │ Tang Ping (lie flat) │
+    │ Drop career      │ Opo (give up 5)      │ —                    │
+    │ Drop hope        │ N-po (give up N)     │ Bai Lan (let rot)    │
+    └──────────────────┴──────────────────────┴──────────────────────┘
 
-    → Tang ping ≈ Sampo: từ bỏ life milestones (nhà, cưới, con)
-    → Bai lan ≈ N-po: từ bỏ MỌI THỨ bao gồm HY VỌNG
-    → = CÙNG mechanism: body DROP Imagine-Final theo thứ tự cost/return
+    → Tang Ping ≈ Sampo: abandoning life milestones (house, marriage, children)
+    → Bai Lan ≈ N-po: abandoning EVERYTHING including HOPE
+    → = SAME mechanism: body DROPS Imagine-Finals in order of cost-to-return ratio
 
-    → Chính phủ KIỂM DUYỆT tang ping → NHƯNG:
-      → Kiểm duyệt = suppress NGÔN NGỮ, không suppress SCHEMAS
-      → Body VẪN feel "cố gắng = vô ích" dù không được NÓI
-      → = Policy fix expression → KHÔNG fix experience
-      → = Giống: bỏ one-child policy ≠ bỏ one-child schemas
+    → Government CENSORS Tang Ping → BUT:
+      → Censorship = suppresses LANGUAGE, not SCHEMAS
+      → Body STILL feels "effort = futile" even without being allowed to SAY it
+      → = Policy fixes expression → DOESN'T fix lived experience
+      → = Parallel: removing one-child policy ≠ removing one-child schemas
 ```
 
 ---
 
-## 7. Gender Imbalance — Thiệt Hại Vĩnh Viễn
+## 7. Gender Imbalance — Permanent Structural Damage
 
 ```
-🟢 DATA — HẬU QUẢ TRỰC TIẾP CỦA ONE-CHILD + SON PREFERENCE:
+🟢 DATA — DIRECT CONSEQUENCE OF ONE-CHILD + SON PREFERENCE:
 
-  Sex ratio at birth (bình thường: 103-107 nam/100 nữ):
-    → 1982: ~108 (bắt đầu lệch)
-    → 1990: ~112 (siêu âm phổ biến)
-    → 2004: 121.18 — ĐỈNH (21% chênh lệch)
-    → Một số tỉnh (Giang Tây): > 130 nam/100 nữ cho con thứ 2+
-    → 2020: ~111.3 (đang giảm nhưng VẪN trên bình thường)
+  Sex ratio at birth (natural baseline: 103–107 males per 100 females):
+    → 1982: ~108 (imbalance begins)
+    → 1990: ~112 (ultrasound becomes widespread)
+    → 2004: 121.18 — PEAK (21% disparity)
+    → Some provinces (Jiangxi): > 130 males per 100 females for second+ births
+    → 2020: ~111.3 (declining but STILL above natural range)
 
-  "Bare branches" (光棍 — cành trơ):
-    → ~30+ triệu nam KHÔNG TÌM ĐƯỢC vợ
-    → ~25% nam tuổi cưới có thể vĩnh viễn ĐỘC THÂN (đỉnh ~2030)
-    → Tập trung: nông thôn + thu nhập thấp
+  "Bare branches" (光棍 — those without family descendants):
+    → ~30+ million men WHO CANNOT FIND A WIFE
+    → ~25% of marriage-age men may remain permanently single (peak ~2030)
+    → Concentrated in: rural areas + lower income brackets
 
   Bride price (彩礼):
-    → Trung bình quốc gia: ~69,000 RMB ($9,500)
-    → Chiết Giang: > 183,000 RMB ($25,000)
-    → Giang Tây (extreme): > 380,000 RMB ($52,000) — CHƯA kể nhà + xe
-    → Tổng chi phí cưới (bao gồm nhà): > 1 triệu RMB ở một số vùng
-    → Gia đình nông thôn NỢ NẶNG để cưới con trai
+    → National average: ~69,000 RMB (~$9,500)
+    → Zhejiang province: > 183,000 RMB (~$25,000)
+    → Jiangxi province (extreme): > 380,000 RMB (~$52,000) — NOT including house + car
+    → Total marriage cost (including property): > 1 million RMB in some regions
+    → Rural families go HEAVILY INTO DEBT to marry off sons
 
-  Hậu quả:
-    → Tội phạm tăng ở vùng sex ratio lệch (documented)
-    → Buôn bán cô dâu (VN, Myanmar, Cambodia, Lào) ở biên giới
-    → Sức khỏe tâm thần nam thừa
-    → Nam già độc thân = KHÔNG CÓ hệ thống gia đình hỗ trợ
+  Consequences:
+    → Crime rises in regions with skewed sex ratios (documented)
+    → Bride trafficking (Vietnam, Myanmar, Cambodia, Laos) along border regions
+    → Mental health crisis among surplus males
+    → Single older men = NO family support system in old age
 
 
 🟡 FRAMEWORK INTERPRETATION:
 
-  ① Gender imbalance = GIẢM SỐ GIA ĐÌNH CÓ THỂ:
-    → 30 triệu nam thừa = 30 triệu gia đình KHÔNG hình thành
-    → = Trục ⑤ connection bị phá VĨNH VIỄN cho nhóm này
-    → = Birth rate loss KHÔNG recoverable ở cohort này
+  ① Gender imbalance = PERMANENTLY REDUCES possible family formation:
+    → 30 million surplus men = 30 million families NEVER FORMED
+    → = Axis ⑤ Connection permanently destroyed for this group
+    → = Birth rate loss UNRECOVERABLE for this cohort
 
-  ② Bride price = TĂNG COST hơn nữa:
-    → Nam phải "mua" cơ hội kết hôn
-    → = Trục ① cost TĂNG THÊM (chưa kể cost nuôi con)
-    → = PFC tính: "cưới đã quá đắt → thêm con = bất khả"
+  ② Bride price = drives cost even higher:
+    → Men must "purchase" the opportunity to marry
+    → = Axis ① Cost INCREASES FURTHER (before even adding child-rearing costs)
+    → = Prefrontal Cortex calculates: "marriage already too expensive → adding children = impossible"
 
-  ③ Nữ đô thị chọn ĐỘC THÂN:
-    → 胜女 (victorious women) thay 剩女 (leftover women)
-    → Nữ có giáo dục + tài chính = KHÔNG CẦN cưới
-    → = Competing Imagine-Final "tự do + career" > "gia đình"
-    → ≠ 4B Hàn (phản ứng threat) → TQ: rational choice (tôi ĐỦ tốt 1 mình)
+  ③ Urban women choose INDEPENDENCE:
+    → 胜女 ("victorious women") replaces 剩女 ("leftover women")
+    → Educated + financially independent women = DON'T NEED to marry
+    → = Competing Imagine-Final "freedom + career" > "family"
+    → ≠ South Korea's 4B (response to perceived threat) → China: rational independent choice
 
   ④ Imbalance = SELF-PERPETUATING:
-    → Cohorts ĐÃ sinh → imbalance ĐÓNG GỐI trong dân số
-    → Ngay cả sex ratio bình thường hóa (đang diễn ra) →
-      cohorts 1990-2010 VẪN lệch → effect kéo dài 40+ năm
+    → Birth cohorts already born → imbalance LOCKED INTO the population
+    → Even as sex ratio normalizes (currently happening) →
+      1990–2010 cohorts REMAIN skewed → effect persists 40+ years
 ```
 
 ---
 
-## 8. Chính Phủ Đáp Ứng — Sai Channel
+## 8. Government Response — Wrong Channel
 
 ```
-🟢 CHÍNH SÁCH ĐÃ THỬ (2021-2026):
+🟢 POLICIES ATTEMPTED (2021–2026):
 
   Financial:
-    → 2025: trợ cấp 3,600 yuan/năm ($500) per child <3 tuổi
-    → 90 tỷ yuan ($12.5 tỷ) ngân sách cho chương trình
-    → Các tỉnh: tiền thưởng sinh, giảm thuế, ưu đãi nhà ở
-    → VD Hohhot: 10,000 yuan lần đầu / 10,000/năm đến 5 tuổi (con 2)
+    → 2025: 3,600 yuan/year ($500) subsidy per child under age 3
+    → 90 billion yuan ($12.5 billion) budget for the program
+    → Provinces offering: birth bonuses, tax breaks, housing subsidies
+    → Example — Hohhot: 10,000 yuan at birth / 10,000/year until age 5 (second child)
 
   Childcare:
-    → Cam kết "childcare service system toàn diện"
-    → Tiến độ: CHẬM so với quy mô nhu cầu
+    → Commitment to "comprehensive childcare service system"
+    → Progress: FAR BEHIND in scale relative to the need
 
-  Leave:
-    → Một số tỉnh mở rộng maternity leave + thêm "childcare leave"
-    → NHƯNG: doanh nghiệp tư nhân HIẾM KHI tuân thủ
-    → Hậu quả ngược: nữ BỊ discrimination tuyển dụng vì leave dài
+  Parental Leave:
+    → Several provinces extending maternity leave + adding "childcare leave"
+    → BUT: private companies RARELY comply
+    → Backfire: women face increased discrimination in hiring because of longer leave
 
-  Marriage promotion:
-    → Sự kiện mai mối do chính phủ tổ chức
-    → Truyền thông nhà nước đẩy mạnh "giá trị hôn nhân"
-    → All-China Women's Federation: "văn hóa sinh sản"
-    → = Marriage registrations VẪN giảm đến mức thấp nhất từ 1980
+  Marriage Promotion:
+    → Government-organized matchmaking events
+    → State media pushing "marriage values"
+    → All-China Women's Federation promoting "childbirth culture" (生育文化)
+    → = Marriage registrations STILL declining to lowest since 1980
 
-  Divorce restriction:
-    → 30-day cooling period (1/1/2021)
-    → Giảm ly hôn 33-42% → NHƯNG: phản tác dụng
-    → "Nếu không dễ thoát → tại sao vào?" → ÍT cưới hơn
+  Divorce Restriction:
+    → 30-day cooling period (effective January 1, 2021)
+    → Reduced divorces 33–42% → BUT: produced unintended consequence
+    → "If exit is harder → why enter?" → FEWER marriages registered
 
-  Education reform:
-    → Double Reduction (7/2021): cấm tutoring for-profit
-    → Destroy 564 tỷ yuan industry → 200,000 mất việc
-    → KẾT QUẢ: tutoring chuyển ngầm, 70-80% HS vẫn học thêm
-    → TFR VẪN giảm: 1.12 → 1.03 → 1.00 → 0.93
+  Education Reform:
+    → Double Reduction Policy (July 2021): ban on for-profit academic tutoring
+    → Destroyed a 564 billion yuan industry → 200,000 jobs lost
+    → RESULT: tutoring moved underground, 70–80% of students still attend
+    → TFR STILL fell: 1.12 → 1.03 → 1.00 → 0.93
 
-  Abortion:
-    → KHÔNG CẤM → nhưng hạn chế dần:
-    → Giang Tây (2018): cần 3 bác sĩ ký + lý do y tế sau 14 tuần
-    → 2022: "giảm phá thai không cần thiết về y tế"
-    → Cấm bán thuốc phá thai online (11/2022)
-    → = Đảo ngược HOÀN TOÀN từ ÉP phá thai → HẠN CHẾ phá thai
+  Abortion Restrictions:
+    → NOT banned → but gradually restricted:
+    → Jiangxi (2018): requires 3 physician signatures + medical reason after 14 weeks
+    → 2022: policy to "reduce medically unnecessary abortions"
+    → Ban on online abortion pill sales (November 2022)
+    → = COMPLETE REVERSAL from forced abortions to restricting abortion access
 
 
-🟡 FRAMEWORK — TẠI SAO TẤT CẢ ĐỀU THẤT BẠI:
+🟡 FRAMEWORK — WHY EVERYTHING FAILED:
 
-  ① $500/năm vs $75-95K nuôi con:
-    → = Carrot bridge (Education-Mechanism §3.1, nguồn ④) → carrot << cost
-    → = Giống Hàn: $22K vs $272K → "lỗ"
-    → = Pháp chi 3.5% GDP VÀ CÓ crèche → VẪN giảm đến 1.56
-    → → TQ chi ÍT hơn Pháp → expect ÍT effect hơn
+  ① $500/year vs $75–95K to raise a child:
+    → = Carrot bridge (Education-Mechanism §3.1, source ④ External Inject) → carrot << cost
+    → = Like Korea: $22K subsidy vs $272K actual cost → net negative calculation
+    → = France spent 3.5% of GDP AND built crèche network → still dropped to 1.56
+    → → China spends LESS than France → expect LESS effect
 
-  ② Kiểm duyệt tang ping ≠ fix schemas:
-    → Cấm NÓI "nằm phẳng" → nhưng body VẪN feel "vô vọng"
-    → = Fix expression, không fix experience
-    → = Schemas ở tầng 1 → kiểm duyệt ở tầng "ngôn ngữ" → khác tầng
+  ② Censoring Tang Ping ≠ fixing schemas:
+    → Banning the words "lying flat" → but body STILL feels "hopeless"
+    → = Fixes expression, not lived experience
+    → = Schemas operate at Layer 1 → censorship operates at the "language" layer → different layers
 
-  ③ Marriage promotion = declarative, không experiential:
-    → NÓI "cưới là tốt" → nhưng body THẤY "cưới = đắt + mệt"
-    → = Declarative << experiential (Pháp §5 đã chứng minh)
+  ③ Marriage promotion = declarative, not experiential:
+    → SAYING "marriage is good" → but body EXPERIENCES "marriage = expensive + exhausting"
+    → = Declarative << experiential (France §5 already demonstrated this)
 
-  ④ Double Reduction = fix 1 symptom:
-    → Cấm tutoring VỀ MẶT HÌNH THỨC → chuyển ngầm
-    → Gaokao VẪN CÒN → pressure VẪN CÒN → cost VẪN CÒN
-    → = Fix "ngành tutoring" → KHÔNG fix "education arms race"
+  ④ Double Reduction = fixing one symptom:
+    → Banning tutoring FORMALLY → moved underground
+    → Gaokao STILL EXISTS → pressure STILL EXISTS → cost STILL EXISTS
+    → = Fixed "the tutoring industry" → DIDN'T fix "the education arms race"
 
-  ⑤ Xi Jinping "văn hóa sinh sản" (生育文化):
-    → ĐÚNG về principle: cần thay đổi VĂN HÓA
-    → NHƯNG: văn hóa thay đổi qua TRẢI NGHIỆM, không qua tuyên truyền
-    → = Policy CAN compile schemas (one-child đã chứng minh)
-    → = NHƯNG: policy compile GIẢM sinh mất 35 năm
-    → → Policy compile TĂNG sinh cũng cần 20-35+ năm?
-    → → VÀ không thể ÉP SINH (nhân quyền) như đã ÉP KHÔNG SINH
+  ⑤ Xi's "childbirth culture" (生育文化):
+    → CORRECT in principle: cultural change IS needed
+    → BUT: culture changes through LIVED EXPERIENCE, not through propaganda
+    → = Policy CAN compile schemas (one-child proved it)
+    → = BUT: policy compiled REDUCED births over 35 years
+    → → Policy compiling INCREASED births also needs 20–35+ years?
+    → → AND cannot FORCE births (human rights constraint) the way it FORCED childlessness
 ```
 
 ---
 
-## 9. Dự Báo + Hệ Quả
+## 9. Projections and Consequences
 
 ```
-🟢 DỰ BÁO DÂN SỐ — GIẢM MỘT NỬA ĐẾN 2100:
+🟢 POPULATION FORECAST — HALVED BY 2100:
 
-  ┌──────────┬─────────────┬─────────────────┐
-  │ Năm      │ Dân số (tr) │ Thay đổi từ đỉnh│
-  ├──────────┼─────────────┼─────────────────┤
-  │ 2021     │ ~1,412 (đỉnh)│ —               │
-  │ 2025     │ ~1,405      │ −7 triệu        │
-  │ 2030     │ ~1,390      │ −22 triệu       │
-  │ 2050     │ ~1,260-1,310│ −100 đến −150 tr│
-  │ 2075     │ ~950        │ −460 triệu      │
-  │ 2100     │ ~633        │ −780 TRIỆU      │
-  └──────────┴─────────────┴─────────────────┘
+  ┌──────────┬─────────────────┬─────────────────┐
+  │ Year     │ Population      │ Change from Peak │
+  ├──────────┼─────────────────┼─────────────────┤
+  │ 2021     │ ~1,412M (peak)  │ —               │
+  │ 2025     │ ~1,405M         │ −7 million       │
+  │ 2030     │ ~1,390M         │ −22 million      │
+  │ 2050     │ ~1,260–1,310M   │ −100 to −150M   │
+  │ 2075     │ ~950M           │ −460 million     │
+  │ 2100     │ ~633M           │ −780 MILLION     │
+  └──────────┴─────────────────┴─────────────────┘
 
-  → MẤT ~780 triệu người = GIẢM DÂN SỐ LỚN NHẤT lịch sử quốc gia nào
-  → 2100: trở về mức dân số ~1950s
-  → Tỷ lệ dân số toàn cầu: 18% → 6.5%
-  → ⚠️ Một số nhà nhân khẩu (Yi Fuxian): UN VẪN lạc quan quá
-    (vì TFR hiện tại ~0.93 < giả định medium variant UN)
+  → LOSING ~780 million people = LARGEST population decline in any nation's history
+  → By 2100: returns to ~1950s population level
+  → Share of global population: 18% → 6.5%
+  → ⚠️ Some demographers (Yi Fuxian): UN projections are STILL too optimistic
+    (because current TFR ~0.93 is below the UN medium variant assumption)
 
 
-🟢 KHỦNG HOẢNG ĐỒNG THỜI:
+🟢 SIMULTANEOUS CRISES:
 
-  Lao động:
-    → Working-age (15-59): đỉnh 940.7 triệu (2011) → 858 triệu (2024)
-    → ĐÃ MẤT > 80 triệu → sẽ giảm 22% đến 2050
-    → 2050: < 2 người lao động / 1 người 65+
+  Labor Force:
+    → Working-age population (15–59): peaked at 940.7 million (2011) → 858 million (2024)
+    → ALREADY LOST > 80 million → will decline 22% by 2050
+    → 2050: < 2 workers per person aged 65+
 
-  Già hóa:
+  Aging:
     → 65+: 14% (2024) → ~30% (2050) → ~40% (2100)
-    → 2040: 402 triệu người > 60 tuổi
-    → "Già trước khi giàu" — GDP/capita ~$12,500
-      (vs Nhật $30,000+ khi bắt đầu già hóa)
+    → 2040: 402 million people over age 60
+    → "Old before rich" — GDP per capita ~$12,500
+      (vs Japan at $30,000+ when aging began)
 
-  Lương hưu:
-    → Quỹ cơ bản DỰ KIẾN CẠN vào 2035
-    → Đỉnh 6.99 nghìn tỷ yuan (2027)
-    → Thâm hụt từ 2028: 118 tỷ yuan → 11.28 nghìn tỷ (2050)
-    → Tăng tuổi hưu (1/2025): nam → 63, nữ → 55-58
-    → Nhiều người trẻ TỪ CHỐI đóng lương hưu ("không tin sẽ nhận")
+  Pension System:
+    → Basic fund EXPECTED TO RUN DRY by 2035
+    → Peak: 6.99 trillion yuan (2027)
+    → Deficit from 2028: 118 billion yuan → 11.28 trillion (2050)
+    → Retirement age raised (effective January 2025): men → 63, women → 55–58
+    → Many young workers REFUSE to contribute ("don't believe I'll ever receive it")
 
-  GDP:
-    → 2020s: 4-5% → 2030: 3-3.7% → 2040: 2-2.4% → 2050+: 1-2%
-    → IMF: aging giảm productivity ~0.3%/năm (2020-2050)
-    → Nhu cầu nhà ở GIẢM cấu trúc (ít hộ gia đình mới)
-    → Thị trường tiêu dùng THU HẸP tuyệt đối
+  GDP Growth:
+    → 2020s: 4–5% → 2030: 3–3.7% → 2040: 2–2.4% → 2050+: 1–2%
+    → IMF: aging reduces productivity ~0.3%/year (2020–2050)
+    → Housing demand STRUCTURALLY DECLINING (fewer new households)
+    → Consumer market SHRINKING in absolute terms
 
 
-🟡 FRAMEWORK: đây là "domain feedback" ở QUỐC GIA scale:
+🟡 FRAMEWORK: this is Domain Feedback at NATIONAL SCALE:
 
-  → Body nói: "KHÔNG ĐỦ ĐIỀU KIỆN cho thế hệ sau"
-  → 1.4 tỷ body đồng thời signal → effect = KHỔNG LỒ
-  → Giảm dân số = domain TỰ ĐIỀU CHỈNH
-  → NHƯNG: tốc độ giảm > tốc độ thích ứng → crisis
+  → Bodies signal: "CONDITIONS ARE INSUFFICIENT for the next generation"
+  → 1.4 billion bodies signaling simultaneously → effect = ENORMOUS
+  → Population decline = the domain SELF-ADJUSTING
+  → BUT: rate of decline > rate of adaptation → crisis
 ```
 
 ---
 
-## 10. So Sánh Hàn/Nhật — Cùng Văn Hóa, Khác Biến Số
+## 10. Three-Country Comparison: China / South Korea / Japan
 
 ```
-🟡 3 NƯỚC CONFUCIAN — CÙNG PATTERN, KHÁC INTENSITY:
+🟡 3 CONFUCIAN NATIONS — SAME PATTERN, DIFFERENT INTENSITY:
 
-  ┌──────────────────────┬──────────┬──────────┬──────────┐
-  │ Yếu tố              │ 🇨🇳 TQ    │ 🇰🇷 Hàn   │ 🇯🇵 Nhật  │
-  ├──────────────────────┼──────────┼──────────┼──────────┤
-  │ TFR (latest)         │ ~0.93    │ 0.75     │ ~1.20    │
-  │ Cost/GDP per capita  │ 6.3× (#2)│ 7.79×(#1)│ 4.26×    │
-  │ Forced policy legacy │ 35 NĂM  │ 34 năm   │ KHÔNG    │
-  │   → enforcement      │ ÉP CƠ THỂ│ propaganda│ —       │
-  │ Gender imbalance     │ 30M+ nam │ nhẹ      │ nhẹ      │
-  │ Education exam       │ Gaokao   │ Suneung  │ Đa dạng  │
-  │ Work culture         │ 996      │ 1,872h   │ 1,607h   │
-  │ Gender conflict      │ 胜女 rise│ 4B CỰC ĐẠI│ Herbivore│
-  │ Youth despair term   │ Tang ping│ N-po     │ Hikikomori│
-  │ Population shrinking │ Từ 2022  │ Sắp      │ Từ 2008  │
-  │ Pop. projection 2100 │ ~633M    │ ~11-18M  │ ~50-75M  │
-  └──────────────────────┴──────────┴──────────┴──────────┘
-
-
-  ⭐ HÀN THẤP HƠN TQ (0.75 vs 0.93) — TẠI SAO:
-
-    Hàn có THÊM:
-    → Gender conflict (4B) cực đoan hơn TQ
-    → Lookism + military delay (TQ không có)
-    → Suneung cực đoan hơn gaokao (1 kỳ thi vs đa dạng hơn)
-    → Cost #1 thế giới (vs TQ #2)
-    → = Hàn = "worst of all worlds" (01_South-Korea.md §8)
-
-    TQ đang TIẾN VỀ PHÍA HÀN:
-    → Shanghai central < 0.5 ĐÃ thấp hơn Seoul (0.581)
-    → Khi TQ phát triển hơn → cost tăng → TFR sẽ giảm THÊM
-    → 🔴 Hypothesis: TFR TQ urban có thể đạt 0.5-0.7
+  ┌──────────────────────┬──────────────┬──────────────┬──────────────┐
+  │ Factor               │ 🇨🇳 China    │ 🇰🇷 S. Korea  │ 🇯🇵 Japan    │
+  ├──────────────────────┼──────────────┼──────────────┼──────────────┤
+  │ TFR (latest)         │ ~0.93        │ 0.75         │ ~1.20        │
+  │ Cost / GDP per capita│ 6.3× (#2)    │ 7.79× (#1)   │ 4.26×        │
+  │ Forced policy legacy │ 35 YEARS     │ 34 years     │ NONE         │
+  │   → enforcement type │ BODILY       │ propaganda   │ —            │
+  │ Gender imbalance     │ 30M+ men     │ mild         │ mild         │
+  │ Education exam       │ Gaokao       │ Suneung      │ Diverse      │
+  │ Work culture         │ 996          │ 1,872 hrs/yr │ 1,607 hrs/yr │
+  │ Gender conflict term │ 胜女 rising  │ 4B EXTREME   │ Herbivore men│
+  │ Youth despair term   │ Tang Ping    │ N-po         │ Hikikomori   │
+  │ Population shrinking │ Since 2022   │ Imminent     │ Since 2008   │
+  │ Pop. projection 2100 │ ~633M        │ ~11–18M      │ ~50–75M      │
+  └──────────────────────┴──────────────┴──────────────┴──────────────┘
 
 
-  ⭐ NHẬT ỔN ĐỊNH HƠN (~1.2) — TẠI SAO:
+  ⭐ WHY KOREA LOWER THAN CHINA (0.75 vs 0.93):
 
-    Nhật KHÔNG CÓ:
+    Korea has ADDITIONAL factors:
+    → Gender conflict (4B movement) more extreme than China
+    → Lookism culture + mandatory military service delay (China has neither)
+    → Suneung more extreme than gaokao (one exam decides everything vs more diverse pathways)
+    → Cost #1 in the world (vs China #2)
+    → = Korea = "worst of all worlds" (see 01_South-Korea.md §8)
+
+    China MOVING TOWARD KOREA'S TRAJECTORY:
+    → Shanghai city center < 0.5 ALREADY below Seoul (0.581)
+    → As China develops further → cost rises → TFR will fall FURTHER
+    → 🔴 Hypothesis: China's urban TFR may reach 0.5–0.7
+
+
+  ⭐ WHY JAPAN MORE STABLE (~1.2):
+
+    Japan DOES NOT HAVE:
     → One-child policy legacy
     → Gender imbalance
-    → 996 culture MỨC TQ
+    → 996-level work culture
     → Forced schema compilation
 
-    Nhật CÓ (mà TQ/Hàn ít):
-    → Đa dạng đường vào ĐH (không chỉ 1 kỳ thi)
-    → Overwork đã GIẢM (1,607h, thấp hơn nhiều so TQ/Hàn)
-    → Community structure còn (yếu nhưng VẪN hơn TQ urban)
-    → = Nhật có 1-2 yếu tố BÙ → stabilize ở ~1.2 thay vì tiếp tục giảm
+    Japan HAS (that China/Korea largely lack):
+    → Diverse university entrance pathways (not a single defining exam)
+    → Overwork already DECLINING (1,607 hours — much lower than China/Korea)
+    → Community structures still present (weak but BETTER than China's urban areas)
+    → = Japan has 1–2 compensating factors → stabilizes at ~1.2 rather than continuing to fall
 
 
   ⭐ CONFUCIAN CULTURAL ZONE = VULNERABILITY PATTERN:
 
-    3 nước CHIA SẺ:
-    → Education = STATUS DETERMINANT (gaokao/suneung/juken)
-    → Filial piety → "con phải thành công" → investment pressure
-    → Rapid urbanization → extended family PHÁ VỠ
-    → Hierarchical work → overwork + gender inequality
+    All 3 nations SHARE:
+    → Education = STATUS DETERMINANT (gaokao/suneung/juken entrance exams)
+    → Filial piety → "children must succeed" → extreme investment pressure
+    → Rapid urbanization → extended family DEMOLISHED
+    → Hierarchical work culture → overwork + gender inequality
 
-    → = Framework predict: BẤT KỲ nước Confucian nào phát triển
-      đều sẽ gặp 5 trục ÂM → TFR giảm mạnh
-    → = Việt Nam (case tiếp theo) = đang ở GIỮA trajectory này
+    → = Framework predicts: ANY Confucian nation that develops
+      will encounter all 5 axes going negative → TFR collapses
+    → = Vietnam (the next case study) is CURRENTLY MID-TRAJECTORY
 ```
 
 ---
@@ -706,130 +714,115 @@
 ```
   ESTABLISHED — DATA CONFIRMED (🟢):
     🟢 TFR: 7.51 (1963) → 0.93 (2025)
-    🟢 2025: 7.92M births (thấp nhất từ 1949), −3.39M dân số
-    🟢 Dân số giảm 4 năm liên tiếp (2022-2025)
-    🟢 One-child enforcement: 324M IUD, 108M triệt sản, 14.4M phá thai (1983)
-    🟢 "Later, Longer, Fewer" (1971-79): TFR 6.09 → 2.75 TRƯỚC one-child
-    🟢 Policy reversals thất bại: 2013 (10% đăng ký), 2016 (bump rồi collapse),
-       2021 (chế giễu), 2025 (lowest ever DÙ no limit)
-    🟢 Cost: #2 TG (6.3× GDP/capita)
-    🟢 Gender imbalance: peak 121.18 (2004), ~30M+ nam thừa
-    🟢 Marriage: 13M (2013) → 6.1M (2024) = −53%
+    🟢 2025: 7.92 million births (lowest since 1949), −3.39 million population
+    🟢 Population declining 4 consecutive years (2022–2025)
+    🟢 One-child enforcement: 324M IUD insertions, 108M sterilizations,
+       14.4M abortions (1983 alone)
+    🟢 "Later, Longer, Fewer" (1971–79): TFR 6.09 → 2.75 BEFORE one-child policy
+    🟢 Policy reversals all failed: 2013 (10% registered), 2016 (brief bump then collapse),
+       2021 (mocked), 2025 (lowest ever DESPITE no limit remaining)
+    🟢 Cost: #2 in world (6.3× GDP per capita)
+    🟢 Gender imbalance: peak 121.18 (2004), ~30M+ surplus males
+    🟢 Marriage registrations: 13M (2013) → 6.1M (2024) = −53%
     🟢 Cameron et al. 2013 (Science): only-children less trusting, more risk-averse
-    🟢 Negative attitudes: 56.79% → 79.78% trong 3 năm (2021-2024)
-    🟢 Shanghai central TFR < 0.5
-    🟢 Youth unemployment: đỉnh 21.3%
-    🟢 Pension fund dự kiến cạn 2035
-    🟢 UN projection: ~633M by 2100 (−780M từ đỉnh)
-    🟢 Double Reduction: tutoring chuyển ngầm, TFR VẪN giảm
+    🟢 Negative attitudes toward fertility: 56.79% → 79.78% in 3 years (2021–2024)
+    🟢 Shanghai city center TFR < 0.5
+    🟢 Youth unemployment: peak 21.3%
+    🟢 Pension fund projected to run dry 2035
+    🟢 UN projection: ~633M by 2100 (−780M from peak)
+    🟢 Double Reduction Policy: tutoring moved underground, TFR STILL fell
 
   FRAMEWORK ANALYSIS (🟡):
-    🟡 "3 pha forced schema compilation" — framework model
-       consistent với data (behavior change → internalization → lock-in)
-    🟡 "Policy tạo schema. Bỏ policy không bỏ schema." —
-       strongest evidence possible (35 năm + reversal failure)
-    🟡 "One-child × factors = multiply, not add" — logical từ
-       data (4-2-1 × housing, education, psychology) nhưng multiplier
-       chưa quantified
-    🟡 "Tang ping / Bai lan = Imagine-Final collapse" — framework
-       interpretation của documented movement
+    🟡 "3-phase forced schema compilation" — framework model
+       consistent with data (behavior change → internalization → lock-in)
+    🟡 "Policy creates schemas. Removing policy doesn't remove schemas." —
+       strongest possible evidence (35 years + reversal failure)
+    🟡 "One-child × other factors = multiply, not add" — logical from
+       data (4-2-1 × housing × education × psychology) but multiplier
+       not yet quantified
+    🟡 "Tang Ping / Bai Lan = Imagine-Final collapse" — framework
+       interpretation of a documented social movement
     🟡 "Experiential schemas > declarative propaganda" — consistent
-       (one-child compiled deep, "childbirth culture" campaign = surface)
-    🟡 "Confucian vulnerability pattern" — observed in 3 countries,
-       predicted by framework, cần validate với VN + others
+       ("childbirth culture" campaign = surface; one-child compiled deep)
+    🟡 "Confucian vulnerability pattern" — observed across 3 countries,
+       predicted by framework, needs validation with Vietnam + others
 
-  HYPOTHESIS — CẦN VALIDATE (🔴):
-    🔴 "TFR TQ urban sẽ đạt 0.5-0.7" — Shanghai data supports
-       direction nhưng national trajectory uncertain
-    🔴 "Schemas decompilation cần 20-35+ năm" — extrapolation từ
-       compilation timeline, chưa observed
-    🔴 "Forced compilation = one-way process" — TQ evidence strong
-       nhưng CÓ THỂ có conditions for reversal chưa identified
-    🔴 "Gender imbalance damage = 40+ year persistent" — cohort-based
-       logic nhưng behavioral adaptation possible
-    🔴 "TQ sẽ follow Hàn trajectory" — similar factors nhưng
-       TQ có rural population lớn hơn + diversity vùng miền
+  HYPOTHESIS — NEEDS VALIDATION (🔴):
+    🔴 "China's urban TFR will reach 0.5–0.7" — Shanghai data supports
+       direction but national trajectory uncertain
+    🔴 "Schema decompilation needs 20–35+ years" — extrapolated from
+       compilation timeline, not yet observed
+    🔴 "Forced compilation = one-way process" — China evidence strong
+       but conditions for reversal may exist, not yet identified
+    🔴 "Gender imbalance damage = 40+ year persistence" — cohort-based
+       logic but behavioral adaptation remains possible
 ```
 
 ---
 
-## 12. Câu Hỏi Mở
+## 12. Open Questions
 
 ```
-  CN-1: "Later, Longer, Fewer" (1971-79) giảm TFR 55% MÀ KHÔNG ÉP.
-        One-child (1980-2015) ÉP nhưng giảm THÊM ít hơn.
-        → One-child có CẦN THIẾT không? Hay TFR sẽ giảm anyway?
+  CN-1: "Later, Longer, Fewer" (1971–79) reduced TFR by 55% WITHOUT coercion.
+        One-child (1980–2015) used coercion but achieved LESS additional reduction.
+        → Was one-child even NECESSARY? Or would TFR have declined anyway?
 
-  CN-2: Schema decompilation: NẾU TQ tạo xã hội mà "có con = hạnh phúc"
-        (như Israel) → bao lâu để schemas shift? 1 thế hệ? 2?
+  CN-2: Schema decompilation: IF China created a society where "having children = happiness"
+        (as Israel has) → how long would schema shift take? 1 generation? 2?
 
-  CN-3: Rural vs urban divide: rural TFR 1.54 (2020) → vẫn DƯỚI replacement
-        nhưng CAO HƠN urban 1.12. Rural có factors BÙ nào?
+  CN-3: Rural vs urban divide: rural TFR 1.54 (2020) → still BELOW replacement
+        but HIGHER than urban 1.12. What compensating factors exist in rural areas?
 
-  CN-4: Double Reduction → NẾU BỎ gaokao hoàn toàn (impossible politically?)
-        → impact lên birth rate? Hay schemas ĐÃ lock-in?
+  CN-4: Double Reduction → IF the gaokao were abolished entirely (politically impossible?)
+        → what would the impact on birth rates be? Or are schemas already locked in?
 
-  CN-5: Gender imbalance → 30M nam thừa → social stability risk?
-        Framework predict: frustrated Imagine-Final → conflict hoặc apathy?
+  CN-5: Gender imbalance → 30M frustrated men → social stability risk?
+        Framework predicts: frustrated Imagine-Final → conflict or apathy?
 
-  CN-6: Pension crisis 2035 → NẾU chính phủ fails → elderly crisis →
-        reinforces schema "có con = gánh nặng" → VẪN không sinh?
+  CN-6: Pension crisis 2035 → IF the government fails → elderly crisis →
+        reinforces schema "children = burden" → STILL not having children?
 
-  CN-7: AI/automation × aging: TQ invest MẠNH vào robotics.
-        Có thể offset workforce decline? Hay tạo THÊM competing Imagine-Final?
+  CN-7: AI / automation × aging: China investing HEAVILY in robotics.
+        Can this offset workforce decline? Or does it create MORE competing Imagine-Finals?
 
-  CN-8: Immigration: TQ historically CLOSED. Sẽ mở?
-        Cultural homogeneity → immigration resistance → constraint?
+  CN-8: Immigration: China historically CLOSED. Will it open?
+        Cultural homogeneity → immigration resistance → hard structural constraint?
 
-  CN-9: Xi "childbirth culture" (生育文化): NẾU sustained 20+ năm
+  CN-9: Xi's "childbirth culture" (生育文化): IF sustained 20+ years
         + economic improvement + real experiential change →
-        có thể decompile schemas? Hay rhetorical only?
+        can schemas be decompiled? Or is this rhetorical only?
 
-  CN-10: TQ vs VN: VN đang ở đâu trên trajectory? 
-         TQ = cautionary tale → VN có thể TRÁNH?
+  CN-10: China vs Vietnam: where is Vietnam on this trajectory?
+         China = cautionary tale → can Vietnam AVOID it?
 ```
 
 ---
 
-## 13. Kết Nối Với Các File Khác
+## 13. Connections to Other Files
 
 ```
   Framework Core:
-    → Imagine-Final.md §1: 2 tầng — one-child compiled ở tầng 1 (vô thức)
-       → bỏ policy (tầng 2/PFC) → tầng 1 KHÔNG thay đổi
-    → Chunk.md §3: vô thức CÓ THỂ compiled schemas
+    → Imagine-Final.md §1: 2-layer structure — one-child compiled at Layer 1 (unconscious)
+       → removing policy (Layer 2 / Prefrontal Cortex) → Layer 1 UNCHANGED
+    → Chunk.md §3: unconscious layer CAN compile schemas
        → one-child = largest demonstration of forced compilation
     → Connection.md v3.1 §12: Connection × Imagine-Final
-       → 4-2-1 = connection structure BỊ PHÁ by design
+       → 4-2-1 = connection structure DESTROYED by design
     → Collective-Body.md v1.1 §2: collective-level schema compilation
-       → One-child = largest forced Trust Compile compile in history
-    → Cortisol-Baseline.md §3: NET HEALTH = repair − damage
-       → 996 = damage CỰC CAO + repair KHÔNG ĐỦ
-    → Education-Mechanism.md §3.1: Carrot bridge (nguồn ④)
-       → $500/năm vs $75-95K = carrot << cost
+       → One-child = largest forced Trust Compile installation in history
+    → Cortisol-Baseline.md §3: Net Health = repair − damage
+       → 996 = damage EXTREMELY HIGH + repair INSUFFICIENT
+    → Education-Mechanism.md §3.1: Carrot bridge (source ④ External Inject)
+       → $500/year vs $75–95K = carrot << cost
 
-  Birth Rate:
-    → 00_Overview.md: 5 trục + pattern phổ quát
-    → 01_South-Korea.md: CÙNG cultural zone, KHÔNG forced policy
-       → Hàn 0.75 < TQ 0.93 → nhưng TQ ĐANG đuổi theo
+  Birth Rate Series:
+    → 00_Overview.md: 5 axes + universal pattern
+    → 01_South-Korea.md: SAME cultural zone, NO forced policy
+       → Korea 0.75 < China 0.93 → but China IS CATCHING UP
     → 04_France.md: policy CEILING
-       → Pháp 3.5% GDP + crèche → 1.56. TQ chi ÍT hơn → expect THẤP hơn
-       → "Policy fix infrastructure, not desire" = applies to TQ
-    → 06_Israel.md: CONTRAST — schemas "sinh = tốt" 3000 năm
-       → vs TQ schemas "1 con = đủ" 35 năm
-       → CƠ CHẾ GIỐNG (experiential compilation) → HƯỚNG NGƯỢC
+       → France 3.5% GDP + crèche → 1.56. China spends LESS → expect LOWER
+       → "Policy fixes infrastructure, not desire" = applies to China
+    → 06_Israel.md: CONTRAST — schemas "birth = good" over 3,000 years
+       → vs China schemas "1 child = enough" over 35 years
+       → SAME MECHANISM (experiential compilation) → OPPOSITE DIRECTION
 ```
-
----
-
-> *Trung Quốc — "THÍ NGHIỆM ÉP SCHEMA LỚN NHẤT LỊCH SỬ.
-> 35 năm + 324M IUD + 108M triệt sản → schema '1 con = bình thường' compiled SÂU.
-> Bỏ policy (2016) → behavior KHÔNG đổi. 3-child (2021) → CHẾ GIỄU.
-> 2025: 7.92M births (lowest since 1949). Dân số −3.39M (worst since famine).
-> 3 pha: ép hành vi → internalization → schema lock-in.
-> Policy TẠO schema trong 35 năm. BỎ policy KHÔNG bỏ schema.
-> = Cơ chế GIỐNG Israel (experiential → compiled → persistent) → hướng NGƯỢC.
-> One-child × education × housing × 996 × gender imbalance = COMPOUND, not add.
-> Tang ping + Bai lan = Imagine-Final COLLAPSE (= N-po Hàn, cùng mechanism).
-> Projection: −780 triệu đến 2100. Pension cạn 2035. 'Già trước khi giàu.'
-> Bài học: schemas dễ COMPILE, cực khó DECOMPILE."*

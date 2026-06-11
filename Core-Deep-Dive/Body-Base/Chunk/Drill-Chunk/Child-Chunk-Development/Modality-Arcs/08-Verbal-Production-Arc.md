@@ -1,13 +1,14 @@
 ---
-title: 08 — Verbal Production Arc (Nút Thắt 5 + 6 primary home, H11 full formalization)
+title: "08 — Verbal Production Arc (Convergence Points 5 + 6 primary home, H11 full formalization)"
 parent: Child-Chunk-Development
 session: N+4c2
 status: DRILLED
 last_updated: 2026-04-16
+language: English
 drill_phase: F1-P13
 addresses_nut_that: ["5 — ⭐ PRIMARY home (H11 FULL FORMALIZATION)", "6 — ⭐ PRIMARY home (verbal-as-handle verdict)", "4 reinforcement (L2 markers via babbling + referential onset)"]
 hypotheses: ["H11 full formalization", "H1 substrate (load-bearing)", "PFC-Inference Ladder application"]
-framework_contributions: ["R-F1-6 H11 + PFC-Inference Ladder as framework contributions", "Nút Thắt 6 hybrid verdict (retrieval path + symbolic compression, NOT 5th modality, NOT constitutive)"]
+framework_contributions: ["R-F1-6 H11 + PFC-Inference Ladder as framework contributions", "Convergence Point 6 hybrid verdict (retrieval path + symbolic compression, NOT 5th modality, NOT constitutive)"]
 scope: Verbal production arc — mouth motor substrate, babbling progression, referential word onset, body-state verbal labels, autonomy marker, H11 formalization, handle mechanism
 ---
 
@@ -15,21 +16,21 @@ scope: Verbal production arc — mouth motor substrate, babbling progression, re
 
 ## §0 — Abstract
 
-File này drill **verbal production arc** — quỹ đạo phát triển từ cooing 6-8 tuần đến two-word combinations 18-24 tháng — và sử dụng arc này làm empirical backbone cho hai commitments quan trọng của F1:
+This file drills the **verbal production arc** — the developmental trajectory from cooing at 6-8 weeks through two-word combinations at 18-24 months — and uses this arc as the empirical backbone for two major F1 commitments:
 
-1. **Nút Thắt 5 (H11 Receptive-Productive Asymmetry) FULL FORMALIZATION**: Tập hợp 7 đường bằng chứng hội tụ từ [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) §9 (cross-modality name gap 13.5mo), [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) §7 (within-child gesture-verbal 4-8mo), [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) §8 (within-body-state 6-10mo), và [06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md) §6.4 (4 cross-state lines: hunger/pain/thermal/emotional). Tất cả 7 đường hội tụ về **ratio 1:3** (productive bundle ≈ 3× receptive bundle → gap ≈ 2-3× receptive compile time). §6 cung cấp formal statement + 7 falsifiable predictions + 4 alternative hypotheses rejected.
+1. **Convergence Point 5 (H11 Receptive-Productive Asymmetry) FULL FORMALIZATION**: Aggregates 7 converging lines of evidence from [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) §9 (cross-modality name gap 13.5mo), [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) §7 (within-child gesture-verbal 4-8mo), [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) §8 (within-body-state 6-10mo), and [06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md) §6.4 (4 cross-state lines: hunger/pain/thermal/emotional). All 7 lines converge on a **ratio of 1:3** (productive bundle ≈ 3× receptive bundle → gap ≈ 2-3× receptive compile time). §6 provides the formal statement + 7 falsifiable predictions + 4 alternative hypotheses rejected.
 
-2. **Nút Thắt 6 (Verbal-as-Handle) PRIMARY VERDICT**: Verbal labels **không phải là modality thứ 5** (bổ sung vào visual/auditory/somatic/interoceptive/social), **không phải constitutive** (chunks không phụ thuộc vào language). Verdict committed: **Hybrid mechanism — retrieval path + symbolic compression**. Chunks remain substrate (existed pre-verbal, per evidence E1/E9/E12/E15/E18 từ 03-07). Labels là **enhancement layer** — thêm retrieval path độc lập với chunk content, plus symbolic compression cho cross-situational generalization + communication + PFC holdability. Load-bearing cho H1 (chunk substrate independence).
+2. **Convergence Point 6 (Verbal-as-Handle) PRIMARY VERDICT**: Verbal labels are **not a 5th modality** (supplementing visual/auditory/somatic/interoceptive/social), and they are **not constitutive** (chunks do not depend on language). Verdict committed: **Hybrid mechanism — retrieval path + symbolic compression**. Chunks remain substrate (existed pre-verbal, per evidence E1/E9/E12/E15/E18 from 03-07). Labels are an **enhancement layer** — adding a retrieval path independent of chunk content, plus symbolic compression for cross-situational generalization, communication, and PFC holdability. Load-bearing for H1 (chunk substrate independence).
 
-**Arc covered**: cooing 6-8wk → reduplicated babbling 4-6mo → variegated babbling 8-10mo → canonical babbling 8-10mo → "mama/papa" pre-referential 10-12mo → "mama" referential 12-14mo → first 10 words 12-18mo → E21 "đói" 18mo → E22 "đau chân" 20mo → E23 "buồn đái" 22mo → vocabulary spurt 18-24mo → two-word combinations 18-24mo → E31 "không" 18-24mo.
+**Arc covered**: cooing 6-8wk → reduplicated babbling 4-6mo → variegated babbling 8-10mo → canonical babbling 8-10mo → "mama/papa" pre-referential 10-12mo → "mama" referential 12-14mo → first 10 words 12-18mo → E21 "hungry" (đói) 18mo → E22 "hurts" (đau chân) 20mo → E23 "need to pee" (buồn đái) 22mo → vocabulary spurt 18-24mo → two-word combinations 18-24mo → E31 "no" (không) 18-24mo.
 
-**Framework rule maintained**: Zero "PFC matures at X" claims. Mọi event được phân tích theo [01 §6.3](01-PFC-Hardware-Reframe.md#§6) event-inference methodology với 🟢🟡🔴 confidence markers.
+**Framework rule maintained**: Zero "PFC matures at X" claims. All events analyzed per [01 §6.3](01-PFC-Hardware-Reframe.md#§6) event-inference methodology with 🟢🟡🔴 confidence markers.
 
 **Key contributions**:
-- H11 full formal statement (§6.4) với 7 falsifiable predictions
-- Nút Thắt 6 hybrid verdict (§5.4) với 3 alternative candidates rejected
+- H11 full formal statement (§6.4) with 7 falsifiable predictions
+- Convergence Point 6 hybrid verdict (§5.4) with 3 alternative candidates rejected
 - 8 L2 markers updated with babbling + pre-referential vocalization
-- Bridge contract cho F3 Chunk-External-Development Language sub-folder
+- Bridge contract to F3 Chunk-External-Development Language sub-folder
 
 ---
 
@@ -37,17 +38,17 @@ File này drill **verbal production arc** — quỹ đạo phát triển từ co
 
 ### §1.1 — Why verbal production deserves its own file
 
-Verbal production arc có **ba đặc tính unique** không body-input nào khác trong F1 có:
+Verbal production arc has **three unique properties** that no other body-input in F1 has:
 
-1. **Last body-input to reach L4 coordinated**: Trong khi visual reaching đạt L4 ~9-12mo (reaching to target), motor walking đạt L4 ~12-15mo (stable gait), các body-state verbal labels (E21/E22/E23) chỉ đạt L4 ~18-22mo. Verbal là body-output có compile bottleneck dài nhất — phù hợp với H11 prediction (productive bundle lớn nhất).
+1. **Last body-input to reach L4 coordinated**: While visual reaching reaches L4 at ~9-12mo (reaching to target) and motor walking at ~12-15mo (stable gait), body-state verbal labels (E21/E22/E23) only reach L4 at ~18-22mo. Verbal is the body-output with the longest compile bottleneck — consistent with H11 prediction (largest productive bundle).
 
-2. **Contains H11 formalization home**: [04 §9](04-Auditory-System-Arc.md#§9), [05 §7](05-Motor-Output-Arc.md#§7), [06a §8](06a-Interoceptive-Bladder-Keystone.md#§8), [06b §6.4](06b-Interoceptive-Other-States.md#§6.4) đều chỉ về 08 cho primary formalization. Seven converging lines chỉ có ý nghĩa khi được tập hợp lại — arc file nào cũng có thể preview một line, nhưng aggregation + formal statement cần một home file.
+2. **Contains H11 formalization home**: [04 §9](04-Auditory-System-Arc.md#§9), [05 §7](05-Motor-Output-Arc.md#§7), [06a §8](06a-Interoceptive-Bladder-Keystone.md#§8), [06b §6.4](06b-Interoceptive-Other-States.md#§6.4) all point to 08 for primary formalization. Seven converging lines are only meaningful when aggregated — any arc file can preview one line, but the aggregation + formal statement needs a home file.
 
-3. **Contains Nút Thắt 6 verdict home**: Verbal là central case study cho câu hỏi "chunks với labels vs chunks không label". Các body-input khác chỉ preview Nút Thắt 6 (visual via E25 gesture, interoceptive via E21 "đói" note); commitment verdict cần được drill với đầy đủ evidence từ pre-verbal chunks (03-07) + verbal onset (08 §4) + mechanism candidates (08 §5).
+3. **Contains Convergence Point 6 verdict home**: Verbal is the central case study for the question "chunks with labels vs chunks without labels." Other body-inputs only preview Convergence Point 6 (visual via E25 gesture, interoceptive via E21 "hungry" note); the commitment verdict needs to be drilled with full evidence from pre-verbal chunks (03-07) + verbal onset (08 §4) + mechanism candidates (08 §5).
 
 ### §1.2 — What 08 does NOT do
 
-08 **không** drill:
+08 **does not** drill:
 - Language acquisition mechanism at full resolution (deferred to F3 Language sub-folder)
 - Vocabulary taxonomy, grammar architecture, syntax (F3 Language scope)
 - Cross-linguistic variation deep dive (F3 Language scope)
@@ -56,7 +57,7 @@ Verbal production arc có **ba đặc tính unique** không body-input nào khá
 08 **does** drill:
 - Verbal production **arc** (events from cooing to 2-word combinations)
 - H11 **formalization** with evidence compilation + falsifiable predictions
-- Nút Thắt 6 **verdict commitment** with 3 candidates evaluated
+- Convergence Point 6 **verdict commitment** with 3 candidates evaluated
 - Bridge **contract** to F3 Language folder specifying what F3 inherits
 
 ### §1.3 — Relationship to other arc files
@@ -65,9 +66,9 @@ Verbal production arc có **ba đặc tính unique** không body-input nào khá
 |---|---|
 | [04 Auditory](04-Auditory-System-Arc.md) | **Receptive counterpart**. 04 §4 documents auditory pattern chunks (phoneme discrimination, statistical learning, name recognition). 08 §3 cross-refs 04 for receptive side and focuses on production. |
 | [05 Motor Output](05-Motor-Output-Arc.md) | **Motor substrate + gesture-verbal bridge**. 05 §7 previews H11 via within-child gesture-verbal 4-8mo gap. 08 §6 integrates this as line #2 of 7. |
-| [06a Bladder](06a-Interoceptive-Bladder-Keystone.md) | **H11 within-body-state anchor**. 06a §8 preview of within-body-state gap. 08 §6 integrates as line #3 of 7. E23 "buồn đái" verbal onset covered in 08 §4.8 with cross-ref. |
-| [06b Other states](06b-Interoceptive-Other-States.md) | **4 cross-state H11 lines**. 06b §6.4 provides hunger/pain/thermal/emotional gaps. 08 §6 integrates as lines #4-7. E21 "đói" + E22 "đau chân" covered in 08 §4.8. |
-| [07 Social](07-Social-Recognition-Arc.md) | **Pre-verbal social chunks evidence** for Nút Thắt 6 §5.2 (chunks exist without labels). Also gestural pointing E14/E18 as alternative handle precedent. E31 "không" cross-ref in 08 §4.11. |
+| [06a Bladder](06a-Interoceptive-Bladder-Keystone.md) | **H11 within-body-state anchor**. 06a §8 preview of within-body-state gap. 08 §6 integrates as line #3 of 7. E23 "need to pee" verbal onset covered in 08 §4.8 with cross-ref. |
+| [06b Other states](06b-Interoceptive-Other-States.md) | **4 cross-state H11 lines**. 06b §6.4 provides hunger/pain/thermal/emotional gaps. 08 §6 integrates as lines #4-7. E21 "hungry" + E22 "hurts" covered in 08 §4.8. |
+| [07 Social](07-Social-Recognition-Arc.md) | **Pre-verbal social chunks evidence** for Convergence Point 6 §5.2 (chunks exist without labels). Also gestural pointing E14/E18 as alternative handle precedent. E31 "no" cross-ref in 08 §4.11. |
 
 ---
 
@@ -86,7 +87,7 @@ Newborn has functional:
 - ❌ Voluntary phonation separate from crying — not yet compiled
 - ❌ Speech-specific motor chunks (consonant-vowel sequences) — not yet compiled
 
-**Critical clarification**: The hardware (motor cortex + cranial nerves + muscles) is present at birth. The **speech-specific motor chunks** are what's missing. This is not "motor cortex immature" but "chunks chưa compiled" — same reframe logic as [01 §7](01-PFC-Hardware-Reframe.md#§7) applied to a body-output system.
+**Critical clarification**: The hardware (motor cortex + cranial nerves + muscles) is present at birth. The **speech-specific motor chunks** are what's missing. This is not "motor cortex immature" but "chunks not yet compiled" — same reframe logic as [01 §7](01-PFC-Hardware-Reframe.md#§7) applied to a body-output system.
 
 **Evidence for hardware presence**:
 - Fetal yawning, hiccups, swallowing observable via ultrasound from ~10 weeks gestation (Prechtl 1985, de Vries et al. 1982)
@@ -249,7 +250,7 @@ What's missing is **cortical pattern chunks** that orchestrate the existing hard
 
 **Plausibility**: 🟡 the pre-referential → referential distinction is useful analytically but empirically fuzzy. Transition is gradual.
 
-**Critical observation**: This event **falsifies naive "first word" claims**. Many parents celebrate "first word" when baby says "mama" at 10-11mo, but developmental research shows the **referential binding** happens later. The phonological chunk exists before the semantic binding — this is another instance of chunks being strength-weighted (per [04 §6.4](04-Auditory-System-Arc.md#§6.4) Nút Thắt 1 gradient verdict).
+**Critical observation**: This event **falsifies naive "first word" claims**. Many parents celebrate "first word" when baby says "mama" at 10-11mo, but developmental research shows the **referential binding** happens later. The phonological chunk exists before the semantic binding — this is another instance of chunks being strength-weighted (per [04 §6.4](04-Auditory-System-Arc.md#§6.4) Convergence Point 1 gradient verdict).
 
 ### §4.6 — "Mama" referential 12-14 months — word-referent binding
 
@@ -288,20 +289,22 @@ What's missing is **cortical pattern chunks** that orchestrate the existing hard
 
 **Compile mechanism observation**: Early words are **concrete + high-contingency + high-frequency** — consistent with the [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) Precondition-2 compile mechanism (repetition × saliency × contingency × valence). Abstract or low-frequency words come later because they have weaker compile rate modulators.
 
-### §4.8 — Body state verbal labels: "đói" 18mo, "đau" 20mo, "buồn đái" 22mo
+### §4.8 — Body state verbal labels: "hungry" 18mo, "hurts" 20mo, "need to pee" 22mo
 
 This is where verbal production becomes load-bearing for body-input arcs drilled earlier in F1.
 
-#### §4.8.1 — E21 "đói" 18 months
+#### §4.8.1 — E21 "hungry" (đói) — 18 months
 
 **Scenario preserved verbatim** from [Feel-Example E21](../../Body-Base/Feeling/Feel-Example-Draft.md#e21):
 
 > "Bé 18 tháng đang chơi với đồ chơi. Cảm giác đói tăng dần, bụng cồn cào. Bé dừng chơi, đi tới mẹ và nói 'đói' hoặc 'ăn ăn', có thể kèm chỉ vào miệng hoặc bụng."
+>
+> *[English: 18-month-old playing with toys. Hunger sensation builds gradually, stomach rumbling. Baby stops playing, walks to mother, and says "hungry" (đói) or "eat eat" (ăn ăn), sometimes accompanied by pointing at mouth or belly.]*
 
 **Chunks plausibly required**:
 1. Hunger sensation chunk (compiled from [06b §2](06b-Interoceptive-Other-States.md#§2), receptive from E1-E11, ~0-5mo)
-2. Hunger-"đói" label binding chunk (new — verbal handle attachment)
-3. "đói" phonological + articulation chunks
+2. Hunger-"hungry" label binding chunk (new — verbal handle attachment)
+3. "Hungry" phonological + articulation chunks
 4. Social communication chunk (address to mother)
 5. Motor plan (walk to mother)
 
@@ -309,23 +312,27 @@ This is where verbal production becomes load-bearing for body-input arcs drilled
 
 **H11 evidence**: Hunger receptive differentiation at ~5mo (E11 differentiated cry); productive verbal at ~18mo. Gap = ~13mo. This is line #4 of the 7 H11 lines.
 
-**Verbatim quote on handles vs chunks** (critical for Nút Thắt 6 verdict):
+**Verbatim quote on handles vs chunks** (critical for Convergence Point 6 verdict):
 
 > "ngôn ngữ KHÔNG TẠO RA chunks (chunks đã có từ Stage 0 newborn). Nhưng ngôn ngữ TẠO RA HANDLES cho chunks. Một khi có handle (label 'đói'), bé có thể: (1) Nhớ lại chunk khi không đang trải nghiệm (anticipation); (2) Communicate với người khác về chunk; (3) Plan dựa trên chunk; (4) Combine với chunks khác ('đói + mệt'); (5) Eventually: reflect on chunk ('hôm nay tôi đói lắm')."
+>
+> *[English: Language does NOT CREATE chunks (chunks have existed since Stage 0 newborn). But language CREATES HANDLES for chunks. Once a handle exists (label "hungry"), the baby can: (1) Recall the chunk when not currently experiencing it (anticipation); (2) Communicate with others about the chunk (communication); (3) Plan based on the chunk (planning); (4) Combine with other chunks ("hungry + tired") (composition); (5) Eventually: reflect on the chunk ("I was really hungry today") (reflection).]*
 
-This is the anchor quote for §5 Nút Thắt 6 verdict. User's framework commitment is operationalized here as "labels are handles on pre-existing chunks, not constitutive of chunks themselves".
+This is the anchor quote for §5 Convergence Point 6 verdict. The framework commitment is operationalized here: "labels are handles on pre-existing chunks, not constitutive of chunks themselves."
 
-#### §4.8.2 — E22 "đau" + body part pointing 20 months
+#### §4.8.2 — E22 "hurts" (đau) + body part pointing — 20 months
 
 **Scenario preserved verbatim** from [Feel-Example E22](../../Body-Base/Feeling/Feel-Example-Draft.md#e22):
 
 > "Bé 20 tháng vấp ngã, đầu gối va vào sàn. Bé khóc, sau đó (vài giây sau) nói 'đau' và chỉ vào đầu gối."
+>
+> *[English: 20-month-old trips, knee hits the floor. Baby cries, then (seconds later) says "hurts" (đau) and points to knee.]*
 
 **Chunks plausibly required**:
 1. Nociceptive pain chunk (receptive from [06b §3](06b-Interoceptive-Other-States.md#§3), E2/E11)
-2. Pain-"đau" label binding chunk
-3. Body schema location chunk (knowing where "đầu gối" is on own body)
-4. Body part name chunk ("đầu gối" phonological + referent binding)
+2. Pain-"hurts" label binding chunk
+3. Body schema location chunk (knowing where the knee is on own body)
+4. Body part name chunk (phonological + referent binding)
 5. Gestural pointing chunk (may predate verbal location)
 6. Integration of pain location + verbal label + gestural indication
 
@@ -334,22 +341,26 @@ This is the anchor quote for §5 Nút Thắt 6 verdict. User's framework commitm
 **Vietnamese body parts richness observation** (from E22 verbatim):
 
 > "Ngôn ngữ giàu body parts (Vietnamese có nhiều từ chi tiết về body parts — đầu gối, khuỷu tay, gáy, sống mũi...) tạo điều kiện cho deeper body-pattern chunks so với ngôn ngữ generic hơn."
+>
+> *[English: A language rich in body-part terms (Vietnamese has specific vocabulary for many anatomical locations — knee, elbow, nape, nasal bridge...) enables deeper body-pattern chunks compared to more generic languages.]*
 
-This is **Whorfian moderate** — handle granularity in the language influences the granularity of body-schema chunks that can be "grasped explicitly". Not that speakers of different languages have different body schemas at the substrate level, but that the **handles available in the language determine what can be explicitly labeled and manipulated**. This is an important Nút Thắt 6 evidence — labels are handles, and handle granularity affects downstream chunk usage.
+This is **Whorfian moderate** — handle granularity in the language influences the granularity of body-schema chunks that can be "grasped explicitly." Not that speakers of different languages have different body schemas at the substrate level, but that **the handles available in the language determine what can be explicitly labeled and manipulated**. This is important Convergence Point 6 evidence — labels are handles, and handle granularity affects downstream chunk usage.
 
 **H11 evidence**: Pain receptive differentiation from ~5mo (E11); productive verbal ~18-20mo. Gap = ~13-15mo. This is line #5 of the 7 H11 lines.
 
-#### §4.8.3 — E23 "buồn đái" 22 months (cross-ref to 06a)
+#### §4.8.3 — E23 "need to pee" (buồn đái) — 22 months (cross-ref to 06a)
 
 **Scenario preserved verbatim** from [Feel-Example E23](../../Body-Base/Feeling/Feel-Example-Draft.md#e23):
 
 > "Bé 22 tháng đang chơi. Cảm giác bladder fullness tăng dần — bladder stretch receptors gửi signal. Bé dừng chơi, nói 'buồn đái' và đi tìm cha mẹ hoặc tự đi vào nhà vệ sinh."
+>
+> *[English: 22-month-old playing. Bladder fullness sensation building — bladder stretch receptors sending signal. Baby stops playing, says "need to pee" (buồn đái), and goes to find parent or walks to the toilet independently.]*
 
 **Full drill in [06a §4](06a-Interoceptive-Bladder-Keystone.md#§4)**. 08 cross-refs and notes the verbal-label aspect:
 
-- Verbal label "buồn đái" attaches to pre-existing predictive bladder chunk
+- Verbal label "need to pee" attaches to pre-existing predictive bladder chunk
 - First clear instance of **predictive interoception verbalized**
-- E23 "buồn đái" precedes wetting (predictive) vs E3 newborn cry follows wetting (post-hoc)
+- E23 "need to pee" precedes wetting (predictive) vs E3 newborn cry follows wetting (post-hoc)
 - Gap from bladder receptive signal compile (Stage B L2 ~12-18mo) to productive verbal (Stage D L4 ~22mo) = 6-10mo
 
 **H11 evidence**: This is line #3 of the 7 H11 lines ([06a §8](06a-Interoceptive-Bladder-Keystone.md#§8) within-body-state anchor).
@@ -377,7 +388,7 @@ This is **Whorfian moderate** — handle granularity in the language influences 
 
 ### §4.10 — Two-word combinations 18-24 months — basic syntax
 
-**Event**: Baby produces two-word combinations expressing simple semantic relations: "more milk", "daddy go", "mama ăn", "con chơi".
+**Event**: Baby produces two-word combinations expressing simple semantic relations: "more milk", "daddy go", "mama eat" (mama ăn), "I play" (con chơi).
 
 **Observable**: Productive combinations of two content words (often nouns + verbs, or nouns + modifiers). Grammatical markers (articles, inflections) typically absent.
 
@@ -393,16 +404,18 @@ This is **Whorfian moderate** — handle granularity in the language influences 
 
 **Framework note**: Two-word combinations are the entry point for **compositional language**. F1 stops here; F3 Language folder will drill compositional syntax in detail.
 
-### §4.11 — E31 "không" autonomy 18-24 months — self-agency + verbal
+### §4.11 — E31 "no" (không) autonomy 18-24 months — self-agency + verbal
 
 **Scenario preserved verbatim** from [Feel-Example E31](../../Body-Base/Feeling/Feel-Example-Draft.md#e31):
 
 > "Bé 18 tháng. Mẹ đưa thức ăn. Bé nói 'không' mặc dù có thể cũng đói. Hoặc bé tự tìm muỗng để tự xúc thay vì để mẹ xúc — 'tự con!'. Hoặc bé chống lại việc đi ngủ, mặc quần áo, etc."
+>
+> *[English: 18-month-old. Mother offers food. Baby says "no" (không) even though possibly also hungry. Or baby independently finds a spoon to self-feed instead of letting mother feed — "I'll do it myself!" (tự con!). Or baby resists being put to bed, getting dressed, etc.]*
 
 **Chunks plausibly required**:
 1. Self-as-agent chunk (from [07 §4.8](07-Social-Recognition-Arc.md) cross-ref E26 egocentric empathy + E31 autonomy) — newly compiling
 2. Differentiation of self-wants from other-wants (social chunk)
-3. "không" phonological + articulation chunk
+3. "No" phonological + articulation chunk
 4. Negation semantic chunk (rejection, refusal)
 5. Assertion pragmatic chunk (communicative intent)
 
@@ -411,10 +424,12 @@ This is **Whorfian moderate** — handle granularity in the language influences 
 **Critical framework note** (from E31 verbatim):
 
 > "'Không' như marker of self-distinct-from-other. ĐÂY KHÔNG PHẢI VỀ FOOD, mà về AGENCY."
+>
+> *[English: "No" (không) as a marker of self-distinct-from-other. THIS IS NOT ABOUT FOOD — it is about AGENCY.]*
 
-"Không" at 18-24mo is a marker of emerging **self-agency chunks** — not just a linguistic event but a self-chunk event using verbal output as its channel. This couples verbal production with social/self chunks that have been compiling across 07 (E26 egocentric empathy, stranger-self distinction, etc.).
+"No" (không) at 18-24mo is a marker of emerging **self-agency chunks** — not just a linguistic event but a self-chunk event using verbal output as its channel. This couples verbal production with social/self chunks that have been compiling across 07 (E26 egocentric empathy, stranger-self distinction, etc.).
 
-**Cross-cultural note**: Some parenting cultures interpret "terrible twos" as a problem to suppress. Framework position (from E31 verbatim): suppressing self-agency chunks doesn't eliminate them but changes their development (implicit, explosive, or weak). Healthy development **requires room for "không"**. This is a [Body-Parenting-Optimization.md](../../Body-Base/Body-Parenting-Optimization.md) implication ready for R-F1-7 update.
+**Cross-cultural note**: Some parenting cultures interpret "terrible twos" as a problem to suppress. Framework position (from E31 verbatim): suppressing self-agency chunks doesn't eliminate them but changes their development (implicit, explosive, or weak). Healthy development **requires room for "no."** This is a [Body-Parenting-Optimization.md](../../Body-Base/Body-Parenting-Optimization.md) implication ready for R-F1-7 update.
 
 ### §4.12 — Arc summary table
 
@@ -427,18 +442,18 @@ This is **Whorfian moderate** — handle granularity in the language influences 
 | "Mama" pre-referential | 10-12mo | L2 | Phonological pattern without binding | Repetition + caregiver reinforcement |
 | "Mama" referential | 12-14mo | L3 | Phonological + referent + binding | Caregiver contingency + multi-modal |
 | First 10 words | 12-18mo | L3 | ~10 word-referent chunks | Repetition × saliency × contingency × valence |
-| E21 "đói" | 18mo | L4 | Hunger chunk + label + action plan | Saliency + contingency + caregiver labeling |
-| E22 "đau" + body part | 20mo | L4 | Pain + location + label + gesture | Peak valence + caregiver labeling |
-| E23 "buồn đái" | 22mo | L4 | Predictive interoception + label + plan | Repetition + contingency + training |
+| E21 "hungry" (đói) | 18mo | L4 | Hunger chunk + label + action plan | Saliency + contingency + caregiver labeling |
+| E22 "hurts" (đau) + body part | 20mo | L4 | Pain + location + label + gesture | Peak valence + caregiver labeling |
+| E23 "need to pee" (buồn đái) | 22mo | L4 | Predictive interoception + label + plan | Repetition + contingency + training |
 | Vocabulary spurt | 18-24mo | L3-L4 | Many word chunks accumulating | Accumulated receptive + accelerated production |
 | Two-word combinations | 18-24mo | L4 | Individual words + combinatorial | Usage-based + imitation |
-| E31 "không" | 18-24mo | L4 | Self-agency + negation + assertion | Social chunks + verbal channel |
+| E31 "no" (không) | 18-24mo | L4 | Self-agency + negation + assertion | Social chunks + verbal channel |
 
 ---
 
-## §5 — ⭐ Nút Thắt 6 Verbal-as-Handle verdict
+## §5 — ⭐ Convergence Point 6 Verbal-as-Handle verdict
 
-> **This is one of the two sections this file was drilled to deliver.** Nút Thắt 6 asks: "Do chunks always need verbal labels to function? Or can alternative labeling systems (gestures, actions, images) serve the same chunk-handle role? What does adding a verbal label actually do to a chunk?" (per plan §0.6 Nút Thắt 6). This section commits the **primary verdict**.
+> **This is one of the two sections this file was drilled to deliver.** Convergence Point 6 asks: "Do chunks always need verbal labels to function? Or can alternative labeling systems (gestures, actions, images) serve the same chunk-handle role? What does adding a verbal label actually do to a chunk?" (per plan §0.6 Convergence Point 6). This section commits the **primary verdict**.
 
 ### §5.1 — Framework problem statement
 
@@ -448,7 +463,7 @@ The puzzle is sharp: consider the hunger chunk.
 - **Differentiated** (E11, 4-6mo): Baby's cry acoustically distinguishes hunger vs other needs. Chunk has strengthened.
 - **Anticipatory** (06b §2.4, L2 marker): Baby quiets at bottle sight pre-feeding. Chunk fires on anticipatory signal.
 - **Gestural** (E25, ~14mo): Baby gestures toward food or kitchen to request. Chunk has productive gestural handle.
-- **Verbal** (E21, 18mo): Baby says "đói". Chunk has productive verbal handle.
+- **Verbal** (E21, 18mo): Baby says "hungry." Chunk has productive verbal handle.
 
 **Question**: What did the verbal label add to the chunk? The chunk was clearly functioning from birth — firing, orienting attention, driving reflexive action, later driving gesture. What is the mechanism of the label-attachment, and what does the label change?
 
@@ -478,10 +493,10 @@ Three candidate mechanisms for what verbal labels do when they attach to chunks:
 
 #### §5.3.1 — Candidate A: Label = 5th modality add-on
 
-**Claim**: Verbal label is a new modality alongside visual/auditory/somatic/interoceptive/social. Multi-modal binding framework ([07 §6](07-Social-Recognition-Arc.md#§6) Nút Thắt 3) extended to include verbal as 5th modality. The verbal label is bound to the chunk the same way visual/auditory/somatic features are bound — via temporal co-occurrence + Hebbian LTP + amygdala tagging.
+**Claim**: Verbal label is a new modality alongside visual/auditory/somatic/interoceptive/social. Multi-modal binding framework ([07 §6](07-Social-Recognition-Arc.md#§6) Convergence Point 3) extended to include verbal as 5th modality. The verbal label is bound to the chunk the same way visual/auditory/somatic features are bound — via temporal co-occurrence + Hebbian LTP + amygdala tagging.
 
 **Pros**:
-- Consistent with Nút Thắt 3 multi-modal binding framework
+- Consistent with Convergence Point 3 multi-modal binding framework
 - Explains compile mechanism (same temporal co-occurrence mechanism)
 - Explains why labels feel "part of" the chunk experience
 
@@ -540,12 +555,12 @@ Three candidate mechanisms for what verbal labels do when they attach to chunks:
 
 2. **Retrieval path component**: Labels provide an alternative access method to chunks. After label attachment, the chunk can be activated by (a) its original sensory/semantic content or (b) its label. This is **additive**, not replacing — both paths continue to work.
 
-3. **Symbolic compression component**: Labels also compress the chunk into a token that can be held in working memory slots (per Miller 1956), combined with other tokens (E21 "đói + mệt"), communicated to others (E21 requesting), and reflected upon (E21 "hôm nay tôi đói lắm"). These are the 5 uses from E21 verbatim quote:
-   1. Nhớ lại chunk khi không đang trải nghiệm (**anticipation**)
-   2. Communicate với người khác (**communication**)
-   3. Plan dựa trên chunk (**planning**)
-   4. Combine với chunks khác (**composition**)
-   5. Reflect on chunk (**reflection**)
+3. **Symbolic compression component**: Labels also compress the chunk into a token that can be held in working memory slots (per Miller 1956), combined with other tokens (E21 "hungry + tired"), communicated to others (E21 requesting), and reflected upon (E21 "I was really hungry today"). These are the 5 uses from the E21 verbatim quote:
+   1. Recall the chunk when not currently experiencing it (**anticipation**)
+   2. Communicate with others about the chunk (**communication**)
+   3. Plan based on the chunk (**planning**)
+   4. Combine with other chunks (**composition**)
+   5. Reflect on the chunk (**reflection**)
 
 4. **Not 5th modality**: Verbal labels are not parallel to visual/auditory/somatic modalities. They are **symbolic** (arbitrary form-meaning pairings), not sensory channels. Treating them as modality conflates the auditory content (word-form) with the symbolic function (refers-to). The framework commits to verbal being a **distinct architectural layer**, not modality #5.
 
@@ -572,6 +587,8 @@ The verdict has direct implications for H1:
 From E22 verbatim observation (Vietnamese body parts richness):
 
 > "Cấu trúc ngôn ngữ shape cấu trúc chunks. Không phải vì bé 'phát triển khác biological', mà vì handles có sẵn trong ngôn ngữ quyết định cái gì có thể được 'grasped explicitly'."
+>
+> *[English: Language structure shapes chunk structure — not because babies "develop differently biologically," but because the handles available in the language determine what can be "grasped explicitly."]*
 
 **Framework position**: **Moderate Whorfian** — language shapes what chunks can be explicitly labeled and manipulated, but does **not** shape the underlying substrate chunks themselves.
 
@@ -583,7 +600,7 @@ From E22 verbatim observation (Vietnamese body parts richness):
 **What this does NOT mean**:
 - It is NOT that speakers of different languages have different underlying substrate chunks
 - It is NOT that thought is impossible without matching labels
-- It is NOT that non-Vietnamese speakers cannot feel pain in their "đầu gối" region
+- It is NOT that non-Vietnamese speakers cannot feel pain in their knee region
 
 **What it DOES mean**:
 - Labels are handles with granularity; handle granularity determines what can be explicitly grasped + manipulated + reflected upon
@@ -606,9 +623,9 @@ Per [05 §7.3](05-Motor-Output-Arc.md#§7.3) and [Feel-Example E25 notes](../../
 
 **Framework claim**: Verbal labels are one of five handle systems. The cultural dominance of verbal labels biases adult thinkers to equate "chunk handle" with "verbal label", but this is a cultural artifact, not a cognitive necessity.
 
-### §5.8 — Framework update recommendation R-F1-6 (Nút Thắt 6 aspect)
+### §5.8 — Framework update recommendation R-F1-6 (Convergence Point 6 aspect)
 
-**R-F1-6 (scoped for Nút Thắt 6)**: Update [Body-Base/Schema/Chunk.md](../../Body-Base/Schema/Chunk.md) §2 with:
+**R-F1-6 (scoped for Convergence Point 6)**: Update [Body-Base/Schema/Chunk.md](../../Body-Base/Schema/Chunk.md) §2 with:
 
 - Chunks are substrate-layer (content) + enhancement-layer (labels)
 - Labels are retrieval paths + symbolic compression, not constitutive
@@ -616,12 +633,12 @@ Per [05 §7.3](05-Motor-Output-Arc.md#§7.3) and [Feel-Example E25 notes](../../
 - Moderate Whorfian handle granularity claim
 
 Update [Feel-Example-Draft.md](../../Body-Base/Feeling/Feel-Example-Draft.md) with:
-- Cross-reference to 08 §5 Nút Thắt 6 verdict
+- Cross-reference to 08 §5 Convergence Point 6 verdict
 
 Update [99-Master-Synthesis](../../99-Master-Synthesis) (future) with:
 - Chunk substrate vs enhancement architectural commitment
 
-### §5.9 — Open sub-questions on Nút Thắt 6 verdict
+### §5.9 — Open sub-questions on Convergence Point 6 verdict
 
 1. **Relative weight of retrieval path vs symbolic compression**: Both components contribute, but what is the ratio? Does retrieval dominate early (12-18mo) and compression dominate later (adult inner speech)? This would be testable with working memory paradigms comparing labeled vs unlabeled chunks at different ages.
 
@@ -635,7 +652,7 @@ Update [99-Master-Synthesis](../../99-Master-Synthesis) (future) with:
 
 ## §6 — ⭐ H11 Receptive-Productive Asymmetry FULL FORMALIZATION
 
-> **This is the second of the two sections this file was drilled to deliver.** Nút Thắt 5 asks: "Why does production lag comprehension by 6-12 months? What is the mechanism?" (per plan §0.6 Nút Thắt 5). This section commits the **H11 full formal statement** with 7 converging evidence lines + 7 falsifiable predictions + 4 alternative hypotheses rejected.
+> **This is the second of the two sections this file was drilled to deliver.** Convergence Point 5 asks: "Why does production lag comprehension by 6-12 months? What is the mechanism?" (per plan §0.6 Convergence Point 5). This section commits the **H11 full formal statement** with 7 converging evidence lines + 7 falsifiable predictions + 4 alternative hypotheses rejected.
 
 ### §6.1 — Seven converging evidence lines
 
@@ -645,9 +662,9 @@ Across F1 arc files, **seven independent lines** of evidence converge on the rec
 |---|---|---|---|---|---|
 | 1 | [04 §9](04-Auditory-System-Arc.md#§9) name gap | Mandel 1995 own-name 4.5mo | First verbal label ~18mo (E21) | 13.5mo | Cross-modality cognitive content (name recognition → name production) |
 | 2 | [05 §7](05-Motor-Output-Arc.md#§7) gesture-verbal | E25 intentional gesture 14mo | E21 verbal request 18mo | 4-8mo within-child | Motor output channel (hand vs mouth) |
-| 3 | [06a §8](06a-Interoceptive-Bladder-Keystone.md#§8) bladder | Stage B L2 đơ mặt 12-18mo | Stage D L4 E23 22mo | 6-10mo within-state | Receptive vs productive within single interoceptive state |
-| 4 | [06b §2.7](06b-Interoceptive-Other-States.md#§2) hunger | E11 differentiated 5mo | E21 "đói" 18mo | ~13mo | Cross-state parallel (hunger) |
-| 5 | [06b §3.5](06b-Interoceptive-Other-States.md#§3) pain | E11 differentiated 5mo | E22 "đau" 18-20mo | ~13-15mo | Cross-state parallel (pain) |
+| 3 | [06a §8](06a-Interoceptive-Bladder-Keystone.md#§8) bladder | Stage B L2 face-freeze 12-18mo | Stage D L4 E23 22mo | 6-10mo within-state | Receptive vs productive within single interoceptive state |
+| 4 | [06b §2.7](06b-Interoceptive-Other-States.md#§2) hunger | E11 differentiated 5mo | E21 "hungry" 18mo | ~13mo | Cross-state parallel (hunger) |
+| 5 | [06b §3.5](06b-Interoceptive-Other-States.md#§3) pain | E11 differentiated 5mo | E22 "hurts" 18-20mo | ~13-15mo | Cross-state parallel (pain) |
 | 6 | [06b §4.5](06b-Interoceptive-Other-States.md#§4) thermal | Wriggling L3 ~3-12mo | Rarely by 24mo | 12mo+ truncated | Cross-state parallel (thermal — with truncation) |
 | 7 | [06b §5.7](06b-Interoceptive-Other-States.md#§5) emotional | Cry contagion newborn, E12 6-8wk | Emotional verbal 2-3yr | ~24-30mo | Cross-state parallel (emotional — largest gap) |
 
@@ -681,7 +698,7 @@ This matches observed gaps in lines 1, 3, 4, 5 (6-15mo range). Line 2 (gesture-v
 
 **Receptive chunks required** for comprehension/recognition:
 1. Pattern-match chunk (auditory pattern, visual pattern, interoceptive signal)
-2. Possibly: affective valence tag (from amygdala tagging, [07 §6](07-Social-Recognition-Arc.md#§6) NT3 mechanism 4)
+2. Possibly: affective valence tag (from amygdala tagging, [07 §6](07-Social-Recognition-Arc.md#§6) Convergence Point 3 mechanism 4)
 
 Total: **1-2 chunks**.
 
@@ -824,7 +841,7 @@ H11 generates specific testable predictions. Any of the following being falsifie
 
 H11 is entirely consistent with [01 PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md). Instead of "PFC matures at X enabling production", H11 says "production chunks bundle is larger, takes longer to compile, so production onset lags comprehension onset". This is a **content-level** mechanism, not a hardware-level one.
 
-**Framework value**: H11 fills the explanatory gap that PFC reframe opens. Reframe says "PFC is online from birth, so what explains developmental sequence?" H11 answers "chunks compile at rates that depend on bundle size; developmental sequence reflects compile time patterns".
+**Framework value**: H11 fills the explanatory gap that PFC reframe opens. Reframe says "PFC is online from birth, so what explains developmental sequence?" H11 answers "chunks compile at rates that depend on bundle size; developmental sequence reflects compile time patterns."
 
 ### §7.3 — PFC-Inference Ladder validation
 
@@ -841,7 +858,7 @@ The verbal production arc validates PFC-Inference Ladder application:
 | E21/E22/E23 body state verbal | L4 | 🟢 |
 | Vocabulary spurt | L3-L4 | 🟡 |
 | Two-word combinations | L4 | 🟢 |
-| E31 "không" | L4 | 🟢 |
+| E31 "no" (không) | L4 | 🟢 |
 
 **Non-uniform progression observation**: Within the verbal production arc alone, the baby progresses from L1 (6-8wk) to L4 (18mo) over ~16 months. This is slower than motor or social arcs. Consistent with H11 — verbal production has larger chunks bundles than other production arcs, so L4 is reached later.
 
@@ -858,7 +875,7 @@ F3 drill targets (preview):
 - Vocabulary taxonomy (how different word types compile at different rates)
 - Grammar architecture (how compositional structures compile on top of word chunks)
 - Anchor validation (linking F3 language claims to F1 substrate)
-- Cross-linguistic relativity (testing H11 and Nút Thắt 6 across language environments)
+- Cross-linguistic relativity (testing H11 and Convergence Point 6 across language environments)
 - Language synthesis integrating F3 with F1 + Feeling
 
 ---
@@ -875,11 +892,11 @@ F1 commits: **Chunks exist and function without verbal labels**. F3 Language fol
 
 ### §8.2 — Multi-modal binding mechanism
 
-F1 commits: **Binding is 4-mechanism concurrent process** (temporal co-occurrence + multisensory neurons + DMN + amygdala tagging — per [07 §6](07-Social-Recognition-Arc.md#§6) Nút Thắt 3 verdict). F3 Language folder inherits this mechanism for **word-referent binding**. Hearing "dog" while seeing a dog compiles a chunk via the same 4 mechanisms as any other multi-modal binding event.
+F1 commits: **Binding is 4-mechanism concurrent process** (temporal co-occurrence + multisensory neurons + DMN + amygdala tagging — per [07 §6](07-Social-Recognition-Arc.md#§6) Convergence Point 3 verdict). F3 Language folder inherits this mechanism for **word-referent binding**. Hearing "dog" while seeing a dog compiles a chunk via the same 4 mechanisms as any other multi-modal binding event.
 
 **Implication**: Word-referent compile rates should correlate with the 4 mechanism modulators: co-occurrence frequency, multisensory salience, DMN connectivity maturation, affective tagging intensity. F3 can test this via word learning rate correlations with these factors.
 
-### §8.3 — Verbal-as-handle mechanism (Nút Thắt 6 verdict)
+### §8.3 — Verbal-as-handle mechanism (Convergence Point 6 verdict)
 
 F1 commits: **Verbal labels are retrieval paths + symbolic compression, NOT 5th modality, NOT constitutive** (per §5.4). F3 Language folder builds on this commitment:
 
@@ -912,21 +929,21 @@ These are F3 Language folder targets. F3 drill will build on F1 substrate commit
 
 ---
 
-## §9 — Nút Thắt contributions
+## §9 — Convergence Point contributions
 
-### §9.1 — Nút Thắt 5 (Receptive-Productive H11) — ⭐ PRIMARY HOME
+### §9.1 — Convergence Point 5 (Receptive-Productive H11) — ⭐ PRIMARY HOME
 
 **This file's contribution**: H11 FULL FORMALIZATION (§6). Aggregates 7 converging lines from 04 + 05 + 06a + 06b × 4. Commits formal statement + 7 falsifiable predictions + 4 alternative hypotheses rejected + mechanism rationale.
 
 **Primary home location**: §6 of this file is the primary home. [10-F1-Synthesis.md](10-F1-Synthesis.md) §1.5 aggregates + finalizes for 99-Master-Synthesis.
 
-### §9.2 — Nút Thắt 6 (Alternative labeling handles) — ⭐ PRIMARY HOME
+### §9.2 — Convergence Point 6 (Alternative Labeling Handles) — ⭐ PRIMARY HOME
 
 **This file's contribution**: Verbal-as-handle hybrid verdict (§5). Commits Hybrid = Retrieval Path + Symbolic Compression, rejects 5th modality and constitutive candidates, handles pre-verbal chunk evidence, moderate Whorfian handle granularity claim, 5 alternative handle systems identified.
 
 **Primary home location**: §5 of this file. [10-F1-Synthesis.md](10-F1-Synthesis.md) §1.6 aggregates + finalizes.
 
-### §9.3 — Nút Thắt 4 (PFC hardware × chunks) — reinforcement
+### §9.3 — Convergence Point 4 (PFC Hardware × Chunks) — reinforcement
 
 **This file's contribution**: Adds 2 more L2 markers to the catalog:
 - **Reduplicated babbling** (§4.2): pattern-match driven CV repetition, ~4-6mo
@@ -936,13 +953,13 @@ These expand the 8-marker catalog from [06b §7.4](06b-Interoceptive-Other-State
 
 **Primary home**: [01 PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md). 08 contributes markers to the catalog.
 
-### §9.4 — Nút Thắt 1 (Proto-chunk gradient) — secondary evidence
+### §9.4 — Convergence Point 1 (Proto-Chunk Gradient) — secondary evidence
 
 **This file's contribution**: Pre-referential → referential "mama" transition (§4.5 → §4.6) as further evidence of gradient view. The phonological chunk exists before the word-referent binding chunk; binding is not discrete but accumulates. Vocabulary spurt (§4.9) as phase-transition observation consistent with gradient accumulation crossing behavioral detection thresholds.
 
 **Primary home**: [04 §6.4](04-Auditory-System-Arc.md#§6.4). 08 adds supporting evidence.
 
-### §9.5 — Nút Thắt 2 (Precondition-2 compile mechanism) — reinforcement
+### §9.5 — Convergence Point 2 (Precondition-2 Compile Mechanism) — reinforcement
 
 **This file's contribution**: Verbal arc provides additional compile mechanism evidence:
 - **Cooing → babbling**: repetition + social reinforcement dominant
@@ -954,9 +971,9 @@ All consistent with the 4-channel compile × 4-parameter rate formula from [06a 
 
 **Primary home**: [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) + [06b §6.2](06b-Interoceptive-Other-States.md#§6.2). 08 reinforces via verbal arc.
 
-### §9.6 — Nút Thắt 3 (Multi-modal binding) — extension to word-referent
+### §9.6 — Convergence Point 3 (Multi-Modal Binding) — extension to word-referent
 
-**This file's contribution**: Notes that word-referent binding (§4.6 referential "mama", §4.7 first 10 words, §4.8 body-state verbal) is an instance of multi-modal binding per [07 §6](07-Social-Recognition-Arc.md#§6) NT3 verdict. The 4 mechanisms apply:
+**This file's contribution**: Notes that word-referent binding (§4.6 referential "mama", §4.7 first 10 words, §4.8 body-state verbal) is an instance of multi-modal binding per [07 §6](07-Social-Recognition-Arc.md#§6) Convergence Point 3 verdict. The 4 mechanisms apply:
 - Temporal co-occurrence (hearing word while seeing referent)
 - Multisensory neurons (auditory + visual integration)
 - DMN scaffolding (distributed cortical coordination)
@@ -1022,20 +1039,20 @@ All consistent with the 4-channel compile × 4-parameter rate formula from [06a 
 - [01-PFC-Hardware-Reframe.md §4](01-PFC-Hardware-Reframe.md#§4) — 5 pillars of PFC hardware online (baseline for H-alt-1 rejection)
 - [01-PFC-Hardware-Reframe.md §6.3](01-PFC-Hardware-Reframe.md#§6.3) — event-inference methodology rule
 - [02-Womb-to-Birth-Baseline.md §9.1](02-Womb-to-Birth-Baseline.md#§9.1) — F1 baseline state (motor/verbal chunks absent except reflexes)
-- [04-Auditory-System-Arc.md §6.4](04-Auditory-System-Arc.md#§6.4) — Nút Thắt 1 gradient verdict
+- [04-Auditory-System-Arc.md §6.4](04-Auditory-System-Arc.md#§6.4) — Convergence Point 1 gradient verdict
 - [04-Auditory-System-Arc.md §9](04-Auditory-System-Arc.md#§9) — H11 line 1 name gap evidence
-- [05-Motor-Output-Arc.md §7](05-Motor-Output-Arc.md#§7) — H11 line 2 gesture-verbal evidence + Nút Thắt 6 preview
+- [05-Motor-Output-Arc.md §7](05-Motor-Output-Arc.md#§7) — H11 line 2 gesture-verbal evidence + Convergence Point 6 preview
 - [06a-Interoceptive-Bladder-Keystone.md §8](06a-Interoceptive-Bladder-Keystone.md#§8) — H11 line 3 within-body-state evidence
 - [06b-Interoceptive-Other-States.md §6.4](06b-Interoceptive-Other-States.md#§6.4) — H11 lines 4-7 cross-state evidence
-- [07-Social-Recognition-Arc.md §6](07-Social-Recognition-Arc.md#§6) — Nút Thắt 3 multi-mechanism binding verdict (applied to word-referent in §9.6)
+- [07-Social-Recognition-Arc.md §6](07-Social-Recognition-Arc.md#§6) — Convergence Point 3 multi-mechanism binding verdict (applied to word-referent in §9.6)
 
 ### §10.8 — Feel-Example anchors
 
-- [Feel-Example E21](../../Body-Base/Feeling/Feel-Example-Draft.md#e21) — "đói" 18mo ⭐ primary anchor for handle theory verbatim quote (§4.8.1, §5.4)
-- [Feel-Example E22](../../Body-Base/Feeling/Feel-Example-Draft.md#e22) — "đau chân" 20mo, body schema + Whorfian moderate (§4.8.2, §5.6)
-- [Feel-Example E23](../../Body-Base/Feeling/Feel-Example-Draft.md#e23) — "buồn đái" 22mo, predictive interoception verbalized (§4.8.3, cross-ref 06a §4)
+- [Feel-Example E21](../../Body-Base/Feeling/Feel-Example-Draft.md#e21) — "hungry" (đói) 18mo ⭐ primary anchor for handle theory verbatim quote (§4.8.1, §5.4)
+- [Feel-Example E22](../../Body-Base/Feeling/Feel-Example-Draft.md#e22) — "hurts" (đau chân) 20mo, body schema + Whorfian moderate (§4.8.2, §5.6)
+- [Feel-Example E23](../../Body-Base/Feeling/Feel-Example-Draft.md#e23) — "need to pee" (buồn đái) 22mo, predictive interoception verbalized (§4.8.3, cross-ref 06a §4)
 - [Feel-Example E25](../../Body-Base/Feeling/Feel-Example-Draft.md#e25) — gesture 14mo, alternative handle system (§5.7)
-- [Feel-Example E31](../../Body-Base/Feeling/Feel-Example-Draft.md#e31) — "không" 18-24mo, self-agency verbal (§4.11)
+- [Feel-Example E31](../../Body-Base/Feeling/Feel-Example-Draft.md#e31) — "no" (không) 18-24mo, self-agency verbal (§4.11)
 
 ---
 
@@ -1047,20 +1064,20 @@ All consistent with the 4-channel compile × 4-parameter rate formula from [06a 
 - [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) — methodology rule + reframe
 - [02-Womb-to-Birth-Baseline.md](02-Womb-to-Birth-Baseline.md) — baseline at t=0
 - [03-Visual-System-Arc.md](03-Visual-System-Arc.md) — visual chunks compile contribution
-- [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) — receptive counterpart; H11 line 1; Nút Thắt 1 verdict
-- [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) — motor substrate; H11 line 2; Nút Thắt 6 preview
-- [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) — bladder case; H11 line 3; Nút Thắt 2+7; đơ mặt R-F1-2
+- [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) — receptive counterpart; H11 line 1; Convergence Point 1 verdict
+- [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) — motor substrate; H11 line 2; Convergence Point 6 preview
+- [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) — bladder case; H11 line 3; Convergence Points 2+7; face-freeze R-F1-2
 - [06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md) — cross-state arcs; H11 lines 4-7; Precondition-2 5-for-5 validation
-- [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) — Nút Thắt 3 multi-mechanism binding; pre-verbal social chunks; E31 autonomy cross-ref
+- [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) — Convergence Point 3 multi-mechanism binding; pre-verbal social chunks; E31 autonomy cross-ref
 - [09-Event-Chunks-Inference-Matrix.md](09-Event-Chunks-Inference-Matrix.md) — cross-cutting event matrix (verbal events will appear there)
-- [10-F1-Synthesis.md](10-F1-Synthesis.md) — 7 Nút Thắt final verdicts + H11 aggregation + R-F1-6 commitment
+- [10-F1-Synthesis.md](10-F1-Synthesis.md) — 7 Convergence Point final verdicts + H11 aggregation + R-F1-6 commitment
 
 ### §11.2 — Upstream framework files
 
 - [../../Body-Base/Schema/Chunk.md](../../Body-Base/Schema/Chunk.md) — chunk substrate architecture (R-F1-6 update target)
 - [../../Body-Base/Feeling/Feel-Example-Draft.md](../../Body-Base/Feeling/Feel-Example-Draft.md) — E21/E22/E23/E25/E31 verbatim anchors
 - [../../Body-Base/Body-Input-Enumeration.md](../../Body-Base/Body-Input-Enumeration.md) §4.9 — self-signal interoception keystone (for E23 predictive verbal)
-- [../../Body-Base/Body-Parenting-Optimization.md](../../Body-Base/Body-Parenting-Optimization.md) — E31 "không" parenting implications
+- [../../Body-Base/Body-Parenting-Optimization.md](../../Body-Base/Body-Parenting-Optimization.md) — E31 "no" parenting implications
 - [../../Imagination/PFC-Analysis.md](../../Imagination/PFC-Analysis.md) §4 REFRAME block — PFC timeline reframe baseline
 - [../../Modality-Analysis.md](../../Modality-Analysis.md) — modality taxonomy (08 §5 verbal-not-5th-modality commitment)
 - [../../Somatic-Articulation-Loop.md](../../Somatic-Articulation-Loop.md) — internal-only handles (§5.7 fifth handle system)
@@ -1068,7 +1085,7 @@ All consistent with the 4-channel compile × 4-parameter rate formula from [06a 
 ### §11.3 — Drilled sub-folders
 
 - [../Learning-Cycle/Learning-Cycle.md](../Learning-Cycle/Learning-Cycle.md) — learning-cycle mechanism applied to auditory-articulatory loop (§2.3)
-- [../Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) — Resonance framework (E31 "không" self-agency + [07 §7](07-Social-Recognition-Arc.md#§7) cross-refs)
+- [../Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) — Resonance framework (E31 "no" self-agency + [07 §7](07-Social-Recognition-Arc.md#§7) cross-refs)
 - [../Agent/Self-Pattern-Modeling.md](../Agent/Self-Pattern-Modeling.md) — self-chunks for E31 self-as-agent
 - [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5.5 — Precondition-2 compile mechanism for body-state verbal
 
@@ -1107,8 +1124,8 @@ All consistent with the 4-channel compile × 4-parameter rate formula from [06a 
 ✅ **DRILLED N+4c2 (2026-04-16)** — File 08/12 F1 Child-Chunk-Development.
 
 **Deliverables**:
-- ⭐ **Nút Thắt 5 PRIMARY VERDICT COMMITTED** (§6): H11 full formal statement + 7 converging evidence lines + 7 falsifiable predictions + 4 alternative hypotheses rejected
-- ⭐ **Nút Thắt 6 PRIMARY VERDICT COMMITTED** (§5): Verbal-as-handle hybrid verdict (retrieval path + symbolic compression, NOT 5th modality, NOT constitutive)
+- ⭐ **Convergence Point 5 PRIMARY VERDICT COMMITTED** (§6): H11 full formal statement + 7 converging evidence lines + 7 falsifiable predictions + 4 alternative hypotheses rejected
+- ⭐ **Convergence Point 6 PRIMARY VERDICT COMMITTED** (§5): Verbal-as-handle hybrid verdict (retrieval path + symbolic compression, NOT 5th modality, NOT constitutive)
 - Verbal production arc events §4.1-§4.12 with full Ladder classification
 - Framework implications for H1 substrate support (§7.1)
 - Bridge contract to F3 Language folder (§8)
@@ -1119,8 +1136,6 @@ All consistent with the 4-channel compile × 4-parameter rate formula from [06a 
 
 **Next file**: [09-Event-Chunks-Inference-Matrix.md](09-Event-Chunks-Inference-Matrix.md) — aggregate master event table across 03-08 (no new analysis, pure synthesis).
 
-**Mandatory review stop**: User review required before proceeding to 09. "Chậm mà chắc" principle.
-
 ---
 
-**End of 08-Verbal-Production-Arc.md (N+4c2 drill).**
+**End of 08-Verbal-Production-Arc.md (English translation — N+4c2 drill).**

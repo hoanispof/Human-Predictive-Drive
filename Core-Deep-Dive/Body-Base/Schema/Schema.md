@@ -2,19 +2,20 @@
 title: Schema.md v2.0 — Schema as Observation Parameter
 created: 2026-03-25 (v1.0 DRAFT)
 updated: 2026-04-20 (v2.0 REWRITE — observation parameter reframe per v7.8)
+translated: 2026-06-09
 status: v2.0 COMPLETE
 scope: |
   Schema = observation parameter, NOT architectural component.
-  Schema = named chunk-network pattern = cách QUAN SÁT, không phải cách NÃO HOẠT ĐỘNG.
-  File này define: schema là gì, tại sao hữu ích, properties quan sát được,
-  tương tác với body-feedback/PFC/domain, và giới hạn.
+  Schema = named chunk-network pattern = a WAY OF OBSERVING, not how the brain operates.
+  This file defines: what schema is, why it's useful, observable properties,
+  interactions with body-feedback / PFC / domain, and limitations.
 previous_version: Schema/backup/ (v1.1 content redistributed)
 supersedes: |
   Schema-Operations.md (DRAFT 2026-03-26) → backup (content absorbed into Chunk.md v2.0, Feeling.md v2.0)
   Schema-Example.md (DRAFT 2026-03-24) → backup (data valid, framing outdated)
-parent: Core-v7.8-Draft.md §8 (observation parameters table)
+parent: Core-Software.md §8 (observation parameters table)
 dependencies:
-  - Core-v7.8-Draft.md — cycle architecture, observation parameters
+  - Core-Software.md — cycle architecture, observation parameters
   - Chunk.md v2.0 — chunk substrate (sole substrate)
   - Body-Feedback.md v1.1 — dual-pull, Body-Feedback-Precondition, interface loop
   - Body-Feedback-Mechanism.md v1.0 — chunk dynamics (Shift/Miss/Gap)
@@ -22,496 +23,496 @@ dependencies:
   - Cortisol-Baseline.md v2.0 — amplifier, direction gate
   - Valence-Propagation.md v1.1 — valence per-entity + chain
   - Anchor-Schema.md v1.2 — sync point, trust binding
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # Schema — Observation Parameter
 
-> **Trong phần mềm: "hàm" = đơn vị tính toán thật. "Tính năng" = cách mô tả phần mềm từ bên ngoài.**
-> **Trong não: chunks = đơn vị tính toán thật. Schema = cách mô tả chunk networks từ bên ngoài.**
+> **In software: a "function" is the actual unit of computation. A "feature" is how you describe the software from the outside.**
+> **In the brain: chunks are the actual units of computation. Schema is how you describe chunk networks from the outside.**
 >
-> Schema KHÔNG phải component kiến trúc.
-> Schema = named chunk-network pattern — observation label.
-> Hữu ích để mô tả, predict, communicate.
-> Nhưng body-base KHÔNG "chạy schemas" — body-base chạy CHUNKS.
+> Schema is NOT an architectural component.
+> Schema = named chunk-network pattern — an observation label.
+> Useful for description, prediction, and communication.
+> But the body-base does NOT "run schemas" — it runs CHUNKS.
 >
-> File này define schema trong v7.8 cycle-based architecture.
+> This file defines schema within the v7.8 cycle-based architecture.
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — TẠI SAO REFRAME
-- §1 — SCHEMA LÀ GÌ TRONG V7.8
-- §2 — ANALOGY PHẦN MỀM
-- §3 — GIÁ TRỊ CỦA SCHEMA NHƯ OBSERVATION PARAMETER
-- §4 — PROPERTIES QUAN SÁT ĐƯỢC
+- §0 — WHY THE REFRAME
+- §1 — WHAT IS SCHEMA IN THE V7.8 FRAMEWORK
+- §2 — THE SOFTWARE ANALOGY
+- §3 — THE VALUE OF SCHEMA AS OBSERVATION PARAMETER
+- §4 — OBSERVABLE PROPERTIES
 - §5 — SCHEMA × BODY-FEEDBACK
 - §6 — SCHEMA × PFC
 - §7 — SCHEMA × DOMAIN
 - §8 — BODY BASELINE STATE
-- §9 — CÂU HỎI MỞ
+- §9 — OPEN QUESTIONS
 - §10 — HONEST ASSESSMENT
 - §11 — CROSS-REFERENCES
 
 ---
 
-## §0 — TẠI SAO REFRAME
+## §0 — WHY THE REFRAME
 
-### §0.1 Schema trong v1.1
+### §0.1 Schema in v1.1
 
 ```
 V1.1 (2026-03-25 → 2026-04-18):
-  → Schema = "PATTERN dao động neuron đã ổn định (compiled)"
-  → Schema = SOFTWARE chạy trên HARDWARE (neurons)
-  → Schema System = component kiến trúc (cùng cấp Drive, Layer)
-  → Chunks = "gạch", Schema = "ngôi nhà"
+  → Schema = "a compiled, stable neural oscillation pattern"
+  → Schema = SOFTWARE running on HARDWARE (neurons)
+  → Schema System = architectural component (same level as Drive, Layer)
+  → Chunks = "bricks", Schema = "the building"
 
-  Vấn đề:
-  ① Schema TRÔNG GIỐNG component riêng biệt → nhưng thực chất = chunks + links
-  ② "Schema compiled" → gợi ý schema LÀ thứ gì đó → thực chất chunks compiled
-  ③ 3 trạng thái (compiled/active/monitor) → thực chất là chunk activation states
-  ④ Tương tác schema-schema → thực chất là chunk spreading activation
-  → = MỌI THỨ schema "làm" = chunks làm. Schema chỉ là TÊN GỌI.
+  Problems:
+  ① Schema LOOKS like a separate component → but is actually = chunks + links
+  ② "Compiled schema" → implies schema IS something → actually chunks are compiled
+  ③ 3 states (compiled/active/monitor) → actually chunk activation states
+  ④ Schema-schema interaction → actually chunk spreading activation
+  → = EVERYTHING a schema "does" = what chunks do. Schema is just a NAME.
 ```
 
-### §0.2 Deep drill revealed
+### §0.2 What deep drilling revealed
 
 ```
-63,000+ dòng drill (44+ files, 2026-03 → 2026-04) cho kết quả nhất quán:
+63,000+ lines of drilling (44+ files, 2026-03 → 2026-04) yielded consistent results:
 
-  Chunk.md v2.0: "Não = database + 2 operators" → chunks = sole substrate
-  Body-Feedback.md: "6-step interface loop" → cycle, không components
-  Agent.md: "Agent = function on chunk substrate" → không category riêng
+  Chunk.md v2.0: "Brain = database + 2 operators" → chunks = sole substrate
+  Body-Feedback.md: "6-step interface loop" → cycles, not components
+  Agent.md: "Agent = function on chunk substrate" → no separate category
   Feeling.md v2.0: "PFC observation of body-chunk interaction" → interface
   Drive.md v1.1: "Schema = DETECTOR, drive = emergent" → observation label
-  Core-v7.8-Draft.md §0.2: 9/9 files compatible với reframe
+  Core-Software.md §0.2: 9/9 files compatible with the reframe
 
-  → Schema = observation label cho chunk network patterns
-  → Giống "tính năng" trong phần mềm: mô tả từ bên ngoài, không phải cấu trúc bên trong
+  → Schema = observation label for chunk network patterns
+  → Like "feature" in software: describes from the outside, not the internal structure
 ```
 
-### §0.3 V2.0 = gì
+### §0.3 What v2.0 is
 
 ```
 V2.0 REFRAME:
-  → Schema = OBSERVATION PARAMETER (cùng nhóm: Novelty, Status, Protect,...)
-  → Body-base chạy HOÀN TOÀN trên chunks
-  → Schema = cách CON NGƯỜI QUAN SÁT chunk network patterns
-  → Vẫn HỮU ÍCH — nhưng phải biết đây là lens, không phải reality
+  → Schema = OBSERVATION PARAMETER (same group as: Novelty, Status, Protect, ...)
+  → Body-base runs ENTIRELY on chunks
+  → Schema = how HUMANS OBSERVE chunk network patterns
+  → Still USEFUL — but you must know this is a lens, not reality
 
-  KHÔNG thay đổi:
-  → Properties quan sát được (depth, activation, decay, override) vẫn VALID
-  → Ví dụ vẫn đúng (tình yêu lifecycle, burnout, trauma cross-contamination)
-  → Chỉ thay đổi STATUS: từ "component" → "observation parameter"
+  UNCHANGED:
+  → Observable properties (depth, activation, decay, override) remain VALID
+  → Examples remain correct (love lifecycle, burnout, trauma cross-contamination)
+  → Only the STATUS changes: from "component" → "observation parameter"
 ```
 
 ---
 
-## §1 — SCHEMA LÀ GÌ TRONG V7.8
+## §1 — WHAT IS SCHEMA IN THE V7.8 FRAMEWORK
 
-### §1.1 Định nghĩa
+### §1.1 Definition
 
 ```
 ⭐ SCHEMA = NAMED CHUNK-NETWORK PATTERN:
 
-  Schema = tập hợp chunks liên kết + mục đích chung + TÊN GỌI
+  Schema = a set of linked chunks + shared purpose + A NAME
 
-  Chunks [đạp phanh] + [nhìn gương] + [đánh lái] + [quan sát] +...
-    + links giữa chúng
-    + purpose: "di chuyển an toàn"
-    = Schema mà ta GỌI LÀ "lái xe"
+  Chunks [brake] + [check mirror] + [steer] + [observe surroundings] + ...
+    + the links between them
+    + purpose: "move safely"
+    = the schema we CALL "driving a car"
 
-  Schema KHÔNG TỒN TẠI như 1 entity riêng biệt trong não.
-  Schema = CÁI TÊN mà PFC (hoặc observer bên ngoài) ĐẶT CHO
-  chunk network pattern quan sát được.
+  Schema does NOT EXIST as a separate entity in the brain.
+  Schema = the NAME that PFC (or an outside observer) ASSIGNS TO
+  an observable chunk network pattern.
 
-  CHUNK = atom (đơn vị tính toán thật, fire trong não)
-  SCHEMA = molecule (tên gọi cho nhóm atoms liên kết)
-  ATOM TỒN TẠI VẬT LÝ → molecule = cách ta MÔ TẢ tổ hợp atoms
+  CHUNK = atom (actual unit of computation, fires in the brain)
+  SCHEMA = molecule (name for a group of linked atoms)
+  ATOMS EXIST PHYSICALLY → molecule = how we DESCRIBE the combination of atoms
 
   🟡 Reframe key:
-  → "Schema fire" = chunks trong network đó fire
-  → "Schema compiled" = chunks trong network đó đã strengthened
-  → "Schema conflict" = 2 nhóm chunks fire hướng ngược nhau
-  → "Schema update" = chunk links trong network re-weight
-  → MỌI "schema operation" = chunk operation + observation label
+  → "Schema fires" = chunks in that network fire
+  → "Schema compiled" = chunks in that network have been strengthened
+  → "Schema conflict" = 2 groups of chunks firing in opposing directions
+  → "Schema update" = chunk links in that network re-weight
+  → EVERY "schema operation" = chunk operation + observation label
 ```
 
-### §1.2 Schema vs Chunk — phân biệt rõ
+### §1.2 Schema vs Chunk — clear distinction
 
 ```
 ┌───────────────┬──────────────────────────────────────┐
 │               │ Chunk                                 │
 ├───────────────┼──────────────────────────────────────┤
-│ Ontology      │ TỒN TẠI VẬT LÝ (neurons wired)     │
-│ Level         │ Atom — đơn vị nhỏ nhất               │
-│ Fire          │ Fire THẬT trong não (measurable)      │
+│ Ontology      │ PHYSICALLY EXISTS (neurons wired)    │
+│ Level         │ Atom — smallest unit                  │
+│ Firing        │ Actually FIRES in the brain (measur.)│
 │ Mechanism     │ LTP, spreading activation, compile    │
-│ Phân loại     │ KHÔNG THỂ phân loại hết (vô hạn)     │
-│ Ví dụ         │ [đỏ], [nóng], [mẹ-mặt], [phanh-chân]│
+│ Classification│ CANNOT be fully classified (infinite) │
+│ Examples      │ [red], [hot], [mother-face], [brake]  │
 └───────────────┴──────────────────────────────────────┘
 
 ┌───────────────┬──────────────────────────────────────┐
 │               │ Schema                                │
 ├───────────────┼──────────────────────────────────────┤
-│ Ontology      │ OBSERVATION LABEL (tên gọi pattern)  │
-│ Level         │ Molecule — tên cho tổ hợp atoms       │
-│ Fire          │ "Fire" = chunks trong network fire     │
-│ Mechanism     │ KHÔNG có mechanism riêng              │
-│ Phân loại     │ CÓ THỂ đặt tên (nhưng tên ≠ reality)│
-│ Ví dụ         │ "lái xe", "sợ chó", "tình yêu"       │
+│ Ontology      │ OBSERVATION LABEL (name for pattern) │
+│ Level         │ Molecule — name for a group of atoms  │
+│ Firing        │ "Fires" = chunks in the network fire  │
+│ Mechanism     │ Has NO mechanism of its own           │
+│ Classification│ CAN be named (but name ≠ reality)    │
+│ Examples      │ "driving", "fear of dogs", "love"     │
 └───────────────┴──────────────────────────────────────┘
 
 ⭐ TEST:
-  "Bỏ khái niệm schema → mất gì?"
-  → Mất: shorthand tiện lợi, cách communicate nhanh
-  → KHÔNG mất: mechanism (chunks vẫn fire, link, compile y nguyên)
+  "Remove the concept of schema — what do you lose?"
+  → Lose: a convenient shorthand, a fast way to communicate
+  → Do NOT lose: mechanism (chunks still fire, link, compile identically)
   → = Schema = convenience, NOT necessity
 ```
 
 ---
 
-## §2 — ANALOGY PHẦN MỀM
+## §2 — THE SOFTWARE ANALOGY
 
 ```
-⭐ "TÍNH NĂNG" TRONG PHẦN MỀM = SCHEMA TRONG NÃO:
+⭐ "FEATURE" IN SOFTWARE = SCHEMA IN THE BRAIN:
 
-  PHẦN MỀM:
-    → "Hàm" (function) = đơn vị tính toán thật
-    → Mỗi hàm có code thật, chạy trên CPU thật
-    → Có thể call, có thể link, có thể reuse
-    → VÔ HẠN hàm có thể tồn tại (tùy nhu cầu)
-    → KHÔNG THỂ phân loại hết các hàm
+  SOFTWARE:
+    → "Function" = actual unit of computation
+    → Each function has real code, runs on a real CPU
+    → Can be called, linked, reused
+    → INFINITE functions can exist (depending on need)
+    → CANNOT fully classify all functions
 
-    → "Tính năng" (feature) = cách MÔ TẢ phần mềm từ bên ngoài
-    → "Game có tính năng shop" → shop = NHIỀU hàm kết hợp
-    → "Game có tính năng xếp hạng" → xếp hạng = NHIỀU hàm kết hợp
-    → Shop và xếp hạng có thể DÙNG CHUNG 1 hàm cơ bản
-    → Thêm/bớt/sửa tính năng = thay đổi cách gọi, KHÔNG thay đổi hàm
+    → "Feature" = how you DESCRIBE software from the outside
+    → "The game has a shop feature" → shop = MANY functions combined
+    → "The game has a leaderboard feature" → leaderboard = MANY functions combined
+    → Shop and leaderboard may SHARE 1 underlying function
+    → Add/remove/modify a feature = change how you call things, NOT the functions
 
-    → Tính năng = OBSERVATION PARAMETER:
-      ✅ Hữu ích: user biết phần mềm "LÀM ĐƯỢC GÌ"
-      ✅ Communicate: product manager nói "tính năng shop" → team hiểu
-      ❌ Không phải technical: dev không code "tính năng" → dev code "hàm"
-      ❌ Tính năng KHÔNG tồn tại riêng biệt → là tên gọi cho tổ hợp hàm
+    → Feature = OBSERVATION PARAMETER:
+      ✅ Useful: users know what the software "CAN DO"
+      ✅ Communicative: product manager says "shop feature" → team understands
+      ❌ Not technical: devs don't code "features" → devs code "functions"
+      ❌ Feature does NOT exist separately → it's a name for a combination of functions
 
-  NÃO:
-    → "Chunk" = đơn vị tính toán thật
-    → Mỗi chunk = neurons fire đồng bộ, synapses thật
-    → VÔ HẠN chunks (tùy experience)
-    → KHÔNG THỂ phân loại hết chunks
+  BRAIN:
+    → "Chunk" = actual unit of computation
+    → Each chunk = neurons firing synchronously, real synapses
+    → INFINITE chunks (depending on experience)
+    → CANNOT fully classify all chunks
 
-    → "Schema" = cách MÔ TẢ chunk networks từ bên ngoài
-    → "Sợ chó" = NHIỀU chunks kết hợp ([chó]+[nguy hiểm]+[lùi]+[tim đập])
-    → "Lái xe" = NHIỀU chunks kết hợp ([phanh]+[lái]+[gương]+[tốc độ])
-    → "Sợ chó" và "sợ rắn" DÙNG CHUNG chunk [nguy hiểm]
-    → Thêm/bớt/sửa schema = thay đổi tên gọi, chunks VẪN fire
+    → "Schema" = how you DESCRIBE chunk networks from the outside
+    → "Fear of dogs" = MANY chunks combined ([dog]+[danger]+[retreat]+[heart racing])
+    → "Driving a car" = MANY chunks combined ([brake]+[steer]+[mirror]+[speed])
+    → "Fear of dogs" and "fear of snakes" SHARE the chunk [danger]
+    → Add/remove/modify a schema = change the name, chunks STILL fire
 
     → Schema = OBSERVATION PARAMETER:
-      ✅ Hữu ích: "anh ấy có schema tình yêu phức tạp" → nhanh hiểu
-      ✅ Communicate: therapist nói "schema cũ fire" → client hiểu
-      ❌ Không phải mechanism: não KHÔNG "chạy schema" → não fire chunks
-      ❌ Schema KHÔNG tồn tại riêng biệt → là tên gọi cho chunk network
+      ✅ Useful: "he has a complex love schema" → quick to understand
+      ✅ Communicative: therapist says "old schema firing" → client understands
+      ❌ Not a mechanism: the brain does NOT "run schemas" → brain fires chunks
+      ❌ Schema does NOT exist separately → it's a name for a chunk network
 
-  MỞ RỘNG:
-    → FlappyBird và CandyCrush: hàm KHÁC ĐÁ KỂ, overlap chút engine
-    → Giáo sư toán và nhân viên tạp hóa: chunks toán OVERLAP, chunks khác KHÁC
-    → Source Excel KHÔNG dùng viết FlappyBird: chunks MỘT domain ≠ chunks domain KHÁC
-    → Dev game học web DỄ HƠN newbie: engine chunks overlap → transfer partial
-    → = Giống chunks: overlap PARTIAL, transfer PARTIAL, không 100%
+  EXTENDED:
+    → FlappyBird and CandyCrush: vastly DIFFERENT functions, minor engine overlap
+    → Math professor and grocery clerk: math chunks OVERLAP, other chunks DIFFER
+    → Excel source code CANNOT write FlappyBird: one-domain chunks ≠ another's
+    → Dev learning web after game dev IS EASIER than a newcomer: engine chunks overlap → partial transfer
+    → = Like chunks: overlap PARTIAL, transfer PARTIAL, never 100%
 ```
 
 ---
 
-## §3 — GIÁ TRỊ CỦA SCHEMA NHƯ OBSERVATION PARAMETER
+## §3 — THE VALUE OF SCHEMA AS OBSERVATION PARAMETER
 
 ```
-🟡 SCHEMA VẪN HỮU ÍCH — biết rõ giới hạn:
+🟡 SCHEMA IS STILL USEFUL — when you know its limits:
 
-  ① MÔ TẢ (Descriptive):
-     → "Schema tình yêu bị trauma contaminate" = shorthand cho:
-       "chunks connection + chunks trust + chunks trauma chia sẻ
-       shared chunks [hồi hộp] → fire trauma khi fire connection"
-     → Schema = ngôn ngữ NGẮN cho pattern chunk PHỨC TẠP
-     → KHÔNG cần nói 50 chunks → nói 1 tên schema
+  ① DESCRIPTIVE:
+     → "Love schema contaminated by trauma" = shorthand for:
+       "chunks [connection] + chunks [trust] + chunks [trauma] sharing
+       shared chunk [excitement] → trauma fires when connection fires"
+     → Schema = SHORT LANGUAGE for COMPLEX chunk patterns
+     → No need to name 50 chunks → name 1 schema
 
-  ② DỰ ĐOÁN (Predictive):
-     → "Người có schema sợ bị bỏ → predict ghen tuông khi partner bận"
-     → = Người có chunk network [bỏ rơi + lo + kiểm soát] compiled mạnh
-       → predict chunks fire khi partner absent → ghen tuông
-     → Schema giúp PREDICT hành vi nhanh hơn liệt kê chunks
+  ② PREDICTIVE:
+     → "Person with an abandonment schema → predict jealousy when partner is busy"
+     → = Person has chunk network [abandoned + anxious + controlling] compiled strongly
+       → predict chunks fire when partner is absent → jealousy
+     → Schema helps PREDICT behavior faster than listing all chunks
 
-  ③ GIAO TIẾP (Communicative):
-     → Therapist: "schema cũ đang fire" → client hiểu ngay
-     → Nếu nói: "chunk network [childhood abandonment + cortisol association
-       + amygdala pattern] đang spread activate" → KHÔNG AI hiểu
-     → Schema = ngôn ngữ cho NON-EXPERTS
+  ③ COMMUNICATIVE:
+     → Therapist: "old schema firing" → client understands immediately
+     → If instead: "chunk network [childhood abandonment + cortisol association
+       + amygdala pattern] is spreading activation" → NOBODY understands
+     → Schema = language for NON-EXPERTS
 
-  ④ NAVIGATE (Navigation aid):
-     → "Fix schema tình yêu" = practical instruction:
-       nhận diện pattern → body-listen → phân biệt chunks
-     → KHÔNG CẦN biết chính xác chunks nào → biết PATTERN = đủ navigate
-     → Schema = compass, KHÔNG phải GPS
+  ④ NAVIGATIONAL:
+     → "Fix the love schema" = practical instruction:
+       recognize the pattern → listen to the body → distinguish chunks
+     → No need to know which exact chunks → knowing the PATTERN = enough to navigate
+     → Schema = a compass, NOT a GPS
 
-  ⚠️ GIỚI HẠN:
-     → Schema KHÔNG phải mechanism → KHÔNG dùng để THIẾT KẾ can thiệp
-     → Can thiệp phải ở chunk level:
-       thay đổi body-input, compile chunks mới, re-associate existing chunks
-     → "Fix schema" = actually "re-wire chunk links" + "compile new chunks"
-     → Nói "fix schema" = tiện → nhưng phải BIẾT underneath = chunk work
+  ⚠️ LIMITATIONS:
+     → Schema is NOT a mechanism → do NOT use it to DESIGN interventions
+     → Interventions must work at the chunk level:
+       change body input, compile new chunks, re-associate existing chunks
+     → "Fix the schema" = actually "re-wire chunk links" + "compile new chunks"
+     → Saying "fix the schema" = convenient → but you must KNOW underneath = chunk work
 ```
 
 ---
 
-## §4 — PROPERTIES QUAN SÁT ĐƯỢC
+## §4 — OBSERVABLE PROPERTIES
 
 ### §4.1 Gradient Depth (chunk compile depth)
 
 ```
-🟡 Schema quan sát được có DEPTH GRADIENT:
+🟡 Observable schemas have a DEPTH GRADIENT:
 
-  Thực chất: chunks compiled ở depths khác nhau.
-  Observation label: "schema sâu" hay "schema nông".
+  Underlying reality: chunks compiled at different depths.
+  Observation label: "deep schema" or "shallow schema."
 
-  NÔNG (domain-specific, ít repetition, ít modality):
-    → "Trời mưa mang ô" — chunks ít, links yếu
-    → Thay đổi: NGÀY (đổi context = đổi ngay)
-    → Ảnh hưởng: HẸP (1 context)
+  SHALLOW (domain-specific, little repetition, few modalities):
+    → "Carry an umbrella when it rains" — few chunks, weak links
+    → Changeable: in DAYS (change context = change immediately)
+    → Impact: NARROW (1 context)
 
-  GIỮA (cross-context, nhiều repetition):
-    → "Phải luôn productive" — chunks nhiều, reinforced qua năm
-    → Thay đổi: TUẦN → THÁNG (cần repeated experience mới)
-    → Ảnh hưởng: TRUNG BÌNH (nhiều contexts)
+  INTERMEDIATE (cross-context, more repetition):
+    → "I must always be productive" — many chunks, reinforced over years
+    → Changeable: WEEKS → MONTHS (requires repeated new experience)
+    → Impact: MODERATE (many contexts)
 
-  SÂU (body-embedded, emotional weight lớn):
-    → "Tôi vô giá trị" — chunks embedded vào cortisol baseline, muscle tension
-    → Thay đổi: THÁNG → NĂM (phải thay đổi BODY, không chỉ "nghĩ khác")
-    → Ảnh hưởng: RỘNG (ảnh hưởng mọi context)
+  DEEP (body-embedded, high emotional weight):
+    → "I am worthless" — chunks embedded in cortisol baseline, muscle tension
+    → Changeable: MONTHS → YEARS (must change the BODY, not just "think differently")
+    → Impact: BROAD (affects every context)
 
-  DEPTH = f(số lần lặp × số modality × emotional weight)
-  → Depth CAO = synapses MẠNH = chunk links dày = khó re-wire
-  → Depth THẤP = synapses YẾU = chunk links mỏng = dễ re-wire
+  DEPTH = f(number of repetitions × number of modalities × emotional weight)
+  → High depth = STRONG synapses = dense chunk links = hard to re-wire
+  → Low depth = WEAK synapses = thin chunk links = easy to re-wire
 
-  ⚠️ DEPTH CHỈ LÀ 1 CHIỀU — 2D MODEL:
-  → Chiều 2 = LINK DENSITY (pattern linked với bao nhiêu chunks khác qua thời gian)
-  → High Depth + Low Density (bị chó cắn 1 lần): PFC thấy, therapy weeks
-  → Low Depth + High Density (cultural pattern): PFC KHÔNG thấy, therapy YEARS
-  → Chi tiết: Chunk/Background-Pattern.md (2D model Compile Depth × Link Density)
+  ⚠️ DEPTH IS ONLY 1 DIMENSION — 2D MODEL:
+  → Dimension 2 = LINK DENSITY (how many other chunks the pattern has linked with over time)
+  → High Depth + Low Density (bitten by a dog once): PFC notices, weeks of therapy
+  → Low Depth + High Density (cultural pattern): PFC does NOT notice, YEARS of therapy
+  → Details: Chunk/Background-Pattern.md (2D model: Compile Depth × Link Density)
 
-  🟢 Kiểm chứng "trúng số" (Brickman et al. 1978):
-    Surface: "mai không đi làm" → ĐỔI NGAY ✅
-    Mid: "tôi là người giàu" → vài tháng mới "tin" ⚠️
-    Deep: "tôi vô giá trị" → VẪN CÒN dù giàu ❌
-    Body: cortisol baseline VẪN CAO ❌
-    → ~70% lottery winners quay về happiness baseline trong 1-2 năm
-    → Vì: deep chunk networks KHÔNG đổi vì surface change
+  🟢 "Lottery winner" verification (Brickman et al. 1978):
+    Surface: "tomorrow I won't go to work" → CHANGES IMMEDIATELY ✅
+    Mid: "I am a wealthy person" → months before they truly "believe" it ⚠️
+    Deep: "I am worthless" → STILL PRESENT even after becoming wealthy ❌
+    Body: cortisol baseline STILL HIGH ❌
+    → ~70% of lottery winners return to their happiness baseline within 1–2 years
+    → Because: deep chunk networks do NOT change due to surface-level change
 ```
 
 ### §4.2 Activation States (chunk activation observation)
 
 ```
-🟡 Schema quan sát được ở 3 trạng thái — thực chất = chunk activation:
+🟡 Observable schema states — actually = chunk activation levels:
 
-  "COMPILED" (vô thức, auto-run):
-    → Chunks fire TỰ ĐỘNG khi trigger match
-    → PFC KHÔNG tham gia
-    → Observation: "hành vi tự động", "biết mà không cần nghĩ"
-    → Mechanism: chunk spreading activation probability-weighted
-    → VD: thấy chó → chunks [threat-chó] fire → lùi. Không cần "nghĩ"
-    → = PHẦN LỚN hành vi hàng ngày
+  "COMPILED" (unconscious, auto-run):
+    → Chunks fire AUTOMATICALLY when a trigger matches
+    → PFC does NOT participate
+    → Observation: "automatic behavior," "knowing without needing to think"
+    → Mechanism: chunk spreading activation, probability-weighted
+    → Example: see a dog → chunks [dog-threat] fire → step back. No "thinking" needed.
+    → = THE MAJORITY of daily behavior
 
-  "ACTIVE" (PFC đang hold):
-    → PFC hold anchor chunks → BIAS spreading activation hướng cụ thể
-    → Observation: "đang nghĩ về", "đang tập trung vào"
+  "ACTIVE" (PFC currently holding):
+    → PFC holds anchor chunks → BIASES spreading activation toward a specific direction
+    → Observation: "thinking about," "currently focused on"
     → Mechanism: PFC working memory hold + chunk bias (Chunk.md §8)
-    → VD: PFC hold [game design] → activation spread trong game-related chunks
+    → Example: PFC holds [game design] → activation spreads through game-related chunks
 
-  "MONITOR" (nền, luôn chạy nhẹ):
-    → Chunks chạy BACKGROUND → alert PFC khi detect mismatch
-    → Observation: "luôn để ý", "canh chừng"
+  "MONITOR" (background, always running lightly):
+    → Chunks run in the BACKGROUND → alert PFC when they detect mismatch
+    → Observation: "always noticing," "keeping watch"
     → Mechanism: low-level chunk activation + prediction-delta detection
-    → VD: chunks [con tôi an toàn?] chạy nền → con khóc → VTA alert PFC
-    → 🟢 Cocktail party effect (Cherry 1953): tên mình = always-on monitor
+    → Example: chunks [is my child safe?] run in background → child cries → VTA alerts PFC
+    → 🟢 Cocktail party effect (Cherry 1953): your own name = always-on monitor
 
-  → 3 states NÀY = observation labels cho CHUNK ACTIVATION LEVELS
-  → Chunks KHÔNG "biết" mình thuộc schema nào → chỉ fire theo link strength
+  → These 3 states ARE observation labels for CHUNK ACTIVATION LEVELS
+  → Chunks do NOT "know" which schema they belong to → they only fire according to link strength
 ```
 
 ### §4.3 Decay + Reactivation (chunk decay observation)
 
 ```
-🟡 Schema "mờ dần" = chunks decay theo gradient:
+🟡 Schema "fading" = chunks decaying along a gradient:
 
-  Chunk yếu DẦN khi không reinforced:
-    → Synapse yếu → fire ÍT → pattern MỜ
-    → NÔNG (ít lặp, ít modality): mờ NHANH (tháng)
-    → SÂU (nhiều lặp, nhiều modality, emotional): mờ CỰC CHẬM
+  Chunks weaken when not reinforced:
+    → Synapses weaken → fire LESS → pattern FADES
+    → SHALLOW (few repetitions, few modalities): fades QUICKLY (months)
+    → DEEP (many repetitions, many modalities, emotional): fades EXTREMELY SLOWLY
 
-  🟢 Alzheimer's: mất chunks MỚI trước, CŨ NHẤT mất SAU CÙNG
+  🟢 Alzheimer's: newest chunks lost FIRST, OLDEST lost LAST
   → = Depth = durability
 
-  Interference — chunks mới cạnh tranh chunks cũ:
-    → Proactive: chunks cũ CẢN chunks mới ("quen số sàn → khó học tự động")
-    → Retroactive: chunks mới cạnh tranh links của chunks cũ
-    → 🟢 Competitive re-linking (Nader 2000): chunk links NEVER fully deleted,
-      chỉ probability shift. Stress can reactivate old links.
-    → = "Cai 10 năm vẫn có thể relapse" — old links STILL EXIST
+  Interference — new chunks compete with old:
+    → Proactive: old chunks BLOCK new chunks ("used to a stick shift → hard to learn automatic")
+    → Retroactive: new chunks compete with links of old chunks
+    → 🟢 Competitive re-linking (Nader 2000): chunk links are NEVER fully deleted,
+      only probability shifts. Stress can reactivate old links.
+    → = "10 years sober and still can relapse" — old links STILL EXIST
 
   Reactivation:
-    → Chunk links yếu nhưng VẪN CÒN → reactivate DỄ HƠN learn mới
-    → 🟢 Savings effect (Ebbinghaus): "học lại" nhanh hơn "học lần đầu"
-    → = Schema "mờ" = chunk links yếu, KHÔNG mất
+    → Chunk links are weak but STILL THERE → reactivation is EASIER than learning fresh
+    → 🟢 Savings effect (Ebbinghaus): "re-learning" is faster than "learning the first time"
+    → = Schema "faded" = chunk links weakened, NOT gone
 ```
 
 ### §4.4 Cross-Contamination (shared chunk activation)
 
 ```
-🟡 Schemas "ảnh hưởng lẫn nhau" = chunks CHIA SẺ:
+🟡 Schemas "affecting each other" = chunks SHARING:
 
-  Chunk [hồi hộp] thuộc NHIỀU networks:
-    → Network "tình yêu": [crush] → [hồi hộp] → [gần] → ...
-    → Network "sợ bị bỏ": [một mình] → [hồi hộp] → [lo] → ...
-    → Shared chunk [hồi hộp] = BRIDGE
+  Chunk [excitement] belongs to MANY networks:
+    → Network "love": [crush] → [excitement] → [closeness] → ...
+    → Network "fear of abandonment": [alone] → [excitement] → [anxiety] → ...
+    → Shared chunk [excitement] = BRIDGE
 
-  Khi network "tình yêu" fire:
-    → [crush] fire → [hồi hộp] fire → spreading activation
-    → [hồi hộp] CŨNG activate network "sợ bị bỏ" (qua shared link)
-    → = "Đang yêu vui vẻ → bỗng LO SỢ VÔ CỚ"
-    → = KHÔNG vô cớ: shared chunk bridge
+  When the "love" network fires:
+    → [crush] fires → [excitement] fires → spreading activation
+    → [excitement] ALSO activates the "fear of abandonment" network (via shared link)
+    → = "Feeling happy and in love → suddenly INEXPLICABLY ANXIOUS"
+    → = NOT inexplicable: shared chunk bridge
 
-  Tại sao TRAUMA networks dễ contaminate:
-    ① Compiled SÂU (emotional peak → strong synapses)
-    ② Chunks RỘNG (sợ, hồi hộp, bất an = chunks PHỔ BIẾN → shared nhiều)
-    ③ Amygdala reinforce (cortisol chronic → amygdala sensitive → fire dễ)
-    → = Trauma = "ô nhiễm" DỄ NHẤT cho chunk networks khác
+  Why TRAUMA networks contaminate most easily:
+    ① Compiled DEEP (emotional peak → strong synapses)
+    ② Chunks BROAD (fear, excitement, insecurity = COMMON chunks → shared widely)
+    ③ Amygdala reinforcement (chronic cortisol → amygdala sensitive → fires easily)
+    → = Trauma = the EASIEST "contaminant" for other chunk networks
 
   🟢 Retrieval-induced forgetting (Anderson 1994)
   🟢 Stress relapse mechanism (Sinha 2001)
 
-  Ví dụ "chọn nhầm người":
-    → Chunks [yêu = hồi hộp + bất an + sợ mất] compiled từ childhood trauma
-    → Gặp người mới → vô thức match: người cho cảm giác HỒI HỘP + BẤT AN
-    → Body sensation GIỐNG "yêu" (dopamine + NE tương tự)
-    → Vô thức KHÔNG phân biệt → ráp trauma chunks vào "tình yêu" mới
-    → = "Luôn yêu người không phù hợp" = trauma chunk matching, KHÔNG phải "xui"
+  "Choosing the wrong person" example:
+    → Chunks [love = excitement + insecurity + fear of loss] compiled from childhood trauma
+    → Meets someone new → unconscious match: person triggers EXCITEMENT + INSECURITY
+    → Body sensation RESEMBLES "love" (similar dopamine + NE)
+    → Unconscious does NOT distinguish → trauma chunks assembled into new "love"
+    → = "Always falling for the wrong person" = trauma chunk matching, NOT "bad luck"
 ```
 
 ---
 
 ## §5 — SCHEMA × BODY-FEEDBACK
 
-### §5.1 Không có "schema âm" — chỉ có xung đột
+### §5.1 There are no "negative schemas" — only conflicts
 
 ```
-🟡 MỌI chunk network hình thành ĐỂ PHỤC VỤ body → luôn "dương" ban đầu:
+🟡 EVERY chunk network forms TO SERVE the body → always "positive" at first:
 
-  "Kiềm chế lời nói":
-    = DƯƠNG khi ở nhà bố mẹ strict (BẢO VỆ body khỏi bị phạt)
-    = "ÂM" khi ở công ty cần communicate (CẢN body kết nối)
-    → CÙNG chunk network → KHÁC context → từ "dương" THÀNH "âm"
-    → = Chunk network KHÔNG có valence cố định → CONTEXT quyết định
+  "Suppressing your voice":
+    = POSITIVE when growing up with strict parents (PROTECTS body from punishment)
+    = "NEGATIVE" when at a company that needs communication (BLOCKS body from connecting)
+    → SAME chunk network → DIFFERENT context → from "positive" TO "negative"
+    → = Chunk networks do NOT have a fixed valence → CONTEXT determines it
 
-  3 loại xung đột:
+  3 types of conflict:
 
-    Loại 1 — 2 networks CÙNG context, KHÁC hướng:
-      "Muốn ăn" + "muốn giảm cân" → cả 2 dương riêng → xung đột CÙNG LÚC
+    Type 1 — 2 networks, SAME context, OPPOSING directions:
+      "Want to eat" + "want to lose weight" → both positive separately → conflict SIMULTANEOUSLY
 
-    Loại 2 — Network ĐÚNG context CŨ, SAI context MỚI (OUTDATED):
-      "Tiết kiệm từng đồng" → ĐÚNG khi nghèo → OUTDATED khi lương ổn
+    Type 2 — Network CORRECT in OLD context, WRONG in NEW context (OUTDATED):
+      "Save every penny" → CORRECT when poor → OUTDATED when salary is stable
 
-    Loại 3 — NHIỀU networks ĐÚNG riêng, TỔNG THỂ xung đột:
-      "Career" + "family" + "self-care" = TẤT CẢ dương → 24h KHÔNG đủ
+    Type 3 — MULTIPLE networks individually CORRECT, COLLECTIVELY conflicting:
+      "Career" + "family" + "self-care" = ALL positive → 24 hours is NOT enough
 
-  Cơ chế:
-    → Network A push body hướng TRÁI, network B push hướng PHẢI
-    → Body chỉ đi được 1 hướng → PFC phải chọn
-    → Network bị chặn VẪN fire → tốn energy → dissonance
-    → 🟡 ĐAU ∝ |force_A − force_B| khi NGƯỢC hướng
-    → ĐAU CỰC ĐẠI khi 2 forces GẦN BẰNG (paralysis)
-    → "Quyết định xong DÙ SAI cũng nhẹ hơn KHÔNG quyết định"
+  Mechanism:
+    → Network A pushes body LEFT, network B pushes body RIGHT
+    → Body can only go one direction → PFC must choose
+    → Blocked network STILL fires → costs energy → dissonance
+    → 🟡 PAIN ∝ |force_A − force_B| when they OPPOSE
+    → MAXIMUM PAIN when the 2 forces are NEARLY EQUAL (paralysis)
+    → "Even a wrong decision, once made, feels lighter than NO decision"
 ```
 
 ### §5.2 Override spectrum
 
 ```
-🟡 Chunk networks CÓ THỂ override body-base signals:
+🟡 Chunk networks CAN override body-base signals:
 
-  CƠ CHẾ — double suppress:
-    ① Chunk network redirect attention (PFC ignore body signal)
-    ② Cortisol từ chunk network suppress body sensation (biochemistry)
-    → Body GẦN NHƯ câm → chunk network chạy tự do
+  MECHANISM — double suppress:
+    ① Chunk network redirects attention (PFC ignores body signal)
+    ② Cortisol from chunk network suppresses body sensation (biochemistry)
+    → Body is NEARLY silenced → chunk network runs freely
 
-  SPECTRUM từ nhẹ tới cực đoan:
+  SPECTRUM from mild to extreme:
 
-    Nhẹ (hàng ngày):
-      → Đọc sách hay quên ăn: novelty chunks override hunger signal
-      → Scroll MXH tới 2h sáng: novelty chunks override sleep signal
+    Mild (daily):
+      → Reading an engaging book → forget to eat: novelty chunks override hunger signal
+      → Scrolling social media until 2am: novelty chunks override sleep signal
 
-    Trung bình:
-      → Workaholic quên ngủ: threat-status chunks override L1 sleep
-      → Diet cực đoan: status chunks override L1 nutrition
+    Moderate:
+      → Workaholic forgetting to sleep: threat-status chunks override L1 sleep
+      → Extreme dieting: status chunks override L1 nutrition
 
-    Nặng:
-      → Game tới chết: novelty chunk loop override survival signals
+    Severe:
+      → Gaming to the point of death: novelty chunk loop overrides survival signals
       → Anorexia: status chunks override L0 nutrition
 
-    Cực đoan:
-      → Tử vì đạo: belief chunk network override L0 Alive
-      → Mẹ nhảy vào lửa cứu con: protect chunks override L0 Alive(thân)
+    Extreme:
+      → Martyrdom: belief chunk network overrides L0 Alive
+      → Mother jumping into fire to save her child: protect chunks override L0 Alive (own body)
 
-  → V7.8: signal strength decides, KHÔNG PHẢI layer priority
-  → Chunk network compiled MẠNH + cortisol sustained = CÓ THỂ override BẤT KỲ signal
-  → "Bug" cho cá nhân (quên ăn → hại body)
-  → "Feature" cho gene/tập thể (hy sinh → gene survive)
+  → V7.8: signal strength decides, NOT layer priority
+  → Chunk network compiled STRONGLY + sustained cortisol = CAN override ANY signal
+  → "Bug" for the individual (forgetting to eat → harms body)
+  → "Feature" for the gene/collective (self-sacrifice → gene survives)
 ```
 
 ### §5.3 Chunk association — Novelty vs Threat
 
 ```
-🟡 Cùng chunk, khác association → khác SUỐT ĐỜI:
+🟡 Same chunk, different association → different FOR LIFE:
 
-  NOVELTY-DIRECTION compile (tò mò, thích thú):
-    → Chunk gắn với: curiosity + relief + opioid
-    → Body-base: "chunk này cho tôi SƯỚNG" → sẵn sàng dùng lại
-    → VD: Newton đọc physics vì tò mò → chunk gắn opioid → THÍCH
+  NOVELTY-DIRECTION compile (curiosity, delight):
+    → Chunk associated with: curiosity + relief + opioid
+    → Body-base: "this chunk gives me PLEASURE" → willing to use it again
+    → Example: Newton reading physics out of curiosity → chunk tagged with opioid → LOVES it
 
-  THREAT-DIRECTION compile (sợ, bị ép):
-    → Chunk gắn với: sợ + cortisol + "phải làm"
-    → Body-base: "chunk này gắn KHÓ CHỊU" → không muốn dùng lại
-    → VD: học sinh bị ép học toán → chunk gắn cortisol → GHÉT
+  THREAT-DIRECTION compile (fear, coercion):
+    → Chunk associated with: fear + cortisol + "have to"
+    → Body-base: "this chunk is tagged UNCOMFORTABLE" → does not want to use it again
+    → Example: student forced to study math → chunk tagged with cortisol → HATES it
 
-  → CÙNG kiến thức → KHÁC association → KHÁC khả năng dùng
+  → SAME knowledge → DIFFERENT association → DIFFERENT ability to use it
   → Cortisol at compile time = determines chunk association tag (Chunk.md §2.4 Direction-At-Compile)
-  → MỌI HÀNH VI = MIX threat + novelty (tỉ lệ KHÁC NHAU)
+  → EVERY BEHAVIOR = MIX of threat + novelty (in DIFFERENT ratios)
 
-  Ngưỡng:
-    Threat NHẸ (60:40): dễ update sau → chunk association CÓ THỂ shift
-    Threat NẶNG (95:5): cortisol cực sâu → body PHẢN ĐỐI khi dùng → CỰC KHÓ update
+  Threshold:
+    Mild threat (60:40): easier to update later → chunk association CAN shift
+    Heavy threat (95:5): cortisol deeply embedded → body RESISTS using it → EXTREMELY hard to update
 
-  → Chi tiết: Cortisol-Baseline.md v2.0 §3.5
+  → Details: Cortisol-Baseline.md v2.0 §3.5
 ```
 
-### §5.4 "Giọt nước tràn ly"
+### §5.4 The Overflow Point
 
 ```
-🟡 Chunk swap trong network mạnh:
+🟡 Chunk swap within a heavily active network:
 
-  Network đang active MẠNH (compiled months, cortisol duy trì):
-    → Chunk [tôi cố được] giữ network ở mode "chịu đựng"
-    → Body: khó chịu nhưng CHƯA tới threshold ĐAU
+  Network actively running STRONGLY (compiled for months, cortisol sustained):
+    → Chunk [I can push through] holds network in "enduring" mode
+    → Body: uncomfortable but NOT yet at the threshold for PAIN
 
-  1 event NHỎ (sếp nhắc nhẹ):
-    → Chunk swap: [tôi cố được] → [tôi có thể bị đuổi]
-    → CÙNG network CÙNG cường độ → nhưng giờ mode "THREAT"
-    → Toàn bộ energy → chạy threat → body-feedback CỰC LỚN
+  1 SMALL event (boss gives a mild reminder):
+    → Chunk swaps: [I can push through] → [I might get fired]
+    → SAME network SAME intensity → but now in "THREAT" mode
+    → All energy → runs on threat → body-feedback EXTREMELY LARGE
 
-  Spectrum phản ứng CÙNG sự kiện:
-    Người khỏe (ly trống): "ok, sửa" → nhẹ nhàng
-    Người mệt 3 tháng (ly nửa): khó chịu 1 tiếng → ok
-    Người burnout (ly đầy): KHÓC ngay tại chỗ
-    → CÙNG giọt → KHÁC kết quả → vì accumulated dissonance KHÁC
+  Spectrum of reactions to THE SAME event:
+    Person who is healthy (cup empty): "ok, I'll fix it" → easy
+    Person tired for 3 months (cup half full): uncomfortable for an hour → then ok
+    Person burned out (cup overflowing): CRIES right there on the spot
+    → SAME drop → DIFFERENT outcome → because accumulated dissonance is DIFFERENT
 
   → Body-Feedback-Mechanism.md: compound dynamics = Miss + Shift + Gap
   → 02-Dissonance.md: 14 intensity levels
@@ -521,84 +522,84 @@ V2.0 REFRAME:
 
 ## §6 — SCHEMA × PFC
 
-### §6.1 PFC observe chunk networks → gọi là "schema"
+### §6.1 PFC observes chunk networks → calls them "schemas"
 
 ```
-🟡 PFC KHÔNG "thấy" schema — PFC thấy CHUNK ACTIVATIONS → LABEL:
+🟡 PFC does NOT "see" schema — PFC sees CHUNK ACTIVATIONS → LABELS:
 
-  Body compute FIRST → Feeling emerge → PFC observe LAST
+  Body computes FIRST → Feeling emerges → PFC observes LAST
   (🟢 Damasio 1994, 1999: somatic markers precede conscious decision)
 
-  PFC observe:
-    → Nhiều chunks fire ĐỒNG THỜI theo pattern → PFC nhận tổng hợp
-    → PFC label: "à, đây là 'sợ chó'" (verbal label cho chunk pattern)
-    → Label = Feeling.md v2.0 Feel-Labeling (40-80% fidelity) — LOSSY
+  PFC observes:
+    → Many chunks fire SIMULTANEOUSLY in a pattern → PFC receives the integrated output
+    → PFC labels: "ah, this is 'fear of dogs'" (verbal label for chunk pattern)
+    → Label = Feeling.md v2.0 Feel-Labeling (40–80% fidelity) — LOSSY
 
-  PFC KHÔNG thấy:
-    → Chunks CỤ THỂ nào đang fire (too many, too fast)
-    → Links CỤ THỂ nào mạnh/yếu
-    → Shared chunks đang bridge tới network NÀO
-    → = PFC thấy OUTPUT (feeling, behavior) → suy ngược PATTERN → gọi "schema"
+  PFC does NOT see:
+    → Which SPECIFIC chunks are currently firing (too many, too fast)
+    → Which SPECIFIC links are strong/weak
+    → Which shared chunks are bridging to WHICH network
+    → = PFC sees OUTPUT (feeling, behavior) → infers the PATTERN → calls it "schema"
 
   → = Schema = PFC's BEST GUESS about what chunk network is active
   → APPROXIMATE, not exact
   → Useful, not authoritative
 ```
 
-### §6.2 PFC orchestrate chunk networks
+### §6.2 PFC orchestrates chunk networks
 
 ```
 🟡 PFC CAN bias chunk activation (indirect control):
 
-  PFC hold chunks → BIAS spreading activation direction
-  → Vô thức phản ứng dây chuyền theo bias
-  → Chunks compiled cho tình huống → auto execute
+  PFC holds chunks → BIASES spreading activation direction
+  → Unconscious responds in a chain reaction following the bias
+  → Chunks compiled for the situation → auto-execute
 
-  VD: PFC hold "viết con chó"
-    → Vô thức đã compile [gõ c-o-n space c-h-ó]
-    → Ngón tay tự gõ → PFC nhìn lại: đúng ✓
-    → PFC KHÔNG nghĩ tới motor details
+  Example: PFC holds "write 'dog'"
+    → Unconscious has compiled [type d-o-g]
+    → Fingers type automatically → PFC reviews: correct ✓
+    → PFC does NOT think about motor details
 
-  VD: Chuyên gia xem tranh ở chợ đồ cũ
-    → Lướt qua → vô thức match weak: "nét vẽ kỳ lạ"
-    → PFC notice → cầm lên, dùng kính lúp (amplify input cho vô thức)
-    → Vô thức match SÂU hơn → "bức tranh đặc biệt"
-    → = PFC KHÔNG "thấy" tranh đẹp → PFC hold attention →
-      vô thức match → body reward → PFC observe reward
+  Example: Expert browsing paintings at a flea market
+    → Glances past → unconscious weak match: "strange brushwork"
+    → PFC notices → picks it up, uses a magnifying glass (amplifies input for unconscious)
+    → Unconscious matches DEEPER → "this is a special painting"
+    → = PFC does NOT "see" the beauty → PFC holds attention →
+      unconscious matches → body reward → PFC observes the reward
 
-  KHI PFC BẤT LỰC:
-    → Chunks cho tình huống CHƯA COMPILED → PFC hold nhưng vô thức không có gì run
-    → Body-base signal quá mạnh → PFC override thất bại
-    → PFC effectiveness = f(chunks đã compiled cho tình huống đó)
+  WHEN PFC IS POWERLESS:
+    → Chunks for that situation NOT COMPILED → PFC holds but unconscious has nothing to run
+    → Body-base signal too strong → PFC override fails
+    → PFC effectiveness = f(chunks already compiled for that situation)
 ```
 
-### §6.3 Schema KHÔNG THỂ phân tích chính xác
+### §6.3 Schema CANNOT be precisely analyzed
 
 ```
-🟡 TẠI SAO không thể "đọc" schema chính xác:
+🟡 WHY you cannot accurately "read" a schema:
 
-  ① 86 tỷ neurons × ~100 nghìn tỷ connections = quá phức tạp
-  ② Chunk networks = MULTI-MODAL (verbal chỉ capture ~1/6)
+  ① 86 billion neurons × ~100 trillion connections = too complex
+  ② Chunk networks = MULTI-MODAL (verbal captures only ~1/6)
   ③ Deep chunks = BODY EMBEDDED (cortisol baseline, muscle tension)
-     → chính chủ nhân CŨNG không biết
-  ④ Chunk links thay đổi LIÊN TỤC → "chụp" lúc này → lúc sau đã khác
-  ⑤ Công cụ hiện đại CHƯA ĐỦ: fMRI thấy vùng, KHÔNG thấy chunk content
+     → even the person themselves does NOT know
+  ④ Chunk links change CONTINUOUSLY → a "snapshot" now → already different moments later
+  ⑤ Current tools NOT SUFFICIENT: fMRI shows brain regions, NOT chunk content
 
-  VẬY FRAMEWORK LÀM GÌ?
-    → KHÔNG phân tích chính xác (impossible)
-    → CÓ THỂ: nhận diện PATTERN (hành vi lặp lại = chunk network biểu hiện)
-    → CÓ THỂ: ước lượng depth (deep vs surface chunks)
-    → CÓ THỂ: suggest hướng (body fix trước, chunk links tự adjust)
-    → = COMPASS, không phải GPS
-    → = "Công thức, không đáp án"
+  SO WHAT CAN THE FRAMEWORK DO?
+    → NOT analyze precisely (impossible)
+    → CAN: recognize PATTERNS (repeated behaviors = chunk network manifestations)
+    → CAN: estimate depth (deep vs surface chunks)
+    → CAN: suggest directions (fix body first, chunk links self-adjust)
+    → = A COMPASS, not a GPS
+    → = "A formula, not an answer"
 
-  ⭐ NGƯỜI KHÁC THẤY PATTERN MÀ CHỦ NHÂN KHÔNG THẤY:
-    → Deep chunks = chạy vô thức → PFC KHÔNG observe
-    → Observer BÊN NGOÀI: thấy PATTERN hành vi lặp lại → build chunks VỀ pattern
-    → = "Bạn hay tự sabotage khi gần thành công" (bạn thân thấy, mình không)
+  ⭐ OTHERS SEE PATTERNS THE PERSON THEMSELVES CANNOT SEE:
+    → Deep chunks = run unconsciously → PFC does NOT observe
+    → OUTSIDE observer: sees REPEATED BEHAVIOR patterns → builds chunks ABOUT the pattern
+    → = "You tend to self-sabotage right when you're close to success" (close friend sees it, you don't)
     → 🟢 Blind spot bias (Pronin 2002)
-    → = Therapist/mentor/bạn thân: giá trị CHÍNH = external observer
-    → Cho chunks VỀ CHÍNH BẠN mà PFC bạn không tự build được
+    → = Therapist / mentor / close friend: their PRIMARY value = being an external observer
+    → Gives you chunks ABOUT YOURSELF that your own PFC cannot build
 ```
 
 ---
@@ -608,63 +609,63 @@ V2.0 REFRAME:
 ### §7.1 Base → Shift → Check — Universal Pattern
 
 ```
-🟡 MỌI chunk networks tương tác domain theo CÙNG 1 pattern:
+🟡 ALL chunk networks interact with domain following THE SAME pattern:
 
-  ① CÓ BASE ổn định (compiled chunks quen thuộc):
-     → VTA: quen → KHÔNG fire (habituation) → PFC không chú ý
+  ① Have a stable BASE (compiled, familiar chunks):
+     → VTA: familiar → does NOT fire (habituation) → PFC doesn't pay attention
 
-  ② SHIFT NHẸ từ base (thử cái mới, khác chút):
-     → VTA: detect BIẾN ĐỘNG → dopamine → PFC biết
+  ② SLIGHT SHIFT from base (try something new, slightly different):
+     → VTA: detects DEVIATION → dopamine → PFC is notified
 
   ③ BODY CHECK (domain reality test):
-     → Khớp: opioid → ACCEPT → chunk links UPDATE
-     → Không khớp: REJECT → quay về cũ
+     → Matches: opioid → ACCEPT → chunk links UPDATE
+     → Doesn't match: REJECT → return to old base
 
-  ④ NEW BASE → shift tiếp → check tiếp → ...
+  ④ NEW BASE → shift again → check again → ...
 
-  Pattern NÀY chạy XUYÊN MỌI domain:
-    Ăn: cơm quen (base) + món phụ mới (shift) + ngon không? (check)
-    Nhạc: thể loại quen + bài mới + hay không?
-    Code: architecture có + feature mới + work không?
-    Người: bạn quen + người mới + hợp không?
-    → CÙNG mechanism: prediction-delta + body evaluate + chunk update
+  This PATTERN runs ACROSS ALL domains:
+    Eating: familiar rice (base) + new side dish (shift) + tasty? (check)
+    Music: familiar genre + new song + good?
+    Code: existing architecture + new feature + does it work?
+    People: existing friends + someone new + do we connect?
+    → SAME mechanism: prediction-delta + body evaluates + chunk update
 
   ⭐ DUAL-PULL TENSION (Body-Feedback.md §2):
-    → Hardware pull: muốn giữ smooth → BẢO THỦ
-    → Domain pull: đòi adapt → ĐÒI HỎI
-    → = Chunk networks luôn bị KÉO giữa "ổn định" và "cập nhật"
+    → Hardware pull: wants to stay smooth → CONSERVATIVE
+    → Domain pull: demands adaptation → DEMANDING
+    → = Chunk networks are always PULLED between "stability" and "updating"
     → = ATTRACTOR PATTERN: stable base + incremental shift + feedback check
 ```
 
-### §7.2 Chunk network hình thành — 2 con đường
+### §7.2 How chunk networks form — 2 pathways
 
 ```
-🟡 Chunk networks build qua 2 nguồn:
+🟡 Chunk networks build through 2 sources:
 
-  CON ĐƯỜNG 1 — VÔ THỨC TỰ BUILD (không cần PFC):
-    → Association learning: stimulus → body respond → chunks TỰ wire
-    → NHANH (1 experience CÓ THỂ đủ, đặc biệt emotional peak)
-    → KHÔNG TỐN PFC
-    → NHƯNG: chỉ từ TRẢI NGHIỆM TRỰC TIẾP
-    → 🟢 Trẻ 0-4 tuổi PFC gần zero → VẪN build networks phức tạp
+  PATHWAY 1 — UNCONSCIOUS SELF-BUILDS (no PFC required):
+    → Association learning: stimulus → body responds → chunks WIRE THEMSELVES
+    → FAST (1 experience CAN be enough, especially at emotional peaks)
+    → COSTS NO PFC
+    → BUT: only from DIRECT EXPERIENCE
+    → 🟢 Children ages 0–4 with near-zero PFC → STILL build complex networks
 
-  CON ĐƯỜNG 2 — PFC DRAFT + COMPILE (imagine):
-    → PFC imagine scenario → body simulate → body check → compile nếu ok
-    → CHẬM hơn, TỐN PFC
-    → NHƯNG: từ IMAGINE — không cần trải nghiệm trực tiếp
-    → PREDICT XA hơn, AN TOÀN hơn, CROSS-DOMAIN possible
-    → VD: Einstein thought experiment → draft → insight
+  PATHWAY 2 — PFC DRAFTS + COMPILES (via imagination):
+    → PFC imagines scenario → body simulates → body checks → compiles if ok
+    → SLOWER, COSTS PFC
+    → BUT: from IMAGINATION — no direct experience needed
+    → Predicts FURTHER ahead, SAFER, CROSS-DOMAIN possible
+    → Example: Einstein's thought experiments → draft → insight
 
-  CẢ HAI CẦN MẠNH:
-    Vô thức mạnh + PFC yếu: nhiều chunks cơ bản + ÍT predict xa
-    PFC mạnh + vô thức yếu: draft hay nhưng KHÔNG body-verify
-    CẢ HAI: nền RỘNG + đỉnh CAO = expert
+  BOTH NEED TO BE STRONG:
+    Strong unconscious + weak PFC: many basic chunks + LITTLE far prediction
+    Strong PFC + weak unconscious: good at drafting but NO body verification
+    BOTH STRONG: wide foundation + high ceiling = expert
 
-  ⚠️ VÔ THỨC RÁP BẰNG CHUNKS CÓ SẴN — KHÔNG PHÂN BIỆT:
-    → Vô thức tìm chunks KHỚP NHẤT → RÁP
-    → KHÔNG filter "tốt" hay "trauma"
-    → Trauma chunks CÓ THỂ bị ráp vào network mới MÀ KHÔNG BIẾT
-    → = "Mỗi người yêu KHÁC dù gặp CÙNG người"
+  ⚠️ THE UNCONSCIOUS ASSEMBLES FROM AVAILABLE CHUNKS — WITHOUT DISTINGUISHING:
+    → Unconscious finds the CLOSEST MATCHING chunks → assembles them
+    → Does NOT filter "healthy" vs "trauma"
+    → Trauma chunks CAN be assembled into new networks WITHOUT NOTICING
+    → = "Each person loves differently even when they meet the same person"
 ```
 
 ---
@@ -672,70 +673,70 @@ V2.0 REFRAME:
 ## §8 — BODY BASELINE STATE
 
 ```
-🟡 MỌI chunk networks build TRÊN 1 nền tảng: body baseline state
-  = Ground truth — PFC, verbal, logic đều THAM CHIẾU về đây
+🟡 ALL chunk networks build ON 1 foundation: body baseline state
+  = Ground truth — PFC, verbal, logic all REFERENCE BACK here
 
-  Body Baseline State = trạng thái TỔNG THỂ body khi NGHỈ:
-    Cortisol baseline:  mức stress nền
-    Opioid tone:        mức pleasure nền
-    Oxytocin level:     mức connection nền
-    Muscle tension:     vai gồng? thả lỏng?
-    Gut state:          tiêu hóa bình thường?
-    Sleep architecture: deep sleep đủ? REM đủ?
+  Body Baseline State = the OVERALL state of the body at REST:
+    Cortisol baseline:  background stress level
+    Opioid tone:        background pleasure level
+    Oxytocin level:     background connection level
+    Muscle tension:     shoulders tense? relaxed?
+    Gut state:          digestion normal?
+    Sleep architecture: sufficient deep sleep? sufficient REM?
     HRV:                heart rate variability
-    Immune baseline:    inflammation mãn tính?
+    Immune baseline:    chronic inflammation?
 
-  = "Khi không có gì xảy ra, cơ thể TÔI feel thế nào?"
+  = "When nothing is happening, how does MY body feel?"
 
-  ⭐ TẠI SAO BODY BASELINE LÀ NHƯ VẬY — MECHANISM:
-    → Body baseline = PHYSICAL REFLECTION của Background-Patterns
-    → Cortisol baseline CAO vì Background-Pattern [threat] chạy nền → cortisol sustained
-    → Opioid tone THẤP vì Background-Pattern [not enough] suppress reward
-    → Muscle tension CAO vì Background-Pattern [alert] fire liên tục
-    → = Body baseline KHÔNG random — là output của accumulated chunk patterns
-    → Chi tiết mechanism: Chunk/Background-Pattern.md (chunk-level underneath)
+  ⭐ WHY THE BODY BASELINE IS THE WAY IT IS — MECHANISM:
+    → Body baseline = PHYSICAL REFLECTION of Background-Patterns
+    → HIGH cortisol baseline because Background-Pattern [threat] runs in background → cortisol sustained
+    → LOW opioid tone because Background-Pattern [not enough] suppresses reward
+    → HIGH muscle tension because Background-Pattern [alert] fires continuously
+    → = Body baseline is NOT random — it is the output of accumulated chunk patterns
+    → Details of mechanism: Chunk/Background-Pattern.md (chunk-level underneath)
 
-  Fix body baseline → chunk networks tự adjust (ground truth thay đổi)
-  Fix chunks MÀ KHÔNG fix body → relapse (body PULL quay lại)
-  Fix CÙNG LÚC body + build competing Background-Pattern → TRUE resolution
+  Fix body baseline → chunk networks self-adjust (ground truth changes)
+  Fix chunks WITHOUT fixing body → relapse (body PULLS back to old state)
+  Fix SIMULTANEOUSLY: body + build competing Background-Pattern → TRUE resolution
 
-  → Thứ tự: Body → Chunks → Schema observation → ĐÚNG THỨ TỰ
-  → = "Biết nhưng không thay đổi" = verbal chunks updated, Background-Pattern CHƯA
+  → Order: Body → Chunks → Schema observation → THE CORRECT ORDER
+  → = "Knowing but not changing" = verbal chunks updated, Background-Pattern NOT yet
 
-  3 ĐƯỜNG reverse-engineer body baseline:
-    ① Observe behavior: "tôi hay LÀM GÌ khi stress?" → chunk network biểu hiện
-    ② Observe body: "vai tôi THƯỜNG gồng hay thả?" → body state hiện tại
-    ③ Self-identify conflicts: "tôi MUỐN gì nhưng KHÔNG LÀM?" → chunk conflict
-    → = Không cần biết CHÍNH XÁC chunks → biết PATTERN = đủ navigate
+  3 WAYS to reverse-engineer body baseline:
+    ① Observe behavior: "what do I typically DO when stressed?" → chunk network manifesting
+    ② Observe body: "are my shoulders USUALLY tense or relaxed?" → current body state
+    ③ Self-identify conflicts: "what do I WANT but NOT DO?" → chunk conflict
+    → = No need to know EXACTLY which chunks → knowing the PATTERN = enough to navigate
 ```
 
 ---
 
-## §9 — CÂU HỎI MỞ
+## §9 — OPEN QUESTIONS
 
 ```
-S1: Chunk network "negative" có THẬT SỰ không tồn tại?
-    → Framework: chỉ có conflict → nhưng "tôi vô giá trị" LUÔN conflict MỌI context?
-    → Có thể: always-on network compiled CỰC SÂU = pseudo-negative
+S1: Does a "negative" chunk network TRULY not exist?
+    → Framework: there is only conflict → but "I am worthless" ALWAYS conflicts in EVERY context?
+    → Possible: an always-on network compiled EXTREMELY DEEP = pseudo-negative
     → Technically conflict → practically = negative everywhere
-    → ⚠️ Chưa resolve hoàn toàn
+    → ⚠️ Not fully resolved
 
-S2: Chunk links có thể giảm tới ZERO hoàn toàn?
-    → Likely: KHÔNG BAO GIỜ zero → chỉ probability CỰC THẤP
-    → "Cai 10 năm vẫn relapse" = old links CÒN dù cực yếu
-    → 🟢 Competitive re-linking (Nader 2000): links mới CẠNH TRANH cũ
-    → 🟢 Stress relapse (Sinha 2001): stress reactivate old links
+S2: Can chunk links decrease to ABSOLUTE ZERO?
+    → Likely: NEVER zero → only EXTREMELY LOW probability
+    → "10 years sober and still can relapse" = old links REMAIN though extremely weak
+    → 🟢 Competitive re-linking (Nader 2000): new links COMPETE with old
+    → 🟢 Stress relapse (Sinha 2001): stress reactivates old links
 
-S3: AI detect chunk network patterns?
-    → AI đọc TEXT = detect verbal chunks (~1/6 total)
-    → CẦN: body data (HRV, cortisol, muscle) để detect SÂU
-    → 3 tầng: AI detect → Chuyên gia verify → Client body-check
-    → Chi tiết: AI-Schema-Detection.md (planned)
+S3: Can AI detect chunk network patterns?
+    → AI reads TEXT = detects verbal chunks (~1/6 of total)
+    → NEEDED: body data (HRV, cortisol, muscle tension) to detect DEEP patterns
+    → 3 levels: AI detects → specialist verifies → client body-checks
+    → Details: AI-Schema-Detection.md (planned)
 
 S4: Epigenetics × chunk networks?
-    → Trauma → cortisol high → epigenetic changes → 1-2 thế hệ?
-    → 🟢 Dias & Ressler 2014: fear conditioning → offspring fear response
-    → = Chunk ASSOCIATION có thể "di truyền" qua epigenetics
+    → Trauma → high cortisol → epigenetic changes → 1–2 generations?
+    → 🟢 Dias & Ressler 2014: fear conditioning → offspring show fear response
+    → = Chunk ASSOCIATION may be "inherited" via epigenetics
 ```
 
 ---
@@ -749,26 +750,26 @@ ESTABLISHED (🟢):
   → Competitive re-linking (Nader 2000)
   → Savings effect (Ebbinghaus)
   → Cocktail party effect (Cherry 1953)
-  → Lottery winners baseline return (Brickman et al. 1978)
+  → Lottery winners return to happiness baseline (Brickman et al. 1978)
   → Blind spot bias (Pronin 2002)
   → Stress relapse (Sinha 2001)
   → Somatic markers precede decision (Damasio 1994)
   → Fear conditioning epigenetics (Dias & Ressler 2014)
 
 FRAMEWORK SYNTHESIS (🟡):
-  → Schema = observation parameter (consistent với 9/9 deep drill files)
-  → "Không có schema âm" = chỉ có context-dependent conflict
-  → Override spectrum = cùng cơ chế, khác mức độ
+  → Schema = observation parameter (consistent with 9/9 deep drill files)
+  → "No negative schemas" = only context-dependent conflict
+  → Override spectrum = same mechanism, different degree
   → Chunk association tag (novelty vs threat direction)
-  → PFC observe chunk activations → label = "schema"
+  → PFC observes chunk activations → labels them = "schema"
   → Base → Shift → Check = universal pattern
-  → Body baseline = ground truth → fix body trước
+  → Body baseline = ground truth → fix body first
   → Dual-pull tension = evolutionary feature
 
 METAPHOR (⚠️):
-  → "Schema = tính năng phần mềm" = hình dung, không 1-1 chính xác
-  → Não KHÔNG phải máy tính → analogy giúp hiểu, không phải mô hình
-  → Depth gradient = observation, KHÔNG đo được chính xác per-%
+  → "Schema = software feature" = an illustration, NOT 1-to-1 accurate
+  → The brain is NOT a computer → analogy aids understanding, not a model
+  → Depth gradient = an observation, NOT measurable per exact percentage
 ```
 
 ---
@@ -778,7 +779,7 @@ METAPHOR (⚠️):
 ### §11.1 Core mechanism files
 
 ```
-  Core-v7.8-Draft.md             — cycle architecture, §8 observation parameters
+  Core-Software.md                — cycle architecture, §8 observation parameters
   Chunk.md v2.0                  — chunk substrate (sole substrate, 14 sections)
   Body-Feedback.md v1.1          — dual-pull, Body-Feedback-Precondition, interface loop
   Body-Feedback-Mechanism.md v1.0— chunk dynamics (Shift/Miss/Gap), compound
@@ -790,7 +791,7 @@ METAPHOR (⚠️):
 ### §11.2 Schema-specific files
 
 ```
-  Anchor-Schema.md v1.2          — sync point, trust binding, 4 nguồn fill
+  Anchor-Schema.md v1.2          — sync point, trust binding, 4 fill sources
   Anchor-Schema-Example.md       — anchor cases
   Anchor-Schema-Extreme-Example.md — extreme anchor cases
   AI-Schema-Detection.md         — AI-assisted pattern detection
@@ -803,7 +804,7 @@ METAPHOR (⚠️):
   Agent.md v1.0                  — agent = function on chunks, 4-layer
   Empathy.md v1.0                — Self-Pattern-Modeling applied to others
   Drive.md v1.1                  — drive = emergent, 6 PFC Modes
-  Imagination-Analysis-v2.md     — imagine = PFC engine
+  Imagination-Analysis-v2.md     — imagination = PFC engine
 ```
 
 ### §11.4 Application files
@@ -814,7 +815,7 @@ METAPHOR (⚠️):
   Research/Education/             — education applications
 ```
 
-### §11.5 Superseded files (trong backup/)
+### §11.5 Superseded files (in backup/)
 
 ```
   Schema-Operations-v1.md        — content → Chunk.md v2.0, Feeling.md v2.0
@@ -824,9 +825,5 @@ METAPHOR (⚠️):
 
 ---
 
-> *Schema v2.0 — "Schema = observation parameter, NOT component.
-> Chunks = hàm (tính toán thật). Schema = tính năng (mô tả từ bên ngoài).
-> Body-base chạy HOÀN TOÀN trên chunks.
-> Schema vẫn hữu ích: mô tả, predict, communicate.
-> Nhưng can thiệp phải ở chunk level: body-input, compile, re-associate.
-> Fix body TRƯỚC → chunks adjust → schema observation thay đổi."*
+> *Schema v2.0 — "Schema = observation parameter, NOT component.*
+> *Chunks are what the brain actually runs. Schema is what we call it."*

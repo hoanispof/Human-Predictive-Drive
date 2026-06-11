@@ -1,49 +1,48 @@
 ---
-title: Feeling-Mechanism-Deep — HOW Feeling Works End-to-End
-created: 2026-04-17 (N+11 session, Feeling Deep Dive)
-updated: 2026-05-10 (v1.1 — §4.6 Evaluative/Direct-State, cross-refs)
+title: "Feeling-Mechanism-Deep — HOW Feeling Works End-to-End"
+version: 1.1
+created: "2026-04-17 (N+11 session, Feeling Deep Dive)"
+updated: "2026-05-10 (v1.1 — §4.6 Evaluative/Direct-State, cross-refs)"
 status: REFERENCE v1.1
-scope: Unified mechanism — from body signal to felt experience to action
-purpose: |
-  "Processing System" mà user cảm thấy thiếu.
+scope: "Unified mechanism — from body signal to felt experience to action"
+language: English primary
+purpose: >
+  "Processing System" — the file the framework was missing.
   Feeling.md (7-layer) = WHAT feeling IS.
-  File này = HOW feeling WORKS — operational flow, mechanism, dynamics.
-  Build ON TOP of Chunk-Analysis substrate (44 files, ~48,600L).
-parent: FEELING-DEEP-PLAN.md §2.1
-position: Core-Deep-Dive/Body-Base/Feeling/ (mechanism file, ngang hàng Feeling.md)
-dependencies: |
-  Feeling.md (7-layer structure)
-  01b-Chunk-Activation-Dynamics.md (activation probability, competitive re-linking)
-  01c-Chunk-Discovery-Lifecycle.md (discovery cycle, convergence zone)
-  02-Feeling-Intuition-Gradient.md (6-point gradient, Multi-Weak-Signal-Convergence)
-  04-Right-Wrong-Vague.md (ACC detection, vague spectrum)
-  03-Reward.md (dopamine ≠ reward, opioid = reward, 5 preconditions)
-  Neural-Processing-Flow.md (hardware pathway)
-  Body-Input-Enumeration.md §4.9 (self-signal interoception)
-language: Tiếng Việt primary + English technical
-confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+  This file = HOW feeling WORKS — operational flow, mechanism, dynamics.
+  Builds ON TOP of Chunk-Analysis substrate (44 files, ~48,600L).
+dependencies:
+  - Feeling.md (7-layer structure)
+  - 01b-Chunk-Activation-Dynamics.md (activation probability, competitive re-linking)
+  - 01c-Chunk-Discovery-Lifecycle.md (discovery cycle, convergence zone)
+  - 02-Feeling-Intuition-Gradient.md (6-point gradient, Multi-Weak-Signal-Convergence)
+  - 04-Right-Wrong-Vague.md (ACC detection, vague spectrum)
+  - 03-Reward.md (dopamine ≠ reward, opioid = reward, 5 preconditions)
+  - Neural-Processing-Flow.md (hardware pathway)
+  - Body-Input-Enumeration.md §4.9 (self-signal interoception)
+confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 ---
 
 # Feeling-Mechanism-Deep — HOW Feeling Works End-to-End
 
-> **Feeling.md nói:** Feeling = integrated body signal, PFC-noticeable. 7 layers.
-> **File này nói:** HOW body signals trở thành felt experience. Con đường cụ thể.
+> *Feeling.md says:* Feeling = integrated body signal, PFC-noticeable. 7 layers.
+> *This file says:* HOW body signals become felt experience. The specific path.
 >
 > Body fire → signals integrate → threshold → PFC observe → match chunks →
 > label (or not) → body vote → action (or continued processing).
 >
-> Đây là "Processing System" — file mà framework chưa có:
-> CÁCH feeling HOẠT ĐỘNG từ đầu đến cuối.
+> This is the "Processing System" — the file the framework was missing:
+> HOW feeling WORKS from start to finish.
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §1 — Feeling = PFC Observation of Body-Chunk Interaction
 - §2 — Signal Integration: Multi-Channel → Unified Feeling
-- §3 — Feeling Operational Flow (8 bước)
-- §4 — Reward Mechanism (corrected, unified)
-- §5 — Feeling Gradient: Clear ↔ Vague (same mechanism)
+- §3 — Feeling Operational Flow (8 Steps)
+- §4 — Reward Mechanism (Corrected, Unified, Definitive)
+- §5 — Feeling Gradient: Clear ↔ Vague (Same Mechanism)
 - §6 — Feeling Quality = f(Chunk Library + Compile Context)
 - §7 — Honest Assessment + Predictions + Cross-References
 
@@ -51,57 +50,58 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §1 — Feeling = PFC Observation of Body-Chunk Interaction
 
-### §1.1 — Core claim
+### §1.1 — Core Claim
 
 ```
-⭐ FEELING KHÔNG PHẢI HỆ THỐNG RIÊNG.
+⭐ FEELING IS NOT A SEPARATE SYSTEM.
 
   Framework claim (integrated from Chunk-Analysis + Feeling.md):
 
-  Feeling = WHAT PFC SEES khi nó observe body-chunk interaction.
-  
-  Không có "feeling module" riêng biệt trong não.
-  Không có "emotion center" tách biệt khỏi body processing.
-  
-  CÓ:
-    → Body systems fire liên tục (body-base, mirror, schema, imagine-final...)
-    → Chunks activate theo probability distribution (01b §2)
-    → Body integrates signals tại insula + ACC + VMPFC (🟢 Craig 2009)
-    → PFC observe integrated state → ĐÓ LÀ FEELING
-  
-  Feeling = INTERFACE giữa body computation và PFC awareness.
-  Body = xử lý (compiled patterns fire).
-  Feeling = kết quả hiện lên cho PFC thấy.
-  PFC = observe + label + explain (với mức fidelity giảm dần).
+  Feeling = WHAT PFC SEES when it observes body-chunk interaction.
+
+  There is no "feeling module" isolated in the brain.
+  There is no "emotion center" separate from body processing.
+
+  WHAT EXISTS:
+    → Body systems fire continuously (body-base, mirror, schema, imagine-final...)
+    → Chunks activate according to probability distribution (01b §2)
+    → Body integrates signals at insula + ACC + VMPFC (🟢 Craig 2009)
+    → PFC observes integrated state → THAT IS FEELING
+
+  Feeling = INTERFACE between body computation and PFC awareness.
+  Body = processes (compiled patterns fire).
+  Feeling = the result that surfaces for PFC to see.
+  PFC = observes + labels + explains (with progressively decreasing fidelity).
 
 
-⭐ HỆ QUẢ QUAN TRỌNG:
+⭐ FOUR KEY CONSEQUENCES:
 
-  ① Feeling KHÔNG TẠO RA thông tin mới
-     → Body đã tính toán XONG trước khi feeling xuất hiện
-     → Feeling CHỈ report — messenger, không phải source
+  ① Feeling DOES NOT CREATE new information
+     → Body finishes computing BEFORE feeling emerges
+     → Feeling ONLY reports — messenger, not source
      → Temporal order: Body compute → Feeling emerge → PFC observe
      → 🟢 Damasio 1994, 1999: somatic markers PRECEDE conscious decision
 
-  ② Feeling KHÔNG THỂ SAI ở raw level (Feel-RawSignals–Feel-Consciousification)
-     → Body truth IS body truth — body không "lừa" chính nó
-     → SAI xảy ra ở PFC level: label wrong, explain wrong (Feel-Labeling–Feel-Explanation)
-     → = Fidelity giảm dần đi lên (Feeling.md §2.9)
+  ② Feeling CANNOT BE WRONG at the raw level (Feel-RawSignals–Feel-Consciousification)
+     → Body truth IS body truth — body does not "lie" to itself
+     → ERRORS occur at PFC level: wrong label, wrong explanation
+       (Feel-Labeling–Feel-Explanation)
+     → = Fidelity decreases moving upward (Feeling.md §2)
 
-  ③ Feeling KHÔNG phải "emotion narrow"
-     → Emotion (vui/buồn/giận/sợ) = 1 subset nhỏ
-     → Feeling = TẤT CẢ body state changes verbalizable
-     → 7 loại: body-physical, emotional, social reading, cognitive,
+  ③ Feeling is NOT just "emotion (narrow)"
+     → Emotion (joy/sadness/anger/fear) = 1 small subset
+     → Feeling = ALL body state changes that are PFC-observable
+     → 7 types: body-physical, emotional, social reading, cognitive,
        predictive, valence, schema-triggered (Feeling.md §1.2)
 
   ④ Feeling quality DEPENDS ON chunk library
      → Expert: large, domain-real chunk library → accurate feeling
      → Beginner: small library → unreliable feeling
      → Trauma-compiled: distorted body-state direction → distorted feeling
-     → = Feeling quality is NOT innate — it's a function of chunk history
+     → = Feeling quality is NOT innate — it is a function of chunk history
 ```
 
-### §1.2 — Body-first invariant (temporal order)
+### §1.2 — Body-First Invariant (Temporal Order)
 
 ```
 🟢 ESTABLISHED — body computes FIRST, PFC observes AFTER:
@@ -113,7 +113,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Libet 1983: brain activity (~350ms) BEFORE conscious awareness
     → Galvanic skin response: autonomic body change BEFORE conscious detection
       🟢 Bechara 1997: skin conductance changes BEFORE conscious "bad deck" knowledge
-    → LeDoux 1996: amygdala pathway (~12ms) BYPASS cortex entirely
+    → LeDoux 1996: amygdala pathway (~12ms) BYPASSES cortex entirely
     → Body signals via vagus nerve → brainstem → thalamus → insula
       → PFC only gets INTEGRATED result (Craig 2002, 2009)
 
@@ -129,28 +129,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │  T=500ms+ Explanation generation (Feel-Explanation)        │
     └─────────────────────────────────────────────────────────────┘
 
-    → Body leads. PFC follows. LUÔN LUÔN theo thứ tự này.
-    → PFC CÓ THỂ direct attention (top-down) → nhưng body VẪN compute first
+    → Body leads. PFC follows. ALWAYS.
+    → PFC CAN direct attention (top-down) — but body STILL computes first.
     → = PFC = camera, NOT director. Body = scene, NOT controlled.
 
 
   ⚠️ PFC CAN INFLUENCE NEXT CYCLE:
     → PFC observe → label → plan action → action → new body state
-    → PFC KHÔNG thay đổi CURRENT feeling (đã computed)
-    → PFC CHỈ thay đổi NEXT feeling (qua action → new input → new body state)
-    → = Loop, not linear (Feeling.md §3 Feeling Loop)
+    → PFC CANNOT change CURRENT feeling (already computed)
+    → PFC CAN ONLY change NEXT feeling (via action → new input → new body state)
+    → = Loop, not linear (Feeling.md §3: Feeling Loop)
     → = PFC's power = INDIRECT, through action, not through override
 ```
 
-### §1.3 — Relationship to Feeling.md 7-layer model
+### §1.3 — Relationship to Feeling.md 7-Layer Model
 
 ```
 🟡 HOW THIS FILE EXTENDS Feeling.md:
 
   Feeling.md = WHAT:
-    → 7 layers defined (Raw → Integration → Consciousification → 
+    → 7 layers defined (RawSignals → Integration → Consciousification →
       Observation → Location → Labeling → Explanation)
-    → Fidelity giảm dần
+    → Fidelity decreases upward
     → Feeling loop
     → Connection to body-base levels
 
@@ -162,53 +162,53 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → HOW chunk history shapes feeling quality (§6: quality model)
 
   MAPPING 7-LAYER → THIS FILE:
-    Feel-RawSignals (Raw)              → §2 (signal integration input)
-    Feel-Integration (Integration)      → §2 (integration mechanism)
+    Feel-RawSignals (Raw)                    → §2 (signal integration input)
+    Feel-Integration (Integration)            → §2 (integration mechanism)
     Feel-Consciousification (Consciousification) → §3 step 4 (PFC observation threshold)
-    Feel-Observation (Observation)      → §3 step 5-6 (chunk match + label search)
-    Feel-Location (Location)            → §3 step 5 (body topology mapping)
-    Feel-Labeling (Labeling)            → §3 step 6 + §5 (label ↔ gradient)
-    Feel-Explanation (Explanation)      → §3 step 8 (action planning / narrative)
+    Feel-Observation (Observation)            → §3 step 5-6 (chunk match + label search)
+    Feel-Location (Location)                  → §3 step 5 (body topology mapping)
+    Feel-Labeling (Labeling)                  → §3 step 6 + §5 (label ↔ gradient)
+    Feel-Explanation (Explanation)            → §3 step 8 (action planning / narrative)
 
   → Feeling.md = anatomy. This file = physiology.
-  → Cả hai cần nhau. Không thay thế nhau.
+  → Both needed. Neither replaces the other.
 ```
 
 ---
 
 ## §2 — Signal Integration: Multi-Channel → Unified Feeling
 
-### §2.1 — The integration problem
+### §2.1 — The Integration Problem
 
 ```
-⭐ TẠI SAO CẦN INTEGRATION:
+⭐ WHY INTEGRATION IS NEEDED:
 
-  Body có HÀNG NGHÌN signals fire đồng thời:
+  The body has THOUSANDS of signals firing simultaneously:
 
-    Exteroceptive: 120M rods + 6M cones + 16K hair cells + 10M olfactory 
+    Exteroceptive: 120M rods + 6M cones + 16K hair cells + 10M olfactory
       neurons + 10K taste buds + millions tactile receptors
     Proprioceptive: muscle spindles + joint receptors + vestibular
     Interoceptive: cardiovascular + respiratory + visceral + metabolic +
       hormonal + nociception + thermal + self-signal meta
     (Full enumeration: Body-Input-Enumeration.md, Neural-Processing-Flow.md §1)
 
-  PFC KHÔNG THỂ xử lý hàng nghìn streams riêng lẻ.
+  PFC CANNOT process thousands of separate streams.
   PFC capacity = ~4-7 items in working memory (🟢 Cowan 2001).
 
-  → Body PHẢI compress hàng nghìn signals → FEW integrated states
-  → Integration = cơ chế compress này
+  → Body MUST compress thousands of signals → FEW integrated states
+  → Integration = this compression mechanism
 
-  KHÔNG PHẢI information LOSS (ở level integration):
-    → Body không "vứt" signals đi
-    → Body INTEGRATE: many → one coherent state
-    → Giống orchestra: 80 instruments → 1 sound experience
-    → Mỗi instrument vẫn "ở đó" — nhưng listener hears MUSIC, not 80 parts
+  NOT information LOSS (at the integration level):
+    → Body does not "discard" signals
+    → Body INTEGRATES: many → one coherent state
+    → Like an orchestra: 80 instruments → 1 musical experience
+    → Each instrument still "there" — but listener hears MUSIC, not 80 parts
 ```
 
-### §2.2 — Integration hardware
+### §2.2 — Integration Hardware
 
 ```
-🟢 ESTABLISHED — 3 hubs chính:
+🟢 ESTABLISHED — 3 primary hubs:
 
   ① ANTERIOR INSULA — "interoceptive cortex"
      → 🟢 Craig 2002, 2009: "seat of subjective awareness"
@@ -216,7 +216,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → Receives: exteroceptive signals (cross-modal)
      → Produces: unified "how do I feel RIGHT NOW" representation
      → Right anterior insula: moment-to-moment body state awareness
-     → = KEYSTONE hub cho feeling integration
+     → = KEYSTONE hub for feeling integration
 
   ② ACC (Anterior Cingulate Cortex) — "conflict + salience monitor"
      → 🟢 Botvinick 2004: conflict monitoring
@@ -231,7 +231,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → 🟢 Bechara 1994: Iowa Gambling Task → VMPFC essential for gut feeling
      → Integrates: body state + learned values + context
      → Produces: approach/avoid valuation
-     → = "Nên hay không nên" assessment
+     → = "Should or shouldn't" assessment
 
   HOW 3 HUBS WORK TOGETHER:
 
@@ -241,7 +241,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │                              │                               │
     │                    ┌─────────┼─────────┐                     │
     │                    ↓         ↓         ↓                     │
-    │              INSULA      ACC       VMPFC                     │
+    │              INSULA       ACC       VMPFC                    │
     │           "how I feel" "conflict?" "value?"                  │
     │                    │         │         │                     │
     │                    └─────────┼─────────┘                     │
@@ -254,7 +254,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │                                                              │
     └──────────────────────────────────────────────────────────────┘
 
-    → 3 hubs COMMUNICATE liên tục (reciprocal connections)
+    → 3 hubs COMMUNICATE continuously (reciprocal connections)
     → Insula provides RAW body state
     → ACC flags CONFLICTS + SALIENCE
     → VMPFC adds VALUE assessment
@@ -263,27 +263,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 🟡 FRAMEWORK NOTE — self-signal interoception:
 
-  Body-Input-Enumeration.md §4.9 identified "self-signal interoception" 
+  Body-Input-Enumeration.md §4.9 identified "self-signal interoception"
   as architectural KEYSTONE:
-    → = Khả năng ĐOÁN body state (predictive) → match actual → error signal
+    → = The capacity to PREDICT body state (predictive) → match actual
+      → error signal
     → 🟢 Seth 2013 "interoceptive inference": brain PREDICTS body state,
       feeling = prediction-delta between expected and actual
-    → = Insula không chỉ READ body — insula PREDICT body
-    → = Feeling = delta giữa "tôi nghĩ mình đang cảm thấy X" và "thực tế Y"
+    → = Insula does not just READ body — insula PREDICTS body
+    → = Feeling = delta between "I think I feel X" and "actually Y"
     → Hall 2019 NIH: empirical evidence for interoceptive prediction
     → = Explains WHY meditators "feel more" — they predict better →
       detect smaller deltas → finer-grained feelings
 ```
 
-### §2.3 — Integration mechanism: from many to one
+### §2.3 — Integration Mechanism: From Many to One
 
 ```
 🟡 FRAMEWORK SYNTHESIS — HOW integration produces unified feeling:
 
   STEP 1 — PARALLEL FIRING:
-    → Tất cả body systems fire ĐỒNG THỜI
-    → Mỗi system → signals riêng → converge at integration hubs
-    → KHÔNG sequential — PARALLEL (tất cả cùng lúc)
+    → All body systems fire SIMULTANEOUSLY
+    → Each system → its own signals → converge at integration hubs
+    → NOT sequential — PARALLEL (all at once)
     → Timing: continuous, not discrete events
 
   STEP 2 — TEMPORAL BINDING:
@@ -299,13 +300,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Match → "as expected" → low salience (no feeling change)
     → Mismatch → "something different" → HIGH salience → feeling shifts
     → = Feeling reflects CHANGE more than absolute state
-    → = Tại sao "quen dần" — body adapts, prediction matches, feeling fades
+    → = Why "getting used to it" — body adapts, prediction matches, feeling fades
 
   STEP 4 — CONFLICT DETECTION:
     → ACC monitors for INCONSISTENCY between signals
     → All signals coherent → smooth state → "fine" feeling
-    → Some signals conflict → ACC flags → "something off" feeling
-    → = Cơ chế "cảm thấy có gì đó sai" (04 §2: vague detection)
+    → Some signals conflict → ACC flags → "something feels off"
+    → = "Something feels off" mechanism (04 §2: vague detection)
 
   STEP 5 — VALUE TAGGING:
     → VMPFC adds approach/avoid valuation
@@ -314,33 +315,34 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Body vote on current state (body-first, value-laden)
 
   → RESULT: 1000s signals → 1 unified, valued, directional body state
-  → ĐÓ LÀ "unified feeling" — sẵn sàng cho PFC observe
+  → THAT IS "unified feeling" — ready for PFC observation
 
 
-⭐ KEY INSIGHT — why "yêu em" feels UNIFIED, not list:
+⭐ KEY INSIGHT — why "I love you" feels UNIFIED, not a list:
 
   9+ channels fire (Feeling.md §1.3):
-    L0 safe, L1 relax, novelty-reward (evaluative), meaning (evaluative), agent-satisfied,
-    mirror positive, imagine-final positive, valence positive, schema active
+    L0 safe, L1 relaxed, novelty-reward (evaluative), meaning (evaluative),
+    agent-satisfied, mirror positive, imagine-final positive, valence positive,
+    schema active
 
   Integration mechanism:
-    → 9 channels fire đồng thời
+    → 9 channels fire simultaneously
     → Temporal binding: all within ~30-50ms → BOUND
     → Insula integrates → "body state: VERY positive, multi-domain"
     → ACC: no conflict → smooth
     → VMPFC: high value → strong approach
-    → = 1 unified feeling: "yêu em"
-    → PFC compress → 2 từ. Body experience = 9 dimensions.
+    → = 1 unified feeling: "I love you"
+    → PFC compresses → 3 words. Body experience = 9 dimensions.
     → = Lossy compression at Feel-Labeling (Feeling.md §2.7)
 ```
 
 ---
 
-## §3 — Feeling Operational Flow (8 bước)
+## §3 — Feeling Operational Flow (8 Steps)
 
-> **Đây là "Processing System"** — operational flow từ body signal đến hành vi.
+> **This is the "Processing System"** — operational flow from body signal to behavior.
 > = 01c Discovery Cycle APPLIED TO FEELING specifically.
-> = Missing file mà framework chưa có.
+> = The missing file the framework needed.
 
 ### §3.0 — Overview
 
@@ -353,22 +355,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │     (body-base + mirror + schema + imagine-final + valence...) │
   │                              ↓                                 │
   │  ② VTA DETECTS DELTA                                           │
-  │     (dopamine = salience alert, KHÔNG PHẢI reward)             │
+  │     (dopamine = salience alert, NOT reward)                    │
   │                              ↓                                 │
   │  ③ SIGNAL INTEGRATION                                          │
   │     (insula + ACC + VMPFC aggregate → unified state)           │
   │                              ↓                                 │
   │  ④ PFC OBSERVATION THRESHOLD                                   │
-  │     (signal đủ mạnh → conscious awareness / không → background)│
+  │     (signal strong enough → conscious / not → background)     │
   │                              ↓                                 │
   │  ⑤ CHUNK PATTERN-MATCH                                         │
-  │     (activated chunks → context for feeling: what IS this?)    │
+  │     (activated chunks → context for feeling: "what IS this?") │
   │                              ↓                                 │
   │  ⑥ LABEL SEARCH                                                │
-  │     (label found → logic-planning / not found → vague feeling) │
+  │     (label found → logic-planning / not found → vague)        │
   │                              ↓                                 │
   │  ⑦ BODY VOTE ON INTERPRETATION                                 │
-  │     (smooth = "đúng rồi" / resist = "chưa đúng" / empty)      │
+  │     (smooth = "that's it" / resist = "not quite" / empty)     │
   │                              ↓                                 │
   │  ⑧ ACTION OR CONTINUED PROCESSING                              │
   │     (labeled → plan + act / vague → dwell + iterate)           │
@@ -378,16 +380,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   TIMING: ① → ④ = ~150-200ms (automatic, mostly unconscious)
           ⑤ → ⑧ = variable (ms to hours, depends on complexity)
-  
-  LOOP: ⑧ → ① = continuous. Feeling loop KHÔNG dừng.
+
+  LOOP: ⑧ → ① = continuous. Feeling loop NEVER stops.
 ```
 
-### §3.1 — Bước ① Body Signals Fire
+### §3.1 — Step ① Body Signals Fire
 
 ```
-TRIGGER: Bất kỳ thay đổi nào ở body hoặc environment.
+TRIGGER: Any change in body or environment.
 
-  SOURCES (multi-channel, đồng thời):
+  SOURCES (multi-channel, simultaneous):
     → L0 Alive: threat detection, safety monitoring
     → L1 Body-inputs: interoceptive, exteroceptive, proprioceptive
     → Novelty (evaluative): VTA habituation-based delta detection
@@ -399,19 +401,19 @@ TRIGGER: Bất kỳ thay đổi nào ở body hoặc environment.
     → Cognitive prediction: PFC expectations → body anticipation
 
   KEY PROPERTIES:
-    → PARALLEL: tất cả channels fire CÙNG LÚC, không sequential
-    → CONTINUOUS: 24/7, kể cả ngủ (reduced nhưng không tắt)
-    → AUTOMATIC: body fire không cần PFC permission
+    → PARALLEL: all channels fire SIMULTANEOUSLY, not sequentially
+    → CONTINUOUS: 24/7, including during sleep (reduced but not off)
+    → AUTOMATIC: body fires without PFC permission
     → MULTI-SCALE: ms (reflex) → seconds (acute) → hours (mood) → years (trait)
 
-  → = Feel-RawSignals trong Feeling.md 7-layer model
-  → = INPUT cho toàn bộ feeling pipeline
+  → = Feel-RawSignals in Feeling.md 7-layer model
+  → = INPUT for the entire feeling pipeline
 ```
 
-### §3.2 — Bước ② VTA Detects Delta
+### §3.2 — Step ② VTA Detects Delta
 
 ```
-🟡 VTA = "seismograph" — detect BIẾN ĐỘNG, not absolute state.
+🟡 VTA = "seismograph" — detects CHANGE, not absolute state.
 
   MECHANISM (03-Reward.md §2.4, Neural-Processing-Flow.md):
     → Body fires stably → VTA habituates → IGNORES
@@ -419,15 +421,15 @@ TRIGGER: Bất kỳ thay đổi nào ở body hoặc environment.
     → Dopamine = "SOMETHING CHANGED — pay attention!"
 
   ⚠️ CRITICAL — DOPAMINE ≠ REWARD:
-    → Dopamine = SALIENCE ALERT (chuông cửa)
-    → = "Có biến động, chú ý!" — motivates SEARCH
-    → ≠ "Có giá trị" — that's opioid (step riêng, xem §4)
+    → Dopamine = SALIENCE ALERT (doorbell)
+    → = "Something's happening, pay attention!" — motivates SEARCH
+    → ≠ "This has value" — that's opioid (separate step, see §4)
     → 🟢 Berridge & Robinson 1998: wanting (dopamine) ≠ liking (opioid)
 
   PREDICTION-DELTA TYPES:
     → External delta: environment changed (new stimulus)
     → Internal delta: body state changed (hunger onset, fatigue shift)
-    → Cognitive delta: schema mismatch detected (prediction-delta)
+    → Cognitive delta: schema mismatch detected (prediction-error)
     → Social delta: agent behavior changed (mirror circuit shift)
 
   DRD4 RECEPTOR FILTER (03-Reward.md §2.5):
@@ -436,14 +438,14 @@ TRIGGER: Bất kỳ thay đổi nào ở body hoặc environment.
     → = PER-PERSON difference in feeling sensitivity
     → = Same event → different people → different feeling intensity
 
-  → prediction-delta → dopamine → §3 signal integration BOOSTED
+  → prediction-delta → dopamine → step ③ signal integration BOOSTED
   → VTA no delta → no dopamine → signals integrate at baseline level
 ```
 
-### §3.3 — Bước ③ Signal Integration
+### §3.3 — Step ③ Signal Integration
 
 ```
-= §2 mechanism APPLIED as step in operational flow.
+= §2 mechanism APPLIED as a step in the operational flow.
 
   WHAT HAPPENS:
     → All current signals (from step ①) converge at integration hubs
@@ -461,7 +463,7 @@ TRIGGER: Bất kỳ thay đổi nào ở body hoặc environment.
     → Integration happens at BASELINE level
     → Most signals → sub-threshold → background hum
     → Only strong signals break through → "ambient" feeling
-    → = Tại sao lúc "bình thường" vẫn CÓ feeling — chỉ mờ nhạt
+    → = Why "normal" times still HAVE feeling — just faint
 
   INTEGRATION RESULT = 1 unified body state:
     → Valence: positive ↔ negative (approach ↔ avoid)
@@ -469,21 +471,21 @@ TRIGGER: Bất kỳ thay đổi nào ở body hoặc environment.
     → Coherence: smooth ↔ conflicted (ACC peaceful ↔ flagging)
     → Specificity: localized ↔ diffuse (clear source ↔ vague)
 
-  → Unified state READY cho PFC observation (step ④)
+  → Unified state READY for PFC observation (step ④)
 ```
 
-### §3.4 — Bước ④ PFC Observation Threshold
+### §3.4 — Step ④ PFC Observation Threshold
 
 ```
 ⭐ TRANSITION POINT: unconscious → conscious.
 
   = Feeling.md Feel-Consciousification → Feel-Observation.
-  = Khi integrated state ĐỦ MẠNH để PFC nhận biết.
+  = When integrated state is STRONG ENOUGH for PFC to register.
 
   THRESHOLD DETERMINANTS:
     → Signal strength: strong signals → cross threshold easily
     → VTA boost: dopamine amplification → lowers effective threshold
-    → PFC attention direction: top-down query → lowers threshold cho target
+    → PFC attention direction: top-down query → lowers threshold for target
     → Contrast: sudden CHANGE → cross threshold (delta detection)
     → Current PFC load: busy PFC → HIGHER threshold → more signals missed
 
@@ -500,7 +502,7 @@ TRIGGER: Bất kỳ thay đổi nào ở body hoặc environment.
        → 🟢 Unconscious priming (Bargh 1996): below-threshold signals
          still affect choices, preferences, judgments
        → Person CANNOT report → but behavior SHOWS influence
-       → = "Tôi không biết sao tôi chọn cái này" — body knew, PFC didn't notice
+       → = "I don't know why I chose this" — body knew, PFC didn't notice
        → = Stays in ①→②→③→④ loop, may cross threshold later
 
   ⚠️ TRAINING EFFECT:
@@ -513,12 +515,12 @@ TRIGGER: Bất kỳ thay đổi nào ở body hoặc environment.
     → = Threshold is NOT fixed — trainable, per-domain, per-person
 ```
 
-### §3.5 — Bước ⑤ Chunk Pattern-Match
+### §3.5 — Step ⑤ Chunk Pattern-Match
 
 ```
-⭐ PFC "NHÌN" FEELING → TÌM CHUNKS PHÙ HỢP:
+⭐ PFC "SEES" FEELING → SEARCHES FOR MATCHING CHUNKS:
 
-  Khi PFC observe feeling (step ④ above threshold) → automatic:
+  When PFC observes feeling (step ④ above threshold) → automatic:
     → Current body state → spreading activation (01b §2)
     → Activation propagates to MATCHING chunks
     → Chunks that MATCH current state → fire stronger
@@ -529,19 +531,19 @@ TRIGGER: Bất kỳ thay đổi nào ở body hoặc environment.
     → Pattern activates chunks with SIMILAR body-state tags
     → 01b §2.2: emotional state match = probability modifier
        (Bower 1981 mood-congruent memory 🟢)
-    → = "Đang sợ → fear-compiled chunks fire → thấy nguy hiểm khắp nơi"
-    → = "Đang vui → reward-compiled chunks fire → thấy cơ hội khắp nơi"
+    → = "Currently afraid → fear-compiled chunks fire → see danger everywhere"
+    → = "Currently happy → reward-compiled chunks fire → see opportunity everywhere"
 
   PATTERN-MATCH OUTCOMES:
 
     STRONG MATCH (1-2 chunks fire clearly):
-      → PFC gets CONTEXT: "ah, cảm giác này GIỐNG lần X"
+      → PFC gets CONTEXT: "ah, this feeling IS LIKE that time X"
       → = Clear feeling → proceed to label (step ⑥)
       → = Gradient position ①-② (02 §2.1: Body Signal / Named Emotion)
 
     MODERATE MATCH (few chunks, partial):
-      → PFC gets APPROXIMATE context: "gần giống lần X nhưng không hẳn"
-      → = Moderate clarity → attempt label (step ⑥) hoặc search more
+      → PFC gets APPROXIMATE context: "similar to X but not quite"
+      → = Moderate clarity → attempt label (step ⑥) or search more
       → = Gradient position ③ (Gut Feeling)
 
     WEAK MATCH (many chunks, scattered):
@@ -553,24 +555,24 @@ TRIGGER: Bất kỳ thay đổi nào ở body hoặc environment.
       → = Gradient position ④-⑥ (Intuition → Pre-monition)
 
     NO MATCH (new territory):
-      → Current state không khớp BẤT KỲ chunk nào
+      → Current state matches NO existing chunk
       → PFC: "completely unfamiliar feeling"
       → = First time → no reference → anxiety or curiosity (depending
           on threat level)
       → = Very rare for adults (most experiences HAVE some match)
 
   → Pattern-match GIVES feeling its CONTEXT and SPECIFICITY
-  → Without chunks: feeling exists (body fires) nhưng PFC has no context
-  → = Tại sao expert FEELS better — larger chunk library → richer matches
+  → Without chunks: feeling exists (body fires) but PFC has no context
+  → = Why experts FEEL better — larger chunk library → richer matches
 ```
 
-### §3.6 — Bước ⑥ Label Search
+### §3.6 — Step ⑥ Label Search
 
 ```
-🟡 LABEL = "VÉ VÀO CỬA" CHO LOGIC-PLANNING SYSTEM.
+🟡 LABEL = "ENTRY TICKET" TO THE LOGIC-PLANNING SYSTEM.
 
   = Feeling.md Feel-Labeling
-  = 01c §2.5: Label = prerequisite cho logic-planning enablement
+  = 01c §2.5: Label = prerequisite for logic-planning enablement
   = Label-As-Handle: label = retrieval path, NOT content
 
   MECHANISM:
@@ -578,19 +580,19 @@ TRIGGER: Bất kỳ thay đổi nào ở body hoặc environment.
     → PFC searches for LABEL that matches this experience
     → = Verbal search: "this feeling IS ___"
 
-  LABEL 3 TẦNG (Logic-Planning.md §2):
-    → Individual: "cái cảm giác đó" — chỉ tôi hiểu, fidelity CAO NHẤT
-    → Group: "cái kiểu hôm trước ấy" — nhóm hiểu, fidelity TRUNG
-    → Global: "anxiety" — mọi người hiểu, fidelity THẤP NHẤT
-    → Nghịch lý: label càng GLOBAL → càng dễ communicate → càng LOSSY
+  LABEL 3-TIER (Logic-Planning.md §2):
+    → Individual: "that feeling" — only I understand, fidelity HIGHEST
+    → Group: "like that time before" — group understands, fidelity MEDIUM
+    → Global: "anxiety" — everyone understands, fidelity LOWEST
+    → Paradox: the more GLOBAL the label → easier to communicate → more LOSSY
 
   SEARCH OUTCOMES:
 
     LABEL FOUND:
       → Feeling becomes NAMEABLE → logic-planning system CAN access it
-      → "Tôi đang buồn" → PFC can now: plan, reason, communicate, compare
-      → = 01c §2.5: label = vé vào cửa cho planning system
-      → = Chunk chuyển từ body-only → body + logic (both pathways available)
+      → "I'm sad" → PFC can now: plan, reason, communicate, compare
+      → = 01c §2.5: label = entry ticket for planning system
+      → = Chunk shifts from body-only → body + logic (both pathways available)
       → Proceed to step ⑦ (body vote on label accuracy)
 
     LABEL NOT FOUND:
@@ -599,7 +601,7 @@ TRIGGER: Bất kỳ thay đổi nào ở body hoặc environment.
         a) DWELL: PFC holds attention on feeling → more chunks activate
            → convergence zone sharpens → eventually label MAY emerge
            = Gendlin Focusing (1978): deliberately attend to felt sense
-           = Somatic-Articulation-Loop applied to feeling (Somatic-Articulation-Loop)
+           = Somatic-Articulation-Loop applied to feeling
         b) DISMISS: PFC gives up → attention moves elsewhere
            → Feeling continues influencing behavior BELOW PFC awareness
            → = "Not nothing" — still affects choices, mood, reactions
@@ -607,44 +609,44 @@ TRIGGER: Bất kỳ thay đổi nào ở body hoặc environment.
         or step ① restart for DISMISS)
 
   ⚠️ LABEL ≠ ACCURACY:
-    → Label CAN BE WRONG: "tôi giận chồng" when actually = mệt + đói
+    → Label CAN BE WRONG: "I'm angry at my partner" when actually = tired + hungry
     → Label is PFC's BEST GUESS, not body truth
     → = Feeling.md §2.7: Feel-Labeling fidelity 40-80%
     → = Step ⑦ (body vote) is WHERE accuracy gets checked
 ```
 
-### §3.7 — Bước ⑦ Body Vote on Interpretation
+### §3.7 — Step ⑦ Body Vote on Interpretation
 
 ```
-⭐ BODY VOTE = CƠ CHẾ KIỂM TRA ĐỘ CHÍNH XÁC CỦA PFC.
+⭐ BODY VOTE = ACCURACY CHECK MECHANISM FOR PFC.
 
   = "Body vote" concept from Chunk-Analysis (F4 throughout)
-  = Body's response khi PFC propose label/interpretation
+  = Body's response when PFC proposes a label/interpretation
 
   MECHANISM:
-    → PFC proposes label: "tôi đang anxiety"
+    → PFC proposes label: "I'm anxious"
     → Label activates ASSOCIATED body states (via chunk links)
-    → Body SIMULATES: "nếu 'anxiety' → body feel gì?"
+    → Body SIMULATES: "if 'anxious' → how would body feel?"
     → Body's ACTUAL current state → COMPARE with simulated state
     → Comparison → body vote: MATCH or MISMATCH
 
   3 BODY VOTE OUTCOMES:
 
-    ✅ SMOOTH (body vote: "đúng rồi"):
+    ✅ SMOOTH (body vote: "that's it"):
        → Label matches body state → no conflict → feeling COHERENT
        → Body relaxes slightly → "landing" sensation
        → Gendlin "body shift" (1978): when right word found → body releases
-       → = "Đúng, tôi đang anxiety" → body confirms → proceed to action
+       → = "Yes, I'm anxious" → body confirms → proceed to action
        → = Label = VALID interpretation (at this moment, for this person)
 
-    ❌ RESIST (body vote: "chưa đúng"):
+    ❌ RESIST (body vote: "not quite"):
        → Label MISMATCHES body state → conflict → body TIGHTENS or REJECTS
-       → "Tôi giận chồng" but body says "không hẳn vậy" → label wrong
+       → "I'm angry at my partner" but body says "not really" → label wrong
        → PFC should: reconsider, try different label, go back to step ⑤-⑥
        → = Body PROTECTING truth against PFC confabulation
-       → = Tại sao therapy works: therapist helps find label that body ACCEPTS
+       → = Why therapy works: therapist helps find label that body ACCEPTS
 
-    ⬜ EMPTY (body vote: "không biết"):
+    ⬜ EMPTY (body vote: "unclear"):
        → Body doesn't respond clearly either way
        → Label may be PARTIALLY right — or feeling too weak to compare
        → PFC in ambiguous territory → keep searching or accept uncertainty
@@ -659,7 +661,7 @@ TRIGGER: Bất kỳ thay đổi nào ở body hoặc environment.
     → = Body vote quality = f(compile history + current state)
 ```
 
-### §3.8 — Bước ⑧ Action or Continued Processing
+### §3.8 — Step ⑧ Action or Continued Processing
 
 ```
 STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
@@ -668,14 +670,15 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
     → Feeling identified → PFC can plan
     → Logic-planning system engaged (Logic-Planning.md)
     → Plan → execute → new body state → back to step ①
-    → = "Tôi buồn vì thiếu ngủ" → plan: ngủ sớm → execute → feel better
+    → = "I'm sad from lack of sleep" → plan: sleep earlier → execute → feel better
     → = Standard feeling → action pathway
 
   PATH B — LABELED + BODY VOTE RESIST → RE-INTERPRET:
     → PFC label wrong → go back to step ⑤-⑥
     → Try different chunk match, different label
     → Iterate until body vote smooth (or give up)
-    → = "Tôi giận chồng" → body resists → "thật ra tôi mệt" → body smooth
+    → = "I'm angry at my partner" → body resists → "actually I'm just exhausted"
+      → body smooth
     → = Self-correction pathway (requires feeling literacy)
 
   PATH C — UNLABELED + DWELL → CONTINUED PROCESSING:
@@ -690,7 +693,7 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
     → PFC gives up attending → but feeling doesn't DISAPPEAR
     → Continues influencing: mood, preferences, reactions, choices
     → May resurface later (trigger surface: 01b §4)
-    → = "Tôi không biết sao cứ cáu" — unlabeled feeling driving behavior
+    → = "I don't know why I keep getting irritable" — unlabeled feeling driving behavior
     → = Most dangerous path: no awareness → no regulation → accumulation
 
   ⚠️ ALL PATHS → BACK TO STEP ①:
@@ -722,18 +725,18 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
 
 ## §4 — Reward Mechanism (Corrected, Unified, Definitive)
 
-> **Đây là DEFINITIVE statement** về reward trong feeling system.
-> Thay thế tất cả scattered references trước đây.
-> Source gốc: Body-Feedback-Draft/03-Reward.md (Body-Feedback-Precondition, 5 preconditions).
-> Audit N+10 (2026-04-17): 8 files fixed dopamine/opioid confusion.
+> **This is the DEFINITIVE statement** about reward in the feeling system.
+> Replaces all scattered prior references.
+> Source: Body-Feedback-Draft/03-Reward.md (Body-Feedback-Precondition, 5 preconditions).
+> Audit N+10 (2026-04-17): 8 files corrected on dopamine/opioid confusion.
 
-### §4.1 — The fundamental distinction
+### §4.1 — The Fundamental Distinction
 
 ```
-⭐ REWARD LÀ 2-LEVEL MECHANISM, KHÔNG PHẢI 1 SIGNAL:
+⭐ REWARD IS A 2-LEVEL MECHANISM, NOT 1 SIGNAL:
 
   LEVEL 1 — DOPAMINE ALERT (VTA):
-    → "CÓ BIẾN ĐỘNG — chú ý!"
+    → "SOMETHING CHANGED — pay attention!"
     → Signal: salience, NOT value
     → Function: direct attention, motivate SEARCH
     → Neurochemical: dopamine (VTA → PFC via mesolimbic pathway)
@@ -741,153 +744,154 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
     → 🟢 Berridge & Robinson 1998: WANTING system
 
   LEVEL 2 — OPIOID REWARD (body-base):
-    → "Chunk KHỚP body-need → có giá trị THẬT"
+    → "Chunk MATCHES body-need → has REAL value"
     → Signal: actual reward, pleasure, satisfaction
     → Function: reinforce pattern, tag chunk as "valuable"
     → Neurochemical: endogenous opioids (endorphins, enkephalins)
-    → Subjective: "pleasant", "satisfied", "đúng rồi"
+    → Subjective: "pleasant", "satisfied", "that's it"
     → 🟢 Berridge 2003, Fields 2007: LIKING system
 
 
-  ANALOGY CỐT LÕI:
+  CORE ANALOGY:
     ┌───────────────────────────────────────────────────────────┐
-    │  Dopamine = CHUÔNG CỬA (doorbell)                        │
-    │    → "Có ai ở cửa!" — alerting, not evaluating           │
-    │    → Rung chuông ≠ quà tặng                              │
+    │  Dopamine = DOORBELL                                      │
+    │    → "Someone's at the door!" — alerting, not evaluating │
+    │    → Doorbell ringing ≠ the gift                         │
     │                                                           │
-    │  Opioid = QUÀ ĐẰNG SAU CỬA (gift behind door)           │
-    │    → Mở cửa → có quà = reward. Mở cửa → trống = no reward│
-    │    → Quà = body-need match confirmed                      │
+    │  Opioid = THE GIFT BEHIND THE DOOR                       │
+    │    → Door opens → gift there = reward. No gift = no reward│
+    │    → Gift = body-need match confirmed                     │
     │                                                           │
-    │  Cortisol drop = RELIEF (hậu quả, không phải nguyên nhân)│
-    │    → Nếu CÓ threat đang pending → resolve → cortisol rút │
-    │    → Relief = THÊM on top of opioid, không phải reward    │
-    │    → Nếu KHÔNG có threat → không có cortisol drop         │
-    │    → = Einstein (no threat): opioid only, no relief bonus │
+    │  Cortisol drop = RELIEF (consequence, not cause)         │
+    │    → IF threat pending → resolved → cortisol withdraws   │
+    │    → Relief = BONUS on top of opioid, not reward itself  │
+    │    → IF no threat present → no cortisol drop             │
+    │    → = Einstein (no threat): opioid only, no relief bonus│
     └───────────────────────────────────────────────────────────┘
 
 
 🟢 BERRIDGE EXPERIMENTS (definitive evidence):
 
-  Chuột bị block dopamine:
-    → VẪN thích đường (ăn khi được cho, mặt biểu lộ "ngon")
-    → KHÔNG tìm kiếm đường (mất motivation)
-    → = Dopamine = wanting. Block dopamine → mất wanting, GIỮ liking.
+  Rats with dopamine blocked:
+    → STILL liked sugar (ate it when offered, showed "liking" facial response)
+    → Did NOT seek sugar (lost motivation to look for it)
+    → = Dopamine = wanting. Block dopamine → lose wanting, KEEP liking.
 
-  Chuột bị kích thích dopamine:
-    → TÌM KIẾM nhiều hơn (approach behavior tăng)
-    → KHÔNG pleasant hơn (facial expression giữ nguyên)
-    → = Stimulate dopamine → tăng wanting, KHÔNG tăng liking.
+  Rats with dopamine stimulated:
+    → Sought MORE (approach behavior increased)
+    → NOT more pleasant (facial expression unchanged)
+    → = Stimulate dopamine → increase wanting, NOT increase liking.
 
-  → Dopamine và opioid = 2 HỆ THỐNG KHÁC NHAU.
-  → Framework: chuông cửa (dopamine) ≠ quà (opioid). CHÍNH XÁC.
+  → Dopamine and opioid = 2 DIFFERENT SYSTEMS.
+  → Framework: doorbell (dopamine) ≠ gift (opioid). PRECISE.
 ```
 
-### §4.2 — Reward in the 8-step feeling flow
+### §4.2 — Reward in the 8-Step Feeling Flow
 
 ```
 🟡 REWARD MAPS ONTO 8-STEP FLOW (§3):
 
-  Step ① Body fire → signals include: body-need states (pending needs)
+  Step ① Body fires → signals include: body-need states (pending needs)
   Step ② prediction-delta → dopamine = ALERT ("something might fill a need")
   Step ③ Integration → insula + VMPFC assess: "does this match a need?"
   Step ④ Threshold → PFC notices: "something potentially valuable"
   Step ⑤ Chunk match → chunks activate: "this pattern = X"
-  
+
   ⭐ REWARD HAPPENS HERE (between step ⑤ and ⑥):
-  
+
     → PFC holds matched chunk
-    → PFC sends chunk XUỐNG body-base: "simulate → body feel gì?"
+    → PFC sends chunk DOWN to body-base: "simulate → how would body feel?"
       (🟢 Jeannerod 1995: motor imagery uses motor cortex)
       (🟢 Kosslyn 1994: visual imagery uses visual cortex)
     → Body simulates:
-      → Chunk KHỚP body-need → OPIOID release → REWARD THẬT
-      → Chunk KHÔNG khớp → body "meh" → PFC discards
+      → Chunk MATCHES body-need → OPIOID release → REAL REWARD
+      → Chunk DOES NOT match → body "meh" → PFC discards
     → = 03-Reward.md §2.7 Step 5: BODY-BASE CHECK
 
-  Step ⑥ Label → IF reward: "pleasant!", "đúng rồi!", "eureka!"
+  Step ⑥ Label → IF reward: "pleasant!", "that's it!", "eureka!"
   Step ⑦ Body vote → SMOOTH (reward confirmed) → reinforce pattern
   Step ⑧ Action → chunk tagged "valuable" → strengthened → baseline shift
 
   → REWARD = BETWEEN step ⑤ and ⑥ — at body-base check point
   → NOT at step ② (dopamine alert ≠ reward)
-  → NOT at step ⑥ (label ≠ reward, label is AFTER reward)
+  → NOT at step ⑥ (label comes AFTER reward, not reward itself)
 ```
 
-### §4.3 — 5 preconditions for full reward (Body-Feedback-Precondition)
+### §4.3 — 5 Preconditions for Full Reward (Body-Feedback-Precondition)
 
 ```
 🟡 BODY-FEEDBACK-PRECONDITION — 5 PRECONDITIONS (03-Reward.md §3):
 
-  Full reward fires WHEN ALL 5 met. Missing ANY → signal absent or wrong.
+  Full reward fires WHEN ALL 5 are met. Missing ANY → reward absent or distorted.
 
-  ┌───┬──────────────────────┬────────────────────────────┬────────────────────────────────────┐
-  │ # │ Precondition         │ Failure mode               │ Classic example                    │
-  ├───┼──────────────────────┼────────────────────────────┼────────────────────────────────────┤
-  │ 1 │ Directed-Gap         │ No need → no reward        │ Full person offered food           │
-  │   │ (body-need gap open) │ even if objectively good   │ → "không thèm" = no Precondition-1│
-  ├───┼──────────────────────┼────────────────────────────┼────────────────────────────────────┤
-  │ 2 │ Chunk-Substrate      │ Cannot decode → confusion  │ Van Gogh to untrained             │
-  │   │ (đủ substrate decode)│ not reward                 │ → "không hiểu" = no Precondition-2│
-  ├───┼──────────────────────┼────────────────────────────┼────────────────────────────────────┤
-  │ 3 │ Delta-Gate           │ No alert → no attention    │ Routine events missed             │
-  │   │ (biến động đủ lớn)   │ → no downstream reward     │ → "chán" = no Precondition-3      │
-  ├───┼──────────────────────┼────────────────────────────┼────────────────────────────────────┤
-  │ 4 │ Match-Range          │ Too alien OR too familiar  │ Atonal music = too alien           │
-  │   │ (Goldilocks — dynamic)│ → wrong direction          │ Same song 1000x = boring           │
-  ├───┼──────────────────────┼────────────────────────────┼────────────────────────────────────┤
-  │ 5 │ Compile-Gate         │ Content OK but tagged      │ Math learned under fear            │
-  │   │ (opioid vs cortisol) │ cortisol → avoidance       │ → adult "ghét toán"               │
-  └───┴──────────────────────┴────────────────────────────┴────────────────────────────────────┘
+  ┌───┬──────────────────────┬─────────────────────────────┬────────────────────────────────────┐
+  │ # │ Precondition         │ Failure mode                │ Classic example                    │
+  ├───┼──────────────────────┼─────────────────────────────┼────────────────────────────────────┤
+  │ 1 │ Directed-Gap         │ No need → no reward         │ Full person offered food           │
+  │   │ (body-need gap open) │ even if objectively good    │ → "I don't want it" = no P-1       │
+  ├───┼──────────────────────┼─────────────────────────────┼────────────────────────────────────┤
+  │ 2 │ Chunk-Substrate      │ Cannot decode → confusion   │ Van Gogh to untrained viewer       │
+  │   │ (adequate substrate) │ not reward                  │ → "I don't get it" = no P-2        │
+  ├───┼──────────────────────┼─────────────────────────────┼────────────────────────────────────┤
+  │ 3 │ Delta-Gate           │ No alert → no attention     │ Routine events unnoticed           │
+  │   │ (change large enough)│ → no downstream reward      │ → "boring" = no P-3               │
+  ├───┼──────────────────────┼─────────────────────────────┼────────────────────────────────────┤
+  │ 4 │ Match-Range          │ Too alien OR too familiar   │ Atonal music = too alien           │
+  │   │ (Goldilocks — dynamic)│ → wrong direction           │ Same song 1000x = too familiar     │
+  ├───┼──────────────────────┼─────────────────────────────┼────────────────────────────────────┤
+  │ 5 │ Compile-Gate         │ Content OK but cortisol-    │ Math learned under fear            │
+  │   │ (opioid vs cortisol) │ tagged → avoidance          │ → adult "hates math" = no P-5      │
+  └───┴──────────────────────┴─────────────────────────────┴────────────────────────────────────┘
 
   ⭐ ALL 5 REQUIRED:
-    → Missing Precondition-1: "không thèm" (no need → no match possible)
-    → Missing Precondition-2: "không hiểu" (can't decode → can't evaluate)
-    → Missing Precondition-3: "chán" (no delta → no attention → no evaluation)
-    → Missing Precondition-4: "khó hiểu" hoặc "nhàm" (outside optimal zone)
-    → Missing Precondition-5: "ghét dù hiểu" (cortisol tag → avoidance despite fit)
+    → Missing Precondition-1: "don't want it" (no need → no match possible)
+    → Missing Precondition-2: "don't understand" (can't decode → can't evaluate)
+    → Missing Precondition-3: "boring" (no delta → no attention → no evaluation)
+    → Missing Precondition-4: "too hard" or "too familiar" (outside optimal zone)
+    → Missing Precondition-5: "dislike even though competent"
+      (cortisol tag → avoidance despite fit)
 
   → Framework predicts: "SHOULD reward but DOESN'T" = one precondition missed.
   → Diagnostic tool: identify WHICH precondition failed → targeted intervention.
 ```
 
-### §4.4 — Eureka: reward varies by context
+### §4.4 — Eureka: Reward Varies by Context
 
 ```
 ⭐ EUREKA REWARD MODEL (4 cases):
 
   ① ARCHIMEDES (threat + curiosity):
-     Context: Lệnh vua (threat: "tìm ra HOẶC...") + curiosity genuine
+     Context: King's order (threat: "find it OR...") + genuine curiosity
      → Resolve: schema match (water displacement = volume)
      → Opioid: STRONG (deep schema resolve)
      → PLUS: threat resolved → cortisol DROPS (relief bonus)
-     → = DOUBLE reward: opioid + relief = CỰC SƯỚNG
-     → = "Eureka!" chạy ra đường
+     → = DOUBLE reward: opioid + relief = EXTREMELY intense
+     → = "Eureka!" running naked into the street
 
   ② EINSTEIN (pure dissonance, no threat):
-     Context: Deep physics dissonance, KHÔNG có threat external
+     Context: Deep physics dissonance, NO external threat
      → Resolve: schemas cohere (relativity resolves contradictions)
      → Opioid: STRONG (very deep schema match)
      → NO cortisol drop (no threat to resolve)
      → = Deep satisfaction, LESS EXPLOSIVE than Archimedes
-     → = Quiet "ahhh" not running-naked "eureka"
+     → = Quiet "ahhhh" not running-naked "eureka"
 
-  ③ HỌC SINH POSITIVE (short arc):
-     Context: Bài tập khó vừa đủ, teacher supportive
+  ③ POSITIVE STUDENT (short arc):
+     Context: Appropriately difficult problem, supportive teacher
      → Resolve: problem solved (schema match, small scope)
      → Opioid: MODERATE (small schema, adequate)
      → Cortisol: minimal threat → minimal drop
-     → = "À hiểu rồi!" — satisfying, short, repeatable
-     → = Healthy learning cycle: Precondition-1 through Precondition-5 all met
+     → = "Aha, I get it!" — satisfying, short, repeatable
+     → = Healthy learning cycle: Preconditions 1-5 all met
 
-  ④ HỌC SINH NEGATIVE (mẹ ép, no endpoint):
-     Context: Threat MÃN TÍNH (mẹ phạt nếu điểm thấp), no genuine curiosity
-     → Resolve: bài xong NHƯNG threat KHÔNG resolve (mẹ vẫn ép)
-     → Opioid: WEAK hoặc ABSENT (body-need "an toàn" NOT matched)
-     → Cortisol: DUY TRÌ (threat ongoing → cortisol persists)
+  ④ NEGATIVE STUDENT (coerced, no endpoint):
+     Context: CHRONIC threat (punished for low grades), no genuine curiosity
+     → Resolve: assignment done BUT threat NOT resolved (pressure continues)
+     → Opioid: WEAK or ABSENT (body-need "safety" NOT matched)
+     → Cortisol: PERSISTS (threat ongoing → cortisol continues)
      → = NO proper reward cycle
      → = TOXIC: learning without reward → Precondition-5 violated
-       (chunks compile under cortisol → tagged aversive → "ghét học")
+       (chunks compile under cortisol → tagged aversive → "hate studying")
      → = Framework explains: WHY forced learning produces aversion
 
 
@@ -901,47 +905,49 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
     → NO threat = no bonus (still rewarding, just less explosive)
     → Threat UNRESOLVED = cortisol PERSISTS = reward BLOCKED
 
-  → Explains full spectrum: "eureka đổi đời" → "à hiểu rồi" → "xong rồi, mệt"
+  → Explains full spectrum: "life-changing eureka" → "aha, I see it" → "done, exhausted"
 ```
 
-### §4.5 — Reward and feeling: the connection
+### §4.5 — Reward and Feeling: The Connection
 
 ```
 🟡 REWARD IS A SPECIFIC TYPE OF FEELING:
 
   REWARD IN 7-LAYER MODEL:
-    Feel-RawSignals: Opioid release → body state change (endogenous pleasure)
-    Feel-Integration: Integration → insula registers "positive state shift"
+    Feel-RawSignals:         Opioid release → body state change (endogenous pleasure)
+    Feel-Integration:        Integration → insula registers "positive state shift"
     Feel-Consciousification: Consciousification → "something good just happened"
-    Feel-Observation: PFC observation → "I feel reward / satisfaction"
-    Feel-Location: Location → "in chest / whole body / brain clarity"
-    Feel-Labeling: Label → "eureka" / "pleasant" / "satisfied" / "đúng rồi"
-    Feel-Explanation: Explanation → "vì tôi giải được bài" (có thể đúng hoặc sai)
+    Feel-Observation:        PFC observation → "I feel reward / satisfaction"
+    Feel-Location:           Location → "in chest / whole body / mental clarity"
+    Feel-Labeling:           Label → "eureka" / "pleasant" / "satisfied" / "that's it"
+    Feel-Explanation:        Explanation → "because I solved the problem"
+                             (may or may not be accurate)
 
-  REWARD ≠ CHỈ LÀ "VUI":
-    → Reward có thể LẶNG LẼ (deep satisfaction, không cần biểu lộ)
-    → Reward có thể DỮ DỘI (eureka, physical joy)
-    → Reward có thể SUBTLE (micro-reward: đặt đúng từ → body "smooth")
-    → = CÙNG mechanism, KHÁC intensity + context
+  REWARD ≠ JUST "HAPPY":
+    → Reward can be QUIET (deep satisfaction, no outward expression)
+    → Reward can be EXPLOSIVE (eureka, physical joy)
+    → Reward can be SUBTLE (micro-reward: finding the right word → body "smooth")
+    → = SAME mechanism, DIFFERENT intensity + context
 
   MICRO-REWARD IN DAILY LIFE:
-    → Mỗi khi body-need match nhỏ → micro-opioid → micro-feeling
-    → "Đặt đúng từ" → body smooth → micro-reward
-    → "Uống nước khi khát" → thirst resolve → opioid
-    → "Gặp bạn khi cô đơn" → agent-need met → opioid
-    → = FEELING FLOW step ⑤-⑦ happening CONTINUOUSLY ở micro scale
-    → = Tại sao "ngày bình thường" có nhiều micro-satisfactions:
+    → Each small body-need match → micro-opioid → micro-feeling
+    → "Finding the right word" → body smooth → micro-reward
+    → "Drinking water when thirsty" → thirst resolve → opioid
+    → "Meeting a friend when lonely" → agent-need met → opioid
+    → = FEELING FLOW step ⑤-⑦ happening CONTINUOUSLY at micro scale
+    → = Why "ordinary days" have many micro-satisfactions:
         body-needs continuously met → continuous micro-rewards
 
   ⚠️ DOPAMINE-ONLY EXPERIENCES (no reward):
-    → Scroll social media: dopamine fires (novelty delta) → NO opioid
+    → Scrolling social media: dopamine fires (novelty delta) → NO opioid
       (no body-need match — Precondition-1 often missing)
-    → Clickbait: dopamine fires (curiosity) → content shallow → NO opioid
+    → Clickbait: dopamine fires (curiosity) → shallow content → NO opioid
     → Gambling: dopamine fires (uncertainty) → most losses → NO opioid
       (occasional wins → intermittent opioid → ADDICTION pattern)
     → = "Wanting without liking" (🟢 Berridge):
       dopamine-driven seeking + empty feeling = modern pathology
-    → = Framework explains: Precondition-3 met (delta) but Precondition-1/Precondition-4 often missed
+    → = Framework explains: Precondition-3 met (delta) but
+      Precondition-1/Precondition-4 often missed
 ```
 
 ### §4.6 — Evaluative/Direct-State Dimension (v1.1 — Drill R1+R4)
@@ -949,8 +955,8 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
 ```
 🟡 REWARD = 2 ORTHOGONAL TYPES, BOTH OBSERVED BY FEELING SYSTEM:
 
-  §4.1-§4.5 mô tả reward mechanism = đúng NHƯNG chỉ cover EVALUATIVE REWARD.
-  Drill reveals: reward có 2 types ORTHOGONAL:
+  §4.1-§4.5 describe reward mechanism = correct BUT covers EVALUATIVE REWARD only.
+  Drill reveals: reward has 2 ORTHOGONAL types:
 
   EVALUATIVE REWARD (opioid-dependent):
     → Cortical processing → evaluation → opioid (if chunk matches)
@@ -966,16 +972,19 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
     → LESS variable across individuals = "democratic reward"
 
   HOW FEELING SYSTEM OBSERVES EACH:
-    Evaluative → Feeling Feel-Observation–Feel-Labeling (clear, labellable, "pleasant" / "eureka")
-    Direct-State → Feeling Feel-Integration–Feel-Consciousification (vague, body-state, "comfortable" / "thoải mái")
+    Evaluative → Feeling Feel-Observation–Feel-Labeling
+                 (clear, labellable, "pleasant" / "eureka")
+    Direct-State → Feeling Feel-Integration–Feel-Consciousification
+                   (vague, body-state shift, "comfortable" / "at ease")
     → = WHY we can LABEL insights but struggle to ARTICULATE comfort
 
   EVALUATIVE GATES DIRECT-STATE (Reward-Signal-Architecture.md §3):
-    → Evaluative evaluation MODULATES Direct-State body-state: amplify / suppress / raw / mixed
+    → Evaluative evaluation MODULATES Direct-State body-state:
+      amplify / suppress / raw / mixed
     → = Body-base check (§4.2 step ⑤-⑥) = primarily Evaluative gate mechanism
     → = Direct-State bypasses this check (hardware-level, no cortical evaluation)
 
-  → Chi tiết: Reward-Signal-Architecture.md v1.0
+  → Full detail: Reward-Signal-Architecture.md v1.0
   → Source: Drill §3.7 (R1), §3.9 (R4)
 ```
 
@@ -983,86 +992,87 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
 
 ## §5 — Feeling Gradient: Clear ↔ Vague (Same Mechanism)
 
-> **Một trong những insight quan trọng nhất:** Clear feeling và vague intuition
-> KHÔNG phải 2 hệ thống khác nhau. Chúng là 2 ĐẦU của CÙNG gradient.
+> **One of the most important insights:** Clear feeling and vague intuition
+> are NOT 2 different systems. They are 2 ENDS of the SAME gradient.
 > Source: 02-Feeling-Intuition-Gradient.md (Multi-Weak-Signal-Convergence), 01c §2.3 (convergence zone),
 > 04-Right-Wrong-Vague.md (ACC detection spectrum).
 
-### §5.1 — The gradient (unified model)
+### §5.1 — The Gradient (Unified Model)
 
 ```
-⭐ FEELING-INTUITION GRADIENT (6 ĐIỂM):
+⭐ FEELING-INTUITION GRADIENT (6 POINTS):
 
   ┌──────────────────────────────────────────────────────────────────┐
   │                                                                  │
   │ CLEAR ◄────────────────────────────────────────────────► VAGUE   │
   │                                                                  │
-  │ ①         ②          ③          ④         ⑤          ⑥          │
-  │ Body      Emotion    Gut        Intuition  Hunch      Pre-       │
-  │ Signal    (named)    Feeling    (linh cảm) (ngờ ngợ)  monition   │
+  │ ①          ②          ③          ④         ⑤          ⑥          │
+  │ Body       Emotion    Gut        Intuition  Hunch      Pre-       │
+  │ Signal     (named)    Feeling    (sense)    (vague)    verbal     │
   │                                                                  │
-  │ "đau"     "buồn"     "bụng      "có gì    "ko biết   "sao sao   │
-  │ "nóng"    "vui"      nói ko"    đó ko     nữa..."    ấy..."     │
-  │ "đói"     "sợ"       "trống"    đúng"                            │
+  │ "pain"     "sad"      "gut says  "something "I don't   "something │
+  │ "hot"      "happy"    no"        doesn't    know but   feels off" │
+  │ "hungry"   "afraid"              feel right"just..."             │
   │                                                                  │
-  │ SOURCE:   1 strong   few        many weak  very weak  pre-verbal │
-  │           signal     strong     signals    signals    sense      │
-  │                      signals                                     │
+  │ SOURCE:    1 strong   few        many weak  very weak  pre-verbal │
+  │            signal     strong     signals    signals    sense      │
+  │                       signals                                     │
   │                                                                  │
-  │ LABEL:    Easy       Medium     Hard       Very Hard  Impossible │
-  │ SPEED:    <100ms     100-500ms  500ms-3s   3-30s      hours      │
-  │ TRUST:    Very high  High       Medium     Variable   Depends    │
+  │ LABEL:     Easy       Medium     Hard       Very Hard  Impossible │
+  │ SPEED:     <100ms     100-500ms  500ms-3s   3-30s      hours      │
+  │ TRUST:     Very high  High       Medium     Variable   Depends    │
   │                                                                  │
-  └─────────────────────────────────────────────────────────────────────┘
+  └──────────────────────────────────────────────────────────────────┘
 
   ⭐ NOT 6 DISCRETE TYPES — CONTINUOUS GRADIENT.
   ⭐ SAME MECHANISM throughout — difference is SIGNAL PROFILE.
 ```
 
-### §5.2 — What determines position on gradient
+### §5.2 — What Determines Position on Gradient
 
 ```
-🟡 3 VARIABLES QUYẾT ĐỊNH VỊ TRÍ TRÊN GRADIENT:
+🟡 3 VARIABLES DETERMINE GRADIENT POSITION:
 
   VARIABLE 1 — SIGNAL COUNT:
-    → Few (1-2) signals → CLEAR (PFC dễ isolate source)
-    → Many (5-20+) signals → VAGUE (PFC không tách được)
-    → Analogy: 1 giọng nói trong phòng im = CLEAR
-               20 giọng nói trong party = VAGUE ("ồn" nhưng không nghe rõ từ)
+    → Few (1-2) signals → CLEAR (PFC can isolate source)
+    → Many (5-20+) signals → VAGUE (PFC cannot separate)
+    → Analogy: 1 voice in a quiet room = CLEAR
+               20 voices at a party = VAGUE ("noisy" but can't make out words)
     → = Cocktail party effect APPLIED TO body signals
 
   VARIABLE 2 — SIGNAL STRENGTH:
-    → Strong signals → CLEAR (dễ vượt threshold)
-    → Weak signals → VAGUE (từng signal dưới threshold)
+    → Strong signals → CLEAR (cross threshold easily)
+    → Weak signals → VAGUE (each signal below threshold)
     → BUT: many weak signals CAN CONVERGE → exceed threshold
     → = Multi-Weak-Signal-Convergence CORE CLAIM (02 §2.2)
 
   VARIABLE 3 — LABEL AVAILABILITY:
     → Label available → CLEARER (Label-As-Handle: retrieval path)
-    → No label → VAGUER (stuck at Feel-Observation, không articulate được)
-    → Label KHÔNG thay đổi signal — thay đổi ACCESS to signal
-    → = Somatic-Articulation-Loop: implicit → explicit qua label
+    → No label → VAGUER (stuck at Feel-Observation, cannot articulate)
+    → Label does NOT change signal — it changes ACCESS to signal
+    → = Somatic-Articulation-Loop: implicit → explicit via label
 
   3 VARIABLES INTERACT:
     Clear feeling = FEW signals × STRONG × LABELED
-      → "Tôi đau chân" = 1 signal × strong × labeled "đau"
+      → "My foot hurts" = 1 signal × strong × labeled "pain"
     Vague intuition = MANY signals × WEAK × UNLABELED
-      → "Có gì đó sao sao" = 12 signals × each weak × no label
+      → "Something feels off" = 12 signals × each weak × no label
     Middle ground = SOME signals × MODERATE × PARTIALLY LABELED
-      → "Tôi hơi lo" = 3-4 signals × moderate × partial label "lo"
+      → "I'm a bit anxious" = 3-4 signals × moderate × partial label "anxious"
 ```
 
 ### §5.3 — "Vague" = Multi-Weak-Signal-Convergence
 
 ```
-⭐ Multi-Weak-Signal-Convergence — HYPOTHESIS TRUNG TÂM CỦA FEELING GRADIENT:
+⭐ Multi-Weak-Signal-Convergence — CENTRAL HYPOTHESIS OF FEELING GRADIENT:
 
   CLAIM:
     "Vague" (vague feeling / intuition / gut feeling) =
     MULTI-WEAK-SIGNAL CONVERGENCE:
-    Nhiều chunks fire YẾU cùng lúc → tín hiệu đơn lẻ KHÔNG đủ PFC detect
-    → nhưng TỔNG HỢP nhiều tín hiệu yếu → body signal coherent
-    → PFC detect AS "có gì đó" → VAGUE nhưng DIRECTIONALLY correct.
+    Many chunks fire WEAKLY simultaneously → each individual signal
+    NOT enough for PFC to detect alone
+    → but AGGREGATE of many weak signals → body signal becomes coherent
+    → PFC detects AS "something" → VAGUE but DIRECTIONALLY correct.
 
   EVIDENCE FOR Multi-Weak-Signal-Convergence:
     → 🟢 Spreading activation converges (Collins & Loftus 1975)
@@ -1079,7 +1089,7 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
     Step ① many body signals fire (weak, diverse)
     Step ② VTA may or may not fire (delta small per signal)
     Step ③ Integration: many weak signals CONVERGE at insula + ACC
-           → aggregate signal crosses threshold WHERE individual didn't
+           → aggregate signal crosses threshold where individual didn't
     Step ④ PFC detects: "something" but CANNOT isolate source
     Step ⑤ Chunk match: SCATTERED (many partial matches, no clear winner)
     Step ⑥ Label search: FAILS (no single label captures multi-source)
@@ -1090,39 +1100,39 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
   → NOT malfunction — correct response to multi-dimensional signal
 ```
 
-### §5.4 — Convergence zone: what "vague" IS structurally
+### §5.4 — Convergence Zone: What "Vague" IS Structurally
 
 ```
 ⭐ CONVERGENCE ZONE (01c §2.3):
 
   DEFINITION:
-    = Vùng trong semantic space nơi activation từ NHIỀU chunks OVERLAP
-    = KHÔNG phải 1 chunk đã compiled
-    = MÀ LÀ intersection of many activation paths
-    = "Giao lộ" nơi nhiều đường gặp nhau — chưa có tên đường
+    = Region in semantic space where activation from MANY chunks OVERLAPS
+    = NOT 1 compiled chunk
+    = The INTERSECTION of many activation paths
+    = "A crossroads where many roads meet — without street names yet"
 
   PROPERTIES (01c §2.3):
-    ① KHÔNG CÓ label → PFC không "nắm" được rõ ràng
-    ② KHÔNG CÓ single source → cannot point to specific chunk
-    ③ CÓ "vị trí" trong semantic space (intersection of paths)
-    ④ CÓ "intensity" (how many paths converge, how strong each)
-    ⑤ CÓ "clarity gradient" — rõ dần khi more chunks fire coherently
-    ⑥ CÓ "direction" — approximate sense of where it "is"
+    ① NO label → PFC cannot "hold" it clearly
+    ② NO single source → cannot point to specific chunk
+    ③ HAS a "location" in semantic space (intersection of paths)
+    ④ HAS "intensity" (how many paths converge, how strong each)
+    ⑤ HAS "clarity gradient" — sharpens as more chunks fire coherently
+    ⑥ HAS "direction" — approximate sense of where it "is"
 
-  CẢM NHẬN TỪ BÊN TRONG (first-person phenomenology):
-    → "Thấy nó ở hướng đó" — visual-spatial approximation
-    → "Gần như hình ảnh đó" — visual chunk approximate match
-    → "Gần như cái cảm giác đó" — somatic approximate match
-    → = PFC thử TẤT CẢ modalities để "nhìn" convergence zone
-    → Mỗi modality cho 1 GÓC NHÌN GẦN ĐÚNG — không cái nào chính xác
-    → Nhưng TẤT CẢ cùng trỏ về cùng 1 vùng
-    → = TRIANGULATION: nhiều approximate → xác định vị trí
+  FIRST-PERSON PHENOMENOLOGY:
+    → "I sense it somewhere in that direction" — visual-spatial approximation
+    → "Almost like that image" — visual chunk approximate match
+    → "Almost like that feeling" — somatic approximate match
+    → = PFC tries ALL modalities to "see" convergence zone
+    → Each modality gives 1 APPROXIMATE ANGLE — none precise
+    → But ALL pointing toward the same region
+    → = TRIANGULATION: many approximates → locate position
 
   CONVERGENCE ZONE vs EXISTING CONCEPTS:
     → Gendlin "felt sense" = PHENOMENOLOGICAL description
     → Multi-Weak-Signal-Convergence = MECHANISM producing it
     → ACC "vague detection" (04) = DETECTOR of convergence zone's signal
-    → Discovery cycle step ② (01c) = LIFECYCLE stage khi convergence zone emerges
+    → Discovery cycle step ② (01c) = LIFECYCLE stage when convergence zone emerges
     → Convergence zone = STRUCTURAL concept tying ALL these together:
       = the PLACE where activation converges before dedicated chunk/label exists
 
@@ -1130,20 +1140,20 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
   CONVERGENCE ZONE → FEELING CONNECTION:
 
     Convergence zone = WHERE feeling is "vague" structurally.
-    
-    Feeling gradient position ④-⑥ (intuition → pre-monition) =
+
+    Feeling gradient position ④-⑥ (intuition → pre-verbal) =
     PFC observing a convergence zone:
       → Body knows (convergence = directionally correct)
       → PFC struggles (no label → cannot articulate)
-      → = "Biết mà không nói được" = convergence zone observed but not labeled
+      → = "Knowing but unable to say" = convergence zone observed but not labeled
       → = Gendlin Focusing = DELIBERATELY attending to convergence zone
-          → → body shift = convergence zone RESOLVES into clearer pattern
+          → body shift = convergence zone RESOLVES into clearer pattern
 ```
 
-### §5.5 — Movement on the gradient (training + dynamics)
+### §5.5 — Movement on the Gradient (Training + Dynamics)
 
 ```
-🟡 GRADIENT LÀ DYNAMIC — VỊ TRÍ THAY ĐỔI ĐƯỢC:
+🟡 GRADIENT IS DYNAMIC — POSITION CAN CHANGE:
 
   MOVEMENT LEFT (vaguer → clearer):
     → More experience in domain → more chunks → stronger matches
@@ -1157,17 +1167,17 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
     → Novel domain → few chunks → weak matches → vague
     → Fatigue / stress → PFC threshold raised → signals missed
     → Trauma overlay → distorted signals → confusion
-    → = WHY entering new field feels "overwhelming":
+    → = WHY entering a new field feels "overwhelming":
       not enough chunks → everything is convergence zone
 
   RIGHTNESS/WRONGNESS GRADIENT (04 §2.1):
-    Same mechanism applies to EVALUATIVE feelings:
-    ┌─────────────────────────────────────────────────────────────┐
-    │ Certain Wrong/Right → Confident → Mild Unease → Hunch → ??│
-    │ "1+1=3 LÀ SAI"     "code có bug" "sai sai"  "sao sao"    │
-    │ 1 strong schema      few chunks   many weak   pre-verbal  │
-    │ violation            fires        fires       body-only    │
-    └─────────────────────────────────────────────────────────────┘
+  Same mechanism applies to EVALUATIVE feelings:
+    ┌───────────────────────────────────────────────────────────────┐
+    │ Certain Wrong/Right → Confident → Mild Unease → Hunch → ??  │
+    │ "1+1=3 IS WRONG"   "code has bug" "feels off" "something..." │
+    │ 1 strong schema       few chunks    many weak   pre-verbal   │
+    │ violation             fires         fires        body-only    │
+    └───────────────────────────────────────────────────────────────┘
     → = SAME gradient, SAME mechanism, applied to right/wrong evaluation
     → = ACC detection spectrum (04 §2.1): strong conflict → vague unease
 
@@ -1182,7 +1192,7 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
     Gendlin Focusing:
       → Deliberately attend to convergence zone
       → Body shift = zone resolves → feeling CLARIFIES
-      → = Somatic-Articulation-Loop (Somatic-Articulation-Loop) applied to feeling
+      → = Somatic-Articulation-Loop applied to feeling
 
     Domain expertise:
       → 10,000+ hours → massive chunk library
@@ -1197,18 +1207,18 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
       → = Label-As-Handle applied to feeling domain
 
   → Feeling literacy = SYSTEMATICALLY moving left on gradient
-  → = File 2 (Feeling-Literacy-Training.md) sẽ detail training framework
+  → = File 2 (Feeling-Literacy-Training.md) details the training framework
 ```
 
 ---
 
 ## §6 — Feeling Quality = f(Chunk Library + Compile Context)
 
-> **Core insight:** Feeling quality KHÔNG cố định.
+> **Core insight:** Feeling quality is NOT fixed.
 > Feeling quality = FUNCTION of chunk history — what you've compiled, how, when.
 > Expert feels BETTER than beginner — not "more emotional" but more ACCURATE.
 
-### §6.1 — The quality model
+### §6.1 — The Quality Model
 
 ```
 ⭐ FEELING QUALITY MODEL:
@@ -1238,12 +1248,12 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
      → Substances → alter threshold + integration + response
 
 
-  = Feeling quality NOT innate → NOT "some people feel better"
+  = Feeling quality NOT innate → NOT "some people just feel better"
   = Feeling quality = developmental product of chunk compilation history
   = CHANGEABLE through new experience, therapy, training
 ```
 
-### §6.2 — Expert feeling vs beginner feeling
+### §6.2 — Expert Feeling vs Beginner Feeling
 
 ```
 🟡 EXPERT vs BEGINNER — SAME MECHANISM, DIFFERENT LIBRARY:
@@ -1269,7 +1279,8 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
     → Few patterns → weak links → slow/unreliable matching
     → Convergence zones PERSIST (not enough references to resolve)
     → "Gut feeling" = NOISE more than signal
-    → = Same Multi-Weak-Signal-Convergence mechanism — but small library → unreliable convergence
+    → = Same Multi-Weak-Signal-Convergence mechanism —
+      but small library → unreliable convergence
 
   Beginner feeling in action:
     → Student enters lab → "something's off" → CANNOT identify what
@@ -1283,8 +1294,8 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
 
     WHEN TO TRUST GUT FEELING:
       → In domain with large chunk library → HIGH trust
-      → Expert's "something's off" = statistically reliable
-      → 10,000+ hours of domain-real (Domain-Checked) experience → body knows patterns
+      → Expert's "something feels off" = statistically reliable
+      → 10,000+ hours of Domain-Checked experience → body knows patterns
         PFC cannot articulate
 
     WHEN TO BE SKEPTICAL OF GUT FEELING:
@@ -1297,7 +1308,7 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
     → "Trust your gut" = DANGEROUS advice for beginners or traumatized
 ```
 
-### §6.3 — Domain-Checked vs Self-Referencing: "mượt thật" vs "mượt giả"
+### §6.3 — Domain-Checked vs Self-Referencing: Genuine Smooth vs False Smooth
 
 ```
 ⭐ SELECTION PRESSURE ON FEELING QUALITY (01c §3):
@@ -1305,22 +1316,22 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
   DOMAIN-CHECKED:
     → Chunks compiled from REAL domain experience
     → Domain reality provides FEEDBACK → incorrect chunks corrected
-    → = "Mượt thật": feeling accurately reflects domain truth
+    → = "Genuine Smooth": feeling accurately reflects domain truth
     → Expert firefighter: feeling trained by REAL fires → reliable
     → Scientist: feeling trained by REAL data → reliable
 
   SELF-REFERENCING:
     → Chunks compiled from INTERNAL loops only
     → No domain reality check → incorrect chunks PERSIST
-    → = "Mượt giả": feeling SMOOTH nhưng WRONG
+    → = "False Smooth": feeling SMOOTH but WRONG
     → Conspiracy theorist: feeling trained by internal logic loops → unreliable
     → Echo chamber: feeling trained by repeated social confirmation → distorted
 
   HOW TO DISTINGUISH (in yourself):
     → Domain-Checked feeling: withstands domain testing → still smooth after challenge
-    → Self-Referencing feeling: breaks under domain testing → resist when challenged
-    → Domain-Checked person: can explain WHY feeling (domain mechanism)
-    → Self-Referencing person: can only say "tôi cảm thấy đúng" (self-reference)
+    → Self-Referencing feeling: breaks under domain testing → resists when challenged
+    → Domain-Checked: can explain WHY feeling (domain mechanism)
+    → Self-Referencing: can only say "I feel it's right" (self-reference)
     → = Body vote alone is INSUFFICIENT → need domain reality check
     → = Logic + Feeling parallel needed (Logic-Feeling.md)
 
@@ -1331,7 +1342,7 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
     → = Feeling literacy + Logic literacy = both required
 ```
 
-### §6.4 — Trauma and feeling distortion
+### §6.4 — Trauma and Feeling Distortion
 
 ```
 🟡 HOW TRAUMA DISTORTS FEELING (Direction-At-Compile + 01b §4.3):
@@ -1339,7 +1350,7 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
   MECHANISM:
     → Traumatic event → chunks compile under EXTREME emotional state
     → 01b §2.2 factor ③: emotional weight at compile → EXTRA STRONG links
-    → 1 lần trauma CÓ THỂ tạo link mạnh hơn 100 lần repetition neutral
+    → 1 trauma can create links stronger than 100 neutral repetitions
     → These chunks = cortisol-tagged (Precondition-5 violated from start)
     → = Large "trigger surface" (01b §4): many cues → fire trauma chunk
 
@@ -1347,7 +1358,7 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
 
     ① FALSE POSITIVE (over-detection):
        → Trauma chunk fires → body state = "DANGER"
-       → Current context = SAFE nhưng body says "DANGER"
+       → Current context = SAFE but body says "DANGER"
        → Feeling: anxiety, fear, freeze — WITHOUT current threat
        → = PTSD core mechanism: trauma chunk fires inappropriately
        → = 01b §4.3: large trigger surface → many cues activate
@@ -1355,27 +1366,27 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
     ② NUMBING (under-detection):
        → Chronic threat → body DAMPENS signals to survive
        → PFC threshold RAISED → fewer feelings cross into awareness
-       → = "Tôi không cảm thấy gì" — signals exist but below threshold
+       → = "I don't feel anything" — signals exist but below threshold
        → = Alexithymia-like but ACQUIRED (not developmental)
 
     ③ MISLABELING (wrong interpretation):
        → Body signal correct (actual need) → but trauma chunk HIJACKS
        → Label comes from trauma pattern, not current reality
-       → "Tôi giận chồng" when actually = trauma activation + tiredness
+       → "I'm angry at my partner" when actually = trauma activation + tiredness
        → = Feel-Labeling–Feel-Explanation distortion driven by chunk bias
 
     ④ BODY-STATE DIRECTION LOCKED (Direction-At-Compile):
        → Chunks compiled at extreme → body-state direction PERSISTS
        → Future activation → body goes TO THAT DIRECTION
        → Even when context changed → old direction fires
-       → = "Tôi luôn cảm thấy không an toàn" — regardless of actual safety
+       → = "I always feel unsafe" — regardless of actual current safety
 
   RECOVERY MECHANISM (competitive re-linking: 01b §3):
     → NEW experiences compile NEW chunks with NEW body-state direction
     → New chunks COMPETE with old trauma chunks for probability share
     → Over time: new links GROW → old links RELATIVELY weaker
     → But: old links NEVER deleted → stress/fatigue can REACTIVATE
-    → = "Tái phát khi mệt" = PFC weakened → old pathway temporarily wins
+    → = "Relapse under stress" = PFC weakened → old pathway temporarily wins
     → 3 update paths (Direction-At-Compile):
       a) Re-associate: new context → old chunk + new link → modified
       b) Novelty hijack: very strong new experience → overpower old
@@ -1387,7 +1398,7 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
 
 ## §7 — Honest Assessment + Predictions + Cross-References
 
-### §7.1 — Confidence breakdown
+### §7.1 — Confidence Breakdown
 
 ```
 🟢 HIGH CONFIDENCE — research-established foundations:
@@ -1424,12 +1435,12 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
     substrate TBD)
   ⚠ Multi-Weak-Signal-Convergence (consistent with priming + spreading
     activation research, not directly tested as unified claim)
-  ⚠ 5 preconditions for reward (Body-Feedback-Precondition — individually grounded, matrix
-    interaction = framework synthesis)
+  ⚠ 5 preconditions for reward (Body-Feedback-Precondition — individually grounded,
+    matrix interaction = framework synthesis)
   ⚠ Eureka intensity model (4 cases consistent with mechanism, not
     directly measured as framework predicts)
-  ⚠ Domain-Checked vs Self-Referencing selection pressure on feeling quality (logically follows
-    from chunk mechanism, not empirically tested)
+  ⚠ Domain-Checked vs Self-Referencing selection pressure on feeling quality
+    (logically follows from chunk mechanism, not empirically tested)
   ⚠ Feeling quality model as f(library × context × state) (conceptually
     sound, factors individually established, interaction = framework)
   ⚠ Body vote mechanism (consistent with Gendlin body shift + somatic
@@ -1449,7 +1460,7 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
     measurement at this scale = frontier)
 ```
 
-### §7.2 — Falsifiable predictions
+### §7.2 — Falsifiable Predictions
 
 ```
 ⭐ PREDICTIONS FROM THIS FILE:
@@ -1504,8 +1515,9 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
       = frontier
 
   P-FM9: Domain-Checked vs Self-Referencing feeling divergence over time
-    → Prediction: Domain-Checked-trained feeling (with domain feedback) will DIVERGE
-      from Self-Referencing-trained feeling (self-referencing only) over repeated tests
+    → Prediction: Domain-Checked-trained feeling (with domain feedback) will
+      DIVERGE from Self-Referencing-trained feeling (self-referencing only)
+      over repeated domain tests
     → Test: Two groups, same domain, different training → feeling accuracy
     → Status: 🔴 Framework-specific prediction, not yet tested
 
@@ -1517,7 +1529,7 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
       specific test = framework prediction
 ```
 
-### §7.3 — Honest limits
+### §7.3 — Honest Limits
 
 ```
 ⚠️ WHAT THIS FILE DOES NOT CLAIM:
@@ -1527,7 +1539,8 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
       may capture same phenomena differently
 
   ✗ "Feeling is always accurate"
-    → Feel-RawSignals–Feel-Consciousification = body truth. Feel-Labeling–Feel-Explanation = PFC interpretation = often WRONG.
+    → Feel-RawSignals–Feel-Consciousification = body truth.
+      Feel-Labeling–Feel-Explanation = PFC interpretation = often WRONG.
     → Expert feeling ≠ beginner feeling in reliability.
 
   ✗ "Trust your gut always"
@@ -1549,7 +1562,7 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
       replace clinical assessment or treatment protocols
 ```
 
-### §7.4 — Cross-references
+### §7.4 — Cross-References
 
 ```
 📚 WITHIN FEELING/ FOLDER:
@@ -1558,7 +1571,6 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
   Feeling-Sources.md      → WHERE feelings come from (10+ sources)
   Feeling-Accuracy.md     → HOW PFC reads feelings (accuracy, errors)
   Feeling-Research.md     → Research foundation (Damasio, Gendlin, Craig)
-  FEELING-DEEP-PLAN.md    → Master plan for Feeling Deep Dive
 
 
 📚 CHUNK-ANALYSIS DEPENDENCIES:
@@ -1573,12 +1585,14 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
   F1 Label-As-Handle                 → §3.6, §5.5 (verbal-as-handle)
 
 
-📚 REWARD ARCHITECTURE (v1.1 NEW):
+📚 REWARD ARCHITECTURE (v1.1):
 
-  Reward-Signal-Architecture.md v1.0 → §4.6 Evaluative/Direct-State maps to Reward-Signal-Architecture full detail
+  Reward-Signal-Architecture.md v1.0 → §4.6 Evaluative/Direct-State maps to
+    Reward-Signal-Architecture full detail
     → Evaluative Reward (opioid-based), Direct-State Reward (non-opioid)
-    → Evaluative Gates Direct-State = Reward-Signal-Architecture §3 (evaluation modulates body-state)
-    → 5 Profiles = Reward-Signal-Architecture §4 (①Sensory ②Coherence ③Social ④Relief ⑤Preview)
+    → Evaluative Gates Direct-State = Reward-Signal-Architecture §3
+    → 5 Profiles = Reward-Signal-Architecture §4
+      (①Sensory ②Coherence ③Social ④Relief ⑤Preview)
 
 📚 OTHER FRAMEWORK FILES:
 
@@ -1615,22 +1629,22 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
 
 ---
 
-> **END OF Feeling-Mechanism-Deep.md v1.1**
+> **END OF Feeling-Mechanism-Deep-Draft.md v1.1**
 >
 > **Summary:** HOW feeling works end-to-end:
 >   §1: Feeling = PFC observation of body-chunk interaction
 >   §2: Multi-channel signals → integrated via insula + ACC + VMPFC
 >   §3: 8-step operational flow (the "Processing System")
 >   §4: Reward = opioid (NOT dopamine). 5 preconditions (Body-Feedback-Precondition). Eureka model.
->       v1.1: §4.6 Evaluative/Direct-State dimension (evaluative vs direct state)
+>       v1.1: §4.6 Evaluative/Direct-State dimension
 >   §5: Clear ↔ Vague = same mechanism, different signal profile. Multi-Weak-Signal-Convergence.
 >   §6: Feeling quality = f(chunk library + compile context). Domain-Checked vs Self-Referencing. Trauma.
->   §7: 22 🟢 + 9 🟡 + 5 🔴. 10 falsifiable predictions. Honest limits.
+>   §7: 22🟢 + 9🟡 + 5🔴. 10 falsifiable predictions. Honest limits.
 >
 > **Companion files:**
 >   Feeling.md = WHAT feeling is (7-layer, anatomy)
 >   This file = HOW feeling works (mechanism, physiology)
->   Feeling-Literacy-Training.md (next) = HOW TO IMPROVE feeling
->   Feeling-Chunk-Bridge.md (next) = HOW chunk system PRODUCES feeling
+>   Feeling-Literacy-Training-Draft.md (E07) = HOW TO IMPROVE feeling
+>   Feeling-Chunk-Bridge-Draft.md (E06) = HOW chunk system PRODUCES feeling
 >
-> **Phiên bản:** v1.1, 2026-05-10.
+> **Version:** v1.1, 2026-05-10. English translation: 2026-06-09.

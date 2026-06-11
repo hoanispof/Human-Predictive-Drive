@@ -1,239 +1,251 @@
-# Sensitivity Classification — Phân Loại "Nhạy Cảm"
+# Sensitivity Classification — What "Sensitive" Actually Means
 
-> **"Nhạy cảm" = 1 từ cho CẢ CHỤC thứ KHÁC NHAU.**
-> Khác vùng não, khác receptor, khác nguyên nhân, khác biểu hiện.
-> Gộp thành 1 từ = mất gần như toàn bộ thông tin.
+> **"Sensitive" = 1 word for a DOZEN completely different things.**
+> Different brain regions, different receptors, different causes, different expressions.
+> Collapsing them into 1 word loses nearly all the useful information.
 >
-> File này: PHÂN LOẠI theo 2 tầng (Sensor × Processing),
-> để có CƠ SỞ quan sát. Không đo lường — chỉ cung cấp KHUNG.
-> Nếu framework đúng, mọi người có thể dùng khung này để verify.
+> This file: CLASSIFIES by 2 layers (Sensor × Processing),
+> to provide a FOUNDATION FOR OBSERVATION. Not measurement — only a FRAMEWORK.
+> If the framework is correct, anyone can use it to verify their own experience.
 
 ---
 
-> **Phiên bản:** 1.0 (refined from DRAFT 2026-04-02)
-> **Ngày cập nhật:** 2026-05-11
-> **Trạng thái:** DRAFT — phân loại từ framework, chưa có thực nghiệm trực tiếp
-> **Mục đích:** Tách "nhạy cảm" thành các thành phần ĐỘC LẬP, phân loại rõ ràng.
-> Cung cấp khung để quan sát, không phải kết luận.
-> **Phụ thuộc:** PFC-Hardware.md (DRD4 Disturbance Threshold),
+> **Version:** 1.0 (refined from DRAFT 2026-04-02)
+> **Updated:** 2026-05-11
+> **Status:** DRAFT — classification from framework, no direct empirical testing yet
+> **Purpose:** Decompose "sensitivity" into INDEPENDENT components, clearly classified.
+> Provides a framework for observation, not conclusions.
+> **Dependencies:** PFC-Hardware.md (DRD4 Disturbance Threshold),
 > Modality.md (modality dominant), Attention-Spectrum.md (DRD4 spectrum),
 > Body-Feedback-Mechanism.md v1.2 (Sensory-Driven pathway),
 > Agent-Mechanism.md v1.0 (Self-Pattern-Modeling Compiled/Fresh), Cortisol-Baseline.md v2.0
-> **⚠️ Phân loại = hypothesis — cần validate thực nghiệm**
-> **⚠️ Rất khó đo lường hiện tại — file này = CƠ SỞ quan sát, không phải công cụ chẩn đoán**
-> **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
+> **⚠️ This classification = hypothesis — requires empirical validation**
+> **⚠️ Very difficult to measure currently — this file = OBSERVATIONAL FRAMEWORK, not a diagnostic tool**
+> **Convention:** 🟢 Research support | 🟡 Framework inference | 🔴 Hypothesis
 
 ---
 
-## 1. Vấn Đề — "Nhạy Cảm" Quá Chung
+## 1. The Problem — "Sensitivity" Is Too Vague
 
 ```
-🟡 ĐỜI THƯỜNG GỌI "NHẠY CẢM" CHO TẤT CẢ:
+🟡 EVERYDAY USAGE OF "SENSITIVE" COVERS EVERYTHING:
 
-  "Bạn ấy nhạy cảm lắm" → nghĩa là gì?
-    → Dễ khóc? (emotional)
-    → Sợ tiếng ồn? (auditory sensor)
-    → Thấy lỗi logic nhanh? (pattern detection)
-    → Dị ứng da? (skin receptor + sức khỏe)
-    → Biết người khác đang buồn? (social/mirror)
-    → Ngửi mùi nhạt? (olfactory sensor)
-    → Đau răng khi uống nước lạnh? (nerve ending + sức khỏe)
+  "She's so sensitive" → what does that mean?
+    → Cries easily? (emotional)
+    → Bothered by noise? (auditory sensor)
+    → Spots logic errors fast? (pattern detection)
+    → Skin allergies? (skin receptor + health)
+    → Knows when someone is upset? (social/mirror)
+    → Smells faint odors? (olfactory sensor)
+    → Tooth pain from cold drinks? (nerve ending + health)
 
-  = 7 THỨ KHÁC NHAU HOÀN TOÀN
-  = Khác VÙNG NÃO, khác RECEPTOR, khác NGUYÊN NHÂN
-  = Gọi CÙNG 1 TỪ = vô dụng cho phân tích
+  = 7 COMPLETELY DIFFERENT THINGS
+  = Different BRAIN REGIONS, different RECEPTORS, different CAUSES
+  = Using 1 WORD for all = useless for analysis
 
-  MAINSTREAM cũng gộp:
-    → "Highly Sensitive Person" (Aron 1996) = gộp NHIỀU sensitivity
-    → Hữu ích như NHÃN → nhưng không TÁCH rõ cơ chế
-    → Framework cần TÁCH để predict chính xác hơn
+  MAINSTREAM also conflates them:
+    → "Highly Sensitive Person" (Aron 1996) = bundles MANY sensitivities
+    → Useful as a LABEL → but doesn't SEPARATE mechanisms clearly
+    → The framework needs SEPARATION to make more accurate predictions
 ```
 
 ---
 
-## 2. Phân Loại — 2 Tầng: Sensor (Input) × Processing (Neurons)
+## 2. Classification — 2 Layers: Sensor (Input) × Processing (Neurons)
 
 ```
-🔴 HYPOTHESIS — khung phân loại:
+🔴 HYPOTHESIS — classification framework:
 
-  ⭐ MỌI "nhạy cảm" nằm ở 1 trong 2 tầng (hoặc CẢ HAI):
+  ⭐ ALL "sensitivity" lives in 1 of 2 layers (or BOTH):
 
   ┌──────────────────────────────────────────────────────────────┐
   │                                                              │
-  │  DOMAIN (thực tế bên ngoài)                                  │
-  │       ↓ signal (ánh sáng, âm thanh, nhiệt, hóa chất,...)   │
+  │  DOMAIN (external reality)                                   │
+  │       ↓ signal (light, sound, heat, chemicals,...)          │
   │                                                              │
-  │  ┌─── TẦNG 1: SENSOR (cơ quan đầu vào) ───────────────┐    │
-  │  │  Mắt (retina), Tai (cochlea), Da (receptors),        │    │
-  │  │  Mũi (olfactory), Lưỡi (taste buds), Nội tạng,...    │    │
-  │  │                                                       │    │
-  │  │  Chất lượng: TỐT / TRUNG BÌNH / KÉM (sức khỏe)     │    │
-  │  │  = Quyết định INPUT vào não nhiều/ít/méo              │    │
-  │  └───────────────────────────────────────────────────────┘    │
+  │  ┌─── LAYER 1: SENSOR (input organ) ──────────────────┐    │
+  │  │  Eyes (retina), Ears (cochlea), Skin (receptors),   │    │
+  │  │  Nose (olfactory), Tongue (taste buds), Viscera,...  │    │
+  │  │                                                      │    │
+  │  │  Quality: GOOD / AVERAGE / POOR (health)            │    │
+  │  │  = Determines HOW MUCH/LITTLE/DISTORTED input       │    │
+  │  │    reaches the brain                                 │    │
+  │  └──────────────────────────────────────────────────────┘    │
   │       ↓ neural signal                                        │
-  │  ┌─── TẦNG 2: PROCESSING (não xử lý) ─────────────────┐    │
-  │  │  Visual cortex, Auditory cortex, Somatosensory,       │    │
-  │  │  Limbic (emotion), Self-Pattern-Modeling (Agent-Mechanism.md), VTA+PFC,  │    │
-  │  │  mPFC (social),...                                     │    │
-  │  │                                                       │    │
-  │  │  Chất lượng: DOMINANT / TRUNG BÌNH / YẾU              │    │
-  │  │  = Quyết định PROCESS sâu/nông/chi tiết/thô           │    │
-  │  └───────────────────────────────────────────────────────┘    │
-  │       ↓ kết quả                                              │
-  │  Body-base response (reward / dissonance / satisfaction)      │
+  │  ┌─── LAYER 2: PROCESSING (brain processes) ───────────┐    │
+  │  │  Visual cortex, Auditory cortex, Somatosensory,      │    │
+  │  │  Limbic (emotion), Self-Pattern-Modeling             │    │
+  │  │  (Agent-Mechanism.md), VTA+PFC, mPFC (social),...   │    │
+  │  │                                                      │    │
+  │  │  Quality: DOMINANT / AVERAGE / WEAK                  │    │
+  │  │  = Determines HOW DEEPLY/SHALLOWLY/PRECISELY the     │    │
+  │  │    signal is processed                               │    │
+  │  └──────────────────────────────────────────────────────┘    │
+  │       ↓ result                                               │
+  │  Body-base response (reward / dissonance / satisfaction)     │
   │                                                              │
   └──────────────────────────────────────────────────────────────┘
 
-  → = "Nhạy cảm" có thể ở TẦNG 1 (sensor) hoặc TẦNG 2 (processing) hoặc CẢ HAI
-  → = PHẢI xác định TẦNG NÀO mới biết nguyên nhân + cách ứng xử
+  → = "Sensitivity" can be in LAYER 1 (sensor) or LAYER 2 (processing) or BOTH
+  → = Must identify WHICH LAYER to know the cause + the right response
 ```
 
 ---
 
-## 3. Tầng 1 — Sensor: 3 Mức Chất Lượng Per Channel
+## 3. Layer 1 — Sensor: 3 Quality Levels Per Channel
 
 ```
-🔴 MỖI KÊNH INPUT có 3 mức — ĐỘC LẬP nhau:
+🔴 EACH INPUT CHANNEL has 3 levels — INDEPENDENT of each other:
 
   ┌──────────┬────────────────┬──────────────────┬────────────────────┐
-  │ Channel  │ TỐT (nhạy thật)│ TRUNG BÌNH       │ KÉM (sức khỏe)    │
+  │ Channel  │ GOOD (truly    │ AVERAGE          │ POOR (health)      │
+  │          │ sensitive)     │                  │                    │
   ├──────────┼────────────────┼──────────────────┼────────────────────┤
-  │ Mắt      │ Retina dense → │ Bình thường      │ Cận/viễn/loạn →    │
-  │          │ thấy chi tiết  │                  │ input méo          │
+  │ Eyes     │ Dense retina → │ Normal           │ Near/far/astigmat. │
+  │          │ see fine detail│                  │ → distorted input  │
   ├──────────┼────────────────┼──────────────────┼────────────────────┤
-  │ Tai      │ Cochlea nhạy → │ Bình thường      │ Giảm thính lực →   │
-  │          │ nghe tần rộng  │                  │ input thiếu        │
+  │ Ears     │ Sensitive      │ Normal           │ Hearing loss →     │
+  │          │ cochlea →      │                  │ incomplete input   │
+  │          │ broad freq range│                 │                    │
   ├──────────┼────────────────┼──────────────────┼────────────────────┤
-  │ Da       │ Receptors dense│ Bình thường      │ Bệnh da/dị ứng →   │
-  │          │ → feel chạm rõ │                  │ signal lỗi (ngứa)  │
+  │ Skin     │ Dense receptors│ Normal           │ Skin condition/    │
+  │          │ → clear tactile│                  │ allergy → error    │
+  │          │ perception     │                  │ signal (itching)   │
   ├──────────┼────────────────┼──────────────────┼────────────────────┤
-  │ Mũi      │ Olfactory tốt →│ Bình thường      │ Xoang/viêm →       │
-  │          │ ngửi mùi nhạt  │                  │ kích thích giả     │
+  │ Nose     │ Good olfactory │ Normal           │ Sinus/inflammation │
+  │          │ → detects faint│                  │ → false stimulation│
+  │          │ odors          │                  │                    │
   ├──────────┼────────────────┼──────────────────┼────────────────────┤
-  │ Lưỡi     │ Taste buds     │ Bình thường      │ Viêm/bệnh →        │
-  │          │ nhiều → vị rõ  │                  │ mất vị/méo vị      │
+  │ Tongue   │ Many taste buds│ Normal           │ Inflammation/      │
+  │          │ → clear taste  │                  │ illness → taste    │
+  │          │ perception     │                  │ loss or distortion │
   ├──────────┼────────────────┼──────────────────┼────────────────────┤
-  │ Nội tạng │ Interoception  │ Bình thường      │ Rối loạn → signal   │
-  │          │ rõ → biết đói/ │                  │ sai (IBS, tim      │
-  │          │ no/mệt chính   │                  │ đập nhanh,...)     │
-  │          │ xác            │                  │                    │
+  │ Viscera  │ Clear          │ Normal           │ Disorder → false   │
+  │          │ interoception  │                  │ signal (IBS, fast  │
+  │          │ → accurate     │                  │ heartbeat, etc.)   │
+  │          │ hunger/fullness│                  │                    │
+  │          │ /fatigue sense │                  │                    │
   └──────────┴────────────────┴──────────────────┴────────────────────┘
 
-  ⭐ QUAN TRỌNG — "NHẠY" vs "KÉM" nhìn GIỐNG NHAU từ ngoài:
+  ⭐ IMPORTANT — "SENSITIVE" vs "POOR" look THE SAME from outside:
 
-    Mũi THÍNH (sensor tốt): ngửi MÙI NHẠT mà người khác không ngửi → "nhạy"
-    Mũi XOANG (sensor kém): KÍCH THÍCH bởi mùi bình thường → "nhạy"
-    → Bên ngoài: CẢ HAI đều "phản ứng với mùi" → gọi "nhạy"
-    → Bên trong: HOÀN TOÀN KHÁC — 1 cái DETECT tốt, 1 cái BỊ LỖI
+    GOOD nose (good sensor): detects FAINT ODORS others can't → "sensitive"
+    SINUS nose (poor sensor): IRRITATED by normal odors → "sensitive"
+    → From outside: BOTH appear to "react to smells" → called "sensitive"
+    → From inside: COMPLETELY DIFFERENT — 1 DETECTS well, 1 is MALFUNCTIONING
 
-    → = PHẢI phân biệt: "nhạy vì TỐT" vs "nhạy vì BỊ LỖI"
-    → = Thuộc về y tế phân biệt — framework chỉ ĐÁNH DẤU cần tách
+    → = MUST DISTINGUISH: "sensitive because GOOD" vs "sensitive because BROKEN"
+    → = This is the medical domain to sort out — the framework just FLAGS the need to separate
 ```
 
 ---
 
-## 4. Tầng 2 — Processing: Modality Dominant × Vùng Não
+## 4. Layer 2 — Processing: Modality Dominant × Brain Region
 
 ```
-🟡 CÙNG INPUT → KHÁC PROCESSING → KHÁC "NHẠY":
+🟡 SAME INPUT → DIFFERENT PROCESSING → DIFFERENT "SENSITIVITY":
 
   ┌────────────────────┬───────────────────┬──────────────────────────┐
-  │ Processing area    │ Khi DOMINANT      │ "Nhạy" biểu hiện         │
+  │ Processing area    │ When DOMINANT     │ "Sensitivity" manifests  │
   ├────────────────────┼───────────────────┼──────────────────────────┤
-  │ Visual cortex      │ Process hình ảnh  │ Thấy chi tiết, màu sắc, │
-  │                    │ chi tiết + sâu    │ layout, design rõ         │
+  │ Visual cortex      │ Processes images  │ Sees detail, color,      │
+  │                    │ in depth + detail │ layout, design clearly   │
   ├────────────────────┼───────────────────┼──────────────────────────┤
-  │ Auditory cortex    │ Process âm thanh  │ Phân biệt tone, pitch,  │
-  │                    │ chi tiết + sâu    │ harmony, accent rõ        │
+  │ Auditory cortex    │ Processes sound   │ Distinguishes tone,      │
+  │                    │ in depth + detail │ pitch, harmony, accent   │
   ├────────────────────┼───────────────────┼──────────────────────────┤
-  │ Somatosensory      │ Process body      │ Feel nhiệt, chạm, nhịp, │
-  │ cortex             │ signal chi tiết   │ đau, rung, flow rõ        │
+  │ Somatosensory      │ Processes body    │ Feels heat, touch,       │
+  │ cortex             │ signal in detail  │ rhythm, pain, flow       │
   ├────────────────────┼───────────────────┼──────────────────────────┤
-  │ Limbic + Insula    │ Process emotion   │ Xúc động dễ, feel sâu,  │
-  │                    │ chi tiết + sâu    │ empathy strong             │
+  │ Limbic + Insula    │ Processes emotion │ Easily moved, feels      │
+  │                    │ in depth + detail │ deeply, strong empathy   │
   ├────────────────────┼───────────────────┼──────────────────────────┤
-  │ Self-Pattern-Modeling Compiled             │ Simulate trạng    │ "Feel" người khác đang   │
-  │ (Agent-Mechanism)  │ thái người khác   │ gì, empathy (Empathy v2.0)│
+  │ Self-Pattern-      │ Simulates other   │ "Feels" what someone     │
+  │ Modeling Compiled  │ people's states   │ else is experiencing,    │
+  │ (Agent-Mechanism)  │                   │ empathy (Empathy v2.0)   │
   ├────────────────────┼───────────────────┼──────────────────────────┤
-  │ VTA + PFC          │ Detect mismatch   │ Thấy mâu thuẫn, pattern │
-  │ (Disturbance       │ giữa expectation  │ lỗi, "cái này SAI"       │
-  │  Threshold)        │ vs reality        │ (Core §1.5: DRD4)        │
+  │ VTA + PFC          │ Detects mismatch  │ Spots contradictions,    │
+  │ (Disturbance       │ between           │ pattern errors, "this    │
+  │  Threshold)        │ expectation vs    │ is WRONG"                │
+  │                    │ reality           │ (Core §1.5: DRD4)        │
   ├────────────────────┼───────────────────┼──────────────────────────┤
-  │ mPFC + Amygdala    │ Simulate social   │ "Họ nghĩ gì về tôi",    │
-  │                    │ judgment          │ detect social threat       │
+  │ mPFC + Amygdala    │ Simulates social  │ "What do they think      │
+  │                    │ judgment          │ about me," detects       │
+  │                    │                   │ social threat            │
   └────────────────────┴───────────────────┴──────────────────────────┘
 
-  → = MỖI VÙNG = 1 LOẠI "nhạy" RIÊNG → ĐỘC LẬP với nhau
-  → = Có thể: somatosensory DOMINANT + visual YẾU
-    → = "Nhạy" body signal + "không nhạy" hình ảnh
-    → = Cùng 1 người, KHÁC nhạy cảm per channel
+  → = EACH REGION = 1 DISTINCT TYPE of "sensitivity" → INDEPENDENT of each other
+  → = Possible: somatosensory DOMINANT + visual WEAK
+    → = "Sensitive" to body signals + "not sensitive" to visual detail
+    → = Same person, DIFFERENT sensitivity per channel
 
-  ⭐ PROCESSING KHÁC SENSOR:
-    → Sensor TỐT + processing YẾU = input rõ nhưng KHÔNG dùng hết
-    → Sensor KÉM + processing MẠNH = input ít nhưng KHAI THÁC SÂU
-    → = 2 tầng ĐỘC LẬP → kết hợp ra nhiều profiles khác nhau
+  ⭐ PROCESSING IS SEPARATE FROM SENSOR:
+    → GOOD sensor + WEAK processing = clear input but NOT fully utilized
+    → POOR sensor + STRONG processing = little input but DEEPLY MINED
+    → = 2 INDEPENDENT layers → combine to produce many different profiles
 ```
 
 ---
 
-## 5. Tại Sao Cần Tách — Ví Dụ Thực Tế
+## 5. Why Separation Is Needed — Real Examples
 
 ```
-🟡 CÙNG GỌI "NHẠY CẢM" — KHÁC HOÀN TOÀN:
+🟡 SAME LABEL "SENSITIVE" — COMPLETELY DIFFERENT:
 
-  "Nhạy cảm tiếng ồn":
-    A: Auditory cortex DOMINANT → nghe CHI TIẾT → tiếng ồn = quá nhiều data → mệt
-    B: Cortisol CAO → noise threshold THẤP → tiếng ồn = trigger stress
-    C: Tai bị viêm → nerve dễ kích thích → tiếng bình thường = đau
-    → 3 người cùng "nhạy tiếng ồn" → 3 NGUYÊN NHÂN KHÁC → 3 CÁCH XỬ LÝ KHÁC:
-      A: headphones noise-cancel (giảm input) hoặc chấp nhận (hardware)
-      B: giảm cortisol gốc (ngủ đủ, bớt threat)
-      C: chữa viêm tai (y tế)
+  "Noise sensitivity":
+    A: Auditory cortex DOMINANT → hears IN DETAIL → noise = too much data → exhausting
+    B: HIGH cortisol → noise threshold LOW → noise = stress trigger
+    C: Ear inflammation → nerve easily irritated → normal sound = painful
+    → 3 people all "noise sensitive" → 3 DIFFERENT CAUSES → 3 DIFFERENT SOLUTIONS:
+      A: noise-canceling headphones (reduce input) or accept (it's hardware)
+      B: reduce root cortisol (sleep, reduce threat)
+      C: treat the ear inflammation (medical)
 
-  "Nhạy cảm cảm xúc":
-    A: Limbic MẠNH → feel SÂU → xúc động vì PROCESS SÂU
-    B: Cortisol CAO → threshold thấp → xúc động vì ĐÃ GẦN ngưỡng
-    C: Trauma chunks → specific trigger → xúc động vì PATTERN fire
-    → 3 nguyên nhân → 3 cách support KHÁC
+  "Emotional sensitivity":
+    A: STRONG limbic → feels DEEPLY → emotionally reactive because PROCESSES DEEPLY
+    B: HIGH cortisol → low threshold → emotionally reactive because ALREADY NEAR the edge
+    C: Trauma chunks → specific trigger → emotionally reactive because PATTERN fires
+    → 3 causes → 3 DIFFERENT support approaches
 
-  → = Không tách = "nhạy cảm, kệ đi" hoặc "nhạy cảm, sao yếu vậy"
-  → = Tách ra = biết CHÍNH XÁC channel nào, tầng nào, nguyên nhân gì → FIX đúng
+  → = Without separating: "you're just sensitive, deal with it"
+      or "you're sensitive, why are you so weak"
+  → = By separating: know EXACTLY which channel, which layer, what cause → FIX correctly
 ```
 
 ---
 
-## 6. v7.8 Lens — Sensitivity Qua Framework Hiện Tại
+## 6. v7.8 Lens — Sensitivity Through the Current Framework
 
 ```
-🟡 MAPPING 2 TẦNG SANG V7.8:
+🟡 MAPPING 2 LAYERS ONTO V7.8:
 
-  TẦNG 1 (SENSOR) = Body-Feedback-Mechanism v1.2 — SENSORY-DRIVEN pathway:
-    → Sensor input = external stimulus → body-feedback TRỰC TIẾP
+  LAYER 1 (SENSOR) = Body-Feedback-Mechanism v1.2 — SENSORY-DRIVEN pathway:
+    → Sensor input = external stimulus → DIRECT body-feedback
     → = Direct-State input (Reward-Signal-Architecture v1.0): hardware-based, no PFC needed
-    → Sensor TỐT = Direct-State input QUALITY cao → body-feedback chính xác hơn
-    → Sensor KÉM = Direct-State input NOISE → body-feedback méo → calibration sai
+    → GOOD sensor = Direct-State input QUALITY high → body-feedback more accurate
+    → POOR sensor = Direct-State input NOISE → body-feedback distorted → wrong calibration
 
-  TẦNG 2 (PROCESSING) = Core-Hardware.md — Zone B/C processing strength:
-    → Processing dominant = cortical area nào DÀY hơn, kết nối MẠNH hơn
-    → Modality.md: mỗi người có modality dominant → process SÂU ở channel đó
-    → Self-Pattern-Modeling Compiled dominant = social sensitivity CAO (Empathy v2.0)
-    → VTA+PFC dominant = pattern sensitivity CAO (DRD4 — PFC-Hardware.md)
+  LAYER 2 (PROCESSING) = Core-Hardware.md — Zone B/C processing strength:
+    → Processing dominant = which cortical area is THICKER, more strongly connected
+    → Modality.md: each person has a modality dominant → DEEPER processing in that channel
+    → Self-Pattern-Modeling Compiled dominant = HIGH social sensitivity (Empathy v2.0)
+    → VTA+PFC dominant = HIGH pattern sensitivity (DRD4 — PFC-Hardware.md)
 
-  TẦNG 1 × TẦNG 2 = COMPOUND:
-    Sensor TỐT + Processing DOMINANT = HIGH signal (Climate-Cognition.md §5.6)
-      → Body-feedback CỰC RÕ → PFC nhận signal MẠNH
-      → Lợi: detect fine-grained → creativity, intuition
-      → Hại: overwhelm dễ → cần environment tối ưu (mát, yên, ổn định)
-    Sensor KÉM + Processing DOMINANT = signal MÉO nhưng process SÂU
-      → Body-feedback từ NOISE → PFC khai thác sai data
-      → = Misattribution: "nhạy" nhưng nhạy với LỖI, không phải reality
+  LAYER 1 × LAYER 2 = COMPOUND EFFECT:
+    GOOD sensor + DOMINANT processing = HIGH signal (Climate-Cognition.md §5.6)
+      → Body-feedback EXTREMELY CLEAR → PFC receives STRONG signal
+      → Advantage: detects fine-grained signals → creativity, intuition
+      → Disadvantage: easily overwhelmed → needs an optimal environment (cool, quiet, stable)
+    POOR sensor + DOMINANT processing = DISTORTED signal but deeply processed
+      → Body-feedback from NOISE → PFC mines wrong data
+      → = Misattribution: "sensitive" but sensitive to ERRORS, not to reality
 
   CORTISOL INTERACTION (Cortisol-Baseline v2.0):
-    Cortisol cao → threshold MỌI channel GIẢM → mọi thứ đều "nhạy" hơn
-    → KHÔNG phải sensor tốt hơn — mà amplifier TURNED UP
-    → Role ② AMPLIFIER: cortisol noise CHE signal thật
-    → Giảm cortisol → threshold về bình thường → "nhạy" giảm
-    → = Phải phân biệt: "nhạy vì HARDWARE" vs "nhạy vì CORTISOL CAO"
+    High cortisol → threshold of ALL channels DECREASES → everything feels "more sensitive"
+    → NOT because sensors got better — the amplifier is simply TURNED UP
+    → Role ② AMPLIFIER: cortisol noise OBSCURES the true signal
+    → Reducing cortisol → thresholds normalize → apparent "sensitivity" decreases
+    → = Must distinguish: "sensitive because HARDWARE" vs "sensitive because HIGH CORTISOL"
 ```
 
 ---
@@ -244,62 +256,65 @@
   ESTABLISHED (🟢):
     🟢 Sensory sensitivity varies per individual (genetics + health)
     🟢 Modality dominance = different cortical processing strength
-       (visual vs auditory vs somatic — individual differences)
-    🟢 "Highly Sensitive Person" (Aron 1996): ~15-20% population
+       (visual vs auditory vs somatic — well-documented individual differences)
+    🟢 "Highly Sensitive Person" (Aron 1996): ~15-20% of population
        score high on Sensory Processing Sensitivity scale
     🟢 Interoception varies: some people detect internal signals better
        (heartbeat detection task — established measure)
     🟢 DRD4 variants affect novelty-seeking threshold (Core §1.5)
 
-  FRAMEWORK SUY LUẬN (🟡):
-    🟡 "2 tầng: Sensor × Processing": logical decomposition,
-       consistent với neuroscience (receptor ≠ cortex processing).
-       Chưa có study phân loại "nhạy cảm" theo ĐÚNG 2 tầng này.
-    🟡 "3 mức sensor: tốt / trung bình / kém": simplified.
-       Thực tế = gradient, không phải 3 bậc rời rạc.
-    🟡 "Nhạy vì TỐT vs nhạy vì LỖI": phân biệt hữu ích,
-       consistent với y khoa (pathological vs functional sensitivity).
-    🟡 "Mỗi vùng processing = 1 loại nhạy riêng": consistent với
-       modular brain theory, nhưng não KHÔNG hoàn toàn modular.
+  FRAMEWORK INFERENCE (🟡):
+    🟡 "2 layers: Sensor × Processing": logical decomposition,
+       consistent with neuroscience (receptor ≠ cortex processing).
+       No study has yet classified "sensitivity" using EXACTLY these 2 layers.
+    🟡 "3 sensor levels: good / average / poor": simplified.
+       Reality = gradient, not 3 discrete steps.
+    🟡 "Sensitive because GOOD vs sensitive because BROKEN": useful distinction,
+       consistent with medicine (pathological vs functional sensitivity).
+    🟡 "Each processing region = 1 distinct type of sensitivity": consistent with
+       modular brain theory, but the brain is NOT completely modular.
 
   HYPOTHESIS (🔴):
-    🔴 Phân loại này = COMPLETE — chắc chắn CHƯA (luôn có thể thiếu)
-    🔴 2 tầng = ĐỘC LẬP hoàn toàn — có thể có INTERACTION chưa biết
-    🔴 Có thể dùng để PREDICT sensitivity per person — chưa test
+    🔴 This classification is COMPLETE — almost certainly NOT (gaps always possible)
+    🔴 The 2 layers are FULLY INDEPENDENT — there may be INTERACTIONS not yet understood
+    🔴 Can be used to PREDICT sensitivity per person — not yet tested
 ```
 
 ---
 
-## 7. Kết Nối
+## 8. Connections
 
 ```
 FRAMEWORK CONNECTIONS (updated 2026-05-11):
 
-→ PFC-Hardware.md (PFC/): DRD4 Disturbance Threshold — pattern detection sensitivity (tầng 2)
-→ Modality.md (Core-Deep-Dive/): modality dominant — processing tầng 2 per channel
+→ PFC-Hardware.md (PFC/): DRD4 Disturbance Threshold — pattern detection sensitivity (Layer 2)
+→ Modality.md (Core-Deep-Dive/): modality dominant — Layer 2 processing per channel
 → Attention-Spectrum.md (PFC/): DRD4 spectrum — novelty-seeking × sensitivity
 → Cortisol-Baseline.md v2.0 (Body-Base/):
-    Role ② AMPLIFIER — cortisol noise che signal → "nhạy vì cortisol" ≠ "nhạy vì hardware"
+    Role ② AMPLIFIER — cortisol noise obscures true signal
+    → "Sensitive because cortisol" ≠ "sensitive because hardware"
 → Body-Feedback-Mechanism.md v1.2 (Body-Base/Body-Feedback/):
-    Sensory-Driven pathway = tầng 1 sensor input → Direct-State body-feedback
+    Sensory-Driven pathway = Layer 1 sensor input → Direct-State body-feedback
     4 axes: Direction × Magnitude × Source × Chunk Dynamics
 → Reward-Signal-Architecture.md v1.0 (Body-Base/Body-Feedback/):
-    Sensor quality = Direct-State input quality → affect body-feedback precision
+    Sensor quality = Direct-State input quality → affects body-feedback precision
 → Agent-Mechanism.md v1.0 (Body-Base/Chunk/Agent-Mechanism/):
-    Self-Pattern-Modeling Compiled = simulate trạng thái người khác — thay "mirror neurons" (v7.8 reframe)
-→ Empathy.md v2.0 (Observation/): Self-Pattern-Modeling Compiled fire on agent = empathy observation
+    Self-Pattern-Modeling Compiled = simulates other people's states
+    — replaces "mirror neurons" in v7.8 reframe
+→ Empathy.md v2.0 (Observation/): Self-Pattern-Modeling Compiled fires on agent = empathy
 → Connection.md v3.1 (Observation/): melody calibration × social sensitivity
-→ Observation/Boredom.md v1.0: sensory channels đói → sensor input cần
+→ Observation/Boredom.md v1.0: sensory channels starved → sensor input needed
 → Personal-Melody.md (Body-Base/Melody Lens/): multi-modal sync
 → Climate-Cognition.md v1.0 (Research/):
-    §5.6 Hardware Sensitivity — 3 nhóm (high/medium/low signal)
-    = APPLICATION of Sensor × Processing framework to thermal sensitivity
+    §5.6 Hardware Sensitivity — 3 groups (high/medium/low signal)
+    = APPLICATION of the Sensor × Processing framework to thermal sensitivity
 ```
 
 ---
 
-> *Sensitivity Classification — "'Nhạy cảm' = 1 từ cho cả chục thứ khác nhau.
-> Tầng 1 (Sensor): mắt, tai, da, mũi — TỐT / bình thường / KÉM (sức khỏe).
-> Tầng 2 (Processing): visual, auditory, somatic, emotional, social, pattern — DOMINANT / yếu.
-> 'Nhạy vì TỐT' ≠ 'nhạy vì LỖI' — nhìn ngoài GIỐNG, gốc KHÁC, fix KHÁC.
-> Phải TÁCH mới biết: channel NÀO, tầng NÀO, nguyên nhân GÌ → xử lý ĐÚNG."*
+> *Sensitivity Classification — "'Sensitive' = 1 word for a dozen different things.
+> Layer 1 (Sensor): eyes, ears, skin, nose — GOOD / average / POOR (health).
+> Layer 2 (Processing): visual, auditory, somatic, emotional, social, pattern — DOMINANT / weak.
+> 'Sensitive because GOOD' ≠ 'sensitive because BROKEN' — looks the same from outside,
+> different root cause, different fix.
+> Must SEPARATE to know: WHICH channel, WHICH layer, WHAT cause → CORRECT response."*

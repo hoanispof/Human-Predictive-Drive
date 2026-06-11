@@ -1,5 +1,5 @@
 ---
-title: Expansion-Saturation-Crisis — Tại Sao Bằng Đại Học Mất Giá Trị Toàn Cầu
+title: Expansion-Saturation-Crisis — Why University Degrees Are Losing Value Globally
 version: 1.3
 created: 2026-04-26
 updated: 2026-06-03 (v1.3 — Trust.md integration: credential = trust signal degradation,
@@ -8,53 +8,54 @@ previous: v1.2 (2026-05-25 — +Gap-Distribution-Profile, +Hardware-Subsidy, +En
   +Dissonance-Signal-Architecture, +Coordination-Node)
 status: v1.3
 scope: |
-  Hiện tượng TOÀN CẦU: thất nghiệp sau đại học, education-job mismatch,
-  credential inflation, "hướng nghiệp" crisis.
-  KHÔNG phải lỗi riêng VN — structural shift từ Expansion Era sang Discovery Era.
+  GLOBAL PHENOMENON: graduate unemployment, education-job mismatch,
+  credential inflation, career guidance crisis.
+  NOT a failure of any single country — structural shift from Expansion Era to Discovery Era.
   Framework analysis: Knowledge-Flow × Discovery-vs-Expansion × Domain-Mapping-Drive.
-  VN-specific: "hướng nghiệp" + data + thế hệ trước vs hiện tại.
-  AI disruption: automation entry-level expansion work.
+  AI disruption: automation of entry-level expansion work.
   v1.2: +Gap-Distribution-Profile (credential inflation = gap landscape distortion),
-  +Hardware-Subsidy (societal subsidy hướng sai era), +Entity-Access (career navigation),
-  +Dissonance-Signal-Architecture (quarter-life crisis = Evaluative + Direct-State compound),
-  +Coordination-Node (university as node disconnect from domain thật).
+  +Hardware-Subsidy (societal subsidy pointing in wrong direction),
+  +Entity-Access (career navigation), +Dissonance-Signal-Architecture (quarter-life crisis
+  = Evaluative + Direct-State compound), +Coordination-Node (university as node disconnect
+  from real domain).
   v1.3: +Trust.md (credential = trust signal degradation, trust lag × self-blame,
   Default→Calibrated for education system trust). Cross-refs version bumps.
 purpose: |
-  TÍCH HỢP mechanisms có sẵn vào 1 phenomenon cụ thể.
-  File này KHÔNG phải mechanism MỚI — mà APPLY mechanisms đã có
-  để giải thích + predict + reframe 1 vấn đề cấp thiết toàn cầu.
-  Giá trị: NẾU framework đúng → reframe "hướng nghiệp" + giảm dissonance sai hướng.
+  INTEGRATES existing mechanisms into 1 specific phenomenon.
+  This file is NOT a NEW mechanism — it APPLIES established mechanisms
+  to explain + predict + reframe a pressing global problem.
+  Value: IF the framework is correct → reframe "career guidance" + reduce
+  misdirected dissonance.
 position: |
   Research/Human-Learning/Education-Mechanism/ — observation-level analysis.
-  Thuộc Education-Mechanism/ folder cùng "bộ 3" education:
+  Belongs in Education-Mechanism/ folder alongside the "triple set" of education:
   Education-Mechanism.md (HOW) + Domain-Knowledge-Map.md (WHAT) + Connection-Education.md (WHO).
-  File này = INTERSECTION của 3 framework streams:
+  This file = INTERSECTION of 3 framework streams:
     ① Domain mapping (Knowledge-Flow, Discovery-vs-Expansion, Domain-Mapping-Drive)
     ② Education system (Education-Mechanism, Education-Arms-Race)
     ③ Generational shift (Meaning, Imagine-Final, Cortisol, Boredom)
 dependencies:
   primary:
-    - Knowledge-Flow.md — dòng chảy internal→output→external chunk qua thế hệ
-    - Discovery-vs-Expansion.md — Sense→Verify→Scale, 2 mode cost/reward khác nhau
-    - Domain-Mapping-Drive.md — reward từ PROCESS, "given"=bypass=no reward
+    - Knowledge-Flow.md — flow of internal→output→external chunks across generations
+    - Discovery-vs-Expansion.md — Sense→Verify→Scale, 2 modes with different costs/rewards
+    - Domain-Mapping-Drive.md — reward from PROCESS, "given" = bypass = no reward
   education-trio:
     - Education-Mechanism.md v2.2 — arc design, Hardware-Subsidy, PFC Budget
     - Domain-Knowledge-Map.md v2.1 — domain taxonomy per era
     - Connection-Education.md v1.1 — social interaction education (WHO)
   secondary:
-    - Collective-Purpose.md — cosmic loop, humanity map domain
-    - Collective-Body.md v2.1 — Model 3 Cấp, §5.2 chain break, trust = only bridge
+    - Collective-Purpose.md — cosmic loop, humanity maps domain
+    - Collective-Body.md v2.1 — 3-Level Model, §5.2 chain break, trust = only bridge
     - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, education = Trust Compile install
     - Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT
-    - Domain.md — thực tế bên ngoài, feedback thật, attractor
+    - Domain.md — external reality, real feedback, attractor
     - Education-Arms-Race.md v1.3 — positional good, credential inflation
   trust:
     - Trust.md v1.0 — §5 Default→Calibrated, §3 Trust Depth, build slow/collapse fast
   new-concepts:
-    - Gap-Distribution-Profile.md v1.1 — 4 trục, credential inflation = gap landscape distortion
-    - Valence-Propagation.md v3.0 — §7 Hardware-Subsidy (societal subsidy hướng sai)
-    - Entity-Access.md v1.2 — gradient Mức 0-5, career = entity-access navigation
+    - Gap-Distribution-Profile.md v1.1 — 4 axes, credential inflation = gap landscape distortion
+    - Valence-Propagation.md v3.0 — §7 Hardware-Subsidy (societal subsidy pointing wrong)
+    - Entity-Access.md v1.2 — gradient Level 0-5, career = entity-access navigation
     - Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State (quarter-life crisis)
     - Coordination-Node.md v1.2 — university as coordination node disconnect
   observation:
@@ -63,60 +64,60 @@ dependencies:
     - Boredom.md v2.0 — 6 sources, Resonance Decline, dissonance + Imagine-Final unclear
     - Cortisol-Baseline.md v2.1 — bounded vs unbounded stress
   companion:
-    - Alcohol-Vietnam-Generational.md — 4 điều kiện model (reusable)
+    - Alcohol-Vietnam-Generational.md — 4 conditions model (reusable)
     - Alcohol-Brain-Mechanism.md — neural mechanism reference
-language: Tiếng Việt primary + English technical terms
+language: English (translated from Vietnamese primary + English technical terms)
 confidence: 🟢 Research/data support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Expansion-Saturation-Crisis — Tại Sao Bằng Đại Học Mất Giá Trị Toàn Cầu
+# Expansion-Saturation-Crisis — Why University Degrees Are Losing Value Globally
 
-> **200 năm trước: học xong = có việc. Vì expansion territory CÒN RỘNG.**
-> **Bây giờ: học xong = chưa chắc có việc. Vì expansion territory ĐÃ ĐẦY.**
+> **200 years ago: finish school = get a job. Because expansion territory was WIDE OPEN.**
+> **Today: finish school = job not guaranteed. Because expansion territory IS SATURATED.**
 >
-> Đây KHÔNG phải lỗi của VN, Trung Quốc, hay Mỹ.
-> Đây là structural shift TOÀN CẦU: giáo dục sản xuất Expanders,
-> kinh tế cần Discoverers. Gap = crisis.
+> This is NOT the failure of any individual country.
+> This is a GLOBAL structural shift: education produces Expanders,
+> the economy needs Discoverers. The gap = crisis.
 >
-> "Hướng nghiệp" cũ = chọn nghề (destination).
-> "Hướng nghiệp" mới = tìm process (mode of domain engagement).
+> Old career guidance = choose a profession (destination).
+> New career guidance = find the process (mode of domain engagement).
 >
-> File này TÍCH HỢP mechanisms có sẵn trong framework
-> để giải thích + predict + reframe vấn đề này.
-> **Không phải mechanism mới — mà APPLICATION của mechanisms đã established.**
+> This file INTEGRATES existing mechanisms from the framework
+> to explain + predict + reframe this problem.
+> **Not a new mechanism — but an APPLICATION of established mechanisms.**
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ TRONG FRAMEWORK
-- §1 — DATA: ĐÂY LÀ HIỆN TƯỢNG TOÀN CẦU
-- §2 — FRAMEWORK CORE: TỪ EXPANSION ERA SANG DISCOVERY ERA
-- §3 — TẠI SAO "GIVEN" KHÔNG SATISFIED — MODERN EDUCATION PARADOX
-- §4 — "HƯỚNG NGHIỆP" — TẠI SAO CONCEPT CŨ KHÔNG HOẠT ĐỘNG
-- §5 — AI DISRUPTION: CÁI CUỐI CÙNG ĐẬP VÀO EXPANSION
-- §6 — CẠNH TRANH NGÀY CÀNG KHỐC LIỆT — CONFLICT DYNAMICS
-- §7 — THẾ HỆ TRƯỚC vs HIỆN TẠI — 4 ĐIỀU KIỆN MODEL
-- §8 — GIÁ TRỊ CỦA UNDERSTANDING
+- §0 — POSITION IN THE FRAMEWORK
+- §1 — DATA: THIS IS A GLOBAL PHENOMENON
+- §2 — FRAMEWORK CORE: FROM EXPANSION ERA TO DISCOVERY ERA
+- §3 — WHY "GIVEN" IS NOT SATISFYING — THE MODERN EDUCATION PARADOX
+- §4 — CAREER GUIDANCE — WHY THE OLD CONCEPT DOESN'T WORK
+- §5 — AI DISRUPTION: THE FINAL BLOW TO EXPANSION
+- §6 — INTENSIFYING COMPETITION — CONFLICT DYNAMICS
+- §7 — PREVIOUS vs. CURRENT GENERATION — THE 4 CONDITIONS MODEL
+- §8 — THE VALUE OF UNDERSTANDING
 - §9 — PREDICTIONS
 - §10 — HONEST ASSESSMENT
 - §11 — CROSS-REFERENCES
 
 ---
 
-## §0 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — POSITION IN THE FRAMEWORK
 
 ```
-⭐ FILE NÀY = INTERSECTION CỦA 3 FRAMEWORK STREAMS:
+⭐ THIS FILE = INTERSECTION OF 3 FRAMEWORK STREAMS:
 
   ① DOMAIN MAPPING STREAM:
-    Knowledge-Flow.md — dòng chảy internal → output → external chunk
-    Discovery-vs-Expansion.md — 2 mode: tìm cái mới vs mở rộng cái đã biết
-    Domain-Mapping-Drive.md — reward từ PROCESS, "given" = bypass = no reward
-    Collective-Purpose.md — cosmic loop: humanity map domain reality
+    Knowledge-Flow.md — flow of internal → output → external chunks
+    Discovery-vs-Expansion.md — 2 modes: finding something new vs expanding what's known
+    Domain-Mapping-Drive.md — reward from PROCESS, "given" = bypass = no reward
+    Collective-Purpose.md — cosmic loop: humanity maps domain reality
 
-  ② EDUCATION STREAM ("bộ 3" + observation):
-    Education-Mechanism.md v2.2 — HOW: 10 nguyên lý arc design, Hardware-Subsidy, PFC Budget
+  ② EDUCATION STREAM (triple set + observation):
+    Education-Mechanism.md v2.2 — HOW: 10 arc design principles, Hardware-Subsidy, PFC Budget
     Domain-Knowledge-Map.md v2.1 — WHAT: domain taxonomy per era
     Connection-Education.md v1.1 — WHO: social interaction education
     Education-Arms-Race.md v1.3 — positional good, credential inflation, game theory
@@ -129,777 +130,757 @@ confidence: 🟢 Research/data support | 🟡 Framework synthesis | 🔴 Hypothe
 
 
 SCOPE IN:
-  ✅ Structural shift từ Expansion → Discovery era (toàn cầu)
-  ✅ Tại sao education-job mismatch là hiện tượng TOÀN CẦU
-  ✅ VN-specific: "hướng nghiệp" + data chi tiết + thế hệ
-  ✅ AI disruption angle (catalyst cuối cùng)
-  ✅ Framework predictions + reframe "hướng nghiệp"
+  ✅ Structural shift from Expansion → Discovery era (global)
+  ✅ Why education-job mismatch is a GLOBAL phenomenon
+  ✅ Country-specific examples: US, China, India, Korea, Germany, Vietnam
+  ✅ AI disruption angle (final catalyst)
+  ✅ Framework predictions + career guidance reframe
   ✅ Germany insight: process + domain feedback > process alone
 
 SCOPE OUT:
-  ❌ Curriculum design cụ thể → Education-Mechanism.md
-  ❌ Arms race game theory chi tiết → Education-Arms-Race.md
+  ❌ Specific curriculum design → Education-Mechanism.md
+  ❌ Arms race game theory in detail → Education-Arms-Race.md
   ❌ Child development 0-6 → Child-Development/ files
-  ❌ Alcohol/substance analysis → Hijack/ files
 
 
 READER FLOW:
-  Muốn hiểu CƠ CHẾ NÃO → Core-Deep-Dive/ files
-  Muốn hiểu NGUYÊN LÝ GIÁO DỤC → Education-Mechanism.md
-  Muốn hiểu CUỘC CHẠY ĐUA → Education-Arms-Race.md
-  Muốn hiểu TẠI SAO BẰNG ĐH MẤT GIÁ TRỊ → FILE NÀY ← ĐÂY
-  Muốn hiểu RƯỢU BIA × THẾ HỆ → Alcohol-Vietnam-Generational.md
+  Want to understand BRAIN MECHANISMS → Core-Deep-Dive/ files
+  Want to understand PRINCIPLES OF EDUCATION → Education-Mechanism.md
+  Want to understand THE ARMS RACE → Education-Arms-Race.md
+  Want to understand WHY DEGREES LOSE VALUE → THIS FILE ← HERE
 
 
-  v1.1 — MODEL 3 CẤP + COMPILE-TAXONOMY BRIDGES (post-drill S1-S12):
+  v1.1 — 3-LEVEL MODEL + COMPILE-TAXONOMY BRIDGES:
 
-  ⭐ FILE NÀY = TEST CASE CHO COLLECTIVE CHAIN BREAK (Collective-Body §5.2):
+  ⭐ THIS FILE = TEST CASE FOR COLLECTIVE CHAIN BREAK (Collective-Body §5.2):
 
-    Chain collective: [học → đại học → việc → lương → body-base feed]
-    = NẰM Ở CẤP 2 (distributed: trường + thị trường + kinh tế)
-    Cá nhân compile SHORT: [học → tốt] (trust-amplified, Trust Compile)
-    Trust = bridge DUY NHẤT giữa Cấp 1 và Cấp 2 (Collective-Body §5.1)
+    Collective chain: [school → university → job → salary → body-base fed]
+    = OPERATES AT LEVEL 2 (distributed: schools + market + economy)
+    Individual compiles SHORT: [study → pass] (trust-amplified, Trust Compile)
+    Trust = THE ONLY BRIDGE between Level 1 and Level 2 (Collective-Body §5.1)
 
-    KHI EXPANSION BÃO HÒA:
-    → Link [đại học → việc TỐT] gãy (Cấp 2 infrastructure fail)
-    → Cá nhân body circuit-break: "output KHÔNG feed body-base nữa"
-    → PFC wake: "học làm gì?" = ĐÚNG CƠ CHẾ Collective-Body §5.2 Loại ②③
-    → = COLLECTIVE chain break → individual body DETECT → PFC engage
+    WHEN EXPANSION SATURATES:
+    → Link [university → GOOD job] breaks (Level 2 infrastructure fails)
+    → Individual body circuit-break: "output NO LONGER feeds body-base"
+    → PFC wakes: "why study?" = CORRECT MECHANISM per Collective-Body §5.2 Types ②③
+    → = COLLECTIVE chain break → individual body DETECTS → PFC engages
 
-    Education = CHỦ YẾU TRUST COMPILE INSTALL (Compile-Taxonomy.md v3.0):
-    → Trust source (thầy, sách, institution) → body nhận → compile SHORT
-    → "Học chán" = Trust Compile install THIẾU Experience Compile experience (§3.2)
+    Education = PRIMARILY TRUST COMPILE INSTALL (Compile-Taxonomy.md v3.0):
+    → Trust source (teacher, textbook, institution) → body receives → compiles SHORT
+    → "Studying is boring" = Trust Compile install WITHOUT Experience Compile experience (§3.2)
     → Process-fit (§4.4) = shift: Trust Compile receive → Experience Compile direct experience
     → Germany dual system = Experience Compile (workplace) + Trust Compile (school) mix
 ```
 
 ---
 
-## §1 — DATA: ĐÂY LÀ HIỆN TƯỢNG TOÀN CẦU
+## §1 — DATA: THIS IS A GLOBAL PHENOMENON
 
-### §1.1 — Thesis: KHÔNG phải lỗi riêng VN
-
-```
-⭐ "Thất nghiệp sau đại học" KHÔNG phải lỗi của bất kỳ quốc gia nào.
-   Đây là hiện tượng STRUCTURAL ở MỌI nền kinh tế lớn.
-   VN thậm chí NHẸ HƠN nhiều nước.
-   Nhưng VN đang ở giai đoạn SỚM → CÓ window để adapt.
-```
-
-### §1.2 — Bảng so sánh quốc gia
+### §1.1 — Thesis: Not Any Country's Fault
 
 ```
-🟢 DATA TỔNG HỢP — graduate unemployment/mismatch toàn cầu:
+⭐ "Graduate unemployment" is NOT the fault of any single country.
+   This is a STRUCTURAL phenomenon in EVERY major economy.
+   But each country is at a DIFFERENT PHASE on the same trajectory.
+   Countries earlier in the shift → still have a WINDOW to adapt.
+```
+
+### §1.2 — Country Comparison Table
+
+```
+🟢 SYNTHESIZED DATA — graduate unemployment/mismatch globally:
 
   ┌──────────────┬───────────────────────────────────────────────────────┐
-  │ QUỐC GIA     │ DATA                                                 │
+  │ COUNTRY      │ DATA                                                  │
   ├──────────────┼───────────────────────────────────────────────────────┤
-  │ 🇺🇸 Mỹ       │ Cengage 2025: chỉ 30% grad tìm việc đúng ngành       │
-  │              │ (giảm từ 41% năm 2024)                               │
-  │              │ Burning Glass/WSJ: 52% BA holders underemployed       │
-  │              │ 1 năm sau tốt nghiệp, 44% sau 10 năm                │
-  │              │ NY Fed 2024: 40.5% recent grads underemployed        │
+  │ 🇺🇸 USA       │ Cengage 2025: only 30% of grads find jobs in their   │
+  │              │ field (down from 41% in 2024)                        │
+  │              │ Burning Glass/WSJ: 52% of BA holders underemployed   │
+  │              │ 1 year after graduation, 44% after 10 years          │
+  │              │ NY Fed 2024: 40.5% of recent grads underemployed     │
   │              │ Student debt: $1.84 TRILLION                         │
   ├──────────────┼───────────────────────────────────────────────────────┤
-  │ 🇨🇳 Trung Quốc│ Official: 21.3% youth unemployment (6/2023)          │
-  │              │ Fortune estimate: possibly 46.5% (including 躺平)     │
-  │              │ 13.4 triệu HS thi Gaokao/năm                        │
-  │              │ 16 triệu 躺平 (nằm phẳng — từ chối thi đua)          │
+  │ 🇨🇳 China     │ Official: 21.3% youth unemployment (June 2023)       │
+  │              │ Fortune estimate: possibly 46.5% (incl. 躺平/tangping)│
+  │              │ 13.4 million students sit Gaokao per year            │
+  │              │ 16 million practicing 躺平 ("lie flat" — refuse to    │
+  │              │ compete) and 内卷 (involuted exhaustion)              │
   ├──────────────┼───────────────────────────────────────────────────────┤
-  │ 🇮🇳 Ấn Độ    │ 29.1% graduate unemployment                          │
-  │              │ 83% engineers unemployed hoặc underemployed           │
-  │              │ IIT-JEE: 1M thi → 10K đỗ (1%)                        │
-  │              │ Kota: 250K HS cramming, 13,000 tự tử HS/năm          │
+  │ 🇮🇳 India     │ 29.1% graduate unemployment                          │
+  │              │ 83% of engineers unemployed or underemployed         │
+  │              │ IIT-JEE: 1M sit exam → 10K admitted (1%)            │
+  │              │ Kota: 250K students cramming, 13,000 student         │
+  │              │ suicides per year (national)                         │
   ├──────────────┼───────────────────────────────────────────────────────┤
-  │ 🇰🇷 Hàn Quốc │ "Hell Joseon": 70%+ dưới 30 cảm thấy barriers       │
-  │              │ Hagwon: 80% HS, $22.6B/năm                           │
-  │              │ TFR 0.72 — thấp nhất THẾ GIỚI                        │
-  │              │ Chi giáo dục > ăn + ở                                │
+  │ 🇰🇷 S. Korea  │ "Hell Joseon": 70%+ under-30 feel structural barriers│
+  │              │ Hagwon (private tutoring): 80% of students, $22.6B/yr│
+  │              │ TFR 0.72 — LOWEST IN THE WORLD                       │
+  │              │ Education costs exceed food + housing                │
   ├──────────────┼───────────────────────────────────────────────────────┤
-  │ 🇪🇸 Tây Ban  │ 23.5-26.6% youth unemployment (2025)                 │
-  │    Nha       │ 10+ năm liên tục trên 20%                            │
+  │ 🇪🇸 Spain     │ 23.5–26.6% youth unemployment (2025)                 │
+  │              │ 10+ consecutive years above 20%                      │
   ├──────────────┼───────────────────────────────────────────────────────┤
-  │ 🇮🇩 Indonesia│ ~16% youth unemployment — cao nhất ASEAN              │
-  │              │ 4.4 triệu youth → đang vật lộn tìm việc             │
+  │ 🇮🇩 Indonesia │ ~16% youth unemployment — HIGHEST in ASEAN            │
+  │              │ 4.4 million youth struggling to find work            │
   ├──────────────┼───────────────────────────────────────────────────────┤
-  │ 🇻🇳 Việt Nam │ 7.83% youth unemployment (2024)                      │
-  │              │ 199,400 cử nhân/thạc sĩ thất nghiệp (MOLISA)        │
-  │              │ Người có ĐH xin trợ cấp: 15.4% → 17.2% (Q4/23→Q1/24)│
-  │              │ Navigos 2022: 60% NTD nói SV thiếu kỹ năng           │
-  │              │ Chỉ 29.2% lao động có bằng cấp/chứng chỉ            │
+  │ 🇻🇳 Vietnam   │ 7.83% youth unemployment (2024)                      │
+  │              │ 199,400 graduates with no job (MOLISA)               │
+  │              │ University grads applying for unemployment support:  │
+  │              │ 15.4% → 17.2% in one quarter (Q4/23→Q1/24)          │
+  │              │ Navigos 2022: 60% of employers report skill gaps      │
   └──────────────┴───────────────────────────────────────────────────────┘
 
-  TOÀN CẦU:
-    🟢 ILO 2024: 13% thất nghiệp thanh niên toàn cầu
-    🟢 WEF 2025: 63% NTD nói skill gap = rào cản lớn nhất
-    🟢 WEF 2025: 59% lao động cần retrain trước 2030
+  GLOBAL:
+    🟢 ILO 2024: 13% global youth unemployment
+    🟢 WEF 2025: 63% of employers say skill gap = biggest barrier
+    🟢 WEF 2025: 59% of workers need retraining before 2030
     🟢 IZA: university expansion since 1960s → credential inflation
-    🟢 Burning Glass: 65% job listings đòi BA dù chỉ 19% holders hiện tại có BA
+    🟢 Burning Glass: 65% of job listings require a BA even though
+       only 19% of current holders actually have one
 
-
-  → = MỌI nền kinh tế lớn đều gặp vấn đề NÀY
-  → = VN (7.83%) < TQ (21%+) < Ấn Độ (29%) < Tây Ban Nha (23%+)
-  → = VN chưa crisis nặng → CÒN WINDOW để adapt (§9)
+  → = EVERY major economy is facing THIS problem
+  → = Countries differ only in phase (where on the trajectory)
+  → = Countries less advanced have a WINDOW to adapt (§9)
 ```
 
-### §1.3 — VN chi tiết: "Thừa thầy thiếu thợ"
+### §1.3 — The Core Paradox: Over-Supply of White-Collar Graduates
 
 ```
-🟢 VN DATA CHI TIẾT (2023-2025):
+🟢 GLOBAL PATTERN — "too many desk-job graduates, not enough skilled tradespeople":
 
-  ⭐ NGHỊCH LÝ CỐT LÕI — "thừa thầy thiếu thợ":
+  OVER-SUPPLIED:
+    → Millions of graduates in "air-conditioned office" fields:
+      economics, business administration, social sciences, law, arts
+    → 61.1% of job-seekers hold a degree, but only 49.7% of positions
+      actually require that level of education (Vietnam 2022, mirrors global trend)
+    → University grads applying for unemployment benefits — INCREASING
 
-    THỪA:
-      → 199,400 cử nhân/thạc sĩ thất nghiệp (MOLISA Q3/2024)
-      → Tỉ lệ thất nghiệp cho trình độ ĐH: 3.9% — CAO HƠN
-        lao động trung cấp/nghề
-      → SV tràn ngập ngành "văn phòng máy lạnh": kinh tế, quản trị,
-        xã hội, sư phạm văn-sử-địa
-      → 61.1% người tìm việc có bằng ĐH, nhưng chỉ 49.7%
-        vị trí yêu cầu trình độ đó (2022)
-      → 12 ngành đào tạo tuyển dưới 10,000 SV/năm (cầu giảm)
+  UNDER-SUPPLIED:
+    → IT: shortage of 700,000+ skilled workers (Vietnam); similar gaps globally
+    → Healthcare: doctors, pharmacists, specialized technicians
+    → Semiconductors, logistics: severe shortages globally
+    → Technical trades: only ~40% of needed supply
 
-    THIẾU:
-      → IT: thiếu 700,000 nhân lực
-      → Y tế: thiếu 55,000 bác sĩ + 10,000 dược sĩ + 65,000 kỹ thuật viên
-      → Bán dẫn, logistics: thiếu nghiêm trọng
-      → Chỉ ~29.2% lao động có bằng cấp/chứng chỉ được công nhận
-      → Thiếu ~40% nhân lực trung cấp/CĐ kỹ thuật
-
-    → = CÙNG NỀN KINH TẾ: thừa ĐH + thiếu tay nghề
-    → = Education sản xuất ĐÚNG thứ kinh tế KHÔNG CẦN NHIỀU
-    → = Và KHÔNG sản xuất đủ thứ kinh tế CẦN
+  → = SAME ECONOMY: oversupply of university graduates + shortage of skilled workers
+  → = Education produces EXACTLY what the economy DOESN'T NEED in large quantities
+  → = AND doesn't produce enough of what the economy DOES NEED
 
 
-  ⭐ SO SÁNH ASEAN (2025):
+  COUNTRY COMPARISON (ASEAN 2025):
 
     ┌──────────────┬──────────────┬───────────────────┐
-    │ Quốc gia     │ Tổng thất    │ Youth unemp.      │
-    │              │ nghiệp      │                    │
+    │ Country      │ Total        │ Youth             │
+    │              │ Unemployment │ Unemployment      │
     ├──────────────┼──────────────┼───────────────────┤
     │ Thailand     │ 0.89%        │ ~7-8%             │
     │ Vietnam      │ 2.24%        │ ~7.8-9%           │
     │ Philippines  │ 3.7%         │ ~7%               │
-    │ Indonesia    │ 4.76%        │ ~16% (cao nhất)   │
+    │ Indonesia    │ 4.76%        │ ~16% (highest)    │
     └──────────────┴──────────────┴───────────────────┘
-
-    → VN ≈ Thailand ≈ Philippines về youth unemployment
-    → Indonesia nặng nhất ASEAN (gấp đôi VN)
-    → VN đang ở mức TRUNG BÌNH — chưa crisis, nhưng trend TĂNG
-    → Người có ĐH xin trợ cấp thất nghiệp: tăng 15.4% → 17.2%
-      (chỉ trong 1 quý — tốc độ đáng lo)
 
   🟢 Sources: GSO Q1/2025, MOLISA, Seasia/IMF 2025, Navigos 2022
 ```
 
-### §1.4 — Timeline: khi nào bắt đầu
+### §1.4 — Timeline: When Did This Begin
 
 ```
-🟢 TIMELINE TOÀN CẦU — từ overeducation tới crisis:
+🟢 GLOBAL TIMELINE — from overeducation signal to crisis:
 
   1970s — FIRST SIGNAL:
-    → Mỹ: nghiên cứu đầu tiên về "overeducation" (Richard Freeman 1976)
-    → "The Overeducated American" — BA holders bắt đầu thừa
-    → Economy vẫn hấp thụ → chưa crisis rõ
+    → USA: first research on "overeducation" (Richard Freeman 1976)
+    → "The Overeducated American" — BA holders beginning to outnumber slots
+    → Economy still absorbing → no visible crisis yet
 
-  1990s-2000s — UNIVERSITY EXPANSION:
-    → IZA: đại học mở rộng toàn cầu từ 1960s, tăng tốc 1990s
-    → Trung Quốc: university enrollment tăng 5× (1998-2010)
-    → VN: ĐH mở rộng mạnh sau Đổi Mới
-    → "Ai cũng nên học ĐH" trở thành consensus toàn cầu
-    → Credential inflation bắt đầu: BA trở thành minimum entry
+  1990s–2000s — UNIVERSITY EXPANSION:
+    → IZA: university enrollment expanded globally from the 1960s, accelerating in 1990s
+    → China: university enrollment grew 5× (1998–2010)
+    → "Everyone should go to university" became global consensus
+    → Credential inflation begins: BA becomes the minimum entry credential
 
   2008 — ACCELERATION:
-    → Financial crisis → recovery chậm → entry-level jobs giảm
-    → Student debt tăng mạnh (Mỹ: $600B → $1.84T)
-    → First "quarter-life crisis" research appears
+    → Financial crisis → slow recovery → entry-level jobs decline
+    → Student debt surges (USA: $600B → $1.84T)
+    → First "quarter-life crisis" research appears in academic literature
 
-  2020-2023 — CRISIS RÕ RÀNG:
-    → COVID accelerate remote work + automation
-    → Trung Quốc: 21.3% youth unemployment → ngừng công bố số liệu
-    → 躺平 (nằm phẳng) + 内卷 (involution) = cultural responses
-    → Cengage 2025: 30% grad đúng ngành (giảm từ 41% chỉ 1 năm)
-    → AI tools xuất hiện → entry-level threatened thêm
+  2020–2023 — CRISIS BECOMES CLEAR:
+    → COVID accelerates remote work + automation
+    → China: 21.3% youth unemployment → government stops publishing data
+    → 躺平 (lie flat) + 内卷 (involution) = cultural responses to the trap
+    → Cengage 2025: 30% of grads find relevant work (down from 41% in just 1 year)
+    → AI tools appear → entry-level roles additionally threatened
 
-  → = 50 NĂM từ signal đầu tiên → crisis hiện tại
-  → = Slow-moving structural shift, KHÔNG phải đột ngột
-  → = Mỗi quốc gia ở PHASE KHÁC NHAU trên cùng trajectory
+  → = 50 YEARS from first signal → current crisis
+  → = Slow-moving structural shift, NOT sudden
+  → = Each country is at a DIFFERENT PHASE on the same trajectory
 ```
 
-### §1.5 — Conflict-Dynamics mapping
+### §1.5 — Conflict-Dynamics Mapping
 
 ```
-🟡 FRAMEWORK: tại sao cạnh tranh ngày càng khốc liệt
+🟡 FRAMEWORK: why competition intensifies over time
 
   Conflict-Dynamics.md §1: CONFLICT = OVERLAP × SCARCITY × COMMITMENT
 
-  Applied cho job market:
+  Applied to the job market:
 
-    ① OVERLAP — triệu graduates cùng skills:
-      → Education sản xuất SV với skills GIỐNG NHAU (expansion skills)
-      → Triệu người target CÙNG loại vị trí (office, service, admin)
-      → = OVERLAP cực cao
+    ① OVERLAP — millions of graduates with the same skills:
+      → Education produces students with IDENTICAL skills (expansion skills)
+      → Millions targeting the SAME positions (office, service, admin)
+      → = EXTREME OVERLAP
 
-    ② SCARCITY — expansion slots ĐÃ ĐẦY:
-      → Expansion territory bão hòa → vị trí hữu hạn
-      → AI thay thế thêm entry-level slots
-      → = SCARCITY tăng
+    ② SCARCITY — expansion slots ARE SATURATED:
+      → Expansion territory has peaked → limited positions
+      → AI is replacing additional entry-level slots
+      → = INCREASING SCARCITY
 
-    ③ COMMITMENT — đã đầu tư 4-6 năm + tiền:
-      → Student debt (Mỹ: $1.84T)
-      → 4-6 năm thời gian + chi phí cơ hội
-      → Bố mẹ đã đầu tư (đặc biệt châu Á)
-      → = COMMITMENT cực cao → de-commit = đau
+    ③ COMMITMENT — already invested 4–6 years + money:
+      → Student debt (USA: $1.84T)
+      → 4–6 years of time + opportunity cost
+      → Family investment (especially in Asia)
+      → = EXTREME COMMITMENT → de-committing = painful
 
-  → OVERLAP ↑ × SCARCITY ↑ × COMMITMENT ↑ = Conflict INTENSIFIES
-  → = Giải thích tại sao cạnh tranh ngày càng khốc liệt QUA THỜI GIAN
-  → = Không phải "thế hệ trẻ kém" — mà STRUCTURAL forces mạnh hơn
+  → OVERLAP ↑ × SCARCITY ↑ × COMMITMENT ↑ = Conflict INTENSIFIES over time
+  → = Explains why job market competition keeps getting fiercer OVER TIME
+  → = Not "younger generations are weaker" — STRUCTURAL forces have strengthened
 ```
 
 ---
 
-## §2 — FRAMEWORK CORE: TỪ EXPANSION ERA SANG DISCOVERY ERA
+## §2 — FRAMEWORK CORE: FROM EXPANSION ERA TO DISCOVERY ERA
 
-> **⭐ THESIS CỐT LÕI CỦA FILE:**
-> **Sau cách mạng công nghiệp → 200 năm Expansion territory rõ ràng.**
-> **Giáo dục = install expansion chunks → graduate apply → value.**
-> **Bây giờ: expansion territory BÃO HÒA → cần Discovery.**
-> **Giáo dục VẪN dạy Expansion → graduate mang skills vào chỗ đã đầy.**
-> **= MISMATCH CỐT LÕI: "sản xuất Expanders, kinh tế cần Discoverers"**
+> **⭐ THE CORE THESIS OF THIS FILE:**
+> **After the Industrial Revolution → 200 years of clear Expansion territory.**
+> **Education = install expansion chunks → graduates apply → value.**
+> **Now: expansion territory IS SATURATED → need Discovery.**
+> **Education STILL teaches Expansion → graduates bring their skills into already-full slots.**
+> **= CORE MISMATCH: "producing Expanders, economy needs Discoverers"**
 
-### §2.1 — Era 1: Post-Industrial Revolution (1800s-1970s)
+### §2.1 — Era 1: Post-Industrial Revolution (1800s–1970s)
 
 ```
-🟡 EXPANSION GOLDEN AGE — domain mới liên tục, ai cũng có chỗ:
+🟡 EXPANSION GOLDEN AGE — new domains constantly emerging, room for everyone:
 
   CONTEXT:
-    → Cách mạng công nghiệp → hàng loạt domain MỚI mở ra:
-      Cơ khí, điện, hóa chất, hàng không, điện tử, viễn thông,
-      dầu khí, ô tô, dược phẩm, nông nghiệp công nghiệp...
-    → Mỗi domain mới = expansion territory CỰC LỚN
-    → Cần HÀNG TRIỆU người learn kỹ thuật + apply vào domain
-    → = Supply graduates << Demand expansion slots
+    → Industrial revolution → wave after wave of NEW domains:
+      Mechanical engineering, electricity, chemicals, aviation, electronics,
+      telecommunications, oil and gas, automobiles, pharmaceuticals,
+      industrial agriculture...
+    → Each new domain = ENORMOUS expansion territory
+    → Needed MILLIONS of people to learn the techniques + apply them
+    → = Supply of graduates << Demand for expansion slots
 
-  GIÁO DỤC:
-    → Education = cung cấp attractor ĐÃ ĐƯỢC TÌM (Discovery-vs-Expansion §3)
-    → Newton TÌM gravity (discovery — decades)
-    → Sinh viên HỌC gravity (expansion — semesters)
+  EDUCATION:
+    → Education = providing already-discovered attractors (Discovery-vs-Expansion §3)
+    → Einstein DISCOVERED gravity waves (discovery — decades)
+    → Students LEARN about gravity (expansion — semesters)
     → = "Standing on shoulders of giants" = expansion from known attractors
-    → Graduate mang expansion skills → vào domain RỘNG → có việc
+    → Graduates carry expansion skills → enter WIDE domain → get jobs
 
   KNOWLEDGE-FLOW:
-    → Output thế hệ trước (textbook, technique, method) = foundation rõ ràng
-    → Thế hệ sau RECEIVE output → EXPAND → tạo value
-    → Knowledge-Flow §1: external chunk cost THẤP → learn RẺ → deploy NHANH
-    → = Mỗi wave expansion → baseline tăng → thêm domain → thêm expansion
+    → Prior generation's output (textbooks, techniques, methods) = clear foundation
+    → Next generation RECEIVES that output → EXPANDS on it → creates value
+    → Knowledge-Flow §1: external chunk cost LOW → learning CHEAP → deploy FAST
+    → = Each expansion wave → baseline rises → more domains → more expansion
 
-  IMAGINE-FINAL CÁ NHÂN:
-    → "Học kỹ sư → Làm kỹ sư → Kiếm tiền → Ổn định" = CLEAR
-    → Imagine-Final lifecycle: BUILD nhanh → clarity CAO → hành động RÕ
-    → Ít lựa chọn = PFC nhàn → anchor rõ → loop ĐÓNG → reward
-    → = Đây là lý do thế hệ trước "ổn" (§7 sẽ phân tích chi tiết)
+  INDIVIDUAL IMAGINE-FINAL:
+    → "Study engineering → become an engineer → earn money → stability" = CLEAR
+    → Imagine-Final lifecycle: BUILD quickly → HIGH clarity → action CLEAR
+    → Few choices = PFC is undemanding → anchor clear → loop CLOSES → reward
+    → = This is why the previous generation felt "settled" (§7 analyzes in detail)
 
-  → = Era này: expansion skills = ĐÚNG thứ kinh tế cần
-  → = Giáo dục expansion = TỐI ƯU
-  → = Ai học xong = có chỗ → "bằng ĐH có giá trị" là THẬT
+  → = This era: expansion skills = EXACTLY what the economy needed
+  → = Expansion education = OPTIMAL
+  → = Graduate school = get a place → "university degree has value" was TRUE
 ```
 
-### §2.2 — Era 2: Late 20th Century (1970s-2000s)
+### §2.2 — Era 2: Late 20th Century (1970s–2000s)
 
 ```
-🟡 SIGNAL SỚM — expansion territory bắt đầu đầy:
+🟡 EARLY SIGNAL — expansion territory beginning to fill:
 
   CONTEXT:
-    → Domains lớn (cơ khí, điện, hóa chất): đã well-mapped
-    → Specialization deepening: từ "kỹ sư" → "kỹ sư điện tử" →
-      "kỹ sư vi mạch" → niche hẹp dần
-    → First overeducation research (Freeman 1976, Mỹ) = signal sớm
-    → Economy vẫn growing → hấp thụ excess → chưa crisis
+    → Large domains (mechanical, electrical, chemical): already well-mapped
+    → Specialization deepening: from "engineer" → "electrical engineer" →
+      "microelectronics engineer" → increasingly narrow niches
+    → First overeducation research (Freeman 1976, USA) = early signal
+    → Economy still growing → absorbing excess → no visible crisis
 
   EXPANSION TERRITORY:
-    → RỘNG nhưng ĐANG THU HẸP
-    → Computer science (1980s-2000s) = domain MỚI lớn cuối cùng
-      mở expansion territory cực rộng → hấp thụ triệu graduates
-    → Internet (1990s-2000s) = extension → thêm expansion space
-    → = Computer + Internet BUY TIME cho expansion model
+    → WIDE but SHRINKING
+    → Computer science (1980s–2000s) = last large NEW domain
+      opening enormous expansion territory → absorbed millions of graduates
+    → Internet (1990s–2000s) = extension → added more expansion space
+    → = Computers + Internet BOUGHT TIME for the expansion model
 
-  GIÁO DỤC:
-    → University expansion TĂNG TỐC toàn cầu
-    → "Ai cũng nên học ĐH" trở thành consensus
-    → NHƯNG: expansion territory KHÔNG tăng cùng tốc độ
-    → = Supply graduates bắt đầu > Demand expansion slots
-    → = First credential inflation: BA → thành minimum entry
+  EDUCATION:
+    → University expansion ACCELERATED globally
+    → "Everyone should go to university" became consensus
+    → BUT: expansion territory NOT growing at the same rate
+    → = Supply of graduates began exceeding demand for expansion slots
+    → = First credential inflation: BA becomes minimum entry credential
 
   KNOWLEDGE-FLOW:
-    → Compression tốt hơn (Knowledge-Flow §2):
-      textbook → software → internet = access rẻ hơn bao giờ hết
-    → NHƯNG: compression TỐT = baseline TĂNG = cái CÒN LẠI để discover KHÓ HƠN
-    → = Diminishing returns of expansion education bắt đầu
+    → Better compression (Knowledge-Flow §2):
+      textbook → software → internet = access cheaper than ever
+    → BUT: good compression = rising BASELINE = what REMAINS to discover becomes HARDER
+    → = Diminishing returns on expansion education begin
 
-  → = Era chuyển tiếp: expansion VẪN work nhưng GIẢM DẦN hiệu quả
-  → = Signal có nhưng CHƯA crisis → easy to ignore
+  → = Transitional era: expansion STILL works but DECLINING in effectiveness
+  → = Signal exists but NOT YET crisis → easy to ignore
 ```
 
-### §2.3 — Era 3: 21st Century (2000s-nay)
+### §2.3 — Era 3: 21st Century (2000s–present)
 
 ```
-🟡 EXPANSION TERRITORY BÃO HÒA — crisis rõ ràng:
+🟡 EXPANSION TERRITORY SATURATED — crisis becomes clear:
 
   CONTEXT:
-    → Domains lớn: almost fully mapped ở expansion level
+    → Large domains: almost fully mapped at expansion level
     → University expansion >> job creation (IZA documented)
-    → Credential inflation CỰC MẠNH (Burning Glass: 65%/19% data)
-    → AI/Automation: đang thay thế ĐÚNG expansion work (entry-level)
-    → = Supply graduates >>> Demand expansion slots
+    → Credential inflation EXTREME (Burning Glass: 65%/19% data)
+    → AI/Automation: replacing EXACTLY expansion work (entry-level)
+    → = Supply of graduates >>> Demand for expansion slots
 
   EXPANSION TERRITORY:
-    → Cơ khí, điện, hóa chất, viễn thông: SATURATED
-    → IT/Software: ĐANG SATURATE (junior dev roles giảm vì AI)
-    → Remaining: AI, biotech, climate, quantum = CẦN DISCOVERY, not expansion
-    → = New domains CẦN Discoverers (Sense + Verify) — giáo dục sản xuất Expanders
+    → Mechanical, electrical, chemical, telecom: SATURATED
+    → IT/Software: SATURATING (junior developer roles declining due to AI)
+    → Remaining: AI, biotech, climate, quantum = NEED DISCOVERY, not expansion
+    → = New domains NEED Discoverers (Sense + Verify) — education produces Expanders
 
-  CÁI MÀ GIÁO DỤC SẢN XUẤT:
-    → "Học technique X → apply technique X → có việc"
+  WHAT EDUCATION PRODUCES:
+    → "Learn technique X → apply technique X → get a job"
     → = EXPANSION skills: apply known attractor to known context
-    → = ĐÚNG cái AI đang thay thế (§5 chi tiết)
+    → = EXACTLY what AI is replacing (§5 details)
 
-  CÁI MÀ KINH TẾ CẦN:
-    → Sense domain mới (cảm nhận attractor chưa ai thấy)
-    → Verify (test hypothesis trong domain thật)
-    → Cross-domain connection (nối 2 vùng map → vùng mới emerge)
-    → = DISCOVERY skills: tìm cái mới, chịu được dissonance mờ
-    → = ĐÚNG cái giáo dục KHÔNG DẠY
+  WHAT THE ECONOMY NEEDS:
+    → Sense new domains (perceive attractors no one has noticed yet)
+    → Verify (test hypotheses in real domain)
+    → Cross-domain connection (link 2 mapped regions → new region emerges)
+    → = DISCOVERY skills: find the new, tolerate unclear dissonance
+    → = EXACTLY what education DOESN'T TEACH
 
-  → = MISMATCH CỐT LÕI: "sản xuất Expanders, kinh tế cần Discoverers"
-  → = KHÔNG phải "giáo dục kém" — mà giáo dục ĐÚNG CHO ERA CŨ
-  → = System lag: giáo dục adapt CHẬM hơn kinh tế thay đổi
+  → = CORE MISMATCH: "producing Expanders, economy needs Discoverers"
+  → = NOT "education today is worse" — education is STILL GOOD for the OLD ERA
+  → = System lag: education = expansion model, economy = discovery demand
 
   🟡 TRUST SIGNAL DEGRADATION LENS (Trust.md v1.0):
-    → Credential (bằng ĐH) = TRUST SIGNAL: "có bằng = competent" (installed trust)
-    → Trust.md §5: societal trust in education = Default Phase 1-2 (installed, not verified)
-    → Credential inflation = trust signal DEGRADATION: nhiều người có = signal MẤT GIÁ TRỊ
-    → Nhưng installed trust PERSIST vì Trust Depth từ nhiều nguồn (Trust.md §3):
-      Routine (bao nhiêu năm đi học), Childhood (bố mẹ nói "phải học ĐH"),
-      Community ("ai cũng học"), Identity ("tôi = sinh viên")
-    → → Trust depth CAO = trust PERSIST lâu DÙ signal đã degraded
-    → "Học làm gì?" = trust BREAK (Trust.md: build slow, collapse fast)
-    → Khi break: KHÔNG từ từ → MÀ đột ngột — giống bank run cho education trust
-    → Trust rebuild: cần domain-based calibrate (per-domain) thay credential-based (installed)
+    → Credential (university degree) = TRUST SIGNAL: "has a degree = competent"
+      (installed trust)
+    → Trust.md §5: societal trust in education = Default Phase 1–2 (installed, not verified)
+    → Credential inflation = trust signal DEGRADATION: many people have it
+      = signal LOSES VALUE
+    → But installed trust PERSISTS because Trust Depth from multiple sources (Trust.md §3):
+      Routine (years of going to school), Childhood (parents said "you must get a degree"),
+      Community ("everyone goes to university"), Identity ("I am a student")
+    → → High Trust Depth = trust PERSISTS long despite degraded signal
+    → "Why study?" = trust BREAK (Trust.md: builds slow, collapses fast)
+    → When it breaks: NOT gradually → BUT suddenly — like a bank run on education trust
+    → Trust rebuild: needs domain-based calibration (per-domain) instead of
+      credential-based (installed)
 
   🟡 GAP-DISTRIBUTION-PROFILE LENS (Gap-Distribution-Profile.md v1.1):
-    → Expansion education → triệu graduates CÓ CÙNG GAP LANDSCAPE:
-      = Narrow domain center (chỉ 1 hướng: office/service)
-      = C-dominant origin (Collective-Arc install, không tự explore)
-      = Rigid stability (không chuyển domain khi context đổi)
-    → = UNHEALTHY gap distribution ở cấp XÃ HỘI:
-      triệu người cùng gap profile → OVERLAP CỰC CAO (§6.1)
+    → Expansion education → millions of graduates WITH THE SAME GAP LANDSCAPE:
+      = Narrow domain center (only 1 direction: office/service)
+      = C-dominant origin (Collective-Arc install, no self-exploration)
+      = Rigid stability (can't shift domains when context changes)
+    → = UNHEALTHY gap distribution at SOCIETAL LEVEL:
+      millions of people with the same gap profile → EXTREME OVERLAP (§6.1)
     → Discovery-oriented education → DIVERSE gap landscape per student:
       = Wider domain center, A-dominant (self-explore), flexible shift
-    → Credential inflation = TOÀN XÃ HỘI CÓ CÙNG profile → value collapse
+    → Credential inflation = THE WHOLE SOCIETY HAS THE SAME PROFILE → value collapse
 
 
-  ⭐ HÌNH ẢNH:
+  ⭐ VISUAL:
 
-    ERA 1 (1800s-1970s):
-      Expansion slots:  ████████████████████████████████████ (rất rộng)
-      Graduates:        ████████ (ít)
-      → Mismatch: 0 — ai cũng có chỗ
+    ERA 1 (1800s–1970s):
+      Expansion slots:  ████████████████████████████████████ (very wide)
+      Graduates:        ████████ (few)
+      → Mismatch: 0 — everyone gets a place
 
-    ERA 2 (1970s-2000s):
-      Expansion slots:  █████████████████████████ (thu hẹp dần)
-      Graduates:        ███████████████████ (tăng nhanh)
-      → Mismatch: bắt đầu — nhưng new domains (IT) buy time
+    ERA 2 (1970s–2000s):
+      Expansion slots:  █████████████████████████ (gradually narrowing)
+      Graduates:        ███████████████████ (growing fast)
+      → Mismatch: beginning — but new domains (IT) buy time
 
-    ERA 3 (2000s-nay):
-      Expansion slots:  █████████████ (bão hòa + AI thay thế)
-      Graduates:        █████████████████████████████████ (tràn)
+    ERA 3 (2000s–present):
+      Expansion slots:  █████████████ (saturated + AI replacing)
+      Graduates:        █████████████████████████████████ (overflow)
       → Mismatch: CRISIS — graduates >> slots
 ```
 
-### §2.4 — Compression paradox (Knowledge-Flow insight)
+### §2.4 — The Compression Paradox (Knowledge-Flow Insight)
 
 ```
-🟡 KNOWLEDGE COMPRESS → BASELINE TĂNG → CÁI CÒN LẠI KHÓ HƠN:
+🟡 KNOWLEDGE COMPRESSES → BASELINE RISES → WHAT REMAINS IS HARDER:
 
-  Knowledge-Flow.md §2: Compression ratio TĂNG MÃI
-    → Einstein: decades suy nghĩ → E=mc² (vài ký tự)
-    → Sinh viên: learn E=mc² trong vài giờ
-    → = Compression CỰC TỐT → baseline mỗi thế hệ CAO HƠN
+  Knowledge-Flow.md §2: compression ratio KEEPS INCREASING
+    → Einstein: decades of thinking → E=mc² (a few characters)
+    → Students: learn E=mc² in a few hours
+    → = Excellent compression → each generation's BASELINE IS HIGHER
 
-  HỆ QUẢ CHO EXPANSION:
-    → Thế hệ trước: "learn technique X" = enough
-      → Vì expansion territory RỘNG + ÍT người biết X
-      → X = lợi thế tuyệt đối
-    → Thế hệ nay: "learn technique X" = everyone has it
-      → Vì compression TỐT → ai cũng learn được X RẺ
-      → X = baseline, không còn lợi thế
-      → Cần DISCOVER Y (cái mới, chưa ai biết) → đó MỚI là lợi thế
+  CONSEQUENCES FOR EXPANSION:
+    → Previous generation: "learn technique X" = enough
+      → Because expansion territory WIDE + FEW people knew X
+      → X = absolute competitive advantage
+    → Current generation: "learn technique X" = everyone has it
+      → Because good compression → anyone can learn X CHEAPLY
+      → X = baseline, no longer an advantage
+      → Need to DISCOVER Y (something new, unknown) → THAT is an advantage
 
   = DIMINISHING RETURNS OF EXPANSION EDUCATION:
-    → Baseline CAO hơn = MỌI NGƯỜI đều biết nhiều hơn
-    → Nhưng: biết GIỐNG nhau = OVERLAP cao = cạnh tranh cao
-    → Cái tạo giá trị = cái KHÁC (discovery output), không phải cái GIỐNG
-    → = Education dạy cái GIỐNG (expansion) → graduates GIỐNG nhau → cạnh tranh
+    → Higher baseline = EVERYONE knows more than before
+    → But: knowing the SAME things = HIGH OVERLAP = high competition
+    → What creates value = what's DIFFERENT (discovery output), not what's the SAME
+    → = Education teaches the SAME (expansion) → graduates are IDENTICAL → competition
 
-  = "ĐỨNG TRÊN VAI NGƯỜI KHỔNG LỒ" — phần KHÔNG AI NÓI:
-    → Mỗi thế hệ đứng trên vai thế hệ trước = ĐÚNG
-    → NHƯNG: khi AI CŨNG đứng trên vai thế hệ trước...
-    → ...thì người chỉ biết ĐỨNG (expansion) = redundant
-    → Người biết NHÌN XA (discovery) = vẫn valuable
-    → = Vấn đề không phải "đứng" — mà "đứng rồi LÀM GÌ?"
+  = "STANDING ON GIANTS' SHOULDERS" — THE PART NO ONE MENTIONS:
+    → Each generation stands on the previous = TRUE
+    → BUT: when AI ALSO stands on the previous generation...
+    → ...then someone who only knows HOW TO STAND (expansion) = redundant
+    → Someone who knows HOW TO SEE FAR (discovery) = still valuable
+    → = The question isn't "standing" — but "once you're standing, WHAT DO YOU DO?"
 
   🟢 Compression documented: Ebbinghaus → modern learning efficiency studies
-  🟡 "Diminishing returns of expansion" = framework inference từ Knowledge-Flow
-  🟡 "Baseline tăng → cái còn lại khó hơn" = observation consistent with data
+  🟡 "Diminishing returns of expansion" = framework inference from Knowledge-Flow
+  🟡 "Baseline rises → what remains is harder" = observation consistent with data
 ```
 
-### §2.5 — Tổng hợp §2
+### §2.5 — Summary of §2
 
 ```
   ┌──────────────┬───────────────────┬──────────────────┬──────────────────┐
-  │              │ ERA 1             │ ERA 2            │ ERA 3 (nay)      │
-  │              │ (1800s-1970s)     │ (1970s-2000s)    │ (2000s+)         │
+  │              │ ERA 1             │ ERA 2            │ ERA 3 (now)      │
+  │              │ (1800s–1970s)     │ (1970s–2000s)    │ (2000s+)         │
   ├──────────────┼───────────────────┼──────────────────┼──────────────────┤
-  │ Expansion    │ CỰC RỘNG         │ Thu hẹp dần     │ BÃO HÒA         │
-  │ territory    │                   │                  │                  │
+  │ Expansion    │ EXTREMELY WIDE    │ Gradually        │ SATURATED        │
+  │ territory    │                   │ narrowing        │                  │
   ├──────────────┼───────────────────┼──────────────────┼──────────────────┤
-  │ Graduates    │ Ít                │ Tăng nhanh      │ TRÀN             │
+  │ Graduates    │ Few               │ Growing fast     │ OVERFLOWING      │
   ├──────────────┼───────────────────┼──────────────────┼──────────────────┤
-  │ Mismatch     │ 0                 │ Bắt đầu        │ CRISIS           │
+  │ Mismatch     │ 0                 │ Beginning        │ CRISIS           │
   ├──────────────┼───────────────────┼──────────────────┼──────────────────┤
-  │ Bằng ĐH =   │ Lợi thế lớn     │ Lợi thế vừa    │ Minimum entry    │
+  │ Degree =     │ Major advantage   │ Moderate         │ Minimum entry    │
+  │              │                   │ advantage        │ credential       │
   ├──────────────┼───────────────────┼──────────────────┼──────────────────┤
-  │ Kinh tế cần  │ Expanders        │ Expanders +     │ Discoverers      │
-  │              │                   │ some Discoverers│ (chủ yếu)        │
+  │ Economy      │ Expanders         │ Expanders +      │ Discoverers      │
+  │ needs        │                   │ some Discoverers │ (primarily)      │
   ├──────────────┼───────────────────┼──────────────────┼──────────────────┤
-  │ Giáo dục     │ Expansion        │ Expansion       │ VẪN Expansion    │
-  │ sản xuất    │ (đúng)            │ (still ok)      │ (SAI ERA)        │
+  │ Education    │ Expansion         │ Expansion        │ STILL Expansion  │
+  │ produces     │ (correct)         │ (still ok)       │ (WRONG ERA)      │
   ├──────────────┼───────────────────┼──────────────────┼──────────────────┤
-  │ AI impact    │ 0                 │ 0               │ ĐANG thay thế   │
+  │ AI impact    │ 0                 │ 0                │ REPLACING        │
   │              │                   │                  │ expansion work   │
   ├──────────────┼───────────────────┼──────────────────┼──────────────────┤
-  │ Imagine-     │ RÕ RÀNG          │ Mờ dần         │ MỜ / ABSENT      │
-  │ Final nghề  │ "Học X → Làm X"  │                  │ "Rồi sao?"      │
-  │ nghiệp      │                   │                  │                  │
+  │ Career       │ CLEAR             │ Fading           │ UNCLEAR/ABSENT   │
+  │ Imagine-     │ "Study X → Do X" │                  │ "Then what?"     │
+  │ Final        │                   │                  │                  │
   └──────────────┴───────────────────┴──────────────────┴──────────────────┘
 
   ⭐ KEY INSIGHT:
-    → Vấn đề KHÔNG phải "giáo dục ngày nay kém hơn"
-    → Giáo dục vẫn DẠY TỐT (thậm chí tốt hơn bao giờ hết)
-    → Nhưng dạy CÁI SAI cho ERA hiện tại
-    → = System lag: giáo dục = expansion model, kinh tế = discovery demand
-    → = "Sản xuất giỏi sản phẩm không ai mua"
+    → The problem is NOT "education today is worse"
+    → Education still TEACHES WELL (arguably better than ever)
+    → But teaches THE WRONG THINGS for the CURRENT ERA
+    → = System lag: education = expansion model, economy = discovery demand
+    → = "Excelling at producing goods that no one buys"
 ```
 
 ---
 
-## §3 — TẠI SAO "GIVEN" KHÔNG SATISFIED — MODERN EDUCATION PARADOX
+## §3 — WHY "GIVEN" IS NOT SATISFYING — THE MODERN EDUCATION PARADOX
 
-> **Domain-Mapping-Drive.md §4: "Tại sao có sẵn mà không thấy pleasant?"**
-> **Giáo dục GIVE knowledge → student RECEIVE → body: "chả có gì tôi tự tìm."**
-> **3 paradoxes CÙNG 1 mechanism → cùng 1 giải pháp.**
+> **Domain-Mapping-Drive.md §4: "Why isn't having it for free pleasant?"**
+> **Education GIVES knowledge → student RECEIVES → body: "nothing I found myself."**
+> **3 paradoxes from THE SAME mechanism → all pointing to the same solution.**
 
-### §3.1 — 3 paradoxes cùng 1 cơ chế
+### §3.1 — 3 Paradoxes, Same Mechanism
 
 ```
 🟡 DOMAIN-MAPPING-DRIVE §4 — "THE LIGHTER PROBLEM":
 
-  Người cổ đại cần lửa:
-    → Dissonance MẠNH: "cần lửa" (cold, dark, danger)
-    → BUILD phase: mài gỗ, thử nhiều cách, nhiều giờ effort
-    → Mỗi step tiến bộ: opioid fire + prediction-delta
-    → Lửa bắt cháy: PEAK reward + chunks compiled
-    → = PROCESS có reward ở MỌI BƯỚC
+  Ancient humans needed fire:
+    → Dissonance STRONG: "need fire" (cold, dark, danger)
+    → BUILD phase: rub wood, try many approaches, hours of effort
+    → Each step forward: opioid fire + prediction-delta
+    → Fire catches: PEAK reward + chunks compiled
+    → = PROCESS has reward AT EVERY STEP
 
-  Người hiện đại:
-    → Cần lửa → bấm bật lửa → có (dissonance: 0)
-    → Không BUILD phase → không opioid fire per step
-    → Không prediction-delta (hoàn toàn habituated)
-    → Cái bật lửa = 0 reward despite being "useful"
+  Modern humans:
+    → Need fire → flick a lighter → done (dissonance: 0)
+    → No BUILD phase → no opioid fire per step
+    → No prediction-delta (completely habituated)
+    → The lighter = 0 reward despite being "useful"
     → = "GIVEN" = bypass PROCESS = bypass REWARD
 
 
-  ⭐ 3 PARADOXES — CÙNG CƠ CHẾ "GIVEN BYPASS PROCESS":
+  ⭐ 3 PARADOXES — SAME MECHANISM ("Given bypasses process"):
 
-    ① MODERN PARADOX:
-       Giàu hơn tổ tiên → nhưng depression cao hơn
-       = Tiện nghi remove BUILD phases → capacity refunded
-         nhưng KHÔNG redirect vào complex domains → empty
+    ① THE MODERN PARADOX:
+       Richer than ancestors → but depression higher
+       = Convenience removes BUILD phases → capacity refunded
+         but NOT redirected into complex domains → empty
 
-    ② EDUCATION PARADOX:
-       Có MỌI tài liệu (sách, video, AI) → nhưng "học chán"
-       = Knowledge GIVEN → student RECEIVE → body không fire
-       = Không có process tự TÌM → không có reward
+    ② THE EDUCATION PARADOX:
+       Access to ALL materials (books, video, AI) → but "learning is boring"
+       = Knowledge GIVEN → student RECEIVES → body doesn't fire
+       = No process of self-discovery → no reward
 
-    ③ CAREER PARADOX:
-       Có bằng → nhưng "không có việc phù hợp"
-       = Expansion skills GIVEN (textbook) → graduate RECEIVE
-       = Nhưng kinh tế cần DISCOVERY (tự tìm) → bằng ≠ capability
+    ③ THE CAREER PARADOX:
+       Have the degree → but "no fitting job"
+       = Expansion skills GIVEN (textbook) → graduate RECEIVES
+       = But economy needs DISCOVERY (self-found) → degree ≠ capability
 
-  → TẤT CẢ = "Given" bypass process → no reward → no meaning
-  → = CÙNG mechanism nhìn từ 3 góc
+  → ALL THREE = "Given" bypasses process → no reward → no meaning
+  → = SAME mechanism seen from 3 angles
 
 
-  ⚠️ "GIVEN" KHÔNG XẤU — NÓ REFUND CAPACITY:
+  ⚠️ "GIVEN" IS NOT BAD — IT REFUNDS CAPACITY:
 
     Domain-Mapping-Drive §4.2 — Capacity Refund Principle:
-    → Mỗi tiện nghi removes 1 BUILD phase
-    → = Capacity (thời gian + năng lượng) được REFUND
-    → Nếu redirect vào domain phức tạp hơn → Einstein path (reward CAO)
-    → Nếu KHÔNG redirect → TikTok path (reward THẤP)
-    → = Vấn đề không phải "quá nhiều tiện nghi"
-    → = Vấn đề là "capacity refunded mà không biết đầu tư vào đâu"
+    → Each convenience removes 1 BUILD phase
+    → = Capacity (time + energy) is REFUNDED
+    → If redirected into more complex domains → path to mastery (high reward)
+    → If NOT redirected → path to passive consumption (low reward)
+    → = The problem is not "too much convenience"
+    → = The problem is "capacity is refunded but there's no direction for investment"
 ```
 
-### §3.2 — "Học chán" = ĐÚNG vì hardware
+### §3.2 — "Learning Is Boring" = CORRECT Per Hardware
 
 ```
-🟡 EDUCATION PARADOX CHI TIẾT:
+🟡 THE EDUCATION PARADOX IN DETAIL:
 
-  GIÁO DỤC HIỆN TẠI — quy trình:
-    → Teacher/textbook GIVE knowledge (attractor đã có sẵn)
-    → Student RECEIVE → memorize → test → pass
-    → = Expansion mode thuần túy (Discovery-vs-Expansion §3)
-    → = Student KHÔNG trải qua BUILD phase
+  CURRENT EDUCATION — the process:
+    → Teacher/textbook GIVES knowledge (attractor already discovered)
+    → Student RECEIVES → memorizes → tests → passes
+    → = Pure expansion mode (Discovery-vs-Expansion §3)
+    → = Student does NOT go through the BUILD phase
 
-  BODY STUDENT — quy trình:
+  STUDENT'S BODY — the process:
     → Knowledge GIVEN = 0 delta (habituated, expected, scheduled)
-    → VTA im lặng → không dopamine (Domain-Mapping-Drive §2)
-    → Không BUILD phase → không opioid fire per step
-    → Không lifecycle cycle → không Phase 4 RELOAD insights
-    → = Body: "chả có gì tôi tự tìm ra" → no reward → "chán"
+    → VTA silent → no dopamine (Domain-Mapping-Drive §2)
+    → No BUILD phase → no opioid fire per step
+    → No lifecycle cycle → no Phase 4 RELOAD insights
+    → = Body: "nothing I found myself" → no reward → "boring"
 
-  → "HỌC CHÁN" KHÔNG PHẢI VÌ STUDENT LƯỜI
-  → "HỌC CHÁN" VÌ HARDWARE DESIGNED FOR PROCESS REWARD, NOT RECEIVING
-  → = Body ĐÚNG khi nói "chán" — vì ĐÚNG LÀ không có reward
+  → "LEARNING IS BORING" IS NOT BECAUSE STUDENTS ARE LAZY
+  → "LEARNING IS BORING" BECAUSE HARDWARE IS DESIGNED FOR PROCESS REWARD, NOT RECEIVING
+  → = Body is CORRECT when it says "boring" — because CORRECTLY there is no reward
 
   🟡 HARDWARE-SUBSIDY LENS (Valence-Propagation.md v3.0 §7):
-    → School = societal Hardware-Subsidy system: teacher modulate VTA per student
-    → Era 1-2: subsidy CHO ĐÚNG THỨ — expansion skills match economy demand
-    → Era 3: subsidy CHO SAI THỨ — expansion skills ≠ discovery demand
-    → = Subsidy VẪN HOẠT ĐỘNG (teacher vẫn truyền hứng) nhưng HƯỚNG SAI
-    → Khi subsidy hướng sai → student cảm nhận "công sức không đi đến đâu"
-    → = "Học chán" THÊM 1 lý do: subsidy invest vào domain BÃO HÒA
+    → School = societal Hardware-Subsidy system: teacher modulates VTA per student
+    → Era 1–2: subsidy POINTED IN THE RIGHT DIRECTION — expansion skills match economy demand
+    → Era 3: subsidy POINTING IN THE WRONG DIRECTION — expansion skills ≠ discovery demand
+    → = Subsidy STILL WORKS (teacher still inspires) but WRONG DIRECTION
+    → When subsidy points wrong → student feels "effort leads nowhere"
+    → = "Learning is boring" — an additional reason: subsidy investing in a saturated domain
 
-  VD: 2 cách học cùng 1 kiến thức:
-    Cách A (given): "Nước sôi ở 100°C. Ghi nhớ."
+  EXAMPLE: 2 ways to learn the same knowledge:
+    Method A (given): "Water boils at 100°C. Memorize it."
       → VTA: 0 (told, not discovered)
-      → Body: "OK, biết rồi" → forget fast
+      → Body: "OK, I know that" → forgetting fast
 
-    Cách B (process): "Đun nước đi, đo nhiệt kế. Thấy gì?"
-      → Student tự đo → thấy 100°C → "Ô! Đúng!"
-      → VTA: fire (delta giữa predict vs observe)
-      → Opioid: fire (BUILD → result → confirm)
-      → = CÙNG kiến thức. KHÁC process. KHÁC reward. KHÁC memory.
+    Method B (process): "Boil water, watch the thermometer. What do you notice?"
+      → Student measures → sees 100°C → "Oh! That's right!"
+      → VTA: fires (delta between prediction vs observation)
+      → Opioid: fires (BUILD → result → confirm)
+      → = SAME knowledge. DIFFERENT process. DIFFERENT reward. DIFFERENT memory.
 
   → Education-Mechanism §2.2: Direction > Level
-  → = Cách B = approach-tagged (novelty-direction)
-  → = Cách A = neutral hoặc avoidance-tagged (bored/forced direction)
-
-
-  ⭐ VN CONTEXT: "Thừa thầy thiếu thợ" QUA LENS NÀY:
-
-    SV chọn ngành "văn phòng máy lạnh":
-      → Imagine-Final: "ngồi văn phòng = ổn định"
-      → = Expansion Imagine-Final (destination-fit, không phải process-fit)
-      → 4-6 năm RECEIVE knowledge → ra trường → expansion slots ĐẦY
-      → = "Thừa thầy" vì education GIVE expansion skills cho domain bão hòa
-
-    Thiếu IT (700K), y tế (130K), bán dẫn:
-      → Các domain này CẦN process (code, practice, build, test, iterate)
-      → = CẦN Discoverers + Verifiers (Sense→Verify→Scale spectrum)
-      → = Nhưng process-oriented training ÍT HƠN lecture-based education
-      → = "Thiếu thợ" vì education KHÔNG dạy process cho domain cần process
+  → = Method B = approach-tagged (novelty-direction)
+  → = Method A = neutral or avoidance-tagged (bored/forced direction)
 
   🟢 prediction-delta mechanism: Schultz 1997 (reward prediction error)
   🟢 Opioid micro-reward per step: Berridge 2007 (liking system)
-  🟡 "Given bypass process" = Domain-Mapping-Drive §4 synthesis
+  🟡 "Given bypasses process" = Domain-Mapping-Drive §4 synthesis
 ```
 
 ### §3.3 — Boredom × Meaning × Cortisol
 
 ```
-🟡 3 OBSERVATION PARAMETERS CÙNG FIRE:
+🟡 3 OBSERVATION PARAMETERS FIRING SIMULTANEOUSLY:
 
   BOREDOM (Boredom.md):
-    → Drive CÓ (hardware default: Domain-Mapping-Drive §1)
-    → Direction THIẾU (Imagine-Final unclear/absent)
-    → = "Spinning" — có năng lượng nhưng không biết đi đâu
-    → Graduate ra trường: drive CÓ + direction MỜ = boredom + anxiety
+    → Drive EXISTS (hardware default: Domain-Mapping-Drive §1)
+    → Direction MISSING (Imagine-Final unclear/absent)
+    → = "Spinning" — has energy but doesn't know where to go
+    → Graduate: drive EXISTS + direction UNCLEAR = boredom + anxiety
 
   MEANING (Meaning.md v2.0):
     → Meaning = life-level Anchor-Schema
-    → Education KHÔNG cung cấp anchor cho meaning
-    → Education cung cấp KNOWLEDGE (chunks) — KHÔNG cung cấp MEANING (anchor)
-    → Graduate: có chunks nhưng KHÔNG có anchor → "học để làm gì?"
+    → Education does NOT provide anchors for meaning
+    → Education provides KNOWLEDGE (chunks) — does NOT provide MEANING (anchor)
+    → Graduate: has chunks but NO anchor → "what am I doing this for?"
     → = Meaning absent/exhausted → existential dissonance
 
   CORTISOL (Cortisol-Baseline.md v2.0):
-    → Thế hệ trước: stress BOUNDED (rõ endpoint → novelty-direction)
-      → "Học xong → có việc" = bounded → cortisol productive
-    → Thế hệ nay: stress UNBOUNDED (mờ endpoint → threat-direction)
-      → "Học xong → rồi sao?" = unbounded → cortisol ăn mòn
-    → = Cùng mức cortisol — KHÁC direction → KHÁC outcome
-    → = Đây là lý do "trầm cảm tăng" dù "đời sống vật chất tốt hơn"
+    → Previous generation: stress BOUNDED (clear endpoint → novelty-direction)
+      → "Study → get a job" = bounded → cortisol productive
+    → Current generation: stress UNBOUNDED (unclear endpoint → threat-direction)
+      → "Study → then what?" = unbounded → cortisol eroding
+    → = Same cortisol level — DIFFERENT direction → COMPLETELY DIFFERENT outcome
+    → = This is why "depression increases" despite "materially better lives"
 
-  → 3 PARAMS CÙNG CHỈ VỀ 1 ROOT CAUSE:
-    Education GIVE → no process → no reward → no meaning → no direction
+  → 3 PARAMETERS ALL POINTING TO 1 ROOT CAUSE:
+    Education GIVES → no process → no reward → no meaning → no direction
     → Boredom (drive + no direction)
     → Meaning absent (no anchor)
     → Cortisol unbounded (no endpoint)
-    → = "Quarter-life crisis" = cả 3 params fire cùng lúc
+    → = "Quarter-life crisis" = all 3 parameters firing simultaneously
 
   🟡 DISSONANCE SIGNAL ARCHITECTURE LENS (Dissonance-Signal-Architecture.md v1.0):
-    → "Quarter-life crisis" = MASSIVE dissonance signal — nhưng LOẠI NÀO?
-    → Evaluative Dissonance: "tôi chọn sai ngành" = compiled prediction ≠ reality
-      → WORKABLE: reframe, pivot, thử process khác → CÓ LỐI THOÁT
+    → "Quarter-life crisis" = MASSIVE dissonance signal — but WHICH TYPE?
+    → Evaluative Dissonance: "I chose the wrong major" = compiled prediction ≠ reality
+      → WORKABLE: reframe, pivot, try different process → THERE IS A WAY OUT
     → Direct-State Dissonance: burnout, exhaustion, body shutdown
-      → KHÔNG workable by reframe → cần REST trước, rồi mới redirect
-    → Meta-skill: biết LOẠI NÀO → biết action nào phù hợp
-    → Thế hệ trước: ít encounter MIX phức tạp này (bounded stress = chủ yếu Evaluative)
-    → Thế hệ nay: COMPOUND (Evaluative + Direct-State cùng lúc) → KHÓ tách
+      → NOT workable by reframe → needs REST first, then redirect
+    → Meta-skill: knowing WHICH TYPE → knowing which action fits
+    → Previous generation: rarely encountered this COMPLEX MIX (bounded stress
+      = primarily Evaluative)
+    → Current generation: COMPOUND (Evaluative + Direct-State simultaneously) →
+      HARD to separate
 ```
 
 ---
 
-## §4 — "HƯỚNG NGHIỆP" — TẠI SAO CONCEPT CŨ KHÔNG HOẠT ĐỘNG
+## §4 — CAREER GUIDANCE — WHY THE OLD CONCEPT DOESN'T WORK
 
-> **"Hướng nghiệp" = concept từ Expansion era ("chọn hộp nào?")**
-> **Discovery era: careers ĐƯỢC TẠO, KHÔNG ĐƯỢC CHỌN.**
-> **Câu hỏi đúng KHÔNG phải "làm gì?" mà "process nào body respond?"**
+> **Old career guidance = "which box do you choose?" (destination-fit)**
+> **Discovery era: careers are CREATED, not CHOSEN.**
+> **The right question isn't "what will you do?" but "which process does your body respond to?"**
 
-### §4.1 — Expansion era career guidance (worked)
-
-```
-🟡 HƯỚNG NGHIỆP CŨ = "CHỌN HỘP" → HOẠT ĐỘNG KHI CÒN HỘP:
-
-  ERA 1-2 (1800s-2000s):
-    → Domains rõ ràng: bác sĩ, kỹ sư, luật sư, kế toán, giáo viên...
-    → Mỗi domain = 1 "hộp" có expansion territory RÕ
-    → Career guidance: "Em muốn làm gì?" → "Kỹ sư" → "Học cơ khí"
-    → = Chọn hộp → học kỹ thuật của hộp → vào hộp → ổn định
-
-  TẠI SAO HOẠT ĐỘNG:
-    → Imagine-Final RÕ: "Tôi sẽ là kỹ sư" = body simulate được
-    → PFC nhàn: ít lựa chọn (5-10 nghề phổ biến) = anchor DỄ
-    → Expansion territory RỘNG: hộp nào cũng CÓ CHỖ
-    → = "Chọn" đúng hay sai đều OK — vì hộp nào cũng work
-
-  THỜI KỲ VÀNG CỦA HƯỚNG NGHIỆP:
-    → "Chọn nghề phù hợp" = advice ĐỦ TỐT
-    → Vì: "phù hợp" chỉ cần = "không ghét + có sức" → expansion territory làm nốt
-    → = Low bar for success → high success rate → advice "có vẻ tốt"
-```
-
-### §4.2 — Discovery era career guidance (broken)
+### §4.1 — Expansion Era Career Guidance (Worked)
 
 ```
-🟡 HƯỚNG NGHIỆP MỚI = VẪN "CHỌN HỘP" → NHƯNG HỘP ĐÃ ĐẦY:
+🟡 OLD CAREER GUIDANCE = "CHOOSE A BOX" → WORKED WHEN BOXES EXISTED:
 
-  ERA 3 (2000s-nay):
-    → Từ 5-10 nghề → hàng NGÀN lựa chọn (nhiều cái chưa tồn tại năm ngoái)
-    → Careers change NHANH HƠN education adapt
-    → "Prompt engineer" — 2022 chưa tồn tại, 2024 đã là nghề thật
-    → "Data scientist" — 2010 chưa ai biết, 2020 shortage, 2025 AI thay bớt
-    → = Hộp xuất hiện + biến mất NHANH HƠN giáo dục phản ứng
+  ERA 1–2 (1800s–2000s):
+    → Domains were clear: doctor, engineer, lawyer, accountant, teacher...
+    → Each domain = 1 "box" with CLEAR expansion territory
+    → Career guidance: "What do you want to do?" → "Engineer" → "Study mechanical engineering"
+    → = Choose box → learn that box's techniques → enter box → stability
 
-  HƯỚNG NGHIỆP HIỆN TẠI — VẪN expansion framing:
-    → "Em muốn làm GÌ?" — chọn destination
-    → "Ngành nào có tương lai?" — chọn hộp "an toàn"
-    → "Điểm em cao → nên vào ngành X" — match score to box
-    → = TẤT CẢ = Expansion-era questions cho Discovery-era problem
+  WHY IT WORKED:
+    → Imagine-Final CLEAR: "I will be an engineer" = body can simulate this
+    → PFC undemanding: few choices (5–10 popular professions) = anchor EASY
+    → Expansion territory WIDE: every box HAD A PLACE
+    → = "Choosing" correctly or incorrectly both worked — because every box worked
 
-  TẠI SAO KHÔNG HOẠT ĐỘNG:
-    → Hộp "an toàn" KHÔNG CÒN (expansion territory bão hòa)
-    → "Ngành có tương lai" thay đổi liên tục → advice expire nhanh
-    → Càng nhiều lựa chọn → PFC overload → KHÔNG chọn được
-    → Boredom.md: drive CÓ + direction THIẾU = "spinning"
+  THE GOLDEN AGE OF CAREER GUIDANCE:
+    → "Choose a suitable profession" = GOOD ENOUGH advice
+    → Because: "suitable" only needed = "don't hate it + have the energy"
+      → expansion territory did the rest
+    → = Low bar for success → high success rate → advice "seemed good"
+```
+
+### §4.2 — Discovery Era Career Guidance (Broken)
+
+```
+🟡 NEW CAREER GUIDANCE = STILL "CHOOSE A BOX" → BUT THE BOXES ARE FULL:
+
+  ERA 3 (2000s–present):
+    → From 5–10 professions → THOUSANDS of options (many didn't exist last year)
+    → Careers change FASTER than education can adapt
+    → "Prompt engineer" — didn't exist in 2022, real job in 2024
+    → "Data scientist" — unknown in 2010, shortage in 2020, AI replacing some by 2025
+    → = Boxes appear + disappear FASTER than education can respond
+
+  CURRENT CAREER GUIDANCE — STILL EXPANSION FRAMING:
+    → "What do you WANT to do?" — choosing a destination
+    → "Which major has a future?" — choosing a "safe" box
+    → "Your scores are high → you should go into field X" — matching scores to boxes
+    → = ALL OF THESE = Expansion-era questions for a Discovery-era problem
+
+  WHY IT DOESN'T WORK:
+    → "Safe" boxes NO LONGER EXIST (expansion territory saturated)
+    → "Future-proof" fields keep changing → advice expires quickly
+    → More choices → PFC overload → CANNOT DECIDE
+    → Boredom.md: drive EXISTS + direction MISSING = "spinning"
 
   → = Wrong question in wrong era
-  → = "Chọn nghề" = chọn destination → nhưng destination ĐANG DI CHUYỂN
+  → = "Choose a career" = choosing a destination → but the destination IS MOVING
 ```
 
-### §4.3 — VN "hướng nghiệp" — hot topic nhưng sai framing
+### §4.3 — Career Guidance in Context: Hot Topic, Wrong Framing
 
 ```
-🟢 VN HƯỚNG NGHIỆP DATA (2024-2025):
+🟢 GLOBAL CAREER GUIDANCE DATA (2024–2025):
 
-  HIỆN TRẠNG:
-    → Circular 16: chuẩn hóa nội dung hướng nghiệp sau lớp 9 và 12
-    → Chương trình hướng nghiệp đã đến 500+ trường THPT
-    → Directive 29-CT/TW (01/2024): thừa nhận mục tiêu phân luồng CHƯA ĐẠT
-    → Chỉ ~20% HS sau THCS vào nghề (mục tiêu 30%)
-
-  VẤN ĐỀ CỐT LÕI:
-    → Giáo viên kiêm nhiệm hướng nghiệp → counseling NÔNG
-    → Mindset phụ huynh: ĐH = con đường DUY NHẤT
-    → Trường "lúng túng" khi triển khai hoạt động trải nghiệm hướng nghiệp
-    → = VẪN hỏi "em muốn làm GÌ?" — expansion-era question
+  THE PROBLEM UNIVERSALLY:
+    → Career counseling in most schools is still destination-based:
+      "What do you want to be?" / "Which industry is growing?"
+    → Teachers often appointed to counseling as an add-on role → shallow guidance
+    → Parent generation advice reflects conditions that NO LONGER EXIST
+    → = STILL asking "what do you want to DO?" — expansion-era question
 
   FRAMEWORK ANALYSIS:
-    → VN đang bàn sôi nổi nhưng mostly expansion-era framing
-    → "Chọn ngành nào có tương lai?" = chọn destination
-    → "Phân luồng" (streaming) = chia học sinh vào HỘP sớm hơn
-    → Thiếu: "process nào phù hợp body em?"
-    → Thế hệ trước tư vấn từ experience KHÔNG match reality hiện tại
-    → Bố mẹ thế hệ Đổi Mới: "bác sĩ/kỹ sư/luật sư" = advice từ Era 1-2
+    → Most career guidance still in expansion-era framing:
+      "Which field has a future?" = choosing a destination
+      "Streaming" = sorting students into boxes earlier
+    → Missing: "which process fits your body?"
+    → Previous generation advises from experience that doesn't match current reality
+    → Parents from the post-industrial era: "doctor / engineer / lawyer" =
+      advice from Era 1–2, correct for their time
 
-  🟢 Sources: Circular 16, Directive 29-CT/TW (01/2024),
-     vietnam.vn career guidance reports 2024-2025
+  THE CORE STRUCTURAL PROBLEM:
+    → Career counselors are products of expansion education themselves
+    → Institutional incentives reward credential production, not process development
+    → = Wrong framing is baked in at the structural level, not individual failure
 ```
 
-### §4.4 — Framework reframe: "Process-fit" thay "Destination-fit"
+### §4.4 — Framework Reframe: "Process-Fit" Replaces "Destination-Fit"
 
 ```
-🟡 HƯỚNG NGHIỆP MỚI = TÌM PROCESS PHÙ HỢP BODY:
+🟡 NEW CAREER GUIDANCE = FIND THE PROCESS THAT FITS YOUR BODY:
 
-  Discovery-vs-Expansion §1: Sense → Verify → Scale = spectrum
-  Mỗi người phù hợp VỊ TRÍ KHÁC NHAU trên spectrum:
+  Discovery-vs-Expansion §1: Sense → Verify → Scale = a spectrum
+  Each person fits a DIFFERENT POSITION on the spectrum:
 
     ┌────────────────────────────────────────────────────────┐
-    │ SENSE              │ VERIFY           │ SCALE           │
-    │ (cảm nhận hướng)  │ (xác thực)       │ (triển khai)    │
-    ├────────────────────┼──────────────────┼─────────────────┤
-    │ "Tôi thấy có gì   │ "Để tôi test    │ "Đã có thiết kế │
-    │  đó ở đây..."     │  xem đúng không" │  → tôi build"   │
-    ├────────────────────┼──────────────────┼─────────────────┤
-    │ Researcher, artist │ Scientist,       │ Engineer,       │
-    │ philosopher,       │ prototype dev,   │ operator,       │
-    │ entrepreneur       │ clinical trial   │ teacher, admin  │
-    │ (early stage)      │ (validation)     │ (deployment)    │
-    └────────────────────┴──────────────────┴─────────────────┘
+    │ SENSE              │ VERIFY             │ SCALE         │
+    │ (perceive direction│ (validate)         │ (deploy)      │
+    │  in a domain)      │                    │               │
+    ├────────────────────┼────────────────────┼───────────────┤
+    │ "I sense there's   │ "Let me test to    │ "There's a    │
+    │  something here..."│  see if it's right"│  design → I   │
+    │                    │                    │  build it"    │
+    ├────────────────────┼────────────────────┼───────────────┤
+    │ Researcher, artist │ Scientist,         │ Engineer,     │
+    │ philosopher,       │ prototype dev,     │ operator,     │
+    │ entrepreneur       │ clinical trial     │ teacher, admin│
+    │ (early stage)      │ (validation)       │ (deployment)  │
+    └────────────────────┴────────────────────┴───────────────┘
 
-  → KHÔNG PHẢI 3 LOẠI NGƯỜI — mà 3 vị trí trên 1 phổ
-  → Cùng 1 người: ở vị trí khác nhau cho domain khác nhau
-  → "Hướng nghiệp" ĐÚNG = giúp student TÌM vị trí phù hợp trên phổ
-
-
-  ⭐ TỪ "EM MUỐN LÀM GÌ?" SANG "PROCESS NÀO BODY RESPOND?":
-
-    CÂU HỎI CŨ (destination):          CÂU HỎI MỚI (process):
-    "Em muốn làm nghề gì?"           "Domain nào em tự explore không cần ai ép?"
-    "Ngành nào có tương lai?"         "Khi làm CÁI GÌ em quên thời gian?"
-    "Điểm em cao → vào ngành X"      "Process nào body em fire khi TỰ LÀM?"
-    "Bạn bè em chọn gì?"             "Domain nào em tò mò dù KHÔNG ai bảo?"
-
-  → CÂU HỎI CŨ: chọn HỘP (destination) → hộp đầy → stuck
-  → CÂU HỎI MỚI: tìm PROCESS → process = transferable across domains
-  → = Nếu domain A bão hòa → process skills CHUYỂN sang domain B
+  → NOT 3 types of people — but 3 positions on 1 spectrum
+  → Same person: at different positions for different domains
+  → "Career guidance" DONE CORRECTLY = help students FIND their fitting position on the spectrum
 
 
-  ⭐ BẰNG CHỨNG — PROCESS-FIT MODELS ĐANG XUẤT HIỆN:
+  ⭐ FROM "WHAT DO YOU WANT TO DO?" TO "WHICH PROCESS DOES YOUR BODY RESPOND TO?":
+
+    OLD QUESTIONS (destination):       NEW QUESTIONS (process):
+    "What profession will you choose?" "Which domain do you explore without needing to be pushed?"
+    "Which field has a future?"        "When doing WHAT do you lose track of time?"
+    "Your scores are high → field X"   "Which process fires in your body when you DO IT YOURSELF?"
+    "What do your friends do?"         "What domain are you curious about EVEN WHEN no one is watching?"
+
+  → OLD QUESTIONS → find DESTINATION → destination disappears → stuck
+  → NEW QUESTIONS → find PROCESS → process is transferable across domains
+  → = If domain A saturates → process skills TRANSFER to domain B
+
+
+  ⭐ EVIDENCE — PROCESS-FIT MODELS ARE EMERGING:
 
     🟢 Career Construction Theory (Savickas, Frontiers in Psychology 2024):
-      → Nghề nghiệp = narrative identity — KHÔNG phải "chọn từ danh sách"
-      → Career Construction Interview: giúp client kể/nghe/sống câu chuyện
-      → Research: crystallizing/deciding styles → career adaptability CAO nhất
-      → = Khớp hoàn toàn với framework reframe: process > destination
+      → Career = narrative identity — NOT "choosing from a list"
+      → Career Construction Interview: helps clients tell/hear/live their own story
+      → Research: crystallizing/deciding styles → highest career adaptability
+      → = Perfectly aligned with framework reframe: process > destination
 
-    🟢 YouScience (Mỹ):
-      → Đo 9 core aptitudes qua performance-based exercises (không self-report)
-      → Map kết quả → best-fit careers
-      → = "Process-fit" measurement thay "interest-fit" questionnaire
-      → = Đo CÁI BODY LÀM TỐT — không phải cái PFC NGHĨ mình muốn
+    🟢 YouScience (USA):
+      → Measures 9 core aptitudes through performance-based exercises (not self-report)
+      → Maps results → best-fit careers
+      → = "Process-fit" measurement instead of "interest-fit" questionnaire
+      → = Measures what the BODY DOES WELL — not what the PFC THINKS it wants
 
     🟢 Research (ScienceDirect 2021):
       → Traditional prescriptive career models "not well-used in practice"
@@ -908,81 +889,82 @@ READER FLOW:
       → = Process-based > static "match person to job"
 
 
-  ⭐ GERMANY INSIGHT — PROCESS + DOMAIN FEEDBACK = HIỆU QUẢ NHẤT:
+  ⭐ GERMANY INSIGHT — PROCESS + DOMAIN FEEDBACK = MOST EFFECTIVE:
 
-    3 models so sánh:
+    3 models compared:
     ┌──────────────┬──────────────────┬──────────────┬──────────────────┐
     │              │ Finland          │ Denmark      │ Germany          │
-    │              │ (process-only)   │ (process+    │ (process+domain  │
-    │              │                  │ creative)    │ feedback)        │
+    │              │ (process-only)   │ (process +   │ (process +       │
+    │              │                  │  creative)   │  domain feedback)│
     ├──────────────┼──────────────────┼──────────────┼──────────────────┤
-    │ Youth unemp. │ 16.1% (CAO)     │ 11.5%        │ 6.5% (THẤP nhất)│
+    │ Youth unemp. │ 16.1% (HIGH)     │ 11.5%        │ 6.5% (LOWEST)    │
     ├──────────────┼──────────────────┼──────────────┼──────────────────┤
     │ Model        │ No testing until │ Creative     │ Dual system:     │
-    │              │ 16, teacher      │ electives,   │ 3-4 ngày/tuần   │
-    │              │ autonomy, project│ cooperation  │ WORKPLACE +      │
-    │              │ -based learning  │              │ 1-2 ngày school  │
+    │              │ 16, teacher      │ electives,   │ 3–4 days/week   │
+    │              │ autonomy,        │ cooperation  │ WORKPLACE +      │
+    │              │ project-based    │              │ 1–2 days school  │
+    │              │ learning         │              │                  │
     ├──────────────┼──────────────────┼──────────────┼──────────────────┤
     │ Framework    │ Process ✅       │ Process ✅   │ Process ✅       │
     │ mapping      │ Domain feedback ❌│ Domain ≈    │ Domain ✅ REAL   │
-    │              │ (academic only)  │              │ (workplace = real│
-    │              │                  │              │ domain test)     │
+    │              │ (academic only)  │              │ (workplace =     │
+    │              │                  │              │  real domain)    │
     └──────────────┴──────────────────┴──────────────┴──────────────────┘
 
     ⭐ KEY INSIGHT:
-      → Finland: process-oriented nhưng THIẾU domain feedback sớm
-        → Student learn CÁCH HỌC tốt — nhưng không biết CÁCH LÀM
-        → = Process trong academic context ≠ process trong domain thật
+      → Finland: process-oriented but MISSING early domain feedback
+        → Students learn HOW TO LEARN well — but don't learn HOW TO DO
+        → = Process in academic context ≠ process in real domain
       → Germany (Ausbildung): 50% school + 50% workplace
-        → Student TỰ LÀM trong domain thật → body GET feedback
-        → Body-Feedback loop (Body-Feedback-Mechanism.md) HOẠT ĐỘNG
-        → = Process + real domain feedback = hiệu quả nhất
+        → Students DO IT THEMSELVES in a real domain → body GETS feedback
+        → Body-Feedback loop (Body-Feedback-Mechanism.md) OPERATES
+        → = Process + real domain feedback = most effective
 
     → Framework prediction: PROCESS alone < PROCESS + DOMAIN FEEDBACK
-    → = Consistent với Domain.md §2 ⑥: "domain không nói dối"
-      (domain feedback thật — sai nằm ở human interpret, không ở domain)
-    → = Body cần domain THẬT để calibrate — academic alone KHÔNG đủ
-    → = Apprenticeship model (pre-industrial) đúng hơn factory school model
-      (vòng tròn: cái cũ nhất lại đúng nhất — vì cái cũ = process + domain)
+    → = Consistent with Domain.md §2 ⑥: "domain doesn't lie"
+      (real domain feedback is authentic — errors lie in human interpretation)
+    → = Body needs REAL domain to calibrate — academic alone IS NOT SUFFICIENT
+    → = Pre-industrial apprenticeship model was more correct than the factory school model
+      (full circle: the oldest approach was the most right — because oldest = process + domain)
 
   🟢 Germany youth unemployment 6.5% vs EU avg 14.6% (Aug 2025)
   🟢 Career Construction Theory: Savickas, Frontiers in Psychology 2024
   🟢 YouScience: performance-based aptitude measurement
   🟢 ScienceDirect 2021: prescriptive career models → "not well-used"
-  🟡 "Process-fit thay destination-fit" = framework reframe
+  🟡 "Process-fit replaces destination-fit" = framework reframe
   🟡 "Process + domain feedback > process alone" = framework inference from data
 ```
 
 ---
 
-## §5 — AI DISRUPTION: CÁI CUỐI CÙNG ĐẬP VÀO EXPANSION
+## §5 — AI DISRUPTION: THE FINAL BLOW TO EXPANSION
 
-> **AI đang thay thế CHÍNH XÁC expansion work.**
-> **= Đúng cái giáo dục dạy → đúng cái graduates làm → đúng cái sắp biến mất.**
-> **NHƯNG: AI CŨNG = tool mạnh nhất cho Discovery.**
-> **= Paradox: AI phá cái cũ + AI enable cái mới CÙNG LÚC.**
+> **AI is replacing EXACTLY expansion work.**
+> **= Exactly what education teaches → exactly what graduates do → exactly what's disappearing.**
+> **BUT: AI is ALSO the most powerful tool for Discovery.**
+> **= Paradox: AI destroys the old + AI enables the new SIMULTANEOUSLY.**
 
-### §5.1 — AI thay thế expansion work
+### §5.1 — AI Replaces Expansion Work
 
 ```
-🟢 DATA — AI ĐANG THAY THẾ ENTRY-LEVEL EXPANSION JOBS:
+🟢 DATA — AI IS REPLACING ENTRY-LEVEL EXPANSION JOBS:
 
-  TỔNG QUAN:
+  OVERVIEW:
     → WEF Future of Jobs 2025: 83M jobs displaced, 69M created
       = NET LOSS 14M jobs by 2027
-    → Cengage 2025: 46% NTD tuyển ÍT entry-level hơn vì AI
-    → McKinsey 2024: Generative AI có thể automate 60-70% worker activities
-    → ILO 2024: clerical work MOST exposed globally
+    → Cengage 2025: 46% of employers hiring FEWER entry-level people due to AI
+    → McKinsey 2024: Generative AI can automate 60–70% of worker activities
+    → ILO 2024: clerical work MOST EXPOSED globally
 
-  NGÀNH BỊ NẶNG NHẤT (= expansion work):
+  HARDEST HIT SECTORS (= expansion work):
     ┌──────────────────────┬───────────────────────────────┐
-    │ Ngành                │ Impact                         │
+    │ Sector               │ Impact                         │
     ├──────────────────────┼───────────────────────────────┤
-    │ Data entry/processing│ -60-70% tasks automatable now │
-    │                      │ (McKinsey 2024)               │
+    │ Data entry/processing│ 60–70% of tasks automatable   │
+    │                      │ now (McKinsey 2024)            │
     ├──────────────────────┼───────────────────────────────┤
-    │ Content/copywriting  │ -21% freelance writing gigs   │
-    │                      │ (Upwork 2023-2024)            │
+    │ Content/copywriting  │ –21% freelance writing gigs   │
+    │                      │ (Upwork 2023–2024)             │
     ├──────────────────────┼───────────────────────────────┤
     │ Translation          │ Basic translation declining   │
     │                      │ sharply (DeepL/GPT handles    │
@@ -992,7 +974,7 @@ READER FLOW:
     │                      │ of code in enabled repos      │
     │                      │ → junior dev hiring SLOWED    │
     ├──────────────────────┼───────────────────────────────┤
-    │ Customer service     │ Gartner: -20-30% agent roles  │
+    │ Customer service     │ Gartner: –20–30% agent roles  │
     │                      │ by 2026 (AI chatbots)         │
     └──────────────────────┴───────────────────────────────┘
 
@@ -1003,87 +985,86 @@ READER FLOW:
     → Content writing = EXPANSION (apply known format to known topic)
     → Customer service scripts = EXPANSION (apply known answers to known questions)
 
-    → = AI thay thế CHÍNH XÁC expansion work
-    → = Đúng cái education dạy → đúng cái graduates làm
-    → = "Learn technique X → apply X" = AI LÀM NHANH HƠN + RẺ HƠN
+    → = AI IS REPLACING EXACTLY EXPANSION WORK
+    → = Exactly what education teaches → exactly what graduates do
+    → = "Learn technique X → apply X" = AI DOES IT FASTER + CHEAPER
 
-  🟢 VN IMPACT:
-    → BPO sector (~300K workers): high risk — AI handles routine coding/testing
-    → ILO: 56% jobs ở ASEAN-5 at high risk of automation
-    → VN manufacturing + BPO = double exposure
-    → NHƯNG: VN thiếu 700K IT workers → paradox: AI kill some IT jobs,
-      create others (AI development, integration, oversight)
+  DEVELOPING ECONOMY IMPACT:
+    → ILO: 56% of jobs in developing economies at high risk of automation
+    → BPO sectors: high risk — AI handles routine coding/testing
+    → = "Learn expansion → get BPO job" = path that is closing
 ```
 
-### §5.2 — AI enable discovery
+### §5.2 — AI Enables Discovery
 
 ```
-🟡 AI = TOOL MẠNH NHẤT CHO DISCOVERY MODE:
+🟡 AI = THE MOST POWERFUL TOOL FOR DISCOVERY MODE:
 
   ① CROSS-DOMAIN CONNECTION:
-    → AI biết NHIỀU domain → suggest links con người chưa thấy
-    → Domain.md §2 ⑤: combination = vùng mới emerge
-    → AI có thể scan n domains → n(n-1)/2 potential connections
-    → = AI accelerate discovery Phase 1-2 (scatter + thử ghép)
+    → AI knows MANY domains → suggests links humans haven't noticed
+    → Domain.md §2 ⑤: combination = new region emerges
+    → AI can scan n domains → n(n-1)/2 potential connections
+    → = AI accelerates discovery Phases 1–2 (scatter + try combinations)
 
   ② SOMATIC-ARTICULATION-LOOP:
-    → Somatic-Articulation-Loop.md: body biết nhưng PFC chưa tìm được từ
-    → AI = catalyst giúp PFC tìm từ NHANH HƠN
-    → "Tôi có cảm giác là..." → AI: "Ý bạn là X?" → "ĐÚNG!"
-    → = AI accelerate discovery Phase 3 (hội tụ sơ)
+    → Somatic-Articulation-Loop.md: body knows but PFC hasn't found the words
+    → AI = catalyst helping PFC find words FASTER
+    → "I have a feeling there's something here..." → AI: "Do you mean X?" → "YES!"
+    → = AI accelerates discovery Phase 3 (initial convergence)
 
   ③ CHEMICAL-FREE CREATIVE BOOST:
     → Chemical-Enhancement-Notes §7: AI = "clean replacement"
-    → Alcohol/substances: loosen PFC → more connections (but at body cost)
-    → AI: generate diverse options → PFC evaluate → NO body cost
-    → = AI provide "scatter" mà không cần chemical assist
+    → Substances: loosen PFC → more connections (but at body cost)
+    → AI: generates diverse options → PFC evaluates → NO body cost
+    → = AI provides "scatter" without chemical assistance
 
   ④ RAPID PROTOTYPE + VERIFY:
-    → AI generate code, design, model → human TEST trong domain thật
-    → = AI handle expansion (build prototype) → human handle discovery (what to build)
-    → = Collaboration: AI expand + Human discover = faster pipeline
+    → AI generates code, design, model → human TESTS in real domain
+    → = AI handles expansion (build prototype) → human handles discovery (what to build)
+    → = Collaboration: AI expands + Human discovers = faster pipeline
 
-  → = AI KHÔNG thay thế discovery
-  → = AI ACCELERATE discovery (scan + suggest + build prototype)
+  → = AI does NOT replace discovery
+  → = AI ACCELERATES discovery (scan + suggest + build prototype)
   → = Human discovery advantage: body-based dissonance signal
-    (AI KHÔNG có body → không feel "có gì đó sai")
+    (AI has no body → cannot FEEL "something is wrong here")
 ```
 
-### §5.3 — Implications: expansion obsolete, discovery premium
+### §5.3 — Implications: Expansion Obsolete, Discovery Premium
 
 ```
 🟡 CONVERGENCE — expansion + AI → discovery premium:
 
   EXPANSION SKILLS (AI-replaceable):
-    → "Học technique" → AI làm hộ → graduate = redundant
+    → "Learn a technique" → AI does it → graduate = redundant
     → "Apply known pattern" → AI faster + cheaper + 24/7
     → "Process routine data" → AI handles at scale
     → = Expansion skills → diminishing value → approaching ZERO
 
   DISCOVERY SKILLS (AI-assisted, not replaced):
-    → "Sense domain mới" → AI CHƯA thay thế (cần body-based feel)
-    → "Verify trong domain thật" → cần hands-on (body-feedback loop)
-    → "Cross-domain insight" → AI suggest, HUMAN evaluate
-    → "Navigate ambiguity" → cần tolerate dissonance (human hardware)
-    → = Discovery skills → INCREASING value → premium tăng
+    → "Sense a new domain" → AI cannot yet replace (needs body-based feel)
+    → "Verify in a real domain" → needs hands-on (body-feedback loop)
+    → "Cross-domain insight" → AI suggests, HUMAN evaluates
+    → "Navigate ambiguity" → needs to tolerate dissonance (human hardware)
+    → = Discovery skills → INCREASING value → premium grows
 
-  → = AI = CATALYST cuối cùng đẩy shift Expansion → Discovery thành URGENT
-  → = Trước AI: expansion skills vẫn có giá trị (chậm giảm)
-  → = Sau AI: expansion skills giảm giá trị NHANH (AI thay nhanh)
-  → = "Tương lai" = Discovery + AI collaboration, KHÔNG PHẢI expansion thuần
+  → = AI = the FINAL CATALYST pushing the Expansion → Discovery shift into URGENCY
+  → = Before AI: expansion skills still had value (slow decline)
+  → = After AI: expansion skills losing value FAST (AI replaces quickly)
+  → = "The future" = Discovery + AI collaboration, NOT pure expansion
 
 
-  ⭐ GIÁO DỤC CẦN SHIFT:
-    → TỪ: "teach expansion" (install known technique)
-    → SANG: "develop discovery capability" (body-listening + domain-sensitivity
-      + creative process + tolerate ambiguity)
-    → AI = tool trong tay discovery-capable person
-    → = "Biết dùng AI" CHƯA ĐỦ — cần "biết HỎI GÌ" + "biết ĐÁNH GIÁ output"
-    → = "Biết hỏi gì" = discovery skill (sense domain gap)
-    → = "Biết đánh giá output" = verification skill (domain feedback)
+  ⭐ WHAT EDUCATION NEEDS TO SHIFT:
+    → FROM: "teach expansion" (install known technique)
+    → TO: "develop discovery capability" (body-listening + domain-sensitivity
+      + creative process + tolerating ambiguity)
+    → AI = tool in the hands of a discovery-capable person
+    → = "Knowing how to use AI" IS NOT ENOUGH — need "knowing WHAT TO ASK"
+      + "knowing how to EVALUATE the output"
+    → = "Knowing what to ask" = discovery skill (sense domain gap)
+    → = "Knowing how to evaluate output" = verification skill (domain feedback)
 
-  🟢 WEF 2025: 83M displaced, 69M created (net -14M)
-  🟢 McKinsey 2024: 60-70% activities automatable
+  🟢 WEF 2025: 83M displaced, 69M created (net –14M)
+  🟢 McKinsey 2024: 60–70% activities automatable
   🟢 GitHub Copilot: 46% code handled
   🟡 "Discovery premium" = framework inference from convergent data
   🔴 "Body-based discovery ≠ AI-replaceable" = hypothesis (strong but unproven)
@@ -1091,124 +1072,119 @@ READER FLOW:
 
 ---
 
-## §6 — CẠNH TRANH NGÀY CÀNG KHỐC LIỆT — CONFLICT DYNAMICS
+## §6 — INTENSIFYING COMPETITION — CONFLICT DYNAMICS
 
-### §6.1 — Conflict formula applied to job market
+### §6.1 — Conflict Formula Applied to the Job Market
 
 ```
 🟡 CONFLICT-DYNAMICS §1: CONFLICT = OVERLAP × SCARCITY × COMMITMENT
 
-  ĐÃ INTRODUCED ở §1.5. Ở đây EXPAND chi tiết:
+  INTRODUCED AT §1.5. Expanded in detail here:
 
-  ① OVERLAP — triệu graduates cùng skills:
-    → Education sản xuất EXPANSION skills giống nhau
-    → Triệu SV cùng biết: Excel, English, basic management, presentation
-    → Triệu SV cùng target: "office job", "service sector", "admin"
-    → = OVERLAP CỰC CAO — vì education = standardized expansion
+  ① OVERLAP — millions of graduates with the same skills:
+    → Education produces IDENTICAL expansion skills
+    → Millions of students all know: Excel, English, basic management, presentations
+    → Millions of students all targeting: "office job," "service sector," "admin"
+    → = EXTREME OVERLAP — because education = standardized expansion
 
-    VN specific:
-    → 61.1% người tìm việc có bằng ĐH — target cùng loại vị trí
-    → SV ngành kinh tế, quản trị, xã hội: BÃO HÒA
-    → = "Triệu người cùng biết cùng thứ → cùng muốn cùng chỗ"
+  ② SCARCITY — expansion slots finite + AI replacing them:
+    → Expansion territory saturated (§2) → positions not growing
+    → AI replacing entry-level slots (§5) → positions DECLINING
+    → New domains (AI, biotech, climate) → need DISCOVERY skills → different type of slot
+    → = Scarcity of expansion slots CONTINUOUSLY INCREASING
 
-  ② SCARCITY — expansion slots hữu hạn + AI thay thế:
-    → Expansion territory bão hòa (§2) → slots KHÔNG tăng
-    → AI thay thế entry-level (§5) → slots GIẢM
-    → New domains (AI, biotech, climate) → cần DISCOVERY skills → khác loại slot
-    → = Scarcity expansion slots TĂNG LIÊN TỤC
+  ③ COMMITMENT — extreme sunk costs:
+    → 4–6 years of time (opportunity cost)
+    → Tuition costs (USA: average $30K/year; high relative to income globally)
+    → Family investment (especially in Asia: whole family bears the burden)
+    → Identity: "I am a graduate" → Imagine-Final already compiled
+    → = De-committing = "lost 4 years + lost money + lost identity" → TERRIFYING
 
-  ③ COMMITMENT — sunk cost cực cao:
-    → 4-6 năm thời gian (chi phí cơ hội)
-    → Tiền học phí (Mỹ: average $30K/năm, VN: lower but relative cao)
-    → Bố mẹ đầu tư (đặc biệt châu Á: cả gia đình gánh)
-    → Identity: "tôi là cử nhân" → Imagine-Final đã compiled
-    → = De-commit = "mất 4 năm + mất tiền + mất identity" → ĐÁNG SỢ
-
-  → OVERLAP ↑ × SCARCITY ↑ × COMMITMENT ↑ = Conflict INTENSITY ↑ qua thời gian
-  → = Đây là lý do cạnh tranh job market KHỐC LIỆT HƠN — KHÔNG phải "thế hệ kém"
+  → OVERLAP ↑ × SCARCITY ↑ × COMMITMENT ↑ = Conflict INTENSITY ↑ over time
+  → = This explains why job market competition gets FIERCER — NOT "weaker generations"
 
   🟡 ENTITY-ACCESS LENS (Entity-Access.md v1.2):
-    → Job market = Entity-Access calibration ở cấp xã hội:
-      "Ai access được entity nào?" = career navigation
-    → Era 1-2: Mức 2-3 (nhóm/tổ chức) access DỄ — bằng ĐH = ticket
-    → Era 3: CÙNG Mức 2-3 nhưng COMPETITION CỰC CAO
-      → Graduate cần Mức 3-4 (network/mentorship) mới differentiate
-    → Process-fit reframe: career = tìm entity cluster có mutual resonance
-      → KHÔNG phải "xin việc" mà "tìm nơi gap profile MATCH"
+    → Job market = Entity-Access calibration at societal level:
+      "Who can access which entity?" = career navigation
+    → Era 1–2: Level 2–3 (group/organization) access EASY — degree = ticket
+    → Era 3: SAME Level 2–3 but EXTREME COMPETITION
+      → Graduates need Level 3–4 (network/mentorship) to differentiate
+    → Process-fit reframe: career = finding an entity cluster with mutual resonance
+      → NOT "applying for a job" but "finding where your gap profile MATCHES"
 ```
 
-### §6.2 — Cạnh tranh = engine of collective discovery
+### §6.2 — Competition = Engine of Collective Discovery
 
 ```
-🟡 COLLECTIVE-PURPOSE LENS — zoom out:
+🟡 COLLECTIVE-PURPOSE LENS — zooming out:
 
-  ⭐ SCARCITY = ENGINE CỦA PROGRESS (Conflict-Dynamics.md §7):
+  ⭐ SCARCITY = ENGINE OF PROGRESS (Conflict-Dynamics.md §7):
 
-    Khi expansion slots ĐẦY → BẮT BUỘC discover domain MỚI:
-    → Không còn chỗ expand → ai muốn survive → phải TÌM cái chưa ai tìm
-    → = Scarcity BUỘC sáng tạo → BUỘC discovery
-    → = Long-term: humanity map domain XA HƠN (Collective-Purpose §1)
+    When expansion slots are FULL → FORCES discovery of NEW domains:
+    → No room to expand → whoever wants to survive → must FIND what no one has found
+    → = Scarcity FORCES creativity → FORCES discovery
+    → = Long-term: humanity maps domain FURTHER (Collective-Purpose §1)
 
-    VD lịch sử:
-    → Nông nghiệp bão hòa → buộc phát triển công nghiệp
-    → Công nghiệp bão hòa → buộc phát triển dịch vụ + IT
-    → IT expansion bão hòa → buộc phát triển AI, biotech, climate
-    → = Mỗi lần bão hòa → mở domain MỚI → cycle tiếp tục
+    Historical examples:
+    → Agriculture saturated → forced development of industry
+    → Industry saturated → forced development of services + IT
+    → IT expansion saturating → forcing development of AI, biotech, climate
+    → = Each saturation → opens NEW domain → cycle continues
 
-  → = Expansion saturation KHÔNG phải "end of world"
-  → = Nó là SIGNAL: "era mới bắt đầu, cần discovery cho domain tiếp"
-  → = Zoom out toàn cầu: đây là PROGRESS, không phải regression
+  → = Expansion saturation is NOT "end of the world"
+  → = It is a SIGNAL: "new era beginning, need discovery for the next domain"
+  → = Zooming out globally: this IS PROGRESS, not regression
 
 
-  ⚠️ NHƯNG: short-term = ĐAU cho cá nhân:
+  ⚠️ BUT: short-term = PAINFUL for individuals:
 
-    → Cá nhân GÁNH CHỊU cost của structural shift
-    → Graduate: "tôi đã học 4 năm, tại sao không có việc?"
-    → = ĐÚNG là không công bằng cho CÁ NHÂN
+    → Individuals BEAR the cost of structural shift
+    → Graduate: "I studied for 4 years, why don't I have a job?"
+    → = CORRECTLY unfair for the INDIVIDUAL
     → = Collective progress ≠ individual painless
-    → = Understanding giúp GÌ? → §8
+    → = Understanding helps HOW? → §8
 
   🟡 COORDINATION-NODE LENS (Coordination-Node.md v1.2):
-    → University = Coordination-Node lớn: connect student → employer → domain
-    → Era 1-2: node HOẠT ĐỘNG — connect expansion graduate → expansion slot = rõ
-    → Era 3: node DISCONNECT — connect expansion graduate → discovery economy = lệch
-    → University vẫn coordinate (tổ chức, cấp bằng, mạng lưới)
-      nhưng coordinate HƯỚNG SAI → node output ≠ economy input
-    → Germany dual system = node connect TRỰC TIẾP tới domain thật (workplace)
+    → University = large Coordination-Node: connects student → employer → domain
+    → Era 1–2: node FUNCTIONING — connects expansion graduate → expansion slot = clear
+    → Era 3: node DISCONNECTED — connects expansion graduate → discovery economy = misaligned
+    → University still coordinates (organizes, grants degrees, networks)
+      but coordinates IN THE WRONG DIRECTION → node output ≠ economy input
+    → Germany dual system = node connecting DIRECTLY to real domain (workplace)
 
   v1.1 — COLLECTIVE CHAIN BREAK FORMAL (Collective-Body.md §5.2):
-    → "Học làm gì?" = body circuit-break khi collective chain gãy
-    → 3 loại: ① cost tăng (học quá mệt), ② link gãy (ĐH→việc gãy),
-      ③ compound (cost + link + trust collapse cùng lúc)
-    → Can thiệp INDIVIDUAL (therapy, reframe) KHÔNG ĐỦ
-    → Can thiệp COLLECTIVE (fix chain: institution reform, dual system) = gốc
-    → = "Học làm gì?" ≠ cá nhân lười → = collective infrastructure fail
+    → "Why study?" = body circuit-break when the collective chain breaks
+    → 3 types: ① cost rises (studying is exhausting), ② link breaks (degree→job breaks),
+      ③ compound (cost + link + trust collapse simultaneously)
+    → Individual interventions (therapy, reframe) ARE NOT ENOUGH
+    → Collective interventions (fix the chain: institutional reform, dual system) = root
+    → = "Why study?" ≠ individual laziness → = collective infrastructure failing
 ```
 
-### §6.3 — Cortisol mapping: bounded vs unbounded competition
+### §6.3 — Cortisol Mapping: Bounded vs. Unbounded Competition
 
 ```
 🟡 CORTISOL-BASELINE v2.0 §7: DIRECTION > LEVEL
 
-  EXPANSION ERA CẠNH TRANH — BOUNDED:
-    → Clear ranking: ai điểm cao hơn → thắng (rõ criteria)
-    → Clear path: học → thi → đỗ → việc (rõ endpoint)
-    → Cortisol NOVELTY-DIRECTION: "khó nhưng biết đích" → productive
-    → = Body mobilize → hành động → tiến bộ → reward
-    → = "Khổ nhưng có hướng" → chịu được
+  EXPANSION ERA COMPETITION — BOUNDED:
+    → Clear ranking: higher score → win (clear criteria)
+    → Clear path: study → test → pass → job (clear endpoint)
+    → Cortisol NOVELTY-DIRECTION: "hard but I know the destination" → productive
+    → = Body mobilizes → acts → progresses → reward
+    → = "Hard but directed" → sustainable
 
-  DISCOVERY ERA CẠNH TRANH — UNBOUNDED:
-    → Unclear criteria: "tốt" = gì? "Phù hợp" = gì? AI thay đổi liên tục
-    → Unclear path: "học xong → rồi sao?" (không có clear endpoint)
-    → Cortisol THREAT-DIRECTION: "khó + KHÔNG BIẾT ĐÍCH" → ăn mòn
-    → = Body mobilize → nhưng không biết hành động GÌ → spinning
-    → = "Khổ mà không có hướng" → ĂN MÒN
+  DISCOVERY ERA COMPETITION — UNBOUNDED:
+    → Unclear criteria: what is "good"? What is "suitable"? AI keeps changing things
+    → Unclear path: "study → then what?" (no clear endpoint)
+    → Cortisol THREAT-DIRECTION: "hard + DON'T KNOW THE DESTINATION" → eroding
+    → = Body mobilizes → but doesn't know WHAT ACTION to take → spinning
+    → = "Hard without direction" → ERODES
 
-  → CÙNG mức cortisol — KHÁC direction → KHÁC outcome HOÀN TOÀN:
+  → SAME cortisol level — DIFFERENT direction → COMPLETELY DIFFERENT outcome:
     → Bounded stress + expansion era → resilience + progress
     → Unbounded stress + discovery era → anxiety + depression
-    → = Đây là 1 lý do "trầm cảm tăng dù đời sống vật chất tốt hơn"
-    → = Stress loại KHÁC → não xử lý KHÁC
+    → = This is 1 reason "depression increases despite materially better lives"
+    → = Different TYPE of stress → brain processes it DIFFERENTLY
 
   🟢 Cortisol direction research: Sapolsky 2004, McEwen 2008
   🟡 "Bounded vs unbounded competition" = framework application
@@ -1216,352 +1192,343 @@ READER FLOW:
 
 ---
 
-## §7 — THẾ HỆ TRƯỚC vs HIỆN TẠI — 4 ĐIỀU KIỆN MODEL
+## §7 — PREVIOUS vs. CURRENT GENERATION — THE 4 CONDITIONS MODEL
 
-> **Reuse "4 điều kiện" model từ Alcohol-Vietnam-Generational.md §6.**
-> **Mở rộng: 4 điều kiện KHÔNG CHỈ giải thích rượu bia →**
-> **giải thích TẠI SAO thế hệ trước "ổn" còn thế hệ trẻ "chới với".**
-> **= Cùng model, khác application.**
+> **Reuses the "4 conditions" model from Alcohol-Vietnam-Generational.md §6.**
+> **Extended: 4 conditions explain NOT JUST alcohol →**
+> **explain WHY the previous generation felt "settled" while the current generation feels "adrift."**
+> **= Same model, different application.**
 
-### §7.1 — 4 điều kiện cho "ổn định nghề nghiệp"
+### §7.1 — 4 Conditions for "Career Stability"
 
 ```
-🟡 EXTENDED MODEL — từ Alcohol-Brain-Mechanism §6 sang Career:
+🟡 EXTENDED MODEL — from Alcohol-Brain-Mechanism §6 to Career:
 
-  Alcohol file: 4 điều kiện để rượu = functional release tool.
-  Career file: 4 điều kiện để education → career = smooth transition.
-  CÙNG structure — vì CÙNG framework components:
+  Alcohol file: 4 conditions for alcohol to function as a release tool.
+  Career file: 4 conditions for education → career to be a smooth transition.
+  SAME structure — because SAME framework components:
 
   ┌──────────────────────────────────────────────────────────────────┐
-  │ ĐK1: STRESS BOUNDED (có endpoint rõ)                            │
+  │ CONDITION 1: BOUNDED STRESS (clear endpoint)                     │
   │                                                                  │
-  │ "Biết mình phải làm GÌ + KHI NÀO xong"                         │
+  │ "Know what I need to DO + when I'll be DONE"                    │
   │ = Cortisol novelty-direction (productive)                       │
-  │ = Body mobilize → hành động → tiến → reward                    │
+  │ = Body mobilizes → acts → progresses → reward                  │
   ├──────────────────────────────────────────────────────────────────┤
-  │ ĐK2: PFC KHÔNG OVERLOAD bởi lựa chọn                           │
+  │ CONDITION 2: PFC NOT OVERLOADED by choices                      │
   │                                                                  │
-  │ "Ít lựa chọn = PFC nhàn = anchor DỄ"                           │
-  │ = PFC-Function: PFC hold 4±1 dimensions                        │
-  │ = Ít options → evaluate nhanh → decide → act → loop ĐÓNG       │
+  │ "Few choices = PFC undemanding = anchor EASY"                   │
+  │ = PFC holds 4±1 dimensions                                      │
+  │ = Few options → evaluate quickly → decide → act → loop CLOSES   │
   ├──────────────────────────────────────────────────────────────────┤
-  │ ĐK3: IMAGINE-FINAL NGHỀ NGHIỆP RÕ RÀNG                        │
+  │ CONDITION 3: CLEAR CAREER IMAGINE-FINAL                         │
   │                                                                  │
-  │ "Tôi biết mình sẽ LÀM GÌ + SỐNG thế nào"                      │
-  │ = Imagine-Final clarity CAO → body simulate → approach-tagged    │
-  │ = Anchor MẠNH → loop ĐÓNG → reward                             │
+  │ "I know what I'll BE DOING + what my LIFE will look like"       │
+  │ = Imagine-Final HIGH clarity → body simulates → approach-tagged │
+  │ = Anchor STRONG → loop CLOSES → reward                         │
   ├──────────────────────────────────────────────────────────────────┤
-  │ ĐK4: ÍT CẠNH TRANH (expansion territory còn rộng)              │
+  │ CONDITION 4: LOW COMPETITION (expansion territory still wide)   │
   │                                                                  │
-  │ "Mỗi người có chỗ riêng"                                       │
-  │ = Conflict-Dynamics: OVERLAP thấp × SCARCITY thấp               │
+  │ "Each person has their own place"                               │
+  │ = Conflict-Dynamics: LOW OVERLAP × LOW SCARCITY                 │
   │ = Competition manageable → cortisol moderate → productive       │
   └──────────────────────────────────────────────────────────────────┘
 ```
 
-### §7.2 — Thế hệ trước: 4/4 met
+### §7.2 — Previous Generation: 4/4 Met
 
 ```
-🟡 ERA 1-2 (THẾ HỆ BỐ MẸ + ÔNG BÀ):
+🟡 ERA 1–2 (PARENTS' + GRANDPARENTS' GENERATION):
 
-  ĐK1 ✅ BOUNDED:
-    → "Học xong → đi làm → nuôi gia đình → nghỉ hưu" = rõ endpoint
-    → Mỗi bước CÓ mốc: tốt nghiệp → phân công → lương → nhà
-    → Cortisol = novelty-direction (khó nhưng BIẾT ĐÍCH)
-    → VN specific: thời bao cấp → Đổi Mới → "ai cũng biết mình ở đâu"
+  CONDITION 1 ✅ BOUNDED:
+    → "Study → get a job → support family → retire" = clear endpoint
+    → Each step HAS a milestone: graduate → assigned post → salary → house
+    → Cortisol = novelty-direction (hard but KNOWING THE DESTINATION)
 
-  ĐK2 ✅ PFC NHÀ:
-    → 5-10 nghề phổ biến: bác sĩ, kỹ sư, giáo viên, nông dân, công nhân, quân nhân
-    → Ít thông tin → PFC không cần scan 1000 options
-    → Quyết định "dễ" (few options → fast anchor)
-    → VN specific: phân công công tác → KHÔNG CẦN CHỌN (state chọn hộ)
+  CONDITION 2 ✅ PFC UNDEMANDING:
+    → 5–10 common professions: doctor, engineer, teacher, farmer, factory worker, soldier
+    → Little information → PFC doesn't need to scan 1,000 options
+    → Decision "easy" (few options → fast anchor)
 
-  ĐK3 ✅ IMAGINE-FINAL RÕ:
-    → "Học kỹ sư → Làm kỹ sư → Kiếm tiền → Nhà → Gia đình"
-    → Body simulate được CỤ THỂ → Imagine-Final clarity CAO
-    → = Anchor MẠNH → loop ĐÓNG → reward → "xứng đáng"
-    → VN specific: "ổn định" = crystal clear → ai cũng biết "ổn định" = gì
+  CONDITION 3 ✅ CLEAR IMAGINE-FINAL:
+    → "Study engineering → become an engineer → earn money → house → family"
+    → Body can simulate CONCRETELY → Imagine-Final HIGH clarity
+    → = Anchor STRONG → loop CLOSES → reward → "it's worth it"
 
-  ĐK4 ✅ ÍT CẠNH TRANH:
-    → Ít người có bằng ĐH → bằng ĐH = lợi thế tuyệt đối
-    → Expansion territory RỘNG → ai tốt nghiệp cũng có chỗ
-    → Credential inflation chưa xảy ra
-    → VN specific: "có bằng" = automatic advantage → việc tìm người, không người tìm việc
+  CONDITION 4 ✅ LOW COMPETITION:
+    → Few people had degrees → degree = absolute advantage
+    → Expansion territory WIDE → anyone who graduated had a place
+    → Credential inflation had not yet occurred
 
-  → 4/4 MET = interface loop ĐÓNG → reward → "nghề nghiệp ổn"
-  → = Đây là lý do thế hệ trước THẬT SỰ cảm thấy "ổn"
-  → = KHÔNG phải nostalgia — mà CONDITIONS đúng cho expansion model
+  → 4/4 MET = interface loop CLOSES → reward → "career feels settled"
+  → = This is why the previous generation TRULY felt "settled"
+  → = NOT nostalgia — CONDITIONS were right for the expansion model
 ```
 
-### §7.3 — Thế hệ hiện tại: 0-1/4 met
+### §7.3 — Current Generation: 0–1/4 Met
 
 ```
-🟡 ERA 3 (THẾ HỆ MILLENNIALS → GEN Z):
+🟡 ERA 3 (MILLENNIALS → GEN Z):
 
-  ĐK1 ❌ UNBOUNDED:
-    → "Học xong → ... → ... → ???" — endpoint MỜ
-    → Không biết khi nào "xong" (continuous learning, gig economy)
-    → Career path phi tuyến (pivot, layoff, startup, freelance)
-    → Cortisol = threat-direction (khó + KHÔNG BIẾT ĐÍCH → ăn mòn)
-    → VN specific: "ra trường → làm gì → ở đâu → lương bao nhiêu" = tất cả mờ
+  CONDITION 1 ❌ UNBOUNDED:
+    → "Study → ... → ... → ???" — endpoint UNCLEAR
+    → Don't know when they'll be "done" (continuous learning, gig economy)
+    → Career path non-linear (pivots, layoffs, startups, freelance)
+    → Cortisol = threat-direction (hard + DON'T KNOW THE DESTINATION → erodes)
 
-  ĐK2 ❌ PFC OVERLOAD:
-    → Hàng nghìn ngành, nghề mới xuất hiện liên tục
-    → Internet + social media = thông tin OVERWHELMING
-    → Mỗi ngày thấy 100 "success stories" khác nhau → PFC scan liên tục
-    → Quyết định CỰC KHÓ (too many options → decision paralysis)
-    → VN specific: "thấy bạn bè làm startup, du học, freelance, content creator..."
+  CONDITION 2 ❌ PFC OVERLOADED:
+    → Thousands of majors and careers, new ones appearing constantly
+    → Internet + social media = OVERWHELMING information
+    → Every day sees 100 different "success stories" → PFC scans continuously
+    → Decisions EXTREMELY HARD (too many options → decision paralysis)
 
-  ĐK3 ❌ IMAGINE-FINAL MỜ:
-    → "Làm nghề gì?" — không biết → "Rồi sao?" — cũng không biết
-    → Body KHÔNG simulate được → Imagine-Final absent hoặc MỜ
-    → = Anchor THIẾU → loop MỞ → no reward → "vô nghĩa"
-    → VN specific: "học 4 năm quản trị kinh doanh → rồi sao?" = phổ biến
+  CONDITION 3 ❌ UNCLEAR IMAGINE-FINAL:
+    → "What career?" — don't know → "Then what?" — also don't know
+    → Body CANNOT simulate → Imagine-Final absent or UNCLEAR
+    → = Anchor MISSING → loop OPEN → no reward → "meaningless"
 
-  ĐK4 ❌ CẠNH TRANH KHỐC LIỆT:
-    → Triệu graduates cùng skills (§6.1)
-    → Expansion slots bão hòa + AI thay thế (§5)
-    → Credential inflation: BA = minimum, cần thạc sĩ + kinh nghiệm + portfolio
-    → VN specific: 199,400 cử nhân thất nghiệp, 61% job seekers có bằng ĐH
+  CONDITION 4 ❌ FIERCE COMPETITION:
+    → Millions of graduates with the same skills (§6.1)
+    → Expansion slots saturated + AI replacing them (§5)
+    → Credential inflation: BA = minimum, need master's + experience + portfolio
+    → Millions of graduates unable to find fitting work globally
 
-  → 0-1/4 MET = interface loop MỞ → no reward → "chới với"
-  → = Đây là lý do thế hệ trẻ CẢM THẤY "khó hơn" — vì ĐÚNG LÀ khó hơn
-  → = KHÔNG phải "yếu hơn" — mà CONDITIONS khác hoàn toàn
+  → 0–1/4 MET = interface loop OPEN → no reward → "adrift"
+  → = This is why the current generation FEELS it's "harder" — because IT IS harder
+  → = NOT "weaker" — CONDITIONS are completely different
 ```
 
-### §7.4 — "Không chịu khổ bằng" = SAI frame
+### §7.4 — "Can't Handle Hardship Like We Did" = Wrong Frame
 
 ```
-🟡 REFRAME — stress loại KHÁC, KHÔNG phải ít hơn:
+🟡 REFRAME — a DIFFERENT TYPE of stress, NOT less:
 
-  NARRATIVE PHỔ BIẾN:
-    → "Thế hệ trẻ không chịu khổ bằng thế hệ trước"
-    → "Được nuông chiều → yếu đuối"
-    → "Chúng tôi hồi đó khổ hơn nhiều mà vẫn sống tốt"
+  COMMON NARRATIVE:
+    → "Young people today can't handle hardship like our generation"
+    → "Raised too comfortably → soft"
+    → "We had it much harder back then but we managed fine"
 
   FRAMEWORK ANALYSIS:
-    → Thế hệ trước: stress BOUNDED + ÍT lựa chọn + Imagine-Final RÕ
-      → = Khổ NHƯ GIÁC ĐAU — đau nhưng RÕ → body BIẾT cách react → chịu được
-      → Cortisol = novelty-direction → productive → outcome tốt
+    → Previous generation: stress BOUNDED + FEW choices + Imagine-Final CLEAR
+      → = Hard LIKE PHYSICAL PAIN — hurts but CLEAR → body KNOWS how to react → bearable
+      → Cortisol = novelty-direction → productive → good outcome
 
-    → Thế hệ nay: stress UNBOUNDED + QUÁ NHIỀU lựa chọn + Imagine-Final MỜ
-      → = Khổ NHƯ BỆNH MỜ — đau mà KHÔNG BIẾT ở đâu → body SPINNING
-      → Cortisol = threat-direction → erosive → outcome xấu
+    → Current generation: stress UNBOUNDED + TOO MANY choices + Imagine-Final UNCLEAR
+      → = Hard LIKE DIFFUSE ILLNESS — hurts but DOESN'T KNOW WHERE → body SPINNING
+      → Cortisol = threat-direction → erosive → bad outcome
 
-    → CÙNG "nặng" — KHÁC CẤU TRÚC → KHÁC KẾT QUẢ:
-      → Bounded stress có thể RẤT nặng (chiến tranh, đói) nhưng body BIẾT endpoint
-      → Unbounded stress có thể "nhẹ hơn objective" nhưng body KHÔNG THẤY endpoint
-      → = Giống vác 50kg biết đích vs vác 30kg không biết đi bao lâu
-      → = 30kg unbounded có thể TỆ HƠN 50kg bounded
+    → SAME "weight" — DIFFERENT STRUCTURE → DIFFERENT RESULT:
+      → Bounded stress can be VERY heavy (war, hunger) but body KNOWS the endpoint
+      → Unbounded stress can be "objectively lighter" but body CANNOT SEE the endpoint
+      → = Like carrying 50kg knowing the destination vs. carrying 30kg not knowing how long
+      → = 30kg unbounded can be WORSE than 50kg bounded
 
-  → "Không chịu khổ bằng" = wrong question
-  → Right question: "Stress CẤU TRÚC thế nào?"
-  → = Thế hệ trước: bounded stress trong expansion era → manageable
-  → = Thế hệ nay: unbounded stress trong discovery era → erosive
-  → = Cùng hardware — khác era — khác stress structure — khác outcome
+  → "Can't handle hardship like we did" = wrong question
+  → Right question: "What is the STRUCTURE of the stress?"
+  → = Previous generation: bounded stress in expansion era → manageable
+  → = Current generation: unbounded stress in discovery era → erosive
+  → = Same hardware — different era — different stress structure — different outcome
 
-
-  ⭐ VN CONTEXT:
-
-    → Bố mẹ thế hệ Đổi Mới: "tao hồi đó cực hơn nhiều"
-    → ĐÚNG — stress objective NẶNG HƠN (đói, nghèo, thiếu thốn)
-    → NHƯNG: stress ĐÓ = bounded ("làm → có ăn" = clear endpoint)
-    → Con cái Gen Z: stress objective NHẸ HƠN (no famine, no war)
-    → NHƯNG: stress ĐÓ = unbounded ("học → rồi sao?" = no endpoint)
-    → = Bố mẹ chỉ thấy LEVEL (nhẹ hơn) → kết luận "yếu"
-    → = Framework thấy DIRECTION (bounded vs unbounded) → kết luận "khác cấu trúc"
+  IN CROSS-GENERATIONAL CONVERSATIONS:
+    → Parents: "We had it much harder back then"
+    → TRUE — stress was objectively HEAVIER (genuine poverty, genuine scarcity)
+    → BUT: that stress = bounded ("work → eat" = clear endpoint)
+    → Current generation: stress objectively LIGHTER (no famine, no war in most areas)
+    → BUT: that stress = unbounded ("study → then what?" = no endpoint)
+    → = Parents only see the LEVEL (lighter) → conclude "soft"
+    → = Framework sees the DIRECTION (bounded vs unbounded) → concludes "different structure"
 ```
 
-### §7.5 — Bảng tổng hợp 4 điều kiện × Career
+### §7.5 — Summary: 4 Conditions × Career
 
 ```
-🟡 TỔNG HỢP:
+🟡 SUMMARY:
 
   ┌──────────────┬────────────────────┬──────────────────────┐
-  │              │ THẾ HỆ TRƯỚC       │ THẾ HỆ HIỆN TẠI     │
-  │              │ (Era 1-2)          │ (Era 3)              │
+  │              │ PREVIOUS GEN       │ CURRENT GEN          │
+  │              │ (Era 1–2)          │ (Era 3)              │
   ├──────────────┼────────────────────┼──────────────────────┤
-  │ ĐK1 Stress  │ ✅ Bounded         │ ❌ Unbounded          │
-  │              │ "Học→Làm→Ổn"      │ "Học→...→???"         │
+  │ C1 Stress   │ ✅ Bounded          │ ❌ Unbounded          │
+  │              │ "Study→Work→OK"    │ "Study→...→???"       │
   ├──────────────┼────────────────────┼──────────────────────┤
-  │ ĐK2 PFC     │ ✅ Nhàn            │ ❌ Overload           │
-  │              │ 5-10 nghề          │ Hàng nghìn options   │
+  │ C2 PFC      │ ✅ Undemanding      │ ❌ Overloaded          │
+  │              │ 5–10 professions   │ Thousands of options  │
   ├──────────────┼────────────────────┼──────────────────────┤
-  │ ĐK3 Imagine-│ ✅ Rõ              │ ❌ Mờ/Absent         │
-  │ Final       │ "Kỹ sư → ổn định" │ "Rồi sao?"           │
+  │ C3 Imagine- │ ✅ Clear            │ ❌ Unclear/Absent      │
+  │ Final       │ "Engineer→stable"  │ "Then what?"          │
   ├──────────────┼────────────────────┼──────────────────────┤
-  │ ĐK4 Cạnh    │ ✅ Ít              │ ❌ Khốc liệt         │
-  │ tranh        │ Bằng ĐH = lợi thế │ Bằng ĐH = minimum   │
+  │ C4 Comp-    │ ✅ Low              │ ❌ Intense            │
+  │ etition      │ Degree = advantage │ Degree = minimum      │
   ├──────────────┼────────────────────┼──────────────────────┤
-  │ KẾT QUẢ     │ Loop ĐÓNG          │ Loop MỞ              │
-  │              │ → reward           │ → no reward          │
-  │              │ → "ổn"             │ → "chới với"         │
+  │ RESULT      │ Loop CLOSES         │ Loop OPEN             │
+  │              │ → reward           │ → no reward           │
+  │              │ → "settled"        │ → "adrift"            │
   ├──────────────┼────────────────────┼──────────────────────┤
-  │ GIÁO DỤC    │ Expansion          │ VẪN Expansion        │
-  │ model        │ = ĐÚNG ERA         │ = SAI ERA            │
+  │ EDUCATION   │ Expansion           │ STILL Expansion       │
+  │ model        │ = CORRECT ERA      │ = WRONG ERA           │
   └──────────────┴────────────────────┴──────────────────────┘
 
-  → = Model NÀY reusable: alcohol, career, và có thể nhiều hiện tượng khác
-  → = Vì CÙNG 4 components (cortisol, PFC, Imagine-Final, competition)
-  → = Khác phenomenon → khác data → CÙNG structure
+  → = This model is reusable: alcohol, career, and potentially many other phenomena
+  → = Because SAME 4 components (cortisol, PFC, Imagine-Final, competition)
+  → = Different phenomenon → different data → SAME structure
 ```
 
 ---
 
-## §8 — GIÁ TRỊ CỦA UNDERSTANDING
+## §8 — THE VALUE OF UNDERSTANDING
 
-> **"Dù phân tích hay không, mọi người vẫn cố gắng."**
-> **ĐÚNG — Domain-Mapping-Drive §1: hardware DRIVE map domain → không thể tắt.**
-> **NHƯNG understanding có 3 giá trị CỤ THỂ.**
+> **"Whether or not you analyze it, everyone still tries."**
+> **TRUE — Domain-Mapping-Drive §1: hardware DRIVES domain mapping → cannot be switched off.**
+> **BUT understanding has 3 SPECIFIC values.**
 
-### §8.1 — Giá trị 1: Giảm dissonance sai hướng
+### §8.1 — Value 1: Reducing Misdirected Dissonance
 
 ```
-🟡 THAY ĐỔI ATTRIBUTION → THAY ĐỔI CORTISOL DIRECTION:
+🟡 CHANGING ATTRIBUTION → CHANGING CORTISOL DIRECTION:
 
-  KHÔNG hiểu (self-blame):
-    → "Thất nghiệp = TÔI KÉM" (internal attribution)
-    → Body: threat signal → cortisol threat-direction → ăn mòn
-    → PFC: "tôi phải cố hơn" → nhưng cố ĐÚNG KIỂU CŨ (expansion) → vẫn fail
-    → = Vòng xoáy: blame → stress → cố sai cách → fail → blame more
+  WITHOUT understanding (self-blame):
+    → "Unemployed = I AM INADEQUATE" (internal attribution)
+    → Body: threat signal → cortisol threat-direction → eroding
+    → PFC: "I must try harder" → but tries harder in THE OLD WAY (expansion) → still fails
+    → = Spiral: blame → stress → wrong approach → fail → more blame
 
-  HIỂU (structural attribution):
-    → "Thất nghiệp = STRUCTURAL SHIFT" (external attribution)
+  WITH understanding (structural attribution):
+    → "Unemployed = STRUCTURAL SHIFT" (external attribution)
     → Body: novelty signal → cortisol novelty-direction → productive
-    → PFC: "đây là shift era → cần đổi cách" → đổi strategy
-    → = Vòng mới: understand → reframe → discovery approach → possible progress
+    → PFC: "this is an era shift → need to change approach" → changes strategy
+    → = New cycle: understand → reframe → discovery approach → possible progress
 
-  → = CÙNG tình huống + KHÁC attribution → KHÁC cortisol direction → KHÁC outcome
-  → = Understanding KHÔNG giải quyết vấn đề trực tiếp
-  → = Understanding THAY ĐỔI cortisol direction → thay đổi CÁCH PHẢN ỨNG
+  → = SAME situation + DIFFERENT attribution → DIFFERENT cortisol direction → DIFFERENT outcome
+  → = Understanding does NOT directly solve the problem
+  → = Understanding CHANGES cortisol direction → changes HOW one responds
 
-  🟡 TRUST LAG (Trust.md v1.0): TẠI SAO SELF-BLAME PERSIST:
-    → Self-blame persist VÌ installed trust: "hệ thống đúng, TÔI sai"
+  🟡 TRUST LAG (Trust.md v1.0): WHY SELF-BLAME PERSISTS:
+    → Self-blame persists BECAUSE of installed trust: "the system is right, I am wrong"
     → Trust.md §5 Phase 2: installed trust acts like truth WITHOUT verification
-    → Student đã đầu tư 4-6 năm (commitment) → trust càng deep → càng khó break
-    → Trust lag: evidence CONTRADICTS nhưng trust PERSIST → self-blame kéo dài
-    → Understanding structural shift = CATALYST cho trust calibration (Phase 2→3)
-    → = Shift attribution = shift trust calibration = shift cortisol direction
+    → Students who invested 4–6 years (commitment) → deeper trust → harder to break
+    → Trust lag: evidence CONTRADICTS but trust PERSISTS → self-blame extended
+    → Understanding structural shift = CATALYST for trust calibration (Phase 2→3)
+    → = Shifting attribution = shifting trust calibration = shifting cortisol direction
 ```
 
-### §8.2 — Giá trị 2: Cho Imagine-Final mới
+### §8.2 — Value 2: Enabling a New Imagine-Final
 
 ```
-🟡 ĐÍCH MỚI → HƯỚNG MỚI → CÁCH CỐ GẮNG MỚI:
+🟡 NEW DESTINATION → NEW DIRECTION → NEW WAY OF TRYING:
 
-  IMAGINE-FINAL CŨ (expansion):
-    → "Chọn nghề ổn định" → FAIL (expansion slots đầy)
-    → Body: loop MỞ (effort → no reward) → bỏ cuộc hoặc spinning
+  OLD IMAGINE-FINAL (expansion):
+    → "Choose a stable career" → FAILS (expansion slots full)
+    → Body: loop OPEN (effort → no reward) → gives up or spins
 
-  IMAGINE-FINAL MỚI (discovery):
-    → "Tìm process phù hợp body" → POSSIBLE (discovery territory mới)
-    → Body: loop có thể ĐÓNG (process reward per step)
-    → = Khác Imagine-Final → khác hướng nỗ lực → khác kết quả
+  NEW IMAGINE-FINAL (discovery):
+    → "Find the process that fits my body" → POSSIBLE (new discovery territory)
+    → Body: loop can CLOSE (process reward per step)
+    → = Different Imagine-Final → different direction of effort → different result
 
-  → = "Không phải chọn nghề — mà tìm process"
-  → = Imagine-Final mới = body simulate được → anchor có thể form → direction có
+  → = "Not choosing a career — but finding a process"
+  → = New Imagine-Final = body can simulate it → anchor can form → direction exists
 ```
 
-### §8.3 — Giá trị 3: Thay đổi câu hỏi
+### §8.3 — Value 3: Asking the Right Questions
 
 ```
-🟡 CÂU HỎI ĐÚNG → HƯỚNG TÌM ĐÚNG → KẾT QUẢ KHÁC:
+🟡 RIGHT QUESTIONS → RIGHT SEARCH DIRECTION → DIFFERENT RESULTS:
 
-  CÂU HỎI CŨ (expansion):              CÂU HỎI MỚI (discovery):
-  "Nghề nào ổn định?"                 "Process nào body respond?"
-  "Em muốn làm GÌ?"                   "Domain nào fire khi em tự explore?"
-  "Ngành nào có tương lai?"            "Khi nào em quên thời gian?"
-  "Ai kiếm nhiều tiền nhất?"           "Cái gì em TỰ LÀM dù không ai trả?"
+  OLD QUESTIONS (expansion):              NEW QUESTIONS (discovery):
+  "Which career is stable?"             "Which process does my body respond to?"
+  "What do you want to DO?"             "Which domain do I explore without needing to be pushed?"
+  "Which field has a future?"           "When do I lose track of time?"
+  "Who earns the most money?"           "What do I DO on my own even when no one is paying me?"
 
-  → CÂU HỎI CŨ → tìm DESTINATION → destination biến mất → stuck
-  → CÂU HỎI MỚI → tìm PROCESS → process transferable → adaptive
+  → OLD QUESTIONS → find DESTINATION → destination disappears → stuck
+  → NEW QUESTIONS → find PROCESS → process is transferable → adaptive
 
-  ⭐ VÍ DỤ CỤ THỂ:
+  ⭐ CONCRETE EXAMPLE:
 
-    Student A: "Em muốn làm marketing" (destination)
-      → Học marketing → ra trường → AI thay marketing entry-level → stuck
-      → Câu hỏi sai → hướng tìm sai → outcome sai
+    Student A: "I want to work in marketing" (destination)
+      → Studies marketing → graduates → AI replaces entry-level marketing → stuck
+      → Wrong question → wrong search direction → wrong outcome
 
-    Student B: "Em thích PROCESS: phân tích data + tìm pattern + kể câu chuyện"
-      → Học marketing + data + storytelling = process skills
-      → Marketing entry-level bị AI → nhưng process skills TRANSFER sang:
+    Student B: "I enjoy the PROCESS: analyzing data + finding patterns + telling stories"
+      → Studies marketing + data + storytelling = process skills
+      → Entry-level marketing replaced by AI → but process skills TRANSFER to:
         market research, product insight, strategy, consulting
-      → Câu hỏi đúng → hướng tìm đúng → adaptive
+      → Right question → right search direction → adaptive
 
-  → = CÙNG STUDENT. CÙNG HARDWARE. KHÁC CÂU HỎI → KHÁC OUTCOME.
-  → = Understanding → thay đổi câu hỏi → thay đổi hướng tìm → thay đổi kết quả
+  → = SAME STUDENT. SAME HARDWARE. DIFFERENT QUESTION → DIFFERENT OUTCOME.
+  → = Understanding → changes the question → changes the direction → changes the result
 ```
 
 ---
 
 ## §9 — PREDICTIONS
 
-### §9.1 — 5 predictions từ framework
+### §9.1 — 5 Predictions from the Framework
 
 ```
-🟡 NẾU FRAMEWORK ĐÚNG → 5 PREDICTIONS (testable over 10-20 years):
+🟡 IF THE FRAMEWORK IS CORRECT → 5 PREDICTIONS (testable over 10–20 years):
 
-  ① EXPANSION EDUCATION TIẾP TỤC MẤT GIÁ TRỊ:
-    → Structural, KHÔNG reverse
-    → Credential inflation tiếp tục: thạc sĩ → tiến sĩ → portfolio → network
-    → "Bằng ĐH" → approach giá trị của "bằng THPT" 30 năm trước
-    → Timeline: 10-15 năm cho VN, đã xảy ra ở Mỹ/Hàn
+  ① EXPANSION EDUCATION CONTINUES TO LOSE VALUE:
+    → Structural, NOT reversible
+    → Credential inflation continues: master's → PhD → portfolio → network
+    → "University degree" → approaching the value of "high school diploma" 30 years ago
+    → Timeline: 10–15 years for developing economies, already occurring in US/Korea
 
-  ② AI ACCELERATE ENTRY-LEVEL DISPLACEMENT:
-    → Trajectory rõ: Cengage 46%, WEF net -14M, McKinsey 60-70%
+  ② AI ACCELERATES ENTRY-LEVEL DISPLACEMENT:
+    → Trajectory clear: Cengage 46%, WEF net –14M, McKinsey 60–70%
     → Entry-level expansion jobs = first to go
-    → NHƯNG: new AI-adjacent roles emerge (integration, oversight, creative)
-    → Net effect: negative in transition window (3-5 years), unclear long-term
+    → BUT: new AI-adjacent roles emerge (integration, oversight, creative)
+    → Net effect: negative in transition window (3–5 years), unclear long-term
 
-  ③ DISCOVERY CAPABILITY NGÀY CÀNG VALUABLE:
-    → Supply thấp (education KHÔNG dạy) + Demand tăng (economy cần)
-    → = Premium cho discovery skills tăng
+  ③ DISCOVERY CAPABILITY INCREASINGLY VALUABLE:
+    → Supply low (education DOESN'T TEACH it) + Demand rising (economy needs it)
+    → = Premium for discovery skills increases
     → Cross-domain, creative, interpersonal, strategic = high value
     → = "Rare skill + high demand = premium"
 
-  ④ "HƯỚNG NGHIỆP" CẦN REFRAME:
-    → Từ "chọn nghề" (destination-fit) sang "tìm process" (process-fit)
-    → Countries adopt sớm → lợi thế: workforce adaptive
-    → Countries stuck expansion framing → "thế hệ mất mát" (lost generation)
-    → VN: CÓ window — youth unemployment VẪN <10% → chưa crisis
+  ④ CAREER GUIDANCE NEEDS REFRAMING:
+    → From "choose a career" (destination-fit) to "find a process" (process-fit)
+    → Countries that adopt early → advantage: adaptive workforce
+    → Countries stuck in expansion framing → "lost generation"
+    → Countries with lower youth unemployment → have a window to adapt
 
   ⑤ APPRENTICESHIP/DUAL MODEL RENAISSANCE:
-    → Germany Ausbildung model (process + domain feedback) = ĐÚNG HƯỚNG
-    → VN: chỉ 20% HS vào nghề → cần tăng + nâng chất lượng
-    → AI + apprenticeship = potential: AI teach theory, apprenticeship teach process
-    → = Process-oriented + domain-tested = future education model
+    → Germany Ausbildung model (process + domain feedback) = CORRECT DIRECTION
+    → Countries with primarily lecture-based education → need to add process + domain
+    → AI + apprenticeship = potential: AI teaches theory, apprenticeship teaches process
+    → = Process-oriented + domain-tested = the future education model
 ```
 
-### §9.2 — VN-specific predictions
+### §9.2 — The Window Before Crisis
 
 ```
-🟡 VN — CÒN WINDOW, NHƯNG ĐANG HẸP DẦN:
+🟡 COUNTRIES WITH LOWER YOUTH UNEMPLOYMENT — STILL HAVE A WINDOW:
 
-  HIỆN TẠI (2025):
-    → Youth unemployment 7.83% — chưa crisis (< TQ 21%, < Ấn Độ 29%)
-    → NHƯNG: tỉ lệ người ĐH xin trợ cấp TĂNG nhanh (15.4% → 17.2% trong 1 quý)
-    → "Thừa thầy thiếu thợ" = RÕ RÀNG nhưng CHƯA được address structural
+  CURRENT SITUATION (2025):
+    → Youth unemployment <10% in many countries is NOT a crisis
+    → BUT: university grads applying for unemployment support IS INCREASING
+    → "Over-supply of white-collar graduates, under-supply of skilled workers" = CLEAR
+      but NOT being addressed structurally
 
-  5 NĂM TỚI (2025-2030):
-    → AI adoption tăng → BPO + admin + entry-level GIẢM
-    → University expansion TIẾP TỤC (enrollment vẫn tăng)
-    → Supply ↑ + Demand ↓ = pressure TĂNG
-    → Education-Arms-Race §7: VN đang ở ★★★☆☆↑ (growing) → risk leo thang
+  NEXT 5 YEARS (2025–2030):
+    → AI adoption increases → BPO + admin + entry-level DECLINE
+    → University expansion CONTINUES (enrollment keeps rising)
+    → Supply ↑ + Demand ↓ = pressure INCREASES
 
-  10 NĂM TỚI (2030-2035):
-    → NẾU không adapt: tiến tới ★★★★☆ (Japan/Singapore level)
-    → NẾU adapt sớm: có thể stabilize hoặc giảm
-    → Adapt = gì?
-      → Tăng tỉ lệ HS vào nghề (20% → 40%+)
+  NEXT 10 YEARS (2030–2035):
+    → WITHOUT adaptation: moving toward Korea/Japan-level crisis
+    → WITH early adaptation: possible to stabilize or reduce
+    → What adaptation looks like:
+      → Increase vocational/trade pathways
       → Dual system (process + domain feedback)
-      → Reframe hướng nghiệp từ destination → process
-      → Giảm stigma "học nghề = kém"
+      → Reframe career guidance from destination → process
+      → Reduce stigma of "choosing trade school = lesser path"
 
   OPEN QUESTIONS:
-    🔴 Bao lâu nữa expansion education collapse RÕ RÀNG ở VN?
-    🔴 AI adoption ở VN impact entry-level jobs timeline?
-    🔴 VN hướng nghiệp có thể reframe hay vẫn stuck expansion framing?
-    🔴 Parent generation (Đổi Mới) có chấp nhận "con đi nghề" không?
+    🔴 How long before expansion education collapses CLEARLY in developing economies?
+    🔴 AI adoption timeline for replacing entry-level jobs?
+    🔴 Can career guidance be reframed structurally, or will expansion framing persist?
+    🔴 Will parent generations accept "my child is going to trade school"?
 ```
 
 ---
@@ -1569,39 +1536,39 @@ READER FLOW:
 ## §10 — HONEST ASSESSMENT
 
 ```
-⭐ ĐỘ TIN CẬY PER CATEGORY:
+⭐ CONFIDENCE BY CATEGORY:
 
 
-  🟢 CHẮC CHẮN (data established):
+  🟢 HIGH CONFIDENCE (data established):
 
-    Graduate unemployment/mismatch = toàn cầu
+    Graduate unemployment/mismatch = global
       → ILO, Cengage, Burning Glass, WEF — multiple independent sources
     Credential inflation = documented
       → IZA, Burning Glass 65%/19% data, Federal Reserve
-    University expansion outpacing job creation = data rõ
+    University expansion outpacing job creation = data clear
       → IZA historical analysis, OECD, individual country data
     AI displacing entry-level = trend confirmed
       → Cengage 2025, McKinsey 2024, WEF 2025, GitHub Copilot data
-    VN "thừa thầy thiếu thợ" = documented
-      → GSO, MOLISA, Navigos — government + industry sources
-    Germany dual system → lowest youth unemployment EU
+    "Over-supply of white-collar graduates" = documented globally
+      → Government + industry sources in multiple countries
+    Germany dual system → lowest youth unemployment in EU
       → Eurostat, ILO — consistent over decades
     Career Construction Theory > static matching
       → Savickas research, ScienceDirect 2021 — peer-reviewed
 
 
-  🟡 FRAMEWORK SYNTHESIS (logic mạnh, chưa test trực tiếp):
+  🟡 FRAMEWORK SYNTHESIS (strong logic, not directly tested):
 
     Expansion → Discovery shift = framework interpretation of data
       → Consistent with Kuhn 1962, March 1991, Arthur 2009
-      → Framing riêng = framework, pattern = established
-    "Process-fit" thay "destination-fit" = framework reframe
+      → Framing itself = framework, pattern = established
+    "Process-fit" replacing "destination-fit" = framework reframe
       → Consistent with Career Construction Theory (independent)
       → But: framework-specific vocabulary + mechanism
-    4 điều kiện model cho career = extended from Alcohol analysis
-      → Internal consistency mạnh — cùng components, khác application
-      → NHƯNG: chưa test trực tiếp cho career context
-    "Given" bypass reward = Domain-Mapping-Drive thesis
+    4 conditions model for career = extended from alcohol analysis
+      → Internal consistency strong — same components, different application
+      → BUT: not yet directly tested for career context
+    "Given" bypasses reward = Domain-Mapping-Drive thesis
       → Consistent with VTA/opioid mechanism (🟢)
       → Applied to education = framework inference
     "Bounded vs unbounded stress" = Cortisol-Baseline application
@@ -1610,72 +1577,56 @@ READER FLOW:
     "Process + domain feedback > process alone" = Germany insight
       → Data consistent (6.5% vs 16.1%)
       → Causal mechanism = framework interpretation
-      → Alternative explanations possible (culture, economy structure)
-    v1.1: "Grad unemployment = collective chain break" = Collective-Body §5.2 mapping
-      → File đã mô tả mechanism đúng, v1.1 thêm formal terminology
-      → "Học làm gì?" = body circuit-break khi Cấp 2 chain gãy
-    v1.1: "Education = Trust Compile install" = Compile-Taxonomy mapping
-      → Trust-amplified, collective hold chain dài, individual compile short
-      → "Học chán" = Trust Compile without Experience Compile = formal label cho §3.2 mechanism
-    v1.2: Gap-Distribution-Profile × credential inflation = gap landscape OVERLAP
-      → Gap-Distribution-Profile v1.1 4 trục, application to societal-level profile = novel
-    v1.2: Hardware-Subsidy hướng sai era = "học chán" thêm 1 lý do
-      → Valence-Propagation v3.0 §7, application to era mismatch = novel
-    v1.2: Entity-Access × career = entity-access calibration at societal level
-      → Entity-Access v1.2, application to job market = novel
-    v1.2: Quarter-life crisis = compound dissonance (Evaluative + Direct-State)
-      → Dissonance-Signal-Architecture v1.0, application to generational crisis = novel
-    v1.2: University as Coordination-Node disconnect from domain thật
-      → Coordination-Node v1.2, application to education-economy mismatch = novel
+      → Alternative explanations possible (culture, economic structure)
     v1.3: Credential = trust signal, inflation = trust signal degradation (§2.3)
       → Trust.md v1.0 §5 Default→Calibrated, §3 Trust Depth 5 sources
-      → "Học làm gì?" = trust break (build slow, collapse fast)
+      → "Why study?" = trust break (builds slow, collapses fast)
     v1.3: Trust lag explains self-blame persistence (§8.1)
-      → Installed trust persist despite evidence → delayed attribution shift
+      → Installed trust persists despite evidence → delayed attribution shift
 
 
-  🔴 HYPOTHESIS (logic consistent, cần data):
+  🔴 HYPOTHESIS (consistent logic, needs data):
 
     "Discovery education can be taught systematically"
       → Hope, not proven at scale
       → Discovery = inherently unpredictable → hard to systematize
     "Body-based discovery ≠ AI-replaceable"
-      → Strong argument — AI lacks body
+      → Strong argument — AI lacks a body
       → But: AI may develop functional equivalent → unknown
-    "VN có 10-year window"
+    "Country X has a 10-year window"
       → Based on current trajectory → highly context-dependent
       → External shocks (economic crisis, policy change) → accelerate or delay
-    "Reframe hướng nghiệp → measurably better outcomes"
+    "Reframing career guidance → measurably better outcomes"
       → Logical — but no controlled study comparing
       → YouScience direction but limited data
-    Germany insight generalizable to VN
-      → Germany culture ≠ VN culture
-      → Dual system requires industry cooperation → VN industry ready?
+    Germany insight generalizable across cultures
+      → German culture ≠ other cultures
+      → Dual system requires industry cooperation → is industry ready?
 
 
-⭐ RỦI RO CẦN ACKNOWLEDGE:
+⭐ RISKS:
 
   ⚠️ STRUCTURAL DETERMINISM BIAS:
-    → File này nhấn mạnh STRUCTURAL causes (era shift, expansion saturation)
-    → CÓ THỂ underweight: cá nhân effort, culture, policy, luck
-    → Structural explanation ĐÚNG ở macro level → nhưng cá nhân VẪN có agency
-    → = "Structural shift giải thích pattern — KHÔNG giải thích mọi cá nhân"
+    → This file emphasizes STRUCTURAL causes (era shift, expansion saturation)
+    → MAY underweight: individual effort, culture, policy, luck
+    → Structural explanation CORRECT at macro level → but individuals STILL have agency
+    → = "Structural shift explains the pattern — does NOT explain every individual"
 
   ⚠️ FRAMEWORK CONFIRMATION BIAS:
-    → Có thể chọn data phù hợp framework, ignore data phản bác
+    → May select data fitting the framework, ignore data that contradicts
     → Mitigation: list data sources, acknowledge alternative explanations
-    → NHƯNG: risk vẫn có
+    → BUT: risk remains
 
   ⚠️ RETROSPECTIVE FRAMING:
-    → Nhìn lại lịch sử → "rõ ràng" expansion → discovery shift
-    → Nhưng: KHI ĐANG Ở TRONG, có thể KHÔNG rõ
+    → Looking back at history → Expansion → Discovery shift seems "obvious"
+    → But: WHEN INSIDE IT, it may NOT be obvious
     → = Hindsight bias potential
 
   ⚠️ PRESCRIPTION HIDDEN IN DESCRIPTION:
-    → File claim "descriptive" — nhưng "reframe hướng nghiệp" = prescriptive
-    → = Honest: file này CÓ prescriptive element (§4, §8, §9)
-    → = Prescription based on mechanism analysis — KHÔNG phải arbitrary
-    → = Nhưng vẫn là PRESCRIPTION, không phải pure observation
+    → File claims to be "descriptive" — but "reframe career guidance" = prescriptive
+    → = Honest: this file HAS prescriptive elements (§4, §8, §9)
+    → = Prescription based on mechanism analysis — NOT arbitrary
+    → = But still PRESCRIPTION, not pure observation
 ```
 
 ---
@@ -1684,47 +1635,47 @@ READER FLOW:
 
 ```
 ═══════════════════════════════════════════════════════
-PRIMARY DEPENDENCIES (cốt lõi cho thesis)
+PRIMARY DEPENDENCIES (core for thesis)
 ═══════════════════════════════════════════════════════
 
-→ Knowledge-Flow.md — ⭐ Dòng chảy qua thế hệ
+→ Knowledge-Flow.md — ⭐ Flow across generations
   §1: Internal → Output → External chunk (A→output→B pipeline)
-  §2: Compression ratio tăng → baseline mỗi thế hệ CAO HƠN
-  §7: Baseline shift → "đứng trên vai người khổng lồ"
-  Kết nối: §2.4 (compression paradox), §2.1-§2.3 (3 eras)
+  §2: Compression ratio increases → each generation's BASELINE HIGHER
+  §7: Baseline shift → "standing on giants' shoulders"
+  Connected to: §2.4 (compression paradox), §2.1–§2.3 (3 eras)
 
-→ Discovery-vs-Expansion.md — ⭐ 2 mode + 3-point spectrum
-  §1: Discovery (tìm mới) vs Expansion (mở rộng đã biết)
-  §2: Discovery 5 giai đoạn spiral
+→ Discovery-vs-Expansion.md — ⭐ 2 modes + 3-point spectrum
+  §1: Discovery (finding new) vs Expansion (expanding what's known)
+  §2: Discovery 5-stage spiral
   §3: Expansion diminishing returns
   §6: Education implications (expansion only → problem)
-  Kết nối: §2 toàn bộ (core thesis), §4.4 (Sense→Verify→Scale spectrum)
+  Connected to: §2 throughout (core thesis), §4.4 (Sense→Verify→Scale spectrum)
 
 → Domain-Mapping-Drive.md — ⭐ WHY drive + "Given" paradox
-  §0: "Tại sao có sẵn mà không thấy pleasant?"
+  §0: "Why isn't having it for free pleasant?"
   §2: prediction-delta + opioid per step (mechanism)
-  §4: "Given" bypass process = no reward (core of §3)
+  §4: "Given" bypasses process = no reward (core of §3)
   §4.2: Capacity Refund Principle
   §7: Education implications
-  Kết nối: §3 toàn bộ (Given paradox applied to education)
+  Connected to: §3 throughout (Given paradox applied to education)
 
 
 ═══════════════════════════════════════════════════════
-BỘ 3 EDUCATION
+TRIPLE EDUCATION SET
 ═══════════════════════════════════════════════════════
 
-→ Education-Mechanism.md v2.2 — HOW: 10 nguyên lý arc design + Hardware-Subsidy + PFC Budget
+→ Education-Mechanism.md v2.2 — HOW: 10 arc design principles + Hardware-Subsidy + PFC Budget
   §2: brain-based principles (Direction > Level, etc.)
   §4: AI-assisted education model
-  Kết nối: §3.2 (approach/avoidance tags, Hardware-Subsidy), §5.2 (AI in education)
+  Connected to: §3.2 (approach/avoidance tags, Hardware-Subsidy), §5.2 (AI in education)
 
 → Domain-Knowledge-Map.md v2.1 — WHAT: domain taxonomy per era
   §3: Per-hardware + Gap-Distribution-Profile
-  Kết nối: §2.3 (gap landscape distortion)
+  Connected to: §2.3 (gap landscape distortion)
 
 → Connection-Education.md v1.1 — WHO: social interaction education
   §4: Entity-Compiled formation, Entity-Access calibration
-  Kết nối: §6.1 (Entity-Access × career navigation)
+  Connected to: §6.1 (Entity-Access × career navigation)
 
 
 ═══════════════════════════════════════════════════════
@@ -1732,33 +1683,33 @@ SECONDARY DEPENDENCIES
 ═══════════════════════════════════════════════════════
 
 → Collective-Purpose.md — Cosmic loop framing
-  §1: Humanity → map domain reality qua thế hệ
-  Kết nối: §6.2 (zoom out — scarcity = engine of progress)
+  §1: Humanity → maps domain reality across generations
+  Connected to: §6.2 (zoom out — scarcity = engine of progress)
 
-→ Collective-Body.md v2.1 — Model 3 Cấp + chain break
-  §1: Model 3 Cấp (Individual → Collective → Framework)
+→ Collective-Body.md v2.1 — 3-Level Model + chain break
+  §1: 3-Level Model (Individual → Collective → Framework)
   §5.1: Trust = only bridge (education chain = trust-amplified)
-  §5.2: Chain break 3 loại (cost/link/compound) — "học làm gì?" = Loại ②③
-  Kết nối: §0 (framing), §6.2 (collective chain break formal)
+  §5.2: Chain break 3 types (cost/link/compound) — "why study?" = Types ②③
+  Connected to: §0 (framing), §6.2 (collective chain break formal)
 
 → Compile-Taxonomy.md v3.0 — 3 Compile Types mapping
-  §2: 3 Loại (education = chủ yếu Trust Compile install)
+  §2: 3 Types (education = primarily Trust Compile install)
   §3: 4 pathways (education: pathway ②③ dominant)
-  Kết nối: §0 (framing), §3.2 (Trust Compile without Experience Compile = "học chán")
+  Connected to: §0 (framing), §3.2 (Trust Compile without Experience Compile = "boring")
 
 → Conflict-Dynamics.md — Competition formula
   §1: OVERLAP × SCARCITY × COMMITMENT
-  Kết nối: §1.5, §6.1 (applied to job market)
+  Connected to: §1.5, §6.1 (applied to job market)
 
 → Domain.md — Domain reality
-  §2 ⑥: Domain không nói dối (sai nằm ở human) → cần domain feedback
-  Kết nối: §4.4 (Germany insight — process + domain feedback)
+  §2 ⑥: Domain doesn't lie (errors in human interpretation) → need domain feedback
+  Connected to: §4.4 (Germany insight — process + domain feedback)
 
 → Education-Arms-Race.md v1.3 — Credential inflation + game theory
   §1: Positional good, prisoner's dilemma
   §2: Spectrum Finland → Korea
-  §7: VN window
-  Kết nối: §1.2 (credential inflation data), §9.2 (VN predictions)
+  §7: Window predictions
+  Connected to: §1.2 (credential inflation data), §9.2 (predictions)
 
 
 ═══════════════════════════════════════════════════════
@@ -1766,9 +1717,9 @@ TRUST INTEGRATION (v1.3)
 ═══════════════════════════════════════════════════════
 
 → Trust.md v1.0 — Credential = trust signal, inflation = degradation (§2.3)
-  §5 Default→Calibrated: societal trust in education = Phase 1-2 installed
-  §3 Trust Depth: routine + childhood + community + identity = deep = persist
-  Build slow / collapse fast: "học làm gì?" = trust break point
+  §5 Default→Calibrated: societal trust in education = Phase 1–2 installed
+  §3 Trust Depth: routine + childhood + community + identity = deep = persists
+  Build slow / collapse fast: "why study?" = trust break point
   Trust lag × self-blame: installed trust → delayed attribution shift (§8.1)
 
 
@@ -1777,24 +1728,24 @@ NEW CONCEPT INTEGRATIONS (v1.2)
 ═══════════════════════════════════════════════════════
 
 → Gap-Distribution-Profile.md v1.1 — Gap landscape per-person
-  4 trục: Domain Center × Origin Balance × Depth × Stability
-  Kết nối: §2.3 (credential inflation = triệu người cùng gap profile → OVERLAP)
+  4 axes: Domain Center × Origin Balance × Depth × Stability
+  Connected to: §2.3 (credential inflation = millions with same gap profile → OVERLAP)
 
 → Valence-Propagation.md v3.0 — §7 Hardware-Subsidy
-  Teacher = societal subsidy system, modulate VTA per student
-  Kết nối: §3.2 (subsidy hướng sai era → "học chán" thêm 1 lý do)
+  Teacher = societal subsidy system, modulates VTA per student
+  Connected to: §3.2 (subsidy pointing wrong direction → "boring" has additional cause)
 
-→ Entity-Access.md v1.2 — Gradient Mức 0-5
-  Career navigation = entity-access calibration ở cấp xã hội
-  Kết nối: §6.1 (era 3: cần Mức 3-4 mới differentiate)
+→ Entity-Access.md v1.2 — Gradient Level 0–5
+  Career navigation = entity-access calibration at societal level
+  Connected to: §6.1 (Era 3: need Level 3–4 to differentiate)
 
 → Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State
   Quarter-life crisis = compound dissonance (Evaluative + Direct-State)
-  Kết nối: §3.3 (meta-skill biết loại nào → biết action nào)
+  Connected to: §3.3 (meta-skill: knowing type → knowing which action fits)
 
 → Coordination-Node.md v1.2 — University as node
-  Node connect expansion graduate → discovery economy = disconnect
-  Kết nối: §6.2 (Germany dual system = node connect trực tiếp domain thật)
+  Node connecting expansion graduate → discovery economy = disconnected
+  Connected to: §6.2 (Germany dual system = node connecting directly to real domain)
 
 
 ═══════════════════════════════════════════════════════
@@ -1804,38 +1755,38 @@ OBSERVATION PARAMETERS
 → Imagine-Final.md v3.0 — Clarity gradient + lifecycle
   §1: Build → Save → Background → Reload → Refine
   §1.5: 14 clarity thresholds. Hardware prediction ≠ Imagine-Final
-  Kết nối: §2.1 (clear Imagine-Final era 1), §7.3 (mờ Imagine-Final era 3)
+  Connected to: §2.1 (clear Imagine-Final Era 1), §7.3 (unclear Imagine-Final Era 3)
 
 → Meaning.md v2.0 — Life-level Anchor-Schema
   5 types (GOAL/STATE/IDENTITY/FAITH/ROLE)
-  Kết nối: §3.3 (meaning absent → existential dissonance)
+  Connected to: §3.3 (meaning absent → existential dissonance)
 
 → Boredom.md v2.0 — 6 sources, Resonance Decline, threshold model
   Drive + no direction = spinning. Abundance hypothesis
-  Kết nối: §3.3 (graduate boredom), §4.2 (career spinning)
+  Connected to: §3.3 (graduate boredom), §4.2 (career spinning)
 
 → Cortisol-Baseline.md v2.1 — Direction > Level
   §7: Bounded vs unbounded stress
-  Kết nối: §6.3, §7.4 (generational stress comparison)
+  Connected to: §6.3, §7.4 (generational stress comparison)
 
 → Status.md v2.0 — Resource Access Map
   Credential = status tool (positional good)
-  Kết nối: §1 (credential inflation = status arms race)
+  Connected to: §1 (credential inflation = status arms race)
 
 
 ═══════════════════════════════════════════════════════
-COMPANION FILES (cùng session analysis)
+COMPANION FILES (same analytical session)
 ═══════════════════════════════════════════════════════
 
-→ Alcohol-Brain-Mechanism.md — Cơ chế neural rượu bia
-  §6: 4 điều kiện model (originated here)
-  Kết nối: §7 (4 điều kiện reused for career)
+→ Alcohol-Brain-Mechanism.md — Neural mechanism of alcohol
+  §6: 4 conditions model (originated here)
+  Connected to: §7 (4 conditions reused for career)
 
-→ Alcohol-Vietnam-Generational.md — 4 thế hệ × rượu bia
-  §6: 4 điều kiện × 4 thế hệ matrix
+→ Alcohol-Vietnam-Generational.md — 4 generations × alcohol
+  §6: 4 conditions × 4 generations matrix
   §7: Compliance Floor analysis
-  §4.4: "Không chịu khổ bằng" = sai frame → reused §7.4
-  Kết nối: §7 toàn bộ (model reuse), §7.4 (bounded vs unbounded reframe)
+  §4.4: "Can't handle hardship" = wrong frame → reused §7.4
+  Connected to: §7 throughout (model reuse), §7.4 (bounded vs unbounded reframe)
 
 
 ═══════════════════════════════════════════════════════
@@ -1844,23 +1795,24 @@ BODY-FEEDBACK + MECHANISM
 
 → Body-Feedback-Mechanism.md — Interface loop
   2 sources × 3 dynamics, Body-Feedback-Precondition (5 preconditions)
-  Kết nối: §4.4 (Germany — body-feedback loop in workplace)
+  Connected to: §4.4 (Germany — body-feedback loop in workplace)
 
 → Somatic-Articulation-Loop.md — Body knowledge → explicit
-  AI = catalyst giúp PFC tìm từ
-  Kết nối: §5.2 (AI enable discovery via articulation)
+  AI = catalyst helping PFC find the words
+  Connected to: §5.2 (AI enables discovery via articulation)
 
 → Chemical-Enhancement-Notes.md — §7 AI as clean replacement
-  Kết nối: §5.2 (AI = chemical-free creative engine)
+  Connected to: §5.2 (AI = chemical-free creative engine)
 ```
 
 ---
 
 > *Expansion-Saturation-Crisis v1.3*
-> *"Giáo dục sản xuất Expanders. Kinh tế cần Discoverers. Gap = crisis."*
-> *"Hướng nghiệp cũ = chọn nghề (destination). Hướng nghiệp mới = tìm process (mode)."*
-> *"Đây KHÔNG phải lỗi VN. Đây là structural shift toàn cầu."*
+> *"Education produces Expanders. The economy needs Discoverers. The gap = crisis."*
+> *"Old career guidance = choose a career (destination). New career guidance = find a process (mode)."*
+> *"This is NOT any country's fault. This is a global structural shift."*
 > *"Process + domain feedback > process alone (Germany insight)."*
-> *"4 điều kiện model: thế hệ trước 4/4 met, thế hệ nay 0/4. Cùng hardware — khác era."*
+> *"4 conditions model: previous generation met 4/4, current generation meets 0/4.*
+> *Same hardware — different era."*
 > *v1.3: +Trust.md (credential = trust signal degradation, trust lag × self-blame,*
 > *Default→Calibrated for education system trust). Cross-refs version bumps.*

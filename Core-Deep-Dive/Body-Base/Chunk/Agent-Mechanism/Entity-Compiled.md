@@ -8,70 +8,46 @@ updated: |
     gap-fillability = mechanism. Cross-ref Drill-Body-Base-Boundary-Spectrum v1.2 §12)
 status: MECHANISM v1.2
 scope: |
-  DEEP MECHANISM file cho Entity-Compiled:
-  Brain compile agent vào body-base ở STRUCTURAL level.
+  DEEP MECHANISM file for Entity-Compiled:
+  Brain compiles an agent into body-base at STRUCTURAL level.
   Agent's state = MY state. Agent's loss = body-base amputation.
-  8 research streams hội tụ → neural architecture → formation → capacity →
-  "hợp tính" → state/trait convergence → grief → love↔hate → decay →
+  8 research streams converge → neural architecture → formation → capacity →
+  compatibility → state/trait convergence → grief → love↔hate → decay →
   vulnerable by design.
 purpose: |
   Valence-Propagation.md §3 = DEFINES Entity-Compiled (what + 3 subtypes).
   Inter-Body-Mechanism.md §8 = REFRAMES terminology (Entity-Owned → Entity-Compiled).
-  File NÀY = DEEP MECHANISM: neural reality, formation, capacity, dynamics, loss, decay.
-  = "Valence-Propagation §3 mở rộng" — Valence-Propagation có 2-3 pages, file này = full deep-dive.
-  Framework readers: Valence-Propagation §3 (definition) → file này (mechanism) → Entity-Access (gradient).
-position: |
-  Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/ — cùng folder Self-Pattern-Modeling, By-Product-Gap-Resonance.
-  Agent-Mechanism.md = integration hub.
-  Self-Pattern-Modeling.md = solo mechanism (how 1 body simulate entity khác).
-  By-Product-Gap-Resonance.md = mutual phenomenon observation.
-  Entity-Compiled.md (FILE NÀY) = deep mechanism cho Entity-Compiled concept.
-  Entity-Access.md v1.0 = gradient model (access level, quality, excess, calibration).
-dependencies:
-  - Valence-Propagation.md v2.0 §3 — DEFINES Entity-Compiled, 3 subtypes
-  - Inter-Body-Mechanism.md v1.0 §8 — REFRAMES Entity-Owned → Entity-Compiled
-  - Self-Pattern-Modeling.md v3.0 — Compiled/Fresh mechanism, Self-Pattern-Modeling as Simulation-Engine
-  - By-Product-Gap-Resonance.md v1.0 — mutual phenomenon, 5 trục
-  - Agent-Mechanism.md v2.0 — integration hub, Compilable Architecture
-  - Body-Coupling.md v2.0 — coupling mechanism, love↔hate
-  - Connection.md v4.0 — 3 Generative Primitives, Entity-Compiled as connection depth
-  - Body-Feedback-Mechanism.md v2.0 — body-feedback signal system
-  - Cortisol-Baseline.md v2.1 — stress → hippocampus → compilation impact
-  - Simulation-Engine.md v1.0 — 1 engine, 3 components, self/other model gradient
-  - PFC-Operations.md v1.0 — Hold/Suppress, Fresh Loại A/B
-  - Schema.md v2.0 — observation parameter, chunk assembly
-  - Background-Pattern.md v1.1 — trait-level = deep compiled, PFC invisible
-sources:
-  - Drill-Entity-Compiled v2.0 (1,341L, 39 insights, 71 citations)
-  - Consolidates: Drill-Entity-Compiled-Deep v1.4 + Drill-Entity-Compiled-Capacity v1.0 + Session 2026-05-19
-language: Tiếng Việt primary + English technical terms
+  THIS FILE = DEEP MECHANISM: neural reality, formation, capacity, dynamics, loss, decay.
+  = "Valence-Propagation §3 expanded" — Valence-Propagation has 2-3 pages; this file = full deep-dive.
+  Framework readers: Valence-Propagation §3 (definition) → this file (mechanism) → Entity-Access (gradient).
+language: English (translated from Vietnamese source v1.2)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # Entity-Compiled — Neural Reality, Formation, Capacity, Dynamics
 
-> **Entity-Compiled = brain compile agent vào body-base ở STRUCTURAL level.**
+> **Entity-Compiled = brain compiles an agent into body-base at STRUCTURAL level.**
 >
-> **KHÔNG phải "biết về người đó" (schema). KHÔNG phải "có cảm xúc nhất thời" (valence event).**
-> **Là brain TÍCH HỢP agent vào CƠ SỞ HOẠT ĐỘNG:**
+> **NOT "knowing about them" (schema). NOT "a momentary emotion" (valence event).**
+> **The brain INTEGRATES the agent into OPERATING INFRASTRUCTURE:**
 > **Agent's state = MY state. Agent's loss = body-base amputation.**
 >
-> **8 independent research programs đều tìm ra CÙNG 1 hiện tượng.**
-> **Hub-and-Spoke neural architecture. Body mình = simulator cho close person.**
+> **8 independent research programs all discovered THE SAME phenomenon.**
+> **Hub-and-Spoke neural architecture. Your own body = simulator for close persons.**
 > **Dunbar layers = Entity-Compiled depth gradient. Depth × Breadth = constant.**
 >
-> **"Mẹ tôi bị đau — TÔI đau" — KHÔNG phải ẩn dụ. Là neural reality.**
+> **"My mother is in pain — I feel pain" — NOT a metaphor. Neural reality.**
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §0 — POSITION + THESIS
-- §1 — DEFINITION + 8 RESEARCH STREAMS HỘI TỤ
+- §1 — DEFINITION + 8 RESEARCH STREAMS CONVERGE
 - §2 — NEURAL ARCHITECTURE: HUB-AND-SPOKE + BODY SIMULATION
 - §3 — FORMATION: TIMELINE + MECHANISM + ACCELERATION
 - §4 — CAPACITY: DUNBAR + CEILING + STRATEGIES
-- §5 — "HỢP TÍNH": 2D MATRIX + META-MATCH
+- §5 — COMPATIBILITY: 2D MATRIX + META-MATCH
 - §6 — STATE/TRAIT CONVERGENCE
 - §7 — LOSS + GRIEF INTENSITY MODEL
 - §8 — LOVE ↔ HATE SHIFT
@@ -85,42 +61,42 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §0 — POSITION + THESIS
 
-### §0.1 — File này thêm gì
+### §0.1 — What This File Adds
 
 ```
-FRAMEWORK ĐÃ CÓ:
+WHAT THE FRAMEWORK ALREADY HAS:
   Valence-Propagation.md §3 = DEFINES Entity-Compiled
     → 3 subtypes (positive/negative/mixed)
-    → Gradient, không binary
-    → WHY only agent (not object)
+    → Gradient, not binary
+    → WHY only agents (not objects)
   Inter-Body-Mechanism.md §8 = REFRAMES terminology
     → Entity-Owned → Entity-Compiled
     → Multi-channel valence profile
 
-FILE NÀY THÊM:
-  ① 8 research streams CHỨNG MINH Entity-Compiled = real
+THIS FILE ADDS:
+  ① 8 research streams PROVE Entity-Compiled is real
   ② Neural architecture = Hub-and-Spoke + body simulation
   ③ Formation mechanism = timeline + acceleration + sleep
   ④ Capacity = Dunbar ceiling + 3 resource limits
-  ⑤ "Hợp tính" = 2D matrix + meta-match
+  ⑤ Compatibility = 2D matrix + meta-match
   ⑥ State/trait = bodies converge, personalities don't
   ⑦ Loss = A+B+C grief intensity model
   ⑧ Love ↔ Hate = shared substrate + shift pathways
   ⑨ Decay = 3-layer (schema / affect / episode)
   ⑩ Machine logic = vulnerable by design + evolution rationale
 
-= Valence-Propagation §3 = WHAT. File này = HOW + WHY + DYNAMICS.
+= Valence-Propagation §3 = WHAT. This file = HOW + WHY + DYNAMICS.
 ```
 
-### §0.2 — Reading flow
+### §0.2 — Reading Flow
 
 ```
 READING FLOW:
   Agent-Mechanism.md (integration hub)
-    → Self-Pattern-Modeling.md (HOW 1 body simulate entity)
-    → Entity-Compiled.md (FILE NÀY: WHAT happens khi simulation compile SÂU)
+    → Self-Pattern-Modeling.md (HOW 1 body simulates an entity)
+    → Entity-Compiled.md (THIS FILE: WHAT happens when simulation compiles DEEP)
     → [PLANNED] Entity-Access.md (HOW access level changes over time)
-    → By-Product-Gap-Resonance.md (WHEN mutual quality emerge)
+    → By-Product-Gap-Resonance.md (WHEN mutual quality emerges)
 
 COMPANION FILES:
   Body-Coupling.md = coupling mechanism (depth × direction)
@@ -130,16 +106,16 @@ COMPANION FILES:
 
 ---
 
-## §1 — DEFINITION + 8 RESEARCH STREAMS HỘI TỤ
+## §1 — DEFINITION + 8 RESEARCH STREAMS CONVERGE
 
 ### §1.1 — Definition (from Valence-Propagation v2.0 §3)
 
 ```
-ENTITY-COMPILED = brain compile agent vào body-base ở STRUCTURAL level.
+ENTITY-COMPILED = brain compiles an agent into body-base at STRUCTURAL level.
 
-= KHÔNG phải "biết về người đó" (schema)
-= KHÔNG phải "có cảm xúc nhất thời" (valence event)
-= Là brain TÍCH HỢP agent vào CƠ SỞ HOẠT ĐỘNG:
+= NOT "knowing about that person" (schema)
+= NOT "having a momentary emotion about them" (valence event)
+= The brain INTEGRATES the agent into OPERATING INFRASTRUCTURE:
   → Agent's state = MY state (Valence-Propagation §3.1)
   → Agent's loss = body-base amputation (Valence-Propagation §3.4)
 
@@ -147,56 +123,57 @@ ENTITY-COMPILED = brain compile agent vào body-base ở STRUCTURAL level.
   ① Positive-dominant: presence = approach + reward. Loss = grief.
   ② Negative-dominant: presence = threat. Loss = relief (or emptiness).
   ③ Mixed (ambivalent): MOST COMMON. Long relationships →
-     many channels compile → both positive AND negative.
-     Loss = complex grief (relief + pain simultaneously).
+     many channels compile → both positive AND negative simultaneously.
+     Loss = complex grief (relief + pain at the same time).
 
 🟢 Ambivalence well-documented: Cacioppo & Berntson 1994 (R20)
-🟡 "Entity-Compiled" as explicit concept = framework synthesis
+🟡 "Entity-Compiled" as an explicit concept = framework synthesis
 ```
 
-### §1.2 — 8 research streams hội tụ
+### §1.2 — 8 Research Streams Converge
 
 ```
-⭐ ENTITY-COMPILED = KHÔNG PHẢI FRAMEWORK INVENTION.
-   8 research programs ĐỘC LẬP đều tìm ra cùng 1 hiện tượng:
+⭐ ENTITY-COMPILED IS NOT A FRAMEWORK INVENTION.
+   8 INDEPENDENT research programs all discovered the same phenomenon:
 ```
 
 | # | Research stream | Citation | Finding | Evidence |
 |---|---|---|---|---|
-| 1 | **Shared pain circuits** | Singer et al. 2004 (R1) | Vợ nhìn chồng đau → anterior insula + ACC CỦA VỢ activate. Cùng vùng khi chính vợ bị đau | 🟢 fMRI |
-| 2 | **Social Baseline Theory** | Coan & Beckes 2006, 2011 (R2) | Não MẶC ĐỊNH coi close others = phần mở rộng. Nắm tay chồng → threat circuits TẮT BỚT | 🟢 fMRI |
-| 3 | **Self-Other overlap** | Courtney & Meyer 2020 (R3) | vMPFC (vùng "self") dùng CHUNG neural substrate cho "tôi" và "người thân" | 🟢 fMRI |
-| 4 | **Biobehavioral synchrony** | Feldman 2012 (R4) | Mẹ-bé đồng bộ 4 hệ: hành vi + tim + oxytocin + não. Đo được | 🟢 Physiological |
-| 5 | **Cortisol synchrony** | Saxbe & Repetti 2010 (R5) | Vợ chồng đồng bộ cortisol slope. Stress 1 người → cortisol người kia SHIFT | 🟢 Endocrine |
-| 6 | **Interbrain synchrony** | Nguyen et al. 2020 (R6) | fNIRS hyperscanning: mẹ-con cooperate → PFC 2 não oscillate CÙNG NHAU | 🟢 fNIRS |
-| 7 | **IOS (Inclusion of Other in Self)** | Aron et al. 1992 (R7) | Close relationship → incorporate partner vào self-concept. Mất = "self-concept confusion" | 🟢 Behavioral + longitudinal |
-| 8 | **Grief = phantom limb** | Ratcliffe 2018 (R8) | Neural networks built qua years TIẾP TỤC FIRE sau khi mất | 🟡 Phenomenological + neuro |
+| 1 | **Shared pain circuits** | Singer et al. 2004 (R1) | Wife watches husband in pain → wife's OWN anterior insula + ACC activate. Same regions as when wife herself experiences pain | 🟢 fMRI |
+| 2 | **Social Baseline Theory** | Coan & Beckes 2006, 2011 (R2) | Brain DEFAULTS to treating close others as extensions of self. Holding husband's hand → threat circuits REDUCE | 🟢 fMRI |
+| 3 | **Self-Other overlap** | Courtney & Meyer 2020 (R3) | vMPFC (the "self" region) uses SHARED neural substrate for "I" and "close others" | 🟢 fMRI |
+| 4 | **Biobehavioral synchrony** | Feldman 2012 (R4) | Mother-infant synchronized across 4 systems: behavior + heart rate + oxytocin + brain. Measurable | 🟢 Physiological |
+| 5 | **Cortisol synchrony** | Saxbe & Repetti 2010 (R5) | Spouses synchronize cortisol slopes. One person's stress → partner's cortisol SHIFTS | 🟢 Endocrine |
+| 6 | **Interbrain synchrony** | Nguyen et al. 2020 (R6) | fNIRS hyperscanning: mother-child cooperating → PFC of both brains oscillate TOGETHER | 🟢 fNIRS |
+| 7 | **IOS (Inclusion of Other in Self)** | Aron et al. 1992 (R7) | Close relationship → incorporates partner into self-concept. Loss = "self-concept confusion" | 🟢 Behavioral + longitudinal |
+| 8 | **Grief = phantom limb** | Ratcliffe 2018 (R8) | Neural networks built over years CONTINUE FIRING after the person is gone | 🟡 Phenomenological + neuro |
 
-### §1.3 — Framework mapping
+### §1.3 — Framework Mapping
 
 ```
 ENTITY-COMPILED (Valence-Propagation v2.0 §3) = CONFIRMED:
-  → Agent compile vào body-base ở STRUCTURAL level ✅ (Coan, Courtney)
-  → Agent's state = MY state (không chỉ empathy momentary) ✅ (Singer)
+  → Agent compiles into body-base at STRUCTURAL level ✅ (Coan, Courtney)
+  → Agent's state = MY state (not just momentary empathy) ✅ (Singer)
   → Grief = body-base amputation ✅ (Ratcliffe, Eisenberger)
   → 3 subtypes (positive/negative/mixed) ✅ (Cacioppo & Berntson 1994)
-  → Gradient, không binary ✅ (IOS scale = continuous)
+  → Gradient, not binary ✅ (IOS scale = continuous)
 
-ENRICH:
-  → Social Baseline Theory: não DEFAULT = social → Entity-Compiled
-    KHÔNG PHẢI "thêm agent vào" mà là "DEEPEN cái đã DEFAULT"
-  → Biobehavioral synchrony: 4-system sync = evidence PHYSIOLOGICAL
-  → Body budgeting (Barrett 2017): Entity-Compiled = agent tích hợp
-    vào ALLOSTATIC PREDICTION
+ENRICHMENT:
+  → Social Baseline Theory: brain DEFAULT = social → Entity-Compiled
+    is NOT "adding an agent in" but "DEEPENING what is already the DEFAULT"
+  → Biobehavioral synchrony: 4-system sync = PHYSIOLOGICAL evidence
+  → Body budgeting (Barrett 2017): Entity-Compiled = agent integrated
+    into ALLOSTATIC PREDICTION
 
 MECHANISM NOTE (→ §7, Entity-Valence-Dynamics §2.4):
   "Agent's state = MY state" = DESCRIPTION (what PFC observes).
-  MECHANISM gốc = gap-fillability baseline:
-    → Entity compiled deep → fills NHIỀU gaps → part of BASELINE
-    → Entity state change → Self-Pattern-Modeling predict gap-fillability change → body respond
-    → Entity mất → baseline VIOLATED → Chunk-Miss → pain (§7: A+B+C)
+  UNDERLYING MECHANISM = gap-fillability baseline:
+    → Entity compiled deep → fills MANY gaps → part of BASELINE
+    → Entity state changes → Self-Pattern-Modeling predicts
+      gap-fillability change → body responds
+    → Entity lost → baseline VIOLATED → Chunk-Miss → pain (§7: A+B+C)
   = "State sharing" = compressed prediction over gap-fillability.
-  = Yếu tố chính: total gap body-need being fed.
+  = Key factor: total gap body-need being fed.
   Cross-ref: Drill-Body-Base-Boundary-Spectrum v1.2 §12 (Loss Mechanism).
 
 🟢 8 independent streams converge → very high confidence
@@ -204,19 +181,23 @@ MECHANISM NOTE (→ §7, Entity-Valence-Dynamics §2.4):
 🟡 "State = my state" as description, gap-fillability as mechanism = drill reframe
 ```
 
-### §1.4 — Verbalization window
+### §1.4 — Verbalization Window
 
 ```
-ENTITY-COMPILED KHÔNG CÓ TỪ CHÍNH XÁC.
-Ngôn ngữ tự nhiên bắt được TỪNG KHÍA CẠNH:
+ENTITY-COMPILED HAS NO PRECISE WORDS.
+Natural language captures each ASPECT but not the whole:
 
-  "Máu thịt của tôi"       → body-base extension (structural)
-  "Đi guốc trong bụng tôi" → compiled Self-Pattern-Modeling + interoceptive + entity inside body-base
-  "Không cần nói cũng hiểu" → Compiled predict accurate
-  "We" thay "I"             → merged identity (Gallotti & Frith 2013: We-Mode)
+  "My flesh and blood"            → body-base extension (structural)
+  "Reading me like an open book"  → compiled Self-Pattern-Modeling
+                                     + interoceptive + entity inside body-base
+  "No words needed — just understood" → Compiled prediction accurate
+  "We" replacing "I"              → merged identity (Gallotti & Frith 2013: We-Mode)
 
-Vietnamese "bụng" = seat of emotion (🟢 Dang 2017).
-"Đi guốc trong bụng" = 4 layers: Self-Pattern-Modeling accuracy + interoception + entity-compiled + transactive.
+Vietnamese "bụng" (belly) = conceptual seat of emotion,
+parallel to English "heart" in emotional language. 🟢 Dang 2017.
+The Vietnamese expression "walking on wooden sandals inside my belly"
+captures 4 layers simultaneously: Self-Pattern-Modeling accuracy
++ interoception + entity-compiled + transactive memory.
 
 🟢 Linguistic evidence confirms body-level nature of phenomenon
 ```
@@ -225,129 +206,133 @@ Vietnamese "bụng" = seat of emotion (🟢 Dang 2017).
 
 ## §2 — NEURAL ARCHITECTURE: HUB-AND-SPOKE + BODY SIMULATION
 
-### §2.1 — Person-model = Hub-and-Spoke
+### §2.1 — Person-Model = Hub-and-Spoke
 
 ```
-⭐ PERSON-MODEL KHÔNG NẰM Ở 1 CHỖ.
-   Kiến trúc = HUB-AND-SPOKE (Patterson & Lambon Ralph 2007, 2017).
+⭐ A PERSON-MODEL DOES NOT LIVE IN ONE PLACE.
+   Architecture = HUB-AND-SPOKE (Patterson & Lambon Ralph 2007, 2017).
 
-KHI NGHĨ ĐẾN "MẸ":
+WHEN THINKING ABOUT "MOTHER":
 
-SPOKES (modality-specific, phân tán khắp cortex):
-  ├── Visual cortex (fusiform) ── mặt mẹ, dáng đi, nhà mẹ
-  ├── Auditory cortex ─────────── giọng mẹ, tiếng mẹ gọi tên
-  ├── Somatosensory (SI/SII) ─── cảm giác tay mẹ, ôm mẹ
-  ├── Olfactory cortex ────────── mùi mẹ, mùi bếp nhà mẹ
-  ├── Motor cortex ────────────── cách cử động quanh mẹ
-  ├── Insula ──────────────────── cảm giác "ấm" khi ở cạnh
-  ├── Interoceptive (visceral) ── gut feeling về trạng thái mẹ
-  └── mPFC ────────────────────── trait knowledge ("mẹ là người thế nào")
+SPOKES (modality-specific, distributed throughout cortex):
+  ├── Visual cortex (fusiform) ── mother's face, gait, home
+  ├── Auditory cortex ─────────── mother's voice, hearing her call your name
+  ├── Somatosensory (SI/SII) ─── feeling of mother's hands, hugging her
+  ├── Olfactory cortex ────────── mother's scent, kitchen smell from home
+  ├── Motor cortex ────────────── how your body moves around mother
+  ├── Insula ──────────────────── felt sense of "warmth" when beside her
+  ├── Interoceptive (visceral) ── gut sense of mother's emotional state
+  └── mPFC ────────────────────── trait knowledge ("what kind of person mother is")
 
 HUB (binding center):
-  └── Anterior Temporal Lobe (ATL) ── gom TẤT CẢ spokes = "MẸ"
-      ↕ Amygdala (đánh giá cảm xúc)
-      ↕ OFC (ra quyết định liên quan đến mẹ)
-      ↕ Hippocampus (episodic memory với mẹ)
+  └── Anterior Temporal Lobe (ATL) ── gathers ALL spokes = "MOTHER"
+      ↕ Amygdala (emotional evaluation)
+      ↕ OFC (decisions related to mother)
+      ↕ Hippocampus (episodic memories with mother)
 
 FRAMEWORK: Person-model = CHUNK ASSEMBLY (Schema.md v2.0)
-  Mỗi spoke = cluster compiled chunks ở modality đó
+  Each spoke = cluster of compiled chunks in that modality
   ATL hub = binding mechanism → schema
-  Entity-Compiled = khi assembly DEEP + STRUCTURAL enough:
-    → Body treat person-schema channels AS own channels (Valence-Propagation §3)
+  Entity-Compiled = when assembly is DEEP + STRUCTURAL enough:
+    → Body treats person-schema channels AS its own channels
+      (Valence-Propagation §3)
 
 🟡 Mapping Hub-and-Spoke → chunk assembly = framework synthesis.
-   Consistent: cả 2 mô tả cùng hiện tượng ở 2 levels of description.
+   Consistent: both describe the same phenomenon at 2 levels of description.
 ```
 
 ### §2.2 — Evidence
 
 ```
-🟢 Semantic dementia (ATL bị teo):
-  → Mất DẦN TOÀN BỘ knowledge về người thân
-  → Không chỉ quên tên — quên mặt, giọng, cả cảm xúc
-  → Spokes vẫn còn nhưng hub mất → KHÔNG gom lại thành "người này"
+🟢 Semantic dementia (ATL atrophy):
+  → Gradually LOSES ALL knowledge of close persons
+  → Not just forgetting names — loses face recognition, voice, even emotions
+  → Spokes still intact but hub is gone → CANNOT bind into "this person"
 
 🟢 fMRI (Fernandino et al. 2022, J. Neuroscience):
-  → Retrieve concept → activate multi-modal cortical regions
+  → Retrieving a concept → activates multi-modal cortical regions
 
 🟢 PNAS 2024 — temporal pole:
-  → Vùng riêng xử lý FAMILIAR persons (khác stranger)
+  → Dedicated region for processing FAMILIAR persons (distinct from strangers)
 
 🟢 Person-specific neural signatures (Arsalidou et al. 2010):
-  → Mẹ vs bố vs partner vs stranger = DIFFERENT activation patterns
-  → Mỗi người = unique neural constellation
+  → Mother vs father vs partner vs stranger = DIFFERENT activation patterns
+  → Each person = unique neural constellation
 ```
 
-### §2.3 — Body simulation: body mình = simulator cho close person
+### §2.3 — Body Simulation: Your Body Is the Simulator for Close Persons
 
 ```
-⭐ PHÁT HIỆN QUAN TRỌNG:
+⭐ KEY FINDING:
 
 🟢 Beckes & Coan 2012 (fMRI):
-  Threat với BẠN THÂN: anterior insula + putamen + supramarginal
-  = GIỐNG HỆT threat với BẢN THÂN. Khác STRANGER.
-  → Close person → simulate BẰNG CHÍNH CƠ THỂ MÌNH
+  Threat to a CLOSE FRIEND: anterior insula + putamen + supramarginal gyrus
+  = IDENTICAL to threat to ONESELF. Different from STRANGER.
+  → Close person → simulated USING YOUR OWN BODY
 
 🟢 Keysers & Gazzola 2010 (Nat Rev Neurosci):
-  Nhìn ai bị chạm → SI/SII MÌNH activate, SOMATOTOPIC
-  → Chạm TAY họ → vùng TAY mình fire
+  Watching someone being touched → your own SI/SII activates, SOMATOTOPICALLY
+  → Touch on THEIR hand → your HAND region fires
 
 🟢 Gordon et al. 2013 (PNAS):
-  SI discriminate AFFECTIVE SIGNIFICANCE of social touch
-  = Cùng vuốt ve — cảm giác KHÁC TÙY AI chạm
-  → SI đã compile PER-AGENT VALENCE vào xúc giác
+  SI discriminates AFFECTIVE SIGNIFICANCE of social touch
+  = Same caress — the experience is DIFFERENT depending on WHO touches you
+  → SI has already compiled PER-AGENT VALENCE into touch perception
 
 🟢 Mirror neuron familiarity gradient (EEG mu-suppression):
-  Chính mình → fire MẠNH NHẤT
-  Người thân → fire MẠNH VỪA
-  Stranger → fire YẾU NHẤT
-  → Entity-Compiled level càng CAO → body simulate càng SÂU
+  Yourself → fires STRONGEST
+  Close person → fires MODERATELY STRONG
+  Stranger → fires WEAKEST
+  → The higher the Entity-Compiled level → the deeper body simulation
 
 FRAMEWORK:
-  Self-Pattern-Modeling Compiled = embodied simulation (body fire bản sao yếu)
-  Self-Pattern-Modeling Fresh = cognitive simulation (PFC draft)
-  Entity-Compiled DEEP → Compiled dominate → MORE body involvement
-  → Giải thích: close person's pain = "pain CỦA TÔI"
-    (não dùng CHÍNH pain circuits CỦA TÔI để simulate)
+  Self-Pattern-Modeling Compiled = embodied simulation
+    (body fires a weak copy)
+  Self-Pattern-Modeling Fresh = cognitive simulation
+    (PFC drafts)
+  Entity-Compiled DEEP → Compiled dominates → MORE body involvement
+  → Explains: close person's pain = "pain THAT IS MINE"
+    (brain uses its OWN pain circuits to simulate)
 
 🟢 Simulation-Engine.md v1.0: Self/Other Model component —
-   mPFC gradient ventral (self+close) → dorsal (far/stranger).
-   Entity-Compiled DEEP = ventral processing (gần self).
+   mPFC gradient ventral (self + close) → dorsal (far/stranger).
+   Entity-Compiled DEEP = ventral processing (close to self).
 ```
 
-### §2.4 — Individual variation + Alexithymia proof
+### §2.4 — Individual Variation + Alexithymia Proof
 
 ```
 🟢 Nummenmaa et al. 2014, 2019 (PNAS, N=3,954, 101 countries):
   Bodily sensation maps = UNIVERSAL (r > 0.82)
-  NHƯNG: different emotions → different body regions
+  BUT: different emotions → different body regions
   + Individual variation = personality factors (2023)
 
-CẢM NHẬN "Ở ĐÂU TRONG CƠ THỂ" = 3 NGUỒN CỘNG DỒN:
-  ① Bottom-up physiological (tín hiệu vật lý thật)
+WHERE IN THE BODY YOU FEEL IT = 3 ADDITIVE SOURCES:
+  ① Bottom-up physiological (real physical signals)
   ② Top-down behavioral (motor preparation)
-  ③ Conceptual/cultural schemas (Vietnamese "bụng", English "heart")
-  → Mỗi người = tổ hợp riêng → KHÔNG CÓ đúng/sai
+  ③ Conceptual/cultural schemas
+    (Vietnamese "bụng"/belly; English "heart")
+  → Each person = a unique combination → NO right or wrong
 
-⭐ ALEXITHYMIA (~10% dân số) — PROOF body signals NECESSARY:
+⭐ ALEXITHYMIA (~10% of population) — PROOF that body signals ARE NECESSARY:
   🟢 Bird & Cook 2013: "alexithymia, NOT autism per se, underpins
     socio-emotional atypicalities"
-  = Broken READOUT, not broken simulation (Compiled VẪN fire)
-  → Body signals = INPUT THIẾT YẾU cho social cognition
-  → Mất input → mất ability read own simulation → social deficit
-  → Entity-Compiled CẦN body signals để MAINTAIN awareness
+  = Broken READOUT, not broken simulation (Compiled still fires)
+  → Body signals = ESSENTIAL INPUT for social cognition
+  → Without input → loses ability to read own simulation → social deficit
+  → Entity-Compiled REQUIRES body signals to MAINTAIN awareness
   → Simulation-Engine.md §7: alexithymia degrades ALL applications
 
-🟢 Decisive proof: nếu body signals là luxury → alexithymia sẽ
-   chỉ ảnh hưởng self. NHƯNG nó ảnh hưởng CẢ social cognition
-   → body simulation IS social cognition mechanism (Gallese 2011)
+🟢 Decisive proof: if body signals were optional → alexithymia would
+   only affect self. BUT it affects SOCIAL COGNITION too
+   → body simulation IS the social cognition mechanism (Gallese 2011)
 ```
 
 ---
 
 ## §3 — FORMATION: TIMELINE + MECHANISM + ACCELERATION
 
-### §3.1 — Hours → friendship tiers
+### §3.1 — Hours → Friendship Tiers
 
 ```
 🟢 Hall 2018 (J. Social and Personal Relationships, N=355):
@@ -361,20 +346,21 @@ CRITICAL NUANCES:
   PASSIVE co-presence counts LITTLE (same office, same class)
   Text/social media ≈ ZERO contribution
 
-FRAMEWORK: "Hours" = proxy cho CHUNK COMPILE CYCLES
-  Mỗi interaction = predict → verify → match/mismatch → Hebbian
+FRAMEWORK: "Hours" = proxy for CHUNK COMPILE CYCLES
+  Each interaction = predict → verify → match/mismatch → Hebbian
   Active interaction = HIGH predict cycles per hour
   Passive co-presence = LOW predict cycles per hour
-  → Không phải "hours" per se — là SỐ LẦN Self-Pattern-Modeling PREDICT thành công
+  → Not "hours" per se — it is THE NUMBER OF TIMES
+    Self-Pattern-Modeling SUCCESSFULLY PREDICTS
 ```
 
-### §3.2 — Schema acceleration (Tse 2007)
+### §3.2 — Schema Acceleration (Tse 2007)
 
 ```
 🟢 Tse et al. 2007 (Science):
   Standard consolidation: hippocampus → neocortex = WEEKS
   Schema-based consolidation: hippocampus → neocortex = 48 HOURS
-  Condition: pre-existing SCHEMA phải có sẵn
+  Condition: pre-existing SCHEMA must already be in place
 
 FRAMEWORK: NON-LINEAR acceleration curve
 
@@ -389,37 +375,37 @@ FRAMEWORK: NON-LINEAR acceleration curve
   └────────────────────────────────────→ Hours of interaction
        40      80       200+
 
-① Gặp đầu (0-40h): chưa có person-schema → consolidation CHẬM
+① First meeting (0-40h): no person-schema yet → consolidation SLOW
 ② Schema forms (~40-60h): ATL hub + basic spokes → Tse effect kicks in
-③ Schema deep (~200+h): new data assimilate GẦN NHƯ instantly
-   → "Hiểu nhau không cần nói" = schema predict TRƯỚC input
+③ Schema deep (~200+h): new data assimilates NEARLY INSTANTLY
+   → "Understanding each other without words" = schema predicts BEFORE input
 
 🟡 Non-linear curve = framework synthesis based on Tse + Hall data
 ```
 
-### §3.3 — Neural compatibility predicts friendship
+### §3.3 — Neural Compatibility Predicts Friendship
 
 ```
 🟢 Parkinson et al. 2018 (Nature Communications):
-  Close friends → similar neural responses khi xem cùng video
-  Social distance tăng → neural similarity GIẢM
+  Close friends → similar neural responses when watching the same video
+  Social distance increases → neural similarity DECREASES
 
 🟢 Parkinson et al. 2025 (Nature Human Behaviour):
-  PRE-EXISTING neural similarity ở strangers predict
-  ai sẽ THÀNH BẠN trong 6 tháng
-  → Orbitofrontal cortex (subjective value) đặc biệt predictive
+  PRE-EXISTING neural similarity in strangers predicts
+  who will BECOME FRIENDS within 6 months
+  → Orbitofrontal cortex (subjective value) especially predictive
 
 FRAMEWORK:
   Pre-existing neural similarity = pre-existing chunk overlap
-  → Maps to By-Product-Gap-Resonance §4 Trục 1 (Gap Overlap)
-  → Parkinson 2025 = EVIDENCE cho Gap Overlap predict resonance
+  → Maps to By-Product-Gap-Resonance §4 Axis 1 (Gap Overlap)
+  → Parkinson 2025 = EVIDENCE that Gap Overlap predicts resonance
 
   Formation = f(time × compatibility × interaction quality)
   Compatible: shared chunks → Compiled accurate → reward → compile faster
-  Incompatible: low overlap → Compiled miss → cost → compile slower/fail
+  Incompatible: low overlap → Compiled misses → cost → compile slower/fails
 ```
 
-### §3.4 — Sleep = Entity-Compiled compiler
+### §3.4 — Sleep = Entity-Compiled Compiler
 
 ```
 🟢 Diekelmann & Born 2010:
@@ -427,98 +413,99 @@ FRAMEWORK:
 
 🟢 2025 research: CA2 pyramidal neurons reactivation during
   sharp-wave ripples = ESSENTIAL for SOCIAL memory specifically
-  Disruption → SUPPRESS social memory. Enhancement → PROLONG.
+  Disruption → SUPPRESSES social memory. Enhancement → PROLONGS.
 
 🟢 Bhatt et al. 2025: Oxytocin modulates social memory
   consolidation during REM sleep
 
 FRAMEWORK:
-  Interaction during day = data collection
+  Interaction during waking = data collection
   Sleep = compilation (hippocampus → neocortex transfer)
 
   IMPLICATION:
-  Mất ngủ (cortisol cao, chronic stress) →
-    compile social knowledge CHẬM HƠN →
-    Entity-Compiled formation CHẬM → relationships NÔNG HƠN
+  Sleep deprivation (elevated cortisol, chronic stress) →
+    compiles social knowledge MORE SLOWLY →
+    Entity-Compiled formation SLOWER → shallower relationships
   → Maps to: Cortisol-Baseline v2.1 §9 (cortisol → hippocampus damage)
 
 🟢 Sleep research well-established
 🟡 Sleep disruption → Entity-Compiled delay = framework inference
 ```
 
-### §3.5 — Fresh Loại A vs Loại B trong formation
+### §3.5 — Fresh Type A vs Type B in Formation
 
 ```
-⭐ Fresh FRESH CÓ 2 LOẠI RẤT KHÁC (PFC-Operations.md v1.0):
+⭐ FRESH HAS 2 VERY DIFFERENT TYPES (PFC-Operations.md v1.0):
 
-Fresh LOẠI A — "HỌC MỚI" (no existing compiled to fight):
-  = Chưa có compiled chunk nào cho target này
-  = PFC draft từ đầu → Cost: PFC draft ONLY (suppress = 0)
+Fresh TYPE A — "LEARNING NEW" (no existing compiled to fight):
+  = No compiled chunks yet exist for this target
+  = PFC drafts from scratch → Cost: PFC draft ONLY (suppress = 0)
   = Body OPEN (curiosity, novelty) → Hebbian compile NATURAL
-  VD: tìm hiểu bạn mới genuine, mẹ Self-Pattern-Modeling lên con sơ sinh
+  Example: genuinely getting to know someone new,
+           mother simulating her newborn for the first time
 
-Fresh LOẠI B — "GHI ĐÈ" (suppress existing compiled):
-  = ĐÃ CÓ compiled chunk → PFC phải SUPPRESS → draft mới
-  = Cost: PFC draft + SUPPRESS (body RESIST)
-  = Compile potential THẤP HƠN (body in conflict)
-  VD: cố bỏ qua ấn tượng xấu ban đầu, "cho cơ hội lần 2"
+Fresh TYPE B — "OVERWRITING" (suppressing existing compiled):
+  = Compiled chunks ALREADY EXIST → PFC must SUPPRESS → draft anew
+  = Cost: PFC draft + SUPPRESS (body RESISTS)
+  = Lower compile potential (body in conflict)
+  Example: trying to look past a bad first impression, "giving someone a second chance"
 
 KEY DIFFERENCE:
-  Loại A: body + PFC = CÙNG HƯỚNG → compile fast
-  Loại B: body vs PFC = NGƯỢC HƯỚNG → compile hard
-  "Ép bản thân mở lòng" = suppress ≠ "thật sự mở lòng" = recompile
+  Type A: body + PFC = SAME DIRECTION → compile fast
+  Type B: body vs PFC = OPPOSING DIRECTIONS → compile hard
+  "Forcing yourself to open up" = suppress ≠ "genuinely opening up" = recompile
 
 AUTHENTICITY GATE:
-  Body BIẾT fake vs genuine (efference copy — Autonomy-Hardware):
-  PFC override "giả vờ quan tâm" → Loại B → suppress tích lũy → bỏ
-  PFC override "thật sự tò mò" → Loại A → body engage → compile
-  → Entity-Compiled formation CẦN genuine engagement
+  Body KNOWS fake vs genuine (efference copy — Autonomy-Hardware):
+  PFC overrides with "pretend to care" → Type B → suppress accumulates → abandons
+  PFC overrides with "genuinely curious" → Type A → body engages → compiles
+  → Entity-Compiled formation REQUIRES genuine engagement
 
 🟡 Fresh A/B distinction = PFC-Operations.md v1.0 framework
 🟡 Authenticity gate via efference copy = framework synthesis
 ```
 
-### §3.6 — Threshold: continuous + 2 acceleration points
+### §3.6 — Threshold: Continuous + 2 Acceleration Points
 
 ```
 🟢 Roberts & Dunbar 2015: ties "gradually increase or decrease"
-🟢 Aron 1997 (Fast Friends): 45 phút reciprocal disclosure → IOS tăng
-   NHƯNG: Aron caution "not loyalty, dependence, or commitment"
+🟢 Aron 1997 (Fast Friends): 45 minutes reciprocal disclosure → IOS increases
+   BUT: Aron cautions "not loyalty, dependence, or commitment"
 🟢 Beckes & Coan 2013: deep self-other overlap = established relationships only
 
-⭐ KHÔNG CÓ discrete threshold. CONTINUOUS gradient + 2 acceleration points:
+⭐ NO discrete threshold. CONTINUOUS gradient + 2 acceleration points:
 
   Point 1 (~40-60h): Person-schema FORMS
     → Schema-assisted consolidation kicks in (Tse 2007)
-    → Compile speed TĂNG đột biến
-    → "Bắt đầu quen rồi"
+    → Compile speed JUMPS
+    → "Starting to feel familiar"
 
-  Point 2 (variable, ~200+h for compatible):
-    → Compiled DOMINATE → interaction cost ≈ 0
+  Point 2 (variable, ~200+h for compatible pairs):
+    → Compiled DOMINATES → interaction cost ≈ 0
     → Body-base extension begins
-    → "Không cần nghĩ, tự hiểu"
+    → "No need to think — just understand each other"
 
-  Variable vì:
-    Compatible pairs: Point 2 sớm (~100-150h?)
+  Variable because:
+    Compatible pairs: Point 2 arrives early (~100-150h?)
     Incompatible: Point 2 NEVER reached (cost > reward → abandon)
-    Kin + hormone boost: Point 2 CỰC SỚM (mẹ-con: weeks, not months)
+    Kin + hormone boost: Point 2 EXTREMELY EARLY (mother-child: weeks, not months)
 
 🟡 2 acceleration points = framework synthesis from Hall + Tse + Coan data
 ```
 
-### §3.7 — Hormone boost accelerate compile
+### §3.7 — Hormone Boost Accelerates Compile
 
 ```
-🟢 Feldman 2012: mẹ-bé interaction → oxytocin SURGE cả 2 bên
-  Oxytocin + prolactin → tăng peak_valence → tăng compile_rate
+🟢 Feldman 2012: mother-infant interaction → oxytocin SURGE in both
+  Oxytocin + prolactin → increases peak_valence → increases compile_rate
 
   Compile rate = f(exposure × saliency × contingency × peak_valence × multi_modal)
 
-  Mẹ-con = FASTEST Entity-Compiled formation vì:
+  Mother-child = FASTEST Entity-Compiled formation because:
   → Hormone boost → peak_valence ↑↑
   → Multi-modal (touch + voice + smell + visual) → ↑↑↑
-  → Repetition (mỗi ngày, nhiều lần) → ↑↑↑↑
-  = Evolution PROTECTED pathway
+  → Repetition (daily, many times) → ↑↑↑↑
+  = Evolution-PROTECTED pathway
 
 OTHER HARDWARE BOOSTERS:
   Romantic attraction: dopamine + norepinephrine → saliency ↑
@@ -533,7 +520,7 @@ OTHER HARDWARE BOOSTERS:
 
 ## §4 — CAPACITY: DUNBAR + CEILING + STRATEGIES
 
-### §4.1 — Dunbar layers = Entity-Compiled depth gradient
+### §4.1 — Dunbar Layers = Entity-Compiled Depth Gradient
 
 ```
 🟢 Dunbar 1992, 2024 (Social Brain Hypothesis, 30+ years confirmed):
@@ -541,16 +528,16 @@ OTHER HARDWARE BOOSTERS:
 
 🟢 Zhou et al. 2005 (Proc. Royal Society B — empirical):
 
-  ┌────────┬───────┬────────────────────────────────────────┐
-  │ Layer  │ Size  │ Entity-Compiled depth                   │
-  ├────────┼───────┼────────────────────────────────────────┤
-  │ S1     │  ~5   │ DEEP — Compiled, body-base extension │
-  │ S2     │ ~15   │ MODERATE — Compiled per-domain, body-feedback │
+  ┌────────┬───────┬──────────────────────────────────────────────────┐
+  │ Layer  │ Size  │ Entity-Compiled depth                             │
+  ├────────┼───────┼──────────────────────────────────────────────────┤
+  │ S1     │  ~5   │ DEEP — Compiled, body-base extension             │
+  │ S2     │ ~15   │ MODERATE — Compiled per-domain, body-feedback    │
   │ S3     │ ~50   │ SHALLOW — Compiled basic + Fresh for novel       │
-  │ S4     │ ~150  │ Self-Pattern-Modeling Fresh only, no body-base extension   │
-  │ S5     │ ~500  │ Schema only (face+name, no Self-Pattern-Modeling)          │
-  │ S6     │~1500  │ Visual recognition only                  │
-  └────────┴───────┴────────────────────────────────────────┘
+  │ S4     │ ~150  │ Self-Pattern-Modeling Fresh only, no body-base   │
+  │ S5     │ ~500  │ Schema only (face+name, no Self-Pattern-Modeling)│
+  │ S6     │~1500  │ Visual recognition only                          │
+  └────────┴───────┴──────────────────────────────────────────────────┘
 
   Scaling ratio ≈ 3 between layers (5→15→50→150→500→1500)
   Consistent across cultures, online + offline
@@ -559,26 +546,26 @@ OTHER HARDWARE BOOSTERS:
 🟢 Sutcliffe et al. 2012: computational model validated layer structure
 ```
 
-### §4.2 — 3 ceiling mechanisms
+### §4.2 — 3 Ceiling Mechanisms
 
 ```
-⭐ CEILING VÌ 3 RESOURCE GIỚI HẠN:
+⭐ CEILING DUE TO 3 RESOURCE LIMITS:
 
-① CHUNK LIBRARY PER AGENT = FINITE:
-  Mỗi S1 agent = HÀNG NGHÌN chunks compiled (all modalities)
-  5 agents × nghìn chunks = tens of thousands dedicated
+① CHUNK LIBRARY PER AGENT IS FINITE:
+  Each S1 agent = THOUSANDS of compiled chunks (all modalities)
+  5 agents × thousands of chunks = tens of thousands dedicated
   + cross-links → exponential complexity → brain capacity FINITE
 
 ② MAINTENANCE COST (Hebbian: use or lose):
-  Regular interaction → keep chunks active
-  Update knowledge (agent THAY ĐỔI → chunks phải update)
-  Conflict resolution (3-cost khi mismatch occurs)
-  → Finite processing budget → finite agents
+  Regular interaction → keeps chunks active
+  Update knowledge (agent CHANGES → chunks must update)
+  Conflict resolution (3-cost when mismatch occurs)
+  → Finite processing budget → finite number of agents
 
 ③ INTERFERENCE BETWEEN MODELS:
   Similar agents → shared chunks reusable → interference LOW
   Different agents → unique chunks per agent → interference HIGH
-  Risk: dùng SAI model cho SAI agent = context-switching error
+  Risk: using WRONG model for WRONG agent = context-switching error
 
 🟢 Roberts et al. 2009: network size ↑ → emotional closeness ↓
   = DEPTH × BREADTH = CONSTANT (finite resource tradeoff)
@@ -586,54 +573,54 @@ OTHER HARDWARE BOOSTERS:
 🟡 3 ceiling mechanisms = framework synthesis mapping onto Dunbar data
 ```
 
-### §4.3 — 3 strategies
+### §4.3 — 3 Strategies
 
 ```
-STRATEGY A — ÍT AGENT, SÂU (introvert pattern):
-  Ít S1-S2 agents, all deep. Low interference.
-  Risk: HIGH if lose 1 (small network = fragile)
+STRATEGY A — FEW AGENTS, DEEP (introvert pattern):
+  Few S1-S2 agents, all deep. Low interference.
+  Risk: HIGH if losing 1 (small network = fragile)
 
-STRATEGY B — NHIỀU SIMILAR, MEDIUM (selective extrovert):
-  Many agents SIMILAR type → shared chunks reusable.
+STRATEGY B — MANY SIMILAR, MEDIUM (selective extrovert):
+  Many agents of SIMILAR TYPE → shared chunks reusable.
   Interference: LOW-MEDIUM. Risk: LOW (redundancy)
 
-STRATEGY C — NHIỀU KHÁC, NÔNG (networking):
+STRATEGY C — MANY DIVERSE, SHALLOW (networking):
   Many diverse agents. Interference: HIGH.
   Entity-Compiled depth = NECESSARILY shallow.
 
-→ Mỗi người = MIX, tends toward 1
-→ Hardware + Background-Pattern BIAS which feels "natural"
-→ "Bạn thân na ná giống nhau" = optimization, not coincidence
+→ Each person = A MIX, tends toward 1 dominant strategy
+→ Hardware + Background-Pattern BIASES which feels "natural"
+→ "Close friends tend to be similar to each other" = optimization, not coincidence
   (🟢 Byrne 1971: Similarity-Attraction)
 
 🟡 3 strategies = framework synthesis from Dunbar + personality data
 ```
 
-### §4.4 — Kin vs Friend cost
+### §4.4 — Kin vs Friend Cost
 
 ```
 🟢 Roberts & Dunbar 2011: kin cost < friend cost (confirmed)
 
-TẠI SAO KIN COST THẤP HƠN:
+WHY KIN COSTS LESS:
 
-① EVOLUTION HARDWARE-SUBSIDY:
-  Oxytocin system (mẹ-con): compile NHANH, habituation CHẬM
+① EVOLUTIONARY HARDWARE-SUBSIDY:
+  Oxytocin system (mother-child): compile FAST, habituation SLOW
   Kin recognition (MHC, phenotype matching)
   Hamilton's rule (inclusive fitness): bias toward kin
 
-② KHÔNG CẦN CHỌN (given → no selection cost)
+② NO NEED TO CHOOSE (given → no selection cost)
 
 ③ SHARED HARDWARE OVERLAP (~50% DNA per parent):
-  → Self-Pattern-Modeling Compiled template accuracy CAO by default
+  → Self-Pattern-Modeling Compiled template accuracy HIGH by default
 
 ④ OBLIGATORY SCAFFOLD:
   🟢 Roberts & Dunbar 2011: social norms maintain kin connection
   → Even without active investment → kin bond persists longer
   → Friends WITHOUT active investment → DECAY
 
-NHƯNG: kin = GIVEN → có thể KHÔNG match
+BUT: kin = GIVEN → may NOT match well
   → Extreme mismatch → Mixed Entity-Compiled (Valence-Propagation §3.2 ③)
-  → = "Vừa thương vừa giận" = cả positive + negative channels
+  → = "Both affection and resentment" = both positive + negative channels
 
 🟢 Kin vs friend cost = well-replicated finding
 🟡 Hardware-subsidy explanation = framework synthesis
@@ -641,103 +628,105 @@ NHƯNG: kin = GIVEN → có thể KHÔNG match
 
 ---
 
-## §5 — "HỢP TÍNH": 2D MATRIX + META-MATCH
+## §5 — COMPATIBILITY: 2D MATRIX + META-MATCH
 
-### §5.1 — Cơ chế: shared chunks → shared body → mutual accurate Self-Pattern-Modeling
+### §5.1 — Mechanism: Shared Chunks → Shared Body → Mutual Accurate Self-Pattern-Modeling
 
 ```
-⭐ TẠI SAO CÓ NGƯỜI "HỢP TÍNH"?
-→ Self-Pattern-Modeling Compiled dùng BODY MÌNH làm simulator.
-→ Shared chunks → shared body-feedback → MUTUAL accurate predict.
+⭐ WHY DO SOME PEOPLE "JUST CLICK"?
+→ Self-Pattern-Modeling Compiled uses YOUR OWN BODY as simulator.
+→ Shared chunks → shared body-feedback → MUTUAL accurate prediction.
 
-CƠ CHẾ (step by step):
-① A và B share DOMAIN CHUNKS → overlap LỚN
-② Compiled dùng OWN BODY simulate → body-feedback CỦA A ≈ body-feedback CỦA B
-③ CẢ HAI experience "người này hiểu mình" (mutual accuracy)
-④ Accurate predict → reward → more interaction → more overlap
+MECHANISM (step by step):
+① A and B share DOMAIN CHUNKS → large overlap
+② Compiled uses OWN BODY to simulate → A's body-feedback ≈ B's body-feedback
+③ BOTH experience "this person gets me" (mutual accuracy)
+④ Accurate prediction → reward → more interaction → more overlap
    → POSITIVE SPIRAL (Hebbian)
 
-NGƯỢC LẠI (negative spiral):
-① Không share chunks → Compiled dùng own body → MISS
-② Cost TĂNG (switch to Fresh) → ít interaction → no new overlap
-③ Self-selection apart (không ai sai — templates don't match)
+CONVERSELY (negative spiral):
+① No shared chunks → Compiled uses own body → MISSES
+② Cost INCREASES (switches to Fresh) → less interaction → no new overlap
+③ Self-selection apart (neither is wrong — templates just don't match)
 
 🟡 Mechanism = framework synthesis. Consistent with Parkinson data.
 ```
 
-### §5.2 — Ma trận 2D: Chunk Overlap × Direction
+### §5.2 — 2D Matrix: Chunk Overlap × Direction
 
 ```
-⭐ SHARED CHUNKS ≠ AUTO RESONANCE. CẦN THÊM DIRECTION:
+⭐ SHARED CHUNKS ≠ AUTOMATIC RESONANCE. DIRECTION ALSO MATTERS:
 
                    Direction: COMPATIBLE       Direction: COMPETING
               ┌──────────────────────────┬──────────────────────────┐
- Overlap CAO  │ ⭐ STRONGEST RESONANCE   │ ⚡ RIVALRY / CONFLICT   │
-              │ Compiled accurate + match      │ Compiled accurate + ANTI      │
+ Overlap HIGH │ ⭐ STRONGEST RESONANCE   │ ⚡ RIVALRY / CONFLICT   │
+              │ Compiled accurate + match │ Compiled accurate + ANTI │
               ├──────────────────────────┼──────────────────────────┤
- Overlap THẤP │ 💫 COMPLEMENTARY         │ 😐 INDIFFERENCE         │
-              │ By-product match qua     │ No match, no conflict   │
-              │ META-GOAL                │ → self-selection apart   │
+ Overlap LOW  │ 💫 COMPLEMENTARY         │ 😐 INDIFFERENCE         │
+              │ By-product match via      │ No match, no conflict   │
+              │ META-GOAL                 │ → self-selection apart  │
               └──────────────────────────┴──────────────────────────┘
 
 → High overlap + compatible = strongest bond potential
-→ High overlap + competing = intense rivalry (2 thủ môn cùng đội)
-→ Low overlap + compatible = complement nhau qua meta-goal
+→ High overlap + competing = intense rivalry
+  (two goalkeepers on the same team)
+→ Low overlap + compatible = complement each other via meta-goal
 → Low overlap + competing = indifference → drift apart
 
 🟡 2D matrix = framework synthesis
 ```
 
-### §5.3 — Meta-level match > surface match
+### §5.3 — Meta-Level Match > Surface Match
 
 ```
-"HỢP TÍNH" CÓ 2 TẦNG:
+COMPATIBILITY HAS 2 LAYERS:
 
-TẦNG 1 — SURFACE: cùng sở thích (toán, bóng đá, K-pop)
-  = Domain chunks overlap trực tiếp → Compiled accurate ở content
-  NHƯNG: có thể COMPETING (2 thủ môn)
+LAYER 1 — SURFACE: same interests (math, soccer, K-pop)
+  = Domain chunks overlap directly → Compiled accurate at content level
+  BUT: can be COMPETING (two goalkeepers)
 
-TẦNG 2 — META: cùng CÁCH sở thích (excitement pattern, intensity)
-  = Hardware + meta-chunk overlap → Compiled accurate ở BODY-FEEDBACK PATTERN
-  KHÔNG cần cùng content → cùng CÁCH TRẢI NGHIỆM
+LAYER 2 — META: same WAY of being interested
+  (excitement pattern, intensity level)
+  = Hardware + meta-chunk overlap → Compiled accurate at BODY-FEEDBACK PATTERN
+  Does NOT need shared content → shares the WAY OF EXPERIENCING
 
-META > SURFACE vì:
-  Surface match + meta mismatch = "cùng thích toán nhưng chơi không hợp"
-  Surface mismatch + meta match = "khác sở thích nhưng chơi rất hợp"
+META > SURFACE because:
+  Surface match + meta mismatch = "both love math but can't get along"
+  Surface mismatch + meta match = "different interests but really click"
 
-🟢 Parkinson 2025: neural similarity ở OFC (subjective value) predict friendship
-  = Evidence cho meta-level match (body-feedback pattern similar)
+🟢 Parkinson 2025: neural similarity in OFC (subjective value) predicts friendship
+  = Evidence for meta-level match (body-feedback patterns similar)
 
 🟡 Meta > surface distinction = framework synthesis
 ```
 
-### §5.4 — "Hợp tính qua effort" = possible
+### §5.4 — "Compatibility Through Effort" = Possible
 
 ```
-"HỢP TÍNH TỰ NHIÊN" = Compiled default match. Cost ≈ 0. "Duyên."
-"HỢP TÍNH QUA EFFORT" = Fresh Loại A (genuine) → compile → new Compiled
-  → Cost CAO ban đầu → GIẢM DẦN → eventually ≈ 0
-  → "Ngày xưa phải cố hiểu, giờ tự động biết"
+"NATURAL COMPATIBILITY" = Compiled default match. Cost ≈ 0. "Natural chemistry."
+"COMPATIBILITY THROUGH EFFORT" = Fresh Type A (genuine) → compile → new Compiled
+  → Cost HIGH initially → DECREASES GRADUALLY → eventually ≈ 0
+  → "Used to have to try hard to understand; now it's automatic"
 
 CONDITIONS:
-  ① Genuine engagement (NOT fake → Loại B = suppress = fail)
+  ① Genuine engagement (NOT fake → Type B = suppress = fails)
   ② Sufficient frequency (Hebbian needs repetition)
-  ③ Reward confirm (predict → verify → match → strengthen)
+  ③ Reward confirms (predict → verify → match → strengthen)
   ④ No hardware floor (extreme hardware difference = ceiling)
 
-🟡 "Hợp tính qua effort" = framework synthesis from Fresh A/B model
+🟡 "Compatibility through effort" = framework synthesis from Fresh A/B model
 ```
 
 ---
 
 ## §6 — STATE/TRAIT CONVERGENCE
 
-### §6.1 — Pattern rõ ràng từ longitudinal research
+### §6.1 — Clear Pattern from Longitudinal Research
 
 ```
-⭐ PATTERN RÕ RÀNG:
+⭐ CLEAR PATTERN:
 
-KHÔNG CONVERGE (trait-level):            CÓ CONVERGE (state-level):
+DOES NOT CONVERGE (trait-level):     DOES CONVERGE (state-level):
 ┌────────────────────────────┐  ┌──────────────────────────────────┐
 │ Big Five personality   🟢 │  │ Emotional reactions (r=.55)  🟢 │
 │ Values / attitudes     🟢 │  │ Language / speech patterns   🟢 │
@@ -751,38 +740,39 @@ KHÔNG CONVERGE (trait-level):            CÓ CONVERGE (state-level):
 FRAMEWORK:
   Trait-level = Background-Pattern (deep, high link density, PFC invisible)
   State-level = shallow compiled, interaction-responsive
-  → By-Product-Gap-Resonance match ở STATE layer, không cần match TRAIT
-  → "Cùng thích, khác lý do, vẫn hợp" = state match ≠ trait match
+  → By-Product-Gap-Resonance match at STATE layer, does not require TRAIT match
+  → "Same taste, different reasons, still compatible"
+    = state match ≠ trait match
 ```
 
-### §6.2 — Trait tolerance band
+### §6.2 — Trait Tolerance Band
 
 ```
-STATE CONVERGENCE operates WITHIN trait tolerance band:
+STATE CONVERGENCE operates WITHIN a trait tolerance band:
 
-  Within band (CÓ THỂ): emotional sync natural → compile
-  Outside band (KHÔNG THỂ): force → co-dysregulation
+  Within band (POSSIBLE): emotional sync natural → compile
+  Outside band (IMPOSSIBLE): forced → co-dysregulation
 
   🟢 Butler & Randall 2013: co-regulation CAN BECOME co-dysregulation
-    khi partners amplify AWAY from stability
-  🟢 Eysenck: introvert = higher baseline cortical arousal
+    when partners amplify AWAY from stability
+  🟢 Eysenck: introverts = higher baseline cortical arousal
     → Same stimulation = different experience (HARDWARE, not choice)
   🟢 Wilson 2018: HRV synchrony during CONFLICT → inflammation markers
 
 FRAMEWORK:
-  By-Product-Gap-Resonance §4 Trục 1 "hardware overlap"
+  By-Product-Gap-Resonance §4 Axis 1 "hardware overlap"
   = trait tolerance band overlap
-  Overlap LỚN → state converge RỘNG → "hợp" nhiều domains
-  Overlap NHỎ → state converge HẸP → "hợp" ít domains
+  Large overlap → state converges BROADLY → compatible across many domains
+  Small overlap → state converges NARROWLY → compatible in few domains
 ```
 
-### §6.3 — Evolution: 2 mechanisms independent
+### §6.3 — Evolution: 2 Independent Mechanisms
 
 ```
-① State convergence = selected FOR PAIRS (trực tiếp):
+① State convergence = selected FOR PAIRS (direct):
    🟢 Oxytocin system co-opted from maternal → pair bonding (PNAS 2015)
 
-② Trait variation = maintained FOR POPULATION (độc lập):
+② Trait variation = maintained FOR POPULATION (independent):
    🟢 Big Five ~40-50% heritable (Vukasovic 2015)
    🟢 Each trait = trade-off (Nettle 2006)
 
@@ -796,82 +786,90 @@ FRAMEWORK:
 
 ## §7 — LOSS + GRIEF INTENSITY MODEL
 
-### §7.1 — 6-step cognitive amputation
+### §7.1 — 6-Step Cognitive Amputation
 
 ```
-⭐ MẤT AGENT ĐÃ ENTITY-COMPILED → KHÔNG CHỈ BUỒN. MẤT PROCESSING NODE.
+⭐ LOSING AN ENTITY-COMPILED AGENT → NOT JUST SADNESS. LOSING A PROCESSING NODE.
 
-TP1: Routine fire → target absent → STRANDED (repeat fire, no response)
-TP2: Chunk-Miss → compiled chunks trigger → no response → body-feedback = pain
-TP3: Valence-Momentary stream stops → Self-Pattern-Modeling emotional feed CẮT → mất input source
-TP4: Valence-Structural collapses gradually → body vẫn treat agent AS extension → PHANTOM
-TP5: Identity vacuum → self-schema gắn role ("vợ/mẹ/bạn") → mất → "tôi là ai?"
-TP6: Cognitive offload lost → Transactive memory disrupted → domain incompetence
+TP1: Routine fires → target absent → STRANDED (repeat fire, no response)
+TP2: Chunk-Miss → compiled chunks trigger → no response
+     → body-feedback = pain
+TP3: Valence-Momentary stream stops → Self-Pattern-Modeling emotional feed CUT
+     → loses an input source
+TP4: Valence-Structural collapses gradually → body still treats agent AS extension
+     → PHANTOM
+TP5: Identity vacuum → self-schema attached to role ("wife/mother/friend")
+     → lost → "who am I now?"
+TP6: Cognitive offload lost → Transactive memory disrupted
+     → domain incompetence
 
-🟢 O'Connor 2023: basal ganglia VẪN fire "partner sẽ ở đây"
-   TRONG KHI medial temporal lobe biết "đã mất" → 2 hệ thống CONFLICT
-🟢 Biddle et al. 2020 (JAMA): widowhood → cognitive decline NHANH HƠN
+🟢 O'Connor 2023: basal ganglia STILL fires "partner will be here"
+   WHILE medial temporal lobe knows "they are gone" → 2 SYSTEMS IN CONFLICT
+🟢 Biddle et al. 2020 (JAMA): widowhood → FASTER cognitive decline
 🟢 Wegner 1991: relationship ends → transactive system disrupted
 ```
 
-### §7.2 — Grief intensity = A + B + C
+### §7.2 — Grief Intensity = A + B + C
 
 ```
-⭐⭐ GRIEF INTENSITY = 3 THÀNH PHẦN CỘNG DỒN:
+⭐⭐ GRIEF INTENSITY = 3 ADDITIVE COMPONENTS:
 
 COMPONENT A — GAP-FEED LOSS (primary):
-  = Lượng gap body-need mà agent ĐÃ fill
-  = f(Entity-Compiled depth × số domains agent phục vụ)
+  = Amount of gap body-need that the agent WAS filling
+  = f(Entity-Compiled depth × number of domains agent served)
   🟢 Harrison 2022: IOS scores predict PGD severity
   🟢 Pope & O'Brien 2021: identity disruption = core grief feature
 
-  Agent fill 4 domains (sensory + emotional + cognitive + identity) = A cực cao
-  Agent fill 1 domain (công việc) = A thấp
+  Agent fills 4 domains (sensory + emotional + cognitive + identity)
+    = A extremely high
+  Agent fills 1 domain (work) = A low
 
 COMPONENT B — FRESH-REBUILD COST (secondary):
-  = Số routines phải dùng PFC Fresh rebuild KHÔNG CÓ agent
-  = f(số routines disrupted × cost per rebuild)
-  🟢 O'Connor 2022: grief ∝ số neural maps phải update
+  = Number of routines that must be rebuilt via PFC Fresh WITHOUT the agent
+  = f(number of disrupted routines × cost per rebuild)
+  🟢 O'Connor 2022: grief ∝ number of neural maps that must update
   🟢 Boerner 2011: 51% functional impairment → 27% at 6 months → 19% at 3 years
   → "Brain fog" post-bereavement = B overload
 
 COMPONENT C — PHANTOM FIRING (longest lasting):
-  = Entity-Compiled chunks VẪN fire → target absent → Chunk-Miss LIÊN TỤC
+  = Entity-Compiled chunks STILL fire → target absent
+    → continuous Chunk-Miss
   = f(Entity-Compiled depth × compile duration)
   🟢 O'Connor 2022: "Gone-But-Also-Everlasting" model
     Semantic: person exists forever (as attachment figure)
     Episodic: person died
-    → 2 systems CONFLICT → pain
+    → 2 systems IN CONFLICT → pain
     Normal grief: prediction errors accumulate → craving weakens
     PGD: extinction learning FAILS → craving persists
 
-TRỌNG SỐ:
-  Mất VỢ/CHỒNG:    A(cực cao) + B(cực cao) + C(cực cao) = maximum
-  Mất MẸ:           A(cực cao) + B(trung bình) + C(cực cao) = devastating
-  Mất BẠN THÂN:     A(cao) + B(thấp) + C(cao) = significant
-  Mất ĐỒNG NGHIỆP:  A(thấp) + B(thấp) + C(thấp) = minor
+WEIGHT TABLE:
+  Losing SPOUSE:    A(extreme) + B(extreme) + C(extreme) = maximum
+  Losing MOTHER:    A(extreme) + B(moderate) + C(extreme) = devastating
+  Losing CLOSE FRIEND: A(high) + B(low) + C(high) = significant
+  Losing COLLEAGUE: A(low) + B(low) + C(low) = minor
 
 UNIFIED LOSS MECHANISM (Drill-Body-Base-Boundary-Spectrum v1.2 §12):
   A+B+C model = CONSISTENT WITH unified formula:
     Loss pain = Chunk-Miss on compiled baseline × predicted unfillability
   Component A (gap-feed loss) = gap-fillability dimension
   Component C (phantom firing) = baseline Chunk-Miss dimension
-  = Cùng mechanism áp dụng từ object loss (đũa, PC) tới entity loss (con mất)
-  = Khác PARAMETERS: depth, breadth, duration, replaceability
-  Entity loss = extreme case: deepest compilation × widest gaps × permanent unfillable
+  = Same mechanism applied from object loss (chopsticks, PC) to entity loss
+    (losing a child)
+  = Different PARAMETERS: depth, breadth, duration, replaceability
+  Entity loss = extreme case: deepest compilation × widest gaps × permanently unfillable
 
 🟡 A+B+C formula = framework synthesis. Components individually supported.
 🟡 Unified loss mechanism cross-ref = drill synthesis.
 ```
 
-### §7.3 — Opioid withdrawal model
+### §7.3 — Opioid Withdrawal Model
 
 ```
 🟢 Robinaugh et al. 2021:
   Attachment = sustained ENDOGENOUS OPIOID reward
   Agent present → opioid release → body baseline
-  Agent mất → opioid supply CẮT → WITHDRAWAL
-  = Giống cai nghiện: psychological + physiological disorganization
+  Agent lost → opioid supply CUT → WITHDRAWAL
+  = Like detox: psychological + physiological disorganization
 
 🟢 Arizmendi et al. 2020 (systematic review):
   PGD involves: nucleus accumbens + amygdala + OFC + insula
@@ -882,63 +880,64 @@ UNIFIED LOSS MECHANISM (Drill-Body-Base-Boundary-Spectrum v1.2 §12):
 
 FRAMEWORK:
   Entity-Compiled deep → agent = part of REWARD BASELINE
-  (Cortisol-Baseline v2.1: body maintain homeostatic baseline)
-  Agent as PART OF baseline → mất agent = baseline shift DOWN
-  → Tại sao mất người = đau VẬT LÝ (not just "buồn")
+  (Cortisol-Baseline v2.1: body maintains homeostatic baseline)
+  Agent as PART OF baseline → losing agent = baseline DROPS
+  → Why losing a person = PHYSICAL pain (not just "sadness")
 ```
 
-### §7.4 — 4 grief trajectories (Bonanno)
+### §7.4 — 4 Grief Trajectories (Bonanno)
 
 ```
 🟢 Bonanno et al. 2002, 2019, 2020:
 
-  ① RESILIENCE (50-60%): stable low distress from start
-    → A thấp-trung bình + alternative gap-fill + good calibration
+  ① RESILIENCE (50-60%): stable low distress from the start
+    → A low-moderate + alternative gap-fill + good calibration
 
-  ② RECOVERY (15-25%): elevated → gradual return (1-2 năm)
-    → A cao + B trung bình → DẦN rebuild routines
+  ② RECOVERY (15-25%): elevated → gradual return (1-2 years)
+    → A high + B moderate → GRADUALLY rebuilds routines
 
   ③ CHRONIC GRIEF (10-15%): persistent long-term
-    → A cực cao + C cực cao + extinction learning fail
-    → 🟢 O'Connor: nucleus accumbens TIẾP TỤC fire (craving)
+    → A extreme + C extreme + extinction learning fails
+    → 🟢 O'Connor: nucleus accumbens CONTINUES firing (craving)
 
-  ④ DELAYED (5-10%): normal initially → bùng after latency
-    → Compiled suppress grief (PFC-Operations: Fresh Loại B)
-    → Suppress resource hết → grief emerge
+  ④ DELAYED (5-10%): normal initially → erupts after a latency period
+    → Compiled Suppress of grief (PFC-Operations: Fresh Type B)
+    → Suppress resource depletes → grief emerges
 
 ⭐ Trajectory = f(Entity-Compiled depth × dependency breadth ×
                   body calibration × alternative gap-fill × attachment style)
 
-🟢 Fernandez-Alcantara 2024: attachment anxiety → PGD nặng hơn
-🟢 Djelantik 2022: sudden loss → PGD caseness CAO hơn
-  (brain chưa pre-compile → prediction error ĐỒNG LOẠT)
+🟢 Fernandez-Alcantara 2024: attachment anxiety → heavier PGD
+🟢 Djelantik 2022: sudden loss → higher PGD caseness
+  (brain had no pre-compile → prediction error ALL AT ONCE)
 ```
 
 ### §7.5 — Per-Entity Guilt = Consequence of Entity-Compiled (v1.1)
 
 ```
-⭐ PER-ENTITY GUILT = KHI TÔI HURT ENTITY ĐÃ COMPILED:
+⭐ PER-ENTITY GUILT = WHEN I HURT AN ENTITY THAT HAS BEEN COMPILED:
 
-  Khi tôi hurt entity → Entity-Compiled fire PAIN signal.
-  Singer 2004: "shared pain circuits" = cùng neural pathway.
-  Guilt lớp ① = ongoing pain + inability to resolve WITHOUT entity's signal.
+  When I hurt an entity → Entity-Compiled fires a PAIN signal.
+  Singer 2004: "shared pain circuits" = same neural pathway.
+  Guilt Layer ① = ongoing pain + inability to resolve WITHOUT the entity's signal.
 
-  Entity THA → signal match → guilt lớp ① resolve.
-  Entity CHƯA THA → guilt fire MÃI (no resolution signal).
-  Entity MẤT (chết/mất liên lạc) → resolution source MẤT →
-    guilt fire PERMANENTLY = moral injury component (Litz 2009).
+  Entity FORGIVES → signal matches → Guilt Layer ① resolves.
+  Entity HAS NOT FORGIVEN → guilt fires CONTINUOUSLY (no resolution signal).
+  Entity GONE (died/lost contact) → resolution source IS GONE →
+    guilt fires PERMANENTLY = moral injury component (Litz 2009).
 
-  Entity dead guilt ≠ grief alone:
-    Grief = loss of gap-fill source (§7 model A+B+C).
+  Guilt from someone who has died ≠ grief alone:
+    Grief = loss of a gap-fill source (§7 model A+B+C).
     Guilt = ADDITION on top of grief = COMPOUND.
-    → Tại sao "hối hận khi người đã mất" = grief + guilt lớp ① compound.
+    → Why "regret over someone already gone" = grief + Guilt Layer ① compounded.
 
   Guilt INTENSITY = f(Entity-Compiled depth):
-    Entity-Compiled sâu (mẹ, vợ/chồng) → guilt CỰC MẠNH.
-    Entity-Compiled nông (đồng nghiệp) → guilt nhẹ hơn.
-    Entity-Compiled ≈ 0 (người lạ) → guilt lớp ① KHÔNG fire.
-    → = Cùng hành vi sai, KHÁC entity → KHÁC guilt intensity.
-    → Detail: Collective-Body.md v2.2 §5.4 (3-layer model, Compilation Source Match).
+    Entity-Compiled deep (mother, spouse) → guilt EXTREMELY strong.
+    Entity-Compiled shallow (colleague) → guilt milder.
+    Entity-Compiled ≈ 0 (stranger) → Guilt Layer ① does NOT fire.
+    → = Same wrong action, DIFFERENT entity → DIFFERENT guilt intensity.
+    → Detail: Collective-Body.md v2.2 §5.4
+      (3-layer model, Compilation Source Match).
 
 🟢 Singer et al. 2004: shared pain circuits
 🟢 Litz et al. 2009: moral injury
@@ -948,84 +947,89 @@ FRAMEWORK:
 
 ## §8 — LOVE ↔ HATE SHIFT
 
-### §8.1 — Shared neural substrate
+### §8.1 — Shared Neural Substrate
 
 ```
 🟢 Zeki & Romaya 2008 (PLoS ONE — fMRI):
-  "Hate circuit" chia sẻ PUTAMEN + INSULA với ROMANTIC LOVE
-  Cả hai = intense arousal + focused attention + high activation
-  → Hate và love GẦN NHAU hơn hate và INDIFFERENCE
+  "Hate circuit" shares PUTAMEN + INSULA with ROMANTIC LOVE
+  Both = intense arousal + focused attention + high activation
+  → Hate and love are CLOSER TO EACH OTHER
+    than hate and indifference
 
 FRAMEWORK:
-  Self-Pattern-Modeling fire DEEP dù valence positive hay negative
-  Deep Self-Pattern-Modeling on enemy = SAME mechanism as on loved one
+  Self-Pattern-Modeling fires DEEP regardless of whether valence is positive or negative
+  Deep Self-Pattern-Modeling on an enemy = SAME mechanism as on a loved one
   Body-Coupling v2.0: both = high |coupling depth|
   Difference = DIRECTION (positive vs negative), not depth
 ```
 
-### §8.2 — 3 con đường shift
+### §8.2 — 3 Pathways for Shifting
 
 ```
-Self-Pattern-Modeling SÂU TRÊN ĐỐI THỦ = NECESSARY BUT NOT SUFFICIENT. Cần CATALYST:
+DEEP Self-Pattern-Modeling ON A RIVAL = NECESSARY BUT NOT SUFFICIENT.
+Needs a CATALYST:
 
 ① SHARED EXTREME EXPERIENCE:
-  🟢 Sherif 1961 (Robbers Cave): 2 nhóm thù → buộc cooperate → friendship
+  🟢 Sherif 1961 (Robbers Cave): 2 rival groups → forced to cooperate → friendship
 
 ② AROUSAL TRANSFER:
   🟢 Zillmann 1971 + Dutton & Aron 1974 (Bridge Study):
-  Arousal từ competition/danger → PFC relabel → attraction khi context shift
+  Arousal from competition/danger → PFC relabels → attraction when context shifts
 
 ③ COGNITIVE DISSONANCE:
   🟢 Jecker & Landy 1969 (Ben Franklin Effect):
-  Favor cho người ghét → dissonance → resolve bằng tăng positive regard
+  Doing a favor for someone you dislike → dissonance → resolves by increasing
+  positive regard
 ```
 
-### §8.3 — Asymmetry căn bản
+### §8.3 — Fundamental Asymmetry
 
 ```
-⭐ PHÁ HỦY DỄ HƠN XÂY DỰNG. LUÔN LUÔN.
+⭐ DESTRUCTION IS ALWAYS EASIER THAN CONSTRUCTION.
 
 LOVE → HATE: 1 event (betrayal), INSTANT
-  → Tận dụng existing coupling depth → flip direction
+  → Leverages existing coupling depth → flips direction
 
 HATE → LOVE: sustained effort, YEARS
-  → Chống: negativity bias (🟢 Baumeister 2001: 1 xấu > 5 tốt)
-  → + confirmation bias ("tốt → chắc có ý đồ")
-  → + no accelerator tương đương betrayal
-  NHƯNG: Self-Pattern-Modeling model ĐÃ SẴN → nếu context shift → faster than stranger
+  → Fights against: negativity bias
+    (🟢 Baumeister 2001: 1 bad > 5 good)
+  → + Confirmation bias ("being nice → probably has an ulterior motive")
+  → + No equivalent accelerator to betrayal
+  BUT: Self-Pattern-Modeling model ALREADY EXISTS → if context shifts
+    → faster than starting from a stranger
 
 "WORTHY OPPONENT" = INTERMEDIATE STATE:
   🟢 Kilduff 2010: rivalry = relational, per-pair
-  → Deep model + respect + negative valence on "đe dọa"
-  → Respect ≠ love. Respect + catalyst = CÓ THỂ → love
+  → Deep model + respect + negative valence on "threat"
+  → Respect ≠ love. Respect + catalyst = CAN → love
 ```
 
 ---
 
 ## §9 — DECAY: 3-LAYER MODEL
 
-### §9.1 — 3 thành phần decay ở tốc độ KHÁC NHAU
+### §9.1 — 3 Components Decay at DIFFERENT Rates
 
 ```
-⭐ ENTITY-COMPILED DECAY = KHÔNG ĐỒNG ĐỀU:
+⭐ ENTITY-COMPILED DECAY IS NOT UNIFORM:
 
 ① PERSON-SCHEMA (neocortical, ATL hub):
-  = Mặt, giọng, tính cách, knowledge about person
+  = Face, voice, personality, knowledge about the person
   = Once consolidated (Tse 2007): VERY RESISTANT to decay
-  = Persist years-decades
-  = "Nhận ra ngay khi gặp lại"
+  = Persists years-decades
+  = "Recognize them instantly when you meet again"
 
 ② AFFECTIVE/MOTIVATIONAL (reward circuits, opioid):
   = Warmth, craving, approach motivation
-  = Require ACTIVE MAINTENANCE (interaction → opioid → reinforce)
-  = Decay without contact: months-years
-  = "Gặp lại thấy quen nhưng không thấy thân"
+  = Requires ACTIVE MAINTENANCE (interaction → opioid → reinforces)
+  = Decays without contact: months-years
+  = "Familiar when you meet again but no longer close"
 
 ③ EPISODIC DETAILS (hippocampus-dependent):
   = Specific memories, conversations, events
   = MOST VULNERABLE to decay
-  = Fade within months-years without rehearsal
-  = "Nhớ người nhưng quên chi tiết"
+  = Fades within months-years without rehearsal
+  = "Remember the person but forget the details"
 
 TIMELINE:
   ┌──────────────┬──────────────────────────────────────┐
@@ -1036,28 +1040,32 @@ TIMELINE:
   │ ① Schema     │ ████████████████  persist very long   │
   └──────────────┴──────────────────────────────────────┘
 
-→ "Nhớ người nhưng hết đau" (schema persist + affect fade)
-→ "Gặp lại bất ngờ đau lại" (schema trigger → affect re-activate)
-→ "Bao giờ hết nhớ?" → KHÔNG BAO GIỜ hết hoàn toàn
-   Chỉ fire THƯA hơn, YẾU hơn (Hebbian: less fire → weaker, never zero)
+→ "Remember them but the pain is gone"
+  (schema persists + affect fades)
+→ "Running into them again unexpectedly hurts again"
+  (schema triggers → affect reactivates)
+→ "Will I ever stop thinking of them?" → NEVER completely
+  Only fires LESS frequently, LESS intensely
+  (Hebbian: less fire → weaker, never zero)
 
 🟡 3-layer decay model = framework synthesis
 🟢 Each layer's decay properties = individually established
 ```
 
-### §9.2 — Maintenance: kin resilient, friend fragile
+### §9.2 — Maintenance: Kin Resilient, Friends Fragile
 
 ```
 🟢 Roberts & Dunbar 2011 (longitudinal, 18 months):
-  48.6% inner circle friends THAY ĐỔI khi context đổi (school→university)
-  Contact frequency drop → Hebbian weaken → layer decay
+  48.6% of inner circle friends CHANGED when context changed
+  (school → university)
+  Contact frequency drops → Hebbian weakens → layer decay
 
 🟢 Bhattacharya, Dunbar & Kaski 2022 (cellphone data):
   Inner circle: 1-4% turnover per year (stable)
-  17-21 tuổi: turnover CAO hơn (life transition = gap distribution shift)
+  Ages 17-21: higher turnover (life transition = gap distribution shift)
 
 KIN vs FRIEND DECAY:
-  🟢 Kin: absence → MORE resilient (hardware scaffold maintain activation)
+  🟢 Kin: absence → MORE resilient (hardware scaffold maintains activation)
   🟢 Friends: absence → DECLINE (no hardware scaffold → voluntary only)
 
 🟢 Roberts & Dunbar 2015: Gender difference in maintenance:
@@ -1069,55 +1077,56 @@ KIN vs FRIEND DECAY:
 
 ## §10 — MACHINE LOGIC: VULNERABLE BY DESIGN
 
-### §10.1 — 3 vulnerabilities
+### §10.1 — 3 Vulnerabilities
 
 ```
-NẾU THIẾT KẾ MÁY — Entity-Compiled = VULNERABLE:
+IF DESIGNED AS A MACHINE — Entity-Compiled = VULNERABLE:
 
 ① SINGLE POINT OF FAILURE:
-  Agent = body-base extension → mất agent = system crash
-  Engineer: "DON'T build critical dependency on external node without redundancy!"
+  Agent = body-base extension → losing agent = system crash
+  Engineer: "DON'T build critical dependency on external node
+              without redundancy!"
 
 ② PHANTOM COST:
-  Compiled chunks PERSIST after agent gone → fire → no response → waste
-  Engineer: "decompile immediately when node offline"
-  NHƯNG: Hebbian LTP = CANNOT quick-decompile
+  Compiled chunks PERSIST after agent is gone → fire → no response → waste
+  Engineer: "decompile immediately when node goes offline"
+  BUT: Hebbian LTP = CANNOT quick-decompile
 
 ③ UNRECOVERABLE INVESTMENT:
-  200+h compile investment → if agent mất → investment LOST
-  Sunk cost THẬT SỰ (chunks compiled = resource spent)
+  200+h compile investment → if agent is lost → investment LOST
+  Real sunk cost (compiled chunks = resource spent)
 ```
 
-### §10.2 — Tại sao evolution vẫn chọn
+### §10.2 — Why Evolution Still Chose This
 
 ```
 BENEFIT >> VULNERABILITY:
 
-① ROI CỰC CAO khi agent present:
-  Solo: 1 não × processing capacity
+① EXTREMELY HIGH ROI when agent is present:
+  Solo: 1 brain × processing capacity
   With 5 Entity-Compiled agents:
-    1 não + 5 × (agent capacity × compiled interface)
+    1 brain + 5 × (agent capacity × compiled interface)
   → Effective 5x+ processing
   🟢 Wegner: couples > sum of parts (transactive memory)
   🟢 Harris et al. 2014: coupled cognition
   🟢 Barnier et al. 2018: groups > sum of parts
-  → Survival advantage massive
+  → Survival advantage is massive
 
-② VULNERABILITY = RARE EVENT (ancestral environment):
+② VULNERABILITY = RARE EVENT (in ancestral environment):
   Close others = same community → present for DECADES
-  Expected ROI = decades benefit vs small loss risk
+  Expected ROI = decades of benefit vs small loss risk
   → Positive expected value → evolution selects FOR
 
-③ PHANTOM = BONDING REINFORCER (not just bug):
-  "Nhớ" khi xa → MOTIVATE RETURN (find agent, restore connection)
-  Ancestral: absent ≠ dead, usually = temporarily away
+③ PHANTOM = BONDING REINFORCER (not just a bug):
+  Longing when apart → MOTIVATES RETURN (find agent, restore connection)
+  Ancestral environment: absent ≠ dead, usually = temporarily away
   → Phantom = functional signal in ancestral context
 ```
 
-### §10.3 — Modern mismatch
+### §10.3 — Modern Mismatch
 
 ```
-⭐ "KỲ LẠ" = MODERN MISMATCH:
+⭐ "STRANGE" = MODERN MISMATCH:
 
 Brain designed for:                Modern reality:
   Small group (~150)                Massive mobility
@@ -1125,10 +1134,10 @@ Brain designed for:                Modern reality:
   Temporary separations             Permanent loss still hurts
   Phantom = functional              Phantom = can be dysfunctional
 
-→ Brain CHƯA adapt to modern loss frequency/permanence
-→ "Kỳ lạ" vì ta nhìn từ góc individual
-→ Nhìn từ góc evolution: Entity-Compiled = OPTIMAL ARCHITECTURE
-   cho ancestral environment. Modern context = mismatch.
+→ Brain HAS NOT adapted to modern loss frequency/permanence
+→ Seems "strange" because we see it from the individual's perspective
+→ From evolution's perspective: Entity-Compiled = OPTIMAL ARCHITECTURE
+   for the ancestral environment. Modern context = mismatch.
 
 🟡 Modern mismatch analysis = framework synthesis
 🟢 Evolutionary mismatch concept = well-established
@@ -1139,16 +1148,16 @@ Brain designed for:                Modern reality:
 ## §11 — HONEST ASSESSMENT
 
 ```
-🟢 STRONG EVIDENCE (đo được, replicated):
-  Entity-Compiled = real phenomenon (8 research streams hội tụ)
+🟢 STRONG EVIDENCE (measurable, replicated):
+  Entity-Compiled = real phenomenon (8 research streams converge)
   Hub-and-Spoke person-model (semantic dementia, fMRI)
-  Compiled body simulate close person (Beckes & Coan 2012)
+  Compiled body simulates close person (Beckes & Coan 2012)
   Somatosensory per-agent encoding (Gordon 2013)
   Transactive memory > sum of parts (Wegner, Harris)
   Love/Hate shared substrate (Zeki & Romaya 2008)
   Grief = cognitive decline (Biddle, O'Connor)
   Bodily maps universal + variation (Nummenmaa)
-  State converge + trait stable (Anderson, Gonzaga, Roels)
+  State converges + trait stable (Anderson, Gonzaga, Roels)
   Dunbar layers (Zhou, Hill, Sutcliffe)
   40→80→200h formation (Hall 2018)
   Schema acceleration (Tse 2007)
@@ -1159,19 +1168,19 @@ Brain designed for:                Modern reality:
   Sleep + social memory (CA2, oxytocin REM)
   Kin cost < friend cost (Roberts & Dunbar 2011)
 
-🟡 FRAMEWORK SYNTHESIS (logical, consistent, chưa test trực tiếp):
+🟡 FRAMEWORK SYNTHESIS (logical, consistent, not yet directly tested):
   Hub-and-Spoke → chunk assembly mapping
-  "Hợp tính" = shared body template → mutual accurate Compiled
+  Compatibility = shared body template → mutual accurate Compiled
   2D matrix (Overlap × Direction) → 4 quadrants
   Meta-level match > surface match
-  Fresh Loại A (learn new) vs Loại B (override old) in formation
-  Authenticity gate (efference copy detect fake)
+  Fresh Type A (learning new) vs Type B (overwriting existing) in formation
+  Authenticity gate (efference copy detects fake)
   Grief A+B+C formula
   3-layer decay model (schema / affect / episode)
   3 ceiling mechanisms (chunks / maintenance / interference)
   Modern mismatch analysis
 
-🔴 HYPOTHESIS (reasonable nhưng chưa direct evidence):
+🔴 HYPOTHESIS (reasonable but no direct evidence):
   Shared body-PART → deeper resonance (beyond content accuracy)
   Meta-level match measurability
   Trait tolerance band WIDTH measurement
@@ -1179,9 +1188,9 @@ Brain designed for:                Modern reality:
   Sleep disruption → Entity-Compiled delay quantification
 
 ⭐ KEY RISK:
-  Framework synthesis GIỐNG research NHƯNG ≠ research.
-  "Mapping lên" ≠ "chứng minh cùng mechanism".
-  Convergent evidence (🟢) vs analogical reasoning (🟡): phải phân biệt.
+  Framework synthesis RESEMBLES research BUT ≠ research.
+  "Mapping onto" ≠ "proving same mechanism".
+  Convergent evidence (🟢) vs analogical reasoning (🟡): must distinguish.
 ```
 
 ---
@@ -1193,12 +1202,12 @@ Brain designed for:                Modern reality:
 | Valence-Propagation v2.0 | §3 Entity-Compiled, §3.2 subtypes | DEFINES concept |
 | Inter-Body-Mechanism v1.0 | §8 Entity-Compiled, §4 3-cost | Reframes + mechanism foundation |
 | Self-Pattern-Modeling v3.0 | §2 Compiled/Fresh, §6 quality axes | Self-Pattern-Modeling = Simulation-Engine per entity |
-| By-Product-Gap-Resonance v1.0 | §4 Trục 1 Gap Overlap | Resonance observation |
+| By-Product-Gap-Resonance v1.0 | §4 Axis 1 Gap Overlap | Resonance observation |
 | Agent-Mechanism v2.0 | §12 body-need feeder, §13 developmental | Integration hub |
 | Body-Coupling v2.0 | §3 Phase, §6 Love↔Hate | Coupling mechanism companion |
-| Connection v4.0 | §3.3 2-luồng, §6.8 Grief | Connection architecture |
+| Connection v4.0 | §3.3 2-streams, §6.8 Grief | Connection architecture |
 | Simulation-Engine v1.0 | §6 Self/Other Model, §7 Alexithymia | Engine underlying Self-Pattern-Modeling |
-| PFC-Operations v1.0 | §2 Hold/Suppress, §5 Fresh Loại A/B | Foundation for formation dynamics |
+| PFC-Operations v1.0 | §2 Hold/Suppress, §5 Fresh Type A/B | Foundation for formation dynamics |
 | Background-Pattern v1.1 | §1 Definition, §5 PFC invisible | Trait-level = Background-Pattern |
 | Cortisol-Baseline v2.1 | §5 neuron, §9 PFC damage | Sleep + stress impact |
 | Schema v2.0 | §0 Definition | Schema = observation parameter |
@@ -1229,7 +1238,7 @@ Brain designed for:                Modern reality:
 | R16 | Gallese & Sinigaglia 2011 — Embodied Simulation | §2 | 🟢 Theory + evidence |
 | R17 | Nummenmaa et al. 2014, 2019 (PNAS) — Bodily Maps | §2 | 🟢 N=3,954 |
 | R18 | Bird & Cook 2013 — Alexithymia not autism | §2 | 🟢 Decisive |
-| R19 | Dang 2017 — Vietnamese bụng/lòng conceptualization | §1 | 🟢 Linguistic |
+| R19 | Dang 2017 — Vietnamese emotional conceptualization | §1 | 🟢 Linguistic |
 | R20 | Cacioppo & Berntson 1994 — Evaluative Space Model | §1 | 🟢 |
 | R21 | Barrett 2017 — Body Budgeting / Allostasis | §1 | 🟡 Theory + evidence |
 | R22 | Gallotti & Frith 2013 — We-Mode | §1 | 🟢 Theory |
@@ -1281,6 +1290,6 @@ Brain designed for:                Modern reality:
 
 ---
 
-**END OF FILE — Entity-Compiled v1.0 (67 citations, 14 sections)**
+**END OF FILE — Entity-Compiled v1.2 (67 citations, 14 sections)**
 **Source: Drill-Entity-Compiled v2.0 (39 insights, 71 citations)**
 **Distilled: drill artifacts removed, framework-level quality, cross-references integrated**

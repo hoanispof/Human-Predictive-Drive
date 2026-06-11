@@ -1,52 +1,41 @@
 ---
-title: Mirror-Neuron-Rejection — Tại Sao Framework Bác Bỏ Hardware Mirror Module
-version: 1.0
-created: 2026-04-18
-status: v1.0 — REFERENCE FILE (phân tích toàn diện rejection + alternative model)
+title: Mirror-Neuron-Rejection — Why the Framework Rejects a Hardware Mirror Module
+version: v1.0
+source: Core-Deep-Dive/Clarification/Mirror-Neuron-Rejection.md v1.0
+translated: 2026-06-09
+status: COMPLETE
 scope: |
-  TẠI SAO framework bác bỏ "mirror neuron" hardware chuyên biệt.
-  3 positions so sánh (Rizzolatti innate / Heyes learned / Framework prediction model).
-  7 bằng chứng chống hardware claim.
-  Alternative model: empathy = Self-Pattern-Modeling function on chunk substrate.
-  Tích hợp + refine từ Mirror-Neuron-Analysis.md (backup).
-purpose: |
-  File định vị rõ ràng cho mọi người đọc Agent/ folder:
-  "Tại sao KHÔNG có mirror neuron hardware? Thay bằng cái gì?"
-  Nằm trong Agent/ folder vì liên quan trực tiếp tới Agent mechanism.
-sources: |
-  Mirror-Neuron-Analysis.md (~370L, backup/) — phân tích gốc, 3 mechanisms
-  Agent.md §0.3 — "Hardware mirror module — already rejected"
-  Self-Pattern-Modeling.md §5 — developmental bootstrap
-  07-Social-Recognition-Arc — E9 cry contagion = pattern matching (decisive)
-  Empathy.md v1.0 §1-§2 — redefine empathy, 3 mechanisms
-parent: Agent.md (integration hub)
-language: Tiếng Việt primary + English technical terms
+  WHY the framework rejects "mirror neuron" as a specialized hardware module.
+  3 positions compared (Rizzolatti innate / Heyes learned / Framework prediction model).
+  7 pieces of evidence against the hardware claim.
+  Alternative model: empathy = Self-Pattern-Modeling function on a chunk substrate.
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Mirror-Neuron-Rejection — Tại Sao Framework Bác Bỏ Hardware Mirror Module
+# Mirror-Neuron-Rejection — Why the Framework Rejects a Hardware Mirror Module
 
-> **Mainstream nói: "Có neurons CHUYÊN cho mirror, bẩm sinh."**
-> **Framework nói: "KHÔNG. Mirroring = LEARNED PREDICTION MODEL."**
+> **Mainstream says: "There are neurons SPECIALIZED for mirroring, present from birth."**
+> **Framework says: "NO. Mirroring = LEARNED PREDICTION MODEL."**
 >
-> File này giải thích TẠI SAO framework bác bỏ hardware mirror,
-> bằng chứng nào quyết định, và thay bằng model nào.
+> This file explains WHY the framework rejects hardware mirroring,
+> which evidence is decisive, and what model replaces it.
 >
-> **Đọc file này nếu bạn muốn hiểu:**
-> - Tại sao framework KHÔNG dùng khái niệm "mirror neuron"
-> - 3 vị trí trong debate (Rizzolatti / Heyes / Framework)
-> - 7 bằng chứng chống hardware claim
-> - Alternative: Self-Pattern-Modeling function on chunk substrate
+> **Read this file if you want to understand:**
+> - Why the framework does NOT use the concept of "mirror neurons"
+> - 3 positions in the debate (Rizzolatti / Heyes / Framework)
+> - 7 pieces of evidence against the hardware claim
+> - The alternative: Self-Pattern-Modeling function on a chunk substrate
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §1 — MAINSTREAM RESEARCH STATE
-- §2 — 3 VỊ TRÍ TRONG DEBATE
-- §3 — 7 BẰNG CHỨNG CHỐNG HARDWARE MIRROR
+- §1 — MAINSTREAM RESEARCH STATE (2025)
+- §2 — 3 POSITIONS IN THE DEBATE
+- §3 — 7 PIECES OF EVIDENCE AGAINST HARDWARE MIRRORING
 - §4 — FRAMEWORK ALTERNATIVE: LEARNED PREDICTION MODEL
-- §5 — TẠI SAO FRAMEWORK GẦN HEYES NHƯNG SÂU HƠN
+- §5 — WHY THE FRAMEWORK ALIGNS WITH HEYES BUT GOES DEEPER
 - §6 — HONEST ASSESSMENT
 - §7 — CROSS-REFERENCES
 
@@ -55,234 +44,239 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §1 — MAINSTREAM RESEARCH STATE (2025)
 
 ```
-🟢 ĐÃ SETTLED:
+🟢 SETTLED:
 
-  → Mirror neurons TỒN TẠI ở khỉ (single-neuron recording) 🟢
-  → Ở NGƯỜI: shared activation areas (fMRI) 🟢
-    NHƯNG rất ít single-neuron evidence ở người
-  → Empathy = multi-component (affective + cognitive), KHÔNG 1 module 🟢
+  → Mirror neurons EXIST in monkeys (single-neuron recording) 🟢
+  → In HUMANS: shared activation areas (fMRI) 🟢
+    BUT very little single-neuron evidence in humans
+  → Empathy = multi-component (affective + cognitive), NOT 1 module 🟢
   → "Broken mirror theory of autism" = DEAD 🟢
-    (Bird & Cook 2013: alexithymia drives deficit, NOT autism)
-  → Empathy có thể learned, motivated, context-dependent 🟢
-  → Oxytocin narrative bị weaken (social salience, not "love hormone") 🟢
+    (Bird & Cook 2013: alexithymia drives the deficit, NOT autism)
+  → Empathy can be learned, motivated, context-dependent 🟢
+  → Oxytocin narrative weakened (social salience, not "love hormone") 🟢
 
 
-🟡 ĐANG TRANH CÃI:
+🟡 STILL DEBATED:
 
   → Mirror neurons: innate (Rizzolatti) vs learned (Heyes/ASL theory)
   → Empathy: automatic vs motivated
-  → Social pain = physical pain: overlap CÓ nhưng distinguishable
+  → Social pain = physical pain: overlap EXISTS but distinguishable
 
 
-🔴 CHƯA AI UNIFY:
+🔴 NOT YET UNIFIED:
 
-  → Empathy + Connection + Mirroring vẫn nghiên cứu siloed
-  → Feldman (biobehavioral synchrony) + Predictive Processing = nỗ lực gần nhất
-  → Framework propose: Self-Pattern-Modeling as unifying mechanism
+  → Empathy + Connection + Mirroring still studied in siloed literature
+  → Feldman (biobehavioral synchrony) + Predictive Processing = the closest attempts
+  → Framework proposes: Self-Pattern-Modeling as the unifying mechanism
 ```
 
 ---
 
-## §2 — 3 VỊ TRÍ TRONG DEBATE
+## §2 — 3 POSITIONS IN THE DEBATE
 
 ```
-🟢🟡 SO SÁNH 3 VỊ TRÍ:
+🟢🟡 COMPARING 3 POSITIONS:
 
   ┌──────────────────┬────────────────────┬────────────────────┬────────────────────┐
   │                  │ RIZZOLATTI         │ HEYES              │ FRAMEWORK          │
   │                  │ (innate module)    │ (learned/ASL)      │ (prediction model) │
   ├──────────────────┼────────────────────┼────────────────────┼────────────────────┤
-  │ Neuron chuyên?   │ CÓ, bẩm sinh      │ KHÔNG, associative │ KHÔNG, pattern     │
-  │                  │                    │ learning           │ matching on chunks │
+  │ Specialized      │ YES, innate        │ NO, associative    │ NO, pattern        │
+  │ neurons?         │                    │ learning           │ matching on chunks │
   ├──────────────────┼────────────────────┼────────────────────┼────────────────────┤
-  │ Mechanism        │ Gene encode        │ Sensorimotor       │ Brain cần predict  │
-  │                  │ hardware module    │ association (ASL)  │ "agent phi logic"  │
-  │                  │                    │                    │ → build model      │
+  │ Mechanism        │ Genes encode       │ Sensorimotor       │ Brain must predict │
+  │                  │ hardware module    │ association (ASL)  │ non-deterministic  │
+  │                  │                    │                    │ agents → builds    │
+  │                  │                    │                    │ a model            │
   ├──────────────────┼────────────────────┼────────────────────┼────────────────────┤
-  │ Trẻ sơ sinh?     │ Mirror từ sinh     │ Chưa mirror        │ Chưa mirror, chỉ  │
-  │                  │                    │                    │ arousal contagion  │
+  │ Newborns?        │ Mirror from birth  │ Not yet mirroring  │ Not yet mirroring; │
+  │                  │                    │                    │ only arousal       │
+  │                  │                    │                    │ contagion          │
   ├──────────────────┼────────────────────┼────────────────────┼────────────────────┤
-  │ WHY mirror?      │ Gene endowment     │ Cultural learning  │ Agent = phi logic  │
-  │                  │                    │                    │ → brain PHẢI build │
+  │ WHY mirror?      │ Genetic endowment  │ Cultural learning  │ Agent = non-       │
+  │                  │                    │                    │ deterministic →    │
+  │                  │                    │                    │ brain MUST build   │
   │                  │                    │                    │ prediction model   │
   ├──────────────────┼────────────────────┼────────────────────┼────────────────────┤
-  │ Cross-species?   │ Cross-species      │ Learned per        │ Co-evolution       │
-  │                  │ innate             │ species            │ learned (chó 30K   │
-  │                  │                    │                    │ năm co-evolution)  │
+  │ Cross-species?   │ Cross-species      │ Learned per        │ Co-evolutionary    │
+  │                  │ innate             │ species            │ learning (dogs:    │
+  │                  │                    │                    │ 30K years of co-   │
+  │                  │                    │                    │ evolution)         │
   ├──────────────────┼────────────────────┼────────────────────┼────────────────────┤
   │ Strength         │ Hardwired          │ Learning history   │ Modality overlap   │
-  │ gradient?        │ (khó giải thích    │                    │ × interaction      │
+  │ gradient?        │ (hard to explain   │                    │ × interaction      │
   │                  │ gradient)          │                    │ history            │
   ├──────────────────┼────────────────────┼────────────────────┼────────────────────┤
-  │ Tượng/ảnh thần?  │ Khó giải thích     │ Schema-based       │ Compiled prediction│
-  │                  │ (không có real     │                    │ model, no input    │
-  │                  │ mirror input)      │                    │ needed             │
+  │ Religious statue │ Hard to explain    │ Schema-based       │ Compiled prediction│
+  │ / placebo?       │ (no real agent     │                    │ model, no agent    │
+  │                  │ input)             │                    │ input needed       │
   ├──────────────────┼────────────────────┼────────────────────┼────────────────────┤
-  │ Alexithymia      │ Không liên quan    │ Affects learning   │ UPSTREAM bottleneck│
+  │ Alexithymia      │ Irrelevant         │ Affects learning   │ UPSTREAM bottleneck│
   │ → empathy?       │ (hardware intact)  │ quality            │ (decisive: Bird &  │
   │                  │                    │                    │ Cook 2013)         │
   └──────────────────┴────────────────────┴────────────────────┴────────────────────┘
 
 
-  FRAMEWORK GẦN HEYES NHẤT — nhưng thêm WHY:
-    Heyes: "learned through sensorimotor association" — ĐÚNG
-    Framework: "learned VÌ agent = PHI LOGIC → brain PHẢI build model KHÁC đồ vật"
-    → Mirror là BYPRODUCT của brain cần predict unpredictable agents
-    → = Giải thích TẠI SAO learn, không chỉ HOW learn
+  FRAMEWORK IS CLOSEST TO HEYES — but adds WHY:
+    Heyes: "learned through sensorimotor association" — CORRECT
+    Framework: "learned BECAUSE agent = non-deterministic →
+      brain MUST build a different model from the one used for objects"
+    → Mirroring is a BYPRODUCT of the brain needing to predict unpredictable agents
+    → = Explains WHY we learn, not just HOW we learn
 ```
 
 ---
 
-## §3 — 7 BẰNG CHỨNG CHỐNG HARDWARE MIRROR
+## §3 — 7 PIECES OF EVIDENCE AGAINST HARDWARE MIRRORING
 
-### §3.1 — Trẻ sơ sinh CHƯA có mirror thật
+### §3.1 — Newborns DO NOT yet have real mirroring
 
 ```
-🟢 BẰNG CHỨNG 1:
+🟢 EVIDENCE 1:
 
-  Nếu hardware mirror → nên hoạt động TỪ SINH.
-  Thực tế:
+  If hardware mirror module → should be active FROM BIRTH.
+  Reality:
 
-  → Contagious crying = arousal contagion (chưa phân biệt self/other)
-  → Neonatal imitation (Meltzoff) đang bị challenge:
+  → Contagious crying = arousal contagion (no self/other distinction yet)
+  → Neonatal imitation (Meltzoff) is being challenged:
     Oostenbroek 2016 🟢: failed to replicate neonatal imitation
-    → Nếu có, rất yếu và inconsistent — KHÔNG đủ cho "innate module"
+    → If it exists at all, it is very weak and inconsistent — INSUFFICIENT for "innate module"
 
-  → 07-Social-Recognition-Arc: E9 cry contagion ở ngày 1-2:
-    Trẻ khóc lây tiếng khóc trẻ KHÁC > tiếng khóc CỦA MÌNH (recorded)
+  → 07-Social-Recognition-Arc: E9 cry contagion in days 1-2:
+    Newborn cries more to ANOTHER infant's cry than to a RECORDING OF THEIR OWN cry
     (Dondi 1999) 🟢
-    → Nếu hardware mirror: phải khóc ĐỒNG ĐỀU (same acoustic pattern)
-    → Thực tế: khóc người khác = unfamiliar → react MẠNH hơn
-    → Khóc mình = familiar + đã resolve → react YẾU hơn
-    → = PATTERN RECOGNITION limbic, KHÔNG PHẢI hardware mirror
+    → If hardware mirror: should react EQUALLY (same acoustic pattern)
+    → Reality: another's cry = unfamiliar → STRONGER reaction
+    → Own cry = familiar + already resolved → WEAKER reaction
+    → = PATTERN RECOGNITION (limbic), NOT hardware mirroring
 
-  → Consistent: chưa có data → chưa build được model → chưa mirror
+  → Consistent: no data yet → no model can be built → no mirroring
 ```
 
-### §3.2 — Mirror phát triển DẦN theo tuổi
+### §3.2 — Mirroring develops GRADUALLY with age
 
 ```
-🟢 BẰNG CHỨNG 2:
+🟢 EVIDENCE 2:
 
-  Nếu hardware module → nên "bật" đồng loạt.
-  Thực tế: phát triển DẦN qua nhiều giai đoạn:
+  If hardware module → should "switch on" all at once.
+  Reality: develops GRADUALLY across many stages:
 
-  → 0-6 tháng: chỉ pattern matching (arousal contagion)
-  → 6-9 tháng: social referencing (dùng mặt mẹ predict outcome)
-  → 9-12 tháng: instrumental helping (nhặt đồ rơi — pattern completion)
-  → 14-18 tháng: helping phức tạp (phân biệt muốn vs không muốn)
-  → 18-24 tháng: empathic helping + rouge test (TRUE empathy begins)
-  → 2-7 tuổi: animism (over-apply agent model)
-  → 7+: refine boundaries
+  → 0-6 months: only pattern matching (arousal contagion)
+  → 6-9 months: social referencing (using mother's face to predict outcomes)
+  → 9-12 months: instrumental helping (picking up dropped objects — pattern completion)
+  → 14-18 months: more complex helping (distinguishing wanted vs not wanted)
+  → 18-24 months: empathic helping + rouge test (TRUE empathy begins)
+  → 2-7 years: animism (over-applies agent model to inanimate objects)
+  → 7+: refines boundaries
 
-  → = COMPILE TRAJECTORY, không phải "module bật"
-  → Consistent: model CẦN thời gian build từ interaction data
+  → = COMPILE TRAJECTORY, not "module switching on"
+  → Consistent: the model NEEDS time to build from interaction data
 ```
 
 ### §3.3 — Cross-species gradient
 
 ```
-🟢🟡 BẰNG CHỨNG 3:
+🟢🟡 EVIDENCE 3:
 
-  Nếu hardware module → mirror nên binary (có hoặc không).
-  Thực tế: GRADIENT liên tục:
+  If hardware module → mirroring should be binary (present or absent).
+  Reality: CONTINUOUS GRADIENT:
 
-  → Mẹ thật: mirror MẠNH NHẤT
-  → Người lạ: trung bình
-  → Chó quen: có nhưng yếu hơn người (modality overlap thấp hơn)
-  → Mèo: ít hơn chó (ít social co-evolution)
-  → Cá: gần zero
-  → Côn trùng: zero
-  → Đồ vật: zero (trừ khi schema project)
+  → Own mother: STRONGEST mirroring
+  → Stranger: moderate
+  → Familiar dog: present but weaker than with humans (lower modality overlap)
+  → Cat: less than dog (less social co-evolution)
+  → Fish: near zero
+  → Insects: zero
+  → Objects: zero (unless schema projects onto them)
 
-  → Chó mirror người TỐT → 30.000 năm co-evolution:
-    brain chó CÓ thời gian build model "agent-người"
-    (Mèo ít social co-evolution → mirror kém hơn)
-  → = LEARNED từ interaction, KHÔNG innate cho MỌI species
+  → Dogs mirror humans WELL → 30,000 years of co-evolution:
+    dog brains HAD time to build a model of "human agent"
+    (cats have less social co-evolution → weaker mirroring)
+  → = LEARNED from interaction, NOT innate for ALL species
 ```
 
 ### §3.4 — Bird & Cook 2013 — decisive evidence
 
 ```
-🟢 BẰNG CHỨNG 4 — DECISIVE:
+🟢 EVIDENCE 4 — DECISIVE:
 
   Bird & Cook 2013 (Translational Psychiatry) 🟢:
-    → Empathy deficit attributed to autism → THỰC RA driven by ALEXITHYMIA
-    → Autistic WITHOUT alexithymia → empathy INTACT
-    → Alexithymic WITHOUT autism → empathy DEFICIT
+    → Empathy deficit attributed to autism → was ACTUALLY driven by ALEXITHYMIA
+    → Autistic individuals WITHOUT alexithymia → empathy INTACT
+    → Alexithymic individuals WITHOUT autism → empathy DEFICIT
 
-  Nếu hardware mirror module:
-    → Self-reading ability (alexithymia) KHÔNG NÊN liên quan
-    → Hardware intact → mirror nên fire regardless of self-awareness
+  If hardware mirror module:
+    → Self-reading ability (alexithymia) SHOULD NOT be relevant
+    → Hardware intact → mirror should fire regardless of self-awareness
     → PREDICTION CONTRADICTED
 
-  Nếu Self-Pattern-Modeling function on chunks:
+  If Self-Pattern-Modeling function on chunks:
     → Poor self-chunks → poor templates → poor Self-Pattern-Modeling → empathy deficit
     → Self-awareness = upstream prerequisite
     → PREDICTION CONFIRMED
 
-  → = DECISIVE: phân biệt hardware model vs function model
-  → = Evidence mạnh nhất framework có cho rejection
+  → = DECISIVE: distinguishes hardware model from function model
+  → = The strongest evidence the framework has for rejection
 ```
 
-### §3.5 — Tượng / ảnh thần / mẫu ảnh / placebo
+### §3.5 — Religious statues, sacred objects, and placebos
 
 ```
-🟡 BẰNG CHỨNG 5:
+🟡 EVIDENCE 5:
 
-  Nếu hardware mirror → CẦN real agent input.
-  Thực tế: body respond với entities KHÔNG CÓ agent input:
+  If hardware mirror → NEEDS real agent input.
+  Reality: body responds to entities with NO agent input:
 
-  → Tượng Đức Mẹ: visual static, KHÔNG bao giờ respond
-    → Nhưng body feel safe, cortisol giảm
-  → Mẫu ảnh nhỏ ở cổ: somatic trigger (chạm da) + visual rất nhỏ
-    → Body feel protected
-  → Cục đá thiêng: KHÔNG biểu cảm, KHÔNG respond
-    → Body feel connected (qua schema)
-  → Placebo: không có active ingredient
-    → Body respond real (pain reduction, mood improvement)
+  → A religious statue: visually static, never responds
+    → But body feels safe, cortisol decreases
+  → A small pendant worn around the neck: somatic trigger (touches skin) + tiny visual
+    → Body feels protected
+  → A sacred stone: no expression, no response
+    → Body feels connected (via schema)
+  → Placebo: no active ingredient
+    → Body responds for real (pain reduction, mood improvement)
 
-  → = Body respond vì COMPILED SCHEMA, không vì mirror thật
-  → = CÙNG output (cortisol giảm), KHÁC source (schema vs real agent)
-  → Hardware mirror model KHÔNG giải thích được
-  → Compiled prediction model giải thích hoàn toàn:
-    schema compiled đủ sâu → fire tự động → body respond
+  → = Body responds because of COMPILED SCHEMA, not because of real mirroring
+  → = SAME output (cortisol decreases), DIFFERENT source (schema vs real agent)
+  → Hardware mirror model CANNOT explain this
+  → Compiled prediction model explains it completely:
+    schema compiled deeply enough → fires automatically → body responds
 ```
 
-### §3.6 — Mirror CÓ THỂ suppress (gate)
+### §3.6 — Mirroring CAN be suppressed (gated)
 
 ```
-🟡 BẰNG CHỨNG 6:
+🟡 EVIDENCE 6:
 
-  Nếu hardware module → fire TỰ ĐỘNG, khó suppress.
-  Thực tế: mirror CÓ THỂ bị suppress hoàn toàn:
+  If hardware module → fires AUTOMATICALLY, difficult to suppress.
+  Reality: mirroring CAN be completely suppressed:
 
-  → Dehumanization: soldier suppress mirror cho enemy
-    (Grossman On Killing 🟢: must dehumanize to kill)
+  → Dehumanization: soldiers suppress mirroring for the enemy
+    (Grossman "On Killing" 🟢: must dehumanize to kill)
   → Schema override: negative schema → Self-Pattern-Modeling blocked
-  → Mother-10-year case: hostile schema blocks empathy dù axes high
-  → Sau chiến tranh: gate MỞ → PTSD (mirror retroactive flood)
+  → Mother-10-year case: hostile schema blocks empathy despite high axes
+  → After war: gate OPENS → PTSD (retroactive mirror flood)
 
-  → Nếu hardware module → suppress phải rất khó (hardware = stable)
-  → Thực tế: schema suppress HOÀN TOÀN → empathy = ZERO
+  → If hardware module → suppression should be very difficult (hardware = stable)
+  → Reality: schema suppresses COMPLETELY → empathy = ZERO
   → = Empathy controlled by schema (software), NOT hardware
-  → = Consistent với function model: Layer 4 override Layer 3
+  → = Consistent with function model: Layer 4 overrides Layer 3
 ```
 
-### §3.7 — Gương — trẻ treat reflection như Other
+### §3.7 — Mirror test — infants treat their reflection as Other
 
 ```
-🟡 BẰNG CHỨNG 7:
+🟡 EVIDENCE 7:
 
-  → 0-5 tháng: trẻ social smile với reflection (treat như "em bé khác")
-  → 18-24 tháng: nhận ra = chính mình (rouge test pass)
+  → 0-5 months: infant social-smiles at their own reflection (treats it as "another baby")
+  → 18-24 months: recognizes it as themselves (rouge test passes)
 
-  Nếu hardware mirror:
-    → Nên biết reflection = self từ đầu (hardware distinguish)
-  Thực tế:
-    → Model "agent" apply lên MỌI input có face → refine DẦN
-    → = Brain LEARN self-other distinction qua time
-    → = Consistent với learned model, NOT innate hardware
+  If hardware mirror:
+    → Should distinguish reflection = self from the start (hardware distinguishes)
+  Reality:
+    → "Agent" model applied to ALL inputs that have a face → gradually refined
+    → = Brain LEARNS self-other distinction over time
+    → = Consistent with the learned model, NOT innate hardware
 ```
 
 ---
@@ -292,102 +286,107 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ CORE HYPOTHESIS:
 
-  KHÔNG CÓ neuron CHUYÊN cho mirror.
-  Mirroring = LEARNED PATTERN khi brain cần predict "agent phi logic."
+  There are NO neurons SPECIALIZED for mirroring.
+  Mirroring = LEARNED PATTERN when the brain needs to predict
+  "agents that do not follow deterministic rules."
 
   MECHANISM:
 
-    BƯỚC 1 — Trẻ tương tác ĐỒ VẬT:
-      → Input → action → output CỐ ĐỊNH (logic, deterministic)
-      → Bút: cầm → viết → hỏng → sửa. Pattern predict được.
-      → Schema compiled → predict tốt → xong
+    STEP 1 — Child interacts with OBJECTS:
+      → Input → action → output FIXED (logical, deterministic)
+      → Pen: pick up → write → gets dull → sharpen. Pattern is predictable.
+      → Schema compiled → good predictions → done
 
-    BƯỚC 2 — Trẻ tương tác MẸ (agent):
-      → Input → action → output PHI LOGIC (unpredictable)
-      → Cùng hành động (vẫy tay) → mẹ PHẢN ỨNG KHÁC tùy lúc
-      → Schema đồ vật KHÔNG work → PHẢI BUILD model mới
+    STEP 2 — Child interacts with MOTHER (an agent):
+      → Input → action → output NON-DETERMINISTIC (unpredictable)
+      → Same action (wave hand) → mother RESPONDS DIFFERENTLY each time
+      → Object schema does NOT work → MUST BUILD a different model
 
-    BƯỚC 3 — Build "agent model":
-      → Trẻ observe: "khi MÌNH vui → MÌNH muốn chơi"
-      → Trẻ observe: "khi MẸ vui → MẸ chơi với mình"
-      → Mapping: state MẸ ≈ state MÌNH (vì cùng modality: mặt, giọng, body)
-      → "MẸ có state riêng, state đó GIỐNG cách MÌNH có state"
-      → = Self-Pattern-Modeling: dùng own-state để predict other-state
+    STEP 3 — Build "agent model":
+      → Child observes: "when I am happy → I want to play"
+      → Child observes: "when MOTHER is happy → she plays with me"
+      → Mapping: mother's state ≈ my own state
+        (because same modality: face, voice, body)
+      → "Mother has her own state, and that state is SIMILAR to how I have states"
+      → = Self-Pattern-Modeling: using own-state to predict other-state
 
-    BƯỚC 4 — Compile + generalize:
-      → Lặp lại hàng nghìn lần → compiled thành pattern vô thức
-      → Generalize: mẹ → bố → người khác → con chó → bất kỳ agent nào
-      → Threshold: modality giống càng nhiều → map càng dễ → mirror càng mạnh
+    STEP 4 — Compile + generalize:
+      → Repeated thousands of times → compiled into unconscious pattern
+      → Generalizes: mother → father → others → the dog → any agent
+      → Threshold: more modality overlap → easier mapping → stronger mirroring
 
-  → "MIRROR" = BYPRODUCT của brain cần predict unpredictable agents
-  → = Không phải "gene encode mirror module"
-  → = Brain LEARN vì CẦN, không phải vì CÓ SẴN hardware
+  → "MIRRORING" = BYPRODUCT of brain needing to predict unpredictable agents
+  → = NOT "genes encode a mirror module"
+  → = Brain LEARNS because it NEEDS TO, not because it came pre-wired
 
 
-  3 CƠ CHẾ MÀ MAINSTREAM GỘP THÀNH "MIRROR":
+  3 MECHANISMS MAINSTREAM GROUPS AS "MIRROR":
 
-    ① PATTERN MATCHING (limbic, gần bẩm sinh):
-      = PRE-MIRROR — arousal contagion, KHÔNG phải empathy
-      → Không cần agent model, không cần self-chunks
+    ① PATTERN MATCHING (limbic, near-innate):
+      = PRE-MIRROR — arousal contagion, NOT empathy
+      → No agent model needed, no self-chunks needed
 
     ② AGENT MODELING = Self-Pattern-Modeling (learned, 14-24m+):
       = TRUE EMPATHY — own-state → other-state mapping
-      → Cần self-chunks, cần self-other distinction
+      → Requires self-chunks, requires self-other distinction
 
     ③ SCHEMA SIMULATION (compiled, mature):
-      = POST-MIRROR — compiled model đủ sâu, mirror KHÔNG CẦN NỮA
-      → Body respond từ schema, không từ real input
+      = POST-MIRROR — compiled model deep enough, no longer NEEDS real input
+      → Body responds from schema, not from real-time agent input
 
-    Mainstream gọi CẢ 3 là "mirror" → confusion.
-    Tách ra → mỗi cái có timeline, evidence, mechanism KHÁC NHAU.
+    Mainstream calls ALL 3 "mirror" → confusion.
+    Separate them → each has its own timeline, evidence, and mechanism.
 
-  CHI TIẾT: Empathy.md §2 (3 mechanisms + developmental trajectory)
+  DETAIL: Empathy.md §2 (3 mechanisms + developmental trajectory)
 ```
 
 ---
 
-## §5 — TẠI SAO FRAMEWORK GẦN HEYES NHƯNG SÂU HƠN
+## §5 — WHY THE FRAMEWORK ALIGNS WITH HEYES BUT GOES DEEPER
 
 ```
-🟡 HEYES VÀ FRAMEWORK — ĐỒNG Ý + BẤT ĐỒNG:
+🟡 HEYES AND THE FRAMEWORK — AGREEMENT + DIVERGENCE:
 
-  ĐỒNG Ý:
+  AGREEMENT:
     → Mirror = learned, NOT innate module ✅
-    → Associative learning plays role ✅
+    → Associative learning plays a role ✅
     → Development matters ✅
 
-  FRAMEWORK THÊM MÀ HEYES CHƯA NÓI:
+  WHAT FRAMEWORK ADDS THAT HEYES DOES NOT YET SAY:
 
-    ① WHY learn mirror?
-      Heyes: "associative learning qua sensorimotor experience"
-      Framework: "VÌ agent = PHI LOGIC. Brain PHẢI build model KHÁC đồ vật.
-        Model dùng own-state vì = resource duy nhất sẵn có."
-      → Framework giải thích MOTIVATION, không chỉ mechanism
+    ① WHY learn to mirror?
+      Heyes: "associative learning through sensorimotor experience"
+      Framework: "BECAUSE agent = non-deterministic. Brain MUST build a model
+        different from what it uses for objects.
+        Uses own-state as a template because it is the only resource available."
+      → Framework explains the MOTIVATION, not just the mechanism
 
-    ② Self-awareness prerequisite:
-      Heyes: mentions learning quality varies
+    ② Self-awareness as a prerequisite:
+      Heyes: mentions that learning quality varies
       Framework: "Self-chunks = upstream bottleneck (Bird & Cook DECISIVE).
         No self-awareness → no templates → no empathy.
-        ARCHITECTURAL constraint, not just developmental."
-      → Framework makes explicit vì sao self-awareness load-bearing
+        An ARCHITECTURAL constraint, not just a developmental one."
+      → Framework makes explicit why self-awareness is load-bearing
 
-    ③ 3 mechanisms decomposition:
-      Heyes: focuses on learned vs innate debate
-      Framework: tách rõ 3 mechanisms (pattern matching / agent modeling / schema simulation)
-        với timeline + evidence khác nhau
+    ③ 3-mechanism decomposition:
+      Heyes: focuses on the learned vs innate debate
+      Framework: clearly distinguishes 3 mechanisms
+        (pattern matching / agent modeling / schema simulation)
+        each with a different timeline + evidence base
       → Framework adds finer-grained taxonomy
 
     ④ Schema override pathway:
-      Heyes: doesn't address Schema-Pure-Trust/Imagined-Overlay religious agents
-      Framework: compiled schema can REPLACE mirror entirely (tượng, đá thiêng, placebo)
-        hoặc suppress mirror (dehumanization)
-      → Framework explains anomalous cases Heyes doesn't cover
+      Heyes: does not address Schema-Pure-Trust or imagined/religious agents
+      Framework: compiled schema can REPLACE mirroring entirely
+        (statues, sacred stones, placebos)
+        or SUPPRESS mirroring (dehumanization)
+      → Framework explains anomalous cases Heyes does not cover
 
     ⑤ Chunk substrate integration:
-      Heyes: abstract "learning" without specifying substrate
-      Framework: empathy = Self-Pattern-Modeling function on CHUNK substrate
+      Heyes: abstract "learning" without specifying the substrate
+      Framework: empathy = Self-Pattern-Modeling function on a CHUNK substrate
         (Chunk.md v2.0 — strength-weighted associative network compiled through experience)
-      → Framework specifies implementation level
+      → Framework specifies the implementation level
 
   → Framework = Heyes position + WHY + architectural constraint
     + 3-mechanism taxonomy + schema override + chunk substrate
@@ -399,29 +398,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
   ESTABLISHED (🟢):
-    🟢 Mirror neurons ở khỉ (single-neuron recording)
-    🟢 Shared activation areas ở người (fMRI — Singer, Lamm, Frith)
+    🟢 Mirror neurons in monkeys (single-neuron recording)
+    🟢 Shared activation areas in humans (fMRI — Singer, Lamm, Frith)
     🟢 Neonatal imitation challenged (Oostenbroek 2016)
-    🟢 Neonatal cry asymmetry (Dondi 1999) — own vs other cry
+    🟢 Neonatal cry asymmetry (Dondi 1999) — own cry vs other's cry
     🟢 "Broken mirror theory of autism" = DEAD (Bird & Cook 2013)
     🟢 Empathy = learnable, context-dependent (Lutz 2008)
     🟢 Developmental stages (Warneken, Svetlova, Amsterdam)
     🟢 Dehumanization requires suppressing empathy (Grossman)
 
-  FRAMEWORK SUY LUẬN (🟡):
-    🟡 "KHÔNG CÓ neuron CHUYÊN cho mirror"
+  FRAMEWORK SYNTHESIS (🟡):
+    🟡 "There are NO neurons SPECIALIZED for mirroring"
        — Consistent with Heyes + challenge to Rizzolatti
-       — Shared activation areas TỒN TẠI, nhưng = learned patterns
-       — Single-neuron evidence ở người vẫn sparse
-    🟡 "Mirror = learned prediction model VÌ agent = phi logic"
-       — Extends Heyes with WHY. Logical, consistent, chưa test trực tiếp.
-    🟡 "3 mechanisms decomposition"
-       — Each mechanism has evidence, taxonomy = framework
+       — Shared activation areas DO EXIST, but = learned patterns
+       — Single-neuron evidence in humans still sparse
+    🟡 "Mirror = learned prediction model BECAUSE agent = non-deterministic"
+       — Extends Heyes with WHY. Logical, consistent, not yet directly tested.
+    🟡 "3-mechanism decomposition"
+       — Each mechanism has evidence; the taxonomy itself = framework
     🟡 "Self-awareness = architectural prerequisite" (beyond developmental)
-       — Bird & Cook supports, but "architectural" claim = framework interpretation
+       — Bird & Cook supports this; "architectural" claim = framework interpretation
 
   HYPOTHESIS (🔴):
-    🔴 "Mirror là BYPRODUCT" — framing choice, không directly testable
+    🔴 "Mirroring is a BYPRODUCT" — a framing choice, not directly testable
     🔴 Exact timeline transitions (①→②→③) — milestones established,
        transitions = framework interpretation
 ```
@@ -433,11 +432,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 PARENT + SIBLINGS (Agent/ folder):
   → Agent.md §0.3 — "Hardware mirror module rejected" (1 line → THIS FILE for full analysis)
-  → Self-Pattern-Modeling.md §5 — developmental bootstrap (WHY self-chunks prerequisite)
+  → Self-Pattern-Modeling.md §5 — developmental bootstrap (WHY self-chunks are a prerequisite)
   → By-Product-Gap-Resonance.md — emergent mutual phenomenon (retrospective calibration)
 
 EMPATHY REFERENCE:
-  → Empathy.md v1.0 §1-§2 — redefine empathy + 3 mechanisms (USES this file's analysis)
+  → Empathy.md v1.0 §1-§2 — redefines empathy + 3 mechanisms (USES this file's analysis)
 
 DEVELOPMENTAL EVIDENCE:
   → 07-Social-Recognition-Arc — E9 cry contagion (DECISIVE evidence against hardware)
@@ -450,14 +449,14 @@ DEEP ANALYSIS:
 
 ORIGINAL SOURCE:
   → Mirror-Neuron-Analysis.md (backup/Mirror-Empathy-Connection-Other/)
-    — Working draft phân tích gốc từ conversation 2026-04-12
-    — Insights tích hợp + refined trong file này
+    — Working draft of original analysis from conversation 2026-04-12
+    — Insights integrated + refined in this file
 ```
 
 ---
 
-> *"Không có neuron 'mirror' bẩm sinh.
-> Có brain PHẢI learn predict agents phi logic.
-> Model dùng own-state vì = resource duy nhất sẵn có.
-> Mirror = byproduct. Empathy = function.
-> Hardware chỉ cung cấp triggers — learning builds everything else."*
+> *"There are no 'mirror' neurons built into the hardware from birth.
+> What exists is a brain that MUST learn to predict agents that don't follow deterministic rules.
+> The model uses own-state as a template because it is the only resource available.
+> Mirroring = byproduct. Empathy = function.
+> Hardware only provides the triggers — learning builds everything else."*

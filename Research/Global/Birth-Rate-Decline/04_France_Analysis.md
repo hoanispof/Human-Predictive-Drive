@@ -1,615 +1,622 @@
-# 🇫🇷 Pháp — Policy CEILING: Tốt Nhất EU Nhưng Vẫn Không Đủ
+# 🇫🇷 France — Policy CEILING: Best in the EU but Still Not Enough
 
-> **Pháp = bằng chứng MẠNH NHẤT cho CẢ HAI mặt của câu hỏi "policy có hiệu quả?":**
-> **CÓ: Pháp 1.56 vs Ý 1.18 / Tây Ban Nha 1.10 — gap 0.4-0.5 nhờ policy.**
-> **KHÔNG ĐỦ: 2.02 (2010) → 1.56 (2025) — DÙ chi 3.5% GDP, DÙ crèche + 35h/tuần.**
+> **France = the strongest evidence for BOTH sides of the question "does policy work?":**
+> **YES: France 1.56 vs Italy 1.18 / Spain 1.10 — a 0.4–0.5 gap attributed to policy.**
+> **NOT ENOUGH: 2.02 (2010) → 1.56 (2025) — DESPITE 3.5% GDP spending, DESPITE crèches and 35-hour weeks.**
 >
-> 150 năm pronatalist policy ≈ +0.1-0.3 con/phụ nữ ≈ 5-10 triệu người thêm qua thế hệ.
-> NHƯNG: khi "MUỐN" giảm (desired 2.5 → 1.9), policy KHÔNG kéo "MUỐN" lên được.
-> Policy fix CƠ SỞ HẠ TẦNG sinh con. Policy KHÔNG fix MONG MUỐN sinh con.
+> 150 years of pronatalist policy ≈ +0.1–0.3 children per woman ≈ 5–10 million additional people across generations.
+> BUT: when "wanting" declines (desired family size 2.5 → 1.9), policy CANNOT pull "wanting" back up.
+> Policy fixes the INFRASTRUCTURE for having children. Policy does NOT fix the DESIRE to have children.
 
 ---
 
-> **Trạng thái:** DRAFT — framework analysis + validated data
-> **Ngày:** 2026-03-31
-> **Mục đích:** Phân tích chuyên sâu Pháp qua 5 trục framework.
-> Policy fix được trục NÀO? Trần ở đâu? Tại sao ĐANG giảm?
-> **Reference:** 00_Overview.md (5 trục tổng thể),
-> 01_South-Korea.md (5/5 trục ÂM, $270 tỷ thất bại),
-> 06_Israel.md (shared Imagine-Final override cost),
-> Imagine-Final.md §1 (2 tầng, competing Imagine-Finals),
+> **Status:** DRAFT — framework analysis + validated data
+> **Date:** 2026-03-31
+> **Purpose:** Deep-dive analysis of France through the 5-axis framework.
+> Which axes can policy fix? Where is the ceiling? Why is TFR declining?
+> **References:** 00_Overview.md (5 axes overall),
+> 01_South-Korea.md (all 5 axes negative, $270B failure),
+> 06_Israel.md (shared Imagine-Final override of cost),
+> Imagine-Final.md §1 (2-layer structure, competing Imagine-Finals),
 > Connection.md v3.1 §12 (Connection × Imagine-Final),
 > Cortisol-Baseline.md v2.0 §3,
-> Education-Mechanism.md §3.1 (bridge = nguồn ④ External Inject)
-> **⚠️ Data thực + framework interpretation — PHÂN BIỆT RÕ 🟢/🟡/🔴**
-> **Quy ước:** 🟢 Research/data support | 🟡 Suy luận từ framework | 🔴 Hypothesis
+> Education-Mechanism.md §3.1 (bridge = source ④ External Inject)
+> **⚠️ Real data + framework interpretation — clearly distinguish 🟢/🟡/🔴**
+> **Convention:** 🟢 Research/data support | 🟡 Framework inference | 🔴 Hypothesis
 
 ---
 
-## Mục Lục
+## Table of Contents
 
 ```
-  §1   DATA TỔNG QUAN — Timeline + Decline + Key Stats
-  §2   5 TRỤC ÁP DỤNG — Policy Fix Gì, Không Fix Gì
-  §3   POLICY ARSENAL — Chi Tiết Hệ Thống Pháp
-  §4   TẠI SAO CAO HƠN EU — So Sánh Đức/Ý/TBN/Nordic
-  §5   TẠI SAO ĐANG GIẢM — 2.02 → 1.56 Trong 15 Năm
-  §6   FRANCE vs ISRAEL — Shared Imagine-Final Gap
-  §7   IMMIGRATION — Clarify Misconception
-  §8   BÀI HỌC — Policy CAN vs CANNOT
+  §1   DATA OVERVIEW — Timeline + Decline + Key Stats
+  §2   FIVE AXES APPLIED — What Policy Fixes, What It Cannot
+  §3   POLICY ARSENAL — France's System in Detail
+  §4   WHY HIGHER THAN EU — Comparison: Germany / Italy / Spain / Nordic
+  §5   WHY IT'S DECLINING — 2.02 → 1.56 in 15 Years
+  §6   FRANCE vs ISRAEL — The Shared Imagine-Final Gap
+  §7   IMMIGRATION — Clarifying the Misconception
+  §8   THE LESSON — Policy CAN vs CANNOT
   §9   HONEST ASSESSMENT
-  §10  CÂU HỎI MỞ
-  §11  KẾT NỐI VỚI CÁC FILE KHÁC
+  §10  OPEN QUESTIONS
+  §11  CONNECTIONS TO OTHER FILES
 ```
 
 ---
 
-## 1. Data Tổng Quan
+## 1. Data Overview
 
 ```
-🟢 TIMELINE — TỪ BABY BOOM → ĐỈNH → DECLINE:
+🟢 TIMELINE — FROM BABY BOOM → PEAK → DECLINE:
 
   ┌────────────┬───────┬──────────────────────────────────────────────┐
-  │ Giai đoạn  │ TFR   │ Sự kiện                                      │
+  │ Period     │ TFR   │ Event                                        │
   ├────────────┼───────┼──────────────────────────────────────────────┤
-  │ 1946-64    │ ~2.9  │ Baby boom, peak population growth             │
-  │ 1964-75    │ 2.88→ │ Thuốc tránh thai (1967), May 68              │
-  │            │ 1.93  │ Neuwirth Law → rapid decline                  │
-  │ 1975-93    │ ~1.8  │ Plateau quanh 1.8, low = 1.66 (1993)        │
-  │ 1993-2010  │ 1.66→ │ RECOVERY: policy expansion + delayed births   │
-  │            │ 2.02  │ catch-up → ĐỈNH 2.02 (2010)                  │
-  │ 2010-14    │ ~2.0  │ Plateau gần replacement                      │
-  │ 2015       │ 1.93  │ CẮT phúc lợi gia đình → decline tăng tốc   │
-  │ 2023       │ 1.64  │ Giảm mạnh −0.12 trong 1 năm                 │
-  │ 2024       │ 1.62  │ Tiếp tục giảm                                │
-  │ 2025       │ 1.56  │ THẤP NHẤT TỪ THẾ CHIẾN I                    │
+  │ 1946–64    │ ~2.9  │ Baby boom, peak population growth            │
+  │ 1964–75    │ 2.88→ │ Contraception legalized (1967), May '68     │
+  │            │ 1.93  │ Neuwirth Law → rapid decline                 │
+  │ 1975–93    │ ~1.8  │ Plateau around 1.8; low = 1.66 (1993)       │
+  │ 1993–2010  │ 1.66→ │ RECOVERY: policy expansion + delayed births  │
+  │            │ 2.02  │ catch-up → PEAK 2.02 (2010)                 │
+  │ 2010–14    │ ~2.0  │ Plateau near replacement                     │
+  │ 2015       │ 1.93  │ WELFARE CUTS → decline accelerates          │
+  │ 2023       │ 1.64  │ Sharp drop −0.12 in a single year           │
+  │ 2024       │ 1.62  │ Continued decline                            │
+  │ 2025       │ 1.56  │ LOWEST SINCE WORLD WAR I                     │
   └────────────┴───────┴──────────────────────────────────────────────┘
 
   Births: 833,000 (2010) → 645,000 (2025) = −23%
-  2025: LẦN ĐẦU từ WWII — số chết > số sinh (−6,000)
+  2025: FIRST TIME since WWII — deaths exceed births (−6,000)
 
 
-🟢 KEY STATS — PHÁP HIỆN TẠI:
+🟢 KEY STATS — FRANCE TODAY:
 
   Family formation:
-    → 63-65% trẻ sinh NGOÀI hôn nhân (cao nhất EU)
-    → NHƯNG: 84% được cha nhận → phần lớn = cặp đôi ổn định (PACS/cohabit)
-    → Tuổi kết hôn trung bình: nam 39.8 / nữ 37.3 (rất muộn)
-    → Tuổi sinh con đầu: nữ 31.2 / nam 34.1
+    → 63–65% of births OUTSIDE marriage (highest in EU)
+    → BUT: 84% are acknowledged by the father → most = stable couples (PACS/cohabitation)
+    → Average age at marriage: men 39.8 / women 37.3 (very late)
+    → Age at first birth: women 31.2 / men 34.1
 
   Fertility desire:
-    → Desired children (nữ <30 tuổi): 1.9 (GIẢM từ 2.5 trong 20 năm)
-    → 65% cho rằng "2 con là ideal" — giờ được hiểu là MAX, không phải MIN
-    → Childlessness: <15% (thấp hơn Đức ~22%, Nhật 28%)
+    → Desired children (women under 30): 1.9 (DOWN from 2.5 over 20 years)
+    → 65% say "2 children is ideal" — now interpreted as the MAX, not the minimum
+    → Childlessness: <15% (lower than Germany ~22%, Japan 28%)
 
   Policy spending:
-    → 3.5% GDP cho gia đình (top 3 OECD)
-    → Crèche: 59.3% trẻ <3 tuổi trong childcare chính thức
-    → École maternelle: miễn phí từ 3 tuổi, BẮT BUỘC từ 2019
-    → ĐH: chỉ €178/năm (vs Hàn $272K đến 18 tuổi)
+    → 3.5% of GDP on family support (top 3 OECD)
+    → Crèche: 59.3% of children under 3 in formal childcare
+    → École maternelle: free from age 3, MANDATORY since 2019
+    → University: only €178/year (vs South Korea $272K through age 18)
 
   Work:
-    → 35h/tuần luật + ~24 ngày RTT + 25 ngày phép + 11 ngày lễ = ~60 ngày nghỉ/năm
-    → Paternity leave: 28 ngày, 81% fathers sử dụng
-    → 75% nữ 25-54 đi làm (cao + work-motherhood = NORM)
+    → 35-hour legal week + ~24 RTT days + 25 vacation days + 11 holidays
+      = ~60 days off per year
+    → Paternity leave: 28 days, 81% of fathers use it
+    → 75% of women 25–54 are employed (high rate + working motherhood = NORM)
 
 
-🟢 SO SÁNH NHANH — PHÁP vs HÀN vs ISRAEL:
+🟢 QUICK COMPARISON — FRANCE vs KOREA vs ISRAEL:
 
   ┌────────────────────────┬─────────┬──────────┬──────────┐
-  │                        │ 🇫🇷 Pháp │ 🇰🇷 Hàn   │ 🇮🇱 Israel │
+  │                        │🇫🇷 France│🇰🇷 Korea  │🇮🇱 Israel │
   ├────────────────────────┼─────────┼──────────┼──────────┤
-  │ TFR (2024-25)          │ 1.56    │ 0.75     │ 2.9      │
-  │ GDP/capita (PPP)       │ ~$53K   │ ~$53K    │ ~$55K    │
-  │ Family policy GDP %    │ 3.5%    │ ~1.5%    │ ~2.5%    │
-  │ Childcare <3 coverage  │ 59%     │ thấp     │ moderate │
-  │ Free preschool         │ Từ 3 tuổi│ Không   │ Từ 3 tuổi│
-  │ ĐH cost/năm           │ €178    │ rất cao  │ moderate │
-  │ Giờ nghỉ/năm          │ ~60 ngày│ rất ít   │ Shabbat  │
-  │ Shared Imagine-Final   │ YẾU     │ KHÔNG    │ CỰC MẠNH│
-  │ Schemas "sinh = ?"     │ TRUNG LẬP│ "khổ"  │ "tốt"    │
+  │ TFR (2024–25)          │ 1.56    │ 0.75     │ 2.9      │
+  │ GDP per capita (PPP)   │ ~$53K   │ ~$53K    │ ~$55K    │
+  │ Family policy (% GDP)  │ 3.5%    │ ~1.5%    │ ~2.5%    │
+  │ Childcare <3 coverage  │ 59%     │ low      │ moderate │
+  │ Free preschool         │ From 3  │ No       │ From 3   │
+  │ University cost/year   │ €178    │ very high│ moderate │
+  │ Days off/year          │ ~60     │ very few │ Shabbat  │
+  │ Shared Imagine-Final   │ WEAK    │ NONE     │ VERY STRONG│
+  │ Schemas "birth = ?"    │ NEUTRAL │ "painful"│ "good"   │
   │ Desired children       │ 1.9     │ —        │ 3.1      │
   └────────────────────────┴─────────┴──────────┴──────────┘
 ```
 
 ---
 
-## 2. Năm Trục Áp Dụng — Policy Fix Gì, Không Fix Gì
+## 2. The Five Axes Applied — What Policy Fixes, What It Cannot
 
 ```
-🟡 BẢNG TỔNG HỢP — PHÁP FIX ĐƯỢC 2.5/5 TRỤC:
+🟡 SUMMARY TABLE — FRANCE FIXES 2.5 OUT OF 5 AXES:
 
   ┌──────────────────────┬──────────────────┬─────────────────────────┐
-  │ Trục                 │ Policy fix?      │ Chi tiết                │
+  │ Axis                 │ Policy fix?      │ Details                 │
   ├──────────────────────┼──────────────────┼─────────────────────────┤
-  │ ① Cost               │ ✅ FIX MẠNH      │ Crèche, école maternelle│
-  │                      │                  │ ĐH €178, allocations    │
+  │ ① Cost               │ ✅ STRONG FIX    │ Crèche, école           │
+  │                      │                  │ maternelle, €178 univ., │
+  │                      │                  │ family allowances       │
   ├──────────────────────┼──────────────────┼─────────────────────────┤
-  │ ② Competing Imag-Final│ ❌ KHÔNG FIX     │ Career vẫn compete      │
-  │                      │                  │ Không shared Imagine-Final│
+  │ ② Competing          │ ❌ CANNOT FIX    │ Career still competes   │
+  │   Imagine-Finals     │                  │ No shared Imagine-Final  │
   ├──────────────────────┼──────────────────┼─────────────────────────┤
-  │ ③ Repair cycle       │ ✅ FIX VỪA       │ 35h, RTT, ~60 ngày nghỉ│
-  │                      │                  │ NHƯNG: không có rhythm  │
-  │                      │                  │ văn hóa như Shabbat     │
+  │ ③ Repair cycle       │ ✅ PARTIAL FIX   │ 35h, RTT, ~60 days off  │
+  │                      │                  │ BUT: no cultural rhythm  │
+  │                      │                  │ like Shabbat            │
   ├──────────────────────┼──────────────────┼─────────────────────────┤
-  │ ④ Schemas            │ ⚠️ MỘT PHẦN     │ 150 năm pronatalist     │
+  │ ④ Schemas            │ ⚠️ PARTIAL       │ 150 years pronatalist   │
   │                      │                  │ = institutional memory  │
-  │                      │                  │ NHƯNG: desire GIẢM      │
-  │                      │                  │ → schemas đang THAY ĐỔI │
+  │                      │                  │ BUT: desire DECLINING   │
+  │                      │                  │ → schemas SHIFTING      │
   ├──────────────────────┼──────────────────┼─────────────────────────┤
-  │ ⑤ Connection         │ ⚠️ MỘT PHẦN     │ Crèche = community care │
-  │                      │                  │ NHƯNG: không extended   │
-  │                      │                  │ family mạnh như Israel  │
+  │ ⑤ Connection         │ ⚠️ PARTIAL       │ Crèche = community care │
+  │                      │                  │ BUT: no strong extended  │
+  │                      │                  │ family like Israel      │
   └──────────────────────┴──────────────────┴─────────────────────────┘
 
 
-  ⭐ CHI TIẾT TỪNG TRỤC:
+  ⭐ EACH AXIS IN DETAIL:
 
-  ① COST — FIX MẠNH NHẤT (policy CAN DO):
+  ① COST — STRONGEST FIX (policy CAN do this):
 
-    🟢 Childcare 0-3:
-      → Crèche: €50-1,000/tháng (sliding scale theo thu nhập)
-      → Nhà nước chi ~80% cost childcare công
-      → CMG subsidy: cover đến 85% cost childminder
-      → = Childcare gần như KHÔNG LÀ RÀO CẢN cho gia đình trung bình
+    🟢 Childcare 0–3:
+      → Crèche: €50–1,000/month (sliding scale by income)
+      → State covers ~80% of public childcare costs
+      → CMG subsidy: covers up to 85% of childminder cost
+      → = Childcare is almost NOT A BARRIER for average families
 
-    🟢 Education 3+:
-      → École maternelle: MIỄN PHÍ từ 3 tuổi (bắt buộc từ 2019)
-      → Primary/Secondary: MIỄN PHÍ
-      → ĐH: €178/năm (vs Hàn: hagwon $330/tháng + ĐH đắt)
-      → = TOÀN BỘ giáo dục gần như MIỄN PHÍ
+    🟢 Education age 3+:
+      → École maternelle: FREE from age 3 (mandatory since 2019)
+      → Primary/Secondary: FREE
+      → University: €178/year (vs Korea: hagwon €330/month + expensive universities)
+      → = THE ENTIRE EDUCATION PIPELINE is near-free
 
     🟢 Financial support:
-      → Allocations familiales: €151/tháng (2 con) → €345 (3 con)
-      → Quotient familial: giảm thuế RÕ RÀNG cho gia đình đông con
-      → Prime de naissance: €1,084/con
-      → = Chi tiền ĐÚNG CÁCH: giảm ongoing cost, không chỉ lump-sum
+      → Allocations familiales: €151/month (2 children) → €345 (3 children)
+      → Quotient familial: significant tax reduction for larger families
+      → Prime de naissance: €1,084 per child
+      → = Money directed CORRECTLY: reduces ongoing costs, not just lump sums
 
-    🟡 Framework: cost Pháp THẤP HƠN NHIỀU so với Hàn:
-      → Hàn: $272K đến 18 tuổi (ĐẮT NHẤT TG)
-      → Pháp: education ~miễn phí + childcare trợ cấp nặng
-      → = PFC tính: cost manageable → "có thể"
-      → = Đây là LÝ DO CHÍNH Pháp > Ý/TBN (chi nhiều hơn, cost thấp hơn)
-
-
-  ② COMPETING IMAGINE-FINALS — KHÔNG FIX ĐƯỢC:
-
-    → Career + tự do + du lịch + self-development = VẪN COMPETE
-    → 75% nữ 25-54 đi làm → career Imagine-Final MẠNH
-    → Policy tạo "career + con = CÓ THỂ CẢ HAI"
-    → NHƯNG: "có thể" ≠ "muốn" → desired children GIẢM (2.5 → 1.9)
-    → = Policy XÓA rào cản → nhưng KHÔNG TẠO mong muốn
-    → ≠ Israel: "phải có con" (shared Imagine-Final) → desire BUILT-IN
+    🟡 Framework: child-rearing cost in France MUCH LOWER than Korea:
+      → Korea: $272K through age 18 (most expensive in the world)
+      → France: education near-free + heavily subsidized childcare
+      → = Prefrontal Cortex calculates: cost is manageable → "it's possible"
+      → = THIS IS THE PRIMARY REASON France > Italy/Spain (more spending, lower cost)
 
 
-  ③ REPAIR CYCLE — FIX VỪA:
+  ② COMPETING IMAGINE-FINALS — CANNOT FIX:
 
-    🟢 35h/tuần + RTT + ~60 ngày nghỉ/năm = repair TIME có
-    → So Hàn (1,872h/năm, ít nghỉ) → Pháp có NHIỀU thời gian hơn
-
-    🟡 NHƯNG: không có RHYTHM văn hóa:
-      → Pháp: "nghỉ khi nào cũng được" → tự do → NHƯNG không CẤU TRÚC
-      → Israel: Shabbat = MỖI TUẦN, KHÔNG TRỐN ĐƯỢC, XÃ HỘI ENFORCE
-      → = Pháp: repair AVAILABLE nhưng không GUARANTEED
-      → = Israel: repair BUILT INTO culture → body ADAPT rhythm 6:1
-      → = Policy tạo OPPORTUNITY repair → culture tạo HABIT repair
+    → Career + freedom + travel + self-development = STILL COMPETING
+    → 75% of women 25–54 working → career Imagine-Final is STRONG
+    → Policy creates "career + children = BOTH POSSIBLE"
+    → BUT: "possible" ≠ "wanted" → desired family size declining (2.5 → 1.9)
+    → = Policy REMOVES barriers → but DOESN'T CREATE desire
+    → ≠ Israel: "must have children" (shared Imagine-Final) → desire BUILT-IN
 
 
-  ④ SCHEMAS — ĐANG THAY ĐỔI (NGUY HIỂM):
+  ③ REPAIR CYCLE — PARTIAL FIX:
 
-    🟢 150 năm pronatalist history:
-      → Từ 1896: Alliance nationale pour l'accroissement de la population
+    🟢 35h/week + RTT + ~60 days off/year = repair TIME exists
+    → Compared to Korea (1,872 hours/year, little time off) → France has MUCH MORE time
+
+    🟡 BUT: no CULTURAL RHYTHM:
+      → France: "rest whenever you want" → freedom → BUT no STRUCTURE
+      → Israel: Shabbat = EVERY WEEK, CANNOT ESCAPE, SOCIETY ENFORCES it
+      → = France: repair AVAILABLE but not GUARANTEED
+      → = Israel: repair BUILT INTO culture → body adapts to 6:1 rhythm
+      → = Policy creates OPPORTUNITY to repair → culture creates HABIT of repair
+
+
+  ④ SCHEMAS — SHIFTING (DANGEROUS DIRECTION):
+
+    🟢 150 years of pronatalist history:
+      → From 1896: Alliance nationale pour l'accroissement de la population
       → 1939: Code de la Famille
       → Post-WWII: CAF system
-      → = "Pronatalism" = institutional DNA Pháp (unique ở phương Tây)
-      → Lyman Stone: legacy ≈ +0.1-0.3 con/phụ nữ → 5-10 triệu người
+      → = "Pronatalism" = institutional DNA of France (unique in the West)
+      → Lyman Stone: legacy ≈ +0.1–0.3 children per woman → 5–10 million people
 
-    🟡 NHƯNG: schemas đang SHIFT:
-      → Desired children: 2.5 → 1.9 (nữ <30 tuổi, trong 20 năm)
-      → "2 con = MAX, không phải MIN" (new schema)
-      → Eco-anxiety: 35% người lo lắng = ÍT muốn sinh
-      → Gender tension: "nữ có giáo dục CAO HƠN nam, KHÔNG CHẤP NHẬN
-        gánh nặng kép (double burden) như thập niên 80"
-      → = Schemas 150 năm ĐANG BỊ override bởi schemas MỚI
-      → = Đây là GỐC của decline 2.02 → 1.56
+    🟡 BUT: schemas are SHIFTING:
+      → Desired children: 2.5 → 1.9 (women under 30, over 20 years)
+      → "2 children = MAX, not minimum" (new schema)
+      → Eco-anxiety: 35% concerned = want FEWER children
+      → Gender tension: "women now more educated than men and REFUSE to accept
+        the double burden (double burden) as in the 1980s"
+      → = 150 years of schemas being OVERRIDDEN by NEW schemas
+      → = THIS IS THE ROOT of the 2.02 → 1.56 decline
 
 
-  ⑤ CONNECTION — MỘT PHẦN:
+  ⑤ CONNECTION — PARTIAL:
 
     🟢 Crèche + école maternelle = community childcare:
-      → Bố mẹ gặp nhau, trẻ giao tiếp → connection cơ bản
+      → Parents meet each other, children socialize → basic connection
 
-    🟡 NHƯNG: không có extended family structure:
-      → Nuclear family dominant (như hầu hết phương Tây)
-      → Không có Shabbat weekly gathering
-      → Không có multi-generational living
-      → = Connection VỪA — tốt hơn Hàn (có childcare community)
-        nhưng YẾU hơn Israel (extended family + Shabbat)
+    🟡 BUT: no extended family structure:
+      → Nuclear family dominant (like most of the West)
+      → No weekly Shabbat gathering
+      → No multi-generational living
+      → = Connection MODERATE — better than Korea (has childcare community)
+        but WEAKER than Israel (extended family + Shabbat)
 ```
 
 ---
 
-## 3. Policy Arsenal — Chi Tiết Hệ Thống Pháp
+## 3. Policy Arsenal — France's System in Detail
 
 ```
-🟢 TỔNG HỢP — CHÍNH SÁCH GIA ĐÌNH TOÀN DIỆN NHẤT PHƯƠNG TÂY:
+🟢 OVERVIEW — MOST COMPREHENSIVE FAMILY POLICY IN THE WEST:
 
-  ⭐ CHILDCARE (0-3 tuổi):
-    → Crèche collective: nhà trẻ công, 2.5 tháng → 3 tuổi
-    → Micro-crèche: nhà trẻ tư (≤12 trẻ), tăng nhanh
-    → Assistante maternelle: bảo mẫu tại nhà (vẫn phổ biến nhất)
-    → Garde à domicile: giữ trẻ tại nhà gia đình
-    → Coverage: 59.3% trẻ <3 tuổi (Eurostat 2024)
-    → Cost: €50-1,000/tháng sliding scale (nhà nước chi ~80%)
-    → HẠN CHẾ: waiting list DÀI, đặc biệt Paris
-      → Geographic disparity: 80 chỗ/100 trẻ (một số vùng) vs 15/100 (vùng khác)
+  ⭐ CHILDCARE (ages 0–3):
+    → Crèche collective: public nursery, 2.5 months → 3 years
+    → Micro-crèche: private nursery (≤12 children), growing rapidly
+    → Assistante maternelle: registered childminder (still most common)
+    → Garde à domicile: in-home childcare
+    → Coverage: 59.3% of children under 3 (Eurostat 2024)
+    → Cost: €50–1,000/month sliding scale (state covers ~80%)
+    → LIMITATION: long waiting lists, especially in Paris
+      → Geographic disparity: 80 places per 100 children (some regions) vs 15/100 (others)
 
-  ⭐ EDUCATION (3+ tuổi):
-    → École maternelle: MIỄN PHÍ, BẮT BUỘC từ 3 tuổi (2019)
-    → Primary/Secondary: miễn phí
-    → ĐH: €178/năm (EU students)
-    → Nhà nước trợ cấp ~€10,000/sinh viên/năm
-    → = TOÀN BỘ education pipeline gần miễn phí
-    → ≠ Hàn: hagwon + ĐH = gánh nặng khổng lồ
+  ⭐ EDUCATION (age 3+):
+    → École maternelle: FREE, MANDATORY from age 3 (2019)
+    → Primary/Secondary: free
+    → University: €178/year (EU students)
+    → State subsidy: ~€10,000 per student per year
+    → = THE ENTIRE EDUCATION PIPELINE near-free
+    → ≠ Korea: hagwon + university = enormous financial burden
 
-  ⭐ LEAVE:
-    → Maternity: 16 tuần (con 1-2) → 26 tuần (con 3+) → ~100% lương
-    → Paternity: 28 ngày, 81% uptake (cải cách 2021)
-    → Parental (PreParE): đến khi con 3 tuổi, NHƯNG:
-      → Chỉ €456/tháng (50% minimum wage) → yếu nhất trong hệ thống
-      → = Rào cản: bố mẹ KHÔNG ĐỦ tiền nghỉ dài
+  ⭐ PARENTAL LEAVE:
+    → Maternity: 16 weeks (first and second child) → 26 weeks (third+) → ~100% pay
+    → Paternity: 28 days, 81% uptake (reformed 2021)
+    → Parental leave (PreParE): until child age 3, BUT:
+      → Only €456/month (50% of minimum wage) → weakest part of the system
+      → = Barrier: parents CANNOT AFFORD to take extended leave
 
-  ⭐ TÀI CHÍNH:
-    → Allocations familiales: €0 (con 1), €151 (2 con), €345 (3 con)/tháng
-    → Quotient familial: con thứ 3+ = 1 "part" thuế (bonus lớn)
-    → Prime de naissance: €1,084/con (means-tested)
-    → Allocation de base: €197/tháng đến 3 tuổi (means-tested)
-    → Back-to-school: €423-462/con/năm (means-tested)
+  ⭐ FINANCIAL:
+    → Allocations familiales: €0 (1 child), €151 (2 children), €345 (3+ children)/month
+    → Quotient familial: third child+ = 1 extra "part" (major tax bonus)
+    → Prime de naissance: €1,084 per child (means-tested)
+    → Allocation de base: €197/month until age 3 (means-tested)
+    → Back-to-school allowance: €423–462 per child per year (means-tested)
 
-  ⭐ WORK-LIFE:
-    → 35h/tuần luật (2000, Aubry Laws)
-    → RTT: đến ~24 ngày/năm nếu làm >35h
-    → 25 ngày phép + 11 lễ = ~60 ngày nghỉ/năm
-    → 48h/tuần absolute ceiling
-    → Quyền yêu cầu part-time sau parental leave
+  ⭐ WORK-LIFE BALANCE:
+    → 35-hour legal week (2000, Aubry Laws)
+    → RTT days: up to ~24 extra days/year if working >35 hours
+    → 25 vacation days + 11 public holidays = ~60 days off per year
+    → 48-hour absolute weekly ceiling
+    → Right to request part-time after parental leave
 
-  ⭐ TỔNG: ~3.5% GDP → top 3 OECD
-    → So sánh: Ý 2.4%, TBN 1.5%, Mỹ 1.0%
-```
-
----
-
-## 4. Tại Sao Cao Hơn EU — So Sánh Cụ Thể
-
-```
-🟢 PHÁP vs ĐỨC (1.56 vs 1.36) — CÙNG GDP, KHÁC MODEL:
-
-  ┌───────────────────────┬──────────────────┬──────────────────────┐
-  │ Yếu tố               │ 🇫🇷 Pháp (1.56)   │ 🇩🇪 Đức (1.36)       │
-  ├───────────────────────┼──────────────────┼──────────────────────┤
-  │ Childcare <3          │ 59% coverage     │ Thiếu nghiêm trọng  │
-  │ Model gia đình        │ Dual-earner      │ Male-breadwinner     │
-  │ "Mẹ đi làm khi con   │ 36.6% "con khổ"  │ 50.7% "con khổ"     │
-  │  còn nhỏ"             │                  │                      │
-  │ Sinh ngoài hôn nhân   │ 63%              │ ~33%                 │
-  │ Stigma "Rabenmutter"  │ Không            │ CÓ (mẹ đi làm = xấu)│
-  │ Spending % GDP        │ 3.5%             │ 3.3%                 │
-  └───────────────────────┴──────────────────┴──────────────────────┘
-
-  🟡 Framework: khác biệt chính = SCHEMAS:
-    → Đức: "Rabenmutter" (mẹ quạ) = schema "mẹ tốt = ở nhà"
-    → Pháp: "mẹ tốt = đi làm + có crèche cho con"
-    → = CÙNG chi tiền → KHÁC schema → KHÁC kết quả
-    → = Chi tiền KHÔNG ĐỦ → cần CULTURAL schema "mẹ đi làm = bình thường"
-
-
-🟢 PHÁP vs Ý/TÂY BAN NHA (1.56 vs 1.18/1.10) — GAP LỚN NHẤT:
-
-  ┌───────────────────────┬──────────────────┬──────────────────────┐
-  │ Yếu tố               │ 🇫🇷 Pháp          │ 🇮🇹🇪🇸 Ý/TBN          │
-  ├───────────────────────┼──────────────────┼──────────────────────┤
-  │ Welfare model         │ NHÀ NƯỚC chăm    │ GIA ĐÌNH chăm        │
-  │ Childcare provider    │ Crèche (nhà nước)│ Ông bà (53% ở Ý!)   │
-  │ Nữ đi làm (25-54)    │ 75-83%           │ 63% (Ý)              │
-  │ Hôn nhân = điều kiện? │ KHÔNG (63% ngoài)│ GẦN NHƯ (Ý: 35%)    │
-  │ Spending % GDP        │ 3.5%             │ 2.4% / 1.5%          │
-  │ PACS/cohabitation     │ PHỔ BIẾN         │ HIẾM (stigma)        │
-  └───────────────────────┴──────────────────┴──────────────────────┘
-
-  🟡 Framework — 2 yếu tố QUYẾT ĐỊNH:
-
-    1. "Familialist welfare" = GÃY KHI GIA ĐÌNH NHỎ LẠI:
-      → Ý/TBN: "ông bà chăm" → NHƯNG: gia đình nhỏ lại → ít ông bà
-      → + Nữ ở nhà chăm con → NHƯNG: nữ muốn đi làm → xung đột
-      → = Model CŨ KHÔNG HOẠT ĐỘNG trong xã hội MỚI
-      → Pháp: nhà nước chăm → KHÔNG phụ thuộc gia đình → resilient hơn
-
-    2. Hôn nhân = gate:
-      → Ý/TBN: "phải cưới mới sinh" → hôn nhân giảm → sinh giảm THEO
-      → Pháp: PACS + cohabitation = chấp nhận → hôn nhân giảm → vẫn sinh
-      → = Pháp XÓA gate → sinh con KHÔNG CẦN hôn nhân
-      → = "63% ngoài hôn nhân" = feature, không phải bug
-
-
-🟢 PHÁP vs NORDIC (1.56 vs 1.25-1.47) — BẤT NGỜ:
-
-  → Nordic chi TƯƠNG ĐƯƠNG (3.2-3.4% GDP) → nhưng TFR THẤP HƠN Pháp
-  → Phần Lan: 1.25! (collapse dù policy hào phóng)
-  → Thụy Điển: 1.43 (giảm mạnh từ ~1.9 trong 2010s)
-
-  🟡 Framework — tại sao Nordic THẤP HƠN dù policy TƯƠNG ĐƯƠNG:
-
-    Hypothesis "workism" (career intensive):
-      → Nordic: dual-earner norm CỰC MẠNH → CẢ 2 career intensive
-      → = Competing Imagine-Final "career" MẠNH HƠN "gia đình"
-      → = Giống pattern §2 trục ②: policy fix cost → NHƯNG career compete
-
-    Pháp slight advantage:
-      → 150 năm pronatalist institutional memory → schema "gia đình = giá trị quốc gia"
-      → Culture ít "career intensive" hơn Nordic
-      → = Pháp: "work hard, live well" vs Nordic: "work-life integrated but WORK still dominant"
-
-    → = NHƯNG: Pháp CŨNG đang giảm (2.02 → 1.56) → gap đang ĐÓNG LẠI
-    → = Có thể Pháp CŨNG đang đi theo Nordic trajectory, chỉ CHẬM HƠN
+  ⭐ TOTAL: ~3.5% of GDP → top 3 OECD
+    → Comparison: Italy 2.4%, Spain 1.5%, USA 1.0%
 ```
 
 ---
 
-## 5. Tại Sao Đang Giảm — 2.02 → 1.56 Trong 15 Năm
+## 4. Why Higher than the EU — Specific Comparisons
 
 ```
-🟢 TIMELINE DECLINE — LIÊN TỤC VÀ TĂNG TỐC:
+🟢 FRANCE vs GERMANY (1.56 vs 1.36) — SAME GDP, DIFFERENT MODEL:
 
-  2010: 2.02 (ĐỈNH)
+  ┌───────────────────────┬──────────────────────┬──────────────────────┐
+  │ Factor                │ 🇫🇷 France (1.56)    │ 🇩🇪 Germany (1.36)   │
+  ├───────────────────────┼──────────────────────┼──────────────────────┤
+  │ Childcare <3          │ 59% coverage         │ Severe shortage      │
+  │ Family model          │ Dual-earner          │ Male-breadwinner     │
+  │ "Mother working       │ 36.6% say "harms     │ 50.7% say "harms     │
+  │  while child is small"│  the child"          │  the child"          │
+  │ Births outside        │ 63%                  │ ~33%                 │
+  │ marriage              │                      │                      │
+  │ "Rabenmutter" stigma  │ None                 │ YES (working mother  │
+  │                       │                      │ = bad mother)        │
+  │ Spending % GDP        │ 3.5%                 │ 3.3%                 │
+  └───────────────────────┴──────────────────────┴──────────────────────┘
+
+  🟡 Framework: the key difference = SCHEMAS:
+    → Germany: "Rabenmutter" (raven mother) = schema "good mother = stays home"
+    → France: "good mother = goes to work + has crèche for the child"
+    → = SAME spending → DIFFERENT schema → DIFFERENT outcome
+    → = Spending alone NOT ENOUGH → need CULTURAL schema "working mother = normal"
+
+
+🟢 FRANCE vs ITALY/SPAIN (1.56 vs 1.18/1.10) — LARGEST GAP:
+
+  ┌───────────────────────┬──────────────────────┬──────────────────────┐
+  │ Factor                │ 🇫🇷 France            │ 🇮🇹🇪🇸 Italy/Spain    │
+  ├───────────────────────┼──────────────────────┼──────────────────────┤
+  │ Welfare model         │ STATE provides care  │ FAMILY provides care │
+  │ Childcare provider    │ Crèche (state)       │ Grandparents (53%    │
+  │                       │                      │ of care in Italy!)   │
+  │ Women working (25–54) │ 75–83%               │ 63% (Italy)          │
+  │ Marriage required?    │ NO (63% outside)     │ NEARLY (Italy: 35%)  │
+  │ Spending % GDP        │ 3.5%                 │ 2.4% / 1.5%          │
+  │ PACS/cohabitation     │ COMMON               │ RARE (social stigma) │
+  └───────────────────────┴──────────────────────┴──────────────────────┘
+
+  🟡 Framework — 2 DECISIVE factors:
+
+    1. "Familialist welfare" = COLLAPSES when families shrink:
+      → Italy/Spain: "grandparents provide care" → BUT: fewer children = fewer grandparents
+      → + Women stay home to raise children → BUT: women want to work → conflict
+      → = Old model NOT WORKING in the new society
+      → France: state provides care → NOT dependent on family → more resilient
+
+    2. Marriage as a gate:
+      → Italy/Spain: "must marry before having children" → marriage declines → births decline
+      → France: PACS + cohabitation = accepted → marriage declines → births CONTINUE
+      → = France REMOVES the gate → having children DOESN'T REQUIRE marriage
+      → = "63% outside marriage" = a feature, not a bug
+
+
+🟢 FRANCE vs NORDIC (1.56 vs 1.25–1.47) — SURPRISING:
+
+  → Nordic countries spend SIMILAR (3.2–3.4% GDP) → but TFR LOWER than France
+  → Finland: 1.25! (collapse despite generous policy)
+  → Sweden: 1.43 (sharp drop from ~1.9 in the 2010s)
+
+  🟡 Framework — why Nordic LOWER despite EQUIVALENT policy:
+
+    "Workism" hypothesis (career-intensive culture):
+      → Nordic: dual-earner norm VERY STRONG → BOTH partners career-intensive
+      → = Competing Imagine-Final "career" STRONGER than "family"
+      → = Mirrors Axis ② pattern: policy fixes cost → BUT career competes
+
+    France's slight advantage:
+      → 150 years of pronatalist institutional memory → schema "family = national value"
+      → Culture less "career-intensive" than Nordic
+      → = France: "work hard, live well" vs Nordic:
+        "work-life integrated but WORK still dominates"
+
+    → = BUT: France is ALSO declining (2.02 → 1.56) → the gap is CLOSING
+    → = France may be on the same Nordic trajectory, just DELAYED
+```
+
+---
+
+## 5. Why It's Declining — 2.02 → 1.56 in 15 Years
+
+```
+🟢 DECLINE TIMELINE — CONTINUOUS AND ACCELERATING:
+
+  2010: 2.02 (PEAK)
   2012: 1.99 (−0.03)
-  2014: 1.97 (giảm nhẹ → cắt phúc lợi bắt đầu)
-  2015: 1.93 (−0.04 → TRÙNG VỚI NĂM CẮT ALLOCATIONS)
+  2014: 1.97 (slight → welfare cuts begin)
+  2015: 1.93 (−0.04 → COINCIDES WITH YEAR OF ALLOCATION CUTS)
   2016: 1.89 (−0.04)
   2018: 1.84 (−0.05)
   2020: 1.79 (COVID)
   2022: 1.76
-  2023: 1.64 (−0.12 = sụt MẠNH)
+  2023: 1.64 (−0.12 = SHARP DROP)
   2024: 1.62
-  2025: 1.56 (THẤP NHẤT TỪ WWI)
+  2025: 1.56 (LOWEST SINCE WWI)
 
-  = Giảm 0.46 con/phụ nữ trong 15 năm
+  = Decline of 0.46 children per woman in 15 years
   = Births: 833K → 645K = −23%
 
 
-🟡 FRAMEWORK GIẢI THÍCH — 6 YẾU TỐ CHỒNG CHẤT:
+🟡 FRAMEWORK EXPLANATION — 6 COMPOUNDING FACTORS:
 
-  ① POLICY RETRENCHMENT (2014-2015):
-    → Cắt/đóng băng allocations familiales (thắt lưng buộc bụng)
-    → Means-testing MỚI → gia đình khá giả MẤT phúc lợi
-    → 🟢 Research confirm: cắt allocations → giảm sinh ở nhóm thu nhập cao
-    → = Policy CAN raise floor → cắt policy = floor GIẢM
-    → = Bằng chứng: policy MATTERS → nhưng chỉ cho FLOOR
+  ① POLICY RETRENCHMENT (2014–2015):
+    → Cut/froze allocations familiales (austerity measures)
+    → New means-testing → better-off families LOST benefits
+    → 🟢 Research confirms: cutting allocations → fertility drop in higher-income group
+    → = Policy CAN raise the floor → cutting policy = floor DROPS
+    → = Evidence: policy MATTERS → but only for the FLOOR
 
-  ② DESIRED FAMILY SIZE GIẢM (trục ④ schemas đang shift):
-    → 2.5 → 1.9 con (nữ <30 tuổi) trong 20 năm
-    → "2 con = MAX" thay vì "2 con = MIN"
-    → = Body MUỐN ít con hơn → policy KHÔNG change "muốn"
-    → = Đây là yếu tố QUAN TRỌNG NHẤT
+  ② DESIRED FAMILY SIZE DECLINING (Axis ④ schemas shifting):
+    → 2.5 → 1.9 children (women under 30, over 20 years)
+    → "2 children = MAX" replacing "2 children = minimum"
+    → = Bodies WANT fewer children → policy DOESN'T change "wanting"
+    → = THIS IS THE MOST IMPORTANT FACTOR
 
-    🟡 Framework: schemas đang RECOMPILE:
-      → Schema cũ (150 năm pronatalist): "gia đình đông = tốt"
-      → Schema mới (social media, global culture): "tự do + ít con = tốt"
-      → Schema mới đang OVERRIDE schema cũ
-      → = 150 năm pronatalist < global culture shift
-      → = Nhưng VẪN chậm hơn Hàn (vì có 150 năm buffer)
+    🟡 Framework: schemas RECOMPILING:
+      → Old schema (150 years pronatalist): "large family = good"
+      → New schema (social media, global culture): "freedom + fewer children = good"
+      → New schema OVERRIDING old schema
+      → = 150 years pronatalist < global cultural shift
+      → = But STILL slower than Korea (because of the 150-year buffer)
 
-  ③ ECO-ANXIETY (competing Imagine-Final MỚI):
-    → 35% người 25-39 lo lắng về tương lai → ÍT muốn sinh
-    → "Không muốn sinh con VÀO thế giới này"
-    → Eco-anxiety giảm ~0.08 con/phụ nữ (INED data)
-    → = Imagine-Final MỚI: "bảo vệ hành tinh" COMPETE với "sinh con"
+  ③ ECO-ANXIETY (NEW competing Imagine-Final):
+    → 35% of people 25–39 worried about the future → want FEWER children
+    → "Don't want to bring children INTO this world"
+    → Eco-anxiety reduces TFR ~0.08 (INED data)
+    → = NEW Imagine-Final: "protecting the planet" COMPETES with "having children"
 
   ④ GENDER EQUALITY PARADOX:
-    → Nữ giáo dục CAO HƠN nam → KHÔNG chấp nhận "double burden"
-    → "Gánh nặng kép" = đi làm + VẪN gánh domestic NHIỀU HƠN nam
-    → Career penalty: 2 con = −12% lương, 3+ con = −25% lương
-    → 40% nữ điều chỉnh career sau sinh
-    → = Trục ② (competing Imagine-Final) + trục ③ (repair bị phá):
-      → "Có con = MẤT career progress + GẤP ĐÔI workload"
-      → Policy cho phép CẢ HAI → NHƯNG body vẫn feel gánh nặng kép
+    → Women now more educated than men → REFUSE to accept the "double burden"
+    → "Double burden" = working full-time + STILL handling more domestic labor than men
+    → Career penalty: 2 children = −12% in wages, 3+ children = −25%
+    → 40% of women adjust career trajectory after having children
+    → = Axis ② (competing Imagine-Final) + Axis ③ (repair disrupted):
+      → "Having children = LOSING career progress + DOUBLING workload"
+      → Policy allows BOTH → BUT body STILL feels the double burden
 
   ⑤ POSTPONEMENT → PERMANENT CHILDLESSNESS:
-    → Tuổi sinh đầu: 31.2 (tăng từ 29.6 trong 2005)
-    → Trì hoãn → sinh học giảm → một phần KHÔNG SINH ĐƯỢC nữa
-    → Childlessness ĐANG TĂNG (dù vẫn <15%)
-    → = "Trì hoãn" ban đầu → "không sinh" sau cùng
+    → Age at first birth: 31.2 (up from 29.6 in 2005)
+    → Delay → biology declines → some CANNOT conceive anymore
+    → Childlessness RISING (though still <15%)
+    → = "Deferring" initially → "not having" ultimately
 
-  ⑥ HOUSING + KINH TẾ:
-    → Paris rent: €1,450/tháng cho 1 phòng
-    → Cost of living tăng → uncertainty → trì hoãn
-    → HLM waiting list: 2.7 triệu hộ → KHÔNG ĐỦ
+  ⑥ HOUSING + ECONOMIC PRESSURE:
+    → Paris rent: €1,450/month for a one-bedroom
+    → Rising cost of living → uncertainty → delay decisions
+    → HLM (public housing) waiting list: 2.7 million households → NOT ENOUGH
 
 
-  ⭐ MACRON "TÁI VŨ TRANG NHÂN KHẨU HỌC" (1/2024):
-    → Check-up sinh sản miễn phí cho mọi người 25 tuổi
-    → Thư cho mọi người 29 tuổi về thông tin sinh sản
-    → Hứa cải thiện parental leave
+  ⭐ MACRON'S "DEMOGRAPHIC REARMAMENT" (January 2024):
+    → Free reproductive health check for everyone at age 25
+    → Letter to every 29-year-old with fertility information
+    → Promise to improve parental leave
 
-    Phản ứng: feminist backlash ("Để tử cung chúng tôi yên")
-    Kết quả: KHÔNG có effect → births tiếp tục giảm 2024-2025
+    Response: feminist backlash ("Leave our uteruses alone")
+    Outcome: NO effect → births continued declining in 2024–2025
 
-    🟡 Framework: "tái vũ trang nhân khẩu học" = DECLARATIVE approach
-      → Nói cho người ta BIẾT về sinh sản → NHƯNG vấn đề không phải "không biết"
-      → Vấn đề: schemas "ít con = tốt" đang compile + cost perception + eco-anxiety
+    🟡 Framework: "demographic rearmament" = DECLARATIVE approach
+      → Telling people what to KNOW about reproduction → BUT the problem isn't ignorance
+      → The problem: schemas "fewer children = good" compiling + cost perception + eco-anxiety
       → = Information ≠ motivation
-      → = Giống Hàn cho tiền: address WRONG channel
+      → = Like Korea handing out cash: addresses the WRONG channel
 ```
 
 ---
 
-## 6. France vs Israel — Shared Imagine-Final Gap
+## 6. France vs Israel — The Shared Imagine-Final Gap
 
 ```
-🟡 SO SÁNH TRỰC TIẾP — TẠI SAO GAP 1.56 vs 2.9:
+🟡 DIRECT COMPARISON — WHY THE 1.56 vs 2.9 GAP:
 
-  ⭐ POLICY TƯƠNG ĐƯƠNG (hoặc Pháp HƠN):
-    → Pháp: crèche 59% coverage, école maternelle miễn phí
-    → Israel: childcare tốt nhưng KHÔNG hào phóng bằng Pháp
-    → Pháp: maternity 16-26 tuần → Israel: 15 tuần
-    → Pháp: paternity 28 ngày 81% uptake → Israel: 5 ngày
-    → Pháp: 3.5% GDP → Israel: ~2.5% GDP
-    → = Pháp chi NHIỀU HƠN Israel cho gia đình → NHƯNG TFR THẤP HƠN GẤP ĐÔI
+  ⭐ POLICY IS COMPARABLE (or France has MORE):
+    → France: crèche 59% coverage, école maternelle free
+    → Israel: good childcare but NOT as generous as France
+    → France: maternity 16–26 weeks → Israel: 15 weeks
+    → France: paternity 28 days, 81% uptake → Israel: 5 days
+    → France: 3.5% GDP → Israel: ~2.5% GDP
+    → = France spends MORE than Israel on families → but TFR is HALF
 
-  ⭐ SHARED IMAGINE-FINAL = GAP QUYẾT ĐỊNH:
+  ⭐ SHARED IMAGINE-FINAL = THE DECISIVE GAP:
 
-    Pháp:
-      → KHÔNG có "be fruitful and multiply" (laïcité = secular)
-      → KHÔNG có existential threat ("Pháp sẽ biến mất")
-      → KHÔNG có "mỗi con = 1 soldier" (không conscription)
-      → KHÔNG có "không con = đáng thương" (social norm = "choice")
-      → CÓ: 150 năm pronatalist institution → NHƯNG = institutional, KHÔNG = body
+    France:
+      → NO "be fruitful and multiply" (laïcité = secular state)
+      → NO existential threat narrative ("France will disappear")
+      → NO "every child = one more defender" (no conscription mentality)
+      → NO "childlessness = pitiful" (social norm = "personal choice")
+      → HAS: 150 years of pronatalist institutions → BUT = institutional, NOT body-level
 
     Israel:
-      → 4 lớp shared Imagine-Final compiled MILLENNIA
-      → Body-level: "PHẢI có con" → vô thức tầng 1
-      → = Desire BUILT-IN, policy chỉ ENABLE
+      → 4 layers of shared Imagine-Final compiled across MILLENNIA
+      → Body-level: "MUST have children" → unconscious Layer 1
+      → = Desire BUILT-IN; policy only ENABLES what the body already wants
 
-    → Pháp: policy CREATE infrastructure → nhưng desire phải TỰ CÓ
-    → Israel: desire ALREADY EXISTS → policy chỉ remove obstacles
-    → = Pháp: "CÓ THỂ sinh" → Israel: "PHẢI sinh"
-    → = Gap = desire, không phải infrastructure
+    → France: policy CREATES infrastructure → but desire must EXIST INDEPENDENTLY
+    → Israel: desire ALREADY EXISTS → policy just removes obstacles
+    → = France: "CAN have children" → Israel: "MUST have children"
+    → = The gap = desire, not infrastructure
 
 
-  ⭐ REPAIR CYCLE — DIFFERENCE:
+  ⭐ REPAIR CYCLE — THE DIFFERENCE:
 
-    Pháp: 35h + RTT = repair AVAILABLE (bạn CÓ THỂ nghỉ)
-    Israel: Shabbat = repair ENFORCED (xã hội BẮT BUỘC nghỉ)
+    France: 35h + RTT = repair AVAILABLE (you CAN rest)
+    Israel: Shabbat = repair ENFORCED (society REQUIRES you to rest)
     → Available ≠ Enforced
-    → Pháp: "có thể nghỉ" → nhưng CÓ THỂ scroll phone / overwork chọn
-    → Israel: "PHẢI nghỉ" → Shabbat = toàn xã hội chậm lại → body repair
+    → France: "can rest" → but CAN ALSO scroll phone / choose to overwork
+    → Israel: "MUST rest" → Shabbat = the entire society slows → body repairs
 
 
-  ⭐ SCHEMAS — DEPTH:
+  ⭐ SCHEMAS — DEPTH OF ROOTS:
 
-    Pháp: 150 năm pronatalist = INSTITUTIONAL memory (chính sách, luật)
-    Israel: 3000+ năm = CULTURAL DNA (ritual, trải nghiệm, body-compiled)
-    → 150 năm institutional < 3000 năm experiential
-    → Institutional: PFC biết "nhà nước hỗ trợ" → rational
-    → Experiential: body feel "PHẢI có con" → vô thức
-    → = Khi cultural shift (eco-anxiety, gender tension) → institutional bị override
-    → = Khi cultural shift → experiential VẪN đứng vững (Israel secular TFR ~2.0)
+    France: 150 years of pronatalism = INSTITUTIONAL memory (policies, laws)
+    Israel: 3,000+ years = CULTURAL DNA (ritual, experience, body-compiled)
+    → 150 years institutional < 3,000 years experiential
+    → Institutional: Prefrontal Cortex knows "the state supports families" → rational
+    → Experiential: body feels "MUST have children" → unconscious
+    → = When cultural shift arrives (eco-anxiety, gender tension) → institutional gets overridden
+    → = When cultural shift arrives → experiential HOLDS FIRM (Israel's secular TFR ~2.0)
 
 
-  ⭐ FORMULA:
+  ⭐ THE FORMULA:
 
-    Pháp = infrastructure MẠNH + desire TRUNG BÌNH → TFR ~1.6 (và giảm)
-    Israel = infrastructure VỪA + desire CỰC MẠNH → TFR ~2.9 (và ổn định)
-    Hàn = infrastructure YẾU + desire CỰC THẤP → TFR ~0.7
+    France = STRONG infrastructure + MEDIUM desire → TFR ~1.6 (and declining)
+    Israel = ADEQUATE infrastructure + VERY STRONG desire → TFR ~2.9 (and stable)
+    Korea = WEAK infrastructure + VERY LOW desire → TFR ~0.7
 
     → DESIRE > INFRASTRUCTURE
-    → Infrastructure tạo FLOOR (Pháp > Ý/TBN)
-    → Desire tạo LEVEL (Israel >> Pháp >> Hàn)
+    → Infrastructure creates FLOOR (France > Italy/Spain)
+    → Desire creates LEVEL (Israel >> France >> Korea)
     → = Policy = necessary but not sufficient
 ```
 
 ---
 
-## 7. Immigration — Clarify Misconception
+## 7. Immigration — Clarifying the Misconception
 
 ```
-🟢 "PHÁP CAO VÌ NHẬP CƯ" = SAI — DATA BÁC BỎ:
+🟢 "FRANCE IS HIGH BECAUSE OF IMMIGRATION" = WRONG — DATA DISPROVES IT:
 
-  Data INED/INSEE (2017):
+  Data from INED/INSEE (2017):
     → Native-born French women: TFR = 1.8
     → Immigrant women: TFR = 2.6
-    → Immigration CONTRIBUTION cho TFR quốc gia: CHỈ +0.1
-    → = Bỏ TOÀN BỘ immigrant → Pháp VẪN 1.8 → VẪN CAO NHẤT EU
-    → = Immigration giải thích ~5-6% TFR, KHÔNG PHẢI yếu tố chính
+    → Immigration CONTRIBUTION to national TFR: ONLY +0.1
+    → = Remove ALL immigrants → France would STILL be 1.8 → STILL highest in EU
+    → = Immigration explains ~5–6% of TFR, NOT the primary driver
 
-  Immigrant chiếm ~19% births nhưng chỉ 12% phụ nữ tuổi sinh
+  Immigrant women represent ~19% of births but only 12% of women of childbearing age
 
-  Second-generation CONVERGENCE — HOÀN TOÀN trong 1 thế hệ:
-    → Immigrant women (sinh 1960-74): 2.35 con trung bình
-    → Con gái họ (sinh ở Pháp): 1.90 con
-    → Native women: 1.86 con
-    → = Gap: 2.35 → 1.90 = GẦN NHƯ BẰNG native (chỉ +0.04)
+  Second-generation CONVERGENCE — COMPLETE within one generation:
+    → Immigrant women (born 1960–74): 2.35 children on average
+    → Their daughters (born in France): 1.90 children
+    → Native women: 1.86 children
+    → = Gap: 2.35 → 1.90 = NEARLY IDENTICAL to native (only +0.04 difference)
 
   🟡 Framework: convergence = SCHEMAS RECOMPILE:
-    → Immigrant đến Pháp khi trẻ → compile Pháp schemas → fertility = Pháp
-    → = Giống Soviet immigrant ở Israel: teens adopt local schemas
-    → = Bằng chứng THÊM: schemas compile từ MÔI TRƯỜNG, không chỉ di truyền
-    → = Education = mediating factor:
-      ĐH-educated immigrant women ≈ native women (gap gần 0)
+    → Immigrants come to France young → compile French schemas → fertility = French
+    → = Like Soviet immigrants in Israel: teenagers adopt local schemas
+    → = Additional evidence: schemas compile from ENVIRONMENT, not genetics
+    → = Education as mediating factor:
+      University-educated immigrant women ≈ native women (gap near zero)
 ```
 
 ---
 
-## 8. Bài Học — Policy CAN vs CANNOT
+## 8. The Lesson — Policy CAN vs CANNOT
 
 ```
-🟡 PHÁP = BÀI HỌC RÕ RÀNG NHẤT VỀ GIỚI HẠN POLICY:
+🟡 FRANCE = THE CLEAREST LESSON ON THE LIMITS OF POLICY:
 
   ⭐ POLICY CAN (FLOOR EFFECT):
 
-    ✅ Giảm investment cost (crèche, école maternelle, ĐH rẻ):
-      → Pháp 1.56 vs TBN 1.10 = gap 0.46 → phần lớn nhờ cost giảm
-      → = Fix trục ① = EFFECTIVE
+    ✅ Reduce child-rearing cost (crèche, école maternelle, near-free university):
+      → France 1.56 vs Spain 1.10 = gap of 0.46 → mostly due to lower costs
+      → = Fixing Axis ① = EFFECTIVE
 
-    ✅ Tạo repair time (35h, RTT, leave):
-      → Pháp có cơ sở hạ tầng thời gian cho bố mẹ
-      → = Fix trục ③ một phần = MODERATE effect
+    ✅ Create repair time (35h, RTT, leave):
+      → France has the time infrastructure for parents
+      → = Partially fixing Axis ③ = MODERATE effect
 
-    ✅ Xóa gate (hôn nhân không bắt buộc):
-      → 63% ngoài hôn nhân → flexible family formation
-      → = Ý/TBN: hôn nhân giảm = sinh giảm. Pháp: KHÔNG
+    ✅ Remove the marriage gate:
+      → 63% outside marriage → flexible family formation
+      → = Italy/Spain: marriage declines = births decline. France: NOT
+      → = Removing the gate = real effect
 
-    ✅ Raise FLOOR (so với không policy):
-      → Lyman Stone: +0.1-0.3 con/phụ nữ → 5-10 triệu người qua thế hệ
-      → = Policy = massive impact dài hạn, DÙ không fix TẤT CẢ
+    ✅ Raise the FLOOR (compared to no policy):
+      → Lyman Stone: +0.1–0.3 children per woman → 5–10 million people across generations
+      → = Policy = massive long-term impact, EVEN IF it doesn't fix everything
 
 
   ⭐ POLICY CANNOT (CEILING LIMIT):
 
-    ❌ Tạo DESIRE sinh con:
-      → Desired children giảm 2.5 → 1.9 → policy KHÔNG kéo lên
+    ❌ Create DESIRE to have children:
+      → Desired children falling 2.5 → 1.9 → policy CANNOT pull it back up
       → = Policy = infrastructure → desire = culture + schemas + Imagine-Final
 
     ❌ Fix eco-anxiety / existential doubt:
-      → "Không muốn con vào thế giới này" → policy KHÔNG address
-      → = Competing Imagine-Final "bảo vệ hành tinh" → new phenomenon
+      → "Don't want children brought into this world" → policy DOESN'T address this
+      → = Competing Imagine-Final "protect the planet" → genuinely new phenomenon
 
-    ❌ Fix gender double burden:
-      → Nữ VẪN gánh domestic nhiều hơn nam → dù policy gender-neutral
-      → Career penalty: 2 con = −12%, 3+ con = −25%
-      → = Cultural shift CẦN, không chỉ policy
+    ❌ Fix the gender double burden:
+      → Women STILL handle more domestic labor than men → despite gender-neutral policy
+      → Career penalty: 2 children = −12%, 3+ = −25%
+      → = Cultural shift is needed, not just policy
 
-    ❌ Tạo shared Imagine-Final:
-      → Pháp KHÔNG CÓ "be fruitful and multiply"
-      → Pháp KHÔNG CÓ existential threat bonding
-      → Macron "tái vũ trang nhân khẩu học" → backlash → thất bại
-      → = KHÔNG THỂ tạo shared Imagine-Final bằng tuyên bố chính trị
+    ❌ Create a shared Imagine-Final:
+      → France DOES NOT HAVE "be fruitful and multiply"
+      → France DOES NOT HAVE existential-threat bonding
+      → Macron's "demographic rearmament" → backlash → failure
+      → = CANNOT create shared Imagine-Final through political declaration
 
     ❌ Enforce repair rhythm:
-      → 35h = available → nhưng không enforced như Shabbat
-      → = Culture phải ENFORCE, policy chỉ ALLOW
+      → 35h = available → but not enforced like Shabbat
+      → = Culture must ENFORCE it; policy can only ALLOW it
 
 
   ⭐ FRAMEWORK SYNTHESIS:
 
-    Policy hiệu quả nhất = XÓA RÀO CẢN cho người ĐÃ MUỐN sinh:
-      → IVF Israel = xóa rào cản y tế → cho người đã muốn
-      → Crèche Pháp = xóa rào cản childcare → cho người đã muốn
-      → Allocations = xóa rào cản tài chính → cho người đã muốn
+    Policy works best = REMOVES BARRIERS for people who ALREADY WANT children:
+      → IVF coverage in Israel = removes medical barrier → for people who already want
+      → Crèche in France = removes childcare barrier → for people who already want
+      → Allocations = removes financial barrier → for people who already want
 
-    Policy KHÔNG hiệu quả = CỐ TẠO MONG MUỐN:
-      → Hàn cho $22K/con → body không muốn → tiền vô ích
-      → Macron "tái vũ trang" → body không muốn → thông tin vô ích
+    Policy DOES NOT WORK = TRYING TO CREATE the desire:
+      → Korea paying $22K per child → body doesn't want → money is useless
+      → Macron's "rearmament" → body doesn't want → information is useless
 
-    → = FLOOR = f(policy): Pháp > Ý/TBN nhờ policy
-    → = LEVEL = f(desire): Israel > Pháp > Hàn nhờ shared Imagine-Final
-    → = Policy fix INFRASTRUCTURE. Culture fix MOTIVATION.
-    → = Cần CẢ HAI. Chỉ 1 = không đủ.
+    → = FLOOR = f(policy): France > Italy/Spain thanks to policy
+    → = LEVEL = f(desire): Israel > France > Korea thanks to shared Imagine-Final
+    → = Policy fixes INFRASTRUCTURE. Culture fixes MOTIVATION.
+    → = Both are needed. One alone = insufficient.
 
-    → Mô hình: TFR ≈ min(desire, infrastructure)
-    → Pháp: desire ~1.9, infrastructure ~2.0+ → TFR ≈ 1.6 (desire bottleneck)
+    → The model: TFR ≈ min(desire, infrastructure)
+    → France: desire ~1.9, infrastructure ~2.0+ → TFR ≈ 1.6 (desire is the bottleneck)
     → Israel: desire ~3+, infrastructure ~2.5 → TFR ≈ 2.9 (desire high enough)
-    → Hàn: desire ~0.8, infrastructure ~1.0 → TFR ≈ 0.75 (both bottleneck)
-    → Ý: desire ~1.5, infrastructure ~1.2 → TFR ≈ 1.18 (infrastructure bottleneck)
+    → Korea: desire ~0.8, infrastructure ~1.0 → TFR ≈ 0.75 (both are bottlenecks)
+    → Italy: desire ~1.5, infrastructure ~1.2 → TFR ≈ 1.18 (infrastructure is the bottleneck)
 ```
 
 ---
@@ -618,123 +625,123 @@
 
 ```
   ESTABLISHED — DATA CONFIRMED (🟢):
-    🟢 TFR: 2.02 (2010) → 1.56 (2025) — thấp nhất từ WWI
-    🟢 2025: số chết > số sinh lần đầu từ WWII (−6,000)
-    🟢 3.5% GDP chi cho gia đình — top 3 OECD
-    🟢 59.3% trẻ <3 tuổi trong formal childcare
-    🟢 École maternelle: miễn phí, bắt buộc từ 3 tuổi
-    🟢 ĐH: €178/năm — thấp cực kỳ so với Hàn/Mỹ
-    🟢 63-65% sinh ngoài hôn nhân — cao nhất EU
-    🟢 35h/tuần + ~60 ngày nghỉ/năm
-    🟢 Paternity leave 28 ngày, 81% uptake
-    🟢 Immigration chỉ +0.1 TFR — KHÔNG phải yếu tố chính
-    🟢 Second-gen convergence HOÀN TOÀN trong 1 thế hệ
-    🟢 Desired children giảm 2.5 → 1.9 (nữ <30, 20 năm)
-    🟢 Policy retrenchment 2015 → fertility giảm ở nhóm khá giả
-    🟢 150 năm pronatalist institutional history (unique phương Tây)
-    🟢 Pháp vs Ý/TBN: gap 0.4-0.5 TFR — largely explained by policy
-    🟢 Pháp vs Nordic: Pháp cao hơn dù chi tương đương
-    🟢 Career penalty: 2 con −12%, 3+ con −25%
+    🟢 TFR: 2.02 (2010) → 1.56 (2025) — lowest since WWI
+    🟢 2025: deaths exceed births for first time since WWII (−6,000)
+    🟢 3.5% of GDP spent on family support — top 3 OECD
+    🟢 59.3% of children under 3 in formal childcare
+    🟢 École maternelle: free, mandatory from age 3
+    🟢 University: €178/year — extremely low vs Korea/USA
+    🟢 63–65% births outside marriage — highest in EU
+    🟢 35-hour week + ~60 days off per year
+    🟢 Paternity leave 28 days, 81% uptake
+    🟢 Immigration contributes only +0.1 TFR — NOT the main driver
+    🟢 Second-generation convergence COMPLETE within one generation
+    🟢 Desired children falling 2.5 → 1.9 (women under 30, over 20 years)
+    🟢 Policy retrenchment 2015 → fertility drop in higher-income group
+    🟢 150 years of pronatalist institutional history (unique in the West)
+    🟢 France vs Italy/Spain: gap 0.4–0.5 TFR — largely explained by policy
+    🟢 France vs Nordic: France higher despite similar spending
+    🟢 Career penalty: 2 children −12%, 3+ children −25%
 
   FRAMEWORK ANALYSIS (🟡):
-    🟡 "Policy fix trục ①③, không fix ②④" — framework classification
-       consistent với data (chi nhiều + vẫn giảm)
-    🟡 "150 năm institutional ≠ 3000 năm experiential" — hierarchy
-       consistent với France vs Israel comparison
-    🟡 "Desired = bottleneck" — model TFR ≈ min(desire, infrastructure)
-       fits data nhưng chưa formal
-    🟡 "Schemas đang recompile (pronatalist → childfree)" — consistent
-       với desired family size decline
+    🟡 "Policy fixes Axes ① and ③, not ②④" — framework classification
+       consistent with data (high spending + still declining)
+    🟡 "150 years institutional ≠ 3,000 years experiential" — hierarchy
+       consistent with France vs Israel comparison
+    🟡 "Desire = bottleneck" — model TFR ≈ min(desire, infrastructure)
+       fits data but not yet formalized
+    🟡 "Schemas recompiling (pronatalist → childfree)" — consistent
+       with falling desired family size
     🟡 "Available repair ≠ enforced repair" (35h vs Shabbat)
-       — logical distinction, hard to isolate empirically
+       — logical distinction, difficult to isolate empirically
     🟡 "Floor vs ceiling of policy" — well-supported by cross-country
-       comparison nhưng precise magnitude uncertain
+       comparison but precise magnitude uncertain
     🟡 "Nordic workism hypothesis" — proposed by researchers,
        framework-compatible, not proven
 
-  HYPOTHESIS — CẦN VALIDATE (🔴):
-    🔴 "Pháp đang đi theo Nordic trajectory, chỉ chậm hơn"
-       — projected nhưng CÓ THỂ stabilize
-    🔴 "Decline structural, not temporary" — INED says yes nhưng
-       cohort effect CHƯA fully play out
+  HYPOTHESIS — NEEDS VALIDATION (🔴):
+    🔴 "France is following the Nordic trajectory, just delayed"
+       — projected but may stabilize
+    🔴 "Decline is structural, not temporary" — INED says yes but
+       cohort effects not yet fully played out
     🔴 "TFR ≈ min(desire, infrastructure)" — simplified model,
-       interaction effects chưa captured
-    🔴 "Eco-anxiety = lasting shift vs temporary worry" — too early
-    🔴 "Macron policy sẽ không effect" — chưa đủ time to evaluate
-    🔴 Floor estimate: +0.1-0.3 (Lyman Stone) — methodology contested
+       interaction effects not captured
+    🔴 "Eco-anxiety = lasting shift vs temporary worry" — too early to determine
+    🔴 "Macron policy will have no effect" — insufficient time to evaluate
+    🔴 Floor estimate: +0.1–0.3 (Lyman Stone) — methodology contested
 ```
 
 ---
 
-## 10. Câu Hỏi Mở
+## 10. Open Questions
 
 ```
-  FR-1: Pháp sẽ stabilize ở đâu? 1.5? 1.3? Hay tiếp tục giảm
-        theo Nordic trajectory?
+  FR-1: Where will France stabilize? 1.5? 1.3? Or continue declining
+        along the Nordic trajectory?
 
-  FR-2: NẾU khôi phục toàn bộ allocations (undo 2015 cuts),
-        TFR tăng bao nhiêu? 0.1? 0.2?
+  FR-2: IF all allocations were restored (undoing 2015 cuts),
+        how much would TFR rise? 0.1? 0.2?
 
-  FR-3: Eco-anxiety = permanent shift hay temporary worry?
-        Data 2025-2030 sẽ answer.
+  FR-3: Eco-anxiety = permanent shift or temporary worry?
+        Data from 2025–2030 will answer this.
 
-  FR-4: Gender double burden — NẾU nam gánh 50% domestic,
-        TFR tăng? Nordic data suggests: MỘT PHẦN nhưng KHÔNG ĐỦ.
+  FR-4: Gender double burden — IF men took 50% of domestic labor,
+        would TFR rise? Nordic data suggests: SOMEWHAT but NOT ENOUGH.
 
-  FR-5: 150 năm pronatalist buffer — còn bao lâu?
-        Đang bị override bởi global culture shift → expiry?
+  FR-5: The 150-year pronatalist buffer — how long does it last?
+        Currently being overridden by global cultural shift → expiry date?
 
-  FR-6: Crèche coverage tăng từ 59% → 80% → impact TFR?
-        Hay already diminishing returns?
+  FR-6: Crèche coverage rising from 59% → 80% → TFR impact?
+        Or already diminishing returns?
 
-  FR-7: ĐH €178/năm → education cost KHÔNG LÀ rào cản →
-        vậy TẠI SAO TFR VẪN GIẢM? → confirm: cost ≠ bottleneck, desire = bottleneck
+  FR-7: University at €178/year → education cost is NOT a barrier →
+        yet TFR STILL FALLS → confirms: cost ≠ bottleneck, desire = bottleneck.
 
-  FR-8: Immigration convergence 1 thế hệ → implication:
-        schemas = environmental, not genetic. Replicable?
+  FR-8: Immigration convergence in 1 generation → implication:
+        schemas = environmental, not genetic. Replicable elsewhere?
 
-  FR-9: Pháp + shared Imagine-Final (hypothetical) → TFR bao nhiêu?
-        NẾU có "sense of national purpose" như Israel → ~2.0+?
+  FR-9: France + shared Imagine-Final (hypothetical) → what would TFR be?
+        IF there were "a sense of national purpose" like Israel → ~2.0+?
 
-  FR-10: Remote work × Pháp fertility — data? Fix repair?
-         Hay "toujours connecté" thay vì repair thật?
+  FR-10: Remote work × French fertility — data? Does it fix repair?
+         Or does "always connected" replace genuine rest?
 ```
 
 ---
 
-## 11. Kết Nối Với Các File Khác
+## 11. Connections to Other Files
 
 ```
   Framework Core:
     → Imagine-Final.md §1: competing Imagine-Finals
-      (Pháp: career + tự do + eco-concern COMPETE với "gia đình")
+      (France: career + freedom + eco-concern COMPETE with "family")
     → Imagine-Final.md §6: shared Imagine-Final
-      (Pháp: KHÔNG CÓ shared Imagine-Final tương đương Israel)
-    → Cortisol-Baseline.md §3: NET HEALTH = repair − damage
-      (Pháp: repair AVAILABLE nhưng không ENFORCED)
-    → Education-Mechanism.md §3.1: Carrot bridge (nguồn ④)
-      (Allocations = better than carrot — ongoing support, not lump-sum
-       → nhưng VẪN không fix desire)
+      (France: DOES NOT HAVE a shared Imagine-Final equivalent to Israel's)
+    → Cortisol-Baseline.md §3: Net Health = repair − damage
+      (France: repair AVAILABLE but not ENFORCED)
+    → Education-Mechanism.md §3.1: Carrot bridge (source ④ External Inject)
+      (Allocations = better than a carrot — ongoing support, not just lump-sum
+       → but STILL doesn't fix desire)
     → Connection.md v3.1 §12: Connection × Imagine-Final
-      (Pháp: connection VỪA — crèche community nhưng không extended family)
+      (France: connection MODERATE — crèche community but no extended family)
 
-  Birth Rate:
-    → 00_Overview.md: 5 trục + pattern phổ quát
-    → 01_South-Korea.md: WORST CASE — 5/5 trục ÂM
-      (Pháp fix 2.5/5 → TFR gấp đôi Hàn)
-    → 06_Israel.md: BEST CASE — shared Imagine-Final override cost
-      (Pháp có infrastructure Israel không → NHƯNG không có desire Israel có)
-      (= Bằng chứng desire > infrastructure)
+  Birth Rate Series:
+    → 00_Overview.md: 5 axes + universal pattern
+    → 01_South-Korea.md: WORST CASE — all 5 axes negative
+      (France fixes 2.5/5 → TFR twice Korea's)
+    → 06_Israel.md: BEST CASE — shared Imagine-Final overrides cost
+      (France has the infrastructure Israel lacks → but NOT the desire Israel has)
+      (= Evidence that desire > infrastructure)
 ```
 
 ---
 
-> *Pháp — "Policy CEILING: 3.5% GDP + crèche + 35h + ĐH miễn phí
-> = TFR 1.56 (cao nhất EU, gấp đôi Ý/TBN — NHƯNG thấp nhất từ WWI).
-> Policy FIX: cost (trục ①) + repair time (trục ③) + xóa gate hôn nhân.
-> Policy CANNOT FIX: desire (schemas đang shift: 2.5 → 1.9),
-> competing Imagine-Finals (eco-anxiety, career), shared Imagine-Final (không có).
-> 150 năm pronatalist institutional ≠ 3000 năm cultural DNA (Israel).
+> *France — "Policy CEILING: 3.5% GDP + crèche + 35-hour week + near-free university
+> = TFR 1.56 (highest in EU, double Italy/Spain — BUT lowest since WWI).
+> Policy FIXES: cost (Axis ①) + repair time (Axis ③) + removes marriage gate.
+> Policy CANNOT FIX: desire (schemas shifting: 2.5 → 1.9),
+> competing Imagine-Finals (eco-anxiety, career), shared Imagine-Final (absent).
+> 150 years pronatalist institutional memory ≠ 3,000 years cultural DNA (Israel).
 > Formula: FLOOR = f(policy), LEVEL = f(desire).
 > Policy = necessary but not sufficient. Infrastructure ≠ motivation.
-> Immigration chỉ +0.1 TFR. Second-gen converge trong 1 thế hệ = schemas = environmental."*
+> Immigration = only +0.1 TFR. Second-gen converges in one generation = schemas = environmental."*

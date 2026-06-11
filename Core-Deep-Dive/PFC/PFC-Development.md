@@ -1,51 +1,51 @@
-﻿---
+---
 title: PFC-Development — PFC Across Lifespan, Learning, and Training
 version: 1.1
 created: 2026-04-19
 updated: 2026-05-30 (v1.1 — §3b PFC Architecture Ceiling: 3 physical constraints + Compiled/Fresh scaling insight + cross-species evidence + unifies 4 encephalization hypotheses)
-status: DRAFT v1.1
+status: REFERENCE v1.1
 scope: |
-  PFC qua giai đoạn đời, learning trajectory, schema modification, training.
-  Focus: cái THAY ĐỔI ĐƯỢC (training, experience) vs cái CỐ ĐỊNH (hardware).
+  PFC across life stages, learning trajectory, schema modification, training.
+  Focus: what CAN CHANGE (training, experience) vs what IS FIXED (hardware).
   Hardware detail → PFC-Hardware.md. Functions → PFC-Function.md.
 supersedes: |
   PFC/Imagination/backup/PFC-Analysis-v1.1.md §3, §4, §5, §7.1 (2026-03-15)
   Insights integrated, framing updated to v7.8 cycle-based.
 related: |
-  PFC-Function.md — 24 functions PFC thực hiện
+  PFC-Function.md — 24 functions PFC performs
   PFC-Hardware.md — Hardware parameters (COMT, DRD4, NE receptors)
-  PFC-Hold-Dimensions.md — Tại sao ~4±1 dimensions
+  PFC-Hold-Dimensions.md — Why ~4±1 dimensions
   Neural-Architecture.md §2 — Physical PFC sub-regions
   Cortisol-Baseline.md v2.0 — Cortisol affects PFC + neural wear
-  Core-v7.8-Draft.md §9 — Development Trajectory
-language: Tiếng Việt primary + English technical terms
+  Core-Software.md §9 — Development Trajectory
+language: English primary + technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# PFC Development — Từ Thai Nhi Tới 70+, Và Cách Nâng Cấp
+# PFC Development — From Prenatal to 70+, and How to Upgrade
 
-> **PFC hardware online từ prenatal. Cái "develops" = chunks + speed + specificity.**
+> **PFC hardware is online from prenatal. What "develops" = chunks + speed + specificity.**
 >
-> File này trả lời:
-> - Trẻ sơ sinh "chưa có PFC" = SAI. Đúng: chưa có COMPILED CHUNKS.
-> - "Học" là gì ở mức PFC? = Worker → Director → Monitor → Compiled.
-> - Sửa vô thức được không? = Áp thêm schema mới, không xóa schema cũ.
-> - PFC train được không? = Hardware ceiling tồn tại, nhưng đa số chưa chạm ceiling.
+> This file answers:
+> - Infants "don't have PFC yet" = WRONG. Correct: don't have COMPILED CHUNKS yet.
+> - What is "learning" at the PFC level? = Worker → Director → Monitor → Compiled.
+> - Can you modify the unconscious? = Add a new schema on top, don't erase the old one.
+> - Can PFC be trained? = Hardware ceiling exists, but most people have never hit it.
 >
 > PFC-Function.md: WHAT PFC does.
-> PFC-Hardware.md: WHY khác nhau giữa người.
-> File này: HOW PFC develops + HOW to upgrade.
+> PFC-Hardware.md: WHY individuals differ.
+> This file: HOW PFC develops + HOW to upgrade.
 
 ---
 
-## Mục lục
+## TABLE OF CONTENTS
 
 - §1 — REFRAME: Hardware vs Compiled Content
-- §2 — PFC Qua Giai Đoạn Đời
-- §3 — PFC Qua Tiến Hóa
-- §3b — PFC Architecture Ceiling: Tại Sao PFC Không Thể Tăng Thêm
+- §2 — PFC Across Life Stages
+- §3 — PFC Across Evolution
+- §3b — PFC Architecture Ceiling: Why PFC Cannot Keep Scaling Up
 - §4 — Learning Trajectory: Worker → Compiled
-- §5 — Schema Modification: Áp Thêm, Không Xóa
+- §5 — Schema Modification: Add On, Don't Erase
 - §6 — PFC Training: Hardware Ceiling vs Leverage
 - §7 — Honest Assessment
 - §8 — Cross-References
@@ -55,67 +55,67 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §1 — REFRAME: Hardware vs Compiled Content
 
 > ⭐ CRITICAL CORRECTION (2026-04-15) — 5 empirical pillars.
-> Old Piaget-era view "PFC chưa hoạt động ở trẻ nhỏ" = DECISIVELY REJECTED
-> bởi modern neuroscience (2007-2025).
+> Old Piaget-era view "PFC barely active in young children" = DECISIVELY REJECTED
+> by modern neuroscience (2007-2025).
 
 ```
-OLD CLAIM: "Thai nhi → 2 tuổi: PFC gần như CHƯA hoạt động.
-            Bố mẹ = 'PFC bên ngoài' cho con."
+OLD CLAIM: "Prenatal → 2 years: PFC is largely INACTIVE.
+            Parents = 'external PFC' for the child."
 
 CORRECT REFRAME:
-  PFC HARDWARE online từ prenatal.
-  Cái thiếu ở trẻ nhỏ KHÔNG phải PFC — mà là 3 THỨ KHÁC:
-    ① Compiled chunks (content) — chưa tích lũy đủ
-    ② Myelination (speed) — signal-to-noise thấp hơn adult
-    ③ Pruning (specificity) — chưa optimize circuits
-  Behavioral failure ở adult tasks ≠ structural absence of PFC.
+  PFC HARDWARE online from prenatal.
+  What infants lack is NOT the PFC — it's 3 OTHER THINGS:
+    ① Compiled chunks (content) — not yet accumulated
+    ② Myelination (speed) — lower signal-to-noise than adult
+    ③ Pruning (specificity) — circuits not yet optimized
+  Behavioral failure on adult tasks ≠ structural absence of PFC.
 ```
 
 ### 5 Empirical Pillars 🟢
 
 ```
-① SYNAPTOGENESIS — PFC có DƯ THỪA synapses, không phải thiếu:
+① SYNAPTOGENESIS — PFC has EXCESS synapses, not too few:
    Huttenlocher 1979 (Brain Res 163:195-205):
-     PFC synaptic density ở newborn ĐÃ ở ngưỡng adult
-     Peak ~15 tháng tuổi CAO GẤP ĐÔI adult
-     Pruning qua adolescence (~½ adult tại tuổi 20)
+     PFC synaptic density at newborn ALREADY at adult threshold
+     Peak ~15 months is TWICE ADULT levels
+     Pruning through adolescence (~½ adult by age 20)
    Huttenlocher & Dabholkar 1997 (J Comp Neurol 387:167-178):
-     Synapse formation bắt đầu từ thai nhi <27 tuần
-   → Hardware KHÔNG thiếu, ngược lại có OVERPRODUCTION model
+     Synapse formation begins prenatally before 27 weeks
+   → Hardware is NOT underdeveloped — on the contrary: OVERPRODUCTION model
 
-② fNIRS — PFC ACTIVE RESPONSE từ vài tháng:
+② fNIRS — PFC ACTIVE RESPONSE from a few months:
    Grossmann 2013 (Front Hum Neurosci 7:340):
-     mPFC activation ở 4 tháng khi processing eye contact
+     mPFC activation at 4 months when processing eye contact
    Werchan, Collins, Frank & Amso 2016 (J Neurosci 36:10314):
-     8 tháng: right dlPFC activation TĂNG khi rule sets switch
-     Amplitude DỰ ĐOÁN learning ability (gần nhất causal evidence)
+     8 months: right dlPFC activation INCREASES when rule sets switch
+     Amplitude PREDICTS learning ability (closest to causal evidence)
    Farroni, Csibra, Simion & Johnson 2002 (PNAS 99:9602):
-     Newborns 2-5 NGÀY TUỔI prefer direct gaze (ERP evidence)
-   → PFC actively processing social + rule stimuli từ first months
+     Newborns 2-5 DAYS OLD prefer direct gaze (ERP evidence)
+   → PFC actively processing social + rule stimuli from first months
 
-③ RESTING-STATE NETWORKS hình thành TRƯỚC SINH:
+③ RESTING-STATE NETWORKS form BEFORE BIRTH:
    Doria et al. 2010 (PNAS 107:20015):
      70 preterm infants — frontoparietal + executive + DMN networks
-     FULL adult-like facsimiles tại term (40 tuần)
+     FULL adult-like facsimiles at term (40 weeks)
    Gao et al. 2009 (PNAS 106:6790):
-     Primitive DMN ở 2-week-olds, adult-like tại 2 tuổi
+     Primitive DMN at 2-week-olds, adult-like by age 2
    → Network architecture present from term birth
 
-④ MYELINATION — ĐÂY mới là cái develops chậm (speed, không presence):
+④ MYELINATION — THIS is what develops slowly (speed, not presence):
    Yakovlev & Lecours 1967:
-     PFC intracortical fibers myelinate CUỐI CÙNG, tiếp tục qua ~25 tuổi
-   → Signal speed chậm hơn ≠ offline. PFC chạy nhưng signal-to-noise thấp hơn.
+     PFC intracortical fibers myelinate LAST, continues through ~25 years
+   → Slower signal speed ≠ offline. PFC runs, but signal-to-noise is lower.
 
-⑤ CONSCIOUSNESS SIGNATURE frontal present từ 5 tháng:
+⑤ CONSCIOUSNESS SIGNATURE frontal present from 5 months:
    Kouider, Dehaene et al. 2013 (Science 340:376):
      5mo/12mo/15mo — SAME nonlinear frontal access-consciousness signature
-     như adult. 5mo weaker + delayed (~900ms), adult ~300ms.
+     as adult. 5mo weaker + delayed (~900ms), adult ~300ms.
      Signal "particularly prominent above frontal lobe" (P3b-like)
-   → Frontal-dependent consciousness mechanism ALREADY FUNCTIONAL từ 5mo
+   → Frontal-dependent consciousness mechanism ALREADY FUNCTIONAL from 5mo
 ```
 
 ```
-CITATION ĐINH CHO REFRAME 🟢:
+DEFINING CITATION FOR THE REFRAME 🟢:
   Hodel 2018 "Rapid Infant Prefrontal Cortex Development and Sensitivity
   to Early Environmental Experience" (Developmental Review 48:113-144):
 
@@ -125,188 +125,192 @@ CITATION ĐINH CHO REFRAME 🟢:
   > of it as STRUCTURALLY AND FUNCTIONALLY UNDERDEVELOPED in young infants
   > and toddlers."
 
-  Paper explicitly reframe PFC = "rapidly developing region".
-  Medial prefrontal regions "among the thickest cortex at birth".
+  Paper explicitly reframes PFC as a "rapidly developing region."
+  Medial prefrontal regions "among the thickest cortex at birth."
 
 
 CORRECT FRAMING:
 
-  ┌────────────────────────┬──────────────────┬────────────────────┐
-  │ Thành phần             │ Status ở newborn │ Develops qua       │
-  ├────────────────────────┼──────────────────┼────────────────────┤
-  │ Neurons + synapses     │ ✅ Present       │ Pruning qua        │
-  │ + networks             │ (thực ra dư thừa)│ adolescence        │
-  ├────────────────────────┼──────────────────┼────────────────────┤
-  │ Functional             │ ✅ Present từ    │ Lower amplitude/   │
-  │ responsiveness         │ 2-5 ngày tuổi   │ slower, improves   │
-  │                        │                  │ with myelin + exp  │
-  ├────────────────────────┼──────────────────┼────────────────────┤
-  │ Myelination            │ 🟡 Immature      │ Third decade       │
-  ├────────────────────────┼──────────────────┼────────────────────┤
-  │ Compiled chunks        │ 🔴 Missing —     │ Experience-        │
-  │ (content)              │ KEYSTONE         │ dependent          │
-  ├────────────────────────┼──────────────────┼────────────────────┤
-  │ Working memory         │ 🔴 Limited       │ Chunks + integra-  │
-  │ capacity               │                  │ tion efficiency    │
-  └────────────────────────┴──────────────────┴────────────────────┘
+  ┌──────────────────────────┬───────────────────┬────────────────────┐
+  │ Component                │ Status at newborn │ Develops through   │
+  ├──────────────────────────┼───────────────────┼────────────────────┤
+  │ Neurons + synapses       │ ✅ Present        │ Pruning through    │
+  │ + networks               │ (actually excess) │ adolescence        │
+  ├──────────────────────────┼───────────────────┼────────────────────┤
+  │ Functional               │ ✅ Present from   │ Lower amplitude/   │
+  │ responsiveness           │ 2-5 days old      │ slower, improves   │
+  │                          │                   │ with myelin + exp. │
+  ├──────────────────────────┼───────────────────┼────────────────────┤
+  │ Myelination              │ 🟡 Immature       │ Third decade       │
+  ├──────────────────────────┼───────────────────┼────────────────────┤
+  │ Compiled chunks          │ 🔴 Missing —      │ Experience-        │
+  │ (content)                │ KEYSTONE          │ dependent          │
+  ├──────────────────────────┼───────────────────┼────────────────────┤
+  │ Working memory           │ 🔴 Limited        │ Chunks + integra-  │
+  │ capacity                 │                   │ tion efficiency    │
+  └──────────────────────────┴───────────────────┴────────────────────┘
 
-  WHY trẻ "can't do adult tasks":
-    Compiled chunks chưa đủ (Body-Feedback-Precondition Precondition-2 Chunk-Substrate "Chunks Base Adequacy" bottleneck)
-    Không phải PFC hardware absent.
+  WHY children "can't do adult tasks":
+    Compiled chunks not yet sufficient
+    (Body-Feedback-Precondition Precondition-2 Chunk-Substrate
+    "Chunks Base Adequacy" bottleneck)
+    NOT because PFC hardware is absent.
 
   CAREGIVER ROLE (correct):
-    Bố mẹ = external compiled chunks scaffolding
+    Parents = external compiled chunks scaffolding
     (external memory, external arbitration)
-    KHÔNG phải "thay thế PFC hardware" — child PFC ĐANG CHẠY, thiếu content.
+    NOT "substituting for PFC hardware" — the child's PFC IS RUNNING,
+    just lacks content.
 ```
 
 ---
 
-## §2 — PFC Qua Giai Đoạn Đời
+## §2 — PFC Across Life Stages
 
-> ⚠️ "PFC ~X%" trong framework = compiled content + WM capacity,
-> KHÔNG phải hardware activation percentage.
+> ⚠️ "PFC ~X%" in the framework = compiled content + WM capacity,
+> NOT a hardware activation percentage.
 
 ```
-THAI NHI → 2 TUỔI:
-  Hardware: ✅ ONLINE (synapses dư thừa, networks present, fNIRS active từ 4mo)
+PRENATAL → 2 YEARS:
+  Hardware: ✅ ONLINE (excess synapses, networks present, fNIRS active from 4mo)
   Compiled content: 🔴 MINIMAL
-  → Behavior = body-feedback + loudest-signal-win
-  → Loudest signal auto-win (khóc, ăn, ngủ)
-    = Body-Feedback-Precondition Precondition-2 Chunk-Substrate chưa adequate
+  → Behavior = body-feedback + loudest-signal-wins
+  → Loudest signal auto-wins (cry, eat, sleep)
+    = Body-Feedback-Precondition Precondition-2 Chunk-Substrate not yet adequate
   → Caregiver = external chunks scaffolding
 
-2-6 TUỔI:
-  Hardware: ✅ ONLINE (synaptic density PEAK ~15mo, pruning bắt đầu)
+2–6 YEARS:
+  Hardware: ✅ ONLINE (synaptic density PEAK ~15mo, pruning begins)
   Compiled content: 🟡 EMERGING
-  → Bắt đầu CÓ THỂ chờ (nhưng rất khó)
-    = chunks predict "chờ → reward" đang compile
-  → Tantrum = chunks regulate emotion chưa compile đủ
-    KHÔNG phải "PFC absent"
+  → Beginning to be able to wait (but very difficult)
+    = chunks predicting "wait → reward" are still compiling
+  → Tantrums = emotion-regulating chunks not yet compiled adequately
+    NOT "PFC absent"
 
-7-12 TUỔI:
-  → OFC + vmPFC phát triển thêm
-  → Hiểu rules, predict consequences (ngắn hạn)
-  → "Nếu quậy → bị phạt" (OFC predict)
-  → Bắt đầu gut feeling (vmPFC connect body)
-  → Social cognition bắt đầu (mPFC) nhưng HẠN CHẾ
+7–12 YEARS:
+  → OFC + vmPFC develop further
+  → Understands rules, predicts consequences (short-term)
+  → "If I act up → I get punished" (OFC predict)
+  → Gut feeling begins (vmPFC connects body)
+  → Social cognition begins (mPFC) but LIMITED
 
-13-18 TUỔI (THIẾU NIÊN):
-  → PFC gần hoàn thiện NHƯNG myelination chưa xong
-  → MÂU THUẪN: CAN think like adult, CAN'T regulate like adult
-  → vmPFC chưa fully connect Amygdala → emotion OVERRIDE PFC thường
-  → "Biết sai vẫn làm" = không thiếu knowledge, thiếu vmPFC connection
-  → Peer influence CỰC MẠNH: mPFC hyper-sensitive social
-  → ⚠️ Đừng nói teen "sao không nghĩ trước?"
-    → Họ CÓ nghĩ (dlPFC ok) → nhưng vmPFC chưa CONNECT body response
+13–18 YEARS (ADOLESCENCE):
+  → PFC nearly complete BUT myelination not yet finished
+  → CONFLICT: CAN think like an adult, CAN'T regulate like an adult
+  → vmPFC not yet fully connected to amygdala → emotion OVERRIDES PFC frequently
+  → "Knows it's wrong but does it anyway" = not lacking knowledge,
+    lacking vmPFC connection
+  → Peer influence EXTREMELY STRONG: mPFC hyper-sensitive to social
+  → ⚠️ Don't say to teens "why didn't you think first?"
+    → They DO think (dlPFC ok) → but vmPFC not yet CONNECTED to body response
   → ⭐ Self-Observation PARADOX (Self-Observation.md §6):
     Teen CAN Self-Observe (dlPFC encode body-state OK)
-    NHƯNG CAN'T regulate (vmPFC-body connection chưa hoàn thiện)
-    = Observation ≠ regulation. "Biết mình giận" ≠ "điều khiển được cơn giận"
-    = Self-Observation Development Capacity cao, NHƯNG regulation capacity thấp
+    BUT CAN'T regulate (vmPFC-body connection not yet mature)
+    = Observation ≠ regulation. "Knowing I'm angry" ≠ "being able to control anger"
+    = Self-Observation Development Capacity high, BUT regulation capacity low
 
-18-25 TUỔI:
-  → Myelination hoàn thiện (MUỘN NHẤT trong não)
-  → Full capacity AVAILABLE nhưng experience CHƯA ĐỦ
-  → = Hardware xong, chunks chưa đủ data
+18–25 YEARS:
+  → Myelination completes (LATEST in the brain)
+  → Full capacity AVAILABLE but experience NOT YET ADEQUATE
+  → = Hardware done, chunks don't yet have enough data
 
-25-50 TUỔI:
+25–50 YEARS:
   → PEAK: hardware mature + chunks rich = optimal
-  → ⚠️ Cũng là giai đoạn stress CAO NHẤT (career + family)
-  → PFC capacity CAO nhưng PFC LOAD cũng CAO → net có thể vừa
+  → ⚠️ Also the highest-stress period (career + family)
+  → PFC capacity HIGH but PFC LOAD also HIGH → net may be just adequate
 
-50+ TUỔI:
-  → Hardware BẮT ĐẦU giảm (neuron loss, slower processing)
-  → dlPFC scan ÍT options hơn NHƯNG vmPFC value assessment TỐT HƠN
-  → "Biết ít hơn nhưng CHỌN ĐÚNG hơn"
+50+ YEARS:
+  → Hardware BEGINS declining (neuron loss, slower processing)
+  → dlPFC scans FEWER options BUT vmPFC value assessment is BETTER
+  → "Knows less but CHOOSES BETTER"
   → = Wisdom: vmPFC experience > dlPFC speed
 
-70+ TUỔI:
-  → Hardware giảm rõ → quay về essentials
-  → "Chỉ muốn bình an, gần người thân" = body-base dominant khi PFC giảm
-  → Khác trẻ con: trẻ chưa có chunks. Người già CÓ → loudest = DEEPEST
+70+ YEARS:
+  → Hardware decline noticeable → returns to essentials
+  → "Just want peace, close to family" = body-base dominant as PFC declines
+  → Different from childhood: children lack chunks. Elderly HAVE them → loudest = DEEPEST
 ```
 
 ---
 
-## §3 — PFC Qua Tiến Hóa
+## §3 — PFC Across Evolution
 
 ```
-🟢 Timeline tiến hóa PFC (từ fossil endocasts):
+🟢 PFC evolution timeline (from fossil endocasts):
 
-  Homo habilis (~2.5 triệu năm):
-    Não ~600 cm³ | PFC nhỏ → công cụ đá đơn giản
+  Homo habilis (~2.5 million years):
+    Brain ~600 cm³ | PFC small → simple stone tools
 
-  Homo erectus (~1.8 triệu năm):
-    Não ~900 cm³ (+50%) | PFC bắt đầu mở rộng → lửa, di cư xa
+  Homo erectus (~1.8 million years):
+    Brain ~900 cm³ (+50%) | PFC begins expanding → fire, long-distance migration
 
-  Homo sapiens (~300,000 năm):
-    Não ~1350 cm³ (nhỏ hơn Neanderthal ~1500 cm³)
-    NHƯNG: PFC TỈ LỆ lớn nhất so với tất cả species
-    Hộp sọ: tròn, cao phía trước = chứa PFC lớn
+  Homo sapiens (~300,000 years):
+    Brain ~1350 cm³ (smaller than Neanderthal ~1500 cm³)
+    BUT: PFC PROPORTIONALLY largest of all species
+    Skull: round, tall in front = accommodates larger PFC
 
-  → TREND 2.5 triệu năm: não TĂNG + PFC TĂNG TỈ LỆ
-
-
-🟢 Bất ngờ: não Sapiens ĐÃ GIẢM 30,000 năm gần đây:
-
-  ~100,000 năm trước: ~1500 cm³
-  ~30,000 năm trước:  ~1500 cm³ (PEAK)
-  Hiện đại:           ~1350 cm³ (-10%)
-  → "Encephalization reversal" — established từ fossil record
+  → TREND over 2.5 million years: brain GROWS + PFC GROWS PROPORTIONALLY
 
 
-🟡 Tại sao giảm? — 4 hypothesis (có thể kết hợp):
+🟢 Surprise: sapiens brain has DECREASED over the past 30,000 years:
 
-  ① Efficiency > Size: wired TỐT HƠN, không cần to hơn
-  ② Externalization: chữ viết = external memory, xã hội = external PFC
-  ③ Self-domestication: cooperative > aggressive → não nhỏ hơn
-     (chó < sói ~15% brain size — cùng pattern)
-  ④ Energy optimization: nông nghiệp → không cần brain power cực lớn
+  ~100,000 years ago: ~1500 cm³
+  ~30,000 years ago:  ~1500 cm³ (PEAK)
+  Modern:             ~1350 cm³ (-10%)
+  → "Encephalization reversal" — established from fossil record
 
 
-🟡 OUTSOURCE TRAJECTORY — Map vào framework:
+🟡 Why the decrease? — 4 hypotheses (may combine):
 
-  ~100,000 năm: language = outsource COMMUNICATION
-  ~5,000 năm:   chữ viết = outsource MEMORY
-  ~500 năm:     in ấn = outsource KNOWLEDGE DISTRIBUTION
-  ~50 năm:      máy tính = outsource CALCULATION
-  ~30 năm:      internet = outsource KNOWLEDGE ACCESS
-  BÂY GIỜ:      AI = outsource PFC DRAFT
+  ① Efficiency > Size: wired BETTER, doesn't need to be larger
+  ② Externalization: writing = external memory, society = external PFC
+  ③ Self-domestication: cooperative > aggressive → smaller brain
+     (dogs < wolves ~15% brain size — same pattern)
+  ④ Energy optimization: agriculture → no longer needs maximum brain power
 
-  Mỗi lần outsource:
-    → Não CÓ THỂ giảm phần đó (energy saving)
-    → HOẶC redirect resource sang việc khác
-    → Trend 30,000 năm: giảm size, tăng efficiency, tăng outsource
 
-  Câu hỏi mở:
-    AI outsource PFC draft → não redirect resource sang ĐÂU?
+🟡 OUTSOURCE TRAJECTORY — Mapped to framework:
+
+  ~100,000 years: language = outsource COMMUNICATION
+  ~5,000 years:   writing = outsource MEMORY
+  ~500 years:     printing = outsource KNOWLEDGE DISTRIBUTION
+  ~50 years:      computers = outsource CALCULATION
+  ~30 years:      internet = outsource KNOWLEDGE ACCESS
+  NOW:            AI = outsource PFC DRAFT
+
+  Each outsource:
+    → Brain CAN reduce that part (energy saving)
+    → OR redirect resource to something else
+    → Trend over 30,000 years: shrink size, increase efficiency, increase outsourcing
+
+  Open question:
+    AI outsources PFC draft → brain redirects resources WHERE?
     → Social processing? Emotional depth? Somatic awareness?
-    → Hay: não GIẢM TIẾP vì AI làm thay đủ?
+    → Or: brain CONTINUES SHRINKING because AI does enough?
 ```
 
 ---
 
-## §3b — PFC Architecture Ceiling: Tại Sao PFC Không Thể Tăng Thêm
+## §3b — PFC Architecture Ceiling: Why PFC Cannot Keep Scaling Up
 
-> ⭐ §3 hỏi: não GIẢM 10% → tại sao? 4 hypotheses.
-> §3b hỏi DEEPER: tại sao PFC KHÔNG THỂ tăng thêm ở mức ARCHITECTURE?
+> ⭐ §3 asks: brain DECREASED 10% → why? 4 hypotheses.
+> §3b asks DEEPER: why CAN'T PFC increase further at the ARCHITECTURE level?
 > 3 physical constraints (🟢) + 1 framework insight (🟡).
-> = Giải thích WHY PFC peaked + unifies 4 hypotheses.
+> = Explains WHY PFC peaked + unifies 4 hypotheses.
 
 ```
 ═══ CONSTRAINT 1: WIRING PROBLEM (strongest evidence) ═══
 
-🟢 Brain lớn hơn → mỗi neuron connect được TỈ LỆ THẤP HƠN tổng neurons:
-  Fraction neurons gửi axon qua white matter giảm theo ~N^(-0.16 to -0.21).
-  → 10× thêm neurons ≈ fraction kết nối GIẢM ~35-40%.
+🟢 Larger brain → each neuron can connect to a LOWER FRACTION of total neurons:
+  Fraction of neurons sending axons through white matter decreases ~N^(-0.16 to -0.21).
+  → 10× more neurons ≈ connected fraction DROPS ~35-40%.
   White matter grows FASTER than gray matter as brain scales.
   → More wiring, less processing = diminishing returns.
 
-  PFC = hub cần LONG-RANGE connections tới NHIỀU vùng:
-    Thêm neurons PFC → thêm long-range axons cần.
-    Long-range connections = đắt nhất (space + energy + time).
-    → Mỗi neuron thêm vào PFC = contribute ÍT HƠN neuron trước.
+  PFC = hub requiring LONG-RANGE connections to MANY regions:
+    Add PFC neurons → need more long-range axons.
+    Long-range connections = most expensive (space + energy + time).
+    → Each additional PFC neuron contributes LESS than the previous one.
 
   (Changizi & Shimojo 2005, Brain Behav Evol 66:88-98 — parcellation scaling)
   (Bullmore & Sporns 2012, Nat Rev Neurosci 13:336-49 — wiring cost economy)
@@ -315,16 +319,16 @@ THAI NHI → 2 TUỔI:
 ═══ CONSTRAINT 2: CONDUCTION DELAY ═══
 
 🟢 Myelinated axon max speed: ~120 m/s (established).
-  Brain lớn hơn → axon dài hơn → signal chậm hơn:
+  Larger brain → longer axons → slower signal:
     Human interhemispheric delay: >25 ms (temporal lobe).
-    Brain lớn hơn → larger brains shift sang myelinated axons (nhanh hơn)
-      nhưng cần NHIỀU KHÔNG GIAN hơn = wiring trade-off.
+    Larger brains shift toward myelinated axons (faster)
+      but require MORE SPACE = wiring trade-off.
 
-  PFC cần tích hợp REAL-TIME từ nhiều vùng (Working Memory):
+  PFC needs to integrate REAL-TIME from many regions (Working Memory):
     Working memory window: ~hundreds of ms.
     Larger PFC = longer axons = signal arrives LATER.
-    → Information có thể "stale" trước khi PFC xử lý xong.
-    → = Freshness có TEMPORAL CEILING.
+    → Information may be "stale" before PFC finishes processing.
+    → = Freshness has a TEMPORAL CEILING.
 
   (Ringo et al. 1994, Cerebral Cortex 4:331-343 — interhemispheric delay)
   (Wang et al. 2008, J Neurosci 28:4047-4056 — white matter axonal scaling)
@@ -333,19 +337,19 @@ THAI NHI → 2 TUỔI:
 ═══ CONSTRAINT 3: METABOLIC CEILING ═══
 
 🟢 Brain = 2% body mass, ~20% energy consumption (Raichle & Gusnard 2002).
-  Metabolic cost scales LINEARLY với số neurons.
-  Great apes (raw food) → KHÔNG THỂ support cả body lớn + brain lớn:
+  Metabolic cost scales LINEARLY with neuron count.
+  Great apes (raw food) → CANNOT support both large body + large brain:
     Caloric intake limit → trade-off body size vs brain neurons.
     Cooking (Homo erectus) = SOLVED → allowed brain growth.
-    NHƯNG: ceiling vẫn tồn tại — larger brain = more energy = less for body.
+    BUT: ceiling still exists — larger brain = more energy = less for body.
 
   PFC = most metabolically expensive region:
     Fresh processing = highest energy consumption per neuron.
-    Scaling PFC further → energy budget đè lên toàn bộ body-base.
-    → Trade-off: bigger PFC ≠ better nếu body-base bị underfunded.
+    Scaling PFC further → energy budget crowds out entire body-base.
+    → Trade-off: bigger PFC ≠ better if body-base is underfunded.
     (Note: evolutionary metabolic constraint = 🟢 established.
      Distinct from ego depletion glucose model which is ❌ falsified.
-     Xem PFC-Operations.md v1.3 §8.3 cho processing load mechanism.)
+     See PFC-Operations.md v1.3 §8.3 for processing load mechanism.)
 
   (Herculano-Houzel 2012, PNAS — metabolic cost per neuron = linear function)
   (Fonseca-Azevedo & Herculano-Houzel 2012, PNAS 109:18571-18576 — caloric constraint)
@@ -354,27 +358,27 @@ THAI NHI → 2 TUỔI:
 ═══ FRAMEWORK INSIGHT: COMPILED SCALES, FRESH CANNOT ═══
 
 🟡 Compiled (body-base) = parallel, distributed:
-  → Mỗi neuron cluster processes INDEPENDENTLY.
-  → Thêm clusters = thêm workers doing independent tasks.
+  → Each neuron cluster processes INDEPENDENTLY.
+  → Add more clusters = more workers doing independent tasks.
   → Communication: LOCAL (nearby clusters, short axons).
   → Cost per cluster: ~constant (compiled = automatic).
   → = SCALES WELL — like distributed computing.
 
 🟡 Fresh (PFC) = serial, centralized:
   → PFC must COORDINATE across distant regions.
-  → Thêm PFC neurons = thêm MANAGERS, not workers.
+  → Add PFC neurons = add more MANAGERS, not workers.
   → Each manager must communicate with ALL relevant workers.
   → Communication: LONG-RANGE (PFC ↔ distant regions).
   → Communication overhead grows FASTER than capacity.
-  → = SCALES POORLY — like central server bottleneck.
+  → = SCALES POORLY — like a central server bottleneck.
 
 🟢 CROSS-SPECIES EVIDENCE:
   Elephant brain: ~5 kg (3.5× human), ~257 billion neurons.
-  NHƯNG: 97.5% in cerebellum (~251 billion — motor coordination for huge body).
-  Cortex: chỉ ~5.6 billion neurons (vs human ~16 billion).
-  Whale brain: even larger, CÙNG PATTERN — cortex ratio LOWER than human.
+  BUT: 97.5% in cerebellum (~251 billion — motor coordination for massive body).
+  Cortex: only ~5.6 billion neurons (vs human ~16 billion).
+  Whale brain: even larger, SAME PATTERN — cortex ratio LOWER than human.
   → Evolution scaled body-base (parallel) WITHOUT scaling cortex proportionally.
-  → Cross-species: evolution "chọn" parallel scaling over serial scaling.
+  → Cross-species: evolution "chose" parallel scaling over serial scaling.
   (Herculano-Houzel et al. 2014, Front Neuroanat — elephant brain in numbers)
 
 
@@ -384,242 +388,242 @@ THAI NHI → 2 TUỔI:
   ③ Self-domestication   = compiled social rules → less fresh social processing.
   ④ Energy optimization  = PFC is the most expensive part to scale.
 
-  → 4 hypotheses KHÔNG mâu thuẫn — cùng trỏ về 1 ARCHITECTURE CONSTRAINT:
+  → 4 hypotheses are NOT contradictory — all point to 1 ARCHITECTURE CONSTRAINT:
     PFC (serial) hit ceiling → evolution's response = compile more, not bigger PFC.
-  → §3b KHÔNG phải 5th hypothesis — mà là ARCHITECTURE EXPLANATION
-    giải thích tại sao cả 4 hypotheses work CÙNG HƯỚNG.
+  → §3b is NOT a 5th hypothesis — it's the ARCHITECTURE EXPLANATION
+    for why all 4 hypotheses point in THE SAME DIRECTION.
 
 
-⭐ CONNECTION VỚI §4:
-  §3b (evolution scale): evolution "giải quyết" ceiling = compile more → body-base parallel.
-  §4 (individual scale): mỗi người "giải quyết" ceiling = compile more → Worker → Compiled.
-  = CÙNG STRATEGY, KHÁC SCALE.
+⭐ CONNECTION WITH §4:
+  §3b (evolution scale): evolution "solved" ceiling = compile more → body-base parallel.
+  §4 (individual scale): each person "solves" ceiling = compile more → Worker → Compiled.
+  = SAME STRATEGY, DIFFERENT SCALE.
   = §4 = individual version of evolutionary strategy §3b.
 
 
-🟢 3 physical constraints:       ESTABLISHED neuroscience (7 citations).
+🟢 3 physical constraints:         ESTABLISHED neuroscience (7 citations).
 🟡 Compiled scales / Fresh cannot: FRAMEWORK SYNTHESIS — novel integration.
 🟡 Cross-species as parallel > serial: FRAMEWORK SYNTHESIS — consistent with data.
-🟡 Unifying 4 hypotheses:        FRAMEWORK SYNTHESIS — architecture perspective.
+🟡 Unifying 4 hypotheses:          FRAMEWORK SYNTHESIS — architecture perspective.
 ```
 
 ---
 
 ## §4 — Learning Trajectory: Worker → Compiled
 
-> 🟢 Pattern này consistent across ALL domains — ở bất kỳ kỹ năng nào.
-> = BẰNG CHỨNG MẠNH NHẤT cho "PFC không compute, PFC manage"
+> 🟢 This pattern is consistent across ALL domains — for any skill.
+> = STRONGEST EVIDENCE for "PFC doesn't compute, PFC manages"
 
 ```
-⭐ 4 GIAI ĐOẠN:
+⭐ 4 STAGES:
 
-GĐ1 — WORKER (PFC active CỰC CAO, effortful):
-  → PFC HOLD + REQUEST + EVALUATE từng bước
-  → WM load CAO, mệt nhanh
+Stage 1 — WORKER (PFC EXTREMELY active, effortful):
+  → PFC HOLD + REQUEST + EVALUATE every step
+  → WM load HIGH, tires quickly
   → PFC involvement: ~100%
   → = Kahneman System 2
-  → Cảm nhận: "NẶNG ĐẦU, tốn năng lượng"
+  → Subjective experience: "HEAVY, drains energy"
 
-GĐ2 — DIRECTOR (PFC set direction, B+C fill details):
-  → Chunks bắt đầu compile → PFC delegate dần
-  → PFC: set framework → B+C execute chi tiết
+Stage 2 — DIRECTOR (PFC sets direction, B+C fill details):
+  → Chunks begin to compile → PFC gradually delegates
+  → PFC: sets framework → B+C execute details
   → PFC involvement: ~30-50%
-  → Cảm nhận: "biết mình đang làm gì, bớt mệt"
+  → Subjective experience: "know what I'm doing, less tired"
 
-GĐ3 — MONITOR (PFC chỉ check, B+C làm hết):
-  → Chunks compiled SÂU → B+C tự chạy
-  → PFC: passive, CHỈ re-engage khi bất thường
+Stage 3 — MONITOR (PFC only checks, B+C do everything):
+  → Chunks compiled DEEP → B+C run automatically
+  → PFC: passive, ONLY re-engages when something is off
   → PFC involvement: ~5-15%
   → = Kahneman System 1 + conscious check
-  → Cảm nhận: "nhẹ, tự nhiên biết"
+  → Subjective experience: "light, feels natural"
 
-GĐ4 — COMPILED (PFC gần offline cho task này):
-  → Chunks hoàn toàn compiled → Basal Ganglia execute tự động
+Stage 4 — COMPILED (PFC nearly offline for this task):
+  → Chunks fully compiled → Basal Ganglia execute automatically
   → PFC involvement: ~0-5%
-  → PFC FREED → dùng cho task KHÁC
-  → Cảm nhận: "không cần nghĩ"
+  → PFC FREED → available for a DIFFERENT task
+  → Subjective experience: "don't need to think"
 
 
-VÍ DỤ 1 — Trẻ 7 tuổi học PHÉP CHIA:
+EXAMPLE 1 — 7-year-old learning DIVISION:
 
-  GĐ1: "12 ÷ 3 = ?" → PFC HOLD "12", "÷", "3" cùng lúc → WM load CAO
-    → PFC REQUEST B: "liên quan gì đã biết? chia kẹo?"
-    → B propose: "chia 12 thành 3 nhóm?" → PFC: "thử" → đếm: 4, 4, 4
-    → Mệt vì PFC micromanage MỌI bước
+  Stage 1: "12 ÷ 3 = ?" → PFC HOLDs "12", "÷", "3" simultaneously → WM load HIGH
+    → PFC REQUESTs B: "what's related that I know? sharing candy?"
+    → B proposes: "split 12 into 3 groups?" → PFC: "try it" → counts: 4, 4, 4
+    → Tiring because PFC micromanages EVERY step
 
-  GĐ2: "15 ÷ 5 = ?" → "à, giống hôm qua" → load chunk "chia nhóm"
-    → B pathway có sẵn → trả nhanh hơn → bớt mệt
+  Stage 2: "15 ÷ 5 = ?" → "oh, same as yesterday" → loads chunk "split into groups"
+    → B pathway available → responds faster → less tired
 
-  GĐ3: "24 ÷ 6 = ?" → PFC: set "chia" → B TỰ chạy → "4" xuất hiện
-    → PFC chỉ CHECK: "4 × 6 = 24? đúng" → nhẹ
+  Stage 3: "24 ÷ 6 = ?" → PFC: sets "divide" → B runs AUTOMATICALLY → "4" appears
+    → PFC only CHECKS: "4 × 6 = 24? correct" → effortless
 
-  GĐ4: "42 ÷ 7 = ?" → "6" XUẤT HIỆN → PFC gần không tham gia
-    → Giống 8 × 9 = 72 → compiled chunk → tự động
-
-
-VÍ DỤ 2 — Người lớn học lái xe:
-
-  GĐ1 (bài đầu): HOLD ga+phanh+lái+gương+xi nhan → 30 phút kiệt sức
-  GĐ2 (tuần 2-4): "ga+phanh" chunk 1, "lái thẳng" chunk 1 → 1 giờ ok
-  GĐ3 (tháng 3-6): lái + nghe nhạc + nghĩ việc khác → PFC flag bất thường
-  GĐ4 (năm 1+): "lái về nhà mà không nhớ đã lái" (highway hypnosis)
+  Stage 4: "42 ÷ 7 = ?" → "6" APPEARS → PFC barely participates
+    → Like 8 × 9 = 72 → compiled chunk → automatic
 
 
-TIMELINE COMPILE:
-  GĐ1 → GĐ2: ngày → tuần (chunks bắt đầu compile)
-  GĐ2 → GĐ3: tuần → tháng (chunks → routines)
-  GĐ3 → GĐ4: tháng → năm (routines → BG automatic)
+EXAMPLE 2 — Adult learning to drive:
 
-  Tốc độ compile phụ thuộc:
-    WM quality (hardware): cao → GĐ1 dễ hơn (PFC-Hardware.md §1)
-    Repetition (practice): lặp đủ → compile nhanh
-    Body reward (motivation): vui khi học → opioid → compile NHANH
-    Sleep (consolidation): ngủ = compile time (replay → strengthen)
-    Prior chunks (foundation): có base → chunk mới attach DỄ
-    Cortisol (stress): cao → PFC giảm → compile CHẬM
+  Stage 1 (first lesson): HOLDing gas+brake+steering+mirrors+indicator → 30 minutes exhausted
+  Stage 2 (weeks 2-4): "gas+brake" = 1 chunk, "driving straight" = 1 chunk → 1 hour ok
+  Stage 3 (months 3-6): driving + listening to music + thinking about work → PFC flags abnormalities
+  Stage 4 (year 1+): "drove home without remembering the drive" (highway hypnosis)
 
-  "Talent" có thể ≈ compile speed
+
+COMPILE TIMELINE:
+  Stage 1 → Stage 2: days → weeks (chunks begin to compile)
+  Stage 2 → Stage 3: weeks → months (chunks → routines)
+  Stage 3 → Stage 4: months → years (routines → BG automatic)
+
+  Compile speed depends on:
+    WM quality (hardware): high → Stage 1 easier (PFC-Hardware.md §1)
+    Repetition (practice): sufficient repetition → compiles faster
+    Body reward (motivation): enjoyment in learning → opioid → compile FASTER
+    Sleep (consolidation): sleep = compile time (replay → strengthen)
+    Prior chunks (foundation): having a base → new chunks attach EASIER
+    Cortisol (stress): high → PFC reduced → compile SLOWER
+
+  "Talent" may ≈ compile speed
   ≈ body-need match + prior chunks + sleep + repetition + hardware
-  Không hẳn "bẩm sinh giỏi" — mà "điều kiện compile tốt"
+  Not necessarily "innately gifted" — but "ideal compile conditions"
 
 
-⭐ BẰNG CHỨNG MẠNH NHẤT cho "PFC không compute":
-  Nếu PFC COMPUTE phép chia → GĐ4 vẫn phải dùng PFC
-  Thực tế: GĐ4 PFC OFFLINE → kết quả xuất hiện KHÔNG CẦN PFC
-  → PFC KHÔNG BAO GIỜ "tính" → PFC chỉ MANAGE quá trình B+C build
-  → Khi B+C build XONG → PFC rút → B+C tự serve
+⭐ STRONGEST EVIDENCE for "PFC doesn't compute":
+  If PFC COMPUTED division → Stage 4 would still require PFC
+  Reality: Stage 4 PFC OFFLINE → result appears WITHOUT PFC
+  → PFC NEVER "calculates" → PFC only MANAGES the process of B+C building
+  → When B+C finish building → PFC withdraws → B+C serve it automatically
 
 🟢 Research:
-  Dietrich 2003: transient hypofrontality (PFC GIẢM → flow)
-  BrainFacts 2024: expert musicians dlPFC deactivate during improvisation
+  Dietrich 2003: transient hypofrontality (PFC DECREASES → flow)
+  BrainFacts 2024: expert musicians dlPFC deactivates during improvisation
   Chassy & Gobet 2011: expert intuition = chunking + somatic
-  Cerebral Cortex 2017: expert giảm PFC + tăng task-specific connectivity
+  Cerebral Cortex 2017: experts reduce PFC + increase task-specific connectivity
 ```
 
 ---
 
-## §5 — Schema Modification: Áp Thêm, Không Xóa
+## §5 — Schema Modification: Add On, Don't Erase
 
 ```
-🟡 Consistent với exposure therapy research + schema theory:
+🟡 Consistent with exposure therapy research + schema theory:
 
-  Compiled chunk (B+C) KHÔNG BỊ "XÓA + VIẾT LẠI":
-    → Synapse đã mạnh = rất khó phá
-    → Evolution KHÔNG thiết kế "nút xóa" cho compiled chunks
-    → Chunk compiled = ĐÃ CHỨNG MINH hữu ích ít nhất 1 lần
-    → Xóa = MẤT kinh nghiệm sống sót → nguy hiểm
+  Compiled chunk (B+C) is NOT "ERASED + REWRITTEN":
+    → Strengthened synapse = very difficult to break
+    → Evolution did NOT design a "delete button" for compiled chunks
+    → Compiled chunk = ALREADY PROVEN useful at least once
+    → Erasing = LOSING lived survival experience → dangerous
 
-  Thay vào đó: ÁP CHUNK MỚI bên cạnh.
+  Instead: ADD A NEW CHUNK alongside it.
 
-  Ví dụ: "sợ chó" (compiled từ bé bị chó cắn):
-    → PFC KHÔNG XÓA được "sợ chó" (synapse quá mạnh)
-    → PFC tạo draft: "chó hiền, ok" (chunk mới)
-    → Lặp nhiều lần (gặp chó hiền → OK → gặp lại → OK)
-    → Chunk "chó hiền" COMPILE dần
-    → 2 chunks CẠNH TRANH mỗi khi gặp chó
-    → Context quyết định: chó lạ → "sợ" thắng. Chó quen → "ok" thắng
-    → Qua thời gian: "ok" thắng nhiều → "sợ" YẾU DẦN
-    → NHƯNG "sợ chó" KHÔNG BAO GIỜ mất hẳn
+  Example: "fear of dogs" (compiled from being bitten as a child):
+    → PFC CANNOT ERASE "fear of dogs" (synapse too strong)
+    → PFC creates a draft: "dogs are friendly, ok" (new chunk)
+    → Repeated many times (encounters friendly dog → OK → encounters again → OK)
+    → "Dogs are friendly" chunk COMPILES gradually
+    → 2 chunks COMPETE every time a dog is encountered
+    → Context decides: unfamiliar dog → "fear" wins. Familiar dog → "ok" wins
+    → Over time: "ok" wins more often → "fear" WEAKENS gradually
+    → BUT "fear of dogs" NEVER disappears completely
 
-  = Exposure therapy hoạt động CHÍNH XÁC theo cơ chế này 🟢
+  = Exposure therapy works EXACTLY by this mechanism 🟢
 
-  RECONSOLIDATION WINDOW — cách modify chunk gần hơn "sửa":
-    → PFC recall chunk → reconsolidation window opens (~4-6 giờ)
-    → TRONG window → provide new experience → chunk MODIFY → re-compile
+  RECONSOLIDATION WINDOW — a closer approximation to "editing" the chunk:
+    → PFC recalls chunk → reconsolidation window opens (~4-6 hours)
+    → WITHIN the window → provide new experience → chunk MODIFIES → re-compiles
     → = Therapy mechanism: recall trauma → reframe → re-compile
-    → ⚠️ Recall MÀ KHÔNG modify → chunk STRENGTHEN → TỆ HƠN (rumination)
+    → ⚠️ Recall WITHOUT modifying → chunk STRENGTHENS → GETS WORSE (rumination)
     → 🟢 Nader 2000, Schiller et al. 2010
 
 
-TẠI SAO RELAPSE:
-  → Stress cao / mệt / PFC offline → chunk MỚI (yếu hơn) bị suppress
-  → Chunk CŨ (mạnh hơn, sâu hơn) QUAY LẠI
-  → "Tưởng đã hết sợ chó → stress → sợ lại"
-  → Không phải "trị không hết" → mà chunk cũ VẪN CÒN, chỉ bị ÁT
+WHY RELAPSE HAPPENS:
+  → High stress / exhaustion / PFC offline → NEW chunk (weaker) gets suppressed
+  → OLD chunk (stronger, deeper) RETURNS
+  → "Thought the fear was gone → stress → fear returns"
+  → Not "therapy failed" → old chunk IS STILL THERE, it was just SUPPRESSED
 
-  → "Bỏ thói quen xấu" = KHÔNG XÓA thói quen xấu
-  → = TẠO thói quen MỚI ĐỦ MẠNH để THẮNG thói quen cũ ĐỦ THƯỜNG XUYÊN
-  → Cần: lặp lại đủ nhiều + đủ lâu + maintain (vì chunk cũ vẫn còn)
-  → Nếu dừng maintain quá lâu → chunk cũ có thể quay lại
+  → "Breaking a bad habit" = NOT ERASING the bad habit
+  → = CREATING a new habit STRONG ENOUGH to WIN over the old one OFTEN ENOUGH
+  → Requires: enough repetition + enough duration + maintenance (because old chunk persists)
+  → If maintenance stops too long → old chunk can return
 ```
 
 ---
 
 ## §6 — PFC Training: Hardware Ceiling vs Leverage
 
-### §6.1 Cái KHÔNG train được (hardware ceiling)
+### §6.1 What CANNOT Be Trained (hardware ceiling)
 
 ```
-WM capacity: train ĐƯỢC nhưng ÍT (~10-15%, N-back training)
-  → Ceiling genetics quy định → không "tăng IQ" nhiều
-Processing speed: phần lớn genetic + age
-  → Giảm tự nhiên từ ~30 tuổi
-Myelination quality: developmental, KHÔNG train được
-  → Hoàn thiện ~25 → giữ → giảm dần
-  → Exercise có thể CHẬM quá trình giảm, không tăng
+WM capacity: CAN be trained but MINIMALLY (~10-15%, N-back training)
+  → Ceiling set by genetics → doesn't "increase IQ" much
+Processing speed: mostly genetic + age
+  → Naturally declines from ~30 years
+Myelination quality: developmental, CANNOT be trained
+  → Completes ~25 → maintained → gradually declines
+  → Exercise may SLOW the decline, not increase it
 
-→ Hardware ceiling EXISTS — nhưng ĐA SỐ người
-  CHƯA bao giờ đạt ceiling → room for improvement = LỚN
+→ Hardware ceiling EXISTS — but MOST people
+  have NEVER hit the ceiling → room for improvement = LARGE
 ```
 
-### §6.2 STATE leverage (thay đổi qua GIỜ → hiệu quả CAO NHẤT)
+### §6.2 STATE leverage (changes over HOURS → HIGHEST effectiveness)
 
 ```
 SLEEP: leverage #1
-  +1 giờ ngủ → PFC activation TĂNG đáng kể
-  7→8 giờ: dlPFC + vmPFC + OFC đều improve
-  <6 giờ: PFC gần như impulsive mode
-  → CEO ngủ 4 giờ ≠ "discipline" — = "handicap PFC 50%"
+  +1 hour of sleep → PFC activation increases significantly
+  7→8 hours: dlPFC + vmPFC + OFC all improve
+  <6 hours: PFC is near-impulsive mode
+  → CEO sleeping 4 hours ≠ "discipline" — = "handicapping PFC by 50%"
 
 EXERCISE: leverage #2
-  30 phút aerobic → PFC activation TĂNG 2-4 giờ
-  BDNF release → neurogenesis → PFC MAINTAIN long-term
-  → Không chỉ body health — TRỰC TIẾP improve PFC function
+  30 minutes aerobic → PFC activation INCREASES for 2-4 hours
+  BDNF release → neurogenesis → PFC MAINTAINED long-term
+  → Not just body health — DIRECTLY improves PFC function
 
 CORTISOL MANAGEMENT: leverage #3
-  Cortisol cao → Amygdala hijack PFC resources → PFC GIẢM
+  High cortisol → amygdala hijacks PFC resources → PFC DECREASES
   Methods: nature, meditation, social support, boundary setting
-  → Chi tiết: Cortisol-Baseline.md v2.0
+  → Detail: Cortisol-Baseline.md v2.0
 
 NUTRITION: PFC specific
-  Glucose STABLE → PFC stable (không spike/crash)
+  STABLE glucose → stable PFC (no spikes/crashes)
   Omega-3: PFC membrane health → long-term maintenance
-  Caffeine: temporary dlPFC boost → nhưng tolerance + sleep cost
-  Alcohol: PFC OFFLINE gần hoàn toàn → avoid nếu cần PFC
+  Caffeine: temporary dlPFC boost → but tolerance + sleep cost
+  Alcohol: PFC nearly COMPLETELY OFFLINE → avoid if PFC is needed
 
-MEDITATION: structural change (8+ tuần)
-  MBSR (8 tuần) → dlPFC + ACC measured THICKER (MRI studies)
-  ACC cải thiện → detect conflict CHÍNH XÁC, ÍT false alarm
-  vmPFC cải thiện → body awareness → value assessment TỐT hơn
-  → Meditation = "tập gym cho PFC"
+MEDITATION: structural change (8+ weeks)
+  MBSR (8 weeks) → dlPFC + ACC measurably THICKER (MRI studies)
+  ACC improves → detects conflict MORE ACCURATELY, FEWER false alarms
+  vmPFC improves → body awareness → better value assessment
+  → Meditation = "gym for PFC"
 ```
 
-### §6.3 SOFTWARE leverage (thay đổi qua THÁNG-NĂM)
+### §6.3 SOFTWARE leverage (changes over MONTHS–YEARS)
 
 ```
-PREDICT HORIZON: extend qua experience + deliberate practice
-  → Chess: ngàn games → predict 10+ moves (dlPFC + OFC)
-  → Entrepreneurs: failures → predict market 1-3 năm
-  → Leaders: experience → predict consequence dài hạn
-  → Mỗi domain CÓ predict horizon riêng, train riêng
+PREDICT HORIZON: extended through experience + deliberate practice
+  → Chess: thousands of games → predict 10+ moves ahead (dlPFC + OFC)
+  → Entrepreneurs: failures → predict market 1-3 years out
+  → Leaders: experience → predict long-term consequences
+  → Each domain has its OWN predict horizon, trained separately
 
 CONFLICT RESOLUTION SKILL:
-  → Practice identify chunks → arbitrate consciously → FASTER
-  → CBT: train nhận diện chunks → PFC arbitrate dễ hơn
-  → Journaling: externalize chunks → PFC bớt hold
-  → Coaching: outsource partial arbitration → learn from coach
+  → Practice identifying chunks → arbitrate consciously → FASTER
+  → CBT: trains chunk recognition → PFC arbitration easier
+  → Journaling: externalizes chunks → PFC holds less
+  → Coaching: outsources partial arbitration → learn from coach
 
 EMOTIONAL REGULATION:
-  → vmPFC-Amygdala connection STRENGTHEN qua practice
+  → vmPFC-Amygdala connection STRENGTHENS through practice
   → DBT: explicit emotion regulation training
-  → "Name it to tame it": label emotion → vmPFC activate → Amygdala dampen
+  → "Name it to tame it": label emotion → vmPFC activates → amygdala dampens
 
 EXTERNAL SCAFFOLDING:
   → Checklists: externalize dlPFC load → free WM
   → Pro/con lists: externalize vmPFC evaluation
   → "Sleep on it": defer decision → let B+C process
   → Trusted advisors: outsource mPFC social check
-  → = NÂNG CẤP PFC bằng external tools
+  → = UPGRADE PFC through external tools
 ```
 
 ---
@@ -647,7 +651,7 @@ EXTERNAL SCAFFOLDING:
 
 🟡 FRAMEWORK SYNTHESIS:
   4-stage learning trajectory (Worker→Director→Monitor→Compiled) — novel taxonomy
-  "Áp thêm, không xóa" as universal principle — novel framing
+  "Add on, don't erase" as universal principle — novel framing
   Outsource trajectory (language→writing→AI) — novel integration
   Caregiver = "external chunks scaffolding" — novel reframe of old "external PFC"
   "Talent ≈ compile speed" — novel, consistent with data
@@ -673,10 +677,10 @@ EXTERNAL SCAFFOLDING:
 ```
 PFC FUNCTIONS:       PFC-Function.md — 24 observable functions
 PFC HARDWARE:        PFC-Hardware.md — COMT, DRD4, NE, individual parameters
-PFC HOLD ANALYSIS:   PFC-Hold-Dimensions.md — tại sao ~4±1
+PFC HOLD ANALYSIS:   PFC-Hold-Dimensions.md — why ~4±1
 PHYSICAL MAP:        Neural-Architecture.md §2 — sub-regions, connectivity
 CORTISOL:            Cortisol-Baseline.md v2.0 — cortisol affects PFC + damage
-CORE ARCHITECTURE:   Core-v7.8-Draft.md §9 — Development Trajectory
+CORE ARCHITECTURE:   Core-Software.md §9 — Development Trajectory
 BODY-FEEDBACK:       Body-Feedback.md — Body-Feedback-Precondition (incl. Precondition-2 Chunk-Substrate)
 CHUNK SYSTEM:        Chunk.md v2.0 — compile mechanism, activation dynamics
 DRIVE INTEGRATION:   Drive.md v1.1 §2 — 6 PFC Modes (complements §4 trajectory)
@@ -695,17 +699,17 @@ OLD FILES (backup):
 
 ---
 
-> **PFC-Development.md v1.1 DRAFT**
+> **PFC-Development.md v1.1**
 >
-> PFC hardware online từ prenatal — 5 empirical pillars (Hodel 2018).
-> Trẻ thiếu COMPILED CHUNKS, không phải thiếu PFC.
+> PFC hardware online from prenatal — 5 empirical pillars (Hodel 2018).
+> Children lack COMPILED CHUNKS, not PFC.
 > §3b PFC Architecture Ceiling: 3 physical constraints (wiring, delay, metabolic)
 > + Compiled scales (parallel) / Fresh cannot (serial) = evolution's ceiling.
 > Cross-species: elephant 257B neurons, 97.5% cerebellum = parallel scaling evidence.
 > Unifies 4 encephalization hypotheses via architecture constraint.
-> Learning = Worker → Director → Monitor → Compiled (PFC rút dần) = individual version.
-> Sửa vô thức = áp chunk mới, không xóa chunk cũ (exposure therapy mechanism).
-> Training priority: State (giờ) > Software (năm) > Hardware (genetics).
-> Hardware ceiling EXISTS nhưng đa số chưa chạm → room = LỚN.
+> Learning = Worker → Director → Monitor → Compiled (PFC gradually withdraws) = individual version.
+> Schema modification = add new chunk, don't erase old chunk (exposure therapy mechanism).
+> Training priority: State (hours) > Software (years) > Hardware (genetics).
+> Hardware ceiling EXISTS but most people haven't hit it → room = LARGE.
 >
-> Phiên bản: v1.1, 2026-05-30.
+> Version: v1.1, 2026-05-30.

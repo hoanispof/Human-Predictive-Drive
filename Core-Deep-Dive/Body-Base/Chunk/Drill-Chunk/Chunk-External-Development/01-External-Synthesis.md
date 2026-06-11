@@ -4,29 +4,29 @@ created: 2026-04-17 (N+6 session)
 status: COMPLETE v1.0
 scope: F3 — Formal hypothesis verdicts + output contracts for F4 + 99-Master-Synthesis
 purpose: |
-  Commitment file cho F3 Chunk-External-Development.
-  Tổng hợp verdicts, output contracts, framework contributions.
-  Companion cho 00-External-Mechanism.md (mechanism analysis).
+  Commitment file for F3 Chunk-External-Development.
+  Synthesize verdicts, output contracts, framework contributions.
+  Companion to 00-External-Mechanism.md (mechanism analysis).
 parent: plan.md (F3)
 grandparent: ../plan.md (master)
 session: N+6 (2026-04-17)
-language: Tiếng Việt primary + English technical
+language: English
 ---
 
 # 01 — F3 External-Synthesis
 
-> **File này = commitment file** cho F3. Không drill phân tích mới.
-> Tổng hợp từ [00-External-Mechanism.md](00-External-Mechanism.md) và cross-references.
+> **This file = commitment file** for F3. No new drill analysis.
+> Synthesized from [00-External-Mechanism.md](00-External-Mechanism.md) and cross-references.
 
 ```
 Drill Label → Framework Name Mapping (added 2026-05-30)
 
-  Labels trong file này = drill provenance markers.
-  Framework active files dùng TÊN CỐ ĐỊNH bên dưới.
-  Bảng đầy đủ: xem 99-Master-Synthesis.md §2.6.
+  Labels in this file = drill provenance markers.
+  Framework active files use FIXED NAMES below.
+  Full table: see 99-Master-Synthesis.md §2.6.
 
   ┌────────┬────────────────────────────────────┐
-  │ Drill  │ Framework Name (cố định)           │
+  │ Drill  │ Framework Name (fixed)             │
   ├────────┼────────────────────────────────────┤
   │ H3     │ Grammar-Versatile-Anchor           │
   │ H4     │ Abstract-Metaphysical-Grounding    │
@@ -101,14 +101,14 @@ FALSIFIABLE PREDICTIONS:
 
 ```
 HYPOTHESIS (from plan §4):
-  "Trừu tượng vs siêu hình = modality encoding difference
+  "Abstract vs Metaphysical = modality encoding difference
    (visual structural vs somatic field)"
 
 🟡 VERDICT: PARTIALLY SUPPORTED — REFINED to include GROUNDING difference
 
   User's original:
-    Siêu hình = visual-heavy (imagine unseen)
-    Trừu tượng = somatic/cross-modal (feel unseeable)
+    Metaphysical = visual-heavy (imagine unseen)
+    Abstract = somatic/cross-modal (feel unseeable)
 
   F3 analysis (00-External-Mechanism.md §5):
     ✅ Modality difference EXISTS:
@@ -117,10 +117,10 @@ HYPOTHESIS (from plan §4):
     
     REFINEMENT — GROUNDING difference is MORE fundamental:
        Abstract: experience-GROUNDED (pattern extracted from real cases)
-         → "Công bằng" = extracted from many fair/unfair experiences
+         → "Fairness" = extracted from many fair/unfair experiences
          → TESTABLE against new experiences (can verify "is this fair?")
        Metaphysical: culturally-GROUNDED (no pattern from experience)
-         → "Linh hồn" = received from culture, simulated by PFC
+         → "Soul" = received from culture, simulated by PFC
          → NOT testable against experience (cannot verify "does soul exist?")
     
     → H4 refined: Abstract vs Metaphysical differ in BOTH:
@@ -157,9 +157,9 @@ HYPOTHESIS (from plan §4):
 🟡 VERDICT: SUPPORTED
 
   ✅ Valence is NOT chunk-intrinsic:
-     "Dao" in cooking schema → positive (useful)
-     "Dao" in threat schema → negative (weapon)
-     "Dao" in surgery schema → positive (saving life)
+     "Knife" in cooking schema → positive (useful)
+     "Knife" in threat schema → negative (weapon)
+     "Knife" in surgery schema → positive (saving life)
      → Same chunk, 3 different valences
 
   ✅ External valence installation via 4 sources (00-External-Mechanism §6):
@@ -306,7 +306,7 @@ Priority: R-F3-2 > R-F3-3 > R-F3-6 > R-F3-1 > R-F3-4 > R-F3-5
 ### §3.1 — F4 Chunk-Internal-Processing receives
 
 ```
-F4 INPUT ASSUMPTIONS (từ F3 — không re-derive):
+F4 INPUT ASSUMPTIONS (from F3 — not re-derived):
 
   ① 5 EXTERNAL MECHANISMS formalized:
      → F4 uses as "how chunks GOT into individual's library"
@@ -340,12 +340,12 @@ F4 INPUT ASSUMPTIONS (từ F3 — không re-derive):
 ### §3.2 — 99-Master-Synthesis receives
 
 ```
-99-MASTER INPUT (từ F3):
+99-MASTER INPUT (from F3):
 
   ① H3 + H4 + H7 + H12 verdicts formalized (§1.1-§1.4)
   ② 5-mechanism taxonomy as framework contribution
   ③ R-F3-1 through R-F3-6 framework update recommendations
-  ④ F3 scope thu gọn decision validated (N+5 pivot)
+  ④ F3 scope consolidation decision validated (N+5 pivot)
   ⑤ Education reframe + AI era application
   ⑥ F3 ↔ F4 bidirectional co-evolution insight
 ```
@@ -353,7 +353,7 @@ F4 INPUT ASSUMPTIONS (từ F3 — không re-derive):
 ### §3.3 — Future Feeling Deep receives
 
 ```
-FEELING DEEP INPUT (từ F3):
+FEELING DEEP INPUT (from F3):
 
   ① Social referencing = mechanism for FEELING TRANSMISSION
      → Child learns HOW TO FEEL about things from caregiver
@@ -361,7 +361,7 @@ FEELING DEEP INPUT (từ F3):
 
   ② External valence → internal feeling:
      → Externally-installed valence tags BECOME body-level feelings
-     → "Sợ rắn" (socially installed) feels SAME as "sợ đau" (directly experienced)
+     → "Fear of snakes" (socially installed) feels SAME as "fear of pain" (directly experienced)
      → = Feeling system doesn't distinguish source (F3 vs F1)
 
   ③ Direction B for feelings:
@@ -372,12 +372,12 @@ FEELING DEEP INPUT (từ F3):
   ④ Threat compile during external install (NT7):
      → Caregiver's emotional state during teaching = compile context
      → Level 3/4 teaching → subject-matter chunks tagged with threat
-     → = "Sợ toán" = math chunks compiled under threat (not math itself)
+     → = "Fear of math" = math chunks compiled under threat (not math itself)
 ```
 
 ---
 
-## §4 — F3 Scope Assessment (thu gọn evaluation)
+## §4 — F3 Scope Assessment (consolidation evaluation)
 
 ```
 ORIGINAL F3 PLAN (pre-N+5): 14 files, 3 sessions, ~10,300-14,000L
@@ -394,7 +394,7 @@ ACTUAL F3 OUTPUT (post-N+5): 2 files, ~1,420L total
   ③ F1 (11,596L) already covers:
      → Pre-verbal substrate, NT6 verbal-as-handle, H11, multi-modal binding
 
-  ④ F3 thu gọn ADDS:
+  ④ F3 consolidation ADDS:
      → 5-mechanism taxonomy (NEW — not in any existing file)
      → Infant social mapping to mechanisms (NEW — connects F1 events to F3)
      → Non-verbal external (ritual, shared sensory) (NEW)
@@ -405,11 +405,11 @@ ACTUAL F3 OUTPUT (post-N+5): 2 files, ~1,420L total
   → NOTHING from original 14-file plan is LOST:
      Language detail → in Language-Structure-Analysis + Logic-Planning
      Thread 1/9/11 → addressed in 00-External-Mechanism
-     Grammar deep drill → unnecessary (AI territory per Logic đóng gói)
+     Grammar deep drill → unnecessary (AI territory per packaged Logic)
      Cross-language → brief in H3 verdict + reference files have examples
      Language evolution → H12 preliminary here, full in F4
 
-  → 2 files = CẦN VÀ ĐỦ cho F3 mechanism contribution
+  → 2 files = NECESSARY AND SUFFICIENT for F3 mechanism contribution
   → Old Language/ sub-folder plan (6 files, 4,500-6,100L) → deprecated
   → Grammar-Scaffolding/ → deprecated (content covered)
 
@@ -422,7 +422,7 @@ QUALITY CHECK:
   ✅ Honest assessment with 🟢🟡🔴 confidence levels
   ✅ Academic references cited
   ✅ No duplication with existing files
-  ✅ "Cần và đủ, không thừa không thiếu"
+  ✅ "Necessary and sufficient — nothing extra, nothing missing"
 ```
 
 ---
@@ -454,7 +454,7 @@ FOR FEELING DEEP:
 ## §6 — Status
 
 ```
-✅ F3 Chunk-External-Development COMPLETE (thu gọn, 2 files):
+✅ F3 Chunk-External-Development COMPLETE (consolidated, 2 files):
 
   00-External-Mechanism.md    821L   Mechanism analysis
   01-External-Synthesis.md    ~500L  Verdicts + contracts (this file)
@@ -462,7 +462,7 @@ FOR FEELING DEEP:
   TOTAL F3 NEW CONTENT        ~1,320L
 
   COMPANION FILES (already exist):
-  Logic-Planning.md           610L   Logic side đóng gói
+  Logic-Planning.md           610L   Logic side packaged
   Language-Structure-Analysis/ 4,266L 5 format reference files
   ─────────────────────────────────────
   TOTAL F3 TERRITORY          ~6,196L (new + companion)
@@ -481,4 +481,4 @@ FOR FEELING DEEP:
 > 4 hypotheses committed. 6 framework recommendations. Output contracts delivered.
 > Next: F4 drill sessions (01 through 06).
 >
-> Phiên bản: v1.0, 2026-04-17.
+> Version: v1.0, 2026-04-17.

@@ -1,5 +1,5 @@
 ---
-title: Imagine-Final — Constructive Future Simulation trên Simulation-Engine
+title: Imagine-Final — Constructive Future Simulation on the Simulation-Engine
 version: 3.1
 created: 2026-03-27
 updated: 2026-05-22
@@ -8,76 +8,76 @@ previous: v2.0 → backup/Imagine-Final-v2.0.md
 status: MECHANISM v3.1
 scope: |
   APPLICATION file: Imagine-Final = Constructive Future Simulation (Self, Future, Simulate+Construct).
-  v3.0 KEY REFRAME: Imagine-Final ≠ mọi body prediction.
-  Ranh giới rõ ràng: Hardware prediction (subcortical) ≠ Imagine-Final (constructive, chunk-based).
-  Imagine-Final bắt đầu khi constructive simulation CẦN THIẾT.
-  3-Layer: Body-Need (WHY) → Imagine-Final (WHERE, khi cần construct) → Plan (HOW).
-  Hardware drives CÓ THỂ bypass Imagine-Final hoàn toàn.
-  Lifecycle 5 phases. Gradient 5 levels. 3 chiều: Clarity × Quality × Trust.
+  v3.0 KEY REFRAME: Imagine-Final ≠ all body prediction.
+  Clear boundary: Hardware prediction (subcortical) ≠ Imagine-Final (constructive, chunk-based).
+  Imagine-Final begins when constructive simulation is NECESSARY.
+  3-Layer: Body-Need (WHY) → Imagine-Final (WHERE, when construction needed) → Plan (HOW).
+  Hardware drives CAN bypass Imagine-Final entirely.
+  Lifecycle 5 phases. Gradient 5 levels. 3 dimensions: Clarity × Quality × Trust.
   PFC Operations integration. Entity-Access integration. Engine use quality.
 purpose: |
-  Simulation-Engine.md = SHARED ENGINE underneath tất cả applications.
+  Simulation-Engine.md = SHARED ENGINE underneath all applications.
   Self-Pattern-Modeling.md = APPLICATION-1: simulate OTHER (present).
-  File NÀY = APPLICATION-2: simulate SELF (future).
+  THIS FILE = APPLICATION-2: simulate SELF (future).
   Self-Observation = APPLICATION-3: observe SELF (present) — Self-Observation.md v1.0.
-  v3.0 KEY CHANGE: phân biệt hardware prediction (Body-Feedback-Mechanism §1.2 Source ①) vs constructive Imagine-Final.
-  = Giải thích TẠI SAO "khát→uống" KHÁC CƠ CHẾ với "NVIDIA phải thành công".
-  = Reconcile với Body-Feedback-Mechanism §1.2 (2 sources), Simulation-Engine (constructive substrate).
+  v3.0 KEY CHANGE: distinguish hardware prediction (Body-Feedback-Mechanism §1.2 Source ①) vs constructive Imagine-Final.
+  = Explains WHY "thirst→drink" is a DIFFERENT MECHANISM from "NVIDIA must succeed."
+  = Reconcile with Body-Feedback-Mechanism §1.2 (2 sources), Simulation-Engine (constructive substrate).
 position: |
-  Core-Deep-Dive/PFC/Imagination/ — cùng thư mục với companion files.
+  Core-Deep-Dive/PFC/Imagination/ — same directory as companion files.
   ENGINE at Simulation-Engine.md (PFC/). PFC OPERATIONS at PFC-Operations.md (PFC/).
-  Anchor-Schema.md = khi Imagine-Final content THÀNH sync point (committed).
+  Anchor-Schema.md = when Imagine-Final content BECOMES a sync point (committed).
   Imagine-Final-Evaluation.md = QUALITY check (Domain Fit × Hardware Fit).
 dependencies:
   - Simulation-Engine.md v1.0 — ENGINE: 3 components, 3 axes, shared substrate
   - PFC-Operations.md v1.0 — Hold/Suppress, Compiled Quality, Compilable Architecture
-  - Entity-Access.md v1.0 — gradient Mức 0-5, per-entity dynamics
-  - Entity-Compiled.md v1.0 — HOW brain compiles entity vào body-base
+  - Entity-Access.md v1.0 — gradient Level 0-5, per-entity dynamics
+  - Entity-Compiled.md v1.0 — HOW brain compiles entity into body-base
   - Body-Feedback-Mechanism.md v2.0 — chunk dynamics, body-feedback readout, §1.2 two sources
   - Cortisol-Baseline.md v2.1 — cortisol direction tag, activation gating
-  - Anchor-Schema.md v1.0 — sync point, Trust, 4 nguồn fill
+  - Anchor-Schema.md v1.0 — sync point, Trust, 4 sources fill
   - Imagine-Final-Evaluation.md v1.1 — Quality dimension (Domain × Hardware Fit)
-  - Boredom.md v1.1 — no Imagine-Final = "chán", Imagine-Final modifier
-  - Connection.md v4.0 — social context, 2-tầng reward
+  - Boredom.md v1.1 — no Imagine-Final = "boredom", Imagine-Final modifier
+  - Connection.md v4.0 — social context, 2-layer reward
   - Meaning.md v2.0 — life-level Anchor-Schema
 sources:
   - Drill-Simulation-Engine v1.0 (809L, 16 insights, 23 citations)
   - Drill-Self-Pattern-Modeling-Self-Shared-Substrate v1.0 (~680L, 13 insights, 22 citations)
   - Imagine-Final.md v2.0 (1,277L, 36 citations)
   - Boundary validation research (8 new citations)
-language: Tiếng Việt primary + English technical terms
+language: English (translated from Vietnamese primary + English technical terms)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Imagine-Final — Constructive Future Simulation trên Simulation-Engine
+# Imagine-Final — Constructive Future Simulation on the Simulation-Engine
 
-> **"Khát → uống nước" và "NVIDIA phải thành công" — KHÁC CƠ CHẾ.**
-> **Khát = hardware drive, subcortical, không cần simulation.**
-> **NVIDIA = constructive future simulation, PFC construct + hold + reload.**
+> **"Thirst → drink" and "NVIDIA must succeed" — DIFFERENT MECHANISMS.**
+> **Thirst = hardware drive, subcortical, does not require simulation.**
+> **NVIDIA = constructive future simulation, PFC constructs + holds + reloads.**
 >
-> **Imagine-Final = khi brain CẦN BUILD scenario tương lai từ chunks.**
-> **= APPLICATION (Self, Future, Simulate+Construct) trên Simulation-Engine.**
-> **Ranh giới: hardware prediction (hardwired) ≠ Imagine-Final (constructed).**
+> **Imagine-Final = when the brain NEEDS TO BUILD a future scenario from chunks.**
+> **= APPLICATION (Self, Future, Simulate+Construct) on the Simulation-Engine.**
+> **Boundary: hardware prediction (hardwired) ≠ Imagine-Final (constructed).**
 >
-> **3 tầng: Body-Need → Imagine-Final (khi cần construct) → Plan.**
-> **Compiled Imagine-Final (từng construct, giờ automatic) ≠ Hardware reflex (chưa bao giờ construct).**
-> **RÕ ≠ ĐÚNG ≠ TIN. 3 chiều độc lập: Clarity × Quality × Trust.**
+> **3 Layers: Body-Need → Imagine-Final (when construction needed) → Plan.**
+> **Compiled Imagine-Final (previously constructed, now automatic) ≠ Hardware reflex (never constructed).**
+> **VIVID ≠ CORRECT ≠ TRUSTED. 3 independent dimensions: Clarity × Quality × Trust.**
 
 ---
 
-## Mục lục
+## TABLE OF CONTENTS
 
 - §0 — THESIS + POSITION
-- §1 — RANH GIỚI: HARDWARE PREDICTION vs CONSTRUCTIVE IMAGINE-FINAL
+- §1 — BOUNDARY: HARDWARE PREDICTION vs CONSTRUCTIVE IMAGINE-FINAL
 - §2 — SIMULATION-ENGINE APPLICATION
-- §3 — 2 TẦNG: VÔ THỨC BASE + PFC EXTENSION
+- §3 — 2 LAYERS: UNCONSCIOUS BASE + PFC EXTENSION
 - §4 — PFC OPERATIONS × IMAGINE-FINAL
 - §5 — LIFECYCLE: 5 PHASES
 - §6 — GRADIENT: 5 LEVELS
-- §7 — 3 CHIỀU ĐỘC LẬP: CLARITY × QUALITY × TRUST
+- §7 — 3 INDEPENDENT DIMENSIONS: CLARITY × QUALITY × TRUST
 - §8 — ENTITY-ACCESS × IMAGINE-FINAL
 - §9 — ENGINE USE QUALITY: REFLECTION vs RUMINATION
-- §10 — HẬU QUẢ + NÂNG CẤP
+- §10 — CONSEQUENCES + TRAINING
 - §11 — IMAGINE-FINAL × BROADER FRAMEWORK
 - §12 — HONEST ASSESSMENT
 - §13 — CROSS-REFERENCES
@@ -92,37 +92,37 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐⭐ IMAGINE-FINAL:
 
-  ⚠️ QUY ƯỚC: luôn viết "Imagine-Final" đầy đủ, KHÔNG viết tắt "IF"
-     (vì "IF" dễ nhầm với "if" trong tiếng Anh hoặc programming)
+  ⚠️ CONVENTION: always write "Imagine-Final" in full, NEVER abbreviate as "IF"
+     (because "IF" is easily confused with "if" in English or programming)
 
   ① Imagine-Final = CONSTRUCTIVE FUTURE SIMULATION
-    = APPLICATION (Self, Future, Simulate+Construct) trên Simulation-Engine
-    = Brain BUILD scenario tương lai từ compiled chunks
-    
-  ② v3.0 KEY REFRAME: Imagine-Final ≠ mọi body prediction
-    → Hardware prediction (khát→uống): subcortical, hardwired → KHÔNG cần simulation
-    → Imagine-Final: constructive, chunk-based → CẦN Simulation-Engine
-    → Body-Feedback-Mechanism §1.2 Source ① (hardware) KHÔNG PHẢI Imagine-Final
-    → Chi tiết: §1
+    = APPLICATION (Self, Future, Simulate+Construct) on the Simulation-Engine
+    = Brain BUILDS a future scenario from compiled chunks
+
+  ② v3.0 KEY REFRAME: Imagine-Final ≠ all body prediction
+    → Hardware prediction (thirst→drink): subcortical, hardwired → does NOT need simulation
+    → Imagine-Final: constructive, chunk-based → NEEDS Simulation-Engine
+    → Body-Feedback-Mechanism §1.2 Source ① (hardware) IS NOT Imagine-Final
+    → Details: §1
 
   ③ Compiled Imagine-Final ≠ Hardware reflex
-    → Compiled: TỪNG construct → giờ automatic, cost≈0 → CÓ THỂ decompile
-    → Hardware: CHƯA BAO GIỜ construct → evolutionary → KHÔNG THỂ unlearn
-    → Cùng "tự động" nhưng KHÁC nguồn gốc → §1.4
+    → Compiled: was ONCE constructed → now automatic, cost≈0 → CAN decompile
+    → Hardware: NEVER constructed → evolutionary → CANNOT unlearn
+    → Both "automatic" but DIFFERENT ORIGIN → §1.4
 
   ④ 3-Layer Hierarchy: Body-Need → Imagine-Final → Plan
-    → Body-Need = TẠI SAO (hardware + chunk-based, luôn tồn tại)
-    → Imagine-Final = VỀ ĐÂU (khi constructive simulation CẦN THIẾT)
-    → Plan = BẰNG CÁCH NÀO (PFC strategy, thay đổi linh hoạt)
-    → ⚠️ Hardware drives CÓ THỂ bypass ②③ hoàn toàn → §0.3
+    → Body-Need = WHY (hardware + chunk-based, always exists)
+    → Imagine-Final = WHERE (when constructive simulation is NECESSARY)
+    → Plan = HOW (PFC strategy, flexibly changing)
+    → ⚠️ Hardware drives CAN bypass ②③ entirely → §0.3
 
   ⑤ MOST PFC-ACCESSIBLE application: PFC = DIRECTOR
     → SET scenario + READ output + ITERATE + COMPARE alternatives
 
-  ⑥ Shared substrate với Self-Pattern-Modeling + Self-Observation → luyện 1 = luyện cả 3
+  ⑥ Shared substrate with Self-Pattern-Modeling + Self-Observation → train 1 = train all 3
   ⑦ Lifecycle: BUILD → SAVE → BACKGROUND → RELOAD → REFINE → loop
   ⑧ Gradient 5 levels: Wish (0-20%) → Obsession (80-100% body fidelity)
-  ⑨ 3 chiều ĐỘC LẬP: Clarity (rõ?) × Quality (đúng?) × Trust (tin?)
+  ⑨ 3 INDEPENDENT dimensions: Clarity (vivid?) × Quality (correct?) × Trust (committed?)
   ⑩ Engine use quality: Reflection (curiosity) vs Rumination (threat)
 
   🟢 Constructive simulation: Schacter & Addis 2007
@@ -138,96 +138,96 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §0.2 — Position
 
 ```
-  VỊ TRÍ TRONG KIẾN TRÚC:
+  POSITION IN ARCHITECTURE:
 
   ★ Simulation-Engine.md = ENGINE (shared substrate)
     │
     ├── Self-Pattern-Modeling.md = APPLICATION-1: (Other, Present, Simulate)
     │   = Predict other's state/behavior
     │
-    ├── ★ File NÀY = APPLICATION-2: (Self, Future, Simulate+Construct)
+    ├── ★ THIS FILE = APPLICATION-2: (Self, Future, Simulate+Construct)
     │   = Preview future state, create gaps, planning tool
     │
     ├── Self-Observation.md v1.0 = APPLICATION-3: (Self, Present, Observe)
-    │   = PFC observe body-state, cơ chế tự-nhận-thức
+    │   = PFC observes body-state, mechanism of self-awareness
     │
-    ├── PFC-Operations.md = HOW PFC operates trên engine
+    ├── PFC-Operations.md = HOW PFC operates on the engine
     │   = Hold/Suppress on Compiled/Fresh spectrum
     │
     └── Entity-Access.md = APPLIED
         = mPFC gradient → per-entity simulation processing
 
-  COMPANION FILES cùng thư mục:
+  COMPANION FILES in same directory:
     Imagine-Final-Evaluation.md = QUALITY check (Domain × Hardware Fit)
-    Anchor-Schema.md = khi Imagine-Final content THÀNH sync point (committed)
+    Anchor-Schema.md = when Imagine-Final content BECOMES sync point (committed)
     Imagination.md = overview
     Somatic-Articulation-Loop.md = body-knowledge → explicit-knowledge
 
-  CÁI MỚI (v3.0 vs v2.0):
-    → ★ RANH GIỚI: Hardware prediction ≠ Imagine-Final (§1 mới)
-    → ★ "Khát→uống" KHÔNG còn là "micro-Imagine-Final" — là hardware drive
+  WHAT'S NEW (v3.0 vs v2.0):
+    → ★ BOUNDARY: Hardware prediction ≠ Imagine-Final (new §1)
+    → ★ "Thirst→drink" NO LONGER "micro-Imagine-Final" — it's a hardware drive
     → ★ Compiled Imagine-Final ≠ Hardware reflex distinction
     → ★ PFC hierarchy gradient (Koechlin 2003, Badre & Nee 2018)
     → ★ 8 new research citations validating boundary
-    → Reconcile với Body-Feedback-Mechanism §1.2 Source ① vs Source ②
+    → Reconcile with Body-Feedback-Mechanism §1.2 Source ① vs Source ②
     → 3-Layer Hierarchy refined: hardware bypass ②③
 ```
 
 ### §0.3 — 3-Layer Hierarchy
 
 ```
-⭐⭐ PHÂN BIỆT 3 TẦNG mà ngôn ngữ thường TRỘN LẪN:
+⭐⭐ DISTINGUISH 3 LAYERS THAT LANGUAGE USUALLY CONFLATES:
 
   ┌─────────────────────────────────────────────────────────────────┐
-  │ TẦNG ①: BODY-BASE NEED (nguồn gốc — "TẠI SAO")               │
+  │ LAYER ①: BODY-BASE NEED (source — "WHY")                       │
   │                                                                 │
-  │   = Nhu cầu LUÔN tồn tại, drive MỌI hành vi                   │
-  │   = Hardware (L0/L1): đói, khát, nhiệt, oxy, ngủ              │
-  │   = Evaluative: kết nối, chứng minh giá trị (observation parameters) │
-  │   = KHÔNG BAO GIỜ là Imagine-Final — là NGUỒN sinh ra          │
+  │   = Need that ALWAYS EXISTS, drives ALL behavior               │
+  │   = Hardware (L0/L1): hunger, thirst, thermal, oxygen, sleep   │
+  │   = Evaluative: connection, proving value (observation params) │
+  │   = NEVER an Imagine-Final — is the SOURCE that generates it   │
   ├─────────────────────────────────────────────────────────────────┤
-  │ TẦNG ②: IMAGINE-FINAL (constructive preview — "VỀ ĐÂU")       │
+  │ LAYER ②: IMAGINE-FINAL (constructive preview — "WHERE")        │
   │                                                                 │
   │   = Body's PRE-FELT preview of END STATE via Simulation-Engine  │
-  │   = CHỈ khi constructive simulation CẦN THIẾT                  │
-  │   = Hardware drives CÓ THỂ BYPASS tầng này hoàn toàn           │
+  │   = ONLY when constructive simulation is NECESSARY              │
+  │   = Hardware drives CAN BYPASS this layer entirely             │
   │                                                                 │
-  │   VD: "THẤY TRƯỚC team thành công" / "THẤY TRƯỚC mình khỏe"   │
+  │   Example: "PRE-FEEL team success" / "PRE-FEEL being healthy"  │
   ├─────────────────────────────────────────────────────────────────┤
-  │ TẦNG ③: PLAN + PARAMETERS (công cụ — "BẰNG CÁCH NÀO")         │
+  │ LAYER ③: PLAN + PARAMETERS (tool — "HOW")                      │
   │                                                                 │
-  │   = PFC strategy + domain knowledge chunks hỗ trợ              │
-  │   = Có thể thay đổi hoàn toàn mà ② vẫn giữ nguyên            │
+  │   = PFC strategy + domain knowledge chunks supporting it       │
+  │   = Can change completely while ② remains the same            │
   │                                                                 │
-  │   VD: "GPU sẽ có giá trị" (domain prediction = parameter)      │
+  │   Example: "GPU will become valuable" (domain prediction = parameter) │
   └─────────────────────────────────────────────────────────────────┘
 
   FLOW: ① → ② → ③ → action → domain feedback → update ②③
 
-  ⚠️ HARDWARE DRIVES CÓ THỂ BYPASS ②③:
+  ⚠️ HARDWARE DRIVES CAN BYPASS ②③:
 
-    Khát + nước sẵn → uống LUÔN (subcortical → motor, skip ②③)
-    Đói + đồ ăn sẵn → ăn LUÔN (habitual, skip ②③)
-    → PFC KHÔNG engage → KHÔNG feel "mục tiêu"
-    → ②③ chỉ BẬT khi response KHÔNG sẵn có hoặc cần CONSTRUCT:
-      Khát + sa mạc → PFC: "nước ở đâu?" → ② "tìm oasis" → ③ "đi hướng bắc"
+    Thirst + water available → drink IMMEDIATELY (subcortical → motor, skip ②③)
+    Hungry + food available → eat IMMEDIATELY (habitual, skip ②③)
+    → PFC does NOT engage → does NOT feel like a "goal"
+    → ②③ only ACTIVATE when response is NOT available or needs CONSTRUCTION:
+      Thirsty + desert → PFC: "where is water?" → ② "find oasis" → ③ "go north"
 
-  IMAGINE-FINAL CHỈ CHO CASES CẦN CONSTRUCTIVE SIMULATION:
+  IMAGINE-FINAL ONLY FOR CASES REQUIRING CONSTRUCTIVE SIMULATION:
 
   ┌──────────────────┬──────────────────────────┬──────────────────────┐
-  │ Scale            │ Imagine-Final (②)        │ Body-need gốc (①)   │
+  │ Scale            │ Imagine-Final (②)        │ Original body-need ①│
   ├──────────────────┼──────────────────────────┼──────────────────────┤
-  │ Brief-construct  │ "Phở hay cơm?" (compare) │ L1 nutrition → chọn │
-  │ Short            │ "Gặp bạn → giải tỏa"    │ L1 connection        │
-  │ Medium           │ "Xong project → thành tựu"│ Novelty + Status    │
-  │ Long             │ "NVIDIA thành công"       │ Status + Novelty     │
+  │ Brief-construct  │ "Pho or rice?" (compare) │ L1 nutrition → choose│
+  │ Short            │ "See friend → relief"    │ L1 connection        │
+  │ Medium           │ "Project done → achieved"│ Novelty + Status     │
+  │ Long             │ "NVIDIA succeeds"         │ Status + Novelty     │
   └──────────────────┴──────────────────────────┴──────────────────────┘
 
-  TẠI SAO PHÂN BIỆT NÀY QUAN TRỌNG:
-    → Cùng ② có thể có NHIỀU ③ khác nhau (nhiều plans cho 1 mục tiêu)
-    → Cùng ① có thể sinh NHIỀU ② (nhiều Imagine-Finals cho 1 body-need)
-    → ③ thay đổi LINH HOẠT NHẤT. ② ổn định HƠN. ① ổn định NHẤT.
-    → "Bỏ plan" ≠ "bỏ mục tiêu" ≠ "bỏ nhu cầu"
+  WHY THIS DISTINCTION MATTERS:
+    → Same ② can have MANY different ③ (many plans for 1 goal)
+    → Same ① can generate MANY ② (many Imagine-Finals for 1 body-need)
+    → ③ changes MOST FLEXIBLY. ② more stable. ① most stable.
+    → "Drop a plan" ≠ "drop a goal" ≠ "drop a need"
 
   🟢 SDT basic needs → goals → strategies: Deci & Ryan 2000
   🟢 Homeostatic drives subcortical-sufficient: Eiselt & Bhatt 2021
@@ -236,41 +236,41 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §1 — RANH GIỚI: HARDWARE PREDICTION vs CONSTRUCTIVE IMAGINE-FINAL
+## §1 — BOUNDARY: HARDWARE PREDICTION vs CONSTRUCTIVE IMAGINE-FINAL
 
-### §1.1 — Hardware prediction: subcortical, không cần Simulation-Engine
+### §1.1 — Hardware prediction: subcortical, does not need the Simulation-Engine
 
 ```
-⭐⭐ NÃO CÓ HỆ THỐNG PREDICTION SUBCORTICAL, KHÔNG PHẢI IMAGINE-FINAL:
+⭐⭐ THE BRAIN HAS A SUBCORTICAL PREDICTION SYSTEM — THIS IS NOT IMAGINE-FINAL:
 
-  CƠ CHẾ:
+  MECHANISM:
     Receptors → Hypothalamus / Brainstem → Automatic response
-    → KHÔNG cần PFC, KHÔNG cần chunks, KHÔNG cần Simulation-Engine
+    → Does NOT need PFC, does NOT need chunks, does NOT need Simulation-Engine
     → = Body-Feedback-Mechanism §1.2 Source ①: Hardware/Sensory-Driven
 
-  VÍ DỤ:
-    Khát: SFO (subfornical organ) detect osmolality↑ → hypothalamus → drive uống
-    Đói: Arcuate nucleus (AgRP neurons) → drive ăn
-    Nóng: Thermoregulation → drive tìm bóng mát
-    Đau: Nociceptors → reflex + avoidance
+  EXAMPLES:
+    Thirst: SFO (subfornical organ) detects osmolality↑ → hypothalamus → drive to drink
+    Hunger: Arcuate nucleus (AgRP neurons) → drive to eat
+    Heat: Thermoregulation → drive to find shade
+    Pain: Nociceptors → reflex + avoidance
 
-  CÓ PREDICTION — NHƯNG SUBCORTICAL:
+  PREDICTION EXISTS — BUT SUBCORTICAL:
     → Zimmerman et al. 2016 (Nature): SFO neurons predict hydration
-      TRƯỚC KHI máu thay đổi (oropharyngeal signals → predict outcome)
-    → Đây là feedforward prediction, KHÔNG phải constructive simulation
-    → SFO không "tưởng tượng" uống nước — SFO detect + predict
+      BEFORE blood changes (oropharyngeal signals → predict outcome)
+    → This is feedforward prediction, NOT constructive simulation
+    → SFO doesn't "imagine" drinking — SFO detects + predicts
 
-  PFC KHÔNG CẦN THIẾT:
+  PFC NOT NECESSARY:
     → Eiselt & Bhatt 2021 (Nature Communications):
-      Tắt mPFC (optogenetic silencing) → chuột ăn uống BÌNH THƯỜNG
-    → mPFC chỉ cần khi phải CHỌN giữa competing needs
-      (đói VÀ khát → cần PFC quyết food vs water)
+      Silencing mPFC (optogenetic silencing) → mice eat/drink NORMALLY
+    → mPFC only needed when CHOOSING between competing needs
+      (hungry AND thirsty → need PFC to decide food vs water)
     → Berridge & Robinson 2016: subcortical wanting (VTA → NAc)
-      hoạt động KHÔNG cần neocortex
+      operates WITHOUT neocortex
 
-  = KHÔNG chạy trên Simulation-Engine
-  = KHÔNG phải Imagine-Final
-  = Cơ chế RIÊNG, hardwired, evolutionary
+  = DOES NOT RUN on Simulation-Engine
+  = IS NOT Imagine-Final
+  = SEPARATE mechanism, hardwired, evolutionary
 
   🟢 Zimmerman et al. 2016 (Nature): anticipatory thirst neurons
   🟢 Eiselt & Bhatt 2021 (Nature Communications): mPFC not needed
@@ -281,30 +281,30 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §1.2 — Constructive Imagine-Final: Simulation-Engine territory
 
 ```
-⭐⭐ IMAGINE-FINAL = CONSTRUCTIVE SIMULATION, CẦN CHUNKS + ENGINE:
+⭐⭐ IMAGINE-FINAL = CONSTRUCTIVE SIMULATION, NEEDS CHUNKS + ENGINE:
 
-  CƠ CHẾ:
+  MECHANISM:
     Simulation-Engine (DMN + mPFC + anterior insula + hippocampus)
-    → Hippocampus RETRIEVE chunks + DMN RECOMBINE → novel scenario
-    → Anterior insula READ body-feedback từ simulated future state
-    → mPFC SET target (self/other, close/distant)
-    → PFC ITERATE, COMPARE, REFINE
+    → Hippocampus RETRIEVES chunks + DMN RECOMBINES → novel scenario
+    → Anterior insula READS body-feedback from simulated future state
+    → mPFC SETS target (self/other, close/distant)
+    → PFC ITERATES, COMPARES, REFINES
 
-  TẠI SAO KHÁC HARDWARE PREDICTION:
-    → CẦN CHUNKS (memories, experiences) → không có chunks = không simulate được
-    → CẦN CONSTRUCTION (novel combination) → không phải reflex
-    → CẦN PFC (ít nhất khi BUILD lần đầu) → không automatic ban đầu
-    → CÓ THỂ compile → thành automatic SAU → compiled Imagine-Final
+  WHY DIFFERENT FROM HARDWARE PREDICTION:
+    → NEEDS CHUNKS (memories, experiences) → no chunks = cannot simulate
+    → NEEDS CONSTRUCTION (novel combination) → not a reflex
+    → NEEDS PFC (at least when BUILDING the first time) → not automatic initially
+    → CAN compile → becomes automatic LATER → compiled Imagine-Final
 
-  REFERENCE PATTERN — cơ chế cốt lõi:
-    → PFC simulate: "nếu CÓ chunks NÀY → trạng thái sẽ THẾ NÀY"
-    → Body PRE-FEEL: "trạng thái đó CÓ VẺ mượt hơn hiện tại?"
-    → Mỗi chunk mới PHẢN XẠ với reference pattern:
-      Phù hợp → "đúng hướng!" → chịu dissonance tiếp
-      Không phù hợp → "vô nghĩa" → irritated
+  REFERENCE PATTERN — core mechanism:
+    → PFC simulates: "if I HAD these chunks → state would be THIS"
+    → Body PRE-FEELS: "does that state FEEL smoother than now?"
+    → Each new chunk RESONATES with the reference pattern:
+      Fits → "right direction!" → endure more dissonance
+      Doesn't fit → "meaningless" → irritated
 
   = Body-Feedback-Mechanism §1.2 Source ②: Chunk Dynamics/Pattern-Driven
-  = CHẠY trên Simulation-Engine (Simulation-Engine.md)
+  = RUNS on Simulation-Engine (Simulation-Engine.md)
   = Imagine-Final territory
 
   🟢 Schacter & Addis 2007: constructive episodic simulation
@@ -312,45 +312,45 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Somatic Marker Hypothesis: Damasio 1994 (body informs decisions)
 ```
 
-### §1.3 — Ranh giới: khi nào Imagine-Final bắt đầu
+### §1.3 — Boundary: when does Imagine-Final begin
 
 ```
-⭐ IMAGINE-FINAL BẮT ĐẦU KHI CONSTRUCTIVE SIMULATION CẦN THIẾT:
+⭐ IMAGINE-FINAL BEGINS WHEN CONSTRUCTIVE SIMULATION IS NECESSARY:
 
-  ① Response KHÔNG hardwired (không phải reflex)
-  ② Future state phải CONSTRUCTED từ chunks
-  ③ Có NHIỀU HƠN 1 path → cần construct + compare
-  ④ PFC engagement (ít nhất khi build lần đầu)
+  ① Response is NOT hardwired (not a reflex)
+  ② Future state must be CONSTRUCTED from chunks
+  ③ There are MORE THAN 1 path → need to construct + compare
+  ④ PFC engagement (at least when building the first time)
 
-  BẤT KỲ 1 TRONG 4 → Imagine-Final territory.
+  ANY 1 OF THE 4 → Imagine-Final territory.
 
-  PHỔ TỪ RANH GIỚI:
+  SPECTRUM FROM THE BOUNDARY:
 
   ┌───────────────────┬────────────────────┬────────────────────────┐
-  │ Hardware drive     │ RANH GIỚI          │ Imagine-Final rõ ràng  │
+  │ Hardware drive     │ BOUNDARY           │ Clearly Imagine-Final  │
   ├───────────────────┼────────────────────┼────────────────────────┤
-  │ Khát → uống       │ Đói → phở hay cơm?│ Giảm cân → ăn kiêng   │
-  │ (hardware drive)  │ (brief construct)  │ (hold + suppress)      │
-  │                   │                    │                        │
-  │ Nóng → vào bóng   │ Mệt → gặp bạn    │ NVIDIA thành công      │
-  │ (reflex)          │ hay về nhà?        │ (decades construct)    │
+  │ Thirst → drink    │ Hungry → pho or    │ Lose weight → diet     │
+  │ (hardware drive)  │ rice? (brief        │ (hold + suppress)      │
+  │                   │  construct)         │                        │
+  │ Hot → shade       │ Tired → see friend │ NVIDIA succeeds        │
+  │ (reflex)          │ or go home?        │ (decades of construct) │
   │                   │ (compiled pattern) │                        │
   └───────────────────┴────────────────────┴────────────────────────┘
 
-  VÙNG RANH GIỚI — "phở hay cơm?":
-    → PFC DO simulate briefly: hippocampus retrieve memory phở + cơm
-    → Insula preview body-feedback mỗi option → compare → chọn
+  BOUNDARY ZONE — "pho or rice?":
+    → PFC DOES simulate briefly: hippocampus retrieves memory of pho + rice
+    → Insula previews body-feedback for each option → compare → choose
     → Technically IS constructive simulation → IS Imagine-Final
-    → Nhưng RẤT NGẮN, chi phí thấp, gần habitual
-    → = Imagine-Final ở MINIMUM scale
+    → But VERY SHORT, low cost, near habitual
+    → = Imagine-Final at MINIMUM scale
 
-  TẠI SAO PHÂN BIỆT NÀY QUAN TRỌNG:
-    → Giải thích WHY "khát→uống" KHÔNG FEEL là "mục tiêu"
-      (vì KHÔNG đi qua Simulation-Engine → PFC không engage)
-    → Giải thích WHY "NVIDIA" FEEL là "mục tiêu" rõ ràng
-      (vì PFC phải construct + hold + suppress + reload liên tục)
-    → Giải thích WHY "gặp bạn" có thể feel "mục tiêu" hoặc không
-      (rất quen → compiled → habitual feel. Mới → construct → goal feel.)
+  WHY THIS DISTINCTION MATTERS:
+    → Explains WHY "thirst→drink" does NOT FEEL like a "goal"
+      (because it does NOT go through Simulation-Engine → PFC doesn't engage)
+    → Explains WHY "NVIDIA" FEELS like a clear "goal"
+      (because PFC must construct + hold + suppress + reload continuously)
+    → Explains WHY "seeing a friend" may or may not feel like a "goal"
+      (very familiar → compiled → habitual feel. New → construct → goal feel.)
 
   🟢 Daw, Niv & Dayan 2005: model-based (constructive) vs model-free (habitual)
   🟢 Dolan & Dayan 2013 (Neuron): goals → habits over training
@@ -360,70 +360,70 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §1.4 — Compiled Imagine-Final vs Hardware reflex
 
 ```
-⭐ CRITICAL DISTINCTION — CÙNG "TỰ ĐỘNG" NHƯNG KHÁC NGUỒN GỐC:
+⭐ CRITICAL DISTINCTION — BOTH "AUTOMATIC" BUT DIFFERENT ORIGIN:
 
   COMPILED IMAGINE-FINAL:
-    → Nguồn gốc: TỪNG được CONSTRUCT qua Simulation-Engine
-    → Cách compile: PFC hold → Hebbian learning → automatic
+    → Origin: WAS CONSTRUCTED through Simulation-Engine
+    → How compiled: PFC hold → Hebbian learning → automatic
     → Substrate: compiled CHUNKS (experience-based)
-    → CÓ THỂ decompile: new evidence → shift → reconstruct
-    → CÓ THỂ bị quên: không reload → decay
-    → VD: "Gặp bạn sẽ vui" — từng lần đầu simulate, giờ compiled
+    → CAN decompile: new evidence → shift → reconstruct
+    → CAN be forgotten: no reload → decay
+    → Example: "Seeing this person → feels better" — once simulated, now compiled
 
   HARDWARE REFLEX:
-    → Nguồn gốc: EVOLUTIONARY (chưa bao giờ construct)
-    → Cách "compile": genetics → neural wiring
-    → Substrate: RECEPTOR → BRAINSTEM → MOTOR (không chunk-based)
-    → KHÔNG THỂ decompile: khát = khát, không shift được
-    → KHÔNG THỂ quên: hardwired vĩnh viễn
-    → VD: "Khát → uống" — không ai "học" cách khát nước
+    → Origin: EVOLUTIONARY (never constructed)
+    → How "compiled": genetics → neural wiring
+    → Substrate: RECEPTOR → BRAINSTEM → MOTOR (not chunk-based)
+    → CANNOT decompile: thirst is thirst, cannot shift
+    → CANNOT forget: hardwired permanently
+    → Example: "Thirsty → drink" — no one "learns" to feel thirst
 
-  TEST PHÂN BIỆT:
-    → "Có thể unlearn không?"
-      Compiled Imagine-Final: CÓ (decompile possible)
-      Hardware: KHÔNG (cannot unlearn thirst)
-    → "Cần chunks không?"
-      Compiled Imagine-Final: CÓ (compiled từ experience chunks)
-      Hardware: KHÔNG (receptor-based, pre-chunk)
-    → "Có ở trẻ sơ sinh không?"
-      Hardware: CÓ (born with thirst, hunger, pain)
-      Compiled Imagine-Final: KHÔNG (cần experience để build)
+  DISTINGUISHING TEST:
+    → "Can it be unlearned?"
+      Compiled Imagine-Final: YES (decompile possible)
+      Hardware: NO (cannot unlearn thirst)
+    → "Does it need chunks?"
+      Compiled Imagine-Final: YES (compiled from experience chunks)
+      Hardware: NO (receptor-based, pre-chunk)
+    → "Present in newborns?"
+      Hardware: YES (born with thirst, hunger, pain)
+      Compiled Imagine-Final: NO (needs experience to build)
 
   🟡 Compiled vs Hardware distinction = framework synthesis
   🟢 Hebbian learning: Hebb 1949
   🟢 Dolan & Dayan 2013: behavior initially goal-directed → habitual
 ```
 
-### §1.5 — PFC hierarchy gradient: mục tiêu càng phức tạp → PFC càng anterior
+### §1.5 — PFC hierarchy gradient: more complex goals → more anterior PFC
 
 ```
-⭐ PFC KHÔNG XỬ LÝ MỌI MỤC TIÊU NHƯ NHAU:
+⭐ PFC DOES NOT PROCESS ALL GOALS THE SAME WAY:
 
   Koechlin, Ody & Kouneiher 2003 (Science):
-  PFC có gradient ROSTRAL → CAUDAL cho goal complexity:
+  PFC has a ROSTRAL → CAUDAL gradient for goal complexity:
 
   ┌──────────────────────┬───────────────────────────────────────────┐
   │ PFC region           │ Goal level                                │
   ├──────────────────────┼───────────────────────────────────────────┤
-  │ Premotor (caudal)    │ Motor plan: "với tay lấy ly nước"         │
-  │ Caudal lateral PFC   │ Context: "phở hay cơm?" (present cues)   │
-  │ Rostral lateral PFC  │ Episode: "project plan cho tuần này"      │
-  │ Frontopolar (BA10)   │ Abstract: "NVIDIA thành reference comp."  │
+  │ Premotor (caudal)    │ Motor plan: "reach for glass of water"    │
+  │ Caudal lateral PFC   │ Context: "pho or rice?" (present cues)    │
+  │ Rostral lateral PFC  │ Episode: "project plan for this week"     │
+  │ Frontopolar (BA10)   │ Abstract: "NVIDIA as reference computing" │
   └──────────────────────┴───────────────────────────────────────────┘
 
-  → Mục tiêu PHỨC TẠP hơn → PFC region ANTERIOR hơn
-  → Hardware drives: bypass PFC hoàn toàn
-  → Simple Imagine-Final: caudal PFC đủ
+  → More COMPLEX goals → more ANTERIOR PFC region
+  → Hardware drives: bypass PFC entirely
+  → Simple Imagine-Final: caudal PFC is sufficient
   → Complex Imagine-Final: frontopolar + full cascade
 
   Badre & Nee 2018 (Trends in Cognitive Sciences):
-  → KHÔNG chỉ 1 gradient → 3 loại abstraction chồng:
+  → NOT just 1 gradient → 3 types of abstraction stacked:
     Policy abstraction + Temporal abstraction + Relational integration
-  → Mỗi level output → top-down control cho level dưới
+  → Each level's output → top-down control for level below
 
-  → = WHY mục tiêu phức tạp FEEL "nặng" — engage NHIỀU PFC regions
-  → = WHY mục tiêu đơn giản thậm chí không FEEL là "mục tiêu"
-    (chỉ dùng caudal PFC hoặc bypass → không conscious)
+  → = WHY complex goals FEEL "heavy" — engage MANY PFC regions
+  → = WHY simple goals don't even FEEL like "goals"
+    (use only caudal PFC or bypass → not conscious)
 
   🟢 Koechlin, Ody & Kouneiher 2003 (Science): PFC cascade model
   🟢 Badre & Nee 2018 (Trends in Cognitive Sciences): hierarchical control
@@ -438,28 +438,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐ IMAGINE-FINAL = POINT IN APPLICATION SPACE:
 
-  Simulation-Engine 3 trục (Simulation-Engine.md §2):
-    Trục A (Target):    SELF (ventral mPFC)
-    Trục B (Time):      FUTURE (construct novel scenario)
-    Trục C (Operation): SIMULATE + CONSTRUCT (PFC active)
+  Simulation-Engine 3 axes (Simulation-Engine.md §2):
+    Axis A (Target):    SELF (ventral mPFC)
+    Axis B (Time):      FUTURE (construct novel scenario)
+    Axis C (Operation): SIMULATE + CONSTRUCT (PFC active)
 
   → Imagine-Final = (Self, Future, Simulate+Construct)
 
-  SO SÁNH VỚI CÁC APPLICATION KHÁC:
-  ┌──────────────────┬──────────────┬───────────┬──────────┐
-  │ Application      │ Target       │ Time      │ Operation│
-  ├──────────────────┼──────────────┼───────────┼──────────┤
-  │ Self-Pattern-Modeling              │ Other        │ Present   │ Simulate │
-  │ Self-Observation │ Self         │ Present   │ Observe  │
-  │ ★ Imagine-Final  │ Self         │ Future    │ Sim+Cons │
-  │ Memory Recall    │ Self         │ Past      │ Simulate │
-  │ Counterfactual   │ Self/Other   │ Alt-Past  │ Sim+Cons │
-  │ Decision Branch  │ Self         │ Future×N  │ Sim×N    │
-  │ Predict Other    │ Other        │ Future    │ Simulate │
-  └──────────────────┴──────────────┴───────────┴──────────┘
+  COMPARISON WITH OTHER APPLICATIONS:
+  ┌──────────────────────┬──────────────┬───────────┬──────────┐
+  │ Application          │ Target       │ Time      │ Operation│
+  ├──────────────────────┼──────────────┼───────────┼──────────┤
+  │ Self-Pattern-Modeling│ Other        │ Present   │ Simulate │
+  │ Self-Observation     │ Self         │ Present   │ Observe  │
+  │ ★ Imagine-Final      │ Self         │ Future    │ Sim+Cons │
+  │ Memory Recall        │ Self         │ Past      │ Simulate │
+  │ Counterfactual       │ Self/Other   │ Alt-Past  │ Sim+Cons │
+  │ Decision Branch      │ Self         │ Future×N  │ Sim×N    │
+  │ Predict Other        │ Other        │ Future    │ Simulate │
+  └──────────────────────┴──────────────┴───────────┴──────────┘
 
-  → TẤT CẢ chạy trên CÙNG engine (DMN + mPFC + insula + hippocampus)
-  → Khác nhau ở COORDINATES, không phải ở hardware
+  → ALL run on the SAME engine (DMN + mPFC + insula + hippocampus)
+  → Differ in COORDINATES, not in hardware
   → Decision Branch = Imagine-Final run N times + compare
   → Predict Other's Future = Self-Pattern-Modeling + Imagine-Final combined
 
@@ -473,28 +473,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐ SIMULATION-ENGINE 3 COMPONENTS (Simulation-Engine.md §1):
 
-  COMPONENT 1 — INTEROCEPTION (anterior insula) = "MÀN HÌNH":
-    → Imagine-Final: đọc body-feedback từ simulated future state
-    → "Nếu tôi bỏ việc → body feel gì?" = insula readout
-    → QUALITY CỦA READOUT → quyết định accuracy of preview
-    → Alexithymia (broken readout) → cannot PRE-FEEL future
-      → Imagine-Final DEGRADED: "biết sẽ tốt" nhưng không FEEL
+  COMPONENT 1 — INTEROCEPTION (anterior insula) = "SCREEN":
+    → Imagine-Final: reads body-feedback from simulated future state
+    → "If I quit my job → what does the body feel?" = insula readout
+    → QUALITY OF READOUT → determines accuracy of preview
+    → Alexithymia (broken readout) → cannot PRE-FEEL the future
+      → Imagine-Final DEGRADED: "know it will be good" but don't FEEL it
     → 🟢 Bird & Silani 2010: anterior insula = shared readout
     → 🟢 Fukushima 2011: interoceptive accuracy → empathic accuracy
 
   COMPONENT 2 — CONSTRUCTIVE SIMULATION (DMN + hippocampus) = "CPU":
-    → Imagine-Final: hippocampus RETRIEVE chunks + DMN RECOMBINE
-    → Chunks AVAILABLE quyết định WHAT futures imaginable
-    → Ít chunks = Imagine-Final generic/mờ (Level 1-2)
-    → Nhiều experience chunks = Imagine-Final vivid (Level 4-5)
-    → = WHY "nạp chunks thật" > "nghĩ tích cực" cho nâng level
+    → Imagine-Final: hippocampus RETRIEVES chunks + DMN RECOMBINES
+    → Chunks AVAILABLE determines WHAT futures are imaginable
+    → Few chunks = Imagine-Final generic/dim (Level 1-2)
+    → Many experience chunks = Imagine-Final vivid (Level 4-5)
+    → = WHY "load real chunks" > "think positively" for leveling up
     → 🟢 Hassabis et al. 2007: hippocampal amnesia → cannot imagine
     → 🟢 Schacter, Addis & Buckner 2007: constructive simulation
 
-  COMPONENT 3 — SELF/OTHER MODEL (mPFC gradient) = "BẢNG ĐIỀU KHIỂN":
+  COMPONENT 3 — SELF/OTHER MODEL (mPFC gradient) = "CONTROL PANEL":
     → Imagine-Final: target = FUTURE SELF (ventral mPFC)
-    → "Tôi SẼ thế nào" = simulate SELF → interoception AVAILABLE
-    → "Bạn SẼ thế nào" = simulate OTHER → interoception INFERRED
+    → "What will I be LIKE" = simulate SELF → interoception AVAILABLE
+    → "What will YOU be LIKE" = simulate OTHER → interoception INFERRED
     → Entity-Access integration: close entity → vMPFC → simulate AS self
     → 🟢 Mitchell 2006: vMPFC/dMPFC dissociation
     → 🟢 Denny et al. 2012: spatial gradient meta-analysis
@@ -505,31 +505,33 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ PFC ACCESSIBILITY SPECTRUM (Simulation-Engine.md §8):
 
-  ┌──────────────┬────────────────────────────────────────────┐
-  │ APPLICATION  │ PFC ROLE                                    │
-  ├──────────────┼────────────────────────────────────────────┤
-  │ Self-Pattern-Modeling Compiled       │ LEAST: compiled, automatic, invisible       │
-  │ Dream/Mind W.│ ZERO: engine free-run during sleep          │
-  │ Self-Observation │ MIDDLE: PFC observe, cannot manipulate      │
-  │ Self-Pattern-Modeling Fresh       │ MODERATE: PFC draft model deliberately      │
-  │ ★ Imagine-Final│ MOST: PFC SET scenario + READ + ITERATE   │
-  │ Decision     │ HIGHEST: Imagine-Final ×N + COMPARE         │
-  └──────────────┴────────────────────────────────────────────┘
+  ┌────────────────────────┬────────────────────────────────────────────┐
+  │ APPLICATION            │ PFC ROLE                                    │
+  ├────────────────────────┼────────────────────────────────────────────┤
+  │ Self-Pattern-Modeling  │ LEAST: compiled, automatic, invisible       │
+  │ Compiled               │                                             │
+  │ Dream/Mind Wandering   │ ZERO: engine free-runs during sleep         │
+  │ Self-Observation       │ MIDDLE: PFC observes, cannot manipulate     │
+  │ Self-Pattern-Modeling  │ MODERATE: PFC drafts model deliberately     │
+  │ Fresh                  │                                             │
+  │ ★ Imagine-Final        │ MOST: PFC SETS scenario + READS + ITERATES  │
+  │ Decision               │ HIGHEST: Imagine-Final ×N + COMPARE         │
+  └────────────────────────┴────────────────────────────────────────────┘
 
-  IMAGINE-FINAL = RICHEST APPLICATION vì:
+  IMAGINE-FINAL = RICHEST APPLICATION because:
     → PFC CAN OBSERVE output (unlike Self-Pattern-Modeling Compiled = invisible)
-    → PFC CAN MANIPULATE input ("nếu thay đổi X thì sao?")
+    → PFC CAN MANIPULATE input ("what if I change X?")
     → PFC CAN COMPARE multiple simulations ("option A vs B")
-    → PFC CAN ITERATE ("thêm condition → feel gì?")
+    → PFC CAN ITERATE ("add condition → what does it feel like?")
     → = CONSCIOUS SIMULATION TOOL (planning, decision, risk assessment)
 
   UNIQUE CAPABILITIES (beyond shared engine):
     → SCENARIO COMPARISON: simulate A vs B → compare body-feedback
     → TIMELINE PROJECTION: simulate tomorrow vs next year vs retirement
-    → RISK ASSESSMENT: simulate threat → body pre-feel → avoid/approach
+    → RISK ASSESSMENT: simulate threat → body pre-feels → avoid/approach
     → GAP CREATION: simulate desired state → gap CREATED → drive GENERATED
       = Body-Feedback-Mechanism §3.3c: Imagine-Final preview → compile baseline → gap→miss
-    → EMPATHY EXTENSION: "nếu TÔI là HỌ trong TƯƠNG LAI"
+    → EMPATHY EXTENSION: "if I WERE THEM in the FUTURE"
       = Self-Pattern-Modeling + Imagine-Final combined → parenting, mentoring
 
   🟢 Drill-Self-Pattern-Modeling-Self-Shared-Substrate §9: Imagine-Final = PFC-observable output
@@ -539,18 +541,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §2.4 — Shared substrate implications
 
 ```
-⭐ 3 APPLICATIONS TRÊN 1 HARDWARE → IMPLICATIONS:
+⭐ 3 APPLICATIONS ON 1 HARDWARE → IMPLICATIONS:
 
-  LUYỆN 1 = LUYỆN CẢ 3:
+  TRAIN 1 = TRAIN ALL 3:
     → Interoception training (meditation, Focusing) → improve:
-      ① Self-Observation: "biết mình feel gì" clearer
-      ② Self-Pattern-Modeling: "biết người khác feel gì" more accurate
-      ③ Imagine-Final: "feel trước tương lai" more vivid
+      ① Self-Observation: "knowing what I feel" clearer
+      ② Self-Pattern-Modeling: "knowing what others feel" more accurate
+      ③ Imagine-Final: "pre-feeling the future" more vivid
     → = 1 training → ≥3 applications improved
 
-  HỎNG 1 = HỎNG CẢ 3:
+  BROKEN 1 = BROKEN ALL 3:
     → Alexithymia (broken interoception readout) →
-      Self-Observation FAIL + Self-Pattern-Modeling FAIL + Imagine-Final DEGRADED
+      Self-Observation FAILS + Self-Pattern-Modeling FAILS + Imagine-Final DEGRADED
     → 🟢 Bird & Cook 2013: decisive proof for shared substrate
 
   SOCIAL ↔ SELF BIDIRECTIONAL:
@@ -567,112 +569,112 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §3 — 2 TẦNG: VÔ THỨC BASE + PFC EXTENSION
+## §3 — 2 LAYERS: UNCONSCIOUS BASE + PFC EXTENSION
 
-### §3.1 — Tầng 1: Vô thức (BASE)
+### §3.1 — Layer 1: Unconscious (BASE)
 
 ```
-⭐⭐ VÔ THỨC IMAGINE-FINAL = COMPILED PATTERNS, KHÔNG PHẢI HARDWARE DRIVES:
+⭐⭐ UNCONSCIOUS IMAGINE-FINAL = COMPILED PATTERNS, NOT HARDWARE DRIVES:
 
-  ⚠️ v3.0 CORRECTION: v2.0 nói "mọi hành vi đều có micro-Imagine-Final vô thức."
-  v3.0 phân biệt rõ:
+  ⚠️ v3.0 CORRECTION: v2.0 said "all behavior has micro-Imagine-Final unconsciously."
+  v3.0 clarifies clearly:
 
-  ① HARDWARE PREDICTION (KHÔNG phải Imagine-Final):
-    → Homeostatic: đói, khát, nhiệt → subcortical → automatic
-    → KHÔNG dùng Simulation-Engine → §1.1
-    → Luôn chạy, evolutionary hardwired, pre-chunk
+  ① HARDWARE PREDICTION (NOT Imagine-Final):
+    → Homeostatic: hunger, thirst, thermal → subcortical → automatic
+    → DOES NOT use Simulation-Engine → §1.1
+    → Always running, evolutionary hardwired, pre-chunk
 
-  ② COMPILED IMAGINE-FINAL (Imagine-Final VÔ THỨC):
-    → TỪNG được CONSTRUCT qua Simulation-Engine → compile → giờ tự fire
-    → CẦN chunks (compiled từ experience)
+  ② COMPILED IMAGINE-FINAL (UNCONSCIOUS Imagine-Final):
+    → Was ONCE CONSTRUCTED through Simulation-Engine → compiled → now fires automatically
+    → NEEDS chunks (compiled from experience)
 
-    Short (phút→giờ):
-      → "Gặp người này → melody mượt hơn" → seek connection
-      → = Compiled từ KINH NGHIỆM gặp trước đó
+    Short (minutes→hours):
+      → "Seeing this person → melody smoother" → seek connection
+      → = Compiled from EXPERIENCE of meeting them before
 
-    Medium (ngày→tháng):
-      → "Xong project → body reward" → chịu dissonance hàng ngày
-      → = Compiled từ experience hoàn thành projects trước
+    Medium (days→months):
+      → "Project complete → body reward" → endure daily dissonance
+      → = Compiled from experience of completing previous projects
 
-    Long (năm→đời):
-      → "Hướng này ĐÚNG" mà PFC không name
-      → "Tiếng gọi", "passion" = body ĐÃ compiled Imagine-Final sâu
-      → = Compiled từ NHIỀU NĂM experience + confirmation
+    Long (years→lifetime):
+      → "This direction is RIGHT" without PFC being able to name it
+      → "Calling", "passion" = body HAS deeply compiled Imagine-Final
+      → = Compiled from MANY YEARS of experience + confirmation
 
-  COMPILED IMAGINE-FINAL LÀ PHẦN CHÍNH:
-    → ~95% Imagine-Final hoạt động HOÀN TOÀN vô thức (đã compiled)
-    → Body liên tục: compare hiện tại vs compiled expectation
-    → Thiếu → body signal dissonance. Đủ → opioid.
-    → PFC chỉ "biết" những Imagine-Final ĐỦ LỚN / đủ dissonance
+  COMPILED IMAGINE-FINAL IS THE MAJORITY:
+    → ~95% of Imagine-Final operates FULLY unconsciously (already compiled)
+    → Body continuously: compares present vs compiled expectation
+    → Below threshold → body signals dissonance. Above → opioid.
+    → PFC only "knows" those Imagine-Finals LARGE ENOUGH / enough dissonance
 
   🟢 Predictive Processing: Clark 2013, Friston 2010
-  🟡 "95% vô thức" = framework estimate, consistent with PP
+  🟡 "95% unconscious" = framework estimate, consistent with PP
 ```
 
-### §3.2 — Tầng 2: PFC (EXTENSION)
+### §3.2 — Layer 2: PFC (EXTENSION)
 
 ```
-⭐⭐ PFC = SERIAL PROCESSOR, REACTIVE (không proactive):
+⭐⭐ PFC = SERIAL PROCESSOR, REACTIVE (not proactive):
 
   ⚠️ Working memory ~4±1 dimensions (🟢 Cowan 2001)
-  → 1 Imagine-Final actively refined tại 1 thời điểm
-  → Others SAVED → reload khi cần (§5 Lifecycle)
+  → 1 Imagine-Final actively refined at 1 moment
+  → Others SAVED → reload when needed (§5 Lifecycle)
 
-  PFC KHÔNG TẠO RA Imagine-Final — PFC LÀM 3 VIỆC:
+  PFC DOES NOT CREATE Imagine-Final — PFC DOES 3 THINGS:
 
-    ① CONSCIOUS HÓA: gọi tên Imagine-Final vô thức đã có
-       → Body đã feel "muốn hướng này" → PFC: "à, tôi muốn làm X"
-       → = PFC PHÁT HIỆN, không phải PFC TẠO
+    ① MAKE CONSCIOUS: names the unconscious Imagine-Final already present
+       → Body already feels "want this direction" → PFC: "ah, I want to do X"
+       → = PFC DISCOVERS, does not CREATE
 
-    ② SIMULATE DOMAIN: check Imagine-Final có đúng thực tế không
-       → Body muốn X → PFC: "X có khả thi? Domain có cho phép?"
-       → = PFC = THẨM ĐỊNH VIÊN duy nhất check domain accuracy
-       → (Chunk.md §3: vô thức không check domain)
+    ② SIMULATE DOMAIN: checks whether Imagine-Final is accurate to reality
+       → Body wants X → PFC: "is X feasible? Does the domain allow it?"
+       → = PFC = SOLE AUDITOR that checks domain accuracy
+       → (Chunk.md §3: unconscious doesn't check domain)
 
-    ③ CHỌN THỰC THI: giữa competing Imagine-Finals
-       → Body muốn ăn ngay (micro) vs body muốn khỏe (long-term)
-       → PFC quyết: "chịu đói bây giờ VÌ sức khỏe dài hạn"
-       → = WHY PFC yếu (mệt, say) → chọn ngắn hạn
+    ③ CHOOSE TO EXECUTE: among competing Imagine-Finals
+       → Body wants to eat now (micro) vs body wants to be healthy (long-term)
+       → PFC decides: "endure hunger now FOR long-term health"
+       → = WHY weak PFC (tired, drunk) → chooses short-term
 
-  → = PFC QUAN TRỌNG — nhưng là EXTENSION, không phải SOURCE
-  → = Không có PFC: vô thức VẪN có compiled Imagine-Final (động vật CÓ)
-  → = Có PFC: Imagine-Final được CHECK domain + CHỌN chiến lược
+  → = PFC IMPORTANT — but is an EXTENSION, not the SOURCE
+  → = Without PFC: unconscious STILL has compiled Imagine-Final (animals HAVE it)
+  → = With PFC: Imagine-Final gets DOMAIN-CHECKED + strategy CHOSEN
 
   🟢 Working memory: Cowan 2001
   🟢 PFC = executive selection: Miller & Cohen 2001
 ```
 
-### §3.3 — Trigger model: Khi nào PFC bật
+### §3.3 — Trigger model: When does PFC activate
 
 ```
-⭐ PFC KHÔNG TỰ KHỞI ĐỘNG → BODY GỌI PFC KHI CẦN:
+⭐ PFC DOES NOT SELF-START → BODY CALLS PFC WHEN NEEDED:
 
-  Body MET (expectation ≈ reality) → PFC KHÔNG engage:
-    → "Autopilot" — vô thức chạy, PFC để yên
+  Body MET (expectation ≈ reality) → PFC does NOT engage:
+    → "Autopilot" — unconscious runs, PFC leaves it alone
 
-  Body UNMET (reality < expectation) → dissonance → PFC BẬT:
-    → Cô đơn → PFC: "gặp ai sẽ bớt?" → scan người
-    → Chán việc → PFC: "có gì tốt hơn?" → scan options
-    → Stuck career → PFC: "hướng nào mới?" → construct alternative
+  Body UNMET (reality < expectation) → dissonance → PFC ACTIVATES:
+    → Lonely → PFC: "who would reduce this?" → scans for people
+    → Bored with work → PFC: "is there something better?" → scans options
+    → Stuck career → PFC: "what new direction?" → constructs alternative
 
-  4 KẾT QUẢ KHI PFC SCAN:
+  4 OUTCOMES WHEN PFC SCANS:
 
-    ① TÌM ĐƯỢC + KHẢ THI → hành động → hết dissonance
-    ② TÌM ĐƯỢC + KHÔNG KHẢ THI → frustrated / stuck
-    ③ TÌM SAI TARGET → thử mãi không hết (scroll phone, ăn vặt)
-    ④ KHÔNG TÌM ĐƯỢC → "chán" dạng nặng (Imagine-Final DƯỚI ngưỡng PFC)
+    ① FOUND + FEASIBLE → action → dissonance resolved
+    ② FOUND + NOT FEASIBLE → frustrated / stuck
+    ③ WRONG TARGET FOUND → keeps trying without resolution (scroll phone, snack)
+    ④ NOTHING FOUND → "boredom" of heavy kind (Imagine-Final BELOW PFC threshold)
 
   CORTISOL GATES IMAGINE-FINAL ACTIVATION:
 
-    Cortisol THẤP (thoải mái): Imagine-Final NGỦ — mọi thứ ổn, không cần compass
-    Cortisol VỪA (daily life): Imagine-Final ACTIVE NHẸ — bridge daily dissonance
-    Cortisol CAO (khủng hoảng): Imagine-Final CRITICAL — "tôi chịu VÌ CÁI NÀY"
-      → CÓ Imagine-Final: "đau nhưng CÓ Ý NGHĨA" → chịu được
-      → KHÔNG Imagine-Final: "đau VÀ VÔ NGHĨA" → sụp đổ
+    Low cortisol (comfortable): Imagine-Final DORMANT — everything fine, no compass needed
+    Moderate cortisol (daily life): Imagine-Final MILDLY ACTIVE — bridges daily dissonance
+    High cortisol (crisis): Imagine-Final CRITICAL — "I endure this FOR THIS REASON"
+      → HAS Imagine-Final: "painful but HAS MEANING" → can endure
+      → NO Imagine-Final: "painful AND MEANINGLESS" → collapse
 
     → Cortisol-Baseline.md §3.7: cortisol GATES Imagine-Final activation level
-    → Existential boredom = cortisol CAO + Imagine-Final KHÔNG CÓ
-      = "đau VÀ vô nghĩa" — dạng nặng nhất (Boredom.md §6)
+    → Existential boredom = HIGH cortisol + NO Imagine-Final
+      = "painful AND meaningless" — heaviest form (Boredom.md §6)
 
   🟡 Trigger model = framework synthesis
   🟢 Cortisol effects on cognition: Sapolsky 2004
@@ -681,21 +683,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §3.4 — Imagine-Final → Anchor-Schema transition
 
 ```
-⭐ KHI NÀO IMAGINE-FINAL CONTENT THÀNH SYNC POINT:
+⭐ WHEN DOES IMAGINE-FINAL CONTENT BECOME A SYNC POINT:
 
-  Imagine-Final = CONTENT mà PFC build (file NÀY)
-  Anchor-Schema = khi content đó ĐƯỢC CHỌN + COMMITTED (Anchor-Schema.md)
+  Imagine-Final = CONTENT that PFC builds (THIS file)
+  Anchor-Schema = when that content is CHOSEN + COMMITTED (Anchor-Schema.md)
 
   TRANSITION:
-    PFC build Imagine-Final → body-base ACCEPT (preview confirm) →
-    Imagine-Final THÀNH Anchor-Schema → vô thức SYNC theo → actions EMERGE
+    PFC builds Imagine-Final → body-base ACCEPTS (preview confirms) →
+    Imagine-Final BECOMES Anchor-Schema → unconscious SYNCS → actions EMERGE
 
-  NHƯNG: Anchor-Schema KHÔNG CHỈ từ PFC Imagine-Final:
-    → Compiled schemas đủ mạnh → TỰ thành Anchor ("tiếng gọi")
-    → Hippocampus simulation → basic Anchor (động vật CÓ)
-    → External inject (tôn giáo, xã hội) → compile → thành Anchor
-    → = PFC Imagine-Final chỉ là 1 trong 4 NGUỒN fill anchor
-    → Chi tiết: Anchor-Schema.md §3
+  BUT: Anchor-Schema does NOT ONLY come from PFC Imagine-Final:
+    → Compiled schemas strong enough → BECOME Anchor on their own ("calling")
+    → Hippocampus simulation → basic Anchor (animals HAVE it)
+    → External injection (religion, society) → compile → becomes Anchor
+    → = PFC Imagine-Final is only 1 of 4 SOURCES filling the anchor
+    → Details: Anchor-Schema.md §3
 
   🟡 Transition model = framework synthesis
 ```
@@ -710,26 +712,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ PFC-Operations.md §2 APPLIED TO IMAGINE-FINAL:
 
   HOLD × IMAGINE-FINAL:
-    → PFC sustain Imagine-Final trong working memory → refine, simulate, compare
+    → PFC sustains Imagine-Final in working memory → refine, simulate, compare
     → Cost: ① PFC draft (processing load — PFC-Operations v1.3 §8.3)
-    → Mệt → PFC release → Imagine-Final drops (nếu chưa compiled)
-    → Lặp đủ → Hebbian compile → Imagine-Final self-sustain → "calling"
-    → VD: "Mỗi ngày nghĩ về project → dần compiled → tự fire"
+    → Tired → PFC releases → Imagine-Final drops (if not yet compiled)
+    → Enough repetition → Hebbian compile → Imagine-Final self-sustains → "calling"
+    → Example: "Thinking about the project every day → gradually compiled → fires on its own"
     → = Hold trajectory: conscious → automatic → compiled passion
 
   SUPPRESS × IMAGINE-FINAL:
-    → PFC block competing Imagine-Finals khi focus 1 Imagine-Final cụ thể
-    → "Muốn chơi nhưng phải học" = suppress play-Imagine-Final, hold study-Imagine-Final
-    → Cost: ② Efference mismatch ("tôi KHÔNG ĐANG LÀM cái tôi muốn")
-    → PFC yếu → suppress FAIL → Imagine-Final bị chặn REBOUND
+    → PFC blocks competing Imagine-Finals when focusing on 1 specific Imagine-Final
+    → "Want to play but need to study" = suppress play-Imagine-Final, hold study-Imagine-Final
+    → Cost: ② Efference mismatch ("I am NOT DOING what I want")
+    → Weak PFC → suppress FAILS → blocked Imagine-Final REBOUNDS
     → = WHY stress → "sudden urge" to do suppressed thing
-    → VD: Diet → suppress food-Imagine-Final → stress → binge (rebound)
+    → Example: Diet → suppress food-Imagine-Final → stress → binge (rebound)
 
   CRITICAL DIFFERENCE:
     Hold → CAN compile → Imagine-Final becomes automatic (sustainable)
     Suppress → CANNOT compile "not wanting" → cost PERSISTS
     → Suppress alone = ALWAYS temporary (PFC budget finite)
-    → = WHY "ép bản thân" without genuine interest = unsustainable
+    → = WHY "forcing oneself" without genuine interest = unsustainable
 
   🟢 Miller & Cohen 2001: PFC top-down amplification
   🟢 Anderson & Green 2001: Think/No-Think paradigm
@@ -739,32 +741,32 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §4.2 — Compiled/Fresh spectrum × Imagine-Final
 
 ```
-⭐ IMAGINE-FINAL HOẠT ĐỘNG TRÊN COMPILED/FRESH SPECTRUM:
+⭐ IMAGINE-FINAL OPERATES ON THE COMPILED/FRESH SPECTRUM:
 
   COMPILED IMAGINE-FINAL:
-    → Body ĐÃ compile hướng này → tự fire → PFC không cần active
-    → VD: "Tiếng gọi" — body BIẾT trước PFC label
-    → Cost ≈ 0 (đã compiled → automatic)
-    → Mạnh nhất: body + PFC + domain cùng confirm
-    → = Level 4-5 trong Gradient (§6)
-    → ⚠️ KHÁC hardware reflex: compiled Imagine-Final TỪNG construct (§1.4)
+    → Body HAS ALREADY compiled this direction → fires on its own → PFC not needed
+    → Example: "Calling" — body KNOWS before PFC labels it
+    → Cost ≈ 0 (already compiled → automatic)
+    → Strongest: body + PFC + domain all confirm
+    → = Level 4-5 in the Gradient (§6)
+    → ⚠️ DIFFERENT from hardware reflex: compiled Imagine-Final was ONCE constructed (§1.4)
 
   FRESH IMAGINE-FINAL:
-    → PFC ACTIVELY construct new future scenario
-    → Chunks mới + novel combination + domain check
-    → VD: "Nếu tôi chuyển nghề thì sao?" (chưa experience)
-    → Cost CAO (PFC draft required)
-    → = Level 1-3 trong Gradient (§6)
+    → PFC ACTIVELY constructs new future scenario
+    → New chunks + novel combination + domain check
+    → Example: "What if I changed careers?" (no prior experience)
+    → HIGH cost (PFC draft required)
+    → = Level 1-3 in the Gradient (§6)
 
   COMPILED QUALITY DIMENSION (PFC-Operations.md §5):
-    Genuine-compiled Imagine-Final: body confirmed qua experience → STABLE, AUTHENTIC
-      → "Tôi biết mình yêu nghề này vì ĐÃ LÀM 10 năm"
-    Schema-compiled Imagine-Final: PFC-driven / xã hội install → FUNCTIONAL but HOLLOW
-      → "Tôi phải giàu vì xã hội nói thành công = giàu"
-    Threat-compiled Imagine-Final: bị ép / trauma → RIGID, AVOIDANCE-tagged
-      → "Tôi phải giỏi vì sợ bị bỏ rơi"
-    → CÙNG "compiled Imagine-Final" nhưng KHÁC tag → KHÁC body-feedback quality
-    → = WHY "thành công mà emptiness" (schema-compiled, body không genuine)
+    Genuine-compiled Imagine-Final: body confirmed through experience → STABLE, AUTHENTIC
+      → "I know I love this profession because I've DONE IT for 10 years"
+    Schema-compiled Imagine-Final: PFC-driven / socially installed → FUNCTIONAL but HOLLOW
+      → "I must be wealthy because society says success = money"
+    Threat-compiled Imagine-Final: coerced / trauma → RIGID, AVOIDANCE-tagged
+      → "I must excel because I fear being abandoned"
+    → SAME "compiled Imagine-Final" but DIFFERENT tag → DIFFERENT body-feedback quality
+    → = WHY "successful but feeling empty" (schema-compiled, body not genuine)
 
   🟡 Compiled/Fresh applied to Imagine-Final = framework synthesis
   🟢 Compiled Quality: PFC-Operations.md §5 (7 factors)
@@ -778,26 +780,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   PFC = CONSUMER (check domain, select strategy).
 
   APPLIED TO IMAGINE-FINAL:
-    Body = NGUỒN (gap → "body muốn hướng nào")
-    PFC = KIỂM TRA (domain → "hướng này có thật không?")
-    Domain = TRỌNG TÀI CUỐI CÙNG (results confirm or deny)
+    Body = SOURCE (gap → "which direction does the body want")
+    PFC = AUDITOR (domain → "is this direction real?")
+    Domain = FINAL ARBITER (results confirm or deny)
 
-  IMAGINE-FINAL HOÀN CHỈNH = BODY × PFC × DOMAIN:
-    Body muốn + domain KHÔNG confirm = ẢO TƯỞNG (delusion)
-    Body KHÔNG muốn + domain confirm = ÉP BUỘC (external inject)
-    Body muốn + domain confirm = HOÀN CHỈNH → passion, calling
+  COMPLETE IMAGINE-FINAL = BODY × PFC × DOMAIN:
+    Body wants + domain does NOT confirm = DELUSION
+    Body does NOT want + domain confirms = COERCION (external injection)
+    Body wants + domain confirms = COMPLETE → passion, calling
 
-  PFC COST-BENEFIT LIÊN TỤC:
-    → Mỗi moment: "dissonance HIỆN TẠI vs delta tiềm năng?"
-    → Imagine-Final RÕ = delta lớn = PFC "xứng" = chịu LÂU hơn
-    → Imagine-Final MỜ = delta nhỏ = PFC "không xứng" = bỏ sớm
+  PFC COST-BENEFIT CONTINUOUSLY:
+    → Every moment: "current dissonance vs potential delta?"
+    → VIVID Imagine-Final = large delta = PFC "worth it" = endures LONGER
+    → DIM Imagine-Final = small delta = PFC "not worth it" = quits early
 
   ⚠️ PREVIEW OPIOID ≠ ACTUAL OPIOID:
-    → Preview = body "thử feel" → YẾU, có thể sai
+    → Preview = body "tries feeling" → WEAK, can be wrong
       = Wanting mechanism ① (Liking-Wanting.md §2.1)
-    → Actual = kết quả THẬT → cần Body-Feedback-Precondition 5 preconditions
+    → Actual = REAL result → needs Body-Feedback-Precondition 5 preconditions
       (Dopamine-Is-Not-Reward.md §4)
-    → Preview fidelity phụ thuộc chunk quality + Trust vào Imagine-Final
+    → Preview fidelity depends on chunk quality + Trust in Imagine-Final
 
   🟢 Somatic Marker Hypothesis: Damasio 1994
   🟢 Berridge: wanting ≠ liking distinction
@@ -811,26 +813,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §5.1 — 3 Foundations
 
 ```
-⭐ 3 NỀN TẢNG TRƯỚC KHI VÀO 5 PHASES:
+⭐ 3 FOUNDATIONS BEFORE THE 5 PHASES:
 
-  NỀN TẢNG 1 — PFC LÀ SERIAL PROCESSOR:
+  FOUNDATION 1 — PFC IS A SERIAL PROCESSOR:
     → Working memory ~4±1 dimensions (🟢 Cowan 2001)
-    → 1 ACTIVE focus tại 1 thời điểm
-    → Chỉ 1 Imagine-Final được PFC ACTIVELY refine tại 1 lúc
-    → Others SAVED → reload khi cần
+    → 1 ACTIVE focus at 1 moment
+    → Only 1 Imagine-Final ACTIVELY refined by PFC at one time
+    → Others SAVED → reload when needed
 
-  NỀN TẢNG 2 — DRAFT vs RESULT:
-    DRAFT (process): PFC simulate options, build, modify, discard
-      → Vô hạn cách, cá nhân hóa — framework KHÔNG phân tích
-    IMAGINE-FINAL (result): "best draft so far" tại thời điểm hiện tại
-      → Cái body PRE-FEEL preview = SẢN PHẨM của draft
-    → Framework focus vào RESULT, không phải process
+  FOUNDATION 2 — DRAFT vs RESULT:
+    DRAFT (process): PFC simulates options, builds, modifies, discards
+      → Unlimited ways, highly individual — framework does NOT analyze
+    IMAGINE-FINAL (result): "best draft so far" at the current moment
+      → What the body PRE-FEELS as preview = THE PRODUCT of the draft
+    → Framework focuses on RESULT, not process
 
-  NỀN TẢNG 3 — MULTIPLE IMAGINE-FINALS TRONG STORAGE:
-    1 người KHÔNG chỉ có 1 Imagine-Final:
+  FOUNDATION 3 — MULTIPLE IMAGINE-FINALS IN STORAGE:
+    One person does NOT only have 1 Imagine-Final:
       Career / Health / Relationship / Hobby / Daily / ...
-    TẠI 1 THỜI ĐIỂM: chỉ 1 ACTIVE trong PFC workspace
-    Others = SAVED, dormant → body trigger reload khi dissonance fire
+    AT ANY MOMENT: only 1 ACTIVE in PFC workspace
+    Others = SAVED, dormant → body triggers reload when dissonance fires
 
   🟢 Working memory: Cowan 2001
   🟡 Draft vs Result distinction = framework synthesis
@@ -839,48 +841,48 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §5.2 — 5 Phases
 
 ```
-⭐⭐ 5 PHASES CỦA IMAGINE-FINAL LIFECYCLE:
+⭐⭐ 5 PHASES OF THE IMAGINE-FINAL LIFECYCLE:
 
   PHASE 1 — BUILD (PFC active, draft + simulate):
     Trigger: body dissonance → PFC engaged
     → Pull related chunks → simulate possible futures
-    → Body PRE-FEEL mỗi simulation → PFC compare → select "best so far"
-    → Chunks available quyết định what futures imaginable
+    → Body PRE-FEELS each simulation → PFC compares → selects "best so far"
+    → Chunks available determine what futures are imaginable
     → Chunks compiled under threat cortisol → avoidance scenarios
-    → Duration: giây → giờ (PFC bandwidth có hạn)
-    → VD: Stuck career → PFC scan → "freelance vs startup?" → body preview → chọn
+    → Duration: seconds → hours (PFC bandwidth limited)
+    → Example: Stuck career → PFC scans → "freelance vs startup?" → body preview → chooses
 
   PHASE 2 — SAVE (PFC switches away):
-    Trigger: PFC bandwidth cần cho task khác
-    → Imagine-Final move from workspace → memory storage
-    → Hippocampus encode → "proto-schema state" (dormant, not lost)
+    Trigger: PFC bandwidth needed for another task
+    → Imagine-Final moves from workspace → memory storage
+    → Hippocampus encodes → "proto-schema state" (dormant, not lost)
     → SAVE ≠ FORGET. SAVE = inactive but intact.
-    → KHÁC Anchor-Schema: Anchor = compiled deep, persistent ACTIVE.
-      Saved Imagine-Final = proto-schema, dormant, cần PFC reload.
+    → DIFFERENT from Anchor-Schema: Anchor = compiled deep, persistent ACTIVE.
+      Saved Imagine-Final = proto-schema, dormant, needs PFC reload.
 
-  PHASE 3 — BACKGROUND PROCESSING (vô thức, PFC busy):
-    ⭐ PHASE QUAN TRỌNG NHẤT mà ít người ý thức.
-    Khi PFC focus task khác → vô thức KHÔNG dừng:
+  PHASE 3 — BACKGROUND PROCESSING (unconscious, PFC busy):
+    ⭐ THE MOST IMPORTANT PHASE that few people are aware of.
+    When PFC focuses on another task → unconscious does NOT stop:
       ① Sleep consolidation (🟢 Tononi & Cirelli): REM = hippocampus → cortex
-      ② Spreading activation (🟢): semantic priming → auto re-organize
+      ② Spreading activation (🟢): semantic priming → auto re-organizes
       ③ DMN processing (🟢 Raichle 2001, Buckner 2008): background "thinking"
-      ④ Body trigger random (🟡): đi tắm → DMN dominant → eureka
-    → Khi PFC reload → Imagine-Final có thể SHIFT (context mới)
-    → "Đã thay đổi mà không biết" = background processing, not PFC edit
-    → Duration: phút → ngày → tuần
+      ④ Random body trigger (🟡): taking a shower → DMN dominant → eureka
+    → When PFC reloads → Imagine-Final may have SHIFTED (new context)
+    → "Changed without knowing" = background processing, not PFC editing
+    → Duration: minutes → days → weeks
 
   PHASE 4 — RELOAD (PFC pulls back):
     Trigger: dissonance / decision needed / external event / DMN resurface
-    → PFC pull Imagine-Final từ storage + chunks mới đã integrate
+    → PFC pulls Imagine-Final from storage + new chunks already integrated
     → 3 OUTCOMES:
-      A. UNCHANGED: không chunks mới significant → act hoặc save lại
-      B. CLEARER: background tích hợp → vision sharper → level tăng
-      C. SHIFTED: insights mới → realize hướng cũ không đúng → pivot
-    → "Aha moment" thường ở RELOAD, không phải khi PFC cố nghĩ
+      A. UNCHANGED: no significant new chunks → act or save again
+      B. CLEARER: background integrated → vision sharper → level increases
+      C. SHIFTED: new insights → realize old direction was wrong → pivot
+    → "Aha moment" usually at RELOAD, not when PFC is deliberately trying
 
-  PHASE 5 — REFINE → LOOP VỀ PHASE 1:
-    → PFC re-build Imagine-Final với new context → thực tế là BUILD tiếp
-    → Loop tiếp tục cho đến 1 trong 3 outcomes dài hạn
+  PHASE 5 — REFINE → LOOP BACK TO PHASE 1:
+    → PFC rebuilds Imagine-Final with new context → effectively IS continuing to BUILD
+    → Loop continues until 1 of 3 long-term outcomes
 
   🟢 REM consolidation: Walker 2017
   🟢 DMN: Raichle 2001, Buckner 2008
@@ -890,28 +892,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §5.3 — 3 Long-term outcomes
 
 ```
-⭐ SAU NHIỀU CYCLES:
+⭐ AFTER MANY CYCLES:
 
   OUTCOME 1 — COMPILE (long-term success):
-    → Nhiều cycles → Imagine-Final có structure stable + body confirm + results
-    → Compile dần thành SCHEMA → tự fire → thành ANCHOR-SCHEMA
-    → VD: Jensen Huang — ~30 năm cycles → genuine compiled Imagine-Final
+    → Many cycles → Imagine-Final has stable structure + body confirms + results
+    → Gradually compiles into SCHEMA → fires on own → becomes ANCHOR-SCHEMA
+    → Example: Jensen Huang — ~30 years of cycles → genuine compiled Imagine-Final
 
   OUTCOME 2 — ACHIEVE & FORGET (short-term success):
-    → Imagine-Final hoàn thành nhanh (short scale)
-    → Chunks chi tiết FORGET, chỉ giữ kinh nghiệm
-    → VD: giải bài toán → quên cách, nhớ method
+    → Imagine-Final completed quickly (short scale)
+    → Detailed chunks FORGOTTEN, only experience retained
+    → Example: solving a problem → forget the method, remember the approach
 
   OUTCOME 3 — ABANDON (failure or replace):
-    → Domain feedback ✗ → trust giảm → bỏ
-    → Hoặc Imagine-Final mới hấp dẫn hơn → replace
-    → Imagine-Final cũ stay trong storage nhưng không reload → decay
+    → Domain feedback ✗ → trust decreases → abandoned
+    → Or new Imagine-Final is more compelling → replaces old
+    → Old Imagine-Final stays in storage but not reloaded → decays
 
   KEY INSIGHTS:
-    → "Cố nghĩ" thường KÉM HƠN "để tự thấm" (block Phase 3)
-    → "Ngủ một đêm" = mechanism NORMAL (REM consolidation)
-    → Imagine-Final "thay đổi" ≠ PFC edit — phần lớn shift ở Phase 3
-    → Focus deep > switching (PFC serial + switching cost)
+    → "Trying hard to think" often WORSE than "letting it soak in" (blocks Phase 3)
+    → "Sleeping on it" = NORMAL mechanism (REM consolidation)
+    → Imagine-Final "changing" ≠ PFC editing — most shifts happen in Phase 3
+    → Deep focus > switching (PFC serial + switching cost)
 ```
 
 ---
@@ -921,90 +923,91 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §6.1 — 5 Levels of body simulation fidelity
 
 ```
-⭐⭐ TẤT CẢ TỪ chỉ "mục tiêu" = CÙNG CƠ CHẾ constructive simulation, KHÁC body fidelity:
+⭐⭐ ALL words like "goal" = SAME mechanism of constructive simulation, DIFFERENT body fidelity:
 
-  ⚠️ Hardware drives (khát, đói khi đồ ăn sẵn) KHÔNG nằm trên gradient này
-     — chúng bypass Imagine-Final hoàn toàn (§1).
+  ⚠️ Hardware drives (thirst, hunger when food available) DO NOT fall on this gradient
+     — they bypass Imagine-Final entirely (§1).
 
   ╔═══════════════════════════════════════════════════════════════════╗
-  ║  LEVEL 5 — BODY FIRE NHƯ THẬT (80-100% fidelity)               ║
+  ║  LEVEL 5 — BODY FIRES AS IF REAL (80-100% fidelity)            ║
   ║                                                                   ║
-  ║  Obsession (~95-100%): "KHÔNG THỂ ngừng nghĩ" — fire 24/7       ║
-  ║    Body treat Imagine-Final as real. MẠNH NHẤT + NGUY HIỂM NHẤT.║
-  ║    VD: Einstein — Imagine-Final = "giải mã mâu thuẫn vật lý"   ║
-  ║      E=mc² = KẾT QUẢ (không biết trước). ⚠️ Sai hướng = tự hủy.║
+  ║  Obsession (~95-100%): "CANNOT stop thinking" — fires 24/7       ║
+  ║    Body treats Imagine-Final as real. STRONGEST + MOST DANGEROUS.║
+  ║    Example: Einstein — Imagine-Final = "resolve the physics contradiction"║
+  ║      E=mc² = THE RESULT (not known in advance). ⚠️ Wrong direction = self-destruct.║
   ║                                                                   ║
-  ║  Calling (~80-95%): "Bị KÉO về phía này — không phải PFC chọn"  ║
-  ║    Body-base đã compiled sâu → PFC không suppress nổi.          ║
+  ║  Calling (~80-95%): "PULLED toward this — not a PFC choice"      ║
+  ║    Body-base deeply compiled → PFC cannot suppress.              ║
   ║    = Compiled genuine Imagine-Final. Cost ≈ 0.                   ║
-  ║    ⚠️ Vẫn cần domain verify — body coherence ≠ domain đúng.     ║
+  ║    ⚠️ Still needs domain verification — body coherence ≠ domain correct.║
   ╠═══════════════════════════════════════════════════════════════════╣
-  ║  LEVEL 4 — BODY SIMULATE THƯỜNG XUYÊN (60-80% fidelity)        ║
+  ║  LEVEL 4 — BODY SIMULATES FREQUENTLY (60-80% fidelity)         ║
   ║                                                                   ║
-  ║  Vision (~65-80%): "THẤY tương lai — hình ảnh, âm thanh"        ║
+  ║  Vision (~65-80%): "SEE the future — images, sounds"             ║
   ║    PFC multi-modal: visual + emotional + context. Strong preview.║
   ║                                                                   ║
-  ║  Mission (~60-70%): "PHẢI hoàn thành — lớn hơn cá nhân"         ║
-  ║    Purpose + action plan CỤ THỂ → body: urgency + meaning.      ║
+  ║  Mission (~60-70%): "MUST complete — bigger than self"           ║
+  ║    Purpose + SPECIFIC action plan → body: urgency + meaning.     ║
   ╠═══════════════════════════════════════════════════════════════════╣
-  ║  LEVEL 3 — BODY FEEL RÕ, CÓ HƯỚNG (40-60% fidelity)           ║
+  ║  LEVEL 3 — BODY FEELS CLEARLY, HAS DIRECTION (40-60% fidelity) ║
   ║                                                                   ║
-  ║  Purpose (~50-60%): "ĐÂY là lý do tôi làm MỌI THỨ"            ║
-  ║    Per-life compass. Body feel alignment.                        ║
+  ║  Purpose (~50-60%): "THIS is the reason I do EVERYTHING"         ║
+  ║    Per-life compass. Body feels alignment.                       ║
   ║                                                                   ║
-  ║  Ambition (~40-50%): "QUYẾT TÂM đạt được — chịu khó"           ║
-  ║    Body feel drive + direction rõ + sẵn sàng chịu dissonance.   ║
+  ║  Ambition (~40-50%): "DETERMINED to achieve — willing to work"   ║
+  ║    Body feels drive + clear direction + ready to endure dissonance.║
   ╠═══════════════════════════════════════════════════════════════════╣
-  ║  LEVEL 2 — BODY BẮT ĐẦU FEEL, CHƯA RÕ (20-40% fidelity)      ║
+  ║  LEVEL 2 — BODY STARTS TO FEEL, NOT YET CLEAR (20-40% fidelity)║
   ║                                                                   ║
-  ║  Goal (~30-40%): "SẼ đạt X trước Y" — biết SỐ, chưa feel SỐNG ║
-  ║    ⚠️ Level phổ biến nhất khi "đặt mục tiêu".                   ║
-  ║    "Viết mục tiêu" ≠ "SỐNG trong mục tiêu."                    ║
+  ║  Goal (~30-40%): "WILL achieve X before Y" — knows the NUMBER,  ║
+  ║    hasn't LIVED inside the goal yet.                             ║
+  ║    ⚠️ Most common level when people "set goals."                 ║
+  ║    "Writing a goal" ≠ "LIVING inside a goal."                   ║
   ║                                                                   ║
-  ║  Interest (~20-30%): "Thú vị — muốn tìm hiểu thêm"            ║
-  ║    Curiosity fire → explore → chưa commit.                      ║
+  ║  Interest (~20-30%): "Interesting — want to explore more"        ║
+  ║    Curiosity fires → explore → not yet committed.                ║
   ╠═══════════════════════════════════════════════════════════════════╣
-  ║  LEVEL 1 — PFC BIẾT, BODY KHÔNG FEEL (0-20% fidelity)          ║
+  ║  LEVEL 1 — PFC KNOWS, BODY DOES NOT FEEL (0-20% fidelity)       ║
   ║                                                                   ║
-  ║  Dream (~10-20%): "Mơ ước một ngày nào đó..."                   ║
-  ║    PFC imagine → body feel nhẹ → KHÔNG action plan.             ║
+  ║  Dream (~10-20%): "Wish that someday..."                         ║
+  ║    PFC imagines → body feels weakly → NO action plan.            ║
   ║                                                                   ║
-  ║  Wish (~0-10%): "Giá mà..." → nghĩ 3 giây → quên.             ║
+  ║  Wish (~0-10%): "If only..." → thinks for 3 seconds → forgets.  ║
   ║                                                                   ║
-  ║  NONE (0%): "Không biết muốn gì" → melody trôi.                ║
+  ║  NONE (0%): "Don't know what I want" → melody drifts.            ║
   ╚═══════════════════════════════════════════════════════════════════╝
 
-  ⚠️ CÙNG 1 NGƯỜI có thể ở NHIỀU LEVEL cho NHIỀU THỨ:
-    Career: Level 4 (vision rõ). Health: Level 1 (wish).
-    = Imagine-Final KHÔNG phải 1 con số — là MAP nhiều domain.
+  ⚠️ THE SAME PERSON can be at MANY LEVELS for MANY THINGS:
+    Career: Level 4 (clear vision). Health: Level 1 (wish).
+    = Imagine-Final is NOT a single number — it is a MAP across many domains.
 
   🟢 Goal-setting → higher performance: Locke & Latham 1990
   🟢 Mental simulation = same pathways: Jeannerod 1995, Kosslyn 1994
   🟢 Intrinsic > extrinsic: Deci & Ryan 2000
-  🔴 Body simulation fidelity % = metaphor, chưa có measurement protocol
+  🔴 Body simulation fidelity % = metaphor, no measurement protocol yet
 ```
 
 ### §6.2 — Level-up mechanism
 
 ```
-⭐ CÁCH NÂNG LEVEL:
+⭐ HOW TO LEVEL UP:
 
-  ❌ KHÔNG phải "nghĩ nhiều hơn" (PFC alone không tăng fidelity)
-  ✅ MÀ LÀ "experience nhiều hơn" (body CẦN chunks thật để simulate rõ)
+  ❌ NOT "think more" (PFC alone does not increase fidelity)
+  ✅ BUT "experience more" (body NEEDS real chunks to simulate vividly)
 
-  Wish → Dream: thêm THỜI GIAN nghĩ (từ 3 giây → 10 phút hình dung)
-  Dream → Interest: thêm BODY EXPERIENCE (đi xem, đi thử, đi cảm nhận)
-  Interest → Goal: thêm CỤ THỂ + DEADLINE
-  Goal → Ambition: thêm COMMITMENT + mini-arcs → momentum
-  Ambition → Purpose: thêm MEANING (kết nối body-base THẬT)
-  Purpose → Vision: thêm MULTI-MODAL simulation (thấy, nghe, cảm nhận)
-  Vision → Calling: KHÔNG THỂ "tạo" — chỉ NHẬN RA (hardware match)
+  Wish → Dream: add TIME thinking (from 3 seconds → 10 minutes visualizing)
+  Dream → Interest: add BODY EXPERIENCE (go see it, go try it, go feel it)
+  Interest → Goal: add SPECIFICITY + DEADLINE
+  Goal → Ambition: add COMMITMENT + mini-arcs → momentum
+  Ambition → Purpose: add MEANING (connect to REAL body-base)
+  Purpose → Vision: add MULTI-MODAL simulation (see, hear, feel it)
+  Vision → Calling: CANNOT be "created" — only RECOGNIZED (hardware match)
 
-  = "Nâng Imagine-Final = NẠP CHUNKS THẬT" — không phải "nghĩ tích cực hơn"
-  = WHY motivational speaker KHÔNG giúp lâu dài
-    (PFC inspiration Level 1-2 → body KHÔNG CÓ chunks → 3 ngày quên)
-  = WHY "đi thực tập" MẠNH HƠN "đọc sách ngành"
-    (body experience → chunks THẬT → simulate RÕ → Imagine-Final TĂNG)
+  = "Level up Imagine-Final = LOAD REAL CHUNKS" — not "think more positively"
+  = WHY motivational speakers do NOT help long-term
+    (PFC inspiration Level 1-2 → body has NO chunks → forgotten in 3 days)
+  = WHY "doing an internship" is STRONGER than "reading about the field"
+    (body experience → REAL chunks → simulate vividly → Imagine-Final increases)
 
   🟢 Expertise = experience-based: Ericsson 1993
   🟡 Level-up by chunk accumulation = framework synthesis
@@ -1014,24 +1017,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §6.3 — Bootstrap mechanism
 
 ```
-⭐ IMAGINE-FINAL CÓ THỂ TỰ NÂNG CẤP ("fake it till you make it"):
+⭐ IMAGINE-FINAL CAN SELF-UPGRADE ("fake it till you make it"):
 
-  Bước 1: PFC TẠO Imagine-Final (chưa body confirm) → Level 2-3
-  Bước 2: ACT theo Imagine-Final → kết quả NHỎ → body: "có vẻ đúng" → Level 3
-  Bước 3: Kết quả TĂNG → body compile → Imagine-Final MẠNH hơn → Level 4
-  Bước 4: Kết quả ĐỦ → body THẬT SỰ tin → Imagine-Final genuine → Level 4-5
+  Step 1: PFC CREATES Imagine-Final (not yet body-confirmed) → Level 2-3
+  Step 2: ACT according to Imagine-Final → SMALL results → body: "seems right" → Level 3
+  Step 3: Results INCREASE → body compiles → Imagine-Final STRONGER → Level 4
+  Step 4: Results SUFFICIENT → body GENUINELY believes → Imagine-Final genuine → Level 4-5
 
-  → Bootstrap WORK khi: direction ĐÚNG + results ĐẾN
-  → Bootstrap FAIL khi: direction SAI + results KHÔNG → delusion
-  → Real-check phân biệt bootstrap vs delusion
+  → Bootstrap WORKS when: direction CORRECT + results ARRIVE
+  → Bootstrap FAILS when: direction WRONG + results DON'T come → delusion
+  → Real-check distinguishes bootstrap vs delusion
 
-  VD Jensen Huang (bootstrap ~30 năm):
+  Example Jensen Huang (bootstrap ~30 years):
     Body-need (①): significance + mastery + impact
-    Imagine-Final (②): "NVIDIA thành reference computing"
-    Plan parameter (③): "GPU sẽ quan trọng"
-    ~1993: PFC tạo Imagine-Final chiến lược (body chưa chắc)
-    ~2000s: GPU gaming thành công → body confirm → Imagine-Final tăng
-    ~2012: GPU cho deep learning → bất ngờ → genuine reward → jump
+    Imagine-Final (②): "NVIDIA as reference computing"
+    Plan parameter (③): "GPU will become important"
+    ~1993: PFC creates strategic Imagine-Final (body not yet certain)
+    ~2000s: GPU gaming succeeds → body confirms → Imagine-Final increases
+    ~2012: GPU for deep learning → unexpected → genuine reward → jump
     ~2023: AI boom → Imagine-Final 100% genuine (body + PFC + market confirm)
 
   🟡 Bootstrap model = framework synthesis
@@ -1040,49 +1043,49 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §7 — 3 CHIỀU ĐỘC LẬP: CLARITY × QUALITY × TRUST
+## §7 — 3 INDEPENDENT DIMENSIONS: CLARITY × QUALITY × TRUST
 
 ```
-⭐⭐ 3 CHIỀU ĐÁNH GIÁ IMAGINE-FINAL — ĐỘC LẬP VỚI NHAU:
+⭐⭐ 3 DIMENSIONS FOR EVALUATING IMAGINE-FINAL — INDEPENDENT FROM EACH OTHER:
 
-  CHIỀU 1 — CLARITY (file NÀY):
-    "Imagine-Final RÕ đến đâu?" (5 levels, §6)
-    = Body simulation fidelity — state variable thay đổi khi build chunks
+  DIMENSION 1 — CLARITY (THIS file):
+    "How VIVID is the Imagine-Final?" (5 levels, §6)
+    = Body simulation fidelity — state variable that changes when chunks are loaded
 
-  CHIỀU 2 — QUALITY (Imagine-Final-Evaluation.md):
-    "Hướng đi TỐT hay XẤU?"
-    = 2 trục: Domain Fit (có thật?) × Hardware Fit (mình đi được + muốn?)
-    = 4 góc: Sweet Spot / Mismatch / Delusion / Fantasy
+  DIMENSION 2 — QUALITY (Imagine-Final-Evaluation.md):
+    "Is the direction GOOD or BAD?"
+    = 2 axes: Domain Fit (is it real?) × Hardware Fit (can I do it + do I want it?)
+    = 4 quadrants: Sweet Spot / Mismatch / Delusion / Fantasy
 
-  CHIỀU 3 — TRUST (Anchor-Schema.md §2):
-    "COMMIT bao nhiêu?"
-    = Mức độ hệ thống BIND vào Anchor-Schema qua dissonance
-    = Phổ: 0 (không bind) → ∞ (unfalsifiable faith)
+  DIMENSION 3 — TRUST (Anchor-Schema.md §2):
+    "How COMMITTED am I?"
+    = Degree to which the system BINDS to Anchor-Schema through dissonance
+    = Spectrum: 0 (no binding) → ∞ (unfalsifiable faith)
 
   INTERACTION PATTERNS:
 
   ┌────────────────────────┬────────────────────────────────────────┐
   │ Combination            │ Result                                  │
   ├────────────────────────┼────────────────────────────────────────┤
-  │ Clarity↑ Quality↑      │ MẠNH NHẤT — productive passion         │
+  │ Clarity↑ Quality↑      │ STRONGEST — productive passion          │
   │ Trust↑                 │ (Jensen Huang)                          │
   ├────────────────────────┼────────────────────────────────────────┤
-  │ Clarity↑ Quality↑      │ "Biết nhưng không dám"                 │
-  │ Trust↓                 │ = CẦN build trust qua small wins       │
+  │ Clarity↑ Quality↑      │ "Knows but doesn't dare"               │
+  │ Trust↓                 │ = NEED to build trust through small wins│
   ├────────────────────────┼────────────────────────────────────────┤
-  │ Clarity↓ Trust↑        │ Faith ("tin dù chưa thấy rõ")         │
-  │                        │ = Tôn giáo, ideology                   │
+  │ Clarity↓ Trust↑        │ Faith ("believe without seeing clearly")│
+  │                        │ = Religion, ideology                   │
   ├────────────────────────┼────────────────────────────────────────┤
-  │ Clarity↑ Quality↓      │ NGUY HIỂM NHẤT — delusion locked       │
-  │ Trust↑                 │ = Drive mạnh + sai hướng + không sửa  │
+  │ Clarity↑ Quality↓      │ MOST DANGEROUS — delusion locked        │
+  │ Trust↑                 │ = Strong drive + wrong direction + uncorrectable│
   ├────────────────────────┼────────────────────────────────────────┤
-  │ All LOW                │ "Trôi không đích" — no compass          │
+  │ All LOW                │ "Drifting without direction" — no compass│
   └────────────────────────┴────────────────────────────────────────┘
 
-  → Clarity CAO + Quality TỐT = SWEET SPOT (productive)
-  → Clarity CAO + Quality XẤU = NGUY HIỂM NHẤT
-    (Obsession sai hướng > Wish đúng hướng)
-  → = "Nâng clarity" KHÔNG ĐỦ — cần CHECK quality cùng lúc
+  → HIGH Clarity + GOOD Quality = SWEET SPOT (productive)
+  → HIGH Clarity + BAD Quality = MOST DANGEROUS
+    (Obsession in wrong direction > Wish in right direction)
+  → = "Increasing clarity" is NOT ENOUGH — must CHECK quality simultaneously
 
   🟡 3D framework (Clarity × Quality × Trust) = framework synthesis
 ```
@@ -1094,20 +1097,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §8.1 — Per-entity Imagine-Final
 
 ```
-⭐ IMAGINE-FINAL KHÔNG CHỈ CHO DOMAIN/CAREER — CÓ CHO MỖI ENTITY:
+⭐ IMAGINE-FINAL NOT ONLY FOR DOMAIN/CAREER — EXISTS FOR EACH ENTITY:
 
-  Mỗi entity trong Entity-Access gradient (Entity-Access.md §2) →
-  brain có IMAGINE-FINAL RIÊNG cho relationship đó:
+  For each entity in the Entity-Access gradient (Entity-Access.md §2) →
+  the brain has its OWN IMAGINE-FINAL for that relationship:
 
-  Mức 0 (stranger): Imagine-Final không có (no prediction needed)
-  Mức 1-2 (unlabeled): Imagine-Final mờ ("hope gặp lại" / "hope vui")
-  Mức 3 (Compilable-dominant): Imagine-Final rõ ("bạn thân → cùng chia sẻ lâu dài")
-  Mức 4-5 (Entity-Owned): Imagine-Final deep ("con → thrive" / "partner → cùng già")
+  Level 0 (stranger): No Imagine-Final (no prediction needed)
+  Level 1-2 (unlabeled): Dim Imagine-Final ("hope to see them again" / "hope it's fun")
+  Level 3 (Compilable-dominant): Clear Imagine-Final ("close friend → share long-term")
+  Level 4-5 (Entity-Owned): Deep Imagine-Final ("child → thrive" / "partner → grow old together")
 
   SCHEMA-DRIVEN vs GENUINE:
-    Schema Imagine-Final: "con PHẢI giỏi vì xã hội nói thành công = điểm cao"
-      → PFC-installed, body không genuine → Entity-Access §4 Gap Source C
-    Genuine Imagine-Final: "con THRIVE theo cách CỦA CON"
+    Schema Imagine-Final: "child MUST excel because society says success = high grades"
+      → PFC-installed, body not genuine → Entity-Access §4 Gap Source C
+    Genuine Imagine-Final: "child THRIVES in their OWN WAY"
       → Body-confirmed, authentic → Gap Source A+B
 
   → Compiled Quality Dimension (PFC-Operations §5) APPLIES:
@@ -1121,59 +1124,59 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §8.2 — Social scale: Imagine-Final alignment = relationship depth
 
 ```
-⭐ 2 NGƯỜI "HỢP NHAU" = body detect CÙNG Imagine-Final ở scale nào đó:
+⭐ 2 PEOPLE WHO "CLICK" = body detects SAME Imagine-Final at some scale:
 
-  ┌──────────────────┬──────────────────────────────────────────────┐
-  │ Scale            │ Quan hệ                                      │
-  ├──────────────────┼──────────────────────────────────────────────┤
-  │ Micro Imagine-Final  │ Xã giao (phút→giờ): cả 2 preview "comfortable" │
-  │ Normal Imagine-Final │ Bạn thân (tháng→năm): share hướng sống      │
-  │ Big Imagine-Final    │ Co-founder (năm→thập kỷ): share mission     │
-  │ Life Imagine-Final   │ "Tri kỷ" (cả đời): cùng life direction      │
-  └──────────────────┴──────────────────────────────────────────────┘
+  ┌──────────────────────┬──────────────────────────────────────────────┐
+  │ Scale                │ Relationship                                  │
+  ├──────────────────────┼──────────────────────────────────────────────┤
+  │ Micro Imagine-Final  │ Acquaintance (minutes→hours): both preview "comfortable" │
+  │ Normal Imagine-Final │ Close friend (months→years): share life direction │
+  │ Big Imagine-Final    │ Co-founder (years→decades): share mission    │
+  │ Life Imagine-Final   │ "Kindred spirit" (lifetime): same life direction│
+  └──────────────────────┴──────────────────────────────────────────────┘
 
-  KHÁC MELODY, CÙNG Imagine-Final = VẪN HỢP (thậm chí BỔ SUNG):
-    → 1 code, 1 design → CÙNG "sản phẩm đẹp" → complement
-    → Diverse teams: khác pattern + cùng Imagine-Final = stronger
+  DIFFERENT MELODY, SAME Imagine-Final = STILL COMPATIBLE (even COMPLEMENTARY):
+    → 1 codes, 1 designs → SAME "beautiful product" → complement
+    → Diverse teams: different patterns + same Imagine-Final = stronger
     → By-Product-Gap-Resonance.md: resonance = mutual agent-mode + gap overlap
 
-  Imagine-Final ALIGNMENT THAY ĐỔI GIẢI THÍCH QUAN HỆ THAY ĐỔI:
-    → Bạn thân drift apart: Imagine-Final dần LỆCH → body feel "xa"
-    → Đồng nghiệp bỗng thân: shared project → Imagine-Final aligned → "gần"
-    → Vợ chồng "hết yêu": Imagine-Final diverge từ từ
+  IMAGINE-FINAL ALIGNMENT CHANGE EXPLAINS RELATIONSHIP CHANGE:
+    → Close friends drift apart: Imagine-Finals gradually DIVERGE → body feels "distant"
+    → Colleagues suddenly close: shared project → Imagine-Final aligned → "close"
+    → Spouses "fall out of love": Imagine-Final diverges gradually
 
-  BODY DETECT Imagine-Final COMPATIBILITY VÔ THỨC:
-    → "Cảm giác click" = body detect Imagine-Final aligned TRƯỚC PFC biết
-    → PFC rationalize SAU: "vì cùng sở thích"
-    → Gốc: 2 body preview CÙNG HƯỚNG → oxytocin → "thích"
+  BODY DETECTS Imagine-Final COMPATIBILITY UNCONSCIOUSLY:
+    → "Click feeling" = body detects Imagine-Final aligned BEFORE PFC knows
+    → PFC rationalizes AFTER: "because we have the same interests"
+    → Root: 2 bodies preview SAME DIRECTION → oxytocin → "like them"
 
   🟡 Imagine-Final alignment = relationship depth = framework synthesis
   🟢 Self-expansion: Aron & Aron 1986 (shared activities → closeness)
 ```
 
-### §8.3 — Shared Imagine-Final = collaborate. Lệch + scarce = conflict.
+### §8.3 — Shared Imagine-Final = collaborate. Diverged + scarce = conflict.
 
 ```
-⭐ IMAGINE-FINAL LÀ BIẾN QUYẾT ĐỊNH:
+⭐ IMAGINE-FINAL IS THE DETERMINING VARIABLE:
 
-  CÙNG Imagine-Final + KHÁC melody = BỔ SUNG (mạnh nhất):
-    VD: vợ chồng nuôi con — chồng logic (dạy tư duy) + vợ cảm xúc (chăm khỏe)
-    → 2 melody KHÁC → 2 Imagine-Final CÙNG: "con thrive"
-    → Kết quả VƯỢT mong đợi — tổng > từng phần
+  SAME Imagine-Final + DIFFERENT melody = COMPLEMENTARY (strongest):
+    Example: couple raising children — husband logical (teaches thinking) + wife emotional (nurtures health)
+    → 2 DIFFERENT melodies → 2 SAME Imagine-Finals: "child thrives"
+    → Result EXCEEDS expectations — sum > parts
 
-  XUNG ĐỘT CHỈ KHI:
-    ① Imagine-Final THẬT SỰ LỆCH (khác ĐÍCH, không chỉ khác ĐƯỜNG):
-      Chồng: "con PHẢI giỏi" vs Vợ: "con PHẢI vui"
-      → CÓ THỂ "tưởng lệch mà không" (reframe = resolve)
-    ② CÙNG Imagine-Final + RESOURCE SCARCE:
-      Cùng "kiếm tiền" nhưng lợi nhuận FINITE → tranh giành
+  CONFLICT ONLY WHEN:
+    ① Imagine-Finals TRULY DIVERGE (different DESTINATIONS, not just different PATHS):
+      Husband: "child MUST excel" vs Wife: "child MUST be happy"
+      → CAN be "seeming divergence but actually not" (reframe = resolve)
+    ② SAME Imagine-Final + SCARCE RESOURCE:
+      Both want "to earn money" but profit is FINITE → compete
       (Conflict-Dynamics.md §1: Overlap × Scarcity × Commitment)
 
-  TÓM TẮT:
-    Cùng Imagine-Final + đủ resource = collaborate (win-win)
-    Cùng Imagine-Final + thiếu resource = compete (zero-sum)
-    Khác Imagine-Final = không liên quan (peace)
-    Lệch Imagine-Final + cùng domain = conflict
+  SUMMARY:
+    Same Imagine-Final + enough resources = collaborate (win-win)
+    Same Imagine-Final + scarce resources = compete (zero-sum)
+    Different Imagine-Finals = unrelated (peace)
+    Diverged Imagine-Finals + same domain = conflict
 
   🟡 Imagine-Final as relationship predictor = framework synthesis
 ```
@@ -1183,43 +1186,43 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §9 — ENGINE USE QUALITY: REFLECTION vs RUMINATION
 
 ```
-⭐⭐ CÙNG ENGINE, CÙNG APPLICATION, KHÁC CHẤT LƯỢNG SỬ DỤNG:
+⭐⭐ SAME ENGINE, SAME APPLICATION, DIFFERENT USE QUALITY:
 
   Imagine-Final with REFLECTION (curiosity drive):
-    → "Tương lai sẽ thú vị" → EXPLORE options
+    → "The future will be interesting" → EXPLORE options
     → Cortisol direction: NOVELTY → approach tag
     → Body-Feedback-Mechanism §3.3c: gap + novelty → productive
     → Output: creative planning, risk assessment, scenario comparison
     → = ENGINE USE QUALITY: HIGH
 
   Imagine-Final with RUMINATION (threat drive):
-    → "Tương lai sẽ tệ" → CATASTROPHIZE
+    → "The future will be terrible" → CATASTROPHIZE
     → Cortisol direction: THREAT → avoidance tag
     → Body-Feedback-Mechanism §3.3c: gap + threat → anxiety loop
     → Output: worry, worst-case fixation, decision paralysis
     → = ENGINE USE QUALITY: LOW
 
-  CÙNG MECHANISM:
-    Engine chạy simulation → body-feedback → PFC observe
-    KHÁC CORTISOL CONTEXT → KHÁC OUTPUT:
-      Reflection: "nếu tôi thử X → gì sẽ xảy ra?" (open exploration)
-      Rumination: "nếu X xảy ra → tôi sẽ chết" (closed catastrophe)
+  SAME MECHANISM:
+    Engine runs simulation → body-feedback → PFC observes
+    DIFFERENT CORTISOL CONTEXT → DIFFERENT OUTPUT:
+      Reflection: "if I try X → what would happen?" (open exploration)
+      Rumination: "if X happens → I'll be ruined" (closed catastrophe)
     → = Compiled-Fresh §6.2: compile-time direction lock
 
   UNIVERSAL MODIFIER:
-    Reflection/Rumination KHÔNG chỉ ảnh hưởng Imagine-Final:
-    → Self-Pattern-Modeling with curiosity: "tại sao bạn nghĩ vậy?" → LEARN
-    → Self-Pattern-Modeling with threat: "bạn chắc ghét tôi" → PROJECT fear
-    → Self-Observation with curiosity: "tại sao tôi feel vậy?" → insight
-    → Self-Observation with threat: "tôi chắc sai rồi" → stuck
-    → = Engine use quality = modifier cho TẤT CẢ applications
+    Reflection/Rumination does NOT ONLY affect Imagine-Final:
+    → Self-Pattern-Modeling with curiosity: "why does he think that?" → LEARN
+    → Self-Pattern-Modeling with threat: "he definitely hates me" → PROJECT fear
+    → Self-Observation with curiosity: "why do I feel this?" → insight
+    → Self-Observation with threat: "I'm definitely wrong" → stuck
+    → = Engine use quality = modifier for ALL applications
     → (Simulation-Engine.md §9)
 
   SELF-ASSESSMENT:
-    "Mình có ảo không nhỉ?" = REFLECTION (curiosity, explore) → productive
-    "Mình chắc chắn ảo" = RUMINATION (threat, stuck) → destructive
-    → = Test: BẠN CÓ KIỂM TRA formulations không? → reflection
-    → = Nếu chỉ lo mà không test → rumination
+    "Am I being delusional?" = REFLECTION (curiosity, explore) → productive
+    "I'm definitely delusional" = RUMINATION (threat, stuck) → destructive
+    → = Test: DO YOU CHECK your formulations? → reflection
+    → = If only worrying without testing → rumination
 
   🟢 Trapnell & Campbell 1999: self-reflection vs self-rumination
   🟢 Joireman et al. 2002: reflection → empathy, rumination → anxiety
@@ -1228,51 +1231,51 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §10 — HẬU QUẢ + NÂNG CẤP
+## §10 — CONSEQUENCES + TRAINING
 
-### §10.1 — Hậu quả sai level
+### §10.1 — Consequences of wrong level
 
 ```
-⭐ MỖI LEVEL CÓ RỦI RO RIÊNG:
+⭐ EACH LEVEL HAS ITS OWN RISKS:
 
-  LEVEL 1-2 QUÁ LÂU — "Mãi mơ mà không làm":
-    → Body enjoy IMAGINE (preview opioid) mà không chịu DISSONANCE
-    → = "Mơ mộng viển vông" = body lấy reward từ imagine, not action
-    → Fix: ép bản thân TRẢI NGHIỆM thật → nâng level
+  LEVEL 1-2 TOO LONG — "Always dreaming but never doing":
+    → Body enjoys IMAGINING (preview opioid) without enduring DISSONANCE
+    → = "Wishful dreaming" = body takes reward from imagining, not action
+    → Fix: force real EXPERIENCE → level up
 
-  LEVEL 2-3 + SAI HƯỚNG — "Chạy nhanh sai đường":
-    → Goal/Ambition RÕ + MẠNH → nhưng hướng SAI (xã hội chọn)
-    → Đạt được → body KHÔNG harmony → "thành công mà emptiness"
-    → = Schema-compiled Imagine-Final: PFC-driven, body không genuine
-    → Fix: real-check body: "body TÔI có reward? hay chỉ PFC?"
+  LEVEL 2-3 + WRONG DIRECTION — "Running fast in the wrong direction":
+    → Goal/Ambition VIVID + STRONG → but direction WRONG (society chose it)
+    → Achieved it → body NOT in harmony → "successful but feeling empty"
+    → = Schema-compiled Imagine-Final: PFC-driven, body not genuine
+    → Fix: real-check the body: "does MY body reward? or only PFC?"
 
-  LEVEL 4 + KHÔNG REAL-CHECK — "Tầm nhìn mù":
-    → Vision MẠNH → body treat Imagine-Final as real → dismiss feedback
-    → "Thế giới sai, tôi đúng" → nhiều năm sai hướng
+  LEVEL 4 + NO REAL-CHECK — "Blind vision":
+    → Vision STRONG → body treats Imagine-Final as real → dismisses feedback
+    → "The world is wrong, I'm right" → years going the wrong direction
     → Fix: mandatory real-check intervals (domain = arbiter)
 
-  LEVEL 5 + KHÔNG BODY-BASE MAINTENANCE — "Cháy sáng rồi tắt":
-    → Obsession → hy sinh sleep, food, connection → cortisol stack → crash
-    → Fix: body-base maintenance = NON-NEGOTIABLE dù obsession nói "không cần"
+  LEVEL 5 + NO BODY-BASE MAINTENANCE — "Burn bright then crash":
+    → Obsession → sacrifice sleep, food, connection → cortisol stacks → crash
+    → Fix: body-base maintenance = NON-NEGOTIABLE even when obsession says "not needed"
 
-  LEVEL 0 + LÂU — "Trôi không đích":
-    → Không Imagine-Final → sống bằng social bridge → quarter/midlife crisis
-    → Fix: thử NHIỀU domain → body cho biết cái nào reward → build từ đó
+  LEVEL 0 PROLONGED — "Drifting without direction":
+    → No Imagine-Final → living on social bridging → quarter/midlife crisis
+    → Fix: try MANY domains → body signals which ones reward → build from there
 
-  → §10 đo hậu quả theo CLARITY LEVEL
-  → Imagine-Final-Evaluation.md đo hậu quả theo QUALITY (4 góc)
-  → 2 chiều BỔ SUNG nhau
+  → §10 measures consequences by CLARITY LEVEL
+  → Imagine-Final-Evaluation.md measures consequences by QUALITY (4 quadrants)
+  → 2 dimensions COMPLEMENT each other
 ```
 
 ### §10.2 — Training: improve engine → improve Imagine-Final
 
 ```
-⭐ VÌ SHARED SUBSTRATE → training 1 component = improve ALL:
+⭐ BECAUSE SHARED SUBSTRATE → training 1 component = improve ALL:
 
   INTEROCEPTION TRAINING (Component 1 — highest leverage):
     → Meditation, body-scan, Focusing (Gendlin 1978)
     → Better body-readout → more vivid future preview
-    → = Nâng fidelity của Imagine-Final từ bên trong
+    → = Increases Imagine-Final fidelity from within
     → 🟢 Fukushima 2011: interoceptive accuracy → empathic accuracy
 
   DIVERSITY TRAINING (Component 3):
@@ -1282,18 +1285,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → 🟢 Mitchell 2006: vMPFC/dMPFC dissociation
 
   REFLECTION PRACTICE (Engine use quality):
-    → Replace "tôi sẽ fail" with "nếu tôi thử thì sao?"
+    → Replace "I will fail" with "what if I try?"
     → = Switch cortisol direction: threat → novelty
     → 🟢 Trapnell & Campbell 1999
 
   SOCIAL PRACTICE (Bidirectional loop):
-    → Quality interactions → engine PRACTICE → substrate improved
+    → Quality interactions → engine PRACTICES → substrate improved
     → Improved substrate → better at ALL applications including Imagine-Final
     → 🟢 Lopes et al. 2003, Coan & Sbarra 2015
 
   EXPERIENCE ACCUMULATION (Level-up specific):
-    → ĐI THỬ, ĐI XEM, ĐI CẢM NHẬN → body CÓ chunks thật
-    → Chunks thật → simulate rõ → Imagine-Final level tăng
+    → GO TRY, GO SEE, GO FEEL → body HAS real chunks
+    → Real chunks → simulate vividly → Imagine-Final level increases
     → Body awareness training > cognitive-only instruction
     → 🟢 Ericsson 1993: expertise = deliberate practice
 ```
@@ -1303,46 +1306,46 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §11 — IMAGINE-FINAL × BROADER FRAMEWORK
 
 ```
-⭐ IMAGINE-FINAL × CÁC CƠ CHẾ KHÁC:
+⭐ IMAGINE-FINAL × OTHER MECHANISMS:
 
   Imagine-Final × BOREDOM (Boredom.md):
-    → L1 đói + KHÔNG CÓ Imagine-Final → PFC không biết fix gì → "chán"
-    → L1 đói + CÓ Imagine-Final rõ → "investment cost" (khó nhưng xứng đáng)
-    → Imagine-Final biến "chán vô hướng" thành "đầu tư có mục đích"
-    → Existential boredom = cortisol CAO + Imagine-Final KHÔNG CÓ
+    → L1 hunger + NO Imagine-Final → PFC doesn't know what to fix → "boredom"
+    → L1 hunger + CLEAR Imagine-Final → "investment cost" (hard but worth it)
+    → Imagine-Final transforms "aimless boredom" into "purposeful investment"
+    → Existential boredom = HIGH cortisol + NO Imagine-Final
 
   Imagine-Final × MEANING (Meaning.md):
     → Meaning = life-level Anchor-Schema (Meaning.md §1)
-    → Imagine-Final cho domain/career + relationships + values
-    → Khi compiled vào coherent direction → = "meaning"
-    → Meaning mất = Anchor-Schema sụp → Imagine-Final landscape collapse
+    → Imagine-Final for domain/career + relationships + values
+    → When compiled into coherent direction → = "meaning"
+    → Meaning lost = Anchor-Schema collapses → Imagine-Final landscape collapse
 
   Imagine-Final × EDUCATION:
-    → Bố mẹ inject Imagine-Final cho con:
-      Tốt: "Con thử hình dung khi biết bơi..." (giúp con BUILD Imagine-Final riêng)
-      Xấu: "Con PHẢI làm bác sĩ" (inject Imagine-Final CỦA BỐ MẸ)
-    → Mentor GIÚP thấy đích rõ hơn (not inject đích CỦA MÌNH)
+    → Parents inject Imagine-Final into children:
+      Good: "Imagine how it will feel when you can swim..." (helps child BUILD their own Imagine-Final)
+      Bad: "You MUST become a doctor" (injects PARENTS' Imagine-Final)
+    → Mentor HELPS see the destination more clearly (does not inject THEIR destination)
     → Education: exposure + experience > injection
     → (Education-Mechanism.md, Empathy-Education.md)
 
   Imagine-Final × AI ERA:
-    → AI boost Level 1-3: cung cấp chunks verbal/visual
-    → AI CÓ THỂ giúp simulate cụ thể: "nếu bạn đạt X → cuộc sống sẽ..."
-    → AI KHÔNG THỂ cho body experience thật → Level 4-5 CẦN body tự nạp
+    → AI boosts Level 1-3: provides verbal/visual chunks
+    → AI CAN help simulate specifically: "if you achieve X → your life will be..."
+    → AI CANNOT provide real body experience → Level 4-5 NEEDS body to load on its own
     → Ask-AI.md §6: body = quality controller, domain = final arbiter
-    → AI = tool cho ③ (plan), human essential cho ②① (Imagine-Final + need)
+    → AI = tool for ③ (plan), human essential for ②① (Imagine-Final + need)
 
   Imagine-Final × CULTURAL PATTERNS:
-    → "Dream big" (Mỹ) = push toward Level 3-4
-    → "Gaman" chịu đựng (Nhật) = Level 3 nhưng khác flavor
-    → "Ai cũng thế" (VN collectivist) = pull toward Level 0-1
+    → "Dream big" (US) = push toward Level 3-4
+    → "Gaman" endurance (Japan) = Level 3 but different flavor
+    → "Everyone's the same" (Vietnamese collectivist) = pull toward Level 0-1
     → Cultural Imagine-Final ≠ personal Imagine-Final — collision → identity crisis
     → (Social-Calibration.md §3.4, Entity-Access §10)
 
   Imagine-Final × FRACTAL PATTERN:
-    → Cá nhân: Imagine-Final mờ → dissonance → thử → verify → sharper
-    → Nhân loại: "triết học" mờ → tranh cãi → thử → verify → khoa học
-    → = Cùng cơ chế, khác scale
+    → Individual: dim Imagine-Final → dissonance → try → verify → sharper
+    → Humanity: "philosophy" dim → debate → try → verify → science
+    → = Same mechanism, different scale
     → (Discovery-vs-Expansion.md §2)
 ```
 
@@ -1394,20 +1397,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   "Constructive Imagine-Final" framing: only chunk-based constructive simulation
   Boundary: hardware prediction vs Imagine-Final (consistent with Body-Feedback-Mechanism §1.2)
   Compiled Imagine-Final vs Hardware reflex distinction (same "automatic", different origin)
-  "Application on Simulation-Engine" model: coordinates trong 3D space
+  "Application on Simulation-Engine" model: coordinates in 3D space
   3-Layer Hierarchy: Body-Need → Imagine-Final → Plan (with hardware bypass)
   "Reference pattern body pre-feel": consistent with Somatic Marker
   "Most PFC-accessible application": logical from PFC involvement spectrum
   Lifecycle 5 phases: BUILD → SAVE → BACKGROUND → RELOAD → REFINE
   Gradient 5 levels: Wish → Obsession (body fidelity spectrum)
-  3 chiều độc lập: Clarity × Quality × Trust
-  Level-up = nạp chunks thật (consistent with expertise research)
+  3 independent dimensions: Clarity × Quality × Trust
+  Level-up = load real chunks (consistent with expertise research)
   Bootstrap: PFC → action → results → genuine (consistent with Bandura)
   Per-entity Imagine-Final dynamics
   Imagine-Final alignment = relationship depth predictor
   Engine use quality as universal modifier (Reflection vs Rumination)
   Cortisol gates Imagine-Final activation level
-  Dormant when harmony, fire when dissonance
+  Dormant when harmony, fires when dissonance
   Bidirectional social ↔ self improvement spiral
   Compilable Architecture applied: Body=producer, PFC=consumer, Domain=arbiter
 
@@ -1415,11 +1418,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🔴 HYPOTHESIS
 ═══════════════════════════════════════
 
-  Body simulation fidelity CÓ THỂ đo bằng % — hiện tại = metaphor
-  5 levels là COMPLETE list — có thể overlap hoặc missing sub-types
-  Gradient là LINEAR — có thể có jumps, branches, non-linear paths
-  NONE (0%) có tồn tại thật? — hay LUÔN có ít nhất Wish-level?
-  AI boost Level 1-3 only — empirical test chưa có
+  Body simulation fidelity CAN be measured as % — currently = metaphor
+  5 levels are a COMPLETE list — may overlap or have missing sub-types
+  Gradient is LINEAR — may have jumps, branches, non-linear paths
+  NONE (0%) truly exists? — or is there ALWAYS at least a Wish-level?
+  AI boosts Level 1-3 only — no empirical test yet
   "Motivational speaker short-term only" — limited meta-analysis
   Social scale (Micro→Life Imagine-Final) = framework categorization, not measured
   v3.0 — Exact boundary point (where hardware ends, Imagine-Final begins) = fuzzy zone
@@ -1439,16 +1442,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Feeling.md v3.0 | PFC observation interface | UMBRELLA — Feeling ⊃ Self-Observation |
 | Self-Observation.md v1.0 | Full file | APPLICATION-3: Self × Present × Observe |
 | Body-Feedback-Mechanism.md v2.0 | §1.2 Two Sources, §3 chunk dynamics | Foundation: ★ Source ① vs ② = boundary definition |
-| Anchor-Schema.md v1.0 | §2 Trust, §3 4-nguồn fill | Imagine-Final → Anchor-Schema transition |
-| Imagine-Final-Evaluation.md v1.1 | 2 trục × 4 góc, Quality dimension | COMPANION: quality check |
+| Anchor-Schema.md v1.0 | §2 Trust, §3 4-sources fill | Imagine-Final → Anchor-Schema transition |
+| Imagine-Final-Evaluation.md v1.1 | 2 axes × 4 quadrants, Quality dimension | COMPANION: quality check |
 | Cortisol-Baseline.md v2.1 | §3.7 gates, §3.3 direction tag | Cortisol modulates Imagine-Final activation |
-| Boredom.md v1.1 | §3 Imagine-Final modifier, §6 existential | No Imagine-Final = "chán" |
+| Boredom.md v1.1 | §3 Imagine-Final modifier, §6 existential | No Imagine-Final = "boredom" |
 | Meaning.md v2.0 | §1 life-level Anchor-Schema | Meaning = compiled Imagine-Final landscape |
 | Connection.md v4.0 | §3 3-primitives, §7 Imagine-Final per layer | Social context |
 | Liking-Wanting.md v1.0 | §2.1 wanting mechanism ① | Preview opioid = wanting mechanism |
 | Dopamine-Is-Not-Reward.md v1.0 | §4 7-step, Body-Feedback-Precondition | Preview vs actual reward |
 | By-Product-Gap-Resonance.md v1.0 | 4 conditions, resonance decline | Resonance × Imagine-Final alignment |
-| Love-Romantic.md v2.2 | §1 body evaluate first, §7 Evaluative/Direct-State | Relationship Imagine-Final dynamics |
+| Love-Romantic.md v2.2 | §1 body evaluates first, §7 Evaluative/Direct-State | Relationship Imagine-Final dynamics |
 | Education-Mechanism.md v2.0 | Exposure, per-age guide | Imagine-Final injection vs facilitation |
 | Ask-AI.md v3.1 | §6 Dual Check | AI × Imagine-Final interaction |
 | Background-Pattern.md v1.1 | §2 2D model, §8 self-reinforcing | Background × Imagine-Final compile |
@@ -1507,13 +1510,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-> *Imagine-Final — Constructive Future Simulation trên Simulation-Engine.*
-> *Body PRE-FEEL trạng thái tương lai = Reference Pattern.*
-> *≠ mọi body prediction. CHỈ constructive simulation (chunk-based, Simulation-Engine).*
-> *Hardware drives (khát, đói) bypass hoàn toàn — KHÁC cơ chế.*
-> *3 tầng: Body-Need (tại sao) → Imagine-Final (về đâu, khi cần construct) → Plan (bằng cách nào).*
+> *Imagine-Final — Constructive Future Simulation on the Simulation-Engine.*
+> *Body PRE-FEELS future state = Reference Pattern.*
+> *≠ all body prediction. ONLY constructive simulation (chunk-based, Simulation-Engine).*
+> *Hardware drives (thirst, hunger) bypass entirely — DIFFERENT mechanism.*
+> *3 Layers: Body-Need (why) → Imagine-Final (where, when construction needed) → Plan (how).*
 > *MOST PFC-ACCESSIBLE application: SET scenario + READ output + ITERATE.*
-> *Compiled Imagine-Final (từng construct) ≠ Hardware reflex (chưa bao giờ construct).*
-> *5 levels: Wish → Obsession. Nâng level = NẠP CHUNKS THẬT.*
-> *3 chiều độc lập: Clarity × Quality × Trust. RÕ ≠ ĐÚNG ≠ TIN.*
+> *Compiled Imagine-Final (once constructed) ≠ Hardware reflex (never constructed).*
+> *5 levels: Wish → Obsession. Level up = LOAD REAL CHUNKS.*
+> *3 independent dimensions: Clarity × Quality × Trust. VIVID ≠ CORRECT ≠ TRUSTED.*
 > *Engine use quality: Reflection → explore. Rumination → catastrophize.*

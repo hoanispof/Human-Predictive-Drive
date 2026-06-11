@@ -1,99 +1,91 @@
-# Feeling Accuracy — Cách PFC Đọc Feelings, Error Modes, và Literacy
+---
+title: "Feeling-Accuracy — HOW PFC Reads Feelings, Error Modes, and Literacy"
+version: 1.0
+created: "2026-04-13"
+status: DRAFT v1.0
+scope: "PFC reading accuracy — temporal order, 6 error modes, pain special case, literacy training"
+language: English primary
+purpose: >
+  How PFC reads feelings — accuracy spectrum, 6 error modes,
+  pain as a special case, feeling literacy as a trainable skill,
+  individual differences.
+  File 3/4 of Feeling/ folder.
+reading_flow: >
+  Feeling.md (foundation) →
+  Feeling-Sources-Draft.md (WHERE) →
+  Feeling-Accuracy-Draft.md (THIS FILE — HOW PFC reads) →
+  └── Feeling-Research.md (research + applications)
+prerequisites:
+  - Feeling.md §2 (7-layer structure — fidelity decrease)
+  - Feeling-Sources-Draft.md §1-10 (channels)
+  - Somatic-Articulation-Loop.md (body → words process)
+  - PFC-Analysis.md (PFC capacity + limits)
+confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
+---
 
-> **"Tôi giận chồng vì anh ấy không rửa bát." — hay vì mệt + đói + stress?**
-> **"Tôi lo lắng về tương lai." — hay vì ngủ kém 3 đêm liền?**
-> **"Tôi đau lòng." — pain real, đến từ schema hay từ body?**
-> **"Đau bụng chỗ này." — chính xác nhất có thể là ở đâu?**
+# Feeling-Accuracy — HOW PFC Reads Feelings, Error Modes, and Literacy
+
+> *"I'm angry at my partner for not doing the dishes." — or just tired, hungry, and stressed?*
+> *"I'm anxious about the future." — or is it three nights of bad sleep?*
+> *"I'm heartbroken." — pain is real, but does it come from schema or from body?*
+> *"Pain here in my stomach." — how precisely can that actually be located?*
 >
-> PFC đọc feelings — nhưng đọc SAI thường xuyên.
-> Wise people TRUST Feel-Consciousification–Feel-Observation (body noticeable, pre-labeled).
+> PFC reads feelings — but reads them WRONG, frequently.
+> Wise people TRUST Feel-Consciousification–Feel-Observation (body signal, pre-labeled).
 > Naive people TRUST Feel-Labeling–Feel-Explanation (label + explanation).
-> Error modes có predictable patterns.
-> Literacy = trainable skill, critical cho AI era.
+> Error modes have predictable patterns.
+> Literacy = a trainable skill, critical for the AI era.
 >
-> File này: HOW PFC reads feelings, 6 error modes, pain special case,
+> This file: HOW PFC reads feelings, 6 error modes, pain as a special case,
 > literacy training methods, individual differences.
 
 ---
 
-> **Trạng thái:** DRAFT v1.0 — file 3/4 của Feeling/ folder
-> **Ngày:** 2026-04-13
-> **Mục đích:** Chi tiết về PFC accuracy đọc feelings — temporal order,
-> accuracy spectrum, 6 error modes, pain special case (user emphasis),
-> literacy as trainable skill, individual differences.
-> **Vị trí:** Core-Deep-Dive/Feeling/ (file 3/4)
-> **Flow đọc:**
->   Feeling.md (foundation)
->   Feeling-Sources.md (WHERE)
->   **Feeling-Accuracy.md** (file NÀY — HOW PFC reads)
->   └── Feeling-Research.md (RESEARCH + applications)
-> **Tiền đề:**
->   Feeling.md §2 (7-layer structure — fidelity decrease)
->   Feeling-Sources.md §1-10 (channels)
->   Somatic-Articulation-Loop.md (body → words process)
->   PFC-Analysis.md (PFC capacity + limits)
-> **Liên quan mainstream:**
->   🟢 Damasio VMPFC + decision making (1994, 1996)
->   🟢 Alexithymia research (Taylor 2000)
->   🟢 Farb 2013 meditation → interoceptive accuracy
->   🟢 Garfinkel 2015 interoceptive accuracy measurement
->   🟢 Barrett 2017 emotional granularity
->   🟢 Gendlin 1978 Focusing methodology
->   🟢 Eisenberger 2003 social pain = physical pain
->   🟢 Nisbett & Wilson 1977 introspection limits
->   🟢 Schachter & Singer 1962 misattribution of arousal
->   🟡 Greenberg emotion-focused therapy
-> **⚠️ 🟢 Core phenomena + 🟡 Framework synthesis — 6 error modes taxonomy là framework organizing**
-> **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
+## Table of Contents
 
----
-
-## Mục lục
-
-- §0 — OVERVIEW
-- §1 — TEMPORAL ORDER: Body First, PFC Second
-- §2 — PFC ACCURACY SPECTRUM
-  - 2.1 HIGH Accuracy Examples
-  - 2.2 MEDIUM Accuracy Examples
-  - 2.3 LOW Accuracy Examples
-- §3 — PFC ERROR MODES (6 loại)
-  - 3.1 RATIONALIZATION
-  - 3.2 MISATTRIBUTION
-  - 3.3 DISPLACEMENT
-  - 3.4 OVER-COMPLEX LABELING
-  - 3.5 UNDER-LABELING / DENIAL
-  - 3.6 CULTURAL SCRIPT OVERRIDE
-  - 3.7 Why PFC misreads (root causes)
-- §4 — PAIN — SPECIAL CASE
+- §0 — Overview
+- §1 — Temporal Order: Body First, PFC Second
+- §2 — PFC Accuracy Spectrum
+  - 2.1 High Accuracy Examples
+  - 2.2 Medium Accuracy Examples
+  - 2.3 Low Accuracy Examples
+- §3 — PFC Error Modes (6 Types)
+  - 3.1 Rationalization
+  - 3.2 Misattribution
+  - 3.3 Displacement
+  - 3.4 Over-Complex Labeling
+  - 3.5 Under-Labeling / Denial
+  - 3.6 Cultural Script Override
+  - 3.7 Why PFC Misreads (Root Causes)
+- §4 — Pain — Special Case
   - 4.1 Physical Pain Location Accuracy
   - 4.2 Pain Quality Discrimination
   - 4.3 Emotional Pain vs Physical Pain
-  - 4.4 Schema-Generated Pain (psychogenic)
+  - 4.4 Schema-Generated Pain (Psychogenic)
   - 4.5 Feeling Literacy for Pain Specifically
-- §5 — FEELING LITERACY — What It Is
-- §6 — FEELING LITERACY — Development Stages
-- §7 — FEELING LITERACY — Training Methods
-- §8 — INDIVIDUAL DIFFERENCES
-- §9 — HONEST ASSESSMENT
-- §10 — CROSS-REFERENCES
+- §5 — Feeling Literacy — What It Is
+- §6 — Feeling Literacy — Development Stages
+- §7 — Feeling Literacy — Training Methods
+- §8 — Individual Differences
+- §9 — Honest Assessment
+- §10 — Cross-References
 
 ---
 
-## §0 — OVERVIEW
+## §0 — Overview
 
 ```
 🟡 HOW PFC READS FEELINGS — OFTEN WRONG:
 
-  Feeling.md §2 established: feeling has 7 layers, fidelity
-  decreases going up. Feel-Labeling + Feel-Explanation
-  are the FURTHEST from body truth — yet these are what
-  mainstream calls "feeling".
+  Feeling.md §2 established: feeling has 7 layers, fidelity decreases
+  going up. Feel-Labeling + Feel-Explanation are the FURTHEST from
+  body truth — yet these are what mainstream calls "feeling."
 
   This file zooms into the PFC reading process:
     → Why body-first temporal order matters
     → Who reads well vs poorly (spectrum)
     → What error modes are systematic and predictable
-    → Pain as special case (user emphasized)
+    → Pain as a special case (emphasized by framework)
     → How to train better feeling literacy
     → Individual variation
 
@@ -108,22 +100,22 @@
 
 
   WHY THIS MATTERS:
-    Decisions based on Feel-Explanation (PFC explanations) often = wrong actions
+    Decisions based on Feel-Explanation often = wrong actions:
     → "I feel tired because work is hard" → quit job
        Actually: bad sleep + no exercise → fix sleep
-    → "I feel empty because I need relationship" → chase partner
-       Actually: lost meaning at work → find meaning work
-    → "I'm angry at driver" → road rage
-       Actually: stressed from boss + hungry → eat, breathe
+    → "I feel empty because I need a relationship" → chase partner
+       Actually: lost meaning at work → find meaningful work
+    → "I'm angry at that driver" → road rage
+       Actually: stressed from the boss + hungry → eat, breathe
 
-    Millions of life decisions made from PFC misreads.
+    Millions of life decisions are made from PFC misreads.
     Framework: this is NOT personal failing — it's PFC design limit.
-    Training can help.
+    Training helps.
 
 
   FRAMEWORK CONTRIBUTION:
     → Systematic taxonomy of error modes
-    → Pain section (user emphasis) integrated
+    → Pain section integrated
     → Literacy as trainable skill framework
     → Development stages (matches child development files)
     → AI era relevance
@@ -131,7 +123,7 @@
 
 ---
 
-## §1 — TEMPORAL ORDER: Body First, PFC Second
+## §1 — Temporal Order: Body First, PFC Second
 
 ```
 🟢 THE CORE INVARIANT:
@@ -140,9 +132,9 @@
 
   This order is NEVER REVERSED.
 
-  PFC KHÔNG generate feeling. PFC cannot create body state.
+  PFC does NOT generate feeling. PFC cannot create a body state.
   PFC can only READ feelings that already exist, or trigger
-  schemas that trigger body states (indirect generation).
+  schemas that trigger body states (indirect pathway).
 
 
   EVIDENCE:
@@ -152,7 +144,7 @@
        300-500ms
      → PFC "decides" AFTER body has prepared action
      → Implication: conscious will is ratification, not initiation
-     → Note: Libet research controversial in interpretation,
+     → Note: Libet research is controversial in interpretation,
        but temporal order body-first is established
 
   ② DAMASIO VMPFC PATIENTS 🟢
@@ -172,7 +164,7 @@
 
   ④ GENDLIN FELT SENSE 🟢
      → 50+ years clinical observation
-     → "Felt sense" = body knowledge pre-verbal
+     → "Felt sense" = body knowledge, pre-verbal
      → Cannot be generated by thinking
      → Must be ACCESSED, not created
      → Focusing methodology = accessing pre-existing felt sense
@@ -181,14 +173,14 @@
   IMPLICATIONS:
 
   A. "Think yourself into feeling" = impossible
-     → You can trigger schema that triggers body state
+     → You can trigger a schema that triggers a body state
      → But you cannot directly will a feeling into existence
      → "Just be happy" advice fails because PFC cannot force body
 
-  B. PFC can INHIBIT feeling expression, not generate source
-     → Suppression works temporarily (James-Lange counter-example weak)
-     → Source feeling continues body-level
-     → Suppressed feelings don't "go away" — accumulate
+  B. PFC can INHIBIT feeling expression, not generate the source
+     → Suppression works temporarily
+     → Source feeling continues at body level
+     → Suppressed feelings don't "go away" — they accumulate
 
   C. Awareness matters
      → Body computes whether PFC notices or not
@@ -197,23 +189,23 @@
 
 
   PHILOSOPHICAL NOTE:
-    Hard problem of consciousness still open.
+    The hard problem of consciousness remains open.
     Framework does NOT claim to solve it.
-    Framework claims: at FUNCTIONAL level, body-first is observable.
+    Framework claims: at the FUNCTIONAL level, body-first is observable.
     Subjective experience of feeling = correlated with body state,
-    but mechanism of subjective experience = not settled.
+    but the mechanism of subjective experience = not settled.
 
   → Framework: operate on functional body-first model.
   → Don't over-claim about qualia or consciousness.
 
 
   WHY TEMPORAL ORDER MATTERS FOR PRACTICE:
-    If body-first: then reading skill = accessing pre-existing truth
-    If PFC-first: then feeling = PFC construction, revisable by thinking
+    If body-first: reading skill = accessing pre-existing truth
+    If PFC-first: feeling = PFC construction, revisable by thinking
     → Practice differs massively
     → Framework: body-first → reading-focused practice (meditation,
       Focusing, body scan)
-    → PFC-first model (e.g., pure CBT without body) = missing core
+    → PFC-first model (e.g., pure CBT without body) = missing the core
 
 
   Research:
@@ -225,9 +217,9 @@
 
 ---
 
-## §2 — PFC ACCURACY SPECTRUM
+## §2 — PFC Accuracy Spectrum
 
-### 2.1 HIGH Accuracy Examples
+### 2.1 High Accuracy Examples
 
 ```
 🟢 HIGH ACCURACY READERS:
@@ -242,18 +234,18 @@
      → Years of body scan training
      → Feel-Consciousification–Feel-Observation access well-developed
      → Distinguish subtle body states
-     → Example: notice tension in jaw before becoming headache
-     → Limit: accuracy about OWN body, not necessarily others
+     → Example: notice jaw tension before it becomes a headache
+     → Limit: accuracy about OWN body, not necessarily others'
 
   ② EXPERIENCED THERAPISTS
      → Trained in counter-transference awareness
      → Notice own body states while working with clients
      → Distinguish "my feeling" vs "mirrored from client"
-     → Greenberg emotion-focused therapy trains this
+     → Greenberg emotion-focused therapy trains this explicitly
      → Decades of practice = compiled feeling library
 
   ③ MATURE PEOPLE (general life experience)
-     → 50+ years of feeling-tracking self
+     → 50+ years of tracking own body signals
      → Compiled accurate attributions for common patterns
      → "I know when I'm hungry vs tired vs lonely"
      → Simple but well-calibrated for common feelings
@@ -262,19 +254,19 @@
      → Attuned to subtle aesthetic states
      → Pre-verbal appreciation of quality
      → Trained to trust felt response to work
-     → Critics often reverse this — become over-verbal
+     → Critics can reverse this — become over-verbal
 
-  ⑤ EXPERIENCED DEBUGGERS / DIAGNOSTICIANS
-     → Compiled "code smell" feelings
-     → "Something's off" accurate in domain
+  ⑤ EXPERIENCED DIAGNOSTICIANS (code, medicine, craft)
+     → Compiled "wrong signal" patterns in domain
+     → "Something's off" — accurate within domain
      → Klein naturalistic decision making research 🟢
      → Chess masters "feel" position quality
 
   ⑥ GENDLIN-TRAINED FOCUSING PRACTITIONERS
      → Explicit training in accessing felt sense
-     → Dwell at Feel-Consciousification deliberately
-     → 6-step method structured
-     → Therapy context but also personal use
+     → Deliberately dwell at Feel-Consciousification
+     → 6-step structured method
+     → Therapy context but usable personally
 
 
   CHARACTERISTICS OF HIGH ACCURACY:
@@ -283,18 +275,18 @@
     → Acknowledge uncertainty at Feel-Labeling–Feel-Explanation
     → Use "I notice..." language (observational)
     → Verify hypotheses across time
-    → Have feeling vocabulary rich (Barrett granularity) 🟢
+    → Have rich feeling vocabulary (Barrett granularity) 🟢
 
 
   DOMAIN-SPECIFIC accuracy:
     Expertise domain → high accuracy
     Outside domain → average
-    → Chess master feels chess, not necessarily own emotions
-    → Therapist reads others well, maybe not own marriage
+    → Chess master feels chess; not necessarily own personal life
+    → Therapist reads others well; maybe not own marriage
     → Framework: feeling literacy is DOMAIN-PARTIAL, not general
 ```
 
-### 2.2 MEDIUM Accuracy Examples
+### 2.2 Medium Accuracy Examples
 
 ```
 🟡 MEDIUM ACCURACY — MOST PEOPLE MOST OF THE TIME:
@@ -326,7 +318,7 @@
 
 
   CHARACTERISTICS OF MEDIUM ACCURACY:
-    → OK for strong clear signals
+    → Adequate for strong, clear signals
     → Miss subtle signals often
     → Cultural scripts sometimes right, sometimes wrong
     → Mix of observation and rationalization
@@ -337,10 +329,10 @@
     → "I'm fine" when clearly not
     → "I'm anxious" when actually hungry + tired
     → "I'm angry at them" when mostly own frustration
-    → "I just don't like it" when not exploring why
+    → "I just don't like it" without exploring why
 ```
 
-### 2.3 LOW Accuracy Examples
+### 2.3 Low Accuracy Examples
 
 ```
 🟡 LOW ACCURACY — CLINICAL OR DEVELOPMENTAL:
@@ -349,22 +341,21 @@
      → Difficulty identifying own feelings
      → Difficulty distinguishing feelings from body sensations
      → Concrete, externally-oriented thinking
-     → Not emotional absence — accessing difficulty
-     → TAS-20 scale measures
+     → NOT emotional absence — difficulty ACCESSING
+     → TAS-20 scale measures it
      → Often co-morbid with psychosomatic conditions
-     → Body suffers while PFC unable to label
+     → Body suffers while PFC cannot label
 
-  ② YOUNG CHILDREN (0-5)
+  ② YOUNG CHILDREN (0-5 years)
      → Limited vocabulary
      → Feelings strong but unlabeled
      → Parents provide scaffolding
-     → Naming feelings = developmental skill
-     → Framework: Mother-Opt + Natural-Dev files detail this
+     → Naming feelings = developmental skill being built
 
   ③ DEPRESSION / ANXIETY
      → Cognitive biases distort feeling reading
-     → "I feel worthless" (depression schema)
-     → "Everything is threat" (anxiety bias)
+     → "I feel worthless" (depression schema override)
+     → "Everything is a threat" (anxiety bias)
      → Feelings present, but interpretation distorted
      → Therapy often works by updating schema
 
@@ -379,30 +370,31 @@
      → Tech workers, academics, some professionals
      → Excess PFC activity compensates for body underuse
      → Verbal explanations instead of body access
-     → Feel-Explanation well-developed, Feel-Consciousification–Feel-Observation atrophied
-     → NOT clinical, but functional limit
+     → Feel-Explanation well-developed;
+       Feel-Consciousification–Feel-Observation atrophied
+     → NOT clinical, but a functional limit
 
   ⑥ HEAVY SUBSTANCE USERS / CHRONIC NUMBING
-     → Alcohol, benzos, chronic cannabis
+     → Alcohol, benzodiazepines, chronic cannabis
      → Body signals suppressed pharmacologically
      → Literacy erodes over time
-     → Recovery often includes feeling literacy rebuilding
+     → Recovery often includes literacy rebuilding
 
 
   CHARACTERISTICS OF LOW ACCURACY:
     → Cannot distinguish body states
-    → Bodily discomfort labeled as emotional or vice versa
-    → Rely heavily on external labels
-    → "I don't know what I feel" common answer
-    → Or: flood-rush when accessing (all at once, overwhelming)
+    → Bodily discomfort labeled as emotional, or vice versa
+    → Heavy reliance on external labels
+    → "I don't know what I feel" = common answer
+    → Or: sudden flood when accessed (everything at once, overwhelming)
 
 
   CRITICAL INSIGHT:
-    Low accuracy ≠ low feeling. Feeling is HAPPENING.
+    Low accuracy ≠ low feeling. Feeling IS HAPPENING.
     → Body is still computing
     → Body still needs regulation
     → PFC just can't read it
-    → Dangerous because unaddressed body needs accumulate
+    → Dangerous: unaddressed body needs accumulate quietly
 
 
   RECOVERY POSSIBLE:
@@ -415,38 +407,38 @@
 
 ---
 
-## §3 — PFC ERROR MODES
+## §3 — PFC Error Modes
 
 ```
 🟡 6 SYSTEMATIC ERROR MODES:
 
-  These are not random errors. These are PREDICTABLE patterns
-  how PFC misreads feelings. Recognition → correction possible.
+  These are not random errors. They are PREDICTABLE patterns
+  in how PFC misreads feelings. Recognition → correction possible.
 ```
 
-### 3.1 RATIONALIZATION
+### 3.1 Rationalization
 
 ```
 🟡 ERROR MODE 1 — RATIONALIZATION:
 
   PATTERN:
     Feeling exists (real body state)
-    → PFC creates plausible story to explain it
+    → PFC creates a plausible story to explain it
     → Story feels true to PFC
-    → Often misses real cause
+    → Often misses the real cause
 
   MECHANISM:
     → PFC evolved for story-making (narrative self)
     → Body state needs explanation to act on
-    → Nearest plausible cause = winner
-    → Actual cause often not nearest-plausible
+    → Nearest plausible cause wins
+    → Actual cause often not the nearest-plausible one
 
   EXAMPLES:
-    → Feel irritated → "the coworker is annoying"
-      Actually: hungry + slept badly + over-stimulated
-    → Feel anxious → "the deadline is impossible"
-      Actually: over-caffeinated + skipped exercise
-    → Feel sad → "life is meaningless"
+    → Feel irritated → "My coworker is annoying"
+      Actually: hungry + slept badly + overstimulated
+    → Feel anxious → "This deadline is impossible"
+      Actually: too much caffeine + skipped exercise
+    → Feel sad → "Life is meaningless"
       Actually: three lonely days + no sunlight + skipped meals
     → Feel restless → "I need a new project"
       Actually: physically under-moved + cortisol building
@@ -455,30 +447,30 @@
     → Socially required to explain feelings
     → Nearest cause easiest to identify
     → Simple stories preferred over complex
-    → Blame external = protects self-image
+    → Blaming external = protects self-image
     → Internal causes require more introspection
 
   NISBETT & WILSON 1977 🟢:
-    Classic research showing people confabulate reasons for
-    choices/feelings when actual cause was manipulated.
+    Classic research: people confabulate reasons for choices/feelings
+    when the actual cause was experimentally manipulated.
     → Participants confident in false explanations
     → Confidence ≠ accuracy
-    → Framework: takes this seriously
+    → Framework takes this seriously
 
   DETECTION:
     → Ask: "How else could this feeling be explained?"
-    → Check body basics first: hungry, tired, pain, movement?
-    → Track temporal pattern: when does feeling occur?
+    → Check body basics first: hungry, tired, pain, need to move?
+    → Track temporal pattern: when does the feeling occur?
     → If explanation feels TOO tidy, suspect rationalization
 
   REMEDIATION:
-    → Pause before explanation (Feel-Consciousification–Feel-Observation)
+    → Pause before explaining (access Feel-Consciousification–Feel-Observation)
     → Check multiple hypotheses
-    → Verify by changing variable (sleep, eat, walk)
+    → Verify by changing a variable (sleep, eat, walk)
     → If change removes feeling → hypothesis confirmed
 ```
 
-### 3.2 MISATTRIBUTION
+### 3.2 Misattribution
 
 ```
 🟡 ERROR MODE 2 — MISATTRIBUTION:
@@ -490,126 +482,126 @@
   MECHANISM:
     → Body state has multiple possible labels
     → Context biases which label fires
-    → Cultural scripts limit options
-    → PFC picks most "socially appropriate" label
+    → Cultural scripts limit the options available
+    → PFC picks the most "socially appropriate" label
 
   EXAMPLES:
     → Physical → emotional:
-       Hungry → "I'm angry" (hangry)
-       Tired → "I'm depressed"
-       Thirsty → "I'm fatigued"
+       Hunger → "I'm angry" (hangry)
+       Fatigue → "I'm depressed"
+       Thirst → "I'm exhausted"
        Low blood sugar → "I'm anxious"
-       Need to move → "I'm restless" (psychological label for physical)
+       Need to move → "I'm restless" (psychological label for physical need)
        Need for sleep → "I'm overwhelmed"
 
     → Emotional → physical:
        Anxiety → "I have stomach problems"
-       Grief → "chest hurts, must be heart"
+       Grief → "chest pain, must be my heart"
        Anger → "headache"
-       Loneliness → "flu feeling"
-       (These can be BOTH — schema generates real pain)
+       Loneliness → "flu-like feeling"
+       (These can BOTH be true — schema generates real physical response)
 
     → One emotion → another:
-       Fear → labeled as "anger" (more culturally acceptable)
+       Fear → labeled as "anger" (often more culturally acceptable)
        Sadness → labeled as "tired"
        Joy → labeled as "energy"
 
   SCHACHTER & SINGER 1962 🟢:
-    Classic research: same physiological arousal → labeled
-    differently based on context.
-    → Body arousal ambiguous
-    → Context + cognition determine label
-    → Framework: this is Feel-Labeling error mode
+    Classic research: the same physiological arousal labeled differently
+    based on context.
+    → Body arousal is ambiguous
+    → Context + cognition determine the label applied
+    → Framework: this is a Feel-Labeling error mode
 
   CULTURAL VARIATION:
     → Some cultures label body feelings as emotional
-    → Some label emotions as body
+    → Some label emotions as bodily
     → Japanese "hara ga tatsu" (stomach stands up = angry)
     → Not wrong — different labeling conventions
-    → But within culture: error mode still operates
+    → But within any culture: misattribution still operates
 
   DETECTION:
-    → Check body basics first ALWAYS
-    → "Am I hungry? Thirsty? Tired? Moved? In pain?"
-    → Before emotional label, verify physical ruled out
-    → Track: does feeling go away with food/rest/movement?
+    → Check body basics FIRST, always
+    → "Am I hungry? Thirsty? Tired? Need movement? In pain?"
+    → Before any emotional label, verify physical possibilities
+    → Track: does feeling resolve with food/rest/movement?
 
   REMEDIATION:
     → Body basics check first (HALT: Hungry, Angry, Lonely, Tired)
-    → Wait 30 minutes after body fix before emotional label
-    → If emotional label persists → likely real emotional
-    → If emotional label disappears → was physical mislabeled
+    → Wait 30 minutes after fixing body basics before applying emotional label
+    → If emotional label persists → likely genuinely emotional
+    → If emotional label disappears → was physical, mislabeled
 ```
 
-### 3.3 DISPLACEMENT
+### 3.3 Displacement
 
 ```
 🟡 ERROR MODE 3 — DISPLACEMENT:
 
   PATTERN:
     Feeling about A → labeled/directed at B
-    Unconscious "safer target" selection
+    Unconscious selection of a "safer target"
 
   MECHANISM:
     → Real target too dangerous to confront
-     (boss, parent, systemic issue)
-    → Unconscious shifts to safer target
-     (spouse, child, stranger, object)
+      (boss, parent, systemic problem)
+    → Unconsciously shifts to safer target
+      (spouse, child, stranger, object)
     → Feeling discharges at safer target
-    → PFC believes the safer target was cause
+    → PFC believes the safer target was the cause
 
   EXAMPLES:
     → Stressed from boss → yell at spouse
-      "You're so annoying" (spouse)
+      "You're so annoying!" (at spouse)
       Real target: boss (can't yell at)
-    → Angry at self → angry at children
-      "Why can't you listen!" (child)
-      Real target: self-failure
-    → Grief about parent → rage at driver
-      Road rage (driver)
-      Real target: loss
+    → Angry at self → snap at children
+      "Why can't you ever listen!" (at child)
+      Real target: own failure
+    → Grief about a loss → road rage at a driver
+      (at driver)
+      Real target: the loss
     → Fear about health → irritable at coworker
-      "They're incompetent" (coworker)
+      "They're so incompetent" (at coworker)
       Real target: own mortality
 
   SIGNATURES OF DISPLACEMENT:
-    → Intensity disproportionate to target
-    → Target is safer than probable real target
-    → Recurring pattern with same "safer" target
+    → Intensity disproportionate to the target
+    → Target is safer than the probable real target
+    → Recurring pattern with the same "safer" target
     → "I don't know why I got so mad at X"
 
   SOCIAL CONSEQUENCES:
-    → Safer targets bear burden of real dynamics
-    → Spouses, children, service workers common targets
-    → Cycle perpetuates (target never heals issue)
+    → Safer targets bear the burden of real dynamics
+    → Spouses, children, service workers are common targets
+    → Cycle perpetuates (target never resolves the issue)
     → Relationships damaged by misdirected feeling
 
   DETECTION:
-    → Intensity check: is response proportionate?
-    → Target check: who is safer to be angry at?
-    → Pattern check: is this the usual "overflow target"?
-    → Day check: what happened today/this week that could be real source?
+    → Intensity check: is this response proportionate?
+    → Target check: who is the "safer" person to be angry at?
+    → Pattern check: is this the usual overflow target?
+    → Day check: what happened today or this week that could be the real source?
 
   REMEDIATION:
     → Pause before acting on displaced feeling
-    → Ask: "Is target really the cause or convenient?"
+    → Ask: "Is this target really the cause, or just convenient?"
     → Address real source when possible
-    → Apologize to displaced target (don't compound)
+    → Apologize to displaced target (don't compound the damage)
     → Pattern work (therapy) if chronic
 
   NOTE:
-    Not always conscious. Displacement is defense mechanism.
-    Recognition is the first step in correction.
+    Not always conscious. Displacement is a defense mechanism.
+    Recognition is the first step toward correction.
 ```
 
-### 3.4 OVER-COMPLEX LABELING
+### 3.4 Over-Complex Labeling
 
 ```
 🟡 ERROR MODE 4 — OVER-COMPLEX LABELING:
 
   PATTERN:
     Simple body need → PFC creates elaborate narrative
-    Feel-Explanation explanation way too grand for actual cause
+    Feel-Explanation way too grand for the actual cause
 
   MECHANISM:
     → PFC likes complex stories (interesting)
@@ -620,21 +612,21 @@
   EXAMPLES:
     → "Existential dread about modernity"
       Actually: bad sleep + skipped breakfast + low sunlight
-    → "Crisis of meaning in my career"
-      Actually: been sitting 8+ hours daily for a week
+    → "A crisis of meaning in my career"
+      Actually: sitting for 8+ hours daily for a week straight
     → "Philosophical depression"
       Actually: winter, no exercise, social isolation
-    → "Fundamental disconnection from self"
-      Actually: chronic dehydration + caffeine excess
+    → "Fundamental disconnection from myself"
+      Actually: chronic dehydration + excess caffeine
     → "Existential loneliness"
-      Actually: haven't talked to family in 2 weeks
+      Actually: haven't spoken to family or close friends in two weeks
 
-  INTELLECTUAL TRAP:
+  THE INTELLECTUAL TRAP:
     → Over-educated people especially prone
-    → Philosophy/psychology vocabulary available
+    → Philosophy/psychology vocabulary is available
     → Complex labels feel more "sophisticated"
     → PFC intrinsic reward for clever explanations
-    → Body basics feel "too simple" to be real cause
+    → Body basics feel "too simple" to be the real cause
 
   SEDUCTION:
     → Grand narratives are interesting to think about
@@ -646,11 +638,11 @@
   DETECTION:
     → Is my explanation MORE interesting than the feeling warrants?
     → Have I checked body basics FIRST?
-    → Does the explanation require me to think more (not act)?
-    → Would a 5-year-old notice the obvious cause I'm missing?
+    → Does the explanation require more thinking (not action)?
+    → Would a five-year-old notice the obvious cause I'm overlooking?
 
   REMEDIATION:
-    → OCKHAM'S RAZOR for feelings
+    → OCCAM'S RAZOR for feelings
     → Simplest explanation first
     → Body basics before philosophy
     → Act on simple before analyzing complex
@@ -659,12 +651,13 @@
     → If no → fix basics first, re-check in 2 hours
 
   FRAMEWORK NOTE:
-    This error is strongly correlated with over-intellectualization.
+    This error strongly correlates with over-intellectualization.
     Modern mismatch: ancient body + modern analytical PFC.
-    Training: move attention from Feel-Explanation down to Feel-Consciousification–Feel-Observation.
+    Training: move attention from Feel-Explanation DOWN to
+    Feel-Consciousification–Feel-Observation.
 ```
 
-### 3.5 UNDER-LABELING / DENIAL
+### 3.5 Under-Labeling / Denial
 
 ```
 🟡 ERROR MODE 5 — UNDER-LABELING / DENIAL:
@@ -679,15 +672,15 @@
     → "I'm resilient"
     → "I don't need help"
     → PFC suppresses label to protect identity
-    → Body continues to experience full state
+    → Body continues to experience the full state
 
   EXAMPLES:
-    → Visibly shaking + red face → "I'm fine"
+    → Visibly shaking + flushed face → "I'm fine"
     → Crying while talking → "I'm not sad"
     → Can't sleep for weeks → "I'm not stressed"
     → Snapping at everyone → "I don't know why people are so sensitive"
     → Workaholic heart attack → "I was never overwhelmed"
-    → Alexithymia pattern → genuine inability to access label
+    → Alexithymia pattern → genuine inability to access the label
     → Stoic culture → trained denial
     → Male socialization → common pattern
 
@@ -695,56 +688,56 @@
     → Alexithymia: neurological access difficulty
     → Denial: defensive suppression
     → Both result in under-labeling
-    → Different interventions needed
+    → Different interventions needed for each
 
   PHYSICAL CONSEQUENCES:
     → Unlabeled feelings = unaddressed body states
-    → Chronic stress → hypertension, CVD
+    → Chronic stress → hypertension, cardiovascular disease
     → Chronic suppression → somatic conditions
-    → Breakdown often sudden (dam breaking)
+    → Breakdown often sudden ("dam bursting")
     → "I didn't see it coming" common after crisis
 
   DETECTION:
-    → Does body show feeling but mouth says otherwise?
+    → Does body show feeling while words say otherwise?
     → Would an observer call this "fine"?
-    → Is intensity of "fine" claim disproportionate?
+    → Is the intensity of the "fine" claim itself disproportionate?
     → Physical symptoms appearing without emotional label?
     → Others pointing out what you're not seeing?
 
   REMEDIATION:
     → Trust observer reports
-    → Accept feeling exists before labeling it
-    → "Something is happening" is valid Feel-Observation
-    → Don't force label — start with body sensation
+    → Accept that feeling exists before labeling it
+    → "Something is happening" is a valid Feel-Observation
+    → Don't force a label — start with body sensation
     → Therapy often needed for chronic denial
     → Rebuild trust that feelings are safe to have
 
   FRAMEWORK CONTEXT:
     Denial = specific form of Feel-Consciousification–Feel-Observation disconnection.
-    Body at Feel-RawSignals–Feel-Consciousification is active.
+    Body at Feel-RawSignals–Feel-Consciousification is fully active.
     PFC at Feel-Observation+ refuses to engage.
-    Gap = danger zone (accumulating but unaddressed).
+    Gap = danger zone: accumulating and unaddressed.
 ```
 
-### 3.6 CULTURAL SCRIPT OVERRIDE
+### 3.6 Cultural Script Override
 
 ```
 🟡 ERROR MODE 6 — CULTURAL SCRIPT OVERRIDE:
 
   PATTERN:
     Actual feeling → overridden by culturally acceptable label
-    Available vocabulary shapes accessible feelings
+    Available vocabulary shapes the feelings that are accessible
 
   MECHANISM:
     → Cultural scripts provide "normal" feeling categories
     → Non-script feelings lack vocabulary
-    → Without label, feeling becomes Feel-Consciousification residue
-    → PFC forces feeling into nearest script label
-    → Real feeling = distorted through cultural lens
+    → Without a label, feeling becomes Feel-Consciousification residue
+    → PFC forces feeling into the nearest script label
+    → Real feeling = distorted through a cultural lens
 
   EXAMPLES:
     → Men in many cultures: no vocabulary for "tender longing"
-      → forced into "I want her physically" or "I'm hungry"
+      → forced into "I want them physically" or "I'm hungry"
     → Anger in cultures valuing harmony → "disappointment"
     → Grief in "move on" cultures → "tired"
     → Joy in austere cultures → "peaceful" (understated)
@@ -753,13 +746,13 @@
 
   VOCABULARY CONSTRAINTS:
     → Languages differ in emotion vocabulary
-    → Some feelings have no word in one language, have it in another
+    → Some feelings have no word in one language, have it in another:
       - Hygge (Danish): cozy contentment
       - Saudade (Portuguese): longing with pleasure
       - Mono no aware (Japanese): beauty of impermanence
       - Schadenfreude (German): joy at others' misfortune
-    → Feeling exists cross-culturally
-    → Labeling varies
+    → The feeling exists cross-culturally
+    → The labeling varies
 
   BARRETT EMOTIONAL GRANULARITY 🟢:
     → Richer vocabulary → finer discrimination
@@ -770,21 +763,21 @@
   GENDER SOCIALIZATION:
     → Boys trained away from sadness, toward anger
     → Girls trained away from anger, toward sadness
-    → Not biology, socialization
+    → Not biology — socialization
     → Both genders have all feelings
     → But available labels differ
 
   DETECTION:
-    → Does my label come from me or from culture?
-    → Are there feelings I was taught not to have?
+    → Does this label come from me or from my culture?
+    → Are there feelings I was taught I shouldn't have?
     → What if I gave myself permission to have this feeling?
-    → Use another language's feeling word — does it fit?
+    → Does a word from another language fit better?
 
   REMEDIATION:
     → Expand feeling vocabulary (literacy §7)
     → Cross-cultural feeling literature
-    → Therapy can broaden allowed feelings
-    → Accept feelings that don't fit cultural script
+    → Therapy can broaden which feelings are "allowed"
+    → Accept feelings that don't fit cultural scripts
     → Name the script explicitly when noticed
 ```
 
@@ -798,20 +791,21 @@
   ① COMPRESSION MISMATCH
      Multi-channel feeling → single word label
      Information LOSS unavoidable
-     PFC operates with lossy representation
+     PFC operates with a lossy representation
 
-     ⭐ UPDATE 2026-04-17 — Label-As-Handle + Label 3-tier refinement:
-     → Label-As-Handle (F1 08 §5.4): Labels = retrieval paths + symbolic compression,
-       NOT constitutive. Labels ATTACH lên chunks ĐÃ tồn tại.
-       Feeling (Feel-RawSignals–Feel-Consciousification) có trước, label đến sau.
+     ⭐ Label-As-Handle + Label 3-Tier refinement:
+     → Label-As-Handle: Labels = retrieval paths + symbolic compression,
+       NOT constitutive. Labels ATTACH to chunks that ALREADY EXIST.
+       Feeling (Feel-RawSignals–Feel-Consciousification) comes first;
+       label arrives afterward.
      → Label 3-tier (Logic-Planning.md §2):
-       Individual label ("cái cảm giác đó") = ít compression = fidelity CAO
-       Group label ("kiểu hôm trước") = trung bình compression
-       Global label ("anxiety") = compression MẠNH NHẤT = fidelity THẤP NHẤT
-     → Implication: khi nói "tôi anxiety" (Global label) → MẤT nhiều hơn
-       so với khi nói "tôi thấy kiểu như hôm trước ấy" (Group label)
-     → Therapy insight: Gendlin Focusing dwells ở Individual label territory
-       (felt sense descriptions) → giảm compression loss
+       Individual label ("that feeling") = least compression = HIGHEST fidelity
+       Group label ("like that time before") = medium compression
+       Global label ("anxiety") = STRONGEST compression = LOWEST fidelity
+     → Implication: saying "I feel anxious" (Global label) → LOSES MORE
+       than saying "it's like that feeling I had last month" (Group label)
+     → Therapy insight: Gendlin Focusing dwells in Individual label territory
+       (felt sense descriptions) → reduces compression loss
 
   ② LINGUISTIC STRUCTURE CONSTRAINT
      Subject-verb-object grammar forces simple causal stories
@@ -827,7 +821,7 @@
      "I don't get angry" → anger relabeled or denied
 
   ⑤ SOCIAL PRESSURE TO EXPLAIN
-     Must have reason to share/justify feeling
+     Must have reason to share or justify feeling
      Nearest plausible cause → winner
      Complex causes → rarely accepted socially
 
@@ -838,13 +832,13 @@
 
   ⑦ TEMPORAL MYOPIA
      PFC focuses on present moment
-     Feeling may be from hours ago, days ago, years of pattern
+     Feeling may be from hours ago, days ago, years of accumulated pattern
      "Why do I feel X NOW" biases toward immediate causes
 
   ⑧ AGENCY PRESERVATION
      "I can fix this" bias
-     Feelings with fixable causes preferred over chronic
-     Hopelessness uncomfortable to admit
+     Feelings with fixable causes preferred over chronic ones
+     Admitting hopelessness is uncomfortable
 
   ⑨ LAYER 7 BIAS
      Mainstream equates "feeling" with "explanation of feeling"
@@ -854,7 +848,7 @@
 
   RECOGNITION ≠ FIX:
     Knowing about error modes helps.
-    But doesn't eliminate.
+    But it doesn't eliminate them.
     Even experts make these errors.
     → Literacy = harm reduction, not error elimination.
 
@@ -870,10 +864,10 @@
 
 ---
 
-## §4 — PAIN — SPECIAL CASE
+## §4 — Pain — Special Case
 
 ```
-⭐ USER EMPHASIZED — PAIN AS PARADIGM EXAMPLE:
+⭐ PAIN AS PARADIGM EXAMPLE:
 
   Pain is the clearest window into feeling accuracy.
   It's concrete, urgent, and universally experienced.
@@ -883,35 +877,35 @@
 ### 4.1 Physical Pain Location Accuracy
 
 ```
-🟢 LOCATION ACCURACY VARIES HUGE BY BODY REGION:
+🟢 LOCATION ACCURACY VARIES ENORMOUSLY BY BODY REGION:
 
   SOMATIC PAIN (skin, muscles, joints):
     → HIGH accuracy
     → Well-mapped somatosensory cortex
     → Precise localization
     → Examples:
-       "Đau ngón tay út bên phải"
-       "Đau khớp gối trái khi co"
-       "Chân tê từ mắt cá đến bắp chân"
+       "Pain in my right pinky finger"
+       "Pain in my left knee when bending"
+       "Numbness from ankle to calf"
     → Accuracy within centimeters typically
-    → Phantom limb pain = cortex mapping persists
+    → Phantom limb pain = cortical mapping persists
        post-amputation (Ramachandran research) 🟢
 
 
   VISCERAL PAIN (organs):
     → LOW accuracy
-    → Convergent afferent pathways (different organs same spinal level)
+    → Convergent afferent pathways (different organs share the same spinal level)
     → Referred pain phenomenon
     → Examples of imprecision:
-       "Đau bụng" — could be stomach, small intestine,
-                    large intestine, appendix, gallbladder, pancreas
-       "Đau ngực" — could be heart, lungs, muscle, esophagus
+       "Stomach ache" — could be stomach, small intestine,
+                         large intestine, appendix, gallbladder, or pancreas
+       "Chest pain" — could be heart, lungs, muscle, or esophagus
 
     REFERRED PAIN EXAMPLES:
     → Heart attack → LEFT ARM pain (referred)
        Heart afferents converge with arm afferents at T1-T5
-    → Appendicitis → initially periumbilical, later RLQ
-       Visceral pain diffuse, then somatic pain localized
+    → Appendicitis → initially around the navel, later right lower quadrant
+       Visceral pain diffuse first, then somatic pain localizes
     → Diaphragm irritation → SHOULDER pain (C3-C5 sharing)
     → Kidney stone → groin/genital pain
     → Gallbladder → right shoulder blade
@@ -921,13 +915,13 @@
     → Somatic: dedicated afferents, precise cortical mapping
     → Visceral: shared afferents, approximate cortical mapping
     → Evolution: viscera don't need precise localization usually
-      (internal organs don't need to be grabbed)
+      (internal organs don't need to be "grabbed")
     → Trade-off: diagnostic challenge for medicine
 
 
   EXPERT DIAGNOSTIC SKILL:
     → Experienced doctors learn to discriminate
-    → Palpate + ask questions + integrate pattern
+    → Palpation + questioning + pattern integration
     → Even experts rely on imaging for confirmation
     → Patient self-diagnosis notoriously unreliable for visceral
 
@@ -935,8 +929,8 @@
   LITERACY IMPLICATION:
     → For somatic pain: trust your localization
     → For visceral pain: acknowledge imprecision
-    → "Đau bụng chỗ này" = approximate, may shift
-    → Medical context: describe EVERYTHING felt, not just location
+    → "Pain here, somewhere in my stomach" = approximate, may shift
+    → Medical context: describe EVERYTHING felt, not just the location
 ```
 
 ### 4.2 Pain Quality Discrimination
@@ -948,60 +942,64 @@
     → Temporal: acute, chronic, intermittent, constant
     → Character: sharp, dull, burning, throbbing, aching, stabbing
     → Intensity: mild to severe
-    → Trigger: movement, pressure, temperature, idiopathic
+    → Trigger: movement, pressure, temperature, spontaneous
 
 
-  VIETNAMESE PAIN VOCABULARY:
-    Rich vocabulary = better Feel-Location–Feel-Labeling discrimination:
-    → Nhức: dull ache
-    → Nhói: sharp stabbing
-    → Âm ỉ: low-grade constant
+  PAIN QUALITY VOCABULARY — ENGLISH:
+    → Dull, sharp, throbbing, burning, aching, cramping,
+      shooting, tingling, numb, pressure, gnawing, piercing,
+      stabbing, pulsing, radiating, tight, achy, sore
+
+  PAIN QUALITY VOCABULARY — VIETNAMESE (reference):
+    Vietnamese has fine-grained pain vocabulary useful for discrimination:
+    → Nhức: dull ache (low-grade persistent)
+    → Nhói: sharp stabbing (acute point)
+    → Âm ỉ: low-grade constant (background hum)
     → Buốt: sharp biting cold
-    → Tê: numbness tingling
+    → Tê: numbness / tingling
     → Rát: burning
     → Ran: dull radiating
-    → Nhói nhói: repeated sharp
-    → Nhức nhối: persistent ache
-    → Đau nhói: acute sharp pain
+    → Nhói nhói: repeated sharp stabs
+    → Nhức nhối: persistent dull ache
     → Đau tức: pressure pain
-    → Đau rút: cramping
-    → Đau quặn: gripping intestinal
+    → Đau rút: cramping / pulling
+    → Đau quặn: gripping (intestinal cramp)
 
-
-  ENGLISH PAIN VOCABULARY (for comparison):
-    → Dull, sharp, throbbing, burning, aching, cramping,
-      shooting, tingling, numb, pressure, gnawing, piercing
+    Note: Vocabulary granularity matters regardless of language —
+    the richer the discrimination vocabulary, the better the felt sense
+    communication and self-understanding.
 
 
   DIAGNOSTIC VALUE:
     → Burning pain → often nerve/neuropathic
     → Throbbing → vascular
-    → Cramping → muscle/visceral smooth muscle
+    → Cramping → muscle or visceral smooth muscle
     → Sharp shooting → nerve
     → Dull constant → inflammation/chronic
-    → Stabbing → tissue injury acute
+    → Stabbing → acute tissue injury
 
 
   RICH VOCABULARY BENEFITS:
     → Better communication with doctors
     → Better self-diagnosis (still limited)
-    → Better literacy for feeling in general
+    → Better feeling literacy in general
     → Barrett granularity principle applies 🟢
 
 
   LITERACY TRAINING FOR PAIN:
     → Learn quality vocabulary
     → Practice describing pain specifically
-    → Distinguish types over time
+    → Distinguish types across time
     → Notice pattern changes
 
 
-  USER EXAMPLE (from framework discussions):
-    "Đau ở chỗ này, nhức và nhói nhói, có thể là chỗ ruột nào đó"
-    → Location approximate
-    → Quality specific (nhức + nhói nhói)
-    → Hypothesis offered (ruột)
-    → Uncertainty acknowledged (có thể)
+  FRAMEWORK EXAMPLE:
+    "Pain here — dull ache plus repeated sharp stabs,
+    maybe somewhere in my intestines"
+    → Location: approximate ("here")
+    → Quality: dull ache + repeated sharp stabs (specific)
+    → Hypothesis: intestines (offered)
+    → Uncertainty: "maybe" (acknowledged)
     → = FEELING LITERACY IN ACTION
 ```
 
@@ -1011,47 +1009,42 @@
 🟢 EMOTIONAL PAIN USES PHYSICAL PAIN CIRCUITS:
 
   Research: Eisenberger et al. 2003 — social pain activates
-  anterior cingulate cortex (ACC), same as physical pain.
+  anterior cingulate cortex (ACC), the same region as physical pain.
 
-  Subsequent research extended:
+  Subsequent research extended this:
     → Social rejection = physical pain circuits
     → Grief = physical pain circuits
     → Heartbreak = actual cardiac + pain activation
-    → "Broken heart syndrome" (Takotsubo cardiomyopathy) real
-
-  Tylenol/acetaminophen studies:
-    → Reduced social pain (some studies) 🟡
-    → Controversial effect size
-    → But suggests shared pathway
+    → "Broken heart syndrome" (Takotsubo cardiomyopathy) is real 🟢
 
 
   FRAMEWORK IMPLICATION:
 
-  "Đau trong tim" when grieving:
-    → NOT metaphor
+  "My heart aches" when grieving:
+    → NOT a metaphor
     → REAL pain circuits firing
     → Schema-generated physical response
-    → Body doesn't distinguish "actual damage" from "perceived loss"
+    → Body does not distinguish "actual damage" from "perceived loss"
 
 
   EXAMPLES:
     → Rejection: real pain activation
-    → Humiliation: body pain response
-    → Grief: chest tightness, pain
+    → Humiliation: real body pain response
+    → Grief: chest tightness, real pain
     → Shame: hot face, contracted belly
-    → Love loss: "đau lòng" literal body state
+    → Heartbreak: "heartache" = literal body state
 
 
   LITERACY IMPLICATION:
     → Emotional pain is REAL pain, not "just emotional"
-    → Respect it as body signal
-    → Don't dismiss "I hurt emotionally"
+    → Respect it as a body signal
+    → Don't dismiss "I'm hurting emotionally"
     → Same body, same circuits, same validity
 
 
   CLINICAL IMPLICATION:
     → Psychological + physical pain often co-occur
-    → Trauma → chronic pain common
+    → Trauma → chronic pain is a common pattern
     → Treatment must address both dimensions
     → Pure "physical" or pure "psychological" categorization is wrong
 
@@ -1069,7 +1062,7 @@
 ```
 🟢 PSYCHOGENIC PAIN IS REAL PAIN:
 
-  Schema can generate body pain response:
+  Schema can generate a real body pain response:
     → Thinking about trauma → body activates pain circuits
     → Anxiety about health → body manifests symptoms
     → Placebo effect works → brain generates real relief
@@ -1079,11 +1072,11 @@
     → Same neural pathways as "real" pain
     → Patient experiences actual suffering
     → Measurable physiological correlates
-    → Framework: schema fires body, body responds
+    → Framework: schema fires body; body responds
 
   SOMATIZATION:
     → Chronic psychological distress → physical symptoms
-    → Headaches, back pain, GI issues common
+    → Headaches, back pain, GI issues are common
     → Often no "physical" cause found
     → But pain is physiologically present
     → Standard medicine often misses (tests normal)
@@ -1091,37 +1084,37 @@
 
   EXAMPLES:
     → PTSD patient revisiting memory → real body pain
-    → Panic attack → real chest pain, breathing distress
-    → Chronic stress → tension headaches (real muscle)
+    → Panic attack → real chest pain, real breathing distress
+    → Chronic stress → tension headaches (real muscle tension)
     → Anxiety → real GI symptoms (enteric nervous system)
     → Grief → real cardiac symptoms
 
 
   PLACEBO / NOCEBO:
-    🟢 Placebo surgeries sometimes as effective as real
-    🟢 Sugar pills with doctor confidence → real pain relief
+    🟢 Placebo surgeries sometimes as effective as real operations
+    🟢 Sugar pills with confident doctor → real pain relief
     🟢 Nocebo warnings → real side effects
     → Schema power over body state CONFIRMED
 
   Framework interpretation:
     → Expectation (schema) → body response (real)
-    → Not "tricked" — body responds to its own model
+    → Not "tricked" — body responds to its own predictive model
     → Powerful lesson about body-mind integration
 
 
   TREATMENT IMPLICATIONS:
-    → Dismissing as "in your head" = wrong
-      (It IS in your head — that's where pain is processed)
+    → Dismissing as "all in your head" = wrong
+      (It IS in the head — that's where pain is processed)
     → Schema updates (therapy) can heal body symptoms
-    → Body treatments (somatic) can heal emotional origin
-    → Both-directions accessible
+    → Body treatments (somatic work) can heal emotional origin
+    → Both directions are accessible
 
 
   LITERACY IMPLICATION:
-    → Pain always real, source variable
+    → Pain is always real; source is variable
     → Schema-generated pain deserves respect
     → Exploration: what schema might be firing?
-    → Not "is it real" but "what is the body saying"
+    → Not "is this real?" but "what is the body saying?"
 ```
 
 ### 4.5 Feeling Literacy for Pain Specifically
@@ -1133,64 +1126,65 @@
 
 
   STEP 1 — OBSERVE (Feel-Observation)
-    → Notice pain present
+    → Notice pain is present
     → Without rushing to diagnosis
-    → "Có gì đó đang đau"
+    → "Something is hurting"
 
 
   STEP 2 — LOCATE (Feel-Location)
-    → Where in body?
-    → As precise as possible
-    → Acknowledge imprecision for visceral
-    → "Đau ở chỗ này — trong bụng, phía phải"
+    → Where in the body?
+    → As precisely as possible
+    → Acknowledge imprecision for visceral pain
+    → "Here — somewhere inside, toward the right"
 
 
   STEP 3 — DESCRIBE QUALITY
     → Sharp, dull, burning, throbbing?
     → Steady or intermittent?
     → Triggered by movement/pressure/food?
-    → "Nhức + nhói nhói, hơi âm ỉ, khi nằm nhiều hơn"
+    → "Dull ache plus repeated sharp stabs; worse when lying down"
 
 
   STEP 4 — TEMPORAL PATTERN
-    → When started?
-    → Changes through day?
+    → When did it start?
+    → How does it change through the day?
     → Worse at specific times?
-    → "Bắt đầu hôm qua sau bữa tối, đêm nặng hơn"
+    → "Started yesterday after dinner; worse at night"
 
 
   STEP 5 — HYPOTHESES
     → What could cause this?
     → Multiple possibilities
     → Don't commit to one early
-    → "Có thể là ruột thừa? Đầy bụng? Cơ bụng căng?"
+    → "Could be the appendix? Trapped gas? Muscle strain?"
 
 
   STEP 6 — VERIFY / SEEK HELP
     → Test hypotheses when possible
     → Or seek medical attention
     → Don't self-diagnose critical conditions
-    → Trust body's urgency signals
+    → Trust the body's urgency signals
 
 
-  USER'S FRAMEWORK EXAMPLE:
-    "Đau ở chỗ này, nhức và nhói nhói, có thể là chỗ ruột nào đó"
+  FRAMEWORK EXAMPLE:
+    "Pain here — dull ache plus repeated sharp stabs,
+    maybe somewhere in my intestines"
     ↓
-    Feel-Observation: đau (notice)
-    Feel-Location: chỗ này (locate, approximate)
-    Quality: nhức + nhói nhói (describe)
-    Hypothesis: chỗ ruột nào đó
-    Uncertainty: có thể (humble)
+    Feel-Observation: pain noticed
+    Feel-Location: approximate location offered
+    Quality: dull ache + repeated sharp stabs (specific)
+    Hypothesis: intestines
+    Uncertainty: "maybe" (humble)
     = GOOD pain literacy in action
 
 
   WHAT BAD PAIN LITERACY LOOKS LIKE:
-    → "I have a stomachache" (vague location)
-    → No quality description
+    → "I have a stomach ache" (vague location)
+    → No quality description offered
     → "Just ignore it" (denial)
-    → Or: catastrophize ("I'm dying")
-    → No verification attempt
-    → Panic or dismissal, no investigation
+    → OR: catastrophize ("I'm dying")
+    → No verification attempted
+    → Panic or dismissal — no investigation
 
 
   KEY SKILL:
@@ -1202,7 +1196,7 @@
     → Seek help when warranted
 
 
-  WHY PAIN IS GATEWAY TO FEELING LITERACY:
+  WHY PAIN IS A GATEWAY TO FEELING LITERACY:
     → Concrete and urgent (easy to notice)
     → Universal experience
     → Medical framing provides vocabulary
@@ -1212,7 +1206,6 @@
       → Mirror feelings
       → Any other feeling
 
-
   FRAMEWORK RECOMMENDATION:
     Pain literacy = entry point for general feeling literacy.
     Start with body pain → extend to all feelings.
@@ -1220,12 +1213,12 @@
 
 ---
 
-## §5 — FEELING LITERACY — What It Is
+## §5 — Feeling Literacy — What It Is
 
 ```
 🟡 DEFINITION:
 
-  FEELING LITERACY = skill of accurately reading own feelings
+  FEELING LITERACY = the skill of accurately reading one's own feelings
                      from body signal to explanation, with
                      calibrated confidence per layer.
 
@@ -1233,14 +1226,14 @@
   COMPONENTS:
 
   ① ACCESS — ability to notice feelings (Feel-Consciousification–Feel-Observation)
-     → Not blocked by dissociation/alexithymia
+     → Not blocked by dissociation or alexithymia
      → Attention available to body
      → Regular check-ins
 
-  ② LOCATION — where in body
+  ② LOCATION — where in the body
      → Interoceptive accuracy
      → Body scan skill
-     → Precision for somatic, humility for visceral
+     → Precision for somatic; humility for visceral
 
   ③ VOCABULARY — richness of labels
      → Barrett emotional granularity 🟢
@@ -1256,7 +1249,7 @@
   ⑤ DISCRIMINATION — distinguishing similar feelings
      → Sad vs tired vs grieving
      → Angry vs frustrated vs hurt
-     → Anxious vs excited vs caffeinated
+     → Anxious vs excited vs over-caffeinated
 
   ⑥ CALIBRATION — knowing accuracy levels
      → Feel-Consciousification–Feel-Observation usually accurate
@@ -1264,16 +1257,16 @@
      → Domain-dependent expertise
 
   ⑦ REGULATION — using literacy for wise response
-     → Not just knowing, acting appropriately
+     → Not just knowing, but acting appropriately
      → Feeling → drive → action fit
 
 
   LITERACY ≠ EMOTIONAL CONTROL:
-    Literacy is READING skill.
-    Control is REGULATION skill.
+    Literacy is a READING skill.
+    Control is a REGULATION skill.
     Related but distinct.
     → Literacy is prerequisite for wise regulation.
-    → Without literacy, regulation is suppression or flooding.
+    → Without literacy, regulation = suppression or flooding.
 
 
   WHY IT MATTERS:
@@ -1302,10 +1295,10 @@
 
 ---
 
-## §6 — FEELING LITERACY — Development Stages
+## §6 — Feeling Literacy — Development Stages
 
 ```
-🟡 LITERACY DEVELOPS OVER LIFESPAN:
+🟡 LITERACY DEVELOPS OVER THE LIFESPAN:
 
   Parallels framework child development files
   (Mother-Opt, Natural-Dev, Skill-Intro).
@@ -1314,9 +1307,9 @@
   STAGE 1 — INFANT (0-18 months)
   ──────────────────────────────
     → Pre-verbal feelings fully present
-    → Cannot label (no language)
+    → Cannot label (no language yet)
     → Caregiver co-regulates
-    → Mother mirrors: "Oh you're hungry"
+    → Caregiver mirrors: "Oh, you're hungry"
     → Feeling-word pairs begin forming
     → Foundation for all later literacy
 
@@ -1326,16 +1319,16 @@
     → Basic feeling words acquired
     → "Angry", "sad", "happy", "scared", "hungry"
     → Limited granularity
-    → Tantrums = unable to label + flood
-    → Parent labeling helps ("You're feeling frustrated")
+    → Tantrums = inability to label + flooding
+    → Parent labeling helps ("You're feeling frustrated right now")
 
 
   STAGE 3 — YOUNG CHILD (3-5 years)
   ──────────────────────────────────
     → Vocabulary expanding
     → Can name more feelings
-    → Understanding causation starts ("I'm sad because...")
-    → Social feelings (embarrassed, proud)
+    → Understanding of causation starts ("I'm sad because...")
+    → Social feelings emerge (embarrassed, proud)
     → Still limited complexity
 
 
@@ -1364,8 +1357,8 @@
     → Integration of cognitive + emotional
     → Life decisions forced by feeling
     → Romantic complexity
-    → Career choice involves feeling
-    → Mental health challenges often emerge
+    → Career choices involve feeling
+    → Mental health challenges often emerge here
     → Literacy gap → life difficulty
 
 
@@ -1374,8 +1367,8 @@
     → Wisdom typically accumulates (if self-reflective)
     → Past patterns recognized
     → Better body awareness (with attention)
-    → Or: calcified error modes (without attention)
-    → Divergence between literate vs non-literate
+    → OR: calcified error modes (without attention)
+    → Divergence between literate vs non-literate grows
 
 
   STAGE 8 — LATE ADULT (50+)
@@ -1384,7 +1377,7 @@
     → Body awareness from accumulated experience
     → Less social performance pressure
     → Wisdom = compiled feeling literacy
-    → Or: entrenched denial if never developed
+    → OR: entrenched denial if never developed
 
 
   CRITICAL WINDOWS:
@@ -1404,12 +1397,12 @@
 
 ---
 
-## §7 — FEELING LITERACY — Training Methods
+## §7 — Feeling Literacy — Training Methods
 
 ```
 🟡 LITERACY IS TRAINABLE:
 
-  Not innate talent — skill that improves with deliberate practice.
+  Not innate talent — a skill that improves with deliberate practice.
 ```
 
 ### 7.1 Meditation / Mindfulness
@@ -1439,13 +1432,13 @@
   LIMITATIONS:
     → Requires sustained practice (months to years)
     → Not everyone benefits equally
-    → Can destabilize trauma (needs care)
+    → Can destabilize trauma (care needed)
     → Can be co-opted for avoidance
 
 
   RECOMMENDATION:
     → 8-week MBSR programs well-validated
-    → 10-day Vipassana retreats intense
+    → 10-day Vipassana retreats intensive
     → Daily 10-20 min body scan accessible
     → Qualified teacher helpful, not always required
 ```
@@ -1468,7 +1461,7 @@
   KEY INSIGHT:
     Body knows before PFC has words.
     Focusing = accessing body knowledge.
-    Resonance check = verifying PFC labels with body truth.
+    Resonance check = verifying PFC labels against body truth.
 
   CLINICAL EVIDENCE:
     → Predicts therapy outcome across modalities
@@ -1477,16 +1470,16 @@
     → Research-validated effectiveness
 
   ACCESSIBLE:
-    → Focusing Institute resources
+    → Focusing Institute resources available
     → Books: "Focusing" (1978), "Power of Focusing"
     → Partnership practice (partner-guided)
-    → Can be learned without therapist
+    → Can be learned without a therapist
 
   BENEFITS FOR LITERACY:
     → Direct Feel-Consciousification access
     → Skepticism about Feel-Labeling–Feel-Explanation verified
-    → Pre-verbal respected
-    → Embodied validation
+    → Pre-verbal knowing respected
+    → Embodied validation of labels
 
 
   Research:
@@ -1509,26 +1502,25 @@
   ② SOMATIC EXPERIENCING (Peter Levine)
      → Trauma-focused somatic therapy
      → "Titration" of body sensations
-     → Release trapped activation
+     → Release of trapped activation
      → Clinical effectiveness for trauma 🟡
 
   ③ FELDENKRAIS METHOD
      → Movement awareness
-     → Notice habits via movement
+     → Noticing habits via movement
      → Body literacy through motor education
 
-  ④ SENSORIMOTOR PSYCHOTHERAPY
-     → Pat Ogden developed
+  ④ SENSORIMOTOR PSYCHOTHERAPY (Pat Ogden)
      → Trauma + body integration
-     → Similar theme to Levine
+     → Similar core theme to Levine
+     → Body-based trauma processing
 
   ⑤ ALEXANDER TECHNIQUE
      → Postural awareness
      → Release of chronic tension
      → Not explicitly feeling-focused but impactful
 
-  ⑥ AUTHENTIC MOVEMENT
-     → Mary Starks Whitehouse developed
+  ⑥ AUTHENTIC MOVEMENT (Mary Starks Whitehouse)
      → Move from inner impulse
      → Witnessed by partner
      → Deep body listening
@@ -1558,32 +1550,33 @@
 
   ② INTERNAL FAMILY SYSTEMS (Schwartz)
      → Parts work
-     → Each "part" has feelings
+     → Each "part" has its own feelings
      → Building relationships with inner parts
-     → Growing popularity 🟡
+     → Growing popularity + evidence base 🟡
 
   ③ AEDP (Fosha)
-     → Accelerated experiential dynamic psychotherapy
-     → Emphasizes emotion tracking in body
-     → Transformative experiences
+     → Accelerated Experiential Dynamic Psychotherapy
+     → Emphasizes emotion tracking in the body
+     → Transformative emotional experiences
 
   ④ HAKOMI (Kurtz)
      → Body-centered, mindfulness-based
      → Character process tracking
      → Embodied inquiry
 
-  ⑤ SENSORIMOTOR + Simulation-Engine
+  ⑤ SENSORIMOTOR PSYCHOTHERAPY
      → Already mentioned in body practices
      → Clinical framework for trauma
+     → Body as primary therapeutic channel
 
   ⑥ TRADITIONAL PSYCHOANALYSIS
      → Long-term relationship for deep literacy
-     → Countertransference = trained mirror
+     → Counter-transference = trained mirror awareness
      → Feeling emergence over years
 
 
   COMMON ELEMENTS IN EFFECTIVE THERAPY:
-    → Safe space to access
+    → Safe space to access feelings
     → Witnessed without judgment
     → Language for feelings provided
     → Patterns recognized over time
@@ -1595,14 +1588,14 @@
     → Analytic for historical patterns
     → IFS for complex inner conflict
     → EFT for direct emotional work
-    → Matching fit > specific modality (research)
+    → Matching fit > specific modality (Wampold common factors research)
 
 
   Research:
     🟢 Elliott et al. 2013 EFT effectiveness
     🟢 Wampold common factors research
     🟡 IFS growing evidence base
-    🟢 Therapy effectiveness generally (robust)
+    🟢 Therapy effectiveness generally (robust literature)
 ```
 
 ### 7.5 Why Literacy Matters (Synthesis)
@@ -1613,7 +1606,7 @@
   Feeling literacy training improves:
 
   ① DECISION MAKING
-     → Damasio insight: feeling necessary for decisions
+     → Damasio insight: feeling is necessary for decisions
      → Better access → wiser choices
      → Expert intuition = compiled feeling literacy
 
@@ -1625,11 +1618,11 @@
   ③ RELATIONSHIPS
      → Understanding own feelings → communicating clearly
      → Distinguishing own vs mirrored → less projection
-     → Emotional availability requires access
+     → Emotional availability requires feeling access
 
   ④ EXPERTISE
      → Domain expertise = compiled feelings
-     → Feeling literacy in domain = skill development
+     → Feeling literacy in a domain = skill development
      → 10,000 hours → feeling library built
 
   ⑤ CREATIVITY
@@ -1645,7 +1638,7 @@
 
   ⑦ MEANING MAKING
      → Deep values accessed via feeling
-     → PFC stories alone insufficient
+     → PFC stories alone are insufficient
      → Felt meaning = integrated wisdom
 
   ⑧ AI ERA ADVANTAGE
@@ -1657,21 +1650,21 @@
 
   FRAMEWORK POSITION:
     → Literacy not optional in modern era
-    → Evolutionary mismatches demand it (Feeling.md §5)
+    → Evolutionary mismatches demand it (Feeling.md §5 Modern Mismatches)
     → Without literacy: body needs unmet, decisions poor
     → With literacy: evolutionary wisdom accessible
 ```
 
 ---
 
-## §8 — INDIVIDUAL DIFFERENCES
+## §8 — Individual Differences
 
 ```
 🟡 MASSIVE INDIVIDUAL VARIATION:
 
   ① ALEXITHYMIA SPECTRUM
      → ~10% population clinical alexithymia (Taylor 2000) 🟢
-     → More have subclinical difficulties
+     → Many more have subclinical difficulties
      → TAS-20 scale measures 3 dimensions:
        - Difficulty identifying feelings
        - Difficulty describing feelings
@@ -1697,7 +1690,7 @@
      → Somatic dominant → Feel-Consciousification–Feel-Observation access
 
   ④ CULTURAL VARIATION
-     → Emotion vocabulary varies
+     → Emotion vocabulary varies across cultures
      → Acceptable feelings vary
      → Feeling expression rules vary
      → Not wrong — but different literacy baselines
@@ -1705,12 +1698,12 @@
   ⑤ GENDER SOCIALIZATION
      → Girls: sadness OK, anger suppressed
      → Boys: anger OK, sadness suppressed
-     → Leads to characteristic blind spots
+     → Leads to characteristic blind spots in each
      → Repairable via awareness + practice
 
   ⑥ TRAUMA HISTORY
      → Chronic trauma disrupts literacy
-     → Hyperarousal or numbness common
+     → Hyperarousal or numbing are common responses
      → Body disconnection as protection
      → Recovery includes literacy rebuilding
 
@@ -1718,11 +1711,11 @@
      → Autism spectrum often has alexithymic features
      → ADHD can affect body awareness
      → Not deficits — different processing
-     → Framework-fit varies
+     → Framework fit varies
 
   ⑧ EDUCATIONAL BACKGROUND
      → Philosophy/psychology: vocabulary advantage
-     → Over-intellectualization risk
+     → Risk: over-intellectualization
      → Literacy ≠ intellectual grasp
      → Books don't substitute for practice
 
@@ -1743,7 +1736,7 @@
 
 ---
 
-## §9 — HONEST ASSESSMENT
+## §9 — Honest Assessment
 
 ```
 🟡 CONFIDENCE BREAKDOWN:
@@ -1763,7 +1756,7 @@
 
 
   🟡 MEDIUM CONFIDENCE (framework synthesis):
-     ⚠ 6-error-mode taxonomy (framework organizing)
+     ⚠ 6-error-mode taxonomy (framework organizing heuristic)
      ⚠ Development stages mapping (framework heuristic)
      ⚠ "Cultural script override" as distinct category
      ⚠ Literacy as unified skill (components not yet measured together)
@@ -1774,21 +1767,22 @@
   🔴 LOW CONFIDENCE / OPEN:
      ⚠ Exact neural mechanisms for each error mode
      ⚠ Whether 6 error modes is exhaustive
-     ⚠ Measurement of literacy as a construct
+     ⚠ Measurement of literacy as a unified construct
      ⚠ Generalization across cultures (framework bias toward Western)
 
 
   LIMITATIONS:
     → This file is synthesis, not measurement
-    → Taxonomy choices are heuristic (could be different cuts)
+    → Taxonomy choices are heuristic (could be cut differently)
     → Examples lean toward common cases
     → Extreme individual variation not fully captured
 
 
   NOT CLAIMING:
     ✗ Everyone should be highly literate
-    ✗ Feel-Consciousification–Feel-Observation is always "truer" than Feel-Labeling–Feel-Explanation
-      (Feel-Labeling–Feel-Explanation sometimes is accurate)
+    ✗ Feel-Consciousification–Feel-Observation is always "truer" than
+      Feel-Labeling–Feel-Explanation
+      (Feel-Labeling–Feel-Explanation is sometimes accurate)
     ✗ Any specific practice is universally effective
     ✗ Literacy solves all problems
 
@@ -1799,41 +1793,40 @@
     ✓ Literacy is trainable
     ✓ Training has documented benefits
     ✓ Individual variation matters
-    ✓ Pain is useful gateway to general literacy
+    ✓ Pain is a useful gateway to general literacy
     ✓ AI era increases literacy value
 ```
 
 ---
 
-## §10 — CROSS-REFERENCES
+## §10 — Cross-References
 
 ```
 📚 WITHIN FEELING/ FOLDER:
 
-  Feeling.md §2           — 7-layer structure (fidelity loss)
-  Feeling.md §5           — Evolutionary framing (literacy need)
-  Feeling-Sources.md §2   — L1 pain sources (physiological)
-  Feeling-Sources.md §7   — Schema-generated feelings (4.4 psychogenic)
-  Feeling-Research.md     — Research streams + applications (next file)
+  Feeling.md §2                    — 7-layer structure (fidelity loss)
+  Feeling.md §5                    — Evolutionary framing (literacy need)
+  Feeling-Sources-Draft.md §2      — L1 pain sources (physiological)
+  Feeling-Sources-Draft.md §7      — Schema-generated feelings (§4.4 psychogenic)
+  Feeling-Research.md              — Research streams + applications (next file)
 
 
 📚 FRAMEWORK DEPENDENCIES:
 
-  Somatic-Articulation-Loop.md — Body → words process
-                                 (complementary file)
-  PFC-Analysis.md              — PFC capacity + limits
-  Body-Dissonance.md           — Specific signals
-  Core-v7.5-Draft.md §2        — Body-Base L0+L1 substrate
-  Modality-Analysis.md         — Individual variation
-  Drive.md                     — Feeling → action
-  Imagine-Final.md             — Preview mechanism
+  Somatic-Articulation-Loop.md     — Body → words process (complementary file)
+  PFC-Analysis.md                  — PFC capacity + limits
+  Body-Dissonance.md               — Specific signals
+  Core-Software.md §2              — Body-Base L0+L1 substrate
+  Modality-Analysis.md             — Individual variation
+  Drive.md                         — Feeling → action
+  Imagine-Final.md                 — Preview mechanism
 
 
 📚 CHILD DEVELOPMENT FILES:
 
-  Mother-Opt.md        — Early literacy formation
-  Natural-Dev.md       — Developmental feelings
-  Skill-Intro.md       — Later-childhood skill acquisition
+  Mother-Opt.md         — Early literacy formation
+  Natural-Dev.md        — Developmental feelings
+  Skill-Intro.md        — Later-childhood skill acquisition
 
 
 📚 MAINSTREAM RESEARCH KEY REFERENCES:
@@ -1872,9 +1865,9 @@
 
 ---
 
-> **END OF Feeling-Accuracy.md**
+> **END OF Feeling-Accuracy-Draft.md**
 >
-> **Next file (final):** Feeling-Research.md — research streams
+> **Next file:** Feeling-Research.md — research streams
 > (Damasio, Gendlin, Craig, Panksepp, Gallese, Kahneman) +
 > applications (decisions, expertise, creativity, mental health,
 > AI era, learning).
@@ -1885,3 +1878,5 @@
 >
 > **Quality note:** 🟢 Research well-supported for core phenomena.
 > 🟡 Error mode taxonomy + literacy framework are synthesis.
+>
+> **Version:** v1.0, 2026-04-13. English translation: 2026-06-09.

@@ -1,24 +1,24 @@
 ---
-title: Social Recognition Arc — F1 Body-Input Arc #5 ⭐ Nút Thắt 3 primary verdict
+title: Social Recognition Arc — F1 Body-Input Arc #5 ⭐ Convergence Point 3 primary verdict
 created: 2026-04-16 (Session N+4c1, Phase F1-P12)
 status: DRAFT N+4c1 P12 — ready for user review (⭐ MANDATORY REVIEW STOP per plan §5.5)
-scope: Social input reception + social output developmental arc from birth (CONSPEC innate face template + cry contagion day 1) through ~24 months (E31 "không" self-as-agent). Social is inherently multi-modal — the most cross-cutting body-input arc in F1. This file delivers Nút Thắt 3 PRIMARY VERDICT on multi-modal binding mechanism via E12 social smile keystone + 4 converging mechanism lines.
+scope: Social input reception + social output developmental arc from birth (CONSPEC innate face template + cry contagion day 1) through ~24 months (E31 "no" self-as-agent). Social is inherently multi-modal — the most cross-cutting body-input arc in F1. This file delivers Convergence Point 3 PRIMARY VERDICT on multi-modal binding mechanism via E12 social smile keystone + 4 converging mechanism lines.
 parent: plan.md §3.2 (file 07 outline)
 depends_on: [01-PFC-Hardware-Reframe.md, 02-Womb-to-Birth-Baseline.md, 03-Visual-System-Arc.md, 04-Auditory-System-Arc.md, 05-Motor-Output-Arc.md, 06a-Interoceptive-Bladder-Keystone.md, 06b-Interoceptive-Other-States.md]
-language: Tiếng Việt primary + English technical terms
+language: English (translated from Vietnamese source)
 addresses:
-  - Nút Thắt 3 ⭐ (Multi-modal binding at birth mechanism — PRIMARY VERDICT via E12 social smile keystone)
-  - Nút Thắt 4 (PFC hardware × chunks missing — 3 additional L2 markers: E16 stranger anxiety, E20 still-face Phase 3, E30 peek-a-boo)
+  - Convergence Point 3 ⭐ (Multi-modal binding at birth mechanism — PRIMARY VERDICT via E12 social smile keystone)
+  - Convergence Point 4 (PFC hardware × chunks missing — 3 additional L2 markers: E16 stranger anxiety, E20 still-face Phase 3, E30 peek-a-boo)
 sub_folder: F1 Child-Chunk-Development
 ---
 
-# 07 — Social Recognition Arc ⭐ Nút Thắt 3 primary
+# 07 — Social Recognition Arc ⭐ Convergence Point 3 primary
 
 > **File 07 of F1 Child-Chunk-Development sub-folder.** Fifth body-input arc file (after 03 Visual + 04 Auditory + 05 Motor + 06a/06b Interoceptive). Social system is unique among F1 body-inputs — it is **inherently multi-modal by definition**. A single social event (mother's face smiling while speaking) involves visual + auditory + proprioceptive + interoceptive + emotional channels firing together. Unlike visual (primarily one modality) or bladder (primarily one modality), social has no meaningful single-modality version.
 >
-> **⭐ Nút Thắt 3 primary verdict file**: E12 social smile at 6-8 weeks is the **keystone evidence** for multi-modal binding mechanism. This file commits the primary verdict on how newborns bind cross-modal inputs into unified chunks without an explicit "coordinator", using E12 + 4 converging mechanism lines.
+> **⭐ Convergence Point 3 primary verdict file**: E12 social smile at 6-8 weeks is the **keystone evidence** for multi-modal binding mechanism. This file commits the primary verdict on how newborns bind cross-modal inputs into unified chunks without an explicit "coordinator", using E12 + 4 converging mechanism lines.
 >
-> **3 additional L2 markers** delivered for Nút Thắt 4 reinforcement: stranger anxiety face progression (E16), still-face Phase 3 puzzled reaction (E20), peek-a-boo anticipation (E30). Combined with 06a đơ mặt + 06b vaccination pre-cry + 06b anticipatory feeding response = 6-marker catalog for PFC hardware × chunks reconciliation.
+> **3 additional L2 markers** delivered for Convergence Point 4 reinforcement: stranger anxiety face progression (E16), still-face Phase 3 puzzled reaction (E20), peek-a-boo anticipation (E30). Combined with 06a face-freeze + 06b vaccination pre-cry + 06b anticipatory feeding response = 6-marker catalog for PFC hardware × chunks reconciliation.
 >
 > **Cross-references Agent/ sub-folder** (drilled N+2) for Resonance mechanism explanation. 07 does NOT re-derive Resonance architecture (see [Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md)) — it applies the architecture to F1 developmental events.
 
@@ -28,7 +28,7 @@ sub_folder: F1 Child-Chunk-Development
 
 🟢 **Claim**: The social system is inherently multi-modal. Every social event involves 2+ channels firing together (minimum: visual face + auditory voice; typically: + body warmth + interoceptive valence + emotional tag). Unlike other body-inputs which have meaningful unimodal events, **there is no unimodal social event**. This architectural property has a consequence: social chunks are **multi-modal from birth**, not compiled as single-modal first and then bound together.
 
-🟡 **Nút Thắt 3 Primary Verdict** (committed §6): Multi-modal binding at birth is a **multi-mechanism phenomenon**. The newborn has four concurrent mechanisms for binding cross-modal inputs into unified chunks:
+🟡 **Convergence Point 3 Primary Verdict** (committed §6): Multi-modal binding at birth is a **multi-mechanism phenomenon**. The newborn has four concurrent mechanisms for binding cross-modal inputs into unified chunks:
 1. **Temporal co-occurrence + Hebbian binding** (below-cortical synaptic + cortical LTP)
 2. **Multisensory neurons** at superior colliculus + superior temporal sulcus (Meredith & Stein 1983)
 3. **Default Mode Network early scaffolding** providing network-level substrate (Doria 2010)
@@ -38,9 +38,9 @@ All four mechanisms act concurrently. No single mechanism is sufficient or neces
 
 🟡 **Framework contribution R-F1-3** (proposed): Cross-modal binding is not a single dedicated "binder" module. It is an **emergent property** of a multi-mechanism substrate operating on temporally-correlated afferent streams. The framework should commit to multi-mechanism binding rather than seeking a single "binder".
 
-🟡 **Nút Thắt contributions**:
+🟡 **Convergence Points contributions**:
 
-| Nút Thắt | 07 contribution | Section |
+| Convergence Point | 07 contribution | Section |
 |---|---|---|
 | 3 ⭐ Multi-modal binding | PRIMARY VERDICT via E12 + 4 converging mechanism lines | §6 |
 | 4 PFC hardware × chunks missing | 3 additional L2 markers (E16 + E20 + E30) | §3.8, §3.10, §3.13 |
@@ -54,7 +54,7 @@ All four mechanisms act concurrently. No single mechanism is sufficient or neces
 | CONSPEC face template (innate) | Birth | L0 | Innate not compiled — cross-ref [03 §3.1](03-Visual-System-Arc.md#§3.1) |
 | Farroni 2002 direct gaze | 2-5 days | L2 | Earliest L2 marker in F1 — cross-ref [03 §3.2](03-Visual-System-Arc.md#§3.2) |
 | **E9 Cry contagion** | Day 1-2 | L0/L1 | Resonance Stage 0 chunk-based (NOT hardware mirror) |
-| **E12 Social smile** ⭐ | 6-8 weeks | L2 | ⭐ Nút Thắt 3 keystone — first multi-modal binding |
+| **E12 Social smile** ⭐ | 6-8 weeks | L2 | ⭐ Convergence Point 3 keystone — first multi-modal binding |
 | **E13 Smile contagion** | 4 months | L2 | Positive counterpart of E9 |
 | **E15 Mother recognition** | 5 months | L2 | First identity chunk (specific other, not generic face) |
 | **E14 Gaze following** | 6 months | L2 | Resonance Stage 2 beginning form |
@@ -68,7 +68,7 @@ All four mechanisms act concurrently. No single mechanism is sufficient or neces
 | Proto-declarative pointing | 12-14 months | L4 | Share-attention gesture |
 | **E29 Delayed imitation** | 14-16 months | L4 | Meltzoff 1988 — action chunks stored stable |
 | **E26 Egocentric empathy** | 18 months | L4 | Cross-ref [06b §5.5](06b-Interoceptive-Other-States.md#§5.5) — own chunks as templates |
-| **E31 "Không" autonomy** | 18-24 months | L4 | Self-as-agent chunk emerging |
+| **E31 "No" autonomy** | 18-24 months | L4 | Self-as-agent chunk emerging |
 
 **Critical framework distinction** (cited throughout from [Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md)):
 
@@ -94,9 +94,9 @@ Consider what counts as a "social event" from the baby's perspective:
 
 **Implication for F1 methodology**: Social arc analysis cannot follow the single-channel "Connect → Read → Control" structure cleanly used for visual (03) or auditory (04) or bladder (06a). Social must be analyzed as **multi-channel coordination events** from the start.
 
-### §1.2 — Why social is the Nút Thắt 3 primary drill location
+### §1.2 — Why social is the Convergence Point 3 primary drill location
 
-Nút Thắt 3 asks: HOW does the newborn bind visual + auditory + somatic + emotional inputs into a single unified chunk when there is no verbal label and PFC coordination capacity is still compiling?
+Convergence Point 3 asks: HOW does the newborn bind visual + auditory + somatic + emotional inputs into a single unified chunk when there is no verbal label and PFC coordination capacity is still compiling?
 
 Social events are the **cleanest empirical handles** on this question because:
 
@@ -111,7 +111,7 @@ Social events are the **cleanest empirical handles** on this question because:
 - **[03-Visual-System-Arc.md](03-Visual-System-Arc.md)** §3.1 (CONSPEC Morton & Johnson 1991), §3.2 (Farroni 2002 direct gaze 2-5 days), §3.5 (face feature integration 3-6mo), §3.9 (face perceptual narrowing 6-9mo) — visual side of social events
 - **[04-Auditory-System-Arc.md](04-Auditory-System-Arc.md)** §2 prenatal maternal voice chunks, §3.4 Mandel 1995 own name recognition 4.5mo — auditory side of social events + specific-entity chunks
 - **[05-Motor-Output-Arc.md](05-Motor-Output-Arc.md)** §2.4 visuomotor reaching, §2.8 pointing, §7 E25 intentional gesture — motor side of social output
-- **[06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md)** §3.3 đơ mặt L2 marker methodology (applied to 07 L2 markers)
+- **[06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md)** §3.3 face-freeze L2 marker methodology (applied to 07 L2 markers)
 - **[06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md)** §5 emotional arc (interoceptive side) + §5.5 E26 egocentric empathy (cross-ref back here)
 - **[Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md)** entire file — chunk-based simulation framework used throughout 07
 
@@ -215,7 +215,7 @@ The earliest social events are visual and already drilled in [03-Visual-System-A
 
 **Observable event** ([Feel-Example E9](../../Body-Base/Feeling/Feel-Example-Draft.md#e9) day 1-2):
 
-> Phòng sơ sinh bệnh viện. Một bé bắt đầu khóc. Trong vòng 30 giây, nhiều bé khác trong phòng cũng khóc theo, dù không phải con của cùng cha mẹ và không có bất kỳ cue vật lý nào khác.
+> Hospital newborn ward. One baby starts crying. Within 30 seconds, several other babies in the room begin to cry as well — despite not being the same family and with no other physical cue.
 
 **Ladder classification**: **L0/L1** — reflex-like contagion based on auditory pattern-match with own-cry seed chunk.
 
@@ -224,9 +224,9 @@ The earliest social events are visual and already drilled in [03-Visual-System-A
 - **Mechanism**: other-baby cry sound is **near-miss** to own-cry pattern → predictive coding generates prediction-delta → distress amplification → cry output
 - **NOT a mirror neuron module**: mechanism is chunk-based, not hardware
 
-**⭐ Framework-critical observation from Feel-Example E9 verbatim**:
+**⭐ Framework-critical observation from Feel-Example E9 Notes**:
 
-> "Mainstream giải thích là 'newborn empathy' hoặc 'innate mirror neurons'. Framework chúng ta REJECT cách giải thích đó vì: 1. Bé đã có vài giờ đến vài ngày kinh nghiệm với CHÍNH tiếng khóc của mình — mỗi lần khóc, bé tự nghe own cry. Đây đủ để hình thành một seed chunk. 2. Tiếng khóc của bé khác MATCH GẦN với own-cry pattern nhưng không exact → tạo near-miss dissonance trong predictive coding → distress signal được amplify. 3. KHÔNG cần 'mirror module' hardware — chỉ cần seed chunk + dissonance amplification từ prediction-delta."
+> "The mainstream explanation is 'newborn empathy' or 'innate mirror neurons'. Our framework REJECTS that explanation because: 1. The baby has had hours to days of experience with THEIR OWN crying — each time they cry, they hear their own cry. This is sufficient to form a seed chunk. 2. Another baby's cry is a NEAR-MISS to the own-cry pattern but not exact → creates near-miss dissonance in predictive coding → distress signal is amplified. 3. NO 'mirror module' hardware needed — only seed chunk + dissonance amplification from prediction-delta."
 
 **E10 decisive evidence against hardware mirror**: E10 (own-cry recording) asymmetry — baby hears playback of own cry, distress response WEAKER than hearing other's cry. If hardware mirror were the mechanism, any cry sound (including own recording) should trigger the response. Reality: own = exact match = no prediction-delta = no amplification. Other = near-miss = prediction-delta = amplification. Dondi, Simion & Caltran 1999 confirmed the asymmetry with controlled newborn studies.
 
@@ -234,11 +234,11 @@ The earliest social events are visual and already drilled in [03-Visual-System-A
 
 **Framework position**: E9 is **the earliest F1 evidence for Resonance as chunk-based simulation**. It appears on day 1 because the seed chunk (own-cry pattern) can compile within minutes, not months. It falsifies "mirror module waiting to activate" views and supports the chunks-based Resonance framework drilled in [Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) Session N+2.
 
-### §3.3 — **⭐ E12 Social smile as Nút Thắt 3 keystone (6-8 weeks)**
+### §3.3 — **⭐ E12 Social smile as Convergence Point 3 keystone (6-8 weeks)**
 
 **Observable event** ([Feel-Example E12](../../Body-Base/Feeling/Feel-Example-Draft.md#e12) 7 weeks):
 
-> Bé 7 tuần tuổi nhìn mặt mẹ từ khoảng cách 30cm — đúng focal length tự nhiên của bé sơ sinh. Mặt mẹ có biểu cảm ấm áp, nói chuyện nhẹ nhàng. Bé bắt đầu cười — nụ cười social thật sự, hướng ngoại, có engagement, khác hẳn với reflex smile khi ngủ vốn xuất hiện từ trong bụng mẹ.
+> 7-week-old baby looks at mother's face from ~30cm — the natural focal length for a newborn. Mother has a warm expression, speaking gently. Baby begins to smile — a genuine social smile, outward-directed, with engagement, distinctly different from the reflex smile during sleep that was already present from the womb.
 
 **Ladder classification**: **L2 pattern-match activation** (early form) → **L3 crude** (reciprocal attempt) → rapidly **L4** (reliable reciprocal smile within 1-2 weeks of first emergence).
 
@@ -258,21 +258,21 @@ The earliest social events are visual and already drilled in [03-Visual-System-A
 
 This **conjunction requirement** is what makes E12 a multi-modal binding event, not a single-channel event.
 
-**Why 6-8 weeks and not earlier**: Per Feel-Example E12 Notes, "chunk này KHÔNG bẩm sinh — phải cần ~6-8 tuần cortical maturation kết hợp với face exposure". The 6-8 week timing reflects the compile time for the binding chunk on top of the unimodal chunks. This is parallel to 06a §3.2 bladder repetition compile phase — repeated multi-modal co-occurrence events strengthen the binding chunk over weeks.
+**Why 6-8 weeks and not earlier**: Per Feel-Example E12 Notes, "this chunk is NOT innate — it requires ~6-8 weeks of cortical maturation combined with face exposure". The 6-8 week timing reflects the compile time for the binding chunk on top of the unimodal chunks. This is parallel to 06a §3.2 bladder repetition compile phase — repeated multi-modal co-occurrence events strengthen the binding chunk over weeks.
 
-**Blind infant evidence** (E12 Notes): "Bằng chứng từ bé mù bẩm sinh: họ cũng cười social vào khoảng 8 tuần, nhưng dùng auditory và tactile cues thay thế cho visual. Điều này confirm rằng smile chunk là learned multi-channel binding chứ không phải hardware face-driven."
+**Blind infant evidence** (E12 Notes): "Evidence from congenitally blind infants: they also social-smile at approximately 8 weeks, but using auditory and tactile cues instead of visual. This confirms that the smile chunk is a learned multi-channel binding, not hardware face-driven."
 
 **Implication**: The chunk is **flexibly multi-modal** — any sufficient combination of channels that constitutes "caregiver present + positive context" can drive the smile output. Visual is typical but not uniquely required. This **flexibility is diagnostic of chunks-based mechanism**: a hardware face-driven module would not adapt to missing visual channel.
 
 **Framework-critical framing**: E12 is **the first observable cross-channel binding event in the F1 developmental trajectory**. Before E12, each channel is processing somewhat independently (visual face pattern in FFA/STS, auditory voice pattern in auditory cortex, body state in insula, valence in amygdala). At E12, the unified binding chunk has compiled enough to drive coordinated motor output.
 
-**Implication for Nút Thắt 3 (verdict commitment in §6)**: E12 at 6-8 weeks tells us that multi-modal binding **compiles in weeks, not months** — which is only possible if substrate-level mechanisms (multisensory neurons, DMN, amygdala tagging) are doing much of the binding work in parallel with chunks compile. The full verdict is formalized in §6.
+**Implication for Convergence Point 3 (verdict commitment in §6)**: E12 at 6-8 weeks tells us that multi-modal binding **compiles in weeks, not months** — which is only possible if substrate-level mechanisms (multisensory neurons, DMN, amygdala tagging) are doing much of the binding work in parallel with chunks compile. The full verdict is formalized in §6.
 
 ### §3.4 — E13 Smile contagion (4 months) — positive counterpart of E9
 
 **Observable event** ([Feel-Example E13](../../Body-Base/Feeling/Feel-Example-Draft.md#e13) 4 months):
 
-> Bé 4 tháng nhìn mặt mẹ đang cười rạng rỡ. Bé cười lại trong vòng ~1-2 giây. Reciprocal smile, có thể lặp lại vài chu kỳ qua-lại.
+> 4-month baby looks at mother's face beaming with a smile. Baby smiles back within ~1-2 seconds. Reciprocal smile, can repeat back-and-forth several cycles.
 
 **Ladder classification**: **L2** — pattern-match on other's smiling face → activates own smile chunk → smile output.
 
@@ -285,7 +285,7 @@ This **conjunction requirement** is what makes E12 a multi-modal binding event, 
 
 **Framework-critical observation from E13 Notes**:
 
-> "Sự khác biệt timing rất có ý nghĩa: Cry contagion xuất hiện từ ngày 1 vì own-cry pattern hình thành ngay (bé khóc nhiều lần trong giờ đầu). Smile contagion xuất hiện ~3-4 tháng vì own-smile pattern cần ~6-8 tuần cortical maturation cho social smile + thêm vài tuần repetition để hình thành stable own-smile pattern."
+> "The timing difference is highly significant: Cry contagion appears from day 1 because own-cry pattern forms immediately (baby cries many times in the first hour). Smile contagion appears at ~3-4 months because own-smile pattern requires ~6-8 weeks of cortical maturation for social smile + several additional weeks of repetition to form a stable own-smile pattern."
 
 **This timing asymmetry is framework-critical**: If Resonance were hardware mirror, BOTH cry and smile contagion should emerge at birth (mirror module firing on any observable action). They don't. Cry contagion emerges day 1; smile contagion emerges ~3-4 months later. The gap is **exactly the compile time for own-smile pattern**. This is direct evidence that Resonance timing depends on **own-pattern formation timing**, not on "mirror module availability".
 
@@ -295,7 +295,7 @@ This **conjunction requirement** is what makes E12 a multi-modal binding event, 
 
 **Observable event** ([Feel-Example E15](../../Body-Base/Feeling/Feel-Example-Draft.md#e15) 5 months):
 
-> Bé 5 tháng. Mẹ vào phòng sau vài giờ vắng mặt. Bé thấy mặt mẹ — mắt sáng lên, kicking chân, smiling rộng, làm âm thanh vui vẻ ("ah ah"), có thể với tay về phía mẹ.
+> 5-month baby. Mother walks into the room after being away for a few hours. Baby sees mother's face — eyes light up, legs kicking, wide smile, making happy sounds ("ah ah"), possibly reaching toward mother.
 
 **Ladder classification**: **L2** pattern-match on specific identity (not generic face).
 
@@ -311,7 +311,7 @@ The "mother chunk" is a **composite multi-modal identity chunk**:
 
 **Framework significance**: E15 is the **first identity chunk** — distinct from generic face recognition (which emerges earlier at ~3 months). Generic face recognition says "this is a face". Mother recognition says "this is **a specific individual with history**". Identity chunks are **building blocks for all subsequent social relationships** — friends, partners, colleagues are all variations of the same mechanism at higher complexity.
 
-**Adopted baby evidence**: Per E15 Notes, "Adopted babies có thể chuyển mother-chunk sang new caregiver sau vài tuần, cho thấy chunk là learned identity, không phải hardwired biological recognition." This confirms identity chunks are **learned compile**, not biological hardcoding.
+**Adopted baby evidence**: Per E15 Notes, "Adopted babies can transfer the mother-chunk to a new caregiver within a few weeks, showing that the chunk is learned identity, not hardwired biological recognition." This confirms identity chunks are **learned compile**, not biological hardcoding.
 
 **Cross-reference to H11**: Mother recognition at 5 months (receptive) vs verbal "mama" referential at 12-14 months (productive, see [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §4.6 upcoming) = **receptive-productive gap ~7-9 months** for mother-identity verbal label. Consistent with H11 ratio pattern.
 
@@ -319,7 +319,7 @@ The "mother chunk" is a **composite multi-modal identity chunk**:
 
 **Observable event** ([Feel-Example E14](../../Body-Base/Feeling/Feel-Example-Draft.md#e14) 6 months):
 
-> Bé 6 tháng. Mẹ đang nhìn bé, sau đó mẹ chậm rãi quay đầu nhìn về phía cửa. Bé theo gaze, quay đầu nhìn về phía cửa.
+> 6-month baby. Mother is looking at baby, then slowly turns her head to look toward the door. Baby follows the gaze, turns head to look toward the door.
 
 **Ladder classification**: **L2** — other-gaze direction pattern fires own gaze-redirect motor chunk.
 
@@ -336,7 +336,7 @@ Tomasello 1995 — foundational joint attention research. Gaze following is prec
 
 **Observable event** ([Feel-Example E16](../../Body-Base/Feeling/Feel-Example-Draft.md#e16) 8 months):
 
-> Bé 8 tháng đang chơi vui vẻ trên lòng mẹ. Một người lạ (cô hàng xóm) vào phòng và tiến đến gần. Bé quay mặt đi, ôm chặt mẹ, có thể bắt đầu khóc khi người lạ đến gần hơn.
+> 8-month baby is playing happily in mother's lap. A stranger (the neighbor woman) enters the room and approaches. Baby turns away, clings tightly to mother, and may start crying as the stranger moves closer.
 
 **Ladder classification**: **L2** (initial pattern-match face-progression) → **L3** (withdraw + cling).
 
@@ -347,7 +347,7 @@ Tomasello 1995 — foundational joint attention research. Gaze following is prec
 - Distressed: dissonance + "unfamiliar = danger" chunk fires
 - Withdraw: action chunks engage (L3 transition)
 
-**This sequence is observable within ~5-10 seconds if one watches carefully.** It is L2 marker #3 in the catalog (after bladder đơ mặt from 06a and vaccination pre-cry from 06b §3.3).
+**This sequence is observable within ~5-10 seconds if one watches carefully.** It is L2 marker #3 in the catalog (after bladder face-freeze from 06a and vaccination pre-cry from 06b §3.3).
 
 **Chunks state inference** 🟡:
 - Familiar face library has compiled (mother, siblings, regular caregivers)
@@ -359,7 +359,7 @@ Tomasello 1995 — foundational joint attention research. Gaze following is prec
 
 **Framework-critical observation from E16 Notes** (depth-creates-blindspot insight):
 
-> "Đây là một bài học framework quan trọng: depth trên một axis có thể tạo blindspot trên axis khác. Bé attachment-secure thường có stranger anxiety mạnh hơn (counterintuitive nhưng đúng) — vì familiar library rõ ràng hơn → mismatch với người lạ rõ ràng hơn → fear stronger."
+> "This is an important framework lesson: depth on one axis can create a blindspot on another axis. Securely-attached babies tend to have stronger stranger anxiety (counterintuitive but correct) — because their familiar library is more distinct → mismatch with strangers is more distinct → fear is stronger."
 
 **Chunks are not "more = better linearly"**: chunks create categories, categories create boundaries, boundaries create both acceptance AND rejection. This insight applies throughout F1 and beyond — it is a **dual-edge property** of chunks that will be relevant for later files (emotional regulation, social skills, cross-cultural adaptation).
 
@@ -367,20 +367,20 @@ Tomasello 1995 — foundational joint attention research. Gaze following is prec
 
 **Observable event** ([Feel-Example E17](../../Body-Base/Feeling/Feel-Example-Draft.md#e17) 9 months):
 
-> Bé 9 tháng. Mẹ đặt bé xuống và đi sang phòng khác. Bé khóc dữ dội ngay lập tức, có thể bò theo, bám vào chân mẹ.
+> 9-month baby. Mother sets baby down and goes to another room. Baby cries intensely immediately, may crawl after mother, cling to mother's leg.
 
-**Ladder classification**: **L3-L4** (distress + motor seeking + possibly proto-verbal "ma ma").
+**Ladder classification**: **L3-L4** (distress + motor seeking + possibly proto-verbal "mama").
 
 **Chunks state inference** 🟢:
 - "Mother present" chunk bound to calm baseline
 - "Mother absent" chunk bound to distress
 - **Object permanence emerging** (Piaget tradition, refined by Baillargeon gradient per [03 §3.8](03-Visual-System-Arc.md#§3.8))
 - Motor seeking chunks (crawl, grab)
-- Primitive future-oriented chunk ("mẹ sẽ quay lại nếu tôi gọi/tìm")
+- Primitive future-oriented chunk ("mom will come back if I call/seek")
 
 **Framework-critical observation from E17 Notes**:
 
-> "Đây là first instance của future-oriented chunk (mẹ sẽ quay lại nếu tôi gọi/tìm) — primitive form của prediction và agency. Bé đã có model về world ('nếu tôi làm X, thế giới response Y') từ rất sớm, không phải capability xuất hiện muộn ở tuổi mẫu giáo. Đây là một điểm framework: predictive chunks xuất hiện sớm hơn nhiều so với verbal chunks."
+> "This is the first instance of a future-oriented chunk ('mom will come back if I call/seek') — a primitive form of prediction and agency. The baby already has a model of the world ('if I do X, the world responds Y') very early, not as a capability that emerges late in preschool. This is a framework point: predictive chunks appear much earlier than verbal chunks."
 
 This is another support for H11 receptive-productive asymmetry — **predictive chunks compile receptively early** (9 months) while verbal labels for prediction compile productively much later. The world-model exists before the word.
 
@@ -390,7 +390,7 @@ This is another support for H11 receptive-productive asymmetry — **predictive 
 
 **Observable event** ([Feel-Example E19](../../Body-Base/Feeling/Feel-Example-Draft.md#e19) 10 months):
 
-> Bé 10 tháng tiếp cận con chó lạ. Bé dừng lại ở khoảng cách an toàn, quay đầu nhìn mẹ. Nếu mẹ cười và gật đầu khuyến khích, bé tiếp cận tiếp. Nếu mẹ nhăn mặt lo lắng, bé lùi lại hoặc quay đi.
+> 10-month baby approaches an unfamiliar dog. Baby stops at a safe distance, turns to look at mother. If mother smiles and nods encouragingly, baby approaches further. If mother frowns with concern, baby backs away or turns to go.
 
 **Ladder classification**: **L3-L4** — uncertainty chunk + check-other + use-response-as-info + action modification.
 
@@ -401,7 +401,7 @@ This is another support for H11 receptive-productive asymmetry — **predictive 
 
 **Framework significance**: E19 is the **first instance of Resonance being used for practical action decisions**, not just affective sharing. Per E19 Notes:
 
-> "Resonance không chỉ là mechanism passive (cảm nhận) mà còn active (hành động dựa trên output). Tight action coupling (Axis 5) xuất hiện sớm hơn nhiều so với suy nghĩ truyền thống. Bé 10 tháng đã có 'social information → physical action' loop hoạt động."
+> "Resonance is not only a passive mechanism (sensing) but also active (acting on the output). Tight action coupling (Axis 5) appears much earlier than conventional thinking. A 10-month baby already has a 'social information → physical action' loop running."
 
 **Sorce, Emde, Campos & Klinnert 1985 visual cliff experiment**: baby will NOT cross a perceived (but safe) visual cliff if mother shows worry; will cross if mother smiles. This is action-level validation of social-referencing chunks.
 
@@ -417,7 +417,7 @@ Baby is in reciprocal interaction with mother (smiling, cooing, "ah ah"). Mother
 3. **Distress phase**: baby fusses, may start crying
 4. **Withdrawal**: baby looks away, self-soothes
 
-**⭐ L2 Marker is Phase 2 "puzzled freeze"**: This is an observable pattern-match event — baby's expectation chunk ("I smile → mom smiles back") has fired, mother's face pattern violates the expectation, prediction-delta is detected, PFC registers the violation, no action chunk is immediately available → brief freeze (parallel structure to bladder đơ mặt from 06a §3.3).
+**⭐ L2 Marker is Phase 2 "puzzled freeze"**: This is an observable pattern-match event — baby's expectation chunk ("I smile → mom smiles back") has fired, mother's face pattern violates the expectation, prediction-delta is detected, PFC registers the violation, no action chunk is immediately available → brief freeze (parallel structure to bladder face-freeze from 06a §3.3).
 
 **Why it's L2 not L3 at Phase 2**: Baby has registered expectation violation but is not yet actively attempting a fix (that's Phase 1 or Phase 3 escalation). The puzzled freeze is the **pattern-match recognition without action** — the defining L2 signature.
 
@@ -426,7 +426,7 @@ Baby is in reciprocal interaction with mother (smiling, cooing, "ah ah"). Mother
 - Prediction-delta chunk fires on Phase 2 violation
 - Freeze is the body-level trace of expectation-violation pattern-match without action
 
-**Framework significance**: Still-face provides **controlled laboratory-grade L2 marker** evidence. Unlike naturalistic đơ mặt (requires parent to observe during play) or stranger anxiety (requires stranger visitation), still-face can be produced on demand by any caregiver — making it the most **experimentally reproducible** L2 marker. Mesman et al. 2009 meta-analysis of 500+ still-face studies confirms the puzzled phase is reliable across infant populations.
+**Framework significance**: Still-face provides **controlled laboratory-grade L2 marker** evidence. Unlike naturalistic face-freeze (requires parent to observe during play) or stranger anxiety (requires stranger visitation), still-face can be produced on demand by any caregiver — making it the most **experimentally reproducible** L2 marker. Mesman et al. 2009 meta-analysis of 500+ still-face studies confirms the puzzled phase is reliable across infant populations.
 
 **Clinical implication**: Postpartum depression creates **chronic still-face exposure** (depressed mother has muted facial expression). Babies of depressed mothers show developmentally adapted response patterns (faster withdrawal, reduced engagement attempts, muted affect). Field 1995; Tronick & Reck 2009 document these effects. The framework explanation: chronic expectation violation compiles **different default expectation chunks** with downstream emotional-regulation consequences.
 
@@ -434,7 +434,7 @@ Baby is in reciprocal interaction with mother (smiling, cooing, "ah ah"). Mother
 
 **Observable event** ([Feel-Example E18](../../Body-Base/Feeling/Feel-Example-Draft.md#e18) 10 months):
 
-> Bé 10 tháng đang chơi với đồ chơi. Mẹ chỉ tay vào con chó ngoài cửa sổ và nói "nhìn kìa, con chó!". Bé nhìn theo hướng tay mẹ, thấy con chó, sau đó nhìn LẠI mẹ rồi lại nhìn con chó. Chuỗi gaze này (object → mom → object) là dấu hiệu định nghĩa của joint attention.
+> 10-month baby is playing with a toy. Mother points at a dog outside the window and says "look over there, a dog!" Baby follows the direction of mother's hand, sees the dog, then looks BACK at mother, then looks at the dog again. This gaze sequence (object → mom → object) is the defining sign of joint attention.
 
 **Ladder classification**: **L4** — coordinated multi-channel triadic chunk.
 
@@ -446,7 +446,9 @@ Baby is in reciprocal interaction with mother (smiling, cooing, "ah ah"). Mother
 4. Shared-experience chunk (new at E18) — "mom sees this, I see this, we both see this"
 5. Triadic attention coordination — me + mom + object simultaneously held
 
-**Framework significance**: E18 is **the foundation for language and theory of mind**. Per E18 Notes, "Tomasello argue joint attention là FOUNDATION cho ngôn ngữ và mọi social cognition. Trước joint attention, communication chỉ là dyadic (me-you). Sau joint attention, có triadic (me-you-it), mở đường cho: Reference, Sharing experience, Shared intentionality, Eventually: ngôn ngữ explosion ở 18-24 tháng."
+**Framework significance**: E18 is **the foundation for language and theory of mind**. Per E18 Notes:
+
+> "Tomasello argues joint attention IS THE FOUNDATION for language and all social cognition. Before joint attention, communication is only dyadic (me-you). After joint attention, there is triadic (me-you-it), opening the way for: Reference, Sharing experience, Shared intentionality, Eventually: language explosion at 18-24 months."
 
 **Difference from gaze following E14**: Joint attention includes the baby **looking BACK at mother** to check shared experience. Gaze following is just "follow the vector"; joint attention is "we are both experiencing this thing together". The check-back is the critical addition — it requires treating mother as having **internal state about the object**, not just as a gaze source.
 
@@ -456,15 +458,15 @@ Baby is in reciprocal interaction with mother (smiling, cooing, "ah ah"). Mother
 
 **Observable event** ([Feel-Example E30](../../Body-Base/Feeling/Feel-Example-Draft.md#e30) 12-18 months):
 
-> Mẹ che mặt bằng tay, nói "ú... òa!" và mở tay ra. Bé 12-18 tháng cười khanh khách khi mẹ "òa". Sau vài lần, bé chủ động "che mặt" chính mình bằng tay để bắt đầu game ngược.
+> Mother covers face with hands, says "peek... boo!" and opens her hands. 12-18 month baby laughs delightedly at the "boo!" reveal. After a few rounds, baby actively covers their OWN face with their hands to initiate the game in reverse.
 
-**⭐ L2 Marker is the anticipatory excitement BEFORE "òa"**: During the "ú..." pause (mother's hand covering face), baby's face shows anticipatory expression — mouth slightly open, eyes wide, sometimes giggling before the reveal. This is an **L2 pattern-match event with positive valence** — baby has predictive chunk firing on temporal cue ("ú..." sound + covered face), chunk content is "reveal coming with smile", body-level manifestation is anticipatory excitement.
+**⭐ L2 Marker is the anticipatory excitement BEFORE "boo!"**: During the "peek..." pause (mother's hand covering face), baby's face shows anticipatory expression — mouth slightly open, eyes wide, sometimes giggling before the reveal. This is an **L2 pattern-match event with positive valence** — baby has predictive chunk firing on temporal cue ("peek..." sound + covered face), chunk content is "reveal coming with smile", body-level manifestation is anticipatory excitement.
 
-**Contrast with đơ mặt (06a §3.3) and vaccination pre-cry (06b §3.3)**:
+**Contrast with face-freeze (06a §3.3) and vaccination pre-cry (06b §3.3)**:
 
 | L2 marker | Valence | Body-level trace |
 |---|---|---|
-| Bladder đơ mặt (06a) | Neutral-to-mild-negative | Passive freeze |
+| Bladder face-freeze (06a) | Neutral-to-mild-negative | Passive freeze |
 | Vaccination pre-cry (06b) | Peak negative | Active distress cry |
 | Peek-a-boo anticipation (07) | Peak positive | Active excitement + giggle |
 
@@ -484,7 +486,7 @@ All three are L2 (pattern-match activation without full action chunks yet) but t
 5. Trust (predictability creates safety)
 6. Role reversal (eventually baby initiates)
 
-**User-referenced during framework development**: E30 Notes explicitly mentions "user trong session phát triển framework đã đề cập 'ú òa' cụ thể như example của pattern building". This event has special framework salience — it is a game-as-scaffolding-for-chunk-compile example that the user highlighted as illustrative of how complex chunks form through simple repeated play.
+*(Note: This event was specifically highlighted during framework development as a key example of how pattern-building occurs through simple repeated play.)*
 
 ### §3.13 — Completion note for §3 Read phase
 
@@ -495,7 +497,7 @@ The 11 events analyzed in §3.2-§3.12 (plus CONSPEC and Farroni references from
 - Joint attention check-back (§3.11 — weaker L2 marker, primarily L4)
 - Peek-a-boo anticipation (§3.12)
 
-Combined with the 3 L2 markers from 06a + 06b (bladder đơ mặt, vaccination pre-cry, anticipatory feeding response), the F1 L2 markers catalog now has **8+ markers** spanning negative, neutral, and positive valence, across social, interoceptive, and cognitive events. This diverse catalog is **strong cumulative evidence** for the Nút Thắt 4 reconciliation (PFC hardware online + chunks missing mechanism).
+Combined with the 3 L2 markers from 06a + 06b (bladder face-freeze, vaccination pre-cry, anticipatory feeding response), the F1 L2 markers catalog now has **8+ markers** spanning negative, neutral, and positive valence, across social, interoceptive, and cognitive events. This diverse catalog is **strong cumulative evidence** for the Convergence Point 4 reconciliation (PFC hardware online + chunks missing mechanism).
 
 ---
 
@@ -517,9 +519,9 @@ Already covered in §3.3 (E12). The smile is simultaneously an input event (baby
 - Caregiver-as-agent chunk (mother can act on object on my behalf)
 - Communication-intent chunk (gesture is for mother, not for object)
 
-**Framework significance**: Proto-imperative pointing is an **early form of alternative handle to verbal** (Nút Thắt 6 preview continued from [05 §7.3](05-Motor-Output-Arc.md#§7.3)). The baby uses gesture to label "I want that" before having verbal label for either "want" or the specific object. This is consistent with the framework commitment that **verbal is one of several labeling systems**, not the only one.
+**Framework significance**: Proto-imperative pointing is an **early form of alternative handle to verbal** (Convergence Point 6 preview continued from [05 §7.3](05-Motor-Output-Arc.md#§7.3)). The baby uses gesture to label "I want that" before having verbal label for either "want" or the specific object. This is consistent with the framework commitment that **verbal is one of several labeling systems**, not the only one.
 
-Cross-reference: [05 §2.8](05-Motor-Output-Arc.md#§2.8) pointing motor arc. [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §5 will address Nút Thắt 6 in full.
+Cross-reference: [05 §2.8](05-Motor-Output-Arc.md#§2.8) pointing motor arc. [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §5 will address Convergence Point 6 in full.
 
 ### §4.3 — Proto-declarative pointing (12-14 months)
 
@@ -544,7 +546,7 @@ This is the **earliest clear proto-ToM evidence** in F1 window. Full ToM (false-
 
 **Observable event** ([Feel-Example E29](../../Body-Base/Feeling/Feel-Example-Draft.md#e29) 16 months):
 
-> Cha đang rửa bát. Bé 16 tháng cầm bát đồ chơi, lau lau bằng tay, copy hành động cha. Hoặc mẹ talk on phone, bé cầm đồ chơi giả phone, đặt lên tai, "alô alô".
+> Father is washing dishes. 16-month baby picks up a toy plate, wipes it with their hand, copying father's action. Or mother talks on the phone, baby picks up a toy phone, holds it to their ear, and says "hello hello".
 
 **Ladder classification**: **L4** — action sequence chunk from memory + motor execution + self-agency.
 
@@ -553,7 +555,9 @@ This is the **earliest clear proto-ToM evidence** in F1 window. Full ToM (false-
 - "I can do what mother/father does" — self-agency chunk + imitation-as-learning chunk
 - Bridge toward symbolic play (object substitution: toy phone = real phone)
 
-**Framework-critical note (E29 Notes)**: "**ĐÂY KHÔNG PHẢI HARDWARE MIRROR** — đây là active learning of action chunks. Imitation IS Resonance applied to action — using own body as simulator để recreate observed action. KHÔNG cần mirror neurons hardware — chỉ cần own motor patterns + visual mapping của other's action + practice + thử sai feedback."
+**Framework-critical note (E29 Notes)**:
+
+> "THIS IS NOT HARDWARE MIRROR — this is active learning of action chunks. Imitation IS Resonance applied to action — using one's own body as a simulator to recreate observed action. NO mirror-neuron hardware needed — only own motor patterns + visual mapping of other's action + practice + trial-and-error feedback."
 
 **Meltzoff 1988** — foundational delayed imitation research. **Meltzoff's "Like Me" hypothesis** (2007) — babies treat others as "like me" agents, enabling imitation as a mechanism for learning from observation. This hypothesis is consistent with the chunks-based Resonance framework from [Agent/](../Agent/) — it does not require dedicated mirror neurons, only own-action chunks + visual-motor mapping.
 
@@ -575,21 +579,23 @@ Hoffman 2000 "egocentric empathy" — Hoffman empathy development Stage 3. This 
 
 **Cross-reference**: [06b §5.5](06b-Interoceptive-Other-States.md#§5.5) covers the interoceptive side (own chunks as content). 07 covers the social action side (applied outward). Together they give the full analysis of E26.
 
-### §4.6 — E31 "Không" autonomy assertion (18-24 months)
+### §4.6 — E31 "No" autonomy assertion (18-24 months)
 
 **Observable event** ([Feel-Example E31](../../Body-Base/Feeling/Feel-Example-Draft.md#e31) 18 months):
 
-> Bé 18 tháng. Mẹ đưa thức ăn. Bé nói "không" mặc dù có thể cũng đói. Hoặc bé tự tìm muỗng để tự xúc thay vì để mẹ xúc — "tự con!".
+> 18-month baby. Mother offers food. Baby says "no" even though hungry. Or baby actively reaches for a spoon to feed themselves instead of letting mother do it — "I'll do it!"
 
 **Ladder classification**: **L4** — self-as-agent chunk + verbal + motor autonomy action.
 
 **Chunks state inference** 🟢:
-- Self-as-agent chunk: "tôi muốn KHÁC với cái mẹ muốn — và tôi muốn được muốn khác"
+- Self-as-agent chunk: "I want something DIFFERENT from what mother wants — and I want to be allowed to want differently"
 - Self-other distinction at level of will/preference (not just identity)
-- "Không" as marker of self-distinct-from-other (not literally about food refusal)
+- "No" as marker of self-distinct-from-other (not literally about food refusal)
 - Verbal + communicative intent
 
-**Framework significance**: E31 is **NOT about the specific thing being refused** — it is about **exercising agency itself**. Per E31 Notes, "Erikson gọi giai đoạn này 'autonomy vs shame and doubt' (~18 mo - 3 yr). 'Không' là MARKER OF SELF-AGENCY, không phải về thứ cụ thể bé từ chối."
+**Framework significance**: E31 is **NOT about the specific thing being refused** — it is about **exercising agency itself**. Per E31 Notes:
+
+> "Erikson called this phase 'autonomy vs shame and doubt' (~18 mo - 3 yr). 'No' is a MARKER OF SELF-AGENCY, not about the specific thing being refused."
 
 **Self chunks as distinct category**: Per E31 framework implication, **self chunks** (chunks about "I as agent with preferences") are a distinct category from body chunks (hunger, bladder, pain) or social chunks (mother, stranger). Self chunks have content about:
 - "I am an entity"
@@ -627,7 +633,7 @@ Hoffman 2000 "egocentric empathy" — Hoffman empathy development Stage 3. This 
 | S17 | Proto-declarative pointing | 12-14 mo | L4 | Positive | Share-attention intent | Bates 1979, Tomasello |
 | S18 | E29 Delayed imitation | 14-16 mo | L4 | Varies | Action sequence stored memory | Meltzoff 1988 |
 | S19 | E26 Egocentric empathy | 18 mo | L4 | Prosocial | Own chunks as other-templates | Hoffman 2000 |
-| S20 | E31 "Không" autonomy | 18-24 mo | L4 | Self-assertive | Self-as-agent chunk | Erikson tradition |
+| S20 | E31 "No" autonomy | 18-24 mo | L4 | Self-assertive | Self-as-agent chunk | Erikson tradition |
 
 **20 S-events total** from CONSPEC birth through self-as-agent assertion at ~24 months. This is the richest events-per-file count in F1 because social is inherently multi-event across ages.
 
@@ -640,13 +646,13 @@ Notice from the table: social events reach L2 **earlier than most other body-inp
 - Social L2 at 4 months (E13 smile contagion)
 
 Compare to:
-- Bladder L2 at 12-18 months (đơ mặt)
+- Bladder L2 at 12-18 months (face-freeze)
 - Pain L2 at 9-18 months (vaccination pre-cry)
 - Hunger L2 at 4-6 months (anticipatory feeding response)
 
 **Why social is faster to L2**: Because multi-modal richness **accelerates compile**. Each social event involves multiple channels firing together, providing multiple reinforcement pathways (visual + auditory + interoceptive + emotional + motor feedback loop with caregiver). The 4-channel compile formula from 06a §6.3 predicts that events with higher multi-modal richness compile faster. Social events are the **richest multi-modal events** in the infant's experience.
 
-This is **independent validation** of the Nút Thắt 2 Precondition-2 compile mechanism claim via a different axis (multi-modal richness affects rate). The 06b cross-state synthesis showed exposure × saliency × contingency × valence; 07 adds **multi-modal richness** as a fifth implicit modulator (since social events combine all four primary channels).
+This is **independent validation** of the Convergence Point 2 Precondition-2 compile mechanism claim via a different axis (multi-modal richness affects rate). The 06b cross-state synthesis showed exposure × saliency × contingency × valence; 07 adds **multi-modal richness** as a fifth implicit modulator (since social events combine all four primary channels).
 
 ### §5.3 — Ladder non-uniform progression within social
 
@@ -662,9 +668,9 @@ Notably, **L2 events span the widest age range** in social (day 1 to 14 months d
 
 ---
 
-## §6 — ⭐ Nút Thắt 3 Primary Verdict: Multi-modal binding mechanism
+## §6 — ⭐ Convergence Point 3 Primary Verdict: Multi-modal binding mechanism
 
-> **This is the section this file was drilled to deliver.** Nút Thắt 3 asks: "HOW does newborn bind visual + auditory + somatic + emotional inputs into a single unified chunk without a verbal label and with PFC coordination capacity still compiling?" (plan §0.6 Nút Thắt 3.) This section commits the **primary verdict** using E12 social smile as keystone evidence.
+> **This is the section this file was drilled to deliver.** Convergence Point 3 asks: "HOW does newborn bind visual + auditory + somatic + emotional inputs into a single unified chunk without a verbal label and with PFC coordination capacity still compiling?" (plan §0.6 Convergence Point 3.) This section commits the **primary verdict** using E12 social smile as keystone evidence.
 
 ### §6.1 — The question framed
 
@@ -764,10 +770,10 @@ The framework commits to **four concurrent mechanisms** for multi-modal binding,
 ### §6.4 — Implications of the verdict
 
 **For H1 (chunk substrate)**:
-- H1 is supported: chunks are **strength-weighted associative networks** (per 04 §6.4 Nút Thắt 1 verdict) with **cross-modal content** from the start. Chunks are not single-modality first and then bound; they are multi-modal from the substrate level.
+- H1 is supported: chunks are **strength-weighted associative networks** (per 04 §6.4 Convergence Point 1 verdict) with **cross-modal content** from the start. Chunks are not single-modality first and then bound; they are multi-modal from the substrate level.
 - The architecture is consistent with biological substrate (Hebbian LTP across distributed regions, amygdala tagging, multisensory neurons).
 
-**For Nút Thắt 2 (Precondition-2 compile mechanism)**:
+**For Convergence Point 2 (Precondition-2 compile mechanism)**:
 - Adds **multi-modal richness** as an implicit modulator of compile rate (from 06b §6 framework)
 - Social events compile faster to L2 than interoceptive events because social events have higher multi-modal richness
 - Formula refinement: compile rate ≈ f(exposure, saliency, contingency, valence, multi-modal richness)
@@ -788,7 +794,7 @@ The framework commits to **four concurrent mechanisms** for multi-modal binding,
 - Mechanism statement per §6.2
 - E12 social smile as keystone exemplar
 - 4 converging lines each with independent support
-- Link to Nút Thắt 1 gradient verdict (chunks are strength-weighted) and Nút Thắt 2 Precondition-2 mechanism (compile rate modulators)
+- Link to Convergence Point 1 gradient verdict (chunks are strength-weighted) and Convergence Point 2 Precondition-2 mechanism (compile rate modulators)
 
 ### §6.6 — Open sub-questions
 
@@ -912,7 +918,7 @@ Framework recommendation: Agent/ file should be updated with cross-reference to 
 - [Feel-Example E9](../../Body-Base/Feeling/Feel-Example-Draft.md#e9) — cry contagion day 1
 - [Feel-Example E10](../../Body-Base/Feeling/Feel-Example-Draft.md#e10) — own-cry recording asymmetry ⭐ decisive anti-mirror evidence
 - [Feel-Example E11](../../Body-Base/Feeling/Feel-Example-Draft.md#e11) — differentiated cry at 5 months
-- [Feel-Example E12](../../Body-Base/Feeling/Feel-Example-Draft.md#e12) ⭐ social smile 7 weeks — Nút Thắt 3 keystone
+- [Feel-Example E12](../../Body-Base/Feeling/Feel-Example-Draft.md#e12) ⭐ social smile 7 weeks — Convergence Point 3 keystone
 - [Feel-Example E13](../../Body-Base/Feeling/Feel-Example-Draft.md#e13) — smile contagion 4 months
 - [Feel-Example E14](../../Body-Base/Feeling/Feel-Example-Draft.md#e14) — gaze following 6 months
 - [Feel-Example E15](../../Body-Base/Feeling/Feel-Example-Draft.md#e15) — mother recognition 5 months
@@ -924,7 +930,7 @@ Framework recommendation: Agent/ file should be updated with cross-reference to 
 - [Feel-Example E26](../../Body-Base/Feeling/Feel-Example-Draft.md#e26) — egocentric empathy 18 months
 - [Feel-Example E29](../../Body-Base/Feeling/Feel-Example-Draft.md#e29) — delayed imitation 16 months
 - [Feel-Example E30](../../Body-Base/Feeling/Feel-Example-Draft.md#e30) ⭐ peek-a-boo 12-18 months — L2 Marker #6
-- [Feel-Example E31](../../Body-Base/Feeling/Feel-Example-Draft.md#e31) — "không" autonomy 18 months
+- [Feel-Example E31](../../Body-Base/Feeling/Feel-Example-Draft.md#e31) — "no" autonomy 18 months
 
 ### §8.12 — Framework files
 
@@ -935,26 +941,26 @@ Framework recommendation: Agent/ file should be updated with cross-reference to 
 
 ---
 
-## §9 — Nút Thắt contributions summary
+## §9 — Convergence Points contributions summary
 
-### §9.1 — Nút Thắt 3 ⭐ PRIMARY VERDICT (committed §6)
+### §9.1 — Convergence Point 3 ⭐ PRIMARY VERDICT (committed §6)
 
 Multi-mechanism binding verdict: 4 concurrent mechanisms (temporal + multisensory + DMN + amygdala tag). E12 social smile keystone. R-F1-3 update recommendation logged.
 
-### §9.2 — Nút Thắt 4 (PFC hardware × chunks missing)
+### §9.2 — Convergence Point 4 (PFC hardware × chunks missing)
 
 **3 additional L2 markers** for the catalog (bringing total to 8+):
 - E16 Stranger anxiety face progression (§3.7)
 - E20 Still-face Phase 2 puzzled (§3.10)
 - E30 Peek-a-boo anticipation (§3.12)
 
-Combined with 06a đơ mặt + 06b vaccination pre-cry + 06b anticipatory feeding + Farroni direct gaze + VoE (from 03) = **8 L2 markers** across 5 body-inputs and 3 valence categories.
+Combined with 06a face-freeze + 06b vaccination pre-cry + 06b anticipatory feeding + Farroni direct gaze + VoE (from 03) = **8 L2 markers** across 5 body-inputs and 3 valence categories.
 
-### §9.3 — Nút Thắt 5 (H11 Receptive-Productive)
+### §9.3 — Convergence Point 5 (H11 Receptive-Productive)
 
 Cross-reference observation only. Mother recognition receptive at 5mo (E15) vs mother verbal label productive at 12-14mo (future 08 §4) = ~7-9mo gap for mother-identity. Consistent with H11 ratio. Full formalization in 08 §6.
 
-### §9.4 — Nút Thắt 6 (Alternative labeling handles)
+### §9.4 — Convergence Point 6 (Alternative labeling handles)
 
 Preview contributions:
 - Proto-imperative pointing 9-10mo (§4.2) — gestural request before verbal
@@ -977,13 +983,13 @@ All support the framework claim that **verbal is one of several labeling/handle 
 - [03-Visual-System-Arc.md](03-Visual-System-Arc.md) — §3.1 CONSPEC, §3.2 Farroni direct gaze, §3.5 face integration, §3.9 face narrowing
 - [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) — §2 maternal voice prenatal, §3.4 Mandel name 4.5mo
 - [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) — §2.4 visuomotor, §2.8 pointing, §7 gestural communication
-- [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) — §3.3 đơ mặt L2 methodology (applied to 07 L2 markers)
+- [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) — §3.3 face-freeze L2 methodology (applied to 07 L2 markers)
 - [06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md) — §5 emotional interoception, §5.5 E26 cross-ref back
 
 **Forward**:
-- [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) — §5 Nút Thắt 6 full verdict, §6 H11 formalization with 07 data points
+- [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) — §5 Convergence Point 6 full verdict, §6 H11 formalization with 07 data points
 - [09-Event-Chunks-Inference-Matrix.md](09-Event-Chunks-Inference-Matrix.md) — master matrix incorporating 20 S-events
-- [10-F1-Synthesis.md](10-F1-Synthesis.md) — Nút Thắt 3 + Nút Thắt 4 final verdicts, R-F1-3 recommendation
+- [10-F1-Synthesis.md](10-F1-Synthesis.md) — Convergence Point 3 + Convergence Point 4 final verdicts, R-F1-3 recommendation
 
 ### §10.2 — Agent/ sub-folder (drilled N+2)
 
@@ -994,7 +1000,7 @@ All support the framework claim that **verbal is one of several labeling/handle 
 
 ### §10.3 — Body-Feedback-Draft (drilled N+3)
 
-- [Body-Feedback-Draft/01-Foundation.md §5.5.4](../Body-Feedback-Draft/01-Foundation.md#§5.5.4) — buồn gradient (emotional layer emergence)
+- [Body-Feedback-Draft/01-Foundation.md §5.5.4](../Body-Feedback-Draft/01-Foundation.md#§5.5.4) — emotional layer emergence
 - [Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) — Precondition-5 Compile-Gate, cortisol tagging (relevant to §6 attachment emotional arc)
 
 ### §10.4 — Body-Base framework
@@ -1010,7 +1016,7 @@ All support the framework claim that **verbal is one of several labeling/handle 
 
 ## §11 — Open questions
 
-### §11.1 — Nút Thắt 3 mechanism-specific
+### §11.1 — Convergence Point 3 mechanism-specific
 
 1. **Relative contribution weighting** (from §6.6 #1): Which of the 4 mechanisms contributes most? Current framework treats as concurrent without weights. Partial dissociations in animal models + human clinical populations may inform.
 
@@ -1043,13 +1049,13 @@ All support the framework claim that **verbal is one of several labeling/handle 
 
 ## §12 — Status
 
-**File status**: DRAFT N+4c1 P12 — ready for user review. ⭐ MANDATORY REVIEW STOP per plan §5.5 (Nút Thắt 3 primary verdict file).
+**File status**: DRAFT N+4c1 P12 — ready for user review. ⭐ MANDATORY REVIEW STOP per plan §5.5 (Convergence Point 3 primary verdict file).
 
-**Nút Thắt delivered**:
-- ⭐ Nút Thắt 3 PRIMARY VERDICT committed in §6 — multi-mechanism binding (4 concurrent mechanisms: temporal + multisensory + DMN + amygdala tag) with E12 social smile as keystone
-- Nút Thắt 4 reinforcement — 3 additional L2 markers (E16 stranger anxiety face progression, E20 still-face Phase 2, E30 peek-a-boo anticipation) added to catalog (total 8+ markers)
-- Nút Thắt 5 preview — mother-identity gap ~7-9mo consistent with H11 ratio
-- Nút Thắt 6 preview — proto-imperative + proto-declarative pointing + E29 delayed imitation + E26 egocentric empathy = multiple alternative handles before verbal
+**Convergence Points delivered**:
+- ⭐ Convergence Point 3 PRIMARY VERDICT committed in §6 — multi-mechanism binding (4 concurrent mechanisms: temporal + multisensory + DMN + amygdala tag) with E12 social smile as keystone
+- Convergence Point 4 reinforcement — 3 additional L2 markers (E16 stranger anxiety face progression, E20 still-face Phase 2, E30 peek-a-boo anticipation) added to catalog (total 8+ markers)
+- Convergence Point 5 preview — mother-identity gap ~7-9mo consistent with H11 ratio
+- Convergence Point 6 preview — proto-imperative + proto-declarative pointing + E29 delayed imitation + E26 egocentric empathy = multiple alternative handles before verbal
 
 **Framework contributions logged**:
 - R-F1-3: Multi-mechanism cross-modal binding architectural commitment (§6.5)
@@ -1057,40 +1063,48 @@ All support the framework claim that **verbal is one of several labeling/handle 
 
 **20 S-events analyzed** with Ladder classification (§5.1 master table).
 
-**Framework-critical quotes preserved verbatim**:
-- E9 Resonance mechanism verbatim (§3.2)
-- E13 timing asymmetry (cry day 1 vs smile 3-4 months) verbatim (§3.4)
-- E14 Tomasello joint attention foundation verbatim (§3.6 + §3.11)
-- E16 depth-creates-blindspot verbatim (§3.7)
-- E17 future-oriented chunks verbatim (§3.8)
-- E20 chronic still-face clinical implication verbatim (§3.10)
-- E29 "imitation is NOT hardware mirror" verbatim (§4.4)
-- E30 user-referenced "ú òa" framework example preserved (§3.12)
-- E31 "không as MARKER OF SELF-AGENCY" verbatim (§4.6)
+**Framework-critical content preserved and translated**:
+- E9 Resonance mechanism (§3.2) — chunk-based vs hardware mirror rejection
+- E13 timing asymmetry (cry day 1 vs smile 3-4 months) (§3.4)
+- E14 Tomasello joint attention foundation (§3.6 + §3.11)
+- E16 depth-creates-blindspot (§3.7)
+- E17 future-oriented chunks (§3.8)
+- E20 chronic still-face clinical implication (§3.10)
+- E29 "imitation is NOT hardware mirror" (§4.4)
+- E30 peek-a-boo as pattern-building-through-play example (§3.12)
+- E31 "no as MARKER OF SELF-AGENCY" (§4.6)
 
 **Framework rules maintained**:
-- ✅ Event-inference methodology (01 §6.3)
+- ✅ Event-inference methodology ([01 §6.3](01-PFC-Hardware-Reframe.md#§6.3))
 - ✅ No "PFC matures at X age" claims
 - ✅ PFC-Inference Ladder (L0-L4) for every event
 - ✅ 🟢🟡🔴 confidence marking consistent
-- ✅ Baseline state (02 §9.1) referenced where relevant
-- ✅ Bidirectional Feel-Example cross-references with line numbers
+- ✅ Baseline state ([02 §9.1](02-Womb-to-Birth-Baseline.md#§9.1)) referenced where relevant
+- ✅ Bidirectional Feel-Example cross-references with section anchors
 - ✅ No personal examples
-- ✅ Tiếng Việt primary + English technical terms
-- ✅ 16 verbatim quotes preserved from Feel-Example + Agent/By-Product-Gap-Resonance.md + framework
+- ✅ All "Nút Thắt" → "Convergence Point" throughout
+- ✅ All "đơ mặt" → "face-freeze" throughout
+- ✅ Vietnamese Feel-Example event descriptions + notes translated throughout
+- ✅ Self-chunk list in E31 translated from Vietnamese
 
 **Cross-references bidirectional**:
 - Backward: 00, 01, 02, 03, 04, 05, 06a, 06b + Agent/ (3 files) + Body-Feedback-Draft + Body-Base + Imagination
 - Forward: 08, 09, 10
 
 **Review points** for user:
-1. **Nút Thắt 3 verdict structure**: Is the 4-mechanism multi-mechanism verdict adequately supported, or does one mechanism need more drilling?
+1. **Convergence Point 3 verdict structure**: Is the 4-mechanism multi-mechanism verdict adequately supported, or does one mechanism need more drilling?
 2. **E12 as keystone**: Is the framing of E12 social smile as THE keystone correct, or should other events share keystone status (E9 cry contagion day 1 as alternative claim)?
-3. **L2 marker catalog at 8+ markers**: Is this the appropriate level of detail for the Nút Thắt 4 reinforcement, or should L2 catalog have its own synthesis section in 10?
+3. **L2 marker catalog at 8+ markers**: Is this the appropriate level of detail for the Convergence Point 4 reinforcement, or should L2 catalog have its own synthesis section in 10?
 4. **Agent/ cross-references depth**: Is the §7 cross-reference section adequate, or should 07 re-expose Resonance mechanism more fully for standalone readability?
 5. **Framework-critical E9+E10 treatment**: Is the "decisive evidence against hardware mirror" framing clear enough? This is framework-load-bearing.
 6. **Egocentric empathy E26 split**: Is it OK that E26 is covered in both 06b §5.5 (interoceptive side) and 07 §4.5 (social action side), or should one be removed?
 
 **Next after review**: Phase F1-P12.5 N+4c1 closeout — update parent plan + sub-plan + memory + NEXT-SESSION-DIRECTIONS for N+4c2. Then session N+4c2 (user decides timing) will drill 08 + 09 + 10.
 
-**N+4c1 progress after this file**: 3/3 files complete (06a 894L + 06b 914L + 07 ~TBD lines). N+4c1 mission accomplished. F1 progress 9/12 files (75%).
+**N+4c1 progress after this file**: 3/3 files complete (06a + 06b + 07). N+4c1 mission accomplished. F1 progress 9/12 files (75%).
+
+---
+
+> **07-Social-Recognition-Arc.md — End of file.**
+>
+> ⭐ Convergence Point 3 PRIMARY VERDICT committed: multi-mechanism binding (4 concurrent mechanisms). E12 social smile keystone at 6-8 weeks. 3 additional L2 markers for Convergence Point 4. Resonance chunk-based mechanism decisively validated via E9+E10 asymmetry and E13 smile contagion timing gap.

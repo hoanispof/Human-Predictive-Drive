@@ -1,5 +1,7 @@
+# Neural-Processing-Flow — Complete Flow from Sensor → Cortex → PFC → Output
+
 ---
-title: Neural-Processing-Flow — Toàn bộ flow từ Sensor → Cortex → PFC → Output
+title: Neural-Processing-Flow — Complete flow from Sensor → Cortex → PFC → Output
 version: 2.0
 created: 2026-04-17 (N+5 session)
 updated: 2026-05-17 (v2.0 — +Compilable Architecture framing, +Compiled/Fresh at physical level, +PFC=Lawyer strengthen, +5-Channel mapping, +L3 operator fix, +Inter-Body cross-refs)
@@ -7,7 +9,7 @@ previous: v1.0 → backup/Neural-Processing-Flow-v1.0-backup.md
 status: v2.0
 scope: HARDWARE FLOW + PROCESSING FLOW + Compilable Architecture connection
 purpose: |
-  Nền tảng gốc — con đường vật lý tín hiệu đi qua trong não.
+  Original foundation — the physical pathway signals travel through the brain.
   v2.0: WHY this hardware (Compilable Architecture trade-off), Compiled/Fresh at physical level,
   PFC=Lawyer as structural function, 5-Channel Input Vector connection.
 position: Core-Deep-Dive/ (mechanism file)
@@ -17,28 +19,26 @@ dependencies:
   - Logic-Feeling.md v2.0 — Compiled/Fresh axis
   - Body-Feedback-Mechanism.md v2.0 — 2-source, Body-Need
   - Body-Input-Enumeration.md — full body input catalog
-language: Tiếng Việt primary + English technical
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Neural-Processing-Flow — Toàn bộ flow từ Sensor → Cortex → PFC → Output
-
-> **File này trả lời:** Khi mắt thấy, tai nghe, da chạm, tim đập — tín hiệu đi CON ĐƯỜNG NÀO trong não?
+> **This file answers:** When eyes see, ears hear, skin touches, heart beats — what PATH does the signal travel through in the brain?
 >
-> **Tại sao quan trọng:** Mọi cơ chế khác (chunk, feeling, logic, imagination, plan) đều CHẠY TRÊN con đường vật lý này.
+> **Why it matters:** All other mechanisms (chunk, feeling, logic, imagination, plan) RUN ON this physical pathway.
 
 ---
 
-## §0 — Vị trí trong framework
+## §0 — Position in the Framework
 
 ```
   ┌─────────────────────────────────────────────────────┐
-  │ HARDWARE LAYER (file này)                           │
-  │ = CON ĐƯỜNG VẬT LÝ: Sensors → Thalamus → Cortex   │
+  │ HARDWARE LAYER (this file)                           │
+  │ = PHYSICAL PATHWAY: Sensors → Thalamus → Cortex    │
   │   → Binding → Chunks → PFC → Output → Feedback     │
   ├─────────────────────────────────────────────────────┤
   │ CONTENT LAYER (Schema/Chunk.md + Modality)          │
-  │ = PATTERNS compile trên hardware                     │
+  │ = PATTERNS compile on hardware                      │
   ├─────────────────────────────────────────────────────┤
   │ PROCESSING LAYER (Logic-Feeling.md v2.0)            │
   │ = Compiled/Fresh spectrum (not "2 modes")           │
@@ -49,15 +49,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ COMPILABLE ARCHITECTURE CONNECTION (Inter-Body-Mechanism.md §1):
 
-  TẠI SAO hardware này tồn tại:
-    Evolution chọn Compilable Architecture cho con người:
-      ① General-Purpose Reward — fire cho BẤT KỲ gap fill đúng direction
+  WHY this hardware exists:
+    Evolution selected Compilable Architecture for humans:
+      ① General-Purpose Reward — fires for ANY gap fill in the right direction
       ② Compilation — repeat + verify → automatic (Hebbian LTP)
       ③ Social Hardware — oxytocin, μ-opioid, dACC reuse
 
     Trade-off of Compilable Architecture:
-      → Adapt BẤT KỲ environment (general-purpose)
-      → NHƯNG: cần 15-20 năm compile (slow development)
+      → Adapts to ANY environment (general-purpose)
+      → BUT: requires 15-20 years to compile (slow development)
       → Hardware below = ENABLES Compilable Architecture:
         Thalamus gate = general-purpose filter (not hardwired per stimulus)
         6-layer cortex = uniform fabric (compile ANY pattern)
@@ -78,43 +78,43 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §1 — Body Sensors: Input sources
+## §1 — Body Sensors: Input Sources
 
 > **Full enumeration: Body-Input-Enumeration.md**
 
-### §1.1 — Exteroceptive (sensing thế giới bên ngoài)
+### §1.1 — Exteroceptive (sensing the external world)
 
 ```
-VISION (mắt):
-  Receptor: rods (~120M, sáng/tối) + cones (~6M, màu) trên retina
-  → Retina xử lý sơ bộ → optic nerve → thalamus (LGN) → V1
-  Pathway đặc biệt:
-    Circadian: ipRGC → SCN hypothalamus (BYPASS visual cortex — Berson 2002)
-    Threat:    retina → LGN → amygdala (~12ms, BYPASS V1 — LeDoux 1996)
+VISION (eyes):
+  Receptor: rods (~120M, light/dark) + cones (~6M, color) on retina
+  → Retina performs preliminary processing → optic nerve → thalamus (LGN) → V1
+  Special pathways:
+    Circadian: ipRGC → SCN hypothalamus (BYPASSES visual cortex — Berson 2002)
+    Threat:    retina → LGN → amygdala (~12ms, BYPASSES V1 — LeDoux 1996)
 
-AUDITION (tai):
-  Receptor: hair cells (~16,000) trong cochlea
+AUDITION (ears):
+  Receptor: hair cells (~16,000) in cochlea
   → Cochlear nerve → thalamus (MGN) → A1 (auditory cortex)
-  Tonotopic mapping: tần số → vị trí trên cortex
+  Tonotopic mapping: frequency → position on cortex
 
-OLFACTION (mũi):
-  Receptor: ~10M olfactory neurons, ~400 loại receptor
+OLFACTION (nose):
+  Receptor: ~10M olfactory neurons, ~400 receptor types
   → Olfactory bulb → olfactory cortex → limbic
-  ⭐ NGOẠI LỆ: BYPASS THALAMUS hoàn toàn (sense CỔ NHẤT, >500M năm)
-  → mùi → emotional memory MẠNH + NHANH nhất  🟢 Gottfried 2010
+  ⭐ EXCEPTION: BYPASSES THALAMUS entirely (oldest sense, >500M years)
+  → smell → STRONGEST + FASTEST emotional memory  🟢 Gottfried 2010
 
-GUSTATION (lưỡi):
-  Receptor: ~10,000 taste buds (ngọt/mặn/chua/đắng/umami)
+GUSTATION (tongue):
+  Receptor: ~10,000 taste buds (sweet/salty/sour/bitter/umami)
   → Cranial nerves → thalamus (VPM) → gustatory cortex (insula)
 
-TACTILE (da):
-  Receptor: Meissner (nhẹ), Pacinian (rung), Merkel (áp lực), Ruffini (kéo giãn)
-  + Thermoreceptors + Nociceptors (A-delta nhanh + C-fiber chậm)
-  + ⭐ C-tactile fibers (pleasant touch → insula TRỰC TIẾP, pathway riêng — Olausson 2002)
+TACTILE (skin):
+  Receptor: Meissner (light), Pacinian (vibration), Merkel (pressure), Ruffini (stretch)
+  + Thermoreceptors + Nociceptors (A-delta fast + C-fiber slow)
+  + ⭐ C-tactile fibers (pleasant touch → insula DIRECTLY, separate pathway — Olausson 2002)
   → Spinal cord → thalamus (VPL) → somatosensory cortex (S1/S2)
 ```
 
-### §1.2 — Proprioceptive (sensing vị trí cơ thể)
+### §1.2 — Proprioceptive (sensing body position)
 
 ```
 PROPRIOCEPTION: muscle spindles + joint receptors + Golgi tendon → thalamus → S1 + cerebellum
@@ -122,7 +122,7 @@ VESTIBULAR: semicircular canals + otoliths → vestibular nuclei → cerebellum 
 KINESTHETIC: muscle activity + efference copy (motor → cerebellum)
 ```
 
-### §1.3 — Interoceptive (sensing trạng thái bên trong)
+### §1.3 — Interoceptive (sensing internal state)
 
 ```
 Cardiovascular: baroreceptors → vagus → brainstem → insula
@@ -133,12 +133,12 @@ Hormonal: cortisol/oxytocin/dopamine/serotonin → body STATE changes
 Nociception internal: A-delta + C-fibers → ACC + insula
 Thermal core: hypothalamic thermosensors
 
-⭐ HUB: Hầu hết interoceptive → ANTERIOR INSULA
+⭐ HUB: Most interoceptive → ANTERIOR INSULA
   Craig 2009: anterior insula = "seat of subjective awareness" 🟢
 
 ⭐ SELF-SIGNAL INTEROCEPTION (meta-capacity):
-  = Khả năng đọc chính internal state → Anterior insula + ACC + vmPFC
-  = Predictive: não DỰ ĐOÁN body state, match actual → prediction-delta
+  = Capacity to read one's own internal state → Anterior insula + ACC + vmPFC
+  = Predictive: brain PREDICTS body state, matches actual → prediction-delta
   🟢 Seth 2013, Barrett 2017
 ```
 
@@ -146,32 +146,32 @@ Thermal core: hypothalamic thermosensors
 
 ```
 ~20+ sensor types, 3 categories:
-  Exteroceptive:  5 loại (mắt, tai, mũi, lưỡi, da)
-  Proprioceptive: 3 loại (vị trí, thăng bằng, chuyển động)
-  Interoceptive:  7+ loại (tim, phổi, ruột, chuyển hóa, hormone, đau, nhiệt)
+  Exteroceptive:  5 types (eyes, ears, nose, tongue, skin)
+  Proprioceptive: 3 types (position, balance, movement)
+  Interoceptive:  7+ types (heart, lungs, gut, metabolism, hormones, pain, temperature)
 
-Tất cả output = action potentials (xung điện). Khác ở: tần số + pattern + pathway.
+All output = action potentials (electrical impulses). Differ in: frequency + pattern + pathway.
 ```
 
 ---
 
 ## §2 — Thalamus: Gateway + Gatekeeper
 
-### §2.1 — Thalamus là gì
+### §2.1 — What is the Thalamus
 
 ```
-⭐ THALAMUS = TRẠM TRUNG CHUYỂN TRUNG TÂM
+⭐ THALAMUS = CENTRAL RELAY STATION
 
-  Vị trí: trung tâm não. Kích thước: ~2 hạt óc chó.
+  Location: center of the brain. Size: ~2 walnuts.
   
-  RELAY:  chuyển tiếp signals từ sensors → cortex
-  FILTER: lọc signals (không phải mọi input đều lên cortex)
-  GATE:   mở/đóng channels theo attention (PFC ra lệnh)
+  RELAY:  relays signals from sensors → cortex
+  FILTER: filters signals (not every input reaches cortex)
+  GATE:   opens/closes channels by attention (PFC directs)
   
   🟢 Sherman & Guillery 2006 — thalamus as active relay
 ```
 
-### §2.2 — Mỗi sense có nucleus riêng
+### §2.2 — Each sense has its own nucleus
 
 ```
   Input          → Thalamic Nucleus     → Cortical Destination
@@ -183,20 +183,20 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
   Proprioception → VPL                  → S1 + Cerebellum
   Interoception  → VMb + VMpo           → Anterior Insula
 
-  ⭐ NGOẠI LỆ (BYPASS thalamus):
-  ① Olfaction → olfactory cortex → limbic TRỰC TIẾP
-  ② Amygdala subcortical: retina → LGN → amygdala (~12ms, trước V1)
-  ③ Circadian: ipRGC → SCN hypothalamus (không hình ảnh)
+  ⭐ EXCEPTIONS (BYPASS thalamus):
+  ① Olfaction → olfactory cortex → limbic DIRECTLY
+  ② Amygdala subcortical: retina → LGN → amygdala (~12ms, before V1)
+  ③ Circadian: ipRGC → SCN hypothalamus (no image formation)
 ```
 
-### §2.3 — Thalamo-cortical loop: 2 chiều
+### §2.3 — Thalamo-cortical loop: Bidirectional
 
 ```
-  BOTTOM-UP: Thalamus → Layer 4 cortex (raw data vào)
+  BOTTOM-UP: Thalamus → Layer 4 cortex (raw data in)
   TOP-DOWN:  Cortex Layer 6 → thalamus (feedback: filter/amplify/suppress)
-  PFC CONTROL: PFC → TRN (Thalamic Reticular Nucleus) → gate toàn bộ thalamus
+  PFC CONTROL: PFC → TRN (Thalamic Reticular Nucleus) → gates the entire thalamus
   
-  ⭐ METAPHOR: Thalamus = tổng đài, TRN = operator, PFC = giám đốc chỉ đạo operator
+  ⭐ METAPHOR: Thalamus = telephone exchange, TRN = operator, PFC = director instructing the operator
   
   🟢 McAlonan et al. 2008 — TRN attentional gating
   🟢 Crick 1984 — searchlight hypothesis
@@ -206,35 +206,35 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
 
 ## §3 — Cortical Areas: 6-Layer Architecture
 
-### §3.1 — Cortical column: Kiến trúc cơ bản giống nhau
+### §3.1 — Cortical column: Same basic architecture
 
 ```
-⭐ MOUNTCASTLE 1957: Toàn bộ neocortex = CẤU TRÚC 6 LỚP giống nhau:
+⭐ MOUNTCASTLE 1957: Entire neocortex = SAME 6-LAYER STRUCTURE:
 
-  Layer 1  MOLECULAR:          highway kết nối ngang giữa columns
-  Layer 2/3 EXTERNAL PYRAMIDAL: nhận/gửi từ CORTEX KHÁC (cross-modal đi qua đây)
-  Layer 4  INTERNAL GRANULAR:   nhận input từ THALAMUS (raw data port)
-  Layer 5  INTERNAL PYRAMIDAL:  gửi output ra NGOÀI cortex (motor, subcortical)
-  Layer 6  MULTIFORM:           gửi feedback VỀ THALAMUS (loop control)
+  Layer 1  MOLECULAR:          horizontal connection highway between columns
+  Layer 2/3 EXTERNAL PYRAMIDAL: receives/sends from OTHER CORTEX (cross-modal goes through here)
+  Layer 4  INTERNAL GRANULAR:   receives input from THALAMUS (raw data port)
+  Layer 5  INTERNAL PYRAMIDAL:  sends output OUTSIDE cortex (motor, subcortical)
+  Layer 6  MULTIFORM:           sends feedback BACK TO THALAMUS (loop control)
 
   = "Neocortex is a uniform computational fabric" (Mountcastle)
-  = Khác nhau ở WIRING + THICKNESS + RECEPTOR RATIO, không ở basic architecture
+  = Differ in WIRING + THICKNESS + RECEPTOR RATIO, not in basic architecture
   
   🟢 Mountcastle 1957, 1978
   🟢 Douglas & Martin 2004 — canonical microcircuit
 ```
 
-### §3.2 — Chuyên môn hóa: cùng kiến trúc, khác configuration
+### §3.2 — Specialization: same architecture, different configuration
 
 ```
   ① LAYER THICKNESS:
-     V1:  Layer 4 CỰC DÀY (nhiều raw visual input)
-     M1:  Layer 4 MỎNG, Layer 5 DÀY (ít nhận, nhiều gửi output)
-     PFC: Layer 2/3 DÀY (nhiều cortex↔cortex connections)
+     V1:  Layer 4 EXTREMELY THICK (many raw visual inputs)
+     M1:  Layer 4 THIN, Layer 5 THICK (little input, much output)
+     PFC: Layer 2/3 THICK (many cortex↔cortex connections)
 
   ② RECEPTOR DENSITY:
-     PFC: nhiều dopamine D1/D2 → sensitive VTA signals
-     V1:  ít dopamine, nhiều glutamate → high throughput
+     PFC: many dopamine D1/D2 → sensitive to VTA signals
+     V1:  little dopamine, much glutamate → high throughput
 
   ③ INHIBITORY RATIO:
      PFC: ~30% inhibitory → STRONG gate/brake
@@ -249,47 +249,47 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
 ### §3.3 — Many-to-many mapping
 
 ```
-⭐ KHÔNG PHẢI 1:1. Mapping là MANY-TO-MANY:
+⭐ NOT 1:1. Mapping is MANY-TO-MANY:
 
-  1 SENSOR → NHIỀU cortical areas:
-  ┌──────┐    ┌─ V1 Visual cortex (hình ảnh conscious)
-  │ MẮT  ├────├─ Amygdala (~12ms, threat, TRƯỚC V1!)
-  │      │    ├─ SCN hypothalamus (circadian, không hình ảnh)
+  1 SENSOR → MANY cortical areas:
+  ┌──────┐    ┌─ V1 Visual cortex (conscious image)
+  │ EYES ├────├─ Amygdala (~12ms, threat, BEFORE V1!)
+  │      │    ├─ SCN hypothalamus (circadian, no image)
   └──────┘    └─ Superior Colliculus (eye orienting)
 
   ┌──────┐    ┌─ A1 Auditory cortex
-  │ TAI  ├────├─ Amygdala (emotional sounds)
+  │ EARS ├────├─ Amygdala (emotional sounds)
   │      │    ├─ Wernicke (speech sounds)
   └──────┘    └─ Motor cortex (rhythm→movement)
 
   ┌──────┐    ┌─ S1/S2 Somatosensory (where, what)
-  │ DA   ├────├─ Insula (C-tactile: pleasant/unpleasant)
+  │ SKIN ├────├─ Insula (C-tactile: pleasant/unpleasant)
   │      │    ├─ ACC (pain: suffering dimension)
   └──────┘    └─ Motor (reflexive withdrawal)
 
-  1 CORTICAL AREA ← NHIỀU sensors:
-  AMYGDALA ← mắt + tai + da + mũi + nội tạng + hormone + mirror
+  1 CORTICAL AREA ← MANY sensors:
+  AMYGDALA ← eyes + ears + skin + nose + visceral + hormones + mirror
 
-  ⭐ IMPLICATION: "Modality" = PROCESSING AREA, không phải "input source"
-  → Visual modality = Visual cortex PROCESSING (nhận chủ yếu từ mắt
-    + top-down từ PFC + cross-modal từ auditory)
+  ⭐ IMPLICATION: "Modality" = PROCESSING AREA, not "input source"
+  → Visual modality = Visual cortex PROCESSING (receives mainly from eyes
+    + top-down from PFC + cross-modal from auditory)
 ```
 
-### §3.4 — Visual hierarchy: Ví dụ 1 pathway chi tiết
+### §3.4 — Visual hierarchy: 1 pathway in detail
 
 ```
   Retina → LGN → V1 → V2 → V4 → IT
                          ↓
                          MT → MST
 
-  V1: edges, orientations     → "đường thẳng 45°"
-  V2: contours, borders       → "viền hình tròn"  
-  V4: shapes, colors          → "hình tròn, đỏ"
-  IT: objects, faces           → "quả táo" / "khuôn mặt mẹ" (CHUNKS!)
-  MT: motion                  → "vật đi sang trái"
+  V1: edges, orientations     → "45° line"
+  V2: contours, borders       → "circular border"
+  V4: shapes, colors          → "circle, red"
+  IT: objects, faces          → "apple" / "mother's face" (CHUNKS!)
+  MT: motion                  → "object moving left"
 
-  ⭐ PFC đọc IT (compiled patterns), KHÔNG đọc V1 (raw pixels)
-  = PFC observe KẾT QUẢ compiled, không raw data
+  ⭐ PFC reads IT (compiled patterns), does NOT read V1 (raw pixels)
+  = PFC observes COMPILED RESULTS, not raw data
   
   🟢 Felleman & Van Essen 1991
   🟢 Kanwisher 1997 — FFA (fusiform face area)
@@ -297,7 +297,7 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
 
 ---
 
-## §4 — Binding: Cách não sync multi-modal input
+## §4 — Binding: How the Brain Syncs Multi-Modal Input
 
 > **F1 verdict: 07 §6 Emergent-Binding — 4 concurrent mechanisms**
 
@@ -306,17 +306,17 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
 ```
 🟢 SINGER & GRAY 1995:
 
-  Neurons ở KHÁC cortical areas fire CÙNG PHASE trong gamma band (~30-80Hz):
-  → "fire cùng phase = thuộc cùng object"
+  Neurons in DIFFERENT cortical areas fire IN THE SAME PHASE in gamma band (~30-80Hz):
+  → "firing in the same phase = belonging to the same object"
 
-  Quả táo: V1(đỏ) + V4(tròn) + MT(đứng yên) fire ~40Hz phase A = CÙNG object
-  Cái ly:  V1(xanh) + V4(trụ) fire ~40Hz phase B = KHÁC object
+  Apple: V1(red) + V4(round) + MT(stationary) fire ~40Hz phase A = SAME object
+  Cup:   V1(blue) + V4(cylindrical) fire ~40Hz phase B = DIFFERENT object
 
-  Cross-modal: Visual(táo) + Olfactory(mùi táo) + Somatic(cứng mát) cùng phase A
-  → Bind thành 1 multi-modal chunk
+  Cross-modal: Visual(apple) + Olfactory(apple scent) + Somatic(hard, cool) same phase A
+  → Bind into 1 multi-modal chunk
 
   🟢 Singer 1999, Engel & Singer 2001, Fries 2005
-  🟡 Debate: mechanism chính hay correlate? (evidence mạnh, 25+ năm)
+  🟡 Debate: primary mechanism or correlate? (strong evidence, 25+ years)
 ```
 
 ### §4.2 — Multisensory neurons — Hardware-level binding
@@ -324,31 +324,31 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
 ```
 🟢 STEIN & MEREDITH 1993:
 
-  Neurons NHẬN INPUT TỪ NHIỀU MODALITIES:
-  → 1 neuron fire khi CẢ thấy VÀ nghe cùng object
-  → Nằm ở: Superior Colliculus, STS, Intraparietal Sulcus
+  Neurons RECEIVE INPUT FROM MULTIPLE MODALITIES:
+  → 1 neuron fires when BOTH seeing AND hearing the same object
+  → Located in: Superior Colliculus, STS, Intraparietal Sulcus
 
-  SUPERADDITIVITY: Visual(10) + Auditory(8) → cùng lúc = 30 spikes (≠ 18!)
-  TEMPORAL WINDOW: ~100-200ms để binding xảy ra
+  SUPERADDITIVITY: Visual(10) + Auditory(8) → simultaneously = 30 spikes (≠ 18!)
+  TEMPORAL WINDOW: ~100-200ms for binding to occur
   DEVELOPMENTAL: present FROM BIRTH (hardware)
   
   🟢 Ghazanfar & Schroeder 2006
 ```
 
-### §4.3 — Convergence zones — Hub areas tích hợp
+### §4.3 — Convergence zones — Integration hub areas
 
 ```
 🟢 DAMASIO 1989:
 
   PARIETAL:      ← visual + auditory + somatosensory + proprioceptive
-                 → SPATIAL MAP: "cái gì ở đâu"  🟢 Andersen 1997
+                 → SPATIAL MAP: "what is where"  🟢 Andersen 1997
 
   STS:           ← face + voice + body language
-                 → PERSON PERCEPTION: "ai đang làm gì"  🟢 Hein & Knight 2008
+                 → PERSON PERCEPTION: "who is doing what"  🟢 Hein & Knight 2008
 
   ANTERIOR INSULA: ← interoception + nociception + affective touch + emotional
-                   → BODY STATE: "body đang thế nào"
-                   → Nơi FEELING EMERGE (§8)  🟢 Craig 2009
+                   → BODY STATE: "what is the body doing"
+                   → Where FEELING EMERGES (§8)  🟢 Craig 2009
 
   vmPFC:         ← insula (body state) + amygdala (valence) + memory
                  → VALUE BRIDGE: somatic marker → conscious evaluation
@@ -360,12 +360,12 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
 ```
 🟢 AMYGDALA = "EMOTIONAL HIGHLIGHTER":
 
-  Emotional event → amygdala fire → NE release broad
-  → TẤT CẢ neurons đang fire cùng lúc → synapses STRENGTHEN (Hebbian LTP enhanced)
-  → = "Emotional event → bind MẠNH + compile NHANH"
+  Emotional event → amygdala fires → NE release broad
+  → ALL neurons firing simultaneously → synapses STRENGTHEN (Hebbian LTP enhanced)
+  → = "Emotional event → bind STRONGLY + compile QUICKLY"
 
   = Flashbulb memory mechanism (Brown & Kulik 1977)
-  = Direction-At-Compile: cùng cơ chế, khác direction (novelty vs threat)
+  = Direction-At-Compile: same mechanism, different direction (novelty vs threat)
   
   🟢 McGaugh 2004, LeDoux 1996
 ```
@@ -373,13 +373,13 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
 ### §4.5 — DMN scaffolding
 
 ```
-🟢 DMN = network active khi KHÔNG làm task:
+🟢 DMN = network active when NOT doing a task:
   mPFC + PCC + Angular gyrus + Hippocampus + Lateral temporal
 
-  DMN cung cấp LONG-RANGE CONNECTIVITY:
-  → Không có DMN → binding chỉ LOCAL
-  → Có DMN → binding DISTANT (visual + insula + amygdala sync)
-  → DMN present adult-like form ngay khi sinh (Doria et al. 2010)
+  DMN provides LONG-RANGE CONNECTIVITY:
+  → Without DMN → binding only LOCAL
+  → With DMN → binding DISTANT (visual + insula + amygdala sync)
+  → DMN present in adult-like form from birth (Doria et al. 2010)
 ```
 
 ### §4.6 — Binding summary
@@ -394,7 +394,7 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
   │ 4  │ Amygdala tagging     │ Emotional  │ ~12-50ms    │
   │ 5  │ DMN scaffolding      │ Network    │ Continuous  │
   └───────────────────────────────────────────────────────┘
-  → KHÔNG CÓ single binder. 5 mechanisms chạy ĐỒNG THỜI.
+  → NO single binder. 5 mechanisms run SIMULTANEOUSLY.
   → Binding = EMERGENT PROPERTY.
 ```
 
@@ -407,39 +407,39 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
 ### §5.1 — Chunk = compiled pattern
 
 ```
-  TRƯỚC compile: neurons fire RIÊNG LẺ → PFC hold 5 slots
-  SAU compile:   neurons fire AS ONE → PFC hold 1 slot → COMPRESSION
+  BEFORE compile: neurons fire INDEPENDENTLY → PFC holds 5 slots
+  AFTER compile:  neurons fire AS ONE → PFC holds 1 slot → COMPRESSION
 
-  Chunk = physical change: synapses strengthen (LTP) + myelin thicken
+  Chunk = physical change: synapses strengthen (LTP) + myelin thickens
 ```
 
 ### §5.2 — 4 Compile mechanisms
 
 ```
-  ① REPETITION:        lặp nhiều lần → chậm, bền
-  ② EMOTIONAL PEAK:    amygdala + NE → 1 lần, mạnh (flashbulb)
-  ③ MULTI-MODAL:       nhiều modalities cùng lúc → deep
+  ① REPETITION:        repeated many times → slow, durable
+  ② EMOTIONAL PEAK:    amygdala + NE → 1 time, strong (flashbulb)
+  ③ MULTI-MODAL:       many modalities simultaneously → deep
   ④ SLEEP CONSOLIDATION: hippocampus replay → cortex transfer
   🟢 Diekelmann & Born 2010
 ```
 
-### §5.3 — Multi-modal chunks span nhiều areas
+### §5.3 — Multi-modal chunks span multiple areas
 
 ```
-  1 modality  = surface ("nước sôi 100°C" verbal only — dễ quên)
-  2 modalities = medium ("đèn đỏ = dừng" — verbal + visual)
-  4 modalities = deep ("sợ chó" — visual + auditory + somatic + emotional)
-  5+ modalities = near-permanent ("tôi vô giá trị" — all — years therapy)
+  1 modality  = surface ("water boils at 100°C" verbal only — easily forgotten)
+  2 modalities = medium ("red light = stop" — verbal + visual)
+  4 modalities = deep ("afraid of dogs" — visual + auditory + somatic + emotional)
+  5+ modalities = near-permanent ("I am worthless" — all — years of therapy)
   → Chunk depth = modality count (Modality-Analysis §4)
 ```
 
 ### §5.4 — Expert = Meta-chunks
 
 ```
-  Beginner: chunk A, B, C → PFC chain 3 steps (3 WM slots)
-  Expert: meta-chunk [ABC] → PFC hold 1 slot → freed 2 slots for more
-  → Expertise = compile chains → meta-chunks → PFC operates higher level
-  → "Expert không thông minh hơn — expert có nhiều compiled chunks hơn"
+  Beginner: chunk A, B, C → PFC chains 3 steps (3 WM slots)
+  Expert: meta-chunk [ABC] → PFC holds 1 slot → freed 2 slots for more
+  → Expertise = compile chains → meta-chunks → PFC operates at higher level
+  → "An expert is not smarter — an expert has more compiled chunks"
   🟢 Chase & Simon 1973
 ```
 
@@ -465,11 +465,11 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
   PHYSICAL CONSEQUENCES:
     Compiled: ~50-100ms response (subcortical direct)
     Fresh: ~300-500ms+ response (PFC chain required)
-    = WHY expert "feels" answer (compiled → body-direct → fast)
-    = WHY beginner "thinks" answer (fresh → PFC route → slow)
+    = WHY expert "feels" the answer (compiled → body-direct → fast)
+    = WHY beginner "thinks" through the answer (fresh → PFC route → slow)
     = SAME CONTENT, different physical path quality
 
-  COMPILATION PHYSICALLY CHANGES BRAIN:
+  COMPILATION PHYSICALLY CHANGES THE BRAIN:
     ① Synapse strength: LTP → larger post-synaptic density
     ② Myelin: oligodendrocytes wrap axon → speed increase 50-100x
     ③ Dendritic spine growth: more connection points per neuron
@@ -478,10 +478,10 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
     → = Compiled (Body-Knowing) = signal on SUPERHIGHWAY
     → = Fresh (PFC draft) = signal on DIRT ROAD being built
 
-  CONNECTION VỚI FRAMEWORK:
-    → Logic-Feeling.md v2.0 §1: Compiled/Fresh = trục thật
+  CONNECTION TO FRAMEWORK:
+    → Logic-Feeling.md v2.0 §1: Compiled/Fresh = the real axis
     → Feeling.md v3.0 §2.5: 7-layer × Compiled/Fresh
-    → Inter-Body §3: content ≠ processing level (Einstein toán = compiled = fast)
+    → Inter-Body §3: content ≠ processing level (Einstein's mathematics = compiled = fast)
     → 3-cost model: fresh = processing-intensive because novel path construction
 
 🟢 Hebb 1949 (Hebbian learning principle)
@@ -499,15 +499,15 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
 ### §6.1 — PFC 5 functions
 
 ```
-  ① DRAFT:     tạo temporary pattern (mixed-selectivity neurons, Rigotti 2013)
-  ② TEST:      gửi xuống specialist regions evaluate (amygdala/insula/temporal/BG)
-  ③ ROUTE:     pass hoặc discard based on feedback
-  ④ BRAKE:     veto behavioral output (~200-500ms, sau subcortical ~50ms)
+  ① DRAFT:     creates temporary pattern (mixed-selectivity neurons, Rigotti 2013)
+  ② TEST:      sends down to specialist regions to evaluate (amygdala/insula/temporal/BG)
+  ③ ROUTE:     pass or discard based on feedback
+  ④ BRAKE:     veto behavioral output (~200-500ms, after subcortical ~50ms)
   ⑤ TRANSLATE: verbalize post-hoc (rationalization — Gazzaniga)
 
   ⭐ PFC = LAWYER, not Judge (Inter-Body §7, v2.0 ELEVATED):
     Function ⑤ = NOT neutral reporting. = LAWYERING for body-base.
-    → Body-need fires TRƯỚC → drive forms → PFC tạo NARRATIVE "lý do"
+    → Body-need fires FIRST → drive forms → PFC creates NARRATIVE "reason"
     → Person BELIEVES narrative = "rational decision"
     → 🟢 Gazzaniga split-brain: left hemisphere CONFABULATES post-hoc
     → 🟢 Haidt 2001: moral intuition first, reasoning = justification
@@ -531,7 +531,7 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
   dlPFC: hold multiple schemas → compare A vs B
   vmPFC: BRIDGE body↔conscious → somatic marker (Damasio). Weak = poor decisions.
   OFC:   predict reward per action → flexible update. Hyperactive = OCD.
-  ACC:   detect schema CONFLICT → alert "sao sao ấy". Hypo = abulia. Hyper = anxiety.
+  ACC:   detect schema CONFLICT → alert "something feels off". Hypo = abulia. Hyper = anxiety.
   mPFC:  simulate other minds (Theory of Mind) → DMN hub → empathy ceiling = chunk overlap
 ```
 
@@ -539,233 +539,238 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
 
 ```
   PFC → VTA (dopamine) + LC (NE) + BF (acetylcholine) → target cortical area
-  → Neurons fire MẠNH HƠN (gain increase) = "spotlight"
-  → PFC không bật/tắt cortex — PFC SÁNG/TỐI cortex
+  → Neurons fire MORE STRONGLY (gain increase) = "spotlight"
+  → PFC doesn't turn cortex on/off — PFC BRIGHTENS/DIMS cortex
   
   = Bidirectional: bottom-up saliency + top-down spotlight = attention loop
   🟢 Desimone & Duncan 1995, Miller & Cohen 2001
 ```
 
-### §6.5 — PFC KHÔNG compute — PFC orchestrate
+### §6.5 — PFC does NOT compute — PFC orchestrates
 
 ```
-  PFC = CONDUCTOR, không phải player
-  → Conductor không chơi nhạc — conductor ĐIỀU PHỐI
-  → PFC draft + test + route + brake + translate + spotlight + gate
-  → PFC KHÔNG: tính toán, tạo nội dung, đánh giá, ra quyết định cuối cùng
+  PFC = CONDUCTOR, not a player
+  → A conductor doesn't play music — a conductor COORDINATES
+  → PFC: draft + test + route + brake + translate + spotlight + gate
+  → PFC does NOT: calculate, generate content, evaluate, make the final decision
 ```
 
 ---
 
 ## §7 — Simulation: Top-down Re-activation
 
-> **Full analysis: [Imagination-Analysis-v2.md](Imagination/Imagination-Analysis-v2.md)**
+> **Full analysis: Imagination/Imagination-Analysis-v2.md**
 
-### §7.1 — PFC re-activate cortical patterns
+### §7.1 — PFC re-activates cortical patterns
 
 ```
-⭐ IMAGINATION = PFC re-activate CÙNG cortical areas dùng cho real perception
+⭐ IMAGINATION = PFC re-activates the SAME cortical areas used for real perception
 
   REAL PERCEPTION (bottom-up):
-    Mắt thấy con ngựa → retina → LGN → V1 → V2 → V4 → IT
-    → IT fire pattern "con ngựa" → PFC observe → BIẾT "con ngựa"
-    → Activation: MẠNH (100% — real photon input)
+    Eyes see a horse → retina → LGN → V1 → V2 → V4 → IT
+    → IT fires pattern "horse" → PFC observes → KNOWS "horse"
+    → Activation: STRONG (100% — real photon input)
 
   IMAGINATION (top-down):
-    PFC "nghĩ về con ngựa" → spotlight signal NGƯỢC VỀ visual cortex
-    → IT fire pattern "con ngựa" (CÙNG neurons, CÙNG area)
-    → Activation: YẾU HƠN (~30-50% so với real input)
-    → = "Thấy" con ngựa trong đầu — MỜ hơn thực tế
+    PFC "thinks about a horse" → spotlight signal REVERSES to visual cortex
+    → IT fires pattern "horse" (SAME neurons, SAME area)
+    → Activation: WEAKER (~30-50% compared to real input)
+    → = "Seeing" the horse in the mind — DIMMER than reality
 
-  ⭐ CÙNG CORTICAL AREA, KHÁC HƯỚNG + CƯỜNG ĐỘ:
-    Bottom-up (real): sensor → thalamus → cortex → PFC    [MẠNH, RÕ]
-    Top-down (imagine): PFC → cortex (re-activate pattern) [YẾU, MỜ]
+  ⭐ SAME CORTICAL AREA, DIFFERENT DIRECTION + INTENSITY:
+    Bottom-up (real): sensor → thalamus → cortex → PFC    [STRONG, CLEAR]
+    Top-down (imagine): PFC → cortex (re-activate pattern) [WEAK, DIM]
 
-  🟢 Kosslyn 1994, 2005: fMRI xác nhận — imagine dùng CÙNG V1/V2 với real seeing
+  🟢 Kosslyn 1994, 2005: fMRI confirms — imagining uses SAME V1/V2 as real seeing
   🟢 Pearson 2019: individual differences (aphantasia → hyperphantasia spectrum)
 ```
 
 ### §7.2 — Multi-modal simulation
 
 ```
-PFC KHÔNG CHỈ re-activate visual — re-activate MỌI modality:
+PFC does NOT ONLY re-activate visual — re-activates ALL modalities:
 
-  VISUAL IMAGINE:    PFC → visual cortex  → "thấy" trong đầu
-  AUDITORY IMAGINE:  PFC → auditory cortex → "nghe" trong đầu (inner voice, nhạc)
-  MOTOR IMAGINE:     PFC → motor cortex    → "cảm giác" cử động (đo được bằng EMG!)
-  SOMATIC IMAGINE:   PFC → insula + S1     → "cảm giác" body state
-  EMOTIONAL IMAGINE: PFC → amygdala + insula → "cảm thấy" sợ/vui/buồn
+  VISUAL IMAGINE:    PFC → visual cortex  → "see" in the mind
+  AUDITORY IMAGINE:  PFC → auditory cortex → "hear" in the mind (inner voice, music)
+  MOTOR IMAGINE:     PFC → motor cortex    → "feel" movement (measurable with EMG!)
+  SOMATIC IMAGINE:   PFC → insula + S1     → "feel" body state
+  EMOTIONAL IMAGINE: PFC → amygdala + insula → "feel" fear/joy/sadness
 
-  ⭐ BODY THẬT SỰ PHẢN ỨNG VỚI IMAGINATION:
+  ⭐ BODY TRULY RESPONDS TO IMAGINATION:
 
-  Fidelity by modality (% so với real experience — 🟡 calibration anchor, không đo chính xác):
-    Cortisol/stress response:  40-70%  (cao nhất — imagine threat → cortisol THẬT tăng!)
+  Fidelity by modality (% compared to real experience — 🟡 calibration anchor, not precisely measured):
+    Cortisol/stress response:  40-70%  (highest — imagining threat → cortisol REALLY increases!)
     Opioid/pleasure:           20-40%
-    Motor activation:          10-30%  (đo bằng EMG — cơ co nhẹ khi imagine)
+    Motor activation:          10-30%  (measured with EMG — muscles contract lightly when imagining)
     Oxytocin:                  10-20%
 
-  → Insight: cortisol response MẠNH NHẤT, oxytocin YẾU NHẤT (hướng rõ, số ước lượng)
-  → Imagine bị SẾP mắng → cortisol THẬT tăng đáng kể!
-  → Imagine ôm người yêu → oxytocin THẬT tăng nhẹ
-  → Body KHÔNG phân biệt rõ real vs imagined (chỉ khác intensity)
-  → = Lý do: lo lắng về tương lai GÂY HẠI thật (cortisol thật)
-  → = Lý do: mental rehearsal CẢI THIỆN performance thật (motor pre-build)
+  → Insight: cortisol response STRONGEST, oxytocin WEAKEST (direction clear, numbers are estimates)
+  → Imagining being scolded by a boss → cortisol REALLY increases significantly!
+  → Imagining embracing a partner → oxytocin REALLY increases slightly
+  → Body does NOT clearly distinguish real vs imagined (only differs in intensity)
+  → = Why: worrying about the future CAUSES real harm (real cortisol)
+  → = Why: mental rehearsal IMPROVES real performance (motor pre-build)
 ```
 
 ### §7.3 — Dual output: Test + Pre-build
 
 ```
-KHI PFC IMAGINE, 2 thứ xảy ra ĐỒNG THỜI:
+WHEN PFC IMAGINES, 2 things happen SIMULTANEOUSLY:
 
-  ① TEST: "Idea này có khả thi không?"
-     → PFC simulate → body respond → feel "ok" hoặc "sai sai"
-     → = Body evaluate BEFORE logic verify
+  ① TEST: "Is this idea feasible?"
+     → PFC simulates → body responds → feels "ok" or "something off"
+     → = Body evaluates BEFORE logic verifies
      → = Imagine-Final.md: "draft → body test → pass/fail"
 
   ② PRE-BUILD: Schema partially compiled
-     → Neurons fire pattern → synapses strengthen nhẹ
-     → = Schema ĐÃ BẮT ĐẦU compile TRƯỚC KHI thực hiện thật
-     → = Mental rehearsal hiệu quả vì: rehearse = pre-compile
-     → 🟢 Pascual-Leone 1995: mental piano practice → motor cortex change THẬT
-        (5 ngày imagine chơi piano = cortical map mở rộng, dù CHƯA CHẠM piano!)
+     → Neurons fire pattern → synapses strengthen slightly
+     → = Schema HAS ALREADY BEGUN compiling BEFORE the real action takes place
+     → = Mental rehearsal is effective because: rehearsing = pre-compiling
+     → 🟢 Pascual-Leone 1995: mental piano practice → motor cortex change is REAL
+        (5 days of imagining playing piano = cortical map expands, even without TOUCHING the piano!)
 
   ⭐ IMPLICATION:
-  → Imagine = KHÔNG "chỉ nghĩ" — imagine = THẬT SỰ thay đổi não (nhẹ)
-  → Mỗi lần imagine = 1 micro-compile event
-  → Imagine nhiều lần = repetition compile (mechanism ① từ §5.2)
-  → = Imagination IS a chunk compilation mechanism (bổ sung cho 4 mechanisms)
+  → Imagination = NOT "just thinking" — imagination = TRULY changes the brain (slightly)
+  → Each act of imagining = 1 micro-compile event
+  → Imagining many times = repetition compile (mechanism ① from §5.2)
+  → = Imagination IS a chunk compilation mechanism (supplementing the 4 mechanisms)
 ```
 
-### §7.4 — Phim/VR = "Hack" real input vào cortical areas
+### §7.4 — Films/VR = "Hacking" real input into cortical areas
 
 ```
-⭐ TẠI SAO SỢ PHIM MA DÙ BIẾT LÀ GIẢ:
+⭐ WHY WE ARE SCARED BY HORROR FILMS EVEN KNOWING THEY'RE FICTIONAL:
 
-  PHIM cung cấp REAL input cho 2/5 modalities:
-    Visual: mắt thấy zombie THẬT trên screen → V1 fire MẠNH (100% activation)
-    Auditory: tai nghe tiếng zombie THẬT từ loa → A1 fire MẠNH (100%)
-    → 2 modalities nhận REAL input → pattern match → amygdala fire
-    → Amygdala KHÔNG CHECK "thật hay giả" — amygdala fire nếu pattern match
-    → = SỢ THẬT dù biết giả (cortisol tăng, heart rate tăng)
+  FILMS provide REAL input for 2/5 modalities:
+    Visual: eyes see REAL zombie on screen → V1 fires STRONGLY (100% activation)
+    Auditory: ears hear REAL zombie sounds from speakers → A1 fires STRONGLY (100%)
+    → 2 modalities receive REAL input → pattern match → amygdala fires
+    → Amygdala does NOT CHECK "real or fake" — amygdala fires if pattern matches
+    → = REAL FEAR even though knowing it's fake (cortisol increases, heart rate increases)
 
-  THIẾU:
-    Touch: không chạm zombie → somatosensory quiet
-    Smell: không ngửi zombie → olfactory quiet
-    Proprioception: đang ngồi sofa → vestibular biết "an toàn"
-    → 3/5 modalities nói "an toàn" → xung đột → "sợ nhưng biết giả"
+  MISSING:
+    Touch: not touching zombie → somatosensory quiet
+    Smell: not smelling zombie → olfactory quiet
+    Proprioception: sitting on sofa → vestibular knows "safe"
+    → 3/5 modalities say "safe" → conflict → "scared but knows it's fake"
 
-  VR = HACK MẠNH HƠN:
-    Visual: headset wrap 360° → V1 fire MẠNH
-    Auditory: spatial audio → A1 fire MẠNH
-    Vestibular: head tracking → vestibular MATCH visual
+  VR = STRONGER HACK:
+    Visual: headset wraps 360° → V1 fires STRONGLY
+    Auditory: spatial audio → A1 fires STRONGLY
+    Vestibular: head tracking → vestibular MATCHES visual
     Proprioceptive: hand controllers → some proprioceptive match
-    → 4/5 modalities → GẦN NHƯ THẬT
+    → 4/5 modalities → NEARLY REAL
     → VR sickness = vestibular-visual MISMATCH (lag, frame drop)
-    → = Body detect: "visual nói xoay, vestibular nói đứng yên" → nausea
+    → = Body detects: "visual says rotating, vestibular says still" → nausea
 
   ⭐ GENERALIZED PRINCIPLE:
-    → Nhiều modalities nhận consistent input → brain treat as REAL
-    → Ít modalities hoặc conflict → brain detect "giả" nhưng partial response vẫn fire
-    → = Chunk depth (§5.3): nhiều modalities = mạnh hơn = "thật hơn"
+    → Many modalities receive consistent input → brain treats as REAL
+    → Few modalities or conflict → brain detects "fake" but partial response still fires
+    → = Chunk depth (§5.3): more modalities = stronger = "more real"
 ```
 
 ---
 
-## §8 — Feeling Emergence: Body signal → Conscious awareness
+## §8 — Feeling Emergence: Body Signal → Conscious Awareness
 
-> **Full analysis: [Feeling.md](Body-Base/Feeling/Feeling.md) + [Feeling-Sources.md](Body-Base/Feeling/Feeling-Sources.md)**
+> **Full analysis: Body-Base/Feeling/Feeling.md + Body-Base/Feeling/Feeling-Sources.md**
 
 ### §8.1 — 7-layer model: Raw → Conscious → Label → Explain
 
 ```
-FEELING = hành trình TÍN HIỆU từ body LÊN consciousness:
+FEELING = the SIGNAL JOURNEY from body UP to consciousness:
 
-  ┌───────────────────────────────────────────────────────────────┐
-  │ Layer │ Name              │ Content                │ Fidelity│
-  ├───────────────────────────────────────────────────────────────┤
-  │  Feel-RawSignals      │ Raw body signals  │ Heart rate, gut, pain  │  100%   │
-  │  Feel-Integration     │ Integration       │ Multi-source combine   │  ~95%   │
-  │  Feel-Consciousification │ Felt sense     │ "Cái gì đó sao sao"   │  ~90%   │
-  │  Feel-Observation     │ Observation       │ "Ở ngực / ở bụng"     │  ~85%   │
-  │  Feel-Location        │ Location          │ "Giống lần trước"      │  ~80%   │
-  │  Feel-Labeling        │ LABELING          │ "Tôi lo lắng"         │  40-80% │
-  │  Feel-Explanation     │ EXPLANATION       │ "Vì deadline"          │  20-70% │
-  └───────────────────────────────────────────────────────────────┘
+  ┌───────────────────────────────────────────────────────────────────────┐
+  │ Layer                    │ Content                     │ Fidelity    │
+  ├───────────────────────────────────────────────────────────────────────┤
+  │ Feel-RawSignals          │ Heart rate, gut, pain       │  100%       │
+  │ Feel-Integration         │ Multi-source combined       │  ~95%       │
+  │ Feel-Consciousification  │ "Something feels off"       │  ~90%       │
+  │ Feel-Observation         │ "In my chest / in my belly" │  ~85%       │
+  │ Feel-Location            │ "Like last time"            │  ~80%       │
+  │ Feel-Labeling            │ "I'm anxious"               │  40-80%     │
+  │ Feel-Explanation         │ "Because of the deadline"  │  20-70%     │
+  └───────────────────────────────────────────────────────────────────────┘
 
-  ⭐ FIDELITY GIẢM DẦN ĐI LÊN (% = calibration anchor, không đo chính xác — Core-Software.md §12.4):
-    Feel-RawSignals = body truth (100% — body không nói dối)
-    Feel-Labeling = compressed label (40-80% — 1 từ nén 80%+ thông tin)
-    Feel-Explanation = PFC confabulation (20-70% — PFC BỊA lý do post-hoc)
+  ⭐ FIDELITY DECREASES PROGRESSIVELY UPWARD (% = calibration anchor, not precisely measured
+     — Core-Software.md §12.4):
+    Feel-RawSignals = body truth (100% — body does not lie)
+    Feel-Labeling = compressed label (40-80% — 1 word compresses 80%+ information)
+    Feel-Explanation = PFC confabulation (20-70% — PFC FABRICATES reasons post-hoc)
 
-  → Người thường "access" feeling ở Feel-Labeling—Feel-Explanation (label + explain)
-  → Nhưng Feel-Labeling—Feel-Explanation = LOSSY NHẤT
-  → Wise practitioners dwell ở Feel-Consciousification—Feel-Observation (felt sense — pre-verbal, high fidelity)
-  → = Gendlin Focusing: train ở lại Feel-Consciousification, không vội nhảy lên Feel-Labeling—Feel-Explanation
+  → Most people "access" feeling at Feel-Labeling—Feel-Explanation (label + explain)
+  → But Feel-Labeling—Feel-Explanation = LOSSIEST
+  → Wise practitioners dwell at Feel-Consciousification—Feel-Observation
+    (felt sense — pre-verbal, high fidelity)
+  → = Gendlin Focusing: train to stay at Feel-Consciousification,
+    resist rushing to Feel-Labeling—Feel-Explanation
 ```
 
 ### §8.2 — Feeling observation circuit: Insula + ACC + vmPFC
 
 ```
-⭐ 3 VÙNG NÃO = "FEELING CIRCUIT":
+⭐ 3 BRAIN REGIONS = "FEELING CIRCUIT":
 
   ANTERIOR INSULA:
-    ← Nhận: interoceptive signals (tim, phổi, ruột, hormone, đau, nhiệt)
-    → Tạo: integrated BODY STATE representation
-    → = "Dashboard" hiển thị body đang thế nào
+    ← Receives: interoceptive signals (heart, lungs, gut, hormones, pain, temperature)
+    → Creates: integrated BODY STATE representation
+    → = "Dashboard" showing what the body is doing
     → Craig 2009: "seat of subjective awareness" 🟢
 
   ACC (Anterior Cingulate Cortex):
-    ← Nhận: conflict signals (schema A vs schema B mismatch)
-    → Tạo: "something's off" alert → gửi lên PFC
-    → = "Alarm" khi có mâu thuẫn
-    → ⭐ ACC = cơ chế vật lý cho "cảm thấy sao sao ấy"
+    ← Receives: conflict signals (schema A vs schema B mismatch)
+    → Creates: "something's off" alert → sends up to PFC
+    → = "Alarm" when there is conflict
+    → ⭐ ACC = physical mechanism for the "something feels off" sensation
 
   vmPFC (Ventromedial PFC):
-    ← Nhận: insula body state + amygdala valence + memory associations
-    → Tạo: BRIDGE giữa body signal và conscious evaluation
+    ← Receives: insula body state + amygdala valence + memory associations
+    → Creates: BRIDGE between body signal and conscious evaluation
     → = "Translator" body → conscious
-    → vmPFC strong = feel rõ → quyết định tốt (Damasio somatic marker)
-    → vmPFC weak = feel mờ → quyết định tệ (Phineas Gage)
+    → vmPFC strong = clear feeling → good decisions (Damasio somatic marker)
+    → vmPFC weak = dim feeling → poor decisions (Phineas Gage)
 
   FLOW:
     Body signals → Insula (integrate) → ACC (check conflict) → vmPFC (bridge to conscious)
-    → PFC observe → Feel-Consciousification felt sense → (optional) Feel-Labeling label → (optional) Feel-Explanation explain
+    → PFC observes → Feel-Consciousification felt sense → (optional) Feel-Labeling label
+    → (optional) Feel-Explanation explain
 
-  ⭐ FEELING KHÔNG "ở trong PFC" — feeling ở INSULA + ACC:
-    PFC chỉ OBSERVE feeling (qua vmPFC bridge)
-    Feeling EXIST ở body level (Feel-RawSignals) → insula integrate (Feel-Integration) → felt sense emerge (Feel-Consciousification)
-    PFC có thể KHÔNG observe (nếu vmPFC weak, hoặc attention elsewhere)
-    → = Feeling tồn tại DÙ PFC không nhận ra (alexithymia)
-    → = "Body biết mà đầu không biết" = insula has signal, PFC doesn't read it
+  ⭐ FEELING does NOT "live in PFC" — feeling lives in INSULA + ACC:
+    PFC only OBSERVES feeling (via vmPFC bridge)
+    Feeling EXISTS at body level (Feel-RawSignals) → insula integrates (Feel-Integration)
+    → felt sense emerges (Feel-Consciousification)
+    PFC may NOT observe (if vmPFC weak, or attention is elsewhere)
+    → = Feeling exists EVEN WHEN PFC doesn't recognize it (alexithymia)
+    → = "Body knows but mind doesn't" = insula has signal, PFC doesn't read it
 ```
 
 ### §8.3 — 10 Feeling sources: Multi-channel integration
 
 ```
-FEELING = KHÔNG CHỈ 1 INPUT — mà ~10 channels tích hợp:
+FEELING = NOT JUST 1 INPUT — but ~10 channels integrating:
 
-  ① L0 Threat signal       (amygdala: nguy hiểm không?)
-  ② L1 Interoceptive       (insula: body state — tim, phổi, ruột)
-  ③ Novelty signal          (VTA dopamine: mới không? interesting?)
-  ④ Meaning/Schema          (temporal: matches gì đã biết?)
-  ⑤ Agent mirror input     (mPFC: người khác đang feel gì?)
-  ⑥ Mirror-resonance       (mirror neurons: body tự fire theo người khác)
-  ⑦ Schema expectation     (đúng predict hay vi phạm?)
-  ⑧ Imagine-Final preview  (tương lai feel thế nào?)
-  ⑨ Valence compiled       (learned: cái này tốt/xấu từ experience)
-  ⑩ Cognitive evaluation   (PFC: logic nói gì?)
+  ① L0 Threat signal       (amygdala: danger?)
+  ② L1 Interoceptive       (insula: body state — heart, lungs, gut)
+  ③ Novelty signal          (VTA dopamine: new? interesting?)
+  ④ Meaning/Schema          (temporal: matches what is already known?)
+  ⑤ Agent mirror input     (mPFC: what is the other person feeling?)
+  ⑥ Mirror-resonance       (mirror neurons: body fires in response to others)
+  ⑦ Schema expectation     (confirmed prediction or violated?)
+  ⑧ Imagine-Final preview  (what will the future feel like?)
+  ⑨ Valence compiled       (learned: this is good/bad from experience)
+  ⑩ Cognitive evaluation   (PFC: what does logic say?)
 
-  → INSULA integrate ~10 channels → 1 unified body state
-  → PFC observe 1 unified state (KHÔNG observe 10 channels riêng)
-  → = Lý do: feel PHỨC TẠP + KHÓ label
-    (1 từ "lo lắng" nén 10 channels vào 1 label — mất 80%+ info)
+  → INSULA integrates ~10 channels → 1 unified body state
+  → PFC observes 1 unified state (does NOT observe 10 channels separately)
+  → = Why: feeling is COMPLEX + DIFFICULT to label
+    (1 word "anxiety" compresses 10 channels into 1 label — losing 80%+ information)
 
   Full detail: Feeling-Sources.md
 
 
   ⭐ 5-CHANNEL INPUT VECTOR (Inter-Body §6, v2.0 connection):
 
-  10 feeling sources MAP lên 5-Channel model:
+  10 feeling sources MAP onto 5-Channel model:
     Ch1 HARDWARE SENSORY (①②③ above: threat, interoceptive, novelty)
     Ch2 BODY STATE (hormone level, fatigue, cortisol — baseline)
     Ch3 COMPILED CHUNKS (④⑦⑨: meaning, schema expectation, valence)
@@ -777,93 +782,94 @@ FEELING = KHÔNG CHỈ 1 INPUT — mà ~10 channels tích hợp:
   Channel DOMINANT → determines body-need activation direction
   Channel ABSENT → determines vulnerability to manipulation
 
-  Protection principle: không bao giờ act chỉ từ 1 channel alone
+  Protection principle: never act from just 1 channel alone
   (Inter-Body §6.4: Domain Reality = Final Arbiter)
 ```
 
-### §8.4 — 2-Direction Flow (recap từ Logic-Planning §7.4)
+### §8.4 — 2-Direction Flow (recap from Logic-Planning §7.4)
 
 ```
-⭐ FEELING → LABEL: 2 hướng vào cùng đích
+⭐ FEELING → LABEL: 2 directions toward the same destination
 
   DIRECTION A — FEEL-FIRST (bottom-up):
-    Body pattern fire → feel vague (Feel-Consciousification) → PFC chú ý → chunk rõ dần
-    → tìm label (Feel-Labeling) → dùng trong logic plan
-    = Trẻ sơ sinh, adult novel insight, Einstein
+    Body pattern fires → vague feeling (Feel-Consciousification) → PFC pays attention
+    → chunk becomes clearer → finds label (Feel-Labeling) → used in logic plan
+    = Infants, adult novel insight, Einstein
 
   DIRECTION B — LABEL-FIRST (top-down):
-    Nhận label (education) → luyện tập → body compile chunk → feel match label
-    = Học sinh, bác sĩ, đọc sách "à, CÁI NÀY là anxiety"
+    Receive label (education) → practice → body compiles chunk → feeling matches label
+    = Students, doctors, reading books "oh, THIS is anxiety"
 
-  Cùng đích: chunk có label → dùng được trong plan
-  Khác điểm xuất phát: body-first vs language-first
+  Same destination: chunk with label → usable in plan
+  Different starting point: body-first vs language-first
 ```
 
 ---
 
-## §9 — Externalization Loop: Weak internal → Strong external
+## §9 — Externalization Loop: Weak Internal → Strong External
 
-> **Full analysis: [Somatic-Articulation-Loop.md](Imagination/Somatic-Articulation-Loop.md)**
+> **Full analysis: Imagination/Somatic-Articulation-Loop.md**
 
 ### §9.1 — Principle: Internal weak → Externalize → Re-input strong
 
 ```
-⭐ EXTERNALIZATION = HACK chuyển weak top-down thành strong bottom-up:
+⭐ EXTERNALIZATION = HACK converting weak top-down into strong bottom-up:
 
   TOP-DOWN (imagine):
-    PFC re-activate cortical pattern → YẾU (~30-50%)
-    → Mờ, khó giữ, dễ mất, WM limit ~3-5 items
+    PFC re-activates cortical pattern → WEAK (~30-50%)
+    → Dim, hard to hold, easily lost, WM limit ~3-5 items
 
-  EXTERNALIZE (output ra thế giới):
-    Tay vẽ → hình trên giấy
-    Miệng nói → âm thanh trong không khí
-    Tay viết → chữ trên màn hình
-    Tay chơi đàn → âm thanh từ nhạc cụ
+  EXTERNALIZE (output to the world):
+    Hand draws → image on paper
+    Mouth speaks → sound in the air
+    Hand writes → text on screen
+    Hand plays → sound from the instrument
 
   RE-INPUT (bottom-up):
-    Mắt nhìn hình vẽ → visual cortex fire MẠNH (100% — real input!)
-    Tai nghe mình nói → auditory cortex fire MẠNH
-    → Pattern bây giờ RÕ + MẠNH + BỀN hơn internal imagine
+    Eyes look at the drawing → visual cortex fires STRONGLY (100% — real input!)
+    Ears hear oneself speaking → auditory cortex fires STRONGLY
+    → Pattern is now CLEARER + STRONGER + MORE DURABLE than internal imagination
 
   COMPARE:
-    PFC so sánh: external (rõ) vs internal intent (mờ)
-    → "Đúng ý tôi" → keep
-    → "Chưa đúng, sừng hơi to" → sửa → vẽ lại → re-input → compare again
+    PFC compares: external (clear) vs internal intent (dim)
+    → "That's what I meant" → keep
+    → "Not right yet, the horn is too big" → adjust → redraw → re-input → compare again
     → = FEEDBACK LOOP: imagine → externalize → perceive → compare → adjust
 ```
 
-### §9.2 — Instances: Mọi creative process dùng cơ chế này
+### §9.2 — Examples: Every creative process uses this mechanism
 
 ```
-  Họa sĩ:      imagine (weak) → vẽ → nhìn (strong) → sửa → vẽ lại
-  Nhạc sĩ:     hear in head (weak) → chơi đàn → nghe (strong) → adjust
-  Nhà văn:      think idea (weak) → viết → đọc lại (strong) → revise
-  Programmer:   think logic (weak) → code → run → see result (strong) → debug
-  Nhà khoa học: hypothesis (weak) → experiment → observe (strong) → revise
-  Kiến trúc sư: imagine building (weak) → draw blueprint → look (strong) → refine
+  Painter:    imagine (weak) → draw → look (strong) → adjust → redraw
+  Musician:   hear in head (weak) → play instrument → hear (strong) → adjust
+  Writer:     think idea (weak) → write → read back (strong) → revise
+  Programmer: think logic (weak) → code → run → see result (strong) → debug
+  Scientist:  hypothesis (weak) → experiment → observe (strong) → revise
+  Architect:  imagine building (weak) → draw blueprint → look (strong) → refine
 
-  → MỌI creative/intellectual process = CÙNG loop:
+  → ALL creative/intellectual processes = SAME loop:
     Internal (weak top-down) → Externalize → Re-perceive (strong bottom-up) → Compare → Iterate
 ```
 
 ### §9.3 — Somatic-Articulation Loop: Feeling-specific externalization
 
 ```
-  Feeling version của externalization loop:
+  Feeling version of the externalization loop:
 
-  Feel vague (Feel-Consciousification, weak) → thử nói ra / viết ra → nghe lại / đọc lại (strong)
-  → Body check: "gần đúng" / "chưa" / "ĐÚNG RỒI!"
-  → Adjust label → thử lại → body check → ...
-  → Cuối cùng: feeling có label chính xác → dùng được trong logic
+  Feel vague (Feel-Consciousification, weak) → try speaking / writing it out
+  → hear back / read back (strong)
+  → Body check: "close" / "not yet" / "YES, EXACTLY!"
+  → Adjust label → try again → body check → ...
+  → Finally: feeling has accurate label → usable in logic
 
-  CATALYST cần thiết:
-    → Người nghe (therapist, bạn bè, vợ chồng)
+  CATALYST NEEDED:
+    → A listener (therapist, friends, partner)
     → AI (available 24/7, patient, multi-format)
-    → Viết (journaling, freewriting)
-    → Vẽ (art therapy)
+    → Writing (journaling, freewriting)
+    → Drawing (art therapy)
 
   = Somatic-Articulation-Loop.md: "body-knowledge → explicit-knowledge"
-  = KHÔNG phải retrieval — mà là CONSTRUCTION process (xây dần, không lấy sẵn)
+  = NOT retrieval — but a CONSTRUCTION process (built gradually, not retrieved ready-made)
 ```
 
 ### §9.4 — Clark Extended Mind
@@ -871,22 +877,22 @@ FEELING = KHÔNG CHỈ 1 INPUT — mà ~10 channels tích hợp:
 ```
 🟢 CLARK & CHALMERS 1998 — Extended Mind Thesis:
 
-  "Mind KHÔNG chỉ ở trong sọ — mind INCLUDE external tools"
+  "Mind does NOT only reside in the skull — mind INCLUDES external tools"
 
-  Giấy + bút = mở rộng WM (vẽ ra = thêm visual "memory" ngoài não)
-  Calculator = mở rộng math processing
-  Code editor = mở rộng logic processing
-  AI chatbot = mở rộng articulation capacity
+  Paper + pen = extends WM (drawing out = adding visual "memory" outside the brain)
+  Calculator = extends math processing
+  Code editor = extends logic processing
+  AI chatbot = extends articulation capacity
 
-  → Externalization KHÔNG phải "dump info ra ngoài"
-  → Externalization = EXTEND cognitive capacity vượt brain limits
+  → Externalization is NOT "dumping info out"
+  → Externalization = EXTENDING cognitive capacity beyond brain limits
   → = Brain (3-5 WM slots) + Paper (unlimited visual slots) = STRONGER system
 
   ⭐ AI ERA EXTENSION:
-  → AI = externalization partner CỰC MẠNH
-  → Feel vague → nói cho AI → AI suggest label → body check → iterate
-  → AI help plan → PFC freed → can feel more
-  → = "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng" (Logic-Planning.md)
+  → AI = EXTREMELY POWERFUL externalization partner
+  → Feel vague → tell AI → AI suggests label → body check → iterate
+  → AI helps plan → PFC freed → can feel more
+  → = "Humans need to FEEL correctly → AI will help PLAN correctly" (Logic-Planning.md)
 ```
 
 ---
@@ -896,19 +902,19 @@ FEELING = KHÔNG CHỈ 1 INPUT — mà ~10 channels tích hợp:
 ### §10.1 — Full flow: Sensor → PFC → Output → Feedback
 
 ```
-⭐ TOÀN BỘ FLOW TRONG 1 DIAGRAM:
+⭐ COMPLETE FLOW IN 1 DIAGRAM:
 
   ┌──────────────────────────────────────────────────────────────────┐
   │                    BODY SENSORS (~20+ types)                     │
-  │  Exteroceptive: mắt, tai, mũi, lưỡi, da                       │
-  │  Proprioceptive: vị trí, thăng bằng, chuyển động                │
-  │  Interoceptive: tim, phổi, ruột, hormone, đau, nhiệt           │
+  │  Exteroceptive: eyes, ears, nose, tongue, skin                  │
+  │  Proprioceptive: position, balance, movement                    │
+  │  Interoceptive: heart, lungs, gut, hormones, pain, temperature  │
   └────────────────────────┬─────────────────────────────────────────┘
                            │ raw electrical signals (action potentials)
                            ▼
   ┌──────────────────────────────────────────────────────────────────┐
   │                    THALAMUS (Gateway)                             │
-  │  • Mỗi sense → nucleus riêng (LGN, MGN, VPL, VPM,...)          │
+  │  • Each sense → its own nucleus (LGN, MGN, VPL, VPM,...)        │
   │  • FILTER + GATE (TRN control, PFC directs)                     │
   │  • Exceptions: olfaction bypass, amygdala subcortical pathway    │
   └────────────────────────┬─────────────────────────────────────────┘
@@ -942,26 +948,27 @@ FEELING = KHÔNG CHỈ 1 INPUT — mà ~10 channels tích hợp:
   │           FEELING CIRCUIT (Insula + ACC + vmPFC)                 │
   │                                                                  │
   │  Anterior Insula: integrate body state (10 channels → 1 state)  │
-  │  ACC: detect conflict → "sao sao ấy" signal                    │
+  │  ACC: detect conflict → "something feels off" signal            │
   │  vmPFC: bridge body → conscious (somatic marker)                │
   │                         │                                        │
-  │  → Feel-RawSignals raw → Feel-Integration integrate → Feel-Consciousification felt sense → (optional Feel-Labeling label) │
+  │  → Feel-RawSignals → Feel-Integration → Feel-Consciousification │
+  │    felt sense → (optional Feel-Labeling label)                  │
   └────────────────────────┬─────────────────────────────────────────┘
                            │ feeling signals + compiled chunks
                            ▼
   ┌──────────────────────────────────────────────────────────────────┐
   │                    PFC (Orchestrator)                             │
   │                                                                  │
-  │  OBSERVE:   đọc compiled patterns + feeling state                │
-  │  DRAFT:     tạo temporary patterns (mixed-selectivity neurons)  │
-  │  TEST:      gửi xuống specialist regions (amygdala/insula/BG)   │
+  │  OBSERVE:   reads compiled patterns + feeling state              │
+  │  DRAFT:     creates temporary patterns (mixed-selectivity neurons)│
+  │  TEST:      sends down to specialist regions (amygdala/insula/BG)│
   │  ROUTE:     pass/discard based on body feedback                 │
   │  BRAKE:     veto behavioral output (~200-500ms)                 │
   │  TRANSLATE: verbalize post-hoc                                   │
-  │  SPOTLIGHT:  amplify target cortical areas (NE + Ach + DA)      │
+  │  SPOTLIGHT: amplify target cortical areas (NE + Ach + DA)       │
   │  SIMULATE:  re-activate cortical patterns TOP-DOWN (§7)         │
   │                                                                  │
-  │  dlPFC: compare   vmPFC: value   OFC: reward   ACC: conflict   │
+  │  dlPFC: compare  vmPFC: value  OFC: reward  ACC: conflict       │
   │  mPFC: social simulation (Theory of Mind, DMN hub)              │
   └──────────┬───────────────────────────────────┬───────────────────┘
              │ motor commands                     │ top-down re-activation
@@ -998,22 +1005,22 @@ FEELING = KHÔNG CHỈ 1 INPUT — mà ~10 channels tích hợp:
 
 ```
 BOTTOM-UP (reality → brain):
-  Sensor → Thalamus → Cortex → Binding → Chunk → Feeling → PFC observe
-  = "Thế giới nói cho não biết"
-  = MẠNH, chính xác, body-driven
+  Sensor → Thalamus → Cortex → Binding → Chunk → Feeling → PFC observes
+  = "The world tells the brain"
+  = STRONG, accurate, body-driven
   = Source of feeling (Feel-RawSignals—Feel-Consciousification)
   = Source of chunk compilation
 
 TOP-DOWN (brain → cortex re-activation):
-  PFC → Spotlight → Cortex re-activate → Body respond (partial)
-  = "Não tự nói cho mình"
-  = YẾU hơn (~30-50%), có thể sai (confabulation)
+  PFC → Spotlight → Cortex re-activates → Body responds (partial)
+  = "The brain talks to itself"
+  = WEAKER (~30-50%), can be wrong (confabulation)
   = Source of imagination, planning, simulation
   = Source of mental rehearsal, worry, creativity
 
-⭐ HEALTHY COGNITION = CÂN BẰNG 2 HƯỚNG:
-  Quá nhiều bottom-up = reactive (chỉ respond, không plan)
-  Quá nhiều top-down = detached (sống trong đầu, không feel reality)
+⭐ HEALTHY COGNITION = BALANCE OF 2 DIRECTIONS:
+  Too much bottom-up = reactive (only responds, doesn't plan)
+  Too much top-down = detached (living in the head, not feeling reality)
   Balance = feel reality (bottom-up) + plan ahead (top-down) + check (feedback)
 ```
 
@@ -1023,33 +1030,33 @@ TOP-DOWN (brain → cortex re-activation):
 ⚠️ v2.0 FIX: v1.0 called these "L3 operators" — outdated.
    v7.8 reframe: L3 removed. These are OBSERVATION PARAMETERS
    (named patterns emerging from body-need interactions, not a separate layer).
-   Inter-Body §2.3: "Observation params = NOT sources — are NAMES cho patterns observable."
+   Inter-Body §2.3: "Observation params = NOT sources — are NAMES for observable patterns."
 
-3 OBSERVATION PARAMETERS MODULATE flow (not create separate flow):
+3 OBSERVATION PARAMETERS MODULATE flow (do not create a separate flow):
 
   NOVELTY (observation parameter):
-    → VTA detect above-baseline input quality → dopamine → PFC spotlight
+    → VTA detects above-baseline input quality → dopamine → PFC spotlight
     → Shifts baselines upward (hedonic treadmill)
     → Operates across ALL body-input categories
     → = NAMED PATTERN from gap-fill drive (Gap-Direction.md)
 
   STATUS (observation parameter):
-    → PFC construct: social position → PROXY for body-input access
+    → PFC constructs: social position → PROXY for body-input access
     → Status itself has NO body-base receiver
     → Status → body-input payoff (community → co-presence; reputation → resources)
     → Status without payoff = emptiness
     → = NAMED PATTERN from social hardware needs (Inter-Body §1)
 
   PROTECT (observation parameter):
-    → Guard body-inputs from threats
+    → Guards body-inputs from threats
     → Extends via Empathy-Mirror: mirrored body-state → protect-other behavior
     → = NAMED PATTERN from ownership + loss aversion (Protect.md)
 
-  → 3 parameters MODULATE flow, không tạo flow riêng
-  → Novelty: ảnh hưởng CÁI GÌ được spotlight
-  → Status: ảnh hưởng CÁI GÌ PFC draft as goal
-  → Protect: ảnh hưởng CÁI GÌ gets priority (threat override)
-  → Can thiệp ở level mechanism (body-need sources), không ở level label
+  → 3 parameters MODULATE flow, do not create a separate flow
+  → Novelty: influences WHAT gets spotlighted
+  → Status: influences WHAT PFC drafts as a goal
+  → Protect: influences WHAT gets priority (threat override)
+  → Intervene at mechanism level (body-need sources), not at label level
 ```
 
 ---
@@ -1120,7 +1127,7 @@ TOP-DOWN (brain → cortex re-activation):
 
   Specific fidelity percentages (Feel-RawSignals 100%, Feel-Explanation 20-70%):  Illustrative, not measured
   Imagination fidelity % per modality:                  Approximate, varies individually
-  "ACC = physical mechanism for 'sao sao ấy'":         Plausible, not directly tested
+  "ACC = physical mechanism for 'something feels off'": Plausible, not directly tested
   AI as externalization catalyst effectiveness:         New, unstudied longitudinally
 ```
 
@@ -1199,12 +1206,12 @@ NOT CLAIMING:
 
 ---
 
-## §12 — CROSS-REFERENCES (v2.0 NEW)
+## §12 — CROSS-REFERENCES (v2.0)
 
 ```
 📚 INTER-BODY DRILL:
   → Inter-Body-Mechanism.md v1.0 §1: Compilable Architecture (WHY this hardware)
-  → Inter-Body-Mechanism.md v1.0 §3: Compiled/Fresh = real axis (→ §5.5)
+  → Inter-Body-Mechanism.md v1.0 §3: Compiled/Fresh = the real axis (→ §5.5)
   → Inter-Body-Mechanism.md v1.0 §6: 5-Channel Input Vector (→ §8.3)
   → Inter-Body-Mechanism.md v1.0 §7: PFC = Lawyer (→ §6.1)
 
@@ -1215,7 +1222,7 @@ NOT CLAIMING:
   → Body-Input-Enumeration.md: full body input catalog (§1 source)
 
 📚 PROCESSING:
-  → Logic-Feeling.md v2.0 §1: Compiled/Fresh = trục thật
+  → Logic-Feeling.md v2.0 §1: Compiled/Fresh = the real axis
   → Logic-Feeling.md v4.0 §3: Flow (Body-Knowing Anchor ↔ Fresh Explore ↔ Domain Verify)
   → PFC-Analysis.md: PFC functions detail
   → Somatic-Articulation-Loop.md: externalization mechanism detail
@@ -1261,11 +1268,12 @@ v2.0 CHANGES (2026-05-17 — Inter-Body Drill Integration):
 
 > **Neural-Processing-Flow.md v2.0 — End of file.**
 >
-> Nền tảng gốc: toàn bộ flow vật lý từ sensor → thalamus → cortex → binding → chunks → feeling → PFC → simulation → externalization → feedback loop.
+> Original foundation: complete physical flow from sensor → thalamus → cortex → binding
+> → chunks → feeling → PFC → simulation → externalization → feedback loop.
 >
 > v2.0: +Compilable Architecture (WHY), +Compiled/Fresh physical (HOW compiled=fast),
 > +PFC=Lawyer (structural), +5-Channel mapping, +L3→observation parameter fix.
 >
-> Mọi cơ chế khác trong framework CHẠY TRÊN flow này.
+> All other mechanisms in the framework RUN ON this flow.
 >
-> **Phiên bản:** v2.0, 2026-05-17.
+> **Version:** v2.0, 2026-05-17.

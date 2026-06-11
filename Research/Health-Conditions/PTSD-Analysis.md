@@ -1,67 +1,92 @@
-# PTSD-Analysis — Cơ Chế PTSD Qua Framework v7.8
+---
+title: PTSD-Analysis — PTSD Mechanism Through Human Predictive Drive Framework v7.8
+version: v1.0
+created: 2026-05-15
+status: v1.0 — REFERENCE FILE
+file_type: ANALYSIS (framework analyzes mechanism, does NOT diagnose, does NOT recommend treatment)
+confidence: 🟢 Research (LeDoux, Brewin, Yehuda, Kim & Diamond, Rauch, Bouton, Milad, Walker) | 🟡 Synthesis (context-tag model, treatment unification, cascade mapping) | 🔴 Hypothesis (4 metadata types formalization, context-free chunk as type, reconsolidation therapy)
+cluster: Health Conditions Drill File 6/6 (Nicotine → Parkinson → ADHD → Alzheimer → Autism → PTSD)
+build_on: Cortisol-Baseline.md v2.0 §10 (trauma 4-stage SCAFFOLD — this file drills DEEPER into mechanism)
+dependencies:
+  - Cortisol-Baseline.md v2.0
+  - Threat.md v1.0
+  - PFC-Configuration.md v1.0
+  - Chunk.md v2.1
+  - Body-Feedback-Mechanism.md v1.2
+  - Feeling-Mechanism-Deep.md v1.1
+  - Background-Pattern.md v1.0
+  - Self-Pattern-Modeling.md v2.3
+  - Addiction-Analysis.md v3.0
+  - Child-Development-Mechanism.md v1.0
+disclaimer: |
+  Framework does NOT replace trauma therapy. PTSD = clinical condition requiring
+  professional assessment and treatment. This file provides an OBSERVATION LENS —
+  explains mechanism, does NOT prescribe treatment.
+plan: Research/Health-Conditions/plan-ptsd-analysis.md
+language: English
+---
 
-> **Tiếng nổ lớn — cựu binh nhảy xuống bàn. PFC biết: "đây là nhà hàng, an toàn."**
-> **Nhưng body đã ở chiến trường. Tim đập, tay run, mồ hôi lạnh.**
-> **PFC đến SAU 200ms. Amygdala đã fire từ 12ms.**
+# PTSD-Analysis — PTSD Mechanism Through Human Predictive Drive Framework v7.8
+
+> **A loud bang — a veteran dives under the table. PFC knows: "this is a restaurant, safe."**
+> **But the body is already on the battlefield. Heart pounding, hands trembling, cold sweat.**
+> **PFC arrives AFTER 200ms. The amygdala has been firing since 12ms.**
 >
-> Bạn tưởng body "không nghe" PFC. Sai.
-> Body ACTS TRƯỚC. PFC arrives LATE. Không phải override — là temporal sequence.
+> You think the body "won't listen" to the PFC. Wrong.
+> Body ACTS FIRST. PFC arrives LATE. Not override — temporal sequence.
 >
-> Chunk "tiếng nổ → nguy hiểm" compiled ONCE dưới cortisol cực cao.
-> Vivid. Sâu. Nhưng KHÔNG CÓ context: khi nào, ở đâu, tại sao.
-> Trigger (tiếng nổ) → chunk fire → body respond → "ở chiến trường."
-> PFC: "đây là 2026, nhà hàng, an toàn" — nhưng body đã đáp ứng rồi.
+> Chunk "loud bang → danger" compiled ONCE under extreme cortisol.
+> Vivid. Deep. But NO context: when, where, why.
+> Trigger (loud bang) → chunk fires → body responds → "on the battlefield."
+> PFC: "this is 2026, a restaurant, safe" — but the body has already responded.
 >
-> Normal memory: hippocampus gắn 4 metadata (khi nào, ở đâu, tại sao, body state).
-> → Retrieval = "nhớ lại" — biết là QUÁ KHỨ.
-> Trauma memory: amygdala encode ALONE — chỉ có body state, KHÔNG context.
-> → Retrieval = "sống lại" — body KHÔNG BIẾT là quá khứ.
+> Normal memory: hippocampus attaches 4 metadata (when, where, why, body state).
+> → Retrieval = "remembering" — knows it is the PAST.
+> Trauma memory: amygdala encodes ALONE — only body state, NO context.
+> → Retrieval = "reliving" — body DOES NOT KNOW it is the past.
 >
-> 6 conditions. 6 góc nhìn KHÁC NHAU:
->   Nicotine = dopamine HIJACK (chất bên ngoài cướp reward loop)
->   Parkinson = dopamine LOSS (hardware thoái hóa dần)
->   ADHD = CLEARANCE quá nhanh + RECEPTOR kém nhạy (TUNING)
->   Alzheimer = chunk system LOSS (synapse mất → chunks tự tan)
->   Autism = hardware CONFIGURATION KHÁC (không phải hỏng — khác cách compile)
->   **PTSD = chunk CONTEXT TAG MẤT (flashback = chunks fire sai context)**
+> 6 conditions. 6 DIFFERENT angles:
+>   Nicotine = dopamine HIJACK (external substance seizes reward loop)
+>   Parkinson = dopamine LOSS (hardware degrades progressively)
+>   ADHD = CLEARANCE too fast + RECEPTOR less sensitive (TUNING)
+>   Alzheimer = chunk system LOSS (synapse loss → chunks self-dissolve)
+>   Autism = hardware CONFIGURATION DIFFERENT (not broken — different way to compile)
+>   **PTSD = chunk CONTEXT TAG LOST (flashback = chunks fire in wrong context)**
 >
-> PTSD buộc framework formalize:
->   ① Chunk context-tagging — 4 loại metadata gắn vào chunk khi compile
+> PTSD forces framework to formalize:
+>   ① Chunk context-tagging — 4 types of metadata attached to chunk at compile time
 >   ② 2 encoding pathways — hippocampal (contextual) vs amygdala (context-free)
 >   ③ Body-first AMPLIFIED — amygdala 12ms → body 50ms → PFC 200ms+
 >
-> PTSD KHÔNG PHẢI "yếu đuối." Là hardware response khi encoding bị phá.
-> ~80% người trải qua trauma KHÔNG phát triển PTSD.
-> Nhưng ~20% thì recovery mechanism FAIL — và file này giải thích TẠI SAO.
+> PTSD is NOT "weakness." It is a hardware response when encoding gets disrupted.
+> ~80% of trauma-exposed people do NOT develop PTSD.
+> But ~20% have recovery mechanism FAIL — and this file explains WHY.
 
 ---
 
-**File type**: ANALYSIS (framework phân tích mechanism, KHÔNG chẩn đoán, KHÔNG đề xuất điều trị)
+**File type**: ANALYSIS (framework analyzes mechanism, does NOT diagnose, does NOT recommend treatment)
 **Version**: v1.0
 **Date**: 2026-05-15
 **Confidence**: 🟢 Research (LeDoux, Brewin, Yehuda, Kim & Diamond, Rauch, Bouton, Milad, Walker) | 🟡 Synthesis (context-tag model, treatment unification, cascade mapping) | 🔴 Hypothesis (4 metadata types formalization, context-free chunk as type, reconsolidation therapy)
 **Cluster**: Health Conditions Drill File 6/6 (Nicotine → Parkinson → ADHD → Alzheimer → Autism → **PTSD**)
-**Build on**: Cortisol-Baseline.md v2.0 §10 (trauma 4-stage SCAFFOLD — file này drill SÂU HƠN mechanism)
-**Dependencies**: Cortisol-Baseline.md v2.0, Threat.md v1.0, PFC-Configuration.md v1.0, Chunk.md v2.1, Body-Feedback-Mechanism.md v1.2, Feeling-Mechanism-Deep.md v1.1, Background-Pattern.md v1.0, Self-Pattern-Modeling.md v2.3, Addiction-Analysis.md v3.0, Child-Development-Mechanism.md v1.0
-**Disclaimer**: Framework KHÔNG thay thế trauma therapy. PTSD = clinical condition cần đánh giá và điều trị chuyên môn. File này cung cấp OBSERVATION LENS — giải thích mechanism, KHÔNG prescribe treatment.
-**Plan**: Research/Health-Conditions/plan-ptsd-analysis.md
+**Build on**: Cortisol-Baseline.md v2.0 §10 (trauma 4-stage SCAFFOLD — this file drills DEEPER into mechanism)
 
 ---
 
-## MỤC LỤC
+## TABLE OF CONTENTS
 
 ```
-§0  — VỊ TRÍ TRONG FRAMEWORK
-§1  — PTSD: BỨC TRANH TỔNG QUÁT
+§0  — POSITION IN FRAMEWORK
+§1  — PTSD: OVERVIEW
 §2  — CORE MECHANISM: CHUNK CONTEXT-TAG FAILURE
 §3  — HIPPOCAMPUS × AMYGDALA: 2 ENCODING PATHWAYS
-§4  — FLASHBACK QUA CHUNK DYNAMICS
+§4  — FLASHBACK THROUGH CHUNK DYNAMICS
 §5  — HPA AXIS PARADOX: LOW CORTISOL, HIGH REACTIVITY
 §6  — HYPERAROUSAL: PREDICTION MODEL → "THREAT EXPECTED"
 §7  — AVOIDANCE: LOGICAL RESPONSE TO BODY-FEEDBACK PAIN
 §8  — SLEEP FAILURE = CHUNK RE-CONTEXTUALIZATION FAILURE
 §9  — FEAR EXTINCTION ≠ ERASURE
-§10 — TREATMENT MECHANISMS QUA FRAMEWORK LENS
+§10 — TREATMENT MECHANISMS THROUGH FRAMEWORK LENS
 §11 — COMPLEX PTSD (C-PTSD)
 §12 — PTSD × OTHER CONDITIONS
 §13 — INTERGENERATIONAL TRAUMA
@@ -72,104 +97,104 @@
 
 ---
 
-## §0 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — POSITION IN FRAMEWORK
 
-### §0.1 — Tại sao file này tồn tại
+### §0.1 — Why this file exists
 
 ```
-HEALTH CONDITIONS DRILL — 6 góc nhìn KHÁC NHAU trên cùng kiến trúc:
+HEALTH CONDITIONS DRILL — 6 DIFFERENT ANGLES on the same architecture:
 
   File 1: Nicotine-Brain-Mechanism.md    [Hijack/]
-    → SOURCE bị ÉP fire bởi chất bên ngoài
+    → SOURCE FORCED to fire by external substance
     → VTA forced → dopamine flood → hijack reward loop
 
   File 2: Parkinson-Analysis.md          [Neurodegeneration/]
-    → SOURCE bị CHẾT (neuron SNc thoái hóa dần)
-    → Hardware irreversible → execution fail
+    → SOURCE DIES (SNc neuron degenerates progressively)
+    → Hardware irreversible → execution fails
 
   File 3: ADHD-Observation.md            [Neurodiversity/]
-    → CLEARANCE quá nhanh (DAT) + RECEPTOR kém nhạy (DRD4)
-    → Neuron CÒN, regulation KHÁC → TUNING
+    → CLEARANCE too fast (DAT) + RECEPTOR less sensitive (DRD4)
+    → Neuron INTACT, regulation DIFFERENT → TUNING
 
   File 4: Alzheimer-Analysis.md          [Neurodegeneration/]
-    → SYNAPSE LOSS → chunk substrate phá → chunks TỰ MẤT
+    → SYNAPSE LOSS → chunk substrate destroyed → chunks SELF-LOST
     → Identity dissolution, "last in first out"
 
   File 5: Autism-Observation.md          [Neurodiversity/]
-    → Hardware CONFIGURATION KHÁC từ đầu
-    → Sensory gain khác → chunk compilation khác → cascade khác
+    → Hardware CONFIGURATION DIFFERENT from the start
+    → Sensory gain different → chunk compilation different → cascade different
 
-  File 6: PTSD-Analysis.md              [Research/]  ← FILE NÀY
-    → Chunk CONTEXT TAG MẤT → flashback = chunks fire sai context
-    → CATEGORY MỚI: encoding failure (hardware + chunks NGUYÊN VẸN,
-      nhưng CÁCH encode bị phá dưới extreme stress)
+  File 6: PTSD-Analysis.md              [Research/]  ← THIS FILE
+    → Chunk CONTEXT TAG LOST → flashback = chunks fire in wrong context
+    → NEW CATEGORY: encoding failure (hardware + chunks INTACT,
+      but HOW they encode gets disrupted under extreme stress)
 
-⭐ PTSD = CATEGORY KHÁC hoàn toàn 5 files trước:
-  Hijack: chất bên ngoài CAN THIỆP → Chunks compile SAI (wrong reward)
-  Degradation: hardware CHẾT DẦN → Chunks MẤT DẦN
-  Tuning: hardware regulation KHÁC → Chunks compile KHÁC CÁCH
-  Configuration: hardware KIẾN TRÚC KHÁC → Chunks compile KHÁC TỪ ĐẦU
-  → PTSD: hardware NGUYÊN VẸN, chunks compile VIVID
-    nhưng CONTEXT METADATA BỊ MẤT tại thời điểm encode
-    → Chunks ĐÚNG content, SAI context → fire SẠI tình huống
+⭐ PTSD = COMPLETELY DIFFERENT CATEGORY from the 5 prior files:
+  Hijack: external substance INTERVENES → Chunks compile WRONG (wrong reward)
+  Degradation: hardware DIES GRADUALLY → Chunks LOST GRADUALLY
+  Tuning: hardware regulation DIFFERENT → Chunks compile DIFFERENTLY
+  Configuration: hardware ARCHITECTURE DIFFERENT → Chunks compile DIFFERENT FROM START
+  → PTSD: hardware INTACT, chunks compile VIVID
+    but CONTEXT METADATA LOST at the time of encoding
+    → Chunks CORRECT content, WRONG context → fire in WRONG situation
 ```
 
 ### §0.2 — Builds on Cortisol-Baseline §10
 
 ```
-Cortisol-Baseline.md v2.0 §10 ĐÃ SCAFFOLD trauma:
+Cortisol-Baseline.md v2.0 §10 ALREADY SCAFFOLDED trauma:
   Stage 1: Initial compile (chunks cortisol-tagged)
   Stage 2: PFC draft without resolution
   Stage 3: Sleep degradation
   Stage 4: PFC damage + schema drift
 
-FILE NÀY DRILL SÂU HƠN:
-  → §10.1 nói "chunks compile under extreme cortisol" — 
-    file này giải thích TẠI SAO encoding bị phá:
+THIS FILE DRILLS DEEPER:
+  → §10.1 says "chunks compile under extreme cortisol" —
+    this file explains WHY encoding gets disrupted:
     hippocampus suppressed × amygdala enhanced = 2 pathway divergence
-  → §10.2 nói "PFC tries to find solution but cannot" —
-    file này giải thích TẠI SAO: context-free chunks → PFC không có metadata
-    để "đặt lại" memory vào đúng thời gian/không gian
-  → §10.3 nói "sleep degradation" —
-    file này thêm Walker 2009: REM = chunk re-contextualization mechanism,
-    PTSD NE cao → mechanism này FAIL
-  → §10.5 nói "competitive re-linking" —
-    file này thêm: Bouton 2004 extinction ≠ erasure, Milad 2009 PTSD = impaired recall
+  → §10.2 says "PFC tries to find solution but cannot" —
+    this file explains WHY: context-free chunks → PFC has no metadata
+    to "place" memory in correct time/space
+  → §10.3 says "sleep degradation" —
+    this file adds Walker 2009: REM = chunk re-contextualization mechanism,
+    PTSD NE elevation → this mechanism FAILS
+  → §10.5 says "competitive re-linking" —
+    this file adds: Bouton 2004 extinction ≠ erasure, Milad 2009 PTSD = impaired recall
 
-KHÔNG LẶP §10 — EXTEND. Reference §10 cho foundation, drill mechanism ở đây.
+NOT REPEATING §10 — EXTENDING. Reference §10 for foundation, drill mechanism here.
 ```
 
 ### §0.3 — Scope: Framework CAN vs CANNOT
 
 ```
-FRAMEWORK CÓ THỂ PHÂN TÍCH:
-  ✅ Chunk encoding mechanism: tại sao hippocampus suppressed under extreme stress
-  ✅ Context-tag formalization: 4 loại metadata gắn vào chunk khi compile
+FRAMEWORK CAN ANALYZE:
+  ✅ Chunk encoding mechanism: why hippocampus suppressed under extreme stress
+  ✅ Context-tag formalization: 4 types of metadata attached to chunk at compile
   ✅ 2 encoding pathways: hippocampal (contextual) vs amygdala (context-free)
   ✅ Flashback mechanism: sensory trigger → context-free chunk fires → body response
-  ✅ HPA axis paradox: reconcile Yehuda (low cortisol) với framework cortisol model
+  ✅ HPA axis paradox: reconcile Yehuda (low cortisol) with framework cortisol model
   ✅ Sleep failure: REM as re-contextualization mechanism
-  ✅ Treatment unification: tất cả evidence-based treatments share 1 mechanism
+  ✅ Treatment unification: all evidence-based treatments share 1 mechanism
   ✅ C-PTSD: Self-Pattern-Modeling compiled under chronic threat (Background-Pattern 2D model)
-  ✅ Comorbidity: PTSD × Depression / Addiction / ADHD mimicry
+  ✅ Co-occurrence: PTSD × Depression / Addiction / ADHD mimicry
 
-FRAMEWORK KHÔNG THỂ:
-  ❌ Chẩn đoán PTSD (clinical, DSM-5 criteria = y khoa)
+FRAMEWORK CANNOT:
+  ❌ Diagnose PTSD (clinical, DSM-5 criteria = medical)
   ❌ Prescribe treatment (specialized trauma therapy)
-  ❌ Predict per-individual risk (cần clinical assessment)
-  ❌ Thay thế trauma therapy (EMDR, CPT, PE (Prolonged Exposure) = clinical interventions)
-  ❌ Xác định trauma threshold per-individual
+  ❌ Predict per-individual risk (clinical assessment required)
+  ❌ Replace trauma therapy (EMDR, CPT, Prolonged Exposure = clinical interventions)
+  ❌ Determine trauma threshold per-individual
 
 ⚠️ RESPECTFUL FRAMING:
-  PTSD = hardware response to extreme input, KHÔNG PHẢI "yếu đuối"
-  ~80% trauma-exposed KHÔNG phát triển PTSD → vulnerability ≠ weakness
-  Avoidance = LOGICAL body response to pain, KHÔNG PHẢI "trốn tránh healing"
-  Treatment = respectful observation lens, KHÔNG prescribe
+  PTSD = hardware response to extreme input, NOT "weakness"
+  ~80% trauma-exposed do NOT develop PTSD → vulnerability ≠ weakness
+  Avoidance = LOGICAL body response to pain, NOT "avoiding healing"
+  Treatment analysis = respectful observation lens, NOT prescribing treatment
 ```
 
 ---
 
-## §1 — PTSD: BỨC TRANH TỔNG QUÁT
+## §1 — PTSD: OVERVIEW
 
 ### §1.1 — DSM-5 criteria: 4 clusters
 
@@ -177,30 +202,30 @@ FRAMEWORK KHÔNG THỂ:
 🟢 DSM-5 (APA 2013) — Post-Traumatic Stress Disorder:
 
   CRITERION A — Exposure:
-    Trải nghiệm trực tiếp, chứng kiến, hoặc biết người thân trải qua
-    sự kiện đe dọa tính mạng, chấn thương nặng, hoặc bạo lực tình dục.
+    Direct experience, witnessing, or learning that a close person experienced
+    an event involving actual or threatened death, serious injury, or sexual violence.
 
-  4 SYMPTOM CLUSTERS (≥1 tháng, gây suy giảm chức năng):
+  4 SYMPTOM CLUSTERS (≥1 month, causing functional impairment):
 
-  ① RE-EXPERIENCING (ít nhất 1):
-    → Intrusive memories (nhớ lại không tự chủ)
-    → Nightmares (ác mộng liên quan trauma)
-    → Flashbacks (cảm giác sống lại — spectrum từ nhẹ tới mất liên lạc thực tại)
-    → Psychological distress khi gặp trigger
-    → Physiological reactivity khi gặp trigger
+  ① RE-EXPERIENCING (at least 1):
+    → Intrusive memories (involuntary recollection)
+    → Nightmares (trauma-related dreams)
+    → Flashbacks (sense of reliving — spectrum from mild to complete reality loss)
+    → Psychological distress when encountering triggers
+    → Physiological reactivity when encountering triggers
 
-  ② AVOIDANCE (ít nhất 1):
-    → Tránh ký ức, suy nghĩ, cảm xúc liên quan
-    → Tránh external reminders (người, nơi, hoạt động, vật)
+  ② AVOIDANCE (at least 1):
+    → Avoiding memories, thoughts, feelings related to trauma
+    → Avoiding external reminders (people, places, activities, objects)
 
-  ③ NEGATIVE COGNITIONS + MOOD (ít nhất 2):
-    → Amnesia cho aspects quan trọng (dissociative amnesia)
-    → Niềm tin tiêu cực về bản thân/thế giới
-    → Distorted blame (tự trách hoặc trách người khác)
+  ③ NEGATIVE COGNITIONS + MOOD (at least 2):
+    → Amnesia for important aspects (dissociative amnesia)
+    → Persistent negative beliefs about self/world
+    → Distorted blame (self-blame or blaming others)
     → Persistent negative emotional state
     → Diminished interest, detachment, restricted positive emotions
 
-  ④ HYPERAROUSAL (ít nhất 2):
+  ④ HYPERAROUSAL (at least 2):
     → Irritability, angry outbursts
     → Reckless/self-destructive behavior
     → Hypervigilance
@@ -208,20 +233,20 @@ FRAMEWORK KHÔNG THỂ:
     → Concentration difficulties
     → Sleep disturbance
 
-  + DSM-5 thêm DISSOCIATIVE SPECIFIER (2013):
-    Depersonalization: cảm giác tách rời khỏi bản thân
-    Derealization: thế giới xung quanh cảm thấy không thực
-    🟢 Lanius et al. 2010 — neurobiological basis cho specifier này
+  + DSM-5 adds DISSOCIATIVE SPECIFIER (2013):
+    Depersonalization: feeling detached from oneself
+    Derealization: the surrounding world feels unreal
+    🟢 Lanius et al. 2010 — neurobiological basis for this specifier
 
-  FRAMEWORK MAPPING (preview — chi tiết ở các §):
-    ① Re-experiencing = context-free chunks fire (§2, §4)
+  FRAMEWORK MAPPING (preview — details in respective sections):
+    ① Re-experiencing = context-free chunks firing (§2, §4)
     ② Avoidance = logical body-pain response (§7)
     ③ Negative cognitions = schema drift under chronic cortisol (§6)
     ④ Hyperarousal = prediction model recalibrated to threat (§6)
     Dissociative = PFC-Configuration ⑤ Hyperactivated (§4.6)
 ```
 
-### §1.2 — Prevalence: ai, bao nhiêu, ở đâu
+### §1.2 — Prevalence: who, how many, where
 
 ```
 🟢 PREVALENCE DATA:
@@ -229,56 +254,56 @@ FRAMEWORK KHÔNG THỂ:
   Kessler et al. 2005 (Arch Gen Psychiatry 62:593) — NCS-R (n=9,282 US):
     Lifetime PTSD prevalence = 6.8% (US)
     Women: 10.4% | Men: 5.0% — women ~2× risk
-    PTSD = một trong các anxiety disorders phổ biến nhất
+    PTSD = one of the most common anxiety disorders
 
   Koenen et al. 2017 (Psych Medicine 47:2260) — WHO World Mental Health (24+ countries):
     Global lifetime = 3.9%
     High-income: 5.0% | Upper-middle: 2.3% | Low/lower-middle: 2.1%
-    Trauma-exposed: ~5.6% develop PTSD (range 0.5% Peru → 14.5% N. Ireland)
+    Trauma-exposed: ~5.6% develop PTSD (range 0.5% Peru → 14.5% Northern Ireland)
 
-  QUAN TRỌNG: CHỈ ~20-30% trauma-exposed → PTSD
-    → Trauma = necessary nhưng NOT sufficient
-    → "Tại sao KHÔNG phát triển PTSD" cũng quan trọng bằng "tại sao CÓ"
+  CRITICAL: ONLY ~20-30% trauma-exposed → PTSD
+    → Trauma = necessary but NOT sufficient
+    → "Why does PTSD NOT develop" is equally important as "why does it"
 
   Gender difference (women 2× risk):
     → Exposure to high-conditional-risk traumas (sexual assault > accident)
     → Neurobiological differences (HPA axis reactivity)
-    → ⚠️ KHÔNG phải "yếu hơn" — exposure profile + biology khác
+    → ⚠️ NOT "weaker" — different exposure profile + different biology
 
   Highest conditional risk: sexual assault > combat > accident
     🟢 Kessler et al. 1995: rape PTSD ~50% conditional risk
 ```
 
-### §1.3 — PTSD ≠ "yếu đuối": vulnerability factors
+### §1.3 — PTSD ≠ "weakness": vulnerability factors
 
 ```
-🟢 PTSD = HARDWARE RESPONSE, không phải personality:
+🟢 PTSD = HARDWARE RESPONSE, not personality:
 
-  Framework: PTSD xảy ra khi encoding mechanism bị phá
-  dưới extreme stress. KHÔNG PHẢI vì người đó "yếu."
+  Framework: PTSD occurs when encoding mechanism fails
+  under extreme stress. NOT because the person is "weak."
 
   Pre-existing vulnerability factors:
-    → Genetic: twin studies cho 30-40% heritability of PTSD risk variance
+    → Genetic: twin studies show 30-40% heritability of PTSD risk variance
     → Hippocampal volume: Gilbertson 2002 (Nature Neurosci 5:1242)
       LANDMARK TWIN STUDY:
         Monozygotic twins: combat-exposed + PTSD (ExP+) vs unexposed co-twin (UxP+)
         vs combat-exposed WITHOUT PTSD (ExP-) vs unexposed co-twin (UxP-)
-        KEY FINDING: unexposed co-twin of PTSD veteran (UxP+) CŨNG có smaller hippocampus
+        KEY FINDING: unexposed co-twin of PTSD veteran (UxP+) ALSO has smaller hippocampus
         → Smaller hippocampus = PRE-EXISTING VULNERABILITY, not just consequence
         → PTSD severity in veteran correlates with hippocampal volume in BOTH twins
     → Prior psychiatric history (depression, anxiety)
     → Prior trauma (especially childhood)
     → Family history of psychopathology
 
-  Peri-traumatic factors (tại thời điểm trauma):
-    → Peri-traumatic dissociation (mạnh nhất)
+  Peri-traumatic factors (at the time of trauma):
+    → Peri-traumatic dissociation (strongest predictor)
     → Perceived life threat
     → Physical injury
     → Duration + severity
     → Interpersonal/intentional nature (assault > accident)
 
   Post-traumatic factors:
-    → Lack of social support (QUAN TRỌNG)
+    → Lack of social support (IMPORTANT)
     → Subsequent stressors
     → Avoidant coping
     → Absence of early intervention
@@ -292,87 +317,89 @@ FRAMEWORK KHÔNG THỂ:
 
   ⭐ FRAMEWORK INSIGHT:
     Vulnerability = f(hippocampal capacity × pre-existing baseline × support)
-    KHÔNG phải "mạnh/yếu" — là hardware + environment + timing
+    NOT "strong/weak" — it is hardware + environment + timing
     Same person, different conditions → different outcome
 ```
 
-### §1.4 — PTSD ≠ trauma response: khi nào recovery FAILS
+### §1.4 — PTSD ≠ trauma response: when recovery FAILS
 
 ```
-🟡 QUAN TRỌNG — PHÂN BIỆT:
+🟡 IMPORTANT — DISTINCTION:
 
-  ACUTE STRESS RESPONSE (bình thường, adaptive):
-    → Trauma → cortisol spike → body mobilize → resolution → recovery
-    → Hầu hết người trải qua trauma có acute stress
-    → Recovery: days → weeks → about 50% resolve trong 3 tháng
-    → = SYSTEM HOẠT ĐỘNG ĐÚNG
+  ACUTE STRESS RESPONSE (normal, adaptive):
+    → Trauma → cortisol spike → body mobilizes → resolution → recovery
+    → Most people who experience trauma have acute stress
+    → Recovery: days → weeks → about 50% resolve within 3 months
+    → = SYSTEM WORKING CORRECTLY
 
-  PTSD (khi recovery mechanism FAIL):
-    → Trauma → cortisol spike → encoding bị phá → context-free chunks
-    → Chunks fire sai context → body respond → cortisol thêm
-    → Sleep disrupted → chunks không reprocess được
-    → PFC damage tích lũy → worse regulation → loop tự duy trì
-    → ≥1 tháng, gây suy giảm chức năng
-    → = SYSTEM BỊ KẸT
+  PTSD (when recovery mechanism FAILS):
+    → Trauma → cortisol spike → encoding disrupted → context-free chunks
+    → Chunks fire in wrong context → body responds → more cortisol
+    → Sleep disrupted → chunks cannot be reprocessed
+    → PFC damage accumulates → worse regulation → self-perpetuating loop
+    → ≥1 month, causing functional impairment
+    → = SYSTEM STUCK
 
   ANALOGY:
     Normal: bone fracture → immobilize → heal → full function
-    PTSD: bone fracture → but healing mechanism DISRUPTED → chronic pain
-    → Không phải "xương yếu hơn" — healing process bị phá
+    PTSD: bone fracture → healing mechanism DISRUPTED → chronic pain
+    → Not "weaker bone" — healing process itself gets disrupted
 
-  FRAMEWORK: PTSD xảy ra khi 3 mechanism recovery bị phá đồng thời:
-    ① Hippocampal reprocessing: add context to trauma chunks → FAIL (hippocampus suppressed)
-    ② REM re-contextualization: sleep process emotional memories → FAIL (NE stays high)
-    ③ PFC regulation: top-down modulation of amygdala → FAIL (PFC weakened, amygdala strengthened)
-    → 3 CÙNG FAIL = system KẸT → PTSD
-    → 1 hoặc 2 fail → system có thể bù → recovery
-    → = Tại sao chỉ ~20-30% develop PTSD: cần NHIỀU failures đồng thời
+  FRAMEWORK: PTSD occurs when 3 recovery mechanisms fail simultaneously:
+    ① Hippocampal reprocessing: add context to trauma chunks → FAILS (hippocampus suppressed)
+    ② REM re-contextualization: sleep processes emotional memories → FAILS (NE stays high)
+    ③ PFC regulation: top-down modulation of amygdala → FAILS (PFC weakened, amygdala strengthened)
+    → 3 SIMULTANEOUSLY FAIL = system STUCK → PTSD
+    → 1 or 2 fail → system can compensate → recovery
+    → = Why only ~20-30% develop PTSD: needs MULTIPLE simultaneous failures
 ```
 
 ---
 
 ## §2 — CORE MECHANISM: CHUNK CONTEXT-TAG FAILURE
 
-> **Section quan trọng nhất.** Framework đã nói chunks compile dưới emotional peak
-> (Cortisol-Baseline §10.1). Nhưng CHƯA formalize TẠI SAO trauma chunks khác:
-> không phải compile "sâu hơn" hay "mạnh hơn" — mà THIẾU CONTEXT METADATA.
-> Section này formalize cơ chế đó.
+> **Most important section.** Framework has said chunks compile under emotional peak
+> (Cortisol-Baseline §10.1). But has NOT yet formalized WHY trauma chunks are different:
+> not that they compile "deeper" or "stronger" — but that they LACK CONTEXT METADATA.
+> This section formalizes that mechanism.
 
 ### §2.1 — Normal encoding: hippocampus + 4 metadata types
 
 ```
 ⭐ FRAMEWORK FORMALIZATION — CHUNK CONTEXT-TAG:
 
-  Khi chunk compile bình thường, hippocampus gắn 4 LOẠI METADATA:
+  When a chunk compiles normally, hippocampus attaches 4 TYPES OF METADATA:
 
   ┌─────────────────────────────────────────────────────────────────┐
-  │  METADATA        │ HỎI GÌ      │ BRAIN REGION  │ VÍ DỤ         │
+  │  METADATA        │ WHAT IT ASKS  │ BRAIN REGION  │ EXAMPLE       │
   ├─────────────────────────────────────────────────────────────────┤
-  │ ① TEMPORAL       │ KHI NÀO?    │ Hippocampus   │ "Năm 2020,    │
-  │   (time stamp)   │             │ (CA1, EC)     │  tháng 3"     │
-  │                  │             │               │               │
-  │ ② SPATIAL        │ Ở ĐÂU?     │ Hippocampus   │ "Tại ngã tư   │
-  │   (location)     │             │ (place cells) │  đường X"     │
-  │                  │             │               │               │
-  │ ③ CAUSAL         │ TẠI SAO?    │ Hippocampus + │ "Xe chạy đèn  │
-  │   (narrative)    │ THẾ NÀO?    │ PFC           │  đỏ → va"     │
-  │                  │             │               │               │
-  │ ④ STATE          │ BODY THẾ    │ Amygdala +    │ "Sợ, đau,     │
-  │   (body state)   │ NÀO?       │ Insula        │  heart rate↑"  │
+  │ ① TEMPORAL       │ WHEN?         │ Hippocampus   │ "2020,        │
+  │   (time stamp)   │               │ (CA1, EC)     │  March"       │
+  │                  │               │               │               │
+  │ ② SPATIAL        │ WHERE?        │ Hippocampus   │ "At the       │
+  │   (location)     │               │ (place cells) │  intersection"│
+  │                  │               │               │               │
+  │ ③ CAUSAL         │ WHY?          │ Hippocampus + │ "Car ran a    │
+  │   (narrative)    │ HOW?          │ PFC           │  red light →  │
+  │                  │               │               │  collision"   │
+  │                  │               │               │               │
+  │ ④ STATE          │ BODY STATE?   │ Amygdala +    │ "Scared,      │
+  │   (body state)   │               │ Insula        │  pain,        │
+  │                  │               │               │  heart rate↑" │
   └─────────────────────────────────────────────────────────────────┘
 
   NORMAL CHUNK = CONTENT + 4 METADATA:
-    Content: "va xe" (visual, auditory, somatic fragments)
-    Temporal: "năm 2020" → biết là QUÁ KHỨ
-    Spatial: "ngã tư X" → biết ở ĐÂU (không phải mọi nơi)
-    Causal: "xe chạy đèn đỏ" → biết TẠI SAO (bounded, có sequence)
-    State: "sợ, đau" → cảm xúc attached nhưng CONTEXTUALIZED
+    Content: "car collision" (visual, auditory, somatic fragments)
+    Temporal: "2020" → knows it is the PAST
+    Spatial: "intersection X" → knows WHERE (not everywhere)
+    Causal: "car ran red light" → knows WHY (bounded, has sequence)
+    State: "scared, pain" → emotions attached but CONTEXTUALIZED
 
-  → Retrieval: PFC trigger "nhớ lại va xe"
-    → Content fires + 4 metadata fires CÙNG LÚC
-    → PFC: "đây là KÝ ỨC, năm 2020, ở ngã tư X, vì xe chạy đèn đỏ"
-    → Body: có thể hơi khó chịu (state metadata fires) nhưng BOUNDED
-    → = "REMEMBERING" — biết là quá khứ, ở 1 nơi cụ thể, có nguyên nhân rõ
+  → Retrieval: PFC triggers "remember car collision"
+    → Content fires + 4 metadata fires SIMULTANEOUSLY
+    → PFC: "this is a MEMORY, from 2020, at intersection X, because car ran red light"
+    → Body: may feel slight discomfort (state metadata fires) but BOUNDED
+    → = "REMEMBERING" — knows it is the past, at a specific place, with a known cause
 
   🟢 Hippocampus = episodic memory encoding (Scoville & Milner 1957 — H.M.)
   🟢 Place cells (O'Keefe & Dostrovsky 1971), time cells (MacDonald 2011)
@@ -388,20 +415,20 @@ FRAMEWORK KHÔNG THỂ:
   Kim & Diamond 2002 (Nature Rev Neurosci 3:453):
   Extreme stress triggers 2 PARALLEL cascades:
 
-  CASCADE 1 — NE surge (locus coeruleus, giây):
+  CASCADE 1 — NE surge (locus coeruleus, seconds):
     → NE → amygdala lateral nucleus: ENHANCE LTP (long-term potentiation)
-    → = Amygdala encoding MẠNH HƠN bình thường
-    → NE ở mức VỪA → cũng giúp hippocampus (inverted-U)
-    → NE ở mức CỰC CAO → hippocampus BẮT ĐẦU impaired
+    → = Amygdala encoding STRONGER than normal
+    → NE at MODERATE levels → also helps hippocampus (inverted-U)
+    → NE at EXTREME levels → hippocampus BEGINS to be impaired
 
-  CASCADE 2 — Cortisol surge (HPA axis, phút):
+  CASCADE 2 — Cortisol surge (HPA axis, minutes):
     → High cortisol → GR activation → SUPPRESS hippocampal LTP
-    → Cortisol cũng → FACILITATE hippocampal LTD (long-term depression)
-    → = Hippocampus encoding YẾU ĐI hoặc BỊ PHÁ
-    → THÊM: amygdala hyperactivation → sends DISRUPTING projections TO hippocampus
+    → Cortisol also → FACILITATE hippocampal LTD (long-term depression)
+    → = Hippocampal encoding WEAKENED or DISRUPTED
+    → ADDITIONALLY: amygdala hyperactivation → sends DISRUPTING projections TO hippocampus
     → = DOUBLE HIT: cortisol suppresses + amygdala disrupts hippocampus
 
-  KẾT QUẢ:
+  RESULT:
 
   ┌───────────────────────────────────────────────────────────────┐
   │           │ Normal stress    │ Extreme trauma                 │
@@ -409,23 +436,23 @@ FRAMEWORK KHÔNG THỂ:
   │ Amygdala  │ Moderate enhance │ MAXIMAL enhance → VIVID encode │
   │ Hippocampus│ Moderate enhance│ SUPPRESSED → context LOST      │
   │ Result    │ Strong + context │ VIVID + NO context             │
-  │ Retrieval │ "Nhớ lại"       │ "Sống lại"                     │
+  │ Retrieval │ "Remembering"   │ "Reliving"                     │
   └───────────────────────────────────────────────────────────────┘
 
   TRAUMA CHUNK = CONTENT + STATE ONLY:
-    Content: "va xe" (visual, auditory, somatic fragments — VIVID)
-    Temporal: ABSENT hoặc WEAK → không biết "khi nào"
-    Spatial: ABSENT hoặc WEAK → không biết "ở đâu cụ thể"
-    Causal: ABSENT hoặc WEAK → không có narrative sequence
-    State: VIVID (amygdala encode MẠNH) → full body response available
+    Content: "car collision" (visual, auditory, somatic fragments — VIVID)
+    Temporal: ABSENT or WEAK → no "when" known
+    Spatial: ABSENT or WEAK → not bounded to "that intersection"
+    Causal: ABSENT or WEAK → no narrative sequence
+    State: VIVID (amygdala encoded STRONGLY) → full body response available
 
-  → Retrieval: sensory trigger (tiếng phanh xe) → amygdala match
+  → Retrieval: sensory trigger (brakes screeching) → amygdala match
     → Content fires + STATE fires (VIVID body response)
-    → Temporal: ABSENT → PFC không có "this was 2020" signal
-    → Spatial: ABSENT → not bounded to "ngã tư X"
-    → Causal: ABSENT → no sequence, no "vì xe chạy đèn đỏ"
-    → = Body responds AS IF IN TRAUMA — vì không có metadata nói "quá khứ"
-    → = "RE-EXPERIENCING" — body sống lại, không phải nhớ lại
+    → Temporal: ABSENT → PFC has no "this was 2020" signal
+    → Spatial: ABSENT → not bounded to "that intersection"
+    → Causal: ABSENT → no sequence, no "because car ran red light"
+    → = Body responds AS IF IN TRAUMA — because no metadata says "past"
+    → = "RE-EXPERIENCING" — body reliving, not remembering
 
   🟢 Kim & Diamond 2002: NE + cortisol temporal dynamics
   🟢 McGaugh 2004 (Annual Rev Neurosci 27:1): amygdala modulates consolidation
@@ -472,30 +499,30 @@ FRAMEWORK KHÔNG THỂ:
   │                   │   knowing WHEN/WHERE/WHY                 │
   └──────────────────────────────────────────────────────────────┘
 
-  → Brewin DRT ĐÃ establish dual memory system
-  → Framework THÊM: explicit 4 metadata model + mapping vào chunk architecture
+  → Brewin DRT ESTABLISHED dual memory system
+  → Framework ADDS: explicit 4 metadata model + mapping into chunk architecture
   → = Consistent, not contradictory — framework formalizes in chunk language
 ```
 
 ### §2.4 — Paradox: deeply compiled BUT poorly contextualized
 
 ```
-⭐ PARADOX CỐT LÕI CỦA PTSD:
+⭐ CORE PARADOX OF PTSD:
 
   COMPILE DEPTH:
-    Normal memory compile: cần repetition (nhiều lần) hoặc multi-modal + emotional weight
-    → Schema.md §4.1: depth = f(số lần × modalities × emotional weight)
-    Trauma memory: emotional peak CỰC CAO → compile NGAY TỪ 1 LẦN
+    Normal memory compile: requires repetition (many times) OR multi-modal + emotional weight
+    → Schema.md §4.1: depth = f(repetition count × modalities × emotional weight)
+    Trauma memory: emotional peak EXTREME → compiles FROM A SINGLE OCCURRENCE
     → = Emotional weight overwhelms → 1 event = deep compile
 
   CONTEXT QUALITY:
-    Normal memory: hippocampus hoạt động → 4 metadata gắn đầy đủ
-    Trauma memory: hippocampus suppressed → metadata THIẾU
+    Normal memory: hippocampus functioning → 4 metadata fully attached
+    Trauma memory: hippocampus suppressed → metadata MISSING
 
   PARADOX:
     ┌──────────────────────────────────────────────────────┐
-    │ COMPILE DEPTH = CỰC SÂU (amygdala + emotional peak) │
-    │ CONTEXT QUALITY = CỰC THẤP (hippocampus suppressed) │
+    │ COMPILE DEPTH = EXTREME (amygdala + emotional peak)  │
+    │ CONTEXT QUALITY = EXTREME LOW (hippocampus suppressed)│
     │ = WORST COMBINATION                                  │
     └──────────────────────────────────────────────────────┘
 
@@ -507,10 +534,10 @@ FRAMEWORK KHÔNG THỂ:
       → FIRES from ANY matching cue (no spatial boundary)
       → FULL BODY RESPONSE every time (state metadata vivid)
 
-  THÊM: compile depth NGĂN CẢN extinction
+  ADDITIONALLY: compile depth PREVENTS extinction
     → Bouton 2004: extinction = new competing learning, NOT erasure
     → Deep trauma chunk = strong competitor
-    → New safety chunk phải mạnh HƠN trauma chunk → rất khó
+    → New safety chunk must be STRONGER than trauma chunk → very difficult
     → = WHY PTSD is chronic without treatment (competing learning insufficient)
 
   🟡 Paradox formulation = framework synthesis
@@ -523,26 +550,26 @@ FRAMEWORK KHÔNG THỂ:
 ```
 ⭐⭐ FORMALIZATION — CHUNK CONTEXT-TAG MODEL:
 
-  Chunk.md v2.1 §1.1: "NO SOURCE TAG — body treat BÌNH ĐẲNG bất kể chunk
-  compiled từ đâu. Internal compile vs external install = CÙNG format."
+  Chunk.md v2.1 §1.1: "NO SOURCE TAG — body treats EQUALLY regardless of
+  where chunk compiled from. Internal compile vs external install = SAME format."
 
-  PTSD BUỘC FRAMEWORK THÊM:
-    NO SOURCE TAG = vẫn đúng (chunks không mang nhãn nguồn gốc)
+  PTSD FORCES FRAMEWORK TO ADD:
+    NO SOURCE TAG = still true (chunks don't carry origin labels)
     CONTEXT TAG = SEPARATE MECHANISM:
       → Hippocampus contributes METADATA during compile
       → Metadata = 4 types: temporal, spatial, causal, state
-      → Metadata ATTACHED to chunk, nhưng KHÔNG phải content
-      → Metadata quyết định: retrieval = "nhớ lại" hay "sống lại"
+      → Metadata ATTACHED to chunk, but NOT content
+      → Metadata determines: retrieval = "remembering" or "reliving"
 
-  PHÂN BIỆT:
+  DISTINCTION:
     Chunk CONTENT = what happened (sensory, motor, emotional fragments)
     → Stored in distributed cortical networks
-    → KHÔNG thay đổi qua treatment (memories vẫn vivid)
+    → DOES NOT change through treatment (memories remain vivid)
 
     Chunk CONTEXT TAG = when/where/why/body-state
     → Stored via hippocampal binding during compile
-    → CAN be added/strengthened qua treatment
-    → = WHY treatment works: không xóa memory → THÊM CONTEXT
+    → CAN be added/strengthened through treatment
+    → = WHY treatment works: doesn't erase memory → ADDS CONTEXT
 
   CONTEXT-TAG QUALITY SPECTRUM:
 
@@ -550,17 +577,17 @@ FRAMEWORK KHÔNG THỂ:
     │ Full context   │ Partial context  │ No context          │
     │ (4/4 metadata) │ (1-3 metadata)   │ (state only)        │
     ├─────────────────────────────────────────────────────────┤
-    │ Normal memory   │ Stressful memory │ Trauma memory       │
-    │ "Nhớ lại"      │ "Nhớ rõ, hơi     │ "Sống lại"          │
-    │ Bounded, past  │  khó chịu"       │ Unbounded, present  │
-    │ Context helps  │ Partial context  │ No context to help  │
-    │ regulate       │ helps somewhat   │ PFC → PFC arrives   │
-    │                │                  │ LATE                 │
+    │ Normal memory  │ Stressful memory │ Trauma memory       │
+    │ "Remembering"  │ "Remember well,  │ "Reliving"          │
+    │ Bounded, past  │  slightly        │ Unbounded, present  │
+    │ Context helps  │  uncomfortable"  │ No context to help  │
+    │ regulate       │ Partial context  │ PFC arrives LATE    │
+    │                │ helps somewhat   │                     │
     └─────────────────────────────────────────────────────────┘
 
-  TREATMENT = MOVE LEFT trên spectrum:
+  TREATMENT = MOVE LEFT on the spectrum:
     No context → Partial context → Full context
-    = "Sống lại" → "Nhớ rõ, hơi khó chịu" → "Nhớ lại"
+    = "Reliving" → "Remember well, slightly uncomfortable" → "Remembering"
     = Hippocampus ADDS missing metadata to existing chunks
     = Chunk content UNCHANGED. Context tag CHANGED. Body response CHANGED.
 
@@ -578,37 +605,37 @@ FRAMEWORK KHÔNG THỂ:
 🟡 CONTEXT TAG × EXISTING FRAMEWORK:
 
   CHUNK.md §1.1 — NO SOURCE TAG:
-    → Vẫn đúng. Chunks không mang nhãn "compiled từ đâu."
-    → Context tag = KHÁC source tag:
-      Source tag = "ai tạo chunk này?" → KHÔNG CÓ
-      Context tag = "chunk này compiled KHI NÀO / Ở ĐÂU?" → CÓ (hippocampal)
-    → = 2 câu hỏi khác nhau. Body không biết SOURCE. Body CÓ (hoặc KHÔNG) CONTEXT.
+    → Still true. Chunks don't carry a label "compiled from where."
+    → Context tag = DIFFERENT from source tag:
+      Source tag = "who created this chunk?" → DOES NOT EXIST
+      Context tag = "this chunk compiled WHEN / WHERE?" → EXISTS (hippocampal)
+    → = 2 different questions. Body doesn't know SOURCE. Body DOES (or DOES NOT) have CONTEXT.
 
   BODY-FEEDBACK-MECHANISM §2.2-2.3:
-    → Sensory-Driven: domain → body-input → chunks fire REACTIVE
-    → Pattern-Driven: internal chunk fire → body respond
+    → Sensory-Driven: domain → body-input → chunks fire REACTIVELY
+    → Pattern-Driven: internal chunk fires → body responds
     → Flashback = Pattern-Driven trigger: sensory cue → chunk MATCH →
-      context-free chunk fires internally → body responds full trauma
-    → = Flashback dùng CÙNG mechanism Pattern-Driven, nhưng chunk THIẾU context
+      context-free chunk fires internally → body responds with full trauma state
+    → = Flashback uses SAME Pattern-Driven mechanism, but chunk LACKS context
 
   CORTISOL-BASELINE §7.6 — Re-association 3-Path Model:
-    → Path 1 (re-associate qua experience mới) = add partial context dần dần
+    → Path 1 (re-associate via new experience) = gradually add partial context
     → Path 2 (novelty hijack) = new context override
     → Path 3 (AI support) = external context bridge
-    → ALL 3 PATHS = mechanism THÊM context metadata, dù cách khác nhau
+    → ALL 3 PATHS = mechanism ADDS context metadata, just via different routes
 
   BACKGROUND-PATTERN §2 — 2D Model:
     → Single trauma: HIGH compile depth, LOW link density → manageable
     → Childhood chronic: MODERATE depth per-chunk, EXTREME density → C-PTSD
-    → Context tag thêm chiều phân tích:
+    → Context tag adds an analysis dimension:
       Single trauma chunk = deep + no context = flashback
       Chronic trauma = moderate per-chunk + high density + no context = pervasive
     → = 3D: Compile Depth × Link Density × Context Quality
 
-  ⚠️ CONTEXT TAG KHÔNG PHẢI "content mới":
-    Treatment KHÔNG thêm content mới vào trauma chunk.
-    Treatment THÊM hippocampal binding → metadata re-attached.
-    = Như add timestamp + location to a photo.
+  ⚠️ CONTEXT TAG IS NOT "new content":
+    Treatment does NOT add new content to trauma chunk.
+    Treatment ADDS hippocampal binding → metadata re-attached.
+    = Like adding timestamp + location to a photo.
     Photo UNCHANGED. Metadata CHANGED. Experience of viewing CHANGED.
 ```
 
@@ -616,9 +643,9 @@ FRAMEWORK KHÔNG THỂ:
 
 ## §3 — HIPPOCAMPUS × AMYGDALA: 2 ENCODING PATHWAYS
 
-> §2 formalize WHAT happens (context tag mất). §3 giải thích HOW — 2 pathways
-> encoding memory với architecture KHÁC NHAU, và tại sao extreme stress
-> khiến 1 pathway dominate pathway kia.
+> §2 formalizes WHAT happens (context tag lost). §3 explains HOW — 2 pathways
+> encode memory with DIFFERENT architecture, and why extreme stress causes
+> 1 pathway to dominate the other.
 
 ### §3.1 — Hippocampal pathway: contextual encoding
 
@@ -626,7 +653,7 @@ FRAMEWORK KHÔNG THỂ:
 🟢 HIPPOCAMPAL PATHWAY — declarative, contextual, malleable:
 
   ARCHITECTURE:
-    → Hippocampus = convergence zone cho multi-modal input
+    → Hippocampus = convergence zone for multi-modal input
     → Receives from ALL sensory cortices + PFC + amygdala
     → Binds "what + where + when" → episodic memory
     → 🟢 Scoville & Milner 1957: H.M. — bilateral hippocampectomy
@@ -661,11 +688,11 @@ FRAMEWORK KHÔNG THỂ:
 🟢 AMYGDALA PATHWAY — emotional, implicit, fast, RESISTANT:
 
   ARCHITECTURE:
-    → Lateral amygdala = primary sensory interface cho fear
+    → Lateral amygdala = primary sensory interface for fear
     → 2 routes (LeDoux 1996, 2000 Annual Rev Neurosci 23:155):
       "Low road": thalamus → amygdala DIRECTLY (~5-12ms)
         → Coarse, fast, no cortical processing
-        → Sufficient for basic threat detect (loud noise, looming object)
+        → Sufficient for basic threat detection (loud noise, looming object)
       "High road": thalamus → sensory cortex → amygdala (~200ms+)
         → Detailed, slow, cortically processed
         → Required for complex threat assessment
@@ -707,17 +734,17 @@ FRAMEWORK KHÔNG THỂ:
   Normal emotional memory encoding:
 
   ┌─────────────────────────────────────────────────────────┐
-  │ EVENT (e.g., xe suýt đâm)                               │
+  │ EVENT (e.g., car nearly crashes into you)               │
   │                                                          │
   │ AMYGDALA PATHWAY:                                        │
   │   → Lateral amygdala: "DANGER!" → emotional tag          │
   │   → Central amygdala: body mobilize (heart↑, cortisol↑) │
-  │   → = State metadata encoded (sợ, adrenaline)           │
+  │   → = State metadata encoded (scared, adrenaline)        │
   │                                                          │
   │ HIPPOCAMPAL PATHWAY:                                     │
   │   → Bind visual + auditory + somatic fragments           │
-  │   → Attach: when (sáng nay), where (ngã tư X),          │
-  │     why (xe chạy đèn đỏ), sequence (rẽ → thấy → phanh) │
+  │   → Attach: when (this morning), where (intersection X), │
+  │     why (car ran red light), sequence (turn → see → brake│
   │   → = Context metadata encoded                           │
   │                                                          │
   │ INTEGRATION:                                             │
@@ -728,7 +755,7 @@ FRAMEWORK KHÔNG THỂ:
   │     encoding, via NE + cortisol at moderate levels)       │
   │                                                          │
   │ RESULT: integrated chunk                                 │
-  │   Content (xe suýt đâm) + STATE (sợ) + CONTEXT (4 meta) │
+  │   Content (near-miss) + STATE (scared) + CONTEXT (4 meta)│
   │   → Retrievable as "memory" with emotional coloring      │
   │   → Bounded, updatable, narrative-integrated              │
   └─────────────────────────────────────────────────────────┘
@@ -736,8 +763,8 @@ FRAMEWORK KHÔNG THỂ:
   ⭐ KEY: moderate amygdala activation HELPS hippocampus
     → McGaugh 2004 (Annual Rev Neurosci 27:1): emotional arousal enhances
       declarative memory via amygdala → hippocampal modulation
-    → = WHY emotionally significant events remembered BETTER
-    → = Inverted-U: moderate enhance → extreme IMPAIR
+    → = WHY emotionally significant events are remembered BETTER
+    → = Inverted-U: moderate enhances → extreme IMPAIRS
     → Cross-ref Cortisol-Baseline §8.1 Yerkes-Dodson
 
   🟢 McGaugh 2004 — amygdala modulation of memory consolidation
@@ -754,7 +781,7 @@ FRAMEWORK KHÔNG THỂ:
 
     T=0s    Event (trauma)
     T=0.5s  NE surge via locus coeruleus
-            → Amygdala: LTP ENHANCED → encoding MẠNH
+            → Amygdala: LTP ENHANCED → encoding STRONGER
             → Hippocampus: at moderate NE, still OK
     T=2-5s  Adrenaline + initial cortisol
             → Amygdala: FURTHER enhanced (NE + cortisol synergy)
@@ -796,10 +823,10 @@ FRAMEWORK KHÔNG THỂ:
 ### §3.5 — Hippocampal volume: vulnerability + acquired damage
 
 ```
-🟢 HIPPOCAMPAL VOLUME — CẢ VULNERABILITY VÀ CONSEQUENCE:
+🟢 HIPPOCAMPAL VOLUME — BOTH VULNERABILITY AND CONSEQUENCE:
 
   BREMNER 1995 (Am J Psychiatry 152:973):
-    → Đầu tiên demonstrate: 8% right hippocampal reduction
+    → First to demonstrate: 8% right hippocampal reduction
     → 26 combat veterans vs 22 controls
 
   SMITH 2005 (Hippocampus 15:798) — meta-analysis 13 studies:
@@ -807,10 +834,10 @@ FRAMEWORK KHÔNG THỂ:
       Left hippocampus: 6.9-7.2% smaller
       Right hippocampus: 6.6-7.0% smaller
     → PTSD vs trauma-exposed non-PTSD: ~4.3-4.5% smaller
-    → = Trauma exposure itself + PTSD specifically BOTH contribute
+    → = Both trauma exposure itself AND PTSD specifically contribute
 
   GILBERTSON 2002 — RESOLVES CAUSE vs CONSEQUENCE:
-    (đã trình bày §1.3 — repeat key finding)
+    (presented in §1.3 — repeat key finding)
     → Smaller hippocampus = PRE-EXISTING vulnerability
     → + Chronic cortisol further shrinks → VICIOUS CYCLE
 
@@ -829,8 +856,8 @@ FRAMEWORK KHÔNG THỂ:
     → Alzheimer: hippocampus damage = progressive (tau + amyloid)
     → PTSD: hippocampus damage = acute cortisol + chronic cortisol
     → BOTH target hippocampus → BOTH impair chunk contextualization
-    → Alzheimer: chunks MẤT DẦN (substrate destroyed)
-    → PTSD: chunks CÒN nhưng context MẤT (metadata stripped)
+    → Alzheimer: chunks LOST GRADUALLY (substrate destroyed)
+    → PTSD: chunks REMAIN but context LOST (metadata stripped)
     → = Same structure, DIFFERENT mechanism of failure
 
   🟢 Bremner 1995, Smith 2005, Gilbertson 2002
@@ -839,10 +866,10 @@ FRAMEWORK KHÔNG THỂ:
 
 ---
 
-## §4 — FLASHBACK QUA CHUNK DYNAMICS
+## §4 — FLASHBACK THROUGH CHUNK DYNAMICS
 
-> §2 + §3 giải thích HOW trauma chunks compile thiếu context.
-> §4 giải thích WHAT HAPPENS khi chunks đó fire — the flashback mechanism.
+> §2 + §3 explain HOW trauma chunks compile without context.
+> §4 explains WHAT HAPPENS when those chunks fire — the flashback mechanism.
 
 ### §4.1 — Trigger: sensory match → context-free chunk fires
 
@@ -850,16 +877,16 @@ FRAMEWORK KHÔNG THỂ:
 ⭐ FLASHBACK TRIGGER MECHANISM:
 
   STEP 1 — Sensory input from domain:
-    → Tiếng phanh xe, mùi khói, ánh sáng flash, giọng nói giống
-    → Input KHÔNG CẦN giống hệt — partial match đủ
+    → Screeching brakes, smoke smell, light flash, similar voice
+    → Input does NOT need to be identical — partial match is sufficient
     → Amygdala "low road" matches COARSE features (LeDoux 1996)
 
   STEP 2 — Amygdala pattern match:
     → Sensory input → lateral amygdala → MATCH with trauma chunk
-    → Match threshold THẤP (hypervigilant state → more false positives)
-    → Context-free chunk: KHÔNG CÓ spatial/temporal boundary
-      → BẤT KỲ cue match ở BẤT KỲ đâu → fires
-      → Normal memory: cue + context phải match → bounded
+    → Match threshold LOW (hypervigilant state → more false positives)
+    → Context-free chunk: NO spatial/temporal boundary
+      → ANY matching cue ANYWHERE → fires
+      → Normal memory: cue + context must match → bounded
       → Trauma memory: cue alone → fires → unbounded
 
   STEP 3 — Context-free chunk FIRES:
@@ -867,39 +894,39 @@ FRAMEWORK KHÔNG THỂ:
     → State metadata activates: FULL body response
       (heart rate↑, cortisol↑, adrenaline↑, muscle tension↑)
     → Temporal metadata: ABSENT → no "this was 2020" signal
-    → Spatial metadata: ABSENT → not bounded to "that intersection"
+    → Spatial metadata: ABSENT → not bounded to "that location"
     → Causal metadata: ABSENT → no narrative sequence
 
   STEP 4 — Body responds AS IF IN TRAUMA:
     → Body-Feedback-Mechanism §2.3: Pattern-Driven activation
-    → Internal chunk fire → body respond THEO
-    → Body KHÔNG phân biệt "chunk fire vì cue" vs "chunk fire vì đang xảy ra"
+    → Internal chunk fires → body responds ACCORDINGLY
+    → Body CANNOT distinguish "chunk fires because of cue" vs "chunk fires because happening now"
     → Chunk.md §1.1: NO SOURCE TAG → body treats all chunks equally
     → = Body in full threat mode. Physiologically IDENTICAL to original trauma.
 
   BODY-FEEDBACK CLASSIFICATION:
-    → Trục 1 (Direction): DISSONANCE (extreme)
-    → Trục 2 (Magnitude): MỨC 4-5 (Threat §2 — Mạnh → Emergency)
-    → Trục 3 (Source): PATTERN-DRIVEN (internal chunk fire, not external threat)
-    → Trục 4 (Dynamics): CHUNK-SHIFT (valence activation of trauma network)
+    → Axis 1 (Direction): DISSONANCE (extreme)
+    → Axis 2 (Magnitude): LEVEL 4-5 (Threat §2 — Strong → Emergency)
+    → Axis 3 (Source): PATTERN-DRIVEN (internal chunk fire, not external threat)
+    → Axis 4 (Dynamics): CHUNK-SHIFT (valence activation of trauma network)
 ```
 
 ### §4.2 — Body-first AMPLIFIED: temporal sequence
 
 ```
-⭐⭐ TẠI SAO PFC KHÔNG NGĂN ĐƯỢC FLASHBACK:
+⭐⭐ WHY THE PFC CANNOT PREVENT A FLASHBACK:
 
   TEMPORAL SEQUENCE — body acts FIRST:
 
-    T=0ms     Sensory cue detected (tiếng phanh)
-    T=5-12ms  Amygdala "low road" MATCH (thalamus → amygdala, bypass cortex)
+    T=0ms     Sensory cue detected (brakes screeching)
+    T=5-12ms  Amygdala "low road" MATCH (thalamus → amygdala, bypassing cortex)
               → Central amygdala OUTPUT: sympathetic activation begins
     T=50ms    NE surge: locus coeruleus → body-wide
               → Heart rate↑, adrenaline↑, muscle tension↑
     T=100ms   Body IN THREAT MODE: full physiological response
               → Sweat, tremor, nausea, hyperventilation possible
     T=200ms+  PFC FINALLY receives processed sensory input
-              → PFC: "Đây là nhà hàng, an toàn, 2026"
+              → PFC: "This is a restaurant, safe, 2026"
               → PFC sends corrective signal: "not danger"
     T=300ms+  PFC corrective signal reaches amygdala
               → vmPFC → amygdala inhibition ATTEMPTED
@@ -907,13 +934,13 @@ FRAMEWORK KHÔNG THỂ:
               → Cortisol ALREADY releasing (HPA activated at T=50ms+)
 
   ⭐ KEY INSIGHT — NOT "body overrides PFC":
-    → Body KHÔNG "từ chối" PFC. Body ACTS 200ms TRƯỚC KHI PFC arrives.
-    → PFC arrives và nói "an toàn" → nhưng body-feedback ALREADY firing
+    → Body does NOT "refuse" PFC. Body ACTS 200ms BEFORE PFC arrives.
+    → PFC arrives and says "safe" → but body-feedback ALREADY firing
     → = TEMPORAL SEQUENCE problem, not authority problem
-    → Feeling-Mechanism-Deep §1.2: "Body leads. PFC follows. LUÔN LUÔN."
+    → Feeling-Mechanism-Deep §1.2: "Body leads. PFC follows. ALWAYS."
     → PTSD = EXTREME case of this universal principle
 
-  TẠI SAO PFC CORRECTIVE SIGNAL YẾU:
+  WHY PFC CORRECTIVE SIGNAL IS WEAK:
     ① PFC weakened: chronic cortisol → dendrite retraction (Arnsten 2009)
     ② Amygdala strengthened: chronic stress → dendrite growth (Vyas 2002)
     ③ During flashback: NE flood → PFC-Configuration ④ Disconnected
@@ -982,7 +1009,7 @@ FRAMEWORK KHÔNG THỂ:
     → Amygdala: DOMINANT (threat processing)
     → = Standard PTSD presentation: flooding, re-experiencing
     → = "Undermodulation" — amygdala unchecked, PFC absent
-    → Khi nào: acute flashback, startle response, trigger exposure
+    → When: acute flashback, startle response, trigger exposure
     → 🟢 Arnsten 2009, LeDoux 1996
 
   CONFIG ⑤ — HYPERACTIVATED (dissociative response):
@@ -994,7 +1021,7 @@ FRAMEWORK KHÔNG THỂ:
       ⑲ Override = CHRONIC → "going through motions" without feeling
     → = Dissociative subtype: emotional numbness, detachment, unreality
     → = "Overmodulation" — PFC over-suppresses emotion
-    → Khi nào: inescapable threat, chronic/early trauma
+    → When: inescapable threat, chronic/early trauma
     → 🟢 Lanius et al. 2010 (Am J Psychiatry 167:640):
       13-30% of PTSD patients. More common in childhood trauma.
 
@@ -1011,7 +1038,7 @@ FRAMEWORK KHÔNG THỂ:
          ⑤              ①②③              ④
     Dissociation       Normal          Flooding
     PFC SUPPRESS       PFC coordinate  PFC OFFLINE
-    emotion            processing      
+    emotion            processing
 
     → PTSD patients OUTSIDE balanced range ①②③
     → Oscillate between 2 extremes: ④ (too little PFC) ↔ ⑤ (too much PFC)
@@ -1026,13 +1053,13 @@ FRAMEWORK KHÔNG THỂ:
 
 ## §5 — HPA AXIS PARADOX: LOW CORTISOL, HIGH REACTIVITY
 
-> Cortisol-Baseline §10 nói trauma = cortisol CAO. Yehuda phát hiện
-> PTSD chronic = cortisol THẤP. Section này reconcile paradox.
+> Cortisol-Baseline §10 says trauma = cortisol HIGH. Yehuda found
+> chronic PTSD = cortisol LOW. This section reconciles the paradox.
 
 ### §5.1 — Yehuda's paradox: PTSD ≠ chronic stress
 
 ```
-🟢 HPA AXIS PARADOX — PTSD NGƯỢC chronic stress:
+🟢 HPA AXIS PARADOX — PTSD IS THE OPPOSITE of chronic stress:
 
   Yehuda et al. 1990, 2001 (J Clin Psychiatry 62 Suppl 17:41),
   2004 (Am J Psychiatry 161:1397):
@@ -1058,12 +1085,12 @@ FRAMEWORK KHÔNG THỂ:
   │ Negative feedback│ Blunted          │ ENHANCED           │
   │ CRH              │ Elevated         │ ALSO elevated      │
   │ DST result       │ Non-suppression  │ Hypersuppression   │
-  │ Interpretation   │ System stuck HIGH│ System overshoot LOW│
+  │ Interpretation   │ System stuck HIGH│ System overshoots LOW│
   └────────────────────────────────────────────────────────┘
 
   → PTSD ≠ "chronic stress" neuroendocrinologically
   → OPPOSITE fingerprints despite overlapping symptoms
-  → = WHY treating PTSD like general stress = often ineffective
+  → = WHY treating PTSD like general stress is often ineffective
 ```
 
 ### §5.2 — Mechanism: system overcompensation
@@ -1076,13 +1103,13 @@ FRAMEWORK KHÔNG THỂ:
   ① ACUTE TRAUMA:
     → Massive cortisol surge (HPA axis maximal activation)
     → = Cortisol-Baseline §10.1 — chunks compile under extreme cortisol
-    → = Framework đúng ở giai đoạn này: cortisol CAO
+    → = Framework correct at this stage: cortisol HIGH
 
   ② SYSTEM COMPENSATION:
     → Extreme cortisol spike → body OVERCOMPENSATES
     → GR UPREGULATION: target tissues increase receptor density
     → Enhanced negative feedback: system becomes HYPERSENSITIVE to "too much cortisol"
-    → = Like thermostat that was set too high → now overadjusted to ULTRA-LOW
+    → = Like a thermostat that was set too high → now overadjusted to ULTRA-LOW
 
   ③ STABLE LOW STATE:
     → Low cortisol baseline establishes as new "normal"
@@ -1093,7 +1120,7 @@ FRAMEWORK KHÔNG THỂ:
   ④ CONSEQUENCES OF LOW CORTISOL:
     → Normal extinction REQUIRES moderate cortisol:
       Hippocampus needs cortisol for reprocessing + consolidation
-      → PTSD: hippocampus UNDER-RESOURCED → can't add context
+      → PTSD: hippocampus UNDER-RESOURCED → cannot add context
     → Anti-inflammatory function impaired:
       Cortisol = anti-inflammatory → low cortisol → chronic inflammation
     → Feedback loops with amygdala:
@@ -1109,21 +1136,21 @@ FRAMEWORK KHÔNG THỂ:
 ```
 ⭐ RECONCILIATION — FRAMEWORK × YEHUDA:
 
-  Cortisol-Baseline §10 nói gì:
+  What Cortisol-Baseline §10 says:
     §10.1: "Trauma event → cortisol MAX → chunks compile cortisol-tagged"
     §10.2: "PFC tries to find solution but CANNOT"
     §10.3: "Anticipation loop → cortisol elevated at night"
     §10.4: "Chronic cortisol → PFC damage"
-    → = Implied: PTSD = cortisol LUÔN CAO
+    → = Implied: PTSD = cortisol ALWAYS HIGH
 
-  Yehuda nói: PTSD = cortisol baseline THẤP
+  Yehuda says: PTSD = cortisol baseline LOW
 
   RECONCILIATION:
-    Cortisol-Baseline §10 ĐÚNG cho giai đoạn ACUTE + EARLY:
+    Cortisol-Baseline §10 CORRECT for ACUTE + EARLY phase:
       Trauma → cortisol spike → encoding damage → early PTSD
       → = §10.1-10.2 accurate for first weeks-months
 
-    Yehuda ĐÚNG cho giai đoạn CHRONIC ESTABLISHED:
+    Yehuda CORRECT for CHRONIC ESTABLISHED phase:
       After compensation → low baseline + hypersensitive system
       → = Long-term PTSD profile
 
@@ -1132,12 +1159,12 @@ FRAMEWORK KHÔNG THỂ:
     │ ACUTE                              CHRONIC               │
     │ (days-weeks)                       (months-years)        │
     │                                                          │
-    │ Cortisol: CỰC CAO                 Cortisol: THẤP        │
+    │ Cortisol: EXTREME HIGH             Cortisol: LOW         │
     │ → Encoding damage                 → Extinction impaired  │
     │ → Hippocampus suppressed          → Hippocampus under-   │
     │ → Context tags lost                 resourced            │
-    │                                    → Amygdala: reactive   │
-    │                                      to MICRO-spikes      │
+    │                                    → Amygdala: reactive  │
+    │                                      to MICRO-spikes     │
     │                                                          │
     │ Cortisol-Baseline §10.1           Yehuda paradox         │
     │ = ENCODING phase                  = MAINTENANCE phase    │
@@ -1151,7 +1178,7 @@ FRAMEWORK KHÔNG THỂ:
     → = NOT "overreaction" — accurate for recalibrated system
 
   CLINICAL IMPLICATION:
-    → Treatment KHÔNG chỉ "giảm cortisol" (already low!)
+    → Treatment NOT only "reduce cortisol" (already low!)
     → May need: RESTORE moderate cortisol for proper hippocampal function
     → + RECALIBRATE GR sensitivity
     → + REDUCE amygdala hyperreactivity
@@ -1165,35 +1192,35 @@ FRAMEWORK KHÔNG THỂ:
 
 ## §6 — HYPERAROUSAL: PREDICTION MODEL → "THREAT EXPECTED"
 
-> Reference Cortisol-Baseline §7, §9.5-9.6 cho foundation. KHÔNG LẶP.
-> Extend: hardware vicious cycle + prediction model recalibration.
+> Reference Cortisol-Baseline §7, §9.5-9.6 for foundation. NOT REPEATING.
+> Extending: hardware vicious cycle + prediction model recalibration.
 
 ### §6.1 — Hardware vicious cycle: PFC↓ × Amygdala↑
 
 ```
-🟢 HARDWARE SHIFT — PFC VÀ AMYGDALA ĐI NGƯỢC HƯỚNG:
+🟢 HARDWARE SHIFT — PFC AND AMYGDALA MOVING IN OPPOSITE DIRECTIONS:
 
   Shin et al. 2006 — PTSD neuroimaging meta-analysis:
-    → PFC activity: ↓ GIẢM (especially vmPFC, mPFC)
-    → Amygdala activity: ↑ TĂNG
+    → PFC activity: ↓ DECREASED (especially vmPFC, mPFC)
+    → Amygdala activity: ↑ INCREASED
 
   Arnsten 2009 — PFC damage mechanism:
     → Chronic cortisol → PFC dendrite RETRACTION
-    → PFC synapses MỆT → capacity GIẢM DẦN
+    → PFC synapses weakened → capacity GRADUALLY DECLINES
     → Cortisol-Baseline §9.2-9.3: weeks→months = reversible dendrite remodeling
     → Years = potential volume reduction measurable on fMRI
 
   Vyas et al. 2002 — Amygdala growth:
-    → Chronic stress → amygdala dendrites MỌC THÊM
-    → = Amygdala MẠNH HƠN, more sensitive, more connections
-    → ĐỐI LẬP PFC: PFC shrinks, amygdala grows
+    → Chronic stress → amygdala dendrites GROW MORE
+    → = Amygdala STRONGER, more sensitive, more connections
+    → OPPOSITE of PFC: PFC shrinks, amygdala grows
 
   VICIOUS CYCLE (Cortisol-Baseline §9.6):
-    ① Stress → cortisol → PFC mệt + amygdala mạnh
-    ② Amygdala mạnh → detect threat NHIỀU HƠN → cortisol THÊM
-    ③ Cortisol thêm → PFC mệt THÊM + amygdala mạnh THÊM
-    ④ → Loop tự duy trì
-    → = HARDWARE loop. Willpower KHÔNG break được.
+    ① Stress → cortisol → PFC weakened + amygdala strengthened
+    ② Amygdala stronger → detect MORE threat → MORE cortisol
+    ③ More cortisol → PFC MORE weakened + amygdala EVEN stronger
+    ④ → Self-perpetuating loop
+    → = HARDWARE loop. Willpower CANNOT break it.
 
   🟢 Shin 2006, Arnsten 2009, Vyas 2002
   🟡 Cortisol-Baseline §9.6 already formalized — reference, not repeat
@@ -1204,25 +1231,25 @@ FRAMEWORK KHÔNG THỂ:
 ```
 🟡 FRAMEWORK: PREDICTION MODEL SHIFT:
 
-  Core-Software.md: prediction cycle liên tục:
+  Core-Software.md: prediction cycle continuous:
     Domain → Body-Input → Chunks → Feeling → PFC → Body-Output → Domain
 
   NORMAL: prediction model calibrated to environment
-    → "Hầu hết tình huống = an toàn, một số = threat"
-    → Prediction-delta CHỈ fire khi unexpected threat
+    → "Most situations = safe, some = threat"
+    → Prediction-delta ONLY fires when unexpected threat
     → = Config ① Normal as default
 
   PTSD: prediction model RECALIBRATED:
-    → "Hầu hết tình huống = POTENTIALLY DANGEROUS"
-    → Prediction-delta fire for NEUTRAL events (unexpected SAFETY = not computed)
+    → "Most situations = POTENTIALLY DANGEROUS"
+    → Prediction-delta fires for NEUTRAL events (unexpected SAFETY = not computed)
     → = Hypervigilance: scanning for threat CONTINUOUSLY
 
   MECHANISM:
     → Amygdala dendrite growth → MORE threat associations compiled
     → PFC dendrite retraction → LESS ability to inhibit false positives
     → Background-Pattern: threat pattern = HIGH link density
-      → Background-Pattern §8: "cortisol baseline cao VÌ pattern [threat] chạy nền"
-    → Chunks threshold LOWER: vì amygdala stronger + PFC weaker
+      → Background-Pattern §8: "cortisol baseline high BECAUSE pattern [threat] runs in background"
+    → Chunk threshold LOWER: because amygdala stronger + PFC weaker
     → = Every signal closer to "threat" threshold
     → = Cortisol-Baseline §10.6: same objective dissonance → subjectively MORE intense
 
@@ -1252,7 +1279,7 @@ FRAMEWORK KHÔNG THỂ:
 
   DSM-5 Cluster ②: avoid triggers (thoughts, places, people, activities)
   Clinical view: avoidance = "barrier to healing" → patient "should" face triggers
-  
+
   FRAMEWORK VIEW: avoidance = LOGICAL body response to REAL pain
 
   MECHANISM:
@@ -1261,17 +1288,17 @@ FRAMEWORK KHÔNG THỂ:
     → = REAL PHYSIOLOGICAL PAIN (not imagined, not exaggerated)
     → Body learns: "situation X → PAIN" (standard conditioning)
     → Body avoids situation X → PAIN AVOIDED → negative reinforcement
-    → = SAME mechanism as avoiding hot stove. LOGICAL.
+    → = SAME mechanism as avoiding a hot stove. LOGICAL.
 
   Eisenberger et al. 2003 (Science 302:290):
     → Social/emotional pain activates SAME brain regions as physical pain
     → dACC + anterior insula = shared pain network
     → = Emotional pain IS pain. Body treats them identically.
 
-  FRAMEWORK: avoidance = NOT "trốn tránh healing"
-    → Avoidance = "trốn tránh PAIN"
-    → Body ĐÚNG: flashback = body pain
-    → Avoidance GIẢM body pain → reinforced
+  FRAMEWORK: avoidance = NOT "avoiding healing"
+    → Avoidance = "avoiding PAIN"
+    → Body is CORRECT: flashback = body pain
+    → Avoidance REDUCES body pain → reinforced
     → = Perfectly rational from body perspective
     → = WHY telling patients to "just face it" rarely works alone
     → = WHY therapy must create SAFE re-exposure conditions
@@ -1291,10 +1318,10 @@ FRAMEWORK KHÔNG THỂ:
     → dlPFC ⑧ Active Lock = CHRONIC → hypervigilance without release
     → vlPFC+dlPFC ⑲ Override = CHRONIC → "going through motions"
 
-  STRATEGY B defense (PFC-Configuration §7):
+  Strategy B defense (PFC-Configuration §7):
     → Strategy A (fight/flight, Config ④) FAILED → threat inescapable
     → System SWITCHES to Strategy B (dissociation, Config ⑤)
-    → = "Nếu không thể CHẠY, thì TẮT CẢM XÚC"
+    → = "If I CANNOT RUN, then SHUT DOWN EMOTIONS"
     → Adaptive in original trauma context (survival)
     → MALADAPTIVE when compiled as DEFAULT (chronic dissociation)
 
@@ -1312,18 +1339,18 @@ FRAMEWORK KHÔNG THỂ:
   AVOIDANCE → NARROWER LIFE → LESS REWARD → COMPOUND:
 
     Stage 1: Avoid specific triggers
-      "Không đi qua ngã tư đó" → specific, manageable
-    
+      "Won't pass through that intersection" → specific, manageable
+
     Stage 2: Generalize
-      "Không lái xe" → broader, more restrictive
+      "Won't drive" → broader, more restrictive
       Schema drift (Cortisol-Baseline §10.4): specific → diffuse
-    
+
     Stage 3: Major restriction
-      "Không ra khỏi nhà" → severe functional impairment
+      "Won't leave the house" → severe functional impairment
       Reward system: UNUSED → anhedonia develops
-    
+
     Stage 4: Identity impact
-      "Tôi là người không thể..." → Self-Pattern-Modeling self-chunks compile around limitation
+      "I am someone who cannot..." → Self-Pattern-Modeling self-chunks compile around limitation
       Imagine-Final SHRINKS: fewer possible futures → meaning dissolves
       Meaning.md: meaning = life-level anchor-schema → avoidance erodes anchor
 
@@ -1395,11 +1422,11 @@ FRAMEWORK KHÔNG THỂ:
 
   WHY REM FAILS IN PTSD:
     → PTSD = elevated NE even during sleep
-    → Hypernoradrenergic state PERSISTS into night
+    → Hypernoradrenergic state PERSISTS into the night
     → Low-NE REM environment = NEVER ACHIEVED
     → = Emotional decoupling CANNOT occur
     → Memory reactivates during REM → full emotional charge INTACT
-    → Body responds → wake up → nightmare
+    → Body responds → wakes up → nightmare
 
   NIGHTMARE = FAILED PROCESSING, NOT RANDOM:
     → Nightmare = brain ATTEMPTING to reprocess trauma chunk
@@ -1446,7 +1473,7 @@ FRAMEWORK KHÔNG THỂ:
 
   ⚠️ Prazosin effective for nightmares specifically
   ⚠️ Does NOT address daytime symptoms directly
-  ⚠️ Clinical decision = y khoa, outside framework scope
+  ⚠️ Clinical decision = medical, outside framework scope
 ```
 
 ---
@@ -1577,8 +1604,8 @@ FRAMEWORK KHÔNG THỂ:
     → Reconsolidation = opportunity to ADD context metadata to context-free chunk
     → Recall trauma chunk (labile) → new information (safety context) →
       hippocampus CAN attach context during reconsolidation window
-    → = "Sống lại" → during window → add "this was 2020, nhà hàng, safe" →
-      → chunk reconsolidates WITH new context → "nhớ lại" (partially)
+    → = "Reliving" → during window → add "this was 2020, restaurant, safe" →
+      → chunk reconsolidates WITH new context → "remembering" (partially)
     → = Context-tag model: reconsolidation is the MECHANISM for adding metadata
 
   CLINICAL APPLICATIONS (developing):
@@ -1597,35 +1624,36 @@ FRAMEWORK KHÔNG THỂ:
 
 ---
 
-## §10 — TREATMENT MECHANISMS QUA FRAMEWORK LENS
+## §10 — TREATMENT MECHANISMS THROUGH FRAMEWORK LENS
 
-> Framework QUAN SÁT cơ chế treatment. KHÔNG prescribe.
-> Unifying principle: tất cả evidence-based treatments share 1 mechanism —
-> giúp hippocampus ADD CONTEXT to trauma chunks.
+> Framework OBSERVES treatment mechanism. Does NOT prescribe.
+> Unifying principle: all evidence-based treatments share 1 mechanism —
+> help hippocampus ADD CONTEXT to trauma chunks.
 
 ### §10.1 — Unifying principle: add context to trauma chunks
 
 ```
 ⭐⭐ ALL EVIDENCE-BASED TREATMENTS = 1 MECHANISM:
 
-  GIÚP HIPPOCAMPUS THÊM CONTEXT METADATA VÀO TRAUMA CHUNKS.
+  HELP HIPPOCAMPUS ADD CONTEXT METADATA TO TRAUMA CHUNKS.
 
-  Chunk CONTENT không thay đổi (memories vẫn vivid).
-  CONTEXT TAG thay đổi → body response thay đổi.
+  Chunk CONTENT does not change (memories remain vivid).
+  CONTEXT TAG changes → body response changes.
 
   ┌─────────────────────────────────────────────────────────────┐
-  │ TRƯỚC treatment:                                            │
-  │   Trauma chunk: Content (vivid) + State (vivid) + NO context│
-  │   → Trigger → "sống lại" → full body response               │
+  │ BEFORE treatment:                                            │
+  │   Trauma chunk: Content (vivid) + State (vivid) + NO context │
+  │   → Trigger → "reliving" → full body response               │
   │                                                              │
-  │ SAU treatment thành công:                                    │
-  │   Same chunk: Content (vivid) + State (reduced) + CONTEXT   │
-  │   → Trigger → "nhớ lại, hơi khó chịu" → bounded response   │
+  │ AFTER successful treatment:                                  │
+  │   Same chunk: Content (vivid) + State (reduced) + CONTEXT    │
+  │   → Trigger → "remembering, slightly uncomfortable"          │
+  │             → bounded response                               │
   │                                                              │
   │ = Content UNCHANGED. Context tag ADDED. Body response CHANGED.│
   └─────────────────────────────────────────────────────────────┘
 
-  Cơ chế CHUNG qua tất cả modalities:
+  COMMON mechanism across all modalities:
     ① Create conditions where hippocampus CAN engage
        (safe environment, moderate arousal, therapeutic relationship)
     ② Activate trauma chunk (recall, exposure, narration)
@@ -1635,8 +1663,8 @@ FRAMEWORK KHÔNG THỂ:
     ④ Hippocampus ATTACHES new context metadata
     ⑤ Chunk reconsolidates WITH context → body response shifts
 
-  KHÁC NHAU: CÁCH deliver 5 bước → khác modality
-  GIỐNG NHAU: 5 bước CƠ BẢN → cùng mechanism
+  DIFFERENT: HOW the 5 steps are delivered → different modality
+  SAME: 5 CORE steps → same mechanism
 
   🟡 Treatment unification = framework synthesis
   🟢 Individual treatment mechanisms: each well-researched
@@ -1660,7 +1688,7 @@ FRAMEWORK KHÔNG THỂ:
     → Therapist creates SAFE context (arousal manageable)
     → Patient recalls/narrates trauma → trauma chunk ACTIVATED
     → During activation: hippocampus online (moderate arousal, safe environment)
-    → Hippocampus CAN now attach context: "Tôi đang ở phòng therapy, an toàn, 2026"
+    → Hippocampus CAN now attach context: "I am in therapy, safe, 2026"
     → Repeated sessions: safety context STRENGTHENS → competes with fear
     → = Building contextual chunk that COMPETES with context-free chunk
 
@@ -1670,7 +1698,7 @@ FRAMEWORK KHÔNG THỂ:
     → Competition: deep fear chunk vs growing safety chunk
     → Each session: safety chunk + 1 repetition → stronger
     → Need enough repetitions for safety chunk to CONSISTENTLY win
-    → = WHY 8-15 sessions minimum (PE — Prolonged Exposure — protocol)
+    → = WHY 8-15 sessions minimum (Prolonged Exposure protocol)
 
   🟢 Foa & Kozak 1986, Craske 2014, Powers et al. 2010 meta-analysis
 ```
@@ -1746,7 +1774,7 @@ FRAMEWORK KHÔNG THỂ:
     → Polyvagal theory (Porges 1995, 2011): ventral vagal = safety system
       → PTSD = stuck in sympathetic/dorsal vagal → restore ventral vagal access
       → ⚠️ Polyvagal theory: some scientific controversy (Grossman 2023)
-        nhưng clinically useful framework for body-oriented approaches
+        but clinically useful framework for body-oriented approaches
 
 🟡 Reconsolidation-based (developing):
     → Propranolol + recall: β-blocker during reconsolidation window
@@ -1756,9 +1784,9 @@ FRAMEWORK KHÔNG THỂ:
       → Chunk content reconsolidates WITHOUT full emotional charge
     → 🔴 Developing — not validated at scale
 
-⚠️ FRAMEWORK KHÔNG prescribe treatment.
-   Phân tích cơ chế ≠ khuyên dùng.
-   Clinical decisions = chuyên gia trauma therapy.
+⚠️ FRAMEWORK does NOT prescribe treatment.
+   Analyzing mechanism ≠ recommending treatment.
+   Clinical decisions = trauma therapy specialist.
 ```
 
 ### §10.5 — Treatment summary: same mechanism, different delivery
@@ -1777,8 +1805,8 @@ FRAMEWORK KHÔNG THỂ:
   │                │ → amygdala ↓         │ campus reprocesses. Vividness│
   │                │                      │ ↓ → state metadata weakened  │
   ├────────────────┼──────────────────────┼──────────────────────────────┤
-  │ CPT            │ PFC reframes stuck   │ Add CAUSAL metadata → narra- │
-  │                │ points (beliefs)     │ tive coherence → "why" frame │
+  │ CPT            │ PFC reframes stuck   │ Add CAUSAL metadata →        │
+  │                │ points (beliefs)     │ narrative coherence → "why"  │
   ├────────────────┼──────────────────────┼──────────────────────────────┤
   │ SSRI           │ Serotonin → lower    │ Lower noise → PFC can engage │
   │                │ body-feedback        │ → space for hippocampal func │
@@ -1791,23 +1819,24 @@ FRAMEWORK KHÔNG THỂ:
   │ (developing)   │ during window        │ solidates with ↓ charge      │
   └────────────────┴──────────────────────┴──────────────────────────────┘
 
-  CÙNG MECHANISM GỐC:
-    Tạo điều kiện → hippocampus RE-ENGAGE → ADD context metadata
+  SAME ROOT MECHANISM:
+    Create conditions → hippocampus RE-ENGAGES → ADDS context metadata
     → Chunk content unchanged → context tag changed → body response changed
-    → "Sống lại" → dần dần → "nhớ lại"
+    → "Reliving" → gradually → "remembering, slightly uncomfortable"
 
   🟡 Unification as single mechanism = framework synthesis
   🟢 Each modality: individual evidence base strong
 ```
 
-### §10.6 — Treatment EFFICACY REALITY CHECK: "two-thirds problem"
+### §10.6 — Treatment efficacy reality check: "two-thirds problem"
 
 ```
-🟢 HONEST DATA — TREATMENT GIÚP NHƯNG KHÔNG CURE TẤT CẢ:
+🟢 HONEST DATA — TREATMENT HELPS BUT DOES NOT CURE EVERYONE:
 
-  Powers et al. 2010 (J Clin Psychology 66:7) — PE (Prolonged Exposure) meta-analysis (n=675, 13 studies):
+  Powers et al. 2010 (J Clin Psychology 66:7) — Prolonged Exposure meta-analysis
+  (n=675, 13 studies):
     → Effect size vs control: Hedges's g = 1.08 (PE patient > 86% control)
-    → PE NOT significantly different from CPT, EMDR, or CT head-to-head
+    → Prolonged Exposure NOT significantly different from CPT, EMDR, or CT head-to-head
     → = All first-line treatments EQUIVALENT ← supports "same mechanism" model
 
   Cusack et al. 2016 (Clin Psych Review 43:128) — 64 trials:
@@ -1823,12 +1852,12 @@ FRAMEWORK KHÔNG THỂ:
     → = Treatment helps DIRECTION — but ceiling ~33-67% full remission
 
   DROPOUT — WHO LEAVES:
-    → PE: 23-24% dropout (RCT), 30% in veteran populations
+    → Prolonged Exposure: 23-24% dropout (RCT), 30% in veteran populations
     → CPT: 24-29%
     → EMDR: ~17-20% (possibly lower but not significant difference)
     → PRIMARY REASON: avoidance (45% therapist-attributed)
     → "1 point increase in negative physiological experience → 20× dropout risk"
-    → = Body pain THẬT → patients LEAVE (consistent with §7)
+    → = Body pain is REAL → patients LEAVE (consistent with §7)
     → = Those who MOST NEED treatment = LEAST able to tolerate approach
 
   Resick et al. 2012 (JCCP 80:201) — CPT vs PE mechanism dissection:
@@ -1974,16 +2003,16 @@ FRAMEWORK KHÔNG THỂ:
   Herman, J.L. 1992 (J Traumatic Stress 5:377 + "Trauma and Recovery" book):
     → C-PTSD = survivors of PROLONGED, REPEATED trauma
     → Context: childhood abuse, domestic violence, captivity, political imprisonment
-    → KHÁC single-event PTSD: not just re-experiencing → IDENTITY disrupted
+    → DIFFERENT from single-event PTSD: not just re-experiencing → IDENTITY disrupted
 
   ICD-11 (WHO 2022) — FORMAL RECOGNITION:
     → C-PTSD = code 6B41 (separate from PTSD 6B40)
-    → DSM-5 (2013) KHÔNG include C-PTSD as separate diagnosis
+    → DSM-5 (2013) does NOT include C-PTSD as separate diagnosis
     → ICD-11 inclusion = major clinical milestone
 
   ICD-11 C-PTSD = PTSD core symptoms PLUS:
     Disturbances in Self-Organization (DSO):
-    
+
     ① AFFECT DYSREGULATION:
       → Persistent difficulties modulating emotions
       → Explosive anger, emotional numbing, dissociation under stress
@@ -2034,7 +2063,7 @@ FRAMEWORK KHÔNG THỂ:
       but because AVAILABLE CHUNKS are threat-organized
     → = Self-Pattern-Modeling doing its job correctly — with wrong database
 
-  ⭐ BACKGROUND PATTERN 2D MODEL (Background-Pattern §2):
+  ⭐ BACKGROUND-PATTERN 2D MODEL (Background-Pattern §2):
 
     SINGLE EVENT PTSD:
       → Compile Depth: HIGH (emotional peak, 1 shot)
@@ -2045,8 +2074,8 @@ FRAMEWORK KHÔNG THỂ:
       → Compile Depth per-chunk: MODERATE (each event not extreme)
       → Link Density: EXTREME (thousands of events × years × all contexts)
       → = Moderate depth but PERVASIVE → infiltrates EVERYTHING
-      → = Background-Pattern §0: "15 năm × nghìn micro-events =
-        MỌI chunk compile đều có link NGẦM tới pattern [threat]"
+      → = Background-Pattern §0: "15 years × thousands of micro-events =
+        EVERY chunk compiled has HIDDEN link to pattern [threat]"
 
     3D MODEL (extending Background-Pattern):
       Compile Depth × Link Density × Context Quality
@@ -2110,9 +2139,9 @@ FRAMEWORK KHÔNG THỂ:
       → Initially supported phase-based approach
 
     BUT: 2021 Dutch RCT (PMC 8612023, n=149, childhood-abuse PTSD):
-      → Phase-based (STAIR + PE/Prolonged Exposure) vs immediate PE
+      → Phase-based (STAIR + Prolonged Exposure) vs immediate Prolonged Exposure
       → Did NOT find phase-based SUPERIOR for PTSD symptoms
-      → Direct PE equally effective and NOT harmful for C-PTSD
+      → Direct Prolonged Exposure equally effective and NOT harmful for C-PTSD
 
     Intensive inpatient programs WITHOUT stabilization phase:
       → 85-87.7% C-PTSD patients lost PTSD diagnosis
@@ -2138,7 +2167,7 @@ FRAMEWORK KHÔNG THỂ:
 ### §12.1 — PTSD × Depression
 
 ```
-🟡 COMPOUND CASCADE, NOT SIMPLE COMORBIDITY:
+🟡 COMPOUND CASCADE, NOT SIMPLE CO-OCCURRENCE:
 
   MECHANISM:
     PTSD avoidance → fewer activities → reward system unused
@@ -2218,8 +2247,8 @@ FRAMEWORK KHÔNG THỂ:
     │                   │                │ (context-free)  │
     └────────────────────────────────────────────────────┘
 
-  KHÁC MECHANISM HOÀN TOÀN:
-    → ADHD: DAT clearance nhanh → PFC under-fueled → regulation KHÁC (permanent)
+  COMPLETELY DIFFERENT MECHANISMS:
+    → ADHD: DAT clearance fast → PFC under-fueled → regulation DIFFERENT (permanent)
     → PTSD: amygdala-driven hyperreactivity → PFC overwhelmed → regulation FAILED (acquired)
     → ADHD: since birth/childhood → lifelong
     → PTSD: post-trauma onset → identifiable before/after
@@ -2255,8 +2284,8 @@ FRAMEWORK KHÔNG THỂ:
     → Yaffe et al. 2010 (Arch Gen Psychiatry): veterans with PTSD = ~2× dementia risk
 
   FRAMEWORK:
-    → Alzheimer: chunks MẤT DẦN (substrate destroyed)
-    → PTSD: chunks CÒN nhưng context MẤT (metadata stripped)
+    → Alzheimer: chunks LOST GRADUALLY (substrate destroyed)
+    → PTSD: chunks REMAIN but context LOST (metadata stripped)
     → Same structure (hippocampus), DIFFERENT mechanism of failure
     → But: PTSD chronic cortisol may ACCELERATE Alzheimer-type damage
     → = Cross-ref Alzheimer §2.1, §4 Braak staging
@@ -2315,12 +2344,12 @@ FRAMEWORK KHÔNG THỂ:
     → HPA axis "pre-set" to reactive state BEFORE any direct trauma
     → = Cortisol baseline calibration shifted IN UTERO
 
-  FRAMEWORK — Cortisol-Baseline §0.3: "4 tầng calibration"
+  FRAMEWORK — Cortisol-Baseline §0.3: "4-layer calibration"
     ① Evolution → base settings (species-wide)
     ② Development → early life calibration
     ③ Culture → social context calibration
     ④ AI → modern context
-    → Intergenerational trauma = DEVELOPMENT tầng disrupted
+    → Intergenerational trauma = DEVELOPMENT layer disrupted
     → Offspring start life with SHIFTED calibration
     → Not "traumatized" (no direct trauma) but VULNERABLE (hardware pre-set)
 
@@ -2341,20 +2370,20 @@ FRAMEWORK KHÔNG THỂ:
 
 ## §14 — FRAMEWORK CONTRIBUTION: CONTEXT-TAG MODEL
 
-> §2 formalize model. §14 synthesize: PTSD đã buộc framework thêm gì,
-> và những gì testable.
+> §2 formalizes the model. §14 synthesizes: what PTSD forced framework to add,
+> and what is testable.
 
 ### §14.1 — 3 contributions PTSD forced
 
 ```
-⭐ PTSD BUỘC FRAMEWORK FORMALIZE 3 CƠ CHẾ:
+⭐ PTSD FORCED FRAMEWORK TO FORMALIZE 3 MECHANISMS:
 
-  ① CHUNK CONTEXT-TAG — 4 loại metadata gắn vào chunk khi compile (§2):
-    → Temporal (khi nào) + Spatial (ở đâu) + Causal (tại sao) + State (body state)
-    → Normal: 4/4 present → "nhớ lại" (contextualized)
-    → Trauma: state only → "sống lại" (de-contextualized)
-    → Extends Chunk.md: NO SOURCE TAG = vẫn đúng. CONTEXT TAG = separate mechanism.
-    → Treatment = ADD missing metadata → shift from "sống lại" to "nhớ lại"
+  ① CHUNK CONTEXT-TAG — 4 types of metadata attached to chunk at compile time (§2):
+    → Temporal (when) + Spatial (where) + Causal (why) + State (body state)
+    → Normal: 4/4 present → "remembering" (contextualized)
+    → Trauma: state only → "reliving" (de-contextualized)
+    → Extends Chunk.md: NO SOURCE TAG = still true. CONTEXT TAG = separate mechanism.
+    → Treatment = ADD missing metadata → shift from "reliving" to "remembering"
 
   ② 2 ENCODING PATHWAYS → 2 CHUNK TYPES (§3):
     → Hippocampal: contextual chunks (declarative, malleable, context-bound)
@@ -2365,11 +2394,11 @@ FRAMEWORK KHÔNG THỂ:
       context-free chunk firing as specific variant
 
   ③ BODY-FIRST AMPLIFIED — temporal sequence (§4.2):
-    → Feeling-Mechanism-Deep §1.2: "Body leads, PFC follows, LUÔN LUÔN"
+    → Feeling-Mechanism-Deep §1.2: "Body leads, PFC follows, ALWAYS"
     → PTSD = EXTREME case: amygdala 12ms → body 50-200ms → PFC 200ms+
     → NOT "body overrides PFC" — body ACTS 200ms BEFORE PFC arrives
     → PFC corrective signal: LATE + WEAK (hardware damaged) + may be OFFLINE (Config ④)
-    → = Design feature (survival fast response) that BACKFIRES when chunks lack context
+    → = Design feature (fast survival response) that BACKFIRES when chunks lack context
 ```
 
 ### §14.2 — Context-tag model: full formalization
@@ -2460,7 +2489,7 @@ FRAMEWORK KHÔNG THỂ:
     → Test: compare treatments targeting different metadata types
     → Status: 🔴 novel prediction — not tested
 
-  P5: C-PTSD BACKGROUND PATTERN DENSITY → TREATMENT TIMELINE
+  P5: C-PTSD BACKGROUND-PATTERN DENSITY → TREATMENT TIMELINE
     → Predict: higher link density → longer treatment needed
     → Test: Background-Pattern proxy measures (duration of trauma × contexts)
       → correlate with treatment duration to criterion improvement
@@ -2582,7 +2611,7 @@ FRAMEWORK ADDS:
 
 FRAMEWORK DOES NOT REPLACE:
   → Clinical models (DSM-5 criteria for diagnosis)
-  → Treatment protocols (PE, EMDR, CPT manuals)
+  → Treatment protocols (Prolonged Exposure, EMDR, CPT manuals)
   → Neuroscience research (ongoing empirical work)
   → = Observation lens that CONNECTS and REFRAMES, not replaces
 ```
@@ -2607,7 +2636,7 @@ FRAMEWORK DOES NOT REPLACE:
   ADHD-Observation.md v1.1     — §12 co-occurrence → PTSD × ADHD mimicry
   Alzheimer-Analysis.md v1.1   — §2.1 hippocampus → shared vulnerability
   Autism-Observation.md v1.0   — sensory processing → different trigger surface
-  Child-Development-Mechanism  — §8 cortisol × phát triển → C-PTSD developmental
+  Child-Development-Mechanism  — §8 cortisol × development → C-PTSD developmental
 
   RELATED:
   Meaning.md v2.0              — meaning dissolution via avoidance → depression pathway
@@ -2627,22 +2656,132 @@ FRAMEWORK DOES NOT REPLACE:
   │ 6      │ PTSD                     │ Chunk CONTEXT-TAG FAILURE  │
   └────────┴──────────────────────────┴────────────────────────────┘
 
-  NEXT: ADHD v1.1 → v1.2 Refine (Configuration vs Tuning 2D model từ Autism insights)
+  NEXT: ADHD v1.1 → v1.2 Refine (Configuration vs Tuning 2D model from Autism insights)
 ```
 
 ---
 
-> **6 files. 6 góc nhìn. Cùng kiến trúc.**
+## REFERENCES
+
+```
+🟢 LeDoux + amygdala architecture:
+  LeDoux JE. (1996) The Emotional Brain. Simon & Schuster.
+  LeDoux JE. (2000) Annual Rev Neurosci 23:155-184. Emotion circuits.
+  LeDoux JE. (2000) Annual Rev Neurosci 23:155. Hippocampal vs amygdala lesion dissociation.
+
+🟢 Hippocampus + encoding:
+  Scoville WB, Milner B. (1957) J Neurology Neurosurgery Psychiatry 20:11. H.M. case.
+  O'Keefe J, Dostrovsky J. (1971) Brain Research 34(1):171-175. Place cells.
+  MacDonald CJ et al. (2011) Science 331(6021):1159-1162. Time cells.
+  Tulving E. (2002) Annual Rev Psychology 53:1-25. Episodic memory.
+
+🟢 Kim & Diamond + stress neurobiology:
+  Kim JJ, Diamond DM. (2002) Nature Rev Neurosci 3(6):453-462. Temporal dynamics.
+  Roozendaal B, McEwen BS, Bhaskaran S. (2009) Nature Rev Neurosci 10(6):423-433.
+  McGaugh JL. (2004) Annual Rev Neurosci 27:1-28. Amygdala modulation.
+
+🟢 HPA axis + Yehuda:
+  Yehuda R et al. (1990) Biol Psychiatry 27:1269-1270.
+  Yehuda R. (2001) J Clin Psychiatry 62 Suppl 17:41-46.
+  Yehuda R et al. (2004) Am J Psychiatry 161:1397-1403.
+  Yehuda R. (2002) Psychiatr Clin North Am 25:341-358.
+
+🟢 Brewin DRT:
+  Brewin CR, Dalgleish T, Joseph S. (1996) Psych Review 103(4):670-686.
+  Brewin CR et al. (2010) Psych Review 117(1):210-232.
+
+🟢 Neuroimaging flashback:
+  Rauch SL, van der Kolk BA et al. (1996) Arch Gen Psychiatry 53(4):380-387.
+  Ehlers A, Clark DM. (2000) Behav Res Ther 38(4):319-345.
+  Shin LM et al. (2006) Annals NY Acad Sci 1071:67-79.
+
+🟢 PFC + hardware:
+  Arnsten AFT. (2009) Nature Rev Neurosci 10(6):410-422. PFC stress.
+  Vyas A et al. (2002) J Neuroscience 22(15):6810-6818. Amygdala growth.
+  Lanius RA et al. (2010) Am J Psychiatry 167(6):640-647. Dissociative subtype.
+  Lanius RA et al. (2012) Depression and Anxiety 29(8):701-708.
+
+🟢 Hippocampal volume:
+  Bremner JD et al. (1995) Am J Psychiatry 152(7):973-981.
+  Smith ME. (2005) Hippocampus 15(6):798-807. Meta-analysis.
+  Gilbertson MW et al. (2002) Nature Neurosci 5(11):1242-1247. Twin study.
+
+🟢 Extinction:
+  Bouton ME. (2004) Learning & Memory 11(5):485-494. Extinction ≠ erasure.
+  Milad MR et al. (2009) Biol Psychiatry 66(12):1072-1080. Extinction recall.
+  Milad MR, Quirk GJ. (2002) J Neurosci 22(3):883-889. vmPFC.
+  Craske MG et al. (2014) Behav Res Ther 58:10-23. Inhibitory learning.
+
+🟢 Reconsolidation:
+  Nader K, Schafe GE, LeDoux JE. (2000) Nature 406(6797):722-726.
+  Schiller D et al. (2010) Nature 463(7277):49-53. Human demonstration.
+
+🟢 Sleep:
+  Walker MP, van der Helm E. (2009) Psych Bulletin 135(5):731-748.
+  Germain A. (2013) Am J Psychiatry 170(4):372-382.
+
+🟢 Prevalence:
+  Kessler RC et al. (2005) Arch Gen Psychiatry 62(6):593-602. NCS-R.
+  Koenen KC et al. (2017) Psych Medicine 47(13):2260-2274. WHO.
+  Kessler RC et al. (1995) Arch Gen Psychiatry 52(12):1048-1060. Conditional risk.
+
+🟢 Vulnerability:
+  Gilbertson MW et al. (2002) — (cited above under hippocampal volume)
+
+🟢 Treatment:
+  Foa EB, Kozak MJ. (1986) Psych Bulletin 99(1):20-35. Emotional processing.
+  Powers MB et al. (2010) J Clin Psychology 66(7):769-781. PE meta-analysis.
+  Cusack K et al. (2016) Clin Psych Review 43:128-141.
+  Steenkamp MM et al. (2015) JAMA 314(5):489-500. Two-thirds problem.
+  Resick PA et al. (2012) JCCP 80(2):201-209. CPT vs PE mechanisms.
+  Shapiro F. (2001) EMDR. Guilford Press.
+  van den Hout MA, Engelhard IM. (2012) J Exp Psychopathol 3(5):724-737.
+  Rousseau PF et al. (2019) Eur J Psychotraumatol 10(1):1568132.
+
+🟢 Novel treatments:
+  Mitchell JM et al. (2021) Nature Medicine 27(6):1025-1033. MAPP1.
+  Mitchell JM et al. (2023) Nature Medicine 29(10):2473-2480. MAPP2.
+  Brunet A et al. (2018) Psychopharmacology 235(6):1861-1868. Propranolol.
+  Rae Olmsted KN et al. (2020) JAMA Psychiatry 77(2):130-138. SGB RCT.
+  van der Kolk BA et al. (2014) J Clin Psychiatry 75(6):e559-565. Yoga RCT.
+
+🟢 C-PTSD:
+  Herman JL. (1992) J Traumatic Stress 5(3):377-391.
+  ICD-11 (WHO 2022). International Classification of Diseases 11th revision.
+  Li S et al. (2025) Trauma, Violence, & Abuse. Meta-analysis.
+  Cloitre M et al. (2010) J Traumatic Stress 23(6):670-676. STAIR.
+  2021 Dutch RCT. PMC 8612023. Childhood-abuse PTSD RCT.
+
+🟢 PTSD × other:
+  Brady KT, Sinha R. (2005) Am J Psychiatry 162(8):1483-1493.
+  Khantzian EJ. (1985) Am J Psychiatry 142(11):1259-1264. Self-medication.
+  Yaffe K et al. (2010) Arch Gen Psychiatry 67(6):608-613. Dementia risk.
+  Eisenberger NI et al. (2003) Science 302(5643):290-292. Pain overlap.
+
+🟢 Intergenerational:
+  Yehuda R et al. (2016) Biol Psychiatry 80(5):372-380. FKBP5.
+  Yehuda R et al. (2020) Am J Psychiatry 177(8):744-753. Maternal pathway.
+```
+
+---
+
+> *PTSD-Analysis.md v1.0 — Health Conditions Drill File 6/6 — 2026-05-15*
+> *Framework v7.8 | Analysis file — does NOT replace medical diagnosis or trauma therapy*
+> *Research: 6 agents, ~120+ web searches, ~65+ verified citations*
+> *Health Conditions Drill COMPLETE: Nicotine (Hijack) → Parkinson (Source Loss) → ADHD (Tuning) → Alzheimer (Chunk Loss) → Autism (Configuration) → PTSD (Context-Tag Failure)*
+
+---
+
+> **6 files. 6 angles. Same architecture.**
 >
-> Nicotine: reward loop bị cướp. Parkinson: phần cứng chết dần. ADHD: tuning khác.
-> Alzheimer: substrate tan dần. Autism: cấu hình khác từ đầu.
-> PTSD: hardware nguyên vẹn, chunks vivid — nhưng context mất.
+> Nicotine: reward loop hijacked. Parkinson: hardware dies gradually. ADHD: tuning different.
+> Alzheimer: substrate gradually dissolves. Autism: configuration different from the start.
+> PTSD: hardware intact, chunks vivid — but context lost.
 >
-> Chunk context tag mất = body sống lại thay vì nhớ lại.
-> Treatment = thêm context, không xóa memory.
-> Recovery = dần dần, từ "sống lại" sang "nhớ lại, hơi khó chịu."
+> Chunk context tag lost = body relives instead of remembers.
+> Treatment = add context, not erase memory.
+> Recovery = gradually, from "reliving" to "remembering, slightly uncomfortable."
 >
-> Body ĐÚNG. Body luôn đúng ở raw level. Body respond TO what it has.
-> Khi what it has = context-free chunks → body respond AS IF in trauma.
-> Thêm context = body respond DIFFERENTLY.
-> Không thay đổi body. Thay đổi what body has to work with.
+> Body CORRECT. Body always correct at raw level. Body responds TO what it has.
+> When what it has = context-free chunks → body responds AS IF in trauma.
+> Add context = body responds DIFFERENTLY.

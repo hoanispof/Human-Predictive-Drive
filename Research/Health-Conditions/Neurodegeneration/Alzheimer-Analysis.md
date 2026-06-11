@@ -1,35 +1,35 @@
 ---
-title: Alzheimer-Analysis — Cơ Chế Alzheimer Qua Framework v7.8
+title: Alzheimer-Analysis — Alzheimer's Mechanism Through Human Predictive Drive Framework v7.8
 version: 1.3
 created: 2026-05-15 (v1.0)
 refined: 2026-05-29 (v1.3 — L3 RETIRE: "L0→L1→L3→PFC"→"L0→L1→modulatory→PFC". Body-Base v3.3 aligned)
 refined: 2026-05-17 (v1.2 — Compiled/Fresh fix, entity-compiled, dep updates Self-Pattern-Modeling v3.0/Connection v4.0/Body-Feedback-Mechanism v2.0/Religion v2.4)
-updated: 2026-05-15 (v1.1 — FULL REWRITE: +Synapse loss = PRIMARY mechanism, +Tau biology deep (protein→pretangle→oligomer→tangle, from childhood), +4-Phase Model (âm ỉ→tích lũy→cascade→symptoms), +Phase Transition Model (activity protective→destructive when amyloid disrupts E/I balance), +5 mechanisms "last in first out" (thêm myelin), +Sleep×Glymphatic (Hauglund 2025 NE oscillations, zolpidem warning), +5 Protective Layers + Resilience (centenarians, SuperAgers), +Religion maximum compile resistance, +Cognitive activity/retirement/stress, +Alzheimer heterogeneous (4+ clinical, 3-5 biological subtypes), +Architecture determines pattern not cause, +Alzheimer as reverse-engineering lens, +~75 citations (was ~20))
+updated: 2026-05-15 (v1.1 — FULL REWRITE: +Synapse loss = PRIMARY mechanism, +Tau biology deep (protein→pretangle→oligomer→tangle, from childhood), +4-Phase Model (smoldering→accumulation→cascade→symptoms), +Phase Transition Model (activity protective→destructive when amyloid disrupts E/I balance), +5 mechanisms "last in first out" (added myelin), +Sleep×Glymphatic (Hauglund 2025 NE oscillations, zolpidem warning), +5 Protective Layers + Resilience (centenarians, SuperAgers), +Religion maximum compile resistance, +Cognitive activity/retirement/stress, +Alzheimer heterogeneous (4+ clinical, 3-5 biological subtypes), +Architecture determines pattern not cause, +Alzheimer as reverse-engineering lens, +~75 citations (was ~20))
 status: v1.2 — REFERENCE FILE
 scope: |
-  HOW Alzheimer tác động lên kiến trúc não bộ: hardware THOÁI HÓA DẦN (progressive degeneration).
-  CORE DISTINCTION vs Parkinson: Parkinson = modulatory neurons chết → gate LOCKED (chunks còn).
-  Alzheimer = SYNAPSE LOSS → chunk substrate phá → chunks TỰ MẤT (execution còn, ban đầu).
+  HOW Alzheimer affects brain architecture: hardware DEGRADES PROGRESSIVELY.
+  CORE DISTINCTION vs Parkinson: Parkinson = modulatory neurons die → gate LOCKED (chunks remain).
+  Alzheimer = SYNAPSE LOSS → chunk substrate destroyed → chunks SELF-DISAPPEAR (execution intact, initially).
   Synapse loss = PRIMARY mechanism (Terry 1991 r=0.96, Selkoe 2002 "synaptic failure").
   Tau biology: MAPT gene, 6 isoforms, normal 2-3 mol/mol → Alzheimer 3-4× → pretangle UNIVERSAL from childhood.
-  4-Phase Model: Âm ỉ → Tích lũy → Cascade (positive feedback) → Symptoms.
+  4-Phase Model: Smoldering → Accumulation → Cascade (positive feedback) → Symptoms.
   Phase Transition: activity = PROTECTIVE (healthy) → DESTRUCTIVE (once amyloid disrupts E/I balance).
   5 mechanisms "last in first out": consolidation + depth×distribution + activity-dependent + multiple trace + MYELINATION.
-  Sleep × Glymphatic: NE oscillations pump CSF (Hauglund 2025). Zolpidem = ngủ nhưng KHÔNG dọn rác.
+  Sleep × Glymphatic: NE oscillations pump CSF (Hauglund 2025). Zolpidem = sleep BUT no cleanup.
   5 Protective Layers: proteostasis > anti-inflammation > cognitive reserve > neural compensation > synaptic maintenance.
-  Alzheimer = HETEROGENEOUS: 5-6 clinical subtypes, 3-5 biological subtypes. Nhiều bệnh dưới 1 tên.
-  Architecture determines pattern, NOT cause: "Dù lửa bắt đầu từ đâu, tòa nhà sụp từ tầng cao nhất."
-  Alzheimer = reverse-engineering lens cho chunk compilation architecture.
+  Alzheimer = HETEROGENEOUS: 5-6 clinical subtypes, 3-5 biological subtypes. Many diseases under one name.
+  Architecture determines pattern, NOT cause: "No matter where the fire starts, the building collapses from the top down."
+  Alzheimer = reverse-engineering lens for chunk compilation architecture.
 purpose: |
-  File thứ 4 trong Health Conditions Drill (6 files):
-    Nicotine = Hijack (nAChR flood) | Parkinson = Source CHẾT (SNc)
-    ADHD = Clearance quá nhanh (DAT+COMT) | Alzheimer = Chunk substrate PHÁ
-    Autism = Config khác | PTSD = Context-tag stuck
-  Category: Hardware Degradation (Neurodegeneration/) — cùng cluster với Parkinson-Analysis.md.
+  Fourth file in Health Conditions Drill (6 files):
+    Nicotine = Hijack (nAChR flood) | Parkinson = Source DIES (SNc)
+    ADHD = Clearance too fast (DAT+COMT) | Alzheimer = Chunk substrate DESTROYED
+    Autism = Different Config | PTSD = Context-tag stuck
+  Category: Hardware Degradation (Neurodegeneration/) — same cluster as Parkinson-Analysis.md.
   Neurodegeneration Cluster 2/2: Parkinson (modulatory loss) → Alzheimer (processing + substrate loss).
-  Bridge: Acetylcholine ↔ Nicotine-Brain-Mechanism.md (cùng nAChR system).
-  ⚠️ Framework KHÔNG thay thế y khoa. Observation lens only.
-position: Research/Health-Conditions/Neurodegeneration/ — cạnh Parkinson-Analysis.md
+  Bridge: Acetylcholine ↔ Nicotine-Brain-Mechanism.md (same nAChR system).
+  ⚠️ Framework does NOT replace medicine. Observation lens only.
+position: Research/Health-Conditions/Neurodegeneration/ — adjacent to Parkinson-Analysis.md
 previous_version: backup/Alzheimer-Analysis-v1.0.md (1,653L)
 dependencies:
   - Self-Pattern-Modeling.md v3.0 — Compiled/Fresh, identity, context-dependent
@@ -37,7 +37,7 @@ dependencies:
   - Background-Pattern.md v1.0 — 2D model (Compile Depth × Link Density)
   - Connection.md v4.0 — 3 generative primitives, Valence-Momentary/Valence-Structural
   - Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap, 4 axes
-  - Gap-Direction.md v1.0 — "chưa biết = không có gap"
+  - Gap-Direction.md v1.0 — "not yet known = no gap yet"
   - Parkinson-Analysis.md v1.1 — comparison, Neurodegeneration Cluster
   - Nicotine-Brain-Mechanism.md v1.1 — §10.2 ACh bridge
   - Religion.md v2.4 — 7 functions × mechanism, maximum compile resistance
@@ -55,339 +55,345 @@ sources_academic: |
   🟢 Depp et al. 2023 (Nature) — myelin dysfunction upstream amyloid
   🟢 Perez-Nievas et al. 2013 (Brain) — resilience phenotype
   🟢 Livingston et al. 2020, 2024 (Lancet) — 14 modifiable factors ~45%
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Alzheimer-Analysis — Cơ Chế Alzheimer Qua Framework v7.8
+# Alzheimer-Analysis — Alzheimer's Mechanism Through Human Predictive Drive Framework v7.8
 
-> **Mẹ nhìn con. Ánh mắt quen thuộc. Nhưng không nhận ra.**
-> **Con nói: "Con đây mẹ." Mẹ hỏi: "Con ai?"**
+> **Mother looks at her child. Familiar eyes. But does not recognize.**
+> **Child says: "It's me, Mom." Mother asks: "Who are you?"**
 >
-> Parkinson: mạch chính CÒN nhưng gate bị LOCKED → muốn đi mà không đi được.
-> Alzheimer: synapses MẤT → chunks TỰ TAN → không biết muốn gì, không biết mình là ai.
+> Parkinson: main circuit INTACT but gate LOCKED → wants to move but cannot.
+> Alzheimer: synapses LOST → chunks DISSOLVE → does not know what it wants, does not know who it is.
 >
-> **Synapse loss = PRIMARY.** Synapses mất TRƯỚC neurons chết nhiều năm.
+> **Synapse loss = PRIMARY.** Synapses lost YEARS BEFORE neurons die.
 > Terry 1991: r=0.96. Selkoe 2002: "Alzheimer is a synaptic failure."
 >
-> **Tau bắt đầu từ TUỔI THƠ.** 90% người 4-29 tuổi đã có pretangle tau.
-> UNIVERSAL, HARMLESS. Chỉ trở thành bệnh khi cleanup THUA accumulation.
+> **Tau begins in CHILDHOOD.** 90% of people aged 4-29 already have pretangle tau.
+> UNIVERSAL, HARMLESS. Becomes disease only when cleanup LOSES to accumulation.
 >
-> **4 giai đoạn:** Âm ỉ → Tích lũy → Cascade → Triệu chứng.
-> Tipping point: Braak II→III + amyloid = "gate" mở cho tau lan tràn.
+> **4 phases:** Smoldering → Accumulation → Cascade → Symptoms.
+> Tipping point: Braak II→III + amyloid = "gate" opens for tau to spread.
 >
-> **Phase Transition:** Hoạt động não = BẢO VỆ (người khỏe, BDNF hormesis).
-> Hoạt động não = PHÁ HỦY (khi amyloid đã phá cân bằng kích thích-ức chế).
-> "Use it or lose it" → đảo thành "Use it and SPREAD the damage."
+> **Phase Transition:** Brain activity = PROTECTIVE (healthy person, BDNF hormesis).
+> Brain activity = DESTRUCTIVE (when amyloid has already disrupted excitation-inhibition balance).
+> "Use it or lose it" → flips to "Use it and SPREAD the damage."
 >
-> **5 cơ chế "last in first out"**: consolidation + compile depth × distribution
+> **5 mechanisms "last in first out"**: consolidation + compile depth × distribution
 > + activity-dependent + multiple trace + MYELINATION ORDER.
-> = OVERDETERMINED — kiến trúc não quyết định pattern, KHÔNG phải nguyên nhân.
+> = OVERDETERMINED — brain architecture determines pattern, NOT the cause.
 >
-> **Ngủ = dọn rác.** NE oscillations bơm CSF (Hauglund 2025).
-> Zolpidem cho ngủ nhưng KHÔNG dọn rác. Mất ngủ mãn = "mồi lửa."
+> **Sleep = garbage collection.** NE oscillations pump CSF (Hauglund 2025).
+> Zolpidem enables sleep but does NOT collect garbage. Chronic insomnia = "kindling."
 >
-> **Alzheimer ≠ 1 bệnh.** 5-6 biến thể lâm sàng, 3-5 subtype sinh học.
-> "Alzheimer" = umbrella giống "cancer" — nhiều bệnh dưới 1 tên.
+> **Alzheimer ≠ 1 disease.** 5-6 clinical variants, 3-5 biological subtypes.
+> "Alzheimer" = umbrella like "cancer" — many diseases under one name.
 >
-> Body vẫn SỐNG. Đau vẫn CÓ. Sợ vẫn CÓ.
-> PFC đã MẤT → body-feedback KHÔNG AI ĐỌC.
-> Người thân: Body-Coupling MỘT CHIỀU. Grief FROZEN.
+> Body still LIVES. Pain still PRESENT. Fear still PRESENT.
+> PFC is GONE → body-feedback has NO ONE TO READ IT.
+> Caregivers: Body-Coupling ONE-SIDED. Grief FROZEN.
 >
-> **"Dù lửa bắt đầu từ đâu, tòa nhà sụp từ tầng cao nhất xuống."**
-> Alzheimer cho thấy chunk architecture qua erosion — khảo cổ sống.
+> **"No matter where the fire starts, the building always collapses from the top floor down."**
+> Alzheimer reveals chunk architecture through erosion — living archaeology.
 >
-> ⚠️ **DISCLAIMER**: Framework KHÔNG thay thế y khoa. KHÔNG chẩn đoán.
-> KHÔNG đề xuất điều trị. File này = observation lens qua kiến trúc v7.8.
+> ⚠️ **DISCLAIMER**: Framework does NOT replace medicine. Does NOT diagnose.
+> Does NOT recommend treatment. This file = observation lens through v7.8 architecture.
 
 ---
 
-## MỤC LỤC
+## TABLE OF CONTENTS
 
 ```
-§0  — VỊ TRÍ TRONG FRAMEWORK
-§1  — BỨC TRANH TỔNG QUÁT
-§2  — TAU: TỪ PROTEIN BÌNH THƯỜNG TỚI DISEASE
-§3  — AMYLOID × TAU: SYNERGY + NGUYÊN NHÂN
+§0  — POSITION IN FRAMEWORK
+§1  — THE OVERALL PICTURE
+§2  — TAU: FROM NORMAL PROTEIN TO DISEASE
+§3  — AMYLOID × TAU: SYNERGY + CAUSE
 §4  — BRAAK STAGING × FRAMEWORK ARCHITECTURE
 §5  — SYNAPSE LOSS → CHUNK DEGRADATION
-§6  — 5 CƠ CHẾ "LAST IN FIRST OUT"
+§6  — 5 "LAST IN FIRST OUT" MECHANISMS
 §7  — Self-Pattern-Modeling DISSOLUTION: IDENTITY FRAGMENTATION
-§8  — BODY-FEEDBACK: TÍN HIỆU KHÔNG AI ĐỌC
+§8  — BODY-FEEDBACK: SIGNALS WITH NO ONE READING
 §9  — CONNECTION: AMBIGUOUS LOSS
 §10 — ACETYLCHOLINE × CHOLINERGIC HYPOTHESIS
-§11 — SLEEP × GLYMPHATIC: DỌN RÁC KHI NGỦ
+§11 — SLEEP × GLYMPHATIC: GARBAGE COLLECTION DURING SLEEP
 §12 — 5 PROTECTIVE LAYERS + RESILIENCE
 §13 — MUSIC + RELIGION + PROCEDURAL PRESERVATION
 §14 — COGNITIVE ACTIVITY + STRESS
-§15 — SO SÁNH: PARKINSON vs ALZHEIMER
+§15 — COMPARISON: PARKINSON vs ALZHEIMER
 §16 — TREATMENT
-§17 — Alzheimer AS REVERSE-ENGINEERING LENS
+§17 — ALZHEIMER AS REVERSE-ENGINEERING LENS
 §18 — HONEST ASSESSMENT
 §19 — CROSS-REFERENCES
 ```
 
 ---
 
-## §0 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — POSITION IN FRAMEWORK
 
 ### §0.1 — Category: Hardware Degradation (Chunk Substrate + Synapse)
 
 ```
-⭐ ALZHEIMER = TRƯỜNG HỢP ĐỘC NHẤT TRONG FRAMEWORK:
+⭐ ALZHEIMER = UNIQUE CASE IN THE FRAMEWORK:
 
   ┌──────────────┬──────────────────────────────────────────────┐
-  │ Category     │ Cơ chế                                       │
+  │ Category     │ Mechanism                                    │
   ├──────────────┼──────────────────────────────────────────────┤
-  │ Hijack       │ External substance → reward loop BỊ CƯỚP     │
-  │              │ Hardware INTACT, software bị corrupt          │
-  │              │ REVERSIBLE (quit → re-compile)                │
+  │ Hijack       │ External substance → reward loop HIJACKED    │
+  │              │ Hardware INTACT, software corrupted          │
+  │              │ REVERSIBLE (quit → re-compile)               │
   ├──────────────┼──────────────────────────────────────────────┤
-  │ Degradation  │ Internal hardware → modulatory neurons CHẾT  │
-  │ (Parkinson)  │ MODULATORY neurons chết → GATE locked         │
-  │              │ Chunks CÒN NGUYÊN, execution FAIL             │
+  │ Degradation  │ Internal hardware → modulatory neurons DIE   │
+  │ (Parkinson)  │ MODULATORY neurons die → GATE locked         │
+  │              │ Chunks REMAIN INTACT, execution FAILS        │
   ├──────────────┼──────────────────────────────────────────────┤
-  │ Degradation  │ Internal hardware → SYNAPSES MẤT TRƯỚC       │
-  │ (Alzheimer)  │ Synapse loss → chunk network TAN RÃ           │
-  │              │ Execution CÒN (ban đầu), CHUNKS MẤT           │
-  │              │ = NGƯỢC với Parkinson                          │
+  │ Degradation  │ Internal hardware → SYNAPSES LOST FIRST      │
+  │ (Alzheimer)  │ Synapse loss → chunk network DISINTEGRATES   │
+  │              │ Execution INTACT (initially), CHUNKS LOST    │
+  │              │ = OPPOSITE of Parkinson                      │
   ├──────────────┼──────────────────────────────────────────────┤
-  │ Config       │ Hardware CẤU HÌNH KHÁC từ đầu (Autism, ADHD) │
-  │              │ Không phải hỏng — khác cách compile           │
-  │              │ STABLE (không thoái hóa)                      │
+  │ Config       │ Hardware CONFIGURED DIFFERENTLY from birth   │
+  │              │ (Autism, ADHD) — not broken, just different  │
+  │              │ STABLE (no degeneration)                     │
   └──────────────┴──────────────────────────────────────────────┘
 
-  ⭐ KHÁC BIỆT CỐT LÕI GIỮA 2 DEGRADATION:
-    Parkinson = MODULATORY neurons chết → chunks CÒN nhưng KHÔNG DÙNG ĐƯỢC
-    Alzheimer = SYNAPSES MẤT → chunk networks TAN RÃ → chunks TỰ MẤT
-    
-    v1.0 CORRECTION: "neurons chết" → synapse loss = PRIMARY
-    Neurons chết SAU synapses mất nhiều năm (Terry 1991, Selkoe 2002)
-    
-    Parkinson: dàn nhạc còn nguyên, amplifier chết → không kêu
-    Alzheimer: dàn nhạc TỰ TAN RÃ → không còn nhạc cụ
+  ⭐ CORE DIFFERENCE BETWEEN 2 DEGRADATIONS:
+    Parkinson = MODULATORY neurons die → chunks REMAIN but UNUSABLE
+    Alzheimer = SYNAPSES LOST → chunk networks DISINTEGRATE → chunks SELF-DISAPPEAR
+
+    v1.0 CORRECTION: "neurons die" → synapse loss = PRIMARY
+    Neurons die AFTER synapses lost by many years (Terry 1991, Selkoe 2002)
+
+    Parkinson: orchestra intact, amplifier dies → no sound
+    Alzheimer: orchestra SELF-DISASSEMBLES → no instruments left
 ```
 
 ### §0.2 — Neurodegeneration Cluster (File 2/2)
 
 ```
-🟡 2 CONDITIONS × CÙNG DEGRADATION × KHÁC HỆ THỐNG:
+🟡 2 CONDITIONS × SAME DEGRADATION × DIFFERENT SYSTEMS:
 
   ┌────────────┬────────────────────────┬────────────────────────┐
   │            │ PARKINSON (1)          │ ALZHEIMER (2)          │
   ├────────────┼────────────────────────┼────────────────────────┤
-  │ Hệ chính   │ Dopamine (SNc)         │ Acetylcholine (NbM)    │
-  │ Protein     │ α-synuclein misfold    │ Amyloid + Tau tangle   │
-  │ Bắt đầu    │ Brainstem (bottom-up)  │ Entorhinal (memory)    │
-  │ Triệu chứng│ Motor TRƯỚC            │ Memory TRƯỚC           │
-  │ Chunks      │ CÒN, execution fail   │ TỰ MẤT, substrate phá │
-  │ Identity    │ PRESERVED (biết mình)  │ FRAGMENTED (mất mình)  │
-  │ Caregiver   │ Vất vả nhưng TƯƠNG TÁC│ Ambiguous loss         │
-  │ Bridge      │ ← Nicotine (dopamine) │ ← Nicotine (ACh/nAChR)│
+  │ Main system│ Dopamine (SNc)         │ Acetylcholine (NbM)    │
+  │ Protein    │ α-synuclein misfold    │ Amyloid + Tau tangle   │
+  │ Starts at  │ Brainstem (bottom-up)  │ Entorhinal (memory)    │
+  │ Symptoms   │ Motor FIRST            │ Memory FIRST           │
+  │ Chunks     │ REMAIN, execution fail │ SELF-LOST, substrate   │
+  │            │                        │ destroyed              │
+  │ Identity   │ PRESERVED (knows self) │ FRAGMENTED (loses self)│
+  │ Caregiver  │ Difficult but RESPONDS │ Ambiguous loss         │
+  │ Bridge     │ ← Nicotine (dopamine)  │ ← Nicotine (ACh/nAChR)│
   └────────────┴────────────────────────┴────────────────────────┘
 ```
 
-### §0.3 — Phân biệt "Quên" vs "Mất" (Gap-Direction.md)
+### §0.3 — Distinguishing "Forgetting" vs "Lost" (Gap-Direction.md)
 
 ```
-🟡 FRAMEWORK CRITICAL — Alzheimer BUỘC phân biệt RÕ:
+🟡 FRAMEWORK CRITICAL — Alzheimer FORCES clear distinction:
 
-  "QUÊN" = retrieval path WEAK (anchor decay)
-    → chunk VẪN CÒN trong network
-    → gợi đúng cue → có thể nhớ lại
-    → Ebbinghaus curve: quên = bình thường, ai cũng quên
-    → REVERSIBLE bằng cue, repetition, sleep
+  "FORGETTING" = retrieval path WEAK (anchor decay)
+    → chunk STILL EXISTS in network
+    → correct cue → can recall → "Oh right!"
+    → Ebbinghaus curve: forgetting = normal, everyone forgets
+    → REVERSIBLE with cue, repetition, sleep
 
-  "MẤT" = substrate DAMAGE (synapses phá, neurons chết)
-    → chunk BỊ PHÁ HỦY vật lý
-    → không cue nào phục hồi được
-    → HIẾM ở người bình thường (chỉ TBI, neurodegeneration)
+  "LOST" = substrate DAMAGE (synapses destroyed, neurons dead)
+    → chunk PHYSICALLY DESTROYED
+    → no cue can restore it
+    → RARE in normal people (only TBI, neurodegeneration)
     → IRREVERSIBLE
 
-  Bình thường: hầu hết "quên" = retrieval fail (chunk VẪN ĐÓ)
-  Alzheimer: "quên" ban đầu → nhưng tiến triển thành "MẤT" thật sự
-  → Chunk network BỊ PHÁ vật lý bởi synapse loss + tau pathology
-  → Đây là trường hợp framework phải đối mặt với substrate DESTRUCTION
+  Normal: most "forgetting" = retrieval failure (chunk STILL THERE)
+  Alzheimer: "forgetting" initially → but progressively becomes TRUE "LOST"
+  → Chunk network PHYSICALLY DESTROYED by synapse loss + tau pathology
+  → This is the case where framework must face substrate DESTRUCTION
 ```
 
 ---
 
-## §1 — BỨC TRANH TỔNG QUÁT
+## §1 — THE OVERALL PICTURE
 
-### §1.1 — Tổng quan
+### §1.1 — Overview
 
 ```
 🟢 ALZHEIMER'S DISEASE:
 
-  Prevalence: ~57 triệu người mắc dementia toàn cầu (2019)
-    → Alzheimer chiếm 60-80% tất cả dementia
-    → Dự kiến 153 triệu (2050)
-  Tuổi khởi phát: >95% cases = late-onset (65+)
-    → Early-onset (<65): <5%, thường familial (di truyền)
-  Nữ:Nam ≈ 100:69 (nữ nhiều hơn, khác Parkinson nam>nữ)
-  Survival: trung bình 4-8 năm sau chẩn đoán (range: 3-20 năm)
-  Chi phí toàn cầu: ~$2,331 tỷ USD (INT$)
+  Prevalence: ~57 million people with dementia worldwide (2019)
+    → Alzheimer accounts for 60-80% of all dementia
+    → Projected 153 million (2050)
+  Age of onset: >95% cases = late-onset (65+)
+    → Early-onset (<65): <5%, usually familial (hereditary)
+  Female:Male ≈ 100:69 (more female, unlike Parkinson where male > female)
+  Survival: average 4-8 years after diagnosis (range: 3-20 years)
+  Global cost: ~$2,331 billion USD (INT$)
 
-  Đặc điểm bệnh lý:
-    → Amyloid-beta plaques (BÊN NGOÀI neurons, extracellular)
-    → Tau neurofibrillary tangles (BÊN TRONG neurons, intracellular)
-    → SYNAPSE LOSS = primary mechanism (r=0.96 với cognitive decline)
+  Disease characteristics:
+    → Amyloid-beta plaques (OUTSIDE neurons, extracellular)
+    → Tau neurofibrillary tangles (INSIDE neurons, intracellular)
+    → SYNAPSE LOSS = primary mechanism (r=0.96 with cognitive decline)
     → Hippocampal atrophy → cortical atrophy (progressive)
     → Cholinergic neuron loss (basal forebrain)
-    → Progressive: KHÔNG dừng, KHÔNG đảo ngược (hiện tại)
+    → Progressive: DOES NOT STOP, DOES NOT REVERSE (currently)
 ```
 
-### §1.2 — Giai đoạn lâm sàng
+### §1.2 — Clinical Stages
 
 ```
-🟢 TIẾN TRIỂN 5 GIAI ĐOẠN:
+🟢 5-STAGE PROGRESSION:
 
-  ① PRECLINICAL (10-20 năm TRƯỚC triệu chứng):
-    → Amyloid tích tụ + tau bắt đầu → KHÔNG có triệu chứng
-    → Chỉ phát hiện qua biomarkers (PET, CSF, blood p-tau217)
-    → Jack et al. 2010: amyloid thay đổi TRƯỚC TIÊN
+  ① PRECLINICAL (10-20 years BEFORE symptoms):
+    → Amyloid accumulates + tau begins → NO symptoms
+    → Detectable only via biomarkers (PET, CSF, blood p-tau217)
+    → Jack et al. 2010: amyloid changes FIRST
 
   ② MCI (Mild Cognitive Impairment):
-    → Quên nhiều hơn bình thường → nhưng VẪN sống độc lập
-    → "Quên chìa khóa ở đâu" (bình thường) vs "Quên chìa khóa DÙNG ĐỂ LÀM GÌ" (Alzheimer)
-    → KHÔNG phải tất cả MCI → Alzheimer (~10-15% MCI/năm convert)
+    → More forgetting than normal → but STILL lives independently
+    → "Forgetting where you put keys" (normal) vs
+      "Forgetting what keys ARE FOR" (Alzheimer)
+    → NOT all MCI → Alzheimer (~10-15% MCI/year convert)
 
   ③ MILD Alzheimer:
-    → Anterograde amnesia rõ: không ghi nhận sự kiện mới
-    → Lạc đường quen. Quên cuộc hẹn vừa nhắc.
-    → Khó tìm từ (anomia). Judgment giảm.
-    → VẪN nhận ra người thân, VẪN tự chăm sóc cơ bản
+    → Anterograde amnesia clear: cannot consolidate new events
+    → Getting lost in familiar places. Forgetting appointment just given.
+    → Word-finding difficulty (anomia). Judgment impaired.
+    → STILL recognizes family, STILL can do basic self-care
 
   ④ MODERATE Alzheimer:
-    → Retrograde amnesia bắt đầu: quên quá khứ gần
-    → Không nhận ra một số người thân
+    → Retrograde amnesia begins: forgetting recent past
+    → Does not recognize some family members
     → Agitation, wandering, sundowning
-    → Cần hỗ trợ hoạt động hàng ngày (ăn, mặc, tắm)
+    → Needs assistance with daily activities (eating, dressing, bathing)
     → Personality changes (apathy, aggression, paranoia)
 
   ⑤ SEVERE Alzheimer:
-    → Hầu như mất hoàn toàn ký ức + ngôn ngữ
-    → Không nhận ra bản thân trong gương
-    → Mất khả năng nuốt, đi lại, kiểm soát bàng quang
-    → Phụ thuộc hoàn toàn vào người chăm sóc
-    → Body-base functions fail dần → tử vong
+    → Nearly complete loss of memory + language
+    → Does not recognize self in mirror
+    → Loses ability to swallow, walk, control bladder
+    → Completely dependent on caregiver
+    → Body-base functions fail progressively → death
 ```
 
-### §1.3 — Di truyền: APOE ε4 + Familial genes
+### §1.3 — Genetics: APOE ε4 + Familial Genes
 
 ```
-🟢 YẾU TỐ DI TRUYỀN:
+🟢 GENETIC FACTORS:
 
   ⭐ APOE ε4 (Apolipoprotein E):
-    → Yếu tố di truyền MẠNH NHẤT cho sporadic Alzheimer
-    → Có trong 9-23% dân số (tùy dân tộc)
-    → 1 copy (heterozygous): risk Alzheimer by 85 = 18.4%
+    → STRONGEST genetic factor for sporadic Alzheimer
+    → Present in 9-23% of population (varies by ethnicity)
+    → 1 copy (heterozygous): Alzheimer risk by age 85 = 18.4%
     → 2 copies (homozygous): risk = 48.3%
-    → Cơ chế: tăng amyloid deposition + giảm amyloid clearance
-    → KHÔNG phải deterministic: có ε4 ≠ chắc chắn mắc Alzheimer
+    → Mechanism: increases amyloid deposition + decreases amyloid clearance
+    → NOT deterministic: having ε4 ≠ certain to develop Alzheimer
 
-  Familial Alzheimer genes (autosomal dominant, HIẾM <1% total Alzheimer):
-    → APP (amyloid precursor protein): đột biến → tăng Aβ production
+  Familial Alzheimer genes (autosomal dominant, RARE <1% total Alzheimer):
+    → APP (amyloid precursor protein): mutation → increased Aβ production
     → PSEN1 (presenilin-1): ~43% familial Alzheimer. 100% penetrance.
-      Onset trung bình ~43 tuổi
+      Mean onset ~43 years old
     → PSEN2 (presenilin-2): ~6% familial Alzheimer. 95% penetrance.
-      Onset trung bình ~53 tuổi
-    → PSEN1 + PSEN2 = thành phần γ-secretase complex → cắt APP
+      Mean onset ~53 years old
+    → PSEN1 + PSEN2 = components of γ-secretase complex → cleaves APP
 ```
 
-### §1.4 — 14 yếu tố có thể thay đổi (Livingston 2020/2024)
+### §1.4 — 14 Modifiable Factors (Livingston 2020/2024)
 
 ```
 🟢 LIVINGSTON ET AL. 2020, 2024 (Lancet Commission):
 
-  14 modifiable risk factors → ~45% dementia CÓ THỂ PHÒNG NGỪA:
+  14 modifiable risk factors → ~45% dementia CAN BE PREVENTED:
 
-  Thời thơ ấu (<45 tuổi):
-    ① Trình độ giáo dục thấp
+  Childhood (<45 years):
+    ① Low educational attainment
 
-  Trung niên (45-65):
-    ② Mất thính lực
-    ③ Chấn thương sọ não (TBI)
-    ④ Tăng huyết áp
-    ⑤ Uống rượu quá nhiều (>21 đơn vị/tuần)
-    ⑥ Béo phì
-    ⑦ Ít vận động thể chất
-    ⑧ Tiểu đường
-    ⑨ LDL cholesterol cao (2024 MỚI)
+  Midlife (45-65):
+    ② Hearing loss
+    ③ Traumatic brain injury (TBI)
+    ④ Hypertension
+    ⑤ Excessive alcohol use (>21 units/week)
+    ⑥ Obesity
+    ⑦ Physical inactivity
+    ⑧ Diabetes
+    ⑨ High LDL cholesterol (2024 NEW)
 
-  Cao tuổi (>65):
-    ⑩ Hút thuốc
-    ⑪ Trầm cảm
-    ⑫ Cô lập xã hội
-    ⑬ Ô nhiễm không khí
-    ⑭ Mất thị lực không điều trị (2024 MỚI)
+  Later life (>65):
+    ⑩ Smoking
+    ⑪ Depression
+    ⑫ Social isolation
+    ⑬ Air pollution
+    ⑭ Untreated vision loss (2024 NEW)
 
   🟡 Framework interpretation:
-    → ① Giáo dục = chunk compilation depth (nhiều chunks = kháng lâu hơn)
-    → ② Thính lực = sensory input ← input giảm → chunk compile CHẬM
-    → ⑪ Trầm cảm = cortisol chronic → hippocampus atrophy accelerate
-    → ⑫ Cô lập = hardware social drive UNMET → brain atrophy
+    → ① Education = chunk compilation depth
+       (more chunks = longer resistance buffer)
+    → ② Hearing loss = sensory input reduced ← input down → chunk compile SLOWER
+    → ⑪ Depression = chronic cortisol → hippocampus atrophy accelerates
+    → ⑫ Isolation = hardware social drive UNMET → brain atrophy
        (Holt-Lunstad 2015: loneliness = 15 cigarettes/day mortality risk)
-    → ⑦ Vận động = BDNF (brain-derived neurotrophic factor)
-       → neurogenesis hippocampal + chunk compile capacity
-    
-    PATTERN: nhiều yếu tố = conditions cho chunk compile + maintenance
-    → Kém → chunks compile ÍT + YẾU → ít "cognitive reserve"
-    → Cognitive reserve = buffer TRƯỚC KHI triệu chứng xuất hiện
-    → Người nhiều chunks (giáo dục cao, xã hội rộng, vận động)
-       = lâu hơn trước khi hardware damage → clinical symptoms
-    → KHÔNG ngăn damage — BUFFER damage lâu hơn
+    → ⑦ Exercise = BDNF (brain-derived neurotrophic factor)
+       → hippocampal neurogenesis + chunk compile capacity
+
+    PATTERN: many factors = conditions for chunk compile + maintenance
+    → Poor conditions → chunks compile FEWER + WEAKER → less "cognitive reserve"
+    → Cognitive reserve = buffer BEFORE symptoms emerge
+    → People with more chunks (higher education, wider social network, active)
+      = longer before hardware damage → clinical symptoms
+    → Does NOT prevent damage — BUFFERS damage for longer
 ```
 
-### §1.5 — 4-Phase Model: từ âm ỉ tới triệu chứng
+### §1.5 — 4-Phase Model: From Smoldering to Symptoms
 
 ```
-🟡 FRAMEWORK SYNTHESIS — 4 GIAI ĐOẠN BỆNH LÝ:
+🟡 FRAMEWORK SYNTHESIS — 4 PHASES OF PATHOLOGY:
 
   ┌─────────────────┬──────────────────────────────────────────────┐
-  │ PHASE           │ CƠ CHẾ                                       │
+  │ PHASE           │ MECHANISM                                    │
   ├─────────────────┼──────────────────────────────────────────────┤
-  │ ① ÂM Ỉ         │ Pretangle tau xuất hiện từ tuổi 4-29          │
-  │ (10→50 tuổi)   │ 90% người trẻ đã có (Braak & Del Tredici 2011)│
-  │                 │ UNIVERSAL + HARMLESS — cleanup dọn được       │
-  │                 │ Metabolic byproduct, KHÔNG phải mutation       │
+  │ ① SMOLDERING   │ Pretangle tau appears from age 4-29          │
+  │ (10→50 years)   │ 90% of young people already have it         │
+  │                 │ (Braak & Del Tredici 2011)                   │
+  │                 │ UNIVERSAL + HARMLESS — cleanup can clear it  │
+  │                 │ Metabolic byproduct, NOT mutation            │
   ├─────────────────┼──────────────────────────────────────────────┤
-  │ ② TÍCH LŨY     │ Aging → cleanup capacity GIẢM DẦN             │
-  │ (50→70 tuổi)   │ Tau accumulates + amyloid tích tụ (20+ năm)  │
-  │                 │ CHƯA triệu chứng — chỉ thấy qua biomarkers  │
-  │                 │ Nhiều người DỪNG ở đây (resilience, §12)     │
+  │ ② ACCUMULATION │ Aging → cleanup capacity GRADUALLY DECLINES  │
+  │ (50→70 years)   │ Tau accumulates + amyloid deposits (20+ yrs)│
+  │                 │ NO symptoms yet — detectable only by         │
+  │                 │ biomarkers. Many STOP HERE (resilience, §12) │
   ├─────────────────┼──────────────────────────────────────────────┤
-  │ ⭐ TIPPING POINT │ Braak II→III: tau vượt entorhinal → hippocampus│
-  │                 │ Amyloid = "GATE" cho tau lan tràn              │
-  │                 │ Positive feedback bắt đầu (Bhatt 2019)        │
-  │                 │ tau → oxidative stress → proteasome fail → tau │
+  │ ⭐ TIPPING POINT│ Braak II→III: tau crosses entorhinal         │
+  │                 │ → hippocampus                                │
+  │                 │ Amyloid = "GATE" for tau to spread widely    │
+  │                 │ Positive feedback begins (Bhatt 2019)        │
+  │                 │ tau → oxidative stress → proteasome fail → τ │
   ├─────────────────┼──────────────────────────────────────────────┤
-  │ ③ CASCADE       │ Tau spreading qua synaptic connections        │
-  │ (5-10y trước   │ Positive feedback loops tự duy trì            │
-  │ triệu chứng)   │ Synapse loss BẮT ĐẦU (primary mechanism)     │
-  │                 │ CHƯA đủ triệu chứng (cognitive reserve buffer)│
+  │ ③ CASCADE       │ Tau spreading via synaptic connections       │
+  │ (5-10y before   │ Positive feedback loops self-sustaining      │
+  │ symptoms)       │ Synapse loss BEGINS (primary mechanism)      │
+  │                 │ NOT yet enough symptoms (cognitive reserve   │
+  │                 │ buffers)                                     │
   ├─────────────────┼──────────────────────────────────────────────┤
-  │ ④ TRIỆU CHỨNG  │ Buffer hết → clinical Alzheimer                     │
-  │ (4-8 năm)      │ Cascade ĐÃ lan rộng khi chẩn đoán            │
-  │                 │ 99.6% drugs thất bại (phần lớn quá muộn)     │
+  │ ④ SYMPTOMS      │ Buffer exhausted → clinical Alzheimer        │
+  │ (4-8 years)     │ Cascade ALREADY widespread at diagnosis      │
+  │                 │ 99.6% drugs failed (most tested too late)    │
   └─────────────────┴──────────────────────────────────────────────┘
 
-  Chi tiết: tau biology §2, synapse loss §5, sleep §11, resilience §12
+  Details: tau biology §2, synapse loss §5, sleep §11, resilience §12
 ```
 
-### §1.6 — Alzheimer = Heterogeneous: nhiều bệnh dưới 1 tên
+### §1.6 — Alzheimer = Heterogeneous: Many Diseases Under One Name
 
 ```
 🟡 FRAMEWORK SYNTHESIS + 🟢 EMERGING RESEARCH CONSENSUS:
 
-  ⭐ CLINICAL SUBTYPES (5-6 biến thể — Graff-Radford 2023, Continuum):
-    → Amnestic (typical): majority late-onset, memory loss TRƯỚC
-    → Posterior Cortical Atrophy (PCA): ~5% Alzheimer, visual processing TRƯỚC
-    → Logopenic variant: language loss TRƯỚC, 86-90% có Alzheimer pathology
-    → Behavioral variant: personality changes TRƯỚC (thường nhầm với bvFTD)
-    → Dysexecutive variant: planning/judgment TRƯỚC
+  ⭐ CLINICAL SUBTYPES (5-6 variants — Graff-Radford 2023, Continuum):
+    → Amnestic (typical): majority late-onset, memory loss FIRST
+    → Posterior Cortical Atrophy (PCA): ~5% Alzheimer, visual processing FIRST
+    → Logopenic variant: language loss FIRST, 86-90% have Alzheimer pathology
+    → Behavioral variant: personality changes FIRST (often confused with bvFTD)
+    → Dysexecutive variant: planning/judgment FIRST
     → Motor variant: corticobasal syndrome-like (Frontiers 2024)
-    Atypical variants = ~1/3 cases early-onset Alzheimer
+    Atypical variants = ~1/3 cases of early-onset Alzheimer
 
   ⭐ BIOLOGICAL SUBTYPES (research 2020-2024):
     → Tau trajectories: 4 subtypes 18-33% each
@@ -399,349 +405,351 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       (Tijms et al. 2024, Nature Aging, N=419)
     → Transcriptomic: 3-5 subtypes (Neff et al. 2021, Science Advances)
 
-  ⭐ HỆ QUẢ:
-    → "Alzheimer" = UMBRELLA giống "cancer" — nhiều bệnh dưới 1 tên
-    → 1 drug target KHÔNG fix tất cả subtypes
+  ⭐ CONSEQUENCES:
+    → "Alzheimer" = UMBRELLA like "cancer" — many diseases under one name
+    → 1 drug target does NOT fix all subtypes
     → 99.6% trial failure (Cummings 2014) → partly explained by heterogeneity
     → AMARANTH 2025 (Nature Communications): AI patient stratification
       "rescued" failed BACE1 trial → 46% slowing when properly stratified
     → Precision medicine / subtyping = future direction
 
   🟡 Framework note:
-    → Framework phân tích PATTERN suy thoái, KHÔNG phân biệt subtype
-    → Tất cả subtypes đều phá chunk substrate → cùng pattern degradation
-    → Architecture determines pattern, không phải cause (§17)
-    → = Framework VALID cho mọi Alzheimer subtypes
+    → Framework analyzes PATTERN of deterioration, does NOT distinguish subtype
+    → All subtypes destroy chunk substrate → same pattern of degradation
+    → Architecture determines pattern, not cause (§17)
+    → = Framework VALID for all Alzheimer subtypes
 ```
 
 ---
 
-## §2 — TAU: TỪ PROTEIN BÌNH THƯỜNG TỚI DISEASE
+## §2 — TAU: FROM NORMAL PROTEIN TO DISEASE
 
-### §2.1 — Tau bình thường: thanh ngang giữ đường ray
+### §2.1 — Normal Tau: The Cross-Ties Holding the Railroad
 
 ```
 🟢 TAU = MICROTUBULE STABILIZER:
 
   Gene: MAPT (Microtubule-Associated Protein Tau)
     → Chromosome 17q21
-    → 6 isoforms qua alternative splicing
-    → Phân thành 3R (3 repeat) và 4R (4 repeat domains)
-    → 4R tau stabilize microtubules MẠNH HƠN 3R
-    → Kích thước: 48-67 kDa (tùy isoform)
+    → 6 isoforms via alternative splicing
+    → Divided into 3R (3 repeat) and 4R (4 repeat domains)
+    → 4R tau stabilizes microtubules MORE STRONGLY than 3R
+    → Size: 48-67 kDa (varies by isoform)
 
-  Chức năng bình thường:
-    → Ổn định microtubules = "bộ xương" bên trong neuron
-    → Microtubules = "đường ray" vận chuyển:
+  Normal function:
+    → Stabilizes microtubules = internal "skeleton" of neuron
+    → Microtubules = "railroad tracks" for transport:
       ATP, neurotransmitters, vesicles, mitochondria
-      → Từ cell body → synapse (anterograde, kinesin)
-      → Từ synapse → cell body (retrograde, dynein)
-    → Tau = "thanh ngang" giữ đường ray thẳng + ổn định
+      → From cell body → synapse (anterograde, kinesin)
+      → From synapse → cell body (retrograde, dynein)
+    → Tau = "cross-tie" keeping the tracks straight + stable
 
-  ⭐ Phân bố KHÔNG đều trong não:
-    → Nhiều NHẤT ở: locus coeruleus, entorhinal cortex,
+  ⭐ UNEVEN DISTRIBUTION in brain:
+    → Most concentrated in: locus coeruleus, entorhinal cortex,
       hippocampal neurons, cholinergic basal forebrain
-    → = ĐÚNG neurons vulnerable NHẤT trong Alzheimer
-    → KHÔNG ngẫu nhiên: neurons với axon DÀI + metabolic demand CAO
-      → cần nhiều microtubule stabilization → nhiều tau
-      → nhiều tau → nhiều risk hyperphosphorylation
+    → = EXACTLY the neurons most vulnerable in Alzheimer
+    → NOT random: neurons with LONG axons + HIGH metabolic demand
+      → need more microtubule stabilization → more tau
+      → more tau → more risk of hyperphosphorylation
 ```
 
-### §2.2 — Tau phosphorylation: bình thường vs bệnh lý
+### §2.2 — Tau Phosphorylation: Normal vs Pathological
 
 ```
-🟢 PHOSPHORYLATION = CHÌA KHÓA:
+🟢 PHOSPHORYLATION = THE KEY:
 
-  ⭐ BÌNH THƯỜNG:
+  ⭐ NORMAL:
     → 2-3 mol phosphate / mol tau protein
     → 85 potential phosphorylation sites
-    → Phosphorylation = quy trình BÌNH THƯỜNG, LIÊN TỤC
-    → Điều chỉnh tau-microtubule binding strength
-    → Cần thiết cho synaptic plasticity (xem §2.5)
+    → Phosphorylation = NORMAL, CONTINUOUS process
+    → Regulates tau-microtubule binding strength
+    → Necessary for synaptic plasticity (see §2.5)
 
-  ⭐ BỆNH LÝ (Alzheimer):
-    → 3-4× mức bình thường (range 5-9 mol/mol typical)
-    → ~10 mol/mol tại ngưỡng hình thành filaments
-    → >40 sites xác định hyperphosphorylated
-    → Tau RỜI microtubule → microtubule COLLAPSE
-    → Tau tự do → oligomerize → fibril → tangle
+  ⭐ PATHOLOGICAL (Alzheimer):
+    → 3-4× normal level (range 5-9 mol/mol typical)
+    → ~10 mol/mol at threshold for filament formation
+    → >40 sites confirmed hyperphosphorylated
+    → Tau LEAVES microtubule → microtubule COLLAPSE
+    → Free tau → oligomerize → fibril → tangle
 
-  "GAS TĂNG + PHANH HỎNG":
-    Gas = KINASES (thêm phosphate):
-      → GSK-3β (glycogen synthase kinase 3β): kinase CHÍNH
+  "GAS INCREASES + BRAKES FAIL":
+    Gas = KINASES (add phosphate):
+      → GSK-3β (glycogen synthase kinase 3β): MAIN kinase
       → CDK5 (cyclin-dependent kinase 5): kinase #2
-    Phanh = PHOSPHATASES (bỏ phosphate):
-      → PP2A = ~71% tổng phosphatase activity trong não
+    Brakes = PHOSPHATASES (remove phosphate):
+      → PP2A = ~71% total phosphatase activity in the brain
         (Liu et al. 2005, European Journal of Neuroscience)
-      → PP2A GIẢM rõ rệt ở Alzheimer cortex + hippocampus
+      → PP2A CLEARLY REDUCED in Alzheimer cortex + hippocampus
         (Gong et al. 1993, Journal of Neurochemistry)
 
   AGING makes it worse:
-    CDK5 ở tuổi trẻ: ỨC CHẾ GSK-3β (phanh phụ)
-    CDK5 ở tuổi già: MẤT ức chế → GSK-3β HOẠT ĐỘNG TỰ DO
-    → Gas TĂNG (GSK-3β freed) + Phanh HỎNG (PP2A giảm)
-    → = Hyperphosphorylation tăng theo tuổi = phần CHẮC CHẮN
+    CDK5 in youth: INHIBITS GSK-3β (secondary brake)
+    CDK5 in old age: LOSES inhibition → GSK-3β RUNS FREE
+    → Gas INCREASES (GSK-3β freed) + Brakes FAIL (PP2A reduced)
+    → = Hyperphosphorylation increases with age = INEVITABLE part
 ```
 
 ### §2.3 — Progression: Pretangle → Oligomer → Fibril → Tangle
 
 ```
-🟢 5 GIAI ĐOẠN TIẾN TRIỂN TAU PATHOLOGY:
+🟢 5 STAGES OF TAU PATHOLOGY PROGRESSION:
 
   ① PRETANGLE:
-    → Tau hyperphosphorylated nhưng CHƯA tụ thành fibril
+    → Tau hyperphosphorylated but NOT yet aggregated into fibril
     → Predominantly 4R tau isoform
-    → Neuron VẪN khỏe mạnh, chức năng CÒN bình thường
-    → REVERSIBLE: nếu phosphatases phục hồi → tau rebind microtubule
+    → Neuron STILL healthy, function STILL normal
+    → REVERSIBLE: if phosphatases recover → tau rebinds microtubule
     → Arendt et al. 2003 (J Neuroscience): hibernation analogy
-      → Động vật ngủ đông: tau hyperphosphorylated MASSIVE
-      → Thức dậy: PP2A phục hồi → tau rebind → BÌNH THƯỜNG
-      → = Tau hyperphosphorylation CHÍNH NÓ ≠ bệnh
+      → Hibernating animals: MASSIVE tau hyperphosphorylation
+      → Upon waking: PP2A recovers → tau rebinds → NORMAL
+      → = Tau hyperphosphorylation ITSELF ≠ disease
 
-  ② OLIGOMERS = TOXIC NHẤT:
-    → Tau monomers kết tụ thành nhóm nhỏ (2-50+ monomers)
-    → SOLUBLE: di chuyển tự do trong cytoplasm
+  ② OLIGOMERS = MOST TOXIC:
+    → Tau monomers aggregate into small clusters (2-50+ monomers)
+    → SOLUBLE: moves freely in cytoplasm
     → Niewiadomska et al. 2021 (Life, MDPI 11(1):28):
-      oligomeric tau = dạng CYTOTOXIC NHẤT
-    → Gây hại: disrupts synapses, impairs mitochondria,
+      oligomeric tau = the MOST CYTOTOXIC form
+    → Damages: disrupts synapses, impairs mitochondria,
       damages membranes, spreads trans-synaptically
-    → CAN reverse → nhưng RẤT KHÓ ở giai đoạn này
-    → ⭐ Aggregation into fibrils = paradoxically có thể là
-      "cell rescue mechanism" — giảm solubility → giảm toxicity
+    → CAN reverse → but VERY DIFFICULT at this stage
+    → ⭐ Aggregation into fibrils = paradoxically may be
+      "cell rescue mechanism" — reduced solubility → reduced toxicity
 
   ③ FIBRILS (PHF — Paired Helical Filaments):
-    → 2 protofilaments xoắn quanh nhau, ~20nm diameter
-    → INSOLUBLE: không di chuyển tự do → tích tụ tại chỗ
-    → Ít toxic hơn oligomers (đã "bị nhốt")
-    → NHƯNG: phá microtubule structure, block transport
-    → KHÓ reverse tự nhiên
+    → 2 protofilaments twisted around each other, ~20nm diameter
+    → INSOLUBLE: does not move freely → accumulates in place
+    → Less toxic than oligomers (already "locked up")
+    → BUT: destroys microtubule structure, blocks transport
+    → DIFFICULT to naturally reverse
 
   ④ TANGLE (Neurofibrillary Tangle — NFT):
-    → PHFs tích tụ thành tangle BÊN TRONG neuron (intracellular)
-    → Kích thước: 5-15 μm (lớn hơn nhiều so với organelles)
-    → Neuron bị "chèn ép" → chức năng SỤPHOÀN TOÀN
+    → PHFs accumulate into tangle INSIDE neuron (intracellular)
+    → Size: 5-15 μm (much larger than organelles)
+    → Neuron "crushed" → function COLLAPSES COMPLETELY
     → IRREVERSIBLE
 
   ⑤ GHOST TANGLE:
-    → Neuron ĐÃ CHẾT → tangle thoát ra ngoài (extracellular)
-    → Tồn tại NHIỀU NĂM sau neuron death
-    → Isoform shift: 4R (pretangle sớm) → 3R (ghost tangle muộn)
-    → = "Bia mộ" neuron — dấu vết tau TỒN TẠI sau khi host đã mất
+    → Neuron HAS DIED → tangle escapes outside (extracellular)
+    → Persists MANY YEARS after neuron death
+    → Isoform shift: 4R (early pretangle) → 3R (late ghost tangle)
+    → = Neuron's "gravestone" — tau trace PERSISTS after host is gone
 
-  INSIGHT: Braak staging (§4) đo ĐÂU có tangles → mapping progression
+  INSIGHT: Braak staging (§4) measures WHERE tangles are → maps progression
 ```
 
-### §2.4 — Tau bắt đầu từ TUỔI THƠ: universal + harmless
+### §2.4 — Tau Begins in CHILDHOOD: Universal + Harmless
 
 ```
 🟢 BRAAK & DEL TREDICI 2011 (Acta Neuropathol 121(2):171-181):
 
-  42 brains, age 4-29 (trẻ em + thanh niên):
-    → 38/42 (90.5%) đã có pretangle tau ở locus coeruleus
-    → 41/42 KHÔNG có amyloid
-    → = Tau pathology bắt đầu TỪ TUỔI THƠ, KHÔNG cần amyloid
+  42 brains, age 4-29 (children + young adults):
+    → 38/42 (90.5%) already had pretangle tau in locus coeruleus
+    → 41/42 had NO amyloid
+    → = Tau pathology begins IN CHILDHOOD, without amyloid
 
 🟢 BRAAK 2011 (J Neuropathol Exp Neurol 70(11):960-969):
 
   2,332 brains, age 1-100 (large-scale autopsy study):
-    → Pretangle tau increases progressively theo tuổi
-    → By age 40: gần 100% có pretangle tau
-    → By age 80: gần 100% có tau ít nhất Braak II
+    → Pretangle tau increases progressively with age
+    → By age 40: nearly 100% have pretangle tau
+    → By age 80: nearly 100% have tau at least Braak II
 
   ⭐ FRAMEWORK CRITICAL INSIGHT:
-    → Pretangle tau = UNIVERSAL — metabolic byproduct, KHÔNG random mutation
-    → HARMLESS ở hầu hết người: cleanup (PP2A, proteasome) dọn được
-    → Neurons sống DECADES với pretangle tau → KHÔNG chết vì pretangle
-    → Chỉ trở thành BỆNH khi:
+    → Pretangle tau = UNIVERSAL — metabolic byproduct, NOT random mutation
+    → HARMLESS in most people: cleanup (PP2A, proteasome) can handle it
+    → Neurons live DECADES with pretangle tau → do NOT die from pretangle
+    → Only becomes DISEASE when:
       accumulation rate > cleanup capacity
       (aging + genetic risk + environmental factors)
 
-  ⚠️ QUAN TRỌNG — Tau pathology KHÁC:
-    → Pruning (tỉa synapse phát triển): planned, healthy, developmental
-    → Normal forgetting (anchor decay): retrieval fail, chunk CÒN
-    → Tau pathology: substrate DAMAGE, chunk BỊ PHÁ vật lý
-    → 3 process hoàn toàn KHÁC NHAU — KHÔNG nhầm lẫn
+  ⚠️ IMPORTANT — Tau pathology IS DIFFERENT FROM:
+    → Pruning (developmental synaptic pruning): planned, healthy, developmental
+    → Normal forgetting (anchor decay): retrieval fails, chunk REMAINS
+    → Tau pathology: substrate DAMAGE, chunk PHYSICALLY DESTROYED
+    → 3 completely DIFFERENT processes — do NOT confuse
 ```
 
-### §2.5 — Tau phosphorylation × synaptic plasticity: cùng hệ thống
+### §2.5 — Tau Phosphorylation × Synaptic Plasticity: Same System
 
 ```
 🟢 REGAN ET AL. 2015 (J Neuroscience 35(12):4804-4812):
 
-  Tau phosphorylation at Ser396 = REQUIRED cho LTD:
+  Tau phosphorylation at Ser396 = REQUIRED for LTD:
     → LTD (Long-Term Depression) = synaptic weakening
-    → Cần thiết cho: pruning, forgetting, updating memories
-    → GSK-3β là kinase responsible (NMDAR-dependent LTD)
-    → = Cùng kinase CHO plasticity VÀ CHO disease
+    → Necessary for: pruning, forgetting, updating memories
+    → GSK-3β is the responsible kinase (NMDAR-dependent LTD)
+    → = Same kinase FOR plasticity AND FOR disease
 
 🟢 FETAL TAU (~7 mol phosphate/mol):
-  → GIỐNG sites phosphorylation với Alzheimer tau
-  → NHƯNG: mức THẤP HƠN Alzheimer (7 vs 5-10)
-  → Fetal brain = high plasticity → cần tau phosphorylation CAO
-  → KHÔNG form PHF dù phosphorylated nhiều hơn adult
+  → SIMILAR phosphorylation sites to Alzheimer tau
+  → BUT: LOWER LEVEL than Alzheimer (7 vs 5-10)
+  → Fetal brain = high plasticity → needs HIGH tau phosphorylation
+  → Does NOT form PHF despite higher phosphorylation than adult
   → = Fetal tau = plasticity. Alzheimer tau = same machinery, OVERLOADED
 
-  ⭐ QUANTITATIVE SHIFT, KHÔNG PHẢI QUALITATIVE:
-    → Normal: 2-3 mol → chức năng ổn định microtubule
-    → Fetal: ~7 mol → plasticity CAO (developing brain)
-    → Alzheimer: 5-10 mol → TÍCH TỤ + cleanup fail → aggregation
-    → Cùng hệ thống, cùng sites → KHÁC MỨC ĐỘ + KÉO DÀI
-    → "Lửa nhỏ sưởi ấm (plasticity). Lửa lớn đốt nhà (disease)."
+  ⭐ QUANTITATIVE SHIFT, NOT QUALITATIVE:
+    → Normal: 2-3 mol → stable microtubule function
+    → Fetal: ~7 mol → HIGH plasticity (developing brain)
+    → Alzheimer: 5-10 mol → ACCUMULATES + cleanup fails → aggregation
+    → Same system, same sites → DIFFERENT LEVEL + DURATION
+    → "Small fire warms (plasticity). Large fire burns the house (disease)."
 ```
 
 ---
 
-## §3 — AMYLOID × TAU: SYNERGY + NGUYÊN NHÂN
+## §3 — AMYLOID × TAU: SYNERGY + CAUSE
 
-### §3.1 — Amyloid plaque: "rác bên ngoài sân"
+### §3.1 — Amyloid Plaque: "Trash Outside the Yard"
 
 ```
 🟢 AMYLOID PROCESSING:
 
   APP (Amyloid Precursor Protein):
-    → Protein xuyên màng, 695-770 amino acids
-    → Có CHỨC NĂNG bình thường (synaptogenesis, neuronal growth)
-    → 2 con đường cắt:
-      ① α-secretase → sAPPα (NON-amyloidogenic, có lợi)
+    → Transmembrane protein, 695-770 amino acids
+    → Has NORMAL function (synaptogenesis, neuronal growth)
+    → 2 cleavage pathways:
+      ① α-secretase → sAPPα (NON-amyloidogenic, beneficial)
       ② β-secretase (BACE1) + γ-secretase → Aβ peptides
-    → Aβ40 (90%): ÍT toxic, ÍT tụ
-    → Aβ42 (10%): toxic HƠN, TỤ NHANH HƠN → plaques
+    → Aβ40 (90%): LESS toxic, LESS aggregating
+    → Aβ42 (10%): MORE toxic, AGGREGATES FASTER → plaques
 
   Amyloid plaques:
-    → Extracellular (BÊN NGOÀI neurons)
-    → ~50 μm diameter (LỚN HƠN 1 neuron!)
-    → Tạo môi trường TOXIC xung quanh:
+    → Extracellular (OUTSIDE neurons)
+    → ~50 μm diameter (LARGER than 1 neuron!)
+    → Creates TOXIC environment around it:
       → Inflammation (microglia activation)
       → Oxidative stress
       → Synaptic dysfunction
-    → Framework: "rác bên ngoài sân" → tạo nhiệt → lửa cháy vào nhà
+    → Framework: "trash outside the yard" → generates heat → fire burns into the house
 ```
 
-### §3.2 — Tau tangle: "lửa bên trong nhà"
+### §3.2 — Tau Tangle: "Fire Inside the House"
 
 ```
-🟢 TAU VS AMYLOID — VỊ TRÍ QUYẾT ĐỊNH:
+🟢 TAU vs AMYLOID — LOCATION IS DECISIVE:
 
-  Amyloid = EXTRACELLULAR (bên ngoài):
-    → Tạo environment toxic → gián tiếp phá chunk substrate
-    → Kích hoạt microglia → nhưng microglia CŨNG gây hại
+  Amyloid = EXTRACELLULAR (outside):
+    → Creates toxic environment → indirectly destroys chunk substrate
+    → Activates microglia → but microglia ALSO cause harm
 
-  Tau = INTRACELLULAR (bên trong):
-    → TRỰC TIẾP phá microtubule → transport fail → synapse chết
-    → Framework: tau = phá chunk substrate TỪ BÊN TRONG
-    → "Lửa cháy bên trong nhà → nhà sụp"
+  Tau = INTRACELLULAR (inside):
+    → DIRECTLY destroys microtubule → transport fails → synapse dies
+    → Framework: tau = destroys chunk substrate FROM WITHIN
+    → "Fire burning inside the house → house collapses"
 
-  ⭐ DỌN AMYLOID = MODEST BENEFIT VÌ:
-    → Dọn "sân" = giảm nhiệt xung quanh
-    → NHƯNG: "lửa bên trong nhà" (tau) ĐÃ CHÁY
-    → = Giải thích 27-35% benefit từ anti-amyloid drugs
+  ⭐ CLEARING AMYLOID = MODEST BENEFIT BECAUSE:
+    → Clearing "the yard" = reduces surrounding heat
+    → BUT: "fire inside the house" (tau) IS ALREADY BURNING
+    → = Explains 27-35% benefit from anti-amyloid drugs
 ```
 
-### §3.3 — Amyloid cascade 30 năm: thành công + thất bại
+### §3.3 — Amyloid Cascade 30 Years: Successes + Failures
 
 ```
-🟢 HARDY & HIGGINS 1992 (Science 256) — GIẢ THUYẾT GỐC:
+🟢 HARDY & HIGGINS 1992 (Science 256) — ORIGINAL HYPOTHESIS:
 
-  Amyloid-beta tích tụ = SỰ KIỆN KHỞI ĐẦU → tau → neuron death → dementia
+  Amyloid-beta accumulation = INITIATING EVENT → tau → neuron death → dementia
 
-  Bằng chứng HỖ TRỢ:
-    → Familial Alzheimer mutations (APP, PSEN1/2) = TĂNG Aβ
-    → Down syndrome (3 copies APP) → Alzheimer ~100% by 60
-    → APOE ε4 → giảm Aβ clearance
-    → Hardy & Selkoe 2002: review 10 năm, hypothesis updated
+  Supporting EVIDENCE:
+    → Familial Alzheimer mutations (APP, PSEN1/2) = INCREASE Aβ
+    → Down syndrome (3 copies APP) → Alzheimer ~100% by age 60
+    → APOE ε4 → reduces Aβ clearance
+    → Hardy & Selkoe 2002: 10-year review, hypothesis updated
 
-  30 NĂM THẤT BẠI:
+  30 YEARS OF FAILURE:
     Cummings et al. 2014 (Alzheimer's Research & Therapy):
-      → 413 trials (2002-2012): success rate 0.4% (99.6% THẤT BẠI)
+      → 413 trials (2002-2012): success rate 0.4% (99.6% FAILED)
     Anti-amyloid drugs:
-      → Aducanumab (2021): FDA approved, EMA từ chối. Biogen RÚT 2024.
-      → Lecanemab (2023): 27% slow decline. ARIA risks. EMA từ chối.
+      → Aducanumab (2021): FDA approved, EMA rejected. Biogen WITHDREW 2024.
+      → Lecanemab (2023): 27% slow decline. ARIA risks. EMA rejected.
       → Donanemab (2024): 35% slow, 84% amyloid reduction. ARIA-E 24%.
 
-  ⚠️ TENSION: dọn amyloid = dọn ĐƯỢC (lecanemab, donanemab)
+  ⚠️ TENSION: clearing amyloid = WORKS (lecanemab, donanemab)
     Clinical benefit = MODEST (27-35%)
-    → Gợi ý: amyloid KHÔNG PHẢI thủ phạm DUY NHẤT
+    → Suggests: amyloid NOT THE ONLY culprit
 ```
 
-### §3.4 — Tau correlates MẠNH HƠN với symptoms
+### §3.4 — Tau Correlates MORE STRONGLY with Symptoms
 
 ```
-🟢 TAU > AMYLOID CHO PREDICTING DECLINE:
+🟢 TAU > AMYLOID FOR PREDICTING DECLINE:
 
   La Joie et al. (Molecular Psychiatry):
-    → Tau PET binding trong temporoparietal cortex
+    → Tau PET binding in temporoparietal cortex
     → OUTPERFORMS amyloid PET + structural MRI
-    → Trong predict cognitive decline, đặc biệt giai đoạn sớm
+    → For predicting cognitive decline, especially at early stages
 
   JAMA Neurology:
-    → Elevated BOTH (amyloid + tau) → decline 3× NHANH HƠN
-    → So với chỉ 1 hoặc không có
+    → Elevated BOTH (amyloid + tau) → decline 3× FASTER
+    → Compared to having only 1 or neither
 
   ⭐ TIMELINE:
-    → Amyloid tích tụ TRƯỚC (10-20 năm preclinical)
-    → Tau correlate MẠNH HƠN với triệu chứng
+    → Amyloid accumulates FIRST (10-20 years preclinical)
+    → Tau correlates MORE STRONGLY with symptoms
     → = Amyloid may be trigger, tau = executor
-    → HOẶC: cả 2 = downstream effects của upstream cause chưa biết
+    → OR: both = downstream effects of unknown upstream cause
 ```
 
-### §3.5 — "Amyloid-facilitated tauopathy" model
+### §3.5 — "Amyloid-Facilitated Tauopathy" Model
 
 ```
-🟡 MÔ HÌNH HIỆN TẠI (emerging consensus):
+🟡 CURRENT MODEL (emerging consensus):
 
-  ⭐ TAU ĐỘC LẬP — không cần amyloid để BẮT ĐẦU:
-    → Braak & Del Tredici 2011: 90% trẻ 4-29 có tau, 98% KHÔNG có amyloid
-    → Tau pretangles ở locus coeruleus TỪ TUỔI THƠ
-    → = Tau TRƯỚC amyloid DECADES
+  ⭐ TAU INDEPENDENT — does not need amyloid to BEGIN:
+    → Braak & Del Tredici 2011: 90% of children 4-29 have tau,
+      98% have NO amyloid
+    → Tau pretangles in locus coeruleus FROM CHILDHOOD
+    → = Tau precedes amyloid by DECADES
 
-  ⭐ AMYLOID = "GATE" cho tau lan tràn:
-    → Tau confined Braak I-II (entorhinal) KHI KHÔNG CÓ amyloid
-    → Amyloid xuất hiện = "gate opens" → tau vượt sang Braak III (hippocampus)
-    → Cơ chế: amyloid tạo neuroinflammation + phá E/I balance
-      → tạo điều kiện cho tau spread trans-synaptically
+  ⭐ AMYLOID = "GATE" for tau to spread widely:
+    → Tau confined Braak I-II (entorhinal) WITHOUT amyloid
+    → Amyloid appears = "gate opens" → tau crosses to Braak III (hippocampus)
+    → Mechanism: amyloid creates neuroinflammation + destroys E/I balance
+      → creates conditions for tau to spread trans-synaptically
     → de Calignon et al. 2012 (Neuron): tau trans-synaptic propagation
 
   ⭐ CENTENARIAN EVIDENCE:
     → medRxiv Jan 2026 (N=88 Alzheimer + 53 controls + 49 centenarians):
       1/3 centenarians: HIGH amyloid + Braak IV-V
       BUT: LOW LOCAL tau density
-    → = Amyloid + tau CÓ NHƯNG tau KHÔNG lan mạnh
+    → = Amyloid + tau PRESENT but tau did NOT spread aggressively
     → Proteostasis signature: proteasome components active
-    → ⚠️ medRxiv PREPRINT — chưa peer-reviewed
+    → ⚠️ medRxiv PREPRINT — not yet peer-reviewed
 
-  = "Amyloid-facilitated tauopathy": tau ĐỘC LẬP bắt đầu,
-    amyloid GIÚP tau lan rộng, nhưng CÓ THỂ ngăn lan nếu proteostasis mạnh
+  = "Amyloid-facilitated tauopathy": tau INDEPENDENTLY begins,
+    amyloid HELPS tau spread widely, but CAN be prevented if proteostasis
+    is strong enough
 ```
 
-### §3.6 — Root cause: 6+ hypotheses, CHƯA consensus
+### §3.6 — Root Cause: 6+ Hypotheses, NO Consensus
 
 ```
-🔴 NGUYÊN NHÂN GỐC = CHƯA BIẾT CHẮC CHẮN:
+🔴 ROOT CAUSE = NOT YET CERTAIN:
 
   ① AMYLOID CASCADE (Hardy 1992):
-    → Aβ tích tụ = sự kiện khởi đầu
-    → Bằng chứng: familial mutations tăng Aβ
-    → VẤN ĐỀ: dọn amyloid = modest benefit
+    → Aβ accumulation = initiating event
+    → Evidence: familial mutations increase Aβ
+    → PROBLEM: clearing amyloid = modest benefit
 
   ② NEUROINFLAMMATION:
-    → Microglia overreaction → phá neurons "bystander"
+    → Microglia overreaction → destroys neurons "bystander"
     → TREM2 mutations → Alzheimer risk (genetic evidence)
-    → Microglia = "đội dọn rác" nhưng CŨNG "đội phá nhà"
+    → Microglia = "cleanup crew" but ALSO "demolition crew"
 
   ③ MITOCHONDRIAL DYSFUNCTION:
-    → "Nhà máy điện" neuron hỏng → thiếu ATP
-    → Oxidative stress tăng → tau phosphorylation tăng
-    → Aging = mitochondrial quality GIẢM tự nhiên
+    → Neuron "power plant" fails → ATP deficit
+    → Oxidative stress increases → tau phosphorylation increases
+    → Aging = mitochondrial quality NATURALLY DECLINES
 
   ④ VASCULAR:
-    → Mạch máu suy → thiếu oxy + kém dọn rác
-    → Huyết áp cao trung niên → Alzheimer risk tăng (Livingston 2020)
+    → Blood vessel failure → oxygen deficit + poor waste clearance
+    → Midlife hypertension → Alzheimer risk increases (Livingston 2020)
     → Nun Study: cerebrovascular disease × Alzheimer = compound
 
   ⑤ INFECTION/ANTIMICROBIAL:
-    → Aβ có thể = antimicrobial peptide (Soscia 2010, PLOS ONE)
+    → Aβ may = antimicrobial peptide (Soscia 2010, PLOS ONE)
     → Herpes simplex → 3× Alzheimer risk (meta-analyses)
-    → Porphyromonas gingivalis (nướu) → gingipains trong Alzheimer brains
+    → Porphyromonas gingivalis (gum) → gingipains in Alzheimer brains
 
   ⑥ MYELIN BREAKDOWN (Bartzokis 2004/2011):
     → Myelin dysfunction UPSTREAM of amyloid
@@ -750,37 +758,37 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Late-myelinating regions = Alzheimer-vulnerable regions (§4.3)
 
   ⭐ FRAMEWORK NOTE — HONEST:
-    → Alzheimer = NHIỀU nguyên nhân hội tụ (Lancet 2025)
+    → Alzheimer = MULTIPLE converging causes (Lancet 2025)
     → Positive feedback loops = self-reinforcing (§3.8)
-    → KHÔNG phải 1 cause → 1 disease → 1 cure
+    → NOT 1 cause → 1 disease → 1 cure
     → = "Comprehensive approach, not single target"
 ```
 
-### §3.7 — Framework honest limitation
+### §3.7 — Framework Honest Limitation
 
 ```
 🟡 FRAMEWORK = BEHAVIORAL LENS:
 
   Framework CAN:
-    → Phân tích PATTERN suy thoái (thứ tự mất chunks)
-    → Map chunk architecture lên clinical observations
-    → Predict degradation order từ compile depth
-    → Giải thích "last in first out" qua kiến trúc não
+    → Analyze PATTERN of deterioration (order of chunk loss)
+    → Map chunk architecture onto clinical observations
+    → Predict degradation order from compile depth
+    → Explain "last in first out" via brain architecture
 
   Framework CANNOT:
-    → Xác định molecular cause (amyloid? tau? inflammation? myelin?)
-    → Chọn drug target
-    → Predict AI SẼ mắc Alzheimer
+    → Identify molecular cause (amyloid? tau? inflammation? myelin?)
+    → Select a drug target
+    → Predict who WILL develop Alzheimer
 
-  NHƯNG:
-    → PATTERN = f(kiến trúc não), KHÔNG f(nguyên nhân)
-    → Dù cause = amyloid HOẶC tau HOẶC inflammation HOẶC tất cả
-    → Pattern suy thoái VẪN GIỐNG NHAU
-    → "Dù lửa bắt đầu từ đâu, tòa nhà sụp từ tầng cao nhất"
-    → = Framework VALID cho phân tích pattern dù cause unknown
+  BUT:
+    → PATTERN = f(brain architecture), NOT f(cause)
+    → Whether cause = amyloid OR tau OR inflammation OR all combined
+    → Pattern of deterioration REMAINS THE SAME
+    → "No matter where the fire starts, the building collapses from the top floor"
+    → = Framework VALID for pattern analysis even with cause unknown
 ```
 
-### §3.8 — Positive feedback loop model
+### §3.8 — Positive Feedback Loop Model
 
 ```
 🟡 BHATT 2019 (J Alzheimer's Disease 65(3):1007-1032):
@@ -789,7 +797,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Loop 1: Tau → oxidative stress → proteasome fail → more tau
     → Tau aggregates overwhelm proteasome
-    → Proteasome fail → cannot clear → MORE tau accumulates
+    → Proteasome fails → cannot clear → MORE tau accumulates
     → More tau → more oxidative stress → ...
 
   Loop 2: Amyloid → inflammation → neuron damage → more amyloid
@@ -797,168 +805,175 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Microglia activation → collateral damage → more Aβ release
 
   Loop 3: Tau ↔ Amyloid bidirectional
-    → Tau deletion giảm cả tau VÀ Aβ production
-    → Amyloid tăng tau phosphorylation (kinase activation)
-    → = 2 pathologies TĂNG LẪN NHAU
+    → Tau deletion reduces both tau AND Aβ production
+    → Amyloid increases tau phosphorylation (kinase activation)
+    → = 2 pathologies AMPLIFY EACH OTHER
 
-  ⭐ HỆ QUẢ:
-    → Tipping point (§1.5): khi loops tự duy trì → KHÔNG thể dừng
-    → Single-target drugs thất bại: tắt 1 loop, loops khác VẪN CHẠY
-    → Giải thích 99.6% failure rate
-    → Need: multi-target + EARLY (trước khi loops establish)
+  ⭐ CONSEQUENCES:
+    → Tipping point (§1.5): when loops self-sustain → CANNOT STOP
+    → Single-target drugs fail: turn off 1 loop, other loops STILL RUN
+    → Explains 99.6% failure rate
+    → Need: multi-target + EARLY (before loops establish)
 ```
 
 ---
 
 ## §4 — BRAAK STAGING × FRAMEWORK ARCHITECTURE
 
-### §4.1 — 6 giai đoạn Braak (Alzheimer version)
+### §4.1 — 6 Braak Stages (Alzheimer Version)
 
 ```
 🟢 BRAAK & BRAAK 1991 (Acta Neuropathologica 82):
 
-  ⚠️ KHÁC Braak staging cho Parkinson (cùng tác giả, khác bệnh)
-  Phân loại dựa trên neurofibrillary tangle (tau) progression:
+  ⚠️ DIFFERENT from Braak staging for Parkinson (same author, different disease)
+  Classification based on neurofibrillary tangle (tau) progression:
 
   ┌────────────┬──────────────────┬──────────────────────────────────┐
-  │ GIAI ĐOẠN  │ VỊ TRÍ           │ LÂM SÀNG                        │
+  │ STAGE      │ LOCATION         │ CLINICAL                         │
   ├────────────┼──────────────────┼──────────────────────────────────┤
   │ Stage I-II │ Transentorhinal  │ CLINICALLY SILENT                │
-  │            │ Entorhinal cortex│ Không triệu chứng               │
-  │            │                  │ Phát hiện chỉ khi autopsy       │
+  │            │ Entorhinal cortex│ No symptoms                      │
+  │            │                  │ Detectable only at autopsy       │
   ├────────────┼──────────────────┼──────────────────────────────────┤
-  │ Stage III  │ Hippocampus      │ MCI: quên mới, lạc đường        │
-  │ Stage IV   │ + Amygdala       │ Khó tìm từ, judgment giảm       │
+  │ Stage III  │ Hippocampus      │ MCI: forget new things, get lost │
+  │ Stage IV   │ + Amygdala       │ Word-finding difficulty, judgment│
   ├────────────┼──────────────────┼──────────────────────────────────┤
-  │ Stage V    │ Temporal, Parietal│ Moderate-Severe Alzheimer              │
-  │ Stage VI   │ → Frontal cortex │ Language mất, personality thay   │
-  │            │ → Primary cortex │ đổi, body-base functions fail   │
+  │ Stage V    │ Temporal,Parietal│ Moderate-Severe Alzheimer        │
+  │ Stage VI   │ → Frontal cortex │ Language lost, personality       │
+  │            │ → Primary cortex │ changes, body-base functions     │
+  │            │                  │ failing                          │
   └────────────┴──────────────────┴──────────────────────────────────┘
 ```
 
-### §4.2 — Progression: entorhinal → hippocampus → neocortex
+### §4.2 — Progression: Entorhinal → Hippocampus → Neocortex
 
 ```
-🟢 CHIỀU LAN = TỪ "CỬA NGÕ KÝ ỨC" RA NGOÀI:
+🟢 DIRECTION OF SPREAD = FROM "GATEWAY TO MEMORY" OUTWARD:
 
-  Entorhinal cortex = "cửa ngõ" vào hippocampus
-    → TẤT CẢ thông tin muốn vào hippocampus đều qua đây
-    → Bị phá TRƯỚC → hippocampus bị "cắt nguồn"
+  Entorhinal cortex = "gateway" to hippocampus
+    → ALL information wanting to enter hippocampus passes through here
+    → Destroyed FIRST → hippocampus is "cut off from its input"
 
   Hippocampus = chunk compilation center
-    → Nơi chunks mới được consolidate (replay + strengthen)
-    → Bị phá → KHÔNG compile chunks mới = anterograde amnesia
+    → Where new chunks are consolidated (replay + strengthen)
+    → Destroyed → CANNOT compile new chunks = anterograde amnesia
 
-  Temporal + Parietal cortex = chunks ĐÃ ĐƯỢC lưu trữ
+  Temporal + Parietal cortex = chunks ALREADY STORED
     → Language chunks (temporal), spatial chunks (parietal)
-    → Bị phá → chunks CŨ mất dần = retrograde amnesia
+    → Destroyed → old chunks gradually lost = retrograde amnesia
 
   Frontal cortex = PFC, executive function
-    → PFC offline → personality changes, judgment mất
-    → Đây là STAGE MUỘN (khác Parkinson: PFC affected MUỘN nhất)
+    → PFC offline → personality changes, judgment lost
+    → This is LATE STAGE (unlike Parkinson: PFC affected LAST)
 
-  Primary sensory + motor cortex = BỊ PHÁ SAU CÙNG
-    → Nhìn được, nghe được, cử động được — nhưng KHÔNG HIỂU
+  Primary sensory + motor cortex = DESTROYED LAST
+    → Can see, hear, move — but CANNOT UNDERSTAND
 
-  Tau spreading theo SYNAPTIC CONNECTIONS:
+  Tau spreading follows SYNAPTIC CONNECTIONS:
     → de Calignon et al. 2012 (Neuron): trans-synaptic propagation
     → Raj et al. 2012 (Neuron): network diffusion model, 70% variance explained
-    → = Lan theo "đường dây" kết nối, KHÔNG random
+    → = Spreads along "wiring diagrams," NOT randomly
 ```
 
-### §4.3 — Reverse developmental mapping + Myelin Model
+### §4.3 — Reverse Developmental Mapping + Myelin Model
 
 ```
-🟡 SO SÁNH VỚI CHILD DEVELOPMENT:
+🟡 COMPARISON WITH CHILD DEVELOPMENT:
 
   Child development (0→adult):
     Body-base → Sensory → Motor → Chunks → Self-Pattern-Modeling → PFC executive
-    = XÂY TỪ NỀN LÊN
+    = BUILDS FROM FOUNDATION UP
 
   Alzheimer (adult→severe):
     PFC executive → Self-Pattern-Modeling → Chunks → Motor → Sensory → Body-base
-    = PHÁ TỪ ĐỈNH XUỐNG
+    = DESTROYS FROM TOP DOWN
 
   "LAST IN, FIRST OUT" = Ribot's Law (1881):
-    → Cái xây SAU CÙNG = mất TRƯỚC TIÊN
-    → Cái xây ĐẦU TIÊN = kháng CUỐI CÙNG
-    → Body-base (evolutionary oldest) = SỤP SAU CÙNG
+    → What was built LAST = lost FIRST
+    → What was built FIRST = resists LAST
+    → Body-base (evolutionary oldest) = COLLAPSES LAST
 
 🟢 REISBERG 2002 (Am J Alzheimer's Dis 17(4):202-212) — RETROGENESIS:
 
-  Kỹ năng mất ở Alzheimer = NGƯỢC thứ tự phát triển trẻ em:
-    → Alzheimer sớm: mất critical thinking, abstract reasoning (trẻ có ở 13-19 tuổi)
-    → Alzheimer giữa: mất simple finances, dressing (trẻ có ở 5-12 tuổi)
-    → Alzheimer muộn: mất đi lại, ngồi (trẻ có ở sơ sinh 6-15 tháng)
-    → Alzheimer rất muộn: infantile reflexes XUẤT HIỆN LẠI (grasp, sucking)
-  = Reverse developmental order = Ribot's Law ở mức kỹ năng
+  Skills lost in Alzheimer = REVERSE ORDER of child development:
+    → Early Alzheimer: loses critical thinking, abstract reasoning
+      (child acquires this at ages 13-19)
+    → Mid Alzheimer: loses simple finances, dressing
+      (child acquires this at ages 5-12)
+    → Late Alzheimer: loses walking, sitting
+      (infant acquires this at 6-15 months)
+    → Very late: infantile reflexes RETURN (grasp, sucking)
+  = Reverse developmental order = Ribot's Law at the skill level
 
 🟢 BARTZOKIS 2004/2011 — MYELIN MODEL:
 
-  Myelination trong phát triển não = KHÔNG ĐỒNG THỜI:
-    → Myelinate SỚM (sơ sinh→6 tuổi): brainstem → motor → sensory
-    → Myelinate MUỘN (6→25+ tuổi): hippocampus → PFC → association cortex
-    → Miller et al. 2012 (PNAS): neocortex myelination tới ~25 tuổi
+  Myelination during brain development = NOT SIMULTANEOUS:
+    → Myelinates EARLY (infancy→age 6): brainstem → motor → sensory
+    → Myelinates LATE (age 6→25+): hippocampus → PFC → association cortex
+    → Miller et al. 2012 (PNAS): neocortex myelination continues to ~age 25
 
   Alzheimer vulnerability = REVERSE MYELINATION ORDER:
-    → Late-myelinating regions (PFC, association, hippocampus) = VULNERABLE TRƯỚC
-    → Early-myelinating regions (brainstem, motor, sensory) = KHÁNG SAU CÙNG
+    → Late-myelinating regions (PFC, association, hippocampus)
+      = VULNERABLE FIRST
+    → Early-myelinating regions (brainstem, motor, sensory)
+      = RESIST LAST
     → = Braak staging MATCHES reverse myelination order
 
   Depp et al. 2023 (Nature 618:349-357):
     → Oligodendrocyte cholesterol metabolism disruption → Aβ increase
     → Myelin dysfunction UPSTREAM of amyloid
-    → = Myelin breakdown có thể là EARLY EVENT, không chỉ consequence
+    → = Myelin breakdown may be an EARLY EVENT, not just a consequence
 
-  ⚠️ KHÔNG phải 100% đúng ngược:
-    → Braak stages follow neuroanatomical connectivity (tau lan theo synapse)
-    → KHÔNG hoàn toàn = reverse developmental
-    → Nhưng TƯƠNG QUAN đủ mạnh để framework predict được
+  ⚠️ NOT 100% exactly reversed:
+    → Braak stages follow neuroanatomical connectivity (tau spreads via synapse)
+    → NOT completely = reverse developmental
+    → But CORRELATES strongly enough for framework to predict
 ```
 
-### §4.4 — So sánh 2 Braak staging systems
+### §4.4 — Comparing 2 Braak Staging Systems
 
 ```
-🟡 2 BRAAK STAGING × 2 BỆNH × 2 HƯỚNG LAN:
+🟡 2 BRAAK STAGING SYSTEMS × 2 DISEASES × 2 SPREAD DIRECTIONS:
 
   ┌──────────────┬────────────────────────┬────────────────────────┐
   │              │ PARKINSON (Braak 2003) │ ALZHEIMER (Braak 1991) │
   ├──────────────┼────────────────────────┼────────────────────────┤
-  │ Protein      │ α-synuclein            │ Tau tangles             │
-  │ Bắt đầu     │ Brainstem + gut        │ Entorhinal cortex      │
-  │ Hướng lan    │ BOTTOM-UP              │ INSIDE-OUT             │
-  │              │ (thân não → cortex)    │ (hippocampus → cortex) │
-  │ Framework    │ L0→L1→modulatory→PFC   │ Compile center → Store │
-  │ Triệu chứng │ Non-motor → Motor      │ Memory → Everything    │
+  │ Protein      │ α-synuclein            │ Tau tangles            │
+  │ Starts at    │ Brainstem + gut        │ Entorhinal cortex      │
+  │ Direction    │ BOTTOM-UP              │ INSIDE-OUT             │
+  │              │ (brainstem → cortex)   │ (hippocampus → cortex) │
+  │ Framework    │ L0→L1→modulatory→PFC  │ Compile center → Store │
+  │ Symptoms     │ Non-motor → Motor      │ Memory → Everything    │
   │ Stages       │ 6 stages               │ 6 stages               │
-  │ Cùng tác giả│ Braak et al.           │ Braak & Braak          │
+  │ Same author  │ Braak et al.           │ Braak & Braak          │
   └──────────────┴────────────────────────┴────────────────────────┘
 
-  Parkinson: α-synuclein leo TỪ DƯỚI LÊN (gut→brainstem→midbrain→cortex)
-  Alzheimer: tau lan TỪ TRONG RA (entorhinal→hippocampus→cortex)
-  
-  ⭐ CẢ HAI: protein misfold → spread qua synaptic connections
-    Nhưng ĐIỂM KHỞI ĐẦU khác → HỆ THỐNG BỊ PHÁ khác → TRIỆU CHỨNG khác
+  Parkinson: α-synuclein climbs FROM BELOW UP (gut→brainstem→midbrain→cortex)
+  Alzheimer: tau spreads FROM INSIDE OUT (entorhinal→hippocampus→cortex)
+
+  ⭐ BOTH: protein misfolds → spreads via synaptic connections
+    But STARTING POINT differs → DIFFERENT SYSTEM ATTACKED →
+    DIFFERENT SYMPTOMS
 ```
 
 ---
 
 ## §5 — SYNAPSE LOSS → CHUNK DEGRADATION
 
-### §5.1 — Synapse loss = PRIMARY mechanism
+### §5.1 — Synapse Loss = PRIMARY Mechanism
 
 ```
 🟢 v1.0 CORRECTION — CORE:
 
   Terry et al. 1991 (Annals of Neurology 30:572-580):
     → Synapse density × cognitive decline: r = 0.96
-    → MẠNH HƠN amyloid plaques hoặc tangles
+    → STRONGER than amyloid plaques or tangles
     → = Synapse loss = best correlate with cognitive symptoms
 
   DeKosky & Scheff 1990 (Annals of Neurology 27(5):457-464):
-    → Brain BIOPSIED (sống, không autopsy)
+    → Brain BIOPSIED (living patient, not autopsy)
     → Remaining synapses ENLARGE = compensatory
-    → = Não CỐ GẮNG bù đắp synapse loss
+    → = Brain TRIES to compensate for synapse loss
 
   Selkoe 2002 (Science 298:789-791):
     → "Alzheimer's disease is fundamentally a SYNAPTIC FAILURE"
@@ -966,228 +981,236 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Synapse loss PRECEDES neuron death by YEARS
 
   Scheff et al. 2006 (Neurobiol Aging 27(10):1372-1384):
-    → Hippocampus mild Alzheimer: 55% fewer synapses
+    → Hippocampus in mild Alzheimer: 55% fewer synapses
     → Specifically: dentate gyrus outer molecular layer (OML)
-    → = NGAY TỪ mild Alzheimer, hippocampus đã mất HƠN NỬA synapses
+    → = EVEN AT mild Alzheimer, hippocampus has lost MORE THAN HALF its synapses
 
-  ⭐ v1.0 nói "neurons chết → chunks mất"
+  ⭐ v1.0 stated "neurons die → chunks lost"
     v1.1 CORRECTION: synapse loss = PRIMARY
-    → Synapses mất → chunk CONNECTIONS đứt → chunks FRAGMENT
-    → Neurons chết SAU → hoàn thành phá hủy → chunks MẤT
-    → = 2 giai đoạn: connections đứt TRƯỚC, substrate chết SAU
+    → Synapses lost → chunk CONNECTIONS severed → chunks FRAGMENT
+    → Neurons die LATER → completes the destruction → chunks GONE
+    → = 2 stages: connections severed FIRST, substrate dies LATER
 ```
 
-### §5.2 — Tau → synapse loss mechanism
+### §5.2 — Tau → Synapse Loss Mechanism
 
 ```
-🟡 FRAMEWORK SYNTHESIS — HOW TAU PHÁ SYNAPSE:
+🟡 FRAMEWORK SYNTHESIS — HOW TAU DESTROYS SYNAPSES:
 
-  ① Tau hyperphosphorylated → rời microtubule
-  ② Microtubule COLLAPSE → transport "đường ray" gãy
-  ③ Synapses "đói": thiếu ATP, neurotransmitters, mitochondria
-  ④ Synapses yếu → CHẾT
+  ① Tau hyperphosphorylated → leaves microtubule
+  ② Microtubule COLLAPSES → transport "railroad" broken
+  ③ Synapses "starved": no ATP, neurotransmitters, mitochondria
+  ④ Synapses weaken → DIE
 
-  ⭐ OLIGOMERIC TAU = phá synapses TRƯỚC KHI tangles form:
+  ⭐ OLIGOMERIC TAU = destroys synapses BEFORE tangles form:
     → Niewiadomska et al. 2021 (Life, MDPI):
-      oligomeric tau gây synaptic dysfunction sớm
-    → Tangles = MUỘN HƠN (§2.3: oligomers → fibrils → tangles)
-    → = Synapse damage xảy ra VỚI oligomers, KHÔNG cần đợi tangles
+      oligomeric tau causes synaptic dysfunction early
+    → Tangles = LATER (§2.3: oligomers → fibrils → tangles)
+    → = Synapse damage occurs WITH oligomers, does NOT wait for tangles
 
   ⭐ ACTIVITY-DEPENDENT TAU RELEASE:
     → Wu et al. 2016 (Nature Neuroscience 19(8):1085-1092):
       Stimulating neuronal activity → ~2.5× MORE tau released at synapses
     → Yamada et al. 2014 (J Exp Med 211(3):387-393):
       Depolarization → ~150% tau increase in interstitial fluid
-    → = Active synapses release MORE tau → phá CHÍNH MÌNH + LAN sang
+    → = Active synapses release MORE tau → destroys ITSELF + SPREADS
 
   Insight: tau spreading = activity-dependent
-    → Connections thường xuyên sử dụng → release NHIỀU tau
-    → = Self-destructive loop ở mức synapse
+    → Frequently used connections → release MORE tau
+    → = Self-destructive loop at the synapse level
 ```
 
-### §5.3 — Phase Transition Model: activity bảo vệ → phá hủy
+### §5.3 — Phase Transition Model: Activity Protective → Destructive
 
 ```
-⭐ INSIGHT MỚI — PHASE TRANSITION / BIPHASIC MODEL:
+⭐ NEW INSIGHT — PHASE TRANSITION / BIPHASIC MODEL:
 
   ┌──────────────────────────────────────────────────────────────┐
-  │ GIAI ĐOẠN 1 — KHỎE MẠNH: Activity = PROTECTIVE              │
+  │ PHASE 1 — HEALTHY: Activity = PROTECTIVE                     │
   │                                                              │
   │ Stranahan & Mattson 2012 (Nat Rev Neurosci 13:209-216):     │
   │   → BDNF hormesis: moderate neural stress → repair > damage  │
-  │   → BDNF tăng → protein chaperone + antioxidant              │
+  │   → BDNF increases → protein chaperones + antioxidants       │
   │       + mitochondrial biogenesis                              │
-  │   → Exercise, learning, social engagement → BDNF production │
-  │   → = "Use it or lose it" ĐÚNG ở giai đoạn này              │
+  │   → Exercise, learning, social engagement → BDNF production  │
+  │   → = "Use it or lose it" IS CORRECT at this stage           │
   │                                                              │
-  │ Connor et al. 1997 (Mol Brain Res): BDNF GIẢM trong Alzheimer     │
-  │   → Alzheimer phá CHÍNH cơ chế bảo vệ                              │
+  │ Connor et al. 1997 (Mol Brain Res): BDNF REDUCED in Alzheimer│
+  │   → Alzheimer destroys THE VERY protective mechanism         │
   ├──────────────────────────────────────────────────────────────┤
-  │ ⭐ TIPPING POINT: Amyloid phá excitatory-inhibitory balance   │
+  │ ⭐ TIPPING POINT: Amyloid disrupts excitatory-inhibitory     │
+  │    balance                                                   │
   │                                                              │
   │ Buckner et al. 2005 (J Neuroscience 25(34):7709-17):        │
   │   → Default Mode Network (DMN): high baseline activity       │
-  │   → = ĐÚNG vùng preferential amyloid deposition              │
-  │   → Vùng hoạt động NHIỀU NHẤT = tích tụ amyloid NHIỀU NHẤT  │
+  │   → = EXACTLY the region of preferential amyloid deposition  │
+  │   → Most actively-used region = accumulates MOST amyloid     │
   ├──────────────────────────────────────────────────────────────┤
-  │ GIAI ĐOẠN 2 — BỆNH: Activity = ACCELERATES DAMAGE           │
+  │ PHASE 2 — DISEASED: Activity = ACCELERATES DAMAGE            │
   │                                                              │
-  │ Amyloid đã phá E/I balance → HYPEREXCITABILITY:              │
+  │ Amyloid has disrupted E/I balance → HYPEREXCITABILITY:       │
   │                                                              │
   │ Giorgio, Adams et al. 2024 (Neuron 112(4):676-686):         │
   │   → DMN hyperexcitability → MTL hyperactivity                │
-  │   → → Tau accumulation accelerated SỚM                      │
+  │   → → Tau accumulation ACCELERATED EARLY                     │
   │                                                              │
   │ Rodriguez et al. 2020 (PLOS Biology 18(8):e3000851):        │
   │   → Chemogenetic attenuation of entorhinal cortex activity   │
-  │   → → GIẢM cả Aβ + tau pathological spread                  │
-  │   → = Giảm activity = giảm damage (khi đã có amyloid)       │
+  │   → → REDUCES both Aβ + tau pathological spread              │
+  │   → = Reducing activity = reducing damage (when amyloid      │
+  │     already present)                                         │
   │                                                              │
   │ Nature Communications 2025:                                  │
   │   → Amyloid → hyperexcitation. Tau → hypoexcitation.         │
-  │   → = Biphasic: đầu TĂNG (amyloid), sau GIẢM (tau damage)   │
+  │   → = Biphasic: first INCREASES (amyloid), then DECREASES    │
+  │     (tau damage)                                             │
   │                                                              │
   │ "Use it or lose it" → "Use it and SPREAD the damage"         │
   └──────────────────────────────────────────────────────────────┘
 
-  ⭐ KHÔNG MÂU THUẪN — 2 GIAI ĐOẠN KHÁC NHAU:
-    → Khỏe: activity → BDNF → repair → PROTECTIVE
-    → Bệnh: activity → tau release → spreading → DESTRUCTIVE
-    → Phase transition tại: amyloid đủ phá E/I balance
-    → = Giải thích tại sao exercise = protective VÀ
-      tại sao DMN hyperactivity = accelerates disease
+  ⭐ NOT A CONTRADICTION — 2 DIFFERENT PHASES:
+    → Healthy: activity → BDNF → repair → PROTECTIVE
+    → Diseased: activity → tau release → spreading → DESTRUCTIVE
+    → Phase transition at: amyloid sufficient to disrupt E/I balance
+    → = Explains why exercise = protective AND
+      why DMN hyperactivity = accelerates disease
 ```
 
-### §5.4 — Chunk = network → synapse loss = chunk degradation
+### §5.4 — Chunk = Network → Synapse Loss = Chunk Degradation
 
 ```
 🟡 FRAMEWORK SYNTHESIS:
 
   Chunk.md v2.1: chunk = strength-weighted associative NETWORK
-    → Chunk KHÔNG phải 1 neuron — là MẠNG LƯỚI synapses
-    → Synapse loss = CẮT connections trong network
+    → Chunk is NOT 1 neuron — it is a NETWORK of synapses
+    → Synapse loss = CUTS connections within the network
 
-  ⭐ SYNAPSE LOSS → CHUNK DEGRADATION (3 mức):
-    ① WEAKENING: một số synapses mất → chunk strength GIẢM
-       → Retrieval khó hơn (giống "quên" bình thường nhưng KHÔNG hồi phục)
-    ② FRAGMENTATION: nhiều synapses mất → chunk CHIA MẢNH
-       → Nhớ một phần, mất một phần. "Biết khuôn mặt, không nhớ tên."
-    ③ LOSS: hầu hết synapses mất → chunk KHÔNG CÒN TỒN TẠI
-       → Không cue nào phục hồi. IRREVERSIBLE.
+  ⭐ SYNAPSE LOSS → CHUNK DEGRADATION (3 levels):
+    ① WEAKENING: some synapses lost → chunk strength DECREASES
+       → Retrieval harder (like normal forgetting but NOT recoverable)
+    ② FRAGMENTATION: many synapses lost → chunk FRAGMENTS
+       → Remember partially, lose partially. "Recognizes face, forgets name."
+    ③ LOSS: most synapses lost → chunk NO LONGER EXISTS
+       → No cue can restore it. IRREVERSIBLE.
 
-  KHÔNG "xóa" — "gỡ từng sợi dây" gradually:
-    → Chunk mất = process, KHÔNG phải event
-    → Gia đình thấy "lúc nhớ lúc không" = chunk đang ở STAGE 2
-    → Stage 2 (fragmentation) kéo dài → PAINFUL nhất cho caregiver
+  NOT "erased" — "threads pulled out gradually":
+    → Chunk loss = process, NOT event
+    → Family sees "sometimes remembers, sometimes not" = chunk at STAGE 2
+    → Stage 2 (fragmentation) persists → MOST PAINFUL for caregiver
 ```
 
-### §5.5 — 2 giai đoạn chunk loss
+### §5.5 — 2 Stages of Chunk Loss
 
 ```
-🟡 FRAMEWORK: 2 GIAI ĐOẠN RÕ RÀNG
+🟡 FRAMEWORK: 2 CLEARLY DISTINCT STAGES
 
   ┌──────────────────────────────────────────────────────────┐
-  │ GIAI ĐOẠN 1: ANTEROGRADE (không compile MỚI)             │
+  │ STAGE 1: ANTEROGRADE (cannot compile NEW)                 │
   │                                                          │
-  │ Hippocampus bị phá → compilation pathway offline          │
-  │ → Chunks mới KHÔNG consolidate                           │
-  │ → "Hôm qua con tới thăm" → sáng nay = KHÔNG TỒN TẠI   │
-  │ → Sống trong VÒNG LẶP: mỗi giây = mới                  │
+  │ Hippocampus destroyed → compilation pathway offline       │
+  │ → New chunks DO NOT consolidate                          │
+  │ → "Child visited yesterday" → next morning = DOES NOT    │
+  │   EXIST                                                  │
+  │ → Living in a LOOP: every moment = new                   │
   │                                                          │
-  │ Chunks CŨ: VẪN CÒN (stored ở cortex, không ở hippocampus)│
-  │ → Nhớ thời trẻ, nhớ nghề, nhớ kỹ năng cũ               │
-  │ → Framework: compiled chunks đã "tốt nghiệp" hippocampus│
-  │   → stored ở neocortex → TẠM AN TOÀN                    │
+  │ OLD chunks: STILL REMAIN (stored in cortex, not          │
+  │ hippocampus)                                             │
+  │ → Remembers youth, remembers profession, old skills      │
+  │ → Framework: compiled chunks have "graduated" from       │
+  │   hippocampus → stored in neocortex → TEMPORARILY SAFE  │
   ├──────────────────────────────────────────────────────────┤
-  │ GIAI ĐOẠN 2: RETROGRADE (chunks CŨ bị phá)              │
+  │ STAGE 2: RETROGRADE (OLD chunks destroyed)               │
   │                                                          │
-  │ Tau tangles lan ra neocortex (Braak V-VI)                │
-  │ → Chunks STORED ở cortex bắt đầu bị phá substrate       │
-  │ → "Last in, first out": chunks gần đây mất TRƯỚC        │
+  │ Tau tangles spread to neocortex (Braak V-VI)             │
+  │ → Chunks STORED in cortex begin having substrate         │
+  │   destroyed                                              │
+  │ → "Last in, first out": recent chunks lost FIRST         │
   │                                                          │
   │ Ribot's Law (1881): temporal gradient                    │
-  │   → Recent memories (compile NÔNG) = mất trước           │
-  │   → Remote memories (compile SÂU) = kháng lâu hơn       │
-  │   → Childhood memories = kháng SAU CÙNG                  │
+  │   → Recent memories (SHALLOW compile) = lost first       │
+  │   → Remote memories (DEEP compile) = resists longer      │
+  │   → Childhood memories = resists LAST                    │
   │                                                          │
   │ Framework:                                               │
   │   compile_depth = f(repetition × emotional_peak          │
   │                    × multi_modal × time_consolidated)    │
-  │   → DEPTH cao → resistance cao → mất SAU                │
-  │   → DEPTH thấp → resistance thấp → mất TRƯỚC            │
-  │   = Ribot's Law ĐƯỢC GIẢI THÍCH bởi compile depth       │
+  │   → HIGH DEPTH → high resistance → lost LATER           │
+  │   → LOW DEPTH → low resistance → lost FIRST             │
+  │   = Ribot's Law EXPLAINED by compile depth              │
   └──────────────────────────────────────────────────────────┘
 ```
 
-### §5.6 — Chunk loss cascade: domino effect
+### §5.6 — Chunk Loss Cascade: Domino Effect
 
 ```
-🟡 FRAMEWORK: CHUNK LOSS KHÔNG ĐỘC LẬP
+🟡 FRAMEWORK: CHUNK LOSS IS NOT INDEPENDENT
 
   Chunks = NETWORK (strength-weighted associative)
-  → Mất chunk A → chunks B, C, D (liên kết với A) bị YẾU ĐI
-  → Chunks yếu = DỄ bị phá tiếp → cascade
+  → Losing chunk A → chunks B, C, D (linked to A) WEAKEN
+  → Weakened chunks = EASIER to destroy next → cascade
 
-  Ví dụ cascade:
-    "Bác sĩ" chunk mất
-    → "Bệnh viện" chunk yếu (mất 1 anchor)
-    → "Khám bệnh" chunk yếu (mất 1 anchor)
-    → "Thuốc" chunk vẫn còn (có anchor khác: body-feedback khi uống)
-    = Chunks CÓ NHIỀU ANCHORS kháng lâu hơn chunks ÍT ANCHORS
+  Example cascade:
+    "Doctor" chunk lost
+    → "Hospital" chunk weakens (loses 1 anchor)
+    → "Medical appointment" chunk weakens (loses 1 anchor)
+    → "Medicine" chunk still remains
+      (has another anchor: body-feedback when swallowing)
+    = Chunks with MANY ANCHORS resist longer than chunks with FEW ANCHORS
 
-  ⭐ DISTRIBUTION cũng quan trọng (không chỉ DEPTH):
-    → Chunk stored ở 1 vùng = vulnerable (vùng đó bị phá → mất)
-    → Chunk distributed nhiều vùng = resistant
-    → Giải thích music preservation (§13)
+  ⭐ DISTRIBUTION also matters (not just DEPTH):
+    → Chunk stored in 1 region = vulnerable (that region destroyed → lost)
+    → Chunk distributed across many regions = resistant
+    → Explains music preservation (§13)
 
   ⭐ COMPOUND CHUNK LOSS:
-    → Mất semantic chunks → mất labels cho body-feedback (§8)
-    → Mất relationship chunks → mất identity (§7)
-    → Mất spatial chunks → lạc đường
-    → Mất language chunks → anomia, aphasia
-    → KHÔNG phải 1 hệ thống fail — TẤT CẢ dùng chung substrate
+    → Lose semantic chunks → lose labels for body-feedback (§8)
+    → Lose relationship chunks → lose identity (§7)
+    → Lose spatial chunks → get lost
+    → Lose language chunks → anomia, aphasia
+    → NOT 1 system failing — ALL share the same substrate
 ```
 
-### §5.7 — "Quên" → "Mất": ranh giới mờ
+### §5.7 — "Forgetting" → "Lost": A Blurry Boundary
 
 ```
-🟡 FRAMEWORK: RANH GIỚI KHÔNG RÕ RÀNG
+🟡 FRAMEWORK: BOUNDARY IS NOT CLEAR
 
-  Giai đoạn sớm:
-    → "Quên" nhiều = retrieval fail (chunk VẪN CÒN, weakened)
-    → Cue đúng → nhớ lại → "À phải rồi!"
-    → Giống quên bình thường nhưng THƯỜNG XUYÊN HƠN
+  Early stage:
+    → More "forgetting" = retrieval failure (chunk STILL THERE, weakened)
+    → Correct cue → can recall → "Oh right!"
+    → Like normal forgetting but MORE FREQUENT
 
-  Giai đoạn giữa:
-    → "Quên" + substrate bắt đầu DAMAGE (fragmentation)
-    → Cue đúng → đôi khi nhớ, đôi khi KHÔNG
-    → Ranh giới "quên" vs "mất" KHÔNG RÕ
-    → Gia đình hy vọng "nhớ lại" nhưng substrate đang mất
+  Middle stage:
+    → "Forgetting" + substrate begins to DAMAGE (fragmentation)
+    → Correct cue → sometimes remembers, sometimes DOES NOT
+    → Boundary between "forgetting" and "lost" IS UNCLEAR
+    → Family hopes for "recall" but substrate is being lost
 
-  Giai đoạn muộn:
-    → "Mất" thật sự = substrate DESTROYED
-    → Không cue nào phục hồi
-    → Chunk ĐÃ KHÔNG CÒN TỒN TẠI
+  Late stage:
+    → TRUE "loss" = substrate DESTROYED
+    → No cue can restore
+    → Chunk HAS CEASED TO EXIST
     → IRREVERSIBLE
 
-  ⭐ Framework: đây là UNIQUE
-    → Bình thường: "quên" = anchor yếu, chunk CÒN
-    → Alzheimer: "quên" tiến triển thành "MẤT" — substrate tự phá
-    → Transition: gradual, painful, KHÔNG CÓ ranh giới rõ
-    → Giải thích tại sao gia đình KHÔNG BIẾT KHI NÀO "mất hẳn"
+  ⭐ Framework: this is UNIQUE
+    → Normal: "forgetting" = weak anchor, chunk REMAINS
+    → Alzheimer: "forgetting" progresses to TRUE "LOST" — substrate self-destroys
+    → Transition: gradual, painful, NO CLEAR BOUNDARY
+    → Explains why family CANNOT KNOW WHEN it is truly "gone"
 ```
 
 ---
 
-## §6 — 5 CƠ CHẾ "LAST IN FIRST OUT"
+## §6 — 5 "LAST IN FIRST OUT" MECHANISMS
 
-### §6.0 — Overview: 5 cơ chế ĐỘC LẬP cùng predict
+### §6.0 — Overview: 5 INDEPENDENT Mechanisms All Predict the Same
 
 ```
-⭐ TẠI SAO "LAST IN FIRST OUT" = OVERDETERMINED:
+⭐ WHY "LAST IN FIRST OUT" = OVERDETERMINED:
 
-  5 cơ chế HOÀN TOÀN ĐỘC LẬP, mỗi cơ chế ĐƠN LẺ đều predict:
-    "Chunks gần đây mất TRƯỚC, chunks thời thơ ấu kháng SAU CÙNG"
+  5 COMPLETELY INDEPENDENT mechanisms, each ALONE predicts:
+    "Recently compiled chunks lost FIRST,
+     childhood chunks resist LAST"
 
   ① Memory consolidation (hippocampus-dependent)
   ② Compile depth × distribution (link density)
@@ -1195,457 +1218,481 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ④ Multiple Trace Theory (Nadel & Moscovitch 1997)
   ⑤ Myelination order (Bartzokis 2004/2011)
 
-  = BẤT KỲ 1 cơ chế nào đúng → pattern VẪN GIỐNG NHAU
-  = CẢ 5 cùng predict → OVERDETERMINED
-  = PATTERN là thuộc tính của KIẾN TRÚC NÃO, không phải nguyên nhân bệnh
-  = "Dù lửa bắt đầu từ đâu, tòa nhà sụp từ tầng cao nhất"
+  = ANY 1 mechanism being correct → SAME PATTERN
+  = ALL 5 together predict it → OVERDETERMINED
+  = PATTERN is a property of BRAIN ARCHITECTURE, not of disease cause
+  = "No matter where the fire starts, the building collapses from the top"
 ```
 
-### §6.1 — Cơ chế 1: Memory consolidation
+### §6.1 — Mechanism 1: Memory Consolidation
 
 ```
 🟢 HIPPOCAMPUS-DEPENDENT CONSOLIDATION:
 
   Recent memories = hippocampus-DEPENDENT:
-    → Chưa "tốt nghiệp" hippocampus → stored TẠM ở hippocampus
-    → Alzheimer phá hippocampus TRƯỚC (Braak III) → recent memories MẤT TRƯỚC
+    → Have not yet "graduated" from hippocampus
+      → temporarily stored IN hippocampus
+    → Alzheimer destroys hippocampus FIRST (Braak III)
+      → recent memories LOST FIRST
 
   Old memories = hippocampus-INDEPENDENT:
-    → Đã consolidate sang neocortex (through years of replay + strengthening)
-    → Alzheimer phá neocortex SAU (Braak V-VI) → old memories kháng LÂU HƠN
+    → Already consolidated to neocortex
+      (through years of replay + strengthening)
+    → Alzheimer destroys neocortex LATER (Braak V-VI)
+      → old memories resist LONGER
 
-  = "Tốt nghiệp" = rời hippocampus → SAFE LONGER
-  = Chưa "tốt nghiệp" → CÒN ở hippocampus → MẤT TRƯỚC
+  = "Graduated" = left hippocampus → SAFER LONGER
+  = Not yet "graduated" → STILL IN hippocampus → LOST FIRST
 ```
 
-### §6.2 — Cơ chế 2: Compile depth × distribution
+### §6.2 — Mechanism 2: Compile Depth × Distribution
 
 ```
 🟡 FRAMEWORK SYNTHESIS (Background-Pattern.md v1.0):
 
-  Recent chunks = compile NÔNG:
-    → Ít repetition, ít emotional peak, ít multi-modal
-    → Ít synaptic links → phá VÀI synapses = chunk MẤT
+  Recent chunks = SHALLOW compile:
+    → Few repetitions, few emotional peaks, few modalities
+    → Few synaptic links → destroy FEW synapses = chunk LOST
     → Low link density = vulnerable
 
-  Old chunks (especially childhood) = compile SÂU:
-    → Nhiều repetition × emotional peak × multi-modal × decades
-    → Nhiều synaptic links + distributed nhiều brain regions
-    → Cần phá RẤT NHIỀU synapses để chunk mất
+  Old chunks (especially childhood) = DEEP compile:
+    → Many repetitions × emotional peaks × multimodal × decades
+    → Many synaptic links + distributed across many brain regions
+    → Need to destroy VERY MANY synapses for chunk to be lost
     → High link density = resistant
 
   Background-Pattern.md: 2D model (Compile Depth × Link Density)
-    → High Link Density = resistant ĐỘC LẬP với compile depth
-    → Cultural patterns (ít depth, NHIỀU links) = resistant
-    → Isolated memories (depth, ÍT links) = vulnerable
+    → High Link Density = resistant INDEPENDENT of compile depth
+    → Cultural patterns (little depth, MANY links) = resistant
+    → Isolated memories (depth, FEW links) = vulnerable
 ```
 
-### §6.3 — Cơ chế 3: Activity-dependent tau spread
+### §6.3 — Mechanism 3: Activity-Dependent Tau Spread
 
 ```
 🟢 WU ET AL. 2016 (Nature Neuroscience 19(8):1085-1092):
 
-  Active synapses release ~2.5× MORE tau tại synapse
+  Active synapses release ~2.5× MORE tau at synapse
   Yamada et al. 2014 (J Exp Med): depolarization → ~150% tau increase
 
-  HỆ QUẢ cho "last in first out":
-    → Recent connections = ĐANG ACTIVE → release tau NHIỀU → phá TRƯỚC
-    → Old connections = LESS ACTIVELY USED → release tau ÍT → phá SAU
+  CONSEQUENCES for "last in first out":
+    → Recent connections = ACTIVELY USED → release MORE tau → destroyed FIRST
+    → Old connections = LESS ACTIVELY USED → release LESS tau → destroyed LATER
 
-  ⚠️ NHƯNG: macro-level activity = PROTECTIVE (§5.3 Phase Transition)
-    → Activity ở person khỏe mạnh → BDNF → protective
-    → Activity ở person có amyloid → tau release → destructive
+  ⚠️ BUT: macro-level activity = PROTECTIVE (§5.3 Phase Transition)
+    → Activity in healthy person → BDNF → protective
+    → Activity in person with amyloid → tau release → destructive
     → = 2 levels: micro (synapse tau release) vs macro (BDNF hormesis)
     → Phase transition: healthy → protective; diseased → destructive
 ```
 
-### §6.4 — Cơ chế 4: Multiple Trace Theory
+### §6.4 — Mechanism 4: Multiple Trace Theory
 
 ```
 🟢 NADEL & MOSCOVITCH 1997 (Current Opinion in Neurobiology 7(2):217-227):
 
-  MỖI LẦN nhớ lại memory = tạo trace MỚI:
-    → Old memory recalled 100 times → 100+ traces (nhiều vùng não)
+  EACH TIME a memory is recalled = creates a NEW trace:
+    → Old memory recalled 100 times → 100+ traces (many brain regions)
     → Recent memory recalled 2 times → 2 traces (concentrated)
 
   → Partial damage:
-    → Old memory: phá 20 traces → CÒN 80 → SURVIVE
-    → Recent memory: phá 1 trace → CÒN 1 → VULNERABLE
+    → Old memory: destroy 20 traces → STILL HAS 80 → SURVIVE
+    → Recent memory: destroy 1 trace → ONLY 1 LEFT → VULNERABLE
     → = Old memories tolerate MORE damage
 
   = Retrieval strengthening effect:
-    → Mỗi lần nhớ lại = thêm 1 "bản sao" ở 1 vùng não khác
+    → Each recall = adds 1 "copy" in a different brain region
     → Multiple copies = protection against focal damage
-    → KHÁC chỉ "strengthen" (cùng trace mạnh hơn)
-    → = THÊM traces MỚI (multiple, distributed)
+    → DIFFERENT from just "strengthening" (same trace gets stronger)
+    → = ADDS NEW traces (multiple, distributed)
 ```
 
-### §6.5 — Cơ chế 5: Myelination order
+### §6.5 — Mechanism 5: Myelination Order
 
 ```
 🟢 BARTZOKIS 2004/2011 + DEPP 2023:
 
-  Myelination trong phát triển não = KHÔNG ĐỒNG THỜI:
-    → Brainstem → motor → sensory (SỚM, sơ sinh → 6 tuổi)
-    → Hippocampus → PFC → association cortex (MUỘN, 6 → 25+ tuổi)
-    → Miller et al. 2012 (PNAS): neocortex myelination tới ~25 tuổi
+  Myelination during brain development = NOT SIMULTANEOUS:
+    → Brainstem → motor → sensory (EARLY, infancy → age 6)
+    → Hippocampus → PFC → association cortex (LATE, age 6 → 25+)
+    → Miller et al. 2012 (PNAS): neocortex myelination continues to ~age 25
 
-  Late-myelinating = VULNERABLE TRƯỚC trong Alzheimer:
-    → Myelin = "lớp vỏ cách điện" quanh axons
-    → Late-myelinating regions: myelin MỎNG HƠN + HƯ HỎNG SỚM HƠN
-    → = Đúng regions Alzheimer attacks TRƯỚC (hippocampus, PFC, association)
-    → Early-myelinating regions: myelin DÀY + ROBUST → kháng Alzheimer CUỐI
-    → = Đúng regions Alzheimer attacks SAU (brainstem, motor, sensory)
+  Late-myelinating = VULNERABLE FIRST in Alzheimer:
+    → Myelin = "insulating sheath" around axons
+    → Late-myelinating regions: THINNER myelin + DETERIORATES EARLIER
+    → = Exactly the regions Alzheimer attacks FIRST
+      (hippocampus, PFC, association cortex)
+    → Early-myelinating regions: THICK + ROBUST myelin → resists Alzheimer LAST
+    → = Exactly the regions Alzheimer attacks LAST
+      (brainstem, motor, sensory)
 
   ⭐ CHUNKS + MYELIN:
-    → Chunks thời thơ ấu → dùng pathways myelinate SỚM → myelin DÀY
-    → Chunks gần đây → dùng association cortex myelinate MUỘN → myelin MỎNG
-    → = Thêm 1 lớp bảo vệ cho chunks compile sâu ĐỘC LẬP với 4 cơ chế trên
+    → Childhood chunks → use early-myelinated pathways → THICK myelin
+    → Recent chunks → use late-myelinated association cortex → THIN myelin
+    → = One more layer of protection for deeply-compiled chunks
+      INDEPENDENT of the other 4 mechanisms
 ```
 
-### §6.6 — "Exposure through erosion"
+### §6.6 — "Exposure Through Erosion"
 
 ```
 🟡 FRAMEWORK SYNTHESIS:
 
-  ⭐ Childhood memories KHÔNG "phục hồi" — LUÔN CÒN ĐÓ:
-    → Alzheimer strips recent overlay DẦN DẦN
-    → Childhood chunks = LAST REMAINING (compile sâu nhất)
-    → "Sống trong quá khứ" = KHÔNG phải chọn — là TẤT CẢ CÒN LẠI
+  ⭐ Childhood memories do NOT "come back" — they were ALWAYS THERE:
+    → Alzheimer strips recent overlay GRADUALLY
+    → Childhood chunks = LAST REMAINING (compiled deepest)
+    → "Living in the past" = NOT A CHOICE — it is ALL THAT REMAINS
 
   Background-Pattern visible through erosion:
-    → Background-Pattern = accumulated chunk bias (invisible khi overlay mạnh)
-    → Alzheimer phá overlay → Background-Pattern LỘ RA
-    → "Personality changes" ở Alzheimer = Background-Pattern EXPOSED khi overlay mất
-    → Người "hiền" trở nên "aggressive" = Background-Pattern fear pattern exposed
-    → Người "lạnh lùng" trở nên "dễ khóc" = Background-Pattern emotional pattern exposed
+    → Background-Pattern = accumulated chunk bias
+      (invisible when overlay is strong)
+    → Alzheimer destroys overlay → Background-Pattern IS EXPOSED
+    → "Personality changes" in Alzheimer = Background-Pattern EXPOSED
+      when overlay lost
+    → "Gentle" person becomes "aggressive" =
+      Background-Pattern fear pattern exposed
+    → "Cold" person becomes "easily tearful" =
+      Background-Pattern emotional pattern exposed
 
-  "Khảo cổ sống":
-    → Alzheimer giống excavation — lớp trên mòn, lộ lớp dưới
-    → Lớp cuối = body-base + earliest compiled chunks
-    → = Alzheimer cho thấy KIẾN TRÚC chunk compilation (§17)
+  "Living archaeology":
+    → Alzheimer like excavation — upper layer erodes, reveals lower layer
+    → Final layer: body-base + earliest compiled chunks
+    → = Alzheimer reveals CHUNK COMPILATION ARCHITECTURE (§17)
 ```
 
 ---
 
-## §7 — Self-Pattern-Modeling DISSOLUTION: IDENTITY FRAGMENTATION
+## §7 — SELF-PATTERN-MODELING DISSOLUTION: IDENTITY FRAGMENTATION
 
-### §7.1 — Self-Pattern-Modeling cần self-chunks để hoạt động
+### §7.1 — Self-Pattern-Modeling Requires Self-Chunks to Operate
 
 ```
-🟡 SELF-PATTERN-MATCH.md v2.3:
+🟡 SELF-PATTERN-MODELING (Self-Pattern-Modeling.md v3.0):
 
-  Self-Pattern-Modeling = mechanism PFC observes own internal state
-    → Qua activation of SELF-BUILT pattern chunks
-    → Compiled (feeling): body fire weak version of state → empathy
+  Self-Pattern-Modeling = mechanism PFC uses to observe own internal state
+    → Via activation of SELF-BUILT pattern chunks
+    → Compiled (feeling): body fires weak version of state → empathy
     → Fresh (logic): PFC chains predict behavior → deliberate
 
-  Self-Pattern-Modeling PHẢI CÓ self-chunks:
-    → Self-chunks = chunks về BẢN THÂN
-    → Tên, tuổi, nghề, vai trò, ký ức, preferences, relationships
-    → Identity = tập hợp self-chunks + cách chúng LIÊN KẾT
+  Self-Pattern-Modeling MUST HAVE self-chunks:
+    → Self-chunks = chunks about ONESELF
+    → Name, age, profession, role, memories, preferences, relationships
+    → Identity = collection of self-chunks + how they CONNECT
 
-  ⭐ Khi self-chunks bị phá (Alzheimer):
-    → Self-Pattern-Modeling không có material để run
-    → Không "biết mình là ai" = KHÔNG CÒN self-chunks để match
-    → Không phải "quên mình" → MẤT SUBSTRATE của "mình"
+  ⭐ When self-chunks are destroyed (Alzheimer):
+    → Self-Pattern-Modeling has no material to run on
+    → Not knowing "who I am" = NO LONGER having self-chunks to match
+    → NOT "forgetting oneself" → LOSING THE SUBSTRATE of "self"
 ```
 
-### §7.2 — Timeline dissolution: identity mất DẦN
+### §7.2 — Timeline of Dissolution: Identity Lost GRADUALLY
 
 ```
-🟡 FRAMEWORK: IDENTITY DISSOLUTION THEO GIAI ĐOẠN
+🟡 FRAMEWORK: IDENTITY DISSOLUTION BY STAGE
 
-  ① RECENT IDENTITY MẤT TRƯỚC (Braak III-IV):
-    → Quên công việc hiện tại, dự án đang làm
-    → Quên relationship mới (bạn mới, hàng xóm mới)
-    → VẪN nhớ: tên mình, nghề cũ, bạn cũ, gia đình
-    → Self-Pattern-Modeling vẫn chạy nhưng trên DATA CŨ
-    → "Sống trong quá khứ" = KHÔNG PHẢI CHỌN — là TẤT CẢ CÒN LẠI
+  ① RECENT IDENTITY LOST FIRST (Braak III-IV):
+    → Forgets current job, ongoing projects
+    → Forgets new relationships (new friends, new neighbors)
+    → STILL remembers: own name, old profession, old friends, family
+    → Self-Pattern-Modeling still runs but on OLD DATA
+    → "Living in the past" = NOT A CHOICE — it is ALL THAT REMAINS
 
-  ② ROLE IDENTITY MẤT (Braak IV-V):
-    → Quên mình là bác sĩ/giáo viên/kỹ sư
-    → Quên vai trò: bà ngoại, mẹ chồng, đồng nghiệp
-    → Bắt đầu không nhận ra MỘT SỐ người thân
-    → Self-Pattern-Modeling Fresh (logic predict): offline cho người "lạ"
-    → Self-Pattern-Modeling Compiled (feeling): CÒN MỜ — cảm giác "quen" nhưng không biết tại sao
+  ② ROLE IDENTITY LOST (Braak IV-V):
+    → Forgets being a doctor/teacher/engineer
+    → Forgets roles: grandmother, mother-in-law, colleague
+    → Begins not recognizing SOME family members
+    → Self-Pattern-Modeling Fresh (logic predict): offline for "strangers"
+    → Self-Pattern-Modeling Compiled (feeling): STILL FAINT —
+      feeling of "familiar" but not knowing WHY
 
-  ③ RELATIONSHIP IDENTITY MẤT (Braak V):
-    → Không nhận ra vợ/chồng ("Cô là ai?")
-    → Không nhận ra con cái ("Anh là bạn của ai?")
-    → Nhận ra CON NHỎ (childhood memory) nhưng KHÔNG nhận ra con LỚN
-    → "Mẹ ơi" — gọi mẹ đã mất vì childhood chunks CÒN
+  ③ RELATIONSHIP IDENTITY LOST (Braak V):
+    → Does not recognize spouse ("Who are you?")
+    → Does not recognize children ("Are you a friend of someone?")
+    → Recognizes YOUNG CHILD (childhood memory) but NOT adult child
+    → "Mom!" — calls a deceased mother because childhood chunks REMAIN
 
-  ④ CORE IDENTITY MẤT (Braak V-VI):
-    → Không nhận ra CHÍNH MÌNH trong gương
-    → Mirrored-self misidentification: tưởng phản chiếu = người khác
-    → Prevalence: 2-10% Alzheimer patients
-    → Self-Pattern-Modeling effectively OFFLINE — không còn "self" để match
+  ④ CORE IDENTITY LOST (Braak V-VI):
+    → Does not recognize SELF in mirror
+    → Mirrored-self misidentification: thinks reflection = another person
+    → Prevalence: 2-10% of Alzheimer patients
+    → Self-Pattern-Modeling effectively OFFLINE —
+      no longer any "self" to match against
 
   🟢 RESEARCH:
     → Even moderate-severe dementia: "impoverished but CONSISTENT self-representation"
-    → Self-supporting memories cluster quanh ADOLESCENCE + EARLY ADULTHOOD
-      = identity formation period (Self-Pattern-Modeling Stage 6, 10-18 tuổi)
-    → Những memories này KHÁNG LÂU NHẤT = compile depth CỰC CAO
-      (emotional peak + repetition + multi-modal + identity-defining)
+    → Self-supporting memories cluster around ADOLESCENCE + EARLY ADULTHOOD
+      = identity formation period (Self-Pattern-Modeling Stage 6, ages 10-18)
+    → These memories RESIST LONGEST = compile depth EXTREMELY HIGH
+      (emotional peak + repetition + multimodal + identity-defining)
 ```
 
-### §7.3 — Self-Pattern-Modeling Compiled vs Fresh: mất KHÔNG đồng đều
+### §7.3 — Self-Pattern-Modeling Compiled vs Fresh: Lost UNEVENLY
 
 ```
 🟡 FRAMEWORK PREDICTION:
 
   Self-Pattern-Modeling Compiled (feeling simulation):
     → Body-based, near-automatic
-    → Cần ÍT PFC resource hơn Fresh
-    → DỰ ĐOÁN: Compiled tồn tại LÂU HƠN Fresh trong Alzheimer
-    → Evidence: patient không nhớ AI → nhưng CẢM THẤY thoải mái/sợ
-    → "Feeling without knowing" = Compiled còn, Fresh mất
+    → Requires LESS PFC resource than Fresh
+    → PREDICTION: Compiled persists LONGER than Fresh in Alzheimer
+    → Evidence: patient does not remember WHO → but FEELS comfortable or fearful
+    → "Feeling without knowing" = Compiled remains, Fresh gone
 
   Self-Pattern-Modeling Fresh (logic prediction):
     → PFC-dependent, deliberate
-    → Cần chunks + PFC executive function
-    → DỰ ĐOÁN: Fresh mất TRƯỚC Compiled
-    → Frontal cortex bị phá (Braak V-VI) → Fresh offline
-    → Patient không "hiểu" nhưng vẫn "cảm"
+    → Requires chunks + PFC executive function
+    → PREDICTION: Fresh lost BEFORE Compiled
+    → Frontal cortex destroyed (Braak V-VI) → Fresh offline
+    → Patient does not "understand" but still "feels"
 
   ⭐ INSIGHT:
-    → "Người Alzheimer không có cảm xúc" = SAI
-    → Body-feedback VẪN fire (§8) + Compiled CÒN (mờ nhưng còn)
-    → HỌ CẢM mà KHÔNG THỂ DIỄN ĐẠT
-    → Giống alexithymia nhưng DO SUBSTRATE MẤT
-      không phải do observation difficulty
+    → "Alzheimer patients have no emotions" = WRONG
+    → Body-feedback STILL fires (§8) + Compiled STILL PRESENT (faint but present)
+    → THEY FEEL but CANNOT EXPRESS IT
+    → Like alexithymia but DUE TO SUBSTRATE LOSS
+      not due to observation difficulty
 ```
 
-### §7.4 — "Nhớ thuở nhỏ, quên hôm qua" qua compile depth
+### §7.4 — "Remembers Childhood, Forgets Yesterday" via Compile Depth
 
 ```
-🟡 HIỆN TƯỢNG UNIVERSAL TRONG Alzheimer:
+🟡 UNIVERSAL PHENOMENON IN ALZHEIMER:
 
-  Patient giai đoạn giữa-muộn:
-    → Không nhớ hôm qua ăn gì (chunk gần, NÔNG)
-    → Nhớ rõ ngày cưới 50 năm trước (chunk sâu, EMOTIONAL PEAK)
-    → Nhớ bài hát thời trẻ (chunk sâu, MULTI-MODAL)
-    → Nhớ tên bạn thời tiểu học (chunk sâu, REPETITION nhiều năm)
-    → Nhớ mùi bánh mẹ nấu (chunk sâu, SENSORY + EMOTIONAL)
+  Mid-to-late stage patient:
+    → Cannot remember what was eaten yesterday (recent chunk, SHALLOW)
+    → Clearly remembers wedding day 50 years ago
+      (deep chunk, EMOTIONAL PEAK)
+    → Remembers songs from youth (deep chunk, MULTIMODAL)
+    → Remembers childhood friend's name
+      (deep chunk, REPETITION over many years)
+    → Remembers smell of mother's cooking
+      (deep chunk, SENSORY + EMOTIONAL)
 
-  Framework (5 cơ chế §6):
-    → TẤT CẢ 5 cơ chế cùng predict pattern này
-    → = Ribot's Law GIẢI THÍCH bởi kiến trúc, không chỉ mô tả
-    → = OVERDETERMINED — dù bỏ 1-2 cơ chế, pattern vẫn giống
+  Framework (5 mechanisms §6):
+    → ALL 5 mechanisms together predict this exact pattern
+    → = Ribot's Law EXPLAINED by architecture, not just described
+    → = OVERDETERMINED — remove 1-2 mechanisms, pattern still the same
 
   ⚠️ CAVEAT:
-    → Temporal gradient KHÔNG hoàn toàn nhất quán across studies
-    → REHEARSAL FREQUENCY cũng đóng vai trò
-      (memories hay kể lại = strengthen → resist)
+    → Temporal gradient NOT completely consistent across studies
+    → REHEARSAL FREQUENCY also plays a role
+      (frequently retold memories = strengthened → resist)
     → Framework: rehearsal = repetition pathway → consistent
 ```
 
-### §7.5 — Reminiscence bump + identity formation
+### §7.5 — Reminiscence Bump + Identity Formation
 
 ```
 🟢 REMINISCENCE BUMP:
 
-  Autobiographical memory DOMINANT ages ~10-30:
-    → "Reminiscence bump" = disproportionate recall từ thời này
+  Autobiographical memory DOMINANT from ages ~10-30:
+    → "Reminiscence bump" = disproportionate recall from this period
     → Identity formation period (Self-Pattern-Modeling Stage 6)
-    → Compile depth CỰC CAO:
-      emotional peak + repetition + multi-modal + identity-defining
-    → = Chunks KHÁNG LÂU NHẤT trong Alzheimer
+    → Compile depth EXTREMELY HIGH:
+      emotional peak + repetition + multimodal + identity-defining
+    → = Chunks that RESIST LONGEST in Alzheimer
 
-  Alzheimer moderate: patient "sống" trong thời 15-25 tuổi
-    → Gọi mẹ (đã mất). Tìm nhà cũ (đã bán).
-    → Nhầm con lớn = bạn cũ. Quên mình đã già.
-    → KHÔNG phải confusion — là DATA DUY NHẤT CÒN
+  Moderate Alzheimer: patient "lives" in the period age 15-25
+    → Calls a deceased mother. Looks for old home (long sold).
+    → Mistakes grown children for old friends.
+      Forgets being old.
+    → NOT confusion — it is the ONLY DATA REMAINING
 
-  Framework: identity = tập hợp self-chunks
-    → Alzheimer strips recent → identity "trẻ lại" → identity formation period
-    → Reminiscence bump = ĐỈNH compile depth × identity relevance
+  Framework: identity = collection of self-chunks
+    → Alzheimer strips recent → identity "gets younger" →
+      returns to identity formation period
+    → Reminiscence bump = PEAK of compile depth × identity relevance
 ```
 
 ---
 
-## §8 — BODY-FEEDBACK: TÍN HIỆU KHÔNG AI ĐỌC
+## §8 — BODY-FEEDBACK: SIGNALS WITH NO ONE READING
 
-### §8.1 — Body-base vẫn SỐNG khi software sụp đổ
+### §8.1 — Body-Base Still ALIVE When Software Collapses
 
 ```
 🟡 FRAMEWORK UNIQUE CASE:
 
-  ⭐ TRƯỜNG HỢP ĐỘC NHẤT:
-    → Body-base (L0/L1): VẪN HOẠT ĐỘNG
-      - Nociception: body fire pain signals ✓
-      - Hunger/thirst: body fire drive signals ✓
-      - Temperature: body regulate ✓ (giảm dần ở late stage)
-      - Amygdala: threat detection VẪN FIRE ✓
-      - Autonomic: heartbeat, breathing ✓ (cho tới cuối)
+  ⭐ UNIQUE SITUATION:
+    → Body-base (L0/L1): STILL FUNCTIONING
+      - Nociception: body fires pain signals ✓
+      - Hunger/thirst: body fires drive signals ✓
+      - Temperature: body regulates ✓ (gradually reduces late stage)
+      - Amygdala: threat detection STILL FIRES ✓
+      - Autonomic: heartbeat, breathing ✓ (to the end)
 
-    → Software layer: ĐANG SỤP ĐỔ
-      - PFC: chunks bị phá → KHÔNG compile meaning từ body signals
-      - Labels: semantic chunks mất → KHÔNG đặt tên cho cảm giác
-      - Executive: KHÔNG plan response cho body-feedback
-      - Communication: KHÔNG report cho người khác
+    → Software layer: COLLAPSING
+      - PFC: chunks destroyed → CANNOT compile meaning from body signals
+      - Labels: semantic chunks lost → CANNOT name the feeling
+      - Executive: CANNOT plan response to body-feedback
+      - Communication: CANNOT report to others
 
-  Kết quả = body SCREAMS, PFC KHÔNG NGHE:
-    → Chuông báo cháy kêu → đội cứu hỏa (PFC) đã giải tán
-    → Body signals fire → KHÔNG AI XỬ LÝ → tích tụ → BURST OUT
+  Result = body SCREAMS, PFC DOES NOT HEAR:
+    → Fire alarm ringing → fire department (PFC) has disbanded
+    → Body signals fire → NO ONE PROCESSES THEM
+      → accumulate → BURST OUT
 ```
 
-### §8.2 — BPSD: body-feedback KHÔNG ĐƯỢC XỬ LÝ
+### §8.2 — BPSD: Body-Feedback NOT PROCESSED
 
 ```
 🟢 BPSD (Behavioral + Psychological Symptoms of Dementia):
 
-  Ảnh hưởng tới 97% dementia patients (community-dwelling):
+  Affects 97% of dementia patients (community-dwelling):
 
   ① AGITATION:
-    → Body-feedback tích tụ KHÔNG XỬ LÝ → overflow → agitation
-    → Associated với volume reduction ở PFC, ACC, insula, temporal
-    → = Đúng các vùng compile meaning + emotional regulation
-    → Framework: chunk MISS tích tụ + body-feedback UNPROCESSED
+    → Body-feedback accumulates UNPROCESSED → overflow → agitation
+    → Associated with volume reduction in PFC, ACC, insula, temporal
+    → = Exactly the regions that compile meaning + emotional regulation
+    → Framework: Chunk-Miss accumulates + body-feedback UNPROCESSED
 
   ② WANDERING:
-    → Spatial chunks mất → "không biết mình ở đâu"
-    → Body drive "tìm nơi an toàn" VẪN FIRE
-    → NHƯNG: spatial map ĐÃ MẤT → đi không biết về
-    → Framework: drive INTACT + chunks GONE = behavior vô hướng
+    → Spatial chunks lost → "does not know where they are"
+    → Body drive "find safe place" STILL FIRES
+    → BUT: spatial map ALREADY GONE → walking without direction home
+    → Framework: drive INTACT + chunks GONE = behavior without direction
 
-  ③ SUNDOWNING (kích động buổi chiều-tối):
-    → 20-25% Alzheimer patients, moderate-severe
-    → SCN (suprachiasmatic nucleus) bị thoái hóa
-      → Đồng hồ sinh học HỎNG → circadian rhythm PHÁ
-      → Melatonin giảm (tuyến tùng calcified)
+  ③ SUNDOWNING (agitation in late afternoon/evening):
+    → 20-25% of Alzheimer patients, moderate-severe
+    → SCN (suprachiasmatic nucleus) degenerates
+      → Biological clock DAMAGED → circadian rhythm DISRUPTED
+      → Melatonin decreases (pineal gland calcified)
     → LPB neurons develop pTau → disrupt sleep-wake circuit
       (Nature Communications 2023)
-    → Framework: body-base circadian signals ĐẢO LỘNG
-      + fatigue tích tụ buổi tối + PFC yếu hơn khi mệt
-      → compound: many body signals fire + PFC CÀNG yếu = BURST
+    → Framework: body-base circadian signals DISRUPTED
+      + fatigue accumulates in evening + PFC weaker when tired
+      → compound: many body signals fire + PFC EVEN WEAKER = BURST
 
   ④ PARANOIA + DELUSIONS:
-    → Relationship chunks mất → người thân = "người lạ"
-    → "Ai đó vào nhà tôi!" (vợ/chồng)
-    → Framework: Self-Pattern-Modeling fail + unfamiliar = THREAT by default
-      (prediction-delta lớn → threat signal)
+    → Relationship chunks lost → family = "strangers"
+    → "Someone broke into my house!" (spouse/partner)
+    → Framework: Self-Pattern-Modeling fails + unfamiliar =
+      THREAT by default
+      (large prediction-delta → threat signal)
 ```
 
-### §8.3 — Pain: body CÓ ĐAU nhưng KHÔNG AI BIẾT
+### §8.3 — Pain: Body IS IN PAIN but NOBODY KNOWS
 
 ```
 🟢 CRITICAL — PAIN UNDERTREATMENT:
 
   Research:
-    → 49% Alzheimer patients có painful conditions
-    → Chỉ 20-40% nhận analgesics
-      (vs 60-80% ở bệnh nhân KHÔNG dementia)
-    → Under-treatment do:
-      ① Patient KHÔNG report (language chunks mất)
-      ② Patient KHÔNG locate (spatial body-map chunks mất)
-      ③ Clinician KHÔNG nhận ra (behavior = "BPSD" not "pain")
+    → 49% of Alzheimer patients have painful conditions
+    → Only 20-40% receive analgesics
+      (vs 60-80% in patients WITHOUT dementia)
+    → Under-treatment because:
+      ① Patient CANNOT REPORT (language chunks lost)
+      ② Patient CANNOT LOCATE pain (spatial body-map chunks lost)
+      ③ Clinician DOES NOT RECOGNIZE (behavior labeled as "BPSD" not "pain")
 
   Framework:
-    → Body fire pain signals → ĐÚNG (nociception intact)
-    → PFC KHÔNG compile: "đây là đau ở đầu gối" (label chunk mất)
-    → PFC KHÔNG communicate: "tôi đau" (language chunk mất)
-    → Kết quả: pain → agitation → clinician interpret = "behavioral symptom"
-    → Treat bằng sedation thay vì analgesic = HARM
+    → Body fires pain signals → CORRECT (nociception intact)
+    → PFC CANNOT compile: "this is knee pain" (label chunk lost)
+    → PFC CANNOT communicate: "I am in pain" (language chunk lost)
+    → Result: pain → agitation → clinician interprets = "behavioral symptom"
+    → Treats with sedation instead of analgesic = HARM
 
   ⭐ INSIGHT:
-    → Nhiều BPSD episodes CÓ THỂ = unrecognized pain
-    → BMC Geriatrics 2025: pain positively associated với aggression,
-      agitation, depression ở Alzheimer
-    → Framework prediction: TREAT PAIN FIRST before label "behavioral"
-    → Body-first principle: khi software mất → QUAY VỀ body signals
+    → Many BPSD episodes MAY = unrecognized pain
+    → BMC Geriatrics 2025: pain positively associated with aggression,
+      agitation, depression in Alzheimer
+    → Framework prediction: TREAT PAIN FIRST before labeling "behavioral"
+    → Body-first principle: when software fails → RETURN TO body signals
 ```
 
-### §8.4 — Sleep disruption: compile pathway BỊ PHÁ (brief — detail §11)
+### §8.4 — Sleep Disruption: Compile Pathway DESTROYED (brief — detail §11)
 
 ```
-🟢 SLEEP × ALZHEIMER = VÒNG XOÁY:
+🟢 SLEEP × ALZHEIMER = VICIOUS CYCLE:
 
-  Sleep disruption trong Alzheimer:
+  Sleep disruption in Alzheimer:
     → SCN degeneration → fragmented sleep architecture
-    → Melatonin giảm → khó ngủ
-    → REM sleep disrupted → dream processing giảm
+    → Melatonin decreases → difficulty sleeping
+    → REM sleep disrupted → dream processing reduced
 
   Framework: sleep = chunk compile pathway ④
     → Sleep consolidation: hippocampus replay → strengthen → prune
-    → Alzheimer: hippocampus ĐÃ BỊ PHÁ + sleep DISRUPTED
+    → Alzheimer: hippocampus ALREADY DESTROYED + sleep DISRUPTED
     → = DOUBLE HIT on chunk compilation:
-      ① Hippocampus hỏng → không compile được
-      ② Sleep hỏng → pathway compile offline = MẤT LUÔN
+      ① Hippocampus broken → cannot compile
+      ② Sleep broken → compilation pathway offline = GONE ENTIRELY
 
-  Chi tiết: xem §11 (Sleep × Glymphatic)
+  Details: see §11 (Sleep × Glymphatic)
 ```
 
 ---
 
 ## §9 — CONNECTION: AMBIGUOUS LOSS
 
-### §9.1 — Patient side: connection chunks degrade
+### §9.1 — Patient Side: Connection Chunks Degrade
 
 ```
-🟡 CONNECTION.md v3.1 — 3 GENERATIVE PRIMITIVES:
+🟡 CONNECTION.md v4.0 — 3 GENERATIVE PRIMITIVES:
 
   ❶ Hardware Social Drive (innate, pre-Self-Pattern-Modeling):
-    → Body NEEDS social input (giống cần ăn, uống)
-    → Alzheimer: hardware drive VẪN CÓ → patient VẪN CẦN người
-    → Nhưng chunks about WHO = mất dần
-    → Kết quả: cần người nhưng KHÔNG BIẾT người nào
+    → Body NEEDS social input (like needing food, water)
+    → Alzheimer: hardware drive STILL PRESENT → patient STILL NEEDS people
+    → But chunks about WHO = gradually lost
+    → Result: needs people but DOES NOT KNOW which people
 
   ❷ Self-Pattern-Modeling (Compiled + Fresh):
-    → Compiled: body fire state copy → CÒN MỜ (§7.3)
-    → Fresh: PFC predict behavior → MẤT DẦN
-    → Kết quả: cảm giác "quen" mà không biết TẠI SAO
+    → Compiled: body fires state copy → STILL FAINT (§7.3)
+    → Fresh: PFC predicts behavior → GRADUALLY LOST
+    → Result: feeling of "familiar" without knowing WHY
 
   ❸ Per-Agent Valence:
     → Body evaluates agent impact (trust, comfort, threat)
-    → Valence chunks about specific people = MẤT DẦN
-    → Vợ/chồng 40 năm → "người lạ tốt bụng" → "người lạ"
+    → Valence chunks about specific people = GRADUALLY LOST
+    → 40-year spouse → "kind stranger" → "stranger"
 
-  ⭐ KHÔNG nhận ra ≠ KHÔNG có connection:
-    → Patient không nhớ TÊN → nhưng CẢM THẤY an toàn (Compiled residual)
-    → Patient agitated với stranger → calm với caregiver quen
-    → Body-level connection CÒN khi cognitive connection MẤT
-    → Caregiver PRESENCE matters — dù patient "không biết" ai
+  ⭐ NOT RECOGNIZING ≠ NOT HAVING CONNECTION:
+    → Patient does not remember NAME → but FEELS safe (Compiled residual)
+    → Patient agitated with strangers → calm with familiar caregiver
+    → Body-level connection REMAINS when cognitive connection IS LOST
+    → Caregiver PRESENCE matters — even when patient "doesn't know" who
 ```
 
-### §9.2 — Caregiver side: Body-Coupling MỘT CHIỀU
+### §9.2 — Caregiver Side: Body-Coupling ONE-SIDED
 
 ```
 🟡 BODY-COUPLING.md v1.1:
 
-  Body-Coupling = 2 body-base SYNC with each other
+  Body-Coupling = 2 body-bases SYNC with each other
     → Depth × Direction: 2D model
     → Healthy couple: deep + bidirectional
 
   Alzheimer disrupts = ONE-SIDED DECOUPLING:
     Caregiver:
-      → Self-Pattern-Modeling VẪN RUN full (Compiled+Fresh) → fire empathy cho patient
-      → Chunks about patient = INTACT → still "biết người này"
-      → Body-Coupling STILL ACTIVE → cortisol khi patient distressed
-      → Valence-Structural (entity-compiled) connection = NGUYÊN VẸN
+      → Self-Pattern-Modeling STILL RUNS fully (Compiled+Fresh)
+        → fires empathy for patient
+      → Chunks about patient = INTACT → still "knows this person"
+      → Body-Coupling STILL ACTIVE
+        → cortisol spikes when patient is distressed
+      → Valence-Structural (entity-compiled) connection = INTACT
 
     Patient:
-      → Self-Pattern-Modeling FAILING → Fresh offline → Compiled mờ
-      → Chunks about caregiver = MẤT DẦN → "ai đây?"
-      → Body-Coupling DECOUPLING → không reciprocate
-      → Valence-Structural reciprocation = MẤT
+      → Self-Pattern-Modeling FAILING → Fresh offline → Compiled faint
+      → Chunks about caregiver = GRADUALLY LOST → "Who is this?"
+      → Body-Coupling DECOUPLING → cannot reciprocate
+      → Valence-Structural reciprocation = LOST
 
-  Kết quả = Valence-Momentary DRAIN without Valence-Structural RECIPROCATION:
-    → Caregiver FIRE empathy liên tục → KHÔNG nhận lại
-    → Giống chăm con sơ sinh — nhưng sơ sinh TIẾN → Alzheimer THỤT LÙI
-    → Sơ sinh: Self-Pattern-Modeling đang BUILD → có hy vọng → sustainable
-    → Alzheimer: Self-Pattern-Modeling đang COLLAPSE → không hy vọng → UNSUSTAINABLE
+  Result = Valence-Momentary DRAIN without Valence-Structural RECIPROCATION:
+    → Caregiver FIRES empathy continuously → receives NOTHING BACK
+    → Like caring for an infant — but infant PROGRESSES
+      → Alzheimer REGRESSES
+    → Infant: Self-Pattern-Modeling is BUILDING → there is hope → sustainable
+    → Alzheimer: Self-Pattern-Modeling is COLLAPSING → no hope → UNSUSTAINABLE
 
   ⭐ Connection.md: 3 conditions:
     MET (active engagement) = optimal
     UNMET (no one present) = deteriorate
     VIOLATED (present but non-contingent) = WORSE THAN ABSENT
 
-    Alzheimer moderate-severe = VIOLATED for caregiver:
-    → Patient PRESENT nhưng KHÔNG CONTINGENT RESPONSE
-    → Worse than absence → grief KHÔNG thể process
-    → Còn tệ hơn bereavement (ít nhất bereavement = closure)
+    Moderate-severe Alzheimer = VIOLATED for caregiver:
+    → Patient PRESENT but CANNOT RESPOND CONTINGENTLY
+    → Worse than absence → grief CANNOT BE PROCESSED
+    → Even worse than bereavement
+      (at least bereavement = closure)
 ```
 
 ### §9.3 — "Ambiguous Loss" (Boss 1999)
@@ -1653,26 +1700,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟢 BOSS 1999 (Harvard University Press):
 
-  Ambiguous Loss = type of loss khi:
+  Ambiguous Loss = type of loss where:
     → Loved one physically PRESENT but psychologically ABSENT
-    → "Ở đây nhưng không ở đây"
+    → "Here but not here"
 
-  Tại sao DEVASTATING:
-    → KHÔNG CÓ death certificate → grief KHÔNG ĐƯỢC công nhận
-    → KHÔNG CÓ funeral → KHÔNG CÓ ritual hỗ trợ
-    → KHÔNG CÓ closure → grief FROZEN
-    → "Chưa mất" (về pháp lý, xã hội) → nhưng "ĐÃ MẤT" (về tâm lý)
-    → Kéo dài trung bình 5-8 NĂM
+  Why DEVASTATING:
+    → NO death certificate → grief IS NOT ACKNOWLEDGED
+    → NO funeral → NO ritual support
+    → NO closure → grief FROZEN
+    → "Not yet lost" (legally, socially) → but "ALREADY LOST" (psychologically)
+    → Lasts average 5-8 YEARS
 
   Framework:
-    → Caregiver Self-Pattern-Modeling vẫn RUN → but target KHÔNG RESPONSE
+    → Caregiver Self-Pattern-Modeling still RUNS → but target CANNOT RESPOND
     → Body-Coupling one-sided → Valence-Momentary drain continuous
-    → Grief = Chunk-Miss (Connection.md: mất connection = miss)
-      NHƯNG: source VẪN PRESENT → brain KHÔNG process grief fully
-    → "Frozen grief" = Chunk-Miss ONGOING mà KHÔNG resolve
+    → Grief = Chunk-Miss (Connection.md: losing connection = miss)
+      BUT: source STILL PRESENT → brain CANNOT process grief fully
+    → "Frozen grief" = Chunk-Miss ONGOING without resolution
 ```
 
-### §9.4 — Caregiver health outcomes
+### §9.4 — Caregiver Health Outcomes
 
 ```
 🟢 RESEARCH — CAREGIVER IMPACT:
@@ -1681,197 +1728,204 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Depression: 34% prevalence (vs 5-17% non-caregivers)
     → Anxiety: 43.6%
     → Psychotropic drug use: 27.2%
-    → >50% caregivers: depression symptoms TRƯỚC formal diagnosis
+    → >50% caregivers: depression symptoms BEFORE formal diagnosis
 
   Schulz & Beach 1999 (JAMA):
-    → Elderly spousal caregivers (66-96 years):
+    → Elderly spousal caregivers (age 66-96):
     → 63% HIGHER MORTALITY RATE vs non-caregivers same age
     → Caregiving-related STRESS = independent risk factor for DEATH
 
   Framework:
-    → Valence-Momentary drain without Valence-Structural → cortisol CHRONIC (Cortisol-Baseline.md)
-    → Cortisol chronic → immune suppression → health decline
+    → Valence-Momentary drain without Valence-Structural → CHRONIC cortisol
+      (Cortisol-Baseline.md)
+    → Chronic cortisol → immune suppression → health decline
     → Social isolation → hardware social drive UNMET → further decline
     → COMPOUND: Valence-Momentary drain + cortisol + isolation + no closure
-    → = MULTI-AXIS body-feedback attack trên caregiver
+    → = MULTI-AXIS body-feedback attack on caregiver
 
   ⭐ CRITICAL INSIGHT:
-    → Alzheimer = bệnh CỦA 2 NGƯỜI: patient + caregiver
-    → Patient: chunks mất → suffering VÔ HÌNH (không report được)
-    → Caregiver: chunks intact → suffering HỮU HÌNH (burnout, depression)
-    → Healthcare system focus patient → caregiver UNDER-SUPPORTED
-    → Framework: Body-Coupling = 2-person system → PHẢI treat cả 2
+    → Alzheimer = disease OF 2 PEOPLE: patient + caregiver
+    → Patient: chunks lost → suffering INVISIBLE (cannot be reported)
+    → Caregiver: chunks intact → suffering VISIBLE (burnout, depression)
+    → Healthcare system focuses on patient → caregiver UNDER-SUPPORTED
+    → Framework: Body-Coupling = 2-person system → MUST treat both
 ```
 
 ---
 
 ## §10 — ACETYLCHOLINE × CHOLINERGIC HYPOTHESIS
 
-### §10.1 — Cholinergic hypothesis (Bartus 1982)
+### §10.1 — Cholinergic Hypothesis (Bartus 1982)
 
 ```
 🟢 BARTUS ET AL. 1982 (Science):
 
   Cholinergic hypothesis of geriatric memory dysfunction:
-    → Basal forebrain cholinergic neurons THOÁI HÓA
-    → Đặc biệt: Nucleus Basalis of Meynert (NbM)
-    → NbM cung cấp ACh cho toàn bộ cerebral cortex + amygdala
-    → ~90% neurons của NbM = cholinergic
-    → NbM chết → cortex THIẾU acetylcholine → cognitive decline
+    → Basal forebrain cholinergic neurons DEGENERATE
+    → Specifically: Nucleus Basalis of Meynert (NbM)
+    → NbM provides ACh to entire cerebral cortex + amygdala
+    → ~90% neurons of NbM = cholinergic
+    → NbM dies → cortex DEPLETED of acetylcholine → cognitive decline
 
   Whitehouse et al. 1981 (Annals of Neurology):
-    → Neuropathological evidence: NbM neuron loss RÕ RÀNG ở Alzheimer
-    → Discovery ĐẦU TIÊN liên kết Alzheimer với neurotransmitter cụ thể
+    → Neuropathological evidence: NbM neuron loss CLEAR in Alzheimer
+    → FIRST discovery linking Alzheimer to a specific neurotransmitter
 
-  ACh role trong não:
-    → Attention: ACh modulate cortical excitability
-    → Memory: ACh critical cho LTP (Long-Term Potentiation)
-    → Learning: ACh enable synaptic plasticity
-    → = Framework: ACh ENABLE chunk compilation process
-    → Thiếu ACh → chunk compile CHẬM + YẾU + THIẾU
+  ACh role in the brain:
+    → Attention: ACh modulates cortical excitability
+    → Memory: ACh critical for LTP (Long-Term Potentiation)
+    → Learning: ACh enables synaptic plasticity
+    → = Framework: ACh ENABLES chunk compilation process
+    → Lacking ACh → chunk compile SLOWER + WEAKER + INCOMPLETE
 ```
 
-### §10.2 — ACh × Chunk compilation: framework bridge
+### §10.2 — ACh × Chunk Compilation: Framework Bridge
 
 ```
 🟡 FRAMEWORK SYNTHESIS:
 
   ┌────────────────────┬──────────────────────────────────────┐
-  │ ACh Function        │ Framework Equivalent                 │
+  │ ACh Function       │ Framework Equivalent                 │
   ├────────────────────┼──────────────────────────────────────┤
-  │ Attention gate     │ PFC-Configuration → mode selection    │
-  │ LTP enabler        │ Chunk compilation strength            │
-  │ Synaptic plasticity│ Chunk network flexibility             │
-  │ Cortical arousal   │ Processing capacity for new input     │
+  │ Attention gate     │ PFC-Configuration → mode selection   │
+  │ LTP enabler        │ Chunk compilation strength           │
+  │ Synaptic plasticity│ Chunk network flexibility            │
+  │ Cortical arousal   │ Processing capacity for new input    │
   └────────────────────┴──────────────────────────────────────┘
 
-  ⭐ ACh = FACILITATOR cho chunk compile:
-    → Không trực tiếp TẠO chunks (giống dopamine không tạo reward)
-    → ENABLE conditions cho chunks compile HIỆU QUẢ
-    → Thiếu ACh → compile yếu → chunks nông → DỄ mất
+  ⭐ ACh = FACILITATOR for chunk compile:
+    → Does NOT directly CREATE chunks
+      (like dopamine does not create reward)
+    → ENABLES conditions for chunks to compile EFFECTIVELY
+    → Lacking ACh → compile weak → chunks shallow → EASIER to lose
 
-  SO SÁNH Parkinson:
-    → Parkinson: DOPAMINE thiếu → GATE locked → execution fail
-    → Alzheimer: ACETYLCHOLINE thiếu → COMPILE weakened → chunks yếu
-    → Cả 2: modulatory neurotransmitter THIẾU → function khác GIẢM
-    → Nhưng: dopamine = gate key, ACh = compile enabler
+  COMPARISON with Parkinson:
+    → Parkinson: DOPAMINE lacking → GATE locked → execution fails
+    → Alzheimer: ACETYLCHOLINE lacking → COMPILE weakened → chunks fragile
+    → Both: modulatory neurotransmitter LACKING → different function DECLINES
+    → But: dopamine = gate key, ACh = compile enabler
 ```
 
-### §10.3 — Bridge to Nicotine: CÙNG receptor, 2 hướng
+### §10.3 — Bridge to Nicotine: SAME Receptor, 2 Directions
 
 ```
 🟢 BRIDGE: NICOTINE-BRAIN-MECHANISM.md §10.2
 
   Nicotine = nAChR (nicotinic acetylcholine receptor) AGONIST
-  Alzheimer = nAChR LOSS (cholinergic neurons CHẾT → receptors MẤT)
+  Alzheimer = nAChR LOSS (cholinergic neurons DIE → receptors GONE)
 
   ┌─────────────┬──────────────────────┬──────────────────────┐
   │             │ NICOTINE             │ ALZHEIMER            │
   ├─────────────┼──────────────────────┼──────────────────────┤
-  │ nAChR       │ FLOODED (agonist)    │ LOST (neurons chết)  │
+  │ nAChR       │ FLOODED (agonist)    │ LOST (neurons died)  │
   │ ACh system  │ Over-stimulated      │ Under-stimulated     │
-  │ Direction   │ QUÁ NHIỀU            │ QUÁ ÍT              │
-  │ Hậu quả     │ Upregulation→phụ thuộc│ Cognitive decline    │
-  │ Receptor    │ TĂNG (upregulate)    │ GIẢM (degenerate)    │
+  │ Direction   │ TOO MUCH             │ TOO LITTLE           │
+  │ Consequence │ Upregulation→depend. │ Cognitive decline    │
+  │ Receptor    │ INCREASES (upregulate│ DECREASES (degenerate│
   └─────────────┴──────────────────────┴──────────────────────┘
 
   Francis et al. 1999 — Cholinergic hypothesis:
     → Alzheimer drugs (donepezil, rivastigmine) = cholinesterase inhibitors
-    → GIỮA ACh tồn tại LÂU HƠN tại synapse
-    → CÙNG principle với nicotine: boost cholinergic system
-    → Nhưng 1 bên FLOOD, 1 bên PRESERVE remaining
+    → KEEP ACh present at synapse LONGER
+    → SAME principle as nicotine: boost cholinergic system
+    → But one side FLOODS, one side PRESERVES what remains
 
   ⭐ INSIGHT:
-    → Nicotine HIJACK nAChR ↔ Alzheimer THIẾU nAChR
-    → Cùng receptor, 2 hướng ngược
-    → Alzheimer drugs và nicotine tác động CÙNG HỆ THỐNG
+    → Nicotine HIJACKS nAChR ↔ Alzheimer LACKS nAChR
+    → Same receptor, 2 opposite directions
+    → Alzheimer drugs and nicotine both act on THE SAME SYSTEM
 ```
 
-### §10.4 — Cholinesterase inhibitors: compensate trên nền đang sụp
+### §10.4 — Cholinesterase Inhibitors: Compensating on a Collapsing Foundation
 
 ```
 🟢 Alzheimer DRUGS — CHOLINESTERASE INHIBITORS:
 
-  3 thuốc approved (mild-to-moderate Alzheimer):
+  3 approved drugs (mild-to-moderate Alzheimer):
     → Donepezil (Aricept): AChE inhibitor
     → Rivastigmine (Exelon): AChE + BuChE inhibitor
     → Galantamine (Razadyne): AChE inhibitor + allosteric nAChR modulator
 
-  Cơ chế: KHÔNG tạo ACh mới
-    → Ngăn enzyme PHÂN HỦY ACh → ACh TỒN TẠI LÂU HƠN
-    → = Giữ những gì CÒN LẠI hoạt động lâu hơn
+  Mechanism: does NOT create new ACh
+    → Prevents enzyme from BREAKING DOWN ACh
+      → ACh PERSISTS LONGER
+    → = Keeps what REMAINS working longer
 
-  ⭐ GIỐNG METHYLPHENIDATE TRONG ADHD:
-    → ADHD: methylphenidate block DAT → dopamine TỒN TẠI LÂU HƠN
-    → Alzheimer: donepezil block AChE → ACh TỒN TẠI LÂU HƠN
-    → CẢ HAI: COMPENSATE, không fix nguyên nhân gốc
-    → CẢ HAI: efficacy = f(remaining neurons)
+  ⭐ SIMILAR TO METHYLPHENIDATE IN ADHD:
+    → ADHD: methylphenidate blocks DAT → dopamine PERSISTS LONGER
+    → Alzheimer: donepezil blocks AChE → ACh PERSISTS LONGER
+    → BOTH: COMPENSATE, do not fix root cause
+    → BOTH: efficacy = f(remaining neurons)
 
-  NHƯNG KHÁC ở 1 điểm CỐT LÕI:
-    → ADHD: neurons KHÔNG CHẾT → medication hiệu quả STABLE
-    → Alzheimer: neurons TIẾP TỤC CHẾT → medication hiệu quả GIẢM DẦN
-    → Lý do: ít neurons còn lại → ít ACh để "giữ" → drug ít tác dụng
-    → Đến moderate-severe: KHÔNG CÒN ĐỦ neurons để compensate
+  BUT DIFFERENT IN 1 CORE POINT:
+    → ADHD: neurons DO NOT DIE → medication efficacy remains STABLE
+    → Alzheimer: neurons CONTINUE TO DIE → medication efficacy
+      GRADUALLY DECREASES
+    → Reason: fewer neurons remaining → less ACh to "preserve" →
+      drug has less to work with
+    → By moderate-severe: NOT ENOUGH neurons left to compensate
 
   Framework:
-    → Alzheimer medication = DELAY, không phải STOP, không phải REVERSE
-    → Giống: chống thấm trần nhà đang sụp → chậm nước vào, nhà VẪN SỤP
+    → Alzheimer medication = DELAY, not STOP, not REVERSE
+    → Like: waterproofing a collapsing roof →
+      slows the water coming in, house STILL COLLAPSES
 ```
 
 ---
 
-## §11 — SLEEP × GLYMPHATIC: DỌN RÁC KHI NGỦ
+## §11 — SLEEP × GLYMPHATIC: GARBAGE COLLECTION DURING SLEEP
 
-### §11.1 — Glymphatic system: brain's cleaning crew
+### §11.1 — Glymphatic System: Brain's Cleaning Crew
 
 ```
 🟢 XIE ET AL. 2013 (Science 342(6156):373-377):
 
-  Glymphatic system = hệ "dọn rác" của não:
-    → Sleep: interstitial space TĂNG ~60% (so với wake)
-    → Clearance efficiency: ~2× faster khi ngủ
-    → Mechanism: CSF flows qua perivascular channels
+  Glymphatic system = brain's "garbage collection" system:
+    → Sleep: interstitial space INCREASES ~60%
+      (compared to waking state)
+    → Clearance efficiency: ~2× faster during sleep
+    → Mechanism: CSF flows via perivascular channels
 
   HOW IT WORKS:
-    CSF (dịch não tủy) → periarterial space
-    → AQP4 channels (aquaporin-4) trên astrocytic endfeet
-    → AQP4 = ~50% astrocytic membrane facing blood vessels
+    CSF (cerebrospinal fluid) → periarterial space
+    → AQP4 channels (aquaporin-4) on astrocytic endfeet
+    → AQP4 = ~50% of astrocytic membrane facing blood vessels
     → CSF flows through brain parenchyma (bulk flow)
     → Carries WASTE (amyloid, tau, metabolic debris)
     → Exits via perivenous drainage → lymphatic system
 
-  ⭐ DỌN CẢ AMYLOID + TAU:
-    → Cùng cơ chế bulk-flow dọn CẢ HAI proteins
-    → Sleep ON → cleaning ON → accumulation CHẬM
-    → Sleep OFF → cleaning OFF → accumulation NHANH
-    → = Sleep TRỰC TIẾP ảnh hưởng Alzheimer pathology
+  ⭐ CLEARS BOTH AMYLOID + TAU:
+    → Same bulk-flow mechanism clears BOTH proteins
+    → Sleep ON → cleaning ON → accumulation SLOWS
+    → Sleep OFF → cleaning OFF → accumulation SPEEDS UP
+    → = Sleep DIRECTLY affects Alzheimer pathology
 ```
 
-### §11.2 — 1 đêm mất ngủ = measurable damage
+### §11.2 — 1 Night of Lost Sleep = Measurable Damage
 
 ```
-🟢 ACUTE EVIDENCE — NGAY 1 ĐÊM:
+🟢 ACUTE EVIDENCE — JUST 1 NIGHT:
 
   Shokri-Kojori et al. 2018 (PNAS 115(17):4483-4488):
-    → 20 healthy controls, 1 đêm mất ngủ
-    → PET scan: amyloid-beta TĂNG ~5%
-    → Đặc biệt ở hippocampus + thalamus
-    → = 1 đêm = measurable amyloid accumulation
+    → 20 healthy controls, 1 night of sleep deprivation
+    → PET scan: amyloid-beta INCREASES ~5%
+    → Especially in hippocampus + thalamus
+    → = 1 night = measurable amyloid accumulation
 
   Holth et al. 2019 (Science 363(6429):880-884):
-    → Mice: sleep deprivation → ISF tau tăng ~100% vs sleep
-    → Humans: CSF tau tăng >50% sau 1 đêm mất ngủ
-    → Tau spreading area ~2× ở sleep-deprived mice
-    → = 1 đêm = measurable tau increase + accelerated spread
+    → Mice: sleep deprivation → ISF tau increases ~100% vs sleep
+    → Humans: CSF tau increases >50% after 1 night without sleep
+    → Tau spreading area ~2× in sleep-deprived mice
+    → = 1 night = measurable tau increase + accelerated spread
 
   ⭐ INSIGHT:
-    → Damage KHÔNG cần chronic — 1 đêm đã measurable
-    → NHƯNG: 1 đêm = REVERSIBLE (sleep tiếp → cleanup)
-    → Danger = CHRONIC accumulation (đêm + đêm + đêm)
-    → "Nợ ngủ" CÓ THỂ trả — nhưng nợ DÀI = khó trả hết
+    → Damage does NOT require chronic loss — 1 night is measurable
+    → BUT: 1 night = REVERSIBLE (sleep next night → cleanup)
+    → Danger = CHRONIC accumulation (night after night after night)
+    → "Sleep debt" CAN be repaid — but LONG debt = hard to fully repay
 ```
 
-### §11.3 — Chronic thiếu ngủ → Alzheimer risk
+### §11.3 — Chronic Sleep Deprivation → Alzheimer Risk
 
 ```
 🟢 LONGITUDINAL EVIDENCE:
@@ -1881,7 +1935,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → ≤6h at age 50 → HR 1.22 (+22% Alzheimer risk)
     → ≤6h at age 60 → HR 1.37 (+37% Alzheimer risk)
     → Persistent short sleep → +30% dementia risk
-    → ⚠️ CORRECTED: +30% (NOT +63% như cited elsewhere)
+    → ⚠️ CORRECTED: +30% (NOT +63% as cited elsewhere)
 
   Benedict et al. 2015 (Alzheimer's & Dementia 11(9):1090-1097):
     → 40-year follow-up, Sweden
@@ -1891,128 +1945,130 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Jorgensen et al. 2020 (Alzheimer's & Dementia 16(9):1268-1279):
     → Danish nurses, 92,652 participants
     → Night shifts ≥6 years → HR 2.43 for dementia
-    → = "Ca đêm" kéo dài → risk TĂNG rất mạnh
+    → = Prolonged "night shift" work → risk INCREASES significantly
 
   OPTIMAL SLEEP:
-    → ~7-8h liên tục = consistently associated với lowest risk
-    → U-shaped curve: cả NGẮN (<6h) VÀ DÀI (>9h) = increased risk
-    → Dài có thể = marker bệnh (ngủ nhiều VÌ não đang suy)
+    → ~7-8h continuous = consistently associated with lowest risk
+    → U-shaped curve: both SHORT (<6h) AND LONG (>9h) = increased risk
+    → Long may = marker of disease (sleeping more BECAUSE brain is failing)
     → ⚠️ "7.23h nadir" — UNVERIFIED specific number; ~7-8h is safe to state
 ```
 
-### §11.4 — Sleep as "mồi lửa" for tipping point
+### §11.4 — Sleep as "Kindling" for the Tipping Point
 
 ```
-🟡 FRAMEWORK: SLEEP TẤN CÔNG ĐỒNG THỜI 5 HỆ THỐNG:
+🟡 FRAMEWORK: SLEEP ATTACKS 5 SYSTEMS SIMULTANEOUSLY:
 
   ① GLYMPHATIC OFF:
-    → Clearance amyloid + tau GIẢM → accumulation tăng
+    → Amyloid + tau clearance DECREASES → accumulation increases
 
   ② MICROGLIA ACTIVATED:
     → Sleep deprivation → pro-inflammatory state
     → NLRP3 inflammasome activation
-    → Microglia chuyển từ "dọn rác" sang "phá nhà"
+    → Microglia shift from "cleanup" to "demolition"
 
   ③ MEMORY CONSOLIDATION OFF:
-    → NREM disrupted → hippocampal replay FAIL
-    → Chunks mới KHÔNG consolidate → "đã nông, càng nông"
+    → NREM disrupted → hippocampal replay FAILS
+    → New chunks DO NOT consolidate → "already shallow, gets shallower"
 
   ④ HYPEREXCITABILITY:
-    → Thiếu ngủ → cortical excitability TĂNG
-    → Holth 2019: tau release tăng (§11.2)
-    → Phase Transition (§5.3): hyperexcitability × amyloid = accelerate damage
+    → Sleep deprivation → cortical excitability INCREASES
+    → Holth 2019: tau release increases (§11.2)
+    → Phase Transition (§5.3): hyperexcitability × amyloid = accelerates damage
 
   ⑤ OXIDATIVE STRESS + AUTOPHAGY IMPAIRED:
-    → Thiếu ngủ → mitochondrial stress → ROS tăng
-    → Autophagy (self-cleaning) giảm
+    → Sleep deprivation → mitochondrial stress → ROS increases
+    → Autophagy (self-cleaning) decreases
 
-  = "MỒI LỬA" — sleep loss tấn công TẤT CẢ 5 protective layers (§12)
+  = "KINDLING" — sleep loss attacks ALL 5 protective layers (§12)
 
   🟢 Qiu et al. 2016 (J Alzheimer's Disease 50(3):669-685):
     → Mice: 2-month chronic sleep deprivation
     → 3-month recovery sleep → damage NOT fully reversed
-    → = Chronic sleep loss CÓ THỂ gây IRREVERSIBLE damage
+    → = Chronic sleep loss CAN cause IRREVERSIBLE damage
 
-  Framework: sleep = MODIFIABLE factor tấn công RỘNG NHẤT
-    → Tất cả 14 factors Livingston → sleep ĐỒNG THỜI tấn công 5 axes
-    → = Priority #1 cho prevention
+  Framework: sleep = MODIFIABLE factor with WIDEST ATTACK RANGE
+    → All 14 Livingston factors → sleep SIMULTANEOUSLY attacks 5 axes
+    → = Priority #1 for prevention
 ```
 
-### §11.5 — Alzheimer × Sleep vicious cycle
+### §11.5 — Alzheimer × Sleep Vicious Cycle
 
 ```
 🟢 HAUGLUND ET AL. 2025 (Cell 188(3):606-622):
 
   ⭐ KEY DISCOVERY — NE oscillations:
-    → Norepinephrine (NE) oscillations ~50 seconds cycle
+    → Norepinephrine (NE) oscillations ~50 second cycle
     → NE waves → blood vessel contraction → rhythmic CSF flow
     → = NE oscillations PUMP CSF through brain
     → = Strongest predictor of glymphatic clearance during NREM
 
   ⭐ ZOLPIDEM WARNING:
-    → Zolpidem (Ambien): suppress NE oscillations ~50%
-    → Glymphatic flow giảm >30%
-    → = Thuốc ngủ CHO NGỦ nhưng KHÔNG DỌN RÁC
-    → Person sleeps → nhưng cleaning system TẮNG
-    → = "Mắt nhắm mà chổi không quét"
+    → Zolpidem (Ambien): suppresses NE oscillations ~50%
+    → Glymphatic flow decreases >30%
+    → = Sleep medication ENABLES SLEEP but does NOT CLEAN
+    → Person sleeps → but cleaning system IS TURNED OFF
+    → = "Eyes closed but broom does not sweep"
 
   VICIOUS CYCLE:
-    → Alzheimer phá SCN (suprachiasmatic nucleus) → sleep architecture hỏng
-    → Sleep hỏng → glymphatic cleaning GIẢM
-    → Cleaning giảm → amyloid + tau accumulate NHANH HƠN
-    → Accumulation nhanh → Alzheimer tiến triển NHANH HƠN
-    → Alzheimer nhanh → SCN phá NHIỀU HƠN → sleep TỆ HƠN → ...
+    → Alzheimer destroys SCN (suprachiasmatic nucleus)
+      → sleep architecture damaged
+    → Damaged sleep → glymphatic cleaning DECREASES
+    → Decreased cleaning → amyloid + tau accumulate FASTER
+    → Faster accumulation → Alzheimer progresses FASTER
+    → Faster Alzheimer → SCN damaged MORE → sleep WORSE → ...
 
   Nedergaard & Goldman 2020 (Science 370(6512):50-56):
     → "Glymphatic failure may represent a FINAL COMMON PATHWAY"
-    → Bất kỳ nguyên nhân nào → nếu phá sleep → phá glymphatic → phá não
-    → = Sleep disruption = shared mechanism cho NHIỀU neurodegeneration
+    → Whatever the cause → if it disrupts sleep → disrupts glymphatic
+      → disrupts brain
+    → = Sleep disruption = shared mechanism for MANY neurodegeneration
 ```
 
 ---
 
 ## §12 — 5 PROTECTIVE LAYERS + RESILIENCE
 
-### §12.1 — "Not just threshold" — active protection
+### §12.1 — "Not Just Threshold" — Active Protection
 
 ```
 🟢 PEREZ-NIEVAS ET AL. 2013 (Brain 136(8):2510-2526):
 
-  4 phenotypic differences ở người có Alzheimer pathology nhưng MINH MẪN:
+  4 phenotypic differences in people with Alzheimer pathology but COGNITIVELY INTACT:
 
   ① NEURONS PRESERVED:
-    → Neuron count bình thường
+    → Neuron count normal
     → Synaptic markers INTACT
-    → = Hardware VẪN NGUYÊN dù pathology present
+    → = Hardware STILL INTACT despite pathology present
 
   ② LESS OLIGOMERIC AMYLOID:
     → Soluble monomers: SIMILAR to Alzheimer
     → Oligomeric (toxic) forms: LESS
     → NAB61 conformer-specific antibody: lower binding
-    → = Không phải ÍT amyloid — ít DẠNG TOXIC
+    → = Not LESS amyloid — less TOXIC FORM
 
   ③ LESS SYNAPTIC TAU:
-    → Tau phosphorylation PRESENT (giống Alzheimer)
-    → NHƯNG: tau KHÔNG xâm nhập synapse
+    → Tau phosphorylation PRESENT (like Alzheimer)
+    → BUT: tau has NOT invaded the synapse
     → Synaptic compartment: CLEAN
-    → = Tau CÓ nhưng KHÔNG phá synapse
+    → = Tau PRESENT but NOT destroying synapse
 
   ④ LESS NEUROINFLAMMATION:
-    → Astrocyte activation GIẢM
-    → Microglial activation GIẢM
-    → = Immune system KHÔNG overreact
+    → Astrocyte activation REDUCED
+    → Microglial activation REDUCED
+    → = Immune system NOT overreacting
 
-  ⭐ INSIGHT CRITICAL:
-    → Resilience ≠ "chịu được nhiều hơn" (threshold model)
+  ⭐ CRITICAL INSIGHT:
+    → Resilience ≠ "tolerates more" (threshold model)
     → Resilience = ACTIVE PROTECTION mechanisms
     → Pathology present BUT damage BLOCKED at multiple levels
-    → = CÓ rác nhưng rác KHÔNG phá nhà
+    → = HAS garbage but garbage DOES NOT DESTROY the house
 ```
 
-### §12.2 — Centenarians: spread WITHOUT accumulation
+### §12.2 — Centenarians: Spread WITHOUT Accumulation
 
 ```
-⚠️ medRxiv Jan 2026 — PREPRINT (chưa peer-reviewed):
+⚠️ medRxiv Jan 2026 — PREPRINT (not yet peer-reviewed):
 
   Study: 88 Alzheimer patients + 53 controls + 49 centenarians
   Method: LC-MS/MS proteomics, 3,448 proteins analyzed
@@ -2020,35 +2076,38 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ KEY FINDING:
     → 1/3 centenarians: HIGH amyloid + Braak IV-V
     → BUT: LOW LOCAL tau density
-    → = Tau SPREAD (Braak stages high) nhưng KHÔNG TÍCH TỤ tại chỗ
+    → = Tau SPREAD (Braak stages high) but DID NOT ACCUMULATE locally
     → = "Spread WITHOUT accumulation"
 
   PROTEOSTASIS SIGNATURE:
     → Low ubiquitin peptides (waste marker LOW)
     → High PSME2, PSMA4 (proteasome subunits ACTIVE)
     → Maintained beta-oxidation (energy metabolism INTACT)
-    → Alzheimer brains: BOTH ubiquitin VÀ proteasome elevated
-      → = Overwhelmed system: both waste AND cleanup TĂNG nhưng cleanup THUA
+    → Alzheimer brains: BOTH ubiquitin AND proteasome elevated
+      → = Overwhelmed system: both waste AND cleanup INCREASED
+        but cleanup LOSES
 
   ⭐ Framework: negative feedback vs positive feedback
-    → Centenarians: cleanup NHANH → tau cleared → NEGATIVE feedback (stable)
-    → Alzheimer: cleanup CHẬM → tau accumulates → damage → less cleanup → POSITIVE feedback (cascade)
-    → = Tipping point = khi positive feedback > negative feedback
+    → Centenarians: cleanup FAST → tau cleared →
+      NEGATIVE feedback (stable)
+    → Alzheimer: cleanup SLOW → tau accumulates → damage →
+      less cleanup → POSITIVE feedback (cascade)
+    → = Tipping point = when positive feedback > negative feedback
 ```
 
-### §12.3 — 5 Layers of protection hierarchy
+### §12.3 — 5 Layers of Protection Hierarchy
 
 ```
-🟡 FRAMEWORK SYNTHESIS — 5 TẦNG BẢO VỆ:
+🟡 FRAMEWORK SYNTHESIS — 5 PROTECTIVE LAYERS:
 
   ┌─────┬────────────────────┬───────────────────────────────────┐
-  │ Tầng │ Protection         │ Mechanism                         │
+  │Layer│ Protection         │ Mechanism                         │
   ├─────┼────────────────────┼───────────────────────────────────┤
   │ ① │ Proteostasis        │ Protein cleanup: proteasome,       │
   │     │ (protein cleanup)  │ autophagy, chaperone               │
   │     │ UPSTREAM           │ Centenarian signature (§12.2)     │
   ├─────┼────────────────────┼───────────────────────────────────┤
-  │ ② │ Anti-inflammation   │ Microglial control: KHÔNG overreact│
+  │ ② │ Anti-inflammation   │ Microglial control: NO overreact  │
   │     │ UPSTREAM           │ Perez-Nievas finding #4 (§12.1)  │
   ├─────┼────────────────────┼───────────────────────────────────┤
   │ ③ │ Cognitive Reserve   │ Structural buffer: education,      │
@@ -2058,27 +2117,27 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ ④ │ Neural Compensation │ Functional adaptation: recruit     │
   │     │                    │ alternative brain networks         │
   │     │                    │ SuperAgers: larger entorhinal      │
-  │     │                    │ neurons (Gefen 2022, J Neuroscience)│
+  │     │                    │ neurons (Gefen 2022, J Neuroscience│
   ├─────┼────────────────────┼───────────────────────────────────┤
   │ ⑤ │ Synaptic Maintenance│ BDNF, exercise, connection strength│
   │     │                    │ DeKosky 1990: compensatory enlarge │
   └─────┴────────────────────┴───────────────────────────────────┘
 
   HIERARCHY: molecular (①②) → system (③④) → local (⑤)
-    → ①② = UPSTREAM — nếu proteostasis + inflammation OK → damage ÍT
-    → ③④ = BUFFER — chịu được nhiều damage hơn trước khi symptoms
+    → ①② = UPSTREAM — if proteostasis + inflammation OK → LESS damage
+    → ③④ = BUFFER — can tolerate more damage before symptoms
     → ⑤ = LOCAL — from synapse level, maintain connections
     → Molecular failure EVENTUALLY overwhelms system-level buffering
-    → = Tất cả 5 tầng cần thiết, không tầng nào đủ một mình
+    → = All 5 layers necessary, no one layer sufficient alone
 ```
 
-### §12.4 — Alzheimer = failure-to-clear, not just spread
+### §12.4 — Alzheimer = Failure-to-Clear, Not Just Spread
 
 ```
 🟡 FRAMEWORK REFRAME:
 
   EVERYONE produces + spreads tau (aging):
-    → Braak 2011: gần 100% by age 80 có tau ít nhất Braak II
+    → Braak 2011: nearly 100% by age 80 have tau at least Braak II
     → = Tau spreading = UNIVERSAL aging process
 
   Alzheimer = accumulation EXCEEDS clearance capacity:
@@ -2104,18 +2163,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟢 EXCEPTIONAL CASES:
 
   NUN STUDY (Snowdon 1997, Gerontologist 37(2)):
-    → Sister Mary: 101 tuổi, FULL tangles + plaques
+    → Sister Mary: age 101, FULL tangles + plaques
     → Cognitively INTACT until death
     → Key difference: NO cerebrovascular disease
     → = Vascular health × Alzheimer pathology = compound or not
-    → Idea density at age 22 → predicts Alzheimer 58 năm sau
-      Near-100% Alzheimer ở low idea density vs near-0% ở high
-    → ⚠️ "59× risk" — not confirmed from primary source; qualitative is safer
+    → Idea density at age 22 → predicts Alzheimer 58 years later
+      Near-100% Alzheimer in low idea density vs near-0% in high
+    → ⚠️ "59× risk" — not confirmed from primary source;
+      qualitative statement is safer
 
   SUPERAGERS (Northwestern, multiple studies):
     → Gefen et al. 2021 (Cerebral Cortex):
-      3× fewer tangles in entorhinal cortex (vs healthy elderly controls)
-      ⚠️ CORRECTED: 3× vs controls (NOT ~100× — that's vs Alzheimer patients)
+      3× fewer tangles in entorhinal cortex
+      (vs healthy elderly controls)
+      ⚠️ CORRECTED: 3× vs controls
+        (NOT ~100× — that comparison is vs Alzheimer patients)
     → Gefen et al. 2022 (J Neuroscience):
       Entorhinal neurons LARGER than even 20-30 year-olds
     → 2-2.5× more neurogenesis in hippocampus (Nature 2026)
@@ -2131,127 +2193,131 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   RESISTANCE = avoid pathology accumulation:
     → Brain STAYS CLEAN despite aging
     → Proteostasis effective → tau/amyloid cleared
-    → = "Không bị lửa" (prevention)
+    → = "No fire starts" (prevention)
 
   RESILIENCE = maintain function DESPITE pathology:
     → Brain HAS pathology but FUNCTIONS normally
     → Perez-Nievas phenotype: pathology present, damage blocked
-    → = "Có lửa nhưng nhà không sụp" (tolerance)
+    → = "Has fire but house does not collapse" (tolerance)
 
-  ⭐ 20-40% người >65 tuổi: amyloid-positive nhưng MINH MẪN
+  ⭐ 20-40% of people >65 years: amyloid-positive but COGNITIVELY INTACT
     → = Resilience is a MAJOR phenomenon, not rare exception
     → Cognitive Reserve Paradox:
-      Higher reserve = tolerate MORE pathology before symptoms
-      BUT: khi decline bắt đầu → decline NHANH HƠN
-      (Stern 2012: pathology already advanced when reserve depleted)
+      Higher reserve = tolerates MORE pathology before symptoms
+      BUT: when decline starts → decline FASTER
+      (Stern 2012: pathology already advanced when reserve is depleted)
     → Consistent with Phase Transition (§5.3):
-      High reserve delays tipping point, KHÔNG prevent it
+      High reserve delays tipping point, does NOT prevent it
 ```
 
 ---
 
 ## §13 — MUSIC + RELIGION + PROCEDURAL PRESERVATION
 
-### §13.1 — Music: behavioral hierarchy qua từng giai đoạn
+### §13.1 — Music: Behavioral Hierarchy Through Each Stage
 
 ```
-🟢 MUSIC PRESERVATION IN Alzheimer — HIERARCHY:
+🟢 MUSIC PRESERVATION IN ALZHEIMER — HIERARCHY:
 
-  Mất (theo thứ tự):
-    ① Episodic music memory: "Nghe bài này ở đám cưới" → MẤT SỚM
-    ② Semantic music knowledge: "Beethoven viết bài này" → MẤT
-    ③ Emotional recognition: "Bài này buồn/vui" → MẤT MUỘN HƠN
-    ④ Emotional response: khóc/cười khi nghe → KHÁNG LÂU
+  Lost (in this order):
+    ① Episodic music memory: "Heard this at a wedding" → LOST EARLY
+    ② Semantic music knowledge: "Beethoven composed this" → LOST
+    ③ Emotional recognition: "This song is sad/happy" → LOST LATER
+    ④ Emotional response: crying/smiling when hearing → RESISTS LONG
 
-  Còn (kháng nhất):
-    ⑤ Familiar melody recognition: biết bài quen → KHÁNG RẤT LÂU
+  Remains (most resistant):
+    ⑤ Familiar melody recognition: knows a familiar song
+      → RESISTS VERY LONG
       Hsieh et al. 2019: familiar melody = CONTROL-LEVEL accuracy
-    ⑥ Playing instruments: chơi piano bài đã học → PROCEDURAL (§13.4)
-      Crystal et al. 1989: pianist plays correctly but can't NAME pieces
-    ⑦ Rhythm response: vỗ tay, gõ chân → BODY-BASE → CUỐI CÙNG
+    ⑥ Playing instruments: plays practiced piano piece → PROCEDURAL (§13.4)
+      Crystal et al. 1989: pianist plays correctly but cannot NAME pieces
+    ⑦ Rhythm response: clapping, tapping foot → BODY-BASE → LAST
 
   ⭐ CASE STUDIES:
-    → Cowles et al. 2003: violinist với Alzheimer learns NEW song → procedural intact
-    → Henry (documentary "Alive Inside"): catatonic → hear music → ANIMATED
-    → = Music activates PRESERVED pathways trong tòa nhà đang sụp
+    → Cowles et al. 2003: violinist with Alzheimer LEARNS NEW SONG
+      → procedural intact
+    → Henry (documentary "Alive Inside"): catatonic → hears music → ANIMATED
+    → = Music activates PRESERVED PATHWAYS in a collapsing building
 ```
 
-### §13.2 — Tại sao music kháng: 3-factor model
+### §13.2 — Why Music Resists: 3-Factor Model
 
 ```
 🟢 JACOBSEN ET AL. 2015 (Brain 138:2438-2450):
 
-  Musical memory stored ở brain regions ÍTBỊ PHÁ:
+  Musical memory stored in brain regions LEAST DAMAGED BY ALZHEIMER:
     → SMA (supplementary motor area) — MOTOR area
     → Ventral pre-SMA
     → cACC (caudal anterior cingulate cortex)
-    → = MOTOR areas, không phải memory areas → Alzheimer spares
+    → = MOTOR areas, not memory areas → Alzheimer spares these
 
 🟡 FRAMEWORK: 3-FACTOR MODEL:
 
-  ① COMPILE DEPTH CỰC CAO:
-    → Repetition: nghe bài hát 1000× suốt đời
-    → Emotional peak: gắn với moments đặc biệt
-    → Multi-modal: auditory + motor + emotional + social + temporal
-    → TẤT CẢ 4 compile pathways cùng lúc → depth MAXIMUM
+  ① EXTREMELY HIGH COMPILE DEPTH:
+    → Repetition: heard a song 1000× over a lifetime
+    → Emotional peak: tied to special moments
+    → Multimodal: auditory + motor + emotional + social + temporal
+    → ALL 4 compile pathways simultaneously → depth MAXIMUM
 
   ② DISTRIBUTED STORAGE:
-    → Musical chunks stored ACROSS nhiều brain regions
-    → Auditory cortex + SMA + cACC + temporal + cerebellum + amygdala
-    → Focal damage 1 vùng → KHÔNG phá hết musical memory
+    → Musical chunks stored ACROSS many brain regions
+    → Auditory cortex + SMA + cACC + temporal + cerebellum
+      + amygdala
+    → Focal damage to 1 region → does NOT destroy all musical memory
 
   ③ EMOTIONAL BINDING:
-    → Music gắn emotional memories (amygdala + opioid compile)
-    → Amygdala bị phá MUỘN HƠN hippocampus
-    → = Emotional anchor CÒN khi cognitive anchor MẤT
+    → Music tied to emotional memories (amygdala + opioid compile)
+    → Amygdala destroyed LATER THAN hippocampus
+    → = Emotional anchor REMAINS when cognitive anchor IS GONE
 
   Resistance = f(DEPTH × DISTRIBUTION × EMOTIONAL):
     Music: HIGH × HIGH × HIGH = MOST RESISTANT
     Recent: LOW × LOW × LOW = LEAST RESISTANT
 ```
 
-### §13.3 — Religion = maximum compile resistance
+### §13.3 — Religion = Maximum Compile Resistance
 
 ```
 🟡 FRAMEWORK SYNTHESIS + 🟢 RESEARCH:
 
-  ⭐ RELIGION engages 6 memory systems ĐỒNG THỜI:
-    → Procedural: quỳ, lần chuỗi, khấu đầu, dấu thánh giá
-    → Emotional: devotion, awe, cảm xúc cộng đồng
-    → Semantic: giáo lý, kinh văn, đạo đức
-    → Episodic: kinh nghiệm tâm linh, lễ hội
-    → Social: giáo đoàn, connection (Connection.md §1-§3)
-    → Motor: chanting, hát thánh ca, ritual movements
+  ⭐ RELIGION engages 6 memory systems SIMULTANEOUSLY:
+    → Procedural: kneeling, rosary beads, bowing, making the sign of cross
+    → Emotional: devotion, awe, communal feeling
+    → Semantic: doctrine, scripture, ethics
+    → Episodic: spiritual experiences, holy days
+    → Social: congregation, connection (Connection.md §1-§3)
+    → Motor: chanting, singing hymns, ritual movements
 
-  = MAXIMUM REDUNDANCY — không "công nghệ" nào khác cover NHIỀU systems cùng lúc
-  = Background-Pattern link density CỰC CAO (Religion.md v2.4)
+  = MAXIMUM REDUNDANCY — no other "technology" covers this many systems simultaneously
+  = Background-Pattern link density EXTREMELY HIGH (Religion.md v2.4)
 
 🟢 RESEARCH EVIDENCE:
   → Kaufman et al. 2007 (Neurology 68(18):1509-1514):
     N=70, private spiritual practices → SLOWER cognitive decline (p<0.005)
     Private (personal prayer) > organized (church attendance)
-    = Practice kích hoạt NHIỀU systems > passive attendance
+    = Practice activates MORE systems > passive attendance
   → PERAT framework (PMC 4539237):
     Procedural + Emotional Religious-based Activity Therapy
     Targets preserved procedural + emotional pathways
-    = Therapy tận dụng chính các pathways kháng Alzheimer nhất
+    = Therapy leverages exactly the pathways most resistant to Alzheimer
 
-  Framework prediction: religious practice từ NHỎ → compile depth CỰC SÂU
-    → + 6 systems × decades = resistance GẦN BẰNG hoặc VƯỢT music
-    → Nhưng: organized religion CÓ THỂ mất nếu social component mất
-    → Private practice = more robust (không phụ thuộc external)
+  Framework prediction: religious practice from CHILDHOOD
+    → compile depth EXTREMELY DEEP
+    → + 6 systems × decades = resistance NEAR OR EXCEEDING music
+    → But: organized religion CAN be lost if social component is lost
+    → Private practice = more robust (not dependent on external)
 ```
 
-### §13.4 — Procedural memory: different pathway, different vulnerability
+### §13.4 — Procedural Memory: Different Pathway, Different Vulnerability
 
 ```
 🟢 PROCEDURAL MEMORY PRESERVED:
 
   Procedural memory (implicit):
-    → Riding bicycle, typing, brushing teeth, eating with chopsticks
+    → Riding a bicycle, typing, brushing teeth, eating with chopsticks
     → Stored: basal ganglia + cerebellum (SUBCORTICAL)
     → Alzheimer: cortical atrophy → subcortical RELATIVELY SPARED
-    → = Procedural chunks TỒN TẠI lâu hơn declarative chunks
+    → = Procedural chunks PERSIST longer than declarative chunks
 
   Reber 2013:
     → Declarative memory (explicit recall) = devastated
@@ -2259,42 +2325,44 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Emotional conditioning = preserved
     → Priming effects = preserved
 
-  ⭐ SO SÁNH PARKINSON:
-    → Parkinson: basal ganglia CHẾT → procedural CÓ THỂ bị ảnh hưởng
-    → Alzheimer: basal ganglia SPARED → procedural CÒN
-    → = NGƯỢC VỚI PARKINSON ở procedural memory
+  ⭐ COMPARISON WITH PARKINSON:
+    → Parkinson: basal ganglia DIES → procedural CAN be affected
+    → Alzheimer: basal ganglia SPARED → procedural REMAINS
+    → = OPPOSITE OF PARKINSON for procedural memory
 ```
 
-### §13.5 — Music + Religion therapy: activate preserved
+### §13.5 — Music + Religion Therapy: Activate What Is Preserved
 
 ```
 🟢 MUSIC THERAPY EVIDENCE:
 
   Meta-analyses (Geriatrics & Gerontology; Nature Mental Health 2024):
-    → Giảm agitation, anxiety, depression ✓ (SIGNIFICANT)
+    → Reduces agitation, anxiety, depression ✓ (SIGNIFICANT)
     → Personalized/favorite music > generic music
-    → Receptive music > interactive cho giảm agitation
+    → Receptive music > interactive for agitation reduction
     → Cognitive improvement → evidence LIMITED + AMBIGUOUS
-    → Daily functioning → KHÔNG significant improvement
+    → Daily functioning → NOT significant improvement
 
-  Framework: therapy = ACTIVATE preserved, KHÔNG RESTORE lost
-    → Personalized > generic: match EXISTING deep-compiled chunks
-    → Music từ THỜI TRẺ > mới: thời trẻ = peak compile depth
-    → Music + PEOPLE > music alone: hardware social drive + music = compound
+  Framework: therapy = ACTIVATES preserved, does NOT RESTORE lost
+    → Personalized > generic: matches EXISTING deeply-compiled chunks
+    → Music from YOUTH > new music: youth = peak compile depth
+    → Music + PEOPLE > music alone:
+      hardware social drive + music = compound
     → Music + Religious practice: MAXIMUM activation (6 systems)
 
-  ⚠️ Music/religion therapy = quality of life, KHÔNG modify disease
-    → Khi thôi → agitation có thể quay lại
-    → Nhưng: caregiver burden + patient wellbeing = REAL benefits
+  ⚠️ Music/religion therapy = quality of life,
+    does NOT modify disease progression
+    → When stopped → agitation may return
+    → But: caregiver burden + patient wellbeing = REAL benefits
 ```
 
-### §13.6 — Framework: Degradation order validates compilation model
+### §13.6 — Framework: Degradation Order Validates Compilation Model
 
 ```
 🟡 FRAMEWORK SYNTHESIS — DEGRADATION ORDER = COMPILATION ORDER:
 
   ┌────────────────┬──────────┬──────────┬──────────┬──────────┐
-  │ Memory Type     │ Depth    │ Distrib. │ Emotional│ Myelin   │
+  │ Memory Type    │ Depth    │ Distrib. │ Emotional│ Myelin   │
   ├────────────────┼──────────┼──────────┼──────────┼──────────┤
   │ Recent episodic│ LOW      │ LOW      │ LOW      │ LATE     │
   │ Semantic       │ MEDIUM   │ MEDIUM   │ LOW      │ MIXED    │
@@ -2304,7 +2372,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Religion       │ HIGH     │ HIGH     │ HIGH     │ EARLY    │
   └────────────────┴──────────┴──────────┴──────────┴──────────┘
 
-  Degradation order: Recent → Semantic → Childhood → Procedural → Music ≈ Religion
+  Degradation order:
+    Recent → Semantic → Childhood → Procedural → Music ≈ Religion
   = MATCHES framework compilation model
   = Alzheimer progression VALIDATES chunk depth × distribution model
   = Resistance = f(Depth × Distribution × Emotional × Systems × Myelin Age)
@@ -2314,10 +2383,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §14 — COGNITIVE ACTIVITY + STRESS
 
-### §14.1 — "Use it or lose it" evidence
+### §14.1 — "Use It or Lose It" Evidence
 
 ```
-🟢 COGNITIVE ACTIVITY × Alzheimer RISK:
+🟢 COGNITIVE ACTIVITY × ALZHEIMER RISK:
 
   Wilson et al. 2007 (Neurology 69(20):1911-1920):
     → N=700+, Rush Memory and Aging Project
@@ -2326,22 +2395,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Wilson et al. 2021 (Neurology 97(9):e922-929):
     → N=1,903, same project
-    → High cognitive activity delays onset ~5 YEARS (88.6→93.6 tuổi)
-    → = 5 năm MINH MẪN thêm
+    → High cognitive activity delays onset ~5 YEARS (88.6→93.6 years)
+    → = 5 additional years of cognitive clarity
 
   TV vs reading (AHA conference 2021, ARIC study):
-    → Moderate-to-high TV viewing → 6.9% greater cognitive decline over 15 years
+    → Moderate-to-high TV viewing → 6.9% greater cognitive decline
+      over 15 years
     → ⚠️ Conference presentation, NOT peer-reviewed journal article
 
   ⭐ CRITICAL INSIGHT (Wilson 2007 autopsy data):
     → 102 persons died, brain autopsy
     → Neuropathology NOT related to cognitive activity
-    → = Activity KHÔNG ngăn pathology accumulation
-    → = Activity builds RESILIENCE (§12.3 layer ③④)
-    → = "Use it" → brain buffers MORE, not cleans MORE
+    → = Activity does NOT prevent pathology accumulation
+    → = Activity builds RESILIENCE (§12.3 layers ③④)
+    → = "Use it" → brain BUFFERS MORE, not CLEANS MORE
 ```
 
-### §14.2 — Retirement × cognitive decline
+### §14.2 — Retirement × Cognitive Decline
 
 ```
 🟢 ROHWEDDER & WILLIS 2010 (J Economic Perspectives 24(1):119-138):
@@ -2350,18 +2420,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → US, UK, 11 European countries
     → Not working → 37% reduction in word recall
     → Countries with earlier retirement → worse cognitive scores
-    → = "Nghỉ hưu sớm" at population level → cognitive decline NHANH HƠN
+    → = "Early retirement" at population level →
+      cognitive decline FASTER
 
   Whitehall II study:
     → Verbal memory decline 38% FASTER after retirement
     → Specifically: verbal fluency, episodic memory
 
   ⭐ CRITICAL DISTINCTION:
-    → Voluntary + ACTIVE retirement (travel, learn, social) = neutral/protective
+    → Voluntary + ACTIVE retirement (travel, learning, social) = neutral/protective
     → Forced + INACTIVE retirement (TV, isolation) = harmful
-    → = Not retirement ITSELF — nhưng LOSS OF COGNITIVE DEMAND
+    → = Not retirement ITSELF — but LOSS OF COGNITIVE DEMAND
     → Framework: cognitive demand = chunk compile + maintain
-    → Remove demand → compile CHẬM → reserve BUILD CHẬM
+    → Remove demand → compile SLOWS → reserve BUILDS SLOWLY
 ```
 
 ### §14.3 — Stress × Alzheimer
@@ -2379,38 +2450,51 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Lupien et al. 1998 (Nature Neuroscience 1:69-73):
     → Prolonged cortisol elevation → hippocampus -14% volume
     → + Memory deficits
-    → = Cortisol TRỰC TIẾP phá hippocampus (chunk compilation center)
+    → = Cortisol DIRECTLY damages hippocampus
+      (chunk compilation center)
 
   Green et al. 2006 (J Neuroscience 26(35):9047):
     → Glucocorticoids increase APP processing + β-secretase (BACE) activity
-    → = Cortisol VỪA phá hippocampus VỪA tăng Aβ production
-    → = DOUBLE HIT: phá hardware + tăng pathology
+    → = Cortisol BOTH damages hippocampus AND increases Aβ production
+    → = DOUBLE HIT: destroys hardware + increases pathology
 
   Framework (Cortisol-Baseline.md v2.1):
-    → Chronic stress → cortisol chronic → hippocampus shrinks → compile weaker
+    → Chronic stress → chronic cortisol
+      → hippocampus shrinks → compile weaker
     → + Aβ production increases → amyloid accumulates faster
     → + Sleep disruption (cortisol disrupts sleep) → glymphatic OFF
     → = TRIPLE HIT: hippocampus + amyloid + sleep
+
+  ⚠️ Cortisol role here = AMPLIFIER, not root cause:
+    → Root cause of Alzheimer = tau/amyloid/synaptic failure
+    → Cortisol AMPLIFIES pathology by:
+      ① Shrinking hippocampus (reducing compile capacity)
+      ② Increasing Aβ production (accelerating amyloid load)
+      ③ Disrupting sleep (shutting down glymphatic clearance)
+    → Cortisol does not CAUSE Alzheimer — it ACCELERATES
+      and DEEPENS the damage through these 3 amplifier channels
 ```
 
-### §14.4 — Compound: sleep + active + social + low stress
+### §14.4 — Compound: Sleep + Active + Social + Low Stress
 
 ```
 🟢 MULTIMODAL EVIDENCE:
 
   Ikigai (sense of purpose):
     → Okuzono et al. 2022 (Lancet Reg Health WP 21:100391):
-      N=6,441+8,041, Japanese 65+
+      N=6,441+8,041, Japanese age 65+
       Having ikigai → -36% dementia risk over 3 years
-    → Framework: purpose = Meaning anchor (Meaning.md) → maintained chunk activity
+    → Framework: purpose = Meaning anchor (Meaning.md)
+      → maintained chunk activity
 
   Blue Zones:
-    → ~1/5 dementia rate vs general population
-    → Ikaria (Greece): 75% lower dementia >85 tuổi
-    → Common: purpose + social + active + low stress + sleep regularity
+    → ~1/5 the dementia rate vs general population
+    → Ikaria (Greece): 75% lower dementia rates >age 85
+    → Common features: purpose + social + active + low stress
+      + sleep regularity
 
   FINGER Trial (Ngandu 2015, Lancet 385(9984):2255-2263):
-    → N=1,260, at-risk 60-77 tuổi
+    → N=1,260, at-risk age 60-77
     → Multimodal: diet + exercise + cognitive training + vascular risk
     → 25% better cognition (composite NTB score)
     → Executive function +83%, processing speed +150%
@@ -2419,130 +2503,133 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → N=2,111 — confirms FINGER model in US population
     → World-Wide FINGERS: now 60-70+ countries
 
-  ⭐ FRAMEWORK: "Chán" ≠ "Thư giãn":
-    → Chán = chunk-gap without direction → stress + cortisol
-    → Thư giãn = body-base met, chunk-gap SATISFIED → recovery
-    → Active retirement: thư giãn WITH cognitive demand = optimal
-    → Passive retirement: chán WITHOUT demand = harmful
+  ⭐ FRAMEWORK: "Boredom" ≠ "Rest":
+    → Boredom = Chunk-Gap without direction → stress + cortisol
+    → Rest = body-base met, Chunk-Gap SATISFIED → recovery
+    → Active retirement: rest WITH cognitive demand = optimal
+    → Passive retirement: boredom WITHOUT demand = harmful
 ```
 
 ---
 
-## §15 — SO SÁNH: PARKINSON vs ALZHEIMER
+## §15 — COMPARISON: PARKINSON vs ALZHEIMER
 
-### §15.1 — Neurodegeneration Cluster: 2 faces of hardware degradation
+### §15.1 — Neurodegeneration Cluster: 2 Faces of Hardware Degradation
 
 ```
-🟡 2 BỆNH THOÁI HÓA × CÙNG FRAMEWORK × KHÁC CƠ CHẾ:
+🟡 2 NEURODEGENERATIVE DISEASES × SAME FRAMEWORK × DIFFERENT MECHANISMS:
 
   ┌──────────────────┬────────────────────────┬────────────────────────┐
   │                  │ PARKINSON              │ ALZHEIMER              │
   ├──────────────────┼────────────────────────┼────────────────────────┤
-  │ Hệ NT chính      │ Dopamine               │ Acetylcholine          │
-  │ Protein toxic     │ α-synuclein            │ Amyloid-beta + Tau     │
-  │ Vùng bắt đầu     │ SNc (brainstem)         │ Entorhinal (temporal)  │
-  │ Spread direction  │ BOTTOM-UP              │ INSIDE-OUT             │
-  │ Tấn công          │ MODULATORY neurons     │ PROCESSING neurons     │
-  │                  │ (mạch phụ)              │ + chunk substrate       │
-  │ Primary loss      │ GATE locked            │ SYNAPSES mất            │
-  │ Triệu chứng đầu  │ Motor (tremor, rigid)  │ Memory (quên mới)      │
-  │ Identity          │ PRESERVED              │ FRAGMENTED → lost      │
-  │ Wanting           │ IMPAIRED               │ Intact (sớm)→mất (muộn)│
-  │ Liking            │ PRESERVED              │ Intact→mất (muộn)      │
-  │ Body-feedback     │ Signal đến, response   │ Signal fire, PFC       │
-  │                  │ delay/distort           │ KHÔNG đọc được         │
-  │ Caregiver         │ Vất vả, CÓ tương tác   │ Ambiguous loss         │
-  │ Medication        │ Levodopa (restore dopamine)│ ChEI (preserve ACh)│
-  │ Med efficacy      │ Giảm dần (converters   │ Giảm dần (neurons      │
-  │                  │ chết + cortex degrade)  │ chết → less to preserve)│
-  │ Prevalence        │ ~8.5M (2019)           │ ~57M dementia (2019)   │
-  │ Survival          │ 10-20 năm              │ 4-8 năm                │
+  │ Main NT system   │ Dopamine               │ Acetylcholine          │
+  │ Toxic protein    │ α-synuclein            │ Amyloid-beta + Tau     │
+  │ Starting region  │ SNc (brainstem)        │ Entorhinal (temporal)  │
+  │ Spread direction │ BOTTOM-UP              │ INSIDE-OUT             │
+  │ Attacks          │ MODULATORY neurons     │ PROCESSING neurons     │
+  │                  │ (secondary circuit)    │ + chunk substrate      │
+  │ Primary loss     │ GATE locked            │ SYNAPSES lost          │
+  │ First symptoms   │ Motor (tremor, rigid)  │ Memory (forget new)    │
+  │ Identity         │ PRESERVED              │ FRAGMENTED → lost      │
+  │ Wanting          │ IMPAIRED               │ Intact (early)→lost(late│
+  │ Liking           │ PRESERVED              │ Intact→lost (late)     │
+  │ Body-feedback    │ Signal arrives, resp.  │ Signal fires, PFC      │
+  │                  │ delay/distorted        │ CANNOT READ it         │
+  │ Caregiver        │ Difficult, HAS respond │ Ambiguous loss         │
+  │ Medication       │ Levodopa (restore dop.)│ ChEI (preserve ACh)   │
+  │ Med efficacy     │ Decreases (converters  │ Decreases (neurons die │
+  │                  │ die + cortex degrades) │ → less to preserve)    │
+  │ Prevalence       │ ~8.5M (2019)           │ ~57M dementia (2019)   │
+  │ Survival         │ 10-20 years            │ 4-8 years              │
   └──────────────────┴────────────────────────┴────────────────────────┘
 ```
 
-### §15.2 — Common ground qua framework
+### §15.2 — Common Ground Through Framework
 
 ```
 🟡 COMMON GROUND:
 
   ① PROTEIN MISFOLD → SPREAD:
-    → Parkinson: α-synuclein misfold → prion-like spread
+    → Parkinson: α-synuclein misfolds → prion-like spread
     → Alzheimer: tau + amyloid → trans-synaptic spread
-    → CẢ HAI: protein bình thường → misfold → cascade → irreversible
+    → BOTH: normal protein → misfolds → cascade → irreversible
 
   ② MODULATORY SYSTEM HIT:
-    → Parkinson: dopamine system (SNc chết)
-    → Alzheimer: acetylcholine system (NbM chết)
+    → Parkinson: dopamine system (SNc dies)
+    → Alzheimer: acetylcholine system (NbM dies)
     → Modulatory neurons = small populations, high metabolic demand
 
   ③ MEDICATION = COMPENSATE, NOT FIX:
-    → Parkinson: Levodopa = restore dopamine externally
-    → Alzheimer: ChEI = preserve remaining ACh
-    → CẢ HAI: efficacy GIẢM DẦN khi neurons tiếp tục chết
+    → Parkinson: Levodopa = restores dopamine externally
+    → Alzheimer: ChEI = preserves remaining ACh
+    → BOTH: efficacy GRADUALLY DECREASES as neurons continue to die
 
   ④ BODY-FEEDBACK DISRUPTED:
-    → Parkinson: body signals arrive but RESPONSE fail (gate locked)
-    → Alzheimer: body signals fire but PFC DOESN'T READ (chunks mất)
+    → Parkinson: body signals arrive but RESPONSE FAILS (gate locked)
+    → Alzheimer: body signals fire but PFC DOESN'T READ
+      (chunks gone)
 
-  ⑤ PROGRESSIVE, IRREVERSIBLE (hiện tại):
+  ⑤ PROGRESSIVE, IRREVERSIBLE (currently):
     → Hardware damage ≠ software corruption
     → Software: re-compilable (addiction recovery)
-    → Hardware: KHÔNG re-compilable (neurons chết = mất)
+    → Hardware: NOT re-compilable (dead neurons = lost)
 ```
 
-### §15.3 — Key DIFFERENCE: execution fail vs chunk loss
+### §15.3 — Key DIFFERENCE: Execution Fail vs Chunk Loss
 
 ```
-🟡 KHÁC BIỆT CỐT LÕI:
+🟡 CORE DIFFERENCE:
 
   PARKINSON:
-    → PFC predict ĐÚNG ("tôi muốn bước đi")
-    → Motor cortex send ĐÚNG (lệnh đi qua)
-    → Gate LOCKED → muscle KHÔNG nhận "GO"
-    → = BIẾT mình muốn gì → KHÔNG LÀM ĐƯỢC
+    → PFC predicts CORRECTLY ("I want to take a step")
+    → Motor cortex sends CORRECTLY (command goes through)
+    → Gate LOCKED → muscle does NOT receive "GO"
+    → = KNOWS what it wants → CANNOT DO IT
 
   ALZHEIMER:
-    → Motor cortex CÒN (late to degrade)
-    → Nhưng chunks about WHERE, WHY, WHO = MẤT
-    → = KHÔNG BIẾT mình muốn gì → body vẫn drive
+    → Motor cortex STILL INTACT (late to degrade)
+    → But chunks about WHERE, WHY, WHO = GONE
+    → = DOES NOT KNOW what it wants → body still drives
 
   METAPHOR:
-    Parkinson = nhạc sĩ ngồi trước piano, tay RUN không chơi được
-    → Biết bài gì, muốn chơi, KHÔNG CHƠI ĐƯỢC
-    
-    Alzheimer = nhạc sĩ ngồi trước piano, QUÊN biết chơi piano
-    → Piano còn nguyên, ngón tay khỏe, KHÔNG NHỚ bài nào
+    Parkinson = musician sitting at piano, hand TREMBLES, cannot play
+    → Knows the piece, wants to play, CANNOT PLAY
+
+    Alzheimer = musician sitting at piano, FORGETS HOW TO PLAY PIANO
+    → Piano intact, fingers healthy, CANNOT REMEMBER any piece
 
   Framework:
-    Parkinson = prediction intact + execution fail
-    Alzheimer = prediction MATERIAL mất (không có gì để predict WITH)
-    → Parkinson: đau khổ BIẾT ("tôi biết mà không làm được")
-    → Alzheimer: đau khổ DẦN MẤT AWARENESS
-    → ⚠️ Alzheimer patients VẪN CÓ body-feedback — suffering THẬT, chỉ không DIỄN ĐẠT được
+    Parkinson = prediction intact + execution fails
+    Alzheimer = prediction MATERIAL gone
+      (nothing left to predict WITH)
+    → Parkinson: suffers KNOWING ("I know but cannot do")
+    → Alzheimer: suffering GRADUALLY LOSES AWARENESS
+    → ⚠️ Alzheimer patients STILL HAVE body-feedback
+      — suffering IS REAL, just CANNOT BE EXPRESSED
 ```
 
 ---
 
 ## §16 — TREATMENT
 
-### §16.1 — Landscape hiện tại
+### §16.1 — Current Landscape
 
 ```
-🟢 4 LOẠI TREATMENT APPROACH:
+🟢 4 TREATMENT APPROACHES:
 
   ① CHOLINESTERASE INHIBITORS (§10.4):
     → Donepezil, Rivastigmine, Galantamine
-    → Mild-to-moderate Alzheimer. Symptomatic only, GIẢM DẦN.
+    → Mild-to-moderate Alzheimer. Symptomatic only, GRADUALLY DECLINES.
 
   ② MEMANTINE (Namenda):
     → NMDA receptor antagonist. Moderate-to-severe Alzheimer.
-    → Block excessive glutamate → giảm excitotoxicity
-    → Thường COMBINATION với ChEI
+    → Blocks excessive glutamate → reduces excitotoxicity
+    → Often COMBINED with ChEI
 
   ③ ANTI-AMYLOID ANTIBODIES (2023-2024):
-    → Lecanemab (2023): 27% slow decline. ARIA risks. EMA từ chối.
+    → Lecanemab (2023): 27% slow decline. ARIA risks. EMA rejected.
     → Donanemab (2024): 35% slow, 84% amyloid reduction. ARIA-E 24%.
-    → Cost: ~$26,500/năm + monitoring MRI
+    → Cost: ~$26,500/year + MRI monitoring
     → Debate: clinical meaningfulness vs statistical significance
 
   ④ NON-PHARMACOLOGICAL:
@@ -2552,7 +2639,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Caregiver support (§9.4)
 ```
 
-### §16.2 — 2024 NIA-AA revised criteria + future directions
+### §16.2 — 2024 NIA-AA Revised Criteria + Future Directions
 
 ```
 🟢 NIA-AA WORKGROUP 2024 — PARADIGM SHIFT:
@@ -2560,18 +2647,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Revised criteria: BIOLOGICAL DEFINITION of Alzheimer:
     → Alzheimer defined by biomarkers, NOT symptoms
     → Blood biomarkers: p-tau217 now included for diagnosis
-    → = Shift từ "clinical syndrome" → "biological entity"
-    → Enable earlier diagnosis + trial enrollment
+    → = Shift from "clinical syndrome" → "biological entity"
+    → Enables earlier diagnosis + trial enrollment
 
   AMARANTH 2025 (Nature Communications):
     → Re-analysis of "failed" BACE1 inhibitor trial
     → AI patient stratification → subgroup showed 46% slowing
-    → = Trial didn't fail — wrong patients were included
+    → = Trial did not fail — wrong patients were included
     → = Heterogeneity (§1.6) = KEY reason for trial failure
     → Precision medicine / subtyping = future direction
 ```
 
-### §16.3 — Framework: "cure" cần gì?
+### §16.3 — Framework: What Would "Cure" Require?
 
 ```
 🔴 HYPOTHESIS — WHAT WOULD "CURE" LOOK LIKE:
@@ -2584,13 +2671,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ① = Possible in theory (tau-targeting drugs in trials)
   ② = Extremely difficult (adult neurogenesis limited)
   ③ = IMPOSSIBLE with current understanding
-    → Chunks = PERSONAL experiences compiled over LIFETIME
-    → KHÔNG có "backup" ngoài brain
-    → Neurons mới = BLANK → need to compile lại TỪ ĐẦU
-    → Memories/experiences = CỦA QUÁ KHỨ → không compile lại được
+    → Chunks = PERSONAL experiences compiled over a LIFETIME
+    → NO "backup" exists outside the brain
+    → New neurons = BLANK → need to compile again FROM SCRATCH
+    → Memories/experiences = FROM THE PAST → cannot re-compile
 
   Framework:
-    → Best case near-future: ① STOP tau + proteostasis enhance
+    → Best case near-future: ① STOP tau + proteostasis enhancement
     → Prevention > Cure: 14 modifiable factors (Livingston 2020/2024)
     → Early detection + early intervention = BEST STRATEGY
     → Multi-target approach (Lancet 2025) + patient stratification
@@ -2598,102 +2685,103 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §17 — Alzheimer AS REVERSE-ENGINEERING LENS
+## §17 — ALZHEIMER AS REVERSE-ENGINEERING LENS
 
-### §17.1 — Degradation order → infer compilation architecture
+### §17.1 — Degradation Order → Infer Compilation Architecture
 
 ```
-🟡 FRAMEWORK: Alzheimer = "KHẢO CỔ SỐNG"
+🟡 FRAMEWORK: Alzheimer = "LIVING ARCHAEOLOGY"
 
   What's lost LAST = compiled DEEPEST:
     → Alzheimer strips brain functions from SURFACE → CORE
-    → Each layer removed = REVEALS layer beneath
+    → Each layer removed = REVEALS the layer beneath
     → = Natural experiment showing compilation ORDER
 
-  "Khảo cổ sống":
-    → Nhà khảo cổ: đào lớp trên → thấy lớp dưới cổ hơn
-    → Alzheimer: phá lớp mới → lộ lớp cũ compiled sâu hơn
-    → Lớp cuối: body-base + earliest compiled chunks
-    → = Alzheimer cho thấy KIẾN TRÚC NÃO qua quá trình xói mòn
+  "Living archaeology":
+    → Archaeologist: digs top layer → sees older layer beneath
+    → Alzheimer: destroys new layer → exposes older, more deeply
+      compiled layer beneath
+    → Final layer: body-base + earliest compiled chunks
+    → = Alzheimer reveals BRAIN ARCHITECTURE through the erosion process
 ```
 
-### §17.2 — Layered model visible through Alzheimer
+### §17.2 — Layered Model Visible Through Alzheimer
 
 ```
-🟡 5-LAYER COMPILATION VISIBLE QUA Alzheimer:
+🟡 5-LAYER COMPILATION VISIBLE THROUGH ALZHEIMER:
 
-  Layer 4: EPISODIC (recent events) — MẤT ĐẦU TIÊN
-    → Hippocampus-dependent, compile nông, single-trace
-  Layer 3: SEMANTIC (knowledge, language) — MẤT THỨ 2
-    → Temporal cortex, distributed nhưng cortical
-  Layer 2: EMOTIONAL (valence, attachment) — MẤT MUỘN
+  Layer 4: EPISODIC (recent events) — LOST FIRST
+    → Hippocampus-dependent, shallow compile, single-trace
+  Layer 3: SEMANTIC (knowledge, language) — LOST SECOND
+    → Temporal cortex, distributed but cortical
+  Layer 2: EMOTIONAL (valence, attachment) — LOST LATER
     → Amygdala, subcortical anchoring
-  Layer 1: PROCEDURAL (skills, habits) — KHÁNG LÂU
+  Layer 1: PROCEDURAL (skills, habits) — RESISTS LONG
     → Basal ganglia + cerebellum, subcortical
-  Layer 0: BODY-BASE (pain, hunger, autonomic) — CUỐI CÙNG
+  Layer 0: BODY-BASE (pain, hunger, autonomic) — LAST
     → Brainstem, hypothalamus, evolutionary oldest
 
-  Alzheimer phá 4→3→2→1→0 = REVERSE COMPILATION ORDER
+  Alzheimer destroys 4→3→2→1→0 = REVERSE COMPILATION ORDER
   Reisberg 2002 Retrogenesis: abilities lost = REVERSE developmental order
-  = Compilation order = developmental order = Alzheimer reverse order
+  = Compilation order = developmental order = Alzheimer reverses it
 ```
 
-### §17.3 — Architecture determines pattern, NOT cause
+### §17.3 — Architecture Determines Pattern, NOT Cause
 
 ```
 ⭐ CORE INSIGHT:
 
-  NHIỀU nguyên nhân khác nhau → CÙNG pattern suy thoái:
-    → Amyloid cascade → phá nông trước, sâu sau
-    → Tau spreading → phá nông trước, sâu sau
-    → Vascular → phá nông trước, sâu sau
-    → Inflammation → phá nông trước, sâu sau
+  MANY DIFFERENT causes → SAME pattern of deterioration:
+    → Amyloid cascade → destroys shallow before deep
+    → Tau spreading → destroys shallow before deep
+    → Vascular → destroys shallow before deep
+    → Inflammation → destroys shallow before deep
 
-  TẠI SAO? Vì:
-    pattern = f(kiến trúc não), KHÔNG phải f(nguyên nhân)
-    → Bất kỳ progressive degradation nào
-    → → Phá region myelinate MUỘN trước
-    → → Phá hippocampus-dependent chunks trước
-    → → Phá compile nông trước
-    → → = CÙNG PATTERN
+  WHY? Because:
+    pattern = f(brain architecture), NOT f(cause)
+    → Any progressive degradation
+    → → Destroys late-myelinating regions first
+    → → Destroys hippocampus-dependent chunks first
+    → → Destroys shallowly-compiled chunks first
+    → → = SAME PATTERN
 
-  "Dù lửa bắt đầu từ đâu, tòa nhà sụp từ tầng cao nhất xuống."
+  "No matter where the fire starts, the building collapses from the top floor down."
 
-  ⭐ HỆ QUẢ CHO FRAMEWORK:
-    → Framework CÓ THỂ phân tích PATTERN mà KHÔNG CẦN biết cause
-    → Cause = molecular biology question (thuộc y khoa)
-    → Pattern = architectural question (thuộc framework)
-    → = 2 câu hỏi ĐỘC LẬP — framework VALID cho pattern
+  ⭐ IMPLICATIONS FOR FRAMEWORK:
+    → Framework CAN analyze PATTERN without needing to know the cause
+    → Cause = molecular biology question (belongs to medicine)
+    → Pattern = architectural question (belongs to framework)
+    → = 2 INDEPENDENT questions — framework VALID for pattern
 ```
 
-### §17.4 — Background-Pattern distribution
+### §17.4 — Background-Pattern Exposed
 
 ```
-🟡 BACKGROUND PATTERN EXPOSED:
+🟡 BACKGROUND-PATTERN EXPOSED:
 
   Background-Pattern (Background-Pattern.md v1.0):
     → High link density + neocortex-embedded → RESISTANT to Alzheimer
     → Background-Pattern = accumulated chunk bias invisible to PFC
-    → Khi overlay mất → Background-Pattern LỘ RA
+    → When overlay lost → Background-Pattern IS EXPOSED
 
-  "Personality changes" ở Alzheimer:
-    → KHÔNG phải personality THAY ĐỔI — personality EXPOSED
+  "Personality changes" in Alzheimer:
+    → NOT personality CHANGING — personality BEING EXPOSED
     → Recent overlay stripped → early-formed Background-Pattern visible
     → = Alzheimer reveals GENUINE underlying patterns
-    → = Data cho: cái gì là "core" vs cái gì là "learned overlay"
+    → = Data about what is "core" vs what is "learned overlay"
 ```
 
-### §17.5 — Data quan trọng nhất cho framework
+### §17.5 — Most Important Data for Framework
 
 ```
-🟡 Alzheimer CLINICAL DATA = TRỰC TIẾP VỀ CHUNK ARCHITECTURE:
+🟡 ALZHEIMER CLINICAL DATA = DIRECTLY ABOUT CHUNK ARCHITECTURE:
 
   Alzheimer provides:
     → Degradation ORDER → compilation order
-    → Resistance HIERARCHY → compile depth model
+    → Resistance HIERARCHY → validate compile depth model
     → Music/religion/procedural preservation → validate multi-factor model
-    → Reminiscence bump → identity formation period confirmation
-    → Caregiver dynamics → Body-Coupling model validation
+    → Reminiscence bump → confirm identity formation period
+    → Caregiver dynamics → validate Body-Coupling model
     → Phase Transition → activity × disease interaction
 
   = "Experiments of nature" (Hughlings Jackson, 1884)
@@ -2701,32 +2789,35 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Alzheimer = arguably framework's MOST INFORMATIVE clinical condition
 ```
 
-### §17.6 — "Nhiều thứ dưới 1 tên" — Parallel với Autism
+### §17.6 — "Many Things Under One Name" — Parallel with Autism
 
 ```
-🟡 CÙNG VẤN ĐỀ, NGƯỢC HƯỚNG:
+🟡 SAME PROBLEM, OPPOSITE DIRECTION:
 
   ALZHEIMER:
-    → Nhiều nguyên nhân KHÁC NHAU (tau, amyloid, vascular, mixed, inflammation...)
-    → Cùng dẫn tới: chunk system suy thoái → output "mất trí nhớ"
-    → Mainstream gộp OUTPUT giống nhau → gọi chung "Alzheimer"
-    → Thực tế: 4-5 biological subtypes (Vogel 2021, Tijms 2024)
-    → AMARANTH 2025: TÁCH subtypes → treatment effective (46% slowing)
+    → Many DIFFERENT causes (tau, amyloid, vascular, mixed, inflammation...)
+    → All lead to: chunk system deteriorates → output "memory loss"
+    → Mainstream groups SAME OUTPUT → calls it all "Alzheimer"
+    → Reality: 4-5 biological subtypes (Vogel 2021, Tijms 2024)
+    → AMARANTH 2025: SEPARATE subtypes → treatment effective (46% slowing)
 
   AUTISM (Autism-Observation.md §1.8):
-    → Nhiều configuration KHÁC NHAU (102+ risk genes, idiosyncratic connectivity)
-    → Cùng dẫn tới: kiến trúc não khác typical → output "khó giao tiếp"
-    → Mainstream gộp OUTPUT giống nhau → gọi chung "Autism"
-    → Thực tế: mỗi autistic brain = unique (Hahamy 2015)
+    → Many DIFFERENT configurations (102+ risk genes, idiosyncratic connectivity)
+    → All lead to: brain architecture different from typical →
+      output "difficulty with communication"
+    → Mainstream groups SAME OUTPUT → calls it all "Autism"
+    → Reality: each autistic brain = unique (Hahamy 2015)
     → Princeton 2025: 4+ biologically distinct subtypes
 
-  = "Mainstream gộp output giống nhau → mất thông tin mechanism bên dưới"
-    Alzheimer gộp ở output: "mất trí nhớ" (nhiều con đường → cùng destination)
-    Autism gộp ở output: "khó giao tiếp" (nhiều cấu hình → cùng surface behavior)
+  = "Mainstream groups same output → loses information about underlying mechanism"
+    Alzheimer groups at output: "memory loss"
+      (many paths → same destination)
+    Autism groups at output: "difficulty communicating"
+      (many configurations → same surface behavior)
 
-  HỆ QUẢ: cả 2 đều cần TÁCH per-individual:
-    → Alzheimer: tách biological subtype → treatment chính xác hơn
-    → Autism: tách configuration per-person → support chính xác hơn
+  CONSEQUENCE: both need INDIVIDUAL-LEVEL SEPARATION:
+    → Alzheimer: separate biological subtype → more precise treatment
+    → Autism: separate configuration per-person → more precise support
     → Cross-ref: Autism-Observation.md §1.8
 ```
 
@@ -2734,7 +2825,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §18 — HONEST ASSESSMENT
 
-### §18.1 — 🟢 Established research supported
+### §18.1 — 🟢 Established Research Support
 
 ```
 === SYNAPSE LOSS ===
@@ -2790,7 +2881,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟢 Stern 2012 (Lancet Neurology) — cognitive reserve model
 🟢 Connor et al. 1997 (Mol Brain Res 49(1-2):71-81) — BDNF reduced in Alzheimer
 
-=== HETEROGENEITY (Session 3 additions) ===
+=== HETEROGENEITY ===
 🟢 Vogel et al. 2021 (Nature Medicine) — 4 tau trajectory subtypes
 🟢 Ferreira et al. 2020 (Neurology) — Typical 55%, Limbic 21%, Hippocampal-sparing 17%
 🟢 Tijms et al. 2024 (Nature Aging) — 5 proteomic subtypes
@@ -2811,7 +2902,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟢 PERAT framework (PMC 4539237) — procedural + emotional religious therapy
 🟢 Jacobsen et al. 2015 (Brain 138:2438-2450) — pre-SMA + cACC preserved
 
-=== KEPT FROM v1.0 ===
+=== RETAINED FROM v1.0 ===
 🟢 Hardy & Higgins 1992 (Science), Hardy & Selkoe 2002 — amyloid hypothesis
 🟢 Braak & Braak 1991 (Acta Neuropathologica 82) — 6-stage NFT staging
 🟢 Bartus et al. 1982 (Science) — cholinergic hypothesis
@@ -2829,47 +2920,47 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟢 Holt-Lunstad 2015 — loneliness = 15 cigarettes/day
 🟢 GBD 2019 (Lancet Public Health) — dementia prevalence 57M→153M
 
-TOTAL: ~75 academic citations (v1.0 had ~20)
+TOTAL: ~75 academic citations
 ```
 
-### §18.2 — 🟡 Framework synthesis (coherent, cần thêm evidence)
+### §18.2 — 🟡 Framework Synthesis (Coherent, Needs More Evidence)
 
 ```
 → Synapse loss → chunk network degradation chain
-   Each link 🟢 established. Chain as framework model = 🟡 synthesis.
+   Each individual link 🟢 established. Chain as framework model = 🟡 synthesis.
 → 5-mechanism "last in first out" model
-   Mỗi cơ chế có evidence riêng (🟢). Tổ hợp 5 cơ chế = 🟡 synthesis.
+   Each mechanism has its own evidence (🟢). Combination of 5 = 🟡 synthesis.
 → Phase Transition Model: activity protective → destructive
    Individual papers 🟢. Biphasic model integration = 🟡.
 → 5 protective layers hierarchy
    Each layer 🟢. Hierarchy ordering = 🟡.
 → Religion = maximum compile resistance
    Kaufman + PERAT = 🟢. "6 systems simultaneously" framing = 🟡.
-→ Sleep as "mồi lửa" (5 simultaneous axes of damage)
-   Each axis 🟢. "5 đồng thời" compound model = 🟡.
+→ Sleep as "kindling" (5 simultaneous axes of damage)
+   Each axis 🟢. "5 simultaneously" compound model = 🟡.
 → Architecture determines pattern, not cause
    Observation from clinical data. Formalization as principle = 🟡.
 → Degradation order validates compilation model (§13.6)
    Clinical order 🟢. Mapping to compile parameters = 🟡.
 → "Exposure through erosion" (Background-Pattern revealed)
    Clinical observation 🟢. Background-Pattern framework mapping = 🟡.
-→ Alzheimer = heterogeneous (nhiều bệnh dưới 1 tên)
+→ Alzheimer = heterogeneous (many diseases under one name)
    Research data 🟢. "Framework valid regardless of subtype" = 🟡.
 → Cognitive Reserve Paradox (delays but faster decline)
    Stern 2012 🟢. Phase transition interpretation = 🟡.
 ```
 
-### §18.3 — 🔴 Hypothesis (chưa test, cần validation)
+### §18.3 — 🔴 Hypotheses (Not Yet Tested, Need Validation)
 
 ```
 → Alzheimer = primarily failure-to-clear (centenarian model)
-   Based on medRxiv 2026 PREPRINT — chưa peer-reviewed.
-   Logical from proteostasis data nhưng cần independent replication.
+   Based on medRxiv 2026 PREPRINT — not yet peer-reviewed.
+   Logical from proteostasis data but needs independent replication.
 
-→ Gap-direction collapse khi chunk network shrinks
-   Theoretical derivation từ Gap-Direction.md.
+→ Gap-direction collapse when chunk network shrinks
+   Theoretical derivation from Gap-Direction.md.
    Logical: fewer chunks → fewer borders → fewer gaps.
-   CHƯA directly observed or measured in Alzheimer.
+   NOT yet directly observed or measured in Alzheimer.
 
 → Specific tipping point mechanism (Braak II→III + amyloid "gate")
    Epidemiological pattern 🟢. Specific "gate" mechanism = 🔴.
@@ -2877,11 +2968,11 @@ TOTAL: ~75 academic citations (v1.0 had ~20)
 
 → Sleep deprivation → accelerates Braak II→III transition
    5-axis damage model makes this PLAUSIBLE.
-   Direct evidence for Braak stage acceleration = CHƯA CÓ.
+   Direct evidence for Braak stage acceleration = NOT YET AVAILABLE.
 
 → Phase transition exact threshold
-   "Khi nào" activity đảo từ protective → destructive?
-   CHƯA CÓ biomarker cho threshold này.
+   "When" does activity flip from protective → destructive?
+   NO biomarker yet exists for this threshold.
 
 → Compile DEPTH determines degradation ORDER precisely
    Ribot's Law = evidence. PRECISE ordering by depth = 🔴.
@@ -2890,31 +2981,32 @@ TOTAL: ~75 academic citations (v1.0 had ~20)
 
 → "Cure" requires stop + regenerate + re-compile (③ impossible)
    Logical derivation. ③ = theoretically impossible.
-   Framework honestly states limitation.
+   Framework honestly states this limitation.
 ```
 
-### §18.4 — Open questions
+### §18.4 — Open Questions
 
 ```
-  Q1: Tau hay amyloid hay CẢ HAI hay NEITHER là primary cause?
-      → Framework CAN'T determine — nhưng tau mapping more consistent
+  Q1: Is tau or amyloid or BOTH or NEITHER the primary cause?
+      → Framework CANNOT determine — but tau mapping more consistent
 
-  Q2: Compile depth có phải UNIQUE predictor of degradation order?
+  Q2: Is compile depth the UNIQUE predictor of degradation order?
       → Likely MULTIPLE FACTORS — compile depth = 1 valid predictor
 
-  Q3: Compiled (feeling) tồn tại bao lâu hơn Fresh (logic)?
+  Q3: How much longer does Compiled (feeling) persist vs Fresh (logic)?
       → Measurable via behavioral observation
 
-  Q4: Music therapy CÓ SLOW disease progression?
-      → Current evidence: improve QoL, KHÔNG slow progression
+  Q4: Does music therapy SLOW disease progression?
+      → Current evidence: improves QoL, does NOT slow progression
 
-  Q5: Caregiver intervention ĐỦ SỚM → giảm mortality risk bao nhiêu?
+  Q5: Does sufficiently early caregiver intervention → reduce mortality risk?
+      How much?
 
-  Q6: 14 modifiable factors → per-factor mechanism chi tiết?
+  Q6: Per-factor mechanism details for the 14 modifiable factors?
 
   Q7: Multimodal (med + music + social + exercise) → synergy?
 
-  Q8: Sleep intervention → slow/prevent Alzheimer? (RCT needed)
+  Q8: Does sleep intervention → slow/prevent Alzheimer? (RCT needed)
 
   Q9: Religion vs secular music for Alzheimer patients? (RCT needed)
 
@@ -2923,22 +3015,23 @@ TOTAL: ~75 academic citations (v1.0 had ~20)
   Q11: Can "cognitive reserve" be QUANTIFIED for individual risk?
 
   Q12: Phase transition threshold — can it be DETECTED before damage?
-       Biomarker cho khi nào activity đảo từ protective → destructive?
+       Biomarker for when activity flips from protective → destructive?
 
   Q13: Myelin breakdown → amyloid: is this THE primary upstream cause?
-       Bartzokis model + Depp 2023 = compelling nhưng chưa consensus
+       Bartzokis model + Depp 2023 = compelling but not yet consensus
 ```
 
 ---
 
 ## §19 — CROSS-REFERENCES
 
-### §19.1 — Core Dependencies (PHẢI ĐỌC để hiểu file này)
+### §19.1 — Core Dependencies (MUST READ to understand this file)
 
 ```
   → Chunk.md v2.1 — chunk substrate, 4 compilation pathways, depth
      §5 uses: synapse loss → chunk degradation mechanism
-  → Self-Pattern-Modeling.md v3.0 — Self-Pattern-Modeling, Compiled/Fresh, identity mechanism
+  → Self-Pattern-Modeling.md v3.0 — Self-Pattern-Modeling,
+     Compiled/Fresh, identity mechanism
      §7 uses: Self-Pattern-Modeling dissolution, identity fragmentation timeline
   → Connection.md v4.0 — 3 generative primitives, Valence-Momentary/Valence-Structural
      §9 uses: caregiver Body-Coupling, ambiguous loss framework
@@ -2946,8 +3039,8 @@ TOTAL: ~75 academic citations (v1.0 had ~20)
      §8 uses: body signals unprocessed, BPSD as overflow
   → Background-Pattern.md v1.0 — 2D model (Compile Depth × Link Density)
      §6.2 uses: link density × resistance, §6.6 erosion
-  → Gap-Direction.md v1.0 — "chưa biết = không có gap"
-     §0.3 uses: "quên" vs "mất" distinction
+  → Gap-Direction.md v1.0 — "not yet known = no gap"
+     §0.3 uses: "forgetting" vs "lost" distinction
   → Parkinson-Analysis.md v1.1 — comparison, Neurodegeneration Cluster
      §15 uses: Parkinson vs Alzheimer systematic comparison
   → Nicotine-Brain-Mechanism.md v1.1 — acetylcholine bridge
@@ -2958,7 +3051,7 @@ TOTAL: ~75 academic citations (v1.0 had ~20)
      §14.3 uses: cortisol → hippocampus + amyloid double hit
 ```
 
-### §19.2 — Referenced Files (tham khảo, không bắt buộc)
+### §19.2 — Referenced Files (Supplementary, Not Required)
 
 ```
   → Body-Coupling.md v1.1 — depth × direction, one-sided decoupling
@@ -2979,19 +3072,18 @@ TOTAL: ~75 academic citations (v1.0 had ~20)
 
 > **Closing note:**
 >
-> Alzheimer cho thấy chunk architecture qua erosion — "khảo cổ sống."
-> Kiến trúc não quyết định pattern suy thoái, KHÔNG phải nguyên nhân.
-> 5 cơ chế OVERDETERMINED → bất kỳ sự phá hủy tiến triển nào = cùng pattern.
+> Alzheimer reveals chunk architecture through erosion — "living archaeology."
+> Brain architecture determines the pattern of deterioration, NOT the cause.
+> 5 mechanisms OVERDETERMINED → any progressive destruction = same pattern.
 >
-> v1.0 nói "neurons chết." v1.1 sửa: **synapse loss = primary.**
-> v1.0 thiếu tau biology, sleep, myelin, resilience, phase transition.
-> v1.1 tích hợp ~75 citations từ 3 sessions drill chuyên sâu.
+> v1.0 said "neurons die." v1.1 corrected: **synapse loss = primary.**
+> v1.0 lacked tau biology, sleep, myelin, resilience, phase transition.
+> v1.1 integrated ~75 citations from 3 sessions of deep specialized drilling.
 >
-> Framework KHÔNG thay thế y khoa. KHÔNG xác định molecular cause.
-> Nhưng: pattern = f(kiến trúc), KHÔNG f(nguyên nhân).
-> "Dù lửa bắt đầu từ đâu, tòa nhà vẫn sụp từ tầng cao nhất xuống."
+> Framework does NOT replace medicine. Does NOT identify molecular cause.
+> But: pattern = f(architecture), NOT f(cause).
+> "No matter where the fire starts, the building always collapses from the top floor down."
 >
-> Alzheimer = data quan trọng nhất cho framework từ góc clinical.
-> Đồng thời = lời nhắc: hardware damage = IRREVERSIBLE.
+> Alzheimer = the most important data for the framework from a clinical perspective.
+> And simultaneously = a reminder: hardware damage = IRREVERSIBLE.
 > Prevention > Cure. Sleep. Activity. Connection. Purpose.
-

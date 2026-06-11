@@ -1,56 +1,56 @@
-﻿---
+---
 title: Obligation — Observation Parameter
 version: 1.3
 created: 2026-04-25
 updated: 2026-05-17 v1.1 — +Compilable Architecture, +By-product match (exchange), +PFC=Lawyer, +3-cost, Entity-Compiled rename, version refs sync
 refined: |
   2026-05-23 (v1.2 — Concept Cascade: +Entity-Access, +Bond-Architecture, +Hardware-Subsidy. Updated versions + cross-refs)
-  2026-06-02 (v1.3 — +§11.7 trust enrichment: obligation = 1/5 nguồn maintain trust, safety net design. Trust.md v1.0, Collective-Body §5.4)
+  2026-06-02 (v1.3 — +§11.7 trust enrichment: obligation = 1/5 sources maintaining trust, safety net design. Trust.md v1.0, Collective-Body §5.4)
 status: OBSERVATION PARAMETER v1.3
 scope: |
-  OBSERVATION FILE: Obligation = named pattern khi quan sát COMPILED PREDICTION
-  về "cost phải trả" để MAINTAIN access tới agent-as-external-tool.
-  Obligation = TRACKING MECHANISM cho social exchange — formed từ REAL experience,
-  compiled qua nhiều lần tương tác, KHÔNG phải imagination hư không.
-  Obligation KHÁC Status (Status = CÓ gì), KHÁC Threat (Threat = SỢ mất gì),
-  KHÁC Autonomy (Autonomy = TỰ LÀM được gì).
-  Obligation = TÔI TỐN GÌ ĐỂ GIỮ access.
-  File này mô tả: mechanism hình thành (4 stages), 5-factor formula + Status Gap
+  OBSERVATION FILE: Obligation = named pattern when observing COMPILED PREDICTION
+  about "cost to pay" to MAINTAIN access to agent-as-external-tool.
+  Obligation = TRACKING MECHANISM for social exchange — formed from REAL experience,
+  compiled across many interactions, NOT from thin-air imagination.
+  Obligation DIFFERS from Status (Status = WHAT you have), Threat (Threat = FEAR of loss),
+  Autonomy (Autonomy = WHAT you can do yourself).
+  Obligation = WHAT I SPEND TO KEEP access.
+  File describes: formation mechanism (4 stages), 5-factor formula + Status Gap
   multiplier, 6-type spectrum, Exchange foundation, Access Cost (mode shift),
-  3 cơ chế độc lập (Valence-Structural buffer + Self-Pattern-Modeling input + Obligation predict),
+  3 independent mechanisms (Valence-Structural buffer + Self-Pattern-Modeling input + Obligation predict),
   developmental trajectory, individual → community scaling, cross-parameters.
 purpose: |
-  Core v7.8 §8 cần bổ sung observation parameter MỚI.
-  File này DEEP-DIVE toàn bộ:
-  ① TẠI SAO obligation tồn tại (tracking cho social exchange = cơ chế nền tảng)
-  ② Obligation HÌNH THÀNH thế nào (4 stages từ real experience → compiled prediction)
+  Core v7.8 §8 needed new observation parameter.
+  This file DEEP-DIVES all:
+  ① WHY obligation exists (tracking for social exchange = foundational mechanism)
+  ② HOW obligation FORMS (4 stages from real experience → compiled prediction)
   ③ 5-factor formula + Status Gap multiplier
   ④ 6 types spectrum (explicit-bounded → implicit-unbounded)
-  ⑤ Trao đổi = mode phổ biến nhất + Tiền = obligation technology
-  ⑥ Access Cost: mode shift khi nhờ agent status cao hơn
-  ⑦ 3 cơ chế độc lập tương tác: Obligation + Valence-Structural + Self-Pattern-Modeling
+  ⑤ Exchange = most common mode + Money = obligation technology
+  ⑥ Access Cost: mode shift when asking help from higher-status agent
+  ⑦ 3 independent interacting mechanisms: Obligation + Valence-Structural + Self-Pattern-Modeling
   ⑧ Parenting → obligation calibration (developmental)
   ⑨ Individual → community scaling
   ⑩ Cross-parameters (×Gratitude, ×Autonomy, ×Threat, ×Status, ×Meaning, ×Protect)
   v1.1 KEY CHANGES:
-  ⑪ Compilable Architecture framing: obligation = tracking emergent từ general-purpose system
+  ⑪ Compilable Architecture framing: obligation = tracking emergent from general-purpose system
   ⑫ By-product match: exchange = mutual by-product matching (Inter-Body §5.4)
-  ⑬ PFC=Lawyer: PFC rationalize/suppress obligation assessment (Inter-Body §7)
+  ⑬ PFC=Lawyer: PFC rationalizes/suppresses obligation assessment (Inter-Body §7)
   ⑭ 3-cost model: obligation fulfillment cost = PFC draft + Suppress + Uncertainty
-  ⑮ Entity-Compiled rename (từ Entity-Owned)
-  ⑯ Compiled / Fresh label (từ Compiled Feeling / Fresh Logic)
+  ⑮ Entity-Compiled rename (from Entity-Owned)
+  ⑯ Compiled / Fresh label (from Compiled Feeling / Fresh Logic)
 position: |
-  Core-Deep-Dive/Observation/ — ngang hàng Gratitude.md, Meaning.md, Status.md,
+  Core-Deep-Dive/Observation/ — parallel to Gratitude.md, Meaning.md, Status.md,
   Connection.md, Empathy.md, Protect.md, Autonomy-Hardware.md, etc.
-  Obligation = observation parameter Tầng 3-4 (spans: simple TYPE 1-2 = Tầng 3,
-  complex TYPE 3-5 = Tầng 4). FEEDS INTO Gratitude (Tầng 5) as prerequisite ⑦.
+  Obligation = observation parameter Tier 3-4 (spans: simple TYPE 1-2 = Tier 3,
+  complex TYPE 3-5 = Tier 4). FEEDS INTO Gratitude (Tier 5) as prerequisite ⑦.
 dependencies:
   - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
-  - Status.md v2.0 — Resource Access Map, 3 modes (Lấy/Trao đổi/Comply), §5 Exchange
+  - Status.md v2.0 — Resource Access Map, 3 modes (Take/Exchange/Comply), §5 Exchange
   - Gratitude.md v2.0 — §2.7 (prerequisite ⑦), §5 Gift-Obligation Spectrum
-  - Agent-Mechanism.md — §12 body-need feeder, agents as external tools, §12.2b 2-luồng
+  - Agent-Mechanism.md — §12 body-need feeder, agents as external tools, §12.2b 2-stream
   - Valence-Propagation.md v2.0 — Valence-Momentary/Valence-Structural distinction, Body-Base Extension
-  - Connection.md v4.0 — §3.3 2-luồng, §5 ④ giving reward, §8 virtual chunks
+  - Connection.md v4.0 — §3.3 2-stream, §5 ④ giving reward, §8 virtual chunks
   - Autonomy-Hardware.md — efference copy, self-action = reward, §5 2-layer dissonance
   - Threat.md — Internal-Predict, no endpoint → sustained cortisol
   - Protect.md — f(replaceability × attachment), loss aversion
@@ -63,123 +63,123 @@ dependencies:
   - Body-Feedback-Label.md v2.0 — vocabulary reference, 3-tier labels, prediction-delta
 sources_backup: |
   v0.1: Obligation-Outline.md → backup/Obligation-Outline-v0.1-backup.md
-language: Tiếng Việt primary + English technical terms
+language: English primary + Vietnamese technical terms (ân tình)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # Obligation — Observation Parameter
 
-> Bố mẹ vất vả làm việc nuôi tôi ăn học. Tôi "phải" rửa bát, quét nhà, học giỏi,...
-> Sếp trả lương. Tôi "phải" làm việc.
-> Anh B cho mượn tiền. Tôi "phải" trả — nhưng trả GÌ? Bao nhiêu? Khi nào?
-> Trưởng làng được tin tưởng. Ông ấy "phải" lo cho dân.
-> Nhà khoa học được công nhận. Ông ấy "phải" cống hiến.
+> Parents work hard to raise me. I "must" wash dishes, sweep floors, study hard...
+> The boss pays my salary. I "must" work.
+> Brother B lent me money. I "must" repay him — but repay WHAT? How much? When?
+> The village elder is trusted. He "must" care for the people.
+> The scientist is recognized. He "must" contribute.
 >
-> "Phải" — cùng 1 từ. KHÁC mechanism hoàn toàn.
+> "Must" — the same word. COMPLETELY different mechanisms.
 >
-> Có "phải" rõ ràng (trả tiền, làm việc) — cost biết trước, endpoint biết trước.
-> Có "phải" mờ ảo (ân tình, identity) — cost KHÔNG biết, endpoint KHÔNG CÓ.
+> There is clear "must" (repay money, do the work) — cost known in advance, endpoint known in advance.
+> There is hazy "must" (ân tình, identity) — cost UNKNOWN, endpoint NONEXISTENT.
 >
-> Nhưng KHÔNG "phải" nào sinh ra từ hư không.
-> Tất cả đều compiled từ TRẢI NGHIỆM THỰC TẾ:
-> Mẹ bắt rửa bát, quét nhà → body register cost.
-> Không rửa → mẹ mắng → body register consequence.
-> Nhờ bạn → bạn đòi trả → body register reciprocity.
-> Lặp đi lặp lại → chunks COMPILE → PFC có thể PREDICT:
-> "Nếu tôi nhận → tôi sẽ phải trả."
+> But NO "must" is born from thin air.
+> All are compiled from REAL EXPERIENCE:
+> Mother made me wash dishes, sweep floors → body registers cost.
+> Didn't wash → mother scolded → body registers consequence.
+> Asked a friend for help → friend asked for something back → body registers reciprocity.
+> Repeated again and again → chunks COMPILE → PFC can now PREDICT:
+> "If I receive → I will have to repay."
 >
-> Obligation = tên gọi cho prediction đó.
-> KHÔNG phải Status (Status = tôi có gì).
-> KHÔNG phải Threat (Threat = tôi sợ mất gì).
-> KHÔNG phải đạo đức (moral = xã hội gán nhãn).
+> Obligation = the name for that prediction.
+> NOT Status (Status = what I have).
+> NOT Threat (Threat = what I fear losing).
+> NOT morality (moral = society assigns labels).
 >
-> Obligation = COMPILED PREDICTION về cost liên tục
-> để GIỮ những gì tôi CÓ từ agents.
-> Tracking mechanism cho TRAO ĐỔI — cơ chế nền tảng
-> giúp con người HỢP TÁC, CHIA SẺ, và XÂY DỰNG cộng đồng.
+> Obligation = COMPILED PREDICTION about ongoing cost
+> to KEEP what I HAVE from agents.
+> Tracking mechanism for EXCHANGE — the foundational mechanism
+> that enables humans to COOPERATE, SHARE, and BUILD community.
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ TRONG FRAMEWORK
-- §1 — OBLIGATION LÀ GÌ
-- §2 — OBLIGATION HÌNH THÀNH THẾ NÀO: 4 STAGES
+- §0 — POSITION IN FRAMEWORK
+- §1 — WHAT IS OBLIGATION
+- §2 — HOW OBLIGATION FORMS: 4 STAGES
 - §3 — FORMULA: 5 FACTORS + STATUS GAP MULTIPLIER
 - §4 — 6 TYPES SPECTRUM
-- §5 — TRAO ĐỔI: CƠ CHẾ NỀN TẢNG
-- §6 — ACCESS COST: MODE SHIFT KHI NHỜ AGENT STATUS CAO HƠN
-- §7 — 3 CƠ CHẾ ĐỘC LẬP TƯƠNG TÁC
+- §5 — EXCHANGE: THE FOUNDATIONAL MECHANISM
+- §6 — ACCESS COST: MODE SHIFT WHEN ASKING HIGHER-STATUS AGENT
+- §7 — 3 INDEPENDENT INTERACTING MECHANISMS
 - §8 — DEVELOPMENTAL: PARENTING → OBLIGATION CALIBRATION
 - §9 — INDIVIDUAL → COMMUNITY SCALING
 - §10 — CROSS-PARAMETERS
 - §11 — CASES
-- §12 — HONEST ASSESSMENT + CÂU HỎI MỞ
+- §12 — HONEST ASSESSMENT + OPEN QUESTIONS
 - §13 — CROSS-REFERENCES + SUMMARY
 
 ---
 
-## §0 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — POSITION IN FRAMEWORK
 
 ```
-⭐ OBLIGATION TRONG HIERARCHY OBSERVATION PARAMETERS:
+⭐ OBLIGATION IN THE OBSERVATION PARAMETER HIERARCHY:
 
-  Gratitude.md §0 định nghĩa 5 tầng:
+  Gratitude.md §0 defines 5 tiers:
 
-  TẦNG 1 — Body-base (hardware):
+  TIER 1 — Body-base (hardware):
     → Novelty (raw sensory detection)
     → = 1 mechanism → 1 observation
 
-  TẦNG 2 — Chunk dynamics (PFC required):
+  TIER 2 — Chunk dynamics (PFC required):
     → Drive (Imagine-Final spinning)
     → Boredom (dissonance + Imagine-Final unclear)
     → = 1 mechanism → 1 observation
 
-  TẦNG 3 — Social observation (Self-Pattern-Modeling required):
+  TIER 3 — Social observation (Self-Pattern-Modeling required):
     → Status (Resource Access Map)
     → Connection (❶ hardware + ❷ Self-Pattern-Modeling engage agents)
     → Protect (ownership + loss aversion)
-    → = CẦN Self-Pattern-Modeling → agent-aware
+    → = REQUIRES Self-Pattern-Modeling → agent-aware
 
-  TẦNG 4 — Integrative observation (multiple sub-systems):
+  TIER 4 — Integrative observation (multiple sub-systems):
     → Empathy (Self-Pattern-Modeling Compiled + ❸ positive → simulate other)
-    → Meaning (life-level Anchor-Schema ổn định)
+    → Meaning (life-level Anchor-Schema stable)
     → Autonomy (efference copy + controllability)
-    → = CẦN nhiều sub-systems → integration
+    → = REQUIRES multiple sub-systems → integration
 
-  TẦNG 5 — ⭐ GRATITUDE:
-    → CẦN: 9 components từ 9+ mechanism files
-    → = Observation parameter CAO NHẤT hiện tại
-
-
-  ⭐ OBLIGATION = TẦNG 3-4 (SPANS):
-
-    TYPE 1-2 (Financial, Exchange): Tầng 3
-      → Cần: PFC + basic reciprocity chunks + Self-Pattern-Modeling cơ bản
-      → "Tôi vay $50 → trả $50" = simple tracking
-
-    TYPE 3-4 (Ân tình, Role): Tầng 4
-      → Cần: PFC + Self-Pattern-Modeling + accumulated chunk history + Status awareness
-      → "Anh B cho mượn tiền → phải trả gì? bao nhiêu?" = integrative
-
-    TYPE 5-6 (Identity, Compound): Tầng 4+
-      → Cần: ALL trên + Anchor-Schema + Autonomy detection
-      → "Tôi là nhà khoa học → phải cống hiến" = self-imposed
-
-    → Obligation FEEDS INTO Gratitude (Tầng 5) làm prerequisite ⑦
-      (Gratitude.md §2.7: Obligation assessment = 1 trong 9 components)
+  TIER 5 — ⭐ GRATITUDE:
+    → REQUIRES: 9 components from 9+ mechanism files
+    → = Highest observation parameter currently
 
 
-  OBLIGATION KHÁC CÁC PARAMETER KHÁC:
+  ⭐ OBLIGATION = TIER 3-4 (SPANS):
+
+    TYPE 1-2 (Financial, Exchange): Tier 3
+      → Requires: PFC + basic reciprocity chunks + basic Self-Pattern-Modeling
+      → "I borrowed $50 → repay $50" = simple tracking
+
+    TYPE 3-4 (Ân tình, Role): Tier 4
+      → Requires: PFC + Self-Pattern-Modeling + accumulated chunk history + Status awareness
+      → "Brother B lent money → must repay what? how much?" = integrative
+
+    TYPE 5-6 (Identity, Compound): Tier 4+
+      → Requires: ALL above + Anchor-Schema + Autonomy detection
+      → "I am a scientist → must contribute" = self-imposed
+
+    → Obligation FEEDS INTO Gratitude (Tier 5) as prerequisite ⑦
+      (Gratitude.md §2.7: Obligation assessment = 1 of 9 components)
+
+
+  OBLIGATION DIFFERS FROM OTHER PARAMETERS:
 
     ┌───────────────┬─────────────────────────────────────────────────────┐
-    │ Parameter     │ Mô tả                                             │
+    │ Parameter     │ Description                                         │
     ├───────────────┼─────────────────────────────────────────────────────┤
-    │ Status        │ TÔI CÓ access gì (Resource Access Map — snapshot) │
-    │ Threat        │ TÔI SỢ mất gì (prediction of harm)                │
-    │ Autonomy      │ TÔI TỰ LÀM được gì (self-action capability)      │
-    │ Protect       │ TÔI GIỮ gì (ownership + loss aversion)            │
-    │ ⭐ Obligation  │ TÔI TỐN GÌ ĐỂ GIỮ (ongoing cost to maintain)    │
+    │ Status        │ WHAT I HAVE (Resource Access Map — snapshot)        │
+    │ Threat        │ WHAT I FEAR losing (prediction of harm)             │
+    │ Autonomy      │ WHAT I CAN DO myself (self-action capability)       │
+    │ Protect       │ WHAT I GUARD (ownership + loss aversion)            │
+    │ ⭐ Obligation  │ WHAT I SPEND TO KEEP (ongoing cost to maintain)    │
     └───────────────┴─────────────────────────────────────────────────────┘
 
     KEY DISTINCTIONS:
@@ -189,21 +189,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Protect = GUARD what's yours → Obligation = PAY to maintain access
 
     TEMPORAL:
-      Status = snapshot (hiện tại)
-      Threat = prediction (tương lai, reactive)
-      Obligation = PROCESS (liên tục, proactive)
-      → Obligation TỒN TẠI TRƯỚC khi threat fire
-      → "Tôi biết phải trả ơn anh B" ← chưa bị đòi, chưa có threat
-      → Nhưng cortisol VẪN chạy mức thấp, PFC VẪN tracking
+      Status = snapshot (present)
+      Threat = prediction (future, reactive)
+      Obligation = PROCESS (ongoing, proactive)
+      → Obligation EXISTS BEFORE threat fires
+      → "I know I must repay Brother B" ← not yet demanded, no threat yet
+      → But cortisol STILL runs at low level, PFC STILL tracking
 
 
-  OBLIGATION = TRACKING MECHANISM CHO TRAO ĐỔI:
+  OBLIGATION = TRACKING MECHANISM FOR EXCHANGE:
 
-    Status.md §5: Trao đổi = mode phổ biến nhất ở con người hiện đại
-    → Trao đổi cần TRACKING để bền vững
-    → Không track → cheaters thắng → cooperation sụp
-    → Obligation = body-level bookkeeping system cho exchange
-    → Tiền = external bookkeeping technology (§5 file này)
+    Status.md §5: Exchange = most common mode in modern humans
+    → Exchange requires TRACKING to be sustainable
+    → No tracking → cheaters win → cooperation collapses
+    → Obligation = body-level bookkeeping system for exchange
+    → Money = external bookkeeping technology (§5 this file)
 
     🟢 Reciprocal altruism (Trivers 1971): detect cheaters → punish
     🟢 Social exchange theory (Homans 1958): cost-benefit calculation
@@ -213,76 +213,76 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §1 — OBLIGATION LÀ GÌ
+## §1 — WHAT IS OBLIGATION
 
 ### §1.1 — Definition v1.0
 
 ```
 ⭐ DEFINITION:
 
-  Obligation = observable pattern khi body detect COMPILED PREDICTION
-  về "cost phải trả / phải làm / phải duy trì" để MAINTAIN access
-  tới agent-as-external-tool.
+  Obligation = observable pattern when body detects COMPILED PREDICTION
+  about "cost to pay / to do / to maintain" in order to MAINTAIN access
+  to agent-as-external-tool.
 
-  CHUỖI NHÂN QUẢ:
-    Agent provide value (body-base feed: virtual chunks, connection, status,...)
+  CAUSAL CHAIN:
+    Agent provides value (body-base feed: virtual chunks, connection, status,...)
       ↓
-    Body register: "agent NÀY feed tôi" → ❸ positive toward agent
+    Body registers: "THIS agent feeds me" → ❸ positive toward agent
       ↓
-    Chunk history COMPILE: "khi nhận từ agent → thường phải trả"
-    (accumulated từ NHIỀU past real experiences — §2)
+    Chunk history COMPILES: "when receiving from agent → typically must repay"
+    (accumulated from MANY past real experiences — §2)
       ↓
-    Chunk-Gap emerge (Body-Feedback-Mechanism §3.3):
-    "tôi NHẬN → tôi NÊN trả → tôi CHƯA trả" = network inconsistency
+    Chunk-Gap emerges (Body-Feedback-Mechanism §3.3):
+    "I RECEIVED → I SHOULD repay → I HAVE NOT repaid" = network inconsistency
       ↓
-    Cortisol holding signal fire:
-    "still need to resolve" → PFC bị buộc quay lại
+    Cortisol holding signal fires:
+    "still need to resolve" → PFC forced to return
       ↓
-    PFC predict: "trả GÌ? BAO NHIÊU? KHI NÀO?"
+    PFC predicts: "repay WHAT? HOW MUCH? WHEN?"
       ↓
-    NẾU predict được → plan → execute → Gap close → cortisol stop
-    NẾU KHÔNG predict được → Gap remain → cortisol SUSTAINED
+    IF predictable → plan → execute → Gap closes → cortisol stops
+    IF NOT predictable → Gap remains → cortisol SUSTAINED
       ↓
     = OBLIGATION (observable: body tension, PFC monitoring, behavior change)
 
 
   CORE CLAIM:
-    Obligation = COMPILED PREDICTION, không phải imagination hư không.
-    Body KHÔNG tưởng tượng ra obligation — body TÍCH LŨY từ real experience:
-      → Mẹ bắt rửa bát, quét nhà (real cost registered)
-      → Không rửa → mẹ mắng (real consequence registered)
-      → Nhờ bạn → bạn đòi trả ơn (real reciprocity registered)
-      → Lặp lại nhiều lần → chunks compile → PFC CAN NOW predict
+    Obligation = COMPILED PREDICTION, not thin-air imagination.
+    Body does NOT imagine obligation out of nothing — body ACCUMULATES from real experience:
+      → Mother made me wash dishes, sweep floors (real cost registered)
+      → Didn't wash → mother scolded (real consequence registered)
+      → Asked friend for help → friend asked for something back (real reciprocity registered)
+      → Repeated many times → chunks compile → PFC CAN NOW predict
     → Prediction = PRODUCT of compilation
-    → Trẻ chưa có experience → chưa compile → chưa predict → chưa có obligation
+    → Young children without experience → no compile → no predict → no obligation
 
 
-  ⭐ COMPILABLE ARCHITECTURE — TẠI SAO OBLIGATION TỒN TẠI:
+  ⭐ COMPILABLE ARCHITECTURE — WHY OBLIGATION EXISTS:
 
-    Inter-Body-Mechanism.md §1.2: Con người dùng Compilable Architecture
+    Inter-Body-Mechanism.md §1.2: Humans use Compilable Architecture
     (general-purpose reward + compilation + social hardware + PFC).
 
-    Hardwired Architecture (côn trùng): hardwired circuit riêng cho từng need
-      → food→reward, mate→reward — KHÔNG CẦN tracking, KHÔNG CẦN agent
-    Compilable Architecture (con người): general-purpose, LEARN từ environment
-      → Cần 15-20 NĂM compile → DEPENDENT on agents suốt childhood
-      → Adult vẫn dependent: chuyên môn hóa → KHÔNG tự làm mọi thứ
+    Hardwired Architecture (insects): dedicated hardwired circuit for each need
+      → food→reward, mate→reward — NO NEED for tracking, NO NEED for agents
+    Compilable Architecture (humans): general-purpose, LEARNS from environment
+      → Requires 15-20 YEARS to compile → DEPENDENT on agents throughout childhood
+      → Adults still dependent: specialization → CANNOT do everything alone
       → = NEED agents as external tools → NEED TRACKING mechanism
 
-    Obligation = tracking mechanism EMERGENT từ Compilable Architecture:
-      → Không phải "social module" riêng biệt
-      → Không phải "moral circuit" hardwired
-      → = General-purpose compilation system TÍCH LŨY reciprocity patterns
-      → = Cùng mechanism compile "nóng → rút tay" cũng compile "nhờ → phải trả"
-      → = Obligation KHÔNG PHẢI special — chỉ là compilation applied to SOCIAL DOMAIN
+    Obligation = tracking mechanism EMERGENT from Compilable Architecture:
+      → Not a separate "social module"
+      → Not a hardwired "moral circuit"
+      → = General-purpose compilation system ACCUMULATES reciprocity patterns
+      → = Same mechanism that compiles "hot → withdraw hand" also compiles "ask → must repay"
+      → = Obligation is NOT SPECIAL — just compilation applied to SOCIAL DOMAIN
 
-    TẠI SAO Hardwired Architecture KHÔNG CẦN obligation:
-      → Côn trùng: no extended dependency → no agent tracking needed
-      → Mỗi individual = self-sufficient (hardwired cho MỌI need)
+    WHY Hardwired Architecture does NOT need obligation:
+      → Insects: no extended dependency → no agent tracking needed
+      → Each individual = self-sufficient (hardwired for ALL needs)
       → = No exchange → no obligation
 
     → Obligation = ARCHITECTURAL CONSEQUENCE of being general-purpose learners
-    → = Cái giá của flexibility: cần agents → cần track cost → obligation emerges
+    → = The price of flexibility: need agents → need to track cost → obligation emerges
 
     🟡 Compilable Architecture → obligation as emergent tracking = framework synthesis
       (Inter-Body-Mechanism.md §1.2)
@@ -292,90 +292,90 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Reciprocity expectation = developmental research (Piaget, Kohlberg)
 ```
 
-### §1.2 — KHÔNG PHẢI
+### §1.2 — What Obligation Is NOT
 
 ```
-OBLIGATION KHÔNG PHẢI:
+OBLIGATION IS NOT:
 
-  ✗ Moral judgment ("phải = đạo đức"):
-    → Đạo đức = xã hội gán nhãn đúng/sai
+  ✗ Moral judgment ("must = ethics"):
+    → Ethics = society labeling right/wrong
     → Obligation = body-level cost prediction, independent of moral label
-    → Có thể feel obligation MÀ KHÔNG CÓ moral component
-      (vay tiền → phải trả, không phải "đạo đức" → chỉ là cost tracking)
-    → Có thể KHÔNG feel obligation DÙ xã hội nói "phải"
-      (nhà khoa học fake bằng cấp → xã hội nói "phải cống hiến" → body no compile)
+    → Can feel obligation WITHOUT any moral component
+      (borrowed money → must repay, not "ethics" → just cost tracking)
+    → Can NOT feel obligation EVEN THOUGH society says "must"
+      (scientist who faked credentials → society says "must contribute" → body no compile)
 
-  ✗ Social norm only ("phải = xã hội quy định"):
-    → Social norms = EXTERNAL install → CÓ THỂ contribute to obligation
-    → NHƯNG obligation CÓ THỂ emerge WITHOUT social norm
-      (2 trẻ trao đổi kẹo → tự develop reciprocity expectation → no norm needed)
-    → Social norms = 1 trong nhiều sources của obligation chunks
+  ✗ Social norm only ("must = socially prescribed"):
+    → Social norms = EXTERNAL install → CAN contribute to obligation
+    → BUT obligation CAN emerge WITHOUT social norm
+      (2 children trading candy → self-develop reciprocity expectation → no norm needed)
+    → Social norms = 1 of many sources of obligation chunks
 
-  ✗ Status ("Status = CÓ gì, Obligation = TỐN gì để GIỮ"):
-    → Status = Resource Access Map — snapshot current state
+  ✗ Status ("Status = HAVE something, Obligation = SPEND to KEEP it"):
+    → Status = Resource Access Map — snapshot of current state
     → Obligation = ongoing COST to maintain that map
     → 2 parameters ORTHOGONAL:
-      Status CAO + Obligation THẤP = tự build, tự maintain (ideal)
-      Status CAO + Obligation CAO = phụ thuộc nhiều agents (fragile)
-      Status THẤP + Obligation THẤP = ít access, ít nợ (đơn giản)
-      Status THẤP + Obligation CAO = bị ép, bị nợ (worst case)
+      Status HIGH + Obligation LOW = self-built, self-maintained (ideal)
+      Status HIGH + Obligation HIGH = depends on many agents (fragile)
+      Status LOW + Obligation LOW = little access, little debt (simple)
+      Status LOW + Obligation HIGH = coerced, indebted (worst case)
 
-  ✗ Threat ("Threat = SỢ mất, Obligation = BIẾT phải duy trì"):
-    → Threat = prediction of HARM (reactive, SỢ)
-    → Obligation = prediction of COST (proactive, BIẾT)
-    → Obligation TỒN TẠI TRƯỚC threat:
-      "Tôi biết phải trả ơn anh B" ← chưa có threat
-      "Anh B đòi nợ" ← NOW threat fire (deadline, consequence)
-    → Threat CÓ THỂ là consequence CỦA obligation failure
-    → Nhưng obligation = compiled expectations, threat = khi expectations BỊ VIOLATED
+  ✗ Threat ("Threat = FEAR of loss, Obligation = KNOW must maintain"):
+    → Threat = prediction of HARM (reactive, FEAR)
+    → Obligation = prediction of COST (proactive, KNOW)
+    → Obligation EXISTS BEFORE threat:
+      "I know I must repay Brother B" ← no threat yet
+      "Brother B demands repayment" ← NOW threat fires (deadline, consequence)
+    → Threat CAN BE the consequence OF obligation failure
+    → But obligation = compiled expectations, threat = when expectations ARE VIOLATED
 
-  ✗ Guilt ("guilt = hối hận"):
-    → Guilt = body response SAU KHI fail obligation
-    → Obligation = prediction TRƯỚC/TRONG KHI
+  ✗ Guilt ("guilt = remorse"):
+    → Guilt = body response AFTER failing obligation
+    → Obligation = prediction BEFORE/DURING
     → Guilt = output. Obligation = ongoing state.
 
 
-  LÀ:
+  IS:
 
-    ○ Compiled prediction chunks về ongoing cost to maintain agent access
-    ○ Emergent từ agent-as-external-tool architecture
-    ○ Body-level: cortisol holding khi obligation pending
+    ○ Compiled prediction chunks about ongoing cost to maintain agent access
+    ○ Emergent from agent-as-external-tool architecture
+    ○ Body-level: cortisol holding when obligation pending
     ○ PFC-level: monitoring + predicting + planning fulfillment
     ○ Spectrum: explicit→implicit, bounded→unbounded, self-imposed→external
-    ○ Developmental: builds over time qua real experience (§2)
-    ○ Tracking mechanism: bookkeeping system cho social exchange (§5)
+    ○ Developmental: builds over time through real experience (§2)
+    ○ Tracking mechanism: bookkeeping system for social exchange (§5)
 ```
 
-### §1.3 — Obligation Valence: khi nào tích cực, khi nào tiêu cực
+### §1.3 — Obligation Valence: When Positive, When Negative
 
 ```
-⭐ OBLIGATION KHÔNG CHỈ TIÊU CỰC:
+⭐ OBLIGATION IS NOT ONLY NEGATIVE:
 
-  NEGATIVE obligation (bị ép, cost cao, unclear):
-    → Rửa bát dù ghét → cortisol ↑
-    → Nợ ân tình không rõ terms → anxiety sustained
-    → Bị trapped trong role không muốn → resentment
-    → = Phần lớn associate "obligation" với CẢM GIÁC NẶNG
+  NEGATIVE obligation (coerced, high cost, unclear):
+    → Wash dishes even though disliking it → cortisol ↑
+    → Ân tình debt with unclear terms → sustained anxiety
+    → Trapped in an unwanted role → resentment
+    → = Most associate "obligation" with HEAVY FEELING
 
   NEUTRAL obligation (exchange, balanced):
-    → Lương ↔ làm việc → fair, body ≈ neutral
-    → Vay ngân hàng → rõ terms, trả monthly → manageable
-    → = TRAO ĐỔI mode (Status §5) → obligation SYMMETRIC → acceptable
+    → Salary ↔ work → fair, body ≈ neutral
+    → Bank loan → clear terms, monthly repayment → manageable
+    → = EXCHANGE mode (Status §5) → obligation SYMMETRIC → acceptable
 
-  POSITIVE obligation (tự nguyện, Valence-Structural buffer cao):
-    → Chăm mẹ: obligation CAO nhưng Valence-Structural CAO → net = VUI (§7)
-    → Giúp bạn thân: obligation THẤP + Valence-Structural CAO → gần pure reward
-    → Nhà khoa học cống hiến vì yêu nghề: identity obligation + meaning → fulfilling
-    → = CHỌN obligation (efference copy) + Valence-Structural buffer → positive experience
+  POSITIVE obligation (voluntary, high Valence-Structural buffer):
+    → Caring for mother: obligation HIGH but Valence-Structural HIGH → net = JOY (§7)
+    → Helping close friend: obligation LOW + Valence-Structural HIGH → near pure reward
+    → Scientist contributing because of love for the work: identity obligation + meaning → fulfilling
+    → = CHOOSING obligation (efference copy) + Valence-Structural buffer → positive experience
 
-  ⭐ KEY: CÓ 3 YẾU TỐ quyết định valence:
-    ① CHỌN vs BỊ ÉP (Autonomy-Hardware §5: efference copy present/absent)
+  ⭐ KEY: 3 FACTORS determine valence:
+    ① CHOSEN vs COERCED (Autonomy-Hardware §5: efference copy present/absent)
     ② Valence-Structural BUFFER (Entity-Compiled: agent = body-base extension?)
-    ③ COST CLARITY (biết trả gì → manageable; không biết → anxiety)
+    ③ COST CLARITY (knowing what to pay → manageable; not knowing → anxiety)
 
-    Chọn + Valence-Structural cao + Cost rõ → POSITIVE obligation
-    Bị ép + Valence-Structural thấp + Cost mờ → NEGATIVE obligation
-    → = Tại sao "cùng obligation, khác trải nghiệm HOÀN TOÀN"
+    Chosen + Valence-Structural high + Cost clear → POSITIVE obligation
+    Coerced + Valence-Structural low + Cost unclear → NEGATIVE obligation
+    → = Why "same obligation, completely different experience"
 
   🟡 Obligation valence = f(choice, Valence-Structural, cost_clarity) = framework synthesis
   🟢 Intrinsic vs extrinsic motivation (Deci & Ryan 2000): chosen = rewarding
@@ -384,64 +384,64 @@ OBLIGATION KHÔNG PHẢI:
 
 ---
 
-## §2 — OBLIGATION HÌNH THÀNH THẾ NÀO: 4 STAGES
+## §2 — HOW OBLIGATION FORMS: 4 STAGES
 
-### §2.1 — Core claim: từ real experience, KHÔNG từ imagination
+### §2.1 — Core claim: from real experience, NOT from imagination
 
 ```
-⭐ OBLIGATION = COMPILED PREDICTION TỪ REAL EXPERIENCE:
+⭐ OBLIGATION = COMPILED PREDICTION FROM REAL EXPERIENCE:
 
-  Obligation KHÔNG sinh ra từ PFC tưởng tượng hư không.
-  Obligation KHÔNG phải moral teaching được cài vào.
-  Obligation ĐƯỢC BUILD qua 4 stages từ TRẢI NGHIỆM THỰC TẾ.
+  Obligation does NOT arise from PFC imagining things out of thin air.
+  Obligation is NOT moral teaching installed from outside.
+  Obligation IS BUILT through 4 stages from REAL EXPERIENCE.
 
   EVIDENCE:
-    → Trẻ 2 tuổi nhận kẹo → vui → KHÔNG feel "phải trả"
-      (chưa có reciprocity experience → chưa có obligation chunks)
-    → Trẻ 7 tuổi nhận help từ bạn → CÓ THỂ feel "phải giúp lại"
-      (đã trải qua nhiều lần trao đổi → chunks compiled)
-    → Adult nhận offer help → PREDICT ngay: "nếu nhận → phải trả gì?"
+    → 2-year-old receives candy → happy → does NOT feel "must repay"
+      (no reciprocity experience yet → no obligation chunks)
+    → 7-year-old receives help from friend → CAN feel "must help back"
+      (has been through many exchanges → chunks compiled)
+    → Adult receives offer of help → PREDICTS immediately: "if I accept → what must I repay?"
       (decades of experience → compiled prediction instant)
 
   → = Developmental trajectory: none → partial → full compiled
-  → = Consistent với chunk compilation mechanism (Chunk.md §3)
+  → = Consistent with chunk compilation mechanism (Chunk.md §3)
 
-  🟢 Piaget: reciprocity understanding develops ~7-11 tuổi
+  🟢 Piaget: reciprocity understanding develops ~7-11 years old
   🟢 Kohlberg: moral development stages (pre-conventional → conventional)
   🟡 Obligation as chunk compilation (framework application)
 ```
 
-### §2.2 — 4 Stages of obligation formation
+### §2.2 — 4 Stages of Obligation Formation
 
 ```
 ⭐ 4 STAGES:
 
-  STAGE 1 — REAL EXPERIENCE: body register outcome
-  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    Body TRẢI QUA (không phải imagine):
-      → "Mẹ bắt rửa bát, quét nhà" → body register: mệt, chán = COST THẬT
-      → "Không rửa → mẹ mắng/đánh roi" → body register: đau, sợ = CONSEQUENCE THẬT
-      → "Nhờ bạn giải toán → hôm sau bạn xin giấy, mượn tẩy" → body register: bạn ĐÒI
-      → "Bạn làm mất tẩy, tỏ ra bình thản" → body register: UNFAIR → valence ↓
+  STAGE 1 — REAL EXPERIENCE: body registers outcome
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+    Body GOES THROUGH (not imagines):
+      → "Mother makes me wash dishes, sweep floors" → body registers: tired, bored = REAL COST
+      → "Didn't wash → mother scolded/used the cane" → body registers: pain, fear = REAL CONSEQUENCE
+      → "Asked friend to solve math → next day friend wanted paper, borrowed eraser" → body registers: friend DEMANDS
+      → "Friend lost eraser, acted nonchalant" → body registers: UNFAIR → valence ↓
 
-    KEY: Stage 1 = RAW DATA cho compilation.
-    Không có Stage 1 → không có gì để compile.
-    → Trẻ sống trong bong bóng → ít raw data → ít obligation prediction
+    KEY: Stage 1 = RAW DATA for compilation.
+    No Stage 1 → nothing to compile.
+    → Child who lives in a bubble → little raw data → little obligation prediction
 
 
-  STAGE 2 — COMPILATION: multiple experiences → pattern compile
+  STAGE 2 — COMPILATION: multiple experiences → pattern compiled
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    Nhiều Stage 1 experiences → brain detect PATTERN:
-      → Rửa bát lần 1, 2, 5, 20... → compiled: "mẹ nuôi → tôi phải việc nhà"
-      → Bạn đòi trả ơn lần 1, 3, 5... → compiled: "nhờ ai → có thể phải trả"
-      → Vay tiền → trả tiền → compiled: "vay → phải trả" (explicit, bounded)
-      → Nhờ anh B → anh B nhờ lại việc khó → compiled: "ân tình → cost MỜ" (implicit)
+    Many Stage 1 experiences → brain detects PATTERN:
+      → Washing dishes 1st, 2nd, 5th, 20th time... → compiled: "mother provides → I do chores"
+      → Friend demands repayment 1st, 3rd, 5th time... → compiled: "ask someone → may need to repay"
+      → Borrow money → repay money → compiled: "borrow → must repay" (explicit, bounded)
+      → Ask Brother B for help → Brother B later asks a difficult favor → compiled: "ân tình → UNCLEAR cost" (implicit)
 
-    COMPILATION KHÔNG ĐỀU:
-      → Nhiều experience negative (bạn đòi nợ nặng) → over-compile: "nhờ ai = NỢ"
-      → Nhiều experience positive (bạn giúp vô tư) → under-compile: "nhờ ai = FREE"
+    COMPILATION IS UNEVEN:
+      → Many negative experiences (friend demands debt heavily) → over-compile: "asking anyone = DEBT"
+      → Many positive experiences (friend helps freely) → under-compile: "asking anyone = FREE"
       → Mixed experiences → balanced compilation → flexible prediction
-      → = Tại sao mỗi người KHÁC nhau (§8: parenting calibration)
+      → = Why each person is DIFFERENT (§8: parenting calibration)
 
     🟢 Pattern compilation = chunking (Miller 1956, Chase & Simon 1973)
     🟢 Experience-dependent learning = established neuroscience
@@ -449,99 +449,99 @@ OBLIGATION KHÔNG PHẢI:
 
   STAGE 3 — PREDICTION: compiled chunks → PFC CAN predict
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    Khi có đủ compiled chunks, PFC có thể predict TRƯỚC KHI nhận:
-      → Ai đó offer help → PFC scan chunk history
-      → "Lần trước nhờ người X → phải trả Y"
-      → "Lần trước nhờ loại người Z → cost cao/thấp"
-      → → PFC generate OBLIGATION PREDICTION
+    With sufficient compiled chunks, PFC can predict BEFORE accepting help:
+      → Someone offers help → PFC scans chunk history
+      → "Last time I asked person X → had to repay Y"
+      → "Last time I asked type Z person → high/low cost"
+      → → PFC generates OBLIGATION PREDICTION
 
     PREDICTION OFTEN WRONG:
-      → Mỗi agent KHÁC nhau → past pattern KHÔNG guarantee future
-      → PFC fill bằng WORST-CASE khi Cost_clarity thấp (§3)
-      → KHÔNG DÁM HỎI THẲNG (social norm: hỏi = xúc phạm)
-      → → PFC over-predict → over-estimate obligation → AVOID help
+      → Each agent is DIFFERENT → past pattern does NOT guarantee future
+      → PFC fills with WORST-CASE when Cost_clarity is low (§3)
+      → CANNOT ASK DIRECTLY (social norm: asking = insulting)
+      → → PFC over-predicts → over-estimates obligation → AVOIDS help
       → → = Certainty premium (Kahneman): prefer CERTAIN cost over UNCERTAIN cost
-      → → "Tự đi làm thêm" > "mượn anh B" = chọn cost RÕ RÀNG dù CAO hơn
+      → → "Work part-time myself" > "borrow from Brother B" = choosing CLEAR cost even if HIGHER
 
     🟢 Prediction error is well-documented in cognitive science
     🟢 Certainty premium (Kahneman & Tversky 1979): prospect theory
-    🟡 "PFC over-predict obligation" = framework application
+    🟡 "PFC over-predicts obligation" = framework application
 
 
   STAGE 4 — DECISION: prediction drives behavior
-  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
     Obligation prediction → decision:
-      → Predict obligation CAO + cost MỜ → TỪ CHỐI help
-        ("cảm ơn, tôi tự làm được")
-      → Predict obligation THẤP + cost RÕ → NHẬN help thoải mái
-        ("ok, tôi mượn, mai trả nhé")
-      → Predict obligation ≈ 0 → NHẬN không suy nghĩ
-        ("người lạ cho tiền xe bus → nhận → sẽ không gặp lại")
+      → Predict obligation HIGH + cost UNCLEAR → REFUSE help
+        ("thank you, I can do it myself")
+      → Predict obligation LOW + cost CLEAR → ACCEPT help comfortably
+        ("ok, I'll borrow, will return tomorrow")
+      → Predict obligation ≈ 0 → ACCEPT without thinking
+        ("stranger gave me bus fare → accept → won't see them again")
 
     DECISION = RISK ASSESSMENT:
-      Expected_benefit (help nhận được)
+      Expected_benefit (help received)
       vs
-      Expected_obligation (cost predict sẽ phải trả)
-      + Access_cost (cost phải shift mode — §6)
+      Expected_obligation (cost predicted to repay)
+      + Access_cost (cost of shifting mode — §6)
       ────────────────────────────────────────────
-      NẾU benefit > obligation + access_cost → NHẬN
-      NẾU benefit < obligation + access_cost → TỪ CHỐI hoặc TỰ LÀM
+      IF benefit > obligation + access_cost → ACCEPT
+      IF benefit < obligation + access_cost → REFUSE or DO IT YOURSELF
 
     🟡 Decision framework = framework synthesis
     🟢 Cost-benefit analysis in social exchange = established (Homans 1958)
 ```
 
-### §2.3 — Body signals during obligation
+### §2.3 — Body Signals During Obligation
 
 ```
-OBLIGATION CÓ BODY SIGNALS THẬT:
+OBLIGATION PRODUCES REAL BODY SIGNALS:
 
   CORTISOL HOLDING — Role ② (Cortisol-Baseline §7.7, Body-Feedback-Mechanism §3.3):
-    → Obligation pending = Chunk-Gap: "cần resolve"
-    → Body fire cortisol holding signal → sustained low-level
-    → PFC BUỘC quay lại check → "đã trả chưa? plan gì?"
-    → Cost_clarity THẤP → holding có thể SHIFT sang Role ③ (threat-sustained)
-    → Cost_clarity CAO → cortisol manageable, decrease khi plan có
+    → Obligation pending = Chunk-Gap: "needs to be resolved"
+    → Body fires cortisol holding signal → sustained low level
+    → PFC FORCED to return and check → "already repaid? what's the plan?"
+    → Cost_clarity LOW → holding can SHIFT to Role ③ (threat-sustained)
+    → Cost_clarity HIGH → cortisol manageable, decreases when plan is in place
 
   PFC MONITORING:
-    → Working memory allocate slot cho "pending obligation"
-    → = Cognitive load: obligation chiếm PFC bandwidth
-    → Nhiều obligation cùng lúc → PFC overload → anxiety
-    → Giải quyết xong 1 obligation → slot FREE → relief
+    → Working memory allocates a slot for "pending obligation"
+    → = Cognitive load: obligation occupies PFC bandwidth
+    → Multiple obligations simultaneously → PFC overload → anxiety
+    → Resolve 1 obligation → slot FREED → relief
 
   BODY TENSION:
     → Obligation pending → subtle muscle tension (shoulders, jaw)
-    → Compiled, không cần conscious awareness
-    → Giải quyết → tension release → relief = reward signal
+    → Compiled, does not require conscious awareness
+    → Resolve → tension released → relief = reward signal
 
 
-  ⭐ 3-COST MODEL CHO OBLIGATION FULFILLMENT (Inter-Body-Mechanism.md §4):
+  ⭐ 3-COST MODEL FOR OBLIGATION FULFILLMENT (Inter-Body-Mechanism.md §4):
 
-    Fulfill obligation = 3 NGUỒN COST INDEPENDENT:
+    Fulfilling obligation = 3 INDEPENDENT COST SOURCES:
 
     ① PFC DRAFT COST (processing load):
-      → Plan HOW to fulfill → PFC chain novel paths → serial bottleneck occupied
-      → TYPE 1 (financial): draft cost THẤP ("trả $50" = simple plan)
-      → TYPE 3 (ân tình): draft cost CAO ("trả gì cho đủ?" = novel chain DÀI)
+      → Plan HOW to fulfill → PFC chains novel paths → serial bottleneck occupied
+      → TYPE 1 (financial): draft cost LOW ("repay $50" = simple plan)
+      → TYPE 3 (ân tình): draft cost HIGH ("repay what? is it enough?" = long novel chain)
       → = f(chain_length × novelty_degree)
 
     ② SUPPRESS COST (efference mismatch):
-      → Fulfill obligation TRÁI với body want → body RESIST
-      → "Rửa bát dù ghét" = suppress "muốn chơi" → efference mismatch
-      → "Đi gặp anh B dù ngại" = suppress "muốn ở nhà" → cost
-      → = f(intensity × duration) — chronic suppress → burnout
+      → Fulfilling obligation AGAINST what body wants → body RESISTS
+      → "Wash dishes even though I hate it" = suppress "want to play" → efference mismatch
+      → "Go meet Brother B even though reluctant" = suppress "want to stay home" → cost
+      → = f(intensity × duration) — chronic suppression → burnout
 
     ③ UNCERTAINTY COST (cortisol holding):
-      → KHÔNG BIẾT fulfill có đủ không → hold multiple options open
-      → TYPE 3 (ân tình): "trả gì? đủ chưa? anh B hài lòng?"
+      → DO NOT KNOW if fulfillment is sufficient → hold multiple options open
+      → TYPE 3 (ân tình): "repay what? is it enough? is Brother B satisfied?"
         → 3+ options × high stakes × weeks/months = cortisol SUSTAINED
       → TYPE 1 (financial): uncertainty ≈ 0 → cost ③ ≈ 0
 
-    → TYPE 3 (ân tình) = NẶNG NHẤT vì ALL 3 costs CAO ĐỒNG THỜI:
-      PFC draft dài (novel problem) + suppress (ngại) + uncertainty (mờ)
-    → TYPE 2 (exchange) = NHẸ NHẤT vì ALL 3 costs THẤP:
-      PFC draft ngắn (clear terms) + suppress thấp (fair) + uncertainty thấp (rõ)
-    → = 3-cost model GIẢI THÍCH tại sao cùng obligation, khác WEIGHT
+    → TYPE 3 (ân tình) = HEAVIEST because ALL 3 costs HIGH SIMULTANEOUSLY:
+      PFC draft long (novel problem) + suppress (reluctance) + uncertainty (unclear)
+    → TYPE 2 (exchange) = LIGHTEST because ALL 3 costs LOW:
+      PFC draft short (clear terms) + suppress low (fair) + uncertainty low (clear)
+    → = 3-cost model EXPLAINS why same obligation, different WEIGHT
 
     🟡 3-cost model applied to obligation fulfillment = framework synthesis
       (Inter-Body-Mechanism.md §4)
@@ -567,91 +567,91 @@ OBLIGATION CÓ BODY SIGNALS THẬT:
                          × Endpoint_clarity⁻¹
 
 
-  ① AGENT VALUE: agent FEED body-base tôi bao nhiêu?
+  ① AGENT VALUE: how much does agent FEED my body-base?
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    CAO → obligation CAO (nhiều thứ để mất nếu agent withdraw)
-    THẤP → obligation THẤP (mất cũng không sao)
+    HIGH → obligation HIGH (much to lose if agent withdraws)
+    LOW → obligation LOW (losing them is tolerable)
 
-    VD: Bố mẹ nuôi tôi (Agent_value CỰC CAO: food, shelter, safety, love)
-    VD: Bạn cùng lớp (Agent_value THẤP: chơi cùng, nhưng thay thế dễ)
-    VD: Lãnh chúa (Agent_value CỰC CAO: kiểm soát đất đai, sinh kế)
+    Ex: Parents raise me (Agent_value EXTREME: food, shelter, safety, love)
+    Ex: Classmate (Agent_value LOW: play together, but easily replaceable)
+    Ex: Feudal lord (Agent_value EXTREME: controls land, livelihood)
 
 
-  ② REPLACEABILITY⁻¹: agent này DỄ thay thế không?
+  ② REPLACEABILITY⁻¹: is this agent EASY to replace?
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    KHÓ thay thế → obligation CAO (mất = mất vĩnh viễn)
-    DỄ thay thế → obligation THẤP (tìm source khác)
+    HARD to replace → obligation HIGH (losing = losing permanently)
+    EASY to replace → obligation LOW (can find another source)
 
-    VD: Chỉ 1 lãnh chúa trong vùng → Replaceability CỰC THẤP → obligation ↑↑↑
-    VD: 20 bạn cùng lớp → Replaceability CAO → obligation ↓
-    VD: Bạn thân duy nhất → Replaceability THẤP → obligation ↑
+    Ex: Only 1 feudal lord in the region → Replaceability EXTREMELY LOW → obligation ↑↑↑
+    Ex: 20 classmates → Replaceability HIGH → obligation ↓
+    Ex: Only close friend → Replaceability LOW → obligation ↑
 
     → Cross-ref: Protect.md §2: f(replaceability × attachment)
-      = CÙNG FACTOR nhưng Protect = guard, Obligation = maintain cost
+      = SAME FACTOR but Protect = guard, Obligation = maintenance cost
 
 
-  ③ COST CLARITY⁻¹: cost trả ơn RÕ RÀNG không?
+  ③ COST CLARITY⁻¹: is the cost of repayment CLEAR?
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    MỜ → obligation NẶNG (không biết "trả bao nhiêu cho đủ")
-    RÕ → obligation QUẢN LÝ ĐƯỢC (trả xong = xong)
+    UNCLEAR → obligation HEAVY (don't know "how much is enough to repay")
+    CLEAR → obligation MANAGEABLE (repay = done)
 
-    ⭐ = KEY DIFFERENTIATOR: phân biệt obligation nhẹ vs nặng
+    ⭐ = KEY DIFFERENTIATOR: distinguishes light vs heavy obligation
 
-    VD: Vay $50 → Cost_clarity CAO → "trả $50 = xong" → manageable
-    VD: Anh B cho mượn tiền → Cost_clarity THẤP → "anh B muốn gì???" → anxiety
-    VD: Mẹ nuôi tôi lớn → Cost_clarity CỰC THẤP → "trả bao nhiêu cho đủ?" → ∞
+    Ex: Borrow $50 → Cost_clarity HIGH → "repay $50 = done" → manageable
+    Ex: Brother B lends money → Cost_clarity LOW → "what does Brother B want???" → anxiety
+    Ex: Mother raised me → Cost_clarity EXTREMELY LOW → "how much repayment is enough?" → ∞
 
-    → NẾU KHÔNG DÁM HỎI THẲNG (social norm):
-      PFC fill bằng worst-case → over-estimate → cortisol sustained
-    → NẾU HỎI ĐƯỢC:
-      Cost_clarity ↑ → obligation QUẢN LÝ → cortisol ↓
-    → = Tại sao "communication" giảm obligation burden
+    → IF CANNOT ASK DIRECTLY (social norm):
+      PFC fills with worst-case → over-estimates → cortisol sustained
+    → IF CAN ASK:
+      Cost_clarity ↑ → obligation MANAGEABLE → cortisol ↓
+    → = Why "communication" reduces obligation burden
 
 
-  ④ AUTONOMY ALTERNATIVE⁻¹: có thể TỰ LÀM thay không?
+  ④ AUTONOMY ALTERNATIVE⁻¹: is there an option to DO IT YOURSELF?
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    KHÔNG tự làm được → obligation CAO (phải phụ thuộc)
-    CÓ thể tự làm → obligation THẤP (escape option: tự làm = no debt)
+    CANNOT do it yourself → obligation HIGH (must depend on others)
+    CAN do it yourself → obligation LOW (escape option: do it yourself = no debt)
 
-    VD: Tôi không biết sửa xe → PHẢI nhờ thợ → obligation
-    VD: Tôi biết code → tự làm website → no obligation to anyone
-    VD: Bé nhỏ → KHÔNG thể tự ăn, tự học → full dependency → nhưng chưa detect
+    Ex: I cannot fix my car → MUST ask a mechanic → obligation
+    Ex: I can code → build website myself → no obligation to anyone
+    Ex: Young child → CANNOT eat or study alone → full dependency → but not yet detected
 
     → Cross-ref: Autonomy-Hardware.md: self-action = efference copy + opioid reward
-    → TỰ LÀM = double reward: no obligation + efference copy reward
-    → = Tại sao people PREFER tự làm even when help available (§6 access cost)
+    → DO IT YOURSELF = double reward: no obligation + efference copy reward
+    → = Why people PREFER to do things themselves even when help is available (§6 access cost)
 
 
-  ⑤ ENDPOINT CLARITY⁻¹: biết khi nào XONG không?
+  ⑤ ENDPOINT CLARITY⁻¹: do you know when it's DONE?
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    KHÔNG endpoint → obligation SUSTAINED (vĩnh viễn? → cortisol vĩnh viễn)
-    Endpoint RÕ → obligation BOUNDED (trả xong = GIẢI PHÓNG)
+    NO endpoint → obligation SUSTAINED (forever? → cortisol forever)
+    Endpoint CLEAR → obligation BOUNDED (repaid = LIBERATION)
 
-    VD: Trả xong nợ ngân hàng → endpoint RÕ → cortisol STOP → relief
-    VD: "Ân tình" → endpoint KHÔNG RÕ → cortisol KHÔNG DỪNG
-    VD: Identity obligation (nhà khoa học "phải" cống hiến) → KHÔNG BAO GIỜ có endpoint
+    Ex: Paid off bank loan → endpoint CLEAR → cortisol STOPS → relief
+    Ex: "Ân tình" → endpoint NOT CLEAR → cortisol DOES NOT STOP
+    Ex: Identity obligation (scientist "must" contribute) → NEVER has an endpoint
 
-    → Cost_clarity⁻¹ + Endpoint_clarity⁻¹ = 2 factors CÙNG tạo uncertainty
-    → Uncertainty = ĐÚNG pattern Internal-Predict (Threat.md):
-      không biết trả gì + không biết bao giờ xong = LOOP không thoát
+    → Cost_clarity⁻¹ + Endpoint_clarity⁻¹ = 2 factors that JOINTLY create uncertainty
+    → Uncertainty = EXACTLY the Internal-Predict pattern (Threat.md):
+      not knowing what to repay + not knowing when it ends = UNESCAPABLE LOOP
 
 
   FORMULA APPLICATION:
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    Vay ngân hàng $50:
-      Agent_value: + | Repl⁻¹: + (nhiều bank) | Cost⁻¹: ++ (rõ) |
-      Autonomy⁻¹: + (tự kiếm cũng được) | Endpoint⁻¹: ++ (rõ)
-      → Obligation: THẤP → manageable
+    Bank loan of $50:
+      Agent_value: + | Repl⁻¹: + (many banks) | Cost⁻¹: ++ (clear) |
+      Autonomy⁻¹: + (could earn it yourself) | Endpoint⁻¹: ++ (clear)
+      → Obligation: LOW → manageable
 
-    Mượn tiền anh B (thực dụng):
-      Agent_value: +++ | Repl⁻¹: ++ (ít người cho mượn) | Cost⁻¹: − (mờ!) |
-      Autonomy⁻¹: ++ (không tự giải quyết) | Endpoint⁻¹: − (mờ!)
-      → Obligation: CAO → anxiety, overthinking
+    Borrowing from Brother B (transactional):
+      Agent_value: +++ | Repl⁻¹: ++ (few people willing to lend) | Cost⁻¹: − (unclear!) |
+      Autonomy⁻¹: ++ (cannot resolve alone) | Endpoint⁻¹: − (unclear!)
+      → Obligation: HIGH → anxiety, overthinking
 
-    Dân thường nhờ lãnh chúa:
-      Agent_value: ++++ | Repl⁻¹: ++++ (1 lãnh chúa) | Cost⁻¹: −−− (lãnh chúa quyết) |
-      Autonomy⁻¹: ++++ (không tự làm) | Endpoint⁻¹: −−− (lãnh chúa quyết khi nào đủ)
-      → Obligation: CỰC NẶNG → body register: "mắc nợ vĩnh viễn"
+    Commoner asking the feudal lord:
+      Agent_value: ++++ | Repl⁻¹: ++++ (1 feudal lord) | Cost⁻¹: −−− (lord decides) |
+      Autonomy⁻¹: ++++ (cannot do alone) | Endpoint⁻¹: −−− (lord decides when enough)
+      → Obligation: EXTREME → body registers: "indebted forever"
 
   🟡 5-factor formula = framework synthesis
   🟢 Each factor individually has research support
@@ -661,98 +661,98 @@ OBLIGATION CÓ BODY SIGNALS THẬT:
 ### §3.2 — Status Gap = Multiplier
 
 ```
-⭐ STATUS GAP KHÔNG PHẢI FACTOR THỨ 6 — LÀ MULTIPLIER:
+⭐ STATUS GAP IS NOT THE 6TH FACTOR — IT IS A MULTIPLIER:
 
-  Status gap AMPLIFIES tất cả 5 factors ĐỒNG THỜI:
+  Status gap AMPLIFIES all 5 factors SIMULTANEOUSLY:
 
-  KHI STATUS GAP LỚN (tôi << agent):
-    Agent_value ↑↑ (agent có quyền lực → control nhiều resource)
-    Replaceability⁻¹ ↑↑ (agent có power → ít alternatives)
-    Cost_clarity⁻¹ ↑↑ (agent QUYẾT terms → tôi không negotiate được)
-    Autonomy⁻¹ ↑↑ (nếu tự làm được thì đâu cần nhờ)
-    Endpoint⁻¹ ↑↑ (agent quyết khi nào đủ → tôi không control)
-    → ALL 5 factors EXTREME CÙNG LÚC → obligation EXTREME
+  WHEN STATUS GAP IS LARGE (I << agent):
+    Agent_value ↑↑ (agent has power → controls many resources)
+    Replaceability⁻¹ ↑↑ (agent has power → fewer alternatives)
+    Cost_clarity⁻¹ ↑↑ (agent DECIDES terms → I cannot negotiate)
+    Autonomy⁻¹ ↑↑ (if I could do it myself I wouldn't need to ask)
+    Endpoint⁻¹ ↑↑ (agent decides when enough → I don't control)
+    → ALL 5 factors EXTREME SIMULTANEOUSLY → obligation EXTREME
 
-  KHI STATUS NGANG (trao đổi mode):
+  WHEN STATUS IS EQUAL (exchange mode):
     Agent_value moderate
-    Replaceability moderate (nhiều peers)
-    Cost_clarity OK (negotiate được)
-    Autonomy OK (có thể tự làm phần nào)
-    Endpoint OK (thỏa thuận rõ)
+    Replaceability moderate (many peers)
+    Cost_clarity OK (can negotiate)
+    Autonomy OK (can do parts yourself)
+    Endpoint OK (can agree clearly)
     → ALL 5 factors MODERATE → obligation manageable
 
-  → Status gap = MULTIPLIER giống cortisol amplifier (Cortisol-Baseline.md)
-  → Cụ thể: Status gap xác định MODE (Status.md §4):
-    Mode Trao đổi → 5 factors moderate → obligation manageable
-    Mode Comply → 5 factors extreme → obligation CỰC NẶNG
+  → Status gap = MULTIPLIER similar to cortisol amplifier (Cortisol-Baseline.md)
+  → Specifically: Status gap determines MODE (Status.md §4):
+    Exchange mode → 5 factors moderate → obligation manageable
+    Comply mode → 5 factors extreme → obligation EXTREME
 
 
-  VÍ DỤ — OBLIGATION ASYMMETRY:
+  EXAMPLE — OBLIGATION ASYMMETRY:
 
-    Lãnh chúa cho phép dân vay tiền:
-      Cost CHO lãnh chúa: ≈ 0 (ký 1 tờ giấy, tiền dư thừa)
-      Obligation CHO dân: CỰC CAO (all 5 factors extreme)
-      → = ASYMMETRY: chi phí cho ≈ 0, obligation nhận ≈ ∞
-      → = Power tạo "OBLIGATION INFLATION"
-      → = Tại sao power corrupts: cho ÍT, đòi NHIỀU, obligation vẫn hold
+    Feudal lord permits commoner to borrow:
+      Cost TO lord: ≈ 0 (sign a paper, money surplus)
+      Obligation FOR commoner: EXTREME (lord decides terms, decides endpoint)
+      → = ASYMMETRY: cost of giving ≈ 0, obligation from receiving ≈ ∞
+      → = Power creates "OBLIGATION INFLATION"
+      → = Why power corrupts: give LITTLE, demand MUCH, obligation still holds
 
-    Sếp cho phép nghỉ sớm đón con:
-      Cost CHO sếp: ≈ 0 (approve request, vài giây)
-      Obligation CHO nhân viên: MODERATE-HIGH
-        (vượt exchange contract → shift sang comply territory)
-      → = Mini version of lãnh chúa dynamic
+    Boss permits early departure to pick up child:
+      Cost TO boss: ≈ 0 (approve request, a few seconds)
+      Obligation FOR employee: MODERATE-HIGH
+        (exceeds exchange contract → shifts toward comply territory)
+      → = Mini version of feudal lord dynamic
 
-    Bạn bè ngang nhau giúp đỡ:
-      Cost CHO bạn: tùy (có thể thấp hoặc cao)
-      Obligation CHO tôi: TƯƠNG ĐƯƠNG cost thực tế
+    Friends of equal standing helping each other:
+      Cost TO friend: varies (can be low or high)
+      Obligation FOR me: EQUIVALENT to actual cost
       → = SYMMETRIC: obligation ≈ actual cost
-      → = Trao đổi mode: fair, manageable
+      → = Exchange mode: fair, manageable
 
-  ⭐ PATTERN: Status gap CAO → obligation INFLATE beyond actual cost
-    → "Được lãnh chúa cho mượn 1 ổ bánh mì = nợ cả đời"
-    → = Obligation KHÔNG tỷ lệ với actual cost of gift
-    → = Obligation tỷ lệ với POWER DYNAMICS
+  ⭐ PATTERN: Status gap HIGH → obligation INFLATES beyond actual cost
+    → "Getting the feudal lord to lend you a loaf of bread = lifelong debt"
+    → = Obligation NOT proportional to actual cost of gift
+    → = Obligation proportional to POWER DYNAMICS
 
   🟡 Status gap as multiplier = framework synthesis
   🟡 "Obligation inflation" from power asymmetry = framework claim
   🟢 Power dynamics in reciprocity (Emerson 1962, Blau 1964)
 ```
 
-### §3.3 — PFC=Lawyer distorts obligation assessment
+### §3.3 — PFC=Lawyer Distorts Obligation Assessment
 
 ```
-⭐ PFC = LAWYER, KHÔNG PHẢI JUDGE (Inter-Body-Mechanism.md §7):
+⭐ PFC = LAWYER, NOT JUDGE (Inter-Body-Mechanism.md §7):
 
-  PFC KHÔNG trung lập khi assess obligation.
-  PFC = lawyer cho body-base: tạo narrative biện hộ cho action body ĐÃ muốn.
+  PFC is NOT neutral when assessing obligation.
+  PFC = lawyer for body-base: creates narrative defending what the body ALREADY wanted.
 
-  3 CÁCH PFC=LAWYER DISTORT OBLIGATION:
+  3 WAYS PFC=LAWYER DISTORTS OBLIGATION:
 
-    ① FABRICATE obligation (tạo obligation không có):
-      Body-base muốn maintain relationship (Valence-Structural) → NHƯNG relationship unhealthy
-      → PFC fabricate: "tôi NỢ anh ấy, tôi PHẢI ở lại"
-      → Thật ra: body-base sợ mất Valence-Structural, PFC lawyer biến SỢ → "nợ ân tình"
-      → = Obligation narrative = cover cho attachment fear
+    ① FABRICATES obligation (creates obligation that doesn't exist):
+      Body-base wants to maintain relationship (Valence-Structural) → BUT relationship is unhealthy
+      → PFC fabricates: "I OWE him, I MUST stay"
+      → Reality: body-base fears losing Valence-Structural, PFC lawyer converts FEAR → "ân tình debt"
+      → = Obligation narrative = cover for attachment fear
 
-    ② SUPPRESS obligation (phủ nhận obligation thật):
-      Body-base detect obligation (đã nhận, chưa trả) → NHƯNG trả = costly
-      → PFC suppress: "mình đâu có nợ, bạn cho vì vui thôi"
-      → Thật ra: obligation THẬT nhưng PFC rationalize away
-      → = "Quên ơn" CÓ THỂ là PFC lawyer suppress, không phải "xấu tính"
+    ② SUPPRESSES obligation (denies real obligation):
+      Body-base detects obligation (received, not yet repaid) → BUT repaying is costly
+      → PFC suppresses: "I don't owe anything, the friend helped just because they wanted to"
+      → Reality: obligation is REAL but PFC rationalizes it away
+      → = "Forgetting kindness" CAN BE PFC lawyer suppressing, not "being selfish"
 
-    ③ AMPLIFY obligation (phóng đại obligation):
-      Body-base detect mild obligation → NHƯNG anxiety trait cao
-      → PFC amplify: "trời ơi mình nợ NHIỀU QUÁ, không bao giờ trả được"
-      → Thật ra: obligation MODERATE nhưng PFC over-predict (§2 Stage 3)
-      → = Over-calibrated pattern (§8) + PFC lawyer CÙNG direction → spiral
+    ③ AMPLIFIES obligation (exaggerates obligation):
+      Body-base detects mild obligation → BUT anxiety trait is high
+      → PFC amplifies: "I owe SO MUCH, I can never repay it all"
+      → Reality: obligation is MODERATE but PFC over-predicts (§2 Stage 3)
+      → = Over-calibrated pattern (§8) + PFC lawyer in SAME direction → spiral
 
   DOMAIN = ARBITER (Inter-Body-Mechanism.md §6.4):
-    PFC narrative CÓ THỂ SAI. Domain reality = final check.
-    → "Tôi nợ anh B rất nhiều" ← PFC nói vậy. NHƯNG:
-      Nếu anh B cho vì Valence-Structural thật → obligation THẤP → PFC over-predict
-      Nếu anh B cho vì manipulate → obligation thật CAO → PFC under-predict
-    → Chỉ DOMAIN CONTACT (time + interaction) mới reveal truth
-    → Timeline: scam artists = reveal years later (Gazzaniga split-brain:
+    PFC narrative CAN BE WRONG. Domain reality = final check.
+    → "I owe Brother B so much" ← PFC says this. BUT:
+      If Brother B gave because of genuine Valence-Structural → obligation LOW → PFC over-predicts
+      If Brother B gave to manipulate → obligation truly HIGH → PFC under-predicts
+    → Only DOMAIN CONTACT (time + interaction) reveals truth
+    → Timeline: scam artists = revealed years later (Gazzaniga split-brain:
       PFC can confabulate convincingly — Inter-Body §7.1)
 
   🟡 PFC=Lawyer distorts obligation assessment = framework synthesis
@@ -765,23 +765,25 @@ OBLIGATION CÓ BODY SIGNALS THẬT:
 
 ## §4 — 6 TYPES SPECTRUM
 
-### §4.1 — Spectrum overview
+### §4.1 — Spectrum Overview
 
 ```
-⭐ 6 TYPES TỪ EXPLICIT-BOUNDED → IMPLICIT-UNBOUNDED:
+⭐ 6 TYPES FROM EXPLICIT-BOUNDED → IMPLICIT-UNBOUNDED:
 
   EXPLICIT, BOUNDED                                  IMPLICIT, UNBOUNDED
   ←──────────────────────────────────────────────────────────────────→
   TYPE 1      TYPE 2       TYPE 3          TYPE 4      TYPE 5      TYPE 6
-  Financial   Exchange     Social/Ân tình  Role        Identity    Compound
-  (rõ, trả    (symmetric,  (mờ, no         (trust,     (self,      (nhiều types
-   = xong)    mutual)      endpoint)       ongoing)    vĩnh viễn)  chồng lên)
+  Financial   Exchange     Social/         Role        Identity    Compound
+  (clear,     (symmetric,  Ân tình         (trust,     (self,      (multiple
+   repay=done) mutual)     (unclear,        ongoing)    forever)    types
+                           no endpoint)                            overlap)
 
-  Cortisol:  LOW     ≈ 0        HIGH sustained   MODERATE    MODERATE    CỰC CAO
+  Cortisol:  LOW     ≈ 0        HIGH sustained   MODERATE    MODERATE    EXTREME
                                                   -chronic    -chronic
-  Endpoint:  RÕ      Ongoing    KHÔNG RÕ         Role-bound  KHÔNG      MULTIPLE
-                     (contract)                              BAO GIỜ    endpoints
-  Predict:   DỄ      DỄ         KHÓ             MODERATE    KHÓ        CỰC KHÓ
+  Endpoint:  CLEAR   Ongoing    NOT CLEAR        Role-bound  NEVER       MULTIPLE
+                     (contract)                              ENDS        endpoints
+  Predict:   EASY    EASY       HARD            MODERATE    HARD        EXTREMELY
+                                                                        HARD
 ```
 
 ### §4.2 — TYPE 1: FINANCIAL (explicit, bounded)
@@ -789,21 +791,21 @@ OBLIGATION CÓ BODY SIGNALS THẬT:
 ```
 TYPE 1 — FINANCIAL:
 
-  VD: Vay tiền ngân hàng, vay bạn RÕ RÀNG, mua trả góp
+  Ex: Bank loan, borrowing money with clear terms, installment purchases
   
-  Đặc điểm:
-    Cost_clarity: CAO (vay bao nhiêu → trả bấy nhiêu + lãi)
-    Endpoint: RÕ (trả xong = GIẢI PHÓNG)
-    Cortisol: manageable (PFC plan được → cortisol controlled)
-    Chunk dynamics: Chunk-Gap → PFC plan → execute → Gap close
+  Characteristics:
+    Cost_clarity: HIGH (borrow X → repay X + interest)
+    Endpoint: CLEAR (repaid = LIBERATION)
+    Cortisol: manageable (PFC can plan → cortisol controlled)
+    Chunk dynamics: Chunk-Gap → PFC plans → executes → Gap closes
 
   Body experience:
-    → Pending: mild cortisol holding ("nhớ phải trả")
+    → Pending: mild cortisol holding ("remember to repay")
     → Paying: neutral to mild relief per installment
-    → Paid off: RELIEF BURST → reward signal → Gap close → PFC free slot
-    → = Tại sao "trả xong nợ" = cảm giác GIẢI PHÓNG mạnh
+    → Paid off: RELIEF BURST → reward signal → Gap closes → PFC slot freed
+    → = Why "paying off debt" = feeling of LIBERATION
 
-  Prediction dễ → overthinking THẤP → manageable obligation
+  Prediction easy → overthinking LOW → manageable obligation
 
   🟢 Financial obligation = well-documented (behavioral economics)
 ```
@@ -813,25 +815,25 @@ TYPE 1 — FINANCIAL:
 ```
 TYPE 2 — EXCHANGE:
 
-  VD: Lương ↔ làm việc, mua bán, dịch vụ ↔ tiền
+  Ex: Salary ↔ work, buying and selling, service ↔ money
   
-  Đặc điểm:
-    Cost_clarity: CAO (hợp đồng rõ: tôi làm X, bạn trả Y)
-    Endpoint: ongoing (hợp đồng kết thúc → obligation end)
-    Body-base: ≈ NEUTRAL ("công bằng, không nghĩ gì")
-    → = Status.md §5: Trao đổi mode = BOTH parties benefit
+  Characteristics:
+    Cost_clarity: HIGH (contract clear: I do X, you pay Y)
+    Endpoint: ongoing (contract ends → obligation ends)
+    Body-base: ≈ NEUTRAL ("fair, no second thoughts")
+    → = Status.md §5: Exchange mode = BOTH parties benefit
 
   Body experience:
     → Balanced exchange → body ≈ neutral (no gratitude, no resentment)
-    → "Tôi làm, tôi nhận lương" → fair → PFC không allocate monitoring
-    → NHƯNG: nếu exchange BẤT CÂN → obligation TĂNG:
-      "Tôi làm nhiều hơn lương" → resentment
-      "Tôi nhận nhiều hơn làm" → guilt (mini-obligation)
+    → "I work, I receive salary" → fair → PFC allocates no monitoring
+    → BUT: if exchange BECOMES UNBALANCED → obligation INCREASES:
+      "I work more than my salary" → resentment
+      "I receive more than I contribute" → guilt (mini-obligation)
 
-  ⭐ KEY: Exchange = BASELINE mode cho human cooperation:
-    → Mỗi bên contribute → mỗi bên receive → POSITIVE-SUM
-    → Obligation ≈ 0 khi balanced → sustainable cooperation
-    → = Status.md §5: Trao đổi = mode phổ biến nhất
+  ⭐ KEY: Exchange = BASELINE mode for human cooperation:
+    → Each side contributes → each side receives → POSITIVE-SUM
+    → Obligation ≈ 0 when balanced → sustainable cooperation
+    → = Status.md §5: Exchange = most common mode
 
   🟢 Social exchange theory (Homans 1958, Blau 1964)
   🟢 Equity theory (Adams 1963): imbalance → distress
@@ -840,61 +842,61 @@ TYPE 2 — EXCHANGE:
 ### §4.4 — TYPE 3: SOCIAL / ÂN TÌNH (implicit, unbounded)
 
 ```
-⭐ TYPE 3 — SOCIAL / ÂN TÌNH:
+⭐ TYPE 3 — SOCIAL / ÂN TÌNH (Vietnamese: implicit relational debt):
 
-  VD: Anh B cho mượn tiền (ân tình, không rõ terms)
-  VD: Người quen giúp đỡ lúc khó khăn
-  VD: Bố mẹ nuôi con (nếu bố mẹ ĐIỀU KIỆN HÓA — §8)
+  Ex: Brother B lends money (ân tình, unclear terms)
+  Ex: Acquaintance helps during hardship
+  Ex: Parents raising child (if parents CONDITIONALIZE — §8)
 
-  Đặc điểm:
-    Cost_clarity: THẤP ("trả gì cho đủ? → KHÔNG BIẾT")
-    Endpoint: KHÔNG RÕ ("bao giờ hết nợ? → KHÔNG BIẾT")
+  Characteristics:
+    Cost_clarity: LOW ("how much repayment is enough? → UNKNOWN")
+    Endpoint: NOT CLEAR ("when does the debt end? → UNKNOWN")
     Cortisol: SUSTAINED (= Internal-Predict pattern — Threat.md)
-    → NO body satisfaction fire → loop KHÔNG TỰ DỪNG
+    → NO body satisfaction fires → loop DOES NOT SELF-STOP
 
-  ⭐ = TYPE NẶNG NHẤT vì:
-    → Unpredictable cost: agent CÓ THỂ đòi BẤT CỨ LÚC NÀO, BẤT CỨ GÌ
-    → No endpoint: "trả" 1 lần KHÔNG guarantee "xong"
-    → Social norm CẤM hỏi: "anh B ơi, anh muốn gì?" = xúc phạm
-    → PFC fill worst-case → over-estimate → cortisol ↑↑↑
+  ⭐ = HEAVIEST TYPE because:
+    → Unpredictable cost: agent CAN demand ANYTHING, ANYTIME
+    → No endpoint: "repaying" once does NOT guarantee "done"
+    → Social norm FORBIDS asking: "Brother B, what do you want?" = insulting
+    → PFC fills worst-case → over-estimates → cortisol ↑↑↑
 
-  MECHANISM — tại sao ân tình trigger Internal-Predict:
-    Threat.md: Internal-Predict = threat từ prediction, NO external event,
-    NO endpoint, self-amplifying: lo → imagine → lo hơn
-    → Ân tình = ĐÚNG pattern này:
-      "Anh B muốn gì?" → PFC predict → "có thể yêu cầu việc khó?"
-      → "Mà từ chối thì áy náy?" → "Mà nhận thì cost cao?"
+  MECHANISM — why ân tình triggers Internal-Predict:
+    Threat.md: Internal-Predict = threat from prediction, NO external event,
+    NO endpoint, self-amplifying: worry → imagine → worry more
+    → Ân tình = EXACTLY this pattern:
+      "What does Brother B want?" → PFC predicts → "maybe a difficult request?"
+      → "But refusing would feel guilty?" → "But accepting has high cost?"
       → LOOP → cortisol threat-sustained (Role ③) → anxiety
 
-  "ÂN TÌNH" CÓ UNIVERSAL KHÔNG HAY CHỈ VIETNAMESE/ASIAN?
+  IS "ÂN TÌNH" UNIVERSAL OR ONLY VIETNAMESE/ASIAN?
     → Mechanism: implicit debt + no endpoint = UNIVERSAL (reciprocity everywhere)
-    → Cultural: cách NAMING + INTENSITY có thể khác
+    → Cultural: NAMING + INTENSITY may differ
     → English: "I owe you one" = lighter, often bounded
-    → Vietnamese/Chinese/Japanese: "ân tình" / "恩" / "恩義" = NẶNG hơn
-      (cultural schema install: ơn = must repay, possibly lifetime)
-    → = CÙNG mechanism, KHÁC cultural amplification
-    → 🔴 Hypothesis: "ân tình intensity = f(cultural schema)" cần cross-cultural research
+    → Vietnamese/Chinese/Japanese: "ân tình" / "恩" / "恩義" = HEAVIER
+      (cultural schema installed: kindness = must repay, possibly lifetime)
+    → = SAME mechanism, DIFFERENT cultural amplification
+    → 🔴 Hypothesis: "ân tình intensity = f(cultural schema)" needs cross-cultural research
 
-  VÍ DỤ — TẠI SAO "TỰ ĐI LÀM THÊM" > "MƯỢN ANH B":
-    Option A: Tự đi làm thêm
-      → Cost: CAO nhưng RÕ RÀNG (work hours × wage)
-      → Endpoint: RÕ (kiếm đủ = xong)
-      → Autonomy: CAO (tự làm = efference copy reward)
+  EXAMPLE — WHY "WORK PART-TIME MYSELF" > "BORROW FROM BROTHER B":
+    Option A: Work part-time
+      → Cost: HIGH but CLEAR (work hours × wage)
+      → Endpoint: CLEAR (earn enough = done)
+      → Autonomy: HIGH (do it yourself = efference copy reward)
       → Obligation: 0
       → NET: cost known + no obligation
 
-    Option B: Mượn anh B (thực dụng)
-      → Cost: 0 ngay lập tức NHƯNG:
-        Cost_clarity THẤP + Endpoint THẤP + autonomy GIẢM
-      → Obligation: CAO + MỜ + sustained
+    Option B: Borrow from Brother B (transactional)
+      → Cost: 0 immediately BUT:
+        Cost_clarity LOW + Endpoint LOW + autonomy DECREASES
+      → Obligation: HIGH + UNCLEAR + sustained
       → NET: cost unknown + obligation sustained
 
-    → PFC prefer Option A: CERTAIN HIGH cost > UNCERTAIN UNKNOWN cost
-    → = Certainty premium áp dụng cho social obligation
+    → PFC prefers Option A: CERTAIN HIGH cost > UNCERTAIN UNKNOWN cost
+    → = Certainty premium applied to social obligation
     → 🟢 Prospect theory (Kahneman & Tversky 1979): certainty premium
 
-  🟡 TYPE 3 = nặng nhất vì Internal-Predict pattern = framework synthesis
-  🔴 "Ân tình" cultural specificity = cần cross-cultural data
+  🟡 TYPE 3 = heaviest because Internal-Predict pattern = framework synthesis
+  🔴 "Ân tình" cultural specificity = needs cross-cultural data
 ```
 
 ### §4.5 — TYPE 4: ROLE (trust-based, ongoing)
@@ -902,32 +904,32 @@ TYPE 2 — EXCHANGE:
 ```
 TYPE 4 — ROLE:
 
-  VD: Trưởng làng — cả làng trust + bầu → "phải" lo cho dân
-  VD: Manager — team depend → "phải" support team
-  VD: Bác sĩ — bệnh nhân trust → "phải" chữa bệnh tốt nhất
+  Ex: Village elder — entire village trusts + elected → "must" care for the people
+  Ex: Manager — team depends → "must" support the team
+  Ex: Doctor — patient trusts → "must" provide best possible treatment
 
-  Đặc điểm:
-    Source: COLLECTIVE AGENT trust → grant status → expect performance
-    Cost: performance LIÊN TỤC, scope RỘNG (không chỉ 1 task)
-    Endpoint: role kết thúc (resign, retire) hoặc VĨNH VIỄN nếu role = identity
-    Body-base: Status nhận TỪ role → obligation MAINTAIN trust
+  Characteristics:
+    Source: COLLECTIVE AGENT trust → grants status → expects performance
+    Cost: CONTINUOUS performance, WIDE scope (not just 1 task)
+    Endpoint: when role ends (resign, retire) or PERMANENT if role = identity
+    Body-base: Status received FROM role → obligation to MAINTAIN trust
 
   Mechanism:
-    → Collective agent grant resources (tiền, quyền, sự tôn trọng)
-    → Body compile: "resources NÀY từ role → phải maintain performance"
-    → NẾU performance DROP → collective withdraw trust → Status ↓↓↓
-    → = Threat of Status loss DRIVE obligation maintenance
+    → Collective agent grants resources (money, power, respect)
+    → Body compiles: "these resources FROM role → must maintain performance"
+    → IF performance DROPS → collective withdraws trust → Status ↓↓↓
+    → = Threat of Status loss DRIVES obligation maintenance
 
-  TRƯỞNG LÀNG cụ thể:
-    Agent = cả làng (collective)
-    Agent_value: CAO (tiền, niềm tin, tôn trọng, quyền lực)
-    Replaceability: THẤP (được bầu, khó tìm vị trí tương đương)
-    Cost: suy nghĩ cho cả làng, giải quyết mâu thuẫn, phân bổ resource
-    Endpoint: role kết thúc khi hết nhiệm kỳ hoặc bị bãi nhiệm
-    → Obligation = MODERATE-sustained (manageable vì Cost rõ ràng phần nào)
+  VILLAGE ELDER specifically:
+    Agent = entire village (collective)
+    Agent_value: HIGH (money, trust, respect, authority)
+    Replaceability: LOW (elected, hard to find equivalent position)
+    Cost: thinking for the whole village, resolving conflicts, allocating resources
+    Endpoint: role ends when term ends or removed by village
+    → Obligation = MODERATE-sustained (manageable because Cost partly clear)
 
-  NẾU FAIL → Status.md §6: disruption cycle
-    → Trust withdraw → Status DROP → body cortisol → scramble recover
+  IF FAILS → Status.md §6: disruption cycle
+    → Trust withdraws → Status DROPS → body cortisol → scramble to recover
     → = Role obligation failure = Status disruption event
 
   🟢 Role obligation = well-documented (Biddle 1986, role theory)
@@ -939,36 +941,36 @@ TYPE 4 — ROLE:
 ```
 TYPE 5 — IDENTITY:
 
-  VD: Nhà khoa học cảm thấy "phải" cống hiến
-  VD: Nghệ sĩ cảm thấy "phải" sáng tạo
-  VD: "Tôi là người tốt" → "phải" giúp đỡ mọi người
+  Ex: Scientist feels "must" contribute
+  Ex: Artist feels "must" create
+  Ex: "I am a good person" → "must" help everyone
 
-  Đặc điểm:
-    Source: SELF — Anchor-Schema "tôi = X" drive behavior
-    External enforcement: KHÔNG CÓ (xã hội không đòi tới từng cá nhân)
-    Cost: self-verify LIÊN TỤC (hành động match identity?)
-    Endpoint: KHÔNG BAO GIỜ (identity = ongoing)
-    Body-base: identity dissonance nếu không fulfill
+  Characteristics:
+    Source: SELF — Anchor-Schema "I = X" drives behavior
+    External enforcement: NONE (society does not demand it of each individual)
+    Cost: continuous self-verification (does behavior match identity?)
+    Endpoint: NEVER (identity = ongoing)
+    Body-base: identity dissonance if not fulfilled
 
   Mechanism:
-    → Anchor-Schema "tôi là nhà khoa học" compiled sâu
-    → Behavior PHẢI match anchor → nếu không → dissonance → cortisol
-    → = Self-imposed obligation = body enforce on ITSELF
-    → KHÔNG cần external agent đòi
+    → Anchor-Schema "I am a scientist" compiled deep
+    → Behavior MUST match anchor → if not → dissonance → cortisol
+    → = Self-imposed obligation = body enforces on ITSELF
+    → Does NOT need external agent demanding
     → Identity obligation = f(anchor strength):
-      Anchor STRONG → obligation STRONG ("tôi PHẢI nghiên cứu")
-      Anchor WEAK → obligation dissolve ("nhà khoa học chỉ là label")
+      Anchor STRONG → obligation STRONG ("I MUST research")
+      Anchor WEAK → obligation dissolves ("scientist is just a label")
 
-  ⭐ KHÔNG PHẢI AI CŨNG FEEL:
-    → Nhà khoa học A: anchor STRONG → feel obligation → cống hiến thật
-    → Nhà khoa học B: anchor WEAK → "nhà khoa học" = career choice only → no obligation
-    → Nhà khoa học C: anchor nhưng cheat → identity dissonance giải quyết bằng
-      rationalization ("ai cũng làm vậy") → obligation dissolved
-    → = Anchor strength QUYẾT ĐỊNH có identity obligation không
+  ⭐ NOT EVERYONE FEELS IT:
+    → Scientist A: anchor STRONG → feels obligation → genuinely contributes
+    → Scientist B: anchor WEAK → "scientist" = career choice only → no obligation
+    → Scientist C: has anchor but cheats → identity dissonance resolved via
+      rationalization ("everyone does it") → obligation dissolved
+    → = Anchor strength DETERMINES whether identity obligation exists
 
   → Cross-ref: Meaning.md v2.0 §3: IDENTITY type anchor
-    = Identity obligation → meaning (khi aligned)
-    = Identity obligation → burnout (khi exhausted but can't stop)
+    = Identity obligation → meaning (when aligned)
+    = Identity obligation → burnout (when exhausted but cannot stop)
 
   🟡 Identity obligation = f(anchor strength) = framework synthesis
   🟢 Identity-based motivation (Oyserman 2007)
@@ -980,49 +982,52 @@ TYPE 5 — IDENTITY:
 ```
 ⭐ TYPE 6 — COMPOUND:
 
-  VD: Vợ nội trợ — COMPOUND nhiều obligation type:
+  Ex: Stay-at-home wife — COMPOUND of multiple obligation types:
 
     ┌─────────────┬───────────────────────────────────────────────┐
-    │ Type chồng  │ Cụ thể                                       │
+    │ Type stacked│ Specific content                              │
     ├─────────────┼───────────────────────────────────────────────┤
-    │ Exchange    │ Chồng kiếm tiền ↔ vợ nội trợ                 │
-    │ (TYPE 2)    │ (nhưng "công bằng" KHÔNG RÕ — ai đo?)       │
+    │ Exchange    │ Husband earns ↔ wife does housework           │
+    │ (TYPE 2)    │ (but "fairness" is NOT CLEAR — who measures?) │
     ├─────────────┼───────────────────────────────────────────────┤
-    │ Social      │ Schema cài: "phụ nữ phải giữ lửa gia đình"  │
-    │ (TYPE 3)    │ (installed obligation — bố mẹ, bạn bè, XH)  │
+    │ Social      │ Installed schema: "women must keep the home"  │
+    │ (TYPE 3)    │ (installed obligation — parents, friends, XH) │
     ├─────────────┼───────────────────────────────────────────────┤
-    │ Role        │ "Vợ" + "Mẹ" = 2 role obligations ongoing     │
-    │ (TYPE 4)    │ (collective agent = gia đình + xã hội)       │
+    │ Role        │ "Wife" + "Mother" = 2 ongoing role obligations│
+    │ (TYPE 4)    │ (collective agent = family + society)         │
     ├─────────────┼───────────────────────────────────────────────┤
-    │ + Autonomy  │ Financial dependency → Autonomy GIẢM MẠNH   │
-    │   GIẢM      │ (ly dị = mất income source → threat lớn)    │
+    │ + Autonomy  │ Financial dependency → Autonomy SHARPLY DROPS │
+    │   REDUCED   │ (divorce = lose income source → major threat) │
     ├─────────────┼───────────────────────────────────────────────┤
-    │ + Endpoint  │ Endpoint KHÔNG RÕ (bao giờ "hết" nội trợ?)  │
-    │   MỜ        │ (cho tới khi ly dị hoặc con lớn → decades)  │
+    │ + Endpoint  │ Endpoint NOT CLEAR (when does housework "end"?)│
+    │   UNCLEAR   │ (until divorce or children grow up → decades) │
     └─────────────┴───────────────────────────────────────────────┘
 
-    → = COMPOUND nhiều types → obligation CỰC NẶNG
-    → = Tại sao "vợ ở nhà" = 1 trong những role NẶNG nhất
-      mà xã hội KHÔNG thấy (vì "chỉ ở nhà" = trông nhàn hạ)
+    → = COMPOUND of multiple types → obligation EXTREME
+    → = Why "wife at home" = one of the HEAVIEST roles
+      that society DOES NOT SEE (because "just staying home" looks easy)
 
 
-  VD ĐỐI LẬP: Vợ mới cưới xinh đẹp:
-    Exchange: chồng value vợ xinh → obligation ≈ 0 ("chỉ cần vui vẻ")
-    Cost ≈ 0 (sẵn xinh = no effort needed)
-    Autonomy: CAO (tự do làm gì muốn, miễn giới hạn)
-    → NHƯNG: Baseline Shift sẽ kick in (Body-Feedback-Mechanism §5):
-      "Xinh" habituate → chồng adapt → demand MORE → obligation TĂNG dần
-    → = Obligation có thể INFLATE theo thời gian khi baseline shift
-    → = Dynamic: obligation hôm nay ≠ obligation năm sau
+  CONTRASTING EXAMPLE: Newly wed beautiful wife:
+    Exchange: husband values beautiful wife → obligation ≈ 0 ("just be happy")
+    Cost ≈ 0 (naturally beautiful = no effort needed)
+    Autonomy: HIGH (free to do whatever, within limits)
+    → BUT: Baseline Shift will kick in (Body-Feedback-Mechanism §5):
+      "Beautiful" habituates → husband adapts → demands MORE → obligation GRADUALLY INCREASES
+    → Year 1: "being happy is enough"
+    → Year 3: "cooking, cleaning..."
+    → Year 5: "raising children, managing finances..."
+    → = Obligation can INFLATE over time as baseline shifts
+    → = Dynamic: obligation TODAY ≠ obligation NEXT YEAR
 
 
-  ⭐ TYPE 6 KHÔNG PHẢI "TYPE" RIÊNG — LÀ COMBINATION:
-    → Bất kỳ 2+ types chồng lên = compound
-    → Compound = obligation NẶNG vì:
-      Multiple Cost_clarity LOW cùng lúc
-      Multiple Endpoint LOW cùng lúc
-      PFC phải track NHIỀU obligations parallel → overload
-    → = Tại sao relationship obligations = phức tạp nhất
+  ⭐ TYPE 6 IS NOT A SEPARATE "TYPE" — IT IS A COMBINATION:
+    → Any 2+ types stacked = compound
+    → Compound = obligation HEAVY because:
+      Multiple Cost_clarity LOW simultaneously
+      Multiple Endpoint LOW simultaneously
+      PFC must track MANY obligations in parallel → overload
+    → = Why relationship obligations = most complex
 
   🟡 Compound obligation analysis = framework synthesis
   🟢 Role conflict theory (Kahn et al. 1964): multiple role demands → stress
@@ -1030,70 +1035,70 @@ TYPE 5 — IDENTITY:
 
 ---
 
-## §5 — TRAO ĐỔI: CƠ CHẾ NỀN TẢNG
+## §5 — EXCHANGE: THE FOUNDATIONAL MECHANISM
 
-### §5.1 — Trao đổi = mode phổ biến nhất
+### §5.1 — Exchange = Most Common Mode
 
 ```
-⭐ TRAO ĐỔI LÀ CƠ CHẾ NỀN TẢNG CỦA HỢP TÁC CON NGƯỜI:
+⭐ EXCHANGE IS THE FOUNDATIONAL MECHANISM OF HUMAN COOPERATION:
 
-  Status.md §5: "Trao đổi = mode phổ biến nhất ở con người hiện đại"
+  Status.md §5: "Exchange = most common mode in modern humans"
   
-  TẠI SAO:
-    → Chuyên môn hóa (§5.1): mỗi người giỏi 1-2 thứ
-      → Non-overlapping domains → giảm conflict
-      → Tôi giỏi code, bạn giỏi nấu ăn → bổ sung
-    → POSITIVE-SUM (§5.2): trao đổi → tổng resource TĂNG cho cả 2
-      → Tôi dạy bạn code = tôi KHÔNG mất kiến thức, bạn THÊM kiến thức
-      → = Knowledge exchange = positive-sum THUẦN TÚY
-    → Flatten gap (§5.3): xã hội hiện đại → rules block mode Lấy
-      → CEO không đánh nhân viên → negotiate thay vì cưỡng chế
-      → = Shift từ Lấy/Comply → Trao đổi
+  WHY:
+    → Specialization (§5.1): each person is skilled in 1-2 things
+      → Non-overlapping domains → reduces conflict
+      → I code well, you cook well → complementary
+    → POSITIVE-SUM (§5.2): exchange → total resources INCREASE for both
+      → Teaching you to code = I do NOT lose knowledge, you GAIN knowledge
+      → = Knowledge exchange = PURE positive-sum
+    → Flatten gap (§5.3): modern society → rules block Take mode
+      → CEOs do not strike employees → negotiate instead of coerce
+      → = Shift from Take/Comply → Exchange
 
-  OBLIGATION = TRACKING SYSTEM CHO TRAO ĐỔI:
-    → Trao đổi CẦN tracking để bền vững:
-      "Tôi giúp bạn 10 lần, bạn 0 lần" → detect imbalance → withdraw
-    → Không tracking → cheaters WIN → cooperation sụp đổ
+  OBLIGATION = TRACKING SYSTEM FOR EXCHANGE:
+    → Exchange NEEDS tracking to be sustainable:
+      "I helped you 10 times, you 0 times" → detect imbalance → withdraw
+    → No tracking → cheaters WIN → cooperation collapses
     → Reciprocal altruism (Trivers 1971): organisms EVOLVED to track reciprocity
     → = Obligation = BODY-LEVEL bookkeeping system
 
 
-  ⭐ TRAO ĐỔI = MUTUAL BY-PRODUCT MATCHING (Inter-Body-Mechanism.md §5.4):
+  ⭐ EXCHANGE = MUTUAL BY-PRODUCT MATCHING (Inter-Body-Mechanism.md §5.4):
 
     By-product match principle:
-      Entity B fill gap CỦA B → output = by-product
-      → by-product TÌNH CỜ match direction CỦA A → A receives reward
-      → B KHÔNG làm vì A. B fill gap CỦA B. A nhận reward từ by-product.
+      Entity B fills B's own gap → output = by-product
+      → by-product HAPPENS TO match direction OF A → A receives reward
+      → B does NOT do it for A. B fills B's OWN gap. A receives reward from by-product.
 
-    Trao đổi = MUTUAL by-product match:
+    Exchange = MUTUAL by-product match:
 
-      Nhân viên (B):
-        Gap_B = "cần salary để nuôi gia đình"
-        Action_B = làm việc chăm chỉ
+      Employee (B):
+        Gap_B = "need salary to feed family"
+        Action_B = work diligently
         Output_B = work output (by-product)
-        → match gap CỦA SẾP (cần work done) → sếp reward
+        → matches boss's gap (needs work done) → boss rewards
 
-      Sếp (A):
-        Gap_A = "cần team hoàn thành project"
-        Action_A = trả lương, provide resources
+      Boss (A):
+        Gap_A = "needs team to complete project"
+        Action_A = pay salary, provide resources
         Output_A = salary (by-product)
-        → match gap CỦA NHÂN VIÊN (cần tiền) → nhân viên reward
+        → matches employee's gap (needs money) → employee rewards
 
-      → CẢ 2 fill gap CỦA MÌNH → by-product MATCH nhau → cả 2 reward
-      → = Trao đổi mode (Status §5) = mutual by-product matching
-      → = TYPE 2 obligation ≈ 0 khi balanced VÌ match SYMMETRIC
+      → BOTH fill THEIR OWN gap → by-products MATCH each other → both rewarded
+      → = Exchange mode (Status §5) = mutual by-product matching
+      → = TYPE 2 obligation ≈ 0 when balanced BECAUSE match is SYMMETRIC
 
-    KHI BY-PRODUCT MATCH BẤT CÂN:
-      "Tôi làm nhiều hơn lương" → output_tôi > output_sếp → ASYMMETRIC
-      → Body detect: "tôi give more by-product than I receive"
+    WHEN BY-PRODUCT MATCH IS UNBALANCED:
+      "I work more than my salary" → output_mine > output_boss → ASYMMETRIC
+      → Body detects: "I give more by-product than I receive"
       → = Resentment (§4.3 TYPE 2 imbalance)
       → = Equity theory (Adams 1963) = by-product match language
 
-    LÃNH CHÚA = ASYMMETRIC BY-PRODUCT MATCH CỰC ĐOAN:
-      Lãnh chúa cho phép vay → by-product cho lãnh chúa: ≈ 0 (ký giấy)
-      Dân nhận tiền → by-product cho dân: phải trả ∞ (lãnh chúa quyết)
+    FEUDAL LORD = EXTREMELY ASYMMETRIC BY-PRODUCT MATCH:
+      Lord permits borrowing → by-product FOR lord: ≈ 0 (signs paper)
+      Commoner receives money → by-product FOR commoner: must repay ∞ (lord decides)
       → = Asymmetric match → obligation INFLATION (§3.2)
-      → Power = khả năng FORCE asymmetric by-product match
+      → Power = ability to FORCE asymmetric by-product match
 
     🟡 Exchange = mutual by-product matching = framework synthesis
       (Inter-Body-Mechanism.md §5.4 applied to obligation domain)
@@ -1103,222 +1108,222 @@ TYPE 5 — IDENTITY:
     Connection.md §8: Virtual chunks access:
       1 person = own chunks → ceiling fixed
       N people = own + ACCESS group chunks → civilization
-    → Trao đổi = mechanism cho virtual chunks access
-    → Obligation = tracking cho mechanism đó
-    → = Obligation → Trao đổi → Virtual Chunks → Civilization
+    → Exchange = mechanism for virtual chunks access
+    → Obligation = tracking for that mechanism
+    → = Obligation → Exchange → Virtual Chunks → Civilization
 
   🟢 Reciprocal altruism (Trivers 1971)
   🟢 Division of labor (Smith 1776, Durkheim 1893)
   🟡 "Obligation = tracking for exchange" = framework synthesis
 ```
 
-### §5.2 — Tiền = Obligation Technology
+### §5.2 — Money = Obligation Technology
 
 ```
-⭐ TIỀN = CÔNG NGHỆ TỐI ƯU HÓA OBLIGATION:
+⭐ MONEY = OPTIMAL OBLIGATION TECHNOLOGY:
 
-  Tiền KHÔNG CHỈ là công cụ trao đổi hàng hóa.
-  Tiền CŨNG LÀ công nghệ optimize obligation tracking:
+  Money is NOT ONLY a tool for trading goods.
+  Money is ALSO technology for optimizing obligation tracking:
 
 
   FUNCTION 1 — STANDARDIZE cross-domain cost:
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    Không có tiền:
-      Tôi sửa máy (cost thấp cho tôi) ↔ Bạn gõ văn bản (cost CAO cho tôi)
+    Without money:
+      I fix machines (low cost to me) ↔ You type documents (HIGH cost to me)
       → Cross-domain: cost MISMATCH → unfair → resentment
 
-    Có tiền:
-      Sửa máy = $50 | Gõ văn bản = $50
-      → CÙNG đơn vị → so sánh được → fair exchange
-      → = Standardize eliminate asymmetry
+    With money:
+      Fix machine = $50 | Type documents = $50
+      → SAME unit → comparable → fair exchange
+      → = Standardization eliminates asymmetry
 
 
   FUNCTION 2 — CONVERT implicit → explicit:
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    Không có tiền:
-      "Tôi giúp bạn → bạn nợ tôi... cái gì đó" = TYPE 3 (ân tình)
-      → Cost_clarity THẤP + Endpoint THẤP → cortisol sustained
+    Without money:
+      "I helped you → you owe me... something" = TYPE 3 (ân tình)
+      → Cost_clarity LOW + Endpoint LOW → cortisol sustained
 
-    Có tiền:
-      "Tôi giúp bạn → bạn trả $50 → XONG" = TYPE 1 (financial)
-      → Cost_clarity CAO + Endpoint CAO → cortisol stop
-      → = Convert TYPE 3 → TYPE 1 = GIẢM OBLIGATION BURDEN
+    With money:
+      "I helped you → you pay $50 → DONE" = TYPE 1 (financial)
+      → Cost_clarity HIGH + Endpoint HIGH → cortisol stops
+      → = Convert TYPE 3 → TYPE 1 = REDUCES OBLIGATION BURDEN
 
 
   FUNCTION 3 — ENABLE community-scale exchange:
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
     Barter: O(n²) matching problems
-      ("tôi có trứng, cần táo, nhưng người có táo cần cá, không cần trứng")
-    Tiền: O(1) per transaction
-      ("bán trứng → $5 → mua táo → done")
-    → = Scaling solution cho trao đổi mode
-    → = Obligation tracking at community scale POSSIBLE
+      ("I have eggs, need apples, but apple-person needs fish, not eggs")
+    Money: O(1) per transaction
+      ("sell eggs → $5 → buy apples → done")
+    → = Scaling solution for exchange mode
+    → = Obligation tracking at community scale MADE POSSIBLE
 
 
   FUNCTION 4 — OPTIMIZE PFC prediction:
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    Trước khi nhận help:
-      Không tiền: "nếu nhận → phải trả... gì???" → PFC predict sai → overthinking
-      Có tiền: "nếu nhận → trả $50" → PFC predict CHÍNH XÁC → quyết định nhanh
-    → = Tiền giúp PFC obligation prediction OPTIMIZE
-    → = Giảm cognitive load + giảm cortisol
+    Before accepting help:
+      Without money: "if I accept → must repay... what???" → PFC predicts wrong → overthinking
+      With money: "if I accept → repay $50" → PFC predicts ACCURATELY → decision fast
+    → = Money helps PFC obligation prediction OPTIMIZE
+    → = Reduces cognitive load + reduces cortisol
 
 
-  ⭐ NHƯNG TIỀN KHÔNG THỂ DÙNG CHO MỌI THỨ:
+  ⭐ BUT MONEY CANNOT BE USED FOR EVERYTHING:
 
-    Valence-Structural RELATIONSHIPS (bố mẹ, con, bạn thân):
-      → Monetize = signal "đây là Exchange mode, KHÔNG phải Valence-Structural"
-      → Agent detect signal → Valence-Structural bond bị PHỦ NHẬN → hurt
-      → "Bạn trả tiền cho tôi?! Tôi giúp vì tôi QUAN TÂM!"
-      → = Tiền PHÁ HỦY thứ làm relationship CÓ GIÁ TRỊ (Valence-Structural bond)
+    Valence-Structural RELATIONSHIPS (parents, children, close friends):
+      → Monetizing = signals "this is Exchange mode, NOT Valence-Structural"
+      → Agent detects signal → Valence-Structural bond DENIED → hurt
+      → "You paid me?! I helped you because I CARE!"
+      → = Money DESTROYS what makes relationships VALUABLE (Valence-Structural bond)
 
     IDENTITY OBLIGATION:
-      → Không trả tiền để "không phải là mình"
-      → Identity obligation = internal, tiền = external → mismatch
+      → Cannot pay money to "not be yourself"
+      → Identity obligation = internal, money = external → mismatch
 
     ROLE OBLIGATION:
-      → Tiền không substitute trust
-      → "Tôi trả tiền nên không cần lo cho dân" = absurd
+      → Money does not substitute trust
+      → "I paid so I don't need to care for the people" = absurd
 
 
-  ⭐⭐ PARADOX — ÂN TÌNH TỒN TẠI NƠI TIỀN BỊ CẤM:
+  ⭐⭐ PARADOX — ÂN TÌNH EXISTS WHERE MONEY IS FORBIDDEN:
 
-    Relationship QUAN TRỌNG NHẤT (Valence-Structural cao nhất)
-    = Nơi obligation NẶNG NHẤT (implicit, unbounded = TYPE 3)
-    = Nơi giải pháp HIỆU QUẢ NHẤT (tiền) KHÔNG THỂ dùng
+    The MOST IMPORTANT relationships (highest Valence-Structural)
+    = Where obligation is HEAVIEST (implicit, unbounded = TYPE 3)
+    = Where the MOST EFFECTIVE solution (money) CANNOT be used
     
-    → "Ân tình" tồn tại CHÍNH XÁC ở boundary nơi tiền bị cấm
-    → Vì monetize = phá hủy Valence-Structural bond = phá hủy value của relationship
-    → = Ân tình là COST CỦA việc có Valence-Structural bonds
-    → = Trade-off: Valence-Structural cao → obligation nặng → nhưng Valence-Structural buffer cũng cao → net OK
-    → = Relationship LÀNH MẠNH: obligation + Valence-Structural buffer → bearable
-    → = Relationship TOXIC: obligation cao + Valence-Structural suy yếu → trapped
+    → "Ân tình" exists PRECISELY at the boundary where money is forbidden
+    → Because monetizing = destroying Valence-Structural bond = destroying relationship's value
+    → = Ân tình is THE COST OF having Valence-Structural bonds
+    → = Trade-off: Valence-Structural high → heavy obligation → but Valence-Structural buffer also high → net OK
+    → = HEALTHY relationship: obligation + Valence-Structural buffer → bearable
+    → = TOXIC relationship: obligation high + Valence-Structural weakened → trapped
 
-  🟡 Tiền = obligation technology (4 functions) = framework synthesis
-  🟡 "Ân tình tồn tại nơi tiền bị cấm" = framework insight
+  🟡 Money = obligation technology (4 functions) = framework synthesis
+  🟡 "Ân tình exists where money is forbidden" = framework insight
   🟢 Money as medium of exchange = economics 101
   🟢 Crowding out effect (Frey & Jegen 2001): monetary reward → intrinsic motivation ↓
 ```
 
 ---
 
-## §6 — ACCESS COST: MODE SHIFT KHI NHỜ AGENT STATUS CAO HƠN
+## §6 — ACCESS COST: MODE SHIFT WHEN ASKING HIGHER-STATUS AGENT
 
-### §6.1 — Access cost là gì
+### §6.1 — What Is Access Cost
 
 ```
-⭐ ACCESS COST = CHI PHÍ ĐỂ TIẾP CẬN EXTERNAL TOOL:
+⭐ ACCESS COST = COST TO ACCESS AN EXTERNAL TOOL:
 
-  Khi nhờ agent, tổng cost = 2 THÀNH PHẦN:
+  When asking for help, total cost = 2 COMPONENTS:
 
     Total_cost = ACCESS COST + OBLIGATION
                  (upfront)     (future)
 
-    ACCESS COST: chi phí TẠI THỜI ĐIỂM HỎI
-      → Phải shift mode (Trao đổi → Comply)
-      → Phải thừa nhận "tôi không tự làm được" (autonomy loss signal)
-      → Phải chấp nhận social risk (bị từ chối → embarrassment)
-      → = UPFRONT cost, trả NGAY LÚC HỎI
+    ACCESS COST: cost AT THE MOMENT OF ASKING
+      → Must shift mode (Exchange → Comply)
+      → Must admit "I cannot do this myself" (autonomy loss signal)
+      → Must accept social risk (being refused → embarrassment)
+      → = UPFRONT cost, paid RIGHT WHEN ASKING
 
-    OBLIGATION: chi phí SAU KHI NHẬN help
-      → Compiled prediction: "phải trả gì?"
-      → = FUTURE cost, trả SAU khi nhận
+    OBLIGATION: cost AFTER RECEIVING help
+      → Compiled prediction: "what must I repay?"
+      → = FUTURE cost, paid AFTER receiving
 
 
-  TẠI SAO ACCESS COST TỒN TẠI:
+  WHY ACCESS COST EXISTS:
 
-    Body PREFER trao đổi mode (Status §5: positive-sum, manageable)
-    → Nhờ agent status CAO HƠN = shift TỪ Trao đổi → Comply
-    → Body KHÁNG comply mode (Status §9.2: serotonin ratchet)
-    → → Kháng = ACCESS COST = "sợ phải nhờ"
+    Body PREFERS exchange mode (Status §5: positive-sum, manageable)
+    → Asking a HIGHER-STATUS agent = shifting FROM Exchange → Comply
+    → Body RESISTS comply mode (Status §9.2: serotonin ratchet)
+    → → Resistance = ACCESS COST = "fear of having to ask"
 
     Autonomy-Hardware: self-action = efference copy + opioid reward
-    → Nhờ agent = THỪA NHẬN không self-action được
+    → Asking an agent = ADMITTING you cannot self-action
     → = Autonomy loss signal → negative body response
-    → = Thêm 1 layer access cost
+    → = Additional layer of access cost
 
     Social risk:
-    → Agent có thể TỪ CHỐI → embarrassment
-    → Agent có thể ĐÁNH GIÁ THẤP → status drop
-    → Đặc biệt: người mới đi làm chưa có experience → PFC over-predict risk
+    → Agent may REFUSE → embarrassment
+    → Agent may EVALUATE you negatively → status drop
+    → Especially: person new to work without experience → PFC over-predicts risk
 
   🟡 Access cost concept = framework synthesis
   🟢 Social evaluation threat (Dickerson & Kemeny 2004)
   🟢 Help-seeking avoidance research (Lee 1997, DePaulo 1983)
 ```
 
-### §6.2 — Access cost × Status gap
+### §6.2 — Access Cost × Status Gap
 
 ```
-⭐ STATUS GAP CAO → ACCESS COST CAO:
+⭐ HIGH STATUS GAP → HIGH ACCESS COST:
 
-  BẰNG VAI PHẢI LỨA (friends, ngang):
-    → Mode: đã ở Trao đổi → KHÔNG CẦN shift
-    → "Ê, giúp tôi cái này đi" → casual, dễ
-    → Bị từ chối: "thôi, nhờ đứa khác" → low cost
+  EQUAL PEERS (friends, same level):
+    → Mode: already in Exchange → NO NEED to shift
+    → "Hey, help me with this" → casual, easy
+    → Being refused: "fine, ask someone else" → low cost
     → Access cost ≈ 0
-    → → Tại sao "nhờ bạn bè dễ, chủ yếu chuyện nhỏ"
+    → → Why "asking friends is easy, mostly small things"
 
-  SẾP (gap vừa):
-    → Mode: partially Comply → shift THÊM khi nhờ EXTRA
-    → "Em xin phép hỏi anh/chị..." → formal, deliberate
-    → Bị từ chối: embarrassment + possible status damage
+  BOSS (moderate gap):
+    → Mode: partially Comply → shift MORE when asking EXTRA
+    → "May I ask you something..." → formal, deliberate
+    → Being refused: embarrassment + possible status damage
     → Access cost: MODERATE
-    → Đặc biệt: NGƯỜI MỚI ĐI LÀM:
-      → Chưa có chunk history với sếp → prediction uncertain
-      → PFC over-predict rejection risk + judgment risk
-      → → Access cost INFLATED bởi uncertainty
-      → → "Sợ hỏi sếp" = access cost + obligation prediction + novelty threat
+    → Especially: PERSON NEW TO WORK:
+      → No chunk history with boss → prediction uncertain
+      → PFC over-predicts rejection risk + judgment risk
+      → → Access cost INFLATED by uncertainty
+      → → "Afraid to ask boss" = access cost + obligation prediction + novelty threat
 
-  BỐ MẸ NGHIÊM KHẮC (gap lớn, familiar):
-    → Mode: Comply đã compiled từ nhỏ
-    → "Con muốn xin bố mẹ..." → deliberate, đắn đo
-    → Bị từ chối: không embarrassment nhưng CÓ THỂ bị mắng
-    → Access cost: HIGH (vì history of negative consequence compiled)
-    → → "Suy nghĩ đắn đo" = PFC predict consequence = access cost visible
+  STRICT PARENTS (large gap, familiar):
+    → Mode: Comply compiled from childhood
+    → "I'd like to ask..." → deliberate, careful
+    → Being refused: not embarrassing but CAN lead to being scolded
+    → Access cost: HIGH (because history of negative consequence compiled)
+    → → "Thinking carefully before asking" = PFC predicting consequence = access cost visible
 
-  LÃNH CHÚA (gap CỰC LỚN):
+  FEUDAL LORD (EXTREMELY large gap):
     → Mode: deep Comply
-    → Phải thông qua trung gian (quan lại, thủ tục)
-    → Bị từ chối: có thể bị phạt (chứ không chỉ embarrassment)
-    → Access cost: CỰC CAO
-    → → Chỉ nhờ khi KHÔNG CÒN LỰA CHỌN NÀO
+    → Must go through intermediary (officials, procedures)
+    → Being refused: may be punished (not just embarrassment)
+    → Access cost: EXTREMELY HIGH
+    → → Only ask when ABSOLUTELY NO OTHER OPTION
 
 
   ⭐ PATTERN:
     Access cost ∝ Status gap × History of consequence
     
-    → Gap CAO + History negative (mắng, phạt) → access cost CỰC CAO
-    → Gap CAO + History positive (sếp nice) → access cost MODERATE
-    → Gap THẤP + Any history → access cost LOW (nhiều alternatives)
+    → Gap HIGH + History negative (scolded, punished) → access cost EXTREMELY HIGH
+    → Gap HIGH + History positive (nice boss) → access cost MODERATE
+    → Gap LOW + Any history → access cost LOW (many alternatives)
 
   🟡 Access cost ∝ status gap = framework synthesis
   🟢 Help-seeking behavior varies with power distance (Hofstede)
 ```
 
-### §6.3 — Access cost là barrier cho cooperation
+### §6.3 — Access Cost as Barrier to Cooperation
 
 ```
-ACCESS COST QUÁ CAO → GIẢM COOPERATION:
+ACCESS COST TOO HIGH → REDUCES COOPERATION:
 
-  Nhân viên sợ hỏi sếp:
-    → Task khó → KHÔNG dám hỏi → tự xoay xở → quality DROP
-    → Hoặc: tự xoay xở THÀNH CÔNG → nhưng mất nhiều thời gian hơn
-    → = Access cost block EFFICIENT resource allocation
+  Employee afraid to ask boss:
+    → Task is difficult → DOES NOT DARE ask → struggles alone → quality DROPS
+    → Or: manages alone SUCCESSFULLY → but takes much longer
+    → = Access cost blocks EFFICIENT resource allocation
 
-  Con sợ hỏi bố mẹ:
-    → Cần help → KHÔNG dám hỏi → tự xoay xở hoặc nhờ bạn
-    → = Access cost block OPTIMAL help source
+  Child afraid to ask parents:
+    → Needs help → DOES NOT DARE ask → manages alone or asks friends
+    → = Access cost blocks OPTIMAL help source
 
-  Dân sợ nhờ lãnh chúa:
-    → Vấn đề lớn → KHÔNG dám nhờ → tự chịu
-    → = Access cost → social inequality persist
+  Commoner afraid to ask the lord:
+    → Major problem → DOES NOT DARE ask → suffers alone
+    → = Access cost → social inequality persists
 
-  ⭐ GIẢM ACCESS COST = TĂNG COOPERATION:
-    → Sếp tạo psychological safety → access cost ↓ → team perform better
-    → Bố mẹ tạo safe space → access cost ↓ → con develop better
-    → Democracy flatten gap → access cost ↓ → society cooperate better
-    → = Status.md §5.3: flatten gap → gần trao đổi hơn → cooperation ↑
+  ⭐ REDUCING ACCESS COST = INCREASING COOPERATION:
+    → Boss creates psychological safety → access cost ↓ → team performs better
+    → Parents create safe space → access cost ↓ → child develops better
+    → Democracy flattens gap → access cost ↓ → society cooperates better
+    → = Status.md §5.3: flatten gap → closer to exchange → cooperation ↑
 
   🟢 Psychological safety (Edmondson 1999): reduce fear → team performance ↑
   🟢 Authoritative parenting (Baumrind 1966): warm + firm → best outcome
@@ -1327,86 +1332,87 @@ ACCESS COST QUÁ CAO → GIẢM COOPERATION:
 
 ---
 
-## §7 — 3 CƠ CHẾ ĐỘC LẬP TƯƠNG TÁC
+## §7 — 3 INDEPENDENT INTERACTING MECHANISMS
 
-### §7.1 — Tại sao phải tách 3 cơ chế
+### §7.1 — Why the 3 Mechanisms Must Be Separated
 
 ```
-⭐ 3 CƠ CHẾ ĐỘC LẬP, KHÔNG PHẢI 1:
+⭐ 3 INDEPENDENT MECHANISMS, NOT 1:
 
-  Dễ nhầm: "tôi giúp bạn vì obligation" vs "tôi giúp vì yêu thương" vs
-  "tôi giúp vì hiểu bạn cần".
+  Easy to confuse: "I help my friend because of obligation" vs "I help because I love them" vs
+  "I help because I understand they need it."
   
-  3 thứ này = 3 CƠ CHẾ KHÁC NHAU hoàn toàn:
+  These 3 things = 3 COMPLETELY DIFFERENT MECHANISMS:
 
-  ┌─────────────────────┬────────────────┬─────────────────────┬────────────────┐
-  │                     │ OBLIGATION     │ Valence-Structural  │ Self-Pattern-Modeling            │
-  │                     │ (Prediction)   │ (Entity-Compiled)   │ (Input)        │
-  ├─────────────────────┼────────────────┼─────────────────────┼────────────────┤
-  │ Bản chất            │ PFC prediction │ Compiled            │ Simulate       │
-  │                     │ of cost        │ valence             │ agent state    │
-  ├─────────────────────┼────────────────┼─────────────────────┼────────────────┤
-  │ Nguồn               │ Chunk history  │ Repeated            │ Self-Pattern-Modeling Compiled/Fresh      │
-  │                     │ of reciprocity │ interaction         │ mechanism      │
-  │                     │                │ → body-ext          │                │
-  ├─────────────────────┼────────────────┼─────────────────────┼────────────────┤
-  │ Body signal         │ Cortisol       │ Structural          │ Mirror echo    │
-  │                     │ holding        │ reward/cost         │ (momentary)    │
-  ├─────────────────────┼────────────────┼─────────────────────┼────────────────┤
-  │ Temporal            │ Future (what   │ Sustained           │ Present (what  │
-  │                     │ I'll owe)      │ (always on)         │ they feel now) │
-  ├─────────────────────┼────────────────┼─────────────────────┼────────────────┤
-  │ Can conflict?       │ YES — "phải    │ YES — "muốn        │ YES — "thấy    │
-  │                     │ trả nhưng      │ giúp nhưng          │ bạn cần nhưng  │
-  │                     │ không muốn"    │ quá mệt"            │ không giúp nổi"│
-  └─────────────────────┴────────────────┴─────────────────────┴────────────────┘
+  ┌─────────────────────┬────────────────┬─────────────────────┬────────────────────┐
+  │                     │ OBLIGATION     │ Valence-Structural  │ Self-Pattern-      │
+  │                     │ (Prediction)   │ (Entity-Compiled)   │ Modeling (Input)   │
+  ├─────────────────────┼────────────────┼─────────────────────┼────────────────────┤
+  │ Nature              │ PFC prediction │ Compiled            │ Simulate           │
+  │                     │ of cost        │ valence             │ agent state        │
+  ├─────────────────────┼────────────────┼─────────────────────┼────────────────────┤
+  │ Source              │ Chunk history  │ Repeated            │ Self-Pattern-      │
+  │                     │ of reciprocity │ interaction         │ Modeling           │
+  │                     │                │ → body-ext          │ Compiled/Fresh     │
+  │                     │                │                     │ mechanism          │
+  ├─────────────────────┼────────────────┼─────────────────────┼────────────────────┤
+  │ Body signal         │ Cortisol       │ Structural          │ Mirror echo        │
+  │                     │ holding        │ reward/cost         │ (momentary)        │
+  ├─────────────────────┼────────────────┼─────────────────────┼────────────────────┤
+  │ Temporal            │ Future (what   │ Sustained           │ Present (what      │
+  │                     │ I'll owe)      │ (always on)         │ they feel now)     │
+  ├─────────────────────┼────────────────┼─────────────────────┼────────────────────┤
+  │ Can conflict?       │ YES — "must    │ YES — "want to      │ YES — "see friend  │
+  │                     │ repay but      │ help but too        │ needs help but     │
+  │                     │ don't want to" │ exhausted"          │ can't help"        │
+  └─────────────────────┴────────────────┴─────────────────────┴────────────────────┘
 
-  EVIDENCE — 3 cơ chế ĐỘC LẬP:
-    Valence-Propagation.md line 355: "2 luồng INDEPENDENT, có thể CONFLICT"
-    → Valence-Structural = compiled valence — KHÔNG PHẢI obligation
-    → Self-Pattern-Modeling = simulate agent state — KHÔNG PHẢI obligation hay Valence-Structural
-    → Obligation = cost prediction — KHÔNG PHẢI Valence-Structural hay Self-Pattern-Modeling
-    → 3 cơ chế CÓ THỂ fire independently, đồng thời, hoặc conflict
+  EVIDENCE — 3 mechanisms ARE INDEPENDENT:
+    Valence-Propagation.md line 355: "2 streams INDEPENDENT, can CONFLICT"
+    → Valence-Structural = compiled valence — NOT obligation
+    → Self-Pattern-Modeling = simulate agent state — NOT obligation or Valence-Structural
+    → Obligation = cost prediction — NOT Valence-Structural or Self-Pattern-Modeling
+    → 3 mechanisms CAN fire independently, simultaneously, or in conflict
 ```
 
 ### §7.2 — Valence-Structural = Independent BUFFER
 
 ```
-Valence-Structural (ENTITY-COMPILED) = BUFFER GIẢM FELT-COST CỦA OBLIGATION:
+Valence-Structural (ENTITY-COMPILED) = BUFFER REDUCING FELT-COST OF OBLIGATION:
 
   Mechanism:
-    Valence-Structural = agent TRỞ THÀNH body-base extension (Entity-Valence-Dynamics.md v1.0 §2)
+    Valence-Structural = agent BECOMES body-base extension (Entity-Valence-Dynamics.md v1.0 §2)
     → Agent's wellbeing = MY wellbeing (structural)
-    → Khi fulfill obligation toward Valence-Structural agent:
-      "Giúp agent" = "feed body-base MÌNH" (structural reward)
-    → = Cost CỦA obligation ĐƯỢC BÙ bởi Valence-Structural reward
+    → When fulfilling obligation toward a Valence-Structural agent:
+      "Helping agent" = "feeding MY OWN body-base" (structural reward)
+    → = Cost OF obligation IS OFFSET by Valence-Structural reward
     → Net burden = Obligation_predicted − Valence-Structural_buffer
 
-  VÍ DỤ:
+  EXAMPLES:
 
-    Chăm mẹ ốm:
-      Obligation: CAO (mẹ nuôi tôi → ân tình → TYPE 3)
-      Valence-Structural: CAO (mẹ = body-base extension, compiled deep qua decades)
-      → Net = CAO − CAO = THẤP → "vất vả nhưng VUI"
-      → = Valence-Structural BUFFER làm obligation BEARABLE
+    Caring for sick mother:
+      Obligation: HIGH (mother raised me → ân tình → TYPE 3)
+      Valence-Structural: HIGH (mother = body-base extension, compiled deep over decades)
+      → Net = HIGH − HIGH = LOW → "exhausting but JOYFUL"
+      → = Valence-Structural BUFFER makes obligation BEARABLE
 
-    Chăm bệnh nhân lạ (bác sĩ):
-      Obligation: CAO (role obligation TYPE 4)
-      Valence-Structural: ≈ 0 (bệnh nhân mới, chưa compiled)
-      → Net = CAO − 0 = CAO → "mệt, burnout risk"
-      → = KHÔNG CÓ Valence-Structural buffer → obligation FULL WEIGHT
+    Caring for a stranger patient (doctor):
+      Obligation: HIGH (role obligation TYPE 4)
+      Valence-Structural: ≈ 0 (new patient, not yet compiled)
+      → Net = HIGH − 0 = HIGH → "tired, burnout risk"
+      → = NO Valence-Structural buffer → obligation FULL WEIGHT
 
-    Giúp bạn thân:
-      Obligation: THẤP (friends = exchange, manageable)
-      Valence-Structural: CAO (bạn thân = body-base extension)
-      → Net = THẤP − CAO = NEGATIVE → "giúp mà vui, gần pure reward"
-      → = Valence-Structural EXCEED obligation → experience = POSITIVE
+    Helping a close friend:
+      Obligation: LOW (friends = exchange, manageable)
+      Valence-Structural: HIGH (close friend = body-base extension)
+      → Net = LOW − HIGH = NEGATIVE → "helping feels good, near pure reward"
+      → = Valence-Structural EXCEEDS obligation → experience = POSITIVE
 
   ⭐ KEY INSIGHT:
-    Valence-Structural KHÔNG THAY ĐỔI obligation calculation
-    Valence-Structural THAY ĐỔI felt-cost
-    → Cùng obligation, khác Valence-Structural → KHÁC trải nghiệm HOÀN TOÀN
-    → = Tại sao "chăm mẹ vất vả nhưng vui" vs "chăm bệnh nhân mệt mỏi"
+    Valence-Structural does NOT CHANGE the obligation calculation
+    Valence-Structural CHANGES the felt-cost
+    → Same obligation, different Valence-Structural → COMPLETELY DIFFERENT experience
+    → = Why "caring for mother is exhausting but joyful" vs "caring for patient is tiring"
 
   🟡 Valence-Structural as independent buffer = framework synthesis
   🟢 Caregiver wellbeing × relationship quality = documented
@@ -1416,78 +1422,82 @@ Valence-Structural (ENTITY-COMPILED) = BUFFER GIẢM FELT-COST CỦA OBLIGATION:
 ### §7.3 — Self-Pattern-Modeling = Independent INPUT
 
 ```
-Self-Pattern-Modeling (SELF-PATTERN-MATCH) = INPUT CHO OBLIGATION PREDICTION:
+Self-Pattern-Modeling (SELF-PATTERN-MATCH) = INPUT FOR OBLIGATION PREDICTION:
 
   Mechanism:
-    Self-Pattern-Modeling Compiled: simulate agent's emotional state
-    Self-Pattern-Modeling Fresh: predict agent's behavior, expectations
-    → Fresh output = INPUT cho obligation prediction:
-      "Agent ĐANG KỲ VỌNG gì ở tôi?" → Fresh predict
-      → PFC dùng Fresh prediction + chunk history → obligation estimate
+    Self-Pattern-Modeling Compiled: simulates agent's emotional state
+    Self-Pattern-Modeling Fresh: predicts agent's behavior, expectations
+    → Fresh output = INPUT for obligation prediction:
+      "What is the agent EXPECTING from me?" → Fresh predicts
+      → PFC uses Fresh prediction + chunk history → obligation estimate
 
   BETTER Self-Pattern-Modeling → BETTER PREDICTION → LESS OVERTHINKING:
-    Self-Pattern-Modeling accurate: "anh B vui vẻ, không có ý đòi" → obligation predict ↓ → relax
-    Self-Pattern-Modeling inaccurate: "anh B... muốn gì?? thái độ lạ??" → obligation predict ↑ → anxious
-    → = Self-Pattern-Modeling quality = key input cho obligation accuracy
+    Accurate Self-Pattern-Modeling: "Brother B is cheerful, no intent to demand" → obligation predict ↓ → relax
+    Inaccurate Self-Pattern-Modeling: "Brother B... what does he want?? strange attitude??" → obligation predict ↑ → anxious
+    → = Self-Pattern-Modeling quality = key input for obligation accuracy
 
   Self-Pattern-Modeling FAILURE CASES:
     → Low Self-Pattern-Modeling (alexithymia, autism spectrum):
-      KHÔNG đọc được agent expectations → obligation predict = random
-      → Either over-estimate (anxiety) hoặc under-estimate (social friction)
+      CANNOT read agent expectations → obligation prediction = random
+      → Either over-estimate (anxiety) or under-estimate (social friction)
     → Over-active Self-Pattern-Modeling (high empathy + anxiety):
-      READ INTO agent's state quá nhiều → over-interpret → over-predict obligation
-      → "Bạn nhíu mày → chắc bạn không vui → chắc tại tôi chưa trả ơn"
-      → = Overthinking amplified bởi Self-Pattern-Modeling over-firing
+      READ INTO agent's state too much → over-interpret → over-predict obligation
+      → "Friend frowned → friend must be unhappy → must be because I haven't repaid"
+      → = Overthinking amplified by Self-Pattern-Modeling over-firing
 
-  Self-Pattern-Modeling ĐỘC LẬP VỚI OBLIGATION:
-    → Self-Pattern-Modeling fire trên AGENT KHÁC (không nhờ vả gì) → KHÔNG có obligation
-    → Obligation exist KHÔNG CẦN Self-Pattern-Modeling real-time
-      (compiled obligation fire ngay cả khi agent VẮNG MẶT)
-    → 2 cơ chế có thể fire INDEPENDENTLY
+  Self-Pattern-Modeling IS INDEPENDENT OF OBLIGATION:
+    → Self-Pattern-Modeling fires on a DIFFERENT AGENT (no helping relationship) → NO obligation
+    → Obligation exists WITHOUT real-time Self-Pattern-Modeling
+      (compiled obligation fires even when agent is ABSENT)
+    → 2 mechanisms can fire INDEPENDENTLY
 
   🟡 Self-Pattern-Modeling as independent input to obligation = framework synthesis
   🟢 Theory of Mind predicts social reciprocity behavior (research support)
 ```
 
-### §7.4 — 3 cơ chế tương tác: ma trận
+### §7.4 — 3 Mechanisms Interacting: Matrix
 
 ```
-⭐ MA TRẬN TƯƠNG TÁC 3 CƠ CHẾ:
+⭐ 3-MECHANISM INTERACTION MATRIX:
 
-  ┌─────────────────┬────────────┬──────────────────────────────┬──────────────────────────┐
-  │ Case            │ Obligation │ Valence-Structural buffer    │ Self-Pattern-Modeling input                │
-  ├─────────────────┼────────────┼──────────────────────────────┼──────────────────────────┤
-  │ Chăm mẹ ốm     │ HIGH       │ HIGH → net LOW               │ Compiled: đau cùng mẹ         │
-  │                 │            │                              │ Fresh: mẹ cần chăm sóc cụ  │
-  │                 │            │                              │ thể → plan accurate      │
-  ├─────────────────┼────────────┼──────────────────────────────┼──────────────────────────┤
-  │ Nợ ân tình      │ HIGH       │ VARIES                       │ Fresh: "anh B muốn gì?"    │
-  │ anh B           │ (mờ)       │ (tùy Valence-Structural      │ → predict UNCERTAIN      │
-  │                 │            │  depth)                      │ → overthinking           │
-  ├─────────────────┼────────────┼──────────────────────────────┼──────────────────────────┤
-  │ Bác sĩ +        │ HIGH       │ ≈ 0 → net HIGH               │ Compiled: cost from simulate  │
-  │ bệnh nhân lạ   │            │                              │ Fresh: medical plan OK      │
-  │                 │            │                              │ nhưng no Valence-Structural│
-  │                 │            │                              │ → burnout               │
-  ├─────────────────┼────────────┼──────────────────────────────┼──────────────────────────┤
-  │ Giúp bạn thân   │ LOW        │ HIGH → POSITIVE              │ Compiled: vui lây              │
-  │ (trao đổi nhẹ)  │            │                              │ (Valence-Momentary)      │
-  │                 │            │                              │ Fresh: biết bạn cần gì     │
-  │                 │            │                              │ → plan easy              │
-  ├─────────────────┼────────────┼──────────────────────────────┼──────────────────────────┤
-  │ Lương ↔ làm     │ ≈ 0        │ ≈ 0                          │ Not relevant (exchange)  │
-  │ việc (exchange)  │ (sym)      │                              │                          │
-  ├─────────────────┼────────────┼──────────────────────────────┼──────────────────────────┤
-  │ Từ thiện cho    │ ≈ 0        │ MODERATE                     │ Compiled: community feel good  │
-  │ cộng đồng      │            │ (community-ext)              │ Fresh: N/A (no specific     │
-  │                 │            │                              │ agent expect)             │
-  └─────────────────┴────────────┴──────────────────────────────┴──────────────────────────┘
+  ┌─────────────────┬────────────┬──────────────────────────┬──────────────────────────┐
+  │ Case            │ Obligation │ Valence-Structural buffer│ Self-Pattern-Modeling    │
+  ├─────────────────┼────────────┼──────────────────────────┼──────────────────────────┤
+  │ Caring for      │ HIGH       │ HIGH → net LOW           │ Compiled: feel pain      │
+  │ sick mother     │            │                          │ with mother              │
+  │                 │            │                          │ Fresh: mother needs      │
+  │                 │            │                          │ specific care → accurate │
+  ├─────────────────┼────────────┼──────────────────────────┼──────────────────────────┤
+  │ Ân tình debt    │ HIGH       │ VARIES                   │ Fresh: "what does        │
+  │ to Brother B    │ (unclear)  │ (depends on Valence-     │ Brother B want?"         │
+  │                 │            │  Structural depth)       │ → prediction UNCERTAIN   │
+  │                 │            │                          │ → overthinking           │
+  ├─────────────────┼────────────┼──────────────────────────┼──────────────────────────┤
+  │ Doctor +        │ HIGH       │ ≈ 0 → net HIGH           │ Compiled: cost from      │
+  │ stranger patient│            │                          │ simulation               │
+  │                 │            │                          │ Fresh: medical plan OK   │
+  │                 │            │                          │ but no Valence-Structural│
+  │                 │            │                          │ → burnout                │
+  ├─────────────────┼────────────┼──────────────────────────┼──────────────────────────┤
+  │ Help close      │ LOW        │ HIGH → POSITIVE          │ Compiled: joy shared     │
+  │ friend (light   │            │                          │ (Valence-Momentary)      │
+  │  exchange)      │            │                          │ Fresh: know what friend  │
+  │                 │            │                          │ needs → plan easy        │
+  ├─────────────────┼────────────┼──────────────────────────┼──────────────────────────┤
+  │ Salary ↔ work   │ ≈ 0        │ ≈ 0                      │ Not relevant (exchange)  │
+  │ (exchange)      │ (sym)      │                          │                          │
+  ├─────────────────┼────────────┼──────────────────────────┼──────────────────────────┤
+  │ Charity for     │ ≈ 0        │ MODERATE                 │ Compiled: community      │
+  │ community       │            │ (community-ext)          │ feels good               │
+  │                 │            │                          │ Fresh: N/A (no specific  │
+  │                 │            │                          │ agent expectation)       │
+  └─────────────────┴────────────┴──────────────────────────┴──────────────────────────┘
 
-  ⭐ 3 CƠ CHẾ GIẢI THÍCH TẠI SAO "CÙNG HÀNH ĐỘNG, KHÁC CẢM GIÁC":
-    Cùng "giúp người ốm" nhưng:
-      Mẹ ốm: Obligation HIGH + Valence-Structural HIGH + Self-Pattern-Modeling deep → net = VUI
-      Bệnh nhân lạ: Obligation HIGH + Valence-Structural ≈ 0 + Self-Pattern-Modeling surface → net = MỆT
-    → = Hành động GIỐNG, 3 cơ chế KHÁC → trải nghiệm KHÁC
+  ⭐ 3 MECHANISMS EXPLAIN WHY "SAME ACTION, DIFFERENT FEELING":
+    Same "caring for someone sick" but:
+      Sick mother: Obligation HIGH + Valence-Structural HIGH + Self-Pattern-Modeling deep → net = JOY
+      Stranger patient: Obligation HIGH + Valence-Structural ≈ 0 + Self-Pattern-Modeling surface → net = EXHAUSTION
+    → = Action IDENTICAL, 3 mechanisms DIFFERENT → experience DIFFERENT
 
   🟡 3-mechanism interaction model = framework synthesis
 ```
@@ -1496,153 +1506,153 @@ Self-Pattern-Modeling (SELF-PATTERN-MATCH) = INPUT CHO OBLIGATION PREDICTION:
 
 ## §8 — DEVELOPMENTAL: PARENTING → OBLIGATION CALIBRATION
 
-### §8.1 — Khi nào obligation xuất hiện
+### §8.1 — When Does Obligation Appear
 
 ```
-⭐ OBLIGATION CẦN 3 ĐIỀU KIỆN CÙNG CÓ:
+⭐ OBLIGATION REQUIRES 3 CONDITIONS SIMULTANEOUSLY:
 
-  ① Chunk history: đã TRẢI QUA reciprocity situations
-  ② PFC sufficient: dự đoán được future cost
-  ③ Self-Pattern-Modeling sufficient: detect được agent expectations
+  ① Chunk history: has EXPERIENCED reciprocity situations
+  ② Sufficient PFC: can predict future cost
+  ③ Sufficient Self-Pattern-Modeling: can detect agent expectations
 
-  → Cả 3 DEVELOP dần → obligation xuất hiện GRADUALLY:
+  → All 3 DEVELOP gradually → obligation emerges GRADUALLY:
 
 
-  0-3 TUỔI: KHÔNG CÓ OBLIGATION
+  0-3 YEARS OLD: NO OBLIGATION
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    → Nhận mọi thứ từ bố mẹ → body: pure reward, no cost
-    → PFC chưa đủ mature → không predict future cost
-    → Self-Pattern-Modeling sơ khai → không detect parent expectations
-    → = Obligation ≈ 0 (chưa có gì để compile)
+    → Receives everything from parents → body: pure reward, no cost
+    → PFC not yet mature enough → cannot predict future cost
+    → Self-Pattern-Modeling rudimentary → cannot detect parent expectations
+    → = Obligation ≈ 0 (nothing yet to compile)
 
-  3-5 TUỔI: INSTALLED SCHEMAS (external, chưa internal)
+  3-5 YEARS OLD: INSTALLED SCHEMAS (external, not yet internal)
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    → Bố mẹ dạy: "phải cảm ơn", "phải chia sẻ"
-    → Trẻ LÀM THEO nhưng chưa HIỂU TẠI SAO
-    → = External schema install, không phải internal obligation
-    → "Cảm ơn" = vì bị dạy, KHÔNG phải vì feel obligation
-    → Piaget: "heteronomous morality" = rules vì authority, không vì logic
+    → Parents teach: "must say thank you", "must share"
+    → Child FOLLOWS but does not yet UNDERSTAND WHY
+    → = External schema installed, not internal obligation
+    → "Thank you" = because taught, NOT because feeling obligation
+    → Piaget: "heteronomous morality" = rules because of authority, not because of logic
 
-  5-7 TUỔI: FIRST REAL RECIPROCITY EXPERIENCES
-  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    → "Tôi cho bạn kẹo → bạn KHÔNG cho lại" → body: unfair! → valence ↓
-    → "Tôi giúp bạn → bạn giúp lại" → body: fair → valence ↑
-    → = First COMPILATION: "cho → có thể nhận lại (hoặc không)"
-    → Self-Pattern-Modeling bắt đầu detect: bạn ĐANG muốn gì từ tôi?
-    → = Obligation prediction BẮT ĐẦU nhưng SƠ KHAI
+  5-7 YEARS OLD: FIRST REAL RECIPROCITY EXPERIENCES
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+    → "I gave friend candy → friend DID NOT give back" → body: unfair! → valence ↓
+    → "I helped friend → friend helped back" → body: fair → valence ↑
+    → = First COMPILATION: "give → may receive back (or may not)"
+    → Self-Pattern-Modeling begins detecting: what does friend WANT from me?
+    → = Obligation prediction BEGINS but RUDIMENTARY
 
-  7-12 TUỔI: COMPILATION TĂNG TỐC
-  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+  7-12 YEARS OLD: COMPILATION ACCELERATES
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
     → Multiple reciprocity successes + FAILURES compile
-    → "Mẹ bắt rửa bát, quét nhà dù không thích" = obligation IMPOSED → compile COST
-    → "Nhờ bạn giải toán → bạn đòi giấy, tẩy, làm mất" → compile: reciprocity UNFAIR
-    → PFC đủ mạnh: predict multi-step consequences
-    → Self-Pattern-Modeling sharpen: detect agent expectations chính xác hơn
+    → "Mother makes me wash dishes, sweep floors even though I dislike it" = IMPOSED obligation → compile COST
+    → "Asked friend to solve math → friend demands paper, eraser, loses them" → compile: reciprocity UNFAIR
+    → PFC strong enough: predict multi-step consequences
+    → Self-Pattern-Modeling sharpens: detect agent expectations more accurately
     → Piaget: "autonomous morality" = reciprocity understood
 
-  12+ TUỔI: COMPLEX OBLIGATION AWARENESS
-  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    → "Nếu tôi nhận → tôi sẽ phải trả gì?" → PREDICT TRƯỚC
+  12+ YEARS OLD: COMPLEX OBLIGATION AWARENESS
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+    → "If I accept → what will I have to repay?" → PREDICT IN ADVANCE
     → Overthinking possible: over-predict obligation → avoid help
     → Social complexity: peer pressure, teacher expectations, parent expectations
-    → Identity obligation bắt đầu emerge: "tôi là ai? phải sống thế nào?"
+    → Identity obligation begins to emerge: "who am I? how should I live?"
 
   ADULT: FULL COMPILED SYSTEM
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
     → Decades of experience → prediction INSTANT
     → CAN predict obligation BEFORE accepting help
-    → Over-prediction PHỔBIẾN (negativity bias → chunk history thiên negative)
-    → Complex social navigation: multiple obligation types cùng manage
+    → Over-prediction COMMON (negativity bias → chunk history skews negative)
+    → Complex social navigation: multiple obligation types managed simultaneously
     → Some obligations compiled SO DEEP → "automatically do" without thinking
 
   🟢 Piaget stages of moral development
   🟢 Kohlberg: pre-conventional → conventional → post-conventional
-  🟢 Theory of Mind development (~4-5 tuổi)
+  🟢 Theory of Mind development (~4-5 years old)
   🟡 Obligation compilation trajectory = framework application
 ```
 
-### §8.2 — Parenting shapes obligation calibration
+### §8.2 — Parenting Shapes Obligation Calibration
 
 ```
-⭐ BỐ MẸ = FIRST CALIBRATION SOURCE CHO OBLIGATION:
+⭐ PARENTS = FIRST CALIBRATION SOURCE FOR OBLIGATION:
 
-  BỐ MẸ ĐIỀU KIỆN HÓA QUÁ NHIỀU:
+  PARENTS WHO OVER-CONDITIONALIZE:
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    "Mẹ nuôi con → con PHẢI học giỏi"
-    "Bố đưa con đi chơi → con PHẢI ngoan"
-    "Mẹ đi làm vất vả → con PHẢI rửa bát, quét nhà"
+    "Mother raised you → you MUST study hard"
+    "Father took you out → you MUST behave"
+    "Mother works hard → you MUST wash dishes, sweep floors"
 
-    Child compile: "NHẬN = LUÔN phải TRẢ. MỌI gift đều có obligation."
-    → Over-generalize cho MỌI relationships:
-      "Ai đó giúp tôi → chắc chắn sẽ đòi gì đó"
-    → Adult: overthink khi ai đó offer help
-    → Tự chọn "tự đi làm thêm" NGAY CẢ khi help tốt hơn
+    Child compiles: "RECEIVING = ALWAYS must REPAY. EVERY gift carries obligation."
+    → Over-generalizes to ALL relationships:
+      "Anyone who helps me → surely will ask for something"
+    → As adult: overthinks when anyone offers help
+    → Chooses "work part-time myself" EVEN WHEN help would be better
     → = Obligation prediction OVER-CALIBRATED
-    → = Access cost INFLATED (sợ nhờ bất kỳ ai)
+    → = Access cost INFLATED (afraid to ask anyone)
 
-    Extreme case: mọi tình yêu đều có điều kiện
-      → Child compile: "được yêu = phải trả bằng performance"
+    Extreme case: all love is conditional
+      → Child compiles: "being loved = must repay with performance"
       → = Contingent self-worth (Deci & Ryan)
       → Adult: cannot accept kindness without anxiety
-      → = "Toxic obligation pattern" — hinder social cooperation
+      → = "Toxic obligation pattern" — hinders social cooperation
 
     🟢 Conditional positive regard → contingent self-worth (Rogers 1959, Deci & Ryan 2000)
     🟢 Insecure attachment → difficulty accepting help (Bowlby 1969)
 
 
-  BỐ MẸ VÔ TƯ QUÁ (unconditional, no reciprocity teaching):
+  PARENTS WHO ARE OVERLY UNCONDITIONAL (no reciprocity teaching):
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    "Con muốn gì bố mẹ cho hết, không cần trả"
+    "Whatever you want, parents will give, no need to repay"
 
-    Child compile: "NHẬN = free. Không chain tới trả."
-    → Under-predict obligation → chỉ thấy nhận, không thấy cần trả
-    → Potential: "entitled" behavior — expect without reciprocating
+    Child compiles: "RECEIVING = free. Not chained to repaying."
+    → Under-predicts obligation → only sees receiving, doesn't see need to repay
+    → Potential: "entitled" behavior — expects without reciprocating
 
-    ⭐ NHƯNG KHÔNG QUÁ CỰC ĐOAN, VÌ:
-      → School: bạn bè KHÔNG vô tư
-        ("tôi cho bạn kẹo → bạn phải cho lại" — trẻ enforce reciprocity)
-      → Social: thầy cô, xã hội install reciprocity schemas
-      → → Obligation prediction ĐƯỢC CORRECT bởi môi trường
-      → → Multiple calibration SOURCES: gia đình + trường + xã hội
-      → → Gia đình = first source nhưng KHÔNG phải only source
+    ⭐ BUT NOT EXTREME, BECAUSE:
+      → School: friends are NOT unconditional
+        ("I give friend candy → friend must give back" — children enforce reciprocity)
+      → Social: teachers, society install reciprocity schemas
+      → → Obligation prediction CORRECTED by environment
+      → → Multiple calibration SOURCES: family + school + society
+      → → Family = first source but NOT the only source
 
     🟢 Bronfenbrenner 1979: Ecological systems theory
       (microsystem + mesosystem + exosystem → multiple calibration)
     🟡 "School corrects under-calibration" = logical but not directly studied
 
 
-  BỐ MẸ CÂN BẰNG:
+  BALANCED PARENTS:
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    "Bố mẹ giúp con vì yêu thương" (unconditional base)
-    + "Con nên học cách tự làm" (autonomy encourage)
-    + "Và biết chia sẻ với bạn bè" (reciprocity teach)
+    "Parents help you because we love you" (unconditional base)
+    + "You should learn to do things yourself" (autonomy encouraged)
+    + "And know how to share with friends" (reciprocity taught)
 
-    → Child compile: obligation FLEXIBLE + CONTEXTUAL
-    → "Có người cho vô tư → gratitude"
-    → "Có người cho có điều kiện → assess trước"
-    → "Có việc nên tự làm → autonomy"
-    → Adult: per-situation assessment, không over/under predict
+    → Child compiles: obligation FLEXIBLE + CONTEXTUAL
+    → "Someone gives freely → gratitude"
+    → "Someone gives with conditions → assess first"
+    → "Some things should be done yourself → autonomy"
+    → Adult: per-situation assessment, neither over nor under-predicts
     → = OPTIMAL calibration: accurate obligation prediction
 
     🟢 Authoritative parenting (Baumrind 1966): best outcomes
     🟡 "Balanced parenting → optimal obligation calibration" = framework claim
 
 
-  ⭐ CALIBRATION KHÔNG CỐ ĐỊNH:
+  ⭐ CALIBRATION IS NOT FIXED:
 
-    Parenting = FIRST calibration, nhưng:
-    → Adult tiếp tục recalibrate qua NEW experiences:
-      "Bạn mới giúp vô tư" → recalibrate ↓ (giảm obligation predict cho type này)
-      "Đồng nghiệp giúp rồi đòi nợ nặng" → recalibrate ↑ (tăng predict cho type này)
-    → = Chunks tiếp tục compile SUỐT ĐỜI
-    → Nhưng FIRST calibration tạo BASELINE khó shift
-      (early experiences compile SÂU hơn — Chunk.md §3: first chunks = deepest)
+    Parenting = FIRST calibration, but:
+    → Adults continue recalibrating through NEW experiences:
+      "New friend helps freely" → recalibrate ↓ (lower obligation prediction for this type)
+      "Colleague helps then demands heavily" → recalibrate ↑ (higher prediction for this type)
+    → = Chunks continue compiling THROUGHOUT LIFE
+    → But FIRST calibration creates BASELINE that is hard to shift
+      (early experiences compile DEEPER — Chunk.md §3: first chunks = deepest)
 
-  ⚠️ OBLIGATION CÓ THỂ TRAP TRONG NON-RESONANT INTERACTION:
-    Khi parent-child Resonance Baseline thấp (khác tính) + obligation mạnh:
-    → Child buộc engage dù Self-Pattern-Modeling fail → suppress + perform → "functional avoidant"
-    → Obligation DUY TRÌ interaction mà Resonance KHÔNG emerge
-    → Chi tiết: By-Product-Gap-Resonance.md §7.9, Love-Analysis §7.3c biến ⑤ × ⑦
+  ⚠️ OBLIGATION CAN TRAP IN NON-RESONANT INTERACTIONS:
+    When parent-child Resonance Baseline is low (different temperaments) + obligation is strong:
+    → Child forced to engage even when Self-Pattern-Modeling fails → suppress + perform → "functional avoidant"
+    → Obligation MAINTAINS interaction when Resonance DOES NOT EMERGE
+    → Detail: By-Product-Gap-Resonance.md §7.9, Love-Analysis §7.3c variable ⑤ × ⑦
 
   🟡 Obligation calibration = developmental framework synthesis
   🔴 "First calibration creates hard-to-shift baseline" = hypothesis
@@ -1652,96 +1662,96 @@ Self-Pattern-Modeling (SELF-PATTERN-MATCH) = INPUT CHO OBLIGATION PREDICTION:
 
 ## §9 — INDIVIDUAL → COMMUNITY SCALING
 
-### §9.1 — Individual tracking: O(n) problems
+### §9.1 — Individual Tracking: O(n) Problems
 
 ```
 INDIVIDUAL OBLIGATION TRACKING:
 
-  1-1 tracking:
-    → "Tôi giúp A → A nợ tôi"
-    → "B giúp tôi → tôi nợ B"
-    → PFC maintain PER-AGENT obligation map
+  1-to-1 tracking:
+    → "I helped A → A owes me"
+    → "B helped me → I owe B"
+    → PFC maintains PER-AGENT obligation map
     → = O(n) cognitive load: n agents = n obligation slots
 
   PROBLEMS:
     → Dunbar's limit ≈ 150: max individual relationship tracking
-    → Mỗi obligation = 1 PFC monitoring slot → N obligation = overload
-    → Cost MISMATCH per-pair: "tôi giỏi X, bạn cần Y" → unfair trade
-    → 1 agent DEFAULT (bạn không trả) = obligation GAP → resentment → relationship end
-    → = MỆT MỎI, KHÔNG SCALE beyond small group
+    → Each obligation = 1 PFC monitoring slot → N obligations = overload
+    → Cost MISMATCH per-pair: "I'm good at X, you need Y" → unfair trade
+    → 1 agent DEFAULT (friend doesn't repay) = obligation GAP → resentment → relationship ends
+    → = EXHAUSTING, CANNOT SCALE beyond small groups
 ```
 
-### §9.2 — Community-level: O(1) solution
+### §9.2 — Community-Level: O(1) Solution
 
 ```
 ⭐ COMMUNITY-LEVEL OBLIGATION = O(1) TRACKING:
 
-  Thay vì track từng agent → track COMMUNITY:
+  Instead of tracking each agent → track COMMUNITY:
 
-    "Tôi thích cộng đồng vì mọi người thật tốt bụng"
-    → Body-base tổng hợp: hàng ngày → compiled POSITIVE
+    "I love this community because everyone is so kind"
+    → Body-base synthesizes: daily → compiled POSITIVE
     → = Valence-Structural at collective level (Agent-Mechanism §12.5)
 
-    "1 cá nhân vi phạm không làm tôi suy nghĩ lại"
+    "1 individual violation doesn't make me reconsider"
     → Community-level Valence-Structural ROBUST to individual failure
-    → = N-1 members vẫn positive → community still good
+    → = N-1 members still positive → community still good
 
-    "Tôi giúp mọi người khi có thể"
-    → Obligation DISTRIBUTED: trả cho CỘNG ĐỒNG, không từng người
-    → = O(1): "tôi giúp community, community giúp tôi"
+    "I help people when I can"
+    → Obligation DISTRIBUTED: repay to COMMUNITY, not each individual
+    → = O(1): "I help community, community helps me"
 
-    "Ai đó đòi nợ cost cao → tôi từ chối → cộng đồng vẫn chấp nhận tôi"
-    → Autonomy PRESERVED vì ALTERNATIVE agents within community
-    → = 1 agent demanding ≠ community demanding
+    "Someone demands high-cost repayment → I refuse → community still accepts me"
+    → Autonomy PRESERVED because ALTERNATIVE agents within community
+    → = 1 demanding agent ≠ entire community demanding
 
 
   MECHANISM:
 
     Individual tracking:          Community tracking:
     ┌──────────────────┐         ┌──────────────────┐
-    │ A → tôi nợ A     │         │                  │
-    │ B → tôi nợ B     │   →→→   │ Tôi ↔ Community  │
-    │ C → tôi nợ C     │         │ (bidirectional)  │
+    │ A → I owe A      │         │                  │
+    │ B → I owe B      │   →→→   │ I ↔ Community    │
+    │ C → I owe C      │         │ (bidirectional)  │
     │ ...              │         │                  │
-    │ N → tôi nợ N     │         │                  │
+    │ N → I owe N      │         │                  │
     └──────────────────┘         └──────────────────┘
     O(n) slots                   O(1) slot
 
-    Transition happens khi:
+    Transition happens when:
       → Community provides CONSISTENT positive body-base feed
-      → Body compile community-level Valence-Structural (collective = body-base extension)
+      → Body compiles community-level Valence-Structural (collective = body-base extension)
       → Individual agent obligations DISSOLVE into community-level exchange
-      → = "Tôi giúp ai đó trong cộng đồng = trả cho community = enough"
+      → = "I help someone in the community = repaying community = enough"
 
-    → Gratitude.md §7.3: Gratitude O(1) = MẶT KHUẤT:
-      Obligation O(1) = cost side ("tôi nợ cộng đồng")
-      Gratitude O(1) = reward side ("tôi biết ơn cộng đồng")
-      → Cùng 1 đồng xu, 2 mặt → self-sustaining community loop
+    → Gratitude.md §7.3: Gratitude O(1) = THE OTHER SIDE:
+      Obligation O(1) = cost side ("I owe the community")
+      Gratitude O(1) = reward side ("I am grateful to the community")
+      → Same coin, 2 faces → self-sustaining community loop
 ```
 
-### §9.3 — Country-level: obligation → meaning gateway
+### §9.3 — Country-Level: Obligation → Meaning Gateway
 
 ```
 COUNTRY/HUMANITY LEVEL:
 
-  "Tôi thích đất nước mình, người dân thật thân thiện"
-  → Body-base cảm nhận hàng ngày → compiled positive
+  "I love my country, the people are so warm"
+  → Body-base feels daily → compiled positive
   → = Agent-Mechanism §12.5: collective agents feeding body-need
 
-  "Tôi muốn làm gì đó giúp đất nước"
-  → Đi từ thiện, vùng cao, cho đồ trẻ em
-  → "PFC không biết vì sao, chỉ biết đi từ thiện thì thoải mái"
-  → = Compiled: community-Valence-Structural so deep → body drive giving WITHOUT PFC rationale
+  "I want to do something to help my country"
+  → Volunteer work, highlands, donate to children
+  → "PFC doesn't know why doing charity feels good, just knows it does"
+  → = Compiled: community-Valence-Structural so deep → body drives giving WITHOUT PFC rationale
 
   OBLIGATION AT THIS SCALE ≈ 0 PER-ACTION:
-    → Không ai ĐÒI bạn đi từ thiện (no specific agent demand)
-    → Tự nguyện → efference copy → reward
-    → = CHỌN (TYPE 5 identity) + Community Valence-Structural + no specific obligation
-    → = Gần PURE giving reward (Connection §5 ④)
+    → No one DEMANDS you do charity (no specific agent demand)
+    → Voluntary → efference copy → reward
+    → = CHOSEN (TYPE 5 identity) + Community Valence-Structural + no specific obligation
+    → = Near PURE giving reward (Connection §5 ④)
 
   ⭐ CONNECTION TO MEANING:
     Community/country-level obligation = soft entry to Meaning.md v2.0:
-    → "Tôi giúp đất nước" → Anchor-Schema: ROLE hoặc IDENTITY
+    → "I help my country" → Anchor-Schema: ROLE or IDENTITY
     → = Life-level anchor building (Meaning §3)
     → = Obligation at scale → meaning territory
 
@@ -1750,37 +1760,37 @@ COUNTRY/HUMANITY LEVEL:
   🟢 Collective identity → prosocial behavior (Tajfel 1979, social identity theory)
 ```
 
-### §9.4 — Tại sao community trade > individual trade
+### §9.4 — Why Community Trade > Individual Trade
 
 ```
-⭐ COMMUNITY TRADE GIẢI QUYẾT 4 VẤN ĐỀ CỦA INDIVIDUAL:
+⭐ COMMUNITY TRADE SOLVES 4 PROBLEMS OF INDIVIDUAL TRADE:
 
-  VẤN ĐỀ 1 — O(n) overload:
+  PROBLEM 1 — O(n) overload:
     Individual: track N agents = N PFC slots
     Community: track 1 community = 1 PFC slot
     → = Cognitive efficiency
 
-  VẤN ĐỀ 2 — 1 agent default = relationship break:
-    Individual: A không trả → resentment → end
-    Community: 1 agent không trả → community ABSORB → negligible
+  PROBLEM 2 — 1 agent default = relationship break:
+    Individual: A doesn't repay → resentment → end
+    Community: 1 agent doesn't repay → community ABSORBS → negligible
     → = Robustness to individual failure
 
-  VẤN ĐỀ 3 — Cost MISMATCH:
-    Individual: "tôi giỏi X, bạn cần Y → unfair"
-    Community: diversity → "ai giỏi gì làm nấy" → match naturally
-    → = Status §5.1: Chuyên môn hóa tạo non-overlapping domains
+  PROBLEM 3 — Cost MISMATCH:
+    Individual: "I'm good at X, you need Y → unfair"
+    Community: diversity → "each does what they're good at" → naturally matches
+    → = Status §5.1: Specialization creates non-overlapping domains
 
-  VẤN ĐỀ 4 — Obligation per-transaction:
-    Individual: mỗi help → 1 obligation → tracking cost
-    Community: mỗi help → community credit → low cost
+  PROBLEM 4 — Per-transaction obligation:
+    Individual: each help → 1 obligation → tracking cost
+    Community: each help → community credit → low cost
     → = Obligation DISTRIBUTED → sustainable
 
   → = Community exchange is EVOLUTIONARILY SUPERIOR to individual
-  → = Tại sao humans form groups, tribes, nations
+  → = Why humans form groups, tribes, nations
   → = Connection.md §8: N people = own + ACCESS group chunks → civilization
 
   🟢 Social capital theory (Putnam 2000): community cooperation → prosperity
-  🟢 Dunbar's number: individual tracking limit → need group-level heuristics
+  🟢 Dunbar's number: individual relationship tracking limit → need group-level heuristics
   🟡 O(1) vs O(n) framing = framework synthesis
 ```
 
@@ -1795,28 +1805,28 @@ OBLIGATION × GRATITUDE — INVERSE:
 
   Gratitude.md §5: Gift Valence formula:
     Gift_Valence = Feed × Comparison × Source × Self-Pattern-Modeling × (1/Obligation) × Autonomy
-  → Obligation ở MẪU SỐ → INVERSE relationship
+  → Obligation in the DENOMINATOR → INVERSE relationship
 
   Obligation ↑ → Gratitude ↓:
-    → Gift + Obligation CAO = net MIXED → gratitude bị ĐÈ bởi debt anxiety
+    → Gift + Obligation HIGH = net MIXED → gratitude SUPPRESSED by debt anxiety
     → Gift + Obligation ≈ 0 = net POSITIVE → gratitude PURE, MAXIMUM
 
-  "VÔ ĐIỀU KIỆN" = GRATITUDE MẠNH NHẤT — vì obligation ≈ 0:
-    → Body nhận → reward THẬT → ❸ update → no threat chain
+  "UNCONDITIONAL" = STRONGEST GRATITUDE — because obligation ≈ 0:
+    → Body receives → real reward → ❸ updates → no threat chain
     → = NET positive MAXIMUM
 
-  Tôn giáo exploit:
-    → "Chúa yêu VÔ ĐIỀU KIỆN" → obligation ≈ 0 → gratitude maximum
-    → → ❸ toward Chúa DEEP → faith STRONG → community bonded
+  Religion exploits this:
+    → "God loves UNCONDITIONALLY" → obligation ≈ 0 → gratitude maximum
+    → → ❸ toward God DEEP → faith STRONG → community bonded
 
-  Khi obligation VƯỢT feed:
-    → Gift mà debt > reward → NET NEGATIVE → AVOID gift
-    → = "Tự đi làm thêm" > "mượn người thực dụng"
+  When obligation EXCEEDS feed:
+    → Gift where debt > reward → NET NEGATIVE → AVOID the gift
+    → = "Work part-time myself" > "borrow from transactional person"
 
-  → Gratitude.md §2.7: Obligation assessment = prerequisite ⑦ cho gratitude
-  → Gratitude.md §5.3: Obligation preview → CHI TIẾT TẠI FILE NÀY
-  → Gratitude.md §7.3: Gratitude O(1) = mặt kia của Obligation O(1) (§9.2)
-    Obligation O(1) = "tôi nợ cộng đồng" ↔ Gratitude O(1) = "tôi biết ơn cộng đồng"
+  → Gratitude.md §2.7: Obligation assessment = prerequisite ⑦ for gratitude
+  → Gratitude.md §5.3: Obligation preview → DETAILS IN THIS FILE
+  → Gratitude.md §7.3: Gratitude O(1) = other side of Obligation O(1) (§9.2)
+    Obligation O(1) = "I owe the community" ↔ Gratitude O(1) = "I am grateful to the community"
 ```
 
 ### §10.2 — × Autonomy (INVERSE relationship)
@@ -1825,23 +1835,23 @@ OBLIGATION × GRATITUDE — INVERSE:
 OBLIGATION × AUTONOMY — INVERSE:
 
   Autonomy-Hardware: self-action = efference copy + opioid reward
-  Obligation = things you CANNOT self-action → NEED agent → cost emerge
+  Obligation = things you CANNOT self-action → NEED agent → cost emerges
 
   Spectrum:
     Full autonomy → obligation = 0 → reward = efference copy + opioid
     Partial dependency → obligation MODERATE → reward mixed
-    Full dependency → obligation MAX → autonomy GIẢM → helplessness risk
+    Full dependency → obligation MAX → autonomy DECREASES → helplessness risk
 
-  ⭐ CHỌN obligation ≠ BỊ ÉP obligation:
-    → Chọn: efference copy PRESENT + obligation = NET OK (tự nguyện)
-    → Bị ép: NO efference copy + obligation = NET NEGATIVE (resentment)
-    → Autonomy-Hardware §5: "bị ép + kết quả tốt VẪN = DISSONANCE"
-    → = Tại sao "tự chọn đi làm" khác "bị bắt đi làm" dù cùng work
+  ⭐ CHOSEN obligation ≠ COERCED obligation:
+    → Chosen: efference copy PRESENT + obligation = NET OK (voluntary)
+    → Coerced: NO efference copy + obligation = NET NEGATIVE (resentment)
+    → Autonomy-Hardware §5: "coerced + good result STILL = DISSONANCE"
+    → = Why "choosing to work" differs from "forced to work" even though same work
 
   Developmental:
-    Bé nhỏ: full dependency on parents → obligation "vô hình" (chưa có chunks detect)
-    Lớn lên: autonomy TĂNG → obligation patterns GIẢM → nhưng MỚI emerge (work, marriage)
-    Adult: CHỌN dependencies (work, loan, marriage) → obligation CHỌN (efference copy!)
+    Young child: full dependency on parents → obligation "invisible" (no chunks to detect it yet)
+    Growing up: autonomy INCREASES → obligation patterns DECREASE → but NEW ones emerge (work, marriage)
+    Adult: CHOOSES dependencies (work, loan, marriage) → obligation CHOSEN (efference copy!)
     → = Transition: imposed obligation → chosen obligation = maturation
 ```
 
@@ -1850,25 +1860,25 @@ OBLIGATION × AUTONOMY — INVERSE:
 ```
 OBLIGATION × THREAT — SEQUENTIAL:
 
-  Obligation TỒN TẠI TRƯỚC threat:
-    "Tôi biết phải trả ơn anh B" → obligation (Role ② holding — mild, background)
-    "Anh B đòi nợ, deadline ngày mai" → threat fire (Role ③ threat-sustained — acute)
+  Obligation EXISTS BEFORE threat:
+    "I know I must repay Brother B" → obligation (Role ② holding — mild, background)
+    "Brother B demands repayment, deadline tomorrow" → threat fires (Role ③ threat-sustained — acute)
     → Obligation = BACKGROUND (Role ②). Threat = ACUTE event (Role ③).
 
-  TYPE 3 (ân tình) = TRANSITION từ Role ② → Role ③:
-    → Ban đầu: holding (Role ②) — "biết phải trả, chưa bị đòi"
-    → Cost_clarity THẤP + Endpoint THẤP → PFC predict nhưng KHÔNG CHẮC
-    → → SHIFT sang Role ③ (threat-sustained): lo → imagine bad → lo hơn → LOOP
+  TYPE 3 (ân tình) = TRANSITION from Role ② → Role ③:
+    → Initially: holding (Role ②) — "know must repay, not yet demanded"
+    → Cost_clarity LOW + Endpoint LOW → PFC predicts but UNCERTAIN
+    → → SHIFTS to Role ③ (threat-sustained): worry → imagine bad → worry more → LOOP
     → = Internal-Predict pattern → sustained cortisol (Role ③)
-    → = Ân tình CHUYỂN TỪ holding → chronic threat khi unresolved
+    → = Ân tình TRANSITIONS from holding → chronic threat when unresolved
 
   Obligation FAILURE → Threat cascade:
-    → KHÔNG fulfill → agent MAY withdraw feed → threat
+    → NOT fulfilling → agent MAY withdraw feed → threat
     → Threat intensity ∝ obligation TYPE:
-      TYPE 1 (financial) fail → legal consequence → SPECIFIC threat
-      TYPE 3 (ân tình) fail → relationship damage → DIFFUSE threat
-      TYPE 4 (role) fail → Status disruption → cascade threat
-      TYPE 5 (identity) fail → identity dissonance → internal threat
+      TYPE 1 (financial) fails → legal consequence → SPECIFIC threat
+      TYPE 3 (ân tình) fails → relationship damage → DIFFUSE threat
+      TYPE 4 (role) fails → Status disruption → cascade threat
+      TYPE 5 (identity) fails → identity dissonance → internal threat
 ```
 
 ### §10.4 — × Status (mode determines obligation baseline)
@@ -1878,52 +1888,52 @@ OBLIGATION × STATUS — MODE RELATIONSHIP:
 
   Status.md §4: 3 modes = 3 OBLIGATION BASELINES:
 
-    Mode LẤY (tôi >> họ):
-      → Obligation ≈ 0 cho tôi ("tôi lấy vì tôi ĐƯỢC quyền")
-      → Obligation IMPOSED cho bên kia
+    Take mode (I >> them):
+      → Obligation ≈ 0 for me ("I take because I have the RIGHT to")
+      → Obligation IMPOSED on the other side
 
-    Mode TRAO ĐỔI (ngang):
+    Exchange mode (equal):
       → Obligation SYMMETRIC + manageable
-      → Cost_clarity CAO (negotiate được)
+      → Cost_clarity HIGH (can negotiate)
       → = HEALTHY cooperation baseline
 
-    Mode COMPLY (tôi << họ):
-      → Obligation CỰC CAO cho tôi
+    Comply mode (I << them):
+      → Obligation EXTREME for me
       → All 5 factors EXTREME (§3.2)
       → = Status gap as MULTIPLIER
 
-  Status GAP + NHẬN ƠN = OBLIGATION INFLATION:
-    → Lãnh chúa cho phép vay → cost cho ≈ 0, obligation nhận ≈ ∞
-    → Sếp cho nghỉ sớm → cost cho ≈ 0, obligation nhận MODERATE
-    → = Power tạo obligation inflation (§3.2)
+  Status GAP + RECEIVING FAVOR = OBLIGATION INFLATION:
+    → Feudal lord permits borrowing → cost to give ≈ 0, obligation from receiving ≈ ∞
+    → Boss allows early departure → cost to give ≈ 0, obligation from receiving MODERATE
+    → = Power creates obligation inflation (§3.2)
 ```
 
-### §10.5 — × Meaning (obligation → meaning khi aligned)
+### §10.5 — × Meaning (obligation → meaning when aligned)
 
 ```
 OBLIGATION × MEANING — CONDITIONAL:
 
-  Meaning.md v2.0: Meaning = life-level Anchor-Schema ổn định
+  Meaning.md v2.0: Meaning = life-level Anchor-Schema stable
 
-  Obligation CÓ THỂ → Meaning khi:
-    → Role obligation (TYPE 4) aligned với identity anchor
-      VD: Bác sĩ feel "phải chữa bệnh" + anchor "tôi = người cứu người"
-      → Obligation + Anchor aligned → meaning REINFORCE
+  Obligation CAN → Meaning when:
+    → Role obligation (TYPE 4) aligned with identity anchor
+      Ex: Doctor feels "must treat illness" + anchor "I = person who saves lives"
+      → Obligation + Anchor aligned → meaning REINFORCED
     → Identity obligation (TYPE 5) = literally anchor-driven
-      VD: "Tôi là nhà khoa học → phải cống hiến" = anchor manifest as obligation
+      Ex: "I am a scientist → must contribute" = anchor manifesting as obligation
       → = Obligation AS meaning expression
 
-  Obligation CHỐNG LẠI Meaning khi:
-    → Obligation CONFLICT với anchor
-      VD: Vợ nội trợ muốn là artist (GOAL anchor) nhưng obligation giữ ở nhà
-      → Obligation BLOCK anchor → meaning GIẢM
-    → Compound obligation (TYPE 6) OVERWHELM → no space for anchor building
-      → "Quá bận trả nợ để suy nghĩ meaning" = obligation crowd out meaning
+  Obligation WORKS AGAINST Meaning when:
+    → Obligation CONFLICTS with anchor
+      Ex: Stay-at-home wife wants to be an artist (GOAL anchor) but obligation keeps her home
+      → Obligation BLOCKS anchor → meaning DECREASES
+    → Compound obligation (TYPE 6) OVERWHELMS → no space for anchor building
+      → "Too busy repaying debts to think about meaning" = obligation crowds out meaning
 
   🟡 Obligation × Meaning interaction = framework synthesis
 ```
 
-### §10.6 — × Protect (overlap replaceability factor)
+### §10.6 — × Protect (overlap: replaceability factor)
 
 ```
 OBLIGATION × PROTECT — SHARED FACTOR:
@@ -1931,17 +1941,17 @@ OBLIGATION × PROTECT — SHARED FACTOR:
   Protect.md §2: Protect_intensity = f(replaceability × attachment)
   Obligation §3: uses Replaceability⁻¹ as factor ②
 
-  NHƯNG KHÁC:
-    Protect = GUARD what you have (defensive, fire khi threatened)
+  BUT THEY DIFFER:
+    Protect = GUARD what you have (defensive, fires when threatened)
     Obligation = PAY to keep what you have (maintenance, ongoing)
 
-  SEQUENCE thường gặp:
-    → Obligation pending → agent hints withdrawal → PROTECT fire
-    → "Anh B bắt đầu xa cách" → Protect: "đang mất relationship"
-      + Obligation: "phải trả ơn NHANH" → dual activation
+  COMMON SEQUENCE:
+    → Obligation pending → agent hints at withdrawal → PROTECT fires
+    → "Brother B starts becoming distant" → Protect: "losing the relationship"
+      + Obligation: "must repay QUICKLY" → dual activation
 
-  → Obligation + Protect CÓ THỂ fire CÙNG LÚC
-  → Nhưng mechanism KHÁC: obligation = cost tracking, protect = loss aversion
+  → Obligation + Protect CAN fire SIMULTANEOUSLY
+  → But mechanisms DIFFER: obligation = cost tracking, protect = loss aversion
 ```
 
 ### §10.7 — × Connection (giving pathway = obligation seed)
@@ -1950,16 +1960,16 @@ OBLIGATION × PROTECT — SHARED FACTOR:
 OBLIGATION × CONNECTION — GENERATIVE:
 
   Connection.md §5 ④: Giving reward pathway:
-    Mình thừa → Self-Pattern-Modeling detect bạn thiếu → share → bạn improve → mirror reward
+    I have surplus → Self-Pattern-Modeling detects friend lacks → share → friend improves → mirror reward
 
-  Giving = SEED cho obligation:
-    → Người cho: feel giving reward (Valence-Momentary + Valence-Structural)
-    → Người nhận: obligation prediction COMPILE
-    → = Giving CREATE obligation on receiver side
+  Giving = SEED for obligation:
+    → Giver: feels giving reward (Valence-Momentary + Valence-Structural)
+    → Receiver: obligation prediction COMPILES
+    → = Giving CREATES obligation on the receiver's side
     → = Reciprocity cycle: give → receive → give back → receive back
 
   Connection.md §8: Virtual chunks access:
-    → Obligation tracking = maintain access to virtual chunks network
+    → Obligation tracking = maintaining access to virtual chunks network
     → = Obligation → stable exchange → stable virtual chunks → civilization
 ```
 
@@ -1968,28 +1978,28 @@ OBLIGATION × CONNECTION — GENERATIVE:
 ```
 ENTITY-ACCESS × OBLIGATION (Entity-Access.md v1.2):
   → Obligation = PERCEIVED ACCESS COST per-entity:
-    Mức 5 (con/self): obligation ÍT (hardware-subsidy = "miễn phí")
-    Mức 3 (bạn thân): obligation VỪA (reciprocal exchange compiled)
-    Mức 1 (acquaintance): obligation CAO per-interaction (chưa compiled)
-    Mức 0 (stranger): obligation = EXPLICIT contract (tiền, quy tắc)
-  → Entity-Access gradient PREDICT obligation weight per-entity
+    Level 5 (child/self): obligation LITTLE (hardware-subsidy = "free")
+    Level 3 (close friend): obligation MODERATE (reciprocal exchange compiled)
+    Level 1 (acquaintance): obligation HIGH per-interaction (not yet compiled)
+    Level 0 (stranger): obligation = EXPLICIT contract (money, rules)
+  → Entity-Access gradient PREDICTS obligation weight per-entity
   → §6 Access Cost = Entity-Access gradient applied to obligation
 
 BOND-ARCHITECTURE × OBLIGATION (Bond-Architecture.md v2.0):
   → 4 bond types → 4 obligation profiles:
-    Proximity: obligation = "ở đây" → implicit, low explicit cost
-    Shared-Experience: obligation = "cùng đóng góp" → effort-based
-    Reciprocal: obligation = "cho lại" → most explicit, trackable
-    Identity: obligation = "tuân theo" → norm-based, group pressure
+    Proximity: obligation = "being here" → implicit, low explicit cost
+    Shared-Experience: obligation = "contributing together" → effort-based
+    Reciprocal: obligation = "give back" → most explicit, trackable
+    Identity: obligation = "comply with norms" → norm-based, group pressure
   → Type 4 (§4) EXPLICIT-BOUNDED ≈ reciprocal bond obligation
   → Type 1 (§4) IMPLICIT-UNBOUNDED ≈ identity bond obligation
 
 HARDWARE-SUBSIDY × OBLIGATION (Entity-Valence-Dynamics.md v1.0 §5):
-  → Hardware-subsidy REDUCE perceived obligation:
-    Body cung cấp baseline "chăm con = MIỄN PHÍ" → obligation ≈ 0
-    Body KHÔNG cung cấp baseline "giúp stranger" → obligation = FULL COST
-  → = TẠI SAO chăm con = "không thấy mệt" (hardware-subsidy cover cost)
-  → = TẠI SAO giúp stranger = "mệt rõ ràng" (no subsidy, full PFC draft)
+  → Hardware-subsidy REDUCES perceived obligation:
+    Body provides baseline "caring for child = FREE" → obligation ≈ 0
+    Body does NOT provide baseline "helping stranger" → obligation = FULL COST
+  → = WHY caring for child = "doesn't feel tiring" (hardware-subsidy covers cost)
+  → = WHY helping stranger = "clearly tiring" (no subsidy, full PFC draft)
 
 🟡 Entity-Access × obligation = framework convergence (access cost)
 🟡 Bond-Architecture × obligation = framework application (4 profiles)
@@ -2000,261 +2010,261 @@ HARDWARE-SUBSIDY × OBLIGATION (Entity-Valence-Dynamics.md v1.0 §5):
 
 ## §11 — CASES
 
-### §11.1 — Case 1: Nhờ bạn giải toán
+### §11.1 — Case 1: Asking Friend to Solve Math
 
 ```
-Case 1: Trẻ nhờ bạn giải toán → bạn xin giấy, mượn tẩy, làm mất, bình thản
+Case 1: Child asks friend to solve math → friend wants paper, borrows eraser, loses it, acts nonchalant
 
   5-factor analysis:
-    Agent_value: THẤP (bạn cùng lớp, 1 trong nhiều)
-    Replaceability: CAO (nhiều bạn khác)
-    Cost_clarity: CAO (giấy, tẩy = vật cụ thể, nhỏ)
-    Autonomy: CAO (tự giải toán cũng được dù khó hơn)
-    Endpoint: RÕ (trao đổi xong = xong)
+    Agent_value: LOW (classmate, 1 of many)
+    Replaceability: HIGH (many other friends)
+    Cost_clarity: HIGH (paper, eraser = concrete objects, small)
+    Autonomy: HIGH (can solve math yourself, just harder)
+    Endpoint: CLEAR (exchange done = done)
   
-  → Obligation: THẤP → TYPE 2 (exchange, ngang)
-  → Valence-Structural: THẤP (bạn cùng lớp, chưa deep)
-  → Self-Pattern-Modeling: đọc được "bạn tỏ ra bình thản" → detect: bạn KHÔNG feel obligated
+  → Obligation: LOW → TYPE 2 (exchange, equal standing)
+  → Valence-Structural: LOW (classmate, not deep yet)
+  → Self-Pattern-Modeling: reads "friend acts nonchalant" → detects: friend does NOT feel obligated
 
   Body response:
-    → "Chả nợ nần gì nhau cả" = obligation RESOLVED (cả 2 chiều)
-    → Valence update: giảm nhẹ → "ghét thì không chơi nữa"
-    → = SIMPLE: exchange failed → relationship end → no sustained obligation
+    → "No debt between us at all" = obligation RESOLVED (both directions)
+    → Valence update: slightly decreases → "if I dislike it, won't play anymore"
+    → = SIMPLE: exchange failed → relationship ends → no sustained obligation
 
-  KEY: ALL factors RÕ RÀNG → PFC process NHANH → no overthinking
+  KEY: ALL factors CLEAR → PFC processes QUICKLY → no overthinking
   → = TYPE 1-2 obligation: manageable, resolvable
 ```
 
-### §11.2 — Case 2: Mượn tiền anh B (thực dụng)
+### §11.2 — Case 2: Borrowing Money from Brother B (Transactional)
 
 ```
-Case 2: Mượn tiền anh B — biết là người thực dụng, ân tình
+Case 2: Borrowing money from Brother B — known to be transactional, uses ân tình
 
   5-factor analysis:
-    Agent_value: CAO (tiền nhiều, cần thiết cho vấn đề đang gặp)
-    Replaceability: THẤP (không nhiều người sẵn sàng cho mượn)
-    Cost_clarity: THẤP (anh B muốn gì? → không rõ → TYPE 3 ân tình)
-    Autonomy: THẤP (không đủ tiền tự giải quyết)
-    Endpoint: THẤP (trả bao nhiêu cho đủ? khi nào?)
+    Agent_value: HIGH (much money, necessary for current problem)
+    Replaceability: LOW (not many people willing to lend)
+    Cost_clarity: LOW (what does Brother B want? → unclear → TYPE 3 ân tình)
+    Autonomy: LOW (not enough money to solve it yourself)
+    Endpoint: LOW (how much repayment is enough? when?)
   
-  → Obligation: CAO → TYPE 3 (ân tình, implicit, unbounded)
-  → Internal-Predict trigger: PFC loop "anh B sẽ đòi gì?"
-  → Access cost: MODERATE (status ngang-ish, nhưng ĐANG CẦN → comply tendency)
+  → Obligation: HIGH → TYPE 3 (ân tình, implicit, unbounded)
+  → Internal-Predict triggers: PFC loops "what will Brother B demand?"
+  → Access cost: MODERATE (roughly equal standing, but CURRENTLY NEEDING → comply tendency)
 
-  Tại sao "tự đi làm thêm" > "mượn anh B":
-    Option A (tự làm): cost HIGH nhưng: RÕ + Endpoint RÕ + Autonomy CAO
-    Option B (mượn): cost ≈ 0 ngay NHƯNG: MỜ + No endpoint + Autonomy GIẢM
-    → PFC prefer CERTAIN HIGH > UNCERTAIN UNKNOWN = certainty premium
+  Why "work part-time myself" > "borrow from Brother B":
+    Option A (work myself): cost HIGH but: CLEAR + Endpoint CLEAR + Autonomy HIGH
+    Option B (borrow): cost ≈ 0 immediately BUT: UNCLEAR + No endpoint + Autonomy DECREASES
+    → PFC prefers CERTAIN HIGH > UNCERTAIN UNKNOWN = certainty premium
 ```
 
-### §11.3 — Case 3: Dân thường nhờ lãnh chúa
+### §11.3 — Case 3: Commoner Asking the Feudal Lord
 
 ```
-Case 3: Dân thường nhờ lãnh chúa cho phép vay tiền
+Case 3: Commoner asks feudal lord permission to borrow money
 
-  5-factor: ALL EXTREME (§3.2 phân tích)
-  Status mode: COMPLY → obligation CỰC NẶNG
-  Access cost: CỰC CAO (phải qua trung gian, phải khẩn cầu)
+  5-factor: ALL EXTREME (§3.2 analysis)
+  Status mode: COMPLY → obligation EXTREME
+  Access cost: EXTREMELY HIGH (must go through intermediary, must beseech)
 
   Obligation INFLATION:
-    Cost cho lãnh chúa: ≈ 0 (ký giấy, tiền dư)
-    Obligation cho dân: ≈ ∞ (lãnh chúa quyết terms, quyết endpoint)
+    Cost to feudal lord: ≈ 0 (signs paper, has surplus money)
+    Obligation for commoner: ≈ ∞ (lord decides terms, decides endpoint)
     → = Power → obligation inflation
 
-  Dân response:
-    → Chỉ nhờ khi KHÔNG CÒN LỰA CHỌN (access cost too high otherwise)
-    → Sau khi nhận: cortisol sustained, PFC monitoring "lãnh chúa muốn gì"
-    → = "Mắc nợ cả đời" = compiled, vĩnh viễn
+  Commoner's response:
+    → Only asks when ABSOLUTELY NO OTHER OPTION (access cost otherwise too high)
+    → After receiving: cortisol sustained, PFC monitoring "what does lord want"
+    → = "Indebted for life" = compiled, permanent
 ```
 
-### §11.4 — Case 4: Nhân viên xin nghỉ sớm đón con
+### §11.4 — Case 4: Employee Requests Early Departure to Pick Up Child
 
 ```
-Case 4: Nhân viên xin sếp nghỉ sớm đón con
+Case 4: Employee asks boss for early departure to pick up child
 
   5-factor:
-    Agent_value: CAO (sếp = control salary, career)
-    Replaceability: MODERATE (có thể đổi job, nhưng cost)
-    Cost_clarity: THẤP ("sếp nghĩ gì? đánh giá thấp? block thăng tiến?")
-    Autonomy: MODERATE (CẦN approval, nhưng có thể negotiate)
-    Endpoint: THẤP ("bao giờ tôi bù lại được?")
+    Agent_value: HIGH (boss = controls salary, career)
+    Replaceability: MODERATE (can change jobs, but at a cost)
+    Cost_clarity: LOW ("what does boss think? negative evaluation? blocks promotion?")
+    Autonomy: MODERATE (NEEDS approval, but can negotiate)
+    Endpoint: LOW ("when can I make up for this?")
 
-  Access cost: HIGH cho người mới đi làm (chưa có chunk history với sếp)
-  Access cost: MODERATE cho nhân viên lâu năm (biết sếp, predict được)
+  Access cost: HIGH for person new to the job (no chunk history with boss)
+  Access cost: MODERATE for long-term employee (knows boss, can predict)
 
-  Đặc biệt — NGƯỜI MỚI:
-    → PFC KHÔNG có chunk history → prediction = uncertain
-    → Novelty threat: "sếp CHƯA BAO GIỜ gặp request này từ tôi?"
-    → Self-Pattern-Modeling uncertain: "sếp sẽ phản ứng thế nào?"
-    → → Access cost INFLATED bởi triple uncertainty (history + novelty + Self-Pattern-Modeling)
-    → → "Rất sợ phải nhờ" = access cost visible
+  Especially — NEW PERSON:
+    → PFC HAS NO chunk history → prediction = uncertain
+    → Novelty threat: "boss has NEVER had this request from me before"
+    → Self-Pattern-Modeling uncertain: "how will boss react?"
+    → → Access cost INFLATED by triple uncertainty (history + novelty + Self-Pattern-Modeling)
+    → → "Very afraid to ask" = access cost visible
 ```
 
-### §11.5 — Case 5: Vợ nội trợ — compound obligation
+### §11.5 — Case 5: Stay-at-Home Wife — Compound Obligation
 
 ```
-Case 5: Vợ ở nhà nội trợ, chồng đi làm
+Case 5: Wife at home doing housework, husband works
 
-  = TYPE 6 COMPOUND (phân tích chi tiết §4.7):
-    Exchange (TYPE 2): chồng kiếm tiền ↔ vợ nội trợ (nhưng không rõ fair)
-    Social (TYPE 3): schema "phụ nữ phải giữ lửa" (installed, implicit)
-    Role (TYPE 4): "vợ" + "mẹ" = 2 role obligations
-    + Autonomy GIẢM MẠNH (financial dependency)
-    + Endpoint MỜ (decades)
+  = TYPE 6 COMPOUND (detailed analysis §4.7):
+    Exchange (TYPE 2): husband earns ↔ wife does housework (but not clearly fair)
+    Social (TYPE 3): schema "women must keep the home" (installed, implicit)
+    Role (TYPE 4): "wife" + "mother" = 2 role obligations
+    + Autonomy SHARPLY DECREASES (financial dependency)
+    + Endpoint UNCLEAR (decades)
 
-  → Compound → obligation CỰC NẶNG
-  → Có thể THÍCH nội trợ → Valence-Structural buffer (con = body-ext) → bearable
-  → Có thể KHÔNG thích → no Valence-Structural buffer → trapped → resentment
-  → Xã hội KHÔNG thấy (vì "chỉ ở nhà, nhàn hạ") = invisible obligation
+  → Compound → obligation EXTREME
+  → May LIKE being a housewife → Valence-Structural buffer (children = body-ext) → bearable
+  → May NOT LIKE it → no Valence-Structural buffer → trapped → resentment
+  → Society DOES NOT SEE it (because "just staying home, looks leisurely") = invisible obligation
 ```
 
-### §11.6 — Case 6: Vợ mới cưới xinh đẹp
+### §11.6 — Case 6: Newly Wed Beautiful Wife
 
 ```
-Case 6: Vợ mới cưới xinh, chồng đi làm, vợ ở nhà
+Case 6: Newly wed beautiful wife, husband works, wife at home
 
   Current state:
-    Exchange: chồng value vợ xinh → obligation ≈ 0 ("chỉ cần vui vẻ")
-    Cost ≈ 0 (sẵn xinh = no effort)
-    Autonomy: CAO (tự do, miễn giới hạn)
+    Exchange: husband values beautiful wife → obligation ≈ 0 ("just be happy")
+    Cost ≈ 0 (naturally beautiful = no effort)
+    Autonomy: HIGH (free to do whatever, within limits)
     → Obligation ≈ 0 → near-ideal
 
-  NHƯNG — Baseline Shift sẽ kick in (Body-Feedback-Mechanism §5):
-    "Xinh" habituate → chồng adapt → value GIẢM → demand MORE
-    → Obligation INFLATE theo thời gian:
-      Year 1: "vui vẻ là đủ"
-      Year 3: "nấu ăn, dọn nhà..."
-      Year 5: "nuôi con, quản lý tài chính..."
-    → = Dynamic: obligation HÔM NAY ≠ obligation NĂM SAU
-    → = Baseline shift áp dụng cho obligation
+  BUT — Baseline Shift will kick in (Body-Feedback-Mechanism §5):
+    "Beautiful" habituates → husband adapts → value DECREASES → demands MORE
+    → Obligation INFLATES over time:
+      Year 1: "being happy is enough"
+      Year 3: "cooking, cleaning..."
+      Year 5: "raising children, managing finances..."
+    → = Dynamic: obligation TODAY ≠ obligation NEXT YEAR
+    → = Baseline Shift applies to obligation
 ```
 
-### §11.7 — Case 7: Đeo ảnh Đức Mẹ
+### §11.7 — Case 7: Wearing an Image of the Virgin Mary
 
 ```
-Case 7: Đeo ảnh Đức Mẹ, tin được bảo vệ → obligation là gì?
+Case 7: Wearing image of the Virgin Mary, believing in protection → what is the obligation?
 
-  Agent = VIRTUAL (Đức Mẹ — schema-driven, Agent-Mechanism §12.4)
-  Agent_value: CAO (tin = được bảo vệ, yên tâm, hope)
+  Agent = VIRTUAL (Virgin Mary — schema-driven, Agent-Mechanism §12.4)
+  Agent_value: HIGH (faith = protection, peace of mind, hope)
 
-  Obligation: đọc kinh = cost DUY TRÌ trust chain
-    → Cost: THẤP (vài phút/ngày)
-    → Reward: CAO (anchor sync + comparison + cortisol ↓)
+  Obligation: saying prayers = cost to MAINTAIN trust chain
+    → Cost: LOW (few minutes/day)
+    → Reward: HIGH (anchor sync + comparison + cortisol ↓)
     → = Obligation LOW-COST + HIGH-REWARD = SUSTAINABLE
 
-  NẾU lười đọc kinh:
+  IF too lazy to pray:
     Anchor STRONG:
-      → Identity dissonance: "tôi là tín đồ MÀ lười đọc kinh"
-      → Guilt = obligation failure response → cortisol → drive đọc lại
-      → = Identity obligation (TYPE 5) enforce
+      → Identity dissonance: "I am a believer BUT too lazy to pray"
+      → Guilt = obligation failure response → cortisol → drives praying again
+      → = Identity obligation (TYPE 5) enforces
     
     Anchor WEAK:
-      → Schema decay: "đọc cũng được không đọc cũng được"
-      → Ít dissonance → obligation DISSOLVE dần
+      → Schema decays: "praying or not doesn't matter"
+      → Less dissonance → obligation GRADUALLY DISSOLVES
       → = f(anchor strength) → weak anchor = weak obligation
 
   → Obligation toward virtual agent = f(anchor strength)
   → Virtual agent: LOW cost, SUSTAINED reward → sustainable obligation
-  → = Tại sao religious practice STABLE qua centuries (§5.2: low cost, high yield)
+  → = Why religious practice STABLE across centuries (§5.2: low cost, high yield)
 
-  ⭐ OBLIGATION = 1/5 NGUỒN MAINTAIN TRUST (v1.3):
-    Trust.md v1.0 §3: trust depth = f(5 nguồn).
-    Obligation = nguồn ① (routine compile) — cost DUY TRÌ trust chain.
-    Trust depth → confession effectiveness (Collective-Body §5.4 lớp ②).
-    Obligation CRITICAL KHI các nguồn khác (②childhood, ③community, ④peak, ⑤identity) yếu.
-    = Safety net design: ensure minimum trust depth cho toàn hệ thống.
-    Detail: Trust.md v1.0 §3 (5-nguồn model), Collective-Body v2.2 §5.4 (guilt resolution).
+  ⭐ OBLIGATION = 1 OF 5 SOURCES MAINTAINING TRUST (v1.3):
+    Trust.md v1.0 §3: trust depth = f(5 sources).
+    Obligation = source ① (routine compile) — cost to MAINTAIN trust chain.
+    Trust depth → confession effectiveness (Collective-Body §5.4 layer ②).
+    Obligation CRITICAL WHEN other sources (②childhood, ③community, ④peak, ⑤identity) are weak.
+    = Safety net design: ensures minimum trust depth for the entire system.
+    Detail: Trust.md v1.0 §3 (5-source model), Collective-Body v2.2 §5.4 (guilt resolution).
 ```
 
-### §11.8 — Case 8: Bố mẹ nghiêm khắc — con sợ nhờ
+### §11.8 — Case 8: Strict Parents — Child Afraid to Ask
 
 ```
-Case 8: Bố mẹ nghiêm khắc, con cần help nhưng sợ hỏi
+Case 8: Strict parents, child needs help but is afraid to ask
 
   Access cost analysis:
-    Status gap: CAO (bố mẹ = authority, especially nghiêm khắc)
-    History: bị mắng khi hỏi sai, bị phạt khi làm sai
-    → PFC compiled: "hỏi = RISK (mắng, phạt)"
+    Status gap: HIGH (parents = authority, especially strict ones)
+    History: scolded when asked wrong questions, punished when made mistakes
+    → PFC compiled: "asking = RISK (scolding, punishment)"
     → Access cost: HIGH
 
   Obligation prediction:
-    → "Nếu nhờ bố mẹ → bố mẹ sẽ nhắc lại ('mẹ đã giúp con...')"
-    → Compiled từ history: mẹ THƯỜNG nhắc lại → predict obligation CAO
+    → "If I ask parents → parents will bring it up later ('I helped you...')"
+    → Compiled from history: parents OFTEN bring it up → predict obligation HIGH
     → = Over-calibrated obligation prediction (§8.2)
 
   Decision:
-    → "Suy nghĩ đắn đo, buộc phải đề xuất thì vẫn phải hỏi"
+    → "Think it over carefully, if forced to bring it up then still must ask"
     → = Access cost + obligation prediction → deliberate, careful
     → Only ask when: expected benefit >> (access cost + obligation predict)
     → = RATIONAL given compiled history, even if sub-optimal for development
 
   Developmental impact:
-    → Repeated pattern → compile: "nhờ = nặng" → adult: avoid asking help
+    → Repeated pattern → compiles: "asking = heavy" → as adult: avoids asking for help
     → = §8.2: over-calibrated obligation → reduced social cooperation
 ```
 
-### §11.9 — Case 9: Nhà khoa học — identity obligation
+### §11.9 — Case 9: Scientist — Identity Obligation
 
 ```
-Case 9: Nhà khoa học — có vs không feel obligation cống hiến
+Case 9: Scientist — does vs does not feel obligation to contribute
 
-  Nhà khoa học A — anchor STRONG:
-    → Anchor-Schema: "tôi = nhà khoa học = cống hiến cho nhân loại"
-    → Identity obligation (TYPE 5): "PHẢI nghiên cứu, tạo giá trị"
-    → Body enforce: nếu ngừng nghiên cứu → identity dissonance → guilt
+  Scientist A — anchor STRONG:
+    → Anchor-Schema: "I = scientist = contributing to humanity"
+    → Identity obligation (TYPE 5): "MUST research, create value"
+    → Body enforces: if stops researching → identity dissonance → guilt
     → = Obligation as meaning expression (§10.5)
 
-  Nhà khoa học B — anchor WEAK:
-    → "Nhà khoa học" = career choice, label only
-    → Identity obligation ≈ 0 ("không feel gì đặc biệt")
-    → = Anchor weak → obligation dissolve → "nhà khoa học" chỉ là job
+  Scientist B — anchor WEAK:
+    → "Scientist" = career choice, label only
+    → Identity obligation ≈ 0 ("don't feel anything special")
+    → = Anchor weak → obligation dissolves → "scientist" is just a job
 
-  Nhà khoa học C — cheat:
-    → Fake bằng cấp, fake results
-    → Identity dissonance → rationalize: "ai cũng làm vậy"
-    → Obligation DISSOLVED qua rationalization
-    → = Obligation CAN BE dissolved nếu anchor bị undermine
+  Scientist C — cheats:
+    → Fake credentials, fake results
+    → Identity dissonance → rationalizes: "everyone does it"
+    → Obligation DISSOLVED through rationalization
+    → = Obligation CAN BE dissolved if anchor is undermined
 
-  ⭐ KEY: KHÔNG PHẢI AI CÓ ROLE ĐỀU FEEL OBLIGATION
-    → Obligation = f(anchor strength) cho identity type
-    → Xã hội KHÔNG ĐÒI tới từng cá nhân nhà khoa học
+  ⭐ KEY: NOT EVERYONE WITH THE ROLE FEELS THE OBLIGATION
+    → Obligation = f(anchor strength) for identity type
+    → Society does NOT DEMAND it of each individual scientist
     → = Self-imposed, not externally enforced
 ```
 
-### §11.10 — Case 10: Cộng đồng — community trade
+### §11.10 — Case 10: Community — Community Trade
 
 ```
-Case 10: "Tôi thích cộng đồng, mọi người tốt bụng, tôi giúp khi có thể"
+Case 10: "I love this community, everyone is so kind, I help when I can"
 
   5-factor at community level:
     Agent = community (collective)
-    Agent_value: CAO (daily positive body-base feed)
-    Replaceability: THẤP (cộng đồng = compiled deep, khó replace)
-    Cost_clarity: CAO ("giúp gì tôi có thể" = self-determined cost)
-    Autonomy: CAO (tự chọn giúp ai, giúp gì)
-    Endpoint: ongoing nhưng LOW cost per-action
+    Agent_value: HIGH (daily positive body-base feed)
+    Replaceability: LOW (community = compiled deep, hard to replace)
+    Cost_clarity: HIGH ("help what I can" = self-determined cost)
+    Autonomy: HIGH (choose who to help, what to help with)
+    Endpoint: ongoing but LOW cost per-action
 
   → Obligation: LOW per-action, DISTRIBUTED across community
   → Valence-Structural: MODERATE-HIGH (community = body-base extension)
-  → Efference copy: PRESENT (tự nguyện)
-  → = Net experience: POSITIVE (obligation nhẹ + Valence-Structural buffer + efference copy)
+  → Efference copy: PRESENT (voluntary)
+  → = Net experience: POSITIVE (light obligation + Valence-Structural buffer + efference copy)
 
-  "1 cá nhân vi phạm → không suy nghĩ lại":
-    → Community Valence-Structural ROBUST: N-1 members vẫn positive
-    → 1 agent default = negligible → community still good
+  "1 individual violates → don't reconsider":
+    → Community Valence-Structural ROBUST: N-1 members still positive
+    → 1 agent defaults = negligible → community still good
     → = O(1) tracking advantage (§9.2)
 
-  "Ai đó đòi nợ cost cao → từ chối → cộng đồng vẫn chấp nhận":
-    → Autonomy PRESERVED: tôi chọn → efference copy
-    → Community has ALTERNATIVES: 1 person refuse = others can help
+  "Someone demands high-cost repayment → refuse → community still accepts me":
+    → Autonomy PRESERVED: I choose → efference copy
+    → Community has ALTERNATIVES: 1 person refuses = others can help
     → = Healthy community = obligation LIGHT + Valence-Structural STRONG
 ```
 
 ---
 
-## §12 — HONEST ASSESSMENT + CÂU HỎI MỞ
+## §12 — HONEST ASSESSMENT + OPEN QUESTIONS
 
-### §12.1 — Confidence levels
+### §12.1 — Confidence Levels
 
 ```
 🟢 ESTABLISHED (research support):
@@ -2277,7 +2287,7 @@ Case 10: "Tôi thích cộng đồng, mọi người tốt bụng, tôi giúp kh
   → Dunbar's number: individual relationship tracking limit ≈ 150
 
 
-🟡 FRAMEWORK SYNTHESIS (logical, consistent, chưa verified trực tiếp):
+🟡 FRAMEWORK SYNTHESIS (logical, consistent, not yet directly verified):
 
   → Obligation as DISTINCT observation parameter (not compound Status+Threat)
   → 5-factor formula: Agent_value × Repl⁻¹ × Cost_clarity⁻¹ × Autonomy⁻¹ × Endpoint⁻¹
@@ -2285,27 +2295,27 @@ Case 10: "Tôi thích cộng đồng, mọi người tốt bụng, tôi giúp kh
   → 6-type spectrum (Financial→Exchange→Ân tình→Role→Identity→Compound)
   → Obligation = compiled prediction (not imagination)
   → 4 stages formation: experience→compile→predict→decide
-  → Tiền = obligation technology (4 functions)
-  → "Ân tình tồn tại nơi tiền bị cấm" (paradox)
+  → Money = obligation technology (4 functions)
+  → "Ân tình exists where money is forbidden" (paradox)
   → Access cost = mode shift cost (upfront + obligation = total cost)
-  → 3 cơ chế độc lập: Obligation + Valence-Structural buffer + Self-Pattern-Modeling input
+  → 3 independent mechanisms: Obligation + Valence-Structural buffer + Self-Pattern-Modeling input
   → Valence-Structural as independent buffer (Net = Obligation - Valence-Structural)
   → Parenting shapes obligation calibration (over/under/balanced)
   → Community-level = O(1) vs individual = O(n)
   → Obligation valence = f(choice, Valence-Structural, cost_clarity)
-  → Obligation × Meaning: aligned → reinforce; conflict → block
+  → Obligation × Meaning: aligned → reinforces; conflict → blocks
   → Compilable Architecture → obligation as emergent tracking (not special module)
   → Exchange = mutual by-product matching (Inter-Body §5.4)
   → PFC=Lawyer distorts obligation: fabricate/suppress/amplify (Inter-Body §7)
   → 3-cost model for obligation fulfillment: PFC draft + Suppress + Uncertainty (Inter-Body §4)
 
 
-🔴 HYPOTHESIS (logical nhưng chưa có evidence trực tiếp):
+🔴 HYPOTHESIS (logical but no direct evidence):
 
   → "6 types necessary and sufficient" — may miss types
-  → "Ân tình" cultural intensity = f(cultural schema) → cần cross-cultural data
+  → "Ân tình" cultural intensity = f(cultural schema) → needs cross-cultural data
   → "First calibration creates hard-to-shift baseline" — developmental claim
-  → "Obligation inflation" from power asymmetry → need quantification
+  → "Obligation inflation" from power asymmetry → needs quantification
   → "School corrects under-calibration from over-permissive parents"
   → Community-level Valence-Structural as "O(1) obligation" — conceptual, not measured
 ```
@@ -2313,56 +2323,56 @@ Case 10: "Tôi thích cộng đồng, mọi người tốt bụng, tôi giúp kh
 ### §12.2 — Open Questions
 
 ```
-8 CÂU HỎI MỞ:
+8 OPEN QUESTIONS:
 
-  Q1: Obligation ở animals?
+  Q1: Obligation in animals?
       → Reciprocal altruism observed (chimpanzees, vampire bats)
-      → NHƯNG: có "compiled prediction" hay chỉ "immediate reciprocity"?
-      → Proto-obligation? Or full mechanism requires PFC maturity?
-      → Cần: comparative research
+      → BUT: is there "compiled prediction" or only "immediate reciprocity"?
+      → Proto-obligation? Or does full mechanism require PFC maturity?
+      → Needs: comparative research
 
-  Q2: 6 types exhaustive?
-      → Có type nào khác? (biological parent→child? national service?)
-      → Hay parent→child = Valence-Structural-driven (not obligation)?
-      → Cần: more cases, edge cases analysis
+  Q2: Are 6 types exhaustive?
+      → Is there another type? (biological parent→child? national service?)
+      → Or is parent→child = Valence-Structural-driven (not obligation)?
+      → Needs: more cases, edge case analysis
 
-  Q3: "Ân tình" universal hay cultural-specific?
+  Q3: "Ân tình" — universal or culturally specific?
       → Mechanism (implicit debt + no endpoint) = likely universal
-      → Intensity và naming = cultural variation
+      → Intensity and naming = cultural variation
       → Vietnamese "ân tình" / Chinese "恩" / Japanese "恩義" = Asian amplification?
       → English "I owe you one" = lighter, often bounded?
-      → Cần: cross-cultural empirical study
+      → Needs: cross-cultural empirical study
 
-  Q4: Obligation giảm được không?
+  Q4: Can obligation be reduced?
       → Reframe: communicate cost → Cost_clarity ↑ → obligation ↓
       → Renegotiate: explicit terms → convert TYPE 3 → TYPE 1
-      → Default: refuse to pay → consequence THẬT nhưng obligation END
-      → Build autonomy: tự làm nhiều hơn → dependency ↓ → obligation ↓
-      → = Multiple strategies, NHƯNG cần empirical testing
+      → Default: refuse to pay → real consequence but obligation ENDS
+      → Build autonomy: do more yourself → dependency ↓ → obligation ↓
+      → = Multiple strategies, BUT needs empirical testing
 
   Q5: Obligation × Gratitude — full model?
-      → Gratitude.md §10 Q5: "Obligation.md scope — đủ thành parameter riêng?"
-      → ANS (file này): YES — obligation is DISTINCT (§0, §1)
-      → Nhưng interaction model cần refine: 
+      → Gratitude.md §10 Q5: "Obligation.md scope — sufficient as separate parameter?"
+      → ANS (this file): YES — obligation is DISTINCT (§0, §1)
+      → But interaction model needs refinement:
         obligation ↓ gratitude vs Valence-Structural buffer moderation
 
-  Q6: Access cost quantifiable?
+  Q6: Is access cost quantifiable?
       → Currently: conceptual (§6)
-      → NHƯNG: could measure via help-seeking latency, physiological markers
+      → BUT: could measure via help-seeking latency, physiological markers
       → = Testable prediction: higher status gap → longer deliberation before asking
 
   Q7: Community-level obligation → how does it break down?
       → When community FAILS (corruption, betrayal at scale):
-        → Community Valence-Structural collapse → back to individual tracking → O(n) overload
+        → Community Valence-Structural collapses → back to individual tracking → O(n) overload
         → = Social trust collapse = obligation system overload
-      → Cần: analyze community failure cases
+      → Needs: analysis of community failure cases
 
   Q8: AI era impact?
       → AI as external tool: obligation ≈ 0 (AI doesn't demand reciprocity)
       → → May REDUCE obligation burden for many tasks
-      → → But also reduce EXCHANGE MODE practice → social skills atrophy?
-      → → "Nhờ AI thay vì nhờ người" → less obligation BUT less connection
-      → Cần: observe + assess trade-off
+      → → But also reduces EXCHANGE MODE practice → social skills atrophy?
+      → → "Ask AI instead of asking people" → less obligation BUT less connection
+      → Needs: observe + assess trade-off
 ```
 
 ---
@@ -2377,34 +2387,34 @@ CORE MECHANISM FILES:
     §7 PFC=Lawyer (distort obligation assessment: fabricate/suppress/amplify)
   → Body-Feedback-Label.md v2.0 — vocabulary reference, 3-tier labels,
     prediction-delta terminology, Entity-Compiled reframe
-  → Status.md v2.0 — §4 3 modes (Lấy/Trao đổi/Comply), §5 Trao đổi = phổ biến nhất,
-    §5.1 Chuyên môn hóa, §5.3 Flatten gap
+  → Status.md v2.0 — §4 3 modes (Take/Exchange/Comply), §5 Exchange = most common,
+    §5.1 Specialization, §5.3 Flatten gap
   → Gratitude.md v2.0 — §2.7 (prerequisite ⑦ Obligation assessment),
     §5 Gift-Obligation Spectrum, §5.3 Obligation preview
-  → Agent-Mechanism.md — §12 body-need feeder, §12.2b 2-luồng Valence-Momentary/Valence-Structural,
+  → Agent-Mechanism.md — §12 body-need feeder, §12.2b 2-stream Valence-Momentary/Valence-Structural,
     §12.4 Schema-Pure-Trust/Imagined-Overlay virtual agents, §12.5 collective agents
   → Entity-Valence-Dynamics.md v1.0 — §2 Body-Base Extension dimension,
-    §3 Valence-Momentary/Valence-Structural distinction + 2-luồng/2-tầng visibility
+    §3 Valence-Momentary/Valence-Structural distinction + 2-stream/2-tier visibility
   → Body-Coupling.md v2.0 — coupling mechanism: extension/entanglement
     explains WHY obligation weight varies (coupling depth → Valence-Structural magnitude)
-  → Connection.md v4.0 — §3.3 2-luồng reward, §5 ④ giving reward,
+  → Connection.md v4.0 — §3.3 2-stream reward, §5 ④ giving reward,
     §8 virtual chunks access, §14 collective connection
   → Autonomy-Hardware.md — efference copy, self-action = reward,
-    §5 2-layer dissonance (bị ép + kết quả tốt VẪN = dissonance)
+    §5 2-layer dissonance (coerced + good result STILL = dissonance)
   → Threat.md — Internal-Predict (no endpoint, self-amplifying),
     sustained cortisol, anticipation loop
   → Protect.md — §2 f(replaceability × attachment), loss aversion, ownership
   → Body-Feedback-Mechanism.md — §3.3 Chunk-Gap (obligation = gap signal),
     cortisol holding, §5 Baseline Shift
   → Cortisol-Baseline.md v2.0 — amplifier, §7.7 5 Cortisol Roles taxonomy
-    (Obligation dùng chủ yếu Role ② Holding + Role ③ Threat-sustained)
+    (Obligation uses primarily Role ② Holding + Role ③ Threat-sustained)
   → Empathy.md v3.0 — Self-Pattern-Modeling Compiled/Fresh, community-level, Resonance
   → Self-Pattern-Modeling.md v3.0 — Compiled + Fresh, predict agent expectations
 
 OBSERVATION PARAMETER FILES:
   → Meaning.md v2.0 — §7.7 ×Gratitude (open), §3 5 types (ROLE → obligation gateway)
-  → Boredom.md — Loại 3 TRỐNG = "nothing to do" may relate to obligation void
-  → Novelty.md — Raw material cho obligation domains
+  → Boredom.md — Type 3 EMPTY = "nothing to do" may relate to obligation void
+  → Novelty.md — Raw material for obligation domains
   → Drive.md — Obligation as motivation driver (fulfill obligation = drive resolution)
   → Liking-Wanting.md — Wanting mechanism for obligation fulfillment
 
@@ -2454,15 +2464,15 @@ STATUS:
     ② "Obligation = tracking mechanism for exchange" (not moral/social norm)
     ③ "5-factor formula + Status Gap as multiplier" (not 6th factor)
     ④ "6-type spectrum" (Financial→Exchange→Ân tình→Role→Identity→Compound)
-    ⑤ "Tiền = obligation technology" (4 functions: standardize, convert, scale, optimize)
-    ⑥ "Ân tình tồn tại nơi tiền bị cấm" (paradox: Valence-Structural relationships)
+    ⑤ "Money = obligation technology" (4 functions: standardize, convert, scale, optimize)
+    ⑥ "Ân tình exists where money is forbidden" (paradox: Valence-Structural relationships)
     ⑦ "Access cost = mode shift cost" (upfront cost distinct from obligation)
     ⑧ "3 independent mechanisms" (Obligation + Valence-Structural buffer + Self-Pattern-Modeling input)
     ⑨ "Parenting shapes obligation calibration" (over/under/balanced)
     ⑩ "Community trade = O(1)" (vs individual = O(n))
     ⑪ "Obligation valence = f(choice, Valence-Structural, cost_clarity)" (not always negative)
   → v1.1 ADDITIONS:
-    ⑫ Compilable Architecture framing: obligation = tracking emergent từ general-purpose system
+    ⑫ Compilable Architecture framing: obligation = tracking emergent from general-purpose system
     ⑬ Exchange = mutual by-product matching (Inter-Body §5.4)
     ⑭ PFC=Lawyer distorts obligation assessment (fabricate/suppress/amplify)
     ⑮ 3-cost model for obligation fulfillment: PFC draft + Suppress + Uncertainty
@@ -2476,91 +2486,88 @@ STATUS:
 
 ```
 OBLIGATION = OBSERVATION PARAMETER (v1.1)
-= Observable pattern khi body detect COMPILED PREDICTION
-  về cost liên tục để MAINTAIN access tới agent-as-external-tool.
+= Observable pattern when body detects COMPILED PREDICTION
+  about ongoing cost to MAINTAIN access to agent-as-external-tool.
 
-REFRAME: Obligation = COMPILED từ real experience, KHÔNG phải imagination hư không.
+REFRAME: Obligation = COMPILED from real experience, NOT from thin-air imagination.
   → 4 stages: experience → compile → predict → decide
-  → Trẻ con chưa compile → chưa có obligation
-  → Adult over-predict → overthinking → avoid help
+  → Young children haven't compiled → no obligation
+  → Adults over-predict → overthinking → avoid help
 
 DEFINITION (§1):
-  → Obligation KHÁC Status (CÓ gì), Threat (SỢ gì), Autonomy (TỰ LÀM gì)
-  → Obligation = TỐN GÌ ĐỂ GIỮ (ongoing cost to maintain)
-  → Obligation TỒN TẠI TRƯỚC threat fire
+  → Obligation DIFFERS from Status (HAVE something), Threat (FEAR something), Autonomy (CAN DO something)
+  → Obligation = WHAT IT COSTS TO KEEP (ongoing cost to maintain)
+  → Obligation EXISTS BEFORE threat fires
   → Valence: not always negative — f(choice, Valence-Structural, cost_clarity)
 
 FORMULA (§3): 5 factors + Status Gap multiplier:
   → Agent_value × Repl⁻¹ × Cost_clarity⁻¹ × Autonomy⁻¹ × Endpoint⁻¹
-  → Status gap = MULTIPLIER (mode Comply → all factors extreme)
+  → Status gap = MULTIPLIER (Comply mode → all factors extreme)
   → Obligation INFLATION when power asymmetry
 
 6 TYPES (§4): Financial → Exchange → Ân tình → Role → Identity → Compound
-  → TYPE 3 (ân tình) = NẶNG NHẤT: implicit, unbounded, Internal-Predict pattern
-  → TYPE 6 (compound) = PHỨC TẠP NHẤT: multiple types overlap
+  → TYPE 3 (ân tình) = HEAVIEST: implicit, unbounded, Internal-Predict pattern
+  → TYPE 6 (compound) = MOST COMPLEX: multiple types overlap
 
 EXCHANGE FOUNDATION (§5):
-  → Trao đổi = mode phổ biến nhất (Status §5) → Obligation = TRACKING cho trao đổi
-  → Tiền = obligation technology (4 functions)
-  → Paradox: ân tình tồn tại nơi tiền bị cấm
+  → Exchange = most common mode (Status §5) → Obligation = TRACKING for exchange
+  → Money = obligation technology (4 functions)
+  → Paradox: ân tình exists where money is forbidden
 
 ACCESS COST (§6):
   → Total cost = Access cost (upfront) + Obligation (future)
   → Access cost ∝ Status gap × History of consequence
-  → Giảm access cost = tăng cooperation (psychological safety)
+  → Reducing access cost = increasing cooperation (psychological safety)
 
-3 CƠ CHẾ ĐỘC LẬP (§7):
+3 INDEPENDENT MECHANISMS (§7):
   → Obligation (PFC prediction) ≠ Valence-Structural (compiled valence) ≠ Self-Pattern-Modeling (simulate agent)
   → Valence-Structural = BUFFER (Net = Obligation − Valence-Structural)
-  → Self-Pattern-Modeling = INPUT (predict what agent expects)
-  → Cùng hành động, khác 3 cơ chế → khác trải nghiệm
+  → Self-Pattern-Modeling = INPUT (predicts what agent expects)
+  → Same action, different 3 mechanisms → different experience
 
 DEVELOPMENTAL (§8): parenting → obligation calibration
-  → Conditional love → over-calibrate → avoid asking help
-  → Unconditional only → under-calibrate → nhưng school correct
+  → Conditional love → over-calibrate → avoids asking for help
+  → Unconditional only → under-calibrate → but school corrects
   → Balanced → flexible, contextual → optimal
 
 COMMUNITY SCALING (§9): O(n) → O(1)
-  → Individual tracking = O(n) → overload, mệt mỏi
+  → Individual tracking = O(n) → overload, exhausting
   → Community = O(1) → distributed, robust, sustainable
   → Country-level = obligation ≈ 0 per-action → meaning gateway
 
-CASES (§11): 10/10 KHỚP — từ bạn cùng lớp → lãnh chúa → vợ nội trợ → cộng đồng
-
-FILE: ~2,470 lines | 13 sections + summary
-VERSION: v1.1 | 2026-05-17 (refined from v1.0 2026-04-25)
+CASES (§11): 10/10 CONSISTENT — from classmate → feudal lord → housewife → community
 ```
 
 ---
 
-> *Mẹ nói: "Mẹ nuôi con lớn. Con phải rửa bát, quét nhà."*
-> *Body register: cost THẬT. Consequence THẬT.*
+> *Mother said: "I raised you. You must wash the dishes, sweep the floors."*
+> *Body registered: REAL cost. REAL consequence.*
 >
-> *Lặp đi lặp lại → chunks compile.*
-> *"Nhận = phải trả. Luôn luôn."*
+> *Repeated again and again → chunks compiled.*
+> *"Receiving = must always repay."*
 >
-> *Lớn lên. Ai đó offer help.*
-> *PFC scan: "lần trước nhờ → phải trả."*
-> *"Lần này sẽ phải trả gì?"*
-> *"Không biết." → cortisol → "Thôi, tự làm."*
+> *Grew up. Someone offered help.*
+> *PFC scanned: "last time I asked → had to repay."*
+> *"This time what will I have to repay?"*
+> *"Don't know." → cortisol → "Forget it, I'll do it myself."*
 >
-> *Đó không phải đạo đức. Đó là COMPILED PREDICTION.*
-> *Built từ real experience. Mỗi lần nhờ, mỗi lần trả, mỗi lần bị đòi.*
+> *That is not morality. That is COMPILED PREDICTION.*
+> *Built from real experience. Every time asked, every time repaid, every time demanded.*
 >
-> *Có "phải" rõ ràng — vay tiền, trả lương. Nhẹ nhàng.*
-> *Có "phải" mờ ảo — ân tình, identity. Nặng nề.*
+> *There is clear "must" — borrowed money, paid salary. Light.*
+> *There is hazy "must" — ân tình, identity. Heavy.*
 >
-> *Nhưng nặng nhất không phải nợ tiền.*
-> *Nặng nhất là nợ tình — nơi tiền không thể dùng.*
-> *Vì monetize = phá hủy thứ làm relationship CÓ GIÁ TRỊ.*
+> *But the heaviest is not owing money.*
+> *The heaviest is owing ân tình — where money cannot be used.*
+> *Because monetizing = destroying what makes the relationship VALUABLE.*
 >
-> *Và nhẹ nhất là community.*
-> *"Tôi giúp mọi người. Mọi người giúp tôi."*
+> *And the lightest is community.*
+> *"I help people. People help me."*
 > *O(1). Distributed. Sustainable.*
-> *PFC không biết vì sao đi từ thiện thì thoải mái.*
-> *Body biết: community = body-base extension. Giúp community = feed body-base.*
+> *PFC doesn't know why doing charity feels good.*
+> *Body knows: community = body-base extension. Helping community = feeding body-base.*
 >
-> *Obligation không xấu. Obligation là CÁI GIÁ của việc KHÔNG TỰ LÀM ĐƯỢC.*
-> *Và con người không tự làm được MỌI THỨ.*
-> *Nên obligation = cái giá của COOPERATION.*
-> *Và cooperation = nền tảng của CIVILIZATION.*
+> *Obligation is not bad. Obligation is THE PRICE of NOT BEING ABLE TO DO EVERYTHING ALONE.*
+> *And humans cannot do EVERYTHING alone.*
+> *So obligation = the price of COOPERATION.*
+> *And cooperation = the foundation of CIVILIZATION.*

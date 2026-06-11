@@ -1,165 +1,151 @@
 ---
-title: Novelty — Observation Parameter
+title: "Novelty — Observation Parameter"
 version: 1.2
 created: 2026-04-20
 updated: 2026-05-17
-refined: 2026-05-23 (v1.2 — Concept Cascade: +Simulation-Engine, +Satiation types, +PFC Budget. Updated versions + cross-refs)
+refined: "2026-05-23 (v1.2 — Concept Cascade: +Simulation-Engine, +Satiation types, +PFC Budget)"
 status: OBSERVATION PARAMETER v1.2
 scope: |
-  OBSERVATION FILE: Novelty = named pattern khi quan sát chunk dynamics.
-  Novelty không phải component hay operator — là TÊN GỌI cho patterns
-  emergent từ VTA detect positive prediction-delta + chunk-gap dynamics.
-  File này mô tả: mechanism, 2 dạng, phanh, loop, depth/breadth, ứng dụng.
+  OBSERVATION FILE: Novelty = the named pattern observed when watching chunk dynamics.
+  Novelty is not a component or operator — it is the NAME for patterns that emerge
+  when VTA detects a positive prediction-delta within the chunk-gap dynamics.
+  This file covers: mechanism, 2 types, natural brakes, loop dynamics, depth/breadth,
+  and applications.
   v1.1 KEY CHANGES:
-    ⑪ +Compilable Architecture: novelty = general-purpose system detect UNCOMPILED input
+    ⑪ +Compilable Architecture: novelty = general-purpose system detecting UNCOMPILED input
     ⑫ +Compiled/Fresh: novel = BY DEFINITION fresh (not yet compiled)
-    ⑬ +2-tầng calibration: what counts as "novel" = per-individual
-    ⑭ Version refs synced (Valence-Propagation v2.0, Body-Feedback-Mechanism v2.0, Feeling v3.0)
+    ⑬ +2-tier calibration: what counts as "novel" = per-individual
+    ⑭ Version refs synced
     ⑮ +Cross-refs: Inter-Body-Mechanism.md v1.0, Body-Feedback-Label.md v2.0
 purpose: |
-  Core v7.8 §8 define Novelty ngắn gọn ("Positive prediction-delta pattern").
-  File này DEEP-DIVE: neuroscience mechanism, practical patterns,
-  khi nào có lợi/có hại, loop dynamics. Dùng cho người cần hiểu chi tiết.
+  Core-Software.md §8 defines Novelty briefly ("Positive prediction-delta pattern").
+  This file DEEP-DIVES: neuroscience mechanism, practical patterns,
+  when helpful/harmful, loop dynamics. For readers who need the full detail.
 position: |
-  Core-Deep-Dive/Observation/ — ngang hàng Schema.md, Empathy.md,
+  Core-Deep-Dive/Observation/ — sibling of Schema.md, Empathy.md,
   AI-Schema-Detection.md, Liking-Wanting.md, Threat.md, Drive.md.
-  Tất cả = observation parameter deep-dives, KHÔNG phải mechanism files.
-dependencies:
-  - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
-  - Body-Feedback-Mechanism.md v2.0 — Chunk-Gap = foundation, Shift/Miss/Gap
-  - Chunk.md v2.0 — chunk substrate, compilation, hierarchy
-  - Cortisol-Baseline.md v2.0 — amplifier, sustained cortisol dynamics
-  - Valence-Propagation.md v2.0 — body evaluation, delta rule
-  - Modality.md v1.0 — encoding channels, depth = modality count
-  - Feeling.md v3.0 — PFC observation interface
-  - Somatic-Articulation-Loop.md — implicit >> explicit, felt sense
-  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, Compiled/Fresh
-  - Body-Feedback-Label.md v2.0 — vocabulary reference
-  - PFC/Simulation-Engine.md v1.0 — novelty = prediction mismatch in simulation
-  - Body-Feedback/Gap-Body-Need.md v1.0 — novelty satiation dynamics
-  - PFC/PFC-Label.md v1.0 — vocabulary, PFC budget limit on novelty seeking
-sources_backup: |
-  Gộp + rewrite từ: Novelty.md v1.0 (1,225L) + Novelty-Loop.md (1,060L)
-  Backup: _backup/Drive-v75-era/
-language: Tiếng Việt primary + English technical terms
+  All = observation parameter deep-dives, NOT mechanism files.
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+source_file: Core-Deep-Dive/Observation/Novelty.md
 ---
 
 # Novelty — Observation Parameter
 
-> Khi nhìn một đứa trẻ đuổi theo con cua, một nhà vật lý trăn trở suốt đêm,
-> hay một người cuộn MXH không dừng được — chúng ta gọi tất cả là "Novelty."
+> Watch a child chasing a crab on the beach. Watch a physicist who can't sleep,
+> turning a problem over and over. Watch someone endlessly scrolling social media,
+> unable to stop.
+> We call all of these "Novelty."
 >
-> Nhưng bên trong, không có module nào tên "Novelty."
-> Chỉ có: chunks fire → VTA detect delta → body-feedback → behavior emerge.
+> But inside the brain, there is no module named "Novelty."
+> There is only: chunks fire → VTA detects a delta → body-feedback → behavior emerges.
 >
-> Novelty là TÊN GỌI cho pattern đó — nhìn từ bên ngoài.
+> Novelty is the NAME we give to that pattern — observed from the outside.
 >
-> File này mô tả: pattern đó trông thế nào, mechanism bên dưới,
-> khi nào nó tự dừng, khi nào nó không dừng được, và tại sao điều đó quan trọng.
+> This file describes: what the pattern looks like, the mechanism underneath,
+> when it naturally stops, when it cannot stop, and why that matters.
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — NOVELTY LÀ OBSERVATION PARAMETER
+- §0 — NOVELTY AS OBSERVATION PARAMETER
 - §1 — MECHANISM: VTA + CHUNK DYNAMICS
-- §2 — 2 DẠNG: SENSORY-DRIVEN vs IMAGINATION-DRIVEN
-- §3 — 3 PHANH TỰ NHIÊN + KHI PHANH THẤT BẠI
-- §4 — NOVELTY LOOP: KHI KHÔNG TỰ DỪNG
+- §2 — 2 TYPES: SENSORY-DRIVEN vs IMAGINATION-DRIVEN
+- §3 — 3 NATURAL BRAKES + WHEN THEY FAIL
+- §4 — NOVELTY LOOP: WHEN IT WON'T STOP
 - §5 — DRD4: DEPTH vs BREADTH
-- §6 — KHI CÓ LỢI vs KHI CÓ HẠI
+- §6 — BENEFICIAL vs HARMFUL
 - §7 — HONEST ASSESSMENT
 - §8 — CROSS-REFERENCES
 
 ---
 
-## §0 — NOVELTY LÀ OBSERVATION PARAMETER
+## §0 — NOVELTY AS OBSERVATION PARAMETER
 
 ```
 ⭐ REFRAME V7.8:
 
-  Core v7.5 (cũ): Novelty = "L3 Pattern drive" — 1 trong 3 drives xã hội
-  Core v7.8 (mới): Novelty = observation parameter — tên gọi cho pattern
+  Core v7.5 (old): Novelty = "L3 Pattern drive" — 1 of 3 social drives
+  Core v7.8 (new): Novelty = observation parameter — a name for a pattern
 
-  Novelty KHÔNG PHẢI:
-    ✗ Component kiến trúc (không có "Novelty module" trong não)
-    ✗ Drive operator (không có "Novelty engine" bật/tắt)
-    ✗ Layer riêng (không có "L3 Novelty" — layer-model đã bỏ)
-    ✗ Personality trait "tò mò" (pop psychology — mô tả, không giải thích)
+  Novelty is NOT:
+    ✗ An architectural component (no "Novelty module" in the brain)
+    ✗ A drive operator (no "Novelty engine" to switch on or off)
+    ✗ A separate layer (no "L3 Novelty" — the layer model has been retired)
+    ✗ A personality trait called "curiosity" (pop psychology — describes, doesn't explain)
 
-  Novelty LÀ:
-    ○ Tên gọi cho pattern observable: khi VTA detect positive prediction-delta
-    ○ Emergent từ chunk dynamics — đặc biệt Chunk-Gap (§1)
-    ○ Giá trị: predict, communicate, diagnose
-      → "Người này thích novelty" = predict xu hướng hành vi
-      → "Anh ấy đang trong novelty loop" = communicate trạng thái
-      → "Thiếu novelty drive" = diagnose (boredom territory)
-    ○ KHÔNG dùng để thiết kế can thiệp — can thiệp ở level mechanism:
-      thay đổi body-input, compile chunks mới, adjust environment
+  Novelty IS:
+    ○ A name for an observable pattern: when VTA detects a positive prediction-delta
+    ○ Emergent from chunk dynamics — specifically Chunk-Gap (§1)
+    ○ Useful for: predicting, communicating, diagnosing
+      → "This person seeks novelty" = predicts behavioral tendency
+      → "They're in a Novelty Loop" = communicates state
+      → "Low novelty drive" = diagnoses (boredom territory)
+    ○ NOT used to design interventions — interventions happen at the mechanism level:
+      change body-input, compile new chunks, adjust environment
 
   ANALOGY:
-    "Novelty" giống "nhiệt độ" trong vật lý:
-    → Không có particle nào tên "nhiệt độ"
-    → Nhiệt độ = TÊN GỌI cho mức độ rung của các phân tử
-    → Hữu ích: predict (sẽ sôi ở 100°C), communicate ("nóng quá!"), diagnose ("sốt")
-    → Can thiệp: KHÔNG "thêm nhiệt độ" — mà thêm/bớt năng lượng cho phân tử
+    "Novelty" is like "temperature" in physics:
+    → No particle is named "temperature"
+    → Temperature = the NAME for the collective vibration of molecules
+    → Useful: predict (boils at 100°C), communicate ("too hot!"), diagnose ("fever")
+    → To intervene: you don't "add temperature" — you add or remove energy from molecules
 
-    Tương tự:
-    → Không có neuron nào tên "novelty"
-    → Novelty = TÊN GỌI cho VTA detect delta trong chunk network
-    → Hữu ích: predict, communicate, diagnose
-    → Can thiệp: KHÔNG "thêm novelty" — mà tạo environment có delta,
-      hoặc compile chunks mới (combinatorial space)
+    Similarly:
+    → No neuron is named "novelty"
+    → Novelty = the NAME for VTA detecting a delta in the chunk network
+    → Useful: predict, communicate, diagnose
+    → To intervene: you don't "add novelty" — you create environments with delta,
+      or compile new chunks (expanding the combinatorial space)
 
 
-⭐ COMPILABLE ARCHITECTURE → NOVELTY CẦN THIẾT (Inter-Body-Mechanism.md §1.2):
+⭐ COMPILABLE ARCHITECTURE → NOVELTY IS REQUIRED (Inter-Body-Mechanism.md §1.2):
 
-  HARDWIRED ARCHITECTURE (côn trùng, động vật đơn giản):
-    Stimulus→Response HARDWIRED. Không cần "detect mới" — MỌI response CỐ ĐỊNH.
-    Con ong: hoa→bay tới. Không có "tò mò" — chỉ có circuit.
-    → KHÔNG CÓ "Novelty" vì KHÔNG CÓ prediction → không có delta.
+  HARDWIRED ARCHITECTURE (insects, simple animals):
+    Stimulus→Response is HARDWIRED. No need to "detect the new" — EVERY response is FIXED.
+    A bee: flower→fly toward it. No curiosity — only circuits.
+    → NO "Novelty" because there is NO prediction → no delta.
 
   COMPILABLE ARCHITECTURE (humans):
-    General-purpose reward system: LEARN content from environment.
-    Content KHÔNG hardwired → phải DETECT: "input nào CHƯA compile?"
-    → VTA = detector cho "UNCOMPILED INPUT" trong general-purpose system.
-    → Novelty = signal "có input CHƯA TRONG BASELINE — attend + process."
-    → = Compilable Architecture's MECHANISM để liên tục UPDATE world model.
+    General-purpose reward system: LEARNS content from the environment.
+    Content is NOT hardwired → must DETECT: "which input is NOT YET compiled?"
+    → VTA = detector for "UNCOMPILED INPUT" in a general-purpose system.
+    → Novelty = the signal "there is input NOT YET IN THE BASELINE — attend + process."
+    → = Compilable Architecture's MECHANISM for continuously UPDATING the world model.
 
-  → Novelty = ARCHITECTURE REQUIREMENT cho general-purpose learning.
-  → Không có novelty detection → Compilable Architecture không update → chết.
+  → Novelty = an ARCHITECTURAL REQUIREMENT for general-purpose learning.
+  → Without novelty detection → Compilable Architecture cannot update → fails to adapt.
 
   🟡 Compilable Architecture framing = framework synthesis (Inter-Body-Mechanism.md §1.2).
 
 
-NOVELTY TRONG CYCLE (Core v7.8 §1):
+NOVELTY IN THE CYCLE (Core-Software.md §1):
 
   Domain → Body-Input → Unconscious(Chunks) → Feeling → PFC → Body-Output → Domain
                               ↑
-                      VTA detect delta ở đây
-                      = "Novelty" được quan sát
+                      VTA detects delta here
+                      = where "Novelty" is observed
 
-  Novelty xuất hiện ở bước Unconscious Processing:
-  → Chunks fire → VTA compare với baseline → delta > 0
-  → Body-feedback fire (reward direction nếu positive delta)
-  → Feeling bridge → PFC observe → có thể label "thú vị", "hay", "tò mò"
-  → PFC có thể orchestrate → explore → body-output → domain → loop
+  Novelty appears at the Unconscious Processing step:
+  → Chunks fire → VTA compares with baseline → delta > 0
+  → Body-feedback fires (reward direction if positive delta)
+  → Feeling bridge → PFC observes → may label "interesting", "exciting", "curious"
+  → PFC may orchestrate → explore → body-output → domain → loop
 
-  = Novelty KHÔNG PHẢI 1 bước riêng — mà là observation point
-    trong cycle liên tục
+  = Novelty is NOT a separate step — it is an observation point
+    in the continuously running cycle
 
 
-GIÁ TRỊ CỦA FILE NÀY:
+THE VALUE OF THIS FILE:
 
-  Core v7.8 §8 chỉ nói: "Novelty = Positive prediction-delta pattern."
-  File này DEEP-DIVE:
+  Core-Software.md §8 only says: "Novelty = Positive prediction-delta pattern."
+  This file DEEP-DIVES:
   → §1: Mechanism — VTA + chunk dynamics (neuroscience)
-  → §2: 2 dạng — Sensory-Driven vs Imagination-Driven
-  → §3: 3 phanh — tại sao tự dừng (hoặc không)
-  → §4: Loop — khi phanh thất bại → vòng xoáy sáng tạo
+  → §2: 2 types — Sensory-Driven vs Imagination-Driven
+  → §3: 3 brakes — why it naturally stops (or doesn't)
+  → §4: Loop — when the brakes fail → the creative spiral
   → §5: DRD4 — depth vs breadth (hardware variation)
-  → §6: Lợi vs hại — cùng mechanism, khác output
+  → §6: Beneficial vs harmful — same mechanism, different outcomes
 ```
 
 ---
@@ -167,195 +153,198 @@ GIÁ TRỊ CỦA FILE NÀY:
 ## §1 — MECHANISM: VTA + CHUNK DYNAMICS
 
 ```
-⭐ NOVELTY = VTA DETECT POSITIVE PREDICTION DELTA TRONG CHUNK NETWORK
+⭐ NOVELTY = VTA DETECTING A POSITIVE PREDICTION DELTA IN THE CHUNK NETWORK
 
-  2 thành phần CỐT LÕI:
-    ① VTA (Ventral Tegmental Area) — bộ phận detect
-    ② Chunk dynamics — substrate tạo ra delta
+  2 CORE COMPONENTS:
+    ① VTA (Ventral Tegmental Area) — the detector
+    ② Chunk dynamics — the substrate that generates the delta
 
-  Cả 2 CẦN THIẾT. Thiếu 1 = không có Novelty:
-    → VTA có nhưng chunks không thay đổi = VTA im lặng
-    → Chunks thay đổi nhưng VTA hỏng = không detect được delta
+  BOTH are required. Without one = no Novelty:
+    → VTA present but chunks unchanging = VTA is silent
+    → Chunks changing but VTA damaged = delta goes undetected
 
 
-§1.1 — VTA: "SEISMOGRAPH" CỦA NÃO
+§1.1 — VTA: THE BRAIN'S "SEISMOGRAPH"
 
   VTA (Ventral Tegmental Area):
-    → ~400,000 neurons ở midbrain (zona C subcortical)
-    → Chức năng: detect DELTA (biến động), KHÔNG detect absolute values
-    → = "Seismograph" — đo RUNG CHẤN, không đo độ cao mặt đất
+    → ~400,000 neurons in the midbrain (Zone C subcortical)
+    → Function: detect DELTA (change), NOT absolute values
+    → = "Seismograph" — measures TREMORS, not the elevation of the ground
 
-  Cơ chế:
-    → Chunks compile → fire pattern ỔN ĐỊNH → VTA habituate → IM LẶNG
-    → Pattern THAY ĐỔI (chunks mới, tổ hợp mới) → VTA detect → FIRE
-    → Trở lại ổn định ở level mới → VTA habituate lại → IM LẶNG
+  Mechanism:
+    → Chunks compile → fire a STABLE pattern → VTA habituates → SILENT
+    → Pattern CHANGES (new chunks, new combinations) → VTA detects → FIRES
+    → Returns to stability at new level → VTA habituates again → SILENT
 
     = "baseline → detect change → fire → new baseline → habituate"
 
-  Prediction delta (thuật ngữ framework):
-    → Thay cho "prediction error" (Schultz 1997):
-      → Cùng cơ chế — nhưng "error" gợi ý "sai", trong khi delta = TRUNG TÍNH
-      → Delta > 0 (positive): pattern mới/mở rộng → Novelty direction
-      → Delta < 0 (negative): pattern tệ hơn expected → Dissonance direction
-      → Delta = 0: đúng expected → VTA im → no signal
+  Prediction delta (framework term):
+    → Replaces "prediction error" (Schultz 1997):
+      → Same mechanism — but "error" implies "wrong," while delta = NEUTRAL
+      → Delta > 0 (positive): new/expanded pattern → Novelty direction
+      → Delta < 0 (negative): pattern worse than expected → Dissonance direction
+      → Delta = 0: exactly as predicted → VTA silent → no signal
     → Body-Feedback-Mechanism.md: Chunk-Miss = negative delta (§3.2)
 
-  VTA fire → dopamine production (tyrosine → L-DOPA → dopamine):
-    → Dopamine travel qua axons (cable VẬT LÝ, hình thành từ thai nhi, CỐ ĐỊNH)
-    → Chỉ LƯỢNG dopamine thay đổi, không phải topology kết nối
-    → Dopamine bind vào DRD4 receptors trên PFC neurons
-    → = Signal "có gì đó MỚI — attend"
+  VTA fires → dopamine production (tyrosine → L-DOPA → dopamine):
+    → Dopamine travels via axons (physical cables, formed in utero, FIXED)
+    → Only the AMOUNT of dopamine changes, not the connection topology
+    → Dopamine binds to DRD4 receptors on PFC neurons
+    → = Signal: "something NEW is present — attend"
 
   ⭐ NOVELTY = BY DEFINITION FRESH (Inter-Body-Mechanism.md §3):
 
-    Compiled/Fresh = trục thật của processing:
+    Compiled/Fresh = the real axis of processing:
       Compiled = automatic, body-feedback direct, cost ≈ 0
-      Fresh = PFC draft, deliberate, cost > 0
+      Fresh = PFC drafting, deliberate, cost > 0
 
-    → Novelty signal = "input NÀY chưa compiled" = BY DEFINITION fresh.
-    → VTA fire = signal "SWITCH TO FRESH PROCESSING MODE."
-    → PFC phải attend, draft, evaluate — cost > 0.
+    → A Novelty signal = "this input is NOT YET compiled" = BY DEFINITION fresh.
+    → VTA firing = signal: "SWITCH TO FRESH PROCESSING MODE."
+    → PFC must attend, draft, evaluate — cost > 0.
 
-    Khi pattern compile xong:
-      → VTA habituate → delta = 0 → novelty signal TẮT.
-      → Processing chuyển Fresh→Compiled (fresh→compiled).
-      → = "Hết mới" = "đã compile" = cùng 1 sự kiện nhìn từ 2 góc.
+    When the pattern finishes compiling:
+      → VTA habituates → delta = 0 → novelty signal TURNS OFF.
+      → Processing shifts from Fresh → Compiled.
+      → = "No longer novel" = "now compiled" = the same event from two perspectives.
 
-    Hệ quả:
-      → "Tìm novelty" = "tìm input chưa compiled."
-      → Expert có NHIỀU novelty hơn beginner (§1.4) vì:
-        combinatorial space lớn → NHIỀU patterns chưa compiled hơn.
-      → Education: dạy = cung cấp fresh input → student compile.
+    Implications:
+      → "Seeking novelty" = "seeking uncompiled input."
+      → An EXPERT has MORE novelty available than a beginner (§1.4) because:
+        a larger combinatorial space → MORE uncompiled patterns available.
+      → Education: teaching = supplying fresh input → student compiles it.
 
   🟢 VTA, dopamine pathway, habituation = neuroscience verified
-  🟢 Schultz 1997: reward prediction error (cơ chế đã established)
+  🟢 Schultz 1997: reward prediction error (mechanism established)
   🟡 "Prediction delta" (neutral term) = framework terminology choice
-  🟡 Novelty=fresh mapping = framework synthesis (consistent with Kahneman)
+  🟡 Novelty = fresh mapping = framework synthesis (consistent with Kahneman)
 
 
-§1.2 — DRD4 THRESHOLD — FILTER VÔ THỨC
+§1.2 — DRD4 THRESHOLD — THE UNCONSCIOUS FILTER
 
-  ⚠️ CLARIFICATION QUAN TRỌNG:
+  ⚠️ IMPORTANT CLARIFICATION:
 
-  DRD4 threshold = filter ở VTA→PFC level (VÔ THỨC)
-  = "Biến động nào ĐỦ LỚN để BÁO LÊN PFC"
+  DRD4 threshold = a filter at the VTA→PFC level (UNCONSCIOUS)
+  = "Which fluctuations are LARGE ENOUGH to be REPORTED UP TO PFC"
 
-  PFC khi ĐÃ FOCUS = xử lý MỌI chi tiết tinh vi
-  → PFC KHÔNG bị giới hạn bởi DRD4
-  → PFC bị giới hạn bởi CÁI GÌ ĐƯỢC BÁO VỀ (input filter)
+  When PFC IS ALREADY FOCUSED = it processes EVERY fine detail
+  → PFC is NOT limited by DRD4
+  → PFC is limited by WHAT GETS REPORTED TO IT (input filter)
 
-  DRD4 repeat variants (2R → 11R) tạo SPECTRUM:
-    → Repeat dài (7R+): threshold CAO → ít signal tới PFC → deep focus
-    → Repeat ngắn (4R): threshold THẤP → nhiều signal → broad awareness
-    → Chi tiết: §5
+  DRD4 repeat variants (2R → 11R) create a SPECTRUM:
+    → Long repeat (7R+): HIGH threshold → fewer signals reach PFC → deep focus
+    → Short repeat (4R): LOW threshold → more signals → broad awareness
+    → Detail: §5
 
   🟢 DRD4 receptor variants = neuroscience verified
   🟡 Threshold → depth/breadth mapping = framework interpretation
 
 
-§1.3 — CHUNK DYNAMICS NỀN TẢNG CHO NOVELTY
+§1.3 — CHUNK DYNAMICS AS THE FOUNDATION FOR NOVELTY
 
-  Body-Feedback-Mechanism.md define 3 chunk dynamics.
-  Novelty liên quan TRỰC TIẾP tới Chunk-Gap:
+  Body-Feedback-Mechanism.md defines 3 chunk dynamics.
+  Novelty relates DIRECTLY to Chunk-Gap:
 
-  ⭐ CHUNK-GAP = FOUNDATION CHO NOVELTY
+  ⭐ CHUNK-GAP = FOUNDATION FOR NOVELTY
     (Body-Feedback-Mechanism.md §3.3)
 
-    Chunk-Gap = chunk network có HOLES (lỗ hổng) hoặc CONFLICTS (mâu thuẫn)
-    → Pattern SHOULD exist nhưng DOESN'T
-    → ACC/insula detect inconsistency → body signal "bứt rứt, chưa ổn"
-    → Signal drive behavior: tìm, khám phá, giải quyết → fill gap
-    → Fill gap → opioid reward
+    Chunk-Gap = the chunk network has HOLES (missing pieces) or CONFLICTS
+    (contradictions)
+    → A pattern SHOULD exist but DOESN'T
+    → ACC/insula detect the inconsistency → body signal: restless, "something's off"
+    → Signal drives behavior: search, explore, resolve → fill the gap
+    → Gap filled → opioid reward
 
-    = Novelty drive EMERGE từ Chunk-Gap dynamics:
-    → Khi network detect GAP → body-feedback (dissonance) → drive explore
-    → Explore → tìm thấy → fill gap → body-feedback (reward) → VTA fire
-    → = "Tò mò" = tên gọi cho Chunk-Gap drive quan sát từ bên ngoài
+    = Novelty drive EMERGES from Chunk-Gap dynamics:
+    → When the network detects a GAP → body-feedback (dissonance) → drives exploration
+    → Explore → discover → fill gap → body-feedback (reward) → VTA fires
+    → = "Curiosity" = the name for Chunk-Gap drive observed from the outside
 
-    ⭐ GAP CÓ HƯỚNG (Gap-Direction.md):
+    ⭐ GAP HAS DIRECTION (Gap-Direction.md):
     → Gap direction = f(surrounding chunk network structure)
-    → Fill CHỈ reward khi MATCH direction (không chỉ "fill bất kỳ gap")
-    → "Chưa biết = không có gap" → desire = f(chunks accumulated)
+    → Fill is ONLY rewarded when it MATCHES the direction (not "any fill will do")
+    → "Not knowing = no gap" → desire = f(accumulated chunks)
     → Oscillation: fill → new chunks → detect new gap → more novelty (§7.5)
-    → = Novelty drive KHÔNG BAO GIỜ cạn vì mỗi fill = thêm detection power
+    → = Novelty drive NEVER runs dry because each fill = more detection power
 
-  CHUNK-SHIFT cũng tham gia:
-    → Khi chunks mới compile → valence network re-evaluate
-    → Re-evaluation = delta → VTA detect → Novelty signal
-    → Ví dụ: học thêm về vật lý → Newton chunks shift valence
-      (từ "đúng tuyệt đối" → "đúng trong phạm vi") → delta → drive tìm hiểu thêm
+  CHUNK-SHIFT also participates:
+    → When new chunks compile → valence network re-evaluates
+    → Re-evaluation = delta → VTA detects → Novelty signal
+    → Example: learning more physics → Newton chunks shift valence
+      (from "absolutely correct" → "correct within limits") → delta → drives deeper inquiry
 
-  CHUNK-MISS ở hướng NGƯỢC (negative delta):
-    → Pattern đã compile nhưng ABSENT → dissonance, KHÔNG phải novelty
-    → NHƯNG: miss CÓ THỂ TRIGGER gap detect:
-      "Cái này thiếu rồi... còn thiếu gì nữa?" → Chunk-Miss → Chunk-Gap → Novelty
-    → = Miss dẫn tới Gap dẫn tới Novelty (cascade)
+  CHUNK-MISS in the OPPOSITE direction (negative delta):
+    → A compiled pattern is ABSENT → dissonance, NOT novelty
+    → BUT: a miss CAN TRIGGER gap detection:
+      "This is missing... what else is missing?" → Chunk-Miss → Chunk-Gap → Novelty
+    → = Miss leads to Gap leads to Novelty (cascade)
 
 
-§1.4 — COMBINATORIAL SPACE: TẠI SAO EXPERT CÓ NHIỀU NOVELTY HƠN
+§1.4 — COMBINATORIAL SPACE: WHY EXPERTS HAVE MORE NOVELTY
 
-  Chunks tích lũy → combinatorial space TĂNG:
+  Chunks accumulate → combinatorial space GROWS:
 
-    Ít chunks (beginner):
-      → 10 chunks → ~45 cặp possible
-      → Tổ hợp 3: ~120
-      → NHANH hết combinations mới → VTA habituate → drive giảm
+    Few chunks (beginner):
+      → 10 chunks → ~45 possible pairs
+      → 3-way combinations: ~120
+      → Runs out of new combinations quickly → VTA habituates → drive drops
 
-    Nhiều chunks (expert):
-      → 1,000 chunks → ~500,000 cặp possible
-      → Tổ hợp 3: ~166 TRIỆU
-      → GẦN NHƯ KHÔNG THỂ hết → VTA LUÔN có delta mới
+    Many chunks (expert):
+      → 1,000 chunks → ~500,000 possible pairs
+      → 3-way combinations: ~166 MILLION
+      → NEARLY IMPOSSIBLE to exhaust → VTA ALWAYS has new deltas
 
-    + Chunks có HIERARCHY (meta-chunks, Chunk.md v2.0):
-      → Combinatorial space thực tế CÒN LỚN HƠN nhiều
-      → = Tại sao 1 expert CÓ THỂ nghiên cứu 1 domain CẢ ĐỜI
+    + Chunks have HIERARCHY (meta-chunks, Chunk.md v2.0):
+      → Actual combinatorial space is EVEN LARGER
+      → = Why an expert CAN research a single domain for AN ENTIRE LIFETIME
 
-  Hệ quả:
-    → "Tò mò" KHÔNG phải trait CỐ ĐỊNH
-    → = Output của: chunks tích lũy × gap density × DRD4 threshold
-    → Ai cũng CÓ THỂ → nếu tích đủ chunks + gặp đúng domain
+  Implications:
+    → "Curiosity" is NOT a FIXED trait
+    → = Output of: accumulated chunks × gap density × DRD4 threshold
+    → Anyone CAN develop it → given enough chunks + the right domain
 
-  ⭐ 2-TẦNG CALIBRATION — "MỚI" = PER-INDIVIDUAL:
+  ⭐ 2-TIER CALIBRATION — "NOVEL" = PER-INDIVIDUAL:
 
-    Cái gì "mới" KHÔNG phải absolute — phụ thuộc BASELINE CỦA NGƯỜI ĐÓ:
-      → Beginner: mọi thứ mới (baseline ít chunks) → VTA fire LIÊN TỤC
-      → Expert: ít thứ mới ở bề mặt (baseline nhiều chunks)
-        → NHƯNG: combinatorial patterns mới = delta MỚI ở SÂU HƠN
-      → Ví dụ: cùng bài toán → beginner "WOW mới" vs expert "trivial"
-      → Ví dụ: cùng cấu trúc toán → expert "WOW connection mới" vs beginner "???"
+    What is "new" is NOT absolute — it depends on THAT PERSON'S BASELINE:
+      → Beginner: everything is new (small baseline) → VTA fires CONTINUOUSLY
+      → Expert: little is new at the surface (large baseline)
+        → BUT: new combinatorial patterns = new delta AT A DEEPER LEVEL
+      → Example: same problem → beginner: "WOW, that's new" vs expert: "trivial"
+      → Example: same mathematical structure → expert: "WOW, new connection!" vs
+          beginner: "???"
 
-    2 tầng:
-      ① HARDWARE tầng: DRD4 threshold (genetic — ít thay đổi)
-      ② CHUNK tầng: chunk library size + gap density (thay đổi theo kinh nghiệm)
-    → "Mới" = f(hardware threshold × chunk baseline) = calibrated per person.
+    2 tiers:
+      ① HARDWARE tier: DRD4 threshold (genetic — rarely changes)
+      ② CHUNK tier: chunk library size + gap density (changes with experience)
+    → "Novel" = f(hardware threshold × chunk baseline) = calibrated per person.
 
   🟢 Combinatorial mathematics = verified
   🟢 Chunk hierarchy + meta-chunks = expertise research (Chase & Simon 1973)
-  🟡 "Tò mò = mechanism output" = framework reframe (vs trait theory)
-  🟡 2-tầng calibration = framework synthesis
+  🟡 "Curiosity = mechanism output" = framework reframe (vs trait theory)
+  🟡 2-tier calibration = framework synthesis
 
 
-§1.5 — NOVELTY × NEW CONCEPTS (28-session Drill Propagation)
+§1.5 — NOVELTY × NEW CONCEPTS
 
   SIMULATION-ENGINE (Simulation-Engine.md v1.0):
     → Novelty = prediction MISMATCH detected in Simulation-Engine output
-    → PFC simulate expected pattern → body compare actual → delta → novelty
-    → Imagination-driven novelty (§2) = Simulation-Engine draft WITHOUT external input
-    → = Simulation-Engine = machinery that GENERATES prediction for VTA to compare
+    → PFC simulates the expected pattern → body compares with actual → delta → novelty
+    → Imagination-Driven Novelty (§2) = Simulation-Engine drafting WITHOUT external input
+    → = Simulation-Engine = the machinery that GENERATES predictions for VTA to compare
 
   NOVELTY SATIATION (Gap-Body-Need.md v1.0):
-    → Novelty drive có 3 satiation patterns:
-      ENGINE: VTA receptor downregulation (dopamine tolerance) — hiếm ở novelty tự nhiên
-      ROAD: cùng loại novelty quen → cần loại MỚI (VD: MXH feed lặp lại)
-      VEHICLE: entity cụ thể hết novelty (VD: game mới → quen → bored)
-    → MXH exploit ROAD satiation: đổi content liên tục → engine KHÔNG BAO GIỜ tắt
-    → Expert: ROAD satiation ÍT hơn (combinatorial space lớn → paths luôn mới)
+    → Novelty drive has 3 satiation patterns:
+      ENGINE: VTA receptor downregulation (dopamine tolerance) — rare in natural novelty
+      ROAD: same type of novelty becomes familiar → needs a NEW TYPE (e.g., repetitive social
+            media feed)
+      VEHICLE: a specific entity runs out of novelty (e.g., new game → familiar → bored)
+    → Social media exploits ROAD satiation: constantly switching content → engine NEVER turns off
+    → Experts: ROAD satiation is LOWER (large combinatorial space → paths are always new)
 
   PFC BUDGET (PFC-Label.md v1.0, Gap-Distribution-Profile.md v1.1):
-    → Novelty seeking LIMITED BY PFC budget: processing fresh input = costly
+    → Novelty seeking LIMITED BY PFC budget: processing fresh input is costly
     → PFC budget = finite per-day (processing load, cortisol, sleep)
-    → Quá nhiều novelty → PFC budget exhausted → shutdown → "overwhelmed"
-    → = Tại sao novelty CŨNG CẦN phanh — không chỉ threat (§3 below)
+    → Too much novelty → PFC budget exhausted → shutdown → "overwhelmed"
+    → = Why novelty ALSO needs brakes — not just Threat (§3 below)
 
   🟡 Simulation-Engine × novelty = framework formalization
   🟡 3 satiation types × novelty = framework application
@@ -364,385 +353,401 @@ GIÁ TRỊ CỦA FILE NÀY:
 
 ---
 
-## §2 — 2 DẠNG: SENSORY-DRIVEN vs IMAGINATION-DRIVEN
+## §2 — 2 TYPES: SENSORY-DRIVEN vs IMAGINATION-DRIVEN
 
 ```
-⭐ 2 DẠNG NOVELTY — MAPS TRỰC TIẾP VÀO 2 NGUỒN BODY-FEEDBACK:
+⭐ 2 TYPES OF NOVELTY — MAPS DIRECTLY ONTO 2 BODY-FEEDBACK SOURCES:
 
-  Body-Feedback-Mechanism.md §2 define 2 nguồn body-feedback:
-    ① Sensory-Driven: domain stimulus → chunks fire REACTIVE
-    ② Pattern-Driven: chunks fire NỘI BỘ → body respond
+  Body-Feedback-Mechanism.md §2 defines 2 body-feedback sources:
+    ① Sensory-Driven: domain stimulus → chunks fire REACTIVELY
+    ② Pattern-Driven: chunks fire INTERNALLY → body responds
 
-  Novelty observation CÓ 2 DẠNG tương ứng:
-    ① Sensory-Driven Novelty: external delta → VTA fire
-    ② Imagination-Driven Novelty: internal chunk recombination → VTA fire
+  Novelty has 2 corresponding types:
+    ① Sensory-Driven Novelty: external delta → VTA fires
+    ② Imagination-Driven Novelty: internal chunk recombination → VTA fires
 
 
 ═══════════════════════════════════════════════════════
 ① SENSORY-DRIVEN NOVELTY
 ═══════════════════════════════════════════════════════
 
-  = Input MỚI từ domain → chunks fire pattern KHÁC baseline → VTA detect
+  = NEW INPUT from the domain → chunks fire a DIFFERENT pattern than baseline → VTA detects
 
-  FLOW (trong v7.8 cycle):
+  FLOW (in the v7.8 cycle):
     Domain stimulus → Body-Input (receptors)
-    → Unconscious: chunks fire pattern MỚI (khác baseline)
-    → VTA detect positive delta → dopamine → DRD4 filter
-    → Nếu vượt threshold → PFC attend → explore
-    → Explore → chunks tích lũy → pattern quen dần
-    → VTA habituate → dopamine GIẢM → dừng
+    → Unconscious: chunks fire a NEW pattern (different from baseline)
+    → VTA detects positive delta → dopamine → DRD4 filter
+    → If threshold exceeded → PFC attends → explores
+    → Explore → chunks accumulate → pattern becomes familiar
+    → VTA habituates → dopamine DROPS → stops
 
-  ĐẶC ĐIỂM:
-    → Input từ BÊN NGOÀI — cần domain stimulus liên tục
-    → Mọi loài có (VTA + sensory pathways = evolution cổ)
-    → TỰ DỪNG nhờ 3 phanh (§3)
-    → Cycle ngắn: phút → giờ
+  CHARACTERISTICS:
+    → Input comes from OUTSIDE — requires continuous domain stimulus
+    → Present in all animals (VTA + sensory pathways = evolutionarily ancient)
+    → SELF-STOPPING via 3 natural brakes (§3)
+    → Short cycle: minutes → hours
 
-  VÍ DỤ — ĐỒ ĂN:
-    → Tình huống A: Đồ ăn bình thường
-      → Vị quen → prediction-delta NHỎ → ít reward
-      → No (body-feedback: satisfaction) → DỪNG
-      → Cycle: 10-30 phút
+  EXAMPLE — FOOD:
+    → Scenario A: ordinary food
+      → Familiar taste → small prediction-delta → low reward
+      → Satisfaction (body-feedback: satiety) → STOP
+      → Cycle: 10-30 minutes
 
-    → Tình huống B: Đồ ăn NGON lần đầu
-      → Vị MỚI, texture MỚI → prediction-delta LỚN → dopamine mạnh
-      → Body-feedback reward (opioid: pattern match Goldilocks)
-      → No → satisfaction → DỪNG (dù còn ngon)
-      → = Body satisfaction OVERRIDE novelty reward
+    → Scenario B: truly delicious food for the first time
+      → New flavor, new texture → LARGE prediction-delta → strong dopamine
+      → Body-feedback reward (opioid: pattern matches Goldilocks)
+      → Satiety → satisfaction → STOP (even though the food is still delicious)
+      → = Body satisfaction OVERRIDES the novelty reward
 
-    → Tình huống C: Đồ ăn ngon ĂN NHIỀU LẦN
-      → Lần 1: WOW. Lần 3: bớt wow. Lần 10: quen.
-      → = HABITUATION: cùng input → VTA habituate → delta → 0
-      → Vẫn ngon (body-feedback reward còn) nhưng KHÔNG CÒN MỚI (novelty tắt)
-      → PHÂN BIỆT: Reward ≠ Novelty
-        → Reward = body-feedback khi pattern match tốt (có thể lặp lại)
-        → Novelty = VTA detect pattern KHÁC baseline (chỉ khi delta > 0)
+    → Scenario C: delicious food eaten MANY TIMES
+      → First time: WOW. Third time: less wow. Tenth time: familiar.
+      → = HABITUATION: same input → VTA habituates → delta → 0
+      → Still tastes good (body-feedback reward remains) but NO LONGER NOVEL
+          (novelty signal has turned off)
+      → DISTINCTION: Reward ≠ Novelty
+        → Reward = body-feedback when pattern matches well (can repeat)
+        → Novelty = VTA detecting a pattern DIFFERENT from baseline (only when delta > 0)
 
-  VÍ DỤ — CON CUA TRÊN BÃI BIỂN:
-    → Đứa trẻ lần đầu thấy con cua:
-      → Hình dạng LẠ → VTA fire. Cua chạy → VTA fire thêm.
-      → Mỗi behavior mới → VTA detect → dopamine → tiếp tục.
-    → Sau 20-30 phút:
-      → ALL behaviors → quen → VTA habituate → delta = 0
-      → "Chán" = tên gọi cho VTA habituated + dopamine giảm
-      → Quay đi → tìm thứ KHÁC (= tìm delta MỚI)
-    → Pattern: Novelty vô thức BOUNDED bởi input depletion
-      → Con cua CHỈ CÓ bấy nhiêu behaviors → hết delta → hết novelty
+  EXAMPLE — A CHILD AND A CRAB ON THE BEACH:
+    → Child sees a crab for the first time:
+      → Strange shape → VTA fires. Crab scuttles → VTA fires again.
+      → Each new behavior → VTA detects → dopamine → continues watching.
+    → After 20-30 minutes:
+      → ALL behaviors → familiar → VTA habituates → delta = 0
+      → "Bored" = the name for VTA habituated + dopamine dropped
+      → Walks away → looks for something ELSE (= seeking a new delta)
+    → Pattern: Sensory-Driven Novelty is BOUNDED by input depletion
+      → The crab only HAS so many behaviors → delta exhausted → novelty ends
 
-  VÍ DỤ — SCROLL MXH:
-    → Tại sao KHÔNG DỪNG ĐƯỢC:
-      → Mỗi post = micro-delta MỚI → VTA fire nhẹ
-      → KHÔNG habituation: mỗi post KHÁC post trước
-      → KHÔNG input depletion: algorithm cung cấp VÔ TẬN
-      → = HACK 2/3 phanh tự nhiên (§3)
-    → NHƯNG:
-      → Mỗi delta RẤT NHỎ → reward RẤT NHỎ
-      → Không có chunk TÍCH LŨY (mỗi post = isolated)
-      → Body-feedback sau 1-2 giờ: dissonance ("thiếu gì đó")
-      → = "Chán mà không dừng được":
-        VTA CÒN fire (delta) nhưng body-feedback reward KHÔNG fire (no depth)
-    → MXH = exploit Sensory-Driven Novelty:
-      loại bỏ habituation + depletion, giữ delta > 0 liên tục nhưng NÔNG
+  EXAMPLE — SCROLLING SOCIAL MEDIA:
+    → Why it's IMPOSSIBLE to stop:
+      → Every post = a new micro-delta → VTA fires weakly
+      → NO habituation: each post is DIFFERENT from the last
+      → NO input depletion: the algorithm supplies INFINITE content
+      → = HACKS 2 of the 3 natural brakes (§3)
+    → BUT:
+      → Each delta is VERY SMALL → each reward is VERY SMALL
+      → No chunks ACCUMULATE (each post is isolated)
+      → Body-feedback after 1-2 hours: dissonance ("something is missing")
+      → = "Bored but can't stop":
+        VTA still fires (delta present) but body-feedback reward does NOT fire
+        (no depth, no accumulation)
+    → Social media = exploiting Sensory-Driven Novelty:
+      removes habituation + depletion, keeps delta > 0 continuously but SHALLOW
 
-  🟡 Analysis: consistent với observed behavior, derived từ framework
+  🟡 Analysis: consistent with observed behavior, derived from framework
 
 
 ═══════════════════════════════════════════════════════
 ② IMAGINATION-DRIVEN NOVELTY
 ═══════════════════════════════════════════════════════
 
-  = Chunks fire NỘI BỘ → tổ hợp mới → VTA detect delta
-  = KHÔNG CẦN external input liên tục
+  = Chunks fire INTERNALLY → new combinations → VTA detects delta
+  = Does NOT require continuous external input
 
-  FLOW (trong v7.8 cycle):
-    Chunks tích lũy (từ experience, domain exposure)
-    → PFC mở workspace → set direction (hoặc vô thức tự recombine)
-    → Chunks tổ hợp → pattern mới xuất hiện
-    → VTA detect positive delta → dopamine → PFC attend → evaluate
-    → Body-feedback respond (reward nếu pattern fit, dissonance nếu chưa)
-    → Refine → chunks mới compile → thêm combinations possible
-    → VTA detect delta MỚI → cycle TIẾP TỤC
+  FLOW (in the v7.8 cycle):
+    Chunks accumulate (from experience, domain exposure)
+    → PFC opens workspace → sets direction (or unconscious recombines spontaneously)
+    → Chunks combine → new patterns emerge
+    → VTA detects positive delta → dopamine → PFC attends → evaluates
+    → Body-feedback responds (reward if pattern fits, dissonance if not yet resolved)
+    → Refine → new chunks compile → more combinations become possible
+    → VTA detects a NEW delta → cycle CONTINUES
 
-  ĐẶC ĐIỂM:
-    → Input từ BÊN TRONG — chunks tự tổ hợp
-    → Chủ yếu ở species có PFC mạnh (con người)
-    → KHÓ TỰ DỪNG — phanh yếu (§3)
-    → Cycle dài: giờ → tháng → NĂM
+  CHARACTERISTICS:
+    → Input comes from INSIDE — chunks recombine autonomously
+    → Primarily present in species with strong PFC (humans)
+    → HARD TO STOP on its own — brakes are weak (§3)
+    → Long cycle: hours → months → YEARS
 
-  SO SÁNH 2 DẠNG:
+  COMPARISON OF THE 2 TYPES:
 
     ┌──────────────────┬───────────────────────┬───────────────────────┐
     │                  │ Sensory-Driven        │ Imagination-Driven    │
     ├──────────────────┼───────────────────────┼───────────────────────┤
     │ Input source     │ Domain (external)     │ Chunks (internal)     │
-    │ Input giới hạn?  │ CÓ (environment)      │ GẦN NHƯ KHÔNG        │
-    │ Habituation      │ NHANH (phút→giờ)     │ CHẬM (giờ→năm)       │
-    │ Depth            │ NÔNG (per stimulus)   │ SÂU (cross-domain)   │
-    │ Chunk tích lũy   │ ÍT (isolated)         │ NHIỀU (connected)     │
-    │ Tự dừng?         │ DỄ (3 phanh)         │ KHÓ (phanh yếu)      │
-    │ Species          │ Mọi loài (VTA + sens.)│ Chủ yếu con người    │
+    │ Input limited?   │ YES (environment)     │ ALMOST NEVER          │
+    │ Habituation      │ FAST (mins→hours)     │ SLOW (hours→years)    │
+    │ Depth            │ SHALLOW (per stimulus)│ DEEP (cross-domain)   │
+    │ Chunk accumulation│ LITTLE (isolated)    │ MUCH (connected)      │
+    │ Self-stopping?   │ EASY (3 brakes)       │ HARD (weak brakes)    │
+    │ Species          │ All animals (VTA)     │ Primarily humans      │
     │ Body-Feedback src│ Sensory-Driven (§2.2) │ Pattern-Driven (§2.3) │
-    │ Ví dụ            │ Đồ ăn, con cua, MXH   │ Einstein, đầu bếp    │
+    │ Examples         │ Food, crabs, social   │ Einstein, deep domain │
+    │                  │ media                 │ researchers           │
     └──────────────────┴───────────────────────┴───────────────────────┘
 
-  TẠI SAO HABITUATION CHẬM Ở IMAGINATION:
-    → Sensory: cua chạy → cua chạy → cua chạy → CÙNG delta → quen
-    → Imagine: chunk A+B → insight → chunk C join → KHÁC delta → mới
-    → Mỗi lần imagine → chunks TỔ HỢP KHÁC → pattern MỚI
-    → VTA detect delta MỚI mỗi lần (không lặp cùng pattern)
-    → = "Não tự feed novelty cho chính nó" (Pattern-Driven loop)
+  WHY HABITUATION IS SLOW FOR IMAGINATION:
+    → Sensory: crab scuttles → crab scuttles → crab scuttles → SAME delta → familiar
+    → Imagine: chunk A+B → insight → chunk C joins → DIFFERENT delta → new
+    → Each time imagining → chunks combine DIFFERENTLY → NEW pattern
+    → VTA detects a NEW delta each time (not repeating the same pattern)
+    → = "Brain feeds itself novelty" (Pattern-Driven loop)
 
   IMAGINE-REWARD-REFINE LOOP:
-    Khi chunk network có GAP (Body-Feedback-Mechanism.md §3.3):
+    When the chunk network has a GAP (Body-Feedback-Mechanism.md §3.3):
 
-    ┌─ Chunk-Gap → body-feedback (dissonance: "chưa ổn") → drive resolve
+    ┌─ Chunk-Gap → body-feedback (dissonance: "not resolved yet") → drives resolution
     │
-    ├→ PFC mở workspace → vô thức simulate (chunk recombination)
-    ├→ Pattern mới → chunks hội tụ CHÚT ÍT
-    ├→ Gap PARTIALLY filled → body-feedback (reward: opioid) → LẬP TỨC
-    ├→ VTA detect delta (pattern mới) → dopamine → tiếp tục
-    ├→ Refine → pattern tốt hơn → reward nữa
-    ├→ ...cycle tiếp...
+    ├→ PFC opens workspace → unconscious simulates (chunk recombination)
+    ├→ New pattern → chunks converge A LITTLE
+    ├→ Gap PARTIALLY filled → body-feedback (reward: opioid) → IMMEDIATELY
+    ├→ VTA detects delta (new pattern) → dopamine → continues
+    ├→ Refine → better pattern → more reward
+    ├→ ...cycle continues...
     │
-    └─ = VÒNG TỰ THƯỞNG — rất khó dừng
+    └─ = SELF-REWARDING LOOP — very hard to stop
 
-    Tại sao VÒNG này mạnh:
-    → Mỗi bước nhỏ = reward NGAY (không cần chờ hoàn thành)
-    → Dissonance GIẢM dần mỗi step
-    → NHƯNG mỗi step MỞ RA gap mới
-    → = Reward + Delta song song → 2 drives CÙNG kéo
-    → = KHÔNG CHỈ "muốn biết" — CÒN "body cần resolve gap"
+    Why this loop is so powerful:
+    → Every small step = reward IMMEDIATELY (no need to wait for completion)
+    → Dissonance DECREASES with each step
+    → BUT each step OPENS a new gap
+    → = Reward + Delta running in parallel → 2 drives pulling TOGETHER
+    → = NOT just "wanting to know" — also "body needs to resolve the gap"
 
-  CHUYỂN TIẾP: SENSORY → IMAGINATION:
-    → 2 dạng KHÔNG tách biệt — có CHUYỂN TIẾP:
-    → Sensory → Imagination: thấy cua (sensory) → "tại sao chạy ngang?" (imagine)
-    → Imagination → Sensory: imagine "nếu trộn X+Y" → tay tự thử → domain feedback
-    → Beginner: nhiều sensory, ít imagine (chưa đủ chunks)
-    → Expert: ít sensory (habituate nhanh), nhiều imagine (chunks lớn)
-    → = Education: giai đoạn đầu PHẢI cung cấp external input
-      → giai đoạn sau DẦN chuyển sang tự imagine
+  TRANSITION: SENSORY → IMAGINATION:
+    → The 2 types are NOT separate — there is a TRANSITION:
+    → Sensory → Imagination: seeing a crab (sensory) → "why does it move sideways?"
+        (imagine)
+    → Imagination → Sensory: imagine "what if I combine X+Y" → hands try it →
+        domain feedback
+    → Beginner: heavy on sensory, light on imagination (not enough chunks yet)
+    → Expert: light on sensory (habituates quickly), heavy on imagination (large chunk library)
+    → = Education: early stages MUST supply external input
+      → later stages GRADUALLY shift toward self-generated imagination
 
-  🟡 2 dạng Novelty mapping vào 2 nguồn Body-Feedback = framework synthesis
+  🟡 2-type Novelty mapping onto 2 Body-Feedback sources = framework synthesis
   🟢 Expertise → internal generation = expertise research (Ericsson)
 ```
 
 ---
 
-## §3 — 3 PHANH TỰ NHIÊN + KHI PHANH THẤT BẠI
+## §3 — 3 NATURAL BRAKES + WHEN THEY FAIL
 
 ```
-⭐ NOVELTY CÓ 3 PHANH BUILT-IN — TẤT CẢ HIỆU QUẢ CHO SENSORY,
-  YẾU CHO IMAGINATION:
+⭐ NOVELTY HAS 3 BUILT-IN BRAKES — ALL EFFECTIVE FOR SENSORY,
+  WEAK FOR IMAGINATION:
 
 
-PHANH ① — HABITUATION (VTA quen)
+BRAKE ① — HABITUATION (VTA becomes accustomed)
 
-  Cơ chế:
-    → Cùng pattern fire nhiều lần → VTA habituate → delta → 0 → im lặng
-    → = Không còn "mới" → không còn signal
+  Mechanism:
+    → Same pattern fires repeatedly → VTA habituates → delta → 0 → silent
+    → = No longer "new" → no more signal
 
-  × Sensory-Driven: HIỆU QUẢ
-    → Con cua chạy 10 lần → quen → VTA im → dừng quan sát
-    → External input LẶP LẠI → delta giảm nhanh
+  × Sensory-Driven: EFFECTIVE
+    → Crab scuttles 10 times → familiar → VTA silent → stops watching
+    → External input REPEATING → delta drops quickly
 
-  × Imagination-Driven: YẾU
-    → Mỗi lần imagine → chunks tổ hợp KHÁC → pattern MỚI → VTA detect
-    → = TỰ TẠO delta mới liên tục → VTA KHÔNG habituate
-    → Chỉ habituate khi hết combinatorial space → rất lâu ở expert
-
-
-PHANH ② — BODY SATISFACTION (nhu cầu đáp ứng)
-
-  Cơ chế:
-    → Body-need fulfilled → satisfaction signal fire → DỪNG drive
-    → Hormones: leptin (no), insulin (glucose đủ), CCK (gut satiety)
-
-  × Sensory-Driven: HIỆU QUẢ
-    → Đồ ăn: ĂN → NO → satisfaction → dừng
-    → Du lịch: KHÁM PHÁ → mệt + "thoải mãn" → dừng
-    → = Body-need CÓ endpoint → satisfaction REACHABLE
-
-  × Imagination-Driven: YẾU
-    → "Hiểu hết vật lý" = KHÔNG BAO GIỜ đạt (domain vô tận)
-    → Mỗi gap filled → MỞ RA gaps mới
-    → = Body satisfaction cho Imagination Novelty = KHÓ ĐẠT
-    → = "Đỉnh núi này → thấy đỉnh núi tiếp" → chưa bao giờ "tới nơi"
+  × Imagination-Driven: WEAK
+    → Each time imagining → chunks combine DIFFERENTLY → NEW pattern → VTA detects
+    → = SELF-GENERATES new delta continuously → VTA DOES NOT habituate
+    → Only habituates when combinatorial space is exhausted → takes very long for experts
 
 
-PHANH ③ — INPUT DEPLETION (hết input)
+BRAKE ② — BODY SATISFACTION (need met)
 
-  Cơ chế:
-    → Environment CHỈ CÓ bấy nhiêu stimulus → hết → VTA im → dừng
+  Mechanism:
+    → Body-need fulfilled → satisfaction signal fires → STOPS the drive
+    → Hormones: leptin (fullness), insulin (glucose sufficient), CCK (gut satiety)
 
-  × Sensory-Driven: HIỆU QUẢ
-    → Con cua có ~10 behaviors → hết → delta = 0 → dừng
-    → Exception: environment CỰC phong phú → dài hơn nhưng vẫn CÓ GIỚI HẠN
+  × Sensory-Driven: EFFECTIVE
+    → Food: EAT → full → satisfaction → stop
+    → Travel: EXPLORE → tired + "satisfied" → stop
+    → = Body-need HAS an endpoint → satisfaction is REACHABLE
 
-  × Imagination-Driven: KHÔNG HIỆU QUẢ
-    → Input = internal chunks → combinatorial space → gần vô tận ở expert
-    → KHÔNG hết input → phanh KHÔNG hoạt động
+  × Imagination-Driven: WEAK
+    → "Fully understanding physics" = NEVER achieved (domain is infinite)
+    → Every gap filled → OPENS new gaps
+    → = Body satisfaction for Imagination-Driven Novelty = HARD TO ACHIEVE
+    → = "This summit → reveals the next" → never "arrived"
 
 
-TÓM TẮT:
+BRAKE ③ — INPUT DEPLETION (stimulus runs out)
+
+  Mechanism:
+    → Environment only HAS so much stimulus → exhausted → VTA silent → stops
+
+  × Sensory-Driven: EFFECTIVE
+    → The crab has ~10 behaviors → exhausted → delta = 0 → stops
+    → Exception: a very rich environment → takes longer but STILL HAS A LIMIT
+
+  × Imagination-Driven: INEFFECTIVE
+    → Input = internal chunks → combinatorial space → near-infinite for experts
+    → Input NEVER runs out → brake DOES NOT ENGAGE
+
+
+SUMMARY:
 
   ┌────────────────────┬─────────────────────┬─────────────────────┐
-  │ Phanh              │ × Sensory-Driven    │ × Imagination-Driven│
+  │ Brake              │ × Sensory-Driven    │ × Imagination-Driven│
   ├────────────────────┼─────────────────────┼─────────────────────┤
-  │ ① Habituation      │ ĐỦ MẠNH            │ YẾU (tự tạo delta)  │
-  │ ② Satisfaction     │ ĐỦ MẠNH            │ YẾU (domain vô tận) │
-  │ ③ Input Depletion  │ ĐỦ MẠNH            │ KHÔNG (internal)     │
+  │ ① Habituation      │ SUFFICIENT          │ WEAK (self-generates│
+  │                    │                     │ new delta)          │
+  │ ② Satisfaction     │ SUFFICIENT          │ WEAK (infinite      │
+  │                    │                     │ domain)             │
+  │ ③ Input Depletion  │ SUFFICIENT          │ NONE (internal)     │
   ├────────────────────┼─────────────────────┼─────────────────────┤
-  │ Kết luận           │ TỰ DỪNG ✓          │ KHÓ DỪNG → §4 Loop  │
+  │ Conclusion         │ SELF-STOPPING ✓     │ HARD TO STOP → §4   │
   └────────────────────┴─────────────────────┴─────────────────────┘
 
-  Phanh CÒN hoạt động cho Imagination:
-    → Body-base survival: đói, khát, buồn ngủ → BẮT BUỘC dừng
-    → Cortisol tích lũy: kiệt sức → BẮT BUỘC dừng (Cortisol-Baseline.md v2.0)
-    → External interrupt: ai đó gọi, deadline, trách nhiệm
-    → = Phanh TỪ BÊN NGOÀI, không phải internal mechanism
+  Brakes that STILL WORK for Imagination-Driven Novelty:
+    → Body-base survival: hunger, thirst, sleep → FORCES a stop
+    → Accumulated cortisol: exhaustion → FORCES a stop (Cortisol-Baseline.md v2.0)
+    → External interruption: someone calls, deadline, responsibility
+    → = Brakes from OUTSIDE, not internal mechanisms
 
-  → = Imagination Novelty có rất ÍT phanh tự nhiên
-  → = Khi không tự dừng + gây hại → = NOVELTY LOOP (§4)
+  → = Imagination-Driven Novelty has very FEW natural internal brakes
+  → = When it won't self-stop + causes harm → = NOVELTY LOOP (§4)
 
   🟢 Habituation = neuroscience verified
   🟢 Satiety hormones (leptin, CCK, insulin) = well-established
-  🟡 3 phanh framework + sensory/imagination asymmetry = framework synthesis
+  🟡 3-brake framework + sensory/imagination asymmetry = framework synthesis
 ```
 
 ---
 
-## §4 — NOVELTY LOOP: KHI KHÔNG TỰ DỪNG
+## §4 — NOVELTY LOOP: WHEN IT WON'T STOP
 
 ```
-⭐ NOVELTY LOOP = IMAGINATION-DRIVEN NOVELTY KHI 3 PHANH THẤT BẠI
+⭐ NOVELTY LOOP = IMAGINATION-DRIVEN NOVELTY WHEN ALL 3 BRAKES FAIL
 
-  DEFINE:
-    Novelty Loop = vòng lặp KHÔNG CHỦ ĐỘNG:
-    Chunk-Gap (chưa xong) → cortisol (change-readiness) → imagine (tìm giải pháp)
-    → chưa ra → gap VẪN CÒN → cortisol VẪN CÒN → imagine TIẾP → ...
+  DEFINITION:
+    Novelty Loop = a loop that is NOT voluntary:
+    Chunk-Gap (unresolved) → cortisol (change-readiness) → imagine (search for solution)
+    → no answer yet → gap STILL PRESENT → cortisol STILL PRESENT → imagine MORE → ...
 
-  ĐẶC ĐIỂM:
-    → KHÔNG chọn vào → VÔ TÌNH bị cuốn
-    → KHÔNG dễ dừng → dừng imagine ≠ dừng gap → cortisol VẪN CÒN
-    → VỪA khó chịu VỪA hứng thú
-    → CÓ GIÁ TRỊ (mỗi vòng gần domain reality hơn — nếu chunks đủ)
-    → CÓ HẠI NẾU kéo dài + thiếu repair
+  CHARACTERISTICS:
+    → NOT chosen → pulled in involuntarily
+    → NOT easy to stop → stopping the imagining ≠ stopping the gap →
+        cortisol REMAINS
+    → BOTH uncomfortable AND engaging
+    → HAS VALUE (each cycle brings the domain closer to reality — if enough chunks)
+    → HARMFUL IF prolonged + repair neglected
 
-  = Tính năng MẠNH NHẤT + NGUY HIỂM NHẤT:
-    → Cho phép: E=mc², sáng tác nhạc, build framework
-    → Gây hại: Newton mental health, Tesla OCD, burnout, mất ngủ
+  = THE MOST POWERFUL + MOST DANGEROUS feature of Imagination-Driven Novelty:
+    → Enables: E=mc², musical composition, building frameworks
+    → Causes harm: Newton's mental health breakdown, Tesla's OCD, burnout, insomnia
 
 
-§4.1 — THREAT NỀN = SÀN GIỮ LOOP
+§4.1 — THREAT FLOOR = WHAT SUSTAINS THE LOOP
 
-  ⭐ INSIGHT CỐT LÕI:
-  Novelty KHÔNG CẦN threat để BẮT ĐẦU.
-  Nhưng CẦN threat để DUY TRÌ loop ĐỦ DÀI cho breakthrough.
+  ⭐ CORE INSIGHT:
+  Novelty does NOT need threat to START.
+  But it NEEDS threat to SUSTAIN the loop LONG ENOUGH for breakthrough.
 
-  Novelty loop có giai đoạn TENSION (reward tạm = 0):
+  Novelty loop has TENSION phases (when reward temporarily = 0):
 
     ████░░░░████░░████░░░░░░░░████████
-    ↑reward  ↑tension ↑reward ↑tension dài   ↑breakthrough
+    ↑reward ↑tension ↑reward  ↑long tension  ↑breakthrough
 
-  Trong giai đoạn tension:
-    KHÔNG CÓ threat nền:
-      Drive = novelty(0) - cost(effort) = ÂM → body: "bỏ đi" → DỪNG
-      = Phần lớn mọi người dừng ở đây
+  During a tension phase:
+    WITHOUT a threat floor:
+      Drive = novelty(0) - cost(effort) = NEGATIVE → body: "give up" → STOPS
+      = Most people stop here
 
-    CÓ threat nền:
-      Drive = novelty(0) + threat-push(dương) - cost(effort)
-      NẾU threat-push > cost → VẪN TIẾP dù không reward
-      → Tới khi novelty spike lại → drive DƯƠNG MẠNH → euphoria
-      → Euphoria CÀng MẠNH vì contrast effect (vừa thoát tension)
+    WITH a threat floor:
+      Drive = novelty(0) + threat-push(positive) - cost(effort)
+      IF threat-push > cost → CONTINUES even without reward
+      → Until novelty spikes again → drive STRONGLY POSITIVE → euphoria
+      → Euphoria is STRONGER due to contrast effect (just escaped tension)
 
-  → Threat = SÀN: giữ drive KHÔNG RƠI xuống ÂM
+  → Threat = FLOOR: keeps drive from falling BELOW ZERO
 
-  ⭐ TENSION CẢM NHẬN KHÁC TÙY MODALITY (Modality.md v1.0):
-    → Somatic-dominant: bồn chồn, ngồi không yên, "ngứa" bên trong
-    → Verbal-dominant: suy nghĩ lặp lại, "quay vòng", nặng đầu
-    → Visual-dominant: "hình ảnh giải pháp mờ mờ hiện lên"
-    → = CÙNG mechanism → KHÁC trải nghiệm chủ quan tùy modality
+  ⭐ TENSION EXPERIENCED DIFFERENTLY BY MODALITY (Modality.md v1.0):
+    → Somatic-dominant: restless, can't sit still, "itching" from inside
+    → Verbal-dominant: repetitive thoughts, "spinning," mental heaviness
+    → Visual-dominant: "blurry image of the solution keeps surfacing"
+    → = SAME mechanism → DIFFERENT subjective experience depending on modality
 
 
-§4.2 — 4 MỨC DEPTH
+§4.2 — 4 DEPTH LEVELS
 
-  MỨC 1 — PURE NOVELTY (không threat):
-    Trigger: sensory-driven (con cá, video hay)
-    Duration: PHÚT. Output: trải nghiệm thú vị.
-    → = "Ăn vặt Novelty" — vui nhưng không sâu
+  LEVEL 1 — PURE NOVELTY (no threat):
+    Trigger: sensory-driven (interesting fish, a good video)
+    Duration: MINUTES. Output: an enjoyable experience.
+    → = "Novelty snack" — fun but not deep
 
-  MỨC 2 — NOVELTY + MICRO-GAP NỘI TẠI:
-    Trigger: "chưa xong" = Chunk-Gap nhỏ tự nhiên
-    Duration: GIỜ. Output: hoàn thành task, học skill.
-    → = "Bữa chính Novelty" — có depth, dừng được khi mệt
+  LEVEL 2 — NOVELTY + MICRO-GAP:
+    Trigger: "not yet finished" = small natural Chunk-Gap
+    Duration: HOURS. Output: task completion, skill learning.
+    → = "Full Novelty meal" — has depth, can stop when tired
 
-  MỨC 3 — NOVELTY + THREAT NỀN EXTERNAL:
-    Trigger: chunks đủ + threat cuộc sống tạo cortisol nền
-    Duration: THÁNG → NĂM. Output: breakthrough, phát minh.
-    → Threat KHÔNG KIỂM SOÁT ĐƯỢC → risk burnout
-    → Ví dụ: Einstein (nghèo + academic pressure), Newton (plague isolation)
+  LEVEL 3 — NOVELTY + EXTERNAL THREAT FLOOR:
+    Trigger: enough chunks + life circumstances create a cortisol baseline
+    Duration: MONTHS → YEARS. Output: breakthroughs, discoveries.
+    → Threat is UNCONTROLLABLE → risk of burnout
+    → Examples: Einstein (poverty + academic pressure), Newton (plague isolation)
 
-  MỨC 4 — NOVELTY + THREAT TỰ TẠO (PFC-mediated, controllable):
-    Trigger: chunks đủ + TỰ TẠO threat (competition, mortality awareness)
-    Duration: NĂM → CẢ ĐỜI. Output: sustained innovation.
-    → Threat BẬT/TẮT ĐƯỢC (vì tự PFC tạo, PFC có thể dismiss)
-    → = TỐI ƯU NHẤT: threat vừa đủ + tắt khi cần repair
-    → Ví dụ: Jensen Huang ("cách phá sản 30 ngày" — dù NVIDIA lớn nhất)
+  LEVEL 4 — NOVELTY + SELF-CREATED THREAT (PFC-mediated, controllable):
+    Trigger: enough chunks + SELF-GENERATED threat (competition, mortality awareness)
+    Duration: YEARS → A LIFETIME. Output: sustained innovation.
+    → Threat can be TURNED ON/OFF (created by PFC → PFC can dismiss it)
+    → = MOST OPTIMAL: just enough threat + can turn it off when repair is needed
+    → Example: Jensen Huang ("30 days from bankruptcy" — even as NVIDIA became the
+        world's most valuable company)
 
-  Tại sao Mức 4 BẬT/TẮT được mà Mức 3 không:
-    → Mức 3: threat external (nghèo, deadline, áp lực gia đình) → PFC không dismiss được
-    → Mức 4: threat PFC tự tạo ("đối thủ đang tiến") → PFC có thể dismiss
-    → = Self-Created Threat = SKILL, không phải bẩm sinh
-    → Sequence: trải nghiệm threat thật → quan sát pattern → tự tạo có ý thức
-    → Chi tiết: Self-Created-Threat.md (4 loại, 3 giai đoạn, AI era, calibration)
+  Why Level 4 can be TOGGLED but Level 3 cannot:
+    → Level 3: threat is external (poverty, deadlines, family pressure) →
+        PFC cannot dismiss it
+    → Level 4: threat is PFC-generated ("competitor is advancing") →
+        PFC CAN dismiss it
+    → = Self-Created Threat = a SKILL, not something innate
+    → Sequence: experience real threat → observe the pattern → generate it consciously
+    → Detail: Self-Created-Threat.md (4 types, 3 phases, AI era, calibration)
 
 
 §4.3 — NOVELTY LOOP vs ANXIETY LOOP
 
-  Cùng loop — KHÁC output:
+  Same loop structure — DIFFERENT output:
 
     ┌─────────────────┬──────────────────────┬──────────────────────┐
-    │                 │ ANXIETY LOOP          │ NOVELTY LOOP         │
+    │                 │ ANXIETY LOOP         │ NOVELTY LOOP         │
     ├─────────────────┼──────────────────────┼──────────────────────┤
-    │ Trigger         │ Threat (sợ hậu quả)  │ Chunk-Gap (muốn fill)│
-    │ Output mỗi vòng│ SỢ HƠN (tệ hơn)     │ GẦN HƠN (tiến triển) │
-    │ Dopamine        │ THẤP                 │ CÓ (gần insight)     │
-    │ Body feel       │ Thuần khó chịu       │ Khó chịu + hứng thú │
-    │ Giá trị         │ KHÔNG (loop vô ích)  │ CÓ (dần tới kết quả) │
-    │ Dừng khi        │ Threat hết / crash   │ Gap filled / break    │
+    │ Trigger         │ Threat (fear of      │ Chunk-Gap (want to   │
+    │                 │ consequences)        │ fill)                │
+    │ Output per cycle│ MORE FEAR (worsens)  │ CLOSER (progresses)  │
+    │ Dopamine        │ LOW                  │ PRESENT (near insight│
+    │ Body feels      │ Purely uncomfortable │ Uncomfortable +      │
+    │                 │                      │ engaging             │
+    │ Value           │ NONE (futile loop)   │ YES (moves toward    │
+    │                 │                      │ result)              │
+    │ Stops when      │ Threat ends / crash  │ Gap filled / break   │
     └─────────────────┴──────────────────────┴──────────────────────┘
 
-  MIXED LOOP (phổ biến nhất):
-    → "Muốn fill gap" (Novelty) + "Sợ không fill được" (Threat) = CÙNG LÚC
-    → Tỉ lệ Novelty:Threat quyết định CHẤT LƯỢNG trải nghiệm:
-      80:20 → hào hứng + chút áp lực → flow territory
-      50:50 → vừa thích vừa stress → productive nhưng MỆT
-      20:80 → chủ yếu sợ, chút thích → burnout risk CAO
+  MIXED LOOP (most common):
+    → "Want to fill gap" (Novelty) + "Fear of failing to fill it" (Threat) = SIMULTANEOUSLY
+    → Novelty:Threat ratio determines QUALITY OF EXPERIENCE:
+      80:20 → excited + slight pressure → flow territory
+      50:50 → enjoy + stressed → productive but DRAINING
+      20:80 → mostly afraid, slight interest → high burnout risk
 
 
 §4.4 — SLEEP × LOOP
 
   PARADOX:
-    → Muốn fill gap → CẦN cortisol (change-readiness mode)
-    → Muốn repair não → CẦN cortisol THẤP (sleep)
-    → NẾU loop KHÔNG dừng buổi tối → cortisol VẪN CAO → sleep KÉM
+    → Want to fill the gap → NEEDS cortisol (change-readiness mode)
+    → Want to repair the brain → NEEDS LOW cortisol (sleep)
+    → IF loop DOESN'T STOP in the evening → cortisol REMAINS HIGH → POOR SLEEP
 
   VICIOUS CYCLE:
-    Ngày: imagine → chưa ra → cortisol duy trì
-    Tối: cortisol vẫn → nằm giường → đầu vẫn chạy → ngủ kém
-    Sáng: PFC chưa repair → imagine chậm hơn
-    → Chậm hơn → chưa ra → cortisol CÒN CAO hơn → ngủ TỆ hơn
-    → = SPIRAL DOWN: mỗi vòng tệ hơn vòng trước
+    Day: imagine → no answer → cortisol sustained
+    Evening: cortisol still high → lying in bed → mind still running → poor sleep
+    Morning: PFC not repaired → imagining is slower
+    → Slower → still no answer → cortisol EVEN HIGHER → sleep EVEN WORSE
+    → = DOWNWARD SPIRAL: each cycle is worse than the last
 
-  NHƯNG — REM = "THỜI GIAN VÀNG":
-    → Dù sleep quality kém → REM VẪN XẢY RA ở mức nào đó
-    → REM: PFC offline → vô thức brainstorm TỰ DO
-    → Kết nối "absurd" mà PFC sẽ filter → MỘT SỐ = ĐÚNG → compile blueprint
-    → = "Tối lộn xộn → sáng mượt"
-    → = "Ngủ = outsource imagine cho vô thức" — PFC nghỉ, vô thức LÀM
+  BUT — REM = "GOLDEN TIME":
+    → Even with poor sleep quality → REM STILL OCCURS to some degree
+    → REM: PFC offline → unconscious brainstorms FREELY
+    → "Absurd" connections that PFC would filter → SOME = CORRECT →
+        compile blueprint
+    → = "Chaotic night → smooth morning"
+    → = "Sleep = outsourcing imagination to the unconscious" —
+        PFC rests, unconscious WORKS
 
-  🟢 Walker 2017: sleep deprivation → PFC performance GIẢM 30-40%
-  🟢 Wagner et al. 2004: sleep → insight task → GẤP ĐÔI xác suất
+  🟢 Walker 2017: sleep deprivation → PFC performance DROPS 30-40%
+  🟢 Wagner et al. 2004: sleep → insight tasks → DOUBLES probability
   🟢 Stickgold 2005: sleep → insight +33%
   🟡 Loop dynamics = framework synthesis, consistent with observation
 ```
@@ -752,64 +757,64 @@ TÓM TẮT:
 ## §5 — DRD4: DEPTH vs BREADTH
 
 ```
-⭐ DRD4 THRESHOLD TẠO SPECTRUM NOVELTY — KHÔNG PHẢI "TỐT HƠN / KÉM HƠN"
+⭐ DRD4 THRESHOLD CREATES A NOVELTY SPECTRUM — NOT "BETTER / WORSE"
 
-  DRD4 threshold (§1.2) = filter ở VTA→PFC level
-  → Repeat dài (7R+) = threshold CAO → ÍT signal tới PFC
-  → Repeat ngắn (4R) = threshold THẤP → NHIỀU signal tới PFC
+  DRD4 threshold (§1.2) = filter at the VTA→PFC level
+  → Long repeat (7R+) = HIGH threshold → FEWER signals reach PFC
+  → Short repeat (4R) = LOW threshold → MORE signals reach PFC
 
 
 7R × NOVELTY:
 
   Sensory-Driven:
-    → VTA chỉ báo biến động LỚN → ÍT bị trigger
-    → ÍT Novelty events per giờ
-    → NHƯNG mỗi event = delta LỚN → ghi nhớ SÂU
+    → VTA only reports LARGE fluctuations → RARELY triggered
+    → FEW Novelty events per hour
+    → BUT each event = LARGE delta → DEEP encoding
 
   Imagination-Driven:
-    → PFC ÍT bị interrupt → deep focus TỐT
+    → PFC is RARELY interrupted → deep focus IS GOOD
     → Imagine-reward-refine loop: SUSTAINED, DEEP
-    → = 7R THIÊN VỀ IMAGINATION NOVELTY
+    → = 7R BIASED TOWARD IMAGINATION-DRIVEN NOVELTY
 
-  Hệ quả: "Biết ÍT nhưng biết SÂU" (per thời điểm)
-  Nguy cơ: drift xa domain (ít external check)
-  Cần: external feedback loop
+  Implication: "Know LESS but know DEEPLY" (at any given moment)
+  Risk: drift far from domain (less external checking)
+  Needs: external feedback loop
 
 
 4R × NOVELTY:
 
   Sensory-Driven:
-    → VTA báo MỌI biến động → LIÊN TỤC bị trigger
-    → NHIỀU events per giờ, mỗi event = delta NHỎ
-    → "Biết NHIỀU thứ ở MỖI NƠI"
+    → VTA reports ALL fluctuations → CONTINUOUSLY triggered
+    → MANY events per hour, each with a SMALL delta
+    → "Know MANY things across MANY places"
 
   Imagination-Driven:
-    → PFC LIÊN TỤC bị interrupt → khó sustain 1 workspace lâu
-    → CÓ THỂ imagine deep → nhưng CẦN environment TĨNH
+    → PFC is CONTINUOUSLY interrupted → hard to sustain one workspace for long
+    → CAN imagine deeply → but REQUIRES a QUIET environment
 
-  Hệ quả: "Biết NHIỀU nhưng chưa chắc SÂU" (per thời điểm)
-  Nguy cơ: scatter — nhiều events nhưng không build depth
-  Cần: structured environment + deliberate focus
+  Implication: "Know BROADLY but not necessarily DEEPLY" (at any given moment)
+  Risk: scatter — many events but no depth built
+  Needs: structured environment + deliberate focus
 
 
-SO SÁNH:
+COMPARISON:
 
     ┌──────────────────────┬────────────────────┬────────────────────┐
-    │                      │ 7R (threshold CAO) │ 4R (threshold THẤP)│
+    │                      │ 7R (HIGH threshold)│ 4R (LOW threshold) │
     ├──────────────────────┼────────────────────┼────────────────────┤
-    │ Sensory Novelty      │ ÍT events          │ NHIỀU events       │
-    │ Per event            │ Delta LỚN          │ Delta NHỎ          │
+    │ Sensory Novelty      │ FEW events         │ MANY events        │
+    │ Per event            │ LARGE delta        │ SMALL delta        │
     │ Imagination Novelty  │ DEEP, sustained    │ BROAD, interrupted │
     │ Focus style          │ Deep dive          │ Context switching  │
-    │ Dạng Novelty chính  │ Imagination        │ Sensory            │
-    │ Environment need     │ Ít cần stimulation │ Cần giảm noise     │
+    │ Primary novelty type │ Imagination        │ Sensory            │
+    │ Environment need     │ Less stimulation   │ Reduce noise       │
     └──────────────────────┴────────────────────┴────────────────────┘
 
-  SPECTRUM, KHÔNG CHỈ 2 CỰC:
-    → 2R, 3R, 4R, 5R, 6R, 7R, 8R,... = phổ LIÊN TỤC
-    → DRD4 là 1 TRONG NHIỀU factors (COMT, MAO-A, baseline cortisol,...)
-    → Framework dùng 7R/4R như archetype để giải thích
-    → Thực tế: mỗi người ở VỊ TRÍ KHÁC trên spectrum
+  SPECTRUM, NOT JUST 2 POLES:
+    → 2R, 3R, 4R, 5R, 6R, 7R, 8R,... = a CONTINUOUS spectrum
+    → DRD4 is 1 OF MANY factors (COMT, MAO-A, baseline cortisol,...)
+    → Framework uses 7R/4R as archetypes to explain the principle
+    → Reality: each person sits at a DIFFERENT POSITION on the spectrum
 
   🟢 DRD4 repeat variants (2R-11R) = neuroscience verified
   🟢 COMT, MAO-A interaction effects = pharmacogenomics
@@ -818,69 +823,72 @@ SO SÁNH:
 
 ---
 
-## §6 — KHI CÓ LỢI vs KHI CÓ HẠI
+## §6 — BENEFICIAL vs HARMFUL
 
 ```
-⭐ NOVELTY = TRUNG TÍNH — mechanism, không phải virtue hay vice
+⭐ NOVELTY = NEUTRAL — a mechanism, not a virtue or a vice
 
 
-KHI NOVELTY CÓ LỢI:
+WHEN NOVELTY IS BENEFICIAL:
 
   ① Explore → Learn → Adapt
-    → Novelty drive khám phá environment → tích lũy chunks
-    → Chunks = map thế giới → predict tốt hơn → adapt tốt hơn
-    → = Chức năng evolution-driven
+    → Novelty drive explores the environment → accumulates chunks
+    → Chunks = a map of the world → better predictions → better adaptation
+    → = Evolution-driven function
 
   ② Chunk-Gap fill → Understanding
-    → Gap detect → imagine → resolve → body-feedback reward
-    → = HỌC HỎI SÂU — không chỉ biết, mà HIỂU
-    → = Tại sao "tại sao?" là biểu hiện của Chunk-Gap drive
+    → Gap detected → imagine → resolve → body-feedback reward
+    → = DEEP LEARNING — not just knowing, but UNDERSTANDING
+    → = Why "why?" is the behavioral expression of Chunk-Gap drive
 
   ③ Creative output
-    → Cross-domain chunk recombination → patterns mới
-    → = Novelty Imagination ở mức cao → output có giá trị
+    → Cross-domain chunk recombination → new patterns
+    → = High-level Imagination Novelty → output of value
 
   ④ Flow state
-    → Delta vừa đủ + chunks match + challenge phù hợp
-    → = Conditions cho flow (Csikszentmihalyi)
+    → Delta just sufficient + chunks match + challenge appropriate
+    → = Conditions for flow (Csikszentmihalyi)
 
-  ⇒ ĐIỀU KIỆN: đủ chunks + domain check + repair
-
-
-KHI NOVELTY CÓ HẠI:
-
-  ① SCATTER — Sensory Novelty + threshold thấp + không focus
-    → Nhiều delta nhỏ → KHÔNG deep → chunks rời rạc
-    → "Biết nhiều, giỏi ít"
-
-  ② BURNOUT — Imagination Novelty + không repair
-    → Loop liên tục → cortisol tích lũy → kiệt sức
-    → NHƯNG drive VẪN CÒN (gap chưa fill) → frustrated
-
-  ③ DRIFT — Imagination Novelty + không domain check
-    → Imagine sâu NHƯNG không verify với domain reality
-    → "Đúng trong đầu, sai ngoài đời"
-    → Body-feedback reward fire (pattern fit internally) nhưng domain mismatch
-
-  ④ EXPLOIT — Sensory Novelty bị hệ thống lợi dụng
-    → MXH scroll, gambling, clickbait
-    → = Environment THIẾT KẾ để exploit mechanism
-    → Delta > 0 liên tục nhưng KHÔNG depth → giờ → năm mất cho delta nông
-
-  ⇒ CƠ CHẾ giống — CONDITIONS quyết định output
+  ⇒ CONDITIONS: enough chunks + domain checking + repair
 
 
-TÓM TẮT:
+WHEN NOVELTY IS HARMFUL:
+
+  ① SCATTER — Sensory Novelty + low threshold + no focus
+    → Many small deltas → NO depth → chunks remain disconnected
+    → "Know much, skilled at little"
+
+  ② BURNOUT — Imagination Novelty + no repair
+    → Loop continues → cortisol accumulates → exhaustion
+    → BUT drive REMAINS (gap still unfilled) → frustration
+
+  ③ DRIFT — Imagination Novelty + no domain checking
+    → Imagining deeply BUT not verifying against domain reality
+    → "Correct internally, wrong externally"
+    → Body-feedback reward fires (pattern fits internally) but domain mismatch
+
+  ④ EXPLOIT — Sensory Novelty exploited by systems
+    → Social media scrolling, gambling, clickbait
+    → = Environment DESIGNED to exploit the mechanism
+    → Delta > 0 continuously but NO DEPTH → hours → years lost to shallow delta
+
+  ⇒ SAME MECHANISM — CONDITIONS determine the output
+
+
+SUMMARY:
 
   ┌──────────────────────────────────────────────────────────┐
   │                                                          │
-  │  NOVELTY + đủ chunks + domain check + repair = TỐT      │
+  │  NOVELTY + enough chunks + domain checking + repair      │
+  │  = BENEFICIAL                                            │
   │  = Learn, create, flow, adapt                            │
   │                                                          │
-  │  NOVELTY + ít chunks + không check + không repair = HẠI  │
+  │  NOVELTY + few chunks + no checking + no repair          │
+  │  = HARMFUL                                               │
   │  = Scatter, burnout, drift, exploit                      │
   │                                                          │
-  │  → Cùng mechanism → khác conditions → khác output        │
+  │  → Same mechanism → different conditions → different     │
+  │    outcome                                               │
   │                                                          │
   └──────────────────────────────────────────────────────────┘
 
@@ -895,7 +903,7 @@ TÓM TẮT:
 ## §7 — HONEST ASSESSMENT
 
 ```
-  TOÀN FILE — ĐÁNH GIÁ TRUNG THỰC:
+  FULL FILE — HONEST EVALUATION:
 
   🟢 VERIFIED (neuroscience / established research):
     ┌────────────────────────────────────────────────────────────┐
@@ -904,7 +912,7 @@ TÓM TẮT:
     │ Prediction delta mechanism (Schultz 1997)                  │
     │ DRD4 receptor variants (2R-11R repeat polymorphism)        │
     │ Habituation mechanism (neural adaptation)                  │
-    │ Chunk compilation + hierarchy (Chase & Simon 1973)          │
+    │ Chunk compilation + hierarchy (Chase & Simon 1973)         │
     │ Satiety hormones (leptin, CCK, insulin)                    │
     │ Opioid/endorphin reward system                             │
     │ COMT, MAO-A gene interactions (pharmacogenomics)           │
@@ -919,23 +927,25 @@ TÓM TẮT:
   🟡 FRAMEWORK SYNTHESIS (consistent logic, derived from 🟢):
     ┌────────────────────────────────────────────────────────────┐
     │ Novelty = observation parameter (not component)            │
-    │ 2 dạng mapping vào 2 nguồn Body-Feedback (Sensory/Pattern)│
-    │ 3 phanh + sensory/imagination asymmetry                    │
+    │ 2-type mapping onto 2 Body-Feedback sources                │
+    │   (Sensory-Driven/Pattern-Driven)                          │
+    │ 3 brakes + sensory/imagination asymmetry                   │
     │ Combinatorial space → imagination duration                 │
-    │ MXH exploit = hack 2/3 phanh                              │
+    │ Social media exploit = hacks 2 of 3 brakes                 │
     │ Imagine-reward-refine loop mechanism                       │
     │ DRD4 threshold → depth/breadth types                       │
-    │ Chunk-Gap = foundation cho Novelty                         │
-    │ Threat nền = sàn giữ loop                                  │
-    │ Self-Created Threat = learnable skill                       │
+    │ Chunk-Gap = foundation for Novelty                         │
+    │ Threat floor = what sustains the loop                      │
+    │ Self-Created Threat = learnable skill                      │
     │ Novelty Loop vs Anxiety Loop                               │
-    │ Tension per modality                                        │
-    │ 4 mức depth (pure → self-created threat)                   │
-    │ 4 hại categories (scatter/burnout/drift/exploit)           │
-    │ "Tò mò" = mechanism output (not fixed trait)               │
-    │ Compilable Architecture → novelty = detect uncompiled input (v1.1)  │
+    │ Tension experienced differently per modality               │
+    │ 4 depth levels (pure → self-created threat)                │
+    │ 4 harmful categories (scatter/burnout/drift/exploit)       │
+    │ "Curiosity" = mechanism output (not fixed trait)           │
+    │ Compilable Architecture → novelty = detect uncompiled      │
+    │   input (v1.1)                                             │
     │ Novelty = by definition fresh processing (v1.1)            │
-    │ 2-tầng calibration: "mới" = per-individual (v1.1)          │
+    │ 2-tier calibration: "novel" = per-individual (v1.1)        │
     └────────────────────────────────────────────────────────────┘
 
   🔴 HYPOTHESIS (logical but unverified):
@@ -953,41 +963,30 @@ TÓM TẮT:
 ## §8 — CROSS-REFERENCES
 
 ```
-  ← FOUNDATION (đọc trước hoặc cùng):
-    Core-v7.8-Draft.md §8 — Novelty = observation parameter definition
+  ← FOUNDATION (read first or in parallel):
+    Core-Software.md §8 — Novelty = observation parameter definition
     Body-Feedback-Mechanism.md v2.0 §3.3 — Chunk-Gap = Novelty foundation
-    Body-Feedback-Mechanism.md v2.0 §2 — 2 nguồn (Sensory/Pattern-Driven)
+    Body-Feedback-Mechanism.md v2.0 §2 — 2 sources (Sensory/Pattern-Driven)
     Chunk.md v2.3 — chunk substrate, compilation, hierarchy
     Cortisol-Baseline.md v2.0 — cortisol = amplifier, sustained dynamics
     Valence-Propagation.md v3.0 — body evaluation, 3 firing modes
     Reward-Signal-Architecture.md v1.0 — prediction-delta refined
-    Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture (novelty = detect uncompiled)
+    Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture (novelty = detect
+      uncompiled)
     Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh (novelty = fresh by definition)
     Simulation-Engine.md v1.0 — novelty = prediction mismatch in simulation
     Gap-Body-Need.md v1.0 — novelty satiation dynamics (3 types)
     Gap-Distribution-Profile.md v1.1 — PFC budget limits novelty seeking
 
-  ↔ SONG SONG (cùng Observation/ folder):
-    Observation/Threat.md v1.2 — PUSH away from harm (parallel với Novelty PULL)
+  ↔ PARALLEL (same Observation/ folder):
+    Observation/Threat.md v1.2 — PUSHES away from harm (parallel with Novelty PULL)
     Observation/Drive.md v1.2 — HOW Novelty + Threat + other patterns → action
     Observation/Empathy.md v4.0 — Self-Pattern-Modeling function on chunks
-    Observation/Liking-Wanting.md — Wanting overlap với Novelty (dopamine)
-
-  → DOWNSTREAM (đọc sau):
-    Modality.md v1.0 §3 — chunk depth = modality count
-    Schema.md v2.0 — schema = observation parameter for chunk patterns
-    Feeling.md v3.0 — PFC observation interface (Novelty → feeling "thú vị")
-    Somatic-Articulation-Loop.md — Chunk-Gap felt sense → articulation
-    Body-Feedback-Label.md v2.0 — vocabulary reference
-
-  → ỨNG DỤNG:
-    AI-Schema-Detection.md — AI detect Novelty patterns
-    Domain-Mapping-Drive.md — Novelty trong education context
-
-  STATUS:
-    v1.0 — 2026-04-20 — viết mới cho v7.8 cycle-based architecture
-    v1.1 — 2026-05-17 — +Compilable Architecture, +Compiled/Fresh, +2-tầng, version sync
-    v1.2 — 2026-05-23 — Concept Cascade: +Simulation-Engine, +Satiation types, +PFC Budget, version updates
-    Gộp từ: Novelty.md v1.0-old + Novelty-Loop.md (backup: _backup/Drive-v75-era/)
-    Aligned: Core v7.8, Inter-Body-Mechanism v1.0, prediction-delta terminology
+    Observation/Liking-Wanting.md — Wanting overlaps with Novelty (dopamine)
 ```
+
+---
+
+*English translation of Novelty.md (Vietnamese source, v1.2)*
+*Translation target: English-speaking audience — rewritten for clarity and natural English expression.*
+*All framework vocabulary preserved exactly as defined in the Human Predictive Drive Framework.*

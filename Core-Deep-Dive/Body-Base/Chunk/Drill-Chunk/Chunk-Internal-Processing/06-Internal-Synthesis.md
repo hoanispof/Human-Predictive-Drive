@@ -4,30 +4,30 @@ created: 2026-04-17 (N+8 session)
 status: COMPLETE v1.0
 scope: F4 — Formal hypothesis verdicts + output contracts for 99-Master-Synthesis
 purpose: |
-  Commitment file cho F4 Chunk-Internal-Processing.
+  Commitment file for F4 Chunk-Internal-Processing.
   Aggregate all hypothesis verdicts (H2, H5, H6, H12).
   Document F4 framework contributions.
   Define output contracts for 99-Master-Synthesis.
   Bridge to Feeling Deep Dive.
 parent: ../plan.md §3.3
 session: N+8 (2026-04-17)
-language: Tiếng Việt primary + English technical
+language: English
 ---
 
 # 06 — F4 Internal-Synthesis
 
-> **File này = commitment file** cho F4 Chunk-Internal-Processing.
-> Không drill phân tích mới. Tổng hợp từ 7 files đã drill (00-05 + 01b).
+> **This file = commitment file** for F4 Chunk-Internal-Processing.
+> No new drill analysis. Synthesized from 7 drilled files (00-05 + 01b).
 
 ```
 Drill Label → Framework Name Mapping (added 2026-05-30)
 
-  Labels trong file này = drill provenance markers.
-  Framework active files dùng TÊN CỐ ĐỊNH bên dưới.
-  Bảng đầy đủ: xem 99-Master-Synthesis.md §2.6.
+  Labels in this file = drill provenance markers.
+  Framework active files use FIXED NAMES below.
+  Full table: see 99-Master-Synthesis.md §2.6.
 
   ┌────────┬────────────────────────────────────┐
-  │ Drill  │ Framework Name (cố định)           │
+  │ Drill  │ Framework Name (fixed)             │
   ├────────┼────────────────────────────────────┤
   │ H2     │ Static-Logical-Linking             │
   │ H5     │ Multi-Weak-Signal-Convergence      │
@@ -142,7 +142,7 @@ Drill Label → Framework Name Mapping (added 2026-05-30)
     → Anchor = retrieval path, NOT chunk content (critical distinction)
     → 5 anchor types with comparison table
     → Retrieval decay vs substrate decay distinction
-    → "Quên" vs "mất" vs "chưa bao giờ" 3-way distinction
+    → "Forgotten" vs "Lost" vs "Never Compiled" 3-way distinction
     → Multi-anchor ranking system
     → Meaning crisis = anchor crisis reframe (Vervaeke)
 ```
@@ -291,7 +291,7 @@ FROM F4 (this folder):
      → Anchor = retrieval path (not content)
      → 5 anchor types + ranking
      → Retrieval decay vs substrate decay
-     → "Quên" vs "mất" vs "chưa bao giờ"
+     → "Forgotten" vs "Lost" vs "Never Compiled"
      → Meaning crisis = anchor crisis
 
   ⑤ VAGUE DETECTION (04):
@@ -324,7 +324,7 @@ FROM F4 (this folder):
 
 ```
 FROM F1 (COMPLETE):
-  → 7 Nút Thắt committed
+  → 7 Convergence Points committed
   → 4 compile mechanisms + 5-parameter rate formula
   → Proto-chunk gradient (NT1)
   → Verbal-as-handle (NT6)
@@ -346,7 +346,7 @@ FROM ALREADY-DRILLED:
   → Body-Feedback-Draft/: Body-Feedback-Precondition model
 
 FROM N+5 OUTPUTS:
-  → Logic-Planning.md: logic đóng gói, AI-assisted
+  → Logic-Planning.md: packaged logic, AI-assisted
   → Neural-Processing-Flow.md: hardware foundation
   → Language-Structure-Analysis/: 5 reference files
 ```
@@ -502,4 +502,4 @@ TOTAL: 33 falsifiable predictions across F4
 > Core mechanism (01b) = most important F4 contribution.
 > Ready for 99-Master-Synthesis → Chunk.md v2.0 → Feeling Deep.
 >
-> Phiên bản: v1.0, 2026-04-17.
+> Version: v1.0, 2026-04-17.

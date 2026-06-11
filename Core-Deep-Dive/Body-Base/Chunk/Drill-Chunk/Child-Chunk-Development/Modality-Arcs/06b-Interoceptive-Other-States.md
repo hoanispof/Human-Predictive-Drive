@@ -2,21 +2,21 @@
 title: Interoceptive Other States — Hunger + Pain + Thermal + Emotional Arc
 created: 2026-04-16 (Session N+4c1, Phase F1-P11)
 status: DRAFT N+4c1 P11 — ready for user review
-scope: Apply 06a methodology (L0→L4 PFC-Inference Ladder + event-inference + chunks compile mechanism) to the 4 interoceptive body states other than bladder. Parallel structure to 06a but shorter — 06a established the analytical machinery, 06b uses it. Cross-body-state comparison strengthens Nút Thắt 2 (Precondition-2 mechanism varies non-uniformly across states) and Nút Thắt 7 (cortisol tagging mechanism visible in each state with state-specific critical periods).
+scope: Apply 06a methodology (L0→L4 PFC-Inference Ladder + event-inference + chunks compile mechanism) to the 4 interoceptive body states other than bladder. Parallel structure to 06a but shorter — 06a established the analytical machinery, 06b uses it. Cross-body-state comparison strengthens Convergence Point 2 (Precondition-2 mechanism varies non-uniformly across states) and Convergence Point 7 (cortisol tagging mechanism visible in each state with state-specific critical periods).
 parent: plan.md §3.2 (file 06b outline)
 depends_on: [01-PFC-Hardware-Reframe.md, 02-Womb-to-Birth-Baseline.md, 06a-Interoceptive-Bladder-Keystone.md]
-language: Tiếng Việt primary + English technical terms
+language: English (translated from Vietnamese source)
 addresses:
-  - Nút Thắt 2 (Precondition-2 Chunk-Substrate — cross-body-state variance in compile rates)
-  - Nút Thắt 5 (H11 Receptive-Productive — parallel gaps across 4 body states)
-  - Nút Thắt 7 (Cortisol tagging critical period — state-specific critical periods)
-  - Nút Thắt 4 (PFC hardware × chunks missing — additional L2 markers per state)
+  - Convergence Point 2 (Precondition-2 Chunk-Substrate — cross-body-state variance in compile rates)
+  - Convergence Point 5 (H11 Receptive-Productive — parallel gaps across 4 body states)
+  - Convergence Point 7 (Cortisol tagging critical period — state-specific critical periods)
+  - Convergence Point 4 (PFC hardware × chunks missing — additional L2 markers per state)
 sub_folder: F1 Child-Chunk-Development
 ---
 
 # 06b — Interoceptive Other States
 
-> **File 06b of F1 Child-Chunk-Development sub-folder.** Second of two interoceptive arc files. 06a drilled bladder as the F1 anchor case with full methodology, framework contributions (R-F1-2 đơ mặt), and 4 Nút Thắt primary content. 06b applies the same methodology to **hunger, pain, thermal, and emotional** interoceptive states. The purpose is cross-body-state comparison — same mechanism, different rates, different cortisol tagging patterns, different critical period implications.
+> **File 06b of F1 Child-Chunk-Development sub-folder.** Second of two interoceptive arc files. 06a drilled bladder as the F1 anchor case with full methodology, framework contributions (R-F1-2 face-freeze), and 4 Convergence Points primary content. 06b applies the same methodology to **hunger, pain, thermal, and emotional** interoceptive states. The purpose is cross-body-state comparison — same mechanism, different rates, different cortisol tagging patterns, different critical period implications.
 >
 > **Shorter than 06a** because methodology is established in 06a. 06b focuses on (a) state-specific events with Ladder classification, (b) state-specific compile rate analysis, (c) state-specific cortisol tagging dynamics, (d) cross-state synthesis revealing that bladder is **not uniquely slow** — all interoceptive states lag visual/auditory for consistent mechanism reasons.
 
@@ -24,13 +24,13 @@ sub_folder: F1 Child-Chunk-Development
 
 ## §0 — Abstract
 
-🟢 **Claim**: The four other interoceptive body states (hunger, pain, thermal, emotional) each traverse variants of the L0→L4 PFC-Inference Ladder at state-specific rates, with **non-uniform progression** across states but a **shared underlying mechanism** (4-channel compile per 06a §6.3). The non-uniformity is explained by variation in exposure × saliency × caregiver contingency × peak valence parameters per state, not by different architectures.
+🟢 **Claim**: The four other interoceptive body states (hunger, pain, thermal, emotional) each traverse variants of the L0→L4 PFC-Inference Ladder at state-specific rates, with **non-uniform progression** across states but a **shared underlying mechanism** (4-channel compile per [06a §6.3](06a-Interoceptive-Bladder-Keystone.md#§6.3)). The non-uniformity is explained by variation in exposure × saliency × caregiver contingency × peak valence parameters per state, not by different architectures.
 
 🟡 **Framework contribution**: Cross-body-state synthesis reveals that (a) bladder is **not uniquely slow** — all interoceptive states lag visual/auditory consistently, (b) each state has its own **critical period for cortisol tagging** with state-specific empirical anchors (pain-trauma, feeding-eating disorders, thermal-SIDS edge case, emotional-attachment dynamics), (c) **thermal arc is truncated** — rarely reaches L4 within F1 window, which is itself diagnostic of compile mechanism limits (low exposure × low salience × caregiver-managed rather than baby-managed), (d) emotional L4 largely falls **outside F1 window** (2-3yr+) — meta-emotional verbalization requires chunks that compile after the F1 time boundary.
 
-🟡 **Nút Thắt contributions**:
+🟡 **Convergence Points contributions**:
 
-| Nút Thắt | 06b contribution |
+| Convergence Point | 06b contribution |
 |---|---|
 | 2 (Precondition-2 mechanism) | Cross-state variance table (§6.1) strengthens 06a §6.3 mechanism claim by showing parameters produce predictable rate differences |
 | 5 (H11) | Parallel receptive-productive gaps visible in each state (hunger ~13mo, pain ~15-18mo, thermal unknown, emotional 12+ mo) |
@@ -41,16 +41,18 @@ sub_folder: F1 Child-Chunk-Development
 
 | State | Events | Ladder span | Verbal label age |
 |---|---|---|---|
-| Hunger | E1 newborn cry → E11 differentiated cry → pre-emptive feeding response → E21 "đói" 18mo | L0/L1 → L2 → L3 → L4 | ~18mo |
-| Pain | E2 newborn acute → E11 differentiated → vaccination pre-cry → E22 "đau chân" 20mo | L0/L1 → L2 → L4 | ~20mo |
+| Hunger | E1 newborn cry → E11 differentiated cry → pre-emptive feeding response → E21 "hungry" 18mo | L0/L1 → L2 → L3 → L4 | ~18mo |
+| Pain | E2 newborn acute → E11 differentiated → vaccination pre-cry → E22 "leg hurts" 20mo | L0/L1 → L2 → L4 | ~20mo |
 | Thermal | E4 newborn cry → wriggling adjustment → rarely L4 | L0/L1 → L3 | Rarely by 24mo |
 | Emotional | E5 quiet alert → E12 social smile → E26 egocentric empathy 18mo | L0 → L2 → L4 partial | Mostly post-F1 |
 
 **Key quote preserved from Feel-Example E21** (verbatim, the framework-critical claim on labeling):
 
-> "Rất quan trọng cho framework: ngôn ngữ KHÔNG TẠO RA chunks (chunks đã có từ Stage 0 newborn). Nhưng ngôn ngữ TẠO RA HANDLES cho chunks."
+> *Vietnamese original:* "Rất quan trọng cho framework: ngôn ngữ KHÔNG TẠO RA chunks (chunks đã có từ Stage 0 newborn). Nhưng ngôn ngữ TẠO RA HANDLES cho chunks. Một khi có handle (label 'đói'), bé có thể: 1. Nhớ lại chunk khi không đang trải nghiệm (anticipation), 2. Communicate với người khác về chunk, 3. Plan dựa trên chunk, 4. Combine với chunks khác ('đói + mệt'), 5. Eventually: reflect on chunk ('hôm nay tôi đói lắm')."
+>
+> *English:* "Very important for the framework: language DOES NOT CREATE chunks (chunks already exist from Stage 0 newborn). But language CREATES HANDLES for chunks. Once there is a handle (the label 'hungry'), the baby can: 1. Recall the chunk when not currently experiencing it (anticipation), 2. Communicate with others about the chunk, 3. Plan based on the chunk, 4. Combine with other chunks ('hungry + tired'), 5. Eventually: reflect on the chunk ('I'm very hungry today')."
 
-This is the **Nút Thắt 6 preview** (verbal-label-as-handle mechanism, full verdict in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §5). Hunger chunks exist from birth (evidenced by undifferentiated cry → differentiated cry evolution); "đói" label at 18mo attaches a handle to a chunk that already existed. The same pattern recurs for pain, bladder, and emotional states.
+This is the **Convergence Point 6 preview** (verbal-label-as-handle mechanism, full verdict in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §5). Hunger chunks exist from birth (evidenced by undifferentiated cry → differentiated cry evolution); the label "hungry" at 18mo attaches a handle to a chunk that already existed. The same pattern recurs for pain, bladder, and emotional states.
 
 ---
 
@@ -58,7 +60,7 @@ This is the **Nút Thắt 6 preview** (verbal-label-as-handle mechanism, full ve
 
 ### §1.1 — Scope split from 06a
 
-06a took bladder as the F1 anchor case because it is the **single cleanest L0→L4 arc** with the crispest L2 marker (đơ mặt) and the richest 4-Nút-Thắt load. Splitting 06a from 06b allows 06a to have full methodological depth + framework contribution formalization without cluttering with 4 other body states that each deserve their own treatment.
+06a took bladder as the F1 anchor case because it is the **single cleanest L0→L4 arc** with the crispest L2 marker (face-freeze) and the richest 4-Convergence-Point load. Splitting 06a from 06b allows 06a to have full methodological depth + framework contribution formalization without cluttering with 4 other body states that each deserve their own treatment.
 
 06b applies 06a methodology **in parallel** to the 4 remaining interoceptive body states:
 
@@ -74,8 +76,8 @@ To avoid redundancy, 06b does NOT re-derive:
 - Event-inference methodology (see [01 §6.3](01-PFC-Hardware-Reframe.md#§6.3) + 06a throughout)
 - 4-channel compile mechanism (see 06a §6.3)
 - Baseline state at t=0 (see [02 §9.1](02-Womb-to-Birth-Baseline.md#§9.1))
-- Nút Thắt 1 gradient verdict (see [04 §6.4](04-Auditory-System-Arc.md#§6.4))
-- Đơ mặt L2 formalization (see 06a §5)
+- Convergence Point 1 gradient verdict (see [04 §6.4](04-Auditory-System-Arc.md#§6.4))
+- Face-freeze L2 formalization (see 06a §5)
 
 06b cites these throughout but does not re-expose them.
 
@@ -83,7 +85,7 @@ To avoid redundancy, 06b does NOT re-derive:
 
 - **§2-§5**: Parallel state analyses with L0→L4 arcs, key events, chunks state inference, compile rate, state-specific cortisol tagging
 - **§6**: Cross-body-state synthesis table revealing rate variance follows predicted formula
-- **§7**: Nút Thắt contributions across all 4 states
+- **§7**: Convergence Points contributions across all 4 states
 - **§8-§9**: Research citations + cross-references
 
 ---
@@ -107,11 +109,11 @@ To avoid redundancy, 06b does NOT re-derive:
 
 **Observable event** ([Feel-Example E1](../../Body-Base/Feeling/Feel-Example-Draft.md#e1) 2 weeks):
 
-> Bé sơ sinh 2 tuần tuổi, đã 3 giờ kể từ lần bú cuối. Đường huyết giảm, dạ dày trống, hormone đói (ghrelin) tăng. Bé bắt đầu khóc — tiếng khóc không có đặc trưng acoustic riêng đủ để phân biệt với các loại distress khác.
+> 2-week-old newborn, 3 hours since last feeding. Blood sugar dropping, stomach empty, hunger hormone (ghrelin) rising. Baby begins crying — a cry with no distinct enough acoustic features to differentiate from other types of distress.
 
 **Ladder classification**: **L1** (post-hoc cry) + **L0** (reflex rooting-sucking when breast/bottle approaches).
 
-**Key framework observation from E1 Notes**: "Wolff (1969) gọi đây là 'basic cry pattern'. Sự thực rằng cha mẹ KHÔNG phân biệt được đói/đau/ướt từ acoustic alone là bằng chứng PFC bé chưa có chunk để output differentiated signal."
+**Key framework observation from E1 Notes**: "Wolff (1969) called this the 'basic cry pattern'. The fact that parents CANNOT differentiate hunger/pain/wet from acoustic alone is evidence that the baby's PFC doesn't yet have chunks to output a differentiated signal."
 
 At this stage:
 - Hunger signal ascends to insula; PFC can observe per 5 pillars
@@ -125,7 +127,7 @@ At this stage:
 
 **Observable event** ([Feel-Example E11](../../Body-Base/Feeling/Feel-Example-Draft.md#e11) 5 months):
 
-> Cha mẹ giờ đã có thể phân biệt 3-4 loại tiếng khóc qua acoustic alone, không cần context. Khóc đói: rhythmic, bắt đầu nhỏ rồi tăng dần, có pause hít thở. Khóc đau: cường độ cao ngay từ đầu, onset đột ngột, không pause. Khóc mệt: whiny, rên rỉ, kéo dài, ít cường độ.
+> Parents can now distinguish 3-4 types of cry by acoustic alone, without context. Hunger cry: rhythmic, starts soft then builds, has pauses for breath. Pain cry: high intensity from the start, sudden onset, no pause. Tired cry: whiny, drawn-out, lower intensity.
 
 **Ladder classification**: **L1 differentiated** (post-hoc, not yet predictive) + weak **L2** emerging (some babies may show pre-cry anticipatory activation on seeing feeding cues — e.g., quieting on seeing bottle preparation).
 
@@ -151,7 +153,7 @@ Both processes run in parallel and are hard to separate empirically. Framework-l
 - **Present (firing)**: hunger chunk that now has an antecedent prediction ("food is coming")
 - **Absent**: verbal labels
 
-**Why this is an L2 marker parallel to bladder đơ mặt**: Both are pattern-match events on antecedent signal without full action chunks. The difference is valence — hunger L2 is **positive** (anticipatory quieting, orienting), bladder đơ mặt is **neutral-to-negative** (freeze, no action). The framework claim is that the L2 ladder level is **valence-independent** — it is about the ladder structure (recognition without full execution), not the valence of the recognition.
+**Why this is an L2 marker parallel to bladder face-freeze**: Both are pattern-match events on antecedent signal without full action chunks. The difference is valence — hunger L2 is **positive** (anticipatory quieting, orienting), bladder face-freeze is **neutral-to-negative** (freeze, no action). The framework claim is that the L2 ladder level is **valence-independent** — it is about the ladder structure (recognition without full execution), not the valence of the recognition.
 
 **Distinction from L4**: At Stage L2 the baby cannot request feeding. The baby can recognize "feeding is coming" when cues appear, but cannot initiate feeding through communication. When feeding does not appear, the baby reverts to L1 distress cry.
 
@@ -159,43 +161,45 @@ Both processes run in parallel and are hard to separate empirically. Framework-l
 
 **Observable event**: Baby 8-12 months reaches toward food on the table, makes "gimme" gestures, may grab at caregiver's food.
 
-**Ladder classification**: **L3 crude response** — action chunks for procuring food are compiling, motor coordination improving (reaching per 05 §2.5 develops 4-6mo, hand-to-mouth by 5-6mo, grabbing by 8-10mo).
+**Ladder classification**: **L3 crude response** — action chunks for procuring food are compiling, motor coordination improving (reaching per [05 §2.5](05-Motor-Output-Arc.md#§2.5) develops 4-6mo, hand-to-mouth by 5-6mo, grabbing by 8-10mo).
 
 **Chunks state inference** 🟡:
 - **Present**: hunger chunk + environmental predictor + motor action chunk (reach/grab)
 - **Present**: partial social chunk (caregiver may provide food if requested via gesture)
 - **Absent**: verbal labels + coordinated planning
 
-### §2.6 — L4 verbal "đói" (E21, 18 months)
+### §2.6 — L4 verbal "hungry" (E21, 18 months)
 
 **Observable event** ([Feel-Example E21](../../Body-Base/Feeling/Feel-Example-Draft.md#e21) 18 months):
 
-> Bé 18 tháng đang chơi với đồ chơi. Cảm giác đói tăng dần, bụng cồn cào. Bé dừng chơi, đi tới mẹ và nói "đói" hoặc "ăn ăn", có thể kèm chỉ vào miệng hoặc bụng.
+> 18-month baby is playing with a toy. Hunger sensation increases, stomach growling. Baby stops playing, walks to mother and says "hungry" or "eat eat", may point to mouth or belly.
 
 **Ladder classification**: **L4 coordinated execution** — verbal label + planned social action + compound motor response.
 
 **Chunks state inference** 🟢 (strongest confidence for L4 events):
 - **Present**: hunger chunk with stable firing
-- **Present**: predictive-temporal chunk ("đang đói, cần ăn")
-- **Present**: verbal label chunk ("đói" / "ăn ăn")
+- **Present**: predictive-temporal chunk ("I'm hungry, need to eat")
+- **Present**: verbal label chunk ("hungry" / "eat eat")
 - **Present**: social communication chunk (caregiver can be addressed)
 - **Present**: planned action chunk (go to caregiver, gesture, wait)
 - **Present**: verbal articulation motor chunk (see [05 §2.11](05-Motor-Output-Arc.md#§2.11))
 
 **Framework-critical E21 Note** (verbatim preserved):
 
-> "Rất quan trọng cho framework: ngôn ngữ KHÔNG TẠO RA chunks (chunks đã có từ Stage 0 newborn). Nhưng ngôn ngữ TẠO RA HANDLES cho chunks. Một khi có handle (label 'đói'), bé có thể: 1. Nhớ lại chunk khi không đang trải nghiệm (anticipation), 2. Communicate với người khác về chunk, 3. Plan dựa trên chunk, 4. Combine với chunks khác ('đói + mệt'), 5. Eventually: reflect on chunk ('hôm nay tôi đói lắm')."
+> *Vietnamese original:* "Rất quan trọng cho framework: ngôn ngữ KHÔNG TẠO RA chunks (chunks đã có từ Stage 0 newborn). Nhưng ngôn ngữ TẠO RA HANDLES cho chunks. Một khi có handle (label 'đói'), bé có thể: 1. Nhớ lại chunk khi không đang trải nghiệm (anticipation), 2. Communicate với người khác về chunk, 3. Plan dựa trên chunk, 4. Combine với chunks khác ('đói + mệt'), 5. Eventually: reflect on chunk ('hôm nay tôi đói lắm')."
+>
+> *English:* "Very important for the framework: language DOES NOT CREATE chunks (chunks already exist from Stage 0 newborn). But language CREATES HANDLES for chunks. Once there is a handle (the label 'hungry'), the baby can: 1. Recall the chunk when not currently experiencing it (anticipation), 2. Communicate with others about the chunk, 3. Plan based on the chunk, 4. Combine with other chunks ('hungry + tired'), 5. Eventually: reflect on the chunk ('I'm very hungry today')."
 
-This is the **Nút Thắt 6 primary content** (verbal-label-as-handle mechanism). Chunks exist before labels. Labels are **handles** that enable retrieval, communication, planning, compositionality, and reflection. The distinction is adopted as framework commitment and will be fully formalized in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §5.
+This is the **Convergence Point 6 primary content** (verbal-label-as-handle mechanism). Chunks exist before labels. Labels are **handles** that enable retrieval, communication, planning, compositionality, and reflection. The distinction is adopted as framework commitment and will be fully formalized in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §5.
 
 ### §2.7 — Hunger H11 gap
 
 **Receptive**: Hunger chunk fires reliably at ~3-5 months (differentiated cry E11) → pre-emptive feeding response 4-6mo → by ~6mo baby reliably "recognizes" hunger state internally
-**Productive**: Verbal "đói" at ~18 months (E21)
+**Productive**: Verbal "hungry" at ~18 months (E21)
 
 **Gap**: ~12-15 months (from reliable receptive ~5mo to productive ~18mo).
 
-This is parallel to 06a bladder gap (6-10mo) and 04 name gap (13.5mo). The H11 ratio holds: productive chunks bundle is ~3-4× larger than receptive chunks bundle, compile time scales roughly with bundle size, gap ≈ 2-3× receptive compile time.
+This is parallel to [06a](06a-Interoceptive-Bladder-Keystone.md) bladder gap (6-10mo) and [04 §9](04-Auditory-System-Arc.md#§9) name gap (13.5mo). The H11 ratio holds: productive chunks bundle is ~3-4× larger than receptive chunks bundle, compile time scales roughly with bundle size, gap ≈ 2-3× receptive compile time.
 
 ### §2.8 — Hunger body state at compile: 4-threshold gradient
 
@@ -205,19 +209,19 @@ This is parallel to 06a bladder gap (6-10mo) and 04 name gap (13.5mo). The H11 r
 
 **Feeding-specific amplification**: Feeding is simultaneously (a) hunger chunk compile window, (b) primary L2 Connection interaction window, (c) primary oxytocin-release context. This means the body state at feeding compile is **especially** dominated by the caregiver-connection profile. The caregiver's body state transfers directly through the feeding interaction via oxytocin, gaze, vocal tone, and physical contact. Hunger chunks compile bundled with this connection context — they are some of the first chunks where interoceptive content + social content are inseparable.
 
-#### §2.8.1 — Level 1: NHẸ (responsive-warm feeding, novelty-dominant)
+#### §2.8.1 — Level 1: Light (responsive-warm feeding, novelty-dominant)
 
 **Caregiver pattern**: Feed on demand when possible, read infant signals, physical contact during feeding (holding, skin contact), warm vocal tone, no rushing, no forced finishing. Weaning gradual on infant signals.
 
 **Body state at compile**: Novelty cortisol (infant exploring new food textures, tastes — mild cortisol sustaining exploration) + dopamine (salience alert: food approaching — approach signal, NOT reward itself) + opioid (actual reward: comfort from caregiver warmth + satiety) + oxytocin surge (caregiver connection). Schema fire: "hunger signal → caregiver attention → food + warmth → satiation".
 
-**Chunks association compiled**: Hunger chunks gắn **opioid + oxytocin** — body-internally-cooperative. Adult retrieval: smooth interoceptive awareness of hunger, body responds cooperatively to hunger signal.
+**Chunks association compiled**: Hunger chunks bonded with **opioid + oxytocin** — body-internally-cooperative. Adult retrieval: smooth interoceptive awareness of hunger, body responds cooperatively to hunger signal.
 
 **Adult outcome**: Normal relationship to eating, intuitive interoceptive-guided eating, no predisposition to eating disorders.
 
 ✅ **Framework verdict**: Level 1 is optimal. This is the state the infant feeding literature (🟡 Satter 1990, 🟡 Hughes & Frazier-Wood 2016 responsive feeding) recommends.
 
-#### §2.8.2 — Level 2: VỪA (mild schedule, novelty-mixed)
+#### §2.8.2 — Level 2: Moderate (mild schedule, novelty-mixed)
 
 **Caregiver pattern**: Some schedule-based feeding (every 3-4 hours regardless of infant signal), occasional mild pressure to finish a portion, mostly calm interactions. No shaming, no forced feeding, no caregiver emotional withdrawal during feeding.
 
@@ -229,13 +233,13 @@ This is parallel to 06a bladder gap (6-10mo) and 04 name gap (13.5mo). The H11 r
 
 ✅ **Framework verdict**: Acceptable when Level 1 is impractical (work schedules, daycare, caregiver disability). Not optimal.
 
-#### §2.8.3 — Level 3: NẶNG (force feeding, schedule rigidity, shame-based)
+#### §2.8.3 — Level 3: Heavy (force feeding, schedule rigidity, shame-based)
 
 **Caregiver pattern**: Strict schedule regardless of infant signals. Force feeding (physical coercion to eat when infant refuses). Shaming appetite ("pig! fat!"). Body-size commentary during feeding. Emotional withdrawal during feeding conflicts. Treating infant refusal as defiance rather than signal.
 
 **Body state at compile**: **Threat cortisol dominant** — Social mechanism (shame + disapproval from primary connection source) + Anticipation mechanism (infant imagines next meal → more conflict → more shame). **Oxytocin drops** — the feeding interaction, which should be the primary L2 connection compile event, becomes a threat context. Schema fire: "hunger signal → feeding conflict → shame + withdrawal".
 
-**Chunks association compiled**: Hunger chunks gắn **threat cortisol + broken oxytocin signal**. Critically, the same chunks that should later be the adult's reliable hunger-signal interpreter are instead body-state-coded as aversive. The adult literally cannot trust their own hunger signal because the compile context made hunger signaling unsafe.
+**Chunks association compiled**: Hunger chunks bonded with **threat cortisol + broken oxytocin signal**. Critically, the same chunks that should later be the adult's reliable hunger-signal interpreter are instead body-state-coded as aversive. The adult literally cannot trust their own hunger signal because the compile context made hunger signaling unsafe.
 
 **Adult outcome** (🟡 correlation evidence, mechanism plausible):
 - **Alexithymic eating patterns** — cannot distinguish hunger from other emotional states (Bird & Cook 2013 — alexithymia and eating disorder comorbidity)
@@ -249,7 +253,7 @@ This is parallel to 06a bladder gap (6-10mo) and 04 name gap (13.5mo). The H11 r
 
 ⚠️ **Framework verdict**: Level 3 produces structural chunk-association damage compounded by compromised L2 connection compile. Recovery requires both chunk re-association and attachment repair. Parents at Level 3 should shift toward Level 1-2.
 
-#### §2.8.4 — Level 4: CỰC ĐOAN (feeding trauma, severe neglect, all mechanisms fire)
+#### §2.8.4 — Level 4: Extreme (feeding trauma, severe neglect, all mechanisms fire)
 
 **Caregiver pattern**: Severe food scarcity due to neglect, withholding food as punishment, feeding-time violence, force feeding with physical restraint, or feeding in actively fearful context (domestic violence during feeding). Also: medical feeding trauma (NG tube distress, surgical interventions in infancy without comfort).
 
@@ -275,7 +279,7 @@ This is parallel to 06a bladder gap (6-10mo) and 04 name gap (13.5mo). The H11 r
 | B-a | 3-5mo | E11 differentiated cry | L1 differentiated | Weak differentiation chunks |
 | B-b | 4-6mo | Pre-emptive feeding response | L2 | Environmental pattern chunk fires |
 | C | 8-12mo | Reach/grab for food | L3 | Action chunks partial |
-| D | 18mo | E21 "đói" verbal | L4 | Full coordinated stack + verbal handle |
+| D | 18mo | E21 "hungry" verbal | L4 | Full coordinated stack + verbal handle |
 
 ---
 
@@ -297,7 +301,7 @@ This is parallel to 06a bladder gap (6-10mo) and 04 name gap (13.5mo). The H11 r
 
 **Observable event** ([Feel-Example E2](../../Body-Base/Feeling/Feel-Example-Draft.md#e2) 6 weeks vaccination):
 
-> Bé 6 tuần tuổi đi tiêm vaccine. Kim đâm → tín hiệu nociceptive bắn lên qua spinothalamic tract. Bé khóc dữ dội ngay tức thì — tiếng khóc cường độ cao, onset đột ngột, không có "warm-up".
+> 6-week-old baby goes for vaccination. Needle breaks skin → nociceptive signal fires up through spinothalamic tract. Baby cries intensely and immediately — high-intensity cry, sudden onset, no "warm-up".
 
 **Ladder classification**: **L0/L1** — reflex pain response (withdrawal + cry).
 
@@ -305,7 +309,7 @@ This is parallel to 06a bladder gap (6-10mo) and 04 name gap (13.5mo). The H11 r
 - **Present**: innate nociceptor → spinal reflex arc + brainstem cry motor program
 - **Absent**: compiled pain chunks (no concept of "pain as category", no localization chunks, no pain-memory chunks, no verbal)
 
-**Key framework observation from E2 Notes**: "Tiếng khóc đau CÓ acoustic signature riêng phần nào — pitch cao hơn, onset đột ngột, không có 'warm-up' như khóc đói. Phân biệt quan trọng cho framework: sự khác biệt acoustic ≠ Self-Pattern Match. PFC chưa observe được, nhưng body output đã không đồng nhất."
+**Key framework observation from E2 Notes**: "The pain cry DOES have a somewhat distinct acoustic signature — higher pitch, sudden onset, no 'warm-up' like a hunger cry. Important framework distinction: acoustic difference ≠ Self-Pattern Match. PFC cannot yet observe it, but body output is already non-uniform."
 
 This parallels §2.2 hunger observation — output differentiation at Stage 0 does NOT imply chunks differentiation. It implies **sub-cortical motor program differences driven by different afferent pathways**.
 
@@ -321,7 +325,7 @@ This parallels §2.2 hunger observation — output differentiation at Stage 0 do
 - **Present**: affective valence tag (high, negative — peak pain from prior visit compiled with peak cortisol tagging)
 - **Absent**: explicit verbal anticipation + action plan
 
-**Why this is a clean L2 marker** (similar to bladder đơ mặt in ladder position but different in affect profile):
+**Why this is a clean L2 marker** (similar to bladder face-freeze in ladder position but different in affect profile):
 1. Known antecedent: specific environmental context
 2. Observable response: distress cry before stimulus
 3. Chunks-missing signature: no escape attempt (L3 would involve walking away, scrambling out of arms, etc.)
@@ -329,43 +333,43 @@ This parallels §2.2 hunger observation — output differentiation at Stage 0 do
 
 **Research anchor**: Pierce & Rodrigues 1996 — one of the earliest documentation of conditioned distress in infants to medical context. Widely confirmed in pediatric pain literature since.
 
-**Difference from bladder đơ mặt**: Vaccination pre-cry has active distress (crying) while đơ mặt has passive freeze. Why? Because pain chunks are tagged with **peak negative valence** (vaccination is a high-cortisol event). The peak valence tag drives a full distress motor program even though no action chunk is available. Bladder đơ mặt has **neutral-to-mild-negative valence** (wet diaper discomfort is unpleasant but not peak), producing the passive freeze instead of active distress.
+**Difference from bladder face-freeze**: Vaccination pre-cry has active distress (crying) while face-freeze has passive freeze. Why? Because pain chunks are tagged with **peak negative valence** (vaccination is a high-cortisol event). The peak valence tag drives a full distress motor program even though no action chunk is available. Bladder face-freeze has **neutral-to-mild-negative valence** (wet diaper discomfort is unpleasant but not peak), producing the passive freeze instead of active distress.
 
-**Framework note**: The L2 ladder level can produce **different body-level manifestations** depending on affective valence of the firing chunk. Passive stillness (bladder đơ mặt, peek-a-boo anticipation, stranger anxiety face pause) at neutral-to-moderate valence; active distress (vaccination pre-cry) at peak negative valence; active excitement (peek-a-boo positive anticipation) at peak positive valence. All are L2 (recognition without full execution) but the body-level trace varies.
+**Framework note**: The L2 ladder level can produce **different body-level manifestations** depending on affective valence of the firing chunk. Passive stillness (bladder face-freeze, peek-a-boo anticipation, stranger anxiety face pause) at neutral-to-moderate valence; active distress (vaccination pre-cry) at peak negative valence; active excitement (peek-a-boo positive anticipation) at peak positive valence. All are L2 (recognition without full execution) but the body-level trace varies.
 
-### §3.4 — L4 "đau chân" (E22, 20 months)
+### §3.4 — L4 "leg hurts" (E22, 20 months)
 
 **Observable event** ([Feel-Example E22](../../Body-Base/Feeling/Feel-Example-Draft.md#e22) 20 months):
 
-> Bé 20 tháng vấp ngã, đầu gối va vào sàn. Bé khóc, sau đó (vài giây sau) nói "đau" và chỉ vào đầu gối.
+> 20-month baby trips and falls, knee hits the floor. Baby cries, then (a few seconds later) says "hurt" and points to the knee.
 
 **Ladder classification**: **L4 coordinated execution with body schema integration**.
 
 **Chunks state inference** 🟢:
-- **Present**: pain chunk + verbal label ("đau")
+- **Present**: pain chunk + verbal label ("hurt")
 - **Present**: **body schema chunks** — the baby "knows" the pain is at the knee, not somewhere else. This requires spatial self-mapping integration.
 - **Present**: pointing action chunk (linked to body schema)
 - **Present**: caregiver-communication chunk
 
-**Key framework observation**: E22 requires a **compound chunks stack** that is larger than E21 hunger "đói" — because pain has a **spatial localization** component that hunger does not. Hunger is a body-general state; pain is a body-specific state. This compound chunks requirement is visible in the ~2-month gap between E21 "đói" (18mo) and E22 "đau chân" (20mo).
+**Key framework observation**: E22 requires a **compound chunks stack** that is larger than E21 hunger "hungry" — because pain has a **spatial localization** component that hunger does not. Hunger is a body-general state; pain is a body-specific state. This compound chunks requirement is visible in the ~2-month gap between E21 "hungry" (18mo) and E22 "leg hurts" (20mo).
 
-**Body schema development** is its own arc (not drilled separately in F1 — falls into interoceptive + proprioceptive + visual integration). Bird & Cook research on alexithymia notes that alexithymics often show **deficit in body location identification** — interoceptive accuracy is lower. Body schema chunks compile throughout early childhood and the quality of compile depends on caregiver labeling ("mắt, mũi, miệng..." songs in Vietnamese, naming body parts, etc.).
+**Body schema development** is its own arc (not drilled separately in F1 — falls into interoceptive + proprioceptive + visual integration). Research on alexithymia notes that alexithymics often show **deficit in body location identification** — interoceptive accuracy is lower. Body schema chunks compile throughout early childhood and the quality of compile depends on caregiver labeling (naming body parts, body-part songs, physical touch labeling, etc.).
 
-**Language-chunk interaction (Nút Thắt 6 preview continued)**: E22 Notes observation:
+**Language-chunk interaction (Convergence Point 6 preview continued)**: E22 Notes observation:
 
-> "Ngôn ngữ giàu body parts (Vietnamese có nhiều từ chi tiết về body parts — đầu gối, khuỷu tay, gáy, sống mũi...) tạo điều kiện cho deeper body-pattern chunks so với ngôn ngữ generic hơn. Implication framework: cấu trúc ngôn ngữ shape cấu trúc chunks. Không phải vì bé 'phát triển khác biological', mà vì handles có sẵn trong ngôn ngữ quyết định cái gì có thể được 'grasped explicitly'."
+> "Language rich in body-part terms (Vietnamese has many detailed body part words — knee, elbow, nape, bridge of nose...) creates conditions for deeper body-pattern chunks compared to more generic language. Framework implication: language structure shapes chunks structure. Not because babies 'develop differently biologically', but because handles available in the language determine what can be 'grasped explicitly'."
 
 This is a refinement of the §2.6 "language doesn't create chunks, language creates handles" claim: **language richness determines the granularity of handles available**, which shapes which chunks become explicitly accessible for reflection and communication. A culture with 10 words for specific body parts gives babies 10 handles for 10 chunks that would otherwise remain implicit. This is NOT biological determinism on language (Whorfian strong) but handle-granularity determinism on explicit-access (Whorfian moderate).
 
 ### §3.5 — Pain H11 gap
 
 **Receptive**: Pain chunks fire reliably from birth (pain cry E2 at 6 weeks) → environmental pain anticipation 9-18mo (vaccination pre-cry) → pain localization and recognition 18mo+
-**Productive**: Verbal "đau" (generic) ~18mo, with body location "đau chân" ~20mo
+**Productive**: Verbal "hurt" (generic) ~18mo, with body location "leg hurts" ~20mo
 
 **Gap for pain generic**: Similar to hunger, ~13-14mo from reliable receptive (~5mo differentiation per E11) to productive generic (~18mo).
 **Gap for pain localized**: ~15-16mo, adding body schema chunks compile time.
 
-This is consistent with H11 ratio prediction from 06a §8.4 — productive bundle for pain-localized (~5-7 chunks: pain + verbal label + articulation + body schema + spatial map + pointing + caregiver communication) is 3-4× the receptive bundle (~2 chunks: pain detection + environmental context).
+This is consistent with H11 ratio prediction from [06a §8.4](06a-Interoceptive-Bladder-Keystone.md#§8.4) — productive bundle for pain-localized (~5-7 chunks: pain + verbal label + articulation + body schema + spatial map + pointing + caregiver communication) is 3-4× the receptive bundle (~2 chunks: pain detection + environmental context).
 
 ### §3.6 — Pain body state at compile: 4-threshold gradient
 
@@ -375,17 +379,17 @@ This is consistent with H11 ratio prediction from 06a §8.4 — productive bundl
 
 **Pain compile architecture**: Unlike hunger (continuous chunk compile from many small events) or bladder (~15 events/day), pain compile happens in **rare peak events** (immunization, injuries, medical procedures). Each pain event has very high peak valence (Physical mechanism strongest of the 3) but low frequency. This is a **flashbulb compile pattern** — few events compile very strongly per-event, dominated by the body state at the moment of the pain event.
 
-#### §3.6.1 — Level 1: NHẸ (buffered pain, caregiver-mediated)
+#### §3.6.1 — Level 1: Light (buffered pain, caregiver-mediated)
 
-**Caregiver pattern**: When pain event occurs (fall, injury, medical procedure), caregiver responds quickly with physical comfort (holding, rocking), labels the event ("đau phải không con?", "mẹ biết, đau lắm"), validates the expression, does not minimize or shame, does not amplify into caregiver panic. Medical procedures are prepared for (explanation at child's level, comfort hold position, distraction, reassurance).
+**Caregiver pattern**: When pain event occurs (fall, injury, medical procedure), caregiver responds quickly with physical comfort (holding, rocking), labels the event ("Does it hurt? I know, that hurts a lot"), validates the expression, does not minimize or shame, does not amplify into caregiver panic. Medical procedures are prepared for (explanation at child's level, comfort hold position, distraction, reassurance).
 
 **Body state at compile**: Pain peaks → endorphin surge (built-in buffer) + amygdala activation + cortisol sustain. Then immediately: caregiver warmth → oxytocin + mild opioid → partial resolution. Schema fire: "pain signal → caregiver arrives → comfort comes → pain resolves". The compile is simultaneously "pain hurts" and "pain is recoverable with help".
 
-**Chunks association compiled**: Pain chunks gắn **resolvable + connection-supported**. Adult retrieval: normal pain sensitivity, appropriate help-seeking when injured, no persistent pain-related anxiety, no pain catastrophizing.
+**Chunks association compiled**: Pain chunks bonded with **resolvable + connection-supported**. Adult retrieval: normal pain sensitivity, appropriate help-seeking when injured, no persistent pain-related anxiety, no pain catastrophizing.
 
 ✅ **Framework verdict**: Level 1 is optimal for pain chunks. This model is supported by 🟢 Cohen et al. 2008 systematic reviews of pediatric procedural pain management — caregiver-mediated comfort during procedures predicts normal adult pain response.
 
-#### §3.6.2 — Level 2: VỪA (routine care, some dismissal)
+#### §3.6.2 — Level 2: Moderate (routine care, some dismissal)
 
 **Caregiver pattern**: Caregiver responds to pain but with mild dismissal ("it's just a scratch, you're ok"), rushes through comfort, minimal labeling. Medical procedures handled with minimal preparation. No shaming but limited active comfort.
 
@@ -397,7 +401,7 @@ This is consistent with H11 ratio prediction from 06a §8.4 — productive bundl
 
 ✅ **Framework verdict**: Acceptable, though Level 1 is preferable.
 
-#### §3.6.3 — Level 3: NẶNG (dismissal + shaming)
+#### §3.6.3 — Level 3: Heavy (dismissal + shaming)
 
 **Caregiver pattern**: Active dismissal ("don't cry, it's nothing"), shaming ("big babies don't cry for that", "stop being dramatic"), or neglect (pain events not responded to at all). Medical procedures handled without comfort, without preparation, caregiver absent or emotionally distant during procedure.
 
@@ -417,7 +421,7 @@ These two layers produce the adult pattern of simultaneous pain-experience + pai
 
 ⚠️ **Framework verdict**: Level 3 produces a specific alexithymic-pain adult profile that is hard to identify because Layer 1 is intact — the person reports pain accurately but cannot describe it well.
 
-#### §3.6.4 — Level 4: CỰC ĐOAN (medical trauma, repeated procedures without comfort)
+#### §3.6.4 — Level 4: Extreme (medical trauma, repeated procedures without comfort)
 
 **Caregiver pattern**: NICU graduates with prolonged painful procedures without consistent comfort; chronic illness in infancy with repeated surgeries/interventions; birth trauma with sustained distress; circumcision or other painful procedures without anesthesia (🟡 Taddio et al. 1997 — NEJM study: boys circumcised without anesthesia showed elevated pain response to later vaccinations compared to anesthetized controls, suggesting pain memory compiles with the original threat context). Also: physical abuse creating repeated pain events in a threat context.
 
@@ -448,8 +452,8 @@ These two layers produce the adult pattern of simultaneous pain-experience + pai
 | A | 0-3mo | E2 newborn acute pain cry | L0/L1 | Reflex + weak post-hoc |
 | B | 3-5mo | Differentiated pain cry within E11 | L1 differentiated | Weak differentiation chunk |
 | B-env | 9-18mo | Vaccination pre-cry | L2 | Environmental context chunk fires + peak valence tag |
-| D-generic | ~18mo | "Đau" verbal (generic) | L4 | Full stack except body schema |
-| D-localized | ~20mo | E22 "đau chân" with pointing | L4 + body schema | Full stack + spatial self-mapping |
+| D-generic | ~18mo | "Hurt" verbal (generic) | L4 | Full stack except body schema |
+| D-localized | ~20mo | E22 "leg hurts" with pointing | L4 + body schema | Full stack + spatial self-mapping |
 
 ---
 
@@ -469,20 +473,20 @@ These two layers produce the adult pattern of simultaneous pain-experience + pai
 
 **Observable event** ([Feel-Example E4](../../Body-Base/Feeling/Feel-Example-Draft.md#e4) 1 month thermal cry):
 
-> Bé 1 tháng tuổi, nhiệt độ phòng 32°C, đắp chăn dày. Thân nhiệt tăng nhẹ, mồ hôi vùng cổ và đầu, khó chịu thermoregulatory toàn thân.
+> 1-month-old baby, room temperature 32°C, covered with a thick blanket. Body temperature rising slightly, sweating at neck and head, whole-body thermoregulatory discomfort.
 
 **Ladder classification**: **L0/L1** — autonomic response (sweating) + crude distress signal (crying, fussiness).
 
 **Chunks state inference** 🟡:
 - **Present**: hardwired thermoregulatory autonomic response
-- **Absent**: compiled thermal chunks (no concept of "nóng"/"lạnh" as category)
+- **Absent**: compiled thermal chunks (no concept of "cold"/"hot" as category)
 - **Output**: generic fussiness or cry, acoustically similar to other discomfort states (per §2.2 E1 observation pattern)
 
 ### §4.3 — **Critical framework observation: SIDS as edge case**
 
 From [Feel-Example E4 Notes](../../Body-Base/Feeling/Feel-Example-Draft.md#e4) (verbatim, framework-critical):
 
-> "Đây là **edge case nguy hiểm** đáng lưu ý cho framework. SIDS (Sudden Infant Death Syndrome) liên quan mạnh đến overheating (Mitchell et al. 1993; Ponsonby et al. 1993). Bé KHÔNG tự 'biết' để wake up và escape thermal stress, vì chưa có Self-Pattern Match cho temperature. Distress signal có thể không đủ mạnh để vượt qua sleep state. Đây là minh họa cụ thể cho cost của việc thiếu Self-Pattern Match — cơ thể có thể chịu damage mà PFC không observe được."
+> "This is a **dangerous edge case** worth noting for the framework. SIDS (Sudden Infant Death Syndrome) is strongly associated with overheating (Mitchell et al. 1993; Ponsonby et al. 1993). The baby does NOT 'know' to wake up and escape thermal stress, because there is no Self-Pattern Match for temperature yet. The distress signal may not be strong enough to overcome sleep state. This is a concrete illustration of the cost of lacking Self-Pattern Match — the body can sustain damage that the PFC cannot observe."
 
 **Framework-critical implication**: Thermal is a case where **lack of Precondition-2 adequacy has mortal consequences**. The hardware is intact (thermoreceptors fire, POA signals distress), the PFC is online (per 5 pillars), but without a compiled chunk tying "thermal distress → wake up → escape action", the baby cannot act on the signal. In the specific case of overheating during sleep, this Precondition-2 inadequacy can be fatal.
 
@@ -503,13 +507,13 @@ From [Feel-Example E4 Notes](../../Body-Base/Feeling/Feel-Example-Draft.md#e4) (
 
 ### §4.5 — L4 partial within F1 window: limited
 
-**Observable event**: Some babies at 18-24 months may say "lạnh" or "nóng" in clear contexts but thermal verbalization is **less prioritized** than bladder/hunger/pain verbalization. A baby who says "đói" and "buồn đái" may not yet say "lạnh" at the same age.
+**Observable event**: Some babies at 18-24 months may say "cold" or "hot" in clear contexts but thermal verbalization is **less prioritized** than bladder/hunger/pain verbalization. A baby who says "hungry" and "need to pee" may not yet say "cold" at the same age.
 
-**Framework claim**: Thermal **rarely reaches full L4 within the F1 window (0-24mo)**. When it does, it is partial (simple labels "lạnh"/"nóng") without the planning-action sophistication of E21 "đói" or E23 "buồn đái".
+**Framework claim**: Thermal **rarely reaches full L4 within the F1 window (0-24mo)**. When it does, it is partial (simple labels "cold"/"hot") without the planning-action sophistication of E21 "hungry" or E23 "need to pee".
 
 ### §4.6 — Why thermal ladder is truncated in early years
 
-**Mechanism explanation** via the 4-channel compile + exposure × saliency × contingency × valence formula from 06a §6.3:
+**Mechanism explanation** via the 4-channel compile + exposure × saliency × contingency × valence formula from [06a §6.3](06a-Interoceptive-Bladder-Keystone.md#§6.3):
 
 1. **Exposure**: Moderate. Thermal events occur several times per day (diaper change, clothes change, going outside). Moderate rate.
 2. **Saliency per event**: LOW. Most thermal events are sub-threshold (minor cold from diaper change, minor warm from blanket). Only extreme thermal events (overheating, cold exposure) produce high-salience signals.
@@ -551,7 +555,7 @@ This is the **framework-critical edge case**. SIDS (🟢 Mitchell et al. 1993, P
 | A | 0-3mo | E4 newborn thermal cry | L0/L1 | Reflex + autonomic |
 | B | 3-12mo | Minor fussiness at thermal events | L1 | Weak differentiation |
 | (B→C transition) | 12-18mo | Wriggling, pull blanket off | L3 | Partial action chunks |
-| C-partial | 18-24mo | Some verbal "lạnh"/"nóng" in context | Partial L4 | Simple label, not planning |
+| C-partial | 18-24mo | Some verbal "cold"/"hot" in context | Partial L4 | Simple label, not planning |
 | Fully L4 | 2-3yr+ | Beyond F1 window | — | Outside F1 scope |
 
 ---
@@ -568,13 +572,13 @@ This section covers emotional chunks **from the interoceptive angle**: how baby'
 
 **E5 quiet alert state** ([Feel-Example E5](../../Body-Base/Feeling/Feel-Example-Draft.md#e5) 2 weeks):
 
-> Bé 2 tuần tuổi, vừa bú no, tã sạch, nhiệt độ phù hợp, được bế áp ngực mẹ. Mắt mở, đồng tử dilate vừa, theo dõi khuôn mặt mẹ với latency ngắn.
+> 2-week-old baby, just finished feeding, clean diaper, appropriate temperature, being held against mother's chest. Eyes open, pupils moderately dilated, tracking mother's face with short latency.
 
 **Ladder classification**: **L0** (absence of distress, not positive felt sense).
 
 **Critical framework observation from E5 Notes**:
 
-> "Chunk(s): Không có chunk 'comfort' theo nghĩa observation tích cực. State này được định nghĩa bằng ABSENCE of distress chứ chưa phải felt sense of well-being. Nói cách khác: bé chưa 'cảm thấy thoải mái' — bé 'không cảm thấy khó chịu', một sự khác biệt nhỏ nhưng quan trọng cho framework."
+> "Chunk(s): There is no 'comfort' chunk in the sense of positive observation. This state is defined by the ABSENCE of distress, not yet by a felt sense of well-being. In other words: the baby does not yet 'feel comfortable' — the baby 'does not feel uncomfortable', a small but important distinction for the framework."
 
 This is a **framework-critical distinction**: at Stage 0, positive emotional states are **absence of negative signals**, not compiled positive chunks. The first positive emotional chunks compile later, via multi-modal binding during positive caregiver interaction (E12 social smile onwards).
 
@@ -592,21 +596,21 @@ This is a **framework-critical distinction**: at Stage 0, positive emotional sta
 
 **Observable event** ([Feel-Example E12](../../Body-Base/Feeling/Feel-Example-Draft.md#e12) 7 weeks):
 
-> Bé 7 tuần tuổi nhìn mặt mẹ từ khoảng cách 30cm. Mặt mẹ có biểu cảm ấm áp, nói chuyện nhẹ nhàng. Bé bắt đầu cười — nụ cười social thật sự, hướng ngoại, có engagement.
+> 7-week-old baby looking at mother's face from ~30cm distance. Mother has a warm expression, speaking gently. Baby begins smiling — a genuine social smile, outward-directed, with engagement.
 
 **Ladder classification**: **L2** (pattern-match on caregiver face + voice context → smile motor output).
 
-**Framework significance**: E12 is the **first observable positive multi-modal chunk** in F1 timeline. It is the **primary anchor for Nút Thắt 3 (multi-modal binding mechanism)** — full drill in [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §3.3.
+**Framework significance**: E12 is the **first observable positive multi-modal chunk** in F1 timeline. It is the **primary anchor for Convergence Point 3 (multi-modal binding mechanism)** — full drill in [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §3.3.
 
 **Why social smile is emotional-interoceptive and not purely social**: The smile chunk fires **only when baby is in calm state baseline** (no overwhelming interoceptive distress). A hungry, wet, cold, or over-tired baby does not produce social smile to the same face + voice stimulus. The **interoceptive calm baseline is a precondition** for the social smile chunk to fire. This is direct evidence that E12 couples emotional-interoceptive state with social-visual-auditory pattern-match.
 
-**Cross-reference**: See 07 §3.3 for full multi-modal binding mechanism analysis. This section notes only the interoceptive-coupling aspect.
+**Cross-reference**: See [07 §3.3](07-Social-Recognition-Arc.md#§3.3) for full multi-modal binding mechanism analysis. This section notes only the interoceptive-coupling aspect.
 
 ### §5.5 — E26 egocentric empathy (18 months)
 
 **Observable event** ([Feel-Example E26](../../Body-Base/Feeling/Feel-Example-Draft.md#e26) 18 months):
 
-> Bé 18 tháng đang chơi gần mẹ. Mẹ bắt đầu khóc. Bé dừng chơi, đi vào phòng riêng, lấy gấu bông hoặc chăn an ủi của CHÍNH MÌNH, mang đến đưa cho mẹ.
+> 18-month baby is playing near mother. Mother begins crying. Baby stops playing, walks to her own room, fetches her own stuffed animal or comfort blanket, brings it over and offers it to mother.
 
 **Ladder classification**: **L4 compound chunks** — self-emotional chunks used as template for social action.
 
@@ -620,7 +624,7 @@ This is a **framework-critical distinction**: at Stage 0, positive emotional sta
 
 **Framework significance** (E26 Notes):
 
-> "Hoffman (2000) gọi đây là 'egocentric empathy' — bé dùng OWN comfort template áp dụng cho mẹ, KHÔNG kịp hiểu mẹ có thể cần thứ khác."
+> "Hoffman (2000) calls this 'egocentric empathy' — the baby uses her OWN comfort template and applies it to mother, without yet realizing that mother may need something different."
 
 **Why this is interoceptive**: The chain begins with baby's own emotional-interoceptive chunk (own distress state when comforted by bear). The chunk's CONTENT is internal body state. The social application is the direction of output, but the chunk being applied is an interoceptive chunk.
 
@@ -628,12 +632,12 @@ This is the clearest F1-window evidence of **self-emotional chunks as computatio
 
 ### §5.6 — Verbal emotional labels mostly post-F1
 
-**Observable pattern**: Verbal productive emotional labels ("vui", "buồn", "sợ", "giận") emerge largely **after 2 years**, often 2-3 years for clear production with correct contextual use. Within F1 window (0-24mo), verbal emotional vocabulary is typically **limited to 1-2 labels** ("vui" or "sợ" in simple contexts).
+**Observable pattern**: Verbal productive emotional labels ("happy", "sad", "scared", "angry") emerge largely **after 2 years**, often 2-3 years for clear production with correct contextual use. Within F1 window (0-24mo), verbal emotional vocabulary is typically **limited to 1-2 labels** ("happy" or "scared" in simple contexts).
 
 **Framework explanation**: Emotional chunks are compile-rich but **verbal-label-attachment is slower** than for bladder/hunger/pain because:
 1. Caregivers label emotional states **less explicitly** than physical states ("are you tired?" is more common than "are you sad right now?")
 2. Emotional states have **lower objective markers** — parents often cannot identify which emotion a baby is experiencing, reducing contingent labeling
-3. Emotional vocabulary is **more abstract** — "vui" has less concrete referent than "đói"
+3. Emotional vocabulary is **more abstract** — "happy" has less concrete referent than "hungry"
 
 Full emotional verbal development extends into F3 Chunk-External-Development (language acquisition) and is primarily covered in [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) + F3 later.
 
@@ -669,11 +673,11 @@ This makes the compile body state almost entirely determined by caregiver respon
 
 #### §5.8.1 — Level 1: Secure attachment (Bowlby/Ainsworth Type B)
 
-**Caregiver pattern**: Contingent response to distress. Mirroring + labeling ("Mẹ biết con buồn, mẹ ở đây nhé"). Physical presence during comfort. Consistent availability. "Secure base" (Ainsworth) — caregiver is reliable return point from exploration. Fonagy's mentalizing stance: caregiver treats baby as having a mind with intentions and feelings.
+**Caregiver pattern**: Contingent response to distress. Mirroring + labeling ("I know you're sad, mom is here"). Physical presence during comfort. Consistent availability. "Secure base" (Ainsworth) — caregiver is reliable return point from exploration. Fonagy's mentalizing stance: caregiver treats baby as having a mind with intentions and feelings.
 
 **Body state at compile**: Distress arises → amygdala + limbic activation → infant signals → caregiver arrives → co-regulation begins (physical contact + oxytocin release + vocal prosody mirroring) → distress resolves with caregiver co-present. Cortisol spikes but resolves cleanly because resolution is reliable. Schema fire during compile: "emotional signal → caregiver comes → co-regulation → resolution".
 
-**Chunks association compiled**: Emotional chunks gắn **secure-base template**. Key architectural features of compiled chunks:
+**Chunks association compiled**: Emotional chunks bonded with **secure-base template**. Key architectural features of compiled chunks:
 - **Distress is recoverable** — there is a reliable path from dysregulation to regulation
 - **Connection seeks dissolve distress** — help-seeking is an effective strategy
 - **Own emotions are legible** — another mind treats them as understandable
@@ -691,7 +695,7 @@ This makes the compile body state almost entirely determined by caregiver respon
 
 **Body state at compile**: Distress arises → infant signals → caregiver response is partial (physical only, no co-regulation) → infant experiences unresolved distress → learns to suppress the signal because signaling doesn't produce resolution. Social mechanism activates mildly (rejection of expression) without outright threat. Oxytocin compiles weakly.
 
-**Chunks association compiled**: Emotional chunks gắn **suppress-and-self-soothe template**. Key features:
+**Chunks association compiled**: Emotional chunks bonded with **suppress-and-self-soothe template**. Key features:
 - **Distress is not effectively expressible** — expression doesn't produce caregiver co-regulation
 - **Solo regulation is the default path** — infant compiles self-soothing strategies without external reference
 - **Connection and emotional expression are decoupled** — connection can happen but must avoid emotional content
@@ -706,7 +710,7 @@ This makes the compile body state almost entirely determined by caregiver respon
 
 **Body state at compile**: Distress arises → uncertainty about whether signaling will produce help → infant escalates signal to increase chance of response → caregiver response depends on caregiver state, not infant signal → partial or unreliable resolution. Cortisol spikes and often does not resolve cleanly (because resolution was not reliable). The compile context has **chronic partial cortisol** + **hypervigilance for caregiver state**.
 
-**Chunks association compiled**: Emotional chunks gắn **hypervigilant-uncertain template**. Key features:
+**Chunks association compiled**: Emotional chunks bonded with **hypervigilant-uncertain template**. Key features:
 - **Distress is sometimes recoverable, sometimes not** — infant cannot predict which
 - **Hypervigilance for caregiver state** is the survival strategy — infant monitors caregiver emotion more than own emotion
 - **Own emotional signals become escalated** — high-amplitude signaling compiles because reliable low-amplitude signaling doesn't work
@@ -726,7 +730,7 @@ This makes the compile body state almost entirely determined by caregiver respon
 
 **Plus neural wear dimension** ([06a §7.0.3](06a-Interoceptive-Bladder-Keystone.md#§7.0.3)): Chronic high cortisol + no resolution opportunity + developing PFC substrate = maximal Stage 2 accumulated wear during the window when the emotional regulation circuits are being compiled. The PFC regulatory circuits that would normally develop during this window are actively shaped by ongoing threat context.
 
-**Adult outcome** (🟢 strong evidence, clinically significant): 
+**Adult outcome** (🟢 strong evidence, clinically significant):
 - **Disorganized attachment pattern** in adult relationships — simultaneous desire for and terror of closeness
 - **Dissociative responses** during emotional events (the internal contradiction resolved via dissociation)
 - **Complex PTSD** symptoms — persistent hyperarousal + relational instability + identity disturbance + affect dysregulation
@@ -762,10 +766,10 @@ This makes the compile body state almost entirely determined by caregiver respon
 | A | 0-3mo | E5 quiet alert (absence of distress) | L0 | No positive chunks; seed window for compile |
 | A' | Newborn | Cry contagion (Martin & Clark 1982) | L0/L1 | Primitive Resonance; own distress fires |
 | B | 3-5mo | E11 differentiated emotional expressions | L1 | Weak differentiation chunks |
-| B-social | 6-8wk | E12 social smile | L2 | Multi-modal binding (see 07 §3.3) |
+| B-social | 6-8wk | E12 social smile | L2 | Multi-modal binding (see [07 §3.3](07-Social-Recognition-Arc.md#§3.3)) |
 | L2 social | 6-12mo | Still-face detection, social referencing | L2 | Caregiver-emotion reading chunks |
 | D-egocentric | 18mo | E26 egocentric empathy | L4 | Own chunks as simulation templates |
-| Verbal L4 | 2-3yr+ | "Vui"/"buồn"/"sợ" productive | L4 | Beyond F1 window |
+| Verbal L4 | 2-3yr+ | "happy"/"sad"/"scared" productive | L4 | Beyond F1 window |
 
 ---
 
@@ -795,11 +799,11 @@ The 4 body states covered in 06b + bladder from 06a show **non-uniform ladder pr
 
 5. **Emotional has the largest spread**. Different sub-states compile at different rates. Social-emotional (E12) at L2 at ~7 weeks (fastest L2 emergence) but verbal emotional productive is slowest (~2-3 years).
 
-**Framework claim**: The rate variance is **not random**. It follows the 4-parameter formula predicted by the compile mechanism. High contingency + high valence + moderate-high exposure → fast ladder traversal. Low contingency + low valence → truncated traversal. This is the **strongest available empirical validation** of the Precondition-2 compile mechanism claim (Nút Thắt 2 from 06a §6.3).
+**Framework claim**: The rate variance is **not random**. It follows the 4-parameter formula predicted by the compile mechanism. High contingency + high valence + moderate-high exposure → fast ladder traversal. Low contingency + low valence → truncated traversal. This is the **strongest available empirical validation** of the Precondition-2 compile mechanism claim (Convergence Point 2 from [06a §6.3](06a-Interoceptive-Bladder-Keystone.md#§6.3)).
 
 ### §6.2 — Precondition-2 compile mechanism cross-state validation
 
-**Claim (from 06a §6.3)**: Precondition-2 adequacy is reached through 4-channel compile (repetition + emotional + multi-modal + sleep) modulated by exposure × saliency × contingency × valence.
+**Claim (from [06a §6.3](06a-Interoceptive-Bladder-Keystone.md#§6.3))**: Precondition-2 adequacy is reached through 4-channel compile (repetition + emotional + multi-modal + sleep) modulated by exposure × saliency × contingency × valence.
 
 **06b cross-body-state evidence**:
 
@@ -813,7 +817,7 @@ The 4 body states covered in 06b + bladder from 06a show **non-uniform ladder pr
 
 **Falsification test**: If the formula is wrong, we should see inversions — e.g., thermal reaching L4 before hunger despite low parameters, or bladder reaching L4 before hunger despite lower contingency. No such inversions are observed in standard developmental reports.
 
-**Nút Thắt 2 verdict contribution (for [10-F1-Synthesis.md](10-F1-Synthesis.md))**: The Precondition-2 compile mechanism is 🟢🟡 supported by 5-case converging evidence from 06a + 06b. The mechanism is: 4-channel compile × 4-parameter rate modulation. Chunks reach adequacy threshold at state-specific times predictable from the parameters.
+**Convergence Point 2 verdict contribution (for [10-F1-Synthesis.md](../10-F1-Synthesis.md))**: The Precondition-2 compile mechanism is 🟢🟡 supported by 5-case converging evidence from 06a + 06b. The mechanism is: 4-channel compile × 4-parameter rate modulation. Chunks reach adequacy threshold at state-specific times predictable from the parameters.
 
 ### §6.3 — Cross-state body-state-at-compile synthesis
 
@@ -850,7 +854,7 @@ This gradient predicts why the attachment literature finds the largest and most 
 
 **Observation 2 — Same caregiver pattern produces different damage profiles across states**
 
-A caregiver who operates at Level 3 (NẶNG) applies similar behavior across multiple states (strict, shaming, emotionally-withdrawn during distress). But the **damage profile differs by state** because each state has different critical period + mechanism mix:
+A caregiver who operates at Level 3 (Heavy) applies similar behavior across multiple states (strict, shaming, emotionally-withdrawn during distress). But the **damage profile differs by state** because each state has different critical period + mechanism mix:
 
 | State | Level 3 caregiver → this state's compile damage |
 |---|---|
@@ -874,16 +878,16 @@ A child raised in chronic Level 3 context across multiple states receives:
 
 This is why ACE studies (🟢 Felitti et al. 1998) find dose-response relationships with cumulative childhood adversity rather than single-state specific effects — the damage compounds across states and across mechanisms.
 
-#### §6.3.3 — Framework implication for [10-F1-Synthesis.md](10-F1-Synthesis.md) Nút Thắt 7 verdict
+#### §6.3.3 — Framework implication for [10-F1-Synthesis.md](../10-F1-Synthesis.md) Convergence Point 7 verdict
 
-The cross-state analysis supports a **refined NT7 verdict**:
+The cross-state analysis supports a **refined Convergence Point 7 verdict**:
 
-🟡🟢 **Framework verdict**: 
-> Interoceptive chunks compile with a body-state fingerprint that depends on: (1) the novelty vs threat direction of the co-active drive, (2) the 4-threshold gradient level (nhẹ/vừa/nặng/cực đoan), (3) the mechanism sources activated (Physical/Social/Anticipation), (4) the origin (Domain/Peer/Imposed-parent), and (5) the critical period window timing. Chunks compiled under threat-dominant Level 3/4 body states during state-specific critical period windows carry that body state into adulthood, with damage amplified by imposed-parent origin and compounded by cumulative neural wear on developing PFC. The 5-state cross-cutting evidence is strongest for emotional attachment (🟢 Bowlby/Ainsworth/Sroufe) and progressively more indirect for other states (🟡 Brazelton/Bakker for bladder, 🟡 Birch/Bird-Cook for hunger, 🟢 Anand-Craig for pain, 🟢 Mitchell for thermal edge case). Multi-state convergence supports the framework with differentiated confidence across states.
+🟡🟢 **Framework verdict**:
+> Interoceptive chunks compile with a body-state fingerprint that depends on: (1) the novelty vs threat direction of the co-active drive, (2) the 4-threshold gradient level (Light/Moderate/Heavy/Extreme), (3) the mechanism sources activated (Physical/Social/Anticipation), (4) the origin (Domain/Peer/Imposed-parent), and (5) the critical period window timing. Chunks compiled under threat-dominant Level 3/4 body states during state-specific critical period windows carry that body state into adulthood, with damage amplified by imposed-parent origin and compounded by cumulative neural wear on developing PFC. The 5-state cross-cutting evidence is strongest for emotional attachment (🟢 Bowlby/Ainsworth/Sroufe) and progressively more indirect for other states (🟡 Brazelton/Bakker for bladder, 🟡 Birch/Bird-Cook for hunger, 🟢 Anand-Craig for pain, 🟢 Mitchell for thermal edge case). Multi-state convergence supports the framework with differentiated confidence across states.
 
 This is a refinement over the earlier draft verdict ("5 state-specific critical periods, multi-state convergence supports Precondition-5 Compile-Gate") — the refinement is that the mechanism itself is the more detailed model from §6.3.2, not just "cortisol tagging".
 
-**Primary home for full verdict writing**: [10-F1-Synthesis.md](10-F1-Synthesis.md) §1.7 finalizes this verdict with appropriate Master-Synthesis framing.
+**Primary home for full verdict writing**: [10-F1-Synthesis.md](../10-F1-Synthesis.md) §1.7 finalizes this verdict with appropriate Master-Synthesis framing.
 
 ### §6.4 — Cross-state H11 parallels
 
@@ -897,48 +901,48 @@ All 5 body states show receptive-productive asymmetry, consistent with H11 mecha
 | Thermal | Differentiated ~3-12mo | Rarely by 24mo | 12mo+ | ? (productive truncated) |
 | Emotional | Cry contagion newborn, E12 6-8wk social | Verbal 2-3yr | ~24-30mo | ~4:1 |
 
-**All gaps are consistent with the H11 1:3 ratio** predicted by 06a §8.4 (productive bundle ≈ 3× receptive bundle → gap ≈ 2-3× receptive compile time).
+**All gaps are consistent with the H11 1:3 ratio** predicted by [06a §8.4](06a-Interoceptive-Bladder-Keystone.md#§8.4) (productive bundle ≈ 3× receptive bundle → gap ≈ 2-3× receptive compile time).
 
 The **emotional state has the largest gap** (~24-30mo) because emotional productive bundle is largest (6+ chunks including meta-emotional + abstract vocabulary + low-contingency caregiver labeling). This is still consistent with the ratio — the emotional receptive onset is very early (weeks old) so even a 3× multiplier produces a large absolute gap.
 
-**Framework confirmation**: H11 ratio holds across all 5 interoceptive states. This is additional cross-state evidence for the H11 mechanism claim, complementing the 3 lines documented at 06a §8.5 (04 name + 05 gesture-verbal + 06a bladder).
+**Framework confirmation**: H11 ratio holds across all 5 interoceptive states. This is additional cross-state evidence for the H11 mechanism claim, complementing the 3 lines documented at [06a §8.5](06a-Interoceptive-Bladder-Keystone.md#§8.5) (04 name + 05 gesture-verbal + 06a bladder).
 
 ---
 
-## §7 — Nút Thắt contributions
+## §7 — Convergence Points contributions
 
-### §7.1 — Nút Thắt 2 (Precondition-2 Chunk-Substrate)
+### §7.1 — Convergence Point 2 (Precondition-2 Chunk-Substrate)
 
 **06b contribution**: Cross-body-state validation (§6.1 + §6.2). The 4-channel compile × 4-parameter formula predicts 5-for-5 ordinal ranking of L4 onset times. This is strong converging evidence.
 
-**Primary home**: 06a §6. 06b reinforces via cross-state.
+**Primary home**: [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6). 06b reinforces via cross-state.
 
-### §7.2 — Nút Thắt 5 (H11 Receptive-Productive)
+### §7.2 — Convergence Point 5 (H11 Receptive-Productive)
 
 **06b contribution**: 5-state parallel gaps (§6.4) with consistent 1:3 ratio. Adds 4 cross-state lines to the 3 lines already documented (04 + 05 + 06a).
 
 **Primary home**: [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §6 (upcoming). 06b provides 4 more data points for the formalization.
 
-### §7.3 — Nút Thắt 7 (Cortisol tagging critical period)
+### §7.3 — Convergence Point 7 (Cortisol tagging critical period)
 
 **06b contribution**: 5 state-specific critical period profiles (§6.3) with adult outcome trajectories and empirical anchors. Multi-state convergence substantially strengthens the Precondition-5 Compile-Gate critical period claim.
 
 **Key cases**:
-- **Attachment / emotional** (§5.8) is the most empirically developed cortisol tagging case in the broader literature (Bowlby, Ainsworth, Sroufe, Fonagy) — this gives Nút Thắt 7 its strongest evidence base overall
+- **Attachment / emotional** (§5.8) is the most empirically developed cortisol tagging case in the broader literature (Bowlby, Ainsworth, Sroufe, Fonagy) — this gives Convergence Point 7 its strongest evidence base overall
 - **Pain** (§3.6) has neuroscience-level mechanism evidence (Anand & Craig, Taddio)
 - **Thermal** (§4.7) is the edge case where the mechanism has acute consequences (SIDS) not just adult tagging
 - **Hunger** (§2.8) has adult clinical correlation (eating disorders)
-- **Bladder** (06a §7) has urological + anxiety outcomes
+- **Bladder** ([06a §7](06a-Interoceptive-Bladder-Keystone.md#§7)) has urological + anxiety outcomes
 
-**Primary home**: 06a bladder case + 06b multi-state. Final verdict in [10-F1-Synthesis.md](10-F1-Synthesis.md).
+**Primary home**: 06a bladder case + 06b multi-state. Final verdict in [10-F1-Synthesis.md](../10-F1-Synthesis.md).
 
-### §7.4 — Nút Thắt 4 (PFC hardware × chunks missing)
+### §7.4 — Convergence Point 4 (PFC hardware × chunks missing)
 
 **06b contribution**: Additional L2 markers per state — vaccination pre-cry (§3.3), anticipatory feeding response (§2.4), social smile (§5.4 with cross-ref to 07). Each marker requires chunks firing on antecedent, which requires PFC cortical substrate to be functional. Each marker independently falsifies the old "PFC offline" view.
 
 **L2 markers catalog** (integrating 06a + 06b + plan §0.8):
 
-1. Bladder đơ mặt (06a §3.3) ⭐ (cleanest marker)
+1. Bladder face-freeze (06a §3.3) ⭐ (cleanest marker)
 2. Vaccination pre-cry (06b §3.3) — pain, peak-negative valence
 3. Anticipatory feeding response (06b §2.4) — hunger, peak-positive valence
 4. Social smile (06b §5.4 + 07 §3.3) — emotional-social, positive valence
@@ -947,7 +951,7 @@ The **emotional state has the largest gap** (~24-30mo) because emotional product
 7. Peek-a-boo anticipation (07 §3.13) — social, positive valence
 8. VoE looking time (03 §3.8) — visual cognition, neutral
 
-**Primary home**: [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md). 06b + 07 populate the markers catalog with state-specific instances.
+**Primary home**: [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md). 06b + 07 populate the markers catalog with state-specific instances.
 
 ---
 
@@ -1012,8 +1016,8 @@ The **emotional state has the largest gap** (~24-30mo) because emotional product
 - [Feel-Example E5](../../Body-Base/Feeling/Feel-Example-Draft.md#e5) — quiet alert state
 - [Feel-Example E11](../../Body-Base/Feeling/Feel-Example-Draft.md#e11) — differentiated cry at 5 months
 - [Feel-Example E12](../../Body-Base/Feeling/Feel-Example-Draft.md#e12) — social smile 7 weeks
-- [Feel-Example E21](../../Body-Base/Feeling/Feel-Example-Draft.md#e21) — "đói" verbal 18 months ⭐ (framework-critical handle quote)
-- [Feel-Example E22](../../Body-Base/Feeling/Feel-Example-Draft.md#e22) — "đau chân" 20 months with body schema
+- [Feel-Example E21](../../Body-Base/Feeling/Feel-Example-Draft.md#e21) — "hungry" verbal 18 months ⭐ (framework-critical handle quote)
+- [Feel-Example E22](../../Body-Base/Feeling/Feel-Example-Draft.md#e22) — "leg hurts" 20 months with body schema
 - [Feel-Example E26](../../Body-Base/Feeling/Feel-Example-Draft.md#e26) — egocentric empathy 18 months
 
 ---
@@ -1023,22 +1027,22 @@ The **emotional state has the largest gap** (~24-30mo) because emotional product
 ### §9.1 — Within F1
 
 **Backward**:
-- [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) — §4 5 pillars, §6 methodology rule
-- [02-Womb-to-Birth-Baseline.md](02-Womb-to-Birth-Baseline.md) — §9.1 baseline state
+- [01-PFC-Hardware-Reframe.md](../Foundation/01-PFC-Hardware-Reframe.md) — §4 5 pillars, §6 methodology rule
+- [02-Womb-to-Birth-Baseline.md](../Foundation/02-Womb-to-Birth-Baseline.md) — §9.1 baseline state
 - [03-Visual-System-Arc.md](03-Visual-System-Arc.md) — §3.9 face perceptual narrowing (parallel gradient)
-- [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) — §6.4 Nút Thắt 1 gradient verdict
+- [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) — §6.4 Convergence Point 1 gradient verdict
 - [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) — §2.5 reaching (for hunger reach §2.5 here)
-- [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) — full methodology, đơ mặt formalization, 4 Nút Thắt primary home
+- [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) — full methodology, face-freeze formalization, 4 Convergence Points primary home
 
 **Forward**:
 - [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) — §3.3 social smile full drill (06b §5.4 cross-references)
-- [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) — §5 Nút Thắt 6 verbal-handle full formalization (uses 06b E21 quote), §6 H11 formalization
-- [09-Event-Chunks-Inference-Matrix.md](09-Event-Chunks-Inference-Matrix.md) — aggregated matrix with all 06b events
-- [10-F1-Synthesis.md](10-F1-Synthesis.md) — Nút Thắt 2 + 7 verdicts cite 06b cross-state evidence
+- [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) — §5 Convergence Point 6 verbal-handle full formalization (uses 06b E21 quote), §6 H11 formalization
+- [09-Event-Chunks-Inference-Matrix.md](../09-Event-Chunks-Inference-Matrix.md) — aggregated matrix with all 06b events
+- [10-F1-Synthesis.md](../10-F1-Synthesis.md) — Convergence Points 2 + 7 verdicts cite 06b cross-state evidence
 
 ### §9.2 — Other Chunk-Analysis folders
 
-- [Body-Feedback-Draft/01-Foundation.md §5.5.2](../Body-Feedback-Draft/01-Foundation.md#§5.5.2) — đau gradient parallel to bladder gradient in 06a §6.2
+- [Body-Feedback-Draft/01-Foundation.md §5.5.2](../Body-Feedback-Draft/01-Foundation.md#§5.5.2) — pain gradient parallel to bladder gradient in 06a §6.2
 - [Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) — E26 egocentric empathy cross-reference (own template applied to other)
 
 ### §9.3 — Body-Base framework
@@ -1049,7 +1053,7 @@ The **emotional state has the largest gap** (~24-30mo) because emotional product
 
 ### §9.4 — Imagination framework
 
-- [Imagination/PFC-Analysis.md §4.0](../../Imagination/PFC-Analysis.md#§4.0) — REFRAME block Example 2 "không nghe hiểu tiếng mẹ gọi" is auditory side of same reframe mechanism
+- [Imagination/PFC-Analysis.md §4.0](../../Imagination/PFC-Analysis.md#§4.0) — REFRAME block Example 2 "cannot understand mother calling by name" is auditory side of same reframe mechanism
 
 ---
 
@@ -1059,7 +1063,7 @@ The **emotional state has the largest gap** (~24-30mo) because emotional product
 
 1. **Does differentiated cry (E11) onset timing correlate with subsequent L4 onset timing?** If the differentiation chunk compile rate predicts the full L4 compile rate, differentiated-cry-onset measurements could serve as early indicators for developmental compile rate variation.
 
-2. **Can thermal L4 be accelerated by intentional caregiver practice?** The 4-parameter formula predicts that if caregivers deliberately increased contingency (e.g., labeling "you feel cold?" more explicitly, waiting for baby signals before adjusting temperature), thermal chunks should compile faster. Testable with intervention studies.
+2. **Can thermal L4 be accelerated by intentional caregiver practice?** The 4-parameter formula predicts that if caregivers deliberately increased contingency (e.g., labeling "are you feeling cold?" more explicitly, waiting for baby signals before adjusting temperature), thermal chunks should compile faster. Testable with intervention studies.
 
 3. **Why does emotional verbal onset lag so much (2-3yr) compared to physical states (18-22mo)?** The framework attribution is "abstract labels + low contingency + lower-concrete-referent". Is there a mechanism to partially close this gap? Cultures with explicit emotional-mirroring practices (some Scandinavian, some Japanese attachment traditions) may show earlier emotional verbal onset — testable.
 
@@ -1071,7 +1075,7 @@ The **emotional state has the largest gap** (~24-30mo) because emotional product
 
 6. **Is the H11 1:3 ratio really universal or are there outliers?** 5 states in 06a+06b all fit the ratio. 8+ states across human cultures might reveal exceptions. The ratio is proposed as framework claim with falsification test (find an outlier).
 
-7. **Do chunks templates transfer across body states?** 06a §4.3 documented E23 → E24 template transfer (bladder → bowel). Does "đói" template transfer to "khát" (thirst) in similar fashion? Does "đau chân" transfer to "đau tay"? Systematic cross-state transfer study would illuminate chunk compositionality mechanism.
+7. **Do chunks templates transfer across body states?** [06a §4.3](06a-Interoceptive-Bladder-Keystone.md#§4.3) documented E23 → E24 template transfer (bladder → bowel). Does the "hungry" template transfer to "thirsty" in similar fashion? Does "leg hurts" transfer to "arm hurts"? Systematic cross-state transfer study would illuminate chunk compositionality mechanism.
 
 ### §10.3 — Clinical / developmental application questions
 
@@ -1091,36 +1095,39 @@ The **emotional state has the largest gap** (~24-30mo) because emotional product
 - ✅ Thermal arc §4 (E4 → wriggling L3 → truncated within F1 + SIDS edge case)
 - ✅ Emotional arc §5 (E5 → E11 → E12 L2 → E26 L4 egocentric empathy; verbal mostly post-F1)
 - ✅ Cross-state synthesis §6 with 4-parameter formula 5-for-5 validation
-- ✅ Nút Thắt contributions §7
+- ✅ Convergence Points contributions §7
 - ✅ Research citations §8
 - ✅ Cross-references §9
 - ✅ Open questions §10
 
-**Nút Thắt delivered**:
-- Nút Thắt 2 cross-state validation (§6.1-§6.2): 5-for-5 ordinal ranking prediction from 4-parameter formula
-- Nút Thắt 5 cross-state H11 parallels (§6.4): 5 states with consistent 1:3 ratio
-- Nút Thắt 7 cross-state cortisol tagging (§6.3): 5 state-specific critical period profiles with adult outcomes
-- Nút Thắt 4 L2 markers catalog (§7.4): 8 markers integrated across 06a+06b+07
+**Convergence Points delivered**:
+- Convergence Point 2 cross-state validation (§6.1-§6.2): 5-for-5 ordinal ranking prediction from 4-parameter formula
+- Convergence Point 5 cross-state H11 parallels (§6.4): 5 states with consistent 1:3 ratio
+- Convergence Point 7 cross-state compile body-state (§6.3): 5 state-specific critical period profiles with adult outcomes
+- Convergence Point 4 L2 markers catalog (§7.4): 8 markers integrated across 06a+06b+07
 
-**Framework preview for 08 (Nút Thắt 6 verbal-handle)**: §2.6 E21 verbatim quote ("language creates handles not chunks") + §3.4 Vietnamese body parts richness observation → full verdict in 08 §5.
+**Framework preview for 08 (Convergence Point 6 verbal-handle)**: §2.6 E21 verbatim quote ("language creates handles not chunks") + §3.4 body-parts-language richness observation → full verdict in 08 §5.
 
 **Framework rules maintained**:
-- ✅ Event-inference methodology (01 §6.3)
+- ✅ Event-inference methodology ([01 §6.3](../Foundation/01-PFC-Hardware-Reframe.md#§6.3))
 - ✅ No "PFC matures at X" claims
 - ✅ PFC-Inference Ladder (L0-L4) for every event
 - ✅ 🟢🟡🔴 confidence marking
-- ✅ Baseline state (02 §9.1) referenced where relevant
+- ✅ Baseline state ([02 §9.1](../Foundation/02-Womb-to-Birth-Baseline.md#§9.1)) referenced where relevant
 - ✅ Feel-Example cross-references bidirectional
 - ✅ No personal examples
-- ✅ Tiếng Việt primary + English technical
-- ✅ Verbatim user/Feel-Example quotes preserved (E1 Wolff, E2 acoustic signature, E4 SIDS, E5 absence-of-distress, E11 Gustafson, E21 language-as-handle, E22 body parts richness, E26 Hoffman egocentric)
+- ✅ E21 Notes language-as-handle verbatim preserved (Vietnamese + English translation)
+- ✅ Other Feel-Example Notes quotes translated to English throughout
+- ✅ "Nút Thắt" → "Convergence Point" throughout
+- ✅ "đơ mặt" → "face-freeze" throughout
+- ✅ Vietnamese verbal labels ("đói", "đau chân", "lạnh", "nóng", "vui", "buồn", "sợ") → English throughout
 
 **Cross-references bidirectional**:
 - Backward: 01, 02, 03, 04, 05, 06a + Body-Feedback-Draft + Body-Base + Imagination
 - Forward: 07, 08, 09, 10
 
 **Notable deferrals to later files**:
-- E12 social smile full Nút Thắt 3 drill → 07 §3.3
+- E12 social smile full Convergence Point 3 drill → 07 §3.3
 - E26 Resonance mechanism → 07 §7 (cross-ref to Agent sub-folder)
 - E21 verbal-handle full verdict → 08 §5
 - H11 full formalization → 08 §6
@@ -1129,8 +1136,14 @@ The **emotional state has the largest gap** (~24-30mo) because emotional product
 **Review points** for user:
 1. Is the cross-state synthesis §6 formula adequately predictive? Does the 5-for-5 ranking feel compelling?
 2. Is the thermal SIDS edge case §4.3 framing appropriate (mortal consequence of Precondition-2 inadequacy)?
-3. Is the attachment + emotional cortisol tagging §5.8 treatment adequate or does it need expansion?
+3. Is the attachment + emotional body-state-at-compile §5.8 treatment adequate or does it need expansion?
 4. Does the handling of E26 egocentric empathy fit here (interoceptive side) vs 07 (social side)?
-5. Is the §3.3 vaccination pre-cry as "L2 marker with peak-negative valence" distinction from đơ mặt clear?
+5. Is the §3.3 vaccination pre-cry as "L2 marker with peak-negative valence" distinction from face-freeze clear?
 
-**Next after review**: Phase F1-P12 drill of [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) ⭐ with **Nút Thắt 3 PRIMARY VERDICT** via social smile E12 multi-modal binding mechanism. This will be the second ⭐ MANDATORY REVIEW STOP of N+4c1.
+**Next after review**: Phase F1-P12 drill of [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) ⭐ with **Convergence Point 3 PRIMARY VERDICT** via social smile E12 multi-modal binding mechanism. This will be the second ⭐ MANDATORY REVIEW STOP of N+4c1.
+
+---
+
+> **06b-Interoceptive-Other-States.md — End of file.**
+>
+> F1 interoceptive arc #2 (hunger + pain + thermal + emotional). 5-for-5 cross-state compile rate validation of Convergence Point 2 mechanism. Consistent H11 1:3 ratio across all states for Convergence Point 5. Five state-specific critical period profiles for Convergence Point 7. Eight L2 markers catalog for Convergence Point 4.

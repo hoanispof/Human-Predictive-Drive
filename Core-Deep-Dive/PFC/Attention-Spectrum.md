@@ -1,48 +1,49 @@
 ---
-title: Attention-Spectrum — Phổ Chú Ý Multi-Factor
+title: Attention-Spectrum — Multi-Factor Attention Spectrum
 version: 2.1
 created: 2026-04-19
 updated: 2026-05-15 (v2.1 — §8 ADHD inverted-U validation, Health Conditions Drill)
-status: DRAFT v2.1
+status: REFERENCE v2.1
 scope: |
-  Attention là SPECTRUM liên tục, không binary.
+  Attention is a CONTINUOUS SPECTRUM, not binary.
   Multi-factor model: COMT (clear speed) + chunk threshold + NE + cortisol.
-  Focus: tại sao mỗi người "chú ý" KHÁC, hyperfocus, classroom mismatch, AI era.
+  Focus: why each person "pays attention" DIFFERENTLY, hyperfocus,
+    classroom mismatch, AI era.
 supersedes: |
   Imagination/backup/Attention-Spectrum-v1.md (2026-03-25, 664L)
-  v1 dựa chủ yếu DRD4 → v2 mở rộng multi-factor.
+  v1 relied primarily on DRD4 → v2 expanded to multi-factor.
 related: |
   PFC-Hardware.md §1-§6 — 4 receptor systems, COMT, DRD4
   PFC-Function.md §2 — 4 Hold modes
   PFC-Development.md — Learning trajectory, training
   Imagination.md — Imagine modes × cortisol
-  Core-v7.8-Draft.md §6 — PFC trong kiến trúc cycle
+  Core-Software.md §6 — PFC within cycle architecture
   Cortisol-Baseline.md v2.0 — Cortisol affects attention
-language: Tiếng Việt primary + English technical terms
+language: English primary + technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Attention Spectrum — Phổ Chú Ý: Multi-Factor Model
+# Attention Spectrum — Multi-Factor Model
 
-> **KHÔNG phải "có ADHD" hoặc "không có ADHD" (binary).**
-> **MÀ LÀ: dải LIÊN TỤC từ detail → balanced → big picture.**
+> **NOT "has ADHD" or "doesn't have ADHD" (binary).**
+> **BUT RATHER: a CONTINUOUS spectrum from detail → balanced → big picture.**
 >
-> Mỗi người NẰM ở 1 VỊ TRÍ trên spectrum.
-> Vị trí = HARDWARE (nhiều yếu tố) + state (cortisol, sleep) + experience.
-> "Kiểu chú ý" KHÔNG phải "chất lượng chú ý".
-> Detail-oriented KHÔNG "tốt hơn" big-picture → KHÁC, KHÔNG hơn/kém.
+> Each person SITS at 1 POSITION on the spectrum.
+> Position = HARDWARE (multiple factors) + state (cortisol, sleep) + experience.
+> Attention TYPE is not "attention quality."
+> Detail-oriented is NOT "better" than big-picture → DIFFERENT, not better or worse.
 >
-> ⚠️ ADHD = chẩn đoán y khoa (có DSM criteria).
-> Framework MÔ TẢ spectrum, KHÔNG chẩn đoán.
-> Ai nghi ngờ ADHD → GẶP BÁC SĨ.
+> ⚠️ ADHD = a medical diagnosis (with DSM criteria).
+> The framework DESCRIBES the spectrum, does NOT diagnose.
+> Anyone suspecting ADHD → SEE A DOCTOR.
 
 ---
 
-## Mục lục
+## TABLE OF CONTENTS
 
 - §1 — Multi-Factor Model (v2.0)
-- §2 — Spectrum Chi Tiết
-- §3 — Hyperfocus: Threshold Cao = Noise Cancelling
+- §2 — Spectrum Detail
+- §3 — Hyperfocus: High Threshold = Noise Cancelling
 - §4 — Classroom × Spectrum
 - §5 — Methylphenidate (Ritalin)
 - §6 — AI Era × Attention Spectrum
@@ -54,167 +55,171 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §1 — Multi-Factor Model (v2.0)
 
 ```
-⚠️ v1 (2026-03-25) dùng DRD4 receptor variant làm cơ chế DUY NHẤT.
-   v2 mở rộng: attention position = MULTI-FACTOR.
+⚠️ v1 (2026-03-25) used DRD4 receptor variant as the ONLY mechanism.
+   v2 expands: attention position = MULTI-FACTOR.
 
-   Framework KHÔNG dùng DRD4 làm cơ chế chính (PFC-Hardware.md §4).
-   COMT (clear speed) + nhiều yếu tố khác đều ảnh hưởng attention.
+   Framework does NOT use DRD4 as the primary mechanism (PFC-Hardware.md §4).
+   COMT (clear speed) + many other factors all affect attention.
 
 
-4 YẾU TỐ ẢNH HƯỞNG ATTENTION POSITION:
+4 FACTORS AFFECTING ATTENTION POSITION:
 
   ① COMT Clear Speed (PFC-Hardware.md §3):
-     Val/Val (nhanh): draft clear → workspace TRỐNG → scan input mới → "nhảy"
-     Met/Met (chậm): draft GIỮA → incremental modify → "đào sâu"
-     → CHÍNH cho spectrum improviser ↔ specialist
+     Val/Val (fast clear): draft clears → workspace EMPTY → scans new input → "jumps"
+     Met/Met (slow clear): draft HELD → incremental modify → "digs deep"
+     → PRIMARY driver of the improviser ↔ specialist spectrum
      → 🟢 Well-replicated (Egan 2001)
 
   ② Chunk Threshold (PFC-Hardware.md §4):
-     → DRD4 hypothesis: receptor nhạy (4R) vs kém nhạy (7R) → chunk size filter
-     → Threshold CAO → chỉ detect chunk LỚN → miss detail
-     → Threshold THẤP → detect MỌI THỨ → detail-oriented nhưng có thể overload
-     → ⚠️ Hypothesis D — data đúng, mechanism chưa proven trực tiếp
+     → DRD4 hypothesis: sensitive receptor (4R) vs less sensitive (7R)
+       → chunk size filter
+     → High threshold → only detects LARGE chunks → misses detail
+     → Low threshold → detects EVERYTHING → detail-oriented but may overload
+     → ⚠️ Hypothesis D — data correct, mechanism not yet directly proven
 
   ③ NE Sensitivity (PFC-Hardware.md §6):
      → α2/α1 balance → PFC enhance vs disconnect
-     → NE baseline CAO MÃN TÍNH (PTSD) → attention impaired chronic
-     → NE OPTIMAL → attention sharp, focused
+     → Chronically HIGH NE baseline (PTSD) → attention chronically impaired
+     → OPTIMAL NE → attention sharp, focused
 
   ④ Cortisol State (Cortisol-Baseline.md v2.0):
-     → Cortisol thấp → PFC clean → attention STABLE
-     → Cortisol cao → PFC noisy → attention PHÂN TÁN
-     → CÙNG HARDWARE + KHÁC cortisol = KHÁC attention output
-     → = "Sáng tỉnh táo chiều mệt mỏi" = cùng người, khác state
+     → Low cortisol → clean PFC → STABLE attention
+     → High cortisol → noisy PFC → attention SCATTERED
+     → SAME HARDWARE + DIFFERENT cortisol = DIFFERENT attention output
+     → = "Alert in the morning, exhausted in the afternoon" = same person, different state
 
 
 → Attention position = ① × ② × ③ × ④
-→ ①②③ = HARDWARE (thay đổi cực chậm)
-→ ④ = STATE (thay đổi theo giờ)
-→ = Cùng người: sáng (cortisol thấp) = focused, chiều (cortisol cao) = phân tán
-→ = Cùng người: domain quen (chunks compiled) = Monitor, domain mới = Worker
-→ = Attention KHÔNG CỐ ĐỊNH → spectrum + state + context
+→ ①②③ = HARDWARE (changes extremely slowly)
+→ ④ = STATE (changes by the hour)
+→ = Same person: morning (low cortisol) = focused, afternoon (high cortisol) = scattered
+→ = Same person: familiar domain (chunks compiled) = Monitor, new domain = Worker
+→ = Attention is NOT FIXED → spectrum + state + context
 
 
-SPECTRUM TỔ HỢP (simplified):
+COMBINED SPECTRUM (simplified):
 
   Detail ←──────── Balanced ──────── Big Picture ──────── Extreme
-  COMT chậm         mixed              COMT nhanh            COMT nhanh
-  threshold thấp    medium             threshold cao          + threshold cực cao
-  NE optimal        NE optimal         NE optimal             + NE dysregulated?
-  → deep focus      → versatile        → cross-domain         → hyperfocus/scan
-  → miss big pic    → ok both          → miss detail          → ADHD range
+  COMT slow         mixed              COMT fast              COMT fast
+  low threshold     medium             high threshold          + extreme high threshold
+  NE optimal        NE optimal         NE optimal              + NE dysregulated?
+  → deep focus      → versatile        → cross-domain          → hyperfocus/scan
+  → misses big pic  → ok both          → misses detail         → ADHD range
 
-  ⚠️ Đây là SIMPLIFIED model. Thực tế = phổ liên tục, multi-dimensional.
+  ⚠️ This is a SIMPLIFIED model. Reality = a continuous, multi-dimensional spectrum.
 ```
 
 ---
 
-## §2 — Spectrum Chi Tiết
+## §2 — Spectrum Detail
 
 ```
-DETAIL-ORIENTED (COMT chậm + threshold thấp):
+DETAIL-ORIENTED (COMT slow + low threshold):
 
-  → Chunk NHỎ cũng vượt threshold → PFC nhận MỌI THỨ
-  → Draft giữ LÂU → sửa incremental → đi SÂU
-  → Trong lớp: nghe thấy HẾT → "chăm chú, ghi chép đầy đủ"
-  → Trong công việc: proofreading, quality control, kế toán, debug code = MẠNH
-  → Nhược: khó thấy BIG PICTURE (chunk nhỏ LẤN signal lớn)
-  → "Thấy cây mà không thấy rừng"
+  → Even SMALL chunks exceed threshold → PFC receives EVERYTHING
+  → Draft held LONG → incremental modification → goes DEEP
+  → In class: hears everything → "attentive, thorough note-taker"
+  → At work: proofreading, quality control, accounting, debugging code = STRONG
+  → Weakness: hard to see the BIG PICTURE (small chunks crowd out large signals)
+  → "Can't see the forest for the trees"
 
 
 BALANCED (mixed parameters):
 
-  → Chunk vừa → PFC nhận → process ok
-  → Draft duration vừa → có thể deep VÀ switch
-  → Classroom THIẾT KẾ cho nhóm này → MATCH
-  → Specialist VÀ generalist possible tùy context
-  → = "Backbone" của mọi tổ chức
+  → Moderate chunks → PFC receives → processes ok
+  → Moderate draft duration → can go deep AND switch
+  → Classroom DESIGNED for this group → MATCH
+  → SPECIALIST and GENERALIST both possible depending on context
+  → = "Backbone" of every organization
 
 
-BIG PICTURE (COMT nhanh + threshold cao):
+BIG PICTURE (COMT fast + high threshold):
 
-  → Chunk NHỎ bị filter → PFC chỉ nhận chunk LỚN
-  → Draft clear nhanh → workspace TRỐNG → fresh rebuild
-  → Trong lớp: chunk nhỏ từ cô giảng → filter CHẶN → "nhìn ra cửa sổ"
-    → KHÔNG phải "hư" → filter chặn → PFC KHÔNG CÓ GÌ process
-  → Trong công việc: big picture, cross-domain, improviser
-  → "Ý tưởng 1000, hoàn thành 100"
-  → Nhược: miss detail → "bất cẩn" (lỗi chính tả, quên chi tiết)
+  → Small chunks filtered OUT → PFC only receives LARGE chunks
+  → Draft clears fast → workspace EMPTY → fresh rebuild
+  → In class: teacher's small chunks → filter BLOCKS → "staring out the window"
+    → NOT "being bad" → filter blocks it → PFC HAS NOTHING to process
+  → At work: big picture, cross-domain, improviser
+  → "A thousand ideas, a hundred completed"
+  → Weakness: misses detail → "careless" (typos, forgetting specifics)
 
 
 ADHD RANGE (extreme):
 
-  ⚠️ ADHD = chẩn đoán y khoa → framework chỉ MÔ TẢ spectrum position
+  ⚠️ ADHD = medical diagnosis → framework only DESCRIBES spectrum position
 
-  → Threshold CỰC CAO + clear CỰC NHANH → PFC gần trống liên tục
-  → "Nhảy": PFC chờ chunk đủ lớn → KHÔNG TÌM THẤY → scan → nhảy → scan
-    = KHÔNG phải "không tập trung" → "không có gì ĐỦ LỚN để tập trung VÀO"
-  → "Hyperactive": PFC trống → energy KHÔNG có task cognitive → thoát qua motor
-    = KHÔNG phải "thừa energy" → "energy KHÔNG CÓ task"
-  → "Emotional dysregulation": emotion = chunk LỚN → VƯỢT threshold → nhận
-    → NHƯNG PFC ít practice regulate → emotion "nổ" ra
-  → = "ADHD = PFC yếu" = SAI. "ADHD = filter CHẶT + clear NHANH" = ĐÚNG hơn
+  → EXTREMELY HIGH threshold + EXTREMELY FAST clear → PFC near-empty continuously
+  → "Jumping": PFC waits for a large enough chunk → CAN'T FIND ONE → scans → jumps → scans
+    = NOT "can't focus" → "there's nothing BIG ENOUGH to focus ON"
+  → "Hyperactive": PFC empty → energy HAS NO cognitive task → escapes through motor
+    = NOT "too much energy" → "energy HAS NO task"
+  → "Emotional dysregulation": emotion = LARGE chunk → EXCEEDS threshold → received
+    → BUT PFC has little practice regulating → emotion "explodes"
+  → = "ADHD = weak PFC" = WRONG. "ADHD = STRICT filter + FAST clear" = MORE ACCURATE
 
 
-⭐ TRADE-OFF: thấy NHIỀU ≠ chọn TỐT:
+⭐ TRADE-OFF: seeing MORE ≠ choosing BETTER:
 
-  Detail: nhận 100 chunks → PFC workspace chỉ 4±1 → phải sequential → TỐN PFC
-  Balanced: nhận vừa → filter vừa → ĐỦ
-  Big picture: nhận 10 chunks → mỗi cái CHẤT LƯỢNG → chọn NHANH → nhưng miss nhỏ tốt
-  ADHD: nhận cực ít → khi có = CỰC CHẤT → nhưng miss GẦN HẾT
+  Detail: receives 100 chunks → PFC workspace only 4±1 → must be sequential → HEAVY PFC LOAD
+  Balanced: receives moderate → moderate filter → SUFFICIENT
+  Big picture: receives 10 chunks → each HIGH QUALITY → chooses FAST → but misses small good ones
+  ADHD: receives very few → when it arrives = EXTREMELY HIGH QUALITY → but misses ALMOST EVERYTHING
 
-  → KHÔNG CÓ vị trí "TỐT NHẤT tuyệt đối"
+  → NO position is "best" in absolute terms
   → Trade-off: QUANTITY seen ↔ QUALITY per selection
-  → Mỗi vị trí TỐT cho context KHÁC
+  → Each position is BEST for a DIFFERENT context
 
   ⭐ SELF-OBSERVATION BASELINE PER ATTENTION TYPE (Self-Observation.md §5):
-    Detail-oriented: threshold THẤP → body signal NHỎ cũng vượt → Self-Observation BASELINE CAO
-      → Auto-capture self-signals → "hay nhận ra mình đang sao"
-      → Nhược: noise cao (quá nhiều signal → khó phân biệt)
-    Balanced: Self-Observation baseline VỪA → cần delta > moderate
-    Big Picture: threshold CAO → body signal nhỏ bị filter → Self-Observation BASELINE THẤP
-      → Cần signal mạnh (major emotion, physical pain) mới Self-Observe
-    ADHD range: threshold CỰC CAO → Self-Observation CỰC THẤP (trừ emotion spikes)
-      → Cần amplify signal: quiet environment, journaling, meditation
-    → Attention hardware = 1 trong 4 hardware factors của Self-Observation
+    Detail-oriented: LOW threshold → even SMALL body signals exceed it
+      → Self-Observation BASELINE HIGH
+      → Auto-captures self-signals → "often notices how I'm feeling"
+      → Weakness: high noise (too many signals → hard to distinguish)
+    Balanced: Self-Observation baseline MODERATE → needs delta > moderate
+    Big Picture: HIGH threshold → small body signals filtered → Self-Observation BASELINE LOW
+      → Needs strong signals (major emotion, physical pain) to Self-Observe
+    ADHD range: EXTREMELY HIGH threshold → Self-Observation EXTREMELY LOW
+      (except for emotion spikes)
+      → Need to amplify signal: quiet environment, journaling, meditation
+    → Attention hardware = 1 of 4 hardware factors of Self-Observation
 ```
 
 ---
 
-## §3 — Hyperfocus: Threshold Cao = Noise Cancelling
+## §3 — Hyperfocus: High Threshold = Noise Cancelling
 
 ```
-🟡 Hyperfocus = threshold CAO → khi vượt → TOÀN BỘ attention DỒN:
+🟡 Hyperfocus = HIGH threshold → when exceeded → ALL attention CONVERGES:
 
-  Balanced focus: nhận chunk nhỏ từ MỌI hướng → attention HƠI phân tán
-    → Focus vào task → VẪN nhận signal nhẹ từ chỗ khác → CÓ THỂ distract
+  Balanced focus: receives small chunks from ALL directions → attention SLIGHTLY scattered
+    → Focus on task → STILL receives light signals from elsewhere → CAN be distracted
 
-  Big picture / ADHD focus: CHỈ nhận chunk lớn → chunk nhỏ từ chỗ khác BLOCKED
-    → Focus vào task có chunk lớn → noise HOÀN TOÀN bị filter
-    → = "Noise cancelling TỰ NHIÊN" → focus THUẦN KHIẾT
+  Big picture / ADHD focus: ONLY receives large chunks → small chunks from elsewhere BLOCKED
+    → Focus on task with large chunks → noise COMPLETELY filtered
+    → = "NATURAL noise cancelling" → PURE focus
 
-  Khi nào hyperfocus xảy ra:
-    ① Domain CHO chunk lớn liên tục (game, code, art, sport, music)
-    ② Chunks tích lũy ĐỦ trong domain (base knowledge)
-    ③ Body-base CÓ connection (thích domain → opioid khi process)
-    → ①+②+③ = hyperfocus LOCK → giờ → nhiều giờ → quên ăn ngủ
+  When hyperfocus occurs:
+    ① Domain GENERATES large chunks continuously (games, code, art, sport, music)
+    ② Chunks accumulated SUFFICIENTLY in domain (base knowledge)
+    ③ Body-base HAS connection (likes domain → opioid when processing)
+    → ①+②+③ = hyperfocus LOCK → hours → many hours → forgets to eat and sleep
 
-  Tại sao NGUY HIỂM:
-    → Body signal (đói, mệt) = chunk NHỎ → threshold CHẶN
-    → "Game 12 giờ quên ăn" = KHÔNG phải "nghiện"
-    → = body signal bị filter bởi cùng mechanism noise cancelling
+  Why DANGEROUS:
+    → Body signals (hunger, fatigue) = SMALL chunks → threshold BLOCKS
+    → "Gaming 12 hours forgetting to eat" = NOT "addiction"
+    → = body signals filtered by the SAME noise-cancelling mechanism
 
-  Tại sao ADVANTAGE:
-    → Balanced focus 4 giờ: good work, có distractions → output 80%
-    → Big picture focus 4 giờ: noise blocked → output 100%
-    → ADHD focus 4 giờ: EVERYTHING blocked → output 120%
-    → = Khi đúng domain → threshold cao VƯỢT balanced vì focus QUALITY cao hơn
+  Why ADVANTAGE:
+    → Balanced focus 4 hours: good work, some distractions → output 80%
+    → Big picture focus 4 hours: noise blocked → output 100%
+    → ADHD focus 4 hours: EVERYTHING blocked → output 120%
+    → = Given the RIGHT domain → high threshold SURPASSES balanced
+      because focus QUALITY is higher
 
   → ADHD ≠ "attention deficit"
   → = "Attention ALLOCATION extreme":
-    Chunk nhỏ: ZERO attention
-    Chunk lớn: ALL attention
-  → Tên ĐÚNG HƠN: "Variable Attention" hoặc "Threshold Attention"
+    Small chunk: ZERO attention
+    Large chunk: ALL attention
+  → More accurate name: "Variable Attention" or "Threshold Attention"
 ```
 
 ---
@@ -222,34 +227,34 @@ ADHD RANGE (extreme):
 ## §4 — Classroom × Spectrum
 
 ```
-🟡 Classroom hiện đại THIẾT KẾ cho balanced:
+🟡 Modern classroom DESIGNED for balanced:
 
-  Format: 1 giáo viên nói → học sinh nghe → chunk NHỎ + sequential + liên tục
-  Thi cử: recall detail → chunk NHỎ chính xác
-  = MATCH cho balanced (chunk vừa, steady, sequential)
+  Format: 1 teacher speaks → students listen → SMALL chunks + sequential + continuous
+  Exams: recall detail → precise SMALL chunks
+  = MATCH for balanced (moderate chunks, steady, sequential)
 
-  ┌──────────────┬──────────────────────────────────────────────┐
-  │ Position     │ Trải nghiệm classroom                       │
-  ├──────────────┼──────────────────────────────────────────────┤
-  │ Detail       │ THOẢI MÁI — chunk nhỏ = nghe HẾT            │
-  │              │ Có thể CHÁN vì QUÁ DỄ                       │
-  ├──────────────┼──────────────────────────────────────────────┤
-  │ Balanced     │ OK — classroom THIẾT KẾ cho nhóm này        │
-  ├──────────────┼──────────────────────────────────────────────┤
-  │ Big picture  │ KHÓ — chunk nhỏ bị filter → không thấy      │
-  │              │ "Bị coi: lười, không tập trung"              │
-  │              │ THỰC RA: filter chặn → KHÔNG PHẢI không muốn │
-  ├──────────────┼──────────────────────────────────────────────┤
-  │ ADHD range   │ GẦN NHƯ IMPOSSIBLE — chunk cô giảng invisible│
-  │              │ "Bị coi: bệnh, hư, cần thuốc"               │
-  │              │ THỰC RA: hardware KHÔNG match classroom       │
-  └──────────────┴──────────────────────────────────────────────┘
+  ┌──────────────────┬──────────────────────────────────────────────┐
+  │ Position         │ Classroom experience                         │
+  ├──────────────────┼──────────────────────────────────────────────┤
+  │ Detail           │ COMFORTABLE — small chunks = hears everything │
+  │                  │ May get BORED because it's too easy          │
+  ├──────────────────┼──────────────────────────────────────────────┤
+  │ Balanced         │ OK — classroom DESIGNED for this group       │
+  ├──────────────────┼──────────────────────────────────────────────┤
+  │ Big picture      │ DIFFICULT — small chunks filtered → invisible │
+  │                  │ Labelled as: lazy, inattentive               │
+  │                  │ REALITY: filter blocks it → NOT unwilling    │
+  ├──────────────────┼──────────────────────────────────────────────┤
+  │ ADHD range       │ NEARLY IMPOSSIBLE — teacher's chunks invisible│
+  │                  │ Labelled as: disordered, "bad kid", needs meds│
+  │                  │ REALITY: hardware doesn't match classroom     │
+  └──────────────────┴──────────────────────────────────────────────┘
 
-  ⭐ "FAIL ở trường ≠ FAIL ở đời":
-    Trường = 1 environment CỤ THỂ (chunk nhỏ, sequential)
-    Đời = NHIỀU environments (chunk lớn, nhỏ, mix)
-    Big picture / ADHD: fail ở trường → excel ở đời (đúng domain)
-    = School performance ≠ life performance → vì MATCH khác
+  ⭐ "FAIL at school ≠ FAIL in life":
+    School = 1 SPECIFIC environment (small chunks, sequential)
+    Life = MANY environments (large chunks, small, mixed)
+    Big picture / ADHD: fail at school → excel in life (right domain)
+    = School performance ≠ life performance → because MATCH differs
 ```
 
 ---
@@ -257,35 +262,36 @@ ADHD RANGE (extreme):
 ## §5 — Methylphenidate (Ritalin)
 
 ```
-🟢 Ritalin = DAT blocker → dopamine ở trong synapse LÂU HƠN:
+🟢 Ritalin = DAT blocker → dopamine stays in synapse LONGER:
 
-  KHÔNG PHẢI: "Ritalin cho thêm dopamine"
-  MÀ LÀ: "Ritalin giữ dopamine HIỆN CÓ ở lại LÂU hơn"
-  → Signal từ chunk nhỏ MẠNH HƠN → VƯỢT threshold → PFC nhận
+  NOT: "Ritalin adds more dopamine"
+  BUT: "Ritalin keeps EXISTING dopamine around LONGER"
+  → Signal from small chunk STRONGER → EXCEEDS threshold → PFC receives it
 
   ADHD + Ritalin:
-    TRƯỚC: chunk nhỏ → signal NHẸ → threshold CỰC CAO → KHÔNG qua → PFC trống
-    SAU:   chunk nhỏ → signal NHẸ → Ritalin GIỮ LẠI → signal TĂNG → VƯỢT → PFC thấy
-    → "Tập trung được" = PFC GIỜ CÓ chunks để process
+    BEFORE: small chunk → LIGHT signal → EXTREME threshold → DOESN'T PASS → PFC empty
+    AFTER:  small chunk → LIGHT signal → Ritalin HOLDS IT → signal AMPLIFIED → PASSES → PFC sees it
+    → "Can focus now" = PFC NOW HAS chunks to process
 
 
-🟡 Tại sao stimulant "bình tĩnh" ADHD (nghịch lý):
+🟡 Why stimulant "calms" ADHD (the paradox):
 
-  "Stimulant → người thường hyperactive → ADHD bình tĩnh???"
+  "Stimulant → hyperactivates typical people → calms ADHD???"
 
-  Giải thích:
-    → ADHD "nhảy" = PFC scan tìm chunk đủ lớn → KHÔNG TÌM THẤY → nhảy
-    → Ritalin: chunk nhỏ GIỜ THẤY → PFC CÓ cái process → DỪNG scan
-    → "Bình tĩnh" = PFC ĐÃ TÌM THẤY chunk → DỪNG nhảy → ngồi yên
-    → = KHÔNG phải "giảm energy" → "cho PFC CÁI ĐỂ LÀM"
+  Explanation:
+    → ADHD "jumping" = PFC scanning for a large enough chunk → CAN'T FIND ONE → jumps
+    → Ritalin: small chunk NOW VISIBLE → PFC HAS something to process → STOPS scanning
+    → "Calm" = PFC HAS FOUND a chunk → STOPS jumping → sits still
+    → = NOT "reduces energy" → "gives PFC SOMETHING TO DO"
 
   🟢 Research support:
-    → ADHD + DRD4-7R: cần LIỀU CAO HƠN Ritalin (Swanson 2000)
-    → Consistent: threshold cao → cần signal mạnh hơn → cần nhiều Ritalin
+    → ADHD + DRD4-7R: requires HIGHER doses of Ritalin (Swanson 2000)
+    → Consistent: high threshold → needs stronger signal → needs more Ritalin
 
-  → Ritalin KHÔNG "chữa" → Ritalin "ADJUST filter tạm thời"
-  → Dừng Ritalin → filter quay lại → "nhảy" lại
-  → = "Kính cận" — đeo = thấy rõ, bỏ = mờ lại → KHÔNG "chữa mắt"
+  → Ritalin does NOT "cure" → Ritalin "TEMPORARILY ADJUSTS the filter"
+  → Stop Ritalin → filter returns → "jumping" returns
+  → = "Glasses" analogy — wearing = seeing clearly, removed = blurry again
+    → does NOT "fix your eyes"
 ```
 
 ---
@@ -293,32 +299,32 @@ ADHD RANGE (extreme):
 ## §6 — AI Era × Attention Spectrum
 
 ```
-🟡 AI thay đổi ADVANTAGE trên spectrum:
+🟡 AI changes the ADVANTAGE distribution across the spectrum:
 
-  TRƯỚC AI:
-    Information access = ĐỌC + NHỚ (chunk nhỏ sequential)
-    → Detail/balanced advantage: đọc tốt, nhớ tốt → success trong system
-    → Big picture: đọc CHÁN, nhớ KÉM detail → fail trong system
+  BEFORE AI:
+    Information access = READ + MEMORIZE (small chunks, sequential)
+    → Detail/balanced advantage: reads well, memorizes well → success in the system
+    → Big picture: reading is BORING, poor detail memory → fails in the system
 
-  VỚI AI:
-    AI đọc + nhớ + recall TỐT HƠN MỌI NGƯỜI
-    → Detail advantage (đọc + nhớ) BỊ AI THAY THẾ
-    → Cái AI KHÔNG CÓ: body check, intuition, cross-domain feel
-    → Cái CÒN GIÁ TRỊ: asking right questions + somatic check + cross-domain
+  WITH AI:
+    AI reads + memorizes + recalls BETTER THAN ANYONE
+    → Detail advantage (reading + memorizing) REPLACED BY AI
+    → What AI DOESN'T HAVE: body check, intuition, cross-domain feel
+    → What STILL HAS VALUE: asking the right questions + somatic check + cross-domain
 
   SHIFT:
-    Detail value:       ↓ (AI detail tốt hơn)
-    Balanced value:     → (vẫn ok)
-    Big picture value:  ↑ (AI thiếu cross-domain feel)
-    ADHD value:         ↑↑ (nếu đúng domain + AI hỗ trợ detail)
+    Detail value:       ↓ (AI detail is better)
+    Balanced value:     → (still ok)
+    Big picture value:  ↑ (AI lacks cross-domain feel)
+    ADHD value:         ↑↑ (if right domain + AI handles detail)
 
-  AI HỖ TRỢ MỌI spectrum position:
-    Detail + AI:      "detail + AI big picture" = MẠNH
-    Balanced + AI:    "balanced + AI boost" = TỐT
-    Big picture + AI: "big picture + AI detail" = CỰC MẠNH
-    ADHD + AI:        "extreme focus + AI fill gaps" = ĐỈNH nếu đúng domain
-    → AI = EQUALIZER → giúp MỌI position
-    → Nhưng big picture / ADHD benefit NHIỀU nhất (bù được weakness)
+  AI SUPPORTS EVERY spectrum position:
+    Detail + AI:        "detail + AI big picture" = POWERFUL
+    Balanced + AI:      "balanced + AI boost" = GOOD
+    Big picture + AI:   "big picture + AI detail" = EXTREMELY POWERFUL
+    ADHD + AI:          "extreme focus + AI fills gaps" = PEAK if right domain
+    → AI = EQUALIZER → helps EVERY position
+    → But big picture / ADHD benefit MOST (can compensate for weakness)
 ```
 
 ---
@@ -329,8 +335,8 @@ ADHD RANGE (extreme):
 🟢 ESTABLISHED:
   Attention = individual differences (decades of research)
   COMT Val/Met effects (Egan 2001 — well-replicated)
-  DRD4-7R tần suất CAO hơn ở ADHD children (LaHoste 1996)
-  DRD4-7R receptor binding yếu hơn (Van Tol 1992)
+  DRD4-7R higher frequency in ADHD children (LaHoste 1996)
+  DRD4-7R receptor binding weaker (Van Tol 1992)
   ADHD + Ritalin: mechanism = DAT blocker (established pharmacology)
   ADHD population ~5-10% (epidemiological data)
   Hyperfocus = recognized ADHD phenomenon
@@ -339,11 +345,11 @@ ADHD RANGE (extreme):
 🟡 FRAMEWORK SYNTHESIS:
   Attention = multi-factor continuous spectrum (novel integration)
   COMT + chunk threshold + NE + cortisol model (novel)
-  Hyperfocus = threshold cao → noise cancelling (novel mechanism)
-  Ritalin "cho PFC cái để làm" (novel framing)
+  Hyperfocus = high threshold → noise cancelling (novel mechanism)
+  Ritalin "gives PFC something to do" (novel framing)
   Classroom mismatch = hardware vs environment (novel framing)
   AI era: big picture advantage shift (novel)
-  "Variable Attention" tên thay "Attention Deficit" (novel)
+  "Variable Attention" name vs "Attention Deficit" (novel)
 
 🔴 NEEDS MORE RESEARCH:
   Exact multi-factor interaction (COMT × DRD4 × NE × cortisol)
@@ -371,14 +377,14 @@ PFC FOLDER:
 CORE:
   Cortisol-Baseline.md v2.0 — Cortisol affects attention state
   Imagination.md §5 — Cortisol × imagine modes (7-level table)
-  Core-v7.8-Draft.md §6 — PFC trong kiến trúc cycle
+  Core-Software.md §6 — PFC within cycle architecture
 
 OLD FILE (backup):
   Imagination/backup/Attention-Spectrum-v1.md — source content (664L)
 
 SELF-OBSERVATION:
   Self-Observation.md v1.0 §5 — Self-Observation baseline per attention type
-    → Detail-oriented: HIGH baseline (low threshold). ADHD: LOW baseline (cần amplify)
+    → Detail-oriented: HIGH baseline (low threshold). ADHD: LOW baseline (need to amplify)
     → Attention hardware = 1/4 hardware factors
 
 HEALTH CONDITIONS DRILL (v2.1):
@@ -392,14 +398,15 @@ HEALTH CONDITIONS DRILL (v2.1):
 
 ---
 
-> **Attention-Spectrum.md v2.0 DRAFT**
+> **Attention-Spectrum.md v2.1**
 >
-> Attention = spectrum liên tục, multi-factor:
+> Attention = continuous, multi-factor spectrum:
 > COMT (clear speed) + chunk threshold + NE + cortisol state.
 > Detail ← Balanced → Big Picture → ADHD range.
-> KHÔNG CÓ vị trí "tốt nhất" → trade-off QUANTITY ↔ QUALITY.
-> Hyperfocus = threshold cao → noise cancelling tự nhiên.
+> NO position is "best" — trade-off QUANTITY ↔ QUALITY.
+> Hyperfocus = high threshold → natural noise cancelling.
 > Classroom designed for balanced → mismatch ≠ failure.
-> AI era: big picture advantage tăng, detail advantage giảm.
+> AI era: big picture advantage increases, detail advantage decreases.
+> v2.1: ADHD inverted-U validates spectrum model (Health Conditions Drill).
 >
-> Phiên bản: v2.0, 2026-04-19.
+> Version: v2.1, 2026-05-15.

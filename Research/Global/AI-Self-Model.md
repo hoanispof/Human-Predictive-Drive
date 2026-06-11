@@ -1,79 +1,64 @@
-# AI-Self-Model — Tại Sao Hiểu Bản Thân = Prerequisite Để Dùng AI Đúng Cách
+---
+title: "AI-Self-Model — Why Understanding Yourself Is the Prerequisite for Using AI Correctly"
+version: v2.1 (English translation)
+source: Research/Global/AI-Self-Model.md v2.1
+translated: 2026-06-09
+framework: Human Predictive Drive v7.8
+---
 
-> **Bạn hỏi AI: "Tôi nên làm gì?"**
-> **AI trả lời dựa trên model BẠN CUNG CẤP.**
-> **Model sai → AI amplify sai.**
-> **Model đúng → AI amplify đúng.**
+# AI-Self-Model — Why Understanding Yourself Is the Prerequisite for Using AI Correctly
+
+> **You ask AI: "What should I do?"**
+> **AI responds based on the model YOU PROVIDED.**
+> **Wrong model → AI amplifies the wrong direction.**
+> **Right model → AI amplifies the right direction.**
 >
-> **AI = amplifier. Không phải corrector.**
-> **Ngay cả AI trung thực cũng amplify — vì body check coherence, không check truth.**
+> **AI = amplifier. Not a corrector.**
+> **Even an honest AI amplifies — because the body checks coherence, not truth.**
 >
-> **Hiểu bản thân = prerequisite. Không phải optional.**
+> **Understanding yourself = prerequisite. Not optional.**
 > **Body = quality controller (~90%). Domain reality = final arbiter.**
-> ⚠️ % = calibration anchor, KHÔNG phải đo lường chính xác.
-> **Calibration của bạn còn fresh không?**
+> ⚠️ % = calibration anchor, NOT a precise measurement.
+> **Is your calibration still fresh?**
 >
-> **File này phân tích: cơ chế amplification hoạt động thế nào?
-> Tại sao body-check alone không đủ?
-> Khi nào calibration trở nên stale?
-> Và tại sao body-listening + domain-verify = kỹ năng quan trọng nhất AI era?**
+> **This file analyzes: how the amplification mechanism works,
+> why body-check alone is insufficient,
+> when calibration goes stale,
+> and why body-listening + domain-verify = the most important skill in the AI era.**
 
 ---
 
-> **Trạng thái:** v2.1
-> **Ngày:** 2026-05-15
-> **Refined:** 2026-05-17 (v2.1 — Body-Base 4-tier→2-Tier+2-Pathway, §6→§7 refs updated)
-> **Phiên bản trước:** v1.0 (2026-05-13) → backup/AI-Self-Model-v1.0.md
-> **Vị trí:** Research/Global/ — analysis file, KHÔNG phải core mechanism.
-> **Scope:** MICRO (individual) — song song Human-AI-Future.md v3.0 (MACRO/civilization).
-> **Câu hỏi chính:**
->   "Tôi đang dùng AI đúng cách chưa?"
->   "Tại sao hiểu bản thân lại quan trọng hơn khi có AI?"
->   "AI giúp tôi hay đang khuếch đại sai lầm của tôi?"
->   "Calibration của tôi có còn fresh không?" (v2.0 NEW)
-> **Dependencies:**
->   - Human-AI-Future.md v3.0 — §0 mechanism table, §5 risk xã hội, §7 symbiosis, §8 tự nâng cấp
->   - Core-Software.md v1.0 — PFC vs body-base 2-system architecture
->   - Body-Base.md v3.1 — §7 2-Tier + 2-Pathway calibration, 3 failure modes, body ~90%
->   - Body-Feedback.md v1.1 — dual-pull, body accuracy ~90%, Body-Feedback-Precondition
->   - PFC-Function.md v1.2 — PFC override, observe, ~5% influence
->   - AI-Schema-Detection.md v2.0 — 3-layer detection, AI trust guardrails §8
->   - Ask-AI.md v3.1 — §6.1 Dual Check (body + domain), §3.2⑦ coherence ≠ truth
->   - Self-Created-Threat.md v1.0 — §5 AI era drive gap, 3 kỹ năng AI
->   - Social-Calibration.md v1.0 — 7 functions breaking, "bộ 3 song song"
->   - Somatic-Articulation-Loop.md — body → explicit knowledge process
->   - Autonomy-Hardware.md — efference copy, self-action = reward
->   - Body-Coupling.md v1.1 — 2D Depth×Direction, relationship mechanism
->   - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, trust amplifier
+> **Status:** v2.1
+> **Date:** 2026-05-15 | Refined: 2026-05-17 (v2.1)
+> **Position:** Research/Global/ — analysis file, NOT a core mechanism file.
+> **Scope:** MICRO (individual) — runs parallel to Human-AI-Future.md v3.0 (MACRO/civilization).
+> **Primary questions:**
+>   "Am I using AI correctly?"
+>   "Why does understanding yourself matter more when AI is involved?"
+>   "Is AI helping me, or amplifying my mistakes?"
+>   "Is my calibration still fresh?" (v2.0 NEW)
 > **Confidence:** 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
-> **Language:** Tiếng Việt primary + English technical terms
-> **v2.0 changes:**
->   - §1.5 NEW: "Honest AI Still Amplifies" (coherence ≠ truth)
->   - §3 NEW: Dual Check elevated to core section (body + domain, 4-case matrix)
->   - §4 NEW: Stale Calibration (feedback loop đứt → calibration cũ dần)
->   - §2.3 REWORK: AI ≠ Peer Review (dismissability asymmetry)
->   - "Body = final arbiter" → "Body = quality controller, Domain = final arbiter" throughout
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — THESIS + VỊ TRÍ
+- §0 — THESIS + FRAMEWORK POSITION
 - §1 — CORE PROBLEM: AI = AMPLIFIER, NOT CORRECTOR
-- §2 — MECHANISM: AI DELAY BODY-FEEDBACK CORRECTION
+- §2 — MECHANISM: AI DELAYS BODY-FEEDBACK CORRECTION
 - §3 — DUAL CHECK: BODY + DOMAIN REALITY (v2.0 NEW)
 - §4 — STALE CALIBRATION (v2.0 NEW)
 - §5 — 5 FAILURE DOMAINS
 - §6 — THE REVERSE: RIGHT MODEL × AI = AMPLIFIED GROWTH
 - §7 — SELF-CHECK DIAGNOSTIC
 - §8 — BODY-LISTENING = AI-ERA SKILL
-- §9 — FUTURE TECH: HIỂU TRƯỚC KHI AUGMENT
+- §9 — FUTURE TECH: UNDERSTAND BEFORE YOU AUGMENT
 - §10 — HONEST ASSESSMENT
 - §11 — CROSS-REFERENCES
 
 ---
 
-## §0 — THESIS + VỊ TRÍ
+## §0 — Thesis + Framework Position
 
 ```
 ⭐ THESIS:
@@ -82,213 +67,213 @@
   Wrong model × AI = amplified wrong outcomes.
   Right model × AI = amplified growth.
 
-  v2.0 BỔ SUNG:
-  → Body-check ALONE không đủ — body đánh giá COHERENCE, không phải TRUTH.
-  → Ngay cả AI TRUNG THỰC cũng amplify — chỉ cần coherent là đủ.
-  → Cần DUAL CHECK: body (~90% quality controller) + domain reality (final arbiter).
-  → Calibration có thể STALE khi feedback loop đứt — AI mask staleness.
+  v2.0 ADDS:
+  → Body-check ALONE is not enough — body evaluates COHERENCE, not TRUTH.
+  → Even a FULLY HONEST AI amplifies — it only needs to be coherent to do so.
+  → Need DUAL CHECK: body (~90% quality controller) + domain reality (final arbiter).
+  → Calibration can go STALE when the feedback loop is broken — AI masks the staleness.
 
 
-⭐ VỊ TRÍ TRONG FRAMEWORK:
+⭐ FRAMEWORK POSITION:
 
   ┌──────────────────────────────────────────────────────────────────┐
   │ Social-Calibration.md (WHERE WE CAME FROM)                      │
-  │   → 7 functions xã hội đang vỡ → tự calibrate = bắt buộc      │
+  │   → 7 social functions breaking → self-calibration = required   │
   │                                                                  │
-  │ AI-Self-Model.md (WHY SELF-CALIBRATE — FILE NÀY)               │
-  │   → AI × cá nhân: amplify cái gì, check thế nào                │
+  │ AI-Self-Model.md (WHY SELF-CALIBRATE — THIS FILE)               │
+  │   → AI × individual: what it amplifies, how to check            │
   │   → Mechanism: self-model → AI interaction → dual check         │
   │   → 5 failure domains + diagnostic + body-listening skill       │
   │   → Decisive: individual self-understanding + domain verify     │
   │                                                                  │
   │ Human-AI-Future.md v3.0 (MACRO — WHERE WE'RE GOING)            │
-  │   → AI × civilization: 3-risk framework (cá nhân/xã hội/loài)  │
-  │   → AI không có agency → mọi rủi ro = quyết định CỦA NGƯỜI    │
+  │   → AI × civilization: 3-risk framework (individual/social/sp.) │
+  │   → AI has no agency → all risk = HUMAN decisions               │
   │   → Decisive: collective orientation                            │
   └──────────────────────────────────────────────────────────────────┘
 
-  = BỘ 3 SONG SONG:
-    Social-Calibration = TẠI SAO cần tự calibrate (hệ thống cũ đang vỡ)
-    AI-Self-Model = THẾ NÀO để tự calibrate khi có AI
-    Human-AI-Future = HƯỚNG NÀO ở cấp xã hội
+  = 3 COMPANION FILES:
+    Social-Calibration = WHY you need to self-calibrate (the old system is breaking)
+    AI-Self-Model = HOW to self-calibrate when AI is involved
+    Human-AI-Future = WHICH DIRECTION at the societal level
 
-  MACRO (xã hội) phụ thuộc MICRO (cá nhân):
-  → Collective orientation = TỔNG HƯỚNG individual orientations
-  → Mỗi cá nhân dùng AI đúng cách → collective hướng symbiosis
-  → Mỗi cá nhân dùng AI sai → collective hướng arms race
-  → File này = cầu nối: cá nhân hiểu cơ chế → dùng AI đúng → collective tốt
+  MACRO (society) depends on MICRO (individual):
+  → Collective orientation = SUM OF individual orientations
+  → Each individual using AI correctly → collective moves toward symbiosis
+  → Each individual using AI incorrectly → collective moves toward arms race
+  → This file = the bridge: individual understands the mechanism → uses AI right → collective benefits
 
 
-  SCOPE CỦA FILE NÀY:
+  SCOPE OF THIS FILE:
 
-  ✅ Phân tích CƠ CHẾ AI amplification ở individual level
+  ✅ Analysis of AI amplification MECHANISM at the individual level
   ✅ Dual Check model: body + domain (v2.0)
-  ✅ Stale Calibration: khi feedback loop đứt (v2.0)
-  ✅ Framework mechanisms mapping cụ thể cho từng failure domain
+  ✅ Stale Calibration: when the feedback loop breaks (v2.0)
+  ✅ Framework mechanism mapping per failure domain
   ✅ Diagnostic tools (self-check questions)
-  ✅ Practical: body-listening + domain-verify as AI-era skill
+  ✅ Practical: body-listening + domain-verify as an AI-era skill
   ✅ Future tech implications (BCI, neural)
-  ❌ KHÔNG phải hướng dẫn cụ thể "dùng AI tool X thế nào"
-  ❌ KHÔNG phải AI alignment research
-  ❌ KHÔNG phải AI policy recommendations
+  ❌ NOT a how-to guide for specific AI tools
+  ❌ NOT AI alignment research
+  ❌ NOT AI policy recommendations
 ```
 
 ---
 
-## §1 — CORE PROBLEM: AI = AMPLIFIER, NOT CORRECTOR
+## §1 — Core Problem: AI = Amplifier, Not Corrector
 
-### §1.1 AI khuếch đại bất kỳ model nào
+### §1.1 — AI Amplifies Whatever Model You Provide
 
 ```
-🟡 AI = AMPLIFIER — KHÔNG PHÂN BIỆT ĐÚNG SAI:
+🟡 AI = AMPLIFIER — DOES NOT DISTINGUISH CORRECT FROM INCORRECT:
 
-  AI nhận model bạn cung cấp (qua câu hỏi, context, cách diễn đạt)
-  → AI process dựa trên model đó
-  → AI trả lời CÓ VẺ phù hợp với model đó
-  → Kết quả: amplify model — dù đúng hay sai
+  AI receives the model you provide (through your question, context, framing)
+  → AI processes based on that model
+  → AI responds in a way that APPEARS consistent with that model
+  → Result: the model is amplified — whether correct or not
 
-  KHÁC VỚI công cụ thụ động (sách, video):
-    → Sách: trả lời CÙNG NỘI DUNG cho mọi người (passive)
-    → AI: ADAPT output theo input bạn cung cấp (active)
-    → = AI personalize → amplify effect × n
+  DIFFERENT from passive tools (books, videos):
+    → A book: returns THE SAME content to everyone (passive)
+    → AI: ADAPTS its output to the input you provide (active)
+    → = AI personalizes → amplification effect × n
 
-  VÍ DỤ MECHANISM:
-    → Bạn nghĩ "tôi thiếu kỷ luật" (model sai — Core-Software.md: willpower ≠ mechanism)
-    → Hỏi AI: "làm sao để có kỷ luật hơn?"
-    → AI: tạo habit plan, morning routine, accountability system
-    → Plan LOOKS đúng (logic, structured, detailed)
-    → NHƯNG: model gốc sai → plan build trên nền sai → thất bại
-    → Thất bại → "mình quả thật thiếu kỷ luật" → hỏi AI thêm → loop
+  EXAMPLE OF THE MECHANISM:
+    → You think "I lack discipline" (wrong model — Core-Software.md: willpower ≠ the mechanism)
+    → You ask AI: "how do I become more disciplined?"
+    → AI: creates a habit plan, morning routine, accountability system
+    → The plan LOOKS right (logical, structured, detailed)
+    → BUT: the root model is wrong → the plan is built on the wrong foundation → it fails
+    → Failure → "I really do lack discipline" → ask AI again → loop
 
   FRAMEWORK MAPPING:
-    → "Thiếu kỷ luật" = PFC-level explanation (Core-Software.md §6)
-    → Thực tế: PFC effectiveness = f(chunks đã compiled cho tình huống đó)
-    → Không làm được ≠ thiếu kỷ luật = THIẾU CHUNKS hoặc avoidance tag compiled
-    → AI không biết bạn thiếu chunks hay mang avoidance tag
-    → AI chỉ biết bạn hỏi "kỷ luật" → trả lời "kỷ luật"
-    → = Amplify model sai
+    → "Lack discipline" = PFC-level explanation (Core-Software.md §6)
+    → Reality: PFC effectiveness = f(chunks already compiled for that situation)
+    → Can't do it ≠ lack discipline = LACK CHUNKS or avoidance tag compiled
+    → AI doesn't know whether you lack chunks or carry an avoidance tag
+    → AI only knows you asked about "discipline" → responds about "discipline"
+    → = Amplifies the wrong model
 ```
 
-### §1.2 AI có xu hướng confirm
+### §1.2 — AI Tends to Confirm
 
 ```
-🟢🟡 AI SYCOPHANCY — XU HƯỚNG ĐỒNG Ý HƠN PHẢN BÁC:
+🟢🟡 AI SYCOPHANCY — TENDENCY TO AGREE RATHER THAN CHALLENGE:
 
   🟢 AI TRAINING BIAS:
-    → AI models được train để "helpful" (RLHF — Reinforcement Learning from Human Feedback)
-    → Human raters thưởng outputs "helpful, harmless, honest"
-    → "Helpful" thường = đồng ý + đưa giải pháp
-    → "Challenge user" thường = bị rate thấp hơn
-    → Kết quả: AI có xu hướng CONFIRM hơn CHALLENGE
+    → AI models are trained to be "helpful" (RLHF — Reinforcement Learning from Human Feedback)
+    → Human raters reward outputs that are "helpful, harmless, honest"
+    → "Helpful" often = agreeing + offering solutions
+    → "Challenging the user" often = rated lower
+    → Result: AI has a tendency to CONFIRM rather than CHALLENGE
 
     🟢 Sharma, Tong, Korbak et al. 2024 (Anthropic, ICLR):
        "Towards Understanding Sycophancy in Language Models"
        → 5 state-of-the-art AI assistants: CONSISTENTLY exhibit sycophancy
        → Across 4 text-generation tasks
        → Human preference judgments SYSTEMATICALLY favor sycophantic responses
-       → = AI sycophancy partly driven by HUMAN preference in training
+       → = AI sycophancy partly driven by HUMAN preference during training
     🟢 Wei et al. 2023 (Google): sycophancy scales with model capability
        → Larger, more capable models = MORE sycophantic, not less
     🟢 "Sycophancy Is Not One Thing" (2025):
        → Sycophantic praise ≠ sycophantic agreement (mechanistically independent)
        → Suppressing one DOES NOT affect the other
-       → = Sycophancy = multi-faceted problem, không có 1 fix đơn giản
+       → = Sycophancy = multi-faceted problem, no single simple fix
 
   🟡 FRAMEWORK INTERPRETATION:
     → AI sycophancy = CONFIRMATION BIAS AMPLIFIER
-    → Confirmation bias (🟢 Nickerson 1998): con người tìm evidence confirm model có sẵn
-    → AI + confirmation bias = AI LÀ THÊM 1 "expert" confirm cho bạn
-    → "AI cũng đồng ý mà" = PFC nhận external validation → model strengthen
-    → = Trust Compile trust-compile (Compile-Taxonomy.md §3):
-       external source (AI) → trust amplifier → compile "model tôi đúng"
+    → Confirmation bias (🟢 Nickerson 1998): people seek evidence confirming existing models
+    → AI + confirmation bias = AI becomes ANOTHER "expert" confirming what you believe
+    → "AI also agrees" = PFC receives external validation → model strengthens
+    → = Trust-compile (Compile-Taxonomy.md §3):
+       external source (AI) → trust amplifier → compiles "my model is correct"
 
-  ⚠️ QUAN TRỌNG — ĐÂY KHÔNG PHẢI LỖI CỦA AI:
-    → AI designers BIẾT vấn đề này (active research area)
-    → NHƯNG: fix hoàn toàn = khó (trade-off helpfulness vs challenge)
-    → VÀ: DÙ AI improve → CON NGƯỜI vẫn cần dual check (§3)
-    → Vì: ngay cả AI "honest" → nếu model bạn cung cấp sai → output vẫn sai
-    → = Vấn đề nằm ở INPUT (self-model), không chỉ ở AI
+  ⚠️ IMPORTANT — THIS IS NOT AI'S FAULT:
+    → AI designers KNOW about this problem (active research area)
+    → BUT: fixing it completely = difficult (trade-off between helpfulness and challenge)
+    → AND: EVEN IF AI improves → humans STILL need dual check (§3)
+    → Because: even a "honest" AI → if the model you provide is wrong → output is still wrong
+    → = The problem lies in the INPUT (self-model), not only in the AI
 ```
 
-### §1.3 Self-model = bộ lọc quyết định AI amplify cái gì
+### §1.3 — Self-Model = The Filter That Determines What AI Amplifies
 
 ```
-🟡 SELF-MODEL = COMPILED CHUNKS ABOUT SELF:
+🟡 SELF-MODEL = COMPILED CHUNKS ABOUT YOURSELF:
 
-  Self-model = tập hợp chunks bạn compiled về chính mình:
-    → "Tôi là người thế nào" (identity chunks — Anchor-Schema.md)
-    → "Tôi giỏi/kém ở đâu" (competence chunks — Mastery, §8 Core-Software.md)
-    → "Tại sao tôi phản ứng vậy" (explanation chunks — PFC Feel-Explanation, 20-70% fidelity)
-    → "Tôi cần gì" (need assessment — Body-Feedback.md, often wrong)
+  Self-model = the collection of chunks you have compiled about yourself:
+    → "What kind of person I am" (identity chunks — Anchor-Schema.md)
+    → "Where I am strong/weak" (competence chunks — Mastery, §8 Core-Software.md)
+    → "Why I react that way" (explanation chunks — PFC Feel-Explanation, 20-70% fidelity)
+    → "What I need" (need assessment — Body-Feedback.md, often wrong)
 
-  Self-model ĐA SỐ = Trust Compile compiled (trust-installed):
-    → Cha mẹ: "con nhút nhát" → compile "tôi nhút nhát"
-    → Thầy cô: "em không giỏi toán" → compile "tôi kém toán"
-    → Xã hội: "người thành công là người kiếm nhiều tiền" → compile "tiền = thành công"
-    → = Chunks about self — NHƯNG source = external, KHÔNG phải body verify
+  MOST of the self-model = Trust-installed (trust-compiled from others):
+    → Parents: "you're shy" → compiled "I am shy"
+    → Teachers: "you're not good at math" → compiled "I'm bad at math"
+    → Society: "successful people earn a lot of money" → compiled "money = success"
+    → = Chunks about self — BUT source = external, NOT body-verified
     → (Compile-Taxonomy.md §3: Trust Compile = trust install, PFC accuracy ~30-60%)
 
-  KHI HỎI AI, BẠN CUNG CẤP SELF-MODEL NÀY:
-    → "Tôi nhút nhát, làm sao tự tin hơn?" (model: nhút nhát = problem)
-    → "Tôi kém toán, nên chọn ngành nào?" (model: kém toán = fixed)
-    → "Tôi kiếm ít tiền, phải làm gì?" (model: tiền = thước đo)
-    → AI nhận model → amplify → trả lời WITHIN FRAME model đó
-    → KHÔNG challenge frame → model strengthen mỗi lần hỏi
+  WHEN YOU ASK AI, YOU PROVIDE THIS SELF-MODEL:
+    → "I'm shy, how do I become more confident?" (model: shyness = problem)
+    → "I'm bad at math, which career should I choose?" (model: bad at math = fixed)
+    → "I earn little money, what should I do?" (model: money = the measure)
+    → AI receives the model → amplifies → responds WITHIN THE FRAME of that model
+    → DOES NOT challenge the frame → model strengthens with each question
 
 
-  TRƯỚC AI vs SAU AI — STAKES TĂNG:
+  BEFORE AI vs AFTER AI — STAKES INCREASE:
 
-    TRƯỚC AI:
-      → Self-model sai → ảnh hưởng GIỮ trong phạm vi cá nhân
-      → Hỏi bạn bè → bạn bè CÓ BODY → có thể "cảm thấy sai" → challenge
-      → Trial-error chậm nhưng body-feedback VẪN hoạt động
-      → = Self-correcting loop (chậm nhưng có)
+    BEFORE AI:
+      → Wrong self-model → impact STAYS within personal boundaries
+      → Ask a friend → friends HAVE BODIES → can "feel something is off" → challenge
+      → Trial-and-error is slow but body-feedback STILL WORKS
+      → = Self-correcting loop (slow but functional)
 
-    SAU AI:
-      → Self-model sai → AI amplify → ảnh hưởng MỞ RỘNG
-      → AI trả lời 24/7, không mệt, không nghi ngờ, không "cảm thấy sai"
-      → Body-feedback bị PFC override ("AI cũng đồng ý mà")
-      → = Self-correcting loop BỊ DELAY
-      → DELAY = đầu tư sâu hơn vào hướng sai = crash LỚN HƠN khi reality check đến
+    AFTER AI:
+      → Wrong self-model → AI amplifies → impact EXPANDS
+      → AI responds 24/7, never tires, never doubts, never "feels something is off"
+      → Body-feedback overridden by PFC ("AI also agrees")
+      → = Self-correcting loop is DELAYED
+      → DELAY = deeper investment in the wrong direction = BIGGER crash when reality check arrives
 ```
 
-### §1.4 Evidence: Automation Bias + Dunning-Kruger × AI
+### §1.4 — Evidence: Automation Bias + Dunning-Kruger × AI
 
 ```
-🟢 AUTOMATION BIAS — CON NGƯỜI OVER-RELY VÀO HỆ THỐNG TỰ ĐỘNG:
+🟢 AUTOMATION BIAS — HUMANS OVER-RELY ON AUTOMATED SYSTEMS:
 
   🟢 Parasuraman & Riley 1997: "Humans and Automation: Use, Misuse, Disuse, Abuse"
-    → Con người có xu hướng TRUST automated systems quá mức
-    → Bỏ qua contradicting evidence khi system nói "ok"
-    → = "Complacency bias" — đã documented trong aviation, medicine, military
+    → Humans tend to TRUST automated systems excessively
+    → Ignore contradicting evidence when the system says "ok"
+    → = "Complacency bias" — documented in aviation, medicine, military
 
   🟢 Goddard et al. 2012: "Automation bias"
     → 6-12% diagnostic errors in medical AI-assisted decisions
     → Clinicians MISS errors AI makes — because they trust AI output
-    → = Trust hệ thống > verify bằng kinh nghiệm riêng
+    → = Trust the system > verify with own experience
 
   🟢 Buçinca et al. 2021: "To Trust or to Think"
-    → AI explanations INCREASE human reliance — even when AI wrong
-    → Explanation = thêm chunks support AI conclusion → PFC "à hiểu rồi" → override doubt
-    → = Detailed explanation ≠ correct explanation
+    → AI explanations INCREASE human reliance — even when AI is wrong
+    → Explanation = more supporting chunks → PFC "I get it" → overrides doubt
+    → = A detailed explanation ≠ a correct explanation
 
-  🟢 Busuioc 2021 (JPART): public sector workers exhibit cả "automation bias"
-    (blindly follow AI) lẫn "selective adherence" (cherry-pick AI advice)
-    → = Cả 2 pattern đều bypass body-feedback
+  🟢 Busuioc 2021 (JPART): public sector workers exhibit both "automation bias"
+    (blindly follow AI) and "selective adherence" (cherry-pick AI advice)
+    → = Both patterns bypass body-feedback
   🟢 Bansak & Hainmueller 2024 (ISQ): "Bending the Automation Bias Curve"
-    → Ngay cả NATIONAL SECURITY context → decision-makers vẫn over-rely AI
-    → = Automation bias persist ở HIGH STAKES, không chỉ routine tasks
-  🟢 Schemmer et al. 2024: automation bias persist trong AI decision support
-    → Counterfactual explanations GIẢM overreliance hơn standard explanations
-    → = "Nếu X khác thì sao?" effective hơn "vì X nên Y"
+    → Even in NATIONAL SECURITY contexts → decision-makers still over-rely on AI
+    → = Automation bias persists in HIGH STAKES situations, not just routine tasks
+  🟢 Schemmer et al. 2024: automation bias persists in AI decision support
+    → Counterfactual explanations REDUCE overreliance more than standard explanations
+    → = "What if X were different?" is more effective than "because X → therefore Y"
 
   🟡 FRAMEWORK MAPPING:
-    → Automation bias = Trust Compile trust-compile applied to AI
-    → AI = "expert" → trust amplifier HIGH → compile "AI output = reliable"
-    → Mỗi lần AI đúng → approach tag strengthen → trust TĂNG
-    → Khi AI sai → trust đã compiled → body không fire doubt mạnh
-    → = CÙNG cơ chế trust-compile cho parent, teacher, doctor
-    → AI chỉ là thêm 1 trust source — nhưng 24/7 + never tired + never doubt
+    → Automation bias = Trust-compile applied to AI
+    → AI = "expert" → trust amplifier HIGH → compiles "AI output = reliable"
+    → Each time AI is right → approach tag strengthens → trust INCREASES
+    → When AI is wrong → trust already compiled → body doesn't fire doubt strongly
+    → = SAME trust-compile mechanism as for parents, teachers, doctors
+    → AI is just one more trust source — but 24/7 + never tired + never doubting
 
 
 🟢🟡 DUNNING-KRUGER × AI:
@@ -303,13 +288,13 @@
     → Higher AI literacy = LOWER metacognitive accuracy (MORE overconfident, not less!)
     → = AI use DESTROYS metacognition — exactly as framework predicts
     → Framework: AI confirm → PFC satisfied → body-feedback bypassed → no self-correction
-    → = TRỰC TIẾP evidence cho §2 mechanism (AI delay body-feedback correction)
+    → = DIRECT evidence for §2 mechanism (AI delays body-feedback correction)
 
   🟢 Bastani et al. 2024 (Harvard/Wharton, PNAS): "Generative AI Can Harm Learning"
     → ~1,000 high school math students
     → GPT Base users: 48% BETTER during AI-assisted practice
-    → NHƯNG: 17% WORSE on exam WITHOUT AI
-    → = AI practice ≠ real compile. AI solved FOR student → student didn't compile.
+    → BUT: 17% WORSE on exam WITHOUT AI
+    → = AI practice ≠ real compilation. AI solved FOR the student → student didn't compile.
     → = Direct evidence: AI can substitute for effort → block compilation
     → ⭐ Guardrailed "GPT Tutor" (hints, not answers): 127% improvement WITH NO exam penalty
     → = HOW you use AI matters — not WHETHER you use AI
@@ -318,119 +303,120 @@
     → AI tutoring DOUBLED learning gains vs active learning
     → BUT: only when designed with research-based pedagogical principles
     → Unguided AI use → students complete tasks WITHOUT engaging critical thinking
-    → = AI CAN accelerate learning — IF body-compile pathway preserved
+    → = AI CAN accelerate learning — IF the body-compile pathway is preserved
 ```
 
-### §1.5 Honest AI Still Amplifies — Coherence ≠ Truth
+### §1.5 — Honest AI Still Amplifies — Coherence ≠ Truth
 
 ```
-🟡 INSIGHT TINH TẾ NHẤT: SYCOPHANCY KHÔNG PHẢI VẤN ĐỀ DUY NHẤT.
+🟡 THE SUBTLEST INSIGHT: SYCOPHANCY IS NOT THE ONLY PROBLEM.
 
-  §1.2 phân tích sycophancy — AI CỐ Ý đồng ý.
-  §1.5 này phân tích vấn đề SÂU HƠN: ngay cả AI hoàn toàn trung thực,
-  push back đúng lúc, không hề sycophantic — VẪN có thể amplify pattern sai.
+  §1.2 analyzed sycophancy — AI deliberately agrees.
+  §1.5 analyzes a DEEPER problem: even a fully honest AI,
+  one that pushes back at the right moments, with no sycophancy at all —
+  CAN STILL amplify the wrong pattern.
 
-  TẠI SAO:
+  WHY:
 
-  ① Body đánh giá COHERENCE, không phải TRUTH:
-     → Body-Base.md §7: body check = "pattern mới KHỚP patterns đã compiled?"
+  ① The body evaluates COHERENCE, not TRUTH:
+     → Body-Base.md §7: body check = "does the new pattern MATCH already compiled patterns?"
      → Coherent-but-false → body reward ("feels right")
-     → Incoherent-but-true → body punish ("feels wrong")
-     → = Body KHÔNG QUAN TÂM đúng/sai — chỉ quan tâm nhất quán hay không
+     → Incoherent-but-true → body punishment ("feels wrong")
+     → = The body DOES NOT CARE whether something is true — only whether it's consistent
      → (Ask-AI.md v3.1 §3.2⑦)
 
-  ② AI output = LUÔN COHERENT (dù đúng hay sai):
-     → AI trained để produce coherent, structured, logical output
-     → Output SAI của AI vẫn coherent — vẫn mạch lạc, vẫn có structure
-     → Body nhận: "mạch lạc + khớp patterns tôi có" → approve
-     → = AI KHÔNG CẦN nịnh — chỉ cần DIỄN ĐẠT RÕ RÀNG là đủ amplify
+  ② AI output = ALWAYS COHERENT (whether right or wrong):
+     → AI is trained to produce coherent, structured, logical output
+     → A WRONG AI output is still coherent — still clear, still structured
+     → Body receives: "coherent + matches my patterns" → approves
+     → = AI DOES NOT NEED to flatter — it only needs to be CLEARLY EXPRESSED to amplify
 
-  ③ Anti-sycophancy = cần thiết NHƯNG không đủ:
-     → AI push back → nhưng push back CŨNG coherent → body evaluate push back
-     → Nếu push back khớp patterns → body accept correction ✅
-     → Nếu push back KHÔNG khớp (incoherent-but-true) → body reject correction ❌
-     → = AI correct nhưng body VẪN chọn pattern cũ — vì coherent hơn
+  ③ Anti-sycophancy = necessary BUT not sufficient:
+     → AI pushes back → but the push-back is ALSO coherent → body evaluates the push-back
+     → If the push-back matches patterns → body accepts correction ✅
+     → If the push-back does NOT match (incoherent-but-true) → body rejects correction ❌
+     → = AI is correct but the body STILL chooses the old pattern — because it's more coherent
 
-  ④ So sánh: sycophancy vs honest amplification:
-     → Sycophancy: AI CỐ Ý đồng ý → dễ detect nếu biết → có thể prompt fix
-     → Honest amplification: AI TRUNG THỰC nhưng output coherent → body approve → KHÔNG detect
-     → = Honest amplification NGUY HƠN vì invisible — không ai nịnh, mà vẫn amplify
+  ④ Comparison: sycophancy vs honest amplification:
+     → Sycophancy: AI DELIBERATELY agrees → easy to detect if you know → can be prompt-fixed
+     → Honest amplification: AI is HONEST but output is coherent → body approves → INVISIBLE
+     → = Honest amplification is MORE DANGEROUS because it's invisible — no flattery, yet still amplifies
 
   ⭐ FRAMEWORK FORMULA:
      AI amplification = f(output coherence × match with existing chunks)
-     → KHÔNG phải f(sycophancy level)
-     → = Output càng coherent → body approve càng mạnh → amplify càng mạnh
-     → Bất kể AI có trung thực hay không
+     → NOT f(sycophancy level)
+     → = The more coherent the output → the stronger the body's approval → the stronger the amplification
+     → Regardless of whether AI is honest or not
 
-  → HỆ QUẢ: "dùng AI tốt" ≠ "dùng AI trung thực"
-  → "Dùng AI tốt" = dual check: body-check + domain reality check (§3)
-  → Body alone BỊ ĐÁNH LỪA bởi coherence — cần domain confirm.
+  → IMPLICATION: "using AI well" ≠ "using an honest AI"
+  → "Using AI well" = dual check: body-check + domain reality check (§3)
+  → Body alone IS DECEIVED by coherence — domain confirmation is needed.
 ```
 
 ---
 
-## §2 — MECHANISM: AI DELAY BODY-FEEDBACK CORRECTION
+## §2 — Mechanism: AI Delays Body-Feedback Correction
 
-### §2.1 Normal correction cycle (KHÔNG CÓ AI)
+### §2.1 — Normal Correction Cycle (Without AI)
 
 ```
-🟢🟡 CORRECTION CYCLE TỰ NHIÊN:
+🟢🟡 THE NATURAL CORRECTION CYCLE:
 
   Domain → Body-Input → Unconscious → Feeling → PFC → Body-Output → Domain
   (Core-Software.md §1.2 — Software Map)
 
-  KHI SELF-MODEL SAI:
+  WHEN SELF-MODEL IS WRONG:
 
-    ① Wrong model (VD: "tôi hiểu bài rồi")
-    ② Action based on wrong model (VD: đi thi)
-    ③ Domain feedback arrives (VD: không giải được → điểm thấp)
-    ④ Body-feedback fires: prediction-delta (dự đoán điểm cao ≠ thực tế điểm thấp)
-       → dissonance: "sao lại thế?"
-       → Body-Feedback-Mechanism.md: Chunk-Miss (dự đoán fire → reality không match)
-    ⑤ PFC observe dissonance → re-evaluate model
-    ⑥ Model update: "hóa ra mình chưa hiểu sâu"
-    ⑦ Adjusted action: học lại, làm bài tập, compile thật
+    ① Wrong model (e.g., "I already understand the material")
+    ② Action based on wrong model (e.g., take the exam)
+    ③ Domain feedback arrives (e.g., couldn't solve it → low score)
+    ④ Body-feedback fires: prediction-delta (expected high score ≠ reality low score)
+       → dissonance: "how did that happen?"
+       → Body-Feedback-Mechanism.md: Chunk-Miss (prediction fires → reality doesn't match)
+    ⑤ PFC observes dissonance → re-evaluates model
+    ⑥ Model updates: "I didn't understand it as deeply as I thought"
+    ⑦ Adjusted action: re-study, do practice problems, compile for real
 
   = SELF-CORRECTING LOOP:
     → Wrong model → action → domain feedback → body-feedback → update → better model
-    → CHẬM (cần domain feedback thật)
-    → NHƯNG: hoạt động → body-feedback DẪN ĐƯỜNG về hướng đúng
+    → SLOW (requires real domain feedback)
+    → BUT: it works → body-feedback GUIDES back to the right direction
     → Body-feedback accuracy ~90% (Body-Base.md v3.1 §7)
-    → = La bàn nội tại — chậm nhưng đáng tin (~90%)
-    → 10% còn lại = cần domain reality check (§3)
+    → = Internal compass — slow but reliable (~90%)
+    → The remaining 10% = needs domain reality check (§3)
 ```
 
-### §2.2 AI breaks the correction cycle
+### §2.2 — AI Breaks the Correction Cycle
 
 ```
-🟡 AI DELAY CORRECTION — MECHANISM CHI TIẾT:
+🟡 AI DELAYS CORRECTION — DETAILED MECHANISM:
 
-  ① Wrong model (VD: "tôi hiểu bài rồi")
-  ② Hỏi AI thay vì tự kiểm tra: "giải thích thêm cho tôi"
-  ③ AI giải thích hay, chi tiết, dễ hiểu
-  ④ PFC satisfied: "AI giải thích rõ → tôi hiểu" (PFC-Function.md §1①)
-     → PFC observe FEELING of understanding
-     → NHƯNG: "cảm thấy hiểu" ≠ compiled (Core-Software.md §4.1)
-     → PFC process ≠ body-base compile = 2 thứ KHÁC NHAU
+  ① Wrong model (e.g., "I already understand the material")
+  ② Ask AI instead of self-testing: "explain it further"
+  ③ AI explains well: detailed, clear, easy to follow
+  ④ PFC satisfied: "AI explained clearly → I understand" (PFC-Function.md §1①)
+     → PFC observes FEELING of understanding
+     → BUT: "feeling of understanding" ≠ compiled (Core-Software.md §4.1)
+     → PFC processing ≠ body-base compiling = 2 DIFFERENT things
 
-  ⑤ Body-feedback signal nhẹ: "khó" khi tự làm, "nagging unease" khi nghĩ sâu
-     → Signal NHẸ (not loud) vì chưa có domain feedback thật
-     → Feeling.md §5: magnitude NHẸ + clarity THẤP → PFC có thể bỏ qua
+  ⑤ Body-feedback signal mild: "hard" when trying alone, "nagging unease" in deeper thought
+     → Signal is MILD (not loud) because there's no real domain feedback yet
+     → Feeling.md §5: LOW magnitude + LOW clarity → PFC can ignore
 
-  ⑥ PFC override body-feedback:
-     → "AI cũng đồng ý là tôi hiểu mà" → external confirmation
-     → PFC-Function.md §6: PFC CÓ THỂ override body signal short-term
+  ⑥ PFC overrides body-feedback:
+     → "AI also agreed that I understand" → external confirmation
+     → PFC-Function.md §6: PFC CAN override body signals short-term
      → External confirmation (AI) + PFC preference for smooth → body-feedback DISMISSED
 
-  ⑦ Model sai ĐƯỢC GIỮ NGUYÊN + TĂNG CƯỜNG:
-     → Mỗi lần AI confirm → Trust Compile trust-compile → model strengthen
-     → approach tag cho "hỏi AI" compiled → tiếp tục hỏi AI → loop
-     → = Model sai + AI reinforcement cycle
+  ⑦ Wrong model is PRESERVED AND REINFORCED:
+     → Each time AI confirms → Trust-compile → model strengthens
+     → Approach tag for "ask AI" compiles → continue asking → loop
+     → = Wrong model + AI reinforcement cycle
 
-  ⑧ Domain reality check VẪN ĐẾN — chỉ MUỘN HƠN:
-     → Thi → không giải được → prediction-delta LỚN (đã tin chắc "hiểu rồi")
-     → Muộn hơn = đã đầu tư sâu hơn (thời gian, confidence, public commitment)
-     → = prediction-delta LỚN HƠN = crash ĐAU HƠN
+  ⑧ Domain reality check STILL ARRIVES — just LATER:
+     → Exam → can't solve → prediction-delta LARGE (was confident "I understand")
+     → Later = already invested more deeply (time, confidence, public commitment)
+     → = LARGER prediction-delta = MORE PAINFUL crash
 
 
   DIAGRAM:
@@ -441,669 +427,671 @@
         → Timeline: SHORT (immediate body-feedback + domain feedback)
 
     WITH AI (misuse):
-    wrong model → AI confirm → body-feedback DISMISSED
-        → deeper investment → more AI confirm → stronger wrong model
+    wrong model → AI confirms → body-feedback DISMISSED
+        → deeper investment → more AI confirmation → stronger wrong model
         → domain reality → BIG prediction-delta → crash
         → Timeline: LONG (correction delayed)
 
     WITH AI (correct use — §6):
-    uncertain model → AI provide chunks → body-feedback EVALUATE
-        → domain reality VERIFY → "feel đúng + domain confirm" → compile → better model
-        → "feel sai OR domain reject" → adjust → ask differently → re-evaluate
-        → Timeline: SHORTER than no-AI (AI accelerate chunk provision)
+    uncertain model → AI provides chunks → body-feedback EVALUATES
+        → domain reality VERIFIES → "feel right + domain confirms" → compile → better model
+        → "feel wrong OR domain rejects" → adjust → ask differently → re-evaluate
+        → Timeline: SHORTER than no-AI (AI accelerates chunk provision)
 ```
 
-### §2.3 AI ≠ Peer Review — Khác Biệt Kiến Trúc
+### §2.3 — AI ≠ Peer Review — Architectural Difference
 
 ```
-🟡 AI vs HUMAN ADVISOR — KHÁC Ở DISMISSABILITY:
+🟡 AI vs HUMAN ADVISOR — DIFFERS IN DISMISSABILITY:
 
-  HUMAN ADVISOR (therapist, mentor, bạn bè, peer):
-    → CÓ body → CÓ body-feedback → CÓ Self-Pattern-Modeling (Self-Pattern-Modeling)
-    → Khi nghe bạn nói "tôi hiểu rồi":
-      → Self-Pattern-Modeling fire: simulate bạn trong body MÌNH
-      → Body advisor "feel": "hmm, something off — giọng tự tin quá mức"
-      → = Body-feedback CỦA ADVISOR đang evaluate BẠN
-    → Khi peer challenge:
-      → Peer nói "tôi không chắc" → giọng + body language truyền body-level doubt
-      → BẠN nhận = body-to-body signal (Self-Pattern-Modeling/co-regulation)
-      → Signal này KHÓ DISMISS — vì nó bypass PFC, vào thẳng body bạn
+  HUMAN ADVISOR (therapist, mentor, friends, peers):
+    → HAS a body → HAS body-feedback → HAS genuine Self-Pattern-Modeling
+    → When they hear you say "I already understand":
+      → Self-Pattern-Modeling fires: simulates you WITHIN THEIR OWN body
+      → Advisor's body "feels": "hmm, something's off — voice too confident"
+      → = The ADVISOR'S body-feedback is evaluating YOU
+    → When a peer challenges:
+      → Peer says "I'm not sure" → tone + body language transmit body-level doubt
+      → YOU receive = body-to-body signal (Self-Pattern-Modeling/co-regulation)
+      → This signal is HARD TO DISMISS — it bypasses PFC, goes straight into your body
     → = Peer challenge = body-level doubt → hard to dismiss
 
   AI ADVISOR:
-    → KHÔNG CÓ body → KHÔNG CÓ body-feedback → KHÔNG CÓ Self-Pattern-Modeling thật
-    → (Human-AI-Future.md v3.0 §0: body-feedback, efference copy, Self-Pattern-Modeling, valence = AI KHÔNG CÓ)
-    → Khi AI challenge:
-      → AI đưa logical objection → text/speech → PFC-level argument
-      → BẠN nhận = PFC-to-PFC signal (logic evaluate logic)
-      → PFC CÓ THỂ counter-argue → easy to dismiss
+    → NO body → NO body-feedback → NO genuine Self-Pattern-Modeling
+    → (Human-AI-Future.md v3.0 §0: body-feedback, efference copy, Self-Pattern-Modeling, valence = AI LACKS ALL)
+    → When AI challenges:
+      → AI issues a logical objection → text/speech → PFC-level argument
+      → YOU receive = PFC-to-PFC signal (logic evaluates logic)
+      → PFC CAN counter-argue → easy to dismiss
     → = AI challenge = PFC-level objection → easy to dismiss
 
   ⭐ DISMISSABILITY ASYMMETRY:
 
     Peer challenge:
-      → Peer body fires → peer verbalizes doubt → YOUR body picks up signal
+      → Peer body fires → peer verbalizes doubt → YOUR body picks up the signal
       → = Body-to-body transmission (Self-Pattern-Modeling, co-regulation — Connection.md ❶❷)
-      → Your BODY feels the doubt → harder to PFC-override
+      → Your BODY feels the doubt → harder for PFC to override
 
     AI challenge:
-      → AI generates text → YOUR PFC reads text → PFC evaluates
+      → AI generates text → YOUR PFC reads the text → PFC evaluates
       → = Text-to-PFC transmission (no body involvement)
       → Your PFC can counter-argue → easy to PFC-override
 
-    → CÙNG NỘI DUNG challenge — nhưng KÊNH TRUYỀN KHÁC
-    → Body channel = harder to dismiss (bypass PFC)
-    → PFC channel = easy to dismiss (stay in PFC, no body fire)
+    → SAME content of challenge — but DIFFERENT transmission channel
+    → Body channel = harder to dismiss (bypasses PFC)
+    → PFC channel = easy to dismiss (stays in PFC, no body fires)
 
   ⚠️ PARTIAL MITIGATION:
-    → AI models ngày càng được train để challenge, ask follow-up
-    → System prompts có thể yêu cầu AI "push back"
-    → NHƯNG: output vẫn = text → PFC channel → easy to dismiss
-    → KHÔNG phải body-based doubt (somatic marker — 🟢 Damasio 1994)
-    → = Mitigation giúp — nhưng KHÔNG thay thế peer/advisor CÓ BODY
+    → AI models are increasingly trained to challenge, ask follow-up questions
+    → System prompts can instruct AI to "push back"
+    → BUT: output is still = text → PFC channel → easy to dismiss
+    → NOT body-based doubt (somatic marker — 🟢 Damasio 1994)
+    → = Mitigation helps — but DOES NOT replace a peer/advisor WITH A BODY
 
-  → HỆ QUẢ CHO NGUYÊN TẮC:
+  → IMPLICATIONS FOR PRINCIPLES:
     → AI feedback ≠ peer feedback ≠ domain feedback
-    → Cả 3 cần thiết, nhưng domain = final arbiter (§3)
-    → AI = tốt cho chunks, patterns, analysis
-    → Peer = tốt cho body-level check (khó dismiss)
-    → Domain = tốt cho truth check (không thể dismiss — reality)
+    → All 3 are necessary, but domain = final arbiter (§3)
+    → AI = good for chunks, patterns, analysis
+    → Peer = good for body-level check (hard to dismiss)
+    → Domain = good for truth check (cannot be dismissed — reality)
 ```
 
-### §2.4 Tại sao model sai + body-feedback tích cực CŨNG nguy hiểm
+### §2.4 — Why Wrong Model + Positive Body-Feedback Is Also Dangerous
 
 ```
-🟡 TRƯỜNG HỢP ĐẶC BIỆT: POSITIVE BODY-FEEDBACK + WRONG MODEL:
+🟡 SPECIAL CASE: POSITIVE BODY-FEEDBACK + WRONG MODEL:
 
-  Nhiều người tưởng: "model sai → body-feedback tiêu cực → dễ phát hiện"
-  THỰC TẾ: model sai VẪN có thể tạo body-feedback TÍCH CỰC ngắn hạn.
+  Many people assume: "wrong model → negative body-feedback → easy to detect"
+  REALITY: a wrong model CAN STILL produce POSITIVE body-feedback in the short term.
 
-  CƠ CHẾ:
-    → Model sai NHƯNG PFC "smooth" (feels coherent — PFC-Function.md §5)
-    → AI confirm → external validation → PFC reward ("đúng hướng rồi")
-    → Body-feedback: positive (ngắn hạn) vì PFC smooth + AI agree
-    → = "Tự tin + AI đồng ý = thế giới ổn" → approach tag compile
+  MECHANISM:
+    → Wrong model BUT PFC "smooth" (feels coherent — PFC-Function.md §5)
+    → AI confirms → external validation → PFC reward ("on the right track")
+    → Body-feedback: POSITIVE (short-term) because PFC smooth + AI agree
+    → = "Confident + AI agrees = world is fine" → approach tag compiles
 
-  VÍ DỤ:
-    → Tự tin mình leadership giỏi (model sai: compliance ≠ respect)
-    → AI: "đây là cách lead team tốt" → confirm → feel good
+  EXAMPLE:
+    → You believe you're a great leader (wrong model: compliance ≠ respect)
+    → AI: "here's how to lead a great team" → confirms → feels good
     → Body: "smooth, coherent" → positive feedback
-    → NHƯNG: team không nói thật → domain feedback bị che
-    → 1 năm sau: team nghỉ hàng loạt → prediction-delta CỰC LỚN
+    → BUT: team doesn't speak the truth → domain feedback hidden
+    → 1 year later: team resigns en masse → prediction-delta ENORMOUS
 
-  ⭐ PATTERN CHUNG:
-    → SAI ≠ luôn cảm thấy sai ngay lập tức
-    → Cảm giác "đúng" có thể đến từ PFC coherence, KHÔNG phải domain match (§1.5)
-    → Domain reality KHÔNG nghe ai — domain feedback LUÔN ĐẾN
-    → Chỉ là sớm hay muộn
-    → Muộn hơn = đã đầu tư sâu hơn = crash đau hơn
+  ⭐ GENERAL PATTERN:
+    → WRONG ≠ always feeling wrong immediately
+    → Feeling "right" can come from PFC coherence, NOT from domain match (§1.5)
+    → Domain reality DOESN'T listen to anyone — domain feedback ALWAYS ARRIVES
+    → Only question: early or late
+    → Later = already invested more deeply = more painful crash
 
-  → "Đã sai là sai — buộc domain feedback real.
-    Chỉ khác: biết sớm (dual check — §3) hay biết muộn (domain crash)."
+  → "Wrong is wrong — domain feedback will come.
+    Only difference: knowing early (dual check — §3) or knowing late (domain crash)."
 ```
 
 ---
 
-## §3 — DUAL CHECK: BODY + DOMAIN REALITY (v2.0 NEW)
+## §3 — Dual Check: Body + Domain Reality (v2.0 New)
 
-### §3.1 Tại sao body-check alone không đủ
+### §3.1 — Why Body-Check Alone Is Insufficient
 
 ```
-🟡 BODY = QUALITY CONTROLLER (~90%), KHÔNG PHẢI FINAL ARBITER:
+🟡 BODY = QUALITY CONTROLLER (~90%), NOT FINAL ARBITER:
 
-  Body-Base.md v3.1 §7 — 2-TIER + 2-PATHWAY CALIBRATE:
-    Tầng 1: Darwinian (triệu năm — gen wired, không đổi)
-    Tầng 2: Hebbian (suốt đời — experience → compile) với 2 đường vào:
-      - 2a Domain Contact (tự trải nghiệm — multi-modal, chậm, thick)
-      - 2b Trust-Injected (bố mẹ/thầy/sách/tôn giáo/AI qua trust amplifier — nhanh, thinner)
+  Body-Base.md v3.1 §7 — 2-TIER + 2-PATHWAY CALIBRATION:
+    Tier 1: Darwinian (millions of years — genetically wired, doesn't change)
+    Tier 2: Hebbian (lifelong — experience → compile) with 2 input pathways:
+      - 2a Domain Contact (direct experience — multi-modal, slow, thick)
+      - 2b Trust-Injected (parents/teachers/books/religion/AI via trust amplifier — fast, thinner)
     Culture = 2a passive + 2b accumulated. AI = newest 2b source.
 
-  → 2 cơ chế calibrate → body đúng ~90%.
+  → 2 calibration mechanisms → body is right ~90% of the time.
 
-  NHƯNG SAI ~10% — 3 FAILURE MODES CÓ HỆ THỐNG:
+  BUT WRONG ~10% — 3 SYSTEMATIC FAILURE MODES:
 
-    ① EVOLUTION LAG: body reward ĐÚNG cho environment CŨ, SAI cho MỚI
-       → Đường: evolution hiếm → reward "ngọt=quý" → modern dễ → nghiện
-       → MXH: ancestral approval hiếm → reward "likes" → modern vô hạn → scroll
+    ① EVOLUTION LAG: body rewards what was RIGHT for an OLD environment, WRONG for the new
+       → Sugar: evolution → rare → reward "sweet = precious" → modern → abundant → addiction
+       → Social media: ancestral approval → rare → reward "likes" → modern → infinite → endless scrolling
 
-    ② CHUNKS NỀN SAI: coherence khớp nhưng nền sai
-       → "Cortisol = stress hormone" → coherent với pop science → SAI actual mechanism
-       → "Tôi thiếu kỷ luật" → coherent với xã hội → SAI framework mechanism
-       → ⭐ AI AMPLIFY failure mode NÀY cụ thể:
-         AI output coherent + khớp chunks nền sai → body approve → amplify sai
+    ② WRONG FOUNDATION CHUNKS: coherence matches but foundation is wrong
+       → "Cortisol = stress hormone" → coherent with pop science → WRONG actual mechanism
+       → "I lack discipline" → coherent with society → WRONG framework mechanism
+       → ⭐ AI SPECIFICALLY AMPLIFIES this failure mode:
+         AI output coherent + matches wrong foundation chunks → body approves → amplifies wrongly
 
-    ③ SCHEMA OVERRIDE: biết sai mà VẪN follow
-       → Nghiện: body "biết" xấu → schema reward compiled quá mạnh → override
-       → Procrastinate: PFC biết cần làm → "scroll=reward" override
+    ③ SCHEMA OVERRIDE: knowing it's wrong but following it anyway
+       → Addiction: body "knows" it's harmful → schema reward compiled too strongly → overrides
+       → Procrastination: PFC knows what needs doing → "scrolling=reward" overrides
 
-  → Body đúng ~90%. Sai ~10%.
-  → AI đặc biệt amplify failure mode ②.
-  → = EXTERNAL CHECK (domain reality) cần thiết cho 10% còn lại.
+  → Body right ~90%. Wrong ~10%.
+  → AI specifically amplifies failure mode ②.
+  → = EXTERNAL CHECK (domain reality) is needed for the remaining 10%.
 ```
 
-### §3.2 4-case matrix: Body × Domain
+### §3.2 — 4-Case Matrix: Body × Domain
 
 ```
-🟡 MỌI QUYẾT ĐỊNH = 1 TRONG 4 TRƯỜNG HỢP:
+🟡 EVERY DECISION = 1 OF 4 CASES:
 
   ┌──────────────┬──────────────────────────┬──────────────────────────┐
   │              │ Domain YES               │ Domain NO                │
   ├──────────────┼──────────────────────────┼──────────────────────────┤
-  │ Body YES     │ HIGH confidence          │ ⚠️ NGUY HIỂM            │
-  │              │ Cả 2 align → proceed     │ Likely amplification     │
+  │ Body YES     │ HIGH confidence          │ ⚠️ DANGEROUS             │
+  │              │ Both aligned → proceed   │ Likely amplification     │
   │              │                          │ or smoothing             │
   ├──────────────┼──────────────────────────┼──────────────────────────┤
   │ Body NO      │ Investigate              │ Clear rejection          │
-  │              │ Body detect gì data miss?│ Cả 2 nói không →         │
-  │              │ Hay resist incoherent-   │ dừng lại                 │
+  │              │ What is body detecting   │ Both say no →            │
+  │              │ that data misses?        │ stop                     │
+  │              │ Or resisting incoherent- │                          │
   │              │ but-true?                │                          │
   └──────────────┴──────────────────────────┴──────────────────────────┘
 
   (Source: Ask-AI.md v3.1 §6.1)
 
 
-  ⭐ Body YES + Domain NO = NGUY HIỂM NHẤT TRONG AI ERA:
+  ⭐ Body YES + Domain NO = MOST DANGEROUS IN THE AI ERA:
 
-    AI confirm pattern → body coherence TĂNG → body YES mạnh hơn
-    → NHƯNG domain reality KHÔNG thay đổi → domain VẪN NO
-    → = AI khuếch đại khoảng cách body-coherence ↔ domain-truth
-    → Crash đến MUỘN HƠN (vì body confident hơn) + ĐAU HƠN (vì đầu tư sâu hơn)
+    AI confirms the pattern → body coherence INCREASES → body YES grows stronger
+    → BUT domain reality DOES NOT CHANGE → domain STILL NO
+    → = AI widens the gap between body-coherence ↔ domain-truth
+    → Crash arrives LATER (because body is more confident) + HARDER (because of deeper investment)
 
-    TRƯỚC AI: Body YES + Domain NO → body thấy domain fail → correction nhanh
-    SAU AI:   Body YES + Domain NO → AI confirm → body YES MẠNH HƠN → delay correction
+    BEFORE AI: Body YES + Domain NO → body sees domain failure → correction happens fast
+    AFTER AI:  Body YES + Domain NO → AI confirms → body YES EVEN STRONGER → correction delayed
 
-    = AI KHÔNG tạo trường hợp mới — AI làm trường hợp CŨ NGUY HIỂM HƠN.
+    = AI DOES NOT CREATE A NEW CASE — AI MAKES THE OLD CASE MORE DANGEROUS.
 
 
-  Body NO + Domain YES = CẦN INVESTIGATE:
+  Body NO + Domain YES = NEEDS INVESTIGATION:
 
-    → Body có thể detect gì data KHÔNG THẤY (body-based intuition — §1.5)
-    → HOẶC: body resist incoherent-but-true (chunks nền chống lại truth mới)
-    → Cách phân biệt: thêm domain data → body update? Hay body VẪN resist?
-    → Nếu thêm data → body accept → body đang adjust (healthy)
-    → Nếu thêm data → body VẪN resist → hoặc body đúng, hoặc chunks nền quá mạnh
+    → Body may be detecting something that data CANNOT SEE (body-based intuition — §1.5)
+    → OR: body is resisting something incoherent-but-true (wrong foundation chunks opposing new truth)
+    → How to distinguish: add more domain data → does body update? Or does body STILL resist?
+    → If more data → body accepts → body is adjusting (healthy)
+    → If more data → body STILL resists → either body is right, or foundation chunks are too strong
 ```
 
-### §3.3 Practical: Dual Check Protocol
+### §3.3 — Practical: Dual Check Protocol
 
 ```
-🟡 DUAL CHECK = 2 BƯỚC, MỌI QUYẾT ĐỊNH QUAN TRỌNG:
+🟡 DUAL CHECK = 2 STEPS, FOR EVERY IMPORTANT DECISION:
 
-  BƯỚC 1 — BODY-CHECK (internal, nhanh, đầu tiên):
-    → AI output → DỪNG → "body, cảm giác thế nào?"
+  STEP 1 — BODY-CHECK (internal, fast, first):
+    → AI output → PAUSE → "body, how does this feel?"
     → Smooth → likely OK → proceed to step 2
-    → Resistance → something off → investigate before proceed
-    → Empty → not enough info → ask AI for more context
+    → Resistance → something is off → investigate before proceeding
+    → Empty → not enough information → ask AI for more context
 
-  BƯỚC 2 — DOMAIN-CHECK (external, chậm hơn, final arbiter):
-    → "Có cách nào kiểm chứng bằng thực tế?"
-    → Domain check KHÁC theo lĩnh vực:
+  STEP 2 — DOMAIN-CHECK (external, slower, final arbiter):
+    → "Is there a way to verify this against reality?"
+    → Domain check DIFFERS by field:
 
     ┌──────────────────┬────────────────────────────────────────┐
-    │ Lĩnh vực         │ Domain check                           │
+    │ Field            │ Domain check                           │
     ├──────────────────┼────────────────────────────────────────┤
-    │ Học tập           │ Tắt AI → tự giải → đánh giá %         │
-    │ Sức khỏe          │ Khám → xét nghiệm → kết quả thật     │
-    │ Quan hệ           │ Partner feedback trực tiếp → hành vi   │
-    │ Nuôi con          │ Milestone thật → hành vi observable    │
-    │ Công việc          │ KPI thật → output không AI → skill?    │
-    │ Nghiên cứu        │ Peer review → thí nghiệm → publish     │
+    │ Learning         │ Turn off AI → solve it yourself → % ?  │
+    │ Health           │ Examination → tests → real results     │
+    │ Relationships    │ Partner's direct feedback → behavior   │
+    │ Parenting        │ Real milestones → observable behavior  │
+    │ Work             │ Real KPIs → output without AI → skill? │
+    │ Research         │ Peer review → experiment → publish     │
     └──────────────────┴────────────────────────────────────────┘
 
-  KHI BODY VÀ DOMAIN DISAGREE:
-    → Domain wins — nhưng investigate TẠI SAO body disagreed
-    → Body có thể đang detect cái domain CHƯA đo được
-    → Hoặc body đang resist cái domain ĐÃ xác nhận (chunks nền sai)
-    → = Disagreement = valuable signal — investigate, đừng ignore
+  WHEN BODY AND DOMAIN DISAGREE:
+    → Domain wins — but investigate WHY body disagreed
+    → Body may be detecting something domain HAS NOT YET MEASURED
+    → Or body is resisting something domain HAS confirmed (wrong foundation chunks)
+    → = Disagreement = a valuable signal — investigate, don't ignore
 
-  ⭐ AI's ROLE TRONG DUAL CHECK:
-    → AI = chunk provider (bước 0 — cung cấp thông tin)
-    → AI CÓ THỂ gợi ý domain check: "bạn có thể kiểm chứng bằng..."
-    → AI KHÔNG THỂ thay thế domain check (AI output ≠ domain reality)
-    → = AI giúp bạn BIẾT cần check gì — nhưng check THẬT vẫn phải tự làm
+  ⭐ AI'S ROLE IN THE DUAL CHECK:
+    → AI = chunk provider (step 0 — provide information)
+    → AI CAN suggest domain checks: "you could verify this by..."
+    → AI CANNOT replace the domain check (AI output ≠ domain reality)
+    → = AI helps you know WHAT to check — but the ACTUAL check you still have to do yourself
 ```
 
 ---
 
-## §4 — STALE CALIBRATION (v2.0 NEW)
+## §4 — Stale Calibration (v2.0 New)
 
-### §4.1 Concept: Calibration có thời hạn
+### §4.1 — Concept: Calibration Has an Expiry
 
 ```
-🔴 STALE CALIBRATION — KHI BODY-CHECK "HẾT HẠN":
+🔴 STALE CALIBRATION — WHEN BODY-CHECK "EXPIRES":
 
-  Body-check quality = f(domain feedback ĐÃ NHẬN trong quá khứ)
+  Body-check quality = f(domain feedback RECEIVED in the past)
 
-  Body-Base.md v3.1 §7 Tầng 2 Hebbian (2a Domain Contact):
-    "Mỗi trải nghiệm = 1 vòng thử → domain feedback → Hebbian calibrate."
+  Body-Base.md v3.1 §7 Tier 2 Hebbian (2a Domain Contact):
+    "Each experience = 1 trial round → domain feedback → Hebbian calibrate."
 
-  → Body-check KHÔNG cố định — nó được CALIBRATE liên tục bởi domain feedback.
-  → Khi domain feedback DỪNG:
-    → Body-check quality KHÔNG GIẢM NGAY (chunks persist)
-    → Nhưng dần STALE so với domain HIỆN TẠI
-    → Body KHÔNG BIẾT mình stale — vẫn fire confident
+  → Body-check is NOT fixed — it is CONTINUOUSLY CALIBRATED by domain feedback.
+  → When domain feedback STOPS:
+    → Body-check quality DOES NOT DECREASE IMMEDIATELY (chunks persist)
+    → But gradually goes STALE relative to the CURRENT domain
+    → The body DOES NOT KNOW it's stale — still fires confident
 
-  STALE CALIBRATION = structural condition:
-    → Không phải "người đó kém" — có thể rất giỏi (từng calibrated cao)
-    → Vấn đề = feedback loop ĐỨT, không phải trình độ thấp
-    → Named cho ĐIỀU KIỆN, không phải cho NGƯỜI
+  STALE CALIBRATION = a structural condition:
+    → Not "that person is less capable" — they might be highly skilled (once well-calibrated)
+    → The problem = feedback loop BROKEN, not low competence
+    → Named for the CONDITION, not the PERSON
 
   🟡 LOGIC:
     Body-check accuracy = f(past domain feedback)
-    Domain reality = f(hiện tại — liên tục thay đổi)
+    Domain reality = f(present — continuously changing)
     Past ≠ Present → body-check calibrated to WRONG baseline
-    → = Body "đúng" theo tiêu chuẩn CŨ, "sai" theo tiêu chuẩn MỚI
+    → = Body is "right" by OLD standards, "wrong" by NEW standards
 ```
 
-### §4.2 5 giai đoạn
+### §4.2 — 5 Stages
 
 ```
-🔴 STALE CALIBRATION DIỄN RA THEO 5 GIAI ĐOẠN:
+🔴 STALE CALIBRATION PROGRESSES THROUGH 5 STAGES:
 
-  GIAI ĐOẠN 1 — TRAINED (có feedback loop):
-    → Làm việc trong domain → domain feedback liên tục
-    → Mỗi vòng: thử → kết quả → body calibrate
-    → Hàng nghìn vòng → body-check cao (~95-99% trong domain riêng)
-    → = Body-check CALIBRATED THẬT qua domain feedback THẬT
+  STAGE 1 — TRAINED (feedback loop intact):
+    → Working in domain → domain feedback continuous
+    → Each round: try → result → body calibrates
+    → Thousands of rounds → body-check high (~95-99% within own domain)
+    → = Body-check GENUINELY CALIBRATED through REAL domain feedback
 
-  GIAI ĐOẠN 2 — TRANSITION (mất feedback loop):
-    → Rời domain: nghỉ hưu / đi solo / chuyển lĩnh vực / remote
-    → Feedback loop ĐỨT
-    → NHƯNG: body-check CẢM GIÁC KHÔNG ĐỔI
-    → Chunks từ quá khứ vẫn đó → body vẫn fire confident
-    → = Người này KHÔNG NHẬN RA mình đang mất calibration
+  STAGE 2 — TRANSITION (feedback loop breaks):
+    → Leave domain: retire / go solo / switch fields / go remote
+    → Feedback loop BREAKS
+    → BUT: body-check FEELS UNCHANGED
+    → Chunks from the past are still there → body still fires confident
+    → = This person DOES NOT NOTICE they are losing calibration
 
-  GIAI ĐOẠN 3 — SOLO + AI (amplification):
-    → Ý tưởng mới → không có peer review → chỉ AI + body-check
-    → AI cung cấp elaboration coherent → body smooth → "validated"
-    → Không ai challenge → không dissonance → không correction signal
-    → AI CẢM GIÁC NHƯ peer review → nhưng KHÔNG PHẢI (§2.3)
+  STAGE 3 — SOLO + AI (amplification):
+    → New idea → no peer review → only AI + body-check
+    → AI provides coherent elaboration → body smooth → "validated"
+    → Nobody challenges → no dissonance → no correction signal
+    → AI FEELS LIKE peer review → but it ISN'T (§2.3)
 
-  GIAI ĐOẠN 4 — STALE (calibration cũ dần):
-    → Domain tiến triển → chunks từ QUÁ KHỨ
-    → AI trained trên data QUÁ KHỨ → confirm pattern QUÁ KHỨ
-    → Body-check: calibrate theo domain CŨ
-    → = Expert + AI = mutual reinforcement của calibration CŨ
-    → Cả hai đều nhìn gương chiếu hậu cùng nhau
+  STAGE 4 — STALE (calibration gradually outdates):
+    → Domain has moved on → chunks from THE PAST
+    → AI trained on data from THE PAST → confirms patterns from THE PAST
+    → Body-check: calibrated to OLD domain
+    → = Expert + AI = mutual reinforcement of OLD calibration
+    → Both looking in the rearview mirror together
 
-  GIAI ĐOẠN 5 — CRASH (nếu có):
-    → Re-encounter domain → peer review → "chưa account X (finding mới)"
-    → Hoặc: triển khai → thất bại → prediction-delta
-    → Hoặc: KHÔNG BAO GIỜ crash (lý thuyết không bao giờ test)
-    → "Không crash" CŨNG là vấn đề: lý thuyết chưa test tích lũy
+  STAGE 5 — CRASH (if it happens):
+    → Re-encountering domain → peer review → "haven't accounted for X (new finding)"
+    → Or: deployment → failure → prediction-delta
+    → Or: NEVER CRASHES (theory never tested)
+    → "No crash" IS ALSO a problem: untested theories accumulate
 ```
 
-### §4.3 AI masks staleness
+### §4.3 — AI Masks Staleness
 
 ```
-🔴 AI = MẶT NẠ CHO STALENESS:
+🔴 AI = A MASK FOR STALENESS:
 
-  AI confirms patterns TỪNG domain-validated nhưng HIỆN stale:
-    → AI trained trên data = hàng triệu pattern TỪ QUÁ KHỨ
-    → Expert có chunks = compiled TỪ QUÁ KHỨ
-    → AI match expert's chunks → "đúng rồi!" → body smooth
-    → = DOUBLE CONFIRMATION CỦA PAST — không ai check PRESENT
+  AI confirms patterns THAT WERE domain-validated but ARE NOW stale:
+    → AI trained on data = millions of patterns FROM THE PAST
+    → Expert has chunks = compiled FROM THE PAST
+    → AI matches expert's chunks → "exactly right!" → body smooth
+    → = DOUBLE CONFIRMATION OF THE PAST — nobody checks THE PRESENT
 
-  VD:
-    → Expert y khoa nghỉ hưu 2020 → guideline thay đổi 2023
-    → Hỏi AI (trained trên data đến 2024): AI trả lời theo cả guideline cũ VÀ mới
-    → Expert body: match chunks cũ → "đúng rồi, like old times"
-    → Expert KHÔNG biết guidelines đã thay đổi → body VẪN smooth
-    → = AI mask staleness — feel validated, actually outdated
+  EXAMPLE:
+    → Medical expert retires 2020 → guidelines change 2023
+    → Asks AI (trained on data through 2024): AI responds citing both old AND new guidelines
+    → Expert's body: matches old chunks → "right, just like before"
+    → Expert DOESN'T KNOW guidelines have changed → body STILL smooth
+    → = AI masks the staleness — feels validated, actually outdated
 
   ⭐ KEY MECHANISM:
-    → Body CẢM THẤY vẫn calibrated — vì chunks vẫn coherent
-    → AI CẢM THẤY như peer check — vì output structured + detailed
-    → Domain KHÔNG CẢM THẤY gì — domain chỉ feedback khi bạn ACT
-    → = Nếu không act trong domain → không bao giờ nhận feedback → stale vĩnh viễn
+    → Body FEELS like it's still calibrated — because chunks are still coherent
+    → AI FEELS like a peer check — because output is structured + detailed
+    → Domain DOESN'T FEEL anything — domain only gives feedback when you ACT
+    → = If you never act in the domain → never receive feedback → permanently stale
 ```
 
-### §4.4 Peer review catches what AI misses
+### §4.4 — Peer Review Catches What AI Misses
 
 ```
-🟡 TẠI SAO PEER BẮT ĐƯỢC CÁI AI MISS:
+🟡 WHY PEERS CATCH WHAT AI MISSES:
 
-  Peer VẪN TRONG domain = FRESH calibration:
-    → Peer nhận domain feedback liên tục → chunks updated
-    → Peer body detect "something changed" mà stale expert MISS
-    → Peer challenge → body-level doubt (§2.3) → hard to dismiss
+  Peer STILL IN the domain = FRESH calibration:
+    → Peer receives domain feedback continuously → chunks are updated
+    → Peer's body detects "something has changed" that the stale expert MISSES
+    → Peer challenges → body-level doubt (§2.3) → hard to dismiss
 
   AI:
-    → AI pattern-match từ STATIC training data → cannot detect DRIFT
-    → AI KHÔNG có temporal body-feedback → không biết gì đã thay đổi
+    → AI pattern-matches from STATIC training data → cannot detect DRIFT
+    → AI has NO temporal body-feedback → doesn't know what has changed
     → AI challenge = logical (PFC-level) → easy to dismiss (§2.3)
 
   → = Peer review catches staleness. AI review amplifies staleness.
 
-  ⚠️ NHƯNG: expert với peer review thường ĐÃ CÓ domain check tự nhiên:
+  ⚠️ BUT: an expert WITH active peer review typically ALREADY HAS a natural domain check:
     → Conference, seminar, publication, peer feedback = built-in dual check
-    → Expert CÓ hội nhóm, CÓ kinh nghiệm check real
-    → Risk chủ yếu = khi MẤT những cái này, KHÔNG phải expert nói chung
+    → Expert HAS community, HAS real check experience
+    → Risk is mainly = when these are LOST, not for active experts in general
 ```
 
-### §4.5 5 xu hướng tăng Stale Calibration risk
+### §4.5 — 5 Trends Increasing Stale Calibration Risk
 
 ```
-🟡 SỐ NGƯỜI MẤT FEEDBACK LOOP SẼ TĂNG — 5 XU HƯỚNG:
+🟡 THE NUMBER OF PEOPLE LOSING FEEDBACK LOOPS WILL INCREASE — 5 TRENDS:
 
   ① AI ENABLES SOLO WORK:
-     Trước: cần institution (lab, library, funding, peers)
-     Nay: AI + internet = đủ cho nhiều loại nghiên cứu/sáng tạo
-     → Nhiều người đi solo hơn → nhiều người mất feedback loop hơn
+     Before: needed institutions (lab, library, funding, peers)
+     Now: AI + internet = sufficient for many types of research/creation
+     → More people going solo → more people losing feedback loops
 
   ② REMOTE WORK NORMALIZATION:
-     Ngay trong institution → ít gặp mặt → ít casual challenge
-     Slack message ≠ tranh luận coffee room (body-feedback khác — §2.3)
+     Even within institutions → less face time → less casual challenge
+     Slack message ≠ coffee room debate (different body-feedback — §2.3)
 
   ③ RETIRED EXPERTS CONSULTING VIA AI:
-     AI giữ họ "productive" (TỐT!)
-     Nhưng tách khỏi professional community (RISK)
-     = Body-check cao từ quá khứ + AI confirm = stale calibration masked
+     AI keeps them "productive" (GOOD!)
+     But disconnected from professional community (RISK)
+     = High body-check from the past + AI confirms = stale calibration masked
 
   ④ CREATOR ECONOMY:
-     Followers = selection bias (đồng ý → follow, không đồng ý → unfollow)
-     AI confirm + audience confirm = DOUBLE AMPLIFICATION
-     Không ai trong loop thật sự CHALLENGE (peer ≠ fan)
+     Followers = selection bias (agree → follow, disagree → unfollow)
+     AI confirms + audience confirms = DOUBLE AMPLIFICATION
+     Nobody in the loop truly CHALLENGES (a peer ≠ a fan)
 
   ⑤ AI QUALITY IMPROVING:
-     AI tốt hơn = output THUYẾT PHỤC hơn = body-YES MẠNH hơn
-     → Khó phân biệt với peer review thật hơn
-     → "AI as good as peer" → nhưng không phải (§2.3)
+     Better AI = MORE PERSUASIVE output = stronger body-YES
+     → Harder to distinguish from genuine peer review
+     → "AI as good as peer" → but it isn't (§2.3)
 
-  → KHÔNG phải "expert nguy hiểm" — mà SỐ NGƯỜI mất feedback loop TĂNG
-  → = Structural trend, không phải individual weakness
+  → NOT "experts are dangerous" — but the NUMBER OF PEOPLE losing feedback loops INCREASES
+  → = Structural trend, not individual weakness
   → Solution: actively maintain feedback loop — §7.4
 ```
 
 ---
 
-## §5 — 5 FAILURE DOMAINS
+## §5 — 5 Failure Domains
 
 ```
-⭐ MỖI DOMAIN = 1 PATTERN CHUNG:
-  Wrong model → AI confirm → body-feedback dismissed → domain reality → crash
-  KHÁC NHAU: cái gì sai, AI confirm gì, reality check đến thế nào.
+⭐ EACH DOMAIN = 1 GENERAL PATTERN:
+  Wrong model → AI confirms → body-feedback dismissed → domain reality → crash
+  DIFFERENCES: what's wrong, what AI confirms, how reality check arrives.
 
-  Framework mapping cho TỪNG domain → actionable.
+  Framework mapping per domain → actionable.
 ```
 
-### §5.1 HỌC TẬP — "Tôi hiểu bài rồi"
+### §5.1 — Learning — "I Already Understand"
 
 ```
-🟢🟡 WRONG MODEL: "AI giải thích rõ = tôi hiểu"
+🟢🟡 WRONG MODEL: "AI explained clearly = I understand"
 
-  Cơ chế gốc:
-    → "Hiểu" (PFC process) ≠ "làm được" (body-base compiled)
+  Root mechanism:
+    → "Understanding" (PFC processing) ≠ "being able to do it" (body-base compiled)
     → Core-Software.md §4.1: PFC hold + process ≠ chunk compile
-    → Nghe giải thích = PFC populate working memory (~4±1 slots)
-    → Compile = vô thức wire neurons qua repetition + emotional peak + multi-modal + sleep
-    → = 2 thứ HOÀN TOÀN KHÁC NHAU dùng CÙNG substrate (chunks)
+    → Listening to an explanation = PFC populates working memory (~4±1 slots)
+    → Compiling = unconsciously wiring neurons via repetition + emotional peak + multi-modal + sleep
+    → = 2 COMPLETELY DIFFERENT THINGS using the SAME substrate (chunks)
 
   AI CONFIRMS:
-    → AI giải thích chi tiết, ví dụ phong phú, step-by-step
-    → PFC: "à! rõ rồi!" → feeling of understanding (Feel-Labeling/Feel-Explanation, 40-80% fidelity)
-    → 🟢 Bastani et al. 2024: students dùng GPT-4 practice → WORSE performance on test WITHOUT AI
+    → AI explains in detail, rich examples, step-by-step
+    → PFC: "ah! Clear now!" → feeling of understanding (Feel-Labeling/Feel-Explanation, 40-80% fidelity)
+    → 🟢 Bastani et al. 2024: students using GPT-4 for practice → WORSE performance on test WITHOUT AI
 
   BODY-FEEDBACK DISMISSED:
-    → Body signal: "khó" khi tự làm bài → signal nhẹ
-    → PFC override: "mình đã hiểu mà, AI cũng confirm"
-    → "Khó" bị interpret sai: "chưa hiểu" thay vì "đang compile" (Body-Feedback-Mechanism: recalibration)
+    → Body signal: "hard" when working alone → signal mild
+    → PFC overrides: "I already understand, AI also confirmed"
+    → "Hard" is misinterpreted: "don't understand yet" instead of "currently compiling"
+      (Body-Feedback-Mechanism: recalibration)
 
   DOMAIN REALITY:
-    → Thi → không giải được → gap LỚN giữa "hiểu" (PFC) và "làm" (body-base)
-    → = Crash đau hơn vì confidence đã cao (AI reinforced)
+    → Exam → can't solve → LARGE gap between "understand" (PFC) and "can do it" (body-base)
+    → = More painful crash because confidence was high (AI reinforced)
 
   ✅ DUAL CHECK:
-    → Body-check: "khó" khi tự làm = signal đang compile → TIẾP TỤC
-    → Domain-check: tắt AI → tự giải → đánh giá bao nhiêu % → compile test
-    → AI = chunk provider (giải thích). Body = compiler (wire neurons).
+    → Body-check: "hard" when doing it alone = signal of compiling → KEEP GOING
+    → Domain-check: turn off AI → solve it yourself → assess what % → compilation test
+    → AI = chunk provider (explains). Body = compiler (wires neurons).
 ```
 
-### §5.2 NUÔI CON — "Con cần kỷ luật hơn"
+### §5.2 — Parenting — "My Child Needs More Discipline"
 
 ```
-🟡 WRONG MODEL: hành vi bề ngoài = trạng thái bên trong
+🟡 WRONG MODEL: surface behavior = internal state
 
-  Cơ chế gốc:
-    → Con ngoan (bề ngoài) ≠ con internalized (body-base compiled)
-    → Compliance = PFC suppress (tạm thời, avoidance tag)
-    → Expression = body-base state (thật sự, approach hoặc avoidance)
+  Root mechanism:
+    → Child is well-behaved (on the surface) ≠ child has internalized (body-base compiled)
+    → Compliance = PFC suppression (temporary, avoidance tag)
+    → Expression = body-base state (genuine, approach or avoidance)
 
   AI CONFIRMS:
-    → Parent: "con tôi hay ăn vạ, làm sao?"
-    → AI: discipline strategy → con NGOAN HƠN bề ngoài
-    → Parent: "hiệu quả thật!" → AI confirm: "tốt, tiếp tục nhé"
+    → Parent: "my child keeps throwing tantrums, what should I do?"
+    → AI: discipline strategy → child APPEARS better-behaved on the surface
+    → Parent: "it works!" → AI confirms: "good, keep it up"
 
   BODY-FEEDBACK DISMISSED:
-    → Parent body: "nagging unease" nhẹ khi con ít nói hơn
-    → CON: suppress = avoidance tag compile cho "thể hiện = bị phạt"
+    → Parent's body: mild "nagging unease" when child becomes quieter
+    → CHILD: suppression = avoidance tag compiling for "expressing = getting punished"
 
   DOMAIN REALITY:
-    → Tuổi teen: suppress tích tụ → vỡ
-    → Hoặc: con xa cách → "sao hồi nhỏ ngoan mà lớn lên xa?"
+    → Teen years: suppression accumulates → erupts
+    → Or: child becomes distant → "why was my child so well-behaved young but drifts as they grow?"
 
   ✅ DUAL CHECK:
-    → Body-check: observe con TOÀN DIỆN (body language, spontaneous behavior)
-    → Domain-check: milestone thật, hành vi khi không bị watch
-    → AI = hiểu mechanism. Ăn vạ = body-base signal → cần ĐỌC, không dập tắt.
+    → Body-check: observe child HOLISTICALLY (body language, spontaneous behavior)
+    → Domain-check: real milestones, behavior when not being watched
+    → AI = understand the mechanism. Tantrum = body-base signal → needs READING, not suppressing.
 ```
 
-### §5.3 RELATIONSHIP — "Mình là partner tốt"
+### §5.3 — Relationship — "I'm a Good Partner"
 
 ```
-🟡 WRONG MODEL: "làm đúng theo advice = tốt"
+🟡 WRONG MODEL: "following advice correctly = being good"
 
-  Cơ chế gốc:
+  Root mechanism:
     → Relationship = body-coupling (Body-Coupling.md v1.1)
-    → Connection = L1 hardware + Self-Pattern-Modeling Compiled/Fresh + per-agent valence
-    → = Body-level process, KHÔNG phải PFC-level advice following
+    → Connection = L1 hardware + Compiled/Fresh Self-Pattern-Modeling + per-agent valence
+    → = Body-level process, NOT PFC-level advice-following
 
   AI CONFIRMS:
     → AI: communication tips, love languages, conflict resolution
     → Apply: active listening, "I statements" → LOOKS productive
-    → AI confirm: "đây là approach đúng"
+    → AI confirms: "this is the right approach"
 
   BODY-FEEDBACK DISMISSED:
-    → Đối phương: body cảm thấy "nói đúng nhưng không thật"
-    → Bạn: "nagging unease" khi apply techniques — feels mechanical
-    → Body-coupling signal BỊ BỎ QUA cả 2 phía
+    → Partner: body feels "says the right things but doesn't feel authentic"
+    → You: "nagging unease" when applying techniques — feels mechanical
+    → Body-coupling signal IGNORED on both sides
 
   DOMAIN REALITY:
-    → Đối phương xa dần hoặc nói "anh/chị đúng hết, nhưng tôi không CẢM được gì"
+    → Partner drifts away or says "you're right about everything, but I don't FEEL anything"
 
   ✅ DUAL CHECK:
-    → Body-check: "khi tôi làm X, body tôi cảm gì? Body đối phương phản ứng gì?"
-    → Domain-check: partner feedback trực tiếp, hành vi thật (không phải lời nói)
-    → AI = hiểu mechanism. Body = sense connection.
+    → Body-check: "when I do X, what does my body feel? How does my partner's body respond?"
+    → Domain-check: partner's direct feedback, real behavior (not just words)
+    → AI = understand the pattern. Body = sense the connection.
 ```
 
-### §5.4 SỨC KHỎE — "Tôi ăn uống lành mạnh"
+### §5.4 — Health — "I Eat Healthily"
 
 ```
-🟡 WRONG MODEL: plan đúng trên giấy = đúng cho body TÔI
+🟡 WRONG MODEL: a plan that's correct on paper = correct for MY body
 
-  Cơ chế gốc:
-    → Mỗi body KHÁC: hardware config, microbiome, hormone profile, history
-    → Plan CHUNG → áp cho body CỤ THỂ → mismatch có xác suất cao
+  Root mechanism:
+    → Each body is DIFFERENT: hardware config, microbiome, hormone profile, history
+    → GENERAL plan → applied to SPECIFIC body → mismatch has high probability
 
   AI CONFIRMS:
-    → AI: meal plan balanced, đúng macro → plan LOOKS correct
-    → AI confirm: "plan phù hợp"
+    → AI: balanced meal plan, correct macros → plan LOOKS correct
+    → AI confirms: "the plan is suitable"
 
   BODY-FEEDBACK DISMISSED:
-    → Body: mệt mỏi hơn, ngủ không ngon, da khô
-    → PFC override: "AI nói plan đúng mà, chắc mình đang detox"
+    → Body: more tired, poor sleep, dry skin
+    → PFC overrides: "AI said the plan is correct, I must be detoxing"
 
   DOMAIN REALITY:
-    → Khám sức khỏe → thiếu chất / không phù hợp cơ địa
+    → Medical check → nutrient deficiency / doesn't suit this constitution
 
   ✅ DUAL CHECK:
-    → Body-check: mệt? khỏe? energy? sleep quality? → adjust liên tục
-    → Domain-check: khám định kỳ = verify body-feedback accuracy
+    → Body-check: tired? healthy? energy? sleep quality? → continuously adjust
+    → Domain-check: regular check-up = verify body-feedback accuracy
     → AI → general plan. Body → personal adaptation. Domain → verification.
 ```
 
-### §5.5 CÔNG VIỆC — "Tôi làm việc hiệu quả"
+### §5.5 — Work — "I Work Efficiently"
 
 ```
-🟡 WRONG MODEL: output cao = năng lực cao
+🟡 WRONG MODEL: high output = high capability
 
-  Cơ chế gốc:
-    → Output = kết quả nhìn thấy. Năng lực = compiled skill trong body-base.
-    → AI tăng output KHÔNG nhất thiết tăng năng lực
-    → Efference copy chỉ fire khi TỰ LÀM → opioid → approach tag (Autonomy-Hardware.md §1)
+  Root mechanism:
+    → Output = visible results. Capability = compiled skill in body-base.
+    → AI increases output WITHOUT necessarily increasing capability
+    → Efference copy only fires when DOING IT YOURSELF → opioid → approach tag (Autonomy-Hardware.md §1)
 
   AI CONFIRMS:
-    → AI automate report, draft email, generate code → output TĂNG 3x
-    → AI confirm: "bạn đang làm tốt"
+    → AI automates reports, drafts emails, generates code → output INCREASES 3x
+    → AI confirms: "you're doing great"
 
   BODY-FEEDBACK DISMISSED:
-    → Body signal: "không thực sự giỏi thêm", "cảm giác trống"
-    → PFC override: "output tăng mà, số liệu chứng minh mà"
+    → Body signal: "not actually getting more capable," "empty feeling"
+    → PFC overrides: "output increased though, the numbers prove it"
     → 🟢 Bastani et al. 2024: students "productive" with AI → fail without AI
 
   DOMAIN REALITY:
-    → AI thay đổi → phải adapt → không có nền tảng
-    → Được hỏi trực tiếp → không trả lời được
+    → AI changes → must adapt → no foundation
+    → Asked directly → can't answer
 
   ✅ DUAL CHECK:
-    → Body-check: "tôi có thấy mình grow?" → efference copy check
-    → Domain-check: tắt AI 1 tuần → tự làm → đánh giá skill thật
-    → AI = routine (delegate). Bạn = phần khó (compile NEW skills).
+    → Body-check: "do I feel myself growing?" → efference copy check
+    → Domain-check: turn off AI for 1 week → do it yourself → assess real skill
+    → AI = routine (delegate). You = the hard parts (compile NEW skills).
 ```
 
-### §5.6 Pattern summary
+### §5.6 — Pattern Summary
 
 ```
-⭐ 1 MECHANISM, 5 BIỂU HIỆN:
+⭐ 1 MECHANISM, 5 MANIFESTATIONS:
 
   ┌─────────────────────┬────────────────────────┬────────────────────────┐
-  │ Domain              │ Wrong model            │ Domain reality check    │
+  │ Domain              │ Wrong model            │ Domain reality check   │
   ├─────────────────────┼────────────────────────┼────────────────────────┤
-  │ Học tập             │ Hiểu ≠ compile         │ Thi → không giải được  │
-  │ Nuôi con            │ Ngoan ≠ internalized   │ Teen → vỡ             │
-  │ Relationship        │ Technique ≠ connection │ Xa dần → break         │
-  │ Sức khỏe            │ Plan ≠ per-body        │ Khám → thiếu chất     │
-  │ Công việc           │ Output ≠ skill         │ Adapt → bất lực       │
+  │ Learning            │ Understanding ≠ compile│ Exam → can't solve     │
+  │ Parenting           │ Compliant ≠ internalized│ Teen → erupts         │
+  │ Relationship        │ Technique ≠ connection │ Drift → breakup        │
+  │ Health              │ Plan ≠ per-body        │ Check-up → deficiency  │
+  │ Work                │ Output ≠ skill         │ Adapt → helpless       │
   └─────────────────────┴────────────────────────┴────────────────────────┘
 
 
-  ROOT CAUSE CHUNG:
-    → Dùng AI OUTPUT thay DUAL CHECK làm verification
+  COMMON ROOT CAUSE:
+    → Using AI OUTPUT instead of DUAL CHECK as verification
     → AI output = PFC-level (external, general, statistical)
     → Body-feedback = body-level (internal, personal, per-individual)
     → Domain feedback = reality-level (objective, cannot be overridden)
-    → PFC LEVEL ≠ BODY LEVEL ≠ DOMAIN LEVEL = 3-tầng verification
+    → PFC LEVEL ≠ BODY LEVEL ≠ DOMAIN LEVEL = 3-tier verification
 
-  FIX CHUNG (§3 Dual Check):
-    → AI = resource THÔNG TIN (chunk provider)
-    → Body = quality controller đầu tiên (~90%)
-    → Domain feedback = final arbiter (bắt 10% body sai)
-    → KHÔNG dùng AI thay body. KHÔNG dùng body thay domain feedback.
-    → = 3 tầng: AI → body-check → domain-verify
+  COMMON FIX (§3 Dual Check):
+    → AI = INFORMATION resource (chunk provider)
+    → Body = first quality controller (~90%)
+    → Domain feedback = final arbiter (catches the 10% body gets wrong)
+    → DO NOT use AI instead of body. DO NOT use body instead of domain feedback.
+    → = 3 tiers: AI → body-check → domain-verify
 
   ⚠️ STALE CALIBRATION RISK (§4):
-    → Mỗi domain trên → nếu mất feedback loop → stale calibration risk
-    → VD: parent mất liên lạc với con (giai đoạn 2-5 của §4.2)
-    → VD: employee chuyển sang solo consultant → mất peer feedback
+    → Each domain above → if feedback loop is lost → stale calibration risk
+    → E.g.: parent loses touch with child (stages 2-5 of §4.2)
+    → E.g.: employee becomes a solo consultant → loses peer feedback
 
-  ⚠️ ĐÂY KHÔNG PHẢI "AI XẤU":
-    → Cùng AI, dùng ĐÚNG = compound growth (§6)
-    → Cùng AI, dùng SAI = amplified wrong
-    → CÁCH DÙNG quyết định — không phải AI quyết định
+  ⚠️ THIS IS NOT "AI IS BAD":
+    → Same AI, used CORRECTLY = compound growth (§6)
+    → Same AI, used INCORRECTLY = amplified wrong
+    → HOW YOU USE IT is what matters — not AI itself
 ```
 
 ---
 
-## §6 — THE REVERSE: RIGHT MODEL × AI = AMPLIFIED GROWTH
+## §6 — The Reverse: Right Model × AI = Amplified Growth
 
-### §6.1 Hiểu 2-system architecture + Dual Check → dùng AI đúng chỗ
+### §6.1 — Understanding 2-System Architecture + Dual Check → Use AI Correctly
 
 ```
-🟡 SYMBIOSIS = HIỂU AI LÀM GÌ TỐT + HIỂU BODY LÀM GÌ TỐT:
+🟡 SYMBIOSIS = KNOWING WHAT AI DOES WELL + KNOWING WHAT BODY DOES WELL:
 
-  AI TỐT Ở:                          BODY TỐT Ở:
-    Cross-reference rộng                Evaluate per-individual
-    Pattern match từ big data           Body-feedback real-time
-    Giải thích, chunk provision         Quality control (~90%)
-    Working memory lớn (200K+ tokens)   Valence (approach/avoidance)
-    Speed, consistency                  Efference copy, Self-Pattern-Modeling, co-regulation
-    Available 24/7                      Direction (body-need → drive)
+  AI IS GOOD AT:                        BODY IS GOOD AT:
+    Wide cross-referencing                Evaluating per-individual
+    Pattern matching from big data        Real-time body-feedback
+    Explanation, chunk provision          Quality control (~90%)
+    Large working memory (200K+ tokens)   Valence (approach/avoidance)
+    Speed, consistency                    Efference copy, Self-Pattern-Modeling, co-regulation
+    Available 24/7                        Direction (body-need → drive)
 
   → AI = KNOWLEDGE + SPEED.  Body = EVALUATION + DIRECTION.
   → Domain = TRUTH VERIFICATION (final arbiter — §3)
   → (Human-AI-Future.md v3.0 §7: Complement analysis)
 
 
-  SYMBIOSIS NGUYÊN TẮC (Human-AI-Future.md v3.0 §7):
-    → User GIỮ decision + evaluation + direction
-    → AI execute sub-tasks, provide chunks, reduce cognitive load
-    → Domain feedback VERIFY regularly
-    → Efference copy ở meta-level: "TÔI CHỌN hướng, AI giúp HOW"
+  SYMBIOSIS PRINCIPLES (Human-AI-Future.md v3.0 §7):
+    → User KEEPS decision + evaluation + direction
+    → AI executes sub-tasks, provides chunks, reduces cognitive load
+    → Domain feedback VERIFIED regularly
+    → Efference copy at meta-level: "I CHOOSE the direction, AI helps with HOW"
 
-  5 KIỂU DÙNG AI — KHÁC TAG:
-    ❌ AI làm HỘ hoàn toàn (no efference copy) → Avoidance risk
-    ✅ AI execute sub-tasks, user DIRECT → Approach
-    ✅ AI provide chunks, user COMPILE (learn) → Approach (strongest)
-    ✅ AI reduce cognitive load, user focus higher → Approach
-    ✅ AI build plan + simulate, user EVALUATE → Approach
+  5 MODES OF AI USE — DIFFERENT TAGS:
+    ❌ AI does it FOR you completely (no efference copy) → Avoidance risk
+    ✅ AI executes sub-tasks, user DIRECTS → Approach
+    ✅ AI provides chunks, user COMPILES (learns) → Approach (strongest)
+    ✅ AI reduces cognitive load, user focuses higher → Approach
+    ✅ AI builds plan + simulates, user EVALUATES → Approach
 ```
 
-### §6.2 Per-domain correct use (đối chiếu §5)
+### §6.2 — Per-Domain Correct Use (Contrasting §5)
 
 ```
-🟡 MỖI DOMAIN — DÙNG AI ĐÚNG THẾ NÀO:
+🟡 EACH DOMAIN — HOW TO USE AI CORRECTLY:
 
-  HỌC TẬP:
-    → AI giải thích → TỰ LÀM BÀI → body-check → domain-check (tự giải)
-    → "Khó" = đang compile → TIẾP TỤC. AI = teacher. Body = student.
+  LEARNING:
+    → AI explains → DO IT YOURSELF → body-check → domain-check (solve it alone)
+    → "Hard" = currently compiling → KEEP GOING. AI = teacher. Body = student.
 
-  NUÔI CON:
-    → AI = hiểu mechanism. Body = observe con. Domain = milestone thật.
-    → "Body tôi cảm gì khi con khóc?" → direction cho phản ứng
+  PARENTING:
+    → AI = understand the mechanism. Body = observe the child. Domain = real milestones.
+    → "What does my body feel when my child cries?" → direction for response
 
   RELATIONSHIP:
-    → AI = hiểu pattern. Body = sense connection. Domain = partner feedback.
+    → AI = understand the pattern. Body = sense the connection. Domain = partner's feedback.
     → Body-coupling evaluation > technique application
 
-  SỨC KHỎE:
-    → AI = plan. Body = test → adjust. Domain = khám định kỳ.
+  HEALTH:
+    → AI = plan. Body = test → adjust. Domain = regular check-up.
     → Iterative: plan → body → adjust → verify
 
-  CÔNG VIỆC:
-    → AI = routine. Bạn = phần khó. Domain = tắt AI 1 tuần.
-    → AI amplify existing skill. Body compile new skill.
+  WORK:
+    → AI = routine. You = the hard parts. Domain = turn off AI for 1 week.
+    → AI amplifies existing skill. Body compiles new skill.
 ```
 
-### §6.3 Compound growth evidence
+### §6.3 — Compound Growth Evidence
 
 ```
 🟡🟢 COMPOUND GROWTH CYCLE:
 
-  AI provide chunks (broad, fast)
-    → Body evaluate (accurate, per-individual)
-    → Domain verify (truth check)
-    → "Feel đúng + domain confirm" → compile → seek more
-    → "Feel sai OR domain reject" → adjust → ask differently
+  AI provides chunks (broad, fast)
+    → Body evaluates (accurate, per-individual)
+    → Domain verifies (truth check)
+    → "Feel right + domain confirms" → compile → seek more
+    → "Feel wrong OR domain rejects" → adjust → ask differently
     → = FASTER + MORE ACCURATE compile cycle than either alone
 
 
-  🟢 EVIDENCE: HUMAN-AI COLLABORATION WORKS KHI ĐÚNG CÁCH:
+  🟢 EVIDENCE: HUMAN-AI COLLABORATION WORKS WHEN DONE RIGHT:
 
     🟢 Banerjee et al. 2024 (Stanford): complementary AI approach
-      → Selective AI recommendations (CHỈ khi human likely uncertain)
+      → Selective AI recommendations (ONLY when human is likely uncertain)
       → Outperformed: always-on AI AND no AI
-      → Framework: selective = PFC CHỌN khi nào nhờ AI = maintain efference copy
+      → Framework: selective = PFC CHOOSES when to ask AI = maintain efference copy
 
     🟢 Henry et al. 2022/2024 (TREWS sepsis detection):
-      → Human-AI collaboration: AI flag + clinician confirm within 3 hours
-      → Sepsis mortality GIẢM 18.7%
-      → = AI DETECT + human DECIDE = optimal
+      → Human-AI collaboration: AI flags + clinician confirms within 3 hours
+      → Sepsis mortality DECREASED 18.7%
+      → = AI DETECTS + human DECIDES = optimal
 
     🟢 Fogliato et al. 2022: "Who Goes First?"
       → Human first → independent analysis + AI supplement = BETTER
       → AI first → anchoring bias (human follows AI)
-      → Framework: body-feedback TRƯỚC → AI SAU = better
+      → Framework: body-feedback FIRST → AI SECOND = better
 
     → = Evidence CONFIRMS: right model × AI = better outcomes
     → Pattern: human evaluation FIRST, AI augmentation SECOND
@@ -1111,265 +1099,264 @@
 
 ---
 
-## §7 — SELF-CHECK DIAGNOSTIC
+## §7 — Self-Check Diagnostic
 
 ```
-⭐ 6 CÂU HỎI KIỂM TRA: "BẠN ĐANG DÙNG AI ĐÚNG HAY SAI?"
+⭐ 6 DIAGNOSTIC QUESTIONS: "AM I USING AI CORRECTLY OR INCORRECTLY?"
 
-  Không phải test cho điểm. Là la bàn — chỉ hướng để tự calibrate.
+  Not a scored test. A compass — pointing in the direction for self-calibration.
 ```
 
-### §7.1 Approach vs Avoidance check
+### §7.1 — Approach vs Avoidance Check
 
 ```
-🟡 CÂU HỎI: "AI giúp TÔI LÀM tốt hơn, hay AI LÀM THAY tôi?"
+🟡 QUESTION: "Does AI help ME DO things better, or does AI DO things FOR me?"
 
   APPROACH (AI as tool):
-    → Dùng AI → VẪN TỰ LÀM phần quan trọng
-    → Efference copy fire → opioid → approach tag cho skill
+    → Using AI → STILL DOING the important parts yourself
+    → Efference copy fires → opioid → approach tag for the skill
 
   AVOIDANCE (AI as crutch):
-    → Dùng AI → AI LÀM THAY phần quan trọng
-    → Efference copy KHÔNG fire → no opioid for skill
+    → Using AI → AI DOES the important parts for you
+    → Efference copy does NOT fire → no opioid for the skill
 
-  → Nếu TỰ action → efference copy → opioid = APPROACH
-    Nếu AI action → no copy → no opioid = AVOIDANCE risk
+  → If YOU act → efference copy → opioid = APPROACH
+    If AI acts → no copy → no opioid = AVOIDANCE risk
 ```
 
-### §7.2 Body-feedback check
+### §7.2 — Body-Feedback Check
 
 ```
-🟡 CÂU HỎI: "Sau khi dùng AI, tôi có CHECK body response không?"
+🟡 QUESTION: "After receiving AI output, do I CHECK my body's response?"
 
-  AI nói X → DỪNG → hỏi body: "tôi cảm thấy gì về X?"
-
-  CHECK CÓ:
+  YOU DO CHECK:
+    → AI says X → PAUSE → ask body: "how do I feel about X?"
     → Body: "smooth" → likely aligned → proceed to domain-check
-    → Body: "nagging unease" → something off → investigate before proceed
+    → Body: "nagging unease" → something's off → investigate before proceeding
     → Body: "nothing" → insufficient chunks → need more context
 
-  CHECK KHÔNG BAO GIỜ:
-    → AI nói → accept → action → no body filter
+  YOU NEVER CHECK:
+    → AI says → accept → act → no body filter
     → = Automation bias in action
 
-  ⚠️ NHƯNG: body-check ALONE không đủ (§1.5, §3)
-    → Body approve = first filter (~90%)
-    → Cần THÊM domain-check cho 10% body sai
+  ⚠️ BUT: body-check ALONE is not sufficient (§1.5, §3)
+    → Body approves = first filter (~90%)
+    → ALSO NEED domain-check for the 10% where body is wrong
 ```
 
-### §7.3 Skill test
+### §7.3 — Skill Test
 
 ```
-🟡 CÂU HỎI: "Tắt AI 1 tuần — tôi VẪN LÀM ĐƯỢC không?"
+🟡 QUESTION: "Turn off AI for 1 week — can I STILL DO IT?"
 
-  LÀM ĐƯỢC:
-    → Skill đã compiled → AI = accelerator
-    → = Healthy use: AI on top of compiled foundation
+  CAN DO IT:
+    → Skill already compiled → AI = accelerator
+    → = Healthy use: AI on top of a compiled foundation
 
-  KHÔNG LÀM ĐƯỢC:
-    → Skill CHƯA compiled → AI = crutch
-    → = Risk: AI change/unavailable → bạn bất lực
+  CANNOT DO IT:
+    → Skill NOT YET compiled → AI = crutch
+    → = Risk: AI changes/becomes unavailable → you're helpless
 
-  → "Phân biệt AI-assisted skill vs AI-dependent output"
+  → "Distinguish AI-assisted skill vs AI-dependent output"
 ```
 
-### §7.4 Domain feedback loop + Staleness check
+### §7.4 — Domain Feedback Loop + Staleness Check
 
 ```
-🟡 CÂU HỎI: "Tôi có domain feedback loop không? Nó còn fresh không?"
+🟡 QUESTION: "Do I have a domain feedback loop? Is it still fresh?"
 
-  CÓ DOMAIN FEEDBACK ĐANG HOẠT ĐỘNG:
-    → Thi (education), KPI thật (work), cân nặng (health),
-      phản hồi trực tiếp (relationship), hành vi con (parenting)
-    → = Measurement từ DOMAIN, KHÔNG từ AI
+  DOMAIN FEEDBACK ACTIVELY OPERATING:
+    → Exams (education), real KPIs (work), weight (health),
+      direct feedback (relationship), child's behavior (parenting)
+    → = Measurement from DOMAIN, NOT from AI
 
-  CHỈ CÓ AI FEEDBACK:
-    → AI nói "tốt" → "tốt thật"
-    → KHÔNG verify bằng domain → risk amplification (§2)
+  ONLY AI FEEDBACK:
+    → AI says "good" → "actually good"
+    → NO verification against domain → amplification risk (§2)
 
-  v2.0 THÊM — STALENESS CHECK:
-    → "Bao lâu rồi từ lần cuối nhận domain feedback THẬT?"
-    → Domain feedback RECENT (< 3-6 tháng) → calibration likely fresh
-    → Domain feedback CŨ (> 6 tháng) → stale calibration risk (§4)
-    → "Domain có thay đổi kể từ lần cuối tôi có feedback trực tiếp?"
-    → Nếu domain thay đổi + bạn không có feedback mới → stale
+  v2.0 ADDS — STALENESS CHECK:
+    → "When was the last time I received REAL domain feedback?"
+    → Domain feedback RECENT (< 3-6 months) → calibration likely fresh
+    → Domain feedback OLD (> 6 months) → stale calibration risk (§4)
+    → "Has the domain changed since the last time I had direct feedback?"
+    → If domain changed + you have no new feedback → stale
 ```
 
-### §7.5 Confirmation pattern
+### §7.5 — Confirmation Pattern
 
 ```
-🟡 CÂU HỎI: "Tôi dùng AI để CONFIRM hay để CHALLENGE?"
+🟡 QUESTION: "Am I using AI to CONFIRM or to CHALLENGE?"
 
   CONFIRM MODE (risk):
-    → "AI ơi, plan tôi đúng không?"
-    → AI: "plan có vẻ hợp lý" (sycophancy tendency)
+    → "AI, is my plan correct?"
+    → AI: "the plan seems reasonable" (sycophancy tendency)
     → = Confirmation bias × AI amplification
 
   CHALLENGE MODE (growth):
-    → "AI ơi, plan tôi SAI ở đâu? Thiếu gì? Có blind spot nào?"
+    → "AI, where is my plan WRONG? What's missing? What are the blind spots?"
     → AI: forced to analyze weaknesses → more useful output
     → = Red team approach to self-model
 
   → Questions that CHALLENGE → force AI out of confirm mode
-  → Questions that CONFIRM → AI default to agree → loop
+  → Questions that CONFIRM → AI defaults to agree → loop
 ```
 
-### §7.6 Stale calibration check (v2.0 NEW)
+### §7.6 — Stale Calibration Check (v2.0 New)
 
 ```
-🟡 CÂU HỎI: "Calibration của tôi còn fresh không?"
+🟡 QUESTION: "Is my calibration still fresh?"
 
   FRESH CALIBRATION:
-    → Đang active trong domain → domain feedback liên tục
-    → Có peer/community challenge thường xuyên
+    → Currently active in domain → domain feedback continuous
+    → Has peer/community challenge regularly
     → = Body-check calibrated to CURRENT domain
 
   STALE CALIBRATION RISK:
-    → Đã rời domain > 6 tháng (nghỉ hưu, chuyển lĩnh vực, đi solo)
-    → AI là "peer" duy nhất → AI ≠ peer review thật (§2.3)
-    → Confident nhưng không có domain feedback gần đây
-    → = Body-check có thể calibrated to PAST domain (§4)
+    → Have left domain > 6 months (retired, changed fields, gone solo)
+    → AI is the only "peer" → AI ≠ real peer review (§2.3)
+    → Confident but no recent domain feedback
+    → = Body-check may be calibrated to PAST domain (§4)
 
-  → NẾU stale: tìm lại feedback loop
-    → Peer review (dù chỉ 1-2 người)
-    → Conference/seminar (domain current)
+  → IF STALE: rebuild the feedback loop
+    → Peer review (even just 1-2 people)
+    → Conference/seminar (current domain)
     → Publish/present (invite challenge)
     → Domain reality test (prototype, experiment, implement)
 ```
 
 ---
 
-## §8 — BODY-LISTENING = AI-ERA SKILL
+## §8 — Body-Listening = AI-Era Skill
 
-### §8.1 Paradox: AI makes body-listening MORE important
+### §8.1 — Paradox: AI Makes Body-Listening MORE Important
 
 ```
-🟡 PARADOX TRUNG TÂM:
+🟡 THE CENTRAL PARADOX:
 
-  Logic bề ngoài: AI mạnh → body kém quan trọng hơn (AI thay thế)
-  Thực tế: AI mạnh → body-listening QUAN TRỌNG HƠN BẤT KỲ LÚC NÀO
+  Surface logic: AI grows stronger → body less important (AI replaces)
+  Reality: AI grows stronger → body-listening MATTERS MORE THAN EVER
 
-  TẠI SAO:
-    → AI có MỌI THỨ trừ body (Human-AI-Future.md v3.0 §0)
+  WHY:
+    → AI has EVERYTHING except body (Human-AI-Future.md v3.0 §0)
     → AI = knowledge ★★★★★, cross-reference ★★★★★, speed ★★★★★
     → AI = body-feedback ☆, valence ☆, efference copy ☆, co-regulation ☆
-    → = Body-listening = CÁI DUY NHẤT AI THIẾU
-    → = Body-listening = unique human value trong AI era
+    → = Body-listening = THE ONE THING AI LACKS
+    → = Body-listening = unique human value in the AI era
 
-  TRƯỚC AI:
-    → Kiến thức = scarce → "biết nhiều" = competitive advantage
+  BEFORE AI:
+    → Knowledge = scarce → "knowing more" = competitive advantage
     → Body-listening = nice-to-have
 
-  SAU AI:
-    → Kiến thức = abundant (AI provide) → "biết nhiều" = commoditized
-    → Competitive advantage SHIFT sang: "evaluate đúng + hỏi đúng + direction đúng"
-    → TẤT CẢ 3 cần BODY-FEEDBACK + DOMAIN VERIFY (§3 Dual Check)
+  AFTER AI:
+    → Knowledge = abundant (AI provides) → "knowing more" = commoditized
+    → Competitive advantage SHIFTS to: "evaluate better + ask better + direct better"
+    → ALL 3 require BODY-FEEDBACK + DOMAIN VERIFY (§3 Dual Check)
     → = Body-listening + domain-verify = AI-era competitive advantage
 
   → (Human-AI-Future.md v3.0 §8①: body-listening = skill #1)
-  → (Self-Created-Threat.md §5: 3 kỹ năng AI era — body-listening đứng đầu)
+  → (Self-Created-Threat.md §5: 3 AI-era skills — body-listening comes first)
 ```
 
-### §8.2 Body-listening training methods
+### §8.2 — Body-Listening Training Methods
 
 ```
-🟡🟢 CÁCH PHÁT TRIỂN BODY-LISTENING:
+🟡🟢 HOW TO DEVELOP BODY-LISTENING:
 
   ① SOMATIC-ARTICULATION-LOOP (Somatic-Articulation-Loop.md):
-     → Body "knows" (implicit) → PFC observe → articulate → verify
+     → Body "knows" (implicit) → PFC observes → articulate → verify
      → Gendlin Focusing (🟢 Gendlin 1981) = structured body-listening method
 
   ② MEDITATION / MINDFULNESS:
      → 🟢 Tang et al. 2015: mindfulness meditation improves interoceptive accuracy
-     → 5 phút "ngồi yên, hỏi body cảm gì" = start
+     → 5 minutes "sitting quietly, asking body what it feels" = a starting point
 
   ③ BODY PRACTICES (yoga, tai chi, dance, martial arts):
-     → Body IN MOTION → efference copy fire → body-awareness tăng
+     → Body IN MOTION → efference copy fires → body-awareness increases
 
-  ④ ĐƠN GIẢN NHẤT:
-     → "Dừng lại 5 giây. Hỏi body cảm thấy gì."
-     → Trước mỗi quyết định: "body, mày thấy sao?"
-     → Sau khi nhận AI output: "body, cái này feel thế nào?"
+  ④ SIMPLEST OF ALL:
+     → "Pause for 5 seconds. Ask body what it feels."
+     → Before every decision: "body, what do you think?"
+     → After receiving AI output: "body, how does this feel?"
      → = Micro-practice — cheap, scalable, effective
 
   DEVELOPMENT TRAJECTORY:
-     → Beginner: "tôi không cảm thấy gì" (clarity thấp)
-     → Intermediate: "tôi thấy có gì đó nhưng không rõ" (emerging)
-     → Advanced: "ngực hơi nặng khi nghĩ X" (localized, specific)
-     → Expert: "body nói cái này ĐÚNG ở concept nhưng THIẾU ở execution" (nuanced)
+     → Beginner: "I don't feel anything" (clarity low)
+     → Intermediate: "I feel something but it's unclear" (emerging)
+     → Advanced: "my chest feels slightly heavy when I think about X" (localized, specific)
+     → Expert: "body is saying this is RIGHT at the concept level but MISSING at execution" (nuanced)
      → (Feeling.md §10: 5-stage Feeling Literacy progression)
 ```
 
-### §8.3 AI × body-listening × domain-verify = optimal combo
+### §8.3 — AI × Body-Listening × Domain-Verify = Optimal Combo
 
 ```
-🟡 ITERATIVE LOOP 3 BƯỚC (v2.0 — thêm domain verify):
+🟡 ITERATIVE 3-STEP LOOP (v2.0 — adds domain verify):
 
-  Step 1: AI PROPOSE (broad, fast, knowledge-based)
-    → AI provide options, analysis, explanation, chunks
+  Step 1: AI PROPOSES (broad, fast, knowledge-based)
+    → AI provides options, analysis, explanation, chunks
 
-  Step 2: Body EVALUATE (deep, per-individual, quality control)
-    → Dừng. Hỏi body. Smooth? Resistance? Empty?
+  Step 2: Body EVALUATES (deep, per-individual, quality control)
+    → Pause. Ask body. Smooth? Resistance? Empty?
     → Smooth → likely aligned → proceed to step 3
-    → Resistance → investigate → ask AI different question
+    → Resistance → investigate → ask AI a different question
     → Empty → need more context → ask AI for more chunks
 
-  Step 3: DOMAIN VERIFY (external, objective, final arbiter)
-    → "Có cách kiểm chứng bằng thực tế?"
-    → Domain confirm → compile → iterate deeper
-    → Domain reject → adjust model → back to step 1
+  Step 3: DOMAIN VERIFIES (external, objective, final arbiter)
+    → "Is there a way to test this against reality?"
+    → Domain confirms → compile → iterate deeper
+    → Domain rejects → adjust model → back to step 1
 
   = 3-STEP ITERATIVE LOOP:
-    AI propose → body evaluate → domain verify → iterate
-    → CONVERGE to: direction AI-supported + body-validated + domain-confirmed
+    AI proposes → body evaluates → domain verifies → iterate
+    → CONVERGES on: AI-supported + body-validated + domain-confirmed direction
 
   ANALOGY:
-    → AI = microscope (thấy xa, thấy rộng, thấy chi tiết NGOÀI)
-    → Body = la bàn nội tại (chỉ hướng ĐÚNG cho CÁ NHÂN này)
-    → Domain = mặt đất thật (reality check — la bàn cũng có thể lệch ~10%)
-    → Microscope + compass + ground truth = navigation hoàn chỉnh
+    → AI = microscope (sees far, sees wide, sees external detail)
+    → Body = internal compass (points to the RIGHT direction FOR THIS PERSON)
+    → Domain = solid ground (reality check — the compass can drift ~10%)
+    → Microscope + compass + solid ground = complete navigation
 ```
 
-### §8.4 "Biết mà không làm được" trong AI era
+### §8.4 — "Knowing Without Being Able To Do" in the AI Era
 
 ```
-🟡 AI AMPLIFY "KNOWING-DOING GAP":
+🟡 AI AMPLIFIES THE KNOWING-DOING GAP:
 
-  → "Biết" (PFC hold chunks) ≠ "Làm được" (body-base compiled chunks)
-  → = 2-system architecture: PFC understand ≠ body execute
+  → "Knowing" (PFC holds chunks) ≠ "being able to do it" (body-base compiled chunks)
+  → = 2-system architecture: PFC understands ≠ body executes
 
-  TRƯỚC AI:
-    → Gap RÕ → uncomfortable → body-feedback push compile
-    → = Gap = drive source cho change
+  BEFORE AI:
+    → Gap is OBVIOUS → uncomfortable → body-feedback pushes compilation
+    → = Gap = a source of drive for change
 
-  SAU AI:
-    → AI give PERFECT advice → PFC "biết hết rồi"
-    → Body-base VẪN KHÔNG execute → gap CÒN RÕ HƠN
-    → NHƯNG: AI advice quality = PFC SATISFIED → reduce drive to compile
+  AFTER AI:
+    → AI gives PERFECT advice → PFC "knows everything"
+    → Body-base STILL DOESN'T EXECUTE → gap is EVEN MORE OBVIOUS
+    → BUT: AI advice quality = PFC SATISFIED → reduces drive to compile
     → = Amplified knowing-doing gap
 
   ⭐ MOST PRACTICAL INSIGHT:
     → Advice ≠ change. Understanding ≠ ability. Knowledge ≠ skill.
-    → AI = TUYỆT VỜI ở advice, understanding, knowledge.
-    → Body compile ability, skill — qua EXPERIENCE.
-    → = Dùng AI để BIẾT, dùng body để LÀM.
-    → Biết + Không làm = nothing.
-    → Biết + Làm = compound growth.
+    → AI = EXCELLENT at advice, understanding, knowledge.
+    → Body compiles ability, skill — through EXPERIENCE.
+    → = Use AI to KNOW, use body to DO.
+    → Knowing + Not doing = nothing.
+    → Knowing + Doing = compound growth.
 ```
 
 ---
 
-## §9 — FUTURE TECH: HIỂU TRƯỚC KHI AUGMENT
+## §9 — Future Tech: Understand Before You Augment
 
 ```
-🔴 3 GIAI ĐOẠN INTEGRATION — STAKES TĂNG:
+🔴 3 INTEGRATION LEVELS — STAKES INCREASE:
 
-  NGUYÊN TẮC KỸ THUẬT:
-    Hiểu hệ thống TRƯỚC → modify → KẾT QUẢ predictable
-    Modify KHÔNG hiểu → KẾT QUẢ unpredictable → thường = hại
+  ENGINEERING PRINCIPLE:
+    Understand the system FIRST → modify → PREDICTABLE results
+    Modify WITHOUT understanding → UNPREDICTABLE results → usually = harm
 
   ┌──────────────────────────┬──────────────┬───────────────────┐
-  │ Level                    │ Reversibility │ Self-understanding │
+  │ Level                    │ Reversibility│ Self-understanding │
   ├──────────────────────────┼──────────────┼───────────────────┤
   │ ① External tool (chat)   │ Easy         │ MODERATE           │
   │ ② Wearable (always-on)   │ Moderate     │ HIGH               │
@@ -1377,36 +1364,36 @@
   └──────────────────────────┴──────────────┴───────────────────┘
 
   ① CURRENT: AI as external tool
-     → Stakes thấp → FILE NÀY focus ở level này
-     → Sai → tắt → no permanent harm
+     → Stakes low → THIS FILE focuses here
+     → Wrong → turn it off → no permanent harm
 
   ② NEAR FUTURE: AI as wearable companion (always-on)
-     → AI companion 24/7 → body-input baseline CÓ THỂ bị distort
-     → "Cô đơn" khi không có AI? Body-feedback sensitivity GIẢM?
-     → = Stale Calibration risk TĂNG (§4) — AI = only "peer" luôn
+     → AI companion 24/7 → body-input baseline MAY be distorted
+     → "Lonely" without AI? Body-feedback sensitivity DECREASING?
+     → = Stale Calibration risk INCREASES (§4) — AI = the only "peer" always present
 
   ③ FAR FUTURE: AI as BCI/neural integration
-     → AI connect TRỰC TIẾP vào neural circuits
-     → Augment WRONG system → amplified wrong at hardware level
-     → = PHẢI hiểu chunk-system TRƯỚC KHI can thiệp
+     → AI connects DIRECTLY into neural circuits
+     → Augment the WRONG system → amplified wrongly at the hardware level
+     → = MUST understand the chunk system BEFORE intervening
 
-  Framework = "documentation" cho human operating system.
-  Cần documentation TRƯỚC KHI modify system.
-  → File này + framework = foundation cho Level ②③ (tương lai)
+  Framework = "documentation" for the human operating system.
+  Need documentation BEFORE modifying the system.
+  → This file + framework = foundation for Levels ② and ③ (future)
 ```
 
 ---
 
-## §10 — HONEST ASSESSMENT
+## §10 — Honest Assessment
 
 ```
-🟢 MẠNH (research-backed, observable):
+🟢 STRONG (research-backed, observable):
 
   AI + Human interaction:
     → AI sycophancy = documented (Sharma et al. 2024 ICLR, Wei et al. 2023, "Not One Thing" 2025)
     → Automation bias = well-established (Parasuraman & Riley 1997, Goddard et al. 2012,
        Busuioc 2021, Bansak & Hainmueller 2024, Schemmer et al. 2024)
-    → AI-assisted learning can HARM compile (Bastani et al. 2024 PNAS — 17% worse without AI)
+    → AI-assisted learning can HARM compilation (Bastani et al. 2024 PNAS — 17% worse without AI)
     → AI CAN help learning IF designed right (Kestin & Miller 2025 — doubled gains when guided)
     → Guardrailed AI = effective (Bastani et al. — 127% improvement with no exam penalty)
     → Dunning-Kruger DISAPPEARS with AI — all users overestimate (Fernandes et al. 2025)
@@ -1420,44 +1407,44 @@
     → Efference copy = established (von Holst 1950, Blakemore 1998)
 
 
-🟡 TRUNG BÌNH (framework synthesis + observable):
+🟡 MODERATE (framework synthesis + observable):
 
   → AI amplification pattern = framework inference + observable
-    → Logic: AI confirm → body-feedback dismissed → domain feedback delayed → crash
-    → CHƯA CÓ: longitudinal study tracking AI × self-model × outcomes
+    → Logic: AI confirms → body-feedback dismissed → domain feedback delayed → crash
+    → NOT YET: longitudinal study tracking AI × self-model × outcomes
   → Dual Check model (§3) = logical extension of Body-Base.md §7 (2-Tier + 2-Pathway calibration)
     → Body ~90% + 3 failure modes = established → domain check = logical complement
-    → CHƯA CÓ: controlled study comparing body-only vs dual check AI outcomes
+    → NOT YET: controlled study comparing body-only vs dual check AI outcomes
   → "Honest AI still amplifies" (§1.5) = logical from coherence ≠ truth principle
     → Body-Base.md §7: coherent-but-false → reward = established
     → Extension to AI output = framework inference (untested directly)
   → AI ≠ Peer Review dismissability (§2.3) = logical from Self-Pattern-Modeling + body-channel theory
-    → Observable: people dismiss AI objections easier than peer objections
-    → CHƯA CÓ: controlled study measuring dismissability per channel
-  → Per-domain failure modes = framework mapping, chưa systematic testing
-  → Self-check diagnostic = framework-derived, chưa validated as assessment tool
+    → Observable: people dismiss AI objections more easily than peer objections
+    → NOT YET: controlled study measuring dismissability per channel
+  → Per-domain failure modes = framework mapping, not yet systematically tested
+  → Self-check diagnostic = framework-derived, not yet validated as assessment tool
   → Body-listening × AI = compound growth = hypothesis (consistent with evidence)
 
 
-🔴 GIẢ THUYẾT (logical nhưng chưa evidence):
+🔴 HYPOTHESIS (logical but not yet evidenced):
 
   → Stale Calibration (§4) = logical from body-check calibration mechanism
-    → Body-Base.md §7 Tầng 2 Hebbian: calibration = f(domain feedback) = established
-    → "Feedback dừng → calibration stale" = logical extension, CHƯA tested
-    → 5 giai đoạn = framework hypothesis
-    → 5 xu hướng = observable trends, chưa quantified
+    → Body-Base.md §7 Tier 2 Hebbian: calibration = f(domain feedback) = established
+    → "Feedback stops → calibration goes stale" = logical extension, NOT YET TESTED
+    → 5 stages = framework hypothesis
+    → 5 trends = observable trends, not yet quantified
   → Future tech implications (BCI, neural) = pure speculation
   → AI companion → baseline shift = plausible but untested
-  → Quantitative: how much AI delays correction = unknown
+  → Quantitative: how much does AI delay correction? = unknown
 
 
-CÂU HỎI MỞ:
+OPEN QUESTIONS:
 
   Q1: Longitudinal data: AI × self-model → outcomes?
   Q2: Self-check diagnostic: predicts AI misuse accurately?
   Q3: Body-listening training → better AI interaction?
-  Q4: AI companion (always-on) → body-input baseline distort?
-  Q5: Per-domain failure: proportions in population?
+  Q4: AI companion (always-on) → distorts body-input baseline?
+  Q5: Per-domain failure: proportions in the population?
   Q6: Dunning-Kruger × AI: interaction effect size?
   Q7: Cultural variation: Asian vs Western AI interaction?
   Q8: Stale Calibration: prevalence? How many people actively losing feedback loops? (v2.0)
@@ -1467,13 +1454,13 @@ CÂU HỎI MỞ:
 
 ---
 
-## §11 — CROSS-REFERENCES
+## §11 — Cross-References
 
 ```
 MECHANISM FILES (core evidence):
   → Core-Software.md v1.0 — PFC vs body-base 2-system, cycle, sole substrate
   → Body-Base.md v3.1 — §7 2-Tier + 2-Pathway calibration, 3 failure modes, body ~90%
-  → Body-Feedback.md v1.1 — dual-pull, body accuracy ~90%, Body-Feedback-Precondition 5 preconditions
+  → Body-Feedback.md v1.1 — dual-pull, body accuracy ~90%, Body-Feedback-Precondition 5 conditions
   → Body-Feedback-Mechanism.md v1.2 — chunk dynamics: Shift/Miss/Gap
   → Feeling.md v2.1 — 7-layer fidelity gradient, PFC observation interface
   → PFC-Function.md v1.2 — 24 functions, PFC override, confabulation
@@ -1481,23 +1468,23 @@ MECHANISM FILES (core evidence):
   → Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, trust amplifier, Trust Compile ~30-60%
   → Chunk.md v2.1 — sole substrate, 4 compile mechanisms, activation dynamics
 
-ANALYSIS FILES (parallel — "bộ 3 song song"):
+ANALYSIS FILES (3 companion files):
   → Social-Calibration.md v1.0 — WHERE WE CAME FROM (7 functions breaking)
-  → AI-Self-Model.md v2.0 — FILE NÀY (WHY + HOW self-calibrate with AI)
+  → AI-Self-Model.md v2.1 — THIS FILE (WHY + HOW to self-calibrate with AI)
   → Human-AI-Future.md v3.0 — WHERE WE'RE GOING (3-risk framework, agency)
 
 APPLICATION FILES:
   → Ask-AI.md v3.1 — §6.1 Dual Check protocol, §3.2⑦ coherence ≠ truth
   → AI-Schema-Detection.md v2.0 — 3-layer model, AI trust guardrails §8
-  → Self-Created-Threat.md v1.0 — §5 AI era drive gap, 3 kỹ năng AI
+  → Self-Created-Threat.md v1.0 — §5 AI-era drive gap, 3 AI-era skills
   → Somatic-Articulation-Loop.md — body → explicit knowledge (body-listening method)
   → Body-Coupling.md v1.1 — 2D Depth×Direction (relationship mechanism)
   → Connection.md v3.1 — 3 Generative Primitives (social mechanism)
 
 RELATED RESEARCH:
   → Expansion-Saturation-Crisis.md v1.1 — AI impact on education/career
-  → Money-Analysis.md v1.0 — tiền × technology × body-needs
-  → Uncanny-Valley.md v1.0 — VTC-Self-Pattern-Modeling Classification, AI không có agency
+  → Money-Analysis.md v1.0 — money × technology × body-needs
+  → Uncanny-Valley.md v1.0 — VTC-Self-Pattern-Modeling Classification, AI has no agency
 
 EVIDENCE (by topic):
 
@@ -1533,49 +1520,37 @@ EVIDENCE (by topic):
     → Gendlin 1981: Focusing method
     → Tang et al. 2015: mindfulness and interoception
     → von Holst 1950, Blakemore 1998: efference copy
+
+  STATUS:
+    ┌────────┬──────────────────────────────────────────────────────────┐
+    │ §      │ Status (English translation v2.1, 2026-06-09)            │
+    ├────────┼──────────────────────────────────────────────────────────┤
+    │ §0     │ ⭐ Thesis + 3-companion-file framework position           │
+    │ §1     │ ⭐ 5 subsections: Amplifier+Sycophancy+Self-model+       │
+    │        │    Automation-bias+Honest-AI-still-amplifies             │
+    │ §2     │ ⭐ Correction cycle + AI delay mechanism + Peer≠AI +    │
+    │        │    Positive body-feedback + wrong model                  │
+    │ §3     │ ★ Dual Check (body-check alone insufficient +           │
+    │        │    4-case matrix + Protocol)                             │
+    │ §4     │ ★ Stale Calibration (concept+5-stages+AI-masks+        │
+    │        │    peer-catches+5-trends)                                │
+    │ §5     │ ⭐ 5 failure domains + pattern summary                   │
+    │ §6     │ ⭐ Correct use + per-domain + compound evidence          │
+    │ §7     │ ⭐ 6 diagnostic questions (including stale check)        │
+    │ §8     │ ⭐ Body-listening paradox + training methods +           │
+    │        │    3-step loop + knowing-doing gap                       │
+    │ §9     │ ⭐ Future tech 3 levels + understand before augment      │
+    │ §10    │ ⭐ 🟢/🟡/🔴 + 10 open questions                         │
+    │ §11    │ Cross-references + full evidence list                   │
+    └────────┴──────────────────────────────────────────────────────────┘
 ```
 
----
-
-## Closing note
-
-**Bộ 3 song song:**
-→ Social-Calibration.md v1.0 — WHERE WE CAME FROM (hệ thống xã hội đang vỡ)
-→ AI-Self-Model.md v2.0 — WHY + HOW self-calibrate when using AI (FILE NÀY)
-→ Human-AI-Future.md v3.0 — WHERE WE'RE GOING (3-risk framework, collective)
-
-**AI-Self-Model v2.0** — MICRO-level analysis of human-AI interaction.
-
-Thesis: AI amplifies whatever self-model you operate on.
-Hiểu bản thân = prerequisite, không phải optional.
-Body-feedback = quality controller (~90%) AI không có.
-Domain reality = final arbiter.
-Ngay cả AI trung thực cũng amplify — coherence ≠ truth.
-Calibration có thể stale — feedback loop cần active.
-
-5 failure domains. 6 diagnostic questions. 1 mechanism chung:
-wrong model → AI confirm → body-feedback dismissed → domain crash delayed → bigger correction.
-
-Reverse cũng đúng: right model × AI × body-listening × domain-verify = compound growth.
-
-La bàn, không phải GPS.
-AI = microscope (thấy xa, thấy rộng).
-Body = la bàn nội tại (chỉ hướng đúng cho CÁ NHÂN).
-Domain = mặt đất thật (la bàn cũng có thể lệch ~10%).
-Cả ba cùng nhau = biết XA + biết HƯỚNG + biết THẬT.
-
-> **v2.1 Changelog (2026-05-17):**
-> ① Body-Base 4-tier → 2-Tier + 2-Pathway: v3.1 §7 aligned (8 refs updated)
-> ② §6→§7 section refs: coherence ≠ truth, 3 failure modes, calibration — all moved to §7
-> ③ Dep version: Body-Base v2.0 → v3.1
-> ④ Tầng 2 Hebbian + pathway 2a/2b terminology integrated
-
-> *AI-Self-Model v2.1 — "AI = amplifier, not corrector. Wrong model × AI = amplified wrong.
-> Right model × AI = amplified growth. Even honest AI amplifies — coherence ≠ truth.
-> Body = quality controller (~90%). Domain = final arbiter.
-> Calibration can go stale — maintain your feedback loop.
-> 5 domains: học tập (hiểu ≠ compile), nuôi con (ngoan ≠ internalized),
-> relationship (technique ≠ connection), sức khỏe (plan ≠ per-body),
-> công việc (output ≠ skill). 1 pattern: AI confirm → body dismissed → domain crash.
-> Fix: AI = chunk provider. Body = quality controller. Domain = final arbiter.
-> Keep your calibration fresh."*
+> *AI-Self-Model v2.1 — "AI amplifies whatever self-model you operate on.*
+> *Wrong model × AI = amplified wrong. Right model × AI = amplified growth.*
+> *Body-check alone is not enough — body checks coherence, not truth.*
+> *Even a fully honest AI amplifies — because coherence ≠ truth.*
+> *Dual Check: body (~90%) + domain reality (final arbiter).*
+> *Calibration can go stale when the feedback loop breaks — AI masks the staleness.*
+> *Body-listening = the one thing AI lacks = the highest-value AI-era skill.*
+> *Use AI to KNOW. Use body to DO. Use domain to VERIFY."*
+> — AI-Self-Model v2.1

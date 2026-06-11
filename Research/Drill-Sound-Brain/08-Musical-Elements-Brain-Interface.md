@@ -1,4 +1,4 @@
-﻿---
+---
 title: Musical Elements × Brain Interface — Voice, Melody, Shape
 version: 1.1
 created: 2026-05-29
@@ -12,14 +12,14 @@ scope: |
   Cross-cutting theme: WHY music activates DISPROPORTIONATELY many systems
   from MINIMAL input complexity.
 purpose: |
-  06 answers WHY music structured a certain way (architecture → prediction).
+  06 answers WHY music is structured a certain way (architecture → prediction).
   07 answers HOW neural sync + reward dynamics unfold over time.
-  File NÀY answers: WHY SPECIFIC ELEMENTS (voice, melody) have outsized impact.
+  THIS file answers: WHY SPECIFIC ELEMENTS (voice, melody) have outsized impact.
   = "Not all musical elements are equal. Some are prediction SUPER-ACTIVATORS."
   Explains: earworm, why foreign music still moves us, why forced imagery weakens.
 position: |
   Research/Drill-Sound-Brain/ — drill file.
-  Đọc SAU 06 (architecture) + 07 (dynamics).
+  Read AFTER 06 (architecture) + 07 (dynamics).
   COMPLEMENTS 02 (Background-Pattern), 05 (multi-modal).
 dependencies:
   primary:
@@ -39,34 +39,34 @@ dependencies:
     - 07-Music-Entrainment-Reward-Dynamics.md — §3 (micro-rewards), §7 (compiled/fresh)
     - 02-Sound-Background-Pattern.md — §6 (structural valence)
     - 05-Multi-Modal-Compound.md — §1 (compound coherence)
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # Musical Elements × Brain Interface — Voice, Melody, Shape
 
-> **1 line melody → kích hoạt ~5-6 hệ thống não ĐỒNG THỜI.**
-> **1 giọng hát → xử lý qua 3 luồng PARTIALLY SEPARABLE (kể cả không hiểu lời).**
-> **1 bài nhạc → cung cấp HÌNH DẠNG, não tự điền NỘI DUNG.**
+> **1 melody line → activates ~5-6 brain systems SIMULTANEOUSLY.**
+> **1 singing voice → processed through 3 PARTIALLY SEPARABLE streams (even without understanding the lyrics).**
+> **1 song → provides SHAPE, the brain fills in the CONTENT.**
 >
-> **Không phải mọi musical element đều bình đẳng.**
-> **Melody và voice = prediction SUPER-ACTIVATORS:**
-> **tỷ lệ "brain systems activated / input complexity" CAO NHẤT.**
+> **Not all musical elements are equal.**
+> **Melody and voice = prediction SUPER-ACTIVATORS:**
+> **highest ratio of "brain systems activated / input complexity."**
 >
-> **Tại sao nhạc ngoại không hiểu lời vẫn CẢM?**
-> **→ 2/3 kênh voice KHÔNG CẦN hiểu ngôn ngữ.**
-> **Tại sao melody là thứ NHỚ LÂU NHẤT, earworm nhất?**
-> **→ ~5-6 systems encode CÙNG LÚC = redundancy tối đa.**
-> **Tại sao ép nhạc vào 1 hình ảnh → KÉM hơn nghe tự do?**
-> **→ Nhạc kích hoạt 6-7 systems, 1 hình ảnh giam còn 1-2.**
+> **Why does foreign music move us even when we don't understand the lyrics?**
+> **→ 2/3 of voice channels DO NOT REQUIRE language comprehension.**
+> **Why is melody the LONGEST-LASTING memory, the most earworm-prone?**
+> **→ ~5-6 systems encode SIMULTANEOUSLY = maximum redundancy.**
+> **Why does forcing music into 1 specific image → WEAKER than free listening?**
+> **→ Music activates 6-7 systems, 1 fixed image constrains to 1-2.**
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §0 — Position + Cross-Cutting Theme
 - §1 — Voice 3-Channel Processing
-- §2 — Melody = Multi-System Activator Hiệu Quả Nhất
+- §2 — Melody = Most Efficient Multi-System Activator
 - §3 — Shape vs Content: Music = Prediction Template
 - §4 — Unifying Principle: Activation Efficiency
 - §5 — Honest Assessment
@@ -79,21 +79,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ CROSS-CUTTING THEME:
 
-  06 hỏi: TẠI SAO music architecture như vậy?
-    → Trả lời: mỗi feature = f(brain prediction constraint)
+  06 asks: WHY is music architecture structured that way?
+    → Answer: each feature = f(brain prediction constraint)
 
-  07 hỏi: NHƯ THẾ NÀO reward + sync diễn ra theo thời gian?
-    → Trả lời: continuous micro-rewards, gap trajectory, PFC competition
+  07 asks: HOW do reward + sync unfold over time?
+    → Answer: continuous prediction stream with phasic peaks, gap trajectory, PFC competition
 
-  File NÀY hỏi: TẠI SAO SPECIFIC ELEMENTS có tác động BẤT XỨNG?
-    → Trả lời: activation efficiency — some elements activate
+  THIS file asks: WHY do SPECIFIC ELEMENTS have DISPROPORTIONATE impact?
+    → Answer: activation efficiency — some elements activate
       DISPROPORTIONATELY many brain systems per unit of input complexity
 
   ┌──────────────────────────────────────────────────────────────┐
   │ Musical Element    │ Input Complexity │ Systems Activated     │
   ├────────────────────┼──────────────────┼───────────────────────┤
   │ Melody line        │ LOW (1 line)     │ ~5-6 (HIGH)           │
-  │ Voice (với lời)    │ LOW (1 source)   │ 3 channels × systems  │
+  │ Voice (with lyrics)│ LOW (1 source)   │ 3 channels × systems  │
   │ Bass line          │ LOW (1 line)     │ ~1-2 (motor + audio)  │
   │ Drum pattern       │ LOW              │ ~1-2 (motor + timing) │
   │ Harmony/chords     │ MODERATE         │ ~2-3 (emotion + pred) │
@@ -115,43 +115,46 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §1 — Voice 3-Channel Processing
 
-### §1.1 — 3 Kênh Tách Biệt
+### §1.1 — 3 Partially Separable Channels
 
 ```
 ⭐ VOICE = UNIQUE MUSICAL ELEMENT:
 
-  Giọng hát xử lý qua 3 LUỒNG PARTIALLY SEPARABLE trong não,
-  KHÔNG phải 1 luồng duy nhất:
-  ⚠️ "Partially separable" = có chuyên biệt hóa NHƯNG có cross-talk
+  Vocal singing is processed through 3 PARTIALLY SEPARABLE STREAMS in the brain,
+  NOT through a single stream:
+  ⚠️ "Partially separable" = there IS specialization BUT there is cross-talk
   (Gordon & Schon 2010: melody + words "intertwined" in song perception;
    Norman-Haignere 2022: song-selective populations anatomically adjacent, likely interact)
 
   ┌─────────────────────────────────────────────────────────────────┐
-  │ KÊNH 1: SEMANTIC (ý nghĩa lời)                                │
-  │   Vùng não: Broca + Wernicke (left hemisphere)                 │
-  │   Xử lý: NỘI DUNG ngôn ngữ — câu chuyện, ý nghĩa, thông điệp│
-  │   Yêu cầu: PHẢI hiểu ngôn ngữ đó                              │
-  │   Mất khi: nghe nhạc nước ngoài không hiểu lời                │
+  │ CHANNEL 1: SEMANTIC (meaning of lyrics)                        │
+  │   Brain regions: Broca + Wernicke (left hemisphere)            │
+  │   Processes: LANGUAGE CONTENT — story, meaning, message        │
+  │   Requires: MUST understand that language                      │
+  │   Lost when: listening to foreign music without understanding   │
   │   Framework: = PFC-driven chunk processing (language chunks)   │
   │                                                    🟢 Evidence │
   └─────────────────────────────────────────────────────────────────┘
 
   ┌─────────────────────────────────────────────────────────────────┐
-  │ KÊNH 2: PROSODY (thanh điệu cảm xúc)                          │
-  │   Vùng não: Right hemisphere + Insula                          │
-  │   Xử lý: CẢM XÚC trong giọng — run, thì thào, cao rõ, vỡ     │
-  │   Yêu cầu: KHÔNG cần hiểu ngôn ngữ                             │
-  │   Tồn tại khi: nghe nhạc ngoại, trẻ sơ sinh nghe giọng mẹ    │
+  │ CHANNEL 2: PROSODY (emotional vocal tone)                      │
+  │   Brain regions: Right hemisphere + Insula                     │
+  │   Processes: EMOTION in voice — trembling, whisper, bright     │
+  │              high register, cracking                           │
+  │   Requires: NO language comprehension needed                   │
+  │   Present when: listening to foreign music, infants hearing    │
+  │                 mother's voice                                 │
   │   Framework: = body-feedback channel (evaluative signal)       │
   │   🟢 Evidence: neurolinguistics, infant prosody research        │
   └─────────────────────────────────────────────────────────────────┘
 
   ┌─────────────────────────────────────────────────────────────────┐
-  │ KÊNH 3: VOICE-AS-INSTRUMENT (giọng như nhạc cụ)                │
-  │   Vùng não: Auditory cortex + Reward system                    │
-  │   Xử lý: CHẤT LIỆU ÂM THANH — pitch, vibrato, timbre, rhythm │
-  │   Yêu cầu: KHÔNG cần hiểu ngôn ngữ                             │
-  │   Ví dụ: giọng opera, giọng Adele, giọng whistle tone          │
+  │ CHANNEL 3: VOICE-AS-INSTRUMENT (voice as acoustic instrument)  │
+  │   Brain regions: Auditory cortex + Reward system               │
+  │   Processes: ACOUSTIC MATERIAL — pitch, vibrato, timbre,       │
+  │              rhythm                                            │
+  │   Requires: NO language comprehension needed                   │
+  │   Examples: operatic voice, Adele's voice, whistle register    │
   │   Framework: = auditory prediction channel (tonal prediction)  │
   │                                                    🟡 Evidence │
   └─────────────────────────────────────────────────────────────────┘
@@ -161,62 +164,62 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Voice-as-instrument = categorization of ours,
     consistent with ✅ auditory cortex + reward circuit data
   ⭐ Norman-Haignere, Kanwisher et al. 2022 (Current Biology):
-    SONG-SELECTIVE NEURAL POPULATION trong auditory cortex
+    SONG-SELECTIVE NEURAL POPULATION in auditory cortex
     → respond to SINGING but NOT to instrumental music or speech alone
-    → anatomically near nhưng DISTINCT from speech-selective population
+    → anatomically near but DISTINCT from speech-selective population
     → STRENGTHENS voice-as-instrument as separable stream 🟢
-  🟢 Trẻ sơ sinh phản ứng với prosody TRƯỚC KHI hiểu từ
+  🟢 Infants respond to prosody BEFORE understanding words
     (Trainor 1996, Fernald 1989)
 ```
 
-### §1.2 — Tại Sao Nhạc Ngoại Không Hiểu Lời Vẫn Cảm
+### §1.2 — Why Foreign Music Moves Us Without Language Comprehension
 
 ```
 🟡 FRAMEWORK ANALYSIS:
 
-  Khi nghe nhạc HIỂU LỜI:
-    Kênh 1 (Semantic):           ACTIVE → content processing
-    Kênh 2 (Prosody):            ACTIVE → emotion via voice tone
-    Kênh 3 (Voice-as-instrument):ACTIVE → tonal beauty
-    = 3/3 kênh → trải nghiệm ĐẦY ĐỦ NHẤT
+  When listening to music WITH COMPREHENSION:
+    Channel 1 (Semantic):            ACTIVE → content processing
+    Channel 2 (Prosody):             ACTIVE → emotion via voice tone
+    Channel 3 (Voice-as-instrument): ACTIVE → tonal beauty
+    = 3/3 channels → FULLEST experience
 
-  Khi nghe nhạc KHÔNG HIỂU LỜI (nhạc ngoại):
-    Kênh 1 (Semantic):           OFF → không parse được
-    Kênh 2 (Prosody):            ACTIVE → KHÔNG cần hiểu ngôn ngữ
-    Kênh 3 (Voice-as-instrument):ACTIVE → KHÔNG cần hiểu ngôn ngữ
-    = 2/3 kênh → trải nghiệm GIẢM LƯỢNG nhưng...
+  When listening WITHOUT COMPREHENSION (foreign music):
+    Channel 1 (Semantic):            OFF → cannot parse
+    Channel 2 (Prosody):             ACTIVE → NO language comprehension needed
+    Channel 3 (Voice-as-instrument): ACTIVE → NO language comprehension needed
+    = 2/3 channels → REDUCED experience but...
 
   ⭐ KEY INSIGHT:
-    Khi Semantic OFF → PFC resources FREED:
-      → PFC không phải allocate budget cho language processing
-      → Budget GIẢI PHÓNG cho emotion + auditory channels
-      → = Trải nghiệm cảm xúc POSSIBLY less interfered (not directly tested)
-      ⚠️ "Thuần khiết hơn" = plausible inference, NOT measured directly.
+    When Semantic is OFF → PFC resources FREED:
+      → PFC does not have to allocate budget for language processing
+      → Budget FREED for emotion + auditory channels
+      → = Emotional experience POSSIBLY less interfered with (not directly tested)
+      ⚠️ "Purer experience" = plausible inference, NOT measured directly.
          Ferreri 2013 (fNIRS): music decreases PFC during encoding — supports direction.
          Ding 2025: foreign lyrics reduce semantic interference — supports direction.
          BUT familiarity effects may counteract (Pereira 2011: familiar music
          activates reward MORE than unfamiliar).
 
-  Giải thích: tại sao nhạc ngoại đôi khi "cảm" HƠN nhạc bản ngữ
-  KHÔNG phải vì nhạc ngoại "hay hơn"
-  MÀ VÌ Semantic channel KHÔNG CAN THIỆP:
-    → Lời hay: Semantic CỘNG HƯỞNG (add prediction channel)
-    → Lời dở/sáo: Semantic PHÁ (tạo negative prediction-delta)
-    → Không hiểu lời: Semantic TRUNG TÍNH (không cộng không phá)
+  This explains: why foreign music sometimes FEELS MORE than native-language music
+  NOT because foreign music is "better"
+  BUT BECAUSE the Semantic channel does NOT INTERFERE:
+    → Good lyrics:              Semantic RESONATES (adds prediction channel)
+    → Weak/clichéd lyrics:      Semantic DISRUPTS (creates negative prediction-delta)
+    → Can't understand lyrics:  Semantic NEUTRAL (neither adds nor disrupts)
 
   = PFC-Operations.md §3.2: PFC budget allocation.
     Semantic processing = PFC COST.
     No semantic = PFC SAVED → other channels get MORE budget.
 
-  ┌──────────────────────┬────────────┬─────────────────────────┐
-  │ Tình huống           │ Kênh active│ Kết quả                 │
-  ├──────────────────────┼────────────┼─────────────────────────┤
-  │ Hiểu lời + lời HAY  │ 3/3        │ Mạnh nhất (compound)    │
-  │ Hiểu lời + lời DỞ   │ 3/3 nhưng  │ Semantic PHÁ trải       │
-  │                      │ conflict   │ nghiệm (negative delta) │
-  │ Không hiểu lời       │ 2/3        │ Cảm xúc thuần khiết    │
-  │ Instrumental         │ 0/3 voice  │ Chỉ 4-5 systems khác    │
-  └──────────────────────┴────────────┴─────────────────────────┘
+  ┌──────────────────────────┬──────────────────┬───────────────────────────┐
+  │ Situation                │ Active channels  │ Outcome                   │
+  ├──────────────────────────┼──────────────────┼───────────────────────────┤
+  │ Comprehend + GOOD lyrics │ 3/3              │ Strongest (compound)      │
+  │ Comprehend + WEAK lyrics │ 3/3 but conflict │ Semantic DISRUPTS         │
+  │                          │                  │ experience (neg delta)    │
+  │ No comprehension         │ 2/3              │ Unfiltered emotion        │
+  │ Instrumental             │ 0/3 voice        │ Only 4-5 other systems    │
+  └──────────────────────────┴──────────────────┴───────────────────────────┘
 ```
 
 ### §1.3 — Framework Mapping
@@ -224,45 +227,45 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟡 FRAMEWORK CONNECTIONS:
 
-  3 luồng voice = 3 PARTIALLY SEPARABLE prediction streams
+  The 3 voice streams = 3 PARTIALLY SEPARABLE prediction streams
   (05-Multi-Modal-Compound.md §1):
-    Mỗi luồng chạy prediction có phần riêng → mỗi luồng tạo prediction-delta.
-    Khi cả 3 KHỚP (coherent): compound reward.
-    Khi conflict (lời dở + giọng đẹp): partial compound, prediction-delta hỗn hợp.
+    Each stream runs prediction partially independently → each stream generates prediction-delta.
+    When all 3 MATCH (coherent): compound reward.
+    When conflicting (weak lyrics + beautiful voice): partial compound, mixed prediction-delta.
     ⚠️ "Partially separable" ≠ "independent": cross-talk exists (Gordon & Schon 2010)
 
   Semantic channel = COMPILED LANGUAGE CHUNKS:
-    → Chỉ hoạt động khi ngôn ngữ đã compiled (hiểu tiếng đó)
+    → Only active when language is compiled (you understand that language)
     → = Compiled/Fresh distinction (PFC-Operations.md):
       Compiled language → automatic Semantic processing → low PFC cost
-      Fresh language → no Semantic → zero PFC cost cho kênh này
+      Fresh language → no Semantic → zero PFC cost for this channel
 
   Prosody channel = HARDWARE-LEVEL (evaluative):
-    → Trẻ sơ sinh phản ứng → pre-compiled, cross-linguistic
+    → Infants respond to it → pre-compiled, cross-linguistic
     → = Hardware-Stream signal (body-feedback, not PFC-dependent)
-    → Giọng run = body detects stress pattern → evaluative response
+    → Trembling voice = body detects stress pattern → evaluative response
 
   Voice-as-instrument = AUDITORY PREDICTION:
     → Vibrato, timbre, pitch variation = auditory prediction-delta
-    → Giống cách não xử lý bất kỳ nhạc cụ nào, nhưng voice có
-      THÊM 2 kênh → = prediction multiplier
+    → Similar to how the brain processes any instrument, but voice has
+      2 ADDITIONAL channels → = prediction multiplier
 
-  🟢 Earworm frequency: giọng hát chiếm ~70%+ earworm content
+  🟢 Earworm frequency: vocal singing accounts for ~70%+ of earworm content
     (Jakubowski et al. 2017 — British Journal of Psychology)
     → Consistent: 3 channels encode → 3× redundancy → 3× recall strength
 ```
 
 ---
 
-## §2 — Melody = Multi-System Activator Hiệu Quả Nhất
+## §2 — Melody = Most Efficient Multi-System Activator
 
-### §2.1 — Activation Efficiency: ~5-6 Systems từ 1 Line
+### §2.1 — Activation Efficiency: ~5-6 Systems from 1 Line
 
 ```
 ⭐⭐ CORE INSIGHT:
 
-  1 melody line ĐƠN GIẢN kích hoạt ĐỒNG THỜI nhiều hệ thống
-  hơn BẤT KỲ musical element nào khác:
+  1 SIMPLE melody line activates SIMULTANEOUSLY more systems
+  than ANY other musical element:
 
   ┌──────────────────────────────────────────────────────────────┐
   │ Brain System    │ Melody activates via    │ Other layers     │
@@ -276,7 +279,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                 │ prosody                 │   have no lyrics) │
   └──────────────────────────────────────────────────────────────┘
 
-  Melody → ~5-6 systems từ 1 line đơn giản
+  Melody → ~5-6 systems from 1 simple line
   Bass line → ~1-2 systems (auditory + motor)
   Drum pattern → ~1-2 systems (motor + timing)
   Harmony → ~2-3 systems (auditory + emotion + prediction)
@@ -298,21 +301,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 "Activation efficiency" = framework concept, NOT established metric
 ```
 
-### §2.2 — Hệ Quả: Earworm, Lock Đầu Tiên, Nhớ Lâu Nhất
+### §2.2 — Implications: Earworm, First Lock, Longest Memory
 
 ```
 🟡 FRAMEWORK ANALYSIS:
 
-  ① 🔴 MELODY = LAYER LOCK ĐẦU TIÊN — HYPOTHESIS, NO EVIDENCE:
-    → Khi nghe bài mới, não KHÔNG process tất cả layers cùng lúc
+  ① 🔴 MELODY = FIRST LAYER TO LOCK — HYPOTHESIS, NO EVIDENCE:
+    → When hearing a new song, the brain does NOT process all layers simultaneously
     → Melody = highest activation efficiency → locked FIRST?
-    → Sau đó: harmony, bass, details... lock dần?
+    → Then: harmony, bass, details... lock gradually?
 
     ⚠️ NO STUDY found claiming melody is first musical element encoded.
        Racette & Peretz 2007: encoding melody + lyrics TOGETHER
        actually HARDER than lyrics alone → not "first lock."
        Framework hypothesis based on activation efficiency logic,
-       nhưng KHÔNG có empirical backing.
+       but NO empirical backing.
 
     Framework: = Chunk compilation order (HYPOTHESIS)
       IF highest-activation elements compile first
@@ -320,24 +323,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Needs testing: track compilation order across layers
 
   ② MELODY = EARWORM:
-    → ~5-6 systems encode CÙNG 1 melody → REDUNDANCY CỰC CAO
-    → Mỗi system = 1 retrieval path → NHIỀU paths → dễ recall
-    → Prediction system "chạy tiếp" sau khi nhạc tắt
-      vì NHIỀU systems đang hold pattern đó
-    → 🟢 ~90% người trải qua earworm (Liikkanen 2012)
-    → 🟢 Earworm đặc điểm: đơn giản, lặp, khớp nhịp
+    → ~5-6 systems encode the SAME melody → EXTREMELY HIGH REDUNDANCY
+    → Each system = 1 retrieval path → MANY paths → easy recall
+    → Prediction system "keeps running" after music stops
+      because MANY systems are holding that pattern
+    → 🟢 ~90% of people experience earworms (Liikkanen 2012)
+    → 🟢 Earworm characteristics: simple, repetitive, rhythmically matched
       (Jakubowski et al. 2017)
     → 🟢 Herholz et al. 2012: musical imagery activates overlapping
       auditory + sensorimotor networks (spreading-activation model)
 
-    Framework: = Multi-modal compiled chunk cực mạnh
-      Nhiều modality encode → nhiều retrieval trigger
-      → khó "tắt" vì BẤT KỲ modality nào cũng re-activate
+    Framework: = Extremely powerful multi-modal compiled chunk
+      More modalities encode → more retrieval triggers
+      → hard to "turn off" because ANY modality can re-activate it
     ⚠️ PLAUSIBLE mechanism, NOT proven causal.
       No study explicitly frames earworm as CAUSED BY multi-system encoding.
       Correlation consistent, causation not established.
 
-  ③ MUSICAL MEMORY = NHỚ LÂU NHẤT (not melody uniquely):
+  ③ MUSICAL MEMORY = LONGEST LASTING (not melody uniquely):
     → Alzheimer patients: MUSICAL MEMORY broadly preserved
       🟢 Jacobsen et al. 2015 (Brain): musical memory regions show
          minimal cortical atrophy + preserved glucose metabolism in AD
@@ -354,45 +357,47 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Last to lose → Alzheimer validation (music broadly, not melody specifically)
 ```
 
-### §2.3 — 6 Thuộc Tính Cấu Trúc Melody Hay
+### §2.3 — 6 Structural Attributes of a Great Melody
 
 ```
 🟢 STRUCTURAL ATTRIBUTES (research-supported):
 
   ┌──────────────────────────────────────────────────────────────────┐
-  │ Thuộc tính       │ Tại sao (framework)           │ Evidence     │
-  ├───────────────────┼───────────────────────────────┼──────────────┤
-  │ ① Contour hình   │ Khớp prosody tự nhiên         │ 🟢 Huron     │
-  │   vòm (lên→đỉnh  │ → language system lock dễ     │    2006      │
-  │   →xuống)        │ → prediction template match   │ (6,251       │
-  │                   │                               │ melodies)    │
-  ├───────────────────┼───────────────────────────────┼──────────────┤
-  │ ② Chủ yếu bước   │ Prediction DỄ (small step)    │ 🟢 Vos &    │
-  │   nhỏ, leap ít   │ + leap đúng chỗ = surprise    │ Troost 1989  │
-  │                   │ có kiểm soát (Goldilocks)     │              │
-  ├───────────────────┼───────────────────────────────┼──────────────┤
-  │ ③ Lặp có biến    │ Lần 1: surprise nhẹ           │ 🟢 Margulis  │
-  │   thể            │ Lần 2: "đúng rồi!" → reward   │    2014      │
-  │                   │ = prediction-delta oscillation │              │
-  ├───────────────────┼───────────────────────────────┼──────────────┤
-  │ ④ Rhythm rõ ràng │ Motor system lock NGAY         │ 🟢 Motor    │
-  │                   │ = additional prediction channel│ entrainment  │
-  ├───────────────────┼───────────────────────────────┼──────────────┤
-  │ ⑤ Range vừa phải │ Trong tầm hát được → motor    │ 🟡 Motor    │
-  │   (singable)     │ mirror: não "hát thầm theo"   │ simulation   │
-  │                   │ = THÊM 1 system activated     │ (Zatorre)    │
-  ├───────────────────┼───────────────────────────────┼──────────────┤
-  │ ⑥ Statistical    │ Inverted-U: đủ quen để predict│ 🟢 Pearce & │
-  │   typicality vừa │ đủ lạ để tạo prediction-delta │ Wiggins 2012 │
-  │   đủ             │ = Goldilocks per melody        │              │
+  │ Attribute           │ Why (framework)               │ Evidence   │
+  ├─────────────────────┼───────────────────────────────┼────────────┤
+  │ ① Arch contour      │ Matches natural prosody       │ 🟢 Huron   │
+  │   (rise → peak      │ → language system locks easily│    2006    │
+  │   → fall)           │ → prediction template match   │ (6,251     │
+  │                     │                               │ melodies)  │
+  ├─────────────────────┼───────────────────────────────┼────────────┤
+  │ ② Mostly small      │ Prediction EASY (small step)  │ 🟢 Vos &  │
+  │   steps, few        │ + leap in right place =       │ Troost 1989│
+  │   leaps             │ controlled surprise           │            │
+  │                     │ (Goldilocks)                  │            │
+  ├─────────────────────┼───────────────────────────────┼────────────┤
+  │ ③ Repetition        │ 1st time: mild surprise       │ 🟢 Margulis│
+  │   with variation    │ 2nd time: "right!" → reward   │    2014    │
+  │                     │ = prediction-delta oscillation│            │
+  ├─────────────────────┼───────────────────────────────┼────────────┤
+  │ ④ Clear rhythm      │ Motor system locks IMMEDIATELY│ 🟢 Motor  │
+  │                     │ = additional prediction channel│ entrainment│
+  ├─────────────────────┼───────────────────────────────┼────────────┤
+  │ ⑤ Singable range    │ Within singing range → motor  │ 🟡 Motor  │
+  │                     │ simulation: brain "hums along"│ simulation │
+  │                     │ = ONE MORE system activated   │ (Zatorre)  │
+  ├─────────────────────┼───────────────────────────────┼────────────┤
+  │ ⑥ Moderate          │ Inverted-U: familiar enough   │ 🟢 Pearce &│
+  │   typicality        │ to predict, novel enough for  │ Wiggins    │
+  │                     │ prediction-delta              │ 2012       │
+  │                     │ = Goldilocks per melody       │            │
   └──────────────────────────────────────────────────────────────────┘
 
-  6 thuộc tính → CÁC framework mechanisms ĐÃ CÓ:
+  All 6 attributes → EXISTING framework mechanisms:
     ①④⑤ = prediction channel count (more systems lock = more compound)
     ②⑥ = Goldilocks per-gap (Reward-Calibration.md §2)
     ③ = prediction-delta oscillation (06 §4: verse-chorus principle)
 
-  ⭐ Melody hay = OPTIMIZE activation efficiency:
+  ⭐ A great melody = OPTIMIZES activation efficiency:
     Maximize systems activated (①④⑤)
     WHILE maintaining Goldilocks prediction-delta (②③⑥)
     = NOT just "sounds nice" — is PREDICTION ARCHITECTURE OPTIMIZATION
@@ -403,24 +408,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §3 — Shape vs Content: Music = Prediction Template
 
-### §3.1 — Nhạc Cung Cấp Hình Dạng, Não Điền Nội Dung
+### §3.1 — Music Provides Shape, Brain Fills Content
 
 ```
 ⭐ CORE INSIGHT:
 
-  Âm nhạc KHÔNG biểu diễn cảm xúc cụ thể hay hành vi cụ thể.
-  Âm nhạc cung cấp HÌNH DẠNG (temporal shape / prediction template).
-  Não người nghe TỰ ĐIỀN nội dung (từ ký ức, cảm xúc, trải nghiệm cá nhân).
+  Music does NOT represent specific emotions or specific behaviors.
+  Music provides SHAPE (temporal shape / prediction template).
+  The listener's brain FILLS IN the content (from memory, emotions, personal experience).
 
-  ┌───────────────────────────────────────────────────┐
-  │ Music shape:    căng dần ──→ đỉnh ──→ thả        │
-  │ Cảm xúc fill:  lo lắng ───→ đỉnh ──→ nhẹ nhõm   │
-  │ Hành động fill: chạy nhanh → sprint ──→ về đích   │
-  │ Câu chuyện fill: conflict → climax ──→ resolution │
-  │                                                    │
-  │ CÙNG hình dạng. KHÁC nội dung.                     │
-  │ Mỗi người điền nội dung KHÁC từ experience riêng. │
-  └───────────────────────────────────────────────────┘
+  ┌────────────────────────────────────────────────────┐
+  │ Music shape:   builds ─────→ peak ───→ release     │
+  │ Emotion fill:  anxiety ─────→ peak ───→ relief     │
+  │ Action fill:   running ─────→ sprint ──→ finish    │
+  │ Story fill:    conflict ────→ climax ──→ resolution │
+  │                                                     │
+  │ SAME shape. DIFFERENT content.                      │
+  │ Each person fills in DIFFERENT content              │
+  │ from personal experience.                           │
+  └────────────────────────────────────────────────────┘
 
   ⭐ ATTRIBUTION: Susanne Langer 1953 (Feeling and Form):
     "Music = tonal analogue of emotive life"
@@ -430,37 +436,37 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Framework mapping:
     Shape = PREDICTION TEMPLATE (Langer's "form of feeling")
-      Não nhận ra pattern temporal: tension builds → release
-      Pattern này ISOMORPHIC với nhiều loại experience khác
-      → Kích hoạt systems xử lý các experience đó
+      Brain recognizes temporal pattern: tension builds → release
+      This pattern is ISOMORPHIC with many types of experience
+      → Activates systems processing those experiences
 
     Content = CHUNK FILL
-      Nội dung cụ thể điền vào template = chunks ĐÃ CÓ của người nghe
-      Phụ thuộc Background-Pattern, Entity-Compiled, personal history
-      = Tại sao CÙNG bài nhạc → KHÁC nhau mỗi người
+      Specific content filled into template = listener's EXISTING chunks
+      Depends on Background-Pattern, Entity-Compiled, personal history
+      = Why THE SAME song → DIFFERENT for each person
 
   ⭐ Langer 1953 — Feeling and Form (origin of shape vs content concept)
   🟢 Kivy — Contour Theory: music's contour ≈ emotional expression contour
   🟡 Structural isomorphism: music shape ≈ emotion shape
     (Juslin, Koelsch — supported but hard to quantify precisely)
   🟢 Perception vs felt emotion distinction confirms
-    (Gabrielsson 2002 — perceived "buồn" ≠ felt buồn)
+    (Gabrielsson 2002 — perceived "sad" ≠ felt sad)
 ```
 
-### §3.2 — 3 Cơ Chế: Direct, Learned, Isomorphic
+### §3.2 — 3 Mechanisms: Direct, Learned, Isomorphic
 
 ```
 🟢🟡 THREE MECHANISMS (hierarchical reliability):
 
-  CƠ CHẾ 1: DIRECT ACOUSTIC → NEURAL               🟢 ESTABLISHED
+  MECHANISM 1: DIRECT ACOUSTIC → NEURAL               🟢 ESTABLISHED
   ─────────────────────────────────────────
-    Tính chất VẬT LÝ âm thanh → phản ứng thần kinh trực tiếp.
-    KHÔNG cần học. KHÔNG phụ thuộc văn hóa. Hardware-level.
+    PHYSICAL properties of sound → direct neural response.
+    No learning required. Culture-independent. Hardware-level.
 
-    Tempo nhanh (>120 BPM) → arousal tăng
-    Tempo chậm (<80 BPM)  → thư giãn
-    Bass mạnh              → motor activation
-    Âm lượng đột ngột     → startle reflex
+    Fast tempo (>120 BPM)  → arousal increases
+    Slow tempo (<80 BPM)   → relaxation
+    Strong bass            → motor activation
+    Sudden volume          → startle reflex
     Dissonance             → amygdala tension
     Consonance             → stability signal
 
@@ -468,26 +474,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     (Body-Feedback-Mechanism.md: sensory-driven prediction-delta)
     = MOST RELIABLE for design (01 §6: body entrainment)
 
-  CƠ CHẾ 2: LEARNED ASSOCIATIONS                    🟢 ESTABLISHED
+  MECHANISM 2: LEARNED ASSOCIATIONS                    🟢 ESTABLISHED
   ─────────────────────────────────────────
-    Statistical learning gắn pattern với ký ức / cảm xúc.
-    CẦN học. PHỤ THUỘC lịch sử cá nhân.
+    Statistical learning links patterns with memories / emotions.
+    Learning required. DEPENDS ON personal history.
 
-    Bài cũ → nhớ người, nhớ thời điểm
-    Giai điệu noel → nhớ Giáng sinh (dù đang giữa hè)
-    Nhạc tuổi teen → reminiscence bump (15-25)
+    Old song → remembers a person, remembers a moment
+    Christmas melody → recalls Christmas (even in the middle of summer)
+    Music from teenage years → reminiscence bump (ages 15-25)
 
     Framework: = Entity-Compiled chunks + Background-Pattern
     (02-Sound-Background-Pattern.md: genre = sustained context)
     = LOW reliability for design (every person different)
     = HIGH reliability for PERSONAL meaning (strongest individual bond)
 
-  CƠ CHẾ 3: STRUCTURAL ISOMORPHISM                  🟡 SUPPORTED
+  MECHANISM 3: STRUCTURAL ISOMORPHISM                  🟡 SUPPORTED
   ─────────────────────────────────────────
-    Cấu trúc nhạc GIỐNG HÌNH DẠNG trải nghiệm cảm xúc.
-    KHÔNG cần ký ức cụ thể. Cần exposure đủ (cultural learning).
+    Music structure RESEMBLES THE SHAPE of emotional experience.
+    No specific memory needed. Requires sufficient exposure (cultural learning).
 
-    Tension → resolution trong nhạc ≈ tension → resolution trong đời
+    Tension → resolution in music ≈ tension → resolution in life
     Crescendo → forte ≈ buildup → climax (in any domain)
     Melody arc (rise → peak → fall) ≈ emotional arc
 
@@ -497,16 +503,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Systems fire "as if" experiencing the real thing
     BUT content = generated internally, not from music
 
-  ┌──────────────────────────────────────────────────────────────┐
-  │ Cơ chế │ Reliability │ Cần học? │ Framework mapping          │
-  ├────────┼─────────────┼──────────┼────────────────────────────┤
-  │ Direct │ VERY HIGH   │ Không    │ Hardware-Stream             │
-  │ Learned│ LOW (varies)│ Có       │ Entity-Compiled + Bg-Pat   │
-  │ Isomor.│ MODERATE    │ Partial  │ Prediction template match  │
-  └──────────────────────────────────────────────────────────────┘
+  ┌──────────────┬─────────────┬───────────────────┬────────────────────────┐
+  │ Mechanism    │ Reliability │ Requires learning? │ Framework mapping      │
+  ├──────────────┼─────────────┼───────────────────┼────────────────────────┤
+  │ Direct       │ VERY HIGH   │ No                 │ Hardware-Stream        │
+  │ Learned      │ LOW (varies)│ Yes                │ Entity-Compiled + Bg-Pat│
+  │ Isomorphic   │ MODERATE    │ Partial            │ Prediction template    │
+  └──────────────┴─────────────┴───────────────────┴────────────────────────┘
 
   ⚠️ BRECVEMA REFERENCE (Juslin 2013):
-    Literature có 8 mechanisms: Brain Stem Reflex, Rhythmic Entrainment,
+    Literature has 8 mechanisms: Brain Stem Reflex, Rhythmic Entrainment,
     Evaluative Conditioning, Contagion, Visual Imagery, Episodic Memory,
     Musical Expectancy, Aesthetic Judgment.
 
@@ -520,38 +526,38 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Compression valid for simplicity, but should be aware of 8→3 loss.
 ```
 
-### §3.3 — Tại Sao Ép Nhạc Vào 1 Hình Ảnh = Kém Hơn
+### §3.3 — Why Forcing Music Into 1 Specific Image = Weaker
 
 ```
 🟡 FRAMEWORK ANALYSIS:
 
-  Music kích hoạt ~6-7 brain systems đồng thời
+  Music activates ~6-7 brain systems simultaneously
   (auditory, motor, prediction, emotion, memory, reward, language)
 
-  Khi nghe TỰ DO:
-    → Mỗi system FILL content RIÊNG từ personal chunks
+  When listening FREELY:
+    → Each system FILLS its own content from personal chunks
     → ~6-7 independent fill processes → RICH experience
-    → Mỗi người fill KHÁC → "nhạc khó diễn đạt bằng lời"
+    → Everyone fills differently → "music is hard to put into words"
 
-  Khi ÉP vào 1 hình ảnh cụ thể (ví dụ: MV, visual cố định):
-    → Visual channel CHIẾM 1-2 systems (visual, emotion)
-    → Các systems khác BỊ GIAM vào visual narrative
+  When FORCING into 1 specific image (e.g., music video, fixed visual):
+    → Visual channel OCCUPIES 1-2 systems (visual, emotion)
+    → Other systems are CONSTRAINED to the visual narrative
     → Motor, memory, personal fill → CONSTRAINED
-    → = Ít degrees of freedom → ít compound channels
+    → = Fewer degrees of freedom → fewer compound channels
 
   Framework explanation:
-    Nhạc tự do = N prediction channels × personal content fill
-    Nhạc + ép visual = N channels nhưng CORRELATED fill
+    Free listening = N prediction channels × personal content fill
+    Music + forced visual = N channels but CORRELATED fill
     Correlated fill = FEWER independent prediction-delta sources
     → LESS total compound reward
 
   ⚠️ CAVEAT:
-    MV/visual CÓ THỂ THÊM prediction channels (visual, action)
+    Music video / visual CAN ADD prediction channels (visual, action)
     → 05-Multi-Modal-Compound.md: Tier 2 = audio + visual > audio alone
-    Contradiction? KHÔNG:
-      Visual MATCH nhạc (coherent) → ADD channels → stronger
+    Contradiction? NO:
+      Visual MATCH music (coherent) → ADD channels → stronger
       Visual FORCE specific content → CONSTRAIN channels → weaker
-    = Coherence condition: visual phải COMPLEMENT, không REPLACE
+    = Coherence condition: visual must COMPLEMENT, not REPLACE
 
   🟡 Analysis based on ✅ Global Workspace Theory (Baars):
     single-threaded consciousness, parallel unconscious processing
@@ -576,22 +582,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     per unit of INPUT COMPLEXITY
 
   ┌──────────────────────────────────────────────────────────────┐
-  │ Element      │ Channels  │ Complexity │ Efficiency │ Role    │
-  ├──────────────┼───────────┼────────────┼────────────┼─────────┤
-  │ Melody       │ 5-6       │ LOW        │ ★★★ HIGH  │ Lock    │
-  │ Voice        │ 3 kênh    │ LOW        │ ★★★ HIGH  │ Emotion │
-  │ Mel + Voice  │ 7-8       │ LOW        │ ★★★★      │ Hook    │
-  │ Harmony      │ 2-3       │ MODERATE   │ ★★        │ Depth   │
-  │ Bass         │ 1-2       │ LOW        │ ★          │ Motor   │
-  │ Drums        │ 1-2       │ LOW        │ ★          │ Motor   │
-  │ Production   │ 6-7       │ HIGH       │ ★★ (total)│ Sustain │
+  │ Element      │ Channels   │ Complexity │ Efficiency │ Role   │
+  ├──────────────┼────────────┼────────────┼────────────┼────────┤
+  │ Melody       │ 5-6        │ LOW        │ ★★★ HIGH  │ Lock   │
+  │ Voice        │ 3 channels │ LOW        │ ★★★ HIGH  │ Emotion│
+  │ Mel + Voice  │ 7-8        │ LOW        │ ★★★★      │ Hook   │
+  │ Harmony      │ 2-3        │ MODERATE   │ ★★        │ Depth  │
+  │ Bass         │ 1-2        │ LOW        │ ★          │ Motor  │
+  │ Drums        │ 1-2        │ LOW        │ ★          │ Motor  │
+  │ Production   │ 6-7        │ HIGH       │ ★★ (total)│ Sustain│
   └──────────────────────────────────────────────────────────────┘
 
-  ⭐ HỆ QUẢ:
+  ⭐ IMPLICATIONS:
     Melody + Voice TOGETHER = 7-8 channels from 1 vocal line
-    → = TẠI SAO pop music = voice + melody as CORE
-    → = TẠI SAO bài hit producer (Max Martin, Pharrell):
-      melody ĐƠN GIẢN + production PHỨC TẠP
+    → = WHY pop music = voice + melody as CORE
+    → = WHY hit producers (Max Martin, Pharrell Williams):
+      SIMPLE melody + COMPLEX production
       = maximize ACTIVATION EFFICIENCY (melody/voice) for HOOK
       + maximize TOTAL CHANNELS (production) for RETENTION
 
@@ -684,18 +690,18 @@ FRAMEWORK FILES:
   By-Product-Gap-Resonance.md v1.4 — resonance mechanism, compound
   Modality.md v1.0 — 6 modalities, multi-modal encoding depth
   PFC-Operations.md v1.0 — PFC budget, Hold/Suppress, Compiled/Fresh
-  Personal-Melody.md v2.0 — §2 (multi-modal sync = "hay"), §3 ("gu")
+  Personal-Melody.md v2.0 — §2 (multi-modal sync = "good"), §3 (taste signature)
   Background-Pattern.md v2.0 — gist extraction, Triple Bias
   Reward-Calibration.md v1.1 — Goldilocks per-gap, 3 zones
   Gap-Body-Need.md v1.0 — mini-arc decomposition
 
 PERCEPTUAL-RESEARCH (source material for this file):
-  Music Cognition Research/INTEGRATED_MODEL.md — §6 (3 kênh giọng hát),
+  Music Cognition Research/INTEGRATED_MODEL.md — §6 (3 voice channels),
     §9 (melody = multi-system activator), §11 (shape vs content)
   Music Cognition Research/ANALYSIS_SESSION_01.md — §3.3 (lyrics vs instrumental)
   Music Cognition Research/ANALYSIS_SESSION_02.md — §2 (melody activation),
     §3 (6 structural attributes), §8 (curse of expertise)
-  Music Cognition Research/PROJECT_OVERVIEW.md — Trục A (neural pathways)
+  Music Cognition Research/PROJECT_OVERVIEW.md — Axis A (neural pathways)
 
 KEY CITATIONS:
   🟢 Koelsch 2014 — distributed bilateral network
@@ -723,3 +729,15 @@ KEY CITATIONS:
   🟢 Owen et al. 2024 — music elicits greater response diversity
   🟢 Ferreri et al. 2013 — music decreases PFC activity (fNIRS)
 ```
+
+---
+
+> *08-Musical-Elements-Brain-Interface v1.1 — Voice 3-channel, melody activation efficiency, shape vs content.
+> v1.1: "independent" → "partially separable" (Gordon & Schon 2010);
+> Norman-Haignere 2022 song-selective neurons STRENGTHENS voice-as-instrument;
+> Langer 1953 attribution added; "melody = first locked" → 🔴 hypothesis;
+> "forced imagery always weaker" → depends on congruence (Dasovich-Wilson 2022/2025);
+> Alzheimer → musical memory broadly, not melody specifically.
+> Voice = 3 partially separable channels. Melody = highest activation efficiency element.
+> Music provides temporal shape → brain fills content from personal chunks.
+> Foreign music = Semantic off → unfiltered emotion (not "purer" — plausible but not measured).*

@@ -1,16 +1,16 @@
-# Giáo Dục Việt Nam — Tình Trạng Hiện Tại
+# Vietnamese Education — Current Status
 
-> **Phiên bản:** v2.2
-> **Ngày cập nhật:** 2026-06-03
-> **Mục đích:** Snapshot giáo dục VN hiện tại + đánh giá qua Education-Mechanism v2.2 lens
-> **Vị trí:** TẦNG 5 — Country/VN (File 1/3 — data + analysis)
-> **Phụ thuộc:**
->   EDUCATION-FOUNDATION (Tầng 3 "bộ 3"):
->     Education-Mechanism.md v2.2 (HOW — 8 nguyên lý + 12 new concepts — LENS ĐÁNH GIÁ),
+> **Version:** v2.2
+> **Last updated:** 2026-06-03
+> **Purpose:** Snapshot of current Vietnamese education + assessment through the Education-Mechanism v2.2 lens
+> **Position:** TIER 5 — Country/VN (File 1/3 — data + analysis)
+> **Dependencies:**
+>   EDUCATION-FOUNDATION (Tier 3 "Trio"):
+>     Education-Mechanism.md v2.2 (HOW — 8 principles + 12 new concepts — EVALUATION LENS),
 >     Domain-Knowledge-Map.md v2.1 (WHAT — 3-tier taxonomy + new concept mapping),
->     Connection-Education.md v1.1 (WHO — 5 khía cạnh social-emotional education)
->   EDUCATION-SYSTEM (Tầng 4):
->     Education-System.md v3.2 (ENGINE/ROAD/VEHICLE + "bộ 3" — IDEAL để so sánh),
+>     Connection-Education.md v1.1 (WHO — 5 dimensions of social-emotional education)
+>   EDUCATION-SYSTEM (Tier 4):
+>     Education-System.md v3.2 (ENGINE/ROAD/VEHICLE + "Trio" — IDEAL for comparison),
 >     Hardware-Calibration.md v1.2 (per-individual + Body-Feedback-Label lens),
 >     Era-Analysis-2025.md v2.2 (context 2025+ AI + Phantom),
 >     Curriculum-Framework.md v2.3 (3-tier + Gap Landscape)
@@ -28,105 +28,106 @@
 >   AGENT-ENTITY:
 >     Agent-Mechanism.md v2.1 (Self-Pattern-Modeling v3.1 + Entity-Access),
 >     Entity-Compiled.md v1.0 (40→200h formation, Hub-and-Spoke),
->     Entity-Access.md v1.2 (Mức 0-5 gradient)
+>     Entity-Access.md v1.2 (Level 0-5 gradient)
 >   TRUST/SELF-OBSERVATION:
 >     Trust.md v1.0 (3 sub-dimensions, Default→Calibrated, asymmetry — evaluation lens),
->     Self-Observation.md v1.0 (Mức 0-6 gradient, Tool Not Virtue — unlabeled deficit lens)
+>     Self-Observation.md v1.0 (Level 0-6 gradient, Tool Not Virtue — unlabeled deficit lens)
 >   NEW-CONCEPTS:
->     Gap-Distribution-Profile.md v1.1 (4 trục — gap landscape analysis),
+>     Gap-Distribution-Profile.md v1.1 (4 axes — gap landscape analysis),
 >     Compiled-Fresh.md v2.0 (Compiled Quality Dimension — genuine/schema/threat),
 >     Gap-Body-Need.md v1.0 (ENGINE/ROAD/VEHICLE §9)
-> **Bản trước:** backup/v2.0/Country/VN/VN-Education-Status.md (1,406L, v2.0, 2026-05-11)
-> **Thay đổi chính v2.0:** (see backup header — re-base from "10 NL" to Mechanism v1.0)
-> **Thay đổi chính v2.1:**
->   - Re-base lens: Education-Mechanism v1.0 → v2.0 (8 nguyên lý + 12 new concepts)
+> **Prior version:** backup/v2.0/Country/VN/VN-Education-Status.md (1,406L, v2.0, 2026-05-11)
+> **v2.0 key changes:** (see backup header — re-base from "10 principles" to Mechanism v1.0)
+> **v2.1 key changes:**
+>   - Re-base lens: Education-Mechanism v1.0 → v2.0 (8 principles + 12 new concepts)
 >   - Add: 7 new concept lenses (Hardware-Subsidy, Dissonance-Signal-Architecture,
 >     PFC Budget, Gap-Distribution-Profile, Compiled Quality Dimension,
 >     Connection-Education, Entity-Access/Entity-Compiled)
->   - Add: "bộ 3" (HOW+WHAT+WHO) context + ENGINE/ROAD/VEHICLE light reference
->   - Update: all dep versions + cross-refs → current (30+ entries, 7 categories)
->   - Data giữ nguyên (2022-2025, vẫn current)
-> **Thay đổi chính v2.2:**
+>   - Add: "Trio" (HOW+WHAT+WHO) context + ENGINE/ROAD/VEHICLE light reference
+>   - Update: all dependency versions + cross-refs → current (30+ entries, 7 categories)
+>   - Data unchanged (2022-2025, still current)
+> **v2.2 key changes:**
 >   - Add: Trust.md v1.0 lens — §2 Strength 2 (92% = 3 sub-dimensions analysis),
 >     §3 Weakness 1 (Imposed → trust-intention damage, position ≠ person trust)
->   - Add: Self-Observation.md v1.0 lens — §3 Weakness 1 (unlabeled deficit, Mức 0-1)
+>   - Add: Self-Observation.md v1.0 lens — §3 Weakness 1 (unlabeled deficit, Level 0-1)
 >   - Add: §5 Gap Analysis — 2 new dimensions (Trust calibration 70%, Self-Observation 80%)
 >   - Add: §5 NEW CONCEPT DIMENSIONS — Trust + Self-Observation entries
->   - Update: all Tầng 3-4 stale refs (EM v2.1→v2.2, DKM v2.0→v2.1, CE v1.0→v1.1,
->     ES v3.0→v3.2, CF v2.1→v2.3, EA v2.1→v2.2, HC v1.1→v1.2, CDM v2.2→v2.3)
->   - Update: deps + KẾT NỐI + KEY TAKEAWAYS
-> **⚠️ Data = 2022-2025. Giáo dục VN đang cải cách (GDPT 2018) → landscape ĐANG thay đổi.**
-> **⚠️ Analysis qua framework = LENS, không phải VERDICT. Cần chuyên gia local validate.**
-> **Quy ước:** 🟢 Data/fact (verified sources) | 🟡 Framework analysis (derived) | 🔴 Hypothesis
+>   - Update: all Tier 3-4 stale refs (Education-Mechanism v2.1→v2.2, Domain-Knowledge-Map v2.0→v2.1, Connection-Education v1.0→v1.1,
+>     Education-System v3.0→v3.2, Curriculum-Framework v2.1→v2.3, Entity-Access v2.1→v2.2, Hardware-Calibration v1.1→v1.2, Child-Development-Mechanism v2.2→v2.3)
+>   - Update: dependencies + Connections + Key Takeaways
+> **⚠️ Data = 2022-2025. Vietnamese education is undergoing reform (GDPT 2018) → landscape IS CHANGING.**
+> **⚠️ Analysis through framework = LENS, not VERDICT. Local expert validation required.**
+> **Convention:** 🟢 Data/fact (verified sources) | 🟡 Framework analysis (derived) | 🔴 Hypothesis
 
 ---
 
-## Mục lục
+## Table of Contents
 
-0. Tổng quan hệ thống
-1. Đánh giá qua Education-Mechanism lens (CORE SECTION)
-2. Điểm mạnh đang có
-3. Điểm yếu cần cải thiện
+0. System Overview
+1. Assessment through the Education-Mechanism Lens (CORE SECTION)
+2. Current Strengths
+3. Weaknesses to Address
 4. Data + Evidence
-5. Gap analysis: Hiện tại vs Ideal
+5. Gap Analysis: Current State vs Ideal
 6. Honest Assessment
 
 ---
 
-## 0. TỔNG QUAN HỆ THỐNG
+## 0. SYSTEM OVERVIEW
 
 ```
-CẤU TRÚC — HỆ THỐNG 5-4-3: 🟢
+STRUCTURE — 5-LEVEL SYSTEM: 🟢
 
   ┌────────────────────────────────────────────────────────────┐
   │                                                            │
-  │  Mầm non         3-5 tuổi      3 năm (không bắt buộc)    │
-  │  Tiểu học        6-10 tuổi     5 năm (Grade 1-5)         │
-  │  THCS            11-14 tuổi    4 năm (Grade 6-9)         │
-  │  THPT            15-17 tuổi    3 năm (Grade 10-12)       │
-  │  Đại học / CĐ    18+ tuổi     3-6 năm                   │
+  │  Preschool          Ages 3-5      3 years (not mandatory) │
+  │  Primary School     Ages 6-10     5 years (Grade 1-5)     │
+  │  Lower Secondary    Ages 11-14    4 years (Grade 6-9)     │
+  │  Upper Secondary    Ages 15-17    3 years (Grade 10-12)   │
+  │  University / Col.  Ages 18+      3-6 years               │
   │                                                            │
-  │  Tổng giáo dục phổ thông: 12 NĂM                         │
-  │  Quản lý: Bộ Giáo dục và Đào tạo (MOET / Bộ GD&ĐT)     │
+  │  Total compulsory schooling: 12 YEARS                      │
+  │  Governing body: Ministry of Education and Training (MOET) │
   │                                                            │
   └────────────────────────────────────────────────────────────┘
 
 
-QUY MÔ — NĂM HỌC 2024-2025: 🟢
+SCALE — ACADEMIC YEAR 2024-2025: 🟢
 
   ┌───────────────────────────────────┬────────────────────────┐
-  │ Chỉ số                            │ Số liệu               │
+  │ Indicator                         │ Data                   │
   ├───────────────────────────────────┼────────────────────────┤
-  │ Tổng cơ sở giáo dục               │ ~53,979                │
-  │ Tổng học sinh (tất cả cấp)        │ ~25,255,000            │
-  │ Tổng giáo viên + nhân viên        │ ~1,660,000             │
-  │ Giáo viên trực tiếp giảng dạy    │ ~1,251,000             │
-  │ Thiếu giáo viên                   │ ~102,000-120,000       │
-  │ Đại học                            │ 243 (176 công, 67 tư) │
-  │ Sinh viên đại học                  │ ~2,069,000             │
+  │ Total educational institutions    │ ~53,979                │
+  │ Total students (all levels)       │ ~25,255,000            │
+  │ Total teachers + staff            │ ~1,660,000             │
+  │ Active classroom teachers         │ ~1,251,000             │
+  │ Teacher shortage                  │ ~102,000-120,000       │
+  │ Universities                      │ 243 (176 public/67 pri)│
+  │ University students               │ ~2,069,000             │
   └───────────────────────────────────┴────────────────────────┘
 
   Sources: vietnam.vn 2024-2025, MOET reports, Statista 2024
 
 
-TỈ LỆ BIẾT CHỮ + NHẬP HỌC: 🟢
+LITERACY + ENROLLMENT RATES: 🟢
 
-  Biết chữ người lớn (15+):        ~96.1% (World Bank, 2022)
-  Biết chữ thanh niên (15-24):     ~99.0% (UNESCO, 2022)
+  Adult literacy (15+):                ~96.1% (World Bank, 2022)
+  Youth literacy (15-24):              ~99.0% (UNESCO, 2022)
 
-  Nhập học ròng tiểu học:           ~99.4%
-  Nhập học ròng THCS:               ~90%
-  Nhập học ròng THPT:               ~77%
-  Nhập học thô đại học:             ~42.2% (World Bank, 2022)
+  Net primary enrollment:              ~99.4%
+  Net lower secondary enrollment:      ~90%
+  Net upper secondary enrollment:      ~77%
+  Gross tertiary enrollment:           ~42.2% (World Bank, 2022)
 
-  → Tiểu học gần như TOÀN DÂN
-  → Drop-off rõ ở THPT (~77%) và đặc biệt ethnic minorities (~55-60%)
+  → Primary = near UNIVERSAL
+  → Clear drop-off at upper secondary (~77%) and especially among
+    ethnic minorities (~55-60%)
 
 
-NGÂN SÁCH GIÁO DỤC: 🟢
+EDUCATION BUDGET: 🟢
 
   ┌──────────┬──────────┬───────────────────────┐
-  │ Năm      │ % GDP    │ % Chi ngân sách       │
+  │ Year     │ % GDP    │ % Gov't Budget        │
   ├──────────┼──────────┼───────────────────────┤
   │ 2013     │ 5.70%    │ ~20%                  │
   │ 2019     │ 4.20%    │ 16.28%                │
@@ -135,80 +136,83 @@ NGÂN SÁCH GIÁO DỤC: 🟢
   │ 2022     │ 2.89%    │ 15.45%                │
   └──────────┴──────────┴───────────────────────┘
 
-  → GIẢM MẠNH: 5.7% GDP (2013) → 2.89% (2022) = gần một nửa
-  → Thấp hơn trung bình thế giới (~4.15% GDP)
-  → NHƯNG: hiệu quả chi tiêu CAO (World Bank: VN = efficient spender)
-  → So sánh khu vực: Hàn Quốc 5.81%, Malaysia 4.26%,
+  → SHARP DECLINE: 5.7% GDP (2013) → 2.89% (2022) = nearly half
+  → Below world average (~4.15% GDP)
+  → BUT: spending efficiency HIGH (World Bank: VN = efficient spender)
+  → Regional comparison: South Korea 5.81%, Malaysia 4.26%,
     Philippines 3.87%, VN 2.89%, Singapore 2.82%
 
   Sources: World Bank, Trading Economics
 
 
-CẢI CÁCH GẦN ĐÂY — CHƯƠNG TRÌNH GDPT 2018: 🟢
+RECENT REFORM — GDPT 2018 NATIONAL CURRICULUM: 🟢
 
-  Nền tảng: Nghị quyết 29 (2013) — "đổi mới CĂN BẢN, TOÀN DIỆN"
+  Foundation: Resolution 29 (2013) — "fundamental and comprehensive reform"
 
-  THAY ĐỔI CỐT LÕI:
-    ✓ Từ TRUYỀN THỤ kiến thức → phát triển NĂNG LỰC (competency-based)
-    ✓ "Một chương trình, NHIỀU bộ sách" (chấm dứt độc quyền 1 bộ SGK)
-    ✓ Tăng quyền tự chủ cho trường + giáo viên
-    ✓ Môn tích hợp ở THCS (Khoa học tự nhiên, Khoa học xã hội)
-    ✓ Môn tự chọn ở THPT (học sinh chọn hướng)
+  CORE CHANGES:
+    ✓ From KNOWLEDGE TRANSMISSION → COMPETENCY development (competency-based)
+    ✓ "One curriculum, MULTIPLE textbooks" (ends single-textbook monopoly)
+    ✓ Greater autonomy for schools + teachers
+    ✓ Integrated subjects at lower secondary (Natural Science, Social Science)
+    ✓ Elective subjects at upper secondary (students choose direction)
 
-  5 PHẨM CHẤT: yêu nước, nhân ái, chăm chỉ, trung thực, trách nhiệm
-  3 NĂNG LỰC CHUNG: tự chủ + tự học, giao tiếp + hợp tác, giải quyết vấn đề + sáng tạo
+  5 QUALITIES: patriotism, compassion, diligence, honesty, responsibility
+  3 GENERAL COMPETENCIES: self-governance + self-learning, communication +
+    collaboration, problem-solving + creativity
 
-  TRIỂN KHAI:
-    2020-2021: Lớp 1
-    2021-2022: Lớp 2, 6
-    2022-2023: Lớp 3, 7, 10
-    2023-2024: Lớp 4, 8, 11
-    2024-2025: Lớp 5, 9, 12 → HOÀN THÀNH toàn bộ 12 khối
+  ROLLOUT TIMELINE:
+    2020-2021: Grade 1
+    2021-2022: Grades 2, 6
+    2022-2023: Grades 3, 7, 10
+    2023-2024: Grades 4, 8, 11
+    2024-2025: Grades 5, 9, 12 → ALL 12 grades COMPLETE
 
-  → Năm 2024-2025 = NĂM ĐẦU TIÊN toàn bộ 12 lớp dùng CT mới
+  → 2024-2025 = FIRST YEAR all 12 grades on the new curriculum
 
-  THÁCH THỨC TRIỂN KHAI:
-    ⚠️ Giáo viên chưa sẵn sàng (đào tạo theo mô hình cũ)
-    ⚠️ Thiếu sách giáo khoa (TP.HCM thiếu 7,053 bộ SGK)
-    ⚠️ Thiếu cơ sở vật chất (phòng lab, IT, thiết bị) ở vùng xa
-    ⚠️ Thiếu GV cho môn mới: tiếng Anh, Tin học, Âm nhạc, Mỹ thuật, môn tích hợp
+  IMPLEMENTATION CHALLENGES:
+    ⚠️ Teachers not ready (trained under old model)
+    ⚠️ Textbook shortages (HCMC: 7,053 sets short)
+    ⚠️ Infrastructure gaps (labs, IT, equipment) in remote areas
+    ⚠️ Teacher shortage for new subjects: English, IT, Music,
+       Fine Arts, integrated subjects
 
   Sources: MOET, Cogent Education 2025, World Bank ICR, IJLTER
 
 
-GIÁO VIÊN — DATA NỔI BẬT: 🟢
+TEACHERS — KEY DATA: 🟢
 
-  LƯƠNG:
-    → Giáo viên mới vào nghề 5 năm: lương THẤP HƠN trung bình lao động
-    → Trung bình lao động VN 2024: 7.7 triệu VND/tháng (~304 USD)
-    → GV mới: ~6.5-8 triệu VND/tháng (sau bảo hiểm)
+  SALARIES:
+    → Teachers in first 5 years: salary BELOW national labor average
+    → National labor average 2024: 7.7 million VND/month (~304 USD)
+    → New teachers: ~6.5-8 million VND/month (after insurance)
 
-  TALIS 2024 (OECD survey — data RẤT ĐÁNG CHÚ Ý):
+  TALIS 2024 (OECD survey — HIGHLY NOTABLE data):
 
     ┌────────────────────────────────────┬────────┬───────────┐
-    │ Chỉ số                             │ VN     │ OECD TB   │
+    │ Indicator                          │ VN     │ OECD Avg  │
     ├────────────────────────────────────┼────────┼───────────┤
-    │ Hài lòng nghề nghiệp              │ 97%    │ 89%       │
-    │ Xã hội coi trọng nghề GV          │ 92%    │ 22%       │
-    │ Chính sách lắng nghe ý kiến GV    │ 87%    │ 16%       │
-    │ GV là lựa chọn nghề đầu tiên      │ 91%    │ 58%       │
-    │ Hài lòng với lương                 │ 58%    │ 39%       │
-    │ Stress do công việc               │ 4%     │ 19%       │
-    │ Dự định rời nghề trong 5 năm      │ <6%    │ varies    │
-    │ Đã sử dụng AI trong giảng dạy    │ 64%    │ 36%       │
+    │ Job satisfaction                   │ 97%    │ 89%       │
+    │ Society values teaching profession │ 92%    │ 22%       │
+    │ Policy listens to teacher voice    │ 87%    │ 16%       │
+    │ Teaching was first career choice   │ 91%    │ 58%       │
+    │ Satisfied with salary              │ 58%    │ 39%       │
+    │ Occupational stress                │ 4%     │ 19%       │
+    │ Intend to leave within 5 years     │ <6%    │ varies    │
+    │ Already using AI in teaching       │ 64%    │ 36%       │
     └────────────────────────────────────┴────────┴───────────┘
 
-  NGHỊCH LÝ: Lương thấp + thiếu 102,000 GV
-    NHƯNG: hài lòng 97%, xã hội tôn trọng 92%, chỉ <6% muốn rời nghề
-    → Vấn đề = THU HÚT người MỚI vào nghề, không phải GIỮ CHÂN người CŨ
+  PARADOX: Low salaries + 102,000 teacher shortage
+    BUT: 97% satisfaction, 92% societal respect, <6% intend to leave
+    → Problem = ATTRACTING new talent into the profession,
+      not RETAINING existing teachers
 
   Sources: OECD TALIS 2024 Vietnam Country Note, vietnam.vn, Statista
 
 
-PISA — BIỂU ĐỒ THAY ĐỔI: 🟢
+PISA — TREND: 🟢
 
   ┌──────┬───────┬──────────┬──────────┬─────────────────────────┐
-  │ Năm  │ Toán  │ Đọc hiểu │ Khoa học │ So với OECD TB           │
+  │ Year │ Math  │ Reading  │ Science  │ vs OECD Average          │
   ├──────┼───────┼──────────┼──────────┼─────────────────────────┤
   │ 2012 │ 511   │ 508      │ 528      │ +17 / +12 / +27         │
   │ 2015 │ 495   │ 487      │ 525      │ +5  / -6  / +32         │
@@ -216,593 +220,601 @@ PISA — BIỂU ĐỒ THAY ĐỔI: 🟢
   │ 2022 │ 469   │ 462      │ 472      │ -3  / -14 / -13         │
   └──────┴───────┴──────────┴──────────┴─────────────────────────┘
 
-  ⚠️ 2018: VN thi trên giấy (các nước khác thi máy) → OECD không đưa
-    VN vào bảng xếp hạng chính thức do vấn đề so sánh
+  ⚠️ 2018: VN tested on paper (other countries on computer) → OECD
+    excluded VN from official rankings due to comparability issues
 
-  2022: Giảm MẠNH so với 2018, nhưng:
-    → VN vẫn xếp THỨ 2 Đông Nam Á (sau Singapore)
+  2022: Sharp drop from 2018, but:
+    → VN still ranks 2ND in Southeast Asia (after Singapore)
     → Singapore: 575/543/561
     → VN: 469/462/472
     → Malaysia: 409/388/416
-    → Thái Lan: 394/379/409
+    → Thailand: 394/379/409
     → Indonesia: 366/359/383
 
-  LƯU Ý QUAN TRỌNG:
-    → Một số học giả đặt câu hỏi về kết quả VN 2012-2018
-    → Sample coverage có thể loại trừ HS yếu (out of school)
-    → Có thể inflate scores 50-60 điểm (FFT Education Datalab)
-    → 2022 toàn cầu đều giảm (COVID effect)
+  IMPORTANT NOTE:
+    → Some scholars question VN results 2012-2018
+    → Sample coverage may exclude weaker students (out of school)
+    → May inflate scores by 50-60 points (FFT Education Datalab)
+    → 2022 global decline across the board (COVID effect)
 
   Sources: OECD PISA 2022, Vietnam News, FFT Education Datalab
 ```
 
 ---
 
-## 1. ĐÁNH GIÁ QUA EDUCATION-MECHANISM LENS (CORE SECTION)
+## 1. ASSESSMENT THROUGH THE EDUCATION-MECHANISM LENS (CORE SECTION)
 
 ```
-MỤC ĐÍCH SECTION NÀY:
+PURPOSE OF THIS SECTION:
 
-  Education-Mechanism.md v2.2 = LENS đánh giá:
-    §2: 8 nguyên lý arc design (brain-based, valid mọi era)
-    §3: Bridge + Motivation (4 nguồn fill, 3 ORIGIN threat)
-    §1 + §4: System-level (tension cá nhân × xã hội, AI-assisted, education ≠ school)
+  Education-Mechanism.md v2.2 = EVALUATION LENS:
+    §2: 8 arc design principles (brain-based, valid across every era)
+    §3: Bridge + Motivation (4 fill sources, 3 ORIGIN threat types)
+    §1 + §4: System-level (individual × society tension, AI-assisted,
+      education ≠ school)
     + 12 new concepts: Hardware-Subsidy, Dissonance-Signal-Architecture,
       PFC Budget, Gap-Distribution-Profile, Compiled Quality Dimension,
       Entity-Access, Entity-Compiled, Coordination-Node, Simulation-Engine,
       Bond-Architecture, Resonance Decline, 4-Layer Sustainability
 
-  Section này áp dụng lens ĐÓ vào giáo dục VN hiện tại.
+  This section applies THAT lens to current Vietnamese education.
 
-  TỔ CHỨC THEO 3 NHÓM:
-    §1.1 — Arc Design (8 nguyên lý) → đánh giá per nguyên lý
-    §1.2 — Bridge + Motivation → đánh giá strategy hiện tại
-    §1.3 — System-Level → đánh giá cấu trúc hệ thống
+  ORGANIZED INTO 3 GROUPS:
+    §1.1 — Arc Design (8 principles) → evaluation per principle
+    §1.2 — Bridge + Motivation → evaluation of current strategy
+    §1.3 — System-Level → evaluation of system structure
 
-  KÝ HIỆU:
-    ○  = Align (hệ thống ĐANG làm đúng theo nguyên lý)
-    △  = Partial (một phần align, đang chuyển đổi)
-    ✗  = Violate (hệ thống đang ĐI NGƯỢC nguyên lý)
-    →  = Hướng cải cách (GDPT 2018 đang hướng tới)
+  SYMBOLS:
+    ○  = Align (system IS doing this correctly per principle)
+    △  = Partial (partially aligned, transitioning)
+    ✗  = Violate (system IS GOING AGAINST the principle)
+    →  = Reform direction (GDPT 2018 is heading here)
 
-  ⚠️ Đánh giá = SIMPLIFIED → thực tế PHỨC TẠP hơn nhiều
-  ⚠️ 🟡 Framework analysis — logical nhưng chưa validated as evaluation tool
+  ⚠️ Evaluation = SIMPLIFIED → reality is far more complex
+  ⚠️ 🟡 Framework analysis — logical but not yet validated as evaluation tool
 ```
 
-### §1.1 — ARC DESIGN: 8 Nguyên Lý
+### §1.1 — ARC DESIGN: 8 Principles
 
 ```
-NGUYÊN LÝ 1: DIRECTION > LEVEL (Mechanism v2.2 §2.2)
-  "Cách dạy tạo approach-tag hay avoidance-tag cho domain?"
+PRINCIPLE 1: DIRECTION > LEVEL (Mechanism v2.2 §2.2)
+  "Does teaching create approach-tags or avoidance-tags for the domain?"
 
-  ĐÁNH GIÁ: ✗ (threat-heavy → avoidance-tagged)
+  ASSESSMENT: ✗ (threat-heavy → avoidance-tagged)
 
-  HIỆN TRẠNG:
-    Hệ thống tạo AVOIDANCE-TAG phổ biến:
-    → Phạt điểm kém → "toán = sợ" (avoidance-tagged suốt đời)
-    → So sánh công khai → "học = shame risk" (threat-path)
-    → Thi cử áp lực → "kiến thức = để thi" (survival mode)
-    → "Khổ trước sướng sau" → normalize threat-path learning
+  CURRENT STATE:
+    System creates widespread AVOIDANCE-TAGS:
+    → Penalizing low grades → "math = fear" (avoidance-tagged for life)
+    → Public comparison → "learning = shame risk" (threat-path)
+    → High-stakes exams → "knowledge = for passing tests" (survival mode)
+    → "Suffer now, enjoy later" → normalizing threat-path learning
 
-    Approach-path HIẾM:
-    → Ít trải nghiệm hands-on (curiosity → approach-tag)
-    → Ít "aha!" moments trong lớp (lecture-dominant)
-    → Play + exploration bị cắt (tiểu học: 5-7 trang BT/ngày)
+    Approach-path is RARE:
+    → Little hands-on experience (curiosity → approach-tag)
+    → Few "aha!" moments in class (lecture-dominant)
+    → Play + exploration cut (primary school: 5-7 pages of homework/day)
 
-  QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.2 §2.2: "Cùng nội dung, khác cách dạy → khác tag → khác SUỐT ĐỜI"
-    → VN: phần lớn domains được dạy qua threat-path
-    → Chunks COMPILE (PISA scores OK) nhưng với AVOIDANCE-TAG
-    → = "Biết toán nhưng ghét toán" = common outcome
+  THROUGH THE FRAMEWORK LENS: 🟡
+    → Mechanism v2.2 §2.2: "Same content, different teaching method → different
+      tag → different for LIFE"
+    → VN: most domains taught via threat-path
+    → Chunks DO COMPILE (PISA scores OK) but with AVOIDANCE-TAGS
+    → = "Knows math but hates math" = common outcome
     → Compiled Quality Dimension (Compiled-Fresh.md v2.0 §3):
       threat-path → threat-compiled chunks (avoidance-tagged)
-      schema-path → schema-compiled (neutral-tagged, "thuộc bài")
-      VN dominant = threat + schema compiled → THIẾU genuine-compiled (approach)
+      schema-path → schema-compiled (neutral-tagged, "memorized lesson")
+      VN dominant = threat + schema compiled → MISSING genuine-compiled (approach)
     → Dissonance-Signal-Architecture v1.0:
-      avoidance tích lũy = chronic Evaluative Dissonance (compiled, reframeable)
-      + sleep deprivation = Direct-State Dissonance (hardware, cần rest)
-      = COMPOUND signal → address Direct-State TRƯỚC
-    → = Giải thích tại sao 60% SV làm trái ngành: avoidance-tagged
-      domains → body pull AWAY khi không còn bridge bắt buộc
+      accumulated avoidance = chronic Evaluative Dissonance (compiled, reframeable)
+      + sleep deprivation = Direct-State Dissonance (hardware, needs rest)
+      = COMPOUND signal → address Direct-State FIRST
+    → Explains why 60% of graduates work outside their field: avoidance-tagged
+      domains → body pulls AWAY once external bridge is removed
 
   EVIDENCE:
-    🟢 57.8% HS sợ sai trong lớp (ResearchGate)
-    🟢 56.6% sợ trình bày ý tưởng kém
-    🟢 80% THPT ngủ <7h → học trong trạng thái cortisol cao
-    🟡 Avoidance-tag dẫn tới rời bỏ domain = framework prediction,
-       consistent với 60% trái ngành data
+    🟢 57.8% of students fear making mistakes in class (ResearchGate)
+    🟢 56.6% fear presenting weak ideas
+    🟢 80% of upper secondary students sleep <7h → learning under high cortisol
+    🟡 Avoidance-tags leading to domain abandonment = framework prediction,
+       consistent with 60% working-outside-field data
 ```
 
 ```
-NGUYÊN LÝ 2: MINIMIZE COST PER STUDENT (Mechanism v2.2 §2.3)
-  "Arc có tối ưu cost cho student NÀY hay one-size cho tất cả?"
+PRINCIPLE 2: MINIMIZE COST PER STUDENT (Mechanism v2.2 §2.3)
+  "Does the arc optimize cost for THIS student, or one-size for everyone?"
 
-  ĐÁNH GIÁ: ✗ (one-size-fits-all → hardware mismatch phổ biến)
+  ASSESSMENT: ✗ (one-size-fits-all → widespread hardware mismatch)
 
-  HIỆN TRẠNG:
+  CURRENT STATE:
     Cost formula: cost ≈ f(chunk_gap × hardware_mismatch × direction)
-    → VN: hardware_mismatch = CAO (1 method cho 40-69 HS/lớp)
-    → Somatic-dominant student + verbal lecture = mismatch → cost CAO
-    → Visual-dominant student + text-only = mismatch → cost CAO
-    → CÙNG bài, KHÁC hardware → KHÁC cost hoàn toàn → one-size = sub-optimal
+    → VN: hardware_mismatch = HIGH (1 method for 40-69 students/class)
+    → Somatic-dominant student + verbal lecture = mismatch → HIGH cost
+    → Visual-dominant student + text-only = mismatch → HIGH cost
+    → SAME lesson, DIFFERENT hardware → COMPLETELY DIFFERENT cost
+      → one-size = sub-optimal
 
   EVIDENCE:
-    🟢 Lớp thực tế: 40-69 HS/lớp (King's Think Tank 2025)
-    🟢 Thiếu 102,000+ GV (MOET 2025)
-    🟢 HS/GV tiểu học: 23.3:1 (Statista 2024)
-    🟢 HS kém bị label "lười" thay vì "hardware mismatch"
+    🟢 Actual classes: 40-69 students (King's Think Tank 2025)
+    🟢 Teacher shortage: 102,000+ (MOET 2025)
+    🟢 Student-teacher ratio in primary: 23.3:1 (Statista 2024)
+    🟢 Low-performing students labeled "lazy" instead of "hardware mismatch"
       (Hardware-Calibration.md v1.2 §5 — miscalibration patterns)
-    🟢 Ethnic minority dropout: 2x Kinh, late enrollment: 5x
+    🟢 Ethnic minority dropout: 2x Kinh majority, late enrollment: 5x
 
-  QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.2 §2.3: "one-size-fits-all LUÔN sub-optimal"
-    → VN: GV 50 HS → KHÔNG THỂ calibrate per-hardware dù muốn
+  THROUGH THE FRAMEWORK LENS: 🟡
+    → Mechanism v2.2 §2.3: "one-size-fits-all is ALWAYS sub-optimal"
+    → VN: teacher with 50 students → CANNOT calibrate per-hardware even if willing
     → Hardware-Subsidy (Entity-Valence-Dynamics.md v1.0 §5):
-      teacher = MODERATE subsidy → nhưng 50 HS/GV = subsidy CHIA cho 50
+      teacher = MODERATE subsidy → but 50 students/teacher = subsidy DIVIDED by 50
       = near-zero per-individual → subsidy quality DEGRADED
     → PFC Budget (PFC-Label.md v1.0):
-      per-individual observation = high PFC cost × 50 students = EXHAUST
-      GV 50 HS → PFC Budget cho calibration = IMPOSSIBLE
-    → Labels "giỏi/kém" = theo method-fit, KHÔNG theo capability
+      per-individual observation = high PFC cost × 50 students = EXHAUSTING
+      teacher with 50 students → PFC Budget for calibration = IMPOSSIBLE
+    → Labels "high-achieving/low-achieving" = based on method-fit, NOT capability
     → Structural barrier: class size + teacher shortage + no calibration training
-    → GDPT 2018 hướng tới "phát triển năng lực CÁ NHÂN" — ý đúng,
-      nhưng structural barriers chưa giải quyết
+    → GDPT 2018 targets "individual competency development" — right intention,
+      but structural barriers remain unaddressed
 ```
 
 ```
-NGUYÊN LÝ 3: PREREQUISITE CHECK (Mechanism v2.2 §2.4)
-  "Có verify chunks nền trước khi bắt đầu arc mới?"
+PRINCIPLE 3: PREREQUISITE CHECK (Mechanism v2.2 §2.4)
+  "Are foundation chunks verified before starting a new arc?"
 
-  ĐÁNH GIÁ: △ (curriculum có sequence, nhưng cứng)
+  ASSESSMENT: △ (curriculum has sequence, but rigid)
 
-  HIỆN TRẠNG:
-    → Curriculum sequence: tiểu học → THCS → THPT = có hierarchy
-    → Phân loại theo TUỔI, không theo compiled-chunks
-    → HS 12 tuổi thiếu prerequisite phân số → VẪN phải học đại số
-    → "Không hiểu" thường = thiếu prerequisite, bị label "kém"
-    → GDPT 2018: tăng flexibility nhưng vẫn age-based progression
+  CURRENT STATE:
+    → Curriculum sequence: primary → lower secondary → upper secondary = has hierarchy
+    → Progression by AGE, not by compiled chunks
+    → 12-year-old student missing fraction prerequisites → STILL required to learn algebra
+    → "Not understanding" usually = missing prerequisites, labeled "low ability"
+    → GDPT 2018: increased flexibility but still age-based progression
 
-  QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.2 §2.4: "Thiếu prerequisite → arc fail → body overwhelm
-      → avoidance-tag tích lũy"
-    → VN: prerequisite check KHÔNG xảy ra per-student
-    → Ai lọt lưới → tích lũy gaps → snowball effect
-    → = 1 trong 3 nguyên nhân "ghét toán" (Mechanism v2.2 §2.4 ví dụ):
-      ① Avoidance-tagged (dạy sai direction)
-      ② Thiếu prerequisite → overwhelm → avoidance tích lũy
-      ③ Hardware mismatch (cần visual, dạy verbal)
-    → VN system không phân biệt 3 nguyên nhân → label chung "kém"
+  THROUGH THE FRAMEWORK LENS: 🟡
+    → Mechanism v2.2 §2.4: "Missing prerequisite → arc fails → body overwhelmed
+      → avoidance-tags accumulate"
+    → VN: prerequisite check does NOT happen per-student
+    → Those who fall through the cracks → accumulate gaps → snowball effect
+    → = 1 of 3 reasons for "hating math" (Mechanism v2.2 §2.4 example):
+      ① Avoidance-tagged (wrong teaching direction)
+      ② Missing prerequisite → overwhelm → accumulated avoidance
+      ③ Hardware mismatch (needs visual, gets verbal)
+    → VN system does not distinguish these 3 causes → labels all as "low ability"
 ```
 
 ```
-NGUYÊN LÝ 4: MINI-ARCS + VALLEY (Mechanism v2.2 §2.5)
-  "Bài học có chia nhỏ, mỗi phần có 'aha'? Có chuẩn bị cho valley?"
+PRINCIPLE 4: MINI-ARCS + VALLEY (Mechanism v2.2 §2.5)
+  "Are lessons broken into small pieces, each with an 'aha'? Is the valley prepared for?"
 
-  ĐÁNH GIÁ: ✗ (lecture blocks, ít valley awareness)
+  ASSESSMENT: ✗ (lecture blocks, little valley awareness)
 
-  HIỆN TRẠNG:
-    → Lecture-dominant: thầy nói → trò nghe → làm bài → chấm điểm
-    → Tiết học 45 phút = 1 block, ít cấu trúc mini-arc
-    → "Aha!" moments hiếm — vì: transmit knowledge ≠ design for discovery
-    → Valley awareness: HS + GV + PH KHÔNG biết "giữa arc khó nhất — bình thường"
-    → Khi HS gặp khó khăn giữa chừng → bị label "lười" / "thiếu cố gắng"
-      thay vì "đang ở valley — cần bridge tạm"
+  CURRENT STATE:
+    → Lecture-dominant: teacher speaks → students listen → do exercises → graded
+    → 45-minute lesson = 1 block, little mini-arc structure
+    → "Aha!" moments rare — because: transmitting knowledge ≠ designing for discovery
+    → Valley awareness: students + teachers + parents do NOT know "hardest point is
+      in the middle of an arc — that's normal"
+    → When students struggle mid-way → labeled "lazy" / "not trying hard enough"
+      instead of "in the valley — needs temporary bridge"
 
-  QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.2 §2.5: "Arc dài + không reward giữa = body bỏ cuộc"
-    → VN: school year = long arc, kỳ thi = only reward signal
-    → Giữa kỳ = valley → HS cần bridge MẠN NHẤT ở đây
-    → Nhưng: bridge VN TĂNG ĐỀU (pressure constant) thay vì
-      TĂNG ở valley + GIẢM sau aha
-    → "Normalize dissonance" (meta-skill quý nhất — Mechanism v2.2 §2.5)
-      = gần như KHÔNG ĐƯỢC DẠY ở VN
+  THROUGH THE FRAMEWORK LENS: 🟡
+    → Mechanism v2.2 §2.5: "Long arc + no mid-arc reward = body gives up"
+    → VN: school year = long arc, exam = only reward signal
+    → Middle of term = valley → students need bridge MOST at this point
+    → But: VN bridge INCREASES STEADILY (constant pressure) instead of
+      INCREASING at the valley + DECREASING after the aha moment
+    → "Normalize dissonance" (most valuable meta-skill — Mechanism v2.2 §2.5)
+      = almost NEVER TAUGHT in VN
 ```
 
 ```
-NGUYÊN LÝ 5: IMAGINE-FINAL BEFORE CONTENT (Mechanism v2.2 §2.6)
-  "Student có thấy 'tại sao' trước 'cái gì'?"
+PRINCIPLE 5: IMAGINE-FINAL BEFORE CONTENT (Mechanism v2.2 §2.6)
+  "Do students see the 'why' before the 'what'?"
 
-  ĐÁNH GIÁ: ✗
+  ASSESSMENT: ✗
 
-  HIỆN TRẠNG:
-    "Cứ học đi" = approach phổ biến nhất
-    → HS học 12 năm → mục tiêu duy nhất rõ ràng: THI ĐỖ ĐẠI HỌC
-    → "Tại sao học?" → "Để thi" / "Để có bằng" / "Để có việc"
-    → Imagine-Final phổ biến nhất: NARROW + EXTERNAL
-      → Narrow: "thi đỗ → bằng → việc → tiền"
-      → External: từ gia đình + xã hội, không từ learner
+  CURRENT STATE:
+    "Just study" = most common approach
+    → Students study 12 years → only clear goal: PASS UNIVERSITY ENTRANCE EXAM
+    → "Why study?" → "To pass exams" / "To get a degree" / "To get a job"
+    → Most common Imagine-Final: NARROW + EXTERNAL
+      → Narrow: "pass exam → degree → job → money"
+      → External: from family + society, not from the learner themselves
 
   EVIDENCE:
-    🟢 60% SV tốt nghiệp làm việc KHÔNG liên quan ngành học (Saigoneer)
-    🟢 100,000+ cử nhân thất nghiệp hàng năm
-    🟢 Thi tốt nghiệp THPT = DUAL PURPOSE (vừa tốt nghiệp vừa xét ĐH)
-    → Stakes CỰC CAO cho 1 kỳ thi → "học để thi" là rational response
+    🟢 60% of graduates work in an unrelated field (Saigoneer)
+    🟢 100,000+ graduates unemployed annually
+    🟢 Upper secondary graduation exam = DUAL PURPOSE (graduation + university admission)
+    → EXTREMELY HIGH stakes for a single exam → "studying to pass" is a rational response
 
-  QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.2 §2.6: Imagine-Final = "body simulate future state"
-    → VN: Imagine-Final = "bố mẹ simulate CỦA HỌ → inject vào con"
-    → = Nguồn ④ External Inject (Mechanism v2.2 §3.1) dominate
-      thay vì nguồn ① PFC tự xây
-    → Imagine-Final-Evaluation.md: 4 góc quality
-      → VN pattern: thường rơi vào "Mismatch" (Domain ✓ + Hardware ✗)
-      = "nghề có thật, nhưng KHÔNG phù hợp hardware EM"
-    → 60% trái ngành = EVIDENCE cho Mismatch at population scale
+  THROUGH THE FRAMEWORK LENS: 🟡
+    → Mechanism v2.2 §2.6: Imagine-Final = "body simulating a future state"
+    → VN: Imagine-Final = "parents simulate THEIR version → inject into child"
+    → = Source ④ External Inject (Mechanism v2.2 §3.1) dominates
+      instead of Source ① PFC self-building
+    → Imagine-Final-Evaluation.md: 4 corners of quality
+      → VN pattern: typically falls into "Mismatch" quadrant (Domain ✓ + Hardware ✗)
+      = "the career is real, but does NOT fit this student's hardware"
+    → 60% working outside field = EVIDENCE for Mismatch at population scale
 ```
 
 ```
-NGUYÊN LÝ 6: FEEDBACK LOOP (Mechanism v2.2 §2.7)
-  "Arc có feedback liên tục hay set-and-forget?"
+PRINCIPLE 6: FEEDBACK LOOP (Mechanism v2.2 §2.7)
+  "Does the arc have continuous feedback, or is it set-and-forget?"
 
-  ĐÁNH GIÁ: ✗ → △ (đang cải cách)
+  ASSESSMENT: ✗ → △ (reform in progress)
 
-  HIỆN TRẠNG:
-    → Feedback = chủ yếu ĐIỂM SỐ (correctness, không phải progress)
-    → GV → HS: "đúng/sai" > "em đang ở đâu, cần gì tiếp"
-    → HS → GV: feedback MUTED (hierarchy + face-saving → HS không dám nói)
-    → 57.8% HS sợ sai → feedback bị CHẶN từ phía HS
+  CURRENT STATE:
+    → Feedback = mainly SCORES (correctness, not progress)
+    → Teacher → student: "right/wrong" > "where are you, what do you need next"
+    → Student → teacher: feedback MUTED (hierarchy + face-saving → students
+      don't speak up)
+    → 57.8% of students fear mistakes → feedback BLOCKED from the student side
 
-  GDPT 2018 — cải cách:
-    → Tiểu học: đánh giá phát triển (qualitative — Circular 30/22)
-    → Process assessment tăng 30% → 50% (2025)
-    → Hướng ĐÚNG: feedback liên tục thay vì 1 kỳ thi cuối
+  GDPT 2018 — reforms:
+    → Primary school: developmental assessment (qualitative — Circular 30/22)
+    → Process assessment weight: 30% → 50% (2025)
+    → RIGHT DIRECTION: continuous feedback instead of a single end-of-term exam
 
-  QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.2 §2.7: "Arc quá dễ = boring / quá khó = overwhelm"
-    → Feedback loop = mechanism DETECT + ADJUST liên tục
-    → VN: feedback loop BỊ CHẶN 2 CHIỀU:
-      → GV → HS: chỉ correctness, không progress
-      → HS → GV: hierarchy suppress honest signal
-    → GDPT 2018 cải thiện chiều GV→HS (qualitative assessment)
-    → Nhưng chiều HS→GV (honest signal) vẫn bị văn hóa cản
+  THROUGH THE FRAMEWORK LENS: 🟡
+    → Mechanism v2.2 §2.7: "Arc too easy = boring / too hard = overwhelmed"
+    → Feedback loop = mechanism to DETECT + ADJUST continuously
+    → VN: feedback loop BLOCKED in BOTH DIRECTIONS:
+      → Teacher → student: correctness only, no progress tracking
+      → Student → teacher: hierarchy suppresses honest signal
+    → GDPT 2018 improving teacher→student direction (qualitative assessment)
+    → But student→teacher direction (honest signal) still blocked by culture
 ```
 
 ```
-NGUYÊN LÝ 7: CONSOLIDATION = PHẦN CỦA EDUCATION (Mechanism v2.2 §2.8)
-  "Ngủ + nghỉ + spacing có được tôn trọng?"
+PRINCIPLE 7: CONSOLIDATION = PART OF EDUCATION (Mechanism v2.2 §2.8)
+  "Is sleep + rest + spacing respected?"
 
-  ĐÁNH GIÁ: ✗ (THIÊN QUÁ TẢI — sleep deprived, no spacing)
+  ASSESSMENT: ✗ (SEVERELY OVERLOADED — sleep-deprived, no spacing)
 
-  HIỆN TRẠNG:
-    → 80% HS THPT ngủ <7h/ngày
-    → 90% quy thiếu ngủ = ôn thi
-    → 12-15 giờ học/ngày cho lớp 12 (trường + thêm + bài tập)
-    → Homework: HS lớp 2: 5-7 trang/ngày → 19h-22h chưa xong
-    → Cramming (nhồi nhét) = norm → spacing gần như KHÔNG CÓ
-    → "Khổ trước sướng sau" = cultural permission cho overwork
+  CURRENT STATE:
+    → 80% of upper secondary students sleep <7h/night
+    → 90% attribute sleep deficit to exam preparation
+    → 12-15 hours of study/day for Grade 12 (school + tutoring + homework)
+    → Homework: Grade 2 students: 5-7 pages/night → still unfinished at 10pm
+    → Cramming = norm → spacing nearly ABSENT
+    → "Suffer now, enjoy later" = cultural permission for overwork
 
   EVIDENCE:
-    🟢 80% THPT ngủ <7h (VnExpress)
-    🟢 Giờ học thêm ~6h/tuần = 3x quốc tế cho GDP VN (PISA 2012)
-    🟢 HS lớp 9 TP.HCM: học thêm MỖI TỐI trừ Chủ nhật → xong 23h
+    🟢 80% of upper secondary students sleep <7h (VnExpress)
+    🟢 Private tutoring hours ~6h/week = 3x international average for VN's GDP level
+       (PISA 2012)
+    🟢 Grade 9 students in HCMC: tutoring EVERY EVENING except Sunday → finish at 11pm
 
-  QUA FRAMEWORK LENS: 🟡
+  THROUGH THE FRAMEWORK LENS: 🟡
     → Mechanism v2.2 §2.8: "Sleep consolidation: learning HAPPENS during sleep"
-    → Homework NHIỀU → thiếu ngủ → consolidation BỊ CẮT
-    → = "Học mà không nhớ" → cần học THÊM → thiếu ngủ THÊM → vòng xoáy
-    → Spacing (5 lần × 5 ngày > 25 lần × 1 ngày) gần như KHÔNG ÁP DỤNG
+    → Too much homework → insufficient sleep → consolidation CUT
+    → = "Studying but not retaining" → need to study MORE → less sleep MORE → spiral
+    → Spacing (5 times × 5 days > 25 times × 1 day) = almost NEVER APPLIED
     → Dissonance-Signal-Architecture v1.0:
-      sleep deprivation = Direct-State Dissonance CHRONIC (hardware signal)
-      Direct-State = KHÔNG THỂ reframe — cần REST, không cần "cố gắng thêm"
-      VN: 80% ngủ <7h = Direct-State compound ngày qua ngày
-    → PFC Budget: 12-15h/day learning = PFC Budget CẠN KIỆT
-      cuối ngày PFC = 0 → consolidation + recovery BỊ CẮT đồng thời
+      sleep deprivation = CHRONIC Direct-State Dissonance (hardware signal)
+      Direct-State = CANNOT be reframed — needs REST, not "try harder"
+      VN: 80% sleeping <7h = Direct-State compounding day by day
+    → PFC Budget: 12-15h/day studying = PFC Budget EXHAUSTED
+      end of day PFC = 0 → consolidation + recovery CUT simultaneously
     → Cortisol-Baseline.md v2.1: sleep = cortisol repair time
-    → Ngủ <7h = cortisol recovery BỊ CẮT → tích lũy → chronic
+    → <7h sleep = cortisol recovery CUT → accumulates → chronic
 ```
 
 ```
-NGUYÊN LÝ 8: ASSESS DEPTH, NOT SURFACE (Mechanism v2.2 §2.9)
-  "Đánh giá chunk compilation depth hay chỉ correctness?"
+PRINCIPLE 8: ASSESS DEPTH, NOT SURFACE (Mechanism v2.2 §2.9)
+  "Does assessment measure chunk compilation depth or just correctness?"
 
-  ĐÁNH GIÁ: ✗ → △ (đang cải cách)
+  ASSESSMENT: ✗ → △ (reform in progress)
 
-  HIỆN TRẠNG:
+  CURRENT STATE:
     Surface assessment = DOMINANT
-    → Multiple choice phổ biến → đo stage ① RECOGNIZE
-    → "Thuộc bài" > "hiểu bài" → recall > explain
-    → Bằng cấp = proxy cho năng lực → system reward surface
+    → Multiple choice prevalent → measures Stage ① RECOGNIZE
+    → "Memorized lesson" > "understood lesson" → recall > explain
+    → Credentials = proxy for competency → system rewards surface
 
-  4 STAGES DEPTH (Mechanism v2.2 §2.9, mapped to chunk compilation):
-    ① RECOGNIZE → "nghe quen" (proto-chunk)       ← VN assess CHỦ YẾU ở đây
-    ② EXPLAIN → "nói lại được" (compiled)          ← ít
-    ③ APPLY → "dùng trong context mới" (compiled+linked) ← rất hiếm
-    ④ CREATE/TRANSFER → "kết hợp tạo mới" (meta-chunk) ← gần như không
+  4 STAGES OF DEPTH (Mechanism v2.2 §2.9, mapped to chunk compilation):
+    ① RECOGNIZE → "sounds familiar" (proto-chunk)       ← VN assesses MOSTLY here
+    ② EXPLAIN → "can re-state it" (compiled)            ← rarely
+    ③ APPLY → "can use in a new context" (compiled+linked) ← very rarely
+    ④ CREATE/TRANSFER → "combine to create new" (meta-chunk) ← almost never
 
-  CẢI CÁCH 2025:
-    → Process assessment: 30% → 50% (tăng weight quá trình)
-    → Tiểu học: đã chuyển sang đánh giá phát triển (qualitative)
-    → ĐH: tự chủ tuyển sinh → đa dạng hóa (phỏng vấn, portfolio, IELTS...)
+  REFORMS IN PROGRESS (2025):
+    → Process assessment: 30% → 50% (increased weight on process)
+    → Primary school: already transitioned to developmental assessment (qualitative)
+    → University: autonomous admissions → diversification (interviews, portfolios, IELTS...)
 
   EVIDENCE:
-    🟢 PISA 2022: 72% HS đạt Level 2+ Toán (basics OK)
-    🟢 NHƯNG: chỉ 5% Level 5-6 Toán, 1% Level 5+ Đọc hiểu
-    → = System TỐT ở stage ①, YẾU ở stage ③④
+    🟢 PISA 2022: 72% of students at Level 2+ in Math (basics OK)
+    🟢 BUT: only 5% at Level 5-6 Math, 1% at Level 5+ Reading
+    → = System STRONG at Stage ①, WEAK at Stages ③④
 
-  QUA FRAMEWORK LENS: 🟡
+  THROUGH THE FRAMEWORK LENS: 🟡
     → "Assessment drives learning" → assess surface → learn surface
     → Compiled Quality Dimension (Compiled-Fresh.md v2.0 §3):
       4 stages × 3 compile quality:
-      stage ① + schema-compiled = "thuộc bài" (neutral-tagged)
-      VN test system: optimize stage ① schema → miss genuine-compiled (approach)
+      Stage ① + schema-compiled = "memorized lesson" (neutral-tagged)
+      VN test system: optimizes Stage ① schema → misses genuine-compiled (approach)
     → Gap-Distribution-Profile v1.1:
       surface assessment for millions = gap HOMOGENIZATION
-      triệu người cùng gap profile → credential inflation
+      millions of students with identical gap profiles → credential inflation
       → Expansion-Saturation-Crisis v1.2 pattern at population scale
     → Reward-Signal-Architecture.md v2.1: Evaluative reward (opioid)
-      chỉ fire khi depth THẬT SỰ compile → multiple choice = không trigger
-    → = HS KHÔNG nhận reward signal cho deep learning
-    → CẢI CÁCH GDPT 2018 = hướng đúng, nhưng "process assessment"
-      vẫn có thể = "surface assessment nhiều lần" nếu chất lượng không đổi
+      only fires when depth TRULY compiles → multiple choice = doesn't trigger
+    → = Students DO NOT receive reward signal for deep learning
+    → GDPT 2018 reforms = right direction, but "process assessment"
+      can still = "surface assessment repeated more often" if quality unchanged
 ```
 
 ```
-TỔNG KẾT 8 NGUYÊN LÝ ARC DESIGN: 🟡
+SUMMARY — 8 ARC DESIGN PRINCIPLES: 🟡
 
   ┌────┬──────────────────────────────┬──────────┬────────────┐
-  │ #  │ Nguyên lý                    │ Đánh giá │ Xu hướng   │
+  │ #  │ Principle                    │ Status   │ Trend      │
   ├────┼──────────────────────────────┼──────────┼────────────┤
-  │ 1  │ Direction > Level            │ ✗        │ Chưa có ═  │
-  │ 2  │ Minimize cost per student    │ ✗        │ Rất chậm ↑ │
-  │ 3  │ Prerequisite check           │ △        │ Ổn định ═  │
-  │ 4  │ Mini-arcs + valley           │ ✗        │ Chưa có ═  │
-  │ 5  │ Imagine-Final before content │ ✗        │ Chưa có ═  │
-  │ 6  │ Feedback loop                │ ✗ → △    │ Cải cách ↑ │
-  │ 7  │ Consolidation                │ ✗        │ Chưa rõ ═  │
-  │ 8  │ Depth assessment             │ ✗ → △    │ Cải cách ↑ │
+  │ 1  │ Direction > Level            │ ✗        │ No reform ═│
+  │ 2  │ Minimize cost per student    │ ✗        │ Very slow ↑│
+  │ 3  │ Prerequisite check           │ △        │ Stable ═   │
+  │ 4  │ Mini-arcs + valley           │ ✗        │ No reform ═│
+  │ 5  │ Imagine-Final before content │ ✗        │ No reform ═│
+  │ 6  │ Feedback loop                │ ✗ → △    │ Improving ↑│
+  │ 7  │ Consolidation                │ ✗        │ Unclear ═  │
+  │ 8  │ Depth assessment             │ ✗ → △    │ Improving ↑│
   └────┴──────────────────────────────┴──────────┴────────────┘
 
-  → 6/8 nguyên lý: ✗ (violate)
-  → 2/8: đang chuyển đổi (feedback + depth — GDPT 2018)
-  → Nguyên lý 1 (Direction > Level) = QUAN TRỌNG NHẤT + CHƯA CÓ cải cách
+  → 6/8 principles: ✗ (violate)
+  → 2/8: transitioning (feedback + depth — GDPT 2018)
+  → Principle 1 (Direction > Level) = MOST IMPORTANT + NO reform yet
 ```
 
 ### §1.2 — BRIDGE + MOTIVATION
 
 ```
-4 NGUỒN FILL (Mechanism v2.2 §3.1, Anchor-Schema.md §3)
-  "Anchor học tập được fill từ nguồn nào?"
+4 FILL SOURCES (Mechanism v2.2 §3.1, Anchor-Schema.md §3)
+  "From which sources is the learning anchor filled?"
 
-  ĐÁNH GIÁ: ✗ (nguồn ④ External Inject dominant 12+ năm)
+  ASSESSMENT: ✗ (Source ④ External Inject dominant for 12+ years)
 
-  4 NGUỒN VÀ STATUS TẠI VN:
+  4 SOURCES AND THEIR STATUS IN VN:
 
-    ① PFC Imagine-Final (self-directed): YẾU
-       → HS KHÔNG tự xây Imagine-Final → gia đình + xã hội inject
-       → "Tại sao học?" → "Vì bố mẹ nói" (nguồn ④, không phải ①)
+    ① PFC Imagine-Final (self-directed): WEAK
+       → Students do NOT self-build their Imagine-Final → family + society inject
+       → "Why study?" → "Because my parents said so" (Source ④, not ①)
 
-    ② Hippocampus Experience: YẾU
-       → Ít trải nghiệm hands-on (lecture-dominant)
-       → Ít "tôi ĐÃ LÀM, tôi biết feel thế nào"
-       → Trải nghiệm = "thi rồi, biết sợ" → avoidance memory
+    ② Hippocampus Experience: WEAK
+       → Little hands-on experience (lecture-dominant)
+       → Little "I DID IT, I know how it feels"
+       → Experiences = "I've been tested, I know what fear feels like" → avoidance memory
 
-    ③ Compiled Routines: VỪA
-       → "Học bài → làm bài tập" = compiled routine
-       → Nhưng: routine = TASK (làm gì), không = MOTIVATION (tại sao)
+    ③ Compiled Routines: MODERATE
+       → "Study lesson → do exercises" = compiled routine
+       → But: routine = TASK (what to do), not MOTIVATION (why to do it)
 
     ④ External Inject (bridges): DOMINANT
-       → Điểm số: 12 năm liên tục
-       → Xếp hạng: trong lớp, trường, tỉnh, quốc gia
-       → Gia đình: "bố mẹ vất vả vì con" = guilt bridge
-       → Khen/phạt: labels "giỏi/kém" suốt 12 năm
-       → Học thêm: +6h/tuần bridge NGOÀI trường
+       → Grades: 12 continuous years
+       → Rankings: within class, school, province, country
+       → Family: "we sacrifice for you" = guilt bridge
+       → Praise/punishment: "high-achieving/low-achieving" labels all 12 years
+       → Private tutoring: +6h/week bridge OUTSIDE school
 
-  QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.2 §3.4: Healthy trajectory = ④ giảm dần, ①②③ take over
-    → VN: ④ TĂNG DẦN (lớp 1 → 12: bridge ESCALATING)
-    → = NGƯỢC hoàn toàn healthy trajectory
+  THROUGH THE FRAMEWORK LENS: 🟡
+    → Mechanism v2.2 §3.4: Healthy trajectory = ④ gradually reduces,
+      ①②③ take over
+    → VN: ④ GRADUALLY INCREASES (Grade 1 → 12: bridge ESCALATING)
+    → = COMPLETELY OPPOSITE of healthy trajectory
     → Hardware-Subsidy (Entity-Valence-Dynamics.md v1.0 §5):
-      parent = MAX subsidy potential — nhưng "bố mẹ vất vả vì con"
+      parent = MAX subsidy potential — but "we sacrifice for you"
       = guilt-trip = subsidy channel CORRUPTED
-      subsidy đi kèm threat → approach-tag bị ghi đè avoidance-tag
+      subsidy delivered with threat → approach-tag overwritten by avoidance-tag
       = Money-Education v1.1 §6.1 pattern: guilt corrupts subsidy
-    → Khi ra đời 18+ → nguồn ④ rút đột ngột → anchor crash
+    → When they enter adult life at 18+ → Source ④ suddenly withdraws → anchor crash
     → = Quarter-life crisis mechanism (Mechanism v2.2 §3.4)
-    → 60% trái ngành = evidence cho anchor crash + motivation collapse
+    → 60% working outside field = evidence for anchor crash + motivation collapse
 
 
 3 ORIGIN THREAT TAXONOMY (Mechanism v2.2 §3.3)
-  "Pressure từ đâu? Domain, Peer, hay Imposed?"
+  "Where does pressure come from? Domain, Peer, or Imposed?"
 
-  ĐÁNH GIÁ: ✗ (Imposed dominant, Domain + Peer suppressed)
+  ASSESSMENT: ✗ (Imposed dominant, Domain + Peer suppressed)
 
-  3 LOẠI THREAT VÀ STATUS TẠI VN:
+  3 THREAT TYPES AND THEIR STATUS IN VN:
 
-    TYPE 1 — DOMAIN (từ reality): BỊ GIẢM
-       → Bài toán khó, thí nghiệm fail = ít (lecture-dominant → ít hands-on)
-       → Play + exploration bị cắt → ít domain challenge tự nhiên
-       → Education action: cần TĂNG domain exposure
+    TYPE 1 — DOMAIN (from reality): SUPPRESSED
+       → Hard problems, failed experiments = rare (lecture-dominant → little hands-on)
+       → Play + exploration cut → few natural domain challenges
+       → Education response: needs to INCREASE domain exposure
 
-    TYPE 2 — PEER (từ bạn bè): BỊ KIỂM SOÁT QUÁ MỨC
-       → Face-saving → HS không dám tranh luận
+    TYPE 2 — PEER (from peers): OVER-CONTROLLED
+       → Face-saving → students don't dare debate
        → Collectivism → harmony > honest conflict
-       → Bullying: 73.9% (Đà Nẵng THCS) → peer NEGATIVE có, peer GROWTH ít
-       → Education action: cần cho phép healthy peer conflict
+       → Bullying: 73.9% (Da Nang middle schools) → negative peer presence, little
+         growth-promoting peer challenge
+       → Education response: needs to allow healthy peer conflict
 
-    TYPE 3 — IMPOSED (từ authority): DOMINANT
-       → GV mắng, phạt điểm, đọc điểm kém công khai
-       → PH dọa, so sánh, guilt: "bố mẹ vất vả"
-       → Thi cử áp lực: 1 kỳ thi quyết định tương lai
-       → Xếp hạng toàn trường → shame risk
-       → = Imposed threat = nguồn cortisol LỚN NHẤT
+    TYPE 3 — IMPOSED (from authority): DOMINANT
+       → Teachers scolding, penalizing grades, reading low scores aloud publicly
+       → Parents threatening, comparing, guilt-tripping: "we work so hard for you"
+       → High-stakes exams: 1 test determines future
+       → School-wide rankings → public shame risk
+       → = Imposed threat = LARGEST source of cortisol
 
-  QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.2 §3.3: "Cùng cortisol level, khác ORIGIN → khác hoàn toàn"
+  THROUGH THE FRAMEWORK LENS: 🟡
+    → Mechanism v2.2 §3.3: "Same cortisol level, different ORIGIN → completely different"
     → Domain moderate → resilience + competence
-    → Peer moderate → social skill + emotional intelligence
+    → Peer moderate → social skills + emotional intelligence
     → Imposed moderate → anxiety + learned helplessness
-    → VN: shield HS khỏi Domain + Peer (helicopter pattern)
-          → TĂNG Imposed (ép học, điểm, so sánh)
+    → VN: shields students from Domain + Peer (helicopter pattern)
+          → INCREASES Imposed (forced study, grades, comparisons)
     → Dissonance-Signal-Architecture v1.0 reframe:
-      Imposed threat = Evaluative Dissonance (compiled: "thi trượt = shame")
-      + Direct-State Dissonance (hardware: sleep deprivation, cortisol chronic)
-      = COMPOUND — teacher/parent cần distinguish 2 loại
-      → address Direct-State TRƯỚC (ngủ, nghỉ) → rồi mới reframe Evaluative
-    → = NGƯỢC hoàn toàn healthy pattern
-    → = Nghịch lý hiện đại (Mechanism v2.2 §3.3): ít domain challenge + nhiều imposed threat
+      Imposed threat = Evaluative Dissonance (compiled: "failing exam = shame")
+      + Direct-State Dissonance (hardware: sleep deprivation, chronic cortisol)
+      = COMPOUND — teacher/parent needs to distinguish these 2 types
+      → address Direct-State FIRST (sleep, rest) → then reframe Evaluative (change meaning)
+    → = COMPLETELY OPPOSITE of healthy pattern
+    → = Modern Paradox (Mechanism v2.2 §3.3): less domain challenge + more imposed threat
 
 
-BRIDGE RÚT DẦN? (Mechanism v2.2 §3.1-§3.4)
-  "Bridge có phase out hay permanent?"
+BRIDGE PHASE-OUT? (Mechanism v2.2 §3.1-§3.4)
+  "Is the bridge fading out, or is it permanent?"
 
-  ĐÁNH GIÁ: ✗ (permanent + ESCALATING)
+  ASSESSMENT: ✗ (permanent + ESCALATING)
 
-  HIỆN TRẠNG:
-    → Điểm số: từ lớp 1 đến lớp 12, suốt 12 năm
-    → Lớp 1-5: áp lực vừa → Lớp 6-9: tăng → Lớp 10-12: CỰC ĐẠI
-    → Học thêm: 70-92% HS tham gia → bridge THÊM ngoài trường
-    → "Học sinh giỏi/tiên tiến" = labels suốt 12 năm
-    → Gia đình: guilt bridge KHÔNG rút → thậm chí TĂNG theo stakes
+  CURRENT STATE:
+    → Grades: from Grade 1 through Grade 12, all 12 years
+    → Grades 1-5: moderate pressure → Grades 6-9: increasing → Grades 10-12: PEAK
+    → Private tutoring: 70-92% of students participate → bridge ADDITIONAL to school
+    → "High-achieving/honor student" = labels throughout 12 years
+    → Family: guilt bridge does NOT withdraw → actually INCREASES with the stakes
 
-  CẢI CÁCH GDPT 2018:
-    → Tiểu học: Thông tư 30/2014 + 22/2016 → qualitative assessment
-    → Process assessment tăng 30% → 50%
-    → Hướng ĐÚNG: giảm weight kỳ thi cuối
+  GDPT 2018 REFORMS:
+    → Primary school: Circular 30/2014 + 22/2016 → qualitative assessment
+    → Process assessment weight: 30% → 50%
+    → RIGHT DIRECTION: reducing weight of end-of-year exams
 
-  QUA FRAMEWORK LENS: 🟡
-    → Bridge lý tưởng: NHỎ NHẤT có thể → đợi ①②③ take over → phase out
-    → VN: bridge = "thuốc quá liều" (Mechanism v2.2 §3.1)
-      → Kill intrinsic, tạo dependency
-    → Bridge NGOÀI hệ thống (học thêm, gia đình) = KHÔNG ai quản lý
-    → = Cả 2 lý do bridge fail: quá nhiều (overdose) + không rút (chronic)
+  THROUGH THE FRAMEWORK LENS: 🟡
+    → Ideal bridge: SMALLEST possible → wait for ①②③ to take over → phase out
+    → VN: bridge = "overdosed medication" (Mechanism v2.2 §3.1)
+      → Kills intrinsic motivation, creates dependency
+    → Bridges OUTSIDE the system (private tutoring, family) = NO ONE manages them
+    → = Both reasons bridges fail: too much (overdose) + never withdrawn (chronic)
 ```
 
 ### §1.3 — SYSTEM-LEVEL
 
 ```
 FOUNDATION BREADTH (Mechanism v2.2 §1.2 + Domain-Knowledge-Map v2.1 §1)
-  "Foundation cover mấy domain trong 6 Foundation Domains?"
+  "How many of the 6 Foundation Domains does the Foundation cover?"
 
-  ĐÁNH GIÁ: ○ / △ (MẠNH 2/6, YẾU 4/6)
+  ASSESSMENT: ○ / △ (STRONG in 2/6, WEAK in 4/6)
 
   6 FOUNDATION DOMAINS (Domain-Knowledge-Map.md v2.1 §1):
-    ① Cognitive (tư duy, logic)                  → VN: ○ MẠNH
-    ② Linguistic (ngôn ngữ, đọc viết)            → VN: ○ MẠNH
-    ③ Social-Emotional (cảm xúc, quan hệ)        → VN: ✗ YẾU
-    ④ Physical-Somatic (vận động, cơ thể)        → VN: △ VỪA
-    ⑤ Creative-Aesthetic (sáng tạo, thẩm mỹ)    → VN: ✗ YẾU
-    ⑥ Meta-Cognitive (học cách học)               → VN: ✗ YẾU
+    ① Cognitive (thinking, logic)                    → VN: ○ STRONG
+    ② Linguistic (language, literacy)                → VN: ○ STRONG
+    ③ Social-Emotional (emotions, relationships)     → VN: ✗ WEAK
+    ④ Physical-Somatic (movement, body)              → VN: △ MODERATE
+    ⑤ Creative-Aesthetic (creativity, aesthetics)   → VN: ✗ WEAK
+    ⑥ Meta-Cognitive (learning how to learn)         → VN: ✗ WEAK
 
-  → Foundation = STRENGTH LỚN NHẤT — nhưng LỆCH
-  → Literacy 96.1%, PISA basics > OECD → cognitive + linguistic = EXCELLENT
-  → Emotional regulation, creative thinking, meta-learning = gần không dạy
+  → Foundation = BIGGEST STRENGTH — but lopsided
+  → Literacy 96.1%, PISA basics above OECD → cognitive + linguistic = EXCELLENT
+  → Emotional regulation, creative thinking, meta-learning = barely taught
 
-  QUA FRAMEWORK LENS: 🟡
-    → "Foundation" trong Mechanism v2.2 = RỘNG hơn "foundation" truyền thống
-    → VN mạnh foundation TRÍ TUỆ, nhưng foundation CẢM XÚC + META = yếu
+  THROUGH THE FRAMEWORK LENS: 🟡
+    → "Foundation" in Mechanism v2.2 = BROADER than "traditional foundation"
+    → VN strong in INTELLECTUAL foundation, but EMOTIONAL + META foundation = weak
     → ③ Social-Emotional = Connection-Education v1.1 scope
-      (5 khía cạnh: hiểu + xây bond + chọn + duy trì + navigate groups)
-      VN "giáo dục đạo đức" ≠ Connection-Education (1 chiều ≠ 5 khía cạnh)
-    → GDPT 2018: "tự chủ + tự học" (meta-cognitive) → HƯỚNG ĐÚNG
-    → Nhưng: chưa có method rõ ràng để dạy meta-cognitive explicitly
+      (5 dimensions: understand + build bond + choose + maintain + navigate groups)
+      VN "moral education" ≠ Connection-Education (one-directional ≠ 5 dimensions)
+    → GDPT 2018: "self-governance + self-learning" (meta-cognitive) → RIGHT DIRECTION
+    → But: no clear method yet to explicitly teach meta-cognitive skills
 
 
 PER-HARDWARE CALIBRATION (Mechanism v2.2 §2.3 + Hardware-Calibration.md v1.2)
-  "Có adjust per individual hay one-size-fits-all?"
+  "Is there adjustment per individual, or one-size-fits-all?"
 
-  ĐÁNH GIÁ: ✗ (điểm YẾU rõ nhất)
+  ASSESSMENT: ✗ (clearest WEAKNESS)
 
-  HIỆN TRẠNG:
-    → 1 chương trình, 1 tốc độ, 1 phương pháp cho tất cả
-    → Phân loại theo TUỔI, không theo hardware
-    → Lớp 40-69 HS → GV KHÔNG THỂ observe per-individual
-    → Không có calibration training cho GV
-    → Ethnic minority: 2x dropout, 5x late enrollment
+  CURRENT STATE:
+    → 1 curriculum, 1 pace, 1 method for everyone
+    → Progression by AGE, not by hardware
+    → Classes of 40-69 students → teachers CANNOT observe per-individual
+    → No calibration training for teachers
+    → Ethnic minorities: 2x dropout, 5x late enrollment
 
-  QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.2 §2.3: cùng content + khác hardware → khác cost
-    → Hardware-Calibration.md v1.2: 6 dimensions observable per-individual
-    → Entity-Compiled v1.0: GV = compiled entity (40→200h formation)
-      VN 50 HS/lớp → entity formation time CHIA cho 50
-      = teacher-as-compiled-entity = YẾU per-individual
-    → Entity-Access v1.2: VN teacher = Mức 2-3 (formal authority)
-      ít Mức 4 (mentoring — per-individual calibration)
-    → VN: GV không được training nhận diện 6 dimensions
-    → AI CÓ THỂ giúp (per-individual tracking) nhưng:
-      → 71% GV thiếu cơ sở hạ tầng số (TALIS 2024)
-      → Digital divide: richest 95% internet vs poorest 18%
-    → = NL mấu chốt cho True-Fit, hiện gần như KHÔNG CÓ
+  THROUGH THE FRAMEWORK LENS: 🟡
+    → Mechanism v2.2 §2.3: same content + different hardware → different cost
+    → Hardware-Calibration.md v1.2: 6 observable dimensions per individual
+    → Entity-Compiled v1.0: teacher = compiled entity (40→200h formation)
+      VN 50 students/class → entity formation time DIVIDED by 50
+      = teacher-as-compiled-entity = WEAK per-individual
+    → Entity-Access v1.2: VN teachers = Level 2-3 (formal authority)
+      little Level 4 (mentoring — per-individual calibration)
+    → VN: teachers not trained to identify the 6 hardware dimensions
+    → AI COULD help (per-individual tracking) but:
+      → 71% of teachers lack digital infrastructure (TALIS 2024)
+      → Digital divide: richest 95% internet access vs poorest 18%
+    → = The most critical principle for True-Fit, currently near ABSENT
 
 
-CÁ NHÂN × XÃ HỘI TENSION (Mechanism v2.2 §1.3)
-  "Balance individual-society hay nghiêng 1 bên?"
+INDIVIDUAL × SOCIETY TENSION (Mechanism v2.2 §1.3)
+  "Balanced between individual and society, or tilted one way?"
 
-  ĐÁNH GIÁ: ✗ (nghiêng XÃ HỘI)
+  ASSESSMENT: ✗ (tilted toward SOCIETY)
 
-  HIỆN TRẠNG:
-    → "Nghề hot" > "con muốn gì"
-    → 5 phẩm chất GDPT 2018 mở đầu = "yêu nước" (xã hội → cá nhân)
-    → Gia đình quyết định hướng đi nhiều hơn bản thân HS
-    → 60% SV trái ngành = chọn theo xã hội, không theo hardware
+  CURRENT STATE:
+    → "Hot careers" > "what the student wants"
+    → GDPT 2018's 5 qualities lead with "patriotism" (society → individual ordering)
+    → Family decides direction more than the student themselves
+    → 60% of graduates working outside field = chosen for society, not for hardware
 
-  QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.2 §1.3: tension = CẤU TRÚC, không giải được, chỉ BALANCE
-    → VN: society CẦN >>> individual MUỐN
-    → Forced-Fit rate cao → lãng phí talent + burnout + mental health
-    → Mechanism v2.2 §1.3 nhận diện 3 era patterns:
-      → Pre-industrial: per-individual nhưng hạn chế access
-      → Industrial: scalable nhưng one-size (← VN đang ở đây)
-      → AI era: potential per-individual AT SCALE (← VN chưa tới)
+  THROUGH THE FRAMEWORK LENS: 🟡
+    → Mechanism v2.2 §1.3: tension = STRUCTURAL, cannot be solved, only BALANCED
+    → VN: society NEEDS >>> individual WANTS
+    → High Forced-Fit rate → talent waste + burnout + mental health crisis
+    → Mechanism v2.2 §1.3 identifies 3 era patterns:
+      → Pre-industrial: per-individual but limited access
+      → Industrial: scalable but one-size (← where VN is now)
+      → AI era: potential per-individual AT SCALE (← VN not yet there)
 
 
 EDUCATION = ECOSYSTEM (Mechanism v2.2 §1.4 + §4)
-  "Learning xảy ra ở đâu — chỉ school hay 4 kênh?"
+  "Does learning happen only at school, or across 4 channels?"
 
-  ĐÁNH GIÁ: ✗ → △
+  ASSESSMENT: ✗ → △
 
-  HIỆN TRẠNG:
-    → "Con đi học" = "con đi trường" = ĐỒNG NHẤT
-    → Learning ngoài trường: 92% HS học thêm → nhưng = MORE OF SAME
-    → Học thêm ≠ "mở rộng learning context" — = "thêm school-style learning"
-    → EdTech: 100+ startups, AI market $24M → growing nhưng chủ yếu
-      = digitize school format, không reimagine learning
+  CURRENT STATE:
+    → "Child goes to school" = "child is learning" = EQUATED
+    → Learning outside school: 92% of students do private tutoring → but = MORE OF SAME
+    → Private tutoring ≠ "expanding learning context" — = "more school-style learning"
+    → EdTech: 100+ startups, AI market $24M → growing but mostly
+      = digitizing the school format, not reimagining learning
 
-  QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.2 §1.4: "Não KHÔNG biết đang ở trường — chỉ biết
-      có compile chunks không"
-    → Education = 4 kênh (Education-System.md v3.2 §9):
+  THROUGH THE FRAMEWORK LENS: 🟡
+    → Mechanism v2.2 §1.4: "The brain DOESN'T KNOW it's at school — only knows
+      whether chunks are compiling"
+    → Education = 4 channels (Education-System.md v3.2 §9):
       School + Family + Self-directed + AI
-    → VN: school + tutoring (= more school) = 90%+ learning time
-    → Self-directed learning = rất ít (HS KHÔNG CÓ TIME)
-    → AI: 64% GV đã dùng → ahead of OECD → potential cao
-    → = System concentrate learning vào 1 FORMAT (school)
+    → VN: school + tutoring (= more school) = 90%+ of learning time
+    → Self-directed learning = very little (students have NO TIME)
+    → AI: 64% of teachers already using it → ahead of OECD → high potential
+    → = System concentrates learning into 1 FORMAT (school)
 
 
 ADAPTABILITY (Domain-Knowledge-Map v2.1 §2 + Era-Analysis v2.2)
-  "Build adaptability hay chỉ specific knowledge?"
+  "Building adaptability or only specific knowledge?"
 
-  ĐÁNH GIÁ: ✗ → △ (đang chuyển đổi)
+  ASSESSMENT: ✗ → △ (transitioning)
 
-  HIỆN TRẠNG:
-    → "Thuộc bài" = measure thành công
-    → Rote memorization embedded trong culture
-    → "Biết nhiều" > "biết học" → knowledge > meta-learning
-    → Era-Analysis v2.2 §5: "biết HỎI" > "biết" trong AI era
+  CURRENT STATE:
+    → "Memorized the lesson" = measure of success
+    → Rote memorization embedded in culture
+    → "Knows a lot" > "knows how to learn" → knowledge > meta-learning
+    → Era-Analysis v2.2 §5: "knowing HOW TO ASK" > "knowing" in the AI era
 
   GDPT 2018:
-    → "Tự chủ + tự học" + "giải quyết vấn đề" = năng lực chung
-    → Hướng adaptability → nhưng implementation mới 5 năm
+    → "Self-governance + self-learning" + "problem-solving" = general competencies
+    → Targeting adaptability → but implementation only 5 years in
 
   EVIDENCE:
-    🟢 1% Level 5+ Đọc hiểu (OECD: 7%) → depth thinking rất ít
-    🟢 60% SV trái ngành → knowledge specific → không transfer
-    🟢 41% nhà tuyển dụng không tuyển đủ ứng viên đạt yêu cầu
+    🟢 1% at Level 5+ Reading (OECD: 7%) → very little deep thinking
+    🟢 60% of graduates work outside field → specific knowledge → doesn't transfer
+    🟢 41% of employers cannot find qualified candidates
 
-  QUA FRAMEWORK LENS: 🟡
+  THROUGH THE FRAMEWORK LENS: 🟡
     → Domain-Knowledge-Map v2.1 §2: 6 Era-Specific domains (AI Literacy, Data Thinking, etc.)
-    → VN: vẫn optimize cho knowledge retention → sai hướng cho AI era
-    → "Meta-learning" gần như KHÔNG ĐƯỢC DẠY explicitly
-    → GDPT 2018 = mục tiêu đúng, phương pháp chưa đủ
+    → VN: still optimizing for knowledge retention → wrong direction for the AI era
+    → "Meta-learning" = almost NEVER TAUGHT explicitly
+    → GDPT 2018 = right goal, methods still insufficient
 ```
 
 ```
-TỔNG KẾT TOÀN BỘ §1 — BẢNG ĐÁNH GIÁ: 🟡
+FULL §1 SUMMARY — ASSESSMENT TABLE: 🟡
 
   ┌──────────────────────────────────────┬──────────┬────────────┐
-  │ Đánh giá                             │ Status   │ Xu hướng   │
+  │ Assessment                           │ Status   │ Trend      │
   ├──────────────────────────────────────┼──────────┼────────────┤
-  │ ARC DESIGN (Mechanism v2.2 §2):           │          │            │
+  │ ARC DESIGN (Mechanism v2.2 §2):      │          │            │
   │  ① Direction > Level                │ ✗        │ ═          │
-  │  ② Minimize cost per student         │ ✗        │ ↑ chậm     │
+  │  ② Minimize cost per student         │ ✗        │ ↑ slow     │
   │  ③ Prerequisite check               │ △        │ ═          │
   │  ④ Mini-arcs + valley               │ ✗        │ ═          │
   │  ⑤ Imagine-Final before content     │ ✗        │ ═          │
@@ -810,15 +822,15 @@ TỔNG KẾT TOÀN BỘ §1 — BẢNG ĐÁNH GIÁ: 🟡
   │  ⑦ Consolidation                    │ ✗        │ ═          │
   │  ⑧ Depth assessment                 │ ✗ → △    │ ↑          │
   ├──────────────────────────────────────┼──────────┼────────────┤
-  │ BRIDGE + MOTIVATION (Mechanism v2.2 §3):  │          │            │
-  │  4 nguồn fill: ④ dominant           │ ✗        │ ═          │
+  │ BRIDGE + MOTIVATION (Mechanism v2.2 §3):        │            │
+  │  4 fill sources: ④ dominant         │ ✗        │ ═          │
   │  3 ORIGIN: Imposed dominant          │ ✗        │ ═          │
-  │  Bridge phase-out                    │ ✗        │ ↑ nhẹ      │
+  │  Bridge phase-out                    │ ✗        │ ↑ slight   │
   ├──────────────────────────────────────┼──────────┼────────────┤
-  │ SYSTEM-LEVEL (Mechanism v2.2 §1+§4+Domain-Knowledge-Map): │          │            │
+  │ SYSTEM-LEVEL (Mechanism v2.2 §1+§4+Domain-Knowledge-Map): │  │
   │  Foundation breadth                  │ ○ / △    │ ═          │
-  │  Per-hardware calibration            │ ✗        │ ↑ chậm     │
-  │  Individual × Society               │ ✗        │ ↑ chậm     │
+  │  Per-hardware calibration            │ ✗        │ ↑ slow     │
+  │  Individual × Society                │ ✗        │ ↑ slow     │
   │  Education ecosystem                 │ ✗ → △    │ ↑          │
   │  Adaptability                        │ ✗ → △    │ ↑          │
   └──────────────────────────────────────┴──────────┴────────────┘
@@ -826,485 +838,498 @@ TỔNG KẾT TOÀN BỘ §1 — BẢNG ĐÁNH GIÁ: 🟡
 
 PATTERN: 🟡
 
-  → MẠNH: Foundation breadth ở cognitive + linguistic
-  → ĐANG CẢI CÁCH: Feedback, Depth assessment, Ecosystem, Adaptability
-    (GDPT 2018 targeting ĐÚNG)
-  → CHƯA CÓ CHUYỂN BIẾN: Direction > Level, Imagine-Final,
-    Mini-arcs, Consolidation, 3 ORIGIN, 4 nguồn fill
-    → = Các khái niệm v7.8 MỚI — chưa có trong discourse GD VN
-  → CẦN STRUCTURAL CHANGE: Per-hardware calibration, I×S balance
+  → STRONG: Foundation breadth in cognitive + linguistic domains
+  → CURRENTLY REFORMING: Feedback, Depth assessment, Ecosystem, Adaptability
+    (GDPT 2018 targeting CORRECTLY)
+  → NO MOVEMENT YET: Direction > Level, Imagine-Final,
+    Mini-arcs, Consolidation, 3 ORIGIN, 4 fill sources
+    → = New v7.8 concepts — not yet in VN education discourse
+  → REQUIRES STRUCTURAL CHANGE: Per-hardware calibration, I×S balance
     → = Budget + class size + cultural shift
 
-  GDPT 2018 đang TARGET ĐÚNG nhiều vấn đề (feedback, depth, adaptability,
-  ecosystem). Nhưng: Mechanism lens THÊM nhiều dimensions mà GDPT 2018
-  CHƯA COVER: direction > level, 3 ORIGIN threat, 4 nguồn fill, mini-arcs.
-  = Bổ sung, không mâu thuẫn.
+  GDPT 2018 is CORRECTLY TARGETING many issues (feedback, depth, adaptability,
+  ecosystem). But: the Mechanism lens ADDS many dimensions GDPT 2018 has
+  NOT YET COVERED: direction > level, 3 ORIGIN threat, 4 fill sources, mini-arcs.
+  = Supplementary, not contradictory.
 ```
 
 ---
 
-## 2. ĐIỂM MẠNH ĐANG CÓ
+## 2. CURRENT STRENGTHS
 
 ```
-MỤC ĐÍCH:
-  → Từ §0 (data) + §1 (Mechanism analysis) → VN ĐANG LÀM TỐT gì?
-  → Strengths = NỀN TẢNG để build on, không phải "ok rồi bỏ qua"
-  → 🟡 Analysis tổng hợp từ data + framework lens
+PURPOSE:
+  → From §0 (data) + §1 (Mechanism analysis) → what is VN DOING WELL?
+  → Strengths = FOUNDATION to build on, not "good enough to ignore"
+  → 🟡 Synthesis analysis from data + framework lens
 ```
 
 ```
 STRENGTH 1: FOUNDATION LITERACY + NUMERACY
 
-  VN = VƯỢT TRỘI so với GDP level ở foundation basics
+  VN = OUTPERFORMS its GDP level on foundation basics
 
-  → Literacy 96.1% người lớn, 99% thanh niên = top khu vực
-  → Primary enrollment ~99.4% = gần toàn dân
-  → PISA 2012-2018: consistently outperform OECD average ở basics
-  → PISA 2022: vẫn xếp thứ 2 Đông Nam Á (sau Singapore)
-  → Khoảng cách VN-Malaysia/Thailand/Indonesia = RẤT LỚN
+  → Adult literacy 96.1%, youth 99% = top of region
+  → Primary enrollment ~99.4% = near-universal
+  → PISA 2012-2018: consistently outperforms OECD average on basics
+  → PISA 2022: still ranks 2nd in Southeast Asia (after Singapore)
+  → Gap between VN and Malaysia/Thailand/Indonesia = VERY LARGE
 
-  TẠI SAO STRENGTH:
-    → Foundation = BASE → mọi thứ khác build on top
+  WHY THIS IS A STRENGTH:
+    → Foundation = BASE → everything else builds on top
     → 2/6 Foundation Domains (Domain-Knowledge-Map v2.1 §1) = EXCELLENT
-    → VN "efficient spender" (World Bank) — ít tiền, kết quả foundation tốt
-    → Cultural factor: "đọc thông viết thạo" = value sâu
+    → VN "efficient spender" (World Bank) — limited funds, good foundation outcomes
+    → Cultural factor: "able to read and write" = deep cultural value
 
   RISK:
-    → Budget giảm 5.7% → 2.89% GDP → foundation có thể suy giảm
-    → Teacher shortage 102K+ → ảnh hưởng quality
-    → PISA 2022 giảm = tín hiệu cảnh báo sớm?
+    → Budget declining 5.7% → 2.89% GDP → foundation may erode
+    → 102K+ teacher shortage → quality impact
+    → PISA 2022 decline = early warning signal?
 
 
-STRENGTH 2: GIÁO VIÊN — TÔN TRỌNG XÃ HỘI + HÀI LÒNG NGHỀ (TALIS 2024)
+STRENGTH 2: TEACHERS — SOCIETAL RESPECT + JOB SATISFACTION (TALIS 2024)
 
-  Data TALIS 2024 = ĐIỂM SÁNG NHẤT, độc đáo toàn cầu
+  TALIS 2024 data = BRIGHTEST SPOT, unique globally
 
-  → 92% xã hội tôn trọng (OECD: 22% = 4x ít hơn!)
-  → 97% hài lòng nghề nghiệp (OECD: 89%)
-  → 91% chọn GV là nghề đầu tiên (OECD: 58%)
-  → <6% dự định rời nghề, stress chỉ 4% (OECD: 19%)
-  → 64% đã dùng AI = ahead of OECD
+  → 92% societal respect (OECD: 22% = 4x lower!)
+  → 97% job satisfaction (OECD: 89%)
+  → 91% teaching was first career choice (OECD: 58%)
+  → <6% intend to leave, only 4% stressed (OECD: 19%)
+  → 64% already using AI = ahead of OECD
 
-  TẠI SAO STRENGTH:
-    → GV = vai trò quan trọng nhất trong hệ thống
+  WHY THIS IS A STRENGTH:
+    → Teachers = most important role in the system
       (Education-System.md v3.2 §7 — Teacher as Calibrator)
     → Hardware-Subsidy (Entity-Valence-Dynamics.md v1.0 §5):
-      92% xã hội tôn trọng = cultural Hardware-Subsidy AMPLIFIER
-      "Tôn sư trọng đạo" = văn hóa tạo nền cho teacher subsidy quality
-    → Entity-Compiled v1.0: 97% hài lòng = compiled entity STABLE
-      = platform cho quality upgrade (retrain, không cần rebuild trust)
-    → VN: GV SẴN SÀNG → platform cho training upgrade
-    → Trust ĐÃ CÓ → chỉ cần add skills, không cần build trust
-    → Trust.md v1.0 LENS — 92% = trust LOẠI NÀO? 3 sub-dimensions: 🟡
-      → trust-authority: HIGH (structural — "tôn sư trọng đạo" = Trust §7 ⑥ collective install)
-      → trust-competence: VARIABLE (97% hài lòng = nội bộ, nhưng method mới = chưa proven)
-      → trust-intention: STRONG baseline (91% chọn nghề đầu tiên = genuine, không chỉ job)
+      92% societal respect = cultural Hardware-Subsidy AMPLIFIER
+      "Honor the teacher, respect the teaching" = culture creating foundation
+      for teacher subsidy quality
+    → Entity-Compiled v1.0: 97% satisfaction = compiled entity STABLE
+      = platform for quality upgrade (retrain, no need to rebuild trust)
+    → VN: teachers READY → platform for training upgrade
+    → Trust ALREADY EXISTS → only need to add skills, not build trust
+
+    Trust.md v1.0 LENS — what TYPE of trust is that 92%? 3 sub-dimensions: 🟡
+      → Trust-Authority: HIGH (structural — "honor the teacher" = Trust §7 ⑥
+        collective install)
+      → Trust-Competence: VARIABLE (97% satisfaction = internal, but new methods
+        = not yet proven)
+      → Trust-Intention: STRONG baseline (91% chose teaching first = genuine,
+        not just a job)
       → Profile: authority HIGH + intention STRONG + competence UPGRADING
-        = Trust INFRASTRUCTURE hiếm toàn cầu (OECD 22% → VN 92% = 4x advantage)
-      → Trust §4 asymmetry: 92% = build qua GENERATIONS → asset CẦN PROTECT
-        (trust collapse NHANH — 1 scandal/policy sai → thập kỷ rebuild)
-      → = Platform cho Default → Calibrated transition (Trust §5)
+        = Trust INFRASTRUCTURE that is rare globally (OECD 22% → VN 92% = 4x advantage)
+      → Trust §4 asymmetry: 92% = built over GENERATIONS → asset NEEDS PROTECTING
+        (trust collapses FAST — 1 scandal/wrong policy → decades to rebuild)
+      → = Platform for Default → Calibrated transition (Trust §5)
 
   RISK:
-    → Lương thấp → không thu hút người MỚI giỏi vào nghề
-    → 102K+ thiếu → overload GV hiện tại
-    → Xã hội TÔN TRỌNG nhưng không TRẢ LƯƠNG tương xứng
+    → Low salaries → cannot attract NEW talented people into the profession
+    → 102K+ shortage → overloads existing teachers
+    → Society RESPECTS but does not PAY ACCORDINGLY
 
 
-STRENGTH 3: GDPT 2018 — HƯỚNG CẢI CÁCH ĐÚNG
+STRENGTH 3: GDPT 2018 — CORRECT REFORM DIRECTION
 
-  → Competency-based thay vì knowledge-based → ĐÚNG HƯỚNG
-  → "Một chương trình, nhiều bộ sách" = tăng diversity
-  → Tăng tự chủ GV + trường → hướng per-individual
-  → Môn tự chọn THPT = bước đầu choice
-  → Assessment reform (process 50%) → hướng depth
-  → 2024-2025 = hoàn thành rollout 12/12 lớp
+  → Competency-based instead of knowledge-based → CORRECT DIRECTION
+  → "One curriculum, multiple textbooks" = increases diversity
+  → Increased teacher + school autonomy → moves toward per-individual
+  → Elective subjects at upper secondary = first step toward choice
+  → Assessment reform (50% process) → moves toward depth
+  → 2024-2025 = rollout complete across all 12 grades
 
-  TẠI SAO STRENGTH:
-    → Chứng minh: VN CÓ KHẢ NĂNG reform ở cấp hệ thống
-    → Direction đúng → vấn đề = execution + depth
-    → Qua Mechanism lens: GDPT 2018 address §2.7 (feedback),
-      §2.9 (depth), §1.4 (adaptability) → đúng hướng
+  WHY THIS IS A STRENGTH:
+    → Proves: VN IS CAPABLE of system-level reform
+    → Right direction → problem = execution + depth
+    → Through Mechanism lens: GDPT 2018 addresses §2.7 (feedback),
+      §2.9 (depth), §1.4 (adaptability) → correct direction
 
   RISK:
-    → Reform trên giấy ≠ reform trong lớp học
-    → GV chưa sẵn sàng → "dạy mới bằng cách cũ"
-    → Thiếu cơ sở vật chất → chênh lệch urban-rural tăng
+    → Reform on paper ≠ reform in the classroom
+    → Teachers not ready → "teaching new curriculum the old way"
+    → Infrastructure gaps → urban-rural divide widens
 
 
-STRENGTH 4: FAMILY INVOLVEMENT CAO (CULTURAL)
+STRENGTH 4: HIGH FAMILY INVOLVEMENT (CULTURAL)
 
-  → 66% HS nói áp lực phụ huynh = nguồn stress chính
-    → = Phụ huynh QUAN TÂM (dù direction cần cải thiện)
-  → Chi tiêu gia đình: 42-43% chi phí GD = từ gia đình
-  → "Học để đổi đời" = strong family Imagine-Final
+  → 66% of students say parental pressure = main source of stress
+    → = Parents ARE ENGAGED (even if direction needs redirecting)
+  → Family spending: 42-43% of education costs = from family
+  → "Study to transform life" = strong family Imagine-Final
   → Extended family network = support system
 
-  TẠI SAO STRENGTH:
-    → Family = 1 trong 4 kênh ecosystem (Education-System.md v3.2 §9)
+  WHY THIS IS A STRENGTH:
+    → Family = 1 of 4 ecosystem channels (Education-System.md v3.2 §9)
     → Hardware-Subsidy (Entity-Valence-Dynamics.md v1.0 §5):
-      parent = MAX subsidy potential — VN involvement CAO = MAX đang có
-      NHƯNG: guilt-trip + so sánh = subsidy CORRUPTED direction
-      redirect subsidy QUALITY (not quantity) = key intervention
-    → Involvement CAO = NỀN TẢNG → chỉ cần REDIRECT
-    → Từ nguồn ④ pressure → environment designer (Education-System v3.2 §8)
-    → Nhiều nước phát triển MƠ ƯỚC có family involvement level này
+      parent = MAX subsidy potential — VN's high involvement = MAX already present
+      BUT: guilt-tripping + comparing = subsidy CORRUPTED in direction
+      redirecting subsidy QUALITY (not quantity) = key intervention
+    → High involvement = FOUNDATION → only needs REDIRECTING
+    → From Source ④ pressure → environment designer (Education-System v3.2 §8)
+    → Many developed countries DREAM of this level of family involvement
 
   RISK:
-    → Involvement CAO + wrong direction = damage CAO
-    → Áp lực gia đình = Imposed threat (3 ORIGIN Type 3) lớn nhất
-    → "Đầu tư" = chủ yếu TIỀN, ít TIME cho emotional support
+    → High involvement + wrong direction = HIGH damage
+    → Family pressure = Imposed threat (3 ORIGIN Type 3) — largest source
+    → "Investment" = mostly MONEY, little TIME for emotional support
 
 
-STRENGTH 5: EFFICIENCY — LÀM NHIỀU VỚI ÍT
+STRENGTH 5: EFFICIENCY — DOING MUCH WITH LITTLE
 
   → GDP per capita ~4,536 USD (2024) — lower-middle income
-  → NHƯNG: PISA scores vượt nhiều nước giàu gấp 5-10x
-  → Budget 2.89% GDP — dưới trung bình thế giới
-  → World Bank xếp VN = "efficient education spender"
-  → Literacy 96%+ — tương đương upper-middle income
+  → BUT: PISA scores outperform many countries 5-10x richer
+  → Budget 2.89% GDP — below world average
+  → World Bank ranks VN = "efficient education spender"
+  → Literacy 96%+ — equivalent to upper-middle income
 
-  QUA FRAMEWORK LENS: 🟡
-    → Efficiency = strength khi resources limited
-    → Nhưng: efficiency CÓ THỂ = "squeeze max from people"
-    → = HS + GV overwork → scores cao BẰNG workload cao
-    → = "Efficient" nhưng cost = wellbeing
+  THROUGH THE FRAMEWORK LENS: 🟡
+    → Efficiency = strength when resources are limited
+    → But: efficiency COULD = "squeezing maximum from people"
+    → = Students + teachers overworked → high scores THROUGH high workload
+    → = "Efficient" but cost = wellbeing
     → = PISA paradox: same machinery drives ACHIEVEMENT + MENTAL HEALTH CRISIS
 ```
 
 ---
 
-## 3. ĐIỂM YẾU CẦN CẢI THIỆN
+## 3. WEAKNESSES TO ADDRESS
 
 ```
-MỤC ĐÍCH:
-  → Từ §1 (Mechanism analysis) → ưu tiên điểm yếu theo IMPACT
-  → Ưu tiên: cái nào gây DAMAGE nhiều nhất + cải thiện được?
+PURPOSE:
+  → From §1 (Mechanism analysis) → prioritize weaknesses by IMPACT
+  → Priority: what causes the MOST DAMAGE + can be improved?
   → 🟡 Framework analysis — priority ranking = subjective judgment
 ```
 
 ```
-WEAKNESS 1 [CRITICAL]: THREAT-DOMINANT LEARNING — DIRECTION SAI
+WEAKNESS 1 [CRITICAL]: THREAT-DOMINANT LEARNING — WRONG DIRECTION
 
-  ĐÂY LÀ VẤN ĐỀ NGHIÊM TRỌNG NHẤT — v7.8 INSIGHT MỚI
+  THIS IS THE MOST SERIOUS PROBLEM — v7.8 NEW INSIGHT
 
   DATA:
-    → 22.8% trầm cảm, 26.3% ý tưởng tự tử (HS 13-17 tuổi)
-    → 80% THPT ngủ <7h / 90% do ôn thi
-    → 12-15 giờ học/ngày cho lớp 12
-    → 4.1 giờ/ngày mạng xã hội → 50% có psychological distress
+    → 22.8% depression, 26.3% suicidal ideation (students ages 13-17)
+    → 80% of upper secondary students sleep <7h / 90% due to exam preparation
+    → 12-15 hours of study/day for Grade 12
+    → 4.1 hours/day social media → 50% have psychological distress
 
   FRAMEWORK v7.8 REFRAME: 🟡
-    → TRƯỚC v7.8: "cortisol quá cao" (cần giảm cortisol)
-    → SAU v7.8: "direction SAI" (cần đổi path, không chỉ giảm level)
-    → Cortisol-Baseline.md v2.1: cortisol = AMPLIFIER, không phải "stress hormone"
-    → Vấn đề KHÔNG CHỈ "áp lực nhiều" → mà "áp lực TỪ ĐÂU"
+    → BEFORE v7.8: "cortisol too high" (need to reduce cortisol)
+    → AFTER v7.8: "direction WRONG" (need to change path, not just reduce level)
+    → Cortisol-Baseline.md v2.1: cortisol = AMPLIFIER, not "stress hormone"
+    → Problem is NOT JUST "too much pressure" → but "pressure FROM WHERE"
 
     3 ORIGIN analysis:
-    → Domain threats (reality challenge): BỊ GIẢM → cần TĂNG
-    → Peer threats (social challenge): BỊ KIỂM SOÁT → cần MODERATE
-    → Imposed threats (authority): DOMINANT → cần GIẢM MẠNH
+    → Domain threats (reality challenge): SUPPRESSED → needs INCREASING
+    → Peer threats (social challenge): OVER-CONTROLLED → needs MODERATING
+    → Imposed threats (authority): DOMINANT → needs SIGNIFICANTLY REDUCING
 
     Dissonance-Signal-Architecture v1.0 REFRAME: 🟡
-    → "Direction sai" = 2 loại dissonance COMPOUND:
-      Evaluative Dissonance (compiled, reframeable): "thi trượt = xấu hổ"
-      Direct-State Dissonance (hardware, cần rest): sleep dep, cortisol chronic
-    → VN HS carry BOTH chronically → address Direct-State TRƯỚC
-      (ngủ đủ, nghỉ ngơi) → rồi mới reframe Evaluative (đổi meaning)
-    → HIỆN TẠI: VN address NGƯỢC (reframe trước: "cố lên") → Direct-State bị bỏ qua
-    → Self-Observation.md v1.0 LENS — DETECT overload CẦN Self-Observation: 🟡
-      → HS Mức 0-1 → CANNOT distinguish Evaluative vs Direct-State dissonance
-      → "Tôi mệt" (Mức 2) vs "Tôi mệt vì thiếu ngủ, cần nghỉ" (Mức 3)
-        → VN HS lacks VOCABULARY cho cả hai → cannot self-regulate
-      → System dạy "cố lên" thay vì "nhận biết body signal" = suppress observation
+    → "Wrong direction" = 2 types of COMPOUND dissonance:
+      Evaluative Dissonance (compiled, reframeable): "failing exam = shame"
+      Direct-State Dissonance (hardware, needs rest): sleep deprivation, chronic cortisol
+    → VN students carry BOTH chronically → address Direct-State FIRST
+      (adequate sleep, rest) → then reframe Evaluative (change meaning)
+    → CURRENTLY: VN addresses BACKWARDS (reframe first: "push through") →
+      Direct-State ignored
+    → Self-Observation.md v1.0 LENS — DETECTING overload REQUIRES Self-Observation: 🟡
+      → Students at Level 0-1 → CANNOT distinguish Evaluative vs Direct-State dissonance
+      → "I'm tired" (Level 2) vs "I'm tired because I'm sleep-deprived, need rest" (Level 3)
+        → VN students lack VOCABULARY for either → cannot self-regulate
+      → System teaches "push through" instead of "notice body signal" =
+        suppresses observation
       → Self-Observation = UNLABELED DEFICIT in VN education analysis
-      → Tool Not Virtue (Self-Observation §9): Mức 2 ĐỦ routine life
-        — nhưng VN HS hiện tại Mức 0-1 cho self-regulation = DƯỚI MỨC ĐỦ
+      → Tool Not Virtue (Self-Observation §9): Level 2 SUFFICIENT for routine life
+        — but VN students currently at Level 0-1 for self-regulation = BELOW SUFFICIENT
 
-    → Cùng cortisol level nhưng:
+    → Same cortisol level but:
       → Domain moderate → resilience + competence
       → Imposed moderate → anxiety + learned helplessness
-    → VN: Imposed dominant → chunks compile AVOIDANCE-TAG
-    → = "Biết nhưng ghét" = common outcome
-    → Trust.md v1.0 LENS — Imposed threat → trust DAMAGE: 🟡
-      → Mắng/phạt/so sánh công khai → trust-intention COLLAPSE (Trust §4: build slow, destroy fast)
-      → Student masks khi trust-intention broken → calibration data CORRUPTED
+    → VN: Imposed dominant → chunks compile with AVOIDANCE-TAGS
+    → = "Knows but hates" = common outcome
+
+    Trust.md v1.0 LENS — Imposed threat → trust DAMAGE: 🟡
+      → Scolding/penalizing/public comparison → trust-intention COLLAPSE
+        (Trust §4: builds slowly, destroys fast)
+      → Student masks when trust-intention is broken → calibration data CORRUPTED
       → VN paradox: 92% SYSTEM trust (structural) + Imposed dominant per-classroom
         = Macro trust HIGH + micro trust VARIABLE
-      → Trust §10: position trust (có — "tôn sư") ≠ person trust (thiếu per-GV)
-      → = High authority trust ≠ high relational trust → student SỢ nhưng không TIN
-      → = Trust infrastructure CÓ nhưng relational trust bị Imposed DAMAGE
+      → Trust §10: position trust (exists — "honor the teacher") ≠ person trust
+        (absent per-teacher)
+      → = High authority trust ≠ high relational trust → student FEARS but doesn't TRUST
+      → = Trust infrastructure EXISTS but relational trust damaged by Imposed
 
-  TẠI SAO CRITICAL:
-    → Direction sai → mọi chunk compile = avoidance-tagged
-    → 12 năm avoidance-tagged learning = SABOTAGE lifelong relationship với domain
-    → Ngủ <7h = cortisol recovery BỊ CẮT → amplification tích lũy
-    → 26.3% ý tưởng tự tử = KHÔNG THỂ chấp nhận được
+  WHY CRITICAL:
+    → Wrong direction → every chunk compiles with avoidance-tags
+    → 12 years of avoidance-tagged learning = SABOTAGES lifelong relationship with domain
+    → Sleep <7h = cortisol recovery CUT → amplification accumulates
+    → 26.3% suicidal ideation = UNACCEPTABLE
 
 
-WEAKNESS 2 [HIGH]: ONE-SIZE-FITS-ALL — KHÔNG PER-HARDWARE
+WEAKNESS 2 [HIGH]: ONE-SIZE-FITS-ALL — NO PER-HARDWARE CALIBRATION
 
   DATA:
-    → Lớp 40-69 HS, 1 GV, 1 method, 1 tốc độ
-    → Thiếu 102,000+ GV → overload GV hiện tại
-    → Không có calibration training cho GV
+    → Classes of 40-69 students, 1 teacher, 1 method, 1 pace
+    → 102,000+ teacher shortage → overloads existing teachers
+    → No calibration training for teachers
     → Ethnic minorities: 2x dropout, 5x late enrollment
-    → Rural: 50% thiếu tech cơ bản
+    → Rural areas: 50% lack basic technology
 
-  TẠI SAO HIGH:
-    → Per-hardware = điều kiện cho True-Fit (Education-System.md v3.2 §7)
-    → Không per-hardware → cost formula (Mechanism v2.2 §2.3) = maximum mismatch
-    → HS khác hardware + cùng method → labels sai ("giỏi/kém")
-    → = Vòng tròn: budget ↓ → teacher ↓ → class size ↑ → quality ↓
+  WHY HIGH:
+    → Per-hardware = condition for True-Fit (Education-System.md v3.2 §7)
+    → No per-hardware → cost formula (Mechanism v2.2 §2.3) = maximum mismatch
+    → Students with different hardware + same method → wrong labels ("high/low ability")
+    → = Vicious cycle: budget ↓ → teachers ↓ → class size ↑ → quality ↓
 
 
-WEAKNESS 3 [HIGH]: IMAGINE-FINAL SAI HƯỚNG + NARROW
+WEAKNESS 3 [HIGH]: IMAGINE-FINAL — WRONG DIRECTION + NARROW
 
   DATA:
-    → 60% SV trái ngành
-    → 100,000+ cử nhân thất nghiệp
-    → 41% nhà tuyển dụng không tuyển đủ
+    → 60% of graduates work outside their field
+    → 100,000+ graduates unemployed annually
+    → 41% of employers cannot find qualified candidates
 
-  TẠI SAO HIGH:
-    → Imagine-Final = narrow ("thi đỗ → bằng → việc") + external (gia đình inject)
+  WHY HIGH:
+    → Imagine-Final = narrow ("pass exam → degree → job") + external (family-injected)
     → Imagine-Final-Evaluation.md: VN pattern = "Mismatch" quadrant dominant
-    → 12 năm học theo HƯỚNG SAI → waste at population scale
-    → Không có process giúp HS self-build Imagine-Final
-      (navigate 4 góc quality — Mechanism v2.2 §2.6)
+    → 12 years studying in the WRONG DIRECTION → waste at population scale
+    → No process to help students self-build their Imagine-Final
+      (navigate the 4 quality corners — Mechanism v2.2 §2.6)
 
 
 WEAKNESS 4 [MEDIUM]: BRIDGE PERMANENT + ESCALATING
 
   DATA:
-    → 92% HS đi học thêm (trung bình 6h/tuần = 3x quốc tế)
-    → 42-43% chi phí GD gia đình = cho học thêm
-    → GV cố tình dạy ít → bán content ở học thêm
+    → 92% of students attend private tutoring (average 6h/week = 3x international)
+    → 42-43% of family education spending = private tutoring
+    → Teachers deliberately under-teach → sell content at private tutoring
 
   FRAMEWORK REFRAME: 🟡
-    → Bridge = "thuốc" (Mechanism v2.2 §3.1): đúng liều → chữa bệnh / quá liều → ngộ độc
-    → VN: bridge = quá liều + không ngưng → "ngộ độc bridge"
-    → 4 nguồn fill: nguồn ④ dominate 12+ năm → ①②③ suppressed
-    → Rút bridge đột ngột (ra đời 18+) → anchor crash → quarter-life crisis
+    → Bridge = "medication" (Mechanism v2.2 §3.1): right dose → heals / overdose → toxicity
+    → VN: bridge = overdosed + never stopped → "bridge toxicity"
+    → 4 fill sources: Source ④ dominates for 12+ years → ①②③ suppressed
+    → Bridge suddenly withdraws (entering adult life at 18+) → anchor crash → quarter-life crisis
 
 
 WEAKNESS 5 [MEDIUM]: SURFACE ASSESSMENT
 
   DATA:
-    → PISA 2022: 1% Level 5+ Đọc hiểu (OECD: 7%)
-    → 5% Level 5-6 Toán (OECD: 9%)
+    → PISA 2022: 1% at Level 5+ Reading (OECD: 7%)
+    → 5% at Level 5-6 Math (OECD: 9%)
 
-  CẢI CÁCH ĐANG DIỄN RA (GDPT 2018):
-    → Process assessment 30% → 50%, qualitative tiểu học
-    → Hướng ĐÚNG, cần thời gian + depth quality
+  REFORMS IN PROGRESS (GDPT 2018):
+    → Process assessment: 30% → 50%, qualitative assessment at primary level
+    → RIGHT DIRECTION, needs time + quality depth
 
   FRAMEWORK REFRAME: 🟡
-    → 4 stages depth (Mechanism v2.2 §2.9):
-      VN assess chủ yếu stage ① (recognize) → miss ②③④
-    → Reward-Signal-Architecture v2.1: Evaluative reward chỉ fire khi depth THẬT SỰ compile
-    → Multiple choice = KHÔNG trigger Evaluative → HS thiếu reward signal cho deep learning
+    → 4 stages of depth (Mechanism v2.2 §2.9):
+      VN assesses mainly Stage ① (recognize) → misses ②③④
+    → Reward-Signal-Architecture v2.1: Evaluative reward only fires when depth
+      TRULY compiles
+    → Multiple choice = DOESN'T trigger Evaluative → students lack reward signal
+      for deep learning
 
 
 WEAKNESS 6 [STRUCTURAL]: RURAL-URBAN + ETHNIC GAP
 
   DATA:
-    → THPT enrollment: urban 82.4% vs rural 74.1%
-    → Internet: richest 95% vs poorest 18%
-    → 3 triệu+ DTTS không biết đọc viết (2023)
-    → DTTS dropout: 2x Kinh, late enrollment: 5x
+    → Upper secondary enrollment: urban 82.4% vs rural 74.1%
+    → Internet at home: richest 95% vs poorest 18%
+    → 3 million+ ethnic minority adults cannot read or write (2023)
+    → Ethnic minority dropout: 2x Kinh majority, late enrollment: 5x
 
-  TẠI SAO STRUCTURAL:
-    → Vượt ngoài giáo dục → poverty, geography, language, infrastructure
-    → Reform ưu tiên urban → rural hưởng lợi SAU + ÍT
-    → = 2 VN education: (1) urban = "hệ thống có vấn đề"
-      (2) rural DTTS = "chưa có hệ thống đầy đủ"
-    → Foundation breadth (Domain-Knowledge-Map v2.1 §1): 3M+ illiterate = foundation CHƯA CÓ
+  WHY STRUCTURAL:
+    → Beyond education → poverty, geography, language, infrastructure
+    → Reforms prioritize urban → rural benefits LATER + LESS
+    → = Two VN educations: (1) urban = "system with problems"
+      (2) rural ethnic minority = "no complete system yet"
+    → Foundation breadth (Domain-Knowledge-Map v2.1 §1): 3M+ illiterate =
+      foundation NOT YET ESTABLISHED
 ```
 
 ```
-TỔNG KẾT ĐIỂM YẾU — ƯU TIÊN: 🟡
+WEAKNESSES SUMMARY — PRIORITIES: 🟡
 
   ┌───────────┬──────────────────────────────────────┬─────────────────┐
-  │ Mức độ    │ Vấn đề                                │ Mechanism ref   │
+  │ Level     │ Issue                                 │ Mechanism ref   │
   ├───────────┼──────────────────────────────────────┼─────────────────┤
   │ CRITICAL  │ Threat-dominant learning (direction)  │ §2.2 + §3.3    │
   │ HIGH      │ One-size-fits-all (hardware mismatch) │ §2.3            │
-  │ HIGH      │ Imagine-Final sai hướng + narrow     │ §2.6 + §3.1    │
+  │ HIGH      │ Imagine-Final: wrong direction+narrow │ §2.6 + §3.1    │
   │ MEDIUM    │ Bridge permanent + escalating         │ §3.1-§3.4      │
   │ MEDIUM    │ Surface assessment                    │ §2.9            │
-  │ STRUCTURAL│ Rural-urban + ethnic gap              │ Domain-Knowledge-Map v2.1 §1, §2.3   │
+  │ STRUCTURAL│ Rural-urban + ethnic gap              │ Domain-Knowledge-Map v2.1 §1,§2.3│
   └───────────┴──────────────────────────────────────┴─────────────────┘
 
-  NHẬN XÉT: 🟡
-    → CRITICAL (direction): v7.8 reframe — KHÔNG CHỈ "giảm áp lực"
-      mà "đổi NGUỒN áp lực" (Imposed → Domain)
-    → Nhiều weaknesses LIÊN KẾT:
+  NOTES: 🟡
+    → CRITICAL (direction): v7.8 reframe — NOT JUST "reduce pressure"
+      but "change the SOURCE of pressure" (Imposed → Domain)
+    → Many weaknesses are INTERCONNECTED:
       threat-dominant (§2.2) ← bridge permanent (§3.1) ← surface assessment (§2.9)
-      one-size (§2.3) → Imagine-Final sai (§2.6) → 60% trái ngành
+      one-size (§2.3) → wrong Imagine-Final (§2.6) → 60% working outside field
 ```
 
 ---
 
-## 4. DATA + EVIDENCE — TỔNG HỢP THEO CHỦ ĐỀ
+## 4. DATA + EVIDENCE — ORGANIZED BY TOPIC
 
 ```
-MỤC ĐÍCH:
-  → Tất cả data đã dùng trong §0-§3 → tổng hợp có hệ thống
-  → Organized per topic → dễ tra cứu, dễ verify
+PURPOSE:
+  → All data used in §0-§3 → systematically compiled
+  → Organized per topic → easy to reference, easy to verify
   → 🟢 Data — all from verified sources
 ```
 
 ```
-A. HỌC SINH + SỨC KHỎE TÂM THẦN
+A. STUDENTS + MENTAL HEALTH
 
   ┌────────────────────────────────────────────┬──────────┬────────────┐
-  │ Chỉ số                                     │ Số liệu  │ Nguồn/Năm  │
+  │ Indicator                                  │ Data     │ Source/Year│
   ├────────────────────────────────────────────┼──────────┼────────────┤
-  │ Trầm cảm HS THCS (13-17 tuổi)             │ 22.8%    │ PMC 2020   │
-  │ Ý tưởng tự tử HS (13-17, Cần Thơ)         │ 26.3%    │ PMC 2020   │
-  │ Ý tưởng tự tử nữ vs nam                   │ 21.4%/   │ UNICEF VN  │
-  │                                             │ 7.9%     │            │
-  │ HS THPT ngủ <7 giờ/ngày                    │ 80%      │ VnExpress  │
-  │ HS quy thiếu ngủ = ôn thi                  │ 90%      │ VnExpress  │
-  │ Áp lực phụ huynh = nguồn stress chính      │ 66%      │ PMC 2024   │
-  │ HS tham gia học thêm (Huế, THCS)           │ 92.1%    │ PMC 2024   │
-  │ Academic stress score (baseline → 3 năm)   │ 46.4→    │ PMC 2024   │
-  │                                             │ 53.5/80  │ (Huế)     │
-  │ Giờ học lớp 12 (trường + thêm + BT)        │ 12-15h/  │ VnExpress  │
-  │                                             │ ngày     │            │
-  │ Thanh niên 14-24 dùng MXH/ngày             │ 4.1h     │ BMC 2025   │
-  │ MXH users có psychological distress         │ 50%      │ BMC 2025   │
-  │ Bullying trong năm qua (Đà Nẵng, THCS)    │ 73.9%    │ ResGate    │
-  │ Tỉ lệ tự tử (toàn bộ dân số)              │ 7.3/     │ WHO 2021   │
-  │                                             │ 100K     │            │
-  │ 1/5 HS cần hỗ trợ tâm lý, chỉ 8.4% tiếp  │          │ UNICEF/    │
-  │ cận được                                    │          │ V-NAMHS    │
+  │ Depression in middle school students (13-17)│ 22.8%   │ PMC 2020   │
+  │ Suicidal ideation (13-17, Can Tho)          │ 26.3%   │ PMC 2020   │
+  │ Suicidal ideation female vs male            │ 21.4%/  │ UNICEF VN  │
+  │                                             │ 7.9%    │            │
+  │ Upper secondary students sleeping <7h/night │ 80%     │ VnExpress  │
+  │ Students attributing low sleep to exam prep │ 90%     │ VnExpress  │
+  │ Parental pressure = main stress source      │ 66%     │ PMC 2024   │
+  │ Students in private tutoring (Hue, middle)  │ 92.1%   │ PMC 2024   │
+  │ Academic stress score (baseline → 3 years)  │ 46.4→   │ PMC 2024   │
+  │                                             │ 53.5/80 │ (Hue)      │
+  │ Daily study hours for Grade 12 (all sources)│ 12-15h/ │ VnExpress  │
+  │                                             │ day     │            │
+  │ Youth aged 14-24: social media use/day      │ 4.1h    │ BMC 2025   │
+  │ Social media users with psychological dist. │ 50%     │ BMC 2025   │
+  │ Bullying in past year (Da Nang, middle sch.)│ 73.9%   │ ResGate    │
+  │ Suicide rate (total population)             │ 7.3/    │ WHO 2021   │
+  │                                             │ 100K    │            │
+  │ 1/5 students need psych support, only 8.4% │         │ UNICEF/    │
+  │ can access it                               │         │ V-NAMHS    │
   └────────────────────────────────────────────┴──────────┴────────────┘
 
 
-B. GIÁO VIÊN
+B. TEACHERS
 
   ┌────────────────────────────────────────────┬──────────┬────────────┐
-  │ Chỉ số                                     │ Số liệu  │ Nguồn/Năm  │
+  │ Indicator                                  │ Data     │ Source/Year│
   ├────────────────────────────────────────────┼──────────┼────────────┤
-  │ Tổng GV giảng dạy                          │~1,251K   │ Statista24 │
-  │ Thiếu GV                                   │ 102-120K │ MOET 24-25│
-  │ GV nghỉ/rời nghề (2022-2023)               │ 19,300+  │ vietnam.vn │
-  │ GV từ chức (08/2023-04/2024)               │ 7,215    │ vietnam.vn │
-  │ HS/GV tiểu học                              │ 23.3:1   │ Statista24 │
-  │ HS/GV THPT                                  │ 20.3:1   │ Statista24 │
-  │ Lớp thực tế (Hà Nội, max)                  │ 60-69 HS │ KingsTT 25│
-  │ Lương GV mới vào nghề                       │ 6.5-8M   │ vietnam.vn │
-  │                                             │ VND/th   │            │
-  │ TB lương lao động VN 2024                   │ 7.7M     │ VNPlus    │
-  │                                             │ VND/th   │            │
-  │ Hài lòng nghề nghiệp                       │ 97%      │ TALIS 24   │
-  │ Xã hội tôn trọng nghề GV                   │ 92%      │ TALIS 24   │
-  │ Stress công việc                            │ 4%       │ TALIS 24   │
-  │ Đã dùng AI trong giảng dạy                 │ 64%      │ TALIS 24   │
-  │ Thiếu cơ sở hạ tầng số                     │ 71%      │ TALIS 24   │
-  │ Dự định rời nghề trong 5 năm               │ <6%      │ TALIS 24   │
+  │ Total active classroom teachers            │~1,251K   │ Statista24 │
+  │ Teacher shortage                           │ 102-120K │ MOET 24-25 │
+  │ Teachers resigning/leaving (2022-2023)     │ 19,300+  │ vietnam.vn │
+  │ Teachers resigned (08/2023-04/2024)        │ 7,215    │ vietnam.vn │
+  │ Student-teacher ratio (primary)            │ 23.3:1   │ Statista24 │
+  │ Student-teacher ratio (upper secondary)    │ 20.3:1   │ Statista24 │
+  │ Actual class size (Hanoi, maximum)         │ 60-69 st.│ KingsTT 25 │
+  │ New teacher monthly salary                 │ 6.5-8M   │ vietnam.vn │
+  │                                            │ VND/mo   │            │
+  │ National average worker salary 2024        │ 7.7M     │ VNPlus     │
+  │                                            │ VND/mo   │            │
+  │ Job satisfaction                           │ 97%      │ TALIS 24   │
+  │ Society values teaching profession         │ 92%      │ TALIS 24   │
+  │ Occupational stress                        │ 4%       │ TALIS 24   │
+  │ Already using AI in teaching               │ 64%      │ TALIS 24   │
+  │ Lacking digital infrastructure             │ 71%      │ TALIS 24   │
+  │ Intend to leave within 5 years             │ <6%      │ TALIS 24   │
   └────────────────────────────────────────────┴──────────┴────────────┘
 
 
-C. HỌC THÊM (PRIVATE TUTORING)
+C. PRIVATE TUTORING
 
   ┌────────────────────────────────────────────┬──────────┬────────────┐
-  │ Chỉ số                                     │ Số liệu  │ Nguồn/Năm  │
+  │ Indicator                                  │ Data     │ Source/Year│
   ├────────────────────────────────────────────┼──────────┼────────────┤
-  │ Tỉ lệ HS học thêm (THPT, 2014)            │ 69.7%    │ PMC/WB 18  │
-  │ Tỉ lệ HS học thêm (THCS, Huế, 2024)       │ 92.1%    │ PMC 2024   │
-  │ Phụ huynh cho con học thêm                 │ 77%      │ EDT 2018   │
-  │ Giờ học thêm / tuần (trung bình)           │ ~6h      │ PISA 2012  │
-  │ So sánh quốc tế (expected for VN hours)    │ ~2h      │ PISA 2012  │
-  │ Chi phí THCS / tháng                        │ ≥300K    │ vn.vn 24   │
-  │                                             │ VND      │            │
-  │ Chi phí THPT / tháng                        │ 400-500K │ vn.vn 24   │
-  │                                             │ VND      │            │
-  │ % chi phí GD gia đình = học thêm           │ 42-43%   │ PMC/WB 18  │
-  │ Giàu chi gấp nghèo cho tutoring            │ 30x      │ PMC/WB 18  │
-  │ Gia đình nghèo: % thu nhập cho HT lớp 12  │ ~50%     │ SciDirect  │
-  │ PH cho rằng HT ảnh hưởng xấu sức khỏe    │ 49%      │ SciDirect21│
+  │ Students in private tutoring (upper sec, 2014)│ 69.7% │ PMC/WB 18  │
+  │ Students in private tutoring (Hue middle, 2024)│ 92.1%│ PMC 2024   │
+  │ Parents sending children to tutoring       │ 77%      │ EDT 2018   │
+  │ Private tutoring hours/week (average)      │ ~6h      │ PISA 2012  │
+  │ International comparison (expected for VN) │ ~2h      │ PISA 2012  │
+  │ Cost for middle school / month             │ ≥300K    │ vn.vn 24   │
+  │                                            │ VND      │            │
+  │ Cost for upper secondary / month           │ 400-500K │ vn.vn 24   │
+  │                                            │ VND      │            │
+  │ % of family ed spending = private tutoring │ 42-43%   │ PMC/WB 18  │
+  │ Richest vs poorest tutoring spending ratio │ 30x      │ PMC/WB 18  │
+  │ Poor families: % income for tutoring (Gr12)│ ~50%     │ SciDirect  │
+  │ Parents say tutoring hurts child health    │ 49%      │ SciDirect21│
   └────────────────────────────────────────────┴──────────┴────────────┘
 
 
-D. PISA + KẾT QUẢ HỌC TẬP
+D. PISA + LEARNING OUTCOMES
 
   ┌────────────────────────────────────────────┬──────────┬────────────┐
-  │ Chỉ số                                     │ Số liệu  │ Nguồn/Năm  │
+  │ Indicator                                  │ Data     │ Source/Year│
   ├────────────────────────────────────────────┼──────────┼────────────┤
-  │ PISA 2022 Toán                              │ 469      │ OECD       │
-  │ PISA 2022 Đọc hiểu                         │ 462      │ OECD       │
-  │ PISA 2022 Khoa học                          │ 472      │ OECD       │
-  │ Level 2+ Toán (vs OECD)                    │ 72%/69%  │ OECD       │
-  │ Level 2+ Đọc (vs OECD)                     │ 77%/74%  │ OECD       │
-  │ Level 2+ KH (vs OECD)                      │ 79%/76%  │ OECD       │
-  │ Level 5-6 Toán (vs OECD)                   │ 5%/9%    │ OECD       │
-  │ Level 5+ Đọc (vs OECD)                     │ 1%/7%    │ OECD       │
-  │ SES giải thích variation (Toán)            │ 14.6%    │ OECD       │
-  │ Xếp hạng 2022 (Toán/Đọc/KH)              │ 31/34/37 │ OECD       │
-  │                                             │ /81      │            │
+  │ PISA 2022 Math                             │ 469      │ OECD       │
+  │ PISA 2022 Reading                          │ 462      │ OECD       │
+  │ PISA 2022 Science                          │ 472      │ OECD       │
+  │ Level 2+ Math (vs OECD)                    │ 72%/69%  │ OECD       │
+  │ Level 2+ Reading (vs OECD)                 │ 77%/74%  │ OECD       │
+  │ Level 2+ Science (vs OECD)                 │ 79%/76%  │ OECD       │
+  │ Level 5-6 Math (vs OECD)                   │ 5%/9%    │ OECD       │
+  │ Level 5+ Reading (vs OECD)                 │ 1%/7%    │ OECD       │
+  │ SES explaining score variation (Math)      │ 14.6%    │ OECD       │
+  │ 2022 ranking (Math/Reading/Science)        │ 31/34/37 │ OECD       │
+  │                                            │ /81      │            │
   └────────────────────────────────────────────┴──────────┴────────────┘
 
-  Pattern QUAN TRỌNG: 🟡
-    → Level 2+ (basics): VN = TỐT HƠN OECD → foundation STRONG
-    → Level 5+ (deep): VN = THẤP HƠN NHIỀU OECD → depth WEAK
-    → = System TỐT ở stage ① (recognize), YẾU ở stage ③④ (apply, create)
+  IMPORTANT PATTERN: 🟡
+    → Level 2+ (basics): VN = BETTER THAN OECD → foundation STRONG
+    → Level 5+ (deep): VN = FAR BELOW OECD → depth WEAK
+    → = System STRONG at Stage ① (recognize), WEAK at Stages ③④ (apply, create)
     → = Mechanism prediction confirmed: surface assessment → surface learning
 
 
-E. CHÊNH LỆCH + TIẾP CẬN
+E. DISPARITIES + ACCESS
 
   ┌────────────────────────────────────────────┬──────────┬────────────┐
-  │ Chỉ số                                     │ Số liệu  │ Nguồn/Năm  │
+  │ Indicator                                  │ Data     │ Source/Year│
   ├────────────────────────────────────────────┼──────────┼────────────┤
-  │ Enrollment THPT: urban vs rural            │82.4%/    │ KingsTT 25│
-  │                                             │74.1%     │            │
-  │ Internet tại nhà: richest vs poorest       │ 95%/18%  │ UNESCO     │
-  │ Ethnic minority: % dân số                  │ ~14%     │ GPE        │
-  │ Ethnic minority: % người nghèo            │ 73%      │ GPE 2016   │
-  │ Ethnic minority: hoàn thành THPT           │ 55-60%   │ KingsTT 25│
-  │ Ethnic minority: dropout vs Kinh           │ 2x       │ Borgen     │
+  │ Upper secondary enrollment: urban vs rural │ 82.4%/   │ KingsTT 25 │
+  │                                            │ 74.1%    │            │
+  │ Home internet: richest vs poorest          │ 95%/18%  │ UNESCO     │
+  │ Ethnic minorities: % of population         │ ~14%     │ GPE        │
+  │ Ethnic minorities: % of people in poverty │ 73%      │ GPE 2016   │
+  │ Ethnic minority: upper secondary completion│ 55-60%   │ KingsTT 25 │
+  │ Ethnic minority: dropout vs Kinh majority  │ 2x       │ Borgen     │
   │ Ethnic minority: late enrollment vs Kinh   │ 5x       │ Borgen     │
-  │ Ethnic minority illiterate                  │ 3M+      │ KingsTT 25│
+  │ Ethnic minority illiterate adults          │ 3M+      │ KingsTT 25 │
   │ VN language use at home (ethnic minority)  │ 5%       │ Springer   │
-  │ Rural students thiếu tech cơ bản           │ ~50%     │ UNESCO 23  │
-  │ Central Highlands GV shortage              │ 6,500+   │ KingsTT 25│
-  │ HS/máy tính (national)                     │ ~3:1     │ UNESCO     │
-  │ Internet penetration (toàn quốc)           │ 79.1%    │ DataRep 24│
+  │ Rural students lacking basic technology    │ ~50%     │ UNESCO 23  │
+  │ Central Highlands teacher shortage         │ 6,500+   │ KingsTT 25 │
+  │ Students per computer (national)           │ ~3:1     │ UNESCO     │
+  │ Internet penetration (national)            │ 79.1%    │ DataRep 24 │
   └────────────────────────────────────────────┴──────────┴────────────┘
 
 
-F. ĐẠI HỌC + VIỆC LÀM
+F. UNIVERSITY + EMPLOYMENT
 
   ┌────────────────────────────────────────────┬──────────┬────────────┐
-  │ Chỉ số                                     │ Số liệu  │ Nguồn/Năm  │
+  │ Indicator                                  │ Data     │ Source/Year│
   ├────────────────────────────────────────────┼──────────┼────────────┤
-  │ Số ĐH                                      │ 243      │ MOET 25    │
-  │                                             │(176C/67T)│            │
-  │ Enrollment thô ĐH                          │ 42.2%    │ WB 2022    │
-  │ SV tốt nghiệp làm trái ngành              │ ~60%     │ Saigoneer  │
-  │ Cử nhân thất nghiệp / năm                 │ 100K+    │ Saigoneer  │
-  │ Nhà tuyển dụng không đủ ứng viên đạt CL   │ 41%      │ BritCouncil│
-  │ ĐH VN trong QS World Rankings 2025        │ 6        │ QS         │
-  │ ĐH VN trong QS Asia Rankings 2025         │ 17       │ QS         │
-  │ ĐH VN trong THE World Rankings 2025       │ 9        │ THE        │
-  │ EdTech startups                             │ 100+     │ VNPlus     │
+  │ Number of universities                     │ 243      │ MOET 25    │
+  │                                            │(176P/67Pr)│           │
+  │ Gross university enrollment                │ 42.2%    │ WB 2022    │
+  │ Graduates working outside their field      │ ~60%     │ Saigoneer  │
+  │ Unemployed graduates / year                │ 100K+    │ Saigoneer  │
+  │ Employers unable to find qualified candid. │ 41%      │ BritCouncil│
+  │ VN universities in QS World Rankings 2025  │ 6        │ QS         │
+  │ VN universities in QS Asia Rankings 2025   │ 17       │ QS         │
+  │ VN universities in THE World Rankings 2025 │ 9        │ THE        │
+  │ EdTech startups                            │ 100+     │ VNPlus     │
   │ AI education market VN (2024)              │ $24M     │ IMARC      │
   │ AI education market VN (projected 2033)    │ $508M    │ IMARC      │
   │ MOET target: EdTech in public schools      │ 80%      │ Austrade   │
-  │                                             │ by 2027  │            │
+  │                                            │ by 2027  │            │
   └────────────────────────────────────────────┴──────────┴────────────┘
 ```
 
 ---
 
-## 5. GAP ANALYSIS: HIỆN TẠI VS IDEAL
+## 5. GAP ANALYSIS: CURRENT STATE VS IDEAL
 
 ```
-MỤC ĐÍCH:
-  → IDEAL = Education-System.md v3.2 §0 (ENGINE/ROAD/VEHICLE + "bộ 3")
-  → HIỆN TẠI = §0-§4 data
-  → GAP = khoảng cách CỤ THỂ per dimension
+PURPOSE:
+  → IDEAL = Education-System.md v3.2 §0 (ENGINE/ROAD/VEHICLE + "Trio")
+  → CURRENT STATE = §0-§4 data
+  → GAP = specific distance per dimension
   → 🟡 Framework analysis — gap identification = derived, not verified
 ```
 
@@ -1312,7 +1337,7 @@ MỤC ĐÍCH:
 GAP PER DIMENSION:
 
   ┌──────────────────────┬─────────────────────┬────────────────────────┐
-  │ Dimension            │ IDEAL (Ed-System    │ VN HIỆN TẠI            │
+  │ Dimension            │ IDEAL (Ed-System    │ VN CURRENT STATE       │
   │ (Mechanism ref)      │ v3.0)               │ (data §0-§4)           │
   ├──────────────────────┼─────────────────────┼────────────────────────┤
   │                      │                     │                        │
@@ -1321,66 +1346,66 @@ GAP PER DIMENSION:
   │ GAP: █████████░ 90%  │                     │                        │
   │                      │                     │                        │
   │ Per-hardware (§2.3)  │ Per-individual:     │ One-size-fits-all:     │
-  │                      │ calibrate per       │ 1 GV / 50 HS          │
+  │                      │ calibrate per       │ 1 teacher / 50 students│
   │ GAP: █████████░ 90%  │ Hardware            │                        │
   │                      │                     │                        │
-  │ Foundation (Domain-Knowledge-Map v2.1 §1)  │ 6 domains balanced  │ 2/6 strong, 4/6 weak  │
+  │ Foundation (Domain-Knowledge-Map v2.1 §1)                   │ 6 domains balanced  │ 2/6 strong, 4/6 weak  │
   │ GAP: █████░░░░░ 50%  │                     │                        │
   │                      │                     │                        │
   │ Imagine-Final (§2.6) │ Per-learner:        │ External + narrow:     │
-  │                      │ self-built, 4 góc   │ "thi đỗ → bằng → việc"│
+  │                      │ self-built, 4 corners│"pass exam→degree→job" │
   │ GAP: █████████░ 90%  │                     │                        │
   │                      │                     │                        │
-  │ Bridge (§3.1-§3.4)  │ Scaffolding:        │ Permanent + escalating:│
-  │                      │ ④ → ①②③ transition │ ④ dominant 12+ năm     │
+  │ Bridge (§3.1-§3.4)   │ Scaffolding:        │ Permanent + escalating:│
+  │                      │ ④ → ①②③ transition │ ④ dominant 12+ years  │
   │ GAP: ████████░░ 80%  │                     │                        │
   │                      │                     │                        │
-  │ 3 ORIGIN (§3.3)     │ Domain + Peer HIGH  │ Imposed DOMINANT       │
+  │ 3 ORIGIN (§3.3)      │ Domain + Peer HIGH  │ Imposed DOMINANT       │
   │                      │ Imposed LOW         │ Domain + Peer LOW      │
   │ GAP: █████████░ 90%  │                     │                        │
   │                      │                     │                        │
-  │ Consolidation (§2.8) │ Sleep + spacing     │ 80% ngủ <7h           │
+  │ Consolidation (§2.8) │ Sleep + spacing     │ 80% sleep <7h          │
   │                      │ + recovery          │ Cramming = norm        │
   │ GAP: ████████░░ 80%  │                     │                        │
   │                      │                     │                        │
-  │ Depth (§2.9)        │ 4 stages measured   │ Stage ① dominant       │
+  │ Depth (§2.9)         │ 4 stages measured   │ Stage ① dominant       │
   │ GAP: ██████░░░░ 60%  │ (GDPT 2018 helping) │                        │
   │                      │                     │                        │
   │ Adaptability         │ Meta-learning:      │ Rote memorization:     │
-  │ (Domain-Knowledge-Map v2.1 §2)            │ "learn how to learn"│ 1% depth readers       │
+  │ (Domain-Knowledge-Map v2.1 §2)        │ "learn how to learn"│ 1% depth readers       │
   │ GAP: ███████░░░ 70%  │ (GDPT 2018 helping) │                        │
   │                      │                     │                        │
-  │ I×S Balance (§1.3)  │ Individual CÓ KHẢ   │ Society >>>            │
-  │                      │ NĂNG + MUỐN +       │ Individual MUỐN        │
-  │                      │ Society CẦN = match │ "Nghề hot" > sở thích  │
+  │ I×S Balance (§1.3)   │ Individual HAS      │ Society >>>            │
+  │                      │ CAPACITY + WANTS +  │ Individual WANTS       │
+  │                      │ Society NEEDS = match│"Hot career" > preferences│
   │ GAP: ████████░░ 80%  │                     │                        │
   │                      │                     │                        │
-  │ Ecosystem (§1.4+§4) │ 4 kênh balanced     │ School + tutoring      │
+  │ Ecosystem (§1.4+§4)  │ 4 channels balanced │ School + tutoring      │
   │ GAP: ███████░░░ 70%  │                     │ = 90%+ learning time   │
   │                      │                     │                        │
   │ Teacher role         │ Calibrator:         │ Knowledge source:      │
-  │ (Ed-System v3.0 §7) │ observe + adjust    │ lecture + transmit     │
-  │ GAP: ███████░░░ 70%  │ (NHƯNG: hài lòng   │                        │
-  │                      │ 97% = platform!)    │                        │
+  │ (Ed-System v3.0 §7)  │ observe + adjust    │ lecture + transmit     │
+  │ GAP: ███████░░░ 70%  │ (BUT: 97% satisf.  │                        │
+  │                      │ = platform!)        │                        │
   │                      │                     │                        │
   │ Parent role          │ Environment         │ Pressure source:       │
-  │ (Ed-System v3.0 §8) │ designer            │ "con phải giỏi"       │
-  │ GAP: ███████░░░ 70%  │ (NHƯNG: involvement │                        │
-  │                      │ cao = redirectable!) │                        │
+  │ (Ed-System v3.0 §8)  │ designer            │ "child must excel"     │
+  │ GAP: ███████░░░ 70%  │ (BUT: high involv.  │                        │
+  │                      │ = redirectable!)    │                        │
   │                      │                     │                        │
   │ Trust calibration    │ Default→Calibrated  │ Mostly DEFAULT trust   │
-  │ (Trust.md v1.0 §5)  │ + per-domain + 3    │ (cultural install,     │
-  │ GAP: ███████░░░ 70%  │ sub-dim skill       │ chưa teach calibrate)  │
+  │ (Trust.md v1.0 §5)   │ + per-domain + 3    │ (cultural install,     │
+  │ GAP: ███████░░░ 70%  │ sub-dim skill       │ calibration not taught)│
   │                      │                     │                        │
-  │ Self-Observation     │ Mức 4+ meta-        │ Mức 0-1 (no explicit   │
-  │ (v1.0 §4)           │ learning capacity   │ training, rote focus)  │
+  │ Self-Observation     │ Level 4+ meta-      │ Level 0-1 (no explicit │
+  │ (v1.0 §4)            │ learning capacity   │ training, rote focus)  │
   │ GAP: ████████░░ 80%  │                     │                        │
   └──────────────────────┴─────────────────────┴────────────────────────┘
 
 
-TỔNG QUAN GAP: 🟡
+GAP OVERVIEW: 🟡
 
-  Gaps LỚN NHẤT (80-90%):
+  LARGEST GAPS (80-90%):
     → Direction (90%): threat-path dominant → avoidance-tagged learning
     → Per-hardware (90%): structural (class size, teacher shortage)
     → Imagine-Final (90%): cultural (family-driven, credential culture)
@@ -1388,48 +1413,52 @@ TỔNG QUAN GAP: 🟡
     → Bridge (80%): permanent + escalating → anchor dependency
     → Consolidation (80%): sleep deprivation, cramming culture
     → I×S Balance (80%): society >>> individual
+    → Self-Observation (80%): unlabeled deficit, no training
 
-  Gaps TRUNG BÌNH (50-70%):
+  MEDIUM GAPS (50-70%):
     → Foundation (50%): strong in 2/6 domains (cognitive+linguistic)
-    → Depth (60%): GDPT 2018 reform đang diễn ra
+    → Depth (60%): GDPT 2018 reform underway
     → Adaptability (70%): GDPT 2018 targeting
-    → Ecosystem (70%): AI emerging (64% GV đã dùng)
+    → Ecosystem (70%): AI emerging (64% of teachers already using it)
     → Teacher role (70%): willing workforce, needs retraining
     → Parent role (70%): high involvement, redirectable
+    → Trust calibration (70%): infrastructure exists, skill not taught
 
-  ĐIỂM SÁNG:
-    → Foundation literacy/numeracy = gap NHỎ NHẤT
-    → Teacher willingness = PLATFORM cho closing gaps
-    → GDPT 2018 = đang close gaps ở depth + adaptability + feedback
-    → Family involvement = redirectable (gap CÓ THỂ close nhanh NẾU redirect đúng)
+  BRIGHT SPOTS:
+    → Foundation literacy/numeracy = SMALLEST gap
+    → Teacher willingness = PLATFORM for closing gaps
+    → GDPT 2018 = closing gaps in depth + adaptability + feedback
+    → Family involvement = redirectable (gap CAN close quickly IF redirected correctly)
     → AI adoption by teachers (64%) = ahead of OECD
 
-  NEW CONCEPT DIMENSIONS (v2.1): 🟡
-    → Hardware-Subsidy: VN teacher subsidy quality DEGRADED (50 HS/GV),
-      parent subsidy CORRUPTED (guilt-trip). Cultural amplifier TỐT (92% tôn trọng)
-    → Compiled Quality: VN = schema-compiled + threat-compiled dominant.
-      Genuine-compiled (approach-tagged) = HIẾM
-    → Gap-Distribution-Profile: surface assessment → gap HOMOGENIZATION.
-      Millions students cùng gap profile → credential inflation
-    → Dissonance-Signal-Architecture: VN exam = Evaluative + Direct-State COMPOUND.
-      System address NGƯỢC (reframe trước rest) → Direct-State bị bỏ qua
-    → PFC Budget: 40+ HS/lớp = per-individual calibration IMPOSSIBLE.
-      12-15h/day = PFC exhaustion + consolidation cắt
-    → Connection-Education: VN "giáo dục đạo đức" ≠ 5 khía cạnh connection
-    → Entity-Access: teacher Mức 2-3 formal, ít Mức 4 mentoring
-    → Trust: 92% = authority HIGH + intention STRONG + competence VARIABLE.
-      Trust calibration (Default→Calibrated, per-domain) = NOT TAUGHT.
-      Position trust CÓ, person trust per-GV = VARIABLE (Imposed damage)
-    → Self-Observation: NO explicit development trong curriculum.
-      Rote focus → schema-compiled observation at best.
-      Teacher Self-Observation capacity unknown (overworked → PFC Budget depleted → likely LOW)
+
+NEW CONCEPT DIMENSIONS (v2.1): 🟡
+  → Hardware-Subsidy: VN teacher subsidy quality DEGRADED (50 students/teacher),
+    parent subsidy CORRUPTED (guilt-trip). Cultural amplifier STRONG (92% societal respect)
+  → Compiled Quality: VN = schema-compiled + threat-compiled dominant.
+    Genuine-compiled (approach-tagged) = RARE
+  → Gap-Distribution-Profile: surface assessment → gap HOMOGENIZATION.
+    Millions of students with identical gap profiles → credential inflation
+  → Dissonance-Signal-Architecture: VN exam = Evaluative + Direct-State COMPOUND.
+    System addresses BACKWARDS (reframe before rest) → Direct-State ignored
+  → PFC Budget: 40+ students/class = per-individual calibration IMPOSSIBLE.
+    12-15h/day = PFC exhaustion + consolidation cut
+  → Connection-Education: VN "moral education" ≠ 5 connection dimensions
+  → Entity-Access: teacher Level 2-3 formal, little Level 4 mentoring
+  → Trust: 92% = authority HIGH + intention STRONG + competence VARIABLE.
+    Trust calibration (Default→Calibrated, per-domain) = NOT TAUGHT.
+    Position trust EXISTS, person trust per-teacher = VARIABLE (Imposed damage)
+  → Self-Observation: NO explicit development in curriculum.
+    Rote focus → schema-compiled observation at best.
+    Teacher Self-Observation capacity unknown (overworked → PFC Budget depleted
+    → likely LOW)
 
 
-  ⚠️ QUAN TRỌNG — GAP ≠ BLAME:
-    → Gaps = khoảng cách giữa IDEAL (file lý thuyết) và REALITY
-    → IDEAL = CHƯA CÓ NƯỚC NÀO đạt được (kể cả Finland)
-    → Nhiều gaps = UNIVERSAL (mọi nước đều có), không riêng VN
-    → Mục đích: NHẬN DIỆN → ưu tiên → cải thiện dần
+  ⚠️ IMPORTANT — GAP ≠ BLAME:
+    → Gaps = distance between IDEAL (theoretical file) and REALITY
+    → IDEAL = NOT ACHIEVED BY ANY COUNTRY YET (including Finland)
+    → Many gaps = UNIVERSAL (every country has them), not unique to VN
+    → Purpose: IDENTIFY → prioritize → improve gradually
 ```
 
 ---
@@ -1437,81 +1466,81 @@ TỔNG QUAN GAP: 🟡
 ## 6. HONEST ASSESSMENT
 
 ```
-GIỚI HẠN CỦA PHÂN TÍCH NÀY:
+LIMITATIONS OF THIS ANALYSIS:
 
   ① OUTSIDER BIAS:
-    → Framework = built bởi 1 người (dù Vietnamese), từ góc nhìn researcher
-    → Chưa validated bởi: GV VN, PH VN, HS VN, chuyên gia GD VN
-    → Risk: oversimplify, romanticize problems, miss context quan trọng
+    → Framework = built by 1 person (even if Vietnamese), from a researcher perspective
+    → Not yet validated by: VN teachers, VN parents, VN students, VN education experts
+    → Risk: oversimplify, romanticize problems, miss important context
 
   ② FRAMEWORK AS LENS — NOT TRUTH:
-    → Education-Mechanism v2.2: 8 nguyên lý = DERIVED từ brain mechanism
-    → Chưa validated as evaluation tool cho hệ thống giáo dục
-    → Ví dụ: §2.2 (Direction > Level) → framework nói threat-path = xấu
-      → Nhưng VN PISA scores CAO với threat-path → contradiction?
-      → Có thể: scores ≠ deep learning (PISA Level 5+ data confirms)
-      → Nhưng: CHƯA CHỨNG MINH hoàn toàn
-    → Framework = 1 lens → cần NHIỀU lens khác
+    → Education-Mechanism v2.2: 8 principles = DERIVED from brain mechanisms
+    → Not yet validated as an evaluation tool for education systems
+    → Example: §2.2 (Direction > Level) → framework says threat-path = bad
+      → But VN PISA scores HIGH using threat-path → contradiction?
+      → Possibly: scores ≠ deep learning (PISA Level 5+ data confirms)
+      → But: NOT YET FULLY PROVEN
+    → Framework = 1 lens → needs MANY OTHER lenses
 
   ③ DATA QUALITY:
-    → PISA: có thể sampling bias (exclude out-of-school students)
-    → Mental health data: chủ yếu từ specific cities (không representative toàn quốc)
-    → Private tutoring data: 2014 survey → có thể đã thay đổi
+    → PISA: possible sampling bias (excludes out-of-school students)
+    → Mental health data: mainly from specific cities (not nationally representative)
+    → Private tutoring data: 2014 survey → may have changed
     → TALIS 2024: self-reported → social desirability bias
-    → SỐ LIỆU TỪ NHIỀU NĂM KHÁC NHAU → snapshot KHÔNG đồng nhất
+    → DATA FROM DIFFERENT YEARS → snapshot is NOT uniform
 
   ④ MISSING VOICES:
-    → HS: data ABOUT them, không FROM them
-    → GV: TALIS = survey → có thể khác thực tế lớp học
-    → Ethnic minorities: data ít + có thể underreported
+    → Students: data ABOUT them, not FROM them
+    → Teachers: TALIS = survey → may differ from actual classroom reality
+    → Ethnic minorities: data limited + may be underreported
 
-  ⑤ GDPT 2018 = ĐANG DIỄN RA:
-    → 12/12 lớp mới hoàn thành rollout 2024-2025
-    → = Chưa có data outcomes → đánh giá = quá sớm
-    → Nhiều "weaknesses" CÓ THỂ đang được address
+  ⑤ GDPT 2018 = IN PROGRESS:
+    → All 12 grades completed rollout in 2024-2025
+    → = No outcome data yet → assessment = too early
+    → Many "weaknesses" MAY ALREADY BE being addressed
 
   ⑥ CULTURE ≠ PROBLEM:
-    → File có thể tạo ấn tượng văn hóa VN = "xấu" cho GD
-    → KHÔNG PHẢI: văn hóa = CONTEXT, có cả strengths + weaknesses
+    → This file may create the impression that VN culture = "bad" for education
+    → NOT THE CASE: culture = CONTEXT, with both strengths + weaknesses
     → Family involvement, teacher respect, foundation emphasis = STRENGTHS
-    → Chi tiết: xem VN-Cultural-Factors.md (File 2)
+    → Details: see VN-Cultural-Factors.md (File 2)
 
 
-TÓM LẠI — CONFIDENCE LEVELS:
+SUMMARY — CONFIDENCE LEVELS:
 
   ┌──────────────────────────────────┬────────────┬─────────────────────┐
-  │ Phần                             │ Confidence │ Giải thích          │
+  │ Section                          │ Confidence │ Notes               │
   ├──────────────────────────────────┼────────────┼─────────────────────┤
   │ §0 Data (structure, numbers)     │ 🟢         │ Verified sources    │
-  │ §1 Mechanism evaluation (new)   │ 🟡         │ Framework analysis  │
-  │ §2 Strengths identification     │ 🟡         │ Data + interpretation│
-  │ §3 Weakness prioritization      │ 🟡         │ Subjective ranking  │
+  │ §1 Mechanism evaluation (new)    │ 🟡         │ Framework analysis  │
+  │ §2 Strengths identification      │ 🟡         │ Data + interpretation│
+  │ §3 Weakness prioritization       │ 🟡         │ Subjective ranking  │
   │ §4 Data tables                   │ 🟢         │ Sources cited       │
   │ §5 Gap analysis                  │ 🟡→🔴      │ Ideal = theoretical │
-  │ §5 Gap percentages              │ 🔴         │ Rough estimates     │
+  │ §5 Gap percentages               │ 🔴         │ Rough estimates     │
   └──────────────────────────────────┴────────────┴─────────────────────┘
 
 
-KHUYẾN NGHỊ ĐỌC:
+READING RECOMMENDATION:
 
-  → ĐỌC NHƯ: "Education-Mechanism lens NHÌN VN thế nào" — 1 perspective
-  → KHÔNG ĐỌC NHƯ: "VN education = thất bại"
-  → CẦN BỔ SUNG: chuyên gia GD VN, GV thực tế, HS thực tế
-  → CẦN CẬP NHẬT: khi GDPT 2018 có outcome data (~2027-2028)
-  → TIẾP THEO: VN-Cultural-Factors.md → phân tích văn hóa
-    → VN-Recommendations.md → hướng đi cụ thể
+  → READ AS: "How the Education-Mechanism lens SEES Vietnam" — 1 perspective
+  → DO NOT READ AS: "VN education = failure"
+  → NEEDS SUPPLEMENTING WITH: VN education experts, practicing teachers, actual students
+  → NEEDS UPDATE: when GDPT 2018 has outcome data (~2027-2028)
+  → NEXT: VN-Cultural-Factors.md → cultural analysis
+    → VN-Recommendations.md → specific directions
 ```
 
 ---
 
-## KẾT NỐI
+## CONNECTIONS
 
 ```
-FILE NÀY KẾT NỐI VỚI:
+THIS FILE CONNECTS TO:
 
-  ← INPUT — NỀN TẢNG ĐÁNH GIÁ (5 tầng):
+  ← INPUT — EVALUATION FOUNDATION (5 tiers):
 
-    TẦNG 1 — Core-Deep-Dive/:
+    TIER 1 — Core-Deep-Dive/:
       Core-Software.md v2.0 — cycle-based + 14 new concepts
       Core-Hardware.md v1.0 — 4 zones A/B/C/D
       Cortisol-Baseline.md v2.1 — amplifier reframe, 5 Roles
@@ -1526,64 +1555,66 @@ FILE NÀY KẾT NỐI VỚI:
     PFC-BODY-FEEDBACK:
       PFC-Label.md v1.0 ⭐NEW — vocabulary standard
       Body-Feedback-Label.md v1.1 — 3-tier observation labels
-      Self-Observation.md v1.0 ⭐NEW — Mức 0-6 gradient, Tool Not Virtue, 3-component
+      Self-Observation.md v1.0 ⭐NEW — Level 0-6 gradient, Tool Not Virtue,
+        3-component
 
     AGENT-ENTITY:
       Entity-Compiled.md v1.0 ⭐NEW — 40→200h formation, Hub-and-Spoke
-      Entity-Access.md v1.2 ⭐NEW — Mức 0-5 gradient
+      Entity-Access.md v1.2 ⭐NEW — Level 0-5 gradient
 
     NEW-CONCEPTS:
-      Gap-Distribution-Profile.md v1.1 ⭐NEW — 4 trục gap landscape
+      Gap-Distribution-Profile.md v1.1 ⭐NEW — 4 axes of gap landscape
       Compiled-Fresh.md v2.0 — Compiled Quality Dimension (genuine/schema/threat)
       Gap-Body-Need.md v1.0 ⭐NEW — ENGINE/ROAD/VEHICLE §9
 
-    TẦNG 2 — Research/Child-Development/:
+    TIER 2 — Research/Child-Development/:
       Child-Development-Mechanism.md v2.3 — Compile Architecture, approach/avoidance
       Natural-Development.md v2.2 — hardware at birth
       Skill-Introduction.md v2.2 — 0-6 skill development
       Mother-Optimization.md v2.2 — Hardware-Subsidy prenatal
 
-    TẦNG 3 — Research/Human-Learning/ ("bộ 3"):
-      Education-Mechanism.md v2.2 ⭐ — HOW: 8 nguyên lý + 12 new concepts
+    TIER 3 — Research/Human-Learning/ ("Trio"):
+      Education-Mechanism.md v2.2 ⭐ — HOW: 8 principles + 12 new concepts
       Domain-Knowledge-Map.md v2.1 — WHAT: 3-tier taxonomy + new concept mapping
-      Connection-Education.md v1.1 ⭐NEW — WHO: 5 khía cạnh social-emotional
-      Money-Education.md v1.1 — observation: tiền × education
+      Connection-Education.md v1.1 ⭐NEW — WHO: 5 dimensions of social-emotional education
+      Money-Education.md v1.1 — observation: money × education
       Compile-Type-Learning.md v1.3 — observation: compile types + quality
-      Expansion-Saturation-Crisis.md v1.2 — observation: grad unemployment
+      Expansion-Saturation-Crisis.md v1.2 — observation: graduate unemployment
 
-    TẦNG 4 — Applications/Education-System/:
-      Education-System.md v3.2 — ENGINE/ROAD/VEHICLE + "bộ 3" architecture
+    TIER 4 — Applications/Education-System/:
+      Education-System.md v3.2 — ENGINE/ROAD/VEHICLE + "Trio" architecture
       Hardware-Calibration.md v1.2 — per-individual + Body-Feedback-Label
       Era-Analysis-2025.md v2.2 — context 2025+ AI + Phantom
       Curriculum-Framework.md v2.3 — 3-tier + Gap Landscape
 
-    TẦNG 5 — FOLDER NÀY:
-      VN-Education-Status.md v2.2 ← FILE NÀY (data + mechanism v2.2 evaluation + Trust/Self-Observation lens)
+    TIER 5 — THIS FOLDER:
+      VN-Education-Status.md v2.2 ← THIS FILE (data + mechanism v2.2 evaluation +
+        Trust/Self-Observation lens)
 
-  → OUTPUT (sẽ dùng file này):
-    VN-Cultural-Factors.md — §1 analysis dùng data từ file này
-    VN-Recommendations.md — §0 Imagine-Final + §1 priorities = based on gaps từ §5
+  → OUTPUT (files that use this one):
+    VN-Cultural-Factors.md — §1 analysis uses data from this file
+    VN-Recommendations.md — §0 Imagine-Final + §1 priorities = based on gaps from §5
 
 
   KEY TAKEAWAYS TO CARRY FORWARD:
 
-    → Mechanism v2.2 evaluation: 6/8 nguyên lý arc design = ✗ (violate)
-    → v7.8 INSIGHT MỚI: direction SAI (không chỉ level cao)
+    → Mechanism v2.2 evaluation: 6/8 arc design principles = ✗ (violate)
+    → v7.8 NEW INSIGHT: direction WRONG (not just level too high)
       → 3 ORIGIN: Imposed dominant, Domain+Peer suppressed
-      → 4 nguồn: ④ External dominant 12+ năm, ①②③ suppressed
+      → 4 sources: ④ External dominant 12+ years, ①②③ suppressed
     → CRITICAL: threat-dominant learning → avoidance-tagged chunks
-      + Compiled Quality: threat/schema dominant, genuine THIẾU
+      + Compiled Quality: threat/schema dominant, genuine MISSING
       + Dissonance-Signal-Architecture: Evaluative + Direct-State COMPOUND
-    → STRENGTHS: foundation literacy, teacher platform (97% hài lòng,
+    → STRENGTHS: foundation literacy, teacher platform (97% satisfaction,
       Hardware-Subsidy cultural amplifier), GDPT 2018, family (MAX subsidy potential)
     → TOP GAPS: direction 90%, per-hardware 90%, Imagine-Final 90%, 3 ORIGIN 90%
     → NEW CONCEPT GAPS: Hardware-Subsidy corrupted, Gap-Distribution-Profile
       homogenization, PFC Budget impossible calibration, Connection-Education 1≠5,
       Trust calibration NOT TAUGHT (70% gap), Self-Observation NO training (80% gap)
     → TRUST: 92% = authority HIGH + intention STRONG + competence VARIABLE
-      — position trust CÓ, person trust per-GV VARIABLE (Imposed damage)
-    → SELF-OBSERVATION: unlabeled deficit — HS Mức 0-1, cannot self-regulate
-    → GDPT 2018 = BỔ SUNG tốt (feedback + depth + adaptability)
-      nhưng CHƯA COVER: direction, 3 ORIGIN, 4 nguồn, mini-arcs,
+      — position trust EXISTS, person trust per-teacher VARIABLE (Imposed damage)
+    → SELF-OBSERVATION: unlabeled deficit — students at Level 0-1, cannot self-regulate
+    → GDPT 2018 = GOOD SUPPLEMENT (feedback + depth + adaptability)
+      but HAS NOT COVERED: direction, 3 ORIGIN, 4 sources, mini-arcs,
       Dissonance-Signal-Architecture, PFC Budget, Trust calibration, Self-Observation
 ```

@@ -23,14 +23,14 @@ dependencies:
   - Somatic-Articulation-Loop.md §1-§2 (implicit→explicit transition)
   - Learning-Cycle.md §3 (learning mechanism stages)
 test_hypothesis: H12
-language: Tiếng Việt primary + English technical
+language: English
 ---
 
 # 05 — Insight + Tacit Knowledge + Cognition Upgrade
 
-> **File này merge 3 threads liên quan**:
+> **This file merges 3 related threads**:
 > - Insight / Aha moment (Thread 5) — how novel chunks emerge
-> - Tacit knowledge — "biết mà không nói được" mechanism
+> - Tacit knowledge — "knowing without being able to tell" mechanism
 > - Cognition upgrade (Thread 9) — chunk accumulation → emergent capability
 > + H12 FULL treatment (F3 had preliminary only)
 > + Piaget stage reconciliation
@@ -43,8 +43,8 @@ language: Tiếng Việt primary + English technical
 
 ```
 Type 2 Connection (01-Chunk-Connection §1.2):
-  = 2+ chunks CŨ bỗng LINK theo cách MỚI → sudden burst
-  = Phần lớn VÔ THỨC (DMN, incubation), emerge bất ngờ
+  = 2+ OLD chunks suddenly LINK in a NEW way → sudden burst
+  = Largely UNCONSCIOUS (DMN, incubation), emerges unexpectedly
 
 Aha = Type 2 connection producing NOVEL CHUNK:
   → Not just link noted (Type 4) — entire new pattern compiles
@@ -69,7 +69,7 @@ STAGE 1 — PREPARATION (conscious):
   → Type 4 deliberate search: hold A+B → check → hold A+C → check...
   → Body votes: smooth / resist / empty for each connection
   → SOME connections found but INCOMPLETE (problem not solved)
-  → = "Tôi đã thử mọi cách" → conscious search exhausted
+  → = "I've tried everything" → conscious search exhausted
 
 STAGE 2 — INCUBATION (unconscious):
   → PFC releases problem → DMN (Default Mode Network) continues
@@ -87,7 +87,7 @@ STAGE 3 — ILLUMINATION (sudden):
   → → Gamma burst (~30-100 Hz) in right temporal cortex
   → → 🟢 Kounios & Beeman 2009: gamma activity 300ms before insight report
   → Body response: SUDDEN coherence → dopamine + mild cortisol drop
-  → Phenomenology: "EUREKA!" / "Aha!" / "À! Đó là đây!"
+  → Phenomenology: "EUREKA!" / "Aha!" / "That's it!"
   → = Type 2 connection fires — novel chunk compiles via emotional peak mechanism
 
 STAGE 4 — VERIFICATION (conscious):
@@ -109,7 +109,7 @@ WHY LOW-PROBABILITY LINKS PRODUCE INSIGHT:
   → LOW-probability links rarely fire (distant, cross-domain)
   → But when they DO fire → NOVEL connection
   → Novel = potentially valuable IF coherent
-  → Cross-domain links = aha LỚN nhất (01 §1.2: Type 2)
+  → Cross-domain links = BIGGEST aha moments (01 §1.2: Type 2)
 
   → CREATIVITY = SYSTEMATIC access to low-probability pathways:
     → Diverse experience → more low-probability links available
@@ -124,10 +124,10 @@ WHY LOW-PROBABILITY LINKS PRODUCE INSIGHT:
 ⭐ VAGUE WRONGNESS OFTEN PRECEDES INSIGHT:
 
   SEQUENCE:
-    ① Vague detection: "có gì đó sao sao ấy" (04 §3)
+    ① Vague detection: "something feels off" (04 §3)
     ② PFC tries to identify → fails (vague, cannot specify)
     ③ Incubation: problem simmers in background (DMN)
-    ④ Insight: "AH! Cái sao sao ấy là VÌ THẾ NÀY!"
+    ④ Insight: "AH! THAT'S what was behind the vague feeling!"
     ⑤ Vague → Clear transition via Type 2 burst
 
   EXAMPLES:
@@ -189,7 +189,7 @@ FRAMEWORK INTERPRETATION:
   │ Clear ◄──────────────────────────────────────────────► Vague  │
   │                                                               │
   │ ① Body    ② Emotion  ③ Gut     ④ Intuition  ⑤ Hunch  ⑥ Tacit│
-  │ Signal    (named)    feeling   (linh cảm)   (ngờ ngợ) (just  │
+  │ Signal    (named)    feeling                           (just  │
   │                                                        know)  │
   │                                                               │
   │ ① Signal COUNT: 1     2-3      5-10         10-20     100s   │
@@ -270,7 +270,7 @@ DEFINITION:
 
   → Distinct from Gap 1 (pre-verbal: infant has experience, no words yet)
   → Gap 2 = ADULT has extensive vocabulary BUT novel chunk exceeds it
-  → = "Biết gì đó mới nhưng không có từ để diễn tả"
+  → = "Knowing something new but having no words to express it"
 
 MECHANISM:
 
@@ -282,19 +282,19 @@ MECHANISM:
   ② PFC searches verbal library:
      → 🟢 Lexical access (Levelt 1989): PFC retrieves verbal labels
      → Search through available words/phrases
-     → Attempt to match: "concept X là... giống... nó là... hmm..."
+     → Attempt to match: "concept X is... like... it's... hmm..."
 
   ③ NO EXACT MATCH found — 3 possible outcomes:
 
      (a) APPROXIMATE MATCH:
          → Existing word PARTIALLY fits → use with qualifier
-         → "Nó giống [existing word] nhưng không hoàn toàn"
+         → "It's like [existing word] but not quite"
          → = Metaphor, simile, analogy as BRIDGE
-         → = "Cái cảm giác đó như bị mất phương hướng nhưng không hẳn"
+         → = "That feeling is like being lost but not exactly"
 
      (b) DESCRIPTION:
          → Use combination of existing words to DESCRIBE
-         → "Khi bạn scroll tin xấu liên tục mà không dừng được"
+         → "When you endlessly scroll bad news and can't stop"
          → = Description WORKS but is NOT a single label
          → = Not efficient for repeated use
 
@@ -433,7 +433,8 @@ EMERGENT CAPABILITY:
   EXAMPLES:
   → Math: need arithmetic chunks before algebra chunks before calculus chunks
     → Each level REQUIRES lower level as substrate
-    → = "Tính cách của mẹ thì chuỗi chunk không đủ để đoán" (user's insight)
+    → "Tính cách của mẹ thì chuỗi chunk không đủ để đoán" (user's insight)
+    [English: "Mom's personality — there aren't enough chunks to predict it"]
     → = Insufficient chunks → capability not available
 
   → Language: need phoneme chunks → word chunks → syntax chunks → narrative chunks
@@ -489,7 +490,7 @@ FRAMEWORK REFRAME:
   → Piaget saw STAGES (discrete jumps) → Framework sees GRADIENT (continuous accumulation)
   → F1 NT1 confirmed: chunk compilation is gradient, not discrete
   → "Stage transition" = gradient crossed BEHAVIORAL THRESHOLD
-  → Parent observes: "hôm nay con HIỂU" → actually: gradient crossed threshold TODAY
+  → Parent observes: "today the child UNDERSTANDS" → actually: gradient crossed threshold TODAY
   → = "Aha at individual level, stage transition at population level"
 
   ⭐ INDIVIDUAL VARIATION:
@@ -511,7 +512,7 @@ FRAMEWORK EXPLANATION:
   → NOT hardware limit (in most cases)
   → = MISSING CHUNKS in relevant domains
   → = Never compiled abstract meta-chunks in certain areas
-  → = "Chưa bao giờ có" (03 §6.2) — never compiled, not forgot
+  → = "Never Compiled" (03 §6.2) — never compiled, not forgot
 
   WHY STUCK:
   → Limited education → fewer labeled chunks installed (F3 deficit)
@@ -532,7 +533,7 @@ FRAMEWORK EXPLANATION:
     → AI suggests connections → Type 4 search extended
   → BUT: upgrade PERCEPTION (body-base feel) still requires REAL EXPERIENCE
   → AI install labels (Direction B) → human must still FEEL (Direction A)
-  → = "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng"
+  → = "Human needs to FEEL right → AI helps PLAN right"
   → AI accelerates PLAN capacity → human develops FEEL capacity through experience
 ```
 
@@ -548,9 +549,9 @@ SELF-AWARENESS DEVELOPMENT (Agent/Self-Pattern-Modeling §5):
     → Rouge test = marker for self-other distinction
   STAGE 3 (2-7y): Over-apply self-model → attribute feelings to everything
   STAGE 4 (7-12y): Calibrate self-model → domain-appropriate application
-  STAGE 5 (12+): Meta-cognition → "biết mình biết gì"
+  STAGE 5 (12+): Meta-cognition → "knowing what you know"
     → = Chunks ABOUT own chunk library
-    → = PFC observe own schemas → "tôi hay sợ X" → self-knowledge chunk
+    → = PFC observes own schemas → "I tend to fear X" → self-knowledge chunk
 
 RECURSIVE UPGRADE:
   → Level 0: chunks about WORLD (objects, actions, events)
@@ -560,12 +561,12 @@ RECURSIVE UPGRADE:
   → Each level = chunk accumulation AT PREVIOUS LEVEL → threshold → new capability
 
   → LEVEL 2+ = unique to humans with sufficient chunk library
-  → = "Tôi nhận ra mình hay giận khi..." = Level 3 meta-cognition
+  → = "I notice I tend to get angry when..." = Level 3 meta-cognition
   → = Feeling model Feel-Explanation: meta-feeling = Level 3 applied to feelings
 
 ⭐ AI ERA:
   → AI can HELP meta-cognition:
-    → "Bạn nhận ra pattern gì trong các quyết định gần đây?"
+    → "What patterns do you notice in your recent decisions?"
     → = AI prompts Level 2-3 chunk compilation
     → = External mirror for self-observation
   → BUT: AI cannot FEEL the meta-cognition for you
@@ -770,7 +771,7 @@ ACADEMIC REFERENCES:
     → Cognition upgrade model
     → 5 H12 predictions
 
-  Line count: ~900L
+  Line count: ~790L
 ```
 
 ---
@@ -783,4 +784,4 @@ ACADEMIC REFERENCES:
 > "More chunks = more creative potential" — self-reinforcing cycle.
 > Next: 06-Internal-Synthesis.md (verdicts + contracts + bridge).
 >
-> Phiên bản: v1.0, 2026-04-17.
+> Version: v1.0, 2026-04-17.

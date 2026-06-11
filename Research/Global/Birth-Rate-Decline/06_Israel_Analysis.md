@@ -1,714 +1,722 @@
-# 🇮🇱 Israel — ANOMALY: Phát Triển Cao + TFR Cao
+# 🇮🇱 Israel — ANOMALY: High Development + High TFR
 
-> **Israel CHỨNG MINH: demographic transition KHÔNG phải quy luật sắt.**
-> **Khi shared Imagine-Final ĐỦ MẠNH + connection ĐỦ DÀY + schemas ĐỦ TÍCH CỰC,
-> body signal: "ĐỦ ĐIỀU KIỆN cho thế hệ sau" — BẤT KỂ cost cao.**
+> **Israel PROVES: the demographic transition is NOT an iron law.**
+> **When shared Imagine-Final is STRONG ENOUGH + connection is DEEP ENOUGH + schemas are POSITIVE ENOUGH,
+> the body signals: "CONDITIONS ARE SUFFICIENT for the next generation" — REGARDLESS of high cost.**
 >
-> GDP ~$55,000 PPP. Cost of living top thế giới. Nữ đi làm ~60%.
-> TFR = 2.9 — GẤP ĐÔI OECD, GẤP 4 Hàn Quốc.
-> Ngay cả secular Jews: TFR ~2.0, ideal family size = 3 con.
-> Childlessness = 6.4% (Hàn: 43% không kế hoạch sinh).
+> GDP ~$55,000 PPP. Cost of living among the highest in the world. Women employed ~60%.
+> TFR = 2.9 — DOUBLE the OECD average, FOUR TIMES South Korea.
+> Even secular Jews: TFR ~2.0, ideal family size = 3 children.
+> Childlessness = 6.4% (Korea: 43% with no plans to have children).
 
 ---
 
-> **Trạng thái:** DRAFT — framework analysis + validated data
-> **Ngày:** 2026-03-31
-> **Mục đích:** Phân tích chuyên sâu Israel qua 5 trục framework.
-> Tại sao NGƯỢC pattern? Channel nào OVERRIDE cost? Replicable?
-> **Reference:** 00_Overview.md (5 trục tổng thể),
-> 01_South-Korea.md (CONTRAST — 5 trục ĐỀU ÂM),
-> Imagine-Final.md §1 (2 tầng) + §6 (shared Imagine-Final),
+> **Status:** DRAFT — framework analysis + validated data
+> **Date:** 2026-03-31
+> **Purpose:** Deep-dive analysis of Israel through the 5-axis framework.
+> Why does Israel REVERSE the pattern? Which channels OVERRIDE cost? Is it replicable?
+> **References:** 00_Overview.md (5 axes overall),
+> 01_South-Korea.md (CONTRAST — all 5 axes negative),
+> Imagine-Final.md §1 (2-layer structure) + §6 (shared Imagine-Final),
 > Connection.md v3.1 §12 (Connection × Imagine-Final),
-> Global-Melody.md §2 (shared Imagine-Final = nhóm hoạt động),
+> Global-Melody.md §2 (shared Imagine-Final = group activation),
 > Conflict-Dynamics.md §7 (scarcity = engine),
 > Collective-Body.md v1.1 (collective-level schema persistence)
-> **⚠️ Data thực + framework interpretation — PHÂN BIỆT RÕ 🟢/🟡/🔴**
-> **Quy ước:** 🟢 Research/data support | 🟡 Suy luận từ framework | 🔴 Hypothesis
+> **⚠️ Real data + framework interpretation — clearly distinguish 🟢/🟡/🔴**
+> **Convention:** 🟢 Research/data support | 🟡 Framework inference | 🔴 Hypothesis
 
 ---
 
-## Mục Lục
+## Table of Contents
 
 ```
-  §1   DATA TỔNG QUAN — Timeline + Key Stats + Breakdown
-  §2   TẠI SAO NGƯỢC PATTERN — 5 Trục: Israel vs Hàn Quốc
-  §3   SHARED IMAGINE-FINAL — Yếu Tố Quyết Định
-  §4   CONNECTION — Shabbat × Gia Đình × Cộng Đồng
-  §5   SCHEMAS COMPILED = "CÓ CON = TỐT" (Ngược Hàn)
-  §6   REPAIR CYCLE — Shabbat Như Built-In Repair
-  §7   SECULAR SURPRISE — Tại Sao Secular Jews TFR ~2.0
-  §8   POST-CRISIS FERTILITY — Chiến Tranh → Sinh NHIỀU Hơn
-  §9   WARNING SIGNS — Xu Hướng Giảm Đang Diễn Ra
-  §10  BÀI HỌC CHO CÁC NƯỚC — Replicable?
+  §1   DATA OVERVIEW — Timeline + Key Stats + Breakdown
+  §2   WHY THE REVERSE PATTERN — 5 Axes: Israel vs South Korea
+  §3   SHARED IMAGINE-FINAL — The Decisive Factor
+  §4   CONNECTION — Shabbat × Family × Community
+  §5   COMPILED SCHEMAS = "HAVING CHILDREN = GOOD" (Opposite of Korea)
+  §6   REPAIR CYCLE — Shabbat as Built-In Repair
+  §7   THE SECULAR SURPRISE — Why Secular Jewish TFR is ~2.0
+  §8   POST-CRISIS FERTILITY — War → MORE Births
+  §9   WARNING SIGNS — The Declining Trend Underway
+  §10  LESSONS FOR OTHER COUNTRIES — Replicable?
   §11  HONEST ASSESSMENT
-  §12  CÂU HỎI MỞ
-  §13  KẾT NỐI VỚI CÁC FILE KHÁC
+  §12  OPEN QUESTIONS
+  §13  CONNECTIONS TO OTHER FILES
 ```
 
 ---
 
-## 1. Data Tổng Quan
+## 1. Data Overview
 
 ```
-🟢 TIMELINE — ỔN ĐỊNH ~3.0 SUỐT 45 NĂM:
+🟢 TIMELINE — STABLE ~3.0 FOR 45 YEARS:
 
   ┌────────────┬───────┬────────────────────────────────────────────┐
-  │ Giai đoạn  │ TFR   │ Sự kiện                                    │
+  │ Period     │ TFR   │ Event                                      │
   ├────────────┼───────┼────────────────────────────────────────────┤
-  │ 1950-55    │ ~4.0  │ Lập quốc + nhập cư ồ ạt                   │
-  │ 1960-65    │ ~3.9  │ Arab TFR 9+ / Jewish TFR ~3.4              │
-  │ 1970-75    │ ~3.7  │ Arab bắt đầu giảm                         │
-  │ 1980-85    │ ~3.1  │ ỔN ĐỊNH bắt đầu — ~3.0 từ đây            │
-  │ 1990-95    │ ~2.9  │ Nhập cư Liên Xô (TFR thấp hơn) → vẫn ~3 │
-  │ 2005-10    │ ~2.96 │ Non-Haredi Jewish TFR TĂNG                │
-  │ 2015-18    │ ~3.1  │ ĐỈNH — cao nhất thời kỳ hiện đại          │
-  │ 2022       │ ~2.89 │ Bắt đầu giảm nhẹ                         │
-  │ 2023       │ ~2.84 │ Giảm tiếp + chiến tranh Oct 7             │
-  │ 2024       │ ~2.9  │ Baby boom: +10% births cuối năm           │
-  │ 2025       │ ~2.9  │ 183,705 births. Dân số vượt 10 triệu     │
+  │ 1950–55    │ ~4.0  │ State founded + mass immigration           │
+  │ 1960–65    │ ~3.9  │ Arab TFR 9+ / Jewish TFR ~3.4             │
+  │ 1970–75    │ ~3.7  │ Arab fertility begins declining            │
+  │ 1980–85    │ ~3.1  │ STABILIZATION begins — ~3.0 from here on  │
+  │ 1990–95    │ ~2.9  │ Soviet Jewish immigration (lower TFR) → still ~3│
+  │ 2005–10    │ ~2.96 │ Non-Haredi Jewish TFR RISING              │
+  │ 2015–18    │ ~3.1  │ PEAK — highest in modern period           │
+  │ 2022       │ ~2.89 │ Slight decline begins                     │
+  │ 2023       │ ~2.84 │ Continued decline + October 7th war       │
+  │ 2024       │ ~2.9  │ Baby boom: +10% births in late year       │
+  │ 2025       │ ~2.9  │ 183,705 births. Population surpasses 10M  │
   └────────────┴───────┴────────────────────────────────────────────┘
 
-  ⭐ KHÁC BIỆT CƠ BẢN VỚI MỌI NƯỚC PHÁT TRIỂN:
-    → Hàn: 6.16 → 0.72 (giảm 88%)
-    → Nhật: 4.3 → 1.2 (giảm 72%)
-    → Israel: 4.0 → 2.9 (giảm 28% — rồi ỔN ĐỊNH 45 năm)
-    → = Israel KHÔNG "giảm rồi tiếp tục giảm"
-    → = Israel "giảm → ổn định → TĂNG NHẸ (2005-2018) → giảm nhẹ"
+  ⭐ FUNDAMENTAL DIFFERENCE FROM ALL OTHER DEVELOPED NATIONS:
+    → Korea: 6.16 → 0.72 (−88%)
+    → Japan: 4.3 → 1.2 (−72%)
+    → Israel: 4.0 → 2.9 (−28% — then STABLE for 45 years)
+    → = Israel does NOT "decline and keep declining"
+    → = Israel "declined → stabilized → SLIGHTLY ROSE (2005–2018) → slight decline"
 
 
-🟢 BREAKDOWN THEO NHÓM — KHÔNG CHỈ LÀ HAREDI:
+🟢 BREAKDOWN BY GROUP — NOT JUST THE HAREDI:
 
   ┌───────────────────────┬──────┬───────────┬───────────────────────┐
-  │ Nhóm                  │ % DS │ TFR       │ Trend                 │
+  │ Group                 │ % Pop│ TFR       │ Trend                 │
   ├───────────────────────┼──────┼───────────┼───────────────────────┤
-  │ Secular (Hiloni)      │ ~42% │ ~2.0      │ Giảm (→ ~1.7 2030s) │
-  │ Traditional non-rel.  │ ~22% │ ~2.2-2.5  │ Giảm nhẹ             │
-  │ Traditional religious  │ ~11% │ ~2.8-3.0  │ Ổn định              │
-  │ Religious/Mod.Orthodox│ ~11% │ ~3.77     │ Ổn định              │
-  │ Haredi (ultra-Ortho.) │ ~14% │ ~6.5      │ Giảm (từ 7.5)        │
+  │ Secular (Hiloni)      │ ~42% │ ~2.0      │ Declining (→ ~1.7 2030s)│
+  │ Traditional non-rel.  │ ~22% │ ~2.2–2.5  │ Slight decline        │
+  │ Traditional religious  │ ~11% │ ~2.8–3.0  │ Stable                │
+  │ Religious/Mod. Orthodox│ ~11% │ ~3.77     │ Stable                │
+  │ Haredi (ultra-Ortho.) │ ~14% │ ~6.5      │ Declining (from 7.5)  │
   ├───────────────────────┼──────┼───────────┼───────────────────────┤
-  │ Muslim                │      │ 2.68      │ Giảm mạnh (từ 9.2!)  │
-  │ Christian             │      │ 1.62      │ Dưới replacement      │
-  │ Druze                 │      │ 1.64      │ Dưới replacement      │
+  │ Muslim                │      │ 2.68      │ Falling sharply (from 9.2!)│
+  │ Christian             │      │ 1.62      │ Below replacement      │
+  │ Druze                 │      │ 1.64      │ Below replacement      │
   └───────────────────────┴──────┴───────────┴───────────────────────┘
 
-  ⭐ KEY FINDING — CỰC KỲ QUAN TRỌNG:
-    → Non-Haredi Jewish TFR = 2.45 → CAO HƠN MỌI NƯỚC OECD KHÁC
-    → Secular Jewish TFR = ~2.0 → CAO HƠN Pháp (1.8), Mỹ (1.6), Đức (1.5)
-    → = NGAY CẢ BỎ HAREDI → Israel VẪN cao nhất OECD
-    → = Anomaly KHÔNG PHẢI chỉ vì tôn giáo cực đoan
+  ⭐ KEY FINDING — CRITICALLY IMPORTANT:
+    → Non-Haredi Jewish TFR = 2.45 → HIGHER THAN EVERY OTHER OECD COUNTRY
+    → Secular Jewish TFR = ~2.0 → HIGHER THAN France (1.8), USA (1.6), Germany (1.5)
+    → = EVEN EXCLUDING THE HAREDI → Israel STILL highest in OECD
+    → = The anomaly is NOT explained by extreme religious communities alone
 
 
-🟢 KEY STATS — SO SÁNH VỚI HÀN QUỐC:
+🟢 KEY STATS — COMPARISON WITH SOUTH KOREA:
 
   ┌──────────────────────────┬─────────────┬─────────────┐
-  │ Chỉ số                   │ 🇮🇱 Israel   │ 🇰🇷 Hàn Quốc │
+  │ Indicator                │ 🇮🇱 Israel   │ 🇰🇷 S. Korea │
   ├──────────────────────────┼─────────────┼─────────────┤
   │ TFR                      │ 2.9         │ 0.75        │
   │ Marriage rate (/1000)     │ 6.2 (#1)    │ 4.4         │
-  │ Childlessness (nữ)       │ 6.4%        │ 43% no plan │
-  │ Ideal family size (sec.) │ 3.1 con     │ —           │
-  │ "Không cần con"          │ (rất hiếm)  │ 52.6%       │
+  │ Childlessness (women)    │ 6.4%        │ 43% no plan │
+  │ Ideal family size (sec.) │ 3.1 children│ —           │
+  │ "Don't need children"    │ (very rare) │ 52.6%       │
   │ GDP per capita (PPP)     │ ~$55,000    │ ~$53,000    │
-  │ Cost of living           │ RẤT CAO     │ RẤT CAO     │
-  │ Nữ đi làm               │ ~60%        │ ~60%        │
+  │ Cost of living           │ VERY HIGH   │ VERY HIGH   │
+  │ Female employment        │ ~60%        │ ~60%        │
   │ Gender pay gap           │ 25.4%       │ 29%         │
-  │ Giờ làm/năm             │ 1,753       │ 1,872       │
-  │ Fertility sau khủng hoảng│ TĂNG        │ GIẢM        │
-  │ Fertility × kinh tế      │ DECOUPLED   │ COUPLED     │
+  │ Annual work hours        │ 1,753       │ 1,872       │
+  │ Fertility after crisis   │ RISES       │ FALLS       │
+  │ Fertility × economics    │ DECOUPLED   │ COUPLED     │
   └──────────────────────────┴─────────────┴─────────────┘
 
-  → GDP tương đương. Cost tương đương. Nữ đi làm tương đương.
-  → TFR: GẤP 4 LẦN.
-  → = Yếu tố kinh tế KHÔNG giải thích được
-  → = Phải có yếu tố KHÁC đang override
+  → GDP equivalent. Cost equivalent. Female employment equivalent.
+  → TFR: 4 TIMES HIGHER.
+  → = Economic factors CANNOT explain this
+  → = Something ELSE is overriding them
 ```
 
 ---
 
-## 2. Tại Sao Ngược Pattern — 5 Trục: Israel vs Hàn Quốc
+## 2. Why the Reverse Pattern — 5 Axes: Israel vs South Korea
 
 ```
-🟡 ÁP DỤNG 5 TRỤC FRAMEWORK — NHƯNG ĐẢO NGƯỢC:
+🟡 APPLYING THE 5-AXIS FRAMEWORK — BUT REVERSED:
 
-  ① CON CÁI: ASSET → COST?
-    → Hàn: con = COST THUẦN TÚY (cost cực đại, return không rõ)
-    → Israel: con VẪN = COST kinh tế → NHƯNG đồng thời:
-      → = Religious value ("Be fruitful and multiply" = mitzvah đầu tiên)
-      → = National value ("mỗi đứa trẻ = 1 soldier tương lai")
-      → = Survival value ("thay thế 6 triệu")
-      → = Social value (ít con → "thương hại hoặc nghi ích kỷ")
-      → = CON vẫn là ASSET ở connection + status/meaning (evaluative)
-      → = Cost L1 EXIST → nhưng bị OVERRIDE bởi connection + evaluative value
+  ① CHILDREN: ASSET → COST?
+    → Korea: children = PURE COST (maximum cost, unclear return)
+    → Israel: children STILL = an economic cost → BUT simultaneously:
+      → = Religious value ("Be fruitful and multiply" = the first mitzvah)
+      → = National value ("every child = one future soldier")
+      → = Survival value ("replacing the six million")
+      → = Social value (few children → "pitied or suspected of selfishness")
+      → = Children remain an ASSET at the connection + meaning/evaluative level
+      → = L1 cost EXISTS → but OVERRIDDEN by connection + evaluative value
 
-  ② IMAGINE-FINAL CẠNH TRANH?
-    → Hàn: career/travel/freedom THẮNG "gia đình"
-    → Israel: "gia đình" CẠNH TRANH NGANG với career:
-      → Career VẪN quan trọng (high-tech, startup nation)
-      → NHƯNG "gia đình" = KHÔNG BỊ COI LÀ ĐỐI LẬP với career
-      → Secular ideal = 3 con + career → CẢ HAI, không phải chọn 1
-      → = Imagine-Final "gia đình" VÀ "career" = CÙNG TỒN TẠI
-      → ≠ Hàn: "chọn con HOẶC career"
+  ② COMPETING IMAGINE-FINALS?
+    → Korea: career/travel/freedom WINS over "family"
+    → Israel: "family" COMPETES ON EQUAL TERMS with career:
+      → Career STILL important (high-tech, startup nation)
+      → BUT "family" is NOT SEEN AS OPPOSITE to career
+      → Secular ideal = 3 children + career → BOTH, not a forced choice
+      → = "Family" Imagine-Final AND "career" Imagine-Final = COEXIST
+      → ≠ Korea: "choose children OR career"
 
-  ③ REPAIR CYCLE BỊ PHÁ?
-    → Hàn: overwork + ngủ kém + không có rhythm nghỉ
-    → Israel: Shabbat = BUILT-IN repair cycle MỖI TUẦN
-      → Thứ 6 chiều → thứ 7: TOÀN BỘ xã hội chậm lại
-      → 70%+ Shabbat dinner hàng tuần (kể cả secular)
-      → = Body có rhythm: 6 ngày drive + 1 ngày repair
-      → = Repair cycle ĐƯỢC CẤU TRÚC vào văn hóa
+  ③ REPAIR CYCLE DISRUPTED?
+    → Korea: overwork + poor sleep + no rhythm of rest
+    → Israel: Shabbat = BUILT-IN repair cycle EVERY WEEK
+      → Friday evening → Saturday night: THE ENTIRE SOCIETY slows down
+      → 70%+ Shabbat dinner every week (including secular)
+      → = Body has rhythm: 6 days drive + 1 day repair
+      → = Repair cycle STRUCTURED INTO the culture
 
   ④ COMPILED SCHEMAS?
-    → Hàn: "có con = khổ" compiled 3 thế hệ
-    → Israel: "có con = TỐT + NGHĨA VỤ + SỐNG SÓT" compiled millennia
-      → 93-97% secular Jews tham dự Seder Pesach
-      → Seder = kể lại câu chuyện SINH TỒN + truyền cho con
-      → = Schema "truyền lại cho thế hệ sau" compiled CỰC SÂU
-      → = Schema "có con = tốt" ≠ policy → cultural DNA
+    → Korea: "having children = suffering" compiled over 3 generations
+    → Israel: "having children = GOOD + OBLIGATION + SURVIVAL" compiled for millennia
+      → 93–97% secular Jews attend Seder Pesach
+      → Seder = recounting the SURVIVAL story + passing it to children
+      → = Schema "transmitting to the next generation" compiled EXTREMELY DEEPLY
+      → = Schema "having children = good" ≠ policy → cultural DNA
 
-  ⑤ CONNECTION SUY GIẢM?
-    → Hàn: nuclear family, Seoul cô đơn
-    → Israel: extended family VẪN MẠNH
-      → Gia đình sống GẦN nhau (địa lý nhỏ: cả nước như 1 tỉnh)
-      → Ông bà ACTIVE chăm cháu
-      → Shabbat + holidays = multi-generational gathering MỖI TUẦN
-      → = Connection (evaluative) DUY TRÌ → nuôi con = SHARED task
+  ⑤ CONNECTION DECLINING?
+    → Korea: nuclear family, lonely Seoul
+    → Israel: extended family STILL STRONG
+      → Families live NEAR EACH OTHER (tiny country: entire nation like one province)
+      → Grandparents ACTIVELY care for grandchildren
+      → Shabbat + holidays = multi-generational gathering EVERY WEEK
+      → = Connection (evaluative) MAINTAINED → child-raising = SHARED task
 
 
-  ⭐ BẢNG TỔNG HỢP — MỖI TRỤC NGƯỢC NHAU HOÀN TOÀN:
+  ⭐ SUMMARY TABLE — EVERY AXIS REVERSED:
 
   ┌──────────────────────┬──────────────────────┬──────────────────────┐
-  │ Trục                 │ 🇰🇷 Hàn (0.72)       │ 🇮🇱 Israel (2.9)     │
+  │ Axis                 │ 🇰🇷 Korea (0.72)     │ 🇮🇱 Israel (2.9)     │
   ├──────────────────────┼──────────────────────┼──────────────────────┤
-  │ ① Cost vs Value      │ Cost THUẦN TÚY       │ Cost + VALUE eval.   │
-  │ ② Competing Imag-Final│ Career THẮNG gia đình│ Career + gia đình    │
-  │ ③ Repair cycle       │ PHÁ (overwork)       │ CẤU TRÚC (Shabbat)  │
-  │ ④ Schemas            │ "con = khổ" (3 gen)  │ "con = tốt" (millennia)│
-  │ ⑤ Connection         │ THIẾU (nuclear/urban)│ MẠNH (extended/close)│
+  │ ① Cost vs Value      │ PURE COST            │ Cost + evaluative    │
+  │                      │                      │ VALUE                │
+  │ ② Competing Imag-Final│ Career WINS         │ Career + family      │
+  │                      │                      │ COEXIST              │
+  │ ③ Repair cycle       │ DESTROYED (overwork) │ STRUCTURED (Shabbat) │
+  │ ④ Schemas            │ "children = pain"    │ "children = good"    │
+  │                      │ (3 generations)      │ (millennia)          │
+  │ ⑤ Connection         │ LACKING (nuclear/    │ STRONG (extended/    │
+  │                      │ urban)               │ close)               │
   ├──────────────────────┼──────────────────────┼──────────────────────┤
-  │ KẾT QUẢ             │ Body: "KHÔNG ĐỦ ĐK"  │ Body: "ĐỦ ĐK"       │
+  │ RESULT               │ Body: "INSUFFICIENT  │ Body: "CONDITIONS    │
+  │                      │ CONDITIONS"          │ SUFFICIENT"          │
   └──────────────────────┴──────────────────────┴──────────────────────┘
 ```
 
 ---
 
-## 3. Shared Imagine-Final — Yếu Tố Quyết Định
+## 3. Shared Imagine-Final — The Decisive Factor
 
 ```
-🟡 ISRAEL = CASE STUDY CỦA SHARED IMAGINE-FINAL CỰC MẠNH:
+🟡 ISRAEL = CASE STUDY OF EXTREMELY STRONG SHARED IMAGINE-FINAL:
 
-  ⭐ ref: Global-Melody.md §2 — "Tại sao nhóm hoạt động = shared Imagine-Final"
+  ⭐ ref: Global-Melody.md §2 — "Why groups activate = shared Imagine-Final"
   ⭐ ref: Imagine-Final.md §6 — "Shared Imagine-Final = collaborate"
 
-  ISRAEL CÓ NHIỀU LỚP SHARED IMAGINE-FINAL CHỒNG CHẤT:
+  ISRAEL HAS MULTIPLE LAYERS OF SHARED IMAGINE-FINAL STACKED:
 
 
-  LỚP 1 — TÔN GIÁO: "Be fruitful and multiply"
-    → Mitzvah (nghĩa vụ) ĐẦU TIÊN trong Torah (Genesis 1:28)
-    → KHÔNG CHỈ khuyên → MÀ nghĩa vụ tôn giáo (bắt buộc)
-    → Halakha (luật Do Thái): tối thiểu 1 con trai + 1 con gái = SÀN
-    → Câu chuyện Sara, Rachel, Hannah: hiếm muộn = BI KỊCH
-    → = Imagine-Final "có con" compiled QUA MILLENNIA (3000+ năm)
-    → = Sâu hơn BẤT KỲ policy nào — đây là cultural DNA
+  LAYER 1 — RELIGIOUS: "Be fruitful and multiply"
+    → The FIRST mitzvah (obligation) in the Torah (Genesis 1:28)
+    → NOT merely advice → but a RELIGIOUS DUTY (binding obligation)
+    → Halakha (Jewish law): minimum of 1 son + 1 daughter = FLOOR
+    → Stories of Sara, Rachel, Hannah: infertility = TRAGEDY
+    → = Imagine-Final "have children" compiled OVER MILLENNIA (3,000+ years)
+    → = DEEPER than ANY policy — this is cultural DNA
 
 
-  LỚP 2 — SINH TỒN: "Thay thế 6 triệu"
-    → Holocaust: 6 triệu bị giết → "nghĩa vụ SỐNG SÓT"
-    → "Sợ bị diệt vong ám ảnh chúng tôi" (Orna Donath, nhà xã hội học)
-    → 77% Jewish Israelis: mối đe dọa Iran = EXISTENTIAL
-    → = Imagine-Final "sinh con" = "đảm bảo dân tộc KHÔNG BIẾN MẤT"
-    → = L0 threat CHUYỂN HÓA thành shared Imagine-Final (evaluative)
-    → = Đặc biệt: threat → KHÔNG suppress sinh (như thông thường)
-    →                     MÀ DRIVE sinh (vì sinh = survival response)
+  LAYER 2 — SURVIVAL: "Replacing the six million"
+    → Holocaust: 6 million killed → "obligation to SURVIVE"
+    → "Fear of extinction haunts us" (Orna Donath, sociologist)
+    → 77% of Jewish Israelis: the Iranian threat = EXISTENTIAL
+    → = Imagine-Final "having children" = "ensuring the people DO NOT DISAPPEAR"
+    → = L0 threat TRANSFORMS into shared Imagine-Final (evaluative)
+    → = Special: threat → DOES NOT SUPPRESS birth (as normally)
+    →               BUT DRIVES birth (because birth = survival response)
 
 
-  LỚP 3 — QUỐC GIA: "Mỗi công dân = 1 soldier tương lai"
-    → "Nếu không đủ công dân → không đủ lính → không sống sót"
-    → Zionism: xây dựng quốc gia = MỖI người đóng góp
-    → Ben-Gurion (secular!): vẫn dạy Bible → vì NATIONAL identity
-    → Military service bắt buộc CẢ NAM + NỮ → shared experience
-    → = Imagine-Final "con = đóng góp cho quốc gia"
-    → = Ngay cả secular: "sinh con = phục vụ đất nước" (vô thức)
+  LAYER 3 — NATIONAL: "Every citizen = one future soldier"
+    → "Without enough citizens → not enough soldiers → won't survive"
+    → Zionism: building the state = EVERY person contributes
+    → Ben-Gurion (secular!): still taught the Bible → for NATIONAL identity
+    → Military service mandatory for BOTH genders → shared experience
+    → = Imagine-Final "children = contributing to the nation"
+    → = Even secular: "having children = serving the country" (unconscious)
 
 
-  LỚP 4 — XÃ HỘI: "Gia đình = nền tảng xã hội"
-    → "Toàn bộ nền tảng xã hội Israel là GIA ĐÌNH" (nghiên cứu)
-    → Israel = "một cơ thể, một gia đình" (ẩn dụ quốc gia)
-    → Không có con → "thương hại hoặc nghi ích kỷ" (social pressure)
-    → Rất ít Jewish Israelis nói muốn 0 hoặc 1 con
-    → = Imagine-Final "gia đình lớn" = SOCIAL DEFAULT
-    → ≠ Hàn: "không con = tự do, bình thường"
-    → = Israel: "không con = thiếu sót, đáng thương"
+  LAYER 4 — SOCIAL: "Family = the foundation of society"
+    → "The entire social foundation of Israel IS FAMILY" (research)
+    → Israel = "one body, one family" (national metaphor)
+    → No children → "pitied or suspected of selfishness" (social pressure)
+    → Very few Jewish Israelis say they want 0 or 1 children
+    → = Imagine-Final "large family" = SOCIAL DEFAULT
+    → ≠ Korea: "no children = freedom, normal"
+    → = Israel: "no children = deficiency, pitiful"
 
 
-  ⭐ 4 LỚP NÀY CHỒNG CHẤT → OVERRIDE COST:
+  ⭐ THESE 4 LAYERS STACK → OVERRIDE COST:
 
-    Tôn giáo: "nghĩa vụ thiêng liêng"
-      + Sinh tồn: "không được biến mất"
-        + Quốc gia: "mỗi con = 1 soldier"
-          + Xã hội: "gia đình = bình thường"
-            = TỔNG LỰC Imagine-Final "sinh con" >>> cost kinh tế
+    Religion: "sacred obligation"
+      + Survival: "must not disappear"
+        + National: "every child = one soldier"
+          + Social: "family = normal"
+            = COMBINED Imagine-Final force "have children" >>> economic cost
 
-    → ĐÚNG: cost Israel CAO (Tel Aviv đắt đỏ)
-    → NHƯNG: 4 lớp shared Imagine-Final = body feel "PHẢI sinh"
-    → = PFC tính cost → NHƯNG vô thức (tầng 1) đã compiled
-        "sinh con = đúng + tốt + nghĩa vụ + sống sót"
-    → = Tầng 1 WINS — vì compiled millennia, mạnh hơn PFC cost-calc
+    → TRUE: Israel's cost IS HIGH (Tel Aviv is expensive)
+    → BUT: 4 layers of shared Imagine-Final = body feels "MUST have children"
+    → = Prefrontal Cortex calculates cost → BUT unconscious (Layer 1) has already compiled
+        "having children = right + good + obligation + survival"
+    → = Layer 1 WINS — compiled millennia, stronger than Prefrontal Cortex cost-calculation
 
-    → = ĐÂY là lý do fertility DECOUPLED from economics:
-    → Kinh tế ảnh hưởng PFC cost-calculation
-    → Nhưng shared Imagine-Final ảnh hưởng TẦNG 1 (vô thức)
-    → Tầng 1 > PFC → economics không matter
+    → = THIS is why fertility is DECOUPLED from economics:
+    → Economics influences Prefrontal Cortex cost-calculation
+    → But shared Imagine-Final influences LAYER 1 (unconscious)
+    → Layer 1 > Prefrontal Cortex → economics don't matter
 ```
 
 ---
 
-## 4. Connection — Shabbat × Gia Đình × Cộng Đồng
+## 4. Connection — Shabbat × Family × Community
 
 ```
-🟡 CONNECTION ISRAEL = DUY TRÌ CÓ CẤU TRÚC — KHÔNG SUY GIẢM NHƯ HÀN:
+🟡 CONNECTION IN ISRAEL = STRUCTURALLY MAINTAINED — DOES NOT DECLINE LIKE KOREA:
 
-  ⭐ SHABBAT = CƠ CHẾ CONNECTION HÀNG TUẦN:
+  ⭐ SHABBAT = WEEKLY CONNECTION MECHANISM:
 
     🟢 Data:
-      → 70%+ Jewish Israelis: Shabbat dinner với gia đình MỖI TUẦN
-      → Kể cả secular: dinner thứ 6 tối = "mặc định"
-      → Thanh niên chưa lập gia đình: VỀ NHÀ BỐ MẸ cho Shabbat
-      → = Connection (evaluative) được REINFORCE 52 lần/năm (mỗi tuần)
+      → 70%+ Jewish Israelis: Shabbat dinner with family EVERY WEEK
+      → Even secular: Friday evening dinner = "the default"
+      → Young adults not yet married: COME HOME TO PARENTS for Shabbat
+      → = Connection (evaluative) REINFORCED 52 times/year (every week)
 
     🟡 Framework:
-      → Shabbat = ritual DUY TRÌ connection per layer:
-        L2 (belonging): "tôi thuộc về gia đình này"
-        meaning (evaluative): "tôi là phần của dòng dõi 3000 năm"
+      → Shabbat = ritual MAINTAINING connection across layers:
+        L2 (belonging): "I belong to this family"
+        Meaning (evaluative): "I am part of a 3,000-year lineage"
       → Connection × Imagine-Final (ref: Connection.md v3.1 §12):
-        → Connection MỖI TUẦN → Imagine-Final "gia đình" được FEED liên tục
-        → ≠ Hàn: connection suy giảm → Imagine-Final "gia đình" KHÔNG feed
-      → = Shabbat = weekly REINFORCEMENT cho shared Imagine-Final
+        → Weekly connection → Imagine-Final "family" continuously FED
+        → ≠ Korea: connection declining → "family" Imagine-Final STARVED
+      → = Shabbat = weekly REINFORCEMENT of shared Imagine-Final
 
 
-  ⭐ EXTENDED FAMILY = CHIA TẢI:
-
-    🟢 Data:
-      → Gia đình sống GẦN NHAU (Israel nhỏ: ~470km dài)
-      → Ông bà ACTIVE chăm cháu (expected, không phải ngoại lệ)
-      → Holidays: Pesach, Rosh Hashanah, Sukkot = multi-generational
-      → = 1 đứa trẻ = NHIỀU người chăm → CHIA TẢI
-
-    🟡 Framework:
-      → Hàn: 1 đứa trẻ = 1-2 người gánh → overwhelming
-      → Israel: 1 đứa trẻ = ông bà + cô chú + hàng xóm → manageable
-      → = Investment cost PER PARENT GIẢM vì CHIA TẢI
-      → = "Nuôi 3 con ở Israel" < "nuôi 1 con ở Seoul" (perceived burden)
-
-
-  ⭐ KIBBUTZ LEGACY — "CẢ LÀNG NUÔI CON":
+  ⭐ EXTENDED FAMILY = SHARED BURDEN:
 
     🟢 Data:
-      → Kibbutz xưa: trẻ sống trong "nhà trẻ em" chung
-      → Metaplot (bảo mẫu) chuyên nghiệp chăm, bố mẹ thăm 2-3h/ngày
-      → Nay: chỉ ~2.5% dân sống kibbutz → NHƯNG legacy = cultural norm
-      → Legacy: "xã hội có TRÁCH NHIỆM CHUNG với trẻ em"
+      → Families live NEAR EACH OTHER (Israel is tiny: ~470km long)
+      → Grandparents ACTIVELY care for grandchildren (expected, not exceptional)
+      → Holidays: Pesach, Rosh Hashanah, Sukkot = multi-generational gatherings
+      → = 1 child = MANY people raising together → BURDEN SHARED
 
     🟡 Framework:
-      → Kibbutz = nguyên mẫu "community childcare"
-      → Compile schema: "nuôi con ≠ gánh 1 mình → CẢ CỘNG ĐỒNG giúp"
-      → ≠ Hàn: schema "nuôi con = MÌNH gánh HẾT"
-      → = Schemas khác nhau DẪN ĐẾN quyết định khác nhau
+      → Korea: 1 child = 1–2 people carrying the burden → overwhelming
+      → Israel: 1 child = grandparents + aunts/uncles + neighbors → manageable
+      → = Investment cost PER PARENT REDUCED because burden is SHARED
+      → = "Raising 3 children in Israel" < "raising 1 child in Seoul" (perceived burden)
 
 
-  ⭐ MILITARY SERVICE = CONNECTION MỌI GIỚI + MỌI TẦNG LỚP:
+  ⭐ KIBBUTZ LEGACY — "THE WHOLE VILLAGE RAISES THE CHILD":
 
     🟢 Data:
-      → Bắt buộc CẢ NAM + NỮ (unique trên thế giới)
-      → Nam: ~3 năm / Nữ: ~2 năm
-      → IDF = "nồi nấu chảy" — mọi background phục vụ chung
+      → Historical kibbutz: children lived in communal "children's houses"
+      → Professional metaplot (caretakers) raised them; parents visited 2–3 hours/day
+      → Today: only ~2.5% of population lives in kibbutzim → BUT legacy = cultural norm
+      → Legacy: "society has SHARED RESPONSIBILITY for children"
 
     🟡 Framework:
-      → Military = shared experience → CONNECTION cực mạnh:
-        → L1: cùng chịu hardship
-        → L2: bonds chiến hữu (deepest connection)
-        → evaluative: cùng Imagine-Final "bảo vệ đất nước"
-      → = NAM + NỮ ĐỀU có shared experience → KHÔNG gender conflict kiểu Hàn
-      → = Nữ Hàn: "quân đội = bất bình đẳng" → Israel: "tôi CŨNG phục vụ"
-      → = Gender solidarity thay vì gender conflict
+      → Kibbutz = archetype of "community childcare"
+      → Compiles schema: "raising children ≠ carrying it alone → THE COMMUNITY HELPS"
+      → ≠ Korea: schema "raising children = I CARRY IT ALL"
+      → = Different schemas → DIFFERENT DECISIONS
+
+
+  ⭐ MILITARY SERVICE = CONNECTION ACROSS ALL GENDERS AND CLASSES:
+
+    🟢 Data:
+      → Mandatory for BOTH genders (unique globally)
+      → Men: ~3 years / Women: ~2 years
+      → Israel Defense Forces = "melting pot" — every background serves together
+
+    🟡 Framework:
+      → Military = shared experience → EXTREMELY STRONG CONNECTION:
+        → L1: shared hardship
+        → L2: bonds of comrades (deepest connection)
+        → Evaluative: shared Imagine-Final "defending the homeland"
+      → = BOTH genders have shared experience → NO gender conflict like Korea
+      → = Korean women: "military = inequality" → Israel: "I ALSO served"
+      → = Gender solidarity instead of gender conflict
 ```
 
 ---
 
-## 5. Schemas Compiled = "Có Con = Tốt"
+## 5. Compiled Schemas = "Having Children = Good"
 
 ```
-🟡 SCHEMAS ISRAEL = NGƯỢC HOÀN TOÀN VỚI HÀN:
+🟡 ISRAEL'S SCHEMAS = EXACT OPPOSITE OF KOREA'S:
 
-  ⭐ SO SÁNH SCHEMAS:
+  ⭐ SCHEMA COMPARISON:
 
   ┌───────────────────────────┬──────────────────────┬──────────────────────┐
-  │ Schema                    │ 🇰🇷 Hàn               │ 🇮🇱 Israel            │
+  │ Schema                    │ 🇰🇷 South Korea       │ 🇮🇱 Israel            │
   ├───────────────────────────┼──────────────────────┼──────────────────────┤
-  │ "Có con = ?"              │ "Mất tự do + khổ"   │ "Nghĩa vụ + phước"  │
-  │ "Tuổi thơ tôi = ?"       │ "Áp lực + cô đơn"   │ "Gia đình + cộng đồng"│
-  │ "Bố mẹ tôi = ?"          │ "Khổ vì con"         │ "Hạnh phúc có con"   │
-  │ "Xã hội nói = ?"         │ "Childfree = OK"     │ "Không con = thiếu"  │
-  │ "Chính phủ nói = ?"      │ 34 năm "ít con = tốt"│ 3000+ năm "sinh = tốt"│
-  │ Compiled depth            │ 2-3 thế hệ          │ 3000+ năm            │
-  │ Tầng hoạt động            │ Vô thức tầng 1       │ Vô thức tầng 1       │
+  │ "Having children = ?"     │ "Loss of freedom +   │ "Obligation +        │
+  │                           │  suffering"           │  blessing"           │
+  │ "My own childhood = ?"    │ "Pressure + loneliness"│"Family + community" │
+  │ "My parents = ?"          │ "Suffered because of │ "Happy having        │
+  │                           │  children"            │  children"           │
+  │ "Society says = ?"        │ "Childfree = OK"     │ "No children = lack" │
+  │ "Government says = ?"     │ 34 years "few =      │ 3,000+ years "birth  │
+  │                           │  good"               │  = good"             │
+  │ Depth of compilation      │ 2–3 generations      │ 3,000+ years         │
+  │ Active layer              │ Unconscious Layer 1  │ Unconscious Layer 1  │
   └───────────────────────────┴──────────────────────┴──────────────────────┘
 
 
-  ⭐ TẠI SAO SCHEMAS ISRAEL CỰC SÂU:
+  ⭐ WHY ISRAEL'S SCHEMAS ARE SO DEEP:
 
-    1. Time depth = 3000+ năm:
-      → "Pru urvu" (be fruitful) = genesis → truyền qua MỌI thế hệ
-      → Mỗi Pesach Seder = REPEAT story survival → schema reinforce
-      → Mỗi circumcision = physical ritual → schema PHYSICAL compiled
-      → = Schemas KHÔNG CHỈ cognitive → MÀ physical + ritual + emotional
+    1. Time depth = 3,000+ years:
+      → "Pru urvu" (be fruitful) = from Genesis → transmitted through EVERY generation
+      → Each Pesach Seder = REPEATING the survival story → schema reinforced
+      → Each circumcision = physical ritual → schema PHYSICALLY compiled
+      → = Schemas are NOT merely cognitive → they are physical + ritual + emotional
 
-    2. Transmission method = TRẢI NGHIỆM, không phải policy:
-      → Hàn: "ít con = tốt" = POLICY (poster, khẩu hiệu) → surface
-      → Israel: "có con = tốt" = SỐNG CÙNG gia đình hạnh phúc → deep
-      → = Schemas Israel = compiled từ TRẢI NGHIỆM (experiential)
-      → ≠ Schemas Hàn anti-natalist = compiled từ PROPAGANDA (declarative)
-      → Experiential schemas > declarative schemas (sâu hơn, bền hơn)
+    2. Transmission method = EXPERIENCE, not policy:
+      → Korea: "fewer children = good" = POLICY (posters, slogans) → surface
+      → Israel: "having children = good" = LIVING with happy family → deep
+      → = Israel's schemas = compiled from EXPERIENCE (experiential)
+      → ≠ Korea's anti-natalist schemas = compiled from PROPAGANDA (declarative)
+      → Experiential schemas > declarative schemas (deeper, more durable)
 
     3. Consistency across sources:
-      → Israel: tôn giáo + gia đình + xã hội + quốc gia ĐỀU nói "sinh = tốt"
-      → = MỌI nguồn CÙNG HƯỚNG → schema CỰC MẠNH
-      → Hàn: chính phủ nói "sinh đi" nhưng xã hội nói "khổ lắm"
-      → = Nguồn XUNG ĐỘT → schema không rõ ràng → default = "không sinh"
+      → Israel: religion + family + society + nation ALL say "birth = good"
+      → = ALL SOURCES POINT THE SAME DIRECTION → schema EXTREMELY STRONG
+      → Korea: government says "have children" but society says "it's terrible"
+      → = Sources CONFLICT → schema unclear → default = "don't have children"
 
 
-  ⭐ SOVIET IMMIGRANT = BẰNG CHỨNG SCHEMAS CÓ THỂ COMPILE MỚI:
+  ⭐ SOVIET IMMIGRANTS = EVIDENCE THAT SCHEMAS CAN BE RECOMPILED:
 
     🟢 Data:
-      → Immigrants Liên Xô đến Israel 1990s
-      → Đến khi là THIẾU NIÊN → hấp thụ culture Israel → sinh 2-3 con
-      → Đến khi là NGƯỜI LỚN → giữ schema cũ → chỉ sinh 1 con
-      → = CÙNG dân tộc, CÙNG di truyền, KHÁC thời điểm tiếp xúc culture
-      → = BẰNG CHỨNG: schemas CÓ THỂ compile/recompile
+      → Soviet Jewish immigrants arrived in Israel in the 1990s
+      → Those who arrived as TEENAGERS → absorbed Israeli culture → had 2–3 children
+      → Those who arrived as ADULTS → kept Soviet schemas → had only 1 child
+      → = SAME ethnic background, SAME genetics, DIFFERENT timing of cultural exposure
+      → = EVIDENCE: schemas CAN be compiled/recompiled
 
     🟡 Framework:
-      → Chunks compiled trước ~20 tuổi = SÂU (vô thức ổn định)
-      → Chunks compiled sau ~30 tuổi = NÔNG (PFC level, dễ override)
-      → = Soviet teens → compiled Israel schemas → body muốn 3 con
-      → = Soviet adults → giữ Soviet schemas → body muốn 1 con
-      → = KEY: thời điểm compile QUYẾT ĐỊNH behavior
-      → = Implication: muốn fix birth rate → phải fix TRẢI NGHIỆM THẾ HỆ TRẺ
+      → Chunks compiled before ~age 20 = DEEP (stable unconscious)
+      → Chunks compiled after ~age 30 = SHALLOW (Prefrontal Cortex level, easily overridden)
+      → = Soviet teenagers → compiled Israeli schemas → body wants 3 children
+      → = Soviet adults → retained Soviet schemas → body wants 1 child
+      → = KEY: the timing of compilation DETERMINES behavior
+      → = Implication: to fix birth rates → must fix THE EXPERIENCES OF YOUNG PEOPLE
 ```
 
 ---
 
-## 6. Repair Cycle — Shabbat Như Built-In Repair
+## 6. Repair Cycle — Shabbat as Built-In Repair
 
 ```
-🟡 SHABBAT = REPAIR CYCLE CÓ CẤU TRÚC VĂN HÓA:
+🟡 SHABBAT = REPAIR CYCLE STRUCTURED INTO CULTURE:
 
   🟢 Data:
-    → Israel: giờ làm 1,753/năm (cao, nhưng < Hàn 1,872)
-    → Shabbat: thứ 6 chiều → thứ 7 tối = nghỉ
-    → Nhiều nơi đóng cửa sớm thứ 6
-    → Kể cả secular: Shabbat = thời gian GIA ĐÌNH
-    → Gender pay gap 25.4% (vẫn cao, nhưng < Hàn 29%)
+    → Israel: 1,753 work hours/year (high, but < Korea's 1,872)
+    → Shabbat: Friday evening → Saturday night = rest
+    → Many businesses close early on Friday
+    → Even secular: Shabbat = family time
+    → Gender pay gap 25.4% (still high, but < Korea's 29%)
 
   🟡 Framework interpretation:
     → NET HEALTH = repair − damage
-    → Israel: damage VỪA (overwork moderate) + repair CÓ CẤU TRÚC (Shabbat)
-    → = NET HEALTH > 0 → body: "tôi ổn"
+    → Israel: damage MODERATE (overwork moderate) + repair STRUCTURED (Shabbat)
+    → = NET HEALTH > 0 → body: "I'm OK"
 
     → Shabbat = repair cycle BUILT INTO culture:
-      → 6 ngày: cortisol DRIVE (làm việc, quân đội, stress)
-      → 1 ngày: REPAIR (gia đình, nghỉ ngơi, ăn uống, ngủ)
-      → = Rhythm 6:1 → body ADAPT → repair sufficient
+      → 6 days: cortisol DRIVE (work, military, stress)
+      → 1 day: REPAIR (family, rest, food, sleep)
+      → = 6:1 rhythm → body ADAPTS → repair sufficient
 
-    → ≠ Hàn: KHÔNG CÓ rhythm tương đương:
-      → 7 ngày: drive liên tục (OT thứ 7, hagwon cho con cuối tuần)
-      → Weekend: "vẫn làm" hoặc "scroll phone" (không repair thật)
-      → = Không có cultural mechanism ENFORCE repair
+    → ≠ Korea: NO equivalent rhythm:
+      → 7 days: continuous drive (Saturday overtime, weekend hagwon for children)
+      → Weekend: "still working" or "scrolling phone" (not genuine repair)
+      → = No cultural mechanism to ENFORCE repair
 
-    → ⚠️ KHÔNG PHẢI "cortisol thấp ở Israel":
-      → Israel = stress CAO (chiến tranh, quân đội, security threat liên tục)
-      → NHƯNG: repair cycle HOẠT ĐỘNG → NET HEALTH > 0
-      → = Cortisol-Baseline.md §3: vấn đề không phải "stress nhiều"
-        mà "repair KHÔNG ĐỦ" → Israel có repair → OK
-      → = Bằng chứng: nước STRESS NHẤT (chiến tranh thường xuyên)
-        + birth rate CAO NHẤT → vì REPAIR tốt, không phải stress thấp
+    → ⚠️ NOT "cortisol is low in Israel":
+      → Israel = HIGH stress (war, military, constant security threat)
+      → BUT: repair cycle FUNCTIONS → NET HEALTH > 0
+      → = Cortisol-Baseline.md §3: the problem is not "too much stress"
+        but "INSUFFICIENT repair" → Israel has repair → OK
+      → = Evidence: the MOST STRESSED nation (frequent wars)
+        + HIGHEST birth rate → because REPAIR WORKS, not because stress is low
 
 
-  ⭐ HOLIDAYS = REPAIR CYCLE MỞ RỘNG:
+  ⭐ HOLIDAYS = EXTENDED REPAIR CYCLES:
 
-    Ngoài Shabbat hàng tuần:
-      → Pesach (7 ngày): gia đình lớn + Seder + kể chuyện
-      → Rosh Hashanah: năm mới + gia đình
-      → Sukkot (7 ngày): outdoor + community
-      → Hanukkah (8 ngày): family celebration
-      → = NHIỀU "repair period" dài TRONG NĂM
-      → = Body có NHIỀU cơ hội recover
-      → ≠ Hàn: holidays = "về quê → stress thêm (áp lực gia đình, giao thông)"
+    Beyond the weekly Shabbat:
+      → Pesach (7 days): extended family + Seder + storytelling
+      → Rosh Hashanah: new year + family
+      → Sukkot (7 days): outdoor + community
+      → Hanukkah (8 days): family celebration
+      → = MULTIPLE long "repair periods" THROUGHOUT THE YEAR
+      → = Body has MANY opportunities to recover
+      → ≠ Korea: holidays = "return to hometown → MORE stress (family pressure, traffic)"
 ```
 
 ---
 
-## 7. Secular Surprise — Tại Sao Secular Jews TFR ~2.0
+## 7. The Secular Surprise — Why Secular Jewish TFR is ~2.0
 
 ```
-🟡 ĐÂY LÀ PHẦN KHÓ GIẢI THÍCH NHẤT — VÀ QUAN TRỌNG NHẤT:
+🟡 THIS IS THE HARDEST PART TO EXPLAIN — AND THE MOST IMPORTANT:
 
-  🟢 Secular Jewish women TFR = ~2.0
-  → CAO HƠN: Pháp (1.8), Mỹ (1.6), Đức (1.5), Nhật (1.2), Hàn (0.75)
-  → NGANG replacement rate
-  → Ideal family size secular = 3.1 con (56% chọn "3 con")
-  → Childlessness secular Jewish women = rất thấp
+  🟢 Secular Jewish women's TFR = ~2.0
+  → HIGHER THAN: France (1.8), USA (1.6), Germany (1.5), Japan (1.2), Korea (0.75)
+  → At or near replacement rate
+  → Ideal family size (secular) = 3.1 children (56% choose "3 children")
+  → Childlessness among secular Jewish women = very low
 
 
-  🟡 TẠI SAO? FRAMEWORK GIẢI THÍCH:
+  🟡 WHY? FRAMEWORK EXPLANATION:
 
-  ① "SECULAR" ISRAEL ≠ "SECULAR" PHƯƠNG TÂY:
+  ① "SECULAR" ISRAEL ≠ "SECULAR" IN THE WEST:
 
-    🟢 Data — "Secular" Israelis VẪN:
-      → 93-97% tham dự Seder Pesach
-      → ~90% cắt bao quy đầu cho con trai
-      → ~30% giữ kosher tại nhà
-      → ~50% thắp nến Hanukkah
-      → ~50% thắp nến Shabbat
-      → 70%+ ăn tối Shabbat với gia đình MỖI TUẦN
+    🟢 Data — "Secular" Israelis STILL:
+      → 93–97% attend Seder Pesach
+      → ~90% circumcise their sons
+      → ~30% keep kosher at home
+      → ~50% light Hanukkah candles
+      → ~50% light Shabbat candles
+      → 70%+ have Shabbat dinner with family EVERY WEEK
 
     🟡 Framework:
-      → "Secular" Israel = "không Orthodox" → KHÔNG PHẢI "không tôn giáo"
-      → Chính xác hơn: "văn hóa Do Thái không chính thống"
-      → = VẪN CÓ schemas tôn giáo compiled → chỉ KHÔNG strict observance
-      → = Shared Imagine-Final lớp 1 (tôn giáo) VẪN active ở tầng 1
-      → = PFC nói "tôi secular" → nhưng vô thức VẪN compiled "sinh = tốt"
+      → "Secular" Israel = "not Orthodox" → NOT "not religious"
+      → More accurately: "non-observant Jewish culture"
+      → = STILL HAS religiously compiled schemas → just not strict observance
+      → = Shared Imagine-Final Layer 1 (religious) STILL ACTIVE at Layer 1 level
+      → = Prefrontal Cortex says "I'm secular" → but unconscious STILL compiled "birth = good"
 
-  ② QUỐC GIA + SINH TỒN = SECULAR CŨNG FEEL:
+  ② NATIONAL + SURVIVAL = SECULAR PEOPLE FEEL THIS TOO:
 
-    → Military service: SECULAR CŨNG ĐI (thậm chí nhiều hơn Haredi!)
-    → Holocaust: secular families CŨNG mất người
-    → Iran threat: secular CŨNG biết "existential"
-    → = Lớp 2 (sinh tồn) + lớp 3 (quốc gia) = APPLY CHO SECULAR
-    → = Ngay cả không có lớp 1 (tôn giáo strict) → VẪN CÒN 3 LỚP
+    → Military service: SECULAR ALSO SERVE (more so than Haredi!)
+    → Holocaust: secular families ALSO lost people
+    → Iranian threat: secular ALSO know it's "existential"
+    → = Layer 2 (survival) + Layer 3 (national) = APPLY TO SECULAR PEOPLE TOO
+    → = Even without Layer 1 (strict religious) → STILL HAVE 3 LAYERS
 
-  ③ XÃ HỘI KHÔNG STIGMATIZE "NHIỀU CON":
+  ③ SOCIETY DOESN'T STIGMATIZE "MANY CHILDREN":
 
-    → Israel: "3 con = bình thường" (56% secular nói ideal = 3)
-    → Phương Tây: "3 con = nhiều thế?" (stigma nhẹ)
-    → Hàn: "3 con = điên à? Ai nuôi?"
-    → = Social schema Israel: "nhiều con = bình thường + tốt"
-    → = Body detect: "mọi người quanh tôi đều có 2-3 con → bình thường"
-    → = Conformity reinforcement: hàng xóm, bạn, đồng nghiệp ĐỀU có con
+    → Israel: "3 children = normal" (56% secular say ideal = 3)
+    → Western countries: "3 children = is that many?" (mild stigma)
+    → Korea: "3 children = are you crazy? Who'll raise them?"
+    → = Israel's social schema: "many children = normal + good"
+    → = Body detects: "everyone around me has 2–3 children → this is normal"
+    → = Conformity reinforcement: neighbors, friends, colleagues ALL have children
 
-  ④ IVF = BRIDGE TỪ "MUỐN" → "CÓ":
+  ④ IVF = BRIDGE FROM "WANTING" → "HAVING":
 
     🟢 Data:
-      → Israel = IVF policy HÀO PHÓNG NHẤT THẾ GIỚI
-      → Miễn phí KHÔNG GIỚI HẠN số lần cho đến 2 con sống
-      → Mọi phụ nữ 18-45, bất kể tình trạng hôn nhân/giới tính
-      → 4.7% births từ IVF
-      → ~52,000 chu kỳ IVF/năm (cao nhất per capita thế giới)
-      → Tiết kiệm ~$40,000/gia đình
+      → Israel = THE MOST GENEROUS IVF POLICY IN THE WORLD
+      → Free with UNLIMITED cycles until 2 live births
+      → All women 18–45, regardless of marital status or sexual orientation
+      → 4.7% of births from IVF
+      → ~52,000 IVF cycles per year (highest per capita in the world)
+      → Saves families ~$40,000
 
     🟡 Framework:
-      → IVF KHÔNG tạo desire → nhưng ENABLE desire thành reality
-      → Body MUỐN con (4 lớp Imagine-Final) → IVF XÓA rào cản Y TẾ
-      → = Policy ĐÚNG: không ép sinh → MÀ XÓA OBSTACLE cho body tự muốn
-      → ≠ Hàn: cho tiền (carrot) → nhưng body KHÔNG muốn → tiền vô ích
-      → = Israel: body MUỐN → IVF giúp THỰC HIỆN → effective
+      → IVF DOESN'T CREATE desire → but ENABLES desire to become reality
+      → Body WANTS children (4 layers of Imagine-Final) → IVF REMOVES MEDICAL barriers
+      → = Policy DONE RIGHT: not compelling birth → but REMOVING OBSTACLES for bodies that already want
+      → ≠ Korea: handing out money (carrot) → but body DOESN'T WANT → money is useless
+      → = Israel: body WANTS → IVF helps ACHIEVE → effective
 
 
-  ⭐ TỔNG HỢP: TẠI SAO SECULAR ISRAEL TFR ~2.0:
+  ⭐ SYNTHESIS: WHY SECULAR ISRAEL TFR ~2.0:
 
-    → "Secular" nhưng VẪN CÓ cultural schemas compiled SÂU
-    → 3/4 lớp shared Imagine-Final VẪN ACTIVE
-    → Connection VẪN mạnh (Shabbat, family, community)
-    → Repair VẪN có (Shabbat rhythm)
-    → IVF ENABLE desire
-    → Social norm = "3 con = bình thường"
-    → = Đủ channels FEED → body: "ĐỦ ĐIỀU KIỆN"
+    → "Secular" but STILL HAS DEEPLY COMPILED cultural schemas
+    → 3 out of 4 shared Imagine-Final layers STILL ACTIVE
+    → Connection STILL STRONG (Shabbat, family, community)
+    → Repair STILL PRESENT (Shabbat rhythm)
+    → IVF ENABLES desire
+    → Social norm = "3 children = normal"
+    → = Enough channels FED → body: "CONDITIONS ARE SUFFICIENT"
 ```
 
 ---
 
-## 8. Post-Crisis Fertility — Chiến Tranh → Sinh NHIỀU Hơn
+## 8. Post-Crisis Fertility — War → MORE Births
 
 ```
-🟡 ISRAEL = TRƯỜNG HỢP DUY NHẤT: KHỦNG HOẢNG → TFR TĂNG
+🟡 ISRAEL = THE ONLY CASE: CRISIS → TFR RISES
 
-  🟢 Data — Pattern lặp lại:
-    → Sau Six Day War (1967): TFR tăng 2+ năm trên trendline
-    → Sau Yom Kippur War (1973): TFR tăng 2+ năm
-    → Sau Oct 7 (2023):
-      → Ban đầu: conception GIẢM (Oct-Nov 2023) — nam đi quân dịch
-      → Nhanh chóng: Jan-May 2024 TFR phục hồi → 3.10
-      → Baby boom: Aug 2024 TFR = 3.19 (cao nhất nhiều năm)
-      → Cuối 2024: births +10% so cùng kỳ 2023
-      → 2024 tổng: ~181,000 (vs 172,500 trong 2023)
+  🟢 Data — Pattern repeats:
+    → After Six Day War (1967): TFR rose above trendline for 2+ years
+    → After Yom Kippur War (1973): TFR rose above trendline for 2+ years
+    → After October 7th (2023):
+      → Initially: conceptions FELL (Oct–Nov 2023) — men mobilized
+      → Quickly: Jan–May 2024 TFR recovered → 3.10
+      → Baby boom: August 2024 TFR = 3.19 (highest in many years)
+      → Late 2024: births +10% vs same period 2023
+      → Full 2024: ~181,000 (vs 172,500 in 2023)
 
-  🟢 Đối chiếu — MỌI nước khác: khủng hoảng → TFR GIẢM:
-    → COVID-19: TFR giảm ở HẦU HẾT nước phát triển
-    → Financial crisis 2008: TFR giảm mạnh Mỹ, EU
-    → Israel during COVID: "tác động tối thiểu" (TFR ~3.0)
+  🟢 Comparison — EVERY OTHER COUNTRY: crisis → TFR FALLS:
+    → COVID-19: TFR fell in MOST developed countries
+    → 2008 financial crisis: TFR fell sharply in USA, EU
+    → Israel during COVID: "minimal impact" (TFR ~3.0)
 
 
-  🟡 FRAMEWORK GIẢI THÍCH — TẠI SAO NGƯỢC:
+  🟡 FRAMEWORK EXPLANATION — WHY REVERSED:
 
-    NƯỚC BÌNH THƯỜNG: Khủng hoảng → TFR giảm:
-      → Khủng hoảng = L0/L1 threat
-      → Body: "survival bản thân trước" → suppress sinh sản
-      → = ĐÚNG cho nước có shared Imagine-Final YẾU
-      → = Khi threat > shared Imagine-Final → body protect self → ít con
+    NORMAL COUNTRIES: Crisis → TFR falls:
+      → Crisis = L0/L1 threat
+      → Body: "personal survival first" → suppresses reproduction
+      → = CORRECT for nations with WEAK shared Imagine-Final
+      → = When threat > shared Imagine-Final → body protects self → fewer children
 
-    ISRAEL: Khủng hoảng → TFR TĂNG:
-      → Khủng hoảng = L0 threat → NHƯNG:
-      → L0 threat KÍCH HOẠT shared Imagine-Final "sinh tồn dân tộc"
-      → "Chúng ta SẮP mất đi" → "phải CÓ THẾ HỆ SAU NGAY"
-      → = Threat REINFORCE Imagine-Final "sinh con" thay vì suppress
-      → = Body: "threat lớn → CÀN PHẢI sinh → species survival"
+    ISRAEL: Crisis → TFR RISES:
+      → Crisis = L0 threat → BUT:
+      → L0 threat ACTIVATES shared Imagine-Final "people's survival"
+      → "We are about to be lost" → "must HAVE THE NEXT GENERATION NOW"
+      → = Threat REINFORCES Imagine-Final "have children" instead of suppressing it
+      → = Body: "great threat → MUST have children → species survival"
 
-    ⭐ ĐIỀU KIỆN ĐỂ PATTERN NÀY XẢY RA:
-      → PHẢI có shared Imagine-Final "nhóm survival" ĐỦ MẠNH
-      → PHẢI có schemas "sinh con = sinh tồn nhóm" ĐÃ compiled
-      → PHẢI có connection đủ mạnh (không cô đơn trong khủng hoảng)
-      → Israel có CẢ 3 → threat = amplify birth
-      → Hàn KHÔNG có cả 3 → threat = suppress birth
+    ⭐ CONDITIONS REQUIRED FOR THIS PATTERN:
+      → MUST have shared Imagine-Final "group survival" STRONG ENOUGH
+      → MUST have schemas "having children = group survival" ALREADY compiled
+      → MUST have connection strong enough (not alone in the crisis)
+      → Israel has ALL 3 → threat = amplifies birth
+      → Korea lacks all 3 → threat = suppresses birth
 
-    ⭐ POST-OCT-7 EVIDENCE:
-      → "Commitment với quốc gia VẪN mạnh" sau Oct 7
+    ⭐ POST-OCTOBER-7 EVIDENCE:
+      → "Commitment to the nation STILL STRONG" after October 7
       → Reinforced group cohesion → reinforced shared Imagine-Final
-      → = Chiến tranh = "stress test" cho shared Imagine-Final
-      → Israel: PASS → TFR tăng
-      → Đây là bằng chứng MẠNH NHẤT cho vai trò shared Imagine-Final
+      → = War = "stress test" for shared Imagine-Final
+      → Israel: PASSES → TFR rises
+      → This is THE STRONGEST EVIDENCE for the shared Imagine-Final's role
 ```
 
 ---
 
-## 9. Warning Signs — Xu Hướng Giảm Đang Diễn Ra
+## 9. Warning Signs — The Declining Trend Underway
 
 ```
-🟢 ISRAEL KHÔNG MIỄN NHIỄM — CÓ DẤU HIỆU GIẢM:
+🟢 ISRAEL IS NOT IMMUNE — DECLINING SIGNALS:
 
-  Data — Xu hướng giảm ACROSS groups:
-    → Secular: ~2.0 → dự kiến ~1.7 (2030s)
-    → Traditional non-religious: giảm nhẹ → ~1.7-2.0
-    → Muslim: 3.29 (2016) → 2.71 (2025) — giảm MẠNH
-    → Christian: 1.62 (đã DƯỚI replacement)
-    → Druze: 1.64 (đã DƯỚI replacement)
-    → Haredi: 7.5 → 6.5 (giảm đáng kể dù vẫn rất cao)
+  Data — Declining trend ACROSS groups:
+    → Secular: ~2.0 → projected ~1.7 (2030s)
+    → Traditional non-religious: slight decline → ~1.7–2.0
+    → Muslim: 3.29 (2016) → 2.71 (2025) — SHARP DECLINE
+    → Christian: 1.62 (ALREADY BELOW replacement)
+    → Druze: 1.64 (ALREADY BELOW replacement)
+    → Haredi: 7.5 → 6.5 (significant decline though still very high)
 
   2018 → 2022: Jewish women overall: 3.17 → 3.03
 
-  Taub Center (2025): "Ngã rẽ nhân khẩu học"
-    → Mức sinh giảm ở GẦN NHƯ TẤT CẢ nhóm
-    → Số births ổn định → nhưng MASKS per-woman decline
-    → (vì cohort tuổi sinh lớn hơn → nhiều phụ nữ × ít con/phụ nữ = ổn)
+  Taub Center (2025): "Demographic crossroads"
+    → Fertility declining in NEARLY ALL groups
+    → Births stable → but MASKS per-woman decline
+    → (Larger cohorts of reproductive age × fewer children/woman = stable total)
 
 
-🟡 FRAMEWORK GIẢI THÍCH XU HƯỚNG GIẢM:
+🟡 FRAMEWORK EXPLANATION OF THE DECLINING TREND:
 
-  ① Secular + traditional đang WESTERNIZE:
-    → Exposure social media quốc tế → schemas "childfree = OK" LAN VÀO
-    → Competing Imagine-Final tăng (tech career, startup, travel)
-    → = Giống early stages của MỌI nước phát triển
-    → = Shared Imagine-Final lớp 1 (tôn giáo) yếu DẦN ở secular
+  ① Secular + traditional WESTERNIZING:
+    → Exposure to international social media → schemas "childfree = OK" INFILTRATING
+    → Competing Imagine-Finals rising (tech career, startup, travel)
+    → = Same early stages as EVERY developing nation
+    → = Shared Imagine-Final Layer 1 (religious) weakening in secular group
 
-  ② Muslim CONVERGE với Jewish:
-    → Urbanization + education nữ tăng → Muslim = same pattern global
-    → = 5 trục APPLY cho Muslim Israel y như apply cho mọi nơi
+  ② Muslim CONVERGING with Jewish:
+    → Urbanization + female education rising → Muslim = same global pattern
+    → = 5 axes APPLY to Muslim Israelis just as they apply everywhere
 
-  ③ Haredi GIẢM DÙ VẪN CAO:
-    → Exposure Internet tăng → competing Imagine-Final xuất hiện
-    → "Family planning widespread" (nghiên cứu) — có ý thức hơn
-    → = Ngay cả cộng đồng "miễn nhiễm" nhất CŨNG bắt đầu thay đổi
+  ③ Haredi DECLINING DESPITE STILL HIGH:
+    → Increased internet exposure → competing Imagine-Finals appearing
+    → "Widespread family planning" (research) — more intentional choices
+    → = Even the most "immune" community is ALSO beginning to shift
 
   ④ Compositional shift:
-    → NẾU secular giảm về ~1.7 + Haredi tăng tỉ lệ DS:
-    → TFR tổng VẪN CAO → NHƯNG do Haredi chiếm nhiều hơn
-    → = TFR cao = ARTIFACT thống kê, không phải society-wide
-    → = Vấn đề: Haredi male employment thấp → gánh nặng kinh tế
+    → IF secular declines to ~1.7 + Haredi grows as share of population:
+    → Total TFR REMAINS HIGH → but because Haredi represent a larger share
+    → = High TFR = statistical ARTIFACT, not society-wide
+    → = Problem: Haredi male employment very low → economic burden growing
 
 
-🔴 HYPOTHESIS — CÂU HỎI THEN CHỐT:
+🔴 HYPOTHESIS — THE CRITICAL QUESTION:
 
-  → Liệu shared Imagine-Final lớp 2-3 (sinh tồn + quốc gia)
-    CÓ ĐỦ để giữ secular TFR khi lớp 1 (tôn giáo) yếu đi?
-  → Hay secular Israel sẽ CONVERGE với phương Tây trong 1-2 thế hệ?
-  → Oct 7 = temporary BOOST hay permanent REINFORCEMENT?
-  → = Đây là bài kiểm tra REAL-TIME cho framework:
-    NẾU shared Imagine-Final ĐÚNG là yếu tố quyết định
-    → thì Israel secular CẦN duy trì lớp 2-3 để giữ TFR
-    → NẾU lớp 2-3 yếu → TFR sẽ giảm → confirm framework
-    → NẾU lớp 2-3 đủ → TFR ổn → MỞ RỘNG framework
+  → Will shared Imagine-Final Layers 2–3 (survival + national)
+    BE SUFFICIENT to hold secular TFR as Layer 1 (religious) weakens?
+  → Or will secular Israel CONVERGE with the West within 1–2 generations?
+  → October 7 baby boom: temporary BOOST or permanent REINFORCEMENT?
+  → = This is a REAL-TIME test for the framework:
+    IF shared Imagine-Final IS CORRECT as the decisive factor
+    → then Israel's secular community NEEDS Layers 2–3 to maintain TFR
+    → IF Layers 2–3 weaken → TFR will fall → confirms framework
+    → IF Layers 2–3 hold → TFR remains → EXTENDS framework
 ```
 
 ---
 
-## 10. Bài Học Cho Các Nước — Replicable?
+## 10. Lessons for Other Countries — Replicable?
 
 ```
-🟡 ISRAEL DẠY GÌ VỀ BIRTH RATE — VÀ GÌ KHÔNG REPLICATE ĐƯỢC:
+🟡 WHAT ISRAEL TEACHES ABOUT BIRTH RATES — AND WHAT CANNOT BE REPLICATED:
 
-  ⭐ CÓ THỂ HỌC:
+  ⭐ CAN LEARN:
 
-    ① Shared Imagine-Final = quan trọng hơn tiền:
-      → Israel chi cho gia đình ÍT HƠN Scandinavia
-      → Nhưng TFR GẤP ĐÔI Scandinavia
+    ① Shared Imagine-Final > money:
+      → Israel spends LESS on family support than Scandinavia
+      → But TFR is DOUBLE Scandinavia's
       → = Meaning > money
-      → = Bài học: tạo SHARED PURPOSE cho việc sinh con
-      → NHƯNG: không thể "tạo" purpose bằng propaganda
+      → = Lesson: create SHARED PURPOSE for having children
+      → BUT: cannot "create" purpose through propaganda
 
-    ② Connection có cấu trúc = thiết yếu:
-      → Shabbat = weekly family connection (có thể secular hóa)
-      → Extended family gần nhau = practical support
-      → = Bài học: tạo CƠ CHẾ connection HÀNG TUẦN cho gia đình
-      → VD: "family day" bắt buộc nghỉ? Community childcare centers?
+    ② Structurally maintained connection = essential:
+      → Shabbat = weekly family connection (can be secularized)
+      → Extended family living nearby = practical support
+      → = Lesson: create a WEEKLY CONNECTION MECHANISM for families
+      → Examples: mandatory "family day"? Community childcare centers?
 
-    ③ Schemas phải compile từ TRẢI NGHIỆM:
-      → "Sinh con = tốt" phải SỐNG, không chỉ NGHE
-      → = Bài học: thế hệ bố mẹ HẠNH PHÚC → con compile schema tốt
-      → = Giải pháp dài hạn (1-2 thế hệ) nhưng BỀN VỮNG
+    ③ Schemas must compile from EXPERIENCE:
+      → "Having children = good" must be LIVED, not just HEARD
+      → = Lesson: parents who are HAPPY → children compile positive schemas
+      → = Long-term solution (1–2 generations) but DURABLE
 
-    ④ IVF = ENABLE desire, không tạo desire:
-      → Israel: body muốn → IVF giúp → effective
-      → = Bài học: XÓA RÀO CẢN cho người ĐÃ MUỐN sinh
-      → = Không phải "khuyến khích" → mà "không CẢN"
+    ④ IVF = ENABLES desire, doesn't create it:
+      → Israel: body wants → IVF helps → effective
+      → = Lesson: REMOVE BARRIERS for people who ALREADY WANT children
+      → = Not "incentivize" → but "don't BLOCK"
 
-    ⑤ Repair cycle CÓ CẤU TRÚC:
-      → Shabbat = 6:1 rhythm → body adapt
-      → = Bài học: work-life rhythm PHẢI CÓ CẤU TRÚC VĂN HÓA
-      → = Luật 52 giờ (Hàn) chưa đủ → cần CULTURE thay đổi
+    ⑤ Repair cycle must be STRUCTURALLY MAINTAINED:
+      → Shabbat = 6:1 rhythm → body adapts
+      → = Lesson: work-life rhythm MUST HAVE CULTURAL STRUCTURE
+      → = Korean 52-hour law alone not enough → needs CULTURE to change
 
 
-  ⭐ KHÔNG THỂ REPLICATE:
+  ⭐ CANNOT REPLICATE:
 
-    ❌ 3000 năm cultural DNA:
-      → Schemas "sinh = nghĩa vụ thiêng liêng" compiled millennia
-      → KHÔNG THỂ tạo bằng policy → cần thời gian
+    ❌ 3,000 years of cultural DNA:
+      → Schemas "having children = sacred obligation" compiled over millennia
+      → CANNOT be created by policy → requires time
 
     ❌ Existential threat = national bonding:
-      → Holocaust + chiến tranh thường xuyên → shared Imagine-Final cực mạnh
-      → Không nước nào MUỐN threat existential để tăng birth rate
-      → = Đây là "feature" CỦA RIÊNG Israel
+      → Holocaust + constant warfare → shared Imagine-Final extremely strong
+      → No country WANTS an existential threat to boost birth rates
+      → = This is a feature UNIQUE TO ISRAEL
 
     ❌ Small geography + homogeneous identity:
-      → 470km dài → gia đình LUÔN GẦN
+      → 470km long → families ALWAYS NEARBY
       → Jewish identity = strong bonding factor
-      → Nước lớn (Mỹ, TQ) → gia đình xa nhau → khó replicate
+      → Large nations (USA, China) → families far apart → hard to replicate
 
-    ❌ Military service CẢ 2 GIỚI:
-      → Tạo shared experience + gender solidarity
-      → Hầu hết nước không có conscription, đặc biệt cho nữ
+    ❌ Military service for BOTH GENDERS:
+      → Creates shared experience + gender solidarity
+      → Most countries lack conscription, especially for women
       → = Unique bonding mechanism
 
 
   ⭐ FRAMEWORK CONCLUSION:
 
-    → Tiền (Hàn $270 tỷ) = address trục ① (cost) → KHÔNG ĐỦ
-    → Welfare (Nordic) = address trục ①③ (cost + repair) → CHƯA ĐỦ
-    → Israel = address trục ②③④⑤ (Imagine-Final + repair + schemas + connection)
-      → ĐÚNG: ① cost VẪN CAO ở Israel → NHƯNG 4 trục khác OVERRIDE
-      → = ĐỦ: vì body decide TỔNG HỢP, không chỉ từ cost
+    → Money (Korea: $270 billion) = addresses Axis ① (cost) → NOT ENOUGH
+    → Welfare (Nordic) = addresses Axes ①③ (cost + repair) → STILL NOT ENOUGH
+    → Israel = addresses Axes ②③④⑤ (Imagine-Final + repair + schemas + connection)
+      → TRUE: Axis ① cost STILL HIGH in Israel → BUT 4 other axes OVERRIDE
+      → = ENOUGH: because body decides HOLISTICALLY, not just from cost
 
-    → Implication: muốn fix birth rate → PHẢI fix ≥3/5 trục
-    → CHỈ fix cost (tiền) = 1/5 → KHÔNG ĐỦ → thất bại (Hàn)
-    → Fix cost + repair = 2/5 → TỐT HƠN nhưng CHƯA ĐỦ (Nordic: 1.5-1.7)
-    → Fix meaning + connection + schemas + repair = 4/5 → ĐỦ (Israel: 2.9)
+    → Implication: to fix birth rates → MUST fix ≥3/5 axes
+    → Fixing ONLY cost (money) = 1/5 → NOT ENOUGH → fails (Korea)
+    → Fixing cost + repair = 2/5 → BETTER but STILL NOT ENOUGH (Nordic: 1.5–1.7)
+    → Fixing meaning + connection + schemas + repair = 4/5 → ENOUGH (Israel: 2.9)
 ```
 
 ---
@@ -717,129 +725,129 @@
 
 ```
   ESTABLISHED — DATA CONFIRMED (🟢):
-    🟢 TFR ~2.9 — cao nhất OECD, gấp đôi trung bình
-    🟢 Non-Haredi Jewish TFR = 2.45 → cao hơn MỌI OECD country khác
-    🟢 Secular Jewish TFR = ~2.0 → ngang/cao hơn hầu hết EU
-    🟢 Childlessness Jewish women = 6.4% (rất thấp globally)
-    🟢 Secular ideal family size = 3.1 con
-    🟢 93-97% secular tham dự Seder → "secular" Israel ≠ "secular" phương Tây
-    🟢 70%+ Shabbat dinner hàng tuần (kể cả secular)
-    🟢 IVF: hào phóng nhất TG, miễn phí unlimited đến 2 con sống
-    🟢 Post-war fertility surge: documented 1967, 1973, 2023-2024
+    🟢 TFR ~2.9 — highest in OECD, double the average
+    🟢 Non-Haredi Jewish TFR = 2.45 → higher than EVERY other OECD country
+    🟢 Secular Jewish TFR = ~2.0 → at or above most of the EU
+    🟢 Childlessness among Jewish women = 6.4% (very low globally)
+    🟢 Secular ideal family size = 3.1 children
+    🟢 93–97% secular attend Seder → "secular" Israel ≠ "secular" West
+    🟢 70%+ Shabbat dinner every week (including secular)
+    🟢 IVF: most generous in the world, free unlimited cycles to 2 live births
+    🟢 Post-war fertility surge: documented 1967, 1973, 2023–2024
     🟢 Fertility DECOUPLED from economics (documented)
-    🟢 GDP ~$55,000 PPP — firmly developed nation
-    🟢 Cost of living TOP thế giới (Tel Aviv)
-    🟢 Military bắt buộc CẢ 2 GIỚI (unique globally)
-    🟢 Soviet immigrant data: teens → 2-3 con, adults → 1 con
-    🟢 Declining trend: secular → ~1.7 dự kiến, Muslim giảm mạnh
-    🟢 Haredi: 14.3% DS, TFR ~6.5 nhưng giảm từ 7.5
+    🟢 GDP ~$55,000 PPP — firmly a developed nation
+    🟢 Cost of living AMONG THE HIGHEST in the world (Tel Aviv)
+    🟢 Military service mandatory for BOTH GENDERS (unique globally)
+    🟢 Soviet immigrant data: teenagers → 2–3 children, adults → 1 child
+    🟢 Declining trend: secular → ~1.7 projected, Muslim falling sharply
+    🟢 Haredi: 14.3% of population, TFR ~6.5 but declining from 7.5
 
   FRAMEWORK ANALYSIS (🟡):
-    🟡 "4 lớp shared Imagine-Final" — framework classification
-       của documented cultural/religious/national factors
+    🟡 "4 layers of shared Imagine-Final" — framework classification
+       of documented cultural/religious/national factors
     🟡 "Shabbat = built-in repair cycle" — framework interpretation
-       của documented cultural practice
+       of documented cultural practice
     🟡 "Schemas compiled millennia > schemas compiled decades"
-       — logical hierarchy, consistent với data, mechanism = framework
-    🟡 "Secular schemas VẪN active ở tầng 1" — framework explanation
-       cho WHY secular participation in religious practices
-    🟡 "Post-crisis TFR tăng = shared Imagine-Final activated by threat"
-       — framework interpretation của documented pattern
-    🟡 "Fertility decoupled = vô thức (tầng 1) override PFC cost-calc"
-       — framework explanation, consistent với data, not proven causally
+       — logical hierarchy, consistent with data; mechanism = framework
+    🟡 "Secular schemas STILL ACTIVE at Layer 1" — framework explanation
+       for why secular people participate in religious practices
+    🟡 "Post-crisis TFR rises = shared Imagine-Final activated by threat"
+       — framework interpretation of documented pattern
+    🟡 "Fertility decoupled = unconscious (Layer 1) overrides Prefrontal Cortex cost-calc"
+       — framework explanation, consistent with data, not causally proven
     🟡 "Soviet immigrant = evidence schemas recompile"
-       — data supports, mechanism interpretation = framework
+       — data supports; mechanism interpretation = framework
 
-  HYPOTHESIS — CẦN VALIDATE (🔴):
-    🔴 "Fix ≥3/5 trục → birth rate recoverable" — extrapolation từ
-       Israel case, chưa được test ở nước khác
-    🔴 "Israel secular sẽ converge với phương Tây trong 1-2 thế hệ"
-       — or shared Imagine-Final lớp 2-3 đủ để maintain?
-    🔴 "Compositional shift (Haredi tăng %) = TFR artifact"
-       — đang diễn ra nhưng chưa dominant
-    🔴 "Meaning > money" — Israel supports nhưng CÓ THỂ Israel =
-       unique case không generalizable
-    🔴 "Shabbat = repair mechanism" — correlation rõ,
-       causation chưa isolated
-    🔴 Oct 7 baby boom: temporary or permanent shift?
+  HYPOTHESIS — NEEDS VALIDATION (🔴):
+    🔴 "Fix ≥3/5 axes → birth rate recoverable" — extrapolation from
+       Israel case, not yet tested in another country
+    🔴 "Israel's secular group will converge with the West in 1–2 generations"
+       — or will Layers 2–3 of shared Imagine-Final be enough to maintain?
+    🔴 "Compositional shift (Haredi growing as % of population) = TFR artifact"
+       — happening but not yet dominant
+    🔴 "Meaning > money" — Israel supports this but Israel MAY BE
+       a unique case not generalizable
+    🔴 "Shabbat = repair mechanism" — correlation clear,
+       causation not yet isolated
+    🔴 October 7 baby boom: temporary surge or permanent shift?
 ```
 
 ---
 
-## 12. Câu Hỏi Mở
+## 12. Open Questions
 
 ```
-  IL-1: Secular TFR ~2.0 → 1.7 projected — lớp 2-3 Imagine-Final
-        đủ giữ không? Hay cần lớp 1 (tôn giáo strict)?
+  IL-1: Secular TFR ~2.0 → projected 1.7 — can Layers 2–3 of Imagine-Final
+        hold without Layer 1 (strict religion)?
 
-  IL-2: Haredi economic participation thấp — khi Haredi = 20%+ DS,
-        sustainable? Hay economic pressure → giảm TFR Haredi?
+  IL-2: Haredi economic participation very low — when Haredi = 20%+ of population,
+        sustainable? Or will economic pressure → reduce Haredi TFR?
 
-  IL-3: Oct 7 = temporary surge hay permanent shift?
-        Data 2025-2028 sẽ answer.
+  IL-3: October 7 = temporary surge or permanent shift?
+        Data from 2025–2028 will answer this.
 
-  IL-4: Israeli Arabs (Muslim, Christian, Druze) — ĐANG converge
-        với global pattern. Giữ được? Hay sẽ giảm dưới 2.0?
+  IL-4: Israeli Arabs (Muslim, Christian, Druze) — CURRENTLY converging
+        with global pattern. Can it be maintained? Or will they fall below 2.0?
 
-  IL-5: Post-peace hypothesis: NẾU Israel đạt hòa bình vĩnh viễn
-        → mất shared Imagine-Final "sinh tồn" → TFR giảm?
-        (paradox: hòa bình = tốt → nhưng mất fertility driver?)
+  IL-5: Post-peace hypothesis: IF Israel achieved permanent peace
+        → losing shared Imagine-Final "survival" → TFR falls?
+        (paradox: peace = good → but loses fertility driver?)
 
-  IL-6: Israel tech culture (startup nation) = competing Imagine-Final
-        mới. Impact lên fertility dài hạn?
+  IL-6: Israel's tech culture (startup nation) = new competing Imagine-Final.
+        Long-term impact on fertility?
 
-  IL-7: Kibbutz model = replicable? Community childcare hiện đại
-        có effect tương tự? Data?
+  IL-7: The kibbutz model = replicable? Does modern community childcare
+        produce similar effects? Data?
 
-  IL-8: Comparison với Mormon communities (US): TFR ~3.4
-        (shared religion + community). Cùng mechanism?
+  IL-8: Comparison with Mormon communities (USA): TFR ~3.4
+        (shared religion + community). Same mechanism?
 
-  IL-9: "Fertility decoupled from economics" — có GIỚI HẠN không?
-        Nếu cost tăng CỰC ĐẠI (VD housing crisis tồi tệ hơn)
-        → shared Imagine-Final CÒN override?
+  IL-9: "Fertility decoupled from economics" — are there LIMITS?
+        If cost becomes EXTREME (e.g., even worse housing crisis)
+        → can shared Imagine-Final STILL override?
 
   IL-10: Immigration surge (France +92%, Western EU +63%)
-         — immigrants ADOPT Israeli fertility norms? Data?
+         — do immigrants ADOPT Israeli fertility norms? Data?
 ```
 
 ---
 
-## 13. Kết Nối Với Các File Khác
+## 13. Connections to Other Files
 
 ```
   Framework Core:
-    → Imagine-Final.md §1: 2 tầng — Israel = tầng 1 compiled "sinh = tốt"
-       millennia → override PFC cost-calculation
+    → Imagine-Final.md §1: 2-layer structure — Israel = Layer 1 compiled "birth = good"
+       for millennia → overrides Prefrontal Cortex cost-calculation
     → Imagine-Final.md §6: shared Imagine-Final = collaborate
-       (Israel = 4 lớp shared Imagine-Final chồng chất)
+       (Israel = 4 stacked layers of shared Imagine-Final)
     → Connection.md v3.1 §12: Connection × Imagine-Final
-       (Israel: Shabbat = weekly reinforce connection + Imagine-Final)
-    → Global-Melody.md §2: shared Imagine-Final = nhóm hoạt động
-       (Israel = quốc gia hoạt động TRÊN shared Imagine-Final)
+       (Israel: Shabbat = weekly reinforcement of connection + Imagine-Final)
+    → Global-Melody.md §2: shared Imagine-Final = group activation
+       (Israel = a nation operating ON shared Imagine-Final)
     → Conflict-Dynamics.md §7: scarcity = engine
-       (Israel: existential scarcity → DRIVE sinh thay vì suppress)
-    → Cortisol-Baseline.md §3: NET HEALTH = repair − damage
-       (Israel: stress CAO nhưng repair CÓ CẤU TRÚC → NET > 0)
+       (Israel: existential scarcity → DRIVES birth instead of suppressing it)
+    → Cortisol-Baseline.md §3: Net Health = repair − damage
+       (Israel: HIGH stress but STRUCTURED repair → Net > 0)
 
   Research:
-    → Education-Mechanism.md §3.1: bridge types (nguồn ④)
-       (Israel IVF = ENABLE bridge, không phải carrot bridge)
+    → Education-Mechanism.md §3.1: bridge types (source ④)
+       (Israel IVF = ENABLE bridge, not a carrot bridge)
 
-  Birth Rate:
-    → 00_Overview.md: 5 trục + Israel = ANOMALY
-    → 01_South-Korea.md: CONTRAST HOÀN HẢO
-       (5 trục ĐỀU ÂM vs Israel: 4/5 trục DƯƠNG)
+  Birth Rate Series:
+    → 00_Overview.md: 5 axes + Israel = ANOMALY
+    → 01_South-Korea.md: PERFECT CONTRAST
+       (all 5 axes NEGATIVE vs Israel: 4/5 axes POSITIVE)
 ```
 
 ---
 
-> *Israel — "ANOMALY CHỨNG MINH: demographic transition KHÔNG phải quy luật sắt.
-> 4 lớp shared Imagine-Final (tôn giáo + sinh tồn + quốc gia + xã hội)
-> × connection có cấu trúc (Shabbat + extended family + military)
-> × schemas compiled millennia ("sinh = nghĩa vụ + phước")
-> × repair cycle built-in (Shabbat 6:1 rhythm)
-> = OVERRIDE cost kinh tế cao.
-> Secular TFR ~2.0 = bằng chứng: KHÔNG CHỈ Haredi.
-> Soviet immigrant = bằng chứng: schemas CÓ THỂ compile mới.
-> Post-crisis TFR TĂNG = bằng chứng: shared Imagine-Final > economic fear.
-> Bài học: tiền (1/5 trục) KHÔNG ĐỦ → cần meaning + connection + schemas + repair (4/5)."*
+> *Israel — "ANOMALY PROVES: the demographic transition is NOT an iron law.
+> 4 layers of shared Imagine-Final (religion + survival + nationhood + social)
+> × structurally maintained connection (Shabbat + extended family + military)
+> × schemas compiled millennia ("birth = obligation + blessing")
+> × built-in repair cycle (Shabbat 6:1 rhythm)
+> = OVERRIDES high economic cost.
+> Secular TFR ~2.0 = proof: NOT just the Haredi.
+> Soviet immigrants = proof: schemas CAN be newly compiled.
+> Post-crisis TFR RISES = proof: shared Imagine-Final > economic fear.
+> The lesson: money (1/5 axes) is NOT ENOUGH → need meaning + connection + schemas + repair (4/5)."*

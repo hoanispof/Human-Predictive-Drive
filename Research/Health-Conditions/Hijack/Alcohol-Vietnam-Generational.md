@@ -1,755 +1,787 @@
 ---
-title: Alcohol-Vietnam-Generational — Rượu Bia Qua Các Thế Hệ Việt Nam
-version: 1.0
-created: 2026-04-26
-status: v1.0 — ANALYSIS FILE (generational shift + framework predictions)
+title: Alcohol-Vietnam-Generational — Alcohol Across Vietnamese Generations
+version: v1.0
+source: Research/Health-Conditions/Hijack/Alcohol-Vietnam-Generational.md v1.0
+translated: 2026-06-09
+status: COMPLETE
 scope: |
-  TẠI SAO thế hệ trước (Đổi Mới, 1960-1980) mê nhậu dù gen Đông Á khó uống.
-  TẠI SAO Gen Z (1997-2012) "lười" uống dù không ai ép bỏ.
-  4 thế hệ VN × hoàn cảnh kinh tế × 4 điều kiện framework.
-  Cơ chế văn hóa nhậu (Obligation + Status + Connection + Identity schemas).
-  Nghị định 100 = Compliance Floor (catalyst, không phải nguyên nhân gốc).
-  Framework predictions cho 10-20 năm tới.
-  "Body-needs không biến mất" — digital replacement + vấn đề mới.
-purpose: |
-  File thứ 2 trong bộ Alcohol analysis. Build ON TOP of Alcohol-Brain-Mechanism.md
-  (file 1 = cơ chế neural). File này = ỨNG DỤNG framework vào case study VN.
-  Kết hợp data kinh tế/xã hội VN + academic research + framework mechanism.
-position: Research/Health-Conditions/Hijack/ (cạnh Alcohol-Brain-Mechanism.md)
-dependencies:
-  - Alcohol-Brain-Mechanism.md — §4 biến thể cá nhân, §6 4 điều kiện
-  - Obligation.md v1.0 — compiled prediction, social exchange tracking
-  - Status.md v2.0 — Resource Access Map, 3 modes, identity threat
-  - Connection.md v3.0 — 3 Generative Primitives, hardware social drive
-  - Compliance-Floor.md v2.0 — external rule khi internal schema chưa đủ
-  - Meaning.md v2.0 — life-level Anchor-Schema, 5 types
-  - Imagine-Final.md — reference pattern, clarity gradient
-  - Boredom.md — dissonance + Imagine-Final unclear
-  - Drive.md — Drive-PFC-Spinning, PFC participation
-  - Cortisol-Baseline.md v2.0 — novelty vs threat direction
-  - Addiction-Analysis-v2.md — digital addiction mechanism
-sources_data: |
-  🟢 NielsenIQ 2025 Vietnam Young Consumers Report — 45% Gen Z hạn chế rượu
-  🟢 Vietnam GSO 2021 — Decree 100 + COVID impact on beer consumption
-  🟢 KPMG 2020, 2024 — Vietnam beer industry reports
-  🟢 Berenberg Research 2018 — Gen Z global drinks 20% less
-  🟢 Gallup 2023, 2025 — U.S. drinking rate decline
-  🟢 WHO 2019 — Vietnam alcohol data (9.3L per capita, 55,400 deaths)
-  🟢 World Bank — Vietnam GDP per capita timeline
-  🟢 Li et al. 2009 — ALDH2*2 Vietnamese prevalence (~25-30%)
-  🟢 Eng et al. 2007 — ADH1B*2 Vietnamese prevalence (~70-85%)
-  🟢 Brooks et al. 2009 — ALDH2*2 + drinking → esophageal cancer 6-10x
-  VnExpress 2025 — Gen Z từ chối rượu bia articles
-  Inside.beer 2023 — Vietnam beer industry revenue decline
-language: Tiếng Việt primary + English technical terms
+  WHY the Đổi Mới generation (1960–1980) loved communal drinking despite East Asian
+  genetics that make drinking uncomfortable.
+  WHY Gen Z (1997–2012) is "naturally less interested" without anyone forcing them to stop.
+  4 Vietnamese generations × economic context × 4 framework conditions.
+  Cultural mechanism of drinking culture (Obligation + Status + Connection + Identity schemas).
+  Decree 100 = Compliance Floor (catalyst, not root cause).
+  Framework predictions for the next 10–20 years.
+  "Body-needs don't disappear" — digital replacement + the new problem.
+language: English
 confidence: 🟢 Research/data support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Alcohol-Vietnam-Generational — Rượu Bia Qua Các Thế Hệ Việt Nam
+# Alcohol-Vietnam-Generational — Alcohol Across Vietnamese Generations
 
-> **1995:** Bố bạn tan ca, rẽ vào quán bia hơi 5,000đ/cốc.
-> 10 anh em công nhân, trời nóng, bia mát, cười nói.
-> Hôm nay xong việc. Ngày mai lại làm. Đơn giản.
+> **1995:** A father finishes his shift and stops at a tap-beer stall — 5,000đ per glass.
+> 10 co-workers, hot weather, cold beer, laughter.
+> Today's work is done. Tomorrow they do it again. Simple.
 >
-> **2025:** Bạn tan ca, mở Grab về nhà.
-> Scroll TikTok, chat với bạn, xem YouTube.
-> "Nhậu à? Thôi, mai đi làm sớm. Mà uống cũng khó chịu."
+> **2025:** A young person finishes work, opens Grab and heads home.
+> Scrolls TikTok, chats with friends, watches YouTube.
+> "Go out drinking? Nah, early start tomorrow. And drinking makes me feel awful."
 >
-> Cùng đất nước. Cùng gen. KHÁC thế hệ. KHÁC hành vi.
+> Same country. Same genes. DIFFERENT generation. DIFFERENT behavior.
 >
-> File này phân tích: TẠI SAO mỗi thế hệ VN quan hệ KHÁC với rượu bia,
-> qua lens framework (4 điều kiện, Obligation, Status, Compliance Floor)
-> kết hợp data kinh tế/xã hội VN thực tế.
+> This file analyzes: WHY each Vietnamese generation has a DIFFERENT relationship
+> with alcohol, through the framework lens (4 conditions, Obligation, Status,
+> Compliance Floor) combined with real Vietnamese economic and social data.
 >
-> **Đọc trước:** Alcohol-Brain-Mechanism.md (cơ chế neural nền tảng).
+> **Read first:** Alcohol-Brain-Mechanism.md (foundational neural mechanism).
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ TRONG FRAMEWORK
-- §1 — BỐI CẢNH: GDP × CÔNG NGHỆ × 4 THẾ HỆ
-- §2 — THẾ HỆ ĐỔI MỚI (1960-1980): THỜI HOÀNG KIM NHẬU
-- §3 — THẾ HỆ MILLENNIALS (1980-1997): KẾ THỪA + BẮT ĐẦU NGHI NGỜ
-- §4 — THẾ HỆ GEN Z (1997-2012): TỪ CHỐI TỰ NHIÊN
-- §5 — CƠ CHẾ VĂN HÓA: TẠI SAO "MỜI RƯỢU" MẠNH ĐẾN VẬY
-- §6 — 4 ĐIỀU KIỆN × 4 THẾ HỆ (CORE ANALYSIS)
-- §7 — NGHỊ ĐỊNH 100 = COMPLIANCE FLOOR
-- §8 — FRAMEWORK PREDICT: 10-20 NĂM TỚI
-- §9 — BODY-NEEDS KHÔNG BIẾN MẤT — DIGITAL REPLACEMENT
+- §0 — POSITION WITHIN THE FRAMEWORK
+- §1 — CONTEXT: GDP × TECHNOLOGY × 4 GENERATIONS
+- §2 — THE ĐỔI MỚI GENERATION (1960–1980): THE GOLDEN AGE OF COMMUNAL DRINKING
+- §3 — THE MILLENNIAL GENERATION (1980–1997): INHERITING + BEGINNING TO QUESTION
+- §4 — GEN Z (1997–2012): NATURAL REJECTION
+- §5 — THE CULTURAL MECHANISM: WHY "OFFERING ALCOHOL" IS SO POWERFUL
+- §6 — 4 CONDITIONS × 4 GENERATIONS (CORE ANALYSIS)
+- §7 — DECREE 100 = COMPLIANCE FLOOR
+- §8 — FRAMEWORK PREDICTIONS: NEXT 10–20 YEARS
+- §9 — BODY-NEEDS DON'T DISAPPEAR — DIGITAL REPLACEMENT
 - §10 — HONEST ASSESSMENT
 - §11 — CROSS-REFERENCES
 
 ---
 
-## §0 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — POSITION WITHIN THE FRAMEWORK
 
 ```
-🟡 FILE NÀY TRONG BỘ ALCOHOL ANALYSIS:
+🟡 THIS FILE WITHIN THE ALCOHOL ANALYSIS SET:
 
   File 1: Alcohol-Brain-Mechanism.md
-    = CƠ CHẾ NEURAL (5 hệ thống, BAC gradient, biến thể cá nhân)
-    = "Rượu làm gì với NÃO?"
-    
-  ⭐ File 2: Alcohol-Vietnam-Generational.md (file này)
-    = ỨNG DỤNG framework vào case study VN
-    = "Tại sao thế hệ trước MÊ nhậu mà thế hệ trẻ KHÔNG?"
-    = Kết hợp: framework mechanism + data VN + predictions
-    
-  CẦN ĐỌC TRƯỚC: Alcohol-Brain-Mechanism.md §6 (4 điều kiện)
-  File này DÙNG 4 điều kiện đó làm khung phân tích chính.
+    = NEURAL MECHANISM (5 systems, BAC gradient, individual variation)
+    = "What does alcohol do to the BRAIN?"
+
+  ⭐ File 2: Alcohol-Vietnam-Generational.md (this file)
+    = FRAMEWORK APPLIED to a Vietnam case study
+    = "Why did the older generation LOVE communal drinking while
+       younger generations DON'T?"
+    = Combines: framework mechanism + Vietnam data + predictions
+
+  READ FIRST: Alcohol-Brain-Mechanism.md §6 (4 conditions)
+  This file uses those 4 conditions as its primary analytical framework.
 ```
 
 ---
 
-## §1 — BỐI CẢNH: GDP × CÔNG NGHỆ × 4 THẾ HỆ
+## §1 — CONTEXT: GDP × TECHNOLOGY × 4 GENERATIONS
 
 ### §1.1 — GDP per capita timeline (World Bank data)
 
 ```
-🟢 VIETNAM GDP/NGƯỜI — biến chuyển 40 LẦN trong 1 đời người:
+🟢 VIETNAM GDP/CAPITA — 40-FOLD CHANGE WITHIN ONE LIFETIME:
 
-  1986 (Đổi Mới):     ~$100     ← bắt đầu mở cửa
-  1995:                ~$290     
-  2000:                ~$390     
-  2008:                ~$1,000   ← ngưỡng thu nhập trung bình thấp
-  2015:                ~$2,100
-  2020:                ~$2,786
-  2023:                ~$4,300
-  2025 (ước):          ~$4,700
-  
-  → Người sinh 1965: thấy đất nước từ $100 → $4,700 trong đời mình
-  → Mỗi thế hệ sống trong thực tế kinh tế HOÀN TOÀN KHÁC
+  1986 (Đổi Mới reforms): ~$100    ← opening of the economy
+  1995:                    ~$290
+  2000:                    ~$390
+  2008:                    ~$1,000  ← lower-middle-income threshold
+  2015:                    ~$2,100
+  2020:                    ~$2,786
+  2023:                    ~$4,300
+  2025 (estimated):        ~$4,700
+
+  → A person born in 1965 saw the country go from $100 → $4,700
+      within their working life
+  → Each generation lives in a COMPLETELY DIFFERENT economic reality
 ```
 
 ### §1.2 — Internet + Smartphone penetration timeline
 
 ```
-🟢 THAY ĐỔI CÔNG NGHỆ:
+🟢 THE TECHNOLOGY SHIFT:
 
-  2010: ~31% internet, smartphone hiếm → thế giới VẪN offline
-  2015: ~52% internet, smartphone bắt đầu phổ biến
-  2018: ~70% internet, ~72 triệu smartphone users
-  2023: ~79% internet, ~65 triệu social media users
-        Facebook ~70 triệu, TikTok ~50 triệu+
-        
-  → THẾ HỆ ĐỔI MỚI lớn lên KHÔNG CÓ internet
-  → MILLENNIALS gặp internet ở tuổi 20-30
-  → GEN Z sinh ra VỚI smartphone
-  → = 3 thực tế HOÀN TOÀN KHÁC về nguồn thông tin + giải trí + kết nối
+  2010: ~31% internet, smartphones rare → world still largely offline
+  2015: ~52% internet, smartphones starting to spread widely
+  2018: ~70% internet, ~72 million smartphone users
+  2023: ~79% internet, ~65 million social media users
+        Facebook ~70 million, TikTok ~50 million+
+
+  → ĐỔI MỚI GENERATION grew up with NO internet
+  → MILLENNIALS encountered the internet in their 20s–30s
+  → GEN Z was born WITH smartphones
+  → = 3 COMPLETELY DIFFERENT realities for information, entertainment, connection
 ```
 
-### §1.3 — 4 thế hệ overview
+### §1.3 — 4 generations overview
 
 ```
-  ┌────────────────┬─────────────┬────────────────────────────────────┐
-  │ Thế hệ         │ Sinh        │ Thực tế kinh tế khi trưởng thành  │
-  ├────────────────┼─────────────┼────────────────────────────────────┤
-  │ Chiến tranh    │ ~1940-1960  │ Chiến tranh + nghèo cùng cực      │
-  │                │             │ GDP ~$100. Sinh tồn = mục tiêu duy │
-  │                │             │ nhất. Rượu = hiếm + nghi lễ.       │
-  ├────────────────┼─────────────┼────────────────────────────────────┤
-  │ Đổi Mới        │ ~1960-1980  │ Từ $100 → $1,000-2,000 trong đời │
-  │                │             │ làm việc. Thu nhập MỚI CÓ + ít    │
-  │                │             │ alternative giải trí. ĐỈNH NHẬU.   │
-  ├────────────────┼─────────────┼────────────────────────────────────┤
-  │ Millennials    │ ~1980-1997  │ Tăng trưởng nhanh. Đô thị hóa.   │
-  │                │             │ Tầng lớp trung lưu mới. Internet   │
-  │                │             │ đến khi 20-30 tuổi. Kế thừa nhậu  │
-  │                │             │ nhưng bắt đầu CÓ alternatives.     │
-  ├────────────────┼─────────────┼────────────────────────────────────┤
-  │ Gen Z          │ ~1997-2012  │ $2,800-4,700. Smartphone từ bé.   │
-  │                │             │ Alternatives VÔ TẬN. Nghị định 100│
-  │                │             │ đúng giai đoạn hình thành. GIẢM.   │
-  └────────────────┴─────────────┴────────────────────────────────────┘
+  ┌────────────────────┬───────────┬──────────────────────────────────────┐
+  │ Generation         │ Born      │ Economic reality at adulthood        │
+  ├────────────────────┼───────────┼──────────────────────────────────────┤
+  │ War generation     │ ~1940–60  │ War + extreme poverty.               │
+  │                    │           │ GDP ~$100. Survival = the only goal. │
+  │                    │           │ Alcohol = scarce + ceremonial.       │
+  ├────────────────────┼───────────┼──────────────────────────────────────┤
+  │ Đổi Mới generation │ ~1960–80  │ From $100 → $1,000–2,000 GDP/capita │
+  │ (Post-Reform)      │           │ in their working life. First-time    │
+  │                    │           │ income + few entertainment options.  │
+  │                    │           │ PEAK COMMUNAL DRINKING CULTURE.      │
+  ├────────────────────┼───────────┼──────────────────────────────────────┤
+  │ Millennials        │ ~1980–97  │ Rapid growth. Urbanization. New      │
+  │                    │           │ middle class. Internet arrived in    │
+  │                    │           │ their 20s–30s. Inherited drinking    │
+  │                    │           │ culture but beginning to have        │
+  │                    │           │ alternatives.                        │
+  ├────────────────────┼───────────┼──────────────────────────────────────┤
+  │ Gen Z              │ ~1997–12  │ $2,800–4,700. Smartphones from       │
+  │                    │           │ childhood. Endless alternatives.     │
+  │                    │           │ Decree 100 arrived during formative  │
+  │                    │           │ years. DECLINING.                    │
+  └────────────────────┴───────────┴──────────────────────────────────────┘
 ```
 
 ---
 
-## §2 — THẾ HỆ ĐỔI MỚI (1960-1980): THỜI HOÀNG KIM NHẬU
+## §2 — THE ĐỔI MỚI GENERATION (1960–1980): THE GOLDEN AGE OF COMMUNAL DRINKING
 
-### §2.1 — Hoàn cảnh tạo nên "văn hóa nhậu"
+### §2.1 — The conditions that created "drinking culture"
 
 ```
-🟡 FRAMEWORK ANALYSIS — tại sao thế hệ này uống NHIỀU NHẤT:
+🟡 FRAMEWORK ANALYSIS — why this generation drank THE MOST:
 
-  ① THU NHẬP MỚI CÓ + GIÁ RẺ CỰC:
-     → Từ $100 → $1,000 GDP/capita trong 20 năm
-     → Lần đầu CÓ TIỀN dư → muốn "thưởng" cho mình
-     → Bia hơi: 5,000-7,000đ/cốc (~$0.25) → CỰC RẺ
-     → Beer tiêu thụ tăng 8-10%/năm suốt 2000s
-     → Framework Addiction-Analysis §4: cost THẤP + available 24/7 = dễ habit
-     
-  ② GIẢI TRÍ GẦN NHƯ KHÔNG CÓ:
-     → TV: vài kênh, giờ cố định
-     → Karaoke: tốn tiền hơn nhậu
-     → Sách: không phổ biến ở tầng lớp lao động
-     → Thể thao: hạ tầng gần 0 cho người bình thường
-     → Du lịch: xa xỉ
-     → Internet: CHƯA CÓ (đến 2010 mới ~31%)
-     → → Nhậu = GÓI ALL-IN-ONE: giải trí + xã giao + thư giãn + rẻ
-     → → Framework: khi chỉ có 1 nguồn → dependency vào nguồn đó CAO
-     
-  ③ MỤC TIÊU RÕ RÀNG (Imagine-Final CLARITY CAO):
-     → Làm việc → kiếm tiền → nuôi gia đình → cho con đi học
-     → Mỗi ngày: stress bounded → endpoint rõ (tan ca = xong)
-     → Cố gắng → THƯỜNG đạt được (kinh tế đang tăng → nỗ lực = kết quả)
-     
+  ① NEWLY ACQUIRED INCOME + EXTREMELY LOW PRICES:
+     → GDP/capita went from $100 → $1,000 in 20 years
+     → First time HAVING money to spare → wanted to "reward" themselves
+     → Tap beer: 5,000–7,000đ per glass (~$0.25) → EXTREMELY CHEAP
+     → Beer consumption grew 8–10% per year throughout the 2000s
+     → Framework Addiction-Analysis §4: low cost + available 24/7 = easy habit
+
+  ② ALMOST NO OTHER ENTERTAINMENT:
+     → TV: few channels, fixed schedules
+     → Karaoke: more expensive than drinking
+     → Books: not widespread among working class
+     → Sports: near-zero infrastructure for ordinary people
+     → Travel: a luxury
+     → Internet: NOT YET AVAILABLE (only ~31% by 2010)
+     → → Communal drinking = ALL-IN-ONE PACKAGE: entertainment +
+           socializing + relaxation + cheap
+     → → Framework: when only 1 source exists → dependency on that source HIGH
+
+  ③ CLEAR GOALS (Imagine-Final CLARITY HIGH):
+     → Work → earn money → support family → give children education
+     → Each day: bounded stress → clear endpoint (end of shift = done)
+     → Effort → USUALLY resulted in achievement
+         (economy was growing → effort = results)
+
      Framework Imagine-Final.md §1:
-       "Không có nó → chán. Có nó → cùng khó khăn nhưng xứng đáng."
-     → Anchor-Schema type GOAL: "nuôi gia đình" = rõ, concrete, achievable
-     → Meaning.md: GOAL anchor ổn định → chunks self-organize → coherent
-     
-  ④ PFC ÍT PHẢI FILTER:
-     → Thông tin ÍT → PFC nhàn ngoài giờ làm
-     → Ít lựa chọn → PFC ít phải arbitrate
-     → = PFC energy THẤP → mất PFC (rượu) = mất ÍT → "thoải mái"
-     
-  ⑤ HẬU CHIẾN + BONDING:
-     → Thế hệ cha (chiến tranh): rượu = ritual bonding đơn vị
-     → Truyền xuống: schema "đàn ông uống cùng nhau = anh em"
-     → Emotional weight CỰC CAO → khó challenge
+       "Without it → boredom. With it → same difficulty but worth it."
+     → Anchor-Schema type GOAL: "support the family" = clear, concrete, achievable
+     → Meaning.md: GOAL anchor stable → chunks self-organize → coherent
+
+  ④ PFC HAD LITTLE TO FILTER:
+     → Little information → PFC idle outside of work
+     → Few choices → PFC rarely had to arbitrate
+     → = PFC energy LOW → losing PFC (from alcohol) = losing LITTLE → "comfortable"
+
+  ⑤ POST-WAR LEGACY + BONDING:
+     → Father's generation (war): alcohol = unit bonding ritual
+     → Passed down: schema "men drinking together = brothers"
+     → Emotional weight EXTREMELY HIGH → difficult to challenge
 
 
-  → KẾT HỢP ①②③④⑤:
-     Tiền mới + rẻ + không có gì khác + mục tiêu rõ + PFC nhàn + schema mạnh
-     = ĐIỀU KIỆN LÝ TƯỞNG cho nhậu trở thành DOMINANT social activity
+  → COMBINATION ①②③④⑤:
+     New income + cheap + nothing else + clear goal + idle PFC + strong schema
+     = IDEAL CONDITIONS for communal drinking to become
+       DOMINANT social activity
 ```
 
-### §2.2 — 4 điều kiện (Alcohol-Brain-Mechanism §6) cho thế hệ này
+### §2.2 — 4 conditions (Alcohol-Brain-Mechanism §6) for this generation
 
 ```
-  ĐK 1 — Stress bounded:     ✅ Làm → xong → nghỉ. Endpoint rõ.
-  ĐK 2 — PFC không overload:  ✅ Ít thông tin, ít lựa chọn.
-  ĐK 3 — Imagine-Final rõ:    ✅ GOAL anchor: nuôi gia đình.
-  ĐK 4 — Ít alternative:      ✅ Gần như không có alternative nào.
-  
-  → 4/4 MET → Rượu = FUNCTIONAL release tool
-  → Uống → opioid warmth + PFC off → cortisol DROP → "vui thật, pleasant thật"
-  → = Không phải "nghiện" hay "xấu" — mà là TOOL PHÙ HỢP cho context đó
+  Condition 1 — Bounded stress:      ✅ Work → finish → rest. Clear endpoint.
+  Condition 2 — PFC not overloaded:  ✅ Little information, few choices.
+  Condition 3 — Imagine-Final clear: ✅ GOAL anchor: support the family.
+  Condition 4 — Few alternatives:    ✅ Almost none at all.
+
+  → 4/4 MET → Alcohol = FUNCTIONAL release tool
+  → Drink → opioid warmth + PFC off → cortisol DROPS → "genuinely happy,
+      genuinely pleasant"
+  → = Not "addiction" or "bad behavior" — but a TOOL SUITED TO that context
 ```
 
-### §2.3 — Nghịch lý gen: tại sao uống bất chấp khó chịu
+### §2.3 — The genetic paradox: drinking despite discomfort
 
 ```
-🟡 25-30% dân VN có ALDH2*2 → uống = acetaldehyde tích tụ = khó chịu THẬT
+🟡 25–30% of Vietnamese have ALDH2*2 → drinking = acetaldehyde
+   accumulation = GENUINE discomfort
 
-  NHƯNG: 4-5 schema signals ĐỀU NÓI "UỐNG":
-  
-    ① Obligation: "người ta mời → phải nhận" → compiled prediction
-    ② Status threat: "không uống = yếu đuối" → identity threat
-    ③ Connection: "uống chung = anh em" → oxytocin bait
-    ④ Business: "ký hợp đồng trên bàn nhậu" → L1 survival (tiền)
-    ⑤ Identity: "đàn ông phải biết uống" → schema CỰC SÂU
-    
-  → 5 signals "UỐNG" vs 1 signal body "DỪNG"
-  → 5 vs 1 → schema THẮNG → uống bất chấp
-  
-  → VN uống nhiều hơn Nhật (40% ALDH2*2) vì:
-    Nhật: có alternatives (onsen, izakaya food, matsuri) + giá bia cao
-    VN: GẦN KHÔNG CÓ alternative + bia CỰC RẺ + schema CỰC MẠNH
-    → Schema pressure VN > Nhật → override biology MẠNH HƠN
-    
-  ⚠️ Brooks 2009: ALDH2*2 carriers uống bất chấp → ung thư thực quản 6-10x
-  → Body nói DỪNG vì LÝ DO THẬT → override = tăng risk THẬT
-```
+  BUT: 4–5 schema signals ALL say "DRINK":
 
----
+    ① Obligation: "someone offered → must accept" → compiled prediction
+    ② Status threat: "not drinking = weak" → identity threat
+    ③ Connection: "drinking together = brothers" → oxytocin reward
+    ④ Business: "deals are signed at the drinking table" → L1 survival (money)
+    ⑤ Identity: "a man must be able to drink" → DEEPLY compiled schema
 
-## §3 — THẾ HỆ MILLENNIALS (1980-1997): KẾ THỪA + BẮT ĐẦU NGHI NGỜ
+  → 5 signals saying "DRINK" vs 1 body signal saying "STOP"
+  → 5 vs 1 → schema WINS → drinking despite discomfort
 
-```
-🟡 THẾ HỆ CHUYỂN TIẾP:
+  → Vietnamese drink more than Japanese (40% ALDH2*2) because:
+    Japan: has alternatives (onsen, izakaya food, festivals) + beer is expensive
+    Vietnam: ALMOST NO alternatives + beer EXTREMELY CHEAP + schema EXTREMELY STRONG
+    → Schema pressure Vietnam > Japan → biology overridden MORE STRONGLY
 
-  KẾ THỪA từ thế hệ trước:
-    → Schema "nhậu = vui, đàn ông phải uống" compiled từ bé (thấy bố/chú)
-    → Business drinking: vẫn DOMINANT ở doanh nghiệp VN
-    → Beer brands = lifestyle identity (Heineken, Tiger = "sành điệu")
-    
-  BẮT ĐẦU KHÁC:
-    → Internet đến khi 20-30 tuổi → tiếp cận health information
-    → Đô thị hóa → có thêm alternatives (café, gym, cinema)
-    → Du lịch bắt đầu phổ biến → thấy "thế giới không phải ai cũng nhậu"
-    → Thu nhập tăng → aspiration thay đổi → "nhậu = phong cách cũ?"
-    
-  4 ĐIỀU KIỆN:
-    ĐK 1 — Stress:     🟡 BẮT ĐẦU unbounded (cạnh tranh tăng, MXH so sánh)
-    ĐK 2 — PFC load:   🟡 TĂNG DẦN (internet, smartphone đến giữa chừng)
-    ĐK 3 — Anchor:     🟡 VẪN CÒN rõ nhưng bắt đầu MỜ (career path phức tạp hơn)
-    ĐK 4 — Alternatives:🟡 BẮT ĐẦU CÓ (internet, café, gym)
-    
-  → 2-3/4 MET → Rượu VẪN functional nhưng GIẢM DẦN
-  → Thế hệ này: CHƯA bỏ nhậu nhưng bắt đầu "nhậu ít hơn, chọn lọc hơn"
-  → NielsenIQ 2025: 28% Millennials hạn chế rượu (vs 45% Gen Z)
+  ⚠️ Brooks 2009: ALDH2*2 carriers who drink despite discomfort →
+     esophageal cancer 6–10x higher
+  → Body says STOP for a REAL reason → overriding it = genuinely increased risk
 ```
 
 ---
 
-## §4 — THẾ HỆ GEN Z (1997-2012): TỪ CHỐI TỰ NHIÊN
-
-### §4.1 — Hoàn cảnh hoàn toàn khác
+## §3 — THE MILLENNIAL GENERATION (1980–1997): INHERITING + BEGINNING TO QUESTION
 
 ```
-  ① STRESS UNBOUNDED:
-     → Học 12 năm → đại học → ra trường → "rồi sao?"
-     → Endpoint MỜ: bằng ĐH ≠ việc làm (thất nghiệp sau ĐH ~20-30% underemployment)
-     → Navigos 2022: ~60% nhà tuyển dụng nói sinh viên thiếu kỹ năng thực tế
-     → So sánh MXH: vô tận người "giỏi hơn" → endpoint CHẠY
-     → Framework: Cortisol-Baseline §7 — threat-direction cortisol (unbounded, ăn mòn)
-     
+🟡 THE TRANSITIONAL GENERATION:
+
+  INHERITED from the previous generation:
+    → Schema "drinking = fun, a man must drink" compiled from childhood
+        (seeing father/uncles)
+    → Business drinking: STILL DOMINANT in Vietnamese companies
+    → Beer brands = lifestyle identity (Heineken, Tiger = "sophisticated")
+
+  BEGINNING TO CHANGE:
+    → Internet arrived in their 20s–30s → access to health information
+    → Urbanization → more alternatives appear (cafés, gyms, cinemas)
+    → Travel becoming more accessible → seeing "the world doesn't all drink this way"
+    → Rising incomes → changing aspirations → "drinking = old-fashioned?"
+
+  4 CONDITIONS:
+    Condition 1 — Stress:        🟡 BEGINNING to become unbounded
+                                       (more competition, social media comparisons)
+    Condition 2 — PFC load:      🟡 GRADUALLY INCREASING
+                                       (internet, smartphones arriving mid-life)
+    Condition 3 — Anchor:        🟡 STILL CLEAR but beginning to BLUR
+                                       (career paths getting more complex)
+    Condition 4 — Alternatives:  🟡 BEGINNING TO APPEAR (internet, cafés, gyms)
+
+  → 2–3/4 MET → Alcohol STILL functional but GRADUALLY DECLINING
+  → This generation: hasn't quit drinking yet, but drinking less,
+      more selectively
+  → NielsenIQ 2025: 28% Millennials limiting alcohol (vs 45% Gen Z)
+```
+
+---
+
+## §4 — GEN Z (1997–2012): NATURAL REJECTION
+
+### §4.1 — A completely different situation
+
+```
+  ① UNBOUNDED STRESS:
+     → 12 years of school → university → graduation → "now what?"
+     → Endpoint UNCLEAR: degree ≠ employment
+         (post-university underemployment ~20–30%)
+     → Navigos 2022: ~60% of employers say graduates lack practical skills
+     → Social media comparisons: endless "more successful" people →
+         endpoint RECEDES
+     → Framework: Cortisol-Baseline §7 — threat-direction cortisol
+         (unbounded, corrosive)
+
   ② PFC OVERLOADED:
-     → Smartphone từ BÉ → thông tin LIÊN TỤC
-     → Notifications hàng trăm/ngày
-     → PFC filter CHẠY FULL TIME
-     → Framework: PFC đã overloaded → suppress PFC (rượu) = costly
-     → = "Bỏ áo giáp giữa chiến trận" (Alcohol-Brain-Mechanism §3)
-     
-  ③ IMAGINE-FINAL MỜ:
-     → Thế hệ trước: "học → làm → ổn" = CLEAR (feedback loop positive)
-     → Gen Z: "học → ??? → ???" = MỜ (feedback loop broken)
-     → Giáo dục ĐH: curriculum lag 10-20 năm vs thị trường
-       (Chunk-External-Development §0: giáo dục = batch install chunks;
-        chunks installed KHÔNG match domain → LOW VALUE)
-     → Framework Meaning.md §2.1: Anchor ABSENT → "vô nghĩa"
-     → Boredom.md Loại 3 "TRỐNG": drive CÓ nhưng direction THIẾU
-     
-  ④ ALTERNATIVES VÔ TẬN:
+     → Smartphones FROM CHILDHOOD → CONTINUOUS information flow
+     → Hundreds of notifications per day
+     → PFC filter RUNNING FULL TIME
+     → Framework: PFC already overloaded → suppressing PFC (alcohol) = costly
+     → = "Taking off armor mid-battle" (Alcohol-Brain-Mechanism §3)
+
+  ③ IMAGINE-FINAL IS UNCLEAR:
+     → Previous generation: "study → work → stable" = CLEAR (positive feedback loop)
+     → Gen Z: "study → ??? → ???" = UNCLEAR (feedback loop broken)
+     → University education: curriculum 10–20 years behind the job market
+         (Chunk-External-Development §0: education = batch-install chunks;
+          chunks installed DON'T match domain → LOW VALUE)
+     → Framework Meaning.md §2.1: Anchor ABSENT → "meaningless"
+     → Boredom.md Type 3 "EMPTY": drive PRESENT but direction MISSING
+
+  ④ ENDLESS ALTERNATIVES:
      → Smartphone = infinite micro-reward:
-       MXH scroll, gaming, streaming, chat, AI
-     → TẤT CẢ: rẻ/free, không hangover, không acetaldehyde
-     → Rượu phải CẠNH TRANH → cost > benefit → THUA
+       social media scroll, gaming, streaming, chat, AI
+     → ALL: cheap/free, no hangover, no acetaldehyde
+     → Alcohol must COMPETE → cost > benefit → LOSES
 ```
 
-### §4.2 — 4 điều kiện cho Gen Z
+### §4.2 — 4 conditions for Gen Z
 
 ```
-  ĐK 1 — Stress bounded:     ❌ Unbounded (endpoint mờ, so sánh vô tận)
-  ĐK 2 — PFC không overload:  ❌ Overloaded (thông tin liên tục)
-  ĐK 3 — Imagine-Final rõ:    ❌ Mờ (career path unclear, education mismatch)
-  ĐK 4 — Ít alternative:      ❌ Vô tận (smartphone, digital, café)
-  
-  → 0/4 MET → Rượu = COUNTER-PRODUCTIVE
-  → Uống → PFC suppress → cortisol KHÔNG drop (unbounded) → worse
-  → + Acetaldehyde (25-30% ALDH2*2) → khó chịu thêm
-  → + Alternatives rẻ/dễ hơn → tại sao chịu khổ?
-  → = TỪ CHỐI TỰ NHIÊN — không cần ai ép bỏ
+  Condition 1 — Bounded stress:      ❌ Unbounded (unclear endpoint, endless comparisons)
+  Condition 2 — PFC not overloaded:  ❌ Overloaded (continuous information from childhood)
+  Condition 3 — Imagine-Final clear: ❌ Unclear (career path unclear, education mismatch)
+  Condition 4 — Few alternatives:    ❌ Endless (smartphones, digital, cafés)
+
+  → 0/4 MET → Alcohol = COUNTER-PRODUCTIVE
+  → Drink → PFC suppressed → cortisol DOESN'T DROP (unbounded) → WORSE
+  → + Acetaldehyde (25–30% ALDH2*2) → additional discomfort
+  → + Alternatives are cheaper and easier → why suffer through it?
+  → = NATURAL REJECTION — no one needed to force this change
 ```
 
-### §4.3 — Data xác thực
+### §4.3 — Data confirmation
 
 ```
-🟢 DATA CONFIRM:
+🟢 DATA CONFIRMS:
 
-  NielsenIQ 2025:    45% Gen Z VN hạn chế/tránh rượu bia (vs 28% Millennials)
-  Inside.beer 2023:  Bia bán ra giảm 12% so với 2022, doanh thu giảm 14.4%
-  GSO 2021:          63.7% khách hàng cắt giảm chi tiêu bia rượu
-  VnExpress 2025:    "Từ chối rượu = trưởng thành" — schema REFRAME
-  Berenberg 2018:    Gen Z TOÀN CẦU uống ít hơn 20% vs Millennials cùng tuổi
-  
-  → XU HƯỚNG TOÀN CẦU (không chỉ VN) → yếu tố STRUCTURAL, không cultural đơn thuần
+  NielsenIQ 2025:   45% Vietnamese Gen Z limit/avoid alcohol
+                      (vs 28% Millennials)
+  Inside.beer 2023: Beer sales down 12% vs 2022, revenue down 14.4%
+  GSO 2021:         63.7% of consumers cut spending on alcohol
+  VnExpress 2025:   "Refusing alcohol = maturity" — schema REFRAME
+  Berenberg 2018:   Gen Z GLOBALLY drinks 20% less vs Millennials
+                      at the same age
+
+  → GLOBAL TREND (not just Vietnam) → STRUCTURAL factor, not
+      purely cultural
 ```
 
-### §4.4 — "Không chịu khổ bằng" = SAI FRAME
+### §4.4 — "Less resilient" = WRONG FRAME
 
 ```
 🟡 FRAMEWORK REFRAME:
 
-  Câu nói phổ biến: "Thế hệ trẻ không chịu khổ bằng thế hệ trước"
-  
-  Framework analysis: SAI CÁCH DIỄN ĐẠT. Đúng hơn:
-  
-  THẾ HỆ TRƯỚC — khó khăn CỤ THỂ, CÓ ENDPOINT:
-    → Đói → kiếm ăn → no ✓ → body confirm XONG
-    → Stress → action → endpoint → cortisol DROP → cycle hoàn chỉnh
-    → Interface Loop ĐÓNG → reward → "xứng đáng"
-    → = Khó khăn có CẤU TRÚC PHÙ HỢP cho cách não hoạt động
-    
-  THẾ HỆ TRẺ — khó khăn MỜ, KHÔNG ENDPOINT:
-    → Học → ra trường → ??? → body KHÔNG confirm XONG
-    → Stress → action → ??? → cortisol KHÔNG DROP → loop KHÔNG ĐÓNG
-    → Interface Loop MỞ → không có reward signal → "vô nghĩa"
-    → = Khó khăn có CẤU TRÚC KHÔNG PHÙ HỢP cho cách não hoạt động
-    
-  → KHÔNG PHẢI "yếu đuối hơn"
-  → MÀ LÀ "stress LOẠI KHÁC → não xử lý KHÁC → rượu KHÔNG PHÙ HỢP"
-  
+  Common saying: "Young people are less resilient than older generations"
+
+  Framework analysis: WRONG FRAMING. More accurately:
+
+  OLDER GENERATION — specific difficulties WITH ENDPOINTS:
+    → Hungry → find food → full ✓ → body confirms DONE
+    → Stress → action → endpoint → cortisol DROPS → cycle complete
+    → Interface Loop CLOSES → reward → "it was worth it"
+    → = Hardship with a STRUCTURE COMPATIBLE with how the brain works
+
+  YOUNGER GENERATION — vague difficulties WITHOUT ENDPOINTS:
+    → Study → graduate → ??? → body DOESN'T confirm DONE
+    → Stress → action → ??? → cortisol DOESN'T DROP →
+        loop DOESN'T CLOSE
+    → Interface Loop OPEN → no reward signal → "meaningless"
+    → = Hardship with a STRUCTURE INCOMPATIBLE with how the brain works
+
+  → NOT "weaker"
+  → BUT: "DIFFERENT TYPE of stress → brain processes it DIFFERENTLY
+         → alcohol DOESN'T FIT"
+
   ANALOGY:
-    Cùng "nặng" nhưng:
-    → 50kg tạ ở gym (bounded, có kỹ thuật, có endpoint) = XÂY CƠ
-    → 50kg đá buộc vào lưng đi bộ 24/7 (unbounded, không endpoint) = PHÁ CƠ
-    Cùng "nặng" — khác CẤU TRÚC → khác KẾT QUẢ
+    Same "weight" but:
+    → 50kg at the gym (bounded, with technique, has endpoint) = BUILDS MUSCLE
+    → 50kg stone tied to your back 24/7 (unbounded, no endpoint) = DESTROYS MUSCLE
+    Same "weight" — different STRUCTURE → different RESULT
 ```
 
 ---
 
-## §5 — CƠ CHẾ VĂN HÓA: TẠI SAO "MỜI RƯỢU" MẠNH ĐẾN VẬY
+## §5 — THE CULTURAL MECHANISM: WHY "OFFERING ALCOHOL" IS SO POWERFUL
 
 ```
-🟡 FRAMEWORK DECOMPOSE — 5 kênh áp lực ĐỒNG THỜI:
+🟡 FRAMEWORK DECOMPOSITION — 5 simultaneous pressure channels:
 
   ┌────────────────────────────────────────────────────────────────┐
-  │ KÊNH 1: OBLIGATION (Obligation.md)                             │
+  │ CHANNEL 1: OBLIGATION (Obligation.md)                          │
   │                                                                │
-  │ "Người ta mời → phải nhận. Không nhận = bất lịch sự."        │
+  │ "Someone offers → must accept. Refusing = impolite."          │
   │                                                                │
-  │ Mechanism: Obligation = compiled prediction từ real experience │
-  │   Bé thấy bố nhận rượu khi khách mời → compile                │
-  │   Lớn lên mời người khác → người khác nhận → reinforce        │
-  │   Từ chối → phản ứng tiêu cực → compile "từ chối = cost cao"  │
-  │   → Prediction: "nếu từ chối → mất relationship"             │
+  │ Mechanism: Obligation = compiled prediction from real          │
+  │   experience.                                                  │
+  │   As a child, sees father accept alcohol from guests → compiles│
+  │   Grows up, offers to others → others accept → reinforces     │
+  │   Refusing → negative reaction → compiles "refusing = high    │
+  │   cost"                                                        │
+  │   → Prediction: "if I refuse → I lose the relationship"       │
   │                                                                │
-  │ Obligation.md §4: 4 stages — experience → compile → predict → │
-  │   decide. Decades of experience → prediction CỰC MẠNH        │
+  │   Obligation.md §4: 4 stages — experience → compile →         │
+  │   predict → decide. Decades of experience → prediction         │
+  │   EXTREMELY STRONG                                             │
   ├────────────────────────────────────────────────────────────────┤
-  │ KÊNH 2: STATUS THREAT (Status.md)                              │
+  │ CHANNEL 2: STATUS THREAT (Status.md)                           │
   │                                                                │
-  │ "Không uống = không phải đàn ông = yếu = mất mặt."           │
+  │ "Not drinking = not a real man = weak = losing face."         │
   │                                                                │
   │ Status.md: Status = Resource Access Map                        │
-  │   Từ chối uống → signal "tôi không thuộc nhóm này"            │
-  │   → Status DROP trước nhóm → resource access GIẢM             │
-  │   → Business context: "từ chối = mất deal" = L1 threat THẬT  │
-  │   → Identity: "đàn ông = uống được" → từ chối = identity threat│
-  │   Protect.md §3.4: identity protect = SÂU NHẤT                │
+  │   Refusing to drink → signals "I don't belong to this group"  │
+  │   → Status DROPS within the group → resource access DECREASES │
+  │   → Business context: "refusing = losing the deal" = genuine  │
+  │     L1 threat                                                  │
+  │   → Identity: "men drink" → refusing = identity threat         │
+  │   Protect.md §3.4: identity protection = DEEPEST LAYER        │
   ├────────────────────────────────────────────────────────────────┤
-  │ KÊNH 3: CONNECTION (Connection.md)                             │
+  │ CHANNEL 3: CONNECTION (Connection.md)                          │
   │                                                                │
-  │ "Uống chung = anh em. Không uống = outsider."                 │
+  │ "Drinking together = brotherhood. Not drinking = outsider."   │
   │                                                                │
-  │ Connection.md v3.0: ❶ Hardware social drive × ❷ Self-Pattern-Modeling × ❸ Valence│
-  │   Uống chung = shared experience → ❶ hardware fires            │
-  │   Cùng trải nghiệm (cùng say, cùng cười) → Self-Pattern-Modeling resonance     │
-  │   → Oxytocin THẬT (dù nhẹ) → body reward connection THẬT     │
-  │   Từ chối = "tôi không muốn shared experience với các bạn"    │
-  │   → ❸ Valence giảm → relationship weakens                     │
+  │ Connection.md v3.0: ❶ Hardware social drive × ❷ Self-Pattern- │
+  │   Modeling × ❸ Valence                                         │
+  │   Drinking together = shared experience → ❶ hardware fires    │
+  │   Shared state (same level of intoxication, same laughter) →  │
+  │   Self-Pattern-Modeling resonance → REAL oxytocin (even if    │
+  │   mild) → REAL body reward for connection                      │
+  │   Refusing = "I don't want a shared experience with you"      │
+  │   → ❸ Valence decreases → relationship weakens                │
   ├────────────────────────────────────────────────────────────────┤
-  │ KÊNH 4: SCHEMA IDENTITY (compiled từ bé)                      │
+  │ CHANNEL 4: SCHEMA IDENTITY (compiled from childhood)          │
   │                                                                │
-  │ "Con trai phải biết uống. Bố uống, ông uống, chú uống."      │
+  │ "Boys must learn to drink. Father drinks, grandfather drinks,  │
+  │  uncles drink."                                                │
   │                                                                │
-  │ Chunk-External-Development §0: 5 cơ chế install chunks         │
-  │   → Imitation: thấy bố/chú uống → compile                     │
-  │   → Cultural transmission: "đàn ông phải biết uống"           │
-  │   → Language: "nam nhi đại trượng phu"                        │
-  │   → Co-attention: cùng ngồi bàn nhậu từ bé (được cho ngồi    │
-  │     cạnh, uống nước ngọt) → absorb ritual                     │
-  │   → Schema compile SÂU + được reinforce NHIỀU NĂM             │
-  │   → Addiction-Analysis v2 §3.3: schema addiction = KHÓ NHẤT   │
-  │     vì bỏ schema = "mất mình" = identity crisis               │
+  │ Chunk-External-Development §0: 5 mechanisms for installing     │
+  │   chunks:                                                      │
+  │   → Imitation: sees father/uncles drink → compiles            │
+  │   → Cultural transmission: "a real man can hold his drink"    │
+  │   → Language: proverbs about masculine drinking               │
+  │   → Co-attention: sitting at the drinking table from          │
+  │     childhood (allowed to sit nearby, given soft drinks) →    │
+  │     absorbs the ritual                                         │
+  │   → Schema compiled DEEPLY + reinforced over MANY YEARS       │
+  │   → Addiction-Analysis §4.3: schema-based = HARDEST to break  │
+  │     because abandoning schema = "losing myself" =             │
+  │     identity crisis                                            │
   ├────────────────────────────────────────────────────────────────┤
-  │ KÊNH 5: BUSINESS SURVIVAL (kinh tế thật)                      │
+  │ CHANNEL 5: BUSINESS SURVIVAL (real economic stakes)           │
   │                                                                │
-  │ "Hợp đồng ký trên bàn nhậu."                                 │
+  │ "Contracts are signed at the drinking table."                  │
   │                                                                │
-  │ Obligation.md: access cost = mode shift khi cần agent status cao│
-  │   Muốn deal → phải "mời nhậu" → phải uống cùng               │
-  │   Không uống = "không thành ý" → mất deal = mất tiền          │
-  │   → L1 body-need (tài chính) bị đe dọa THẬT                  │
-  │   → Body signal "khó chịu khi uống" vs "mất deal"            │
-  │   → Deal thường THẮNG body signal (L1 survival > comfort)     │
+  │ Obligation.md: access cost = mode shift when agent of high     │
+  │   status is needed                                             │
+  │   Want the deal → must "invite them out" → must drink together │
+  │   Not drinking = "not sincere" → lose the deal = lose money   │
+  │   → Genuine L1 body-need (financial) is threatened            │
+  │   → Body signal "uncomfortable from alcohol" vs "lose deal"   │
+  │   → Deal usually WINS over body signal                         │
+  │     (L1 survival > comfort)                                   │
   └────────────────────────────────────────────────────────────────┘
 
-  → 5 KÊNH CÙNG LÚC nói "UỐNG"
-  → Body signal "khó chịu" = 1 kênh nói "DỪNG"
-  → 5 vs 1 → schema WIN
-  → = Tại sao VN uống nhiều hơn Nhật/Hàn (gen tương tự, áp lực KHÁC)
+  → 5 CHANNELS SIMULTANEOUSLY saying "DRINK"
+  → Body signal "discomfort" = 1 channel saying "STOP"
+  → 5 vs 1 → schema WINS
+  → = Why Vietnam drinks more than Japan/Korea (similar genetics,
+      DIFFERENT social pressure)
 ```
 
 ---
 
-## §6 — 4 ĐIỀU KIỆN × 4 THẾ HỆ (CORE ANALYSIS)
+## §6 — 4 CONDITIONS × 4 GENERATIONS (CORE ANALYSIS)
 
 ```
-🟡 BẢNG TỔNG HỢP:
+🟡 SUMMARY TABLE:
 
-  ┌──────────────┬──────────┬──────────┬──────────┬──────────┐
-  │              │ Chiến    │ Đổi Mới  │Millennials│ Gen Z    │
-  │              │ tranh    │          │           │          │
-  │              │(1940-60) │(1960-80) │(1980-97)  │(1997-12) │
-  ├──────────────┼──────────┼──────────┼──────────┼──────────┤
-  │ĐK1 Stress   │ ✅       │ ✅       │ 🟡       │ ❌       │
-  │ bounded      │Sinh tồn  │Làm→xong  │Bắt đầu   │Unbounded │
-  │              │rõ endpoint│rõ endpoint│mờ       │không EP  │
-  ├──────────────┼──────────┼──────────┼──────────┼──────────┤
-  │ĐK2 PFC      │ ✅       │ ✅       │ 🟡       │ ❌       │
-  │ không overload│Ít thông │Ít thông  │Internet  │Full load │
-  │              │tin      │tin       │đến giữa  │từ bé     │
-  ├──────────────┼──────────┼──────────┼──────────┼──────────┤
-  │ĐK3 Anchor   │ ✅       │ ✅       │ 🟡       │ ❌       │
-  │ rõ           │Sống sót  │Nuôi g.đ │Career phức│"Rồi sao?"│
-  │              │          │          │tạp hơn   │Mờ       │
-  ├──────────────┼──────────┼──────────┼──────────┼──────────┤
-  │ĐK4 Ít       │ ✅       │ ✅       │ 🟡       │ ❌       │
-  │ alternatives │Gần 0    │Gần 0     │Bắt đầu có│Vô tận   │
-  │              │(khan hiếm)│(rẻ+duy │(café,gym) │(digital) │
-  │              │          │nhất)    │          │          │
-  ├──────────────┼──────────┼──────────┼──────────┼──────────┤
-  │ TỔNG         │ 4/4 ✅   │ 4/4 ✅   │ 2-3/4 🟡 │ 0/4 ❌   │
-  ├──────────────┼──────────┼──────────┼──────────┼──────────┤
-  │ Rượu =       │Functional│Functional│Giảm dần  │Counter-  │
-  │              │(nhưng    │ĐỈNH     │"chọn lọc │productive│
-  │              │khan hiếm)│NHẬU     │hơn"      │"khó chịu"│
-  ├──────────────┼──────────┼──────────┼──────────┼──────────┤
-  │ Tiêu thụ     │Thấp     │CỰC CAO  │Cao→giảm  │GIẢM rõ   │
-  │              │(khan hiếm)│2.9→9.3L │         │45% hạn chế│
-  └──────────────┴──────────┴──────────┴──────────┴──────────┘
+  ┌─────────────────┬──────────┬──────────┬───────────┬──────────┐
+  │                 │ War      │ Đổi Mới  │Millennials│ Gen Z    │
+  │                 │ Gen.     │ Gen.     │           │          │
+  │                 │(1940-60) │(1960-80) │(1980-97)  │(1997-12) │
+  ├─────────────────┼──────────┼──────────┼───────────┼──────────┤
+  │Cond.1 Bounded   │ ✅       │ ✅       │ 🟡        │ ❌       │
+  │stress           │Survival  │Work→done │Starting   │Unbounded │
+  │                 │has EP    │has EP    │to blur    │no EP     │
+  ├─────────────────┼──────────┼──────────┼───────────┼──────────┤
+  │Cond.2 PFC not   │ ✅       │ ✅       │ 🟡        │ ❌       │
+  │overloaded       │Little    │Little    │Internet   │Full load │
+  │                 │info      │info      │arrived    │from birth│
+  │                 │          │          │mid-life   │          │
+  ├─────────────────┼──────────┼──────────┼───────────┼──────────┤
+  │Cond.3 Imagine-  │ ✅       │ ✅       │ 🟡        │ ❌       │
+  │Final clear      │Survive   │Support   │Career     │"Now      │
+  │                 │          │family    │gets more  │what?" /  │
+  │                 │          │          │complex    │Unclear   │
+  ├─────────────────┼──────────┼──────────┼───────────┼──────────┤
+  │Cond.4 Few       │ ✅       │ ✅       │ 🟡        │ ❌       │
+  │alternatives     │~None     │~None     │Starting   │Endless   │
+  │                 │(scarce)  │(cheap +  │to appear  │(digital) │
+  │                 │          │only opt.)│(café, gym)│          │
+  ├─────────────────┼──────────┼──────────┼───────────┼──────────┤
+  │ TOTAL           │ 4/4 ✅   │ 4/4 ✅   │ 2–3/4 🟡 │ 0/4 ❌   │
+  ├─────────────────┼──────────┼──────────┼───────────┼──────────┤
+  │ Alcohol =       │Functional│Functional│Decreasing │Counter-  │
+  │                 │(but      │PEAK      │"more      │productive│
+  │                 │scarce)   │DRINKING  │selective" │"feels    │
+  │                 │          │CULTURE   │           │awful"    │
+  ├─────────────────┼──────────┼──────────┼───────────┼──────────┤
+  │ Consumption     │Low       │EXTREMELY │High →     │DECLINING │
+  │                 │(scarce)  │HIGH      │declining  │45%       │
+  │                 │          │2.9→9.3L  │          │limiting  │
+  └─────────────────┴──────────┴──────────┴───────────┴──────────┘
 
-  INSIGHT: Thế hệ chiến tranh uống ÍT không phải vì "tốt hơn"
-           — mà vì KHAN HIẾM (điều kiện 4 met nhưng supply thiếu)
-           Thế hệ Đổi Mới = lần đầu CÓ THỂ uống nhiều + 4/4 met = BÙNG NỔ
-           Gen Z = conditions thay đổi structural → giảm tự nhiên
+  INSIGHT: The war generation drank LESS not because they were "better"
+           — but because of SCARCITY (condition 4 was met but supply was limited)
+           The Đổi Mới generation = first time ABLE to drink freely + 4/4 met = EXPLOSION
+           Gen Z = structural conditions changed → natural decline
 ```
 
 ---
 
-## §7 — NGHỊ ĐỊNH 100 = COMPLIANCE FLOOR
+## §7 — DECREE 100 = COMPLIANCE FLOOR
 
 ```
 🟡 Framework Compliance-Floor.md §1:
-   "Tự do = default. Luật chỉ cần xác định NỀN:
-    cái gì KHÔNG ĐƯỢC vì PHÁ melody người khác."
+   "Freedom = default. Law only needs to define the FLOOR:
+    what is NOT PERMITTED because it disrupts others' melody."
 
-  Nghị định 100/2019/NĐ-CP (hiệu lực 01/01/2020):
-    → Zero tolerance: BAC > 0 cho TẤT CẢ người lái xe
-    → Phạt xe máy: 6-8 triệu VND (~$250-340)
-    → Phạt ô tô: 30-40 triệu VND (~$1,300-1,700)
-    → Tước GPLX 22-24 tháng
-    
-    
-  FRAMEWORK ANALYSIS — CATALYST, KHÔNG PHẢI CAUSE:
+  Decree 100/2019/ND-CP (effective 01/01/2020):
+    → Zero tolerance: BAC > 0 for ALL vehicle operators
+    → Motorcycle fine: 6–8 million VND (~$250–340)
+    → Car fine: 30–40 million VND (~$1,300–1,700)
+    → License suspension: 22–24 months
 
-  ① LUẬT = EXTERNAL ANCHOR cho body signal:
-  
-     Compliance-Floor.md §7: "Luật = Bridge, Self-Pattern-Modeling = Intrinsic"
-     
-     TRƯỚC luật:
-       Body: "khó chịu, không muốn uống" (ALDH2*2 + cortisol mismatch)
-       Schema: "phải uống" + status threat + obligation
-       → KHÔNG CÓ lý do xã hội để từ chối
-       → Body signal bị override
-       
-     SAU luật:
-       Body: "khó chịu" (vẫn như cũ)
-       Schema: "phải uống" (vẫn còn)
-       + Anchor MỚI: "tôi phải lái xe, luật cấm" → CHẤP NHẬN ĐƯỢC xã hội
-       → Body signal BÂY GIỜ CÓ ĐỒNG MINH
-       → Social cost từ chối GIẢM MẠNH
-       
-     = Luật không thay đổi body. Luật thay đổi PERMISSION XÃ HỘI
-       để body-signal ĐƯỢC NGHE.
-       
-       
-  ② BẰNG CHỨNG LUẬT = CATALYST KHÔNG PHẢI CAUSE:
-  
-     → Berenberg 2018: Gen Z TOÀN CẦU giảm uống — TRƯỚC Nghị định 100
-     → Xu hướng ĐÃ CÓ → Nghị định TĂNG TỐC
-     → Nhiều nước KHÔNG CÓ luật tương tự → Gen Z VẪN giảm
-     → → Yếu tố structural (4 điều kiện thay đổi) > yếu tố luật
-     
-     
-  ③ NHƯNG LUẬT CÓ HIỆU QUẢ THẬT:
-  
-     🟢 GSO 2021: tiêu thụ bia giảm 13.9% năm 2020
-     🟢 63.7% khách hàng cắt giảm chi tiêu rượu bia
-     🟢 Grab/ride-hailing tăng mạnh sau Nghị định
-     
-     → Compliance-Floor.md §6: 3 nhóm tự nhiên:
-       Nhóm 1 (tự giác): đã muốn giảm → luật = permission → GIẢM NGAY
-       Nhóm 2 (theo số đông): thấy nhóm 1 giảm → follow → GIẢM DẦN
-       Nhóm 3 (cần bắt buộc): chỉ giảm khi bị phạt → GIẢM KHI ENFORCE
-       
-     → Nghị định 100 hiệu quả NHẤT cho Nhóm 1 (cho phép body-signal)
-     → Trùng timing với COVID → khó tách riêng 2 yếu tố
-     → Post-COVID: trend VẪN TIẾP TỤC → confirm structural, không chỉ luật
+
+  FRAMEWORK ANALYSIS — CATALYST, NOT CAUSE:
+
+  ① THE LAW = EXTERNAL ANCHOR FOR THE BODY SIGNAL:
+
+     Compliance-Floor.md §7: "Law = Bridge, Self-Pattern-Modeling = Intrinsic"
+
+     BEFORE the law:
+       Body: "uncomfortable, don't want to drink" (ALDH2*2 + cortisol mismatch)
+       Schema: "must drink" + status threat + obligation
+       → NO socially acceptable reason to refuse
+       → Body signal is overridden
+
+     AFTER the law:
+       Body: "uncomfortable" (same as before)
+       Schema: "must drink" (still present)
+       + NEW anchor: "I have to drive, the law prohibits it" →
+           SOCIALLY ACCEPTABLE
+       → Body signal NOW HAS AN ALLY
+       → Social cost of refusing DROPS SIGNIFICANTLY
+
+     = The law doesn't change the body. The law changes the
+       SOCIAL PERMISSION for the body-signal to BE HEARD.
+
+
+  ② EVIDENCE THAT THE LAW = CATALYST NOT CAUSE:
+
+     → Berenberg 2018: Gen Z GLOBALLY reducing drinking — BEFORE Decree 100
+     → Trend ALREADY IN MOTION → Decree ACCELERATED it
+     → Many countries WITHOUT similar laws → Gen Z STILL declining
+     → → Structural factors (4 conditions changing) > law
+
+
+  ③ BUT THE LAW DID HAVE REAL EFFECTS:
+
+     🟢 GSO 2021: beer consumption fell 13.9% in 2020
+     🟢 63.7% of consumers cut alcohol spending
+     🟢 Grab/ride-hailing surged after the Decree
+
+     → Compliance-Floor.md §6: 3 natural groups:
+       Group 1 (self-motivated): already wanted to cut back →
+         law = permission → CUT BACK IMMEDIATELY
+       Group 2 (social followers): see Group 1 cutting back →
+         follow → CUT BACK GRADUALLY
+       Group 3 (need enforcement): only cut back when fined →
+         CUT BACK WHEN ENFORCED
+
+     → Decree 100 most effective for Group 1
+         (gives them permission to listen to their body signal)
+     → Coincided with COVID → difficult to separate the two factors
+     → Post-COVID: trend CONTINUES → confirms structural, not just COVID
 ```
 
 ---
 
-## §8 — FRAMEWORK PREDICT: 10-20 NĂM TỚI
+## §8 — FRAMEWORK PREDICTIONS: NEXT 10–20 YEARS
 
-### §8.1 — Xu hướng tự nhiên
-
-```
-🟡 PREDICTION DỰA TRÊN 4 ĐIỀU KIỆN:
-
-  4 điều kiện ĐANG thay đổi STRUCTURAL (do công nghệ + kinh tế):
-    ĐK1: Stress ngày càng unbounded (information economy, gig economy)
-    ĐK2: PFC load ngày càng tăng (AI + thông tin + lựa chọn)
-    ĐK3: Anchor ngày càng khó clear (career paths fragmented)
-    ĐK4: Alternatives ngày càng nhiều (AI, VR, digital social)
-    
-  → 4 điều kiện đang đi THEO HƯỚNG 0/4
-  → Rượu bia sẽ TIẾP TỤC giảm ở population level
-  → KHÔNG CẦN thêm luật — xu hướng đã structural
-  
-  
-  PREDICT CỤ THỂ:
-  
-  ① Rượu bia chuyển từ "default social tool" → "niche choice"
-     → Giống cigar: vẫn có người dùng, không còn mainstream
-     → Craft beer, wine tasting = niche hobby (không phải nhậu)
-     → Timeline: 10-20 năm ở VN (đang ở giai đoạn đầu)
-     
-  ② Văn hóa "mời rượu" sẽ yếu DẦN (không đột ngột)
-     → Schema compiled SÂU → cần NHIỀU NĂM để schema mới override
-     → Business drinking: sẽ tồn tại lâu nhất (L1 survival tie)
-     → Social drinking: giảm nhanh nhất (có alternatives)
-     → Rural: giảm chậm nhất (ít alternatives + schema strong)
-     
-  ③ "Từ chối rượu = trưởng thành" — schema MỚI đang COMPILE
-     → VnExpress 2025: đã bắt đầu reframe
-     → Gen Z truyền schema này xuống Gen Alpha
-     → 1-2 thế hệ nữa: schema này sẽ DOMINANT
-     
-  ④ VN alcohol per capita sẽ GIẢM VỀ mức trung bình châu Á
-     → Hiện tại: 9.3L (cao nhất SE Asia, 70% trên TB thế giới)
-     → Predict: hội tụ về ~5-6L trong 15-20 năm
-     → Vẫn CAO hơn 0 (alcohol sẽ KHÔNG biến mất)
-```
-
-### §8.2 — Biến số không chắc chắn
+### §8.1 — Natural trends
 
 ```
-  🔴 BIẾN SỐ CÓ THỂ THAY ĐỔI PREDICTION:
+🟡 PREDICTIONS BASED ON 4 CONDITIONS:
 
-  ① Nếu kinh tế VN suy thoái nặng:
-     → Stress TĂNG + mất việc → có thể TĂNG uống (coping mechanism)
-     → Nhưng: digital alternatives VẪN CÓ → có thể không tăng nhiều
-     
-  ② Nếu bia rượu industry pivot thành "experience":
+  All 4 conditions are changing STRUCTURALLY (due to technology + economics):
+    Condition 1: Stress becoming increasingly unbounded
+                 (information economy, gig economy)
+    Condition 2: PFC load increasingly high (AI + information + choices)
+    Condition 3: Anchors increasingly hard to make clear
+                 (career paths fragmented)
+    Condition 4: Alternatives increasingly numerous
+                 (AI, VR, digital social)
+
+  → All 4 conditions moving TOWARD the 0/4 direction
+  → Alcohol consumption will CONTINUE DECLINING at population level
+  → WITHOUT needing additional laws — the trend is already structural
+
+
+  SPECIFIC PREDICTIONS:
+
+  ① Alcohol shifts from "default social tool" → "niche choice"
+     → Like cigars: still used by some, no longer mainstream
+     → Craft beer, wine tasting = niche hobby (not communal drinking)
+     → Timeline: 10–20 years in Vietnam (currently in early stage)
+
+  ② "Offering alcohol" culture will GRADUALLY weaken (not abruptly)
+     → Schema compiled DEEPLY → needs MANY YEARS for new schema to override
+     → Business drinking: will survive longest (L1 survival tie)
+     → Social drinking: fastest to decline (has alternatives)
+     → Rural areas: slowest to decline (fewer alternatives + strong schema)
+
+  ③ "Refusing alcohol = maturity" — NEW SCHEMA IS COMPILING
+     → VnExpress 2025: reframe has already begun
+     → Gen Z passing this schema to Gen Alpha
+     → 1–2 more generations: this schema will be DOMINANT
+
+  ④ Vietnam alcohol per capita will DECLINE toward Asian average
+     → Currently: 9.3L (highest in SE Asia, 70% above global average)
+     → Predicted: converging toward ~5–6L within 15–20 years
+     → Still ABOVE zero (alcohol won't disappear)
+```
+
+### §8.2 — Uncertain variables
+
+```
+  🔴 VARIABLES THAT COULD CHANGE THE PREDICTION:
+
+  ① If Vietnam's economy enters severe recession:
+     → Stress INCREASES + job loss → may INCREASE drinking (coping mechanism)
+     → But: digital alternatives STILL EXIST → may not increase much
+
+  ② If alcohol industry pivots toward "experience":
      → Craft beer + tasting events + cocktail culture
-     → = "Premium" thay "nhậu" → CÙNG chất, KHÁC context
-     → Có thể duy trì consumption ở nhóm thu nhập cao
-     
-  ③ Nếu AI tạo "ý nghĩa mới" cho thế hệ trẻ:
-     → AI tools → Imagine-Final RÕ hơn → ĐK3 MET lại
-     → NẾU Gen Z TÌM ĐƯỢC direction → stress bounded hơn → rượu CÓ THỂ functional lại
-     → NHƯNG: ĐK4 (alternatives) VẪN nhiều → rượu vẫn phải cạnh tranh
-     
+     → = "Premium" replaces "communal drinking" → SAME substance, DIFFERENT context
+     → Could maintain consumption among higher-income groups
+
+  ③ If AI creates "new meaning" for young people:
+     → AI tools → Imagine-Final CLEARER → Condition 3 MET again
+     → IF Gen Z FINDS direction → more bounded stress → alcohol
+         COULD be functional again
+     → BUT: Condition 4 (endless alternatives) STILL present →
+         alcohol still must compete
+
   ④ Cannabis legalization:
-     → Nếu VN legalize cannabis (unlikely ngắn hạn)
-     → Cannabis CÓ THỂ thay thế 1 phần chức năng rượu (relax, social)
-     → Với KHÁC mechanism (endocannabinoid, không GABA/NMDA)
+     → If Vietnam legalizes cannabis (unlikely short-term)
+     → Cannabis COULD replace part of alcohol's function
+         (relax, social)
+     → With DIFFERENT mechanism (endocannabinoid, not GABA/NMDA)
 ```
 
 ---
 
-## §9 — BODY-NEEDS KHÔNG BIẾN MẤT — DIGITAL REPLACEMENT
+## §9 — BODY-NEEDS DON'T DISAPPEAR — DIGITAL REPLACEMENT
 
 ```
-⭐ INSIGHT QUAN TRỌNG NHẤT:
+⭐ THE MOST IMPORTANT INSIGHT:
 
-  Rượu serve 5 body-needs:
+  Alcohol served 5 body-needs:
     Connection, Release, Warmth/reward, Status ritual, Entertainment
-    
-  Gen Z bỏ rượu → 5 needs này KHÔNG BIẾN MẤT → CHUYỂN SANG ĐÂU?
-  
-  ┌─────────────────┬─────────────────┬────────────────────────────┐
-  │ Body-need       │ Rượu (cũ)       │ Digital replacement (mới)   │
-  ├─────────────────┼─────────────────┼────────────────────────────┤
-  │ Connection      │ Nhậu chung      │ MXH, chat, game guilds     │
-  │ Release         │ PFC off (GABA)  │ Scroll, binge-watch, ASMR  │
-  │ Warmth/reward   │ Opioid (ethanol)│ Đường, comfort food, likes │
-  │ Status ritual   │ "Anh em nhậu"   │ Followers, streaks, rank   │
-  │ Entertainment   │ Quán nhậu       │ TikTok, YouTube, gaming    │
-  └─────────────────┴─────────────────┴────────────────────────────┘
-  
-  
-  ⚠️ VẤN ĐỀ: REPLACEMENTS CÓ THỂ CÓ VẤN ĐỀ RIÊNG
-  
-  Framework Addiction-Analysis v2 §4 (MXH):
-    → MXH scroll = dopamine loop KHÔNG opioid → "empty"
-    → Variable ratio reinforcement → khó dừng
-    → "Chán mà vẫn scroll" = wanting without liking
-    
-  Framework Addiction-Analysis v2 §3.2 (Gaming):
+
+  Gen Z quits alcohol → these 5 needs DON'T DISAPPEAR → where do they go?
+
+  ┌─────────────────┬──────────────────┬────────────────────────────┐
+  │ Body-need       │ Alcohol (old)    │ Digital replacement (new)  │
+  ├─────────────────┼──────────────────┼────────────────────────────┤
+  │ Connection      │ Communal drinking│ Social media, chat,        │
+  │                 │                  │ gaming guilds              │
+  │ Release         │ PFC off (GABA)   │ Scrolling, binge-watching, │
+  │                 │                  │ ASMR                       │
+  │ Warmth/reward   │ Opioid (ethanol) │ Sugar, comfort food, likes │
+  │ Status ritual   │ "Brothers who    │ Followers, streaks, rank   │
+  │                 │ drink together"  │                            │
+  │ Entertainment   │ Drinking venues  │ TikTok, YouTube, gaming    │
+  └─────────────────┴──────────────────┴────────────────────────────┘
+
+
+  ⚠️ THE PROBLEM: REPLACEMENTS MAY HAVE THEIR OWN ISSUES
+
+  Framework Addiction-Analysis §4.2 (social media):
+    → Social media scroll = dopamine loop WITHOUT opioid → "empty"
+    → Variable ratio reinforcement → hard to stop
+    → "Bored but keep scrolling" = wanting without liking
+
+  Framework Addiction-Analysis §4.2 (gaming):
     → Multi-channel reward (mastery + novelty + social + status)
-    → Nghiện behavioral: nhẹ hơn chemical nhưng AVAILABILITY 24/7
-    
-  → Gen Z CÓ THỂ KHÔNG nghiện rượu → nhưng CÓ THỂ nghiện digital
-  → Cùng mechanism: body-need chưa met → seek alternative → hijack
-  → = "Đổi rượu lấy phone" — CÓ THỂ tốt hơn (ít toxic hơn cho body)
-    nhưng CHƯA CHẮC "lành mạnh" hoàn toàn
-    
-    
-  SO SÁNH DAMAGE:
-  
-  ┌─────────────────┬─────────────────┬────────────────────────────┐
-  │                 │ Rượu bia        │ Digital                     │
-  ├─────────────────┼─────────────────┼────────────────────────────┤
-  │ Physical damage │ CỰC CAO (gan,   │ NHẸ (mắt, cột sống, ngủ) │
-  │                 │ não, ung thư)   │                            │
-  │ Withdrawal      │ CÓ THỂ CHẾT    │ Nhẹ (bồn chồn, chán)      │
-  │ Cognitive       │ PFC damage mãn  │ Attention fragmentation    │
-  │                 │ tính nếu lâu   │ (không damage vĩnh viễn)   │
-  │ Social          │ Gây gổ, TNGT   │ Isolation, comparison      │
-  │ Duration recovery│ Tháng → năm    │ Ngày → tuần               │
-  │ Addiction depth  │ CỰC SÂU (multi │ Nhẹ-TB (behavioral)       │
-  │                 │ -system chemical)│                            │
-  └─────────────────┴─────────────────┴────────────────────────────┘
-  
-  → Digital replacement = DAMAGE NHẸ HƠN rượu ở hầu hết chiều
-  → Nhưng: "nhẹ hơn" ≠ "không có vấn đề"
-  → Framework predict: bài toán tiếp theo KHÔNG PHẢI "bỏ rượu"
-    MÀ LÀ "body-needs được serve bằng nguồn LÀNH MẠNH thật sự không?"
+    → Behavioral addiction: milder than chemical but AVAILABILITY 24/7
+
+  → Gen Z MAY NOT be addicted to alcohol → but MAY become addicted
+      to digital
+  → Same mechanism: body-need unmet → seek alternative → hijacked
+  → = "Exchanging alcohol for the phone" — MAY BE better
+      (less toxic for the body) but NOT NECESSARILY "healthy"
+
+
+  COMPARING DAMAGE:
+
+  ┌──────────────────┬──────────────────┬────────────────────────────┐
+  │                  │ Alcohol          │ Digital                    │
+  ├──────────────────┼──────────────────┼────────────────────────────┤
+  │ Physical damage  │ EXTREME (liver,  │ MILD (eyes, spine, sleep)  │
+  │                  │ brain, cancer)   │                            │
+  │ Withdrawal       │ CAN BE FATAL     │ Mild (restlessness, boredom│
+  │ Cognitive        │ PFC damage if    │ Attention fragmentation    │
+  │                  │ long-term        │ (not permanent damage)     │
+  │ Social           │ Aggression, road │ Isolation, comparison      │
+  │                  │ accidents        │                            │
+  │ Recovery duration│ Months → years   │ Days → weeks               │
+  │ Addiction depth  │ EXTREME (multi-  │ Mild–moderate (behavioral) │
+  │                  │ system chemical) │                            │
+  └──────────────────┴──────────────────┴────────────────────────────┘
+
+  → Digital replacement = LESS DAMAGING than alcohol on most dimensions
+  → But: "less damaging" ≠ "not a problem"
+  → Framework predicts: the next challenge is NOT "quitting alcohol"
+    BUT: "are body-needs being served by TRULY HEALTHY sources?"
 ```
 
 ---
 
 ## §10 — HONEST ASSESSMENT
 
-### §10.1 — Điều claim chắc chắn
+### §10.1 — What the framework claims with confidence
 
 ```
-  🟢 Data: Gen Z VN + toàn cầu đang giảm uống (NielsenIQ, Berenberg, Gallup)
-  🟢 Data: VN tiêu thụ bia giảm từ 2020 (GSO, Inside.beer)
-  🟢 Data: Nghị định 100 có tác động đo lường được (GSO)
-  🟢 Gen: ALDH2*2 ~25-30% VN, ADH1B*2 ~70-85% VN (Li 2009, Eng 2007)
-  🟢 GDP per capita VN timeline (World Bank)
-  🟢 Internet/smartphone penetration VN (ITU, Statista)
+  🟢 Data: Vietnamese Gen Z + global Gen Z reducing alcohol
+       (NielsenIQ, Berenberg, Gallup)
+  🟢 Data: Vietnam beer consumption declining since 2020 (GSO, Inside.beer)
+  🟢 Data: Decree 100 had measurable impact (GSO)
+  🟢 Genetics: ALDH2*2 ~25–30% Vietnamese, ADH1B*2 ~70–85% Vietnamese
+       (Li 2009, Eng 2007)
+  🟢 Vietnam GDP per capita timeline (World Bank)
+  🟢 Internet/smartphone penetration Vietnam (ITU, Statista)
 ```
 
-### §10.2 — Điều infer/synthesize
+### §10.2 — What the framework infers/synthesizes
 
 ```
-  🟡 4 điều kiện model applied cho 4 thế hệ:
-     Framework synthesis — logic consistent, chưa test trực tiếp
-     Falsifiable: predict rằng nhóm CÓ 4/4 met vẫn functional drinkers
-     
-  🟡 "Mời rượu" = 5 kênh áp lực đồng thời:
-     Decomposed từ Obligation + Status + Connection + Identity + Business
-     Mỗi kênh có research support riêng, COMBINATION = framework inference
-     
-  🟡 Nghị định 100 = catalyst không phải cause:
-     Evidence: global trend trước luật + trend tiếp tục sau COVID
-     NHƯNG: khó tách riêng Nghị định vs COVID vs structural change
-     
-  🟡 Predictions 10-20 năm:
-     Dựa trên structural trends — nhưng external shocks có thể thay đổi
-     
-  🟡 "Schema reframe" (từ chối = trưởng thành):
-     VnExpress ghi nhận — nhưng mức độ phổ biến thật chưa rõ
+  🟡 4-conditions model applied to 4 generations:
+     Framework synthesis — logic consistent, not yet directly tested.
+     Falsifiable: predicts that groups WITH 4/4 conditions met
+     are still functional drinkers.
+
+  🟡 "Offering alcohol" = 5 simultaneous pressure channels:
+     Decomposed from Obligation + Status + Connection + Identity + Business.
+     Each channel has its own research support; the COMBINATION = framework inference.
+
+  🟡 Decree 100 = catalyst not cause:
+     Evidence: global trend preceded the law + trend continued post-COVID.
+     BUT: difficult to isolate Decree vs COVID vs structural change.
+
+  🟡 10–20 year predictions:
+     Based on structural trends — external shocks could change direction.
+
+  🟡 "Schema reframe" (refusing = maturity):
+     VnExpress records it — but true scale of prevalence is unclear.
 ```
 
-### §10.3 — Điều cần thêm
+### §10.3 — What still needs research
 
 ```
-  🔴 Tách riêng Nghị định 100 vs COVID impact:
-     → Cần: so sánh 2020-2021 (COVID + Nghị định) vs 2022-2025 (post-COVID)
-     → Nếu post-COVID VẪN giảm → confirm structural > COVID
-     → Data 2023: vẫn giảm 12% → gợi ý structural, nhưng cần thêm năm
-     
+  🔴 Separating Decree 100 impact vs COVID impact:
+     → Need: compare 2020–2021 (COVID + Decree) vs 2022–2025 (post-COVID)
+     → If post-COVID STILL declining → confirms structural, not just COVID
+     → 2023 data: still down 12% → suggests structural, but more years needed
+
   🔴 Rural vs urban breakdown:
-     → Nhậu ở nông thôn vs thành thị — khác biệt bao nhiêu?
-     → Gen Z nông thôn có giảm không? (4 điều kiện khác nhau)
-     
-  🔴 "Thất nghiệp sau đại học" chính xác bao nhiêu:
-     → Navigos 2022 nói 60% thiếu kỹ năng — nhưng methodology?
-     → Underemployment 20-30% = estimate, chưa có survey chính thức rõ
-     
-  🔴 Longitudinal study: cùng người, track 4 điều kiện × uống qua thời gian
-     → Cần: cohort study VN following 4 conditions → consumption behavior
-     → Sẽ validate/falsify 4-condition model
+     → Communal drinking in rural vs urban — how different?
+     → Is rural Gen Z also declining? (4 conditions differ)
+
+  🔴 "Post-university unemployment" exact data:
+     → Navigos 2022 says 60% lack practical skills — but methodology?
+     → 20–30% underemployment = estimate, no clear official survey
+
+  🔴 Longitudinal study: same person, tracking 4 conditions × drinking over time
+     → Need: cohort study in Vietnam following 4 conditions → consumption behavior
+     → Would validate/falsify the 4-conditions model
 ```
 
 ---
@@ -757,19 +789,19 @@ confidence: 🟢 Research/data support | 🟡 Framework synthesis | 🔴 Hypothe
 ## §11 — CROSS-REFERENCES
 
 **Companion file**:
-- [Alcohol-Brain-Mechanism.md](Alcohol-Brain-Mechanism.md) — cơ chế neural nền tảng (đọc TRƯỚC file này)
+- Alcohol-Brain-Mechanism.md — foundational neural mechanism (READ BEFORE this file)
 
 **Framework core files**:
-- [Obligation.md v1.0](../../Core-Deep-Dive/Observation/Obligation.md) — compiled prediction, social exchange
-- [Status.md v2.0](../../Core-Deep-Dive/Observation/Status.md) — Resource Access Map, identity threat
-- [Connection.md v3.0](../../Core-Deep-Dive/Observation/Connection.md) — 3 Generative Primitives
-- [Compliance-Floor.md v2.0](../../Core-Deep-Dive/Collective/Compliance-Floor.md) — external rule = bridge
-- [Meaning.md v2.0](../../Core-Deep-Dive/Observation/Meaning.md) — life-level Anchor-Schema
-- [Imagine-Final.md](../../Core-Deep-Dive/PFC/Imagination/Imagine-Final.md) — reference pattern
-- [Boredom.md](../../Core-Deep-Dive/Observation/Boredom.md) — dissonance + unclear Imagine-Final
-- [Drive.md](../../Core-Deep-Dive/Observation/Drive.md) — Drive-PFC-Spinning
-- [Cortisol-Baseline.md v2.0](../../Core-Deep-Dive/Body-Base/Cortisol-Baseline.md) — novelty vs threat
-- [Addiction-Analysis-v2.md](Addiction-Analysis-v2.md) — addiction mechanism, digital addiction
+- Obligation.md v1.0 — compiled prediction, social exchange
+- Status.md v2.0 — Resource Access Map, identity threat
+- Connection.md v3.0 — 3 Generative Primitives
+- Compliance-Floor.md v2.0 — external rule = bridge
+- Meaning.md v2.0 — life-level Anchor-Schema
+- Imagine-Final.md — reference pattern
+- Boredom.md — dissonance + unclear Imagine-Final
+- Drive.md — Drive-PFC-Spinning
+- Cortisol-Baseline.md v2.0 — amplifier, novelty vs threat
+- Addiction-Analysis.md — addiction mechanism, digital addiction
 
 **Data sources**:
 - 🟢 NielsenIQ 2025 Vietnam Young Consumers Report
@@ -777,18 +809,17 @@ confidence: 🟢 Research/data support | 🟡 Framework synthesis | 🔴 Hypothe
 - 🟢 KPMG 2020, 2024 — Vietnam beer industry reports
 - 🟢 Berenberg Research 2018 — Gen Z global alcohol decline
 - 🟢 Gallup 2023, 2025 — U.S. drinking trends
-- 🟢 WHO 2019 — Vietnam alcohol data
+- 🟢 WHO 2019 — Vietnam alcohol data (9.3L per capita, 55,400 deaths)
 - 🟢 World Bank — Vietnam GDP per capita
 - 🟢 Li et al. 2009 — ALDH2*2 Vietnamese prevalence
 - 🟢 Eng et al. 2007 — ADH1B*2 Vietnamese prevalence
 - 🟢 Brooks et al. 2009 — ALDH2*2 + esophageal cancer risk
 - 🟢 Inside.beer 2023 — Vietnam beer revenue data
-- VnExpress 2025 — Gen Z từ chối rượu bia
+- VnExpress 2025 — Gen Z rejecting alcohol
 
 ---
 
-> *Alcohol-Vietnam-Generational v1.0 — ANALYSIS FILE*
-> *"Thế hệ Đổi Mới: 4/4 điều kiện met → nhậu = functional. Gen Z: 0/4 → counter-productive."*
-> *"Không phải Gen Z yếu hơn. Gen Z = thế hệ đầu tiên biology ĐƯỢC PHÉP thắng culture."*
-> *"Body-needs không biến mất — chúng chuyển sang digital. Tốt hơn rượu, chưa chắc đã tốt."*
-> *Framework: Human Predictive Drive v7.8 + Vietnam data 2019-2025*
+> *"Đổi Mới generation: 4/4 conditions met → communal drinking = functional.*
+> *Gen Z: 0/4 → counter-productive."*
+> *"Gen Z is not weaker. Gen Z is the first generation where biology is PERMITTED to win over culture."*
+> *"Body-needs don't disappear — they migrate to digital. Better than alcohol, not necessarily healthy."*

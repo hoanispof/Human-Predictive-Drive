@@ -7,22 +7,30 @@ session: N+4a
 scope: Establish baseline state for F1 body-input arcs. Womb environment characterization + prenatal neural development + prenatal learning (chunks forming before birth) + PFC state in womb + birth moment physiology + first cry as survival reflex + empirical Q&A from user + first sensory cascade post-birth. Addresses user's §0.5 Q5-Q6 of plan.md.
 status: DRAFT N+4a P3 — ready for user review
 reading_order: READ after 00-Sketch + 01-PFC-Reframe, before arc files 03-08
-language: Tiếng Việt primary + English technical terms
+language: English (translated from Vietnamese source)
 depends_on: 01-PFC-Hardware-Reframe (PFC online from prenatal)
-addresses: Baseline for Nút Thắt 2 (Precondition-2 accumulation starts here) + Nút Thắt 3 (prenatal chunks + birth = first multi-modal binding challenge)
+addresses: Baseline for Convergence Point 2 (Precondition-2 accumulation starts here) + Convergence Point 3 (prenatal chunks + birth = first multi-modal binding challenge)
 ---
 
 # 02 — Womb-to-Birth Baseline
 
-> **File này là BASELINE FILE** — establish starting state trước khi body-input arcs (03-08) bắt đầu analyze post-birth developmental mechanism. Mỗi arc file sẽ cite back về file này cho câu hỏi: **"chunks state ở thời điểm birth là gì?"** và **"prenatal substrate mang lại gì cho baseline post-birth?"**
+> **This file is the BASELINE FILE** — establishing the starting state before the body-input arcs
+> (03-08) begin analyzing post-birth developmental mechanism. Each arc file will cite back to this
+> file for the questions: **"what is the chunks state at the moment of birth?"** and **"what
+> substrate does prenatal development contribute to the post-birth baseline?"**
 >
-> **Nguồn catalyst**: N+4 prep conversation 2026-04-15. User's bottom-up reframe proposal: bắt đầu F1 từ womb → birth → post-birth events, không phải từ abstract mechanism categories. User raised 4 empirical questions directly during conversation. File này answer các empirical questions + formalize baseline state as framework commitment.
+> **Catalyst source**: N+4 prep conversation 2026-04-15. User's bottom-up reframe proposal: begin
+> F1 from womb → birth → post-birth events, not from abstract mechanism categories. User raised
+> 4 empirical questions directly during conversation. This file answers those empirical questions
+> + formalizes baseline state as framework commitment.
 >
 > **User's original framing** (§0.5 Q5 + Q6 of plan.md, verbatim):
 >
-> - **Q5**: *"bào thai trong bụng mẹ sẽ mặc định smooth. vì body-input của chúng hoàn toàn là bụng mẹ, vô thức hoàn toàn smooth (trừ khi mẹ đói thiếu dinh dưỡng, có thể là vậy), PFC có phát triển nhưng chưa có dissonance gì để tham gia"*
+> - **Q5**: *"The fetus in the womb will default to smooth. Because their body-input is entirely the mother's womb, the unconscious is completely smooth (unless the mother is hungry or malnourished, possibly), PFC is developing but there is no dissonance yet for it to engage with."*
+>   *(Vietnamese original: "bào thai trong bụng mẹ sẽ mặc định smooth. vì body-input của chúng hoàn toàn là bụng mẹ, vô thức hoàn toàn smooth (trừ khi mẹ đói thiếu dinh dưỡng, có thể là vậy), PFC có phát triển nhưng chưa có dissonance gì để tham gia")*
 >
-> - **Q6**: *"sau khi sinh, bắt đầu tiếp xúc với không khí, khô da, bé bắt đầu khóc, lần đầu tiên chúng bị túm cổ lôi ra, lần đầu tiên tiếp xúc với domain real, lần đầu tiên hít thở ô xi, dissonance, khóc"*
+> - **Q6**: *"After birth, beginning to contact air, skin drying, the baby starts crying — first time they are pulled out by the neck, first time contact with domain real, first time breathing oxygen, dissonance, crying."*
+>   *(Vietnamese original: "sau khi sinh, bắt đầu tiếp xúc với không khí, khô da, bé bắt đầu khóc, lần đầu tiên chúng bị túm cổ lôi ra, lần đầu tiên tiếp xúc với domain real, lần đầu tiên hít thở ô xi, dissonance, khóc")*
 >
 > **Framework commitments in this file**:
 > 1. Womb ≈ homeostatic default with minimal domain-real dissonance (approximately true per evidence, with caveats)
@@ -30,14 +38,12 @@ addresses: Baseline for Nút Thắt 2 (Precondition-2 accumulation starts here) 
 > 3. PFC hardware online from prenatal per reframe; "nothing to arbitrate" framing is closer to "no domain-real dissonance demanding arbitration" than "PFC inactive"
 > 4. First cry at birth = brainstem survival reflex for lung inflation, **not** emotional dissonance response
 > 5. Post-birth first hours/days = first large-scale multi-modal binding challenge for compiled chunks
->
-> **Style**: Tiếng Việt primary + English technical terms. 🟢 Research-backed / 🟡 Framework inference / 🔴 Hypothesis. "Imagine-Final" không viết tắt. "bạn-tôi" addressing.
 
 ---
 
 ## §0 — Abstract
 
-Womb environment is physically homeostatic relative to post-birth life: stable temperature (~37°C via maternal regulation), continuous nutrition (placental), amniotic fluid buffering mechanical and thermal shocks, muffled external sounds, filtered dim light. Body-input sources are narrow: limited to mother's voice + heartbeat + vascular sounds, proprioceptive feedback from own movements, filtered ambient sounds, and minimal visual input. User's framing of "default smooth" is approximately correct: fetus has no discrete dissonance events from domain real because there is very little "domain real" contacting fetus directly. Caveats exist — maternal malnutrition, maternal cortisol crossing placenta (DiPietro fetal stress studies), maternal emotional stress, maternal substance exposure — but baseline is smooth when mother is well. Prenatal neural development is substantial: synaptogenesis begins <27 weeks conceptual age (Huttenlocher & Dabholkar 1997), resting-state networks are adult-like facsimiles by term birth (Doria et al. 2010), DMN primitive present from preterm scans, fetal REM sleep occurs from ~30 weeks, and auditory learning is demonstrable — newborns prefer stories mother read during pregnancy (DeCasper & Spence 1986) and prefer native language rhythm at birth (Mehler et al. 1988). These facts mean **chunks begin compiling before birth**, specifically auditory chunks for mother's voice + native language rhythm + rhythm of maternal heartbeat. PFC hardware is online from prenatal per reframe; user's insight that "PFC có phát triển nhưng chưa có dissonance gì để tham gia" is closer to "PFC operational but in low-arbitration-demand environment" than "PFC inactive". Birth moment is physiologically massive: placental→pulmonary circulation switch (foramen ovale + ductus arteriosus close within minutes to hours), umbilical cord cut, alveolar inflation requires ~60-100 cm H₂O negative pressure (10-20x adult breath), forced exhalation against closed glottis inflates alveoli + clears fluid + establishes breathing. First cry is brainstem survival reflex — not emotional dissonance response — ladder level L0, present even in anencephalic infants born without cortex. Empirical Q&A from user: (1) 5-10% of newborns don't cry immediately (causes: birth asphyxia, meconium aspiration, maternal opioid analgesia, rapid C-section delivery, hypothermia); (2) Historical back-slap practice (pre-1970s) rejected by AAP/WHO since ~1980s — modern protocol is dry vigorously, tactile stimulation, suction if needed, bag-mask if needed; (3) First cry is full-force, physiological necessity because lung inflation requires maximum effort; (4) Newborns can see — acuity ~20/400, high-contrast only, face preference (CONSPEC innate per Morton & Johnson 1991, Fantz 1961), direct gaze preference from 2-5 days (Farroni et al. 2002). Post-birth first hours are first massive sensory cascade: novel inputs (air temperature drop ~10°C, gravity, light brightness, tactile contact, dry skin) hit simultaneously. Maternal soothing (skin contact, familiar voice, warmth) triggers partial smooth restoration — familiar voice chunk from prenatal fires, providing first bridging between prenatal chunks and post-birth sensory flood. This is where F1 substrate chunk compilation begins in earnest. File delivers: (a) womb environment characterization; (b) prenatal neural development summary; (c) prenatal learning evidence; (d) PFC state in womb; (e) birth moment physiology + framework reframe of first cry; (f) empirical Q&A; (g) first sensory cascade analysis; (h) framework implications as baseline for arc files 03-08.
+Womb environment is physically homeostatic relative to post-birth life: stable temperature (~37°C via maternal regulation), continuous nutrition (placental), amniotic fluid buffering mechanical and thermal shocks, muffled external sounds, filtered dim light. Body-input sources are narrow: limited to mother's voice + heartbeat + vascular sounds, proprioceptive feedback from own movements, filtered ambient sounds, and minimal visual input. User's framing of "default smooth" is approximately correct: fetus has no discrete dissonance events from domain real because there is very little "domain real" contacting fetus directly. Caveats exist — maternal malnutrition, maternal cortisol crossing placenta (DiPietro fetal stress studies), maternal emotional stress, maternal substance exposure — but baseline is smooth when mother is well. Prenatal neural development is substantial: synaptogenesis begins ~27 weeks conceptual age (Huttenlocher & Dabholkar 1997), resting-state networks are adult-like facsimiles by term birth (Doria et al. 2010), DMN primitive present from preterm scans, fetal REM sleep occurs from ~30 weeks, and auditory learning is demonstrable — newborns prefer stories mother read during pregnancy (DeCasper & Spence 1986) and prefer native language rhythm at birth (Mehler et al. 1988). These facts mean **chunks begin compiling before birth**, specifically auditory chunks for mother's voice + native language rhythm + rhythm of maternal heartbeat. PFC hardware is online from prenatal per reframe; user's insight that "PFC is developing but has no dissonance to engage with" is closer to "PFC operational but in low-arbitration-demand environment" than "PFC inactive". Birth moment is physiologically massive: placental→pulmonary circulation switch (foramen ovale + ductus arteriosus close within minutes to hours), umbilical cord cut, alveolar inflation requires ~60-100 cm H₂O negative pressure (10-20x adult breath), forced exhalation against closed glottis inflates alveoli + clears fluid + establishes breathing. First cry is brainstem survival reflex — not emotional dissonance response — ladder level L0, present even in anencephalic infants born without cortex. Empirical Q&A from user: (1) 5-10% of newborns don't cry immediately (causes: birth asphyxia, meconium aspiration, maternal opioid analgesia, rapid C-section delivery, hypothermia); (2) Historical back-slap practice (pre-1970s) rejected by AAP/WHO since ~1980s — modern protocol is dry vigorously, tactile stimulation, suction if needed, bag-mask if needed; (3) First cry is full-force, physiological necessity because lung inflation requires maximum effort; (4) Newborns can see — acuity ~20/400, high-contrast only, face preference (CONSPEC innate per Morton & Johnson 1991, Fantz 1961), direct gaze preference from 2-5 days (Farroni et al. 2002). Post-birth first hours are first massive sensory cascade: novel inputs (air temperature drop ~10°C, gravity, light brightness, tactile contact, dry skin) hit simultaneously. Maternal soothing (skin contact, familiar voice, warmth) triggers partial smooth restoration — familiar voice chunk from prenatal fires, providing first bridging between prenatal chunks and post-birth sensory flood. This is where F1 substrate chunk compilation begins in earnest. File delivers: (a) womb environment characterization; (b) prenatal neural development summary; (c) prenatal learning evidence; (d) PFC state in womb; (e) birth moment physiology + framework reframe of first cry; (f) empirical Q&A; (g) first sensory cascade analysis; (h) framework implications as baseline for arc files 03-08.
 
 ---
 
@@ -149,7 +155,7 @@ Arc files assume reader has understood this baseline. If you skip this file and 
 
 ### §2.3 — Why "default smooth" is approximately true
 
-🟡 **User's framing evaluated**: *"bào thai trong bụng mẹ sẽ mặc định smooth. vì body-input của chúng hoàn toàn là bụng mẹ, vô thức hoàn toàn smooth (trừ khi mẹ đói thiếu dinh dưỡng, có thể là vậy), PFC có phát triển nhưng chưa có dissonance gì để tham gia"*
+🟡 **User's framing evaluated**: *"The fetus in the womb defaults to smooth. Because their body-input is entirely the mother's womb, the unconscious is completely smooth (unless the mother is hungry or malnourished, possibly), PFC is developing but there is no dissonance yet for it to engage with."*
 
 This framing is **approximately correct** for the following reasons:
 
@@ -162,7 +168,7 @@ This framing is **approximately correct** for the following reasons:
 - Framework definition: "domain real" = the actual physical/social world beyond body-base
 - Fetus experiences domain real only through **maternal proxy** — filtered, delayed, buffered
 - Without direct domain-real contact, there is no domain-real feedback for PFC to arbitrate
-- User's phrasing "chưa có dissonance gì để tham gia" captures this precisely
+- User's phrasing "no dissonance yet for it to engage with" captures this precisely
 
 **Reason 3 — Auto-regulation by maternal physiology**:
 - Maternal body regulates temperature, nutrition, oxygen, mechanical environment for fetus
@@ -181,7 +187,7 @@ This framing is **approximately correct** for the following reasons:
 **Maternal malnutrition**:
 - Severe undernutrition → reduced placental nutrient transfer → fetal growth restriction
 - Mild-moderate undernutrition → subtle but measurable impacts on fetal development
-- User's caveat ("trừ khi mẹ đói thiếu dinh dưỡng") is correct
+- User's caveat ("unless the mother is hungry or malnourished") is correct
 
 **Maternal cortisol crossing placenta**:
 - 🟢 DiPietro et al. fetal stress studies: maternal stress hormones (cortisol) cross placenta partially, affect fetal heart rate variability, may affect developmental outcomes
@@ -205,7 +211,7 @@ This framing is **approximately correct** for the following reasons:
 - Labor onset disrupts the "default smooth" state — contractions, decreased oxygen during contractions, preparation for birth transition
 - Late-term fetus experiences labor stress before actual birth
 
-**Framework commitment**: "Default smooth" is accurate **for uncomplicated, well-nourished, low-stress pregnancies**, which represents the majority but not all cases. F1 baseline assumes default-smooth case; variations would affect chunks formation rate + content but not fundamental mechanism.
+**Framework commitment**: "Default smooth" is accurate **for uncomplicated, well-nourished, low-stress pregnancies**, which represents the majority but not all cases. F1 baseline assumes the default-smooth case; variations would affect chunks formation rate + content but not the fundamental mechanism.
 
 ---
 
@@ -253,7 +259,7 @@ This framing is **approximately correct** for the following reasons:
 - Swallowing amniotic fluid from ~12-16 weeks
 - Urination into amniotic fluid from ~10-14 weeks ⭐
 
-**Key point for F1**: The fetal urination from ~10-14 weeks is empirical evidence that **bladder motor pathway is operational prenatally**. This is load-bearing for [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) §2 — when 06a claims bladder sensor pathway is present from birth, the motor pathway has been operational for 25+ weeks at that point.
+**Key point for F1**: Fetal urination from ~10-14 weeks is empirical evidence that **bladder motor pathway is operational prenatally**. This is load-bearing for [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) §2 — when 06a claims bladder sensor pathway is present from birth, the motor pathway has been operational for 25+ weeks at that point.
 
 **Implication**: Birth does not bring online most of infant's motor/sensory hardware. Hardware has been active (in limited, muffled form) for months. What birth brings is **massive change in inputs** that hardware must process (see §6).
 
@@ -303,7 +309,7 @@ This framing is **approximately correct** for the following reasons:
 
 **Framework inference**: Motor chunks for **basic self-movement** (hand-to-mouth, thumb sucking, flexion/extension coordination) are **plausibly compiled prenatally** via repetition mechanism. Chunks for **gravity-loaded motor** (head control, reaching, walking) are **not** prenatally compiled — fetus has neutral buoyancy so has no gravity-loaded motor experience.
 
-### §4.3 — What prenatal chunks compile tells us about F1 mechanism
+### §4.3 — What prenatal chunk compilation tells us about F1 mechanism
 
 🟡 **Three framework implications**:
 
@@ -361,11 +367,11 @@ This framing is **approximately correct** for the following reasons:
 
 ### §5.3 — User's insight preserved
 
-**User's phrasing** (§0.5 Q5 verbatim): *"PFC có phát triển nhưng chưa có dissonance gì để tham gia"*
+**User's phrasing** (§0.5 Q5 verbatim): *"PFC is developing but there is no dissonance yet for it to engage with."*
 
-🟡 **Framework translation**:
+🟡 **Framework unpacking**:
 
-"PFC is developing but has no dissonance to engage with" can be unpacked as:
+"PFC is developing but has no dissonance to engage with" unpacks as:
 
 - ✅ "PFC hardware is operational" — correct per reframe
 - ✅ "PFC has nothing to arbitrate in the usual adult sense" — correct because narrow input profile + no domain-real contact + homeostatic body state
@@ -376,7 +382,7 @@ This framing is **approximately correct** for the following reasons:
 - Passive observation of incoming auditory patterns
 - Integration participation (upstream networks connect via PFC regions in adult, presumably similar architecture prenatally)
 - Sleep-related processing (REM sleep involves frontal regions)
-- Slow chunks compilation via repetition (auditory)
+- Slow chunk compilation via repetition (auditory)
 
 **User's framing is correct**: PFC has nothing to arbitrate **in the adult/decision-making sense**. PFC is not idle — it is doing developmentally-appropriate low-demand processing.
 
@@ -397,7 +403,7 @@ Consequence for PFC:
 - PFC's **observational function** — processing sensory patterns — **is** active, working on what's available (auditory)
 - PFC's **compilation function** — creating new chunks — **is** active, producing prenatal chunks (maternal voice, language rhythm)
 
-**This explains user's "chưa có dissonance gì để tham gia"**: PFC's arbitration function has no workload because the environment has no arbitration demands. But PFC is not inactive — its passive processing and compilation functions are running throughout late pregnancy.
+**This explains user's framing of "no dissonance to engage with"**: PFC's arbitration function has no workload because the environment has no arbitration demands. But PFC is not inactive — its passive processing and compilation functions are running throughout late pregnancy.
 
 **Architectural implication for F1**: Post-birth arrival of domain-real dissonance (air on skin, light in eyes, gravity pulling body) is the **first time** PFC encounters its arbitration-relevant workload. Pre-birth PFC is like a computer that has been running but only on observational tasks; post-birth is when the first "real decisions" start mattering.
 
@@ -491,7 +497,7 @@ Each of these individually is a novel sensation at the moment of birth. **All fi
 - The "cry equipment" (vocal cords, respiratory muscles, brainstem pattern generator) is the same
 - What changes post-birth is the **triggers** — reflexive cardiorespiratory cues at birth, then hunger (E1 at 2 weeks), then pain (E2 at 6 weeks), then emotional discomfort later
 
-**User's framing nuance** (from Q6): *"sau khi sinh, bắt đầu tiếp xúc với không khí, khô da, bé bắt đầu khóc, lần đầu tiên chúng bị túm cổ lôi ra, lần đầu tiên tiếp xúc với domain real, lần đầu tiên hít thở ô xi, dissonance, khóc"*
+**User's framing nuance** (from Q6): *"After birth, beginning to contact air, skin drying, the baby starts crying — first time they are pulled out by the neck, first time contact with domain real, first time breathing oxygen, dissonance, crying."*
 
 User's framing is **mostly correct** with one nuance: the "dissonance" at birth is not the framework's emotional-dissonance sense (which requires body-feedback mismatch processing). It's **physiological dissonance** — sudden change from homeostatic state to novel cardiorespiratory demands. The first cry responds to this physiological dissonance via brainstem reflex, not via PFC observation of body signal mismatch.
 
@@ -503,7 +509,7 @@ Framework commitment: First cry = **physiological dissonance triggering brainste
 
 > During N+4 prep conversation 2026-04-15, user raised 4 specific empirical questions about the birth moment. This section preserves the questions and provides answers with research/clinical base.
 
-### §7.1 — "Có trẻ sơ sinh không khóc ngay không?"
+### §7.1 — Do some newborns not cry immediately?
 
 🟢 **Answer**: Yes, approximately **5-10% of newborns do not cry immediately at birth** in high-quality obstetric settings. Causes vary:
 
@@ -546,9 +552,9 @@ Framework commitment: First cry = **physiological dissonance triggering brainste
 
 **Framework significance**: These cases are **not counterexamples to "first cry = reflex"**. They are cases where the reflex fails to fire or cannot execute due to external interference. The mechanism remains reflexive; the trigger conditions are disturbed.
 
-### §7.2 — "Bác sĩ có vỗ đít không?"
+### §7.2 — Do doctors slap the newborn?
 
-🟢 **Answer**: **Historically yes, but rejected by modern protocols since approximately 1980s**.
+🟢 **Answer**: **Historically yes, but rejected by modern protocols since approximately the 1980s**.
 
 **Historical practice** (pre-1970s):
 - Physicians routinely slapped newborn buttocks or feet to stimulate crying
@@ -569,9 +575,9 @@ Framework commitment: First cry = **physiological dissonance triggering brainste
 
 **Rationale for gentler approach**: Most newborns will cry spontaneously within seconds of umbilical cord clamping + exposure to cool air + drying. Forceful stimulation is unnecessary and potentially harmful. Reserve vigorous intervention for babies who genuinely fail to breathe.
 
-**Framework significance**: Birth moment is handled medically with **minimum necessary stimulation**. This means the "first cry" in normal cases is driven by physiological transition cues (§6.2), not by external painful stimulus. User's framing ("lần đầu tiên chúng bị túm cổ lôi ra") captures the handling aspect; physiological cues are the primary breath trigger.
+**Framework significance**: Birth moment is handled medically with **minimum necessary stimulation**. This means the "first cry" in normal cases is driven by physiological transition cues (§6.2), not by external painful stimulus. User's framing of "first time they are pulled out by the neck" captures the handling aspect; physiological cues are the primary breath trigger.
 
-### §7.3 — "Khóc thét hay nhẹ nhàng?"
+### §7.3 — Is the first cry loud or gentle?
 
 🟢 **Answer**: Typically **full-force crying**, because **lung inflation against surface tension requires maximum respiratory effort**.
 
@@ -595,9 +601,9 @@ Framework commitment: First cry = **physiological dissonance triggering brainste
 
 **Clinical observation**: Loud vigorous crying at birth is reassuring sign. "Good cry" is rough proxy for good respiratory function + Apgar score.
 
-**Framework significance**: The loudness is **functional**, not emotional. A quiet newborn is concerning medically because it suggests inadequate lung inflation. Crying vigor correlates with physiological adequacy, not with "emotional state".
+**Framework significance**: The loudness is **functional**, not emotional. A quiet newborn is concerning medically because it suggests inadequate lung inflation. Crying vigor correlates with physiological adequacy, not with emotional state.
 
-### §7.4 — "Newborn có nhìn được không?"
+### §7.4 — Can newborns see?
 
 🟢 **Answer**: **Yes**, newborns can see, but vision is limited compared to adult.
 
@@ -635,7 +641,7 @@ Framework commitment: First cry = **physiological dissonance triggering brainste
 
 **Framework significance**: Newborn is not "blind" — newborn has functional vision optimized for **near-face interaction**. The visual system is ready for social + feeding interaction from day one. Detailed visual arc in [03-Visual-System-Arc.md](03-Visual-System-Arc.md) §2-§3.
 
-**User's framing** (conversational context): "bé vừa sinh ra đã biết nhìn. hay bé chỉ đơ mắt ra". Answer: newborn genuinely sees (in limited way), not just "đơ mắt". The appearance of "đơ mắt" in a newborn is more likely (a) low acuity making gaze seem unfocused, or (b) ocular motor immaturity causing occasional cross-eyed appearance, or (c) infant simply not having anything specific to focus on in a given moment. Newborns do focus, track, and prefer — functionally seeing, not "blank".
+**User's framing context**: "Can a newborn already see, or do they just have a blank fixed stare?" Answer: newborn genuinely sees (in limited way), not just a blank stare. The appearance of "blank stare" in a newborn is more likely (a) low acuity making gaze seem unfocused, or (b) ocular motor immaturity causing occasional cross-eyed appearance, or (c) infant simply not having anything specific to focus on in a given moment. Newborns do focus, track, and prefer — functionally seeing, not blank.
 
 ---
 
@@ -788,11 +794,11 @@ Chunks **NOT** available at birth:
 - Mother face recognition at 5 months (Feel-Example E15) is a more complex multi-modal bind — 5+ modalities (face + voice + smell + warmth + interaction history)
 - The 6-8 week window for social smile emergence is **consistent with post-birth multi-modal binding taking ~6 weeks to reach first documented milestone**
 
-**Relationship to Nút Thắt 3** (multi-modal binding mechanism): [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6 drills the binding mechanism deeply using social smile as cleanest case. This file establishes the **timing baseline** — post-birth multi-modal binding begins immediately (first hours) but takes ~6 weeks for first visible coordinated output.
+**Relationship to Convergence Point 3** (multi-modal binding mechanism): [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6 drills the binding mechanism deeply using social smile as cleanest case. This file establishes the **timing baseline** — post-birth multi-modal binding begins immediately (first hours) but takes ~6 weeks for first visible coordinated output.
 
 ### §9.4 — Domain-real dissonance emergence
 
-🟡 **Framework commitment**: User's Q6 framing ("lần đầu tiên tiếp xúc với domain real") is architecturally meaningful.
+🟡 **Framework commitment**: User's Q6 framing ("first time contact with domain real") is architecturally meaningful.
 
 **Before birth**: Minimal domain-real dissonance → PFC's arbitration function has no workload.
 
@@ -806,7 +812,7 @@ Chunks **NOT** available at birth:
 
 🟡 **Precondition-2 Chunk-Substrate** from [../Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) is the keystone developmental bottleneck. This file establishes the **starting point** of the bottleneck: at birth, Precondition-2 is essentially empty for most body states (prenatal chunks cover only narrow auditory + maternal voice domains).
 
-**Implication for [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md)**: When 06a drills bladder case as cleanest L0→L4 arc over 22 months (birth → E23 verbal "buồn đái"), the starting point is NOT "chunks zero" in absolute sense (prenatal chunks exist) but is "chunks zero for bladder-specific content". This matters because:
+**Implication for [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md)**: When 06a drills bladder case as cleanest L0→L4 arc over 22 months (birth → E23 verbal "need to pee"), the starting point is NOT "chunks zero" in absolute sense (prenatal chunks exist) but is "chunks zero for bladder-specific content". This matters because:
 
 - Bladder sensor hardware has been operational prenatally (~10-14 weeks, §3.3)
 - PFC hardware has been online prenatally
@@ -878,8 +884,8 @@ The Precondition-2 bottleneck is **content-specific**, not global. Different bod
 - Shewmon 1988, 2009 (anencephaly case series showing brainstem reflexes preserved)
 
 **User quotes preserved** ([plan.md](plan.md) §0.5):
-- Q5 womb default smooth
-- Q6 birth cascade + first cry
+- Q5 womb default smooth (§5.3, §2.3 in this file)
+- Q6 birth cascade + first cry (§6.4 in this file)
 
 ---
 
@@ -943,8 +949,8 @@ The Precondition-2 bottleneck is **content-specific**, not global. Different bod
 
 **Next step**: Session N+4a closeout (Phase F1-P4):
 - Update [plan.md](plan.md) F1 status (3 foundation files drilled)
-- Update `../plan.md` parent Chunk-Analysis plan
-- Update memory `project_chunk_analysis.md`
+- Update parent plan
+- Update memory
 - Update [../NEXT-SESSION-DIRECTIONS.md](../NEXT-SESSION-DIRECTIONS.md) for N+4b (sensory + motor arcs: 03 Visual + 04 Auditory + 05 Motor)
 - User review checkpoint
 
@@ -962,4 +968,4 @@ The Precondition-2 bottleneck is **content-specific**, not global. Different bod
 
 > **02-Womb-to-Birth-Baseline.md — End of file.**
 >
-> Baseline establishment complete. F1 starting state at t=0 fully characterized. Prenatal chunks library identified. First cry reframed as survival reflex. User Q5-Q6 answered with research base. Proceed to Phase F1-P4 closeout, then N+4b drill for sensory + motor arcs (03 Visual + 04 Auditory + 05 Motor).
+> Baseline establishment complete. F1 starting state at t=0 fully characterized. Prenatal chunks library identified. First cry reframed as survival reflex. User Q5-Q6 answered with research base.

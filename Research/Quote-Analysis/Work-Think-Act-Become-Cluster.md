@@ -4,43 +4,43 @@ version: 1.0
 created: 2026-05-23
 status: v1.0 COMPLETE
 scope: |
-  CLUSTER ANALYSIS: 2 quotes về PFC-driven identity change.
+  CLUSTER ANALYSIS: 2 quotes about PFC-driven identity change.
   "Fake it till you make it" (ACTION side) + "The mind is everything" (THOUGHT side).
-  = 2 NỬA của CÙNG 1 pipeline: PFC → Compile → Identity.
-  Framework giải mã: convergent concept "Compile Quality Gate" —
-  CÙNG pipeline, CÙNG effort, KHÁC tại Quality Gate → KHÁC kết quả suốt đời.
-  Genuine-compiled (thật sự thay đổi) vs Schema-compiled (biết nhưng không cảm)
-  vs Threat-compiled (giỏi nhưng ghét).
-  + Meta: cả 2 quotes validate PFC's illusion of control.
-  + AI era: Quality Gate trở nên QUAN TRỌNG HƠN khi AI amplify cả think + act.
+  = 2 HALVES of the SAME pipeline: PFC → Compile → Identity.
+  Framework decodes: convergent concept "Compile Quality Gate" —
+  SAME pipeline, SAME effort, DIFFERENT at the Quality Gate → DIFFERENT outcome for life.
+  Genuine-compiled (truly changed) vs Schema-compiled (knows but doesn't feel)
+  vs Threat-compiled (skilled but hates it).
+  + Meta: both quotes validate PFC's illusion of control.
+  + AI era: Quality Gate becomes MORE IMPORTANT when AI amplifies both think + act.
 purpose: |
-  4 entries trước: Goal+Why (external→team), Hungry+Foolish (internal→self),
+  4 prior entries: Goal+Why (external→team), Hungry+Foolish (internal→self),
   Move Fast (org lifecycle), Adversity/Fear cluster (direction tag).
-  File NÀY: CLUSTER analysis — 2 quotes là 2 NỬA CÙNG pipeline.
-  Unique: cluster reveals the MISSING MIDDLE mà cả 2 quotes đều bỏ qua.
-  Adversity cluster: CÙNG adversity → KHÁC direction → KHÁC outcome.
-  File này: CÙNG pipeline → KHÁC quality gate → KHÁC outcome.
-  = Mỗi cluster thêm 1 "biến ẩn" mà social quote compression cắt mất.
+  THIS file: CLUSTER analysis — 2 quotes are 2 HALVES of the SAME pipeline.
+  Unique: cluster reveals the MISSING MIDDLE that both quotes skip entirely.
+  Adversity cluster: SAME adversity → DIFFERENT direction → DIFFERENT outcome.
+  This file: SAME pipeline → DIFFERENT quality gate → DIFFERENT outcome.
+  = Each cluster restores 1 "hidden variable" that social quote compression cuts.
 position: |
-  Research/Quote-Analysis/ — ngang hàng Work-Adversity-Fear-Cluster.md.
+  Research/Quote-Analysis/ — parallel to Work-Adversity-Fear-Cluster.md.
 dependencies:
   PFC-Operations:
-    - PFC-Operations.md v1.0 — §2 Hold/Suppress, §3 4 tổ hợp, §4 3 outcomes, §5 Compiled Quality (genuine/schema/threat), §6 B vs C 7 factors, §8 Compiled Suppress, §9 PFC Budget
+    - PFC-Operations.md v1.0 — §2 Hold/Suppress, §3 4 combinations, §4 3 outcomes, §5 Compiled Quality (genuine/schema/threat), §6 B vs C 7 factors, §8 Compiled Suppress, §9 PFC Budget
   Compile:
     - Compile-Taxonomy.md v3.0 — §4 3 Compile Types, §1.4 PFC Modulation
     - Background-Pattern.md v2.0 — §3 Formation, §5 PFC invisible (7 reasons), §6 Triple Bias, §6.3 Self-fulfilling prophecy
   Imagine-Final:
     - Imagine-Final.md v3.0 — §3 PFC=Extension NOT source, §4 PFC×Imagine-Final, §6 Gradient+Bootstrap, §9 Reflection vs Rumination
   Body-Base:
-    - Schema.md v2.0 — §7.2 2 pathways (vô thức vs PFC draft), §8 Body baseline = ground truth
+    - Schema.md v2.0 — §7.2 2 pathways (unconscious vs PFC draft), §8 Body baseline = ground truth
     - Cortisol-Baseline.md v2.1 — §3.3 Direction-At-Compile, §3.5 Compile acceleration
     - Body-Feedback-Mechanism.md v2.0 — Chunk dynamics
   Agent:
     - Self-Pattern-Modeling.md v3.1 — §9 Triple Bias source
-    - Self-Created-Threat.md v1.0 — §1 Body không phân biệt imagine vs real
+    - Self-Created-Threat.md v1.0 — §1 Body doesn't distinguish imagine vs real
   Autonomy:
     - Autonomy-Hardware.md v1.1 — §2 vmPFC/DRN, internal vs external drive
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
@@ -51,23 +51,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > "Fake it till you make it" — self-help folk wisdom (floating attribution)
 > "The mind is everything. What you think, you become." — attributed Buddha (UNVERIFIED)
 >
-> Mainstream treats chúng như 2 motivational principles ĐỘC LẬP.
-> Thực tế: chúng là 2 NỬA của CÙNG 1 pipeline.
-> "Fake it" = MẶT NGOÀI: action → repetition → compile.
-> "Think it" = MẶT TRONG: thought → simulate → compile.
+> Mainstream treats these as 2 INDEPENDENT motivational principles.
+> In reality: they are 2 HALVES of the SAME pipeline.
+> "Fake it" = THE OUTER HALF: action → repetition → compile.
+> "Think it" = THE INNER HALF: thought → simulate → compile.
 >
-> CẢ HAI cùng mô tả pipeline PFC → Compile → Identity.
-> CẢ HAI cùng BỎ QUA biến quyết định ở GIỮA: **Compile Quality Gate**.
+> BOTH describe the same pipeline PFC → Compile → Identity.
+> BOTH skip the decisive variable IN THE MIDDLE: **Compile Quality Gate**.
 >
-> Framework v7.8 giải mã: pipeline ĐÚNG, nhưng kết quả phụ thuộc
-> 5 biến số mà KHÔNG quote nào nhắc tới.
-> CÙNG "fake it" + CÙNG "think it" → KHÁC tại Quality Gate →
-> Genuine (thật sự thay đổi) vs Schema (biết nhưng không cảm)
-> vs Threat (giỏi nhưng ghét) → KHÁC suốt đời.
+> Framework v7.8 decodes: pipeline is CORRECT, but the outcome depends on
+> 5 variables that NEITHER quote mentions.
+> SAME "fake it" + SAME "think it" → DIFFERENT at Quality Gate →
+> Genuine (truly changed) vs Schema (knows but doesn't feel)
+> vs Threat (skilled but hates it) → DIFFERENT for life.
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §0 — 2 QUOTES: SOURCE + VERIFICATION + OVERSIMPLIFICATION
 - §1 — LOGICAL RELATIONSHIP: INNER × OUTER HALVES
@@ -77,7 +77,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §5 — THE MISSING MIDDLE: BODY CONFIRMATION + DOMAIN FEEDBACK
 - §6 — FAILURE MODES
 - §7 — AI ERA
-- §8 — CALIBRATION: CÁCH APPLY KHÔNG CỨNG NHẮC
+- §8 — CALIBRATION: HOW TO APPLY WITHOUT RIGIDITY
 - §9 — META-OBSERVATIONS
 - §10 — HONEST ASSESSMENT
 - §11 — CROSS-REFERENCES + CITATIONS
@@ -107,17 +107,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 └─────────────────────────────────────────┴────────┴───────────────────────────────┘
 
 ⭐ PATTERN: 1/2 floating, 1/2 misattributed = 100% unreliable attribution.
-   Cùng hiện tượng với Adversity cluster (3/5 misattributed).
-   Triple Bias: "uy tín source → chia sẻ → không verify" = universal.
+   Same phenomenon as Adversity cluster (3/5 misattributed).
+   Triple Bias: "authoritative source → share → don't verify" = universal.
 ```
 
-### §0.2 — Mainstream vs Original vs Phần bị cắt
+### §0.2 — Mainstream vs Original vs What Was Cut
 
 ```
 QUOTE 1 — "Fake it till you make it"
 
-  MAINSTREAM HIỂU:
-    "Giả vờ tự tin → rồi sẽ tự tin thật."
+  MAINSTREAM UNDERSTANDING:
+    "Pretend confidence → eventually become genuinely confident."
     "Act as if you already have it → you will."
     Amy Cuddy TED 2012: "power posing" → feel powerful.
 
@@ -125,27 +125,27 @@ QUOTE 1 — "Fake it till you make it"
     Nicomachean Ethics Book II: "We become just by doing just acts,
     temperate by doing temperate acts, brave by doing brave acts."
     = PRACTICE virtue → BECOME virtuous.
-    Context: ethical HABIT formation qua repetition + community norms.
-    KHÁC quote hiện đại: Aristotle nói practice IN community + mentor guidance.
-    KHÔNG nói "fake" — nói "do" (practice, not pretend).
+    Context: ethical HABIT formation via repetition + community norms.
+    DIFFERENT from the modern quote: Aristotle spoke of practice IN community + mentor guidance.
+    NOT "fake" — said "do" (practice, not pretend).
 
-  PHẦN BỊ CẮT:
-    ✗ 3 outcomes (chỉ promote Outcome A, bỏ qua B + C)
-    ✗ Body confirmation requirement (assumes behavior → compile automatic)
+  WHAT WAS CUT:
+    ✗ 3 outcomes (only promotes Outcome A, ignores B + C)
+    ✗ Body confirmation requirement (assumes behavior → compile is automatic)
     ✗ Direction tag (fake under fear ≠ fake under curiosity)
-    ✗ Background-Pattern resistance (15 năm pattern ≠ tuần)
+    ✗ Background-Pattern resistance (15-year pattern ≠ a week)
     ✗ PFC budget finite (fake EVERYTHING → depleted)
 
   SOCIAL OVERSIMPLIFICATION:
     Aristotle: "Practice virtue repeatedly IN community" (nuanced, specific)
     → Modern: "Just fake it!" (3 words, universal, no conditions)
-    = Social compression cắt mất: community, practice quality, mentor, time, body
+    = Social compression cuts: community, practice quality, mentor, time, body
 
 
 QUOTE 2 — "The mind is everything. What you think, you become."
 
-  MAINSTREAM HIỂU:
-    "Nghĩ tích cực → cuộc sống tích cực."
+  MAINSTREAM UNDERSTANDING:
+    "Think positive → positive life."
     "Your thoughts create your reality."
     Law of Attraction variant: think → attract → manifest.
 
@@ -153,10 +153,10 @@ QUOTE 2 — "The mind is everything. What you think, you become."
     Verse 1-2: "Manopubbaṅgamā dhammā, manoseṭṭhā manomayā"
     = "Mind is the forerunner of all actions. All deeds are led by mind."
     Context: ETHICAL — actions driven by intention → karma → consequences.
-    KHÔNG nói "mind is EVERYTHING" — nói "mind LEADS actions."
-    KHÔNG nói positive thinking → nói intention → ethical action → consequence.
+    Does NOT say "mind is EVERYTHING" — says "mind LEADS actions."
+    Does NOT say positive thinking → says intention → ethical action → consequence.
 
-  PHẦN BỊ CẮT:
+  WHAT WAS CUT:
     ✗ Body-base = ground truth (mind ≠ everything — ~5% conscious processing)
     ✗ 95% unconscious processing (PFC = extension, not source)
     ✗ Domain feedback requirement (thought alone ≠ change)
@@ -167,7 +167,7 @@ QUOTE 2 — "The mind is everything. What you think, you become."
   SOCIAL OVERSIMPLIFICATION:
     Dhammapada: "Intention leads action, action creates consequence" (karma chain)
     → Modern: "Think positive → become positive" (2 steps, no action, no consequence)
-    = Social compression cắt mất: action, consequence, intention quality, ethical context
+    = Social compression cuts: action, consequence, intention quality, ethical context
 ```
 
 ---
@@ -175,9 +175,9 @@ QUOTE 2 — "The mind is everything. What you think, you become."
 ## §1 — LOGICAL RELATIONSHIP: INNER × OUTER HALVES
 
 ```
-⭐⭐ 2 QUOTES = 2 NỬA CỦA CÙNG 1 PIPELINE:
+⭐⭐ 2 QUOTES = 2 HALVES OF THE SAME PIPELINE:
 
-  PIPELINE THẬT (Framework v7.8):
+  THE REAL PIPELINE (Framework v7.8):
 
     ┌─────────┐    ┌──────┐    ┌────────────────┐    ┌──────────────┐    ┌─────────┐    ┌────────┐
     │ THINK   │ →  │ ACT  │ →  │ DOMAIN         │ →  │ BODY         │ →  │ COMPILE │ →  │ BECOME │
@@ -189,30 +189,30 @@ QUOTE 2 — "The mind is everything. What you think, you become."
       covers         covers        in BOTH              in BOTH
 
 
-  QUOTE 2 = MẶT TRONG (Inner Half):
+  QUOTE 2 = INNER HALF:
     "The mind is everything. What you think, you become."
     Focus: THOUGHT → IDENTITY
-    Mechanism: PFC simulate → set direction → seed natural accumulation
-    ĐÚNG: PFC CAN seed compile process (Background-Pattern §3.1)
-    THIẾU: action + domain feedback + body confirmation
+    Mechanism: PFC simulates → sets direction → seeds natural accumulation
+    CORRECT: PFC CAN seed the compile process (Background-Pattern §3.1)
+    MISSING: action + domain feedback + body confirmation
 
-  QUOTE 1 = MẶT NGOÀI (Outer Half):
+  QUOTE 1 = OUTER HALF:
     "Fake it till you make it."
     Focus: ACTION → IDENTITY
-    Mechanism: PFC hold behavior → repeat → compile → automatic
-    ĐÚNG: repetition CAN compile new patterns (PFC-Operations §4.1)
-    THIẾU: internal alignment + body confirmation + direction quality
+    Mechanism: PFC holds behavior → repeat → compile → automatic
+    CORRECT: repetition CAN compile new patterns (PFC-Operations §4.1)
+    MISSING: internal alignment + body confirmation + direction quality
 
-  CẢ 2 CÙNG POINT TỚI PIPELINE PFC → COMPILE → IDENTITY.
-  CẢ 2 CÙNG BỎ QUA BIẾN Ở GIỮA: body confirmation + domain feedback.
-  = 2 MẶT CỦA 1 ĐỒNG XU thiếu cạnh.
+  BOTH POINT TO THE SAME PIPELINE PFC → COMPILE → IDENTITY.
+  BOTH SKIP THE VARIABLE IN THE MIDDLE: body confirmation + domain feedback.
+  = 2 SIDES OF 1 COIN — missing the edge.
 
 
-  ⭐ NẾU KẾT HỢP 2 QUOTES:
+  ⭐ IF YOU COMBINE BOTH QUOTES:
 
-    Think it (Q2) + Fake it (Q1) = GẦN hơn pipeline thật.
-    NHƯNG VẪN THIẾU: body confirmation + domain feedback.
-    → Combine 2 quotes = necessary but NOT sufficient.
+    Think it (Q2) + Fake it (Q1) = CLOSER to the real pipeline.
+    BUT STILL MISSING: body confirmation + domain feedback.
+    → Combining 2 quotes = necessary but NOT sufficient.
 
   🟡 2-half model = framework synthesis
   🟢 PFC → compile → automatic: Lally et al. 2010 (habit formation)
@@ -223,187 +223,187 @@ QUOTE 2 — "The mind is everything. What you think, you become."
 
 ## §2 — DECODE: "FAKE IT TILL YOU MAKE IT" — HOLD → 3 OUTCOMES
 
-### §2.1 — "Fake" có 3 nghĩa framework KHÁC HOÀN TOÀN
+### §2.1 — "Fake" Has 3 Completely Different Framework Meanings
 
 ```
-⭐⭐ TỪ "FAKE" TRONG QUOTE LÀ AMBIGUOUS:
+⭐⭐ THE WORD "FAKE" IN THE QUOTE IS AMBIGUOUS:
 
-  FAKE TYPE 1 — HOLD ONLY (PFC-Operations §3 tổ hợp ①):
+  FAKE TYPE 1 — HOLD ONLY (PFC-Operations §3 combination ①):
 
-    "Tôi CHƯA BIẾT, tôi TẬP hành vi mới."
-    → Không có pattern cũ cần suppress. Chỉ learning.
+    "I DON'T YET KNOW, I am PRACTICING a new behavior."
+    → No old pattern to suppress. Just learning.
     → Cost: ① PFC draft only. Body OPEN.
-    → VD: Người mới học present → nervous → practice → compile → tự tin
-    → VD: Mới vào team → chưa quen culture → observe + tập → dần genuine
-    → Quote ĐÚNG 100% cho case này.
-    → = Fresh Loại A (PFC-Operations §3): Body OPEN → compile natural.
+    → Example: New presenter → nervous → practice → compile → genuine confidence
+    → Example: New team member → unfamiliar with culture → observe + practice → gradually genuine
+    → Quote is 100% CORRECT for this case.
+    → = Fresh Type A (PFC-Operations §3): Body OPEN → compile natural.
 
     🟢 Lally et al. 2010: habit formation average 66 days, range 18-254.
     🟢 Bandura 1997: self-efficacy → performance → self-efficacy loop.
 
 
-  FAKE TYPE 2 — HOLD + SUPPRESS (PFC-Operations §3 tổ hợp ②):
+  FAKE TYPE 2 — HOLD + SUPPRESS (PFC-Operations §3 combination ②):
 
-    "Tôi CÓ pattern cũ mạnh, tôi ÉP mình làm ngược."
-    → Pattern cũ compiled → cần suppress + hold mới cùng lúc.
+    "I have a strong OLD pattern, I am FORCING myself to act against it."
+    → Old pattern compiled → need to suppress + hold new one simultaneously.
     → Cost: ① + ②. Body CONFLICT. Double drain.
-    → VD: Introvert fake extrovert → suppress introvert + hold extrovert
-    → VD: Người sợ nói trước đám đông → suppress fear + hold confidence
-    → 3 OUTCOMES có thể (§2.2) — quote chỉ promote 1/3.
-    → = Fresh Loại B (PFC-Operations §3): Body CONFLICT → 3 outcomes.
+    → Example: Introvert faking extrovert → suppress introvert + hold extrovert
+    → Example: Public-speaking fear → suppress fear + hold confidence
+    → 3 OUTCOMES possible (§2.2) — quote only promotes 1/3.
+    → = Fresh Type B (PFC-Operations §3): Body CONFLICT → 3 outcomes.
 
 
-  FAKE TYPE 3 — PERMANENT PERFORMANCE (không có ý trở thành genuine):
+  FAKE TYPE 3 — PERMANENT PERFORMANCE (no intention of becoming genuine):
 
-    "Fake IS the goal, không transition."
-    → PFC hold indefinitely → budget drain → unsustainable.
-    → VD: Corporate mask vĩnh viễn. Social persona 24/7.
-    → VD: "Professional smile" suốt 10 năm → anhedonia.
-    → Quote SAI HOÀN TOÀN cho case này.
+    "Fake IS the goal, no transition intended."
+    → PFC holds indefinitely → budget drain → unsustainable.
+    → Example: Corporate mask permanently. Social persona 24/7.
+    → Example: "Professional smile" for 10 years → anhedonia.
+    → Quote is COMPLETELY WRONG for this case.
     → = Schema-compiled "how to perform" (PFC-Operations §4.2).
 
   🟡 3-type distinction within "fake" = framework synthesis
 ```
 
-### §2.2 — 3 Outcomes: "Make it" chỉ là 1/3
+### §2.2 — 3 Outcomes: "Make it" Is Only 1 of 3
 
 ```
-⭐⭐ PFC-Operations §4 — 3 OUTCOMES CỦA HOLD + SUPPRESS:
+⭐⭐ PFC-Operations §4 — 3 OUTCOMES OF HOLD + SUPPRESS:
 
-  OUTCOME A — GENUINE SHIFT ("made it" THẬT):
-    PFC Hold new → body CONFIRM (genuine reward) → old DECAY → new compiled.
-    Body PREFER new. No suppress needed. Cost → 0.
-    = "Thật sự thay đổi" — fake → practice → genuine.
-    → Quote MÔ TẢ chính xác case này.
+  OUTCOME A — GENUINE SHIFT ("made it" FOR REAL):
+    PFC Holds new → body CONFIRMS (genuine reward) → old DECAYS → new compiled.
+    Body PREFERS new. No suppress needed. Cost → 0.
+    = "Truly changed" — fake → practice → genuine.
+    → Quote ACCURATELY describes this case.
 
-    4 ĐIỀU KIỆN ĐỒNG THỜI (PFC-Operations §4.1):
-      ① Hardware ĐỦ khả năng shift
-      ② Pattern cũ KHÔNG quá deep (chưa Background-Pattern level)
-      ③ Pattern mới cho BODY REWARD genuine
-      ④ Internal drive (vmPFC, bản thân muốn)
-    → Quote nói "till" = implies CHỈ CẦN THỜI GIAN.
-    → Framework: thời gian NECESSARY nhưng NOT SUFFICIENT — 4 conditions đồng thời.
+    4 CONDITIONS SIMULTANEOUSLY (PFC-Operations §4.1):
+      ① Hardware CAPABLE of shifting
+      ② Old pattern NOT too deep (not yet Background-Pattern level)
+      ③ New pattern gives body GENUINE REWARD
+      ④ Internal drive (vmPFC, self-directed)
+    → Quote says "till" = implies ONLY TIME IS NEEDED.
+    → Framework: time is NECESSARY but NOT SUFFICIENT — 4 conditions simultaneously.
 
 
-  OUTCOME B — COMPILED SUPPRESS ("made it" GIẢ):
-    PFC Hold + Suppress → compile "CÁCH SUPPRESS" → flat.
-    Body NEUTRAL (không thích cũ VÀ không thích mới). Auto-suppress.
-    = "Functional but joyless" — trông adapted, thực tế reward system dampened.
-    → Quote SẼ GỌI case này là "made it" — nhưng KHÔNG PHẢI.
+  OUTCOME B — COMPILED SUPPRESS ("made it" IS FAKE):
+    PFC Hold + Suppress → compiles "HOW TO SUPPRESS" → flat.
+    Body NEUTRAL (doesn't prefer old AND doesn't prefer new). Auto-suppress.
+    = "Functional but joyless" — looks adapted, reward system actually dampened.
+    → Quote WOULD CALL this "made it" — but it IS NOT.
 
     ⚠️ DANGEROUS: looks "adapted" from outside.
-    → "Đã tự tin!" → THỰC TẾ: compile "cách giả tự tin" = permanent mask.
+    → "Became confident!" → REALITY: compiled "how to fake confidence" = permanent mask.
     → Long-term: anhedonia risk, depression trajectory.
-    → PFC-Operations §4.2: "chịu đựng" KHÔNG PHẢI "thay đổi."
+    → PFC-Operations §4.2: "enduring" is NOT "changing."
 
     🟢 Maier & Seligman 1967/2016: repeated suppress → passivity.
 
 
-  OUTCOME C — PFC FAILURE ("break" THAY VÌ "make"):
-    PFC Hold + Suppress → depleted → old pattern BURST through.
-    Emotional burst. Conflict. Efference mismatch giải phóng đột ngột.
-    = "Fake it till you BREAK" — PFC bỏ cuộc.
-    → Quote HOÀN TOÀN KHÔNG nhắc tới case này.
+  OUTCOME C — PFC FAILURE ("break" INSTEAD OF "make"):
+    PFC Hold + Suppress → depleted → old pattern BURSTS through.
+    Emotional outburst. Conflict. Efference mismatch suddenly released.
+    = "Fake it till you BREAK" — PFC gives up.
+    → Quote NEVER MENTIONS this case.
 
     🟢 Kurzban 2013: PFC processing load → reallocation away from current task.
     🟢 Wegner 1987: suppress → ironic rebound.
 
 
-  ⭐ QUOTE PROMOTE 1/3 OUTCOMES, IGNORE 2/3:
+  ⭐ QUOTE PROMOTES 1/3 OUTCOMES, IGNORES 2/3:
     "Make it" = Outcome A only.
-    Outcome B (compiled suppress) = INVISIBLE failure — trông giống success.
-    Outcome C (burst) = VISIBLE failure — nhưng quote blame người, không blame method.
-    → = Survivorship bias: people who "made it" confirm quote.
+    Outcome B (compiled suppress) = INVISIBLE failure — looks like success.
+    Outcome C (burst) = VISIBLE failure — but quote blames the person, not the method.
+    → = Survivorship bias: people who "made it" confirm the quote.
       People who compiled suppress = SILENT (they LOOK like they made it).
       People who burst = DISMISSED ("didn't try hard enough").
 ```
 
-### §2.3 — Direction Tag: HOW you fake > WHETHER you fake
+### §2.3 — Direction Tag: HOW You Fake > WHETHER You Fake
 
 ```
 ⭐ Cortisol-Baseline §3.3 Direction-At-Compile — COMPILE-TIME DIRECTION LOCK:
 
-  CÙNG hành vi "fake it" + KHÁC body state direction → KHÁC suốt đời:
+  SAME behavior "fake it" + DIFFERENT body state direction → DIFFERENT for life:
 
   ┌────────────────────┬──────────────────────┬──────────────────────────────┐
   │ Body State         │ Direction Tag        │ Long-term Outcome            │
   ├────────────────────┼──────────────────────┼──────────────────────────────┤
   │ Curiosity:         │ APPROACH             │ Genuine-compiled.            │
-  │ "Thử xem → thú    │ (opioid present)     │ "Thích dùng lại."           │
-  │  vị đấy!"         │                      │ Self-reinforcing growth.     │
+  │ "Try it → this     │ (opioid present)     │ "Want to use it again."      │
+  │  is interesting!"  │                      │ Self-reinforcing growth.     │
   ├────────────────────┼──────────────────────┼──────────────────────────────┤
   │ Obligation:        │ FLAT                 │ Schema-compiled.             │
-  │ "Phải làm thôi,   │ (relief/neutral)     │ "Biết nhưng không cảm."     │
-  │  không có lựa      │                      │ Needs external bridge.       │
-  │  chọn."           │                      │                              │
+  │ "Have to do it,   │ (relief/neutral)     │ "Knows but doesn't feel."    │
+  │  no choice."       │                      │ Needs external bridge.       │
   ├────────────────────┼──────────────────────┼──────────────────────────────┤
   │ Fear:              │ AVOIDANCE            │ Threat-compiled.             │
-  │ "Sợ bị phát hiện  │ (threat lock)        │ "Giỏi nhưng ghét."          │
-  │  → phải fake."    │                      │ Burnout trajectory.          │
+  │ "Scared of being   │ (threat lock)        │ "Skilled but hates it."      │
+  │  found out         │                      │ Burnout trajectory.          │
+  │  → must fake."     │                      │                              │
   └────────────────────┴──────────────────────┴──────────────────────────────┘
 
   ⭐ INSIGHT: "HOW you fake" > "WHETHER you fake."
     Fake under curiosity + domain confirms = Outcome A trajectory.
     Fake under fear + no domain feedback = Outcome B/C trajectory.
-    Quote KHÔNG specify direction → gây confusion khi apply.
+    Quote does NOT specify direction → causes confusion when applied.
 
   🟢 Cortisol direction × compile: Cortisol-Baseline §3.3, §3.5
   🟡 Direction tag determines "fake" outcome = framework synthesis
 ```
 
-### §2.4 — Bootstrap Mechanism: Framework version of "Fake it"
+### §2.4 — Bootstrap Mechanism: Framework's Version of "Fake It"
 
 ```
 ⭐ Imagine-Final §6.3 — BOOTSTRAP = FRAMEWORK'S "FAKE IT TILL YOU MAKE IT":
 
-  ① PFC tạo Imagine-Final (chưa body confirm) → Level 2-3
-  ② ACT theo Imagine-Final → result NHỎ → body: "có vẻ đúng" → Level 3
-  ③ Result TĂNG → body compile → Imagine-Final MẠNH hơn → Level 4
-  ④ Result ĐỦ → body THẬT SỰ tin → Imagine-Final genuine → Level 4-5
+  ① PFC creates Imagine-Final (not yet body-confirmed) → Level 2-3
+  ② ACT according to Imagine-Final → small result → body: "seems right" → Level 3
+  ③ Results INCREASE → body compiles → Imagine-Final STRONGER → Level 4
+  ④ Results SUFFICIENT → body GENUINELY believes → Imagine-Final genuine → Level 4-5
 
-  BOOTSTRAP WORKS KHI:
-    → Direction ĐÚNG (domain sẽ confirm)
-    → Results ĐẾN (domain feedback positive)
-    → Internal drive (bản thân muốn)
+  BOOTSTRAP WORKS WHEN:
+    → Direction CORRECT (domain will confirm)
+    → Results ARRIVE (domain feedback positive)
+    → Internal drive (self-directed)
 
-  BOOTSTRAP FAILS KHI:
-    → Direction SAI → results KHÔNG đến → delusion
-    → External drive (bị ép) → body reject → schema-compiled
+  BOOTSTRAP FAILS WHEN:
+    → Direction WRONG → results DON'T arrive → delusion
+    → External drive (forced) → body rejects → schema-compiled
 
-  → Bootstrap = "Fake it till you make it" VỚI conditions.
-  → Quote = Bootstrap KHÔNG CÓ conditions.
-  → = Phân biệt bootstrap vs delusion = domain feedback.
+  → Bootstrap = "Fake it till you make it" WITH conditions.
+  → Quote = Bootstrap WITHOUT conditions.
+  → = Distinguishing bootstrap from delusion = domain feedback.
 
   🟢 Bandura 1997: self-efficacy → performance loop.
   🟡 Bootstrap mechanism = framework synthesis (Imagine-Final §6.3).
 ```
 
-### §2.5 — Efference Copy: Body LUÔN biết fake
+### §2.5 — Efference Copy: Body ALWAYS Knows It's Fake
 
 ```
 ⭐ PFC-Operations §3 — AUTHENTICITY GATE:
 
   Efference copy = body's "expectation" vs "what's happening."
-  PFC override = efference MISMATCH = body sense "not being me."
+  PFC override = efference MISMATCH = body senses "this isn't me."
 
-  "FAKE IT" LUÔN TẠO INITIAL BODY DISSONANCE:
-    → Body expected A (compiled pattern) → PFC force B (new behavior)
-    → Mismatch → body signal: "đây KHÔNG PHẢI tôi" → dissonance
+  "FAKE IT" ALWAYS CREATES INITIAL BODY DISSONANCE:
+    → Body expected A (compiled pattern) → PFC forces B (new behavior)
+    → Mismatch → body signals: "this is NOT me" → dissonance
     → = WHY "fake it" FEELS uncomfortable at first = DESIGNED that way
 
   TRAJECTORY DETERMINES OUTCOME:
-    Practice → body CONFIRM (domain feedback +) → dissonance GIẢM → genuine
-    Practice → body REJECT (no feedback / wrong direction) → dissonance TĂNG → worse
+    Practice → body CONFIRMS (domain feedback +) → dissonance DECREASES → genuine
+    Practice → body REJECTS (no feedback / wrong direction) → dissonance INCREASES → worse
 
   IMPOSTER SYNDROME = TRAJECTORY STUCK:
-    → Fake → feel fake → cortisol ↑ → performance ↓ → more fake → loop
-    → Efference mismatch COMPILE vào context → "tôi luôn fake" = IDENTITY
-    → = Background-Pattern §6.3 self-fulfilling prophecy applied to "fake it"
+    → Fake → feel fake (efference mismatch) → cortisol ↑ → performance ↓ → more fake → loop
+    → Loop COMPILES into identity: "I'm always faking" = Background-Pattern
+    → Self-fulfilling prophecy (Background-Pattern §6.3) applied to "fake it"
 
   ⚠️ DIAGNOSTIC (PFC-Operations §4.4):
     → Genuine: trigger → body neutral/positive (truly moved on)
-    → Compiled suppress: trigger → body spike THEN auto-suppress → flat
-    → Milliseconds genuine response TRƯỚC suppress kicks in = diagnostic window
+    → Compiled suppress: trigger → body spike THEN auto-suppresses → flat
+    → Milliseconds of genuine response BEFORE suppress kicks in = diagnostic window
 
   🟢 Efference copy: von Holst & Mittelstaedt 1950
   🟡 Efference × "fake it" trajectory = framework synthesis
@@ -413,34 +413,34 @@ QUOTE 2 — "The mind is everything. What you think, you become."
 
 ## §3 — DECODE: "THE MIND IS EVERYTHING" — PFC ≠ SOURCE
 
-### §3.1 — "Mind" trong framework = PFC, và PFC KHÔNG phải "everything"
+### §3.1 — "Mind" in Framework = PFC, and PFC Is NOT "Everything"
 
 ```
-⭐⭐ FRAMEWORK POSITION: PFC = EXTENSION, KHÔNG PHẢI SOURCE.
+⭐⭐ FRAMEWORK POSITION: PFC = EXTENSION, NOT SOURCE.
 
   Quote: "The mind is everything."
   Framework: "The mind is ~5%."
 
-  SỐ LIỆU:
-    → ~95% processing = vô thức, compiled (Imagine-Final §3.1)
-    → PFC = serial processor: ~4±1 dimensions cùng lúc (Cowan 2001)
-    → Body-base processes TRƯỚC → Feeling emerge → PFC observe LAST (Damasio 1994)
-    → PFC KHÔNG TẠO RA Imagine-Final — PFC chỉ: ① conscious hóa, ② domain check,
-      ③ chọn thực thi (Imagine-Final §3.2)
+  THE NUMBERS:
+    → ~95% of processing = unconscious, compiled (Imagine-Final §3.1)
+    → PFC = serial processor: ~4±1 dimensions at once (Cowan 2001)
+    → Body-base processes FIRST → Feelings emerge → PFC observes LAST (Damasio 1994)
+    → PFC DOESN'T CREATE Imagine-Final — PFC only: ① consciously surfaces it, ② domain check,
+      ③ selects execution (Imagine-Final §3.2)
 
   BODY BASELINE = GROUND TRUTH (Schema §8):
-    → "Khi không có gì xảy ra, cơ thể TÔI feel thế nào?" = baseline
+    → "When nothing is happening, how does MY body feel?" = baseline
     → Fix body → chunks adjust → changes
-    → Fix chunks MÀ KHÔNG fix body → relapse
-    → "Biết nhưng không thay đổi" = verbal chunks updated, Background-Pattern CHƯA
-    → = TRỰC TIẾP PHẢN BÁC "mind is everything"
+    → Fix chunks WITHOUT fixing body → relapse
+    → "Know but don't change" = verbal chunks updated, Background-Pattern NOT YET
+    → = DIRECTLY REFUTES "mind is everything"
 
-  CÁI "MIND" THẬT SỰ LÀM:
+  WHAT "MIND" ACTUALLY DOES:
     → PFC = Director, Body = Compiler (Compile-Taxonomy §5)
-    → PFC set DIRECTION (chọn target, set context, hold attention)
-    → Body COMPILE (wire synapses, form chunks, confirm/reject)
-    → "PFC-directed compile" = thuật ngữ chính xác
-    → PFC KHÔNG BAO GIỜ compile — body LUÔN compile
+    → PFC sets DIRECTION (chooses target, sets context, holds attention)
+    → Body COMPILES (wires synapses, forms chunks, confirms/rejects)
+    → "PFC-directed compile" = the precise term
+    → PFC NEVER compiles — body ALWAYS compiles
 
   🟢 ~95% unconscious: Bargh & Chartrand 1999
   🟢 Somatic markers precede decisions: Damasio 1994
@@ -448,82 +448,82 @@ QUOTE 2 — "The mind is everything. What you think, you become."
   🟢 Working memory ~4±1: Cowan 2001
 ```
 
-### §3.2 — "What you think" bị Triple Bias filter
+### §3.2 — "What You Think" Is Filtered Through Triple Bias
 
 ```
-⭐⭐ Background-Pattern §6 — PFC = "LAWYER CHO BACKGROUND-PATTERN":
+⭐⭐ Background-Pattern §6 — PFC = "LAWYER FOR BACKGROUND-PATTERN":
 
-  PFC TƯỞNG mình đang "nghĩ tự do."
-  Thực tế: mọi thought bị filter qua 3 cơ chế ĐỒNG THỜI.
+  PFC THINKS it is "thinking freely."
+  Reality: every thought is filtered through 3 SIMULTANEOUS mechanisms.
 
-  CƠ CHẾ 1 — RETRIEVAL BIAS (Background-Pattern §6.2):
-    Background-Pattern chunks = highest link density → fire TRƯỚC tất cả.
-    → Set tone cho mọi thought TRƯỚC KHI PFC aware.
-    → VD: Background-Pattern [tôi không giỏi] → retrieve "khó" chunks TRƯỚC "cơ hội"
-    → = "What you think" KHÔNG phải free choice — là FILTERED output.
+  MECHANISM 1 — RETRIEVAL BIAS (Background-Pattern §6.2):
+    Background-Pattern chunks = highest link density → fire BEFORE everything else.
+    → Set tone for every thought BEFORE PFC is aware.
+    → Example: Background-Pattern [I'm not good enough] → retrieves "difficult" chunks BEFORE "opportunity"
+    → = "What you think" is NOT free choice — it's FILTERED output.
 
-  CƠ CHẾ 2 — TEMPLATE BIAS:
-    PFC dùng "TÔI" làm template cho mọi simulation.
-    Background-Pattern QUYẾT ĐỊNH "TÔI" trong template.
-    → VD: Background-Pattern [anxious] → simulate future với anxiety default
-    → PFC KHÔNG BIẾT template đã bị shape.
+  MECHANISM 2 — TEMPLATE BIAS:
+    PFC uses "ME" as template for every simulation.
+    Background-Pattern DETERMINES "ME" in the template.
+    → Example: Background-Pattern [anxious] → simulates future with anxiety as default
+    → PFC DOESN'T KNOW the template has been shaped.
 
-  CƠ CHẾ 3 — INTERPRETATION BIAS:
-    Background-Pattern bias cách PFC INTERPRET output.
-    → VD: Body signal "slight tension" + Background-Pattern [suspicious]
-      → PFC: "chắc có vấn đề" (interpretation BIASED)
-    → PFC = "Lawyer cho Background-Pattern" — rationalize theo direction có sẵn.
+  MECHANISM 3 — INTERPRETATION BIAS:
+    Background-Pattern biases how PFC INTERPRETS output.
+    → Example: Body signal "slight tension" + Background-Pattern [suspicious]
+      → PFC: "something must be wrong" (interpretation BIASED)
+    → PFC = "Lawyer for Background-Pattern" — rationalizes in the preset direction.
 
   SELF-FULFILLING PROPHECY (Background-Pattern §6.3):
-    Biased thought → biased action → biased outcome → CONFIRM pattern → strengthen
-    → "What you think, you become" = TRUE theo nghĩa NGUY HIỂM:
-      Rumination (threat thinking) → compile threat pattern DEEPER → become MORE anxious.
-    → Quote KHÔNG phân biệt → có thể justify rumination.
+    Biased thought → biased action → biased outcome → CONFIRMS pattern → strengthens
+    → "What you think, you become" = TRUE in a DANGEROUS sense:
+      Rumination (threat thinking) → compiles threat pattern DEEPER → become MORE anxious.
+    → Quote doesn't distinguish → can justify rumination.
 
   🟢 Confirmation bias: Nickerson 1998
   🟢 Self-fulfilling prophecy: Merton 1948, Rosenthal & Jacobson 1968
   🟡 Triple Bias mechanism: Self-Pattern-Modeling v3.1 §9
 ```
 
-### §3.3 — Thought → Action → Body Confirm: Quote bỏ qua 2 bước giữa
+### §3.3 — Thought → Action → Body Confirm: Quote Skips 2 Middle Steps
 
 ```
-⭐⭐ PIPELINE THẬT vs QUOTE:
+⭐⭐ REAL PIPELINE vs QUOTE:
 
-  QUOTE NÓI:    Think ──────────────────────→ Become
-  THỰC TẾ:      Think → ACT → Domain FB → Body Confirm → Compile → Become
+  QUOTE SAYS:    Think ──────────────────────→ Become
+  REALITY:       Think → ACT → Domain FB → Body Confirm → Compile → Become
 
-  4 LÝ DO "THINK ALONE" KHÔNG ĐỦ:
+  4 REASONS "THINK ALONE" IS NOT ENOUGH:
 
-  ① IMAGINE-FINAL §6.2 — "KHÔNG PHẢI nghĩ nhiều hơn → MÀ LÀ experience nhiều hơn":
-    → Body CẦN chunks thật để simulate rõ.
-    → "Nghĩ tích cực" = PFC draft without body experience = Level 1-2 forever.
-    → "Đi thực tập" MẠNH HƠN "đọc sách ngành" (body experience → chunks thật).
-    → WHY motivational speaker KHÔNG giúp lâu dài:
-      PFC inspiration Level 1-2 → body KHÔNG CÓ chunks → 3 ngày quên.
+  ① IMAGINE-FINAL §6.2 — "NOT more thinking → MORE experience":
+    → Body NEEDS real chunks to simulate clearly.
+    → "Think positive" = PFC draft without body experience = Level 1-2 forever.
+    → "Go do an internship" is STRONGER than "read about the field" (body experience → real chunks).
+    → WHY motivational speakers DON'T help long-term:
+      PFC inspiration Level 1-2 → body HAS NO chunks → forgotten in 3 days.
 
   ② OETTINGEN 2012 — POSITIVE FANTASY → LESS ACTION:
     → "Rethinking Positive Thinking" research: positive fantasies → LOWER energy.
-    → Cơ chế: brain pre-experience reward qua imagination → body đã "satisfied"
-      preview → GIẢM drive hành động.
-    → "What you think, you become" applied literally → NGƯỢC LẠI:
+    → Mechanism: brain pre-experiences reward through imagination → body already "satisfied"
+      by preview → REDUCES drive to act.
+    → "What you think, you become" applied literally → THE OPPOSITE OF BECOMING:
       Think success → body pre-satisfied → LESS action → LESS compile → NOT become.
     → Mental contrasting (positive + obstacle) → MORE effective.
     → = Framework: preview opioid (Imagine-Final §6.3) ≠ actual opioid.
 
   ③ BACKGROUND-PATTERN §3.1 — PFC SEED ≠ PFC CREATE:
-    → PFC CÓ THỂ seed quá trình tự nhiên (hold attention → direct experience).
-    → NHƯNG: 95% công việc = tích lũy tự nhiên + sleep consolidation.
-    → PFC push ban đầu, sau đó tuyết TỰ lăn = PFC seed.
-    → "Nghĩ" = đẩy viên tuyết. "Trở thành" = tuyết lăn xuống núi.
-    → Nếu núi không có (no domain) → tuyết không lăn → nothing happens.
+    → PFC CAN seed the natural process (hold attention → direct experience).
+    → BUT: 95% of the work = natural accumulation + sleep consolidation.
+    → PFC pushes the snowball at the start, then snow rolls itself = PFC seed.
+    → "Think" = push the snowball. "Become" = snow rolling down the mountain.
+    → If there's no mountain (no domain) → snow doesn't roll → nothing happens.
 
-  ④ SCHEMA §8 — FIX BODY TRƯỚC:
+  ④ SCHEMA §8 — FIX BODY FIRST:
     → Body baseline = ground truth.
-    → Verbal chunks update (PFC "nghĩ" mới) ≠ Background-Pattern shift.
-    → "Biết nhưng không thay đổi" = verbal updated, Background-Pattern CHƯA.
-    → Think alone → verbal chunks → PFC says "tôi đã thay đổi."
-    → Background-Pattern: "chưa." → Body: "vẫn thế."
+    → Verbal chunk update (PFC "thinks" something new) ≠ Background-Pattern shift.
+    → "Know but don't change" = verbal updated, Background-Pattern NOT YET.
+    → Think alone → verbal chunks → PFC says "I've changed."
+    → Background-Pattern: "Not yet." → Body: "Same as before."
 
   🟢 Oettingen 2012: "Rethinking Positive Thinking"
   🟢 Driskell et al. 1994 meta-analysis: mental practice = ~50% of physical
@@ -533,58 +533,58 @@ QUOTE 2 — "The mind is everything. What you think, you become."
 ### §3.4 — Engine Use Quality: Reflection vs Rumination
 
 ```
-⭐ Imagine-Final §9 — CÙNG "THINKING", KHÁC QUALITY:
+⭐ Imagine-Final §9 — SAME "THINKING," DIFFERENT QUALITY:
 
   REFLECTION (curiosity direction):
-    "Nếu tôi thử X → gì sẽ xảy ra?" → EXPLORE options.
+    "What if I tried X → what would happen?" → EXPLORES options.
     → Cortisol direction: NOVELTY → approach tag.
     → Output: creative planning, scenario comparison, insight.
     → "What you think, you become" → become EXPANDED.
 
   RUMINATION (threat direction):
-    "Nếu X xảy ra → tôi sẽ chết" → CATASTROPHIZE.
+    "What if X happens → I'll be ruined" → CATASTROPHIZES.
     → Cortisol direction: THREAT → avoidance tag.
     → Output: worry, worst-case fixation, decision paralysis.
     → "What you think, you become" → become MORE ANXIOUS.
 
-  QUOTE TRUE CHO CẢ HAI — NHƯNG KHÔNG PHÂN BIỆT:
-    → Reflection → compile approach → become better.
-    → Rumination → compile avoidance → become worse.
-    → Quote: "what you think, you become" — YES, INCLUDING anxiety.
-    → = Person đang ruminate nghe quote → "keep thinking" → MORE rumination.
-    → = Quote GÂY HẠI cho chính nhóm người CẦN NHẤT: those stuck in threat loops.
+  QUOTE IS TRUE FOR BOTH — BUT DOESN'T DISTINGUISH:
+    → Reflection → compiles approach → become better.
+    → Rumination → compiles avoidance → become worse.
+    → Quote: "what you think, you become" — YES, INCLUDING more anxiety.
+    → = Person already ruminating hears quote → "keep thinking about it" → MORE rumination.
+    → = Quote MOST HARMFUL for the exact people who NEED IT MOST: those stuck in threat loops.
 
-  TEST PHÂN BIỆT (Imagine-Final §9):
-    → "Mình có đang KIỂM TRA formulations không?" → reflection.
-    → "Mình chỉ đang LO mà không test?" → rumination.
-    → Kiểm tra = productive thinking. Lo = destructive thinking.
+  DISTINCTION TEST (Imagine-Final §9):
+    → "Am I TESTING formulations?" → reflection.
+    → "Am I just WORRYING without testing?" → rumination.
+    → Testing = productive thinking. Worrying = destructive thinking.
 
   🟢 Trapnell & Campbell 1999: self-reflection vs self-rumination
   🟢 Joireman et al. 2002: reflection → empathy, rumination → anxiety
 ```
 
-### §3.5 — Kernel of Truth: PFC CAN seed quá trình tự nhiên
+### §3.5 — Kernel of Truth: PFC CAN Seed the Natural Process
 
 ```
-⭐ DÙ PHẢN BÁC NHIỀU, QUOTE CAPTURE 1 MECHANISM THẬT:
+⭐ DESPITE MANY COUNTER-ARGUMENTS, THE QUOTE CAPTURES 1 REAL MECHANISM:
 
-  Background-Pattern §3.1 — PFC KHỞI ĐỘNG:
-    → PFC tạo Imagine-Final → hold attention → direct experience
-    → Chunks compile HƯỚNG VỀ Imagine-Final
-    → Ban đầu: PFC hold tốn energy ("phải cố gắng nghĩ")
-    → Đủ chunks: spreading activation TỰ BIAS → PFC release
-    → Pattern tự vận hành = BACK TO tích lũy tự nhiên
+  Background-Pattern §3.1 — PFC STARTS THE PROCESS:
+    → PFC creates Imagine-Final → holds attention → directs experience
+    → Chunks compile TOWARD the Imagine-Final
+    → Initially: PFC holding costs energy ("have to consciously try")
+    → Sufficient chunks: spreading activation SELF-BIASES → PFC releases
+    → Pattern runs on its own = BACK TO natural accumulation
 
-  = "Lúc đầu cố gắng nghĩ, lúc sau tự nhiên trở thành."
-  = PFC SEED quá trình tự nhiên — 5% khởi động, 95% tự chạy.
+  = "At first consciously try, later naturally become."
+  = PFC SEEDS the natural process — 5% starts it, 95% runs itself.
 
-  NHƯNG: seed chỉ nảy mầm trên ĐẤT PHÙ HỢP:
-    → PFC seed + domain phù hợp + body confirm → genuine compile
-    → PFC seed + no domain + body reject → seed CHẾT
-    → = "Nghĩ" bắt đầu process — "trở thành" phụ thuộc soil quality
+  BUT: seed only germinates in FERTILE SOIL:
+    → PFC seed + matching domain + body confirms → genuine compile
+    → PFC seed + no domain + body rejects → seed DIES
+    → = "Thinking" starts the process — "becoming" depends on soil quality
 
   🟡 PFC seed model = framework synthesis (Background-Pattern §3.1)
-  🟢 Expert formation: ~10 năm deliberate → intuition tự nhiên
+  🟢 Expert formation: ~10 years deliberate → intuition becomes natural
 ```
 
 ---
@@ -594,33 +594,33 @@ QUOTE 2 — "The mind is everything. What you think, you become."
 ```
 ⭐⭐⭐ COMPILE QUALITY GATE:
 
-  CẢ 2 QUOTES MÔ TẢ PIPELINE PFC → COMPILE → IDENTITY.
-  Pipeline ĐÚNG. Nhưng THIẾU biến quyết định ở GIỮA.
+  BOTH QUOTES DESCRIBE THE PIPELINE PFC → COMPILE → IDENTITY.
+  Pipeline is CORRECT. But MISSING the decisive variable IN THE MIDDLE.
 
   ┌─────────────────────────────────────────────────────────────────────┐
   │                     COMPILE QUALITY GATE                           │
   │                                                                     │
-  │  5 BIẾN SỐ quyết định KẾT QUẢ pipeline:                           │
+  │  5 VARIABLES that determine the pipeline OUTCOME:                  │
   │                                                                     │
-  │  ① DIRECTION TAG tại compile time                                  │
+  │  ① DIRECTION TAG at compile time                                   │
   │    Novelty body state → APPROACH tag → genuine-compiled             │
   │    Neutral body state → FLAT tag → schema-compiled                  │
   │    Threat body state → AVOIDANCE tag → threat-compiled              │
-  │    (Cortisol-Baseline §3.3 Direction-At-Compile)                                     │
+  │    (Cortisol-Baseline §3.3 Direction-At-Compile)                    │
   │                                                                     │
   │  ② BODY CONFIRMATION                                               │
   │    Body genuine reward → confirm → compile sustainable              │
-  │    Body reject / forced → no confirm → compile hollow               │
+  │    Body rejects / forced → no confirm → compile hollow              │
   │    (PFC-Operations §5: Compiled Quality Dimension)                  │
   │                                                                     │
   │  ③ DOMAIN FEEDBACK                                                  │
   │    Reality confirms → bootstrap works → genuine over time           │
   │    Reality denies → delusion → collapse eventually                  │
-  │    (Compilable Architecture: domain = final arbiter)                         │
+  │    (Compilable Architecture: domain = final arbiter)                │
   │                                                                     │
   │  ④ INTERNAL vs EXTERNAL DRIVE                                      │
-  │    vmPFC (internal): "tôi muốn" → approach → genuine trajectory     │
-  │    DRN default (external): "bị ép" → avoidance → threat trajectory  │
+  │    vmPFC (internal): "I want to" → approach → genuine trajectory    │
+  │    DRN default (external): "forced to" → avoidance → threat traj.  │
   │    (Autonomy-Hardware §2: Maier & Seligman 2016)                    │
   │                                                                     │
   │  ⑤ EXISTING PATTERN DEPTH                                          │
@@ -633,36 +633,36 @@ QUOTE 2 — "The mind is everything. What you think, you become."
   └─────────────────────────────────────────────────────────────────────┘
 
 
-  3 KẾT QUẢ CỦA PIPELINE TÙY QUALITY GATE:
+  3 OUTCOMES OF THE PIPELINE DEPENDING ON QUALITY GATE:
 
   ┌──────────────────┬───────────────────────────────────────────────────┐
   │ GENUINE-COMPILED │ Quality Gate: 5/5 favorable.                      │
-  │ (Outcome A)      │ Body PREFER new. Old DECAYED. Cost → 0.           │
-  │                  │ = "Thật sự thay đổi" — inside matches outside.    │
+  │ (Outcome A)      │ Body PREFERS new. Old DECAYED. Cost → 0.          │
+  │                  │ = "Truly changed" — inside matches outside.        │
   │                  │ Sustainable. Self-reinforcing.                     │
   ├──────────────────┼───────────────────────────────────────────────────┤
   │ SCHEMA-COMPILED  │ Quality Gate: partial (mixed).                    │
   │ (Outcome B)      │ Body NEUTRAL. Suppress compiled. Flat.            │
-  │                  │ = "Biết nhưng không cảm" — outside OK, inside     │
-  │                  │   empty. "Thành công mà emptiness."               │
+  │                  │ = "Knows but doesn't feel" — outside OK, inside   │
+  │                  │   empty. "Successful but empty."                  │
   │                  │ Functional but joyless. Reward system dampened.    │
   ├──────────────────┼───────────────────────────────────────────────────┤
   │ THREAT-COMPILED  │ Quality Gate: unfavorable.                        │
   │ (Outcome C)      │ Body AVOIDANCE. Forced compile.                   │
-  │                  │ = "Giỏi nhưng ghét" — competent + aversive.       │
+  │                  │ = "Skilled but hates it" — competent + aversive.  │
   │                  │ Burnout trajectory. Anhedonia risk.                │
   └──────────────────┴───────────────────────────────────────────────────┘
 
 
-  ⭐ PARALLEL VỚI ADVERSITY CLUSTER:
+  ⭐ PARALLEL WITH ADVERSITY CLUSTER:
 
-    Adversity cluster:  CÙNG adversity  → KHÁC direction tag → KHÁC outcome.
-    PFC→Identity cluster: CÙNG pipeline → KHÁC quality gate → KHÁC outcome.
+    Adversity cluster:       SAME adversity  → DIFFERENT direction tag → DIFFERENT outcome.
+    PFC→Identity cluster:    SAME pipeline   → DIFFERENT quality gate  → DIFFERENT outcome.
 
-    Cả 2 clusters: social quote compression CẮT MẤT biến quyết định.
-    Adversity cluster: direction tag bị cắt.
-    PFC→Identity cluster: quality gate bị cắt.
-    = Mỗi cluster restore 1 "biến ẩn" cho public consciousness.
+    Both clusters: social quote compression CUTS the decisive variable.
+    Adversity cluster: direction tag was cut.
+    PFC→Identity cluster: quality gate was cut.
+    = Each cluster restores 1 "hidden variable" for public consciousness.
 
   🟡 Compile Quality Gate model = framework synthesis
   🟢 Components individually established (Cortisol Direction-At-Compile, Compiled Quality,
@@ -674,11 +674,11 @@ QUOTE 2 — "The mind is everything. What you think, you become."
 ## §5 — THE MISSING MIDDLE: BODY CONFIRMATION + DOMAIN FEEDBACK
 
 ```
-⭐⭐ TẠI SAO "MISSING MIDDLE" LÀ KEY:
+⭐⭐ WHY "MISSING MIDDLE" IS THE KEY:
 
-  2 QUOTES BỎ QUA CHÍNH XÁC CÙNG 2 BƯỚC:
+  2 QUOTES SKIP EXACTLY THE SAME 2 STEPS:
 
-  ① DOMAIN FEEDBACK — "Reality có confirm không?"
+  ① DOMAIN FEEDBACK — "Does reality confirm?"
 
     Quote 1: "Fake it" — assumes faking → making. No reality check.
     Quote 2: "Think it" — assumes thinking → becoming. No reality check.
@@ -690,23 +690,23 @@ QUOTE 2 — "The mind is everything. What you think, you become."
     → Think + domain denies = fantasy → stagnation.
 
     THINK + FAKE + NO DOMAIN FEEDBACK = WORST CASE:
-    → Confident in wrong direction + practicing wrong thing
-    → Compile WRONG pattern DEEPER (Imagine-Final §10.1 Level 2-3 sai hướng)
-    → "Tầm nhìn mù" — vision mạnh + sai hướng + không sửa
+    → Confident in wrong direction + practicing the wrong thing
+    → Compiles WRONG pattern DEEPER (Imagine-Final §10.1 Level 2-3 wrong direction)
+    → "Vision blindness" — strong vision + wrong direction + no correction
 
-  ② BODY CONFIRMATION — "Body có genuine reward không?"
+  ② BODY CONFIRMATION — "Does body get genuine reward?"
 
     Quote 1: "Fake it" — assumes behavior → compile. No body check.
     Quote 2: "Think it" — assumes thought → identity. No body check.
 
     Framework: PFC = Director, Body = Compiler (Compile-Taxonomy §5).
-    → Body compile KHI body evaluate positive (genuine reward).
-    → Body compile "cách suppress" KHI body evaluate negative.
-    → PFC alone KHÔNG BAO GIỜ compile — body LUÔN compile.
+    → Body compiles WHEN body evaluates positively (genuine reward).
+    → Body compiles "how to suppress" WHEN body evaluates negatively.
+    → PFC alone NEVER compiles — body ALWAYS compiles.
 
     THINK + FAKE + NO BODY CONFIRM = SCHEMA-COMPILED:
-    → "Tôi đã thay đổi" (PFC verbal update) + body: "chưa" (baseline unchanged)
-    → = "Biết nhưng không thay đổi" (Schema §8) = most common failure
+    → "I have changed" (PFC verbal update) + body: "not yet" (baseline unchanged)
+    → = "Knows but doesn't change" (Schema §8) = most common failure
     → Social: looks like success. Internal: feels hollow.
 
   🟡 "Missing middle" analysis = framework synthesis
@@ -720,15 +720,15 @@ QUOTE 2 — "The mind is everything. What you think, you become."
 ⭐⭐ 8 FAILURE MODES — COMBINED FROM BOTH QUOTES:
 
   FM1 — COMPILED SUPPRESS MASQUERADES AS "MADE IT" / "BECAME":
-    PFC-Operations §4.2: Compiled suppress TRÔNG GIỐNG genuine change.
+    PFC-Operations §4.2: Compiled suppress LOOKS LIKE genuine change.
     "I faked it and made it" → could be Outcome A OR Outcome B.
     "I thought it and became it" → could be genuine OR verbal-only update.
-    → Trông giống success. Feels hollow. Anhedonia risk.
+    → Looks like success. Feels hollow. Anhedonia risk.
     → = Invisible failure. No one (including self) detects.
 
   FM2 — IMPOSTER SYNDROME LOOP:
     Fake → feel fake (efference mismatch) → cortisol ↑ → performance ↓ → more fake.
-    → Loop COMPILE vào identity: "tôi luôn fake" = Background-Pattern.
+    → Loop COMPILES into identity: "I'm always faking" = Background-Pattern.
     → Self-fulfilling prophecy (Background-Pattern §6.3).
     → Quote said "make it" — body says "still faking" → CONFLICT.
 
@@ -738,36 +738,36 @@ QUOTE 2 — "The mind is everything. What you think, you become."
     → = Quote INVERTS its own promise when applied as "just think positive."
 
   FM4 — RUMINATION MASQUERADES AS "THINKING":
-    Rumination = threat-direction thinking → compile avoidance DEEPER.
+    Rumination = threat-direction thinking → compiles avoidance DEEPER.
     → "What you think, you become" = TRUE: become MORE ANXIOUS.
     → Person in anxiety loop hears quote → "keep thinking about it" → WORSE.
     → Quote MOST HARMFUL for people who NEED IT MOST.
 
   FM5 — WRONG DIRECTION COMPILE:
-    Fake/think WRONG direction → compile wrong pattern DEEPER.
-    → Imagine-Final §10.1: "Chạy nhanh sai đường."
+    Fake/think in WRONG direction → compiles wrong pattern DEEPER.
+    → Imagine-Final §10.1: "Running fast in the wrong direction."
     → More effort = MORE damage (deeper wrong compile).
-    → Domain feedback = ONLY corrective — but quotes don't mention it.
+    → Domain feedback = ONLY corrective — but neither quote mentions it.
 
   FM6 — "JUST FAKE/THINK IT" DISMISSES GENUINE STRUGGLE:
-    Quote as advice → invalidate real difficulty.
-    → "Sợ nói trước đám đông? Just fake confidence!" = toxic positivity variant.
+    Quote as advice → invalidates real difficulty.
+    → "Scared of public speaking? Just fake confidence!" = toxic positivity variant.
     → Ignores: Background-Pattern depth, PFC budget, hardware differences.
-    → = Individual variation KHÔNG tồn tại trong quote's world.
+    → = Individual variation DOESN'T EXIST in the quote's world.
 
   FM7 — BACKGROUND-PATTERN LEVEL RESISTANCE:
     Quote assumes change = weeks/months.
     → Background-Pattern (Low Depth + High Density): change = YEARS.
     → Chronic Deep (High + High): change = YEARS TO DECADES.
-    → Person tries quote for months → fails → blame self.
-    → Real cause: pattern depth exceeds method's reach.
+    → Person tries the quote for months → fails → blames self.
+    → Real cause: pattern depth exceeds the method's reach.
 
   FM8 — PFC BUDGET EXHAUSTION:
     "Fake everything" + "Think everything positive" = PFC DEPLETED.
     → PFC budget = FINITE SHARED resource (PFC-Operations §9).
     → Fake in N domains = N × PFC cost.
-    → Budget hết → Self-Pattern-Modeling cho others YẾU → relationships suffer.
-    → = "Mệt ở work → về nhà hết PFC → 'không muốn nói'" — NOT "không yêu."
+    → Budget gone → Self-Pattern-Modeling for others WEAKENS → relationships suffer.
+    → = "Exhausted at work → come home with no PFC left → 'don't want to talk'" — NOT "don't love."
 ```
 
 ---
@@ -775,56 +775,56 @@ QUOTE 2 — "The mind is everything. What you think, you become."
 ## §7 — AI ERA
 
 ```
-⭐ AI AMPLIFY CẢ THINK + ACT → QUALITY GATE QUAN TRỌNG HƠN:
+⭐ AI AMPLIFIES BOTH THINK + ACT → QUALITY GATE BECOMES MORE IMPORTANT:
 
   AI × "THINK IT":
-    → AI generate positive thoughts VÔ HẠN (motivational content infinite)
-    → AI simulate future scenarios CHI TIẾT (chunks thay thế)
-    → → "Think it" trở nên TRIVIALLY EASY
-    → NHƯNG: body experience KHÔNG THỂ outsource cho AI
-    → = Level 1-3 accessible. Level 4-5 VẪN CẦN body tự nạp.
+    → AI generates positive thoughts ENDLESSLY (motivational content infinite)
+    → AI simulates future scenarios IN DETAIL (chunk substitutes)
+    → → "Think it" becomes TRIVIALLY EASY
+    → BUT: body experience CANNOT be outsourced to AI
+    → = Level 1-3 accessible. Level 4-5 STILL REQUIRES body to absorb directly.
 
   AI × "FAKE IT":
-    → AI rehearse behaviors (practice conversations, presentations)
-    → AI provide domain feedback NHANH HƠN (code review, analysis)
-    → → "Fake it" trở nên CHEAPER
-    → NHƯNG: body confirmation KHÔNG THỂ outsource
+    → AI rehearses behaviors (practice conversations, presentations)
+    → AI provides domain feedback FASTER (code review, analysis)
+    → → "Fake it" becomes CHEAPER
+    → BUT: body confirmation CANNOT be outsourced
     → = Behavior practice easier. Body compile quality UNCHANGED.
 
-  NGUY CƠ — AI × NO QUALITY GATE:
-    → AI amplify cả think + act → vô hạn input
-    → KHÔNG có Quality Gate awareness → vô hạn schema-compiled outcomes
+  RISK — AI × NO QUALITY GATE:
+    → AI amplifies both think + act → infinite input
+    → NO Quality Gate awareness → infinite schema-compiled outcomes
     → → MORE people "made it" (looks successful) + "empty" (body not genuine)
     → = AI era + quotes without Quality Gate = INDUSTRIAL-SCALE hollow success
 
-  CƠ HỘI — AI × QUALITY GATE AWARENESS:
-    → AI giúp identify direction tag: "bạn đang fake under curiosity hay fear?"
-    → AI provide domain feedback NHANH: "direction này domain có confirm?"
-    → AI detect Oettingen effect: "bạn đang nghĩ positive mà KHÔNG action?"
-    → AI flag compiled suppress: verbal/behavior patterns inconsistent
-    → = AI + Quality Gate = TOOL cho genuine compile
+  OPPORTUNITY — AI × QUALITY GATE AWARENESS:
+    → AI helps identify direction tag: "are you faking under curiosity or fear?"
+    → AI provides domain feedback FASTER: "does domain confirm this direction?"
+    → AI detects Oettingen effect: "are you thinking positive WITHOUT acting?"
+    → AI flags compiled suppress: verbal/behavior patterns inconsistent
+    → = AI + Quality Gate = TOOL for genuine compile
 
   Ask-AI.md §6: body = quality controller, domain = final arbiter.
-  → AI = tool cho domain check. Human essential cho body confirmation.
-  → = Phân công: AI handle ③ (plan, domain check). Human handle ①② (need + body).
+  → AI = tool for domain check. Human essential for body confirmation.
+  → = Division: AI handles ③ (plan, domain check). Human handles ①② (need + body).
 ```
 
 ---
 
-## §8 — CALIBRATION: CÁCH APPLY KHÔNG CỨNG NHẮC
+## §8 — CALIBRATION: HOW TO APPLY WITHOUT RIGIDITY
 
 ```
 ⭐ 6 CALIBRATION PRINCIPLES:
 
   PRINCIPLE 1 — SPECIFY DIRECTION BEFORE FAKING/THINKING:
-    → Before "fake it": "body state direction = novelty hay threat?"
-    → Before "think it": "reflection hay rumination?"
+    → Before "fake it": "body state direction = novelty or threat?"
+    → Before "think it": "reflection or rumination?"
     → Novelty/reflection → proceed (Quality Gate favorable).
     → Threat/rumination → STOP, address body state FIRST.
-    → Body-Feedback-Label §3: học vocabulary để identify direction.
+    → Body-Feedback-Label §3: learn vocabulary to identify direction.
 
   PRINCIPLE 2 — DOMAIN FEEDBACK = MANDATORY CHECK:
-    → Every N weeks: "domain có confirm direction không?"
+    → Every N weeks: "does domain confirm direction?"
     → Confirm → continue (bootstrap trajectory).
     → Deny → PIVOT (not "try harder").
     → Domain feedback > "how I feel about it" > "what others say."
@@ -832,14 +832,14 @@ QUOTE 2 — "The mind is everything. What you think, you become."
   PRINCIPLE 3 — BODY CONFIRMATION ≠ COMFORT:
     → Body confirm ≠ "feels good."
     → Body confirm = genuine reward (opioid, not relief).
-    → Discomfort CAN coexist with genuine: "khó nhưng body MUỐN tiếp."
-    → Comfort CAN coexist with schema: "không khó nhưng body TRỐNG."
-    → Test: "body CÓ tự MUỐN quay lại không?" (approach tag).
+    → Discomfort CAN coexist with genuine: "hard but body WANTS to continue."
+    → Comfort CAN coexist with schema: "not hard but body feels EMPTY."
+    → Test: "does body WANT to return on its own?" (approach tag).
 
   PRINCIPLE 4 — TIME HORIZON = f(PATTERN DEPTH):
     → Surface Rule: fake/think → change DAYS.
     → Isolated habit: fake/think → change MONTHS.
-    → Background-Pattern: fake/think → change YEARS. MANDATORY.
+    → Background-Pattern: fake/think → change YEARS. NON-NEGOTIABLE.
     → Chronic Deep: YEARS TO DECADES + environment change + relationship support.
     → Person-specific. No universal timeline.
 
@@ -853,7 +853,7 @@ QUOTE 2 — "The mind is everything. What you think, you become."
     → Self cannot detect compiled suppress (PFC-Operations §8.2 Step 1: HARDEST).
     → External observer needed: therapist, mentor, trusted friend.
     → "Am I genuinely changing or just compiled suppressing?"
-    → External break self-fulfilling prophecy loop (Background-Pattern §6.3).
+    → External breaks self-fulfilling prophecy loop (Background-Pattern §6.3).
 ```
 
 ---
@@ -864,20 +864,20 @@ QUOTE 2 — "The mind is everything. What you think, you become."
 ⭐ 4 META-OBSERVATIONS:
 
   META 1 — QUOTE POPULARITY ∝ 1/NUANCE:
-    "Fake it till you make it" = 7 từ cho pipeline 5+ bước.
-    "The mind is everything" = 4 từ cho hệ thống 95% unconscious.
-    Social sharing optimize cho BREVITY, KHÔNG cho ACCURACY.
-    = "3/5 quotes misattributed" (Adversity cluster) = cùng mechanism:
-      Triple Bias → uy tín source → chia sẻ → không verify.
-    Framework contribution: restore nuance mà social compression cắt.
+    "Fake it till you make it" = 7 words for a 5+ step pipeline.
+    "The mind is everything" = 4 words for a 95% unconscious system.
+    Social sharing optimizes for BREVITY, NOT for ACCURACY.
+    = "3/5 quotes misattributed" (Adversity cluster) = same mechanism:
+      Triple Bias → authoritative source → share → don't verify.
+    Framework contribution: restore nuance that social compression cuts.
 
-  META 2 — CẢ 2 QUOTES VALIDATE PFC'S ILLUSION OF CONTROL:
-    "Mind is everything" → PFC: "ĐÚNG, TÔI kiểm soát!"
-    "Fake it till you make it" → PFC: "ĐÚNG, TÔI quyết định thay đổi!"
+  META 2 — BOTH QUOTES VALIDATE PFC'S ILLUSION OF CONTROL:
+    "Mind is everything" → PFC: "CORRECT, I am in control!"
+    "Fake it till you make it" → PFC: "CORRECT, I decide to change!"
     Framework: PFC = ~5% conscious extension. 95% = body + compiled unconscious.
-    → Quotes phổ biến VÌ confirm what PFC WANTS to believe.
+    → Quotes are popular BECAUSE they confirm what PFC WANTS to believe.
     → = Triple Bias APPLIED TO QUOTE SELECTION:
-      Background-Pattern [tôi kiểm soát] → select + share confirming quotes.
+      Background-Pattern [I am in control] → selects + shares confirming quotes.
     → Self-fulfilling: share quote → others believe → culture reinforces.
 
   META 3 — DHAMMAPADA vs INTERNET BUDDHA = SAME COMPRESSION:
@@ -886,11 +886,11 @@ QUOTE 2 — "The mind is everything. What you think, you become."
     Aristotle: "PRACTICE virtue IN community → become virtuous" (practice + community).
     Internet: "FAKE it → make it" (skip practice quality + community).
     = Social compression pattern: 3-step wisdom → 1-step slogan.
-    = Each compression CẮT the SAME thing: middle steps (action quality + feedback).
+    = Each compression CUTS the SAME thing: middle steps (action quality + feedback).
 
-  META 4 — SESSION 3 × ADVERSITY CLUSTER CONVERGENCE:
-    Adversity cluster: biến ẩn = DIRECTION TAG (approach vs avoidance).
-    PFC→Identity cluster: biến ẩn = QUALITY GATE (5 variables).
+  META 4 — SERIES CONVERGENCE × ADVERSITY CLUSTER:
+    Adversity cluster: hidden variable = DIRECTION TAG (approach vs avoidance).
+    PFC→Identity cluster: hidden variable = QUALITY GATE (5 variables).
     → Direction tag IS one of 5 quality gate variables (variable ①).
     → PFC→Identity cluster = EXPANDED framework for understanding quotes.
     → = Quote analysis series gradually BUILDS: direction → quality gate → ?

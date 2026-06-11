@@ -1,853 +1,732 @@
 ---
-title: Autonomy — Observation Parameter (Software/Development)
+title: "Autonomy — Observation Parameter (Software/Development)"
 version: 1.2
-created: 2026-04-20
-updated: 2026-05-17
-refined: 2026-05-23 (v1.2 — Concept Cascade: +Entity-Access, +Simulation-Engine. Updated versions + cross-refs)
-status: OBSERVATION PARAMETER v1.2 — SOFTWARE/DEVELOPMENT
-scope: |
-  OBSERVATION FILE: Autonomy XU HƯỚNG = tên gọi cho pattern khi quan sát
-  MỨC ĐỘ một người prefer self-action vs external-control. Khác mỗi người
-  tùy chunk tích lũy + môi trường + developmental history.
-  Hardware cho sẵn reward cho self-action (Autonomy-Hardware.md).
-  File này giải thích: SOFTWARE quyết định ai DÙNG ĐƯỢC cái reward đó.
-  Motor chunks → accumulated evidence → self-as-agent meta-chunk →
-  developmental arc 5 phases → domain-specific controllability →
-  counterweights → cross-parameter interactions → healthy vs toxic.
-  v1.1 KEY CHANGES:
-    ⑪ +Compilable Architecture alignment: autonomy SOFTWARE = Compilable Architecture only
-       (Hardwired Architecture has no controllability learning, no meta-chunks)
-    ⑫ +Cross-refs: Inter-Body-Mechanism v1.0, Body-Feedback-Label v2.0, observation versions updated
-    ⑬ Agent.md → Agent-Mechanism.md v2.0
-purpose: |
-  Autonomy-Hardware.md giải thích TẠI SAO self-action = reward (universal).
-  File này giải thích: AI sẽ có XU HƯỚNG autonomy CAO/THẤP (individual).
-  = f(motor chunks × controllability chunks × meta-chunk × environment)
-  Dùng cho người cần hiểu: tại sao KHÁC MỖI NGƯỜI, làm sao BUILD,
-  và khi nào autonomy HEALTHY vs TOXIC.
-position: |
-  Core-Deep-Dive/Observation/ — đi kèm Autonomy-Hardware.md.
-  Ngang hàng Novelty.md, Threat.md, Status.md, etc.
-dependencies:
-  - Autonomy-Hardware.md v1.1 — companion file: efference copy, vmPFC+DRN, cortisol direction
-  - Core-v7.8-Draft.md — §8 observation parameters
-  - Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap
-  - Chunk.md v2.0 — chunk substrate, compilation
-  - Agent-Mechanism.md v2.1 — §12 body-need feeder, self-as-agent, 10 dimensions
-  - Inter-Body-Mechanism.md v1.0 — §1.2 Compilable Architecture, §3 Compiled/Fresh
-  - Body-Feedback-Label.md v2.0 — vocabulary consistency
-  - Chunk/Agent-Mechanism/Entity-Access.md v1.2 — autonomy = control over access gradient
-  - PFC/Simulation-Engine.md v1.0 — autonomous simulation capacity
-  - Child-Chunk-Development/07-Social-Recognition-Arc.md — §4.6 E31 "Không"
-  - Child-Chunk-Development/08-Verbal-Production-Arc.md — §4.11 E31 chunks
-  - Feel-Example-Draft.md — E31 autonomy assertion
-  - Natural-Development.md — voluntary reaching, bò, ném, "KHÔNG!" arc
-  - Skill-Introduction.md — ép → "ý kiến tôi VÔ GIÁ TRỊ" (line 432)
-  - Education-Principles.md — nguồn ① self-directed, quarter-life crisis
-  - Protect.md v1.1 — §8.4 Autonomy × Protect
-  - Threat.md v1.1 — §4 Imposed threats
-  - Status.md v2.1 — §10 status × autonomy spiral
-  - Connection.md v4.0 — attachment × autonomy
-  - Meaning.md v2.1 — anchor source ①
-  - Body-Base-Example.md — helicopter parenting → helplessness
-companion_file: Autonomy-Hardware.md (hardware mechanism — efference copy, vmPFC+DRN)
-language: Tiếng Việt primary + English technical terms
-confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+scope: "Human Predictive Drive Framework v7.8 — Observation Parameter"
+confidence: "Mixed: 🟢 research-backed / 🟡 framework synthesis / 🔴 speculative"
+source_file: "Core-Deep-Dive/Observation/Autonomy.md"
+companion_file: "Autonomy-Hardware.md (hardware mechanism — efference copy, vmPFC+DRN)"
 ---
 
 # Autonomy — Observation Parameter (Software/Development)
 
-> Hardware cho sẵn: tự action = better prediction = more reward.
+**Framework**: Human Predictive Drive v7.8
+**Version**: 1.2
+**File type**: Observation Parameter — Software/Development
+**Position**: Core-Deep-Dive/Observation/ — paired with Autonomy-Hardware.md (hardware mechanism)
+
+> Hardware provides it: self-action = better prediction = more reward.
 > (Autonomy-Hardware.md: efference copy + VTA + opioid = universal.)
 >
-> Nhưng TẠI SAO có người rất tự chủ, có người rất phụ thuộc?
+> But why do some people develop high autonomy, and others become deeply dependent?
 >
-> Bé A: bố mẹ cho tự thử. Đổ cơm → mẹ bình tĩnh → bé thử lại.
-> 18 tháng: hàng trăm lần "tự làm → match → reward" tích lũy.
-> Body compile meta-chunk: "TÔI làm = tốt hơn."
-> → "TỰ CON!" → generalize sang mọi domain.
-> → Adult: tự quyết khi có chunks, hỏi expert khi chưa biết.
+> Child A: caregivers allow the child to try. Food gets spilled → caregiver stays calm → child tries again.
+> By 18 months: hundreds of "self-action → match → reward" cycles have accumulated.
+> Body compiles a meta-chunk: "I do it = better."
+> → "I'll do it myself!" → generalizes across every domain.
+> → Adult: decides independently when the chunks are there, asks an expert when they aren't.
 >
-> Bé B: bố mẹ làm hết. Hoặc quát khi bé thử mà fail.
-> 18 tháng: ít "tự làm → match" experiences. Hoặc "tự làm → bị phạt."
-> vmPFC không được train. Meta-chunk không compile. Hoặc compile "tự làm = nguy hiểm."
-> → Adult: phụ thuộc, không dám quyết, hoặc "biết nên tự làm nhưng không dám."
+> Child B: caregivers do everything. Or scold the child when self-attempts fail.
+> By 18 months: few "self-action → match" experiences. Or: "self-action → punished."
+> vmPFC never trained. Meta-chunk never compiled. Or compiled as "acting independently = dangerous."
+> → Adult: dependent, reluctant to decide, or "knows I should do it myself but can't bring myself to start."
 >
-> Hardware GIỐNG NHAU. Software KHÁC.
-> File này: software đó BUILD thế nào, KHÁC thế nào, và FIX thế nào.
+> Same hardware. Different software.
+> This file: how that software BUILDS, why it DIFFERS, and how it can be REPAIRED.
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — HARDWARE vs SOFTWARE: PHÂN BIỆT 2 LAYERS
-- §1 — CHUNK MECHANISM: TỪ MOTOR → META-CHUNK
-  - §1.1 — Motor Chunks = Prerequisite (cost phải thấp)
-  - §1.2 — Accumulated Evidence: "Tự Mình = Tốt Hơn"
-  - §1.3 — Self-As-Agent Meta-Chunk: Generalize → "KHÔNG!"
-  - §1.4 — Controllability Chunks: vmPFC Compile Per Domain
-- §2 — DEVELOPMENTAL ARC: 5 PHASES
-  - §2.1 — Phase 1: Motor Insufficient → Accept External (0-6m)
-  - §2.2 — Phase 2: Motor Building → Begin Testing (6-14m)
-  - §2.3 — Phase 3: Motor Sufficient → Self-Control Preferred (14-18m)
-  - §2.4 — Phase 4: Meta-Chunk Compiled → "KHÔNG!" Generalize (18m+)
+- §0 — HARDWARE vs SOFTWARE: TWO LAYERS
+- §1 — CHUNK MECHANISM: FROM MOTOR CHUNKS TO META-CHUNK
+  - §1.1 — Motor Chunks = Prerequisite (cost must be low)
+  - §1.2 — Accumulated Evidence: "Self-Action = Better"
+  - §1.3 — Self-As-Agent Meta-Chunk: Generalizes → "NO!"
+  - §1.4 — Controllability Chunks: vmPFC Compiles Per Domain
+- §2 — DEVELOPMENTAL ARC: FIVE PHASES
+  - §2.1 — Phase 1: Motor Insufficient → Accept External (0–6 months)
+  - §2.2 — Phase 2: Motor Building → Begin Testing (6–14 months)
+  - §2.3 — Phase 3: Motor Sufficient → Self-Control Preferred (14–18 months)
+  - §2.4 — Phase 4: Meta-Chunk Compiled → "NO!" Generalizes (18 months+)
   - §2.5 — Phase 5: Domain Expansion → Adult Autonomy Spectrum
-- §3 — AUTONOMY ≠ TỰ DO TUYỆT ĐỐI: 3 COUNTERWEIGHTS
-  - §3.1 — Chunks Prerequisite: Predict Đúng Cần Chunks Đủ
-  - §3.2 — Choice Overload: Quá Nhiều → Accuracy Giảm
-  - §3.3 — Structure Necessity: Reasonable Imposed → BUILD Chunks
+- §3 — AUTONOMY ≠ ABSOLUTE FREEDOM: THREE COUNTERWEIGHTS
+  - §3.1 — Chunks Prerequisite: Accurate Prediction Requires Sufficient Chunks
+  - §3.2 — Choice Overload: Too Many Options → Accuracy Drops
+  - §3.3 — Structure Necessity: Reasonable Imposed Structure → Builds Chunks
 - §4 — CROSS-PARAMETER INTERACTIONS
   - §4.1 — × Protect (Control Dimension)
-  - §4.2 — × Threat (Imposed = Autonomy Violation)
+  - §4.2 — × Threat (Coercion = Autonomy Violation)
   - §4.3 — × Status (Prediction Accuracy → Self-Efficacy)
   - §4.4 — × Connection (Helicopter Parenting, Attachment)
   - §4.5 — × Novelty (Curiosity = Approach + Choice)
   - §4.6 — × Meaning (Anchor Source ①)
   - §4.7 — × Mastery (Competence + Autonomy Compound)
+  - §4.8 — × Entity-Access and Simulation-Engine
 - §5 — HEALTHY vs TOXIC AUTONOMY
-  - §5.1 — Adaptive (5 dấu hiệu)
+  - §5.1 — Adaptive (5 markers)
   - §5.2 — Pathological (5 patterns)
   - §5.3 — Cultural Variation: Individualism vs Collectivism
 - §6 — HONEST ASSESSMENT
-  - §6.1 — Tier 2: Framework Synthesis (🟡)
-  - §6.2 — Tier 3: Hypothesis (🔴)
-  - §6.3 — Open Questions
 - §7 — CROSS-REFERENCES
 
 ---
 
-## §0 — HARDWARE vs SOFTWARE: PHÂN BIỆT 2 LAYERS
+## §0 — HARDWARE vs SOFTWARE: TWO LAYERS
 
-```
-⭐ 2 LAYERS CỦA AUTONOMY:
+### §0.1 — Two Layers of Autonomy
 
-  LAYER 1 — HARDWARE (Autonomy-Hardware.md):
-    = TẠI SAO self-action = reward
-    = Efference copy + VTA prediction-delta + opioid
-    = UNIVERSAL — mọi người, mọi culture, cross-species
-    = Không cần "học" — architecture tự produce
-    = EMERGENT từ architecture, không phải "thiết kế cho autonomy"
+**LAYER 1 — HARDWARE** (Autonomy-Hardware.md):
+= WHY self-action equals reward
+= Efference copy + VTA prediction-delta + opioid
+= UNIVERSAL — every person, every culture, cross-species
+= Doesn't require learning — architecture produces it automatically
+= EMERGENT from architecture, not designed for autonomy
 
-  LAYER 2 — SOFTWARE (file này):
-    = AI sẽ có XU HƯỚNG autonomy CAO hay THẤP
-    = Motor chunks + controllability chunks + meta-chunk + tag direction
-    = INDIVIDUAL — khác mỗi người tùy experience
-    = CẦN "build" — qua accumulated controllable experience
-    = f(environment × hardware variation × chunk accumulation)
+**LAYER 2 — SOFTWARE** (this file):
+= WHO develops high vs low autonomy orientation
+= Motor chunks + controllability chunks + meta-chunk + compile-time direction
+= INDIVIDUAL — differs per person based on experience
+= Requires BUILDING — through accumulated controllable experience
+= f(environment × hardware variation × chunk accumulation)
 
-  QUAN HỆ:
+### §0.2 — The Relationship Between Hardware and Software
 
-    Hardware cho sẵn REWARD cho self-action (universal).
-    Software quyết định ai DÙNG ĐƯỢC cái reward đó (individual).
+Hardware provides the REWARD for self-action (universal).
+Software determines WHO CAN ACCESS that reward (individual).
 
-    Trường hợp bình thường:
-      → Hardware reward + software trained → autonomy HEALTHY
-      → = "Tôi thích tự làm, và tôi BIẾT khi nào cần nhờ"
+**Normal development**:
+Hardware reward + software trained → healthy autonomy
+= "I prefer to do things myself, and I know when to ask for help"
 
-    Trường hợp bị ép mãn tính:
-      → Hardware VẪN cho reward cho self-action
-      → NHƯNG software đã compile "tự làm = bị phạt" (avoidance tag)
-      → → Hardware nói "tự làm tốt hơn" + software nói "tự làm nguy hiểm"
-      → → = CONFLICT nội tại → "biết nên tự làm nhưng không dám"
-      → → = KHÔNG phải "lười" — là software OVERRIDE hardware
+**Chronically coerced**:
+Hardware STILL provides reward for self-action.
+BUT software compiled "acting independently = punished" (avoidance tag).
+= Hardware says "self-action is better" + software says "self-action is dangerous"
+= INTERNAL CONFLICT → "I know I should do it myself but I can't start"
+= Not "laziness" — software OVERRIDING hardware
 
-    Trường hợp helicopter:
-      → Hardware reward có nhưng vmPFC KHÔNG được train
-      → DRN default (passive) vẫn dominant
-      → → "Failure to launch" = DRN stays, vmPFC untrained
+**Helicopter environment**:
+Hardware reward is available but vmPFC NEVER TRAINED.
+DRN default (passive) remains dominant.
+= "Failure to launch" = DRN stays, vmPFC untrained.
 
-  OBSERVATION PARAMETER:
-    → Khi quan sát 1 người: "autonomy level CAO/THẤP?"
-    → = Đang quan sát SOFTWARE state, KHÔNG phải hardware
-    → Hardware mọi người ĐỀU CÓ — software KHÁC NHAU
-    → = Tại sao "autonomy" là observation parameter (observable, varies)
+### §0.3 — Why Autonomy Is an Observation Parameter
 
-  ⭐ COMPILABLE ARCHITECTURE ALIGNMENT (Inter-Body-Mechanism.md §1.2):
+When observing someone: "high or low autonomy orientation?"
+= Observing SOFTWARE state, NOT hardware.
+Hardware exists in everyone — software differs.
+= Why autonomy is an *observation* parameter: it is observable and variable.
 
-    Hardwired Architecture (côn trùng): hardwired stimulus→response.
-      → Không có vmPFC → không có controllability LEARNING.
-      → Không có meta-chunk compilation → không có "KHÔNG!" generalization.
-      → Không có observation parameter "autonomy" — mọi phản ứng pre-wired.
+### §0.4 — Compilable Architecture Alignment
 
-    Compilable Architecture (động vật có vú, đặc biệt người):
-      → General-purpose system + PFC + chunk compilation.
-      → Hardware: efference copy + VTA + opioid → autonomy preference EMERGES.
-      → Software: vmPFC/DRN LEARN controllability per domain → meta-chunk compile.
-      → = Developmental arc 5 phases (§2) CHỈ CÓ trong Compilable Architecture.
-      → = "Terrible twos" = Compilable Architecture phenomenon — meta-chunk crosses threshold.
-      → = Chỉ Compilable Architecture organisms có "autonomy SOFTWARE" khác nhau per individual.
-```
+🟡 Autonomy software is specific to **Compilable Architecture** (Core-Software.md §1.2).
+
+**Hardwired Architecture** (insects): hardwired stimulus→response. No vmPFC → no controllability learning. No meta-chunk compilation → no "NO!" generalization. No "autonomy" as an observable parameter — every response is pre-wired.
+
+**Compilable Architecture** (mammals, especially humans): general-purpose system + PFC + chunk compilation. Hardware: efference copy + VTA + opioid → autonomy preference emerges. Software: vmPFC/DRN LEARN controllability per domain → meta-chunk compiles.
+
+The 5-phase developmental arc (§2) ONLY exists within Compilable Architecture organisms. "Terrible twos" is a Compilable Architecture phenomenon — the meta-chunk crossing a threshold. Only Compilable Architecture organisms have autonomy SOFTWARE that differs per individual.
 
 ---
 
-## §1 — CHUNK MECHANISM: TỪ MOTOR → META-CHUNK
+## §1 — CHUNK MECHANISM: FROM MOTOR CHUNKS TO META-CHUNK
 
-### §1.1 — Motor Chunks = Prerequisite (cost phải thấp)
+### §1.1 — Motor Chunks = Prerequisite (Cost Must Be Low)
 
-```
-🟡 FRAMEWORK (based on 🟢 motor learning research):
+🟡 Framework synthesis (based on 🟢 motor learning research).
 
-  AUTONOMY CÓ PREREQUISITE: MOTOR CHUNKS PHẢI ĐỦ.
+**Autonomy has a prerequisite: motor chunks must be sufficient.**
 
-  Tại sao prerequisite:
-    → Hardware cho reward khi tự làm (Autonomy-Hardware.md §1)
-    → NHƯNG tự làm = body control action → cần MOTOR CHUNKS compiled
-    → Motor chunks chưa đủ → tự làm = VỤNG → prediction accuracy THẤP
-    → Prediction accuracy thấp → body feedback = NEGATIVE (miss nhiều)
-    → = Tự làm CHƯA TỐT HƠN mẹ làm → bé CHẤP NHẬN mẹ làm
+Why this prerequisite:
+- Hardware provides reward for self-action (Autonomy-Hardware.md §1)
+- BUT self-action = body controls the action → requires compiled MOTOR CHUNKS
+- Insufficient motor chunks → self-action = clumsy → prediction accuracy LOW
+- Low prediction accuracy → body feedback = NEGATIVE (many misses)
+- = Self-action NOT YET better than caregiver's help → child ACCEPTS being helped
 
-  VÍ DỤ — TỰ XÚC ĂN:
+**Example — self-feeding**:
 
-    Bé 8 tháng: motor chunks cho "cầm muỗng → vào miệng" CHƯA ĐỦ
-      → Thử tự xúc: đổ hết, muỗng chọc mũi, food rơi
-      → Prediction accuracy: THẤP (efference copy inaccurate, motor clumsy)
-      → Body feedback: nhiều mismatch → NET dissonance > mẹ xúc
-      → → Bé CHẤP NHẬN mẹ xúc (cost tự làm > cost external control)
+*Child at 8 months — motor chunks for "hold spoon → reach mouth" are insufficient*:
+- Self-feeding attempt: spills everything, spoon hits nose, food falls
+- Prediction accuracy: LOW (efference copy inaccurate, movement clumsy)
+- Body feedback: many mismatches → net dissonance EXCEEDS caregiver feeding
+- → Child ACCEPTS being fed (cost of self-feeding > cost of external control)
 
-    Bé 14-16 tháng: motor chunks ĐANG BUILD
-      → Thử tự xúc: đổ ít hơn, vào miệng ~70%
-      → Prediction accuracy: TĂNG DẦN
-      → Body feedback: match TĂNG → micro-rewards TĂNG
-      → → Bé BẮT ĐẦU prefer tự xúc (cost tự làm ≈ cost external)
-      → → "Messy eating" = LEARNING PHASE (cần cho phép!)
+*Child at 14–16 months — motor chunks BUILDING*:
+- Self-feeding: less spilling, reaches mouth ~70% of attempts
+- Prediction accuracy: RISING
+- Body feedback: more matches → micro-rewards INCREASING
+- → Child BEGINS preferring self-feeding (costs approximately equal)
+- → "Messy eating" = LEARNING PHASE (this must be allowed!)
 
-    Bé 18+ tháng: motor chunks ĐỦ cho basic self-feeding
-      → Tự xúc: ~90%+ success rate
-      → Prediction accuracy: HIGH
-      → Body feedback: consistent match → CLEAR preference
-      → + ACCUMULATED evidence → meta-chunk forming
-      → → "TỰ CON!" = meta-chunk COMPILED → generalize
+*Child at 18+ months — motor chunks SUFFICIENT for basic self-feeding*:
+- Self-feeding: ~90%+ success rate
+- Prediction accuracy: HIGH
+- Body feedback: consistent match → CLEAR preference
+- + Accumulated evidence → meta-chunk forming
+- → "I'll do it myself!" = meta-chunk COMPILED → generalizes
 
-  ⭐ IMPLICATION:
+**Implications**:
+- Autonomy ≠ fixed trait → EMERGES when chunks are sufficient
+- Different children reach sufficiency at different ages (🟢 WHO motor milestones: wide variation, consistent sequence)
+- "Terrible twos" timing varies because motor chunk readiness varies
+- Children allowed to attempt MORE → earlier autonomy assertion
+- Children who are overly restricted → later
+- = Environmental factor × hardware variation × chunk accumulation
+- This explains: same age, different autonomy levels ≠ "personality difference" — it is chunk readiness
 
-    → Autonomy ≠ fixed trait → EMERGES khi chunks ĐỦ
-    → Different children reach sufficiency tại different ages
-      (🟢 WHO motor milestones: wide variation but consistent sequence)
-    → "Terrible twos" TIMING varies vì motor chunk readiness varies
-    → Trẻ được phép thử NHIỀU hơn → earlier autonomy assertion
-    → Trẻ bị restricted (playpen, bế suốt) → later
-    → = Environmental factor × hardware factor × chunk accumulation
-    → NÀY GIẢI THÍCH: cùng tuổi, khác autonomy level ≠ "tính cách" — là chunk readiness
-```
+### §1.2 — Accumulated Evidence: "Self-Action = Better"
 
-### §1.2 — Accumulated Evidence: "Tự Mình = Tốt Hơn"
+🟡 Framework synthesis (🟢 reinforcement learning principles).
 
-```
-🟡 FRAMEWORK (🟢 reinforcement learning principles):
+**The accumulation mechanism**:
 
-  ACCUMULATION MECHANISM:
+Each time the child successfully acts independently:
+→ Prediction match → micro-opioid → body registers "positive"
+→ vmPFC: controllability chunk strengthens (Autonomy-Hardware.md §2.2)
+→ Evidence counter (implicit, body-level): +1
 
-    Mỗi lần bé tự làm THÀNH CÔNG:
-      → Prediction match → micro-opioid → body register "positive"
-      → vmPFC: controllability chunk strengthen (Autonomy-Hardware.md §2.2)
-      → Evidence counter (implicit, body-level): +1
+Each time the caregiver does it for the child:
+→ Prediction miss (mild) → body registers "mild negative"
+→ OR neutral (insufficient comparison data yet)
 
-    Mỗi lần mẹ làm cho:
-      → Prediction miss (mild) → body register "mild negative"
-      → HOẶC neutral (chưa đủ comparison data)
+After hundreds of repetitions:
+→ Body holds ASYMMETRIC evidence:
+  - Self-control: many positives → baseline "self-action = good"
+  - External control: many mild negatives → baseline "being controlled = worse"
+→ NOT conscious comparison — body-level pattern
+→ Reinforcement learning (🟢 established): accumulated history creates PREFERENCE without conscious reasoning
 
-    SAU hàng trăm lần:
-      → Body has ASYMMETRIC evidence:
-        Self-control = many positive → baseline "tự làm = tốt"
-        External control = many mild negative → baseline "bị làm cho = kém"
-      → = NOT conscious comparison — body-level pattern
-      → = REINFORCEMENT LEARNING (🟢): accumulated history
-        → Create PREFERENCE without conscious reasoning
+**A critical asymmetry**:
 
-  ⚠️ ASYMMETRY QUAN TRỌNG:
+The body registers NEGATIVE more strongly than POSITIVE (🟢 negativity bias):
+- One failed self-attempt (spills, hurts) = strong negative
+- One successful self-attempt = moderate positive
+- BUT: a child failing is NORMAL → if the caregiver stays calm → failure is not amplified
+- Net: many moderate positives > few strong negatives → preference BUILDS
 
-    Body ghi nhận NEGATIVE mạnh hơn POSITIVE (🟢 negativity bias):
-      → 1 lần tự làm fail (đổ, đau) = strong negative
-      → 1 lần tự làm thành công = moderate positive
-      → NHƯNG: bé fail = NORMAL → mẹ bình tĩnh → fail KHÔNG amplified
-      → → Net: nhiều moderate positive > ít strong negative → preference BUILD
+If the caregiver PUNISHES failure (scolds, grabs the object back):
+- Failure + punishment = STRONG negative (compound: failure + social threat)
+- Overrides the positive evidence
+- Schema compiles: "acting independently = dangerous" (avoidance tag)
+- Autonomy SUPPRESSED — not from missing motor chunks, but because punishment CONTAMINATES the evidence base
 
-    NẾU mẹ/bố PHẠT khi bé fail (quát, giành lại):
-      → Fail + punishment = STRONG negative (compound: fail + social threat)
-      → → Override positive evidence
-      → → Schema compile: "tự làm = nguy hiểm" (avoidance tag)
-      → → Autonomy SUPPRESSED — không vì thiếu motor chunks,
-           mà vì punishment CONTAMINATE evidence
-      → = Skill-Introduction.md: "1 kỹ năng KHÔNG ĐÁNG để đổi lấy
-           body-listening + agency + trust" (line 432)
-```
+### §1.3 — Self-As-Agent Meta-Chunk: Generalizes → "NO!"
 
-### §1.3 — Self-As-Agent Meta-Chunk: Generalize → "KHÔNG!"
+🟡 Framework synthesis (🟢 meta-learning is an established concept).
 
-```
-🟡 FRAMEWORK (🟢 meta-learning is established concept):
+**Meta-chunk formation**:
 
-  META-CHUNK FORMATION:
+After sufficient accumulated evidence (§1.2), the body compiles a META-CHUNK:
+- Content: "I DO IT = better" (generalized, cross-domain)
+- = No longer a per-task comparison — a GENERAL PREFERENCE
+- = Self-as-agent chunk (from E31 analysis)
 
-    Sau đủ accumulated evidence (§1.2), body compile META-CHUNK:
-      → Content: "TÔI làm = tốt hơn" (generalized, cross-domain)
-      → = KHÔNG CÒN per-task comparison — là GENERAL PREFERENCE
-      → = Self-as-agent chunk (E31 analysis, Feel-Example-Draft.md)
+Self-as-agent chunk content:
+- "I am an entity"
+- "I have wants"
+- "My wants can differ from others' wants"
+- "I can act on my wants"
+- "When I ACT = higher quality" (from prediction accuracy data in Autonomy-Hardware.md)
 
-    Self-as-agent chunk content (E31):
-      → "Tôi là một entity"
-      → "Tôi có wants"
-      → "My wants có thể differ từ others' wants"
-      → "Tôi có thể act on my wants"
-      → "Tôi ACT = quality CAO hơn" (from Autonomy-Hardware.md prediction accuracy)
+**Generalization = "NO!" before testing**:
 
-  GENERALIZE = "KHÔNG!" DÙ CHƯA TEST:
+The meta-chunk FIRES BEFORE sensory evaluation:
+- Caregiver offers the spoon → meta-chunk fires: "I DO IT = better"
+- "NO!" → BEFORE the child tests whether this specific spoon situation warrants it
+- = Meta-chunk OVERRIDES per-task assessment
+- = "Child says no to something they actually want — because exercising agency matters more than the specific object"
 
-    Meta-chunk FIRES TRƯỚC sensory test:
-      → Mẹ đưa muỗng → meta-chunk fire: "TÔI làm = tốt hơn"
-      → "KHÔNG!" → TRƯỚC KHI bé test cụ thể muỗng này
-      → = Meta-chunk OVERRIDE per-task assessment
-      → = E31: "bé nói không với cái bé thực sự muốn —
-           vì exercise of agency quan trọng hơn nội dung"
+In framework terms:
+- The meta-chunk is a COMPILED SCHEMA (schema predicts, it doesn't just react)
+- "NO!" = schema prediction: "doing it myself will be better"
+- May be WRONG for a specific task (child can't yet pour hot water safely)
+- → But schema GENERALIZES → child attempts → body learns
+- = NECESSARY for domain expansion
 
-    Trong framework terms:
-      → Meta-chunk là COMPILED SCHEMA (schema predict, not react)
-      → "KHÔNG!" = schema prediction: "tự làm sẽ tốt hơn"
-      → Có thể SAI cho specific task (bé chưa biết rót nước)
-        → nhưng schema GENERALIZE → bé thử → body learn
-        → = NECESSARY for expansion to new domains
+**Framework reframe of Erikson's stages**:
 
-  ERIKSON vs FRAMEWORK:
+Erikson (1950): "Autonomy vs. shame and doubt" (18 months–3 years) — describes WHAT happens correctly, but doesn't explain WHY it happens at this age.
 
-    Erikson: "autonomy vs shame and doubt" (18mo-3yr)
-      → Describes WHAT happens (correctly)
-      → KHÔNG giải thích WHY at this age
+Framework: motor chunks reach threshold → meta-chunk compiles → generalizes.
+- WHY 18 months: voluntary reaching (3–4m) + crawling (6–10m) + grasping (8–12m) + throwing (10–14m) + walking (12–15m) + self-feeding (14–18m) = ~14–18 months of accumulated controllability evidence = enough
+- WHY variation: more motor practice → earlier
+- WHY it generalizes: meta-chunk = cross-domain schema
 
-    Framework: motor chunks reach threshold → meta-chunk compiles → generalize
-      → WHY 18 months: reaching (3-4m) + crawling (6-10m) + grasping (8-12m)
-        + throwing (10-14m) + walking (12-15m) + self-feeding (14-18m)
-        = ~14-18 months accumulated controllability evidence = ENOUGH
-      → WHY variation: more motor practice → earlier
-      → WHY generalize: meta-chunk = cross-domain schema
+Erikson reframed in framework terms:
+- Autonomy = meta-chunk compiled + vmPFC robust → self-directed
+- Shame = meta-chunk punished → avoidance tag → avoid attempting
+- Doubt = vmPFC insufficient → DRN still dominant → passive default
 
-    Erikson reframe:
-      → Autonomy = meta-chunk compiled + vmPFC robust → self-directed
-      → Shame = meta-chunk PUNISHED → avoidance tag → avoid
-      → Doubt = vmPFC insufficient → DRN still dominant → passive
-      → = NOT psychological stages — physiological chunk states
-```
+These are not psychological stages — they are physiological chunk states.
 
-### §1.4 — Controllability Chunks: vmPFC Compile Per Domain
+### §1.4 — Controllability Chunks: vmPFC Compiles Per Domain
 
-```
-🟡 FRAMEWORK (🟢 vmPFC domain-specific, Bandura self-efficacy):
+🟡 Framework synthesis (🟢 vmPFC domain-specificity; Bandura self-efficacy).
 
-  vmPFC compile controllability PER DOMAIN (Autonomy-Hardware.md §2.2):
+vmPFC compiles controllability PER DOMAIN (Autonomy-Hardware.md §2.2):
 
-    ┌─────────────────────┬──────────────────────┬─────────────────────┐
-    │ DOMAIN              │ CONTROLLABLE?        │ EVIDENCE SOURCE     │
-    ├─────────────────────┼──────────────────────┼─────────────────────┤
-    │ Self-feeding        │ ✅ (nhiều experience) │ 18m+ daily practice │
-    │ Dressing            │ ✅ (đang build)       │ Trial and error     │
-    │ Walking/running     │ ✅ (thousands reps)   │ 12m+ constant use   │
-    │ Social conflict     │ ❓ (tùy experience)  │ Playground, sibling │
-    │ Emotional regulation│ ❓ (PFC immature)    │ Co-regulation model │
-    │ Academic tasks      │ ❓ (not yet exposed) │ Future              │
-    └─────────────────────┴──────────────────────┴─────────────────────┘
+| Domain | Controllable? | Evidence Source |
+|--------|--------------|-----------------|
+| Self-feeding | ✅ (extensive experience) | 18m+ daily practice |
+| Dressing | ✅ (building) | Trial and error |
+| Walking/running | ✅ (thousands of repetitions) | 12m+ constant use |
+| Social conflict | ❓ (experience-dependent) | Playground, siblings |
+| Emotional regulation | ❓ (PFC still maturing) | Co-regulation models |
+| Academic tasks | ❓ (not yet exposed) | Future |
 
-    18-month-old: controllable ĐÃ BUILT cho motor domains
-    CHƯA built cho social, emotional, academic
+At 18 months: controllability BUILT for motor domains. NOT YET built for social, emotional, academic domains.
 
-    WHY tantrums:
-      → Meta-chunk says "tôi làm = tốt hơn" (cross-domain)
-      → Emotional domain CHƯA CÓ controllability chunks
-      → = DRN fires (passive, can't control emotion) +
-          meta-chunk fires (active, want to control)
-      → = CONFLICT → tantrum
+**Why tantrums occur**:
+- Meta-chunk says "I do it = better" (cross-domain)
+- Emotional domain has NO controllability chunks yet
+- = DRN fires (passive, can't control the emotion) + meta-chunk fires (active, wants to control)
+- = CONFLICT → tantrum
 
-  ADULT PATTERN:
+**Adult pattern**:
+A confident executive (thousands of business experiences) who is helpless in a relationship (never trained in that domain):
+- HAS controllability chunks for business, LACKS them for relationships
+- ≠ "contradictory personality" — it's a chunk gap
 
-    CEO confident (business: thousands of experiences)
-    nhưng helpless trong relationship (never trained)
-    → = CÓ controllability chunks cho business, THIẾU cho relationship
-    → ≠ "personality" — là chunk gap
-
-    → Autonomy KHÔNG phải global trait ("tôi là người tự chủ")
-    → = Collection of DOMAIN-SPECIFIC controllability chunks
-    → = NORMAL — không phải "contradictory personality"
-```
+Autonomy is NOT a global personality trait ("I am an autonomous person"). It is a collection of DOMAIN-SPECIFIC controllability chunk states. This is normal, not contradictory.
 
 ---
 
-## §2 — DEVELOPMENTAL ARC: 5 PHASES
+## §2 — DEVELOPMENTAL ARC: FIVE PHASES
 
-### §2.1 — Phase 1: Motor Insufficient → Accept External (0-6m)
+### §2.1 — Phase 1: Motor Insufficient → Accept External (0–6 months)
 
-```
-🟢/🟡 (developmental milestones 🟢, autonomy framing 🟡):
+🟢/🟡 (developmental milestones: 🟢; autonomy framing: 🟡)
 
-  0-3 THÁNG:
-    → Motor: reflexive only (rooting, sucking, grasping reflex)
-    → No voluntary movement → no prediction testing possible
-    → vmPFC: barely functional (~5% PFC capacity)
-    → Autonomy: NOT YET APPLICABLE — body DEPENDENT on external
-    → Mẹ đút = OPTIMAL (bé cannot self-feed)
-    → NO dissonance from external control (no prediction to override)
+**0–3 months**:
+- Motor: reflexive only (rooting, sucking, grasping reflex)
+- No voluntary movement → no prediction testing possible
+- vmPFC: barely functional (~5% PFC capacity)
+- Autonomy: NOT YET APPLICABLE — body fully dependent on external input
+- Caregiver feeding = OPTIMAL (child cannot self-feed)
+- NO dissonance from external control (no prediction to override)
 
-  3-6 THÁNG:
-    → Motor: voluntary reaching EMERGES (~3-4 months)
-      → "TÔI muốn → TÔI action" = FIRST prediction test
-      → = Natural-Development.md §2.4: "Agency đầu tiên"
-    → NHƯNG: motor very imprecise → prediction accuracy LOW
-    → → Body learn: "tôi CÓ THỂ act" (seed)
-    → → Body also learn: "tôi act INACCURATELY" (building)
-    → Mẹ đút vẫn = better quality than self-attempt
-    → = Phase 1: external ACCEPTED vì cost tự làm > benefit
-```
+**3–6 months**:
+- Motor: voluntary reaching EMERGES (~3–4 months)
+- "I want → I act" = FIRST prediction test; first glimpse of agency
+- BUT: motor very imprecise → prediction accuracy LOW
+- → Body learns: "I CAN act" (seed planted)
+- → Body also learns: "I act INACCURATELY" (still building)
+- Caregiver feeding still yields better quality than self-attempts
+- = Phase 1: external ACCEPTED because cost of self-action > benefit
 
-### §2.2 — Phase 2: Motor Building → Begin Testing (6-14m)
+### §2.2 — Phase 2: Motor Building → Begin Testing (6–14 months)
 
-```
-🟢/🟡:
+🟢/🟡
 
-  6-10 THÁNG — BÒ:
-    → FIRST autonomous locomotion
-    → = "TÔI CHỌN đi đâu" (Natural-Development.md §2.2 ⑤)
-    → vmPFC training: "di chuyển = controllable"
-    → Each successful crawl = prediction match → controllability chunk
-    → Major autonomy BUILD phase cho spatial domain
+**6–10 months — Crawling**:
+- FIRST autonomous locomotion
+- = "I CHOOSE where to go"
+- vmPFC training: "moving = controllable"
+- Each successful crawl = prediction match → controllability chunk strengthens
+- Major autonomy BUILD phase for spatial domain
 
-  8-12 THÁNG — GRASPING + THROWING:
-    → Fine motor chunks building rapidly
-    → Ném đồ: "TÔI tác động lên thế giới" (Natural-Development.md §2.4 ④)
-    → Cause-effect: action → observable result → prediction TEST
-    → Each throw = mini-experiment → vmPFC training
+**8–12 months — Grasping and Throwing**:
+- Fine motor chunks building rapidly
+- Throwing objects: "I affect the world with my action"
+- Cause-and-effect: action → observable result → prediction TEST
+- Each throw = mini-experiment → vmPFC training
 
-  10-14 THÁNG — SELF-FEEDING ATTEMPTS:
-    → Bé bắt đầu cầm food, đưa vào miệng
-    → Messy, inefficient, nhưng PREDICTION TESTING đang diễn ra
-    → Initially: mẹ-feed VẪN better (motor chunks chưa đủ)
-    → BUT: micro-rewards từ self-feed ACCUMULATING
-    → = Evidence counter tăng dần
+**10–14 months — Self-Feeding Attempts Begin**:
+- Child starts holding food, bringing it to mouth
+- Messy, inefficient, but PREDICTION TESTING is happening
+- Initially: caregiver feeding still yields better results (motor chunks still insufficient)
+- BUT: micro-rewards from self-feeding ACCUMULATING
+- = Evidence counter gradually increasing
 
-  = PHASE 2: building + accumulating, chưa đủ cho meta-chunk.
-    Bé thử rồi chấp nhận mẹ làm. Chưa "KHÔNG!" consistently.
-```
+= PHASE 2: building + accumulating, not yet enough for meta-chunk. Child tries, then accepts help. "NO!" not yet consistent.
 
-### §2.3 — Phase 3: Motor Sufficient → Self-Control Preferred (14-18m)
+### §2.3 — Phase 3: Motor Sufficient → Self-Control Preferred (14–18 months)
 
-```
-🟡 FRAMEWORK:
+🟡 Framework.
 
-  TIPPING POINT:
+**The tipping point**:
 
-    Motor chunks reach ~70-80% success rate:
-      → Cost tự làm GIẢM + Benefit TĂNG (prediction accuracy > external)
-      → = NET: tự làm > mẹ làm → PREFERENCE SHIFT
+Motor chunks reach ~70–80% success rate:
+- Cost of self-action DECREASES + Benefit INCREASES (prediction accuracy now exceeds caregiver's)
+- = NET: self-action > caregiver action → PREFERENCE SHIFTS
 
-    BEHAVIORAL MARKERS:
-      → Bé push mẹ's hand away khi mẹ đút
-      → Bé reach for spoon khi mẹ holding
-      → Bé fuss khi mẹ insist on feeding
-      → = Body SIGNALING preference, bé ACTING on signal
+**Behavioral markers**:
+- Child pushes the caregiver's hand away when offered the spoon
+- Child reaches for the spoon when the caregiver is holding it
+- Child fusses when caregiver insists on feeding
+- = Body SIGNALING preference; child ACTING on that signal
 
-  PER-TASK EMERGENCE:
+**Per-task emergence**:
+- Motor chunks for dressing develop more slowly (more complex task)
+- Child may prefer self-feeding BUT accept being dressed
+- Months later: motor chunks for dressing become sufficient → "I'll do it myself!" for dressing too
+- = Autonomy emerges PER TASK based on motor chunk readiness
+- = "Terrible twos" is NOT all-or-nothing: eating before dressing before writing
 
-    Motor chunks cho dressing chậm hơn (more complex):
-      → Bé có thể prefer tự xúc NHƯNG chấp nhận mẹ mặc áo
-      → Vài tháng sau: motor chunks cho mặc áo đủ → "TỰ CON!" cho mặc áo
-      → = Autonomy emerges PER TASK dựa trên motor chunk readiness
-      → = "Terrible twos" NOT all-or-nothing: ĂN trước MẶC, MẶC trước VIẾT
-```
+### §2.4 — Phase 4: Meta-Chunk Compiled → "NO!" Generalizes (18 months+)
 
-### §2.4 — Phase 4: Meta-Chunk Compiled → "KHÔNG!" Generalize (18m+)
+🟡 Framework.
 
-```
-🟡 FRAMEWORK:
+**18–24 months — Meta-chunk crosses the threshold**:
 
-  18-24 THÁNG — META-CHUNK CROSSES THRESHOLD:
+Accumulated across MULTIPLE domains:
+- Self-feeding ✅ + Walking ✅ + Object manipulation ✅ + Partial: dressing, climbing
+- = CROSS-DOMAIN PATTERN detected by the body
 
-    Accumulated từ NHIỀU domains:
-      → Self-feeding ✅ + Walking ✅ + Object manipulation ✅ + Partial: dressing, climbing
-      → = CROSS-DOMAIN PATTERN detected by body
+Body compiles META-CHUNK (§1.3):
+- "I do it = better" (GENERAL)
+- + PFC ~20% capacity → enough to INHIBIT and ASSERT verbally
 
-    Body compile META-CHUNK (§1.3):
-      → "TÔI làm = tốt hơn" (GENERAL)
-      → + PFC ~20% → enough to INHIBIT + ASSERT verbally
+**Generalization**:
+- "NO!" = meta-chunk firing BEFORE any domain-specific sensory test
+- = NOT rebellion — it is DOMAIN EXPANSION of controllability schema
 
-    GENERALIZATION:
-      → "KHÔNG!" = meta-chunk fire TRƯỚC sensory test
-      → = NOT rebellion — là DOMAIN EXPANSION of controllability
+**Caregiver response is critical**:
 
-  CRITICAL: BỐ MẸ RESPONSE:
+✅ Caregiver allows the attempt:
+→ Succeeds or fails safely → evidence +1
+→ Meta-chunk STRENGTHENED → healthy domain expansion
 
-    ✅ MẸ cho thử (allow):
-      → Succeed hoặc fail-safe → evidence +1
-      → Meta-chunk STRENGTHENED → healthy expansion
-
-    ❌ MẸ cấm/giành lại (suppress):
-      → Prediction OVERRIDE → dissonance
-      → + Social threat (quát) → compound
-      → Schema: "tự làm = bị phạt" → AVOIDANCE TAG
-      → vmPFC: controllability chunk WEAKENED
-      → Chronic → "ý kiến tôi VÔ GIÁ TRỊ" (Skill-Introduction.md line 432)
-```
+❌ Caregiver forbids or takes over (suppress):
+→ Prediction OVERRIDE → dissonance
+→ + Social threat (scolding) → compound negative
+→ Schema: "acting independently = punished" → AVOIDANCE TAG
+→ vmPFC: controllability chunk WEAKENS
+→ Chronic suppression → "my opinion has no value" — a pattern documented across educational contexts
 
 ### §2.5 — Phase 5: Domain Expansion → Adult Autonomy Spectrum
 
-```
-🟡 FRAMEWORK:
+🟡 Framework.
 
-  CHILDHOOD (3-12):
-    → Autonomy expands: play, friendships, hobbies, decisions
-    → School: CAN support (novelty path) OR suppress (threat path)
-    → Domain-Mapping-Drive.md: Student A vs B divergence STARTS
+**Childhood (3–12 years)**:
+- Autonomy expands: play, friendships, hobbies, everyday decisions
+- School context: CAN support (novelty direction) OR suppress (threat direction)
+- Student A vs Student B divergence begins (Domain-Mapping-Drive.md §7.1)
 
-  ADOLESCENCE (12-18):
-    → PFC rapid development → NEW domains: abstract, identity, career
-    → MANY new domains = MANY DRN-default states simultaneously
-    → "Identity crisis" = meta-chunk GENERALIZE to new domains
-      mà controllability chunks chưa compiled
-    → = High autonomy DESIRE + low domain COMPETENCE = turbulent
-    → = "Tôi muốn control" + "tôi chưa biết cách" = frustration
+**Adolescence (12–18 years)**:
+- PFC rapid development → NEW domains: abstract reasoning, identity, career
+- MANY new domains = MANY DRN-default states simultaneously
+- "Identity crisis" = meta-chunk GENERALIZING to new domains before controllability chunks are compiled
+- = High autonomy DESIRE + low domain COMPETENCE = turbulent period
+- = "I want to control" + "I don't yet know how" = frustration and intensity
 
-  ADULT:
-    → Domain-specific autonomy SPECTRUM:
+**Adulthood**:
 
-      ┌──────────────────────┬──────────┬──────────────────────┐
-      │ DOMAIN               │ AUTONOMY │ WHY                  │
-      ├──────────────────────┼──────────┼──────────────────────┤
-      │ Daily routines       │ HIGH     │ Thousands of reps    │
-      │ Professional work    │ VARIES   │ Experience dependent │
-      │ Parenting            │ LOW-MED  │ New domain           │
-      │ Health decisions     │ LOW      │ Lacking chunks       │
-      │ Emotional regulation │ LOW-MED  │ Training dependent   │
-      │ Financial            │ VARIES   │ Education dependent  │
-      └──────────────────────┴──────────┴──────────────────────┘
+Domain-specific autonomy SPECTRUM:
 
-    → "Mature autonomy" = WIDE controllability coverage + realistic assessment
-    → ≠ "control everything" — biết domain nào controllable, domain nào không
+| Domain | Autonomy Level | Why |
+|--------|---------------|-----|
+| Daily routines | HIGH | Thousands of repetitions |
+| Professional work | VARIES | Experience-dependent |
+| Parenting | LOW-MEDIUM | New domain, no prior compilation |
+| Health decisions | LOW | Lacking domain chunks |
+| Emotional regulation | LOW-MEDIUM | Training-dependent |
+| Financial | VARIES | Education-dependent |
 
-  ANCHOR-SCHEMA × AUTONOMY:
+"Mature autonomy" = wide controllability coverage + realistic self-assessment. NOT "control everything" — knowing WHICH domains are controllable and which require external expertise.
 
-    Education-Principles.md §3: 4 nguồn anchor:
-      ① Self-directed → controllability chunks → autonomy
-      ② Hands-on → body-confirmed
-      ③ Routine → predictability
-      ④ External inject → from authority
+**Anchor-Schema × Autonomy**:
 
-    → Autonomy STRONGEST khi anchor từ nguồn ① + ②
-    → Autonomy WEAKEST khi anchor chỉ từ nguồn ④
-    → "Quarter-life crisis" = nguồn ④ rút (ra đời) + nguồn ① chưa build
-      → = Autonomy collapse vì controllability chunks chưa compiled
-```
+Education research describes 4 sources of knowledge anchoring:
+① Self-directed → builds controllability chunks → autonomy
+② Hands-on → body-confirmed
+③ Routine → predictability
+④ External injection → from authority
+
+- Autonomy is STRONGEST when anchors built from sources ① + ②
+- Autonomy is WEAKEST when anchors come only from source ④
+- "Quarter-life crisis" = source ④ is removed (leaving school) + source ① not yet built → autonomy collapse because controllability chunks were never compiled
 
 ---
 
-## §3 — AUTONOMY ≠ TỰ DO TUYỆT ĐỐI: 3 COUNTERWEIGHTS
+## §3 — AUTONOMY ≠ ABSOLUTE FREEDOM: THREE COUNTERWEIGHTS
 
-### §3.1 — Chunks Prerequisite: Predict Đúng Cần Chunks Đủ
+### §3.1 — Chunks Prerequisite: Accurate Prediction Requires Sufficient Chunks
 
-```
-🟡 FRAMEWORK:
+🟡 Framework.
 
-  COUNTERWEIGHT 1 — AUTONOMY THẬT CẦN CHUNKS:
+**Counterweight 1 — Real autonomy requires chunks**:
 
-    Hardware reward self-action (Autonomy-Hardware.md).
-    NHƯNG self-action CHÍNH XÁC cần chunks ĐỦ để predict đúng.
-    Chunks insufficient → prediction INACCURATE → outcome FAIL.
-    → "Tự do chọn" mà KHÔNG CÓ chunks = prediction fail = BAD outcomes
+Hardware rewards self-action (Autonomy-Hardware.md). But accurate self-action requires sufficient CHUNKS to predict accurately. Insufficient chunks → inaccurate prediction → bad outcomes.
 
-    VÍ DỤ:
-      → Bé 8 tháng rót nước nóng → NGUY HIỂM (chunks < threshold)
-      → Student chưa có math chunks tự chọn cách giải → WRONG
-      → New employee tự quyết strategy → prediction INACCURATE
+Examples:
+- An 8-month-old attempting to pour hot water → DANGEROUS (chunks below threshold)
+- Student without math chunks choosing their own solution method → WRONG
+- New employee independently choosing strategy without domain chunks → prediction inaccurate
 
-  ⭐ HEALTHY AUTONOMY = AUTONOMY × COMPETENCE:
+**Healthy autonomy = Autonomy × Competence**:
 
-    SDT (Deci & Ryan): Autonomy + Competence + Relatedness = 3 needs.
-    Framework: Autonomy × Competence = COMPOUND:
-      → Autonomy WITHOUT competence = poor prediction → bad outcomes
-      → Competence WITHOUT autonomy = good outcomes BUT avoidance-tagged
-      → BOTH = self-directed + accurate = OPTIMAL
-      → = "Biết đủ để predict đúng + được phép tự predict"
+Self-Determination Theory (Deci & Ryan): Autonomy + Competence + Relatedness = 3 psychological needs. The framework adds the mechanistic detail:
+- Autonomy WITHOUT competence = poor prediction → bad outcomes
+- Competence WITHOUT autonomy = good outcomes BUT avoidance-tagged
+- BOTH = self-directed + accurate = OPTIMAL
+- = "Knowing enough to predict correctly + being allowed to predict for oneself"
 
-    IMPLICATION:
-      → TRƯỚC KHI cho autonomy → ensure chunks SUFFICIENT
-      → = Scaffolding (Vygotsky ZPD): support → build → release
-      → = Threat.md §4 spectrum: reasonable → build chunks → novelty path
-```
+**Implication**:
+- BEFORE granting autonomy → ensure chunks are SUFFICIENT
+- = Scaffolding (Vygotsky ZPD): support → build → release
+- = The progression: reasonable structure → builds chunks → releases to novelty direction
 
-### §3.2 — Choice Overload: Quá Nhiều → Accuracy Giảm
+### §3.2 — Choice Overload: Too Many Options → Accuracy Drops
 
-```
-🟡 FRAMEWORK (🟢 Schwartz 2004):
+🟡 Framework (🟢 Schwartz 2004).
 
-  COUNTERWEIGHT 2:
+**Counterweight 2**:
 
-    🟢 Schwartz (2004): More choices → MORE anxiety, LESS satisfaction
-    🟢 Iyengar & Lepper (2000): 24 jams → 3% buy, 6 jams → 30% buy
+🟢 Schwartz (2004): More choices → more anxiety, LESS satisfaction.
+🟢 Iyengar & Lepper (2000): 24 jam varieties → 3% purchased; 6 varieties → 30% purchased.
 
-    FRAMEWORK: Each choice = 1 prediction branch → N choices = PFC overloaded
-    → PFC CANNOT simulate all → prediction INACCURATE → regret
-    → = Paradox: too much autonomy → give up autonomy
+Framework: each choice = one prediction branch → N choices = PFC overloaded → PFC CANNOT simulate all branches → prediction inaccurate → regret regardless of choice.
 
-    PRACTICAL:
-      → Children: 2-3 options, not unlimited
-        → "Áo xanh hay áo đỏ?" (Natural-Development.md line 870)
-      → Adults: reduce options BEFORE choosing
-      → Organizations: autonomy within CONSTRAINTS
-      → = Structure ENABLES autonomy (counterintuitive)
-```
+= Paradox: too much autonomy → person gives up autonomy (paralysis, defers to others).
 
-### §3.3 — Structure Necessity: Reasonable Imposed → BUILD Chunks
+**Practical implications**:
+- Children: 2–3 options, not unlimited ("blue shirt or red shirt?")
+- Adults: reduce the option set BEFORE choosing
+- Organizations: autonomy within CONSTRAINTS
+- = Structure ENABLES autonomy (counterintuitive but mechanistically sound)
 
-```
-🟡 FRAMEWORK (Threat.md §4 spectrum):
+### §3.3 — Structure Necessity: Reasonable Imposed Structure Builds Chunks
 
-  COUNTERWEIGHT 3 — STRUCTURE BUILDS CHUNKS CHO AUTONOMY THẬT:
+🟡 Framework (aligned with Threat.md §4 spectrum).
 
-    WITHOUT structure (100% freedom):
-      → No models → no chunks → limited prediction → autonomy NARROW
-    WITH reasonable structure (Threat.md §4 ⚠️ zone):
-      → "Bài tập xong rồi chơi" → mild, explained, fair
-      → Exposure to new domains → expand option space → BUILD chunks
+**Counterweight 3 — Structure builds the chunks that make real autonomy possible**:
 
-    SPECTRUM (Threat.md §4):
-      ❌❌ TOXIC: shame, trauma → permanently damaged
-      ❌   SHAME-BASED: external dependent
-      ⚠️  REASONABLE: mild + explained → build chunks
-      ✅  NOVELTY: intrinsic → ideal
+WITHOUT structure (100% freedom from the start):
+→ No exposure to new domains → no chunks → prediction range stays narrow → autonomy remains narrow
 
-    → Autonomy is DESTINATION, structure is PATH
-    → "Cho tự do ngay" ≠ tốt nếu chunks chưa đủ
+WITH reasonable structure (mild, explained, fair):
+→ "Finish homework, then play" — mild imposition with clear logic
+→ Exposure to new domains → expand the option space → BUILD chunks
 
-  ⭐ PARENT/TEACHER GUIDE:
+**The spectrum**:
+- ❌❌ TOXIC: shame, trauma → permanent damage
+- ❌ SHAME-BASED: externally dependent (avoidance-tagged)
+- ⚠️ REASONABLE: mild + explained → builds chunks
+- ✅ NOVELTY: intrinsic motivation → ideal
 
-    ① ASSESS: chunks cho domain này ĐỦ chưa?
-    ② NẾU CHƯA: reasonable structure + exposure → build
-    ③ NẾU ĐỦ: release → cho tự quyết
-    ④ OBSERVE: body signals (interest vs avoidance)
-    ⑤ ADJUST: mỗi domain, mỗi thời điểm
+Autonomy is the DESTINATION; structure is the PATH. "Give full freedom immediately" ≠ beneficial if chunks are insufficient.
 
-    "Helicopter" = stuck ② forever. "Permissive" = skip ②.
-    "Authoritative" ≈ ② → ③ transition (🟢 Baumrind 1991).
-```
+**Caregiver and teacher guide**:
+1. ASSESS: are the chunks for this domain sufficient?
+2. IF NOT: reasonable structure + exposure → build
+3. IF SUFFICIENT: release → allow independent decision
+4. OBSERVE: body signals (approach vs avoidance direction)
+5. ADJUST: per domain, per developmental moment
+
+"Helicopter" = stuck at step 2 forever. "Permissive" = skips step 2. "Authoritative" ≈ the ②→③ transition (🟢 Baumrind 1991).
 
 ---
 
 ## §4 — CROSS-PARAMETER INTERACTIONS
 
-### §4.1 — × Protect (Control Dimension)
+### §4.1 — Autonomy × Protect (Control Dimension)
 
-```
-🟡 FRAMEWORK (Protect.md §8.4):
+🟡 Framework (Protect.md §8.4).
 
-  Owned things mà tôi CONTROL = protect + autonomy SATISFIED
-  Owned things mà NGƯỜI KHÁC control = protect + autonomy VIOLATED
-  → = Protect TĂNG khi autonomy bị threatened
+Things I own AND control = Protect + Autonomy satisfied.
+Things I own but SOMEONE ELSE controls = Protect + Autonomy violated.
+→ Protect signal AMPLIFIES when autonomy is threatened.
 
-  VÍ DỤ:
-    → Nhà tôi, tùy ý trang trí = low protect (autonomy HIGH)
-    → Nhà thuê, chủ cấm sửa = high protect (autonomy LOW)
-    → Laptop tôi, company giám sát = protect + autonomy COMPOUND
+Examples:
+- My home, I can decorate freely = low Protect activation (Autonomy HIGH)
+- Rental property, landlord forbids modifications = high Protect activation (Autonomy LOW)
+- My laptop, company monitors it = Protect + Autonomy compound signal
 
-  → Autonomy loss = protect AMPLIFIER (Protect.md §8.4)
-  → Helicopter parenting: control child's territory → child protect fire
-  → Micromanagement: control employee's domain → protect + status compound
-```
+Autonomy loss = Protect amplifier (Protect.md §8.4). Helicopter parenting controls the child's territory → Protect fires alongside Autonomy violation. Micromanagement controls an employee's domain → Protect + Status compound signal.
 
-### §4.2 — × Threat (Imposed = Autonomy Violation)
+### §4.2 — Autonomy × Threat (Coercion = Autonomy Violation)
 
-```
-🟡 FRAMEWORK (Threat.md §4):
+🟡 Framework (Threat.md §4).
 
-  3 threat origins:
-    ① Domain: reality → CÓ controllability (trẻ solve được)
-    ② Peer: equal power → CÓ controllability (negotiate)
-    ③ Imposed adult: authority → KHÔNG CÓ controllability (asymmetric)
+Three threat origins:
+① Domain reality → HAS controllability (child can solve it)
+② Peer conflict → HAS controllability (can negotiate)
+③ Imposed by authority → NO controllability (asymmetric power)
 
-  Imposed = ĐẶC BIỆT damaging:
-    → vmPFC: "KHÔNG controllable" → DRN fires → passive
-    → = Learned helplessness mechanism (Autonomy-Hardware.md §2.1)
+Imposed threat is ESPECIALLY damaging:
+- vmPFC: "NOT controllable" → DRN fires → passive default
+- = Learned helplessness mechanism (Autonomy-Hardware.md §2.1)
 
-  COMPOUND khi authority = connection source (bố mẹ):
-    → Connection source = threat source → CONFLICT SÂU
-    → = Insecure attachment + autonomy violation
-```
+Compounded when the authority IS the connection source (caregiver):
+→ Connection source = threat source → DEEP CONFLICT
+→ = Insecure attachment + autonomy violation simultaneously
 
-### §4.3 — × Status (Prediction Accuracy → Self-Efficacy)
+### §4.3 — Autonomy × Status (Prediction Accuracy → Self-Efficacy)
 
-```
-🟡 FRAMEWORK (Status.md §10):
+🟡 Framework (Status.md §10).
 
-  HIGH autonomy → "tôi quyết được" → prediction accuracy CAO
-    → Successful → "tôi CÓ THỂ" → status STRENGTHEN
-    → → More APPROACH → more experience → more autonomy
-    → = POSITIVE SPIRAL
+HIGH autonomy → "I can decide" → prediction accuracy HIGH
+→ Succeeds → "I CAN" → Status strengthens
+→ → More APPROACH → more experience → more autonomy
+→ = POSITIVE SPIRAL
 
-  LOW autonomy → "tôi không dám" → prediction overridden
-    → "tôi KHÔNG THỂ" → status WEAKEN
-    → → More AVOIDANCE → less experience → less autonomy
-    → = NEGATIVE SPIRAL (Status.md line 1024-1025)
-```
+LOW autonomy → "I don't dare" → prediction overridden
+→ "I CANNOT" → Status weakens
+→ → More AVOIDANCE → less experience → less autonomy
+→ = NEGATIVE SPIRAL
 
-### §4.4 — × Connection (Helicopter Parenting, Attachment)
+The spiral can lock in either direction. Entering the positive spiral requires one controllable success that the vmPFC registers — then each success makes the next more accessible.
 
-```
-🟡 FRAMEWORK:
+### §4.4 — Autonomy × Connection (Helicopter Parenting, Attachment)
 
-  Body-Base-Example.md: "parent's over-feeding of caring channel
-    = child's STARVING of autonomy channel" (cross-individual corruption)
+🟡 Framework.
 
-  ATTACHMENT × AUTONOMY:
-    Secure: safe base → EXPLORE → controllable experience BUILD
-      → = Secure attachment ENABLES autonomy
-    Anxious: inconsistent → exploration REDUCED → fewer experiences
-    Avoidant: appears "independent" NHƯNG:
-      → vmPFC: "social = uncontrollable" → avoid
-      → = "Independence" ≠ autonomy — learned helplessness in social domain
+Over-feeding the caretaking channel = starving the autonomy channel (cross-individual dynamic).
 
-  HEALTHY: connection SUPPORTS autonomy (safe base → explore)
-  TOXIC: connection REPLACES autonomy (over-control → dependent)
-```
+**Attachment style × Autonomy**:
 
-### §4.5 — × Novelty (Curiosity = Approach + Choice)
+*Secure attachment*: safe base → child EXPLORES → controllable experiences accumulate → autonomy builds. Secure attachment ENABLES autonomy.
 
-```
-🟡 FRAMEWORK:
+*Anxious attachment*: inconsistent caregiver responses → exploration REDUCED → fewer controllable experiences → autonomy builds more slowly.
 
-  Curiosity: VTA detect new → dopamine → APPROACH (self-directed)
-    → = Novelty INHERENTLY provides autonomy (self-chosen)
+*Avoidant attachment*: APPEARS "independent" but:
+→ vmPFC: "social = not controllable" → avoid social domain
+→ = "Independence" ≠ autonomy — it is learned helplessness in the social domain
 
-  Forced exposure: same content → PUSHED by external → prediction override
-    → = Novelty + NO autonomy = avoidance-tagged chunks
+**Healthy**: Connection SUPPORTS autonomy (safe base → explore → return → re-explore).
+**Toxic**: Connection REPLACES autonomy (over-control → dependent on caregiver for all decisions).
 
-  → Autonomy = GATE determining whether novelty produces
-    approach-tagged or avoidance-tagged chunks
-  → "Expose + let choose" > "expose + force"
-```
+### §4.5 — Autonomy × Novelty (Curiosity = Approach + Choice)
 
-### §4.6 — × Meaning (Anchor Source ①)
+🟡 Framework.
 
-```
-🟡 FRAMEWORK:
+Curiosity: VTA detects novelty → dopamine → APPROACH signal (self-directed).
+= Novelty INHERENTLY provides autonomy (the approach is self-chosen).
 
-  Meaning = schema coherence at high chunk density (Meaning.md §0)
-  Coherence STRONGEST khi chunks built via nguồn ① (self-directed):
-    → Approach-tagged → body LIKES using → network grows → coherence
-  Chunks via nguồn ④ only (external):
-    → Avoidance-tagged → body AVOIDS → network stagnant
-    → = "Giỏi nhiều thứ nhưng emptiness" (Status.md §10.1)
+Forced exposure: same content → PUSHED by external source → prediction override.
+= Novelty + NO autonomy = avoidance-tagged chunks.
 
-  → Autonomy in chunk building = PREREQUISITE for meaning
-```
+Autonomy = the GATE determining whether novelty produces approach-tagged or avoidance-tagged chunks. "Expose and allow choice" consistently outperforms "expose and force" for long-term chunk usability.
 
-### §4.7 — × Mastery (Competence + Autonomy Compound)
+### §4.6 — Autonomy × Meaning (Anchor Source ①)
 
-```
-🟡 FRAMEWORK:
+🟡 Framework.
 
-  COMPOUND POSITIVE:
-    Self-chosen domain + accumulated chunks → mastery WITH autonomy
-    = Flow possible. = "Không thể dừng" (Domain-Mapping-Drive.md line 932-937)
+The most durable and usable chunk libraries are built via self-directed engagement (Anchor Source ①). When chunks accumulate through self-chosen action:
+→ Approach-tagged → body LIKES using them → chunk network grows → meaning anchor builds organically
 
-  COMPOUND NEGATIVE:
-    Forced domain + accumulated chunks → mastery WITHOUT autonomy
-    = "Giỏi nhưng ghét." = Burnout risk.
-    = Chunks CÓ nhưng avoidance-tagged → body RESISTS using
+When chunks accumulate only through externally imposed engagement (Source ④ only):
+→ Avoidance-tagged → body AVOIDS using them → network stagnates
+→ = "Skilled at many things but feeling empty" (the "successful but empty" pattern)
 
-  → SDT correct: autonomy + competence COMPOUND
-  → Framework adds: mechanism = approach tag vs avoidance tag
-```
+Autonomy in chunk building = a prerequisite for the kind of deep, body-accepted meaning that comes from compiled experience.
 
-### §4.8 — × New Concepts (28-session Drill Propagation)
+### §4.7 — Autonomy × Mastery (Competence + Autonomy Compound)
 
-```
-ENTITY-ACCESS × AUTONOMY (Entity-Access.md v1.2):
-  → Autonomy = CONTROL over own Entity-Access gradient:
-    → "Tự quyết ai gần, ai xa" = control over Mức 0-5 per-entity
-    → "Tự quyết tiếp cận ai" = control over access direction
-    → Loss of autonomy = SOMEONE ELSE controls your access gradient
-  → Entity-Access-Calibration.md v1.0: self-regulation = autonomy AT access level
-  → = Autonomy cao = tự calibrate. Autonomy thấp = bị calibrate bởi người khác.
+🟡 Framework.
 
-SIMULATION-ENGINE × AUTONOMY (Simulation-Engine.md v1.0):
-  → Autonomous simulation = PFC simulate FREELY (not constrained by threat):
-    → High autonomy: Simulation-Engine drafts MANY scenarios → body picks best
-    → Low autonomy: Simulation-Engine LOCKED on threat scenarios → no exploration
-    → = Autonomy UNLOCKS Simulation-Engine's full capacity
-  → vmPFC controllability (§2) = Simulation-Engine TRUST that drafts lead to real outcomes
-  → Bị ép = Simulation-Engine drafts OVERRIDDEN → 2-layer dissonance (§5)
+**Compound positive**:
+Self-chosen domain + accumulated chunks → mastery WITH autonomy.
+= Flow states become possible. = "Can't stop" (sustained intrinsic engagement).
+= Chunks approach-tagged → body seeks opportunities to use them → reinforcing cycle.
 
-🟡 Entity-Access × autonomy = framework convergence (access gradient control)
-🟡 Simulation-Engine × autonomy = framework application (simulation freedom)
-```
+**Compound negative**:
+Coerced domain + accumulated chunks → mastery WITHOUT autonomy.
+= "Skilled but hating it." = Burnout risk.
+= Chunks ARE present but avoidance-tagged → body RESISTS using them → requires external pressure to sustain performance.
+
+SDT (Deci & Ryan) identifies autonomy + competence as two of the three basic psychological needs. The framework adds the mechanism: compound = approach tag vs avoidance tag. The difference between a sustainable career and a burnout trajectory often lies not in skill level but in the tag direction of the underlying chunks.
+
+### §4.8 — × Entity-Access and Simulation-Engine
+
+🟡 Framework cross-parameter connections (v1.2 additions).
+
+**Entity-Access × Autonomy** (Entity-Access.md v1.2):
+- Autonomy = CONTROL over one's own Entity-Access gradient
+- "I decide who gets close and who stays distant" = control over access levels (Levels 0–5) per entity
+- "I decide whose input I seek" = control over access direction
+- Loss of autonomy = SOMEONE ELSE controlling your access gradient
+- Entity-Access-Calibration: self-regulation IS autonomy at the access level
+- High autonomy = self-calibrating. Low autonomy = being calibrated by others.
+
+**Simulation-Engine × Autonomy** (Simulation-Engine.md v1.0):
+- Autonomous simulation = PFC simulates FREELY (not locked by threat)
+- High autonomy: Simulation-Engine drafts MANY scenarios → body selects the best
+- Low autonomy: Simulation-Engine LOCKED on threat scenarios → no exploration capacity
+- = Autonomy UNLOCKS the Simulation-Engine's full range
+- vmPFC controllability (§2) = Simulation-Engine's TRUST that its simulated plans lead to real outcomes
+- Coercion = Simulation-Engine's drafts OVERRIDDEN → 2-layer dissonance (§5 of Autonomy-Hardware.md)
+
+🟡 Entity-Access × autonomy = framework convergence (access gradient control as autonomy)
+🟡 Simulation-Engine × autonomy = framework application (simulation freedom unlocked by autonomy)
 
 ---
 
 ## §5 — HEALTHY vs TOXIC AUTONOMY
 
-### §5.1 — Adaptive (5 dấu hiệu)
+### §5.1 — Adaptive Autonomy (5 Markers)
 
-```
-🟡 FRAMEWORK:
+🟡 Framework.
 
-  ① PREDICTION-BASED: quyết định dựa trên CHUNKS ĐỦ
-    → Biết predict + predict chính xác → outcome match
-  ② DOMAIN-APPROPRIATE: autonomous ở domains CÓ chunks
-    → Tự quyết business + seek advice parenting
-  ③ FLEXIBLE: accept external input khi chunks insufficient
-    → "Domain này tôi chưa biết → nhờ expert" ≠ helplessness
-  ④ APPROACH-TAGGED: past decisions compiled với approach direction
-    → Self-reinforcing decision-making pattern
-  ⑤ SUSTAINABLE: not burning out, not at others' expense
-    → Prediction accuracy INCLUDES consequence prediction
-```
+**① Prediction-based**: Decisions grounded in SUFFICIENT CHUNKS.
+→ Knows how to predict + predicts accurately → outcomes match expectations.
 
-### §5.2 — Pathological (5 patterns)
+**② Domain-appropriate**: Independent in domains WHERE CHUNKS EXIST.
+→ Makes independent business decisions + seeks advice on parenting.
+→ Autonomy doesn't overflow into domains where chunks are lacking.
 
-```
-🟡 FRAMEWORK:
+**③ Flexible**: Accepts external input when chunks are insufficient.
+→ "I don't know this domain yet → I'll consult an expert" ≠ helplessness.
+→ Can distinguish "I can decide this" from "I need expertise here."
 
-  ① LEARNED HELPLESSNESS (chronic):
-    → vmPFC damaged → DRN dominant → prediction accuracy = 0
-    → = Biological, not laziness → cần rebuild vmPFC
-    → (Autonomy-Hardware.md §2.3)
+**④ Approach-tagged**: Past decisions compiled with approach direction.
+→ Self-reinforcing decision-making pattern — deciding feels good, not threatening.
+→ Each decision adds to the evidence base that decision-making is controllable.
 
-  ② OVER-CONTROL (autonomy excess):
-    → Meta-chunk generalize TỚI domains KHÔNG ĐỦ chunks
-    → → Bad predictions → refuse external input
-    → = "Tôi luôn đúng" (narcissistic control)
+**⑤ Sustainable**: Not burning out, not achieved at others' expense.
+→ Prediction accuracy INCLUDES consequence prediction (effects on others, resource costs).
 
-  ③ REACTIVE AUTONOMY (rebellion):
-    → Suppressed childhood → explosive assertion
-    → "KHÔNG!" to EVERYTHING (including reasonable structure)
-    → = Meta-chunk delayed → FIRES indiscriminately
-    → = Adolescent rebellion = often delayed E31
+### §5.2 — Pathological Autonomy Patterns (5 Patterns)
 
-  ④ PSEUDO-AUTONOMY (avoidant):
-    → "Tôi không cần ai" → appears autonomous
-    → ACTUALLY: helplessness in SOCIAL domain
-    → = Avoidant attachment masquerading as independence
+🟡 Framework.
 
-  ⑤ CHOICE PARALYSIS (modern):
-    → Too many options + insufficient chunks
-    → Meta-chunk "tôi nên control" + PFC "can't predict which"
-    → = 🟢 Schwartz 2004: paradox of choice
-```
+**① Learned helplessness (chronic)**:
+→ vmPFC structurally compromised (Autonomy-Hardware.md §2.3) → DRN dominant → prediction accuracy near zero.
+→ = Biological, not "laziness" → requires vmPFC rebuilding through graded exposure.
+
+**② Over-control (autonomy excess)**:
+→ Meta-chunk generalizes TO domains with INSUFFICIENT chunks.
+→ Bad predictions → refuses external input anyway.
+→ = "I'm always right" pattern; control becomes rigid and disconnected from reality.
+
+**③ Reactive autonomy (rebellion)**:
+→ Suppressed meta-chunk in childhood → explosive assertion later.
+→ "NO!" to EVERYTHING — including reasonable structure.
+→ = Meta-chunk development delayed → fires indiscriminately when finally triggered.
+→ Adolescent rebellion often represents delayed phase-4 meta-chunk assertion.
+
+**④ Pseudo-autonomy (avoidant pattern)**:
+→ "I don't need anyone" → appears highly autonomous.
+→ ACTUALLY: learned helplessness in the SOCIAL domain.
+→ = Avoidant attachment pattern masquerading as independence.
+→ Strong in task domains (fully independent), zero controllability in relational domains.
+
+**⑤ Choice paralysis (modern context)**:
+→ Too many options + insufficient chunks for any of them.
+→ Meta-chunk "I should control this" + PFC "I can't predict which is right"
+→ = Paradox of choice (🟢 Schwartz 2004): the capacity for choice produces inability to choose.
 
 ### §5.3 — Cultural Variation: Individualism vs Collectivism
 
-```
-🟡 FRAMEWORK:
+🟡 Framework.
 
-  HARDWARE = universal (vmPFC + DRN same everywhere)
-  SCHEMAS = culturally compiled (DIFFERENT balance points)
+**Hardware = universal** (vmPFC + DRN architecture identical across cultures).
+**Schemas = culturally compiled** (different balance points for autonomy expression).
 
-  INDIVIDUALIST: "autonomy = highest value"
-    → Meta-chunk STRONGLY reinforced culturally
-    → Risk: over-value autonomy → ignore chunk prerequisites
+**Individualist cultures**: "Autonomy = highest value."
+→ Meta-chunk is culturally reinforced strongly.
+→ Risk: over-values autonomy → ignores chunk prerequisites → "freedom to choose" without "capacity to choose."
 
-  COLLECTIVIST: "harmony = highest value"
-    → Meta-chunk partially SUPPRESSED
-    → Risk: chronic suppression → "giỏi nhiều nhưng không biết thích gì"
+**Collectivist cultures**: "Harmony = highest value."
+→ Meta-chunk is partially culturally suppressed.
+→ Risk: chronic suppression → "skilled at many things, doesn't know what they want" — identity confusion from perpetual external direction.
 
-  NEITHER extreme optimal:
-    → Excess individualism → paralysis, isolation
-    → Excess collectivism → suppression, identity void
-    → OPTIMAL = chunks sufficient + prediction self-directed
-```
+**Neither extreme is optimal**:
+- Excess individualism → paralysis, isolation, poor outcomes from insufficient chunk support
+- Excess collectivism → suppression, identity void, autonomy-tagged work becoming avoidance-tagged
+- OPTIMAL = chunks sufficient + prediction self-directed + aware of where expertise is needed
 
 ---
 
@@ -855,153 +734,103 @@ SIMULATION-ENGINE × AUTONOMY (Simulation-Engine.md v1.0):
 
 ### §6.1 — Tier 2: Framework Synthesis (🟡)
 
-```
-🟡 PLAUSIBLE — chưa direct test:
+**① Motor chunks as prerequisite for autonomy emergence**
+- Logically consistent with developmental timeline and motor learning research
+- BUT: correlation ≠ causation; the exact causal link has not been directly tested
+- TESTABLE: restrict motor practice → does autonomy assertion delay predictably?
 
-  ① Motor chunks prerequisite for autonomy emergence
-    → Logical + consistent with developmental timeline
-    → BUT: correlation ≠ causation
-    → TESTABLE: restrict motor practice → delay assertion?
+**② Meta-chunk generalization ("NO!" to everything)**
+- Consistent with schema generalization literature (🟢 established)
+- BUT: could be primarily HARDWARE-DRIVEN (Erikson's stages) rather than purely accumulated
+- TESTABLE: more motor practice earlier → does meta-chunk emerge earlier?
 
-  ② Meta-chunk generalization ("KHÔNG!" to everything)
-    → Consistent with schema generalization literature
-    → BUT: could be HARDWARE-DRIVEN (Erikson stage) vs accumulated
-    → TESTABLE: more motor practice → earlier generalization?
+**③ Domain-specific controllability**
+- Consistent with 🟢 Bandura (1997) self-efficacy (domain-specific by design)
+- BUT: degree of transfer unclear — how much does controllability in domain A transfer to domain B?
 
-  ③ Domain-specific controllability
-    → Consistent with 🟢 Bandura self-efficacy
-    → BUT: transfer degree unclear
-    → = How much domain A → domain B?
+**④ Compilable Architecture specificity (v1.1)**
+- "Autonomy software exists only in Compilable Architecture" is logically sound
+- Hardwired Architecture organisms lack vmPFC/meta-chunk = consistent with the claim
+- BUT: "terrible twos = Compilable Architecture phenomenon" remains a framework claim, not directly tested across species
 
-  ④ Compilable Architecture framing (v1.1)
-    → "Autonomy software chỉ có trong Compilable Architecture" = logical
-    → Hardwired Architecture organisms KHÔNG có vmPFC/meta-chunk = consistent
-    → BUT: "terrible twos = Compilable Architecture phenomenon" = framework claim, chưa tested
-```
+### §6.2 — Tier 3: Speculative (🔴)
 
-### §6.2 — Tier 3: Hypothesis (🔴)
+**① "18 months = threshold because motor evidence is sufficient" timing mechanism**
+- The correlation exists. The exact threshold mechanism is unknown.
+- Could be 100 experiences, or there may be a hormonal or maturational trigger.
 
-```
-🔴 SPECULATIVE:
-
-  ① "18 months = threshold vì motor evidence sufficient" timing
-    → Correlation exists. Exact threshold mechanism unknown.
-    → Could be 100 experiences, could be hormonal trigger.
-
-  ② Punishment CONTAMINATE evidence (§1.2)
-    → Logical from negativity bias + compound threat
-    → Specific contamination mechanism not directly tested
-```
+**② Punishment contaminates the evidence base (§1.2)**
+- Logically sound from negativity bias + compound threat literature
+- The specific contamination mechanism (how punishment specifically disrupts vmPFC controllability learning) has not been directly tested.
 
 ### §6.3 — Open Questions
 
-```
-⚠️ 4 OPEN QUESTIONS (software-specific):
+**Q1 — Meta-chunk compile threshold: how many experiences?**
+How many controllable events are required before generalization occurs? Does this number differ per child? Per domain? Per hardware variation (neurological differences)?
 
-  Q1: Meta-chunk compile threshold — HOW MANY experiences?
-    → How many controllable events needed for generalization?
-    → Different per child? Per domain? Per hardware variation?
+**Q2 — Domain transfer: how much?**
+Controllability compiled in domain A → how much transfers to domain B? The meta-chunk implies SOME generalization (§1.3). The degree is unknown. Does transfer follow semantic similarity between domains?
 
-  Q2: Domain transfer — HOW MUCH?
-    → Controllability in A → transfer to B?
-    → Meta-chunk implies SOME generalization. How much?
+**Q3 — Recovery from suppression: how long, through what mechanism?**
+Childhood autonomy suppression → adult rebuild possible? Autonomy-Hardware.md §2.3 identifies vmPFC neuroplasticity as the mechanism. Timeline? What type of exposure produces the most reliable recovery? Graded exposure (CBT-style) vs. immersion vs. coaching?
 
-  Q3: Recovery from suppression — HOW LONG?
-    → Suppressed autonomy in childhood → adult rebuild possible?
-    → Timeline? Mechanism? (vmPFC regrowth, Autonomy-Hardware.md §2.3)
-
-  Q4: AI era — new domains require new controllability chunks
-    → AI does tasks "better" → delegate → lose controllability?
-    → Or: new autonomy = "choosing WHEN to delegate"?
-    → Framework predicts: wholesale delegation → autonomy erosion
-```
+**Q4 — AI era: delegation and autonomy erosion**
+AI increasingly performs tasks "better" than humans in many domains → delegation becomes rational. Does wholesale delegation erode autonomy by removing the controllable experience that trains vmPFC? Or does the relevant autonomy shift to "choosing WHEN and HOW to delegate"? Framework prediction: wholesale delegation without intentional autonomy maintenance → autonomy erosion in delegated domains. Practical implication: building and maintaining "I do this myself" practices in core life domains may become a critical competency in an AI-saturated environment.
 
 ---
 
 ## §7 — CROSS-REFERENCES
 
-```
-COMPANION FILE:
-  → Autonomy-Hardware.md v1.1 — WHY self-action = reward (efference copy, vmPFC+DRN,
-    cortisol direction tag, opioid vs relief pathways)
+**Companion File**:
+- Autonomy-Hardware.md v1.2 — WHY self-action = reward (efference copy, vmPFC+DRN, cortisol direction tag, opioid vs relief pathways)
 
-DRILL SOURCE:
-  → Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture (general-purpose, vmPFC, meta-chunk)
+**Framework Foundation**:
+- Core-Software.md §1.2 — Compilable Architecture (general-purpose system, vmPFC, meta-chunk)
 
-VOCABULARY:
-  → Body-Feedback-Label.md v2.0 — prediction-delta, approach/avoidance tag, compiled/fresh
+**Vocabulary**:
+- Body-Feedback-Label.md v2.0 — prediction-delta, approach/avoidance tag, Compiled/Fresh
 
-CORE FILES:
-  → Core-v7.8-Draft.md §8 — observation parameter definition
-  → Body-Feedback-Mechanism.md v2.0 §3 — Chunk dynamics
-  → Chunk.md v2.0 — chunk substrate, compilation
-  → Agent-Mechanism.md v2.0 — §12 body-need feeder, self-as-agent
+**Core Files**:
+- Core-Software.md §8 — observation parameter definition
+- Body-Feedback-Mechanism.md v2.0 §3 — Chunk dynamics (Chunk-Shift/Miss/Gap)
+- Chunk.md v2.0 — chunk substrate, compilation
+- Agent-Mechanism.md v2.1 — §12 body-need feeder, self-as-agent, 10 dimensions
 
-CHILD DEVELOPMENT:
-  → Child-Chunk-Development/07-Social-Recognition-Arc.md §4.6 — E31 analysis
-  → Child-Chunk-Development/08-Verbal-Production-Arc.md §4.11 — E31 chunks
-  → Feel-Example-Draft.md — E31 "Không" (line 2023-2084)
-  → Natural-Development.md — reaching, bò, ném, "KHÔNG!" arc
+**Child Development**:
+- Child-Chunk-Development/07-Social-Recognition-Arc.md §4.6 — E31 analysis
+- Child-Chunk-Development/08-Verbal-Production-Arc.md §4.11 — E31 chunks
+- Natural-Development.md — voluntary reaching, crawling, throwing, "NO!" arc
 
-EDUCATION:
-  → Domain-Mapping-Drive.md §7.1 — Student A vs B
-  → Skill-Introduction.md — ép → "ý kiến tôi VÔ GIÁ TRỊ" (line 432)
-  → Education-Principles.md §3 — 4 nguồn anchor, quarter-life crisis
+**Education**:
+- Domain-Mapping-Drive.md §7.1 — Student A vs B, 10-year divergence
+- Education-Principles.md §3 — 4 anchor sources, quarter-life crisis
 
-OBSERVATION FILES:
-  → Protect.md v1.1 §8.4 — autonomy loss = protect amplifier
-  → Threat.md v1.1 §4 — 3 origins, imposed = no controllability
-  → Status.md v2.1 §10 — positive/negative spiral
-  → Connection.md v4.0 — attachment × autonomy
-  → Novelty.md v1.1 — curiosity = natural autonomy
-  → Meaning.md v2.1 — anchor source ① prerequisite
-  → Liking-Wanting.md §4 — opioid vs relief pathways
-  → Body-Base-Example.md — helicopter → helplessness
+**Observation Parameter Files**:
+- Protect.md v1.1 §8.4 — autonomy loss = Protect amplifier
+- Threat.md v1.1 §4 — 3 threat origins, imposed = no controllability
+- Status.md v2.2 §10 — positive/negative spiral
+- Connection.md v5.0 — attachment × autonomy
+- Novelty.md v1.2 — curiosity = natural autonomy gate
+- Meaning.md v2.2 — anchor source ① prerequisite for body-accepted meaning
+- Liking-Wanting.md §4 — opioid vs relief pathways
 
-RESEARCH (software-specific):
-  🟢 Erikson (1950) — autonomy vs shame and doubt
-  🟢 Bandura (1997) — self-efficacy (domain-specific)
-  🟢 Baumrind (1991) — parenting styles
-  🟢 WHO motor milestones — developmental variation
-  🟢 Schwartz (2004) — paradox of choice
-  🟢 Iyengar & Lepper (2000) — choice overload
-  🟢 LeMoyne & Buchanan (2011) — helicopter → helplessness
-  🟢 Bowlby (1969) — attachment theory
-  🟢 Ainsworth (1978) — secure base → exploration
-  🟢 Deci & Ryan (1985, 2000) — SDT (autonomy + competence)
-  (Hardware research citations → Autonomy-Hardware.md §7)
-```
+**New Concept Files (Observation Drill)**:
+- Entity-Access.md v1.2 — autonomy = control over Entity-Access gradient
+- Simulation-Engine.md v1.0 — autonomy unlocks Simulation-Engine full capacity
+
+**Research Citations**:
+- 🟢 Erikson (1950) — autonomy vs shame and doubt
+- 🟢 Bandura (1997) — self-efficacy (domain-specific)
+- 🟢 Baumrind (1991) — parenting styles
+- 🟢 WHO motor milestones — developmental variation
+- 🟢 Schwartz (2004) — paradox of choice
+- 🟢 Iyengar & Lepper (2000) — choice overload
+- 🟢 LeMoyne & Buchanan (2011) — helicopter parenting → helplessness
+- 🟢 Bowlby (1969) — attachment theory
+- 🟢 Ainsworth (1978) — secure base → exploration
+- 🟢 Deci & Ryan (1985, 2000) — Self-Determination Theory
+- (Hardware research citations → Autonomy-Hardware.md §7)
 
 ---
 
-## SUMMARY
-
-```
-AUTONOMY (SOFTWARE) = Xu hướng autonomy CAO/THẤP per person
-
-HARDWARE cho sẵn reward cho self-action (Autonomy-Hardware.md — universal).
-SOFTWARE quyết định ai DÙNG ĐƯỢC reward đó (file này — individual).
-
-CHUNKS (§1): Motor chunks = prerequisite. Accumulated evidence → self-as-agent
-  META-CHUNK. vmPFC controllability = domain-specific. Punishment contaminate.
-
-DEVELOPMENT (§2): Phase 1 accept external (0-6m) → Phase 2 begin testing
-  (6-14m) → Phase 3 self-preferred (14-18m) → Phase 4 "KHÔNG!" generalize
-  (18m+) → Phase 5 domain expansion → adult spectrum.
-
-COUNTERWEIGHTS (§3): Chunks prerequisite (predict đúng cần đủ).
-  Choice overload (quá nhiều → accuracy giảm). Structure necessity
-  (reasonable imposed → BUILD chunks cho autonomy thật).
-
-CROSS-PARAMETER (§4): ×Protect (amplifier), ×Threat (imposed = violation),
-  ×Status (spiral), ×Connection (helicopter/attachment), ×Novelty (gate),
-  ×Meaning (anchor ①), ×Mastery (compound).
-
-HEALTHY vs TOXIC (§5): Prediction-based + domain-appropriate + flexible
-  vs helplessness + over-control + reactive + pseudo + paralysis.
-  Cultural: hardware same, schemas differ, neither extreme optimal.
-
-~960 lines | version 1.1 | 2026-05-17
-v1.1 CHANGES: ⑪ +Compilable Architecture alignment (§0) ⑫ +Inter-Body-Mechanism/Body-Feedback-Label cross-refs
-  ⑬ Agent.md→Agent-Mechanism.md ⑭ Observation versions updated
-```
+*Human Predictive Drive Framework v7.8 — Autonomy.md v1.2 English translation*

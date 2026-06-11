@@ -1,79 +1,58 @@
 ---
-title: Addiction Analysis — Cơ Chế Nghiện Qua Kiến Trúc v7.8
-version: 3.1
-created: 2026-05-11
-updated: 2026-05-15 (v3.1 — §10 3 misconceptions pattern + PTSD self-medication, Health Conditions Drill)
-status: REFERENCE v3.1
+title: Addiction Analysis — How Addiction Works Through v7.8 Architecture
+version: v3.1
+source: Research/Health-Conditions/Hijack/Addiction-Analysis.md v3.1
+translated: 2026-06-09
+status: COMPLETE
 scope: |
-  OVERVIEW FILE: Nghiện HOẠT ĐỘNG THẾ NÀO qua v7.8 cycle-based architecture.
-  Chunk-loop hijack mechanism. Evaluative/Direct-State reward bypass. Body-Coupling × Withdrawal.
-  PFC-Configuration × Addiction states. Recovery = re-compilation pathway.
-  3 nhóm phân loại (Chemical / Behavioral / Schema-based) — NGUYÊN LÝ, không drill từng chất.
+  OVERVIEW FILE: How addiction works through v7.8 cycle-based architecture.
+  Chunk-loop hijack mechanism. Evaluative/Direct-State reward bypass.
+  Body-Coupling × Withdrawal. PFC-Configuration × Addiction stages.
+  Recovery = re-compilation pathway.
+  3 classification groups (Chemical / Behavioral / Schema-based) — PRINCIPLES, not per-substance drill.
   Self-medication pattern. Honest Assessment + Open Questions.
 purpose: |
-  OVERVIEW cho Chemical Hijack/ folder.
-  Mô tả CƠ CHẾ TỔNG QUÁT — substance-specific drill ở file riêng:
-    Alcohol-Brain-Mechanism.md (v1.0) — đã có.
-    Các chất khác — drill sau nếu cần.
-  Supersedes: Addiction-Analysis-v2.md (v7.5, backup/).
-  v2 insight cốt lõi (dopamine ≠ reward, 4-phase, self-medication) → GIỮA LẠI, reframe v7.8.
-  v3.0 NEW: Evaluative/Direct-State hijack, Body-Coupling withdrawal, PFC-Configuration mapping,
-  Recovery re-compilation, Compile-Taxonomy × Addiction, Reward-Calibration × Tolerance.
-position: Research/Chemical Hijack/ — OVERVIEW file, đọc trước substance-specific files.
-dependencies:
-  - Core-Software.md v1.0 — cycle architecture, 7-step
-  - Core-Hardware.md v1.0 — 4 zones A/B/C/D, PFC reach gradient
-  - Chunk.md v2.3 — chunk substrate, compile, trust amplifier
-  - 03-Reward.md v1.1 — Body-Feedback-Precondition 5 preconditions, 7-step VTA, opioid = reward thật
-  - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, E₀→E₃, Evaluative Gates Direct-State, 5 Profiles
-  - Reward-Calibration.md v1.1 — Goldilocks per-gap, over-reward, premature compilation
-  - Body-Feedback-Mechanism.md v1.2 — Sensory-Driven / Pattern-Driven, Chunk-Shift/Miss/Gap
-  - Body-Coupling.md v1.1 — |❸| Depth × Direction, 3 Phase, Extension/Entanglement
-  - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 4 pathways
-  - PFC-Configuration.md v1.0 — 6 dynamic modes
-  - Cortisol-Baseline.md v2.0 — amplifier, 5 Roles, novelty vs threat
-  - Dopamine-Is-Not-Reward.md v1.1 — dopamine ≠ reward, 7-step mechanism
-  - PFC-Hardware.md v1.1 — COMT, DRD4, individual variation
-  - Alcohol-Brain-Mechanism.md v1.0 — substance-specific reference (đã có)
-  - Collective-Body.md v1.1 — Cấp 2 chains, drug culture
-backup: Chemical Hijack/backup/Addiction-Analysis-v2.md
-language: Tiếng Việt primary + English technical terms
+  OVERVIEW for the Chemical-Hijack/ folder.
+  Describes the GENERAL MECHANISM — substance-specific drills in separate files:
+    Alcohol-Brain-Mechanism.md (v1.0) — available.
+    Other substances — drill later if needed.
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Addiction Analysis — Cơ Chế Nghiện Qua Kiến Trúc v7.8
+# Addiction Analysis — How Addiction Works Through v7.8 Architecture
 
-> **Bạn scroll phone 2 tiếng. Tắt đi. Trống rỗng.**
-> **Bạn uống rượu mỗi tối. Dừng 1 ngày. Bồn chồn không chịu nổi.**
-> **Bạn làm việc 14h/ngày. Nghỉ phép. "Mất mình."**
+> **You scroll your phone for 2 hours. You put it down. Empty.**
+> **You drink every evening. Skip one day. A restlessness you can barely stand.**
+> **You work 14 hours a day. Go on vacation. "I've lost myself."**
 >
-> 3 nguồn KHÁC NHAU. Cùng 1 pattern: KHÔNG THỂ DỪNG dù BIẾT nên dừng.
+> 3 DIFFERENT sources. Same 1 pattern: CANNOT STOP even when you KNOW you should.
 >
-> Pop science gọi: "nghiện dopamine." Framework nói: SAI.
-> Dopamine = chuông cửa ("có gì đó đáng chú ý"). Nghiện = quà đằng sau cửa.
+> Pop science calls it: "dopamine addiction." Framework says: WRONG.
+> Dopamine = the doorbell ("something worth attending to"). Addiction = the gift behind the door.
 >
-> Nghiện qua v7.8: **chunk-reward loop bị hijack**.
-> Substance/behavior bypass Body-Feedback-Precondition preconditions → deliver reward
-> KHÔNG phục vụ body-need thật → compile "shortcut" chunks →
+> Addiction through v7.8: **the chunk-reward loop is hijacked**.
+> Substance/behavior bypasses Body-Feedback-Precondition preconditions → delivers reward
+> WITHOUT serving a real body-need → compiles "shortcut" chunks →
 > tolerance = baseline shift → withdrawal = body-coupling disruption.
 >
-> File này: CƠ CHẾ TỔNG QUÁT — addiction hoạt động thế nào.
-> Drill từng chất cụ thể → file riêng (Alcohol-Brain-Mechanism.md đã có).
+> This file: GENERAL MECHANISM — how addiction works.
+> Drill for specific substances → separate files (Alcohol-Brain-Mechanism.md available).
 >
-> **Đọc trước**: Dopamine-Is-Not-Reward.md (tại sao dopamine ≠ reward).
-> **Đọc trước hoặc song song**: 03-Reward.md (Body-Feedback-Precondition 5 preconditions).
+> **Read first**: Dopamine-Is-Not-Reward.md (why dopamine ≠ reward).
+> **Read first or in parallel**: 03-Reward.md (Body-Feedback-Precondition 5 preconditions).
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ + SCOPE
-- §1 — SỬA MISCONCEPTION: "NGHIỆN DOPAMINE" LÀ SAI
-- §2 — CƠ CHẾ TỔNG QUÁT: CHUNK-REWARD LOOP HIJACK
-- §3 — EVALUATIVE/DIRECT-STATE × ADDICTION: TẤN CÔNG REWARD BẰNG CÁCH NÀO
-- §4 — PHÂN LOẠI THEO CƠ CHẾ: 3 NHÓM
+- §0 — POSITION + SCOPE
+- §1 — CORRECTING THE MISCONCEPTION: "DOPAMINE ADDICTION" IS WRONG
+- §2 — GENERAL MECHANISM: CHUNK-REWARD LOOP HIJACK
+- §3 — EVALUATIVE/DIRECT-STATE × ADDICTION: HOW REWARD IS ATTACKED
+- §4 — CLASSIFICATION BY MECHANISM: 3 GROUPS
 - §5 — WITHDRAWAL = BODY-COUPLING DISRUPTION
-- §6 — PFC-CONFIGURATION × CÁC GIAI ĐOẠN NGHIỆN
+- §6 — PFC-CONFIGURATION × ADDICTION STAGES
 - §7 — RECOVERY = RE-COMPILATION PATHWAY
 - §8 — SELF-MEDICATION PATTERN
 - §9 — HONEST ASSESSMENT + OPEN QUESTIONS
@@ -81,337 +60,355 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §0 — VỊ TRÍ + SCOPE
+## §0 — POSITION + SCOPE
 
 ```
-⭐ FILE NÀY TRONG FRAMEWORK:
+⭐ THIS FILE WITHIN THE FRAMEWORK:
 
-  OVERVIEW cho Chemical Hijack/ folder.
-  Mô tả CƠ CHẾ TỔNG QUÁT — addiction hoạt động thế nào qua v7.8.
+  OVERVIEW for the Chemical-Hijack/ folder.
+  Describes the GENERAL MECHANISM — how addiction works through v7.8.
 
-  PHÂN BIỆT VỚI CÁC FILE KHÁC:
+  HOW THIS FILE DIFFERS FROM RELATED FILES:
 
-    ┌────────────────────────────┬───────────────────────────────────────┐
+    ┌────────────────────────────┬────────────────────────────────────────┐
     │ File                       │ Scope                                  │
-    ├────────────────────────────┼───────────────────────────────────────┤
-    │ Addiction-Analysis.md      │ CƠ CHẾ TỔNG QUÁT: tại sao nghiện     │
-    │ (FILE NÀY)                │ xảy ra, hoạt động thế nào, hồi phục  │
-    │                            │ thế nào — KHÔNG drill từng chất.      │
-    ├────────────────────────────┼───────────────────────────────────────┤
-    │ Alcohol-Brain-Mechanism.md │ SUBSTANCE-SPECIFIC: ethanol × 5 hệ   │
-    │ (v1.0, đã có)             │ thống não, BAC gradient, 6 biến thể  │
-    │                            │ cá nhân, withdrawal cụ thể.           │
-    ├────────────────────────────┼───────────────────────────────────────┤
-    │ Alcohol-Vietnam-           │ CULTURAL-SPECIFIC: rượu bia × thế hệ │
-    │ Generational.md (v1.0)    │ VN, gen ALDH2, xu hướng.              │
-    ├────────────────────────────┼───────────────────────────────────────┤
-    │ [Future substance files]  │ Per-substance drill: cocaine, opioid, │
-    │                            │ nicotine, MDMA, cannabis...           │
-    │                            │ NẾU CẦN — drill sau.                  │
-    └────────────────────────────┴───────────────────────────────────────┘
+    ├────────────────────────────┼────────────────────────────────────────┤
+    │ Addiction-Analysis.md      │ GENERAL MECHANISM: why addiction       │
+    │ (THIS FILE)                │ occurs, how it works, how recovery     │
+    │                            │ works — NOT per-substance drill.       │
+    ├────────────────────────────┼────────────────────────────────────────┤
+    │ Alcohol-Brain-Mechanism.md │ SUBSTANCE-SPECIFIC: ethanol × 5 brain  │
+    │ (v1.0, available)          │ systems, BAC gradient, 6 individual   │
+    │                            │ variants, specific withdrawal.         │
+    ├────────────────────────────┼────────────────────────────────────────┤
+    │ Alcohol-Vietnam-           │ CULTURAL-SPECIFIC: alcohol × Vietnamese│
+    │ Generational.md (v1.0)     │ generational patterns, ALDH2 gene,    │
+    │                            │ trends.                                │
+    ├────────────────────────────┼────────────────────────────────────────┤
+    │ [Future substance files]   │ Per-substance drill: cocaine, opioids, │
+    │                            │ nicotine, MDMA, cannabis...            │
+    │                            │ If needed — drill later.               │
+    └────────────────────────────┴────────────────────────────────────────┘
 
-  PATTERN ĐÃ CÓ TRONG FRAMEWORK:
+  STRUCTURAL PATTERN ALREADY IN FRAMEWORK:
     Body-Feedback.md (overview) → 01-Foundation, 02-Dissonance, 03-Reward (drill)
     Feeling.md (overview) → Feeling-Mechanism-Deep, Feeling-Sources (drill)
     Addiction-Analysis.md (overview) → Alcohol-Brain-Mechanism.md (drill)
 
   V2 → V3.0 REFRAME:
-    v2 (v7.5): "Imagine layer DISCONNECT khỏi Body-Base"
-    v3.0 (v7.8): "Chunk-reward loop bị hijack — Body-Feedback-Precondition bypass + compile shortcut"
-    v2 insight cốt lõi VẪN ĐÚNG — chỉ terminology + mechanism depth thay đổi.
+    v2 (v7.5): "Imagine layer DISCONNECTS from Body-Base"
+    v3.0 (v7.8): "Chunk-reward loop hijacked — Body-Feedback-Precondition bypass
+      + shortcut compile"
+    v2 core insight STILL VALID — only terminology + mechanism depth changed.
 ```
 
 ---
 
-## §1 — SỬA MISCONCEPTION: "NGHIỆN DOPAMINE" LÀ SAI
+## §1 — CORRECTING THE MISCONCEPTION: "DOPAMINE ADDICTION" IS WRONG
 
-### §1.1 — 3 vị trí trong debate
+### §1.1 — 3 positions in the debate
 
 ```
-🟢🟡 SO SÁNH 3 VỊ TRÍ — CÙNG CÂU HỎI, KHÁC CÂU TRẢ LỜI:
+🟢🟡 COMPARING 3 POSITIONS — SAME QUESTION, DIFFERENT ANSWERS:
 
   ┌───────────────────────────────────────────────────────────────────┐
-  │ CLASSICAL (1950s-1990s → pop science hiện tại):                    │
-  │                                                                    │
-  │   "Dopamine = reward/pleasure chemical."                           │
-  │   "Nghiện = hệ dopamine bị hyperactive."                          │
-  │   "Dopamine detox = giải pháp."                                   │
-  │                                                                    │
-  │   Vấn đề: 25+ năm research đã bác bỏ.                            │
-  │   Pop science + textbook phổ thông VẪN lặp lại.                   │
+  │ CLASSICAL (1950s–1990s → current pop science):                    │
+  │                                                                   │
+  │   "Dopamine = reward/pleasure chemical."                          │
+  │   "Addiction = the dopamine system is hyperactive."               │
+  │   "Dopamine detox = the solution."                                │
+  │                                                                   │
+  │   Problem: 25+ years of research have refuted this.              │
+  │   Pop science + mainstream textbooks STILL repeat it.             │
   └───────────────────────────────────────────────────────────────────┘
 
   ┌───────────────────────────────────────────────────────────────────┐
-  │ BERRIDGE-ROBINSON (1998-nay — current research consensus):         │
-  │                                                                    │
-  │   "Dopamine = WANTING (incentive salience), KHÔNG phải pleasure." │
-  │   "Liking (pleasure) = primarily opioid system."                   │
-  │   "Hai hệ TÁCH RỜI: có thể want without liking."                 │
-  │                                                                    │
-  │   Limitation: tách wanting/liking nhưng KHÔNG mô tả mechanism     │
-  │   của liking cụ thể. "Opioid system" = black box.                 │
+  │ BERRIDGE-ROBINSON (1998–present — current research consensus):    │
+  │                                                                   │
+  │   "Dopamine = WANTING (incentive salience), NOT pleasure."        │
+  │   "Liking (pleasure) = primarily the opioid system."             │
+  │   "Two systems SEPARATED: you can want without liking."           │
+  │                                                                   │
+  │   Limitation: separates wanting/liking but does NOT describe      │
+  │   the specific mechanism of liking. "Opioid system" = black box. │
   └───────────────────────────────────────────────────────────────────┘
 
   ┌───────────────────────────────────────────────────────────────────┐
-  │ FRAMEWORK v7.8:                                                    │
-  │                                                                    │
-  │   Dopamine = VTA detect delta → alert PFC: "CÓ BIẾN ĐỘNG"        │
-  │   = CHUÔNG CỬA — signal salience, KHÔNG phải reward.              │
-  │                                                                    │
-  │   Reward = body-base opioid release KHI chunk fits body-need.      │
-  │   = QUÀ ĐẰNG SAU CỬA — actual reward, phụ thuộc Body-Feedback-Precondition.            │
-  │                                                                    │
-  │   7-step mechanism (chi tiết: Dopamine-Is-Not-Reward.md §4):   │
-  │   ① Neurons fire 24/7 → ② VTA detect delta → ③ DRD4 filter →    │
+  │ FRAMEWORK v7.8:                                                   │
+  │                                                                   │
+  │   Dopamine = VTA detects delta → alerts PFC: "THERE'S A SHIFT"   │
+  │   = THE DOORBELL — signals salience, NOT reward.                  │
+  │                                                                   │
+  │   Reward = body-base opioid release WHEN chunk fits body-need.   │
+  │   = THE GIFT BEHIND THE DOOR — actual reward, dependent on       │
+  │     Body-Feedback-Preconditions.                                  │
+  │                                                                   │
+  │   7-step mechanism (detail: Dopamine-Is-Not-Reward.md §4):        │
+  │   ① Neurons fire 24/7 → ② VTA detects delta → ③ DRD4 filter →   │
   │   ④ PFC spotlight → ⑤ Body-base check (body-need match?) →       │
-  │   ⑥ Opioid release NẾU match → ⑦ COMT clear dopamine.            │
-  │                                                                    │
-  │   Bước ⑤ = CRITICAL: body-base CHECK.                             │
-  │   Có body-need match → opioid → reward THẬT.                      │
-  │   KHÔNG match → "meh" → PFC discard → EMPTINESS.                │
-  │                                                                    │
-  │   → "Nghiện dopamine" SAI vì:                                     │
-  │   Dopamine = chuông cửa. Không ai nghiện tiếng chuông.            │
-  │   Nghiện = content đằng sau (opioid body reward).                  │
-  │                                                                    │
-  │   v1.1 UPDATE: Opioid reward = primarily Evaluative.     │
-  │   Direct-State reward (touch, exercise) = non-opioid pathways.           │
-  │   Chi tiết: Reward-Signal-Architecture.md §1-§3.                  │
+  │   ⑥ Opioid release IF match → ⑦ COMT clears dopamine.            │
+  │                                                                   │
+  │   Step ⑤ = CRITICAL: the body-base CHECK.                        │
+  │   Body-need matches → opioid → REAL reward.                       │
+  │   No match → "meh" → PFC discards → EMPTINESS.                   │
+  │                                                                   │
+  │   → "Dopamine addiction" is WRONG because:                        │
+  │   Dopamine = the doorbell. Nobody is addicted to the sound of a  │
+  │   doorbell. Addiction = the content behind it (opioid body reward)│
+  │                                                                   │
+  │   v1.1 UPDATE: Opioid reward = primarily Evaluative.              │
+  │   Direct-State reward (touch, exercise) = non-opioid pathways.   │
+  │   Detail: Reward-Signal-Architecture.md §1–§3.                    │
   └───────────────────────────────────────────────────────────────────┘
 
   🟢 Berridge & Robinson 1998, 2003, 2016 — wanting ≠ liking.
   🟢 Schultz 1997 — prediction error signal.
   🟢 Koob & Volkow 2010 — addiction = allostatic, multi-system.
-  Chi tiết 7 bằng chứng: Dopamine-Is-Not-Reward.md §3.
+  Detail on 7 pieces of evidence: Dopamine-Is-Not-Reward.md §3.
 ```
 
-### §1.2 — Tại sao misconception này QUAN TRỌNG cho addiction
+### §1.2 — Why this misconception MATTERS for addiction
 
 ```
-🟡 SAI CƠ CHẾ → SAI GIẢI PHÁP:
+🟡 WRONG MECHANISM → WRONG SOLUTION:
 
-  Nếu tin "nghiện dopamine":
-    → "Dopamine detox" = giải pháp → SAI
-    → "Giảm dopamine" = mục tiêu → SAI (dopamine CẦN cho function)
-    → "Chặn novelty" = cách cai → SAI (novelty = healthy drive)
+  If you believe "dopamine addiction":
+    → "Dopamine detox" = the solution → WRONG
+    → "Reduce dopamine" = the goal → WRONG (dopamine is NEEDED for function)
+    → "Block novelty" = how to quit → WRONG (novelty = healthy drive)
 
-  Nếu hiểu "nghiện = body reward bị hijack":
-    → Câu hỏi đúng: "Body reward từ ĐÂU? Reward CÓ phục vụ body-need không?"
-    → Giải pháp đúng: thay thế NGUỒN reward, không phải chặn signal
-    → Recovery: re-build body reward từ nguồn THẬT (§7)
+  If you understand "addiction = body reward hijacked":
+    → The right question: "Body reward from WHERE? Does the reward SERVE
+        a body-need?"
+    → The right solution: replace the SOURCE of reward, not block the signal
+    → Recovery: re-build body reward from REAL sources (§7)
 
-  Ví dụ: scroll MXH
-    ❌ "Nghiện dopamine" → giải pháp: tắt phone → thất bại vì chưa
-       có nguồn reward thay thế → quay lại scroll
-    ✅ "Body reward nhẹ từ content" → giải pháp: thay thế bằng
-       body reward MẠNH HƠN (exercise, connection thật, creative project)
-       → scroll trở nên KHÔNG ĐỦ hấp dẫn
+  Example: scrolling social media
+    ❌ "Dopamine addiction" → solution: put the phone away → fails because
+       there is no alternative reward source yet → returns to scrolling
+    ✅ "Mild body reward from content" → solution: replace with
+       STRONGER body reward (exercise, real connection, creative project)
+       → scrolling becomes NOT COMPELLING ENOUGH
 ```
 
 ---
 
-## §2 — CƠ CHẾ TỔNG QUÁT: CHUNK-REWARD LOOP HIJACK
+## §2 — GENERAL MECHANISM: CHUNK-REWARD LOOP HIJACK
 
 ### §2.1 — Normal cycle vs Addiction cycle
 
 ```
 🟡 NORMAL CYCLE (v7.8 Core-Software.md):
 
-  Domain → Body-Input → Unconscious Processing → Feeling → PFC → Body-Output → Domain
-                                  ↑
-                    Chunk-System evaluates:
-                    Body-need gap? → Behavior → Input → Body-base check →
-                    Match? → Opioid reward → Gap closes → DỪNG.
+  Domain → Body-Input → Unconscious Processing → Feeling → PFC →
+  Body-Output → Domain
+                             ↑
+               Chunk-System evaluates:
+               Body-need gap? → Behavior → Input → Body-base check →
+               Match? → Opioid reward → Gap closes → STOPS.
 
-  ĐẶC ĐIỂM QUAN TRỌNG:
-    ① Body-need gap THẬT tồn tại trước (Precondition-1 Directed-Gap)
-    ② Behavior phục vụ gap đó (ăn khi đói, uống khi khát)
-    ③ Body-base CHECK sau behavior: "có đáp ứng need không?"
-    ④ Match → opioid → reward → gap closes → cycle DỪNG tự nhiên
-    ⑤ Body-Feedback-Precondition 5 preconditions ĐỀU phải met (03-Reward.md §3)
+  KEY FEATURES:
+    ① A REAL body-need gap exists first (Precondition-1 Directed-Gap)
+    ② Behavior serves that gap (eat when hungry, drink when thirsty)
+    ③ Body-base CHECK after behavior: "does this meet the need?"
+    ④ Match → opioid → reward → gap closes → cycle STOPS naturally
+    ⑤ All 5 Body-Feedback-Preconditions must be met (03-Reward.md §3)
 
 
-  ADDICTION CYCLE — HIJACK Ở ĐÂU:
+  ADDICTION CYCLE — WHERE THE HIJACK OCCURS:
 
   ┌─────────────────────────────────────────────────────────────────────┐
   │                                                                     │
-  │  HIJACK POINT 1 — Body-Feedback-Precondition BYPASS:                                      │
+  │  HIJACK POINT 1 — Body-Feedback-Precondition BYPASS:               │
   │                                                                     │
-  │    Chemical tấn công TRỰC TIẾP receptor/neurotransmitter system     │
-  │    → deliver opioid (hoặc opioid-like signal) KHÔNG CẦN Precondition-1 through Precondition-5: │
+  │    Chemical attacks receptor/neurotransmitter systems DIRECTLY      │
+  │    → delivers opioid (or opioid-like signal) WITHOUT needing        │
+  │      Preconditions 1 through 5:                                     │
   │                                                                     │
-  │    Precondition-1 Directed-Gap (Schema pending — body-need gap):     │
-  │      Normal: cần gap THẬT. Addiction: chất tạo reward KHÔNG CÓ gap │
-  │      hoặc gap KHÔNG LIÊN QUAN (đói → uống rượu, buồn → hút thuốc) │
+  │    Precondition-1 Directed-Gap (Schema pending — body-need gap):   │
+  │      Normal: needs a REAL gap. Addiction: substance creates reward  │
+  │      WITHOUT a gap, or with an UNRELATED gap                        │
+  │      (hungry → drink alcohol, sad → smoke)                         │
   │                                                                     │
-  │    Precondition-2 Chunk-Substrate (Compiled chunks — evaluation capacity): │
-  │      Normal: cần chunks để đánh giá "input có tốt không?"           │
-  │      Addiction: chất BYPASS evaluation → reward trực tiếp            │
+  │    Precondition-2 Chunk-Substrate (Compiled chunks — evaluation     │
+  │      capacity):                                                     │
+  │      Normal: needs chunks to evaluate "is this input good?"         │
+  │      Addiction: substance BYPASSES evaluation → reward directly     │
   │                                                                     │
-  │    Precondition-3 Delta-Gate (prediction-delta — novelty signal):           │
-  │      Normal: cần prediction-delta. Addiction: chất FLOOD dopamine   │
-  │      → VTA overwhelmed → signal bất thường                          │
+  │    Precondition-3 Delta-Gate (prediction-delta — novelty signal):  │
+  │      Normal: needs prediction-delta. Addiction: substance FLOODS    │
+  │      dopamine → VTA overwhelmed → abnormal signal                   │
   │                                                                     │
-  │    Precondition-4 Match-Range (Goldilocks zone — dynamic):           │
-  │      Normal: Goldilocks zone = optimal. Addiction: chất OVERRIDE    │
-  │      → reward cường độ vượt xa Goldilocks → over-reward             │
+  │    Precondition-4 Match-Range (Goldilocks zone — dynamic):         │
+  │      Normal: Goldilocks zone = optimal. Addiction: substance        │
+  │      OVERRIDES → reward intensity far exceeds Goldilocks →         │
+  │      over-reward                                                    │
   │                                                                     │
-  │    Precondition-5 Compile-Gate (Chunk tag — cortisol direction):     │
+  │    Precondition-5 Compile-Gate (Chunk tag — cortisol direction):   │
   │      Normal: novelty cortisol → approach. Addiction: substance      │
-  │      CÓ THỂ tag positive DÙ hại body (§2.3 false positive)        │
+  │      MAY tag positive DESPITE harming the body (§2.3 false         │
+  │      positive)                                                      │
   │                                                                     │
-  │  → CHEMICAL = BYPASS Body-Feedback-Precondition, deliver reward KHÔNG QUA body-base check  │
-  │  → Behavioral = EXPLOIT Body-Feedback-Precondition weaknesses (variable ratio, low cost)   │
-  │                                                                     │
-  └─────────────────────────────────────────────────────────────────────┘
-
-  ┌─────────────────────────────────────────────────────────────────────┐
-  │                                                                     │
-  │  HIJACK POINT 2 — CYCLE KHÔNG DỪNG:                                │
-  │                                                                     │
-  │    Normal: body-need met → gap closes → cycle dừng tự nhiên.       │
-  │    Addiction: reward KHÔNG phục vụ body-need thật →                 │
-  │      gap KHÔNG ĐÓNG (vì need thật chưa met) →                     │
-  │      cycle LẶP LẠI → reward nhẹ mỗi lần → compile "shortcut" →   │
-  │      shortcut chunks MẠNH DẦN → override body signals khác.        │
-  │                                                                     │
-  │    Ví dụ: buồn (need = connection) → uống rượu → opioid nhẹ →     │
-  │    buồn VẪN CÒN (connection chưa có) → uống thêm → opioid thêm → │
-  │    loop KHÔNG có điểm dừng tự nhiên.                                │
+  │  → CHEMICAL = BYPASSES Body-Feedback-Preconditions, delivers       │
+  │    reward WITHOUT going through body-base check                     │
+  │  → BEHAVIORAL = EXPLOITS Body-Feedback-Precondition weaknesses     │
+  │    (variable ratio, low cost)                                       │
   │                                                                     │
   └─────────────────────────────────────────────────────────────────────┘
 
   ┌─────────────────────────────────────────────────────────────────────┐
   │                                                                     │
-  │  HIJACK POINT 3 — COMPILE "SHORTCUT" CHUNKS:                       │
+  │  HIJACK POINT 2 — THE CYCLE NEVER STOPS:                           │
   │                                                                     │
-  │    Mỗi lần substance → reward:                                     │
-  │    Body compile chunk: [tình huống X → dùng chất → reward]          │
-  │    Lặp lại nhiều lần → chunk STRENGTHEN (Chunk.md §2 compile via   │
-  │    repetition + emotional peak).                                    │
-  │    Dần dần: chunk "shortcut" MẠNH HƠN chunks thay thế              │
-  │    → activation probability CAO → fire trước chunks khác            │
-  │    → body "tự động" hướng về substance.                             │
+  │    Normal: body-need met → gap closes → cycle stops naturally.      │
+  │    Addiction: reward does NOT serve a real body-need →              │
+  │      gap NEVER CLOSES (because the real need is unmet) →            │
+  │      cycle REPEATS → mild reward each time → "shortcut" compiles → │
+  │      shortcut chunks GROW STRONGER → override other body signals.   │
+  │                                                                     │
+  │    Example: sadness (need = connection) → drink alcohol → mild      │
+  │    opioid → sadness STILL THERE (no connection yet) → drink more → │
+  │    more opioid → loop with NO natural stopping point.               │
+  │                                                                     │
+  └─────────────────────────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────────────────────────┐
+  │                                                                     │
+  │  HIJACK POINT 3 — COMPILING "SHORTCUT" CHUNKS:                     │
+  │                                                                     │
+  │    Each time: substance → reward:                                   │
+  │    Body compiles chunk: [situation X → use substance → reward]      │
+  │    Repeated many times → chunk STRENGTHENS (Chunk.md §2 compile    │
+  │    via repetition + emotional peak).                                │
+  │    Gradually: the "shortcut" chunk BECOMES STRONGER than alternative│
+  │    chunks → higher activation probability → fires before other      │
+  │    chunks → body "automatically" orients toward the substance.      │
   │                                                                     │
   │    = Chunk-Activation-Dynamics.md: probability-weighted activation. │
-  │    Chunk nghiện có probability CAO → fire TRƯỚC → dominate.         │
+  │    Addiction chunk has HIGH probability → fires FIRST → dominates.  │
   │                                                                     │
   └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### §2.2 — 4-Phase Progression qua v7.8
+### §2.2 — 4-Phase Progression through v7.8
 
 ```
-🟡 4 GIAI ĐOẠN — CÙNG PATTERN CHO MỌI LOẠI NGHIỆN:
+🟡 4 PHASES — SAME PATTERN FOR ALL TYPES OF ADDICTION:
 
-  Mức độ + tốc độ KHÁC NHAU per-substance/behavior,
-  nhưng PROGRESSION LOGIC giống nhau.
+  Rate + speed VARY per-substance/behavior,
+  but PROGRESSION LOGIC is the same.
 
 
-  PHASE 1 — PULL (lần đầu → vài lần):
+  PHASE 1 — PULL (first times → several times):
 
-    Input → body reward THẬT (ít nhất lần đầu) → "pleasant"
+    Input → REAL body reward (at least the first time) → "pleasant"
     → Body learns: [substance X → reward]
-    → Chunk compile bắt đầu (Compile-Taxonomy: Pathway 1 — Hardware Fit)
+    → Chunk compile begins (Compile-Taxonomy: Pathway 1 — Hardware Fit)
 
-    ⭐ ĐIỀU KIỆN TIÊN QUYẾT: body reward THẬT lần đầu.
-    Nếu lần đầu KHÔNG có body reward → "chả có gì" → không lặp → không nghiện.
-    Body PHẢI learn "X → reward" TRƯỚC khi nghiện có thể hình thành.
+    ⭐ PREREQUISITE: REAL body reward the first time.
+    If the first time produces NO body reward → "nothing to it" →
+    no repetition → no addiction.
+    Body MUST learn "X → reward" BEFORE addiction can form.
 
     🟢 Koob & Le Moal 2001 — initial positive reinforcement phase.
 
 
-  PHASE 2 — TOLERANCE (lần 10-50+):
+  PHASE 2 — TOLERANCE (uses 10–50+):
 
-    Reward-Calibration.md: Goldilocks SHIFT.
+    Reward-Calibration.md: Goldilocks SHIFTS.
     → Body adapts baseline: yesterday's reward = today's normal.
-    → VTA habituate: cùng liều → delta NHỎ hơn → dopamine alert YẾU hơn.
-    → Receptor downregulate: cần NHIỀU hơn cho cùng opioid response.
-    → = Goldilocks zone DỊCH lên — cần liều CAO hơn để đạt "match."
+    → VTA habituates: same dose → SMALLER delta → WEAKER dopamine alert.
+    → Receptors downregulate: MORE needed for the same opioid response.
+    → = Goldilocks zone SHIFTS UP — needs HIGHER dose to reach "match."
 
-    Đồng thời:
-    → Hormone tự nhiên GIẢM sản xuất (body dựa vào chất thay vì tự sản).
-    → Body reward từ nguồn THẬT (ăn ngon, gặp bạn) trở nên NHẠT
-      so với chemical reward → anhedonia dần hình thành.
-    → Chunk "shortcut" MẠNH hơn chunks thay thế.
+    Simultaneously:
+    → Natural hormone production DECREASES (body relies on substance
+        instead of self-producing).
+    → Body reward from REAL sources (good food, seeing friends) becomes
+        BLAND compared to chemical reward → anhedonia gradually forms.
+    → "Shortcut" chunks STRONGER than alternative chunks.
 
     🟢 Koob & Volkow 2016 — opponent process theory, allostatic shift.
     🟢 Nestlé & Aghajanian 1997 — receptor downregulation.
 
 
-  PHASE 3 — PUSH (lâu dài):
+  PHASE 3 — PUSH (long-term):
 
-    CHUYỂN từ "dùng vì SƯỚNG" → "dùng vì KHÔNG DÙNG = KHỔ."
+    SHIFT from "using because it FEELS GOOD" →
+    "using because NOT USING = SUFFERING."
 
-    → KHÔNG dùng = withdrawal:
-      - Receptor đã downregulate → hormone tự nhiên CỰC THẤP
-      - Cortisol TĂNG (Role ① Compile Direction: threat tag)
-      - Body state CỰC TỆ → dissonance cường độ CAO
-    → Dùng = HẾT withdrawal (relief, KHÔNG phải euphoria ban đầu)
-    → = REWARD TYPE THAY ĐỔI:
+    → Not using = withdrawal:
+      - Receptors already downregulated → natural hormones EXTREMELY LOW
+      - Cortisol RISES (Role ① Compile Direction: threat tag)
+      - Body state EXTREMELY BAD → dissonance at HIGH intensity
+    → Using = END of withdrawal (relief, NOT the original euphoria)
+    → = REWARD TYPE CHANGES:
       Phase 1: Pull reward = "pleasant" (positive reinforcement)
-      Phase 3: Push reward = "hết khổ" (negative reinforcement)
-    → Reward-Signal-Architecture: reward shift từ Profile ① Sensory/② Coherence →
-      Profile ④ Relief (pain/dissonance stops = reward)
+      Phase 3: Push reward = "the suffering stops" (negative reinforcement)
+    → Reward-Signal-Architecture: reward shifts from Profile ①
+        Sensory/② Coherence → Profile ④ Relief (pain/dissonance stops = reward)
 
     🟢 Koob 2013 — negative reinforcement drives late-stage addiction.
 
 
   PHASE 4 — DEPENDENCY:
 
-    → Hệ thống hormone SỤP HOÀN TOÀN.
-    → Không dùng = body threat CỰC NẶNG
-      (chemical: đau, run, nôn, có thể chết — tùy substance).
-    → Chunk "shortcut" ĐÃ COMPILED SÂU:
-      [cảm giác X → dùng chất] → automatic, PFC gần không can thiệp được.
-    → Schema: "dùng X = SỐNG" (chất hijack từ luxury → survival need).
-    → PFC-Configuration: withdrawal trigger Config ④ (Disconnected) →
-      PFC offline → subcortical takeover → relapse probability CỰC CAO.
+    → Hormone system FULLY COLLAPSED.
+    → Not using = EXTREME body threat
+      (chemical: pain, tremors, vomiting, potentially fatal — varies by substance).
+    → "Shortcut" chunks COMPILED DEEPLY:
+      [feeling X → use substance] → automatic, PFC can barely intervene.
+    → Schema: "using X = SURVIVING" (substance hijacked from luxury
+        → survival need).
+    → PFC-Configuration: withdrawal triggers Config ④ (Disconnected) →
+      PFC offline → subcortical takeover → relapse probability EXTREME.
 
     🟢 Koob & Volkow 2010 — addiction as brain disease model.
     🟢 Arnsten 2009 — stress-induced PFC dysfunction.
 ```
 
-### §2.3 — Tại sao body bị "lừa" — False Positive Mechanism
+### §2.3 — Why the body is "tricked" — False Positive Mechanism
 
 ```
-🟡 BODY-BASE CHECK (7-step bước ⑤) ĐÚNG 100% THỜI GIAN —
-   VẤN ĐỀ LÀ CHEMICAL BYPASS CHECK, KHÔNG LỪA CHECK:
+🟡 BODY-BASE CHECK (7-step Step ⑤) WORKS CORRECTLY 100% OF THE TIME —
+   THE PROBLEM IS THAT CHEMICALS BYPASS THE CHECK, NOT DECEIVE IT:
 
-  Body-base check: "chunk này match body-need?"
-  → Check mechanism VẪN HOẠT ĐỘNG đúng.
-  → VẤN ĐỀ: chemical DELIVER opioid TRỰC TIẾP vào receptor,
-    KHÔNG ĐI QUA check.
+  Body-base check: "does this chunk match a body-need?"
+  → The check mechanism STILL FUNCTIONS correctly.
+  → PROBLEM: chemical DELIVERS opioid DIRECTLY into receptors,
+    WITHOUT GOING THROUGH the check.
 
-  Ví dụ heroin:
-    Normal: [ăn ngon → taste → brainstem evaluate → match? → opioid]
-    Heroin: [heroin → mu-opioid receptor TRỰC TIẾP → opioid]
-    → Body-base check bị BYPASS, không phải bị lừa.
-    → = Chất KHÔNG đi vào cửa trước (check) mà phá cửa sau (receptor).
+  Example — heroin:
+    Normal: [eat good food → taste → brainstem evaluates → match? → opioid]
+    Heroin: [heroin → mu-opioid receptor DIRECTLY → opioid]
+    → Body-base check is BYPASSED, not deceived.
+    → = The substance does NOT enter through the front door (the check)
+        — it breaks through the back door (the receptor).
 
-  Ví dụ rượu:
-    → GABA↑ → relaxation THẬT (body-state improves) = Direct-State reward
-    → + opioid nhẹ (NAcc, Mitchell 2012) = Evaluative reward
-    → Body-base check: "relaxation? ✅" → nhưng KHÔNG check:
-      "relaxation CÓ PHỤ VỤ body-need lâu dài không?"
-    → Body-base check = SHORT-TERM evaluator, không long-term planner.
-    → PFC = long-term planner, nhưng PFC reach Zone C/D yếu (Core-Hardware.md §2).
+  Example — alcohol:
+    → GABA↑ → REAL relaxation (body-state improves) = Direct-State reward
+    → + mild opioid (NAcc, Mitchell 2012) = Evaluative reward
+    → Body-base check: "relaxation? ✅" → but does NOT check:
+      "does this relaxation SERVE a long-term body-need?"
+    → Body-base check = SHORT-TERM evaluator, not a long-term planner.
+    → PFC = long-term planner, but PFC reach into Zone C/D is weak
+        (Core-Hardware.md §2).
 
   → FUNDAMENTAL LIMITATION:
     Body-base check evaluates IMMEDIATE FIT (short-term).
-    Long-term consequence = PFC territory.
-    Chemical BYPASS body-base check + PFC bị REDUCE/OFFLINE bởi chất.
-    → = HAI tuyến phòng thủ ĐỀU bị vô hiệu hóa.
+    Long-term consequences = PFC territory.
+    Chemical BYPASSES body-base check + PFC is REDUCED/OFFLINE by the substance.
+    → = BOTH lines of defense are simultaneously neutralized.
 ```
 
 ---
 
-## §3 — EVALUATIVE/DIRECT-STATE × ADDICTION: TẤN CÔNG REWARD BẰNG CÁCH NÀO
+## §3 — EVALUATIVE/DIRECT-STATE × ADDICTION: HOW REWARD IS ATTACKED
 
-### §3.1 — Nguyên lý: Chemical tấn công Evaluative hay Direct-State?
+### §3.1 — Principle: Does the chemical attack Evaluative or Direct-State?
 
 ```
-🟡 REWARD CÓ 2 LOẠI (Reward-Signal-Architecture v1.0 §1):
+🟡 REWARD HAS 2 TYPES (Reward-Signal-Architecture v1.0 §1):
 
   Evaluative — EVALUATIVE CONFIRM:
     Circuit: Hedonic hotspot (NAcc shell, VP, mOFC). μ-opioid primary.
@@ -421,62 +418,70 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Direct-State — DIRECT STATE CONFIRM:
     Circuit: Interoceptive / body-state regulation. VARIES by modality.
-    Body-Feedback-Precondition: Simplified (Precondition-1 basic, Precondition-2 through Precondition-5 reduced/N/A).
+    Body-Feedback-Precondition: Simplified (Precondition-1 basic,
+      Preconditions 2–5 reduced/N/A).
     Learned: MINIMAL — hardware from birth.
     Examples: Touch comfort, exercise, warmth, stretching.
 
 
-  ADDICTION TẤN CÔNG CẢ HAI — NHƯNG BẰNG CÁCH KHÁC:
+  ADDICTION ATTACKS BOTH — BUT IN DIFFERENT WAYS:
 
   ┌─────────────────────────────────────────────────────────────────────┐
   │                                                                     │
-  │  EVALUATIVE HIJACK — "PHÁ CỬA SAU EVALUATION":                        │
+  │  EVALUATIVE HIJACK — "BREAKING THROUGH THE EVALUATION BACK DOOR":  │
   │                                                                     │
-  │    Normal Evaluative: Input → compiled chunks evaluate → match? →       │
+  │    Normal Evaluative: Input → compiled chunks evaluate → match? →  │
   │    hedonic hotspot → μ-opioid → reward.                             │
-  │    = Qua CỔNG ĐÁNH GIÁ (evaluation gate).                          │
+  │    = Goes THROUGH the evaluation gate.                              │
   │                                                                     │
-  │    Chemical hijack: substance → TRỰC TIẾP kích hoạt receptor →     │
-  │    opioid signal → reward. KHÔNG qua evaluation gate.               │
+  │    Chemical hijack: substance → DIRECTLY activates receptor →       │
+  │    opioid signal → reward. BYPASSES the evaluation gate.            │
   │                                                                     │
-  │    Heroin/morphine: mu-opioid receptor TRỰC TIẾP.                  │
-  │    Cocaine: block DAT → dopamine tràn + opioid indirect.           │
-  │    Alcohol: opioid nhẹ ở NAcc (Mitchell 2012).                     │
+  │    Heroin/morphine: mu-opioid receptor DIRECTLY.                    │
+  │    Cocaine: blocks DAT → dopamine floods + indirect opioid.        │
+  │    Alcohol: mild opioid at NAcc (Mitchell 2012).                    │
   │                                                                     │
-  │    → Evaluative bị hijack = "quà giả giao THẲNG, không qua kiểm tra." │
-  │                                                                     │
-  ├─────────────────────────────────────────────────────────────────────┤
-  │                                                                     │
-  │  DIRECT-STATE HIJACK — "BODY-STATE THAY ĐỔI THẬT NHƯNG KHÔNG BỀN":     │
-  │                                                                     │
-  │    Normal Direct-State: body activity → body-state DIRECTLY improves.     │
-  │    = Hardware pathway, ít phụ thuộc chunks.                         │
-  │                                                                     │
-  │    Chemical hijack: substance thay đổi body-state THẬT:             │
-  │    → Alcohol: GABA↑ = relaxation THẬT (muscle, anxiety giảm)       │
-  │    → Cannabis: endocannabinoid = relaxation THẬT                   │
-  │    → Nicotine: NE nhẹ = alertness THẬT                            │
-  │                                                                     │
-  │    Direct-State reward TỪ CHẤT = THẬT ở mức body-state.                 │
-  │    VẤN ĐỀ: body-state improvement KHÔNG BỀN,                      │
-  │    + receptor adapt → tolerance → cần nhiều hơn.                    │
-  │    + body-state KHÔNG improve nếu không dùng (withdrawal).          │
-  │                                                                     │
-  │    → Direct-State bị hijack = "quà THẬT nhưng tạm thời + có giá."       │
+  │    → Evaluative hijacked = "counterfeit gift delivered directly,    │
+  │      no inspection."                                                │
   │                                                                     │
   ├─────────────────────────────────────────────────────────────────────┤
   │                                                                     │
-  │  CẢ A + B ĐỒNG THỜI — NGUY HIỂM NHẤT:                            │
+  │  DIRECT-STATE HIJACK — "REAL BODY-STATE CHANGE, BUT NOT LASTING":  │
   │                                                                     │
-  │    Hầu hết chất nghiện mạnh tấn công CẢ HAI TYPE:                 │
-  │    → Heroin: Evaluative (opioid trực tiếp) + Direct-State (pain relief)      │
-  │    → Cocaine: Evaluative (opioid indirect) + Direct-State (energy, alertness) │
-  │    → Alcohol: Evaluative (opioid nhẹ) + Direct-State (GABA relaxation)       │
-  │    → MDMA: Evaluative (serotonin → opioid cross) + Direct-State (warmth)     │
+  │    Normal Direct-State: body activity → body-state DIRECTLY         │
+  │    improves. = Hardware pathway, minimally chunk-dependent.         │
+  │                                                                     │
+  │    Chemical hijack: substance changes body-state FOR REAL:          │
+  │    → Alcohol: GABA↑ = REAL relaxation (muscle tension, anxiety     │
+  │        decreases)                                                   │
+  │    → Cannabis: endocannabinoid = REAL relaxation                    │
+  │    → Nicotine: mild NE = REAL alertness                             │
+  │                                                                     │
+  │    Direct-State reward FROM the substance = REAL at the body-state  │
+  │    level.                                                           │
+  │    PROBLEM: body-state improvement is NOT LASTING,                  │
+  │    + receptors adapt → tolerance → needs more.                      │
+  │    + body-state does NOT improve without the substance (withdrawal). │
+  │                                                                     │
+  │    → Direct-State hijacked = "real gift but temporary + costly."    │
+  │                                                                     │
+  ├─────────────────────────────────────────────────────────────────────┤
+  │                                                                     │
+  │  BOTH A + B SIMULTANEOUSLY — THE MOST DANGEROUS:                   │
+  │                                                                     │
+  │    Most strongly addictive substances attack BOTH types:            │
+  │    → Heroin: Evaluative (opioid directly) +                        │
+  │               Direct-State (pain relief)                            │
+  │    → Cocaine: Evaluative (opioid indirect) +                       │
+  │               Direct-State (energy, alertness)                      │
+  │    → Alcohol: Evaluative (mild opioid) +                           │
+  │               Direct-State (GABA relaxation)                        │
+  │    → MDMA: Evaluative (serotonin → opioid cross) +                 │
+  │               Direct-State (warmth)                                 │
   │                                                                     │
   │    → Multi-channel attack = STRONGER hook:                          │
-  │    body nhận reward từ NHIỀU nguồn đồng thời →                     │
-  │    compile chunk MẠNH hơn (multi-modal compile, Chunk.md §2).      │
+  │    body receives reward from MULTIPLE sources simultaneously →       │
+  │    chunk compiles STRONGER (multi-modal compile, Chunk.md §2).      │
   │                                                                     │
   └─────────────────────────────────────────────────────────────────────┘
 
@@ -489,188 +494,201 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §3.2 — Evaluative Gates Direct-State mechanism × Addiction
 
 ```
-🟡 NORMAL: EVALUATIVE EVALUATION GATES DIRECT-STATE AMPLIFICATION (Reward-Signal-Architecture §3):
+🟡 NORMAL: EVALUATIVE EVALUATION GATES DIRECT-STATE AMPLIFICATION
+   (Reward-Signal-Architecture §3):
 
-  Khi cả A và B fire đồng thời:
-    A positive → B AMPLIFIED (ăn ngon + ấm áp = cả hai tốt hơn)
-    A negative → B SUPPRESSED (ăn ngon nhưng bạn vừa mắng = ăn mất ngon)
-    = A "đánh giá context" → quyết định B có được amplify không.
+  When both A and B fire simultaneously:
+    A positive → B AMPLIFIED (good food + warmth = both feel better)
+    A negative → B SUPPRESSED (good food but a friend just criticized you
+      = food loses its appeal)
+    = A "evaluates context" → determines whether B gets amplified.
 
-  ADDICTION BYPASS GATE NÀY:
+  ADDICTION BYPASSES THIS GATE:
 
-    Chemical → A fire TRỰC TIẾP (không qua evaluation) →
-    B cũng fire (body-state thay đổi thật) →
-    A KHÔNG đánh giá được "B này có tốt lâu dài không?" →
-    = Gate bị vô hiệu hóa → cả A + B fire "unfiltered."
+    Chemical → A fires DIRECTLY (no evaluation) →
+    B also fires (body-state changes for real) →
+    A CANNOT evaluate "is this B good long-term?" →
+    = Gate neutralized → both A + B fire "unfiltered."
 
-    → Giải thích tại sao chất gây nghiện cảm giác "toàn diện":
-    không chỉ 1 loại pleasant mà NHIỀU loại đồng thời (relaxation +
-    euphoria + social ease + confidence...) = multi-type reward
-    không có gate filtering.
+    → Explains why addictive substances feel "total":
+    not just 1 type of pleasant but MULTIPLE simultaneously
+    (relaxation + euphoria + social ease + confidence...) =
+    multi-type reward without gate filtering.
 
-  🔴 HYPOTHESIS: Cường độ nghiện ∝ f(số Type bị bypass × depth)
-    → Heroin (A bypass trực tiếp + B pain relief) = CỰC MẠNH
-    → Caffeine (B nhẹ: alertness) = NHẸ
-    → Cannabis (B: relaxation + A nhẹ) = TRUNG BÌNH
-    → Cần research thêm để xác nhận.
+  🔴 HYPOTHESIS: Addiction intensity ∝ f(number of types bypassed × depth)
+    → Heroin (A bypassed directly + B pain relief) = EXTREME
+    → Caffeine (B mild: alertness) = MILD
+    → Cannabis (B: relaxation + A mild) = MODERATE
+    → Research needed to confirm.
 ```
 
 ---
 
-## §4 — PHÂN LOẠI THEO CƠ CHẾ: 3 NHÓM
+## §4 — CLASSIFICATION BY MECHANISM: 3 GROUPS
 
-### §4.1 — Nghiện Hóa Chất (Chemical Addiction)
+### §4.1 — Chemical Addiction
 
 ```
-🟢🟡 NGUYÊN TẮC: Chất tấn công TRỰC TIẾP hệ thống neurochemical.
+🟢🟡 PRINCIPLE: Substance attacks the neurochemical system DIRECTLY.
 
-  ĐẶC ĐIỂM CHUNG:
-    → Bypass Body-Feedback-Precondition evaluation gate (§2.1 Hijack Point 1)
-    → Receptor downregulate → tolerance
-    → Hormone tự nhiên GIẢM sản xuất
-    → Withdrawal = body threat (nhẹ → cực nặng tùy chất)
-    → Recovery: tháng → năm (receptor upregulate chậm)
+  COMMON FEATURES:
+    → Bypasses Body-Feedback-Precondition evaluation gate (§2.1 Hijack Point 1)
+    → Receptors downregulate → tolerance
+    → Natural hormone production DECREASES
+    → Withdrawal = body threat (mild → extreme, varies by substance)
+    → Recovery: months → years (receptor upregulation is slow)
 
-  ĐỘ NGUY HIỂM = f(bypass depth × speed × receptor specificity):
+  DANGER LEVEL = f(bypass depth × speed × receptor specificity):
 
-    Bypass depth: heroin (mu-opioid TRỰC TIẾP) > cocaine (indirect)
-                  > alcohol (multi-system nhẹ) > caffeine (adenosine block nhẹ)
+    Bypass depth: heroin (mu-opioid DIRECTLY) > cocaine (indirect)
+                  > alcohol (multi-system mild) > caffeine (adenosine
+                  block mild)
 
-    Speed: injection/smoking (giây) > snort (phút) > oral (30+ phút)
-           → Speed ảnh hưởng compile: nhanh hơn = prediction-delta LỚN hơn
-           → = chunk compile MẠNH hơn
+    Speed: injection/smoking (seconds) > snorting (minutes) >
+           oral (30+ minutes)
+           → Speed affects compile: faster = LARGER prediction-delta
+           → = chunk compiles STRONGER
 
-    Receptor specificity: heroin = μ-opioid specific (cực mạnh)
-                          > cocaine = DAT block (dopamine tràn)
-                          > alcohol = multi-system nhẹ (5 hệ thống)
-                          > caffeine = adenosine antagonist (rất nhẹ)
+    Receptor specificity:
+      heroin = μ-opioid specific (extreme)
+      > cocaine = DAT block (dopamine flood)
+      > alcohol = multi-system mild (5 systems)
+      > caffeine = adenosine antagonist (very mild)
 
   DRD4 × CHEMICAL (PFC-Hardware.md):
-    → 7R (threshold cao): cần LIỀU CAO hơn để feel initial effect
-    → 4R (threshold thấp): feel effect ở LIỀU THẤP
-    → 🟢 Có support: ADHD medication 7R cần liều cao hơn
-    → ⚠️ CẢ HAI: reward từ opioid, KHÔNG từ dopamine
+    → 7R (high threshold): needs HIGHER dose to feel initial effect
+    → 4R (low threshold): feels effect at LOWER dose
+    → 🟢 Support: ADHD medication 7R needs higher dose
+    → ⚠️ BOTH: reward comes from opioid, NOT from dopamine
 
-  Chi tiết per-substance: file riêng.
-  Alcohol: Alcohol-Brain-Mechanism.md v1.0 (đã có — 5 hệ thống, BAC gradient).
-  Các chất khác: drill sau nếu cần.
+  Detail per-substance: separate files.
+  Alcohol: Alcohol-Brain-Mechanism.md v1.0 (available — 5 systems, BAC gradient).
+  Other substances: drill later if needed.
 ```
 
-### §4.2 — Nghiện Hành Vi (Behavioral Addiction)
+### §4.2 — Behavioral Addiction
 
 ```
-🟡 NGUYÊN TẮC: Hành vi tạo body reward THẬT từ body-base channels —
-   KHÔNG tấn công hormone trực tiếp, nhưng EXPLOIT weaknesses trong Body-Feedback-Precondition.
+🟡 PRINCIPLE: Behavior creates REAL body reward via body-base channels —
+   does NOT attack hormones directly, but EXPLOITS weaknesses in
+   Body-Feedback-Preconditions.
 
-  ĐẶC ĐIỂM CHUNG:
-    → Body-Feedback-Precondition KHÔNG bị bypass — nhưng bị EXPLOIT:
-      - Variable ratio reinforcement → Precondition-3 Delta-Gate LIÊN TỤC
-      - Low cost behavior → lặp lại DỄ → compile NHANH
-      - Multi-channel reward → multi-modal compile → MẠNH
-    → Receptor KHÔNG downregulate nặng như chất
-    → Withdrawal NHẸ hơn nhiều (không có body threat nặng)
-    → Recovery NHANH hơn (ngày → tuần) — nhưng DỄ TÁI vì nguồn LUÔN available
+  COMMON FEATURES:
+    → Body-Feedback-Preconditions NOT bypassed — but EXPLOITED:
+      - Variable ratio reinforcement → Precondition-3 Delta-Gate CONTINUOUSLY
+      - Low-cost behavior → easy repetition → compile FAST
+      - Multi-channel reward → multi-modal compile → STRONG
+    → Receptors do NOT downregulate as heavily as chemical
+    → Withdrawal MUCH MILDER (no severe body threat)
+    → Recovery FASTER (days → weeks) — but EASY TO RELAPSE because
+        the source is ALWAYS AVAILABLE
 
-  NGUYÊN LÝ PHÂN BIỆT VỚI CHEMICAL:
+  DISTINGUISHING PRINCIPLE FROM CHEMICAL:
 
-    Chemical: BYPASS evaluation gate → deliver reward TRỰC TIẾP.
-    Behavioral: EXPLOIT gate → deliver reward QUA gate nhưng ở tần suất/
-               pattern mà gate không designed to handle.
+    Chemical: BYPASSES evaluation gate → delivers reward DIRECTLY.
+    Behavioral: EXPLOITS the gate → delivers reward THROUGH the gate
+               but at a frequency/pattern the gate was not designed to handle.
 
-    Ví dụ: cờ bạc
-      → Near-miss: VTA fire delta LỚN ("GẦN THẮNG!") → dopamine alert →
-        body simulate anticipation reward → opioid NHẸ từ anticipation →
-        gate evaluate: "gần thắng = có giá trị" → ✅ (gate ĐÚNG: gần thắng
-        IS informative signal) → nhưng ở tần suất slot machine → exploit
-      → 🟢 Clark et al. 2009: near-miss activate reward areas GIỐNG win.
+    Example: gambling
+      → Near-miss: VTA fires LARGE delta ("SO CLOSE!") → dopamine alert →
+        body simulates anticipation reward → mild opioid from anticipation →
+        gate evaluates: "near-miss = valuable" → ✅ (gate CORRECT: near-miss
+        IS an informative signal) → but at slot-machine frequency → exploit
+      → 🟢 Clark et al. 2009: near-miss activates reward areas LIKE a win.
 
-    Ví dụ: MXH scroll
-      → Mỗi scroll = content MỚI → prediction-delta nhỏ → dopamine nhẹ →
-        body check: "liên quan?" → sometimes yes → opioid NHẸ →
-        variable ratio = Skinner schedule → gate ĐÚNG per-event
-        nhưng tổng thể = exploit continuous micro-reward.
+    Example: social media scrolling
+      → Each scroll = NEW content → small prediction-delta → mild dopamine →
+        body checks: "relevant?" → sometimes yes → mild opioid →
+        variable ratio = Skinner schedule → gate CORRECT per-event
+        but total = exploiting continuous micro-reward.
       → 🟢 Meshi et al. 2013 — social media activates NAcc.
 
-    Ví dụ: gaming
+    Example: gaming
       → Multi-channel: mastery + novelty + status + belonging + shared experience
-      → 5+ body-base channels ĐỒNG THỜI → multi-modal compile MẠNH
-      → Game designed: difficulty curve + reward schedule + social hooks
-      → Body reward THẬT per-channel — vấn đề là THAY THẾ real-world channels.
+      → 5+ body-base channels SIMULTANEOUSLY → multi-modal compile STRONG
+      → Games designed: difficulty curve + reward schedule + social hooks
+      → REAL body reward per-channel — the problem is REPLACING real-world
+          channels.
 
 
-  SO SÁNH CHEMICAL vs BEHAVIORAL:
+  CHEMICAL vs BEHAVIORAL COMPARISON:
 
-    ┌──────────────┬──────────────────────┬──────────────────────┐
-    │ Đặc điểm     │ Chemical              │ Behavioral            │
-    ├──────────────┼──────────────────────┼──────────────────────┤
-    │ Body-Feedback-Precondition │ BYPASS (phá cửa sau) │ EXPLOIT (lách cửa    │
-    │              │                      │ trước ở tần suất cao) │
-    ├──────────────┼──────────────────────┼──────────────────────┤
-    │ Receptor     │ Downregulate NẶNG    │ Downregulate NHẸ     │
-    ├──────────────┼──────────────────────┼──────────────────────┤
-    │ Hormone      │ Sản xuất tự nhiên    │ Sản xuất tự nhiên    │
-    │ tự nhiên     │ GIẢM                 │ VẪN bình thường       │
-    ├──────────────┼──────────────────────┼──────────────────────┤
-    │ Withdrawal   │ Body threat          │ Bồn chồn, restless   │
-    │              │ (nhẹ → chết)         │ (không đe dọa sinh   │
-    │              │                      │ mạng)                 │
-    ├──────────────┼──────────────────────┼──────────────────────┤
-    │ Recovery     │ Tháng → năm          │ Ngày → tuần          │
-    ├──────────────┼──────────────────────┼──────────────────────┤
-    │ Tái phạm     │ Schema cũ LUÔN CÒN  │ Nguồn LUÔN available │
-    │              │ (chunk không xóa)    │ (phone, food, game)   │
-    └──────────────┴──────────────────────┴──────────────────────┘
+    ┌──────────────────┬──────────────────────┬──────────────────────┐
+    │ Feature          │ Chemical             │ Behavioral           │
+    ├──────────────────┼──────────────────────┼──────────────────────┤
+    │ Preconditions    │ BYPASSED             │ EXPLOITED (slips      │
+    │                  │ (breaks back door)   │ through front door    │
+    │                  │                      │ at high frequency)    │
+    ├──────────────────┼──────────────────────┼──────────────────────┤
+    │ Receptors        │ HEAVY downregulation │ MILD downregulation  │
+    ├──────────────────┼──────────────────────┼──────────────────────┤
+    │ Natural hormone  │ Production DECREASES │ Production REMAINS   │
+    │ production       │                      │ normal               │
+    ├──────────────────┼──────────────────────┼──────────────────────┤
+    │ Withdrawal       │ Body threat          │ Restlessness         │
+    │                  │ (mild → fatal)       │ (not life-           │
+    │                  │                      │ threatening)         │
+    ├──────────────────┼──────────────────────┼──────────────────────┤
+    │ Recovery         │ Months → years       │ Days → weeks         │
+    ├──────────────────┼──────────────────────┼──────────────────────┤
+    │ Relapse risk     │ Old schema ALWAYS    │ Source ALWAYS        │
+    │                  │ present (chunks      │ available (phone,    │
+    │                  │ not deleted)         │ food, games)         │
+    └──────────────────┴──────────────────────┴──────────────────────┘
 ```
 
-### §4.3 — Nghiện Schema (Schema-Based Addiction)
+### §4.3 — Schema-Based Addiction
 
 ```
-🟡🔴 NGUYÊN TẮC: Schema compiled quá sâu → TỰ DRIVE liên tục →
-   override body "đủ rồi" signal.
+🟡🔴 PRINCIPLE: Schema compiled too deeply → CONTINUOUSLY SELF-DRIVES →
+   overrides the body's "enough" signal.
 
   V7.8 REFRAME:
-    v2: "Schema override body-base signals"
-    v7.8: Chunk network compiled [hành vi X → body-need met] NHƯNG
-          chunk network CŨNG compiled [chưa đủ X → threat] →
-          2 chunk sets compete → "chưa đủ" chunk SET THẮNG liên tục.
+    v2: "Schema overrides body-base signals"
+    v7.8: Chunk network compiled [behavior X → body-need met] BUT
+          chunk network ALSO compiled [not enough X → threat] →
+          2 chunk sets compete → the "not enough" chunk set WINS continuously.
 
-  ĐẶC ĐIỂM KHÁC VỚI 2 NHÓM TRÊN:
-    → KHÔNG có hóa chất, KHÔNG có hành vi cụ thể "nghiện"
-    → Compile qua Pathway 2 (Trust Install) hoặc 3 (Social Default):
-      "Phải hoàn hảo" → từ cha mẹ/culture compile vào → child trusts → installs
-    → Body reward NHỎ nhưng LIÊN TỤC:
-      mỗi lần comply schema → reward NHẸ ("tôi đang làm đúng")
-    → Body "đủ rồi" signal → bị override bởi schema ("chưa đủ hoàn hảo")
-    → = Reward-Calibration.md: Goldilocks zone bị DISTORT bởi compiled schema
+  HOW THIS DIFFERS FROM THE OTHER 2 GROUPS:
+    → NO chemical, NO specific behavior that is "addicted to"
+    → Compiled via Pathway 2 (Trust Install) or 3 (Social Default):
+      "Must be perfect" → compiled from parent/culture → child trusts →
+      installs
+    → Body reward SMALL but CONTINUOUS:
+      each time schema is complied with → mild reward ("I'm doing it right")
+    → Body's "enough" signal → overridden by schema ("not perfect enough")
+    → = Reward-Calibration.md: Goldilocks zone DISTORTED by compiled schema
 
-  VÍ DỤ QUA V7.8:
+  EXAMPLES THROUGH V7.8:
 
     Perfectionism:
-      → Chunk network: [hoàn hảo → an toàn → reward] + [chưa hoàn hảo → threat]
-      → Mỗi lần "đủ tốt" → body signal satisfaction → NHƯNG chunk "chưa hoàn hảo"
-        fire → threat → override satisfaction → tiếp tục → loop.
-      → = Compile-Taxonomy: chunk "chưa đủ" compiled via Pathway 4 (Threat Avoidance)
-        + Pathway 2 (Trust: cha mẹ nói "phải hoàn hảo").
+      → Chunk network: [perfect → safe → reward] + [not perfect → threat]
+      → Each time "good enough" → body signals satisfaction → BUT chunk
+        "not perfect" fires → threat → overrides satisfaction → continues → loop.
+      → = Compile-Taxonomy: "not enough" chunk compiled via Pathway 4
+          (Threat Avoidance) + Pathway 2 (Trust: parent said "must be perfect").
 
-    Workaholic:
-      → Chunk network: [làm việc → mastery + status → reward] +
-        [không làm → mất status → threat]
-      → Cortisol Role ② Holding: PFC hold "công việc chưa xong" →
-        cortisol sustained → không thể relax.
-      → PFC-Configuration: stuck ở Drive-PFC-Strategic → không shift được.
+    Workaholism:
+      → Chunk network: [work → mastery + status → reward] +
+        [not working → lose status → threat]
+      → Cortisol Role ② Holding: PFC holds "unfinished work" →
+        cortisol sustained → unable to relax.
+      → PFC-Configuration: stuck in Drive-PFC-Strategic → cannot shift.
 
     People-pleasing:
-      → Chunk network: [người khác vui → connection reward] +
-        [người khác không vui → connection threat]
-      → Self-Pattern-Modeling Compiled fire liên tục → body respond người khác → exhaust
-      → Empathy v2.0: burnout = f(Valence-Momentary cao / Valence-Structural thấp).
+      → Chunk network: [others happy → connection reward] +
+        [others unhappy → connection threat]
+      → Self-Pattern-Modeling Compiled fires continuously → body responds
+        to others → exhaustion
+      → Empathy v2.0: burnout = f(Valence-Momentary high / Valence-Structural low).
 
-  RECOVERY schema-based = KHÓ NHẤT:
-    → Schema = identity level ("tôi là ai")
-    → Bỏ schema = identity threat → Meaning.md v2.0: anchor disrupted
-    → PFC phải draft schema MỚI override schema cũ
-    → Chunk cũ KHÔNG XÓA ĐƯỢC (Chunk.md: never delete) → chỉ probability shift
-    → = Cần compile chunk set MỚI mạnh hơn chunk set cũ.
+  RECOVERY FROM SCHEMA-BASED = HARDEST:
+    → Schema = identity level ("who I am")
+    → Abandoning schema = identity threat → Meaning.md v2.0: anchor disrupted
+    → PFC must draft NEW schema to override old schema
+    → Old chunks CANNOT BE DELETED (Chunk.md: never delete) →
+        only probability shift
+    → = Must compile a NEW chunk set STRONGER than the old one.
 ```
 
 ---
@@ -680,134 +698,145 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §5.1 — Hypothesis: Substance as Coupled Entity
 
 ```
-🔴 HYPOTHESIS MỚI — SUBSTANCE TRỞ THÀNH BODY-COUPLED ENTITY:
+🔴 NEW HYPOTHESIS — SUBSTANCE BECOMES A BODY-COUPLED ENTITY:
 
-  Body-Coupling.md v1.1: coupling xảy ra khi |❸| per-entity valence
-  compile đủ sâu → entity trở thành phần cấu trúc của body-base.
+  Body-Coupling.md v1.1: coupling occurs when per-entity valence
+  compiles deeply enough → entity becomes a structural part of body-base.
 
-  SUBSTANCE CÓ THỂ TRỞ THÀNH "ENTITY" TRONG HỆ THỐNG COUPLING KHÔNG?
+  CAN A SUBSTANCE BECOME AN "ENTITY" IN THE COUPLING SYSTEM?
 
   Argument FOR:
-    → Repeated use + strong reward → positive ❸ builds dần
-    → Substance trở thành phần body-base: "uống cà phê buổi sáng = tôi"
-    → Removal → body responds TƯƠNG TỰ mất entity coupled:
+    → Repeated use + strong reward → positive valence builds gradually
+    → Substance becomes part of body-base: "morning coffee = me"
+    → Removal → body responds SIMILAR to losing a coupled entity:
       grief-like response (disorientation, yearning, emptiness)
     → Body-Coupling: Phase 1 (initiate) → Phase 2 (threshold) →
-      Phase 3 (sustain) — timeline tương ứng 4-phase addiction
+      Phase 3 (sustain) — timeline corresponds to 4-phase addiction
 
-  Argument AGAINST (quan trọng):
-    → Entity coupling trong Body-Coupling.md = PER-AGENT (con người)
-    → Substance = OBJECT, không phải agent
-    → Valence-Propagation §2: "Object KHÔNG BAO GIỜ có Body-Base Extension dimension"
-    → Coupling require Self-Pattern-Modeling (Self-Pattern-Modeling) → substance có Self-Pattern-Modeling không?
+  Argument AGAINST (important):
+    → Entity coupling in Body-Coupling.md = PER-AGENT (humans)
+    → Substance = OBJECT, not an agent
+    → Valence-Propagation §2: "Object NEVER has the Body-Base Extension
+        dimension"
+    → Coupling requires Self-Pattern-Modeling → does a substance have
+        Self-Pattern-Modeling?
 
   RESOLUTION — PARTIAL COUPLING:
-    → Substance KHÔNG couple ở mức agent (no Self-Pattern-Modeling, no Valence-Structural reward)
-    → Substance CÓ THỂ couple ở mức BODY-STATE:
-      Body state khi dùng substance = "normal"
-      Body state khi KHÔNG dùng = "abnormal, threatening"
-      = Body-BASE SHIFT, không phải agent coupling.
-    → Gần hơn với Body-Feedback-Mechanism.md:
-      Quality Baseline Shift (§5) — baseline DI CHUYỂN
+    → Substance does NOT couple at the agent level (no Self-Pattern-Modeling,
+        no Valence-Structural reward)
+    → Substance MAY couple at the BODY-STATE level:
+      Body state while using substance = "normal"
+      Body state WITHOUT substance = "abnormal, threatening"
+      = BODY-BASE SHIFT, not agent coupling.
+    → Closer to Body-Feedback-Mechanism.md:
+      Quality Baseline Shift (§5) — baseline MOVES
       → removal = Chunk-Miss (baseline expected, not present)
     → = WITHDRAWAL = body-base baseline disruption + cortisol amplification,
-      KHÔNG phải agent-level grief.
+      NOT agent-level grief.
 
-  ⚠️ NHƯNG: heavy addiction withdrawal CÓ grief-like features
+  ⚠️ BUT: heavy addiction withdrawal DOES have grief-like features
     (yearning, identity disruption, emptiness) → partial overlap.
-    Framework honest: mechanism chính xác CHƯA hoàn toàn rõ.
+    Framework honest: the exact mechanism is NOT yet fully clear.
 ```
 
-### §5.2 — Withdrawal Mechanism qua v7.8
+### §5.2 — Withdrawal Mechanism through v7.8
 
 ```
-🟡 WITHDRAWAL = BODY-BASE BASELINE BỊ PHÁ VỠ + CORTISOL AMPLIFICATION:
+🟡 WITHDRAWAL = BODY-BASE BASELINE DISRUPTED + CORTISOL AMPLIFICATION:
 
-  ① RECEPTOR DOWNREGULATION (Tolerance đã xảy ra):
-     → Body giảm receptor sensitivity + giảm sản xuất hormone tự nhiên
-     → Baseline MỚI = "có chất = normal"
-     → Removal chất = baseline bị PHÁ:
-       hormone tự nhiên CỰC THẤP + receptor CHƯA upregulate kịp
+  ① RECEPTOR DOWNREGULATION (Tolerance has already occurred):
+     → Body reduces receptor sensitivity + reduces natural hormone production
+     → NEW baseline = "with substance = normal"
+     → Removing the substance = baseline BREAKS:
+       natural hormones EXTREMELY LOW + receptors haven't yet upregulated
 
   ② CHUNK-MISS DYNAMICS (Body-Feedback-Mechanism §3):
-     → Body EXPECT body-state X (có chất) → body-state X KHÔNG ĐẾN
-     → = Chunk-Miss: expected pattern không match reality
-     → Dissonance signal MẠNH — tỷ lệ thuận với mức độ expect
+     → Body EXPECTS body-state X (with substance) → body-state X DOESN'T ARRIVE
+     → = Chunk-Miss: expected pattern doesn't match reality
+     → Dissonance signal STRONG — proportional to the degree of expectation
 
   ③ CORTISOL AMPLIFICATION (Cortisol-Baseline.md §7.7):
      → Withdrawal = threat → cortisol sustained
-     → Cortisol Role ① Compile Direction: tag withdrawal = THREAT
-     → Cortisol Role ② Holding: PFC hold "cần chất" → cannot release
-     → Cortisol Role ④ Inertia: withdrawal cortisol KÉOẢI dù đã qua peak
-     → = Cortisol KHÔNG gây withdrawal, nhưng KHUẾCH ĐẠI + KÉO DÀI
+     → Cortisol Role ① Compile Direction: tags withdrawal = THREAT
+     → Cortisol Role ② Holding: PFC holds "need substance" → cannot release
+     → Cortisol Role ④ Inertia: withdrawal cortisol PROLONGS even past peak
+     → = Cortisol does NOT cause withdrawal, but AMPLIFIES + EXTENDS it
 
   ④ PFC DEGRADATION:
      → Chronic substance use → PFC dendrite retraction
        (Cortisol-Baseline.md §9: PFC damage timeline)
-     → Withdrawal + cortisol → PFC tiếp tục yếu →
-       decision-making IMPAIRED → relapse probability TĂNG
-     → = Vòng xoắn: withdrawal → cortisol → PFC yếu → khó cưỡng → relapse
+     → Withdrawal + cortisol → PFC continues to weaken →
+       decision-making IMPAIRED → relapse probability INCREASES
+     → = Spiral: withdrawal → cortisol → weakened PFC →
+         harder to resist → relapse
 
-  ⑤ GRADIENT WITHDRAWAL SEVERITY:
-     → Chemical: Heroin > Alcohol (lâu năm) > Cocaine > Nicotine > Cannabis > Caffeine
-     → Behavioral: NHẸ hơn nhiều (không receptor downregulate nặng)
-     → Schema: identity crisis (không phải body withdrawal)
+  ⑤ WITHDRAWAL SEVERITY GRADIENT:
+     → Chemical: Heroin > Alcohol (long-term) > Cocaine > Nicotine >
+                  Cannabis > Caffeine
+     → Behavioral: MUCH MILDER (no heavy receptor downregulation)
+     → Schema: identity crisis (not a body withdrawal)
 
   🟢 Koob 2008 — anti-reward, allostatic load.
   🟢 Arnsten 2009 — PFC dysfunction under stress.
-  🟢 Valenzuela 1997 — GABA-A downreg + NMDA upreg (alcohol-specific).
+  🟢 Valenzuela 1997 — GABA-A downregulation + NMDA upregulation
+       (alcohol-specific).
 ```
 
 ---
 
-## §6 — PFC-CONFIGURATION × CÁC GIAI ĐOẠN NGHIỆN
+## §6 — PFC-CONFIGURATION × ADDICTION STAGES
 
 ```
-🟡 PFC-CONFIGURATION.MD V1.0: 6 DYNAMIC MODES.
-   MỖI GIAI ĐOẠN NGHIỆN → PFC Ở MODE KHÁC:
+🟡 PFC-CONFIGURATION.MD v1.0: 6 DYNAMIC MODES.
+   EACH ADDICTION STAGE → PFC IN A DIFFERENT MODE:
 
   ┌──────────────────┬──────────────────────┬──────────────────────────┐
-  │ Giai đoạn        │ PFC Config           │ Mechanism                │
+  │ Stage            │ PFC Config           │ Mechanism                │
   ├──────────────────┼──────────────────────┼──────────────────────────┤
-  │ Lần đầu thử     │ Config ① Normal       │ PFC evaluate bình thường │
-  │                  │                      │ → "thử xem"              │
-  │                  │                      │ → body reward → PFC note │
+  │ First try        │ Config ① Normal      │ PFC evaluates normally   │
+  │                  │                      │ → "let's try this"       │
+  │                  │                      │ → body reward → PFC notes│
   ├──────────────────┼──────────────────────┼──────────────────────────┤
   │ Regular use      │ Config ① → ②         │ Substance-seeking tasks  │
-  │ (Phase 1-2)     │ Reallocation         │ gets more PFC bandwidth  │
-  │                  │                      │ → self-monitoring GIẢM   │
-  │                  │                      │ → "biết hại nhưng mặc kệ"│
+  │ (Phase 1–2)      │ Reallocation         │ get more PFC bandwidth   │
+  │                  │                      │ → self-monitoring        │
+  │                  │                      │   DECREASES              │
+  │                  │                      │ → "know it's harmful     │
+  │                  │                      │    but don't care"       │
   ├──────────────────┼──────────────────────┼──────────────────────────┤
-  │ Craving intense  │ Config ② extreme     │ PFC bandwidth ĐỔHẾT vào │
-  │                  │ → approaching ④      │ seeking → other functions│
-  │                  │                      │ gần mất → approaching    │
-  │                  │                      │ subcortical takeover     │
+  │ Intense craving  │ Config ② extreme     │ PFC bandwidth ALL GOES   │
+  │                  │ → approaching ④      │ into seeking → other     │
+  │                  │                      │ functions nearly lost    │
+  │                  │                      │ → approaching subcortical│
+  │                  │                      │   takeover               │
   ├──────────────────┼──────────────────────┼──────────────────────────┤
-  │ Withdrawal       │ Config ④             │ Cortisol cực cao + NE    │
-  │ (Phase 3-4)     │ Disconnected         │ flood → PFC OFFLINE →    │
+  │ Withdrawal       │ Config ④             │ Extreme cortisol + NE    │
+  │ (Phase 3–4)      │ Disconnected         │ flood → PFC OFFLINE →    │
   │                  │                      │ subcortical takeover →   │
   │                  │                      │ compiled chunks RUN →    │
   │                  │                      │ relapse probability MAX  │
   ├──────────────────┼──────────────────────┼──────────────────────────┤
-  │ "Using despite   │ Config ② + ④         │ PFC alternate giữa      │
-  │  knowing"        │ oscillation          │ "biết hại" (①→②) và     │
-  │                  │                      │ "không cưỡng được" (④)   │
-  │                  │                      │ → oscillation = torment  │
+  │ "Using despite   │ Config ② + ④         │ PFC alternates between   │
+  │  knowing"        │ oscillation          │ "knowing it's harmful"   │
+  │                  │                      │ (①→②) and "can't resist" │
+  │                  │                      │ (④) → oscillation =      │
+  │                  │                      │ torment                  │
   ├──────────────────┼──────────────────────┼──────────────────────────┤
-  │ Recovery         │ Config ① stable      │ PFC cần STABLE Config ①  │
-  │                  │ (cần rebuild)        │ để hold new schemas →    │
-  │                  │                      │ compile competing chunks │
-  │                  │                      │ → CẦN safe environment   │
+  │ Recovery         │ Config ① stable      │ PFC needs STABLE Config  │
+  │                  │ (needs rebuilding)   │ ① to hold new schemas →  │
+  │                  │                      │ compile competing chunks  │
+  │                  │                      │ → REQUIRES safe           │
+  │                  │                      │   environment            │
   └──────────────────┴──────────────────────┴──────────────────────────┘
 
   ⭐ KEY INSIGHT:
-    → "Biết hại mà vẫn dùng" = KHÔNG phải thiếu ý chí.
-    → = PFC Config ④ (offline) khi craving/withdrawal →
-      subcortical compiled chunks RUN → PFC không can thiệp được.
+    → "Knowing it's harmful but still using" = NOT a lack of willpower.
+    → = PFC Config ④ (offline) during craving/withdrawal →
+      compiled subcortical chunks RUN → PFC cannot intervene.
     → = PFC-Function.md: PFC ~200ms+, amygdala ~12ms →
-      compiled addiction chunk fire TRƯỚC PFC can intervene.
-    → = Tương tự tay rụt khỏi bếp nóng trước khi "biết nóng" —
-      body respond trước, PFC biết sau.
+      compiled addiction chunk fires BEFORE PFC can intervene.
+    → = Similar to your hand pulling away from a hot stove before you
+        "know" it's hot — the body responds first, PFC learns after.
 
   🟢 Goldstein & Volkow 2011 — impaired prefrontal function in addiction.
   🟢 Arnsten 2009 — stress-induced PFC dysfunction.
@@ -818,62 +847,70 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §7 — RECOVERY = RE-COMPILATION PATHWAY
 
-### §7.1 — Nguyên lý: Chunk không xóa, chỉ compete
+### §7.1 — Principle: Chunks are not deleted, only compete
 
 ```
-🟡 CHUNK.MD V2.1: BRAIN KHÔNG BAO GIỜ XÓA CHUNK.
-   Recovery = KHÔNG "xóa nghiện." Recovery = BUILD chunk set MỚI mạnh hơn.
+🟡 CHUNK.MD v2.1: THE BRAIN NEVER DELETES A CHUNK.
+   Recovery = NOT "erasing addiction." Recovery = BUILDING a new stronger
+   chunk set.
 
-  ① Chunk nghiện VẪN TỒN TẠI — chỉ activation probability GIẢM.
-     → Trigger (context, stress, people) → chunk CÓ THỂ fire lại
-     → = Tại sao relapse CÓ THỂ xảy ra NHIỀU NĂM sau cai
+  ① Addiction chunks STILL EXIST — only activation probability DECREASES.
+     → Trigger (context, stress, people) → chunk MAY fire again
+     → = Why relapse CAN occur MANY YEARS after quitting
      → = Chunk.md: "never delete — only probability shift"
 
-  ② Recovery = compile chunk set MỚI competing cùng trigger:
-     → Trigger cũ: [stress → dùng chất → reward]
-     → Chunk mới: [stress → exercise → reward THẬT] hoặc
-                  [stress → gọi bạn → connection reward]
-     → 2 chunk sets compete → chunk MẠNH HƠN win
-     → Recovery = làm chunk mới MẠNH hơn chunk cũ
+  ② Recovery = compile a NEW chunk set competing on the same trigger:
+     → Old trigger: [stress → use substance → reward]
+     → New chunk: [stress → exercise → REAL reward] or
+                  [stress → call a friend → connection reward]
+     → 2 chunk sets compete → the STRONGER one wins
+     → Recovery = making the new chunk STRONGER than the old one
 
-  ③ Chunk mới compile CHẬM (cùng 4 mechanisms: repetition + emotional peak
-     + multi-modal + sleep):
-     → Chunk nghiện đã compile NHIỀU NĂM → rất mạnh
-     → Chunk mới bắt đầu từ 0 → cần THỜI GIAN + LẶP LẠI + SLEEP
-     → = Tại sao recovery = process dài, không phải event
+  ③ New chunks compile SLOWLY (same 4 mechanisms: repetition + emotional
+     peak + multi-modal + sleep):
+     → Addiction chunk compiled over MANY YEARS → very strong
+     → New chunk starts from 0 → needs TIME + REPETITION + SLEEP
+     → = Why recovery = a long process, not a single event
 
-  ④ ENVIRONMENT quan trọng:
-     → Environment chứa TRIGGER → chunk nghiện fire → probability TĂNG lại
-     → Environment MỚI = ít trigger → chunk mới có SPACE compile
-     → 🟢 Alexander 1978 "Rat Park": chuột có environment tốt → ít nghiện
-     → = Environment xóa trigger surface → cho chunk mới cơ hội
+  ④ ENVIRONMENT matters:
+     → Environment contains TRIGGERS → addiction chunk fires →
+         probability RISES again
+     → NEW environment = fewer triggers → new chunk has SPACE to compile
+     → 🟢 Alexander 1978 "Rat Park": rats with a good environment →
+         less addiction
+     → = Environment reduces the trigger surface → gives the new chunk
+         a chance
 ```
 
 ### §7.2 — Direct-State as Recovery Floor
 
 ```
-🟡 Reward-Signal-Architecture V1.0 §1.4: DIRECT-STATE = "EVOLUTIONARY FLOOR" — ALWAYS AVAILABLE.
+🟡 REWARD-SIGNAL-ARCHITECTURE V1.0 §1.4:
+   DIRECT-STATE = "EVOLUTIONARY FLOOR" — ALWAYS AVAILABLE.
 
-  Evaluative: CÓ THỂ bị damage bởi addiction
-    → Receptor downregulate → E₁-E₃ evaluation impaired
-    → Anhedonia: "ăn mà không thấy ngon, nghe nhạc mà emptiness"
+  Evaluative: MAY be damaged by addiction
+    → Receptor downregulation → E₁–E₃ evaluation impaired
+    → Anhedonia: "eating without taste, listening to music and feeling empty"
 
-  Direct-State: HARDWARE-BASED → VẪN accessible
-    → Touch comfort: CT afferents VẪN hoạt động
-    → Exercise: endocannabinoid pathway VẪN hoạt động
-    → Warmth, stretching: interoceptive pathways VẪN hoạt động
+  Direct-State: HARDWARE-BASED → STILL accessible
+    → Touch comfort: CT afferents STILL functional
+    → Exercise: endocannabinoid pathway STILL functional
+    → Warmth, stretching: interoceptive pathways STILL functional
 
-  → DIRECT-STATE = "BACKDOOR" KHI EVALUATIVE BỊ STUCK:
-    → Anhedonia (A exhausted) → B vẫn có thể provide BASELINE reward
-    → Body-oriented approaches: exercise, massage, yoga, nature walk
-    → 🟢 Van der Kolk 2014: body-oriented therapy effective for trauma/addiction
-    → = Activate B pathways → body gets SOME reward →
-      cortisol giảm nhẹ → PFC stabilize → Config ① possible →
-      A recovery can BEGIN
+  → DIRECT-STATE = "BACKDOOR" WHEN EVALUATIVE IS STUCK:
+    → Anhedonia (Evaluative exhausted) → Direct-State can still provide
+        BASELINE reward
+    → Body-oriented approaches: exercise, massage, yoga, walk in nature
+    → 🟢 Van der Kolk 2014: body-oriented therapy effective for
+        trauma/addiction
+    → = Activate Direct-State pathways → body gets SOME reward →
+      cortisol decreases slightly → PFC stabilizes → Config ① possible →
+      Evaluative recovery can BEGIN
 
   → Recovery pathway:
-    B floor (stabilize) → PFC Config ① (rebuild) → A gradually recovers →
-    new chunks compile → competing with addiction chunks
+    Direct-State floor (stabilize) → PFC Config ① (rebuild) →
+    Evaluative gradually recovers → new chunks compile →
+    competing with addiction chunks
 ```
 
 ### §7.3 — Social Coupling as Recovery Resource
@@ -882,23 +919,31 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 CONNECTION.MD V3.1 + BODY-COUPLING.MD V1.1:
 
   Social connection provides:
-    → Valence-Momentary reward (Self-Pattern-Modeling-owned — gặp bạn → cảm giác tốt)
-    → Valence-Structural reward (Entity-compiled — bạn thân = body-base extension)
-    → = ALTERNATIVE reward source không cần substance
+    → Valence-Momentary reward (Self-Pattern-Modeling-owned —
+        seeing a friend → feels good)
+    → Valence-Structural reward (Entity-compiled — a close friend =
+        body-base extension)
+    → = ALTERNATIVE reward source that doesn't require the substance
 
   Recovery programs (AA, NA, therapy groups):
-    → Group = connection reward THẬT
-    → Shared experience = Self-Pattern-Modeling Compiled fire → empathy → Valence-Momentary reward
-    → Sustained relationship = Valence-Structural coupling builds → structural support
-    → = Body-Coupling: positive coupling với người MỚI →
-      competing với substance "coupling"
+    → Group = REAL connection reward
+    → Shared experience = Self-Pattern-Modeling Compiled fires →
+        empathy → Valence-Momentary reward
+    → Sustained relationship = Valence-Structural coupling builds →
+        structural support
+    → = Body-Coupling: positive coupling with NEW people →
+      competing with substance "coupling"
 
-  ⚠️ NHƯNG:
-    → Addiction đã DAMAGE connection capacity:
-      - PFC weakened → Self-Pattern-Modeling impaired → connection khó hơn
-      - Trust chunks: nhiều người nghiện đã phá trust → chunk [people → threat]
-      - Isolation → ít connection chunks → Self-Pattern-Modeling library NGHÈO
-    → = Recovery cần PATIENCE + safe context cho Self-Pattern-Modeling rebuild
+  ⚠️ BUT:
+    → Addiction has DAMAGED connection capacity:
+      - PFC weakened → Self-Pattern-Modeling impaired →
+          connection harder
+      - Trust chunks: many people with addiction have broken trust →
+          chunk [people → threat]
+      - Isolation → fewer connection chunks →
+          Self-Pattern-Modeling library IMPOVERISHED
+    → = Recovery needs PATIENCE + safe context for
+        Self-Pattern-Modeling to rebuild
 
   🟢 Heilig et al. 2016 — social factors in addiction recovery.
   🟢 Kelly et al. 2020 — AA mechanism: social network change.
@@ -907,35 +952,36 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §7.4 — Compile-Taxonomy × Recovery
 
 ```
-🟡 COMPILE-TAXONOMY.MD V1.1: Recovery chunks compile qua 4 pathways —
-   nhưng KHÁC NHAU per-pathway:
+🟡 COMPILE-TAXONOMY.MD V1.1: Recovery chunks compile via 4 pathways —
+   but DIFFERENTLY per pathway:
 
-  Pathway 1 — Hardware Fit (body tự reward):
-    → Exercise → endorphin/endocannabinoid → body reward THẬT
+  Pathway 1 — Hardware Fit (body rewards itself):
+    → Exercise → endorphin/endocannabinoid → REAL body reward
     → Repeat → compile [exercise → reward] → competing chunk
-    → MẠNH vì body reward THẬT (không cần trust, không cần social)
-    → = Pathway phục hồi TỰ NHIÊN nhất
+    → STRONG because reward is REAL (no trust needed, no social needed)
+    → = The MOST NATURAL recovery pathway
 
   Pathway 2 — Trust Install:
-    → Therapist/sponsor nói "bạn có thể hồi phục"
-    → Trust compile → chunk [recovery → possible]
-    → QUAN TRỌNG cho giai đoạn đầu khi body chưa cho reward
-    → ⚠️ Trust fragile: 1 relapse → "trust sai → mình không thể"
+    → Therapist/sponsor says "you can recover"
+    → Trust compiles → chunk [recovery → possible]
+    → IMPORTANT in the early phase when the body isn't yet providing reward
+    → ⚠️ Trust is fragile: 1 relapse → "trust was wrong → I can't"
 
   Pathway 3 — Social Default:
-    → Recovery community: "mọi người ở đây đều đang recovery"
-    → Social default: recovery = norm → compile nhẹ nhàng
-    → = AA/NA model: collective default shift
+    → Recovery community: "everyone here is recovering"
+    → Social default: recovery = norm → compiles gently
+    → = The AA/NA model: collective default shift
 
   Pathway 4 — Threat Avoidance:
-    → "Nếu dùng lại → mất gia đình, mất việc"
-    → Compile [dùng lại → threat] → avoidance chunk
-    → ⚠️ Pathway này KHÔNG TẠO reward — chỉ tạo avoidance
-    → Không sustainable nếu KHÔNG có Pathway 1-3 bổ sung
+    → "If I use again → lose my family, lose my job"
+    → Compiles [relapse → threat] → avoidance chunk
+    → ⚠️ This pathway does NOT create reward — only avoidance
+    → Not sustainable unless Pathways 1–3 also contribute
 
-  → Recovery TỐT NHẤT: multi-pathway simultaneously.
-    Body exercise (1) + therapist trust (2) + recovery group (3) + consequences aware (4)
-    = 4 pathways compile CÙNG LÚC → new chunks MẠNH nhanh hơn.
+  → BEST RECOVERY: multiple pathways simultaneously.
+    Body exercise (1) + therapist trust (2) + recovery group (3) +
+    awareness of consequences (4)
+    = 4 pathways compile SIMULTANEOUSLY → new chunks become STRONGER faster.
 ```
 
 ---
@@ -943,54 +989,56 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §8 — SELF-MEDICATION PATTERN
 
 ```
-🟡 SELF-MEDICATION: DÙNG CHẤT ĐỂ XỬ LÝ DISSONANCE CÓ SẴN.
+🟡 SELF-MEDICATION: USING A SUBSTANCE TO HANDLE PRE-EXISTING DISSONANCE.
 
-  Pattern phổ biến: người có dissonance lâu dài (anxiety, depression,
-  trauma, loneliness) → tìm substance → substance GIẢM dissonance →
-  "thuốc" → dependency.
+  Common pattern: a person with long-term dissonance (anxiety, depression,
+  trauma, loneliness) → finds a substance → substance REDUCES dissonance →
+  "medicine" → dependency.
 
 
-  QUA V7.8:
+  THROUGH V7.8:
 
-  ① Dissonance tồn tại (nhiều nguồn):
+  ① Dissonance exists (multiple sources):
      → Social isolation → Connection dissonance
      → Trauma → Background-Pattern.md: compiled threat pattern
      → Anxiety → Cortisol Role ② Holding: sustained cortisol
-     → Boredom → Boredom.md: Imagine-Final chưa rõ + dissonance nhẹ liên tục
+     → Boredom → Boredom.md: Imagine-Final unclear + mild continuous dissonance
 
-  ② Substance GIẢM dissonance THẬT (ngắn hạn):
-     → Alcohol: GABA↑ → anxiety GIẢM THẬT (Direct-State: body-state improves)
-     → Cannabis: endocannabinoid → relaxation THẬT
-     → Opioids: pain relief THẬT (cả physical VÀ emotional pain)
-     → = Body-Feedback-Mechanism.md: Chunk-Miss giảm (expected state MET)
+  ② Substance REDUCES dissonance FOR REAL (short-term):
+     → Alcohol: GABA↑ → anxiety ACTUALLY DECREASES (Direct-State:
+         body-state improves)
+     → Cannabis: endocannabinoid → REAL relaxation
+     → Opioids: REAL pain relief (both physical AND emotional pain)
+     → = Body-Feedback-Mechanism.md: Chunk-Miss decreases
+         (expected state MET)
 
-  ③ Loop hình thành:
-     → Dissonance → substance → relief (reward) → dissonance quay lại
-       (vì ROOT CAUSE chưa resolved) → substance lại → tolerance →
-       cần nhiều hơn → dependency
-     → = Body learn: [dissonance → substance → relief]
-     → Chunk compile VÀ strengthen mỗi lần lặp
+  ③ Loop forms:
+     → Dissonance → substance → relief (reward) → dissonance returns
+       (because ROOT CAUSE unresolved) → substance again → tolerance →
+       needs more → dependency
+     → = Body learns: [dissonance → substance → relief]
+     → Chunk compiles AND strengthens with each repetition
 
-  ④ Root cause VẪN INTACT:
-     → Substance chỉ giảm SYMPTOM (dissonance), không fix SOURCE
-     → Isolation vẫn isolation. Trauma pattern vẫn intact.
-     → = Giống uống thuốc giảm đau mà không chữa xương gãy
+  ④ Root cause STILL INTACT:
+     → Substance only reduces the SYMPTOM (dissonance), doesn't fix the SOURCE
+     → Isolation is still isolation. Trauma pattern still intact.
+     → = Like taking painkillers without fixing a broken bone
 
 
   SELF-MEDICATION × PFC-CONFIGURATION:
 
-    → Dissonance sustained → cortisol sustained →
+    → Sustained dissonance → sustained cortisol →
       PFC approaching Config ④ (Disconnected) →
-      decision quality GIẢM → substance = "easy fix" →
-      PFC khi dùng substance: temporary shift ① (GABA relax PFC) →
-      "cảm giác bình thường trở lại" → reinforce
+      decision quality DECREASES → substance = "easy fix" →
+      PFC while using substance: temporary shift to ① (GABA relaxes PFC) →
+      "feels normal again" → reinforces
 
-    → = Tại sao self-medication CỰC KHÓ bỏ:
-      substance = ONLY thing that restores Config ① temporarily.
-      Bỏ → Config ④ (or approaching) → CHỊU KHÔNG NỔI → quay lại.
+    → = Why self-medication is EXTREMELY HARD to quit:
+      substance = THE ONLY thing that temporarily restores Config ①.
+      Quit → Config ④ (or approaching) → UNBEARABLE → returns.
 
-    → Recovery: phải fix ROOT CAUSE (trauma, isolation, anxiety)
-      → PFC stable ở Config ① WITHOUT substance
+    → Recovery: must fix ROOT CAUSE (trauma, isolation, anxiety)
+      → PFC stable at Config ① WITHOUT substance
       → THEN substance no longer needed for self-medication.
 
 
@@ -1006,101 +1054,114 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
   ┌──────────────────────────────────────┬──────────────────────┐
-  │ Claim                                │ Confidence             │
+  │ Claim                                │ Confidence           │
   ├──────────────────────────────────────┼──────────────────────┤
-  │ Dopamine ≠ reward                    │ 🟢 Berridge 1998+     │
-  │ 4-phase progression                  │ 🟢 Koob & Volkow      │
-  │ Receptor downregulation → tolerance  │ 🟢 Established         │
-  │ PFC impaired in addiction            │ 🟢 Goldstein 2011     │
-  │ Self-medication pattern              │ 🟢 Khantzian 1985     │
-  │ Environment affects recovery         │ 🟢 Alexander 1978     │
-  │ Body-oriented therapy effective      │ 🟢 Van der Kolk 2014  │
+  │ Dopamine ≠ reward                    │ 🟢 Berridge 1998+    │
+  │ 4-phase progression                  │ 🟢 Koob & Volkow     │
+  │ Receptor downregulation → tolerance  │ 🟢 Established       │
+  │ PFC impaired in addiction            │ 🟢 Goldstein 2011    │
+  │ Self-medication pattern              │ 🟢 Khantzian 1985    │
+  │ Environment affects recovery         │ 🟢 Alexander 1978    │
+  │ Body-oriented therapy effective      │ 🟢 Van der Kolk 2014 │
   ├──────────────────────────────────────┼──────────────────────┤
-  │ Body-Feedback-Precondition bypass model (§2.1) │ 🟡 Framework synthesis │
-  │ Evaluative/Direct-State × addiction mapping (§3)   │ 🟡 Framework synthesis │
-  │ 4-phase × chunk dynamics (§2.2)     │ 🟡 Framework synthesis │
-  │ PFC-Config × addiction stages (§6)  │ 🟡 Framework synthesis │
-  │ Recovery = re-compilation (§7)      │ 🟡 Framework synthesis │
-  │ Schema-based addiction (§4.3)       │ 🟡 Framework synthesis │
+  │ Body-Feedback-Precondition bypass    │ 🟡 Framework         │
+  │   model (§2.1)                       │    synthesis         │
+  │ Evaluative/Direct-State × addiction  │ 🟡 Framework         │
+  │   mapping (§3)                       │    synthesis         │
+  │ 4-phase × chunk dynamics (§2.2)      │ 🟡 Framework         │
+  │                                      │    synthesis         │
+  │ PFC-Config × addiction stages (§6)   │ 🟡 Framework         │
+  │                                      │    synthesis         │
+  │ Recovery = re-compilation (§7)       │ 🟡 Framework         │
+  │                                      │    synthesis         │
+  │ Schema-based addiction (§4.3)        │ 🟡 Framework         │
+  │                                      │    synthesis         │
   ├──────────────────────────────────────┼──────────────────────┤
-  │ Substance as body-coupling (§5.1)   │ 🔴 Hypothesis          │
-  │ Evaluative Gates Direct-State bypass model (§3.2)       │ 🔴 Hypothesis          │
-  │ Addiction severity formula (§3.2)   │ 🔴 Hypothesis          │
-  │ Config oscillation model (§6)       │ 🔴 Hypothesis          │
+  │ Substance as body-coupling (§5.1)    │ 🔴 Hypothesis        │
+  │ Evaluative Gates Direct-State bypass │ 🔴 Hypothesis        │
+  │   model (§3.2)                       │                      │
+  │ Addiction severity formula (§3.2)    │ 🔴 Hypothesis        │
+  │ Config oscillation model (§6)        │ 🔴 Hypothesis        │
   └──────────────────────────────────────┴──────────────────────┘
 ```
 
-### §9.2 — What Framework ADDS vs What Already Exists
+### §9.2 — What the Framework ADDS vs What Already Exists
 
 ```
-🟡 FRAMEWORK KHÔNG "PHÁT MINH" ADDICTION THEORY.
-   Framework REFRAME existing knowledge qua v7.8 architecture:
+🟡 THE FRAMEWORK DID NOT "INVENT" ADDICTION THEORY.
+   Framework REFRAMES existing knowledge through v7.8 architecture:
 
-  ĐÃ CÓ (framework đồng ý + cite):
-    → Berridge wanting ≠ liking → framework ĐỒNG Ý + thêm 7-step mechanism
-    → Koob allostatic model → framework ĐỒNG Ý + reframe bằng chunk dynamics
-    → Khantzian self-medication → framework ĐỒNG Ý + reframe bằng dissonance
-    → Goldstein PFC impairment → framework ĐỒNG Ý + map vào 6 Config modes
+  ALREADY ESTABLISHED (framework agrees + cites):
+    → Berridge wanting ≠ liking → framework AGREES + adds 7-step mechanism
+    → Koob allostatic model → framework AGREES + reframes with chunk dynamics
+    → Khantzian self-medication → framework AGREES + reframes with dissonance
+    → Goldstein PFC impairment → framework AGREES + maps into 6 Config modes
 
-  FRAMEWORK THÊM:
-    → Body-Feedback-Precondition bypass model: formalize TẠI SAO substance bypass body-base check
-    → Evaluative/Direct-State × addiction: formalize LOẠI REWARD NÀO bị tấn công
+  WHAT FRAMEWORK ADDS:
+    → Body-Feedback-Precondition bypass model: formalizes WHY substance
+        bypasses the body-base check
+    → Evaluative/Direct-State × addiction: formalizes WHICH TYPE OF REWARD
+        is being attacked
     → Chunk competition model: recovery = new chunks vs addiction chunks
-    → PFC-Configuration × stages: formalize PFC state per-phase
+    → PFC-Configuration × stages: formalizes PFC state per-phase
     → Compile-Taxonomy × recovery: 4 pathways for building competing chunks
 
-  FRAMEWORK CHƯA GIẢI QUYẾT:
-    → Substance as coupled entity: partial hypothesis, chưa rõ mechanism
+  WHAT FRAMEWORK HAS NOT YET RESOLVED:
+    → Substance as coupled entity: partial hypothesis, mechanism not yet clear
     → Evaluative Gates Direct-State bypass: logical but untested
-    → Individual variation: DRD4 × substance-specific → cần research
-    → Behavioral addiction boundary: khi nào "thói quen" thành "nghiện"?
+    → Individual variation: DRD4 × substance-specific → research needed
+    → Behavioral addiction boundary: when does "habit" become "addiction"?
 ```
 
 ### §9.3 — Open Questions
 
 ```
-  Q1: "Healthy addiction" có tồn tại không?
-      → "Nghiện" exercise, "nghiện" sáng tạo, "nghiện" học?
-      → = Body reward THẬT + phục vụ body-need THẬT
-      → Nếu Body-Feedback-Precondition preconditions MET + body-need THẬT → gọi "addiction"?
-      → Hay gọi "sustained drive" / "flow" / "Imagine-Final pursuit"?
-      → Framework lean: nếu body reward THẬT + need THẬT → KHÔNG phải addiction
-        (vì cycle DỪNG tự nhiên khi need met).
-      → ⚠️ NHƯNG: exercise CÓ THỂ trở thành compulsive (injury ignore)
-        → boundary CHƯA rõ.
+  Q1: Does "healthy addiction" exist?
+      → "Addicted" to exercise, "addicted" to creativity, "addicted" to learning?
+      → = Real body reward + serving a REAL body-need
+      → If all Body-Feedback-Preconditions ARE MET + body-need is REAL →
+          call it "addiction"?
+      → Or call it "sustained drive" / "flow" / "Imagine-Final pursuit"?
+      → Framework leans: if body reward is REAL + need is REAL →
+          NOT addiction (because cycle STOPS naturally when need is met).
+      → ⚠️ BUT: exercise CAN become compulsive (ignoring injury)
+          → boundary NOT yet clear.
 
   Q2: Behavioral addiction boundary?
-      → Khi nào scroll MXH = thói quen vs nghiện?
-      → Khi nào gaming = hobby vs nghiện?
-      → Framework suggest: khi behavior KHÔNG DỪNG dù body signals dissonance
-        (fatigue, isolation, pain) → override body = addiction territory.
-      → NHƯNG: threshold CHƯA quantifiable.
+      → When does social media scrolling = habit vs addiction?
+      → When does gaming = hobby vs addiction?
+      → Framework suggests: when behavior DOESN'T STOP despite body
+          signaling dissonance (fatigue, isolation, pain) → overriding
+          body = addiction territory.
+      → BUT: threshold is NOT yet quantifiable.
 
   Q3: AI addiction?
-      → AI conversation = Novelty (chunks mới) + Coherence (hiểu) +
-        "Being Seen" (AI "hiểu" bạn) → body reward từ 3+ channels
-      → GIỐNG MXH nhưng SÂU HƠN (personalized + interactive + responsive)
+      → AI conversation = Novelty (new chunks) + Coherence (being understood)
+        + "Being Seen" (AI "gets" you) → body reward from 3+ channels
+      → SIMILAR TO social media but DEEPER
+          (personalized + interactive + responsive)
       → Behavioral addiction pattern applicable?
-      → 🔴 Chưa có research (quá mới).
+      → 🔴 No research yet (too new).
 
   Q4: Cross-substance interaction?
       → Alcohol + nicotine: synergy? Competitive? Independent?
-      → Multi-substance user: body-coupling với MỖI substance hay TỔNG THỂ?
-      → Framework chưa model interaction between substances.
+      → Multi-substance user: body-coupling with EACH substance or TOTAL?
+      → Framework hasn't yet modeled substance interactions.
 
   Q5: Epigenetic transmission?
-      → Cha/mẹ nghiện → con có baseline KHÁC? Receptor density khác?
+      → Parent with addiction → does the child have a DIFFERENT baseline?
+          Different receptor density?
       → Framework: "hardware sets range, chunks choose position"
-        (Core-Hardware.md §6) → epigenetic = range shift?
+          (Core-Hardware.md §6) → epigenetic = range shift?
       → 🟢 Vassoler et al. 2014 — epigenetic changes in offspring of addicts.
-      → Mechanism qua v7.8: CHƯA model.
+      → Mechanism through v7.8: NOT yet modeled.
 
   Q6: Schema-based addiction × OCD?
-      → OCD-Analysis.md v2.1: 3-tuyến model (anxiety / habit / mixed)
-      → Schema-based addiction (perfectionism, control) overlap OCD?
-      → Framework predict: KHÁC mechanism gốc (OCD = serotonin-mediated
-        3-tuyến, schema addiction = trust-installed compile) NHƯNG surface
-        behavior có thể giống → misdiagnosis risk.
+      → OCD-Analysis.md v2.1: 3-system model (anxiety / habit / mixed)
+      → Schema-based addiction (perfectionism, control) overlaps with OCD?
+      → Framework predicts: DIFFERENT root mechanism (OCD = serotonin-mediated
+          3-system; schema addiction = trust-installed compile) BUT surface
+          behavior can look similar → misdiagnosis risk.
 ```
 
 ---
@@ -1108,63 +1169,67 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §10 — CROSS-REFERENCES
 
 ```
-  CORE FILES (mechanism foundation):
-    → Core-Software.md v1.0 — cycle architecture, 7-step
-    → Core-Hardware.md v1.0 — 4 zones, PFC reach gradient
-    → Chunk.md v2.1 — compile, never delete, probability-weighted activation
-    → Chunk-Activation-Dynamics.md — probability, competitive re-linking, trigger surface
+CORE FILES (mechanism foundation):
+  → Core-Software.md v1.0 — cycle architecture, 7-step
+  → Core-Hardware.md v1.0 — 4 zones, PFC reach gradient
+  → Chunk.md v2.1 — compile, never delete, probability-weighted activation
+  → Chunk-Activation-Dynamics.md — probability, competitive re-linking,
+      trigger surface
 
-  REWARD SYSTEM (bị hijack):
-    → 03-Reward.md v1.1 — Body-Feedback-Precondition 5 preconditions, 7-step VTA
-    → Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, E₀→E₃, Evaluative Gates Direct-State
-    → Reward-Calibration.md v1.1 — Goldilocks, over-reward, premature compilation
-    → Dopamine-Is-Not-Reward.md v1.1 — dopamine ≠ reward, 7 bằng chứng
-    → Liking-Wanting.md v1.0 — bridge Berridge, wanting mechanisms
+REWARD SYSTEM (hijacked):
+  → 03-Reward.md v1.1 — Body-Feedback-Precondition 5 preconditions, 7-step VTA
+  → Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, E₀→E₃,
+      Evaluative Gates Direct-State
+  → Reward-Calibration.md v1.1 — Goldilocks, over-reward, premature compilation
+  → Dopamine-Is-Not-Reward.md v1.1 — dopamine ≠ reward, 7 pieces of evidence
+  → Liking-Wanting.md v1.0 — bridge Berridge, wanting mechanisms
 
-  BODY SYSTEM (withdrawal + coupling):
-    → Body-Feedback-Mechanism.md v1.2 — Sensory/Pattern-Driven, Chunk-Shift/Miss/Gap
-    → Body-Coupling.md v1.1 — |❸| Depth × Direction, Extension/Entanglement
-    → Cortisol-Baseline.md v2.0 — amplifier, 5 Roles, novelty vs threat
+BODY SYSTEM (withdrawal + coupling):
+  → Body-Feedback-Mechanism.md v1.2 — Sensory/Pattern-Driven, Chunk-Shift/Miss/Gap
+  → Body-Coupling.md v1.1 — valence Depth × Direction, Extension/Entanglement
+  → Cortisol-Baseline.md v2.0 — amplifier, 5 Roles, novelty vs threat
 
-  PFC SYSTEM (impairment + recovery):
-    → PFC-Configuration.md v1.0 — 6 modes, survival matrix
-    → PFC-Function.md v1.2 — 24 functions, PFC offline
-    → PFC-Hardware.md v1.1 — COMT, DRD4, individual variation
+PFC SYSTEM (impairment + recovery):
+  → PFC-Configuration.md v1.0 — 6 modes, survival matrix
+  → PFC-Function.md v1.2 — 24 functions, PFC offline
+  → PFC-Hardware.md v1.1 — COMT, DRD4, individual variation
 
-  COMPILE + RECOVERY:
-    → Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 4 pathways
-    → Background-Pattern.md v1.1 — invisible bias, sleep = accelerator
-    → Connection.md v3.2 — social coupling, Valence-Momentary/Valence-Structural reward
+COMPILE + RECOVERY:
+  → Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 4 pathways
+  → Background-Pattern.md v1.1 — invisible bias, sleep = accelerator
+  → Connection.md v3.2 — social coupling, Valence-Momentary/Valence-Structural
+      reward
 
-  HEALTH CONDITIONS DRILL (v3.1):
+HEALTH CONDITIONS DRILL (v3.1):
 
-    3 MISCONCEPTIONS UNIFIED PATTERN (Nicotine-Brain-Mechanism.md §5):
-      → Nicotine: ① "stress relief" (actually: withdrawal relief) ② "focus enhancer"
-        (actually: baseline restore) ③ "social facilitator" (actually: anxiety relief)
-      → = Pattern: WITHDRAWAL MASQUERADES as benefit → applies to ALL substance addiction
-      → Same pattern in caffeine, alcohol, benzodiazepines → generalized addiction misconception
+  3 MISCONCEPTIONS UNIFIED PATTERN (Nicotine-Brain-Mechanism.md §5):
+    → Nicotine: ① "stress relief" (actually: withdrawal relief)
+                ② "focus enhancer" (actually: baseline restore)
+                ③ "social facilitator" (actually: anxiety relief)
+    → = Pattern: WITHDRAWAL MASQUERADES AS BENEFIT →
+          applies to ALL substance addiction
+    → Same pattern in caffeine, alcohol, benzodiazepines →
+          generalized addiction misconception
 
-    PTSD SELF-MEDICATION BRIDGE (PTSD-Analysis.md §12.1):
-      → 🟢 Khantzian 1985: self-medication hypothesis
-      → PTSD → chronic hyperarousal/dysphoria → substance USE = attempted regulation
-      → Framework: context-free chunks fire → body in threat → substance DAMPENS signal
-      → NOT "weak willpower" — BODY SEEKING REGULATION via available tools
+  PTSD SELF-MEDICATION BRIDGE (PTSD-Analysis.md §12.1):
+    → 🟢 Khantzian 1985: self-medication hypothesis
+    → PTSD → chronic hyperarousal/dysphoria → substance use =
+          attempted self-regulation
+    → Framework: context-free chunks fire → body in threat →
+          substance DAMPENS signal
+    → NOT "weak willpower" — BODY SEEKING REGULATION
+          via available tools
 
-    Cross-refs:
-      → Nicotine-Brain-Mechanism.md v1.1 §5 (3 misconceptions)
-      → PTSD-Analysis.md v1.0 §12.1 (self-medication bridge)
+  Cross-refs:
+    → Nicotine-Brain-Mechanism.md v1.1 §5 (3 misconceptions)
+    → PTSD-Analysis.md v1.0 §12.1 (self-medication bridge)
 
-  SUBSTANCE-SPECIFIC (drill files):
-    → Alcohol-Brain-Mechanism.md v1.0 — ethanol × 5 hệ thống não
-    → Alcohol-Vietnam-Generational.md v1.0 — VN context
+SUBSTANCE-SPECIFIC (drill files):
+  → Alcohol-Brain-Mechanism.md v1.0 — ethanol × 5 brain systems
+  → Alcohol-Vietnam-Generational.md v1.0 — Vietnamese context
 
-  RELATED RESEARCH:
-    → OCD-Analysis.md v2.1 — overlap schema-based addiction? (Q6)
-    → Boredom.md — dissonance + self-medication trigger
-    → Meaning.md v2.0 — identity anchor × schema addiction
-
-  BACKUP (superseded):
-    → backup/Addiction-Analysis-v2.md — v7.5 framing, insight cốt lõi giữ lại
-    → backup/Addiction-Analysis.md — v7.0, historical
-    → backup/Chemical-Enhancement-Notes.md — raw notes, partial coverage
+RELATED RESEARCH:
+  → OCD-Analysis.md v2.1 — overlap schema-based addiction? (Q6)
+  → Boredom.md — dissonance + self-medication trigger
+  → Meaning.md v2.0 — identity anchor × schema addiction
 ```

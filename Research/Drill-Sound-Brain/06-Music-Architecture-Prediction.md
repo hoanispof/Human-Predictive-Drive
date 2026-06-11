@@ -1,18 +1,18 @@
-﻿---
-title: Music Architecture × Prediction Architecture — Tại Sao Nhạc Cấu Trúc Như Vậy
+---
+title: Music Architecture × Prediction Architecture — Why Music Is Structured the Way It Is
 version: 1.2
 created: 2026-05-29
 updated: 2026-05-29 (v1.2 — Large&Palmer journal fixed (Cognitive Science), Bowling&Purves "across cultures" nuanced (debate with McDermott 2016))
 status: REFERENCE v1.1
 scope: |
-  FOUNDATIONAL REFERENCE: Kiến trúc âm nhạc phổ thông = f(kiến trúc prediction của não).
+  FOUNDATIONAL REFERENCE: Universal music architecture = f(brain prediction architecture).
   Hard numbers + established research + undeniable structural facts.
-  6 hệ thống cấu trúc (Pitch, Rhythm, Harmony, Form, Repetition, Cross-Cultural).
-  Framework mapping: mỗi feature cấu trúc = OPTIMIZE prediction-delta delivery.
-  KHÔNG culturally biased claim — phân tách universal vs learned rõ ràng.
+  6 structural systems (Pitch, Rhythm, Harmony, Form, Repetition, Cross-Cultural).
+  Framework mapping: each structural feature = OPTIMIZES prediction-delta delivery.
+  NO culturally biased claims — universal vs learned clearly distinguished.
 purpose: |
-  03-Musical-Notation-Architecture.md mô tả music notation AS communication format.
-  File NÀY khác: KHÔNG mô tả notation, mà hỏi TẠI SAO music cấu trúc thế.
+  03-Musical-Notation-Architecture.md describes music notation AS a communication format.
+  THIS file is different: it does NOT describe notation, but asks WHY music is structured this way.
   Music architecture = NOT arbitrary. Each feature = f(brain prediction constraint).
   Tonic exists BECAUSE brain needs prediction anchor.
   BPM exists BECAUSE neural oscillators need sync signal.
@@ -21,13 +21,13 @@ purpose: |
   = Music architecture maps to Gap-Direction + Reward Pipeline + Body-Feedback.
 position: |
   Research/Drill-Sound-Brain/ — foundational reference.
-  Đọc SAU 01 (evidence) + 03 (reward pipeline).
-  Đọc TRƯỚC 07 (entrainment + reward dynamics).
-  COMPLEMENT 03-Musical-Notation-Architecture (notation = WHAT; file này = WHY).
+  Read AFTER 01 (evidence) + 03 (reward pipeline).
+  Read BEFORE 07 (entrainment + reward dynamics).
+  COMPLEMENT 03-Musical-Notation-Architecture (notation = WHAT; this file = WHY).
 dependencies:
   primary:
     - Prediction-Error-Is-Not-Reward.md v2.0 — PE + coherence + Goldilocks
-    - Gap-Direction.md v2.0 — gap has direction, "chưa biết = không có gap"
+    - Gap-Direction.md v2.0 — gap has direction, "no knowledge = no gap"
     - Body-Feedback-Mechanism.md v2.1 — chunk dynamics, prediction-delta
   secondary:
     - Background-Pattern.md v2.0 — gist extraction, Triple Bias
@@ -40,34 +40,34 @@ dependencies:
   within_drill:
     - 02-Sound-Background-Pattern.md — gist, genre, satiation
     - 03-Sound-Reward-Pipeline.md — 7-step, Cheung 2019
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Music Architecture × Prediction Architecture — Tại Sao Nhạc Cấu Trúc Như Vậy
+# Music Architecture × Prediction Architecture — Why Music Is Structured the Way It Is
 
-> **~94% nhạc pop = 4/4.**
-> **BPM phổ biến nhất = 120 (= 2 bước/giây = tốc độ đi bộ nhanh).**
-> **I-V-vi-IV = 4 hợp âm xuất hiện trong HÀNG TRĂM hit.**
-> **Verse-chorus chiếm 80-90%+ Billboard từ 1980s.**
-> **Bài hit lặp lại nhiều hơn bài bình thường 3-6%.**
+> **~94% of pop music = 4/4.**
+> **Most common BPM = 120 (= 2 steps/second = brisk walking pace).**
+> **I-V-vi-IV = 4 chords appearing in HUNDREDS of hits.**
+> **Verse-chorus = 80-90%+ of Billboard since the 1980s.**
+> **Hit songs are 3-6% more repetitive than average songs.**
 >
-> **Tại sao?**
+> **Why?**
 >
-> **Không phải ngẫu nhiên. Không phải chỉ "truyền thống."**
+> **Not random. Not just "tradition."**
 > **Music architecture = f(brain prediction architecture).**
 >
-> **Não cần prediction anchor → nhạc có TONIC CENTER.**
-> **Não cần phase-locking signal → nhạc có BPM ĐỀU ĐẶN.**
-> **Não cần oscillation prediction-delta → nhạc có VERSE-CHORUS.**
-> **Não cần training data → nhạc có REPETITION.**
-> **Não cần gap-open → gap-fill cycle → nhạc có TENSION-RESOLUTION.**
+> **Brain needs prediction anchor → music has TONIC CENTER.**
+> **Brain needs phase-locking signal → music has REGULAR BPM.**
+> **Brain needs oscillating prediction-delta → music has VERSE-CHORUS.**
+> **Brain needs training data → music has REPETITION.**
+> **Brain needs gap-open → gap-fill cycle → music has TENSION-RESOLUTION.**
 >
-> **File này: KIẾN TRÚC nào, DATA cụ thể, và TẠI SAO nó khớp prediction.**
+> **This file: WHICH architecture features, SPECIFIC data, and WHY each matches prediction.**
 
 ---
 
-## Mục lục
+## Table of Contents
 
 - §0 — Thesis: Music Architecture = Prediction Architecture Optimization
 - §1 — Pitch System: 12 Notes, Tonal Hierarchy, Tonic Center
@@ -77,7 +77,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §5 — Repetition: Why Music Repeats Itself
 - §6 — Cross-Cultural: Universal vs Learned
 - §7 — Framework Mapping: Each Feature = Prediction Constraint
-- §8 — Non-Standard Structures: Tại Sao Hiếm + Khi Nào Thành Công
+- §8 — Non-Standard Structures: Why They're Rare + When They Succeed
 - §9 — Honest Assessment
 - §10 — Cross-References
 
@@ -88,28 +88,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐ CORE THESIS:
 
-  Music architecture KHÔNG arbitrary.
-  Mỗi feature cấu trúc = giải pháp cho 1 CONSTRAINT
-  của prediction architecture trong não.
+  Music architecture is NOT arbitrary.
+  Each structural feature = a solution to 1 CONSTRAINT
+  of the prediction architecture in the brain.
 
   ┌───────────────────────┬──────────────────────────────────────────┐
   │ Brain Constraint       │ Music Solution                          │
   ├───────────────────────┼──────────────────────────────────────────┤
-  │ Prediction cần anchor │ Tonic center (home note)                │
-  │ Oscillators cần sync  │ BPM đều đặn                             │
-  │ PE cần Goldilocks     │ Verse-chorus oscillation                │
-  │ Model cần training    │ Repetition (chorus, hook, riff)         │
-  │ Gap cần fill cycle    │ Tension → Resolution                    │
-  │ Attention có giới hạn │ Song length ~3-4 phút                   │
-  │ Motor cortex entrain  │ 4/4 time (binary, dễ entrain)          │
+  │ Prediction needs anchor│ Tonic center (home note)                │
+  │ Oscillators need sync  │ Regular BPM                             │
+  │ PE needs Goldilocks   │ Verse-chorus oscillation                │
+  │ Model needs training  │ Repetition (chorus, hook, riff)         │
+  │ Gap needs fill cycle  │ Tension → Resolution                    │
+  │ Attention has limits  │ Song length ~3-4 minutes                │
+  │ Motor cortex entrains │ 4/4 time (binary, easy to entrain)      │
   │ Precision per-person  │ Genre complexity spectrum               │
   └───────────────────────┴──────────────────────────────────────────┘
 
-  = KHÔNG PHẢI nhạc "bắt chước" não.
-  = Nhạc mà KO khớp prediction architecture → KHÔNG SỐNG SÓT.
-  = Natural selection ở cultural level:
-    nhạc khớp não → người nghe → truyền → sống
-    nhạc ko khớp → bỏ qua → chết
+  = NOT that music "imitates" the brain.
+  = Music that does NOT match prediction architecture → DID NOT SURVIVE.
+  = Natural selection at cultural level:
+    music matches brain → people listen → it spreads → survives
+    music mismatches → ignored → dies
   = Music = cultural product SHAPED BY prediction constraints.
 
   ⚠️ v1.1: Prediction optimization = NOT sole driver.
@@ -131,41 +131,41 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟢 12-TONE EQUAL TEMPERAMENT (12-TET):
 
-  Mỗi octave chia thành 12 nốt đều nhau.
-  Mỗi nốt = tần số × 2^(1/12) ≈ 1.05946 so với nốt trước.
-  12 nốt × 1.05946 = ×2 → octave = gấp đôi tần số.
+  Each octave divided into 12 equal notes.
+  Each note = frequency × 2^(1/12) ≈ 1.05946 relative to the previous.
+  12 notes × 1.05946 = ×2 → octave = double the frequency.
 
-  TẠI SAO 12?
-    → 12 xấp xỉ TỐT NHẤT các tỉ lệ tự nhiên:
-      Perfect fifth (3:2) ≈ 7 semitones (2^(7/12) = 1.4983, sai ~2 cents)
+  WHY 12?
+    → 12 BEST approximates natural ratios:
+      Perfect fifth (3:2) ≈ 7 semitones (2^(7/12) = 1.4983, error ~2 cents)
       Perfect fourth (4:3) ≈ 5 semitones
       Major third (5:4) ≈ 4 semitones
-    → 12 quãng Pythagorean fifths liên tiếp vượt 7 octaves
-      chênh ~23.46 cents (Pythagorean comma)
-    → 12-TET phân bổ sai số ĐỀU qua 12 nốt (~2 cents mỗi nốt)
-    → = Compromise TỐI ƯU: đủ chính xác + cho phép chuyển giọng tự do
+    → 12 consecutive Pythagorean fifths exceed 7 octaves
+      by ~23.46 cents (Pythagorean comma)
+    → 12-TET distributes the error EVENLY across 12 notes (~2 cents per note)
+    → = OPTIMAL compromise: precise enough + allows free modulation
 
-  LỊCH SỬ:
-    → Zhu Zaiyu (Trung Quốc, 1584): tính 12th root of 2
-    → Simon Stevin (Hà Lan, ~1585): mô tả tương tự
-    → Bach era (~1700s): phổ biến hóa qua Well-Tempered Clavier
+  HISTORY:
+    → Zhu Zaiyu (China, 1584): calculated 12th root of 2
+    → Simon Stevin (Netherlands, ~1585): described similarly
+    → Bach era (~1700s): popularized through Well-Tempered Clavier
 
-  HỆ THỐNG KHÁC TỒN TẠI:
+  OTHER SYSTEMS EXIST:
     → 24-TET (Arabic quarter-tones)
     → 19-TET, 31-TET, 53-TET (microtonal)
-    → Gamelan (Indonesia): 5 hoặc 7 nốt, KHÔNG equal-tempered
-    → = 12-TET KHÔNG phải "duy nhất đúng" — là "phổ biến nhất"
+    → Gamelan (Indonesia): 5 or 7 notes, NOT equal-tempered
+    → = 12-TET is NOT "the only correct system" — it is "the most widespread"
 
-  🟢 Mathematical fact — không debatable
+  🟢 Mathematical fact — not debatable
 ```
 
 ### §1.2 — Tonal Hierarchy: Brain Ranks Notes
 
 ```
-🟢 PROBE-TONE PROFILES — BRAIN TỰ ĐỘNG XẾP HẠNG NỐT:
+🟢 PROBE-TONE PROFILES — BRAIN AUTOMATICALLY RANKS NOTES:
 
   🟢 Krumhansl & Kessler 1982 (Psychological Review):
-    Method: play tonal context → probe single tone → listener rate "fit"
+    Method: play tonal context → probe single tone → listener rates "fit"
     Finding: listeners CONSISTENTLY rank:
       Tonic > Fifth > Third > Other diatonic > Chromatic
     → = Tonal HIERARCHY, not equal-importance
@@ -174,20 +174,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → 🟢 Castellano, Bharucha & Krumhansl 1984:
       North Indian raga listeners → ANALOGOUS hierarchy (Sa > Pa > Ga...)
     → 🟢 Kessler, Hansen & Shepard 1984:
-      Balinese music → hierarchical structure tồn tại
+      Balinese music → hierarchical structure exists
     → 🟢 2021 (Music Perception, UC Press):
-      Rock music → "less differentiated" nhưng hierarchy VẪN CÓ
+      Rock music → "less differentiated" but hierarchy STILL EXISTS
     → = Cross-cultural, cross-genre. ROBUST finding.
 
   🟢 Janata et al. 2002 (Science):
     rmPFC (rostromedial PFC) ACTIVELY TRACKS tonal center
-    khi music modulate qua các keys
-    → Tonal center = MAINTAINED REPRESENTATION trong PFC
-    → PFC continuously update "home" = tonic
+    as music modulates across keys
+    → Tonal center = MAINTAINED REPRESENTATION in PFC
+    → PFC continuously updates "home" = tonic
 
   🟢 Hannon & Trainor 2007:
-    6 tháng: respond broadly (native + foreign tonal structures)
-    12 tháng: culture-specific patterns (adult-like)
+    6 months: responds broadly (native + foreign tonal structures)
+    12 months: culture-specific patterns (adult-like)
     → Tonal hierarchy = LEARNED through enculturation
     → Hardware + exposure → emergence, NOT hardwired per-culture
 ```
@@ -198,27 +198,27 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 FRAMEWORK MAPPING: TONIC = PREDICTION ANCHOR
 
   Gap-Direction.md §1: gap direction = f(surrounding chunk network)
-  Prediction-Error-Is-Not-Reward.md: PE cần BASELINE để compare
+  Prediction-Error-Is-Not-Reward.md: PE needs BASELINE for comparison
 
-  TONIC = BASELINE cho musical prediction:
+  TONIC = BASELINE for musical prediction:
     → Brain builds prediction model CENTERED on tonic
-    → Mọi nốt khác = deviation from baseline
+    → Every other note = deviation from baseline
     → Deviation = prediction-delta → VTA fire → attention
     → Return to tonic = prediction COMPLETION → reward
 
-  VÌ SAO TẤT CẢ MUSIC CẦN "HOME":
-    → Prediction CẦN reference point
-    → Không có reference → mọi nốt EQUIVALENT → không predict được
-    → Không predict → không PE → không reward
+  WHY ALL MUSIC NEEDS A "HOME":
+    → Prediction NEEDS a reference point
+    → No reference → every note EQUIVALENT → cannot predict
+    → Cannot predict → no PE → no reward
     → = Music WITHOUT tonic = random notes = Spotify test
-      (Prediction-Error-Is-Not-Reward.md §3: random = PE nhưng DỞ)
+      (Prediction-Error-Is-Not-Reward.md §3: random = PE but BAD quality)
 
-  TONIC ≠ CỐ ĐỊNH:
-    → Modulation (chuyển giọng) = SHIFT tonic
+  TONIC ≠ FIXED:
+    → Modulation (key change) = SHIFT tonic
     → Brain CAN update → Janata 2002: PFC tracks dynamically
-    → Modulation lên nửa cung cuối bài → prediction anchor SHIFT UP
+    → Modulation up a semitone at song end → prediction anchor SHIFTS UP
     → New tonic = NEW baseline → OLD patterns = slightly unpredicted
-    → = VTA fire lại → energy boost → "hưng phấn cuối bài"
+    → = VTA fires again → energy boost → "lift at the end of the song"
 
   🟢 Tonal hierarchy: established
   🟡 Tonic = prediction anchor: framework mapping (logical, components validated)
@@ -235,16 +235,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟢 Moelants 2002 (7th ICMPC, N=74,000+ pieces):
     Spontaneous motor tempo centers around 120 BPM (~500ms inter-onset)
-    → Revise Fraisse's earlier estimate (~100 BPM)
+    → Revises Fraisse's earlier estimate (~100 BPM)
     → Preferred listening tempo clusters 120-130 BPM
 
-  TẠI SAO 120 BPM?
+  WHY 120 BPM?
     → Brisk walking = 120-130 steps/min
     → Moderate heart rate exercise = 100-130 BPM
     → = Natural RESONANCE FREQUENCY of human locomotion
-    → Body ALREADY oscillates at ~2 Hz → music at 2 Hz = easiest entrain
+    → Body ALREADY oscillates at ~2 Hz → music at 2 Hz = easiest to entrain
 
-  BPM DISTRIBUTION TRONG POPULAR MUSIC:
+  BPM DISTRIBUTION IN POPULAR MUSIC:
     → EDM: ~120-140 BPM
     → Pop: ~100-130 BPM
     → Rock: ~110-140 BPM
@@ -252,10 +252,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Ballad: ~60-80 BPM
     → ⭐ MOST popular music clusters around 100-130 BPM = locomotion zone
 
-  THAY ĐỔI THEO THỜI ĐẠI:
-    → Billboard Hot 100: tempo tăng 1990s→2014 (dance-pop/EDM era)
-    → Giảm với hip-hop dominance + streaming era
-    → Trung bình hiện tại ~110-120 BPM
+  CHANGES OVER TIME:
+    → Billboard Hot 100: tempo increased 1990s→2014 (dance-pop/EDM era)
+    → Decreased with hip-hop dominance + streaming era
+    → Current average ~110-120 BPM
 
   🟢 Moelants 2002: established (74,000+)
   🟢 Locomotion resonance: well-documented
@@ -266,16 +266,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟢 4/4 DOMINANCE — HARD NUMBER:
 
-  ~94% nhạc pop = 4/4 time signature
+  ~94% of pop music = 4/4 time signature
   (Analysis of 440 pop songs; all 17 UK No.1 singles 2018 = 4/4)
   🟢 Aravind et al. 2025 (arXiv, "Skip That Beat"):
     Beat-tracking datasets overwhelmingly 4/4
     Non-4/4 drastically underrepresented
 
-  TẠI SAO 4/4?
+  WHY 4/4?
     → 4/4 = 4 beats per bar = BINARY division (4 = 2²)
-    → Binary = simplest metrical structure cho entrainment
-    → 2 là NHỊP NHỊ PHÂN:
+    → Binary = simplest metrical structure for entrainment
+    → Binary pattern (2):
       Strong-Weak-Strong-Weak (1-2-3-4)
       = Alternating emphasis = easiest prediction
     → Compare 3/4: ternary → less intuitive body entrainment
@@ -286,14 +286,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Low complexity = prediction model builds FASTEST
     → Fast prediction model = reach Goldilocks zone SOONEST
     → = MAXIMUM ACCESSIBILITY (anyone can entrain immediately)
-    → Phức tạp hơn (5/4, 7/8) = cần MORE chunks để predict
+    → More complex (5/4, 7/8) = requires MORE chunks to predict
     → = Body-Feedback-Precondition Precondition-2 barrier HIGHER → smaller audience
 
   NEXT COMMON:
     → 3/4 (waltz): folk, country, ballads
     → 6/8 (compound): ballads, marches
     → 5/4, 7/8: progressive rock, Balkan music, jazz
-    → = Phức tạp hơn → niche audiences
+    → = More complex → niche audiences
 ```
 
 ### §2.3 — BPM × Neural Entrainment
@@ -307,9 +307,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟢 Snyder & Large 2005, replicated Fujioka 2009, 2012:
     Beta oscillations: DECREASE after beat → REBOUND before next beat
-    = ANTICIPATORY: brain "prepare" for next beat
+    = ANTICIPATORY: brain "prepares" for next beat
     Gamma oscillations: fire BEFORE beat → PERSIST even when beat MISSING
-    = Brain PREDICT beat → fire even when absent ("missing pulse")
+    = Brain PREDICTS beat → fires even when absent ("missing pulse")
 
   🟢 Nozaradan et al. 2011 (Journal of Neuroscience):
     EEG steady-state evoked potentials at EXACT beat frequency
@@ -317,8 +317,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     EEG enhanced at IMAGINED meter frequency
     = TOP-DOWN entrainment, not just bottom-up
 
-  ⭐ BPM ĐỀU ĐẶN = SYNCHRONIZATION SIGNAL:
-    → Regular interval → oscillators PHASE-LOCK dễ hơn
+  ⭐ REGULAR BPM = SYNCHRONIZATION SIGNAL:
+    → Regular interval → oscillators PHASE-LOCK more easily
     → Phase-locked oscillators across regions → MORE coherent processing
     → More coherent → better prediction → more compound reward
     → = BPM regularity = optimization for DISTRIBUTED NEURAL SYNC
@@ -363,7 +363,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   HARMONIC RHYTHM:
     🟢 De Clercq 2023 (Musicae Scientiae 27(3)):
-      Common pattern: 1 chord per bar (4 beats) hoặc per 2 beats
+      Common pattern: 1 chord per bar (4 beats) or per 2 beats
       At 120 BPM: 1 bar ≈ 2 seconds
       → Harmonic change every ~2 seconds = manageable prediction rate
 
@@ -385,34 +385,34 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Resolution to expected → release (prediction match → reward)
 
   MECHANISM:
-    V chord (dominant) → "chưa xong" → body: TENSION (gap OPEN)
-    I chord (tonic) → "xong rồi" → body: RESOLUTION (gap FILL)
+    V chord (dominant) → "not finished" → body: TENSION (gap OPEN)
+    I chord (tonic) → "done" → body: RESOLUTION (gap FILL)
     → Dominant → Tonic = STRONGEST resolution in Western harmony
     → ii-V-I = build → peak tension → complete resolution
 
   ⭐ FRAMEWORK MAPPING — Gap-Direction applied:
     
     TENSION = GAP-OPEN:
-      → V chord → brain predict "I should come next"
-      → I CHƯA TỚI → gap: "resolution nên ở đây nhưng chưa có"
+      → V chord → brain predicts "I should come next"
+      → I HAS NOT ARRIVED → gap: "resolution should be here but isn't yet"
       → = Chunk-Gap (Body-Feedback-Mechanism §3.3)
-      → Body signal: bứt rứt nhẹ, chờ đợi, anticipation
+      → Body signal: mild restlessness, waiting, anticipation
       → = prediction-delta + coherence predicted → dopamine (anticipation)
 
     RESOLUTION = GAP-FILL:
-      → I chord arrives → MATCH gap direction CHÍNH XÁC
-      → = Gap-Direction §1: fill match direction → reward
-      → Body signal: thỏa mãn, "đúng rồi", release
+      → I chord arrives → MATCH gap direction PRECISELY
+      → = Gap-Direction §1: fill matches direction → reward
+      → Body signal: satisfaction, "that's it", release
       → = Body-Feedback-Precondition pass → opioid (experience)
 
     DECEPTIVE CADENCE = DIRECTION MISMATCH:
-      → Brain predict I → nhưng nhận vi (relative minor)
-      → = Prediction miss NHƯNG coherent (vi shares notes with I)
+      → Brain predicts I → but receives vi (relative minor)
+      → = Prediction miss BUT coherent (vi shares notes with I)
       → = PE + partial coherence → Cheung 2019 model
-      → Body: "surprise nhưng hay" → VTA fire + partial opioid
+      → Body: "surprise but good" → VTA fire + partial opioid
       → = Goldilocks zone for harmonic surprise
 
-  ⭐ TOÀN BỘ BÀI NHẠC = CHUỖI GAP-OPEN → GAP-FILL:
+  ⭐ THE ENTIRE SONG = A CHAIN OF GAP-OPEN → GAP-FILL:
     Verse: moderate tension (build)
     Pre-chorus: increasing tension (gap widening)
     Chorus: resolution (gap fill — partial or full)
@@ -427,36 +427,36 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §3b — Hierarchical Nesting: Tension-Resolution ở MỌI Cấp Độ
+## §3b — Hierarchical Nesting: Tension-Resolution at EVERY Level
 
 ```
-⭐⭐ FRACTAL STRUCTURE — CÙNG PATTERN, MỌI TIMESCALE:
+⭐⭐ FRACTAL STRUCTURE — SAME PATTERN, EVERY TIMESCALE:
 
-  Tension-resolution KHÔNG chỉ xảy ra ở level bài nhạc (intro→peak→resolve).
-  Nó xảy ra ĐỒNG THỜI ở MỌI cấp độ — từ 1 beat tới cả bài.
-  = HIERARCHICAL NESTING = cùng nguyên tắc, lặp lại ở mỗi zoom level.
+  Tension-resolution does NOT only occur at the song level (intro→peak→resolve).
+  It occurs SIMULTANEOUSLY at EVERY level — from 1 beat to the whole song.
+  = HIERARCHICAL NESTING = same principle, repeated at each zoom level.
 
 
-  ═══ CẤP 1 — TRONG 1 BEAT (~500ms) ═══
+  ═══ LEVEL 1 — WITHIN 1 BEAT (~500ms) ═══
 
     🟢 Wang et al. 2024 (Cerebral Cortex):
-      Strong beat = tension CAO hơn weak beat (measured bằng EEG + rating)
+      Strong beat = higher tension than weak beat (measured by EEG + rating)
       2/4: t(34)=5.75, p<0.001
       3/4: F(2,68)=42.25, p<0.001, η²=0.554
       4/4: F(3,102)=37.85, p<0.001, η²=0.527
-      → Effect size η²>0.5 = RẤT MẠNH
-      → Beta-band desynchronization correlate với tension (r=-0.142)
+      → Effect size η²>0.5 = VERY STRONG
+      → Beta-band desynchronization correlates with tension (r=-0.142)
 
-    → TRONG MỖI NHỊP: strong beat = micro-tension → weak beat = micro-release
-    → = Prediction-delta cycle NHỊP ĐẬP (500ms per cycle at 120 BPM)
-    → Appoggiatura (note lệch trên strong beat → resolve stepwise)
-      = textbook micro tension-resolution trong 1 beat
+    → WITHIN EACH BAR: strong beat = micro-tension → weak beat = micro-release
+    → = Prediction-delta cycle PULSE (500ms per cycle at 120 BPM)
+    → Appoggiatura (note off on strong beat → resolves stepwise)
+      = textbook micro tension-resolution within 1 beat
 
 
-  ═══ CẤP 2 — TRONG 1 PHRASE (4 bars, ~8 giây) ═══
+  ═══ LEVEL 2 — WITHIN 1 PHRASE (4 bars, ~8 seconds) ═══
 
     🟢 Huron 1996 (Computing in Musicology, 6,251 melodies):
-      Melodic arch = DOMINANT contour: melody đi LÊN nửa đầu, XUỐNG nửa sau
+      Melodic arch = DOMINANT contour: melody goes UP first half, DOWN second half
       → Highest pitches cluster near/slightly past CENTER of phrase
       → Replicated: Baker 2019, Goldstein et al. 2023
 
@@ -466,12 +466,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Schellenberg 1997: simplified to 2 factors (proximity + reversal)
         = equal/better predictive accuracy
 
-    → MỖI PHRASE: melody depart from tonic area → rise → RETURN
+    → EACH PHRASE: melody departs from tonic area → rises → RETURNS
     → = Gap-OPEN (depart) → Gap-FILL (return) within 8 seconds
-    → ⭐ Bạn đúng: "note gốc → lên → về" = melodic arch = dominant pattern
+    → ⭐ "root note → rise → return" = melodic arch = dominant pattern
 
 
-  ═══ CẤP 3 — TRONG 1 SECTION (verse/chorus, ~30-60 giây) ═══
+  ═══ LEVEL 3 — WITHIN 1 SECTION (verse/chorus, ~30-60 seconds) ═══
 
     🟢 Lerdahl & Krumhansl 2007 (Music Perception 24:329-366):
       4-component tension model: prolongational structure + pitch-space distance
@@ -480,18 +480,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Tension builds toward CADENCE points → resolves AT cadences
       → = Section-level tension arc: build → cadential resolution
 
-    → Chord progression within section: depart from I → build tension → return to I
+    → Chord progression within section: departs from I → builds tension → returns to I
     → = Harmonic gap-open → gap-fill at section boundary
 
 
-  ═══ CẤP 4 — CẢ BÀI (3-4 phút) ═══
+  ═══ LEVEL 4 — FULL SONG (3-4 minutes) ═══
 
     → Macro arc: intro → build → peak → resolve (§4.3)
     → = Largest-scale tension-resolution
     → Bridge = widest gap-open → final chorus = largest resolution
 
 
-  ═══ CẤP 5 — ALBUM / CONCERT ═══
+  ═══ LEVEL 5 — ALBUM / CONCERT ═══
 
     → Opening track/song → journey → encore/closing
     → = Even larger scale, same principle
@@ -518,19 +518,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ FRAMEWORK MAPPING — MULTI-SCALE PREDICTION:
 
-    Mỗi cấp = 1 prediction-delta cycle:
+    Each level = 1 prediction-delta cycle:
       Beat (500ms): micro-prediction → micro-match → micro-reward
       Phrase (8s): melodic arch → depart-return → phrase reward
       Section (30-60s): harmonic build → cadence → section reward
       Song (3-4 min): macro arc → final resolution → peak reward
 
     ALL LEVELS FIRE SIMULTANEOUSLY:
-      → Não xử lý prediction ở TẤT CẢ levels cùng lúc
+      → Brain processes prediction at ALL levels simultaneously
       → Farbood 2012: "moving perceptual window" tracks tension
         at MULTIPLE timescales simultaneously
       → = COMPOUND prediction matching across hierarchy
-      → = Tại sao music reward PHONG PHÚ: không chỉ 1 prediction stream,
-        mà NHIỀU prediction streams ở nhiều timescales ĐỒNG THỜI
+      → = WHY music reward is SO RICH: not just 1 prediction stream,
+        but MULTIPLE prediction streams at many timescales SIMULTANEOUSLY
 
     ⭐ CONNECTS TO 07 §3:
       "Multi-scale prediction matching" = what this section formalizes
@@ -546,60 +546,60 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §3c — Integer Ratio Principle: 1 Nguyên Lý Xuyên Tầng
+## §3c — Integer Ratio Principle: 1 Principle Across All Levels
 
 ```
 ⭐ UNIFYING PRINCIPLE ACROSS PITCH, RHYTHM, AND OSCILLATION:
 
-  Não lock phase DỄ khi tỷ lệ giữa các tần số = SỐ NGUYÊN ĐƠN GIẢN.
-  Não VẬT LỘN khi tỷ lệ phức tạp.
+  The brain phase-locks EASILY when the ratio between frequencies = SIMPLE INTEGER RATIOS.
+  The brain STRUGGLES when ratios are complex.
 
-  CÙNG 1 nguyên lý hoạt động ở MỌI tầng âm nhạc:
+  THE SAME 1 principle operates at EVERY level of music:
 
   ┌──────────────────────────────────────────────────────────────────┐
-  │ Tầng              │ Simple ratio → dễ chịu  │ Complex → khó chịu│
-  ├────────────────────┼─────────────────────────┼───────────────────┤
-  │ PITCH              │ Octave 2:1, Fifth 3:2   │ Minor 2nd 16:15   │
-  │ (consonance/       │ → consonance            │ → dissonance      │
-  │  dissonance)       │                         │                   │
-  ├────────────────────┼─────────────────────────┼───────────────────┤
-  │ RHYTHM             │ Beat:downbeat 2:1       │ 120 vs 121 BPM    │
-  │ (groove/no groove) │ Hihat:beat 2:1 → groove │ → phase drift     │
-  │                    │                         │ → mất groove      │
-  ├────────────────────┼─────────────────────────┼───────────────────┤
-  │ NESTED OSCILLATION │ Delta:Theta ≈ 1:2-4     │ Tần số lệch →    │
-  │ (brain waves)      │ → lock tốt              │ không lock        │
+  │ Level              │ Simple ratio → pleasant  │ Complex → unpleasant│
+  ├────────────────────┼──────────────────────────┼─────────────────────┤
+  │ PITCH              │ Octave 2:1, Fifth 3:2    │ Minor 2nd 16:15     │
+  │ (consonance/       │ → consonance             │ → dissonance        │
+  │  dissonance)       │                          │                     │
+  ├────────────────────┼──────────────────────────┼─────────────────────┤
+  │ RHYTHM             │ Beat:downbeat 2:1         │ 120 vs 121 BPM      │
+  │ (groove/no groove) │ Hihat:beat 2:1 → groove  │ → phase drift       │
+  │                    │                          │ → loses groove      │
+  ├────────────────────┼──────────────────────────┼─────────────────────┤
+  │ NESTED OSCILLATION │ Delta:Theta ≈ 1:2-4       │ Frequencies drift → │
+  │ (brain waves)      │ → locks well              │ no lock             │
   └──────────────────────────────────────────────────────────────────┘
 
 
-  ⭐ VÍ DỤ CỤ THỂ — bài 120 BPM:
+  ⭐ CONCRETE EXAMPLE — a 120 BPM song:
 
-    Layer          BPM     Tỷ lệ với beat    Lock?
-    ──────────────────────────────────────────────
-    Downbeat       60      1:2                ✅ lock dễ
-    Beat (gốc)     120     1:1                ─
-    Hihat          240     2:1                ✅ lock dễ
-    16th notes     480     4:1                ✅ lock dễ
-    ──────────────────────────────────────────────
-    Layer lệch     121     ~1:1.008           ✗ phase drift → mất groove
+    Layer            BPM     Ratio to beat    Lock?
+    ─────────────────────────────────────────────────
+    Downbeat          60      1:2              ✅ locks easily
+    Beat (base)      120      1:1              ─
+    Hihat            240      2:1              ✅ locks easily
+    16th notes       480      4:1              ✅ locks easily
+    ─────────────────────────────────────────────────
+    Off-grid layer   121      ~1:1.008         ✗ phase drift → loses groove
 
-    → Steve Reich "Piano Phase" (1967): 2 piano lệch tempo rất nhẹ
-      → Kết quả: hypnotic, disorienting, tension — KHÔNG phải groove
+    → Steve Reich "Piano Phase" (1967): 2 pianos slightly offset in tempo
+      → Result: hypnotic, disorienting, tension — NOT groove
       → = DESIGNED violation of integer ratio → DESIGNED tension
       → 🟢 Landmark minimalist piece, confirms principle by violation
 
 
-  ⭐ TẠI SAO ĐÂY LÀ 1 NGUYÊN LÝ, KHÔNG PHẢI 3:
+  ⭐ WHY THIS IS 1 PRINCIPLE, NOT 3:
 
     Consonance (pitch), groove (rhythm), neural entrainment (oscillation)
-    thường được nghiên cứu RIÊNG ở 3 subfields.
-    Nhưng cơ chế NÃO = CÙNG 1:
+    are typically studied SEPARATELY in 3 subfields.
+    But the BRAIN mechanism = THE SAME ONE:
       → Phase-locking between oscillators
       → Simple integer ratios = resonance peaks
       → Complex ratios = destructive interference
 
-    = Tại sao consonance SƯỚNG VÀ groove SƯỚNG bằng CÙNG cơ chế:
-      cả hai = brain oscillators lock phase dễ → coherence → reward
+    = WHY consonance feels GOOD AND groove feels GOOD through the SAME mechanism:
+      both = brain oscillators lock phase easily → coherence → reward
 
     🟢 Large & Palmer 2002 (Cognitive Science 26(1):1-37):
       Neural resonance theory — internal oscillators resonate at
@@ -640,7 +640,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §4.1 — Verse-Chorus Dominance
 
 ```
-🟢 VERSE-CHORUS = 80-90%+ BILLBOARD TỪ 1980s:
+🟢 VERSE-CHORUS = 80-90%+ OF BILLBOARD SINCE THE 1980s:
 
   🟢 Summach 2012 (PhD, Yale):
     1955-1989: shift from AABA (Tin Pan Alley) → verse-chorus
@@ -657,13 +657,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Verse 2 → Pre-Chorus → Chorus →
     Bridge → Final Chorus → Outro
 
-  TẠI SAO VERSE-CHORUS THẮNG:
+  WHY VERSE-CHORUS WON:
 
     ① CHORUS = PREDICTION CONFIRMED → REWARD:
       → Chorus repeats → listener ALREADY KNOWS melody/lyrics
       → Hearing familiar chorus = prediction MATCH
       → = Reward from prediction completion (Cheung 2019)
-      → = "Phần mà ai cũng hát theo"
+      → = "The part everyone sings along to"
 
     ② VERSE = MODERATE NOVELTY → VTA FIRE:
       → Verse lyrics DIFFERENT each time → prediction-delta
@@ -681,18 +681,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → After bridge → chorus = LARGEST prediction confirmed
       → = Biggest gap-open → biggest gap-fill → peak reward
 
-  🟡 TRƯỚC VERSE-CHORUS:
+  🟡 BEFORE VERSE-CHORUS:
     AABA (Tin Pan Alley, 1920s-1950s):
       A section × 3 + B (bridge) + A
       → Also has repetition + contrast, but LESS oscillation
       → Verse-chorus = MORE frequent reward cycles
-      → = "Upgrade" cho prediction oscillation rate
+      → = "Upgrade" for prediction oscillation rate
 ```
 
 ### §4.2 — Song Length: ~3-4 Minutes
 
 ```
-🟢 TẠI SAO ~3-4 PHÚT:
+🟢 WHY ~3-4 MINUTES:
 
   HISTORICAL ORIGIN:
     🟢 78 rpm records: ~3-5 min per side (physical constraint)
@@ -706,18 +706,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → 2022: half of US top 20 songs < 3 minutes
     → Streaming era: shorter trending (Spotify pays per play after 30s)
 
-  🟡 FRAMEWORK MAPPING — TẠI SAO ~3-4 PHÚT "ĐÚNG":
+  🟡 FRAMEWORK MAPPING — WHY ~3-4 MINUTES "WORKS":
 
-    → KHÔNG CHỈ technological accident:
-    → 3-4 phút ≈ GOLDILOCKS cho attention + satiation:
-      < 2 phút: chưa đủ thời gian build prediction model → weak reward
-      3-4 phút: enough repetition to compile chunks + variety to prevent boredom
-      > 6 phút: prediction-delta risk reaching 0 → boredom risk ↑
+    → NOT JUST a technological accident:
+    → 3-4 minutes ≈ GOLDILOCKS for attention + satiation:
+      < 2 minutes: not enough time to build prediction model → weak reward
+      3-4 minutes: enough repetition to compile chunks + variety to prevent boredom
+      > 6 minutes: prediction-delta risk reaching 0 → boredom risk ↑
 
     → Cyclic satiation (Gap-Body-Need §2):
-      1 bài nhạc = 1 Cyclic cycle
+      1 song = 1 Cyclic cycle
       Fill → satisfaction → off → ready for next
-      ~3-4 phút ≈ 1 natural Cyclic unit cho auditory experience
+      ~3-4 minutes ≈ 1 natural Cyclic unit for auditory experience
 
     → EXCEPTION: classical, progressive, ambient = LONGER
       → Different audience (more compiled chunks → wider Goldilocks window)
@@ -799,22 +799,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 FRAMEWORK EXPLANATION — 3 REASONS:
 
   ① PREDICTION MODEL TRAINING:
-    → Lần 1 nghe chorus: prediction model FORMING
-    → Lần 2: model IMPROVING → some PE still (details)
-    → Lần 3+: model GOOD → prediction match → reward RELIABLE
-    → = Repetition = TRAINING DATA cho internal model
-    → = "Chưa biết = không có gap" (Gap-Direction §3):
-      cần nghe ĐỦ LẦN để gap HÌNH THÀNH → reward POSSIBLE
+    → Hearing chorus for the 1st time: prediction model FORMING
+    → 2nd time: model IMPROVING → some PE still (details)
+    → 3rd time+: model GOOD → prediction match → reward RELIABLE
+    → = Repetition = TRAINING DATA for internal model
+    → = "No knowledge = no gap" (Gap-Direction §3):
+      need to listen ENOUGH TIMES for the gap to FORM → reward POSSIBLE
 
   ② PROCESSING FLUENCY → LIKING:
     → 🟢 Reber et al. 2004: easier processing = experienced as POSITIVE
-    → Repetition → easier processing → misattributed as "hay"
-    → = Body interpret fluency as QUALITY signal
+    → Repetition → easier processing → misattributed as "sounding good"
+    → = Body interprets fluency as QUALITY signal
     → ≠ deception — fluency IS a valid quality signal
       (things that are coherent ARE easier to process)
 
   ③ GOLDILOCKS MAINTENANCE:
-    → Too much novelty = PE quá cao → overwhelming
+    → Too much novelty = PE too high → overwhelming
     → Too much repetition = PE = 0 → boredom
     → DESIGNED repetition with variation:
       Chorus same melody + DIFFERENT intensity/production each time
@@ -898,7 +898,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 UNIVERSAL = PREDICTION ARCHITECTURE CONSTRAINTS:
   → Tonal center (prediction anchor)
   → Regular pulse (entrainment)
-  → Discrete pitches (categorical → predict-able)
+  → Discrete pitches (categorical → predictable)
   → Hierarchical structure (levels of prediction)
   → Repetition (training data)
   → = Brain prediction architecture → SAME everywhere
@@ -908,7 +908,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → 4/4 vs 7/8 vs tala
   → Verse-chorus vs raga development
   → Major-happy vs other associations
-  → = KHÁC implementation, CÙNG underlying constraint
+  → = DIFFERENT implementations, SAME underlying constraint
 
   ⭐ Analogy:
   → Universal: "buildings need foundation" (gravity constraint)
@@ -949,7 +949,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                  │                          │ Cyclic channel: fill→off→  │
   │                  │                          │ fill                       │
   │                  │                          │                            │
-  │ Repetition       │ Model needs training;    │ "Chưa biết = không gap":  │
+  │ Repetition       │ Model needs training;    │ "No knowledge = no gap":   │
   │ (45→54%)        │ fluency → liking          │ repetition builds chunks   │
   │                  │                          │ → gap FORMS → reward       │
   │                  │                          │                            │
@@ -961,8 +961,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │  resolve)        │ Goldilocks               │ across duration            │
   │                  │                          │                            │
   │ Modulation       │ Prediction anchor shift  │ VTA fire on NEW baseline   │
-  │ (key change)     │ = novel context same     │ → "energy boost" cuối bài  │
-  │                  │ content                   │                            │
+  │ (key change)     │ = novel context same     │ → "energy boost" at        │
+  │                  │ content                   │ song end                  │
   │                  │                          │                            │
   │ Bridge section   │ High prediction-delta    │ Gap-OPEN wide →            │
   │                  │ injection BEFORE final   │ return chorus = BIGGEST    │
@@ -972,7 +972,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §8 — Non-Standard Structures: Tại Sao Hiếm + Khi Nào Thành Công
+## §8 — Non-Standard Structures: Why They're Rare + When They Succeed
 
 ```
 🟡 NON-STANDARD = HIGHER Precondition-2 REQUIREMENT:
@@ -980,12 +980,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   STANDARD structures (verse-chorus, 4/4, I-IV-V):
     → Low Precondition-2 requirement: most listeners CAN predict
     → = Wide audience → commercial success
-    → = "Ai cũng entrain được"
+    → = "Everyone can entrain to it"
 
   NON-STANDARD structures:
     → Higher Precondition-2: need more compiled chunks to follow
     → = Narrower audience → niche success
-    → = "Cần nghe quen mới thấy hay"
+    → = "You need to get familiar with it before it sounds good"
 
 
   SUCCESSFUL NON-STANDARD EXAMPLES:
@@ -993,14 +993,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Bohemian Rhapsody (Queen 1975):
     → 6 min, no chorus, 5 distinct sections
     → = prediction-delta CONTINUOUSLY HIGH → requires RICH chunk library
-    → SUCCESS vì: compositional craft CỰC CAO + cultural moment
+    → SUCCEEDED because: EXTREMELY HIGH compositional craft + cultural moment
     → Every section INTERNALLY coherent → Body-Feedback-Precondition Precondition-4 still met per-section
-    → = Exception proves rule: needs MORE coherence to compensate no repetition
+    → = Exception proves rule: needs MORE coherence to compensate for no repetition
 
   Progressive Rock (Yes, Pink Floyd, Genesis):
     → Extended structures, complex meters, minimal repetition
     → Audience: compiled music listeners (high Precondition-2)
-    → → Niche nhưng LOYAL (gu cứng = snowball)
+    → → Niche but LOYAL (Locked taste = snowball)
 
   Jazz Improvisation:
     → Real-time composition → prediction-delta HIGH continuously
@@ -1016,7 +1016,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   GENERAL PRINCIPLE:
     → Standard structure = optimize for WIDEST Goldilocks zone
     → Non-standard CAN succeed IF:
-      ① Internal coherence VERY HIGH (compensate lack of repetition)
+      ① Internal coherence VERY HIGH (compensates for lack of repetition)
       ② Target audience has HIGH Precondition-2 (enough chunks to follow)
       ③ Cultural moment supports novelty (collective appetite)
     → = NOT "non-standard = bad" — "non-standard = higher barrier"
@@ -1074,7 +1074,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 PRIMARY:
   Prediction-Error-Is-Not-Reward.md v2.0 — PE + coherence + Goldilocks
-  Gap-Direction.md v2.0 — "chưa biết = không có gap", direction match
+  Gap-Direction.md v2.0 — "no knowledge = no gap", direction match
   Body-Feedback-Mechanism.md v2.1 — chunk dynamics, prediction-delta
 
 SECONDARY:
@@ -1088,7 +1088,7 @@ EVIDENCE:
   03-Musical-Notation-Architecture.md — notation reference, §1-§7
 
 WITHIN DRILL:
-  02-Sound-Background-Pattern.md — gist → "gu", genre context
+  02-Sound-Background-Pattern.md — gist → taste signature, genre context
   03-Sound-Reward-Pipeline.md — 7-step, Cheung 2019 validation
   05-Multi-Modal-Compound.md — coherence condition, multi-modal
 
@@ -1120,7 +1120,7 @@ RESEARCH CITATIONS:
 
 ---
 
-> *06-Music-Architecture-Prediction v1.0 — Music architecture = prediction architecture optimization.
+> *06-Music-Architecture-Prediction v1.2 — Music architecture = prediction architecture optimization.
 > ~94% pop = 4/4. BPM clusters 120 BPM = locomotion resonance. I-IV-V = top 3 chords.
 > Verse-chorus 80-90%+ Billboard 1980s+. Hit songs 3-6% more repetitive.
 > Tonic = prediction anchor. BPM = sync signal. Repetition = training data.

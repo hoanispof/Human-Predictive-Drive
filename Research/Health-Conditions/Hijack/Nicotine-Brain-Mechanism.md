@@ -1,97 +1,57 @@
 ---
-title: Nicotine-Brain-Mechanism — Cơ Chế Nicotine Tác Động Lên Não Bộ
-version: 1.1
-created: 2026-05-15
-updated: 2026-05-15 (v1.1 — restructure: +Serotonin pathway, +7 tobacco products, +pH mechanism, +3 Misconceptions unified, +thuốc lào N. rustica, +hookah CO paradox)
-status: v1.1 — REFERENCE FILE (mechanism + products + individual variation + framework integration)
+title: Nicotine-Brain-Mechanism — How Nicotine Acts on the Brain
+version: v1.1
+source: Research/Health-Conditions/Hijack/Nicotine-Brain-Mechanism.md v1.1
+translated: 2026-06-09
+status: COMPLETE
 scope: |
-  HOW nicotine tác động lên não bộ: 2 pathways song song (α4β2→dopamine + α7→opioid) + 3 hệ neurotransmitter (dopamine, serotonin, NE).
-  Tại sao THUỐC LÁ nghiện hơn nicotine đơn lẻ (MAO inhibitor synergy).
-  7 dạng tobacco: cigarette, thuốc lào, hookah, xì gà, tẩu, snus, snuff — pH × delivery × amplifiers.
-  Receptor UPREGULATION mechanism (unique — khác mọi chất khác).
-  "3 Misconceptions": tập trung/tự tin/tỉnh táo = restoration, không phải enhancement.
-  Biến thể cá nhân (CYP2A6, CHRNA5, COMT, cortisol, age).
+  HOW nicotine acts on the brain: 2 parallel pathways (α4β2→dopamine + α7→opioid)
+  + 3 neurotransmitter systems (dopamine, serotonin, NE).
+  Why CIGARETTES are more addictive than nicotine alone (MAO inhibitor synergy).
+  7 tobacco product types: cigarette, thuốc lào, hookah, cigar, pipe, snus, snuff
+  — pH × delivery speed × amplifiers.
+  Receptor UPREGULATION mechanism (unique — unlike any other substance).
+  "3 Misconceptions": focus/confidence/alertness = restoration, not enhancement.
+  Individual variation (CYP2A6, CHRNA5, COMT, cortisol, age of first exposure).
   Bridges: Nicotine × Parkinson (protective) + Alzheimer (cholinergic).
-purpose: |
-  Substance-specific drill cho nicotine — cạnh Alcohol-Brain-Mechanism.md.
-  File đầu tiên trong Dopamine Cluster (3 files):
-    Nicotine = SOURCE bị ÉP fire (VTA hijack qua nAChR)
-    Parkinson = SOURCE bị CHẾT (SNc neuron degeneration)
-    ADHD = CLEARANCE quá nhanh (DAT+COMT tại PFC)
-position: Research/Health-Conditions/Hijack/ (cạnh Alcohol-Brain-Mechanism, Addiction-Analysis)
-dependencies:
-  - Addiction-Analysis.md v3.0 — overview, chunk-reward loop hijack
-  - Dopamine-Is-Not-Reward.md v1.1 — 7-step, dopamine ≠ reward
-  - 03-Reward.md v1.1 — Body-Feedback-Precondition 5 preconditions, opioid = reward thật
-  - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, 5 Profiles
-  - Reward-Calibration.md v1.1 — Goldilocks, baseline shift
-  - Cortisol-Baseline.md v2.0 — amplifier, stress→smoking loop
-  - Alcohol-Brain-Mechanism.md v1.0 — template + so sánh
-  - Body-Coupling.md v1.1 — ritual binding
-  - Body-Feedback-Mechanism.md v1.2 — Chunk-Shift/Miss/Gap
-  - PFC-Hardware.md v1.1 — COMT, individual variation
-  - Self-Pattern-Modeling.md v2.3 — identity chunks
-  - Status.md v2.0 — serotonin × Resource Access Map
-sources_academic: |
-  🟢 Dani & Bertrand 2007 — nAChR subtypes (α4β2, α7)
-  🟢 Maskos et al. 2005 (Nature) — VTA β2 subunit → nicotine burst firing
-  🟢 Fenster et al. 1999 (J Neuroscience) — desensitization↔upregulation (9.7≈9.9nM)
-  🟢 Benowitz 2010 (NEJM 362:2295) — nicotine pharmacology
-  🟢 Fowler et al. 1996 (Nature 379:733) — PET: 40% MAO-B reduction
-  🟢 Herraiz & Chaparro 2005 — harman/norharman MAO inhibitors
-  🟢 Anderson et al. 2019 — e-cigarettes NO MAO-I activity
-  🟢 Belluzzi et al. 2005 — acetaldehyde × nicotine adolescent
-  🟢 Hadjiconstantinou & Neff 2011 — nicotine → opioid release (α7)
-  🟢 Berrendero et al. 2002 (J Neuroscience) — preproenkephalin KO
-  🟢 Hernán et al. 2002 (Ann Neurology) — Parkinson RR=0.59
-  🟢 Francis et al. 1999 — cholinergic hypothesis Alzheimer
-  🟢 Tyndale & Sellers 2002 — CYP2A6 genetic variation
-  🟢 Bierut et al. 2008 — CHRNA5 rs16969968
-  🟢 Heishman et al. 2010 — nicotine cognitive effects (d=0.16-0.44)
-  🟢 Henningfield & Keenan 1993 — delivery speed × addiction
-  🟢 Guillem et al. 2005 (J Neuroscience) — MAO-I × nicotine motivation
-  🟢 Hughes 2007 — withdrawal timeline
-  🟢 Taylor et al. 2014 — quit smoking → mental health improve (meta-analysis)
-  🟢 Moylan et al. 2012 — smoking × anxiety/depression association
-  🟢 AHA/Circulation — hookah CO levels (24-66 ppm)
-language: Tiếng Việt primary + English technical terms
+language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Nicotine-Brain-Mechanism — Cơ Chế Nicotine Tác Động Lên Não Bộ
+# Nicotine-Brain-Mechanism — How Nicotine Acts on the Brain
 
-> **1.3 TỶ người dùng thuốc lá trên thế giới (WHO 2021).**
-> **8 triệu người chết mỗi năm — nhiều hơn HIV, malaria, TB CỘNG LẠI.**
+> **1.3 BILLION tobacco users worldwide (WHO 2021).**
+> **8 million deaths per year — more than HIV, malaria, and TB COMBINED.**
 >
-> Nicotine = 1 trong ít chất có 2 pathway song song tới reward:
->   α4β2 nAChR → VTA → **DOPAMINE** (chuông cửa — salience)
->   α7 nAChR → **OPIOID** release (quà thật — reward nhẹ)
->   + tác động thêm **NE** (tỉnh táo) + **SEROTONIN** (ổn định mood)
+> Nicotine = one of the few substances with 2 parallel pathways to reward:
+>   α4β2 nAChR → VTA → **DOPAMINE** (the doorbell — salience)
+>   α7 nAChR → **OPIOID** release (the real gift — mild reward)
+>   + additional impact on **NE** (alertness) + **SEROTONIN** (mood stability)
 >
-> Nhưng thuốc LÁ nghiện hơn nicotine đơn lẻ:
-> khói thuốc chứa MAO inhibitors → dopamine + serotonin TỒN TẠI LÂU HƠN.
+> But cigarettes are MORE addictive than nicotine alone:
+> tobacco smoke contains MAO inhibitors → dopamine + serotonin PERSIST LONGER.
 >
-> Và thuốc lá CHỈ LÀ 1 trong 7 dạng tobacco:
-> cigarette, thuốc lào, hookah, xì gà, tẩu, snus, snuff
-> — mỗi dạng có pH, tốc độ, amplifiers KHÁC → addiction architecture KHÁC.
+> And cigarettes are just ONE of 7 tobacco product types:
+> cigarette, thuốc lào, hookah, cigar, pipe, snus, snuff
+> — each with different pH, delivery speed, amplifiers → different addiction architecture.
 >
-> File này: CƠ CHẾ nicotine (WHAT + HOW),
-> 7 dạng tobacco × addiction architecture,
-> "3 misconceptions" (tập trung / tự tin / tỉnh táo = restoration),
-> và bridges tới Parkinson + Alzheimer.
+> This file covers: the MECHANISM of nicotine (WHAT + HOW),
+> 7 tobacco products × addiction architecture,
+> the "3 misconceptions" (focus/confidence/alertness = restoration),
+> and bridges to Parkinson + Alzheimer.
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ TRONG FRAMEWORK
-- §1 — NICOTINE VÀ NÃO: 2 PATHWAYS + 3 HỆ NEUROTRANSMITTER
-- §2 — THUỐC LÁ ≠ NICOTINE: MAO INHIBITOR SYNERGY
-- §3 — 7 DẠNG TOBACCO: pH × DELIVERY × ADDICTION ARCHITECTURE
-- §4 — GRADIENT LIỀU: TỪ 1 HƠI ĐẾN CHAIN-SMOKER
-- §5 — 3 MISCONCEPTIONS: RESTORATION, KHÔNG PHẢI ENHANCEMENT
-- §6 — BIẾN THỂ CÁ NHÂN: 5 YẾU TỐ
-- §7 — "HÚT THUỐC" QUA CHUNK DYNAMICS
+- §0 — POSITION WITHIN THE FRAMEWORK
+- §1 — NICOTINE AND THE BRAIN: 2 PATHWAYS + 3 NEUROTRANSMITTER SYSTEMS
+- §2 — CIGARETTES ≠ NICOTINE: MAO INHIBITOR SYNERGY
+- §3 — 7 TOBACCO PRODUCT TYPES: pH × DELIVERY × ADDICTION ARCHITECTURE
+- §4 — DOSE GRADIENT: FROM 1 PUFF TO CHAIN SMOKER
+- §5 — 3 MISCONCEPTIONS: RESTORATION, NOT ENHANCEMENT
+- §6 — INDIVIDUAL VARIATION: 5 FACTORS
+- §7 — "SMOKING" THROUGH CHUNK DYNAMICS
 - §8 — WITHDRAWAL = RECEPTOR UPREGULATION REBOUND
 - §9 — PFC + BODY IMPACT (LONG-TERM)
 - §10 — NICOTINE × NEURODEGENERATION (BRIDGES)
@@ -100,64 +60,64 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §0 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — POSITION WITHIN THE FRAMEWORK
 
 ```
-🟡 FILE NÀY TRONG FRAMEWORK:
+🟡 THIS FILE WITHIN THE FRAMEWORK:
 
-  Addiction-Analysis.md v3.0:  MỌI loại nghiện (hóa chất + hành vi + schema)
-  Alcohol-Brain-Mechanism.md: CHỈ RƯỢU — 5 hệ thống đồng thời, multi-system
-  ⭐ Nicotine-Brain-Mechanism.md: CHỈ NICOTINE — 2 pathways, 7 dạng tobacco
+  Addiction-Analysis.md v3.0:   ALL addictions (chemical + behavioral + schema)
+  Alcohol-Brain-Mechanism.md:   ALCOHOL ONLY — 5 simultaneous systems, multi-system
+  ⭐ Nicotine-Brain-Mechanism.md: NICOTINE ONLY — 2 pathways, 7 tobacco products
 
-  SO SÁNH:
-    Rượu  = "CARPET BOMBING" (5 hệ đồng thời)
-    Nicotine = "TARGETED STRIKE" (1 receptor → cascade 3 hệ)
-    Nhưng THUỐC LÁ = nicotine + MAO-I + acetaldehyde = "targeted strike × amplifier"
+  COMPARISON:
+    Alcohol   = "CARPET BOMBING" (5 systems simultaneously)
+    Nicotine  = "TARGETED STRIKE" (1 receptor → cascade across 3 systems)
+    But CIGARETTES = nicotine + MAO-I + acetaldehyde = "targeted strike × amplifier"
 
-  DOPAMINE CLUSTER (3 files, cùng phân tử, khác cơ chế):
-    ① Nicotine = SOURCE bị ÉP fire (nAChR hijack VTA) ← FILE NÀY
-    ② Parkinson = SOURCE bị CHẾT (SNc neuron degeneration)
-    ③ ADHD = CLEARANCE quá nhanh (DAT + COMT tại PFC)
-    → 3-WAY COMPARISON TABLE sẽ ở ADHD-Observation.md (File 3)
+  DOPAMINE CLUSTER (3 files, same molecule, different mechanisms):
+    ① Nicotine  = SOURCE forced to fire (nAChR hijacks VTA) ← THIS FILE
+    ② Parkinson = SOURCE dying (SNc neuron degeneration)
+    ③ ADHD      = CLEARANCE too fast (DAT + COMT at PFC)
+    → 3-WAY COMPARISON TABLE will be in ADHD-Observation.md (File 3)
 
-  FILE NÀY KHÔNG COVER:
-    ❌ Tác hại y khoa chi tiết → ngoài scope framework
-    ❌ Protocol cai thuốc → clinical expertise
+  THIS FILE DOES NOT COVER:
+    ❌ Detailed medical harm → outside framework scope
+    ❌ Quit-smoking protocols → clinical expertise
 ```
 
 ---
 
-## §1 — NICOTINE VÀ NÃO: 2 PATHWAYS + 3 HỆ NEUROTRANSMITTER
+## §1 — NICOTINE AND THE BRAIN: 2 PATHWAYS + 3 NEUROTRANSMITTER SYSTEMS
 
-### §1.1 — nAChR: Target chính
+### §1.1 — nAChR: The primary target
 
 ```
-🟢 nAChR = RECEPTOR GỐC (Dani & Bertrand 2007):
+🟢 nAChR = ROOT RECEPTOR (Dani & Bertrand 2007):
 
-  Acetylcholine (ACh) = neurotransmitter tự nhiên.
-  Nicotine = AGONIST ngoại sinh — bắt chước ACh, bind cùng receptor.
-  ACh bị phân hủy ngay bởi acetylcholinesterase.
-  Nicotine KHÔNG bị phân hủy tại synapse → kích thích LÂU HƠN ACh tự nhiên.
+  Acetylcholine (ACh) = the brain's natural neurotransmitter.
+  Nicotine = exogenous AGONIST — mimics ACh, binds the same receptor.
+  ACh is immediately broken down by acetylcholinesterase.
+  Nicotine is NOT broken down at the synapse → stimulates LONGER than natural ACh.
 
-  2 subtypes CHÍNH (>90% nAChR trong não):
+  2 PRIMARY subtypes (>90% of brain nAChRs):
 
   ┌───────────────────────────────────────────────────────────────────┐
-  │ α4β2 nAChR — HIGH AFFINITY                                       │
-  │                                                                   │
-  │ Vị trí: VTA, cortex, thalamus, hippocampus                       │
-  │ Ái lực nicotine: CAO (Ki ~1 nM)                                  │
-  │ Chức năng: Mediates REINFORCEMENT                                 │
-  │ Khi kích thích: VTA dopamine neurons fire → dopamine release      │
+  │ α4β2 nAChR — HIGH AFFINITY                                        │
+  │                                                                    │
+  │ Location: VTA, cortex, thalamus, hippocampus                      │
+  │ Nicotine affinity: HIGH (Ki ~1 nM)                                │
+  │ Function: Mediates REINFORCEMENT                                   │
+  │ When stimulated: VTA dopamine neurons fire → dopamine release      │
   │ = PATHWAY 1 (dopamine/salience)                                   │
-  │ Đặc tính: DESENSITIZE nhanh → UPREGULATION (§8)                  │
+  │ Key property: DESENSITIZES fast → UPREGULATION (§8)              │
   ├───────────────────────────────────────────────────────────────────┤
   │ α7 nAChR — LOWER AFFINITY, HIGH Ca²⁺                             │
-  │                                                                   │
-  │ Vị trí: Hippocampus, cortex, VTA, immune cells                   │
-  │ Chức năng: Neuroprotection (PI3K-Akt) + OPIOID release           │
-  │ Khi kích thích: β-endorphin, met-enkephalin release              │
+  │                                                                    │
+  │ Location: Hippocampus, cortex, VTA, immune cells                  │
+  │ Function: Neuroprotection (PI3K-Akt) + OPIOID release             │
+  │ When stimulated: β-endorphin, met-enkephalin release              │
   │ = PATHWAY 2 (opioid/reward)                                       │
-  │ ⭐ PI3K-Akt → liên quan Parkinson bridge (§10)                   │
+  │ ⭐ PI3K-Akt → relevant to Parkinson bridge (§10)                 │
   └───────────────────────────────────────────────────────────────────┘
 ```
 
@@ -166,669 +126,690 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟢 VTA DOPAMINE RELEASE (Maskos 2005, Benowitz 2010):
 
-  Nicotine → bind α4β2 trên VTA → 2 cơ chế:
+  Nicotine → binds α4β2 on VTA → 2 mechanisms:
 
-  ① KÍCH THÍCH TRỰC TIẾP:
-    nAChR trên dopamine neurons → depolarize → fire
-    = Nicotine ÉP VTA fire KHÔNG CẦN stimulus thật
+  ① DIRECT STIMULATION:
+    nAChRs on dopamine neurons → depolarize → fire
+    = Nicotine FORCES VTA to fire WITHOUT a real stimulus
 
   ② DISINHIBITION:
-    nAChR trên GABAergic interneurons → fire ban đầu
-    → NHƯNG: GABAergic α4β2 DESENSITIZE NHANH HƠN dopaminergic α4β2
-    → GABA neurons im → ức chế MẤT → dopamine neurons fire TỰ DO
+    nAChRs on GABAergic interneurons → fire initially
+    → BUT: GABAergic α4β2 DESENSITIZES FASTER than dopaminergic α4β2
+    → GABA neurons go silent → inhibition LIFTS → dopamine neurons fire FREELY
 
-  Maskos 2005 (Nature): re-express β2 chỉ ở VTA trong knockout mice
-    → restore nicotine burst firing → VTA β2 = cần và đủ
+  Maskos 2005 (Nature): re-expressing β2 ONLY in VTA of knockout mice
+    → restores nicotine burst firing → VTA β2 = necessary AND sufficient
 
   Framework (Dopamine-Is-Not-Reward.md §4.2, 7-step):
-    Nicotine HIJACK Step 2 — ÉP VTA fire mà KHÔNG CÓ stimulus thật
-    = "Nhấn chuông cửa khi KHÔNG CÓ AI đằng sau"
-    → Nhưng nicotine CŨNG có Pathway 2 (opioid) → có MỘT ÍT "quà thật"
-    → Đây là lý do nicotine hook ĐƯỢC: không hoàn toàn empty như scroll phone
+    Nicotine HIJACKS Step 2 — FORCES VTA to fire WITHOUT any real stimulus
+    = "Ringing the doorbell when NOBODY is at the door"
+    → But nicotine ALSO has Pathway 2 (opioid) → there IS "a small real gift"
+    → This is why nicotine hooks: it's not completely empty like scrolling a phone
 ```
 
-### §1.3 — Pathway 2: α7 → Opioid Release (Reward Thật, Nhẹ)
+### §1.3 — Pathway 2: α7 → Opioid Release (Real Reward, Mild)
 
 ```
-🟢 OPIOID QUA α7 (Hadjiconstantinou & Neff 2011):
+🟢 OPIOID VIA α7 (Hadjiconstantinou & Neff 2011):
 
-  α7 nAChR → giải phóng endogenous opioids:
+  α7 nAChR → releases endogenous opioids:
     - β-endorphin (mu-opioid → REWARD)
     - met-enkephalin (mu-opioid → REWARD)
-    - dynorphin (kappa-opioid → AVERSIVE, tạo ceiling)
+    - dynorphin (kappa-opioid → AVERSIVE, creates a ceiling)
 
   Berrendero 2002 (J Neuroscience):
-    Chuột knockout preproenkephalin → nicotine reward GIẢM MẠNH
-    → CONFIRM: enkephalin CẦN cho full nicotine reward
+    Preproenkephalin knockout mice → nicotine reward DROPS SHARPLY
+    → CONFIRMS: enkephalin is REQUIRED for full nicotine reward
 
-  ⚠️ PATHWAY RIÊNG — không phải downstream từ dopamine:
+  ⚠️ SEPARATE PATHWAY — not downstream from dopamine:
     α4β2 → dopamine = Pathway 1 (salience/wanting)
     α7 → opioid = Pathway 2 (reward/liking)
-    2 receptor subtypes KHÁC NHAU = 2 pathway SONG SONG
+    2 DIFFERENT receptor subtypes = 2 PARALLEL pathways
 
   Framework (Reward-Signal-Architecture.md §1):
-    Pathway 1: Level 1 (chuông cửa) — hijack: ÉP fire
-    Pathway 2: Level 2 (quà thật) — cung cấp opioid nhẹ
-    → Nicotine yếu hơn heroin (heroin bind mu-opioid trực tiếp, gấp 10-100×)
-    → Nhưng nicotine hook bằng TẦN SUẤT: 200+ bolus/ngày (mỗi hơi = 1 bolus)
+    Pathway 1: Level 1 (the doorbell) — hijack: FORCED fire
+    Pathway 2: Level 2 (the real gift) — provides mild opioid
+    → Nicotine is weaker than heroin (heroin binds mu-opioid directly, 10-100× stronger)
+    → But nicotine hooks via FREQUENCY: 200+ boluses/day (each puff = 1 bolus)
 ```
 
-### §1.4 — 3 hệ Neurotransmitter bị tác động ĐỒNG THỜI
+### §1.4 — 3 Neurotransmitter systems affected simultaneously
 
 ```
-🟢🟡 NICOTINE TÁC ĐỘNG 3 HỆ CÙNG LÚC (không chỉ dopamine):
+🟢🟡 NICOTINE ACTS ON 3 SYSTEMS AT ONCE (not just dopamine):
 
   ┌────────────────────────────────────────────────────────────────────┐
-  │ HỆ 1: DOPAMINE (qua α4β2 → VTA)                                  │
+  │ SYSTEM 1: DOPAMINE (via α4β2 → VTA)                               │
   │                                                                    │
-  │ Function: Salience alert ("có gì đó đáng chú ý")                 │
-  │ Nicotine: ÉP fire → dopamine ↑ tạm thời                          │
-  │ Chronic: tolerance → baseline DROP → cần nicotine để về bình thường│
-  │ Misconception: "tập trung hơn" ← §5                               │
+  │ Function: Salience alert ("something worth attending to")          │
+  │ Nicotine: FORCES fire → dopamine ↑ temporarily                    │
+  │ Chronic: tolerance → baseline DROPS → needs nicotine to return     │
+  │          to normal                                                 │
+  │ Misconception: "better focus" ← §5                                 │
   ├────────────────────────────────────────────────────────────────────┤
-  │ HỆ 2: SEROTONIN (qua raphe nuclei nAChR + MAO-A inhibition)      │
+  │ SYSTEM 2: SEROTONIN (via raphe nuclei nAChR + MAO-A inhibition)   │
   │                                                                    │
   │ Function: Stability, mood, Resource Access Map (Status.md v2.0)   │
-  │ nAChR trên raphe nuclei → serotonin release NGẮN HẠN             │
-  │ + MAO-A inhibition (chỉ thuốc lá) → serotonin tồn tại LÂU HƠN   │
-  │ Chronic: serotonin baseline GIẢM (depletion)                      │
-  │   → GIỮA các điếu: mood THẤP HƠN non-smoker                     │
-  │   → Hút tiếp: RESTORE mood → "ổn lại"                           │
-  │ Misconception: "tự tin hơn" ← §5                                  │
+  │ nAChRs on raphe nuclei → short-term serotonin release             │
+  │ + MAO-A inhibition (cigarettes only) → serotonin persists LONGER  │
+  │ Chronic: serotonin baseline FALLS (depletion)                      │
+  │   → BETWEEN cigarettes: mood LOWER than a non-smoker's            │
+  │   → Smoke again: RESTORES mood → "back to normal"                 │
+  │ Misconception: "more confident" ← §5                               │
   │                                                                    │
-  │ 🟢 Taylor et al. 2014 (meta-analysis):                           │
-  │   BỎ thuốc → anxiety/depression GIẢM (không tăng)                 │
-  │   Effect size TƯƠNG ĐƯƠNG antidepressant cho anxiety              │
-  │   → NGƯỢC misconception "bỏ thuốc = stress hơn"                  │
+  │ 🟢 Taylor et al. 2014 (meta-analysis):                            │
+  │   QUITTING → anxiety/depression DECREASES (not increases)          │
+  │   Effect size COMPARABLE to antidepressants for anxiety            │
+  │   → CONTRADICTS the misconception "quitting = more stressed"       │
   │                                                                    │
-  │ 🟢 Moylan et al. 2012:                                            │
-  │   Smokers có tỉ lệ anxiety + depression CAO HƠN non-smokers      │
-  │   = Smoking KHÔNG bảo vệ mental health — HARM mental health       │
+  │ 🟢 Moylan et al. 2012:                                             │
+  │   Smokers have HIGHER rates of anxiety + depression than           │
+  │   non-smokers = Smoking DOESN'T protect mental health — HARMS it  │
   ├────────────────────────────────────────────────────────────────────┤
-  │ HỆ 3: NOREPINEPHRINE (qua Locus Coeruleus nAChR + HPA)          │
+  │ SYSTEM 3: NOREPINEPHRINE (via Locus Coeruleus nAChR + HPA)       │
   │                                                                    │
   │ Function: Alertness, arousal, attention                            │
-  │ nAChR trên Locus Coeruleus → NE release → tỉnh táo               │
-  │ + HPA axis: CRH → cortisol nhẹ → arousal                         │
-  │ Chronic: NE baseline DEPENDENT on nicotine                        │
-  │ Misconception: "tỉnh táo hơn" ← §5                               │
+  │ nAChRs on Locus Coeruleus → NE release → alertness                │
+  │ + HPA axis: CRH → mild cortisol → arousal                         │
+  │ Chronic: NE baseline DEPENDENT on nicotine                         │
+  │ Misconception: "more alert" ← §5                                   │
   └────────────────────────────────────────────────────────────────────┘
 
-  ⭐ PATTERN CHUNG (§5 drill chi tiết):
-    CẢ 3 HỆ đều follow CÙNG 1 PATTERN:
-    Short-term: tăng nhẹ → feel THẬT tốt hơn (ở lần đầu)
-    Tolerance: baseline SHIFT xuống
-    Chronic: "bình thường" = CÓ nicotine. "Dưới bình thường" = KHÔNG CÓ
-    → "Tập trung / tự tin / tỉnh táo HƠN" = RESTORE deficit, KHÔNG enhance
+  ⭐ SHARED PATTERN (§5 covers in detail):
+    ALL 3 SYSTEMS follow THE SAME PATTERN:
+    Short-term: mild increase → genuinely feels better (on first use)
+    Tolerance: baseline SHIFTS downward
+    Chronic: "normal" = WITH nicotine. "Below normal" = WITHOUT
+    → "Better focus / confidence / alertness" = RESTORING a deficit,
+      NOT enhancing above a healthy baseline
 ```
 
-### §1.5 — So sánh: Nicotine vs các chất khác
+### §1.5 — Comparison: Nicotine vs other substances
 
 ```
-🟡 SO SÁNH ARCHITECTURE:
+🟡 ARCHITECTURE COMPARISON:
 
   ┌───────────────────────────────────────────────────────────────────┐
-  │ Chất          │ Dopamine │ Opioid      │ Serotonin│ Body-state   │
-  ├───────────────┼──────────┼─────────────┼──────────┼──────────────┤
-  │ Scroll phone  │ Micro ✓  │ ✗           │ ✗        │ ✗            │
-  │ Nicotine      │ ✓ vừa    │ ✓ nhẹ      │ ✓ nhẹ   │ ✓ NE (alert) │
-  │ Rượu          │ ✓ gián   │ ✓ vừa      │ ✓ tạm   │ ✓✓ GABA      │
-  │ Cocaine       │ ✓✓ mạnh  │ ✗ ít       │ ✓ block │ ✓ NE mạnh    │
-  │ Heroin        │ ✓ gián   │ ✓✓✓ CỰC    │ ✗       │ ✓✓ CỰC      │
+  │ Substance     │ Dopamine │ Opioid       │ Serotonin│ Body-state   │
+  ├───────────────┼──────────┼──────────────┼──────────┼──────────────┤
+  │ Phone scroll  │ Micro ✓  │ ✗            │ ✗        │ ✗            │
+  │ Nicotine      │ ✓ moderate│ ✓ mild      │ ✓ mild   │ ✓ NE (alert) │
+  │ Alcohol       │ ✓ indirect│ ✓ moderate  │ ✓ brief  │ ✓✓ GABA     │
+  │ Cocaine       │ ✓✓ strong │ ✗ minor     │ ✓ block  │ ✓ NE strong  │
+  │ Heroin        │ ✓ indirect│ ✓✓✓ EXTREME │ ✗        │ ✓✓ EXTREME  │
   └───────────────────────────────────────────────────────────────────┘
 
-  Nicotine = VỪA ĐỦ ở nhiều kênh → không cực ở bất kỳ kênh nào
-  → Hook bằng TẦN SUẤT (200+ bolus/ngày), không bằng cường độ
-  → "Death by a thousand cuts" thay "one big hit"
+  Nicotine = MODERATE across multiple channels → not extreme in any one
+  → Hooks via FREQUENCY (200+ boluses/day), not via intensity
+  → "Death by a thousand cuts" rather than "one big hit"
 ```
 
 ---
 
-## §2 — THUỐC LÁ ≠ NICOTINE: MAO INHIBITOR SYNERGY
+## §2 — CIGARETTES ≠ NICOTINE: MAO INHIBITOR SYNERGY
 
-### §2.1 — MAO-B/A inhibition: Multiplicative amplifier
+### §2.1 — MAO-B/A inhibition: A multiplicative amplifier
 
 ```
 🟢 FOWLER ET AL. 1996 (Nature 379:733-6, PET imaging):
 
-  Não người hút thuốc LÁ (cigarette):
-    MAO-B activity giảm ~40% so với non-smoker
-    MAO-A activity giảm ~30%
+  Brain of a cigarette smoker:
+    MAO-B activity reduced ~40% vs non-smoker
+    MAO-A activity reduced ~30%
 
-  MAO (Monoamine Oxidase) = enzyme phân hủy:
+  MAO (Monoamine Oxidase) = enzyme that breaks down:
     MAO-B: DOPAMINE + phenylethylamine
     MAO-A: SEROTONIN + norepinephrine + dopamine
 
-  → Ức chế MAO = monoamines TỒN TẠI LÂU HƠN trong synapse:
-    Nicotine ÉP VTA fire dopamine + MAO-I GIỮLẠI dopamine lâu hơn = MULTIPLICATIVE
-    + Serotonin tồn tại lâu hơn → mood effect KÉO DÀI
-    + NE tồn tại lâu hơn → alertness effect KÉO DÀI
+  → Inhibiting MAO = monoamines PERSIST LONGER in the synapse:
+    Nicotine FORCES VTA to fire dopamine + MAO-I HOLDS dopamine longer = MULTIPLICATIVE
+    + Serotonin persists longer → mood effect EXTENDED
+    + NE persists longer → alertness effect EXTENDED
 
   Guillem 2005 (J Neuroscience):
     MAO-I "DRAMATICALLY AND SPECIFICALLY increases
-    the motivation to self-administer nicotine" ở chuột
+    the motivation to self-administer nicotine" in rats
 
-  ⚠️ MAO-I ĐẾN TỪ KHÓI, KHÔNG PHẢI NICOTINE:
+  ⚠️ MAO-I COMES FROM THE SMOKE, NOT FROM NICOTINE:
     - Harman (β-carboline): MAO-A inhibitor (Ki=55nM) — Herraiz & Chaparro 2005
     - Norharman: MAO-A + MAO-B inhibitor
-    - Hogg 2017: harman/norharman chỉ ~10% tổng MAO-A inhibition
-      → có nhiều compounds chưa xác định khác trong khói thuốc
+    - Hogg 2017: harman/norharman = only ~10% of total MAO-A inhibition
+      → other unidentified compounds in smoke contribute the rest
 
-  → CHỈ sản phẩm ĐỐT CHÁY mới có MAO-I (cigarette, cigar, pipe, hookah, thuốc lào)
-  → Snus, snuff, vape, patch: KHÔNG ĐỐT → KHÔNG có MAO-I → §3
+  → ONLY combustion products have MAO-I (cigarette, cigar, pipe, hookah, thuốc lào)
+  → Snus, snuff, vape, patch: NO combustion → NO MAO-I → §3
 ```
 
-### §2.2 — Acetaldehyde: Enhancer thứ 2
+### §2.2 — Acetaldehyde: Second enhancer
 
 ```
 🟢 ACETALDEHYDE (Belluzzi 2005):
 
-  ~1000 μg per cigarette. Tác động:
-    → Tăng nicotine self-administration, ĐẶC BIỆT ở tuổi teen
-    → Ở liều nicotine thấp: nicotine alone = không đủ duy trì self-admin
-      → thêm acetaldehyde → self-admin TĂNG ĐÁNG KỂ
-    → Condense với biogenic amines → tạo harman/salsolinol IN VIVO
-      → thêm 1 pathway MAO inhibition (tạo TRONG cơ thể)
+  ~1000 μg per cigarette. Effects:
+    → Increases nicotine self-administration, ESPECIALLY in adolescents
+    → At low nicotine doses: nicotine alone = not enough to sustain self-admin
+      → Add acetaldehyde → self-admin INCREASES SIGNIFICANTLY
+    → Condenses with biogenic amines → forms harman/salsolinol IN VIVO
+      → adds a further MAO inhibition pathway (created INSIDE the body)
 
-  → CHỈ có ở sản phẩm đốt cháy
+  → Present ONLY in combustion products
 ```
 
 ### §2.3 — Carbon Monoxide: Cycle reinforcer
 
 ```
-🟢🟡 CO TRONG KHÓI:
+🟢🟡 CO IN CIGARETTE SMOKE:
 
-  CO gắn hemoglobin mạnh gấp 240× O2:
-    Smokers COHb 5-10% (bình thường <1%) → mild chronic hypoxia
-    PFC (oxygen-hungry nhất) bị ảnh hưởng
-    → "Sluggishness" giữa các điếu → nicotine "fix" → reinforce cycle
+  CO binds hemoglobin 240× more strongly than O2:
+    Smokers' COHb: 5-10% (normal <1%) → mild chronic hypoxia
+    PFC (the most oxygen-hungry region) is most affected
+    → "Sluggishness" between cigarettes → nicotine "fixes" it → reinforces the cycle
 
-  ⚠️ Hookah CO = CỰC CAO — xem §3.4
+  ⚠️ Hookah CO = EXTREMELY HIGH — see §3.4
 ```
 
-### §2.4 — Tóm tắt: Thuốc lá = Nicotine × 3 Amplifiers
+### §2.4 — Summary: A cigarette = Nicotine × 3 Amplifiers
 
 ```
-🟡 THUỐC LÁ TRUYỀN THỐNG (cigarette) = FULL COMBO:
+🟡 CONVENTIONAL CIGARETTE = FULL COMBO:
 
   ① NICOTINE (driver): α4β2→dopamine + α7→opioid + NE + serotonin
-  ② MAO-I (amplifier): giữ dopamine + serotonin + NE lâu hơn
-  ③ ACETALDEHYDE (enhancer): tăng reinforcement + tạo MAO-I in vivo
-  ④ CO (cycle): mild hypoxia → "fog" giữa điếu → reinforce hút = tỉnh
+  ② MAO-I (amplifier): holds dopamine + serotonin + NE longer
+  ③ ACETALDEHYDE (enhancer): increases reinforcement + creates MAO-I in vivo
+  ④ CO (cycle): mild hypoxia → "fog" between cigarettes → reinforces smoking = clearheaded
 
-  → Thuốc lá = nicotine × MAO-I × AcH × CO = MULTIPLICATIVE
-  → Vape = nicotine alone (THIẾU MAO-I, AcH, CO)
-  → Patch = nicotine alone + CHẬM
-  → Chi tiết 7 dạng: §3
+  → Cigarette = nicotine × MAO-I × AcH × CO = MULTIPLICATIVE
+  → Vape = nicotine alone (MISSING MAO-I, AcH, CO)
+  → Patch = nicotine alone + SLOW delivery
+  → All 7 product types detailed in §3
 ```
 
 ---
 
-## §3 — 7 DẠNG TOBACCO: pH × DELIVERY × ADDICTION ARCHITECTURE
+## §3 — 7 TOBACCO PRODUCT TYPES: pH × DELIVERY × ADDICTION ARCHITECTURE
 
-### §3.1 — pH: Tại sao acid vs kiềm quyết định NƠI hấp thu
+### §3.1 — pH: Why acid vs alkaline determines WHERE absorption occurs
 
 ```
 🟢 pH MECHANISM (established pharmacology):
 
-  Nicotine tồn tại 2 dạng:
-    pH ACID (<7): dạng ION HÓA (protonated) → KHÔNG xuyên niêm mạc
-      → PHẢI hít sâu vào PHỔI → alveoli (bề mặt ~70m²) → hấp thu
-      → Tốc độ: 10-19 giây tới não (arterial bolus, NHANH NHẤT)
+  Nicotine exists in 2 forms:
+    ACIDIC pH (<7): IONIZED form (protonated) → CANNOT cross mucosal membranes
+      → MUST be inhaled deep into LUNGS → alveoli (surface area ~70m²) → absorbed
+      → Speed: 10-19 seconds to the brain (arterial bolus, FASTEST possible)
 
-    pH KIỀM (>7): dạng FREEBASE (unionized) → XUYÊN niêm mạc trực tiếp
-      → Hấp thu qua MIỆNG, MŨI → KHÔNG cần hít vào phổi
-      → Tốc độ: CHẬM HƠN (miệng ~minutes, mũi ~5-13 min)
+    ALKALINE pH (>7): FREEBASE form (unionized) → CAN cross mucous membranes directly
+      → Absorbed via MOUTH, NOSE → does NOT need to reach the lungs
+      → Speed: SLOWER (mouth ~minutes, nose ~5-13 min)
 
   ┌───────────────────────────────────────────────────────────────┐
-  │ Product     │ pH    │ Dạng nicotine │ Hấp thu ở  │ Cần hít?  │
-  ├─────────────┼───────┼───────────────┼────────────┼───────────┤
-  │ Cigarette   │ ~5.5  │ Ion hóa       │ PHỔI       │ CÓ (must) │
-  │ Xì gà      │ ~8.5  │ Freebase      │ MIỆNG      │ KHÔNG     │
-  │ Tẩu        │ ~7-7.5│ Freebase phần │ Miệng chính│ Thường ko │
-  │ Hookah      │ varies│ Mixed         │ Phổi (hít) │ CÓ        │
-  │ Thuốc lào   │ kiềm  │ Freebase      │ Phổi (hít) │ CÓ (deep) │
-  │ Snus/Nhai   │ ~8+   │ Freebase      │ Niêm mạc   │ KHÔNG     │
-  │ Snuff (hít) │ kiềm  │ Freebase      │ Mũi        │ HÍT mũi  │
+  │ Product       │ pH     │ Nicotine form │ Absorbed in │ Inhale? │
+  ├───────────────┼────────┼───────────────┼─────────────┼─────────┤
+  │ Cigarette     │ ~5.5   │ Ionized       │ LUNGS       │ YES     │
+  │ Cigar (xì gà) │ ~8.5   │ Freebase      │ MOUTH       │ NO      │
+  │ Pipe (tẩu)   │ ~7-7.5 │ Partly free.  │ Mainly mouth│ Usually no│
+  │ Hookah        │ varies │ Mixed         │ Lungs       │ YES     │
+  │ Thuốc lào*   │ alkaline│ Freebase      │ Lungs       │ YES(deep)│
+  │ Snus/Chew     │ ~8+    │ Freebase      │ Mucosa      │ NO      │
+  │ Nasal snuff   │ alkaline│ Freebase     │ Nasal cavity│ Nasal   │
   └───────────────────────────────────────────────────────────────┘
 
+  * Thuốc lào = Nicotiana rustica; a far more potent Vietnamese tobacco variety
+
   KEY INSIGHT:
-    Cigarette = acid → PHẢI hít phổi → tốc độ CỰC NHANH → NGHIỆN NHẤT
-    Xì gà = kiềm → qua miệng → CHẬM → ÍT NGHIỆN HƠN
-    → Đó là lý do cigar smokers THƯỜNG KHÔNG HÍT SÂU (không cần)
-    → Và cigarette smokers PHẢI HÍT SÂU (pH acid bắt buộc)
+    Cigarette = acid → MUST go through lungs → speed EXTREMELY FAST → MOST ADDICTIVE
+    Cigar = alkaline → mouth absorption → SLOWER → LESS ADDICTIVE
+    → That's why cigar smokers usually DON'T INHALE deeply (they don't need to)
+    → And cigarette smokers MUST inhale deeply (acid pH requires it)
 ```
 
-### §3.2 — Bảng so sánh 7 sản phẩm
+### §3.2 — Comparison table: 7 tobacco products
 
 ```
 🟢🟡 7 PRODUCTS × ADDICTION ARCHITECTURE:
 
-  ┌─────────────┬──────────┬──────────┬───────┬──────┬──────┬────────────┐
-  │ Product     │ Nicotine │ Tốc độ   │ MAO-I │ AcH  │ CO   │ Addiction  │
-  │             │ absorbed │ tới não  │       │      │      │ level     │
-  ├─────────────┼──────────┼──────────┼───────┼──────┼──────┼────────────┤
-  │ Cigarette   │ 1-2 mg   │ 10-19s   │ CÓ   │ CÓ  │ TB   │ CỰC CAO   │
-  │ (thuốc lá)  │ per điếu │ CỰC NHANH│       │      │ 3ppm │ full combo │
-  ├─────────────┼──────────┼──────────┼───────┼──────┼──────┼────────────┤
-  │ Thuốc lào   │ RẤT CAO  │ Rất nhanh│ CÓ   │ CÓ  │ TB   │ RẤT CAO   │
-  │ (N.rustica) │ per hơi  │ 1 bolus  │       │      │      │ massive    │
-  │             │ gấp 3-9× │ cực lớn  │       │      │      │ dose       │
-  ├─────────────┼──────────┼──────────┼───────┼──────┼──────┼────────────┤
-  │ Hookah      │ ~1.7× cig│ Chậm,    │ CÓ   │ CÓ  │ CỰC  │ TB-CAO    │
-  │ (shisha)    │ per sess │ tích lũy │       │      │ CAO  │ session    │
-  │             │          │ 45-60min │       │      │ ×8   │ dài       │
-  ├─────────────┼──────────┼──────────┼───────┼──────┼──────┼────────────┤
-  │ Xì gà      │ 1-5 mg   │ Chậm     │ CÓ   │ CÓ  │ TB-  │ THẤP HƠN  │
-  │ (cigar)     │ absorbed │ qua miệng│       │      │ thấp │ (chậm,    │
-  │             │          │ (pH 8.5) │       │      │      │ occasion) │
-  ├─────────────┼──────────┼──────────┼───────┼──────┼──────┼────────────┤
-  │ Tẩu        │ 1-3 mg   │ Chậm     │ CÓ   │ CÓ  │ TB-  │ THẤP HƠN  │
-  │ (pipe)      │ per bowl │ qua miệng│       │      │ thấp │ (ritual)  │
-  ├─────────────┼──────────┼──────────┼───────┼──────┼──────┼────────────┤
-  │ Snus/Nhai   │ 1-3 mg   │ Rất chậm │ KHÔNG│ KHÔNG│ KHÔNG│ TRUNG BÌNH│
-  │ (oral)      │ per pouch│ 20-30min │       │      │      │ safest*   │
-  ├─────────────┼──────────┼──────────┼───────┼──────┼──────┼────────────┤
-  │ Snuff (hít) │ 1-2 mg   │ TB       │ KHÔNG│ KHÔNG│ KHÔNG│ TRUNG BÌNH│
-  │ (nasal)     │ per pinch│ 5-13min  │       │      │      │           │
-  └─────────────┴──────────┴──────────┴───────┴──────┴──────┴────────────┘
+  ┌─────────────────┬──────────┬──────────┬───────┬──────┬──────┬─────────────┐
+  │ Product         │ Nicotine │ Speed to │ MAO-I │ AcH  │ CO   │ Addiction   │
+  │                 │ absorbed │ brain    │       │      │      │ level       │
+  ├─────────────────┼──────────┼──────────┼───────┼──────┼──────┼─────────────┤
+  │ Cigarette       │ 1-2 mg   │ 10-19s   │ YES   │ YES  │ Med  │ EXTREMELY   │
+  │                 │ per cig. │ FASTEST  │       │      │ 3ppm │ HIGH        │
+  │                 │          │          │       │      │      │ full combo  │
+  ├─────────────────┼──────────┼──────────┼───────┼──────┼──────┼─────────────┤
+  │ Thuốc lào       │ VERY HIGH│ Very fast│ YES   │ YES  │ Med  │ VERY HIGH   │
+  │ (N. rustica)    │ per puff │ 1 massive│       │      │      │ massive     │
+  │                 │ 3-9× cig │ bolus    │       │      │      │ dose/event  │
+  ├─────────────────┼──────────┼──────────┼───────┼──────┼──────┼─────────────┤
+  │ Hookah (shisha) │ ~1.7×    │ Slow,    │ YES   │ YES  │ EXT. │ MED-HIGH    │
+  │                 │ cig/sess │ cumul.   │       │      │ HIGH │ long session│
+  │                 │          │ 45-60min │       │      │ ×8   │             │
+  ├─────────────────┼──────────┼──────────┼───────┼──────┼──────┼─────────────┤
+  │ Cigar (xì gà)  │ 1-5 mg   │ Slow     │ YES   │ YES  │ Med- │ LOWER       │
+  │                 │ absorbed │ via mouth│       │      │ low  │ (slow,      │
+  │                 │          │ (pH 8.5) │       │      │      │ occasional) │
+  ├─────────────────┼──────────┼──────────┼───────┼──────┼──────┼─────────────┤
+  │ Pipe (tẩu)     │ 1-3 mg   │ Slow     │ YES   │ YES  │ Med- │ LOWER       │
+  │                 │ per bowl │ via mouth│       │      │ low  │ (ritual)    │
+  ├─────────────────┼──────────┼──────────┼───────┼──────┼──────┼─────────────┤
+  │ Snus/Chew       │ 1-3 mg   │ Very slow│ NO    │ NO   │ NO   │ MODERATE    │
+  │ (oral)          │ per pouch│ 20-30min │       │      │      │ safest*     │
+  ├─────────────────┼──────────┼──────────┼───────┼──────┼──────┼─────────────┤
+  │ Nasal snuff     │ 1-2 mg   │ Moderate │ NO    │ NO   │ NO   │ MODERATE    │
+  │                 │ per pinch│ 5-13min  │       │      │      │             │
+  └─────────────────┴──────────┴──────────┴───────┴──────┴──────┴─────────────┘
 ```
 
-### §3.3 — Thuốc lào (Nicotiana rustica): 3-9× nicotine
+### §3.3 — Thuốc lào (Nicotiana rustica): 3-9× the nicotine
 
 ```
-🟢🟡 THUỐC LÀO = LOÀI THUỐC KHÁC (Nicotiana rustica):
+🟢🟡 THUỐC LÀO = A DIFFERENT SPECIES (Nicotiana rustica):
 
   Nicotiana tabacum (cigarette, cigar, pipe): 1-3% nicotine by dry weight
-  Nicotiana rustica (thuốc lào): 6-9%, có giống lên tới 10%
-  = GẤP 3-9 LẦN nicotine per gram
+  Nicotiana rustica (thuốc lào): 6-9%, some varieties up to 10%
+  = 3-9 TIMES more nicotine per gram
 
-  Delivery: điếu cày / ống điếu nước → 1 hơi RẤT SÂU → MASSIVE BOLUS
-  = Toàn bộ nicotine 1 lần (không chia 10-12 hơi như cigarette)
+  Delivery: water pipe / traditional Vietnamese pipe → 1 very deep puff
+    → MASSIVE BOLUS in one hit (not spread across 10-12 puffs like a cigarette)
 
-  Trải nghiệm "say thuốc": chóng mặt, tê bì, head rush
-  = Opioid + dopamine + NE spike ĐỒNG THỜI, cường độ RẤT CAO
+  Subjective experience: dizziness, tingling, head rush
+  = Simultaneous opioid + dopamine + NE spike at VERY HIGH intensity
 
   Framework 🟡:
-    Thuốc lào = prediction-delta CỰC LỚN per event
-    NHƯNG: frequency THẤP (vài lần/ngày, không phải 20+ điếu)
-    → Chunk compilation: ÍT context triggers, nhưng MỖI trigger = cực mạnh
-    → Addiction architecture KHÁC cigarette:
-      Cigarette: NHẸ × NHIỀU LẦN = dày đặc triggers
-      Thuốc lào: MẠNH × ÍT LẦN = ít triggers nhưng deep compile
-    → → Khó so sánh trực tiếp — 2 kiểu addiction KHÁC NHAU
+    Thuốc lào = HUGE prediction-delta per event
+    BUT: frequency is LOW (a few times per day, not 20+ cigarettes)
+    → Chunk compilation: FEW context triggers, but EACH trigger = extreme compile
+    → Addiction architecture DIFFERS from cigarettes:
+      Cigarettes: MILD × MANY TIMES = dense trigger landscape
+      Thuốc lào: INTENSE × FEW TIMES = few triggers but deeply compiled
+    → → Hard to compare directly — 2 DIFFERENT addiction architectures
 ```
 
-### §3.4 — Hookah: CO paradox — nước KHÔNG lọc CO
+### §3.4 — Hookah: The CO paradox — water does NOT filter CO
 
 ```
 🟢 HOOKAH CO LEVELS (AHA/Circulation):
 
   Cigarette: ~3 ppm CO boost per cigarette
-  Hookah: ~24 ppm trung bình, lên tới 66.5 ppm per session
-  = GẤP ~8× cigarette CO per session
+  Hookah: ~24 ppm average, up to 66.5 ppm per session
+  = ~8× MORE CO than a cigarette per session
 
-  ⚠️ CO ĐẾN TỪ THAN (charcoal), KHÔNG phải thuốc lá
-  → Nước lọc một phần tar, KHÔNG lọc CO (CO = khí, đi qua nước)
-  → "Hookah an toàn hơn vì lọc qua nước" = MISCONCEPTION
+  ⚠️ CO COMES FROM THE CHARCOAL, NOT THE TOBACCO
+  → Water filters some tar, but NOT CO (CO is a gas, passes through water)
+  → "Hookah is safer because it's filtered through water" = MISCONCEPTION
 
   Framework 🟡:
-    Hookah = social ritual (nhóm, quán, 45-60 min)
-    → Chunk compilation: SOCIAL chunks dominant (nhóm bạn, buổi tối)
-    → Ít compulsive-individual hơn cigarette (ít "hút 1 mình khi stress")
-    → NHƯNG: CO exposure RẤT CAO → PFC hypoxia MẠNH HƠN cigarette
-    → Irony: social ritual "chill" nhưng CO damage CAO
+    Hookah = social ritual (group, venue, 45-60 min)
+    → Chunk compilation: SOCIAL chunks dominate (group, evening out)
+    → Less compulsive-individual than cigarettes (fewer "smoking alone when stressed")
+    → BUT: CO exposure VERY HIGH → PFC hypoxia STRONGER than cigarettes
+    → Irony: the "chill" social ritual causes MORE CO damage than cigarettes
 ```
 
-### §3.5 — Vape/E-cigarette: Thiếu MAO synergy
+### §3.5 — Vape/E-cigarette: Missing the MAO synergy
 
 ```
 🟢 VAPE (Anderson 2019):
 
-  Thành phần: Nicotine (tobacco-extracted hoặc synthetic) + PG + VG + hương liệu
-  Nicotine salt (benzoic acid): 20-50 mg/mL, không cay cổ
+  Ingredients: nicotine (tobacco-extracted or synthetic) + PG + VG + flavoring
+  Nicotine salt (benzoic acid): 20-50 mg/mL, smooth on the throat
 
-  Anderson 2019: KHÔNG MAO-I activity trong standard e-cigarettes
-  → Cùng liều nicotine: vape NÊN ÍT nghiện hơn thuốc lá
-  → Vì THIẾU MAO-I + AcH + CO → chỉ còn nicotine alone
+  Anderson 2019: NO MAO-I activity in standard e-cigarettes
+  → Same dose of nicotine: vape SHOULD be less addictive than cigarettes
+  → Because MISSING MAO-I + AcH + CO → only nicotine alone remains
 
   ⚠️ Caveats:
-    → Meng 2019: một số hương liệu CÓ MAO-I nhẹ → chưa đủ data
-    → Nicotine salt: delivery NHANH + nồng độ CAO → vẫn addictive
-    → Long-term: chưa đủ data (vape mới ~2010s)
+    → Meng 2019: some flavorings have MILD MAO-I activity → data still limited
+    → Nicotine salt: FAST delivery + HIGH concentration → still addictive
+    → Long-term: data still unavailable (vaping only ~2010s)
 
-  Framework: Vape = "partial ritual" (tay+miệng+hít nhưng thiếu mùi+lửa+tro)
-    → Body-Coupling yếu hơn cigarette (fewer modalities)
-    → + THIẾU MAO-I → chemical yếu hơn
-    → + Speed tương tự → prediction-delta VẪN LỚN
-    → Net: ít nghiện hơn thuốc lá nhưng VẪN addictive
+  Framework: Vape = "partial ritual" (hands+mouth+inhale but missing smoke+fire+ash)
+    → Body-Coupling weaker than cigarettes (fewer modalities)
+    + MISSING MAO-I → chemical effect weaker
+    + Speed similar → prediction-delta STILL HIGH
+    → Net: less addictive than cigarettes but STILL addictive
 ```
 
-### §3.6 — NRT (Patch, Gum): Nicotine chậm, ít addictive
+### §3.6 — NRT (Patch, Gum): Slow nicotine, low addiction
 
 ```
 🟢 NRT = NICOTINE REPLACEMENT THERAPY:
 
-  Patch: qua da, giờ, ổn định → prediction-delta GẦN NHƯ KHÔNG
-  Gum: qua niêm mạc, 15-30 min → delta NHỎ
+  Patch: through skin, hourly, stable → prediction-delta NEAR ZERO
+  Gum: through mucosa, 15-30 min → delta SMALL
 
-  Tại sao NRT ÍT ADDICTIVE:
-    ① CHẬM → delta NHỎ → chunk compile YẾU
-    ② KHÔNG ritual → body-coupling KHÔNG build
-    ③ KHÔNG MAO-I, AcH, CO → chỉ nicotine alone + slow
-    ④ Stable blood level → không có peak-trough cycle
+  Why NRT is LESS ADDICTIVE:
+    ① SLOW → delta SMALL → chunk compile WEAK
+    ② NO ritual → body-coupling does NOT build
+    ③ NO MAO-I, AcH, CO → only slow nicotine
+    ④ Stable blood level → no peak-trough cycle
 
-  NRT address CHEMICAL nhưng KHÔNG address ritual, context, identity
-  → Combination therapy hiệu quả hơn: NRT + behavioral support
+  NRT addresses CHEMICAL dependence but NOT ritual, context, identity
+  → Combination therapy is more effective: NRT + behavioral support
 ```
 
-### §3.7 — Framework: 3 yếu tố quyết định addiction architecture
+### §3.7 — Framework: 3 factors that determine addiction architecture
 
 ```
 🟡 FRAMEWORK SYNTHESIS:
 
-  3 yếu tố quyết định KIỂU NGHIỆN cho mỗi sản phẩm:
+  3 factors determine the TYPE OF ADDICTION for each product:
 
   ① SPEED (prediction-delta magnitude):
-    Nhanh → delta LỚN → compile MẠNH → nghiện NHANH
+    Faster → LARGER delta → STRONGER compile → addiction FASTER
     Cigarette > thuốc lào > snuff > hookah > cigar/pipe > snus > patch
 
   ② AMPLIFIERS (multiplicative effect):
-    CÓ ĐỐT CHÁY: MAO-I + AcH + CO (cigarette, thuốc lào, hookah, cigar, pipe)
-    KHÔNG ĐỐT: nicotine alone (snus, snuff, vape, patch)
-    → Đốt cháy = ĐỐI TÁC amplifiers → nghiện MẠNH hơn
+    WITH COMBUSTION: MAO-I + AcH + CO (cigarette, thuốc lào, hookah, cigar, pipe)
+    WITHOUT COMBUSTION: nicotine alone (snus, snuff, vape, patch)
+    → Combustion = PARTNER amplifiers → STRONGER addiction
 
   ③ SESSION PATTERN (chunk compilation style):
-    Cigarette: pulsed (10-12 hơi/5-7min) → DÀY ĐẶC context triggers
-    Thuốc lào: single massive bolus → ÍT triggers, MỖI cái CỰC MẠNH
-    Hookah: sustained 45-60min → SOCIAL chunks dominant
-    Xì gà/Tẩu: slow sustained → RELAXATION chunks, ít compulsive
-    Snus: plateau 20-30min → STEADY, ít trigger formation
+    Cigarette: pulsed (10-12 puffs/5-7min) → DENSE context triggers
+    Thuốc lào: single massive bolus → FEW triggers, each EXTREMELY intense
+    Hookah: sustained 45-60min → SOCIAL chunks dominate
+    Cigar/Pipe: slow sustained → RELAXATION chunks, less compulsive
+    Snus: plateau 20-30min → STEADY, fewer trigger formations
 
-  → Mỗi dạng = KHÁC addiction architecture
-  → Cigarette = CỰC CAO vì: nhanh nhất × full amplifiers × dày đặc triggers
-  → KHÔNG phải mọi tobacco = equally addictive
+  → Each product = DIFFERENT addiction architecture
+  → Cigarette = EXTREMELY HIGH because: fastest × full amplifiers × dense triggers
+  → NOT all tobacco = equally addictive
 ```
 
 ---
 
-## §4 — GRADIENT LIỀU: TỪ 1 HƠI ĐẾN CHAIN-SMOKER
+## §4 — DOSE GRADIENT: FROM 1 PUFF TO CHAIN SMOKER
 
 ### §4.1 — Pharmacokinetics
 
 ```
 🟢 NICOTINE PHARMACOKINETICS (Benowitz 2010):
 
-  Cigarette: nicotine → phổi → máu → não trong 10-19 GIÂY
-  = "Arterial bolus" — nhanh hơn tiêm tĩnh mạch (20-30s)
-  Half-life trong máu: ~2 giờ (nicotine → cotinine qua CYP2A6)
-  1 điếu = ~10-12 hơi = 10-12 BOLUSES riêng lẻ
+  Cigarette: nicotine → lungs → blood → brain in 10-19 SECONDS
+  = "Arterial bolus" — faster than intravenous injection (20-30s)
+  Half-life in blood: ~2 hours (nicotine → cotinine via CYP2A6)
+  1 cigarette = ~10-12 puffs = 10-12 SEPARATE BOLUSES
 
-  Framework: tốc độ delivery = tốc độ prediction-delta = tốc độ chunk compile
-  → Nhanh → delta LỚN → compile MẠNH → habit form NHANH
+  Framework: delivery speed = prediction-delta speed = chunk compile speed
+  → Faster → LARGER delta → STRONGER compile → habit forms FASTER
 ```
 
-### §4.2 — Liều thấp → trung → cao → chronic
+### §4.2 — Low → moderate → high → chronic
 
 ```
-🟡 4 MỨC PROGRESSION:
+🟡 4-LEVEL PROGRESSION:
 
   ┌──────────────────┬──────────────────────────────────────────────────┐
-  │ MỨC 1: THẤP      │ 1-2 hơi, occasional, chưa tolerance            │
-  │ (first exposure)  │                                                 │
-  │                   │ Effects: tỉnh nhẹ (NE), comfortable nhẹ (opioid), │
-  │                   │ hơi chóng mặt (α7 nếu chưa quen)              │
-  │                   │ Prediction-delta: 100→110 = NHỎ, THẬT          │
-  │                   │ → Body-feedback: state change THẬT (Direct-State)     │
-  │                   │ → NHƯNG: vài lần → tolerance bắt đầu           │
+  │ LEVEL 1: LOW     │ 1-2 puffs, occasional, no tolerance yet          │
+  │ (first exposure) │                                                  │
+  │                  │ Effects: mild alertness (NE), mild comfort       │
+  │                  │ (opioid), slight dizziness (α7 if new)           │
+  │                  │ Prediction-delta: 100→110 = SMALL, REAL          │
+  │                  │ → Body-feedback: REAL state change (Direct-State) │
+  │                  │ → BUT: a few uses → tolerance begins              │
   ├──────────────────┼──────────────────────────────────────────────────┤
-  │ MỨC 2: TOLERANCE │ Hút hàng ngày, weeks → months                   │
-  │ (daily smoking)   │                                                 │
-  │                   │ α4β2 DESENSITIZE → não UPREGULATE (thêm receptor)│
-  │                   │ Fenster 1999: ~2× receptor binding at 100-200nM │
-  │                   │ → Cần NHIỀU HƠN cho cùng effect                 │
-  │                   │ → Điếu đầu buổi sáng = MẠNH NHẤT               │
-  │                   │   (receptors resensitize qua đêm)               │
-  │                   │ → Chuyển PULL→PUSH: hút VÌ TRÁNH withdrawal    │
+  │ LEVEL 2:         │ Daily smoking, weeks → months                    │
+  │ TOLERANCE        │                                                  │
+  │ (daily smoking)  │ α4β2 DESENSITIZES → brain UPREGULATES            │
+  │                  │ (more receptors)                                 │
+  │                  │ Fenster 1999: ~2× receptor binding at 100-200nM  │
+  │                  │ → Needs MORE for the same effect                 │
+  │                  │ → First cigarette of the morning = STRONGEST     │
+  │                  │   (receptors resensitize overnight)              │
+  │                  │ → Shift from PULL→PUSH: smoking TO AVOID         │
+  │                  │   withdrawal                                     │
   ├──────────────────┼──────────────────────────────────────────────────┤
-  │ MỨC 3: BASELINE  │ Chronic heavy smoker, years                      │
-  │ SHIFT             │                                                 │
-  │                   │ α4β2 upregulated 200-300%                       │
-  │                   │ MAO activity giảm mãn tính (nếu hút thuốc lá)  │
-  │                   │ NE, serotonin, dopamine baseline = DEPENDENT    │
-  │                   │ → Hút = "bình thường." Không hút = "DƯỚI"      │
-  │                   │ → Reward = RELIEF (Profile ④ Reward-Signal-Architecture) chứ ko pleasure│
-  │                   │ → Body-coupling DEEP: nicotine = body-base     │
+  │ LEVEL 3:         │ Chronic heavy smoker, years                      │
+  │ BASELINE SHIFT   │                                                  │
+  │                  │ α4β2 upregulated 200-300%                        │
+  │                  │ MAO activity chronically reduced (cigarette users)│
+  │                  │ NE, serotonin, dopamine baseline = DEPENDENT     │
+  │                  │ → Smoking = "normal." Not smoking = "BELOW"      │
+  │                  │ → Reward = RELIEF (Profile ④                     │
+  │                  │   Reward-Signal-Architecture) — not pleasure     │
+  │                  │ → Body-coupling DEEP: nicotine = body-base       │
   ├──────────────────┼──────────────────────────────────────────────────┤
-  │ MỨC 4: DEPENDENCY│ Nicotine từ LUXURY → SURVIVAL NEED              │
-  │                   │                                                 │
-  │                   │ Body predict CẦN nicotine để function           │
-  │                   │ Prediction model calibrated trên nền CÓ nicotine│
-  │                   │ Remove = toàn bộ system → massive mismatch      │
-  │                   │ → Addiction-Analysis.md Phase 4                  │
+  │ LEVEL 4:         │ Nicotine shifts from LUXURY → SURVIVAL NEED      │
+  │ DEPENDENCY       │                                                  │
+  │                  │ Body predicts it NEEDS nicotine to function      │
+  │                  │ Prediction model calibrated on a WITH-nicotine   │
+  │                  │ baseline                                         │
+  │                  │ Remove it = entire system → massive mismatch     │
+  │                  │ → Addiction-Analysis.md Phase 4                  │
   └──────────────────┴──────────────────────────────────────────────────┘
 ```
 
 ---
 
-## §5 — 3 MISCONCEPTIONS: RESTORATION, KHÔNG PHẢI ENHANCEMENT
+## §5 — 3 MISCONCEPTIONS: RESTORATION, NOT ENHANCEMENT
 
-### §5.1 — Pattern chung: CÙNG 1 cơ chế cho cả 3 hệ
+### §5.1 — The shared pattern: Same mechanism across all 3 systems
 
 ```
 🟡 ⭐ FRAMEWORK CORE INSIGHT:
 
-  CẢ 3 hệ neurotransmitter bị nicotine tác động đều follow CÙNG PATTERN:
+  ALL 3 neurotransmitter systems affected by nicotine follow THE SAME PATTERN:
 
   ┌───────────────────────────────────────────────────────────────────┐
-  │ Giai đoạn      │ Dopamine        │ Serotonin       │ NE           │
-  │                │ ("tập trung")   │ ("tự tin")      │ ("tỉnh táo") │
-  ├────────────────┼─────────────────┼─────────────────┼──────────────┤
-  │ Lần đầu        │ ↑ nhẹ (thật)    │ ↑ nhẹ (thật)    │ ↑ nhẹ (thật) │
-  │ Tolerance       │ Baseline ↓     │ Baseline ↓     │ Baseline ↓   │
-  │ Chronic         │ 70% baseline   │ 70% baseline   │ 70% baseline │
-  │ Hút tiếp       │ 70→100 RESTORE │ 70→100 RESTORE │ 70→100 RESTORE│
-  │ Cảm nhận       │ "tập trung HƠN"│ "tự tin HƠN"  │ "tỉnh HƠN"  │
-  │ Thực tế        │ = FIX withdrawal│ = FIX withdrawal│ = FIX withdr.│
+  │ Stage          │ Dopamine        │ Serotonin       │ NE            │
+  │                │ ("focus")       │ ("confidence")  │ ("alertness") │
+  ├────────────────┼─────────────────┼─────────────────┼───────────────┤
+  │ First use      │ ↑ mild (real)   │ ↑ mild (real)   │ ↑ mild (real) │
+  │ Tolerance      │ Baseline ↓      │ Baseline ↓      │ Baseline ↓    │
+  │ Chronic        │ 70% baseline    │ 70% baseline    │ 70% baseline  │
+  │ Smoke again    │ 70→100 RESTORE  │ 70→100 RESTORE  │ 70→100 RESTORE│
+  │ Felt as        │ "MORE focused"  │ "MORE confident"│ "MORE alert"  │
+  │ Reality        │ = FIX withdrawal│ = FIX withdrawal│ = FIX withdr. │
   └───────────────────────────────────────────────────────────────────┘
 
-  CÙNG 1 cơ chế. CÙNG 1 illusion. 3 KHÍA CẠNH KHÁC NHAU.
+  SAME mechanism. SAME illusion. 3 DIFFERENT manifestations.
 
-  Analogy: "Aspirin chữa đau đầu"
-  → Đúng. Nhưng nếu đau đầu DO THIẾU aspirin (withdrawal)
-  → Aspirin KHÔNG "chữa" — nó FIX CÁI NÓ GÂY RA
+  Analogy: "Aspirin cures headaches"
+  → True. But if the headache IS CAUSED BY aspirin withdrawal
+  → Aspirin isn't "curing" anything — it's FIXING WHAT IT CAUSED
 ```
 
-### §5.2 — Misconception 1: "Thuốc lá giúp tập trung" (Dopamine)
+### §5.2 — Misconception 1: "Smoking helps focus" (Dopamine)
 
 ```
 🟢🟡 HEISHMAN ET AL. 2010 (meta-analysis, 41 studies):
 
-  → Nicotine CÓ effects nhỏ trên attention + working memory
-  → Effect sizes: d = 0.16-0.44 (NHỎ, uncertain clinical significance)
-  → Xuất hiện ở CẢ non-smokers
+  → Nicotine DOES have small effects on attention + working memory
+  → Effect sizes: d = 0.16-0.44 (SMALL, uncertain clinical significance)
+  → Present in BOTH smokers and non-users
 
-  ⚠️ NUANCE: Framework KHÔNG claim "zero effect"
-  → Claim: DOMINANT effect ở smokers = RESTORATION (delta 70→100)
-  → Genuine enhancement ở non-users = NHỎ (delta 100→105-110)
+  ⚠️ NUANCE: The framework does NOT claim "zero effect"
+  → Claim: DOMINANT effect in smokers = RESTORATION (delta 70→100)
+  → Genuine enhancement in non-users = SMALL (delta 100→105-110)
 
-  Tại sao smoker TIN:
-    → Trải nghiệm delta 70→100 = THẬT ở level body-feedback
-    → KHÔNG BAO GIỜ trải nghiệm "không hút + tỉnh 100%" (vì withdrawal fog)
-    → Vicious cycle: withdrawal fog → hút → better → "thuốc giúp tập trung"
-    → Chunk compiled + social reinforcement + identity → belief CỰC CHẮC
+  Why smokers BELIEVE it:
+    → They experience the delta 70→100 = REAL at the body-feedback level
+    → They NEVER experience "not smoking + clear-headed at 100%"
+        (because withdrawal fog is always there)
+    → Vicious cycle: withdrawal fog → smoke → feel better →
+        "smoking helps me focus"
+    → Chunk compiled + social reinforcement + identity → belief becomes VERY STRONG
 ```
 
-### §5.3 — Misconception 2: "Thuốc lá giúp tự tin hơn" (Serotonin)
+### §5.3 — Misconception 2: "Smoking makes me more confident" (Serotonin)
 
 ```
 🟡 SEROTONIN RESTORATION PATTERN:
 
-  Nicotine → raphe nuclei nAChR → serotonin ↑ NGẮN HẠN
-  + MAO-A inhibition (chỉ thuốc lá) → serotonin tồn tại LÂU hơn
-  Chronic: serotonin baseline GIẢM (depletion)
-  → GIỮA các điếu: mood THẤP HƠN non-smoker
-  → Hút tiếp: RESTORE → "ổn lại"
+  Nicotine → raphe nuclei nAChRs → short-term serotonin release
+  + MAO-A inhibition (cigarettes only) → serotonin persists LONGER
+  Chronic: serotonin baseline FALLS (depletion)
+  → BETWEEN cigarettes: mood LOWER than a non-smoker's
+  → Smoke again: RESTORES → "back to normal"
 
-  Serotonin trong framework (Status.md v2.0):
-    = Resource Access Map signal = "vị trí ổn, đủ resources"
-    → Nicotine tạm tăng → "ổn" → rồi GIẢM → "cần hút để ổn lại"
-    → KHÔNG phải "tự tin HƠNBÌNH THƯỜNG" — là "thoát withdrawal mood dip"
+  Serotonin in the framework (Status.md v2.0):
+    = Resource Access Map signal = "my position is stable, I have enough resources"
+    → Nicotine temporarily raises it → "feels OK" → then FALLS → "need to smoke to feel OK"
+    → NOT "more confident THAN NORMAL" — it's "escaping the withdrawal mood dip"
 
   🟢 Taylor et al. 2014 (meta-analysis):
-    BỎ thuốc → anxiety + depression GIẢM (effect ≈ antidepressant)
+    QUITTING → anxiety + depression DECREASE (effect ≈ antidepressants)
   🟢 Moylan et al. 2012:
-    Smokers: anxiety + depression CAO HƠN non-smokers
+    Smokers: higher anxiety + depression than non-smokers
 
-  → Smoking KHÔNG bảo vệ mental health — GÂY HẠI mental health
-  → "Bỏ thuốc = stress hơn" = chỉ đúng NGẮN HẠN (withdrawal)
-    → Sau withdrawal: mental health IMPROVE so với khi còn hút
+  → Smoking DOESN'T protect mental health — it HARMS mental health
+  → "Quitting = more stressed" = only true SHORT-TERM (withdrawal)
+    → After withdrawal: mental health IMPROVES compared to while smoking
 ```
 
-### §5.4 — Misconception 3: "Thuốc lá giúp tỉnh táo" (NE)
+### §5.4 — Misconception 3: "Smoking keeps me alert" (NE)
 
 ```
 🟡 NE RESTORATION PATTERN:
 
-  nAChR trên Locus Coeruleus → NE release → alertness
-  + CO → mild hypoxia giữa các điếu → "sluggish"
-  → Nicotine: NE boost + bypass CO fog → "tỉnh HƠN"
-  → Thực tế: tỉnh hơn so với TRẠNG THÁI WITHDRAWAL + HYPOXIA
-  → KHÔNG phải tỉnh hơn non-smoker baseline
+  nAChRs on Locus Coeruleus → NE release → alertness
+  + CO → mild hypoxia between cigarettes → "sluggish"
+  → Nicotine: NE boost + bypasses CO fog → "more alert"
+  → Reality: more alert compared to the WITHDRAWAL + HYPOXIA STATE
+  → NOT more alert than a non-smoker's baseline
 
   Framework: NE system = attention readiness (Cortisol-Baseline.md)
-  → Chronic nicotine → NE system DEPENDENT → without = dưới baseline
-  → CO chronic → PFC hypoxia → further reduce baseline giữa điếu
-  → → "Double dip": NE withdrawal + CO hypoxia → nicotine fix CẢ HAI → "WOW tỉnh"
+  → Chronic nicotine → NE system DEPENDENT → without it = below baseline
+  → Chronic CO → PFC hypoxia → further reduces baseline between cigarettes
+  → → "Double dip": NE withdrawal + CO hypoxia → nicotine fixes BOTH → "WOW, so alert"
 ```
 
-### §5.5 — Tại sao 3 misconceptions TỰ REINFORCE
+### §5.5 — Why all 3 misconceptions are self-reinforcing
 
 ```
 🟡 SELF-REINFORCING BELIEF LOOP:
 
-  Body-feedback (70→100 delta) MẠNH HƠN logical argument
-  + Chunk compiled: "nicotine = X" (X = tập trung / tự tin / tỉnh)
-  + Social reinforcement: nhóm smokers chia sẻ belief
-  + Identity: "tôi cần thuốc để làm việc/xã hội/tỉnh"
-  + NO COUNTER-EVIDENCE accessible (không hút = withdrawal = confirm belief)
+  Body-feedback (70→100 delta) is STRONGER than logical argument
+  + Chunk compiled: "nicotine = X" (X = focus / confidence / alertness)
+  + Social reinforcement: the smoker group shares the belief
+  + Identity: "I need cigarettes to work / socialize / stay sharp"
+  + NO accessible counter-evidence (not smoking = withdrawal = CONFIRMS belief)
 
-  → Misconception = PRODUCT CỦA CHÍNH MECHANISM NGHIỆN
-  → KHÓ break bằng logic alone → cần body-experience (bỏ đủ lâu để verify)
+  → These misconceptions are PRODUCTS OF THE ADDICTION MECHANISM ITSELF
+  → HARD to break with logic alone → requires body-experience
+    (quitting long enough to actually verify: withdrawal fog eventually clears,
+     and non-smoking baseline turns out to be HIGHER)
 ```
 
 ---
 
-## §6 — BIẾN THỂ CÁ NHÂN: 5 YẾU TỐ
+## §6 — INDIVIDUAL VARIATION: 5 FACTORS
 
-### §6.1 — CYP2A6: Tốc độ chuyển hóa (QUAN TRỌNG NHẤT)
+### §6.1 — CYP2A6: Metabolic speed (MOST IMPORTANT)
 
 ```
-🟢 CYP2A6 = enzyme chuyển hóa 70-80% nicotine (Tyndale & Sellers 2002):
+🟢 CYP2A6 = enzyme that metabolizes 70-80% of nicotine (Tyndale & Sellers 2002):
 
   ┌───────────────────────────────────────────────────────────────────┐
-  │ Biến thể           │ Tốc độ     │ Prevalence   │ Smoking pattern │
-  ├─────────────────────┼────────────┼──────────────┼─────────────────┤
-  │ Normal (*1/*1)      │ Bình thường│ ~78% Caucasian│ Typical         │
-  │ Intermediate        │ 50-75%    │ ~14%         │ Hút ít, quit    │
-  │                     │           │              │ dễ hơn          │
-  │ Slow/Poor (*4 del)  │ <50%      │ ~8% Caucasian│ Hút ÍT NHẤT,   │
-  │                     │           │ CAO ở Đông Á │ quit DỄ NHẤT   │
+  │ Variant             │ Speed      │ Prevalence     │ Smoking pattern│
+  ├─────────────────────┼────────────┼────────────────┼────────────────┤
+  │ Normal (*1/*1)      │ Normal     │ ~78% Caucasian │ Typical        │
+  │ Intermediate        │ 50-75%     │ ~14%           │ Smoke less,    │
+  │                     │            │                │ quit more easily│
+  │ Slow/Poor (*4 del)  │ <50%       │ ~8% Caucasian  │ Smoke LEAST,   │
+  │                     │            │ HIGH in East   │ quit EASIEST   │
+  │                     │            │ Asians         │                │
   └───────────────────────────────────────────────────────────────────┘
 
   Framework 🟡:
-    Fast metabolizer: nicotine clear nhanh → delta giữa điếu LỚN → hút THƯỜNG XUYÊN
-    Slow metabolizer: nicotine clear chậm → delta NHỎ → hút THƯA → ít chunks compiled
+    Fast metabolizer: nicotine clears fast → delta between cigarettes LARGE
+      → smokes MORE FREQUENTLY
+    Slow metabolizer: nicotine clears slowly → delta SMALL → smokes LESS OFTEN
+      → fewer chunks compiled
 ```
 
 ### §6.2 — CHRNA5 (rs16969968): Aversion ceiling
 
 ```
 🟢 A allele = risk (Bierut 2008, GWAS replicated):
-  α5 subunit → GIẢM aversive signal → hút NHIỀU trước khi feel "quá nhiều"
-  = Body-feedback protective signal YẾU (giống ALDH2 ở rượu — ngược chiều)
+  α5 subunit → REDUCED aversive signal → smokes MORE before feeling "too much"
+  = Body-feedback protective signal is WEAK
+  (analogous to ALDH2 in alcohol — reversed direction)
 ```
 
 ### §6.3 — COMT × Nicotine (PFC dopamine clearance)
 
 ```
-🟡 FRAMEWORK INFERENCE (chưa có research trực tiếp):
-  Val/Val (clear nhanh) + Nicotine: effect "tập trung" NGẮN → hút thường xuyên hơn
-  Met/Met (clear chậm) + Nicotine: effect KÉO DÀI → có thể hút thưa hơn
-  ⚠️ Cần: COMT genotype × nicotine dose × PFC function study
+🟡 FRAMEWORK INFERENCE (no direct research yet):
+  Val/Val (clears fast) + Nicotine: "focus" effect is SHORT → smokes more frequently
+  Met/Met (clears slowly) + Nicotine: effect LASTS LONGER → may smoke less often
+  ⚠️ Needed: COMT genotype × nicotine dose × PFC function study
 ```
 
 ### §6.4 — Cortisol baseline × Smoking motivation
 
 ```
-🟡 Cortisol-Baseline.md §7 "Source > Level" áp dụng:
-  Bounded stress + nicotine = functional release (vừa xong task)
-  Unbounded stress + nicotine = temporary mask (chưa resolve threat)
+🟡 Cortisol-Baseline.md §7 "Source > Level" applies here:
+  Bounded stress + nicotine = functional release (just completed a task)
+  Unbounded stress + nicotine = temporary mask (threat not yet resolved)
   🟢 Rohleder & Kirschbaum 2006: chronic smokers = HPA axis BLUNTED
 ```
 
 ### §6.5 — Age of first exposure: Chunk compilation window
 
 ```
-🟢🟡 >90% adult smokers bắt đầu trước 18 tuổi (CDC):
-  Adolescent PFC chưa myelinate đầy đủ → arbitration YẾU
-  + Acetaldehyde sensitivity CAO hơn (Belluzzi 2005)
-  + Identity-forming age → "hút = cool/trưởng thành" compile DEEP
-  → Early-compiled chunks RESIST modification → bỏ KHÓ HƠN
+🟢🟡 >90% of adult smokers started before age 18 (CDC):
+  Adolescent PFC not yet fully myelinated → weak arbitration
+  + Higher acetaldehyde sensitivity (Belluzzi 2005)
+  + Identity-forming age → "smoking = cool/grown-up" compiles DEEPLY
+  → Early-compiled chunks RESIST modification → quitting HARDER
 ```
 
 ---
 
-## §7 — "HÚT THUỐC" QUA CHUNK DYNAMICS
+## §7 — "SMOKING" THROUGH CHUNK DYNAMICS
 
-### §7.1 — Context chunks: Trigger landscape
+### §7.1 — Context chunks: The trigger landscape
 
 ```
-🟡 Nicotine chunks COMPILED VỚI CONTEXT:
+🟡 Nicotine chunks are COMPILED WITH CONTEXT:
 
   ┌─────────────────┬────────────────────────────────────────────┐
   │ Context         │ Trigger                                    │
   ├─────────────────┼────────────────────────────────────────────┤
-  │ Sau bữa ăn      │ Satiation → routine chunk fire             │
-  │ Khi stress       │ Cortisol ↑ → "hút để bớt stress"         │
-  │ Khi chờ đợi      │ Boredom → need stimulation                │
-  │ Với cà phê/rượu  │ Cross-modal compiled pair                  │
-  │ Nhóm bạn hút    │ Social bonding ritual                      │
-  │ Sau sex/task     │ Relaxation → ritual chunk                  │
+  │ After a meal    │ Satiation → routine chunk fires            │
+  │ When stressed   │ Cortisol ↑ → "smoke to relieve"           │
+  │ While waiting   │ Boredom → need stimulation                 │
+  │ With coffee/alc.│ Cross-modal compiled pair                  │
+  │ With smoking    │ Social bonding ritual                      │
+  │   friends       │                                            │
+  │ After sex/task  │ Relaxation → ritual chunk fires            │
   └─────────────────┴────────────────────────────────────────────┘
 
-  Heavy smoker: HÀNG CHỤC trigger surfaces compiled
-  → Bỏ thuốc: phải deactivate TỪNG surface (không chỉ 1)
+  Heavy smoker: DOZENS of trigger surfaces compiled
+  → Quitting: must deactivate EACH surface (not just one)
 ```
 
-### §7.2 — Body-Coupling: Ritual binding 7 modalities
+### §7.2 — Body-Coupling: Ritual binding across 7 modalities
 
 ```
-🟡 HÚT THUỐC = RITUAL MULTI-MODAL (Body-Coupling.md):
+🟡 SMOKING = MULTI-MODAL RITUAL (Body-Coupling.md):
 
-  Tay (haptic) + Miệng (oral) + Hô hấp (deep breath) +
-  Thị giác (khói) + Khứu giác (mùi) + Vị giác (vị) + Proprioception (đưa tay)
-  = 7 modalities COMPILED CÙNG LÚC → cross-modal compile SÂU
+  Hand (haptic) + Mouth (oral) + Breathing (deep breath) +
+  Vision (smoke) + Smell (odor) + Taste + Proprioception (hand-to-mouth)
+  = 7 modalities compiled SIMULTANEOUSLY → deeply cross-modal
 
-  → "Tay không biết để đâu" khi bỏ thuốc = ritual chunk CHƯA deactivate
-  → Patch fix chemistry nhưng KHÔNG fix ritual
-  → Vape FIX PHẦN ritual (tay+miệng+hít) nhưng thiếu mùi+lửa+tro
-  → Nicotine hook bằng RITUAL + CHEMISTRY → cần address CẢ HAI
+  → "Don't know what to do with my hands" when quitting
+      = ritual chunk NOT YET deactivated
+  → Patch fixes the chemistry but DOESN'T fix the ritual
+  → Vape fixes PART of the ritual (hands+mouth+inhale) but misses smoke+fire+ash
+  → Nicotine hooks via RITUAL + CHEMISTRY → must address BOTH
 
-  So sánh: Rượu ít modality binding (uống = miệng+vị)
-  → Nicotine ritual = DEEPER body-coupling dù chemical reward NHẸ hơn
+  Comparison: Alcohol has fewer modality bindings (drinking = mouth+taste)
+  → Nicotine's ritual body-coupling is DEEPER than alcohol despite
+      nicotine's chemical reward being MILDER
 ```
 
 ### §7.3 — Social chunks + Identity chunks × Self-Pattern-Modeling
 
 ```
-🟡 SOCIAL: "Ra hút chung" = bonding ritual
-  Bỏ thuốc = RỜI NHÓM → social cost THẬT
+🟡 SOCIAL: "Step outside for a smoke together" = bonding ritual
+  Quitting = LEAVING THE GROUP → real social cost
 
-  IDENTITY: "Tôi là người hút thuốc" = Self-Pattern-Modeling compiled
-  Bỏ thuốc = IDENTITY REWRITE (Self-Created-Threat Trust Compile)
+  IDENTITY: "I am a smoker" = Self-Pattern-Modeling compiled
+  Quitting = IDENTITY REWRITE (Trust Compile — Self-Created Threat)
   → West & Brown 2013: "I am a non-smoker" (identity shift)
-    = strongest predictor of quit success vs "I am trying to quit" (behavior change)
+    = strongest predictor of quit success
+    vs. "I am trying to quit" (behavior change framing)
   → Identity shift > willpower
 ```
 
@@ -836,60 +817,62 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §8 — WITHDRAWAL = RECEPTOR UPREGULATION REBOUND
 
-### §8.1 — Mechanism: UPREGULATION, không phải downregulation (UNIQUE)
+### §8.1 — Mechanism: UPREGULATION, not downregulation (UNIQUE to nicotine)
 
 ```
 🟢 FENSTER 1999 (J Neuroscience), BENOWITZ 2010 (NEJM):
 
-  PHẦN LỚN chất → receptor DOWNREGULATE (giảm sensitivity)
-  NICOTINE = NGƯỢC → receptor UPREGULATE:
-    Chronic nicotine → α4β2 DESENSITIZE (bất hoạt)
-    → Não compensate: TẠO THÊM receptor mới
-    → Receptor count tăng 200-300%
+  MOST substances → receptor DOWNREGULATION (reduced sensitivity)
+  NICOTINE = OPPOSITE → receptor UPREGULATION:
+    Chronic nicotine → α4β2 DESENSITIZES (becomes inactive)
+    → Brain compensates: CREATES MORE receptor sites
+    → Receptor count increases 200-300%
 
   Fenster 1999: desensitization half-max = 9.7 nM ≈ upregulation half-max = 9.9 nM
-    → CAUSAL LINK trực tiếp
+    → DIRECT CAUSAL LINK confirmed
 
   WITHDRAWAL:
-    Hút: 200 receptors × occupied → balance MỚI
-    Dừng: 200 receptors × TRỐNG → deficit signal GẤP ĐÔI bình thường
+    Smoking: 200 receptors × occupied → NEW equilibrium
+    Stop: 200 receptors × EMPTY → deficit signal TWICE the normal level
 
-  Framework: Chunk-Miss — body PREDICT "occupied" → actual "TRỐNG"
-    → Prediction-delta CỰC LỚN → craving, irritability, fog
-    → SINH LÝ, không phải "ý chí yếu"
+  Framework: Chunk-Miss — body PREDICTS "occupied" → actual = "EMPTY"
+    → Prediction-delta EXTREMELY LARGE → craving, irritability, mental fog
+    → This is PHYSIOLOGY, not "weak willpower"
 ```
 
-### §8.2 — Timeline: 2 giai đoạn khác cơ chế
+### §8.2 — Timeline: 2 stages with different mechanisms
 
 ```
 🟢 WITHDRAWAL TIMELINE (Hughes 2007):
 
-  ┌─────────────────┬────────────────────┬─────────────────────────┐
-  │ Timeline        │ Symptoms           │ Mechanism               │
-  ├─────────────────┼────────────────────┼─────────────────────────┤
-  │ 4-24h           │ Onset: irritable   │ Nicotine clear, receptors│
-  │                 │ anxious, fog       │ bắt đầu trống          │
-  ├─────────────────┼────────────────────┼─────────────────────────┤
-  │ 48-72h (PEAK)   │ Craving cực mạnh   │ Nicotine hết, receptors │
-  │                 │ restless, mood     │ TỐI ĐA trống          │
-  ├─────────────────┼────────────────────┼─────────────────────────┤
-  │ 1-4 tuần        │ Physical giảm dần  │ Receptors downregulate  │
-  │                 │                    │ dần (normalize)         │
-  ├─────────────────┼────────────────────┼─────────────────────────┤
-  │ 1-12 tháng      │ Context cravings   │ Chunks chưa deactivate  │
-  │                 │ "sau cơm", stress  │ (trigger surfaces)      │
-  ├─────────────────┼────────────────────┼─────────────────────────┤
-  │ 1+ năm          │ Occasional, rare   │ Deep chunks có thể fire │
-  │                 │                    │ suốt đời, intensity ↓  │
-  └─────────────────┴────────────────────┴─────────────────────────┘
+  ┌─────────────────┬────────────────────┬──────────────────────────┐
+  │ Timeline        │ Symptoms           │ Mechanism                │
+  ├─────────────────┼────────────────────┼──────────────────────────┤
+  │ 4-24h           │ Onset: irritable   │ Nicotine clears, receptor│
+  │                 │ anxious, foggy     │ sites begin going empty  │
+  ├─────────────────┼────────────────────┼──────────────────────────┤
+  │ 48-72h (PEAK)   │ Craving very       │ Nicotine gone, receptors │
+  │                 │ intense, restless, │ MAXIMALLY empty          │
+  │                 │ mood drop          │                          │
+  ├─────────────────┼────────────────────┼──────────────────────────┤
+  │ 1-4 weeks       │ Physical           │ Receptors downregulate   │
+  │                 │ symptoms fading    │ gradually (normalizing)  │
+  ├─────────────────┼────────────────────┼──────────────────────────┤
+  │ 1-12 months     │ Context cravings:  │ Chunks not yet           │
+  │                 │ "after meals,"     │ deactivated (trigger     │
+  │                 │ stress triggers    │ surfaces still active)   │
+  ├─────────────────┼────────────────────┼──────────────────────────┤
+  │ 1+ year         │ Occasional, rare   │ Deep chunks can fire     │
+  │                 │                    │ for life, intensity ↓   │
+  └─────────────────┴────────────────────┴──────────────────────────┘
 
-  ① CHEMICAL WITHDRAWAL (tuần 1-4): receptor rebalance → TỰ HẾT
-  ② CHUNK CRAVINGS (tháng → years): compiled triggers → cần deactivate
-  → "Đã bỏ 6 tháng, hút 1 điếu → nghiện lại" = re-activate dormant chunks
+  ① CHEMICAL WITHDRAWAL (weeks 1-4): receptor rebalancing → RESOLVES ON ITS OWN
+  ② CHUNK CRAVINGS (months → years): compiled triggers → require deactivation
+  → "6 months clean, smoke 1 cigarette → addicted again" = re-activating dormant chunks
 
-  So sánh Alcohol: withdrawal rượu CÓ THỂ CHẾT (GABA/NMDA seizure)
-  Nicotine withdrawal: KHÓ CHỊU nhưng KHÔNG nguy hiểm tính mạng
-  → Nhưng nicotine có NHIỀU context triggers hơn → chunk cravings DAI HƠN
+  Comparison with alcohol: alcohol withdrawal CAN BE FATAL (GABA/NMDA seizures)
+  Nicotine withdrawal: VERY UNCOMFORTABLE but NOT life-threatening
+  → But nicotine has FAR MORE context triggers → chunk cravings PERSIST LONGER
 ```
 
 ---
@@ -899,29 +882,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §9.1 — PFC: Chronic oxygen reduction
 
 ```
-🟡 2 CƠ CHẾ GIẢM OXYGEN TỚI PFC:
+🟡 2 MECHANISMS REDUCING OXYGEN TO PFC:
 
-  ① CO chronic: COHb 5-10% → PFC (oxygen-hungry nhất) ảnh hưởng
-  ② Vasoconstriction: NE → mạch máu co → lưu lượng giảm nhẹ
+  ① Chronic CO: COHb 5-10% → PFC (most oxygen-hungry region) is affected
+  ② Vasoconstriction: NE → blood vessels constrict → mild blood flow reduction
 
-  → PFC function giảm DẦN (working memory, decision-making)
-  → "Silent degradation" — smoker KHÔNG NHẬN THẤY vì gradual
-  → Irony: "hút để tập trung" → dài hạn GIẢM khả năng tập trung
+  → PFC function GRADUALLY DECLINES (working memory, decision-making)
+  → "Silent degradation" — the smoker DOESN'T NOTICE because it's gradual
+  → Irony: "smoking to focus" → long-term REDUCES the capacity to focus
 ```
 
-### §9.2 — Body-feedback distorted qua nicotine filter
+### §9.2 — Body-feedback distorted through the nicotine filter
 
 ```
 🟡 CHRONIC NICOTINE → BODY-FEEDBACK SYSTEM DISTORTED:
 
-  NE baseline shifted: "bình thường" = WITH nicotine
-  Pain modulation: α7 mild analgesic → mask pain signals
-  Appetite suppressed: hypothalamic pathway → bỏ thuốc → weight gain
-  HPA blunted: cortisol response to stress yếu hơn (Rohleder 2006)
+  NE baseline shifted: "normal" = WITH nicotine
+  Pain modulation: α7 mild analgesia → masks pain signals
+  Appetite suppressed: hypothalamic pathway → quitting → weight gain common
+  HPA blunted: cortisol response to stress is weaker (Rohleder 2006)
 
-  → Bỏ thuốc = RE-CALIBRATE toàn bộ body-feedback
-  → "Khó chịu MỌI THỨ, không chỉ craving" — body-feedback normalizing
-  → Duration: 2-8 tuần để body-feedback normalize
+  → Quitting = RE-CALIBRATING the entire body-feedback system
+  → "Everything feels uncomfortable, not just the cravings" = body-feedback normalizing
+  → Duration: 2-8 weeks for body-feedback to normalize fully
 ```
 
 ---
@@ -933,25 +916,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟢 HERNÁN ET AL. 2002 (Ann Neurology, meta-analysis):
 
-  Ever-smokers: RR = 0.59 (95% CI 0.54-0.63) → 40% GIẢM Parkinson risk
-  Current smokers: RR = 0.39 → 60% GIẢM
+  Ever-smokers: RR = 0.59 (95% CI 0.54-0.63) → 40% LOWER Parkinson risk
+  Current smokers: RR = 0.39 → 60% LOWER
 
-  ⚠️ Reverse causation chưa loại trừ hoàn toàn
+  ⚠️ Reverse causation not yet fully ruled out
 
   PROPOSED MECHANISMS (🟡):
-    ① α7 nAChR → PI3K-Akt neuroprotection cho dopamine neurons SNc
-    ② MAO-B inhibition → giảm dopamine oxidative stress
-       (Selegiline = MAO-B inhibitor ĐƯỢC DÙNG trong Parkinson treatment)
+    ① α7 nAChR → PI3K-Akt neuroprotection for SNc dopamine neurons
+    ② MAO-B inhibition → reduces dopamine oxidative metabolites
+       (Selegiline = MAO-B inhibitor USED in Parkinson treatment)
     ③ α7 → anti-inflammatory (microglia modulation)
 
   Framework:
-    PARADOX: hijack ở 1 pathway → "protect" pathway khác
+    PARADOX: hijack in 1 pathway → "protects" another pathway
     Mesolimbic: hijack → HARM (addiction)
     Nigrostriatal: protect → BENEFIT (neuroprotection)
-    = CÙNG chất, KHÁC pathway, KHÁC effect
+    = SAME substance, DIFFERENT pathway, DIFFERENT effect
 
-    ⚠️ KHÔNG ĐỀ XUẤT "hút thuốc để tránh Parkinson"
-    → Harm >>> benefit. Potential: selective α7 agonists (clinical trials ongoing)
+    ⚠️ NOT advocating "smoke to prevent Parkinson"
+    → Harm >>> benefit. Research direction: selective α7 agonists (clinical trials ongoing)
 ```
 
 ### §10.2 — Nicotine × Alzheimer: Cholinergic hypothesis
@@ -959,51 +942,52 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟢 FRANCIS ET AL. 1999:
 
-  Alzheimer: loss cholinergic neurons + giảm nAChR density
-  Nicotine = nAChR agonist → theoretically compensate
-  Current Alzheimer drugs (donepezil, rivastigmine) = cholinesterase inhibitors
-  = cùng principle: boost cholinergic system
+  Alzheimer's: loss of cholinergic neurons + reduced nAChR density
+  Nicotine = nAChR agonist → theoretically compensates
+  Current Alzheimer's drugs (donepezil, rivastigmine) = cholinesterase inhibitors
+  = same principle: boosting the cholinergic system
 
-  Bridge: nicotine HIJACK nAChR ↔ Alzheimer THIẾU nAChR
-  = Cùng receptor, 2 hướng ngược
+  Bridge: nicotine HIJACKS nAChR ↔ Alzheimer's LACKS nAChR
+  = Same receptor, 2 opposite directions
 ```
 
-### §10.3 — DOPAMINE CLUSTER PREVIEW
+### §10.3 — Dopamine Cluster Preview
 
 ```
-🟡 3 CONDITIONS × CÙNG DOPAMINE × KHÁC CƠ CHẾ:
+🟡 3 CONDITIONS × SAME DOPAMINE MOLECULE × DIFFERENT MECHANISMS:
 
-  ┌────────────┬─────────────────┬─────────────────┬──────────────────┐
-  │            │ NICOTINE (1)    │ PARKINSON (2)   │ ADHD (3)         │
-  ├────────────┼─────────────────┼─────────────────┼──────────────────┤
-  │ Cơ chế     │ SOURCE ÉP fire  │ SOURCE CHẾT     │ CLEARANCE nhanh  │
-  │ Pathway    │ Mesolimbic      │ Nigrostriatal   │ Mesocortical     │
-  │ Dopamine   │ QUÁ NHIỀU       │ QUÁ ÍT         │ QUÁ NGẮN         │
-  │ External?  │ YES (substance) │ NO (internal)   │ NO (hardware)    │
-  │ Reversible?│ YES (quit)      │ NO (progressive)│ MANAGE (not cure)│
-  └────────────┴─────────────────┴─────────────────┴──────────────────┘
+  ┌────────────┬──────────────────┬─────────────────┬──────────────────┐
+  │            │ NICOTINE (1)     │ PARKINSON (2)   │ ADHD (3)         │
+  ├────────────┼──────────────────┼─────────────────┼──────────────────┤
+  │ Mechanism  │ SOURCE forced    │ SOURCE dying    │ CLEARANCE too    │
+  │            │ to fire          │                 │ fast             │
+  │ Pathway    │ Mesolimbic       │ Nigrostriatal   │ Mesocortical     │
+  │ Dopamine   │ TOO MUCH         │ TOO LITTLE      │ TOO BRIEF        │
+  │ External?  │ YES (substance)  │ NO (internal)   │ NO (hardware)    │
+  │ Reversible?│ YES (quit)       │ NO (progressive)│ MANAGE (not cure)│
+  └────────────┴──────────────────┴─────────────────┴──────────────────┘
 
-  → 3-WAY COMPARISON chi tiết sẽ ở ADHD-Observation.md §2.6
+  → FULL 3-WAY COMPARISON in ADHD-Observation.md §2.6
 ```
 
 ---
 
 ## §11 — HONEST ASSESSMENT
 
-### §11.1 — 🟢 Established research supported
+### §11.1 — 🟢 Established research support
 
 ```
-  → nAChR subtypes (α4β2+α7): Dani & Bertrand 2007
+  → nAChR subtypes (α4β2 + α7): Dani & Bertrand 2007
   → VTA dopamine via nAChR: Maskos 2005 (Nature)
   → Receptor upregulation causal link: Fenster 1999
   → MAO-B 40% reduction in smokers: Fowler 1996 (Nature)
-  → Opioid release qua α7 pathway: Hadjiconstantinou 2011, Berrendero 2002
-  → Vape thiếu MAO-I: Anderson 2019
+  → Opioid release via α7 pathway: Hadjiconstantinou 2011, Berrendero 2002
+  → Vape missing MAO-I: Anderson 2019
   → Nicotine × Parkinson protective: Hernán 2002
   → CYP2A6 variation: Tyndale & Sellers 2002
   → CHRNA5 rs16969968: Bierut 2008 (GWAS replicated)
   → Withdrawal timeline: Hughes 2007, Benowitz 2010
-  → Quit → mental health improve: Taylor 2014 (meta-analysis)
+  → Quitting → mental health improves: Taylor 2014 (meta-analysis)
   → Smokers > anxiety/depression: Moylan 2012
   → Delivery speed × addiction: Henningfield & Keenan 1993
   → Hookah CO 8× cigarette: AHA/Circulation
@@ -1014,106 +998,104 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §11.2 — 🟡 Framework synthesis
 
 ```
-  → "3 Misconceptions" unified pattern (dopamine + serotonin + NE):
-     Each individual misconception has research support
-     UNIFIED pattern = framework synthesis — coherent but not directly tested as 1 model
+  → "3 Misconceptions" as a unified pattern (dopamine + serotonin + NE):
+     Each individual misconception has research support.
+     The UNIFIED pattern = framework synthesis — coherent but not tested as a single model.
 
   → Body-Coupling 7-modality ritual binding:
-     Observable (haptic, oral, respiratory...) nhưng modality-count × quit-difficulty chưa test
+     Individual modalities observable, but modality-count × quit-difficulty not tested.
 
-  → 3 factors addiction architecture (speed × amplifiers × session pattern):
+  → 3-factor addiction architecture (speed × amplifiers × session pattern):
      Each factor has evidence. Combined model = framework synthesis.
 
   → Identity chunks × Self-Pattern-Modeling × quit success:
      West & Brown 2013 supports identity shift. Self-Pattern-Modeling mechanism = framework.
 
-  → COMT × nicotine: Logic consistent, NO direct research
+  → COMT × nicotine: Logic consistent, NO direct research yet.
 
   → Thuốc lào: N. rustica nicotine content = verified.
-     Addiction architecture comparison vs cigarette = framework inference
+     Addiction architecture comparison vs cigarette = framework inference.
 ```
 
 ### §11.3 — 🔴 Hypotheses + Open questions
 
 ```
-  ① MAO-I exact contribution to cigarette addiction:
+  ① Exact MAO-I contribution to cigarette addiction:
      Fowler confirmed 40% reduction. Guillem confirmed "dramatically increases."
-     Nhưng: tách riêng ở NGƯỜI = chưa clean
+     But: isolating this cleanly in humans remains difficult.
 
-  ② Nicotine × Parkinson: causal hay reverse causation?
+  ② Nicotine × Parkinson: causal or reverse causation?
 
-  ③ Vape long-term effects: CHƯA BIẾT (quá mới)
+  ③ Vape long-term effects: UNKNOWN (technology still too new)
 
   ④ Serotonin restoration pattern:
      Taylor 2014 + Moylan 2012 = indirect evidence
-     Direct serotonin imaging pre/post nicotine dose = limited
+     Direct serotonin imaging pre/post nicotine dose = limited data
 
-  ⑤ Thuốc lào vs cigarette addiction severity: chưa có head-to-head study
+  ⑤ Thuốc lào vs cigarette addiction severity: no head-to-head study
 
-  ⑥ Hookah flavored vs plain: MAO-I content difference?
+  ⑥ Hookah flavored vs plain: do flavored versions have more MAO-I?
 
-  ⑦ CYP2A6 × CHRNA5 × COMT interaction: chưa ai map đồng thời
+  ⑦ CYP2A6 × CHRNA5 × COMT interaction: no study has mapped all three simultaneously
 ```
 
 ---
 
 ## §12 — CROSS-REFERENCES
 
-**Framework core**:
-- [Addiction-Analysis.md v3.0](Addiction-Analysis.md) — chunk-reward loop hijack
-- [Alcohol-Brain-Mechanism.md v1.0](Alcohol-Brain-Mechanism.md) — template, 5-system comparison
-- [Dopamine-Is-Not-Reward.md v1.1](../../Core-Deep-Dive/Clarification/Dopamine-Is-Not-Reward.md) — 7-step, dopamine ≠ reward
-- [03-Reward.md v1.1](../../Core-Deep-Dive/Body-Base/Body-Feedback/03-Reward.md) — Body-Feedback-Precondition preconditions
-- [Reward-Signal-Architecture.md v1.0](../../Core-Deep-Dive/Body-Base/Body-Feedback/Reward-Signal-Architecture.md) — Evaluative/Direct-State, Profile ④ Relief
-- [Reward-Calibration.md v1.1](../../Core-Deep-Dive/Body-Base/Body-Feedback/Reward-Calibration.md) — baseline shift
-- [Cortisol-Baseline.md v2.0](../../Core-Deep-Dive/Body-Base/Cortisol-Baseline.md) — amplifier, Source > Level
-- [Status.md v2.0](../../Core-Deep-Dive/Observation/Status.md) — serotonin × Resource Access Map
-- [Body-Coupling.md v1.1](../../Core-Deep-Dive/Body-Base/Body-Coupling.md) — ritual binding
-- [Body-Feedback-Mechanism.md v1.2](../../Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback-Mechanism.md) — Chunk-Shift/Miss/Gap
-- [PFC-Hardware.md v1.1](../../Core-Deep-Dive/PFC/PFC-Hardware.md) — COMT, individual variation
-- [Self-Pattern-Modeling.md v2.3](../../Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/Self-Pattern-Modeling.md) — identity chunks
-- [Self-Created-Threat.md](../Self-Created-Threat.md) — identity change = Trust Compile
+**Companion files in Hijack/ folder**:
+- Addiction-Analysis.md — chunk-reward loop hijack (read first)
+- Alcohol-Brain-Mechanism.md — template + comparison
 
 **Dopamine Cluster companions**:
-- Parkinson-Analysis.md (File 2) — dopamine LOSS, nigrostriatal
+- Parkinson-Analysis.md (File 2) — dopamine LOSS, nigrostriatal pathway
 - ADHD-Observation.md (File 3) — dopamine CLEARANCE, mesocortical, 3-way table
+
+**Framework core files**:
+- Dopamine-Is-Not-Reward.md v1.1 — 7-step model, dopamine ≠ reward
+- Reward.md v1.1 — Body-Feedback-Precondition, 5 preconditions, opioid = real reward
+- Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, 5 Profiles
+- Reward-Calibration.md v1.1 — Goldilocks, baseline shift
+- Cortisol-Baseline.md v2.0 — amplifier, Source > Level
+- Status.md v2.0 — serotonin × Resource Access Map
+- Body-Coupling.md v1.1 — ritual binding
+- Body-Feedback-Mechanism.md v1.2 — Chunk-Shift/Miss/Gap
+- PFC-Hardware.md v1.1 — COMT, individual variation
+- Self-Pattern-Modeling.md v2.3 — identity chunks
 
 **Academic citations** (primary):
 - 🟢 Dani & Bertrand 2007 — nAChR subtypes
 - 🟢 Maskos et al. 2005 (Nature) — VTA β2 subunit
-- 🟢 Fenster et al. 1999 (J Neuroscience) — desensitization↔upregulation
+- 🟢 Fenster et al. 1999 (J Neuroscience) — desensitization↔upregulation causal
 - 🟢 Benowitz 2010 (NEJM) — nicotine pharmacology
-- 🟢 Fowler et al. 1996 (Nature) — PET MAO-B reduction
-- 🟢 Herraiz & Chaparro 2005 — harman/norharman
+- 🟢 Fowler et al. 1996 (Nature) — PET MAO-B 40% reduction
+- 🟢 Herraiz & Chaparro 2005 — harman/norharman MAO inhibitors
 - 🟢 Hogg et al. 2017 — ~10% MAO-A from harman/norharman
-- 🟢 Anderson et al. 2019 — e-cig NO MAO-I
-- 🟢 Belluzzi et al. 2005 — acetaldehyde × nicotine
-- 🟢 Guillem et al. 2005 (J Neuroscience) — MAO-I × motivation
-- 🟢 Hadjiconstantinou & Neff 2011 — nicotine → opioid (α7)
-- 🟢 Berrendero et al. 2002 (J Neuroscience) — preproenkephalin KO
-- 🟢 Hernán et al. 2002 (Ann Neurology) — Parkinson RR=0.59
-- 🟢 Francis et al. 1999 — cholinergic hypothesis
-- 🟢 Tyndale & Sellers 2002 — CYP2A6
-- 🟢 Bierut et al. 2008 — CHRNA5 GWAS
-- 🟢 Heishman et al. 2010 — cognitive effects d=0.16-0.44
-- 🟢 Henningfield & Keenan 1993 — delivery speed × addiction
-- 🟢 Hughes 2007 — withdrawal
-- 🟢 Taylor et al. 2014 — quit → mental health improve
-- 🟢 Moylan et al. 2012 — smoking × anxiety/depression
+- 🟢 Anderson et al. 2019 — e-cigarettes: no MAO-I activity
+- 🟢 Belluzzi et al. 2005 — acetaldehyde × nicotine adolescent sensitivity
+- 🟢 Guillem et al. 2005 (J Neuroscience) — MAO-I dramatically increases nicotine motivation
+- 🟢 Hadjiconstantinou & Neff 2011 — nicotine → opioid release via α7
+- 🟢 Berrendero et al. 2002 (J Neuroscience) — preproenkephalin knockout confirmation
+- 🟢 Hernán et al. 2002 (Ann Neurology) — Parkinson RR=0.59 meta-analysis
+- 🟢 Francis et al. 1999 — cholinergic hypothesis of Alzheimer's
+- 🟢 Tyndale & Sellers 2002 — CYP2A6 genetic variation
+- 🟢 Bierut et al. 2008 — CHRNA5 rs16969968 GWAS
+- 🟢 Heishman et al. 2010 — nicotine cognitive effects d=0.16-0.44
+- 🟢 Henningfield & Keenan 1993 — delivery speed × addiction strength
+- 🟢 Hughes 2007 — withdrawal timeline
+- 🟢 Taylor et al. 2014 — quitting → mental health improvement meta-analysis
+- 🟢 Moylan et al. 2012 — smoking × anxiety/depression association
 - 🟢 West & Brown 2013 — identity shift × quit success
-- 🟢 Rohleder & Kirschbaum 2006 — HPA blunting
-- 🟢 Berridge & Robinson 1998, 2003 — wanting ≠ liking
-- 🟢 AHA/Circulation — hookah CO levels
-- 🟢 Meng et al. 2019 — flavored e-liquid MAO-I
+- 🟢 Rohleder & Kirschbaum 2006 — HPA axis blunting in chronic smokers
+- 🟢 AHA/Circulation — hookah CO levels (24-66 ppm)
+- 🟢 Meng et al. 2019 — flavored e-liquid and MAO-I
 
 ---
 
-> *Nicotine-Brain-Mechanism v1.1 — REFERENCE FILE*
-> *"2 pathways song song: α4β2→dopamine (chuông) + α7→opioid (quà nhẹ)."*
-> *"3 hệ bị tác động: dopamine + serotonin + NE = 3 misconceptions cùng pattern."*
-> *"Thuốc LÁ = nicotine × MAO-I × AcH × CO (multiplicative). Vape = nicotine alone."*
-> *"7 dạng tobacco: pH quyết định nơi hấp thu, speed quyết định addiction."*
+> *"2 parallel pathways: α4β2→dopamine (the doorbell) + α7→opioid (the mild gift)."*
+> *"3 systems affected: dopamine + serotonin + NE = 3 misconceptions, same pattern."*
+> *"Cigarettes = nicotine × MAO-I × acetaldehyde × CO (multiplicative). Vape = nicotine alone."*
+> *"7 tobacco products: pH determines where absorption occurs, speed determines addiction."*
 > *"Thuốc lào (N. rustica) = 3-9× nicotine. Hookah CO = 8× cigarette."*
-> *"Hook bằng TẦN SUẤT (200+ bolus/ngày), không bằng CƯỜNG ĐỘ."*
-> *"Bỏ thuốc = chemical rebalance (tuần) + chunk deactivation (tháng) + identity rewrite."*
-> *Framework: Human Predictive Drive v7.8 + Academic citations 1993-2019*
+> *"Hooks via FREQUENCY (200+ boluses/day), not via INTENSITY."*
+> *"Quitting = chemical rebalancing (weeks) + chunk deactivation (months) + identity rewrite."*

@@ -1,121 +1,122 @@
-﻿---
-title: Liking-Wanting — Bridge File Từ Berridge Đến Framework
+---
+title: Liking-Wanting — Bridge File From Berridge To Framework
 version: 2.0
 created: 2026-04-18
 updated: 2026-05-24 (v2.0 — Reward-Signal-Architecture Evaluative/Direct-State integration, Simulation-Engine refs, cross-refs fixed)
 previous: v1.1 (2026-05-23 Concept Cascade: +Bond-Architecture × wanting, +Satiation × liking, +Hardware-Subsidy × wanting)
 status: v2.0 — BRIDGE FILE (mainstream reader entry point)
 scope: |
-  Map thuật ngữ wanting/liking (Berridge-Robinson 1998) sang kiến trúc framework.
-  KHÔNG phải framework tool — là BRIDGE cho reader quen mainstream neuroscience.
-  Giúp reader chuyển TỪ binary wanting/liking SANG kiến trúc multi-mechanism.
-  v2.0 KEY: +Evaluative/Direct-State Reward distinction (Reward-Signal-Architecture v2.0) vào liking analysis.
-  Berridge "liking" ≈ Evaluative Reward only. Direct-State Reward = loại Berridge chưa address.
+  Map wanting/liking terminology (Berridge-Robinson 1998) onto framework architecture.
+  NOT a framework tool — it is a BRIDGE for readers familiar with mainstream neuroscience.
+  Helps reader transition FROM binary wanting/liking TO multi-mechanism architecture.
+  v2.0 KEY: +Evaluative/Direct-State Reward distinction (Reward-Signal-Architecture v2.0) in liking analysis.
+  Berridge "liking" ≈ Evaluative Reward only. Direct-State Reward = type Berridge has not addressed.
 purpose: |
-  Reader biết Berridge sẽ hỏi: "Wanting/liking CỦA framework là gì?"
-  File này trả lời câu hỏi đó, rồi CHỈ RÕ tại sao framework đi xa hơn binary.
-  Entry point → reader sẽ được dẫn sang các file chi tiết.
+  Readers familiar with Berridge will ask: "What is wanting/liking IN the framework?"
+  This file answers that question, then SHOWS WHY framework goes beyond the binary.
+  Entry point → reader will be directed to detailed files.
 dependencies:
-  - Dopamine-Is-Not-Reward.md v1.0 — 7 bằng chứng + 7-step + framework endorse Berridge
-  - 03-Reward.md (Body-Feedback/) — 5 Body-Feedback-Preconditions, 7-step mechanism chi tiết
+  - Dopamine-Is-Not-Reward.md v1.0 — 7 pieces of evidence + 7-step + framework endorses Berridge
+  - 03-Reward.md (Body-Feedback/) — 5 Body-Feedback-Preconditions, 7-step mechanism detail
   - Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, E₀→E₃, 5 Profiles
   - Imagine-Final.md v3.0 — constructive future simulation, 3-Layer, lifecycle
   - Simulation-Engine.md v1.0 — 1 engine, 3 components, 3 axes
-  - Anchor-Schema.md v1.0 — Trust binding, 4 nguồn fill, cost
+  - Anchor-Schema.md v1.0 — Trust binding, 4 fill sources, cost
   - Valence-Propagation.md v3.0 — per-entity + chain propagation + PFC blindness
-  - Drive.md v1.2 — integration hub, vô thức ENGINE + PFC NAVIGATOR
+  - Drive.md v1.2 — integration hub, unconscious ENGINE + PFC NAVIGATOR
   - Novelty.md v1.2 — VTA seismograph + habituation detection
   - Feeling.md v3.0 — PFC observation of body, 7-layer fidelity
   - Entity-Compiled.md v1.0 — HOW entities compile into body-base
   - Bond-Architecture.md v2.0 — 4 bond types, gap clone impossible
   - Gap-Body-Need.md v1.0 — 3 Satiation Types, 5-Parameter
 parent: Drive.md v1.2 (integration hub)
-language: Tiếng Việt primary + English technical terms
+language: English primary + Vietnamese technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Liking-Wanting — Bridge File Từ Berridge Đến Framework
+# Liking-Wanting — Bridge File From Berridge To Framework
 
-> **Bạn biết "wanting" và "liking" — hai khái niệm của Berridge-Robinson.**
-> **Framework ĐỒNG Ý với Berridge: dopamine ≠ reward, wanting ≠ liking.**
-> **Nhưng framework nhìn thấy CƠ CHẾ SÂU HƠN phía sau cả hai.**
+> **You know "wanting" and "liking" — two concepts from Berridge-Robinson.**
+> **The framework AGREES with Berridge: dopamine ≠ reward, wanting ≠ liking.**
+> **But the framework sees DEEPER MECHANISMS behind both.**
 >
-> "Wanting" = NHIỀU mechanisms khác nhau, không chỉ 1 signal.
-> "Liking" = reward CÓ ĐIỀU KIỆN, không phải tự động.
+> "Wanting" = MANY different mechanisms, not just 1 signal.
+> "Liking" = CONDITIONAL reward, not automatic.
 >
-> File này: BRIDGE — từ Berridge → framework.
-> Nếu bạn đang nghĩ theo wanting/liking, đây là cách framework
-> nhìn CÁI TƯƠNG TỰ — nhưng chi tiết hơn, falsifiable hơn.
+> This file: BRIDGE — from Berridge → framework.
+> If you are thinking in terms of wanting/liking, this is how the framework
+> sees THE SAME THING — but with more detail, more falsifiability.
 >
-> **⚠️ FILE NÀY KHÔNG PHẢI FRAMEWORK TOOL.**
-> Framework dùng: Imagine-Final + Body-Base + VTA 7-step + Body-Feedback-Precondition + Valence chain.
-> File này dùng: cho READER muốn 1 GÓC NHÌN BẮT ĐẦU.
+> **⚠️ THIS FILE IS NOT A FRAMEWORK TOOL.**
+> Framework uses: Imagine-Final + Body-Base + VTA 7-step + Body-Feedback-Precondition + Valence chain.
+> This file is for: READERS who want ONE STARTING PERSPECTIVE.
 
 ---
 
-## Mục lục
+## Table of Contents
 
-- §0 — VỊ TRÍ + MỤC ĐÍCH
+- §0 — POSITION + PURPOSE
 - §1 — BERRIDGE WANTING/LIKING RECAP
-- §2 — WANTING → FRAMEWORK: KHÔNG CHỈ "MUỐN"
-- §3 — LIKING → FRAMEWORK: KHÔNG CHỈ "THÍCH"
+- §2 — WANTING → FRAMEWORK: NOT JUST "WANT"
+- §3 — LIKING → FRAMEWORK: NOT JUST "LIKE"
   - §3.1-§3.4 — 4 Layers: Opioid, Body-Feedback-Precondition, Chain, 3 Signals
   - §3.5 — Layer 5: Evaluative vs Direct-State (Reward-Signal-Architecture v2.0)
-  - §3.6 — Tổng hợp: 5 Layers
-- §4 — 5 CASES QUA CẢ HAI LENS
-- §5 — TẠI SAO FRAMEWORK KHÔNG DÙNG WANTING/LIKING
+  - §3.6 — Summary: 5 Layers
+- §4 — 5 CASES THROUGH BOTH LENSES
+- §5 — WHY FRAMEWORK DOES NOT USE WANTING/LIKING
 - §6 — HONEST ASSESSMENT
 - §7 — CROSS-REFERENCES + READING GUIDE
 
 ---
 
-## §0 — VỊ TRÍ + MỤC ĐÍCH
+## §0 — POSITION + PURPOSE
 
 ```
-FILE NÀY TRONG FRAMEWORK:
+THIS FILE IN THE FRAMEWORK:
 
   ┌─────────────────────────────────────────────────────────────┐
-  │ Dopamine-Is-Not-Reward.md                                 │
-  │   = "TẠI SAO dopamine ≠ reward?"                            │
-  │   = Bác bỏ misconception, 7 bằng chứng, 7-step mechanism   │
-  │   = Hướng: Classical "dopamine = pleasure" → Framework      │
+  │ Dopamine-Is-Not-Reward.md                                   │
+  │   = "WHY dopamine ≠ reward?"                                │
+  │   = Debunks misconception, 7 lines of evidence, 7-step      │
+  │   = Direction: Classical "dopamine = pleasure" → Framework  │
   └──────────────────────────┬──────────────────────────────────┘
                              │
                              ▼
   ┌─────────────────────────────────────────────────────────────┐
-  │ FILE NÀY — Liking-Wanting.md                                 │
-  │   = "Wanting/liking MAP vào framework THẾ NÀO?"             │
-  │   = Bridge từ Berridge terminology → framework architecture │
-  │   = Hướng: Reader biết Berridge → muốn hiểu framework      │
+  │ THIS FILE — Liking-Wanting.md                               │
+  │   = "How does wanting/liking MAP onto the framework?"       │
+  │   = Bridge from Berridge terminology → framework architecture│
+  │   = Direction: Reader knows Berridge → wants to understand  │
+  │                framework                                    │
   └──────────────────────────┬──────────────────────────────────┘
                              │
                              ▼
   ┌───────────────────────────────────────────────────────────────────┐
-  │ Framework files chi tiết                                           │
-  │   Imagine-Final.md v3.0 / 03-Reward.md / Valence-Propagation v3.0 │
-  │   Reward-Signal-Architecture.md v2.0 (Evaluative/Direct-State)     │
-  │   Anchor-Schema.md / Drive.md / Novelty.md / Feeling.md v3.0      │
-  │   = Cơ chế đầy đủ — reader đi sâu sau khi có bridge               │
+  │ Detailed framework files                                          │
+  │   Imagine-Final.md v3.0 / 03-Reward.md / Valence-Propagation v3.0│
+  │   Reward-Signal-Architecture.md v2.0 (Evaluative/Direct-State)   │
+  │   Anchor-Schema.md / Drive.md / Novelty.md / Feeling.md v3.0     │
+  │   = Full mechanisms — reader dives deep after getting the bridge  │
   └───────────────────────────────────────────────────────────────────┘
 
 
-⭐ MỤC ĐÍCH BRIDGE FILE:
+⭐ PURPOSE OF BRIDGE FILE:
 
-  CÂU HỎI CỦA READER:
-    "Framework nói dopamine ≠ reward. Tôi hiểu rồi.
-     Vậy wanting là gì? Liking là gì? Map vào đâu?"
+  READER'S QUESTION:
+    "The framework says dopamine ≠ reward. I understand that.
+     So what is wanting? What is liking? Where do they map?"
 
-  CÂU TRẢ LỜI CỦA FILE NÀY:
-    1. Wanting ≈ Imagine-Final preview + nhiều mechanism khác
+  THIS FILE'S ANSWER:
+    1. Wanting ≈ Imagine-Final preview + many other mechanisms
     2. Liking ≈ Body-Base opioid + Body-Feedback-Preconditions
-    3. Nhưng binary wanting/liking = quá đơn giản
-    4. Framework có tham số CHI TIẾT hơn → cover nhiều case hơn
-    5. Đây là BRIDGE — không phải destination
+    3. But binary wanting/liking = too simple
+    4. Framework has MORE DETAILED parameters → covers more cases
+    5. This is a BRIDGE — not a destination
 
-  READER NÀO CẦN FILE NÀY:
-    → Biết Berridge wanting/liking → muốn framework equivalent
-    → Đọc xong → chuyển sang file chi tiết phù hợp
-    → KHÔNG NÊN dùng wanting/liking như framework terminology
+  WHO NEEDS THIS FILE:
+    → Knows Berridge wanting/liking → wants the framework equivalent
+    → Read this → move to the appropriate detailed files
+    → SHOULD NOT use wanting/liking as framework terminology
 ```
 
 ---
@@ -125,523 +126,527 @@ FILE NÀY TRONG FRAMEWORK:
 ```
 🟢 BERRIDGE-ROBINSON (1998, 2003, 2016) — ESTABLISHED RESEARCH:
 
-  CORE FINDING (3 decades rat experiments + human neuroimaging):
+  CORE FINDING (3 decades of rat experiments + human neuroimaging):
 
     WANTING = INCENTIVE SALIENCE:
       → Dopamine-driven motivation to SEEK
-      → "Tôi MUỐN cái đó — đi tìm!"
+      → "I WANT that — go get it!"
       → Mesolimbic dopamine pathway (VTA → NAcc)
-      → Có thể "wanting" MÀ KHÔNG "liking" (addiction: crave nhưng không enjoy)
+      → Can "want" WITHOUT "liking" (addiction: crave but not enjoy)
 
     LIKING = HEDONIC RESPONSE:
       → Opioid-mediated pleasure when RECEIVED
-      → "Tôi THÍCH cái đó — pleasant!"
+      → "I LIKE that — pleasant!"
       → Opioid system (endorphin, enkephalin)
-      → Có thể "liking" MÀ KHÔNG "wanting" (Parkinson's: enjoy nhưng không seek)
+      → Can "like" WITHOUT "wanting" (Parkinson's: enjoy but not seek)
 
-  BẰNG CHỨNG QUYẾT ĐỊNH:
+  DECISIVE EVIDENCE:
 
-    Rat block dopamine → VẪN like sugar (ăn khi được cho, facial pleasure)
-                       → KHÔNG seek sugar (không bấm lever, không đi tìm)
+    Rat block dopamine → STILL likes sugar (eats when given, facial pleasure)
+                       → DOES NOT seek sugar (no lever-pressing, no foraging)
 
-    Rat stimulate dopamine → seek MORE (seeking tăng dramatic)
-                           → enjoy SAME (facial pleasure KHÔNG tăng)
+    Rat stimulate dopamine → seeks MORE (seeking increases dramatically)
+                           → enjoys SAME (facial pleasure does NOT increase)
 
     → Dopamine = SEEKING system (wanting)
     → Opioid = PLEASURE system (liking)
-    → 2 hệ TÁCH BIỆT — có thể dissociate
+    → 2 systems SEPARATE — can dissociate
 
 
-⭐ FRAMEWORK ĐỒNG Ý HOÀN TOÀN VỚI BERRIDGE:
+⭐ FRAMEWORK FULLY AGREES WITH BERRIDGE:
 
     ✅ Dopamine ≠ pleasure
     ✅ Dopamine = motivation / salience signal
     ✅ Opioid = actual pleasure / reward
-    ✅ Wanting và liking có thể dissociate
-    ✅ Addiction = wanting pathological, liking giảm
+    ✅ Wanting and liking can dissociate
+    ✅ Addiction = wanting pathological, liking decreases
 
-    → Framework KHÔNG bác bỏ Berridge
-    → Framework EXTENDS Berridge (thêm mechanism, thêm chi tiết)
-    (Chi tiết: Dopamine-Is-Not-Reward.md §5)
+    → Framework does NOT refute Berridge
+    → Framework EXTENDS Berridge (adds mechanisms, adds detail)
+    (Details: Dopamine-Is-Not-Reward.md §5)
 
 
-⚠️ LIMITATION CỦA BERRIDGE MÀ FRAMEWORK ADDRESS:
+⚠️ LIMITATIONS OF BERRIDGE THAT FRAMEWORK ADDRESSES:
 
-    ① "Liking fires KHI NÀO?" → Berridge: opioid system (black box)
+    ① "When does liking fire?" → Berridge: opioid system (black box)
        → Framework: 5 Body-Feedback-Preconditions (testable, falsifiable)
 
-    ② "Wanting chỉ 1 loại?" → Berridge: incentive salience (singular concept)
-       → Framework: NHIỀU mechanisms tạo ra "wanting" behavior
+    ② "Is wanting just one type?" → Berridge: incentive salience (singular concept)
+       → Framework: MANY mechanisms produce "wanting" behavior
 
     ③ "Chain-mediated?" → Berridge: direct stimulus → response
-       → Framework: reward qua schema chain DÀI (Einstein, altruism)
+       → Framework: reward through LONG schema chain (Einstein, altruism)
 
-    ④ "Compile context?" → Berridge: không address
-       → Framework: chunk tag direction (opioid vs threat) tùy compile context
+    ④ "Compile context?" → Berridge: not addressed
+       → Framework: chunk tag direction (opioid vs threat) depends on compile context
 ```
 
 ---
 
-## §2 — WANTING → FRAMEWORK: KHÔNG CHỈ "MUỐN"
+## §2 — WANTING → FRAMEWORK: NOT JUST "WANT"
 
 ```
-🟡 BERRIDGE "WANTING" = 1 THUẬT NGỮ CHO NHIỀU CƠ CHẾ KHÁC NHAU:
+🟡 BERRIDGE "WANTING" = 1 TERM FOR MANY DIFFERENT MECHANISMS:
 
-  Berridge gọi TẤT CẢ motivation-to-seek = "wanting".
-  Framework nhìn thấy ÍT NHẤT 6 mechanisms khác nhau
-  mà Berridge gom chung thành 1 từ.
+  Berridge labels ALL motivation-to-seek = "wanting."
+  Framework sees AT LEAST 6 different mechanisms
+  that Berridge groups under 1 word.
 
-  Mỗi mechanism có cơ chế KHÁC NHAU, can thiệp KHÁC NHAU,
-  biểu hiện KHÁC NHAU — nhưng output quan sát GIỐNG NHAU:
-  "Người đó đang MUỐN cái gì đó."
+  Each mechanism has a DIFFERENT mechanism, DIFFERENT intervention,
+  DIFFERENT presentation — but the observable output is THE SAME:
+  "That person WANTS something."
 ```
 
 ### §2.1 — Mechanism 1: Imagine-Final Preview (PFC simulate → body pre-feel)
 
 ```
-🟡 CƠ CHẾ:
+🟡 MECHANISM:
 
-  PFC simulate trạng thái TƯƠNG LAI:
-    → "Nếu tôi ăn món đó → body sẽ no + ngon"
-    → "Nếu tôi gặp bạn đó → body sẽ vui"
-    → "Nếu NVIDIA thành công → body sẽ significance + mastery"
+  PFC simulates a FUTURE state:
+    → "If I eat that food → body will be full + delicious"
+    → "If I meet that person → body will feel happy"
+    → "If NVIDIA succeeds → body will feel significance + mastery"
 
-  Simulation-Engine chạy preview (Simulation-Engine.md v1.0):
+  Simulation-Engine runs preview (Simulation-Engine.md v1.0):
     → 1 engine, 3 components: Interoception × Constructive Simulation × Self/Other Model
-    → Imagine-Final = APPLICATION (Self, Future, Simulate+Construct) trên engine
-    → Body RESPONSE simulation ở ~20-60% fidelity (Imagination.md v2.0 §2)
-    → Opioid PREVIEW nhẹ nếu simulation "mượt hơn hiện tại"
-    → = "MUỐN tới đó" = wanting
+    → Imagine-Final = APPLICATION (Self, Future, Simulate+Construct) on the engine
+    → Body RESPONDS to simulation at ~20-60% fidelity (Imagination.md v2.0 §2)
+    → Mild opioid PREVIEW if simulation is "smoother than current state"
+    → = "I WANT to get there" = wanting
 
   3-LAYER (Imagine-Final.md v3.0 §3):
-    ① Body-Need (TẠI SAO): đói, cô đơn, muốn chứng minh giá trị...
-    ② Imagine-Final (VỀ ĐÂU): "no + ngon", "vui", "NVIDIA thành reference"
-    ③ Plan + Parameters (BẰNG CÁCH NÀO): recipe, gọi điện, chiến lược GPU
+    ① Body-Need (WHY): hungry, lonely, want to prove worth...
+    ② Imagine-Final (TOWARD WHERE): "full + delicious", "happy", "NVIDIA becomes reference"
+    ③ Plan + Parameters (HOW): recipe, phone call, GPU strategy
 
-    ⚠️ "GPU sẽ có giá trị" = tầng ③ (PARAMETER hỗ trợ plan)
-       KHÔNG PHẢI tầng ② (Imagine-Final)
-       Jensen's Imagine-Final = "NVIDIA thành reference / chứng minh vision đúng"
-       = Cái body ông ấy PRE-FEEL, không phải nhận định logic về thị trường
+    ⚠️ "GPU will have value" = Layer ③ (PARAMETER supporting plan)
+       NOT Layer ② (Imagine-Final)
+       Jensen's Imagine-Final = "NVIDIA becomes reference / prove vision correct"
+       = What body PRE-FEELS, not a logical assessment of the market
 
-  → Berridge "wanting" gần nhất với mechanism NÀY
-  → NHƯNG: Imagine-Final preview chỉ là 1 PHẦN của "wanting"
+  → Berridge "wanting" is closest to THIS mechanism
+  → BUT: Imagine-Final preview is only 1 PART of "wanting"
   → Cross-ref: Simulation-Engine.md v1.0 §5 (engine architecture)
 ```
 
 ### §2.2 — Mechanism 2: VTA Dopamine Alert (salience signal)
 
 ```
-🟡 CƠ CHẾ:
+🟡 MECHANISM:
 
-  VTA detect DELTA (habituation-based — Novelty.md v1.2):
-    → Pattern cũ ổn định → VTA habituate → im
-    → Pattern MỚI xuất hiện → VTA: "BIẾN ĐỘNG!" → dopamine fire
+  VTA detects DELTA (habituation-based — Novelty.md v1.2):
+    → Old pattern stable → VTA habituates → silent
+    → NEW pattern appears → VTA: "CHANGE DETECTED!" → dopamine fires
     → DRD4 receptor filter: 4R sensitive / 7R coarse
 
-  Dopamine → PFC: "CÓ GÌ ĐÓ ĐÁNG CHÚ Ý — xem thử!"
-    → KHÔNG nói "cái đó TỐT" hay "cái đó THƯỞNG"
-    → Chỉ nói "CÓ THAY ĐỔI" → PFC attend
+  Dopamine → PFC: "SOMETHING WORTH NOTING — check it out!"
+    → DOES NOT say "that thing is GOOD" or "that thing is REWARD"
+    → Only says "THERE IS A CHANGE" → PFC attends
 
-  = Berridge "incentive salience" ≈ mechanism NÀY
-  = NHƯNG: framework specify WHEN VTA fires (habituation delta)
-    và Berridge chỉ nói "salience" (descriptive)
+  = Berridge "incentive salience" ≈ THIS mechanism
+  = BUT: framework specifies WHEN VTA fires (habituation delta)
+    while Berridge only says "salience" (descriptive)
 
-  = Step 2 trong 7-step mechanism (Dopamine-Is-Not-Reward.md §4.2)
-  = CẦN THIẾT cho wanting, nhưng KHÔNG ĐỦ = wanting
+  = Step 2 in the 7-step mechanism (Dopamine-Is-Not-Reward.md §4.2)
+  = NECESSARY for wanting, but NOT SUFFICIENT = wanting
 ```
 
-### §2.3 — Mechanism 3: Compiled Schema Momentum (vô thức auto-drive)
+### §2.3 — Mechanism 3: Compiled Schema Momentum (unconscious auto-drive)
 
 ```
-🟡 CƠ CHẾ:
+🟡 MECHANISM:
 
-  Schema compiled 30 năm → chạy AUTO không cần PFC:
+  Schema compiled over 30 years → runs AUTO without needing PFC:
     → Jensen Huang: compiled schema "build computing future"
-      → Body tự drive HƯỚNG ĐÓ mà PFC không cần nhắc
-    → Musician: compiled schema "chơi nhạc" → ngồi vào đàn = auto
-    → Mẹ: compiled schema "chăm con" → nghe con khóc = body react NGAY
+      → Body auto-drives IN THAT DIRECTION without PFC prompting
+    → Musician: compiled schema "play music" → sit at the instrument = auto
+    → Mother: compiled schema "care for child" → hear child cry = body reacts IMMEDIATELY
 
-  = "Tiếng gọi", "passion", "calling", "gut feeling"
-  = Imagine-Final.md v3.0 §3 Tầng 1 VÔ THỨC:
-    → Body ĐÃ CÓ long-Imagine-Final từ lâu
-    → PFC thậm chí KHÔNG NAME được → nhưng body DRIVE rõ ràng
+  = "The calling", "passion", "gut feeling"
+  = Imagine-Final.md v3.0 §3 Layer 1 UNCONSCIOUS:
+    → Body ALREADY HAS long-Imagine-Final from long ago
+    → PFC cannot even NAME it → but body DRIVES clearly
 
   Entity-Compiled (Entity-Compiled.md v1.0):
-    → Khi entity compile vào body-base (formation 40→200h exposure)
-    → Entity-level momentum: compiled entity → body auto-drive TOWARD entity
-    → VD: mẹ = entity compiled sâu nhất → momentum KHÔNG CẦN PFC
-    → = Mechanism 3 ở ENTITY level, không chỉ schema level
+    → When entity compiles into body-base (formation 40→200h exposure)
+    → Entity-level momentum: compiled entity → body auto-drives TOWARD entity
+    → E.g.: mother = most deeply compiled entity → momentum REQUIRES NO PFC
+    → = Mechanism 3 at ENTITY level, not just schema level
 
-  KHÁC Mechanism 1 (Imagine-Final preview):
-    → Mechanism 1 = PFC actively simulate → body respond
-    → Mechanism 3 = schema ĐÃ compiled → body auto-drive KHÔNG CẦN PFC
-    → = Wanting VÔ THỨC — Berridge gọi chung = "wanting"
+  DIFFERENT FROM Mechanism 1 (Imagine-Final preview):
+    → Mechanism 1 = PFC actively simulates → body responds
+    → Mechanism 3 = schema ALREADY compiled → body auto-drives WITHOUT PFC
+    → = UNCONSCIOUS wanting — Berridge labels all of this = "wanting"
 
-  ⚠️ BERRIDGE KHÔNG PHÂN BIỆT:
-    → Wanting ý thức (PFC simulate → preview) vs
-    → Wanting vô thức (compiled schema → auto-drive)
-    → Framework PHÂN BIỆT vì can thiệp KHÁC:
-      - Ý thức: PFC evaluate → có thể override
-      - Vô thức: compiled quá sâu → override cực khó → cần decompile
+  ⚠️ BERRIDGE DOES NOT DISTINGUISH:
+    → Conscious wanting (PFC simulate → preview) vs
+    → Unconscious wanting (compiled schema → auto-drive)
+    → Framework DISTINGUISHES because intervention is DIFFERENT:
+      - Conscious: PFC evaluates → can override
+      - Unconscious: compiled too deep → override extremely hard → needs decompilation
 ```
 
 ### §2.4 — Mechanism 4: Anchor-Schema Binding (Trust commit)
 
 ```
-🟡 CƠ CHẾ:
+🟡 MECHANISM:
 
   Anchor-Schema (Anchor-Schema.md §0-§2):
-    → Vô thức CẦN sync point → chấp nhận 1 schema làm anchor
-    → Trust binding = hệ thống COMMIT vào hướng đó
-    → Trust CAO → drive MẠNH + resist change + cost cao khi từ bỏ
+    → Unconscious NEEDS a sync point → accepts 1 schema as anchor
+    → Trust binding = system COMMITS to that direction
+    → HIGH Trust → STRONG drive + resists change + high cost to abandon
 
-  "Wanting" = có thể là Trust binding:
-    → "Tôi muốn làm bác sĩ" = Anchor-Schema compiled từ bố mẹ inject
-    → PFC không BIẾT tại sao muốn → body drive vì Trust binding CAO
-    → Berridge: "wanting". Framework: Anchor-Schema + Trust.
+  "Wanting" = can be Trust binding:
+    → "I want to become a doctor" = Anchor-Schema compiled from parent injection
+    → PFC does NOT KNOW why it wants → body drives because HIGH Trust binding
+    → Berridge: "wanting." Framework: Anchor-Schema + Trust.
 
-  4 nguồn fill anchor (Anchor-Schema.md §3):
-    ① PFC Imagine-Final (PFC build + body accept)
-    ② Hippocampus simulation (động vật KHÔNG CÓ PFC vẫn drive)
-    ③ Compiled schemas (tự thành anchor khi đủ mạnh)
-    ④ External inject (tôn giáo, xã hội, bố mẹ install trực tiếp)
+  4 anchor fill sources (Anchor-Schema.md §3):
+    ① PFC Imagine-Final (PFC builds + body accepts)
+    ② Hippocampus simulation (animals WITHOUT PFC still drive)
+    ③ Compiled schemas (become anchor when strong enough)
+    ④ External injection (religion, society, parents install directly)
 
-  → Wanting từ nguồn ④ = KHÔNG do cá nhân chọn
-  → Berridge "wanting" không address NGUỒN GỐC → gom tất cả = "wanting"
+  → Wanting from source ④ = NOT chosen by the individual
+  → Berridge "wanting" does not address ORIGIN → groups all = "wanting"
 ```
 
 ### §2.5 — Mechanism 5: Valence Chain Propagation (indirect wanting)
 
 ```
-🟡 CƠ CHẾ:
+🟡 MECHANISM:
 
   Valence-Propagation.md v3.0:
-    → Valence TRUYỀN qua links trong schema network
-    → PFC KHÔNG BIẾT chuỗi truyền này tồn tại
+    → Valence PROPAGATES through links in the schema network
+    → PFC DOES NOT KNOW this propagation chain exists
 
-  "Muốn học toán" — Berridge: wanting.
-  Framework nhìn thấy CHAIN:
-    Toán → giỏi → mẹ khen → connection need → body reward
-    = "Wanting toán" thực ra là wanting CONNECTION qua chain
+  "Want to study math" — Berridge: wanting.
+  Framework sees CHAIN:
+    Math → good grades → mom's praise → connection need → body reward
+    = "Wanting math" is actually wanting CONNECTION via chain
 
-  "Đam mê vật lý" — Berridge: wanting.
+  "Passionate about physics" — Berridge: wanting.
   Framework:
-    Vật lý → hardware fit + chunk match + Goldilocks + prediction-delta
-    = NHIỀU chains fire SONG SONG → net valence >> threshold → drive
-    = PFC nói "đam mê". Body: nhiều compiled chains invisible
+    Physics → hardware fit + chunk match + Goldilocks + prediction-delta
+    = MANY chains fire IN PARALLEL → net valence >> threshold → drive
+    = PFC says "passion." Body: many compiled invisible chains
 
-  → Wanting KHÔNG NẰM Ở TARGET — nằm ở BODY-NEED qua chain
+  → Wanting IS NOT IN THE TARGET — it is in the BODY-NEED through the chain
   → Berridge "wanting for X" → Framework "body-need Y propagated via chain to X"
-  → Can thiệp khác: block X ≠ fix Y (chuyển trường ≠ fix connection need)
+  → Different intervention: block X ≠ fix Y (change major ≠ fix connection need)
 ```
 
-### §2.6 — Mechanism 6: Self-Generated Threat (wanting = tránh mất)
+### §2.6 — Mechanism 6: Self-Generated Threat (wanting = avoiding loss)
 
 ```
-🟡 CƠ CHẾ:
+🟡 MECHANISM:
 
-  Threat.md v1.2 — 3 loại threat-driven behavior:
-    → PFC tự generate threat: "nếu tôi DỪNG → mất tất cả"
+  Threat.md v1.2 — 3 types of threat-driven behavior:
+    → PFC self-generates threat: "if I STOP → lose everything"
     → Body: cortisol → push AWAY from stopping → push TOWARD continuing
-    → Output quan sát = "muốn tiếp tục" = Berridge "wanting"
+    → Observable output = "want to continue" = Berridge "wanting"
 
   Jensen Huang example:
-    → 30 năm build NVIDIA → compiled schema + anchor + trust
-    → Self-generated threat: "dừng = phản bội vision + mất legacy"
-    → Drive tiếp = TRÁNH MẤT, không phải thuần "muốn thêm"
-    → Berridge: "wanting". Framework: THREAT avoidance.
+    → 30 years building NVIDIA → compiled schema + anchor + trust
+    → Self-generated threat: "stop = betray vision + lose legacy"
+    → Continuing to drive = AVOIDING LOSS, not purely "wanting more"
+    → Berridge: "wanting." Framework: THREAT avoidance.
 
-  Gambling "muốn gỡ":
-    → Thua → PFC generate threat: "nếu dừng = mất vĩnh viễn"
-    → Body: cortisol push → tiếp tục chơi → output = "wanting to play"
-    → Berridge: "wanting". Framework: threat-driven, NOT pure wanting.
+  Gambling "want to recoup":
+    → Lose → PFC generates threat: "if I stop = permanent loss"
+    → Body: cortisol push → continue playing → output = "wanting to play"
+    → Berridge: "wanting." Framework: threat-driven, NOT pure wanting.
 
-  → CRITICAL: cùng output behavior, KHÁC hoàn toàn mechanism
-  → Can thiệp khác: reduce threat ≠ reduce wanting signal
-  → = Tại sao therapy for gambling ≠ "bớt muốn chơi"
-    mà = "nhận ra threat tự generate + decompile"
+  → CRITICAL: same behavioral output, COMPLETELY DIFFERENT mechanism
+  → Different intervention: reduce threat ≠ reduce wanting signal
+  → = Why therapy for gambling ≠ "want to play less"
+    but = "recognize self-generated threat + decompile"
 ```
 
-### §2.7 — Tổng hợp: "Wanting" = 6 mechanisms gom chung
+### §2.7 — Summary: "Wanting" = 6 Mechanisms Grouped Together
 
 ```
-🟡 BẢNG TỔNG HỢP:
+🟡 SUMMARY TABLE:
 
 ┌───┬──────────────────────────┬──────────────────────┬─────────────────────┐
-│ # │ Mechanism                │ Drive từ đâu?        │ PFC biết không?     │
+│ # │ Mechanism                │ Drive comes from?    │ PFC aware?          │
 ├───┼──────────────────────────┼──────────────────────┼─────────────────────┤
-│ 1 │ Imagine-Final Preview    │ PFC simulate → body  │ ✅ Biết rõ          │
+│ 1 │ Imagine-Final Preview    │ PFC simulate → body  │ ✅ Clearly aware    │
 │   │                          │ pre-feel             │                     │
 ├───┼──────────────────────────┼──────────────────────┼─────────────────────┤
-│ 2 │ VTA Dopamine Alert       │ VTA detect delta →   │ 🟡 Chỉ thấy "chú ý"│
-│   │                          │ dopamine → PFC attend│                     │
+│ 2 │ VTA Dopamine Alert       │ VTA detect delta →   │ 🟡 Only sees        │
+│   │                          │ dopamine → PFC attend│    "attention"      │
 ├───┼──────────────────────────┼──────────────────────┼─────────────────────┤
-│ 3 │ Compiled Schema Momentum │ Compiled schema auto │ ❌ PFC không biết   │
-│   │                          │ fire → body drive    │ tại sao             │
+│ 3 │ Compiled Schema Momentum │ Compiled schema auto │ ❌ PFC doesn't know │
+│   │                          │ fire → body drives   │ why                 │
 ├───┼──────────────────────────┼──────────────────────┼─────────────────────┤
-│ 4 │ Anchor-Schema Binding    │ Trust commit →       │ ❌ Thường không biết│
-│   │                          │ resist change        │ (confabulate lý do) │
+│ 4 │ Anchor-Schema Binding    │ Trust commit →       │ ❌ Usually unaware  │
+│   │                          │ resists change       │ (confabulates)      │
 ├───┼──────────────────────────┼──────────────────────┼─────────────────────┤
-│ 5 │ Valence Chain            │ Body-need qua chain  │ ❌ PFC chỉ thấy    │
-│   │ Propagation              │ → surface target     │ target, không chain │
+│ 5 │ Valence Chain            │ Body-need through    │ ❌ PFC only sees    │
+│   │ Propagation              │ chain → surface      │ target, not chain   │
+│   │                          │ target               │                     │
 ├───┼──────────────────────────┼──────────────────────┼─────────────────────┤
-│ 6 │ Self-Generated Threat    │ PFC tự generate      │ 🟡 PFC nghĩ        │
-│   │                          │ threat → cortisol    │ "muốn", body = sợ  │
+│ 6 │ Self-Generated Threat    │ PFC self-generates   │ 🟡 PFC thinks       │
+│   │                          │ threat → cortisol    │ "wanting", body     │
+│   │                          │                      │ = fear              │
 └───┴──────────────────────────┴──────────────────────┴─────────────────────┘
 
-  → Berridge GOM TẤT CẢ = "wanting" (incentive salience)
-  → Framework PHÂN BIỆT 6 mechanisms
-  → Cùng output behavior ("đang tìm kiếm cái gì đó")
-  → KHÁC hoàn toàn cơ chế bên trong
-  → KHÁC hoàn toàn cách can thiệp
+  → Berridge GROUPS ALL = "wanting" (incentive salience)
+  → Framework DISTINGUISHES 6 mechanisms
+  → Same behavioral output ("seeking something")
+  → COMPLETELY DIFFERENT internal mechanism
+  → COMPLETELY DIFFERENT intervention approach
 
-  ⚠️ KHÔNG có nghĩa Berridge SAI:
-    → Berridge ĐÚNG rằng wanting ≠ liking (tách 2 hệ)
-    → Framework NÓI THÊM: wanting = ÍT NHẤT 6 mechanisms
-    → = Phóng to microscope, không phải đổi microscope
+  ⚠️ DOES NOT mean Berridge is WRONG:
+    → Berridge is CORRECT that wanting ≠ liking (2 separate systems)
+    → Framework ADDS: wanting = AT LEAST 6 mechanisms
+    → = Zoom the microscope, not replace the microscope
 ```
 
 ---
 
-## §3 — LIKING → FRAMEWORK: KHÔNG CHỈ "THÍCH"
+## §3 — LIKING → FRAMEWORK: NOT JUST "LIKE"
 
 ```
 🟡 BERRIDGE "LIKING" = OPIOID HEDONIC RESPONSE.
-   FRAMEWORK ĐỒNG Ý — NHƯNG THÊM: KHI NÀO, QUA CHAIN NÀO, VÀ TAG GÌ.
+   FRAMEWORK AGREES — BUT ADDS: WHEN, THROUGH WHICH CHAIN, AND WHAT TAG.
 
-  Berridge nói: "Liking = opioid system fires → pleasure."
-  Framework hỏi tiếp: "Opioid fires KHI NÀO? Điều kiện gì?
-    Qua đường nào? Và tại sao cùng stimulus mà khác người khác liking?"
+  Berridge says: "Liking = opioid system fires → pleasure."
+  Framework then asks: "When does opioid fire? What conditions?
+    Through which pathway? And why does the same stimulus produce
+    different liking in different people?"
 
-  Framework trả lời = 5 layers mà Berridge chưa specify.
+  Framework answer = 5 layers that Berridge has not specified.
 ```
 
 ### §3.1 — Layer 1: Body-Base Opioid (Step 5 — core of liking)
 
 ```
-🟡 CƠ CHẾ:
+🟡 MECHANISM:
 
   7-step mechanism Step 5 (Dopamine-Is-Not-Reward.md §4.2):
-    → PFC send chunk → body-base simulate
-    → Body có active needs (đói, social, exploration, safety...)
-    → Chunk fits need? → YES → OPIOID RELEASE = REWARD THẬT
-    →                   → NO  → body "meh" → PFC discard
+    → PFC sends chunk → body-base simulates
+    → Body has active needs (hunger, social, exploration, safety...)
+    → Chunk fits need? → YES → OPIOID RELEASE = REAL REWARD
+    →                   → NO  → body "meh" → PFC discards
 
-  = LÕI CỦA LIKING:
+  = CORE OF LIKING:
     → Subjective experience "pleasant", "satisfied", "eureka"
     → = Endogenous opioids (endorphin, enkephalin, dynorphin)
-    → = Berridge ĐÚNG: liking = opioid
+    → = Berridge is CORRECT: liking = opioid
 
-  NHƯNG: framework specify Step 5 NẰM SAU steps 1-4:
+  BUT: framework specifies Step 5 COMES AFTER steps 1-4:
     1. Unconscious fire (24/7)
     2. VTA detect delta (dopamine alert)
     3. DRD4 filter (threshold)
     4. PFC spotlight (top-down boost)
     → 5. BODY-BASE CHECK ⭐
 
-  → Liking KHÔNG XẢY RA một mình — liking xảy ra SAU quá trình
-  → Berridge treat liking như isolated event. Framework: liking = Step 5 TRONG loop.
+  → Liking DOES NOT HAPPEN IN ISOLATION — liking happens AFTER the process
+  → Berridge treats liking as an isolated event. Framework: liking = Step 5 IN the loop.
 ```
 
-### §3.2 — Layer 2: 5 Body-Feedback-Preconditions (KHI NÀO opioid fires)
+### §3.2 — Layer 2: 5 Body-Feedback-Preconditions (WHEN opioid fires)
 
 ```
-🟡 CƠ CHẾ:
+🟡 MECHANISM:
 
   Body-Feedback-Precondition (03-Reward.md §3):
 
-    Opioid fires WHEN ALL 5 preconditions met:
+    Opioid fires WHEN ALL 5 preconditions are met:
 
     ① Precondition-1 Directed-Gap
-       → Body phải có need đang chờ fill / schema chờ resolve
-       → No: ăn khi ĐÃ NO → sugar vào → body "meh" → no liking
-       → Yes: ăn khi ĐANG ĐÓI → sugar vào → body "fill need!" → opioid
+       → Body must have a pending need / schema waiting to resolve
+       → No: eat when ALREADY FULL → sugar arrives → body "meh" → no liking
+       → Yes: eat when HUNGRY → sugar arrives → body "need filled!" → opioid
        → 🟢 Alliesthesia (Cabanac 1971): same food less pleasant when full
 
     ② Precondition-2 Chunk-Substrate
-       → Đủ chunks substrate để decode + recognize incoming pattern
-       → No: nghe nhạc jazz phức tạp lần đầu → "không hiểu" → no liking
-       → Yes: nghe sau 10 lần → chunks build → recognize → "hay!" → opioid
+       → Sufficient chunk substrate to decode + recognize incoming pattern
+       → No: hear complex jazz first time → "don't understand" → no liking
+       → Yes: hear after 10 times → chunks built → recognize → "beautiful!" → opioid
        → = Van Gogh paradox: appreciation REQUIRES chunks (03-Reward.md §6)
 
     ③ Precondition-3 Delta-Gate
-       → Biến động đủ lớn để VTA detect
-       → No: bài hát nghe 100 lần → VTA habituate → "chán" (no delta)
-       → Yes: bài hát nghe lần 5 → vẫn fresh đủ → VTA fire → attend → liking
+       → Enough variation for VTA to detect
+       → No: song heard 100 times → VTA habituates → "boring" (no delta)
+       → Yes: song heard 5th time → still fresh enough → VTA fires → attend → liking
        → = Hedonic treadmill at neural level (Brickman 1978 🟢)
 
     ④ Precondition-4 Match-Range
-       → Match ratio không quá cao (boring) cũng không quá thấp (confusion)
-       → No: match quá cao = "biết rồi" = no delta → no liking
-       → No: match quá thấp = "không hiểu gì" = confusion → cortisol → no liking
-       → Yes: match vừa phải = "quen nhưng mới!" = sweet spot → opioid
+       → Match ratio not too high (boring) and not too low (confusion)
+       → No: too high a match = "I know this already" = no delta → no liking
+       → No: too low a match = "I don't understand anything" = confusion → cortisol → no liking
+       → Yes: match is just right = "familiar but new!" = sweet spot → opioid
        → 🟢 Berlyne optimal arousal, inverted-U curve
 
     ⑤ Precondition-5 Compile-Gate
-       → Chunk tag opioid-associated (not threat-tagged)
-       → No: chunk compiled lúc cortisol cao → threat-tagged → retrieval = discomfort
-       → Yes: chunk compiled lúc cortisol thấp → opioid-tagged → retrieval = comfort
-       → = CÙNG CONTENT, KHÁC TAG → khác liking
+       → Chunk tag is opioid-associated (not threat-tagged)
+       → No: chunk compiled when cortisol high → threat-tagged → retrieval = discomfort
+       → Yes: chunk compiled when cortisol low → opioid-tagged → retrieval = comfort
+       → = SAME CONTENT, DIFFERENT TAG → different liking
        → (Cortisol-Baseline.md v2.1: compile direction gate)
 
   BERRIDGE'S OPEN QUESTION (2016):
     "What determines when liking fires?"
     → Framework answer: 5 Body-Feedback-Preconditions.
-    → Each precondition testable + falsifiable independently.
+    → Each precondition is testable + falsifiable independently.
 ```
 
 ### §3.3 — Layer 3: Chain-Mediated Liking (indirect reward)
 
 ```
-🟡 CƠ CHẾ:
+🟡 MECHANISM:
 
   Berridge experiments = DIRECT stimulus → response:
-    → Sugar vào miệng → opioid → liking ✅
+    → Sugar in mouth → opioid → liking ✅
     → = Simple, observable, replicable
 
-  NHƯNG: nhiều liking trong đời thực = QUA SCHEMA CHAIN:
+  BUT: much liking in real life = THROUGH SCHEMA CHAIN:
 
     Einstein Eureka:
-      Schema dissonance (gap lớn trong vật lý) + chunk MỚI fits gap
+      Schema dissonance (large gap in physics) + NEW chunk fits gap
       → Chain: chunk → schema match → dissonance resolved → opioid BURST
-      → = Liking qua chain "knowledge gap → fill"
-      → = KHÔNG có sugar, KHÔNG có direct stimulus
-      → = Opioid fires qua ABSTRACT chain
+      → = Liking through "knowledge gap → fill" chain
+      → = NO sugar, NO direct stimulus
+      → = Opioid fires through ABSTRACT chain
 
     Altruism (Valence-Propagation.md v3.0):
-      Giúp người lạ → PFC: "vô tư thôi"
+      Help a stranger → PFC: "just being nice"
       Body: mirror reward + status chain + identity chain + connection need
-      → Nhiều compiled chains fire SONG SONG → net opioid >> cost → "feel good"
-      → PFC KHÔNG BIẾT chains → confabulate "vì tử tế"
-      → = Liking qua INVISIBLE MULTI-CHAIN
+      → Many compiled chains fire IN PARALLEL → net opioid >> cost → "feel good"
+      → PFC DOES NOT KNOW the chains → confabulates "unselfish", "for humanity"
+      → = Liking is REAL (opioid fires) but MECHANISM is invisible
 
     Studying children (Imagine-Final.md v3.0 §3):
-      Trẻ THÍCH học: curiosity compiled → mastery need → giải bài = opioid
-      → Chain: bài toán → giải được → mastery → body reward
-      Trẻ BỊ ÉP học: safety need (tránh phạt) → hoàn thành = relief, NOT opioid
-      → Chain: bài toán → xong → không bị mắng → cortisol DROP (relief)
-      → = CÙNG behavior, KHÁC chain, KHÁC loại "liking"
+      Child LIKES studying: curiosity compiled → mastery need → solve problem = opioid
+      → Chain: problem → solved → mastery → body reward
+      Child FORCED to study: safety need (avoid punishment) → complete = relief, NOT opioid
+      → Chain: problem → done → not scolded → cortisol DROP (relief)
+      → = SAME behavior, DIFFERENT chain, DIFFERENT type of "liking"
 
-  → Berridge "liking" = chủ yếu direct (sugar, food, sex)
-  → Framework: liking = CŨNG qua chain dài, invisible, multi-layered
+  → Berridge "liking" = primarily direct (sugar, food, sex)
+  → Framework: liking = ALSO through long, invisible, multi-layered chains
 ```
 
-### §3.4 — Layer 4: 3 Body Signals (không chỉ 1 loại "liking")
+### §3.4 — Layer 4: 3 Body Signals (not just 1 type of "liking")
 
 ```
-🟡 CƠ CHẾ:
+🟡 MECHANISM:
 
-  Body-Feedback-Mechanism.md v2.0 — 3 body signals, KHÔNG CHỈ 1:
+  Body-Feedback-Mechanism.md v2.0 — 3 body signals, NOT JUST 1:
 
-    ① Body-Satisfaction ("đủ rồi"):
+    ① Body-Satisfaction ("enough"):
        → Homeostasis need MET → body signal "stop seeking"
-       → VD: ăn no → "đủ rồi, dừng ăn"
-       → = Liking? Sort of — nhưng drive = DỪNG, không phải "tiếp"
+       → E.g.: eat until full → "enough, stop eating"
+       → = Liking? Sort of — but drive = STOP, not "continue"
 
-    ② Body-Reward ("hay, tiếp!"):
-       → Chunk fit body-need beyond maintenance → opioid → "MORE"
-       → VD: Eureka, flow state, social bonding, mastery breakthrough
-       → = Berridge "liking" ≈ signal NÀY
+    ② Body-Reward ("great, keep going!"):
+       → Chunk fits body-need beyond maintenance → opioid → "MORE"
+       → E.g.: Eureka, flow state, social bonding, mastery breakthrough
+       → = Berridge "liking" ≈ THIS signal
 
-    ③ Body-Dissonance ("chưa ổn"):
+    ③ Body-Dissonance ("not right yet"):
        → Current state ≠ expected → "SOMETHING WRONG"
-       → VD: đang vui → bạn nói lạnh nhạt → dissonance
-       → = KHÔNG phải liking — nhưng body feedback cùng hệ
+       → E.g.: feeling good → friend speaks coldly → dissonance
+       → = NOT liking — but body feedback in the same system
 
-  → Berridge "liking" = chủ yếu signal ② (Body-Reward)
-  → Framework phân biệt ① ② ③ vì can thiệp KHÁC:
-    - "Đủ rồi" cần STOP → nếu không stop = overdo
-    - "Hay, tiếp" cần TIẾP → nếu stop = miss opportunity
-    - "Chưa ổn" cần ADJUST → nếu ignore = accumulate dissonance
+  → Berridge "liking" = primarily signal ② (Body-Reward)
+  → Framework distinguishes ① ② ③ because intervention is DIFFERENT:
+    - "Enough" needs STOP → if don't stop = overdo
+    - "Great, keep going" needs CONTINUE → if stop = miss opportunity
+    - "Not right yet" needs ADJUST → if ignored = accumulate dissonance
 ```
 
-### §3.5 — Layer 5: Evaluative vs Direct-State Reward (2 LOẠI reward khác nhau)
+### §3.5 — Layer 5: Evaluative vs Direct-State Reward (2 DIFFERENT types of reward)
 
 ```
-🟡 CƠ CHẾ (Reward-Signal-Architecture.md v2.0 §1):
+🟡 MECHANISM (Reward-Signal-Architecture.md v2.0 §1):
 
-  BERRIDGE "LIKING" = CHỈ EVALUATIVE REWARD:
+  BERRIDGE "LIKING" = ONLY EVALUATIVE REWARD:
 
     EVALUATIVE REWARD:
       → Circuit: Hedonic hotspot (NAcc shell, VP, mOFC)
       → Signal: μ-opioid
       → Body-Feedback-Precondition: Full 5 preconditions REQUIRED
-      → Cần: Compiled chunks (Precondition-2 Chunk-Substrate) + body-need gap (Precondition-1 Directed-Gap)
+      → Requires: Compiled chunks (Precondition-2 Chunk-Substrate) + body-need gap (Precondition-1 Directed-Gap)
       → LEARNED — quality depends on chunk library
-      → VD: food, music, insight, visual beauty, social praise
-      → = Berridge "liking" ≈ TOÀN BỘ nằm ở đây
+      → E.g.: food, music, insight, visual beauty, social praise
+      → = Berridge "liking" ≈ ENTIRELY in this domain
 
     DIRECT-STATE REWARD:
       → Circuit: Interoceptive / body-state regulation (VARIES by modality)
-      → Signal: KHÔNG PHẢI opioid chính:
+      → Signal: NOT primarily opioid:
         Touch: CT afferents → posterior insula (🟢 Löken 2009)
         Exercise: Endocannabinoid CB1 (🟢 Fuss 2015 PNAS)
         Temperature: thermoreceptor → hypothalamus
       → Body-Feedback-Precondition: SIMPLIFIED (Precondition-1 basic, Precondition-2–Precondition-5 reduced/N/A)
-      → Hardware từ sinh — MINIMAL compiled chunks needed
-      → VD: touch comfort, runner's high, warmth, stretching
-      → = Berridge KHÔNG STUDY loại này
+      → Hardware from birth — MINIMAL compiled chunks needed
+      → E.g.: touch comfort, runner's high, warmth, stretching
+      → = Berridge does NOT study this type
 
 
-  TẠI SAO QUAN TRỌNG CHO LIKING ANALYSIS:
+  WHY THIS MATTERS FOR LIKING ANALYSIS:
 
-    ① Berridge chỉ đo Evaluative (opioid-mediated hedonic hotspot):
+    ① Berridge only measures Evaluative (opioid-mediated hedonic hotspot):
        → Naltrexone blocks Evaluative → "liking blocked"
-       → NHƯNG: touch comfort (Direct-State) NOT blocked by naltrexone
-       → = CÓ liking experiences mà Berridge framework KHÔNG CAPTURE
+       → BUT: touch comfort (Direct-State) NOT blocked by naltrexone
+       → = THERE ARE liking experiences that Berridge framework DOES NOT CAPTURE
 
-    ② "Thích" trong đời thực = BLEND Evaluative + Direct-State:
-       Social touch: Direct-State (CT afferents) + Evaluative (ai chạm?)
-       → Bạn thân chạm: Evaluative AMPLIFY Direct-State → compound pleasant
-       → Người lạ chạm: Evaluative SUPPRESS Direct-State → unpleasant dù CT vẫn fire
-       → Infant: Evaluative chưa compile → Direct-State raw → mọi touch accepted
+    ② Real-life "liking" = BLEND of Evaluative + Direct-State:
+       Social touch: Direct-State (CT afferents) + Evaluative (who is touching?)
+       → Close friend touches: Evaluative AMPLIFIES Direct-State → compound pleasant
+       → Stranger touches: Evaluative SUPPRESSES Direct-State → unpleasant even though CT still fires
+       → Infant: Evaluative not yet compiled → Direct-State raw → all touch accepted
        → = Evaluative Gates Direct-State (Reward-Signal-Architecture v2.0 §3)
 
     ③ Direct-State = BURNOUT-PROOF:
-       → Evaluative exhausted (anhedonia) → Direct-State VẪN hoạt động
-       → "Touch still good" khi "nothing feels rewarding anymore"
-       → = Therapeutic backdoor qua stuck Evaluative gate
+       → Evaluative exhausted (anhedonia) → Direct-State STILL functions
+       → "Touch still good" when "nothing feels rewarding anymore"
+       → = Therapeutic backdoor through stuck Evaluative gate
        → 🟢 Van der Kolk 2014: body-oriented approaches for trauma
 
-    ④ E₀→E₃ gradient = Evaluative KHÔNG monolithic:
-       → E₀ (hardware-install): sweet taste (from birth, evolution pre-compiled)
+    ④ E₀→E₃ gradient = Evaluative is NOT monolithic:
+       → E₀ (hardware-installed): sweet taste (from birth, evolution pre-compiled)
        → E₁ (basic compiled): food preferences (~2-6 years)
        → E₂ (complex compiled): music appreciation, wine tasting (years)
-       → E₃ (deep compiled): mathematical beauty, expert insight (decades)
+       → E₃ (deeply compiled): mathematical beauty, expert insight (decades)
        → = Evaluative Reward GROWS with compilation depth
        → = WHY "reward capacity" DEVELOPS, not fixed at birth
 
-    ⑤ Body-Feedback-Precondition × 2 loại — layers 1-4 chủ yếu mô tả EVALUATIVE pathway:
+    ⑤ Body-Feedback-Precondition × 2 types — layers 1-4 primarily describe EVALUATIVE pathway:
        → 5 Body-Feedback-Preconditions (§3.2) apply MAINLY to Evaluative Reward
        → Direct-State: Precondition-1 basic (body-need always present), Precondition-2–Precondition-5 reduced/N/A
        → = Direct-State RELIABLE, Evaluative CONDITIONAL
-       → = Tại sao layers 1-4 (opioid, Body-Feedback-Precondition, chain, signals) chủ yếu map EVALUATIVE
+       → = Why layers 1-4 (opioid, Body-Feedback-Precondition, chain, signals) mainly map EVALUATIVE
 
   → Berridge: "liking = opioid" → Framework: "EVALUATIVE liking = opioid"
-  → Framework thêm: Direct-State liking = non-opioid, hardware, always available
-  → = THÊM 1 DIMENSION mà wanting/liking binary KHÔNG CÓ
+  → Framework adds: Direct-State liking = non-opioid, hardware, always available
+  → = ADDS 1 DIMENSION that wanting/liking binary DOES NOT HAVE
   → Cross-ref: Reward-Signal-Architecture.md v2.0 §1-§3 (full architecture)
 ```
 
-### §3.6 — Tổng hợp: "Liking" = reward CÓ ĐIỀU KIỆN + CÓ LOẠI
+### §3.6 — Summary: "Liking" = CONDITIONAL reward + TYPED reward
 
 ```
-🟡 BẢNG TỔNG HỢP:
+🟡 SUMMARY TABLE:
 
 ┌───┬───────────────────────────────────┬──────────────────────────┬─────────────────┐
-│ # │ Layer                             │ Framework specify        │ Berridge address│
+│ # │ Layer                             │ Framework specifies      │ Berridge covers │
 ├───┼───────────────────────────────────┼──────────────────────────┼─────────────────┤
-│ 1 │ Body-Base Opioid                  │ Step 5 trong 7-step loop │ ✅ Core concept │
+│ 1 │ Body-Base Opioid                  │ Step 5 in the 7-step loop│ ✅ Core concept │
 ├───┼───────────────────────────────────┼──────────────────────────┼─────────────────┤
-│ 2 │ 5 Body-Feedback-Preconditions     │ KHI NÀO opioid fires    │ ❌ "Black box"  │
+│ 2 │ 5 Body-Feedback-Preconditions     │ WHEN opioid fires        │ ❌ "Black box"  │
 ├───┼───────────────────────────────────┼──────────────────────────┼─────────────────┤
-│ 3 │ Chain-Mediated                    │ Reward qua schema chain  │ ❌ Chỉ direct   │
-│   │                                   │ (dài, invisible, multi)  │ stimulus        │
+│ 3 │ Chain-Mediated                    │ Reward through schema    │ ❌ Direct        │
+│   │                                   │ chain (long, invisible,  │ stimulus only   │
+│   │                                   │ multi-layered)           │                 │
 ├───┼───────────────────────────────────┼──────────────────────────┼─────────────────┤
-│ 4 │ 3 Body Signals                    │ Satisfaction / Reward /  │ 🟡 Chỉ focus    │
-│   │                                   │ Dissonance              │ "liking" = 1    │
+│ 4 │ 3 Body Signals                    │ Satisfaction / Reward /  │ 🟡 Focuses only │
+│   │                                   │ Dissonance               │ on "liking" = 1 │
 ├───┼───────────────────────────────────┼──────────────────────────┼─────────────────┤
-│ 5 │ Evaluative vs Direct-State        │ 2 LOẠI reward: opioid   │ ❌ Chỉ study    │
+│ 5 │ Evaluative vs Direct-State        │ 2 REWARD TYPES: opioid   │ ❌ Only studies │
 │   │                                   │ (Evaluative) + non-opioid│ Evaluative      │
 │   │                                   │ (Direct-State) + E₀→E₃  │ (opioid side)   │
 └───┴───────────────────────────────────┴──────────────────────────┴─────────────────┘
@@ -649,57 +654,57 @@ FILE NÀY TRONG FRAMEWORK:
   → Berridge: liking = opioid hedonic response (correct but incomplete)
   → Framework: liking = Evaluative (opioid, conditional, compiled)
                        + Direct-State (non-opioid, hardware, always available)
-  → = Liking không chỉ có ĐIỀU KIỆN — còn có LOẠI khác nhau
+  → = Liking is not only CONDITIONAL — it also has different TYPES
 
-  → Tại sao framework đi xa hơn:
-    - Berridge giải thích "liking xảy ra" (descriptive, Evaluative only)
-    - Framework giải thích "liking xảy ra KHI NÀO + TẠI SAO + QUA ĐÂU + LOẠI NÀO"
+  → Why framework goes further:
+    - Berridge explains "liking happens" (descriptive, Evaluative only)
+    - Framework explains "liking happens WHEN + WHY + THROUGH WHAT + WHAT TYPE"
       (mechanism + architecture)
 ```
 
 ---
 
-## §4 — 5 CASES QUA CẢ HAI LENS
+## §4 — 5 CASES THROUGH BOTH LENSES
 
 ### §4.1 — Case 1: Rat Experiment (Berridge Classic)
 
 ```
 SETUP:
-  Chuột bị block dopamine → cho sugar
+  Rat with dopamine blocked → given sugar
 
 BERRIDGE LENS:
   → Wanting blocked (no dopamine = no seeking)
-  → Liking preserved (opioid intact = still enjoy sugar khi given)
-  → = Evidence tách wanting/liking ✅
+  → Liking preserved (opioid intact = still enjoys sugar when given)
+  → = Evidence separating wanting/liking ✅
 
 FRAMEWORK LENS:
   → Step 2 VTA blocked → no dopamine → no PFC alert (steps 2-4 fail)
   → Step 5 body-base opioid INTACT
-  → Sugar vào miệng BYPASS attention gate (direct sensory → body)
+  → Sugar enters mouth and BYPASSES attention gate (direct sensory → body)
   → Body-need (hunger) still pending → sugar fits → opioid fires
-  → = SAME explanation, nhưng framework SPECIFY MECHANISM:
+  → = SAME explanation, but framework SPECIFIES MECHANISM:
     - VTA block = steps 2-4 fail (no seeking pathway)
     - Opioid intact = step 5 still works IF stimulus arrives
     - "Liking preserved" = Body-Feedback-Preconditions still met
       (schema pending ✅, chunks adequate ✅, stimulus direct ✅)
 
-FRAMEWORK THÊM GÌ:
-  → Predict: nếu chuột CŨNG block opioid → liking CŨNG mất
-  → Predict: nếu chuột NO hunger (schema pending fail) → liking giảm
-  → 🟢 Cả hai predictions confirmed (Peciña & Berridge 2005, Cabanac alliesthesia)
+WHAT FRAMEWORK ADDS:
+  → Predicts: if rat also blocks opioid → liking is ALSO lost
+  → Predicts: if rat is NOT hungry (schema pending fails) → liking decreases
+  → 🟢 Both predictions confirmed (Peciña & Berridge 2005, Cabanac alliesthesia)
 
   Reward-Signal-Architecture LENS (§3.5):
-  → Sugar liking = EVALUATIVE Reward (E₀ hardware-install evaluation)
-  → Naltrexone block = blocks Evaluative pathway → liking MẤT
-  → NHƯNG: nếu chuột được TOUCH comfort → Direct-State Reward VẪN có
-  → = Naltrexone experiment chỉ test EVALUATIVE side
+  → Sugar liking = EVALUATIVE Reward (E₀ hardware-installed evaluation)
+  → Naltrexone block = blocks Evaluative pathway → liking LOST
+  → BUT: if rat also receives TOUCH comfort → Direct-State Reward STILL present
+  → = Naltrexone experiment only tests the EVALUATIVE side
 ```
 
 ### §4.2 — Case 2: Gambling / Slot Machine
 
 ```
 SETUP:
-  Người chơi slot machine → thắng ít, thua nhiều → vẫn tiếp
+  Player at slot machine → wins little, loses much → still continues
 
 BERRIDGE LENS:
   → Wanting HIGH (dopamine sensitized to gambling cues — lights, sounds, near-misses)
@@ -707,34 +712,34 @@ BERRIDGE LENS:
   → = Wanting-heavy, liking-poor → compulsive loop
 
 FRAMEWORK LENS:
-  → VTA fires on random reward schedule (micro-delta mỗi spin):
-    - Near-miss = LARGE delta → VTA fire strong → dopamine surge
-    - Win = delta → VTA fire → dopamine → PFC attend
-    - Routine loss = habituate → VTA mildly fire
+  → VTA fires on random reward schedule (micro-delta every spin):
+    - Near-miss = LARGE delta → VTA fires strongly → dopamine surge
+    - Win = delta → VTA fires → dopamine → PFC attends
+    - Routine loss = habituates → VTA fires mildly
   → Step 5 body-base check:
     - Win: body-need "exchange value" temporarily met → OPIOID (rare)
     - Loss: body-need NOT met → no opioid → but next spin = new delta
   → Self-Generated Threat (§2.6 Mechanism 6):
-    - "Nếu dừng = mất hết / không gỡ được" → cortisol → PUSH to continue
-    - PFC nhìn = "wanting to win". Body = threat avoidance.
+    - "If I stop = lose everything / can't recoup" → cortisol → PUSH to continue
+    - PFC sees = "wanting to win." Body = threat avoidance.
   → Anchor-Schema potential:
-    - "Sẽ gỡ lại" thành anchor → Trust binding → resist stop
+    - "Will recoup" becomes anchor → Trust binding → resists stopping
 
-FRAMEWORK THÊM GÌ:
-  → Gambling "wanting" = ÍT NHẤT 3 mechanisms khác nhau:
+WHAT FRAMEWORK ADDS:
+  → Gambling "wanting" = AT LEAST 3 different mechanisms:
     ② VTA dopamine alert (random schedule sensitization)
-    ⑥ Self-generated threat ("thua rồi phải gỡ")
-    ④ Anchor-schema binding (nếu compiled)
-  → Can thiệp: chỉ block dopamine (CBT "bớt muốn") = THIẾU
-  → Cần: address threat (⑥) + decompile anchor (④)
-  → = Tại sao gambling therapy phức tạp hơn "bảo người ta bớt muốn"
+    ⑥ Self-generated threat ("already lost, must recoup")
+    ④ Anchor-schema binding (if compiled)
+  → Intervention: only blocking dopamine (CBT "want less") = INSUFFICIENT
+  → Need: address threat (⑥) + decompile anchor (④)
+  → = Why gambling therapy is more complex than "tell people to want it less"
 ```
 
 ### §4.3 — Case 3: TikTok / Social Media Scroll
 
 ```
 SETUP:
-  Scroll TikTok 2 tiếng → "chán, mệt, trống" → nhưng không dừng được
+  Scroll TikTok for 2 hours → "bored, tired, empty" → but cannot stop
 
 BERRIDGE LENS:
   → Wanting continuous (dopamine micro-doses per video)
@@ -742,89 +747,89 @@ BERRIDGE LENS:
   → = Pure wanting without liking → "dopamine trap"
 
 FRAMEWORK LENS:
-  → VTA fires on EVERY video (micro-delta — content mới mỗi swipe):
-    - Novelty.md v1.2: mỗi post = micro-delta → VTA fire nhẹ
-    - DRD4 threshold MET vì content ĐỔI liên tục
-  → Step 5 body-base check FAIL LIÊN TỤC:
-    - Body-need thật (connection? rest? meaning?) → KHÔNG match với video content
-    - Precondition-1 Directed-Gap (schema pending): body MUỐN connection → videos ≠ connection
-    - No opioid → no reward thật → "empty feel"
-  → Imagine-Final.md v3.0 (sai target — PFC channel wrong body-need):
-    - Body signal "thiếu gì đó" → PFC thử scroll → tạm bớt → chán lại
-    - PFC fix SAI channel — body cần connection, PFC cho novelty
-  → NHƯNG VẪN TIẾP vì:
-    - VTA vẫn fire (step 2) → dopamine = "có thể video TIẾP sẽ khác"
-    - PFC weakened (mệt) → executive override yếu → cannot stop
+  → VTA fires on EVERY video (micro-delta — new content every swipe):
+    - Novelty.md v1.2: every post = micro-delta → VTA fires mildly
+    - DRD4 threshold MET because content CHANGES continuously
+  → Step 5 body-base check FAILS CONTINUOUSLY:
+    - Real body-need (connection? rest? meaning?) → DOES NOT match video content
+    - Precondition-1 Directed-Gap (schema pending): body WANTS connection → videos ≠ connection
+    - No opioid → no real reward → "empty feel"
+  → Imagine-Final.md v3.0 (wrong target — PFC channels the wrong body-need):
+    - Body signals "missing something" → PFC tries scrolling → briefly better → bored again
+    - PFC fixes the WRONG channel — body needs connection, PFC provides novelty
+  → BUT STILL CONTINUES because:
+    - VTA still fires (step 2) → dopamine = "maybe the NEXT video will be different"
+    - PFC weakened (tired) → executive override weakened → cannot stop
 
-FRAMEWORK THÊM GÌ:
-  → "Empty scrolling" = VTA active + body-need UNMET + PFC sai target
-  → Berridge đúng (wanting without liking) nhưng không explain WHY empty
-  → Framework: Precondition-1 Directed-Gap FAIL (wrong schema pending addressed)
-  → Giải pháp: không phải "block dopamine" (pop "dopamine detox")
-    mà = identify body-need thật (connection? rest?) + provide đúng channel
+WHAT FRAMEWORK ADDS:
+  → "Empty scrolling" = VTA active + body-need UNMET + PFC targeting wrong channel
+  → Berridge correct (wanting without liking) but does not explain WHY it's empty
+  → Framework: Precondition-1 Directed-Gap FAILS (wrong schema pending is being addressed)
+  → Solution: not "block dopamine" (popular "dopamine detox" framing)
+    but = identify the REAL body-need (connection? rest?) + provide the right channel
 
   Reward-Signal-Architecture LENS (§3.5):
-  → TikTok reward (nếu có) = 100% Evaluative, 0% Direct-State
-  → Không có touch, không có body movement, không có physical warmth
-  → Direct-State pathways HOÀN TOÀN im lặng trong lúc scroll
-  → = "Empty" VÌ thiếu Direct-State baseline reward
-  → Giải pháp Reward-Signal-Architecture: dừng scroll → đi bộ (Direct-State exercise)
-    hoặc ôm người thân (Direct-State touch + Evaluative social)
+  → TikTok reward (if any) = 100% Evaluative, 0% Direct-State
+  → No touch, no body movement, no physical warmth
+  → Direct-State pathways COMPLETELY SILENT during scrolling
+  → = "Empty" BECAUSE Direct-State baseline reward is missing
+  → Reward-Signal-Architecture solution: stop scrolling → go for a walk (Direct-State exercise)
+    or hug someone (Direct-State touch + Evaluative social)
 ```
 
-### §4.4 — Case 4: Jensen Huang (30 năm build NVIDIA)
+### §4.4 — Case 4: Jensen Huang (30 Years Building NVIDIA)
 
 ```
 SETUP:
-  Jensen Huang drive liên tục 30 năm → build NVIDIA thành computing reference
+  Jensen Huang drives continuously for 30 years → builds NVIDIA into a computing reference
 
 BERRIDGE LENS:
-  → Intense wanting (motivation to build, never stop)
+  → Intense wanting (motivation to build, never stops)
   → Liking present but infrequent (major milestones = pleasure)
   → = Strong wanting sustains through low-liking periods
 
 FRAMEWORK LENS:
-  → MULTI-MECHANISM BLEND (không chỉ 1 "wanting"):
+  → MULTI-MECHANISM BLEND (not just 1 "wanting"):
 
     ① Imagine-Final Preview (§2.1):
-       → Body-need: significance + mastery + legacy (tầng ①)
-       → Imagine-Final: "NVIDIA thành reference" (tầng ②)
-       → Plan: GPU strategy, partnerships, timing (tầng ③)
-       → ⚠️ "GPU sẽ có giá trị" = PARAMETER tầng ③, KHÔNG PHẢI tầng ②
-       → Body PRE-FEEL "đạt được vision" → opioid preview → drive
+       → Body-need: significance + mastery + legacy (Layer ①)
+       → Imagine-Final: "NVIDIA becomes reference" (Layer ②)
+       → Plan: GPU strategy, partnerships, timing (Layer ③)
+       → ⚠️ "GPU will have value" = PARAMETER in Layer ③, NOT Layer ②
+       → Body PRE-FEELS "achieving the vision" → opioid preview → drives forward
 
     ③ Compiled Schema Momentum (§2.3):
-       → 30 năm compiled → body tự drive AUTO
-       → Không cần PFC nhắc → compiled schema chạy "build NVIDIA" mỗi sáng
+       → 30 years compiled → body auto-drives on its own
+       → No need for PFC to prompt → compiled schema runs "build NVIDIA" every morning
        → = Deepest, most persistent source of Jensen's drive
 
     ④ Anchor-Schema Binding (§2.4):
-       → "NVIDIA vision" = Anchor-Schema Trust CỰC CAO
+       → "NVIDIA vision" = Anchor-Schema with EXTREMELY HIGH Trust
        → Cost of stopping = enormous (identity, legacy, commitment)
-       → = Wanting TỰ DUY TRÌ qua Trust binding
+       → = Wanting SELF-SUSTAINS through Trust binding
 
     ⑥ Self-Generated Threat (§2.6):
-       → "Nếu tôi dừng → mất tất cả / phản bội vision"
-       → Cortisol push → tiếp tục → output = "driven"
+       → "If I stop → lose everything / betray the vision"
+       → Cortisol push → continue → output = "driven"
 
-  → LIKING qua chain (§3.3):
+  → LIKING through chain (§3.3):
     - Major milestone → schema chain complete → opioid
-    - VD: GPU revolution thành hiện thực → body-need (significance) MET → opioid STRONG
-    - Nhưng: VTA habituate milestone → NEXT milestone cần lớn hơn (treadmill)
+    - E.g.: GPU revolution becomes reality → body-need (significance) MET → STRONG opioid
+    - But: VTA habituates to milestones → NEXT milestone needs to be bigger (treadmill)
     - Daily work: Goldilocks match (enough challenge + enough competence) → micro-opioid
 
-FRAMEWORK THÊM GÌ:
+WHAT FRAMEWORK ADDS:
   → Berridge: "Jensen wants intensely." (1 sentence)
-  → Framework: Jensen's drive = BLEND 4 mechanisms + liking qua milestone chain
-  → Giải thích TẠI SAO 30 năm không dừng: compiled momentum (③) + anchor binding (④) + threat avoidance (⑥)
-  → Giải thích TẠI SAO vẫn enjoy: milestone opioid + daily Goldilocks micro-reward
-  → = CANNOT reduce to "wanting" — phải phân biệt mechanisms
+  → Framework: Jensen's drive = BLEND of 4 mechanisms + liking through milestone chain
+  → Explains WHY 30 years without stopping: compiled momentum (③) + anchor binding (④) + threat avoidance (⑥)
+  → Explains WHY still enjoying it: milestone opioid + daily Goldilocks micro-reward
+  → = CANNOT reduce to "wanting" — must distinguish mechanisms
 ```
 
 ### §4.5 — Case 5: Einstein Eureka + Altruism + Studying Children
 
 ```
-⭐ 3 SUB-CASES — đều chain-mediated, đều invisible cho PFC:
+⭐ 3 SUB-CASES — all chain-mediated, all invisible to PFC:
 
 
 CASE 5a — EINSTEIN EUREKA:
@@ -832,147 +837,147 @@ CASE 5a — EINSTEIN EUREKA:
   BERRIDGE: wanting = motivation to solve physics. Liking = eureka pleasure.
 
   FRAMEWORK:
-    → Wanting = schema dissonance (vật lý có gap CHƯA giải) →
-      body-need mastery + curiosity → Imagine-Final "hiểu" → drive
+    → Wanting = schema dissonance (physics has an UNSOLVED gap) →
+      body-need mastery + curiosity → Imagine-Final "understand" → drives forward
     → Liking = eureka moment:
-      - Schema dissonance lớn (Precondition-1 Directed-Gap met ✅)
-      - Chunks base adequate — Einstein ĐÃ build 10+ năm (Precondition-2 Chunk-Substrate ✅)
-      - Chunk mới fits gap = LARGE delta (Precondition-3 Delta-Gate ✅)
-      - Goldilocks: phần lớn framework đã có, chunk mới = key piece (Precondition-4 Match-Range ✅)
+      - Schema dissonance large (Precondition-1 Directed-Gap met ✅)
+      - Chunk base adequate — Einstein HAS built over 10+ years (Precondition-2 Chunk-Substrate ✅)
+      - New chunk fits gap = LARGE delta (Precondition-3 Delta-Gate ✅)
+      - Goldilocks: most of the framework already in place, new chunk = key piece (Precondition-4 Match-Range ✅)
       - Chunks opioid-tagged — deep curiosity context (Precondition-5 Compile-Gate ✅)
       → ALL 5 met → OPIOID BURST = Eureka
-      → Nếu có threat context (Einstein under stress): cortisol DROP bonus → EXPLOSIVE
-      → Nếu no threat (pure curiosity): opioid alone → deep satisfaction
+      → If in threat context (Einstein under stress): cortisol DROP bonus → EXPLOSIVE
+      → If no threat (pure curiosity): opioid alone → deep satisfaction
 
-    → ⚠️ Eureka reward = OPIOID, không phải "dopamine spike"
+    → ⚠️ Eureka reward = OPIOID, not "dopamine spike"
       (Dopamine-Is-Not-Reward.md §3.7 — N+10 correction)
 
 
-CASE 5b — ALTRUISM ("từ thiện vô tư"):
+CASE 5b — ALTRUISM ("selfless giving"):
 
   BERRIDGE: wanting = motivation to help. Liking = pleasure of helping.
 
   FRAMEWORK:
-    → PFC nói: "giúp người vì tử tế" (confabulation)
-    → Compiled patterns fire nhiều chains SONG SONG (Valence-Propagation.md v3.0):
-      → mirror Self-Pattern-Modeling → see relief → body mirror → micro-opioid
-      → status → "người tốt" identity confirm → status need met → opioid
-      → identity → action match tự nhận → coherence → opioid
+    → PFC says: "helping people because I'm kind" (confabulation)
+    → Compiled patterns fire many chains IN PARALLEL (Valence-Propagation.md v3.0):
+      → mirror Self-Pattern-Modeling → see relief → body mirrors → micro-opioid
+      → status → "good person" identity confirmed → status need met → opioid
+      → identity → action matches self-image → coherence → opioid
       → connection → bond with recipient → connection need met → opioid
-    → Net: nhiều chains × micro-opioid > cost of helping → body = "feel good"
-    → PFC KHÔNG BIẾT chains → label = "vô tư", "vì tình người"
-    → = LIKING is REAL (opioid fires) nhưng MECHANISM invisible
+    → Net: many chains × micro-opioid > cost of helping → body = "feel good"
+    → PFC DOES NOT KNOW the chains → labels it = "unselfish", "for humanity"
+    → = Liking is REAL (opioid fires) but MECHANISM is invisible
 
-    → Berridge: "helping = liking" (accurate but surface)
-    → Framework: "helping = multi-chain-mediated opioid bursts" (mechanism visible)
+    → Berridge: "helping = liking" (accurate but surface-level)
+    → Framework: "helping = multi-chain-mediated opioid bursts" (mechanism made visible)
 
 
-CASE 5c — STUDYING CHILDREN (cùng hành vi, khác liking):
+CASE 5c — STUDYING CHILDREN (same behavior, different liking):
 
   BERRIDGE: wanting = motivation to study. Liking = pleasure of learning.
 
   FRAMEWORK — 2 PATHS:
 
-    Path A — Trẻ THÍCH HỌC (curiosity compiled):
+    Path A — Child LIKES LEARNING (curiosity compiled):
       → Body-need: mastery + curiosity (hardware fit)
-      → Imagine-Final: "tôi giải được cái khó" → body pre-feel satisfied
-      → Giải bài xong → schema match → Goldilocks → opioid
+      → Imagine-Final: "I solve the hard problem" → body pre-feels satisfied
+      → Finishes problem → schema match → Goldilocks → opioid
       → = GENUINE liking — all Body-Feedback-Preconditions met
 
-    Path B — Trẻ BỊ ÉP HỌC (safety-driven):
-      → Body-need: safety (tránh phạt) + connection (mẹ khen)
-      → Imagine-Final: "không bị mắng / được khen"
-      → Hoàn thành bài → threat REMOVED → cortisol DROP = RELIEF
-      → = KHÔNG phải opioid-liking — là RELIEF (cortisol drop)
-      → PFC nhìn = "hoàn thành → feel better" = looks like "liking"
-      → Body: KHÁC HOÀN TOÀN — relief ≠ reward
+    Path B — Child FORCED TO STUDY (safety-driven):
+      → Body-need: safety (avoid punishment) + connection (mom's praise)
+      → Imagine-Final: "not get scolded / get praised"
+      → Finishes the problem → threat REMOVED → cortisol DROP = RELIEF
+      → = NOT opioid-liking — it is RELIEF (cortisol drop)
+      → PFC sees = "finished → feel better" = looks like "liking"
+      → Body: COMPLETELY DIFFERENT — relief ≠ reward
 
-    ⚠️ CÙNG HÀNH VI ("ngồi làm bài") + KHÁC CƠ CHẾ:
+    ⚠️ SAME BEHAVIOR ("sitting and doing homework") + DIFFERENT MECHANISM:
       Path A: opioid-driven → sustainable, self-reinforcing
       Path B: relief-driven → dependent on threat → stops when threat removed
-      Berridge: cả hai = "liking learning"
-      Framework: KHÁC — opioid vs cortisol drop
+      Berridge: both = "liking learning"
+      Framework: DIFFERENT — opioid vs cortisol drop
 
     Reward-Signal-Architecture LENS (§3.5):
       Path A = EVALUATIVE Reward (E₂ coherence: pattern match → opioid)
-      Path B = KHÔNG CÓ reward — chỉ có relief (cortisol drop ≠ opioid)
-      Path C (thường bị BỎ QUA): môi trường học thân thiện
-        → Cô giáo ấm áp + bạn bè → DIRECT-STATE touch/proximity reward
-        → Direct-State component CÓ THỂ support learning environment
-        → = Tại sao "cảm giác an toàn trong lớp" quan trọng dù KHÔNG trực tiếp liên quan đến bài
-        → = Direct-State reward NÂNG baseline, giúp Evaluative dễ fire hơn
+      Path B = NO reward — only relief (cortisol drop ≠ opioid)
+      Path C (often OVERLOOKED): warm learning environment
+        → Warm teacher + friendly classmates → DIRECT-STATE touch/proximity reward
+        → Direct-State component CAN support the learning environment
+        → = Why "feeling safe in the classroom" matters even though it's NOT directly related to the lesson
+        → = Direct-State reward RAISES baseline, helps Evaluative fire more easily
 ```
 
 ---
 
-## §5 — TẠI SAO FRAMEWORK KHÔNG DÙNG WANTING/LIKING
+## §5 — WHY FRAMEWORK DOES NOT USE WANTING/LIKING
 
 ```
-🟡 5 LÝ DO FRAMEWORK KHÔNG DÙNG WANTING/LIKING NHƯ THUẬT NGỮ:
+🟡 5 REASONS FRAMEWORK DOES NOT USE WANTING/LIKING AS TERMINOLOGY:
 
 
-LÝ DO 1 — BINARY COLLAPSE QUÁ NHIỀU INFORMATION:
+REASON 1 — BINARY COLLAPSES TOO MUCH INFORMATION:
 
-  Wanting = 6 mechanisms gom chung (§2):
+  Wanting = 6 mechanisms lumped together (§2):
     → Imagine-Final preview (PFC simulate)
     → VTA dopamine alert (salience)
-    → Compiled schema momentum (vô thức auto)
+    → Compiled schema momentum (unconscious auto)
     → Anchor-schema binding (trust commit)
     → Valence chain propagation (indirect)
-    → Self-generated threat (tránh mất)
+    → Self-generated threat (avoid loss)
 
-  "Wanting" nén 6 mechanisms khác nhau thành 1 từ.
-  = Mất thông tin VỀ NGUỒN GỐC drive
-  = Mất thông tin VỀ CÁCH CAN THIỆP
-  = Tương tự gọi "ốm" cho cả cảm lạnh lẫn ung thư — đúng nhưng VÔ ÍCH cho treatment
+  "Wanting" compresses 6 different mechanisms into 1 word.
+  = Loses information ABOUT THE SOURCE of drive
+  = Loses information ABOUT HOW TO INTERVENE
+  = Similar to calling "sick" for both a cold and cancer — correct but USELESS for treatment
 
 
-LÝ DO 2 — LIKING KHÔNG TỰ ĐỘNG — CÓ 5 PRECONDITIONS:
+REASON 2 — LIKING IS NOT AUTOMATIC — HAS 5 PRECONDITIONS:
 
-  Berridge: "liking fires khi opioid" (black box condition)
-  Framework: "liking fires khi ALL 5 Body-Feedback-Preconditions met"
+  Berridge: "liking fires when opioid" (black box condition)
+  Framework: "liking fires when ALL 5 Body-Feedback-Preconditions are met"
 
-  Dùng "liking" gom chung = KHÔNG PHÂN BIỆT:
+  Using "liking" to group everything = CANNOT DISTINGUISH:
     → Direct liking (sugar) vs chain-mediated (eureka)
     → Opioid reward vs relief (cortisol drop)
     → Compiled-context liking (opioid-tagged) vs threat-compiled (threat-tagged)
 
-  = "Liking" nói "pleasant" nhưng không nói "pleasant KIỂU GÌ + TẠI SAO"
+  = "Liking" says "pleasant" but doesn't say "pleasant HOW + WHY"
 
 
-LÝ DO 3 — PFC BLINDNESS KHÔNG THỂ HIỆN QUA WANTING/LIKING:
+REASON 3 — PFC BLINDNESS CANNOT BE REPRESENTED THROUGH WANTING/LIKING:
 
   Valence-Propagation.md v3.0 — PFC Blindness:
-    → PFC chỉ thấy OUTPUT ("muốn cái đó" / "thích cái đó")
-    → PFC KHÔNG thấy MECHANISM (chain nào? precondition nào?)
-    → PFC CONFABULATE lý do ("vì tôi thích" / "vì tôi muốn")
+    → PFC only sees OUTPUT ("want that thing" / "like that thing")
+    → PFC DOES NOT see MECHANISM (which chain? which precondition?)
+    → PFC CONFABULATES reasons ("because I like it" / "because I want it")
 
-  Dùng wanting/liking = THEO PFC PERSPECTIVE
-  = Mô tả WHAT PFC SEES, không phải WHAT BODY DOES
-  = Framework CẦN body-perspective → cần tham số chi tiết hơn
+  Using wanting/liking = ADOPTING PFC PERSPECTIVE
+  = Describes WHAT PFC SEES, not WHAT BODY DOES
+  = Framework NEEDS body-perspective → needs more detailed parameters
 
 
-LÝ DO 4 — "LIKING" THIẾU EVALUATIVE/DIRECT-STATE DIMENSION:
+REASON 4 — "LIKING" LACKS THE EVALUATIVE/DIRECT-STATE DIMENSION:
 
   Berridge "liking" = opioid hedonic response (Evaluative Reward)
-  NHƯNG: "thích" trong đời thực CÒN có Direct-State Reward:
-    → Touch comfort, runner's high, warmth = KHÔNG qua opioid hedonic hotspot
+  BUT: real-life "liking" ALSO includes Direct-State Reward:
+    → Touch comfort, runner's high, warmth = NOT through opioid hedonic hotspot
     → Hardware-based, always available, burnout-proof
 
-  Dùng "liking" gom chung = KHÔNG PHÂN BIỆT:
-    → Evaluative "thích" (food, music, insight) vs Direct-State "thích" (touch, warmth)
-    → Compound "thích" (social touch = Evaluative + Direct-State blend)
-    → = Mất thông tin VỀ LOẠI reward + CƠ CHẾ can thiệp
-  (Chi tiết: §3.5 + Reward-Signal-Architecture.md v2.0)
+  Using "liking" to group everything = CANNOT DISTINGUISH:
+    → Evaluative "liking" (food, music, insight) vs Direct-State "liking" (touch, warmth)
+    → Compound "liking" (social touch = Evaluative + Direct-State blend)
+    → = Loses information ABOUT REWARD TYPE + INTERVENTION MECHANISM
+  (Details: §3.5 + Reward-Signal-Architecture.md v2.0)
 
 
-LÝ DO 5 — FRAMEWORK ĐÃ CÓ THAM SỐ ĐẦY ĐỦ:
+REASON 5 — FRAMEWORK ALREADY HAS MORE COMPLETE PARAMETERS:
 
-  Thay vì wanting/liking, framework dùng:
+  Instead of wanting/liking, framework uses:
 
   ┌─────────────────────────────────────────────────────────────┐
-  │ THAY CHO "WANTING":                                         │
-  │                                                              │
+  │ REPLACES "WANTING":                                         │
+  │                                                             │
   │   → Imagine-Final (preview state + 3-layer + clarity level) │
   │   → prediction-delta detection (habituation-based)          │
   │   → Compiled schema state (auto-drive vs PFC-driven)        │
@@ -980,33 +985,33 @@ LÝ DO 5 — FRAMEWORK ĐÃ CÓ THAM SỐ ĐẦY ĐỦ:
   │   → Valence chain (which chains fire, where they lead)      │
   │   → Threat state (self-generated? external? none?)          │
   │   → Entity-Compiled momentum (per-entity auto-drive)        │
-  │                                                              │
-  │   = MỖI THAM SỐ ĐỘC LẬP, ĐO ĐƯỢC, CAN THIỆP ĐƯỢC        │
+  │                                                             │
+  │   = EACH PARAMETER IS INDEPENDENT, MEASURABLE, TARGETABLE  │
   ├─────────────────────────────────────────────────────────────┤
-  │ THAY CHO "LIKING":                                          │
-  │                                                              │
-  │   → 5 Body-Feedback-Preconditions (which met, which failed)           │
+  │ REPLACES "LIKING":                                          │
+  │                                                             │
+  │   → 5 Body-Feedback-Preconditions (which met, which failed) │
   │   → Body signals (Satisfaction / Reward / Dissonance)       │
   │   → Chain path (direct vs chain-mediated, length)           │
   │   → Chunk tag (opioid vs threat, compile context)           │
-  │   → Opioid vs relief (reward vs cortisol drop)             │
+  │   → Opioid vs relief (reward vs cortisol drop)              │
   │   → Evaluative vs Direct-State (reward TYPE + pathway)      │
   │   → E₀→E₃ gradient (evaluation complexity depth)           │
-  │                                                              │
-  │   = MỖI LAYER FALSIFIABLE, PREDICT ĐƯỢC, KHÁC BIỆT ĐƯỢC   │
+  │                                                             │
+  │   = EACH LAYER IS FALSIFIABLE, PREDICTABLE, DISTINGUISHABLE │
   └─────────────────────────────────────────────────────────────┘
 
-  → Framework KHÔNG CẦN wanting/liking — đã có tham số chi tiết hơn
-  → Dùng wanting/liking = đi lùi về resolution thấp hơn
-  → = Nhìn ảnh 4K rồi quay lại 480p — thấy CÙNG THỨ nhưng mất detail
+  → Framework DOES NOT NEED wanting/liking — already has more detailed parameters
+  → Using wanting/liking = stepping backward to lower resolution
+  → = Looking at a 4K image then going back to 480p — see THE SAME THING but lose detail
 
 
-⭐ TỔNG KẾT:
+⭐ SUMMARY:
 
-  Wanting/liking = ĐÚNG ở level tách "seeking ≠ pleasure"
-  Wanting/liking = THIẾU ở level phân tích mechanism + can thiệp + reward type
-  Framework = KHÔNG BÁC BỎ — chỉ ZOOM IN sâu hơn
-  File này = BRIDGE giúp reader zoom từ Berridge → framework
+  Wanting/liking = CORRECT at the level of separating "seeking ≠ pleasure"
+  Wanting/liking = INSUFFICIENT at the level of mechanism analysis + intervention + reward type
+  Framework = DOES NOT REFUTE — only ZOOMS IN deeper
+  This file = BRIDGE helping reader zoom from Berridge → framework
 ```
 
 ### §5.1 — × New Concepts (28-session Drill Propagation)
@@ -1014,18 +1019,18 @@ LÝ DO 5 — FRAMEWORK ĐÃ CÓ THAM SỐ ĐẦY ĐỦ:
 ```
 BOND-ARCHITECTURE × WANTING (Bond-Architecture.md v2.0):
 
-  6 wanting mechanisms (§2) MAP vào 4 bond types:
+  6 wanting mechanisms (§2) MAP onto 4 bond types:
 
   ┌────────────────────────┬────────────────────────────────────┐
   │ WANTING MECHANISM      │ BOND TYPE INTERACTION              │
   ├────────────────────────┼────────────────────────────────────┤
-  │ ① Imagine-Final Preview│ All bonds — PFC simulate per-bond │
-  │ ② VTA Dopamine Alert   │ All bonds — delta detection       │
-  │ ③ Compiled Momentum    │ Proximity + Shared-Experience     │
+  │ ① Imagine-Final Preview│ All bonds — PFC simulate per-bond  │
+  │ ② VTA Dopamine Alert   │ All bonds — delta detection        │
+  │ ③ Compiled Momentum    │ Proximity + Shared-Experience      │
   │                        │ (auto-drive from compiled routine) │
-  │ ④ Anchor-Schema Binding│ Identity bond (strongest anchor)  │
-  │ ⑤ Valence Chain        │ Reciprocal bond (chain exchange)  │
-  │ ⑥ Self-Generated Threat│ Identity + Proximity (loss fear)  │
+  │ ④ Anchor-Schema Binding│ Identity bond (strongest anchor)   │
+  │ ⑤ Valence Chain        │ Reciprocal bond (chain exchange)   │
+  │ ⑥ Self-Generated Threat│ Identity + Proximity (loss fear)   │
   └────────────────────────┴────────────────────────────────────┘
 
   → Bond type SHAPES which wanting mechanisms DOMINATE:
@@ -1035,26 +1040,26 @@ BOND-ARCHITECTURE × WANTING (Bond-Architecture.md v2.0):
 
 SATIATION TYPES × LIKING (Gap-Body-Need.md v1.0):
 
-  Liking (§3) = opioid CÓ ĐIỀU KIỆN → satiation matters:
-    ENGINE satiation: opioid system mệt → liking GIẢM dù stimulus SAME
-      VD: ăn cùng món yêu thích → lần 1 ngon, lần 100 bình thường
-    ROAD satiation: cùng path fill → bored → cần path MỚI
-      VD: được khen cùng cách → habituate → cần khen KHÁC
-    VEHICLE satiation: entity cụ thể bão hòa → cần entity KHÁC
-      VD: nghe bài nhạc yêu thích × 50 → chuyển bài
+  Liking (§3) = CONDITIONAL opioid → satiation matters:
+    ENGINE satiation: opioid system fatigues → liking DECREASES even with SAME stimulus
+      E.g.: eat the same favorite dish → first time delicious, 100th time ordinary
+    ROAD satiation: same fill path → bored → needs a NEW path
+      E.g.: praised the same way → habituates → needs DIFFERENT praise
+    VEHICLE satiation: specific entity saturates → needs a DIFFERENT entity
+      E.g.: listen to favorite song × 50 → switch to another song
   → Precondition-4 Match-Range (§3.2) = satiation boundary:
-    Dưới satiation → liking fire. Trên satiation → "quen rồi" → no fire.
+    Below satiation → liking fires. Above satiation → "already familiar" → no fire.
 
 HARDWARE-SUBSIDY × WANTING (Entity-Valence-Dynamics.md v1.0 §5):
 
-  → Hardware-subsidy AMPLIFY wanting SELECTIVELY:
-    Mức 5 entity (con): wanting ③ compiled momentum + ⑥ loss fear = MAXIMUM
-      → Body cung cấp oxytocin/opioid baseline → wanting "miễn phí"
-    Mức 1 entity (stranger): wanting = chỉ ① imagine + ② VTA → must EARN
-    → = TẠI SAO wanting toward family ≠ wanting toward stranger
-      (CÙNG mechanism, KHÁC hardware-subsidy)
+  → Hardware-subsidy AMPLIFIES wanting SELECTIVELY:
+    Level 5 entity (child): wanting ③ compiled momentum + ⑥ loss fear = MAXIMUM
+      → Body provides oxytocin/opioid baseline → wanting is "free"
+    Level 1 entity (stranger): wanting = only ① imagine + ② VTA → must EARN
+    → = WHY wanting toward family ≠ wanting toward stranger
+      (SAME mechanism, DIFFERENT hardware-subsidy)
 
-🟡 Bond-Architecture × wanting = framework application (6 mech × 4 bonds)
+🟡 Bond-Architecture × wanting = framework application (6 mechanisms × 4 bonds)
 🟡 Satiation × liking = framework convergence (Precondition-4 Match-Range ↔ satiation)
 🟡 Hardware-Subsidy × wanting = framework application (selective amplification)
 ```
@@ -1063,27 +1068,27 @@ HARDWARE-SUBSIDY × WANTING (Entity-Valence-Dynamics.md v1.0 §5):
 
 ## §6 — HONEST ASSESSMENT
 
-### §6.1 — Điều chắc chắn 🟢
+### §6.1 — What is certain 🟢
 
 ```
   → Dopamine ≠ reward (Berridge 1998, decisive, 7 lines of evidence)
   → Wanting ≠ liking (Berridge-Robinson, 3 decades replicated)
   → Opioid system = hedonic response (morphine, Peciña 2005)
-  → Addiction = wanting pathological + liking giảm (Robinson-Berridge 2003)
+  → Addiction = wanting pathological + liking decreases (Robinson-Berridge 2003)
   → Habituation = established neuroscience mechanism
   → CT afferents = gentle touch pathway (🟢 Löken 2009)
   → Endocannabinoid = exercise reward pathway (🟢 Fuss 2015 PNAS)
   → Naltrexone blocks opioid hedonic response (🟢 Blass & Ciaramitaro 1994)
 ```
 
-### §6.2 — Điều framework claim (testable nhưng chưa test đầy đủ) 🟡
+### §6.2 — What framework claims (testable but not yet fully tested) 🟡
 
 ```
-  → 5 Body-Feedback-Preconditions: logic consistent, each testable, chưa test đồng thời
-  → Habituation vs Prediction Error: cùng observables, chưa decisive test
-  → 6 wanting mechanisms: phân biệt từ framework analysis, chưa isolated experimentally
-  → Chain-mediated liking: Eureka + altruism = opioid qua chain → logic consistent,
-    direct measurement chưa có cho abstract chains
+  → 5 Body-Feedback-Preconditions: logic consistent, each testable, not tested simultaneously
+  → Habituation vs Prediction Error: same observables, no decisive test yet
+  → 6 wanting mechanisms: distinguished from framework analysis, not yet isolated experimentally
+  → Chain-mediated liking: Eureka + altruism = opioid through chain → logic consistent,
+    direct measurement not yet available for abstract chains
   → Chunk tag direction (cortisol compile gate): framework-specific, evidence indirect
   → Goldilocks zone: inverted-U supported (Berlyne 🟢), no precise % range
   → Evaluative/Direct-State distinction: components individually well-supported (🟢),
@@ -1092,76 +1097,76 @@ HARDWARE-SUBSIDY × WANTING (Entity-Valence-Dynamics.md v1.0 §5):
   → Entity-Compiled momentum as wanting source: framework-specific, indirect evidence
 ```
 
-### §6.3 — Vị trí bridge file này
+### §6.3 — Position of this bridge file
 
 ```
-  FILE NÀY:
-    → KHÔNG claim discovery mới
-    → KHÔNG rebut Berridge (framework ĐỒNG Ý)
-    → MAPPING existing framework concepts sang mainstream terminology
-    → + CHỈ RA tại sao framework goes beyond
-    → = Giá trị = BRIDGE, không phải contribution khoa học mới
+  THIS FILE:
+    → DOES NOT claim a new discovery
+    → DOES NOT refute Berridge (framework AGREES)
+    → MAPS existing framework concepts onto mainstream terminology
+    → + SHOWS WHY framework goes beyond
+    → = Value = BRIDGE, not new scientific contribution
 
-  NẾU BERRIDGE ĐỌC FILE NÀY:
-    → Likely agree: wanting/liking = simplified description
+  IF BERRIDGE READS THIS FILE:
+    → Likely agrees: wanting/liking = simplified description
     → Likely interested: Body-Feedback-Preconditions = testable answer to his open question
-    → Likely ask: "Where's the data for 5 preconditions ALL met → opioid?"
+    → Likely asks: "Where's the data for all 5 preconditions met → opioid?"
     → Framework answer: "Testable hypothesis. We haven't run the experiment."
 
-  → Framework HONEST: extend Berridge, KHÔNG claim hơn Berridge
-  → Framework value: MECHANISM testable, NOT just description
+  → Framework is HONEST: extends Berridge, does NOT claim superiority to Berridge
+  → Framework value: MECHANISM is testable, NOT just descriptive
 ```
 
 ---
 
 ## §7 — CROSS-REFERENCES + READING GUIDE
 
-### §7.1 — Reading Guide cho reader
+### §7.1 — Reading Guide for the Reader
 
 ```
-NẾU BẠN MUỐN HIỂU:
+IF YOU WANT TO UNDERSTAND:
 
-  "Dopamine thực sự là gì?"
-    → Dopamine-Is-Not-Reward.md v1.0 (7 bằng chứng + 7-step + framework position)
+  "What is dopamine really?"
+    → Dopamine-Is-Not-Reward.md v1.0 (7 lines of evidence + 7-step + framework position)
 
-  "Reward hoạt động thế nào? 5 Body-Feedback-Preconditions?"
+  "How does reward work? 5 Body-Feedback-Preconditions?"
     → 03-Reward.md (Body-Feedback/) (7-step detailed + Body-Feedback-Precondition + 7 reward cases)
 
-  "Reward có mấy LOẠI? Evaluative vs Direct-State?"
-    → Reward-Signal-Architecture.md v2.0 (Body-Feedback/) (2 loại + E₀→E₃ + 5 Profiles)
+  "How many TYPES of reward are there? Evaluative vs Direct-State?"
+    → Reward-Signal-Architecture.md v2.0 (Body-Feedback/) (2 types + E₀→E₃ + 5 Profiles)
 
-  "Imagine-Final là gì? Hardware prediction vs constructive?"
-    → Imagine-Final.md v3.0 (PFC/Imagination/) (constructive simulation + lifecycle + 3 chiều)
+  "What is Imagine-Final? Hardware prediction vs constructive?"
+    → Imagine-Final.md v3.0 (PFC/Imagination/) (constructive simulation + lifecycle + 3 dimensions)
 
-  "Brain simulate bằng gì? 1 engine cho tất cả?"
+  "What does the brain simulate with? 1 engine for everything?"
     → Simulation-Engine.md v1.0 (PFC/) (3 components + 3 axes + N applications)
 
   "Anchor-Schema? Trust binding?"
-    → Anchor-Schema.md v1.0 (Schema/) (vô thức sync + 4 nguồn + cost)
+    → Anchor-Schema.md v1.0 (Schema/) (unconscious sync + 4 fill sources + cost)
 
   "Valence chain propagation? PFC blindness?"
     → Valence-Propagation.md v3.0 (Body-Base/) (per-entity + chain + 3 Firing Modes)
 
-  "Drive tổng thể — nhiều drives → action?"
-    → Drive.md v1.2 (Observation/) (integration hub, vô thức engine + PFC navigator)
+  "Overall drive — many drives → action?"
+    → Drive.md v1.2 (Observation/) (integration hub, unconscious engine + PFC navigator)
 
   "VTA detection mechanism?"
     → Novelty.md v1.2 (Observation/) (VTA seismograph + habituation + DRD4)
 
-  "Feeling — PFC thấy gì khi observe body?"
+  "Feeling — what does PFC see when observing body?"
     → Feeling.md v3.0 (Body-Base/Feeling/) (7-layer fidelity + PFC observation interface)
 
   "Body feedback — 3 body signals?"
     → Body-Feedback/ folder (01-Foundation + 02-Dissonance + 03-Reward)
 
-  "Entity compile vào body thế nào?"
+  "How does entity compile into the body?"
     → Entity-Compiled.md v1.0 (Agent-Mechanism/) (Hub-and-Spoke + formation + grief)
 ```
 
 ### §7.2 — Cross-References
 
 ```
-DEPENDENCY FILES (file NÀY phụ thuộc):
+DEPENDENCY FILES (this file depends on):
 
   Clarification/:
   [Dopamine-Is-Not-Reward.md v1.0](../Clarification/Dopamine-Is-Not-Reward.md) — 7-step + 7 evidence
@@ -1170,15 +1175,15 @@ DEPENDENCY FILES (file NÀY phụ thuộc):
   [03-Reward.md](../Body-Base/Body-Feedback/03-Reward.md) — 5 Body-Feedback-Preconditions + reward cases
   [Reward-Signal-Architecture.md v2.0](../Body-Base/Body-Feedback/Reward-Signal-Architecture.md) — Evaluative/Direct-State + E₀→E₃ + 5 Profiles
   [Valence-Propagation.md v3.0](../Body-Base/Valence-Propagation.md) — chain propagation + 3 Firing Modes
-  [Anchor-Schema.md v1.0](../Body-Base/Schema/Anchor-Schema.md) — Trust binding + 4 nguồn fill
+  [Anchor-Schema.md v1.0](../Body-Base/Schema/Anchor-Schema.md) — Trust binding + 4 fill sources
   [Feeling.md v3.0](../Body-Base/Feeling/Feeling.md) — PFC observation + 7-layer fidelity
 
   PFC/:
   [Imagine-Final.md v3.0](../PFC/Imagination/Imagine-Final.md) — constructive simulation + 3-Layer + lifecycle
   [Simulation-Engine.md v1.0](../PFC/Simulation-Engine.md) — 1 engine, 3 components, N applications
 
-  Observation/ (cùng folder):
-  [Drive.md v1.2](Drive.md) — vô thức ENGINE + PFC NAVIGATOR + integration
+  Observation/ (same folder):
+  [Drive.md v1.2](Drive.md) — unconscious ENGINE + PFC NAVIGATOR + integration
   [Novelty.md v1.2](Novelty.md) — VTA seismograph + habituation
   [Threat.md v1.2](Threat.md) — 3 threat types + self-generated threat
 
@@ -1203,4 +1208,4 @@ RESEARCH CITATIONS (primary):
 
 ---
 
-**Kết luận**: Wanting/liking (Berridge-Robinson) = bước tiến QUAN TRỌNG so với "dopamine = reward". Framework ĐỒNG Ý và EXTENDS: wanting = ít nhất 6 mechanisms khác nhau, liking = Evaluative Reward (opioid, CÓ ĐIỀU KIỆN) + Direct-State Reward (non-opioid, hardware, always available). File này là BRIDGE — giúp reader chuyển từ binary wanting/liking sang kiến trúc framework chi tiết hơn. Framework KHÔNG dùng wanting/liking vì binary collapse quá nhiều information cần cho phân tích + can thiệp + reward type.
+**Conclusion**: Wanting/liking (Berridge-Robinson) = an IMPORTANT advance over "dopamine = reward". Framework AGREES and EXTENDS: wanting = at least 6 different mechanisms, liking = Evaluative Reward (opioid, CONDITIONAL) + Direct-State Reward (non-opioid, hardware, always available). This file is a BRIDGE — helping the reader transition from binary wanting/liking to the more detailed framework architecture. Framework does NOT use wanting/liking because binary collapses too much information needed for analysis + intervention + reward type identification.

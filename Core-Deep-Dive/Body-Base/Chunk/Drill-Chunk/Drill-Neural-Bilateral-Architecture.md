@@ -4,144 +4,144 @@ version: 1.0
 created: 2026-06-04
 status: v1.0 COMPLETE
 scope: |
-  Phiên thảo luận phân tích Gazzaniga split-brain research (1978/2000/2005)
-  đối chiếu framework. Kết quả: 0 claims sai, nhiều claims được tăng cường.
-  Insight mới: "Unity = emergent from harmony" + PFC ACCESS = biến số duy nhất.
-  Output formal: Neural-Architecture.md v1.2 §7 Bilateral Architecture.
-source: Drill session 2026-06-04 (Gazzaniga analysis)
+  Discussion session analyzing Gazzaniga split-brain research (1978/2000/2005)
+  cross-referenced against the framework. Result: 0 claims wrong, many claims strengthened.
+  New insight: "Unity = emergent from harmony" + PFC ACCESS = the only variable.
+  Formal output: Neural-Architecture.md v1.2 §7 Bilateral Architecture.
+source: Discussion session 2026-06-04 (Gazzaniga analysis)
 output: Neural-Architecture.md v1.2 (§7 added)
-language: Tiếng Việt primary + English technical terms
+language: English primary + technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # Drill — Neural Bilateral Architecture × Split-Brain × Framework Validation
 
-> **Câu hỏi khởi đầu:** Gazzaniga split-brain cho thấy 2 bán cầu tách rời
-> mà PFC vẫn suy luận được — framework có sai không?
+> **Opening question:** Gazzaniga split-brain research shows 2 hemispheres separated
+> yet PFC still reasons — does that break the framework?
 >
-> **Kết luận:** Framework KHÔNG sai. PFC KHÔNG suy luận "xuyên" 2 bán cầu.
-> PFC chỉ confabulate từ data có sẵn. Split-brain = evidence mạnh nhất cho framework.
+> **Conclusion:** The framework is NOT wrong. PFC does NOT reason "across" the two hemispheres.
+> PFC only confabulates from available data. Split-brain research = strongest evidence FOR the framework.
 
 ---
 
-## §1 — GAZZANIGA MECHANISM: PHÂN TÍCH TỪNG BƯỚC
+## §1 — GAZZANIGA MECHANISM: STEP-BY-STEP ANALYSIS
 
 ```
-THÍ NGHIỆM KINH ĐIỂN:
+THE CLASSIC EXPERIMENT:
 
-  Bước 1 — Input tách (split-field presentation):
-    → Mắt phải → bán cầu trái: CHÂN GÀ
-    → Mắt trái → bán cầu phải: CẢNH TUYẾT
-    → Corpus callosum đã cắt → 2 bên KHÔNG chia sẻ data
+  Step 1 — Split input (split-field presentation):
+    → Right eye → left hemisphere: CHICKEN CLAW
+    → Left eye → right hemisphere: SNOW SCENE
+    → Corpus callosum severed → both sides DO NOT share data
 
-  Bước 2 — Hành vi output:
-    → Tay phải (left hemisphere) chỉ CON GÀ (match chân gà)
-    → Tay trái (right hemisphere) chỉ XẺNG TUYẾT (match cảnh tuyết)
+  Step 2 — Behavioral output:
+    → Right hand (left hemisphere) points to CHICKEN (matches chicken claw)
+    → Left hand (right hemisphere) points to SNOW SHOVEL (matches snow scene)
 
-  Bước 3 — Observation qua body-input:
-    → Bệnh nhân nhìn bình thường (không còn split-field)
-    → Left hemisphere THẤY: con gà + cái xẻng + 2 tay đang chỉ
-    → Left hemisphere CÓ: data chân gà (từ bước 1) + observation tay chỉ xẻng
-    → Left hemisphere KHÔNG CÓ: data cảnh tuyết (locked ở right hemisphere)
+  Step 3 — Observation via body-input:
+    → Patient now sees normally (no longer split-field)
+    → Left hemisphere SEES: chicken + shovel + both hands pointing
+    → Left hemisphere HAS: chicken claw data (from step 1) + observation of hand pointing at shovel
+    → Left hemisphere DOES NOT HAVE: snow scene data (locked in right hemisphere)
 
-  Bước 4 — Confabulation:
-    → Body ownership: "tay trái = TAY TÔI → lựa chọn CỦA TÔI"
-    → Interpreter presuppose: "tôi chọn → tôi có lý do"
-    → PFC draft narrative từ data có sẵn: {gà + xẻng + "cả 2 của tôi"}
-    → Output: "Cần xẻng để dọn chuồng gà"
-    → Confidence: CỰC CAO. Sai: HOÀN TOÀN.
+  Step 4 — Confabulation:
+    → Body ownership: "left hand = MY hand → MY choice"
+    → Interpreter presupposes: "I chose → I have a reason"
+    → PFC drafts narrative from available data: {chicken + shovel + "both mine"}
+    → Output: "Need the shovel to clean out the chicken coop"
+    → Confidence: EXTREMELY HIGH. Accuracy: COMPLETELY WRONG.
 
 KEY INSIGHT:
-  → PFC KHÔNG "đọc xuyên" sang bán cầu kia
-  → PFC nhặt DATA CÓ SẴN + QUAN SÁT HÀNH VI chính mình
-  → Rồi BẮT BUỘC tạo narrative coherent
-  → Body ownership = presupposition khiến Interpreter PHẢI chạy
-  → Interpreter KHÔNG BAO GIỜ nói "tôi không biết"
+  → PFC does NOT "read across" to the other hemisphere
+  → PFC picks up AVAILABLE DATA + OBSERVES ITS OWN BEHAVIOR
+  → Then COMPULSORILY generates a coherent narrative
+  → Body ownership = presupposition that forces the Interpreter to run
+  → The Interpreter NEVER says "I don't know"
 
 🟢 Gazzaniga 1978, 2000, 2005
 ```
 
 ---
 
-## §2 — CẤU TRÚC BILATERAL: CÁI BỊ CẮT vs CÁI KHÔNG
+## §2 — BILATERAL STRUCTURE: WHAT IS SEVERED vs WHAT IS NOT
 
 ```
-BỊ CẮT (cortical level):
-  → Corpus callosum: ~200 triệu axon → CẮT HẾT
-  → PFC trái ↔ PFC phải: MẤT kết nối
-  → Visual, motor, somatosensory, auditory cortex: mất kết nối ngang
-  → = 2 hệ xử lý cortical RIÊNG BIỆT
+SEVERED (cortical level):
+  → Corpus callosum: ~200 million axons → FULLY SEVERED
+  → Left PFC ↔ Right PFC: CONNECTION LOST
+  → Visual, motor, somatosensory, auditory cortex: lateral connections severed
+  → = 2 SEPARATE cortical processing systems
 
-KHÔNG BỊ CẮT (subcortical + peripheral):
-  → Brainstem (VTA, LC, Raphe, PAG): MIDLINE → vẫn nguyên
-  → Hypothalamus: MIDLINE → hormone, arousal chung
-  → Thalamus: phần lớn subcortical → relay vẫn hoạt động
-  → ANS, ENS, spinal: peripheral → không bị ảnh hưởng
-  → = Arousal, motivation, emotional tone = CHUNG
+NOT SEVERED (subcortical + peripheral):
+  → Brainstem (VTA, LC, Raphe, PAG): MIDLINE → intact
+  → Hypothalamus: MIDLINE → shared hormones, shared arousal
+  → Thalamus: mostly subcortical → relay still functioning
+  → ANS, ENS, spinal: peripheral → unaffected
+  → = Arousal, motivation, emotional tone = SHARED
 
-HỆ QUẢ:
-  → 2 cortical systems riêng biệt + 1 subcortical system chung
-  → Bệnh nhân hàng ngày gần như bình thường vì:
+CONSEQUENCES:
+  → 2 separate cortical systems + 1 shared subcortical system
+  → Patients function near-normally in daily life because:
     a) Subcortical unity (shared emotional tone)
-    b) Cross-cueing (đồng bộ gián tiếp qua body-input)
+    b) Cross-cueing (indirect synchronization via body-input)
     c) Pre-surgery memories shared
-    d) Interpreter maintain unity narrative
+    d) Interpreter maintains unity narrative
 
 🟢 Sperry 1981 (Nobel), anatomy established
 ```
 
 ---
 
-## §3 — LATERALIZATION: FUNCTION-SPECIFIC, KHÔNG PHẢI LOẠI NGƯỜI
+## §3 — LATERALIZATION: FUNCTION-SPECIFIC, NOT PERSON-TYPE
 
 ```
-ĐÚNG (research-established):
-  → Một số CHỨC NĂNG lateralized (language left, spatial right)
-  → Lateralization = per-FUNCTION, không per-PERSON
-  → "Dominant" ≠ "exclusive" — cả 2 bên contribute khác nhau cho cùng task
-  → Corpus callosum tích hợp 2 contributions → output giàu hơn 1 bên riêng lẻ
+CORRECT (research-established):
+  → Some FUNCTIONS are lateralized (language left, spatial right)
+  → Lateralization = per-FUNCTION, not per-PERSON
+  → "Dominant" ≠ "exclusive" — both sides contribute differently to the same task
+  → Corpus callosum integrates 2 contributions → richer output than either side alone
 
-SAI (pop science):
-  → "Left-brain person vs right-brain person" = KHÔNG có evidence
-  → Nielsen et al. 2013 (n=1,011): không tìm thấy whole-brain dominance
+WRONG (pop science):
+  → "Left-brain person vs right-brain person" = NO evidence
+  → Nielsen et al. 2013 (n=1,011): no whole-brain dominance found
 
 FRAMEWORK IMPLICATION:
-  → 2 bán cầu = 2 PROCESSING STYLES (sequential vs holistic)
-  → Không phải 2 WORKERS phân công rõ ràng
-  → Corpus callosum = integration layer cho 2 lens hợp nhất
+  → 2 hemispheres = 2 PROCESSING STYLES (sequential vs holistic)
+  → NOT 2 WORKERS with clearly divided tasks
+  → Corpus callosum = integration layer merging 2 lenses
 
 🟢 Broca 1861, Kimura 1961, Nielsen et al. 2013 PLOS ONE
 ```
 
 ---
 
-## §4 — "THỐNG NHẤT" = EMERGENT, KHÔNG PHẢI STRUCTURAL
+## §4 — "UNITY" = EMERGENT, NOT STRUCTURAL
 
 ```
-INSIGHT CỐT LÕI CỦA PHIÊN THẢO LUẬN:
+CORE INSIGHT FROM THIS DRILL SESSION:
 
-  Não = NHIỀU hệ thống độc lập chạy song song:
-    → Vùng khác nhau (visual, auditory, motor, amygdala, insula, ...)
-    → Bán cầu khác nhau (left ≠ right)
-    → Chunks cục bộ (local connections riêng từng vùng)
-    → Schemas cross-modal (có thể conflict ở level tổng thể)
+  The brain = MANY independent systems running in parallel:
+    → Different regions (visual, auditory, motor, amygdala, insula, ...)
+    → Different hemispheres (left ≠ right)
+    → Local chunks (connections specific to each region)
+    → Cross-modal schemas (may conflict at the integration level)
 
-  "Tôi là 1 người thống nhất":
-    → KHÔNG PHẢI structural fact
-    → MÀ LÀ emergent state khi systems HÀI HÒA
-    → Hài hòa → no dissonance → PFC idle → "tôi ổn"
+  "I am one unified person":
+    → NOT a structural fact
+    → BUT an emergent state when systems are IN HARMONY
+    → Harmony → no dissonance → PFC idle → "I'm fine"
     → Conflict → dissonance → PFC pulled in → narrative
 
-  Ví dụ thường ngày (không ai để ý):
-    → Nói chuyện: compiled grammar fire tự động, body-base muốn giao tiếp,
-      by-product resonance ổn → smooth → "vẫn là tôi, chả nghĩ gì"
-    → KHÔNG AI suy nghĩ "tại sao tôi nói đúng ngữ pháp"
-    → Miễn body-base smooth → mọi thứ tự chạy → PFC idle
+  Everyday example (nobody notices):
+    → Talking: compiled grammar fires automatically, body-base wants to communicate,
+      resonance smooth as a by-product → "still me, not thinking about it"
+    → NOBODY thinks "why am I speaking grammatically"
+    → As long as body-base is smooth → everything runs automatically → PFC idle
 
-  Split-brain PHƠI BÀY:
-    → Cắt integration → lộ ra systems vốn đã independent
-    → Interpreter VẪN maintain "tôi là 1" dù não bị cắt đôi
-    → = "Unity" = narrative construct, không phải report of fact
+  Split-brain EXPOSES:
+    → Severing integration → reveals systems that were already independent
+    → The Interpreter STILL maintains "I am one" even after the brain is split in two
+    → = "Unity" = narrative construct, not a report of fact
 
 🟡 Framework synthesis — consistent with Tononi 2004 IIT, Baars 1988 GWT
 🟢 Split-brain evidence = direct test
@@ -149,86 +149,84 @@ INSIGHT CỐT LÕI CỦA PHIÊN THẢO LUẬN:
 
 ---
 
-## §5 — PFC ACCESS = BIẾN SỐ DUY NHẤT
+## §5 — PFC ACCESS = THE ONLY VARIABLE
 
 ```
-⭐ KEY DISCOVERY CỦA PHIÊN THẢO LUẬN:
+⭐ KEY DISCOVERY OF THIS DRILL SESSION:
 
-  Split-brain "tay trái nó nghịch" VÀ người thường "sao tôi cứ..."
-  = CÙNG 1 CƠ CHẾ. Khác biệt DUY NHẤT: PFC có ACCESS không?
+  Split-brain "the left hand acts on its own" AND ordinary people's "why do I keep..."
+  = SAME MECHANISM. The ONLY difference: does PFC have ACCESS?
 
-  PATTERN CHUNG:
-    ① Một hệ thống TẠO hành vi / signal
-    ② PFC KHÔNG CÓ (hoặc không đủ) access tới lý do thật
-    ③ PFC KHÔNG BAO GIỜ nói "tôi không biết"
-    ④ PFC TẠO narrative coherent từ data có sẵn
-    ⑤ Người BELIEVE narrative = "lý do của tôi"
+  SHARED PATTERN:
+    ① One system GENERATES behavior / signal
+    ② PFC DOES NOT HAVE (or has insufficient) access to the real reason
+    ③ PFC NEVER says "I don't know"
+    ④ PFC CREATES coherent narrative from available data
+    ⑤ Person BELIEVES narrative = "my reason"
 
-  SPECTRUM THEO PFC ACCESS:
+  SPECTRUM BY PFC ACCESS:
 
-  ┌──────────────┬───────────┬─────────────┬────────────────────────┐
-  │ Case         │ PFC biết? │ Suppress?   │ Lý do thất bại        │
-  ├──────────────┼───────────┼─────────────┼────────────────────────┤
-  │ Smooth       │ Không cần │ Không cần   │ Không thất bại —      │
-  │ (hút thuốc  │ (PFC idle)│             │ systems hài hòa,      │
-  │  quen tay)   │           │             │ compiled fire smooth   │
-  ├──────────────┼───────────┼─────────────┼────────────────────────┤
-  │ Habit không  │ Không     │ Không       │ PFC idle, no delta     │
-  │ để ý (ngoái │ để ý      │ (cho tới    │ → External input       │
-  │ mũi)        │           │ external)   │   needed để notice     │
-  ├──────────────┼───────────┼─────────────┼────────────────────────┤
-  │ Schema       │ Biết      │ Suppress ✓  │ PFC access cả 2 bên,  │
-  │ conflict     │ cả 2 bên  │ (khó chịu   │ suppress 1 bên được   │
-  │ (ăn vs diet) │           │  nhưng ok)  │ dù không thoải mái    │
-  ├──────────────┼───────────┼─────────────┼────────────────────────┤
-  │ Signal quá   │ Biết      │ Thua        │ Body-need > PFC budget │
-  │ mạnh (ngứa  │           │             │ Hardware ceiling       │
-  │ mũi phòng   │           │             │                        │
-  │ họp)         │           │             │                        │
-  ├──────────────┼───────────┼─────────────┼────────────────────────┤
-  │ Hijack       │ Biết sai  │ Thua        │ VTA-NAc compiled quá   │
-  │ (nghiện      │ nhưng     │             │ sâu, drive overwhelm   │
-  │ đánh bạc)    │ drive quá │             │ suppress capacity      │
-  │              │ mạnh      │             │                        │
-  ├──────────────┼───────────┼─────────────┼────────────────────────┤
-  │ Multi-channel│ Biết      │ Không biết  │ 9+ channels fire,      │
-  │ (gặp crush  │ hồi hộp   │ suppress    │ PFC chỉ hold ~4±1     │
-  │ hồi hộp)    │           │ CÁI GÌ     │ → không decompose →    │
-  │              │           │             │ không có "nút tắt"     │
-  ├──────────────┼───────────┼─────────────┼────────────────────────┤
-  │ Background-  │ Không     │ Không thể   │ Compiled quá sâu       │
-  │ Pattern      │ biết      │             │ (nhiều năm) → trigger  │
-  │ (parental    │ nguồn     │             │ surface rộng → PFC     │
-  │ coercion     │           │             │ thấy reaction nhưng    │
-  │ from child-  │           │             │ KHÔNG thấy source      │
-  │ hood: years  │           │             │ = FUNCTIONAL split-    │
-  │ of forced    │           │             │   brain                │
-  │ compliance   │           │             │                        │
-  │ → any "you   │           │             │ VD: adult, independent,│
-  │ must" phrase │           │             │ nhưng parent nói nhẹ   │
-  │ from parent  │           │             │ "con phải làm X" →    │
-  │ triggers     │           │             │ intense reaction.      │
-  │ full pattern │           │             │ Autonomy × coercion    │
-  │ instantly)   │           │             │ history = max trigger  │
-  ├──────────────┼───────────┼─────────────┼────────────────────────┤
-  │ Split-brain  │ Không     │ Không thể   │ Corpus callosum cắt    │
-  │ alien hand   │ có access │             │ = PHYSICAL split-brain │
-  │ (tay trái    │ (vật lý)  │             │ Vĩnh viễn              │
-  │ giật thuốc)  │           │             │                        │
-  └──────────────┴───────────┴─────────────┴────────────────────────┘
+  ┌──────────────────┬───────────┬─────────────┬─────────────────────────────┐
+  │ Case             │ PFC knows?│ Can suppress│ Why it fails                │
+  ├──────────────────┼───────────┼─────────────┼─────────────────────────────┤
+  │ Smooth           │ Not needed│ Not needed  │ No failure —                │
+  │ (habitual        │ (PFC idle)│             │ systems in harmony,         │
+  │ cigarette)       │           │             │ compiled fires smoothly     │
+  ├──────────────────┼───────────┼─────────────┼─────────────────────────────┤
+  │ Unnoticed habit  │ Not       │ No (until   │ PFC idle, no delta →        │
+  │ (picking nose)   │ noticed   │ external)   │ external input needed       │
+  │                  │           │             │ to notice                   │
+  ├──────────────────┼───────────┼─────────────┼─────────────────────────────┤
+  │ Schema conflict  │ Knows     │ Suppress ✓  │ PFC has access to both      │
+  │ (eating vs diet) │ both sides│ (uncomfort- │ sides, can suppress one     │
+  │                  │           │ able but ok)│ side though uncomfortably   │
+  ├──────────────────┼───────────┼─────────────┼─────────────────────────────┤
+  │ Signal too strong│ Knows     │ Fails       │ Body-need > PFC budget      │
+  │ (itchy nose in   │           │             │ Hardware ceiling            │
+  │ a meeting)       │           │             │                             │
+  ├──────────────────┼───────────┼─────────────┼─────────────────────────────┤
+  │ Hijack           │ Knows     │ Fails       │ VTA-NAc compiled too deep,  │
+  │ (gambling        │ it's wrong│             │ drive overwhelms suppress   │
+  │ addiction)       │ but drive │             │ capacity                    │
+  │                  │ too strong│             │                             │
+  ├──────────────────┼───────────┼─────────────┼─────────────────────────────┤
+  │ Multi-channel    │ Knows     │ Doesn't     │ 9+ channels fire,           │
+  │ (meeting a crush,│ it's      │ know WHAT   │ PFC holds only ~4±1 →      │
+  │ nervous)         │ nerves    │ to suppress │ cannot decompose →          │
+  │                  │           │             │ no "off switch"             │
+  ├──────────────────┼───────────┼─────────────┼─────────────────────────────┤
+  │ Background-      │ Doesn't   │ Cannot      │ Compiled too deep (years)   │
+  │ Pattern          │ know      │             │ → wide trigger surface →    │
+  │ (parental        │ source    │             │ PFC sees reaction but       │
+  │ coercion from    │           │             │ CANNOT see source           │
+  │ childhood: years │           │             │ = FUNCTIONAL split-brain    │
+  │ of forced        │           │             │                             │
+  │ compliance →     │           │             │ Example: adult, independent,│
+  │ any "you must"   │           │             │ but parent says mildly      │
+  │ phrase from      │           │             │ "you should do X" →         │
+  │ parent triggers  │           │             │ intense reaction.           │
+  │ full pattern     │           │             │ Autonomy × coercion         │
+  │ instantly)       │           │             │ history = max trigger       │
+  │                  │           │             │ surface                     │
+  ├──────────────────┼───────────┼─────────────┼─────────────────────────────┤
+  │ Split-brain      │ No access │ Cannot      │ Corpus callosum severed     │
+  │ alien hand       │ (physical)│             │ = PHYSICAL split-brain      │
+  │ (left hand grabs │           │             │ Permanent                   │
+  │ cigarette)       │           │             │                             │
+  └──────────────────┴───────────┴─────────────┴─────────────────────────────┘
 
   ⭐ Background-Pattern trigger = "FUNCTIONAL SPLIT-BRAIN":
-    → Não nguyên vẹn, corpus callosum nguyên vẹn
-    → Nhưng compiled pattern quá sâu → PFC không có chunks để observe
-    → Hiệu quả Y HỆT split-brain: có reaction, không có access
-    → VD: Parental coercion history (years of forced compliance in childhood)
+    → Brain intact, corpus callosum intact
+    → But compiled pattern too deep → PFC has no chunks to observe
+    → Effect IDENTICAL to split-brain: has reaction, has no access
+    → Example: Parental coercion history (years of forced compliance in childhood)
       → Adult, independent, high autonomy
       → Parent says mild "you should do X" → intense aversive reaction
       → Autonomy hardware (efference copy, controllability learning)
         × coercion-compiled Background-Pattern = maximum trigger surface
-      → PFC thấy "khó chịu" nhưng KHÔNG thấy source (pattern invisible)
-    → Interpreter confabulate: "I just hate being controlled"
-      (có thể đúng, có thể sai — PFC không phân biệt được)
+      → PFC sees "discomfort" but CANNOT see source (pattern invisible)
+    → Interpreter confabulates: "I just hate being controlled"
+      (may be true, may be false — PFC cannot distinguish)
 
 🟡 Framework synthesis
 🟢 Split-brain research + PFC-Operations + Background-Pattern = converge
@@ -236,37 +234,37 @@ INSIGHT CỐT LÕI CỦA PHIÊN THẢO LUẬN:
 
 ---
 
-## §6 — FRAMEWORK AUDIT: KẾT QUẢ ĐỐI CHIẾU
+## §6 — FRAMEWORK AUDIT: VALIDATION RESULTS
 
 ```
-RÀ SOÁT 9 CLAIMS CỐT LÕI vs SPLIT-BRAIN EVIDENCE:
+AUDITING 9 CORE CLAIMS vs SPLIT-BRAIN EVIDENCE:
 
-  ✅ ĐÚNG + TĂNG CƯỜNG:
-    → PFC = Lawyer               (evidence GỐC — Interpreter)
-    → Body first, PFC after      (action trước, narrative sau)
-    → Chunks no source tag       (Left PFC không biết source từ right)
+  ✅ CORRECT + STRENGTHENED:
+    → PFC = Lawyer               (original evidence — the Interpreter)
+    → Body first, PFC after      (action first, narrative after)
+    → Chunks no source tag       (Left PFC does not know the source from the right)
     → Compiled processing ~95%   (daily function preserved)
     → 1 Compile Engine = Hebbian (synaptic mechanism, hemisphere-agnostic)
 
-  ✅ ĐÚNG, KHÔNG BỊ THÁCH THỨC:
-    → Feeling = PFC observation   (mỗi PFC observe phần nó access được)
-    → Training 1 = training all   (đúng cho intact brain)
+  ✅ CORRECT, NOT CHALLENGED:
+    → Feeling = PFC observation  (each PFC observes the part it has access to)
+    → Training 1 = training all  (valid for intact brain)
 
-  ⚠️ ĐÚNG, GAP NHỎ (đã fix):
-    → "1 Simulation-Engine"      → clarify: 1 mechanism type, bilateral substrate
-    → Drive conflict             → note: hemisphere conflict = loại thêm (cực hiếm)
+  ⚠️ CORRECT, MINOR GAP (already fixed):
+    → "1 Simulation-Engine"     → clarify: 1 mechanism type, bilateral substrate
+    → Drive conflict            → note: hemisphere conflict = additional type (extremely rare)
 
-  ❌ SAI HOÀN TOÀN:
-    → KHÔNG CÓ
+  ❌ COMPLETELY WRONG:
+    → NONE
 
-  PATTERN PHÁT HIỆN:
-    → Framework HOÀN TOÀN hemisphere-agnostic (7/7 core files không đề cập)
-    → Đây là DELIBERATE ABSTRACTION — mechanisms đúng regardless of hemisphere
-    → §7 Neural-Architecture.md v1.2 đã bổ sung bilateral dimension
+  PATTERN DISCOVERED:
+    → Framework is FULLY hemisphere-agnostic (7/7 core files never mention it)
+    → This is DELIBERATE ABSTRACTION — mechanisms correct regardless of hemisphere
+    → §7 Neural-Architecture.md v1.2 added the bilateral dimension
 
-OUTPUT FORMAL:
+FORMAL OUTPUT:
   → Neural-Architecture.md v1.1 → v1.2
-  → +§7 Bilateral Architecture (~190 dòng, 5 sub-sections)
+  → +§7 Bilateral Architecture (~190 lines, 5 sub-sections)
   → Updated: YAML, TOC, Honest Assessment, Cross-References, Footer, File Index
 ```
 
@@ -275,7 +273,7 @@ OUTPUT FORMAL:
 ## §7 — CROSS-REFERENCES
 
 ```
-FILES ĐÃ ĐỌC TRONG DRILL:
+FILES READ DURING DRILL:
   Neural-Architecture.md v1.1 → v1.2 (output)
   PFC-Function.md v1.2 — §6 confabulation (Gazzaniga reference)
   Feeling.md v3.0 — §3.4 PFC = Lawyer
@@ -286,12 +284,12 @@ FILES ĐÃ ĐỌC TRONG DRILL:
   Compile-Taxonomy.md v3.0 — "1 engine = Hebbian" checked
   01-File-Index.md — updated
 
-FILES LIÊN QUAN (không đọc trong drill nhưng confirmed consistent):
+RELATED FILES (not read during drill but confirmed consistent):
   PFC-Operations.md v1.0 — Hold/Suppress, Compiled Quality, PFC Budget
   Background-Pattern.md v2.0 — invisible to PFC
   PFC-Configuration.md v1.1 — 6 Configuration Modes
   Self-Pattern-Modeling.md v3.1 — APPLICATION-1 on Simulation-Engine
-  Entity-Access-Excess.md v1.0 — cùng neural circuits VTA/NAc
+  Entity-Access-Excess.md v1.0 — same neural circuits VTA/NAc
 
 KEY RESEARCH CITED:
   Gazzaniga 1978, 2000, 2005 — Split-brain Interpreter theory
@@ -311,10 +309,10 @@ KEY RESEARCH CITED:
 
 > **Drill-Neural-Bilateral-Architecture.md v1.0**
 >
-> Phiên drill: Gazzaniga split-brain × framework validation.
-> Kết quả: 0 claims sai. PFC = Lawyer, body first, no source tag = TĂNG CƯỜNG.
-> Insight mới: "Unity = emergent from harmony" + PFC ACCESS = biến số duy nhất.
-> "Functional split-brain" = Background-Pattern quá sâu, PFC mất access dù não nguyên vẹn.
+> Drill session: Gazzaniga split-brain × framework validation.
+> Result: 0 claims wrong. PFC = Lawyer, body first, no source tag = STRENGTHENED.
+> New insight: "Unity = emergent from harmony" + PFC ACCESS = the only variable.
+> "Functional split-brain" = Background-Pattern compiled too deep, PFC loses access even with intact brain.
 > Output: Neural-Architecture.md v1.2 §7.
 >
-> Phiên bản: v1.0, 2026-06-04.
+> Version: v1.0, 2026-06-04.

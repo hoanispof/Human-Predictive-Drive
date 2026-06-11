@@ -1,145 +1,156 @@
 ---
-title: Programming Language Architecture — Cấu trúc ngôn ngữ lập trình
+title: Programming Language Architecture
 created: 2026-04-16 (N+5 exploration session)
-status: REFERENCE — tài liệu tham khảo, đọc nghiền ngẫm
-scope: Programming languages như communication format — bạn BIẾT code, file này "mổ xẻ" CẤU TRÚC HỆ THỐNG
-purpose: Nhìn programming language từ góc ĐỘ LANGUAGE ARCHITECTURE — so sánh với natural language, math, music, visual
+status: REFERENCE — reference document, read for deep understanding
+scope: Programming languages as communication formats — you already KNOW code, this file "dissects" THE SYSTEM ARCHITECTURE
+purpose: View programming language from a LANGUAGE ARCHITECTURE perspective — compare with natural language, math, music, visual
 parent: ../../plan.md (F3 Chunk-External-Development)
-language: Tiếng Việt primary + English technical + code examples
-note: Viết cho người ĐÃ BIẾT code (game dev) — KHÔNG dạy syntax, focus vào KIẾN TRÚC
+language: English primary + code examples
+note: Written for people WHO ALREADY CODE (game devs) — NOT teaching syntax, focused on ARCHITECTURE
 ---
 
-# Programming Language Architecture — Cấu trúc ngôn ngữ lập trình
+# Programming Language Architecture
 
-> **Mục đích**: Bạn code hàng ngày. File này KHÔNG dạy code — mà "mổ xẻ" programming language như 1 HỆ THỐNG NGÔN NGỮ. Khi bạn viết `if (x > 0) return x;` — bạn đang dùng 1 communication format có cấu trúc riêng. File này phân tích CẤU TRÚC ĐÓ và so sánh với natural language, math, music, visual.
+> **Purpose**: You code every day. This file does NOT teach code — it "dissects" programming language as a LANGUAGE SYSTEM. When you write `if (x > 0) return x;` — you are using a communication format with its own architecture. This file analyzes THAT ARCHITECTURE and compares it with natural language, math, music, and visual.
 >
-> **Unique property**: Programming language = **EXECUTABLE communication format** — format DUY NHẤT mà machine có thể THỰC THI, không chỉ "hiểu".
+> **Unique property**: Programming language = **EXECUTABLE communication format** — the ONLY format that machines can EXECUTE, not merely "understand".
 
 ---
 
-## MỤC LỤC
+## TABLE OF CONTENTS
 
-- §1 — "Từ vựng" code: Các thành phần cơ bản
-- §2 — "Ngữ pháp" code: Syntax rules
-- §3 — Paradigms: Nhiều "phương ngữ" tư duy
-- §4 — Type systems: Phân loại data
+- §1 — Code "Vocabulary": Basic Components
+  - §1.1 Keywords = "Function Words"
+  - §1.2 Identifiers = "Nouns + Verbs"
+  - §1.3 Operators = "Verbs"
+  - §1.4 Literals = "Concrete Nouns"
+- §2 — Code "Grammar": Syntax Rules
+  - §2.1 Control Flow = "Sentence Structure"
+  - §2.2 Scope & Blocks = "Paragraphs" and "Chapters"
+  - §2.3 Syntax Strictness = "0 Tolerance for Grammar Errors"
+- §3 — Paradigms: Multiple "Dialects" of Thinking
+  - §3.1 Imperative = "Do this, then that"
+  - §3.2 Declarative = "I want THIS, you handle the how"
+  - §3.3 Functional = "Everything is a function, no side effects"
+  - §3.4 Object-Oriented = "Everything is an object with state + behavior"
+  - §3.5 Paradigm Comparison
+- §4 — Type Systems: Classifying Data
 - §5 — Hierarchy: Token → Expression → Statement → Function → Module → System
-- §6 — So sánh: Code vs Natural Language vs Math vs Music vs Visual
-- §7 — Điểm ĐỘC ĐÁO: Executable + Precise + Composable
-- §8 — Lịch sử phát triển
-- §9 — Framework lens + Câu hỏi mở
+- §6 — Comparison: Code vs Natural Language vs Math vs Music vs Visual
+- §7 — Unique Properties: Executable + Precise + Composable
+- §8 — History of Development
+- §9 — Framework Lens + Open Questions
 
 ---
 
-## §1 — "Từ vựng" code: Các thành phần cơ bản
+## §1 — Code "Vocabulary": Basic Components
 
-### §1.1 — Keywords = "Từ chức năng" (function words)
+### §1.1 — Keywords = "Function Words"
 
 ```
-Mỗi language có bộ KEYWORDS cố định — không thể dùng làm tên biến:
+Every language has a fixed set of KEYWORDS — cannot be used as variable names:
 
-C#/Java:        if, else, for, while, return, class, new, void, int, string,
-                public, private, static, try, catch, switch, case, break,...
+C#/Java:      if, else, for, while, return, class, new, void, int, string,
+              public, private, static, try, catch, switch, case, break,...
 
-Python:         if, else, for, while, return, def, class, import, from,
-                try, except, with, as, yield, lambda, pass, None,...
+Python:       if, else, for, while, return, def, class, import, from,
+              try, except, with, as, yield, lambda, pass, None,...
 
-JavaScript:     if, else, for, while, return, function, const, let, var,
-                class, new, this, async, await, typeof, instanceof,...
+JavaScript:   if, else, for, while, return, function, const, let, var,
+              class, new, this, async, await, typeof, instanceof,...
 
-Rust:           if, else, for, while, return, fn, struct, impl, enum,
-                match, let, mut, pub, use, mod, trait, async, await,...
+Rust:         if, else, for, while, return, fn, struct, impl, enum,
+              match, let, mut, pub, use, mod, trait, async, await,...
 
-SỐ LƯỢNG KEYWORDS:
-  C:          32 keywords
-  Python:     35 keywords
-  Java:       50 keywords
-  C#:         79 keywords
-  C++:        95 keywords
-  Rust:       39 keywords
+NUMBER OF KEYWORDS:
+  C:         32 keywords
+  Python:    35 keywords
+  Java:      50 keywords
+  C#:        79 keywords
+  C++:       95 keywords
+  Rust:      39 keywords
 
-SO SÁNH:
-  Vietnamese: ~5,000-10,000 từ thường dùng
-  Math:       ~150 ký hiệu
-  Music:      12 nốt + ~30 ký hiệu
+COMPARISON:
+  Vietnamese: ~5,000-10,000 commonly used words
+  Math:       ~150 symbols
+  Music:      12 notes + ~30 symbols
   Code:       30-100 keywords + UNLIMITED user-defined names
-              → Keywords ÍT nhưng user names KHÔNG GIỚI HẠN
+              → Keywords are FEW but user names are UNLIMITED
 
-⭐ CODE = KEYWORDS (cố định, ít) + USER NAMES (tự đặt, vô hạn)
-  → Giống: grammar (cố định) + vocabulary (mở rộng)
-  → Keywords = closed class (giới từ, liên từ)
-  → User names = open class (danh từ, động từ)
+⭐ CODE = KEYWORDS (fixed, few) + USER NAMES (self-defined, unlimited)
+  → Like: grammar (fixed) + vocabulary (expandable)
+  → Keywords = closed class (prepositions, conjunctions)
+  → User names = open class (nouns, verbs)
 ```
 
-### §1.2 — Identifiers = "Danh từ + Động từ" (user-defined names)
+### §1.2 — Identifiers = "Nouns + Verbs" (User-Defined Names)
 
 ```
-IDENTIFIERS = tên do programmer đặt
+IDENTIFIERS = names chosen by the programmer
 
-  Variables (biến):     playerHealth, enemyCount, isAlive, deltaTime
-  Functions (hàm):      CalculateDamage(), SpawnEnemy(), SaveGame()
-  Classes (lớp):        Player, Enemy, GameManager, UIController
-  Constants:            MAX_HEALTH, GRAVITY, PI
+  Variables: playerHealth, enemyCount, isAlive, deltaTime
+  Functions: CalculateDamage(), SpawnEnemy(), SaveGame()
+  Classes:   Player, Enemy, GameManager, UIController
+  Constants: MAX_HEALTH, GRAVITY, PI
 
-NAMING CONVENTIONS (quy ước đặt tên) = "register" trong natural language:
-
+NAMING CONVENTIONS = "register" in natural language:
   camelCase:       playerHealth        → C#, Java, JavaScript (variables)
   PascalCase:      PlayerController    → C#, Java (classes, methods)
   snake_case:      player_health       → Python, Rust, C (variables)
-  SCREAMING_SNAKE: MAX_HEALTH          → hầu hết languages (constants)
+  SCREAMING_SNAKE: MAX_HEALTH          → most languages (constants)
   kebab-case:      player-health       → CSS, HTML attributes, Lisp
 
-→ Naming convention = SOCIAL CONTRACT giữa programmers
-→ Giống: "anh/em" trong Vietnamese = social convention
-→ Phá convention → code chạy ĐÚNG nhưng đọc KHÓ CHỊU (sao sao ấy!)
+→ Naming convention = SOCIAL CONTRACT between programmers
+→ Like: social pronouns in Vietnamese = social convention
+→ Break convention → code RUNS correctly but FEELS WRONG to read (mismatch signal!)
 
-⭐ GOOD NAMING = cực kỳ quan trọng:
-  ❌ int a = b * c;                        (a, b, c = ?)
-  ✅ int damage = baseDamage * multiplier;  (rõ ràng!)
+⭐ GOOD NAMING = critically important:
+  ❌ int a = b * c;                        (what are a, b, c?)
+  ✅ int damage = baseDamage * multiplier;  (clear!)
 
-  → Code CHẠY giống nhau. Nhưng COMMUNICATION khác hoàn toàn.
-  → "Code is read more than written" = code là COMMUNICATION FORMAT
+  → Code RUNS the same. But COMMUNICATION is completely different.
+  → "Code is read more than written" = code IS a COMMUNICATION FORMAT
   → Good naming = good verbal labels (retrieval path + compression)
 ```
 
-### §1.3 — Operators = "Động từ" (actions on data)
+### §1.3 — Operators = "Verbs" (Actions on Data)
 
 ```
-ARITHMETIC (giống math):
-  +  -  *  /  %  **         cộng, trừ, nhân, chia, modulo, power
+ARITHMETIC (like math):
+  +  -  *  /  %  **         addition, subtraction, multiplication, division, modulo, power
 
-COMPARISON (giống math relations):
-  ==  !=  <  >  <=  >=      bằng, không bằng, nhỏ hơn, lớn hơn,...
+COMPARISON (like math relations):
+  ==  !=  <  >  <=  >=      equal, not equal, less than, greater than...
 
-LOGICAL (giống math logic):
+LOGICAL (like math logic):
   &&  ||  !                  AND, OR, NOT
   (Python: and, or, not)
 
-ASSIGNMENT (KHÔNG CÓ trong math!):
-  =   +=  -=  *=  /=        gán, cộng-gán, trừ-gán,...
+ASSIGNMENT (NOT in math!):
+  =   +=  -=  *=  /=        assign, add-assign, subtract-assign...
 
-  ⭐ DẤU "=" TRONG CODE vs MATH:
-  Math:  x = 5         → "x BẰNG 5" (sự thật, không thay đổi)
-  Code:  x = 5         → "GÁN 5 vào x" (hành động, thay đổi state)
-  Code:  x = x + 1     → "lấy x cũ, cộng 1, gán lại vào x" 
-                          → Math: x = x + 1 → VÔ NGHĨA (không x nào bằng x+1)
-  → Đây là KHÁC BIỆT CĂN BẢN giữa math (declarative) và code (imperative)
+  ⭐ THE "=" SIGN IN CODE vs MATH:
+  Math:  x = 5      → "x EQUALS 5" (a truth, doesn't change)
+  Code:  x = 5      → "ASSIGN 5 to x" (an action, changes state)
+  Code:  x = x + 1  → "take old x, add 1, assign back to x"
+                       → Math: x = x + 1 → MEANINGLESS (no x equals x+1)
+  → This is the FUNDAMENTAL DIFFERENCE between math (declarative) and code (imperative)
 
-BITWISE (chỉ code có):
+BITWISE (code-only):
   &  |  ^  ~  <<  >>        AND, OR, XOR, NOT, left-shift, right-shift
-  → Thao tác trực tiếp trên BITS (0 và 1)
-  → Game dev dùng: bitmask flags, hash functions, color manipulation
+  → Operate directly on BITS (0s and 1s)
+  → Game dev uses: bitmask flags, hash functions, color manipulation
 
 MEMBER ACCESS:
   .   (dot)                  player.health, gameObject.transform.position
   ->  (arrow, C/C++)         ptr->value
   ::  (scope, C++/Rust)      std::cout, Vec::new()
-  
-  → Đây là thứ CHỈ CODE CÓ: truy cập vào CẤU TRÚC DỮ LIỆU lồng nhau
-  → "player.inventory.items[0].name" = 4 lớp sâu, 1 dòng code
+
+  → This is CODE-ONLY: accessing nested DATA STRUCTURES
+  → "player.inventory.items[0].name" = 4 levels deep, 1 line of code
 ```
 
-### §1.4 — Literals = "Danh từ cụ thể" (concrete values)
+### §1.4 — Literals = "Concrete Nouns" (Concrete Values)
 
 ```
 NUMBER LITERALS:
@@ -147,7 +158,7 @@ NUMBER LITERALS:
   3.14        float/double
   0xFF        hexadecimal (255) — game dev: color codes
   0b1010      binary (10)
-  1_000_000   with separator (1 triệu, dễ đọc)
+  1_000_000   with separator (1 million, easier to read)
 
 STRING LITERALS:
   "Hello World"          regular string
@@ -158,297 +169,295 @@ STRING LITERALS:
   string"""              multi-line (Python)
 
 BOOLEAN LITERALS:
-  true / false           (hoặc True/False trong Python)
+  true / false           (or True/False in Python)
 
 SPECIAL LITERALS:
-  null / None / nil      "không có gì" (khác 0, khác "", khác false!)
-  undefined              "chưa gán" (JavaScript)
+  null / None / nil      "nothing" (different from 0, "", false!)
+  undefined              "not yet assigned" (JavaScript)
   []                     empty array/list
   {}                     empty object/dict
 
-→ Code có NHIỀU LOẠI "nothing" hơn natural language:
-  Vietnamese: "không có gì" = 1 concept
+→ Code has MORE TYPES of "nothing" than natural language:
+  Natural language:  "nothing" = 1 concept
   Code: null ≠ undefined ≠ 0 ≠ "" ≠ false ≠ [] ≠ {}
-  → Mỗi "nothing" KHÁC NHAU! → nguồn bug kinh điển
+  → Each "nothing" is DIFFERENT! → classic source of bugs
 ```
 
 ---
 
-## §2 — "Ngữ pháp" code: Syntax rules
+## §2 — Code "Grammar": Syntax Rules
 
-### §2.1 — Control flow = "Cấu trúc câu"
-
-```
-CONDITIONAL (rẽ nhánh):
-  if (condition) {          Nếu (điều kiện) {
-    doA();                    làm A;
-  } else {                  } không thì {
-    doB();                    làm B;
-  }                         }
-
-  switch (value) {          Chuyển (giá trị) {
-    case 1: doA(); break;     trường hợp 1: làm A; dừng;
-    case 2: doB(); break;     trường hợp 2: làm B; dừng;
-    default: doC();           mặc định: làm C;
-  }                         }
-
-  → Giống natural language: "Nếu... thì... không thì..."
-  → NHƯNG: code CHÍNH XÁC — condition = true/false, KHÔNG mơ hồ
-
-LOOP (lặp):
-  for (int i = 0; i < 10; i++) {    Với i từ 0 đến 9 {
-    doSomething(i);                   làm gì đó(i);
-  }                                 }
-
-  while (isAlive) {                 Trong khi (còn sống) {
-    update();                         cập nhật;
-  }                                 }
-
-  foreach (var item in list) {      Với mỗi item trong list {
-    process(item);                    xử lý(item);
-  }                                 }
-
-  → Natural language: "lặp lại 10 lần" = mơ hồ (chính xác 10? khoảng 10?)
-  → Code: "for i = 0; i < 10" = CHÍNH XÁC 10 lần, i = 0,1,2,...,9
-
-EXCEPTION HANDLING (xử lý lỗi):
-  try {                             Thử {
-    riskyOperation();                 thao tác rủi ro;
-  } catch (Exception e) {          } bắt lỗi (Exception e) {
-    handleError(e);                   xử lý lỗi(e);
-  } finally {                      } cuối cùng {
-    cleanup();                        dọn dẹp;
-  }                                 }
-
-  → Natural language KHÔNG CÓ equivalent trực tiếp
-  → "Thử cái này, nếu lỗi thì làm cái kia" = gần nhưng KHÔNG chính xác bằng
-```
-
-### §2.2 — Scope & Blocks = "Paragraphs" and "chapters"
+### §2.1 — Control Flow = "Sentence Structure"
 
 ```
-BLOCK (khối) = { } — group statements
-
-  → { } trong code = paragraph trong text
-  → Mọi thứ TRONG { } = thuộc về nhau (scope)
-  → Biến khai báo trong { } chỉ sống trong { } đó
-
-SCOPE (phạm vi):
-  {                         // outer scope
-    int x = 10;             // x sống ở đây
-    {                       // inner scope
-      int y = 20;           // y sống ở đây
-      x + y = 30;           // CẢ x VÀ y đều accessible
-    }
-    // y ĐÃ CHẾT. x vẫn sống.
-    // x + y → ERROR! y không tồn tại nữa
+CONDITIONAL (branching):
+  if (condition) {
+    doA();
+  } else {
+    doB();
   }
 
-  → Scope = "context" — giống: ý nghĩa từ thay đổi theo context
-    Natural: "bank" = bờ sông HAY ngân hàng? → context quyết định
-    Code: biến "x" = CÁI NÀO? → scope quyết định (inner wins)
-  → Code scope = CHÍNH XÁC (rules rõ ràng)
-  → Natural context = MƠ HỒ (phải đoán)
+  switch (value) {
+    case 1: doA(); break;
+    case 2: doB(); break;
+    default: doC();
+  }
+
+  → Like natural language: "If... then... otherwise..."
+  → BUT: code is PRECISE — condition = true/false, ZERO ambiguity
+
+LOOP:
+  for (int i = 0; i < 10; i++) {
+    doSomething(i);
+  }
+
+  while (isAlive) {
+    update();
+  }
+
+  foreach (var item in list) {
+    process(item);
+  }
+
+  → Natural language: "repeat 10 times" = vague (exactly 10? roughly 10?)
+  → Code: "for i = 0; i < 10" = EXACTLY 10 times, i = 0,1,2,...,9
+
+EXCEPTION HANDLING:
+  try {
+    riskyOperation();
+  } catch (Exception e) {
+    handleError(e);
+  } finally {
+    cleanup();
+  }
+
+  → Natural language has NO direct equivalent
+  → "Try this, if error do the other" = close but NOT as precise
 ```
 
-### §2.3 — Syntax strictness = "0 tolerance for grammar errors"
+### §2.2 — Scope & Blocks = "Paragraphs" and "Chapters"
+
+```
+BLOCK = { } — group statements
+  → { } in code = paragraph in text
+  → Everything INSIDE { } belongs together (scope)
+  → Variables declared inside { } only live inside that { }
+
+SCOPE:
+  {                         // outer scope
+    int x = 10;             // x lives here
+    {                       // inner scope
+      int y = 20;           // y lives here
+      x + y = 30;           // BOTH x AND y are accessible
+    }
+    // y IS DEAD. x still lives.
+    // x + y → ERROR! y no longer exists
+  }
+
+  → Scope = "context" — like: word meaning changes with context
+    Natural: "bank" = riverbank OR financial institution? → context decides
+    Code: which "x"? → scope decides (inner wins)
+  → Code scope = PRECISE (rules are explicit)
+  → Natural context = AMBIGUOUS (must infer)
+```
+
+### §2.3 — Syntax Strictness = "0 Tolerance for Grammar Errors"
 
 ```
 NATURAL LANGUAGE — TOLERANT:
-  "Toi an com" (thiếu dấu) → vẫn hiểu
-  "I eated rice" (sai grammar) → vẫn hiểu
-  "Rice I eat" (đảo trật tự) → vẫn hiểu
-  → Human brain REPAIR errors automatically
+  "Toi an com" (missing diacritics)     → still understood
+  "I eated rice" (wrong grammar)        → still understood
+  "Rice I eat" (inverted word order)    → still understood
+  → Human brain REPAIRS errors automatically
 
 CODE — ZERO TOLERANCE:
-  pritn("hello")        → ERROR (typo: pritn thay vì print)
-  if (x > 0             → ERROR (thiếu dấu ")")
-  int x = "hello"       → ERROR (type mismatch)
-  x = x +               → ERROR (thiếu operand)
+  pritn("hello")       → ERROR (typo: pritn instead of print)
+  if (x > 0            → ERROR (missing ")")
+  int x = "hello"      → ERROR (type mismatch)
+  x = x +              → ERROR (missing operand)
 
-  → 1 ký tự sai = KHÔNG CHẠY ĐƯỢC
-  → Compiler/interpreter = parser CỰC STRICT
-  → Đây là lý do code KHÓ hơn natural language:
-    Natural language: 80% đúng = hiểu được
-    Code: 99.99% đúng + 0.01% sai = KHÔNG chạy
+  → 1 wrong character = WILL NOT RUN
+  → Compiler/interpreter = EXTREMELY STRICT parser
+  → This is why code is HARDER than natural language:
+    Natural language: 80% correct = understandable
+    Code: 99.99% correct + 0.01% wrong = WON'T run
 
-⭐ NHƯNG: Modern tools giúp:
+⭐ BUT: Modern tools help:
   → IDE: autocomplete, syntax highlight, error underline
-  → Compiler: error messages chỉ chỗ sai
+  → Compiler: error messages point to the mistake
   → AI: suggest fix
-  → Đây là "prosthetic L2" — tool hỗ trợ encoding layer
+  → These are "prosthetic L2" — tools supporting the encoding layer
 ```
 
 ---
 
-## §3 — Paradigms: Nhiều "phương ngữ" tư duy
+## §3 — Paradigms: Multiple "Dialects" of Thinking
 
-Programming languages không chỉ khác syntax — chúng khác CÁCH NGHĨ (paradigm):
+Programming languages differ not just in syntax — they differ in WAYS OF THINKING (paradigm):
 
-### §3.1 — Imperative (Mệnh lệnh) = "Làm cái này, rồi cái kia"
+### §3.1 — Imperative = "Do this, then that"
 
 ```
-// C-style: TỪ TỪNG BƯỚC, NHƯ RECIPE
+// C-style: STEP BY STEP, LIKE A RECIPE
 int sum = 0;
 for (int i = 0; i < 10; i++) {
     sum += i;
 }
-// → "Bắt đầu từ 0. Lặp 10 lần. Mỗi lần cộng i vào sum."
-// → Giống: recipe nấu ăn — step by step
+// → "Start at 0. Loop 10 times. Each time add i to sum."
+// → Like: a cooking recipe — step by step
 
-→ GIỐNG natural language: "Đầu tiên... rồi... sau đó... cuối cùng..."
-→ Dễ hiểu vì match cách con người NGHĨ về hành động tuần tự
-→ Languages: C, Java, C#, Python, JavaScript (đa số)
+→ LIKE natural language: "First... then... after that... finally..."
+→ Easy to understand because it matches how humans THINK about sequential actions
+→ Languages: C, Java, C#, Python, JavaScript (majority)
 ```
 
-### §3.2 — Declarative (Khai báo) = "Tôi muốn CÁI NÀY, bạn lo cách làm"
+### §3.2 — Declarative = "I want THIS, you handle the how"
 
 ```
-// SQL: NÓI CẦN GÌ, KHÔNG NÓI LÀM THẾ NÀO
+// SQL: DECLARE WHAT YOU NEED, NOT HOW TO DO IT
 SELECT name FROM users WHERE age > 18 ORDER BY name;
-// → "Lấy tên từ bảng users, điều kiện tuổi > 18, sắp theo tên"
-// → KHÔNG nói: loop thế nào, compare thế nào, sort thế nào
+// → "Get names from users table, where age > 18, ordered by name"
+// → Does NOT say: how to loop, how to compare, how to sort
 
-// HTML/CSS: MÔ TẢ, KHÔNG COMMAND
+// HTML/CSS: DESCRIBE, DON'T COMMAND
 <h1 style="color: red">Hello</h1>
-// → "Heading 1, màu đỏ, nội dung Hello"
-// → KHÔNG nói: vẽ pixel thế nào, font render thế nào
+// → "Heading 1, red color, content Hello"
+// → Does NOT say: how to draw pixels, how to render fonts
 
-→ GIỐNG math: "x² + 2x + 1 = 0" (mô tả relationship, không nói cách giải)
+→ LIKE math: "x² + 2x + 1 = 0" (describes a relationship, doesn't say how to solve)
 → Languages: SQL, HTML, CSS, Regex, Prolog
-→ Game dev dùng: SQL cho database, CSS cho UI, shader language (partially)
+→ Game dev uses: SQL for database, CSS for UI, shader language (partially)
 ```
 
-### §3.3 — Functional (Hàm) = "Mọi thứ là function, no side effects"
+### §3.3 — Functional = "Everything is a function, no side effects"
 
 ```
 // Haskell / functional style:
 sum = foldl (+) 0 [0..9]
 // → "sum = fold left (+) starting-from-0 over list [0..9]"
-// → Mô tả TRANSFORMATION, không mô tả STEPS
+// → Describes TRANSFORMATION, not STEPS
 
 // JavaScript functional:
 const sum = [0,1,2,3,4,5,6,7,8,9].reduce((a, b) => a + b, 0);
-// → "sum = reduce list bằng cách cộng từng cặp, bắt đầu từ 0"
+// → "sum = reduce the list by adding pairs together, starting from 0"
 
 KEY PROPERTIES:
-  - Immutability: data KHÔNG THAY ĐỔI (tạo mới thay vì sửa)
-  - Pure functions: cùng input → luôn cùng output (no side effects)
-  - First-class functions: function = data (truyền qua, return, gán biến)
+  - Immutability: data does NOT CHANGE (create new instead of modify)
+  - Pure functions: same input → always same output (no side effects)
+  - First-class functions: function = data (pass around, return, assign to variables)
 
-→ GIỐNG math HƠN: f(x) = x² → cùng x luôn ra cùng kết quả
+→ MORE LIKE math: f(x) = x² → same x always gives same result
 → Languages: Haskell, Erlang, Clojure, F#, (partly: JS, Python, Rust)
-→ Game dev gặp: React (UI), Redux (state), shader math
+→ Game dev encounters: React (UI), Redux (state), shader math
 ```
 
-### §3.4 — Object-Oriented (Hướng đối tượng) = "Mọi thứ là object có state + behavior"
+### §3.4 — Object-Oriented = "Everything is an object with state + behavior"
 
 ```
 // C# / Unity style:
 class Enemy {
     public int health = 100;
     public float speed = 5f;
-    
+
     public void TakeDamage(int amount) {
         health -= amount;
         if (health <= 0) Die();
     }
-    
+
     public void Die() {
         // ...
     }
 }
 
-// Sử dụng:
+// Usage:
 Enemy goblin = new Enemy();
 goblin.TakeDamage(30);  // goblin.health = 70
 
 KEY PROPERTIES:
-  - Encapsulation: data + behavior GÓI CHUNG (class)
-  - Inheritance: class con KẾ THỪA class cha
-  - Polymorphism: cùng method name, KHÁC behavior per class
-  - Abstraction: ẩn chi tiết, lộ interface
+  - Encapsulation: data + behavior BUNDLED TOGETHER (class)
+  - Inheritance: child class INHERITS from parent class
+  - Polymorphism: same method name, DIFFERENT behavior per class
+  - Abstraction: hide details, expose interface
 
-→ GIỐNG natural language metaphor: "con goblin BỊ ĐÁNH, MẤT 30 máu, NẾU hết máu THÌ CHẾT"
-→ OOP map TRỰC TIẾP vào cách con người nghĩ về "things with properties and actions"
+→ LIKE natural language metaphor: "the goblin TAKES A HIT, LOSES 30 HP, IF HP hits zero IT DIES"
+→ OOP maps DIRECTLY to how humans think about "things with properties and actions"
 → Languages: Java, C#, C++, Python, JavaScript
 → Game dev: Unity (C#), Unreal (C++), Godot (GDScript) = OOP heavy
 ```
 
-### §3.5 — So sánh paradigms
+### §3.5 — Paradigm Comparison
 
 ```
-CÙNG 1 BÀI TOÁN: "Tính tổng 0+1+2+...+9"
+SAME PROBLEM: "Calculate the sum 0+1+2+...+9"
 
 Imperative:
   int sum = 0;
   for (int i = 0; i < 10; i++) sum += i;
-  → "Bắt đầu 0, lặp 10 lần, cộng dần"
+  → "Start at 0, loop 10 times, accumulate"
 
 Declarative (SQL-like):
   SELECT SUM(value) FROM generate_series(0, 9);
-  → "Lấy tổng của dãy 0 đến 9"
+  → "Get the sum of the sequence 0 to 9"
 
 Functional:
   foldl (+) 0 [0..9]
-  → "Fold list [0..9] bằng phép cộng, bắt đầu 0"
+  → "Fold list [0..9] using addition, starting at 0"
 
 Mathematical:
   Σᵢ₌₀⁹ i = 45
-  → "Tổng i từ 0 đến 9"
 
 Natural language:
-  "Cộng tất cả số từ 0 đến 9 lại"
+  "Add all numbers from 0 to 9"
 
-→ 5 CÁCH KHÁC NHAU diễn đạt CÙNG 1 ý
-→ Mỗi cách = 1 PARADIGM (cách nghĩ)
+→ 5 DIFFERENT WAYS to express the SAME idea
+→ Each way = 1 PARADIGM (a way of thinking)
 → Imperative = recipe. Declarative = wish. Functional = transform. Math = define. NL = describe.
 ```
 
 ---
 
-## §4 — Type systems: Phân loại data
+## §4 — Type Systems: Classifying Data
 
 ```
-TYPE SYSTEM = cách code PHÂN LOẠI dữ liệu — giống CLASSIFIER trong Vietnamese!
+TYPE SYSTEM = how code CLASSIFIES data — like CLASSIFIERS in natural language!
 
-PRIMITIVE TYPES (nguyên thủy):
-  int         = số nguyên (42, -7, 0)
-  float/double = số thực (3.14, -0.5)
-  bool        = true/false
-  char        = 1 ký tự ('a', '中', '😀')
-  string      = chuỗi ký tự ("Hello World")
+PRIMITIVE TYPES:
+  int          = integer (42, -7, 0)
+  float/double = real number (3.14, -0.5)
+  bool         = true/false
+  char         = 1 character ('a', '中', '😀')
+  string       = character string ("Hello World")
 
-COMPOSITE TYPES (phức hợp):
-  Array/List  = danh sách [1, 2, 3, 4, 5]
-  Dictionary  = từ điển {"name": "player", "hp": 100}
-  Tuple       = bộ (x, y, z) = (1.0, 2.5, 3.0)
-  Set         = tập hợp {1, 2, 3} (no duplicates)
+COMPOSITE TYPES:
+  Array/List   = ordered sequence [1, 2, 3, 4, 5]
+  Dictionary   = key-value map {"name": "player", "hp": 100}
+  Tuple        = fixed-size group (x, y, z) = (1.0, 2.5, 3.0)
+  Set          = unique set {1, 2, 3} (no duplicates)
 
 USER-DEFINED TYPES:
   class Enemy { int hp; float speed; }
   struct Vector3 { float x, y, z; }
   enum State { Idle, Walking, Attacking, Dead }
 
-⭐ SO SÁNH VỚI VIETNAMESE CLASSIFIER:
-  Vietnamese: "CON chó" → classifier "con" buộc phân loại ANIMATE
-  Code:       "Enemy goblin" → type "Enemy" buộc phân loại CÓ hp, speed
-  
-  Vietnamese: "CÁI bàn" → classifier "cái" buộc phân loại INANIMATE
-  Code:       "int count" → type "int" buộc phân loại SỐ NGUYÊN
+⭐ COMPARISON WITH CLASSIFIER IN NATURAL LANGUAGE:
+  Vietnamese: "CON dog"   → classifier "con" forces classification as ANIMATE
+  Code:       "Enemy goblin" → type "Enemy" forces classification as HAVING hp, speed
 
-  Vietnamese classifier: ~30 loại (con, cái, chiếc, tờ, quyển,...)
+  Vietnamese: "CÁI table" → classifier "cái" forces classification as INANIMATE
+  Code:       "int count"    → type "int" forces classification as INTEGER
+
+  Vietnamese classifiers: ~30 types (con, cái, chiếc, tờ, quyển...)
   Code type system: ~10 primitive + UNLIMITED user-defined
   → Code type system = CLASSIFIER SYSTEM on steroids
 
 STATIC vs DYNAMIC typing:
-  Static (C#, Java, Rust): PHẢI khai báo type TRƯỚC, compiler CHECK
-    int x = 5;          // x là int, MÃIMÃI là int
-    x = "hello";        // ❌ ERROR! int ≠ string
+  Static (C#, Java, Rust): MUST declare type FIRST, compiler CHECKS
+    int x = 5;      // x is int, ALWAYS int
+    x = "hello";    // ❌ ERROR! int ≠ string
 
-  Dynamic (Python, JS): type TỰ ĐỘNG, thay đổi được
-    x = 5               # x là int BÂY GIỜ
-    x = "hello"         # x giờ là string — OK!
+  Dynamic (Python, JS): type AUTOMATIC, can change
+    x = 5           # x is int NOW
+    x = "hello"     # x is now string — OK!
 
   → Static = strict grammar (Latin, German case system)
   → Dynamic = flexible grammar (Vietnamese, Chinese — no type marking)
@@ -459,50 +468,50 @@ STATIC vs DYNAMIC typing:
 ## §5 — Hierarchy: Token → Expression → Statement → Function → Module → System
 
 ```
-LEVEL 1 — TOKEN = "Từ"
+LEVEL 1 — TOKEN = "Word"
   42, x, +, if, "hello", ==
-  → Atom nhỏ nhất mà lexer nhận biết
+  → Smallest atom the lexer recognizes
 
-LEVEL 2 — EXPRESSION = "Cụm từ"  
+LEVEL 2 — EXPRESSION = "Phrase"
   x + 3, player.health > 0, Math.Max(a, b)
-  → Kết hợp tokens → tạo ra VALUE
+  → Combines tokens → produces a VALUE
 
-LEVEL 3 — STATEMENT = "Câu"
+LEVEL 3 — STATEMENT = "Sentence"
   int x = 42;
   if (hp <= 0) Die();
   for (int i = 0; i < n; i++) Process(i);
-  → Thực hiện ACTION (gán, rẽ nhánh, lặp)
+  → Performs an ACTION (assign, branch, loop)
 
-LEVEL 4 — FUNCTION / METHOD = "Đoạn văn"
+LEVEL 4 — FUNCTION / METHOD = "Paragraph"
   void TakeDamage(int amount) {
       health -= amount;
       if (health <= 0) Die();
       PlayHitEffect();
   }
-  → Nhóm statements có PURPOSE cụ thể
+  → Groups statements with a specific PURPOSE
 
-LEVEL 5 — CLASS / MODULE = "Chương"
+LEVEL 5 — CLASS / MODULE = "Chapter"
   class Enemy {
       // properties + methods
       // = encapsulated unit of behavior
   }
-  → Nhóm functions + data thành 1 unit có ý nghĩa
+  → Groups functions + data into 1 meaningful unit
 
-LEVEL 6 — PACKAGE / NAMESPACE = "Phần"
+LEVEL 6 — PACKAGE / NAMESPACE = "Part"
   namespace Game.Entities { ... }
-  → Nhóm classes thành domain
+  → Groups classes into a domain
 
-LEVEL 7 — PROJECT / CODEBASE = "Cuốn sách"
+LEVEL 7 — PROJECT / CODEBASE = "Book"
   Solution / Repository
-  → Toàn bộ hệ thống
+  → The entire system
 
-LEVEL 8 — ECOSYSTEM = "Thư viện"
+LEVEL 8 — ECOSYSTEM = "Library"
   npm, NuGet, pip, cargo — package managers
-  → Cộng đồng code chia sẻ
+  → Community-shared code
 
-MAPPING VÀO FRAMEWORK:
+FRAMEWORK MAPPING:
   Level 1 Token       ↔ Chunk (atom)
-  Level 2 Expression  ↔ Chunk compound
+  Level 2 Expression  ↔ Compound Chunk
   Level 3 Statement   ↔ Chunk chain
   Level 4 Function    ↔ Schema (organized, has purpose)
   Level 5 Class       ↔ Domain schema (encapsulated behavior)
@@ -510,64 +519,64 @@ MAPPING VÀO FRAMEWORK:
   Level 7 Codebase    ↔ Full domain system
   Level 8 Ecosystem   ↔ Community-shared knowledge (external-shared!)
 
-⭐ CODE có NHIỀU levels hơn mọi format khác:
+⭐ CODE has MORE levels than any other format:
   Natural language: ~5 levels (word → phrase → sentence → paragraph → text)
   Math: ~6 levels (symbol → expression → equation → proof → theorem → theory)
   Music: ~6 levels (note → motif → phrase → section → form → opus)
-  Code: 8 levels → PHỨC TẠP NHẤT trong tất cả communication formats
+  Code: 8 levels → THE MOST COMPLEX of all communication formats
 ```
 
 ---
 
-## §6 — So sánh: Code vs tất cả formats khác
+## §6 — Comparison: Code vs Natural Language vs Math vs Music vs Visual
 
-| Đặc điểm | Natural Lang | Math | Music | Visual | ⭐ Code |
+| Feature | Natural Language | Math | Music | Visual | ⭐ Code |
 |---|---|---|---|---|---|
-| **Encode chính** | Meaning | Quantity | Emotion×Time | Space | ⭐ BEHAVIOR (hành vi) |
-| **Executable** | ❌ | ❌ | ❌ (cần performer) | ❌ | ⭐ YES (machine runs it) |
-| **Precision** | Thấp | Cực cao | Cao (pitch) | Trung | ⭐ Cực cao (deterministic) |
-| **Ambiguity** | Cao | Không | Trung | Trung | ⭐ KHÔNG (0 ambiguity) |
-| **Error tolerance** | Cao | Thấp | Trung | Trung | ⭐ ZERO (1 lỗi = crash) |
+| **Primary Encoding** | Meaning | Quantity | Emotion×Time | Space | ⭐ BEHAVIOR |
+| **Executable** | ❌ | ❌ | ❌ (needs performer) | ❌ | ⭐ YES (machine runs it) |
+| **Precision** | Low | Extremely high | High (pitch) | Medium | ⭐ Extremely high (deterministic) |
+| **Ambiguity** | High | No | Medium | Medium | ⭐ NO (0 ambiguity) |
+| **Error tolerance** | High | Low | Medium | Medium | ⭐ ZERO (1 error = crash) |
 | **Hierarchy depth** | ~5 levels | ~6 levels | ~6 levels | ~5 levels | ⭐ 8 levels |
-| **Composability** | Thấp | Cao | Trung | Thấp | ⭐ CỰC CAO (function of function of...) |
-| **State** | Narrative | Immutable | Temporal | Static | ⭐ MUTABLE STATE (thay đổi theo thời gian) |
-| **Feedback loop** | ❌ | ❌ | ❌ | ❌ | ⭐ YES (code chạy → xem kết quả → sửa) |
-| **Shareability** | Cần cùng ngôn ngữ | Global | Global | Global | Global (nhưng cần cùng language) |
-| **Age** | ~100,000 năm | ~5,000 năm | ~40,000 năm | ~40,000 năm | ⭐ ~80 năm (1940s) |
-| **"Native speaker"** | Mọi trẻ em | Không | Partial | Partial | ⭐ Không (phải học formal) |
-| **Learning curve** | ~3-5 năm L1 | ~12-15 năm | ~5-10 năm | ~ngay (basic) | ~2-5 năm (productive) |
+| **Composability** | Low | High | Medium | Low | ⭐ EXTREMELY HIGH (function of function of...) |
+| **State** | Narrative | Immutable | Temporal | Static | ⭐ MUTABLE STATE (changes over time) |
+| **Feedback loop** | ❌ | ❌ | ❌ | ❌ | ⭐ YES (code runs → see result → fix) |
+| **Shareability** | Requires shared language | Global | Global | Global | Global (but requires shared language) |
+| **Age** | ~100,000 years | ~5,000 years | ~40,000 years | ~40,000 years | ⭐ ~80 years (1940s) |
+| **"Native speaker"** | All children | No | Partial | Partial | ⭐ No (must learn formally) |
+| **Learning curve** | ~3-5 years (L1) | ~12-15 years | ~5-10 years | ~immediate (basic) | ~2-5 years (productive) |
 
 ---
 
-## §7 — Điểm ĐỘC ĐÁO: Executable + Precise + Composable
+## §7 — Unique Properties: Executable + Precise + Composable
 
-### §7.1 — EXECUTABLE: Format duy nhất machine CHẠY được
+### §7.1 — EXECUTABLE: The Only Format Machines RUN
 
 ```
-Natural language: "Sắp xếp danh sách theo thứ tự tăng dần"
-  → Con người HIỂU → CON NGƯỜI thực hiện
+Natural language: "Sort the list in ascending order"
+  → Human UNDERSTANDS → HUMAN executes
 
 Math: "sort(A) = permutation σ of A such that σ(i) ≤ σ(i+1) ∀i"
-  → Con người HIỂU → CON NGƯỜI thực hiện (hoặc CHỨNG MINH)
+  → Human UNDERSTANDS → HUMAN executes (or PROVES)
 
 Code: list.sort()
-  → Machine HIỂU → MACHINE thực hiện
-  → Chạy trên HÀNG TỈ thiết bị, CÙNG kết quả, KHÔNG mệt mỏi
+  → Machine UNDERSTANDS → MACHINE executes
+  → Runs on BILLIONS of devices, SAME result, NEVER tires
 
-⭐ Đây là SUPERPOWER của code: viết 1 lần → chạy HÀNG TỈ lần
-  → Không format nào khác có property này
-  → Natural language → ai viết thì chỉ người đọc hiểu
-  → Code → ai viết thì HÀNG TỈ MACHINE hiểu VÀ THỰC HIỆN
+⭐ This is CODE's SUPERPOWER: write once → run BILLIONS of times
+  → No other format has this property
+  → Natural language → only human readers understand it
+  → Code → BILLIONS OF MACHINES understand and EXECUTE it
 ```
 
-### §7.2 — COMPOSABILITY: Function of function of function...
+### §7.2 — COMPOSABILITY: Function of Function of Function...
 
 ```
-Code có khả năng COMPOSE (lồng nhau) cực mạnh:
+Code has EXTREMELY POWERFUL COMPOSE (nesting) capability:
 
-  // Level 1: function đơn lẻ
+  // Level 1: standalone function
   float Distance(Vector3 a, Vector3 b) { ... }
-  
+
   // Level 2: compose functions
   Enemy FindNearest(Vector3 position, List<Enemy> enemies) {
     return enemies
@@ -575,69 +584,71 @@ Code có khả năng COMPOSE (lồng nhau) cực mạnh:
       .OrderBy(e => Distance(position, e.Position)) // sort by distance
       .FirstOrDefault();                            // take nearest
   }
-  
+
   // Level 3: compose higher
   void AttackNearest() {
     var target = FindNearest(transform.position, allEnemies);
     if (target != null) Attack(target);
   }
-  
+
   // Level 4: compose into system
   void Update() {
     if (Input.GetKeyDown("space")) AttackNearest();
   }
 
-→ Mỗi level COMPOSE level dưới → ABSTRACTION TOWER
-→ Giống: word → phrase → sentence → paragraph
-→ NHƯNG code có thể compose SÂU HƠN RẤT NHIỀU (8 levels vs 5)
-→ Đây là cách 1 game = HÀNG TRIỆU dòng code hoạt động:
-  mỗi level chỉ cần hiểu level ngay dưới nó
+→ Each level COMPOSES the level below → ABSTRACTION TOWER
+→ Like: word → phrase → sentence → paragraph
+→ BUT code can compose FAR DEEPER (8 levels vs 5)
+→ This is how 1 game = MILLIONS of lines of code can work:
+  each level only needs to understand the level directly below it
 ```
 
-### §7.3 — MUTABLE STATE: Thứ mà math KHÔNG CÓ
+### §7.3 — MUTABLE STATE: What Math Does NOT Have
 
 ```
-Math: x = 5 → x LUÔN là 5 (immutable, eternal truth)
-Code: x = 5 → x LÀ 5 BÂY GIỜ. Có thể đổi thành 10 SAU ĐÓ.
+Math: x = 5 → x is ALWAYS 5 (immutable, eternal truth)
+Code: x = 5 → x IS 5 RIGHT NOW. Can become 10 LATER.
 
-  int health = 100;        // health = 100 LÚC NÀY
-  health -= 30;            // health = 70 SAU CÂU NÀY
-  health -= 50;            // health = 20 SAU CÂU NÀY
-  
-  → State THAY ĐỔI theo thời gian = core property của code
-  → Math KHÔNG CÓ concept này (equations are timeless)
-  → Music CÓ thời gian nhưng KHÔNG CÓ mutable state
+  int health = 100;   // health = 100 RIGHT NOW
+  health -= 30;       // health = 70 AFTER THIS LINE
+  health -= 50;       // health = 20 AFTER THIS LINE
+
+  → State CHANGES over time = core property of code
+  → Math has NO such concept (equations are timeless)
+  → Music HAS time but does NOT HAVE mutable state
   → Code = UNIQUE: state × time × logic
 
-⭐ GAME = STATE MACHINE:
-  → Mọi game = giant mutable state (positions, health, inventory, score,...)
-  → Mỗi frame: đọc input → update state → render
-  → Code = NGÔN NGỮ DUY NHẤT mô tả được cái này chính xác
+⭐ A GAME = STATE MACHINE:
+  → Every game = giant mutable state (positions, health, inventory, score...)
+  → Each frame: read input → update state → render
+  → Code = THE ONLY LANGUAGE that describes this precisely
 ```
 
 ---
 
-## §8 — Lịch sử phát triển
+## §8 — History of Development
 
 ```
+TIMELINE — programming language is the YOUNGEST of all formats (~80 years):
+
 1843      Ada Lovelace: first algorithm (for Babbage's Analytical Engine)
-            → Considered first programmer — TRƯỚC khi computer tồn tại!
+           → Considered the first programmer — BEFORE computers existed!
 1936      Alan Turing: Turing machine — theoretical foundation
-1940s     Machine code: viết bằng SỐ (0s and 1s) trực tiếp
-            → 10110000 01100001 = "move value to register"
-            → KHÔNG AI muốn viết thế này
-1950s     Assembly: mnemonic cho machine code
-            → MOV AL, 61h = dễ đọc hơn binary
-            → Vẫn rất low-level: 1 instruction = 1 machine operation
+1940s     Machine code: written in NUMBERS (0s and 1s) directly
+           → 10110000 01100001 = "move value to register"
+           → NO ONE wanted to write like this
+1950s     Assembly: mnemonics for machine code
+           → MOV AL, 61h = more readable than binary
+           → Still very low-level: 1 instruction = 1 machine operation
 1957      FORTRAN (FORmula TRANslation): first high-level language
-            → Viết công thức GIỐNG MATH: X = A + B * C
-            → ⭐ BƯỚC NHẢY: từ "nói chuyện với machine" → "nói chuyện với math"
+           → Write formulas LIKE MATH: X = A + B * C
+           → ⭐ THE BIG LEAP: from "talking to machine" → "talking in math"
 1958      LISP (LISt Processing): functional + AI language
-            → (+ 3 (* 2 4)) = prefix notation = Polish notation
-            → Parentheses everywhere → "Lost In Stupid Parentheses" joke
+           → (+ 3 (* 2 4)) = prefix notation = Polish notation
+           → Parentheses everywhere → "Lost In Stupid Parentheses" joke
 1959      COBOL: business language ("readable English")
-            → MULTIPLY HOURS BY RATE GIVING GROSS-PAY
-            → Đọc GIỐNG natural language — nhưng verbose
+           → MULTIPLY HOURS BY RATE GIVING GROSS-PAY
+           → Reads LIKE natural language — but verbose
 1964      BASIC: "beginner" language → democratize programming
 1972      C: low-level power + high-level syntax → STILL ALIVE (Linux, embedded)
 1983      C++: C + OOP → game development dominant (Unreal Engine)
@@ -648,87 +659,87 @@ Code: x = 5 → x LÀ 5 BÂY GIỜ. Có thể đổi thành 10 SAU ĐÓ.
 2010      Rust: memory safety without garbage collector → systems programming
 2012      TypeScript: JavaScript + types → modern web dev
 2020s     AI-assisted coding: GitHub Copilot, Claude, ChatGPT
-            → ⭐ BƯỚC NHẢY: từ "human writes code" → "human describes, AI writes code"
-            → Natural language → code translation (!!!)
+           → ⭐ THE BIG LEAP: from "human writes code" → "human describes, AI writes code"
+           → Natural language → code translation (!!!)
 
-⭐ PATTERN TỪ LỊCH SỬ:
-  Machine code (1940s):  nói chuyện với MACHINE (binary)
-  Assembly (1950s):      nói chuyện với MACHINE (readable)
-  FORTRAN (1957):        nói chuyện với MATH (formula)
-  COBOL (1959):          nói chuyện với ENGLISH (business)
-  C (1972):              nói chuyện với HARDWARE (systems)
-  OOP (1983):            nói chuyện với OBJECTS (metaphor thế giới thực)
-  Python (1991):         nói chuyện với LOGIC (clean, readable)
-  AI coding (2020s):     nói chuyện với NATURAL LANGUAGE → AI generates code
+⭐ PATTERN FROM HISTORY:
+  Machine code (1940s):  talking to MACHINE (binary)
+  Assembly (1950s):      talking to MACHINE (readable)
+  FORTRAN (1957):        talking in MATH (formula)
+  COBOL (1959):          talking in ENGLISH (business)
+  C (1972):              talking to HARDWARE (systems)
+  OOP (1983):            talking with OBJECTS (real-world metaphor)
+  Python (1991):         talking in LOGIC (clean, readable)
+  AI coding (2020s):     talking in NATURAL LANGUAGE → AI generates code
 
-  → TREND: programming language ngày càng GẦN natural language hơn
-  → Ultimate end: "nói cái bạn muốn" → machine tự code
-  → Đây có phải "H12 for code"? Human cảm thấy gap → coin new language → community adopt
+  → TREND: programming languages are getting CLOSER to natural language over time
+  → Ultimate end: "say what you want" → machine codes itself
+  → Is this "H12 for code"? Human feels the gap → coins a new language → community adopts
 ```
 
 ---
 
-## §9 — Framework lens + Câu hỏi mở
+## §9 — Framework Lens + Open Questions
 
-### §9.1 — Code trong Processing Layers model
+### §9.1 — Code in the Processing Layers Model
 
 ```
-L0 (Body Input):    Đọc code trên screen (visual)
-L1 (Pattern Match): Nhận ra patterns (design pattern, idiom, bug pattern)
+L0 (Body Input):    Read code on screen (visual)
+L1 (Pattern Match): Recognize patterns (design pattern, idiom, bug pattern)
 L2 (Encoding):      Code format (syntax, types, paradigm)
 L3 (Processing):    Design algorithm, debug, refactor, architect
 L4 (Plan/Execute):  Write code, run, test, deploy
 
 BEGINNER PROGRAMMER:
   Heavy L2 (still learning syntax) + Heavy L3 (plan each line)
-  → Mỗi line code = conscious effort
+  → Every line of code = conscious effort
 
 EXPERT PROGRAMMER:
-  Light L2 (syntax automatic) + L1 dominant (pattern match: "à, dùng observer pattern")
-  → Nhìn bài toán → INSTANT nhận ra pattern → implement từ compiled meta-chunk
-  → "Senior dev viết code ít hơn junior nhưng CODE TỐT HƠN"
-    = senior đã compile meta-chunks → cần ít L3 processing
+  Light L2 (syntax automatic) + L1 dominant (pattern match: "ah, use observer pattern")
+  → See the problem → INSTANT pattern recognition → implement from compiled meta-chunk
+  → "Senior devs write LESS code than juniors but BETTER CODE"
+    = seniors have compiled meta-chunks → less L3 processing needed
 
 ⭐ CODE REVIEW = L1 Pattern Match applied:
-  Senior nhìn code → "sao sao ấy" → pattern mismatch signal
-  → Giống: native speaker đọc "tôi xe đi" → "sao sao"
-  → Cùng cơ chế: compiled template mismatch → body signal
+  Senior sees code → "something feels off" → pattern mismatch signal
+  → Like: native speaker reading "tôi xe đi" → "something's wrong"
+  → Same mechanism: compiled template mismatch → body signal
 ```
 
-### §9.2 — Code as EXTERNAL KNOWLEDGE system
+### §9.2 — Code as EXTERNAL KNOWLEDGE System
 
 ```
 ⭐ KEY INSIGHT: Codebase = EXTERNAL KNOWLEDGE that is EXECUTABLE
 
-  Natural language book: knowledge ĐỌC ĐƯỢC nhưng KHÔNG TỰ CHẠY
-  Math textbook: knowledge ĐỌC ĐƯỢC nhưng KHÔNG TỰ CHẠY  
-  Music score: knowledge ĐỌC ĐƯỢC nhưng CẦN PERFORMER
-  Codebase: knowledge ĐỌC ĐƯỢC VÀ TỰ CHẠY
+  Natural language book: knowledge READABLE but DOES NOT RUN ITSELF
+  Math textbook:         knowledge READABLE but DOES NOT RUN ITSELF
+  Music score:           knowledge READABLE but NEEDS A PERFORMER
+  Codebase:              knowledge READABLE AND RUNS ITSELF
 
-  → Codebase = "cuốn sách biết tự đọc chính mình"
-  → Khi bạn deploy 1 app → bạn SHARE executable knowledge tới triệu users
-  → Users KHÔNG CẦN hiểu code → nhưng NHẬN ĐƯỢC kết quả
+  → Codebase = "a book that reads itself"
+  → When you deploy an app → you SHARE executable knowledge with millions of users
+  → Users DON'T NEED to understand the code → but RECEIVE the results
 
-  → Đây là communication format MẠNH NHẤT về impact:
-    1 codebase → HÀNG TỈ executions → HÀNG TỈ users affected
-    1 cuốn sách → HÀNG TRIỆU readers → mỗi người phải TỰ apply
+  → This is the communication format with the GREATEST IMPACT:
+    1 codebase → BILLIONS of executions → BILLIONS of users affected
+    1 book     → MILLIONS of readers   → each person must APPLY it themselves
 ```
 
-### §9.3 — Câu hỏi mở
+### §9.3 — Open Questions
 
-1. **Code = natural language evolution?** Trend: code ngày càng gần NL (COBOL → Python → AI coding). Tương lai: NL → code là seamless? Hoặc code vẫn cần riêng vì PRECISION requirement?
+1. **Code = natural language evolution?** Trend: code is getting closer to NL (COBOL → Python → AI coding). Future: NL → code becomes seamless? Or does code remain separate due to PRECISION requirements?
 
-2. **Why do programmers THINK in code?** Senior devs report "thinking in code" — mental model IS the code structure. Vì compiled meta-chunks sâu đến mức L2 encoding = default thinking mode? Giống: bilingual người sometimes think in L2.
+2. **Why do programmers THINK in code?** Senior devs report "thinking in code" — their mental model IS the code structure. Because compiled meta-chunks are so deep that L2 encoding = default thinking mode? Like: bilingual people who sometimes think in L2.
 
-3. **Code quality = "good writing"?** "Clean code" (Martin 2008) = "code dễ đọc, dễ hiểu, dễ maintain." Giống: "good writing" = "text dễ đọc, rõ ý, mạch lạc." CÙNG principles: clarity, concision, structure, naming. → Cả 2 = communication craft.
+3. **Code quality = "good writing"?** "Clean code" (Martin 2008) = "code that is easy to read, understand, and maintain." Like "good writing" = "text that is easy to read, clear, well-structured." SAME principles: clarity, concision, structure, naming. → Both = communication craft.
 
-4. **Open source = cultural-shared knowledge?** GitHub = thư viện toàn cầu of executable knowledge. Giống: library of books nhưng books TỰ CHẠY. → Open source = H7 (cultural transmission as chunks propagation) applied to code.
+4. **Open source = culturally-shared knowledge?** GitHub = global library of executable knowledge. Like: a library of books but the books RUN THEMSELVES. → Open source = H7 (cultural transmission as chunk propagation) applied to code.
 
-5. **Game dev = multi-format expert?** Game dev dùng: Code (logic) + Math (physics) + Visual (art, UI) + Music (audio) + Natural language (design docs, dialogue). → Game dev = rare profession requiring ALL 5 communication formats simultaneously.
+5. **Game dev = multi-format expert?** Game devs use: Code (logic) + Math (physics) + Visual (art, UI) + Music (audio) + Natural language (design docs, dialogue). → Game dev = rare profession requiring ALL 5 communication formats simultaneously.
 
 ### §9.4 — References
 
-| Tác giả | Năm | Công trình | Liên quan |
+| Author | Year | Work | Relevance |
 |---|---|---|---|
 | Turing, A. | 1936 | On Computable Numbers | Theoretical foundation |
 | Knuth, D. | 1968-2011 | The Art of Computer Programming | CS fundamentals |
@@ -742,6 +753,6 @@ EXPERT PROGRAMMER:
 
 > **05-Programming-Language-Architecture.md — End of file.**
 >
-> Code = communication format ĐỘC ĐÁO: EXECUTABLE + precise + composable + mutable state. Duy nhất trong tất cả formats mà machine có thể THỰC THI. 8 hierarchy levels — phức tạp nhất trong tất cả formats.
+> Code = UNIQUE communication format: EXECUTABLE + precise + composable + mutable state. The only format among all five that machines can EXECUTE. 8 hierarchy levels — the most complex of all formats.
 >
-> Phiên bản: v1.0, 2026-04-16.
+> Version: v1.0, 2026-04-16.
