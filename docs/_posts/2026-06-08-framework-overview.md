@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A concept bridging neuroscience and psychology into an architecture — estimating the direction of human drive"
+title: "A concept bridging neuroscience and psychology into an architecture"
 date: 2026-06-08
 author: Independent researcher
 license: CC0 1.0 Universal
