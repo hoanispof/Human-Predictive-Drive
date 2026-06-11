@@ -14,7 +14,7 @@ tags: [neuroscience, psychology, evolutionary-biology, cognitive-science, open-s
 
 A framework connecting neuroscience, psychology, and evolutionary biology into an architecture — mapping how the brain's core systems produce behavior, from opioid-dopamine signaling through body-level evaluation of threat, novelty, social status, and connection — to collective behavior. 200+ source files with explicit dependencies, open-source, CC0.
 
-Core premise: the body evaluates first, the prefrontal cortex observes second. Most behavior runs on compiled body-level patterns — the conscious mind is more like a monitoring process than the main thread.  
+Core premise: the body evaluates first, the prefrontal cortex observes second. Most behavior runs on compiled body-level patterns — the conscious mind is the observer, not the executor.  
 When you're thirsty, the conscious mind sets one goal: get water. Everything after — walking, reaching for the cup, pouring, drinking — executes automatically.  
 You speak your native language fluently — grammar, intonation, coordination of throat and tongue, all running automatically with high precision. Yet your conscious mind cannot describe the grammatical rules you're using.
 
