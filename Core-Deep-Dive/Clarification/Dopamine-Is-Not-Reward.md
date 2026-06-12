@@ -194,7 +194,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | **Mechanism of liking** | NONE (conflated with dopamine) | Separated but mechanism unspecified | 7-step + body-base check + body-need match |
 | **Addiction explained** | "Reward system hyperactive" | Pathological wanting without liking | Dopamine hijack WITHOUT body-need match (L1 mismatch) |
 | **Parkinson's anhedonia** | Matches (dopamine depleted → less pleasure) | Matches (wanting impaired, liking preserved) | Matches + explains: VTA weak → PFC no alert, but body-base opioid intact |
-| **Scroll phone "empty"** | Cannot explain | Wanting high, liking low — but why? | VTA fires micro-delta, body DOES NOT confirm → no opioid → empty |
+| **Scroll phone "empty"** | Cannot explain | Wanting high, liking low — but why? | VTA micro-delta → per-item opioid fires (algorithm matches), but fragmented — rewards don't compound into depth → empty |
 | **Eureka moment** | "Dopamine + cortisol drop" | Unclear | Opioid (schema match) + cortisol drop (threat resolved if present) |
 | **Falsifiability** | Low (vague) | Medium (rat experiments) | High (each precondition + step independently testable) |
 
@@ -344,28 +344,31 @@ Musical anhedonics (~3-5% of population):
 **Implication for framework**:
 - Scrolling phone, slot machine, social media = **mini-addiction pattern**
 - Micro-delta triggers VTA (new posts, notifications) → dopamine + wanting
-- Body-need DOES NOT match (doesn't fulfill social, meaning, rest needs) → no opioid
-- "Empty" feel = VTA active + opioid absent
+- Algorithm matches body-level needs per item → Step 5 fires → micro-opioid (real per video)
+- BUT: each match is brief (30s–3min) and unrelated to the next → fragments don't compound
+- "Empty" feel = many micro-rewards present, but no depth accumulated
 
-### §3.6 — Evidence 6: Novelty alone without pleasure (scroll empty)
+### §3.6 — Evidence 6: Micro-reward without depth (scroll empty)
 
 🟡 **Daily observable phenomenon** (Novelty.md §2.4 scroll case):
 - Scroll phone: each post = micro-delta (new image, new text)
 - VTA fires lightly each swipe → dopamine micro-dose
-- **But**: body feels "tired, hollow, bored but can't stop"
-- → Dopamine present (seeking continues) + opioid absent (no body satisfaction)
+- Algorithm designed to match body-level needs per item → Step 5 fires → micro-opioid (real)
+- VTA does NOT habituate: each post genuinely different + infinite supply (Novelty.md §3: bypasses 2 of 3 brakes)
+- **But**: body feels "tired, hollow, consumed a lot but gained nothing"
 
 **Classical explanation fails**:
 - If dopamine = pleasure → scrolling should feel good
-- Reality: scrolling feels "boringly empty" but continues
+- Reality: scrolling produces many micro-satisfactions but feels empty overall
 
 **Framework explanation**:
-- VTA detects delta (satisfies Precondition-3) → dopamine fires
-- Body-need DOES NOT match (no pending schema to fill, no connection, no meaning) → Precondition-1 fails
-- → No opioid → no actual reward
-- Loop stuck: VTA keeps firing (new posts) + opioid never fires → "want more" without "getting satisfaction"
+- Per-item: VTA detects delta → dopamine → algorithm matches body-need → Step 5 fires → micro-opioid ✓
+- Across session: each match is brief (30s–3min) and unrelated to the next → no coherence reward (Profile ②)
+- Nothing compiles deeply: exposure too brief, zero contingency between items → compile_rate ≈ 0 per topic
+- Many topics touched, none deepened → reward present at every moment, but nothing accumulated into depth
+- Compare: book 2h → chapters BUILD on each other → coherence reward fires → deep satisfaction
 
-**Critical insight**: The pop "dopamine detox" logic is wrong where? Correct intuition (scrolling = problem) but wrong mechanism (not "too much dopamine", but **dopamine-opioid mismatch** + body-need bypassed).
+**Critical insight**: The pop "dopamine detox" logic is wrong where? Correct intuition (scrolling = problem) but wrong mechanism (not "too much dopamine", and not "no reward" — but **many fragmented micro-rewards that don't compound into depth**).
 
 ### §3.7 — Evidence 7: Eureka moment = opioid, not dopamine spike
 
@@ -452,7 +455,7 @@ Musical anhedonics (~3-5% of population):
 | 3b | **Musical anhedonia = pipeline broken** | **Martínez-Molina 2016 🟢** | **❌ Impossible if PE=reward** | **✅ Step 4 pathway broken, Steps 5-6 never fire** |
 | 4 | Morphine direct pleasure without dopamine | Peciña 2005 🟢 | ❌ Contradicts | ✅ Opioid = direct reward |
 | 5 | Addiction wanting≠liking | Robinson-Berridge 2003 🟢 | ❌ Cannot explain | ✅ Sensitization + tolerance |
-| 6 | Scroll phone empty dopamine | Daily observable 🟡 | ❌ Contradicts | ✅ VTA fires + opioid absent |
+| 6 | Scroll phone empty dopamine | Daily observable 🟡 | ❌ Contradicts | ✅ VTA fires + per-item opioid fires but fragments don't compound |
 | 7 | Eureka = opioid not dopamine | Framework N+10 🟡 | ❌ Inaccurate mechanism | ✅ Schema match + opioid |
 | 8 | **Naltrexone blocks euphoria, NOT dopamine** | **Jayaram-Lindström 2004-2017 🟢** | **❌ Opioid block shouldn't affect** | **✅ 2 independent systems, dopamine ≠ reward** |
 
@@ -560,14 +563,16 @@ Musical anhedonics (~3-5% of population):
 
 **Type C — Behavioral addictions (scrolling, slot machines, social media)**:
 - Micro-delta per stimulus → VTA constant firing → dopamine micro-doses
-- Body-need rarely/never met → Step 5 opioid absent → "empty chase"
+- Algorithm/game design matches body-level needs per item → Step 5 fires → micro-opioid per item (real)
+- BUT: each match is brief and unrelated → fragments don't compound into depth
 - Intermittent reinforcement (random reward schedule) → VTA sensitized
-- = Wanting active + liking absent → "bored but can't stop"
+- No coherence reward (Profile ②) → no depth → "consumed a lot, gained nothing"
+- = Wanting active + per-item liking present but fragmented → "can't stop, but empty after"
 
-**Common result**: Wanting sensitized (Steps 2-4 boost) + Liking habituates/absent + Body-need never actually fulfilled
-- → Pattern: "need more, enjoy less, never satisfied"
+**Common result**: Wanting sensitized (Steps 2-4 boost) + Liking present but fragmented (no depth) + Nothing compiles
+- → Pattern: "many micro-satisfactions, no deep satisfaction"
 - Classical "dopamine = reward" cannot explain. Framework 7-step can.
-- 3 types, 3 disruption points, ALL with the same output pattern
+- 3 types, 3 disruption points, ALL producing the same dissatisfaction pattern
 
 ### §4.5 — Integration with Chunk compile (Cortisol-Baseline v2.0 §3)
 

@@ -1,12 +1,13 @@
 ---
-layout: post
-title: "Dopamine Signals Salience, Not Reward: A 7-Step Mechanism and Five Preconditions for When Pleasure Actually Fires"
+title: "Dopamine Is Not Reward: The Evidence and a Proposed Mechanism"
 date: 2026-05-31
 author: Independent researcher
 license: CC0 1.0 Universal
 status: Draft v0.1
 tags: [neuroscience, dopamine, reward, opioid, mechanism, falsifiable]
 ---
+
+# Dopamine Is Not Reward
 
 **28 years of evidence, a proposed 7-step mechanism, and five testable preconditions for when opioid reward actually fires.**
 
@@ -130,12 +131,12 @@ Additional supporting evidence (described in the full framework):
 |---|---|---|
 | 6 | Schultz VTA signal = delta/salience, not value | Schultz, 1997 (reinterpreted) |
 | 7 | Addiction: wanting sensitizes while liking habituates | Robinson & Berridge, 2003 |
-| 8 | Social media scrolling: per-item reward present but fragmented — doesn't compound into depth | Daily observable + framework analysis |
+| 8 | Social media scrolling: dopamine present, satisfaction absent | Daily observable + framework analysis |
 | 9 | Eureka moment: opioid-based, not dopamine spike | Framework synthesis |
 
 > **Framework deep reads:**
-> [Dopamine-Is-Not-Reward.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Clarification/Dopamine-Is-Not-Reward.md) — full 9-evidence analysis with 3-position comparison table
-> · [Reward-Signal-Architecture.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Body-Feedback/Reward-Signal-Architecture.md) — evaluative vs. direct-state reward pathways
+> [Dopamine-Is-Not-Reward.md](../../Core-Deep-Dive/Clarification/Dopamine-Is-Not-Reward.md) — full 9-evidence analysis with 3-position comparison table
+> · [Reward-Signal-Architecture.md](../../Core-Deep-Dive/Body-Base/Body-Feedback/Reward-Signal-Architecture.md) — evaluative vs. direct-state reward pathways
 
 ---
 
@@ -195,9 +196,9 @@ Step 5 is where this model departs from prior accounts. Berridge demonstrated th
 This explains a common puzzle: why the same stimulus (the same song, the same food, the same social interaction) sometimes produces reward and sometimes doesn't. The stimulus is identical; the body-state and current needs are different. Step 5 is where context meets evaluation.
 
 > **Framework deep reads:**
-> [03-Reward.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Body-Feedback/Drill-Body-Feedback/03-Reward.md) — full 7-step mechanism with 7 reward cases
-> · [Novelty.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Observation/Novelty.md) — VTA delta detection and novelty drive mechanism
-> · [Body-Feedback-Mechanism.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback-Mechanism.md) — body-level feedback architecture
+> [03-Reward.md](../../Core-Deep-Dive/Body-Base/Body-Feedback/Drill-Body-Feedback/03-Reward.md) — full 7-step mechanism with 7 reward cases
+> · [Novelty.md](../../Core-Deep-Dive/Observation/Novelty.md) — VTA delta detection and novelty drive mechanism
+> · [Body-Feedback-Mechanism.md](../../Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback-Mechanism.md) — body-level feedback architecture
 
 ---
 
@@ -218,8 +219,8 @@ If Step 5 is the critical gate, what determines whether it opens? The model prop
 Each precondition is independently testable. Miss Precondition 1 → no reward (eating when full). Miss Precondition 3 → no reward (tenth repetition of a joke). Miss Precondition 5 → aversion instead of reward (a food that was eaten before a traumatic event).
 
 > **Framework deep reads:**
-> [03-Reward.md §3](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Body-Feedback/Drill-Body-Feedback/03-Reward.md) — detailed specification of all 5 preconditions
-> · [Cortisol-Baseline.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Cortisol-Baseline.md) — cortisol direction gate (Precondition 5 mechanism)
+> [03-Reward.md §3](../../Core-Deep-Dive/Body-Base/Body-Feedback/Drill-Body-Feedback/03-Reward.md) — detailed specification of all 5 preconditions
+> · [Cortisol-Baseline.md](../../Core-Deep-Dive/Body-Base/Cortisol-Baseline.md) — cortisol direction gate (Precondition 5 mechanism)
 
 ---
 
@@ -231,25 +232,17 @@ Two everyday phenomena that the classical "dopamine = reward" model cannot expla
 
 Consider this common experience: you scroll through a social media feed for an hour, then stop and feel *empty* — not satisfied, not rewarded, just drained. The classical model predicts the opposite: each new post triggers novelty → dopamine fires → "reward" → you should feel good.
 
-The 7-step model explains this — but not by claiming reward is absent.
+The 7-step model explains:
 
-Each new post generates a micro-delta (Step 2) — something changed — and VTA fires. VTA does *not* habituate during scrolling: each post is genuinely different from the last, and the algorithm supplies effectively infinite content — bypassing two of the brain's three natural [braking mechanisms](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Observation/Novelty.md) for novelty-seeking. The recommendation algorithm is specifically designed to match content to body-level needs — a genuinely funny video, an insight that resonates, a post from someone you care about. When it succeeds, Step 5 fires. Opioid releases. The micro-reward is real. That is precisely why the algorithm works, and precisely why stopping is difficult.
+- Each new post generates a micro-delta (Step 2) → VTA fires → dopamine micro-dose → attention captured (Steps 3–4)
+- Step 5 evaluation: does the content match a current body-level need? In most cases, *no* — scrolling doesn't fill a need for connection, meaning, rest, or mastery. The body returns a neutral or negative signal.
+- Result: dopamine present (seeking continues) + opioid absent (no genuine satisfaction) = "want more, enjoy less."
 
-**The problem is not absent reward. It is reward without depth.**
+**Falsifiable prediction:** If a social media platform switched to serving 100% random content (removing the recommendation algorithm), engagement should drop rapidly — not because of reduced dopamine (scrolling still generates novelty delta), but because random content almost never matches individual body-level needs. The recommendation algorithm works precisely *because* it targets user-specific need-patterns that occasionally trigger Step 5 matches.
 
-**Reward doesn't compound across items.** A cooking tip, then comedy, then politics, then a cute animal — each can individually trigger Step 5. But across an hour, these matches don't connect to each other. Compare two hours reading a book: each chapter builds on the previous, ideas link, understanding deepens. The body registers not just individual insights but the coherence between them. When patterns connect into a structure that wasn't there before, a qualitatively different reward fires — an opioid burst followed by a sustained glow ([Reward Profile ②](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Body-Feedback/Reward-Signal-Architecture.md)). Fragmented content cannot produce this. Each 30-second video activates a brief reward that decays before the next begins — no overlap, no compounding. Forty isolated micro-satisfactions do not add up to one sustained, deepening experience.
+**Natural experiment:** When platforms have degraded their algorithms (for advertising, policy, or testing purposes), user engagement drops — even though the scroll action, interface, and novelty-generation mechanism remain identical. Same dopamine trigger. Less body-level match. Less engagement.
 
-**Nothing compiles into lasting knowledge.** How deeply experience compiles depends on exposure duration, contingency between items, and sensory richness ([compilation model](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Chunk/Chunk.md)). Scrolling scores low on all three: brief exposure per topic (30 seconds to 3 minutes), zero contingency between videos (each is independent of the last), and limited sensory richness (screen-based, passive consumption). Many topics are touched; none deepen. Content is delivered — but compilation requires the viewer's own sustained engagement. Technology cannot compile on your behalf.
-
-The empty feeling after scrolling is not "wanting without liking." Individual videos produce genuine liking. The empty feeling is **many likings that don't compound into depth** — reward was present at every moment, but nothing accumulated into a structure that lasts.
-
-**The platform's optimization target explains the gap.** Algorithms optimize per-item metrics — watch time, completion rate, engagement per video — which track Step 5 *per stimulus*. What they don't optimize is whether a session of matched content builds into anything that persists. Per-item satisfaction and session-level depth are different signals with different neural substrates.
-
-**Falsifiable prediction:** If a platform switched to 100% random content (removing the recommendation algorithm), engagement should drop — not because dopamine stops (scrolling still generates novelty delta), but because random content matches individual body-level needs far less often. The algorithm's value is in per-item matching. Its limitation is in confusing per-item match for session-level depth.
-
-**Natural experiment:** When platforms have degraded their algorithms, engagement drops — same scroll action, same interface, same novelty mechanism. Fewer per-item Step 5 matches → fewer micro-rewards → less reason to continue.
-
-**Individual differences:** Some people are not "addicted" to TikTok at all. They open the app, scroll for two minutes, find nothing that matches, and leave. Same dopamine mechanism. But their particular need-pattern doesn't match the content library. No Step 5 match → no micro-reward → no hook. If dopamine alone were reward, everyone who scrolls should get hooked equally. They don't.
+**Individual differences:** Some people are not "addicted" to TikTok at all. They open the app, scroll for two minutes, find nothing that matches, and leave. Same app, same dopamine mechanism (scroll = novelty = VTA fire). But their particular need-pattern doesn't match the content library. No Step 5 match → no reward → no hook. If dopamine alone were reward, everyone who scrolls should get hooked equally. They don't.
 
 ### Test Case B: Gambling — near-miss, body arousal, and two types of losers
 
@@ -294,9 +287,9 @@ The same molecule — dopamine — disrupted at three different points in the sy
 **NIC-PD 2024** (*NEJM Evidence*, n=162): Nicotine patches for one year produced no benefit for Parkinson's disease progression, trending worse. This confirms that nicotine's VTA hijack mechanism is unrelated to neuroprotection — flooding the system with nicotine doesn't restore dying neurons.
 
 > **Framework deep reads:**
-> [Nicotine-Brain-Mechanism.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Research/Health-Conditions/Hijack/Nicotine-Brain-Mechanism.md) — nicotine hijack mechanism (VTA bypass)
-> · [Parkinson-Analysis.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Research/Health-Conditions/Neurodegeneration/Parkinson-Analysis.md) — 3 dopamine pathways, wanting/liking dissociation
-> · [ADHD-Observation.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Research/Health-Conditions/Neurodiversity/ADHD-Observation.md) — DRD4/DAT tuning model
+> [Nicotine-Brain-Mechanism.md](../../Research/Health-Conditions/Hijack/Nicotine-Brain-Mechanism.md) — nicotine hijack mechanism (VTA bypass)
+> · [Parkinson-Analysis.md](../../Research/Health-Conditions/Neurodegeneration/Parkinson-Analysis.md) — 3 dopamine pathways, wanting/liking dissociation
+> · [ADHD-Observation.md](../../Research/Health-Conditions/Neurodiversity/ADHD-Observation.md) — DRD4/DAT tuning model
 
 ---
 
@@ -304,19 +297,19 @@ The same molecule — dopamine — disrupted at three different points in the sy
 
 If the 7-step model and its five preconditions hold up under scrutiny:
 
-**For engagement metrics:** Current platforms optimize per-item engagement metrics (watch time, completion rate per video) — which track both dopamine-mediated attention capture (Steps 2–4) and per-item opioid satisfaction (Step 5). The algorithm succeeds at this: individual matches are real. What these metrics don't track is whether a session of matched content builds into lasting depth. Per-item satisfaction and session-level depth are different signals with different neural substrates. A user can be satisfied by every individual video and still feel empty after an hour — highly engaged and deeply unfulfilled simultaneously.
+**For engagement metrics:** Current platforms optimize for engagement (clicks, time-on-site, scroll depth) — which tracks dopamine-mediated attention capture (Steps 2–4). User *satisfaction* requires Step 5 (body-level need match). These are different signals with different neural substrates. Optimizing for dopamine-driven engagement while ignoring opioid-mediated satisfaction explains why users can be highly engaged *and* deeply dissatisfied simultaneously.
 
-**For addiction research:** The model distinguishes three addiction mechanisms (opioid drug → Step 5 bypassed entirely; stimulant → Steps 2–4 flooded + opioid involvement; behavioral → fragmented per-item rewards that don't compound into depth). Each implies different intervention targets. Treating scrolling addiction the same way as heroin addiction conflates different disruption points in the same pipeline.
+**For addiction research:** The model distinguishes three addiction mechanisms (opioid drug → Step 5 bypassed; stimulant → Steps 2–4 flooded + opioid involvement; behavioral → dopamine micro-doses without Step 5 match). Each implies different intervention targets. Treating scrolling addiction the same way as heroin addiction conflates different disruption points in the same pipeline.
 
 **For AI reward modeling:** Reinforcement learning systems (RLHF and derivatives) model reward as a single signal analogous to dopamine prediction error. If human reward involves a body-level evaluation step that is separate from the prediction signal, current AI reward models are missing a component. The "reward" in RLHF more closely approximates attention capture (wanting) than genuine satisfaction (liking).
 
 **For understanding "knowing ≠ doing":** The 7-step model is embedded in a larger framework where the body's compiled patterns (body-base) and conscious thought (PFC) are separate systems with different update mechanisms. "Knowing you should exercise" is a PFC state. "Actually exercising" requires body-base patterns. This is a two-system architecture, not a willpower failure.
 
 > **Framework deep reads:**
-> [AI-Self-Model.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Research/Global/AI-Self-Model.md) — AI amplification mechanism and dual check model
-> · [Core-Software.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Software.md) — full 2-system architecture (body-base vs. PFC)
-> · [Compile-Taxonomy.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Chunk/Compile-Taxonomy.md) — 3 compile types and why "knowing ≠ doing"
-> · [Liking-Wanting.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Observation/Liking-Wanting.md) — wanting/liking bridge with 6 wanting mechanisms
+> [AI-Self-Model.md](../../Research/Global/AI-Self-Model.md) — AI amplification mechanism and dual check model
+> · [Core-Software.md](../../Core-Software.md) — full 2-system architecture (body-base vs. PFC)
+> · [Compile-Taxonomy.md](../../Core-Deep-Dive/Body-Base/Chunk/Compile-Taxonomy.md) — 3 compile types and why "knowing ≠ doing"
+> · [Liking-Wanting.md](../../Core-Deep-Dive/Observation/Liking-Wanting.md) — wanting/liking bridge with 6 wanting mechanisms
 
 ---
 
