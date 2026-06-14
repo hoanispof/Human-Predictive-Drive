@@ -188,8 +188,8 @@ WHY THIS FILE EXISTS (position in the trio + ENGINE/ROAD/VEHICLE):
 
   ④ ALIGN WITH DEVELOPMENTAL TIMELINE
      (Child-Development-Mechanism v2.3 §9 — sensitive periods)
-     → Right skill + right window = compiles easily + deeply + approach-tagged
-     → Wrong timing = still compiles but higher cost + risk of avoidance tag
+     → Right skill + right window = compiles easily + deeply + approach-linked
+     → Wrong timing = still compiles but higher cost + risk of avoidance links
      → Curriculum timing aligns with PFC development + sensitive periods
 
   ⑤ GAP LANDSCAPE SHAPING
@@ -305,7 +305,7 @@ DEPTH LEVELS = CHUNK COMPILATION LEVELS:
     Depth level (L1-L4) = AXIS 1: how DEEP is the knowledge
     Compiled Quality = AXIS 2: compiled HOW → determines quality FOR LIFE
 
-    genuine-compiled (approach-tagged):
+    genuine-compiled (approach-linked):
       → Compiled in approach-direction → self-reinforcing, lifelong drive
       → "Skilled AND LOVES IT" = genuine L3 = best outcome
 
@@ -313,7 +313,7 @@ DEPTH LEVELS = CHUNK COMPILATION LEVELS:
       → Compiled via bridge/extrinsic → functional but no drive
       → "Knows but not interested" = fragile, needs constant bridging
 
-    threat-compiled (avoidance-tagged):
+    threat-compiled (avoidance-linked):
       → Compiled in threat-direction → "skilled but HATES IT" = locked avoidance
       → L4 threat-compiled < L2 genuine-compiled (in lifelong value)
       → ⚠️ RED FLAG: student reaches depth target but NEGATIVE ATTITUDE
@@ -427,7 +427,7 @@ v2.2 FOUNDATION DELIVERY × COMPILE TYPE (Compile-Taxonomy v3.0 §4):
        → Teacher/parent reads aloud (Trust install) + child reads independently (Experience verify)
        → = Compound pathway: Trust install → Experience deepen → genuine-compiled
 
-    ② Numeracy: ⚠️ DANGER — Trust avoidance tag is COMMON
+    ② Numeracy: ⚠️ DANGER — Trust avoidance links is COMMON
        → "Hates math" = Trust Compile avoidance (teacher/parent pressures → VALUE = threat)
        → NEEDS Experience FIRST: concrete, hands-on → THEN abstract
        → Trust Compile for math ONLY works when the teacher is TRUSTED + approach direction
@@ -550,7 +550,7 @@ FOUNDATION PRINCIPLES:
        → Shallow learning = misses Evaluative → misses real satisfaction signal
      → ⭐ Compiled Quality check: depth must SIMULTANEOUSLY be genuine-compiled
        → L3 genuine = Evaluative Reward fires → self-reinforcing
-       → L3 threat = Evaluative Reward blocked by avoidance tag
+       → L3 threat = Evaluative Reward blocked by avoidance links
 
   🟡 Foundation matrix = derived from developmental research + mechanism principles
      Specific depth targets per stage = framework estimate, not proven benchmarks
@@ -835,7 +835,7 @@ v2.3 TRUST-AWARE CURRICULUM SEQUENCING:
   Adding Tier 2 + Tier 3 = MORE content → but time = LIMITED.
   → If you only ADD without REMOVING → overload:
     → Cortisol amplification (Cortisol-Baseline.md v2.1 — Role ① amplifier)
-    → Threat-direction → avoidance tags for related domains
+    → Threat-direction → avoidance link patterns for related domains
     → = OPPOSITE of the purpose (Education-Mechanism v2.2 §2.2 — Direction > Level)
   → MUST reduce/remove SOMETHING to make room for the new
   → "REMOVE" ≠ "eliminate completely" → = "REDUCE WEIGHT" or "CHANGE HOW WE TEACH"
@@ -1075,7 +1075,7 @@ CORE MECHANISM (Tier 1)
   Direction > level. Overload = amplified threat → context for §5.
 
 → Entity-Valence-Dynamics.md v1.0 — Structural/current, Hardware-Subsidy
-  Approach/avoidance tags = permanent structural. Subsidy spectrum.
+  Approach/avoidance link patterns = permanent structural. Subsidy spectrum.
 
 → Imagine-Final.md v3.0 — Constructive simulation, lifecycle
   Creative domain (§2 ⑥) + direction emergence → Tier 3 navigation.
@@ -1151,7 +1151,7 @@ CHILD-DEV (Tier 2)
 ═══════════════════════════════════════════════════════
 
 → Child-Development-Mechanism.md v2.3 — Developmental timeline
-  §2 Compile Architecture, §3 Approach/avoidance tags, §9 Sensitive periods.
+  §2 Compile Architecture, §3 Approach/avoidance link patterns, §9 Sensitive periods.
   Foundation for timing decisions in the matrix.
 
 

@@ -1,12 +1,10 @@
 ---
 title: Cortisol-Baseline — Change-Readiness Amplifier, NOT a Stress Hormone
-version: 2.4
+version: 2.2
 created: 2026-04-18
 updated: 2026-05-15 (v2.1 — §10.7 HPA paradox + prenatal + neurodegeneration bridge, Health Conditions Drill)
 refined: 2026-05-29 (v2.2 — L3 RETIRE: L0/L1/L3→L0+L1 substrate + PFC-mediated operators. Body-Base v3.3 aligned. L694 intensity gradient KEPT — separate concept)
-refined: 2026-06-14 (v2.3 — §0.1/§3.3/§3.5 direction gate→amplifier+link pattern. §7.1 observation parameter note. Drill v3.1 + Threat.md v2.0 aligned)
-refined: 2026-06-14 (v2.4 — §7.7 taxonomy "BINARY"→NET link pattern, "Tag LOCKED"→link pattern. Drill v4.0 + Threat.md v2.1 aligned)
-status: v2.4 — REFERENCE FILE (comprehensive cortisol mechanism + framework integration)
+status: v2.2 — REFERENCE FILE (comprehensive cortisol mechanism + framework integration)
 scope: |
   WHAT cortisol IS (reframe: amplifier, NOT stress hormone) + HOW cascade WORKS (cascade timing, inertia)
   + WHERE cortisol PARTICIPATES (10 touchpoints in framework)
@@ -21,8 +19,7 @@ purpose: |
 sources: |
   Cortisol-Baseline-v1.md (~1300L, backup/) — v1 content still accurate, refined + preserved
   Body-Feedback.md + 01-04 — Dual-Pull, Interface Loop 6-step, Body-Feedback-Precondition 5 preconditions
-  Chunk.md v2.0 §2.4 Direction-At-Compile — cortisol = compile-time amplifier (link pattern, not tag)
-  Drill-Threat-Direction-Analysis.md v4.0 — no tag at neural level, NET link pattern, 6-variable response, P(resolution) spectrum
+  Chunk.md v2.0 §2.4 Direction-At-Compile — cortisol = compile direction gate
   Imagine-Final.md §1.2 — cortisol gates Imagine-Final activation levels
   Body-Input-Enumeration.md §4.9 — self-signal interoception keystone
   Why-Body-Knows.md v1.1 §3 — 2-tier calibration (Darwinian + Hebbian, 2 input paths)
@@ -122,13 +119,10 @@ backup: Core-Deep-Dive/backup/Cortisol-Baseline-v1.md
   │   → Protect: cortisol MODERATE-HIGH, threat-pull         │
   │   → Status: cortisol variable per threat source          │
   ├───────────────────────────────────────────────────────────┤
-  │ SCHEMA + CHUNK compile (Chunk.md §2.4, Drill v4.0)        │
-  │   → Cortisol at compile time = AMPLIFIER for active      │
-  │     direction:                                            │
-  │     novelty-direction + cortisol → positive Type 1 links │
-  │     threat-direction + cortisol → negative Type 1 links  │
-  │     Direction = NET of emotional links, NOT a fixed tag  │
-  │     'Approach/avoidance' = observation parameter for NET │
+  │ SCHEMA + CHUNK compile (Chunk.md §2.4 Direction-At-Compile) │
+  │   → Cortisol at compile time = DIRECTION GATE:           │
+  │     novelty-direction → chunks tagged APPROACH           │
+  │     threat-direction  → chunks tagged AVOIDANCE          │
   ├───────────────────────────────────────────────────────────┤
   │ IMAGINE-FINAL formation (Imagine-Final.md §1.2)          │
   │   → Cortisol GATES activation level:                     │
@@ -721,7 +715,7 @@ SYNTHESIS TIMELINE — FROM TRIGGER TO BASELINE SHIFT + RECOVERY:
   → Cortisol = VOLUME KNOB for a dissonance signal that the body has already detected
 ```
 
-### §3.3 Body-Feedback-Precondition Precondition-5 Compile-Gate — Chunk LINK PATTERN (Direction-At-Compile)
+### §3.3 Body-Feedback-Precondition Precondition-5 Compile-Gate — Chunk DIRECTION GATE (Direction-At-Compile)
 
 ```
 ⭐ KEY INSIGHT (Chunk.md §2.4 Direction-At-Compile):
@@ -732,18 +726,17 @@ SYNTHESIS TIMELINE — FROM TRIGGER TO BASELINE SHIFT + RECOVERY:
     Precondition-2 Chunk-Substrate: Chunks base adequate
     Precondition-3 Delta-Gate: prediction-delta threshold
     Precondition-4 Match-Range: Goldilocks zone (dynamic)
-    Precondition-5 Compile-Gate: ⭐ Chunk link pattern (direction)
+    Precondition-5 Compile-Gate: ⭐ Chunk association tag (direction)
 
-  Precondition-5 = COMPILE-CONTEXT DETERMINES LINK PATTERN:
+  Precondition-5 = CORTISOL-DETERMINED DIRECTION GATE:
     → At COMPILE time, cortisol level + body-state direction DETERMINES
-      the chunk's emotional link pattern:
+      the chunk's association direction:
     → NOVELTY direction: cortisol + "curious/exciting" body state
-      → Positive Type 1 links form to reward regions → NET usually positive
-      → OBSERVED as 'approach' pattern
+      → Chunk tagged APPROACH (opioid association)
+      → Body wants to use this chunk again
     → THREAT direction: cortisol + "dangerous/avoid" body state
-      → Negative Type 1 links form to fear regions → NET usually negative
-      → OBSERVED as 'avoidance' pattern
-    → 'Tag' = observation parameter for the NET link pattern (Drill v4.0 §4)
+      → Chunk tagged AVOIDANCE (cortisol association)
+      → Body wants to avoid this chunk
 
   ⭐ KEY INSIGHT:
     NOT cortisol level high/low → direction
@@ -764,7 +757,7 @@ SYNTHESIS TIMELINE — FROM TRIGGER TO BASELINE SHIFT + RECOVERY:
       → VERY HIGH cortisol + trauma biochemistry
       → Body REFUSES to use chunk → net value NEGATIVE
 
-  REVERSIBILITY — link pattern CAN CHANGE (§7.6):
+  REVERSIBILITY — tag CAN CHANGE (§7.6):
     Path 1: New positive context (months-years, gradual opioid overlay)
     Path 2: Novelty hijack (faster, curiosity reactivates chunk)
     Path 3: AI support (NEW era, personalized context bridge)
@@ -819,24 +812,23 @@ SYNTHESIS TIMELINE — FROM TRIGGER TO BASELINE SHIFT + RECOVERY:
   NOVELTY CORTISOL → FAST COMPILE:
     → Cortisol + dopamine + curiosity body state
     → Neurons fire STRONGLY + direction APPROACH
-    → Chunks compile QUICKLY with positive emotional links (opioid regions co-fire)
+    → Chunks compile QUICKLY with opioid tag
     → Emotional peak → mode 2 chunk compilation (Chunk.md v2.0)
     → Example: Einstein discovering relativity
       → Cortisol HIGH (Imagine-Final "understand the universe" not yet resolved)
       → Curiosity body state → dopamine + cortisol combined
-      → Schema compile INTENSE + with positive emotional links
+      → Schema compile INTENSE + with opioid tag
       → Result: deep + usable chunks
 
   THREAT CORTISOL → SAME compile speed, DIFFERENT direction:
     → Cortisol + NE + fear body state
     → Neurons fire STRONGLY + direction AVOIDANCE
-    → Chunks compile ALSO QUICKLY but with negative emotional links
-        (amygdala/fear regions co-fire) → avoidance OBSERVED
+    → Chunks compile ALSO QUICKLY but with AVOIDANCE tag
     → Example: child scolded while studying math
       → Cortisol HIGH + threat direction
-      → Schema compile INTENSE + with negative emotional links
-        (cortisol = amplifier, threat direction = link source)
-      → Result: deep chunks but linked to AVOIDANCE pattern
+      → Schema compile INTENSE + with AVOIDANCE tag
+        (cortisol = amplifier, threat direction = tag source)
+      → Result: deep chunks but TAGGED AVOIDANCE
       → 20 years later: "knows math + hates math"
 
   ⭐ REFRAME:
@@ -1702,13 +1694,6 @@ STRATEGY SPECTRUM:
   FRAMEWORK DIAGNOSTIC:
     Cortisol level alone = insufficient data
     Cortisol + source + body state direction + sleep quality = complete picture
-
-  ⭐ NOTE (Drill v4.0, Threat.md v2.1 §5):
-    Direction = observation parameter for NET link pattern.
-    No binary 'approach/avoidance tag' exists at neural level.
-    What is OBSERVED: NET of all emotional links from all fired chunks.
-    Cortisol = AMPLIFIER for whichever direction is currently active, NOT selector.
-    → See Threat.md v2.1 §5 for full mechanism (geography + modulation + 7-factor links)
 ```
 
 ### §7.2 Same molecule, different outcome
@@ -1962,13 +1947,11 @@ STRATEGY SPECTRUM:
   ┌─────────────────┬──────────────┬──────────────────┬──────────────────────┐
   │ ROLE            │ Body signal  │ Temporal          │ Key distinction      │
   ├─────────────────┼──────────────┼──────────────────┼──────────────────────┤
-  │ ① COMPILE       │ Moderate-High│ At the moment of │ AMPLIFIES link       │
-  │   DIRECTION     │ (spike or    │ chunk compile     │ pattern at compile:  │
-  │                 │ sustained)   │ (seconds →       │ novelty → positive   │
-  │                 │              │ minutes)          │ links, threat →      │
-  │                 │              │                  │ negative links.      │
-  │                 │              │                  │ NET link pattern     │
-  │                 │              │                  │ (observation param). │
+  │ ① COMPILE       │ Moderate-High│ At the moment of │ ASSIGNS DIRECTION    │
+  │   DIRECTION     │ (spike or    │ chunk compile     │ to chunk: APPROACH   │
+  │                 │ sustained)   │ (seconds →       │ (novelty) or         │
+  │                 │              │ minutes)          │ AVOIDANCE (threat).  │
+  │                 │              │                  │ BINARY.              │
   ├─────────────────┼──────────────┼──────────────────┼──────────────────────┤
   │ ② HOLDING       │ Low-Moderate │ Sustained         │ "Not yet complete" —  │
   │   (pending)     │ (mild,       │ (hours → days)   │ NO FEAR, only PFC    │
@@ -2000,8 +1983,7 @@ STRATEGY SPECTRUM:
     = Cortisol at the moment a chunk COMPILES.
     Direction = f(body state at that moment): novelty → APPROACH, threat → AVOIDANCE.
     AFTER compile completes → this role ENDS.
-    Link pattern forms at compile (usually persistent,
-    CAN shift via competitive re-linking §7.6).
+    Tag LOCKED INTO chunk (can re-associate via §7.6).
 
     Files using this role:
       → Chunk.md §2.4 Direction-At-Compile
@@ -3354,9 +3336,7 @@ FRAMEWORK INTEGRATION POINTS (§3):
   → Body-Feedback.md + 01-04 (Dual-Pull, Interface Loop, Body-Feedback-Precondition)
   → Imagine-Final.md §1.2 (cortisol gates activation)
   → Novelty.md + Novelty-Loop.md (holding signal, 2 modes)
-  → Threat.md v2.1 (cascade + sustainer + no tag + bounded/unbounded + P(resolution) spectrum + 6-variable response)
-  → Drill-Threat-Direction-Analysis.md v4.0 (no tag, NET link, bounded/unbounded, P(resolution) spectrum, 6-variable)
-  → Threat-Drive-Analysis.md (original cascade analysis)
+  → Threat.md + Threat-Drive-Analysis.md (cascade + sustainer)
 
 NEUROSCIENCE DETAIL:
   → PFC-Analysis.md §8.4 (NE α1/α2 circuit breaker)

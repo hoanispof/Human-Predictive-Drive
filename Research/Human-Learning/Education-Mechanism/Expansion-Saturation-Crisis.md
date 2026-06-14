@@ -686,8 +686,8 @@ READER FLOW:
       → = SAME knowledge. DIFFERENT process. DIFFERENT reward. DIFFERENT memory.
 
   → Education-Mechanism §2.2: Direction > Level
-  → = Method B = approach-tagged (novelty-direction)
-  → = Method A = neutral or avoidance-tagged (bored/forced direction)
+  → = Method B = approach-linked (novelty-direction)
+  → = Method A = neutral or avoidance-linked (bored/forced direction)
 
   🟢 prediction-delta mechanism: Schultz 1997 (reward prediction error)
   🟢 Opioid micro-reward per step: Berridge 2007 (liking system)
@@ -1224,7 +1224,7 @@ READER FLOW:
   │ CONDITION 3: CLEAR CAREER IMAGINE-FINAL                         │
   │                                                                  │
   │ "I know what I'll BE DOING + what my LIFE will look like"       │
-  │ = Imagine-Final HIGH clarity → body simulates → approach-tagged │
+  │ = Imagine-Final HIGH clarity → body simulates → approach-linked │
   │ = Anchor STRONG → loop CLOSES → reward                         │
   ├──────────────────────────────────────────────────────────────────┤
   │ CONDITION 4: LOW COMPETITION (expansion territory still wide)   │
@@ -1667,7 +1667,7 @@ TRIPLE EDUCATION SET
 → Education-Mechanism.md v2.2 — HOW: 10 arc design principles + Hardware-Subsidy + PFC Budget
   §2: brain-based principles (Direction > Level, etc.)
   §4: AI-assisted education model
-  Connected to: §3.2 (approach/avoidance tags, Hardware-Subsidy), §5.2 (AI in education)
+  Connected to: §3.2 (approach/avoidance links, Hardware-Subsidy), §5.2 (AI in education)
 
 → Domain-Knowledge-Map.md v2.1 — WHAT: domain taxonomy per era
   §3: Per-hardware + Gap-Distribution-Profile

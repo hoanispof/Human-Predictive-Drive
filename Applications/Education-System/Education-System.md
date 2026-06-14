@@ -236,7 +236,7 @@ IMAGINE-FINAL — IF DONE RIGHT:
      → Solid foundation (Domain-Knowledge-Map §1: 6 Foundation Domains) → a base for every era
      → Per-hardware calibration (Mechanism §2.3: Cost Formula) → learn the RIGHT way for YOUR brain
      → Clear Imagine-Final (Mechanism §2.6) → KNOWS WHY they're learning
-     → Compiled Quality: genuine-compiled (approach-tagged, self-reinforcing)
+     → Compiled Quality: genuine-compiled (approach-linked, self-reinforcing)
        → ≠ threat-compiled ("skilled but hates it" = avoidance locked)
      → PFC Budget respected → session timing appropriate → no PFC "burnout"
      → Gap landscape DIVERSE + per-hardware → opens MANY fitting roads
@@ -611,12 +611,12 @@ METHOD — HOW THE 6-12 BRAIN LEARNS BEST:
   (derived from Education-Mechanism.md v2.2 §2)
 
   DIRECTION > LEVEL (Mechanism §2.2 — MOST IMPORTANT PRINCIPLE):
-    → Every experience must be at NOVELTY-DIRECTION (approach tag)
-    → Threat-direction → avoidance tag → sabotage FOR LIFE
+    → Every experience must be at NOVELTY-DIRECTION (approach links)
+    → Threat-direction → avoidance links → sabotage FOR LIFE
     → This is NOT "teaching must be fun" — it's "body state must be in novelty-direction"
 
     🟡 COMPILED QUALITY DIMENSION (Compiled-Fresh v2.0 §5):
-      → Approach-tagged compile → GENUINE-COMPILED: self-reinforcing, lifelong
+      → Approach-linked compile → GENUINE-COMPILED: self-reinforcing, lifelong
       → Threat-tagged compile → THREAT-COMPILED: "skilled but hates it" = avoidance locked
       → Schema-compiled (neutral): fragile, requires continuous bridge
       → = SAME content, SAME depth → DIFFERENT quality → DIFFERENT trajectory for life
@@ -736,7 +736,7 @@ STAGE 2 SUMMARY — Imagine-Final in concrete terms:
 
   A learner leaving Stage 2 (around age 12) SHOULD:
     ✓ Foundation 6 domains: SOLID enough at depth level EXPLAIN
-    ✓ Compiled Quality: mostly GENUINE-COMPILED (approach-tagged)
+    ✓ Compiled Quality: mostly GENUINE-COMPILED (approach-linked)
     ✓ Gap landscape: DIVERSE — gaps in many domains → many ROADs open
     ✓ Hardware tendencies: already OBSERVED + noted (though not yet final)
     ✓ Bridge: still needed but curiosity + identity > threat/carrot
@@ -825,11 +825,11 @@ STAGE 3 GOALS:
   ④ TRUE-FIT vs FORCED-FIT:
 
      TRUE-FIT 🟡:
-       → Hardware MATCHES direction → approach-tagged → GENUINE-COMPILED
+       → Hardware MATCHES direction → approach-linked → GENUINE-COMPILED
        → Reward: Evaluative + Direct-State → sustainable
 
      FORCED-FIT 🟡:
-       → Hardware DOES NOT MATCH → avoidance-tagged → THREAT-COMPILED
+       → Hardware DOES NOT MATCH → avoidance-linked → THREAT-COMPILED
        → "Skilled but hates it" = Compiled Quality = threat → domain avoidance LOCKED
        → Remove bridge → engagement DROPS → = signal of "forced"
 
@@ -876,7 +876,7 @@ METHOD — HOW THE 12-18 BRAIN LEARNS BEST:
     → Authority influence FALLS (naturally) → forcing authority = counter-productive
     → Teacher as Coordination-Node (Coordination-Node v1.2):
       → PRESTIGE = genuine resonance (real contribution, domain expert)
-      → DOMINANCE = forced resonance (coercion) → avoidance tags
+      → DOMINANCE = forced resonance (coercion) → avoidance linkss
       → Teacher RESPECTED because they are GOOD → prestige → engagement
       → Teacher DEMANDING respect because of POWER → dominance → avoidance
 

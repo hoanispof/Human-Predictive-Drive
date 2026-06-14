@@ -1,6 +1,6 @@
 # Imagine-Final Evaluation — Evaluating Direction Quality
 
-> **Status:** COMPLETE — v1.3 (refined 2026-05-29: L3 RETIRE — L0/L1/L3→L0+L1 substrate + observation parameters. Body-Base v3.3 aligned)
+> **Status:** COMPLETE — v1.4 (refined 2026-06-14: +P(resolution) spectrum connections in Cases 2/Delusion, cross-ref Drill v4.0 §6.5)
 > **Date:** 2026-04-18
 > **Purpose:** Evaluate WHERE Imagine-Final is directed — good or bad, right or wrong
 > = "Does this Imagine-Final lead to genuinely smooth Melody? Or running long then wrong?"
@@ -15,7 +15,8 @@
 >   Core-v7.5-Draft.md §7 (Domain = external reality, infinite, has attractor points)
 >   Core-v7.5-Draft.md §1.5 (Hardware Profile — each person's specs)
 >   Personal-Melody.md §1 (melody = body-base × hardware × schema × domain)
->   Threat.md §4 (3 Cases: productive / destructive / lost)
+>   Threat.md v2.1 §4 (3 Cases), §6.4 P(resolution) spectrum
+>   Drill-Threat-Direction-Analysis.md v4.0 §6.5 (Resolution Probability Spectrum)
 >   Melody-Arc.md §2 ⑥ (real-check = GPS recalculate)
 > **⚠️ 🟡 Framework analysis — new formulation, consistent logic, not yet validated independently**
 >
@@ -2002,6 +2003,12 @@ SWEET SPOT + THREAT = PRODUCTIVE DRIVE
     → = Correct evolutionary design (threat → resolve → back to seeking)
     → = Yerkes-Dodson sweet spot: sufficient arousal, has direction
 
+    ⭐ NOTE (Drill v4.0 §6.5): "Bounded" here = P(resolution) sufficiently high.
+      P(resolution) = continuous spectrum (0 to 1), not binary.
+      This case works because P(resolution) is high AND self-resolving:
+      each step → milestone → opioid → P(resolution) increases further.
+      Full spectrum analysis: Threat.md §6.4.
+
 
 ═══════════════════════════════════════════════════════
 MISMATCH + THREAT = DESTRUCTIVE SPIRAL
@@ -2035,6 +2042,16 @@ MISMATCH + THREAT = DESTRUCTIVE SPIRAL
       → Body: "cost > benefit → should STOP"
       → Threat: "if I stop → consequences" → OVERRIDES
       → = "Bored but can't stop"
+
+      ⭐ P(resolution) MECHANISM (Drill v4.0 §6.5 Dimension 2):
+        = P(resolution) has DEGRADED over time (self-degrading pattern).
+        Hardware mismatch → each period: negative links > positive links
+        → P(resolution) steadily drops → crosses below resolution threshold
+        → But threat keeps person approach-locked → "persistence → stubbornness"
+        → = Bounded threat that BECOMES unbounded over time.
+        Sunk cost at tipping point: threat of QUITTING (losing investment)
+        > threat of CONTINUING → approach by avoidance, not by resolution
+        (loss aversion ~2×, Kahneman & Tversky 1979).
 
     Stage 4 — COLLAPSE or CHRONIC:
       → Collapse (lucky): body FORCES stop → chance to realize → rebuild
@@ -2110,6 +2127,18 @@ DELUSION + THREAT = RUNNING LONG + WRONG DIRECTION (MOST DANGEROUS)
     → = Sunk cost + identity + status = "3-layer trap"
     → = Need: external intervention (mentor/friend sees the pattern)
       OR domain feedback EXTREMELY CLEAR (can't be rationalized)
+
+    ⭐ P(resolution) LENS (Drill v4.0 §6.5 Dimension 3):
+      P_perceived >> P_actual (overconfident) — the MOST dangerous calibration:
+      → Hardware rewards create illusion of high P(resolution) → but domain says otherwise
+      → 3-layer trap = 3 threats that INFLATE P_perceived:
+        sunk cost → "already invested too much" (P must be high, else waste)
+        identity → "I am X" (P must be high, else I'm not who I think)
+        status → "everyone knows I do X" (P must be high, else losing face)
+      → = P_perceived stays HIGH because LOWERING it = TRIPLE THREAT
+      → = Structurally prevented from seeing P_actual has dropped
+      → vs Mismatch (above): person FEELS the mismatch but is OVERRIDDEN
+        Delusion: person DOESN'T FEEL it → can last a whole life
 
 
 ═══════════════════════════════════════════════════════
@@ -2927,8 +2956,8 @@ MISSING (needs development):
       → STILL MISSING: specific practical guide (step-by-step) for each transition
     🟡 CONSTRAINT (2026-04-18):
       → Chunk.md §3: compiled chunks RESIST change (reconsolidation needs a trigger)
-      → Cortisol-Baseline.md §3.3: chunks tagged APPROACH/AVOIDANCE at compile
-        → Direction tag = inertia — transition = re-tag, NOT JUST re-think
+      → Cortisol-Baseline.md §3.3: chunks linked to APPROACH/AVOIDANCE at compile
+        → Direction link pattern = inertia — transition = re-link, NOT JUST re-think
       → = Transition SLOWER than PFC expects because body-level compile has inertia
 
   → Source alignment quantification:
@@ -3007,10 +3036,15 @@ INPUT (files to read BEFORE)
 OUTPUT (files to read AFTER / files that REFERENCE this file)
 ═══════════════════════════════════════════════════════
 
-  Threat.md §4 (3 Cases = consequences of 4 corners + threat):
+  Threat.md v2.1 §4 (3 Cases = consequences of 4 corners + threat):
     → Case 1 (productive) = Sweet Spot + Threat
     → Case 2 (destructive) = Mismatch/Delusion + Threat
     → Case 3 (lost) = No Imagine-Final + Threat
+    → §6.4 P(resolution) spectrum: bounded/unbounded = observation parameter
+
+  Drill-Threat-Direction-Analysis.md v4.0 §6.5 (Resolution Probability Spectrum):
+    → Dimension 2 (time degrades P) → tipping point in Case 2 above
+    → Dimension 3 (P_perceived vs P_actual) → Delusion = P_perceived inflation
 
   Drive.md (integration — why drive output DIFFERS = Imagine-Final in DIFFERENT CORNER)
 
@@ -3059,7 +3093,7 @@ PARALLEL (same Core-Deep-Dive layer)
   Chunk.md §3 (chunk compile + connections — transition resistance mechanism)
   Valence-Propagation.md (indirect valence chains — evaluation must account for indirect)
   Cortisol-Baseline.md §3.7 (cortisol gates Imagine-Final activation)
-    + §3.3 (direction tag approach/avoidance — shapes imaginable futures)
+    + §3.3 (direction link pattern approach/avoidance — shapes imaginable futures)
   Dopamine-Is-Not-Reward.md (7-step mechanism — wanting ≠ liking in evaluation)
   Liking-Wanting.md (wanting 6 mechanisms — evaluation lens for "truly wanting or not?")
 
@@ -3087,10 +3121,14 @@ FUTURE DEVELOPMENT (from §7 MISSING)
 
 ---
 
-> *Imagine-Final Evaluation — "High Clarity ≠ Good Quality.
+> *Imagine-Final Evaluation v1.4 — "High Clarity ≠ Good Quality.
 > Something can be very CLEAR and completely in the WRONG DIRECTION.
 > 2 axes: Domain Fit (is it real?) × Hardware Fit (can I get there + will I want it?).
 > 4 corners: Sweet Spot / Mismatch / Delusion / Fantasy.
 > Threat output depends on WHICH CORNER Imagine-Final is in — not how strong the threat is.
 > Persistence = neutral tool. Direction determines output, not degree of persistence.
 > 4 corners = snapshot — not identity. Re-evaluate. Adjust. Move."*
+>
+> *v1.4: +P(resolution) spectrum connections. Sweet Spot = P(resolution) high + self-resolving.*
+> *Mismatch tipping point = P(resolution) degradation over time (self-degrading pattern).*
+> *Delusion = P_perceived inflated by 3-layer trap (sunk cost + identity + status).*

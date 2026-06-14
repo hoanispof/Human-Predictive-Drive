@@ -513,8 +513,8 @@ confidence: 🟢 Research/data support | 🟡 Framework synthesis | 🔴 Hypothe
   🟡 HARDWARE-SUBSIDY LENS (Valence-Propagation.md v3.0 §7):
     → Parent = Maximum Hardware-Subsidy provider (oxytocin, baby schema, synchrony)
     → Arms race INVERTS the subsidy direction:
-      Parent SHOULD = subsidy (safety, exploration, approach tag)
-      → BECOMES a threat transmitter (Level 1 imposed, avoidance tag)
+      Parent SHOULD = subsidy (safety, exploration, approach links)
+      → BECOMES a threat transmitter (Level 1 imposed, avoidance links)
     → = Hardware-Subsidy CORRUPTED: same entity, INVERTED DIRECTION
     → Teacher: Moderate subsidy → also converted into a ranking instrument
     → = Arms race = ESCALATING demand for subsidy that NOBODY CAN PROVIDE
@@ -1008,7 +1008,7 @@ THEORETICAL FOUNDATION
 ═══════════════════════════════════════════════════════
 
 → Education-Mechanism.md v2.2 ⭐
-   §2.2 Direction > Level (approach/avoidance tags — arms race = avoidance factory)
+   §2.2 Direction > Level (approach/avoidance links — arms race = avoidance factory)
    §3.3 3 ORIGIN Threat Applied to Education (Domain/Peer/Imposed)
    §3.1 Bridge = Source ④ (arms race = source ④ dominated for 12+ years)
    §3.4 Transition 4 fill sources (arms race blocks ①②③ emergence)

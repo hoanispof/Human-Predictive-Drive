@@ -624,8 +624,9 @@ APPLIED TO COMMUNICATION:
 🟡 DECISION MATRIX:
 
   ┌─────────────────────┬────────────────┬──────────────┬───────────────┐
-  │                     │ Struct. sim.   │ Endpoint?    │ Domain A      │
-  │                     │ high (>60%)    │              │ known deeply? │
+  │                     │ Structural     │              │ Domain A      │
+  │                     │ similarity     │ Endpoint?    │ known deeply? │
+  │                     │ high (>60%)    │              │               │
   ├─────────────────────┼────────────────┼──────────────┼───────────────┤
   │ ✅ Use analogy      │ ✅             │ ✅           │ ✅            │
   │ ⚠️ Use + mark       │ ✅             │ ❌ (stepping)│ ✅            │

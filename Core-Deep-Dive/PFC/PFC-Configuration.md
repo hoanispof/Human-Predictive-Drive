@@ -376,10 +376,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Config │ Name             │ PFC State          │ Key Feature          │
   ├────────┼──────────────────┼────────────────────┼──────────────────────┤
   │ ①      │ Normal           │ All available      │ Baseline operation   │
-  │ ②      │ Reallocation     │ Task ON, self OFF  │ Flow, deep perform.  │
+  │ ②      │ Reallocation     │ Task ON, self OFF  │ Flow, deep performance│
   │ ③      │ Reconfigured     │ Altered, guided    │ Meditation, hypnosis │
-  │ ④      │ Disconnected     │ ALL offline        │ Acute threat (Str.A) │
-  │ ⑤      │ Hyperactivated   │ 4 func. weaponized │ Dissociation (Str.B) │
+  │ ④      │ Disconnected     │ ALL offline        │ Acute threat         │
+  │        │                  │                    │ (Strategy A)         │
+  │ ⑤      │ Hyperactivated   │ 4 functions        │ Dissociation         │
+  │        │                  │ weaponized         │ (Strategy B)         │
   │ ⑥      │ Disintegrated    │ ALL off, ⑭ enhance │ Reconsolidation      │
   └────────┴──────────────────┴────────────────────┴──────────────────────┘
 
@@ -701,7 +703,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ ② Reallocation     │ Task-serving subset     │  ~14   │   0    │   0     │
   │ ③ Reconfiguration  │ Suggestion-guided       │  ~10   │  ~4    │   0     │
   │ ④ Disconnected     │ ALL PFC offline         │   0    │   0    │   0     │
-  │ ⑤ Hyperactivated   │ 4 func. weaponized      │  ~3    │  ~8    │   1     │
+  │ ⑤ Hyperactivated   │ 4 functions weaponized   │  ~3    │  ~8    │   1     │
   │ ⑥ Disintegration   │ Only ⑭ enhanced         │   0    │   0    │   1     │
   └────────────────────┴─────────────────────────┴────────┴────────┴─────────┘
 

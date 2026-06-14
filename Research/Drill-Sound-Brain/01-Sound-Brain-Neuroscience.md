@@ -613,8 +613,10 @@ confidence: 🟢 Established research | 🟡 Moderate/emerging | 🔴 Debated/pr
 │                                   │            │ subjective ? │
 │ Expectation/prediction theory     │ 🟢🟢       │ Active field │
 │ Cheung 2019 (PE+coherence)        │ 🟢🟢       │ 80k chords   │
-│ DMN interaction                   │ 🟡         │ Context-dep. │
-│ Musical anhedonia                 │ 🟢🟢       │ Domain-spec. │
+│ DMN interaction                   │ 🟡         │ Context-     │
+│                                   │            │ dependent    │
+│ Musical anhedonia                 │ 🟢🟢       │ Domain-      │
+│                                   │            │ specific     │
 │ Body entrainment                  │ 🟢🟢       │ Most robust  │
 │ Music therapy (specific apps)     │ 🟢🟡       │ Some RCTs    │
 │ Alzheimer music preservation      │ 🟢         │ Consistent   │

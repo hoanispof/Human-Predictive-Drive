@@ -1809,8 +1809,8 @@ FRAMEWORK CANNOT:
   │                │ points (beliefs)     │ narrative coherence → "why"  │
   ├────────────────┼──────────────────────┼──────────────────────────────┤
   │ SSRI           │ Serotonin → lower    │ Lower noise → PFC can engage │
-  │                │ body-feedback        │ → space for hippocampal func │
-  │                │ amplification        │                              │
+  │                │ body-feedback        │ → space for hippocampal      │
+  │                │ amplification        │ function                     │
   ├────────────────┼──────────────────────┼──────────────────────────────┤
   │ Somatic        │ Body-level work →    │ L0-L1 access → restore body  │
   │                │ ventral vagal access │ safety signals → foundation  │

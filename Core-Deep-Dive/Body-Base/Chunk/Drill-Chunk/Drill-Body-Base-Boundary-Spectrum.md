@@ -1027,7 +1027,8 @@ source_file: Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Drill-Body-Base-Boundary
     │                        │ Pattern-Modeling)│                  │                  │
     ├────────────────────────┼──────────────────┼──────────────────┼──────────────────┤
     │ Losing a child         │ DEEPEST          │ Existence-based  │ PERMANENT        │
-    │                        │ (lifetime+HW)    │ PHANTOM GAP      │ UNFILLABLE       │
+    │                        │ (lifetime +      │ PHANTOM GAP      │ UNFILLABLE       │
+    │                        │  Hardware)       │                  │                  │
     │                        │                  │ (Gap-Body-Need)  │ → maximum grief  │
     └────────────────────────┴──────────────────┴──────────────────┴──────────────────┘
 

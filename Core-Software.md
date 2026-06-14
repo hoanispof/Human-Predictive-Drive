@@ -1,7 +1,9 @@
 # Core-Software — Cycle-Based Architecture (Software Map)
 
-> **Status:** v3.0 — 1 of 2 Core v8.0 maps
-> **Date:** 2026-06-02 (v3.0 — integrates 4 new foundation files: Compile-Taxonomy v3.0, Compile-Sleep v1.0, Trust v1.0, Self-Observation v1.0)
+> **Status:** v3.2 — 1 of 2 Core v8.0 maps
+> **Date:** 2026-06-14 (v3.2 — cross-ref Drill v4.0 + Threat v2.1 + Cortisol-Baseline v2.4)
+> **v3.1:** 2026-06-14 (refine "direction gate" → cortisol = amplifier, "tag" → NET link pattern as observation parameter. Source: Drill-Threat-Direction-Analysis v4.0)
+> **v3.0:** 2026-06-02 (integrates 4 new foundation files: Compile-Taxonomy v3.0, Compile-Sleep v1.0, Trust v1.0, Self-Observation v1.0)
 > **v2.2:** 2026-05-25 (Core-Interface.md → backup, 3→2 maps, Ask-AI.md = dynamic interface)
 > **v2.0:** 2026-05-24 (FULL REWRITE — integrates 14 new concepts from 28-session drill)
 > **v1.0:** _backup/Core-Software-v1.0-backup.md (2026-05-10)
@@ -21,7 +23,7 @@
 > - Chunk.md v3.0 — chunk substrate, pattern hierarchy, Entity-Compiled reference
 > - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, Trust = Amplifier, Multi-Stream
 > - Compile-Sleep.md v1.0 — Sleep = Offline Maintenance (6 mechanisms)
-> - Trust.md v1.0 — compiled prediction, 3 sub-dims, formation, asymmetry
+> - Trust.md v1.0 — compiled prediction, 3 sub-dimensions, formation, asymmetry
 > - Self-Observation.md v1.0 — APPLICATION-3, Level 0-6, Keystone, Tool Not Virtue
 > - Body-Feedback.md — dual-pull, Body-Feedback-Precondition, 3 sources, interface loop
 > - Body-Feedback-Mechanism.md v2.1 — 4th axis: chunk dynamics, Body-Need 2-source
@@ -38,7 +40,7 @@
 > - Empathy.md v4.0 — Self-Pattern-Modeling applied, PFC budget, per-entity, 4-Layer
 > - Valence-Propagation.md v4.1 — structural/current, 3 Firing Modes, Hardware-Subsidy
 > - Entity-Valence-Dynamics.md v1.1 — per-entity valence, 3 Firing Modes, Phantom
-> - Cortisol-Baseline.md v2.1 — amplifier, direction gate, 7 modes, HPA paradox
+> - Cortisol-Baseline.md v2.4 — amplifier (not direction selector), 7 modes, HPA paradox
 > - Body-Base.md v4.0 — entry point, Model 3+1, Compilable Architecture
 > - Collective-Body.md v2.2 — Model 3 levels, trust = only bridge, By-product L3
 > - Connection.md v5.0 — 3 Generative Primitives, Entity-Access, Hardware-Subsidy, 4-Layer
@@ -208,7 +210,8 @@ not architecture. Cycle-based matches how the body-brain actually operates.
   │    Trust = AMPLIFIER (Level 0-5 gradient), NOT a GATE (binary)       │
   │    Multi-Stream: Content / Value / Entity / Behavior compile          │
   │    simultaneously                                                    │
-  │    Compiled Quality: genuine / schema / threat (compile-time lock)   │
+  │    Compiled Quality: genuine / schema / threat (compile-time NET     │
+  │      link pattern — usually persistent, CAN shift via re-linking)   │
   │    Entity-Compiled: agent compiles into body-base (40→200h)          │
   │    Activate: probability-weighted spreading activation               │
   │    Link: Type 1-3 auto + Type 4 PFC deliberate                       │
@@ -225,12 +228,15 @@ not architecture. Cycle-based matches how the body-brain actually operates.
   │                                                                      │
   │  CORTISOL (amplifier throughout):                                    │
   │    Modulates: sensitivity + energy + direction                       │
-  │    Direction gate: novelty cortisol → approach | threat → avoidance  │
+  │    Cortisol = amplifier for active direction (NOT direction selector)│
+  │    Direction = NET of emotional links via Type 1 (Drill v4.0 §4)   │
+  │    Novelty + cortisol → positive links → approach OBSERVED          │
+  │    Threat + cortisol → negative links → avoidance OBSERVED          │
   │    7 modes: IDLE → LAZY → ACTIVE → FOCUSED → PUSH → FREEZE → CRASH  │
   │                                                                      │
   │  AGENT-MECHANISM (functions on chunks):                              │
   │    ⭐ Trust: compiled prediction about reliability (Trust.md v1.0)   │
-  │      3 sub-dims: Authority / Competence / Intention (independent)    │
+  │      3 sub-dimensions: Authority / Competence / Intention (independent)    │
   │      Build SLOWLY (months) / Collapse FAST (1 betrayal) / Asymmetry  │
   │    Self-Pattern-Modeling v3.2: self → template → understand others   │
   │    Entity-Access Level 0-5: Tool → Utility → Anchor → Deep → Excess  │
@@ -615,13 +621,16 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
     → ~90%/~5% = calibration anchor (§12.4).
 
   COMPILED QUALITY DIMENSION (PFC-Operations.md v1.3 §5):
-    → Once chunks compile → they have a PERMANENT QUALITY TAG (compile-time lock):
+    → Chunks compile with emotional links shaped by body-state at compile time.
+    → 3 quality categories = observation labels for the NET link pattern:
 
     ┌──────────────────┬────────────────────────────────────────────────┐
     │ Quality          │ Meaning                                         │
     ├──────────────────┼────────────────────────────────────────────────┤
     │ GENUINE-compiled │ Body confirmed through real domain feedback.    │
-    │                  │ Approach-tagged. Self-Pattern-Modeling accurate.│
+    │                  │ Links to positive emotional regions → NET       │
+    │                  │ usually positive → approach OBSERVED.           │
+    │                  │ Self-Pattern-Modeling accurate.                 │
     │                  │ = Experience Compile + Expertise Compile.        │
     ├──────────────────┼────────────────────────────────────────────────┤
     │ SCHEMA-compiled  │ PFC-driven, not fully body-confirmed.           │
@@ -629,12 +638,15 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
     │                  │ Self-Pattern-Modeling may be inaccurate.         │
     ├──────────────────┼────────────────────────────────────────────────┤
     │ THREAT-compiled  │ Compiled under stress/coercion.                 │
-    │                  │ Avoidance-tagged. Triggers defensive            │
-    │                  │ Self-Pattern-Modeling.                          │
+    │                  │ Links to negative emotional regions → NET       │
+    │                  │ usually negative → avoidance OBSERVED.          │
+    │                  │ Triggers defensive Self-Pattern-Modeling.       │
     │                  │ = "Knows" but body reacts negatively.           │
+    │                  │ CAN shift via competitive re-linking (slow).    │
     └──────────────────┴────────────────────────────────────────────────┘
-    → Same "compiled" but DIFFERENT tag → DIFFERENT Self-Pattern-Modeling capacity,
-      DIFFERENT for life
+    → Same "compiled" but DIFFERENT link pattern → DIFFERENT NET →
+      DIFFERENT Self-Pattern-Modeling capacity
+    → Usually persistent but CAN shift (Chunk.md §4.3, Drill v4.0 §4)
 
   ENTITY-COMPILED (Entity-Compiled.md v1.0):
     → Brain compiles AGENT into body-base at STRUCTURAL level
@@ -808,13 +820,15 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   MODULATES 3 THINGS:
     → SENSITIVITY: how strong body-input signals register
     → ENERGY: how sustained action can be
-    → DIRECTION: approach (novelty) vs avoid (threat) — at compile time
+    → DIRECTION: amplifies active direction at compile (approach or avoid)
 
-  DIRECTION GATE (Chunk.md §2.4):
-    → Cortisol at compile time = determines chunk association tag
-    → Novelty-direction cortisol → chunks tag APPROACH
-    → Threat-direction cortisol → chunks tag AVOIDANCE
-    → SAME cortisol level → DIFFERENT direction → COMPLETELY DIFFERENT outcome
+  CORTISOL × DIRECTION (Chunk.md §2.4, Drill-Threat-Direction-Analysis v4.0):
+    → Cortisol = amplifier for whichever direction body-state is already in
+    → Novelty-direction + cortisol → positive Type 1 links form → approach OBSERVED
+    → Threat-direction + cortisol → negative Type 1 links form → avoidance OBSERVED
+    → SAME cortisol level → DIFFERENT body-state → DIFFERENT links → DIFFERENT NET
+    → Direction = NET of all firing chunks' emotional contributions
+    → "Approach/avoidance" = observation parameter for NET link pattern
 
   7 MODES (inverted-U):
     IDLE (too low) → LAZY → ACTIVE → FOCUSED (optimal) → PUSH → FREEZE → CRASH (too high)
@@ -835,7 +849,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
         (Yehuda: HPA axis recalibrates, NOT "stress is gone")
       → 🟢 Arnsten 2009, McEwen 2007
 
-  Reference: Cortisol-Baseline.md v2.1 (full 3,059L)
+  Reference: Cortisol-Baseline.md v2.4 (full detail)
 ```
 
 ### §4.4 Agent-Mechanism — Functions on Chunk Substrate
@@ -1359,7 +1373,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   │              │ DRD4: depth vs breadth tradeoff                       │
   │              │ 2 types: Sensory-Driven / Imagination-Driven          │
   ├──────────────┼──────────────────────────────────────────────────────┤
-  │ Threat       │ Dissonance from predicted harm (Threat.md v1.2)       │
+  │ Threat       │ Dissonance from predicted harm (Threat.md v2.1)       │
   │              │ 5 levels × 3 axes. Modern = anticipation-dominant     │
   ├──────────────┼──────────────────────────────────────────────────────┤
   │ Boredom      │ Unified formula: Dissonance + Imagine-Final unclear   │
@@ -1583,8 +1597,10 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
       → Fatigue from work → weaker parenting. NOT "no love" — budget is depleted.
       → Hold vs Suppress: Hold CAN compile, Suppress CANNOT.
 
-  14. Compiled Quality = compile-time lock
-      → Genuine vs Schema vs Threat. Same "compiled" but DIFFERENT tag for life.
+  14. Compiled Quality = compile-time NET link pattern
+      → Genuine vs Schema vs Threat. Same "compiled" but DIFFERENT link pattern
+        → DIFFERENT NET → DIFFERENT observed direction.
+      → Usually persistent but CAN shift via competitive re-linking (Chunk.md §4.3).
       → Explains: why trust compile is prone to confabulation, threat compile
         is prone to triggering.
 
@@ -1685,7 +1701,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   → 3 Domain Types (Reality/Abstract/Abstract-Dynamic)
   → Development as chunk density trajectory
   → 1 Engine + 3 Modulators: compile architecture unification (v3.0)
-  → Trust mechanism formalized: 3 sub-dims, formation, asymmetry (v3.0)
+  → Trust mechanism formalized: 3 sub-dimensions, formation, asymmetry (v3.0)
   → Sleep = Offline Maintenance System: 6 mechanisms (v3.0)
   → Self-Observation formalized: APPLICATION-3, Level 0-6, Keystone (v3.0)
 
@@ -1749,8 +1765,9 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
       Dunbar ceiling (3 mechanisms) suggests NO — but training can increase EFFICIENCY
   12. Hardware-Subsidy: precise oxytocin→VTA habituation mechanism?
       Position described, molecular pathway detail = open
-  13. Compiled Quality: can threat-compiled be re-tagged?
-      PFC-Operations suggests 6-step reversal pathway — empirical validation needed
+  13. Compiled Quality: can threat-compiled NET link pattern shift to positive?
+      PFC-Operations suggests 6-step reversal pathway + competitive re-linking
+      (Chunk.md §4.3) — empirical validation of speed + completeness needed
 
 🟡 NEW QUESTIONS (v3.0 — from 4 foundation files):
 
@@ -1815,12 +1832,12 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
 ```
   Body-Base/Body-Base.md v4.0              — Entry point, Model 3+1, Compilable Architecture
   Body-Base/Why-Body-Knows.md v1.2         — WHY body check is trustworthy
-  Body-Base/Cortisol-Baseline.md v2.1      — Amplifier, direction gate, 7 modes, HPA paradox
+  Body-Base/Cortisol-Baseline.md v2.4      — Amplifier (not direction selector), 7 modes, HPA paradox
   Body-Base/Valence-Propagation.md v4.1    — 4 valence sources, 4 propagation mechanisms, PFC Blindness
   Body-Base/Entity-Valence-Dynamics.md v1.1 — Per-entity valence, 3 Firing Modes, Hardware-Subsidy, Phantom
   Body-Base/Body-Coupling.md v3.0          — HOW body couples with entity, 4 bond types
   Body-Base/Inter-Body-Mechanism.md v1.1   — Source-of-truth: 8 inter-body principles
-  Body-Base/Trust.md v1.0                  — Trust = compiled prediction, meta-dimension, 3 sub-dims
+  Body-Base/Trust.md v1.0                  — Trust = compiled prediction, meta-dimension, 3 sub-dimensions
 ```
 
 ### §13.3 Chunk System
@@ -1897,7 +1914,10 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
 
 ```
   Observation/Novelty.md v1.2              — Positive prediction-delta, DRD4
-  Observation/Threat.md v1.2               — Dissonance from predicted harm
+  Observation/Threat.md v2.1               — Dissonance from predicted harm,
+    6-variable response, cortisol = amplifier, no tag, P(resolution) spectrum
+  Observation/Drill-Threat-Direction-Analysis.md v4.0 — No tag at neural level,
+    cortisol = amplifier, direction = NET link pattern, §6.5 Resolution Probability Spectrum
   Observation/Autonomy-Hardware.md v1.2    — Efference copy, vmPFC+DRN controllability
   Observation/Drive.md v1.2                — Integration: HOW drives combine
   Observation/Boredom.md v2.0              — Unified formula, 6 sources, Resonance Decline
@@ -1968,26 +1988,29 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
 
 ## Closing Note
 
-**Core-Software v3.0** — 1 of 2 Core v7.8 maps.
+**Core-Software v3.2** — 1 of 2 Core v8.0 maps.
 
 The software map describes in THE MOST DETAIL how the body-brain system OPERATES.
 Cycle-based architecture emerged from 35,000+ lines of deep analysis (130+ files, 500+ citations).
 v2.0 integrated 14 new concepts from 28-session drill + 6-session foundation rewrite.
 v3.0 integrated 4 new foundation files: Compile-Taxonomy v3.0 (1 Engine + 3 Modulators),
 Compile-Sleep v1.0 (Sleep Maintenance 6 mechanisms), Trust.md v1.0 (compiled prediction,
-3 sub-dims, formation, asymmetry), Self-Observation.md v1.0 (APPLICATION-3, Level 0-6,
-Keystone, Tool Not Virtue). 25 key reframes.
+3 sub-dimensions, formation, asymmetry), Self-Observation.md v1.0 (APPLICATION-3, Level 0-6,
+Keystone, Tool Not Virtue). v3.1 refined "direction gate" → cortisol = amplifier,
+"tag" → NET link pattern as observation parameter (source: Drill-Threat-Direction-Analysis v4.0).
+v3.2 cross-ref update: Drill v4.0, Threat v2.1, Cortisol-Baseline v2.4.
+25 key reframes.
 
 Want to know WHAT IS WHERE → Core-Hardware.md.
 Want to INTERACT with the framework → Ask-AI.md (AI generates dynamic interface per user).
 
-> *Core-Software v3.0 — "Perception-Action Cycle: Domain → Body-Input → Unconscious(Chunks) →
+> *Core-Software v3.2 — "Perception-Action Cycle: Domain → Body-Input → Unconscious(Chunks) →
 > Feeling → PFC → Body-Output → Domain. Chunks = sole substrate. Simulation-Engine = 1 engine,
 > N applications (Self-Pattern-Modeling, Imagine-Final, Self-Observation). Body-Feedback = Evaluative
 > reward (opioid, Body-Feedback-Precondition) + Direct-State reward (non-opioid, burnout-proof) + Dissonance.
 > PFC = observer + orchestrator (Hold/Suppress, Budget, Compiled Quality).
 > Compile Architecture: 1 Engine (Exposure → Hebbian) + 3 Modulators + Sleep Maintenance.
-> Trust = compiled prediction about reliability (3 sub-dims, build slowly, collapse fast).
+> Trust = compiled prediction about reliability (3 sub-dimensions, build slowly, collapse fast).
 > Self-Observation = APPLICATION-3 (Keystone: fail → cascade 5+ systems. Tool Not Virtue).
 > Entity-Compiled = structural body-base integration. Entity-Access Level 0-5.
 > Bond-Architecture = 1 mechanism × 4 bonds. Hardware-Subsidy per entity.

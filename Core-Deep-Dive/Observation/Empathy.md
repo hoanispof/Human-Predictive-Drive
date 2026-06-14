@@ -1542,12 +1542,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                  │ Mother→   │ Child→    │ Close    │ Romantic  │ Professional │
   │                  │ Child     │ Mother    │ Friend   │           │              │
   ├──────────────────┼───────────┼───────────┼──────────┼───────────┼──────────────┤
-  │ VM/VS ratio      │ VS dom.   │ VM→VS     │ VM dom.  │ Phase-dep.│ VM only      │
+  │ VM/VS ratio      │ VS        │ VM→VS     │ VM       │Phase-     │ VM only      │
+  │                  │ dominant  │           │ dominant │dependent  │              │
   │ Hardware-Subsidy │ MAX       │ MODERATE  │ NONE     │ TEMPORARY │ NONE         │
-  │ Compilation      │ SKIP(HW)  │ Standard  │ Standard │ Accelerate│ Selective    │
+  │ Compilation      │ SKIP      │ Standard  │ Standard │ Accelerate│ Selective    │
+  │                  │ (Hardware)│           │          │           │              │
   │ Cost profile     │ ≈ 0       │ Shift     │ Moderate │ Variable  │ High Fresh   │
   │ "Stale" risk     │ LOW       │ MOD(teen) │ HIGH     │ HIGHEST   │ N/A          │
-  │ Phantom on loss  │ DEVASTAT. │ MAJOR     │ MINOR    │ COMPLEX   │ MINOR        │
+  │ Phantom on loss  │DEVASTATING│ MAJOR     │ MINOR    │ COMPLEX   │ MINOR        │
   └──────────────────┴───────────┴───────────┴──────────┴───────────┴──────────────┘
   (VM = Valence-Momentary, VS = Valence-Structural)
 
@@ -2614,10 +2616,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ Verbal chunks        │ YES (language)       │ YES (training data)  │
     │ Somatic chunks       │ YES (body experience)│ NO                   │
     │ Emotional chunks     │ YES (truly felt it)  │ NO                   │
-    │ Compiled body resp.  │ YES — chunks fire    │ NO                   │
-    │ when empathizing     │ → body ACTUALLY resp.│ → only outputs text  │
+    │ Compiled body        │ YES — chunks fire    │ NO                   │
+    │ response when        │ → body ACTUALLY      │ → only outputs text  │
+    │ empathizing          │ responds             │                      │
     │ VM reward/cost       │ YES — biochemistry   │ NO                   │
-    │ Valence-Structural   │ YES — body-base ext. │ NO                   │
+    │ Valence-Structural   │ YES — body-base      │ NO                   │
+    │                      │ extension            │                      │
     │ Co-regulation        │ YES — 2 bodies sync  │ NO                   │
     └──────────────────────┴──────────────────────┴──────────────────────┘
 

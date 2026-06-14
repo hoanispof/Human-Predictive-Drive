@@ -204,7 +204,8 @@ THIS FILE ADDS (new value):
   ├─────────────────┼──────────────────────┼───────────────┼──────────────┤
   │ Digital/AI      │ Variable, creative,  │ Shifting      │ HIGH (aware- │
   │ (~30 years)     │ novelty-rich, AI     │ positive      │ ness + tools │
-  │                 │ compensates detail   │ (domain-dep.) │ + research)  │
+  │                 │ compensates detail   │ (domain-      │ + research)  │
+  │                 │                      │ dependent)    │              │
   └─────────────────┴──────────────────────┴───────────────┴──────────────┘
 
   KEY INSIGHT: Industrial era = PEAK MISMATCH

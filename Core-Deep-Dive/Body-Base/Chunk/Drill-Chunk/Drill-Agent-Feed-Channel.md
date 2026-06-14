@@ -748,7 +748,8 @@ naming_note: |
   ┌────┬──────────────────────────────────────────────────┬──────────────────┬──────────┐
   │ #  │ Insight                                          │ Source           │ Confid.  │
   ├────┼──────────────────────────────────────────────────┼──────────────────┼──────────┤
-  │ 1  │ Social gap = hardware. Brain self-manufactures   │ Solitary conf.   │ 🟢       │
+  │ 1  │ Social gap = hardware. Brain self-manufactures   │ Solitary         │ 🟢       │
+  │    │                                                  │ confinement      │          │
   │ 2  │ Touch ≠ food. Independent. Tonic > Cyclic       │ Harlow           │ 🟢       │
   │ 3  │ Entity-Compiled deep enough → treats as real     │ Parasocial       │ 🟢       │
   │ 4  │ Each gap type = INDEPENDENT, fill 1 ≠ replace   │ Long-distance    │ 🟢       │

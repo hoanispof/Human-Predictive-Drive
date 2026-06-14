@@ -1069,7 +1069,8 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
   │ 2. Discrimination   │ Step ③ handle = distinguish quality      │
   │                     │ Step ④ resonating = verify distinctions   │
   ├─────────────────────┼───────────────────────────────────────────┤
-  │ 3. Pattern recog.   │ Step ⑤ asking = discover situation link  │
+  │ 3. Pattern          │ Step ⑤ asking = discover situation link  │
+  │    recognition      │                                           │
   │                     │ "What is it about?" = pattern search      │
   ├─────────────────────┼───────────────────────────────────────────┤
   │ 4. Label attachment │ Step ③ handle = label attempt             │

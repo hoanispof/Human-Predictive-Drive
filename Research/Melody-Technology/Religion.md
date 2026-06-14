@@ -1189,8 +1189,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ COMT fast            │ Fast-switcher → action-oriented traditions  │
   │ (fast switcher)      │ FIT: Evangelical worship, Sufi whirling     │
   ├─────────────────────┼────────────────────────────────────────────┤
-  │ Cortisol baseline    │ HIGH: NEEDS strong MTF4 (dissonance mgmt)   │
-  │ high                 │ → "Suffering has meaning" = CRITICALLY NEEDED│
+  │ Cortisol baseline    │ HIGH: NEEDS strong MTF4 (dissonance         │
+  │ high                 │ management)                                 │
+  │                      │ → "Suffering has meaning" = CRITICALLY NEEDED│
   ├─────────────────────┼────────────────────────────────────────────┤
   │ Cortisol baseline    │ LOW: MTF4 less critical (less existential   │
   │ low                  │ anxiety) → still benefits MTF2, MTF7 but   │

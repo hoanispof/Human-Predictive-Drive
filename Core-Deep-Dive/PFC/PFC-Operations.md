@@ -1,10 +1,11 @@
 ---
 title: PFC-Operations — Hold and Suppress on the Compiled/Fresh Spectrum
-version: 1.3
+version: 1.4
 created: 2026-05-22
 updated: 2026-05-31 (v1.3 — §8.3 PFC Cost Mechanism reframe: glucose FALSIFIED → processing load (serial bottleneck + catecholamine + allocation). +6 citations. Gailliot → ❌. §2.1, §4.3, §9.1 aligned)
+refined: 2026-06-14 (v1.4 — §5 Compiled Quality: "TAG" → "NET link pattern" + "Type 1 links". §5.2 "permanent" → "strongly persistent, not permanence" + observation parameter note. §8.5, §12 aligned. Source: Drill v4.0 §4)
 previous_update: 2026-05-30 (v1.2 — §9.3 2-Mode Engagement: Compiled/Fresh at meta-level, Drill-Sound-Brain propagation)
-status: MECHANISM v1.3
+status: MECHANISM v1.4
 scope: |
   HOW PFC operates: 2 operations (Hold + Suppress), 4 combinations, 3 outcomes.
   Compiled Quality Dimension (genuine / schema / threat).
@@ -28,7 +29,7 @@ dependencies:
   - PFC-Function.md v1.2 — 24 functions, 5 categories (companion)
   - Background-Pattern.md v1.1 — 2D model Depth×Density, §8 self-reinforcing loop
   - Autonomy-Hardware.md v1.1 — vmPFC/DRN, controllability, efference copy
-  - Cortisol-Baseline.md v2.1 — cortisol direction tag, PFC damage pathway
+  - Cortisol-Baseline.md v2.4 — cortisol direction × NET link pattern, PFC damage pathway
   - Body-Feedback-Label.md v2.1 — vocabulary reference (§8 Compiled/Fresh, §9C 3-cost)
   - Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State Dissonance × PFC effectiveness
   - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, pathways
@@ -50,7 +51,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 >
 > **Compiled chunks have a QUALITY DIMENSION:**
 > **Genuine-compiled (body confirmed) ≠ Schema-compiled (PFC-driven) ≠ Threat-compiled (forced).**
-> **Same "compiled" status — but DIFFERENT tag, DIFFERENT Self-Pattern-Modeling capacity, DIFFERENT across a lifetime.**
+> **Same "compiled" status — but DIFFERENT NET link pattern, DIFFERENT Self-Pattern-Modeling capacity, DIFFERENT across a lifetime.**
 >
 > **PFC budget = FINITE. SHARED. Exhausted at work → Self-Pattern-Modeling for children WEAKENS → NOT "not loving them."**
 
@@ -425,8 +426,8 @@ COMPILED → FRESH (Disruption):
   │ Compile pathway                │ Genuine body     │ PFC/obligation   │ Punishment/fear  │
   │                                │ reward           │                  │                  │
   │ Cortisol direction             │ Novelty          │ Neutral          │ Threat           │
-  │ Compile-time tag               │ APPROACH         │ FLAT             │ AVOIDANCE        │
-  │                                │ (opioid present) │ (relief/neutral) │ (threat lock)    │
+  │ Compile-time NET link pattern  │ Positive-dominant│ Mixed/neutral    │ Negative-dominant│
+  │                                │ (opioid present) │ (relief/neutral) │ (threat compile) │
   │ Body on re-use                 │ WANTS to use     │ NEUTRAL          │ AVOIDS using     │
   │                                │ again            │                  │                  │
   │ Self-Pattern-Modeling capacity │ EXPANSIVE        │ LIMITED          │ BIASED negative  │
@@ -436,7 +437,7 @@ COMPILED → FRESH (Disruption):
   │ Autonomy-Hardware path         │ Path A (opioid)  │ Mixed            │ Path B (relief)  │
   └────────────────────────────────┴──────────────────┴──────────────────┴──────────────────┘
 
-  🟢 Cortisol direction tag: Autonomy-Hardware §3, Cortisol-Baseline §7.
+  🟢 Cortisol direction × link pattern: Autonomy-Hardware §3, Cortisol-Baseline v2.4 §7.
   🟢 Opioid vs relief pathways: Berridge 2003, Liking-Wanting.md §4.
   🟡 3 quality types as taxonomy = framework synthesis.
 ```
@@ -444,28 +445,35 @@ COMPILED → FRESH (Disruption):
 ### §5.2 — Compile-Time Direction Lock
 
 ```
-⭐ TAG DOES NOT CHANGE AFTER COMPILE:
+⭐ LINK PATTERN FORMS AT COMPILE — STRONGLY PERSISTENT, NOT PERMANENT:
 
   Chunks compile at the MOMENT cortisol fires.
-  The body-state direction at that moment = LOCKED IN to the chunk.
-  = COMPILE-TIME variable — after compiling, tag is PERMANENT.
+  Cortisol AMPLIFIES link formation in the direction of body state at that moment.
+  Positive emotional links (Type 1) OR negative emotional links (Type 1) form.
+  = COMPILE-TIME variable — after compiling, NET link pattern is strongly persistent.
 
   Student A (chose freely, from genuine interest):
     → Moderate cortisol + dopamine + opioid preview.
-    → Math chunks compile with APPROACH TAG.
+    → Math chunks compile with positive Type 1 links.
     → 20 years later: "I love math — use it freely."
 
   Student B (forced, under threat):
     → Moderate cortisol (SAME LEVEL) + NE + adrenaline.
-    → Math chunks compile with AVOIDANCE TAG.
+    → Math chunks compile with negative Type 1 links.
     → 20 years later: "I'm good at math but HATE opening a math textbook."
 
   → SAME content. SAME cortisol level. DIFFERENT direction.
-  → DIFFERENT tag → DIFFERENT across an entire lifetime.
+  → DIFFERENT NET link pattern → DIFFERENT across an entire lifetime.
   → = "Skilled but hate it" = threat-compiled chunks (very common).
 
-  🟢 Cortisol direction × chunk compile: Cortisol-Baseline §7.2-§7.3.
-  🟡 "Compile-time lock" as permanent direction = framework synthesis.
+  ⭐ 'Compile-time lock' = STRONG PERSISTENCE, not permanence (Drill v4.0 §4):
+    No binary tag at neural level. Direction = NET of Type 1 links.
+    Links CAN shift via competitive re-linking (Chunk.md v3.1 §4.3).
+    But: high emotional weight at compile (factor ③) → link VERY strong → LOOKS permanent.
+    7-factor link strength explains why pattern persists without needing a "tag."
+
+  🟢 Cortisol direction × chunk compile: Cortisol-Baseline v2.4 §7.2-§7.3.
+  🟡 "Compile-time lock" as strongly persistent direction = framework synthesis (Drill v4.0 §4.5).
 ```
 
 ### §5.3 — Quality × Self-Pattern-Modeling Capacity
@@ -485,7 +493,7 @@ COMPILED → FRESH (Disruption):
     → E.g.: Mom cooks because she knows child likes it → makes only 1-2 known dishes.
 
   THREAT-COMPILED about an entity:
-    → Threat-tagged chunks → Self-Pattern-Modeling bias NEGATIVE.
+    → Negative-linked chunks → Self-Pattern-Modeling bias NEGATIVE.
     → Self-Pattern-Modeling predicts THREAT from entity → defensive → misses positive.
     → E.g.: Student forced to study math → Self-Pattern-Modeling predicts "math = uncomfortable"
       → even a fun math puzzle → body still avoidance.
@@ -671,7 +679,7 @@ COMPILED → FRESH (Disruption):
 
   STEP 5 — BUILD NEW pattern (genuine):
     → Hold new WITH genuine body engagement (not forced).
-    → Compile approach tag → Fresh Type B Outcome A trajectory.
+    → Build positive emotional links → Fresh Type B Outcome A trajectory.
 
   STEP 6 — COMPILE NEW → sustain:
     → Repeat + sleep consolidation → new > old suppress.
@@ -1022,7 +1030,7 @@ CAN COMPILED SUPPRESS BE MEASURED?
 
   1. Background-Pattern §8 SELF-REINFORCING LOOP:
     Compiled suppress → cortisol elevated → PFC weakened →
-    New chunks compile under cortisol → threat-tagged → reinforce.
+    New chunks compile under cortisol → negative-linked → reinforce.
     → = "Forget that one is suppressing" = Background-Pattern absorbs suppress into baseline.
 
   2. AUTONOMY-HARDWARE:
@@ -1090,7 +1098,7 @@ CAN COMPILED SUPPRESS BE MEASURED?
   Compiled suppress as meta-pattern (distinct concept)
   3-state distinction (genuine / compiled suppress / active suppress)
   Compiled Quality Dimension (genuine / schema / threat)
-  Compile-time direction lock (permanent quality tag)
+  Compile-time direction lock (NET link pattern, strongly persistent)
   7-factor B vs C determinant model
   Density > Depth for changeability
   Compiled suppress → learned helplessness escalation
@@ -1123,8 +1131,8 @@ CAN COMPILED SUPPRESS BE MEASURED?
 | Logic-Feeling v2.1 | §1 spectrum, §2 labels | COMPANION: observer perspective |
 | PFC-Function v1.2 | §1-§5, 24 functions | COMPANION: WHAT PFC does |
 | Background-Pattern v1.1 | §2 quadrants, §8 loop, §10 resolution | Shiftability + resolution |
-| Autonomy-Hardware v1.1 | §2 vmPFC/DRN, §3 direction tag | Controllability + compile quality |
-| Cortisol-Baseline v2.1 | §7 direction, §9 PFC damage | Amplifier + damage timeline |
+| Autonomy-Hardware v1.1 | §2 vmPFC/DRN, §3 direction | Controllability + compile quality |
+| Cortisol-Baseline v2.4 | §7 direction, §7.7 5 roles, §9 PFC damage | Amplifier + NET link pattern + damage |
 | Compile-Taxonomy v2.0 | §1-§2 3 Compile Types | Compile pathway × quality |
 | Self-Pattern-Modeling v3.0 | §2 Compiled/Fresh | Self-Pattern-Modeling × compiled quality |
 | Body-Coupling v2.0 | Depth × Direction | Relationship suppress |

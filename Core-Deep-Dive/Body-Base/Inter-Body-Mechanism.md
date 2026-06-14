@@ -1407,7 +1407,7 @@ MECHANISM FILES (inter-body directly):
   Body-Feedback-Mechanism.md v2.0 — §1 Body-Need, §2 2-source, §3 dynamics
   Gap-Direction.md v2.0           — direction per-agent, by-product match
   Autonomy-Hardware.md v1.2       — efference copy, vmPFC/DRN, hardware-subsidy
-  Self-Pattern-Modeling.md v3.1   — solo simulation, 1 mech × 3 dims
+  Self-Pattern-Modeling.md v3.1   — solo simulation, 1 mechanism × 3 dimensions
   By-Product-Gap-Resonance.md v1.4 — mutual match, 5 drills, sustainability
   Connection.md v5.0              — 4-Layer Sustainability, Resonance Decline,
                                     hardware-subsidy

@@ -971,9 +971,10 @@ THIS FILE RESPONDS — per Trade-Off insight:
   │              │ → MINIMAL intervention   │                     │        │
   ├──────────────┼──────────────────────────┼─────────────────────┼────────┤
   │ Mild         │ Environment design (§2)  │ Mini-arcs (§2.2)    │ Maybe  │
-  │              │ + external PFC (§4)      │ + social accel (§6) │ (fit-  │
-  │              │ + exercise (§5.1)        │ + drive mgmt (§7)   │  dep.) │
-  │              │ → MODERATE effort        │                     │        │
+  │              │ + external PFC (§4)      │ + social            │ (fit-  │
+  │              │ + exercise (§5.1)        │   acceleration (§6) │ depen- │
+  │              │ → MODERATE effort        │ + drive management  │ dent)  │
+  │              │                          │   (§7)              │        │
   ├──────────────┼──────────────────────────┼─────────────────────┼────────┤
   │ Moderate     │ Medication LIKELY        │ Full external PFC   │ Likely │
   │              │ + environment redesign   │ + coached social    │        │

@@ -12,7 +12,7 @@ scope: |
   prediction-delta + opioid system → self-action = higher prediction accuracy
   = higher body reward. Universal — present in everyone, cross-species.
   Supplement: vmPFC + DRN controllability learning (Maier & Seligman 2016),
-  cortisol direction tag (novelty vs threat), opioid vs relief pathways.
+  cortisol direction link pattern (novelty vs threat), opioid vs relief pathways.
   v1.1 KEY CHANGES:
     ⑪ +Compilable Architecture alignment: these emergent patterns = Compilable Architecture specific
     ⑫ +Cross-refs: Inter-Body-Mechanism v1.0, Body-Feedback-Label v2.0, dependency versions updated
@@ -32,7 +32,7 @@ position: |
   operate this way. Similar to how VTA prediction-delta is emergent from architecture.
 dependencies:
   - Core-v7.8-Draft.md — §8 observation parameters, Autonomy definition
-  - Cortisol-Baseline.md v2.0 — §7.2-§7.3 chunk direction tag
+  - Cortisol-Baseline.md v2.4 — §7.2-§7.3 chunk direction link pattern
   - Inter-Body-Mechanism.md v1.0 — §1.2 Compilable Architecture (general-purpose system)
   - Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap, prediction-delta
   - Body-Feedback-Label.md v2.0 — vocabulary consistency
@@ -71,7 +71,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > naturally produces dopamine signal when outcome > prediction.
 >
 > This file: WHY hardware produces that pattern (mechanism),
-> AND why being coerced = damage at the hardware level (cortisol direction tag).
+> AND why being coerced = damage at the hardware level (cortisol direction link pattern).
 > Autonomy.md (companion file): HOW that pattern develops per person (chunks).
 
 ---
@@ -88,9 +88,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   - §2.1 — Maier & Seligman 2016: Helplessness = DEFAULT
   - §2.2 — vmPFC Learns "Controllable" → Suppresses DRN
   - §2.3 — Chronic Cortisol → vmPFC Atrophies → Helplessness
-- §3 — CORTISOL DIRECTION TAG: SAME LEVEL, DIFFERENT TAG
+- §3 — CORTISOL DIRECTION LINK PATTERN: SAME LEVEL, DIFFERENT LINKS
   - §3.1 — Novelty Direction vs Threat Direction
-  - §3.2 — Compile-Time Lock: Tag Does NOT Change After Compile
+  - §3.2 — Compile-Time Lock: Link Pattern Strongly Persistent After Compile
   - §3.3 — "Skilled But Hate It" = Threat-Compiled Chunks
 - §4 — OPIOID vs RELIEF: 2 PATHWAYS, 2 OUTCOMES
   - §4.1 — Path A (Self-Chosen): Opioid → Sustainable
@@ -530,7 +530,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §3 — CORTISOL DIRECTION TAG: SAME LEVEL, DIFFERENT TAG
+## §3 — CORTISOL DIRECTION LINK PATTERN: SAME LEVEL, DIFFERENT LINKS
 
 ### §3.1 — Novelty Direction vs Threat Direction
 
@@ -548,7 +548,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │                 │ + Opioid mild (preview)│ + Adrenaline         │
     │ Body state      │ EXCITED                │ TENSE                │
     ├─────────────────┼────────────────────────┼──────────────────────┤
-    │ Chunk tag       │ APPROACH (opioid)      │ AVOIDANCE (threat)   │
+    │ Chunk links       │ APPROACH (opioid)      │ AVOIDANCE (threat)   │
     │                 │ "understanding =       │ "studying =          │
     │                 │  pleasant"             │  uncomfortable"      │
     │ Long-term       │ Body LIKES to use it   │ Body AVOIDS it       │
@@ -565,12 +565,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Self-chosen action = typically NOVELTY direction
     → Forced action = typically THREAT direction
     → = Autonomy (self) vs Coercion (external) → DIFFERENT cortisol direction
-    → = DIFFERENT chunk tag → DIFFERENT for a lifetime
+    → = DIFFERENT chunk links → DIFFERENT for a lifetime
 
     (Table duplicated from Cortisol-Baseline §7.2 for self-contained reference)
 ```
 
-### §3.2 — Compile-Time Lock: Tag Does NOT Change After Compile
+### §3.2 — Compile-Time Lock: Link Pattern Strongly Persistent After Compile
 
 ```
 🟡 FRAMEWORK:
@@ -582,17 +582,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Student A (self-chosen, interest):
     → Cortisol moderate + dopamine + opioid preview
     → Body state = NOVELTY direction
-    → Math chunks compile with APPROACH TAG (opioid present at compile)
+    → Math chunks compile with APPROACH LINKS (opioid present at compile)
     → As adult: "I love math, use it comfortably"
 
   Student B (coerced, threat):
     → Cortisol moderate (SAME LEVEL) + NE + adrenaline
     → Body state = THREAT direction
-    → Math chunks compile with AVOIDANCE TAG (threat direction at compile time)
+    → Math chunks compile with AVOIDANCE LINKS (threat direction at compile time)
     → As adult: "I'm good at math but HATE opening a math book"
 
   → SAME content learned. SAME cortisol level.
-  → DIFFERENT direction → DIFFERENT tag → DIFFERENT 20 years later.
+  → DIFFERENT direction → DIFFERENT link pattern → DIFFERENT 20 years later.
 ```
 
 ### §3.3 — "Skilled But Hate It" = Threat-Compiled Chunks
@@ -605,7 +605,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├────────────────────┼──────────────────┼──────────────────┤
   │ Short term (6 mo)  │ Slower start     │ Faster (forced)  │
   │ Chunk quantity     │ Fewer initially  │ More initially   │
-  │ Chunk quality      │ Approach-tagged  │ Avoidance-tagged │
+  │ Chunk quality      │ Approach-linked  │ Avoidance-linked │
   │ Long term (10 yr)  │ Continue growing │ Decay + avoidance│
   │ Net result         │ DEEP + ENJOYED   │ BROAD but AVOIDED│
   └────────────────────┴──────────────────┴──────────────────┘
@@ -617,7 +617,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → = Short-term visible bias (Domain-Mapping-Drive.md line 2991-2993)
 
   "Skilled but hate it" = VERY COMMON phenomenon:
-    → Chunks PRESENT (skilled) but avoidance-tagged (hate it)
+    → Chunks PRESENT (skilled) but avoidance-linked (hate it)
     → Body AVOIDS using them → career in that field = BURNOUT risk
     → = Threat-compiled mastery = fragile achievement
 ```
@@ -643,7 +643,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ⑤ Opioid: match → "exactly right" → hedonic reward
 
-    ⑥ Chunk compiles with APPROACH TAG → "understanding = pleasant"
+    ⑥ Chunk compiles with APPROACH LINKS → "understanding = pleasant"
 
     ⑦ Next encounter: body LIKES to use the chunk → approach → repeat
 
@@ -667,7 +667,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ⑤ Threat REMOVED → cortisol DROPS → RELIEF
 
-    ⑥ Chunk compiles with AVOIDANCE TAG → "studying = uncomfortable, done = relieved"
+    ⑥ Chunk compiles with AVOIDANCE LINKS → "studying = uncomfortable, done = relieved"
 
     ⑦ Next encounter: body AVOIDS → needs external threat
 
@@ -739,7 +739,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Mother forces studying math → child becomes good at math → result GOOD
     BUT:
-      → Child's prediction was overridden → chunks compile with AVOIDANCE TAG
+      → Child's prediction was overridden → chunks compile with AVOIDANCE LINKS
       → = "Good at math but HATES math"
       → = Outcome quality ≠ autonomy satisfaction
 
@@ -817,10 +817,10 @@ HARDWARE-SUBSIDY × AUTONOMY (Entity-Valence-Dynamics.md v1.0 §5):
     → No direct experiment comparing prediction-delta self vs other-fed
     → TESTABLE: compare sensory prediction-delta
 
-  ② Cortisol direction tag = COMPILE-TIME lock
+  ② Cortisol direction link pattern = COMPILE-TIME lock
     → Consistent with cortisol + opioid literature
-    → "Tag as permanent" unclear = permanent or gradual?
-    → Therapy suggests re-tagging is possible but hard
+    → "Link pattern persistence" unclear = permanent or gradual?
+    → Therapy suggests re-linking is possible but hard
 
   ③ Emergent pattern framing
     → "Autonomy preference = byproduct of architecture"
@@ -866,10 +866,10 @@ HARDWARE-SUBSIDY × AUTONOMY (Entity-Valence-Dynamics.md v1.0 §5):
     → 🟢 Neuroplasticity research: lifelong but SLOWER with age
     → Practical: early training = easier, but adult recovery = possible
 
-  Q3: Can approach tag → avoidance tag (and reverse)?
-    → Trauma: can approach-tagged chunk be RE-tagged to avoidance?
-    → Therapy: can avoidance-tagged be RE-tagged to approach?
-    → Partially answered: therapy works slowly → re-tagging possible but hard
+  Q3: Can approach links → avoidance links (and reverse)?
+    → Trauma: can approach-linked chunk be RE-linked to avoidance?
+    → Therapy: can avoidance-linked be RE-linked to approach?
+    → Partially answered: therapy works slowly → re-linking possible but hard
     → = Important for intervention design
 ```
 
@@ -882,10 +882,10 @@ DRILL SOURCE:
   → Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture (general-purpose, efference copy context)
 
 VOCABULARY:
-  → Body-Feedback-Label.md v2.0 — prediction-delta, approach/avoidance tag
+  → Body-Feedback-Label.md v2.0 — prediction-delta, approach/avoidance links
 
 HARDWARE/MECHANISM FILES:
-  → Cortisol-Baseline.md v2.0 §7.2-§7.3 — direction tag, novelty vs threat
+  → Cortisol-Baseline.md v2.4 §7.2-§7.3 — direction link pattern, novelty vs threat
   → backup/Neurochemistry.md §6.3 — controllability, vmPFC + DRN (original source)
   → Neural-Architecture.md — vmPFC sub-region, amygdala pathway
   → Neural-Processing-Flow.md §8.2 — Feeling circuit (Insula + ACC + vmPFC)
@@ -929,9 +929,9 @@ vmPFC + DRN (§2): Helplessness = DEFAULT (Maier & Seligman 2016 reversed).
   vmPFC LEARNS controllability → inhibits DRN. Chronic cortisol → vmPFC atrophies →
   helplessness returns. Domain-specific: controllable in A ≠ controllable in B.
 
-CORTISOL DIRECTION (§3): Same level, DIFFERENT direction → DIFFERENT tag.
-  Self-chosen = novelty direction = approach tag = body likes to use.
-  Forced = threat direction = avoidance tag = body avoids. Compile-time lock.
+CORTISOL DIRECTION (§3): Same level, DIFFERENT direction → DIFFERENT link pattern.
+  Self-chosen = novelty direction = approach links = body likes to use.
+  Forced = threat direction = avoidance links = body avoids. Compile-time lock.
 
 2 PATHWAYS (§4): Path A (self) → opioid → sustainable.
   Path B (coerced) → relief → dependent on threat. Same behavior, DIFFERENT mechanism.

@@ -44,7 +44,7 @@ dependencies:
   - Attention-Spectrum.md v2.1 — Attention hardware, COMT/DRD4
   - Inter-Body-Mechanism.md v2.1 — Compilable Architecture, general-purpose reward
   - Dissonance-Signal-Architecture.md v1.0 — Direct-State vs Evaluative dissonance
-  - Gap-Direction.md v2.0 — Gap direction, approach/avoidance tags
+  - Gap-Direction.md v2.0 — Gap direction, approach/avoidance links
   - Gap-Body-Need.md v1.0 — Cyclic satiation, generative gaps
 sources:
   - Drill-Self-Observation v3.2 (1,351L, 35 insights, 16 GAPs, 25+ citations)
@@ -386,7 +386,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ALL 3 = prediction-delta. All 3 CAN trigger Self-Observation.
     ① most common (74% of meditators begin due to stress — PMC9728621)
     ② most easily dismissed (Somatic-Articulation-Loop Stage 3 Reaction A)
-    ③ approach-tagged — least addressed by frameworks
+    ③ approach-linked — least addressed by frameworks
 
   🟢 Prediction-delta mechanism: Schultz 1997
   🟢 74% meditation start from suffering: Vieten et al. 2022 (PMC9728621)
@@ -734,7 +734,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Somatic-Articulation-Loop Stage 5 (body-confirm): PFC offers candidate → body votes
     → Feeling.md §3: body fires FIRST, PFC observes AFTER (invariant applies even to "meta")
     → Meditation improves meta-cognition BECAUSE it improves interoception (better body-vote reading)
-    → Rumination ≠ reflection: same loop but cortisol-tagged → body-vote is distorted
+    → Rumination ≠ reflection: same loop but cortisol-driven → body-vote is distorted
 
   🟡 Meta-observation = body-mediated cycle = framework synthesis
   🟢 Consistent: body-first temporal invariant (Libet 1985; Damasio 1994)
@@ -853,7 +853,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                  │                              │ "danger"                      │
   └──────────────────┴──────────────────────────────┴───────────────────────────────┘
 
-  Compile-time direction LOCK (tag PERMANENT):
+  Compile-time direction LOCK (link pattern strongly persistent):
   Same content (self-awareness training) but different context (curiosity vs threat)
   → 20-year trajectory COMPLETELY DIFFERENT.
 
@@ -1295,7 +1295,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Self-Observation = SURVIVAL mode         Self-Observation = EXPLORATION mode
   "Observe to AVOID danger"                "Observe to UNDERSTAND domain"
   Body-Knowing compiles: "danger patterns" Body-Knowing compiles: "domain patterns"
-  Compiled quality: THREAT-TAGGED          Compiled quality: GENUINE/APPROACH
+  Compiled quality: THREAT-LINKED          Compiled quality: GENUINE/APPROACH
 
   Each person = MIX — nobody is 100% threat or 100% novelty.
   Ratio AND intensity change by life stage, context, and domain.
@@ -1517,7 +1517,7 @@ Small delta accumulates → crosses threshold after weeks/months. Framework ment
 Compiled Suppress = person DOESN'T KNOW they're suppressing. Self-Observation literally CANNOT detect. Chicken-and-egg: Self-Observation needed to detect suppress, but suppress blocks Self-Observation.
 
 ### GAP-Self-Observation-11: Positive delta (aspiration) insufficiently covered
-Trigger Principle currently leans toward negative delta. Positive delta (approach/aspiration) = approach-tagged generative gap. Mechanism "see something beautiful → creates new gap → drive" not yet clearly connected to Self-Observation activation.
+Trigger Principle currently leans toward negative delta. Positive delta (approach/aspiration) = approach-linked generative gap. Mechanism "see something beautiful → creates new gap → drive" not yet clearly connected to Self-Observation activation.
 
 ### GAP-Self-Observation-12: External scaffold quality
 Dad asking "are you worried?" = good scaffold. Dad saying "why are you so stupid?" = bad scaffold. Framework has not yet systematically analyzed: how does scaffold QUALITY affect Self-Observation development?

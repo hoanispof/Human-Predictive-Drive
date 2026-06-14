@@ -4,7 +4,7 @@ title: "Cortisol Is Not Your Stress Hormone: Source Direction, Repair Balance, a
 date: 2026-05-31
 author: Independent researcher
 license: CC0 1.0 Universal
-status: Draft v0.1
+status: Draft v0.2
 tags: [neuroscience, cortisol, stress, HPA axis, inverted-U, falsifiable]
 ---
 
@@ -84,9 +84,9 @@ Cortisol rises during:
 
 - **Vigorous exercise** — yet people report feeling energized, even euphoric (Hackney, 2006)
 - **Morning awakening** — the cortisol awakening response (CAR) peaks 30–45 minutes after waking, the body's natural activation signal (Fries et al., 2009)
-- **Sexual activity** — cortisol elevates during arousal and orgasm
-- **Challenging problem-solving** — engaged (not threatened) intellectual tasks produce cortisol elevation
-- **Voluntary thrill-seeking** — rock climbing, horror movies, competitive sports
+- **Sexual activity** — cortisol elevates during arousal and orgasm (Exton et al., 1999)
+- **Challenging problem-solving** — engaged (not threatened) intellectual tasks produce cortisol elevation (reviewed in Dickerson & Kemeny, 2004)
+- **Voluntary thrill-seeking** — rock climbing, horror movies, competitive sports (Dickerson & Kemeny, 2004)
 
 If cortisol = stress, all of these should feel bad. They don't. The same molecule, at comparable levels, produces opposite subjective experiences depending on context.
 
@@ -127,12 +127,12 @@ Calling cortisol a "stress hormone" is like calling the relief crew a first resp
 |---|---|---|---|
 | 1 | Cortisol injection → no stress | Reyes et al. 2020 (n=46, placebo-controlled) | Yes — if cortisol = stress, injecting it should produce stress |
 | 2 | Addison's (cortisol ≈ 0) → dangerous | Clinical established | Yes — zero cortisol is harmful, not blissful |
-| 3 | Cortisol peaks during positive states | Hackney 2006; Fries et al. 2009 | Yes — same molecule, opposite subjective experience |
+| 3 | Cortisol peaks during positive states | Hackney 2006; Fries et al. 2009; Exton et al. 1999; Dickerson & Kemeny 2004 | Yes — same molecule, opposite subjective experience |
 | 4 | PFC shrinks + amygdala grows under same cortisol | McEwen 2007 + Vyas 2002 | Yes — amplifier, not uniform toxin |
 | 5 | Cortisol arrives 5–20 min after stressor | Sapolsky 2004 | Yes — sustainer, not trigger |
 
 > **Framework deep reads:**
-> [Cortisol-Baseline.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Cortisol-Baseline.md) — comprehensive cortisol mechanism (3,000+ lines, v2.2)
+> [Cortisol-Baseline.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Cortisol-Baseline.md) — comprehensive cortisol mechanism (3,000+ lines, v2.4)
 > · [Cortisol-Amplifier-Not-Cause.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Clarification/Cortisol-Amplifier-Not-Cause.md) — concise clarification file
 
 ---
@@ -189,7 +189,7 @@ Fix the source → cortisol drops naturally. "Reduce cortisol" without fixing th
 | High cortisol + poor sleep | Repair << Damage | Burnout / collapse |
 | Zero cortisol | Nothing to strengthen | Stagnation / atrophy |
 
-Sleep quality is the key variable — more important than cortisol level. Moderate cortisol with poor sleep produces worse outcomes than high cortisol with adequate sleep. This is because BDNF (Brain-Derived Neurotrophic Factor), the primary neural repair molecule, is released during deep sleep. Cortisol keeps the body alert, which degrades sleep quality. Poor sleep means poor repair. Poor repair means damage accumulates — even at moderate cortisol levels.
+Sleep quality is the key variable — more important than cortisol level. Moderate cortisol with poor sleep produces worse outcomes than high cortisol with adequate sleep. This is because BDNF (Brain-Derived Neurotrophic Factor), the primary neural repair molecule, is released during deep sleep (Diekelmann & Born, 2010; Schmitt et al., 2020). Cortisol keeps the body alert, which degrades sleep quality. Poor sleep means poor repair. Poor repair means damage accumulates — even at moderate cortisol levels.
 
 > **Framework deep reads:**
 > [Cortisol-Baseline.md §6](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Cortisol-Baseline.md) — repair × damage balance mechanism
@@ -263,19 +263,19 @@ The same cortisol level (e.g., ~15 μg/dL) can produce:
 | **Source** | Curiosity, challenge, exercise | Punishment, coercion, danger |
 | **Concurrent neurochemistry** | Dopamine + mild opioid anticipation | Norepinephrine + adrenaline dominant |
 | **Body state** | Energized, engaged | Tense, defensive |
-| **Neural compilation tag** | APPROACH (seek again) | AVOIDANCE (avoid in future) |
+| **Direction at compile** | APPROACH — positive emotional links form (seek again) | AVOIDANCE — negative emotional links form (avoid in future) |
 | **Sleep quality after** | Good (cortisol drops naturally when task ends) | May be poor (threat may not feel "resolved") |
 | **Repair capacity** | High (sleep restores) | Lower (sleep disrupted) |
-| **Long-term outcome** | Growth — usable, approach-tagged knowledge | Damage risk — avoidance-tagged knowledge |
+| **Long-term outcome** | Growth — usable, approach-linked knowledge | Damage risk — avoidance-linked knowledge |
 
-Same cortisol. Same brain. Different body-state context at the moment of experience. Different neural tag. Different long-term outcome.
+Same cortisol. Same brain. Different body-state context at the moment of experience. Different emotional link pattern. Different long-term outcome.
 
 ### The "learned math but hate math" phenomenon
 
 Consider two students who learn the same mathematics curriculum to the same performance level:
 
-- **Student A** (interest + safe environment): cortisol moderate, novelty direction. Math patterns compile with approach tags. Adult: uses math freely, gravitates toward quantitative problems.
-- **Student B** (coercion + punishment threat): cortisol moderate — the same level — threat direction. Math patterns compile with avoidance tags. Adult: knows math but avoids it. Opens a textbook → body automatically produces discomfort.
+- **Student A** (interest + safe environment): cortisol moderate, novelty direction. Math patterns compile with positive emotional links. Adult: uses math freely, gravitates toward quantitative problems.
+- **Student B** (coercion + punishment threat): cortisol moderate — the same level — threat direction. Math patterns compile with negative emotional links. Adult: knows math but avoids it. Opens a textbook → body automatically produces discomfort.
 
 Same content learned. Same cortisol level during learning. Different source. Different lifetime usability of the knowledge.
 
@@ -287,7 +287,7 @@ Newton, Tesla, and Einstein all experienced conditions strongly associated with 
 
 The Source > Level principle resolves this:
 
-- **Newton's** cortisol source was maternal abandonment — not physics. Physics was his refuge, a domain where the cortisol direction was *novelty*. Physics patterns compiled with approach tags.
+- **Newton's** cortisol source was maternal abandonment — not physics. Physics was his refuge, a domain where the cortisol direction was *novelty*. Physics patterns compiled with positive emotional links.
 - **Tesla's** cortisol source was poverty and grief — not invention. Invention was his escape, a novelty-direction domain.
 - **Einstein's** cortisol source was rigid authority — not physics. Physics pursued *outside* school was pure curiosity.
 
@@ -337,7 +337,7 @@ The framework explains via **cortisol inertia**:
 
 - During the project's final push, cortisol was elevated (challenge, deadline pressure)
 - Project completes → the mismatch (unfinished work) resolves
-- But the HPA axis does not recalibrate instantly. Cortisol has *inertia* — it takes 20–60 minutes to drop after acute events, and *days* to fully recalibrate after sustained elevation
+- But the HPA axis does not recalibrate instantly. Cortisol has *inertia* — it takes 20–60 minutes to drop after acute events (Sapolsky, 2004), and *days* to fully recalibrate after sustained elevation
 - Result: elevated cortisol + no active mismatch = a body prepared for action with nothing to act on
 - The feeling is real. It is not depression. It is biochemical lag.
 
@@ -381,7 +381,7 @@ Yehuda et al. (1990, 2001, 2004) discovered the opposite:
 
 The framework reconciles this via a **two-phase model**:
 
-**Phase 1 — Encoding (acute, days to weeks post-trauma):** Cortisol spikes HIGH. Trauma experiences compile under extreme cortisol with strong avoidance tags. The HPA axis is maximally stressed. This is what Cortisol-Baseline §10 describes, and it is accurate for the acute phase.
+**Phase 1 — Encoding (acute, days to weeks post-trauma):** Cortisol spikes HIGH. Trauma experiences compile under extreme cortisol with strong negative emotional links. The HPA axis is maximally stressed. This is what Cortisol-Baseline §10 describes, and it is accurate for the acute phase.
 
 **Phase 2 — Maintenance (chronic, months to years):** The system overcompensates. Glucocorticoid receptors upregulate. Negative feedback becomes too strong. Baseline drops *below* normal. But the system is now hypersensitive — neutral events trigger micro-spikes, the amygdala is hyperreactive, and flashbacks fire on minimal provocation.
 
@@ -440,7 +440,7 @@ This model is wrong if any of the following can be demonstrated:
 
 Five open questions where the model is uncertain or untested:
 
-**1. Direction boundary:** The Source > Level principle proposes that novelty-direction and threat-direction cortisol produce different neural compilation tags. But when does direction flip mid-experience? A student who starts a challenging task in curiosity and gradually becomes overwhelmed — do the compiled patterns carry approach tags, avoidance tags, or mixed? The transition boundary is not specified.
+**1. Direction boundary:** The Source > Level principle proposes that novelty-direction and threat-direction cortisol produce different emotional link patterns. But when does direction flip mid-experience? A student who starts a challenging task in curiosity and gradually becomes overwhelmed — do the compiled patterns carry positive links, negative links, or mixed? The transition boundary is not specified.
 
 **2. Baseline vs. hardware preference:** Two people with high cortisol baselines may be in very different situations — one calibrated high by chronic stress (changeable with intervention), the other genetically predisposed to high reactivity (constitutional). The framework does not yet specify how to distinguish them early, before intervention. Both present similarly on standard cortisol assays.
 
@@ -494,7 +494,13 @@ Calabrese, E. J., & Baldwin, L. A. (2002). Defining hormesis. *Human & Experimen
 
 Craig, A. D. (2002). How do you feel? Interoception: the sense of the physiological condition of the body. *Nature Reviews Neuroscience*, 3(8), 655–666.
 
+Dickerson, S. S., & Kemeny, M. E. (2004). Acute stressors and cortisol responses: a theoretical integration and synthesis of laboratory research. *Psychological Bulletin*, 130(3), 355–391.
+
+Diekelmann, S., & Born, J. (2010). The memory function of sleep. *Nature Reviews Neuroscience*, 11(2), 114–126.
+
 Dolcos, F., et al. (2017). Emerging directions in emotional episodic memory. *Frontiers in Psychology*, 8, 1867.
+
+Exton, M. S., et al. (1999). Endocrine response to masturbation-induced orgasm in healthy men following a 3-week sexual abstinence. *World Journal of Urology*, 17(1), 15–21.
 
 Felitti, V. J., et al. (1998). Relationship of childhood abuse and household dysfunction to many of the leading causes of death in adults: The Adverse Childhood Experiences (ACE) Study. *American Journal of Preventive Medicine*, 14(4), 245–258.
 
@@ -517,6 +523,8 @@ Reyes, G., et al. (2020). Hydrocortisone decreases metacognitive efficiency inde
 Sapolsky, R. M. (2000). Glucocorticoids and hippocampal atrophy in neuropsychiatric disorders. *Archives of General Psychiatry*, 57(10), 925–935.
 
 Sapolsky, R. M. (2004). *Why Zebras Don't Get Ulcers* (3rd ed.). Holt Paperbacks.
+
+Schmitt, K., et al. (2020). BDNF in sleep, insomnia, and sleep deprivation. *Annals of Medicine*, 52(1–2), 1–14.
 
 Selye, H. (1936). A syndrome produced by diverse nocuous agents. *Nature*, 138, 32.
 
@@ -544,7 +552,7 @@ Yerkes, R. M., & Dodson, J. D. (1908). The relation of strength of stimulus to r
 
 ---
 
-*Draft v0.1 — 2026-05-31*
+*Draft v0.2 — 2026-06-14*
 *Full framework: [github.com/hoanispof/Human-Predictive-Drive](https://github.com/hoanispof/Human-Predictive-Drive)*
 *License: CC0 1.0 Universal — use, modify, challenge freely*
 *The most valuable response you can give is a specific counterexample: a finding, observation, or dataset that contradicts something claimed here. The second most valuable is a question about something unclear. Agreement is nice but doesn't advance knowledge.*

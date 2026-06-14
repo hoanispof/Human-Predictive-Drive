@@ -88,7 +88,7 @@ THE CORE QUESTION:
 
     Principle §2.2 (Direction > Level) = universal mechanism
     → Finland: Imposed threats low → risk = too little challenge (approach-dominant)
-    → VN: Imposed threats PILING UP → risk = chronic avoidance-tagging
+    → VN: Imposed threats PILING UP → risk = chronic avoidance-linking
     → Same principle, different problem → needs different solution
 
   EXAMPLE (3 ORIGIN — Mechanism v2.2 §3.3):
@@ -315,7 +315,7 @@ MECHANISM MAP: 🟡
   → Foundation: (+) drive → enrollment + investment
   → §2.6 Imagine-Final: (+/-) strong but narrow + external (Source ④ not ①)
   → §3.1 Bridge: (+) drive = motivation source
-  → §3.3 3 ORIGIN: (-) guilt = Imposed threat → avoidance-tag
+  → §3.3 3 ORIGIN: (-) guilt = Imposed threat → avoidance links
   → §1.3 I×S: (-) society >>> individual → Forced-Fit
 
 
@@ -463,10 +463,10 @@ NEGATIVE: 🟡
     → Hardware-Subsidy (Entity-Valence-Dynamics.md v1.0 §5):
       parent = MAX subsidy potential — "parents sacrifice" = MAX involvement present
       BUT: guilt-trip = subsidy channel CORRUPTED
-      subsidy + threat → approach-tag overwritten by avoidance-tag
+      subsidy + threat → approach links overwritten by avoidance links
     → Anchor legacy (Mechanism v2.2 §3.5): education doesn't just install chunks
       — it also installs the anchor "what kind of person I AM"
-    → Guilt-anchor = "I OWE my parents" → drives learning but avoidance-tagged
+    → Guilt-anchor = "I OWE my parents" → drives learning but avoidance-linked
     → 66% of students say parents = main source of stress → Imposed dominant confirmed
   → Trust.md v1.0:
     → Parent trust = DEEPEST compiled (Trust §3: usually 5/5 sources active)
@@ -481,7 +481,7 @@ NEGATIVE: 🟡
 
 
 MECHANISM MAP: 🟡
-  → §2.2 Direction: (-) guilt → threat-path → avoidance-tagged chunks
+  → §2.2 Direction: (-) guilt → threat-path → avoidance-linked chunks
   → §2.3 Per-hardware: (-) parents choose direction → hardware ignored
   → §2.6 Imagine-Final: (-) parents inject theirs → external, not self-built
   → §3.1 Bridge: (-) guilt bridge = PERMANENT, never withdraws
@@ -549,14 +549,14 @@ NEGATIVE: 🟡
 
   → MECHANISM LENS:
     → §2.2 Direction: "suffer now, enjoy later" = cultural PERMISSION
-      for threat-path learning → normalizes avoidance-tagging
+      for threat-path learning → normalizes avoidance-linking
     → §2.8 Consolidation: sleep <7h = consolidation CUT
       → "Studying but not retaining" → study MORE → less sleep MORE → spiral
     → §3.3 3 ORIGIN: normalizes chronic Imposed = cultural foundation
       for a threat-dominant system
     → Compiled Quality (Compiled-Fresh.md v2.0 §3):
       "suffer now, enjoy later" → threat-compiled dominant
-      chunks compile WITH avoidance-tag = "knows but hates it"
+      chunks compile WITH avoidance links = "knows but hates it"
     → Dissonance-Signal-Architecture v1.0:
       chronic overwork = Direct-State Dissonance (hardware, needs rest)
       culture says "push through" = reframing Evaluative → BUT Direct-State is ignored
@@ -573,7 +573,7 @@ NEGATIVE: 🟡
 
 
 MECHANISM MAP: 🟡
-  → §2.2 Direction: (--) normalizes threat-path → avoidance-tagged culture
+  → §2.2 Direction: (--) normalizes threat-path → avoidance-linked culture
   → Foundation: (+) discipline → strong foundation basics
   → §2.5 Valley: (+) delayed gratification = valley navigation skill
   → §2.8 Consolidation: (--) normalizes sleep deprivation + overwork
@@ -870,7 +870,7 @@ PURPOSE:
 READ BY COLUMN (per mechanism):
 
   Direction (§2.2): 4 factors HINDER, 2 strongly (④⑤)
-    → VN culture NORMALIZES threat-path → avoidance-tagged learning
+    → VN culture NORMALIZES threat-path → avoidance-linked learning
     → = Mechanism v2.2 §2.2 violation IS CULTURALLY SUPPORTED
 
   Foundation: 4 factors HELP (①②⑤⑦)
@@ -1095,7 +1095,7 @@ RISK 1 [CRITICAL]: CHRONIC IMPOSED THREAT — CULTURE PERMITS IT
     → AFTER: "need to change ORIGIN" (direction)
     → Same cortisol level: Domain moderate → resilience
       | Imposed moderate → learned helplessness
-    → VN: Imposed dominant → chunks compile with AVOIDANCE-TAGS
+    → VN: Imposed dominant → chunks compile with AVOIDANCE LINKS
     → + Sleep-deprived → cortisol amplification without recovery
     → Dissonance-Signal-Architecture v1.0:
       cultural Imposed = Evaluative (compiled: "failing exam = shame")
@@ -1222,7 +1222,7 @@ THE VIETNAM PISA PARADOX — AN IMPORTANT NOTE: 🟡
   → = The cultural machinery driving ACHIEVEMENT = THE SAME machinery
     driving the MENTAL HEALTH CRISIS
 
-  → v7.8 REFRAME: machinery creates AVOIDANCE-TAGGED chunks at scale
+  → v7.8 REFRAME: machinery creates AVOIDANCE-LINKED chunks at scale
     → PISA measures chunk EXISTENCE (Level 2+) → VN good
     → PISA measures chunk DEPTH (Level 5+) → VN poor
     → = Chunks compile (foundation OK) but compile with WRONG TAG
@@ -1300,7 +1300,7 @@ THIS FILE CONNECTS TO:
     → VN culture = PROTECTS Foundation + HINDERS Per-individual + Direction
     → v7.8: culture creates PERMISSION STRUCTURE for Imposed threat (5/8 factors)
     → v7.8: culture NORMALIZES threat-path learning (4/8 factors Direction negative)
-    → PISA paradox: "knows but hates it" = avoidance-tagged chunks at scale
+    → PISA paradox: "knows but hates it" = avoidance-linked chunks at scale
     → NEW: Hardware-Subsidy × Culture: ①amplifier + ④corrupted + ⑤inverted
     → NEW: Compiled Quality × Culture: ⑤threat + ⑥schema + ②threat-risk → genuine RARE
     → NEW: Dissonance-Signal-Architecture: cultural Imposed = COMPOUND (Evaluative+Direct-State)

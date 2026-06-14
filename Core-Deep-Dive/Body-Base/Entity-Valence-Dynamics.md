@@ -105,7 +105,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐ ENTITY-VALENCE-DYNAMICS v1.0 — CORE THESIS:
 
-  ① Entity-Compiled = storage. Valence = emergent from stored tags.
+  ① Entity-Compiled = storage. Valence = emergent from stored links.
   ② 2 valence types: Structural (inside Entity-Compiled, slow) vs Current (outside, fast)
   ③ Valence-Momentary (Self-Pattern-Modeling-owned) vs Valence-Structural (Entity-Compiled) = 2 INDEPENDENT streams
   ④ 2-layer: Hardware-driven (A) vs Self-Pattern-Modeling-driven (B) → DIFFERENT visibility
@@ -165,17 +165,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ 2 VALENCE TYPES — DIFFERENT LOCATION, SPEED, AND SATIATION TYPE:
 
   STRUCTURAL VALENCE (INSIDE Entity-Compiled):
-    = Aggregate of per-channel valence tags across all compiled chunks
-    = Each chunk carries a tag: approach / avoidance / neutral (compile-time lock)
-    = Structural valence = SUM of all tags = valence PROFILE
+    = Aggregate of per-channel valence links across all compiled chunks
+    = Each chunk carries links: approach / avoidance / neutral (compile-time pattern)
+    = Structural valence = SUM of all links = valence PROFILE
     = SLOW to change (requires compile/decompile of chunks = months/years)
     = 3 subtypes (§2.1): positive-dominant / negative-dominant / MIXED
     
     STRUCTURAL VALENCE HAS A SATIATION PROFILE:
       Each channel has its own satiation type (Gap-Body-Need v2.0 §2):
-      → Cyclic channels: approach/avoidance tags OSCILLATE (hunger → fill → off → return)
-      → Tonic channels: approach tags form STABLE baseline (comfort, safety → slow build, slow fade)
-      → Generative channels: approach tags RENEWABLE (curiosity → fill → new gap → repeat)
+      → Cyclic channels: approach/avoidance links OSCILLATE (hunger → fill → off → return)
+      → Tonic channels: approach links form STABLE baseline (comfort, safety → slow build, slow fade)
+      → Generative channels: approach links RENEWABLE (curiosity → fill → new gap → repeat)
       → Structural valence = aggregate across ALL satiation types
       → Most deep entities = Tonic + Generative compound (§6)
     
@@ -783,7 +783,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       "Smelling a familiar perfume" → olfactory direct path → fires FAST
     
   C — Self-Pattern-Modeling OUTPUT: someone mentions entity → Self-Pattern-Modeling fires → Valence-Structural activates
-    Example: "Someone brings up your mother" → Self-Pattern-Modeling fires → Valence-Structural tag rises → you feel it
+    Example: "Someone brings up your mother" → Self-Pattern-Modeling fires → Valence-Structural level rises → you feel it
     
   D — LOSS / CHUNK-MISS: entity absent → full depth REVEALED
     Example: "Going to university → missing mother" = entire Valence-Structural depth fires → pain
@@ -1737,7 +1737,7 @@ CROSS-REFERENCES:
     → Body-Base.md v4.0 — L0+L1 substrate + observation parameters
     → Body-Feedback-Mechanism.md v2.1 — Body-Need aggregate, chunk dynamics
     → Schema.md v2.0 — schema = chunks + links + purpose
-    → Chunk.md v2.2 — chunk substrate, context-tag, 4 connections
+    → Chunk.md v3.1 — chunk substrate, context-tag, 4 connections
     → Reward-Signal-Architecture.md v2.1 — Evaluative/Direct-State × valence
     → Dissonance-Signal-Architecture.md v1.0 — Hardware-Subsidy bidirectional
     → Gap-Body-Need.md v2.0 — Cyclic/Tonic/Generative satiation types

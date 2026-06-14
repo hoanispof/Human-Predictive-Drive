@@ -124,7 +124,7 @@ IMAGINE-FINAL FOR VN — IF DONE RIGHT: 🟡→🔴
        → NOT labeled "lazy" or "slow" → BUT: "your hardware profile looks like this"
      → Self-built Imagine-Final (Mechanism v2.2 §2.6 — Source ① PFC)
        → "Transform your life YOUR WAY" — keep the energy, change the direction
-     → Correct direction — approach-tagged, genuine-compiled:
+     → Correct direction — approach-linked, genuine-compiled:
        → "Love learning" instead of "fear exams" (Compiled Quality: genuine > schema/threat)
        → Dissonance-Signal-Architecture: Direct-State addressed FIRST
          → Sleep + rest BEFORE reframing mindset
@@ -237,7 +237,7 @@ QW-1: DIRECT-STATE RECOVERY + SHIFT DIRECTION 🔴
      → Barrier: parents + tutoring → cap MEANINGLESS if adding 6h of private tutoring
 
   b) Reduce Imposed — end public grade comparisons
-     → Comparison = Imposed threat (Type 3) → avoidance-tag → threat-compiled LOCK
+     → Comparison = Imposed threat (Type 3) → avoidance links → threat-compiled LOCK
      → Compiled Quality: public comparison → threat-compiled (irreversible tag)
      → Replace: INDIVIDUAL feedback (reduce Imposed, keep Domain challenge)
      → Cost: $0
@@ -541,7 +541,7 @@ LT-4: ETHNIC MINORITY FOUNDATION + SUBSIDY PRIORITY 🟡
 LT-5: CULTURAL NARRATIVE SHIFT — COMPILED QUALITY + Dissonance-Signal-Architecture 🔴
   → Compiled Quality narrative: "knowing" → "knowing the RIGHT WAY"
     → "Credentials" → "genuine competency" (schema-compiled → genuine-compiled)
-    → "Excellent" = approach-tagged + genuine-compiled, not just high scores
+    → "Excellent" = approach-linked + genuine-compiled, not just high scores
   → Dissonance-Signal-Architecture narrative: "push through" → "rest first, then push"
     → Address Direct-State BEFORE Evaluative = new cultural framing
   → "Suffer now, enjoy later" → "learn correctly" (approach, not chronic threat)

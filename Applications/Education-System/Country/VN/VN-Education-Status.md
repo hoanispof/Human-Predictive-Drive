@@ -278,19 +278,19 @@ PURPOSE OF THIS SECTION:
 
 ```
 PRINCIPLE 1: DIRECTION > LEVEL (Mechanism v2.2 §2.2)
-  "Does teaching create approach-tags or avoidance-tags for the domain?"
+  "Does teaching create approach links or avoidance links for the domain?"
 
-  ASSESSMENT: ✗ (threat-heavy → avoidance-tagged)
+  ASSESSMENT: ✗ (threat-heavy → avoidance-linked)
 
   CURRENT STATE:
-    System creates widespread AVOIDANCE-TAGS:
-    → Penalizing low grades → "math = fear" (avoidance-tagged for life)
+    System creates widespread AVOIDANCE LINKS:
+    → Penalizing low grades → "math = fear" (avoidance-linked for life)
     → Public comparison → "learning = shame risk" (threat-path)
     → High-stakes exams → "knowledge = for passing tests" (survival mode)
     → "Suffer now, enjoy later" → normalizing threat-path learning
 
     Approach-path is RARE:
-    → Little hands-on experience (curiosity → approach-tag)
+    → Little hands-on experience (curiosity → approach links)
     → Few "aha!" moments in class (lecture-dominant)
     → Play + exploration cut (primary school: 5-7 pages of homework/day)
 
@@ -298,24 +298,24 @@ PRINCIPLE 1: DIRECTION > LEVEL (Mechanism v2.2 §2.2)
     → Mechanism v2.2 §2.2: "Same content, different teaching method → different
       tag → different for LIFE"
     → VN: most domains taught via threat-path
-    → Chunks DO COMPILE (PISA scores OK) but with AVOIDANCE-TAGS
+    → Chunks DO COMPILE (PISA scores OK) but with AVOIDANCE LINKS
     → = "Knows math but hates math" = common outcome
     → Compiled Quality Dimension (Compiled-Fresh.md v2.0 §3):
-      threat-path → threat-compiled chunks (avoidance-tagged)
+      threat-path → threat-compiled chunks (avoidance-linked)
       schema-path → schema-compiled (neutral-tagged, "memorized lesson")
       VN dominant = threat + schema compiled → MISSING genuine-compiled (approach)
     → Dissonance-Signal-Architecture v1.0:
       accumulated avoidance = chronic Evaluative Dissonance (compiled, reframeable)
       + sleep deprivation = Direct-State Dissonance (hardware, needs rest)
       = COMPOUND signal → address Direct-State FIRST
-    → Explains why 60% of graduates work outside their field: avoidance-tagged
+    → Explains why 60% of graduates work outside their field: avoidance-linked
       domains → body pulls AWAY once external bridge is removed
 
   EVIDENCE:
     🟢 57.8% of students fear making mistakes in class (ResearchGate)
     🟢 56.6% fear presenting weak ideas
     🟢 80% of upper secondary students sleep <7h → learning under high cortisol
-    🟡 Avoidance-tags leading to domain abandonment = framework prediction,
+    🟡 Avoidance links leading to domain abandonment = framework prediction,
        consistent with 60% working-outside-field data
 ```
 
@@ -371,11 +371,11 @@ PRINCIPLE 3: PREREQUISITE CHECK (Mechanism v2.2 §2.4)
 
   THROUGH THE FRAMEWORK LENS: 🟡
     → Mechanism v2.2 §2.4: "Missing prerequisite → arc fails → body overwhelmed
-      → avoidance-tags accumulate"
+      → avoidance links accumulate"
     → VN: prerequisite check does NOT happen per-student
     → Those who fall through the cracks → accumulate gaps → snowball effect
     → = 1 of 3 reasons for "hating math" (Mechanism v2.2 §2.4 example):
-      ① Avoidance-tagged (wrong teaching direction)
+      ① Avoidance-linked (wrong teaching direction)
       ② Missing prerequisite → overwhelm → accumulated avoidance
       ③ Hardware mismatch (needs visual, gets verbal)
     → VN system does not distinguish these 3 causes → labels all as "low ability"
@@ -604,7 +604,7 @@ SUMMARY — 8 ARC DESIGN PRINCIPLES: 🟡
     → Hardware-Subsidy (Entity-Valence-Dynamics.md v1.0 §5):
       parent = MAX subsidy potential — but "we sacrifice for you"
       = guilt-trip = subsidy channel CORRUPTED
-      subsidy delivered with threat → approach-tag overwritten by avoidance-tag
+      subsidy delivered with threat → approach links overwritten by avoidance links
       = Money-Education v1.1 §6.1 pattern: guilt corrupts subsidy
     → When they enter adult life at 18+ → Source ④ suddenly withdraws → anchor crash
     → = Quarter-life crisis mechanism (Mechanism v2.2 §3.4)
@@ -1043,7 +1043,7 @@ WEAKNESS 1 [CRITICAL]: THREAT-DOMINANT LEARNING — WRONG DIRECTION
     → Same cortisol level but:
       → Domain moderate → resilience + competence
       → Imposed moderate → anxiety + learned helplessness
-    → VN: Imposed dominant → chunks compile with AVOIDANCE-TAGS
+    → VN: Imposed dominant → chunks compile with AVOIDANCE LINKS
     → = "Knows but hates" = common outcome
 
     Trust.md v1.0 LENS — Imposed threat → trust DAMAGE: 🟡
@@ -1058,8 +1058,8 @@ WEAKNESS 1 [CRITICAL]: THREAT-DOMINANT LEARNING — WRONG DIRECTION
       → = Trust infrastructure EXISTS but relational trust damaged by Imposed
 
   WHY CRITICAL:
-    → Wrong direction → every chunk compiles with avoidance-tags
-    → 12 years of avoidance-tagged learning = SABOTAGES lifelong relationship with domain
+    → Wrong direction → every chunk compiles with avoidance links
+    → 12 years of avoidance-linked learning = SABOTAGES lifelong relationship with domain
     → Sleep <7h = cortisol recovery CUT → amplification accumulates
     → 26.3% suicidal ideation = UNACCEPTABLE
 
@@ -1406,7 +1406,7 @@ GAP PER DIMENSION:
 GAP OVERVIEW: 🟡
 
   LARGEST GAPS (80-90%):
-    → Direction (90%): threat-path dominant → avoidance-tagged learning
+    → Direction (90%): threat-path dominant → avoidance-linked learning
     → Per-hardware (90%): structural (class size, teacher shortage)
     → Imagine-Final (90%): cultural (family-driven, credential culture)
     → 3 ORIGIN (90%): Imposed dominant, Domain+Peer suppressed
@@ -1436,7 +1436,7 @@ NEW CONCEPT DIMENSIONS (v2.1): 🟡
   → Hardware-Subsidy: VN teacher subsidy quality DEGRADED (50 students/teacher),
     parent subsidy CORRUPTED (guilt-trip). Cultural amplifier STRONG (92% societal respect)
   → Compiled Quality: VN = schema-compiled + threat-compiled dominant.
-    Genuine-compiled (approach-tagged) = RARE
+    Genuine-compiled (approach-linked) = RARE
   → Gap-Distribution-Profile: surface assessment → gap HOMOGENIZATION.
     Millions of students with identical gap profiles → credential inflation
   → Dissonance-Signal-Architecture: VN exam = Evaluative + Direct-State COMPOUND.
@@ -1602,7 +1602,7 @@ THIS FILE CONNECTS TO:
     → v7.8 NEW INSIGHT: direction WRONG (not just level too high)
       → 3 ORIGIN: Imposed dominant, Domain+Peer suppressed
       → 4 sources: ④ External dominant 12+ years, ①②③ suppressed
-    → CRITICAL: threat-dominant learning → avoidance-tagged chunks
+    → CRITICAL: threat-dominant learning → avoidance-linked chunks
       + Compiled Quality: threat/schema dominant, genuine MISSING
       + Dissonance-Signal-Architecture: Evaluative + Direct-State COMPOUND
     → STRENGTHS: foundation literacy, teacher platform (97% satisfaction,

@@ -956,15 +956,16 @@ Reward-Signal-Architecture.md (this file):
   │ (hardware)       │             │ NO evaluation. Shortest path.      │
   ├──────────────────┼─────────────┼────────────────────────────────────┤
   │ E₀ (hardware-    │ ~100-300ms  │ Taste receptor → brainstem →       │
-  │ installed)       │             │ opioid. Pre-compiled binary eval.  │
+  │ installed)       │             │ opioid. Pre-compiled binary        │
+  │                  │             │ evaluation.                        │
   ├──────────────────┼─────────────┼────────────────────────────────────┤
-  │ E₁ (basic comp.) │ ~200ms-1s   │ Sensory → compiled chunks →        │
+  │ E₁ (basic)       │ ~200ms-1s   │ Sensory → compiled chunks →        │
   │                  │             │ simple matching → opioid.          │
   ├──────────────────┼─────────────┼────────────────────────────────────┤
-  │ E₂ (complex comp)│ ~500ms-2s   │ Multi-chunk evaluation.           │
+  │ E₂ (complex)     │ ~500ms-2s   │ Multi-chunk evaluation.           │
   │                  │             │ Context-dependent matching.         │
   ├──────────────────┼─────────────┼────────────────────────────────────┤
-  │ E₃ (deep comp.)  │ ~1-5s       │ Abstract schema fit. ACC           │
+  │ E₃ (deep)        │ ~1-5s       │ Abstract schema fit. ACC           │
   │                  │             │ coherence → opioid pipeline.       │
   └──────────────────┴─────────────┴────────────────────────────────────┘
 
@@ -1049,13 +1050,13 @@ Reward-Signal-Architecture.md (this file):
   │ installed)       │             │ simulable via gustatory cortex.    │
   │ Sweet taste      │             │                                    │
   ├──────────────────┼─────────────┼────────────────────────────────────┤
-  │ E₁ (basic comp.) │ ~25-40%     │ Compiled food/music chunks fire.   │
+  │ E₁ (basic)       │ ~25-40%     │ Compiled food/music chunks fire.   │
   │ Food preferences │             │ Actual sensory component missing.  │
   ├──────────────────┼─────────────┼────────────────────────────────────┤
-  │ E₂ (complex comp)│ ~40-60%     │ Rich compiled chunks fire.         │
+  │ E₂ (complex)     │ ~40-60%     │ Rich compiled chunks fire.         │
   │ Music, aesthetics│             │ Pattern matching mostly cortical.  │
   ├──────────────────┼─────────────┼────────────────────────────────────┤
-  │ E₃ (deep comp.)  │ ~60-80%     │ PURELY cortical. Abstract schema   │
+  │ E₃ (deep)        │ ~60-80%     │ PURELY cortical. Abstract schema   │
   │ Math beauty,     │             │ = fully simulable internally.      │
   │ expert coherence │             │ No peripheral component needed.    │
   └──────────────────┴─────────────┴────────────────────────────────────┘

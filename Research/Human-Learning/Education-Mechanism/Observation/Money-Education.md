@@ -36,7 +36,7 @@ dependencies:
   primary:
     - Money-Analysis.md v1.0 — 3-layer def, 5 functions, 6 paths, gap shift, Valence-Structural × money
     - Education-Mechanism.md v2.2 — 10 principles, bridge, 4 fill sources, Multi-Stream
-    - Child-Development-Mechanism.md v2.2 — PFC reframe, Compile Architecture, approach/avoidance tags
+    - Child-Development-Mechanism.md v2.2 — PFC reframe, Compile Architecture, approach/avoidance links
     - Background-Pattern.md v1.0 — 2D model, sleep accelerator, invisible bias
   trust/self-observation:
     - Trust.md v1.0 — §5 Default→Calibrated, §7 Trust Generalization, schema inheritance
@@ -62,16 +62,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **3 months later: still spent all the New Year gift money. Parent: "Why didn't you listen?"**
 >
 > **Parent says: "If you don't study, you'll grow up poor!" Cortisol fires in the child.**
-> **Chunks compile: [study = avoid poverty]. Avoidance tag. For life.**
+> **Chunks compile: [study = avoid poverty]. Avoidance links. For life.**
 >
 > **A 5-year-old buys candy with their own money. Two cents short.**
 > **Body feels: "it's gone = have to wait." Chunk compiles: [money = limited].**
-> **Approach tag. Nobody taught them. Body learned on its own.**
+> **Approach links. Nobody taught them. Body learned on its own.**
 >
 > **All three = "teaching children about money." 3 approaches. 3 directions. 3 lifelong outcomes.**
 >
 > **This file: teaching children about money with the RIGHT DIRECTION, RIGHT TIMING, RIGHT DEPTH.**
-> **Not "what to teach" — but "compile WHICH chunks with WHICH tag."**
+> **Not "what to teach" — but "compile WHICH chunks with WHICH links."**
 >
 > **Research: money habits compile by age 7 (Whitebread & Bingham 2013).**
 > **Framework: Background-Pattern forms = invisible bias for life.**
@@ -245,7 +245,7 @@ THIS FILE ANSWERS:
   Mode ② EMOTIONAL PEAK:
     → Parents stressed about money → high cortisol → child detects via body
     → "This month is tough" + parent's tense face → chunk compiles STRONGLY
-    → Conversely: "You got a bonus!" + happy parent face → approach tag
+    → Conversely: "You got a bonus!" + happy parent face → approach links
 
   Mode ③ MULTI-MODAL:
     → Child TOUCHES coins, SEES paper money, HEARS "clink clink"
@@ -273,24 +273,24 @@ THIS FILE ANSWERS:
   🟢 Parental involvement = strongest predictor (CFPB literature review)
 ```
 
-### §1.3 — Approach/Avoidance Tags Determine Lifelong Outcomes
+### §1.3 — Approach/Avoidance Links Determine Lifelong Outcomes
 
 ```
 ⭐⭐ THE MOST IMPORTANT PRINCIPLE — DIRECTION > LEVEL:
 
   Education-Mechanism §2.2:
-    "Same content, different teaching approach → different tag → different outcome FOR LIFE"
+    "Same content, different teaching approach → different links → different outcome FOR LIFE"
 
   APPLIED TO MONEY:
 
-  APPROACH-TAGGED money chunks (novelty-path):
+  APPROACH-LINKED money chunks (novelty-path):
     → "Money helps me DO more interesting things" → body pull TOWARDS
     → "Today I bought ice cream by myself!" → achievement + approach
     → "Save now → get SOMETHING BIGGER later" → delayed reward + approach
     → Future: HEALTHY relationship with money
     → "Money = a tool I use" — controllable, positive
 
-  AVOIDANCE-TAGGED money chunks (threat-path):
+  AVOIDANCE-LINKED money chunks (threat-path):
     → "Don't study → grow up POOR" → body pull AWAY
     → "Mom doesn't have money → Mom is sad" → guilt + avoidance
     → "Must save EVERY CENT" + parent's tense face → threat + avoidance
@@ -404,12 +404,12 @@ THIS FILE ANSWERS:
   KNOWLEDGE ≠ COMPILED CHUNKS:
 
     "Know saving is important" = PFC holds explicit chunk
-      → WEAK: not deeply compiled, not approach-tagged
+      → WEAK: not deeply compiled, not approach-linked
       → Body does NOT feel "saving = pleasant"
       → = Lecture teaches PFC, body has NOT compiled
 
-    "Body FEELS saving = pleasant" = compiled chunk + approach tag
-      → STRONG: compiled through experience, approach-tagged
+    "Body FEELS saving = pleasant" = compiled chunk + approach links
+      → STRONG: compiled through experience, approach-linked
       → Body WANTS to save on its own → no one needs to remind
       → = Experience teaches body, PFC follows
 
@@ -453,14 +453,14 @@ THIS FILE ANSWERS:
 
   MECHANISM (Reward-Signal-Architecture.md + Education-Mechanism §3.1):
     Before: behavior had INTRINSIC body-base reward → DID IT WILLINGLY because ENJOYED it
-    → Washing dishes helps parent → parent happy → opioid from connection → approach tag
+    → Washing dishes helps parent → parent happy → opioid from connection → approach links
     Add strong external money → brain SWITCHES TRACK to money (external source STRONGER)
     → Washing dishes = money → money = new reward source
     Withdraw money → reward = 0 (internal already SUPPRESSED) → STOP behavior
     → "Why doesn't the child wash dishes anymore?" → "You're not paying me"
 
   ⚠️ SERIOUS BECAUSE:
-    → Kills INTRINSIC approach tag for THAT behavior
+    → Kills INTRINSIC approach links for THAT behavior
     → Replaces it with: [behavior X = only worthwhile when there's money]
     → Background-Pattern compiles: [value = money, no money = not worth it]
     → = This is why "paying for everything" is dangerous
@@ -472,10 +472,10 @@ THIS FILE ANSWERS:
 
   🟢 Overjustification: Deci 1971, Lepper et al. 1973
   🟢 Self-Determination Theory: Deci & Ryan 1985, 2000
-  🟡 Kill approach tag = framework reframe of overjustification
+  🟡 Kill approach links = framework reframe of overjustification
 ```
 
-### §2.3 — Threat-Path: "Threatening Poverty" = Avoidance Tag for Life
+### §2.3 — Threat-Path: "Threatening Poverty" = Avoidance Links for Life
 
 ```
 ⭐ AN ENTIRE GENERATION COMPILED [MONEY-WORK = AVOIDANCE]:
@@ -502,7 +502,7 @@ THIS FILE ANSWERS:
     → "Our family is POOR, don't ask for things!"
     → ARTIFICIAL, asymmetric power, often CHRONIC
     → Chunks compile: [money-work = avoid poverty, avoid shame, avoid guilt]
-    → AVOIDANCE TAG → LIFELONG anxious relationship with money
+    → AVOIDANCE LINKS → LIFELONG anxious relationship with money
 
 
   ⭐ WHY TYPE 3 IS THE MOST COMMON:
@@ -583,7 +583,7 @@ THIS FILE ANSWERS:
   │ ② │ Overjustification           │ External reward source OVERRIDES       │
   │   │ (paying for everything)     │ internal drive → withdraw = collapse   │
   ├───┼─────────────────────────────┼────────────────────────────────────────┤
-  │ ③ │ Threat-path                 │ Type 3 Imposed → avoidance tag         │
+  │ ③ │ Threat-path                 │ Type 3 Imposed → avoidance links         │
   │   │ (threatening poverty, guilt)│ → anxious relationship with money FOR LIFE│
   ├───┼─────────────────────────────┼────────────────────────────────────────┤
   │ ④ │ Premature compilation       │ Reward too early/too much → threshold  │
@@ -593,7 +593,7 @@ THIS FILE ANSWERS:
   PATTERN:
     → ① Teaching with words = WEAK (PFC only)
     → ② Teaching with money = DANGEROUS (kills internal drive)
-    → ③ Teaching with threats = HARMFUL (avoidance tag)
+    → ③ Teaching with threats = HARMFUL (avoidance links)
     → ④ Not teaching, giving lots = SKEWED (premature compilation)
 
     → MISSING: TEACHING THROUGH EXPERIENCE = MOST CORRECT
@@ -655,7 +655,7 @@ THIS FILE ANSWERS:
 
   PRINCIPLE:
     → BEFORE saying/teaching/giving anything about money
-    → ASK: "Will this compile an APPROACH or AVOIDANCE tag?"
+    → ASK: "Will this compile an APPROACH or AVOIDANCE links?"
     → If approach → proceed
     → If avoidance → STOP, change approach
 
@@ -785,7 +785,7 @@ THIS FILE ANSWERS:
 ### §3.5 — Principle 5: Don't Monetize Internal Drive
 
 ```
-⭐ PROTECT INTRINSIC APPROACH TAGS — DON'T USE MONEY TO DESTROY THEM:
+⭐ PROTECT INTRINSIC APPROACH LINKS — DON'T USE MONEY TO DESTROY THEM:
 
   PRINCIPLE (Education-Mechanism §3.1 + Reward-Signal-Architecture):
     → If a child ALREADY has internal drive for behavior X
@@ -797,7 +797,7 @@ THIS FILE ANSWERS:
 
     ❌ DON'T monetize:
       → Household chores → "it's family work, everyone contributes"
-        (internal drive = belonging, contributing → approach tag)
+        (internal drive = belonging, contributing → approach links)
       → Reading books → if the child ALREADY likes reading
         (internal drive = curiosity → overjustification risk)
       → Playing sport → if the child ALREADY likes it
@@ -824,7 +824,7 @@ THIS FILE ANSWERS:
       → Core responsibilities = "because I'm part of this family" (Valence-Structural, don't monetize)
 
   🟢 Overjustification: Deci 1971, Lepper et al. 1973
-  🟡 "Protecting approach tag" = framework principle applied
+  🟡 "Protecting approach links" = framework principle applied
 ```
 
 ### §3.6 — Principle 6: Teach the Proxy Nature — Money Is a TOOL, Not a Goal
@@ -880,7 +880,8 @@ THIS FILE ANSWERS:
   ├────┼──────────────────────────────────┼──────────────────────────────────┤
   │ 1  │ Experience > Lecture             │ Compile Architecture: ①②③ >     │
   │    │                                  │ Trust Compile alone              │
-  │ 2  │ Approach direction ALWAYS        │ Direction > Level (Ed-Mech §2)   │
+  │ 2  │ Approach direction ALWAYS        │ Direction > Level                │
+  │    │                                  │ (Education-Mechanism §2)         │
   │ 3  │ Goldilocks: enough, not too much │ Reward-Calibration §1            │
   │ 4  │ Natural > Imposed consequences   │ 3 ORIGIN (Threat §5.5)           │
   │ 5  │ Don't monetize internal drive    │ Overjustification (Deci 1971)    │
@@ -955,7 +956,7 @@ THIS FILE ANSWERS:
     → [Money = limited]: gone = gone, must wait
     → [Money = choice]: want 2 things, only have enough for 1 → CHOOSE
     → [Money = exchange]: hand over money → receive goods (exchange concept)
-    → ALL with APPROACH TAGS
+    → ALL with APPROACH LINKS
 
   SUGGESTED EXPERIENCES:
 
@@ -1007,7 +1008,7 @@ THIS FILE ANSWERS:
     → [Earning = effort → reward]: money isn't free, must WORK
     → [Value ≠ price]: expensive ≠ good, cheap ≠ bad
     → [Money ≠ human worth]: rich ≠ good person, poor ≠ bad person
-    → ALL with APPROACH TAGS
+    → ALL with APPROACH LINKS
 
   SUGGESTED EXPERIENCES:
 
@@ -1216,7 +1217,7 @@ THIS FILE ANSWERS:
       → = Trust Calibration per-domain = THE MOST IMPORTANT financial meta-skill
 
   ② [MONEY = DANGEROUS / SCARY]:
-    → Avoidance-tagged money chunks
+    → Avoidance-linked money chunks
     → "Money = stress, conflict, shame, guilt"
     → Compiles when: parents argue about money, threaten poverty, guilt-trip
     → Avoid: approach direction for ALL money interactions (§3.2)
@@ -1284,8 +1285,8 @@ THIS FILE ANSWERS:
     → TYPE 5 = implicit, unbounded, NO endpoint
     → = Cortisol SUSTAINED because obligation NEVER ENDS
 
-    Approach/avoidance tags:
-    → "Being grateful" through GUILT = avoidance-tagged gratitude
+    Approach/avoidance linkss:
+    → "Being grateful" through GUILT = avoidance-linked gratitude
     → NOT real gratitude (Gratitude.md: gratitude = observation, not obligation)
     → Chunks compile: [parents → debt → guilt → avoidance]
     → ≠ [parents → love → gratitude → approach]
@@ -1327,7 +1328,7 @@ THIS FILE ANSWERS:
 
   MECHANISMS CAUSING HARM:
 
-    ① AVOIDANCE TAG for "wanting" and "needing":
+    ① AVOIDANCE LINKS for "wanting" and "needing":
       → "Asking = bad" → chunks compile: [wanting = shame]
       → Child grows up: DIFFICULTY identifying needs, DIFFICULTY asking for help
       → = Self-care chunks suppressed
@@ -1375,10 +1376,10 @@ THIS FILE ANSWERS:
       → WITHDRAW reward → motivation collapse
 
     PUNISHING MONEY FOR BAD PERFORMANCE:
-      → Type 3 Imposed threat → avoidance tag for LEARNING
+      → Type 3 Imposed threat → avoidance links for LEARNING
       → Chunks: [study = avoid punishment] (avoidance)
       → DOUBLE: money anxiety + learning anxiety = compound
-      → = Education-Mechanism §2.2: worst case = avoidance tag for the domain
+      → = Education-Mechanism §2.2: worst case = avoidance links for the domain
 
     COMPOUND PATTERN:
       → Reward when good (overjustification) + punish when bad (threat-path)
@@ -1392,7 +1393,7 @@ THIS FILE ANSWERS:
     → Don't punish with money for poor performance — INSTEAD: find root cause
       (missing prerequisites? wrong direction? hardware mismatch?)
     → Money and studying = 2 SEPARATE domains
-    → = Protect approach tag for BOTH domains
+    → = Protect approach links for BOTH domains
 
   🟢 Overjustification: Deci 1971, Lepper et al. 1973
   🟡 Compound avoidance = framework mechanism analysis
@@ -1577,7 +1578,7 @@ THIS FILE ANSWERS:
 
     EXAMPLE: LUCKY MONEY (traditional Lunar New Year gift):
       → Lucky money: ritual money → child compiles [money = joy, New Year, family]
-        → APPROACH tag (if not tied to shame/obligation)
+        → APPROACH links (if not tied to shame/obligation)
       → "You must study hard to make the family proud"
         → [study = family status] → Type 3 Imposed → avoidance
       → "Parents give money for school → you MUST be grateful"
@@ -1585,7 +1586,7 @@ THIS FILE ANSWERS:
 
   ⚠️ NOT "CULTURE IS WRONG":
     → Framework does NOT judge culture
-    → Framework only predicts: which direction → which tag → which outcome
+    → Framework only predicts: which direction → which links → which outcome
     → Cultural practices CAN be approach OR avoidance
     → = Navigate per practice, don't reject per culture
 
@@ -1614,7 +1615,7 @@ THIS FILE ANSWERS:
 
     IMPLICATIONS:
       → Individual autonomy STRONG → but Valence-Structural bonds can be WEAK
-      → "Self-made" = approach tag (positive)
+      → "Self-made" = approach links (positive)
       → BUT: "self-made" CAN → isolation (doing everything alone)
       → More financial literacy education but knowledge-behavior gap STILL LARGE
 
@@ -1635,8 +1636,8 @@ THIS FILE ANSWERS:
 ⭐ BRAIN-BASED → VALID ACROSS CULTURES:
 
   REGARDLESS of culture:
-    → Approach tag → healthy relationship (universal brain mechanism)
-    → Avoidance tag → anxious relationship (universal brain mechanism)
+    → Approach links → healthy relationship (universal brain mechanism)
+    → Avoidance links → anxious relationship (universal brain mechanism)
     → = Direction > Level = valid in ALL cultures
 
   CULTURAL PRACTICES differ — but DIRECTION still determines outcome:
@@ -1718,7 +1719,7 @@ THIS FILE ANSWERS:
 ⭐ REGARDLESS OF WHICH AI ERA — THE BRAIN STILL:
 
   → Compiles chunks through Compile Architecture (1E+3M)
-  → Tags approach/avoidance through direction
+  → Links approach/avoidance through direction
   → Forms invisible Background-Pattern through Link Density
   → Experiences overjustification when external kills internal
   → Adapts threshold when reward habituates
@@ -1910,7 +1911,7 @@ DIRECT FOUNDATIONS
   approach/avoidance (§2.2), prerequisite (§2.4), AI model (§4).
 
 → Child-Development-Mechanism.md v2.2 — CHILD DEVELOPMENT MECHANISM
-  PFC reframe (§1), Compile Architecture (§2), approach/avoidance tags (§3),
+  PFC reframe (§1), Compile Architecture (§2), approach/avoidance links (§3),
   chunk dynamics (§4), cortisol baseline (§8).
 
 

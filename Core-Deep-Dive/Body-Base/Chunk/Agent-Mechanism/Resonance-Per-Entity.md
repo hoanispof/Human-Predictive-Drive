@@ -1187,7 +1187,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Parameter | Parent→Child | Child→Parent (young) | Close Friend | Romantic (post-Limerence) | Colleague (Agent-mode) |
 |---|---|---|---|---|---|
 | Hardware subsidy | MAXIMUM (oxytocin+) | MODERATE (attachment) | NONE | TEMPORARY →vasopressin | NONE |
-| Compilation path | SKIP Stage 1-2 (hardware) | STANDARD (0-7mo→spec.) | STANDARD (40→200h) | HORMONE ACCELERATED | SLOW (limited) |
+| Compilation path | SKIP Stage 1-2 (hardware) | STANDARD (0-7mo→specialized) | STANDARD (40→200h) | HORMONE ACCELERATED | SLOW (limited) |
 | Cost (3-cost) | ≈ 0 (hardware-compiled) | LOW (hardware scaffold) | ≈ 0 compiled (mutual Compiled) | LOW post-genuine | MODERATE-HIGH (suppress) |
 | 2-tier (Hardware:Self-Pattern-Modeling) | Hardware tier dominant | Hardware+Self-Pattern-Modeling balanced | Self-Pattern-Modeling tier dominant | Hardware→Self-Pattern-Modeling shift | Self-Pattern-Modeling tier (Self-Pattern-Modeling only) |
 | 2-stream (Momentary:Structural) | Structural dominant | Momentary→Structural (forming) | Momentary dominant | Momentary→Structural (if deep) | Momentary only (unless close) |

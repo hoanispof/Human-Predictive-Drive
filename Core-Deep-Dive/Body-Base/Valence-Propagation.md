@@ -407,7 +407,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ ① Direct experience       │ Slowest        │ Highest       │
     │ ② Observed experience     │ Medium         │ Medium        │
     │ ③ Schema inheritance      │ Fastest        │ Lowest        │
-    │ ④ Context inference       │ Context-dep.   │ Chunk-dep.    │
+    │ ④ Context inference       │ Context-       │ Chunk-        │
+    │                           │ dependent      │ dependent     │
     └──────────────────────────┴────────────────┴──────────────┘
     → Evolutionary: inheriting "snakes are dangerous" is FASTER than being bitten first
     → 🟢 Prepared learning: Seligman 1971

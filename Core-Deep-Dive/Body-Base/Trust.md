@@ -1267,42 +1267,43 @@ source: Core-Deep-Dive/Body-Base/Trust.md (Vietnamese)
 ```
 ⭐ TESTING THE FRAMEWORK ACROSS 5 CASES:
 
-  ┌────────────────────────┬───────────────┬──────────┬──────────────────────┐
-  │ Case                   │ Trust         │ Valence  │ Gap-fill mechanism   │
-  ├────────────────────────┼───────────────┼──────────┼──────────────────────┤
-  │ ① Parent (healthy)     │ +++ deep      │ +++ deep │ Fills L0+L1+social   │
-  │   childhood compile    │ All 3 HIGH    │ struct.  │ +mastery. Consistent │
-  │                        │ §3: all 5     │ positive │ → co-occur STRONG.   │
-  │                        │ sources active│          │                      │
-  ├────────────────────────┼───────────────┼──────────┼──────────────────────┤
-  │ ② Boss who isn't       │ Auth HIGH     │ MIXED    │ Fills resource ONLY. │
-  │   skilled + pushes     │ Comp LOW      │ per-     │ Blocks mastery +     │
-  │   deadlines            │ Intent VARIES │ channel  │ autonomy. §5 Phase 3 │
-  │                        │ = CALIBRATED  │          │ SPLIT. §8 threshold  │
-  │                        │               │          │ approaching.         │
-  ├────────────────────────┼───────────────┼──────────┼──────────────────────┤
-  │ ③ God                  │ +++ structural│ +++ OR   │ Fills moral guilt    │
-  │   (devout vs fear)     │ MAX (unfals.) │ -- (love │ gap (Collective-Body │
-  │                        │ Trust-Auth    │ OR fear) │ §5.4 layer ②).       │
-  │                        │ + Trust-Comp  │          │ Trust = structural.  │
-  │                        │ = MAX         │          │ Valence = INDEP.     │
-  │                        │               │          │ CLEAREST case of     │
-  │                        │               │          │ trust ≠ valence.     │
-  ├────────────────────────┼───────────────┼──────────┼──────────────────────┤
-  │ ④ KOL (social media    │ ++ in domain  │ ++ pos   │ Fills entertainment  │
-  │   influencer)          │ SPILLS to ALL │ (paraso.)│ gap → trust spills → │
-  │                        │ (§5 Phase 2   │          │ cross-domain exploit.│
-  │                        │ DEFAULT: no   │          │ Calibration: ABSENT  │
-  │                        │ domain exp.)  │          │ (no direct exp.).    │
-  ├────────────────────────┼───────────────┼──────────┼──────────────────────┤
-  │ ⑤ Hot/cold romantic    │ MIXED:        │ MIXED:   │ Fills social+intimacy│
-  │   partner              │ Intent ++ when│ ++ when  │ WHEN available = MAX.│
-  │   (anxious attachment) │ available     │ together │ WHEN unavailable =   │
-  │                        │ Access -- when│ -- when  │ ZERO. Inconsistency  │
-  │                        │ unavailable   │ apart    │ → trust LOW overall. │
-  │                        │ = UNRELIABLE  │          │ = Reliability ≠      │
-  │                        │               │          │   Quality (§12 Q6).  │
-  └────────────────────────┴───────────────┴──────────┴──────────────────────┘
+  ┌────────────────────────┬─────────────────┬────────────┬──────────────────────┐
+  │ Case                   │ Trust           │ Valence    │ Gap-fill mechanism   │
+  ├────────────────────────┼─────────────────┼────────────┼──────────────────────┤
+  │ ① Parent (healthy)     │ +++ deep        │ +++ deep   │ Fills L0+L1+social   │
+  │   childhood compile    │ All 3 HIGH      │ structural │ +mastery. Consistent │
+  │                        │ §3: all 5       │ positive   │ → co-occur STRONG.   │
+  │                        │ sources active  │            │                      │
+  ├────────────────────────┼─────────────────┼────────────┼──────────────────────┤
+  │ ② Boss who isn't       │ Authority HIGH  │ MIXED      │ Fills resource ONLY. │
+  │   skilled + pushes     │ Competence LOW  │ per-       │ Blocks mastery +     │
+  │   deadlines            │ Intention VARIES│ channel    │ autonomy. §5 Phase 3 │
+  │                        │ = CALIBRATED    │            │ SPLIT. §8 threshold  │
+  │                        │                 │            │ approaching.         │
+  ├────────────────────────┼─────────────────┼────────────┼──────────────────────┤
+  │ ③ God                  │ +++ structural  │ +++ OR     │ Fills moral guilt    │
+  │   (devout vs fear)     │ MAX             │ -- (love   │ gap (Collective-Body │
+  │                        │ (unfalsifiable) │ OR fear)   │ §5.4 layer ②).       │
+  │                        │ Trust-Authority │            │ Trust = structural.  │
+  │                        │ + Trust-        │            │ Valence = INDEP.     │
+  │                        │   Competence    │            │ CLEAREST case of     │
+  │                        │ = MAX           │            │ trust ≠ valence.     │
+  ├────────────────────────┼─────────────────┼────────────┼──────────────────────┤
+  │ ④ KOL (social media    │ ++ in domain    │ ++ pos     │ Fills entertainment  │
+  │   influencer)          │ SPILLS to ALL   │ (para-     │ gap → trust spills → │
+  │                        │ (§5 Phase 2     │  social)   │ cross-domain exploit.│
+  │                        │ DEFAULT: no     │            │ Calibration: ABSENT  │
+  │                        │ domain          │            │ (no direct           │
+  │                        │ experience)     │            │ experience).         │
+  ├────────────────────────┼─────────────────┼────────────┼──────────────────────┤
+  │ ⑤ Hot/cold romantic    │ MIXED:          │ MIXED:     │ Fills social+intimacy│
+  │   partner              │ Intention ++    │ ++ when    │ WHEN available = MAX.│
+  │   (anxious attachment) │ when available  │ together   │ WHEN unavailable =   │
+  │                        │ Access -- when  │ -- when    │ ZERO. Inconsistency  │
+  │                        │ unavailable     │ apart      │ → trust LOW overall. │
+  │                        │ = UNRELIABLE    │            │ = Reliability ≠      │
+  │                        │                 │            │   Quality (§12 Q6).  │
+  └────────────────────────┴─────────────────┴────────────┴──────────────────────┘
 
 
   ⭐ CASE ② = RICHEST CASE (calibrated trust × mixed valence):

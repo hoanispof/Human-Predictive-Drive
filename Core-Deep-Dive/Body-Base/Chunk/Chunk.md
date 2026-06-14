@@ -1,9 +1,10 @@
 ---
-title: Chunk.md v3.0 — Unified Chunk System Reference
+title: Chunk.md v3.1 — Unified Chunk System Reference
 created: 2026-03-28 (v1.0 DRAFT)
 updated: 2026-05-23 (v2.3 — Concept Cascade)
 rewritten: 2026-06-01 (v3.0 — Architecture alignment: 1 Engine reframe, §2 trim→Compile-Taxonomy, §8 rewrite merge §8+§9+§10, §9-§12 renumber, +§0 positioning, +§2.7 Sleep Maintenance)
-status: v3.0
+refined: 2026-06-14 (v3.1 — §2.4 Direction-At-Compile: "association" → Type 1 link terminology, +observation parameter note. §2.3 education failure mode aligned. Source: Drill v4.0 §4)
+status: v3.1
 scope: |
   CORE REFERENCE FILE for the entire chunk system.
   WHAT chunks are + HOW chunks work internally.
@@ -25,7 +26,7 @@ language: English (translated from Vietnamese primary + English technical)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Speculative
 ---
 
-# Chunk.md v3.0 — Unified Chunk System
+# Chunk.md v3.1 — Unified Chunk System
 
 > **Chunk = strength-weighted associative network compiled through experience.**
 > The brain does NOT compute — the brain SEARCHES a database.
@@ -340,7 +341,7 @@ DETAIL ON EACH LEVEL:
 
   4 EDUCATION FAILURE MODES:
     ① Shallow compile (repetition without multi-modal)
-    ② Threat context (cortisol direction wrong → Direction-At-Compile)
+    ② Threat context (cortisol amplifies negative links → avoidance pattern compiled)
     ③ No Imagine-Final (no body-need connection → no motivation)
     ④ Conflict (installed chunks contradict existing chunks)
 
@@ -383,17 +384,23 @@ DETAIL ON EACH LEVEL:
   NOVELTY DIRECTION (positive):
     → Curiosity, exploration, positive challenge
     → Cortisol present but body interprets = "interesting, want to know more"
-    → Chunks compile WITH approach association
+    → Positive emotional links (Type 1) form at compile
     → = Expert formation, creativity, growth
 
   THREAT DIRECTION (negative):
     → Fear, avoidance, imposed stress
     → Cortisol present AND body interprets = "dangerous, avoid"
-    → Chunks compile WITH avoidance association
+    → Negative emotional links (Type 1) form at compile
     → = Trauma formation, phobia, learned helplessness
 
   → SAME cortisol level → DIFFERENT direction → COMPLETELY DIFFERENT outcome
   → "Cortisol is NOT the enemy" — novelty-cortisol is BENEFICIAL
+
+  ⭐ 'Direction-At-Compile' = OBSERVATION PARAMETER (Drill v4.0 §4):
+    No binary tag at neural level. Direction = NET of all Type 1 links
+    (7-factor strength, §4.2) at compile. "Approach" = positive links dominate NET.
+    "Avoidance" = negative links dominate NET. Consistent with §2.5 probability shift
+    (links CAN change via competitive re-linking → NET CAN shift).
 
   4-THRESHOLD GRADIENT:
     Mild:     Body adapts quickly → minimal impact
@@ -1428,7 +1435,7 @@ LINK STRENGTH = f(7 factors):
 
   AGENT-MECHANISM/ (11 files — formerly Agent/ 4 files):
     Agent-Mechanism.md v2.1     — master: 10 dimensions per-entity
-    Self-Pattern-Modeling.md v3.1 — solo simulation, 1 mech × 3 dims
+    Self-Pattern-Modeling.md v3.1 — solo simulation, 1 mechanism × 3 dimensions
     Entity-Compiled.md v1.0     — neural reality, formation 40→200h, Dunbar
     Entity-Access.md v1.2       — gradient Level 0-5, per-entity access
     Entity-Access-Excess.md v1.0 — excess territory, addiction
@@ -1664,11 +1671,26 @@ LINK STRENGTH = f(7 factors):
 
   Source: plan-chunk-v3-restructure.md
   Backup: backup/Chunk-v2.3-backup.md
+
+✅ V3.1 UPDATE (2026-06-14) — DRILL v4.0 TERMINOLOGY PROPAGATION:
+
+  §2.4 Direction-At-Compile:
+    "approach association" → "Positive emotional links (Type 1) form at compile"
+    "avoidance association" → "Negative emotional links (Type 1) form at compile"
+    +Observation parameter note: Direction = NET of Type 1 links,
+    no binary tag, consistent with §2.5 probability shift + §4.3 re-linking
+
+  §2.3 Education failure mode ②:
+    "cortisol direction wrong → Direction-At-Compile"
+    → "cortisol amplifies negative links → avoidance pattern compiled"
+
+  Source: plan-threat-direction-refinement.md Phase 2, Session 2A
+  Drill source: Drill-Threat-Direction-Analysis.md v4.0 §4
 ```
 
 ---
 
-> **Chunk.md v3.0 — "Brain = database + 2 operators."**
+> **Chunk.md v3.1 — "Brain = database + 2 operators."**
 >
 > Chunk = strength-weighted associative network compiled through experience.
 > ALL compile = Exposure → Hebbian (1 Engine). 3 Compile Types = modulator configs.
@@ -1685,4 +1707,4 @@ LINK STRENGTH = f(7 factors):
 > "Humans need to FEEL correctly → AI will help PLAN correctly."
 >
 > Architecture details → Compile-Taxonomy.md v3.0 + Compile-Sleep.md v1.0.
-> Version: v3.0, 2026-06-01.
+> Version: v3.1, 2026-06-14. (v3.0: 2026-06-01)

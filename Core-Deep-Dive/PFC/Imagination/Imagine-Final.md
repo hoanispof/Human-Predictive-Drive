@@ -34,7 +34,7 @@ dependencies:
   - Entity-Access.md v1.0 — gradient Level 0-5, per-entity dynamics
   - Entity-Compiled.md v1.0 — HOW brain compiles entity into body-base
   - Body-Feedback-Mechanism.md v2.0 — chunk dynamics, body-feedback readout, §1.2 two sources
-  - Cortisol-Baseline.md v2.1 — cortisol direction tag, activation gating
+  - Cortisol-Baseline.md v2.4 — cortisol direction link pattern, activation gating
   - Anchor-Schema.md v1.0 — sync point, Trust, 4 sources fill
   - Imagine-Final-Evaluation.md v1.1 — Quality dimension (Domain × Hardware Fit)
   - Boredom.md v1.1 — no Imagine-Final = "boredom", Imagine-Final modifier
@@ -763,9 +763,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → "I know I love this profession because I've DONE IT for 10 years"
     Schema-compiled Imagine-Final: PFC-driven / socially installed → FUNCTIONAL but HOLLOW
       → "I must be wealthy because society says success = money"
-    Threat-compiled Imagine-Final: coerced / trauma → RIGID, AVOIDANCE-tagged
+    Threat-compiled Imagine-Final: coerced / trauma → RIGID, AVOIDANCE-linked
       → "I must excel because I fear being abandoned"
-    → SAME "compiled Imagine-Final" but DIFFERENT tag → DIFFERENT body-feedback quality
+    → SAME "compiled Imagine-Final" but DIFFERENT links → DIFFERENT body-feedback quality
     → = WHY "successful but feeling empty" (schema-compiled, body not genuine)
 
   🟡 Compiled/Fresh applied to Imagine-Final = framework synthesis
@@ -1190,14 +1190,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Imagine-Final with REFLECTION (curiosity drive):
     → "The future will be interesting" → EXPLORE options
-    → Cortisol direction: NOVELTY → approach tag
+    → Cortisol direction: NOVELTY → approach links
     → Body-Feedback-Mechanism §3.3c: gap + novelty → productive
     → Output: creative planning, risk assessment, scenario comparison
     → = ENGINE USE QUALITY: HIGH
 
   Imagine-Final with RUMINATION (threat drive):
     → "The future will be terrible" → CATASTROPHIZE
-    → Cortisol direction: THREAT → avoidance tag
+    → Cortisol direction: THREAT → avoidance links
     → Body-Feedback-Mechanism §3.3c: gap + threat → anxiety loop
     → Output: worry, worst-case fixation, decision paralysis
     → = ENGINE USE QUALITY: LOW
@@ -1444,7 +1444,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Body-Feedback-Mechanism.md v2.0 | §1.2 Two Sources, §3 chunk dynamics | Foundation: ★ Source ① vs ② = boundary definition |
 | Anchor-Schema.md v1.0 | §2 Trust, §3 4-sources fill | Imagine-Final → Anchor-Schema transition |
 | Imagine-Final-Evaluation.md v1.1 | 2 axes × 4 quadrants, Quality dimension | COMPANION: quality check |
-| Cortisol-Baseline.md v2.1 | §3.7 gates, §3.3 direction tag | Cortisol modulates Imagine-Final activation |
+| Cortisol-Baseline.md v2.1 | §3.7 gates, §3.3 direction link pattern | Cortisol modulates Imagine-Final activation |
 | Boredom.md v1.1 | §3 Imagine-Final modifier, §6 existential | No Imagine-Final = "boredom" |
 | Meaning.md v2.0 | §1 life-level Anchor-Schema | Meaning = compiled Imagine-Final landscape |
 | Connection.md v4.0 | §3 3-primitives, §7 Imagine-Final per layer | Social context |

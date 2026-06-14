@@ -7,7 +7,7 @@ status: REFERENCE v2.3
 scope: |
   MECHANISM FILE: Explains the MECHANISMS of child development ages 0–6 through the v7.8 lens.
   Bridge between Core-Deep-Dive (mechanism) and Child-Development (practical).
-  PFC Reframe + Compile Architecture (1 Engine + 3 Modulators) + Approach/Avoidance Tags +
+  PFC Reframe + Compile Architecture (1 Engine + 3 Modulators) + Approach/Avoidance Link Patterns +
   Multi-Stream Compile (Content/Value/Entity/Behavior) + Critical Asymmetry +
   Chunk Dynamics + Trust (3 sub-dimensions, formation, Default→Calibrated) +
   Self-Observation (APPLICATION-3, Gradient Level 0–6, Keystone, Compiled Quality) +
@@ -35,12 +35,12 @@ dependencies:
   - F1/01-PFC-Hardware-Reframe.md — PFC evidence in detail, Hodel 2018
   - F1/02-Womb-to-Birth-Baseline.md — prenatal baseline
   - F1/10-F1-Synthesis.md — 7 bottlenecks, Chunk-Substrate/Receptive-Productive-Asymmetry
-  - Chunk.md v2.0 — chunk substrate, compile, lifecycle
+  - Chunk.md v3.1 — chunk substrate, compile, lifecycle
   - Compiled-Fresh.md v2.0 — Compiled/Fresh processing
   - Body-Feedback.md — dual-pull, interface loop, Body-Feedback-Precondition
   - Body-Feedback-Mechanism.md — 2 sources × 3 dynamics
   - Body-Feedback-Label.md v1.1 — 3-tier vocabulary, prediction-delta
-  - Cortisol-Baseline.md v2.0 — amplifier reframe, direction > level
+  - Cortisol-Baseline.md v2.4 — amplifier reframe, direction > level
   - Feeling.md v2.0 — 7-layer fidelity gradient
   - Empathy.md — Self-Pattern-Modeling function, developmental bootstrap
   - Self-Pattern-Modeling.md v3.1 — 1 mechanism × 3 dimensions
@@ -96,7 +96,7 @@ translation_version: v1.0
 - §2 — COMPILE ARCHITECTURE: HOW CHUNKS ACCUMULATE
   - §2.5 — ADVANCED COMPILE DYNAMICS
   - §2.6 — MULTI-STREAM COMPILE FOR CHILD DEVELOPMENT
-- §3 — APPROACH/AVOIDANCE TAG × PARENTING
+- §3 — APPROACH/AVOIDANCE LINK PATTERN × PARENTING
 - §4 — CHUNK DYNAMICS IN CHILD DEVELOPMENT
 - §5 — FEELING DEVELOPMENT: FROM CRUDE TO LAYERED
 - §6 — Self-Pattern-Modeling DEVELOPMENTAL BOOTSTRAP
@@ -131,13 +131,13 @@ READER FLOW:
 "Baby keeps crying"              → Natural-Dev §2.5 (crying = communication)
                                    + Mechanism §4 (chunk dynamics)
 "Child refuses to learn piano"   → Skill-Intro §Withdrawal
-                                   + Mechanism §3 (avoidance tag already compiled)
+                                   + Mechanism §3 (avoidance links already compiled)
 "18-month-old keeps saying NO"   → Natural-Dev §4.4
                                    + Mechanism §7 (autonomy meta-chunk)
 "Why won't child share yet"      → Mechanism §6 (Self-Pattern-Modeling — insufficient chunks)
 "Child fears water"              → Mechanism §3.4 (reconsolidation window)
                                    + Skill-Intro §3.1 swimming (guided play)
-"Is early teaching harmful"      → Mechanism §3 (threat-path → avoidance tag)
+"Is early teaching harmful"      → Mechanism §3 (threat-path → avoidance links)
 ```
 
 ### §0.3 — Framework Foundation
@@ -152,7 +152,7 @@ PERCEPTION-ACTION CYCLE (Core-v7.8-Draft.md):
   EVERY parent–child interaction = 1 complete loop cycle.
   Children run this loop THOUSANDS of times/day — each cycle = 1 micro-compile.
   Compile Architecture (§2) runs ON TOP of this loop.
-  Approach/avoidance tags (§3) attach INTO each compile cycle.
+  Approach/avoidance links (§3) attach INTO each compile cycle.
 
   Newborn vs adult: SAME loop, but:
     Newborn: each cycle = new domain (chunk-gap dominant)
@@ -517,9 +517,9 @@ PREDICTION-DELTA = the gap between PREDICTED outcome vs ACTUAL outcome
        → Amygdala + NE wire EXTREMELY FAST, bypasses repetition
        → Works for BOTH negative peak AND positive peak
        → 🟢 Flashbulb memory (Brown & Kulik 1977)
-       → ⚠️ IMPORTANT: NEGATIVE peak = threat-tagged chunk
-         POSITIVE peak = approach-tagged chunk
-         → §3 explains why this tag determines trajectory for life
+       → ⚠️ IMPORTANT: NEGATIVE peak = threat-linked chunk
+         POSITIVE peak = approach-linked chunk
+         → §3 explains why this link pattern determines trajectory for life
 
 
   ③ MULTI-MODAL BINDING (temporal co-occurrence):
@@ -625,9 +625,9 @@ PREDICTION-DELTA = the gap between PREDICTED outcome vs ACTUAL outcome
 
   ⓒ SOCIAL REFERENCING — "how does mother feel about this?":
      Child sees a bug → looks at mother's face → mother is calm → "safe"
-     → Valence tag installed via caregiver's expression
+     → Valence links installed via caregiver's expression
      → 🟢 Social referencing: Sorce et al. 1985 (visual cliff experiment)
-     → ⭐ §3 approach/avoidance tag: caregiver expression = Trust Compile installs tag
+     → ⭐ §3 approach/avoidance links: caregiver expression = Trust Compile installs links
 
   ⓓ LABEL INSTALLATION — attaching a name to a chunk:
      Child is looking at a cat → mother says "cat!" → auditory label binds
@@ -647,12 +647,12 @@ PREDICTION-DELTA = the gap between PREDICTED outcome vs ACTUAL outcome
     ② Many threat patterns children CANNOT directly experience safely
        (fire, cars, electricity, deep water) → external install = the only pathway
     ③ Label installation = BUILDS feeling fidelity (§5.2 — very important)
-    ④ Social referencing = INSTALLS approach/avoidance tags
-       → HOW mother reacts = how child TAGS that chunk
+    ④ Social referencing = INSTALLS approach/avoidance links
+       → HOW mother reacts = how child LINKS that chunk
 
   ⚠️ 4 EDUCATION FAILURE MODES (F3):
     ① Shallow compile: repetition without multi-modal → weak chunks
-    ② Threat context: forced under stress → chunks tagged avoidance (§3)
+    ② Threat context: forced under stress → chunks linked to avoidance (§3)
     ③ No Imagine-Final: no connection to body-need → no motivation
     ④ Conflict: new chunks contradict old chunks → dissonance
 ```
@@ -684,7 +684,7 @@ PREDICTION-DELTA = the gap between PREDICTED outcome vs ACTUAL outcome
   ④ PEAK_VALENCE — how strong the emotion:
      → Emotional peak = single-shot compile (§2.1②)
      → "Ordinary" experience = SLOWER compile
-     → ⚠️ NEGATIVE peak also compiles strongly — but tagged AVOIDANCE (§3)
+     → ⚠️ NEGATIVE peak also compiles strongly — but linked to AVOIDANCE (§3)
 
   ⑤ MULTI_MODAL_RICHNESS — how many sensory channels simultaneously:
      → Playing with real sand = 5+ channels > watching a video of sand play = 2 channels
@@ -728,7 +728,7 @@ PREDICTION-DELTA = the gap between PREDICTED outcome vs ACTUAL outcome
     │ Precondition-2 Chunk-Substrate (Chunks Base Adequate):    ❌ → THIS IS THE BOTTLENECK   │
     │ Precondition-3 Delta-Gate (Prediction-Delta Threshold): ⚠️ present but competing inputs│
     │ Precondition-4 Match-Range (Goldilocks Zone):         ⚠️ narrow in children         │
-    │ Precondition-5 Compile-Gate (Chunk Association Tag):   ⚠️ dependent on caregiving   │
+    │ Precondition-5 Compile-Gate (NET Link Pattern):   ⚠️ dependent on caregiving   │
     └──────────────────────────────────────────────────────────────┘
 
     Precondition-2 = Children need to COMPILE ENOUGH chunks about a state
@@ -761,9 +761,9 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
      → 2 DIFFERENT reasons, same conclusion: LET CHILDREN SLEEP ENOUGH
 
   ③ EMOTIONAL PEAK = EXTREMELY FAST COMPILE → BE CAREFUL:
-     Emotional peak (§2.1②) = 1 time is enough → tagged FOR LIFE (§3)
-     → Positive peak: "first time swimming and having fun" = approach tag
-     → Negative peak: "first time swimming and being scared" = avoidance tag
+     Emotional peak (§2.1②) = 1 time is enough → linked FOR LIFE (§3)
+     → Positive peak: "first time swimming and having fun" = approach links
+     → Negative peak: "first time swimming and being scared" = avoidance links
      → SAME skill, DIFFERENT first experience → DIFFERENT trajectory
 
   ④ REPETITION NEEDS VARIATION:
@@ -774,7 +774,7 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
   ⑤ Precondition-2 BOTTLENECK = PATIENCE:
      → "Can't do it yet" = chunks insufficient, NOT inferior hardware
      → Patience + continued exposure = chunks WILL compile
-     → Forcing = threat-path compile → avoidance tag → WORSE than not teaching
+     → Forcing = threat-path compile → avoidance links → WORSE than not teaching
 ```
 
 ### §2.5 — Advanced Compile Dynamics
@@ -836,14 +836,14 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
 
   HARDWARE-SUBSIDY AT EMOTIONAL PEAK COMPILE:
 
-    Oxytocin/dopamine present at emotional peak → approach tag EXTREMELY STRONG:
+    Oxytocin/dopamine present at emotional peak → approach links EXTREMELY STRONG:
     → Example: First time successfully walking + mother cheering (oxytocin)
-      = approach tag for "walking" EXTREMELY STRONG + EXTREMELY DURABLE
+      = approach links for "walking" EXTREMELY STRONG + EXTREMELY DURABLE
     → Example: First time swimming + mother beside (safe + oxytocin)
-      = approach tag for "water" hardware-subsidized
+      = approach links for "water" hardware-subsidized
 
     → CELEBRATION matters: adds hardware-subsidy to compile moment
-    → Emotional peak (§2.1②) + Hardware-Subsidy = MOST PERSISTENT tag
+    → Emotional peak (§2.1②) + Hardware-Subsidy = MOST PERSISTENT link pattern
     → = Why "first time succeeding" with mother present = MARKS FOR LIFE
 ```
 
@@ -861,7 +861,7 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
   │               │ Facts, skills       │ (Experience type)  │
   ├───────────────┼─────────────────────┼────────────────────┤
   │ ② VALUE       │ Good/bad evaluation │ Entity-Valence     │
-  │               │ Approach/avoid tag  │ Trust-amplified    │
+  │               │ Approach/avoid links│ Trust-amplified    │
   ├───────────────┼─────────────────────┼────────────────────┤
   │ ③ ENTITY      │ Entity-Valence      │ Entity-Valence     │
   │               │ Trust update        │ (update weights)   │
@@ -878,7 +878,7 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
   EXAMPLE — CHILD TOUCHES FIRE (1 event → 4 compilations):
 
     ① Content:  "fire = hot" (compiled — direct exposure)
-    ② Value:    "fire = dangerous" (avoidance tag — emotional peak)
+    ② Value:    "fire = dangerous" (avoidance links — emotional peak)
     ③ Entity:   "mother was RIGHT" (trust + for mother — mother warned before)
     ④ Behavior: "pull hand back" (motor avoidance — body auto-withdrew)
 
@@ -937,7 +937,7 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
 
     ① "Child doesn't like X" → ASK: which STREAM failed?
        Content ✗: need more exposure (teach more)
-       Value ✗: need to build approach tags (create positive experiences)
+       Value ✗: need to build approach links (create positive experiences)
        Entity ✗: need to fix the relationship (does the teacher have trust?)
        Behavior ✗: need repetition + patience (motor hasn't compiled)
 
@@ -948,7 +948,7 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
     ③ Multi-Stream explains WHY "same content, different results":
        = CONTENT compile SAME (same exposure)
        = VALUE compile DIFFERENT (depends on body state, trust, context)
-       = "Teaching method determines the tag" (§3) = more precisely:
+       = "Teaching method determines the links" (§3) = more precisely:
          "Teaching method determines VALUE + BEHAVIOR stream,
           does NOT affect CONTENT stream"
 
@@ -958,41 +958,48 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
 
 ---
 
-## §3 — APPROACH/AVOIDANCE TAG × PARENTING
+## §3 — APPROACH/AVOIDANCE LINK PATTERN × PARENTING
 
 > **⭐ THE MOST IMPORTANT SECTION OF THIS FILE.**
 > All of §1–§2 explains how chunks compile.
 > This section explains: THE QUALITY of compilation determines LIFE TRAJECTORY.
-> "Same content, different teaching method → different tag → different trajectory."
+> "Same content, different teaching method → different links → different trajectory."
 
 ### §3.1 — Body-State-at-Compile Mechanism
 
 ```
-⭐ WHEN A CHUNK COMPILES, THE BODY STATE AT THAT MOMENT → ATTACHES A TAG TO THE CHUNK:
+⭐ WHEN A CHUNK COMPILES, THE BODY STATE AT THAT MOMENT → FORMS EMOTIONAL LINKS IN THE CHUNK:
 
   NOVELTY-PATH body state:
     Cortisol (novelty-direction) + dopamine/opioid
     → Body interprets: "interesting, want to know more"
-    → Chunk tagged APPROACH
+    → Chunk linked to APPROACH
     → Future: encounters it again → body pulls TOWARDS
 
   THREAT-PATH body state:
     Cortisol (threat-direction) + NE/adrenaline
     → Body interprets: "dangerous, avoid"
-    → Chunk tagged AVOIDANCE
+    → Chunk linked to AVOIDANCE
     → Future: encounters it again → body pulls AWAY
 
   ⭐ KEY INSIGHT:
-    SAME cortisol level + DIFFERENT body state = DIFFERENT tag
+    SAME cortisol level + DIFFERENT body state = DIFFERENT link pattern
     Direction (novelty vs threat) > Level (high vs low)
 
   Example: Child's cortisol slightly elevated from excitement (novelty-direction)
-      → Chunk compiles with approach tag
+      → Chunk compiles with approach links
   Example: Child's cortisol slightly elevated from fear of punishment (threat-direction)
-      → Chunk compiles with avoidance tag
+      → Chunk compiles with avoidance links
   → SAME cortisol level → COMPLETELY DIFFERENT outcome
 
-  MECHANISM (🟡🟢 — Chunk.md v2.0 §2.4, F1/06a §7):
+  ⭐ NOTE (Drill v4.0 §4): 'Approach/avoidance' = OBSERVATION PARAMETER.
+    No binary tag at neural level. Direction = NET of all Type 1 emotional
+    links (7-factor strength). What we call 'approach links' or 'avoidance
+    links' here = observation labels for the dominant NET pattern.
+    Full mechanism: Drill-Threat-Direction-Analysis.md v4.0 §4.
+    This file uses 'approach/avoidance links' as reader-friendly shorthand.
+
+  MECHANISM (🟡🟢 — Chunk.md v3.1 §2.4, F1/06a §7):
 
     Body state at compile moment = "fingerprint" attached to chunk.
     Fingerprint includes:
@@ -1002,10 +1009,10 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
       → Social context: safe (mother calm) vs unsafe (mother yelling)
 
     When encountering similar stimulus again → chunk fires → body REPLAYS fingerprint:
-      → Approach-tagged chunk fires → body pulls TOWARDS → "likes it"
-      → Avoidance-tagged chunk fires → body pulls AWAY → "hates it"
+      → Approach-linked chunk fires → body pulls TOWARDS → "likes it"
+      → Avoidance-linked chunk fires → body pulls AWAY → "hates it"
       → PFC observes body signal → labels "like" or "hate"
-      → BUT PFC usually does NOT know WHY (tag is at body level)
+      → BUT PFC usually does NOT know WHY (link pattern is at body level)
 
 
   4-THRESHOLD GRADIENT (🟡 — Cortisol-Baseline.md §8):
@@ -1020,11 +1027,11 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
     │ MODERATE     │ ⭐ OPTIMAL ZONE → STRONGEST compile         │
     │              │ Example: first time swimming with mother    │
     │              │ → Novelty cortisol moderate + safe =        │
-    │              │   approach tag                              │
+    │              │   approach links                              │
     ├──────────────┼─────────────────────────────────────────────┤
     │ HEAVY        │ Compiles but WITH DAMAGE RISK               │
     │              │ Example: forced to study under heavy        │
-    │              │ pressure → Threat cortisol → avoidance tag  │
+    │              │ pressure → Threat cortisol → avoidance links  │
     │              │ + neural wear begins                        │
     ├──────────────┼─────────────────────────────────────────────┤
     │ EXTREME      │ Overwhelming → SHUTDOWN → less compile      │
@@ -1034,7 +1041,7 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
     └──────────────┴─────────────────────────────────────────────┘
 
     ⭐ IMPLICATION: Moderate pressure (structured practice) ≠ extreme pressure (punishment)
-       BUT BOTH are at threat-direction → BOTH tag avoidance
+       BUT BOTH are at threat-direction → BOTH build avoidance links
        Only the degree of damage differs
        → Novelty-direction is the approach route → need to CREATE INTEREST, not force
 
@@ -1042,8 +1049,8 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
     ⭐ STRUCTURAL vs CURRENT VALENCE (Valence-Propagation.md v3.0 §3):
 
       STRUCTURAL VALENCE = valence INSIDE compiled chunks:
-        Every approach/avoidance tag above = attached INTO chunk at compile-time
-        Accumulating many tags → becomes "structural" = changes SLOWLY (months/years)
+        All approach/avoidance links above = attached INTO chunk at compile-time
+        Accumulating many links → becomes "structural" = changes SLOWLY (months/years)
         → Example: "math = avoidance" structural → needs MANY positive experiences to shift
 
       CURRENT VALENCE = valence at THE PRESENT MOMENT:
@@ -1052,33 +1059,33 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
         → Example: child in good mood → "math" chunk fires less avoidance than usual
         → Example: child tired → "math" chunk fires STRONGER avoidance (PFC weak)
 
-      In children 0–6: tags are primarily CURRENT (not compiled long enough to be structural)
-        → = Opportunity: tags EASIER TO SHIFT than in adults
-        → = Risk: tags NOT STABLE — "likes it today, doesn't tomorrow"
-        → = NORMAL: child changing their mind constantly = tags not yet structural
+      In children 0–6: links are primarily CURRENT (not compiled long enough to be structural)
+        → = Opportunity: links EASIER TO SHIFT than in adults
+        → = Risk: links NOT STABLE — "likes it today, doesn't tomorrow"
+        → = NORMAL: child changing their mind constantly = links not yet structural
 
 
     ⭐ HARDWARE-SUBSIDY AT COMPILE (Connection.md v5.0 §5):
 
       When oxytocin/dopamine IS PRESENT at compile moment:
-        → Approach tag is HARDWARE SUBSIDIZED
-        → Stronger, more durable than approach tag compiled WITHOUT subsidy
+        → Approach links is HARDWARE SUBSIDIZED
+        → Stronger, more durable than approach links compiled WITHOUT subsidy
 
       Example: Learning to swim WHILE mother is holding (oxytocin present)
-        = approach tag STRONGER than learning with a stranger
+        = approach links STRONGER than learning with a stranger
       Example: Exploring when safe (opioid present)
-        = approach tag STRONGER than exploring when stressed
+        = approach links STRONGER than exploring when stressed
 
       → = Why LEARNING IN A SAFE ENVIRONMENT > learning under pressure
-        (same content, but hardware-subsidy at compile → MORE DURABLE approach tag)
+        (same content, but hardware-subsidy at compile → MORE DURABLE approach links)
 
 
-  ⭐ MULTI-STREAM TAG CLARIFICATION (Compile-Taxonomy.md v3.0 §5):
+  ⭐ MULTI-STREAM LINK CLARIFICATION (Compile-Taxonomy.md v3.0 §5):
 
-    Approach/avoidance tags APPLY primarily to VALUE + BEHAVIOR streams:
+    Approach/avoidance links APPLY primarily to VALUE + BEHAVIOR streams:
 
     ┌───────────────┬──────────────────┬─────────────────────────────┐
-    │ Stream        │ Tag affects it?  │ Explanation                 │
+    │ Stream        │ Links affect it? │ Explanation                 │
     ├───────────────┼──────────────────┼─────────────────────────────┤
     │ ① Content     │ NO               │ Compile Engine directly —   │
     │               │                  │ exposure alone = sufficient  │
@@ -1097,19 +1104,19 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
     → More precise reframe: "same exposure → content compile SAME,
       value compile DIFFERENT depending on body state + trust at compile time"
 
-    → IMPLICATION: §3.2 "Teaching Method Determines the Tag" = MORE PRECISELY:
-      "Teaching method determines VALUE + BEHAVIOR tag.
+    → IMPLICATION: §3.2 "Teaching Method Determines the Links" = MORE PRECISELY:
+      "Teaching method determines VALUE + BEHAVIOR links.
        CONTENT stream compiles REGARDLESS of teaching method (exposure = sufficient).
        So: content → ALWAYS compiles if exposed.
-       But: value tag determines whether child WANTS to continue or not."
+       But: value links determine whether child WANTS to continue or not."
 ```
 
-### §3.2 — "Teaching Method Determines the Tag"
+### §3.2 — "Teaching Method Determines the Links"
 
 ```
 ⭐⭐ CORE PRINCIPLE:
 
-  SAME CONTENT, DIFFERENT TEACHING METHOD → DIFFERENT TAG → DIFFERENT TRAJECTORY FOR LIFE
+  SAME CONTENT, DIFFERENT TEACHING METHOD → DIFFERENT LINKS → DIFFERENT TRAJECTORY FOR LIFE
 
 
   PIANO EXAMPLE — 2 TEACHING METHODS, 2 RESULTS:
@@ -1118,54 +1125,54 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
     Forced to sit + unfamiliar teacher + must be correct + punished when wrong
     → Body state: threat-direction
       (high NE, threat cortisol, tense muscles, social threat from teacher/parents)
-    → "Piano" chunk compiled with AVOIDANCE tag
+    → "Piano" chunk compiled with AVOIDANCE links
     → Future: sees piano → body pulls AWAY
     → PFC label: "I don't like piano"
-    → 20 years later: sees piano → still uncomfortable (tag remains)
+    → 20 years later: sees piano → still uncomfortable (links remain)
 
   METHOD B — Novelty-path:
     Natural exposure + guided play + enjoyment + self-paced
     → Body state: novelty-direction
       (dopamine, opioid micro-reward with each self-discovery)
-    → "Piano" chunk compiled with APPROACH tag
+    → "Piano" chunk compiled with APPROACH links
     → Future: sees piano → body pulls TOWARDS
     → PFC label: "I like piano"
-    → 20 years later: sees piano → still enjoys it (tag remains)
+    → 20 years later: sees piano → still enjoys it (links remain)
 
 
   SAME SKILL. SAME CHILD. SAME HARDWARE.
-  → DIFFERENT TAG → DIFFERENT TRAJECTORY → DIFFERENT LIFE.
+  → DIFFERENT LINKS → DIFFERENT TRAJECTORY → DIFFERENT LIFE.
 
 
   SWIMMING EXAMPLE — 2 METHODS, 2 RESULTS:
 
   METHOD A: Thrown into water + shouting + "everyone can swim"
     → Body state: EXTREME threat (cortisol spike + NE + fear)
-    → "Water" chunk = EXTREMELY STRONG avoidance tag (emotional peak compile)
+    → "Water" chunk = EXTREMELY STRONG avoidance links (emotional peak compile)
     → = 1 time is enough to compile for life (§2.1② — emotional peak)
     → 20 years later: fears water, avoids swimming pools, afraid to teach children to swim
 
   METHOD B: Gradual water play → splash → float with flotation device → guided instruction
     → Body state: novelty-direction (each step = mini exploration)
-    → "Water" chunks = approach tags accumulating gradually (salami slicing)
-    → = Many approach tags accumulate → schema "water = enjoyable"
+    → "Water" chunks = approach links accumulating gradually (salami slicing)
+    → = Many approach links accumulate → schema "water = enjoyable"
     → 20 years later: loves the ocean, teaches children to swim early
 
 
   MATH EXAMPLE — most common:
 
   METHOD A: Forced study + comparison + punishment for wrong answers + "how can you be so dumb"
-    → "Math" chunks = avoidance tags
-    → + Social threat tag (being compared, being scolded)
+    → "Math" chunks = avoidance links
+    → + Social threat links (being compared, being scolded)
     → = COMPOUND avoidance (multiple sources)
     → Adult: "hates math" = NOT innate preference
-            = accumulated avoidance tags
+            = accumulated avoidance links
 
   METHOD B: Puzzle play + real-world math (counting candy, dividing cake)
-    → "Math" chunks = approach tags
+    → "Math" chunks = approach links
     → + High contingency (solve it yourself → immediate feedback)
     → + Multi-modal (real, touchable, edible)
-    → Adult: "likes logic" = accumulated approach tags
+    → Adult: "likes logic" = accumulated approach links
 ```
 
 ### §3.2b — Critical Asymmetry for Parenting
@@ -1204,7 +1211,7 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
       Mother plays piano joyfully in front of child + child listens + child tries pressing keys
       → Entity-Valence: mother (trust Level 5) + joy + musical exposure
       → Body auto-receptive: "mother is happy → safe → interesting"
-      → Approach tag compiles DIRECTLY, WITHOUT going through PFC
+      → Approach links compiles DIRECTLY, WITHOUT going through PFC
       → Result: child WANTS to try = Content begins + Value ✓
 
     → "Living by example" HAS A CLEAR MECHANISTIC BASIS:
@@ -1219,18 +1226,18 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
 
     Entity-Valence PATH: Mother PLAYS WITH WATER in front of child + holds child in water
       → Oxytocin (Hardware-Subsidy) + mother happy (Entity-Valence)
-      → "Water" chunk compiles approach tag DIRECTLY
+      → "Water" chunk compiles approach links DIRECTLY
       → Fear REDUCES without child needing to "understand" why
 
 
   ⭐ WHY HARDWARE-SUBSIDY (mother present) IS MORE EFFECTIVE THAN WORDS:
 
     Hardware-Subsidy (Connection.md v5.0 §5):
-      Oxytocin/opioid present → approach tag AMPLIFIED
+      Oxytocin/opioid present → approach links AMPLIFIED
     + Entity-Valence (mother = trust Level 5):
       Body auto-receptive → exposure quality INCREASES
 
-    = COMPOUND EFFECT: Hardware-Subsidy × Entity-Valence = EXTREMELY STRONG approach tag
+    = COMPOUND EFFECT: Hardware-Subsidy × Entity-Valence = EXTREMELY STRONG approach links
     = "Mother present + mother happy + child experiencing" > "mother explaining from afar"
 
     → Explains WHY:
@@ -1243,26 +1250,26 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
   🟢 Subcortical → PFC = direct, fast: established neuroscience
 ```
 
-### §3.3 — Tag Accumulation + Schema Formation
+### §3.3 — Link Accumulation + Schema Formation
 
 ```
-🟡 TAGS ACCUMULATE OVER TIME:
+🟡 LINKS ACCUMULATE OVER TIME:
 
-  1 approach tag = 1 micro-experience.
-  Many approach tags in 1 domain → schema "domain X = enjoyable"
-  Many avoidance tags in 1 domain → schema "domain X = threat"
+  1 approach links = 1 micro-experience.
+  Many approach links in 1 domain → schema "domain X = enjoyable"
+  Many avoidance links in 1 domain → schema "domain X = threat"
 
   TRAJECTORY:
-    Tags → Schema → Melody (Personal-Melody.md) → Identity
+    Links → Schema → Melody (Personal-Melody.md) → Identity
 
     "I like X" vs "I hate X"
     = NOT innate
-    = Accumulated tags through EXPERIENCE + HOW TAUGHT
+    = Accumulated links through EXPERIENCE + HOW TAUGHT
 
 
   SALAMI SLICING (approaching in thin slices):
 
-    Approach tags accumulate GRADUALLY:
+    Approach linkss accumulate GRADUALLY:
       → Each small step = 1 mini novelty-path experience
       → Body does NOT resist because each step is SMALL
       → Accumulating many steps = STRONG approach schema
@@ -1270,15 +1277,15 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
     vs MASSIVE forced exposure:
       → 1 big step = threat-path body state
       → Body RESISTS immediately
-      → 1 EXTREMELY STRONG avoidance tag (emotional peak)
-      → Overrides many small approach tags accumulated before
+      → 1 EXTREMELY STRONG avoidance links (emotional peak)
+      → Overrides many small approach links accumulated before
 
-    → PREVENTION (set approach tags from the start) >> Treatment (reversing avoidance tags)
+    → PREVENTION (set approach links from the start) >> Treatment (reversing avoidance links)
 
 
   VALENCE PROPAGATION (Valence-Propagation.md v3.0):
 
-    Tag doesn't stay in just 1 chunk — spreads through the network:
+    Links don't stay in just 1 chunk — spread through the network:
 
     Example: "Math = avoidance" → spreads to:
       → "School" (because math is at school) → mild avoidance
@@ -1286,7 +1293,7 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
       → "Logic" (because related to math) → mild avoidance
       → "Tests" (because math tests) → strong avoidance
 
-    = 1 avoidance tag → CONTAMINATES an entire network of chunks
+    = 1 avoidance links → CONTAMINATES an entire network of chunks
     = Why 1 bad experience can have a WIDE impact
 
 
@@ -1294,7 +1301,7 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
 
     Positive + negative = 2 SEPARATE SYSTEMS, fire INDEPENDENTLY
     (🟢 Cacioppo & Berntson 1994 + Vaccaro et al. 2020)
-    → 1 chunk CAN have BOTH approach AND avoidance tags SIMULTANEOUSLY
+    → 1 chunk CAN have BOTH approach AND avoidance links SIMULTANEOUSLY
     → NOT averaged → is MIXED (both active)
 
     Child example: "water" = approach +2 (fun splashing) AND avoidance -1 (fear of deep)
@@ -1318,18 +1325,18 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
       ③ INTERPRETATION BIAS: meaning assigned in direction that confirms pattern
 
     → Children 0–6: Background-Pattern IS BEING BUILT from scratch
-      → First tags = become Background-Pattern → bias ALL subsequent tags
+      → First links = become Background-Pattern → bias ALL subsequent links
       → Positive first experience → retrieval + interpretation positive
-        → more positive tags → snowball APPROACH
+        → more positive links → snowball APPROACH
       → Negative first experience → retrieval + interpretation negative
-        → more negative tags → snowball AVOIDANCE
+        → more negative links → snowball AVOIDANCE
 
     → = Reason #2 why PREVENTION >> TREATMENT (beyond neural wear in §3.5):
-      First tags SET Background-Pattern → bias all future experiences
+      First links SET Background-Pattern → bias all future experiences
       → "First time" matters MANY TIMES MORE than the 100th time
 ```
 
-### §3.4 — Reconsolidation Window: Tags CAN SHIFT
+### §3.4 — Reconsolidation Window: Links CAN SHIFT
 
 ```
 🟢 RECONSOLIDATION (Nader 2000):
@@ -1338,19 +1345,19 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
 
   ⭐ PRACTICAL MEANING FOR PARENTING:
 
-  ① CHILD BITTEN BY DOG (avoidance tag compiled):
+  ① CHILD BITTEN BY DOG (avoidance links compiled):
      → WITHIN 4–6H: if GENTLY exposed to a SAFE dog
      → Chunk recalled + new SAFE experience → re-compiles with less fear
      → AFTER 4–6H: chunk re-stabilized → harder to shift
 
-  ② PARENT YELLS AT CHILD (threat tag compiled for that situation):
+  ② PARENT YELLS AT CHILD (threat links compiled for that situation):
      → REPAIR IMMEDIATELY (apologize, explain, hug)
      → Chunk currently unstable → reconsolidates WITH repair data
      → Repair delayed (next day) → chunk already stabilized
      → Repair STILL has value but LESS EFFECTIVE than immediate repair
 
   ③ SKILL-INTRO STEPS 1–3 (reconsolidation strategy):
-     → Child already has avoidance tag for water/piano/etc.
+     → Child already has avoidance links for water/piano/etc.
      → Gentle exposure → recalls chunk → within unstable window
      → Re-compiles WITH APPROACH data
      → = Shift valence BEFORE structured learning
@@ -1362,7 +1369,7 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
     1 mild dog bite → easy to shift
     10 times beaten → chunk very stable → shifting needs MANY positive times + TIME
 
-    → PREVENTION (set approach tags from start) >> Treatment (reversing avoidance tags)
+    → PREVENTION (set approach links from start) >> Treatment (reversing avoidance links)
 
   🟢 EXTINCTION ≠ ERASURE (Bouton 2004):
     → Old avoidance chunk is NOT deleted
@@ -1423,13 +1430,13 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
 ```
 ⭐ SUMMARY §3:
 
-  ① Same content → different teaching method → different tag → different trajectory for life
-  ② Tag determines TRUE motivation:
+  ① Same content → different teaching method → different links → different trajectory for life
+  ② Link pattern determines TRUE motivation:
      Approach = intrinsic (body WANTS)
      Avoidance = compliance or avoidance (body DOESN'T WANT, PFC forcing)
-  ③ Natural exposure + guided play = novelty-path → approach tags
-  ④ Forcing + punishment + comparison = threat-path → avoidance tags
-  ⑤ "Child doesn't like X" MAY = avoidance tag already compiled
+  ③ Natural exposure + guided play = novelty-path → approach links
+  ④ Forcing + punishment + comparison = threat-path → avoidance links
+  ⑤ "Child doesn't like X" MAY = avoidance links already compiled
      → NOT innate preference → try shifting through reconsolidation
   ⑥ Repair IMMEDIATELY within reconsolidation window = most effective
   ⑦ Prevention >> Treatment — especially 0–6 (PFC most fragile)
@@ -1437,9 +1444,9 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
 
   ⭐ DIAGNOSTIC QUESTION for every teaching situation:
      "Is my child's body state RIGHT NOW novelty-path or threat-path?"
-     → If novelty: continue — chunks compiling with approach tag
-     → If threat: STOP — chunks compiling with avoidance tag
-     → 1 skill is NOT WORTH trading for 1 avoidance tag for life
+     → If novelty: continue — chunks compiling with approach links
+     → If threat: STOP — chunks compiling with avoidance links
+     → 1 skill is NOT WORTH trading for 1 avoidance links for life
 ```
 
 ---
@@ -1828,7 +1835,7 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
         "All teachers = trust. All doctors = trust."
         = GOLDEN WINDOW: trust HIGH → VALUE compile extremely effective (§2.2, §2.6).
         → Used CORRECTLY: build genuine-compiled positive experiences.
-        → Used INCORRECTLY: exploit trust → install avoidance tags.
+        → Used INCORRECTLY: exploit trust → install avoidance links.
 
       Phase 2 DEFAULT OPERATION (begins ~6): trust operates as TRUTH.
         "Whatever teacher says is correct" → compiles patterns teacher teaches.
@@ -2182,7 +2189,7 @@ CHILDREN DEVELOP THROUGH LAYERS WITH CHUNK DENSITY:
     │ (punishment/fear) │ sees threats/deficits    │ → only detects "danger"    │
     └──────────────────┴──────────────────────────┴────────────────────────────┘
 
-    → Links §3: approach-tagged → expansive. Avoidance-tagged → threat-biased.
+    → Links §3: approach-linked → expansive. Avoidance-linked → threat-biased.
     → Links §4.4 Trust: HIGH trust → safe → genuine-compiled.
     🟡 Compiled quality × Self-Observation character = framework synthesis
 
@@ -2399,7 +2406,7 @@ CHILDREN DEVELOP THROUGH LAYERS WITH CHUNK DENSITY:
 ```
   ① Sharing at age 2 = NORMALLY not doable yet
      → Self-Pattern-Modeling chunks insufficient — NOT "selfish"
-     → Forcing to share = threat-path → tag "sharing = being forced" = avoidance
+     → Forcing to share = threat-path → "sharing = being forced" linked to avoidance
 
   ② Empathy training = BUILD self-chunks FIRST
      → Label child's OWN emotions first → then label OTHER'S emotions
@@ -2562,7 +2569,7 @@ CHILDREN DEVELOP THROUGH LAYERS WITH CHUNK DENSITY:
       Allow trying → evidence +1 → meta-chunk strengthens
       → vmPFC trains → active coping builds → HEALTHY autonomy
 
-      Suppress → "doing it yourself = punished" → AVOIDANCE TAG (§3)
+      Suppress → "doing it yourself = punished" → AVOIDANCE LINKS (§3)
       → vmPFC WEAKENS (not trained)
       → Meta-chunk DOESN'T compile or compiles with avoidance
       → Adult: "knows should be independent but doesn't dare"
@@ -2597,14 +2604,14 @@ CHILDREN DEVELOP THROUGH LAYERS WITH CHUNK DENSITY:
 
     Spills rice → mother scolds "why are you so bad!" → grabs spoon → feeds child themselves
     18m: few "did it myself → match" experiences
-    Or: "doing it myself → punished" (compound avoidance tag)
+    Or: "doing it myself → punished" (compound avoidance links)
 
     → vmPFC not trained → DRN default (passive) still dominant
     → Meta-chunk DOESN'T compile. Or compiles "doing it myself = dangerous"
     → Adult: dependent, afraid to decide, or "knows should be independent but doesn't dare"
 
     Hardware STILL gives reward for self-action
-    BUT software has compiled avoidance tag → SUPPRESSES reward pathway
+    BUT software has compiled avoidance links → SUPPRESSES reward pathway
     = Hardware says "better to do it yourself" + Software says "dangerous"
     = INTERNAL CONFLICT → anxiety when needing to decide
     = "KNOWS should be independent but DOESN'T DARE" = hardware vs software
@@ -2762,14 +2769,14 @@ CHILDREN DEVELOP THROUGH LAYERS WITH CHUNK DENSITY:
   NOVELTY-DIRECTION (approach):
     Exciting, curious, enthusiastic
     → Body state: dopamine + opioid accompaniment
-    → Chunks compile with APPROACH tag → DEVELOPMENT
-    → Example: child self-explores sand → cortisol slightly elevated (excitement) → approach tag
+    → Chunks compile with APPROACH links → DEVELOPMENT
+    → Example: child self-explores sand → cortisol slightly elevated (excitement) → approach links
 
   THREAT-DIRECTION (avoidance):
     Dangerous, scared, pressured
     → Body state: NE + adrenaline accompaniment
-    → Chunks compile with AVOIDANCE tag → DAMAGE RISK
-    → Example: child forced to study → cortisol slightly elevated (stress) → avoidance tag
+    → Chunks compile with AVOIDANCE links → DAMAGE RISK
+    → Example: child forced to study → cortisol slightly elevated (stress) → avoidance links
 
   → SAME cortisol level. DIFFERENT body state. COMPLETELY DIFFERENT outcome.
   → Challenge child (novelty cortisol) → GROWTH
@@ -2780,7 +2787,7 @@ CHILDREN DEVELOP THROUGH LAYERS WITH CHUNK DENSITY:
 
     §1 PFC Reframe: cortisol + sleep repair → PFC maintenance
     §2 Compile: moderate cortisol → optimal compile; sleep deprived → compile cut
-    §3 Tags: cortisol DIRECTION = tag → approach vs avoidance
+    §3 Links: cortisol DIRECTION = link pattern → approach vs avoidance
     §4 Dynamics: cortisol holding signal → Gap→Miss transition
     §5 Feeling: Silent Cortisol = barrier to feeling fidelity
     §6 Self-Pattern-Modeling: co-regulation → cortisol ↓ → prerequisite for Self-Pattern-Modeling build
@@ -2797,7 +2804,7 @@ CHILDREN DEVELOP THROUGH LAYERS WITH CHUNK DENSITY:
         → Dissonance signal fires → cortisol AMPLIFIES
         → NOT cortisol CAUSES dissonance → cortisol AMPLIFIES existing dissonance
       Example: mother says "you're so good" (expected) → mother scolds (actual) = dissonance
-        → Cortisol amplifies → avoidance tag STRONGER than normal
+        → Cortisol amplifies → avoidance links STRONGER than normal
         → = Inconsistency from caregiver = DAMAGING because dissonance + amplification
 
     PFC BUDGET × CORTISOL:
@@ -2827,7 +2834,7 @@ CHILDREN DEVELOP THROUGH LAYERS WITH CHUNK DENSITY:
     → ⭐ DON'T KILL curiosity:
       Too much screen → VTA hijacked by rapid-fire novelty
       Block exploration → domain pull suppressed (§4.3)
-      Force learning → threat-path → avoidance tag for learning domain
+      Force learning → threat-path → avoidance links for learning domain
 
   THREAT (newborn — Threat.md):
     Brainstem response already present (Moro reflex = L0)
@@ -2964,7 +2971,7 @@ CHILDREN DEVELOP THROUGH LAYERS WITH CHUNK DENSITY:
       = Personal melody begins SHOWING through more stable Imagine-Final
 
     ⭐ PARENTS: OBSERVE + SUPPORT → DON'T DEFINE:
-      "You must like THIS" = threat-path → avoidance tag
+      "You must like THIS" = threat-path → avoidance links
       Expose DIVERSELY → body will gradually signal MORE CLEARLY
       Preferences changing constantly = CALIBRATING → not "fickle"
 ```
@@ -3007,7 +3014,7 @@ CHILDREN DEVELOP THROUGH LAYERS WITH CHUNK DENSITY:
   ✅ Provides clear causal chain:
      attachment → feeling → self-chunks → Self-Pattern-Modeling → empathy
   ✅ Bridge between core mechanism files and practical child-development files
-  ✅ Approach/avoidance tag mechanism explains "why teaching method matters"
+  ✅ Approach/avoidance links mechanism explains "why teaching method matters"
   ✅ Chunk dynamics explains separation anxiety, "why?", social comparison
   ✅ Autonomy mechanism explains "terrible twos" and learned helplessness
   ✅ Cortisol reframe explains "moderate stress = growth, excessive stress = damage"
@@ -3045,7 +3052,7 @@ CHILDREN DEVELOP THROUGH LAYERS WITH CHUNK DENSITY:
 
 🟡 MEDIUM CONFIDENCE (framework synthesis, internally consistent):
 
-  Body-state-at-compile → approach/avoidance tag              — §3.1
+  Body-state-at-compile → approach/avoidance links              — §3.1
   5-parameter compile formula (5/5 cross-state, no independent test yet) — §2.3
   Self-Pattern-Modeling developmental bootstrap timeline (logic consistent) — §6.2
   Observation parameter emergence timeline (chunk density inference) — §9.1
@@ -3064,7 +3071,7 @@ CHILDREN DEVELOP THROUGH LAYERS WITH CHUNK DENSITY:
 
   Exact timing of meta-chunk compilation (varies per child)
   Precise boundary between arousal contagion vs true empathy
-  Whether tag reversal has a critical period or not
+  Whether link reversal has a critical period or not
   Exact reconsolidation window timing in infant contexts
   Exact number of repetitions needed for baseline shift per domain
   Gap → Miss transition speed variables (cortisol, vividness)
@@ -3089,7 +3096,7 @@ MECHANISM FILES (source of truth for mechanisms in this file):
   Simulation-Engine.md v1.0     — 1 Engine, 3 Components, 3 Axes [NEW v2.0]
 
   CHUNK + COMPILE:
-  Chunk.md v2.0                 — Chunk lifecycle, 4-phase, compile formula
+  Chunk.md v3.1                 — Chunk lifecycle, 4-phase, compile formula
   Compile-Taxonomy.md v3.0      — 1 Engine + 3 Modulators, Multi-Stream, Trust = Amplifier [NEW v2.2]
   Compile-Sleep.md v1.0         — Sleep Maintenance (6 mechanisms, exposure vs optimization) [NEW v2.2]
   Compiled-Fresh.md v2.0        — Compiled/Fresh processing types [NEW v2.0]
@@ -3101,7 +3108,7 @@ MECHANISM FILES (source of truth for mechanisms in this file):
   Gap-Distribution-Profile.md v1.1 — Gap distribution fingerprint [NEW v2.0]
 
   CORTISOL + DISSONANCE:
-  Cortisol-Baseline.md v2.0    — 10 mechanisms, amplifier reframe, recovery
+  Cortisol-Baseline.md v2.4    — 10 mechanisms, amplifier reframe, recovery
   Cortisol-Amplifier-Not-Cause.md — Key variable = repair, not level
   Dissonance-Signal-Architecture.md v1.0 — Dissonance signal mechanisms [NEW v2.0]
 
@@ -3190,7 +3197,7 @@ COMPANION FILES (cross-reference back):
   Meltzoff & Moore 1977 — neonatal imitation
   Sorce et al. 1985 — social referencing / visual cliff
 
-§3 TAGS + VALENCE (v2.0 additions marked):
+§3 LINKS + VALENCE (v2.0 additions marked):
   Nader 2000 — reconsolidation
   Bouton 2004 — extinction ≠ erasure
   Arnsten 2009 — chronic stress → PFC damage
@@ -3244,7 +3251,7 @@ COMPANION FILES (cross-reference back):
 >   §0: Position + how to read
 >   §1: PFC Reframe (hardware online, chunks missing — 5 pillars 🟢) + PFC Budget
 >   §2: Compile Architecture (1E+3M) + §2.5 Advanced Dynamics + §2.6 Multi-Stream Compile
->   §3: ⭐ Approach/Avoidance Tags + Multi-Stream Tag Clarification + Critical Asymmetry
+>   §3: ⭐ Approach/Avoidance Link Patterns + Multi-Stream Link Clarification + Critical Asymmetry
 >        + Structural/Current Valence + Mixed + Triple Bias
 >   §4: Chunk Dynamics + Connection v5.0 (Entity-Compiled, Bond-Architecture,
 >        Hardware-Subsidy, 4-Layer, Phantom, Coordination-Node, Entity-Access)

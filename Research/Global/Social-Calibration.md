@@ -1913,7 +1913,7 @@ framework: Human Predictive Drive v7.8
 
   → Body-Base.md v3.1 — 2-Tier + 2-Pathway Calibration (§7)
      THIS FILE uses §7 as the core mechanism for HOW calibration works.
-     Xã hội = primary provider of pathway 2b Trust-Injected.
+     Society = primary provider of pathway 2b Trust-Injected.
 
   → Gap-Direction.md v2.0 — "not knowing = no gap yet" (v2.0 NEW)
      Applied to predictions about the future: we don't know what the new collective looks like

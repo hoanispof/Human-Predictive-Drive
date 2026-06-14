@@ -1,8 +1,9 @@
 ---
 title: Body-Feedback Precondition — 5 Preconditions for Signal Fire
-version: 1.0
+version: 1.1
 created: 2026-05-30
-status: REFERENCE v1.0
+refined: 2026-06-14 (v1.1 — §6 Precondition-5: "tag" → "NET link pattern" throughout. Observation parameter model aligned with Drill v4.0 §4. Version refs updated.)
+status: REFERENCE v1.1
 scope: |
   PRECONDITION REFERENCE: WHEN does body-feedback signal (reward/dissonance) fire?
   5 Preconditions model — formalized from 03-Reward.md §3 (drill origin).
@@ -36,9 +37,9 @@ dependencies:
   - 03-Reward.md v1.1 — §3 H10 drill origin, §2 7-step VTA
   - 04-Integration.md — §9 H10 refined
   - Gap-Direction.md v2.0 — §3 "don't know it exists = no gap", §6.3 hierarchy
-  - Chunk.md v2.2 — chunk substrate, context-tag model
+  - Chunk.md v3.1 — chunk substrate, context-tag model, Direction-At-Compile
   - Compile-Taxonomy.md v3.0 — §6 4-pathway model (Precondition-5)
-  - Cortisol-Baseline.md v2.2 — §3.3 Direction-At-Compile, §7 source > level
+  - Cortisol-Baseline.md v2.4 — §3.3 Direction-At-Compile, §7 source > level, §7.7 5 roles taxonomy
   - Reward-Calibration.md v1.1 — §1.2 Goldilocks per-gap dynamic
   - Boredom.md v2.1 — §1 + §7 boredom ≠ Precondition-3 failure
 language: English
@@ -51,7 +52,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Someone who's never heard it → "too strange" (insufficient chunks to decode).
 > Someone hearing it for the first time → "captivating!" (novel + just enough match).
 > Someone who's heard it 1,000 times → "boring" (no delta left).
-> Someone forced to listen as a child → "dislike even though I know it's good" (avoidance tag).
+> Someone forced to listen as a child → "dislike even though I know it's good" (negative-dominant NET).
 > Someone saturated with music → "feel nothing" (no gap active).
 >
 > Same stimulus. 5 people. 5 DIFFERENT responses.
@@ -112,7 +113,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 MUST READ FIRST:
   Body-Feedback.md         — dual-pull, interface loop, body-base
   03-Reward.md §2-§3       — 7-step VTA, H10 drill origin
-  Chunk.md v2.2+           — chunk substrate, context-tag
+  Chunk.md v3.1             — chunk substrate, context-tag, Direction-At-Compile
   Compile-Taxonomy.md      — 4-pathway model (for §6 Precondition-5)
 
 READ IN PARALLEL:
@@ -160,7 +161,7 @@ THIS FILE: Refines + formalizes all insights above into official reference.
 > | Precondition-2 | **Chunk-Substrate** | Are there sufficient chunks to decode the stimulus? |
 > | Precondition-3 | **Delta-Gate** | Is there enough change for VTA to detect? |
 > | Precondition-4 | **Match-Range** | Does the match fall within a suitable range? |
-> | Precondition-5 | **Compile-Gate** | Does the chunk tag permit the signal to fire in the correct direction? |
+> | Precondition-5 | **Compile-Gate** | Does the chunk NET link pattern permit the signal in the correct direction? |
 >
 > **Logical form**: Signal_full = Precondition-1 ∧ Precondition-2 ∧ Precondition-3 ∧ Precondition-4 ∧ Precondition-5
 
@@ -181,7 +182,7 @@ DIRECT-STATE (hardware signals, body-need-driven):
   → Precondition-2 minimal: hardware paths from birth (compiled chunks not required)
   → Precondition-3 uncertain: may bypass VTA entirely (posterior insula pathway)
   → Precondition-4 hardware: CT afferent ~1-10cm/s = fixed range (not learned)
-  → Precondition-5 N/A: hardware signals, no opioid/cortisol tag needed
+  → Precondition-5 N/A: hardware signals, no compiled link pattern needed
 
   → Type-split details per precondition: Reward-Signal-Architecture §1.3
 
@@ -218,7 +219,7 @@ Layer 1 (SUBSTRATE):  Precondition-2 Chunk-Substrate — ARE there chunks to for
 Layer 2 (GAP):        Precondition-1 Directed-Gap — gap active + has direction?
 Layer 3 (DETECTION):  Precondition-3 Delta-Gate — VTA detects delta?
 Layer 4 (MATCH):      Precondition-4 Match-Range — match in suitable range?
-Layer 5 (DIRECTION):  Precondition-5 Compile-Gate — tag permits signal in correct direction?
+Layer 5 (DIRECTION):  Precondition-5 Compile-Gate — NET link pattern permits signal in correct direction?
 
 ⭐ Hierarchy does NOT change "ALL 5 required" claim.
   → But TELLS US which failure mode occurs FIRST.
@@ -430,14 +431,14 @@ DIRECT-STATE:
     → Chunks EXIST or NOT
 
   Precondition-5 Compile-Gate:
-    Question: Once chunks decode → does the tag PERMIT the signal in the correct direction?
+    Question: Once chunks decode → does the NET link pattern PERMIT the signal in the correct direction?
     Layer: DIRECTION — signal direction
     Failure: signal fires in wrong direction ("understand but dislike")
-    → Chunks exist BUT tagged approach/avoidance
+    → Chunks exist BUT NET link pattern determines direction (positive or negative dominant)
 
   Example: Math
     Precondition-2 fail: "I don't understand math" (insufficient chunks to decode)
-    Precondition-5 fail: "I understand math but hate math" (chunks exist, tagged avoidance)
+    Precondition-5 fail: "I understand math but hate math" (chunks exist, negative-dominant NET)
 ```
 
 ### §3.6 — Precondition-2 failure modes
@@ -759,15 +760,17 @@ DISSONANCE Precondition-4 "failure" (i.e., dissonance does NOT fire):
 
 🟡 **Precondition-5 — Compile-Gate**:
 
-> Chunks being activated must have **appropriate association tag** that permits
-> signal to fire in the expected direction. Tag compiled at formation time
-> persists through retrieval and determines signal DIRECTION + QUALITY.
+> Chunks being activated must have **NET link pattern** (sum of Type 1 emotional
+> links, 7-factor strength) that permits signal to fire in the expected direction.
+> Link pattern compiled at formation time persists through retrieval and
+> determines signal DIRECTION + QUALITY.
 >
-> Precondition-5 answers: "Does the tag PERMIT it?" — direction gate, not substrate check.
+> Precondition-5 answers: "Does the NET link pattern PERMIT it?" — direction gate, not substrate check.
 
 **Old name**: "Chunk Association Tag" (drill 03-Reward.md §3.6)
-**Changed because**: (a) "Association Tag" describes mechanism, not function.
-(b) "Compile-Gate" emphasizes: tag is compiled into chunk → gate determines direction.
+**Changed because**: (a) "Association Tag" implies binary — actual mechanism = NET of Type 1 links.
+(b) "Compile-Gate" emphasizes: link pattern compiled at formation → gate determines direction.
+(c) v1.1: "tag" → "NET link pattern" aligned with Drill v4.0 §4 (observation parameter model).
 
 ### §6.2 — Scope: Evaluative ONLY
 
@@ -775,16 +778,16 @@ DISSONANCE Precondition-4 "failure" (i.e., dissonance does NOT fire):
 ⭐ Precondition-5 applies ONLY to EVALUATIVE reward/dissonance.
 
 EVALUATIVE:
-  → Precondition-5 REQUIRED — chunks' tag determines signal direction
-  → Approach-tagged → opioid pathway → genuine reward
-  → Avoidance-tagged → cortisol pathway → discomfort despite understanding
-  → Quality ceiling depends on tag (§6.4)
+  → Precondition-5 REQUIRED — chunks' NET link pattern determines signal direction
+  → Positive-dominant NET → opioid pathway → genuine reward
+  → Negative-dominant NET → cortisol pathway → discomfort despite understanding
+  → Quality ceiling depends on NET link pattern (§6.4)
 
 DIRECT-STATE:
-  → Precondition-5 = N/A — hardware signals, no tag needed
-  → CT afferents fire opioid directly (no compiled tag)
+  → Precondition-5 = N/A — hardware signals, no compiled link pattern needed
+  → CT afferents fire opioid directly (no compiled links)
   → Taste buds signal directly (sweet → approach, bitter → avoid)
-  → Hardware "tag" = hardwired, not compiled
+  → Hardware pathways = hardwired, not compiled
   → Details: Reward-Signal-Architecture §1.3
 
 ⚠️ Precondition-5 = N/A is the ONLY precondition completely absent in Direct-State.
@@ -793,101 +796,109 @@ DIRECT-STATE:
 
 ### §6.3 — Direction-At-Compile gate model
 
-🟡 From Cortisol-Baseline.md v2.2 §3.3 — tag is NOT binary (opioid/cortisol) but a **gradient**:
+🟡 From Cortisol-Baseline.md v2.4 §3.3 — NET link pattern is NOT binary but a **gradient**:
 
-> At compile time: cortisol level + body-state direction
-> → determines tag on the resulting chunk.
-> Key insight: "cortisol assigns DIRECTION — direction matters more than level."
+> At compile time: cortisol AMPLIFIES link formation in the direction
+> determined by body state. No binary tag at neural level.
+> Key insight: "cortisol amplifies DIRECTION — direction matters more than level."
 
 ```
-4-Threshold Gradient (Cortisol-Baseline.md §3.3):
+⭐ 'Direction-At-Compile' = OBSERVATION PARAMETER (Drill v4.0 §4):
+  No binary tag at neural level. Direction = NET of all Type 1 links
+  (7-factor strength) at compile. "Approach" = positive links dominate NET.
+  "Avoidance" = negative links dominate NET. Link pattern CAN shift
+  via competitive re-linking (Chunk.md v3.1 §4.3).
+
+4-Threshold Gradient (Cortisol-Baseline.md v2.4 §3.3):
 
   ┌───────────┬──────────────────┬───────────────────────────────────┐
-  │ Threshold │ threat:novelty   │ Tag outcome                       │
+  │ Threshold │ threat:novelty   │ NET link outcome                  │
   ├───────────┼──────────────────┼───────────────────────────────────┤
   │ Light     │ ~60:40           │ Mild cortisol + opioid anticipation│
-  │           │                  │ Tag: "ok, tolerable"               │
-  │           │                  │ Easy to update later               │
+  │           │                  │ NET: mildly positive               │
+  │           │                  │ Easy to shift later                │
   ├───────────┼──────────────────┼───────────────────────────────────┤
   │ Moderate  │ ~80:20           │ Moderate cortisol, little opioid   │
-  │           │                  │ Tag: "unpleasant"                  │
-  │           │                  │ Update needs time                  │
+  │           │                  │ NET: moderately negative           │
+  │           │                  │ Shift needs time                   │
   ├───────────┼──────────────────┼───────────────────────────────────┤
   │ Heavy     │ ~95:5            │ Strong cortisol, deep fear compiled│
-  │           │                  │ Tag: extremely hard to update      │
+  │           │                  │ NET: strongly negative             │
+  │           │                  │ Extremely hard to shift            │
   ├───────────┼──────────────────┼───────────────────────────────────┤
   │ Extreme   │ Trauma           │ Body refuses to use chunk          │
-  │           │                  │ Net negative value                 │
+  │           │                  │ NET: overwhelmingly negative       │
   │           │                  │ Avoidance = only possible response │
   └───────────┴──────────────────┴───────────────────────────────────┘
 
 ⭐ SAME cortisol level, DIFFERENT source:
-  Novelty cortisol (curious but tense) → chunk tagged APPROACH
-  Threat cortisol (afraid) → chunk tagged AVOIDANCE
-  → SOURCE > LEVEL (Cortisol-Baseline.md §7)
+  Novelty cortisol (curious but tense) → positive links dominate → approach OBSERVED
+  Threat cortisol (afraid) → negative links dominate → avoidance OBSERVED
+  → SOURCE > LEVEL (Cortisol-Baseline.md v2.4 §7)
 ```
 
 ### §6.4 — 4-Pathway × quality ceiling
 
 🟡 From Compile-Taxonomy.md v3.0 §6:
 
-> Each compile pathway creates a DIFFERENT Precondition-5 tag → determines reward capacity:
+> Each compile pathway creates a DIFFERENT Precondition-5 NET pattern → determines reward capacity:
 
 ```
-┌──────────────────────┬───────────────────┬────────────────────────────┐
-│ Pathway              │ Precondition-5 Tag│ Reward ceiling             │
-├──────────────────────┼───────────────────┼────────────────────────────┤
-│ ① Hardware Fit       │ Approach          │ HIGHEST — natural coherence│
-│   (direct experience │                   │ Flow accessible            │
-│    in Goldilocks)    │                   │ Sustainable engagement     │
-├──────────────────────┼───────────────────┼────────────────────────────┤
-│ ② Trust + Moderate   │ Moderate approach │ MODERATE — depends on      │
-│   (trusted source +  │                   │ collective chain quality   │
-│    partial verify)   │                   │ Can upgrade with experience│
-├──────────────────────┼───────────────────┼────────────────────────────┤
-│ ③ Social Default     │ Neutral           │ LOW — relief dominant      │
-│   (consensus,        │                   │ "Done" > "Interesting"     │
-│    "everyone does it")│                  │ PFC confabulation ~30%     │
-├──────────────────────┼───────────────────┼────────────────────────────┤
-│ ④ Threat Avoidance   │ Avoidance         │ LOWEST — relief ONLY       │
-│   (fear-driven       │                   │ Never genuine engagement   │
-│    compliance)       │                   │ Burnout trajectory         │
-└──────────────────────┴───────────────────┴────────────────────────────┘
+┌──────────────────────┬───────────────────────┬────────────────────────────┐
+│ Pathway              │ Precondition-5 NET    │ Reward ceiling             │
+│                      │ Pattern               │                            │
+├──────────────────────┼───────────────────────┼────────────────────────────┤
+│ ① Hardware Fit       │ Positive-dominant     │ HIGHEST — natural coherence│
+│   (direct experience │                       │ Flow accessible            │
+│    in Goldilocks)    │                       │ Sustainable engagement     │
+├──────────────────────┼───────────────────────┼────────────────────────────┤
+│ ② Trust + Moderate   │ Moderate positive     │ MODERATE — depends on      │
+│   (trusted source +  │                       │ collective chain quality   │
+│    partial verify)   │                       │ Can upgrade with experience│
+├──────────────────────┼───────────────────────┼────────────────────────────┤
+│ ③ Social Default     │ Mixed/neutral         │ LOW — relief dominant      │
+│   (consensus,        │                       │ "Done" > "Interesting"     │
+│    "everyone does it")│                      │ PFC confabulation ~30%     │
+├──────────────────────┼───────────────────────┼────────────────────────────┤
+│ ④ Threat Avoidance   │ Negative-dominant     │ LOWEST — relief ONLY       │
+│   (fear-driven       │                       │ Never genuine engagement   │
+│    compliance)       │                       │ Burnout trajectory         │
+└──────────────────────┴───────────────────────┴────────────────────────────┘
 
-⭐ Precondition-5 tag at childhood compile → PERSISTS → constrains ADULT reward profile.
-  "Skilled but resentful" = Precondition-5 fail (understand but avoidance-tagged).
+⭐ Precondition-5 NET pattern at childhood compile → PERSISTS → constrains ADULT reward profile.
+  "Skilled but resentful" = Precondition-5 fail (understand but negative-dominant NET).
   Pathway ④ = why many people "succeed but aren't happy."
 ```
 
 ### §6.5 — Re-association 3 paths
 
-🟡 Precondition-5 tag CAN change, but requires resources (Cortisol-Baseline.md §7.6):
+🟡 Precondition-5 NET pattern CAN shift, but requires resources (Cortisol-Baseline.md v2.4 §7.6):
 
 ```
-3 Re-association Paths:
+3 Re-association Paths (= add competing links → shift NET):
 
   Path 1: NEW POSITIVE CONTEXT (months → years)
     → Same domain, new positive experiences
-    → Gradually overlay approach tag onto avoidance-tagged chunks
+    → Add competing positive links → gradually shift NET toward approach
     → Slowest but most robust
     → Example: math-phobic adult finds a good teacher → years → "math is ok"
 
   Path 2: NOVELTY HIJACK (weeks → months)
     → Completely new angle/context for same domain
-    → Bypass old chunks → build new approach-tagged chunks
-    → Old avoidance chunks still exist BUT new chunks dominate
-    → Example: learn math through music → new chunks, new tag
+    → Bypass old chunks → build new positive-linked chunks
+    → Old negative-linked chunks still exist BUT new chunks dominate
+    → Example: learn math through music → new chunks, new positive links
 
   Path 3: AI SUPPORT (weeks — 🔴 hypothesis level)
     → AI provides perfectly calibrated Goldilocks stimuli
     → Consistent positive experiences accumulate faster
-    → Tag shift accelerated by controlled exposure
+    → NET shift accelerated by controlled exposure
     → ⚠️ Hypothesis level — not yet validated
 
-⭐ Key: re-association = OVERLAY, not deletion.
-  Old avoidance-tagged chunks still exist.
-  New approach-tagged chunks added.
-  Which set DOMINATES = f(recency, frequency, context).
+⭐ Key: re-association = ADD COMPETING LINKS, not deletion.
+  Old negative-linked chunks still exist (no deletion mechanism).
+  New positive-linked chunks added.
+  Which set DOMINATES NET = f(recency, frequency, context).
 ```
 
 ### §6.6 — Precondition-5 ≠ Precondition-2 distinction (restated)
@@ -896,38 +907,38 @@ DIRECT-STATE:
 Summary distinction:
 
   Precondition-2 Chunk-Substrate:  CAN you decode? (existence of chunks)
-  Precondition-5 Compile-Gate:     WHAT DIRECTION does decoded signal go? (tag on chunks)
+  Precondition-5 Compile-Gate:     WHAT DIRECTION does decoded signal go? (NET link pattern on chunks)
 
   Precondition-2 fail: "I don't understand this problem" (no chunks to decode)
-  Precondition-5 fail: "I understand this problem but hate math" (chunks exist, tagged avoid)
+  Precondition-5 fail: "I understand this problem but hate math" (chunks exist, negative-dominant NET)
 
   Precondition-2 fix: LEARN (accumulate chunks) — education problem
-  Precondition-5 fix: RE-ASSOCIATE (change tag) — much harder, emotional rewiring
+  Precondition-5 fix: RE-LINK (add competing positive links → shift NET) — much harder, emotional rewiring
 
   Precondition-2 is about SUBSTRATE (does the foundation exist?)
-  Precondition-5 is about DIRECTION (which way does the signal flow?)
+  Precondition-5 is about DIRECTION (which way does the NET link pattern flow?)
 ```
 
 ### §6.7 — Precondition-5 failure modes
 
 | Failure type | Mechanism | Subjective experience |
 |---|---|---|
-| Threat-tagged | Chunks compiled under fear → avoidance direction | "Dislike even though I know it's good" |
-| Social-default | Chunks compiled via consensus → relief only | "Relieved when done, not engaged" |
-| Mixed-tag | Some chunks approach + some avoidance → ambivalent | "Both attracted and afraid" |
-| Trauma-tagged | Extreme compile → body refuses chunk activation | "Can't even think about it" (avoidance) |
+| Threat-linked | Chunks compiled under fear → negative-dominant NET | "Dislike even though I know it's good" |
+| Social-default | Chunks compiled via consensus → mixed/neutral NET | "Relieved when done, not engaged" |
+| Mixed-NET | Some links positive + some negative → ambivalent NET | "Both attracted and afraid" |
+| Trauma-linked | Extreme compile → overwhelmingly negative NET | "Can't even think about it" (avoidance) |
 
 **Genius paradox** (03-Reward.md §3.6):
 ```
 Newton/Tesla/Einstein: high baseline cortisol
   → BUT: learning-domain chunks compiled in CURIOSITY state
-  → Threat source ≠ learning domain → Precondition-5 tag = approach in learning
+  → Threat source ≠ learning domain → Precondition-5 NET = positive-dominant in learning
   → Reward accessible in learning domain DESPITE high overall cortisol
 
 Key: threat SOURCE matters, not threat LEVEL.
   → Person stressed about money can still enjoy music (different domain)
   → Person stressed about music cannot enjoy music (same domain)
-  → Precondition-5 tag is DOMAIN-SPECIFIC, not global
+  → Precondition-5 NET pattern is DOMAIN-SPECIFIC, not global
 ```
 
 🟢 Research: Cortisol effects on learning are direction-dependent (Lupien et al. 2007).
@@ -943,7 +954,7 @@ Same cortisol level → enhanced OR impaired memory depending on context and tim
 
 > Preconditions operate as an AND-gate — missing ANY 1 → signal does not fire at full magnitude.
 > NO precondition can compensate for another.
-> Precondition-2 (chunks) does NOT offset Precondition-5 (tag). Precondition-3 (delta) does NOT offset Precondition-1 (gap).
+> Precondition-2 (chunks) does NOT offset Precondition-5 (NET pattern). Precondition-3 (delta) does NOT offset Precondition-1 (gap).
 
 ```
 Full signal (reward or dissonance):
@@ -977,9 +988,9 @@ DEPENDENCY 2: Precondition-3 → Precondition-4 (sequential)
   ⚠️ Stimulus may be a PERFECT match (Precondition-4 would pass) but Precondition-3 blocks detection.
 
 NO OTHER DEPENDENCIES:
-  Precondition-5 independent of Precondition-3/Precondition-4 (tag compiled at formation, not at evaluation)
+  Precondition-5 independent of Precondition-3/Precondition-4 (link pattern compiled at formation, not at evaluation)
   Precondition-1 independent of Precondition-3 (gap exists before delta detection)
-  Precondition-4 independent of Precondition-5 (match quality separate from tag direction)
+  Precondition-4 independent of Precondition-5 (match quality separate from NET link direction)
 ```
 
 ### §7.3 — Per-precondition failure → specific outcome
@@ -999,7 +1010,7 @@ NO OTHER DEPENDENCIES:
 - Precondition-2 fail → build chunks (training, scaffolding, prerequisite learning)
 - Precondition-3 fail → introduce variation (change context, angle, presentation)
 - Precondition-4 fail → calibrate difficulty (simpler for too-alien, harder for too-familiar)
-- Precondition-5 fail → re-associate tags (new context, positive overlay — §6.5)
+- Precondition-5 fail → add competing links → shift NET (new context, positive re-linking — §6.5)
 
 ### §7.4 — Chunk dynamics × preconditions
 
@@ -1013,21 +1024,21 @@ NO OTHER DEPENDENCIES:
     Precondition-2 = needs chunks to evaluate new info
     Precondition-3 = shift = valence delta (inherent)
     Precondition-4 = shift occurs at ANY match level
-    Precondition-5 = NEW valence tag from shift event
+    Precondition-5 = NEW link pattern from shift event
 
   Chunk-Miss:
     Precondition-1 = miss = body-need loses quality
     Precondition-2 = needs compiled baseline (no compile = no miss)
     Precondition-3 = miss = negative prediction error
     Precondition-4 = N/A (body already KNOWS — no Goldilocks needed)
-    Precondition-5 = compiled baseline carries tag
+    Precondition-5 = compiled baseline carries link pattern
 
   Chunk-Gap:
     Precondition-1 = gap = body-need lacks pattern
     Precondition-2 = needs enough chunk network to DETECT gap
     Precondition-3 = gap detect = ACC signal
     Precondition-4 = gap must be detectable (not too alien)
-    Precondition-5 = surrounding compiled chunks carry tag
+    Precondition-5 = surrounding compiled chunks carry link pattern
 
   → Details: Body-Feedback-Mechanism.md §6.2
 
@@ -1055,7 +1066,7 @@ Precondition-2 + Precondition-4 co-fail:
   → Example: advanced lecture to a complete beginner
 
 Precondition-3 + Precondition-5 co-fail:
-  No delta + wrong tag → STAGNANT AVERSION
+  No delta + negative NET → STAGNANT AVERSION
   → Example: math-phobic person forced to do math daily
   → Habituated (Precondition-3 fail) + avoidance-tagged (Precondition-5 fail) → chronic low-grade suffering
 
@@ -1096,18 +1107,18 @@ Precondition-4: ⚠️ NARROW — few existing chunks = most inputs outside matc
     → Complex stimuli → Precondition-2 fail before Precondition-4 reached
 
 Precondition-5: ⚠️ ENTIRELY DEPENDENT ON CAREGIVING
-    → Tags installed via social referencing + caregiver emotional state
-    → Caregiver curious while exposing → approach tag
-    → Caregiver anxious while exposing → avoidance tag
+    → Link patterns form via social referencing + caregiver emotional state
+    → Caregiver curious while exposing → positive links dominate
+    → Caregiver anxious while exposing → negative links dominate
     → ⭐ Precondition-5 in infancy = CAREGIVER responsibility, not child's
 ```
 
 🟢 Research: Social referencing (Sorce et al. 1985) — infants use caregiver
-facial expressions to tag novel stimuli as approach/avoid.
+facial expressions to associate novel stimuli with approach/avoidance links.
 
 ### §8.2 — Child (2-12 years)
 
-🟡 Chunk accumulation + tag compilation phase:
+🟡 Chunk accumulation + link pattern compilation phase:
 
 ```
 Precondition-1: Precondition-1b DEVELOPING — schema gaps form as chunk network grows
@@ -1129,10 +1140,10 @@ Precondition-4: WIDE ZONE — relatively few chunks → large range of stimuli f
     → Easy to reward → exploration phase
     → Zone gradually narrows with expertise accumulation
 
-Precondition-5: ⭐ CRITICAL PERIOD — tags compiling from emotional context
+Precondition-5: ⭐ CRITICAL PERIOD — link patterns compiling from emotional context
     → Same content taught under curiosity vs fear → OPPOSITE lifelong trajectories
     → Compile-Taxonomy.md: 4 pathways (HwFit/Trust/Social/Threat)
-    → Childhood Precondition-5 tags PERSIST into adulthood and constrain adult reward
+    → Childhood Precondition-5 link patterns PERSIST into adulthood and constrain adult reward
     → ⚠️ "Education is Precondition-5 programming" — emotional context matters as much as content
 ```
 
@@ -1160,11 +1171,11 @@ Precondition-4: NARROWED + SHIFTED by expertise
     → Beginner zone in new domains → wide → easy rewards
     → Cross-domain exploration = Precondition-4 reset strategy
 
-Precondition-5: ACCUMULATED BIOGRAPHICAL TAGS
+Precondition-5: ACCUMULATED BIOGRAPHICAL LINK PATTERNS
     → Childhood compilations persist: "skilled but resentful" patterns established
-    → Re-association possible but costly (months-years, §6.5)
+    → NET shift possible but costly (months-years, §6.5)
     → Professional competence ≠ enjoyment (Precondition-5 fail common in adults)
-    → "Burnout" often = Precondition-3 (no delta) + Precondition-5 (avoidance tag accumulation)
+    → "Burnout" often = Precondition-3 (no delta) + Precondition-5 (negative link accumulation)
 ```
 
 ### §8.4 — Aging + burnout
@@ -1190,10 +1201,10 @@ Precondition-4: CAN RE-WIDEN — if person enters new domain
     → Retirement + new hobby → beginner zone → Precondition-4 wide → rewards accessible again
     → "Second wind" phenomenon = Precondition-4 reset in new domain
 
-Precondition-5: CORTISOL ACCUMULATION — life stress compounds avoidance tags
-    → Chronic work stress → work chunks tagged avoidance
+Precondition-5: CORTISOL ACCUMULATION — life stress compounds negative links
+    → Chronic work stress → work chunks accumulate negative-dominant NET
     → "Competent but aversive" = burnout hallmark
-    → Late-life re-association harder but possible (Path 1 slow overlay)
+    → Late-life NET shift harder but possible (Path 1 slow positive re-linking)
 
 BURNOUT FORMULA (compound):
   Precondition-3 erosion (habituated) + Precondition-5 avoidance (stress-tagged) + Precondition-1 weak (gap unclear)
@@ -1224,30 +1235,30 @@ Key difference: DIRECTION of match, not presence of preconditions.
   Precondition-2: chunks exist to decode (same — substrate required)
   Precondition-3: delta detected (same — change needed)
   Precondition-4: match is NEGATIVE direction → dissonance fires
-  Precondition-5: tag determines signal QUALITY (not just direction)
+  Precondition-5: NET link pattern determines signal QUALITY (not just direction)
 ```
 
-### §9.2 — Precondition-5 inverted: threat-tag × dissonance
+### §9.2 — Precondition-5 inverted: negative-NET × dissonance
 
 🟡 Precondition-5 works INVERSELY for dissonance compared to reward:
 
 ```
 REWARD:
-  Approach-tagged chunks → opioid → full reward (ceiling HIGH)
-  Avoidance-tagged chunks → blocked → reward limited (ceiling LOW)
+  Positive-dominant NET → opioid → full reward (ceiling HIGH)
+  Negative-dominant NET → blocked → reward limited (ceiling LOW)
 
 DISSONANCE:
-  Avoidance-tagged chunks → cortisol AMPLIFIED → dissonance threshold LOWER
-  Approach-tagged chunks → cortisol DAMPENED → dissonance threshold HIGHER
+  Negative-dominant NET → cortisol AMPLIFIED → dissonance threshold LOWER
+  Positive-dominant NET → cortisol DAMPENED → dissonance threshold HIGHER
 
-→ Threat-tagged chunks make dissonance EASIER to fire, not harder.
-→ Same mismatch: approach-tagged domain → mild dissonance
-                  avoidance-tagged domain → intense dissonance
+→ Negative-linked chunks make dissonance EASIER to fire, not harder.
+→ Same mismatch: positive-dominant domain → mild dissonance
+                  negative-dominant domain → intense dissonance
 
 Example:
-  Musician (approach-tagged) makes mistake → mild dissonance, quickly resolved
-  Math-phobic adult (avoidance-tagged) makes math error → intense dissonance, slow to resolve
-  → SAME type of error, DIFFERENT Precondition-5 tag → DIFFERENT dissonance intensity
+  Musician (positive-dominant NET) makes mistake → mild dissonance, quickly resolved
+  Math-phobic adult (negative-dominant NET) makes math error → intense dissonance, slow to resolve
+  → SAME type of error, DIFFERENT Precondition-5 NET pattern → DIFFERENT dissonance intensity
 ```
 
 ### §9.3 — Asymmetric transition speed
@@ -1351,7 +1362,7 @@ PREDICTION 1: "Should reward but doesn't" cases
 
 PREDICTION 2: Precondition-5 re-association observable
   → Person with avoidance-tagged domain + positive re-exposure
-  → Should show gradual tag shift → measurable via fMRI/EEG
+  → Should show gradual NET shift → measurable via fMRI/EEG
 
 PREDICTION 3: Precondition-2a genesis testable
   → Expose subject to completely novel domain → measure desire BEFORE vs AFTER
@@ -1395,11 +1406,11 @@ PREDICTION 5: Developmental Precondition-5 testable
 | File | Relevant section | What refined |
 |---|---|---|
 | Gap-Direction.md v2.0 | §3, §6.3 | Precondition-1 direction + "don't know it exists = no gap" + hierarchy |
-| Cortisol-Baseline.md v2.2 | §3.3, §7 | Precondition-5 Direction-At-Compile gradient + source > level |
+| Cortisol-Baseline.md v2.4 | §3.3, §7, §7.7 | Precondition-5 Direction-At-Compile gradient + source > level + 5 roles |
 | Compile-Taxonomy.md v3.0 | §6 | Precondition-5 4-pathway × quality ceiling |
 | Reward-Calibration.md v1.1 | §1.2 | Precondition-4 Goldilocks zone (dynamic, not fixed number) |
 | Boredom.md v2.1 | §1, §7 | Precondition-3 boredom disambiguation |
-| Chunk.md v2.2 | §2.6 | Precondition-2 substrate + context-tag |
+| Chunk.md v3.1 | §2.4, §2.6, §4.2 | Precondition-2 substrate + context-tag + Direction-At-Compile + 7-factor links |
 
 ### §11.4 — Developmental sources
 

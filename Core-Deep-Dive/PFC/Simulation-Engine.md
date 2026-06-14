@@ -734,13 +734,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     SELF-REFLECTION (curiosity drive):
       = "Why do I feel this way?" → explore → insight
       Correlates: openness, empathy, BETTER self-knowledge
-      = Novelty cortisol → approach tag → PRODUCTIVE output
+      = Novelty cortisol → approach links → PRODUCTIVE output
       → Improve engine quality: calibrate self-model, refine chunks
       
     SELF-RUMINATION (threat drive):
       = "I'm probably wrong" → loop → stuck
       Correlates: neuroticism, anxiety, WORSE self-knowledge
-      = Threat cortisol → avoidance tag → DESTRUCTIVE loop
+      = Threat cortisol → avoidance links → DESTRUCTIVE loop
       → Degrade engine quality: reinforce fear chunks, no calibration
       
   🟢 Joireman, Parrott & Hammersla 2002:

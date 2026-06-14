@@ -155,13 +155,13 @@ THIS FILE = BRIDGE BETWEEN:
      → Per-hardware: how the learner RESPONDS to subsidy DIFFERS
      → Parent subsidy (MAX) → learner whose body "receives" it strongly → faster compile
      → Teacher subsidy (MODERATE) → per-hardware sensitivity → adjust subsidy quality
-     → Observation: NOT JUST observe the 6 DIMS → observe subsidy RESPONSE too
+     → Observation: NOT JUST observe the 6 DIMENSIONS → observe subsidy RESPONSE too
 
   ⑤ COMPILED QUALITY (PFC-Operations v1.1):
      → Observing compile SUCCESS is not enough → observe compile QUALITY
-     → Genuine-compiled (approach tag, self-reinforcing) = THE GOAL
+     → Genuine-compiled (positive links, self-reinforcing) = THE GOAL
      → Schema-compiled (neutral, fragile) = TEMPORARILY ACCEPTABLE
-     → Threat-compiled (avoidance tag, "skilled but hates it") = 🔴 RED FLAG
+     → Threat-compiled (negative links, "skilled but hates it") = 🔴 RED FLAG
      → Calibration: hardware mismatch → threat compile → adjust BEFORE it compiles
 ```
 
@@ -423,9 +423,9 @@ SUMMARY — HARDWARE PROFILE = 6 DIMENSIONS:
 
   🔗 CROSS-CUTTING LENS 2 — Compiled Quality Dimension (PFC-Operations v1.1):
      → 6 DIM observation + 1 quality check: is what was compiled GENUINE or THREAT?
-     → Genuine-compiled: approach tag, self-reinforcing, per-domain → THE GOAL
+     → Genuine-compiled: positive links, self-reinforcing, per-domain → THE GOAL
      → Schema-compiled: neutral, fragile, per-context → temporarily acceptable
-     → Threat-compiled: avoidance tag, locked, "skilled but hates it" → 🔴 RED FLAG
+     → Threat-compiled: negative links, "skilled but hates it" → 🔴 RED FLAG
      → Prolonged hardware mismatch → threat compile → "skilled" on scores but hates the domain
      → = Observe: does the learner approach or avoid THIS domain? → quality check BEFORE depth check
 ```
@@ -1952,7 +1952,7 @@ TIER 2 — CHILD DEVELOPMENT (early hardware expression)
 ═══════════════════════════════════════════════════════
 
 → Child-Development-Mechanism.md v2.3 — 0-6 development
-  §2 Compile Architecture, §3 Approach/Avoidance Tags, §8 Cortisol Baseline.
+  §2 Compile Architecture, §3 Approach/Avoidance Link Patterns, §8 Cortisol Baseline.
 → Natural-Development.md v2.3 — early hardware expression
 → Skill-Introduction.md v2.3 — early learning preferences visible
 

@@ -150,9 +150,10 @@ KEY PRINCIPLES:
   │                                                                    │
   │  Hardware:          Social:           Micro + Macro:   Logic:     │
   │  Neural-Proc-Flow  5 mechanisms      01b + 01c        Logic-Plan │
-  │  4 compile mech    Grammar anchor    4 conn types     Type 4     │
-  │  5-param formula   Direction B       Discovery cycle  AI-assist  │
-  │  Gradient compile  Education         Selection press.  WM ~4     │
+  │  4 compile         Grammar anchor    4 connection     Type 4     │
+  │   mechanisms       Direction B        types           AI-assist  │
+  │  5-param formula   Education         Discovery cycle  WM ~4      │
+  │  Gradient compile                    Selection pressure          │
   │                                                                    │
   │  BIDIRECTIONAL F3 ↔ F4:                                           │
   │    F3 → F4: culture installs chunks → individual processes       │

@@ -1302,7 +1302,8 @@ EXAMPLE 4 — EMOTIONAL: "blah feeling, don't know why"
   ├──────────────────────┼──────────────────────────┼─────────────────┼────────────────┼──────────────────┤
   │ B: Blah feeling,     │ Feel-Consciousification  │ Signal partial; │ PARTIAL        │ Sit with it;     │
   │ labeled "boredom"    │ + Feel-Observation        │ PFC detects but │ (vague, label  │ refine label     │
-  │                      │ partial                   │ label approx.   │ may be wrong)  │ → clearer        │
+  │                      │ partial                   │ label           │ may be wrong)  │ → clearer        │
+  │                      │                           │ approximate     │                │                  │
   ├──────────────────────┼──────────────────────────┼─────────────────┼────────────────┼──────────────────┤
   │ C: "Don't know why   │ Feel-Consciousification  │ prediction-delta│ PRE-Body-      │ Engage:          │
   │ I feel off"          │ rises; Feel-Observation– │ detected; PFC   │ Knowing (body  │ Focusing,        │

@@ -260,8 +260,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     All forms of "love" share THIS ROOT MECHANISM:
 
     ┌──────────────────────────────────┬──────────────────────────────────────────┐
-    │ "Like" (Valence-Momentary dom.)  │ Each episode rewards → episode ends →    │
-    │                                  │ reward ends. "Fun together, forgotten     │
+    │ "Like" (Valence-Momentary        │ Each episode rewards → episode ends →    │
+    │ dominant)                        │ reward ends. "Fun together, forgotten     │
     │                                  │ apart."                                  │
     ├──────────────────────────────────┼──────────────────────────────────────────┤
     │ "Cherish" (Valence-Structural    │ Valence-Structural starts compiling →    │
@@ -688,13 +688,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                    │ evaluative (identity, meaning) = 6+ (WIDEST)     │
   ├────────────────────┼──────────────────────────────────────────────────┤
   │ Romantic partner   │ L0 genetic + L1 touch/sex/presence/co-sleep      │
-  │                    │ + novelty/status/protect (eval.) + co-regulation │
+  │                    │ + novelty/status/protect (evaluative)            │
+  │                    │ + co-regulation                                  │
   │                    │ = MOST (widest)                                  │
   ├────────────────────┼──────────────────────────────────────────────────┤
   │ Close friend       │ L1 presence/co-regulation + novelty/Resonance   │
   │                    │ + knowledge sharing = MODERATE (3-5 channels)    │
   ├────────────────────┼──────────────────────────────────────────────────┤
-  │ Mentor/Teacher     │ mastery/novelty + validation (eval.) = FEW (2-3) │
+  │ Mentor/Teacher     │ mastery/novelty + validation (evaluative)        │
+  │                    │ = FEW (2-3)                                      │
   ├────────────────────┼──────────────────────────────────────────────────┤
   │ Pet                │ L1 touch/presence + routine + contingency        │
   │                    │ = MODERATE (3-4, asymmetric)                     │
@@ -728,8 +730,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
                │              │ even if toxic)│                  │
                ├──────────────┼───────────────┼──────────────────┤
   VERY DEEP    │              │ Pet bond      │ Romantic love    │
-  (years)      │              │ (daily +      │ (hormonal accel. │
-               │              │ high trust)   │ + multi-channel) │
+  (years)      │              │ (daily +      │ (hormonal        │
+               │              │ high trust)   │  acceleration    │
+               │              │               │  + multi-channel)│
   Valence-     │              │               │ Combat bond      │
   Structural   ├──────────────┼───────────────┼──────────────────┤
   DEPTH        │ Close mentor │ Close friend  │                  │
@@ -2053,8 +2056,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ ① Schema (ATL)     │ Years-decades │ VERY RESISTANT       │
     │ "knowing the person"│               │ (neocortical)        │
     ├────────────────────┼───────────────┼─────────────────────┤
-    │ ② Affect/Motiv.    │ Months-years  │ MODERATE             │
-    │ "what I felt"      │               │ (needs active int.)  │
+    │ ② Affect/Motivation│ Months-years  │ MODERATE             │
+    │ "what I felt"      │               │ (needs active        │
+    │                    │               │ intervention)        │
     ├────────────────────┼───────────────┼─────────────────────┤
     │ ③ Episodic details │ Months w/o    │ MOST VULNERABLE      │
     │ "what I remember"  │ rehearsal     │ (hippocampal)        │
@@ -2550,8 +2554,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     - §3: Added channel coverage table (§3.2), full 2-axis grid map (§3.3),
       4 Modifiers (§3.4) — previously missing from old English
     - §2.4: Smoothing Threshold section now included — was missing from old English
-    - §7.2: Full §7.2a (Hardware Seed MẸ vs BỐ), §7.2b (Matrix),
-      §7.2c (3 Modes + "dậy sớm" examples + Balance note) — all included
+    - §7.2: Full §7.2a (Hardware Seed Mother vs Father), §7.2b (Matrix),
+      §7.2c (3 Modes + "waking early" examples + Balance note) — all included
     - §0: Full Scope with YAML frontmatter, Entity-Access preview table,
       4-concept distinction table, reading flow, scope in/out
     - All 17-dimension comparison table (§7.7) included

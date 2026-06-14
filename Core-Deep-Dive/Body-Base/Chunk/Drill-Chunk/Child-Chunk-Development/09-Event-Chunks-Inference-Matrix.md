@@ -102,7 +102,7 @@ Each row format:
 - **Age**: Typical age range (individual variation per arc notes)
 - **Ladder**: L0-L4 with transitional markers (e.g., "L2-L3" for transitional events)
 - **Chunks required**: Chunks plausibly required to explain the event
-- **Compile mechanism**: Dominant compile mechanism from plan §0.7 (Rep / Peak / Multi-mod / Sleep / Combined)
+- **Compile mechanism**: Dominant compile mechanism from plan §0.7 (Repetition / Peak / Multi-modal / Sleep / Combined)
 - **Research**: Primary citation (full cite in home arc file)
 - **Confidence**: 🟢🟡🔴 plausibility qualifier
 - **Home**: Arc file where full analysis lives
@@ -125,21 +125,21 @@ Each row format:
 | ID | Event | Age | Ladder | Chunks required | Compile | Research | Confidence |
 |---|---|---|---|---|---|---|---|
 | V1 | Face preference (CONSPEC) | birth | L0 | Hardwired template | — (hardware) | Morton & Johnson 1991 | 🟢 |
-| V2 | Direct gaze preference ⭐ | 2-5d | L2 | Gaze-template + direct-gaze bind | Rep + Multi-mod | Farroni 2002 | 🟢 |
+| V2 | Direct gaze preference ⭐ | 2-5d | L2 | Gaze-template + direct-gaze bind | Repetition + Multi-modal | Farroni 2002 | 🟢 |
 | V3 | High-contrast pattern detection | newborn | L0-L1 | Edge detector substrate | — (hardware) | Slater et al. 1983 | 🟢 |
-| V4 | Mother face recognition ⭐ | 5mo (E15) | L3 | Face individuation + identity bind + affective tag | Rep + Peak + Multi-mod | Bushnell 2001 | 🟢 |
-| V5 | Feature integration | 4-6mo | L2 | Feature binding chunk | Rep + Multi-mod | Treisman 1980, devel. replications | 🟡 |
-| V6 | Color discrimination | 2-4mo | L2 | Color category chunks | Rep | Bornstein 1976 | 🟢 |
-| V7 | Object file chunks | 4-6mo | L2 | Object persistence proto | Rep + Multi-mod | Kahneman Treisman Gibbs 1992 | 🟡 |
-| V8 | Object permanence ⭐ | 4-9mo | L2-L3 | Occlusion chunk + persistence | Rep + Multi-mod | Baillargeon 1987 VoE | 🟢 |
-| V9 | Face categorization + individuation | 6-9mo | L2-L3 | Multiple face individuation chunks | Rep + Multi-mod | Quinn 2002 | 🟢 |
-| V10 | Smooth pursuit eye movements | 6-8wk | L1 | Motor-visual tracking chunk | Rep + feedback loop | Aslin 1981 | 🟢 |
-| V11 | Head turn toward visual target | 3-4mo | L2 | Target detection + head motor | Rep + Multi-mod | Bertenthal 1996 | 🟢 |
-| V12 | Visually guided reaching | 4-5mo | L3 | Visuomotor transform + reach plan | Rep + Multi-mod | von Hofsten 1982 | 🟢 |
-| V13 | Gaze following (E14) ⭐ | 6mo | L3 | Gaze direction chunk + inferred target | Multi-mod + social | Butterworth 1991 | 🟢 |
-| V14 | Object tracking through occlusion | 8-9mo | L3 | Persistence + prediction | Rep + Multi-mod | Spelke 1990s | 🟢 |
-| V15 | Joint attention triadic (E18) ⭐ | 9-12mo | L4 | Referent + social + self + triangulation | Multi-mod + social | Tomasello 1995 | 🟢 |
-| V16 | Mirror self-recognition | 18-24mo | L4 | Self-visual-identity bind | Multi-mod + self chunks | Amsterdam 1972 | 🟢 |
+| V4 | Mother face recognition ⭐ | 5mo (E15) | L3 | Face individuation + identity bind + affective tag | Repetition + Peak + Multi-modal | Bushnell 2001 | 🟢 |
+| V5 | Feature integration | 4-6mo | L2 | Feature binding chunk | Repetition + Multi-modal | Treisman 1980, developmental replications | 🟡 |
+| V6 | Color discrimination | 2-4mo | L2 | Color category chunks | Repetition | Bornstein 1976 | 🟢 |
+| V7 | Object file chunks | 4-6mo | L2 | Object persistence proto | Repetition + Multi-modal | Kahneman Treisman Gibbs 1992 | 🟡 |
+| V8 | Object permanence ⭐ | 4-9mo | L2-L3 | Occlusion chunk + persistence | Repetition + Multi-modal | Baillargeon 1987 VoE | 🟢 |
+| V9 | Face categorization + individuation | 6-9mo | L2-L3 | Multiple face individuation chunks | Repetition + Multi-modal | Quinn 2002 | 🟢 |
+| V10 | Smooth pursuit eye movements | 6-8wk | L1 | Motor-visual tracking chunk | Repetition + feedback loop | Aslin 1981 | 🟢 |
+| V11 | Head turn toward visual target | 3-4mo | L2 | Target detection + head motor | Repetition + Multi-modal | Bertenthal 1996 | 🟢 |
+| V12 | Visually guided reaching | 4-5mo | L3 | Visuomotor transform + reach plan | Repetition + Multi-modal | von Hofsten 1982 | 🟢 |
+| V13 | Gaze following (E14) ⭐ | 6mo | L3 | Gaze direction chunk + inferred target | Multi-modal + social | Butterworth 1991 | 🟢 |
+| V14 | Object tracking through occlusion | 8-9mo | L3 | Persistence + prediction | Repetition + Multi-modal | Spelke 1990s | 🟢 |
+| V15 | Joint attention triadic (E18) ⭐ | 9-12mo | L4 | Referent + social + self + triangulation | Multi-modal + social | Tomasello 1995 | 🟢 |
+| V16 | Mirror self-recognition | 18-24mo | L4 | Self-visual-identity bind | Multi-modal + self chunks | Amsterdam 1972 | 🟢 |
 
 **Home**: All rows → [03-Visual-System-Arc.md](03-Visual-System-Arc.md) for full analysis.
 
@@ -155,14 +155,14 @@ Each row format:
 | A1 | Moro startle reflex | birth | L0 | Hardwired startle | — (brainstem reflex) | Moro 1918 | 🟢 |
 | A2 | Mother voice preference | birth | L2 (prenatal) | Mother voice template (compiled prenatally) | Prenatal rep + amygdala tag | DeCasper & Fifer 1980 | 🟢 |
 | A3 | Native language rhythm | birth | L2 (prenatal) | Language rhythm template (prenatal) | Prenatal rep | Mehler 1988 | 🟢 |
-| A4 | Phoneme discrimination universal | birth | L2 | Universal phoneme categories | Rep (prenatal start) | Eimas 1971 | 🟢 |
-| A5 | Phoneme narrowing ⭐ | 6-12mo | L2 | Native phoneme categories strengthened, non-native weakened | Rep + Multi-mod | Werker & Tees 1984 | 🟢 |
-| A6 | Own name recognition ⭐ | 4.5mo | L2 | Phonological pattern + self-reference bind | Rep + Multi-mod + Peak | Mandel Jusczyk & Pisoni 1995 | 🟢 |
-| A7 | Word segmentation ⭐ | 8mo | L2 | Statistical transitional-probability chunks | Rep (implicit statistical) | Saffran Aslin Newport 1996 | 🟢 |
-| A8 | Common noun comprehension ⭐ | 6-9mo | L2-L3 | Word-referent binding (receptive) | Rep + Multi-mod + contingency | Bergelson & Swingley 2012 | 🟢 |
-| A9 | Speech prosody-to-meaning | 8-12mo | L2 | Prosodic contour chunks + affect binding | Rep + Peak | Fernald 1985 | 🟢 |
-| A10 | Head turn toward sound source | 3-4mo | L2 | Sound localization + motor chunk | Rep + feedback loop | Muir & Field 1979 | 🟢 |
-| A11 | Attention orienting to familiar voices | ~0-3mo | L2 | Voice recognition + orient | Rep + Peak | DeCasper & Fifer 1980 | 🟢 |
+| A4 | Phoneme discrimination universal | birth | L2 | Universal phoneme categories | Repetition (prenatal start) | Eimas 1971 | 🟢 |
+| A5 | Phoneme narrowing ⭐ | 6-12mo | L2 | Native phoneme categories strengthened, non-native weakened | Repetition + Multi-modal | Werker & Tees 1984 | 🟢 |
+| A6 | Own name recognition ⭐ | 4.5mo | L2 | Phonological pattern + self-reference bind | Repetition + Multi-modal + Peak | Mandel Jusczyk & Pisoni 1995 | 🟢 |
+| A7 | Word segmentation ⭐ | 8mo | L2 | Statistical transitional-probability chunks | Repetition (implicit statistical) | Saffran Aslin Newport 1996 | 🟢 |
+| A8 | Common noun comprehension ⭐ | 6-9mo | L2-L3 | Word-referent binding (receptive) | Repetition + Multi-modal + contingency | Bergelson & Swingley 2012 | 🟢 |
+| A9 | Speech prosody-to-meaning | 8-12mo | L2 | Prosodic contour chunks + affect binding | Repetition + Peak | Fernald 1985 | 🟢 |
+| A10 | Head turn toward sound source | 3-4mo | L2 | Sound localization + motor chunk | Repetition + feedback loop | Muir & Field 1979 | 🟢 |
+| A11 | Attention orienting to familiar voices | ~0-3mo | L2 | Voice recognition + orient | Repetition + Peak | DeCasper & Fifer 1980 | 🟢 |
 
 **Home**: All rows → [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md).
 
@@ -177,25 +177,25 @@ Each row format:
 |---|---|---|---|---|---|---|---|
 | M1 | Palmar grasp reflex (E7) | birth | L0 | Hardwired grasp | — (brainstem) | Prechtl 1977 | 🟢 |
 | M2 | Rooting + sucking (E8) | birth | L0 | Hardwired feeding reflex | — (brainstem) | Prechtl 1977 | 🟢 |
-| M3 | Hand-to-mouth intentional | 2-3mo | L1 | Proto-chunk hand-to-mouth sequence | Rep + feedback | Rochat 1993 | 🟢 |
-| M4 | Visually guided reaching ⭐ | 4-5mo | L3 | Visuomotor transform + reach plan (= V12) | Rep + Multi-mod | von Hofsten 1982 | 🟢 |
-| M5 | Grasp with full hand | 5-6mo | L2 | Reach + grasp coordination | Rep + feedback | Halverson 1931 | 🟢 |
-| M6 | Object exploration via hand | 5-9mo | L2-L3 | Reach + grasp + manipulate + visual integration | Rep + Multi-mod | Ruff 1984 | 🟢 |
-| M7 | Pincer grasp (fine motor) | 9-10mo | L3 | Fine motor + visual targeting | Rep + Multi-mod | Fagard 2000 | 🟢 |
-| M8 | Proto-imperative pointing | 9-10mo | L3 | Social + motor + communicative intent | Rep + Social + contingency | Bates 1979 | 🟢 |
-| M9 | Proto-declarative pointing ⭐ | 12-14mo | L4 | Joint attention + social + showing intent | Rep + Social + Multi-mod | Liszkowski 2004 | 🟢 |
-| M10 | Tool use + object manipulation | 12-18mo | L3-L4 | Tool + affordance + goal chunks | Rep + Multi-mod | Willatts 1999 | 🟢 |
-| M11 | E25 intentional gesture ⭐ H11 | 14mo | L4 | Need detection + gestural handle + social | Rep + Social + contingency | Goodwyn Acredolo Brown 2000 | 🟢 |
-| M12 | Delayed imitation | 14-18mo | L4 | Memory + motor planning + goal | Rep + Sleep consolidation | Meltzoff 1988 | 🟢 |
+| M3 | Hand-to-mouth intentional | 2-3mo | L1 | Proto-chunk hand-to-mouth sequence | Repetition + feedback | Rochat 1993 | 🟢 |
+| M4 | Visually guided reaching ⭐ | 4-5mo | L3 | Visuomotor transform + reach plan (= V12) | Repetition + Multi-modal | von Hofsten 1982 | 🟢 |
+| M5 | Grasp with full hand | 5-6mo | L2 | Reach + grasp coordination | Repetition + feedback | Halverson 1931 | 🟢 |
+| M6 | Object exploration via hand | 5-9mo | L2-L3 | Reach + grasp + manipulate + visual integration | Repetition + Multi-modal | Ruff 1984 | 🟢 |
+| M7 | Pincer grasp (fine motor) | 9-10mo | L3 | Fine motor + visual targeting | Repetition + Multi-modal | Fagard 2000 | 🟢 |
+| M8 | Proto-imperative pointing | 9-10mo | L3 | Social + motor + communicative intent | Repetition + Social + contingency | Bates 1979 | 🟢 |
+| M9 | Proto-declarative pointing ⭐ | 12-14mo | L4 | Joint attention + social + showing intent | Repetition + Social + Multi-modal | Liszkowski 2004 | 🟢 |
+| M10 | Tool use + object manipulation | 12-18mo | L3-L4 | Tool + affordance + goal chunks | Repetition + Multi-modal | Willatts 1999 | 🟢 |
+| M11 | E25 intentional gesture ⭐ H11 | 14mo | L4 | Need detection + gestural handle + social | Repetition + Social + contingency | Goodwyn Acredolo Brown 2000 | 🟢 |
+| M12 | Delayed imitation | 14-18mo | L4 | Memory + motor planning + goal | Repetition + Sleep consolidation | Meltzoff 1988 | 🟢 |
 | M13 | Postural reflexes | birth | L0 | Hardwired postural | — (brainstem) | Prechtl 1977 | 🟢 |
-| M14 | Head control | 2-4mo | L1-L2 | Neck motor + head balance | Rep + feedback | Bayley norms | 🟢 |
-| M15 | Rolling over | 4-6mo | L2 | Multi-segment motor coordination | Rep + feedback | Bayley norms | 🟢 |
-| M16 | Sitting unsupported | 6-7mo | L2-L3 | Trunk balance + proprioception | Rep + feedback | Bayley norms | 🟢 |
-| M17 | Crawling | 7-9mo | L3 | Limb coordination + locomotion goal | Rep + Sleep | Adolph 1995 | 🟢 |
-| M18 | Pull to stand | 9-10mo | L3 | Leg motor + support + goal | Rep + feedback | Bayley norms | 🟢 |
-| M19 | First independent steps | 10-14mo | L3-L4 | Balance + stride + fall recovery | Rep + Sleep consolidation | Adolph 2003 | 🟢 |
-| M20 | Walking stable | 12-15mo | L4 | Gait + balance + navigation | Rep + Sleep + Multi-mod | Adolph 2003 | 🟢 |
-| M21 | Running | 18-24mo | L4 | Advanced gait + speed control | Rep + Sleep | Adolph 2003 | 🟢 |
+| M14 | Head control | 2-4mo | L1-L2 | Neck motor + head balance | Repetition + feedback | Bayley norms | 🟢 |
+| M15 | Rolling over | 4-6mo | L2 | Multi-segment motor coordination | Repetition + feedback | Bayley norms | 🟢 |
+| M16 | Sitting unsupported | 6-7mo | L2-L3 | Trunk balance + proprioception | Repetition + feedback | Bayley norms | 🟢 |
+| M17 | Crawling | 7-9mo | L3 | Limb coordination + locomotion goal | Repetition + Sleep | Adolph 1995 | 🟢 |
+| M18 | Pull to stand | 9-10mo | L3 | Leg motor + support + goal | Repetition + feedback | Bayley norms | 🟢 |
+| M19 | First independent steps | 10-14mo | L3-L4 | Balance + stride + fall recovery | Repetition + Sleep consolidation | Adolph 2003 | 🟢 |
+| M20 | Walking stable | 12-15mo | L4 | Gait + balance + navigation | Repetition + Sleep + Multi-modal | Adolph 2003 | 🟢 |
+| M21 | Running | 18-24mo | L4 | Advanced gait + speed control | Repetition + Sleep | Adolph 2003 | 🟢 |
 
 **Home**: All rows → [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md).
 
@@ -210,10 +210,10 @@ Each row format:
 |---|---|---|---|---|---|---|---|
 | B1 | E3 newborn wet diaper cry | 3wk | L0-L1 | Discomfort signal only, no anticipation | — (reflexive) | Wolff 1969 | 🟢 |
 | B2 | Stage A unaware bladder | 0-6mo | L0 | No bladder signal chunks | — | Brazelton 1962 clinical | 🟢 |
-| B3 | Repetition compile phase | 6-12mo | L0-L1 | Proto-chunks accumulating | Rep | — (inferred from B4 onset) | 🟡 |
-| B4 | Stage B face-freeze L2 ⭐ | 12-18mo | **L2** ⭐ | Antecedent bladder signal chunk | Rep + contingency | Brazelton 1962, Bakker 2000 | 🟢 |
-| B5 | Stage C crude response | 14-20mo | L3 | Signal + proto-motor response | Rep + Peak | Brazelton 1962 | 🟢 |
-| B6 | Stage D "need to pee" (buồn đái) E23 ⭐ | 22mo | **L4** | Predictive + verbal + plan + motor | Rep + contingency + caregiver labeling | Feel-Example E23 + clinical | 🟢 |
+| B3 | Repetition compile phase | 6-12mo | L0-L1 | Proto-chunks accumulating | Repetition | — (inferred from B4 onset) | 🟡 |
+| B4 | Stage B face-freeze L2 ⭐ | 12-18mo | **L2** ⭐ | Antecedent bladder signal chunk | Repetition + contingency | Brazelton 1962, Bakker 2000 | 🟢 |
+| B5 | Stage C crude response | 14-20mo | L3 | Signal + proto-motor response | Repetition + Peak | Brazelton 1962 | 🟢 |
+| B6 | Stage D "need to pee" (buồn đái) E23 ⭐ | 22mo | **L4** | Predictive + verbal + plan + motor | Repetition + contingency + caregiver labeling | Feel-Example E23 + clinical | 🟢 |
 | B7 | E24 "need to poop" (buồn ỉa) transfer | 24mo | L4 | Template transfer from B6 | Template reuse | Feel-Example E24 | 🟢 |
 
 **Home**: All rows → [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md).
@@ -230,28 +230,28 @@ Each row format:
 | ID | Event | Age | Ladder | Chunks required | Compile | Research | Confidence |
 |---|---|---|---|---|---|---|---|
 | H1 | E1 hunger cry newborn | 0-3mo | L0-L1 | Hunger signal → reflexive cry | — (brainstem + state) | Wolff 1969 | 🟢 |
-| H2 | E11 differentiated hunger cry | 3-5mo | L1 | Hunger vs other distress distinct cry | Rep + parent response | Wasz-Höckert 1968 | 🟢 |
-| H3 | Anticipatory feeding response ⭐ L2 | 3-4mo | **L2** | Bottle-sight → anticipatory quieting | Rep + Peak + contingency | Gewirtz 1977 | 🟢 |
-| H4 | Crude reach for food | 8-12mo | L3 | Hunger + motor reach + food target | Rep + Multi-mod | Feeding observations | 🟢 |
-| H5 | E21 "hungry" (đói) verbal ⭐ | 18mo | **L4** | Hunger + verbal handle + plan + motor + social | Rep + contingency + labeling | Fenson CDI + Feel-Example | 🟢 |
+| H2 | E11 differentiated hunger cry | 3-5mo | L1 | Hunger vs other distress distinct cry | Repetition + parent response | Wasz-Höckert 1968 | 🟢 |
+| H3 | Anticipatory feeding response ⭐ L2 | 3-4mo | **L2** | Bottle-sight → anticipatory quieting | Repetition + Peak + contingency | Gewirtz 1977 | 🟢 |
+| H4 | Crude reach for food | 8-12mo | L3 | Hunger + motor reach + food target | Repetition + Multi-modal | Feeding observations | 🟢 |
+| H5 | E21 "hungry" (đói) verbal ⭐ | 18mo | **L4** | Hunger + verbal handle + plan + motor + social | Repetition + contingency + labeling | Fenson CDI + Feel-Example | 🟢 |
 
 #### §2.5.2 — Pain sub-arc
 
 | ID | Event | Age | Ladder | Chunks required | Compile | Research | Confidence |
 |---|---|---|---|---|---|---|---|
 | P1 | E2 pain cry newborn | 0-3mo | L0-L1 | Nociceptive → reflexive cry | — | Anand & Craig 1996 | 🟢 |
-| P2 | Differentiated pain cry | 3-5mo | L1 | Pain vs hunger distinct cry | Rep | Wasz-Höckert 1968 | 🟢 |
-| P3 | Vaccination pre-cry ⭐ L2 | 9-12mo | **L2** | Visit context → anticipatory distress | Rep + **Peak-negative valence** | Pierce & Rodrigues 1996 | 🟢 |
-| P4 | E22 "hurts" (đau chân) + body part ⭐ | 18-20mo | **L4** | Pain + body schema + verbal + gesture | Rep + Peak + labeling | Feel-Example E22 | 🟢 |
+| P2 | Differentiated pain cry | 3-5mo | L1 | Pain vs hunger distinct cry | Repetition | Wasz-Höckert 1968 | 🟢 |
+| P3 | Vaccination pre-cry ⭐ L2 | 9-12mo | **L2** | Visit context → anticipatory distress | Repetition + **Peak-negative valence** | Pierce & Rodrigues 1996 | 🟢 |
+| P4 | E22 "hurts" (đau chân) + body part ⭐ | 18-20mo | **L4** | Pain + body schema + verbal + gesture | Repetition + Peak + labeling | Feel-Example E22 | 🟢 |
 
 #### §2.5.3 — Thermal sub-arc (truncated)
 
 | ID | Event | Age | Ladder | Chunks required | Compile | Research | Confidence |
 |---|---|---|---|---|---|---|---|
 | T1 | E4 thermal distress newborn | 0-3mo | L0-L1 | Thermal signal → reflexive cry | — | Mitchell 1993 clinical | 🟢 |
-| T2 | Differentiated thermal discomfort | 3-12mo | L1-L2 | Thermal signal differentiated | Rep (sparse) | Clinical + parent report | 🟡 |
-| T3 | Wriggling / postural adjustment | 12-18mo | L3 partial | Proto-motor response to thermal | Rep + feedback | Parent observation | 🟡 |
-| T4 | **Thermal L4 rarely by 24mo** | — | ∅ (truncated) | Insufficient chunks compile by 24mo | Rep too sparse | Mitchell 1993 SIDS edge case | 🟢 |
+| T2 | Differentiated thermal discomfort | 3-12mo | L1-L2 | Thermal signal differentiated | Repetition (sparse) | Clinical + parent report | 🟡 |
+| T3 | Wriggling / postural adjustment | 12-18mo | L3 partial | Proto-motor response to thermal | Repetition + feedback | Parent observation | 🟡 |
+| T4 | **Thermal L4 rarely by 24mo** | — | ∅ (truncated) | Insufficient chunks compile by 24mo | Repetition too sparse | Mitchell 1993 SIDS edge case | 🟢 |
 
 **Arc note (T4)**: Thermal ladder traversal is **systematically truncated** in the first 2 years because the compile mechanism modulators (exposure × saliency × contingency × valence) are too weak for thermal compared to other interoceptive states. The truncation is predicted by the formula and is **mortally consequential** in the SIDS edge case (see [06b §4.3](06b-Interoceptive-Other-States.md#§4.3)).
 
@@ -260,10 +260,10 @@ Each row format:
 | ID | Event | Age | Ladder | Chunks required | Compile | Research | Confidence |
 |---|---|---|---|---|---|---|---|
 | Em1 | Emotional newborn states | 0-3mo | L0-L1 | Arousal + crude valence | — | Bridges 1932 | 🟢 |
-| Em2 | E11 differentiated emotional | 3-5mo | L1 | Distinct emotional expressions | Rep + contingency | Izard 1978 | 🟢 |
-| Em3 | E12 social smile (cross-ref S4) | 6-8wk | **L2** | Social + positive affect + face binding | Multi-mod + Peak + contingency | Wolff 1963 | 🟢 |
-| Em4 | E26 egocentric empathy | 18mo | **L4** | Other-distress + Resonance + comfort handle | Multi-mod + Social + self chunks | Hoffman 2000, Feel-Example E26 | 🟢 |
-| Em5 | Verbal emotional labels (post-F1) | 2-3yr+ | L4 | Multi-layered: emotional + meta + vocabulary | Rep + contingency + abstract labeling | Bretherton & Beeghly 1982 | 🟡 |
+| Em2 | E11 differentiated emotional | 3-5mo | L1 | Distinct emotional expressions | Repetition + contingency | Izard 1978 | 🟢 |
+| Em3 | E12 social smile (cross-ref S4) | 6-8wk | **L2** | Social + positive affect + face binding | Multi-modal + Peak + contingency | Wolff 1963 | 🟢 |
+| Em4 | E26 egocentric empathy | 18mo | **L4** | Other-distress + Resonance + comfort handle | Multi-modal + Social + self chunks | Hoffman 2000, Feel-Example E26 | 🟢 |
+| Em5 | Verbal emotional labels (post-F1) | 2-3yr+ | L4 | Multi-layered: emotional + meta + vocabulary | Repetition + contingency + abstract labeling | Bretherton & Beeghly 1982 | 🟡 |
 
 **Arc notes**:
 - Emotional H11 gap is largest (~24-30mo) because productive bundle is largest (includes meta-emotional + abstract vocabulary + low-contingency caregiver labeling)
@@ -276,24 +276,24 @@ Each row format:
 | ID | Event | Age | Ladder | Chunks required | Compile | Research | Confidence |
 |---|---|---|---|---|---|---|---|
 | S1 | Hardware: multisensory + DMN + amygdala | — | (substrate) | — | — (hardware) | Meredith & Stein 1983, Doria 2010 | 🟢 |
-| S2 | CONSPEC + Farroni direct gaze | 2-5d | L2 | (= V2) | Rep + Multi-mod | Farroni 2002 | 🟢 |
-| S3 | E9 cry contagion ⭐ | day 1 | L1 | Own-cry pattern + Resonance proto | Rep (hours) + Peak | Sagi & Hoffman 1976, Dondi 1999 | 🟢 |
-| S4 | E12 social smile ⭐ keystone | 6-8wk | **L2** | Multi-modal face + voice + warmth + positive affect | Multi-mod (4-mech) + Peak | Wolff 1963 | 🟢 |
-| S5 | E13 smile contagion | 4mo | L2 | Stable own-smile + other-smile recognition + bind | Multi-mod + Peak | Haviland & Lelwica 1987 | 🟢 |
-| S6 | E15 mother recognition (= V4) | 5mo | L3 | Face individuation + identity + affective bind | Rep + Multi-mod + Peak | Bushnell 2001 | 🟢 |
-| S7 | E14 gaze following (= V13) | 6mo | L3 | Gaze direction + inferred target | Multi-mod + social | Butterworth 1991 | 🟢 |
-| S8 | E16 stranger anxiety ⭐ L2 | 7-9mo | **L2** | Familiar-face schema + novelty detection + peak-negative | Rep + Multi-mod + Peak-negative | Sroufe 1977 | 🟢 |
-| S9 | E17 separation distress | 9mo | L3-L4 | Attachment figure + separation prediction + distress | Rep + Peak + Social | Bowlby 1969, Ainsworth 1978 | 🟢 |
-| S10 | E19 social referencing | 9-12mo | L3-L4 | Face-emotion + inferred meaning + behavior mod | Multi-mod + Social + contingency | Sorce 1985 | 🟢 |
-| S11 | E20 still-face Phase 2 puzzled ⭐ L2 | 6-9mo | **L2** | Dyadic interaction schema + violation detection | Rep + Multi-mod + Peak | Tronick 1978 | 🟢 |
-| S12 | E18 joint attention triadic (= V15) | 9-12mo | L4 | Referent + social + self + triangulation | Multi-mod + Social | Tomasello 1995 | 🟢 |
-| S13 | E30 peek-a-boo anticipation ⭐ L2 | 10-14mo | **L2** | Temporal prediction + social + peak-positive | Rep + Peak-positive | Parrott & Gleitman 1989 | 🟢 |
-| S14 | Reciprocal smile production | 6-8wk+ | L2 | Smile motor + social contingency | Rep + contingency | Wolff 1963 | 🟢 |
-| S15 | Proto-imperative pointing (= M8) | 9-10mo | L3 | Social + motor + imperative intent | Rep + Social | Bates 1979 | 🟢 |
-| S16 | Proto-declarative pointing (= M9) | 12-14mo | L4 | Joint attention + showing intent | Multi-mod + Social | Liszkowski 2004 | 🟢 |
-| S17 | E29 delayed imitation (= M12) | 14-16mo | L4 | Memory + social + motor planning | Sleep + Rep | Meltzoff 1988 | 🟢 |
-| S18 | E26 egocentric empathy (= Em4) | 18mo | L4 | Other-distress + Resonance + own comfort template | Multi-mod + Self chunks | Hoffman 2000 | 🟢 |
-| S19 | E31 "no" (không) autonomy (= Ve13) | 18-24mo | L4 | Self-as-agent + negation + verbal assertion | Self chunks + Social + Rep | Erikson 1963, Feel-Example E31 | 🟢 |
+| S2 | CONSPEC + Farroni direct gaze | 2-5d | L2 | (= V2) | Repetition + Multi-modal | Farroni 2002 | 🟢 |
+| S3 | E9 cry contagion ⭐ | day 1 | L1 | Own-cry pattern + Resonance proto | Repetition (hours) + Peak | Sagi & Hoffman 1976, Dondi 1999 | 🟢 |
+| S4 | E12 social smile ⭐ keystone | 6-8wk | **L2** | Multi-modalal face + voice + warmth + positive affect | Multi-modal (4 mechanisms) + Peak | Wolff 1963 | 🟢 |
+| S5 | E13 smile contagion | 4mo | L2 | Stable own-smile + other-smile recognition + bind | Multi-modal + Peak | Haviland & Lelwica 1987 | 🟢 |
+| S6 | E15 mother recognition (= V4) | 5mo | L3 | Face individuation + identity + affective bind | Repetition + Multi-modal + Peak | Bushnell 2001 | 🟢 |
+| S7 | E14 gaze following (= V13) | 6mo | L3 | Gaze direction + inferred target | Multi-modal + social | Butterworth 1991 | 🟢 |
+| S8 | E16 stranger anxiety ⭐ L2 | 7-9mo | **L2** | Familiar-face schema + novelty detection + peak-negative | Repetition + Multi-modal + Peak-negative | Sroufe 1977 | 🟢 |
+| S9 | E17 separation distress | 9mo | L3-L4 | Attachment figure + separation prediction + distress | Repetition + Peak + Social | Bowlby 1969, Ainsworth 1978 | 🟢 |
+| S10 | E19 social referencing | 9-12mo | L3-L4 | Face-emotion + inferred meaning + behavior mod | Multi-modal + Social + contingency | Sorce 1985 | 🟢 |
+| S11 | E20 still-face Phase 2 puzzled ⭐ L2 | 6-9mo | **L2** | Dyadic interaction schema + violation detection | Repetition + Multi-modal + Peak | Tronick 1978 | 🟢 |
+| S12 | E18 joint attention triadic (= V15) | 9-12mo | L4 | Referent + social + self + triangulation | Multi-modal + Social | Tomasello 1995 | 🟢 |
+| S13 | E30 peek-a-boo anticipation ⭐ L2 | 10-14mo | **L2** | Temporal prediction + social + peak-positive | Repetition + Peak-positive | Parrott & Gleitman 1989 | 🟢 |
+| S14 | Reciprocal smile production | 6-8wk+ | L2 | Smile motor + social contingency | Repetition + contingency | Wolff 1963 | 🟢 |
+| S15 | Proto-imperative pointing (= M8) | 9-10mo | L3 | Social + motor + imperative intent | Repetition + Social | Bates 1979 | 🟢 |
+| S16 | Proto-declarative pointing (= M9) | 12-14mo | L4 | Joint attention + showing intent | Multi-modal + Social | Liszkowski 2004 | 🟢 |
+| S17 | E29 delayed imitation (= M12) | 14-16mo | L4 | Memory + social + motor planning | Sleep + Repetition | Meltzoff 1988 | 🟢 |
+| S18 | E26 egocentric empathy (= Em4) | 18mo | L4 | Other-distress + Resonance + own comfort template | Multi-modal + Self chunks | Hoffman 2000 | 🟢 |
+| S19 | E31 "no" (không) autonomy (= Ve13) | 18-24mo | L4 | Self-as-agent + negation + verbal assertion | Self chunks + Social + Repetition | Erikson 1963, Feel-Example E31 | 🟢 |
 
 **Home**: All rows → [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md).
 
@@ -307,19 +307,19 @@ Each row format:
 
 | ID | Event | Age | Ladder | Chunks required | Compile | Research | Confidence |
 |---|---|---|---|---|---|---|---|
-| Ve1 | Cooing | 6-8wk | L1 | Laryngeal + vocal tract + positive affect | Rep + Social reinforcement | Oller 1980 | 🟢 |
-| Ve2 | Reduplicated babbling ⭐ new L2 | 4-6mo | **L2** | CV closure + rhythm + auditory feedback loop | Rep + feedback | Oller 1980, Stark 1980 | 🟡 |
-| Ve3 | Variegated babbling | 8-10mo | L2-L3 | Multiple CV + sequence chunk | Rep + ambient matching | Oller 1980 | 🟢 |
-| Ve4 | Canonical babbling | 8-10mo | L2-L3 | Native phonotactic templates + articulation | Rep + Statistical learning | Oller & Eilers 1988 | 🟢 |
-| Ve5 | "Mama" pre-referential ⭐ new L2 | 10-12mo | **L2** | Phonological pattern (no semantic binding) | Rep + Social reinforcement | Jakobson 1941 | 🟡 |
-| Ve6 | "Mama" referential | 12-14mo | L3 | Phonological + referent + word-referent binding | Multi-mod + contingency | Nelson 1973, Bloom 1973 | 🟢 |
-| Ve7 | First 10 words | 12-18mo | L3 | ~10 word chunks + retrieval paths | Rep + Multi-mod + contingency | Fenson 1994 | 🟢 |
+| Ve1 | Cooing | 6-8wk | L1 | Laryngeal + vocal tract + positive affect | Repetition + Social reinforcement | Oller 1980 | 🟢 |
+| Ve2 | Reduplicated babbling ⭐ new L2 | 4-6mo | **L2** | CV closure + rhythm + auditory feedback loop | Repetition + feedback | Oller 1980, Stark 1980 | 🟡 |
+| Ve3 | Variegated babbling | 8-10mo | L2-L3 | Multiple CV + sequence chunk | Repetition + ambient matching | Oller 1980 | 🟢 |
+| Ve4 | Canonical babbling | 8-10mo | L2-L3 | Native phonotactic templates + articulation | Repetition + Statistical learning | Oller & Eilers 1988 | 🟢 |
+| Ve5 | "Mama" pre-referential ⭐ new L2 | 10-12mo | **L2** | Phonological pattern (no semantic binding) | Repetition + Social reinforcement | Jakobson 1941 | 🟡 |
+| Ve6 | "Mama" referential | 12-14mo | L3 | Phonological + referent + word-referent binding | Multi-modal + contingency | Nelson 1973, Bloom 1973 | 🟢 |
+| Ve7 | First 10 words | 12-18mo | L3 | ~10 word chunks + retrieval paths | Repetition + Multi-modal + contingency | Fenson 1994 | 🟢 |
 | Ve8 | E21 "hungry" (đói) (= H5) | 18mo | L4 | (see H5) | — | Fenson + Feel-Example | 🟢 |
 | Ve9 | E22 "hurts" (đau chân) (= P4) | 18-20mo | L4 | (see P4) | — | Feel-Example E22 | 🟢 |
 | Ve10 | E23 "need to pee" (buồn đái) (= B6) | 22mo | L4 | (see B6) | — | Feel-Example E23 | 🟢 |
 | Ve11 | Vocabulary spurt | 18-24mo | L3-L4 | Rapid word chunks accumulating + meta-chunk | Accumulated + parallel compile | Goldfield & Reznick 1990 | 🟢 |
 | Ve12 | Two-word combinations | 18-24mo | L4 | Words + combinatorial + semantic relation | Usage-based + imitation | Brown 1973, Tomasello 2003 | 🟢 |
-| Ve13 | E31 "no" (không) (= S19) | 18-24mo | L4 | Self-as-agent + negation + verbal | Self + Social + Rep | Erikson 1963 | 🟢 |
+| Ve13 | E31 "no" (không) (= S19) | 18-24mo | L4 | Self-as-agent + negation + verbal | Self + Social + Repetition | Erikson 1963 | 🟢 |
 
 **Home**: All rows → [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md).
 
@@ -479,7 +479,7 @@ Approximate ages at which each arc reaches each ladder level:
 |---|---|---|---|
 | **1 Proto-chunk gradient** | [04 §6.4](04-Auditory-System-Arc.md#§6.4) | A5 phoneme narrowing (primary), V5-V9 visual gradient, M14-M21 motor gradient, B3-B4 bladder gradient, Ve2-Ve6 verbal gradient | ⭐ **PRIMARY VERDICT COMMITTED** N+4b |
 | **2 Precondition-2 Chunk-Substrate** | [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) + [06b §6.2](06b-Interoceptive-Other-States.md#§6.2) | B1-B7 full ladder traversal (primary), H1-H5 hunger (validation), P1-P4 pain, T1-T4 thermal, Em1-Em5 emotional (5-for-5 ordinal ranking) | ⭐ **PRIMARY VERDICT COMMITTED** N+4c1 (4-channel compile × 4-parameter formula) |
-| **3 Multi-modal binding** | [07 §6](07-Social-Recognition-Arc.md#§6) | S4 E12 social smile (keystone), S3 E9 cry contagion (anti-hardware-mirror), S5 E13 smile contagion (timing lag), V4/S6 mother recognition, Ve6 "mama" referential | ⭐ **PRIMARY VERDICT COMMITTED** N+4c1 (4-mechanism concurrent) |
+| **3 Multi-modalal binding** | [07 §6](07-Social-Recognition-Arc.md#§6) | S4 E12 social smile (keystone), S3 E9 cry contagion (anti-hardware-mirror), S5 E13 smile contagion (timing lag), V4/S6 mother recognition, Ve6 "mama" referential | ⭐ **PRIMARY VERDICT COMMITTED** N+4c1 (4-mechanism concurrent) |
 | **4 PFC hardware × chunks missing** | [01](01-PFC-Hardware-Reframe.md) + all arcs | 10 L2 markers (see §3.3) + non-uniform progression evidence (§3.6) + every arc file event-inference methodology application | ⭐ **COMMITTED** in 01; reinforced by all arcs |
 | **5 Receptive-Productive H11** | [08 §6](08-Verbal-Production-Arc.md#§6) | 7 converging lines (A6-A8 name gap + M11 gesture-verbal + B4-B6 bladder + H2-H5 hunger + P2-P4 pain + T-truncated + Em1-Em5 emotional) | ⭐ **PRIMARY VERDICT COMMITTED** N+4c2 (H11 formal statement + 7 predictions + 4 rejections) |
 | **6 Alternative labeling handles** | [08 §5](08-Verbal-Production-Arc.md#§5) | Pre-verbal chunks evidence (9 chunk types), M11 E25 gesture (alternative handle), multi-channel output evidence (Feel-Example), Whorfian moderate (E22) | ⭐ **PRIMARY VERDICT COMMITTED** N+4c2 (Hybrid = retrieval + compression) |
@@ -505,18 +505,18 @@ This interconnection is not a design flaw — it reflects the fact that developm
 
 Per plan §0.7 + [Body-Base/Schema/Chunk.md](../../Body-Base/Schema/Chunk.md) §2, four primary compile mechanisms:
 
-1. **Rep (Repetition)** — LTP-based, dominant for most chunks
+1. **Repetition (Repetition)** — LTP-based, dominant for most chunks
 2. **Peak (Emotional peak tagging)** — amygdala-driven accelerated compile
-3. **Multi-mod (Multi-modal binding)** — temporal co-occurrence across modalities
+3. **Multi-modal (Multi-modalal binding)** — temporal co-occurrence across modalities
 4. **Sleep (Sleep consolidation)** — offline replay + late-LTP stabilization
 
 Plus: **Contingency** (caregiver contingent response as modulator), **Feedback** (sensorimotor loop), **Statistical learning** (implicit transitional probability).
 
 ### §5.2 — Distribution by dominant mechanism
 
-**Rep-dominant events** (most F1 events): 60+ events. Repetition is the universal compile mechanism. Examples: V5, V6, V11, A4, A5, M5, M15-M21, Ve2-Ve7, etc.
+**Repetition-dominant events** (most F1 events): 60+ events. Repetition is the universal compile mechanism. Examples: V5, V6, V11, A4, A5, M5, M15-M21, Ve2-Ve7, etc.
 
-**Multi-mod-dominant events** (binding-critical): ~20 events. Examples: V2 Farroni (face template + direct gaze), V4/S6 mother recognition, V12/M4 visuomotor, V15/S12 joint attention, S4 E12 social smile (keystone), Ve6 "mama" referential.
+**Multi-modal-dominant events** (binding-critical): ~20 events. Examples: V2 Farroni (face template + direct gaze), V4/S6 mother recognition, V12/M4 visuomotor, V15/S12 joint attention, S4 E12 social smile (keystone), Ve6 "mama" referential.
 
 **Peak-dominant events** (affective tagging critical): ~10 events. Examples: P3 vaccination pre-cry (peak-negative), H3 anticipatory feeding (peak-positive), S13 peek-a-boo (peak-positive), S8 stranger anxiety (peak-negative), Em3/S4 E12 social smile (peak-positive social).
 
@@ -530,10 +530,10 @@ Plus: **Contingency** (caregiver contingent response as modulator), **Feedback**
 
 Most F1 events are driven by **multiple mechanisms simultaneously**. The "dominant" mechanism is only the strongest contributor; others usually contribute as well. Examples:
 
-- **V2 Farroni direct gaze**: Rep (seeing faces repeatedly) + Multi-mod (face + gaze + affective context)
-- **S4 E12 social smile**: Rep (repeated caregiving) + Peak (high-affect moments) + Multi-mod (4-mechanism per [07 §6](07-Social-Recognition-Arc.md#§6))
-- **B4 bladder face-freeze**: Rep (bladder cycles) + contingency (caregiver reactions) + Peak (discomfort valence)
-- **Ve6 "mama" referential**: Rep (hearing "mama" repeatedly) + Multi-mod (hearing while seeing mother) + contingency (caregiver reinforcement) + Peak (affective moments with mother)
+- **V2 Farroni direct gaze**: Repetition (seeing faces repeatedly) + Multi-modal (face + gaze + affective context)
+- **S4 E12 social smile**: Repetition (repeated caregiving) + Peak (high-affect moments) + Multi-modal (4-mechanism per [07 §6](07-Social-Recognition-Arc.md#§6))
+- **B4 bladder face-freeze**: Repetition (bladder cycles) + contingency (caregiver reactions) + Peak (discomfort valence)
+- **Ve6 "mama" referential**: Repetition (hearing "mama" repeatedly) + Multi-modal (hearing while seeing mother) + contingency (caregiver reinforcement) + Peak (affective moments with mother)
 
 **Framework implication**: The compile formula should be parametrized as **combinatorial**, not single-mechanism. Per [06a §6.2](06a-Interoceptive-Bladder-Keystone.md#§6.2) 4-parameter rate formula:
 
@@ -547,18 +547,18 @@ Plus [07 §6.4](07-Social-Recognition-Arc.md#§6.4) 5th implicit modulator from 
 
 | Arc | Dominant mechanism | Secondary mechanism |
 |---|---|---|
-| Visual | Rep + Multi-mod | Peak (for affective events) |
-| Auditory | Rep + Statistical learning | Multi-mod (for word-referent) |
-| Motor | Rep + Feedback loop | Sleep consolidation |
-| Bladder interoceptive | Rep + Contingency | Peak (moderate) |
-| Hunger interoceptive | Rep + Contingency + Peak | Multi-mod (food context) |
-| Pain interoceptive | Peak + Rep (sparser) | Contingency (caregiver response) |
-| Thermal interoceptive | Rep (sparser) | (truncated) |
-| Emotional interoceptive | Multi-mod + Peak | Rep + Contingency |
-| Social | Multi-mod + Peak + Contingency | Rep |
-| Verbal | Rep + Feedback + Multi-mod | Contingency (caregiver labeling) |
+| Visual | Repetition + Multi-modal | Peak (for affective events) |
+| Auditory | Repetition + Statistical learning | Multi-modal (for word-referent) |
+| Motor | Repetition + Feedback loop | Sleep consolidation |
+| Bladder interoceptive | Repetition + Contingency | Peak (moderate) |
+| Hunger interoceptive | Repetition + Contingency + Peak | Multi-modal (food context) |
+| Pain interoceptive | Peak + Repetition (sparser) | Contingency (caregiver response) |
+| Thermal interoceptive | Repetition (sparser) | (truncated) |
+| Emotional interoceptive | Multi-modal + Peak | Repetition + Contingency |
+| Social | Multi-modal + Peak + Contingency | Repetition |
+| Verbal | Repetition + Feedback + Multi-modal | Contingency (caregiver labeling) |
 
-**Observation**: Social + verbal have the richest mechanism combinations (all 4-5 mechanisms active). Thermal has the sparsest (Rep only, weak). This mechanism richness predicts L2 onset timing — richer mechanism → earlier L2 onset, consistent with §3.6 non-uniform progression table.
+**Observation**: Social + verbal have the richest mechanism combinations (all 4-5 mechanisms active). Thermal has the sparsest (Repetition only, weak). This mechanism richness predicts L2 onset timing — richer mechanism → earlier L2 onset, consistent with §3.6 non-uniform progression table.
 
 ---
 
@@ -579,7 +579,7 @@ chunks_compile_rate ≈ f(exposure × saliency × contingency × peak_valence ×
 Arcs with high values on most parameters → fast compile → early L2/L3/L4 onset.
 Arcs with low values on some parameters → slow compile → late or truncated L4.
 
-| Arc | Exposure | Saliency | Contingency | Peak valence | Multi-modal | Sum |
+| Arc | Exposure | Saliency | Contingency | Peak valence | Multi-modalal | Sum |
 |---|---|---|---|---|---|---|
 | Visual | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐ | Very High |
 | Auditory | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | Very High |

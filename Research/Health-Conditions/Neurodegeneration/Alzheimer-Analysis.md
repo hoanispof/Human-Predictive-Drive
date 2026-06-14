@@ -2533,10 +2533,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Identity         │ PRESERVED              │ FRAGMENTED → lost      │
   │ Wanting          │ IMPAIRED               │ Intact (early)→lost(late│
   │ Liking           │ PRESERVED              │ Intact→lost (late)     │
-  │ Body-feedback    │ Signal arrives, resp.  │ Signal fires, PFC      │
-  │                  │ delay/distorted        │ CANNOT READ it         │
+  │ Body-feedback    │ Signal arrives,        │ Signal fires, PFC      │
+  │                  │ response delay/        │ CANNOT READ it         │
+  │                  │ distorted              │                        │
   │ Caregiver        │ Difficult, HAS respond │ Ambiguous loss         │
-  │ Medication       │ Levodopa (restore dop.)│ ChEI (preserve ACh)   │
+  │ Medication       │ Levodopa (restore      │ ChEI (preserve ACh)    │
+  │                  │ dopamine)              │                        │
   │ Med efficacy     │ Decreases (converters  │ Decreases (neurons die │
   │                  │ die + cortex degrades) │ → less to preserve)    │
   │ Prevalence       │ ~8.5M (2019)           │ ~57M dementia (2019)   │

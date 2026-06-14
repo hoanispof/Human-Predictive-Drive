@@ -1,43 +1,29 @@
 ---
 title: "Threat — Observation Parameter"
-version: 2.1
+version: 1.3
 created: 2026-04-20
-updated: "2026-06-14 (v2.1 — +§6.4 Resolution Probability Spectrum. Source: Drill v4.0 §6.5)"
-previous: "v2.0 (2026-06-14) — same file, overwritten"
-status: OBSERVATION PARAMETER v2.1
+updated: "2026-05-25 (v1.3 — §3 +Evaluative/Direct-State × 3 mechanism sources, Dissonance-Signal-Architecture v1.0 integration)"
+refined: "2026-05-23 (v1.2 — Concept Cascade: +Simulation-Engine, +Entity-Access, +Bond-Architecture)"
+status: OBSERVATION PARAMETER v1.3
 scope: |
   OBSERVATION FILE: Threat = the named pattern observed when watching body-feedback
   (dissonance direction) + prediction of harm. Not a component.
-  v2.0 KEY CHANGES from v1.3:
-    ⭐ +§2.1 — 6-variable immediate threat response (fight/flight/freeze NOT random)
-    ⭐ +§2.2 — Cortisol = amplifier (NOT direction selector)
-    ⭐ +§5 — No tag at neural level: geography + modulation + links + NET valence
-    ⭐ +§6.2 — Bounded vs unbounded pressure (crucial distinction)
-    ⭐ +§6.3 — Self-created threat: 4 conditions
-    ⭐ All "tag" → "NET link pattern = observation parameter"
-    ⭐ Framework conclusions PRESERVED (pattern correct, mechanism refined)
-  v2.1 KEY CHANGES from v2.0:
-    ⭐ +§6.4 — Resolution Probability Spectrum: bounded/unbounded = observation
-      parameter for P(resolution), a continuous spectrum (Drill v4.0 §6.5)
-    ⭐ §6.2/§6.3/§7 — notes connecting bounded/unbounded to P(resolution)
-    ⭐ §9 — Drill cross-ref updated v3.1 → v4.0
+  This file covers: mechanism, spectrum, 3 mechanism sources, 3 origin sources,
+  Threat × Imagine-Final, anticipation loop, when helpful/harmful.
+  v1.1 KEY CHANGES:
+    ⑪ +Compilable Architecture: threat = general-purpose system detecting GAP TOWARD LOSS
+    ⑫ +Compiled/Fresh: compiled threat (phobia, auto) vs fresh (novel danger, costly)
+    ⑬ +PFC=Lawyer in threat: suppress / amplify / fabricate threat
+    ⑭ Version refs synced
+    ⑮ +Cross-refs: Inter-Body-Mechanism.md v1.0, Body-Feedback-Label.md v2.0
 purpose: |
-  Core-Software.md v3.1 §8 defines Threat briefly ("Dissonance from predicted harm").
+  Core-Software.md §8 defines Threat briefly ("Dissonance from predicted harm").
   This file DEEP-DIVES: neuroscience, practical patterns, education implications.
   Especially: 3 origin sources (Domain/Peer/Imposed) = education cornerstone.
 position: |
   Core-Deep-Dive/Observation/ — sibling of Novelty.md, Schema.md, Empathy.md.
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 source_file: Core-Deep-Dive/Observation/Threat.md
-dependencies:
-  - Drill-Threat-Direction-Analysis.md v4.0 — source for v2.0 refinements,
-    v4.0 §6.5 Resolution Probability Spectrum (source for v2.1 §6.4)
-  - Core-Software.md v3.1 — §4.1 Compiled Quality, §4.3 Cortisol × Direction
-  - Cortisol-Baseline.md v2.3 — amplifier, chronic vs acute dynamics
-  - Chunk.md v3.0 — §2.4 Direction-At-Compile, §4.2 7-factor, §4.3 competitive re-linking
-  - Self-Created-Threat.md v1.1 — bounded/unbounded, 4 conditions, 3 stages
-  - PFC-Configuration.md v1.1 — Strategy A→B (fight = approach under threat)
-  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, Compiled/Fresh, PFC=Lawyer
 ---
 
 # Threat — Observation Parameter
@@ -48,23 +34,16 @@ dependencies:
 >
 > We call all of these "Threat" — but the mechanisms are COMPLETELY DIFFERENT.
 >
-> Tiger: physical, bounded, endorphin buffer, over in minutes.
+> Tiger: physical, bounded, has an endorphin buffer, over in minutes.
 > Job loss: anticipatory, unbounded, no buffer, lasts for months.
-> Parental worry: imposed, can be bounded OR unbounded — the crucial distinction.
->
-> And the deepest insight: there is no "avoidance tag" in the brain.
-> Only neural geography + amygdala modulation + Type 1 links + NET valence.
-> "Avoidance" = what we OBSERVE when the NET link pattern is negative.
+> Parental worry: imposed, transmitted across generations, compiles a schema:
+>   "authority = danger."
 >
 > Understanding that difference = understanding most of modern anxiety.
 >
-> This file:
-> §0-§1 — What threat IS and how it works
-> §2 — Spectrum + immediate response + cortisol × direction
-> §3-§4 — Two taxonomies: mechanism sources + origin sources
-> §5 — No tag at neural level (deep mechanism)
-> §6 — Threat × Imagine-Final + bounded/unbounded + self-created threat
-> §7-§9 — When beneficial/harmful, assessment, cross-references
+> This file analyzes: what Threat looks like, the mechanism underneath,
+> the spectrum from micro to emergency, 2 taxonomies (mechanism + origin),
+> why modern life is threat-dominant, and when threat is actually useful.
 
 ---
 
@@ -73,19 +52,12 @@ dependencies:
 - §0 — THREAT AS OBSERVATION PARAMETER
 - §1 — MECHANISM: BODY-FEEDBACK + PREDICTION OF HARM
 - §2 — SPECTRUM: 5 LEVELS × 3 AXES
-  - §2.1 — THREAT RESPONSE SELECTION: 6 VARIABLES
-  - §2.2 — CORTISOL × DIRECTION: AMPLIFIER, NOT SELECTOR
 - §3 — 3 MECHANISM SOURCES: Physical / Social / Anticipation
 - §4 — 3 ORIGIN SOURCES: Domain / Peer / Imposed
-- §5 — THREAT × CHUNK DIRECTION: NO TAG AT NEURAL LEVEL
-- §6 — THREAT × IMAGINE-FINAL
-  - §6.1 — 3 CASES: Aligned / Misaligned / No Imagine-Final
-  - §6.2 — BOUNDED vs UNBOUNDED PRESSURE
-  - §6.3 — SELF-CREATED THREAT: 4 CONDITIONS
-  - §6.4 — RESOLUTION PROBABILITY SPECTRUM
-- §7 — BENEFICIAL vs HARMFUL
-- §8 — HONEST ASSESSMENT
-- §9 — CROSS-REFERENCES
+- §5 — THREAT × IMAGINE-FINAL: 3 CASES
+- §6 — BENEFICIAL vs HARMFUL
+- §7 — HONEST ASSESSMENT
+- §8 — CROSS-REFERENCES
 
 ---
 
@@ -103,8 +75,6 @@ dependencies:
     ✗ Only in "L3 Protect" (that pattern has been retired — observation parameter
         replaces it)
     ✗ Always harmful (the mechanism is NEUTRAL)
-    ✗ Always → avoidance (see §2.1 — fight, professional response = approach
-        under threat)
 
   Threat IS:
     ○ A name for the pattern: body-feedback (dissonance) + prediction of harm
@@ -119,16 +89,12 @@ dependencies:
     ├──────────────────┼──────────────────────────┼──────────────────────────┤
     │ Root signal      │ Positive prediction delta│ Body-feedback dissonance │
     │ Interpretation   │ Opportunity              │ Harm                     │
-    │ Typical direction│ PULL (toward)            │ PUSH (away)              │
+    │ Direction        │ PULL (toward)            │ PUSH (away)              │
     │ Neurochemistry   │ Dopamine                 │ NE → Cortisol            │
     │ Natural brake    │ Habituation              │ Resolution of threat     │
     │ When it loops    │ Novelty Loop             │ Anxiety Loop             │
     │ Deep dive        │ Novelty.md               │ This file                │
     └──────────────────┴──────────────────────────┴──────────────────────────┘
-
-    ⚠️ "Typical direction" = observation parameter, not mechanism.
-    → Threat CAN lead to approach (fight, professional response) — see §2.1.
-    → Direction = NET of emotional links, not a fixed tag — see §2.2, §5.
 
   ⚠️ Novelty and Threat CAN run SIMULTANEOUSLY:
     → "Want to explore" (Novelty) + "Fear of failure" (Threat) = at the same time
@@ -270,8 +236,7 @@ THREAT IN THE CYCLE (Core-Software.md §1):
     Chronically shifted hormone baseline → hormone CAN drive directly:
     → High cortisol baseline → anxiety without clear cause (generalized anxiety)
     → = Pathological, not the standard process
-    → Cortisol-Baseline.md v2.2: detail
-
+    → Cortisol-Baseline.md v2.0: detail
 
   ⭐ COMPILED vs FRESH THREAT (Inter-Body-Mechanism.md §3):
 
@@ -298,7 +263,7 @@ THREAT IN THE CYCLE (Core-Software.md §1):
       → Fresh threat repeated + confirmed → compiles → becomes a compiled threat.
       → = "First time afraid: must think" → "Tenth time: automatic."
       → CAN be unlearned (exposure therapy = forces Compiled to re-evaluate →
-          Fresh → recompile with competing positive links).
+          Fresh → recompile).
       → Kahneman: compiled threat ≈ System 1 fear, fresh threat ≈ System 2
           risk assessment.
 
@@ -449,7 +414,7 @@ AXIS 3: DURATION — Acute vs Chronic
     → Cortisol baseline rises → new normal = stressed
     → Repair is CUT (body prioritizes threat response)
     → Neural wear: PFC dendrite retraction, hippocampus damage,
-      immune suppression, sleep quality drops (Cortisol-Baseline.md v2.2)
+      immune suppression, sleep quality drops (Cortisol-Baseline.md v2.0)
 
   ⭐ DURATION MATTERS MORE THAN INTENSITY:
     → Level 3 (moderate) + acute (one night) = OK, body can repair
@@ -462,127 +427,6 @@ AXIS 3: DURATION — Acute vs Chronic
   🟢 Cortisol → hippocampus neurotoxicity (Sapolsky)
   🟢 Cortisol → PFC dendrite retraction (Arnsten 2009)
   🟡 "Duration > intensity" = framework emphasis, supported by research
-```
-
----
-
-### §2.1 — THREAT RESPONSE SELECTION: 6 VARIABLES
-
-```
-⭐ "THREAT → ALWAYS AVOIDANCE" IS WRONG (Drill v3.1 §2-§3).
-
-  Pop model: threat detected → avoidance (run away)
-  Reality: threat detected → body assesses 6 variables → fight/flight/freeze/shutdown
-
-  ┌───┬──────────────────────┬──────────────────────────────────────────┐
-  │ # │ Variable             │ Effect                                    │
-  ├───┼──────────────────────┼──────────────────────────────────────────┤
-  │ 1 │ RESOURCE CHUNKS      │ Sufficient → approach viable              │
-  │ 2 │ ESCAPE AVAILABILITY  │ Available → flight preferred (lower cost) │
-  │ 3 │ THREAT INTENSITY     │ Mild-moderate → PFC can choose            │
-  │   │                      │ Extreme → amygdala reflexive               │
-  │ 4 │ ENTITY-ACCESS        │ Level 4-5 threatened → approach override  │
-  │ 5 │ PRIOR COMPILATION    │ Prior success → approach. Failure → avoid │
-  │ 6 │ AGENCY               │ Has control → approach possible           │
-  └───┴──────────────────────┴──────────────────────────────────────────┘
-
-  INTERACTION:
-    Var 1 × Var 2: Resources + Escape → CHOICE; No resources + No escape → FREEZE
-    Var 3 modulates; Var 4 overrides; Var 5 biases; Var 6 enables/blocks
-
-  6 SCENARIO TYPES — testing "threat → always avoidance":
-
-    ① PHYSICAL (tiger):
-      Escape available + no weapons → FLIGHT ✅
-      Cornered, no escape → FIGHT (approach) ❌
-      Trained hunter with weapon → FIGHT (approach) ❌
-      Overloaded → FREEZE (neither) ❌
-
-    ② PROFESSIONAL (doctor, firefighter):
-      Doctor + patient coding → RUN TOWARD patient (approach) ❌
-      Firefighter + fire → ENTER building (approach) ❌
-      Untrained bystander → RUN AWAY ✅
-      → Resource chunks (training) + prior compilation (success) → approach viable
-
-    ③ PARENTAL PROTECTION:
-      Mother + child in danger → APPROACH threat ❌
-      → Entity-Access Level 4-5 + Hardware-Subsidy OVERRIDE avoidance
-
-    ④ MARTIAL ARTS:
-      Trained fighter in sparring → APPROACH (engage) ❌
-      → Years of combat training = compile approach-to-threat chunks
-
-    ⑤ SOCIAL (workplace):
-      Employee with alternatives → CONFRONT boss ❌
-      Employee with no alternatives → SUBMIT ✅
-      Whistleblower → APPROACH (expose) ❌
-      → Agency + escape availability determine direction
-
-    ⑥ ANTICIPATION (exam):
-      Student with chunks + moderate pressure → STUDY (approach) ❌
-      Student with few chunks + high pressure → AVOIDANCE ✅
-
-  SCORECARD: "threat → always avoidance" correctly predicts only 4/14 cases (29%).
-  → Avoidance is COMMON but NOT UNIVERSAL under threat.
-  → Approach under threat = real: fight, professional response, parental protection.
-
-  Cross-ref: PFC-Configuration.md v1.1 §7 — Strategy A = compiled fight/flight
-    (includes fight = approach under threat)
-
-  🟢 Fight/flight/freeze (LeDoux, Cannon, Porges)
-  🟢 Resource assessment in threat (Blanchard 1997)
-  🟢 Self-efficacy (Bandura 1977)
-  🟢 Maternal aggression (literature)
-  🟡 6-variable interaction model = framework synthesis
-```
-
----
-
-### §2.2 — CORTISOL × DIRECTION: AMPLIFIER, NOT SELECTOR
-
-```
-⭐ CORTISOL DOES NOT DETERMINE DIRECTION
-  (Drill v3.1 §4.7, Core-Software.md v3.1 §4.3).
-
-  OLD MODEL:
-    "Direction gate: novelty cortisol → approach | threat → avoidance"
-    → Implied: cortisol selects direction.
-
-  CORRECTED MODEL:
-    → Cortisol = AMPLIFIER for whichever direction body-state is already in
-    → Direction = NET of emotional links firing via Type 1 (spreading activation)
-    → "Direction gate" = observation parameter, NOT cortisol function
-
-  HOW IT WORKS:
-    → Novelty-direction + cortisol → positive Type 1 links form → approach OBSERVED
-    → Threat-direction + cortisol → negative Type 1 links form → avoidance OBSERVED
-    → SAME cortisol level → DIFFERENT body-state → DIFFERENT links → DIFFERENT NET
-
-  WHY THIS MATTERS:
-    → Cortisol at Level 2-3 can fuel EITHER approach OR avoidance
-    → A firefighter and a phobic person BOTH have elevated cortisol
-    → Firefighter: cortisol amplifies approach (resource chunks + training + agency)
-    → Phobic: cortisol amplifies avoidance (no resource chunks + no agency)
-    → SAME hormone, DIFFERENT direction → direction comes from CHUNKS, not cortisol
-
-  ⭐ TWO TIME-SCALES (Drill v3.1 §5):
-
-    TIME-SCALE 1 — IMMEDIATE: "What do I do RIGHT NOW?" (§2.1)
-      → Threat detected → body assesses 6 variables → fight/flight/freeze/shutdown
-      → Cortisol amplifies whichever response is selected
-
-    TIME-SCALE 2 — FUTURE: "What happens when these chunks activate LATER?" (§5)
-      → Content + emotional links compiled at threat time → spreading activation later
-      → NET valence = sum of all emotional contributions → direction
-      → Cortisol at compile = amplifier for link strength, not link direction
-
-    → Both time-scales use cortisol as AMPLIFIER. Neither uses cortisol as SELECTOR.
-
-  Cross-ref: Cortisol-Baseline.md v2.2 §7 — "Source > Level"
-  Cross-ref: Blackbox-Map.md §3 RD-2.2 — "direction by chunks, not cortisol"
-
-  🟢 Cortisol amplifies BOTH approach AND avoidance (research verified)
-  🟡 "Cortisol = amplifier, not selector" = framework refinement from drill v3.1
 ```
 
 ---
@@ -906,20 +750,20 @@ THREAT × NEW CONCEPTS:
     ❌❌ TOXIC: "You're so stupid! Look how the other student performs!"
                / physical punishment / shame
       → Physical + Social + Anticipation mechanisms fire ALL 3
-      → Negative links compile: "learning = pain", "authority = dangerous"
-      → Long-term: trauma, persistent anxiety baseline, lifelong avoidance of learning
+      → Schema compiles: "learning = pain", "authority = dangerous"
+      → Long-term: trauma, persistent anxiety baseline, lifelong aversion to learning
 
     ❌ SHAME-BASED: "Your peers will laugh at you if you don't study"
-      → Social mechanism. Negative links: "learning = avoiding shame"
+      → Social mechanism. Schema: "learning = avoiding shame"
       → Dependent on external validation
 
     ⚠️ REASONABLE (bridge acceptable): "Finish your homework before playing games"
-      → Mild anticipation. Links: "effort → reward"
+      → Mild anticipation. Schema: "effort → reward"
       → Technically imposed but mild + explained + fair
 
     ✅ NOVELTY PATH (ideal): "This is really interesting — give it a try"
       → NOT threat — this is Novelty pull
-      → Positive links: "knowledge = a TOOL for expansion"
+      → Schema: "knowledge = a TOOL for expansion"
       → Intrinsic motivation
 
     SPECTRUM:
@@ -970,184 +814,14 @@ THREAT × NEW CONCEPTS:
 
 ---
 
-## §5 — THREAT × CHUNK DIRECTION: NO TAG AT NEURAL LEVEL
-
-```
-⭐⭐ DEEPEST INSIGHT FROM DRILL-THREAT-DIRECTION-ANALYSIS v3.1 §4.
-Condensed here. Full detail: Drill v3.1 §4 (300+ lines of case analysis).
-
-  THE OLD MODEL:
-    → Chunk compiles → gets "approach tag" or "avoidance tag"
-    → Tag = binary, permanent ("compile-time lock")
-    → Cortisol direction determines the tag
-
-  THE CORRECTED MODEL (8 points):
-    ① ALL chunks = same Hebbian substrate (no types, no tags)
-    ② Neural geography = proximity to amygdala → emotional gradient
-    ③ Amygdala modulation (Richter-Levin 2004) bridges distance when active
-    ④ Type 1 links form between co-firing regions (co-fired = co-wired)
-    ⑤ Link strength = f(7 factors) — explains persistence + change
-    ⑥ Spreading activation → NET valence = sum of all emotional contributions
-    ⑦ Behavioral direction = NET, not a tag readout
-    ⑧ "Approach/avoidance tag" = observation parameter for NET pattern
-
-
-§5.1 — NEURAL GEOGRAPHY: WHY SOME CONTENT IS NATURALLY EMOTIONAL
-
-  NOT "2 types of chunks" — a GRADIENT of proximity to amygdala:
-
-    MATH PROCESSING (IPS, intraparietal sulcus):
-      → Zone B parietal — physically FAR from amygdala (Zone C)
-      → Connections to limbic: few, indirect
-      → Naturally LESS emotional coloring
-      → Can be used across many contexts without triggering emotion
-
-    ENTITY PROCESSING (temporal pole + amygdala + mPFC + insula):
-      → Zone B + C — OVERLAPPING with amygdala/limbic
-      → Connections to limbic: direct, inherent
-      → Naturally HIGH emotional coloring
-      → Face recognition → amygdala fires in 12ms (subcortical shortcut)
-
-    NOT 2 types — a GRADIENT:
-      IPS (far) ←────── proximity to amygdala ──────→ FFA (close)
-      Less emotional ←────── emotional coloring ──────→ More emotional
-      Math, syntax ←─────── examples ───────→ Faces, entities
-
-  → "Math is neutral" = NOT because math chunks ARE a different type
-  → "Math is neutral" = because IPS is far from amygdala (geography)
-  → "Mother is emotional" = because entity processing overlaps limbic (geography)
-  → Same substrate, different geography → different emotional coloring
-
-  🟢 IPS math specialization (Cantlon et al. 2006, Dehaene)
-  🟢 Social cognition network overlaps amygdala
-  🟡 Neural geography gradient (not 2 types) = framework refinement
-
-
-§5.2 — AMYGDALA MODULATION: HOW EMOTION BRIDGES DISTANCE
-
-  HOW DOES MATH BECOME "SCARY" IF IPS IS FAR FROM AMYGDALA?
-
-  Richter-Levin emotional tagging hypothesis:
-    → Amygdala activation MODULATES synaptic plasticity in OTHER brain regions
-    → Strong amygdala activity → ENHANCES LTP even in DISTANT regions
-    → = Bridge mechanism: creates links that geography alone would NOT produce
-
-  EXAMPLE — child learns math under threat:
-
-    Normal math: IPS fires, amygdala quiet → no bridge → neutral
-
-    Teacher screaming during math:
-      → IPS fires (math content) + amygdala FIRES STRONGLY (threat)
-      → Richter-Levin modulation reaches IPS → links form:
-        [math] ←→ [teacher angry voice] ←→ [shame] ←→ [cortisol↑]
-      → These links normally DON'T EXIST (too far) — trauma CREATES them
-
-    LATER, when [math] fires alone:
-      → Links propagate → [fear], [shame], [cortisol↑] fire
-      → Body-state = negative → avoidance behavior
-      → = "Math is scary" — IPS content is still neutral,
-        but LINKS bridge the gap
-
-  COMPARE — SAME content, enthusiastic teacher:
-    → IPS fires (same math) + VTA/opioid fire (enthusiasm, discovery)
-    → DIFFERENT modulation → positive links form
-    → LATER: math fires → positive links → positive NET → approach
-
-  → SAME IPS content → DIFFERENT links → DIFFERENT NET → DIFFERENT behavior
-  → NO tag changed — only links (and the modulation that created them) differ
-
-  GRADIENT OF VULNERABILITY:
-    → Close to amygdala (entities, social): LOW threshold for emotional linking
-    → Far from amygdala (math, syntax, motor): HIGH threshold
-    → Trauma CAN bridge ANY distance — but requires STRONG or PROLONGED modulation
-    → = Why mild pressure ≠ avoidance, but chronic abuse → avoidance
-
-  🟢 Richter-Levin 2004; Roozendaal 2009
-
-
-§5.3 — 7-FACTOR LINK STRENGTH: WHY PATTERNS LOOK PERMANENT
-
-  Chunk.md §4.2: link strength = f(7 factors):
-    ① REPETITION — abused daily for years → link VERY STRONG
-    ② RECENCY — recently triggered → link BOOSTED
-    ③ EMOTIONAL WEIGHT — 1 near-drowning outweighs 100 pleasant swims
-    ④ MULTI-MODAL — voice + face + pain + shame → more neurons = stronger
-    ⑤ CONTEXT MATCH — similar classroom → old links BOOSTED
-    ⑥ EMOTIONAL STATE MATCH — currently anxious → fear links BOOSTED
-    ⑦ ANCHOR STRENGTH — teacher still in life → link MAINTAINED
-
-  WHY "TAG" SEEMS PERMANENT:
-    → Trauma links: ③ high + ① high + ④ high = EXTREMELY STRONG
-    → Fire nearly every time content chunk fires
-    → OBSERVATION: "always avoidance" → "must be a permanent tag"
-    → MECHANISM: link is very strong, not tag is fixed
-
-  WHY IT CAN CHANGE:
-    → Competitive re-linking (Nader 2000): new positive links COMPETE with old
-    → P(new) gradually increases, P(old) decreases
-    → "Never delete, only probability shift" (Chunk.md §2.5)
-    → Exposure therapy = systematically creating competitive positive links
-    → Reconsolidation (Nader 2000) = faster re-linking within retrieval window
-    → Change is SLOW for strong links — but POSSIBLE
-
-  🟢 Competitive re-linking (Nader 2000, Anderson 1994)
-  🟢 Exposure therapy effectiveness (CBT literature)
-  🟢 Context-dependent retrieval (Godden & Baddeley 1975)
-  🟢 Mood-congruent memory (Bower 1981)
-
-
-§5.4 — "TAG" = OBSERVATION PARAMETER
-
-  CONSISTENT WITH FRAMEWORK PHILOSOPHY:
-    → Schema = observation parameter, not component
-    → Drives = observation parameter, not component
-    → Novelty, Threat = observation parameters, not components
-    → AND NOW: Approach/Avoidance "tag" = observation parameter for NET link pattern
-
-  What EXISTS at the neural level:
-    → Content chunks (same Hebbian substrate — no inherent direction)
-    → Neural geography (proximity to amygdala → emotional gradient)
-    → Amygdala modulation (bridges distance when active)
-    → Type 1 links (co-fired = co-wired, strength-weighted by 7 factors)
-    → Spreading activation (probability-weighted propagation)
-    → NET body-state from all firing chunks = current valence → direction
-
-  What we OBSERVE: "this domain usually → negative NET → avoidance"
-  What we CALL: "avoidance-tagged chunk"
-  What we SHOULD say: "chunk with strong amygdala-modulated links
-    to negative emotional regions, firing in a matching context"
-
-  ⭐ THE 3 COMPILED QUALITIES REMAIN USEFUL AS OBSERVATION LABELS:
-    → Genuine-compiled: content + positive links → NET usually positive
-      → approach OBSERVED
-    → Schema-compiled: content + flat/obligation links → NET usually neutral
-      → no clear direction OBSERVED
-    → Threat-compiled: content + negative links → NET usually negative
-      → avoidance OBSERVED
-    → "Usually" because NET depends on CONTEXT — same chunk, different context,
-      different links fire → different NET → different behavior
-    → NOT fixed properties — NET link patterns that CAN shift
-    → Cross-ref: Core-Software.md v3.1 §4.1
-
-  🟡 "No tag, only geography + links + NET" = framework synthesis
-  🟡 "Tag = observation parameter" = consistent with framework philosophy
-  🟡 Neural geography gradient = framework refinement v3.1
-```
-
----
-
-## §6 — THREAT × IMAGINE-FINAL
+## §5 — THREAT × IMAGINE-FINAL: 3 CASES
 
 ```
 ⭐ THREAT + IMAGINE-FINAL INTERACT → THE MOST COMPLEX PATTERNS
 
   Cross-ref: Imagine-Final-Evaluation.md (2 axes × 4 corners)
   Cross-ref: Anchor-Schema.md (Trust binding)
-```
 
-### §6.1 — 3 CASES: Aligned / Misaligned / No Imagine-Final
-
-```
   STRUCTURE:
     → Imagine-Final ALIGNED + Threat = PRODUCTIVE
     → Imagine-Final MISALIGNED + Threat = DESTRUCTIVE
@@ -1159,7 +833,7 @@ CASE 1: Imagine-Final ALIGNED + Threat = PRODUCTIVE
 ═══════════════════════════════════════════════════════
 
   = "Know what you want + know the risk of not pursuing it"
-  = Threat PUSH + Imagine-Final PULL = 2 forces IN THE SAME DIRECTION
+  = Threat PUSH + Imagine-Final PULL = 2 forces PULLING THE SAME WAY
 
   → Each step forward → closer to Imagine-Final → body-feedback reward
   → Threat GRADUALLY DECREASES as progress is made
@@ -1168,12 +842,6 @@ CASE 1: Imagine-Final ALIGNED + Threat = PRODUCTIVE
   Example: a young doctor with Imagine-Final "saving lives" (hardware-aligned)
     + Threat "if I don't learn → patients will suffer"
     → Drive: study intensely → each successful case → reward + threat drops
-
-  ⭐ LINK PATTERN (§5):
-    → Positive links accumulate (mastery + genuine opioid at each milestone)
-    → Negative links BOUNDED (threat decreases with progress)
-    → NET shifts toward positive over time → approach STRENGTHENS
-    → = Bounded pressure (§6.2 Case B)
 
 
 ═══════════════════════════════════════════════════════
@@ -1239,11 +907,6 @@ CASE 3: NO Imagine-Final + Threat = LOST
         you want?"
     → = Children KNOW HOW TO FEAR but DON'T KNOW HOW TO WANT
 
-  ⭐ LINK PATTERN (§5):
-    → Only negative links compile (threat without direction)
-    → No positive links form (no Imagine-Final → no approach target)
-    → = Unbounded pressure pattern (§6.2 Case A)
-
   🟡 3 Cases = framework analysis
   🟢 Burnout phases (Maslach)
   🟢 Cognitive dissonance → physiological response = established
@@ -1251,289 +914,7 @@ CASE 3: NO Imagine-Final + Threat = LOST
 
 ---
 
-### §6.2 — BOUNDED vs UNBOUNDED PRESSURE
-
-```
-⭐ THE CRUCIAL DISTINCTION (Drill v3.1 §6, Cases A/B):
-
-  Threat pressure produces FUNDAMENTALLY DIFFERENT outcomes depending on whether
-  it is BOUNDED (has direction, endpoint, genuine reward) or UNBOUNDED (lacks these).
-
-
-═══════════════════════════════════════════════════════
-CASE A — UNBOUNDED PRESSURE (directionless)
-  "If you don't study, you'll end up shoveling shit" / "you'll get beaten" / "you'll lose to your peers"
-═══════════════════════════════════════════════════════
-
-  3 CRITICAL ABSENCES:
-    ❌ NO DIRECTION: study what, for what purpose, which skills matter?
-    ❌ NO ENDPOINT: "when is it enough?" — undefined → anticipation loop
-    ❌ NO GENUINE REWARD at completion:
-      → Finish homework → mother STOPS SCOLDING (cortisol drops)
-      → = Relief, NOT opioid. Relief = aversive stimulus removed.
-      → Opioid requires genuine mastery + agency (Body-Feedback-Precondition)
-      → No agency (imposed) → opioid pathway SUPPRESSED
-
-  WHAT COMPILES:
-    Content: [math methods] — neutral content (IPS, far from amygdala)
-    Links negative: [math] ←→ [punishment pain] — STRONG (③ emotional weight)
-    Links negative: [math] ←→ [mother angry voice] — STRONG (① daily repetition)
-    Links positive: [math] ←→ [success opioid] — WEAK or ABSENT (opioid suppressed)
-
-  Amygdala modulation: CHRONIC (no endpoint → no recovery)
-    → Richter-Levin: chronic modulation → VERY STRONG bridges to IPS
-
-  WHY CHILD STILL STUDIES (while pressure active):
-    NET(study) = negative (fear links fire)
-    NET(not study) = MORE negative (active punishment threat)
-    → Body selects lesser negative = study → approach OBSERVED
-    → = NOT because math is "approach-tagged" — but real-time NET comparison (§5)
-
-  WHEN FREED (pressure removed):
-    [Math] fires → [punishment], [fear] fire (links still strong) → NET negative
-    [Not studying] fires → no active punishment → NET neutral
-    → Avoidance. "No longer afraid of scolding → no longer want to study" — PREDICTED by model.
-
-  → Maps to §6.1 Case 3 (LOST): no Imagine-Final + threat → scatter/avoid
-
-
-═══════════════════════════════════════════════════════
-CASE B — BOUNDED PRESSURE (directional)
-  Let the child experience, explain the meaning, scold with reason, praise upon completion.
-═══════════════════════════════════════════════════════
-
-  3 CRITICAL PRESENCES:
-    ✅ DIRECTION: "math → engineering → avoid manual labor" = clear path
-    ✅ ENDPOINT: "finish homework → rest", "pass exam → milestone"
-    ✅ GENUINE REWARD: mastery opioid + parent praise + agency present
-
-  WHAT COMPILES — BOTH negative AND positive:
-    Links negative: [math] ←→ [mother scolding] — BOUNDED episodes, not chronic
-    Links positive: [math] ←→ [completion] ←→ [opioid] — genuine mastery
-    Links positive: [math] ←→ [mother praise] ←→ [connection, pride]
-    Links positive: [math] ←→ [avoiding manual labor] ←→ [Imagine-Final]
-
-  Amygdala modulation: PERIODIC (bounded episodes → recovery between)
-
-  ⭐ THE CRUCIAL DIFFERENCE FROM CASE A:
-    Case A resolution: relief (cortisol ↓) → neutral, NOT positive
-    Case B resolution: relief + OPIOID (genuine mastery) → POSITIVE
-    → This single difference determines the long-term link ratio:
-      Case A: only negative links accumulate → NET always negative after freed
-      Case B: negative + positive links → NET depends on ratio → CAN be positive
-
-  WHEN FREED (pressure removed):
-    [Math] fires → negative links (weakened, bounded)
-                 + positive links (mastery, Imagine-Final, connection)
-    → NET = positive-dominant IF success episodes > punishment episodes
-    → Imagine-Final INTERNALIZED: "I study for a better future"
-    → = CAN continue approach WITHOUT external pressure
-
-  → Maps to §6.1 Case 1 (PRODUCTIVE): aligned Imagine-Final + threat
-
-
-  SUMMARY TABLE:
-  ┌─────────────────┬────────────────────────┬────────────────────────┐
-  │                 │ UNBOUNDED              │ BOUNDED                 │
-  ├─────────────────┼────────────────────────┼────────────────────────┤
-  │ Direction       │ ❌ NONE                │ ✅ Clear                │
-  │ Endpoint        │ ❌ NONE                │ ✅ Clear                │
-  │ Resolution      │ Relief (cortisol ↓)    │ Relief + OPIOID         │
-  │ Links compiled  │ Mainly NEGATIVE        │ MIXED (neg + positive)  │
-  │ Amygdala mod.   │ CHRONIC                │ PERIODIC                │
-  │ Imagine-Final   │ ❌ NONE / imposed      │ ✅ Internalized         │
-  │ §6.1 mapping    │ Case 3 (LOST)          │ Case 1 (PRODUCTIVE)     │
-  │ When freed      │ AVOIDANCE              │ CAN approach            │
-  └─────────────────┴────────────────────────┴────────────────────────┘
-
-
-═══════════════════════════════════════════════════════
-CASE C — MIXED (most common)
-═══════════════════════════════════════════════════════
-
-  ⭐ Most parenting = BOTH scolding AND loving, BOTH pushing AND explaining.
-  Most parents BOTH scold AND love — in varying degrees.
-
-  What compiles across many contexts:
-    Event 1: mother scolds harshly → [math-1] ←→ [fear, shame]
-    Event 2: mother sits and explains → [math-2] ←→ [warmth, connection]
-    Event 3: solves it independently → [math-3] ←→ [satisfaction, opioid]
-    Event 4: mother yells "why are you so stupid" → [math-4] ←→ [shame, humiliation]
-    Event 5: mother praises → [math-result] ←→ [love, pride]
-
-  Ratio depends on:
-    → Frequency of scolding vs praising (factor ① repetition)
-    → Intensity of scolding vs praising (factor ③ emotional weight)
-    → Whether reasons are explained (direction present or not)
-    → Whether endpoint is clear (bounded or not)
-    → Whether child has agency (imposed or chosen)
-
-  → More scolding + less praising + no explanation → leans Case A → avoidance
-  → Less scolding + more praising + with explanation → leans Case B → approach possible
-  → = GRADIENT, not binary. Depends on accumulated ratio across THOUSANDS of events.
-
-  WHY "COMPENSATING WITH LOVE" WORKS:
-    → Not by "overwriting a tag" (no tag exists)
-    → But by ADDING positive-linked chunks that COMPETE with negative links
-    → More positive experiences → shifts the ratio → NET shifts toward approach
-    → Competitive re-linking (Chunk.md §4.3)
-
-  ⭐ NOTE (Drill v4.0 §6.5):
-    "Bounded" and "Unbounded" are ALSO observation parameters —
-    for P(resolution), a CONTINUOUS SPECTRUM from 0 to 1.
-    Cases A/B/C above = POINTS on this spectrum, not fixed categories:
-      Case A ≈ P(resolution) very low (~0.05)
-      Case B ≈ P(resolution) high (~0.70)
-      Case C ≈ P(resolution) variable (~0.3-0.6, depends on ratio)
-    The spectrum is DYNAMIC — P(resolution) can increase (self-resolving) or
-    decrease (self-degrading) over time. See §6.4 for full analysis.
-
-  🟡 Bounded vs unbounded distinction = framework synthesis from drill v3.1
-  🟡 Bounded/unbounded as observation parameter for P(resolution) = Drill v4.0
-  🟢 Context-dependent retrieval (Godden & Baddeley 1975)
-  🟢 Learned helplessness (Seligman 1967)
-```
-
----
-
-### §6.3 — SELF-CREATED THREAT: 4 CONDITIONS
-
-```
-⭐ WHEN SELF-CREATED THREAT IS PRODUCTIVE
-  (Drill v4.0 §6 Case H, Self-Created-Threat.md v1.1):
-
-  4 CONDITIONS — ALL must be met:
-
-    ① CHAIN TO BODY-BASE — threat must be "real":
-      → "Can't earn money → no house → child suffers" = chain REAL → body fires
-      → "Must try harder" (generic) = chain VAGUE → body ignores
-      → Body does NOT respond to floating pressure without body-base anchor
-
-    ② IMAGINE-FINAL MATCHES REALITY:
-      → Goal is domain-verified, not fantasy
-      → Body already has chunks to PREVIEW the goal → body-feedback is genuine
-
-    ③ SUFFICIENT RESOURCE CHUNKS:
-      → Has skills/knowledge to approach (not freeze)
-      → PFC CAN draft a plan → unconscious CAN execute
-
-    ④ BOUNDED — P(resolution) sufficiently high:
-      → "Finish this project → deadline met → rest"
-      → NOT "must succeed continuously forever"
-      → ⚠️ "Bounded" = P(resolution) sufficiently high — a CONTINUOUS variable,
-        not a binary check. See §6.4 for the full spectrum.
-        Domain structure can cap P(resolution) regardless of individual effort.
-
-  ALL 4 MET → PRODUCTIVE:
-    → Threat PUSH + Imagine-Final PULL = same direction
-    → Each step: threat DECREASES + opioid INCREASES (self-resolving)
-    → Reward at completion = COMPOUND: gap-fill + threat-relief + mastery
-    → Links compiled: [domain work] ←→ [mastery opioid] ←→ [threat resolved]
-    → = Self-reinforcing: success → more positive links → more approach
-
-  ANY 1 MISSING → FAILURE:
-    → Missing ① → generic pressure → body ignores → no drive
-    → Missing ② → fantasy goal → dissonance accumulates → §6.1 Case 2
-    → Missing ③ → no resource chunks → freeze/avoidance → §6.1 Case 3
-    → Missing ④ → unbounded → anticipation loop → anxiety → §6.2 Case A
-
-  CONNECTION TO PARENTAL PRESSURE:
-    → Unbounded pressure (§6.2 Case A) = MISSING ①②④ → fails
-    → Bounded pressure (§6.2 Case B) = HAS ①②③④ → productive
-    → Self-directed bounded threat = Case B but self-authored
-      → Highest agency → strongest opioid → most sustainable
-
-  Cross-ref: Self-Created-Threat.md v1.1 (full analysis: 4 types, 3 stages,
-    PFC-level vs body-compiled, AI era implications, calibration)
-
-  🟡 4 conditions = framework synthesis from drill case analysis
-  🟢 Self-efficacy (Bandura 1977)
-  🟢 Post-traumatic growth (Tedeschi & Calhoun 2004)
-```
-
----
-
-### §6.4 — RESOLUTION PROBABILITY SPECTRUM
-
-```
-⭐⭐ INSIGHT (Drill v4.0 §6.5): "BOUNDED/UNBOUNDED" = OBSERVATION PARAMETER
-
-  Just as "approach/avoidance tag" = observation parameter for NET link pattern (§5),
-  "bounded/unbounded" = ALSO an observation parameter — for the RESOLUTION PROBABILITY.
-
-  P(resolution) = probability that this threat can be resolved
-    = f(domain structure, individual resources, time horizon, competitors, luck)
-
-  CONTINUOUS SPECTRUM:
-    P(resolution) ≈ 1.0 ──────────────────────────── P(resolution) ≈ 0.0
-    "dog chasing, escape"               "hardworking laborer wanting wealth"
-
-  "Bounded" = observation parameter for HIGH P(resolution)
-  "Unbounded" = observation parameter for LOW P(resolution)
-  Most real threats = SOMEWHERE IN BETWEEN.
-
-  = CONSISTENT WITH FRAMEWORK PHILOSOPHY:
-    Schema = observation parameter → ✅
-    Tag = observation parameter → ✅ (§5)
-    Bounded/Unbounded = observation parameter → ✅ (this section)
-
-
-DIMENSION 1 — DOMAIN STRUCTURE LIMITS P(resolution):
-  → Open domain (learning to code → employment): P(resolution) independent of others → high
-  → Winner-takes-all (Shopee vs Lazada): only 1-2 can win → P(resolution) structurally capped
-  → Positional (top of class): zero-sum → P(resolution) depends on competitors, not just effort
-  → 4 conditions of self-created threat (§6.3) can ALL be met individually
-    and STILL fail because domain structure doesn't allow it
-
-DIMENSION 2 — TIME DYNAMICS:
-  → Self-resolving: P(resolution) increases over time (each milestone → opioid → more positive links)
-    = Case B bounded → THE PRODUCTIVE PATTERN
-  → Self-degrading: P(resolution) decreases over time (negative links accumulate, resources deplete)
-    = Bounded → BECOMES unbounded → §6.1 Case 2 tipping point
-  → Static low: P(resolution) never improves (structurally near-impossible from the start)
-  → SUNK COST TRAP (at tipping point): P(resolution) drops BUT investment rises
-    → Threat-QUIT (~2× loss aversion) > Threat-CONTINUE
-    → Person CONTINUES not because P(resolution) is high, but because quitting HURTS MORE
-    → = Approach behavior powered by AVOIDANCE motivation
-
-DIMENSION 3 — PERCEIVED vs ACTUAL P(resolution):
-  → Calibrated: P_perceived ≈ P_actual → rational decisions (rare, requires domain expertise)
-  → Overconfident: P_perceived >> P_actual → stubbornness trap (§6.1 Case 2 mechanism)
-  → Underconfident: P_perceived << P_actual → learned helplessness (Seligman)
-
-
-⭐ "PERSISTENCE vs STUBBORNNESS" PARADOX:
-  Same behavior, same mechanism, same approach pattern.
-  "Persistence" (Vietnamese: kiên trì) → P_actual was sufficient → success.
-  "Stubbornness" (Vietnamese: cố chấp) → P_actual was insufficient → waste.
-  THE LABEL IS RETROSPECTIVE — assigned by observer AFTER outcome known.
-  The body did its job correctly in BOTH cases.
-  The "error" (if any) = P_perceived calibration, not approach mechanism.
-
-
-⚠️ 3 QUESTIONS, NOT 1 BINARY:
-  OLD: "Is this threat bounded or unbounded?" → binary, misleading
-  NEW:
-    ① "Where is P(resolution) NOW, and is it increasing or decreasing?"
-    ② "Is my P_perceived calibrated to P_actual?"
-    ③ "Does the DOMAIN STRUCTURE allow resolution at all?"
-
-  Cross-ref: Drill v4.0 §6.5 for full analysis (~290 lines) with examples,
-    domain structure types, time degradation mechanism, sunk cost trap detail.
-
-  🟡 Bounded/unbounded as observation parameter = Drill v4.0 framework extension
-  🟡 P(resolution) spectrum = framework synthesis
-  🟡 "Persistence vs stubbornness" paradox = framework analysis
-  🟢 Loss aversion ~2× (Kahneman & Tversky 1979)
-  🟢 Winner-takes-all markets (Rosen 1981, Frank & Cook 1995)
-  🟢 Learned helplessness (Seligman 1967)
-  🟢 Confirmation bias (Nickerson 1998)
-  🔴 Exact P(resolution) values per scenario = illustrative only (not measurable)
-```
-
----
-
-## §7 — BENEFICIAL vs HARMFUL
+## §6 — BENEFICIAL vs HARMFUL
 
 ```
 ⭐ THREAT = NEUTRAL — a mechanism, not a disease
@@ -1544,21 +925,17 @@ WHEN THREAT IS BENEFICIAL:
   ① EMERGENCY RESPONSE — life-saving (acute, bounded)
   ② DEADLINE MOTIVATION — Yerkes-Dodson sweet spot (mild, has endpoint)
   ③ BOUNDARY DEFENSE — protecting values (assertive behavior)
-  ④ GROWTH CATALYST — Threat + aligned Imagine-Final = productive drive (§6.1 Case 1)
+  ④ GROWTH CATALYST — Threat + aligned Imagine-Final = productive drive (Case 1)
   ⑤ INVESTMENT BRIDGE — threat sustains effort through "not enough chunks yet"
     phase → when chunks ARE sufficient → intrinsic reward takes over →
     WITHDRAW the threat floor
-    ⚠️ Works ONLY when P(resolution) sufficiently high (§6.4):
-    has direction + has endpoint + genuine reward + P(resolution) is self-resolving.
-    If P(resolution) too low or self-degrading → unbounded pattern → avoidance when freed.
-    Domain structure must ALLOW resolution (§6.4 Dimension 1).
 
   CONDITIONS FOR BENEFICIAL:
     ✅ Specific (not infinite and abstract)
-    ✅ Has a clear endpoint (bounded)
+    ✅ Has a clear endpoint
     ✅ Has an action that can resolve it
     ✅ Short-term or can be turned on/off
-    ✅ Cortisol sufficient but not overloading (amplifier, not flood)
+    ✅ Cortisol just sufficient
 
 
 WHEN THREAT IS HARMFUL:
@@ -1580,16 +957,10 @@ WHEN THREAT IS HARMFUL:
 
     Same behavior (going to work, studying, exercising) → different drive →
       different sustainability:
-      → Studying because it's interesting (Novelty pull) = positive links compile
-      → Studying because afraid (Threat push) = negative links compile
-      → = Same behavior → DIFFERENT links → DIFFERENT NET → DIFFERENT trajectory
-
-  ⭐ COMPILED QUALITY = OBSERVATION LABEL FOR NET LINK PATTERN (§5.4):
-    → "Genuine-compiled" = approach OBSERVED (positive NET)
-    → "Threat-compiled" = avoidance OBSERVED (negative NET)
-    → NOT fixed properties — NET patterns that CAN shift via competitive
-      re-linking (§5.3, Chunk.md §4.3)
-    → USUALLY persistent (strong trauma links) but not permanent
+      → Studying because it's interesting (Novelty pull) = schema "learning = joy"
+      → Studying because afraid (Threat push) = schema "learning = stress"
+      → = Same behavior → DIFFERENT drive → DIFFERENT compiled schema →
+          DIFFERENT life trajectory
 
 
 SUMMARY:
@@ -1597,15 +968,13 @@ SUMMARY:
   ┌────────────────────────────────────────────────────────────┐
   │                                                            │
   │  THREAT + acute + bounded + resolvable = BENEFICIAL        │
-  │  = Emergency, deadline, growth, investment bridge           │
+  │  = Emergency, deadline, growth, boundary                   │
   │                                                            │
   │  THREAT + chronic + unbounded + unresolvable = HARMFUL     │
   │  = Neural Wear, anxiety, burnout, override, exploit        │
   │                                                            │
-  │  → KEY VARIABLE: DURATION + BOUNDEDNESS                    │
+  │  → KEY VARIABLE: DURATION + RESOLUTION                     │
   │  → "Can be stopped" = healthy | "Cannot be stopped" = toxic│
-  │  → Bounded → CAN build positive links → approach possible  │
-  │  → Unbounded → only negative links → avoidance when freed  │
   │                                                            │
   └────────────────────────────────────────────────────────────┘
 
@@ -1617,7 +986,7 @@ SUMMARY:
 
 ---
 
-## §8 — HONEST ASSESSMENT
+## §7 — HONEST ASSESSMENT
 
 ```
   FULL FILE — HONEST EVALUATION:
@@ -1625,7 +994,7 @@ SUMMARY:
   🟢 VERIFIED (neuroscience / established research):
     ┌────────────────────────────────────────────────────────────┐
     │ NE → adrenaline → cortisol cascade (stress physiology)    │
-    │ Fight/flight/freeze responses (LeDoux, Cannon, Porges)     │
+    │ Fight/flight/freeze responses (LeDoux, Cannon)             │
     │ Amygdala overrides PFC at high stress (Arnsten 2009)       │
     │ Yerkes-Dodson law (1908, replicated)                        │
     │ Chronic cortisol → neural damage (McEwen 1998, 2007)       │
@@ -1641,18 +1010,6 @@ SUMMARY:
     │ Authoritative parenting (Baumrind 1967)                     │
     │ CBT effectiveness for anxiety                               │
     │ Knowledge reduces anxiety (health literacy research)        │
-    │ Resource assessment in threat (Blanchard 1997)              │
-    │ Self-efficacy (Bandura 1977)                                │
-    │ Maternal aggression (literature)                             │
-    │ Spreading activation (Collins & Loftus 1975)                │
-    │ Competitive re-linking (Nader 2000, Anderson 1994)          │
-    │ Context-dependent retrieval (Godden & Baddeley 1975)        │
-    │ Mood-congruent memory (Bower 1981)                          │
-    │ Exposure therapy = competitive link formation (CBT)         │
-    │ IPS math specialization (Cantlon 2006, Dehaene)             │
-    │ Amygdala modulates synaptic plasticity (Richter-Levin 2004)│
-    │ Learned helplessness (Seligman 1967)                        │
-    │ Post-traumatic growth (Tedeschi & Calhoun 2004)             │
     └────────────────────────────────────────────────────────────┘
 
   🟡 FRAMEWORK SYNTHESIS (consistent logic, derived from 🟢):
@@ -1671,24 +1028,9 @@ SUMMARY:
     │ Threat × Imagine-Final 3 Cases                             │
     │ Tipping point model                                        │
     │ Pull vs Push sustainability difference                     │
-    │ Compilable Architecture → threat type expansion            │
-    │ Compiled/Fresh threat (phobia vs novel danger)             │
-    │ PFC=Lawyer: suppress/amplify/fabricate threat              │
-    │ 6-variable immediate threat response model (v2.0)          │
-    │ Cortisol = amplifier, NOT direction selector (v2.0)        │
-    │ No tag at neural level — geography + links + NET (v2.0)    │
-    │ Neural geography gradient (not 2 types) (v2.0)             │
-    │ "Tag" = observation parameter for NET pattern (v2.0)       │
-    │ Bounded vs unbounded pressure distinction (v2.0)           │
-    │ Self-created threat: 4 conditions (v2.0)                   │
-    │ Two time-scales: immediate response vs future activation   │
-    │ P(resolution) = continuous spectrum (v2.1, from Drill v4.0)│
-    │ Bounded/unbounded = observation parameter P(resolution) v2.1│
-    │ Domain structure limits P(resolution) (3 domain types) v2.1│
-    │ Time dynamics: self-resolving / self-degrading / static    │
-    │ P_perceived vs P_actual → 3 calibration states (v2.1)     │
-    │ "Persistence vs stubbornness" = retrospective label (v2.1) │
-    │ Sunk cost trap = approach by avoidance at tipping pt (v2.1)│
+    │ Compilable Architecture → threat type expansion (v1.1)     │
+    │ Compiled/Fresh threat (phobia vs novel danger) (v1.1)      │
+    │ PFC=Lawyer: suppress/amplify/fabricate threat (v1.1)       │
     └────────────────────────────────────────────────────────────┘
 
   🔴 HYPOTHESIS (logical but unverified):
@@ -1698,68 +1040,27 @@ SUMMARY:
     │ Optimal threat:novelty ratio — unknown                     │
     │ Imposed→internalized timeline per individual — variable    │
     │ Cross-generation threat transmission mechanics — unclear   │
-    │ Exact NET valence computation — unknown                    │
-    │ Exact amygdala modulation reach per brain region — unclear │
-    │ Exact threshold for approach/avoidance switch — unknown    │
-    │ Exact proximity gradient mapping — needs fMRI verification │
-    │ Exact link strength ratios per scenario — unknown          │
-    │ Exact P(resolution) values per scenario — illustrative    │
-    │ Method to calibrate P_perceived → P_actual — undefined    │
     └────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## §9 — CROSS-REFERENCES
+## §8 — CROSS-REFERENCES
 
 ```
   ← FOUNDATION (read first or in parallel):
-    Core-Software.md v3.1 — §8 Threat = observation parameter definition,
-      §4.1 Compiled Quality (NET link patterns), §4.3 Cortisol × Direction
-    Drill-Threat-Direction-Analysis.md v4.0 — source for v2.0/v2.1 refinements:
-      no tag at neural level, geography + modulation + links + NET,
-      6-variable response, bounded/unbounded, case analysis
-      v4.0 §6.5 — Resolution Probability Spectrum: P(resolution) = continuous,
-        bounded/unbounded = observation parameter, domain structure × time × calibration
+    Core-Software.md §8 — Threat = observation parameter definition
     Body-Feedback-Mechanism.md v2.0 §3.1-§3.2 — Chunk-Shift/Miss = Threat substrate
-    Cortisol-Baseline.md v2.3 — amplifier (not direction selector),
-      chronic vs acute dynamics, Inverted-U
-    Chunk.md v3.0 — §2.4 Direction-At-Compile, §2.5 reconsolidation (never delete),
-      §4.2 7-factor link strength, §4.3 competitive re-linking
-    Self-Created-Threat.md v1.1 — 4 types, 3 stages, PFC-level vs body-compiled,
-      bounded/unbounded, AI era implications, calibration
+    Cortisol-Baseline.md v2.0 — amplifier, chronic vs acute dynamics
+    Chunk.md v2.0 — chunk compilation under emotional peak
     Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture (threat type expansion)
     Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh (compiled vs fresh threat)
     Inter-Body-Mechanism.md v1.0 §7 — PFC=Lawyer (suppress/amplify/fabricate threat)
-    PFC-Configuration.md v1.1 §7 — Strategy A→B (fight = approach under threat)
-    Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State × threat
-
-  ← APPLICATION:
-    Child-Development-Mechanism.md — 4-Stream Compile, approach/avoidance in parenting
-    Education-System.md — imposed threat → negative links → avoidance OBSERVED
-    Blackbox-Map.md §3 RD-2.2 — "direction by chunks, not cortisol" (CORRECT as-is)
-    Entity-Valence-Dynamics drill — structural vs current valence (same mechanism)
+    PFC-Configuration.md v1.0 — Strategy A→config④, Strategy B→config⑤
 ```
 
 ---
 
-*Threat.md v2.1 — End of file.*
-*v2.0: FULL REWRITE from v1.3 (backup at _backup/Threat-v1.3-backup.md).*
-*v2.1: +§6.4 Resolution Probability Spectrum (source: Drill v4.0 §6.5).*
-
-*v2.0 key additions: 6-variable immediate response, cortisol = amplifier,*
-*no tag at neural level (geography + modulation + links + NET valence),*
-*bounded vs unbounded pressure, self-created threat 4 conditions.*
-
-*v2.1 key addition: P(resolution) = continuous spectrum, not binary.*
-*"Bounded/unbounded" = observation parameter for P(resolution).*
-*Domain structure × time dynamics × perceived vs actual calibration.*
-*"Persistence vs stubbornness" = same mechanism, retrospective label.*
-
-*Core insight: there is no "avoidance tag" in the brain.*
-*What exists: neural geography + amygdala modulation + Type 1 links + NET valence.*
-*"Avoidance" = observation parameter for a NET link pattern.*
-*Framework conclusions remain valid — mechanism explanation refined.*
-
-*English translation. Framework vocabulary preserved as defined in*
-*the Human Predictive Drive Framework.*
+*English translation of Threat.md (Vietnamese source, v1.3)*
+*Translation target: English-speaking audience — rewritten for clarity and natural English expression.*
+*All framework vocabulary preserved exactly as defined in the Human Predictive Drive Framework.*

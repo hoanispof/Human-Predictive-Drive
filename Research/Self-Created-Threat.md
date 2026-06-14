@@ -20,16 +20,17 @@
 
 ---
 
-> **Status:** v1.1 (refined 2026-05-29: L3 RETIRED — "L3/L1-L2"→"PFC-level/body-compiled". Pattern C terminology)
+> **Status:** v1.2 (refined 2026-06-14: +P(resolution) spectrum awareness, cross-ref Drill v4.0 §6.5)
 > **Date:** 2026-05-13
 > **Location:** Research/ (cross-domain analysis, observation-level)
 > **Dependencies:**
 >   Novelty.md v1.0 — §4.2 Level 4 Self-Created Threat + §4.3 Novelty vs Anxiety Loop
->   Threat.md v1.0 — §2 Internal-Predict (~20-60% fidelity), External vs Internal
+>   Threat.md v2.1 — §2 Internal-Predict, §6.3 4 Conditions, §6.4 P(resolution) spectrum
+>   Drill-Threat-Direction-Analysis.md v4.0 — §6.5 Resolution Probability Spectrum
 >   Imagine-Final.md — §7 Bootstrap (PFC start → body take over), Jensen Huang timeline
 >   Compile-Type-Learning.md v1.1 — Trust Compile, trust then verify
 >   Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, trust amplifier
->   Cortisol-Baseline.md v2.0 — §7.7 5 Roles, §8.1-8.2 Inverted-U + 6 parameters
+>   Cortisol-Baseline.md v2.4 — §7.7 5 Roles, §8.1-8.2 Inverted-U + 6 parameters
 >   Anchor-Schema.md v1.0 — Clarity × Quality × Trust, 4 sources
 >   Protect.md v1.0 — §1.2 Loss Aversion ~2×, ownership chunks, Protect mechanism
 >   Human-AI-Future.md v2.0 — §8 Human self-upgrade, symbiosis
@@ -349,6 +350,17 @@
   → ALL types have their own risk → need calibration (§6)
   → ALL types can be TURNED ON/OFF — because PFC creates them, PFC can dismiss them (§4)
   → Most successful people use a COMBO: ≥2 types simultaneously
+
+  ⭐ NOTE (Drill v4.0 §6.5, Threat.md §6.4):
+    "Bounded/Unbounded" in the Duration column = OBSERVATION PARAMETER
+    for P(resolution), a continuous spectrum from 0 to 1.
+    ① Competition: P(resolution) high → event endpoint → self-resolving
+    ④ Legacy: P(resolution) unclear → no endpoint → risk of "never enough"
+    The SAME self-created threat can shift from bounded to unbounded
+    as P(resolution) changes over time (Dimension 2: time degrades P).
+    Self-created threat is most productive when P(resolution) sufficiently
+    high AND calibrated (P_perceived ≈ P_actual). See §6.
+    Full spectrum analysis: Threat.md §6.4, Drill v4.0 §6.5.
 ```
 
 ---
@@ -634,14 +646,14 @@ STAGE 3 — SELF-CREATING CONSCIOUSLY (leadership / mastery phase):
       → = Shift from "forcing yourself" → "body wants it by itself"
 
     → If education is designed INCORRECTLY (threat-based: grades, punishment, coercion):
-      → Children compile [learning = avoiding punishment] (avoidance tag)
+      → Children compile [learning = avoiding punishment] (avoidance links)
       → Growing up: NEED external or self-created threat → dependent on push
       → = Stuck in "forcing yourself" for life
 
     → Framework has already presented the educational principles TO CREATE novelty-pull:
-      Education-Mechanism.md — arc design, approach tag
+      Education-Mechanism.md — arc design, approach links
       Compile-Type-Learning.md — Experience Compile verify, not just Trust Compile install
-      Child-Development-Mechanism.md — approach/avoidance tag × parenting
+      Child-Development-Mechanism.md — approach/avoidance link pattern × parenting
 
     → = Self-created threat may be a TRANSITIONAL SKILL:
       Current generation (lacks ready novelty-pull) → NEEDS this skill
@@ -879,6 +891,50 @@ STAGE 3 — SELF-CREATING CONSCIOUSLY (leadership / mastery phase):
       → = NORMAL: body has no threat → doesn't fire → inevitable consequence
       → Fix: TURN BACK ON threat scenario (§1) → body re-fires
         → Needs Stage 3 skill (§3) to turn on consciously
+
+
+  ⭐ SECOND CALIBRATION DIMENSION — P(resolution) CHECK
+    (Drill v4.0 §6.5, Threat.md §6.4):
+
+    §6.1-6.3 calibrates INTENSITY: how much self-pressure = right dose?
+    But DIRECTION also needs calibrating: is this goal ACHIEVABLE?
+
+    P(resolution) = continuous probability of resolution (0 to 1).
+    Self-created threat is most productive when BOTH are calibrated:
+      (1) Intensity: right dose on the Inverted-U (§6.1)
+      (2) Direction: P(resolution) sufficiently high AND P_perceived ≈ P_actual
+
+    3 CALIBRATION STATES (Drill v4.0 §6.5 Dimension 3):
+
+      CALIBRATED (P_perceived ≈ P_actual):
+        → Accurate self-assessment → rational approach/avoidance
+        → Self-created threat in the RIGHT direction at RIGHT intensity
+        → = Ideal: both Inverted-U calibrated + P(resolution) calibrated
+
+      OVERCONFIDENT (P_perceived >> P_actual):
+        → Believes threat is bounded when actually unbounded
+        → Self-creates pressure into a direction that CAN'T resolve
+        → = "Persistence" becomes "stubbornness" — same mechanism, P(resolution) was too low
+        → Sunk cost trap amplifies: threat of LOSING investment > threat of CONTINUING
+          (loss aversion ~2×, Kahneman & Tversky 1979)
+
+      UNDERCONFIDENT (P_perceived << P_actual):
+        → Believes threat is unbounded when actually bounded
+        → DOESN'T self-create pressure where it WOULD work
+        → = Learned helplessness (Seligman 1967): "no point trying"
+        → Negative links from past experiences bias P(resolution) estimate downward
+
+    ⚠️ TIME DEGRADES P(resolution) (Drill v4.0 §6.5 Dimension 2):
+      → Self-created threat that starts as bounded (high P(resolution)) CAN SHIFT:
+        Self-resolving: P(resolution) increases → each milestone → opioid → productive
+        Self-degrading: P(resolution) decreases → negative links accumulate → tipping point
+      → §6.3 Phase 3 EVALUATE should include P(resolution) check:
+        "Is P(resolution) still high enough? Or has this become a sunk cost trap?"
+      → Body alone CANNOT calibrate P(resolution) — needs domain feedback (external check)
+
+    🟡 P(resolution) calibration applied to self-created threat = framework synthesis
+    🟢 Loss aversion ~2× (Kahneman & Tversky 1979)
+    🟢 Learned helplessness (Seligman 1967)
 ```
 
 ---
@@ -902,8 +958,9 @@ STAGE 3 — SELF-CREATING CONSCIOUSLY (leadership / mastery phase):
   → 4 types classified by anchor (body-base level)
   → 3-stage learning sequence
   → PFC-level (controllable) vs body-compiled (uncontrollable)
-  → Inverted-U applied to self-drive
+  → Inverted-U applied to self-drive (intensity calibration)
   → Repair cycle necessity
+  → P(resolution) calibration = second dimension of self-drive calibration (v1.2)
 
 
 🔴 HYPOTHESIS (not yet verified):
@@ -938,13 +995,18 @@ STAGE 3 — SELF-CREATING CONSCIOUSLY (leadership / mastery phase):
 ```
 MECHANISM FILES (read for deeper understanding):
 
-  Threat.md §2              — External vs Internal-Predict, fidelity ~20-60%
+  Threat.md v2.1            — §2 Internal-Predict, §6.3 4 Conditions,
+                               §6.4 P(resolution) spectrum
+  Drill-Threat-Direction-Analysis.md v4.0
+                            — §6.5 Resolution Probability Spectrum:
+                              P(resolution) = continuous, bounded/unbounded =
+                              observation parameter, 3 dimensions, persistence vs stubbornness
   Novelty.md §4.2           — Level 4 Self-Created Threat, ON/OFF
   Novelty.md §4.3           — Novelty Loop vs Anxiety Loop, mixed ratio
   Imagine-Final.md §7       — Bootstrap: PFC start → body take over
   Compile-Taxonomy.md v3.0  — 1 Engine + 3 Modulators, trust amplifier mechanism
   Compile-Type-Learning.md  — Trust Compile in learning, trust then verify
-  Cortisol-Baseline.md      — §7.7 5 Roles, §8 Inverted-U + 6 parameters
+  Cortisol-Baseline.md v2.4 — §7.7 5 Roles, §8 Inverted-U + 6 parameters
   Anchor-Schema.md          — Clarity × Quality × Trust, 4 sources
   Protect.md §1.2           — Loss aversion ~2×, asymmetric prediction-delta
   Body-Feedback.md          — Dual-pull, body accuracy ~90%
@@ -964,9 +1026,9 @@ APPLICATION FILES (application context):
 
 EDUCATION FILES (building novelty-pull from childhood):
 
-  Education-Mechanism.md    — Arc design principles, approach tag
+  Education-Mechanism.md    — Arc design principles, approach links
   Compile-Type-Learning.md  — Experience Compile verify, optimal learning flow
-  Child-Development-Mechanism.md — Approach/Avoidance tag × parenting
+  Child-Development-Mechanism.md — Approach/Avoidance link pattern × parenting
 
 BACKUP (source material):
 
@@ -976,7 +1038,7 @@ BACKUP (source material):
 
 ---
 
-> **Self-Created-Threat v1.0 — End of file.**
+> **Self-Created-Threat v1.2 — End of file.**
 >
 > PFC creates threat → body trusts it → cortisol fires AS IF REAL.
 > = Trust Compile from yourself.
@@ -985,6 +1047,10 @@ BACKUP (source material):
 > 4 types of self-created threat. 3 stages of learning (a skill, not innate).
 > PFC-level is controllable — body-compiled is not. Repair cycle = non-negotiable.
 > AI era: old drive sources disappearing → this skill more important than ever.
+>
+> *v1.2: +P(resolution) spectrum awareness. Calibration = 2 dimensions:*
+> *intensity (Inverted-U) + direction (P(resolution) sufficiently high + calibrated).*
+> *"Bounded/unbounded" = observation parameter for P(resolution), a continuous spectrum.*
 > Novelty-pull = the other path (already has its own files).
 > Correct education → future generations can have self-sufficient novelty-pull → threat less needed.
 >

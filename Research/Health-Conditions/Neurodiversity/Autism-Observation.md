@@ -822,7 +822,7 @@ THIS FILE BENEFITS FROM ALL 4 PRIOR FILES:
   EXAMPLE AUDITORY (hearing):
     Tier 1 — Sensor (physical ear):
       → Hearing threshold: -10 dB HL (exceptional) → 0 (typical) → 25+ (loss)
-      → Frequency: 20Hz-20kHz (young) → loses high freq gradually with age
+      → Frequency: 20Hz-20kHz (young) → loses high frequency gradually with age
       → Musicians: pitch discrimination better (training effect)
 
     Tier 2 — Processing (brain):

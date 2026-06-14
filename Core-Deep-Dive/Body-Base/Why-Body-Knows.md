@@ -721,7 +721,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌──────────────────┬───────────────────────────────────────────┐
   │ OLD (4-LAYER)    │ NEW (2-LAYER + 2 PATHWAYS)                │
   ├──────────────────┼───────────────────────────────────────────┤
-  │ Tier 1 Evolution │ → Layer 1 Evolution (KEEP — separate mech)│
+  │ Tier 1 Evolution │ → Layer 1 Evolution (KEEP — separate mechanism)│
   │ Tier 2 Develop   │ → Layer 2: 2a active (direct experience)  │
   │ Tier 3 Culture   │ → Layer 2: 2a passive + 2b (culture =     │
   │                  │   social environment + accumulated         │
@@ -756,7 +756,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ (individual, years)  │ (2a domain + 2b inject → compile)    │
   ├──────────────────────┼──────────────────────────────────────┤
   │ Layer 3: Cultural    │ = 2a passive + 2b × cumulative stack │
-  │ (collective, cumul.) │ (emergent property, not separate tier)│
+  │ (collective,         │ (emergent property, not separate     │
+  │  cumulative)         │ tier)                                │
   └──────────────────────┴──────────────────────────────────────┘
 
   SAME phenomenon, DIFFERENT lens:

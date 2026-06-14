@@ -1205,7 +1205,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ (parasocial)     │           │ no feedback  │              │ (rich Self-PM, no       │
   │                  │           │              │              │  Resonance)             │
   ├──────────────────┼───────────┼──────────────┼──────────────┼─────────────────────────┤
-  │ Solitary conf.   │ UNMET     │ N/A          │ N/A          │ Body deteriorates       │
+  │ Solitary         │ UNMET     │ N/A          │ N/A          │ Body deteriorates       │
+  │ confinement      │           │              │              │                         │
   │ Einstein alone   │ Fires     │ N/A (no      │ N/A          │ Override by domain      │
   │                  │ mildly    │ agent        │              │ anchor → not felt       │
   │                  │ but anchor│ present)     │              │                         │
@@ -2593,13 +2594,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ┌────────────────────────┬──────────────┬──────────────┬──────────────┬──────────────┬──────────────┐
     │ Factor                 │ Mother lost  │ Child lost   │ Friend lost  │ Partner lost │ Colleague    │
     ├────────────────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
-    │ ① Compilation          │ DEEP         │ V. DEEP      │ MODERATE     │ DEEP         │ SHALLOW      │
+    │ ① Compilation          │ DEEP         │ VERY DEEP    │ MODERATE     │ DEEP         │ SHALLOW      │
     │ ② Hardware-subsidy     │ MODERATE     │ MAXIMUM      │ NONE         │ SOME         │ NONE         │
-    │ ③ Valence-Structural   │ STRONG       │ V. STRONG    │ MOD-WEAK     │ STRONG       │ WEAK         │
-    │ ④ Duration             │ DECADES      │ YRS→DEC      │ YEARS        │ YRS→DEC      │ MO→YRS       │
+    │ ③ Valence-Structural   │ STRONG       │ VERY STRONG  │MODERATE-WEAK │ STRONG       │ WEAK         │
+    │ ④ Duration             │ DECADES      │ YEARS→DECADES│ YEARS        │ YEARS→DECADES│ MONTHS→YEARS │
     ├────────────────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
     │ Dominant phantom       │ TONIC        │ TONIC+CYCLIC │ GENERATIVE   │ ALL 3        │ GENERATIVE   │
-    │ INTENSITY              │ MAJOR        │ DEVASTATING  │ MINOR-MOD    │ COMPLEX      │ MINOR        │
+    │ INTENSITY              │ MAJOR        │ DEVASTATING  │MINOR-MODERATE│ COMPLEX      │ MINOR        │
     └────────────────────────┴──────────────┴──────────────┴──────────────┴──────────────┴──────────────┘
 
     ⭐ CHILD LOST = ALL 4 FACTORS MAXIMUM → MOST DEVASTATING phantom.

@@ -609,7 +609,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │            │ "Step 1, 2, 3"     │                      │                      │
   ├────────────┼────────────────────┼──────────────────────┼──────────────────────┤
   │ ADVANCED   │ Experience Compile │ Beginning to expand  │ Notices "something   │
-  │ BEGINNER   │ begins             │ Some hidden dims     │ there" but not clear │
+  │ BEGINNER   │ begins             │ Some hidden         │ there" but not clear │
+  │            │                    │ dimensions           │                      │
   │            │ Trust + early Exp. │ Body: faint, fuzzy   │ PARTIAL AWARE        │
   │            │ "Recognizes        │                      │                      │
   │            │  context"          │                      │                      │
