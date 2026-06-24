@@ -494,7 +494,7 @@ BUT compiled schema (addiction, habit, trauma) OVERRIDES body signal
     Compiled schema: nicotine → dopamine → "seek cigarette" (overrides)
     = Body correct + Schema stronger = wrong behavior
     
-  Mechanism: Schema compiled at subconscious level (~80% of behavior)
+  Mechanism: Schema compiled at unconscious level (~80% of behavior)
   PFC is aware but does not have enough strength to override the compiled schema
   (Anchor-Schema.md §3 ③: compiled schemas = STRONGEST, ~80% of behavior)
 ```
@@ -1405,6 +1405,7 @@ Emergent = distributed WITHOUT central:
   = Each organism lives → variation → selection → adaptation
   = Humans navigate → trial-and-error → collective domain grows
   = No awareness needed, no planning needed, happens because the ARCHITECTURE allows it
+  → Consciousness.md v1.0 §3.3: collective pattern = "background-invisible" unconscious type
 ```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1561,6 +1562,9 @@ STILL OPEN:
 📚 Domain:
   → Conflict-Dynamics.md §7 — Scarcity → Expansion
   → Domain.md — domain mapping
+
+📚 Consciousness:
+  → Consciousness.md v1.0 — formal consciousness model (§11.4 = background-invisible type)
 
 📚 Education:
   → Education-Mechanism.md — Individual × Society balance (parallel principle)

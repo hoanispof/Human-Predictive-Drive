@@ -817,6 +817,7 @@ AI increasingly performs tasks "better" than humans in many domains → delegati
 **New Concept Files (Observation Drill)**:
 - Entity-Access.md v1.2 — autonomy = control over Entity-Access gradient
 - Simulation-Engine.md v1.0 — autonomy unlocks Simulation-Engine full capacity
+- Consciousness.md v1.0 §8.1 — consciousness = observation parameter (autonomy requires conscious access)
 
 **Research Citations**:
 - 🟢 Erikson (1950) — autonomy vs shame and doubt

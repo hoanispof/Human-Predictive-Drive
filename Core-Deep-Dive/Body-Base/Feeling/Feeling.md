@@ -419,6 +419,8 @@ dependencies:
   → = "Felt sense" (Gendlin 1978): pre-verbal but PFC can sense it.
   → = "Something just feels... off" — TRUTH is ready, PFC just doesn't have words yet.
   → 🟢 Gendlin 1978, Farb 2013.
+  → Full consciousness model → Consciousness.md v1.0
+    (Feel-Consciousification = ignition threshold, Consciousness.md §5.1)
 ```
 
 ### §2.2b PFC Observation Threshold — 2 Dimensions (between Feel-Consciousification and Feel-Observation)
@@ -2163,6 +2165,13 @@ dependencies:
     → §4: Level 0-6 Gradient maps onto Feeling 7-layer (§8.1)
     → §7: Keystone property — Self-Observation fail → cascade across 5+ systems
     → §8: Relationship mapping: Body-Knowing Inward ⊂ Self-Observation
+
+📚 CONSCIOUSNESS:
+
+  Consciousness.md v1.0      — Full consciousness model
+    → §2.2 Feel-Consciousification = ignition threshold (Consciousness.md §5.1)
+    → §3 4-type unconscious taxonomy (extends §2.2 body domain → unconscious types)
+    → §7 Compiled/Fresh × Knowing matrix (extends Compiled/Fresh across consciousness)
 ```
 
 ### §13.3 Key Research References

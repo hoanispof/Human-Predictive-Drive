@@ -1235,6 +1235,10 @@ NOT CLAIMING:
   → Gap-Direction.md v2.0: gap direction (novelty parameter)
   → Protect.md v1.0: protect parameter
   → Status.md v2.0: status parameter
+
+📚 CONSCIOUSNESS:
+  → Consciousness.md v1.0: thalamus role in consciousness
+    (§5.4 Arousal: thalamus = necessary condition for consciousness)
 ```
 
 ---

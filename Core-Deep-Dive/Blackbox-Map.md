@@ -704,7 +704,11 @@ The framework knows:
   ⭐ FRAMEWORK POSITION:
     Feeling.md describes PATTERN clearly — trainable, useful.
     HOW integration happens at circuit level = open question.
-    Consciousness = explicitly out of scope.
+    → Consciousness.md v1.0: ACCESS consciousness now DEFINED
+      ("knowing" = functional definition, 4-type unconscious taxonomy,
+      GWT mechanism, PFC = biased hub, Compiled/Fresh × Knowing matrix).
+      SUB-GAP 2 PARTIALLY filled: access consciousness answered,
+      Hard Problem of Consciousness (Chalmers 1995) → still OPEN.
     Framework is useful WITHOUT NEEDING to solve the hard problem —
     like an engineer using electricity WITHOUT NEEDING to solve quantum mechanics.
 ```

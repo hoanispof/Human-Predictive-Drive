@@ -1473,6 +1473,8 @@ LINK STRENGTH = f(7 factors):
     Collective/Collective-Body.md v2.1 → 3-level Model
     Body-Base/Body-Base.md v3.3 → entry point for Body-Base system
     AI-Schema-Detection.md v2.1 → AI-assisted schema detection
+    Consciousness.md v1.0 → anchor → consciousness enablement
+      (extends §5 Anchor-Decay: anchor not just retrieval, also consciousness stability)
 
   MECHANISM FILES:
     Schema/Schema.md v1.1 → schema = chunk network with purpose

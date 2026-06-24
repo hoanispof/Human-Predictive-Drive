@@ -1217,6 +1217,7 @@ ENTITY-ACCESS × CALIBRATION (Entity-Access.md v1.2):
     → Body-Feedback-Label.md v2.0 — vocabulary reference
     → Chunk.md v2.3 — §2.3 5 external install mechanisms (2b pathway)
     → Gap-Direction.md v2.0 — "no knowledge = no gap" (recursive compile)
+    → Consciousness.md v1.0 — consciousness model, "knowing" = body-check output observed
     → Simulation-Engine.md v1.0 — PFC simulation = calibration tool
     → Entity-Access.md v1.2 — trust = gradient Level 0-5, calibration per-entity
     → Entity-Access-Calibration.md v1.0 — self-regulation, hardware-subsidy

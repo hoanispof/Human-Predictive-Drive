@@ -2895,6 +2895,16 @@ RESEARCH ORGANIZATIONS:
   → Focusing Network UK
 
 → For readers wanting to go deeper: start with Gendlin (1978) + Damasio (1996)
+
+
+═══════════════════════════════════════════════════════
+§10.8 — CONSCIOUSNESS
+═══════════════════════════════════════════════════════
+
+→ Consciousness.md v1.0 — progressive anchoring
+  (§4 Anchor = consciousness enablement, §8.3 reverse compilation)
+  Somatic-Articulation Loop = a form of progressive anchoring:
+  vague body-knowing → articulated → anchored → conscious chain logic
 ```
 
 ---

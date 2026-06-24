@@ -2553,6 +2553,8 @@ Background-Pattern-Q10: Compiled Suppress + Background-Pattern absorb: how to re
   Gap-Direction.md v2.0            — §9 Background-Pattern constrains gap direction (§13.2)
   Cortisol-Baseline.md v2.0        — §9 PFC damage (CONNECTED: §8 self-reinforcing loop)
   Anchor-Schema.md v1.2            — §2 trust (INTERACTS: Background-Pattern constrains anchors)
+  Consciousness.md v1.0             — §3.3 Background-invisible unconscious type
+                                      (uses §5 PFC invisibility as mechanism explanation)
 ```
 
 ### §19.2 — PFC + Agent-Mechanism Files (v2.0 NEW)

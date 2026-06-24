@@ -870,6 +870,7 @@ CROSS-REFERENCES:
     → Drill-Emergent-Pattern.md §5 — "Giving" pattern (§6 cases)
     → Empathy.md v2.2 §6-§8 — empathy reward, burnout formula (§6 cases)
     → Somatic-Articulation-Loop.md — body → explicit knowledge
+    → Consciousness.md v1.0 — valence propagation often unconscious (§3 taxonomy)
 
   APPLICATION:
     → AI-Schema-Detection.md v2.0 — pattern detection

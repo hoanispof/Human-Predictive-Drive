@@ -1306,6 +1306,10 @@ COMPILATION:
   Chunk.md v2.0 — Chunk substrate PFC operates on
     → Reconsolidation = chunk modification (⑭) mechanism
 
+CONSCIOUSNESS:
+  Consciousness.md v1.0 — PFC configuration affects consciousness access
+    → Config ④⑤ (threat/dissociation) = altered consciousness state
+
 CORE:
   Core-Software.md — PFC position in cycle architecture
     → 6 configs = PFC's dynamic range within cycle

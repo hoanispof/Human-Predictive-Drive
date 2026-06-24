@@ -1259,6 +1259,7 @@ CASE 5 — "Scrolling social media and still bored" (Type 1, temporary fix):
     Observation/Threat.md v1.1 — PUSH (boredom ≠ threat; threat lock → Type 2)
     Observation/Drive.md v1.2 §2 — Drive-PFC-Spinning ≈ boredom territory
     Observation/Meaning.md v2.1 — Type 3 void → meaning question gateway
+    Consciousness.md v1.0 §8.1 — consciousness = observation parameter (boredom = conscious signal)
 
   → DOWNSTREAM:
     Gap-Direction.md v2.0 — gap immutability, "don't know yet = no gap"

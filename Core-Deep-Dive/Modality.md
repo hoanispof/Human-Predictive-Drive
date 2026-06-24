@@ -743,6 +743,13 @@ EDUCATION + DEVELOPMENT
 
 → Natural-Development.md
    0-6 body-dominant development before school verbal takeover
+
+═══════════════════════════════════════════════════════
+CONSCIOUSNESS
+═══════════════════════════════════════════════════════
+
+→ Consciousness.md v1.0
+   Multi-modal chunks = richer consciousness (modality count → broadcast quality)
 ```
 
 ---

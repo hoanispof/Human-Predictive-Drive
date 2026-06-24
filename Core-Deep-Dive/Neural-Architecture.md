@@ -878,6 +878,10 @@ BILATERAL ARCHITECTURE (v1.2):
   Simulation-Engine.md v1.0 — "1 engine" = midline substrate → §7 clarifies bilateral hardware
   Compile-Taxonomy.md v3.0 — "1 engine = Hebbian" = mechanism-level → §7: hemisphere-agnostic
 
+CONSCIOUSNESS:
+  → Consciousness.md v1.0 — 4 Zones compatible with
+    4-type unconscious taxonomy (Consciousness.md §3)
+
 NEW CONCEPT MAPPING (28-session Drill):
   Simulation-Engine.md v1.0 — Zone A: PFC simulation = interoception × simulation × Self-Pattern-Modeling
     → PFC (dlPFC, vmPFC) + hippocampus + default mode network

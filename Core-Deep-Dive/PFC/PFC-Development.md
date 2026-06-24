@@ -112,6 +112,7 @@ CORRECT REFRAME:
      as adult. 5mo weaker + delayed (~900ms), adult ~300ms.
      Signal "particularly prominent above frontal lobe" (P3b-like)
    → Frontal-dependent consciousness mechanism ALREADY FUNCTIONAL from 5mo
+   → Consciousness here = ACCESS consciousness (Consciousness.md v1.0 §1.1)
 ```
 
 ```
@@ -685,6 +686,7 @@ BODY-FEEDBACK:       Body-Feedback.md — Body-Feedback-Precondition (incl. Prec
 CHUNK SYSTEM:        Chunk.md v2.0 — compile mechanism, activation dynamics
 DRIVE INTEGRATION:   Drive.md v1.1 §2 — 6 PFC Modes (complements §4 trajectory)
 SELF-OBSERVATION:    Self-Observation.md v1.0 §6 — Teen paradox (CAN observe, CAN'T regulate)
+CONSCIOUSNESS:       Consciousness.md v1.0 — access consciousness = "knowing" (§1 evidence ⑤ maps here)
 
 §3b SCALING CONSTRAINTS (v1.1 — new):
   PFC-Operations.md §9   — PFC Budget = CONSEQUENCE of PFC ceiling (finite shared resource)

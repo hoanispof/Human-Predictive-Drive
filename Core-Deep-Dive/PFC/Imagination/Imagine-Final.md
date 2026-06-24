@@ -1456,6 +1456,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Ask-AI.md v3.1 | §6 Dual Check | AI × Imagine-Final interaction |
 | Background-Pattern.md v1.1 | §2 2D model, §8 self-reinforcing | Background × Imagine-Final compile |
 | Somatic-Articulation-Loop.md v1.0 | Body-knowledge → explicit | Complement: body knows → PFC labels |
+| Consciousness.md v1.0 | §7 matrix, §8.3 compilation trajectory | Conscious/unconscious boundary for Imagine-Final |
 
 ---
 

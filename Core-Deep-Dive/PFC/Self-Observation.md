@@ -1038,6 +1038,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   → Self-Observation = SWITCH POINT where unconscious interoception becomes conscious awareness.
   → Training interoception = training the ability to switch on.
+  → Maps to Consciousness.md v1.0 §5.3: bottom-up push pathway (body signal → broadcast)
 ```
 
 ### §7.3 — Mutual reinforcement: Self-Observation ↔ Self-Pattern-Modeling
@@ -1497,6 +1498,7 @@ Self-Observation (dlPFC) DOES NOT AUTOMATICALLY lead to regulation. Requires vmP
 
 ### GAP-Self-Observation-4: Self-Observation = interoception conscious switch
 Missing link: unconscious interoception → conscious Self-Observation. Feel-Consciousification is the switch point but hasn't been analyzed through the Self-Observation lens.
+→ PARTIALLY ADDRESSED: Consciousness.md v1.0 §3.2 — compiled-efficient unconscious type CAN be pulled into consciousness via top-down attention (PFC hold). §5.3 bottom-up push pathway = the mechanism for this switch.
 
 ### GAP-Self-Observation-5: Education scaffold Level 4-6
 Framework scaffolds Levels 2-3 well (caregiver labeling, prediction). Does not cover Levels 4-6 (pattern observation, meta-observation, calibration).
@@ -1559,6 +1561,7 @@ General-purpose reward fires for ANY gap fill. Conspiracy theorist receives opio
 | Natural-Development.md v2.2 | §2.5 (caregiver responsiveness) | DEVELOPMENT — ON/OFF switch |
 | Boredom.md v2.0 | Core mechanism | RELATED — Miss-Fade → "bored without knowing why" |
 | Self-Created-Threat.md v1.0 | Type C | RELATED — self-inject threat when body-base is smooth |
+| Consciousness.md v1.0 | §1 (definition), §3.2 (compiled-efficient), §5.3 (bottom-up push) | CONSCIOUSNESS — formal model, switch point mechanism |
 
 ---
 

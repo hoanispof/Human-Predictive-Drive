@@ -3096,6 +3096,7 @@ PARALLEL (same Core-Deep-Dive layer)
     + §3.3 (direction link pattern approach/avoidance — shapes imaginable futures)
   Dopamine-Is-Not-Reward.md (7-step mechanism — wanting ≠ liking in evaluation)
   Liking-Wanting.md (wanting 6 mechanisms — evaluation lens for "truly wanting or not?")
+  Consciousness.md v1.0 (consciousness = observation parameter — evaluation requires conscious access)
 
 ═══════════════════════════════════════════════════════
 APPLICATIONS (Application layer)
