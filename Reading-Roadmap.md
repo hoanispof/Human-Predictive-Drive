@@ -7,7 +7,7 @@ scope: |
   Reading progression for those who want a COMPREHENSIVE understanding of the framework.
   Foundation → Individual Mechanisms → Entity System → Observable Patterns → Collective → Domain.
   Core path: 55 files, ~86,200 lines.
-  + Enrichment: 21 files, ~32,000 lines.
+  + Enrichment: 22 files, ~33,200 lines.
   + Reference: 22 files, ~17,200 lines.
 purpose: |
   README.md + Ask-AI.md §0.1 for MINIMUM SETUP (8 files).
@@ -151,6 +151,7 @@ Read: ① → ② → ③ → ④ → ⑤ → ⑥ → ⑦ → ⑧
 | PFC/Imagination/Somatic-Articulation-Loop.md | 2,844 | Body-knowledge → explicit-knowledge loop |
 | PFC/Imagination/Imagination.md | 793 | Overview: 5 modalities × COMT/DRD4 |
 | PFC/Self-Observation.md | 1,588 | APPLICATION-3 on Simulation-Engine (Self × Present × Observe) |
+| Consciousness.md | 1,213 | Consciousness = "Knowing": definition, spectrum, taxonomy, mechanisms |
 
 ---
 
@@ -354,9 +355,9 @@ Disgust (rejection threshold), Mastery (sustained domain accumulation), Passion 
 | | Files | Lines |
 |---|---|---|
 | **Core path** (Tier 0-5) | 55 | ~86,200 |
-| + Enrichment (1-3) | +23 | +34,700 |
+| + Enrichment (1-3) | +24 | +35,900 |
 | + Reference | +22 | +17,200 |
-| **Total** | ~100 | ~138,100 |
+| **Total** | ~101 | ~139,300 |
 
 > **No need to read 97 files.** Tier 0 (8 files) is enough for most questions.
 > Each additional Tier = 1 deeper level of understanding. Choose the stopping point that fits.

@@ -553,6 +553,8 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
 
   The brain does NOT compute — the brain SEARCHES a database.
   Database = chunks. Operators = unconscious (~95%) + PFC (~5%).
+  → Formal consciousness taxonomy (4 types of unconscious, knowing spectrum,
+    mechanisms): Consciousness.md v1.0
 
   🟢 Hebb (1949): "Neurons that fire together, wire together"
 
@@ -1428,6 +1430,10 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   ├──────────────┼──────────────────────────────────────────────────────┤
   │ Passion      │ When hardware pull + domain pull ALIGN (rare, precious)│
   │              │ Gap-Distribution-Profile alignment indicator           │
+  ├──────────────┼──────────────────────────────────────────────────────┤
+  │ Consciousness│ "Knowing" = broadcast state (Consciousness.md v1.0)  │
+  │              │ Spectrum: vague→clear→chain→plan. 4-type unconscious  │
+  │              │ taxonomy. Observation parameter (not attribute)        │
   └──────────────┴──────────────────────────────────────────────────────┘
 
   CROSS-SPECIES PATTERN:
@@ -1825,6 +1831,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   Core-Hardware.md              — WHAT IS WHERE: 4 zones A/B/C/D, PFC hardware specs, receptors
   Ask-AI.md v3.2                — INTERFACE: AI generates dynamic interface per user (protocol + navigation)
   Reading-Roadmap.md            — READING PROGRESSION: 6 tiers, ~97 files, bridges between systems
+  Consciousness.md v1.0         — Consciousness = "Knowing": definition, taxonomy, mechanisms (cross-cutting)
 ```
 
 ### §13.2 Body-Base (foundation)
