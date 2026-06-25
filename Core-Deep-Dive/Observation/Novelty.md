@@ -219,6 +219,25 @@ THE VALUE OF THIS FILE:
   🟡 Novelty = fresh mapping = framework synthesis (consistent with Kahneman)
 
 
+  ⭐ PREREQUISITE: META-CHUNKS BEFORE CHUNK-GAP CAN EXIST:
+
+    "BOTH required" (above) assumes chunks EXIST in the domain.
+    But what if a person has ZERO chunks in a domain?
+
+    → Zero chunks = no prediction model → no prediction-delta → VTA invisible
+    → Meta-chunks (know the domain exists) = minimal prediction model
+    → Minimal model → first prediction-delta possible → VTA can fire
+    → = Meta-chunks are prerequisite for novelty detection in a domain
+
+    This means the "2 components" statement above has a hidden assumption:
+      ② "Chunk dynamics" requires at least META-CHUNKS to generate a delta.
+      Without meta-chunks: chunks are not "unchanging" — they are ABSENT.
+      VTA has nothing to compare against → no delta → invisible.
+
+    🟡 Framework synthesis (meta-chunks → prediction model → VTA can fire)
+    Cross-ref: Consciousness.md §8.4, Drill-Consciousness-Bridge.md §4
+
+
 §1.2 — DRD4 THRESHOLD — THE UNCONSCIOUS FILTER
 
   ⚠️ IMPORTANT CLARIFICATION:

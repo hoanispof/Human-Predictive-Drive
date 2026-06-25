@@ -1,10 +1,10 @@
 ---
 title: Consciousness — "Knowing" as Functional Definition (Unified Reference)
-version: 1.0 (English)
+version: 1.1 (English)
 source_version: 1.0 (Vietnamese, 2026-06-24) → backup/Consciousness_VI.md
 translated: 2026-06-24
 created: 2026-06-24
-status: v1.0 — REFERENCE FILE
+status: v1.1 — REFERENCE FILE (extended with VTA evidence, 2 pathways, meta-chunks)
 scope: |
   WHAT consciousness IS + HOW consciousness WORKS + unconscious taxonomy.
   Synthesis from drill analysis (source → backup/):
@@ -14,6 +14,10 @@ scope: |
   for the broadcast state of information in the chunk network.
   v1.0: functional definition "knowing" + 4-type unconscious taxonomy + anchor enablement
   + GWT mechanism + PFC biased hub + Compiled/Fresh × Knowing matrix.
+  v1.1: 3 impairment mechanisms (§5.5), 2 compilation pathways +
+  prediction-delta enabling condition (§7.3),
+  recall vs discovery (§8.3 ext), meta-chunks prerequisite (§8.4).
+  Accessibility dimension → companion file Consciousness-Accessibility.md.
 purpose: |
   Central reference file for consciousness within the framework.
   Role equivalent to Feeling.md (feeling system) and Chunk.md (chunk system).
@@ -30,9 +34,14 @@ dependencies:
   - Logic-Feeling.md v4.0 — Body-Knowing, Compiled/Fresh, PFC = Lawyer
   - PFC-Function.md v1.2 — 24 functions, PFC = orchestrator
   - PFC-Operations.md v1.3 — Hold/Suppress, PFC budget
+  - Consciousness-Accessibility.md v1.0 — 3-state accessibility, extended matrix
   - Self-Observation.md v1.0 — APPLICATION-3 (Self × Present × Observe)
   - Neural-Processing-Flow.md v2.0 — Thalamus gateway
   - Core-Software.md v3.2 — §4 Unconscious Processing
+  - Compile-Taxonomy.md v3.0 — §1 1 Engine + 3 Modulators, §4 3 Compile Types
+  - Drill-Consciousness-Compiled-Fresh.md v1.2 — source: 2 pathways, recall/discovery, meta-chunks
+  - Drill-VTA-Dopamine-Consciousness.md v1.3 — source: VTA anatomy, damage evidence
+  - Drill-Consciousness-Bridge.md v1.1 — source: 4 cross-connections
 language: English (translated from Vietnamese primary + English technical terms)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -84,6 +93,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   - [§5.2 Biased Competition](#52-biased-competition)
   - [§5.3 2 Pathways: Push + Pull](#53-2-pathways-push--pull)
   - [§5.4 Arousal vs Content](#54-arousal-vs-content)
+  - [§5.5 3 Mechanisms of Impaired Consciousness](#55-3-mechanisms-of-impaired-consciousness)
 - [§6 — PFC = BIASED HUB](#6--pfc--biased-hub)
   - [§6.1 PFC Role: Gate + Resolve + Sustain](#61-pfc-role-gate--resolve--sustain)
   - [§6.2 Biased Hub Model](#62-biased-hub-model)
@@ -91,10 +101,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - [§7 — COMPILED/FRESH × KNOWING/NOT-KNOWING](#7--compiledfresh--knowingnot-knowing)
   - [§7.1 2×2 Matrix](#71-22-matrix)
   - [§7.2 Anchor Quality Dimension](#72-anchor-quality-dimension)
+  - [§7.3 2 Compilation Pathways × Consciousness](#73-2-compilation-pathways--consciousness)
 - [§8 — BOUNDARY: OBSERVATION PARAMETER](#8--boundary-observation-parameter)
   - [§8.1 Consciousness = Observation Parameter](#81-consciousness--observation-parameter)
   - [§8.2 Threshold Dynamics](#82-threshold-dynamics)
   - [§8.3 Compilation Trajectory](#83-compilation-trajectory)
+  - [§8.4 Meta-Chunks: The Prerequisite for Learning](#84-meta-chunks-the-prerequisite-for-learning)
 - [§9 — HONEST ASSESSMENT](#9--honest-assessment)
 - [§10 — CROSS-REFERENCES](#10--cross-references)
 - [§11 — RESEARCH CITATIONS](#11--research-citations)
@@ -117,6 +129,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     BOUNDARY: Where is the conscious/unconscious boundary? (§8) — Observation parameter
 
   COMPANION FILES (examples + evidence + drill):
+    Consciousness-Accessibility.md v1.0
+      → 3-state accessibility: Knowing / Accessible / Not-Accessible
+      → Extended 2×3 matrix, transition modes, meta-chunks × accessibility
+      → = ACCESSIBILITY LENS (extends §3, §7.1 without replacing them)
     Drill-Consciousness-Architecture.md v1.0
       → Detailed GWT mapping, brain lesion evidence, gamma synchrony
       → Example table: "knowing/not-knowing" mapped to mechanism (20+ situations)
@@ -771,6 +787,95 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Details: Drill-Consciousness-Architecture.md §3
 ```
 
+### §5.5 3 Mechanisms of Impaired Consciousness
+
+```
+⭐ §5.4 SEPARATES AROUSAL (POWER) FROM CONTENT (SCREEN).
+  THIS SECTION EXTENDS: HOW does consciousness become impaired?
+  3 distinct mechanisms — each with different cause, pattern, and recovery.
+
+  ┌──────────────────┬─────────────────┬─────────────────┬──────────────────┐
+  │                  │ ① Arousal OFF   │ ② PFC Budget    │ ③ VTA Supply     │
+  │                  │                 │ Depleted        │ Cut              │
+  ├──────────────────┼─────────────────┼─────────────────┼──────────────────┤
+  │ Controlled by    │ Brainstem RAS   │ PFC catechol-   │ VTA neurons      │
+  │                  │ + Thalamus      │ amine           │ (dopamine source)│
+  ├──────────────────┼─────────────────┼─────────────────┼──────────────────┤
+  │ Cause            │ RAS failure     │ Overuse +       │ Neurodegeneration│
+  │                  │ (sleep depriva- │ stress          │ stroke, lesion   │
+  │                  │ tion, anesthesia│                 │                  │
+  │                  │ injury)         │                 │                  │
+  ├──────────────────┼─────────────────┼─────────────────┼──────────────────┤
+  │ Stage            │ OFF entirely    │ ON, but poorly  │ ON, but PFC      │
+  │                  │                 │ managed         │ "dark" (no fuel) │
+  ├──────────────────┼─────────────────┼─────────────────┼──────────────────┤
+  │ Fresh processing │ COLLAPSE (whole │ REDUCED quality │ COLLAPSE (PFC    │
+  │                  │ system off)     │                 │ no amplification)│
+  ├──────────────────┼─────────────────┼─────────────────┼──────────────────┤
+  │ Compiled         │ ALSO affected   │ NOT affected    │ Cortical: OK     │
+  │ processing       │ (system off)    │                 │ Motor (SNc):     │
+  │                  │                 │                 │ DISRUPTED        │
+  ├──────────────────┼─────────────────┼─────────────────┼──────────────────┤
+  │ Recovery         │ Sleep (RAS      │ Sleep (catechol-│ L-DOPA, DBS      │
+  │                  │ restore)        │ amine restore)  │ Sleep does NOT   │
+  │                  │                 │                 │ help             │
+  ├──────────────────┼─────────────────┼─────────────────┼──────────────────┤
+  │ Examples         │ Anesthesia,     │ End of workday, │ Parkinson,       │
+  │                  │ coma            │ chronic stress  │ midbrain stroke  │
+  └──────────────────┴─────────────────┴─────────────────┴──────────────────┘
+
+  VTA = Ventral Tegmental Area (midbrain dopamine source → PFC, striatum)
+  SNc = Substantia Nigra pars compacta (midbrain dopamine source → motor striatum)
+  DBS = Deep Brain Stimulation
+
+  ⭐ KEY DISTINCTIONS — WHY 3, NOT 2:
+
+    ② and ③ BOTH impair PFC, but for DIFFERENT reasons:
+      → ② = PFC used up its resources through normal operation
+        Sleep restores catecholamine → PFC recovers
+      → ③ = PFC never receives dopamine (VTA source damaged)
+        Sleep does NOT restore → damage is structural
+
+    ① and ③ BOTH collapse Fresh processing, but:
+      → ① = entire system off (Compiled ALSO affected)
+      → ③ = only dopamine-dependent processing off
+        Cortical Compiled SURVIVES (language, visuospatial — no VTA dependency)
+        Motor Compiled DISRUPTED (basal ganglia needs SNc dopamine)
+
+    All 3 can CO-OCCUR:
+      → Parkinson patient (③) with sleep deprivation (①) and stress (②)
+      → Distinguishing which mechanism → choosing correct intervention
+
+  ⭐ EVIDENCE — NISHIO ET AL. 2007 (mechanism ③):
+
+    Patient: pontomesencephalic junction infarction (VTA area)
+    SPECT (Single-Photon Emission CT): frontal hypoperfusion
+    → PFC structurally intact (MRI normal) but functionally impaired
+    → Executive function: severely impaired (Fresh collapsed)
+    → Language, visuospatial: intact (Compiled survived)
+    → = PFC intact but "dark" — no dopamine fuel from damaged VTA
+
+    Why this is NOT mechanism ① or ②:
+      → NOT ①: patient was awake, alert (arousal intact)
+      → NOT ②: PFC hadn't "used up" resources — structural MRI normal
+      → = ③: VTA supply cut at the source → PFC cannot amplify
+
+  ⭐ CONNECTION TO §5.4:
+    → §5.4 already covers mechanism ① (Arousal = brainstem/thalamus power supply)
+    → §5.5 ADDS ② and ③ as distinct impairment modes
+    → ② connects to PFC-Operations.md v1.3 §9 (PFC budget = finite shared resource)
+    → ③ reveals that PFC can be structurally intact yet functionally impaired
+      when its dopamine source (VTA) is damaged
+
+  🟡 3-mechanism distinction = framework synthesis (new framing)
+  🟢 Individual mechanisms established:
+     Moruzzi & Magoun 1949 (RAS — mechanism ①)
+     PFC-Operations.md v1.3 §9 (PFC budget — mechanism ②)
+     Nishio et al. 2007, J Neurol Sci 260:271-274 (VTA supply cut — mechanism ③)
+     Alberico, Cassell & Narayanan 2015 (VTA/SNc cell loss in Parkinson)
+  Details: Drill-Consciousness-Bridge.md §2
+```
+
 ---
 
 ## §6 — PFC = BIASED HUB
@@ -948,6 +1053,149 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Anchor dimension within "knowing" = framework synthesis (new)
 ```
 
+### §7.3 2 Compilation Pathways × Consciousness
+
+```
+⭐ HOW does something become Compiled?
+
+  The 2×2 matrix (§7.1) shows that Compiled can be either Knowing or
+  Not-Knowing. But HOW did it become Compiled in the first place?
+  2 different pathways — each with a different consciousness history.
+
+
+⭐ ① EXPLICIT COMPILATION PATHWAY:
+
+  Not-Knowing → Fresh (Knowing) → repetition → Compiled
+
+  → Goes THROUGH the conscious stage: PFC holds the pattern, step-by-step
+  → Has verbal anchor FROM THE START (PFC hold = can label)
+  → Pulling compiled back to consciousness = RECALL (re-fire existing anchor)
+  → Recall = fast (anchor already exists)
+
+  Examples: learning to drive, learning math formulas, learning a new language
+
+  Maps to Compile-Taxonomy.md v3.0 §4: Expertise Compile
+  (Hebbian engine + PFC Modulation ON = PFC dominant)
+
+
+⭐ ② IMPLICIT COMPILATION PATHWAY:
+
+  Not-Knowing → repeated exposure → Hebbian → Compiled (skip Knowing)
+
+  → BYPASSES the conscious stage entirely: PFC never holds this pattern
+  → Has NO verbal anchor (never consciously processed → never labeled)
+  → Only motor / ritual / emotional anchors
+  → Pulling compiled back to consciousness = DISCOVERY (create NEW anchor)
+  → Discovery = slow (must reverse-engineer: observe → hypothesize → test)
+
+  Examples: native grammar, balance, cultural norms, facial expression reading
+
+  Maps to Compile-Taxonomy.md v3.0 §4: Experience Compile
+  (Hebbian engine only, PFC Modulation OFF = engine + minimal modulators)
+
+
+⭐ PREDICTION-DELTA AS ENABLING CONDITION:
+
+  What determines which pathway? Not a "choice" — automatic.
+  Prediction-delta level determines which pathway is AVAILABLE:
+
+    High prediction-delta → VTA fires → PFC engages → Explicit Pathway ENABLED
+    Low/zero prediction-delta → VTA silent → Hebbian only → Implicit Pathway DEFAULT
+
+  → Implicit Pathway is DEFAULT — always running.
+    Explicit Pathway is ADDITIONAL — enabled when prediction-delta
+    provides dopamine fuel.
+  → Same Hebbian engine. Different modulator activation.
+
+  Evidence: Smalle et al. 2022 PNAS — PFC depletion BOOSTS implicit learning
+  = Explicit system actively INTERFERES with Implicit when both active
+  = Implicit is the baseline; Explicit is an override enabled by prediction-delta
+
+  Cross-ref: Compile-Taxonomy.md v3.0 §1 (1 Engine + 3 Modulators)
+
+
+⭐ MAP ONTO 3 COMPILE TYPES (Compile-Taxonomy.md §4):
+
+  ┌──────────────────┬──────────────────────┬──────────────────────────┐
+  │ Compile Type     │ Pathway              │ Why                      │
+  ├──────────────────┼──────────────────────┼──────────────────────────┤
+  │ Experience       │ Implicit (②)         │ Engine + minimal         │
+  │ Compile          │                      │ modulators, no PFC       │
+  ├──────────────────┼──────────────────────┼──────────────────────────┤
+  │ Expertise        │ Explicit (①)         │ Engine + PFC Modulation  │
+  │ Compile          │                      │ dominant                 │
+  ├──────────────────┼──────────────────────┼──────────────────────────┤
+  │ Trust            │ CROSSES both:        │ Entity-Valence dominant, │
+  │ Compile          │ Value install = ②    │ but consciousness varies │
+  │                  │ Content from trusted  │ by WHAT is compiled      │
+  │                  │ teacher = can be ①   │                          │
+  └──────────────────┴──────────────────────┴──────────────────────────┘
+
+  2 lenses are ORTHOGONAL (not competing):
+    Compile-Taxonomy: organized by MODULATOR dominant (what drives compile?)
+    This section: organized by CONSCIOUSNESS involvement (through "stage" or not?)
+    = 2 dimensions on the same process
+
+
+⭐ VTA/SNc DISTINCTION (important caveat):
+
+  VTA = Ventral Tegmental Area (cognitive dopamine → PFC, NAcc, hippocampus)
+  SNc = Substantia Nigra pars compacta (motor dopamine → dorsal striatum)
+
+  "Compiled doesn't need dopamine" = true for COGNITIVE compiled:
+    → Cortical patterns: LTP + myelin → self-trigger → VTA-independent
+  NOT true for MOTOR compiled:
+    → Basal ganglia patterns → need ongoing SNc dopamine for execution
+
+  → Parkinson disease: VTA/SNc degenerate → motor compiled disrupted,
+    cognitive compiled relatively preserved
+  → Evidence: Alberico et al. 2015 — SNc cell loss 67% vs VTA 53% in PD
+  → Cross-ref: §5.5 mechanism ③ (VTA supply cut)
+
+
+⭐ WANTING ≠ FRESH (nuance):
+
+  → Wanting = dopamine-dependent motivational drive
+    (energy for initiation — mesolimbic pathway, NAcc)
+  → Fresh = how processing occurs
+    (PFC-mediated deliberation — mesocortical pathway)
+  → Both need dopamine → both collapse under depletion
+  → But they are DIFFERENT DIMENSIONS that co-collapse
+
+  Evidence: Berridge & Robinson 1998 — rats with 98-99% dopamine depletion:
+    Wanting GONE (will starve next to food — never voluntarily seek)
+    Liking INTACT (sugar in mouth → normal pleasure reactions, opioid-based)
+  = Wanting and Fresh are NOT the same thing — they converge because both
+    depend on dopamine, creating the appearance of identity under depletion
+
+
+  CONFIDENCE:
+    🟡 2 pathways × consciousness framing = framework synthesis
+    🟡 Prediction-delta as enabling condition = framework synthesis
+    🟡 Wanting ≠ Fresh nuance = framework synthesis
+       (Berridge evidence is 🟢, mapping onto Compiled/Fresh is 🟡)
+    🟢 Implicit learning: Reber 1967
+    🟢 Prediction-delta: Schultz, Dayan & Montague 1997
+    🟢 Dual memory systems: Squire 1992 (declarative vs procedural)
+    🟢 H.M. procedural intact: Scoville & Milner 1957
+    🟢 PFC depletion boosts implicit: Smalle et al. 2022, PNAS
+    🟢 Wanting/liking dissociation: Berridge & Robinson 1998
+    🟢 VTA/SNc cell loss in PD: Alberico et al. 2015
+
+  SOURCES:
+    Schultz, Dayan & Montague 1997 (prediction-delta)
+    Reber 1967 (implicit learning)
+    Squire 1992 (dual memory systems: declarative vs procedural)
+    Scoville & Milner 1957 (H.M.: procedural intact without hippocampus)
+    Smalle et al. 2022, PNAS (PFC depletion boosts implicit learning)
+    Berridge & Robinson 1998 (wanting/liking dissociation)
+    Alberico et al. 2015 (VTA/SNc cell loss in PD)
+    Compile-Taxonomy.md v3.0 §1 + §4 (1 Engine + 3 Modulators + 3 Types)
+    Drill-Compiled-Fresh §3 (2 pathways)
+    Drill-Consciousness-Bridge §1 (prediction-delta as enabling condition)
+    Drill-VTA-Dopamine §3.5 (wanting ≠ Fresh), §4.1 (VTA/SNc)
+```
+
 ---
 
 ## §8 — BOUNDARY: OBSERVATION PARAMETER
@@ -1024,8 +1272,195 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Purpose: inspect, refine, re-compile at higher quality
     → Meditation = reactive → proactive mode shift (Self-Observation.md §6)
 
+
+
+  ⭐ RECALL VS DISCOVERY — 2 TASKS FOR REVERSE COMPILATION:
+
+    §7.3 defines 2 compilation pathways. Pulling compiled patterns BACK
+    to consciousness = 2 DIFFERENT tasks depending on which pathway
+    created the compiled pattern:
+
+    RECALL (from Explicit Pathway compiled):
+      → Verbal anchor EXISTS (was created during original conscious processing)
+      → Re-fire anchor → chunk activates → Knowing
+      → FAST — anchor already present
+      → Example: "capital of France?" → "Paris" (re-fire verbal anchor)
+
+    DISCOVERY (from Implicit Pathway compiled):
+      → NO verbal anchor (never consciously processed → never labeled)
+      → Must CREATE new verbal anchor for something already compiled
+      → = Reverse engineering: observe behavior → hypothesize rule → test
+      → SLOW — requires Somatic-Articulation-Loop process (above)
+      → Example: "describe your native grammar rules?" → ???
+        (must discover what you use fluently every day)
+
+    WHY DISCOVERY IS SLOW (3 reasons):
+      ① No verbal anchor → must create from scratch (Chunk.md §6.2: labeling)
+      ② Compiled fires too efficiently → completes before PFC can observe
+        (PFC sees RESULT but not PROCESS — like watching a magic trick)
+      ③ Pattern too complex to verbalize fully (tacit knowledge: Polanyi 1958)
+
+    This is why linguistics takes centuries to systematize what a 3-year-old
+    uses fluently — the task is DISCOVERY, not recall.
+
+    = Karmiloff-Smith 1992 "representational redescription":
+      Level I (implicit): knowledge IN the system, not TO the system
+      Level E1 (partially explicit): accessible, partially verbalizable
+      Level E2-3 (fully explicit): fully explicit, verbally transferable
+      Transition I → E1 → E2-3 = the DISCOVERY process
+      = Established developmental psychology framework for the same distinction
+
+
+  ⭐ PREDICTION-DELTA TRACKS COMPILATION:
+
+    The Schultz prediction error signal (Schultz et al. 1997) — called
+    "prediction-delta" in this framework (Novelty.md §1.1) —
+    maps directly onto the compilation trajectory:
+
+    Learning start:
+      → Pattern new → prediction-delta HIGH → VTA fires → dopamine → conscious
+    Learning progress:
+      → Pattern becoming familiar → prediction-delta DECREASING → dopamine decreasing
+    Mastery:
+      → Pattern fully predicted → prediction-delta ≈ 0 → dopamine silent → unconscious
+    Surprise (violation):
+      → Compiled schema violated → prediction-delta SPIKES → VTA fires
+      → Pattern PULLED BACK to consciousness for re-evaluation
+      → Already described above as "surprise → conscious"
+      → This IS the Schultz prediction error mechanism
+
+    = Prediction-delta is a TRACKABLE SIGNAL of where a pattern sits
+      on the compilation trajectory. Not just a metaphor — measurable
+      in dopamine neuron firing (Schultz 1997), striatal dopamine
+      (Phillips 2024), and fMRI activation patterns (Poldrack 2005).
+
+
   🟡 Compilation trajectory analysis = framework synthesis
-  🟢 Automaticity: established (Shiffrin & Schneider 1977)
+  🟡 Recall vs Discovery distinction = framework synthesis
+    (components from Polanyi, Karmiloff-Smith, Reber — framing is new)
+  🟡 Prediction-delta tracking = framework synthesis
+    (mapping is new, individual components are 🟢)
+  🟢 Automaticity: Shiffrin & Schneider 1977
+  🟢 Tacit knowledge: Polanyi 1958
+  🟢 Representational redescription: Karmiloff-Smith 1992
+  🟢 Prediction-delta: Schultz, Dayan & Montague 1997
+  🟢 Dopamine during skill learning: Phillips et al. 2024
+  🟢 Automaticity fMRI: Poldrack et al. 2005
+
+  SOURCES:
+    Shiffrin & Schneider 1977 (automaticity)
+    Polanyi 1958 (tacit knowledge)
+    Karmiloff-Smith 1992 (representational redescription: I→E1→E2-3)
+    Schultz, Dayan & Montague 1997 (prediction-delta)
+    Phillips et al. 2024 (dopamine during skill learning)
+    Poldrack et al. 2005 (automaticity fMRI)
+    Reber 1967 (implicit learning — Implicit Pathway evidence)
+    Drill-Compiled-Fresh §4 (recall vs discovery)
+    Drill-Consciousness-Bridge §1 (prediction-delta × compilation pathways)
+```
+
+### §8.4 Meta-Chunks: The Prerequisite for Learning
+
+```
+⭐ WHAT MUST EXIST BEFORE COMPILATION CAN BEGIN?
+
+  §8.3 shows how Fresh processing compiles into unconscious patterns.
+  But this trajectory ASSUMES the learner can engage with the material.
+  What happens when there are ZERO chunks in a domain?
+
+
+⭐ ZERO CHUNKS = LEARNING IMPOSSIBLE:
+
+  → No chunks in domain = no prediction model for that domain
+  → No prediction model = no prediction-delta possible
+  → No prediction-delta = VTA cannot fire = domain is "invisible"
+    to the dopamine system
+  → Result: information in this domain = noise, not signal (§4.3)
+
+  Example: elementary school student hearing "E = mc²":
+    → No physics chunks → no prediction model → no prediction-delta
+    → VTA silent → PFC does not engage → cannot learn
+    → Not "too hard" — literally INVISIBLE to the learning system
+
+
+⭐ META-CHUNKS = PREDICTION-DELTA BECOMES POSSIBLE:
+
+  Meta-chunks = chunks ABOUT a domain (not IN the domain):
+    → Know the name: "theory of relativity" (verbal anchor for domain)
+    → Know the category: "physics" (contextual anchor)
+    → Know one does not understand: self-assessment
+
+  Meta-chunks create a MINIMAL PREDICTION MODEL:
+    → "Domain X exists, I don't understand it"
+  Now prediction-delta is POSSIBLE:
+    → Encounter domain information →
+      "this is something I don't understand"
+    → Delta: "seeing a pattern" ≠ "expecting not to understand"
+      → prediction-delta > 0
+    → VTA fires (weakly) → PFC notices
+
+  ⚠️ APPRAISAL STEP (PACE framework, Gruber & Ranganath 2019):
+    Prediction-delta alone is NOT SUFFICIENT for curiosity.
+    Lateral PFC evaluates: "is this prediction error worth pursuing?"
+    → If appraised as valuable → curiosity → exploration → learning
+    → If appraised as threatening → anxiety, avoidance
+    → If appraised as irrelevant → ignore
+    = Meta-chunks ENABLE prediction-delta, but appraisal FILTERS
+      what passes through to curiosity
+
+
+⭐ CHUNK-LEARNING SPECTRUM:
+
+  Zero chunks → Meta-chunks → Domain chunks → Compiled mastery
+  ─────────────────────────────────────────────────────────────
+  No prediction   Minimal model    Rich model       Full model
+  model           (coarse delta)   (fine delta)     (delta ≈ 0)
+  VTA invisible   VTA can fire     VTA fires often  VTA silent
+  No curiosity    Curiosity begins Curiosity peaks  Mastery
+  Cannot learn    Learning begins  Deep learning    Automated
+
+
+⭐ LIFECYCLE:
+
+  ① Zero → meta-chunks: requires EXTERNAL catalyst
+     (someone tells you the domain exists → meta-chunk forms)
+  ② Meta-chunks → domain chunks: INTERNAL dopamine drives
+     (curiosity → seek → learn → richer model →
+      more gaps → more curiosity)
+  ③ Domain chunks → compiled: dopamine DECLINES
+     (prediction-delta → 0 → VTA silent → automated)
+  = Lifecycle begins EXTERNAL, becomes INTERNAL, ends SILENT
+
+
+⭐ CONNECTION TO §4 (Anchor = Consciousness Enablement):
+
+  → Meta-chunks = the first anchors in a domain
+  → Without meta-chunks: no anchor → no retrieval path → noise (§4.3)
+  → With meta-chunks: anchor exists → retrieval possible → signal
+  → = Meta-chunks are the PREREQUISITE for §4's anchor enablement mechanism
+  → Cross-ref: Consciousness-Accessibility.md §5.2 (meta-chunks × accessibility)
+
+
+  CONFIDENCE:
+    🟡 Framework synthesis (spectrum framing, lifecycle,
+       meta-chunks → prediction-delta mechanism)
+    🔴 Meta-chunks → prediction model: logically consistent,
+       no direct evidence that meta-knowledge creates
+       dopamine-detectable prediction models specifically
+
+  Upgraded from pure 🔴 after indirect but CONVERGENT support:
+    🟢 Loewenstein 1994: "priming dose of knowledge greatly increases curiosity"
+    🟢 Gruber & Ranganath 2019 (PACE): prediction error + appraisal → curiosity
+    Still 🟡 not 🟢: no direct mechanism-level evidence
+      for meta-chunks → VTA firing specifically
+
+  SOURCES:
+    Loewenstein 1994 (information gap theory of curiosity)
+    Gruber & Ranganath 2019 (PACE: prediction error + appraisal → curiosity)
+    Schultz 1997 (prediction-delta requires prediction model — implicit)
+    Novelty.md v1.2 §1.1 ("VTA + chunks both required")
+    Drill-Compiled-Fresh §5 (meta-chunks, zero chunks)
+    Drill-Consciousness-Bridge §4 (meta-chunks × prediction-delta connection)
 ```
 
 ---
@@ -1058,14 +1493,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ §5.2   │ Biased competition                          │ 🟢        │
   │ §5.3   │ 2 pathways: push + pull                     │ 🟡        │
   │ §5.4   │ Arousal vs content                          │ 🟢        │
+  │ §5.5   │ 3 mechanisms of impaired consciousness     │ 🟡        │
   │ §6.1   │ PFC role: gate + resolve + sustain          │ 🟢        │
   │ §6.2   │ Biased hub model                            │ 🟡        │
   │ §6.3   │ Evidence: disable PFC → still conscious     │ 🟢        │
   │ §7.1   │ 2×2 matrix                                 │ 🟡        │
   │ §7.2   │ Anchor quality dimension                    │ 🟡        │
+  │ §7.3   │ 2 compilation pathways × consciousness     │ 🟡        │
   │ §8.1   │ Consciousness = observation parameter       │ 🟡        │
   │ §8.2   │ Threshold dynamics                          │ 🟡        │
-  │ §8.3   │ Compilation trajectory                      │ 🟡        │
+  │ §8.3   │ Compilation trajectory + recall/discovery   │ 🟡        │
+  │ §8.4   │ Meta-chunks as learning prerequisite        │ 🟡🔴      │
   └────────┴────────────────────────────────────────────┴──────────┘
 
   ⚠️ THIS FILE DOES NOT ADDRESS:
@@ -1075,12 +1513,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Animal consciousness: what level of "knowing"? → open
     → AI consciousness: does AI "know"? → open
     → Neural correlates ≠ neural causes (correlation, not causation)
+    → VTA anatomy detail → Drill-VTA-Dopamine-Consciousness.md
+    → VTA damage case studies → Drill-VTA-Dopamine-Consciousness.md
+    → Detailed implicit learning mechanism → Drill-Consciousness-Compiled-Fresh.md
 
   🔴 KEY HYPOTHESES:
     → §4.2: Anchor → consciousness enablement — NEW extension, untested
     → §3: 4-type taxonomy — each type established, taxonomy as a whole = novel
     → Progressive anchoring — logic consistent, no formal study yet
       (details: Drill-Consciousness-Knowing.md §9)
+    → §8.4: Meta-chunks → prediction model — logically consistent,
+      convergent support (Loewenstein 1994, Gruber & Ranganath 2019)
+      but no direct mechanism-level evidence
 
   ⚠️ LIMITATIONS OF THE REFRAME:
     → "Knowing" is better than "broadcast" at the functional level
@@ -1097,6 +1541,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 THIS FILE CONNECTS TO:
 
   COMPANION FILES:
+    → Consciousness-Accessibility.md v1.0
+      = 3-state accessibility (Knowing/Accessible/Not-Accessible),
+        extended 2×3 matrix, transition modes, meta-chunks × accessibility
     → Drill-Consciousness-Architecture.md v1.0
       = GWT mapping, brain lesion evidence, gamma synchrony,
         mechanism example table (20+ situations), self-analysis drill
@@ -1104,6 +1551,14 @@ THIS FILE CONNECTS TO:
       = "Knowing" spectrum example table (25+ situations),
         progressive anchoring (2 detailed examples),
         self-analysis drill (5 situations)
+
+  CONSCIOUSNESS DRILLS (source analysis — synthesized into this file):
+    → Drill-Consciousness-Compiled-Fresh.md v1.2
+      = 3 axes × 3 states, 2 pathways, recall/discovery, meta-chunks
+    → Drill-VTA-Dopamine-Consciousness.md v1.3
+      = VTA anatomy, damage evidence, dopamine × Compiled/Fresh, Berridge
+    → Drill-Consciousness-Bridge.md v1.1
+      = 4 cross-connections between the 2 drill files above
 
   FEELING SYSTEM:
     → Feeling.md v3.0 §2: 7-layer fidelity gradient
@@ -1116,6 +1571,7 @@ THIS FILE CONNECTS TO:
     → Chunk.md v3.1 §6: Labels + Logic-Planning enablement
     → Chunk.md v3.1 §7: Discovery Lifecycle (7 steps)
     → Background-Pattern.md v2.0 §5: PFC invisibility (7 reasons)
+    → Compile-Taxonomy.md v3.0 §1: 1 Engine + 3 Modulators (§7.3 cross-ref)
 
   PFC SYSTEM:
     → PFC-Function.md v1.2: 24 functions, ORCHESTRATE (gate attention)
@@ -1134,7 +1590,8 @@ THIS FILE CONNECTS TO:
     → Core-Software.md v3.2 §8: Observation Parameters
 
   OBSERVATION PARAMETERS:
-    → Novelty.md: prediction-delta → attention capture → "knowing"
+    → Novelty.md v1.2 §1: prediction-delta → attention capture → "knowing"
+      + §1.1: meta-chunks prerequisite (§8.4 cross-ref)
     → Threat.md: amygdala shortcut → rapid "knowing" (bottom-up push)
     → Boredom.md: workspace underutilized → dissonance
 ```
@@ -1182,6 +1639,8 @@ POSTERIOR CORTEX:
 ALTERNATIVE THEORY:
   🟢 Tononi 2004: Integrated Information Theory (IIT)
   🟢 Tononi & Koch 2015: IIT + consciousness
+  🟢 COGITATE Consortium 2025, Nature 642:133-142
+     — Adversarial testing GWT vs IIT
 
 ANCHOR + MEMORY:
   🟢 Ebbinghaus 1885: forgetting curve
@@ -1197,8 +1656,8 @@ FEELING + INTEROCEPTION:
   🟢 Farb 2013: meditation → interoceptive accuracy
 
 BODY-KNOWLEDGE:
-  🟢 Polanyi 1958: tacit knowledge
-  🟢 Reber 1967: implicit learning
+  🟢 Polanyi 1958: tacit knowledge (also: §8.3 discovery)
+  🟢 Reber 1967: implicit learning (also: §7.3 Implicit Pathway)
   🟢 Klein 1998: naturalistic decision making
   🟢 Kahneman 2011: System 1/System 2
 
@@ -1209,4 +1668,35 @@ ATTENTION:
   🟢 Corbetta & Shulman 2002: bottom-up vs top-down attention
   🟢 McAlonan et al. 2008: TRN attentional gating
   🟢 Crick 1984: searchlight hypothesis
+
+PREDICTION-DELTA + SKILL LEARNING (§7.3, §8.3):
+  🟢 Schultz, Dayan & Montague 1997, Science 275:1593-1599
+     — Reward prediction error signal (foundation)
+  🟢 Phillips et al. 2024, J Neuroscience 44(26)
+     — Dopamine during skill learning, DMS/DLS (mouse)
+  🟢 Poldrack et al. 2005, J Neuroscience
+     — Automaticity fMRI, fronto-striatal decrease (n=14)
+
+VTA DAMAGE (§5.5):
+  🟡 Nishio et al. 2007, J Neurol Sci 260:271-274
+     — Pontomesencephalic junction infarction case
+  🟢 Alberico, Cassell & Narayanan 2015
+     — VTA cell loss in Parkinson disease (8 studies, 102 cases)
+
+WANTING/LIKING (§7.3):
+  🟢 Berridge & Robinson 1998 — Wanting ≠ liking dissociation
+  🟢 Peciña & Berridge 2005 — NAcc hedonic hotspot
+
+IMPLICIT LEARNING + COMPILATION (§7.3, §8.3):
+  🟢 Smalle et al. 2022, PNAS — PFC depletion boosts implicit learning
+  🟢 Squire 1992 — Dual memory systems (declarative vs procedural)
+  🟢 Scoville & Milner 1957 — H.M. case (procedural intact)
+  🟢 Karmiloff-Smith 1992 — Representational redescription (I→E1→E2-3)
+  🟢 Reber & Squire 1999 — PD implicit learning preserved
+  🟢 Brozoski et al. 1979 — DA depletion from PFC = removing cortex
+
+CURIOSITY + META-KNOWLEDGE (§8.4):
+  🟢 Loewenstein 1994 — Information gap theory of curiosity
+  🟢 Gruber & Ranganath 2019 — PACE framework
+     (prediction error + appraisal → curiosity)
 ```

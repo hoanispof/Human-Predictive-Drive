@@ -388,6 +388,27 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 PFC Suppress: Anderson & Green 2001, Aron 2007
   🟢 Suppress fails alone: Wegner 1987
   🟡 Hold/Suppress as PFC Modulation: framework synthesis
+
+
+  ⭐ PREDICTION-DELTA AS ENABLING CONDITION FOR PFC MODULATION:
+
+    Prediction-delta level determines which modulators are AVAILABLE:
+      → High prediction-delta → VTA fires → dopamine → PFC Modulation ENABLED
+        → Explicit Compilation Pathway available (+ Implicit still running)
+      → Low/zero prediction-delta → VTA silent → PFC Modulation OFF
+        → Implicit Compilation Pathway only (DEFAULT)
+
+    = Prediction-delta is the ENABLING CONDITION for explicit pathway.
+    = Implicit Pathway (Hebbian engine alone) = default, always running.
+    = Explicit Pathway (engine + PFC Modulation) = additional when
+      prediction-delta provides dopamine fuel.
+
+    Trust Compile crosses BOTH pathways:
+      → Value install = implicit (Entity-Valence dominant)
+      → Content from trusted teacher = can be explicit (PFC holds)
+
+    🟡 Prediction-delta → pathway selection = framework synthesis
+    Cross-ref: Consciousness.md §7.3, Drill-Consciousness-Bridge.md §1
 ```
 
 ### §1.5 — Sleep Maintenance: Sleep Offline Maintenance
