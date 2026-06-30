@@ -183,10 +183,22 @@ All output = action potentials (electrical impulses). Differ in: frequency + pat
   Proprioception → VPL                  → S1 + Cerebellum
   Interoception  → VMb + VMpo           → Anterior Insula
 
-  ⭐ EXCEPTIONS (BYPASS thalamus):
-  ① Olfaction → olfactory cortex → limbic DIRECTLY
-  ② Amygdala subcortical: retina → LGN → amygdala (~12ms, before V1)
-  ③ Circadian: ipRGC → SCN hypothalamus (no image formation)
+  ⭐ EXCEPTIONS (non-standard thalamic routing):
+
+  ① Olfaction — BYPASSES THALAMUS (primary pathway):
+     Receptor → olfactory bulb → piriform cortex + amygdala + entorhinal DIRECTLY
+     Secondary: piriform → MD thalamus → OFC (for conscious identification)
+     = Only sense with DIRECT limbic access (oldest, >500M years)
+
+  ② Amygdala low road — BYPASSES CORTEX, NOT thalamus:
+     Retina → LGN (thalamus) → amygdala (~12ms, before V1)
+     ⚠️ LGN IS a thalamic nucleus — signal goes THROUGH thalamus
+     Bypass = CORTEX: no thalamo-cortical loop → unconscious threat response
+     = "Jump BEFORE you know why" — loop not completed, no conscious awareness
+     🟢 LeDoux 1996
+
+  ③ Circadian — BYPASSES THALAMUS + CORTEX entirely:
+     ipRGC → SCN hypothalamus (no image formation, never conscious)
 ```
 
 ### §2.3 — Thalamo-cortical loop: Bidirectional
@@ -195,6 +207,11 @@ All output = action potentials (electrical impulses). Differ in: frequency + pat
   BOTTOM-UP: Thalamus → Layer 4 cortex (raw data in)
   TOP-DOWN:  Cortex Layer 6 → thalamus (feedback: filter/amplify/suppress)
   PFC CONTROL: PFC → TRN (Thalamic Reticular Nucleus) → gates the entire thalamus
+
+  ⭐ ASYMMETRY: cortex → thalamus connections ≈ 10× thalamus → cortex
+     → Thalamus is NOT passive relay — actively modulated by cortex feedback
+     → Sustained thalamo-cortical loop = consciousness (Consciousness.md §5.1)
+     → 🟢 Sherman & Guillery 2006
   
   ⭐ METAPHOR: Thalamus = telephone exchange, TRN = operator, PFC = director instructing the operator
   
@@ -916,7 +933,7 @@ FEELING = NOT JUST 1 INPUT — but ~10 channels integrating:
   │                    THALAMUS (Gateway)                             │
   │  • Each sense → its own nucleus (LGN, MGN, VPL, VPM,...)        │
   │  • FILTER + GATE (TRN control, PFC directs)                     │
-  │  • Exceptions: olfaction bypass, amygdala subcortical pathway    │
+  │  • Exceptions: olfaction bypasses thalamus, low road bypasses cortex │
   └────────────────────────┬─────────────────────────────────────────┘
                            │ filtered signals → Layer 4
                            ▼

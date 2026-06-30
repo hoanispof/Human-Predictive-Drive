@@ -1,10 +1,10 @@
 ---
 title: Consciousness — "Knowing" as Functional Definition (Unified Reference)
-version: 1.1 (English)
+version: 1.2 (English)
 source_version: 1.0 (Vietnamese, 2026-06-24) → backup/Consciousness_VI.md
 translated: 2026-06-24
 created: 2026-06-24
-status: v1.1 — REFERENCE FILE (extended with VTA evidence, 2 pathways, meta-chunks)
+status: v1.2 — REFERENCE FILE (v1.1 + thalamo-cortical loop mechanism, binocular rivalry evidence, thalamus dual role)
 scope: |
   WHAT consciousness IS + HOW consciousness WORKS + unconscious taxonomy.
   Synthesis from drill analysis (source → backup/):
@@ -17,6 +17,8 @@ scope: |
   v1.1: 3 impairment mechanisms (§5.5), 2 compilation pathways +
   prediction-delta enabling condition (§7.3),
   recall vs discovery (§8.3 ext), meta-chunks prerequisite (§8.4).
+  v1.2: thalamo-cortical loop resonance mechanism (§5.1 ext),
+  binocular rivalry evidence (§5.1), thalamus ≠ brainstem dual role (§5.4 ext).
   Accessibility dimension → companion file Consciousness-Accessibility.md.
 purpose: |
   Central reference file for consciousness within the framework.
@@ -708,6 +710,44 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Details: Drill-Consciousness-Architecture.md §2
 ```
 
+```
+⭐ NEURAL MECHANISM: WHY IGNITION SUSTAINS OR DIES:
+
+  IGNITION = SUSTAINED THALAMO-CORTICAL LOOP RESONANCE:
+
+    ① Signal enters cortex modality area → LOCAL processing (unconscious)
+    ② If strong enough → signal RE-ENTERS thalamus (Layer 6 → thalamus feedback)
+    ③ Thalamus relays back → cortex → thalamus → cortex (~40Hz gamma loop)
+    ④ Loop SUSTAINS → information BROADCASTS widely → "knowing" (conscious)
+
+    If signal TOO WEAK to complete the loop:
+    → Stays in local cortex → decays → never broadcasts → "not knowing"
+
+    = "Ignition" (above) IS this loop sustaining — same concept, neural level
+
+  EVIDENCE — BINOCULAR RIVALRY:
+    Setup: different image to each eye (face in left eye, house in right eye)
+    Brain cannot fuse both → ALTERNATES: sees face, then house, then face...
+
+    ⭐ Retinal input NEVER CHANGES — both images always present
+    ⭐ Conscious percept CHANGES — alternates between two
+    ⭐ fMRI: conscious image → thalamo-cortical loop for that pathway = STRONG
+              suppressed image → early visual cortex active, but loop = WEAK
+
+    = Same input, same brain — only difference = which loop sustains
+    = Cleanest evidence: consciousness = sustained thalamo-cortical resonance
+
+  CORTEX → THALAMUS FEEDBACK:
+    Connections cortex → thalamus ≈ 10× connections thalamus → cortex
+    → Thalamus is NOT passive relay — cortex actively SHAPES thalamic processing
+    → WHY PFC → TRN gating is powerful: PFC controls the LOOP itself
+
+  🟢 Llinás et al. 1998: thalamo-cortical resonance, re-entrant ~40Hz oscillation
+  🟢 Leopold & Logothetis 1999: binocular rivalry neural correlates
+  🟢 Tong et al. 1998: binocular rivalry fMRI (human)
+  🟢 Sherman & Guillery 2006: corticothalamic > thalamocortical connections
+```
+
 ### §5.2 Biased Competition
 
 ```
@@ -785,6 +825,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Moruzzi & Magoun 1949: RAS discovery
   🟢 Alkire et al. 2008: anesthesia + thalamus
   Details: Drill-Consciousness-Architecture.md §3
+
+  ⚠️ THALAMUS ≠ BRAINSTEM (distinct roles, often conflated):
+
+    Brainstem RAS = ON/OFF SWITCH (arousal — system-wide power)
+    Thalamus = CENTRAL EXCHANGE (arousal threshold + content routing + loop sustaining)
+
+    → Brainstem provides POWER (ON/OFF)
+    → Thalamus provides ROUTING + LOOP (which content reaches cortex + sustains)
+    → Both OFF → coma, but for DIFFERENT reasons:
+      Brainstem OFF → no power → nothing runs
+      Thalamus OFF → no routing → content cannot reach cortex, loops cannot form
+
+    → The "power supply" metaphor above captures brainstem's role well
+      but UNDERSTATES thalamus — thalamus also participates in CONTENT (§5.1 loop)
+
+    MORE PRECISE METAPHOR:
+      Brainstem RAS = POWER PLANT (electricity ON/OFF)
+      Thalamus = CENTRAL EXCHANGE (power distribution + signal routing + loop)
+      Cortex = SCREENS (generate specific content)
+      PFC = REMOTE CONTROL (selects channel via thalamic gate)
+
+    🟢 Jones 1998: matrix (diffuse/arousal) vs core (specific/content) thalamic neurons
+    🟢 Sherman 2007: first-order (relay) vs higher-order (cortico-cortical) thalamic nuclei
 ```
 
 ### §5.5 3 Mechanisms of Impaired Consciousness
@@ -1490,9 +1553,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ §4.2   │ Anchor → consciousness enablement           │ 🔴        │
   │ §4.3   │ No anchor = noise                           │ 🟡        │
   │ §5.1   │ GWT: broadcast + ignition                   │ 🟢        │
+  │ §5.1   │ Thalamo-cortical loop + binocular rivalry   │ 🟢        │
   │ §5.2   │ Biased competition                          │ 🟢        │
   │ §5.3   │ 2 pathways: push + pull                     │ 🟡        │
   │ §5.4   │ Arousal vs content                          │ 🟢        │
+  │ §5.4   │ Thalamus ≠ brainstem (dual role)             │ 🟢        │
   │ §5.5   │ 3 mechanisms of impaired consciousness     │ 🟡        │
   │ §6.1   │ PFC role: gate + resolve + sustain          │ 🟢        │
   │ §6.2   │ Biased hub model                            │ 🟡        │
@@ -1616,6 +1681,20 @@ GLOBAL WORKSPACE + IGNITION:
 BINDING + SYNCHRONY:
   🟢 Engel & Singer 2001: temporal binding + sensory awareness
   🟢 Fries 2005: neuronal communication through neuronal coherence
+
+THALAMO-CORTICAL LOOP + BINOCULAR RIVALRY (§5.1):
+  🟢 Llinás et al. 1998: thalamo-cortical resonance, re-entrant ~40Hz oscillation
+     — Phil Trans R Soc London B 353:1841-1849
+  🟢 Leopold & Logothetis 1999: binocular rivalry neural correlates
+     — Nature 379:549-553 (macaque)
+  🟢 Tong et al. 1998: binocular rivalry fMRI (human)
+     — Neuron 21:753-759
+  🟢 Sherman & Guillery 2006: corticothalamic > thalamocortical connections
+     — Exploring the Thalamus and Its Role in Cortical Function
+  🟢 Jones 1998: matrix vs core thalamic neurons
+     — Neuroscience 85:331-345
+  🟢 Sherman 2007: first-order vs higher-order thalamic relays
+     — Curr Opin Neurobiol 17:417-422
 
 AROUSAL:
   🟢 Moruzzi & Magoun 1949: reticular activating system

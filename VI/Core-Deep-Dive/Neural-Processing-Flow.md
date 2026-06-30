@@ -183,10 +183,22 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
   Proprioception → VPL                  → S1 + Cerebellum
   Interoception  → VMb + VMpo           → Anterior Insula
 
-  ⭐ NGOẠI LỆ (BYPASS thalamus):
-  ① Olfaction → olfactory cortex → limbic TRỰC TIẾP
-  ② Amygdala subcortical: retina → LGN → amygdala (~12ms, trước V1)
-  ③ Circadian: ipRGC → SCN hypothalamus (không hình ảnh)
+  ⭐ NGOẠI LỆ (non-standard thalamic routing):
+
+  ① Olfaction — BYPASS THALAMUS (đường chính):
+     Receptor → olfactory bulb → piriform cortex + amygdala + entorhinal TRỰC TIẾP
+     Đường phụ: piriform → MD thalamus → OFC (cho nhận diện có ý thức)
+     = Giác quan duy nhất có đường thẳng tới limbic (cổ nhất, >500M năm)
+
+  ② Amygdala low road — BYPASS CORTEX, KHÔNG PHẢI thalamus:
+     Retina → LGN (thalamus) → amygdala (~12ms, trước V1)
+     ⚠️ LGN LÀ nhân của thalamus — tín hiệu vẫn ĐI QUA thalamus
+     Bypass = CORTEX: không có thalamo-cortical loop → phản ứng vô thức
+     = "Giật mình TRƯỚC KHI biết tại sao" — loop chưa hoàn thành
+     🟢 LeDoux 1996
+
+  ③ Circadian — BYPASS THALAMUS + CORTEX hoàn toàn:
+     ipRGC → SCN hypothalamus (không hình ảnh, không bao giờ ý thức)
 ```
 
 ### §2.3 — Thalamo-cortical loop: 2 chiều
@@ -195,6 +207,11 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
   BOTTOM-UP: Thalamus → Layer 4 cortex (raw data vào)
   TOP-DOWN:  Cortex Layer 6 → thalamus (feedback: filter/amplify/suppress)
   PFC CONTROL: PFC → TRN (Thalamic Reticular Nucleus) → gate toàn bộ thalamus
+
+  ⭐ BẤT ĐỐI XỨNG: kết nối cortex → thalamus ≈ 10× kết nối thalamus → cortex
+     → Thalamus KHÔNG phải relay thụ động — cortex chủ động điều chỉnh thalamus
+     → Sustained thalamo-cortical loop = ý thức (Consciousness.md §5.1)
+     → 🟢 Sherman & Guillery 2006
   
   ⭐ METAPHOR: Thalamus = tổng đài, TRN = operator, PFC = giám đốc chỉ đạo operator
   
@@ -910,7 +927,7 @@ FEELING = KHÔNG CHỈ 1 INPUT — mà ~10 channels tích hợp:
   │                    THALAMUS (Gateway)                             │
   │  • Mỗi sense → nucleus riêng (LGN, MGN, VPL, VPM,...)          │
   │  • FILTER + GATE (TRN control, PFC directs)                     │
-  │  • Exceptions: olfaction bypass, amygdala subcortical pathway    │
+  │  • Exceptions: olfaction bypass thalamus, low road bypass cortex │
   └────────────────────────┬─────────────────────────────────────────┘
                            │ filtered signals → Layer 4
                            ▼
