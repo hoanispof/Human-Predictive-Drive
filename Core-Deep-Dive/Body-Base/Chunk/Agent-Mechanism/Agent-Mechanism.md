@@ -76,7 +76,7 @@ dependencies:
     - Gap-Direction.md v2.0 — gap direction = f(surrounding chunks)
     - Gap-Body-Need.md v1.0 — 3 Satiation Types, 5-Parameter, ENGINE/ROAD/VEHICLE
   processing-observation:
-    - Feeling.md v3.0 — 7-layer fidelity, PFC observation interface, PFC=Lawyer
+    - Feeling.md v3.0 — 7-layer fidelity, PFC reception interface, PFC=Lawyer
     - Logic-Feeling.md v2.0 — Compiled/Fresh = real axis, observer labels
     - Neural-Processing-Flow.md v2.0 — hardware flow, Compiled/Fresh physical level
   connection-application:
@@ -614,7 +614,7 @@ COMPILED / FRESH = the REAL axis (not "Feeling" / "Logic"):
 
   PFC = LAWYER:
     PFC does NOT generate the valence decision.
-    PFC observes body's pre-made decision → constructs post-hoc narrative.
+    PFC receives body's pre-made decision → constructs post-hoc narrative.
     "Motivated reasoning" = PFC as lawyer for body's conclusion.
     🟢 Gazzaniga split-brain: left hemisphere confabulates, does not know it
     🟢 Haidt 2001: moral intuitions first, reasoning follows
@@ -2512,7 +2512,7 @@ Full mechanism: unclear.
 **Application layer**:
 - `Connection.md v5.0` — Resonance Decline + 4-Layer Sustainability
 - `Empathy.md v4.0` — PFC budget, Compiled Quality, Per-entity burnout
-- `Feeling.md v3.0` — 7-layer fidelity, PFC observation interface
+- `Feeling.md v3.0` — 7-layer fidelity, PFC reception interface
 - `Logic-Feeling.md v2.0` — Compiled/Fresh = real axis, observer labels
 - `Collective-Body.md` — Schema-Linked at scale, synchronization hardware
 

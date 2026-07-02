@@ -986,7 +986,7 @@ source: Love-Romantic.md v3.0 (Vietnamese, 2026-05-22)
   Q: "Why know someone is bad but still can't leave?"
   A: V-Momentary negative continuously (PFC knows "bad"). BUT V-Structural already compiled
      (body-base extension CANNOT be deleted by PFC logic).
-     V-Structural compiled = body-level, C+D zones. PFC can only observe, not delete.
+     V-Structural compiled = body-level, C+D zones. PFC can only receive, not delete.
      → Recovery requires V-Structural to GRADUALLY WEAKEN (no contact → chunks decay → V-Structural reduces).
 
   Q: "Why is leaving someone you don't love still sad?"
@@ -1024,9 +1024,9 @@ source: Love-Romantic.md v3.0 (Vietnamese, 2026-05-22)
     → = SELECTIVE — precisely matches observation
 
   MAP TO PFC-FUNCTION.MD:
-    PFC 24 functions × 5 categories (OBSERVE → HOLD → PROCESS → ORCHESTRATE → STRATEGIC)
+    PFC 24 functions × 5 categories (RECEIVE → HOLD → PROCESS → ORCHESTRATE → STRATEGIC)
     → Limerence: PFC STILL runs ALL 24 functions in all OTHER contexts
-    → ONLY in partner context: OBSERVE receives "smooth" → PROCESS "no need to evaluate"
+    → ONLY in partner context: RECEIVE gets "smooth" → PROCESS "no need to evaluate"
     → = PFC FOLLOWING CORRECT PROCEDURE — only input data is INCOMPLETE
 
   ⭐ PFC = LAWYER, NOT JUDGE (v2.4 — PFC-Operations v1.0 §7):
@@ -3185,7 +3185,7 @@ APPLICATION + RESEARCH (12):
   → Autonomy-Hardware.md v1.2 — efference copy, controllability, vmPFC/DRN
   → Autonomy.md v1.2 — over-convergence penalty
   → Imagine-Final.md v3.0 — constructive simulation boundary
-  → Feeling.md v3.0 — PFC observation interface, PFC=Lawyer
+  → Feeling.md v3.0 — PFC reception interface, PFC=Lawyer
   → Collective-Body.md v2.1 — Trust Compile, collective schemas
   → OCD-Analysis.md v2.2 — serotonin × obsessive patterns (links to limerence)
   → Love-Unified.md v1.2 — ALL love types unified view

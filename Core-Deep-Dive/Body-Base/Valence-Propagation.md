@@ -26,7 +26,7 @@ dependencies:
   - Collective-Body.md v1.2 — 3-Level Model (Clarification reference)
   - Self-Pattern-Modeling.md v3.1 — observed experience (§3 source ②)
   - Agent-Mechanism.md v2.1 — Schema-Imagined-Overlay (§2 abstract entities)
-  - Feeling.md v3.0 — PFC observation of body-feedback (different layer)
+  - Feeling.md v3.0 — PFC reception of body-feedback (different layer)
   - Reward-Signal-Architecture.md v2.1 — Evaluative/Direct-State × valence
   - Drive.md — synthesizes valences → action
 language: English translation (Vietnamese primary + English technical terms in source)
@@ -96,8 +96,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Body is WHERE the evaluation happens (amygdala, insula, body signals)
     → Body-base substrate (L0+L1) is the MEASURING STANDARD of evaluation
     → Valence = body's ASSESSMENT, not PFC's judgment
-    → PFC can OBSERVE valence (becoming feeling), but does NOT create it
-    → = Feeling.md v3.0: "Feeling = PFC observation of body"
+    → PFC can RECEIVE valence (becoming feeling), but does NOT create it
+    → = Feeling.md v3.0: "Feeling = PFC reception of body"
     → = Valence = WHAT body computes. Feeling = WHAT PFC sees.
 
   VALENCE × BODY-NEED (Body-Feedback-Mechanism v2.0 §1):
@@ -135,7 +135,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
          │
          ▼
     Drive.md (SYNTHESIZES valences → action)
-    Feeling.md v3.0 (PFC OBSERVES valence → feeling)
+    Feeling.md v3.0 (PFC RECEIVES valence → feeling)
     Drill-Emergent-Pattern.md (valence ACCUMULATES → patterns emerge)
     Anchor-Schema.md (anchor AMPLIFIES propagation)
 
@@ -155,8 +155,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Output: specific action
 
     FEELING (Feeling.md v3.0):
-      "WHAT does PFC SEE when observing body-chunk interaction?"
-      = PFC OBSERVATION — valence through the PFC lens
+      "WHAT does PFC SEE when receiving body-chunk interaction?"
+      = PFC RECEPTION — valence through the PFC lens
       Input: body signals + chunk activation
       Output: conscious experience (7 layers, 20-100% fidelity)
 
@@ -195,7 +195,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Evaluative: compiled patterns, develops with age (E₀→E₃)
 
     OBSERVATION PARAMETERS (named patterns at evaluative output):
-      → Novelty, Status, Protect, Mastery = NAMES for patterns PFC observes
+      → Novelty, Status, Protect, Mastery = NAMES for patterns PFC receives
       → NOT channels or layers — they are OUTPUT of evaluative processing on L0+L1
 
 
@@ -695,7 +695,7 @@ VALENCE UPDATE — 3 TYPES:
   Feeling.md v3.0 §2: 7 LAYERS — fidelity DECREASES upward:
     Feel-RawSignals → Feel-Location: body → integration → chunk match (valence chain operates here)
     Feel-Labeling (40-80%). Feel-Explanation (20-70%)
-    PFC OBSERVES from Feel-Labeling upward → sees OUTPUT, NOT the MECHANISM.
+    PFC RECEIVES from Feel-Labeling upward → sees OUTPUT, NOT the MECHANISM.
 
   3 LEVELS OF PFC AWARENESS:
 
@@ -858,8 +858,8 @@ CROSS-REFERENCES:
       Hardware-Subsidy, Satiation Type, Mixed valence, Phantom resonance,
       Technology frontier. READ AFTER §1-§2, BEFORE §3-§7.
 
-  PFC + OBSERVATION:
-    → Feeling.md v3.0 — PFC observation of body (7 layers)
+  PFC + RECEPTION:
+    → Feeling.md v3.0 — PFC reception of body (7 layers)
     → Drive.md — synthesizes valences → action
     → Self-Pattern-Modeling.md v3.1 — observed experience (§3 source ②)
     → Agent-Mechanism.md v2.1 — Schema-Imagined-Overlay (§2 abstract entities)

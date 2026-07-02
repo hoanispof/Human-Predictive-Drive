@@ -742,8 +742,8 @@ THIS FILE BENEFITS FROM ALL 4 PRIOR FILES:
       → different chunks = different gaps = different interests
     → Prediction model (§4): prediction = compiled expectations
       → different chunks = different predictions = different prediction-delta patterns
-    → Feeling (§7): feeling = PFC observation of body-chunk interaction
-      → different chunks = different observation patterns
+    → Feeling (§7): feeling = PFC reception of body-chunk interaction
+      → different chunks = different reception patterns
 
   → CASCADE from SENSORY INPUT, not "deficit" at OUTPUT
   → "Social difficulty" is NOT the root — it is DOWNSTREAM of sensory + integration cascade
@@ -786,7 +786,7 @@ THIS FILE BENEFITS FROM ALL 4 PRIOR FILES:
      per-modality gain classification
   → Body-Feedback-Mechanism.md v1.2: §2 Sensory-Driven pathway,
      §5 Quality Baseline Shift (accumulation)
-  → Feeling.md v2.1: §3 Core claim — feeling = PFC observation of body-feedback
+  → Feeling.md v2.1: §3 Core claim — feeling = PFC reception of body-feedback
      Sensory overload = body-feedback PFC CAN'T process fast enough
   → Child-Development-Mechanism.md v1.0: §2 4+1 channel compile
      Sensory profile → shapes WHICH channels compile rich vs sparse
@@ -1579,8 +1579,8 @@ THIS FILE BENEFITS FROM ALL 4 PRIOR FILES:
     → = Alexithymia is the BOTTLENECK, not autism
 
   FRAMEWORK:
-    → Feeling.md v2.1 §3: "feeling = PFC observation of body-chunk interaction"
-    → Alexithymia = PFC observation DIFFICULTY
+    → Feeling.md v2.1 §3: "feeling = PFC reception of body-chunk interaction"
+    → Alexithymia = PFC reception DIFFICULTY
     → Body-feedback FIRES normally → but PFC cannot clearly READ signal
     → = OBSERVATION problem, not SIGNAL problem
 ```
@@ -1591,14 +1591,14 @@ THIS FILE BENEFITS FROM ALL 4 PRIOR FILES:
 🟡 FRAMEWORK SYNTHESIS:
 
   Feeling.md v2.1:
-    → Feeling = WHAT PFC SEES when observing body-chunk interaction
-    → Body processes FIRST. Feeling emerges. PFC observes AFTER.
+    → Feeling = WHAT PFC SEES when receiving body-chunk interaction
+    → Body processes FIRST. Feeling emerges. PFC receives AFTER.
     → Order NEVER reverses.
 
   Alexithymia = difficulty at OBSERVATION stage:
     → Body-feedback signals STILL FIRE (body-base alive, responsive)
     → Sensory input → body-feedback → signals EXIST
-    → PFC observation: "something happening in body" = VAGUE, undifferentiated
+    → PFC reception: "something happening in body" = VAGUE, undifferentiated
     → Cannot chunk body-feedback into LABELS (sad, angry, tired, anxious)
     → = Somatic-Articulation-Loop.md: body knowledge without words
 
@@ -2687,8 +2687,8 @@ Q9: Autism as "reverse-engineering lens" for body-input → brain pattern pipeli
      §2.2 per-modality gain classification
   → Gap-Direction.md v1.0 — gap = f(surrounding chunks)
      §8 Special Interests = concentrated gap-direction
-  → Feeling.md v2.1 — PFC observation of body-chunk interaction
-     §7 Alexithymia = observation difficulty
+  → Feeling.md v2.1 — PFC reception of body-chunk interaction
+     §7 Alexithymia = reception difficulty
   → Somatic-Articulation-Loop.md — body knowledge without words
      §7.4 Alexithymia extreme case
 ```

@@ -166,7 +166,7 @@ ENRICHMENT:
     into ALLOSTATIC PREDICTION
 
 MECHANISM NOTE (→ §7, Entity-Valence-Dynamics §2.4):
-  "Agent's state = MY state" = DESCRIPTION (what PFC observes).
+  "Agent's state = MY state" = DESCRIPTION (what PFC receives).
   UNDERLYING MECHANISM = gap-fillability baseline:
     → Entity compiled deep → fills MANY gaps → part of BASELINE
     → Entity state changes → Self-Pattern-Modeling predicts

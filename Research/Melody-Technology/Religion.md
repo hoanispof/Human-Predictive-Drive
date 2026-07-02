@@ -46,7 +46,7 @@ dependencies:
   - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, Compound §4
   - Chunk-Activation-Dynamics.md — 7 factors link strength, probability
   - Cortisol-Baseline.md v2.1 — 5 Cortisol Roles, amplifier
-  - PFC-Function.md v1.1 — 24 functions, Observe/Hold modes
+  - PFC-Function.md v1.1 — 24 functions, Receive/Hold modes
   - Status.md v2.2 — Resource Access Map, §9 Serotonin certainty bias
   - Protect.md v1.2 — f(replaceability × attachment), identity protect
   - Compliance-Floor.md v2.0 — law = bridge, §7 scaffold
@@ -762,10 +762,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → If compiled deep → grief when losing faith = AMPUTATION (§10)
 
 
-  MEDITATION = PFC OBSERVE + LOOSE HOLD:
+  MEDITATION = PFC RECEIVE + LOOSE HOLD:
 
-    → PFC-Function.md §1 OBSERVE: Feeling (7-layer fidelity gradient)
-    → Meditation = TRAINS feeling observation — increases fidelity
+    → PFC-Function.md §1 RECEIVE: Feeling (7-layer fidelity gradient)
+    → Meditation = TRAINS feeling reception — increases fidelity
     → PFC-Function.md §2 HOLD mode ③: Loose Hold (creative)
       → Body relaxes → spreading activation widens → insight possible
 
@@ -1791,7 +1791,7 @@ CORE MECHANISM FILES:
 → Gap-Body-Need.md v1.0: §6 5-Parameter (Chain to Body-Base)
 → Chunk-Activation-Dynamics.md: §2.2 (7 factors link strength)
 → Cortisol-Baseline.md v2.1: §7.7 (5 Roles), Role 1 vs Role 3
-→ PFC-Function.md v1.1: §1 Observe, §2 Hold (loose hold mode)
+→ PFC-Function.md v1.1: §1 Receive, §2 Hold (loose hold mode)
 → Status.md v2.2: §9 Serotonin certainty bias
 → Protect.md v1.2: §2 f(replaceability × attachment), identity protect
 → Compliance-Floor.md v2.0: §7 law = bridge, scaffold concept

@@ -1,9 +1,9 @@
 ---
 title: PFC-Function — Observable PFC Functions for Human-Predictive-Drive
-version: 1.2
+version: 1.3
 created: 2026-04-19
-updated: 2026-05-10 (v1.2 — sub-region tags per-category, §7 5 modes note, cross-refs)
-status: REFERENCE v1.2
+updated: 2026-07-02 (v1.3 — consciousness-enabled note §6, Consciousness.md v1.5 cross-ref)
+status: REFERENCE v1.3
 scope: |
   24 PFC functions organized by 5 categories.
   Focus: what PFC CAN DO → actionable for human development.
@@ -20,7 +20,7 @@ supersedes: |
 related: |
   Neural-Architecture.md §2 — physical PFC sub-regions + connectivity
   Chunk.md v2.0 — chunk substrate PFC operates on
-  Feeling.md v2.0 — feeling = what PFC observes
+  Feeling.md v2.0 — feeling = what PFC receives
   Body-Feedback.md — body signals PFC evaluates
   Agent.md — Self-Pattern-Modeling function PFC invokes
   Drive.md v1.1 — PFC role in drive integration
@@ -43,7 +43,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > PFC effectiveness = f(chunks already compiled for that situation).
 >
 > 24 functions, 5 categories:
->   OBSERVE (4) → HOLD (4) → PROCESS (6) → ORCHESTRATE (6) → STRATEGIC (4)
+>   RECEIVE (4) → HOLD (4) → PROCESS (6) → ORCHESTRATE (6) → STRATEGIC (4)
 >
 > This file: WHAT PFC does. Physical map: Neural-Architecture.md §2.
 
@@ -51,7 +51,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## TABLE OF CONTENTS
 
-- §1 — OBSERVE (reading output from B+C)
+- §1 — RECEIVE (reading output from B+C)
 - §2 — HOLD (keeping chunks active)
 - §3 — PROCESS (active processing)
 - §4 — ORCHESTRATE (indirect steering)
@@ -65,16 +65,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §1 — OBSERVE (reading output from B+C)
+## §1 — RECEIVE (reading output from B+C)
 
 ```
-⭐ PFC does NOT feel directly — PFC OBSERVES output already integrated from B+C:
+⭐ PFC does NOT feel directly — PFC RECEIVES output already integrated from B+C:
    Sub-regions: ① vmPFC  ② ACC+OFC  ③ dlPFC+mPFC  ④ mPFC+ACC
    Detail 24×6 mapping: PFC-Configuration.md §4
 
-  ① OBSERVE FEELING (7-layer fidelity gradient):
+  ① RECEIVE FEELING (7-layer fidelity gradient):
      → Feeling = integrated body-chunk signal emerging at anterior insula (B)
-     → PFC observes at Feel-Observation+ level
+     → PFC receives at Feel-Observation+ level
        (observation → location → label → explanation)
      → Fidelity DECREASES PROGRESSIVELY: raw 100% → explanation 20-70%
      → Wise: trust Feel-Observation (pre-label).
@@ -82,7 +82,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → TRAINABLE: meditation, Focusing, somatic therapy → access lower layers
      Source: Feeling.md v2.0 §2
 
-  ② OBSERVE BODY VOTE (smooth / resistance / empty):
+  ② RECEIVE BODY VOTE (smooth / resistance / empty):
      → PFC search output → body EVALUATES the result
      → Smooth: "interesting, it connects" (opioid micro-dose → coherent)
      → Resistance: "odd, contradictory" (ACC alert + mild cortisol)
@@ -91,7 +91,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → 🟢 Consistent with Damasio somatic markers (1994)
      Source: Chunk.md v3.0 §8.4
 
-  ③ OBSERVE CHUNK ACTIVATIONS:
+  ③ DETECT CHUNK ACTIVATIONS:
      → Chunks fire according to probability distribution (spreading activation)
      → PFC detects WHICH chunks are currently active
      → Expert: detects "something there" at the convergence zone
@@ -99,9 +99,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → Beginner: misses weak activations → misses insights
      Source: Chunk.md v2.0 §4, §7
 
-  ④ META-COGNITION (observe OWN processing):
-     → PFC observes: "what am I thinking?" / "why do I feel this way?"
-     → = Recursive observation — PFC observes PFC's own output
+  ④ META-COGNITION (detect OWN processing):
+     → PFC detects: "what am I thinking?" / "why do I feel this way?"
+     → = Recursive detection — PFC detects PFC's own output
      → TRAINABLE: mindfulness practice → meta-cognition improves
      → Mediators: detect own bias, catch own patterns
      → 🟢 Flavell 1979, Fleming & Dolan 2012
@@ -363,7 +363,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ PFC CANNOT:
 
   → Feel directly: must RECEIVE from body via feeling bridge
-  → Compile chunks automatically: B+C+D compiles, PFC observes results
+  → Compile chunks automatically: B+C+D compiles, PFC receives results
   → Override body-base when signal is too strong:
     Extreme hunger → eat ravenously (body overwhelms PFC)
     Meeting a crush → stumble over words
@@ -383,13 +383,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ CONFABULATION = RULE, NOT EXCEPTION (Drill §10 — GAP 10):
 
-    PFC observes body output → creates an "explanation" → BELIEVES it was
+    PFC receives body output → creates an "explanation" → BELIEVES it was
     a decision.
     Reality: body compiles + acts FIRST → PFC labels AFTER (post-hoc).
     PFC does NOT KNOW the origin of chunks (Chunk §1.1 — no source tag).
 
     ACTUAL sequence:
-      trust → body receives → compiles → acts → PFC observes → labels
+      trust → body receives → compiles → acts → PFC detects → labels
     PFC-IMAGINED sequence:
       PFC understands → PFC decides → body follows
 
@@ -405,6 +405,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → 🟢 Split-brain confabulation: Gazzaniga
     → Detail mechanism: Valence-Propagation §7
       (PFC Blindness + Confabulation)
+
+
+  ⭐ CONSCIOUSNESS-ENABLED — PFC ≠ CONSCIOUSNESS:
+
+    These 24 functions require consciousness as enabling state.
+    PFC provides the hardware substrate; consciousness provides
+    the state that makes processing self-accessible.
+    Functions emerge from the COMBINATION, not PFC alone.
+
+    Without consciousness (anesthesia): PFC intact, 0/24 available.
+    Without PFC (prefrontal damage): consciousness EXISTS,
+      but loses gating + strategic capacity.
+    = 2 different meta-levels:
+      PFC = brain region with specific capabilities
+      Consciousness = state that enables knowing
+
+    🟡 PFC-consciousness relationship = framework synthesis
+    Cross-ref: Consciousness.md v1.5 §6 (PFC = Biased Hub — enabler, not source)
 ```
 
 ---
@@ -574,7 +592,7 @@ PFC FOLDER (companion files):
 
 PHYSICAL MAP:        Neural-Architecture.md §2 (PFC sub-regions, connectivity)
 CHUNK SUBSTRATE:     Chunk.md v2.0 (full mechanism PFC operates on)
-FEELING SYSTEM:      Feeling.md v2.1 (what PFC observes)
+FEELING SYSTEM:      Feeling.md v2.1 (what PFC receives)
 BODY-FEEDBACK:       Body-Feedback.md (signals PFC evaluates)
 REWARD:              Reward-Signal-Architecture.md v1.0 (reward × PFC config)
 AGENT MODELING:      Agent.md (Self-Pattern-Modeling function PFC invokes)
@@ -592,14 +610,15 @@ OLD PFC FILES (backup, insights integrated into 3 new files above):
 
 ---
 
-> **PFC-Function.md v1.2**
+> **PFC-Function.md v1.3**
 >
-> 24 functions: Observe(4) + Hold(4) + Process(6) + Orchestrate(6) + Strategic(4).
+> 24 functions: Receive(4) + Hold(4) + Process(6) + Orchestrate(6) + Strategic(4).
 > PFC = the only lever for intentional upgrade.
+> PFC = Biased Hub (hub anatomy + top-down bias). Enabler, NOT source.
 > PFC effectiveness = f(chunks compiled × body signal intensity × cortisol level).
 > PFC does NOT directly control body — PFC biases + creates context.
 > "PFC creates CONTEXT, C+D learns on its own."
 > v1.2: Sub-region tags per-category, §7 5 modes note → PFC-Configuration.md,
 >   cross-refs PFC-Configuration + Reward-Signal-Architecture.
 >
-> Version: v1.2, 2026-05-10.
+> Version: v1.3, 2026-07-02.

@@ -2317,8 +2317,8 @@ FIRING MODES × STATUS (Entity-Valence-Dynamics.md v1.0 §4):
 
 ```
   CORE:
-    → Core-Software.md §8 — Status observation parameter definition
-    → Core-Software.md §9 — Development trajectory
+    → Core-Software.md §9 — Status observation parameter definition
+    → Core-Software.md §10 — Development trajectory
     → Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture (§0 framing)
     → Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh axis (§2.1 Compiled/Fresh)
     → Inter-Body-Mechanism.md v1.0 §7 — PFC=Lawyer (§9.5 distortion)
@@ -2358,7 +2358,7 @@ FIRING MODES × STATUS (Entity-Valence-Dynamics.md v1.0 §4):
     → Collective-Purpose.md — Status as organizational layer (§15)
 
   OTHER DEEP-DIVE FILES:
-    → Feeling.md v2.0 — PFC observation interface
+    → Feeling.md v2.0 — PFC reception interface
     → Anchor-Schema.md — Trust binding (trust = status stability)
     → Imagine-Final.md — Aspiration as Imagine-Final preview (§7)
 

@@ -29,7 +29,7 @@ purpose: |
   covering both intra-body AND inter-body labels.
   Resolves:
     → "opioid confirm" only covers Evaluative, misses Direct-State
-    → "pleasant/discomfort" conflates body-feedback (mechanism) with feeling (observation)
+    → "pleasant/discomfort" conflates body-feedback (mechanism) with feeling (reception)
     → "Logic/Feeling" conflates observer labels with mechanism labels
     → Missing vocabulary for inter-body interaction
     → Foundation terms (body-need, gap) used everywhere but never formally defined
@@ -46,7 +46,7 @@ dependencies:
   - Valence-Propagation.md v2.0 — §3 Entity-Compiled, approach/avoidance tags
   - Inter-Body-Mechanism.md v1.0 — §3 Compiled/Fresh, §4 3-cost, §5 by-product match, §6 5-Channel, §7 PFC=Lawyer, §8 Entity-Compiled
   - By-Product-Gap-Resonance.md v1.0 — §2 2-Stream Architecture
-  - Feeling.md v2.2 — PFC observation of body-feedback (different layer)
+  - Feeling.md v2.2 — PFC reception of body-feedback (different layer)
   - Gap-Direction.md v2.0 — gap has direction = f(surrounding chunks)
 language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -79,7 +79,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §7 — COMPILED: VALENCE TAGS + ENTITY-COMPILED
 - §8 — COMPILED/FRESH: PROCESSING LABELS (★ NEW v2.0)
 - §9 — INTER-BODY: INTERACTION LABELS (★ NEW v2.0)
-- §10 — OBSERVATION VS MECHANISM (DIFFERENT LAYERS)
+- §10 — RECEPTION VS MECHANISM (DIFFERENT LAYERS)
 - §11 — USAGE RULES
 - §12 — CROSS-REFERENCES
 
@@ -121,8 +121,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ② CONFLATING BODY-FEEDBACK WITH FEELING:
     Body-feedback = MECHANISM (signal from body, runs 24/7, 95% unconscious)
-    Feeling = OBSERVATION (PFC observes body-feedback → 7-layer gradient)
-    "Pleasant" = feeling label (PFC has observed + labeled) — NOT a body-feedback label
+    Feeling = RECEPTION (PFC receives body-feedback → 7-layer gradient)
+    "Pleasant" = feeling label (PFC has received + labeled) — NOT a body-feedback label
     → §10 of this file draws this distinction clearly
     (Feeling.md v2.2)
 
@@ -358,7 +358,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                         │ 95% unconscious.                         │
   │                         │ Includes: reward, dissonance, prediction-│
   │                         │ delta, baseline, valence tags...          │
-  │                         │ ≠ Feeling (feeling = PFC OBSERVES body-  │
+  │                         │ ≠ Feeling (feeling = PFC RECEIVES body-  │
   │                         │ feedback — different layer, see §10).    │
   │                         │ Use: when speaking generally about "body │
   │                         │ sending signals."                        │
@@ -546,7 +546,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      (Dissonance-Signal-Architecture.md §1 — parallel Reward-Signal-Architecture §1)
   ⚠️ Cortisol = AMPLIFIER, not SOURCE of dissonance
      (Body-Feedback.md §5: cortisol injection → no pain)
-  ⚠️ "Discomfort" = feeling label (PFC observes) ≠ dissonance (mechanism)
+  ⚠️ "Discomfort" = feeling label (PFC receives) ≠ dissonance (mechanism)
   ⚠️ chunk-gap (signal) versus gap (state):
      Gap (§2C) = STATE: chunk missing (PFC may not know)
      Chunk-gap (§4 here) = SIGNAL: body FIRES dissonance because it detects the gap
@@ -998,7 +998,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §10 — OBSERVATION VS MECHANISM (DIFFERENT LAYERS)
+## §10 — RECEPTION VS MECHANISM (DIFFERENT LAYERS)
 
 ```
 ⭐ BODY-FEEDBACK ≠ FEELING — 2 DISTINCT LAYERS:
@@ -1007,15 +1007,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Layer            │ Description                                   │
   ├──────────────────┼───────────────────────────────────────────────┤
   │ BODY-FEEDBACK    │ MECHANISM: signals from body → runs 24/7      │
-  │ (mechanism)      │ 95% UNCONSCIOUS (PFC cannot observe)          │
+  │ (mechanism)      │ 95% UNCONSCIOUS (PFC cannot receive)          │
   │                  │ Labels: body-need, gap, reward, dissonance,   │
   │                  │ prediction-delta, chunk-miss/shift/gap,       │
   │                  │ Compiled/Fresh, 3-cost, 5-Channel (§2-§9)    │
   │                  │ = THIS FILE describes vocabulary for this     │
   │                  │ layer                                         │
   ├──────────────────┼───────────────────────────────────────────────┤
-  │ FEELING          │ OBSERVATION: PFC observes body-feedback       │
-  │ (observation)    │ 7-layer gradient (implicit → explicit)        │
+  │ FEELING          │ RECEPTION: PFC receives body-feedback         │
+  │ (reception)      │ 7-layer gradient (implicit → explicit)        │
   │                  │ Labels: "pleasant" / "comfortable" /          │
   │                  │ "satisfied" / "vague" / "nagging unease" /    │
   │                  │ "discomfort" / "stuck" / "emptiness" /        │
@@ -1027,15 +1027,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⚠️ COMMON CONFUSIONS:
 
     "Pleasant" ≠ reward:
-      → "Pleasant" = PFC observing body-base reward
-        (Feel-Location/Feel-Labeling: already observed + labeled)
-      → Reward can RUN while PFC does not observe it
+      → "Pleasant" = PFC receiving body-base reward
+        (Feel-Location/Feel-Labeling: already received + labeled)
+      → Reward can RUN while PFC does not receive it
         (Feel-RawSignals/Feel-Integration: body signals but PFC has not noticed)
       → = Body-base reward CAN OCCUR without "feeling pleasant" (possible)
 
     "Discomfort" ≠ dissonance:
-      → "Discomfort" = PFC observation OF dissonance signal
-      → Dissonance runs 24/7, PFC only observes a small fraction
+      → "Discomfort" = PFC reception OF dissonance signal
+      → Dissonance runs 24/7, PFC only receives a small fraction
       → = "Background-Pattern" dissonance = invisible (Background-Pattern.md)
 
     "Intuition" ≠ only feeling:
@@ -1043,7 +1043,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → A chef "knowing" salt is missing = intuition = COMPILED (not "feeling only")
       → Real axis: Compiled/Fresh — not Logic/Feeling content
 
-  (Feeling.md v2.2: feeling = PFC observation of body-feedback)
+  (Feeling.md v2.2: feeling = PFC reception of body-feedback)
   (01-Foundation.md §5: 7-layer clarity gradient)
 ```
 
@@ -1074,7 +1074,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Approach/avoidance = already accumulated onto chunk (§7)
      Reward/dissonance = happening right now (§3/§4)
 
-  ⑤ DISTINGUISH mechanism (body-feedback) versus observation (feeling):
+  ⑤ DISTINGUISH mechanism (body-feedback) versus reception (feeling):
      Body-feedback labels: reward, dissonance, prediction-delta,...
      Feeling labels: "pleasant", "comfortable", "satisfied",
        "vague", "nagging unease", "discomfort",
@@ -1199,7 +1199,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                                  │ Proto labels defined.                │
   │                                  │ By-product match + anti-match.       │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Feeling.md v2.2                  │ PFC observation of body-feedback.    │
+  │ Feeling.md v2.2                  │ PFC reception of body-feedback.      │
   │                                  │ 7-layer gradient. Different layer    │
   │                                  │ (§10).                               │
   ├──────────────────────────────────┼──────────────────────────────────────┤
@@ -1231,7 +1231,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > *§7 Compiled: approach/avoidance tags + Entity-Compiled 3 subtypes.*
 > *§8 Processing: Compiled/Fresh = the real axis (Logic/Feeling = observer labels).*
 > *§9 Inter-Body: by-product match, 2-Stream, 3-cost, 5-Channel.*
-> *§10 Distinction: body-feedback (mechanism) ≠ feeling (observation).*
+> *§10 Distinction: body-feedback (mechanism) ≠ feeling (reception).*
 >
 > *Body-need = STATE. Body-feedback = SIGNAL. Gap direction = WHY match works.*
 > *"The doorbell" ≠ "the gift behind the door."*

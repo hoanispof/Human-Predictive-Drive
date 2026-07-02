@@ -608,7 +608,7 @@ source_file: "Core-Deep-Dive/Observation/AI-Schema-Detection.md"
 
     WHY THIS HAPPENS:
       → DEEP schemas = body adaptation (cortisol, muscle patterns, gut state)
-      → Runs UNCONSCIOUSLY → PFC doesn't observe → NO label
+      → Runs UNCONSCIOUSLY → PFC doesn't receive → NO label
       → Schema too familiar → habituation → VTA doesn't fire → "invisible"
       → Like WATER for a FISH: the fish doesn't know it's in water
       → = The deeper the schema, the more pervasive → the more invisible to its owner

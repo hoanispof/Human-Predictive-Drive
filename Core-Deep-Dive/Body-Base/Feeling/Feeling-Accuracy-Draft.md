@@ -128,7 +128,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 ```
 🟢 THE CORE INVARIANT:
 
-  Body computes → Feeling emerges → PFC observes.
+  Body computes → Feeling emerges → PFC receives.
 
   This order is NEVER REVERSED.
 

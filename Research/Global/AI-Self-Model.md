@@ -373,7 +373,7 @@ framework: Human Predictive Drive v7.8
     ④ Body-feedback fires: prediction-delta (expected high score ≠ reality low score)
        → dissonance: "how did that happen?"
        → Body-Feedback-Mechanism.md: Chunk-Miss (prediction fires → reality doesn't match)
-    ⑤ PFC observes dissonance → re-evaluates model
+    ⑤ PFC receives dissonance → re-evaluates model
     ⑥ Model updates: "I didn't understand it as deeply as I thought"
     ⑦ Adjusted action: re-study, do practice problems, compile for real
 
@@ -395,7 +395,7 @@ framework: Human Predictive Drive v7.8
   ② Ask AI instead of self-testing: "explain it further"
   ③ AI explains well: detailed, clear, easy to follow
   ④ PFC satisfied: "AI explained clearly → I understand" (PFC-Function.md §1①)
-     → PFC observes FEELING of understanding
+     → PFC receives FEELING of understanding
      → BUT: "feeling of understanding" ≠ compiled (Core-Software.md §4.1)
      → PFC processing ≠ body-base compiling = 2 DIFFERENT things
 
@@ -1263,7 +1263,7 @@ framework: Human Predictive Drive v7.8
 🟡🟢 HOW TO DEVELOP BODY-LISTENING:
 
   ① SOMATIC-ARTICULATION-LOOP (Somatic-Articulation-Loop.md):
-     → Body "knows" (implicit) → PFC observes → articulate → verify
+     → Body "knows" (implicit) → PFC receives → articulate → verify
      → Gendlin Focusing (🟢 Gendlin 1981) = structured body-listening method
 
   ② MEDITATION / MINDFULNESS:
@@ -1462,7 +1462,7 @@ MECHANISM FILES (core evidence):
   → Body-Base.md v3.1 — §7 2-Tier + 2-Pathway calibration, 3 failure modes, body ~90%
   → Body-Feedback.md v1.1 — dual-pull, body accuracy ~90%, Body-Feedback-Precondition 5 conditions
   → Body-Feedback-Mechanism.md v1.2 — chunk dynamics: Shift/Miss/Gap
-  → Feeling.md v2.1 — 7-layer fidelity gradient, PFC observation interface
+  → Feeling.md v2.1 — 7-layer fidelity gradient, PFC reception interface
   → PFC-Function.md v1.2 — 24 functions, PFC override, confabulation
   → Autonomy-Hardware.md — efference copy, self-action = opioid = approach tag
   → Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, trust amplifier, Trust Compile ~30-60%

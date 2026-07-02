@@ -68,7 +68,7 @@ This file **previews** H10. Full formalization is in P5.
 
 This file **sets up** H10 by establishing:
 - **Preconditions 1+2** ← §2 dual-pull + §5 chunks accumulation developmental
-- **Preconditions 3+4** ← §5 7-layer observation model (clarity gradient)
+- **Preconditions 3+4** ← §5 7-layer reception model (clarity gradient)
 - **Precondition 5** ← §4 2-tier calibration (experience tags chunks) + §7 architectural claim (schema serves body-base)
 
 ### §1.4 — Framework files consolidated (cross-refs)
@@ -371,7 +371,7 @@ This file **consolidates** them into a generic 6-step loop.
 | 5 Action → Domain | varies (physical) | Body motor | Monitor execution |
 | 6 Domain → Body | varies (reality response) | Body sensors | Observe outcome |
 
-**Key insight**: PFC is a **gateway**, not a **controller**. PFC observes + directs attention + makes novel decisions, but the unconscious runs the loop 95% of the time.
+**Key insight**: PFC is a **gateway**, not a **controller**. PFC receives + directs attention + makes novel decisions, but the unconscious runs the loop 95% of the time.
 
 ### §3.10 — Why the loop cannot be short-circuited
 
@@ -520,10 +520,10 @@ If this can't be answered → the framework rests on something unexplained. Like
 
 | | **Body-Feedback layer** | **Feeling layer** |
 |---|---|---|
-| **What** | Raw body signal | PFC observation of integrated signals + chunk-based labeling |
-| **Latency** | Automatic, pre-verbal | Requires chunks + observation time |
+| **What** | Raw body signal | PFC reception of integrated signals + chunk-based labeling |
+| **Latency** | Automatic, pre-verbal | Requires chunks + reception time |
 | **Substrate** | Body sensors + insula + ACC upstream integration | PFC + working memory + compiled labels |
-| **Who does it** | Unconscious 100% | Unconscious integration → PFC observation interface |
+| **Who does it** | Unconscious 100% | Unconscious integration → PFC reception interface |
 | **Developmental** | Present from birth | Builds over years via mirroring + chunks |
 | **Verbal** | Pre-verbal (no words needed) | Verbal (language emerges) |
 | **Training** | Genetic + maturation | Mirroring + chunks + meditation |
@@ -610,11 +610,11 @@ Knowledge can be verbalized, communicated, taught, argued about. PFC has access;
 → False explicit = chunks from source ④ External Injection (Anchor-Schema §3) without fill from ①②③
 → True explicit = chunks through FULL loop: body experience → implicit → transitional felt sense → articulation → explicit with body-confirmation
 
-### §5.3 — 7-Layer Feeling Observation Model (Theme A §2.4+§2.7)
+### §5.3 — 7-Layer Feeling Reception Model (Theme A §2.4+§2.7)
 
 🟡 Framework commitment (Feeling.md + Theme A):
 
-> Feeling = what PFC observes from unconscious processing. PFC has NO direct access to raw signals. Integration happens UPSTREAM (insula + ACC + VMPFC) before PFC sees anything.
+> Feeling = what PFC receives from unconscious processing. PFC has NO direct access to raw signals. Integration happens UPSTREAM (insula + ACC + VMPFC) before PFC sees anything.
 
 **7-layer gradient** (same mechanism, different signal strength):
 
@@ -630,14 +630,14 @@ Knowledge can be verbalized, communicated, taught, argued about. PFC has access;
 
 **Key claims** 🟡:
 
-**Claim 1**: Body-feedback layer = Feel-RawSignals — Feel-Integration (pre-PFC). Feeling layer = Feel-Consciousification — Feel-Explanation (PFC observation).
+**Claim 1**: Body-feedback layer = Feel-RawSignals — Feel-Integration (pre-PFC). Feeling layer = Feel-Consciousification — Feel-Explanation (PFC reception).
 
-**Claim 2**: **Clear signals** (hunger, obvious pain) reach Feel-Location — Feel-Labeling reliably. **Fuzzy signals** stay at Feel-Consciousification — Feel-Observation. These are not 2 different mechanisms — **same observation interface seeing signals of different strength**.
+**Claim 2**: **Clear signals** (hunger, obvious pain) reach Feel-Location — Feel-Labeling reliably. **Fuzzy signals** stay at Feel-Consciousification — Feel-Observation. These are not 2 different mechanisms — **same reception interface seeing signals of different strength**.
 
-**Claim 3**: PFC has NO direct access to Feel-RawSignals raw. Integration upstream → Feel-Consciousification surfaces. PFC only observes Feel-Consciousification+ output.
+**Claim 3**: PFC has NO direct access to Feel-RawSignals raw. Integration upstream → Feel-Consciousification surfaces. PFC only receives Feel-Consciousification+ output.
 
-**Claim 4** (Theme A §2.5): PFC does 3 functions (OBSERVE + LABEL + CHOOSE), does NOT generate feelings:
-- OBSERVE (read integrated upstream signals)
+**Claim 4** (Theme A §2.5): PFC does 3 functions (RECEIVE + LABEL + CHOOSE), does NOT generate feelings:
+- RECEIVE (read integrated upstream signals)
 - LABEL (via chunks — error-prone at Feel-Labeling — Feel-Explanation)
 - CHOOSE (executive function between competing signals)
 - NOT: execute interoception, run schemas, generate feelings, access raw body directly
@@ -764,7 +764,7 @@ All 3 dimensions **trainable + variable + clinically relevant**.
 2. **Chunk accumulation** (lifetime) — populates Feel-Location — Feel-Explanation labels
 3. **Meditation/somatic training** (adult) — refines access to Feel-Consciousification — Feel-Observation (felt sense)
 
-🟡 **Critical implication**: "Not feeling" ≠ "no body signal." Body ALWAYS fires signals. The question is whether PFC can OBSERVE them (Feel-Consciousification+) and LABEL them (Feel-Labeling+).
+🟡 **Critical implication**: "Not feeling" ≠ "no body signal." Body ALWAYS fires signals. The question is whether PFC can RECEIVE them (Feel-Consciousification+) and LABEL them (Feel-Labeling+).
 
 → **Alexithymia** = feeling layer underdeveloped despite body-feedback intact. Not "no emotions" — emotions present at Feel-RawSignals — Feel-Integration, absent at Feel-Observation — Feel-Explanation.
 
@@ -851,7 +851,7 @@ Solution: time + schema update → new self-schema compiles → Feel-Labeling �
 
 Framework has complete `Body-Base/Feeling/` folder (per memory `project_feeling_folder.md`: ~6,924 lines, 4 files). 7-layer structure + evolutionary framing + AI era positioning.
 
-This drill **extends** the Feeling folder at the **substrate layer** — connecting body-feedback (pre-PFC) with feeling (PFC observation). The Feeling folder focuses on the PFC observation side; this drill connects to the body-base raw signal side.
+This drill **extends** the Feeling folder at the **substrate layer** — connecting body-feedback (pre-PFC) with feeling (PFC reception). The Feeling folder focuses on the PFC reception side; this drill connects to the body-base raw signal side.
 
 **No duplication**: Drill references Feeling folder § numbers rather than rewriting the 7-layer model.
 
@@ -955,7 +955,7 @@ This drill **extends** the Feeling folder at the **substrate layer** — connect
 
 **IT IS**:
 - ✅ "Body drives, schemas serve"
-- ✅ "Unconscious primary, PFC observer + director"
+- ✅ "Unconscious primary, PFC receiver + director"
 - ✅ "Embodied agent with PFC as extended capability"
 
 ### §7.2 — VTA/Opioid split confirms

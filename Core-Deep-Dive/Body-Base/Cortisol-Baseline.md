@@ -137,7 +137,7 @@ backup: Core-Deep-Dive/backup/Cortisol-Baseline-v1.md
   │     HIGH   → Imagine-Final CRITICAL (meaning essential)  │
   ├───────────────────────────────────────────────────────────┤
   │ FEELING observation (Feeling.md v2.0)                    │
-  │   → PFC observes body state                              │
+  │   → PFC receives body state                              │
   │   → BUT ONLY if self-signal interoception ACTIVE         │
   │   → Alexithymia / atrophy → Silent Cortisol state        │
   ├───────────────────────────────────────────────────────────┤
@@ -996,7 +996,7 @@ SYNTHESIS TIMELINE — FROM TRIGGER TO BASELINE SHIFT + RECOVERY:
 ```
 🟡 FRAMEWORK SYNTHESIS (Feeling.md v2.0 link):
 
-  Feeling = PFC observation of body state (not the body signal itself)
+  Feeling = PFC reception of body state (not the body signal itself)
   Cortisol is 1 part of body state → but Feeling = INTERPRETATION
 
   2-LAYER DISTINCTION:
@@ -3346,7 +3346,7 @@ REWARD ARCHITECTURE (2026-05-10 NEW):
 
 CORE MECHANISMS (sibling reference files):
   → Chunk.md v2.0 §2.4 (Direction-At-Compile)
-  → Feeling.md v2.0 (PFC observation of body state)
+  → Feeling.md v2.0 (PFC reception of body state)
   → Empathy.md v1.0 (Self-Pattern-Modeling applied to others)
   → Valence-Propagation.md v1.0 (body evaluates entities)
 

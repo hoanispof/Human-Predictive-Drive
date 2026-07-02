@@ -17,7 +17,7 @@ position: |
 previous_version: Melody Lens/backup/Melody-Arc.md (772L, v1.0 DRAFT 2026-03-27)
 dependencies:
   - Personal-Melody.md v2.0 — §4 Two-Axis, §5 Investment Cost + Bridge, §6 Imagine-Final
-  - Core-Software.md — cycle architecture, §8 observation parameters
+  - Core-Software.md — cycle architecture, §9 observation parameters
   - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap (3 dynamics)
   - Body-Feedback.md v1.1 — dual-pull, body evaluation
   - Chunk.md v2.0 — compilation, 4-phase lifecycle, activation dynamics

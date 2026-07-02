@@ -325,7 +325,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     PFC CAN amplify External (actively listen, go practice) + Deliberate (mentally rehearse, imagine).
     PFC CANNOT directly control Spontaneous (Background-Pattern fires automatically).
     PFC suppressing Spontaneous = PFC Modulation cost — CANNOT turn off the Spontaneous source.
-    → PFC = DIRECTOR for External+Deliberate, OBSERVER for Spontaneous.
+    → PFC = DIRECTOR for External+Deliberate, RECEIVER for Spontaneous.
 
   External + Deliberate + Spontaneous → ALL feed into the SAME Compile Engine.
   Compile Engine does NOT distinguish source (Chunk.md v3.0 §1.1: NO SOURCE TAG).

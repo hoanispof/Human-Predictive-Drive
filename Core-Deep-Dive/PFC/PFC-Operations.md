@@ -26,7 +26,7 @@ position: |
 dependencies:
   - Inter-Body-Mechanism.md v1.0 §3 — SOURCE-OF-TRUTH Compiled/Fresh axis + §4 3-cost
   - Logic-Feeling.md v2.1 — Compiled/Fresh spectrum + observer labels (companion)
-  - PFC-Function.md v1.2 — 24 functions, 5 categories (companion)
+  - PFC-Function.md v1.3 — 24 functions, 5 categories (companion)
   - Background-Pattern.md v1.1 — 2D model Depth×Density, §8 self-reinforcing loop
   - Autonomy-Hardware.md v1.1 — vmPFC/DRN, controllability, efference copy
   - Cortisol-Baseline.md v2.4 — cortisol direction × NET link pattern, PFC damage pathway
@@ -660,7 +660,7 @@ COMPILED → FRESH (Disruption):
     → ⭐ Compiled Suppress → Self-Observation DISABLED at relay point:
       Person reports "I'm fine" → body disagrees → external observer needed
       (Self-Observation.md v1.0 §5.4: Self-Observation CANNOT detect compiled suppress
-      because suppress occurs BEFORE the PFC observation point)
+      because suppress occurs BEFORE the PFC reception point)
 
   STEP 2 — SAFE ENVIRONMENT (lower cortisol):
     → Safe person present → cortisol lower (🟢 Coan & Sbarra 2015).

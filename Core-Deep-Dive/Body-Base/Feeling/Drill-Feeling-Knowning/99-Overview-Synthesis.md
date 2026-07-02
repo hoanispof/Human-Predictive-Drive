@@ -23,7 +23,7 @@ confidence_target: Highest rigor — this is the session's culmination
 
 **The central architectural commitment:**
 
-> **Feeling = PFC observation of integrated unconscious processing. Body-first temporal invariant. Bidirectional flow (top-down PFC + bottom-up unconscious). ~95% compiled, ~5% active PFC deliberation.**
+> **Feeling = PFC reception of integrated unconscious processing. Body-first temporal invariant. Bidirectional flow (top-down PFC + bottom-up unconscious). ~95% compiled, ~5% active PFC deliberation.**
 
 This commitment:
 - Addresses the user's meta-question ("Are we forcing this into body-base?") → NO, framework has already evolved on its own
@@ -110,18 +110,18 @@ Looking across all 6 themes, here are 10 meta-insights that emerge when the syst
 
 ### §2.1 — Meta-insight 1: Body-first is invariant across all themes
 
-**Claim:** Across all 6 themes, the body-first temporal invariant holds. PFC never creates feelings — it observes.
+**Claim:** Across all 6 themes, the body-first temporal invariant holds. PFC never creates feelings — it receives.
 
 **Evidence from each theme:**
 
 | Theme | How body-first appears |
 |---|---|
-| A Architecture | Explicit: "Body computes → Feeling emerges → PFC observes. NEVER reversed." 4 evidences (Libet, Damasio, Craig, Gendlin). |
+| A Architecture | Explicit: "Body computes → Feeling emerges → PFC receives. NEVER reversed." 4 evidences (Libet, Damasio, Craig, Gendlin). |
 | D Right/Wrong | Wrongness feeling emerges at Feel-Consciousification BEFORE PFC labels. Einstein: body simulation contradiction BEFORE math formalization. |
 | B Verbal-Chain | Planning (body/PFC sequential) came ~2 Myr BEFORE verbal ~50-200k years. Verbal is downstream of body-sourced chains. |
 | C Ritual | Ritual compiles body-level via repetition + emotion BEFORE conscious deliberation. Bypasses PFC entirely. |
 | E Empathy-Giving | Resonance simulator runs body-level BEFORE PFC interpretation. Affinity felt before it is explained. |
-| F Logic-Feeling | Both Logic and Feeling tracks are SOURCES that PFC observes. PFC = observer in both cases. |
+| F Logic-Feeling | Both Logic and Feeling tracks are SOURCES that PFC receives. PFC = receiver in both cases. |
 
 **→ Body-first is the framework's most robust commitment.** Cross-theme validation = extremely high confidence.
 
@@ -276,7 +276,7 @@ Current observation / simulation
 - Background: when PFC disengages, unconscious continues processing
 - Cycles repeat via Lifecycle (BUILD → SAVE → BACKGROUND → RELOAD → REFINE)
 
-**→ This is NOT a homunculus model.** No "little person" in PFC deciding everything. Framework: PFC is REACTIVE observer + ATTENTION director + EXECUTIVE chooser, but the unconscious is the MAIN PROCESSOR.
+**→ This is NOT a homunculus model.** No "little person" in PFC deciding everything. Framework: PFC is REACTIVE receiver + ATTENTION director + EXECUTIVE chooser, but the unconscious is the MAIN PROCESSOR.
 
 **Research convergence:**
 - Global Workspace Theory (Baars 1988): PFC broadcast → whole-brain 🟢
@@ -416,7 +416,7 @@ Tier 2 enables:
 | Theme | User's intuition | Framework match |
 |---|---|---|
 | A Architecture | "Are we forcing feeling into body-base?" | **Correctly identified the tension** — Framework HAS evolved past pure body-base via Tier 2 |
-| A Architecture | "PFC observes the unconscious and chooses" | **Correct** — this IS the framework's architectural commitment |
+| A Architecture | "PFC receives the unconscious and chooses" | **Correct** — this IS the framework's architectural commitment |
 | A Architecture | "Requires unconscious to compute or hold for chain" | **Partially correct** — framework has attention direction + reload, though "active hold" refinement needed |
 | D Right/Wrong | "Children seeing objects through walls — is there research?" | **Correct** — Spelke 2007 + Baillargeon 1987+ verified in framework |
 | D Right/Wrong | "Compiled into body or some brain region" | **Correct with nuance** — innate (Spelke) + compiled (expertise) both verified |
@@ -439,7 +439,7 @@ Tier 2 enables:
 
 ### §2.10 — Meta-insight 10: Framework has evolved and will continue evolving
 
-**Claim:** Framework is a living system. This session revealed a clear evolution from Tier 1 narrow (body-base) → Tier 2 expanded (PFC observes unconscious processing). Predictive processing integration is the next frontier.
+**Claim:** Framework is a living system. This session revealed a clear evolution from Tier 1 narrow (body-base) → Tier 2 expanded (PFC receives unconscious processing). Predictive processing integration is the next frontier.
 
 **Evolution timeline:**
 
@@ -491,24 +491,24 @@ This session answered 40+ user sub-questions across 6 themes. This section conso
 ### §3.1 — Theme A (Architecture) — 5 sub-questions
 
 **Q: "Are we forcing feeling to stay within body-base?"**
-→ **NO, not forcing.** Framework had already evolved toward the Tier 2 expanded definition on its own. "Feeling = PFC observation of integrated unconscious processing" (not pure body-base). Tier 1 Feeling.md is a subset of Tier 2 Feel-Development.md. Framework is in active refinement phase. **Confidence: HIGH.**
+→ **NO, not forcing.** Framework had already evolved toward the Tier 2 expanded definition on its own. "Feeling = PFC reception of integrated unconscious processing" (not pure body-base). Tier 1 Feeling.md is a subset of Tier 2 Feel-Development.md. Framework is in active refinement phase. **Confidence: HIGH.**
 
-**Q: "Or is it truly entirely within body-base, and PFC just observes the unconscious and chooses?"**
-→ **Body-base is a SUBSET, not the whole.** PFC does observe (correct) + label + integrate + choose + direct attention. PFC is a REACTIVE observer, not a creator. ~95% compiled unconscious, ~5% PFC engagement. **Confidence: HIGH.**
+**Q: "Or is it truly entirely within body-base, and PFC just receives the unconscious and chooses?"**
+→ **Body-base is a SUBSET, not the whole.** PFC does receive (correct) + label + integrate + choose + direct attention. PFC is a REACTIVE receiver, not a creator. ~95% compiled unconscious, ~5% PFC engagement. **Confidence: HIGH.**
 
 **Q: "And requires the unconscious to continue computing or hold for chaining?"**
 → **Partial YES.** PFC has attention direction + anchor setting + reload cycle (Imagine-Final §1.5 Lifecycle). BUT "active hold for chain" is actually **background processing** (Phase 3) — DMN, REM consolidation, spreading activation. PFC doesn't wait actively; it disengages and reloads. **Confidence: MEDIUM.**
 
 **Q: "From PFC detecting basic body-base to PFC detecting through the fuzzy imagine layer — same mechanism or different?"**
-→ **SAME mechanism**, different signal strength + source. Clear signals (hunger) reach Feel-Location–Feel-Labeling easily. Fuzzy signals (felt sense) stay at Feel-Consciousification–Feel-Observation. Same PFC observation interface, different fidelity levels. **Confidence: MEDIUM-HIGH.**
+→ **SAME mechanism**, different signal strength + source. Clear signals (hunger) reach Feel-Location–Feel-Labeling easily. Fuzzy signals (felt sense) stay at Feel-Consciousification–Feel-Observation. Same PFC reception interface, different fidelity levels. **Confidence: MEDIUM-HIGH.**
 
 **Q: "Or is there yet another processing mechanism?"**
-→ **NO secret third mechanism.** Framework has: ONE observation interface + bidirectional flow + many sources feeding integration + potential deeper unification via predictive processing (not yet committed). **Confidence: HIGH.**
+→ **NO secret third mechanism.** Framework has: ONE reception interface + bidirectional flow + many sources feeding integration + potential deeper unification via predictive processing (not yet committed). **Confidence: HIGH.**
 
 ### §3.2 — Theme D (Right/Wrong Feeling) — 8 sub-questions
 
 **Q: "Does the 'rightness' feeling belong to body feeling or logic chain?"**
-→ **Neither alone — multi-channel integration via the Cognitive/Prediction channel.** Body provides a graded signal (ACC, prediction error, schema match strength). PFC observes it as feeling. Not pure logic (no gradient), not pure body (includes cognitive chunks). **Confidence: HIGH.**
+→ **Neither alone — multi-channel integration via the Cognitive/Prediction channel.** Body provides a graded signal (ACC, prediction error, schema match strength). PFC receives it as feeling. Not pure logic (no gradient), not pure body (includes cognitive chunks). **Confidence: HIGH.**
 
 **Q: "Children seeing objects passing through walls — is there research?"**
 → **YES, verified.** Spelke Core Knowledge Systems (Harvard 2007) + Baillargeon violation-of-expectation (1987+). Replicated cross-culturally for 40+ years. Infants 5–6 months apply different rules to Object vs Agent. **Framework explicitly cites in Mirror-Neuron-Analysis.md.** **Confidence: HIGH.**
@@ -578,7 +578,7 @@ This session answered 40+ user sub-questions across 6 themes. This section conso
 ### §3.5 — Theme E (Empathy + Giving) — 9 sub-questions
 
 **Q: "What is empathy?"**
-→ **NOT a separate system.** Empathy = Resonance output applied to another agent. Own Self-Pattern Match library simulates → own body produces a weak copy → PFC observes as feeling. **Bird & Cook 2013 decisive:** alexithymia drives empathy deficits, not autism per se. **Confidence: HIGH.**
+→ **NOT a separate system.** Empathy = Resonance output applied to another agent. Own Self-Pattern Match library simulates → own body produces a weak copy → PFC receives as feeling. **Bird & Cook 2013 decisive:** alexithymia drives empathy deficits, not autism per se. **Confidence: HIGH.**
 
 **Q: "When do you want to give (mango surplus case)?"**
 → **Body-base met + see someone who needs + Resonance fires positive mirror reward preview.** Natural resource distribution mechanism (Empathy-Mirror §6.5). Mirror reward > keep reward when already satiated. **Positive trust**, sustainable. **Confidence: HIGH.**
@@ -607,10 +607,10 @@ This session answered 40+ user sub-questions across 6 themes. This section conso
 ### §3.6 — Theme F (Logic-Feeling) — Integration questions
 
 **Q: "Is Logic-Feeling.md consistent with the expanded Feeling definition?"**
-→ **YES, compatible at different levels.** Theme A's "PFC observation" is META level; Logic-Feeling's 2 tracks are FUNCTIONAL level. Both Logic and Feeling are tracks that PFC observes. Not contradictory. **Confidence: HIGH.**
+→ **YES, compatible at different levels.** Theme A's "PFC reception" is META level; Logic-Feeling's 2 tracks are FUNCTIONAL level. Both Logic and Feeling are tracks that PFC receives. Not contradictory. **Confidence: HIGH.**
 
 **Q: "RQ19: Is Logic a subset of expanded Feeling, or a separate track?"**
-→ **Both Logic and Feeling are TRACKS observed by PFC.** Theme A's "PFC observation" is the meta-category. Logic outputs ARE observed by PFC, but we don't call them "feelings" for terminological clarity. **Confidence: HIGH.**
+→ **Both Logic and Feeling are TRACKS received by PFC.** Theme A's "PFC reception" is the meta-category. Logic outputs ARE received by PFC, but we don't call them "feelings" for terminological clarity. **Confidence: HIGH.**
 
 **Q: "Logic-Feeling §4 5-case analysis — validated?"**
 → **Validated by Theme D with 3 additional cases.** Unified pattern holds: "Logic CORRECT at old scope → Feeling detects OUTSIDE scope → Verify → Logic new anchor." Child VoE, scientist, partner cases all fit. **Confidence: HIGH.**
@@ -651,7 +651,7 @@ These questions affect framework coherence and deserve direct attention in futur
 
 **U1 — Tier 1 / Tier 2 Feeling definition reconciliation**
 - **Source:** RQ11, F-Q1, Theme A §3
-- **Question:** Framework has 2 tiers (Tier 1 narrow = body-base, Tier 2 expanded = PFC observes unconscious processing). Which should Feeling.md officially commit to?
+- **Question:** Framework has 2 tiers (Tier 1 narrow = body-base, Tier 2 expanded = PFC receives unconscious processing). Which should Feeling.md officially commit to?
 - **Why high priority:** Affects all downstream vocabulary + theme file language
 - **Proposal:** Acknowledge Tier 2 as meta-level; keep Tier 1 as the specific body-track. Dual use with clarification.
 - **Next step:** Framework author decision + Feeling.md update
@@ -780,7 +780,7 @@ Based on session analysis, the framework has several implications for future wor
 
 Session's recommendation: **Keep both, with clear usage guidelines.**
 - **Tier 1 (narrow):** Used in Feeling.md + Feeling-Sources.md when discussing the body-integration track specifically
-- **Tier 2 (broad):** Used in Feel-Development.md + meta-discussions when discussing PFC observation in general
+- **Tier 2 (broad):** Used in Feel-Development.md + meta-discussions when discussing PFC reception in general
 - Add prominent note in Feeling.md pointing to Feel-Development.md for expanded definition
 
 **Why:** Full rewrite of Tier 1 files would be expensive and risk losing nuance. Dual definition with clear usage guidelines works.
@@ -789,12 +789,12 @@ Session's recommendation: **Keep both, with clear usage guidelines.**
 
 Session's recommendation: **Option A** — Self-Pattern Match as 0th-level mechanism, 10 channels as input types.
 
-**Why:** This unifies without invalidating. Self-Pattern Match is HOW the PFC observes; 10 channels are WHAT it observes.
+**Why:** This unifies without invalidating. Self-Pattern Match is HOW the PFC receives; 10 channels are WHAT it receives.
 
 **Architecture:**
 
 ```
-SELF-PATTERN MATCH (mechanism — PFC observation interface)
+SELF-PATTERN MATCH (mechanism — PFC reception interface)
     ↓ receives input from
 10 CHANNELS (sources):
 ├── L0 Threat
@@ -912,7 +912,7 @@ Theme analysis isn't just academic. If the framework is correct, it has specific
 
 ### §6.1 — Feeling literacy as primary skill
 
-**Session's strongest practical claim:** Feeling literacy (accurate reading of body signals + PFC observations) is a **primary life skill**, comparable to reading or mathematics in modern life.
+**Session's strongest practical claim:** Feeling literacy (accurate reading of body signals + PFC receptions) is a **primary life skill**, comparable to reading or mathematics in modern life.
 
 **Why this matters:**
 - ~95% of life runs on compiled schemas (Meta-insight 2)
@@ -1232,7 +1232,7 @@ AI cannot (per framework):
 
 Summary of practical implications in ONE paragraph:
 
-> If the framework is correct, the central practical insight is: **Your unconscious (~95%) runs most of your life via compiled schemas built from past experience + innate systems. Your conscious PFC (~5%) is a REACTIVE observer + attention director, not a creator. Well-being depends on literacy (reading the compiled layer accurately), designed rituals (compiling desired states), positive trust cultivation (sustainable motivation), and body-based skills (irreplaceable by AI). Modern suffering comes partly from anchor fragmentation (meaning crisis) + feeling illiteracy (can't read self) + negative-trust overload (running on fear) + body disconnection (over-cognitive existence). The path forward is NOT more thinking — it is deeper feeling literacy + deliberate life design that respects how the system actually works.**
+> If the framework is correct, the central practical insight is: **Your unconscious (~95%) runs most of your life via compiled schemas built from past experience + innate systems. Your conscious PFC (~5%) is a REACTIVE receiver + attention director, not a creator. Well-being depends on literacy (reading the compiled layer accurately), designed rituals (compiling desired states), positive trust cultivation (sustainable motivation), and body-based skills (irreplaceable by AI). Modern suffering comes partly from anchor fragmentation (meaning crisis) + feeling illiteracy (can't read self) + negative-trust overload (running on fear) + body disconnection (over-cognitive existence). The path forward is NOT more thinking — it is deeper feeling literacy + deliberate life design that respects how the system actually works.**
 
 ---
 
@@ -1453,7 +1453,7 @@ These are the claims theme analysis most strongly supports. Multiple independent
 
 **Architectural:**
 - **Body-first temporal invariant:** Body → Feeling → PFC, never reversed. 4 converging evidences (Libet, Damasio, Craig, Gendlin) + framework internal consistency.
-- **PFC as observer, not creator:** Framework explicit; research support (Damasio VMPFC paralysis); matches Eastern contemplative traditions.
+- **PFC as receiver, not creator:** Framework explicit; research support (Damasio VMPFC paralysis); matches Eastern contemplative traditions.
 - **~95/5 unconscious/PFC split:** Dijksterhuis, Bargh, Kahneman all support dominance of unconscious processing. Framework's Anchor-Schema §1 explicit.
 - **Bidirectional architecture:** Top-down + bottom-up both active. Global Workspace Theory + Anchor-Schema §0 convergence.
 
@@ -1517,7 +1517,7 @@ These are framework claims with limited research support. Should be flagged clea
 
 | Theme | Core conclusion | Confidence | Main support |
 |---|---|---|---|
-| A Architecture | Expanded definition (PFC observes unconscious processing) | HIGH | Framework already evolved, research converges |
+| A Architecture | Expanded definition (PFC receives unconscious processing) | HIGH | Framework already evolved, research converges |
 | A Architecture | Bidirectional flow | HIGH | Multiple framework files + research |
 | A Architecture | Top-down query refinement | MEDIUM | Framework has pieces, not fully formalized |
 | D Right/Wrong | Pattern match + ACC = core mechanism | HIGH | Multiple research streams converge |
@@ -1538,7 +1538,7 @@ These are framework claims with limited research support. Should be flagged clea
 | E Empathy | "Giving freely" = broad schema | MEDIUM | Framework-plausible |
 | F Logic-Feeling | Consistent with all themes | HIGH | Integration check complete |
 | F Logic-Feeling | Logic + Feeling as parallel tracks | HIGH | Framework explicit |
-| F Logic-Feeling | Both tracks PFC-observed | MEDIUM | Resolution via Theme A meta-level |
+| F Logic-Feeling | Both tracks PFC-received | MEDIUM | Resolution via Theme A meta-level |
 
 ### §8.5 — Meta-confidence: Session as a whole
 
@@ -1639,7 +1639,7 @@ This section acknowledges the session's limitations. Self-critical. What the ses
 - Examples of potential blind spots:
   - Over-emphasis on body (denying legitimate cognition-first cases?)
   - Under-emphasis on cultural construction (Barrett constructionist view)
-  - Homunculus smuggled in via "PFC observer" language
+  - Homunculus smuggled in via "PFC receiver" language
   - Essentialism about "compiled chunks"
 
 ### §9.4 — Specific uncertain claims to flag
@@ -1780,7 +1780,7 @@ Across 11 phases + 4 sub-phases (P-11a through P-11d), this session delivered:
 
 If the session had to fit in one paragraph:
 
-> **Framework's architecture is:** PFC observation of integrated unconscious processing, body-first temporal invariant, bidirectional flow (top-down PFC attention + bottom-up unconscious requirement), ~95% compiled schemas dominant + ~5% PFC active engagement, with Resonance as learning-based simulator (not hardware mirror) for interpersonal processing. Rightness/wrongness feelings emerge from pattern matching against compiled schemas + ACC error detection. Ritual compiles Anchor-Schemas via a multi-layer combo (behavior + context + emotion + social + symbolic). Verbal is one chain enabler among several (planning preceded verbal by 1–2 million years). Giving dynamics decompose via positive vs negative trust affecting sustainability. All of this is consistent with the body-first invariant — body computes, feeling emerges, PFC observes. Never reversed.
+> **Framework's architecture is:** PFC reception of integrated unconscious processing, body-first temporal invariant, bidirectional flow (top-down PFC attention + bottom-up unconscious requirement), ~95% compiled schemas dominant + ~5% PFC active engagement, with Resonance as learning-based simulator (not hardware mirror) for interpersonal processing. Rightness/wrongness feelings emerge from pattern matching against compiled schemas + ACC error detection. Ritual compiles Anchor-Schemas via a multi-layer combo (behavior + context + emotion + social + symbolic). Verbal is one chain enabler among several (planning preceded verbal by 1–2 million years). Giving dynamics decompose via positive vs negative trust affecting sustainability. All of this is consistent with the body-first invariant — body computes, feeling emerges, PFC receives. Never reversed.
 
 ### §10.3 — What framework offers user
 
@@ -1832,7 +1832,7 @@ The user's questions drove this entire analysis. Without the specific cases (man
 - Compiled schemas for meaning
 - Ritual as non-verbal chain
 - Affinity as an activation question
-- PFC as observer, not creator
+- PFC as receiver, not creator
 - Body-first in most cases
 
 The user's "I was just guessing" is unwarranted humility. These intuitions would stand up in a research meeting.
@@ -1853,7 +1853,7 @@ The user's "I was just guessing" is unwarranted humility. These intuitions would
 
 ### §10.7 — Closing note
 
-> *"Feeling-first, PFC second. Body computes, feeling emerges, PFC observes. The system runs mostly without us — our conscious deliberation is the small tip of a large iceberg. Understanding this doesn't make us less human — it makes us more HONESTLY human. We can work WITH the system as it actually is, instead of pretending to be homunculi in charge of everything. Feeling literacy is the skill of that partnership. Ritual is one tool for shaping what gets compiled. Positive trust is the compass for sustainable motivation. Resonance is how we know others. All of this is the framework. All of this is lived experience, checked against research, organized for practice. Not final truth. Working truth. Good enough for tomorrow's decisions. Ready to be refined the day after."*
+> *"Feeling-first, PFC second. Body computes, feeling emerges, PFC receives. The system runs mostly without us — our conscious deliberation is the small tip of a large iceberg. Understanding this doesn't make us less human — it makes us more HONESTLY human. We can work WITH the system as it actually is, instead of pretending to be homunculi in charge of everything. Feeling literacy is the skill of that partnership. Ritual is one tool for shaping what gets compiled. Positive trust is the compass for sustainable motivation. Resonance is how we know others. All of this is the framework. All of this is lived experience, checked against research, organized for practice. Not final truth. Working truth. Good enough for tomorrow's decisions. Ready to be refined the day after."*
 
 **— Session end —**
 

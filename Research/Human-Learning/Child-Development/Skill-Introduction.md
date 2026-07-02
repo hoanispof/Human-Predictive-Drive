@@ -31,7 +31,7 @@ dependencies:
   - Chunk.md v2.2 — chunk substrate, compile, lifecycle, context-tag
   - Body-Feedback-Mechanism.md v2.0 — 2 sources × 3 dynamics
   - Cortisol-Baseline.md v2.0 — amplifier reframe, direction > level
-  - Feeling.md v2.2 — PFC observation of body-feedback
+  - Feeling.md v2.2 — PFC reception of body-feedback
   - Connection.md v5.0 — Hardware-Subsidy, Bond-Architecture, Entity-Compiled, 4-Layer
   - Personal-Melody.md v2.0 — passion development, melody-arc
   - Attention-Spectrum.md — DRD4, novelty threshold
@@ -2522,7 +2522,7 @@ WITHIN CORE-DEEP-DIVE/ — BODY-BASE:
 → Body-Base/Cortisol-Baseline.md v2.0 — Amplifier reframe, direction > level
 → Body-Base/Trust.md v1.0 — Trust = compiled prediction, 3 sub-dimensions, amplifier
    [NEW v2.3]
-→ Body-Base/Feeling/Feeling.md v2.2 — PFC observation of body-feedback
+→ Body-Base/Feeling/Feeling.md v2.2 — PFC reception of body-feedback
 → Body-Base/Melody-Lens/Personal-Melody.md v2.0 — Passion development, melody-arc
 → Body-Base/Melody-Lens/Melody-Arc.md v2.0 — Arc trajectory per-person
 

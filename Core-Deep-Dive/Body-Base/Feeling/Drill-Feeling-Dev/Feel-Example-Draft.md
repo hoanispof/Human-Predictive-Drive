@@ -102,7 +102,7 @@ with their own body.
 
 Characteristic consequences of this stage:
 - **Sub-cortical reflexes dominate**: most responses do not go
-  through PFC observation. Body reacts via innate templates.
+  through PFC reception. Body reacts via innate templates.
 - **Output is nearly undifferentiated**: most forms of distress
   (hunger, pain, wet diaper, heat, fatigue) all produce the same
   output — crying. Parents in the first few weeks CANNOT distinguish
@@ -143,7 +143,7 @@ sufficient to distinguish it from other types of distress.
 **Channel(s)**: Body interoceptive — primarily signals from the
 empty stomach and metabolic state (blood glucose, hunger hormones).
 Signals travel through brainstem and hypothalamus, partly reaching
-the insula but PFC observes very little.
+the insula but PFC receives very little.
 
 **Chunk(s)**: Only the reflexive sub-cortical chunk "discomfort →
 cry". This is a Level 0 SEED chunk — not yet genuine Self-Pattern
@@ -299,7 +299,7 @@ infant CANNOT "know" to wake up and escape thermal stress because
 there is no Self-Pattern Match for temperature. The distress signal
 may not be strong enough to overcome sleep state. This is a concrete
 illustration of the cost of lacking Self-Pattern Match — the body
-can sustain damage that PFC cannot observe. Contrast with an adult
+can sustain damage that PFC cannot receive. Contrast with an adult
 who has the full chunk "I feel too hot → wake up → open the window".
 
 ---
@@ -403,7 +403,7 @@ In other words:
 - **Cry following Moro** = body interoceptive distress signal
   reaching PFC, edge of feeling
 
-The distinction between "body reacts" and "PFC observes body" is the
+The distinction between "body reacts" and "PFC receives body" is the
 key point. Will be tested more deeply in §12.
 
 ---
@@ -433,14 +433,14 @@ as voluntary grasp begins to replace it.
 **Notes**: Similar to E6 — reflex, not Feeling. But worth noting:
 this reflex may be an **evolutionary vestige** from primate ancestors
 (infant clinging to mother's fur). It shows that "response templates"
-are embedded into the nervous system, requiring NO PFC observation.
+are embedded into the nervous system, requiring NO PFC reception.
 
 This is a clear example of the difference between **hardware-encoded
 templates** (reflexes) and **learned chunks** (Self-Pattern Match).
 The framework says reflexes ≠ feelings for this reason. When the
 reflex disappears at 3-4 months, voluntary grasp emerges — that is
 when learning begins to have a role (motor chunks start forming), but
-it is still not feeling until PFC can observe "I want to grasp".
+it is still not feeling until PFC can receive "I want to grasp".
 
 ---
 
@@ -477,8 +477,8 @@ tactile cue at the mouth.
 Clear contrast with an adult who has the full chunk "feeling
 hungry → find food → eat" (complete Self-Pattern Match). Evolution
 arranges this thoughtfully: critical functions (feeding, breath,
-withdrawal from pain) do not depend on PFC observation. Gradually as
-chunks develop, PFC begins to observe "hungry" and decide to eat —
+withdrawal from pain) do not depend on PFC reception. Gradually as
+chunks develop, PFC begins to receive "hungry" and decide to eat —
 much slower but far more flexible (adults can intentionally fast,
 infants cannot).
 
@@ -650,7 +650,7 @@ The newborn stage teaches us 4 important things for the overall
 framework:
 
 **(1) Reflex ≠ Feeling.** Same response exists, but reflex does not
-go through PFC observation and does not go through chunks. This is
+go through PFC reception and does not go through chunks. This is
 the baseline for defining what genuine feeling actually is (E6, E7,
 E8 vs E1-E5, E9, E10). The developmental timeline of feeling is the
 timeline of transition from hard-coded templates to flexible learned
@@ -749,14 +749,14 @@ begins to have a few differentiated chunks:
 - "Fatigue pattern → cry pattern C"
 
 However, a subtle question remains: does the infant "know they are
-hungry" (genuine PFC observation) or does body output self-
+hungry" (genuine PFC reception) or does body output self-
 differentiate at the sub-cortical level? The answer is probably
 somewhere in between — OFC is functioning enough to participate in
 classifying affective states, but without verbal labels it is
 difficult to say it is "knowing" in the full sense.
 
 **Stage**: Self-Pattern Match Stage 1 (Behavioral Discrimination),
-borderline — output is differentiated but PFC observation is not
+borderline — output is differentiated but PFC reception is not
 yet fully clear.
 
 **Axis position**:
@@ -1440,11 +1440,11 @@ complex ways.
 distress with object permanence) and E20 (still face violation) are
 evidence that infants already have a model of the world and
 expectations about the future BEFORE language. Framework implication:
-defining Feeling as "PFC observation interface to ALL unconscious
+defining Feeling as "PFC reception interface to ALL unconscious
 processing" needs to include predictive processing as a primary
 channel, not only interoceptive. A 9-month-old "feels" the absence
 of mother (predictive signal) with no less intensity than "feels"
-hunger (interoceptive). Both are signals reaching the PFC observation
+hunger (interoceptive). Both are signals reaching the PFC reception
 interface.
 
 ---
@@ -1664,11 +1664,11 @@ FILE.** Reasons:
 
 1. **First clear case of predictive interoception verbalized.** The
    child knows in advance that an event will occur based on bladder
-   stretch signal — this is PFC observing a predictive signal, not
+   stretch signal — this is PFC receiving a predictive signal, not
    post-hoc.
 
-2. **Direct evidence that PFC can observe predictive signals.**
-   Validation for the expanded Feeling definition (PFC observation
+2. **Direct evidence that PFC can receive predictive signals.**
+   Validation for the expanded Feeling definition (PFC reception
    interface to ALL unconscious processing, including predictive
    processing).
 
@@ -1676,7 +1676,7 @@ FILE.** Reasons:
    metacognitive feeling.** Predictive "need to pee" uses the same
    mechanism as "I feel like I'm about to get sick" (E81) or "I feel
    like this math problem is solvable" (E78) — they only differ in
-   chunk content; all involve PFC observing a predictive signal.
+   chunk content; all involve PFC receiving a predictive signal.
 
 4. **Foundation example for framework expansion.** This example was
    mentioned multiple times in the framework development session —
@@ -1806,7 +1806,7 @@ before being labeled by words.** The output channel for chunks does
 not have to be verbal.
 
 This is an important point for the expanded definition of Feeling:
-PFC observation can output through MULTIPLE channels:
+PFC reception can output through MULTIPLE channels:
 1. Verbal (most common in adults)
 2. Gestural (early in development, also in deaf adults)
 3. Behavioral (action-based)
@@ -2241,9 +2241,9 @@ This is the precondition for:
    existential questions in §6, §9)
 
 Direct connection with framework: self-recognition ≈ first explicit
-step toward Self-Pattern Match as **explicit observation** not just
-implicit signal processing. PFC observer role becomes more prominent
-at this stage because there is "an object to observe" — the self
+step toward Self-Pattern Match as **explicit reception** not just
+implicit signal processing. PFC receiver role becomes more prominent
+at this stage because there is "an object to receive" — the self
 itself.
 
 Important cross-cultural note: rouge test results vary across
@@ -3466,7 +3466,7 @@ Characteristics of this stage:
 - **Social pain is real** (E53): childhood exclusion activates the
   pain pathway genuinely
 - **Metacognitive feelings emerging** (E54 confidence, E55
-  uncertainty): PFC observing predictive cognitive signals —
+  uncertainty): PFC receiving predictive cognitive signals —
   direct precursors to adult feeling of knowing
 - **Body chunks mature with disease prediction** (E56 fatigue, E57
   sickness signals): predictive interoception extending beyond the
@@ -4058,7 +4058,7 @@ exclusion experiences often carry sensitive social rejection chunks:
 from physical pain chunks — they share neural substrate. This
 validates an important insight for the expanded Feeling definition:
 emotional pain and physical pain are not categorically different —
-both are PFC observations of body/social signals processed by similar
+both are PFC reception of body/social signals processed by similar
 mechanisms.
 
 Also supports the framework: emotion chunks and body chunks are not
@@ -4127,11 +4127,11 @@ Children 8-10 years old already have reliable metacognitive feeling
 for some domains — especially well-practiced ones (math, reading,
 sports moves).
 
-**KEY FOR FRAMEWORK**: this is **PFC observing a predictive cognitive
+**KEY FOR FRAMEWORK**: this is **PFC receiving a predictive cognitive
 signal** — "I predict I will be able to solve this". The same
 mechanism as:
-- E23 "need to pee" (PFC observing predictive bladder signal)
-- E57 "I think I'm getting sick" (PFC observing predictive sickness
+- E23 "need to pee" (PFC receiving predictive bladder signal)
+- E57 "I think I'm getting sick" (PFC receiving predictive sickness
   signal)
 - E78 adult math feeling of knowing
 - E81 adult sickness prediction
@@ -4139,7 +4139,7 @@ mechanism as:
 
 All are **the same mechanism** — differing only in chunk content.
 Strong validation for the expanded Feeling definition: PFC
-observation interface to ALL unconscious processing, including
+reception interface to ALL unconscious processing, including
 predictive processing.
 
 This is important evidence for the framework — middle childhood is
@@ -4669,7 +4669,7 @@ Summary of chunk formulas operating at the 5-10 year stage:
    - Nature: not metaphorical, biologically real pain
 
 6. **Metacognitive feeling chunks** (E54 confidence, E55 uncertainty)
-   - Form: PFC observes predictive cognitive signal → feeling of
+   - Form: PFC receives predictive cognitive signal → feeling of
      knowing / not-knowing
    - Status: emerging in middle childhood, foundation for adult
      metacognition
@@ -4746,10 +4746,10 @@ address this directly.
 
 **(5) Metacognitive feelings emerge here, validating the predictive
 interoception framework.** E54 (confidence) and E55 (uncertainty)
-are PFC observing predictive cognitive signals — direct precursors
+are PFC receiving predictive cognitive signals — direct precursors
 to the adult feeling of knowing (E78). Same mechanism as E23
 (predictive bladder signal). All bridge body-base feelings and
-metacognitive feelings — same mechanism (PFC observes predictive
+metacognitive feelings — same mechanism (PFC receives predictive
 signal), different chunk content. Strong validation for the expanded
 Feeling definition.
 
@@ -6045,10 +6045,10 @@ space to become. Parents trying to solve it ("just decide what you
 want to study") miss the point — the BECOMING is the work, not its
 avoidance.
 
-Connection to framework expanded definition: PFC observing own chunks
+Connection to framework expanded definition: PFC receiving own chunks
 reorganizing in real-time. This is direct evidence that the PFC
-observation interface includes meta-level observation. Not just static
-states, not just predictive signals, but observation of the self-
+reception interface includes meta-level reception. Not just static
+states, not just predictive signals, but reception of the self-
 restructuring process. Validates the expanded definition strongly.
 
 This is also why adolescence is a particularly fertile period for
@@ -6137,10 +6137,10 @@ Summary of chunk formulas operating at the 10-18 year stage:
       feeling
 
 14. **Becoming awareness chunk** (E77)
-    - Form: meta-level observation of self changing + tolerance for
+    - Form: meta-level reception of self changing + tolerance for
       uncertainty
     - Status: most sophisticated chunk in the adolescent repertoire
-    - Nature: validates expanded Feeling definition (PFC observes
+    - Nature: validates expanded Feeling definition (PFC receives
       self restructuring)
 
 ---
@@ -6194,13 +6194,13 @@ capacity is significant. Foundation for complex adult emotional life.
 Treatment for "emotional chaos" often involves teaching this.
 
 **(7) E77 "becoming" chunk validates the expanded Feeling definition
-strongly.** PFC observing its own chunks reorganizing in real-time
-is direct evidence that the PFC observation interface includes meta-
-level observation. Not just static states, not just predictive
-signals, but observation of the self-restructuring process. This is
+strongly.** PFC receiving its own chunks reorganizing in real-time
+is direct evidence that the PFC reception interface includes meta-
+level reception. Not just static states, not just predictive
+signals, but reception of the self-restructuring process. This is
 one of the most sophisticated chunks possible, and it's
 developmentally normal in adolescence. Validates expanded definition:
-PFC observation interface to ALL unconscious processing, including
+PFC reception interface to ALL unconscious processing, including
 the processing of self-change.
 
 ---
@@ -6241,7 +6241,7 @@ Resonance Stage 8 (Refined Practice).
 **anchor cases for the expanded Feeling definition**. Before the
 framework expansion, many of these were not considered "feelings" in
 the traditional sense (body-base feedback). After the expansion, all
-are PFC observing unconscious processing — differing only in chunk
+are PFC receiving unconscious processing — differing only in chunk
 content and specific channel. Validation that the expanded definition
 unifies phenomena previously considered separate.
 
@@ -6271,7 +6271,7 @@ problems' patterns activated subconsciously) + predictive signal.
 - **Feeling of knowing chunk** mature form (Koriat 1993, 2000)
 - Pattern matching: present problem matches subconscious patterns
   from thousands of solved problems
-- Match → predictive signal "this is solvable" → PFC observes →
+- Match → predictive signal "this is solvable" → PFC receives →
   conscious feeling of knowing
 - This chunk is NOT explicit reasoning — it's fast, intuitive
 
@@ -6294,7 +6294,7 @@ in math but zero in music.
 
 **Notes**: **THIS IS THE MOST IMPORTANT ANCHOR CASE for the expanded
 Feeling definition.** This is feeling according to the expanded
-definition — PFC observing predictive cognitive signal — but NOT
+definition — PFC receiving predictive cognitive signal — but NOT
 feeling according to the traditional body-base definition.
 
 **Detailed mechanism analysis**:
@@ -6304,7 +6304,7 @@ feeling according to the traditional body-base definition.
    recognized, many sub-patterns match
 3. **Match strength → predictive signal**: "high probability of
    solvability" generated unconsciously
-4. **PFC observes signal**: THIS IS THE FEELING
+4. **PFC receives signal**: THIS IS THE FEELING
 5. **Verbal label** (optional): "I know I can solve it"
 
 **Koriat (1993, 2000)** demonstrated reliability:
@@ -6318,13 +6318,13 @@ feeling according to the traditional body-base definition.
   chunks)
 
 **Bridge for framework**: same mechanism as:
-- E23 "need to pee" (PFC observes predictive bladder signal)
+- E23 "need to pee" (PFC receives predictive bladder signal)
 - E54 child's math confidence (early form)
 - E81 "I feel illness coming" (predictive sickness)
 - E82 "I feel this will fail" (predictive outcome)
 - E86 chess move rightness (expert intuition)
 
-**All are the same mechanism** — PFC observes predictive signal
+**All are the same mechanism** — PFC receives predictive signal
 generated by subconscious pattern matching. Different channels,
 different chunk content, identical mechanism. **Strong validation
 for the expanded Feeling definition.**
@@ -6423,7 +6423,7 @@ calculation: now vs later).
 **Chunk(s)**:
 - **Predictive bladder chunk** — refined adult version of E23
   toddler form
-- Same mechanism: PFC observes predictive bladder signal
+- Same mechanism: PFC receives predictive bladder signal
 - Adult version adds: priority calculation, social context,
   self-control
 - Chunk calibrated over decades of bladder experience
@@ -6455,7 +6455,7 @@ mechanism.
 - E78 adult feeling of knowing
 - E81 adult sickness prediction
 
-All are PFC observing predictive signals. Different channels,
+All are PFC receiving predictive signals. Different channels,
 different chunk content, identical mechanism.
 
 **KEY framework point**: predictive interoception is **the most
@@ -6497,7 +6497,7 @@ sickness patterns) + predictive signal + verbal.
 - Pattern matching: current signals vs remembered pre-sickness
   patterns
 - Predictive signal generated when match exceeds threshold
-- PFC observes → conscious feeling of impending sickness
+- PFC receives → conscious feeling of impending sickness
 - **Refined version** of E57 child form
 
 **Stage**: Self-Pattern Match Stage 7.
@@ -6533,7 +6533,7 @@ the patient cannot articulate.
 - E82 outcome prediction
 - E86 chess move feeling
 
-All are PFC observing predictive signals from subconscious pattern
+All are PFC receiving predictive signals from subconscious pattern
 matching. Different signal sources, identical mechanism.
 
 **Framework implication**: this chunk **degrades with suppression**.
@@ -6632,7 +6632,7 @@ feeling chunks. Trajectory:
 - E78 feeling of knowing: cognitive predictive
 - E82 outcome prediction: most complex compound predictive
 
-All are the same mechanism (PFC observes predictive signal from
+All are the same mechanism (PFC receives predictive signal from
 subconscious pattern matching). Validates the expanded Feeling
 definition across the continuum.
 
@@ -6772,7 +6772,7 @@ feeling but not directly body-based.
 - E55 child's uncertainty
 - E90 metacognitive non-memory
 
-All are PFC observing metacognitive signals about cognition itself.
+All are PFC receiving metacognitive signals about cognition itself.
 
 ---
 
@@ -6819,7 +6819,7 @@ anticipatory.
 drive present body state**. A deadline is purely abstract (a date),
 but the body responds as if to a physical threat. This is because
 chunks processing future implications generate predictive signals
-that PFC observes as "stress feelings".
+that PFC receives as "stress feelings".
 
 Also evidence that:
 - Body and mind are not separate systems
@@ -6904,7 +6904,7 @@ conscious feeling.
 
 This is one of the strongest validations for the framework: the same
 mechanism operates across wildly different domains, all involving
-PFC observing predictive signals from an accumulated chunk library.
+PFC receiving predictive signals from an accumulated chunk library.
 
 ---
 
@@ -7166,13 +7166,13 @@ feelings:
 | E90 Definitive non-memory | "I don't have this memory" |
 | E55 Uncertainty | "I don't know enough to assess" |
 
-All are PFC observing metacognitive signals about its own cognition.
+All are PFC receiving metacognitive signals about its own cognition.
 Spectrum spans: I know → I know but can't retrieve → I don't know →
 I don't know that I don't know (Dunning-Kruger).
 
 **Framework implication**: metacognition is a **rich domain** with
 many distinct chunk types. All validate the expanded Feeling
-definition — PFC observing not just body, not just the outside world,
+definition — PFC receiving not just body, not just the outside world,
 but its own cognitive processes.
 
 Adults with good metacognitive chunks (E78, E84, E90, plus E55)
@@ -7257,7 +7257,7 @@ framework development sessions as anchor cases.
 Mathematician's feeling of knowing math, lawyer's confident argument
 feeling, grandmaster's sense of the right chess move, driver's sense
 of car trouble, doctor's sense that a patient is sicker than tests
-show — all identical mechanism. PFC observing predictive signals
+show — all identical mechanism. PFC receiving predictive signals
 from subconscious pattern matching against a domain-specific chunk
 library. Different content, identical mechanism. Strong unification
 of phenomena previously considered separate.
@@ -7287,7 +7287,7 @@ expertise. Treatment requires deliberate chunk rebuilding.
 distinct metacognitive chunks identified: feeling of knowing (E78),
 feeling of confidence (E79), tip of tongue (E84), definitive non-
 memory (E90), feeling of uncertainty (precursors in §5 E55). All are
-PFC observing its own cognitive processes. Modern formal education
+PFC receiving its own cognitive processes. Modern formal education
 often under-cultivates metacognition — focusing on content rather
 than "how do you know what you know". An important framework
 implication for educational applications.
@@ -7346,7 +7346,7 @@ This is also the stage where Eastern contemplative traditions and Western psycho
 
 **Notes**: This is one of the **best-documented examples** of chunk refinement through deliberate practice. Vipassana and mindfulness traditions have explicitly cultivated this for thousands of years.
 
-**KEY framework insight**: meditation practice **lowers the threshold for conscious awareness of body signals**. Signals that exist in untrained adults but never reach awareness become observable. This is the **PFC observation interface refined** — same mechanism, expanded sensitivity.
+**KEY framework insight**: meditation practice **lowers the threshold for conscious awareness of body signals**. Signals that exist in untrained adults but never reach awareness become observable. This is the **PFC reception interface refined** — same mechanism, expanded sensitivity.
 
 **Mechanism analysis**:
 1. **Attention training**: meditation cultivates the ability to direct attention deliberately to the body
@@ -7492,7 +7492,7 @@ Vietnamese context: traditional Vietnamese body practices (võ thuật — Vietn
 1. Multi-channel reading (voice, face, body, content, what is NOT said)
 2. Pattern matching against learned client patterns
 3. Predictive signal: "this presentation usually has X underneath"
-4. PFC observes signal as "feeling something else is going on"
+4. PFC receives signal as "feeling something else is going on"
 5. Therapist tests with a gentle question
 6. If correct, deepens session; if wrong, recalibrates
 
@@ -7678,7 +7678,7 @@ All integrated through years of practice. Not magic.
 
 **Framework implication**: the framework's "channels" approach validates multi-channel reading. A doctor reading a patient uses many channels simultaneously, integrated through chunks. A "reductive" approach (focusing on one channel — labs only) loses information available through multi-channel reading.
 
-This is especially relevant for framework validation: even hard-science medicine acknowledges that the PFC observing multi-channel unconscious signals (clinical intuition) is real and valuable — validation that the expanded Feeling definition has practical reality.
+This is especially relevant for framework validation: even hard-science medicine acknowledges that the PFC receiving multi-channel unconscious signals (clinical intuition) is real and valuable — validation that the expanded Feeling definition has practical reality.
 
 Vietnamese context: traditional Vietnamese medicine (Đông y) has extensive practices around bedside diagnosis through pulse, tongue, voice, and smell. Modern Western training often dismisses these, but some practices have genuine pattern-recognition value.
 
@@ -7941,10 +7941,10 @@ All are the same mechanism (use own experience as simulator to model the other),
 
 ### Category overview
 
-The HIGHEST stage in the developmental trajectory — meta-meta level feelings about the self, meaning, and existence itself. This is the result of all chunks developed in prior stages, applied at the deepest level: the PFC observing the patterns of its own behavior, motivations, life trajectory, and existence itself.
+The HIGHEST stage in the developmental trajectory — meta-meta level feelings about the self, meaning, and existence itself. This is the result of all chunks developed in prior stages, applied at the deepest level: the PFC receiving the patterns of its own behavior, motivations, life trajectory, and existence itself.
 
 Distinguishing features of this stage:
-- **Self-questioning chunks** (E103–E106): "Why did I do that?" — PFC observes own patterns from outside, asking "why." These are specifically the chunks that anchor the highest level of questioning in the framework.
+- **Self-questioning chunks** (E103–E106): "Why did I do that?" — PFC receives own patterns from outside, asking "why." These are specifically the chunks that anchor the highest level of questioning in the framework.
 - **Meaning-making chunks** (E107, E115): "What is the meaning of this life?", "Have I lived the right way?" — questions with no simple answer
 - **Identity at depth** (E108): "Who am I?" with full weight — different from adolescent identity confusion (E64) in being mature, lasting, and contextual
 - **Vocation and purpose** (E109): sense of calling — alignment of values, capabilities, and life direction
@@ -7955,9 +7955,9 @@ Distinguishing features of this stage:
 
 Self-Pattern Match Stage 7+ (peak with existential dimension). Pattern Resonance Stage 8+ extended to imagined future selves and abstract entities (humanity, universe, future generations).
 
-**Defining insight for this stage**: §9 demonstrates that the feeling trajectory has no upper limit at typical adult function. The highest levels involve the PFC observing its own meaning-making process — meta-meta level. This is what becomes possible when the chunks accumulated from §1–§8 are applied at maximum depth and breadth.
+**Defining insight for this stage**: §9 demonstrates that the feeling trajectory has no upper limit at typical adult function. The highest levels involve the PFC receiving its own meaning-making process — meta-meta level. This is what becomes possible when the chunks accumulated from §1–§8 are applied at maximum depth and breadth.
 
-This is also the stage where feeling literacy meets philosophy, religion, spirituality, art, and deep psychology. The framework provides a unified mechanism for phenomena traditionally treated as belonging to those domains. The PFC observation interface extends to existence questions themselves.
+This is also the stage where feeling literacy meets philosophy, religion, spirituality, art, and deep psychology. The framework provides a unified mechanism for phenomena traditionally treated as belonging to those domains. The PFC reception interface extends to existence questions themselves.
 
 Most adults experience these feelings occasionally but do not sustain or deepen them. Some adults (philosophers, spiritual practitioners, artists, those facing crisis) cultivate or are forced into these feelings deeply. Distribution is highly variable.
 
@@ -7974,7 +7974,7 @@ Vietnamese anchor phrase: *"Tại sao mình lại làm như vậy?"*
 **Channel(s)**: Self chunks (own behavior observed) + metacognitive (reflection on own actions) + emotional (regret, confusion, possibly shame) + temporal (looking back at past action) + values (awareness of conflict between behavior and values).
 
 **Chunk(s)**:
-- **Self-pattern observation chunk** at meta level — PFC observing own behavior pattern as an object of inquiry
+- **Self-pattern reception chunk** at meta level — PFC receiving own behavior pattern as an object of inquiry
 - Awareness of disjunction between intentions and actions
 - Recognition of an unknown self ("there's something in me")
 - Compound: regret + confusion + curiosity + meta-self-awareness
@@ -7994,7 +7994,7 @@ Vietnamese anchor phrase: *"Tại sao mình lại làm như vậy?"*
 
 **Notes**: Explicitly cited as an anchor case for the highest level of questioning in the framework.
 
-**KEY framework insight**: this is **PFC observing the PFC's own outputs** (behavior) and asking why. Meta-meta level. Not just "what am I feeling?" (Stage 4–5) or "who am I becoming?" (Stage 6), but "why do I do what I do, given that I don't fully understand my own actions?".
+**KEY framework insight**: this is **PFC receiving the PFC's own outputs** (behavior) and asking why. Meta-meta level. Not just "what am I feeling?" (Stage 4–5) or "who am I becoming?" (Stage 6), but "why do I do what I do, given that I don't fully understand my own actions?".
 
 Reveals that **self chunks include an "unknown self"** — the adult recognizes that their own actions sometimes mismatch their own conscious intentions. This requires:
 1. Self chunks rich enough to track behavior
@@ -8003,13 +8003,13 @@ Reveals that **self chunks include an "unknown self"** — the adult recognizes 
 4. Tolerance for the gap (not immediately rationalizing)
 5. Curiosity rather than just self-blame
 
-**Framework implication**: the expanded definition includes the PFC observing its own behavior patterns at meta level. Not just observing body, not just observing emotions, not just observing predictions — observing own LIFE PATTERNS over time. This is the ultimate extension of the expanded Feeling definition.
+**Framework implication**: the expanded definition includes the PFC receiving its own behavior patterns at meta level. Not just receiving body, not just receiving emotions, not just receiving predictions — receiving own LIFE PATTERNS over time. This is the ultimate extension of the expanded Feeling definition.
 
 **Healthy resolution**: leads to therapy, deeper self-knowledge, behavior change, personal growth. **Unhealthy resolution**: ruminative self-blame, depression, withdrawal, denial.
 
 Vietnamese context: traditional culture often emphasizes behavioral correction ("don't do that again") rather than understanding ("why did I do that?"). Adults may have strong behavioral chunks but weak understanding chunks — knowing they are doing wrong but not knowing why. Access to therapy growing in Vietnam is addressing this gap.
 
-Connection to framework purpose: without the framework, "why did I do that?" feels like mystery. With the framework: PFC observing patterns of own chunks, some chunks operating below conscious threshold and influencing behavior. Not mystery — just chunks not yet brought to awareness.
+Connection to framework purpose: without the framework, "why did I do that?" feels like mystery. With the framework: PFC receiving patterns of own chunks, some chunks operating below conscious threshold and influencing behavior. Not mystery — just chunks not yet brought to awareness.
 
 ---
 
@@ -8259,9 +8259,9 @@ Vietnamese anchor phrase: *"Tôi là ai?"*
 3. **Process answer**: "I" is the witnessing of all the roles, not a thing
 4. **Mystery answer**: the question is inherent to consciousness, never fully answered
 
-The framework does not prescribe an answer, but explains why the question exists: the PFC observing all of its own self chunks at once, noticing their complexity, asking "what unifies these?" This is sophisticated meta-meta-self-observation possible only with mature PFC + accumulated life experience.
+The framework does not prescribe an answer, but explains why the question exists: the PFC receiving all of its own self chunks at once, noticing their complexity, asking "what unifies these?" This is sophisticated meta-meta-self-reception possible only with mature PFC + accumulated life experience.
 
-**KEY framework insight**: this is the **deepest possible application** of Self-Pattern Match. PFC observing all of its own observations, asking about the observer itself. Recursive at maximum depth.
+**KEY framework insight**: this is the **deepest possible application** of Self-Pattern Match. PFC receiving all of its own receptions, asking about the receiver itself. Recursive at maximum depth.
 
 **Framework implication**: the framework treats this question as a feature, not a bug. Self-Pattern Match at its highest level naturally produces this question. Adults who never ask have not developed Self-Pattern Match to its highest level. Adults who ask seriously are exploring the edge of human capability.
 
@@ -8461,7 +8461,7 @@ Vietnamese context: traditional culture had nature integration (rural life, moun
 7. Transient (passes)
 8. Persisting effects (life-changing)
 
-**KEY framework insight**: this is one of the **most extreme chunk states** possible. Self chunks temporarily quiet, allowing experience without the self-other split. The framework's expanded definition includes this: the PFC observation interface CAN observe the state of its own chunks being absent. Profound but explainable.
+**KEY framework insight**: this is one of the **most extreme chunk states** possible. Self chunks temporarily quiet, allowing experience without the self-other split. The framework's expanded definition includes this: the PFC reception interface CAN receive the state of its own chunks being absent. Profound but explainable.
 
 **Modern neuroscience** (Newberg et al. on contemplative neuroscience): mystical experiences correlate with reduced activity in self-referential brain networks (default mode network), especially parietal areas managing the self/other boundary. Consistent with chunk-based explanation: self chunks temporarily inactive.
 
@@ -8680,8 +8680,8 @@ Connection to framework purposes: this is the final example in the main trajecto
 
 Summary of chunk formulas in the existential / philosophical stage:
 
-1. **Self-pattern observation chunks** (E103–E106)
-   - Form: PFC observes own behavior patterns from outside
+1. **Self-pattern reception chunks** (E103–E106)
+   - Form: PFC receives own behavior patterns from outside
    - Status: meta-meta self-awareness
    - Nature: anchor cases for the ultimate extension of the expanded definition
 
@@ -8726,9 +8726,9 @@ Summary of chunk formulas in the existential / philosophical stage:
 
 The existential stage teaches six important things for the framework:
 
-**(1) The feeling trajectory has no upper limit at the typical adult level.** §9 demonstrates that the PFC observation interface can extend to the most abstract, meta-meta level: observing own life patterns, asking why about own behavior, contemplating own death, sensing oneness with the universe, evaluating the entire life lived. These are not separate from "normal feelings" — same mechanism, applied at maximum depth and abstraction. The framework has no ceiling.
+**(1) The feeling trajectory has no upper limit at the typical adult level.** §9 demonstrates that the PFC reception interface can extend to the most abstract, meta-meta level: receiving own life patterns, asking why about own behavior, contemplating own death, sensing oneness with the universe, evaluating the entire life lived. These are not separate from "normal feelings" — same mechanism, applied at maximum depth and abstraction. The framework has no ceiling.
 
-**(2) The "why did I do that?" chunks (E103–E106) are the final extension of the expanded Feeling definition.** PFC observing the PFC's own outputs (behavior over time) and asking why. These are not metaphor — they are specific mature chunk states that some adults reach. The framework explains them: chunks include the PFC observing own behavior patterns, recognizing disjunction between intentions and actions, investigating unknown aspects of the self.
+**(2) The "why did I do that?" chunks (E103–E106) are the final extension of the expanded Feeling definition.** PFC receiving the PFC's own outputs (behavior over time) and asking why. These are not metaphor — they are specific mature chunk states that some adults reach. The framework explains them: chunks include the PFC receiving own behavior patterns, recognizing disjunction between intentions and actions, investigating unknown aspects of the self.
 
 **(3) Existential questions are normal mature features, not pathology.** "What is the meaning of life?" (E107), "Who am I?" (E108) at mature depth, mortality awareness (E110) — all are healthy developmental capabilities, not signs of disorder. Suppressing them is more concerning than engaging with them. The framework normalizes existential inquiry as part of a mature feeling system.
 
@@ -8742,7 +8742,7 @@ The existential stage teaches six important things for the framework:
 
 ### Conclusion of Examples Section — Main Developmental Trajectory
 
-§1–§9 completes the main developmental trajectory from E1 (newborn undifferentiated cry) to E116 (adult contemplating legacy). Same human PFC, same basic mechanism (PFC observation interface to unconscious processing), vastly different chunk sophistication and content.
+§1–§9 completes the main developmental trajectory from E1 (newborn undifferentiated cry) to E116 (adult contemplating legacy). Same human PFC, same basic mechanism (PFC reception interface to unconscious processing), vastly different chunk sophistication and content.
 
 **§9b supplementary section** adds 8 additional examples (E117–E124) covering **drive and compulsion chunks** that operate primarily in the adult mature form but do not fit cleanly into developmental age stages. These chunks address the question: what feelings drive sustained output over years and decades?
 
@@ -9542,7 +9542,7 @@ Channel availability increases across stages, but NOT randomly — there is a cl
 | §6 Adolescent | + Identity narrative + Abstract relational + Romantic | E64 "who am I?" | Self chunks restructure |
 | §7 Adult mature | + Expert intuition + Refined predictive | E78 feeling of knowing | Domain expertise depth |
 | §8 Refined trained | + Felt sense + Group sensing | E92 Gendlin | Trained access to deeper layers |
-| §9 Existential | + Meta-meta self + Meaning + Mystical | E107 life meaning | Recursive PFC observation peak |
+| §9 Existential | + Meta-meta self + Meaning + Mystical | E107 life meaning | Recursive PFC reception peak |
 
 **Insight**: channel emergence has structure — body channels first, then social, then verbal, then metacognitive, then existential. Each stage builds on the previous. Skipping stages is not possible — chunks needed for stage N require chunks from stage N-1.
 
@@ -9587,7 +9587,7 @@ Chunks consistently follow the trajectory: effortful initial use → practiced �
 | Domain expertise | None at start | E54 child math confidence | E78 adult feeling of knowing math (seconds) |
 | Body awareness | E22 child "hurts" + point | E56 child fatigue recognition | E91 meditator subtle tension (refined) |
 
-**Mechanism**: practice strengthens chunks, reduces threshold for activation, builds direct pattern matching. "Automatic" doesn't mean "no thinking" — it means "fast subconscious processing with PFC observing result, without requiring deliberate analysis."
+**Mechanism**: practice strengthens chunks, reduces threshold for activation, builds direct pattern matching. "Automatic" doesn't mean "no thinking" — it means "fast subconscious processing with PFC receiving result, without requiring deliberate analysis."
 
 **Special case** of §8 refined practice: chunks become BOTH automatic AND deeper. E91 meditator notices tension faster than an untrained adult AND notices subtler tension. Speed and depth are not a trade-off when chunks are well-developed.
 
@@ -9746,39 +9746,39 @@ Different treatments. Diagnostic distinction is important.
 
 ## §12 Edge Cases — Testing the Framework Definition
 
-Edge cases test the boundaries of the expanded Feeling definition. For each, the question is: does this fit "PFC observation interface to unconscious processing"?
+Edge cases test the boundaries of the expanded Feeling definition. For each, the question is: does this fit "PFC reception interface to unconscious processing"?
 
 ### §12.1 Reflexes (sub-PFC)
 
-**Example**: Withdrawing a hand upon touching something hot — withdrawal happens in the spinal cord, never reaching the PFC observation pathway. Already discussed: E6 (Moro), E7 (grasp), E8 (sucking).
+**Example**: Withdrawing a hand upon touching something hot — withdrawal happens in the spinal cord, never reaching the PFC reception pathway. Already discussed: E6 (Moro), E7 (grasp), E8 (sucking).
 
-**Verdict**: **NOT a feeling**. Reflexes are sub-cortical responses that don't go through PFC observation. They might be FOLLOWED by feelings (pain after withdrawal), but the reflex itself is not.
+**Verdict**: **NOT a feeling**. Reflexes are sub-cortical responses that don't go through PFC reception. They might be FOLLOWED by feelings (pain after withdrawal), but the reflex itself is not.
 
-**Framework implication**: clear boundary at sub-cortical reflex. Validates the definition's emphasis on PFC observation as the defining characteristic.
+**Framework implication**: clear boundary at sub-cortical reflex. Validates the definition's emphasis on PFC reception as the defining characteristic.
 
 ### §12.2 Subliminal perception
 
 **Example**: A 10ms threat face activates the amygdala fear response without conscious awareness. Demonstrated experimentally.
 
-**Verdict**: **NOT a feeling per definition** — by definition, no PFC observation occurred. However, **downstream feelings ARE feelings** — if a subliminal trigger leads to "I feel uneasy without knowing why," that uneasiness IS a feeling per the expanded definition (PFC observing a predictive signal).
+**Verdict**: **NOT a feeling per definition** — by definition, no PFC reception occurred. However, **downstream feelings ARE feelings** — if a subliminal trigger leads to "I feel uneasy without knowing why," that uneasiness IS a feeling per the expanded definition (PFC receiving a predictive signal).
 
-**Framework implication**: subliminal trigger is not a feeling, but its downstream effects can be. This explains many "irrational" feelings — body responding to subliminal stimuli that PFC then observes as a "weird feeling."
+**Framework implication**: subliminal trigger is not a feeling, but its downstream effects can be. This explains many "irrational" feelings — body responding to subliminal stimuli that PFC then receives as a "weird feeling."
 
 ### §12.3 Dream states
 
-**Example**: Dreaming about being chased, feeling intense fear during the dream. PFC partially active during REM sleep, observing internal imagery and emotional content.
+**Example**: Dreaming about being chased, feeling intense fear during the dream. PFC partially active during REM sleep, receiving internal imagery and emotional content.
 
-**Verdict**: **PROBABLY IS a feeling per the expanded definition**. PFC is partially active during REM sleep (medial PFC particularly) and clearly observes internal content. Dream emotions feel real because they ARE real chunks being activated.
+**Verdict**: **PROBABLY IS a feeling per the expanded definition**. PFC is partially active during REM sleep (medial PFC particularly) and clearly receives internal content. Dream emotions feel real because they ARE real chunks being activated.
 
-**Framework implication**: dreams support the expanded definition. Dream emotions are PFC observing internal processing (memory consolidation, emotional processing, simulator running). Different from waking because PFC is selectively active and external input is minimal.
+**Framework implication**: dreams support the expanded definition. Dream emotions are PFC receiving internal processing (memory consolidation, emotional processing, simulator running). Different from waking because PFC is selectively active and external input is minimal.
 
-**Caveat**: some dreams without recall — chunks activated but no memory. Question: are those feelings? If we require memory access, no. If we require PFC observation in the moment, yes (but unverifiable). The framework leans toward yes — chunks were active, observation occurred, just not stored.
+**Caveat**: some dreams without recall — chunks activated but no memory. Question: are those feelings? If we require memory access, no. If we require PFC reception in the moment, yes (but unverifiable). The framework leans toward yes — chunks were active, reception occurred, just not stored.
 
 ### §12.4 Anesthesia
 
 **Example**: General anesthesia. Patient has surgery. Body experiences trauma, healing processes activate, but the patient reports nothing. PFC offline during deep anesthesia.
 
-**Verdict**: **NOT a feeling during anesthesia**. PFC observation interface offline → no feelings can occur per definition. This is the clearest case of "no feeling" — even unconscious patients with amygdala activity (subliminal-like) don't have PFC observation.
+**Verdict**: **NOT a feeling during anesthesia**. PFC reception interface offline → no feelings can occur per definition. This is the clearest case of "no feeling" — even unconscious patients with amygdala activity (subliminal-like) don't have PFC reception.
 
 **Framework implication**: clean test case. Validates PFC as the critical component of feeling. Without PFC, no feelings, regardless of body activity.
 
@@ -9788,7 +9788,7 @@ Edge cases test the boundaries of the expanded Feeling definition. For each, the
 
 **Example**: Adult feels "something off" about a deal, can't articulate why, decides to walk away. Often turns out to be right. Already discussed extensively in E82 outcome prediction, E88 distrust feeling.
 
-**Verdict**: **CLEARLY IS a feeling per the expanded definition**. This is one of the strongest validation cases — these are PFC observing predictive signals from subconscious pattern matching, exactly fitting the expanded definition.
+**Verdict**: **CLEARLY IS a feeling per the expanded definition**. This is one of the strongest validation cases — these are PFC receiving predictive signals from subconscious pattern matching, exactly fitting the expanded definition.
 
 **Framework implication**: gut feelings were considered "vague" or "intuitive" before the framework. The expanded definition gives them a clear mechanism: predictive chunks operating below the verbal threshold. Not mystical, not merely emotional — a specific cognitive phenomenon.
 
@@ -9802,7 +9802,7 @@ Edge cases test the boundaries of the expanded Feeling definition. For each, the
 - Felt sense of "rightness" present (chunks operating)
 - PFC monitoring shifted but not absent
 
-So flow IS a feeling state per the expanded definition, but with an altered configuration. PFC observation focused on task performance, less on self-monitoring. Body chunks dominate awareness.
+So flow IS a feeling state per the expanded definition, but with an altered configuration. PFC reception focused on task performance, less on self-monitoring. Body chunks dominate awareness.
 
 **Framework implication**: flow is an example of chunk reorganization, not chunk absence. Some chunks (self-monitoring) reduced, others (skill execution) heightened. Reveals that feeling configuration is flexible.
 
@@ -9826,15 +9826,15 @@ Feelings during psychedelic states ARE feelings, but with a chunk landscape that
 
 | Edge case | Is feeling? | Reason |
 |---|---|---|
-| Reflexes | NO | No PFC observation |
-| Subliminal perception | NO (but downstream effects YES) | No PFC observation in moment |
-| Dreams | YES | PFC partially active observing internal content |
+| Reflexes | NO | No PFC reception |
+| Subliminal perception | NO (but downstream effects YES) | No PFC reception in moment |
+| Dreams | YES | PFC partially active receiving internal content |
 | Anesthesia | NO | PFC offline |
-| Gut feelings | YES (clearest case) | PFC observes predictive signals |
+| Gut feelings | YES (clearest case) | PFC receives predictive signals |
 | Flow state | YES (altered) | Chunks reorganized, not absent |
 | Psychedelic | YES (altered) | Chunks dramatically reorganized |
 
-**Insight**: the expanded definition handles most edge cases cleanly. Hard boundary at "PFC observation" — wherever PFC is offline or not observing, no feeling. Wherever PFC observes (any source — body, predictive, simulator, memory, meta), feeling.
+**Insight**: the expanded definition handles most edge cases cleanly. Hard boundary at "PFC reception" — wherever PFC is offline or not receiving, no feeling. Wherever PFC receives (any source — body, predictive, simulator, memory, meta), feeling.
 
 ---
 

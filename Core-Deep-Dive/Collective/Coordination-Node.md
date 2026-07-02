@@ -289,7 +289,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ COLLECTIVE LACKS PFC → NEEDS NODES TO COMPENSATE:
 
-  Individual: 1 PFC → directs, holds, observes for THE ENTIRE body
+  Individual: 1 PFC → directs, holds, receives for THE ENTIRE body
   Collective: NO UNIFIED PFC → LACKS:
     → Direction (who decides what the collective focuses on?)
     → Context holding (who remembers overall strategy?)
@@ -548,13 +548,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │   (block distraction)          │ (decline wrong-direction projects) │
   ├────────────────────────────────┼────────────────────────────────────┤
   │ ⑥ CANNOT do the work itself    │ Leader DOES NOT do domain work    │
-  │   (PFC observes, doesn't fire) │ (CEO doesn't code, doesn't account)│
+  │   (PFC receives, doesn't fire) │ (CEO doesn't code, doesn't account)│
   └────────────────────────────────┴────────────────────────────────────┘
 
   ⭐ KEY POINT ⑥:
-    Individual PFC CANNOT fire neurons on its own — only DIRECTS and OBSERVES.
+    Individual PFC CANNOT fire neurons on its own — only DIRECTS and RECEIVES.
     Leader does the same — DOES NOT NEED to be better than employees in ANY domain.
-    Only needs to DIRECT and OBSERVE ACROSS domains.
+    Only needs to DIRECT and RECEIVE ACROSS domains.
 
     Liu Bang is the proof:
       → Zhang Liang (strategy) >> Liu Bang at strategy

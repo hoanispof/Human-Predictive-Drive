@@ -64,7 +64,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 >
 > **Distance from mother. Reading a poem. Suddenly CRYING.**
 > **3 stacking mechanisms: decay asymmetry + contrast + articulation.**
-> **Twenty years the body KNEW. PFC observes for the FIRST TIME.**
+> **Twenty years the body KNEW. PFC receives for the FIRST TIME.**
 >
 > This file: HOW valence BEHAVES per-entity over time.
 > Structural vs Current, 2-stream/2-layer visibility, 3 Firing Modes,
@@ -124,7 +124,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   v1.0 gaps absorbed from Drill-Entity-Valence-Dynamics v2.0:
     + §4.1: 8-channel Valence-Structural visibility taxonomy (A-H)
     + §6.1: Boredom × satiation type decomposition
-    + §10.2: Verbalization = PFC observation × Reward-Signal-Architecture mapping
+    + §10.2: Verbalization = PFC reception × Reward-Signal-Architecture mapping
 
 
   THIS FILE IN THE FLOW:
@@ -148,7 +148,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
          ▼
     Valence-Propagation.md v4.1 §3-§7 (HOW valence PROPAGATES: chain + cases)
     Drive.md (synthesizes valences → action)
-    Feeling.md v2.0 (PFC OBSERVES valence → feeling)
+    Feeling.md v2.0 (PFC RECEIVES valence → feeling)
 
 
   READ THIS FILE AFTER: Valence-Propagation.md v4.1 §1-§2.
@@ -190,7 +190,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   CURRENT VALENCE (OUTSIDE Entity-Compiled, per-moment):
     = Valence-Momentary (Self-Pattern-Modeling) + activated Valence-Structural channels AT THIS MOMENT
     = Changes PER SECOND (context-dependent)
-    = What PFC observes → what the person verbalizes
+    = What PFC receives → what the person verbalizes
     
     CURRENT VALENCE "FEEL" = f(Reward-Signal-Architecture Evaluative:Direct-State ratio)
     (Reward-Signal-Architecture v2.1 §1):
@@ -331,7 +331,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → §8: Calibration architecture
 
   ⭐ ENTITY-OWNED = PFC LABEL (Entity-Access.md §2):
-    Entity-Owned = PFC OBSERVATION at Level 4-5, NOT mechanism.
+    Entity-Owned = PFC RECEPTION at Level 4-5, NOT mechanism.
     Mechanism = entity-access compilation (3-factor → baseline).
     Most entity-access = UNLABELED by PFC (fuzzy middle of gradient).
     = Binary "owned/not-owned" → REPLACED by gradient Level 0-5.
@@ -346,7 +346,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ "AGENT'S STATE = MY STATE" = DESCRIPTION, NOT MECHANISM:
 
   §2 says: "Body shifts to: agent X's state = MY state"
-  → CORRECT as a DESCRIPTION (what it looks like from PFC observation).
+  → CORRECT as a DESCRIPTION (what it looks like from PFC reception).
   → BUT: the underlying mechanism lies in GAP-FILLABILITY.
 
   MECHANISM (Entity-Compiled §7 + Gap-Body-Need §11-12):
@@ -621,7 +621,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       
     LAYER B — Self-Pattern-Modeling-DRIVEN valence:
       Source: Self-Pattern-Modeling Compiled/Fresh fires → prediction-delta → body-feedback
-      PFC visibility: HIGH (PFC computes → PFC observes)
+      PFC visibility: HIGH (PFC computes → PFC receives)
       Example: friend shares a new insight → Self-Pattern-Modeling evaluates → "interesting!" (PFC label)
       → Layer B valence = VISIBLE per episode (PFC is the source)
       → Habituates IF prediction is complete (same insight = no delta)
@@ -1135,7 +1135,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Tonic channels: approach baseline STABLE + avoidance channel INTERMITTENT
       → Mother's comfort (approach, Tonic = invisible) + mother's scolding right now (avoidance, Cyclic)
       → Mixed = Tonic baseline (invisible) + Cyclic episode (visible)
-      → PFC ONLY observes Cyclic → labels "hate mom" → BUT Tonic STILL THERE
+      → PFC ONLY receives Cyclic → labels "hate mom" → BUT Tonic STILL THERE
       
     Generative channels: almost always POSITIVE (curiosity = approach)
       → Generative avoidance RARE (unless domain anxiety = compiled fear of topic)
@@ -1154,7 +1154,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     
   VERBALIZATION × MIXED VALENCE:
     
-    "HATE/DISLIKE" = avoidance channels DOMINATE PFC observation
+    "HATE/DISLIKE" = avoidance channels DOMINATE PFC reception
       → Tonic approach channels DORMANT (invisible) → PFC misses them
       → Example: "hate mom" when being scolded = Cyclic avoidance VISIBLE + Tonic approach INVISIBLE
       
@@ -1174,7 +1174,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       
     "FEELING NOTHING" = Valence-Structural habituated → below PFC threshold
       → Valence-Structural STILL EXISTS but VTA habituated → invisible
-      → ≠ "no longer love" → = "PFC not observing"
+      → ≠ "no longer love" → = "PFC not receiving"
 
     → Systematic verbalization × Reward-Signal-Architecture mapping: §10.2
     
@@ -1225,7 +1225,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     
   MECHANISM ③ — FIRST-TIME ARTICULATION:
   
-    With mother: PFC busy observing the NEGATIVE (conflict = salient = above threshold)
+    With mother: PFC busy receiving the NEGATIVE (conflict = salient = above threshold)
     → Positive Valence-Structural = Tonic = habituated → PFC does not allocate attention
     → 20 years body KNEW "love/care for mother" → PFC never once ARTICULATED it
     
@@ -1245,13 +1245,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   3 STACKING MECHANISMS:
     ① Cyclic negative faded → net positive (decay asymmetry)
     ② Subsidized baseline revealed → contrast STRONG (hardware-subsidy)
-    ③ Articulation + de-habituation → PFC observes + amplifies
+    ③ Articulation + de-habituation → PFC receives + amplifies
     = "Distance reveals depth" = NOT a paradox. = 3 mechanisms STACK.
     
   "EMOTIONS NEVER EXPRESSED BEFORE":
     = NOT "new emotions"
-    = PFC OBSERVES FOR THE FIRST TIME the Tonic positive that WAS ALWAYS THERE
-    = Body knew for 20 years. PFC observes for the first time when given a lens (the poem).
+    = PFC RECEIVES FOR THE FIRST TIME the Tonic positive that WAS ALWAYS THERE
+    = Body knew for 20 years. PFC receives for the first time when given a lens (the poem).
     
   🟢 Decay 3-layer: Entity-Compiled.md v1.2 §9
   🟢 Whiteman et al. 2011: 10-year longitudinal — conflict ↓, intimacy ↑
@@ -1406,29 +1406,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Reactivity × Reward-Signal-Architecture Evaluative:Direct-State as 2 independent axes = framework synthesis
 ```
 
-### §10.2 — Verbalization = PFC Observation × Reward-Signal-Architecture
+### §10.2 — Verbalization = PFC Reception × Reward-Signal-Architecture
 
 > **v1.0 gap absorbed** — from Drill-Entity-Valence-Dynamics v2.0 §12.
 > Systematic mapping: what people SAY = f(which channels fire × Reward-Signal-Architecture Evaluative:Direct-State ratio).
 > §7 has verbalization × mixed valence. §10.2 = comprehensive per-entity reference.
 
 ```
-⭐ VERBALIZATION = PFC OBSERVATION OF CHANNEL STATE × Reward-Signal-Architecture Evaluative:Direct-State RATIO:
+⭐ VERBALIZATION = PFC RECEPTION OF CHANNEL STATE × Reward-Signal-Architecture Evaluative:Direct-State RATIO:
 
-  "HATE/DISLIKE" = avoidance channels DOMINATE PFC observation
+  "HATE/DISLIKE" = avoidance channels DOMINATE PFC reception
     → Approach channels: DORMANT or below threshold (Tonic = invisible)
     → PFC label: "hate" → BUT body STILL HAS Tonic approach channels
     → Example: "hate mom" when forced to study = Cyclic avoidance VISIBLE + Tonic approach INVISIBLE
     → Body reality: mixed (Tonic STILL THERE, just habituated)
     
   "SIMULTANEOUSLY ANGRY AND LOVING" = BOTH channels above PFC threshold
-    → PFC observes avoidance (anger: Cyclic scolding) + approach (love: Tonic safety)
+    → PFC receives avoidance (anger: Cyclic scolding) + approach (love: Tonic safety)
     → BOTH fire simultaneously → PFC CAN verbalize both
     → 🟢 Vietnamese has a single phrase "vừa giận vừa thương" for this
     → 🟢 Miyamoto et al. 2010: East Asian = higher ambivalence tolerance
     → = Language REFLECTS AND FACILITATES mixed experience
     
-  "LOVE/CARE" = approach channels DOMINATE PFC observation
+  "LOVE/CARE" = approach channels DOMINATE PFC reception
     → Avoidance channels: dormant, faded, or below threshold
     → If Direct-State dominant: "love/care" = warm, gentle → toward parent/child
     → If Evaluative dominant: "like/enjoy" = exciting, stimulating → toward friend
@@ -1445,8 +1445,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     
   "FEELING NOTHING" = Valence-Structural habituated → below PFC threshold
     → Valence-Structural STILL EXISTS but VTA habituated → invisible
-    → PFC: "normal" = CORRECT observation → WRONG conclusion
-    → ≠ "no longer love" → = "PFC not observing"
+    → PFC: "normal" = CORRECT reception → WRONG conclusion
+    → ≠ "no longer love" → = "PFC not receiving"
     → Layer A (Hardware) + Tonic = MOST likely to be "invisible"
     
   "BOREDOM" = Generative dies + Tonic habituated (§6.1)
@@ -1760,7 +1760,7 @@ CROSS-REFERENCES:
   PFC + SIMULATION:
     → PFC-Operations.md v1.2 — Hold/Suppress, Compiled/Fresh, PFC budget
     → Simulation-Engine.md v1.2 — 1 engine, 3 components, 3 axes
-    → Feeling.md v2.0 — PFC observation of body (7 layers)
+    → Feeling.md v2.0 — PFC reception of body (7 layers)
 
   DRILL SOURCE:
     → backup/Drill-Inter-Body-Mechanism/Drill-Entity-Valence-Dynamics.md v2.0 — primary drill source

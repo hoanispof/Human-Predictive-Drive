@@ -34,7 +34,7 @@ dependencies:
   Imagine-Final:
     - Imagine-Final.md v3.0 — §1 Hardware vs Constructive boundary, §3 PFC=Extension NOT source, §5 Lifecycle 5 Phases (Phase 3 Background Processing), §6 Gradient+Bootstrap, §9 Reflection vs Rumination
   Schema:
-    - Schema.md v2.0 — §4 Depth gradient, §6 PFC observe chunks → label, §6.3 Others see the pattern, §8 Body baseline = ground truth
+    - Schema.md v2.0 — §4 Depth gradient, §6 PFC receive chunks → label, §6.3 Others see the pattern, §8 Body baseline = ground truth
   Hidden-Quality:
     - Hidden-Quality-Perception.md v1.0 — §1 Core mechanism, §1.2 Gibson Differentiation, §1.3 3-Layer, §1.5 Compiled/Fresh Double Blindness, §2 Type 1 Expert, §4 Copier vs Expert, §5 Dunning-Kruger
   PFC:
@@ -800,7 +800,7 @@ HYPOTHESIS (🔴):
                                   §6 gradient+bootstrap, §9 reflection/rumination
   Hidden-Quality-Perception.md — §1 core mechanism, §1.2 Gibson, §1.5 Compiled/Fresh,
                                   §4 copier vs expert, §5 Dunning-Kruger
-  Schema.md v2.0               — §4 depth, §6 PFC observe, §8 body baseline
+  Schema.md v2.0               — §4 depth, §6 PFC receive, §8 body baseline
   PFC-Operations.md v1.0       — §5 Compiled Quality, §9 PFC Budget
   Self-Pattern-Modeling.md v3.1 — §3 Compiled/Fresh, §9 Triple Bias source
   Cortisol-Baseline.md v2.1    — §3.3 Direction-At-Compile

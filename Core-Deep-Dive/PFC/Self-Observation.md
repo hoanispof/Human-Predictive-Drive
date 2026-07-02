@@ -1,5 +1,5 @@
 ---
-title: "Self-Observation — PFC Observes Body-State (APPLICATION-3 on the Simulation-Engine)"
+title: "Self-Observation — PFC Receives Body-State (APPLICATION-3 on the Simulation-Engine)"
 version: 1.0
 created: 2026-06-02
 status: MECHANISM v1.0
@@ -27,12 +27,12 @@ position: |
   Core-Deep-Dive/PFC/ — parallel to Simulation-Engine.md.
   APPLICATION-3 on the Simulation-Engine (same engine as APPLICATION-1 and APPLICATION-2).
   Self-Observation = Feeling when attention direction = SELF.
-  Feeling.md = UMBRELLA WHAT (all PFC observation). Self-Observation = specific WHEN TARGET=SELF.
+  Feeling.md = UMBRELLA WHAT (all PFC receipt). Self-Observation = specific WHEN TARGET=SELF.
   4 sibling files: Feeling.md (umbrella), Body-Knowing.md (compiled function),
   Logic-Feeling.md (labels), Somatic-Articulation-Loop.md (process).
 dependencies:
   - Simulation-Engine.md v1.1 — ENGINE: 3 components × 3 axes, APPLICATION-3
-  - Feeling.md v3.0 — UMBRELLA: PFC observation interface (broader scope)
+  - Feeling.md v3.0 — UMBRELLA: PFC feeling interface (broader scope)
   - Body-Knowing.md v1.0 — COMPILED SUBSET: Body-Knowing Inward ⊂ Self-Observation
   - PFC-Operations.md v1.3 — HOLD/SUPPRESS, Compiled Quality, PFC Budget
   - Self-Pattern-Modeling.md v3.2 — APPLICATION-1: mutual reinforcement (Step 5 BIRD & COOK)
@@ -52,7 +52,7 @@ language: English primary
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Self-Observation — PFC Observes Body-State (APPLICATION-3 on the Simulation-Engine)
+# Self-Observation — PFC Receives Body-State (APPLICATION-3 on the Simulation-Engine)
 
 > **You are solving a math problem. Your stomach feels slightly uncomfortable. You DON'T KNOW — because attention is directed toward THE MATH.**
 > **Discomfort grows. Crosses the threshold. You suddenly realize: "I'm hungry."**
@@ -103,8 +103,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = APPLICATION-3 on the Simulation-Engine: (Self, Present, Observe)
 
   ② DISTINCTION: Feeling directed at DOMAIN ≠ Feeling directed at SELF
-    Feeling directed at DOMAIN: PFC observes body reaction to evaluate domain input
-    Feeling directed at SELF: PFC observes body state to understand ONESELF = Self-Observation
+    Feeling directed at DOMAIN: PFC receives body reaction to evaluate domain input
+    Feeling directed at SELF: PFC receives body state to understand ONESELF = Self-Observation
 
   ③ SUBSET: Body-Knowing Inward ⊂ Self-Observation
     Body-Knowing Inward = COMPILED portion (cost≈0, ~95% daily)
@@ -161,7 +161,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │   = Preview future state, create gaps, planning tool
     │
     ├── ★ THIS FILE = APPLICATION-3: (Self, Present, Observe)
-    │   = PFC observes body-state, the mechanism of self-awareness
+    │   = PFC receives body-state, the mechanism of self-awareness
     │
     ├── PFC-Operations.md v1.3 = HOW PFC operates on the engine
     │   = Hold/Suppress on Compiled/Fresh spectrum
@@ -170,7 +170,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         = mPFC gradient → per-entity simulation processing
 
   RELATIONSHIP WITH FEELING CLUSTER:
-    Feeling.md v3.0      = UMBRELLA (WHAT PFC sees — all observation)
+    Feeling.md v3.0      = UMBRELLA (WHAT PFC sees — all reception)
     Body-Knowing.md v1.0  = COMPILED FUNCTION (WHEN body-knowledge fires — Body-Knowing Inward ⊂ Self-Observation)
     Logic-Feeling.md v4.0 = LABELS (WHY PFC labels observations — Compiled/Fresh spectrum)
     Somatic-Articulation-Loop.md v1.0 = PROCESS (HOW implicit → explicit — the process through which Self-Observation deepens)
@@ -265,13 +265,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ SAME INTERFACE (Feeling.md), DIFFERENT TARGET:
 
   FEELING DIRECTED AT DOMAIN:
-    PFC observes body reaction to EVALUATE domain input
+    PFC receives body reaction to EVALUATE domain input
     Target = domain (math, food, music, other people)
     "This problem is hard → I'm frustrated → change approach"
     → PFC uses body-feedback to evaluate the DOMAIN, not evaluate SELF
 
   FEELING DIRECTED AT SELF (= Self-Observation):
-    PFC observes body state to UNDERSTAND ONESELF
+    PFC receives body state to UNDERSTAND ONESELF
     Target = self (body-state, emotional state, cognitive state)
     "I'm frustrated → why? → ah I'm tired, not because the math is hard"
     → PFC uses body-feedback to understand SELF
@@ -279,10 +279,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   SAME BODY-FEEDBACK. SAME INTEROCEPTION. SAME PFC.
   DIFFERENT attention direction = DIFFERENT function.
 
-  Feeling.md v3.0 §1: "Feeling = WHAT PFC SEES when it observes body-chunk interaction."
+  Feeling.md v3.0 §1: "Feeling = WHAT PFC SEES when it receives body-chunk interaction."
   → ANY body-chunk interaction — including when the target is the domain.
   → Self-Observation = SUBSET: when target = SELF specifically.
-  → Feeling is BROADER than Self-Observation (Feeling includes observing the domain).
+  → Feeling is BROADER than Self-Observation (Feeling includes receiving the domain).
 
   🟡 Domain vs Self distinction = framework synthesis
 ```
@@ -316,7 +316,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├────────────────────┼───────────────────────────────────────────┤
   │ Meta               │ "Can this observation be trusted?"       │
   │                    │ (recursive, Level 5-6)                   │
-  │                    │ PFC observes the observation process     │
+  │                    │ PFC detects the observation process      │
   │                    │ ITSELF                                   │
   └────────────────────┴───────────────────────────────────────────┘
 
@@ -718,11 +718,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   RECURSIVE MECHANISM — BODY-MEDIATED CYCLE (NOT PFC→PFC DIRECT):
 
-    Cycle 1: Body fires → PFC observes → creates narrative ("I'm sad")
+    Cycle 1: Body fires → PFC receives → creates narrative ("I'm sad")
                                                ↓
     Cycle 2: Narrative → body REACTS to narrative (confirm/resist)
                                                ↓
-             PFC observes body's REACTION TO NARRATIVE
+             PFC receives body's REACTION TO NARRATIVE
                                                ↓
              "Body resists when I say 'I'm sad'. Perhaps it's not sadness."
                                                ↓
@@ -732,7 +732,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Evidence:
     → Somatic-Articulation-Loop Stage 5 (body-confirm): PFC offers candidate → body votes
-    → Feeling.md §3: body fires FIRST, PFC observes AFTER (invariant applies even to "meta")
+    → Feeling.md §3: body fires FIRST, PFC receives AFTER (invariant applies even to "meta")
     → Meditation improves meta-cognition BECAUSE it improves interoception (better body-vote reading)
     → Rumination ≠ reflection: same loop but cortisol-driven → body-vote is distorted
 
@@ -1326,7 +1326,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     PFC ACTIVELY directs attention to body
     → Attention = gain control → AMPLIFIES weak signal
     → Weak signal ALSO exceeds threshold
-    → PFC observes EVEN WHEN body-base is "smooth"
+    → PFC receives EVEN WHEN body-base is "smooth"
     → = "Actively scanning" (smoke detector)
 
   Mechanism: Meditation training changes the threshold.
@@ -1431,7 +1431,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Libet 1985; Damasio 1994; Bechara
   4. Prediction-delta triggers PFC engagement
      Schultz 1997 (VTA prediction error)
-  5. PFC = observer not controller (~95% compiled)
+  5. PFC = receiver not controller (~95% compiled)
      Kahneman 2011
   6. PFC confabulation (Feel-Explanation risk)
      Nisbett & Wilson 1977

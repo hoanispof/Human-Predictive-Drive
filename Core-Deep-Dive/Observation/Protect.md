@@ -171,7 +171,7 @@ source_file: Core-Deep-Dive/Observation/Protect.md
     → Diagnose: protect firing too strongly + high threat = anxiety, controlling behavior
     → BUT: intervention must happen at the MECHANISM level, not the label level
       (intervention = change body input, re-compile chunks,
-       adjust replaceability assessment — Core-Software.md §8)
+       adjust replaceability assessment — Core-Software.md §9)
 
   CORTISOL POSITIONING (Cortisol-Baseline.md §0.1):
     → Protect = cortisol MODERATE-HIGH, threat-pull direction
@@ -447,7 +447,7 @@ source_file: Core-Deep-Dive/Observation/Protect.md
 ## §2 — FORMULA: f(PERCEIVED REPLACEABILITY × ATTACHMENT CHUNKS)
 
 ```
-⭐ PROTECT INTENSITY FORMULA (Core-Software.md §8):
+⭐ PROTECT INTENSITY FORMULA (Core-Software.md §9):
 
   Protect intensity = f(perceived replaceability × attachment chunks)
 
@@ -465,7 +465,7 @@ source_file: Core-Deep-Dive/Observation/Protect.md
   │                                                               │
   └───────────────────────────────────────────────────────────────┘
 
-  CORE INSIGHT FROM Core-Software.md §8:
+  CORE INSIGHT FROM Core-Software.md §9:
     → Laptop breaks + can afford a new one (replaceability HIGH) → ok
     → Laptop breaks + can't afford one (replaceability LOW) → resent the friend who broke it
     → SAME attachment chunks (same laptop, same time owned)
@@ -833,7 +833,7 @@ PEOPLE = THE MOST COMPLEX FORM OF PROTECT:
 
   ⚠️ NOTE: In humans, hardware → chunk processing → behavior.
   Hardware does NOT directly drive behavior (unlike animals).
-  = Core-Software.md §8: "same hormones, but complex chunk system → significant override."
+  = Core-Software.md §9: "same hormones, but complex chunk system → significant override."
 ```
 
 ### §4.1 — Vasopressin: Defense Side of Bonding
@@ -876,7 +876,7 @@ PEOPLE = THE MOST COMPLEX FORM OF PROTECT:
       NOT the status decision-maker (Status.md §9)
     → Vasopressin = defense bias baseline, NOT the protect decision-maker
     → Chunks (compiled experience) = actual protect pattern
-    → = Core-Software.md §8: "Protect parameter: hormone contribution
+    → = Core-Software.md §9: "Protect parameter: hormone contribution
          vs chunk contribution ratio" (open research question)
 ```
 
@@ -945,7 +945,7 @@ PEOPLE = THE MOST COMPLEX FORM OF PROTECT:
     → = SAME hardware, 3 DIFFERENT behavior patterns
     → = Chunks (compiled experience) DETERMINE expression
 
-  → = Core-Software.md §8 cross-species pattern:
+  → = Core-Software.md §9 cross-species pattern:
     "In animals: hardware (hormone) → behavior directly
      In humans: hardware → chunk processing → behavior
      = Same hormones, but complex chunk system → significant override
@@ -1551,7 +1551,7 @@ PROTECT × STATUS = TERRITORIAL OVERLAP:
 ```
 🟡 PROTECT × AUTONOMY = THE CONTROL DIMENSION:
 
-  Autonomy = "I decide → I get the outcome I want" (Core-Software.md §8)
+  Autonomy = "I decide → I get the outcome I want" (Core-Software.md §9)
   Protect = "hold onto what I have"
 
   OVERLAP:
@@ -1827,7 +1827,7 @@ TOXIC PROTECT = CHRONIC + DISPROPORTIONAL + UNRESOLVABLE:
 6 OPEN QUESTIONS:
 
   Q1: Hormone contribution vs chunk contribution ratio?
-      → Core-Software.md §8 open question
+      → Core-Software.md §9 open question
       → Vasopressin SETS the bias but chunks DETERMINE expression
       → Ratio? Context-dependent? Domain-dependent?
       → Needs: pharmacological studies + behavioral correlation
@@ -1873,8 +1873,8 @@ TOXIC PROTECT = CHRONIC + DISPROPORTIONAL + UNRESOLVABLE:
 
 ```
 CORE:
-  → Core-Software.md §8 — Protect definition, observation parameter framework
-  → Core-Software.md §8 open Q — Hormone vs chunk contribution ratio
+  → Core-Software.md §9 — Protect definition, observation parameter framework
+  → Core-Software.md §9 open Q — Hormone vs chunk contribution ratio
 
 FRAMEWORK SOURCE:
   → Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture

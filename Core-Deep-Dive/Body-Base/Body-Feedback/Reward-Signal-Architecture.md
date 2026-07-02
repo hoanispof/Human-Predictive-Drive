@@ -30,7 +30,7 @@ dependencies:
   - 03-Reward.md — 5 Body-Feedback-Preconditions, 7-step VTA mechanism
   - Body-Feedback-Precondition.md v1.0 — 5 preconditions formal definitions (§1.3 mapping)
   - Body-Feedback-Mechanism.md v2.0 — 2 sources, 3 chunk dynamics, compound, Body-Need
-  - Feeling.md v2.0 — feeling = PFC observation of body-feedback
+  - Feeling.md v2.0 — feeling = PFC reception of body-feedback
   - Feeling-Mechanism-Deep.md — §4 reward mechanism detail
   - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 4 pathways
   - PFC-Function.md v1.1 — 24 functions, PFC offline cases
@@ -861,7 +861,7 @@ Reward-Signal-Architecture.md (this file):
      → Coherence CAN be wrong (false insight exists)
      → Wiles: "kept coming back to the desk to see if it was still there"
 
-  3 components fire SIMULTANEOUSLY → PFC observes as 1 "urgency" feeling.
+  3 components fire SIMULTANEOUSLY → PFC receives as 1 "urgency" feeling.
 
   SAVORING vs URGENCY:
   → Direct-State rewards: NO motor urgency (touch → relax, melt into it)
@@ -2082,7 +2082,7 @@ RELATED FRAMEWORK FILES:
   MECHANISM:
   → Body-Feedback-Mechanism.md v2.0 — chunk dynamics + Evaluative/Direct-State
     × source mapping
-  → Feeling.md v2.0 — feeling = PFC observation of reward signal
+  → Feeling.md v2.0 — feeling = PFC reception of reward signal
   → Feeling-Mechanism-Deep.md — §4 reward mechanism detail
 
   PFC:

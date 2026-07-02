@@ -247,7 +247,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ KEY: EACH LEVEL uses same 7-step mechanism (03 §1):
     VTA detect → dopamine → spreading activation →
-    body evaluate → vote → opioid → PFC observe
+    body evaluate → vote → opioid → PFC receive
     → BUT at different timescales → compound across levels
 ```
 

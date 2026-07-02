@@ -12,7 +12,7 @@
 > **Prerequisites:**
 >   Core-Software.md (cycle-based architecture)
 >   Chunk.md v2.0 (chunk substrate)
->   PFC/Feeling/Feeling.md v2.0 (feeling = PFC observation interface)
+>   PFC/Feeling/Feeling.md v2.0 (feeling = PFC reception interface)
 >   Neural-Architecture.md (hardware zones A/B/C/D)
 >   Body-Feedback-Mechanism.md (body evaluation dynamics)
 > **Confidence:** 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -70,7 +70,7 @@ MODALITY IN V7.8:
   Observation:
     Modality Balance = hardware profile (Core-Software.md §6.3)
     → Affects how chunks compile (multi-modal richness)
-    → Affects how PFC observes (which modality is dominant)
+    → Affects how PFC receives (which modality is dominant)
     → Brain-wide property, NOT exclusive to PFC or Unconscious
 
 KEY DISTINCTIONS:
@@ -315,7 +315,7 @@ CHUNK DEPTH × FRAMEWORK DYNAMICS:
     → Fix: repair ENOUGH modalities to form a majority → behavior changes
 
   FEELING THRESHOLD (Core-Software.md §5):
-    magnitude × clarity → PFC-observable
+    magnitude × clarity → PFC-accessible
     → Deeper chunk (more modalities) = STRONGER signal
     → Expert domain (high clarity) = detect more SUBTLE signals
     → Modality richness DIRECTLY affects the feeling threshold
@@ -579,7 +579,7 @@ CONNECTION TO FRAMEWORK:
     Effective therapy = therapy that reaches the CORRECT modalities the chunk is encoded in
   → Feeling (Feeling.md v2.0):
     Feeling threshold (magnitude × clarity) → modality richness affects magnitude
-    Deeper chunks (more modalities) → stronger signal → PFC can observe more readily
+    Deeper chunks (more modalities) → stronger signal → PFC can receive more readily
   → Cortisol (Cortisol-Amplifier-Not-Cause.md):
     Chronic cortisol → overrides body signals → somatic modality gets muffled
     → Therapy must address cortisol FIRST before somatic work becomes effective

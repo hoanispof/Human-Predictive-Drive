@@ -791,7 +791,7 @@ AI increasingly performs tasks "better" than humans in many domains → delegati
 - Body-Feedback-Label.md v2.0 — prediction-delta, approach/avoidance tag, Compiled/Fresh
 
 **Core Files**:
-- Core-Software.md §8 — observation parameter definition
+- Core-Software.md §9 — observation parameter definition
 - Body-Feedback-Mechanism.md v2.0 §3 — Chunk dynamics (Chunk-Shift/Miss/Gap)
 - Chunk.md v2.0 — chunk substrate, compilation
 - Agent-Mechanism.md v2.1 — §12 body-need feeder, self-as-agent, 10 dimensions
@@ -817,7 +817,7 @@ AI increasingly performs tasks "better" than humans in many domains → delegati
 **New Concept Files (Observation Drill)**:
 - Entity-Access.md v1.2 — autonomy = control over Entity-Access gradient
 - Simulation-Engine.md v1.0 — autonomy unlocks Simulation-Engine full capacity
-- Consciousness.md v1.0 §8.1 — consciousness = observation parameter (autonomy requires conscious access)
+- Consciousness.md v1.4 §1.5 — consciousness = enabling state (autonomy requires conscious access)
 
 **Research Citations**:
 - 🟢 Erikson (1950) — autonomy vs shame and doubt

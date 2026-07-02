@@ -25,7 +25,7 @@ dependencies:
   - Valence-Propagation.md v3.0 — per-entity + chain propagation + PFC blindness
   - Drive.md v1.2 — integration hub, unconscious ENGINE + PFC NAVIGATOR
   - Novelty.md v1.2 — VTA seismograph + habituation detection
-  - Feeling.md v3.0 — PFC observation of body, 7-layer fidelity
+  - Feeling.md v3.0 — PFC reception of body, 7-layer fidelity
   - Entity-Compiled.md v1.0 — HOW entities compile into body-base
   - Bond-Architecture.md v2.0 — 4 bond types, gap clone impossible
   - Gap-Body-Need.md v1.0 — 3 Satiation Types, 5-Parameter
@@ -1153,8 +1153,8 @@ IF YOU WANT TO UNDERSTAND:
   "VTA detection mechanism?"
     → Novelty.md v1.2 (Observation/) (VTA seismograph + habituation + DRD4)
 
-  "Feeling — what does PFC see when observing body?"
-    → Feeling.md v3.0 (Body-Base/Feeling/) (7-layer fidelity + PFC observation interface)
+  "Feeling — what does PFC receive from body?"
+    → Feeling.md v3.0 (Body-Base/Feeling/) (7-layer fidelity + PFC reception interface)
 
   "Body feedback — 3 body signals?"
     → Body-Feedback/ folder (01-Foundation + 02-Dissonance + 03-Reward)
@@ -1176,7 +1176,7 @@ DEPENDENCY FILES (this file depends on):
   [Reward-Signal-Architecture.md v2.0](../Body-Base/Body-Feedback/Reward-Signal-Architecture.md) — Evaluative/Direct-State + E₀→E₃ + 5 Profiles
   [Valence-Propagation.md v3.0](../Body-Base/Valence-Propagation.md) — chain propagation + 3 Firing Modes
   [Anchor-Schema.md v1.0](../Body-Base/Schema/Anchor-Schema.md) — Trust binding + 4 fill sources
-  [Feeling.md v3.0](../Body-Base/Feeling/Feeling.md) — PFC observation + 7-layer fidelity
+  [Feeling.md v3.0](../Body-Base/Feeling/Feeling.md) — PFC reception + 7-layer fidelity
 
   PFC/:
   [Imagine-Final.md v3.0](../PFC/Imagination/Imagine-Final.md) — constructive simulation + 3-Layer + lifecycle

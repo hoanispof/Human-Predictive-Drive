@@ -554,7 +554,7 @@ GRADIENT COMPILE (Compile-Gradient + R-F1-10):
   │  1   │ Shared              │ Overlapping neurons  │ None         │
   │      │ Contamination       │ fire into each other │ (automatic)  │
   ├───────────────────────────────────────────────────────────────────┤
-  │  2   │ Aha Moment          │ DMN incubation →     │ Observer     │
+  │  2   │ Aha Moment          │ DMN incubation →     │ Receiver     │
   │      │ (Insight)           │ sudden burst link    │ (surprised)  │
   ├───────────────────────────────────────────────────────────────────┤
   │  3   │ Meta-chunk          │ Repeated co-firing → │ Weak         │
@@ -1151,7 +1151,7 @@ LINK STRENGTH = f(7 factors):
   EXPOSURE-SPONTANEOUS (automatic chunk fire):
     Background-Pattern + spontaneous memory + association chains + mind wandering.
     Cost ≈ 0. Self-reinforcing (strong → fires → stronger).
-    PFC = OBSERVER for Spontaneous (cannot direct it).
+    PFC = RECEIVER for Spontaneous (cannot direct it).
 
   3 Channels → ALL feed into SAME Compile Engine (Hebbian).
   Compile Engine does NOT distinguish source (§1.1: NO SOURCE TAG).
@@ -1466,7 +1466,7 @@ LINK STRENGTH = f(7 factors):
     Body-Feedback-Precondition.md v1.0 → 5 preconditions for body-feedback signal
 
   REFERENCE FILES (current versions):
-    Body-Base/Feeling/Feeling.md v3.0 → feeling = PFC observation, 7-layer
+    Body-Base/Feeling/Feeling.md v3.0 → feeling = PFC reception, 7-layer
     Body-Base/Valence-Propagation.md v4.1 → structural/current valence, 3 firing modes
     Body-Base/Entity-Valence-Dynamics.md v1.1 → per-entity valence dynamics
     Body-Base/Body-Coupling.md v3.0 → coupling, 4 bond types, Hardware-Subsidy

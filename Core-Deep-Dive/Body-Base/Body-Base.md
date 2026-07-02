@@ -26,7 +26,7 @@ dependencies:
   - Body-Feedback/Reward-Signal-Architecture.md v2.1 — Evaluative/Direct-State, 5 Profiles
   - Body-Feedback/Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State Dissonance, clinical
   - Body-Feedback/Body-Feedback-Precondition.md v1.0 — 5 preconditions, WHEN signal fires
-  - Feeling/Feeling.md v3.0 — 7-layer fidelity, PFC observation
+  - Feeling/Feeling.md v3.0 — 7-layer fidelity, PFC reception
   - Feeling/Body-Knowing.md v1.0 — compiled knowing, 3 directions, Dual Check
   - Chunk/Chunk.md v3.0 — sole substrate, 4-phase lifecycle, Compile Architecture
   - Chunk/Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 3 Compile Types
@@ -69,7 +69,7 @@ source: Core-Deep-Dive/Body-Base/Body-Base.md (Vietnamese)
 > **You "give freely without thinking" → compiled patterns (trust, coupling, norms) fire automatically — the body HAS its reasons; the PFC just sees "spontaneous generosity."**
 >
 > All of this is **body-base** — the foundational system that EVERYTHING in the framework
-> runs on top of. The body reacts first. The PFC observes afterward. This order NEVER reverses.
+> runs on top of. The body reacts first. The PFC receives afterward. This order NEVER reverses.
 >
 > **Core principles (v3.0):**
 > Body evaluates PATTERNS, not reality.
@@ -110,10 +110,10 @@ source: Core-Deep-Dive/Body-Base/Body-Base.md (Vietnamese)
     → Feelings emerge FROM body-chunk interaction
     → Drives operate ON body-base signals
     → Schemas SERVE body-base (not the reverse)
-    → PFC observes body-base OUTPUT (does not feel directly)
+    → PFC receives body-base OUTPUT (does not feel directly)
 
   Conceptual layer stack:
-    [PFC OBSERVATION]       ← Feeling (PFC observes body-chunk interaction)
+    [PFC RECEPTION]         ← Feeling (PFC receives body-chunk interaction)
     [SCHEMAS, CHUNKS]       ← Compiled patterns (sole substrate)
     [L1 BODY-INPUTS]        ← Body-Base substrate (17 sub-categories)
     [L0 ALIVE THRESHOLD]    ← Survival floor (binary)
@@ -148,7 +148,7 @@ FILE POSITION IN THE FLOW:
   │      Entity-Access v1.2                                                │
   │    Bond-Architecture v2.0, Resonance (3 files), Scale v1.0             │
   │                                                                        │
-  │  Observation (WHAT PFC SEES):                                          │
+  │  Reception (WHAT PFC SEES):                                             │
   │    Feeling/ (Feeling v3.0, Body-Knowing v1.0)                          │
   │    Body-Feedback/ (17 files, ~27,500 lines)                            │
   │                                                                        │
@@ -186,8 +186,8 @@ FILE POSITION IN THE FLOW:
 
   Body-Base is the SOURCE:
     → Schemas serve body-base (Drill §23, PFC-Function §9)
-    → Reward = body decides, PFC observes
-    → PFC does NOT create feeling — PFC observes body-chunk interaction
+    → Reward = body decides, PFC receives
+    → PFC does NOT create feeling — PFC receives body-chunk interaction
     → = Feeling.md v3.0: "Feeling = WHAT PFC SEES"
 ```
 
@@ -291,7 +291,7 @@ Detail: Inter-Body-Mechanism.md §1
     ⑦ Can be hijacked (hormones, scams)
 
   Body-need = WHY body drives behavior.
-  PFC observes body-need AFTER it has already formed.
+  PFC receives body-need AFTER it has already formed.
   Many behaviors that feel "spontaneous" = body-need running while PFC
     has not yet given it a name.
 
@@ -331,7 +331,7 @@ Detail: Body-Feedback-Mechanism.md v2.1 §1, Inter-Body-Mechanism.md §2,
 
   BUT:
     ✅ "Body drives, schemas serve"
-    ✅ "Unconscious is primary, PFC is observer + director"
+    ✅ "Unconscious is primary, PFC is receiver + director"
     ✅ "Embodied agent with PFC as extended capability"
 
   Evidence:
@@ -450,14 +450,14 @@ Detail: Body-Feedback-Mechanism.md v2.1 §1, Inter-Body-Mechanism.md §2,
   │     ② Associative spreading (following strongest links)         │
   │     ③ Incubation (parallel combination + coherence eval)        │
   ├─────────────────────────────────────────────────────────────────┤
-  │ COMPONENT 2 — PFC: DIRECT + SEQUENCE + OBSERVE                  │
+  │ COMPONENT 2 — PFC: DIRECT + SEQUENCE + RECEIVE                   │
   │                                                                  │
   │   DIRECT: allocate attention, active lock (hold+cortisol),      │
   │           hijack body-input                                     │
   │   SEQUENCE: plan (arrange chunks), compare (hold 2+ options),   │
   │             choose (select competing paths)                     │
   │   HOLD: working memory 4±1 slots                                │
-  │   OBSERVE: monitor body state, verify, domain-check             │
+  │   RECEIVE: monitor body state, verify, domain-check             │
   │   FACILITATE: imagination, creation (combine new chunks)        │
   │   INHIBIT: impulse control (suppress compiled responses)        │
   │                                                                  │
@@ -864,7 +864,7 @@ Detail: Inter-Body-Mechanism.md §3, Self-Pattern-Modeling.md v3.2 §2
     L0 (Alive threshold):    brainstem = BOTH processing AND modulatory
     L1 (Body-inputs):        modulatory system regulates sensory processing
     PFC operators:           modulatory = operators (dopamine, NE, serotonin)
-    PFC (observation):       processing neurons compute, modulatory fuels
+    PFC (reception):         processing neurons compute, modulatory fuels
 
   BRAAK STAGING VALIDATES ARCHITECTURE (Parkinson-Analysis.md §4.2):
     → α-synuclein ascending: gut → brainstem → midbrain → cortex
@@ -1096,7 +1096,7 @@ Detail: Inter-Body-Mechanism.md §9
 
   TIMING HIERARCHY:
     ① Body check (automatic, fast) — FIRST checkpoint
-    ② PFC observe (when body signals a problem) — SECOND checkpoint
+    ② PFC receive (when body signals a problem) — SECOND checkpoint
     ③ Chain analysis (diagnostic) — THIRD (post-break, framework level)
 
     → Body is ALWAYS the first responder
@@ -1200,7 +1200,7 @@ BODY-BASE/ FOLDER OVERVIEW (~70+ files):
   │   │                                        paradox
   │   └── Drill-Body-Feedback/04-Integration.md — Unified cycle, walkthroughs
   │
-  ├── Feeling/                       — PFC observation system (~7,700 lines)
+  ├── Feeling/                       — PFC reception system (~7,700 lines)
   │   ├── Feeling.md v3.0            — Central reference (WHAT + HOW)
   │   ├── Body-Knowing.md v1.0       — Compiled knowing, 3 directions, Dual Check
   │   ├── Feeling-Mechanism-Deep-Draft.md  — 8-step flow, reward
@@ -1456,7 +1456,7 @@ WITHIN BODY-BASE/ FOLDER:
   Hidden-Quality-Perception.md v1.0 — 2 types (Expert+Leader), Dunning-Kruger meta
   Reward-Signal-Architecture.md v2.1 — Evaluative:Direct-State ratio,
                                reward calibration
-  Feeling/                  — PFC observation interface, 7-layer fidelity
+  Feeling/                  — PFC reception interface, 7-layer fidelity
   Feeling/Body-Knowing.md v1.0 — compiled knowing, 3 directions, Dual Check
   Chunk/Chunk.md v3.0       — sole substrate, 4-phase lifecycle, Compile Architecture
   Chunk/Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 3 Compile Types

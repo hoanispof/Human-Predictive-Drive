@@ -8,7 +8,7 @@ scope: |
   PFC is only 1 of 4 sources that supply the anchor.
   This file: WHY the unconscious needs an anchor, HOW anchors work,
   WHICH sources fill the anchor, and WHAT happens when it's missing.
-parent: Core-Software.md §8 (observation parameters table)
+parent: Core-Software.md §9 (observation parameters table)
 dependencies:
   - Core-Software.md — cycle architecture, observation parameters
   - Chunk.md v2.0 — chunk substrate
@@ -1806,7 +1806,7 @@ V2.0 REFERENCE FILES (v1.2 added):
 
   Feeling.md v2.0:
     → §5: 8-step flow — anchor's influence at step 5 (chunk match) + step 7 (body vote)
-    → PFC observes anchor-driven body state → feeling
+    → PFC receives anchor-driven body state → feeling
     → = "Why it feels 'in the right direction' when the anchor is strong"
 
   Chunk.md v2.0:

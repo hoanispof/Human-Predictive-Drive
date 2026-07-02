@@ -17,7 +17,7 @@ related: |
   PFC-Hold-Dimensions.md — Why ~4±1 dimensions
   Neural-Architecture.md §2 — Physical PFC sub-regions
   Cortisol-Baseline.md v2.0 — Cortisol affects PFC + neural wear
-  Core-Software.md §9 — Development Trajectory
+  Core-Software.md §10 — Development Trajectory
 language: English primary + technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -112,7 +112,7 @@ CORRECT REFRAME:
      as adult. 5mo weaker + delayed (~900ms), adult ~300ms.
      Signal "particularly prominent above frontal lobe" (P3b-like)
    → Frontal-dependent consciousness mechanism ALREADY FUNCTIONAL from 5mo
-   → Consciousness here = ACCESS consciousness (Consciousness.md v1.0 §1.1)
+   → Consciousness here = ACCESS consciousness (Consciousness.md v1.5 §1.1)
 ```
 
 ```
@@ -681,12 +681,12 @@ PFC HARDWARE:        PFC-Hardware.md — COMT, DRD4, NE, individual parameters
 PFC HOLD ANALYSIS:   PFC-Hold-Dimensions.md — why ~4±1
 PHYSICAL MAP:        Neural-Architecture.md §2 — sub-regions, connectivity
 CORTISOL:            Cortisol-Baseline.md v2.0 — cortisol affects PFC + damage
-CORE ARCHITECTURE:   Core-Software.md §9 — Development Trajectory
+CORE ARCHITECTURE:   Core-Software.md §10 — Development Trajectory
 BODY-FEEDBACK:       Body-Feedback.md — Body-Feedback-Precondition (incl. Precondition-2 Chunk-Substrate)
 CHUNK SYSTEM:        Chunk.md v2.0 — compile mechanism, activation dynamics
 DRIVE INTEGRATION:   Drive.md v1.1 §2 — 6 PFC Modes (complements §4 trajectory)
 SELF-OBSERVATION:    Self-Observation.md v1.0 §6 — Teen paradox (CAN observe, CAN'T regulate)
-CONSCIOUSNESS:       Consciousness.md v1.0 — access consciousness = "knowing" (§1 evidence ⑤ maps here)
+CONSCIOUSNESS:       Consciousness.md v1.5 — access consciousness = "knowing" (§1 evidence ⑤ maps here)
 
 §3b SCALING CONSTRAINTS (v1.1 — new):
   PFC-Operations.md §9   — PFC Budget = CONSEQUENCE of PFC ceiling (finite shared resource)

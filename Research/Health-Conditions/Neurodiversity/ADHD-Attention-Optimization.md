@@ -875,7 +875,7 @@ THIS FILE RESPONDS — per Trade-Off insight:
 ```
 🟡 FRAMEWORK SYNTHESIS (applying Background-Pattern.md):
 
-  Background-Pattern.md: 7 reasons PFC CANNOT observe own Background-Patterns.
+  Background-Pattern.md: 7 reasons PFC CANNOT receive own Background-Patterns.
   ADHD ADDS an 8th: PFC ALREADY under-fueled → self-observation MORE costly.
   = Person with ADHD EVEN LESS able to detect own Background-Patterns than neurotypical.
   = External observer NOT optional — ESSENTIAL.

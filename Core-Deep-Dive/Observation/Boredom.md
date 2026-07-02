@@ -207,7 +207,7 @@ CHANGELOG:
     Imagine-Final: doesn't know HOW to fix the relationship.
     PFC: "bored" ✅
 
-  → PFC observes THE SAME pattern → labels with THE SAME WORD → PFC is CORRECT.
+  → PFC receives THE SAME pattern → labels with THE SAME WORD → PFC is CORRECT.
   → Difference is in the SOURCE of dissonance, not in the formula.
   → = 1 spectrum, not 2 separate phenomena.
 
@@ -1232,7 +1232,7 @@ CASE 5 — "Scrolling social media and still bored" (Type 1, temporary fix):
 
 ```
   ← FOUNDATION:
-    Core-Software.md §8 — observation parameters
+    Core-Software.md §9 — observation parameters
     Body-Feedback-Mechanism.md v2.0 §3.2 — Chunk-Miss ⓑ = boredom substrate
     Cortisol-Baseline.md v2.1 — cortisol modes, baseline drift
     Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture idle signal
@@ -1259,7 +1259,7 @@ CASE 5 — "Scrolling social media and still bored" (Type 1, temporary fix):
     Observation/Threat.md v1.1 — PUSH (boredom ≠ threat; threat lock → Type 2)
     Observation/Drive.md v1.2 §2 — Drive-PFC-Spinning ≈ boredom territory
     Observation/Meaning.md v2.1 — Type 3 void → meaning question gateway
-    Consciousness.md v1.0 §8.1 — consciousness = observation parameter (boredom = conscious signal)
+    Consciousness.md v1.4 §1.5 — consciousness = enabling state (boredom = conscious signal)
 
   → DOWNSTREAM:
     Gap-Direction.md v2.0 — gap immutability, "don't know yet = no gap"
@@ -1267,7 +1267,7 @@ CASE 5 — "Scrolling social media and still bored" (Type 1, temporary fix):
     Body-Coupling.md v2.0 — couple-level boredom dynamics
     Connection.md v4.0 — "lonely in a crowd" = source ⑥ territory
     Imagine-Final-Evaluation.md — Imagine-Final clarity dimensions
-    Feeling.md v3.0 — "bored" = PFC observation label
+    Feeling.md v3.0 — "bored" = PFC reception label
     Love-Romantic.md v2.3 — long-term bonding + boredom dynamics
     Valence-Propagation.md v2.0 — valence during boredom
 

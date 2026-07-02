@@ -25,7 +25,7 @@ position: |
   Reading order: AFTER PFC-Function.md (need to know 24 functions) + PFC-Hardware.md
     (need to know hardware).
 dependencies:
-  - PFC-Function.md v1.2 — 24 functions, 5 categories, PFC offline cases
+  - PFC-Function.md v1.3 — 24 functions, 5 categories, PFC offline cases
   - PFC-Hardware.md v1.1 — COMT, DRD4, NE α2/α1, PFC-Quality
   - Neural-Architecture.md §2 — 6 PFC sub-regions physical map
   - Drive.md v1.1 §2 — 6 PFC participation modes
@@ -87,7 +87,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ THIS FILE ANSWERS A DIFFERENT QUESTION:
 
   PFC-Function.md — WHAT (24 functions, individual listing):
-    "PFC can observe, hold, process, orchestrate, strategic."
+    "PFC can receive, hold, process, orchestrate, strategic."
     = STATIC list — functions exist REGARDLESS of brain state.
 
   PFC-Configuration.md — HOW COMBINE (6 modes, dynamic):
@@ -190,7 +190,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ═══════════════════════════════════════════════════
 
   All 24 functions AVAILABLE, moderate intensity.
-  PFC coordinates normally — observe, hold, process, orchestrate, strategic.
+  PFC coordinates normally — receive, hold, process, orchestrate, strategic.
 
   Characteristics:
     → dlPFC: full access (15/24 functions available)
@@ -531,13 +531,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   NOT 1:1 — 1 sub-region can serve 15 functions.
 
 
-  OBSERVE (4):
+  RECEIVE (4):
   ┌────────────────────────┬────────────┬──────────────┬───────────────────┐
   │ Function               │ Primary    │ Secondary    │ Evidence          │
   ├────────────────────────┼────────────┼──────────────┼───────────────────┤
-  │ ① Observe Feeling      │ vmPFC      │ ant. insula  │ 🟢 Damasio 1994   │
-  │ ② Observe Body Vote    │ ACC        │ OFC          │ 🟢 Botvinick 2004 │
-  │ ③ Observe Chunk Active │ dlPFC      │ mPFC         │ 🟡                │
+  │ ① Receive Feeling      │ vmPFC      │ ant. insula  │ 🟢 Damasio 1994   │
+  │ ② Receive Body Vote    │ ACC        │ OFC          │ 🟢 Botvinick 2004 │
+  │ ③ Detect Chunk Active  │ dlPFC      │ mPFC         │ 🟡                │
   │ ④ Meta-cognition       │ mPFC       │ ACC          │ 🟢 Fleming 2012   │
   └────────────────────────┴────────────┴──────────────┴───────────────────┘
 
@@ -647,11 +647,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Legend: ✅ = active  ⚠️ = altered  ❌ = offline  ⭐ = enhanced
 
 
-  OBSERVE (4):
+  RECEIVE (4):
   ┌──────────────────┬────────┬────────┬────────┬────────┬────────┬────────┐
   │ Function         │①Normal │②Reallo │③Reconf │④Discon │⑤Hyper  │⑥Disint │
   ├──────────────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-  │ ① Observe Feel   │ ✅     │ ⚠️task │ ⚠️alt  │ ❌     │ ⚠️over │ ❌flood│
+  │ ① Receive Feel   │ ✅     │ ⚠️task │ ⚠️alt  │ ❌     │ ⚠️over │ ❌flood│
   │ ② Body Vote      │ ✅     │ ✅task │ ⚠️sugg │ ❌     │ ❌supp │ ❌     │
   │ ③ Chunk Active   │ ✅     │ ✅task │ ⚠️     │ ❌     │ ⚠️narr │ ❌chao │
   │ ④ Meta-cognition │ ✅     │ ❌     │ ✅trn  │ ❌     │ ⚠️exc  │ ❌     │
@@ -1259,7 +1259,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 PFC FOLDER (companion files):
-  PFC-Function.md v1.2 — 24 functions (WHAT PFC does)
+  PFC-Function.md v1.3 — 24 functions (WHAT PFC does)
     → This file EXTENDS with dynamic configurations
   PFC-Hardware.md v1.1 — Hardware parameters (COMT, DRD4, NE)
     → Hardware affects which configs accessible + quality per-config
@@ -1291,10 +1291,10 @@ BODY SYSTEMS:
     → §7 attachment paradox → body-coupling mechanism
 
 FEELING:
-  Feeling.md v2.0 — Feeling = PFC observation of body-feedback
-    → Config determines WHAT PFC can observe
+  Feeling.md v2.0 — Feeling = PFC receipt of body-feedback
+    → Config determines WHAT PFC can receive
   Feeling-Mechanism-Deep.md — §4 reward mechanism
-    → Config affects reward observation fidelity
+    → Config affects reward signal fidelity
 
 THREAT:
   Threat.md — Threat strategies × PFC configurations
@@ -1307,7 +1307,7 @@ COMPILATION:
     → Reconsolidation = chunk modification (⑭) mechanism
 
 CONSCIOUSNESS:
-  Consciousness.md v1.0 — PFC configuration affects consciousness access
+  Consciousness.md v1.5 — PFC configuration affects consciousness access
     → Config ④⑤ (threat/dissociation) = altered consciousness state
 
 CORE:

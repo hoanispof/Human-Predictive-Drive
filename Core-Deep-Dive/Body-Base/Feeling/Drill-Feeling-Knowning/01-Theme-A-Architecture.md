@@ -17,7 +17,7 @@ confidence_target: HIGH (framework internally consistent + research backing)
 
 ## §0 — Original Questions (from plan.md §2.5)
 
-> Are we trying to force Feeling to stay within body-base — or is it genuinely, entirely body-base, with PFC only observing the unconscious, then choosing and requesting the unconscious to continue computing or hold for chaining?
+> Are we trying to force Feeling to stay within body-base — or is it genuinely, entirely body-base, with PFC only receiving the unconscious, then choosing and requesting the unconscious to continue computing or hold for chaining?
 >
 > From PFC detecting basic body-base signals (hunger, clear pain, clear joy, ...) to PFC detecting through a dim, fuzzy imagine layer in the unconscious.
 >
@@ -25,7 +25,7 @@ confidence_target: HIGH (framework internally consistent + research backing)
 
 **Four sub-questions to answer:**
 1. **Forcing or not**: Are we forcing Feeling into body-base?
-2. **Architecture**: Is Feeling purely body-base with PFC only observing? Or is there bidirectional flow or something else?
+2. **Architecture**: Is Feeling purely body-base with PFC only receiving? Or is there bidirectional flow or something else?
 3. **Spectrum**: From clear signals (hunger) to the fuzzy imagine layer — same mechanism or different?
 4. **"Directing the unconscious to compute"**: Does PFC have a top-down query mechanism?
 
@@ -40,7 +40,7 @@ confidence_target: HIGH (framework internally consistent + research backing)
 - [Feeling-Research.md](../Feeling-Research.md) §2 Damasio + §4 Craig + §9 Research limits (predictive processing gap)
 
 ### §1.2 Tier 2 outlines (proposed refinements)
-- [Feel-Development.md](../Feel-Development.md) §1 **Expanded definition** + §2 PFC as Observer
+- [Feel-Development.md](../Feel-Development.md) §1 **Expanded definition** + §2 PFC as Receiver
 - [Self-Pattern-Modeling.md](../Self-Pattern-Modeling.md) §1–2 — intrapersonal mechanism hypothesis
 - [By-Product-Gap-Resonance.md](../By-Product-Gap-Resonance.md) §1–2 — interpersonal simulator hypothesis
 
@@ -61,7 +61,7 @@ The framework currently has **two tiers of definition** coexisting:
 > "FEELING = integrated feedback signal about the **state of body systems** (body-base (L0+L1) + agent input + mirror + schema + Imagine-Final + valence + cognitive prediction) → VERBALIZABLE at PFC level."
 
 **Tier 2** ([Feel-Development.md](../Feel-Development.md) §1 OUTLINE, 2026-04-14):
-> "Feeling = **everything PFC can observe from body-base or the unconscious**, whether verbalizable or not yet clearly formed. Called 'feeling' collectively because not everything can be verbalized."
+> "Feeling = **everything PFC can receive from body-base or the unconscious**, whether verbalizable or not yet clearly formed. Called 'feeling' collectively because not everything can be verbalized."
 
 **Reasoning for Tier 2 expansion** (from Feel-Development.md §1.2):
 > "Body-base alone is TOO NARROW. Examples that fit the expanded definition but not the original:
@@ -73,7 +73,7 @@ The framework currently has **two tiers of definition** coexisting:
 > - Felt Sense (Gendlin's pre-verbal body wisdom)"
 
 **Unified mechanism** (Tier 2):
-> "ALL are PFC observing **unconscious processing**, whether: body (interoception), schemas (pattern matching), predictions (interoceptive + exteroceptive forecasts), memory retrieval, inference, simulator (Resonance output), integration (diffuse multi-source states)."
+> "ALL are PFC receiving **unconscious processing**, whether: body (interoception), schemas (pattern matching), predictions (interoceptive + exteroceptive forecasts), memory retrieval, inference, simulator (Resonance output), integration (diffuse multi-source states)."
 
 **Tension resolved**: Tier 1 attempted to list all sources inside "body systems" — which required a stretch. Tier 2 renames the category: "unconscious processing" is the parent; body-base is a subset.
 
@@ -100,7 +100,7 @@ The framework currently has **two tiers of definition** coexisting:
 >
 > C. Awareness matters: The body computes whether PFC notices or not. PFC attention = whether the feeling becomes explicit. Not attending ≠ not happening."
 
-**→ INVARIANT**: Regardless of which definition (Tier 1 or Tier 2), **the body computes first, feeling emerges, PFC observes after**. Theme A preserves this fully.
+**→ INVARIANT**: Regardless of which definition (Tier 1 or Tier 2), **the body computes first, feeling emerges, PFC receives after**. Theme A preserves this fully.
 
 ### §2.3 — Why "body-base" alone is too narrow (evidence for Tier 2)
 
@@ -110,7 +110,7 @@ The Feel-Development outline identifies six types of feeling that do not fit pur
 - Example from Feel-Example-Draft E78: "I know this problem is solvable"
 - Source: memory retrieval + cognitive chunks
 - Not body interoception — not body-base substrate in the traditional sense
-- But IS a real feeling PFC observes
+- But IS a real feeling PFC receives
 
 **Example 2 — Cognitive confidence:**
 - Example: "I feel confident about this argument" (E79)
@@ -137,7 +137,7 @@ The Feel-Development outline identifies six types of feeling that do not fit pur
 - Source: integrated multi-channel compilation
 - Body is the source — but **what is integrated** includes schemas, memory, prediction, not just raw interoception
 
-**Pattern across all six**: All are real feelings PFC observes. None fit a clean "body-base" definition. All involve **unconscious processing beyond raw body signals** — schemas, predictions, simulation, memory retrieval.
+**Pattern across all six**: All are real feelings PFC receives. None fit a clean "body-base" definition. All involve **unconscious processing beyond raw body signals** — schemas, predictions, simulation, memory retrieval.
 
 **Framework's own acknowledgment** (Feeling-Research.md §9 Research limits):
 > "Computational models — Predictive processing (Friston, Seth) offers a framework. Interoceptive inference model (Seth 2013). **Relationship to the framework not fully worked out. Promising convergence area.**"
@@ -178,7 +178,7 @@ The Feel-Development outline identifies six types of feeling that do not fit pur
 │                                                                │
 │                      ↓                                         │
 │                                                                │
-│                  PFC OBSERVATION INTERFACE                     │
+│                  PFC RECEPTION INTERFACE                       │
 │         (Feel-Consciousification–Feel-Observation in 7-layer)  │
 │                                                                │
 │                      ↓                                         │
@@ -195,7 +195,7 @@ The Feel-Development outline identifies six types of feeling that do not fit pur
 
 **Key architectural claims** (Theme A commits):
 
-**Claim 1**: **Feeling = what PFC observes from unconscious processing** (not just body-base).
+**Claim 1**: **Feeling = what PFC receives from unconscious processing** (not just body-base).
 - Body-base is ONE source among many
 - Unconscious processing is the parent category
 - All sources integrated at upstream hub (insula + ACC + VMPFC)
@@ -206,7 +206,7 @@ The Feel-Development outline identifies six types of feeling that do not fit pur
 - This preserves the Body-First temporal Invariant
 
 **Claim 3**: **PFC performs these functions (does not create feelings)** [Feel-Development §2.2 + Imagine-Final §1]:
-- OBSERVE (read integrated signals)
+- RECEIVE (read integrated signals)
 - LABEL (via chunks)
 - INTEGRATE + PLAN + REPORT
 - **NOT**: generate, create, or compute raw body state
@@ -217,18 +217,18 @@ The Feel-Development outline identifies six types of feeling that do not fit pur
 - BOTH always running
 - PFC engages only when the unconscious signals dissonance (reactive)
 
-### §2.5 — PFC's Role: Observer, Not Creator
+### §2.5 — PFC's Role: Receiver, Not Creator
 
 Feel-Development.md §2 explicitly lists what PFC does and does not do:
 
 **What PFC DOES:**
-- **Observe** (read integrated upstream signals)
+- **Receive** (read integrated upstream signals)
 - **Label** (via chunks — error-prone at Feel-Labeling–Feel-Explanation)
 - **Integrate** (combine multiple channel reads)
 - **Plan** (strategic reasoning using chunks)
 - **Report** (verbalize if chunks support)
 - **Choose** between competing signals (executive function)
-- **Direct attention** (top-down bias of what to observe)
+- **Direct attention** (top-down bias of what to receive)
 
 **What PFC DOESN'T do:**
 - **Execute interoception** (the body does)
@@ -248,8 +248,8 @@ Feel-Development.md §2 explicitly lists what PFC does and does not do:
 - ~95% of life: compiled schemas auto-fire → auto-anchor → PFC does NOT participate
 - ~5% of decisions: compiled schemas insufficient → PFC engages (new situations, conflicts, long-term decisions)
 
-**→ Answer to sub-question 1**: PFC does "observe the unconscious then choose" — **the framework explicitly confirms this**. But PFC does more than just observe and choose:
-- Observe (Feel-Consciousification–Feel-Observation integration)
+**→ Answer to sub-question 1**: PFC does "receive the unconscious then choose" — **the framework explicitly confirms this**. But PFC does more than just receive and choose:
+- Receive (Feel-Consciousification–Feel-Observation integration)
 - Label via chunks (Feel-Labeling, error-prone)
 - Explain via narrative (Feel-Explanation, confabulation risk)
 - Choose between competing signals (executive)
@@ -269,7 +269,7 @@ The question is: **Is there a top-down "query mechanism" where PFC directs the u
 **Indirect support from research:**
 - **Global Workspace Theory** (Baars 1988) 🟢: PFC broadcast → whole-brain sync. This IS a top-down mechanism.
 - **Predictive processing** (Clark 2013, Friston): PFC sets high-level priors → propagated down to sensory cortex. Top-down attention biases what the unconscious processes.
-- **Miller and Cohen 2001** 🟢: PFC maintains goal representations → biases processing across the brain. Not just passive observation.
+- **Miller and Cohen 2001** 🟢: PFC maintains goal representations → biases processing across the brain. Not just passive reception.
 
 **BUT**: The framework has not explicitly modeled **"PFC query → wait for response → chain"** as a distinct mechanism.
 
@@ -317,7 +317,7 @@ The 7-layer structure applies to ALL feeling sources, not just body interoceptio
 
 **Clear signals (hunger, clear pain)** reliably reach Feel-Location–Feel-Labeling. Fuzzy signals remain at Feel-Consciousification–Feel-Observation.
 
-**This is NOT two different mechanisms** — it is the **same observation interface** applied to signals of different strength and source.
+**This is NOT two different mechanisms** — it is the **same reception interface** applied to signals of different strength and source.
 
 #### §2.7.2 — Source Dimension
 
@@ -339,7 +339,7 @@ From Feeling-Sources.md §0–§10, ten channels produce feelings. They differ i
 - Feel-Consciousification fidelity: lower
 - PFC labels with uncertainty: "I feel like this plan will work... maybe?"
 
-**Same mechanism, different signal strength.** The framework handles both through the same PFC observation interface.
+**Same mechanism, different signal strength.** The framework handles both through the same PFC reception interface.
 
 #### §2.7.3 — Why "Fuzzy" Feels Different (Feel-Consciousification Felt Sense)
 
@@ -355,7 +355,7 @@ From Feeling-Sources.md §0–§10, ten channels produce feelings. They differ i
 **Framework position** (from Feel-Development §2.4):
 > "The Logic-Feeling flow is partially resolved: NOT Model A (PFC directly senses raw body), NOT Model B (PFC purely labels from outside), IS: **PFC reads integrated middle-ground signals, labels via chunks.**"
 
-**→ Fuzzy ≠ another mechanism.** Fuzzy = the same PFC observation interface seeing a signal that:
+**→ Fuzzy ≠ another mechanism.** Fuzzy = the same PFC reception interface seeing a signal that:
 - Is integrated (Feel-Integration–Feel-Consciousification) but
 - Has no compiled Feel-Labeling label yet
 
@@ -363,7 +363,7 @@ From Feeling-Sources.md §0–§10, ten channels produce feelings. They differ i
 
 ### §2.8 — "Or is there another processing mechanism?" — Sub-question 3
 
-The question: Is there another processing mechanism beyond "PFC observes the unconscious + chooses + requests"?
+The question: Is there another processing mechanism beyond "PFC receives the unconscious + chooses + requests"?
 
 **Framework's answer**: **Possibly, but the framework commits to a unified model** with bidirectional flow.
 
@@ -374,7 +374,7 @@ The framework does NOT treat "imagine layer feelings" as a separate mechanism:
 - Mirror "copy" = own body firing a weaker version of another's state (Gallese embodied simulation)
 - Schema-triggered = body fires as if real input (Feeling-Sources §7)
 
-**Common pattern**: The body fires the same pathways at different intensities, from different triggers. PFC observes the integrated result. ONE mechanism, many inputs.
+**Common pattern**: The body fires the same pathways at different intensities, from different triggers. PFC receives the integrated result. ONE mechanism, many inputs.
 
 #### §2.8.2 — Bidirectional flow is the architectural complement
 
@@ -391,7 +391,7 @@ The framework acknowledges (Feeling-Research §9, Feel-Development §2.5):
 > "Predictive processing (Friston, Seth) offers a framework. Interoceptive inference model (Seth 2013). Relationship to the framework not fully worked out."
 
 Predictive processing proposes: the brain is a **prediction machine** that generates expectations and updates from prediction errors. If true, this may enable a deeper unification:
-- "Feeling" = PFC observing prediction error signals
+- "Feeling" = PFC receiving prediction error signals
 - "Body-first" = body interoception happens upstream of prediction
 - "Imagine-Final" = forward model predictions
 - "Anchor-Schema" = high-level priors
@@ -399,7 +399,7 @@ Predictive processing proposes: the brain is a **prediction machine** that gener
 **Theme A's stance on predictive processing**: Accept as a promising direction but do not commit. Theme A architecture is **compatible** with predictive processing but does not require it.
 
 **→ Answer to sub-question 3**: No, there is no secret "third mechanism." The framework has:
-- ONE observation interface (PFC observes integrated unconscious processing)
+- ONE reception interface (PFC receives integrated unconscious processing)
 - BIDIRECTIONAL flow (top-down attention + bottom-up requirement)
 - MANY sources feeding into integration (10 channels in Feeling-Sources)
 - POTENTIAL deeper unification via predictive processing (not committed yet)
@@ -417,7 +417,7 @@ Predictive processing proposes: the brain is a **prediction machine** that gener
 
 **Why it is not forcing:**
 - The framework has **already evolved** (Feel-Development outline, 2026-04-14)
-- Expanded definition: "PFC observing unconscious processing" (body-base + more)
+- Expanded definition: "PFC receiving unconscious processing" (body-base + more)
 - Tier 2 outlines (Self-Pattern-Modeling, Resonance) build on this
 
 **What's happening**: The framework is in a **refinement phase**. Tier 1 was the initial formalization. Tier 2 is the refinement that addresses edge cases. Both tiers coexist temporarily. Tier 1 will eventually be updated.
@@ -425,7 +425,7 @@ Predictive processing proposes: the brain is a **prediction machine** that gener
 **Analogy**: Newton → Einstein correspondence principle (cited in Logic-Feeling §4):
 > "Newton = SPECIAL CASE of Einstein. Two 'worlds' = one domain, two zoom levels."
 
-Here: Tier 1 "body-base feedback" is a special case of Tier 2 "PFC observes unconscious processing" — specifically when the unconscious source IS primarily the body.
+Here: Tier 1 "body-base feedback" is a special case of Tier 2 "PFC receives unconscious processing" — specifically when the unconscious source IS primarily the body.
 
 **The framework is NOT contradicting itself — it is refining.**
 
@@ -437,40 +437,40 @@ Here: Tier 1 "body-base feedback" is a special case of Tier 2 "PFC observes unco
 
 Theme A commits to the following architecture:
 
-1. **Feeling = PFC observation of integrated unconscious processing** (Tier 2 expanded definition). Body-base is one source among many. [Confidence: **HIGH** — aligns with Tier 2 outlines, adjacent files, research foundation]
+1. **Feeling = PFC reception of integrated unconscious processing** (Tier 2 expanded definition). Body-base is one source among many. [Confidence: **HIGH** — aligns with Tier 2 outlines, adjacent files, research foundation]
 
-2. **Body-First temporal Invariant preserved**: Unconscious → Integration → Feeling → PFC observes. PFC has NO direct access to raw signals. [Confidence: **HIGH** — 4 converging lines of evidence: Libet, Damasio, Craig, Gendlin]
+2. **Body-First temporal Invariant preserved**: Unconscious → Integration → Feeling → PFC receives. PFC has NO direct access to raw signals. [Confidence: **HIGH** — 4 converging lines of evidence: Libet, Damasio, Craig, Gendlin]
 
-3. **PFC functions**: Observer + Labeler + Integrator + Chooser + Attention director. Reactive, not creator. ~5% of decisions. [Confidence: **HIGH** — matches Feel-Development §2, Imagine-Final §1, Anchor-Schema §1]
+3. **PFC functions**: Receiver + Labeler + Integrator + Chooser + Attention director. Reactive, not creator. ~5% of decisions. [Confidence: **HIGH** — matches Feel-Development §2, Imagine-Final §1, Anchor-Schema §1]
 
 4. **Bidirectional architecture**: Top-down (PFC directs attention, Imagine-Final, executive choice) + Bottom-up (unconscious Anchor-Schema requirement, compiled schemas fire, feeling emerges). Both always running. [Confidence: **HIGH** — explicitly stated in Anchor-Schema §0]
 
-5. **"Fuzzy imagine layer" = same mechanism, weaker signal.** Not a separate processing layer. The PFC observation interface sees all sources through the same integration hub. [Confidence: **MEDIUM-HIGH** — framework implicit, not explicitly stated]
+5. **"Fuzzy imagine layer" = same mechanism, weaker signal.** Not a separate processing layer. The PFC reception interface sees all sources through the same integration hub. [Confidence: **MEDIUM-HIGH** — framework implicit, not explicitly stated]
 
 6. **Top-down query mechanism exists but weaker than originally hypothesized**: PFC can set attention, trigger reload, choose simulations. Chain formation happens in the BACKGROUND (Phase 3), not through active PFC waiting. [Confidence: **MEDIUM** — partial support from Imagine-Final §1.5, Global Workspace Theory, but not fully formalized]
 
 ### §3.2 — Direct Answers to the Original Meta-Question
 
 **Q1: "Are we trying to force Feeling to stay within body-base?"**
-→ **NO forcing.** The framework has evolved beyond pure body-base. Tier 2 expanded definition: "PFC observing unconscious processing" (body-base + memory + schema + predictive + simulation + Imagine-Final).
+→ **NO forcing.** The framework has evolved beyond pure body-base. Tier 2 expanded definition: "PFC receiving unconscious processing" (body-base + memory + schema + predictive + simulation + Imagine-Final).
 
-**Q2: "Is it genuinely all body-base, with PFC only observing the unconscious then choosing?"**
-→ **Body-base is a subset, not the whole.** PFC primarily observes + labels + chooses, correct. But PFC also directs attention top-down (sets priors, triggers reload). Bidirectional flow.
+**Q2: "Is it genuinely all body-base, with PFC only receiving the unconscious then choosing?"**
+→ **Body-base is a subset, not the whole.** PFC primarily receives + labels + chooses, correct. But PFC also directs attention top-down (sets priors, triggers reload). Bidirectional flow.
 
 **Q3: "And directing the unconscious to continue computing or hold for chaining?"**
 → **Partial YES.** PFC can set attention + anchor. Chain formation itself happens in the BACKGROUND phase (default mode network, REM consolidation, spreading activation). PFC reloads later. Not "PFC waits actively" — more like "PFC sets direction, releases, then reloads."
 
 **Q4: "From PFC detecting basic body-base signals to detecting through the fuzzy imagine layer — same mechanism or different?"**
-→ **SAME mechanism**, different signal strength + source. Clear signals (hunger) reach Feel-Location–Feel-Labeling easily. Fuzzy signals (Felt Sense) remain at Feel-Consciousification–Feel-Observation. Same PFC observation interface, different fidelity.
+→ **SAME mechanism**, different signal strength + source. Clear signals (hunger) reach Feel-Location–Feel-Labeling easily. Fuzzy signals (Felt Sense) remain at Feel-Consciousification–Feel-Observation. Same PFC reception interface, different fidelity.
 
 **Q5: "Or is there another processing mechanism?"**
-→ **No secret third mechanism.** The framework has: ONE observation interface + bidirectional flow + many sources + potential deeper unification via predictive processing (not committed yet).
+→ **No secret third mechanism.** The framework has: ONE reception interface + bidirectional flow + many sources + potential deeper unification via predictive processing (not committed yet).
 
 ### §3.3 — Overall Confidence
 
 **HIGH confidence on:**
 - Body-First temporal Invariant (4 converging lines of evidence)
-- PFC observer role (no direct access to raw signals)
+- PFC receiver role (no direct access to raw signals)
 - ~95/5 unconscious-to-PFC split
 - Bidirectional flow
 
@@ -493,13 +493,13 @@ Theme A commits to the following architecture:
 ### §4.1 — Theme D (Right/Wrong Feeling)
 
 Theme D test cases (Einstein, violation-of-expectation, partner behavior) will use the Theme A architecture:
-- **"Feeling right/wrong"** = PFC observing a pattern-match signal from integrated unconscious processing
+- **"Feeling right/wrong"** = PFC receiving a pattern-match signal from integrated unconscious processing
 - The source can be body (L1 tension), cognitive (pattern recognition via ACC error detection), simulation (Imagine-Final preview), or a combination
 - **Einstein case**: Imagine-Final simulation of riding a light beam → body simulates pressure/movement → contradiction with Newtonian schema → wrongness feeling at Feel-Consciousification–Feel-Observation → cognitive/predictive channel output
 - **Child violation-of-expectation**: body observes an object violating a physical schema → Feel-Consciousification "something isn't right" → Spelke Core Knowledge Object system failure → infant surprise
 - **Partner unusual behavior**: Resonance simulator fails to match → Feel-Consciousification mismatch → "something feels different"
 
-All three cases run through the **same PFC observation interface**, with different sources.
+All three cases run through the **same PFC reception interface**, with different sources.
 
 ### §4.2 — Theme B (Verbal × Chain × Plan)
 
@@ -526,20 +526,20 @@ The insight that "ritual = chaining chunks without verbal processing" aligns wit
 Theme A's architecture enables the Theme E framework:
 - **Empathy = Resonance** (Tier 2 rejection of hardware mirror)
 - Uses own Self-Pattern Match library as simulator
-- PFC observes the fit-judgment output as feeling
+- PFC receives the fit-judgment output as feeling
 - **Giving dynamics** driven by positive vs negative trust (Anchor-Schema §2)
 - **Resource distribution** via mirror reward (Empathy-Mirror §6.5)
 
-All of this runs through Theme A's "PFC observes unconscious processing" frame.
+All of this runs through Theme A's "PFC receives unconscious processing" frame.
 
 ### §4.5 — Theme F (Logic-Feeling Integration)
 
 Theme A aligns with Logic-Feeling §5 parallel processing:
-- Logic track = PFC observing rule-based processing (schemas, chunks, compiled rules)
-- Feeling track = PFC observing body-integration-based processing (interoception, mirror, predictive)
-- Both parallel, both observation-based
-- **Logic ⊂ Feeling (in Tier 2 sense)**: Logic is a specific type of "observing unconscious processing" where the unconscious source is compiled rules
-- Or: Logic and Feeling are two different observation targets, not two different observers
+- Logic track = PFC receiving rule-based processing (schemas, chunks, compiled rules)
+- Feeling track = PFC receiving body-integration-based processing (interoception, mirror, predictive)
+- Both parallel, both reception-based
+- **Logic ⊂ Feeling (in Tier 2 sense)**: Logic is a specific type of "receiving unconscious processing" where the unconscious source is compiled rules
+- Or: Logic and Feeling are two different reception targets, not two different receivers
 
 **Resolution pending Theme F**: Is Logic a subset of expanded Feeling (per Research Question 19), or a genuinely separate track?
 
@@ -565,15 +565,15 @@ Theme A leaves these questions for the Overview synthesis (99-Overview-Synthesis
 
 **Theme A in five sentences:**
 
-1. The framework has evolved from "Feeling = body-base feedback" (Tier 1) to "Feeling = PFC observation of integrated unconscious processing" (Tier 2 expanded). This directly addresses the worry about forcing feelings into body-base.
+1. The framework has evolved from "Feeling = body-base feedback" (Tier 1) to "Feeling = PFC reception of integrated unconscious processing" (Tier 2 expanded). This directly addresses the worry about forcing feelings into body-base.
 
 2. The Body-First temporal Invariant is preserved: Unconscious → Integration → Feeling → PFC. PFC has NO direct access to raw signals.
 
-3. PFC is a REACTIVE observer + labeler + chooser + attention director. Engaged in ~5% of decisions. Not a creator of feelings.
+3. PFC is a REACTIVE receiver + labeler + chooser + attention director. Engaged in ~5% of decisions. Not a creator of feelings.
 
 4. Architecture is BIDIRECTIONAL: top-down (PFC Imagine-Final, executive choice) + bottom-up (unconscious Anchor-Schema requirement). Both always running.
 
-5. The "fuzzy imagine layer" uses the same mechanism as clear signals — just a weaker or more-integrated source. One observation interface, many channels, different fidelity levels.
+5. The "fuzzy imagine layer" uses the same mechanism as clear signals — just a weaker or more-integrated source. One reception interface, many channels, different fidelity levels.
 
 **Confidence**: HIGH on architecture; MEDIUM on top-down query mechanism details; LOW on deeper consciousness questions (deferred).
 

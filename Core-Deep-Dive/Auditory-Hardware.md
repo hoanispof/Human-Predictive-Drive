@@ -713,7 +713,7 @@ PARAMETER FILES (§2 cross-ref targets)
 → Boredom.md v2.0 — prediction-delta = 0 (§2.8)
 → Chunk.md v2.3 — chunk substrate (§2.3)
 → PFC-Operations.md v1.3 — §9.3 2-Mode Engagement (Compiled/Fresh × music)
-→ Consciousness.md v1.0 — consciousness = observation parameter; sound affects
+→ Consciousness.md v1.3 — consciousness = enabling state; sound affects
   consciousness via arousal (§5.4) + broadcast threshold modulation
 
 

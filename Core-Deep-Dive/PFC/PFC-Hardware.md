@@ -980,8 +980,8 @@ THE LOOP SUMMARIZED:
 
 ```
 PFC FOLDER:
-  PFC-Function.md v1.2 — 24 observable functions
-  PFC-Configuration.md v1.0 — 6 dynamic modes, survival matrix (v1.1 NEW)
+  PFC-Function.md v1.3 — 24 observable functions
+  PFC-Configuration.md v1.1 — 6 dynamic modes, survival matrix
   PFC-Development.md — life stages + training
   PFC-Hold-Dimensions.md — why ~4±1
 

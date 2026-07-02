@@ -11,13 +11,13 @@ scope: |
   through musical language.
 position: |
   Melody-Lens = METAPHOR COMMUNICATION TOOL (a way of seeing, a way of speaking).
-  Core-Software.md §8 defines the Melody observation parameter concisely:
+  Core-Software.md §9 defines the Melody observation parameter concisely:
   "Emergent state of all systems running simultaneously."
   This file EXPANDS that metaphor → helps readers visualize that state.
   Does NOT add new mechanisms — uses metaphor to describe already-established mechanisms.
 previous_version: Melody Lens/backup/Personal-Melody.md (884L, v1.0 DRAFT 2026-03-29)
 dependencies:
-  - Core-Software.md — cycle architecture, §8 observation parameters
+  - Core-Software.md — cycle architecture, §9 observation parameters
   - Schema.md v2.0 — schema = observation parameter, named chunk-network pattern
   - Chunk.md v2.0 — chunk substrate, compilation, 4-phase lifecycle
   - Modality.md v1.0 — 6 modalities (encoding channels)
@@ -25,7 +25,7 @@ dependencies:
   - Body-Feedback.md v1.1 — dual-pull, Body-Feedback-Precondition
   - Cortisol-Baseline.md v2.0 — cortisol = amplifier, direction gate
   - Autonomy-Hardware.md — efference copy, emergent from architecture
-  - Feeling.md v2.0 — PFC observation interface
+  - Feeling.md v2.0 — PFC reception interface
   - PFC-Function.md — PFC core job = smooth melody
   - Imagine-Final.md — compass mechanism, 14 thresholds
   - Anchor-Schema.md — trust binding, sync point
@@ -84,14 +84,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ V7.8 REFRAME:
 
-  Core-Software.md §8 defines Melody concisely:
+  Core-Software.md §9 defines Melody concisely:
     "Emergent state of all systems running simultaneously.
      4 criteria: hardware smooth + accurate map + wide map + sustainable."
 
   Melody is NOT:
     ✗ An architectural component (nobody "runs melody")
     ✗ A separate module (no brain region is a "melody center")
-    ✗ Something PFC controls (melody emerges on its own; PFC only observes + smooths)
+    ✗ Something PFC controls (melody emerges on its own; PFC only receives + smooths)
 
   Melody IS:
     ✓ A NAME for emergent state — chunk network running simultaneously
@@ -129,7 +129,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Key change            Arc = learning cycle (Melody-Arc.md)
     The inner audience    Body-feedback evaluation (Body-Feedback.md v1.1)
     The real stage        Domain reality feedback (Core-Software.md §7)
-    The conductor         PFC = observer-orchestrator, NOT controller (PFC-Function.md)
+    The conductor         PFC = orchestrator, NOT controller (PFC-Function.md)
 
 
   ⚠️ LIMITS OF THE METAPHOR:
@@ -494,7 +494,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → IS: a PATTERN that the body has already PRE-FELT (opioid preview — somatic marker)
   → Each new chunk is checked against this pattern: "heading in the right direction"
     or "meaningless"
-  → PFC observes: "is THIS dissonance worth the POTENTIAL melody upgrade?"
+  → PFC receives: "is THIS dissonance worth the POTENTIAL melody upgrade?"
 
   ⚠️ Imagine-Final is NOT only conscious (PFC):
     → Body-base ALWAYS has unconscious expectation patterns at every scale
@@ -700,7 +700,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       [2] Template match: "if I were in their position..."
       [3] Project template onto target
       [4] Simulate: fire self-chunks as-if-target
-      [5] Output read: PFC observes simulation result
+      [5] Output read: PFC receives simulation result
       [6] Attribution: "THEY are feeling/wanting/will do X"
     → = NOT a "mirror neuron" hardware module
     → = Brain uses ITSELF as a template to predict OTHERS
@@ -739,7 +739,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ THE OBSERVER SEES MORE CLEARLY THAN THE SUBJECT:
 
     The owner's PFC cannot see their own melody clearly:
-      → Schema compiled deep = unconscious → PFC cannot observe it (Feeling.md v2.0)
+      → Schema compiled deep = unconscious → PFC cannot receive it (Feeling.md v2.0)
       → PFC measures itself = using OWN melody to measure OWN melody
       → = "A crooked ruler measuring whether things are crooked →
            always says STRAIGHT"
@@ -876,7 +876,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Music = sequential → schema = parallel (think "self-playing ensemble")
     → Music = active → schema = automatic (think "earworm")
     → "Key major/minor" ≠ simple cortisol mapping — valence is more complex
-    → "The conductor" (PFC) implies too much control — PFC is only observer+smoother
+    → "The conductor" (PFC) implies too much control — PFC is only receiver+smoother
     → If the metaphor causes confusion → drop it, use mechanism language
 ```
 
@@ -886,14 +886,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 MECHANISM FILES (technical details):
-  → Core-Software.md — cycle architecture, §8 observation parameters
+  → Core-Software.md — cycle architecture, §9 observation parameters
   → Chunk.md v2.0 — chunk substrate, compilation, 4-phase lifecycle
   → Schema.md v2.0 — schema = observation parameter (named chunk pattern)
   → Modality.md v1.0 — 6 modalities, encoding channels
   → Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap dynamics
   → Body-Feedback.md v1.1 — dual-pull, Body-Feedback-Precondition, body evaluation
   → Cortisol-Baseline.md v2.0 — cortisol = amplifier, direction gate
-  → Feeling.md v2.0 — PFC observation interface
+  → Feeling.md v2.0 — PFC reception interface
   → PFC-Function.md — PFC core job = smooth melody, 3 levels
   → PFC-Hardware.md — COMT, capacity, gradient distance
   → Autonomy-Hardware.md — efference copy, emergent from architecture

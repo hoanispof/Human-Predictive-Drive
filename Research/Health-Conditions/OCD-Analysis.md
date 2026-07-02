@@ -108,11 +108,11 @@ DEFINITION:
   KEY FEATURE:
     → OCD person KNOWS the behavior is irrational (PFC recognizes — A zone)
     → BUT cannot stop (chunks fire in C+D zones that DON'T LISTEN to PFC)
-    → = "Ego-dystonic" — PFC observes "this is wrong" but body fires "must do this"
+    → = "Ego-dystonic" — PFC receives "this is wrong" but body fires "must do this"
     → ≠ habit (ego-syntonic — PFC agrees → does it because WANTS to)
 
-    Through v7.8: ego-dystonic = PFC OBSERVE (Feeling.md v2.0)
-    Body-chunk interaction → PFC sees "irrational" → but PFC is only OBSERVER,
+    Through v7.8: ego-dystonic = PFC RECEIVE (Feeling.md v2.0)
+    Body-chunk interaction → PFC sees "irrational" → but PFC is only RECEIVER,
     does NOT directly control C+D zone processing.
 
   🟢 Prevalence: ~2-3% worldwide (WHO)
@@ -157,7 +157,7 @@ EXAMPLE — NORMAL HANDWASHING:
 
   ⑤ PFC receives the result:
      → PFC DOESN'T KNOW the done detector just fired
-     → PFC only observes: "spontaneously stopped wanting to wash" → moves on
+     → PFC only receives: "spontaneously stopped wanting to wash" → moves on
      → = Entire process: C+D zones. PFC only sees the OUTPUT.
 
 TIMELINE: 30 seconds → done → immediately forgotten. Normal.
@@ -242,8 +242,8 @@ LINE 3 FAILS — PFC override fails:
 ```
 🟡 "KNOWING" AND "STOPPING" OPERATE IN 2 DIFFERENT SYSTEMS:
 
-  "KNOWING" = PFC OBSERVE (A zone — Feeling.md v2.0):
-    PFC observes body-chunk interaction → recognizes "irrational"
+  "KNOWING" = PFC RECEIVE (A zone — Feeling.md v2.0):
+    PFC receives body-chunk interaction → recognizes "irrational"
     = Line 3, conscious, SLOW
 
   "STOPPING" = chunks DEACTIVATE (C+D zones):
@@ -1153,7 +1153,7 @@ EACH TREATMENT TARGETS A SPECIFIC LINE:
 ├──────────────────┼───────────┼──────────────────────────────────────┤
 │ Mindfulness      │ Line 3    │ "I SEE the obsession → it's just a  │
 │                  │ (support) │ thought → don't need to ACT"         │
-│                  │           │ = PFC OBSERVE (Feeling.md v2.0)      │
+│                  │           │ = PFC RECEIVE (Feeling.md v2.0)      │
 │                  │           │ 🟡 Adjunct, insufficient alone        │
 └──────────────────┴───────────┴──────────────────────────────────────┘
 
@@ -1480,7 +1480,7 @@ MECHANISM FILES:
 OBSERVATION PARAMETERS:
   → Threat.md v1.0 — threat priority > PFC, 3 origin sources
   → Connection.md v4.0 — social buffering (co-regulation reduces cortisol)
-  → Feeling.md v2.1 — PFC observation interface (ego-dystonic = PFC observes "wrong")
+  → Feeling.md v2.1 — PFC reception interface (ego-dystonic = PFC receives "wrong")
 
 RESEARCH FILES:
   → Love-Romantic.md v2.4 — §2.1 serotonin mechanism, §4.2 spreading activation

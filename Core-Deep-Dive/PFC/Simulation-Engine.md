@@ -16,7 +16,7 @@ scope: |
 purpose: |
   Self-Pattern-Modeling.md = APPLICATION-1 (its own mechanism for agent prediction).
   Imagine-Final.md = APPLICATION-2 (its own mechanism for future simulation).
-  Self-Observation = APPLICATION-3 (PFC observes body state; Self-Observation.md v1.0).
+  Self-Observation = APPLICATION-3 (PFC receives body state; Self-Observation.md v1.0).
   This file = SHARED ENGINE underneath all — UNIFIED ARCHITECTURE.
   Explains WHY: train 1 → improve all. Break 1 → degrade all.
   = "Missing architecture file" — each application file describes 1 app, this file describes the ENGINE.
@@ -31,7 +31,7 @@ dependencies:
   - PFC-Operations.md v1.0 — §9 PFC Budget, §10 Compilable Architecture + 3-Cost
   - Self-Pattern-Modeling.md v3.1 — APPLICATION-1, Compiled/Fresh on engine
   - Imagine-Final.md v3.0 — APPLICATION-2, future simulation
-  - Feeling.md v3.0 — PFC observation interface (broader than APPLICATION-3)
+  - Feeling.md v3.0 — PFC feeling interface (broader than APPLICATION-3)
   - Self-Observation.md v1.0 — APPLICATION-3: Self × Present × Observe
   - Body-Feedback-Mechanism.md v2.1 — §3 chunk dynamics, body-feedback readout
   - Dissonance-Signal-Architecture.md v1.0 — §7.1 Simulation-Engine × Evaluative Dissonance generator
@@ -135,7 +135,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │
     ├── Self-Observation.md v1.0 = APPLICATION-3
     │   = Self × Present × Observe
-    │   = PFC observes body-state, self-awareness mechanism
+    │   = PFC receives body-state, self-awareness mechanism
     │
     ├── PFC-Operations.md v1.0 = HOW PFC operates on the engine
     │   = Hold/Suppress on Compiled/Fresh spectrum
@@ -682,9 +682,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├──────────────────┼────────────────────────────────────────────────────┤
   │ ① Self-Pattern-  │ MINIMAL: compiled, automatic, invisible            │
   │ Modeling         │ "Feeling drawn to someone without knowing why"    │
-  │ (compiled)       │ PFC = PASSIVE observer (if even aware)             │
+  │ (compiled)       │ PFC = PASSIVE receiver (if even aware)             │
   ├──────────────────┼────────────────────────────────────────────────────┤
-  │ ② Self-          │ MIDDLE: PFC observes body-feedback output         │
+  │ ② Self-          │ MIDDLE: PFC receives body-feedback output         │
   │ Observation      │ PFC = READER (can label but not manipulate input)  │
   │                  │ "I am sad" = readout, not active simulation        │
   ├──────────────────┼────────────────────────────────────────────────────┤
@@ -706,7 +706,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Less PFC = more AUTOMATIC but less STEERABLE
     
   ⭐ IMAGINE-FINAL IS SPECIAL BECAUSE:
-    ① PFC CAN OBSERVE output (unlike compiled Compiled = PFC-invisible)
+    ① PFC CAN RECEIVE output (unlike compiled Compiled = PFC-invisible)
     ② PFC CAN MANIPULATE input ("what if X changes?")
     ③ PFC CAN COMPARE multiple simulations ("option A vs B")
     → = CONSCIOUS SIMULATION TOOL: both readout + active control
@@ -939,7 +939,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Drill-Self-Pattern-Modeling-Self-Shared-Substrate v1.0 | Full file | EVIDENCE file for this ARCHITECTURE |
 | Self-Pattern-Modeling v3.1 | §2 (Compiled/Fresh), §10 (Self-Pattern-Modeling×Imagine-Final) | APPLICATION-1: Self-Pattern-Modeling mechanism |
 | Imagine-Final.md v3.0 | Full file | APPLICATION-2: future simulation |
-| Feeling.md v3.0 | §3 (PFC observation) | UMBRELLA — Feeling ⊃ Self-Observation |
+| Feeling.md v3.0 | §3 (PFC feeling) | UMBRELLA — Feeling ⊃ Self-Observation |
 | Self-Observation.md v1.0 | Full file | APPLICATION-3: Self × Present × Observe |
 | Inter-Body-Mechanism.md v1.0 | §3 (Compiled/Fresh), §1 (Compilable Architecture) | SOURCE-OF-TRUTH for spectrum |
 | PFC-Operations.md v1.0 | §5 (Compiled Quality), §9 (PFC Budget) | HOW PFC operates on engine |

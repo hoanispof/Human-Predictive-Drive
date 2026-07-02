@@ -443,7 +443,7 @@ LOGIC-FEELING v4.0 IN FRAMEWORK ARCHITECTURE:
 
   ⭐ FEEL-EXPLANATION ≠ SELF-OBSERVATION (Self-Observation.md §8.2):
     Feel-Explanation = PFC creates narrative ("I am sad BECAUSE X") = CONSTRUCT
-    Self-Observation = PFC reads body-state directly ("I am sad") = OBSERVE
+    Self-Observation = PFC reads body-state directly ("I am sad") = RECEIVE
     The more one explains, the FURTHER from genuine Self-Observation
     → Rumination = PFC Lawyer explain loop → REDUCES Self-Observation quality
     → Meditation = observe WITHOUT labeling → GOOD for Self-Observation
@@ -1438,7 +1438,7 @@ STILL OPEN:
     (when does non-shareable BECOME shareable?)
   Logic-Feeling-10: Body-Knowing vs emotional feeling — where exactly is the boundary?
     Body-Knowing = compiled → body-direct → "knowing" (pattern recognition)
-    Emotional feeling = body-state → PFC observes → "experience" (affect)
+    Emotional feeling = body-state → PFC receives → "experience" (affect)
     Overlap: "I know I'm sad" (Body-Knowing about emotional state)
     → Boundary may be SPECTRUM, not binary. Needs further analysis.
 ```
@@ -1489,11 +1489,11 @@ STILL OPEN:
 
 📚 PFC MECHANISM:
 
-  PFC-Function.md v1.2 — 24 functions / 5 categories (OBSERVE→HOLD→PROCESS→ORCHESTRATE→STRATEGIC)
+  PFC-Function.md v1.2 — 24 functions / 5 categories (RECEIVE→HOLD→PROCESS→ORCHESTRATE→STRATEGIC)
   Somatic-Articulation-Loop.md — Body-knowledge (Body-Knowing) → explicit (fresh formalize)
   Chunk.md v3.0 §8 — Operators × Chunk System: Hold/Suppress, Exposure Channels, Body Evaluate
   Self-Observation.md v1.0 — APPLICATION-3: Feel-Explanation ≠ Self-Observation (§8.2)
-    → PFC Lawyer narrative → CONSTRUCT (§2.3). Self-Observation → OBSERVES body-state directly
+    → PFC Lawyer narrative → CONSTRUCT (§2.3). Self-Observation → RECEIVES body-state directly
 
 📚 COMPANION:
 

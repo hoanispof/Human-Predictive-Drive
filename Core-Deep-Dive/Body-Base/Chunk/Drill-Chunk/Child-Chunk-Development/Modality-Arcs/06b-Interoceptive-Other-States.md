@@ -99,7 +99,7 @@ To avoid redundancy, 06b does NOT re-derive:
 - **Hormonal signals**: ghrelin (stomach, signals empty stomach), leptin (adipose, signals satiety), insulin, blood glucose levels
 - **Hypothalamic integration**: arcuate nucleus (POMC vs AgRP neurons), lateral hypothalamus (feeding drive), paraventricular nucleus
 - **Ascending to insula**: hunger signals reach posterior insula via NTS (nucleus of the solitary tract) → thalamus → cortex
-- **PFC involvement**: per [01 §4](01-PFC-Hardware-Reframe.md#§4) 5 pillars, PFC can observe hunger signals from birth; what develops is chunks to interpret and act on them
+- **PFC involvement**: per [01 §4](01-PFC-Hardware-Reframe.md#§4) 5 pillars, PFC can receive hunger signals from birth; what develops is chunks to interpret and act on them
 
 **Developmental status at birth**: Hardware functional. Newborns show the full hunger-to-feeding behavioral program (rooting, sucking) within minutes of birth. Hunger is arguably the **body state with the strongest innate action coupling** at birth — rooting reflex + sucking reflex + cry are pre-wired responses to hunger signals.
 
@@ -116,7 +116,7 @@ To avoid redundancy, 06b does NOT re-derive:
 **Key framework observation from E1 Notes**: "Wolff (1969) called this the 'basic cry pattern'. The fact that parents CANNOT differentiate hunger/pain/wet from acoustic alone is evidence that the baby's PFC doesn't yet have chunks to output a differentiated signal."
 
 At this stage:
-- Hunger signal ascends to insula; PFC can observe per 5 pillars
+- Hunger signal ascends to insula; PFC can receive per 5 pillars
 - No compiled chunk differentiates hunger-specific pattern from generic distress
 - Output is undifferentiated cry (same cry as for wet diaper or thermal discomfort)
 - Sub-cortical motor pathway produces acoustic variance across distress types (Wasz-Höckert 1968 — slight pitch/rhythm differences) but this is NOT a PFC chunk, it is reflex motor program variance (see §3.2 parallel for pain)
@@ -309,7 +309,7 @@ This is parallel to [06a](06a-Interoceptive-Bladder-Keystone.md) bladder gap (6-
 - **Present**: innate nociceptor → spinal reflex arc + brainstem cry motor program
 - **Absent**: compiled pain chunks (no concept of "pain as category", no localization chunks, no pain-memory chunks, no verbal)
 
-**Key framework observation from E2 Notes**: "The pain cry DOES have a somewhat distinct acoustic signature — higher pitch, sudden onset, no 'warm-up' like a hunger cry. Important framework distinction: acoustic difference ≠ Self-Pattern Match. PFC cannot yet observe it, but body output is already non-uniform."
+**Key framework observation from E2 Notes**: "The pain cry DOES have a somewhat distinct acoustic signature — higher pitch, sudden onset, no 'warm-up' like a hunger cry. Important framework distinction: acoustic difference ≠ Self-Pattern Match. PFC cannot yet receive it, but body output is already non-uniform."
 
 This parallels §2.2 hunger observation — output differentiation at Stage 0 does NOT imply chunks differentiation. It implies **sub-cortical motor program differences driven by different afferent pathways**.
 
@@ -486,7 +486,7 @@ These two layers produce the adult pattern of simultaneous pain-experience + pai
 
 From [Feel-Example E4 Notes](../../Body-Base/Feeling/Feel-Example-Draft.md#e4) (verbatim, framework-critical):
 
-> "This is a **dangerous edge case** worth noting for the framework. SIDS (Sudden Infant Death Syndrome) is strongly associated with overheating (Mitchell et al. 1993; Ponsonby et al. 1993). The baby does NOT 'know' to wake up and escape thermal stress, because there is no Self-Pattern Match for temperature yet. The distress signal may not be strong enough to overcome sleep state. This is a concrete illustration of the cost of lacking Self-Pattern Match — the body can sustain damage that the PFC cannot observe."
+> "This is a **dangerous edge case** worth noting for the framework. SIDS (Sudden Infant Death Syndrome) is strongly associated with overheating (Mitchell et al. 1993; Ponsonby et al. 1993). The baby does NOT 'know' to wake up and escape thermal stress, because there is no Self-Pattern Match for temperature yet. The distress signal may not be strong enough to overcome sleep state. This is a concrete illustration of the cost of lacking Self-Pattern Match — the body can sustain damage that the PFC cannot receive."
 
 **Framework-critical implication**: Thermal is a case where **lack of Precondition-2 adequacy has mortal consequences**. The hardware is intact (thermoreceptors fire, POA signals distress), the PFC is online (per 5 pillars), but without a compiled chunk tying "thermal distress → wake up → escape action", the baby cannot act on the signal. In the specific case of overheating during sleep, this Precondition-2 inadequacy can be fatal.
 
@@ -590,7 +590,7 @@ This is a **framework-critical distinction**: at Stage 0, positive emotional sta
 
 **Ladder classification**: **L1 differentiated** emotional states.
 
-**Chunks state inference**: Early emotional categorization chunks compiling ("this body state → this motor expression"). Still largely sub-cortical motor program variance (per E1/E2 observation pattern). PFC observation increasing but without verbal access.
+**Chunks state inference**: Early emotional categorization chunks compiling ("this body state → this motor expression"). Still largely sub-cortical motor program variance (per E1/E2 observation pattern). PFC reception increasing but without verbal access.
 
 ### §5.4 — E12 social smile as L2 emotional+social binding (6-8 weeks)
 

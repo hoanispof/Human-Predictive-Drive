@@ -146,7 +146,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
          │
          ▼
     Body-Feedback.md (Body-Feedback-Precondition, dual-pull, interface loop)
-    Feeling.md v2.0 (PFC observation of body-feedback)
+    Feeling.md v2.0 (PFC reception of body-feedback)
     02-Dissonance.md (intensity spectrum + source taxonomy + case analyses)
     Inter-Body-Mechanism.md v1.0 (5-channel, 3-cost, entity interaction)
 ```
@@ -1206,8 +1206,8 @@ BODY-NEED HAS 7 PROPERTIES:
   │     → Body-feedback signal (direction + magnitude)             │
   │     → Chunk dynamics determine QUALITY of signal               │
   │                                                                │
-  │  ④ FEELING → PFC (observe, label, choose)                      │
-  │     → PFC observes signal but may NOT know which dynamic       │
+  │  ④ FEELING → PFC (receive, label, choose)                      │
+  │     → PFC receives signal but may NOT know which dynamic       │
   │     → "Heart twinge" = PFC label for Chunk-Gap + Chunk-Shift  │
   │                                                                │
   │  ⑤ PFC → BODY-OUTPUT → DOMAIN → LOOP                          │
@@ -1234,10 +1234,10 @@ BODY-NEED HAS 7 PROPERTIES:
       → Cortical modality areas hold compiled baselines
 
     A (PFC):
-      → OBSERVE chunk dynamics output (feeling layer)
+      → RECEIVE chunk dynamics output (feeling layer)
       → CAN bias: hold chunks → influence which dynamics fire
       → CANNOT directly cause dynamics (dynamics emerge from B+C+D)
-      → PFC role: observe, label, choose response, orchestrate
+      → PFC role: receive, label, choose response, orchestrate
 ```
 
 ### §6.2 — Body-Feedback-Preconditions
@@ -1468,7 +1468,7 @@ WHAT THIS FILE DOES NOT DO:
 
 📚 VALENCE + FEELING:
   → Valence-Propagation.md v1.4 — valence per-entity + chain propagation
-  → Feeling.md v2.0 — PFC observation of body-feedback (output of dynamics)
+  → Feeling.md v2.0 — PFC reception of body-feedback (output of dynamics)
   → Somatic-Articulation-Loop.md — felt sense = Gap detection pre-verbal
   → Self-Observation.md v1.0 — APPLICATION-3: prediction-delta → Self-Observation trigger (§2)
     → Vague miss ⓑ = Self-Observation Trigger Type ② (micro-negative, sankhara-dukkha)

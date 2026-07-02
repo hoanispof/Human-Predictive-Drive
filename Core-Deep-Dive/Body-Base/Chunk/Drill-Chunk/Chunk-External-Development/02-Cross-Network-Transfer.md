@@ -383,7 +383,7 @@ APPLIED TO COMMUNICATION:
              + [only holds DIRECTION, doesn't control detail]
     
     → Gap direction analogy: "PFC controls everything, knows all"
-    → Gap direction real: "PFC observes results, holds direction, body executes"
+    → Gap direction real: "PFC receives results, holds direction, body executes"
     → 2 directions NEARLY OPPOSITE
     
     → When receiver LATER encounters the real mechanism:
@@ -411,21 +411,21 @@ APPLIED TO COMMUNICATION:
       = Links HAVE FORMED, may have repeated many times
 
     When learning real mechanism:
-      [PFC] → [observer] → [reach limited, holds direction, body executes]
+      [PFC] → [receiver] → [reach limited, holds direction, body executes]
       = NEW links must COMPETE with old links
 
     Shift = must SIMULTANEOUSLY:
-      ⓐ Build new links (PFC → observer → reach limited...)
+      ⓐ Build new links (PFC → receiver → reach limited...)
       ⓑ Old links STILL fire (PFC → CEO → controls...)
       ⓒ 2 sets of links COMPETE for activation probability (01b §3.1)
       ⓓ Retrieval-induced forgetting: using new link SUPPRESSES old link temporarily
          but old link STILL EXISTS, can re-fire under stress
          (🟢 Anderson et al. 1994)
 
-  Ex — "PFC = CEO" → "PFC = observer":
+  Ex — "PFC = CEO" → "PFC = receiver":
     Chunks surrounding "CEO":
       [affection (if using "mother")], [strategy], [organization], [positional authority]
-    Chunks surrounding "observer":
+    Chunks surrounding "receiver":
       [awareness], [limits], [guidance], [body executes independently]
     = 2 sets of chunks COMPLETELY DIFFERENT
     → Competitive re-linking = energy cost every time wrong association fires
@@ -569,7 +569,7 @@ APPLIED TO COMMUNICATION:
     → Can be HARDER than building correctly from scratch
 
     Ex: "PFC = CEO" → then learn the real mechanism
-    → Links [PFC→CEO→controls] COMPETE with [PFC→observer→reach limited]
+    → Links [PFC→CEO→controls] COMPETE with [PFC→receiver→reach limited]
     → Receiver must simultaneously: break old + build new + filter right/wrong
     → = Stepping stone MORE COSTLY than no stepping stone
 ```

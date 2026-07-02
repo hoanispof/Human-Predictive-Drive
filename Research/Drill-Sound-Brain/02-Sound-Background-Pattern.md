@@ -222,9 +222,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ TASTE SIGNATURE = PFC LABEL FOR MUSIC BACKGROUND-PATTERN:
 
     Personal-Melody.md §3: "Taste signature = personal chunk pattern match external pattern"
-    Background-Pattern.md §5 reason ④: PFC observes effects → labels → stops inquiry
+    Background-Pattern.md §5 reason ④: PFC receives effects → labels → stops inquiry
 
-    → PFC observes: "I always like THIS kind of music"
+    → PFC receives: "I always like THIS kind of music"
     → PFC labels: "my taste" or "my style" or "my aesthetic"
     → Label REPLACES investigation: "it's just who I am"
     → = EXACTLY the same mechanism as "personality" = PFC label for Background-Pattern

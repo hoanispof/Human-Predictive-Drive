@@ -38,7 +38,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 >
 > **Core insight:**
 > Feeling literacy is NOT "listen to your body more."
-> Feeling literacy = CHANGING the chunk system so PFC can observe more accurately.
+> Feeling literacy = CHANGING the chunk system so PFC can receive more accurately.
 > = Competitive re-linking, convergence zone resolution, label handle expansion.
 
 ---
@@ -68,11 +68,11 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 
   This file RE-GROUNDS these components in chunk mechanism:
 
-  FEELING LITERACY = the ability of PFC to observe body-chunk interaction
+  FEELING LITERACY = the ability of PFC to receive body-chunk interaction
                      with HIGH FIDELITY, based on:
 
     A) LOW THRESHOLD (detect more signals)
-       → = More sensitive observation
+       → = More sensitive reception
        → Chunk mechanism: interoceptive prediction (Seth 2013)
          trained continuously → threshold gradually lowers
 
@@ -169,7 +169,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
   ┌───────────────────────┬────────────────┬───────────────────────────────┐
   │ Literacy component    │ Step improved  │ Chunk mechanism               │
   ├───────────────────────┼────────────────┼───────────────────────────────┤
-  │ A. Threshold (access) │ ④ PFC observe  │ Interoceptive prediction      │
+  │ A. Threshold (access) │ ④ PFC receive  │ Interoceptive prediction      │
   │                       │                │ trained → threshold lowers    │
   ├───────────────────────┼────────────────┼───────────────────────────────┤
   │ B. Discrimination     │ ③ Integration  │ Feeling chunk library large → │
@@ -228,7 +228,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 
   Human = FEELING SUBSTRATE:
     → Body computation = unique (each person = unique body + unique history)
-    → Feeling = PFC observation of unique body-chunk interaction
+    → Feeling = PFC reception of unique body-chunk interaction
     → No AI can replace this (no body = no feeling = no body vote)
 
   → "Humans need to FEEL right → AI will help PLAN right"
@@ -348,7 +348,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
   ┌────────────────────────────────────────────────────────────────────┐
   │                                                                    │
   │  Stage 1: BODY AWARENESS                                           │
-  │    "Detect raw signals" — lower PFC observation threshold          │
+  │    "Detect raw signals" — lower PFC reception threshold             │
   │                              ↓                                     │
   │  Stage 2: SIGNAL DISCRIMINATION                                    │
   │    "Which channel? What intensity?" — expand feeling chunk library │
@@ -383,10 +383,10 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 ```
 ⭐ STAGE 1 — BODY AWARENESS:
 
-  GOAL: Lower PFC observation threshold → detect MORE body signals.
+  GOAL: Lower PFC reception threshold → detect MORE body signals.
 
   TARGET IN 8-STEP FLOW:
-    → Step ④ (PFC observation threshold):
+    → Step ④ (PFC reception threshold):
       Untrained: only STRONG signals cross threshold → miss subtle ones
       Trained: WEAKER signals also cross → richer body awareness
 
@@ -954,7 +954,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
       → Multiple chunks fire weakly → converge (Multi-Weak-Signal-Convergence)
       → CONVERGENCE ZONE forms (01c §2.3)
       → Body integrates signals → insula + ACC + VMPFC
-      → = "Felt sense" = PFC observing convergence zone
+      → = "Felt sense" = PFC receiving convergence zone
       → = Mechanism-Deep §5.4: convergence zone = what "vague" IS
       → Felt sense properties match convergence zone properties:
         → Vague (no single source)
@@ -1017,7 +1017,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 
     Chunk mechanism:
       → PFC does NOT FILTER incoming body signals
-      → = Threshold kept LOW (step ④ observation threshold)
+      → = Threshold kept LOW (step ④ reception threshold)
       → = Allows low-probability chunks to surface (01b §2: 5%-activation
         chunks normally below threshold — but with PFC actively listening,
         threshold lowers → these CAN surface)

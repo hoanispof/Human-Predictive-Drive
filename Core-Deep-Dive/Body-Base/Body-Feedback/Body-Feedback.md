@@ -165,7 +165,7 @@ FOLDER TOTAL: 17 content files, ~26,100L
      → 3-tier label system (General → Direction → Specific)
      → 100% framework vocabulary formalized
      → prediction-delta ≠ body-base reward (detection ≠ evaluation)
-     → Body-feedback (mechanism) ≠ Feeling (PFC observation)
+     → Body-feedback (mechanism) ≠ Feeling (PFC reception)
      → Entity-Compiled subtypes, Compiled/Fresh labels,
        By-product match/anti-match, 2-Stream, 3-cost, 5-Channel
 
@@ -359,10 +359,10 @@ FOLDER TOTAL: 17 content files, ~26,100L
   │  See: Action-Space, Gap-Distribution-Profile,                   │
   │       Reward-Calibration, Hidden-Quality-Perception             │
   ├─────────────────────────────────────────────────────────────────┤
-  │  LAYER 6: PFC OBSERVATION + INTER-BODY                          │
+  │  LAYER 6: PFC RECEPTION + INTER-BODY                             │
   │                                                                 │
-  │  Feeling = PFC observation of body-feedback (7-layer)           │
-  │  Body-feedback (mechanism) ≠ Feeling (PFC observation)          │
+  │  Feeling = PFC reception of body-feedback (7-layer)             │
+  │  Body-feedback (mechanism) ≠ Feeling (PFC reception)            │
   │  Inter-body: by-product match, Entity-Compiled, 5-Channel       │
   │  Body-Coupling: 4 bond types, firing modes                      │
   │                                                                 │
@@ -373,7 +373,7 @@ FOLDER TOTAL: 17 content files, ~26,100L
   NOTE: Layers = conceptual hierarchy, NOT temporal sequence.
   Signal generation (Layer 2) + architecture (Layer 3) occur near-parallel.
   Gap system (Layer 4) = accumulated structure shaping real-time signals.
-  PFC observation (Layer 6) = SEPARATE process, not the "output" of the pipeline.
+  PFC reception (Layer 6) = SEPARATE process, not the "output" of the pipeline.
 ```
 
 ---
@@ -1112,7 +1112,7 @@ CONTENT UNIQUE TO THIS FOLDER (not absorbed):
 
 📚 FEELING/ + PFC/ CONNECTIONS:
 
-  Feeling.md v3.0                → 7-layer model, PFC observation
+  Feeling.md v3.0                → 7-layer model, PFC reception
   Feeling-Mechanism-Deep-Draft.md → 8-step flow, reward definitive
   Feeling-Chunk-Bridge-Draft.md  → bidirectional mapping
   Imagine-Final.md v3.0          → constructive simulation, Gap→Miss

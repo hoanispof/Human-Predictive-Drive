@@ -1092,7 +1092,7 @@ language: English (translated from Vietnamese primary + English technical terms)
   VERIFIED REPETITION (With Body-Check):
     → Repeat WITH body-check on every iteration
     → "Do I actually understand this? Does this feel right?"
-    → PFC observes + body-vote on each iteration
+    → PFC receives + body-vote on each iteration
     → E.g.: solve math → check "why this step?"; play music → listen "is this note right?"
     → Result: Trust Compile → Experience Compile TRANSITION (chunk upgrade)
     → Pattern: [stimulus → response → body-check → adjust] = DEEPER
@@ -1119,7 +1119,7 @@ language: English (translated from Vietnamese primary + English technical terms)
     "Body-check" in learning = Self-Observation directed toward the LEARNING PROCESS:
       Self-Observation = f(Interoception × PFC_Encoding × Attention_Direction=SELF)
       Body-check while repeating = Attention_Direction = SELF-AS-LEARNER (not domain)
-      = "Do I actually understand this?" = PFC observes body-state about learning quality
+      = "Do I actually understand this?" = PFC receives body-state about learning quality
 
     Self-Observation Level × Body-Check Capability:
       Level 0–1: NO body-check → mechanical repetition = default
@@ -1278,7 +1278,7 @@ language: English (translated from Vietnamese primary + English technical terms)
 
   ⑦ PFC BUDGET CONSTRAINT FOR LEARNING DESIGN
     → PFC Budget = finite shared resource (PFC-Operations.md v1.1 §9)
-    → Body-check repetition = NEEDS PFC observe → consumes PFC budget
+    → Body-check repetition = NEEDS PFC receive → consumes PFC budget
     → CANNOT body-check EVERYTHING at once → need to ALLOCATE:
       = Short sessions + rest > long continuous sessions
       = Focus 1 domain per body-check session > scatter across many domains

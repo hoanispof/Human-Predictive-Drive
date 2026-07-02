@@ -30,7 +30,7 @@
 >     Gap-Distribution-Profile.md v1.1 (4 axes of gap landscape)
 >   TRUST/SELF-OBSERVATION (v2.2):
 >     Trust.md v1.0 (compiled prediction about gap-fill reliability, 3 sub-dimensions),
->     Self-Observation.md v1.0 (PFC observing body-state, Level 0-6 gradient)
+>     Self-Observation.md v1.0 (PFC receiving body-state, Level 0-6 gradient)
 > **Prior version:** backup/v2.0/Country/VN/VN-Cultural-Factors.md (1,143L, v2.0, 2026-05-11)
 > **v2.0 key changes:** (see backup header — re-base from "10 principles" to Mechanism v1.0)
 > **v2.1 key changes:**

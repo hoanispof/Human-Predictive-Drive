@@ -22,7 +22,7 @@ scope: |
     ⭐ §6.2/§6.3/§7 — notes connecting bounded/unbounded to P(resolution)
     ⭐ §9 — Drill cross-ref updated v3.1 → v4.0
 purpose: |
-  Core-Software.md v3.1 §8 defines Threat briefly ("Dissonance from predicted harm").
+  Core-Software.md v3.1 §9 defines Threat briefly ("Dissonance from predicted harm").
   This file DEEP-DIVES: neuroscience, practical patterns, education implications.
   Especially: 3 origin sources (Domain/Peer/Imposed) = education cornerstone.
 position: |
@@ -1714,7 +1714,7 @@ SUMMARY:
 
 ```
   ← FOUNDATION (read first or in parallel):
-    Core-Software.md v3.1 — §8 Threat = observation parameter definition,
+    Core-Software.md v3.1 — §9 Threat = observation parameter definition,
       §4.1 Compiled Quality (NET link patterns), §4.3 Cortisol × Direction
     Drill-Threat-Direction-Analysis.md v4.0 — source for v2.0/v2.1 refinements:
       no tag at neural level, geography + modulation + links + NET,

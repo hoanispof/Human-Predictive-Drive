@@ -49,7 +49,7 @@ dependencies:
   - Self-Pattern-Modeling.md v3.1 — solo simulation, Compiled/Fresh axis, per-domain
   - Logic-Feeling.md v2.1 — Compiled/Fresh primary axis, Shareable/Non-shareable
   - Ask-AI.md v3.1 — Dual Check §6.1 (body = quality controller, domain = arbiter)
-  - Feeling.md v3.0 — PFC observation interface, PFC=Lawyer
+  - Feeling.md v3.0 — PFC reception interface, PFC=Lawyer
   - Gap-Direction.md v2.0 — gap has direction
   - Body-Feedback-Label.md v2.0 — vocabulary reference
   - Chunk.md v2.0 — chunk substrate, compilation, §8 PFC Search
@@ -239,12 +239,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ PFC = LAWYER IN COHERENCE EVALUATION:
 
   Body evaluates → result EXISTS BEFORE PFC is aware.
-  PFC observes result → CREATES NARRATIVE for body decision that already happened.
+  PFC receives result → CREATES NARRATIVE for body decision that already happened.
   "This song is beautiful because... the melody is lovely" = PFC confabulation (rationalize AFTER).
   Body ALREADY KNEW "beautiful" BEFOREHAND — PFC only finds a FITTING REASON.
 
   → "Why do you like it?" = PFC often DOESN'T actually know
-  → = Body evaluates at chunk level (unconscious) → PFC observes → labels
+  → = Body evaluates at chunk level (unconscious) → PFC receives → labels
   🟢 Gazzaniga: split-brain → left hemisphere fabricates explanations
   🟢 Haidt 2001: moral intuition FIRST → reasoning follows (post-hoc)
   🟢 Nisbett & Wilson 1977: people cannot accurately report WHY they prefer
@@ -325,12 +325,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Body evaluates music at body-base level:
     → Music chunks compiled in auditory cortex (temporal lobe)
     → Coherence evaluation at body-base level (unconscious)
-    → Result: opioid fires → PFC observes: "beautiful!"
+    → Result: opioid fires → PFC receives: "beautiful!"
 
   PFC usually CANNOT explain it:
     → "Why is this song beautiful?" → PFC searches for labels → NO precise words available
     → Body knows at body-level (correctly, precisely)
-    → PFC explains at observation level (incorrectly, rationalizing, confabulating)
+    → PFC explains at reception level (incorrectly, rationalizing, confabulating)
     → "Beautiful because the melody is lovely" = PFC confabulation (Lawyer creates narrative AFTER)
     🟢 Gazzaniga: left hemisphere interpreter fabricates explanations
     🟢 Nisbett & Wilson 1977: people wrong about causes of preferences
@@ -338,7 +338,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   COMPARISON:
     Einstein: chunk-gap → CAN articulate ("physics contradicts itself HERE")
     Music listener: coherence reward → CANNOT articulate WHY
-    → SAME body evaluation mechanism → DIFFERENT clarity at PFC observation
+    → SAME body evaluation mechanism → DIFFERENT clarity at PFC reception
     → Einstein: high clarity (chunks verbally-linked → shareable)
     → Music: low clarity (chunks auditory, non-verbal → non-shareable)
     → = "Musical taste" = non-shareable compiled chunks → body-direct → PFC only "beautiful"
@@ -1217,13 +1217,13 @@ ENTITY-ACCESS × CALIBRATION (Entity-Access.md v1.2):
     → Body-Feedback-Label.md v2.0 — vocabulary reference
     → Chunk.md v2.3 — §2.3 5 external install mechanisms (2b pathway)
     → Gap-Direction.md v2.0 — "no knowledge = no gap" (recursive compile)
-    → Consciousness.md v1.0 — consciousness model, "knowing" = body-check output observed
+    → Consciousness.md v1.0 — consciousness model, "knowing" = body-check output received
     → Simulation-Engine.md v1.0 — PFC simulation = calibration tool
     → Entity-Access.md v1.2 — trust = gradient Level 0-5, calibration per-entity
     → Entity-Access-Calibration.md v1.0 — self-regulation, hardware-subsidy
 
-  OBSERVATION + APPLICATION FILES:
-    → Feeling.md v3.0 — PFC observation interface, §2 magnitude × clarity
+  RECEPTION + APPLICATION FILES:
+    → Feeling.md v3.0 — PFC reception interface, §2 magnitude × clarity
     → Cortisol-Baseline.md v2.1 — amplifier, holding signal
     → Body-Feedback.md — Body-Feedback-Precondition 5 preconditions, dual-pull, interface loop
     → Schema/Anchor-Schema.md — §3 Source ④ (external inject = 2b)

@@ -333,7 +333,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = Valence-Momentary (Self-Pattern-Modeling) + activated Valence-Structural channels
       AT THIS MOMENT
     = Changes per-second (context-dependent)
-    = What PFC observes → what the person verbalizes
+    = What PFC receives → what the person verbalizes
 
   ⭐ APPLICATION TO LOVE:
     "We argued today" (current NEGATIVE) ≠ "love is over" (structural POSITIVE)
@@ -2514,7 +2514,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Gratitude.md v2.1 — 9 prerequisites, comparison mechanism
     → Cortisol-Baseline.md v2.1 — amplifier, inertia
     → Boredom.md v2.0 — unified formula
-    → Feeling.md v3.0 — PFC observation interface
+    → Feeling.md v3.0 — PFC reception interface
 
   APPLICATION + RESEARCH FILES:
     → Love-Romantic.md v3.0 — romantic DEEP-DIVE (this file = UNIFIED view)

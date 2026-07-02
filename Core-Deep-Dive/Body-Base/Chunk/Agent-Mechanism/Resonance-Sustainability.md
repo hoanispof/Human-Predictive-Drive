@@ -852,7 +852,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Compilation Stage 3 → cost ≈ 0, reward habituated → VTA "invisible."
     → Entity-Compiled = structural baseline → "of course it's there."
-    → PFC does NOT observe the baseline → does NOT feel need to maintain.
+    → PFC does NOT receive the baseline → does NOT feel need to maintain.
 
     = TRAP: better compilation → less visible → less maintained.
     → Resonance still NEEDS maintenance to prevent Stage 4B (habituated flat).

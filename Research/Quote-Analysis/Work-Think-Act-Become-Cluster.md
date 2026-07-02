@@ -424,7 +424,7 @@ QUOTE 2 — "The mind is everything. What you think, you become."
   THE NUMBERS:
     → ~95% of processing = unconscious, compiled (Imagine-Final §3.1)
     → PFC = serial processor: ~4±1 dimensions at once (Cowan 2001)
-    → Body-base processes FIRST → Feelings emerge → PFC observes LAST (Damasio 1994)
+    → Body-base processes FIRST → Feelings emerge → PFC receives LAST (Damasio 1994)
     → PFC DOESN'T CREATE Imagine-Final — PFC only: ① consciously surfaces it, ② domain check,
       ③ selects execution (Imagine-Final §3.2)
 

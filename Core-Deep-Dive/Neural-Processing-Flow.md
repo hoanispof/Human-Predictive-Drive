@@ -306,7 +306,7 @@ All output = action potentials (electrical impulses). Differ in: frequency + pat
   MT: motion                  → "object moving left"
 
   ⭐ PFC reads IT (compiled patterns), does NOT read V1 (raw pixels)
-  = PFC observes COMPILED RESULTS, not raw data
+  = PFC receives COMPILED RESULTS, not raw data
   
   🟢 Felleman & Van Essen 1991
   🟢 Kanwisher 1997 — FFA (fusiform face area)
@@ -509,7 +509,7 @@ All output = action potentials (electrical impulses). Differ in: frequency + pat
 
 ---
 
-## §6 — PFC: Observer + Director + Simulator
+## §6 — PFC: Receiver + Director + Simulator
 
 > **Full analysis: PFC-Analysis.md**
 
@@ -585,7 +585,7 @@ All output = action potentials (electrical impulses). Differ in: frequency + pat
 
   REAL PERCEPTION (bottom-up):
     Eyes see a horse → retina → LGN → V1 → V2 → V4 → IT
-    → IT fires pattern "horse" → PFC observes → KNOWS "horse"
+    → IT fires pattern "horse" → PFC receives → KNOWS "horse"
     → Activation: STRONG (100% — real photon input)
 
   IMAGINATION (top-down):
@@ -710,7 +710,7 @@ FEELING = the SIGNAL JOURNEY from body UP to consciousness:
   └───────────────────────────────────────────────────────────────────────┘
 
   ⭐ FIDELITY DECREASES PROGRESSIVELY UPWARD (% = calibration anchor, not precisely measured
-     — Core-Software.md §12.4):
+     — Core-Software.md §13.4):
     Feel-RawSignals = body truth (100% — body does not lie)
     Feel-Labeling = compressed label (40-80% — 1 word compresses 80%+ information)
     Feel-Explanation = PFC confabulation (20-70% — PFC FABRICATES reasons post-hoc)
@@ -723,7 +723,7 @@ FEELING = the SIGNAL JOURNEY from body UP to consciousness:
     resist rushing to Feel-Labeling—Feel-Explanation
 ```
 
-### §8.2 — Feeling observation circuit: Insula + ACC + vmPFC
+### §8.2 — Feeling reception circuit: Insula + ACC + vmPFC
 
 ```
 ⭐ 3 BRAIN REGIONS = "FEELING CIRCUIT":
@@ -749,14 +749,14 @@ FEELING = the SIGNAL JOURNEY from body UP to consciousness:
 
   FLOW:
     Body signals → Insula (integrate) → ACC (check conflict) → vmPFC (bridge to conscious)
-    → PFC observes → Feel-Consciousification felt sense → (optional) Feel-Labeling label
+    → PFC receives → Feel-Consciousification felt sense → (optional) Feel-Labeling label
     → (optional) Feel-Explanation explain
 
   ⭐ FEELING does NOT "live in PFC" — feeling lives in INSULA + ACC:
-    PFC only OBSERVES feeling (via vmPFC bridge)
+    PFC only RECEIVES feeling (via vmPFC bridge)
     Feeling EXISTS at body level (Feel-RawSignals) → insula integrates (Feel-Integration)
     → felt sense emerges (Feel-Consciousification)
-    PFC may NOT observe (if vmPFC weak, or attention is elsewhere)
+    PFC may NOT receive (if vmPFC weak, or attention is elsewhere)
     → = Feeling exists EVEN WHEN PFC doesn't recognize it (alexithymia)
     → = "Body knows but mind doesn't" = insula has signal, PFC doesn't read it
 ```
@@ -778,7 +778,7 @@ FEELING = NOT JUST 1 INPUT — but ~10 channels integrating:
   ⑩ Cognitive evaluation   (PFC: what does logic say?)
 
   → INSULA integrates ~10 channels → 1 unified body state
-  → PFC observes 1 unified state (does NOT observe 10 channels separately)
+  → PFC receives 1 unified state (does NOT receive 10 channels separately)
   → = Why: feeling is COMPLEX + DIFFICULT to label
     (1 word "anxiety" compresses 10 channels into 1 label — losing 80%+ information)
 
@@ -976,7 +976,7 @@ FEELING = NOT JUST 1 INPUT — but ~10 channels integrating:
   ┌──────────────────────────────────────────────────────────────────┐
   │                    PFC (Orchestrator)                             │
   │                                                                  │
-  │  OBSERVE:   reads compiled patterns + feeling state              │
+  │  RECEIVE:   reads compiled patterns + feeling state              │
   │  DRAFT:     creates temporary patterns (mixed-selectivity neurons)│
   │  TEST:      sends down to specialist regions (amygdala/insula/BG)│
   │  ROUTE:     pass/discard based on body feedback                 │
@@ -1022,7 +1022,7 @@ FEELING = NOT JUST 1 INPUT — but ~10 channels integrating:
 
 ```
 BOTTOM-UP (reality → brain):
-  Sensor → Thalamus → Cortex → Binding → Chunk → Feeling → PFC observes
+  Sensor → Thalamus → Cortex → Binding → Chunk → Feeling → PFC receives
   = "The world tells the brain"
   = STRONG, accurate, body-driven
   = Source of feeling (Feel-RawSignals—Feel-Consciousification)
@@ -1157,10 +1157,10 @@ CLAIMING:
   ✓ Cortical architecture is uniform 6-layer (Mountcastle), specialized by wiring
   ✓ Sensor→cortex mapping is many-to-many (not 1:1)
   ✓ Binding uses multiple concurrent mechanisms (not single binder)
-  ✓ PFC observes compiled patterns, does not compute raw data
+  ✓ PFC receives compiled patterns, does not compute raw data
   ✓ PFC can re-activate cortical patterns top-down (imagination)
   ✓ Body responds to imagination (partial, measurable)
-  ✓ Feeling emerges in insula/ACC/vmPFC circuit, PFC observes
+  ✓ Feeling emerges in insula/ACC/vmPFC circuit, PFC receives
   ✓ Externalization converts weak top-down to strong bottom-up
 
 NOT CLAIMING:

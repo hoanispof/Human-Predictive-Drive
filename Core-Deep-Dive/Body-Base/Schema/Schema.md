@@ -13,13 +13,13 @@ previous_version: Schema/backup/ (v1.1 content redistributed)
 supersedes: |
   Schema-Operations.md (DRAFT 2026-03-26) → backup (content absorbed into Chunk.md v2.0, Feeling.md v2.0)
   Schema-Example.md (DRAFT 2026-03-24) → backup (data valid, framing outdated)
-parent: Core-Software.md §8 (observation parameters table)
+parent: Core-Software.md §9 (observation parameters table)
 dependencies:
   - Core-Software.md — cycle architecture, observation parameters
   - Chunk.md v2.0 — chunk substrate (sole substrate)
   - Body-Feedback.md v1.1 — dual-pull, Body-Feedback-Precondition, interface loop
   - Body-Feedback-Mechanism.md v1.0 — chunk dynamics (Shift/Miss/Gap)
-  - Feeling.md v2.0 — PFC observation interface
+  - Feeling.md v2.0 — PFC reception interface
   - Cortisol-Baseline.md v2.0 — amplifier, direction gate
   - Valence-Propagation.md v1.1 — valence per-entity + chain
   - Anchor-Schema.md v1.2 — sync point, trust binding
@@ -85,7 +85,7 @@ V1.1 (2026-03-25 → 2026-04-18):
   Chunk.md v2.0: "Brain = database + 2 operators" → chunks = sole substrate
   Body-Feedback.md: "6-step interface loop" → cycles, not components
   Agent.md: "Agent = function on chunk substrate" → no separate category
-  Feeling.md v2.0: "PFC observation of body-chunk interaction" → interface
+  Feeling.md v2.0: "PFC reception of body-chunk interaction" → interface
   Drive.md v1.1: "Schema = DETECTOR, drive = emergent" → observation label
   Core-Software.md §0.2: 9/9 files compatible with the reframe
 
@@ -522,15 +522,15 @@ V2.0 REFRAME:
 
 ## §6 — SCHEMA × PFC
 
-### §6.1 PFC observes chunk networks → calls them "schemas"
+### §6.1 PFC receives chunk network output → calls them "schemas"
 
 ```
 🟡 PFC does NOT "see" schema — PFC sees CHUNK ACTIVATIONS → LABELS:
 
-  Body computes FIRST → Feeling emerges → PFC observes LAST
+  Body computes FIRST → Feeling emerges → PFC receives LAST
   (🟢 Damasio 1994, 1999: somatic markers precede conscious decision)
 
-  PFC observes:
+  PFC receives:
     → Many chunks fire SIMULTANEOUSLY in a pattern → PFC receives the integrated output
     → PFC labels: "ah, this is 'fear of dogs'" (verbal label for chunk pattern)
     → Label = Feeling.md v2.0 Feel-Labeling (40–80% fidelity) — LOSSY
@@ -565,7 +565,7 @@ V2.0 REFRAME:
     → PFC notices → picks it up, uses a magnifying glass (amplifies input for unconscious)
     → Unconscious matches DEEPER → "this is a special painting"
     → = PFC does NOT "see" the beauty → PFC holds attention →
-      unconscious matches → body reward → PFC observes the reward
+      unconscious matches → body reward → PFC receives the reward
 
   WHEN PFC IS POWERLESS:
     → Chunks for that situation NOT COMPILED → PFC holds but unconscious has nothing to run
@@ -594,7 +594,7 @@ V2.0 REFRAME:
     → = "A formula, not an answer"
 
   ⭐ OTHERS SEE PATTERNS THE PERSON THEMSELVES CANNOT SEE:
-    → Deep chunks = run unconsciously → PFC does NOT observe
+    → Deep chunks = run unconsciously → PFC does NOT receive
     → OUTSIDE observer: sees REPEATED BEHAVIOR patterns → builds chunks ABOUT the pattern
     → = "You tend to self-sabotage right when you're close to success" (close friend sees it, you don't)
     → 🟢 Blind spot bias (Pronin 2002)
@@ -761,7 +761,7 @@ FRAMEWORK SYNTHESIS (🟡):
   → "No negative schemas" = only context-dependent conflict
   → Override spectrum = same mechanism, different degree
   → Chunk association tag (novelty vs threat direction)
-  → PFC observes chunk activations → labels them = "schema"
+  → PFC receives chunk activations → labels them = "schema"
   → Base → Shift → Check = universal pattern
   → Body baseline = ground truth → fix body first
   → Dual-pull tension = evolutionary feature
@@ -779,11 +779,11 @@ METAPHOR (⚠️):
 ### §11.1 Core mechanism files
 
 ```
-  Core-Software.md                — cycle architecture, §8 observation parameters
+  Core-Software.md                — cycle architecture, §9 observation parameters
   Chunk.md v2.0                  — chunk substrate (sole substrate, 14 sections)
   Body-Feedback.md v1.1          — dual-pull, Body-Feedback-Precondition, interface loop
   Body-Feedback-Mechanism.md v1.0— chunk dynamics (Shift/Miss/Gap), compound
-  Feeling.md v2.0                — PFC observation interface, 7-layer fidelity
+  Feeling.md v2.0                — PFC reception interface, 7-layer fidelity
   Cortisol-Baseline.md v2.0      — amplifier, direction gate, 7 modes
   Valence-Propagation.md v1.1    — valence per-entity + chain + PFC blindness
 ```

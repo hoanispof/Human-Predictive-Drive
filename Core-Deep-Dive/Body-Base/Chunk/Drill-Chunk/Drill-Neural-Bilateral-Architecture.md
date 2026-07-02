@@ -53,7 +53,7 @@ THE CLASSIC EXPERIMENT:
 
 KEY INSIGHT:
   → PFC does NOT "read across" to the other hemisphere
-  → PFC picks up AVAILABLE DATA + OBSERVES ITS OWN BEHAVIOR
+  → PFC picks up AVAILABLE DATA + RECEIVES ITS OWN BEHAVIOR
   → Then COMPULSORILY generates a coherent narrative
   → Body ownership = presupposition that forces the Interpreter to run
   → The Interpreter NEVER says "I don't know"
@@ -217,7 +217,7 @@ CORE INSIGHT FROM THIS DRILL SESSION:
 
   ⭐ Background-Pattern trigger = "FUNCTIONAL SPLIT-BRAIN":
     → Brain intact, corpus callosum intact
-    → But compiled pattern too deep → PFC has no chunks to observe
+    → But compiled pattern too deep → PFC has no chunks to receive
     → Effect IDENTICAL to split-brain: has reaction, has no access
     → Example: Parental coercion history (years of forced compliance in childhood)
       → Adult, independent, high autonomy
@@ -247,7 +247,7 @@ AUDITING 9 CORE CLAIMS vs SPLIT-BRAIN EVIDENCE:
     → 1 Compile Engine = Hebbian (synaptic mechanism, hemisphere-agnostic)
 
   ✅ CORRECT, NOT CHALLENGED:
-    → Feeling = PFC observation  (each PFC observes the part it has access to)
+    → Feeling = PFC reception  (each PFC receives the part it has access to)
     → Training 1 = training all  (valid for intact brain)
 
   ⚠️ CORRECT, MINOR GAP (already fixed):

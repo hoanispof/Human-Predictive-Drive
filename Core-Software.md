@@ -1,7 +1,11 @@
 # Core-Software — Cycle-Based Architecture (Software Map)
 
-> **Status:** v3.2 — 1 of 2 Core v8.0 maps
-> **Date:** 2026-06-14 (v3.2 — cross-ref Drill v4.0 + Threat v2.1 + Cortisol-Baseline v2.4)
+> **Status:** v3.5 — 1 of 2 Core v8.0 maps
+> **Date:** 2026-07-02 (v3.5 — PFC label Orchestrator→Biased Hub, §8 updated for Consciousness.md v1.5, §9 ontology meta-description)
+> **v3.4.1:** 2026-07-01 (observer bias fix: entity→state language, PFC=Orchestrator, §8.2 disambiguation removed)
+> **v3.4:** 2026-07-01 (new §8 CONSCIOUSNESS dedicated section; renumber §8→§9 through §13→§14)
+> **v3.3:** 2026-07-01 (consciousness repositioned as enabling state; 15→14 params)
+> **v3.2:** 2026-06-14 (cross-ref Drill v4.0 + Threat v2.1 + Cortisol-Baseline v2.4)
 > **v3.1:** 2026-06-14 (refine "direction gate" → cortisol = amplifier, "tag" → NET link pattern as observation parameter. Source: Drill-Threat-Direction-Analysis v4.0)
 > **v3.0:** 2026-06-02 (integrates 4 new foundation files: Compile-Taxonomy v3.0, Compile-Sleep v1.0, Trust v1.0, Self-Observation v1.0)
 > **v2.2:** 2026-05-25 (Core-Interface.md → backup, 3→2 maps, Ask-AI.md = dynamic interface)
@@ -14,7 +18,7 @@
 > - Cycle-based: Domain → Body-Input → Unconscious → Feeling → PFC → Body-Output → Domain
 > - Chunk-System = sole substrate (everything runs on chunks)
 > - Body-Feedback: Reward (Evaluative + Direct-State) or Dissonance
-> - PFC = observer + indirect orchestrator (Simulation-Engine + Hold/Suppress)
+> - PFC = Biased Hub (hub anatomy + top-down bias; orchestrates via Hold/Suppress + Simulation-Engine)
 > - Schema, Drives, Valence = observation parameters, not components
 > - Development = chunk density increases gradually (same architecture, different chunks)
 > - 1 Engine + 3 Modulators: ALL compile = Exposure → Hebbian. 3 types = modulator configs.
@@ -29,7 +33,7 @@
 > - Body-Feedback-Mechanism.md v2.1 — 4th axis: chunk dynamics, Body-Need 2-source
 > - Gap-Body-Need.md v1.0 — 3 Satiation Types, ENGINE/ROAD/VEHICLE, entity-gap matching
 > - Reward-Signal-Architecture.md v2.1 — Evaluative/Direct-State, E₀→E₃, 5 Profiles
-> - Feeling.md v3.0 — PFC observation interface, 7-layer, PFC=Lawyer integrated
+> - Feeling.md v3.0 — PFC reception interface, 7-layer, PFC=Lawyer integrated
 > - Agent-Mechanism.md v2.1 — agent = function on chunks, 11 sub-files, Compilable Architecture
 > - Self-Pattern-Modeling.md v3.2 — 1 mechanism × 3 dimensions, Compiled/Fresh
 > - Entity-Compiled.md v1.0 — hub-and-spoke, formation 40→200h, Dunbar, grief
@@ -52,7 +56,7 @@
 > **Numbers (🟡):** `~X%` = calibration anchor — direction + scale, NOT measurement.
 >   `X-Y%` = illustrative range (high variation). Insight lies in DIRECTION + CORRELATION,
 >   not the specific number. Each person, each context → actual numbers differ.
->   🟢 numbers (with citations) = research-backed. Details: §12.4.
+>   🟢 numbers (with citations) = research-backed. Details: §13.4.
 > **Language:** English
 
 ---
@@ -65,14 +69,15 @@
 - §3 — BODY-INPUT (L0 + L1)
 - §4 — UNCONSCIOUS PROCESSING
 - §5 — FEELING (Bridge)
-- §6 — PFC (Observer + Orchestrator)
+- §6 — PFC (Biased Hub)
 - §7 — BODY-OUTPUT
-- §8 — OBSERVATION PARAMETERS
-- §9 — DEVELOPMENT TRAJECTORY
-- §10 — MULTIPLE TIMESCALES
-- §11 — KEY REFRAMES
-- §12 — HONEST ASSESSMENT
-- §13 — CROSS-REFERENCES
+- §8 — CONSCIOUSNESS (ENABLING STATE)
+- §9 — OBSERVATION PARAMETERS
+- §10 — DEVELOPMENT TRAJECTORY
+- §11 — MULTIPLE TIMESCALES
+- §12 — KEY REFRAMES
+- §13 — HONEST ASSESSMENT
+- §14 — CROSS-REFERENCES
 
 ---
 
@@ -106,7 +111,7 @@ not architecture. Cycle-based matches how the body-brain actually operates.
 | Schema System | Chunk-System (sole substrate) | Schema = observation label |
 | Layer priority | Signal strength | Loudest wins, not highest layer |
 | Cross-cutting | Properties of cycle | Cortisol = amplifier, Empathy = function |
-| Feeling (implicit) | Explicit bridge | PFC observation interface |
+| Feeling (implicit) | Explicit bridge | PFC reception interface |
 | N separate modules | 1 Simulation-Engine | Shared substrate for Self-Pattern-Modeling, Imagine-Final, ... |
 | Type A/Type B | Compiled/Fresh | Real processing spectrum, not content types |
 
@@ -119,6 +124,7 @@ not architecture. Cycle-based matches how the body-brain actually operates.
 5. **Development = chunk density**: same architecture, different accumulated chunks
 6. **1 Engine, N Applications**: Self-Pattern-Modeling, Imagine-Final, Self-Observation = applications on the same Simulation-Engine
 7. **Honest about limits**: descriptive architecture + hypothesis generator, not clinical protocol
+8. **Consciousness = enabling state**: not a cycle component — the state that determines whether processing is known (§8)
 
 ---
 
@@ -161,9 +167,9 @@ not architecture. Cycle-based matches how the body-brain actually operates.
   Perception ↑ goes up. Action ↓ goes down.
 
   ┌────────────────────────────────────────────────────────────────────┐
-  │                PFC (observer + orchestrator)                        │
+  │                PFC (Biased Hub)                                      │
   │                                                                    │
-  │  OBSERVE: feeling + body vote + chunk activations                  │
+  │  RECEIVE: feeling + body vote + chunk activations                  │
   │  HOLD: ~4±1 WM slots (beginner: small, expert: meta-chunks)       │
   │  SUPPRESS: block unwanted pattern (costly, unsustainable)          │
   │  BUDGET: finite shared resource (fatigue from work → worse at home)│
@@ -188,17 +194,17 @@ not architecture. Cycle-based matches how the body-brain actually operates.
   ┌──────┴──────────────────────────────────────┴──────────────────────┐
   │                        FEELING (bridge)                             │
   │                                                                     │
-  │  Body signals integrate → become PFC-observable                     │
+  │  Body signals integrate → become PFC-accessible                     │
   │  7-layer fidelity: raw 100% → ... → explanation 20-70%             │
   │  Compiled feeling (body already knows) vs Fresh feeling (PFC newly  │
-  │  observing)                                                         │
+  │  detecting)                                                         │
   │  Feeling directed at DOMAIN (evaluating input) vs at SELF           │
   │  (= Self-Observation)                                               │
   │  Wise: trust Feel-Consciousification-Feel-Observation (pre-label)   │
   │  Naive: trust Feel-Labeling-Feel-Explanation (lossiest)             │
   │                                                                     │
   └──────┬──────────────────────────────────────────────────────────────┘
-    ③↑ magnitude × clarity → PFC-observable
+    ③↑ magnitude × clarity → PFC-accessible
   ┌──────┴───────────────────────────────────────────────────────────────┐
   │                   UNCONSCIOUS PROCESSING                             │
   │                                                                      │
@@ -288,7 +294,7 @@ not architecture. Cycle-based matches how the body-brain actually operates.
   │ Chunk compile             │ B (PFC trainable) + C (indirect) + D (≈0)    │
   │ Body-Feedback fire        │ C (amygdala, VTA, brainstem) + B (insula)    │
   │ Feeling integrate         │ B (anterior insula → ACC → vmPFC)            │
-  │ PFC observe + hold        │ A (dlPFC working memory)                     │
+  │ PFC receive + hold         │ A (dlPFC working memory)                     │
   │ PFC orchestrate           │ A → B (top-down) + A → C (vmPFC-amygdala)   │
   │ Simulation-Engine         │ A (mPFC) + B (DMN, insula) + C (hippocampus)│
   │ Entity-Compiled           │ A (ATL hub) + B (multi-modal spokes) + C     │
@@ -338,7 +344,7 @@ V7.8 CYCLE — resolution:
 COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
 
   Body-Feedback.md §3 describes: Domain → Body sensory → Feedback → Schema Update → Action → Domain
-  V7.8 REFINES: adds Feeling bridge + PFC observation + Orchestrate detail.
+  V7.8 REFINES: adds Feeling bridge + PFC reception + Orchestrate detail.
   = V7.8 = 6-step + explicit Feeling + PFC + Orchestrate.
   COMPLEMENTARY, not competing.
 ```
@@ -554,7 +560,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   The brain does NOT compute — the brain SEARCHES a database.
   Database = chunks. Operators = unconscious (~95%) + PFC (~5%).
   → Formal consciousness taxonomy (4 types of unconscious, knowing spectrum,
-    mechanisms): Consciousness.md v1.0
+    mechanisms, thalamo-cortical loop): Consciousness.md v1.5
 
   🟢 Hebb (1949): "Neurons that fire together, wire together"
 
@@ -620,7 +626,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
 
     → Same 1 Engine, different MODULATOR configuration.
     → Multi-stream: Content/Value/Entity/Behavior compile SIMULTANEOUSLY.
-    → ~90%/~5% = calibration anchor (§12.4).
+    → ~90%/~5% = calibration anchor (§13.4).
 
   COMPILED QUALITY DIMENSION (PFC-Operations.md v1.3 §5):
     → Chunks compile with emotional links shaped by body-state at compile time.
@@ -683,7 +689,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
 
     3 COMPONENTS RUNNING SIMULTANEOUSLY on chunk substrate:
       ① UNCONSCIOUS (~95%): compile + fire + evaluate
-      ② PFC (~5%): direct + sequence + observe
+      ② PFC (~5%): direct + sequence + receive
       ③ TRUST: amplify + modulate + connect (individual ↔ external)
     + 1 BRIDGE:
       ④ EXTERNAL TOOLS (×∞): paper, computers, AI → extend PFC capacity
@@ -990,11 +996,11 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
 ## §5 — FEELING (Bridge Unconscious → PFC)
 
 ```
-🟡🟢 FEELING = WHAT PFC SEES WHEN OBSERVING BODY-CHUNK INTERACTION:
+🟡🟢 FEELING = WHAT PFC RECEIVES FROM BODY-CHUNK INTERACTION:
 
   NOT a separate system. There is NO "feeling module."
   Feeling = INTERFACE between body computation and PFC awareness.
-  Body = processes (compiled patterns fire). Feeling = what emerges. PFC = observes.
+  Body = processes (compiled patterns fire). Feeling = what emerges. PFC = receives.
 
   PFC = LAWYER (Feeling.md v3.0):
     → PFC is NOT a judge (does not create new verdicts)
@@ -1022,9 +1028,9 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
     → Naive: trust Feel-Labeling-Feel-Explanation (label + explanation = lossiest)
     → Training = bringing attention back to Feel-Consciousification-Feel-Observation
 
-    🟡 % = calibration anchor, NOT measurements (§12.4).
+    🟡 % = calibration anchor, NOT measurements (§13.4).
 
-  ⭐ PFC OBSERVATION THRESHOLD — 2 DIMENSIONS (magnitude × clarity):
+  ⭐ PFC RECEPTION THRESHOLD — 2 DIMENSIONS (magnitude × clarity):
 
     MAGNITUDE = intensity of body signal (generated by body-feedback):
       → High: pain, fear, excitement → signal loud → PFC hard to ignore
@@ -1052,7 +1058,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
 
   COMPILED vs FRESH FEELING:
     → Compiled feeling: body already knows (expert → "this is wrong" instantly)
-    → Fresh feeling: PFC observing for the first time (novice → "there's something...")
+    → Fresh feeling: PFC detecting for the first time (novice → "there's something...")
     → Compiled = faster, cheaper, more accurate (in familiar domains)
     → Fresh = slower, expensive, but necessary for new domains
     → Same mechanism, different processing position on the Compiled/Fresh spectrum
@@ -1065,15 +1071,15 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
     ⑤ Predictive/intuition: "something is off"
     ⑥ Valence: "like this", "dislike that name"
     ⑦ Schema-triggered: "peace when returning home"
-    → ALL = same mechanism: integrated body signal → PFC observes
+    → ALL = same mechanism: integrated body signal → PFC receives
 
   TEMPORAL ORDER (invariant):
-    Body computes FIRST → Feeling emerges → PFC observes LAST
+    Body computes FIRST → Feeling emerges → PFC receives LAST
     → 🟢 Damasio 1994, 1999: somatic markers PRECEDE conscious decision
     → Feeling does NOT create new information — feeling REPORTS body state
 
   ⭐ FEELING DIRECTED AT DOMAIN vs FEELING DIRECTED AT SELF:
-    Feeling directed at DOMAIN: PFC observes body reaction to evaluate domain input
+    Feeling directed at DOMAIN: PFC receives body reaction to evaluate domain input
       "Problem is hard → frustrated → change direction" = evaluating DOMAIN
     Feeling directed at SELF (= Self-Observation, APPLICATION-3):
       "I am frustrated → why? → ah, I am tired" = understanding SELF
@@ -1086,13 +1092,35 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
 
 ---
 
-## §6 — PFC (Observer + Orchestrator)
+## §6 — PFC (Biased Hub)
 
-### §6.1 PFC = Observer, NOT Controller
+### §6.1 PFC = Biased Hub — Enabler, NOT Source
 
 ```
+⭐ "BIASED HUB" = 2 PROPERTIES:
+
+  HUB (anatomy): PFC = most widely connected cortical region.
+    → Receives from ALL sensory modalities + limbic + thalamic
+    → Projects TO all cortical areas + subcortical (TRN, BG, thalamus)
+    → = Anatomical hub — convergence point
+
+  BIASED (function): PFC applies top-down bias to processing.
+    → Hold → amplifies target pattern (biases competition toward it)
+    → Suppress → inhibits competing pattern (biases competition away)
+    → Together: shapes WHICH patterns win consciousness stage
+    → = Functional bias — not generating content, but selecting winners
+
+  "Orchestrator" describes WHAT PFC does (orchestrates processing).
+  "Biased Hub" describes WHY PFC can do it (hub anatomy + bias function).
+
+  PFC = ENABLER, NOT SOURCE:
+    → Content is generated in posterior cortex (visual, auditory, etc.)
+    → PFC UPGRADES consciousness quality (Level 1→2→3), NOT generates it
+    → Evidence: disable PFC → consciousness persists (dreaming, prefrontal lesions)
+    → Consciousness.md v1.5 §6 (full PFC analysis)
+
 🟡🟢 PFC CAN:
-  → OBSERVE: read feeling, detect chunk activations
+  → RECEIVE: read feeling, detect chunk activations
   → HOLD: ~4±1 WM slots (🟢 Cowan 2001) — amplify target pattern
   → SUPPRESS: block unwanted pattern (costly, unsustainable)
   → SEARCH: hold chunks → bias spreading activation direction
@@ -1103,7 +1131,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
 
 🟡🟢 PFC CANNOT:
   → FEEL directly (must RECEIVE from body via feeling bridge)
-  → COMPILE automatically (unconscious compiles, PFC only observes results)
+  → COMPILE automatically (unconscious compiles, PFC only receives results)
   → RUN 95% background processing
   → OVERRIDE body-base when signal too strong (extreme hunger → eating frantically,
     meeting a crush → stuttering)
@@ -1157,7 +1185,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   PFC activation level CORRESPONDS to dissonance level:
 
     Unconscious settled, environment settled → PFC ~ 0% (not needed)
-    Mild novelty → PFC ~ 5-15% (observe, light hold)
+    Mild novelty → PFC ~ 5-15% (receive, light hold)
     Active problem → PFC ~ 20-40% (Type 4 linking, search)
     High stakes → PFC ~ 40-70% (strategic hold, domain-check)
     Crisis → PFC ~ 70-95% (full engagement, override attempts)
@@ -1357,13 +1385,114 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
 
 ---
 
-## §8 — OBSERVATION PARAMETERS
+## §8 — CONSCIOUSNESS (ENABLING STATE)
+
+### §8.0 What Consciousness Is
 
 ```
-🟡 OLD "DRIVES" AND "SCHEMAS" = OBSERVATION SERVICE PARAMETERS:
+⭐ CONSCIOUSNESS = "KNOWING":
 
-  Not architectural components. They are named patterns observed from the cycle.
-  Value: helps describe, predict, communicate. Not mechanism.
+  DEFINITION (Consciousness.md v1.5 §1):
+    "Knowing" = PRIMARY definition.
+    "Enabling state" = architectural descriptor (secondary).
+    Consciousness = the portion of processing that is KNOWN.
+
+    "Known" means the brain can:
+      → Report: articulate it (even vaguely: "something feels off")
+      → Remember: retain the experience
+      → Use in decision: incorporate into choices
+      → Act on it: behave based on it
+
+  SCOPE — LEVEL 2 ACCESS CONSCIOUSNESS:
+    → This framework addresses Level 2 = access consciousness ("knowing")
+    → Level 0 (affective/subcortical), Level 1 (phenomenal),
+      Level 3 (meta-consciousness) acknowledged but NOT modeled
+    → "Knowing" = functional definition — WHAT + HOW, not WHY it feels
+
+  THE ENTIRE BODY + BRAIN = UNCONSCIOUS (default state).
+    → ~95% of processing = unconscious (§4)
+    → Consciousness = the STAGE = the small portion that "you know"
+    → Not binary — SPECTRUM: "Knowing" = f(signal × anchor × attention)
+
+  4 LANDMARK LEVELS:
+    Vague knowing — "something feels off" — typical: emotional anchor only
+    Clearer knowing — "uneasy about something" — typical: partial label
+    Clear knowing — "uneasy because X" — typical: verbal + causal
+    Full knowing — "X because Y → need Z" — typical: full chain + plan
+
+  🟢 Block 1995 | 🟢 Dehaene 2014 | 🟡 "Knowing" = framework reframe
+```
+
+### §8.1 Enabling State — NOT a Cycle Component
+
+```
+⭐ CONSCIOUSNESS = ENABLING STATE OF THE CHUNK NETWORK:
+
+  Consciousness is NOT a step in the cycle.
+  Consciousness is NOT a system (no new box in the architecture).
+  Consciousness = META-LEVEL STATE that determines WHETHER
+    processing is known.
+
+  3 PROPERTIES:
+
+  ① META-LEVEL: STATE, NOT CONTENT
+    Chunk patterns = CONTENT: what appears on the consciousness stage
+    Consciousness = STATE: determines whether content is known
+    → Different meta-level: content exists WITHIN the state
+
+  ② PREREQUISITE FOR KNOWING
+    Patterns fire without consciousness (~95% unconscious, §4)
+    Consciousness = when processing becomes KNOWN
+    DO need consciousness ON to KNOW any pattern
+    = Consciousness gates knowing
+
+  ③ HAS IDENTIFIABLE MECHANISM
+    Thalamo-cortical loop, GWT broadcast + ignition, biased competition
+    Consciousness.md v1.5 §5 enrichments:
+      → 3-role thalamus: STATE CONTROL + CONTENT GATE + ROUTING HUB (§5.1)
+      → 5-checkpoint pathway: TRN → tonic → nuclei → recurrence → broadcast (§5.6)
+      → 2-tier sustain: primary (thalamo-cortical) + additional (PFC hold) (§5.7)
+      → PFC = Biased Hub (enabler, not source) — upgrades L1→L2→L3 (§6)
+    3 impairment mechanisms:
+      → Arousal OFF (anesthesia, deep sleep) → stage dark entirely
+      → PFC budget depleted (fatigue, stress) → stage dims (reduced access)
+      → VTA dopamine supply cut (PD, apathy) → stage can light but
+        motivational salience reduced → what gets on stage changes
+    = The enabling state has a traceable physical substrate
+
+  WHAT "ENABLING STATE" MEANS:
+    Not a system. Not a component. Not a brain region.
+    = The STATE that the chunk network CAN be in,
+      where processing becomes known.
+    Conscious/unconscious = labels for whether the state is ON or OFF
+      for a specific piece of processing.
+
+  🟡 Consciousness = enabling state = framework reframe
+  🟢 GWT mechanism: Baars 1988, Dehaene 2014
+  🟢 Thalamo-cortical loop: Llinás et al. 1998
+  🟢 Impairment mechanisms: Alkire et al. 2008 (arousal), Koch et al. 2016
+  Full detail: Consciousness.md v1.5 §5 (mechanisms), §6 (PFC)
+```
+
+---
+
+## §9 — OBSERVATION PARAMETERS
+
+```
+🟡 OBSERVATION PARAMETER = A RECURRING PATTERN IDENTIFIED THROUGH OBSERVATION:
+
+  This framework's observation parameters are the specific patterns
+  emerging from human Compilable Architecture chunk dynamics.
+
+  Each maps to identifiable neural substrates (VTA, amygdala, serotonin...)
+  but is NOT a separate module — the mapping is many:many.
+
+  Like "temperature" in physics: no neuron IS "novelty,"
+  but the pattern is real, measurable, and causal.
+
+  The name is convention; the pattern is real.
+  Intervention: target the MECHANISMS that produce the pattern,
+  not the pattern itself.
 
   ┌──────────────┬──────────────────────────────────────────────────────┐
   │ Parameter    │ What it observes                                      │
@@ -1430,11 +1559,10 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   ├──────────────┼──────────────────────────────────────────────────────┤
   │ Passion      │ When hardware pull + domain pull ALIGN (rare, precious)│
   │              │ Gap-Distribution-Profile alignment indicator           │
-  ├──────────────┼──────────────────────────────────────────────────────┤
-  │ Consciousness│ "Knowing" = broadcast state (Consciousness.md v1.0)  │
-  │              │ Spectrum: vague→clear→chain→plan. 4-type unconscious  │
-  │              │ taxonomy. Observation parameter (not attribute)        │
   └──────────────┴──────────────────────────────────────────────────────┘
+
+  ⭐ CONSCIOUSNESS: see §8 (dedicated section).
+    Consciousness is NOT in this table — different meta-level (enabling state, not parameter).
 
   CROSS-SPECIES PATTERN:
     In animals: hardware (hormone) → behavior directly
@@ -1452,7 +1580,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
 
 ---
 
-## §9 — DEVELOPMENT TRAJECTORY
+## §10 — DEVELOPMENT TRAJECTORY
 
 ```
 🟡 DEVELOPMENT = CHUNK DENSITY GRADUALLY INCREASING:
@@ -1530,7 +1658,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
 
 ---
 
-## §10 — MULTIPLE TIMESCALES
+## §11 — MULTIPLE TIMESCALES
 
 ```
 🟡 CYCLE RUNS AT MULTIPLE TIMESCALES SIMULTANEOUSLY:
@@ -1552,7 +1680,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
 
 ---
 
-## §11 — KEY REFRAMES
+## §12 — KEY REFRAMES
 
 ```
 📌 MAJOR REFRAMES — FROM V7.5 THROUGH 28-SESSION DRILL:
@@ -1674,13 +1802,21 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
       → TOOL NOT VIRTUE: Level 2 sufficient for routine (~95%). Domain feedback =
         the only differentiator.
       → Einstein vs conspiracy theorist = same mechanism, different domain feedback.
+
+  V3.4 REFRAME:
+
+  26. Consciousness = Enabling State with Dedicated Section (v3.4)
+      → Consciousness repositioned from footnote within observation parameters
+        to dedicated §8 with full definition + mechanism.
+      → NOT a cycle component — enabling STATE.
+      → Has its own section (§8) separate from observation parameters (§9).
 ```
 
 ---
 
-## §12 — HONEST ASSESSMENT
+## §13 — HONEST ASSESSMENT
 
-### §12.1 What This Framework Provides
+### §13.1 What This Framework Provides
 
 ```
 🟡 THEORETICAL CONTRIBUTIONS:
@@ -1688,7 +1824,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   → Cycle-based architecture matching actual mechanism
   → Chunk-System as sole substrate (simplification + accuracy)
   → Observation parameters replacing component taxonomy
-  → PFC as observer + indirect orchestrator
+  → PFC as orchestrator
   → Simulation-Engine: 1 engine, N applications (unified substrate)
   → Entity-Compiled: structural body-base integration
   → Entity-Access gradient Level 0-5 (continuous, not binary)
@@ -1723,7 +1859,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   → Cross-species patterns validated (Berridge, Panksepp, Schultz)
 ```
 
-### §12.2 What This Framework Does NOT Provide
+### §13.2 What This Framework Does NOT Provide
 
 ```
 ⚠️ SCOPE LIMITS:
@@ -1738,7 +1874,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   → Quantitative: when PFC override succeeds vs fails
 ```
 
-### §12.3 Open Questions
+### §13.3 Open Questions
 
 ```
 ✅ RESOLVED from v1.0 (through 28-session drill):
@@ -1754,7 +1890,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   2. Mastery compound under-specified
      → Autonomy.md §4.7 + Gap-Body-Need v1.0 (Generative gap). Quantitative thresholds missing.
   9. Whether observation parameters list is complete
-     → 15 params (§8). No formal closure — list may expand.
+     → 14 params (§9). No formal closure — list may expand.
 
 🔴 STILL OPEN:
 
@@ -1791,7 +1927,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
       (Self-Observation.md v1.0 §12 GAP-Self-Observation-7)
 ```
 
-### §12.4 Number Convention
+### §13.4 Number Convention
 
 ```
 🟡 NUMBERS IN THE FRAMEWORK = CALIBRATION ANCHORS:
@@ -1823,18 +1959,18 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
 
 ---
 
-## §13 — CROSS-REFERENCES
+## §14 — CROSS-REFERENCES
 
-### §13.1 Other Maps + Interface
+### §14.1 Other Maps + Interface
 
 ```
   Core-Hardware.md              — WHAT IS WHERE: 4 zones A/B/C/D, PFC hardware specs, receptors
   Ask-AI.md v3.2                — INTERFACE: AI generates dynamic interface per user (protocol + navigation)
   Reading-Roadmap.md            — READING PROGRESSION: 6 tiers, ~97 files, bridges between systems
-  Consciousness.md v1.0         — Consciousness = "Knowing": definition, taxonomy, mechanisms (cross-cutting)
+  Consciousness.md v1.5         — Consciousness = "Knowing" = enabling state: definition, 3-parameter model, taxonomy, 5-checkpoint pathway, sustain hierarchy, PFC Biased Hub (cross-cutting)
 ```
 
-### §13.2 Body-Base (foundation)
+### §14.2 Body-Base (foundation)
 
 ```
   Body-Base/Body-Base.md v4.0              — Entry point, Model 3+1, Compilable Architecture
@@ -1847,7 +1983,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   Body-Base/Trust.md v1.0                  — Trust = compiled prediction, meta-dimension, 3 sub-dimensions
 ```
 
-### §13.3 Chunk System
+### §14.3 Chunk System
 
 ```
   Chunk/Chunk.md v3.0                      — Chunk substrate, pattern hierarchy, Entity-Compiled reference
@@ -1856,7 +1992,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   Chunk/Background-Pattern.md v2.0         — Accumulated chunk bias invisible to PFC
 ```
 
-### §13.4 Agent-Mechanism (11 files)
+### §14.4 Agent-Mechanism (11 files)
 
 ```
   Agent-Mechanism/Agent-Mechanism.md v2.1      — Integration hub, Compilable Architecture
@@ -1873,7 +2009,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   Agent-Mechanism/Resonance-Per-Entity.md v1.0  — Per-relationship dynamics, Hardware-Subsidy spectrum
 ```
 
-### §13.5 Body-Feedback (10+ files)
+### §14.5 Body-Feedback (10+ files)
 
 ```
   Body-Feedback/Body-Feedback.md               — Dual-Pull, Body-Feedback-Precondition, Interface Loop
@@ -1891,19 +2027,19 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   Body-Feedback/Action-Space.md v1.0            — Supply-side capability landscape
 ```
 
-### §13.6 Feeling
+### §14.6 Feeling
 
 ```
-  Feeling/Feeling.md v3.0                  — PFC observation interface, 7-layer, PFC=Lawyer
+  Feeling/Feeling.md v3.0                  — PFC reception interface, 7-layer, PFC=Lawyer
   Feeling/Body-Knowing.md v1.0             — Compiled recognition, 3 directions = same mechanism
   Feeling/Feeling-Research.md              — 7+ research stream foundation
   Feeling/Feeling-Mechanism-Deep-Draft.md  — HOW body signals → felt experience end-to-end
 ```
 
-### §13.7 PFC
+### §14.7 PFC
 
 ```
-  PFC/PFC-Function.md v1.2                — 24 functions × 5 categories
+  PFC/PFC-Function.md v1.3                — 24 functions × 5 categories
   PFC/PFC-Hardware.md v1.1                — 4 receptor systems, COMT/DRD4
   PFC/PFC-Configuration.md v1.1           — 6 dynamic modes, PTSD, ADHD
   PFC/PFC-Operations.md v1.3              — Hold/Suppress, Budget, Compiled Quality
@@ -1911,13 +2047,13 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   PFC/Simulation-Engine.md v1.2           — 1 engine, 3 components, 3 axes, N apps
   PFC/Self-Observation.md v1.0            — APPLICATION-3, Level 0-6, Keystone, Tool Not Virtue
   PFC/Attention-Spectrum.md v2.1          — Attention hardware, COMT/DRD4
-  PFC/Logic-Feeling.md v4.0               — Body-Knowing + Compiled/Fresh spectrum, observer labels
+  PFC/Logic-Feeling.md v4.0               — Body-Knowing + Compiled/Fresh spectrum, PFC labels
   PFC/Logic-Feeling-Balance.md v1.0       — Meta-principle: domain feedback = only arbiter
   PFC/Imagination/Imagine-Final.md v3.1   — Constructive simulation, boundary reframe
   PFC/Imagination/Imagination.md v2.0     — Process file, 5 modalities, cortisol×modes
 ```
 
-### §13.8 Observation Files
+### §14.8 Observation Files
 
 ```
   Observation/Novelty.md v1.2              — Positive prediction-delta, DRD4
@@ -1941,7 +2077,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   Observation/AI-Collective-Detection.md v1.0 — Collective-level detection ⑩-⑭
 ```
 
-### §13.9 Domain
+### §14.9 Domain
 
 ```
   Domain/Domain.md v2.0                    — 3 Types, Dual Check, 3 Constraint Sources
@@ -1952,7 +2088,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   Domain/Drill-Emergent-Pattern.md v2.0    — Enemy, Nurturing, Violation
 ```
 
-### §13.10 Collective
+### §14.10 Collective
 
 ```
   Collective/Collective.md v1.0            — Integration hub, 5 pathways
@@ -1963,7 +2099,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   Collective/Compliance-Floor.md v2.1      — Minimum legal floor
 ```
 
-### §13.11 Schema + Melody + Evidence
+### §14.11 Schema + Melody + Evidence
 
 ```
   Schema/Schema.md v2.0                    — Observation parameter reframe
@@ -1971,7 +2107,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   Melody Lens/Personal-Melody.md v2.0      — Metaphor: each person = 1 piece of music
 ```
 
-### §13.12 Application Files
+### §14.12 Application Files
 
 ```
   AI-Schema-Detection.md v2.1              — Gateway: self-drill, AI guardrails
@@ -1982,7 +2118,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
   Research/Child-Development/              — 4 child development files
 ```
 
-### §13.13 Superseded Files
+### §14.13 Superseded Files
 
 ```
   Core-v7.8-Draft.md v0.2                  → backup (_backup/Core-v7.8-Draft-pre-3maps.md)
@@ -1995,7 +2131,7 @@ COMPARED TO 6-STEP LOOP (Body-Feedback.md §3):
 
 ## Closing Note
 
-**Core-Software v3.2** — 1 of 2 Core v8.0 maps.
+**Core-Software v3.3** — 1 of 2 Core v8.0 maps.
 
 The software map describes in THE MOST DETAIL how the body-brain system OPERATES.
 Cycle-based architecture emerged from 35,000+ lines of deep analysis (130+ files, 500+ citations).
@@ -2006,16 +2142,17 @@ Compile-Sleep v1.0 (Sleep Maintenance 6 mechanisms), Trust.md v1.0 (compiled pre
 Keystone, Tool Not Virtue). v3.1 refined "direction gate" → cortisol = amplifier,
 "tag" → NET link pattern as observation parameter (source: Drill-Threat-Direction-Analysis v4.0).
 v3.2 cross-ref update: Drill v4.0, Threat v2.1, Cortisol-Baseline v2.4.
+v3.3 consciousness repositioned as enabling state (15→14 params).
 25 key reframes.
 
 Want to know WHAT IS WHERE → Core-Hardware.md.
 Want to INTERACT with the framework → Ask-AI.md (AI generates dynamic interface per user).
 
-> *Core-Software v3.2 — "Perception-Action Cycle: Domain → Body-Input → Unconscious(Chunks) →
+> *Core-Software v3.3 — "Perception-Action Cycle: Domain → Body-Input → Unconscious(Chunks) →
 > Feeling → PFC → Body-Output → Domain. Chunks = sole substrate. Simulation-Engine = 1 engine,
 > N applications (Self-Pattern-Modeling, Imagine-Final, Self-Observation). Body-Feedback = Evaluative
 > reward (opioid, Body-Feedback-Precondition) + Direct-State reward (non-opioid, burnout-proof) + Dissonance.
-> PFC = observer + orchestrator (Hold/Suppress, Budget, Compiled Quality).
+> PFC = orchestrator (Hold/Suppress, Budget, Compiled Quality).
 > Compile Architecture: 1 Engine (Exposure → Hebbian) + 3 Modulators + Sleep Maintenance.
 > Trust = compiled prediction about reliability (3 sub-dimensions, build slowly, collapse fast).
 > Self-Observation = APPLICATION-3 (Keystone: fail → cascade 5+ systems. Tool Not Virtue).

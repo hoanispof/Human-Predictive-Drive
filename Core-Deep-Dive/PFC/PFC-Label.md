@@ -8,7 +8,7 @@ scope: |
   VOCABULARY REFERENCE: Label conventions for all PFC-related concepts.
   Formalizes the 3-tier label system: General → Direction → Specific.
   13 domains: Roles, Processing, Operations, Cost, Quality, Regions, Hardware,
-  Simulation-Engine, Cognitive Ops, Failure Modes, Observer/Mechanism, Deprecated.
+  Simulation-Engine, Cognitive Ops, Failure Modes, Phenomenal/Mechanism, Deprecated.
   Does NOT explain mechanisms (source files do that).
   ONLY formalizes: WHICH LABEL, WHAT IT MEANS, WHEN TO USE IT.
 purpose: |
@@ -25,7 +25,7 @@ dependencies:
   - PFC-Operations.md v1.0 — §2-§4 Hold/Suppress, §5 Quality, §9 Budget, §10 3-Cost
   - Simulation-Engine.md v1.0 — §1-§3 Engine/Components/Axes, §6 mPFC gradient
   - Logic-Feeling.md v2.1 — Compiled/Fresh spectrum, observer labels (companion)
-  - PFC-Function.md v1.2 — 24 functions, 5 categories (companion)
+  - PFC-Function.md v1.3 — 24 functions, 5 categories (companion)
   - PFC-Hardware.md v1.1 — COMT, DRD4, NE, capacity/quality
   - PFC-Hold-Dimensions.md — ~4±1 slots, interference limit
   - Body-Feedback-Label.md v2.1 — §8 Compiled/Fresh, §9C 3-cost (companion)
@@ -45,7 +45,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Yet the same concept → 3-5 different names → confusion.**
 >
 > **"Fresh" / "PFC-Fresh" / "draft" / "operation" = same conceptual zone, DIFFERENT levels.**
-> **"PFC" = Observer? Lawyer? Director? Universal Resource? = depends on context.**
+> **"PFC" = Receiver? Lawyer? Orchestrator? Universal Resource? = depends on context.**
 >
 > **This file: VOCABULARY REFERENCE for all PFC-related labels.**
 > **Does NOT explain mechanisms (source files do that).**
@@ -96,8 +96,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → 3 different levels mixed up → confusing.
 
   PROBLEM 3 — PFC HAS MULTIPLE ROLES:
-    Observer (Feeling.md), Lawyer (PFC-Operations.md §10),
-    Director (Neural-Processing-Flow),
+    Receiver (Feeling.md), Lawyer (PFC-Operations.md §10),
+    Orchestrator (Neural-Processing-Flow),
     Universal Resource (PFC-Operations.md §9),
     Quality Controller (Ask-AI v3.1 §6.1)
     → Which role applies when?
@@ -161,7 +161,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ┌────────────────────────────────────────────────────┐
     │ LEVEL 1 — ROLES (what PFC "is" in that context):   │
-    │   Observer, Lawyer, Director, Universal Resource,   │
+    │   Receiver, Lawyer, Orchestrator, Universal Resource,│
     │   Quality Controller                                │
     │                                                    │
     │ LEVEL 2 — STATES (position on the spectrum):        │
@@ -194,13 +194,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Role Label              │ Meaning + when to use                    │
   ├─────────────────────────┼──────────────────────────────────────────┤
   │                         │                                          │
-  │ ① PFC = Observer        │ PFC OBSERVES body-feedback output.       │
+  │ ① PFC = Receiver        │ PFC RECEIVES body-feedback output.       │
   │                         │ Reactive, NOT generative.                │
   │                         │ ~5% decisions, 95% body self-processes.  │
   │                         │ ⚠️ % = calibration anchor.               │
   │                         │ "Reads output, does not create output."  │
   │                         │ Use: when emphasizing PFC does NOT        │
-  │                         │ control but only observes.               │
+  │                         │ control but only receives.               │
   │                         │ (Feeling.md, PFC-Function.md §1)         │
   │                         │                                          │
   │ ② PFC = Lawyer          │ PFC constructs narrative FOR body-base.  │
@@ -212,8 +212,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                         │ actual body-need.                        │
   │                         │ (PFC-Operations.md §10, Gazzaniga)       │
   │                         │                                          │
-  │ ③ PFC = Director        │ PFC steers, does NOT compute directly.   │
-  │   (Orchestrator)        │ Biases spreading activation. Chooses     │
+  │ ③ PFC = Orchestrator    │ PFC steers, does NOT compute directly.   │
+  │                         │ Biases spreading activation. Chooses     │
   │                         │ direction.                               │
   │                         │ "Director sets direction, actors perform."│
   │                         │ Use: when emphasizing PFC only BIASES,   │
@@ -242,15 +242,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   └─────────────────────────┴──────────────────────────────────────────┘
 
   ⚠️ 5 roles do NOT CONFLICT — same PFC, DIFFERENT PERSPECTIVES:
-     Observer = perspective (what PFC reads)
+     Receiver = perspective (what PFC reads)
      Lawyer = output quality (whom PFC justifies for)
-     Director = mechanism (how PFC influences)
+     Orchestrator = mechanism (how PFC influences)
      Universal Resource = resource constraint (how PFC is limited)
      Quality Controller = verification function (what PFC checks)
 
+  ⭐ PRIMARY LABEL — "BIASED HUB" (Consciousness.md v1.5 §6):
+     Hub = anatomy (most widely connected cortical region)
+     Biased = function (top-down bias via Hold/Suppress + Simulation-Engine)
+     5 roles above = CONTEXT-DEPENDENT perspectives on the SAME Biased Hub.
+     "Orchestrator" = 1/5 role descriptions, NOT PFC's defining characteristic.
+
   ⚠️ Do NOT use "PFC = controller" or "PFC = boss":
      PFC does NOT control the body. Body processes 95% automatically.
-     PFC only BIASES direction + OBSERVES output.
+     PFC only BIASES direction + RECEIVES output.
 ```
 
 ---
@@ -990,7 +996,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Domain verification:       │ "PFC check" / "Dual Check"              │
   │ Shared substrate:          │ "Simulation-Engine"                      │
   │ Compile quality:           │ "Genuine/Schema/Threat-compiled"         │
-  │ Observer-level labels:     │ "Logic/Feeling" (with disclaimer)        │
+  │ Phenomenal-level labels:   │ "Logic/Feeling" (with disclaimer)        │
   │ Mechanism-level labels:    │ "Compiled/Fresh" (REQUIRED for analysis) │
   └────────────────────────────┴─────────────────────────────────────────┘
 ```
@@ -1006,7 +1012,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      State → "Fresh" / "Compiled" (position on spectrum)
      Operation → "HOLD" / "SUPPRESS" (action PFC performs)
      Sub-operation → "PFC draft novel path" (specific verb + object)
-     Role → "Observer" / "Lawyer" / "Director" / etc. (depending on context)
+     Role → "Receiver" / "Lawyer" / "Orchestrator" / etc. (depending on context)
      ✗ Do NOT mix: "PFC-Fresh operation" (mixes state + operation)
 
   ② COMPILED/FRESH FOR MECHANISM, LOGIC/FEELING FOR OBSERVATION:
@@ -1042,9 +1048,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Region (dlPFC/rIFG) → only for citation/anatomy/damage analysis
 
   ⑧ ROLE LABEL BY CONTEXT:
-     Describing observation → PFC = Observer
+     Describing signal receipt → PFC = Receiver
      Analyzing narrative bias → PFC = Lawyer
-     Explaining mechanism → PFC = Director
+     Explaining mechanism → PFC = Orchestrator
      Budget trade-off → PFC = Universal Resource
      Verification → PFC = Quality Controller
      Do NOT use multiple roles simultaneously (confusing) — choose the best fit.
@@ -1095,7 +1101,7 @@ WHAT THIS FILE DOES NOT COVER:
   ✗ Simulation-Engine architecture (→ Simulation-Engine.md v1.0)
   ✗ Compiled/Fresh full spectrum (→ Logic-Feeling.md v2.1)
   ✗ Body-feedback vocabulary (→ Body-Feedback-Label v2.0)
-  ✗ PFC 24 functions catalog (→ PFC-Function.md v1.2)
+  ✗ PFC 24 functions catalog (→ PFC-Function.md v1.3)
   ✗ PFC development trajectory (→ PFC-Development.md)
   ✗ PFC hardware individual differences mechanism (→ PFC-Hardware.md v1.1)
 ```
@@ -1126,7 +1132,7 @@ WHAT THIS FILE DOES NOT COVER:
   │ Logic-Feeling.md v2.1            │ Compiled/Fresh spectrum full         │
   │                                  │ treatment. Observer labels. SOURCE.  │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ PFC-Function.md v1.2             │ 24 functions, 5 categories.         │
+  │ PFC-Function.md v1.3             │ 24 functions, 5 categories.         │
   │                                  │ SOURCE for "WHAT PFC does."         │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ PFC-Hardware.md v1.1             │ COMT, DRD4, NE, capacity/quality.   │
@@ -1141,11 +1147,11 @@ WHAT THIS FILE DOES NOT COVER:
   │                                  │ controller, domain = final arbiter. │
   │                                  │ SOURCE for §2 ⑤.                   │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Feeling.md v3.0                  │ PFC observation of body-feedback.   │
+  │ Feeling.md v3.0                  │ PFC receipt of body-feedback.       │
   │                                  │ 7-layer gradient.                   │
   │                                  │ Feel-Explanation = lossy.           │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Neural-Processing-Flow.md        │ PFC = Director/Orchestrator.        │
+  │ Neural-Processing-Flow.md        │ PFC = Orchestrator.                 │
   │                                  │ Working memory compression.         │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Somatic-Articulation-Loop.md     │ Somatic-Articulation-Loop:          │
@@ -1217,7 +1223,7 @@ WHAT THIS FILE DOES NOT COVER:
 > *PFC-Label Convention v1.0 — Vocabulary Reference.*
 > *Companion to Body-Feedback-Label v2.0.*
 >
-> *§2 Roles: Observer / Lawyer / Director / Universal Resource / Quality Controller.*
+> *§2 Roles: Receiver / Lawyer / Orchestrator / Universal Resource / Quality Controller.*
 > *§3 Spectrum: Compiled ←→ Fresh (the real axis, not Logic/Feeling).*
 > *§4 Operations: HOLD (amplify) / SUPPRESS (block) — 4 combinations, 3 outcomes.*
 > *§5 Cost: ① PFC draft + ② Suppress + ③ Uncertainty. Budget = finite, shared.*
@@ -1225,6 +1231,6 @@ WHAT THIS FILE DOES NOT COVER:
 > *§7-§8 Regions + Hardware: dlPFC, vlPFC, vmPFC, mPFC, COMT, DRD4.*
 > *§9 Simulation-Engine: 1 engine, 3 components, 3 axes.*
 > *§10-§11 Cognitive ops + Failure modes.*
-> *§12 Observer vs Mechanism: Logic/Feeling ≠ Compiled/Fresh.*
+> *§12 Phenomenal vs Mechanism: Logic/Feeling ≠ Compiled/Fresh.*
 > *§13 Deprecated: "PFC-Fresh", "draft" standalone, "willpower", "self-control" unspecified.*
 > *§14 Rules: correct level, correct context, don't blame — explain the mechanism.*

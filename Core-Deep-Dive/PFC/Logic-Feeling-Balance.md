@@ -273,7 +273,7 @@ Before discussing limits, the most important thing must be clearly stated:
 
   Humans DO NOT access the domain directly.
   Humans access the domain THROUGH THE BODY.
-  Body → body-feedback → PFC observes.
+  Body → body-feedback → PFC receives.
   
   = Body-feedback is the ONLY INTERFACE between humans and reality.
   = Without body-feedback → no data from the domain → cannot navigate.
@@ -372,7 +372,7 @@ BODY-FEEDBACK (including Body-Knowing):
   → WITHOUT body-feedback → cannot function
   
 FRESH PROCESSING:
-  → Arrives later (T=200ms+, PFC observes)
+  → Arrives later (T=200ms+, PFC receives)
   → Indirect: operates on compiled chunks (already through many processing layers)
   → Sequential (1 chain at a time)
   → Accuracy depends on scope (only correct WITHIN current scope)
@@ -599,7 +599,7 @@ EXTREME CASE — BEING PROVOKED INTO ANGER:
     → BUT fresh processing arrives AFTER the body (body-first temporal invariant)
     → The time gap body→PFC = the window in which overreaction occurs
     
-  🟢 Damasio: body fires T=0ms, PFC observes T=200ms+
+  🟢 Damasio: body fires T=0ms, PFC receives T=200ms+
   = 200ms window without PFC control
 ```
 
@@ -736,7 +736,7 @@ but to know WHEN to be MORE CAREFUL.
 CASE — CORTISOL AND STRESS:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  Fresh processing observes:
+  Fresh processing detects:
     → Stress occurs → cortisol rises
     → Cortisol rises → stress continues
     → Correlation = STRONG, CONSISTENT

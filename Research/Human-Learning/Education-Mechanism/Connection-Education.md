@@ -693,7 +693,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Brain uses OWN chunks as a template
     → simulates the state of OTHERS
     → OWN body fires a copy — intensity VARIES
-    → PFC observes simulation output
+    → PFC receives simulation output
     → "feeling about the other's state"
 
   IS NOT:
@@ -2435,7 +2435,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 → Threat.md — 3 ORIGIN taxonomy, Type 3 Imposed
 → Cortisol-Baseline.md v2.1 — stress cascade, social buffering
 → Body-Feedback-Label.md v2.0 — vocabulary reference
-→ Feeling.md v3.0 — PFC observation interface
+→ Feeling.md v3.0 — PFC reception interface
 → Collective-Body.md v2.1 — §5 Trust bridge, trust hijack (v1.1)
 ```
 

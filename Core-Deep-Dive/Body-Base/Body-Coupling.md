@@ -279,19 +279,19 @@ source: Core-Deep-Dive/Body-Base/Body-Coupling.md (Vietnamese)
       = Valence-Momentary (Self-Pattern-Modeling) + activated Valence-Structural
         channels AT THIS MOMENT
       = FAST (changes per second, context-dependent)
-      = What PFC observes → what the person VERBALIZES
+      = What PFC receives → what the person VERBALIZES
       = "THE BODY'S CURRENT EXPERIENCE" — what is ACTIVATED now
 
     ⭐ KEY DISTINCTION FOR COUPLING:
       Coupling = STRUCTURAL operation (compiled deep, Valence-Structural)
-      PFC observation = CURRENT (varies with trigger + context + cortisol)
+      PFC reception = CURRENT (varies with trigger + context + cortisol)
       "Today I hate my parents" (current negative) ≠ "coupling with parents is gone"
         (structural positive still intact)
       → Same entity, same structural valence → DIFFERENT current valence by moment
 
     3 INTENSITY FACTORS (v3.0):
       ① PFC budget (PFC-Operations v1.2): exhausted → coupling FEELS weak
-          (PFC cannot observe Valence-Structural)
+          (PFC cannot receive Valence-Structural)
       ② Entity-Access level (Entity-Access v1.3): Level 0 = coupling OFF,
           Level 3-4 = optimal
       ③ Hardware-Subsidy (Entity-Valence-Dynamics v1.3 §5): MAX parent-to-child
@@ -431,7 +431,7 @@ source: Core-Deep-Dive/Body-Base/Body-Coupling.md (Vietnamese)
 
   Valence-Structural compiled deep → VTA habituated → PFC sees NOTHING.
   "Living with parents, not feeling anything special" = Valence-Structural IS PRESENT,
-    PFC just cannot observe it.
+    PFC just cannot receive it.
   Valence-Structural is only VISIBLE through 6 indirect channels:
 
   A — INVISIBLE when stable: VTA habituated → "normal / background"
@@ -448,11 +448,11 @@ source: Core-Deep-Dive/Body-Base/Body-Coupling.md (Vietnamese)
   F — PFC PROXY TRIGGER:
       PFC recall → chunks fire → Valence-Structural fires → body responds AUTOMATICALLY
 
-  ⭐ Valence-Structural IS STABLE, PFC OBSERVATION FLUCTUATES:
+  ⭐ Valence-Structural IS STABLE, PFC RECEPTION FLUCTUATES:
     Valence-Structural = compiled deep → STABLE (changes over months/years).
-    PFC observation = varies with trigger + context + cortisol → FLUCTUATING.
+    PFC reception = varies with trigger + context + cortisol → FLUCTUATING.
     "Today I don't feel like missing them" ≠ "Valence-Structural has decreased."
-    Only PFC is not observing it today.
+    Only PFC is not receiving it today.
 
   Full detail — 6 channels: Entity-Valence-Dynamics.md v1.3 §1, Drill-L2 §3.
 

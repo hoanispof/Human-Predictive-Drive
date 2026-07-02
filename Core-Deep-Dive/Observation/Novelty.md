@@ -18,7 +18,7 @@ scope: |
     ⑭ Version refs synced
     ⑮ +Cross-refs: Inter-Body-Mechanism.md v1.0, Body-Feedback-Label.md v2.0
 purpose: |
-  Core-Software.md §8 defines Novelty briefly ("Positive prediction-delta pattern").
+  Core-Software.md §9 defines Novelty briefly ("Positive prediction-delta pattern").
   This file DEEP-DIVES: neuroscience mechanism, practical patterns,
   when helpful/harmful, loop dynamics. For readers who need the full detail.
 position: |
@@ -129,7 +129,7 @@ NOVELTY IN THE CYCLE (Core-Software.md §1):
   Novelty appears at the Unconscious Processing step:
   → Chunks fire → VTA compares with baseline → delta > 0
   → Body-feedback fires (reward direction if positive delta)
-  → Feeling bridge → PFC observes → may label "interesting", "exciting", "curious"
+  → Feeling bridge → PFC receives → may label "interesting", "exciting", "curious"
   → PFC may orchestrate → explore → body-output → domain → loop
 
   = Novelty is NOT a separate step — it is an observation point
@@ -138,7 +138,7 @@ NOVELTY IN THE CYCLE (Core-Software.md §1):
 
 THE VALUE OF THIS FILE:
 
-  Core-Software.md §8 only says: "Novelty = Positive prediction-delta pattern."
+  Core-Software.md §9 only says: "Novelty = Positive prediction-delta pattern."
   This file DEEP-DIVES:
   → §1: Mechanism — VTA + chunk dynamics (neuroscience)
   → §2: 2 types — Sensory-Driven vs Imagination-Driven
@@ -235,7 +235,7 @@ THE VALUE OF THIS FILE:
       VTA has nothing to compare against → no delta → invisible.
 
     🟡 Framework synthesis (meta-chunks → prediction model → VTA can fire)
-    Cross-ref: Consciousness.md §8.4, Drill-Consciousness-Bridge.md §4
+    Cross-ref: Consciousness.md §8.3, Drill-Consciousness-Bridge.md §4
 
 
 §1.2 — DRD4 THRESHOLD — THE UNCONSCIOUS FILTER
@@ -983,7 +983,7 @@ SUMMARY:
 
 ```
   ← FOUNDATION (read first or in parallel):
-    Core-Software.md §8 — Novelty = observation parameter definition
+    Core-Software.md §9 — Novelty = observation parameter definition
     Body-Feedback-Mechanism.md v2.0 §3.3 — Chunk-Gap = Novelty foundation
     Body-Feedback-Mechanism.md v2.0 §2 — 2 sources (Sensory/Pattern-Driven)
     Chunk.md v2.3 — chunk substrate, compilation, hierarchy

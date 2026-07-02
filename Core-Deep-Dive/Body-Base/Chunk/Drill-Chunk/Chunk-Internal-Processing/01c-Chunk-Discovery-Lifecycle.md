@@ -352,7 +352,7 @@ STEP 4 — CLARIFY:
       → Re-fire in STRUCTURED ORDER (instead of random)
       → + Label candidate added = new activation path
       → = Coherent firing → convergence zone receives aggregated signal
-      → = Signal EXCEEDS PFC observation threshold
+      → = Signal EXCEEDS PFC reception threshold
       → = "Clearer" = not new information — same chunks, better organized
 
     → = H5 applied: signal COUNT same, signal COHERENCE increased
@@ -541,7 +541,7 @@ STEP 7 — NEXT ITERATION (deeper + wider):
   BEFORE LABEL:
     → Chunk/convergence-zone EXISTS at neural level
     → Body CAN detect (feel it, vague signal)
-    → PFC CAN partially observe (aware "something is there")
+    → PFC CAN partially receive (aware "something is there")
     → PFC CANNOT hold clearly → CANNOT chain → CANNOT share
     → = Functional status: BODY-ONLY influence (Direction A only)
 
@@ -973,7 +973,7 @@ SELF-REFERENCING — ACCUMULATE WITHOUT CHECKING REALITY:
     → Over weeks/months: entire discovery structure COMPRESSES
     → = Meta-chunk formation: [entire discovery] → fires AS ONE
     → = Expert: "just knows" = compressed discovery cycle result
-    → = 05 §2: tacit knowledge = compiled below PFC observation threshold
+    → = 05 §2: tacit knowledge = compiled below PFC reception threshold
 ```
 
 ---

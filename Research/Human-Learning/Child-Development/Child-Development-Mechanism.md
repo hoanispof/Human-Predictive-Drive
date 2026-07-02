@@ -1011,7 +1011,7 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
     When encountering similar stimulus again → chunk fires → body REPLAYS fingerprint:
       → Approach-linked chunk fires → body pulls TOWARDS → "likes it"
       → Avoidance-linked chunk fires → body pulls AWAY → "hates it"
-      → PFC observes body signal → labels "like" or "hate"
+      → PFC receives body signal → labels "like" or "hate"
       → BUT PFC usually does NOT know WHY (link pattern is at body level)
 
 
@@ -1925,12 +1925,12 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
 ### §5.1 — 7-Layer Fidelity Gradient
 
 ```
-⭐ FEELING = PFC OBSERVATION of body-chunk interaction currently running.
-   INVARIANT ORDER: body processes FIRST → feeling emerges → PFC observes.
+⭐ FEELING = PFC RECEPTION of body-chunk interaction currently running.
+   INVARIANT ORDER: body processes FIRST → feeling emerges → PFC receives.
    (🟢 Damasio 1994, 1999: somatic markers PRECEDE conscious decision)
 
    Feeling is NOT a separate system — is the INTERFACE between body and PFC.
-   Body = processes (compiled patterns fire). Feeling = result surfacing. PFC = observes + labels.
+   Body = processes (compiled patterns fire). Feeling = result surfacing. PFC = receives + labels.
 
 
 7-LAYER FIDELITY GRADIENT (Feeling.md v2.0 §2):
@@ -1955,7 +1955,7 @@ FROM COMPILE ARCHITECTURE + FORMULA → PRACTICAL PRINCIPLES:
       EVALUATIVE-SIGNAL: body's assessment (Feel-Consciousification → Feel-Location) — "uncomfortable", "comfortable"
       INTEGRATION-SIGNAL: PFC's synthesis (Feel-Labeling/Feel-Explanation) — "sad", "jealous"
     → Caregiving label (§5.2) primarily builds EVALUATIVE vocabulary
-    → PFC-Label standardizes terminology for PFC observation
+    → PFC-Label standardizes terminology for PFC reception
     → Prediction-delta = standard terminology (replaces "prediction error")
 
   ⭐ CORE INSIGHT:
@@ -1979,14 +1979,14 @@ CHILDREN DEVELOP THROUGH LAYERS WITH CHUNK DENSITY:
 
   18 MONTHS – 3 YEARS — Feel-Consciousification/Feel-Observation (clearer perception):
     Begins having WORDS for basic emotions: "hurts", "scared", "happy"
-    PFC observation BEGINS to operate → can "point to" a feeling
+    PFC reception BEGINS to operate → can "point to" a feeling
     → "It hurts!" = Feel-Observation + Feel-Location + Feel-Labeling
 
   3–6 YEARS — Feel-Observation/Feel-Location (expanding vocabulary):
     Emotional vocabulary expands: "jealous", "embarrassed", "proud", "anxious"
     Each new word = 1 LABEL HANDLE attached to an already-existing chunk pattern
     → 🟢 Barrett 2017: emotional granularity predicts health outcomes
-    → More distinguishing words → PFC observes more accurately
+    → More distinguishing words → PFC receives more accurately
 
   ADULT — Feel-RawSignals → Feel-Explanation (depends on feeling literacy training):
     Untrained: mostly Feel-Labeling/Feel-Explanation → low fidelity → poor decisions
@@ -2283,7 +2283,7 @@ CHILDREN DEVELOP THROUGH LAYERS WITH CHUNK DENSITY:
   ② SELF-PATTERN-MODELING = True Empathy (learned, chunk-dependent):
 
      PFC uses self-chunks as templates → simulates OTHER's state
-     Own body fires a weak copy → PFC observes → "feeling about other"
+     Own body fires a weak copy → PFC receives → "feeling about other"
 
      REQUIRES:
        a) Sufficient self-chunks (§5 — feeling fidelity)

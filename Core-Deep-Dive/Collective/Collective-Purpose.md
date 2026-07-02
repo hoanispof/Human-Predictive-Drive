@@ -1079,7 +1079,7 @@ PARALLEL:
 CONSCIOUSNESS:
 
   Consciousness.md v1.0:
-    → Consciousness = observation parameter; collective exploration DOES NOT require
+    → Consciousness = enabling state; collective exploration DOES NOT require
       individual consciousness of the collective pattern (§11.4 Logic-Feeling-Balance.md)
 
 

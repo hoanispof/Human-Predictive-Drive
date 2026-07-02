@@ -166,7 +166,7 @@ Formula correctly predicts ordinal ranking of every body state's L4 onset timing
 - **H1 supported**: chunks are multi-modal **from substrate level**, not single-modality first then bound
 - **Convergence Point 2 compile formula refined**: multi-modal richness added as 5th parameter
 - **F3 Language word-referent compile mechanism available**: multi-modal binding applies to word learning (hearing "dog" while seeing dog)
-- **Old "PFC offline" view further falsified**: multi-modal binding requires distributed cortical substrate + PFC observation; E12 emergence at 6-8wk is direct evidence
+- **Old "PFC offline" view further falsified**: multi-modal binding requires distributed cortical substrate + PFC reception; E12 emergence at 6-8wk is direct evidence
 
 **Framework update**: R-F1-3 commits multi-mechanism architecture to [Body-Base/Schema/Chunk.md](../../Body-Base/Schema/Chunk.md) §2.
 
@@ -433,7 +433,7 @@ Domain layer (cross-situational generalization, context binding)
        ↑
 Schema layer (composition, invariants, structural patterns)
        ↑
-Feeling layer (Feel-Consciousification–Feel-Explanation: PFC observation of body + chunk firing + labeled awareness)
+Feeling layer (Feel-Consciousification–Feel-Explanation: PFC reception of body + chunk firing + labeled awareness)
        ↑
 Chunks substrate layer (strength-weighted associative networks)
        ↑
@@ -803,9 +803,9 @@ All 10 recommendations are traceable to specific F1 drill sections with 🟢🟡
    - **Cross-cultural variation in feeling expression** as a compile-context + handle-granularity artifact
    - **Clinical variance in emotional regulation** (secure attachment Type B produces strongest regulation substrate per 06b §5.8.1)
 
-3. **⭐ Neural wear dimension applies to feeling capacity too** — the PFC that would observe feelings (Feel-Consciousification–Feel-Explanation functional substrate) is the same PFC that is damaged by chronic threat cortisol during developmental compile. An adult with compromised PFC from childhood Level 3/4 exposure has simultaneously (a) feeling chunks tagged with aversion and (b) reduced PFC capacity to observe those chunks cleanly. This compounds the adult difficulty of feeling work and explains why trauma-informed therapy often requires both body-level and cognitive-level intervention — both the chunks and the PFC regulatory circuits need repair.
+3. **⭐ Neural wear dimension applies to feeling capacity too** — the PFC that would receive feelings (Feel-Consciousification–Feel-Explanation functional substrate) is the same PFC that is damaged by chronic threat cortisol during developmental compile. An adult with compromised PFC from childhood Level 3/4 exposure has simultaneously (a) feeling chunks tagged with aversion and (b) reduced PFC capacity to receive those chunks cleanly. This compounds the adult difficulty of feeling work and explains why trauma-informed therapy often requires both body-level and cognitive-level intervention — both the chunks and the PFC regulatory circuits need repair.
 
-4. **PFC observation layer developmental emergence** — PFC reframe applies to feeling observation capability from birth (content missing, not hardware missing). Feeling capability is not "maturing" — it is the chunks that observe-body-state compiling, and the PFC substrate is online from prenatal (per 01).
+4. **PFC reception layer developmental emergence** — PFC reframe applies to feeling reception capability from birth (content missing, not hardware missing). Feeling capability is not "maturing" — it is the chunks that receive-body-state compiling, and the PFC substrate is online from prenatal (per 01).
 
 5. **Handle theory for feeling expression** — labels enable feeling articulation. H11 (~6-12mo gap between receptive and productive for linguistic content) applies to feeling vocabulary: infant receptively understands parent's emotional labels months before producing own. Convergence Point 6 (labels as retrieval paths + symbolic compression, not 5th modality) applies: feeling labels attach on top of pre-verbal body-state chunks, not constitutive of them.
 
@@ -842,7 +842,7 @@ Cross-linking updates (R-F1-8):
 ### §6.7 — Imagination sub-folder receives
 
 1. **PFC reframe** (R-F1-1) — §4 timeline rewrite with chunks-missing framing
-2. **Chunks as content for PFC operations** — PFC observes and coordinates chunks (per [01](01-PFC-Hardware-Reframe.md))
+2. **Chunks as content for PFC operations** — PFC receives and coordinates chunks (per [01](01-PFC-Hardware-Reframe.md))
 3. **Non-uniform ladder progression** implications for Imagination (different arcs compile at different rates, Imagination benefits from mature cross-arc substrate)
 
 ---

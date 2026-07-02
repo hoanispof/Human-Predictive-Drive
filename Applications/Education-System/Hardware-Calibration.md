@@ -362,7 +362,7 @@ FROM THE CORE FRAMEWORK — hardware = basic brain specs:
   │                                                                 │
   │   Body-base = "gut feeling", interoception, somatic processing │
   │   Body-Base v3.1: "Body evaluates PATTERNS, not reality"      │
-  │   → Body reacts FIRST, PFC observes AFTERWARD                  │
+  │   → Body reacts FIRST, PFC receives AFTERWARD                  │
   │   Each person: body signal STRONG/WEAK differs                 │
   │                                                                 │
   │   SPECTRUM:                                                    │

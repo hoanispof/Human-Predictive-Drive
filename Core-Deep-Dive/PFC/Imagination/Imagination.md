@@ -43,7 +43,7 @@ dependencies:
     - Cortisol-Baseline.md v2.1 — Amplifier, direction > level, cortisol × modes
     - Body-Feedback-Mechanism.md v2.0 — 2 sources, chunk dynamics, Body-Need
     - Chunk.md v2.3 — Chunk substrate, compile mechanism
-    - Feeling.md v3.0 — PFC observation interface, feeling ≠ emotion
+    - Feeling.md v3.0 — PFC reception interface, feeling ≠ emotion
     - Inter-Body-Mechanism.md v2.0 — Compilable Architecture, Compiled/Fresh axis
     - Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State reward
   agent:
@@ -761,7 +761,7 @@ BODY-BASE:
   Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State reward types
 
 FEELING:
-  Feeling.md v3.0 — PFC observation interface (broader than APPLICATION-3)
+  Feeling.md v3.0 — PFC reception interface (broader than APPLICATION-3)
   Self-Observation.md v1.0 — APPLICATION-3: Self × Present × Observe
 
 AGENT-MECHANISM:

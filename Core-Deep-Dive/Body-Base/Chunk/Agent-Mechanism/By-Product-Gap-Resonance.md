@@ -63,7 +63,7 @@ dependencies:
   - Obligation.md v1.1 — 5-factor formula, 6 types (derivative concept)
   - Background-Pattern.md v1.1 — 2D Depth×Density, self-reinforcing
   - Love-Romantic.md v2.3 — limerence reveal mechanism
-  - Feeling.md v3.0 — PFC observation interface
+  - Feeling.md v3.0 — PFC reception interface
 sources:
   - By-Product-Gap-Resonance v1.0 (1,995L) — previous version
   - Drill-PR-Definition v1.0 (11 insights) — Core vs Enhancers, 5 Axes, filtering cost
@@ -1227,7 +1227,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 
   DECLINE MECHANISM:
     Compilation Stage 3 → cost ≈ 0, reward habituated → VTA "invisible."
-    PFC does NOT observe baseline → does NOT feel need to maintain.
+    PFC does NOT receive baseline → does NOT feel need to maintain.
     = TRAP: better compilation → less visible → less maintained.
 
   SELF-EXPANSION = COUNTER TO ② + RESTORE NOVELTY FUEL:
@@ -1597,7 +1597,7 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
   → Status.md v2.1 — Resource Access Map
   → Cortisol-Baseline.md v2.1 — stress cascade
   → Autonomy-Hardware.md v1.1 — efference copy, suppress cost
-  → Feeling.md v3.0 — PFC observation interface
+  → Feeling.md v3.0 — PFC reception interface
 ```
 
 ### §18.4 — Companion + application files

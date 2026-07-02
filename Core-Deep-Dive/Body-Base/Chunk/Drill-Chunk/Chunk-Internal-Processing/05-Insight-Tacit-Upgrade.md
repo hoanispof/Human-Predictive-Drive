@@ -161,7 +161,7 @@ CLASSIC EXAMPLES:
 
 FRAMEWORK INTERPRETATION:
 
-  TACIT KNOWLEDGE = chunks compiled SO DEEP → PFC cannot observe process:
+  TACIT KNOWLEDGE = chunks compiled SO DEEP → PFC cannot receive process:
 
   ① Chunks compiled via thousands of repetitions (F1 NT2 channel 1)
   ② Chunks compiled across multiple modalities (F1 NT2 channel 3)
@@ -173,11 +173,11 @@ FRAMEWORK INTERPRETATION:
      → = "Automatic" / "intuitive" / "just know"
 
   WHY PFC CANNOT SEE PROCESS:
-  → PFC observes via Feeling model Feel-Observation (observation of own states)
-  → When process runs AS ONE meta-chunk → no intermediate states to observe
-  → = Compiled chain runs SUB-PFC (below observation threshold)
+  → PFC receives via Feeling model Feel-Observation (reception of own states)
+  → When process runs AS ONE meta-chunk → no intermediate states to receive
+  → = Compiled chain runs SUB-PFC (below reception threshold)
   → = Like compiled subroutine in programming: call function → get result → don't see internals
-  → 🟡 Framework: tacit = compiled below PFC observation threshold
+  → 🟡 Framework: tacit = compiled below PFC reception threshold
 ```
 
 ### §2.2 — Tacit on H5 gradient
@@ -241,7 +241,7 @@ TACIT → EXPLICIT transition (when possible):
   → Bicycle balance: vestibular + motor → no verbal decomposition possible
   → Some expert knowledge: pattern recognition across too many variables
   → = Polanyi's point: there IS a permanent tacit residue
-  → Framework: agrees — PFC observation has RESOLUTION LIMIT
+  → Framework: agrees — PFC reception has RESOLUTION LIMIT
   → Below resolution limit → permanently tacit
 
   ⭐ AI ERA IMPLICATION:
@@ -551,7 +551,7 @@ SELF-AWARENESS DEVELOPMENT (Agent/Self-Pattern-Modeling §5):
   STAGE 4 (7-12y): Calibrate self-model → domain-appropriate application
   STAGE 5 (12+): Meta-cognition → "knowing what you know"
     → = Chunks ABOUT own chunk library
-    → = PFC observes own schemas → "I tend to fear X" → self-knowledge chunk
+    → = PFC receives own schemas → "I tend to fear X" → self-knowledge chunk
 
 RECURSIVE UPGRADE:
   → Level 0: chunks about WORLD (objects, actions, events)
@@ -633,7 +633,7 @@ RECURSIVE UPGRADE:
 │     Detection (04) → Processing (01+01b) → Experience (02)      │
 │       → Persistence (03) → Growth (05) → back to Detection      │
 │                                                                  │
-│   ALL processes use body feedback + PFC observation              │
+│   ALL processes use body feedback + PFC reception                │
 │   ALL processes benefit from feeling literacy                    │
 │   ALL processes are amplified (not replaced) by AI               │
 └──────────────────────────────────────────────────────────────────┘
@@ -668,7 +668,7 @@ RECURSIVE UPGRADE:
 ═══════════════════════════════════════
 
   Insight as probability distribution event:    Novel mechanism framing, consistent
-  Tacit = compiled below PFC observation:       Plausible, extends Polanyi
+  Tacit = compiled below PFC reception:          Plausible, extends Polanyi
   Gap 2 as language evolution driver (H12):     Supported with nuances
   Piaget stages = chunk thresholds:             Novel reframe, parsimony gain
   Cognition upgrade = chunk accumulation:       Novel reframe, testable
@@ -751,7 +751,7 @@ ACADEMIC REFERENCES:
   FRAMEWORK CONTRIBUTIONS:
     ① Insight as probability distribution event (§1.2)
     ② Vague detection → insight pipeline (§1.3)
-    ③ Tacit = compiled below PFC observation threshold (§2.1)
+    ③ Tacit = compiled below PFC reception threshold (§2.1)
     ④ Tacit on H5 gradient extreme position (§2.2)
     ⑤ Gap 2 mechanism formalized (§3.1)
     ⑥ H12 full treatment with 5 predictions (§3.2-§3.3)

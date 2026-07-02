@@ -334,7 +334,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ "NAMELESS" = Background-Pattern §1.1:
     Fear no longer anchored to a specific object → Background-Pattern
-    INVISIBLE TO PFC (too broad to observe as a single unit)
+    INVISIBLE TO PFC (too broad to receive as a single unit)
     = "Gravity" pulling EVERYTHING toward avoidance
 
   "UNREASONING" = 2 mechanisms:

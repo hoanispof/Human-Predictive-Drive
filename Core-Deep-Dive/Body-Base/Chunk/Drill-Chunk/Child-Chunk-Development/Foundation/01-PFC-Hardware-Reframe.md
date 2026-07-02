@@ -540,13 +540,13 @@ As chunks accumulate through experience, **the same observable event type** can 
 - Central representation (insula + ACC + pontine micturition center) present from birth
 - PFC hardware: online per pillars 1-5 above
 - **What's missing**: Chunks compiling the association "bladder stretch signal → predict urination event → label → plan action"
-- This chunk cannot form without **repeated experience** of: bladder stretch → void → wet → discomfort sequence, captured by PFC observing the pattern
+- This chunk cannot form without **repeated experience** of: bladder stretch → void → wet → discomfort sequence, captured by PFC receiving the pattern
 
 **Developmental gradient** (preview of 06a drill):
 
 | Stage | Age | Event | Ladder | Why reframe makes sense |
 |---|---|---|---|---|
-| A | 0-6mo | Autonomic reflexive voiding | L0 | Brainstem pontine micturition center handles; PFC observing but no chunks to act |
+| A | 0-6mo | Autonomic reflexive voiding | L0 | Brainstem pontine micturition center handles; PFC receiving but no chunks to act |
 | Repetition compile phase | 6-12mo | Crying after wet diaper | L1 | Post-hoc chunk fire; chunks accumulating but not predictive yet |
 | B | 12-18mo | "Face-freeze" before voiding ⭐ | **L2** | **Chunks fire on antecedent signal; no action chunks yet — user's original insight** |
 | C | 14-20mo | Squirm + whimper before voiding | L3 | Partial action chunks emerge |

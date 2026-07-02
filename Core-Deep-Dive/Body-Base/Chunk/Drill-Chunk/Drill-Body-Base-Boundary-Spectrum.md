@@ -973,7 +973,7 @@ source_file: Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Drill-Body-Base-Boundary
     Leaving home for college:
       SUDDENLY gaps unfilled → Chunk-Miss ACROSS MULTIPLE compiled channels
       → Body: "baseline VIOLATED" → pain → "I miss my mother"
-      → PFC (for the FIRST TIME observing): "so mother was important after all"
+      → PFC (for the FIRST TIME receiving): "so mother was important after all"
 
     ⭐ KEY: Mother's state HAS NOT CHANGED (mother is still at home, in good health).
       What changed = gap-fillability baseline IN ONESELF has been violated.
@@ -1332,7 +1332,7 @@ FILES READ DURING DRILL:
   Body-Base.md v4.0 — §2 "body evaluates patterns, not reality" (FOUNDATION)
   Neural-Architecture.md v1.2 — §1-§7: 4-zone model, connectivity, bilateral
   Entity-Valence-Dynamics.md v1.1 — §2 body-base extension (GAP identified)
-  Drill-Entity-Owned-v1.0 — 5-factor model, PFC-observable (Pos 0 source)
+  Drill-Entity-Owned-v1.0 — 5-factor model, PFC-accessible (Pos 0 source)
   Drill-Neural-Bilateral-Architecture.md v1.0 — PFC ACCESS spectrum (orthogonal)
   01-File-Index.md — context for file organization
 

@@ -81,7 +81,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Step 4: Body-base evaluate — coherence + Body-Feedback-Precondition
     Step 5: Body-base VOTE — reward/dissonance
     Step 6: Opioid release (if reward) — ACTUAL REWARD
-    Step 7: PFC observe — CONSCIOUS EXPERIENCE
+    Step 7: PFC receive — CONSCIOUS EXPERIENCE
 
   Music neuroscience provides STEP-LEVEL validation:
     Steps 1-2: Salimpoor 2011 CAUDATE (anticipation = prediction/salience)
@@ -143,17 +143,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → ⚠️ Mas-Herrero 2023: opioid affects PHYSIOLOGY, subjective UNCLEAR
     → = "The real reward" — actual body-base reward signal
 
-  STEP 7 — PFC OBSERVE (feeling):
-    → PFC observes body state → labels: "beautiful!", "chills!", "amazing!"
+  STEP 7 — PFC RECEIVE (feeling):
+    → PFC receives body state → labels: "beautiful!", "chills!", "amazing!"
     → = Conscious experience of music pleasure
-    → = Feeling.md: PFC observation of body-feedback
+    → = Feeling.md: PFC reception of body-feedback
     → PFC CAN label incorrectly (misattribute cause) but body signal is REAL
 
 
   ⭐ CRITICAL DISTINCTION:
     Steps 1-3 = PREDICTION + ATTENTION (dopamine-mediated)
     Steps 4-6 = EVALUATION + REWARD (opioid-mediated)
-    Step 7 = OBSERVATION (PFC — can be inaccurate)
+    Step 7 = RECEPTION (PFC — can be inaccurate)
     → 3 PHASES, not 1 event
 ```
 
@@ -222,7 +222,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Step 4: Body-base evaluate → CANNOT reach reward system
       (connectivity auditory → NAcc = BROKEN)
     Steps 5-6: NEVER fire (signal doesn't arrive)
-    Step 7: PFC observes: "music = neutral, nothing felt"
+    Step 7: PFC receives: "music = neutral, nothing felt"
 
   = Body-Feedback-Precondition Precondition-2 Chunk-Substrate (CHUNKS BASE ADEQUATE) FAIL AT HARDWARE LEVEL:
     Normal Precondition-2: compiled music chunks → pathway → evaluation → reward if pass

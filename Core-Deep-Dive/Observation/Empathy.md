@@ -53,7 +53,7 @@ dependencies:
   - Gap-Body-Need.md v1.0 — 3 satiation types, ENGINE/ROAD/VEHICLE
   - PFC-Label.md v1.0 — framework vocabulary reference
   - Chunk.md v2.0 — chunk substrate, compilation, hierarchy
-  - Feeling.md v3.0 — PFC observation interface, Compiled/Fresh
+  - Feeling.md v3.0 — PFC reception interface, Compiled/Fresh
   - Cortisol-Baseline.md v2.0 — stress cascade, baseline drift, recovery asymmetry
   - Body-Feedback-Mechanism.md v2.0 — Body-Need 2-source, dual-pull, 3 Genuine Discomfort Sources
   - Body-Feedback-Label.md v2.0 — framework vocabulary reference
@@ -77,7 +77,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > This is NOT a separate emotion system.
 >
 > This is **Self-Pattern-Modeling Compiled** — the body simulating the OTHER person's state
-> using YOUR OWN chunks → YOUR body fires a weakened replica → PFC observes → "feeling about other."
+> using YOUR OWN chunks → YOUR body fires a weakened replica → PFC receives → "feeling about other."
 >
 > Empathy = **1 observable output** when the connection mechanism fires with ❸ positive valence.
 > The same mechanism produces Schadenfreude (❸ negative), dehumanization (❸ extreme negative).
@@ -172,7 +172,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   EMPATHY = 1 observable output when:
     ❷ Self-Pattern-Modeling Compiled fires on an agent + ❸ POSITIVE valence
     → body simulates agent's state → body OF SELF responds with weakened replica
-    → PFC observes → "feeling about the other's state"
+    → PFC receives → "feeling about the other's state"
 
   Same mechanism (❷ Self-Pattern-Modeling), DIFFERENT ❸ valence → DIFFERENT output:
     ❸ positive → EMPATHY (this file)
@@ -353,7 +353,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Empathy = observable output when Self-Pattern-Modeling Compiled fires on an agent
   with ❸ positive valence → body OF SELF responds with a weakened replica
-  of the OTHER person's state → PFC observes → "feeling about other's state."
+  of the OTHER person's state → PFC receives → "feeling about other's state."
 
   Reframe from v1.1:
     v1.1: "Empathy = Self-Pattern-Modeling function applied to other agents"
@@ -373,7 +373,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Brain uses OWN chunks as template
     → Self-Pattern-Modeling Compiled simulates the OTHER person's state
     → OWN body fires a replica — intensity VARIES (zero → very strong)
-    → PFC observes simulation output
+    → PFC receives simulation output
     → "feeling about other's state"
 
   BY-PRODUCT MATCH — WHY EMPATHY FIRES (Inter-Body-Mechanism.md §5.4):
@@ -432,7 +432,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       = Compiled fires AT this moment on THIS entity
       = Seconds, context-dependent
       = "I'm sad BECAUSE you're sad" = current activation
-      = VISIBLE per episode (PFC observes)
+      = VISIBLE per episode (PFC receives)
 
     → "I'm angry at you right now" (current negative) ≠ "I have no empathy for you"
       (structural still positive)
@@ -501,7 +501,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   WHY "OBSERVABLE OUTPUT" NOT "MODULE":
 
     Module claim: "There is a brain region / circuit DEDICATED TO empathy"
-    Observable output claim: "Empathy = Self-Pattern-Modeling Compiled + ❸ positive → body responds → PFC observes"
+    Observable output claim: "Empathy = Self-Pattern-Modeling Compiled + ❸ positive → body responds → PFC receives"
 
     Evidence:
       → Self-Pattern-Modeling uses THE SAME chunks for empathy, giving, teaching, planning
@@ -1097,9 +1097,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │     │ target               │ = REAL body-level event                         │
   │     │                      │ = Track 1 (Valence-Momentary) Self-PM-owned     │
   ├─────┼──────────────────────┼─────────────────────────────────────────────────┤
-  │  5  │ OUTPUT READ          │ PFC observes: "friend is very sad               │
-  │     │ PFC observes         │ about the breakup" = feeling observation        │
-  │     │ simulation output    │ (Feeling.md v3.0 §3: PFC observation)           │
+  │  5  │ OUTPUT READ          │ PFC receives: "friend is very sad               │
+  │     │ PFC receives         │ about the breakup" = feeling reception          │
+  │     │ simulation output    │ (Feeling.md v3.0 §3: PFC reception)             │
   ├─────┼──────────────────────┼─────────────────────────────────────────────────┤
   │  6  │ ATTRIBUTION          │ "Friend needs comforting"                       │
   │     │ Attribute to target  │ = prediction → possible action                  │
@@ -1608,7 +1608,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   "STALENESS" THROUGH EMPATHY LENS:
     = Generative DIES + Tonic SURVIVES but INVISIBLE
-    = PFC observes: no Generative reward + Tonic invisible = "stale"
+    = PFC receives: no Generative reward + Tonic invisible = "stale"
     = Body reality: Tonic STILL PROVIDES, PFC just can't see it
     = "Still comfortable but not exciting" = Tonic intact, Generative dead
 
@@ -2834,7 +2834,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
    per-entity dynamics, phantom 4-factor, "distance reveals how much you miss them."
 → Gap-Body-Need.md v1.0 — 3 satiation types (source), ENGINE/ROAD/VEHICLE (v4.0 NEW).
 → Chunk.md v2.0 — foundational substrate. Empathy = function ON chunk substrate.
-→ Feeling.md v3.0 — PFC observation interface. Compiled output → PFC observes as feeling.
+→ Feeling.md v3.0 — PFC reception interface. Compiled output → PFC receives as feeling.
 → Body-Coupling.md v2.0 — coupling depth × direction. HOW Valence-Structural compiles.
 → Cortisol-Baseline.md v2.0 — stress cascade. Baseline drift. Recovery asymmetry.
 → Body-Feedback-Mechanism.md v2.0 — Body-Need 2-source. 3 Genuine Discomfort Sources.

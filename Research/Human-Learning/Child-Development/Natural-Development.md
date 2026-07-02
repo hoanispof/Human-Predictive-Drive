@@ -2520,11 +2520,11 @@ EVERYTHING IN THIS FILE = THE FOUNDATIONAL STAGE OF THE FRAMEWORK
       Body-Knowing Inward ⊂ Self-Observation (compiled subset, ~95% daily)
 
     DISTINCTION FROM GENERAL FEELING:
-      Feeling directed at DOMAIN: PFC observes body reaction to evaluate EXTERNAL INPUT
-        → "That song is beautiful" = body reaction TO input → PFC observes
-      Feeling directed at SELF: PFC observes body state to understand ONESELF
+      Feeling directed at DOMAIN: PFC receives body reaction to evaluate EXTERNAL INPUT
+        → "That song is beautiful" = body reaction TO input → PFC receives
+      Feeling directed at SELF: PFC receives body state to understand ONESELF
         = Self-Observation
-        → "I am sad" = MY body state → PFC observes
+        → "I am sad" = MY body state → PFC receives
       → The section above (7-layer, label, Self-Pattern-Modeling) =
         GENERAL Feeling development.
       → This section = Feeling when TARGET = SELF.
@@ -2825,7 +2825,7 @@ CORE-DEEP-DIVE — BODY-BASE:
 → Body-Feedback-Label.md v1.1 — 3-tier label vocabulary [NEW v2.1]
 → Cortisol-Baseline.md v2.0 — amplifier reframe, direction > level, sleep repair
 → Dissonance-Signal-Architecture.md v1.0 — cortisol amplifies dissonance [NEW v2.1]
-→ Feeling.md v2.0 — 7-layer fidelity gradient, feeling = PFC observation
+→ Feeling.md v2.0 — 7-layer fidelity gradient, feeling = PFC reception
 → Feeling-Literacy-Training.md — 5-stage training framework
 → Valence-Propagation.md v3.0 — Structural/Current, Mixed, 3 Firing Modes
    [UPDATED v2.1]

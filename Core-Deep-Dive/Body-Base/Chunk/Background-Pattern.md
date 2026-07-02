@@ -8,7 +8,7 @@ scope: |
   MECHANISM FILE: Background-Pattern = accumulated chunk-network pattern
   formed through experience + sleep gist extraction over LONG PERIODS OF TIME.
   Link density high enough to PERMEATE every new chunk.
-  PFC CANNOT observe directly (too distributed).
+  PFC CANNOT receive directly (too distributed).
   BIASES all processing: Self-Pattern-Modeling Triple Bias (Retrieval + Template + Interpretation).
   Chunk-level mechanism UNDERNEATH Body Baseline State (Schema.md §8).
   Same mechanism for trauma, expertise, culture, personality.
@@ -66,7 +66,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §2 — 2D MODEL: COMPILE DEPTH × LINK DENSITY (v2.0: +Pattern Shiftability)
 - §3 — FORMATION MECHANISM (v2.0: +Hardware-Subsidy × speed, +Tonic/Cyclic/Generative)
 - §4 — SLEEP = ACCELERATOR, NOT SOLVER
-- §5 — WHY PFC CANNOT OBSERVE (v2.0: +PFC-Operations, +Compiled Suppress absorb)
+- §5 — WHY PFC CANNOT RECEIVE (v2.0: +PFC-Operations, +Compiled Suppress absorb)
 - §6 — BACKGROUND PATTERN × Self-Pattern-Modeling: TRIPLE BIAS (v2.0: ★ REWRITE — 3 mechanisms + self-fulfilling)
 - §7 — BACKGROUND PATTERN × BODY-FEEDBACK (v2.0: +3 Firing Modes)
 - §8 — BACKGROUND PATTERN × CORTISOL (v2.0: +Compiled Suppress pathway)
@@ -247,12 +247,12 @@ WHAT THE FRAMEWORK DOES NOT YET HAVE:
 
   Characteristics:
     ① DISTRIBUTED: no single central chunk, no clear boundary
-    ② INVISIBLE TO PFC: too broad for PFC to observe as a single unit
+    ② INVISIBLE TO PFC: too broad for PFC to receive as a single unit
     ③ BIASES EVERYTHING: every new chunk that fires has a probability of linking
        to the pattern
     ④ NEOCORTEX-EMBEDDED: already transferred deep, no longer hippocampus-dependent
     ⑤ NOT A META-CHUNK: does not fire as one — it INFLUENCES everything
-    ⑥ NOT A SCHEMA: schema = named, bounded, PFC-observable
+    ⑥ NOT A SCHEMA: schema = named, bounded, PFC-accessible
        Background-Pattern = unnamed, unbounded, PFC-invisible
 
   = The "gravity" of the chunk system:
@@ -275,7 +275,7 @@ WHAT THE FRAMEWORK DOES NOT YET HAVE:
 │                     │ Background-Pattern: does NOT fire as one     │
 │                     │ (distributed, PFC cannot see)                │
 ├─────────────────────┼─────────────────────────────────────────────┤
-│ Schema              │ Schema: named, bounded, PFC-observable       │
+│ Schema              │ Schema: named, bounded, PFC-accessible       │
 │                     │ Background-Pattern: unnamed, unbounded,      │
 │                     │ PFC-invisible                                │
 │                     │ Schema = a name for the pattern.             │
@@ -372,13 +372,13 @@ WHAT THE FRAMEWORK DOES NOT YET HAVE:
     = Current activation, per-moment, body sync
     = By-Product-Gap-Resonance match at state layer
     = CAN change quickly (hours/days)
-    = PFC CAN observe (foreground)
+    = PFC CAN receive (foreground)
 
   TRAIT-LEVEL:
     = Background-Pattern (deep, high link density, PFC-invisible)
     = Accumulates over years, neocortex-embedded
     = SLOW to change (competitive re-linking = months/years)
-    = PFC CANNOT observe directly
+    = PFC CANNOT receive directly
 
   ⭐ RELATIONSHIP:
     → State operates ON TOP of Trait
@@ -390,7 +390,7 @@ WHAT THE FRAMEWORK DOES NOT YET HAVE:
     → = Trait ≠ determinism, but = probability landscape
 
   "PERSONALITY" = PFC'S LABEL FOR BACKGROUND PATTERN:
-    → §5 Reason ④: PFC observes effects → labels "I am X type of person"
+    → §5 Reason ④: PFC receives effects → labels "I am X type of person"
       → stops inquiry
     → Trait-level = Background-Pattern THAT PFC calls "personality"
     → "Personality" is NOT a fixed thing — it is an accumulated pattern
@@ -696,7 +696,7 @@ WHAT THE FRAMEWORK DOES NOT YET HAVE:
 
   T=15 years: Background-Pattern complete
     → Pattern = BACKGROUND (no longer foreground)
-    → PFC does not observe (already habituated — VTA stops firing for baseline)
+    → PFC does not receive (already habituated — VTA stops firing for baseline)
     → Strong by virtue of TOTAL link density, not per-chunk depth
     → Link density: VERY HIGH
     → Trigger surface: PERVASIVE
@@ -941,10 +941,10 @@ WHAT THE FRAMEWORK DOES NOT YET HAVE:
 
 ---
 
-## §5 — WHY PFC CANNOT OBSERVE
+## §5 — WHY PFC CANNOT RECEIVE
 
 ```
-🟡 7 REASONS PFC CANNOT OBSERVE BACKGROUND PATTERN:
+🟡 7 REASONS PFC CANNOT RECEIVE BACKGROUND PATTERN:
 
   ① HABITUATION — VTA stops firing for the baseline:
      → VTA detects DELTA (change), NOT constant input
@@ -953,7 +953,7 @@ WHAT THE FRAMEWORK DOES NOT YET HAVE:
      → 🟢 Habituation (Thompson & Spencer 1966)
 
   ② TOO DISTRIBUTED — no boundary:
-     → Schema: PFC observes a chunk network WITH A BOUNDARY → labels "schema X"
+     → Schema: PFC receives a chunk network WITH A BOUNDARY → labels "schema X"
      → Background-Pattern: NO BOUNDARY (links to everything)
      → PFC cannot "capture" the whole → only sees LOCAL EFFECTS
      → Schema.md §6.1: PFC sees output → infers backward to pattern → calls it "schema"
@@ -966,7 +966,7 @@ WHAT THE FRAMEWORK DOES NOT YET HAVE:
      → = Somatic-Articulation-Loop: body knows before PFC has words
 
   ④ LABELED AS "IDENTITY":
-     → PFC observes pattern effects → labels: "I am a careful person"
+     → PFC receives pattern effects → labels: "I am a careful person"
      → Label REPLACES investigation: "because that's just how I am" = stop searching
      → = PFC labels Background-Pattern → CLOSES the inquiry
      → = Self-referencing: 01c §4 Self-Referencing
@@ -990,17 +990,17 @@ WHAT THE FRAMEWORK DOES NOT YET HAVE:
          suppress into baseline
      → = "Forgetting that you are suppressing" (PFC-Operations §11 §1)
      → Suppress is NO LONGER AN ACTION → HAS BECOME INFRASTRUCTURE
-     → PFC observation: IMPOSSIBLE
+     → PFC reception: IMPOSSIBLE
        (suppress is now = baseline = invisible)
-     → = Reason #6 PFC cannot observe: Background-Pattern has
+     → = Reason #6 PFC cannot receive: Background-Pattern has
        ABSORBED the suppression behavior
 
   ⑦ PFC BUDGET IS FINITE (v2.0):
      → PFC-Operations v1.0 §9: PFC = universal SHARED resource
      → Background-Pattern (threat direction) → cortisol
        → PFC dendrite retraction
-     → PFC budget DECREASES → LESS capacity to observe ANYTHING
-     → Including less capacity to observe Background-Pattern itself
+     → PFC budget DECREASES → LESS capacity to receive ANYTHING
+     → Including less capacity to receive Background-Pattern itself
      → = "Exhausted at work → Self-Pattern-Modeling for your child WEAKENS
        → not because you don't love them"
        (PFC-Operations §9) = PFC budget depleted BY Background-Pattern
@@ -1274,7 +1274,7 @@ WHAT THE FRAMEWORK DOES NOT YET HAVE:
   ② Elevated cortisol → PFC LESS effective
      → Cortisol-Baseline.md §9: PFC damage timeline
      → PFC dendrite retraction → hold capacity DECREASES
-     → LESS able to observe Background-Pattern
+     → LESS able to receive Background-Pattern
      → LESS able to reality-check
        (Domain-Checked → drifts toward Self-Referencing)
 
@@ -1296,7 +1296,7 @@ WHAT THE FRAMEWORK DOES NOT YET HAVE:
     → Must intervene at MULTIPLE POINTS SIMULTANEOUSLY:
     ① Body: sleep + exercise + nutrition → lower cortisol physically
     ② Environment: new context → new chunks WITHOUT threat compile
-    ③ PFC recovery: cortisol decreases → PFC recovers → CAN observe
+    ③ PFC recovery: cortisol decreases → PFC recovers → CAN receive
     ④ Relationship: consistent safe agent → counter Self-Pattern-Modeling bias
     → = COMBINATION intervention sustained over MONTHS-YEARS
     → = Why "just think positively" IS NOT ENOUGH (verbal chunk only)
@@ -1367,7 +1367,7 @@ WHAT THE FRAMEWORK DOES NOT YET HAVE:
   CURRENT VALENCE (per-moment):
     = Valence at THIS MOMENT based on sensory input + active chunks
     = FAST to change (seconds/minutes)
-    = PFC CAN observe (foreground)
+    = PFC CAN receive (foreground)
 
   Background-Pattern × 2 LAYERS:
     → BACKGROUND PATTERN = STRUCTURAL VALENCE LAYER
@@ -1766,13 +1766,13 @@ WHAT THE FRAMEWORK DOES NOT YET HAVE:
     → "I know my child" = Background-Pattern [child = X]
       → resists evidence that child has changed
     → "You're always like that" = Background-Pattern [partner = Y]
-      → labels → stops observing
+      → labels → stops receiving
     → → Compiled Suppress of partner's new gap directions
     → → = Compiled-Suppress (Bond-Architecture v2.0 §4.1):
       suppress → boredom → withdraw
 
   WHEN ANTI-SUPPRESS WINS:
-    → Active observation: "my child IS DIFFERENT now" = update entity-compiled
+    → Active reception: "my child IS DIFFERENT now" = update entity-compiled
     → Allow Background-Pattern PARTIAL re-linking:
       entity channels update → Background-Pattern adjusts
     → = Relationship MAINTENANCE = fighting Background-Pattern inertia
@@ -1808,7 +1808,7 @@ WHAT THE FRAMEWORK DOES NOT YET HAVE:
     → Partner is already FULLY COMPILED → Firing-Maintenance INVISIBLE
     → Every conversation = expected → no prediction-delta
     → VTA: nothing new → boredom SUBSTRATE present
-    → BUT: PFC cannot observe (Background-Pattern = baseline = invisible)
+    → BUT: PFC cannot receive (Background-Pattern = baseline = invisible)
     → Only KNOWN when: meeting someone NEW (contrast)
       or partner IS ABSENT (Firing-Chunk-Miss)
 
@@ -2116,12 +2116,12 @@ WHAT THE FRAMEWORK DOES NOT YET HAVE:
   DIFFERENT FROM SCHEMA CONFLICT (Schema.md §5.1):
 
     Schema conflict:
-      → PFC CAN observe: "want to eat vs want to lose weight" → CLEARLY KNOWN
+      → PFC CAN receive: "want to eat vs want to lose weight" → CLEARLY KNOWN
       → PFC CAN choose → pain = decision cost → "even if wrong it's lighter"
       → = VISIBLE CONFLICT → CAN RESOLVE by choosing
 
     Background-Pattern conflict:
-      → PFC CANNOT observe (both patterns invisible)
+      → PFC CANNOT receive (both patterns invisible)
       → PFC CANNOT choose (does not know conflict EXISTS)
       → Both Background-Patterns fire sub-threshold → compound dissonance
       → PFC only sees EFFECTS: exhausted, confused, "torn" without knowing why
@@ -2403,7 +2403,7 @@ v2.0 NEW QUESTIONS:
 Background-Pattern-Q7: Can Triple Bias be "broken" WITHOUT external feedback?
   → §6.3: external feedback = the way to break self-fulfilling prophecy
   → Can meditation/self-observation provide an internal "external" perspective?
-  → Or: meditation = PFC observes → but PFC = Lawyer for Background-Pattern?
+  → Or: meditation = PFC receives → but PFC = Lawyer for Background-Pattern?
   → 🟡 Framework predicts: very difficult without external,
     possible with trained awareness
 

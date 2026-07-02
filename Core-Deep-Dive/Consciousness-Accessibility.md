@@ -1,8 +1,9 @@
 ---
 title: Consciousness-Accessibility — The Accessibility Dimension of Consciousness
-version: 1.0 (English)
+version: 2.0 (English)
 created: 2026-06-25
-status: v1.0 — COMPANION to Consciousness.md
+updated: 2026-07-02
+status: v2.0 — REWRITE (companion to Consciousness.md v1.5)
 scope: |
   ACCESSIBILITY DIMENSION of consciousness:
   3 states of awareness (Knowing / Accessible / Not-Accessible).
@@ -11,6 +12,16 @@ scope: |
   Mapping to 4-type unconscious taxonomy (Consciousness.md §3).
   Meta-chunks as gateway from Not-Accessible to Accessible.
   Companion pattern: extends Consciousness.md, does NOT replace.
+
+  v2.0 changes:
+    → Updated all cross-refs to Consciousness.md v1.5
+    → §5.4 NEW: × 5-Checkpoint Pathway (CP failure → accessibility outcome)
+    → §5.5 NEW: × Sustain Hierarchy (primary/additional × accessibility)
+    → §5.6 NEW: × Forgetting Types (3 types → accessibility states)
+    → §5.7 NEW: × Source Attribution (accessibility ≠ source accuracy)
+    → Honest Assessment updated for v2.0 additions
+    → Cross-references and citations expanded
+  Previous version: backup/Consciousness-Accessibility_v1.0_backup.md
 purpose: |
   Consciousness.md §7.1 uses binary: Knowing / Not-Knowing.
   This binary is useful but groups 2 different situations in "Not-Knowing":
@@ -20,10 +31,11 @@ purpose: |
   this file extends Consciousness.md with accessibility analysis.
 position: Core-Deep-Dive/ (companion — same level as Consciousness.md)
 dependencies:
-  - Consciousness.md v1.0 — §1 definition, §3 taxonomy, §5.3 push/pull, §7.1 matrix
+  - Consciousness.md v1.5 — §1 definition, §3 taxonomy, §5.3 push/pull, §5.6 5-CP, §5.7 sustain, §5.8 source, §7.1 matrix, §8.3 meta-chunks, §8.4 forgetting
   - Drill-Consciousness-Compiled-Fresh.md v1.2 — §2 (3 states source)
   - Drill-Consciousness-Bridge.md v1.1 — §3 (2 modes source)
   - Drill-VTA-Dopamine-Consciousness.md v1.3 — §2.3 (VTA damage evidence)
+  - Drill-Consciousness-Quality-Model.md v1.0 — §5.3 (3 types forgetting)
 language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -62,6 +74,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   - [§5.1 × Compilation Pathways](#51--compilation-pathways)
   - [§5.2 × Meta-Chunks](#52--meta-chunks)
   - [§5.3 × Self-Observation Training](#53--self-observation-training)
+  - [§5.4 × 5-Checkpoint Pathway](#54--5-checkpoint-pathway)
+  - [§5.5 × Sustain Hierarchy](#55--sustain-hierarchy)
+  - [§5.6 × Forgetting Types](#56--forgetting-types)
+  - [§5.7 × Source Attribution](#57--source-attribution)
 - [§6 — HONEST ASSESSMENT](#6--honest-assessment)
 - [§7 — CROSS-REFERENCES](#7--cross-references)
 - [§8 — RESEARCH CITATIONS](#8--research-citations)
@@ -73,12 +89,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ WHAT THIS FILE ADDS:
 
-  Consciousness.md defines consciousness as "Knowing" and maps:
-    → WHAT: "Knowing" = observer can access (§1)
-    → HOW MUCH: 5-level spectrum (§2)
+  Consciousness.md v1.5 defines consciousness as "Knowing" and maps:
+    → WHAT: "Knowing" = processing is known (§1)
+    → HOW MUCH: 3-parameter model + 4-level spectrum (§2)
     → WHY NOT: 4-type unconscious taxonomy (§3)
-    → HOW: Global Workspace Theory + biased competition (§5)
+    → HOW: Recurrence + broadcast, 5-checkpoint pathway (§5)
+    → SUSTAIN: Primary + additional sustain hierarchy (§5.7)
+    → PFC: Biased Hub — enabler, not source (§6)
     → INTERSECTION: Compiled/Fresh × Knowing/Not-Knowing = 2×2 matrix (§7)
+    → BOUNDARY: Threshold, compilation trajectory, meta-chunks, forgetting (§8)
 
   But "Not-Knowing" in the 2×2 matrix groups 2 DIFFERENT situations:
     → Things you DON'T know now but COULD know (pathway exists)
@@ -88,6 +107,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → WHAT CAN become Knowing? → 3 states: Knowing, Accessible, Not-Accessible
     → HOW does transition happen? → 2 modes: VTA-dependent, VTA-independent
     → WHERE does each unconscious type sit? → Accessibility mapping
+    → HOW do v1.5 mechanisms map? → 5-CP, sustain, forgetting, source (§5.4-§5.7)
 
   COMPANION PATTERN:
     Like Compile-Taxonomy.md EXTENDS Chunk.md with compilation details,
@@ -96,7 +116,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     This file adds the 2×3 extended view for deeper analysis.
 
   DEPENDENCIES:
-    → Consciousness.md v1.0 — §1 definition, §3 taxonomy, §5.3 push/pull, §7.1 matrix
+    → Consciousness.md v1.5 — §1 definition, §3 taxonomy, §5.3 push/pull,
+      §5.6 5-checkpoint, §5.7 sustain, §5.8 source, §7.1 matrix, §8 boundary
     → Drill-Consciousness-Compiled-Fresh.md v1.2 — §2 (3 states source)
     → Drill-Consciousness-Bridge.md v1.1 — §3 (2 modes source)
 ```
@@ -111,9 +132,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ 3 STATES — EXTENDING THE BINARY:
 
   KNOWING = currently on the stage
-    → Information broadcast → observer can access
+    → Information broadcast → processing becomes known
     → Can report, remember, use in decision, act on it
-    → = Consciousness.md §1.1 functional definition
+    → = Consciousness.md v1.5 §1.1 functional definition
     → = Currently in working memory workspace
     → Examples: reading this sentence, solving a problem, noticing pain
 
@@ -139,6 +160,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Grammar rules (Accessible) and blood pressure (Not-Accessible)
       are both unconscious right now — but only one HAS A PATH to the stage
 
+  ⭐ MAPPING TO 3-PARAMETER MODEL (Consciousness.md v1.5 §2.1):
+    → KNOWING: f(signal × anchor × attention) above threshold NOW
+    → ACCESSIBLE: f(signal × anchor × attention) CAN reach threshold
+      (anchor exists, attention available, signal retrievable)
+    → NOT-ACCESSIBLE: f(signal × anchor × attention) CANNOT reach threshold
+      (no anchor, or no pathway for signal, or structurally inaccessible)
+
 🟡 3 states of awareness = framework synthesis
 🟢 Individual concepts established (see §1.3)
 ```
@@ -148,7 +176,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ THE BINARY IS USEFUL BUT LOSES INFORMATION:
 
-  Consciousness.md §7.1 uses binary: Knowing / Not-Knowing.
+  Consciousness.md v1.5 §7.1 uses binary: Knowing / Not-Knowing.
   Simple, clear — good for introduction.
 
   BUT same "Not-Knowing" covers COMPLETELY DIFFERENT situations:
@@ -210,9 +238,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §2 — MAPPING TO 4-TYPE TAXONOMY
 
 ```
-⭐ MAPPING 3 STATES ONTO CONSCIOUSNESS.MD §3 (4-TYPE TAXONOMY):
+⭐ MAPPING 3 STATES ONTO CONSCIOUSNESS.MD v1.5 §3 (4-TYPE TAXONOMY):
 
-  Consciousness.md §3 already has "Can it become known?" column.
+  Consciousness.md v1.5 §3 already has "Can it become known?" column.
   This mapping makes it EXPLICIT using accessibility terminology:
 
   ┌──────────────────┬──────────────┬──────────────────────────┐
@@ -249,7 +277,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → 2 views are COMPLEMENTARY, not competing
 
 🟡 Accessibility mapping = framework synthesis
-🟢 4-type taxonomy types individually established (Consciousness.md §3)
+🟢 4-type taxonomy types individually established (Consciousness.md v1.5 §3)
 ```
 
 ---
@@ -259,9 +287,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §3.1 The 2×3 Matrix
 
 ```
-⭐ EXTENDING CONSCIOUSNESS.MD §7.1 (2×2 → 2×3):
+⭐ EXTENDING CONSCIOUSNESS.MD v1.5 §7.1 (2×2 → 2×3):
 
-  Consciousness.md §7.1 = 2×2: Compiled/Fresh × Knowing/Not-Knowing
+  Consciousness.md v1.5 §7.1 = 2×2: Compiled/Fresh × Knowing/Not-Knowing
   Extended view = 2×3: Compiled/Fresh × Knowing/Accessible/Not-Accessible
 
   ┌──────────┬─────────────────┬───────────────────┬───────────────────┐
@@ -293,7 +321,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   └──────────┴─────────────────┴───────────────────┴───────────────────┘
 
   ⭐ 2×2 VS 2×3 — BOTH VALID:
-    → 2×2 (Consciousness.md §7.1) = simpler, good for introduction
+    → 2×2 (Consciousness.md v1.5 §7.1) = simpler, good for introduction
     → 2×3 (this file) = more precise, good for deep analysis
     → 2×3 does NOT replace 2×2 — it EXTENDS it
     → 2×2's "Not-Knowing" column = 2×3's "Accessible" + "Not-Accessible" merged
@@ -309,7 +337,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   COMPILED × ACCESSIBLE = THE RESERVOIR:
     → Most compiled patterns live here — the "learned knowledge pool"
     → Not actively conscious, but available when needed
-    → = Type ② compiled-efficient (Consciousness.md §3.2)
+    → = Type ② compiled-efficient (Consciousness.md v1.5 §3.2)
     → Size: ENORMOUS — all skills, habits, schemas, memories not in use
     → This is WHERE learning output accumulates
 
@@ -350,6 +378,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Prefrontal cortex (PFC) deliberately directs attention
     → VTA fires → dopamine to PFC → PFC can hold + sustain
     → = Goal-directed access: "I want to recall X" → PFC pulls X onto stage
+    → PFC = Biased Hub (Consciousness.md v1.5 §6): biases which content
+      enters and stays on consciousness stage
 
   CHARACTERISTICS:
     → Requires: VTA dopamine active + PFC functional
@@ -357,17 +387,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Speed: varies (depends on anchor quality — verbal = fast, emotional = slow)
     → COLLAPSES when VTA dopamine is lost (Parkinson's disease, fatigue, depletion)
 
+  MAPS TO:
+    → Consciousness.md v1.5 §5.3 top-down pull pathway
+    → Consciousness.md v1.5 §5.7 additional sustain (PFC working memory hold)
+    → Explicit Compilation Pathway products: have verbal anchors
+      → PFC can easily pull via top-down
+    → Self-Observation.md v1.0 §6: meditation = training this mode
+
   EXAMPLES:
     → "What is the capital of France?" → PFC pulls compiled → "Paris"
     → Planning tomorrow → PFC holds goal → pulls relevant compiled patterns
     → Self-observation → PFC deliberately attends to internal states
     → Studying → PFC sustains attention on new material
-
-  MAPS TO:
-    → Consciousness.md §5.3 top-down pull pathway
-    → Explicit Compilation Pathway products: have verbal anchors
-      → PFC can easily pull via top-down
-    → Self-Observation.md v1.0 §6: meditation = training this mode
 
 🟡 VTA-dependent framing = framework synthesis
 🟢 Dopamine × PFC = established (Miller & Cohen 2001)
@@ -383,6 +414,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Signal strong enough to self-ignite → broadcasts → Knowing
     → OR compiled anchor fires via external cue → ignition → Knowing
     → Does NOT require VTA dopamine or PFC deliberate pull
+    → Passes 5-checkpoint pathway (Consciousness.md v1.5 §5.6)
+      via bottom-up signal strength, not top-down bias
 
   CHARACTERISTICS:
     → Requires: signal strength above threshold OR matching cue
@@ -390,16 +423,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Speed: FAST (direct activation, no PFC mediation)
     → SURVIVES when VTA dopamine is lost
 
+  MAPS TO:
+    → Consciousness.md v1.5 §5.3 bottom-up push pathway
+    → Consciousness.md v1.5 §5.7 primary sustain (thalamo-cortical resonance)
+    → Implicit Compilation Pathway products: accessed via strong cues,
+      not verbal pull (because no verbal anchor exists)
+
   EXAMPLES:
     → Sudden pain → Knowing (signal pushes, no PFC needed)
     → Someone says "Paris" → "capital of France" fires (cue-triggered)
     → Smell of cookies → childhood memory (emotional cue → compiled fires)
     → Car brakes ahead → alert (compiled driving pattern + strong signal)
-
-  MAPS TO:
-    → Consciousness.md §5.3 bottom-up push pathway
-    → Implicit Compilation Pathway products: accessed via strong cues,
-      not verbal pull (because no verbal anchor exists)
 
 🟡 VTA-independent framing = framework synthesis
 🟢 Bottom-up attention capture: Corbetta & Shulman 2002
@@ -418,7 +452,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → AI analysis surfaces background pattern → verbal anchor → Accessible
     → MECHANISM: external agent provides BOUNDARY for diffuse pattern
       → boundary → anchor possible → Accessible
-    → Cross-ref: Background-Pattern.md v2.0 §5 (7 reasons PFC cannot observe)
+    → Cross-ref: Background-Pattern.md v2.0 §5 (7 reasons PFC cannot receive)
 
   TYPE ④ (SUB-THRESHOLD) → ACCESSIBLE:
     → Training strengthens signal OR lowers threshold
@@ -432,7 +466,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Meta-chunks (know domain exists) = minimal prediction model
     → Minimal model → prediction-delta possible → VTA can fire → Accessible
     → = Meta-chunks are the gateway from Not-Accessible to Accessible
-    → Cross-ref: Consciousness.md §8.4 (Meta-Chunks)
+    → Cross-ref: Consciousness.md v1.5 §8.3 (Meta-Chunks)
 
   TYPE ① (HARDWARE) = PERMANENT NOT-ACCESSIBLE:
     → No pathway upward exists
@@ -464,6 +498,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → VTA-dependent collapses → VTA-independent survives
     → = Same pattern across 2 different evidence sources
     → = Functional dissociation confirms 2 modes are real, not just theoretical
+
+  CONNECTION TO SUSTAIN HIERARCHY (Consciousness.md v1.5 §5.7):
+    → VTA-dependent collapse ≈ additional sustain (PFC hold) impaired
+    → VTA-independent survives ≈ primary sustain (thalamo-cortical) intact
+    → = Accessibility modes and sustain tiers are PARALLEL distinctions
+    → Different vocabulary, same underlying architecture
 
   SOURCES:
     Berridge & Robinson 1998 (wanting/liking dissociation)
@@ -499,7 +539,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   → Explicit → Accessible from the start
   → Implicit → Not-Accessible → needs discovery to become Accessible
-  → Cross-ref: Consciousness.md §7.3 (2 Compilation Pathways)
+  → Cross-ref: Consciousness.md v1.5 §7.3 (2 Compilation Pathways)
 
 🟡 Pathway → accessibility mapping = framework synthesis
 ```
@@ -519,7 +559,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   = Without meta-chunks, a domain remains functionally Not-Accessible
     (not permanently like Type ① hardware, but invisible until catalyzed)
 
-  → Cross-ref: Consciousness.md §8.4 (Meta-Chunks)
+  → Cross-ref: Consciousness.md v1.5 §8.3 (Meta-Chunks)
   → Cross-ref: Novelty.md v1.2 §1.1 (chunk-gap, VTA detection)
 
 🟡🔴 Meta-chunks → prediction model → VTA can fire = logically consistent,
@@ -550,6 +590,214 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 Self-observation × accessibility framing = framework synthesis
 ```
 
+### §5.4 × 5-Checkpoint Pathway
+
+```
+⭐ 5-CHECKPOINT FAILURE → ACCESSIBILITY OUTCOME:
+
+  Consciousness.md v1.5 §5.6 defines 5 checkpoints:
+    CP1 TRN gate → CP2 tonic mode → CP3 high-order nuclei →
+    CP4 cortical recurrence → CP5 global broadcast
+
+  EACH CP FAILURE PRODUCES A DIFFERENT ACCESSIBILITY OUTCOME:
+
+  ┌──────────┬──────────────────────────┬─────────────────────────┐
+  │ CP Failed│ Consciousness Effect      │ Accessibility State     │
+  ├──────────┼──────────────────────────┼─────────────────────────┤
+  │ CP1      │ Signal filtered (TRN     │ ACCESSIBLE (pathway     │
+  │ (TRN     │ blocks unattended)       │ exists, attention       │
+  │ gate)    │ = inattentional blindness │ can be redirected)      │
+  ├──────────┼──────────────────────────┼─────────────────────────┤
+  │ CP2      │ ALL signals blocked      │ NOT-ACCESSIBLE          │
+  │ (tonic   │ (burst mode = state-     │ (temporary: no signal   │
+  │ mode)    │ level incompatible)      │ can reach stage)        │
+  │          │ = deep sleep, anesthesia │ Resumes when mode flips │
+  ├──────────┼──────────────────────────┼─────────────────────────┤
+  │ CP3      │ Higher-order engagement  │ DEGRADED ACCESSIBLE     │
+  │ (high-   │ fails (nuclei not       │ (some signals pass,     │
+  │ order)   │ activated)              │ some don't — partial)   │
+  │          │ = sedation, weak stimuli │                         │
+  ├──────────┼──────────────────────────┼─────────────────────────┤
+  │ CP4      │ No recurrence (signal    │ NOT-ACCESSIBLE          │
+  │ (recur-  │ dies before looping)     │ (structural: pathway    │
+  │ rence)   │ = blindsight            │ permanently missing)    │
+  ├──────────┼──────────────────────────┼─────────────────────────┤
+  │ CP5      │ No broadcast (too       │ ACCESSIBLE (signal      │
+  │ (broad-  │ weak/brief to ignite)   │ reached far, could      │
+  │ cast)    │ = subliminal priming    │ ignite with boost)      │
+  └──────────┴──────────────────────────┴─────────────────────────┘
+
+  ⭐ KEY INSIGHTS:
+    → CP1 failure = ACCESSIBLE (just filtered, attention can override)
+    → CP2 failure = NOT-ACCESSIBLE but TEMPORARY (state-level block)
+    → CP4 failure = NOT-ACCESSIBLE and STRUCTURAL (V1 damage → blindsight)
+    → CP5 failure = depends on margin (near-threshold = Accessible,
+      far-below = Not-Accessible)
+    → = 5 checkpoints explain WHY the same content can have
+      different accessibility states in different conditions
+
+  → Cross-ref: Consciousness.md v1.5 §5.6 (full 5-CP model)
+
+🟡 CP-to-accessibility mapping = framework synthesis
+🟢 Individual CP evidence: see Consciousness.md v1.5 §5.6
+```
+
+### §5.5 × Sustain Hierarchy
+
+```
+⭐ SUSTAIN TIERS × ACCESSIBILITY:
+
+  Consciousness.md v1.5 §5.7 defines 2-tier sustain hierarchy:
+    PRIMARY: ① thalamo-cortical resonance ② CM-Pf gate
+    ADDITIONAL: ③ PFC working memory hold ④ limbic drive
+
+  HOW SUSTAIN AFFECTS ACCESSIBILITY:
+
+  ┌───────────────────┬──────────────────────┬───────────────────────┐
+  │ Sustain State     │ Condition             │ Accessibility Impact  │
+  ├───────────────────┼──────────────────────┼───────────────────────┤
+  │ BOTH intact       │ Normal waking         │ Full accessibility:   │
+  │ (primary +        │                       │ VTA-dependent +       │
+  │ additional)       │                       │ VTA-independent both  │
+  │                   │                       │ available             │
+  ├───────────────────┼──────────────────────┼───────────────────────┤
+  │ PRIMARY intact,   │ ADHD (PFC under-      │ Accessibility EXISTS  │
+  │ ADDITIONAL        │ fueled), dreaming     │ but DEGRADED:         │
+  │ impaired          │ (PFC offline)         │ → VTA-independent OK  │
+  │                   │                       │ → VTA-dependent WEAK  │
+  │                   │                       │ → Transition speed    │
+  │                   │                       │   reduced, quality    │
+  │                   │                       │   variable            │
+  ├───────────────────┼──────────────────────┼───────────────────────┤
+  │ PRIMARY lost      │ Anesthesia (CP2       │ ALL accessibility     │
+  │                   │ failure), deep NREM   │ SUSPENDED:            │
+  │                   │                       │ → Nothing can reach   │
+  │                   │                       │   stage               │
+  │                   │                       │ → Entire Accessible   │
+  │                   │                       │   pool → temporarily  │
+  │                   │                       │   Not-Accessible      │
+  └───────────────────┴──────────────────────┴───────────────────────┘
+
+  ⭐ ADHD = ILLUMINATING CASE:
+    → PFC under-fueled → additional sustain (③ WM hold) impaired
+    → Accessible pool still EXISTS — content still HAS pathways
+    → BUT pulling Accessible → Knowing is HARDER:
+      Top-down pull requires PFC budget → budget limited → pull fails
+    → EXCEPT: intrinsically rewarding content → limbic drive (④)
+      compensates → normal or even enhanced transition
+    → = ADHD does not reduce accessibility pool SIZE,
+      it reduces transition CAPACITY for non-rewarding content
+
+  → Cross-ref: Consciousness.md v1.5 §5.7 (full sustain hierarchy)
+  → Cross-ref: Consciousness.md v1.5 §6.1 (PFC = enabler, not source)
+
+🟡 Sustain × accessibility mapping = framework synthesis
+🟢 ADHD sustained attention deficit: Barkley 1997
+🟢 Dreaming without PFC: Hobson 2009, Nir & Tononi 2010
+```
+
+### §5.6 × Forgetting Types
+
+```
+⭐ 3 TYPES OF FORGETTING = 3 ACCESSIBILITY STATES:
+
+  Consciousness.md v1.5 §8.4 defines 3 types of forgetting.
+  These map DIRECTLY onto accessibility states:
+
+  ┌──────────────────┬──────────────────┬──────────────────────────┐
+  │ Forgetting Type  │ Mechanism         │ Accessibility State      │
+  ├──────────────────┼──────────────────┼──────────────────────────┤
+  │ ① "Know you      │ Meta-chunk        │ ACCESSIBLE:              │
+  │    forgot"       │ persists,         │ Meta-chunk = retrieval   │
+  │                  │ content chunk     │ path exists.             │
+  │                  │ decayed           │ Can trigger search.      │
+  │                  │                   │ "I met someone, but..."  │
+  ├──────────────────┼──────────────────┼──────────────────────────┤
+  │ ② "Don't know    │ Both meta-chunk   │ NOT-ACCESSIBLE:          │
+  │    you forgot"   │ AND content       │ No trace → no pathway.   │
+  │                  │ chunk decayed     │ Cannot search for what   │
+  │                  │                   │ you don't know is gone.  │
+  │                  │                   │ = DEFAULT for most       │
+  │                  │                   │ experiences              │
+  ├──────────────────┼──────────────────┼──────────────────────────┤
+  │ ③ "Triggered     │ Meta-chunk        │ CONDITIONALLY            │
+  │    recall"       │ dormant, cue      │ ACCESSIBLE:              │
+  │                  │ activates         │ Pathway exists but       │
+  │                  │                   │ DORMANT. External cue    │
+  │                  │                   │ needed to activate.      │
+  │                  │                   │ "Oh! I totally forgot!"  │
+  └──────────────────┴──────────────────┴──────────────────────────┘
+
+  ⭐ THE ISOMORPHISM:
+    → Forgetting Type ① → Accessible (pathway exists, content partially gone)
+    → Forgetting Type ② → Not-Accessible (no pathway, no awareness of loss)
+    → Forgetting Type ③ → Conditionally Accessible (dormant pathway, cue-dependent)
+    → = The forgetting taxonomy IS an accessibility taxonomy
+    → Same underlying structure — meta-chunk state determines accessibility
+
+  ⭐ TRANSITION MODES MAP ONTO FORGETTING TYPES:
+    → Type ① → VTA-dependent pull: "Let me try to remember..." → PFC search
+    → Type ③ → VTA-independent cue: "Remember that restaurant?" → "Oh!"
+    → Type ② → NO transition mode available (no trace to pull or trigger)
+
+  → Cross-ref: Consciousness.md v1.5 §8.4 (3 types of forgetting)
+  → Cross-ref: Consciousness.md v1.5 §8.3 (meta-chunks as prerequisite)
+
+🟡 Forgetting ↔ accessibility isomorphism = framework synthesis
+🟢 Encoding specificity: Tulving & Thomson 1973
+🟢 Ebbinghaus forgetting curve: Ebbinghaus 1885
+```
+
+### §5.7 × Source Attribution
+
+```
+⭐ ACCESSIBILITY ≠ SOURCE ACCURACY:
+
+  Consciousness.md v1.5 §5.8 defines source attribution as an
+  INDEPENDENT dimension on the 5-checkpoint pathway.
+
+  The accessibility model tracks: CAN content reach the stage?
+  Source attribution tracks: IS the content correctly identified as
+    internal or external?
+
+  THESE ARE INDEPENDENT:
+
+  ┌───────────────────┬──────────────┬────────────────────────────┐
+  │ Condition         │ Accessibility│ Source Attribution          │
+  ├───────────────────┼──────────────┼────────────────────────────┤
+  │ Normal recall     │ ACCESSIBLE   │ INTACT: "this is from      │
+  │                   │ → KNOWING    │ memory" — correctly tagged  │
+  ├───────────────────┼──────────────┼────────────────────────────┤
+  │ Hallucination     │ ACCESSIBLE   │ FAILS: internal content    │
+  │                   │ → KNOWING    │ experienced as external    │
+  │                   │              │ → you KNOW it, but source  │
+  │                   │              │ is WRONG                   │
+  ├───────────────────┼──────────────┼────────────────────────────┤
+  │ PTSD flashback    │ ACCESSIBLE   │ FAILS: past content        │
+  │                   │ → KNOWING    │ experienced as NOW         │
+  │                   │              │ → temporal source wrong    │
+  ├───────────────────┼──────────────┼────────────────────────────┤
+  │ Déjà vu           │ ACCESSIBLE   │ CONFUSED: familiarity      │
+  │                   │ → KNOWING    │ signal without source      │
+  │                   │              │ → feels known, can't locate│
+  └───────────────────┴──────────────┴────────────────────────────┘
+
+  ⭐ KEY INSIGHT:
+    → Accessibility model is NECESSARY but NOT SUFFICIENT
+    → Content can be fully Accessible → Knowing, yet source attribution fails
+    → The QUALITY of knowing depends on:
+      ① Can it reach the stage? → Accessibility (this file)
+      ② Is it correctly attributed? → Source monitoring (Consciousness.md §5.8)
+    → = 2 independent quality dimensions of conscious content
+
+  → Cross-ref: Consciousness.md v1.5 §5.8 (source attribution model)
+  → Cross-ref: Drill-Hallucination-Consciousness.md v1.0 §1
+
+🟡 Accessibility × source independence = framework synthesis
+🟢 Source monitoring: Johnson, Hashtroudi & Lindsay 1993
+🟢 PTSD dual representation: Brewin, Gregory, Lipton & Burgess 2010
+```
+
 ---
 
 ## §6 — HONEST ASSESSMENT
@@ -573,6 +821,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ §5.1   │ × Compilation pathways               │ 🟡        │
   │ §5.2   │ × Meta-chunks                        │ 🟡 (🔴)   │
   │ §5.3   │ × Self-observation                   │ 🟡        │
+  │ §5.4   │ × 5-Checkpoint → accessibility       │ 🟡        │
+  │ §5.5   │ × Sustain hierarchy → accessibility  │ 🟡        │
+  │ §5.6   │ × Forgetting types → accessibility   │ 🟡        │
+  │ §5.7   │ × Source attribution independence    │ 🟡        │
   └────────┴──────────────────────────────────────┴───────────┘
 
   🔴 KEY HYPOTHESES (honest limits):
@@ -584,11 +836,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Fresh × Accessible as "working memory overflow" — conceptually useful,
       no direct experimental test
 
+  ⭐ v2.0 ADDITIONS — CONFIDENCE NOTES:
+    → §5.4 (5-CP × accessibility): Each CP is established (🟢).
+      CP→accessibility mapping = new synthesis (🟡). The mapping is
+      logically straightforward: each CP has a clear failure mode,
+      and each failure mode has a clear accessibility consequence.
+    → §5.5 (sustain × accessibility): ADHD case is particularly
+      illuminating — pool SIZE unchanged, transition CAPACITY reduced.
+      Supported by dreaming + ADHD convergence (🟢 individual evidence).
+    → §5.6 (forgetting × accessibility): The isomorphism is strong —
+      meta-chunk state directly determines accessibility state.
+      3 types ↔ 3 states is NOT a forced mapping but emerges from
+      the same underlying mechanism (meta-chunk presence/absence).
+    → §5.7 (source × accessibility): Independence claim is well-supported
+      by clinical dissociations (hallucination, PTSD, déjà vu).
+      Each case shows full accessibility with failed source attribution.
+
   ⚠️ THIS FILE DOES NOT ADDRESS:
     → Quantitative threshold between Accessible and Not-Accessible
-    → Whether Accessible → Not-Accessible transitions occur (forgetting pathways)
     → Neural correlates specific to "Accessible" state
     → Detailed VTA anatomy → Drill-VTA-Dopamine-Consciousness.md v1.3
+    → Whether accessibility pool SIZE changes across development
+    → Attention disorders (beyond ADHD brief note in §5.5)
 
 🟡 Overall file = framework synthesis with external support
 ```
@@ -599,10 +868,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 ⭐ PRIMARY (directly referenced):
-  → Consciousness.md v1.0 — §1 definition, §3 taxonomy, §5.3 push/pull, §7.1 matrix
+  → Consciousness.md v1.5 — §1 definition, §3 taxonomy, §5.3 push/pull,
+    §5.6 5-CP, §5.7 sustain, §5.8 source, §7.1 matrix, §8.3 meta-chunks,
+    §8.4 forgetting
   → Drill-Consciousness-Compiled-Fresh.md v1.2 — §2 (3 states source)
   → Drill-Consciousness-Bridge.md v1.1 — §3 (2 modes source)
   → Drill-VTA-Dopamine-Consciousness.md v1.3 — §2.3 (VTA damage evidence)
+  → Drill-Consciousness-Quality-Model.md v1.0 — §5.3 (3 types forgetting source)
+  → Drill-Hallucination-Consciousness.md v1.0 — §1 (source attribution)
 
 ⭐ FRAMEWORK CONNECTIONS:
   → Compile-Taxonomy.md v3.0 — compilation types × accessibility
@@ -610,11 +883,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Somatic-Articulation-Loop.md v1.0 — Compiled × Accessible → articulated (§1)
   → Novelty.md v1.2 — meta-chunks × prediction-delta (§1.1)
   → Background-Pattern.md v2.0 — Type ③ Not-Accessible mechanism (§5)
+  → PFC-Function.md v1.3 — PFC as Biased Hub enabling top-down pull
+  → PFC-Operations.md v1.4 — PFC budget × transition capacity
 
-⭐ IMPLEMENTED (Consciousness.md v1.1):
-  → Consciousness.md §5.5 — 3 Mechanisms of Impaired Consciousness ✅
-  → Consciousness.md §7.3 — 2 Compilation Pathways × Consciousness ✅
-  → Consciousness.md §8.4 — Meta-Chunks as Learning Prerequisite ✅
+⭐ KEY v1.5 CONNECTIONS (new in v2.0):
+  → Consciousness.md v1.5 §5.6 — 5-CP model → §5.4 (CP → accessibility)
+  → Consciousness.md v1.5 §5.7 — Sustain hierarchy → §5.5 (sustain tiers)
+  → Consciousness.md v1.5 §8.4 — 3 types forgetting → §5.6 (isomorphism)
+  → Consciousness.md v1.5 §5.8 — Source attribution → §5.7 (independence)
+  → Consciousness.md v1.5 §6.1 — PFC Biased Hub → §4.1 (top-down pull)
 ```
 
 ---
@@ -623,7 +900,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 ⭐ CITATIONS SPECIFIC TO ACCESSIBILITY ANALYSIS:
-  (For general consciousness citations, see Consciousness.md §11)
+  (For general consciousness citations, see Consciousness.md v1.5 §11)
 
   CONSCIOUSNESS THEORY:
     🟢 Block 1995: access vs phenomenal consciousness
@@ -648,11 +925,30 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Gruber & Ranganath 2019: PACE framework
        (prediction, appraisal, curiosity, exploration)
 
-  ATTENTION (shared with Consciousness.md §11):
+  ATTENTION (shared with Consciousness.md v1.5 §11):
     🟢 Corbetta & Shulman 2002: bottom-up vs top-down attention
     🟢 McAlonan et al. 2008: thalamic reticular nucleus attentional gating
+    🟢 Miller & Cohen 2001: prefrontal cortex function (top-down bias)
 
-  ⚠️ General consciousness citations (Block 1995 definition, GWT, Dehaene,
-     Baars, arousal, biased competition, etc.) — see Consciousness.md §11.
-     NOT duplicated here.
+  FORGETTING + ENCODING (new in v2.0):
+    🟢 Tulving & Thomson 1973: encoding specificity principle
+    🟢 Ebbinghaus 1885: forgetting curve (exponential decay)
+    🟢 Parker, Cahill & McGaugh 2006: hyperthymesia case study
+
+  SOURCE MONITORING (new in v2.0):
+    🟢 Johnson, Hashtroudi & Lindsay 1993: source monitoring framework
+    🟢 Brewin, Gregory, Lipton & Burgess 2010: PTSD dual representation theory
+
+  SUSTAIN + PFC (new in v2.0):
+    🟢 Barkley 1997: ADHD sustained attention deficit
+    🟢 Hobson 2009: dreaming without PFC executive control
+    🟢 Nir & Tononi 2010: dreaming consciousness neural correlates
+    🟢 Llinás et al. 1998: thalamo-cortical resonance (40Hz)
+
+  SELF-OBSERVATION:
+    🟢 Farb et al. 2013: meditation → interoceptive accuracy
+
+  ⚠️ General consciousness citations (GWT, Dehaene, Baars, RPT, Lamme,
+     arousal, biased competition, thalamic gating, etc.)
+     — see Consciousness.md v1.5 §11. NOT duplicated here.
 ```

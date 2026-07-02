@@ -542,7 +542,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Background-Pattern.md §1: Background-Pattern = accumulated chunk-network pattern
   formed through experience + sleep gist extraction over LONG TIME.
   High link density → SATURATES every new chunk.
-  PFC CANNOT observe it directly.
+  PFC CANNOT receive it directly.
 
   EXPERT QUALITY STANDARD = SPECIFIC Background-Pattern:
 
@@ -568,7 +568,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     FRAMEWORK EXPLANATION:
       Background-Pattern = high link density + high compile depth
-      → PFC observing Background-Pattern = CANNOT (too distributed —
+      → PFC receiving Background-Pattern = CANNOT (too distributed —
         Background-Pattern §5)
       → Expert FEELS "something's wrong" but CANNOT verbalize WHY
       → Because: body signal originates from Background-Pattern → PFC

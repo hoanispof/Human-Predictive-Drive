@@ -143,7 +143,7 @@ Spinal integration at **S2-S4 sacral cord** (parasympathetic) with descending co
 - Synaptogenesis: posterior and anterior insula have adult-threshold synaptic density at birth (Huttenlocher 1979 generalized pattern)
 - fNIRS: Grossmann 2013 showed mPFC active at 4 months for social processing; insula activation during interoceptive tasks follows similar pattern (emerging fNIRS literature)
 - Resting-state networks: Doria 2010 confirmed frontoparietal + DMN + executive control networks adult-like at term birth; insula is part of salience network also formed at term
-- Consciousness signature: Kouider, Dehaene 2013 P3b-like frontal access-consciousness signature present from 5 months — meaning PFC can in principle observe interoceptive signals as soon as they arrive
+- Consciousness signature: Kouider, Dehaene 2013 P3b-like frontal access-consciousness signature present from 5 months — meaning PFC can in principle receive interoceptive signals as soon as they arrive
 
 **Framework claim (🟢 based on 5 pillars)**: At birth, the bladder interoceptive hardware path is **functionally complete**. The signal enters insula. The insula projects to ACC, VMPFC, and back to somatosensory and motor regions. The PFC hardware is **listening** in principle.
 
@@ -208,9 +208,9 @@ This baseline is the **Stage A** starting state analyzed in §3.1.
 
 **What the baby is receiving**: Bladder fullness signal ascends to insula. Per 5 pillars, PFC hardware receives this signal. But with no compiled associative chunk for "signal means something is about to happen", the signal cannot engage pattern-match firing. It remains **background afferent activity without meaning**.
 
-**Critical reframe note**: This is NOT "PFC offline". PFC receives the signal. PFC can in principle observe the signal (per Kouider 2013 frontal consciousness signature from 5mo). But **observation without a matching chunk is functionally equivalent to not observing** for behavioral purposes — there is nothing for the observation to connect to. PFC hardware + empty chunks library → behavioral appearance is indistinguishable from "PFC not involved".
+**Critical reframe note**: This is NOT "PFC offline". PFC receives the signal. PFC can in principle receive the signal (per Kouider 2013 frontal consciousness signature from 5mo). But **reception without a matching chunk is functionally equivalent to not receiving** for behavioral purposes — there is nothing for the reception to connect to. PFC hardware + empty chunks library → behavioral appearance is indistinguishable from "PFC not involved".
 
-**User's Q8 verbatim touches this**: The user's Q8 intuition is exactly correct: PFC hardware is available; what develops over time is the **chunks state** that allows PFC observation to become behaviorally meaningful.
+**User's Q8 verbatim touches this**: The user's Q8 intuition is exactly correct: PFC hardware is available; what develops over time is the **chunks state** that allows PFC reception to become behaviorally meaningful.
 
 ### §3.2 — Repetition compile phase (~6-12 months)
 
@@ -258,7 +258,7 @@ This sequence **repeats** ~10-15 times per day. Over 6 months that's ~1800-2700 
 >
 > *English:* "The baby has no plan at all — the baby only senses that something is about to go wrong. The PFC has detected that something is coming. I'm just sharing my understanding; I don't know if it's correct."
 
-The user's intuition is correct and is adopted as the **framework commitment** for L2: the baby is **not trying to act and failing**. The baby has **no action intention** at all. The chunk has fired; the chunk's content is "something uncomfortable is about to happen"; the baby's PFC has **observed** (pattern-matched) this. But there is no paired action chunk to route the observation to. The freeze is the body-level trace of a **recognition event with nowhere to go**.
+The user's intuition is correct and is adopted as the **framework commitment** for L2: the baby is **not trying to act and failing**. The baby has **no action intention** at all. The chunk has fired; the chunk's content is "something uncomfortable is about to happen"; the baby's PFC has **received** (pattern-matched) this. But there is no paired action chunk to route the reception to. The freeze is the body-level trace of a **recognition event with nowhere to go**.
 
 This distinguishes L2 cleanly from L3 (see §4.1), where partial action chunks ARE available and the baby DOES attempt motor response (squirm, whimper, walk-toward).
 
@@ -450,7 +450,7 @@ From plan §0.5 Q9 (2026-04-15 session, refinement after discussion):
 1. It implies PFC has an action intention but execution is failing — which would predict uncoordinated attempts (L3), not freeze
 2. It implies the developmental arc is "PFC capability maturing" rather than "chunks compiling" — which reintroduces the old reframe-rejected view in a disguised form
 
-The correct reading (adopted by framework): **PFC observed a pattern-match event with no coupled action plan. There is no failed attempt. There is no attempt at all.** The baby's experience (to the extent we can infer it) is "something is happening" not "I should do something and can't". The body-level freeze is the correlate of a recognition event without a response channel.
+The correct reading (adopted by framework): **PFC received a pattern-match event with no coupled action plan. There is no failed attempt. There is no attempt at all.** The baby's experience (to the extent we can infer it) is "something is happening" not "I should do something and can't". The body-level freeze is the correlate of a recognition event without a response channel.
 
 ### §5.3 — Operational definition as observable marker
 
@@ -532,7 +532,7 @@ The framework contribution is strengthened by offering falsifiable predictions:
 
 ### §6.1 — Precondition-2 Chunk-Substrate recap
 
-From [Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5 (drilled N+3): Precondition-2 states that for a body dissonance signal to be observable at Feeling (Feel-Consciousification–Feel-Explanation) level (PFC observation + labeling), the underlying chunks base must be adequate. A body state with no compiled chunks fires Feel-RawSignals–Feel-Integration raw signals but cannot produce labeled observations ("I'm hungry", "I need to pee").
+From [Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5 (drilled N+3): Precondition-2 states that for a body dissonance signal to be observable at Feeling (Feel-Consciousification–Feel-Explanation) level (PFC reception + labeling), the underlying chunks base must be adequate. A body state with no compiled chunks fires Feel-RawSignals–Feel-Integration raw signals but cannot produce labeled observations ("I'm hungry", "I need to pee").
 
 N+3 identified Precondition-2 as critical but did not drill the **compile mechanism** — how chunks reach adequacy threshold. This was flagged as pending F1 work.
 
@@ -951,7 +951,7 @@ The **ratio** is consistently ~1:3 to 1:4 across all three lines. This convergen
 - 🟢 **Hodel, A.S. (2018).** "Rapid infant prefrontal cortex development and sensitivity to early environmental experience." *Developmental Review* 48:113-144. Primary PFC reframe anchor — cited throughout §2.3, §3.6.
 - 🟢 **Huttenlocher, P.R. (1979).** "Synaptic density in human frontal cortex." *Brain Res* 163:195-205. Synaptogenesis at or above adult threshold at birth.
 - 🟢 **Doria, V. et al. (2010).** "Emergence of resting state networks in the preterm human brain." *PNAS* 107:20015-20020. Networks including insula-salience adult-like at term.
-- 🟢 **Kouider, S., Dehaene, S. et al. (2013).** "A neural marker of perceptual consciousness in infants." *Science* 340:376-380. P3b-like frontal signature from 5 months — supports PFC observation capability for interoceptive signals.
+- 🟢 **Kouider, S., Dehaene, S. et al. (2013).** "A neural marker of perceptual consciousness in infants." *Science* 340:376-380. P3b-like frontal signature from 5 months — supports PFC reception capability for interoceptive signals.
 
 ### §9.4 — LTP / compile mechanism
 

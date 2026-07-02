@@ -779,7 +779,7 @@ The framework commits to **four concurrent mechanisms** for multi-modal binding,
 - Formula refinement: compile rate ≈ f(exposure, saliency, contingency, valence, multi-modal richness)
 
 **For old "PFC offline" view**:
-- Further falsified. Multi-modal binding requires distributed cortical substrate (DMN) and PFC observation (for chunks firing to generate behavioral output). If PFC were offline, E12 social smile could not emerge.
+- Further falsified. Multi-modal binding requires distributed cortical substrate (DMN) and PFC reception (for chunks firing to generate behavioral output). If PFC were offline, E12 social smile could not emerge.
 - The fact that E12 emerges at 6-8 weeks with observable multi-modal binding is **direct evidence for PFC + cortical substrate functional availability** at 6-8 weeks, consistent with the 5 pillars ([01 §4](01-PFC-Hardware-Reframe.md#§4)).
 
 **For F3 Language folder (N+5 onwards)**:

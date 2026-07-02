@@ -42,7 +42,7 @@ The F1 Child-Chunk-Development drill aims to formalize the **substrate chunk for
 ```
 LAYER 3: FEELING SYSTEM                                         ⏳ Future
          ───────────────────────────────────────────
-         PFC observation interface. Reads integrated
+         PFC reception interface. Reads integrated
          upstream signals via chunks. 7-layer gradient
          (Raw → Integration → Noticeable → Observe →
          Locate → Label → Explain). Already 4-file
@@ -80,11 +80,11 @@ Layer 1 (Body-Feedback) provides **substrate**. Without body sensors firing → 
 
 Layer 2 (Chunk System) operates **on** Layer 1 substrate. Chunks compile from repeated body-feedback patterns. Without chunks → no retrieval, no association, no prediction. F1-F4 drill Chunk System across 4 mechanism categories.
 
-Layer 3 (Feeling System) operates **on** Layer 2 chunks. Chunks enable PFC labeling + observation interface at Feel-Consciousification–Feel-Explanation of the 7-layer model. Without Layer 2 chunks → Feeling System stays at Feel-Consciousification–Feel-Observation fuzzy (alexithymia-spectrum). The Feeling folder is already complete at `Body-Base/Feeling/` — waiting for the chunk system drill to provide the developmental mechanism.
+Layer 3 (Feeling System) operates **on** Layer 2 chunks. Chunks enable PFC labeling + reception interface at Feel-Consciousification–Feel-Explanation of the 7-layer model. Without Layer 2 chunks → Feeling System stays at Feel-Consciousification–Feel-Observation fuzzy (alexithymia-spectrum). The Feeling folder is already complete at `Body-Base/Feeling/` — waiting for the chunk system drill to provide the developmental mechanism.
 
 ### §1.3 — Why split into layers rather than treat as unified
 
-Framework refinement 2026-04: user's insight from the Pattern-Match session (`project_pattern_match_insights.md`) separated **Body-Feedback** (Feel-RawSignals–Feel-Integration raw, invariant) from **Feeling** (Feel-Consciousification–Feel-Explanation PFC observation interface, trainable). Before this split, dissonance/reward cases conflated "body signal" with "feeling" — couldn't explain alexithymia, the Van Gogh case, hedonic adaptation, or trauma persistence.
+Framework refinement 2026-04: user's insight from the Pattern-Match session (`project_pattern_match_insights.md`) separated **Body-Feedback** (Feel-RawSignals–Feel-Integration raw, invariant) from **Feeling** (Feel-Consciousification–Feel-Explanation PFC reception interface, trainable). Before this split, dissonance/reward cases conflated "body signal" with "feeling" — couldn't explain alexithymia, the Van Gogh case, hedonic adaptation, or trauma persistence.
 
 Chunk System sits **between** these two layers as the operative mechanism. Chunks enable Feeling (Feel-Consciousification–Feel-Explanation) emergence. Chunks accumulate from Body-Feedback repetition + emotional peak + multi-modal binding + sleep consolidation.
 
@@ -300,7 +300,7 @@ The mechanism F1 formalizes (substrate chunk compile from body signals) operates
   5. **Precondition-5 Compile-Gate** ⭐ (Chunk association tag) — chunks fire with association pattern determined by the body state fingerprint during compile: novelty-path body state (novelty cortisol + dopamine/opioid) → chunks tagged opioid → "preferred use"; threat-path body state (threat cortisol + NE/adrenaline) → chunks tagged cortisol-avoidance → "avoid". See [06a §7.0.1](06a-Interoceptive-Bladder-Keystone.md#§7.0.1) for the refined mechanism (same molecule, different body state, opposite outcomes).
 - **Body-feedback layer (Feel-RawSignals–Feel-Integration)** ≠ **Feeling layer (Feel-Consciousification–Feel-Explanation)**:
   - Body-feedback: raw body signal, pre-verbal, automatic, invariant across development
-  - Feeling: PFC observation via chunks, trainable, developmental
+  - Feeling: PFC reception via chunks, trainable, developmental
 - **7-layer clarity gradient** (same mechanism, different signal strength): Raw → Integration → Noticeable → Observe → Locate → Label → Explain
 - **Self-signal interoception keystone** (Body-Input-Enumeration §4.9): body's capacity to read its own internal state is an architectural prerequisite for feeling layer development
 - **Developmental gradient** (user's examples mapped): urination / pain / discomfort / sadness all show Feel-RawSignals–Feel-Integration invariant but Feel-Consciousification–Feel-Explanation compile progressively via chunks accumulation + caregiver mirroring + language emergence

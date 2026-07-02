@@ -10,7 +10,7 @@
 ## ⚠️ IMPORTANT FOR IMPLEMENTATION (Phase 4)
 
 Feel-Development is the **SYNTHESIS FILE** that ties together:
-- Expanded Feeling definition (PFC observation interface)
+- Expanded Feeling definition (PFC reception interface)
 - Multi-axis development model (5 axes)
 - 3-component structure (Channels → PFC+Chunks → Response)
 - Developmental stages (Self-Pattern Match + Resonance)
@@ -49,7 +49,7 @@ Parallel to existing Feeling/ files but at the meta level.
 
 **Original** (Feeling.md current): "body-base feedback system"
 
-**Refined**: "Feeling = everything PFC can observe from the body-base or
+**Refined**: "Feeling = everything PFC can receive from the body-base or
 the unconscious, whether it can be verbalized or not yet clearly formed.
 Called 'feeling' collectively because not everything can be verbalized.
 Detection capability depends on the development of the PFC."
@@ -67,7 +67,7 @@ but not the original:
 
 ### §1.3 Unified Mechanism
 
-ALL are PFC observing unconscious processing, whether:
+ALL are PFC receiving unconscious processing, whether:
 - Body (interoception)
 - Schemas (pattern matching)
 - Predictions (interoceptive + exteroceptive forecasts)
@@ -82,7 +82,7 @@ aesthetics.
 
 ---
 
-## §2 PFC as Observer (Not Executor)
+## §2 PFC as Receiver (Not Executor)
 
 [Phase 4 fill]
 
@@ -141,7 +141,7 @@ This partially resolves Q3 (Logic-Feeling flow):
 - Imaginative (Imagine-Final outputs)
 
 ### §3.2 Component 2: PFC + Chunks (Processing)
-- PFC as observer (read role)
+- PFC as receiver (read role)
 - Chunk library as interpretation tool
 - Chunks = schemas, labels, techniques, scaffolds
 - Math formula analogy — cumulative + branching
@@ -395,7 +395,7 @@ Teams benefit from profile diversity. Recognize blindspots at scale.
 
 ### Strong (🟢)
 - Developmental stages exist with individual variation
-- PFC observer role
+- PFC receiver role
 - Scaffolding matters
 - Alexithymia as arrested development
 - Training advances literacy

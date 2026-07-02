@@ -33,7 +33,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 > = Bidirectional. Neither system is "primary" — they are ONE system
 > observed from two angles.
 >
-> **Core claim:** Feeling IS what happens when PFC observes the chunk system running.
+> **Core claim:** Feeling IS what happens when PFC receives the chunk system running.
 > The chunk system IS what produces the body states that PFC reads as feeling.
 > = Same elephant, two observers.
 
@@ -70,7 +70,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
   │ (insula + ACC + VMPFC)     │ Integrated body state│ aggregate → 1 state  │
   ├────────────────────────────┼─────────────────────┼───────────────────────┤
   │ Signal crosses PFC         │ Feel-Consciousific.: │ Strong enough →      │
-  │ observation threshold      │ Conscious awareness  │ PFC notices           │
+  │ reception threshold        │ Conscious awareness  │ PFC notices           │
   ├────────────────────────────┼─────────────────────┼───────────────────────┤
   │ Chunk pattern-match        │ Feel-Observation:    │ Chunks activate →    │
   │ (step ⑤ in 8-step flow)   │ Pre-labeled          │ context provides     │
@@ -89,7 +89,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 
   → CHUNK OPERATIONS RUN → feeling layers EMERGE as consequence
   → NOT: feeling system "creates" feelings independently
-  → YES: chunk system runs → PFC observes → that observation = feeling
+  → YES: chunk system runs → PFC receives → that reception = feeling
 
   → Fidelity DECREASES upward (Feeling.md §2.9):
     Feel-RawSignals: ~100% (body truth = body truth)
@@ -259,14 +259,14 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
   → LOOP runs CONTINUOUSLY (24/7, even in sleep at reduced level)
   → = Feeling Loop (Feeling.md §3) = chunk-feeling bidirectional loop
   → = This IS the core loop of human consciousness
-  → = PFC observing this loop = the "I" experience
+  → = PFC receiving this loop = the "I" experience
 ```
 
 ---
 
 ## §3 — Integration Points (where the 2 systems MEET)
 
-### §3.1 — PFC as observation interface
+### §3.1 — PFC as reception interface
 
 ```
 🟡 PFC = WHERE CHUNK AND FEELING SYSTEMS MEET:
@@ -285,11 +285,11 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
     → = Feeling side
 
   → PFC does BOTH — not 2 separate functions
-  → Same PFC that holds chunks ALSO observes feelings
+  → Same PFC that holds chunks ALSO receives feelings
   → = Logic-Feeling.md: Compiled/Fresh = the real axis, 1 PFC
-  → = When PFC observes chunk activation → that IS feeling
+  → = When PFC receives chunk activation → that IS feeling
   → = When PFC manipulates chunks logically → that IS thinking
-  → = Feeling and thinking = 2 aspects of PFC observing the chunk system
+  → = Feeling and thinking = 2 aspects of PFC receiving the chunk system
 ```
 
 ### §3.2 — Body vote = the MEETING POINT
@@ -471,7 +471,7 @@ WITHOUT EXPLICIT BRIDGE:
 🟢 HIGH CONFIDENCE:
 
   ✓ Body signals produce feeling experience (Damasio 1994, Craig 2009)
-  ✓ PFC observes integrated body state (Craig 2002, interoception research)
+  ✓ PFC receives integrated body state (Craig 2002, interoception research)
   ✓ Spreading activation probability-based (Collins & Loftus 1975)
   ✓ Body vote/felt shift measurable (Gendlin research, galvanic skin)
   ✓ Mood-congruent memory bias (Bower 1981)
@@ -487,7 +487,7 @@ WITHOUT EXPLICIT BRIDGE:
     (each mechanism plausible, taxonomy = framework organizing)
   ⚠ Convergence zone as "transition point" between systems
     (phenomenology validated via Gendlin, structural claim = framework)
-  ⚠ PFC as unified observation interface for both systems
+  ⚠ PFC as unified reception interface for both systems
     (consistent with PFC research, explicit integration claim = framework)
   ⚠ Body vote as "meeting point" of both systems
     (clinically observed, mechanism claim = framework synthesis)

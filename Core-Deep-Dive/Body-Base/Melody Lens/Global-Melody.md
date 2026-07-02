@@ -15,7 +15,7 @@ position: |
 previous_version: Melody Lens/backup/Global-Melody.md (533L, v1.0 DRAFT 2026-03-29)
 dependencies:
   - Personal-Melody.md v2.0 — foundation (personal melody state + dynamics)
-  - Core-Software.md — cycle architecture, §8 observation parameters
+  - Core-Software.md — cycle architecture, §9 observation parameters
   - Observation/Connection.md — hardware vs compiled, virtual chunks, Dunbar
   - Observation/Status.md — schema access map, chunk dynamics
   - Observation/Meaning.md — schema coherence at high density

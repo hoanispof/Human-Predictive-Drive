@@ -89,18 +89,18 @@ From §1.9 of reading notes, Logic-Feeling.md's core claims:
 
 ### §2.2 — Consistency check with Theme A (Architecture)
 
-**Theme A's committed position**: Feeling = PFC observation of integrated unconscious processing (expanded beyond body-base).
+**Theme A's committed position**: Feeling = PFC reception of integrated unconscious processing (expanded beyond body-base).
 
 **Logic-Feeling.md defines**: Logic = PFC rules processing; Feeling = body feedback integrated.
 
-**Potential tension**: If Feeling is "PFC observing unconscious processing," and Logic is "PFC rules processing," is Logic a SUBSET of Feeling (both observed by PFC) or a SEPARATE mechanism?
+**Potential tension**: If Feeling is "PFC receiving unconscious processing," and Logic is "PFC rules processing," is Logic a SUBSET of Feeling (both received by PFC) or a SEPARATE mechanism?
 
 **Resolution:**
 
-**Option A — Logic is a subset of expanded Feeling** (both are observations):
-- PFC observes rules firing (compiled chunks, schemas)
-- PFC observes body integration (interoception, mirror, etc.)
-- Both are "PFC observing unconscious processing"
+**Option A — Logic is a subset of expanded Feeling** (both are receptions):
+- PFC receives rules firing (compiled chunks, schemas)
+- PFC receives body integration (interoception, mirror, etc.)
+- Both are "PFC receiving unconscious processing"
 - Logic = specific subset where source is "compiled rule chunks"
 - Feeling = specific subset where source is "body integration"
 - → Both fit under Theme A's expanded definition
@@ -115,7 +115,7 @@ From §1.9 of reading notes, Logic-Feeling.md's core claims:
 
 These are **NOT contradictory**. They are descriptions at different levels of analysis:
 
-- **At architectural level** (Theme A): both tracks are "unconscious processing observed by PFC"
+- **At architectural level** (Theme A): both tracks are "unconscious processing received by PFC"
 - **At functional level** (Logic-Feeling): the two tracks have different properties (serial vs parallel, rules vs body, etc.)
 
 **Proposed unified view:**
@@ -125,22 +125,22 @@ UNCONSCIOUS PROCESSING (always running)
 ├── Rule-based subsystem (chunks, schemas, compiled rules)  ← Logic's source
 └── Body integration subsystem (body-base + mirror + simulator + etc.)  ← Feeling's source
      ↓
-PFC OBSERVATION INTERFACE (Theme A)
+PFC RECEPTION INTERFACE (Theme A)
      ↓
-Observed outputs: "logic result" vs "felt sense"
+Received outputs: "logic result" vs "felt sense"
 ```
 
-**Key insight**: Logic-Feeling's "2 tracks" refer to **2 different SOURCES** within the unconscious. Both feed into Theme A's observation interface. Theme A's expanded Feeling definition can either:
+**Key insight**: Logic-Feeling's "2 tracks" refer to **2 different SOURCES** within the unconscious. Both feed into Theme A's reception interface. Theme A's expanded Feeling definition can either:
 
-- Include Logic as a subset (broader usage of "feeling" = "whatever PFC observes")
+- Include Logic as a subset (broader usage of "feeling" = "whatever PFC receives")
 - Or keep Logic distinct (narrower usage of "feeling" = "body-integration outputs")
 
 **Theme F recommends:**
 - **Keep Logic-Feeling's 2-track terminology** for everyday discussion (intuitive and useful)
-- **Acknowledge Theme A's expanded Feeling** as a meta-level definition (what PFC observes in general)
+- **Acknowledge Theme A's expanded Feeling** as a meta-level definition (what PFC receives in general)
 - **Clarify**: "Feeling" can be used in 2 senses:
   - **Narrow**: body-integration track specifically (Logic-Feeling usage)
-  - **Broad**: anything PFC observes from the unconscious (Theme A Tier 2 expanded)
+  - **Broad**: anything PFC receives from the unconscious (Theme A Tier 2 expanded)
 
 **→ Consistency verdict**: **COMPATIBLE** — both views hold at different levels. No major contradiction.
 
@@ -262,24 +262,24 @@ This is **compatible with Logic-Feeling** but adds specificity about what exactl
 ### §2.7 — RQ19 Resolution: Is Logic a subset of expanded Feeling?
 
 From §1.5–1.8 of reading notes, RQ19:
-> "Logic-Feeling.md §5 claims all entities have parallel Logic + Feeling. Feel-Development.md §1 expands feeling to 'PFC observing unconscious processing.' Is Logic just a SUBSET of this (PFC observing its own rule-application)? Or a genuinely separate track?"
+> "Logic-Feeling.md §5 claims all entities have parallel Logic + Feeling. Feel-Development.md §1 expands feeling to 'PFC receiving unconscious processing.' Is Logic just a SUBSET of this (PFC receiving its own rule-application)? Or a genuinely separate track?"
 
 **Theme F's resolution:**
 
 **Answer**: **Both views are valid at different levels.** Not a contradiction — a terminology and scope choice.
 
 **At META level (Theme A expanded):**
-- "Feeling" = anything PFC observes from unconscious processing
+- "Feeling" = anything PFC receives from unconscious processing
 - Under this usage, Logic's output (a rule-application result) IS a feeling
-- "Feeling of knowing" (metacognitive), "feeling of rightness" (cognitive) — both rely on the logic subsystem feeding into observation
-- **Logic outputs → become feelings when PFC observes them**
+- "Feeling of knowing" (metacognitive), "feeling of rightness" (cognitive) — both rely on the logic subsystem feeding into reception
+- **Logic outputs → become feelings when PFC receives them**
 
 **At FUNCTIONAL level (Logic-Feeling §1):**
 - "Logic" = rule-based processing subsystem
 - "Feeling" = body-integrated processing subsystem
 - Both run in parallel
 - Different input sources, different algorithms, different properties
-- They are 2 SOURCES feeding into the observation interface
+- They are 2 SOURCES feeding into the reception interface
 
 **Unified position:**
 
@@ -287,37 +287,37 @@ From §1.5–1.8 of reading notes, RQ19:
 "FEELING" (meta level, Theme A)
        |
        ├── Source: Logic subsystem (rules, chunks, compiled schemas)  ← "Logic track"
-       |     When observed, appears as: "thinking," "knowing," "a sense of rightness from logic"
+       |     When received, appears as: "thinking," "knowing," "a sense of rightness from logic"
        |
        ├── Source: Body integration (interoception, mirror, simulator)  ← "Feeling track"
-       |     When observed, appears as: "sensing," "intuition," "body feeling"
+       |     When received, appears as: "sensing," "intuition," "body feeling"
        |
        └── Other sources: memory, imagination, predictive, aesthetic
-             When observed, appears as various other feelings
+             When received, appears as various other feelings
 ```
 
 **Refined terminology** (Theme F proposal):
 
 To avoid confusion, the framework could use:
-- **"Feeling" (broad)** = everything PFC observes from the unconscious → all observation is feeling in this sense
+- **"Feeling" (broad)** = everything PFC receives from the unconscious → all reception is feeling in this sense
 - **"Feeling-track"** = specifically the body-integration source (Logic-Feeling's sense)
 - **"Logic-track"** = specifically the rule-based source
 
 Or the simpler alternative:
 - Use "Feeling" in Logic-Feeling's sense (narrow, body-track)
-- Use "PFC observation" for the broader Theme A sense
+- Use "PFC reception" for the broader Theme A sense
 - Don't overload "feeling" with two meanings
 
 **Theme F recommends the second option** (cleaner terminology):
 
 The framework should distinguish:
 - **Feeling** = body-integration track output (Logic-Feeling, Tier 1 Feeling.md)
-- **PFC observation** = broader concept (Theme A, Feel-Development Tier 2)
+- **PFC reception** = broader concept (Theme A, Feel-Development Tier 2)
 - **Logic** = rule-based track output
 
-And explicitly state: Logic outputs ARE observed by PFC, just like body-integration outputs, but we don't call logic outputs "feelings" in order to maintain terminological clarity.
+And explicitly state: Logic outputs ARE received by PFC, just like body-integration outputs, but we don't call logic outputs "feelings" in order to maintain terminological clarity.
 
-**→ RQ19 Resolution**: Logic is **NOT a subset of Feeling (narrow sense)**. Both Logic and Feeling are **tracks that PFC observes**. Theme A's expanded definition uses "PFC observation" as the parent category; "Feeling" in the Tier 1 sense is specifically the body-integration track.
+**→ RQ19 Resolution**: Logic is **NOT a subset of Feeling (narrow sense)**. Both Logic and Feeling are **tracks that PFC receives**. Theme A's expanded definition uses "PFC reception" as the parent category; "Feeling" in the Tier 1 sense is specifically the body-integration track.
 
 ### §2.8 — Recommended framework updates
 
@@ -337,7 +337,7 @@ Current: "Feeling = integrated feedback signal about the state of body systems..
 
 Proposed: Add a note acknowledging the Tier 2 expansion from Feel-Development.md:
 
-> "Note: The framework is evolving toward a broader definition (Feel-Development.md §1): 'Feeling = everything PFC observes from body-base or unconscious processing.' The Tier 1 definition (this file) describes the body-integration track specifically. The Tier 2 definition is meta-level. Both coexist."
+> "Note: The framework is evolving toward a broader definition (Feel-Development.md §1): 'Feeling = everything PFC receives from body-base or unconscious processing.' The Tier 1 definition (this file) describes the body-integration track specifically. The Tier 2 definition is meta-level. Both coexist."
 
 **Update 3 — Empathy-Mirror.md terminology reconciliation:**
 
@@ -403,15 +403,15 @@ The framework needs to decide this during Phase 3 fill.
 
 **Is Logic a subset of expanded Feeling?**
 
-**Answer**: **Both Logic and Feeling are TRACKS observed by PFC.** Theme A's "PFC observation of unconscious processing" is the META level. Logic-Feeling's 2 tracks are the FUNCTIONAL level.
+**Answer**: **Both Logic and Feeling are TRACKS received by PFC.** Theme A's "PFC reception of unconscious processing" is the META level. Logic-Feeling's 2 tracks are the FUNCTIONAL level.
 
 **Recommended terminology:**
 - **Feeling (narrow, Tier 1)** = body-integration track output
-- **PFC observation (meta)** = everything PFC observes
+- **PFC reception (meta)** = everything PFC receives
 - **Logic** = rule-based track output
-- Logic outputs ARE observed by PFC but we don't call them "feelings" for clarity
+- Logic outputs ARE received by PFC but we don't call them "feelings" for clarity
 
-**→ Logic is NOT a subset of narrow Feeling.** Both are parallel tracks. But both are subsets of the meta-level concept "PFC observation."
+**→ Logic is NOT a subset of narrow Feeling.** Both are parallel tracks. But both are subsets of the meta-level concept "PFC reception."
 
 ### §3.3 — Framework update recommendations
 
@@ -448,7 +448,7 @@ The framework needs to decide this during Phase 3 fill.
 ### §4.1 — Theme A (Architecture)
 
 Theme F RESOLVES Theme A's terminology question:
-- Theme A committed to "expanded Feeling" (PFC observes unconscious processing)
+- Theme A committed to "expanded Feeling" (PFC receives unconscious processing)
 - Theme F clarifies: this is meta-level; Logic-Feeling's tracks are functional-level
 - Both compatible, different scopes
 
@@ -489,7 +489,7 @@ Theme F shows the Empathy Reframe (Resonance) is a refinement of Logic-Feeling's
 
 1. **Logic-Feeling.md is internally consistent with all Themes A–E.** No major contradictions found. Minor refinements suggested for better integration with the evolving framework.
 
-2. **RQ19 resolved**: Both Logic and Feeling are TRACKS observed by PFC. Theme A's expanded "PFC observation" is the META level; Logic-Feeling's 2 tracks are the FUNCTIONAL level. Not a contradiction — different scopes of description.
+2. **RQ19 resolved**: Both Logic and Feeling are TRACKS received by PFC. Theme A's expanded "PFC reception" is the META level; Logic-Feeling's 2 tracks are the FUNCTIONAL level. Not a contradiction — different scopes of description.
 
 3. **Theme D validates Logic-Feeling §4's unified pattern** with 3 additional cases (child VoE, scientist, partner) — all follow "Logic CORRECT at old scope → Feeling detects outside scope → Verify → Logic new anchor."
 

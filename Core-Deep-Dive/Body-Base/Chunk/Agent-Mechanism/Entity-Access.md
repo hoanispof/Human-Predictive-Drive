@@ -127,7 +127,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ (can I access?)   │ 3-Factor → gradient Level 0-5.                    │
     │                   │ Quality = f(A:B:C:D).                              │
     │                   │ Changes FASTER than Entity-Compiled.               │
-    │                   │ PFC-OBSERVABLE at high levels.                     │
+    │                   │ PFC-ACCESSIBLE at high levels.                     │
     │                   │ = CAN I borrow books + WHAT DO I NEED THEM FOR    │
     └───────────────────┴─────────────────────────────────────────────────────┘
 
@@ -401,10 +401,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐⭐ ENTITY-OWNED = PFC LABEL, NOT MECHANISM:
 
   OLD: Entity-Owned = emergent state: "this entity is part of my life"
-  NEW: Entity-Owned = PFC OBSERVATION when entity-access is compiled deep
+  NEW: Entity-Owned = PFC RECEPTION when entity-access is compiled deep
 
   MECHANISM = entity-access compilation (3-factor → baseline)
-  OBSERVATION = PFC label "this entity is important / part of my life / MINE"
+  RECEPTION = PFC label "this entity is important / part of my life / MINE"
 
   ANALOGOUS TO "feeling" and body signals:
     Body signal = mechanism (body-feedback)

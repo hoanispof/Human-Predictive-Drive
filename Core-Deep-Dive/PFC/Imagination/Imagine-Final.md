@@ -149,7 +149,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │   = Preview future state, create gaps, planning tool
     │
     ├── Self-Observation.md v1.0 = APPLICATION-3: (Self, Present, Observe)
-    │   = PFC observes body-state, mechanism of self-awareness
+    │   = PFC receives body-state, mechanism of self-awareness
     │
     ├── PFC-Operations.md = HOW PFC operates on the engine
     │   = Hold/Suppress on Compiled/Fresh spectrum
@@ -511,7 +511,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Self-Pattern-Modeling  │ LEAST: compiled, automatic, invisible       │
   │ Compiled               │                                             │
   │ Dream/Mind Wandering   │ ZERO: engine free-runs during sleep         │
-  │ Self-Observation       │ MIDDLE: PFC observes, cannot manipulate     │
+  │ Self-Observation       │ MIDDLE: PFC receives, cannot manipulate     │
   │ Self-Pattern-Modeling  │ MODERATE: PFC drafts model deliberately     │
   │ Fresh                  │                                             │
   │ ★ Imagine-Final        │ MOST: PFC SETS scenario + READS + ITERATES  │
@@ -519,7 +519,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   └────────────────────────┴────────────────────────────────────────────┘
 
   IMAGINE-FINAL = RICHEST APPLICATION because:
-    → PFC CAN OBSERVE output (unlike Self-Pattern-Modeling Compiled = invisible)
+    → PFC CAN RECEIVE output (unlike Self-Pattern-Modeling Compiled = invisible)
     → PFC CAN MANIPULATE input ("what if I change X?")
     → PFC CAN COMPARE multiple simulations ("option A vs B")
     → PFC CAN ITERATE ("add condition → what does it feel like?")
@@ -534,7 +534,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → EMPATHY EXTENSION: "if I WERE THEM in the FUTURE"
       = Self-Pattern-Modeling + Imagine-Final combined → parenting, mentoring
 
-  🟢 Drill-Self-Pattern-Modeling-Self-Shared-Substrate §9: Imagine-Final = PFC-observable output
+  🟢 Drill-Self-Pattern-Modeling-Self-Shared-Substrate §9: Imagine-Final = PFC-accessible output
   🟡 "Most PFC-accessible application" = framework synthesis
 ```
 
@@ -1203,7 +1203,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = ENGINE USE QUALITY: LOW
 
   SAME MECHANISM:
-    Engine runs simulation → body-feedback → PFC observes
+    Engine runs simulation → body-feedback → PFC receives
     DIFFERENT CORTISOL CONTEXT → DIFFERENT OUTPUT:
       Reflection: "if I try X → what would happen?" (open exploration)
       Rumination: "if X happens → I'll be ruined" (closed catastrophe)
@@ -1439,7 +1439,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Entity-Access.md v1.0 | §2 Gradient, §4 Gap Source, §5 Per-entity | Per-entity Imagine-Final dynamics |
 | Entity-Compiled.md v1.0 | §3 Formation, §7 Grief, §8 Love↔Hate | Entity compilation × Imagine-Final |
 | Self-Pattern-Modeling.md v3.1 | §2 Compiled/Fresh, §10 Self-Pattern-Modeling×Imagine-Final overlap | SIBLING APPLICATION on engine |
-| Feeling.md v3.0 | PFC observation interface | UMBRELLA — Feeling ⊃ Self-Observation |
+| Feeling.md v3.0 | PFC feeling interface | UMBRELLA — Feeling ⊃ Self-Observation |
 | Self-Observation.md v1.0 | Full file | APPLICATION-3: Self × Present × Observe |
 | Body-Feedback-Mechanism.md v2.0 | §1.2 Two Sources, §3 chunk dynamics | Foundation: ★ Source ① vs ② = boundary definition |
 | Anchor-Schema.md v1.0 | §2 Trust, §3 4-sources fill | Imagine-Final → Anchor-Schema transition |
@@ -1456,7 +1456,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Ask-AI.md v3.1 | §6 Dual Check | AI × Imagine-Final interaction |
 | Background-Pattern.md v1.1 | §2 2D model, §8 self-reinforcing | Background × Imagine-Final compile |
 | Somatic-Articulation-Loop.md v1.0 | Body-knowledge → explicit | Complement: body knows → PFC labels |
-| Consciousness.md v1.0 | §7 matrix, §8.3 compilation trajectory | Conscious/unconscious boundary for Imagine-Final |
+| Consciousness.md v1.4 | §7 matrix, §8.2 compilation trajectory | Conscious/unconscious boundary for Imagine-Final |
 
 ---
 

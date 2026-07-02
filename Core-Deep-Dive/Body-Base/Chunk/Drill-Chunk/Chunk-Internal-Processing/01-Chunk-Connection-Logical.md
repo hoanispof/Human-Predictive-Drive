@@ -83,7 +83,7 @@ TYPE 2 — AHA MOMENT (Chunk-Search-Advanced §2):
     ⑤ IF threat was present (e.g., deadline, pending problem):
        threat resolved → cortisol WITHDRAWS GRADUALLY (consequence, NOT cause)
        = Additional relief signal on top of opioid reward
-    ⑥ PFC observes: "ah, A relates to B via C!"
+    ⑥ PFC receives: "ah, A relates to B via C!"
     ⑦ Novel chunk compiles (emotional peak mechanism)
 
     ⭐ FRAMEWORK CORRECTION (N+10):
@@ -288,7 +288,7 @@ STEP 5 — OUTPUT STORAGE:
   ┌─────────────────────────────────────────────────────────────────┐
   │             Type 1      Type 2      Type 3      Type 4 (H2)   │
   │ Trigger     Auto        Spontaneous Repetition   Intentional   │
-  │ PFC role    None        Observer    Weak         Active hold   │
+  │ PFC role    None        Receiver    Weak         Active hold   │
   │ Tempo       Instant     Sudden      Gradual      Deliberate    │
   │ Awareness   Unconscious Surprising  Unconscious  Conscious     │
   │ Body signal None        Burst       None         Smooth/resist │
@@ -393,7 +393,7 @@ MECHANISM:
      No signal → neutral (no overlap, no information)
 
   ④ PFC READS:
-     PFC observes body state → interprets:
+     PFC receives body state → interprets:
      → Smooth = "connects, related, logical"
      → Tension = "something's off, contradictory, needs checking"
      → Neutral = "unrelated, no information"

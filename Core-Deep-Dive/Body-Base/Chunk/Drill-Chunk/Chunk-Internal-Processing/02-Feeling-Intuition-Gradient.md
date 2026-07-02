@@ -62,7 +62,7 @@ Feeling/ folder has committed to 7-layer model:
   Feel-RawSignals — Body-input raw signal (pain, heat, hunger)
   Feel-Integration — Novelty detection (VTA signal: new/familiar)
   Feel-Consciousification — Schema-matching (familiar? threatening? rewarding?)
-  Feel-Observation — PFC-observation (aware of own body state)
+  Feel-Observation — PFC-reception (aware of own body state)
   Feel-Location — Verbal labeling ("I'm sad", "I'm afraid")
   Feel-Labeling — Contextual understanding ("I'm sad BECAUSE X")
   Feel-Explanation — Meta-feeling ("I recognize I'm sad and accept it")
@@ -716,7 +716,7 @@ EXTERNAL:
   → Somatic-Articulation-Loop.md §1-§2 (3 states + 7-stage mechanism)
   → Feeling/ folder (7-layer model)
   → Logic-Feeling.md (2-part model)
-  → Neural-Processing-Flow.md §7 (PFC observation mechanism)
+  → Neural-Processing-Flow.md §7 (PFC reception mechanism)
 
 ACADEMIC REFERENCES:
   🟢 Botvinick et al. 2004 — ACC conflict monitoring

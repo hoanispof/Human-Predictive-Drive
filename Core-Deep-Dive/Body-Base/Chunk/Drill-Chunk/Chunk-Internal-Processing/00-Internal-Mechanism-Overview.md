@@ -235,7 +235,7 @@ SPECTRUM (to drill):
 H5 TEST: "Vague = multi-weak-signal convergence"
   → Intuition = MANY weak signals converge at once → body senses "something"
   → Feeling = FEW strong signals → body senses CLEARLY
-  → SAME mechanism (PFC observes body-base), DIFFERENT signal profile
+  → SAME mechanism (PFC receives body-base), DIFFERENT signal profile
 
 EXPERT VS BEGINNER (Klein 1998):
   Expert: "gut feeling" → CORRECT (many compiled chunks fire weakly in parallel)
@@ -341,7 +341,7 @@ AHA MOMENT (Chunk-Search-Advanced §2 + body-feedback):
   ④ Schemas/dissonance resolved → body-need match → OPIOID = actual reward
      + if threat present: threat resolved → cortisol withdraws gradually (additional relief)
      (⚠️ N+10 correction: dopamine ≠ reward. Opioid = reward. See 01 §1.2)
-  ⑤ PFC observes: "ah, A relates to B via C!"
+  ⑤ PFC receives: "ah, A relates to B via C!"
   ⑥ Novel chunk compiles (emotional peak mechanism)
   
   → Aha = Type 2 connection (sudden strong link)
@@ -352,12 +352,12 @@ TACIT KNOWLEDGE (Polanyi 1966):
   "We can know more than we can tell"
   
   = Chunks compiled DEEP (many modalities, many repetitions)
-  → Fire AS ONE → PFC observes RESULT, not PROCESS
+  → Fire AS ONE → PFC receives RESULT, not PROCESS
   → Expert "knows" answer → but CANNOT articulate why
   → = Klein 1998: firefighters "just know" which roof will collapse
   
   Mechanism: meta-chunks compiled so deep → PFC only sees output
-  → Process INVISIBLE to PFC (runs in substrate, below observation)
+  → Process INVISIBLE to PFC (runs in substrate, below reception)
   → = Feel-RawSignals — Feel-Consciousification feeling territory
     (body knows, PFC doesn't yet know clearly)
 
@@ -416,7 +416,7 @@ SELF-PATTERN-MATCH UPGRADE (cross-ref Agent/):
   → Self-Pattern-Modeling §5: 8 stages of self-model development
   → Each "upgrade" = accumulated self-related chunks reach new threshold
   → → meta-cognition = chunks ABOUT OWN CHUNKS (recursive)
-  → → "Knowing what you know" = PFC observes own chunk library
+  → → "Knowing what you know" = PFC receives own chunk library
 
 WHY "UPGRADE" FEELS DISCRETE:
   → = Same as Convergence Point 1 gradient verdict

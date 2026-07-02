@@ -89,7 +89,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
   │                                                              │
   │          ↓                                                   │
   │                                                              │
-  │  UNIFIED FEELING → PFC observes                             │
+  │  UNIFIED FEELING → PFC receives                             │
   │                                                              │
   └─────────────────────────────────────────────────────────────┘
 

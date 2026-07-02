@@ -135,7 +135,7 @@ Theme D verdict: SAME mechanism across all 4 cases
   → Schema(s) fire against current input
   → ACC detect conflict/coherence
   → Body integrates signal(s)
-  → PFC observes integrated body state
+  → PFC receives integrated body state
 
 ⭐ DIFFERENCE = SIGNAL PROFILE (from 02-Feeling-Intuition-Gradient §2.2):
   → Clear: FEW signals × STRONG × SOURCE identifiable
@@ -343,7 +343,7 @@ FRAMEWORK RESPONSE — User is PARTIALLY right:
   → "DEGREE OF RIGHT-WRONG" COMES FROM BODY INTEGRATION, NOT LOGIC:
     → Logic produces binary steps
     → Body produces graded signals
-    → PFC observes BODY signal → experiences GRADIENT of rightness/wrongness
+    → PFC receives BODY signal → experiences GRADIENT of rightness/wrongness
     → = Theme D §2.8: 4 gradient dimensions
 ```
 
@@ -378,11 +378,11 @@ DIMENSION 3 — TEMPORAL PERSISTENCE:
   → 🟡 Framework: persistence = proxy for signal validity
 
 DIMENSION 4 — PFC CLARITY:
-  = How clearly PFC can observe and articulate the signal
+  = How clearly PFC can receive and articulate the signal
   = Maps to Feeling 7-layer model
   
   Feel-Consciousification: body feels, no words → "something something" (vague)
-  Feel-Observation: PFC observes body state → "I'm feeling something off"
+  Feel-Observation: PFC receives body state → "I'm feeling something off"
   Feel-Location: locates source area → "it's about this project/person/situation"
   Feel-Labeling: labels → "this isn't right because X"
   Feel-Explanation: meta-understanding → "I realize I've felt wrong about this for

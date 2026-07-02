@@ -13,7 +13,7 @@ scope: |
   multi-channel, Dual Check.
   v1.0: comprehensive first formal file.
 purpose: |
-  Feeling.md v3.0          = WHAT PFC sees (umbrella, all body-feedback observation, 7 types)
+  Feeling.md v3.0          = WHAT PFC sees (umbrella, all body-feedback reception, 7 types)
   Body-Knowing.md           = WHEN PFC "knows" (compiled recognition — specific function)
   (THIS FILE)
   Logic-Feeling.md v4.0    = WHY Body-Knowing gets labeled "logic" / "feeling" (shareability)
@@ -27,7 +27,7 @@ dependencies:
   - Logic-Feeling.md v4.0 — observer labels (§1 Body-Knowing definition, §2 labels)
   - Somatic-Articulation-Loop.md — formation mechanism (§1 3 States, §2 7 Stages)
   - Inter-Body-Mechanism.md v2.0 — Compiled/Fresh SOURCE-OF-TRUTH (§3)
-  - PFC-Function.md v1.2 — OBSERVE + HOLD (§1-§2)
+  - PFC-Function.md v1.2 — RECEIVE + HOLD (§1-§2)
   - Ask-AI.md v3.1 — Dual Check (§6.1)
   - Gap-Direction.md v2.0 — direction of vague signals
   - Body-Feedback-Label.md v2.1 — vocabulary reference (§8 Compiled/Fresh)
@@ -90,7 +90,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      (Logic-Feeling.md §2: "Feeling = label when Body-Knowing is NON-SHAREABLE")
 
   ② Body-feedback system umbrella — 7 types of feeling
-     (Feeling.md §1.1: "Feeling = WHAT PFC SEES when observing body-chunk interaction")
+     (Feeling.md §1.1: "Feeling = WHAT PFC SEES when receiving body-chunk interaction")
 
   ③ Emotional experience in everyday language
      ("I feel sad" = emotion narrow, just 1 of 7 feeling types)
@@ -252,7 +252,7 @@ WHY DOES BODY-KNOWING EXIST? (Inter-Body-Mechanism.md §1)
 
   ③ PFC-ENCODABLE (experience)
 
-     Person "just knows." Body-Knowing crosses PFC observation threshold.
+     Person "just knows." Body-Knowing crosses PFC reception threshold.
      PFC CAN detect the result — though not always able to articulate HOW or WHY.
      CAN be articulated (if domain = shareable); articulation NOT required.
 
@@ -277,7 +277,7 @@ WHY DOES BODY-KNOWING EXIST? (Inter-Body-Mechanism.md §1)
   Components:
     compiled_chunks   = Hebbian-reinforced patterns (domain-specific)
     signal_match      = current input MATCHES compiled pattern
-    PFC_access        = signal strong enough to cross PFC observation threshold
+    PFC_access        = signal strong enough to cross PFC reception threshold
 
   ALL 3 PRESENT: Body-Knowing fires.
   MISSING ANY 1: Body-Knowing does NOT fire.
@@ -696,7 +696,7 @@ EXAMPLES — BODY-KNOWING ACROSS MANY DOMAINS:
   ├──────────────────────────┼──────────────────────────────┼───────────────────────────┼──────────────────┤
   │ Feel-Consciousification  │ Consciousification           │ COMPILED → PFC boundary   │ POTENTIAL         │
   │                          │ Body truth crosses PFC       │ Compiled body truth       │ Threshold moment: │
-  │                          │ observation threshold        │ rising to awareness       │ "something there" │
+  │                          │ reception threshold          │ rising to awareness       │ "something there" │
   ├──────────────────────────┼──────────────────────────────┼───────────────────────────┼──────────────────┤
   │ Feel-Observation +       │ Observation + Location       │ MIXED                     │ KEY ZONE          │
   │ Feel-Location            │ PFC attends + locates source │ Compiled = expert fast    │ Compiled = YES ✓  │
@@ -2036,7 +2036,7 @@ HYPOTHESES — NOT YET VERIFIED:
   MECHANISM:
     → Inter-Body-Mechanism.md v2.0: Compiled/Fresh SOURCE-OF-TRUTH (§3),
       Compilable Architecture (§1), PFC=Lawyer (§7), 3-cost (§4)
-    → PFC-Function.md v1.2: OBSERVE (§1) + HOLD (§2)
+    → PFC-Function.md v1.2: RECEIVE (§1) + HOLD (§2)
 
   QUALITY + VERIFICATION:
     → Ask-AI.md v3.1: Dual Check (§6.1)

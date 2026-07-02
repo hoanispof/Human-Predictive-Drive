@@ -58,7 +58,7 @@ Component analysis alone cannot answer "why did mini dissonance emerge here?" On
 > 1. Sensory input enters via exteroception / proprioception / interoception
 > 2. Unconscious processes check against compiled schemas + Imagine-Final expectations (parallel)
 > 3. Body-base fires signal (reward / dissonance / neutral) based on coherence
-> 4. PFC observes the integrated signal (when threshold exceeded) — feeling emerges
+> 4. PFC receives the integrated signal (when threshold exceeded) — feeling emerges
 > 5. Schema updates (compile / modify / reconsolidate) via sleep + active practice
 > 6. Action generated (auto via compiled schemas OR deliberate via PFC + Anchor-Schema)
 > 7. Action affects domain → feedback → cycle continues
@@ -137,7 +137,7 @@ This file formalizes this sequence into a rigorous model with timing, substrate,
 │                             ↓                                      │
 │  ┌─────────────────────────────────────────────────────────────┐   │
 │  │ Step 5: PFC GATEWAY (5% attention when signal > threshold)  │   │
-│  │   - PFC observes integrated signal                           │   │
+│  │   - PFC receives integrated signal                           │   │
 │  │     (Feel-Consciousification — Feel-Observation)             │   │
 │  │   - Labels via chunks (Feel-Labeling — Feel-Explanation)     │   │
 │  │     → feeling emerges                                        │   │
@@ -249,7 +249,7 @@ Trace a simple event through the loop:
 | 2 Unconscious processing | Unconscious (parallel, 95%) | None directly |
 | 3 Upstream integration | Subcortical (insula, ACC) | None |
 | 4 Signal generation | Body-base | None |
-| 5 PFC gateway | **PFC (5%)** | Observe, label, simulate, choose |
+| 5 PFC gateway | **PFC (5%)** | Receive, label, simulate, choose |
 | 6 Schema update | Unconscious (compile) + PFC (create) | Create new chunks deliberately |
 | 7 Action | Compiled (80%) + PFC directed (20%) | Direct novel action |
 | 8 Domain effect | Body motor | Monitor |
@@ -1309,7 +1309,7 @@ Each precondition validated by multiple drill cases:
 
 **Alternative F — "Reward is cognitive appraisal" (appraisal theory)**:
 - Claim: Reward = PFC cognitive evaluation of stimulus
-- H10 position: **Rejected as placing PFC first.** Framework firmly: Unconscious first, PFC observer
+- H10 position: **Rejected as placing PFC first.** Framework firmly: Unconscious first, PFC receiver
 - Evidence: Body reactions precede conscious labeling (Feel-RawSignals — Feel-Integration vs Feel-Consciousification — Feel-Explanation split in P1 §5)
 - H10 uses: Body-feedback vs feeling distinction (architecture prevents PFC-first view)
 
@@ -1418,8 +1418,8 @@ Per drill convention: 🟢 research-backed / 🟡 framework consistent synthesis
 ### §10.3 — 🟡 MODERATE claims (framework consistent, testable)
 
 **Architectural claims**:
-- Body-feedback vs feeling as 2-layer (raw vs PFC observation) — consistent with research, framework synthesis
-- 7-layer observation model (Raw → Explain) — framework construction from Feeling.md
+- Body-feedback vs feeling as 2-layer (raw vs PFC reception) — consistent with research, framework synthesis
+- 7-layer reception model (Raw → Explain) — framework construction from Feeling.md
 - PFC 5% vs Unconscious 95% — estimate, consistent with unconscious processing research (Dijksterhuis 2006)
 - Unconscious only measures body-base; PFC is the only one that checks domain — framework position derived from somatic marker + dual process theory
 
@@ -1726,11 +1726,11 @@ H10 mechanism layer = Body-Feedback.md §6 + Body-Feedback-Mechanism.md §7.
 
 > **Cross-reference for body-feedback substrate**:
 >
-> This folder focuses on the Feeling layer (PFC observation + chunk-based labeling, Feel-Consciousification — Feel-Explanation in the 7-layer model).
+> This folder focuses on the Feeling layer (PFC reception + chunk-based labeling, Feel-Consciousification — Feel-Explanation in the 7-layer model).
 >
 > For body-feedback substrate (raw signal, Feel-RawSignals — Feel-Integration, pre-verbal), see `Body-Feedback/01-Foundation.md §5`.
 >
-> Body-feedback and Feeling form an integrated gradient: raw signal → upstream integration → PFC observation → verbal labeling → narrative explanation. Both are needed for the full affective architecture.
+> Body-feedback and Feeling form an integrated gradient: raw signal → upstream integration → PFC reception → verbal labeling → narrative explanation. Both are needed for the full affective architecture.
 
 **Rationale**: Completes the architecture picture. Feeling folder is the top half; Body-Feedback is the bottom half.
 
@@ -1792,7 +1792,7 @@ H10 mechanism layer = Body-Feedback.md §6 + Body-Feedback-Mechanism.md §7.
 
 **Terms introduced/refined**:
 - **Body-feedback layer** (vs Feeling layer) — raw signal, pre-verbal, Feel-RawSignals — Feel-Integration
-- **Feeling layer** — PFC observation via chunks, Feel-Consciousification — Feel-Explanation
+- **Feeling layer** — PFC reception via chunks, Feel-Consciousification — Feel-Explanation
 - **H10 preconditions** (5 of them)
 - **Chunk association tag** (opioid/cortisol/other)
 - **Schema maintenance cost** (portfolio dynamics)

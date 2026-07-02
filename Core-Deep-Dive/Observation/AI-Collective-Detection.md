@@ -339,7 +339,7 @@ source_file: "Core-Deep-Dive/Observation/AI-Collective-Detection.md"
       → Client is overwhelmed but DOESN'T KNOW WHY ("exhausted without a clear source")
       → Body markers: sleep disrupted, diffuse anxiety, "tired without knowing why"
       → INTERVENTION:
-        RECOGNIZE the compound load (naming it — helps PFC observe the pattern)
+        RECOGNIZE the compound load (naming it — helps PFC receive the pattern)
         → PRIORITIZE (cannot resolve 6 "must-do" items simultaneously — must choose)
         → POSSIBLY REJECT some (recognize that some "must-do" items are installed,
           NOT genuine)

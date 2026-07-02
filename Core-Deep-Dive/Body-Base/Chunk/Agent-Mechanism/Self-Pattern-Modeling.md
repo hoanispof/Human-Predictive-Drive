@@ -599,14 +599,14 @@ Self-Pattern-Modeling is the mechanism by which you use yourself as a template t
   │      ↓                                                           │
   │ [4] SIMULATION — fire template ← ⭐ Compiled CORE               │
   │      ↓                                                           │
-  │ [5] OUTPUT READ — PFC observe ← BRIDGE (Compiled → Fresh handoff)│
+  │ [5] OUTPUT READ — PFC receive ← BRIDGE (Compiled → Fresh handoff)│
   │      ↓                                                           │
   │ [6] ATTRIBUTION — assign + chain ← ⭐ Fresh CORE                │
   └──────────────────────────────────────────────────────────────────┘
 
   Steps 1-3 = PREPARATION (shared by both functions)
   Step 4 = Compiled CORE (body simulates — compiled)
-  Step 5 = BRIDGE (PFC observes → feeds both Compiled and Fresh)
+  Step 5 = BRIDGE (PFC receives → feeds both Compiled and Fresh)
   Step 6 = Fresh CORE (attribute + chain draft — fresh)
 
   STEP 1 — RETRIEVE:
@@ -622,10 +622,10 @@ Self-Pattern-Modeling is the mechanism by which you use yourself as a template t
     🟢 Dimberg 2000: facial EMG, 300ms
 
   STEP 5 — OUTPUT READ (BRIDGE):
-    PFC observes simulation output. ⚠️ BIRD & COOK BOTTLENECK:
+    PFC receives simulation output. ⚠️ BIRD & COOK BOTTLENECK:
     → Step 5 REQUIRES self-awareness → alexithymia = FAILS here
     → Compiled still fires but PFC cannot READ the output
-    → Feeling.md v3.0 §3: "PFC observation of body-chunk interaction"
+    → Feeling.md v3.0 §3: "PFC reception of body-chunk interaction"
     = Step 5 IS the Feeling mechanism applied to Self-Pattern-Modeling context
 
   STEP 6 — ATTRIBUTION (Fresh CORE + PFC=Lawyer):
@@ -1468,7 +1468,7 @@ Self-Pattern-Modeling is the mechanism by which you use yourself as a template t
     → Entity-Access.md v1.0 — mPFC gradient, 3-Factor Model, spectrum
     → Inter-Body-Mechanism.md v1.0 — Compiled/Fresh axis, 3-cost, Compilable Architecture
     → Chunk.md v2.0 — chunk substrate, compilation
-    → Feeling.md v3.0 — PFC observation interface (Step 5 = Feeling applied)
+    → Feeling.md v3.0 — PFC reception interface (Step 5 = Feeling applied)
     → Logic-Feeling.md v4.0 — Body-Knowing + observer labels, Compiled/Fresh, modality bias
     → Valence-Propagation.md v2.0 — per-entity valence, chain propagation
     → Body-Coupling.md v2.0 — coupling mechanism (builds ON Self-Pattern-Modeling)

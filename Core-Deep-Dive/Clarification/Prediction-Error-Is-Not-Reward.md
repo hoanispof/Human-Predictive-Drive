@@ -377,7 +377,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Step 4: Body-base evaluation (coherence + Body-Feedback Preconditions) ← Framework adds
     Step 5: Body-base VOTE (reward/dissonance) — EVALUATION
     Step 6: Opioid release (if reward) — ACTUAL REWARD
-    Step 7: PFC observes (feeling) — CONSCIOUS EXPERIENCE
+    Step 7: PFC receives (feeling) — CONSCIOUS EXPERIENCE
 
     → PE = Steps 1-2 (Schultz discovered — correct, kept as-is)
     → REWARD = Steps 5-6 (framework adds — the part where humans are more complex)

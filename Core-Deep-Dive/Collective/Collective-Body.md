@@ -278,7 +278,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     LEVEL 1 (Individual):
       Unconscious (95%): compile + fire + evaluate SHORT
-      PFC (5%): direct + hold + observe (but DOES NOT compile)
+      PFC (5%): direct + hold + receive (but DOES NOT compile)
       Trust: amplifier for external compile rate (Trust Compile)
       Tools: extend PFC capacity (paper, calculator)
 
@@ -801,7 +801,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ③ DESIGNER LAYER (system HAS, brain DOES NOT):
      System: designer CAN SEE tension from outside → adjust structure
      Brain: CANNOT easily see its own Dual-Pull from outside
-       (= PFC observe limit — 01-Foundation §5)
+       (= PFC reception limit — 01-Foundation §5)
      → = Why tools ARE USEFUL: externalize what the brain can't see directly
 
 
@@ -858,7 +858,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   §4.2 — INVALID MAPPING (~30%):
 
     ⑥ PFC: ❌ NO UNIFIED PFC
-       → Individual: 1 PFC directs + holds + observes
+       → Individual: 1 PFC directs + holds + receives
        → Collective: NO 1 entity directs the whole
        → = Collective action problems (tragedy of the commons)
        → = Why climate change: "knows" the danger but cannot "act" (no unified PFC)
@@ -911,11 +911,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Analogy USEFUL for description but LACKING unified PFC = FUNDAMENTAL difference.
 
     Individual body-base: 1 unified system
-      → Body evaluates → PFC observes → Schema updates → Action
+      → Body evaluates → PFC receives → Schema updates → Action
       → = COHERENT response (though imperfect)
 
     Collective body-base: DISTRIBUTED system
-      → Many individuals evaluate → NO unified observer → Competing schemas
+      → Many individuals evaluate → NO unified receiver → Competing schemas
       → = EMERGENT response (noisy, slow, polarized)
 
     → USE analogy for ~70% mapping: body-input, habituation, compile, competing patterns

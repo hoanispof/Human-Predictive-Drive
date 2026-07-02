@@ -67,7 +67,7 @@ dependencies:
   - Autonomy.md — software/development, self-as-agent meta-chunk
   - Cortisol-Baseline.md v2.0 — amplifier, holding signal, inertia
   - Threat.md — 3 source mechanism, Internal-Predict = anxiety
-  - Feeling.md v3.0 — PFC observation, 7-layer fidelity, Compiled/Fresh
+  - Feeling.md v3.0 — PFC reception, 7-layer fidelity, Compiled/Fresh
   - Anchor-Schema.md — sync point, Trust binding
   - PFC-Hold-Dimensions.md — ~4±1 dimensions, comparison requires hold
   - Domain/Drill-Emergent-Pattern.md — §5 "Giving" pattern, 4 reward sources, 3 violation tests
@@ -513,7 +513,7 @@ dependencies:
 
   WHEN Body-Feedback-Precondition IS MET:
     → Body-base opioid release → REAL reward
-    → PFC observes: "pleasant" → downstream components CAN fire
+    → PFC receives: "pleasant" → downstream components CAN fire
 
   WHEN Body-Feedback-Precondition FAILS:
     → Body-base "meh" → no opioid → PFC may KNOW the gift has value

@@ -36,7 +36,7 @@ language: English
 1. "feedback signal" — feedback, not creating new information. Body = source, feeling = messenger.
 2. "has been INTEGRATED" — unified, not a list of sensations. Multi-source → single stream.
 3. "state of body systems" — multi-source (many systems firing simultaneously).
-4. "VERBALIZABLE at the PFC level" — PFC must be able to interact with it (observe, locate, label,
+4. "VERBALIZABLE at the PFC level" — PFC must be able to interact with it (receive, locate, label,
    explain — imperfectly).
 
 **Formula**: `Body fire + Integrated + PFC-noticeable = FEELING`
@@ -113,7 +113,7 @@ INTEGRATION (insula + ACC + VMPFC)
   ↓
 FEELING (Feel-Consciousification: becomes noticeable)
   ↓
-PFC OBSERVE (Feel-Observation – Feel-Explanation: locate, label, explain)
+PFC RECEIVE (Feel-Observation – Feel-Explanation: locate, label, explain)
   ↓
 DRIVE (motivation direction)
   ↓
@@ -138,7 +138,7 @@ body–environment aligned, feeling signals reliable, PFC role minimal.
 4. Social complexity explosion (Dunbar 150 → 1,000s weak ties)
 5. Information overload (distant threats fire same circuits)
 
-**Modern PFC role EXPANDED**: Observer → Interpreter → Calibrator → Mismatch detector →
+**Modern PFC role EXPANDED**: Receiver → Interpreter → Calibrator → Mismatch detector →
 Meta-feeling.
 
 **Framework positioning**: The feeling framework = **INTERPRETER BRIDGE** between ancestral body +
@@ -325,7 +325,7 @@ The same feeling can belong to multiple channels (§1–10), and §11 regroups b
 #### §1.3.1 — §1 Temporal Order Invariant — **CORE for Theme A**
 
 **The core invariant**:
-> "Body computes → Feeling emerges → PFC observes. This order is **NEVER REVERSED**. PFC does NOT
+> "Body computes → Feeling emerges → PFC receives. This order is **NEVER REVERSED**. PFC does NOT
 > generate feeling. PFC cannot create body state."
 
 **4 evidences**:
@@ -343,9 +343,9 @@ The same feeling can belong to multiple channels (§1–10), and §11 regroups b
 - B. PFC can INHIBIT feeling expression, not generate the source.
 - C. Awareness matters: Body computes whether PFC notices or not.
 
-→ **CRITICAL for Theme A**: Framework claim is clear — Feeling is fully body-based, PFC OBSERVES.
+→ **CRITICAL for Theme A**: Framework claim is clear — Feeling is fully body-based, PFC RECEIVES.
 Answer to user's meta-question: NO, we are NOT forcing feeling into the body-base — the
-framework's stance is that feeling GENUINELY belongs to the body-base, PFC observes +
+framework's stance is that feeling GENUINELY belongs to the body-base, PFC receives +
 (indirectly) triggers via schema.
 
 **Philosophical note**:
@@ -583,7 +583,7 @@ The question is: is "feeling of right/wrong" the same mechanism, or distinct?
 **Status**: Phase 1 OUTLINE, content not yet filled. But the outline already reveals critical
 architectural insights.
 
-**Core concept**: Self-Pattern Match = **intrapersonal mechanism** — PFC observes own internal
+**Core concept**: Self-Pattern Match = **intrapersonal mechanism** — PFC receives own internal
 state by activating its own learned pattern chunks.
 
 **Key distinction from Resonance** (sibling):
@@ -595,7 +595,7 @@ state by activating its own learned pattern chunks.
 > "Self-Pattern Match may be the **core mechanism of Feeling itself**, not a separate channel."
 
 **Core definition**:
-> "Intrapersonal mechanism by which PFC observes own internal state (body + unconscious
+> "Intrapersonal mechanism by which PFC receives own internal state (body + unconscious
 > processing) through activation of self-built pattern chunks."
 
 **What it's NOT**:
@@ -610,7 +610,7 @@ state by activating its own learned pattern chunks.
    cross-channel scaffolding
 3. Match operation: fuzzy pattern matching, **state-gated** (current state modulates activation),
    **near-miss triggers strongest** (predictive coding amplifies dissonance), exact match weakest
-4. PFC observation: read access to integrated outputs (Feel-Consciousification – Feel-Observation
+4. PFC reception: read access to integrated outputs (Feel-Consciousification – Feel-Observation
    "felt sense")
 5. Labeling: chunks provide labels; missing chunks → diffuse feeling ("generally happy without
    knowing why"); rich chunks → specific verbalization
@@ -628,7 +628,7 @@ state by activating its own learned pattern chunks.
 **Alexithymia** = arrested development of Self-Pattern Match chunks (Bird & Cook 2013 decisive).
 
 → **CRITICAL for Theme A**: This file proposes reframing Feeling = Self-Pattern Match output.
-If verified, the PFC observation mechanism is more specific than "body-first" — PFC observes
+If verified, the PFC reception mechanism is more specific than "body-first" — PFC receives
 **via activated chunks**, not raw body directly.
 
 ---
@@ -663,7 +663,7 @@ fit/mismatch.
 3. Own chunks activate as if simulating the observed situation
 4. Compare inferred-other-state with current self-state
 5. Output fit-judgment: match positive / match negative / mismatch / anti-match / inferred distress
-6. PFC observes fit-judgment output as feeling
+6. PFC receives fit-judgment output as feeling
 
 **4 KEY CASES** (§4) — **CRITICAL for Theme E**:
 - **Case 1: Aligned positive** — "I'm happy + see everyone happy → even happier" (matching chunks
@@ -716,7 +716,7 @@ structure + Math formula analogy.
 **Original** (Feeling.md v1.0): "body-base feedback system"
 
 **Refined**:
-> "Feeling = **everything PFC can observe from the body-base or the unconscious**, whether
+> "Feeling = **everything PFC can receive from the body-base or the unconscious**, whether
 > verbalizable or not yet clearly formed. Called 'feeling' collectively because not everything
 > can be verbalized. Detection capability depends on the development of the PFC."
 
@@ -730,7 +730,7 @@ structure + Math formula analogy.
 > - Felt sense (Gendlin's pre-verbal body wisdom)"
 
 **Unified mechanism**:
-> "ALL are PFC observing **unconscious processing**, whether:
+> "ALL are PFC receiving **unconscious processing**, whether:
 > - Body (interoception)
 > - Schemas (pattern matching)
 > - Predictions (interoceptive + exteroceptive forecasts)
@@ -740,17 +740,17 @@ structure + Math formula analogy.
 > - Integration (diffuse multi-source states)"
 
 → **ANSWER to user's Theme A meta-question**: Framework IS evolving beyond "pure body-base" to
-"PFC observing unconscious processing" — which includes body-base BUT also memory retrieval,
+"PFC receiving unconscious processing" — which includes body-base BUT also memory retrieval,
 schema activation, predictive processing, simulator outputs, integration. This directly addresses
 "are we forcing feeling into the body-base?"
 
-#### §1.7.2 — PFC as Observer, Not Executor (§2) — **CORE for Theme A**
+#### §1.7.2 — PFC as Receiver, Not Executor (§2) — **CORE for Theme A**
 
 **Role**:
 > "PFC has READ ACCESS to integrated upstream signals. Does NOT execute body processes, schemas,
 > predictions, or simulations. Those run elsewhere."
 
-**What PFC does**: Observe, Label (via chunks), Integrate, Plan, Report.
+**What PFC does**: Receive, Label (via chunks), Integrate, Plan, Report.
 
 **What PFC doesn't do**: Execute interoception (body does), Run schemas (cortex does), Generate
 feelings, Directly access raw body.
@@ -782,7 +782,7 @@ RQ8 gap — PP integration is moving forward.
 
 - **Channels (input)**: Body interoceptive, emotional, social (Resonance), cognitive/metacognitive,
   predictive, schema activation, memory retrieval, imaginative (Imagine-Final outputs)
-- **PFC + Chunks (processing)**: PFC as observer, Chunk library as interpretation tool, math
+- **PFC + Chunks (processing)**: PFC as receiver, Chunk library as interpretation tool, math
   formula analogy
 - **Response Channel (output)**: Action templates, behavioral routines, verbal patterns, social
   actions
@@ -962,20 +962,20 @@ Framework's expanded definition tested against 7 edge cases:
 
 | Edge case | Is feeling? | Reason |
 |---|---|---|
-| Reflexes | **NO** | No PFC observation (spinal cord) |
-| Subliminal perception | **NO** (but downstream YES) | No PFC observation in the moment |
-| Dreams | **YES** | PFC partially active observing internal content |
+| Reflexes | **NO** | No PFC reception (spinal cord) |
+| Subliminal perception | **NO** (but downstream YES) | No PFC reception in the moment |
+| Dreams | **YES** | PFC partially active receiving internal content |
 | Anesthesia | **NO** | PFC offline |
-| **Gut feelings** | **YES (clearest case)** | PFC observes predictive signals |
+| **Gut feelings** | **YES (clearest case)** | PFC receives predictive signals |
 | Flow state | **YES (altered)** | Chunks reorganized, not absent |
 | Psychedelic | **YES (altered)** | Chunks dramatically reorganized |
 
 **Insight**:
-> "Expanded definition handles most edge cases cleanly. **Hard boundary at 'PFC observation'** —
-> wherever PFC is offline or not observing, no feeling. Wherever PFC observes (any source — body,
+> "Expanded definition handles most edge cases cleanly. **Hard boundary at 'PFC reception'** —
+> wherever PFC is offline or not receiving, no feeling. Wherever PFC receives (any source — body,
 > predictive, simulator, memory, meta), feeling."
 
-→ **CRITICAL for Theme A**: The boundary is NOT "body-base" — it is "PFC observation of
+→ **CRITICAL for Theme A**: The boundary is NOT "body-base" — it is "PFC reception of
 integrated unconscious processing." Framework has moved toward this stance, but Tier 1 files
 (Feeling.md etc.) haven't fully updated yet.
 
@@ -1197,7 +1197,7 @@ mild emptiness.
 1. Detect another organism + their state (visual, auditory, somatic)
 2. Mirror fires — creates a weak copy (~10–30% intensity, Singer 2004)
 3. Copy feeds into OWN channels → own dissonance/reward (weak)
-4. PFC observes (if signal strong enough)
+4. PFC receives (if signal strong enough)
 5. Drive or cut input
 
 **Critical point**:
@@ -1524,8 +1524,8 @@ decisions. Core framework loop.
 STILL has Imagine-Final (animals DO)."
 
 → **CRITICAL for Theme A**: Framework's position is that **unconscious generates Imagine-Final,
-PFC only observes/labels/chooses.** Matches Feel-Development §1 expanded definition ("Feeling =
-PFC observing unconscious processing"). Aligns with Theme A resolution.
+PFC only receives/labels/chooses.** Matches Feel-Development §1 expanded definition ("Feeling =
+PFC receiving unconscious processing"). Aligns with Theme A resolution.
 
 #### §1.12.2 — Trigger Mechanism — 4 PFC scan outcomes
 
@@ -1671,7 +1671,7 @@ Imagine-Final CANNOT explain 4 cases:
 - **Top-down** (PFC → unconscious): Imagine-Final, Logic
 - **Bottom-up** (unconscious → PFC): Anchor-Schema, Feeling, compiled schemas
 - Both operate simultaneously, feedback loops
-- **NOT pure top-down PFC observation** — unconscious has its own requirements
+- **NOT pure top-down PFC reception** — unconscious has its own requirements
 
 #### §1.13.2 — §1 Orchestra metaphor + 6-step flow
 
@@ -1900,7 +1900,7 @@ The notes above PARTIALLY answer the user's questions. Here is a preliminary map
 Question: Are we forcing Feeling into the body-base?
 
 **Framework's existing answer**: NO. Framework's stance is that feeling GENUINELY belongs to
-the body-base, PFC observes.
+the body-base, PFC receives.
 
 Evidence:
 - Temporal order invariant: Body → Feeling → PFC, NEVER reversed (Feeling-Accuracy §1)
@@ -1914,7 +1914,7 @@ Evidence:
    Is that still "body-base"?
 2. Cognitive/prediction feelings (Einstein, code bug) — how exactly does pattern matching in
    PFC + ACC become "body feeling"?
-3. "PFC observes through a vague imagine-like layer" — user's phrase. How does Imagine-Final
+3. "PFC receives through a vague imagine-like layer" — user's phrase. How does Imagine-Final
    preview feeling work mechanistically?
 4. "PFC requests unconscious to continue computing or hold to chain" — user's hypothesis.
    This is NEW and not directly addressed in files.
@@ -2015,11 +2015,11 @@ critical updates for the theme analysis.
 User's question: "Are we forcing feeling into the body-base?"
 
 **Framework's answer (from Feel-Development.md §1)**:
-> "Feeling = everything PFC can observe **from the body-base OR the unconscious.** Body-base alone
+> "Feeling = everything PFC can receive **from the body-base OR the unconscious.** Body-base alone
 > is TOO NARROW."
 
 Framework has explicitly acknowledged that pure body-base is too narrow. The definition is
-evolving toward **"PFC observing unconscious processing"** — which includes body-base BUT ALSO
+evolving toward **"PFC receiving unconscious processing"** — which includes body-base BUT ALSO
 memory retrieval, schema activation, predictive processing, simulator outputs, integration.
 
 → **NOT forcing.** Framework is SELF-EXPANDING beyond body-base. Theme A will document this
@@ -2071,12 +2071,12 @@ does helping feel joyful vs. uncomfortable":
 ### §2.7.5 — Theme A: Boundary test already exists via §12 edge cases
 
 Framework tests 7 edge cases:
-- Feelings require PFC observation (hard boundary)
+- Feelings require PFC reception (hard boundary)
 - NOT required: being body-base specifically
-- Dreams YES (PFC observes internal imagery), Anesthesia NO (PFC offline), Gut feelings
+- Dreams YES (PFC receives internal imagery), Anesthesia NO (PFC offline), Gut feelings
   STRONGEST YES
 
-→ **Theme A has a concrete boundary test**: Feeling = PFC observation interface, not body-base
+→ **Theme A has a concrete boundary test**: Feeling = PFC reception interface, not body-base
 specifically.
 
 ### §2.7.6 — Theme A: Predictive Processing alignment is forming
@@ -2185,7 +2185,7 @@ status:
 
 | # | Question | Theme | Status | Notes |
 |---|---|---|---|---|
-| RQ1 | Schema-triggered feelings — pure body-base or expanded PFC role? | A | **PARTIAL RESOLVED** | Feel-Development §1: framework has expanded to "PFC observing unconscious processing" — includes schemas as source. Not pure body-base. |
+| RQ1 | Schema-triggered feelings — pure body-base or expanded PFC role? | A | **PARTIAL RESOLVED** | Feel-Development §1: framework has expanded to "PFC receiving unconscious processing" — includes schemas as source. Not pure body-base. |
 | RQ2 | "PFC requests unconscious to continue computing" — top-down query mechanism? | A | **STILL OPEN** | Framework doesn't explicitly address top-down PFC query mechanism. Closest: "attention allocation" (Feeling.md §2.5 Feel-Observation). Theme A will explore predictive processing / active inference as potential answer. |
 | RQ3 | Violation-of-expectation in infants (Spelke/Baillargeon) | D | STILL OPEN — needs external research verification | Framework hasn't cited VoE paradigm directly. Phase P-6 Theme D will verify. |
 | RQ4 | Einstein case: imagine-final OR cognitive pattern mismatch? | D | **PARTIAL RESOLVED** | E117 curiosity drive mechanism specified. Still needs: how does simulation generate wrongness specifically. |
@@ -2213,7 +2213,7 @@ status:
 | RQ16 | Empathy-Mirror.md (2026-04-06) uses "mirror" as mechanism. By-Product-Gap-Resonance.md (2026-04-14, outline) replaces with "Resonance." Both files coexist. Does Empathy-Mirror need rename/merge, or is "mirror" = "Resonance" old name with compatible mechanism? | E | MEDIUM (for Theme E file) |
 | RQ17 | §6.5 "empathy-mirror = natural resource distribution" — is this universal (all humans have it) or does it require scaffolding like E26–E27 prosocial behavior? Framework seems to say both: evolutionary universal mechanism, but application requires learned chunks. How to reconcile? | E | HIGH |
 | RQ18 | §8.5 Mirror Reward Override — framework claims body-base satisfied vs. depleted is the boundary. But "body-base satisfied" is subjective — how to measure? A partner may think she is fine while the body is stressed. This is a different level of self-awareness. | E | MEDIUM |
-| RQ19 | Logic-Feeling.md §5 claims all entities have parallel Logic + Feeling. Feel-Development.md §1 expands feeling to "PFC observing unconscious processing." Is Logic just a SUBSET of this (PFC observing its own rule-application)? Or genuinely a separate track? | A, F | HIGH |
+| RQ19 | Logic-Feeling.md §5 claims all entities have parallel Logic + Feeling. Feel-Development.md §1 expands feeling to "PFC receiving unconscious processing." Is Logic just a SUBSET of this (PFC receiving its own rule-application)? Or genuinely a separate track? | A, F | HIGH |
 | RQ20 | Spelke's Object/Agent systems (innate at 6m) vs. framework's Agent Modeling learned at 14–24m. Tension: framework says "agent modeling learned through interaction," but Spelke shows 6m babies ALREADY apply different rules to agents. How to reconcile? | D, E | MEDIUM |
 | RQ21 | Mirror-Neuron-Analysis rejects hardware mirror but accepts innate VTC (animate/inanimate detection). So hardware DOES distinguish agent/object but does NOT do mirroring. Mirror is learned ON TOP OF hardware filter. Does this mean framework has a 2-stage view: innate filter + learned mirror? | E | MEDIUM |
 
@@ -2236,7 +2236,7 @@ status:
 
 ## Key shifts in understanding after Phase P-3a
 
-1. **Framework has ALREADY evolved** beyond Tier 1 "body-base" definition toward "PFC observation
+1. **Framework has ALREADY evolved** beyond Tier 1 "body-base" definition toward "PFC reception
    of unconscious processing" (expanded definition in Feel-Development outline). Theme A will
    document this evolution.
 2. **"Mirror" concept officially REJECTED** in favor of **Resonance** (learning-based simulator).

@@ -1369,7 +1369,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟡 SELF-PATTERN-MODELING (Self-Pattern-Modeling.md v3.0):
 
-  Self-Pattern-Modeling = mechanism PFC uses to observe own internal state
+  Self-Pattern-Modeling = mechanism PFC uses to receive own internal state
     → Via activation of SELF-BUILT pattern chunks
     → Compiled (feeling): body fires weak version of state → empathy
     → Fresh (logic): PFC chains predict behavior → deliberate

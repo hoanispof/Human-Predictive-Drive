@@ -32,7 +32,7 @@ language: English
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-> **The framework says "chunks compile", "PFC observes", "body-feedback fires."**
+> **The framework says "chunks compile", "PFC receives", "body-feedback fires."**
 > But WHERE in the body does this happen? WHICH brain region? Which pathway?
 >
 > This file: the PHYSICAL map — mapping framework concepts onto physical neural systems.
@@ -42,7 +42,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Mainstream researchers can look at each line and verify/challenge.
 >
 > **4 zones** (by PFC accessibility — gradient, not binary):
->   A. PFC — observe, hold, imagine, orchestrate
+>   A. PFC — receive, hold, imagine, orchestrate
 >   B. Cortical Modality Areas — specialized processing, PFC can bias
 >   C. Subcortical Structures — deep brain, PFC reach limited
 >   D. Peripheral Neural Systems — outside brain, PFC has near-zero reach
@@ -88,7 +88,7 @@ THE PROBLEM WITH "UNCONSCIOUS":
 
   THIS FILE:
     → Specifically enumerates each part of the neural system
-    → Maps framework concepts (chunks, PFC observe, body-feedback) onto physical areas
+    → Maps framework concepts (chunks, PFC receive, body-feedback) onto physical areas
     → Honest about PFC reach limits
     → Allows mainstream researchers to verify each claim
 ```
@@ -195,7 +195,7 @@ THE PROBLEM WITH "UNCONSCIOUS":
 
   PFC LIMITATIONS:
     → Must RECEIVE feeling from body — cannot feel directly
-    → Does not compile chunks automatically — B+C compile, PFC observes
+    → Does not compile chunks automatically — B+C compile, PFC receives
     → Cannot override body-base when signal is too strong
     → Processing SLOWER than subcortical pathways (~200ms vs ~12ms amygdala)
     → OFFLINE when: heavily intoxicated (GABA), deep sleep (NREM),
@@ -523,7 +523,7 @@ THE PROBLEM WITH "UNCONSCIOUS":
     → PFC is ALWAYS the last to know
     → Body (D) + subcortical (C) + cortical (B) all process BEFORE PFC
     → PFC "decides" = often confirming what B+C already started
-    → = Framework: body computes FIRST → feeling emerges → PFC observes LAST
+    → = Framework: body computes FIRST → feeling emerges → PFC receives LAST
 ```
 
 ---
@@ -707,10 +707,10 @@ THE PROBLEM WITH "UNCONSCIOUS":
       of an architecture already parallel in everyone
 
   WHY THE FRAMEWORK IS HEMISPHERE-AGNOSTIC:
-    → Framework operates at the MECHANISM level (chunk, compile, PFC observe, body-feedback)
+    → Framework operates at the MECHANISM level (chunk, compile, PFC receive, body-feedback)
     → Mechanisms HOLD regardless of hemisphere:
       Hebbian compile in left = Hebbian compile in right = same mechanism
-      PFC observe in left = PFC observe in right = same function
+      PFC receive in left = PFC receive in right = same function
       Body-feedback fire in left amygdala = fire in right = same mechanism
     → Lateralization = TOPOLOGY detail, does not change mechanism claims
     → = Framework describes the ENGINE, this section describes the ENGINE
@@ -783,9 +783,9 @@ THE PROBLEM WITH "UNCONSCIOUS":
 
   FRAMEWORK MAPPING:
 
-    "Chunk compile" → occurs in B + C + D (PFC observes, does NOT compile)
+    "Chunk compile" → occurs in B + C + D (PFC receives, does NOT compile)
     "Body-feedback" → fires in C (amygdala, brainstem) + B (insula, ACC)
-    "Feeling" → integrates in B (anterior insula) → PFC observes
+    "Feeling" → integrates in B (anterior insula) → PFC receives
     "PFC hold" → occurs in A (dlPFC working memory)
     "PFC orchestrate" → A → B (top-down bias) + A → C (vmPFC-amygdala, TRN)
     "Cortisol amplifier" → throughout A+B+C+D (HPA axis = C, effects = everywhere)
@@ -863,8 +863,8 @@ WITHIN FRAMEWORK:
   Neural-Processing-Flow.md — signal pathway detail (sensor → cortex → PFC)
   Modality-Analysis.md — modality encoding analysis
   Chunk.md v2.3 — chunk mechanism on this substrate
-  Feeling.md v2.0 — feeling = PFC observation (maps to A reading B+C)
-  Body-Feedback.md — body signals (maps to C+B generating, A observing)
+  Feeling.md v2.0 — feeling = PFC reception (maps to A reading B+C)
+  Body-Feedback.md — body signals (maps to C+B generating, A receiving)
   Cortisol-Baseline.md v2.0 — cortisol mechanism across A+B+C+D
   Core-v7.8-Draft.md — overall architecture uses this as physical map
   Agent-Mechanism.md v2.1 — agent function (maps to A+B social areas)

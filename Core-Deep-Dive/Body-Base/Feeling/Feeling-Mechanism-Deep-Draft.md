@@ -28,7 +28,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 > *Feeling.md says:* Feeling = integrated body signal, PFC-noticeable. 7 layers.
 > *This file says:* HOW body signals become felt experience. The specific path.
 >
-> Body fire → signals integrate → threshold → PFC observe → match chunks →
+> Body fire → signals integrate → threshold → PFC receive → match chunks →
 > label (or not) → body vote → action (or continued processing).
 >
 > This is the "Processing System" — the file the framework was missing:
@@ -38,7 +38,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 
 ## Table of Contents
 
-- §1 — Feeling = PFC Observation of Body-Chunk Interaction
+- §1 — Feeling = PFC Reception of Body-Chunk Interaction
 - §2 — Signal Integration: Multi-Channel → Unified Feeling
 - §3 — Feeling Operational Flow (8 Steps)
 - §4 — Reward Mechanism (Corrected, Unified, Definitive)
@@ -48,7 +48,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 
 ---
 
-## §1 — Feeling = PFC Observation of Body-Chunk Interaction
+## §1 — Feeling = PFC Reception of Body-Chunk Interaction
 
 ### §1.1 — Core Claim
 
@@ -57,7 +57,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 
   Framework claim (integrated from Chunk-Analysis + Feeling.md):
 
-  Feeling = WHAT PFC SEES when it observes body-chunk interaction.
+  Feeling = WHAT PFC SEES when it receives body-chunk interaction.
 
   There is no "feeling module" isolated in the brain.
   There is no "emotion center" separate from body processing.
@@ -66,12 +66,12 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
     → Body systems fire continuously (body-base, mirror, schema, imagine-final...)
     → Chunks activate according to probability distribution (01b §2)
     → Body integrates signals at insula + ACC + VMPFC (🟢 Craig 2009)
-    → PFC observes integrated state → THAT IS FEELING
+    → PFC receives integrated state → THAT IS FEELING
 
   Feeling = INTERFACE between body computation and PFC awareness.
   Body = processes (compiled patterns fire).
   Feeling = the result that surfaces for PFC to see.
-  PFC = observes + labels + explains (with progressively decreasing fidelity).
+  PFC = receives + labels + explains (with progressively decreasing fidelity).
 
 
 ⭐ FOUR KEY CONSEQUENCES:
@@ -79,7 +79,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
   ① Feeling DOES NOT CREATE new information
      → Body finishes computing BEFORE feeling emerges
      → Feeling ONLY reports — messenger, not source
-     → Temporal order: Body compute → Feeling emerge → PFC observe
+     → Temporal order: Body compute → Feeling emerge → PFC receive
      → 🟢 Damasio 1994, 1999: somatic markers PRECEDE conscious decision
 
   ② Feeling CANNOT BE WRONG at the raw level (Feel-RawSignals–Feel-Consciousification)
@@ -90,7 +90,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 
   ③ Feeling is NOT just "emotion (narrow)"
      → Emotion (joy/sadness/anger/fear) = 1 small subset
-     → Feeling = ALL body state changes that are PFC-observable
+     → Feeling = ALL body state changes that are PFC-accessible
      → 7 types: body-physical, emotional, social reading, cognitive,
        predictive, valence, schema-triggered (Feeling.md §1.2)
 
@@ -104,7 +104,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 ### §1.2 — Body-First Invariant (Temporal Order)
 
 ```
-🟢 ESTABLISHED — body computes FIRST, PFC observes AFTER:
+🟢 ESTABLISHED — body computes FIRST, PFC receives AFTER:
 
   EVIDENCE:
     → Damasio VMPFC patients: PFC intact, feeling broken → cannot decide
@@ -124,7 +124,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
     │  T=50ms   Integration begins (insula + ACC)                │
     │  T=100ms  Integrated state forms                           │
     │  T=150ms  Consciousification threshold (Feel-Consciousification) │
-    │  T=200ms+ PFC observation (Feel-Observation+)              │
+    │  T=200ms+ PFC reception (Feel-Observation+)                │
     │  T=300ms+ Label attempt (Feel-Labeling)                    │
     │  T=500ms+ Explanation generation (Feel-Explanation)        │
     └─────────────────────────────────────────────────────────────┘
@@ -135,7 +135,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
 
 
   ⚠️ PFC CAN INFLUENCE NEXT CYCLE:
-    → PFC observe → label → plan action → action → new body state
+    → PFC receive → label → plan action → action → new body state
     → PFC CANNOT change CURRENT feeling (already computed)
     → PFC CAN ONLY change NEXT feeling (via action → new input → new body state)
     → = Loop, not linear (Feeling.md §3: Feeling Loop)
@@ -164,7 +164,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
   MAPPING 7-LAYER → THIS FILE:
     Feel-RawSignals (Raw)                    → §2 (signal integration input)
     Feel-Integration (Integration)            → §2 (integration mechanism)
-    Feel-Consciousification (Consciousification) → §3 step 4 (PFC observation threshold)
+    Feel-Consciousification (Consciousification) → §3 step 4 (PFC reception threshold)
     Feel-Observation (Observation)            → §3 step 5-6 (chunk match + label search)
     Feel-Location (Location)                  → §3 step 5 (body topology mapping)
     Feel-Labeling (Labeling)                  → §3 step 6 + §5 (label ↔ gradient)
@@ -249,7 +249,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
     │                    INTEGRATED STATE                           │
     │                  (unified body feeling)                       │
     │                              ↓                               │
-    │                     PFC OBSERVATION                           │
+    │                     PFC RECEPTION                             │
     │                   (Feel-Observation+ begins)                  │
     │                                                              │
     └──────────────────────────────────────────────────────────────┘
@@ -258,7 +258,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
     → Insula provides RAW body state
     → ACC flags CONFLICTS + SALIENCE
     → VMPFC adds VALUE assessment
-    → Together = UNIFIED feeling that PFC can observe
+    → Together = UNIFIED feeling that PFC can receive
 
 
 🟡 FRAMEWORK NOTE — self-signal interoception:
@@ -315,7 +315,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
     → = Body vote on current state (body-first, value-laden)
 
   → RESULT: 1000s signals → 1 unified, valued, directional body state
-  → THAT IS "unified feeling" — ready for PFC observation
+  → THAT IS "unified feeling" — ready for PFC reception
 
 
 ⭐ KEY INSIGHT — why "I love you" feels UNIFIED, not a list:
@@ -360,7 +360,7 @@ confidence: "🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis"
   │  ③ SIGNAL INTEGRATION                                          │
   │     (insula + ACC + VMPFC aggregate → unified state)           │
   │                              ↓                                 │
-  │  ④ PFC OBSERVATION THRESHOLD                                   │
+  │  ④ PFC RECEPTION THRESHOLD                                     │
   │     (signal strong enough → conscious / not → background)     │
   │                              ↓                                 │
   │  ⑤ CHUNK PATTERN-MATCH                                         │
@@ -471,10 +471,10 @@ TRIGGER: Any change in body or environment.
     → Coherence: smooth ↔ conflicted (ACC peaceful ↔ flagging)
     → Specificity: localized ↔ diffuse (clear source ↔ vague)
 
-  → Unified state READY for PFC observation (step ④)
+  → Unified state READY for PFC reception (step ④)
 ```
 
-### §3.4 — Step ④ PFC Observation Threshold
+### §3.4 — Step ④ PFC Reception Threshold
 
 ```
 ⭐ TRANSITION POINT: unconscious → conscious.
@@ -506,7 +506,7 @@ TRIGGER: Any change in body or environment.
        → = Stays in ①→②→③→④ loop, may cross threshold later
 
   ⚠️ TRAINING EFFECT:
-    → Meditation: lowers observation threshold → notice more signals
+    → Meditation: lowers reception threshold → notice more signals
       🟢 Farb 2013: meditators have higher interoceptive accuracy
     → Alexithymia: raised threshold → miss most signals
       🟢 Taylor 2000: ~10% population spectrum
@@ -520,7 +520,7 @@ TRIGGER: Any change in body or environment.
 ```
 ⭐ PFC "SEES" FEELING → SEARCHES FOR MATCHING CHUNKS:
 
-  When PFC observes feeling (step ④ above threshold) → automatic:
+  When PFC receives feeling (step ④ above threshold) → automatic:
     → Current body state → spreading activation (01b §2)
     → Activation propagates to MATCHING chunks
     → Chunks that MATCH current state → fire stronger
@@ -917,7 +917,7 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
     Feel-RawSignals:         Opioid release → body state change (endogenous pleasure)
     Feel-Integration:        Integration → insula registers "positive state shift"
     Feel-Consciousification: Consciousification → "something good just happened"
-    Feel-Observation:        PFC observation → "I feel reward / satisfaction"
+    Feel-Observation:        PFC reception → "I feel reward / satisfaction"
     Feel-Location:           Location → "in chest / whole body / mental clarity"
     Feel-Labeling:           Label → "eureka" / "pleasant" / "satisfied" / "that's it"
     Feel-Explanation:        Explanation → "because I solved the problem"
@@ -961,17 +961,17 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
   EVALUATIVE REWARD (opioid-dependent):
     → Cortical processing → evaluation → opioid (if chunk matches)
     → All §4.1-§4.5 content = primarily Evaluative description
-    → PFC observes CLEARLY (PFC involved in pathway)
+    → PFC receives CLEARLY (PFC involved in pathway)
     → 5 Profiles: ①Sensory ②Coherence ③Social ④Relief ⑤Preview
 
   DIRECT-STATE REWARD (non-opioid):
     → Hardware-level: CT afferents (touch), endocannabinoid (exercise),
       oxytocin (proximity), serotonin (satiety)
-    → Below PFC level → feeling system observes as BODY-STATE SHIFT
+    → Below PFC level → feeling system receives as BODY-STATE SHIFT
     → "Comfortable" more than "pleasant" — less dramatic, more foundational
     → LESS variable across individuals = "democratic reward"
 
-  HOW FEELING SYSTEM OBSERVES EACH:
+  HOW FEELING SYSTEM RECEIVES EACH:
     Evaluative → Feeling Feel-Observation–Feel-Labeling
                  (clear, labellable, "pleasant" / "eureka")
     Direct-State → Feeling Feel-Integration–Feel-Consciousification
@@ -1142,7 +1142,7 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
     Convergence zone = WHERE feeling is "vague" structurally.
 
     Feeling gradient position ④-⑥ (intuition → pre-verbal) =
-    PFC observing a convergence zone:
+    PFC receiving a convergence zone:
       → Body knows (convergence = directionally correct)
       → PFC struggles (no label → cannot articulate)
       → = "Knowing but unable to say" = convergence zone observed but not labeled
@@ -1185,7 +1185,7 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
   ⭐ TRAINING = MOVING LEFT ON GRADIENT:
 
     Meditation:
-      → Lowers PFC observation threshold (🟢 Farb 2013)
+      → Lowers PFC reception threshold (🟢 Farb 2013)
       → More signals detected → feeling CLEARER
       → Interoceptive accuracy improves → body truth accessible
 
@@ -1632,7 +1632,7 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
 > **END OF Feeling-Mechanism-Deep-Draft.md v1.1**
 >
 > **Summary:** HOW feeling works end-to-end:
->   §1: Feeling = PFC observation of body-chunk interaction
+>   §1: Feeling = PFC reception of body-chunk interaction
 >   §2: Multi-channel signals → integrated via insula + ACC + VMPFC
 >   §3: 8-step operational flow (the "Processing System")
 >   §4: Reward = opioid (NOT dopamine). 5 preconditions (Body-Feedback-Precondition). Eureka model.

@@ -22,7 +22,7 @@ scope: |
 purpose: |
   Novelty.md + Threat.md = individual mechanisms.
   This file = HOW they COMBINE → action at each moment.
-  Core-Software.md §8 lists observation parameters. This file explains the interaction.
+  Core-Software.md §9 lists observation parameters. This file explains the interaction.
 position: |
   Core-Deep-Dive/Observation/ — INTEGRATION file, read AFTER Novelty + Threat.
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -48,7 +48,7 @@ source_file: Core-Deep-Dive/Observation/Drive.md
 ## Table of Contents
 
 - §0 — DRIVE AS OBSERVATION PARAMETER
-- §1 — UNCONSCIOUS = ENGINE, PFC = OBSERVER-ORCHESTRATOR
+- §1 — UNCONSCIOUS = ENGINE, PFC = ORCHESTRATOR
 - §2 — PFC PARTICIPATION SPECTRUM: 6 MODES
 - §3 — DRIVE CONFLICT: 4 TYPES + RESOLUTION
 - §4 — PULL vs PUSH: WHY IT MATTERS
@@ -144,7 +144,7 @@ POSITION OF THIS FILE:
   │ OBSERVATION PARAMETERS (individual):                     │
   │   Novelty.md  — PULL toward opportunity                  │
   │   Threat.md   — PUSH away from harm                      │
-  │   (Status, Connection, Meaning,... — Core-Software.md §8)│
+  │   (Status, Connection, Meaning,... — Core-Software.md §9)│
   └────────────────────────┬────────────────────────────────┘
                            │
                            ▼
@@ -158,7 +158,7 @@ POSITION OF THIS FILE:
 
 ---
 
-## §1 — UNCONSCIOUS = ENGINE, PFC = OBSERVER-ORCHESTRATOR
+## §1 — UNCONSCIOUS = ENGINE, PFC = ORCHESTRATOR
 
 ```
 ⭐ WHY IS THE UNCONSCIOUS THE MAIN ENGINE?
@@ -334,7 +334,7 @@ DRIVE-PFC-ABSENT (PFC ~0-5%)
 DRIVE-PFC-MONITOR (PFC ~5-15%)
 ═══════════════════════════════════════════════════════
 
-  PFC observing, NOT intervening. "Security camera."
+  PFC monitoring, NOT intervening. "Security camera."
   Unconscious still running ~90%. PFC scans: "anything unusual?"
   If it detects dissonance → ESCALATES to Drive-PFC-Spinning+.
 
@@ -742,7 +742,7 @@ DRIVE × NEW CONCEPTS (Concept Cascade):
 ```
   ← FOUNDATION (read first):
     Core-Software.md §1 — cycle architecture
-    Core-Software.md §8 — ALL observation parameters
+    Core-Software.md §9 — ALL observation parameters
     Observation/Novelty.md v1.2 — PULL mechanism deep-dive
     Observation/Threat.md v1.2 — PUSH mechanism deep-dive
     Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture
@@ -756,7 +756,7 @@ DRIVE × NEW CONCEPTS (Concept Cascade):
     Body-Feedback-Mechanism.md v2.0 — chunk dynamics → body-feedback
     Chunk.md v2.3 — chunk substrate
     Valence-Propagation.md v3.0 — structural/current valence, 3 firing modes
-    Feeling.md v3.0 — PFC observation interface
+    Feeling.md v3.0 — PFC reception interface
     Cortisol-Baseline.md v2.0 — amplifier dynamics
     Body-Feedback-Label.md v2.0 — vocabulary reference
     Simulation-Engine.md v1.0 — drive prediction uses simulation

@@ -233,7 +233,7 @@ Reading order optimizes for dependencies, not classification.*
 
 *Note: Autonomy-Hardware (3A #3) and Autonomy (3C #11) are companion files.*
 
-*3 observation parameters without dedicated files (described only in Core-Software.md §8):
+*3 observation parameters without dedicated files (described only in Core-Software.md §9):
 Disgust (rejection threshold), Mastery (sustained domain accumulation), Passion (hardware + domain pull align).*
 
 ### Enrichment 3
@@ -284,7 +284,7 @@ Disgust (rejection threshold), Mastery (sustained domain accumulation), Passion 
 
 | Bridge | Mechanism | Key concept |
 |--------|-----------|-------------|
-| Body↔PFC | Feeling = PFC observation interface | Body-Knowing + Somatic-Articulation-Loop |
+| Body↔PFC | Feeling = PFC reception interface | Body-Knowing + Somatic-Articulation-Loop |
 | PFC↔Domain | Imagine-Final + Logic-Planning | Dual Check: body = quality controller, domain = final arbiter |
 | PFC↔Entity | Simulation-Engine → Self-Pattern-Modeling | 1 engine → N applications (self/other/future) |
 | Body↔Entity | Body-Coupling + Entity-Compiled | Hardware-Subsidy per bond type |

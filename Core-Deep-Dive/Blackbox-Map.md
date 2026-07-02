@@ -55,7 +55,7 @@ The framework describes the body-brain system at the BEHAVIORAL level:
   → "Chunks compile through repetition + emotional peak"
   → "Cortisol = amplifier, not a stress hormone"
   → "Dopamine = salience signal, not reward"
-  → "PFC observes, does not control"
+  → "PFC receives, does not control"
 
 These claims have evidence support (🟢) or synthesis (🟡).
 But at EACH claim, the framework JUMPS OVER a gap:
@@ -99,7 +99,7 @@ DUAL PURPOSE:
     (click, type, drag)               (actions, decisions, reactions)
     = observable                      = framework CAN DESCRIBE ⭐
 
-  Layer 4: USER INTERFACE            Layer 4: FEELING + PFC OBSERVATION
+  Layer 4: USER INTERFACE            Layer 4: FEELING + PFC RECEPTION
     (cursor, windows, menus)          (consciousness, perception, observation)
     = VISIBLE, describable            = framework describes PATTERN (7-layer)
 
@@ -660,13 +660,13 @@ The framework describes feeling through a 7-layer fidelity gradient
   Feel-Labeling:           Labeling                    40-80%  ← CRITICAL LOSS
   Feel-Explanation:        Explanation                    20-70%  ← MOST RISKY
 
-  (🟡 % = calibration anchor, not precisely measured — Core-Software.md §12.4)
+  (🟡 % = calibration anchor, not precisely measured — Core-Software.md §13.4)
 
 The framework knows:
   → Anterior insula = hub integrating interoceptive signals (🟢 Craig 2002, 2009)
   → ACC = conflict detection (🟢 Botvinick 2004)
   → vmPFC = somatic marker, emotion regulation (🟢 Damasio 1994)
-  → PFC observes COMPILED RESULTS, not raw data
+  → PFC receives COMPILED RESULTS, not raw data
   → Body processes FIRST → PFC ALWAYS knows AFTER
   → Temporal order is NEVER reversed (🟢 Libet 1983)
 ```
@@ -691,11 +691,11 @@ The framework knows:
     Framework: Feel-Integration→Feel-Consciousification = "becomes conscious"
     Missing: exactly HOW does neural activity BECOME subjective experience?
     → = HARD PROBLEM OF CONSCIOUSNESS (Chalmers 1995)
-    → Framework EXPLICITLY out of scope (Core-Software.md §12.2)
+    → Framework EXPLICITLY out of scope (Core-Software.md §13.2)
     → Framework describes: when, where, what pattern — does NOT describe: why there is qualia
 
-  SUB-GAP 3: PFC "observe" — HOW?
-    Framework: "PFC observes chunk activations + body signals"
+  SUB-GAP 3: PFC "receive" — HOW does it become knowing?
+    Framework: "PFC receives chunk activations + body signals"
     Missing: PFC RECEIVES input from B+C zones via axonal connections
       → but HOW does "receiving" = "observing"?
       → PFC mixed selectivity (🟢 Rigotti 2013) = encoding complex info
@@ -1082,11 +1082,11 @@ SUPERSEDED:
 RELATED META-ANALYSIS:
   Creator-Lens.md             → creator bias analysis
   Epistemological-Position.md → framework vs conventional science positioning
-  Core-Software.md §12        → honest assessment + scope limits + open questions
+  Core-Software.md §13        → honest assessment + scope limits + open questions
 
 REFERENCING THIS FILE:
   (To be updated after file is complete)
-  → Chunk.md §10, Body-Base.md §10, Core-Software.md §12
+  → Chunk.md §10, Body-Base.md §10, Core-Software.md §13
   → Ask-AI.md (AI protocol)
 ```
 

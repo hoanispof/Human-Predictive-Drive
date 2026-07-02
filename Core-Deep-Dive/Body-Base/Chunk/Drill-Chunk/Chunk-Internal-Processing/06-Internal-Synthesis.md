@@ -223,7 +223,7 @@ Drill Label → Framework Name Mapping (added 2026-05-30)
   Beyond H12:
     → Insight = low-probability link fires (extends 01b)
     → Vague detection → insight pipeline (04→05 connection)
-    → Tacit = compiled below PFC observation threshold
+    → Tacit = compiled below PFC reception threshold
     → Tacit on H5 gradient extreme position
     → Piaget stages = chunk database thresholds (parsimony gain)
     → Cognition upgrade = chunk accumulation (not hardware maturation)

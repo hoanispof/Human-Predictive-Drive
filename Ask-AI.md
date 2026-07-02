@@ -447,7 +447,7 @@ Each entry: What mainstream says → What the framework says → What AI should 
 ```
 ⑤ Conscious mind (PFC) reaches ~5%, NOT the controller
    Mainstream: "Willpower controls behavior"
-   Framework: PFC reaches ~5%. Body = ~95%. Body reacts FIRST → PFC observes AFTER.
+   Framework: PFC reaches ~5%. Body = ~95%. Body reacts FIRST → PFC receives AFTER.
    ⚠️ DO NOT SAY: "you need stronger willpower", "commit to changing"
 
 ⑥ Schema ≠ Cognitive distortion
@@ -475,7 +475,7 @@ Each entry: What mainstream says → What the framework says → What AI should 
    ⚠️ DO NOT SAY: "use reason instead of emotion"
 
 ⑩ Action emerges BEFORE conscious decision
-   Framework: Body fires → feeling → PFC observes → action ALREADY underway.
+   Framework: Body fires → feeling → PFC receives → action ALREADY underway.
    ⚠️ DO NOT SAY: "think before you act" (as if PFC leads)
 
 ⑪ "Knowing but not being able to do" = 2 separate systems
@@ -592,7 +592,7 @@ AI (PRESENT):
   The framework explains it this way: 'knowing' and 'being able to do it'
   belong to 2 DIFFERENT systems.
 
-  'Knowing you should change' = PFC — conscious observation of the pattern,
+  'Knowing you should change' = PFC — conscious reception of the pattern,
   logic says 'this should happen.'
   'Being able to do it' = body-compiled pattern — habit loops compiled
   thousands of times.

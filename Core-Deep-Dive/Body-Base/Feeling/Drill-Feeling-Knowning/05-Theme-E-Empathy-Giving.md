@@ -124,7 +124,7 @@ warning: Largest theme — user emphasized importance
 
 More precisely:
 - **Empathy is NOT a separate feeling or module**
-- **Empathy IS the process of**: own Self-Pattern Match library running simulation with the other's body as input → producing own body-state as an approximate copy → PFC observing own body's fit-judgment as "feeling"
+- **Empathy IS the process of**: own Self-Pattern Match library running simulation with the other's body as input → producing own body-state as an approximate copy → PFC receiving own body's fit-judgment as "feeling"
 - **Result**: "I feel what they feel (weakly)"
 
 **Why this reframe matters:**
@@ -136,7 +136,7 @@ More precisely:
 
 **→ Answer to Q1 "What is empathy?":**
 
-> **Empathy = body simulation output (Resonance) producing one's own body-state as a weak copy of the inferred other-state, which PFC then observes as a feeling. NOT a separate system. IS a byproduct of how the brain processes agents via own-template simulation.**
+> **Empathy = body simulation output (Resonance) producing one's own body-state as a weak copy of the inferred other-state, which PFC then receives as a feeling. NOT a separate system. IS a byproduct of how the brain processes agents via own-template simulation.**
 
 **Confidence: HIGH** — Bird & Cook 2013 is decisive evidence; framework coverage converges; cross-species behavior confirmed.
 
@@ -370,7 +370,7 @@ This is **NEGATIVE TRUST dominant** (Anchor-Schema §2):
 - Own body fires: positive mirror
 
 **Trigger 2: Gratitude received** ("hearing thank-you")
-- Positive status signal: being valued by the recipient (observation parameter — Core-Software.md §8)
+- Positive status signal: being valued by the recipient (observation parameter — Core-Software.md §9)
 - Signals: "the effort was recognized and appreciated"
 - Valence compiles positive about this interaction
 - Self-Pattern-Modeling: recipient's warmth → own body warmth
@@ -740,7 +740,7 @@ This is consistent with spiritual traditions' emphasis on cultivating non-attach
 ### §3.1 — Direct answers to user's questions
 
 **Q1: What is empathy?**
-→ **NOT a separate system.** Empathy = Resonance output applied to another agent. Own Self-Pattern Match library runs simulation with the other's body as input → own body produces a weak copy → PFC observes the fit-judgment as a feeling. Bird & Cook 2013 is decisive evidence for this learning-based model.
+→ **NOT a separate system.** Empathy = Resonance output applied to another agent. Own Self-Pattern Match library runs simulation with the other's body as input → own body produces a weak copy → PFC receives the fit-judgment as a feeling. Bird & Cook 2013 is decisive evidence for this learning-based model.
 
 **Q2a: When do you want to give (mango surplus case)?**
 → When your own body-base is met + you see someone who needs + Resonance fires a positive reward preview. Natural resource distribution mechanism (Empathy-Mirror §6.5). Mirror reward > keep reward when already satiated.
@@ -792,7 +792,7 @@ All giving dynamics (joy, discomfort, unconditional) decompose through the same 
 4. **Schema match** (community norm, moral framework, relationship)
 5. **Trust balance** (positive anticipation vs negative avoidance)
 6. **Mirror reward calculation** (anticipated + actual)
-7. **PFC observation** of the integrated signal as feeling
+7. **PFC reception** of the integrated signal as feeling
 
 **Joy arises** when: positive convergence across these layers.
 **Discomfort arises** when: negative signals or violated expectations.
@@ -824,9 +824,9 @@ All giving dynamics (joy, discomfort, unconditional) decompose through the same 
 ### §4.1 — Theme A (Architecture)
 
 Theme E is a **test case for Theme A architecture:**
-- All giving dynamics run through PFC observing integrated unconscious processing
+- All giving dynamics run through PFC receiving integrated unconscious processing
 - Resonance = one source feeding into the integration hub
-- Body-First: the body calculates, PFC observes the result as "affinity" or "discomfort"
+- Body-First: the body calculates, PFC receives the result as "affinity" or "discomfort"
 - Bidirectional: bottom-up (mirror signals) + top-down (schema retrieval via PFC)
 
 **→ Theme A architecture handles Theme E without modification.**
@@ -887,7 +887,7 @@ Giving is heavily feeling-biased:
 
 **Theme E in 6 sentences:**
 
-1. **Empathy = Resonance output** (NOT a separate system). Own Self-Pattern Match library simulates another agent → own body produces a weak copy → PFC observes the result as a feeling. Bird & Cook 2013 decisive: alexithymia drives empathy deficits, not autism.
+1. **Empathy = Resonance output** (NOT a separate system). Own Self-Pattern Match library simulates another agent → own body produces a weak copy → PFC receives the result as a feeling. Bird & Cook 2013 decisive: alexithymia drives empathy deficits, not autism.
 
 2. **Affinity (*thiện cảm*) = compound positive valence** from convergence of safety + positive mirror + compiled valence + schema match + agent input. NOT a single feeling — a label for positive convergence. Activates when multiple positive signals align simultaneously.
 

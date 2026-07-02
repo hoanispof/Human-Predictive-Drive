@@ -462,7 +462,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │                   │ COMPILED               │ FRESH                        │
     │                   │ (automatic)            │ (deliberate)                 │
     ├───────────────────┼───────────────────────┼──────────────────────────────┤
-    │ PFC role          │ PASSIVE or ZERO        │ ACTIVE (observe + adjust)    │
+    │ PFC role          │ PASSIVE or ZERO        │ ACTIVE (receive + adjust)    │
     ├───────────────────┼───────────────────────┼──────────────────────────────┤
     │ Calibration       │ IMPOSSIBLE (below PFC) │ POSSIBLE (PFC accessible)    │
     ├───────────────────┼───────────────────────┼──────────────────────────────┤
@@ -539,7 +539,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Cortisol direction: NOVELTY → approach tag
     Body state: relaxed, open, exploratory
     Compiled: Agent-mode (curious about entity's actual state)
-    PFC role: observe + simulate + compare + adjust
+    PFC role: receive + simulate + compare + adjust
 
   THREAT MODE (destructive calibration):
     "'Am I controlling too much? Am I a bad parent?'"
@@ -774,7 +774,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Cannot detect own gap source → entity-access feels "all genuine"
     Source: low interoceptive accuracy, alexithymia, habituated signals
     Looks like: "'but I genuinely love them!'"
-      (PFC cannot observe C beneath A)
+      (PFC cannot receive C beneath A)
     Fix: interoception training, body awareness practice,
       Focusing (Gendlin 1978)
     Timeline: months (body-readout skill, trainable — Fukushima 2011)

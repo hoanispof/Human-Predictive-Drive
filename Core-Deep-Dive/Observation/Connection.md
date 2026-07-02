@@ -72,7 +72,7 @@ dependencies:
   - Anchor-Schema.md — sync point, Trust binding, 4 sources
   - Threat.md — 3 origin sources, imposed adult threat
   - Cortisol-Baseline.md v2.1 — amplifier, social buffering, vicious cycle
-  - Feeling.md v3.0 — PFC observation interface, 7-layer, PFC=Lawyer
+  - Feeling.md v3.0 — PFC reception interface, 7-layer, PFC=Lawyer
   - Imagine-Final.md v3.0 — constructive simulation, boundary reframe
   - Boredom.md v2.0 — 6 sources, unified formula, threshold model
   - Body-Feedback-Label.md v2.0 — vocabulary reference, 3-tier labels
@@ -383,7 +383,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
           🟡 "You're not even human" = body VERBALIZES the exact mechanism:
              Body SHUTS DOWN agent-function for target (suppress Self-Pattern-Modeling §10)
              → Target: AGENT → OBJECT
-             → PFC observes → verbalizes it naturally
+             → PFC receives → verbalizes it naturally
              → = Somatic-Articulation-Loop: body-knowledge → language
              🟢 Bandura 1999: Moral Disengagement
              🟢 Haslam 2006: 2 forms dehumanization
@@ -1658,7 +1658,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     (Bond-Architecture.md v2.0 §3 — 5-step architectural proof)
 
-    PFC observes partner "becoming like me" → PFC labels it "over-cloned."
+    PFC receives partner "becoming like me" → PFC labels it "over-cloned."
     ACTUALLY: Gap clone = ARCHITECTURALLY IMPOSSIBLE because:
       ① Gap = f(ENTIRE chunk network) — Self-Pattern-Modeling only ADDS a few chunks about partner
       ② Background-Pattern RESISTS shifting (decades of Background-Pattern ≠ months of Self-Pattern-Modeling)
@@ -2632,8 +2632,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → Subsidy explains why contrast is STRONGER for mother than for friends
 
     ③ FIRST-TIME ARTICULATION:
-       With mother: PFC observes NEGATIVE (salient — scolding, forbidding)
-       Positive Valence-Structural = Tonic → habituated → PFC DOESN'T observe it
+       With mother: PFC receives NEGATIVE (salient — scolding, forbidding)
+       Positive Valence-Structural = Tonic → habituated → PFC DOESN'T receive it
        Absent + poetry/reflection: linguistic chunks DESCRIBE compiled Valence-Structural
        → PFC MATCHES words ↔ compiled Valence-Structural → first-time ARTICULATION
        → De-habituation: novel context → VTA fires on same content → reward
@@ -2641,7 +2641,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → 3 mechanisms STACK: negative faded + subsidized baseline revealed
       + articulation + de-habituation = "Only when apart does one realize love"
     → NOT a paradox — 3 MECHANISMS explain the trajectory precisely
-    → Body KNEW for 20 years; PFC observes it for the first time with the proper lens
+    → Body KNEW for 20 years; PFC receives it for the first time with the proper lens
 
     🟡 3-mechanism model = framework synthesis (Entity-Valence-Dynamics.md v1.0 §8)
 
@@ -2668,7 +2668,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ❶ Hardware always fires "need social input" (§3.1, §6).
   When social input is LACKING or INSUFFICIENT QUALITY:
     → Body-feedback dissonance in social channel
-    → PFC observes → verbalizes "emptiness"
+    → PFC receives → verbalizes "emptiness"
 
   BUT: "emptiness" has MANY TYPES depending on which primitive is missed:
 
@@ -2751,7 +2751,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → NOT sick (different from body-sick: sick = L0/L1 channel specific)
   → = PRECISELY body state: social channel fires "lacking" + doesn't resolve
 
-  = Somatic-Articulation-Loop: body-knowledge → PFC observes → verbalizes
+  = Somatic-Articulation-Loop: body-knowledge → PFC receives → verbalizes
   "Emptiness" = body IS SAYING: "social channel EMPTY, no input"
 ```
 
@@ -2794,13 +2794,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §16.4 — Developmental: when does one begin to feel lonely?
 
 ```
-🟡 LONELINESS REQUIRES PFC OBSERVATION + VERBALIZATION:
+🟡 LONELINESS REQUIRES PFC RECEPTION + VERBALIZATION:
 
   → Separation anxiety ~8-12 months = PROTO-loneliness
     (Chunk-Miss: caregiver absent → distress, but pre-Self-Pattern-Modeling)
-  → TRUE loneliness ~3-5 years: Self-Pattern-Modeling online + PFC observes social state
+  → TRUE loneliness ~3-5 years: Self-Pattern-Modeling online + PFC receives social state
     + verbalizes "I am alone" + COMPARES with compiled baseline "having friends"
-  → = Loneliness needs: ❶ drive + ❷ Self-Pattern-Modeling sufficient (has baseline) + PFC observes
+  → = Loneliness needs: ❶ drive + ❷ Self-Pattern-Modeling sufficient (has baseline) + PFC receives
   → Children < 18 months are NOT LONELY — only have ❶ distress (pre-Self-Pattern-Modeling)
 ```
 
@@ -2836,7 +2836,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⚠️ PFC = LAWYER IN "LONELINESS" DOMAIN:
 
-    PFC is NOT a neutral observer — PFC creates narrative FOR body-base.
+    PFC is NOT a neutral receiver — PFC creates narrative FOR body-base.
     Applied to "loneliness":
 
     ① PFC can MASK loneliness:
@@ -3034,7 +3034,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   CORE + PROCESSING:
     → Core-v7.8-Draft.md §8 — Connection definition
     → Cortisol-Baseline.md v2.1 — cortisol amplifier, baseline drift
-    → Feeling.md v3.0 — PFC observation interface, 7-layer, PFC=Lawyer
+    → Feeling.md v3.0 — PFC reception interface, 7-layer, PFC=Lawyer
     → Imagine-Final.md v3.0 — constructive simulation, boundary reframe
     → Logic-Feeling.md v2.1 — Compiled/Fresh primary axis, Domain Stability
 

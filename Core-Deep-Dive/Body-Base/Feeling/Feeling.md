@@ -48,11 +48,11 @@ dependencies:
 > but the UNIFIED FEEDBACK SYSTEM the body uses to tell the PFC:
 > "something is happening inside me."
 >
-> Body processes first. Feeling appears. PFC observes after.
+> Body processes first. Feeling appears. PFC receives after.
 > This order NEVER reverses.
 >
 > Feeling is NOT a separate system — feeling is WHAT PFC SEES
-> when it observes body-chunk interaction running.
+> when it receives body-chunk interaction running.
 >
 > **"Humans need to FEEL accurately → AI will help PLAN accurately."**
 
@@ -70,11 +70,11 @@ dependencies:
   - [§2.0 Naming Convention](#20)
   - [§2.1 Overview](#21)
   - [§2.2 Feel-RawSignals–Feel-Consciousification: Body Domain](#22)
-  - [§2.2b PFC Observation Threshold — 2 Dimensions](#22b)
+  - [§2.2b PFC Reception Threshold — 2 Dimensions](#22b)
   - [§2.3 Feel-Observation–Feel-Explanation: PFC Processing Domain](#23)
   - [§2.4 Fidelity Loss Diagram](#24)
   - [§2.5 Compiled/Fresh × 7-Layer Mapping](#25)
-- [§3 — CORE CLAIM: Feeling = PFC Observation of Body-Chunk Interaction](#3)
+- [§3 — CORE CLAIM: Feeling = PFC Reception of Body-Chunk Interaction](#3)
   - [§3.1 Core Claim](#31)
   - [§3.2 Body-First Invariant](#32)
   - [§3.3 Alexithymia Validation: observation difficulty ≠ signal difficulty](#33)
@@ -157,7 +157,7 @@ dependencies:
     → "mirror" = feeling others' states
     → "imagine-final preview" = preview feelings
     → "valence" = compiled feelings
-    → "chunk activation → PFC observes" = feeling IS this observation
+    → "chunk activation → PFC receives" = feeling IS this reception
 
   FEELING = CENTRAL FEEDBACK SYSTEM:
     ┌──────────────────────────────────────────────────────────────┐
@@ -167,9 +167,9 @@ dependencies:
     │   ↓ chunks fire → body states emerge                        │
     │ INTEGRATION (insula + ACC + VMPFC — multi-source hub)       │
     │   ↓ unified body state                                      │
-    │ FEELING (integrated feedback — PFC-observable)               │
+    │ FEELING (integrated feedback — PFC-accessible)               │
     │   ↓                                                         │
-    │ PFC OBSERVE → Drive → Action → New body state → Loop        │
+    │ PFC RECEIVE → Drive → Action → New body state → Loop        │
     └──────────────────────────────────────────────────────────────┘
 
   DISTINCTION FROM OTHER FILES:
@@ -209,12 +209,12 @@ dependencies:
 ```
 ⭐ FEELING — FORMAL DEFINITION:
 
-  FEELING = WHAT PFC SEES when it observes body-chunk interaction.
+  FEELING = WHAT PFC SEES when it receives body-chunk interaction.
 
   Expanded:
     Feeling = an INTEGRATED feedback signal about the state of body systems
               (body-base (L0+L1) + agent input + mirror + schema + imagine-final
-              + valence + cognitive prediction) → OBSERVABLE at the PFC level.
+              + valence + cognitive prediction) → ACCESSIBLE at the PFC level.
 
   Concisely: Feeling is the WAY the body makes itself noticeable to the PFC.
 
@@ -233,11 +233,11 @@ dependencies:
      Body has MANY systems firing simultaneously (body-base, mirror, schema,
      imagine-final, valence, cognitive). Feeling integrates ALL.
 
-  ④ "OBSERVABLE at the PFC level" — PFC-accessible
+  ④ "ACCESSIBLE at the PFC level" — PFC-accessible
      Feeling must be STRONG ENOUGH for PFC to notice. Body processes
      unconsciously and continuously — only a small portion rises to become feeling.
-     "Observable" does not mean "already has words" — it means PFC CAN
-     interact with it (observe, locate, label, explain — even if imperfect).
+     "Accessible" does not mean "already has words" — it means PFC CAN
+     interact with it (receive, locate, label, explain — even if imperfect).
 
 
   SIMPLE FORMULA:
@@ -259,7 +259,7 @@ dependencies:
   IN THIS FRAMEWORK, "feeling" is MUCH BROADER:
 
   Emotion narrow = 1 SUBSET of feeling (limbic valence)
-  Feeling = all body state changes PFC can observe
+  Feeling = all body state changes PFC can receive
 
   7 TYPES OF FEELING (all the SAME SYSTEM):
 
@@ -271,7 +271,7 @@ dependencies:
     ⑥ Valence: "like this," "hate that name," "I love you"
     ⑦ Schema-triggered: "at peace coming home," "shudder remembering that place"
 
-  ALL 7 TYPES = SAME MECHANISM: integrated body signal → PFC observe.
+  ALL 7 TYPES = SAME MECHANISM: integrated body signal → PFC receive.
   Framework uses "FEELING" as the broadest, most inclusive term.
 ```
 
@@ -385,7 +385,7 @@ dependencies:
   │ BODY LEVEL (highest fidelity)                                             │
   └────────────────────────────────────────────────────────────────────────────┘
 
-  % = calibration anchor, NOT a measurement (details: §2.3, Core-Software.md §12.4).
+  % = calibration anchor, NOT a measurement (details: §2.3, Core-Software.md §13.4).
 
   Feel-RawSignals–Feel-Consciousification = BODY-based (pre-PFC or PFC-adjacent)
   Feel-Observation–Feel-Explanation = PFC PROCESSING of feeling (high-fidelity-loss zone)
@@ -423,7 +423,7 @@ dependencies:
     (Feel-Consciousification = ignition threshold, Consciousness.md §5.1)
 ```
 
-### §2.2b PFC Observation Threshold — 2 Dimensions (between Feel-Consciousification and Feel-Observation)
+### §2.2b PFC Reception Threshold — 2 Dimensions (between Feel-Consciousification and Feel-Observation)
 
 ```
 🟡 THRESHOLD CROSSING = f(magnitude × clarity):
@@ -457,7 +457,7 @@ dependencies:
   FRAMEWORK CONNECTIONS:
   → Feeling-Chunk-Bridge.md §1.2: activation distribution → feeling clarity
   → Body-Feedback-Precondition Precondition-2 Chunk-Substrate "chunks base adequate" = clarity for body-feedback signal
-  → Self-signal interoception = clarity for ALL feeling observation
+  → Self-signal interoception = clarity for ALL feeling reception
   → Alexithymia = low clarity for self-signal → PFC "deaf" to own body
   → Training (meditation, Focusing) = increases clarity → lowers threshold
 ```
@@ -466,7 +466,7 @@ dependencies:
 
 ```
 🟡 FEEL-OBSERVATION — OBSERVATION (~85%):
-  → PFC actively observes: "something is happening in me."
+  → PFC actively receives: "something is happening in me."
   → Different from Feel-Consciousification: Feel-Consciousification = body MAKES noticeable.
     Feel-Observation = PFC PAYS attention.
   → Error mode: busy PFC → misses Feel-Consciousification signals (alexithymia, distraction).
@@ -534,7 +534,7 @@ dependencies:
   Feel-Labeling:           Labeling                ████████░░░░░░░░░░░    40-80%
   Feel-Explanation:        Explanation             ████░░░░░░░░░░░░░░░    20-70%
 
-  🟡 % = calibration anchor — direction + magnitude, NOT measurement (Core-Software.md §12.4).
+  🟡 % = calibration anchor — direction + magnitude, NOT measurement (Core-Software.md §13.4).
      Insight: fidelity DECREASES upward + critical drop at Feel-Labeling–Feel-Explanation.
      Per person/domain/context → actual % varies — these are norms.
 
@@ -608,7 +608,7 @@ dependencies:
 
 ---
 
-## §3 — CORE CLAIM: Feeling = PFC Observation of Body-Chunk Interaction
+## §3 — CORE CLAIM: Feeling = PFC Reception of Body-Chunk Interaction
 
 > **Integrated from Feeling-Mechanism-Deep §1 — fundamental reframe.**
 
@@ -624,17 +624,17 @@ dependencies:
     → Body systems firing continuously (body-base, mirror, schema, imagine-final...)
     → Chunks activating according to probability distribution (Chunk.md §4)
     → Body integrating signals at insula + ACC + VMPFC (🟢 Craig 2009)
-    → PFC observing the integrated state → THAT IS FEELING
+    → PFC receiving the integrated state → THAT IS FEELING
 
   Feeling = INTERFACE between body computation and PFC awareness.
-  Body = processes (compiled patterns fire). Feeling = the result that surfaces. PFC = observe + label + explain.
+  Body = processes (compiled patterns fire). Feeling = the result that surfaces. PFC = receive + label + explain.
 
 
 ⭐ 4 CONSEQUENCES:
 
   ① Feeling does NOT CREATE new information
-     → Body finishes processing → feeling REPORTS → PFC observes
-     → Temporal order: Body compute → Feeling emerge → PFC observe
+     → Body finishes processing → feeling REPORTS → PFC receives
+     → Temporal order: Body compute → Feeling emerge → PFC receive
      → 🟢 Damasio 1994, 1999: somatic markers PRECEDE conscious decision
 
   ② Feeling CANNOT BE WRONG at the raw level (Feel-RawSignals–Feel-Consciousification)
@@ -656,7 +656,7 @@ dependencies:
 ### §3.2 Body-First Invariant
 
 ```
-🟢 ESTABLISHED — body computes FIRST, PFC observes AFTER:
+🟢 ESTABLISHED — body computes FIRST, PFC receives AFTER:
 
   EVIDENCE:
     → 🟢 Damasio VMPFC patients: PFC intact, feeling broken → cannot decide
@@ -670,7 +670,7 @@ dependencies:
     T=50ms     Integration begins (insula + ACC)
     T=100ms    Integrated state forms
     T=150ms    Consciousification threshold (Feel-Consciousification)
-    T=200ms+   PFC observation (Feel-Observation+)
+    T=200ms+   PFC reception (Feel-Observation+)
     T=300ms+   Label attempt (Feel-Labeling)
     T=500ms+   Explanation generation (Feel-Explanation)
 
@@ -679,12 +679,12 @@ dependencies:
   → PFC = camera, NOT director. Body = scene, NOT controlled.
 
   ⚠️ PFC CAN INFLUENCE THE NEXT CYCLE:
-    → PFC observe → label → plan → action → new body state → NEW feeling
+    → PFC receive → label → plan → action → new body state → NEW feeling
     → PFC does NOT change CURRENT feeling → ONLY changes NEXT feeling via action
     → = Loop, not linear (§9)
 ```
 
-### §3.3 Alexithymia Validation: observation difficulty ≠ signal difficulty
+### §3.3 Alexithymia Validation: reception difficulty ≠ signal difficulty
 
 ```
 🟢 AUTISM DRILL CONFIRMS CORE CLAIM (Autism-Observation.md §5.3):
@@ -701,18 +701,18 @@ dependencies:
     → Alexithymia predicted poor accuracy, autism did NOT
     → = Interoceptive difficulty = alexithymia, not autism
 
-  ⭐ CONFIRMS §3.1: FEELING = PFC OBSERVATION:
-    → Alexithymia = observation/labeling DIFFICULTY (PFC layer, §2 Feel-Observation–Feel-Explanation)
+  ⭐ CONFIRMS §3.1: FEELING = PFC RECEPTION:
+    → Alexithymia = reception/labeling DIFFICULTY (PFC layer, §2 Feel-Observation–Feel-Explanation)
     → Body-feedback signals STILL FIRE (Feel-RawSignals–Feel-Consciousification intact)
     → = Signal production ≠ Signal reading
-    → = Feeling IS THERE but PFC observation IMPAIRED
-    → ~50% autistic WITH alexithymia → difficulty (PFC observation impaired)
-    → ~50% autistic WITHOUT alexithymia → TYPICAL (PFC observation intact)
-    → = EXACTLY what §3.1 predicts: body compute → feeling emerge → PFC observe
-      Alexithymia = PFC observation step COMPROMISED → body still computes, PFC cannot read
+    → = Feeling IS THERE but PFC reception IMPAIRED
+    → ~50% autistic WITH alexithymia → difficulty (PFC reception impaired)
+    → ~50% autistic WITHOUT alexithymia → TYPICAL (PFC reception intact)
+    → = EXACTLY what §3.1 predicts: body compute → feeling emerge → PFC receive
+      Alexithymia = PFC reception step COMPROMISED → body still computes, PFC cannot read
 
   🟢 Bird & Cook 2013, Shah et al. 2016, Kinnaird et al. 2019
-  🟡 Alexithymia as validation of "feeling = PFC observation" = framework synthesis
+  🟡 Alexithymia as validation of "feeling = PFC reception" = framework synthesis
 ```
 
 ### §3.4 PFC = Lawyer: Structural Bias in Feeling Interpretation (v3.0)
@@ -720,11 +720,11 @@ dependencies:
 ```
 ⭐ PFC INTERPRETATION OF FEELING = LAWYERING (Inter-Body-Mechanism.md §7):
 
-  §3.1 claims: "Feeling = WHAT PFC SEES when observing body-chunk interaction."
+  §3.1 claims: "Feeling = WHAT PFC SEES when receiving body-chunk interaction."
   §3.2 confirms: "Body first, PFC after. ALWAYS."
   §2.5 Feel-Explanation: "PFC = Lawyer for body-base."
 
-  BUT: PFC "observation" ≠ neutral camera.
+  BUT: PFC "reception" ≠ neutral reading.
   PFC = LAWYER for body-base:
     → Body-need fires → drive → PFC creates NARRATIVE FOR that drive
     → Person believes narrative = "observation" — actually = confabulation
@@ -762,18 +762,18 @@ dependencies:
 ```
 ⭐⭐ SAME MECHANISM, DIFFERENT ATTENTION DIRECTION:
 
-  §3.1 claims: "Feeling = WHAT PFC SEES when observing body-chunk interaction."
-  BUT: attention direction CHANGES what gets observed:
+  §3.1 claims: "Feeling = WHAT PFC SEES when receiving body-chunk interaction."
+  BUT: attention direction CHANGES what gets received:
 
   ┌──────────────────────────────────────────────────────────────┐
   │ FEELING DIRECTED AT DOMAIN:                                  │
-  │   PFC observes body reaction to EVALUATE domain input        │
+  │   PFC receives body reaction to EVALUATE domain input        │
   │   "Is this math problem right?" → body fires → feeling → "yes" │
   │   "Does this dish taste good?" → body fires → feeling → "needs salt" │
   │   Target: EXTERNAL domain. Body = feedback tool.             │
   │                                                               │
   │ FEELING DIRECTED AT SELF:                                    │
-  │   PFC observes body state to UNDERSTAND ONESELF             │
+  │   PFC receives body state to UNDERSTAND ONESELF              │
   │   "What am I feeling?" → body state → feeling → "sad"       │
   │   "Why have I been irritable lately?" → body state → look for pattern │
   │   Target: SELF (body-state). PFC reads own body.             │
@@ -838,7 +838,7 @@ dependencies:
                                ├ ACC ("conflict?")
                                └ VMPFC ("value?")
                                       ↓
-                              INTEGRATED STATE → PFC observation
+                              INTEGRATED STATE → PFC reception
 ```
 
 ### §4.2 Integration Mechanism (5 Steps)
@@ -872,7 +872,7 @@ dependencies:
     → = Unified state becomes DIRECTIONAL
 
   → RESULT: 1000s of signals → 1 unified, valued, directional body state
-  → THAT IS "unified feeling" — ready for PFC to observe
+  → THAT IS "unified feeling" — ready for PFC to receive
 
 
 ⭐ SELF-SIGNAL INTEROCEPTION (architectural keystone):
@@ -905,7 +905,7 @@ dependencies:
   │  ③ SIGNAL INTEGRATION                                          │
   │     (insula + ACC + VMPFC → unified state)                     │
   │                              ↓                                 │
-  │  ④ PFC OBSERVATION THRESHOLD                                   │
+  │  ④ PFC RECEPTION THRESHOLD                                     │
   │     (signal strong enough → conscious / not → background)      │
   │                              ↓                                 │
   │  ⑤ CHUNK PATTERN-MATCH                                         │
@@ -944,7 +944,7 @@ dependencies:
     → Body-Need = AGGREGATE of all signals currently demanding satisfaction
     → 7 properties: always present, multiple parallel, has priority,
       has direction, PFC doesn't always know, can conflict, can be hijacked
-    → Feeling system = OBSERVATION INTERFACE for body-need aggregate
+    → Feeling system = RECEPTION INTERFACE for body-need aggregate
 
 ② VTA DETECTS DELTA:
   → VTA = "seismograph" — detects CHANGE, not absolute state.
@@ -960,7 +960,7 @@ dependencies:
   → IF NOT → baseline level → "ambient" feeling.
   → Result = 1 unified state: valence × arousal × coherence × specificity.
 
-④ PFC OBSERVATION THRESHOLD:
+④ PFC RECEPTION THRESHOLD:
   → = Feel-Consciousification → Feel-Observation transition: unconscious → conscious.
   → Threshold determinants: signal strength, VTA boost, PFC attention,
     contrast/change, current PFC load.
@@ -975,7 +975,7 @@ dependencies:
 
 ```
 ⑤ CHUNK PATTERN-MATCH:
-  → PFC observes feeling → spreading activation (Chunk.md §4).
+  → PFC receives feeling → spreading activation (Chunk.md §4).
   → Current body state → activates chunks with SIMILAR body-state tags.
   → 🟢 Bower 1981 mood-congruent memory: emotional state biases activation.
 
@@ -1173,20 +1173,20 @@ dependencies:
   EVALUATIVE REWARD (opioid-dependent):
     → Cortical processing → OFC/vmPFC evaluate → opioid release (if match)
     → Insight, beauty, coherence, social approval = all Evaluative Reward
-    → PFC can OBSERVE clearly (PFC involved in pathway)
+    → PFC can RECEIVE clearly (PFC involved in pathway)
     → VARIES across individuals (hardware, childhood, exposure)
 
   DIRECT-STATE REWARD (non-opioid):
     → Hardware-level: CT afferents (touch), endocannabinoid (exercise),
       oxytocin (social proximity), serotonin (satiety)
-    → Below PFC level → PFC observes DIFFERENTLY (body-state shift, not "pleasant")
+    → Below PFC level → PFC receives DIFFERENTLY (body-state shift, not "pleasant")
     → "Comfortable" more than "pleasant" — less dramatic, more foundational
     → LESS variable across individuals = "democratic reward"
 
-  ⭐ Feeling system = SAME observation system for both Evaluative and Direct-State:
+  ⭐ Feeling system = SAME reception system for both Evaluative and Direct-State:
     → BUT fidelity DIFFERS:
-    → Evaluative Reward → PFC observes at Feel-Observation–Feel-Labeling (clear, labelable)
-    → Direct-State Reward → PFC observes at Feel-Integration–Feel-Consciousification (vague, body-state shift)
+    → Evaluative Reward → PFC receives at Feel-Observation–Feel-Labeling (clear, labelable)
+    → Direct-State Reward → PFC receives at Feel-Integration–Feel-Consciousification (vague, body-state shift)
     → = WHY "insight" = crisp feeling, "comfortable" = diffuse feeling
 
 
@@ -1227,19 +1227,19 @@ dependencies:
   → Compiled/Fresh × E₀→E₃: Reward-Signal-Architecture §1.7
 
 
-  ⭐ DISSONANCE DIRECTION — SAME OBSERVATION PATTERN (Dissonance-Signal-Architecture.md v1.0 §1):
+  ⭐ DISSONANCE DIRECTION — SAME RECEPTION PATTERN (Dissonance-Signal-Architecture.md v1.0 §1):
 
     §6.5 above = REWARD direction. DISSONANCE also has Evaluative/Direct-State:
 
-    EVALUATIVE DISSONANCE → PFC observes at Feel-Observation–Feel-Labeling (clear, labelable):
+    EVALUATIVE DISSONANCE → PFC receives at Feel-Observation–Feel-Labeling (clear, labelable):
       → "Anxiety," "heartache," "unease," "shame"
       → PFC CAN label because PFC is involved in the evaluation pathway (dACC + anterior insula)
       → PFC CAN modulate: reframe, suppress (temporarily)
       → = Most adult suffering observable at the feeling level
 
-    DIRECT-STATE DISSONANCE → PFC observes at Feel-Integration–Feel-Consciousification (vague, body-state shift):
+    DIRECT-STATE DISSONANCE → PFC receives at Feel-Integration–Feel-Consciousification (vague, body-state shift):
       → "Pain," "discomfort," "heat," "itch," "hunger"
-      → PFC observes RESULT (body-state change), not SOURCE (hardware signal)
+      → PFC receives RESULT (body-state change), not SOURCE (hardware signal)
       → PFC CANNOT effectively modulate (hardware pathway)
       → = "Less dramatic" feeling but NUMBNESS-PROOF
 
@@ -1537,7 +1537,7 @@ dependencies:
   │     ↓                                                    │
   │  FEELING (Feel-Consciousification: becomes noticeable)   │
   │     ↓                                                    │
-  │  PFC OBSERVE (Feel-Observation–Feel-Explanation: locate, label, explain) │
+  │  PFC RECEIVE (Feel-Observation–Feel-Explanation: locate, label, explain) │
   │     ↓                                                    │
   │  DRIVE (feeling → direction of motivation)              │
   │     ↓                                                    │
@@ -1687,7 +1687,7 @@ dependencies:
 ```
 ⭐ FEELING LITERACY — DEFINITION:
 
-  = The ability of PFC to observe body-chunk interaction at HIGH FIDELITY.
+  = The ability of PFC to receive body-chunk interaction at HIGH FIDELITY.
 
   5 FACTORS (each = a chunk system property → TRAINABLE):
 
@@ -1750,7 +1750,7 @@ dependencies:
 ⭐ 5-STAGE FRAMEWORK (grounded in chunk mechanism):
 
   Stage 1: BODY AWARENESS
-    → Goal: lower PFC observation threshold → detect MORE signals
+    → Goal: lower PFC reception threshold → detect MORE signals
     → Mechanism: interoceptive prediction refinement (Seth 2013),
       attention pathway strengthening, habituation reduction
     → Methods: body scan (MBSR), interoceptive check-in, breath awareness
@@ -1936,7 +1936,7 @@ dependencies:
 
   ⚠ 7-layer structure (framework contribution, useful heuristic, not validated taxonomy)
   ⚠ 8-step operational flow (each step grounded, integration = framework)
-  ⚠ Feeling = PFC observation of body-chunk interaction (consistent, reframe = framework)
+  ⚠ Feeling = PFC reception of body-chunk interaction (consistent, reframe = framework)
   ⚠ Multi-Weak-Signal-Convergence (consistent with priming research, not directly tested)
   ⚠ Convergence zone as structural concept (phenomenology via Gendlin, mechanism plausible)
   ⚠ 5 preconditions for reward Body-Feedback-Precondition (individually grounded, matrix = framework)
@@ -1949,7 +1949,7 @@ dependencies:
   ⚠ 5-mismatch evolutionary framing (plausible evolutionary psychology, not rigorously tested)
   ⚠ Feeling loop as "core framework loop" (framework claim)
   ⚠ AI era → feeling literacy critical (logical argument, prediction about future)
-  ⚠ Alexithymia validates "feeling = PFC observation" (v2.2 — Bird & Cook 2013)
+  ⚠ Alexithymia validates "feeling = PFC reception" (v2.2 — Bird & Cook 2013)
   ⚠ PFC = Lawyer as structural principle for Feel-Explanation (v3.0 — consistent with Gazzaniga,
     Haidt, Nisbett & Wilson; formal principle = framework synthesis)
   ⚠ Compiled/Fresh × 7-Layer mapping (v3.0 — each component grounded independently,
@@ -2104,8 +2104,8 @@ dependencies:
 
   Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State Dissonance, Mismatch Splitting, Clinical
     → §6.5 dissonance note maps to Dissonance-Signal-Architecture §1 + §7.2
-    → Evaluative Reward (opioid), PFC observes clearly (Feel-Observation–Feel-Labeling)
-    → Direct-State Reward (non-opioid), PFC observes vaguely (Feel-Integration–Feel-Consciousification)
+    → Evaluative Reward (opioid), PFC receives clearly (Feel-Observation–Feel-Labeling)
+    → Direct-State Reward (non-opioid), PFC receives vaguely (Feel-Integration–Feel-Consciousification)
     → 5 Profiles = reward "flavors": ①Sensory ②Coherence ③Social ④Relief ⑤Preview
     → §0.3 Compilable Architecture connection (WHY reward system is general-purpose)
     → §1.7 Compiled/Fresh × E₀→E₃ (compilation depth)
@@ -2150,7 +2150,7 @@ dependencies:
 📚 HEALTH CONDITIONS DRILL (v2.2):
 
   Autism-Observation.md v1.0 §5.3 — Bird & Cook 2013, alexithymia (→ §3.3)
-  → Informed: §3.3 (alexithymia validates "feeling = PFC observation")
+  → Informed: §3.3 (alexithymia validates "feeling = PFC reception")
 
 📚 PROCESSING + PLANNING:
 
@@ -2158,7 +2158,7 @@ dependencies:
   Logic-Planning.md          — Label 3-tier, AI-assisted planning
   Somatic-Articulation-Loop.md — Body-knowledge → verbal-knowledge (7-stage loop)
   Imagine-Final.md           — Preview mechanism (preview feelings source)
-  PFC-Analysis.md            — PFC role observing feelings (Feel-Observation–Feel-Explanation)
+  PFC-Analysis.md            — PFC role receiving feelings (Feel-Observation–Feel-Explanation)
   Ask-AI.md v3.1             — Dual Check: body=quality controller, domain=arbiter (→ §8.3)
   Self-Observation.md v1.0   — APPLICATION-3: Feeling directed at SELF (→ §3.5)
     → §0: definition = f(Interoception × PFC_Encoding × Attention_Direction=SELF)
@@ -2251,7 +2251,7 @@ FEELING.MD v1.0 (English) — STATUS:
 
   CORE INSIGHT:
     → "Humans need to FEEL accurately → AI will help PLAN accurately."
-    → Chunk system and feeling system = ONE system, 2 observation angles.
+    → Chunk system and feeling system = ONE system, 2 angles.
     → PFC = Lawyer (not Judge) → trust body Feel-Consciousification–Feel-Observation
       over Feel-Explanation narrative.
 ```

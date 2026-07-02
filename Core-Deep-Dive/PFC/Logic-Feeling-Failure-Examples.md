@@ -482,7 +482,7 @@ Each type repeats throughout history.
   → PFC arrives AFTER body ~200ms → window for overreaction
   (Logic-Feeling-Balance.md §3.5: magnitude mismatch)
 
-  🟢 Damasio: body fires T=0ms, PFC observes T=200ms+
+  🟢 Damasio: body fires T=0ms, PFC receives T=200ms+
   🟢 Amygdala response: ~12ms (LeDoux 1996) — faster than PFC
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

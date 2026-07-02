@@ -588,11 +588,11 @@ Theme B reveals a **framework gap:**
 
 Theme B fits the Theme A architecture:
 - **Verbal labels = Feel-Labeling in the 7-layer model** (framework's explicit mapping)
-- **Verbal chain = PFC observation + chunking via verbal rehearsal**
+- **Verbal chain = PFC reception + chunking via verbal rehearsal**
 - **Pre-verbal body signals = Feel-Consciousification–Feel-Observation** (Felt Sense)
 - **Verbal DOESN'T generate feelings** — it labels what body/unconscious already produced
 
-Theme A's "PFC observes integrated unconscious processing" explicitly places verbal DOWNSTREAM of body computation.
+Theme A's "PFC receives integrated unconscious processing" explicitly places verbal DOWNSTREAM of body computation.
 
 ### §4.2 — Theme D (Right/Wrong Feeling)
 

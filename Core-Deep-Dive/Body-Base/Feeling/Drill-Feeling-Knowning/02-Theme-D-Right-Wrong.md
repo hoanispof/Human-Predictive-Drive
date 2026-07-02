@@ -11,7 +11,7 @@ confidence_target: HIGH for core mechanism, MEDIUM for edge cases
 
 # Theme D — Right/Wrong Feeling
 
-> **Test case for Theme A.** If the Theme A architecture is correct, cases of "right/wrong" feeling must be explainable through the PFC observation interface + 10-channel sources.
+> **Test case for Theme A.** If the Theme A architecture is correct, cases of "right/wrong" feeling must be explainable through the PFC reception interface + 10-channel sources.
 
 ---
 
@@ -94,9 +94,9 @@ confidence_target: HIGH for core mechanism, MEDIUM for edge cases
 - **Expert intuition**: "This code has a bug," "Something's unusual about this patient," "The rock is about to fall"
 - **Einstein**: "Feeling of riding a light beam," "Feeling the teacher is wrong," "Feeling the universe has a beautiful structure"
 
-**→ Direct answer to the meta-question**: Rightness/wrongness feeling belongs to the **Cognitive/Prediction channel** — one of 10 channels. Body signals (ACC, pattern match) integrate at the upstream hub → PFC observes as a feeling at Feel-Consciousification–Feel-Observation.
+**→ Direct answer to the meta-question**: Rightness/wrongness feeling belongs to the **Cognitive/Prediction channel** — one of 10 channels. Body signals (ACC, pattern match) integrate at the upstream hub → PFC receives as a feeling at Feel-Consciousification–Feel-Observation.
 
-**Not just "logic chain output"**: The worry was that a logic chain gives only binary (right/wrong) without a gradient. The framework's answer: **the gradient comes from body integration**, not from the logic chain itself. The body provides a graded signal (ACC firing intensity, prediction error magnitude, schema match percentage), and PFC observes it as a spectrum feeling.
+**Not just "logic chain output"**: The worry was that a logic chain gives only binary (right/wrong) without a gradient. The framework's answer: **the gradient comes from body integration**, not from the logic chain itself. The body provides a graded signal (ACC firing intensity, prediction error magnitude, schema match percentage), and PFC receives it as a spectrum feeling.
 
 ### §2.2 — Infant watching object pass through wall (Spelke/Baillargeon) — VERIFIED research
 
@@ -186,7 +186,7 @@ Step 6: Feel-Consciousification wrongness feeling emerges
          → Pre-verbal, body-level detection
          → NOT "step-by-step logic proof" — it's body feeling first
 
-Step 7: PFC observation + investigation
+Step 7: PFC reception + investigation
          → Feel-Observation: "Something is wrong here"
          → Feel-Location–Feel-Labeling: attempt to locate + label the contradiction
          → Feel-Explanation: "Maybe Newton is wrong at high velocity?"
@@ -573,7 +573,7 @@ All 4 cases = **same mechanism** applied across different domains + different sc
 1. Pattern matching against compiled schemas (innate or learned)
 2. ACC error detection + prediction error signals
 3. Multi-channel integration (body + cognitive + predictive + mirror)
-4. PFC observation at Feel-Consciousification–Feel-Observation (pre-verbal Felt Sense)
+4. PFC reception at Feel-Consciousification–Feel-Observation (pre-verbal Felt Sense)
 5. Subsequent PFC labeling at Feel-Location–Feel-Explanation (error-prone)
 
 **Sources of schemas:**
@@ -586,7 +586,7 @@ All 4 cases = **same mechanism** applied across different domains + different sc
 ### §3.2 — Direct answers to the 8 sub-questions
 
 **Q1: "Body feel or logic chain?"**
-→ **Neither alone — multi-channel integration via cognitive/prediction channel + body signals.** The body provides a graded signal (ACC, prediction error magnitude, schema match strength), PFC observes it as a feeling. Not pure logic (no gradient), not pure body (includes cognitive chunks).
+→ **Neither alone — multi-channel integration via cognitive/prediction channel + body signals.** The body provides a graded signal (ACC, prediction error magnitude, schema match strength), PFC receives it as a feeling. Not pure logic (no gradient), not pure body (includes cognitive chunks).
 
 **Q2: "Infants — is there research?"**
 → **YES.** Spelke Core Knowledge 2007, Baillargeon violation-of-expectation 1987+. Replicated cross-culturally. Infants at 5–6 months apply different rules to Object vs Agent. Framework already cites this.
@@ -637,7 +637,7 @@ All 4 cases = **same mechanism** applied across different domains + different sc
 Theme D is a **test case for the Theme A architecture** — all 4 cases (infant, Einstein, scientist, partner) run through:
 - **Unconscious processing** (schemas fire, simulation runs)
 - **Integration hub** (insula + ACC + VMPFC)
-- **PFC observation** at Feel-Consciousification–Feel-Observation
+- **PFC reception** at Feel-Consciousification–Feel-Observation
 - **Bidirectional flow** (PFC can direct investigation, but body signals first)
 
 **→ Theme A architecture passes the Theme D test.** No case required a mechanism outside the Theme A framework.

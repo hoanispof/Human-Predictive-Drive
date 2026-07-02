@@ -63,7 +63,7 @@ This file does NOT describe:
 ```
 🟡 PHYSICAL MAP — "WHAT IS WHERE, WHAT CONNECTS TO WHAT":
 
-  PFC at top — because every observer observes via PFC.
+  PFC at top — because conscious knowing is mediated by PFC.
   Domain wraps outside — body exists WITHIN domain.
   Gradient top-down: PFC reach DECREASES progressively.
 
@@ -71,7 +71,7 @@ This file does NOT describe:
   │                                                                              │
   │  ┌─ BODY (neural systems — physical architecture) ─────────────────────┐   │
   │  │                                                                      │   │
-  │  │  ┌─ A: PFC ── observer + orchestrator ──────────────────────────┐   │   │
+  │  │  ┌─ A: PFC ── orchestrator ──────────────────────────────────┐   │   │
   │  │  │  dlPFC ── working memory (~4±1 slots), planning, control      │   │   │
   │  │  │  vlPFC ── response inhibition, rule maintenance               │   │   │
   │  │  │  OFC ── value computation, reward expectation                 │   │   │
@@ -155,7 +155,7 @@ This file does NOT describe:
     → 🟢 Del Negro et al. 2018 — respiratory rhythm generation
 
   ⭐ IMPLICATIONS:
-    → PFC = observer + orchestrator → but the orchestra is ONLY strong in zones A+B
+    → PFC = orchestrator → but the orchestra is ONLY strong in zones A+B
     → Zone C: PFC influence via INDIRECT pathways only
     → Zone D: PFC is nearly powerless (except breathing)
     → "Willpower" = PFC holds → biases zone B → hopes for cascade to C, D
@@ -176,7 +176,7 @@ This file does NOT describe:
   │ D    │ ~50ms    │ Spinal reflex (FASTEST — before brain)            │
   │ C    │ ~12ms    │ Amygdala subcortical shortcut (thalamus→amygdala) │
   │ B    │ ~150ms   │ Cortical processing (visual, auditory, motor)     │
-  │ A    │ ~200ms+  │ PFC deliberate (SLOWEST — observer arrives LAST)  │
+  │ A    │ ~200ms+  │ PFC deliberate (SLOWEST — knowing arrives LAST)   │
   └──────┴──────────┴───────────────────────────────────────────────────┘
 
   EVOLUTIONARY LOGIC:
@@ -187,9 +187,9 @@ This file does NOT describe:
 
   IMPLICATIONS:
     → Body processes FIRST → PFC ALWAYS knows LAST
-    → The feeling "I decided" is actually PFC observing a decision ALREADY FORMED
+    → The feeling "I decided" is actually PFC receiving a decision ALREADY FORMED
     → 🟢 Libet 1983: readiness potential 300ms BEFORE conscious will
-    → = Timing hierarchy supports "PFC = observer, not controller"
+    → = Timing hierarchy supports "PFC = orchestrator, not controller"
 
   CROSS-REFERENCE:
     → NE α1 FREEZE (Cortisol-Baseline.md §9.1):
@@ -319,7 +319,7 @@ This file does NOT describe:
       → Visual / auditory / somatic / motor / emotional processing mix
       → Property of the WHOLE brain, not PFC or subcortical alone
       → Influences: how chunks compile (multi-modal richness)
-        and how PFC observes (which modality is dominant)
+        and how PFC receives signals (which modality is dominant)
       → 🟡 Mainstream has not clearly defined the PFC vs subcortical
            boundary for modality
       → Framework position: modality = brain-wide hardware property
@@ -375,7 +375,7 @@ This file does NOT describe:
 
 ```
   Core-Software.md §1.3: mapping table (Software function → Hardware location)
-  = "Body-Input at Receptors→D+C+B, PFC observes at A, Cortisol amplifier at C→cross-cutting"
+  = "Body-Input at Receptors→D+C+B, PFC receives at A, Cortisol amplifier at C→cross-cutting"
 ```
 
 ### §7.3 Hardware Deep-Dive Files

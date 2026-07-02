@@ -400,12 +400,12 @@ In womb:
 
 Consequence for PFC:
 - PFC's **primary adult function** — arbitrating between competing goals under domain-real feedback — has **no applicable input** in womb
-- PFC's **observational function** — processing sensory patterns — **is** active, working on what's available (auditory)
+- PFC's **receptive function** — processing sensory patterns — **is** active, working on what's available (auditory)
 - PFC's **compilation function** — creating new chunks — **is** active, producing prenatal chunks (maternal voice, language rhythm)
 
 **This explains user's framing of "no dissonance to engage with"**: PFC's arbitration function has no workload because the environment has no arbitration demands. But PFC is not inactive — its passive processing and compilation functions are running throughout late pregnancy.
 
-**Architectural implication for F1**: Post-birth arrival of domain-real dissonance (air on skin, light in eyes, gravity pulling body) is the **first time** PFC encounters its arbitration-relevant workload. Pre-birth PFC is like a computer that has been running but only on observational tasks; post-birth is when the first "real decisions" start mattering.
+**Architectural implication for F1**: Post-birth arrival of domain-real dissonance (air on skin, light in eyes, gravity pulling body) is the **first time** PFC encounters its arbitration-relevant workload. Pre-birth PFC is like a computer that has been running but only on receptive tasks; post-birth is when the first "real decisions" start mattering.
 
 ---
 
@@ -499,7 +499,7 @@ Each of these individually is a novel sensation at the moment of birth. **All fi
 
 **User's framing nuance** (from Q6): *"After birth, beginning to contact air, skin drying, the baby starts crying — first time they are pulled out by the neck, first time contact with domain real, first time breathing oxygen, dissonance, crying."*
 
-User's framing is **mostly correct** with one nuance: the "dissonance" at birth is not the framework's emotional-dissonance sense (which requires body-feedback mismatch processing). It's **physiological dissonance** — sudden change from homeostatic state to novel cardiorespiratory demands. The first cry responds to this physiological dissonance via brainstem reflex, not via PFC observation of body signal mismatch.
+User's framing is **mostly correct** with one nuance: the "dissonance" at birth is not the framework's emotional-dissonance sense (which requires body-feedback mismatch processing). It's **physiological dissonance** — sudden change from homeostatic state to novel cardiorespiratory demands. The first cry responds to this physiological dissonance via brainstem reflex, not via PFC reception of body signal mismatch.
 
 Framework commitment: First cry = **physiological dissonance triggering brainstem reflex**. Later cry = **body-base/feeling-layer dissonance triggering increasingly complex response**. Both are "cry" but operate at different architectural levels.
 

@@ -882,7 +882,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟡 Framework:
     Mesocortical depletion = PFC's fuel supply cuts off
-    → PFC capacity DECLINES → observation + orchestration WEAKENS
+    → PFC capacity DECLINES → reception + orchestration WEAKENS
     → THIS is when PRIMARY CIRCUIT also begins to fail
       (not just gate locked → PFC ITSELF weakened)
 

@@ -1228,12 +1228,12 @@ Each of the 3 signals maps to the body-feedback layer:
 
 **Reward signal**:
 - Source: schema match → opioid (PFC-Analysis §8.3 step 5)
-- Layer: Raw (body-feedback Feel-RawSignals — Feel-Integration) → PFC observes Feel-Consciousification — Feel-Observation
+- Layer: Raw (body-feedback Feel-RawSignals — Feel-Integration) → PFC receives Feel-Consciousification — Feel-Observation
 - Chunk tag: opioid (if novelty context) or cortisol-tinged (if threat context)
 
 **Fatigue signal**:
 - Source: PFC processing load + network load
-- Layer: Body-feedback raw (energy depletion sensors) → PFC observes as "brain heavy"
+- Layer: Body-feedback raw (energy depletion sensors) → PFC receives as "brain heavy"
 - Interoception: §4.9 self-signal picks up metabolic state
 
 **Dissonance signal**:
